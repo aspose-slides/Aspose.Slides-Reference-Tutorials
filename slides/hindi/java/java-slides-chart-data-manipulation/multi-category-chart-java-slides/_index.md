@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में बहु-श्रेणी चार्ट
-linktitle: जावा स्लाइड्स में बहु-श्रेणी चार्ट
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके Java स्लाइड्स में बहु-श्रेणी चार्ट बनाएँ। प्रस्तुतियों में प्रभावशाली डेटा विज़ुअलाइज़ेशन के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 20
-url: /hi/java/chart-data-manipulation/multi-category-chart-java-slides/
+"description": "Aspose.Slides for Java का उपयोग करके Java स्लाइड्स में बहु-श्रेणी चार्ट बनाएँ। प्रस्तुतियों में प्रभावशाली डेटा विज़ुअलाइज़ेशन के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "जावा स्लाइड्स में बहु-श्रेणी चार्ट"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में बहु-श्रेणी चार्ट"
+"url": "/hi/java/chart-data-manipulation/multi-category-chart-java-slides/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में बहु-श्रेणी चार्ट
@@ -16,7 +18,7 @@ url: /hi/java/chart-data-manipulation/multi-category-chart-java-slides/
 
 ## Aspose.Slides के साथ जावा स्लाइड्स में मल्टी-कैटेगरी चार्ट का परिचय
 
-इस ट्यूटोरियल में, हम सीखेंगे कि Aspose.Slides for Java API का उपयोग करके Java स्लाइड में मल्टी-कैटेगरी चार्ट कैसे बनाया जाता है। यह गाइड आपको कई श्रेणियों और श्रृंखलाओं के साथ क्लस्टर किए गए कॉलम चार्ट बनाने में मदद करने के लिए स्रोत कोड के साथ चरण-दर-चरण निर्देश प्रदान करेगा।
+इस ट्यूटोरियल में, हम सीखेंगे कि Aspose.Slides for Java API का उपयोग करके Java स्लाइड में मल्टी-कैटेगरी चार्ट कैसे बनाया जाता है। यह गाइड आपको कई श्रेणियों और श्रृंखलाओं के साथ एक क्लस्टर कॉलम चार्ट बनाने में मदद करने के लिए स्रोत कोड के साथ चरण-दर-चरण निर्देश प्रदान करेगा।
 
 ## आवश्यक शर्तें
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास Aspose.Slides for Java लाइब्रेरी स्थापित है और आपके Java विकास परिवेश में सेट अप है।
@@ -78,7 +80,7 @@ category = ch.getChartData().getCategories().add(fact.getCell(0, "c9", "H"));
 ```
 
 ## चरण 5: श्रृंखला जोड़ना
-अब, आइए डेटा बिंदुओं के साथ चार्ट में एक श्रृंखला जोड़ें।
+अब, डेटा बिंदुओं के साथ चार्ट में एक श्रृंखला जोड़ते हैं।
 
 ```java
 IChartSeries series = ch.getChartData().getSeries().add(fact.getCell(0, "D1", "Series 1"), ChartType.ClusteredColumn);
@@ -127,7 +129,7 @@ category = ch.getChartData().getCategories().add(fact.getCell(0, "c7", "F"));
 category = ch.getChartData().getCategories().add(fact.getCell(0, "c8", "G"));
 category.getGroupingLevels().setGroupingItem(1, "Group4");
 category = ch.getChartData().getCategories().add(fact.getCell(0, "c9", "H"));
-// श्रृंखला जोड़ना
+//            श्रृंखला जोड़ना
 IChartSeries series = ch.getChartData().getSeries().add(fact.getCell(0, "D1", "Series 1"),
 		ChartType.ClusteredColumn);
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, "D2", 10));
@@ -158,14 +160,16 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ### मैं चार्ट का प्रकार कैसे बदलूं?
 
- चार्ट प्रकार बदलने के लिए, प्रतिस्थापित करें`ChartType.ClusteredColumn` चरण 2 में चार्ट जोड़ते समय इच्छित चार्ट प्रकार के साथ।
+चार्ट प्रकार बदलने के लिए, प्रतिस्थापित करें `ChartType.ClusteredColumn` चरण 2 में चार्ट जोड़ते समय इच्छित चार्ट प्रकार के साथ।
 
 ### मैं चार्ट में शीर्षक कैसे जोड़ सकता हूँ?
 
- आप चार्ट में शीर्षक जोड़ सकते हैं`ch.getChartTitle().getTextFrame().setText("Chart Title");` तरीका।
+आप चार्ट में शीर्षक जोड़ सकते हैं `ch.getChartTitle().getTextFrame().setText("Chart Title");` तरीका।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

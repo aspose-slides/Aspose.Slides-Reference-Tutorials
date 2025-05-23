@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स को मार्कडाउन में बदलें
-linktitle: जावा स्लाइड्स को मार्कडाउन में बदलें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java के साथ PowerPoint प्रस्तुतियों को Markdown में बदलें। अपनी स्लाइड्स को आसानी से बदलने के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 24
-url: /hi/java/presentation-conversion/convert-to-markdown-java-slides/
+"description": "Aspose.Slides for Java के साथ PowerPoint प्रस्तुतियों को Markdown में बदलें। अपनी स्लाइड्स को आसानी से बदलने के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "जावा स्लाइड्स को मार्कडाउन में बदलें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स को मार्कडाउन में बदलें"
+"url": "/hi/java/presentation-conversion/convert-to-markdown-java-slides/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स को मार्कडाउन में बदलें
@@ -22,12 +24,12 @@ url: /hi/java/presentation-conversion/convert-to-markdown-java-slides/
 
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
 
--  Aspose.Slides for Java: आपके पास Aspose.Slides for Java API इंस्टॉल होना चाहिए। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://products.aspose.com/slides/java/).
+- Aspose.Slides for Java: आपके पास Aspose.Slides for Java API इंस्टॉल होना चाहिए। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://products.aspose.com/slides/java/).
 - जावा विकास वातावरण: आपके मशीन पर जावा विकास वातावरण स्थापित होना चाहिए।
 
 ## चरण 1: Aspose.Slides लाइब्रेरी आयात करें
 
- सबसे पहले, आपको अपने जावा प्रोजेक्ट में Aspose.Slides लाइब्रेरी को आयात करना होगा। आप अपने प्रोजेक्ट में निम्नलिखित Maven निर्भरता जोड़कर ऐसा कर सकते हैं`pom.xml` फ़ाइल:
+सबसे पहले, आपको अपने जावा प्रोजेक्ट में Aspose.Slides लाइब्रेरी को आयात करना होगा। आप अपने प्रोजेक्ट में निम्नलिखित Maven निर्भरता जोड़कर ऐसा कर सकते हैं `pom.xml` फ़ाइल:
 
 ```xml
 <dependency>
@@ -37,7 +39,7 @@ url: /hi/java/presentation-conversion/convert-to-markdown-java-slides/
 </dependency>
 ```
 
- प्रतिस्थापित करें`YOUR_VERSION_HERE` Java के लिए Aspose.Slides के उपयुक्त संस्करण के साथ.
+प्रतिस्थापित करें `YOUR_VERSION_HERE` Java के लिए Aspose.Slides के उपयुक्त संस्करण के साथ.
 
 ## चरण 2: पावरपॉइंट प्रेजेंटेशन लोड करें
 
@@ -83,7 +85,7 @@ mdOptions.setBasePath(outPath);
 pres.save(outPath + "pres.md", SaveFormat.Md, mdOptions);
 ```
 
- प्रतिस्थापित करें`"pres.md"` अपनी मार्कडाउन फ़ाइल के लिए वांछित नाम के साथ।
+प्रतिस्थापित करें `"pres.md"` अपनी मार्कडाउन फ़ाइल के लिए इच्छित नाम के साथ।
 
 ## चरण 5: सफ़ाई
 
@@ -141,10 +143,12 @@ try {
 
 ### मैं अधिक दस्तावेज और संसाधन कहां पा सकता हूं?
 
- आप जावा दस्तावेज़ के लिए Aspose.Slides का संदर्भ ले सकते हैं[Aspose.Slides for Java API संदर्भ](https://reference.aspose.com/slides/java/) विस्तृत जानकारी और अतिरिक्त उदाहरणों के लिए.
+आप जावा दस्तावेज़ के लिए Aspose.Slides का संदर्भ ले सकते हैं [Aspose.Slides for Java API संदर्भ](https://reference.aspose.com/slides/java/) विस्तृत जानकारी और अतिरिक्त उदाहरणों के लिए.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

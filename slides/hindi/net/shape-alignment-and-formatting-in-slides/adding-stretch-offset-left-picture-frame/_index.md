@@ -1,14 +1,16 @@
 ---
-title: Aspose.Slide के साथ PowerPoint में बाईं ओर स्ट्रेच ऑफसेट जोड़ना
-linktitle: Aspose.Slides में पिक्चर फ्रेम के लिए बाईं ओर स्ट्रेच ऑफसेट जोड़ना
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: जानें कि Aspose.Slides for .NET का उपयोग करके PowerPoint प्रस्तुतियों को कैसे बेहतर बनाया जाए। पिक्चर फ्रेम के लिए बाईं ओर स्ट्रेच ऑफ़सेट जोड़ने के लिए हमारे चरण-दर-चरण गाइड का पालन करें।
-weight: 14
-url: /hi/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left-picture-frame/
+"description": "जानें कि Aspose.Slides for .NET का उपयोग करके PowerPoint प्रस्तुतियों को कैसे बेहतर बनाया जाए। पिक्चर फ्रेम के लिए बाईं ओर स्ट्रेच ऑफ़सेट जोड़ने के लिए हमारे चरण-दर-चरण गाइड का पालन करें।"
+"linktitle": "Aspose.Slides में पिक्चर फ्रेम के लिए बाईं ओर स्ट्रेच ऑफसेट जोड़ना"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "Aspose.Slide के साथ PowerPoint में बाईं ओर स्ट्रेच ऑफसेट जोड़ना"
+"url": "/hi/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left-picture-frame/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Slide के साथ PowerPoint में बाईं ओर स्ट्रेच ऑफसेट जोड़ना
@@ -17,7 +19,7 @@ url: /hi/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left
 Aspose.Slides for .NET एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को PowerPoint प्रस्तुतियों को आसानी से हेरफेर करने में सक्षम बनाती है। इस ट्यूटोरियल में, हम Aspose.Slides for .NET का उपयोग करके चित्र फ़्रेम के लिए बाईं ओर एक स्ट्रेच ऑफ़सेट जोड़ने की प्रक्रिया का पता लगाएंगे। PowerPoint प्रस्तुतियों के भीतर छवियों और आकृतियों के साथ काम करने में अपने कौशल को बढ़ाने के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें।
 ## आवश्यक शर्तें
 ट्यूटोरियल में शामिल होने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
--  Aspose.Slides for .NET: सुनिश्चित करें कि आपके पास लाइब्रेरी स्थापित है। यदि नहीं, तो इसे यहाँ से डाउनलोड करें[.NET दस्तावेज़ीकरण के लिए Aspose.Slides](https://reference.aspose.com/slides/net/).
+- Aspose.Slides for .NET: सुनिश्चित करें कि आपके पास लाइब्रेरी स्थापित है। यदि नहीं, तो इसे यहाँ से डाउनलोड करें [.NET दस्तावेज़ीकरण के लिए Aspose.Slides](https://reference.aspose.com/slides/net/).
 - विकास परिवेश: .NET क्षमताओं के साथ कार्यशील विकास परिवेश रखें।
 ## नामस्थान आयात करें
 अपने .NET प्रोजेक्ट में आवश्यक नामस्थानों को आयात करके आरंभ करें:
@@ -30,7 +32,7 @@ using Aspose.Slides.Export;
 ## चरण 1: अपना प्रोजेक्ट सेट करें
 एक नया प्रोजेक्ट बनाएँ या मौजूदा प्रोजेक्ट खोलें। सुनिश्चित करें कि आपके प्रोजेक्ट में Aspose.Slides लाइब्रेरी का संदर्भ दिया गया है।
 ## चरण 2: प्रेजेंटेशन ऑब्जेक्ट बनाएँ
- उदाहरण प्रस्तुत करें`Presentation` क्लास, जो PPTX फ़ाइल का प्रतिनिधित्व करता है:
+उदाहरण प्रस्तुत करें `Presentation` क्लास, जो PPTX फ़ाइल का प्रतिनिधित्व करता है:
 ```csharp
 using (Presentation pres = new Presentation())
 {
@@ -72,7 +74,7 @@ aShape.FillFormat.PictureFillFormat.StretchOffsetRight = 25;
 aShape.FillFormat.PictureFillFormat.StretchOffsetTop = -20;
 aShape.FillFormat.PictureFillFormat.StretchOffsetBottom = -10;
 ```
-## चरण 9: प्रेजेंटेशन सहेजें
+## चरण 9: प्रस्तुति सहेजें
 PPTX फ़ाइल को डिस्क पर लिखें:
 ```csharp
 pres.Save(dataDir + "StretchOffsetLeftForPictureFrame_out.pptx", SaveFormat.Pptx);
@@ -88,12 +90,14 @@ pres.Save(dataDir + "StretchOffsetLeftForPictureFrame_out.pptx", SaveFormat.Pptx
 ### प्रश्न: क्या Aspose.Slides नवीनतम .NET फ्रेमवर्क के साथ संगत है?
 उत्तर: Aspose.Slides को नवीनतम .NET फ्रेमवर्क संस्करणों के साथ संगतता सुनिश्चित करने के लिए नियमित रूप से अपडेट किया जाता है।
 ### प्रश्न: मैं Aspose.Slides के लिए अतिरिक्त उदाहरण और संसाधन कहां पा सकता हूं?
- उत्तर: अन्वेषण करें[Aspose.Slides दस्तावेज़ीकरण](https://reference.aspose.com/slides/net/) विस्तृत उदाहरण और मार्गदर्शन के लिए.
+उत्तर: अन्वेषण करें [Aspose.Slides दस्तावेज़ीकरण](https://reference.aspose.com/slides/net/) विस्तृत उदाहरण और मार्गदर्शन के लिए.
 ### प्रश्न: क्या मैं एक ही आकृति पर एकाधिक स्ट्रेच ऑफसेट लागू कर सकता हूँ?
 उत्तर: हां, आप जटिल और अनुकूलित दृश्य प्रभाव प्राप्त करने के लिए कई स्ट्रेच ऑफसेट को संयोजित कर सकते हैं।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

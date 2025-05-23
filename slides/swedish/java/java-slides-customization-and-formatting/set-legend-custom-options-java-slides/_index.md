@@ -1,29 +1,31 @@
 ---
-title: Ställ in anpassade förklaringsalternativ i Java Slides
-linktitle: Ställ in anpassade förklaringsalternativ i Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Lär dig hur du ställer in anpassade förklaringsalternativ i Java Slides med Aspose.Slides för Java. Anpassa förklaringens position och storlek i dina PowerPoint-diagram.
-weight: 14
-url: /sv/java/customization-and-formatting/set-legend-custom-options-java-slides/
+"description": "Lär dig hur du ställer in anpassade förklaringsalternativ i Java Slides med Aspose.Slides för Java. Anpassa förklaringens position och storlek i dina PowerPoint-diagram."
+"linktitle": "Ange anpassade alternativ för förklaring i Java-presentationer"
+"second_title": "Aspose.Slides Java PowerPoint-bearbetnings-API"
+"title": "Ange anpassade alternativ för förklaring i Java-presentationer"
+"url": "/sv/java/customization-and-formatting/set-legend-custom-options-java-slides/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ställ in anpassade förklaringsalternativ i Java Slides
+# Ange anpassade alternativ för förklaring i Java-presentationer
 
 
-## Introduktion till att ställa in anpassade förklaringsalternativ i Java Slides
+## Introduktion till att ange anpassade alternativ för förklaring i Java-presentationer
 
-I den här självstudien kommer vi att visa hur man anpassar förklaringsegenskaperna för ett diagram i en PowerPoint-presentation med Aspose.Slides för Java. Du kan ändra förklaringens position, storlek och andra attribut för att passa dina presentationsbehov.
+den här handledningen visar vi hur du anpassar förklaringsegenskaperna för ett diagram i en PowerPoint-presentation med hjälp av Aspose.Slides för Java. Du kan ändra förklaringens position, storlek och andra attribut för att passa dina presentationsbehov.
 
-## Förutsättningar
+## Förkunskapskrav
 
 Innan du börjar, se till att du har följande:
 
 - Aspose.Slides för Java API installerat.
-- Java utvecklingsmiljö inrättad.
+- Java-utvecklingsmiljö konfigurerad.
 
 ## Steg 1: Importera nödvändiga klasser:
 
@@ -38,7 +40,7 @@ import com.aspose.slides.*;
 String dataDir = "Your Document Directory";
 ```
 
-##  Steg 3: Skapa en instans av`Presentation` class:
+## Steg 3: Skapa en instans av `Presentation` klass:
 
 ```java
 Presentation presentation = new Presentation();
@@ -51,33 +53,33 @@ try {
     ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
-## Steg 5: Lägg till ett klustrat kolumndiagram till bilden:
+## Steg 5: Lägg till ett klustrat stapeldiagram på bilden:
 
 ```java
     IChart chart = slide.getShapes().addChart(ChartType.ClusteredColumn, 50, 50, 500, 500);
 ```
 
-## Steg 6. Ställ in förklaringsegenskaper:
+## Steg 6. Ange förklaringsegenskaper:
 
-- Ställ in X-positionen för förklaringen (relativt diagrambredden):
+- Ställ in X-positionen för förklaringen (relativt till diagrammets bredd):
 
 ```java
 chart.getLegend().setX(50 / chart.getWidth());
 ```
 
-- Ställ in Y-positionen för förklaringen (relativt diagramhöjden):
+- Ställ in Y-positionen för förklaringen (i förhållande till diagrammets höjd):
 
 ```java
 chart.getLegend().setY(50 / chart.getHeight());
 ```
 
-- Ställ in förklaringens bredd (relativt diagrambredden):
+- Ange bredden på förklaringen (i förhållande till diagrammets bredd):
 
 ```java
 chart.getLegend().setWidth(100 / chart.getWidth());
 ```
 
-- Ställ in höjden på förklaringen (relativt diagramhöjden):
+- Ställ in höjden på förklaringen (i förhållande till diagrammets höjd):
 
 ```java
 chart.getLegend().setHeight(100 / chart.getHeight());
@@ -92,22 +94,22 @@ chart.getLegend().setHeight(100 / chart.getHeight());
 }
 ```
 
-Det är allt! Du har framgångsrikt anpassat förklaringsegenskaperna för ett diagram i en PowerPoint-presentation med Aspose.Slides för Java.
+Det var allt! Du har framgångsrikt anpassat förklaringsegenskaperna för ett diagram i en PowerPoint-presentation med Aspose.Slides för Java.
 
-## Komplett källkod för Ange anpassade alternativ för förklaring i Java Slides
+## Komplett källkod för anpassade alternativ för ange förklaring i Java-bilder
 
 ```java
 // Sökvägen till dokumentkatalogen.
 String dataDir = "Your Document Directory";
-// Skapa en instans av presentationsklassen
+// Skapa en instans av Presentation-klassen
 Presentation presentation = new Presentation();
 try
 {
-	// Få referens till bilden
+	// Hämta referens till bilden
 	ISlide slide = presentation.getSlides().get_Item(0);
-	// Lägg till ett klustrat kolumndiagram på bilden
+	// Lägg till ett klustrat stapeldiagram på bilden
 	IChart chart = slide.getShapes().addChart(ChartType.ClusteredColumn, 50, 50, 500, 500);
-	// Ställ in teckenegenskaper
+	// Ange förklaringsegenskaper
 	chart.getLegend().setX(50 / chart.getWidth());
 	chart.getLegend().setY(50 / chart.getHeight());
 	chart.getLegend().setWidth(100 / chart.getWidth());
@@ -122,24 +124,26 @@ finally
 ```
 ## Slutsats
 
-I den här handledningen lärde vi oss hur man anpassar förklaringsegenskaperna för ett diagram i en PowerPoint-presentation med Aspose.Slides för Java. Du kan ändra förklaringens position, storlek och andra attribut för att skapa visuellt tilltalande och informativa presentationer.
+I den här handledningen lärde vi oss hur man anpassar förklaringsegenskaperna för ett diagram i en PowerPoint-presentation med hjälp av Aspose.Slides för Java. Du kan ändra förklaringens position, storlek och andra attribut för att skapa visuellt tilltalande och informativa presentationer.
 
-## FAQ's
+## Vanliga frågor
 
-## Hur kan jag ändra legendens position?
+## Hur kan jag ändra förklaringens position?
 
- För att ändra förklaringens position, använd`setX` och`setY` metoder för legendobjektet. Värdena anges i förhållande till diagrammets bredd och höjd.
+För att ändra förklaringens position, använd `setX` och `setY` metoder för legendobjektet. Värdena anges i förhållande till diagrammets bredd och höjd.
 
-## Hur kan jag justera legendens storlek?
+## Hur kan jag justera storleken på förklaringen?
 
- Du kan justera förklaringens storlek genom att använda`setWidth` och`setHeight` metoder för legendobjektet. Dessa värden är också relativa till diagrammets bredd och höjd.
+Du kan justera storleken på förklaringen med hjälp av `setWidth` och `setHeight` metoder för legendobjektet. Dessa värden är också relativa till diagrammets bredd och höjd.
 
 ## Kan jag anpassa andra förklaringsattribut?
 
-Ja, du kan anpassa olika attribut för förklaringen, såsom teckensnitt, ram, bakgrundsfärg och mer. Utforska Aspose.Slides-dokumentationen för detaljerad information om hur du anpassar förklaringar ytterligare.
+Ja, du kan anpassa olika attribut för förklaringen, till exempel teckensnitt, kantlinje, bakgrundsfärg med mera. Utforska Aspose.Slides-dokumentationen för detaljerad information om hur du anpassar förklaringar ytterligare.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

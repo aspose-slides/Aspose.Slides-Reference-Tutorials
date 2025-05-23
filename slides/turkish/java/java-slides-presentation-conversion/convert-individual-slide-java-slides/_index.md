@@ -1,37 +1,39 @@
 ---
-title: Java Slaytlarında Bireysel Slaydı Dönüştürme
-linktitle: Java Slaytlarında Bireysel Slaydı Dönüştürme
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides for Java'yı kullanarak ayrı ayrı PowerPoint slaytlarını adım adım kod örnekleriyle HTML'ye nasıl dönüştüreceğinizi öğrenin.
-weight: 12
-url: /tr/java/presentation-conversion/convert-individual-slide-java-slides/
+"description": "Aspose.Slides for Java kullanarak kod örnekleriyle tek tek PowerPoint slaytlarını adım adım HTML'ye nasıl dönüştüreceğinizi öğrenin."
+"linktitle": "Java Slaytlarında Bireysel Slaytları Dönüştürme"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java Slaytlarında Bireysel Slaytları Dönüştürme"
+"url": "/tr/java/presentation-conversion/convert-individual-slide-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java Slaytlarında Bireysel Slaydı Dönüştürme
+# Java Slaytlarında Bireysel Slaytları Dönüştürme
 
 
 ## Java Slaytlarında Bireysel Slaytları Dönüştürmeye Giriş
 
-Bu eğitimde, Aspose.Slides for Java kullanarak tek tek slaytları PowerPoint sunumundan HTML'ye dönüştürme sürecini anlatacağız. Bu adım adım kılavuz, bu görevi başarmanıza yardımcı olacak kaynak kodunu ve açıklamaları sağlayacaktır.
+Bu eğitimde, Aspose.Slides for Java kullanarak bir PowerPoint sunumundan tek tek slaytları HTML'ye dönüştürme sürecini ele alacağız. Bu adım adım kılavuz, bu görevi başarmanıza yardımcı olacak kaynak kodu ve açıklamaları sağlayacaktır.
 
-## Önkoşullar
+## Ön koşullar
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-- Aspose.Slides for Java kütüphanesi kuruldu.
-- Bir PowerPoint sunum dosyası (`Individual-Slide.pptx`) dönüştürmek istediğinizi seçin.
+- Java için Aspose.Slides kütüphanesi kuruldu.
+- Bir PowerPoint sunum dosyası (`Individual-Slide.pptx`) dönüştürmek istediğiniz.
 - Java geliştirme ortamı kuruldu.
 
-## 1. Adım: Projeyi Kurun
+## Adım 1: Projeyi Kurun
 
 1. Tercih ettiğiniz geliştirme ortamında bir Java projesi oluşturun.
-2. Aspose.Slides for Java kütüphanesini projenize ekleyin.
+2. Projenize Aspose.Slides for Java kütüphanesini ekleyin.
 
-## Adım 2: Gerekli Sınıfları İçe Aktarın
+## Adım 2: Gerekli Sınıfları İçeri Aktarın
 
 Java sınıfınızda gerekli sınıfları içe aktarın ve ilk yapılandırmayı ayarlayın.
 
@@ -50,7 +52,7 @@ import com.aspose.slides.IShape;
 
 ## Adım 3: Ana Dönüşüm Yöntemini Tanımlayın
 
- Tek tek slaytların dönüştürülmesini gerçekleştirmek için bir yöntem oluşturun. Değiştirdiğinizden emin olun`"Your Document Directory"` belge dizininizin gerçek yolu ile.
+Tek tek slaytların dönüşümünü gerçekleştirmek için bir yöntem oluşturun. Değiştirdiğinizden emin olun `"Your Document Directory"` belge dizininize giden gerçek yol ile.
 
 ```java
 public static void convertIndividualSlides() {
@@ -62,7 +64,7 @@ public static void convertIndividualSlides() {
         INotesCommentsLayoutingOptions notesOptions = htmlOptions.getNotesCommentsLayouting();
         notesOptions.setNotesPosition(NotesPositions.BottomFull);
         
-        // Dosya Kaydediliyor
+        // Dosya kaydediliyor
         for (int i = 0; i < presentation.getSlides().size(); i++) {
             presentation.save(dataDir + "Individual-Slide" + (i + 1) + "_out.html", new int[]{i + 1}, SaveFormat.Html, htmlOptions);
         }
@@ -74,7 +76,7 @@ public static void convertIndividualSlides() {
 
 ## Adım 4: CustomFormattingController'ı uygulayın
 
- Oluştur`CustomFormattingController` dönüştürme sırasında özel biçimlendirmeyi işlemek için sınıf.
+Oluştur `CustomFormattingController` Dönüştürme sırasında özel biçimlendirmeyi işleyen sınıf.
 
 ```java
 public static class CustomFormattingController implements IHtmlFormattingController {
@@ -103,9 +105,9 @@ public static class CustomFormattingController implements IHtmlFormattingControl
 }
 ```
 
-## Adım 5: Dönüşümü Gerçekleştirin
+## Adım 5: Dönüştürmeyi Gerçekleştirin
 
- Son olarak, şu numarayı arayın:`convertIndividualSlides` Dönüştürme işlemini yürütme yöntemi.
+Son olarak, şunu arayın: `convertIndividualSlides` dönüştürme işlemini yürütme yöntemi.
 
 ```java
 public static void main(String[] args) {
@@ -113,7 +115,7 @@ public static void main(String[] args) {
 }
 ```
 
-## Java Slaytlarında Bireysel Slaydı Dönüştürmek İçin Tam Kaynak Kodu
+## Java Slaytlarında Bireysel Slaytları Dönüştürmek İçin Tam Kaynak Kodu
 
 ```java
 	String dataDir = "Your Document Directory";
@@ -124,7 +126,7 @@ public static void main(String[] args) {
 		htmlOptions.setHtmlFormatter(HtmlFormatter.createCustomFormatter(new CustomFormattingController()));
 		INotesCommentsLayoutingOptions notesOptions = htmlOptions.getNotesCommentsLayouting();
 		notesOptions.setNotesPosition(NotesPositions.BottomFull);
-		// Dosya Kaydediliyor
+		// Dosya kaydediliyor              
 		for (int i = 0; i < presentation.getSlides().size(); i++)
 			presentation.save(dataDir + "Individual Slide" + i + 1 + "_out.html", new int[]{i + 1}, SaveFormat.Html, htmlOptions);
 	}
@@ -161,24 +163,26 @@ public static class CustomFormattingController implements IHtmlFormattingControl
 
 ## Çözüm
 
-Aspose.Slides for Java'yı kullanarak tek tek slaytları PowerPoint sunumundan HTML'ye başarıyla dönüştürdünüz. Bu eğitimde size bu görevi gerçekleştirmek için gerekli kod ve adımlar sağlanmıştır. Çıktıyı ve biçimlendirmeyi özel gereksinimlerinize göre özelleştirmekten çekinmeyin.
+Aspose.Slides for Java kullanarak bir PowerPoint sunumundan tek tek slaytları başarıyla HTML'ye dönüştürdünüz. Bu eğitim size bu görevi başarmanız için gereken kodu ve adımları sağladı. Çıktıyı ve biçimlendirmeyi özel gereksinimleriniz için gerektiği gibi özelleştirmekten çekinmeyin.
 
-## SSS'ler
+## SSS
 
-### HTML çıktısını nasıl daha da özelleştirebilirim?
+### HTML çıktısını daha fazla nasıl özelleştirebilirim?
 
- HTML çıktısını değiştirerek özelleştirebilirsiniz.`CustomFormattingController` sınıf. Ayarlayın`writeSlideStart` Ve`writeSlideEnd` Slayt HTML yapısını ve stilini değiştirme yöntemleri.
+HTML çıktısını değiştirerek özelleştirebilirsiniz. `CustomFormattingController` sınıf. Ayarla `writeSlideStart` Ve `writeSlideEnd` Slayt HTML yapısını ve stilini değiştirme yöntemleri.
 
 ### Birden fazla PowerPoint sunumunu tek seferde dönüştürebilir miyim?
 
- Evet, kodu birden fazla sunum dosyası arasında geçiş yapacak şekilde değiştirebilir ve bunları tek tek dönüştürebilirsiniz.`convertIndividualSlides` Her sunum için yöntem.
+Evet, kodu birden fazla sunum dosyası arasında geçiş yapacak ve bunları tek tek dönüştürecek şekilde değiştirebilirsiniz. `convertIndividualSlides` Her sunum için bir yöntem.
 
 ### Slaytlardaki şekiller ve metinler için ek biçimlendirmeyi nasıl hallederim?
 
- Uzatabilirsiniz`CustomFormattingController` sınıfını uygulayarak şekle özgü biçimlendirmeyi işlemek için`writeShapeStart` Ve`writeShapeEnd` yöntemler ve bunların içinde özel biçimlendirme mantığının uygulanması.
+Uzatabilirsiniz `CustomFormattingController` şekil-özel biçimlendirmeyi uygulayarak işlemek için sınıf `writeShapeStart` Ve `writeShapeEnd` yöntemleri ve bunlar içinde özel biçimlendirme mantığının uygulanması.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

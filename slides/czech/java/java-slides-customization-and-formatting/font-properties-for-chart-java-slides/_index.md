@@ -1,50 +1,52 @@
 ---
-title: Vlastnosti písma pro graf v Java Slides
-linktitle: Vlastnosti písma pro graf v Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Vylepšete vlastnosti písma grafu v Java Slides pomocí Aspose.Slides pro Java. Přizpůsobte si velikost, styl a barvu písma pro působivé prezentace.
-weight: 11
-url: /cs/java/customization-and-formatting/font-properties-for-chart-java-slides/
+"description": "Vylepšete vlastnosti písma grafů v Javě pomocí Aspose.Slides pro Javu. Přizpůsobte si velikost, styl a barvu písma pro působivé prezentace."
+"linktitle": "Vlastnosti písma pro graf v Javě Slides"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Vlastnosti písma pro graf v Javě Slides"
+"url": "/cs/java/customization-and-formatting/font-properties-for-chart-java-slides/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vlastnosti písma pro graf v Java Slides
+# Vlastnosti písma pro graf v Javě Slides
 
 
-## Úvod do vlastností písma pro graf v Java Slides
+## Úvod do vlastností písma pro grafy v Javě Slides
 
-Tato příručka vás provede nastavením vlastností písma pro graf v aplikaci Java Slides pomocí Aspose.Slides. Můžete upravit velikost písma a vzhled textu grafu, abyste zvýšili vizuální přitažlivost svých prezentací.
+Tato příručka vás provede nastavením vlastností písma pro graf v Java Slides pomocí Aspose.Slides. Velikost písma a vzhled textu grafu si můžete přizpůsobit a vylepšit tak vizuální atraktivitu vašich prezentací.
 
 ## Předpoklady
 
- Než začnete, ujistěte se, že máte Aspose.Slides for Java API integrované do vašeho projektu. Pokud jste tak ještě neučinili, můžete si jej stáhnout z[Aspose.Slides pro dokumentaci Java](https://reference.aspose.com/slides/java/).
+Než začnete, ujistěte se, že máte ve svém projektu integrované rozhraní Aspose.Slides pro Java API. Pokud tak ještě neučiníte, můžete si jej stáhnout z [Dokumentace k Aspose.Slides pro Javu](https://reference.aspose.com/slides/java/).
 
 ## Krok 1: Vytvořte prezentaci
 
 Nejprve vytvořte novou prezentaci pomocí následujícího kódu:
 
 ```java
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 ```
 
-## Krok 2: Přidejte graf
+## Krok 2: Přidání grafu
 
-Nyní do prezentace přidáme seskupený sloupcový graf:
+Nyní si do prezentace přidejme seskupený sloupcový graf:
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 100, 100, 500, 400);
 ```
 
-Zde přidáváme na první snímek seskupený sloupcový graf na souřadnicích (100, 100) o šířce 500 jednotek a výšce 400 jednotek.
+Zde přidáváme na první snímek na souřadnicích (100, 100) klastrovaný sloupcový graf o šířce 500 jednotek a výšce 400 jednotek.
 
-## Krok 3: Přizpůsobte vlastnosti písma
+## Krok 3: Úprava vlastností písma
 
-Dále přizpůsobíme vlastnosti písma grafu. V tomto příkladu nastavujeme velikost písma na 20 pro veškerý text grafu:
+Dále upravíme vlastnosti písma grafu. V tomto příkladu nastavujeme velikost písma na 20 pro veškerý text grafu:
 
 ```java
 chart.getTextFormat().getPortionFormat().setFontHeight(20);
@@ -52,30 +54,30 @@ chart.getTextFormat().getPortionFormat().setFontHeight(20);
 
 Tento kód nastaví velikost písma na 20 bodů pro veškerý text v grafu.
 
-## Krok 4: Zobrazit štítky dat
+## Krok 4: Zobrazení popisků dat
 
-Na grafu můžete také zobrazit štítky dat pomocí následujícího kódu:
+Popisky dat v grafu můžete také zobrazit pomocí následujícího kódu:
 
 ```java
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 ```
 
-Tento řádek kódu umožňuje popisky dat pro první řadu v grafu, zobrazující hodnoty ve sloupcích grafu.
+Tento řádek kódu povoluje popisky dat pro první sérii v grafu a zobrazuje hodnoty ve sloupcích grafu.
 
 ## Krok 5: Uložte prezentaci
 
-Nakonec uložte prezentaci s vlastními vlastnostmi písma grafu:
+Nakonec uložte prezentaci s upravenými vlastnostmi písma grafu:
 
 ```java
 pres.save(dataDir + "FontPropertiesForChart.pptx", SaveFormat.Pptx);
 ```
 
-Tento kód uloží prezentaci do zadaného adresáře s názvem "FontPropertiesForChart.pptx."
+Tento kód uloží prezentaci do zadaného adresáře s názvem souboru „FontPropertiesForChart.pptx“.
 
-## Kompletní zdrojový kód pro vlastnosti písma pro graf v Java Slides
+## Kompletní zdrojový kód pro vlastnosti písma pro graf v Javě Slides
 
 ```java
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 try
@@ -93,24 +95,26 @@ finally
 
 ## Závěr
 
- tomto kurzu jste se naučili, jak upravit vlastnosti písma pro graf v aplikaci Java Slides pomocí Aspose.Slides for Java. Tyto techniky můžete použít k vylepšení vzhledu vašich grafů a prezentací. Prozkoumejte další možnosti v[Aspose.Slides pro dokumentaci Java](https://reference.aspose.com/slides/java/).
+tomto tutoriálu jste se naučili, jak přizpůsobit vlastnosti písma pro graf v Java Slides pomocí Aspose.Slides pro Javu. Tyto techniky můžete použít k vylepšení vzhledu vašich grafů a prezentací. Prozkoumejte další možnosti v [Dokumentace k Aspose.Slides pro Javu](https://reference.aspose.com/slides/java/).
 
-## FAQ
+## Často kladené otázky
 
 ### Jak mohu změnit barvu písma?
 
- Chcete-li změnit barvu písma textu grafu, použijte`chart.getTextFormat().getPortionFormat().setFontColor(Color.RED);` , nahrazovat`Color.RED` s požadovanou barvou.
+Chcete-li změnit barvu písma textu grafu, použijte `chart.getTextFormat().getPortionFormat().setFontColor(Color.RED);`, nahrazující `Color.RED` s požadovanou barvou.
 
 ### Mohu změnit styl písma (tučné, kurzíva atd.)?
 
- Ano, můžete změnit styl písma. Použití`chart.getTextFormat().getPortionFormat().setFontBold(true);` aby bylo písmo tučné. Podobně můžete použít`setFontItalic(true)` aby to bylo kurzívou.
+Ano, můžete změnit styl písma. Použijte `chart.getTextFormat().getPortionFormat().setFontBold(true);` pro tučné písmo. Podobně můžete použít `setFontItalic(true)` aby to bylo kurzíva.
 
-### Jak přizpůsobím vlastnosti písma pro konkrétní prvky grafu?
+### Jak mohu přizpůsobit vlastnosti písma pro konkrétní prvky grafu?
 
 Chcete-li přizpůsobit vlastnosti písma pro konkrétní prvky grafu, jako jsou popisky os nebo text legendy, můžete k těmto prvkům přistupovat a nastavit jejich vlastnosti písma pomocí podobných metod, jak je uvedeno výše.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

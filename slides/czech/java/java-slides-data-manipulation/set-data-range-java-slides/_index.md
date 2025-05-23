@@ -1,73 +1,75 @@
 ---
-title: Nastavte rozsah dat v Java Slides
-linktitle: Nastavte rozsah dat v Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Naučte se, jak snadno nastavit rozsahy dat v Java slides pomocí Aspose.Slides for Java. Vytvářejte dynamické prezentace založené na datech pomocí tohoto podrobného průvodce.
-weight: 18
-url: /cs/java/data-manipulation/set-data-range-java-slides/
+"description": "Naučte se, jak snadno nastavit rozsahy dat v Javě pomocí Aspose.Slides pro Javu. Vytvářejte dynamické prezentace založené na datech s tímto podrobným návodem."
+"linktitle": "Nastavení rozsahu dat v Java Slides"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Nastavení rozsahu dat v Java Slides"
+"url": "/cs/java/data-manipulation/set-data-range-java-slides/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nastavte rozsah dat v Java Slides
+# Nastavení rozsahu dat v Java Slides
 
 
-## Úvod do nastavení rozsahu dat v Java Slides
+## Úvod do nastavení rozsahu dat v Javě (prezentace)
 
-Prezentace často obsahují tabulky a grafy pro efektivní přenos dat. Aspose.Slides for Java zjednodušuje proces práce s grafy v prezentacích PowerPoint. V tomto tutoriálu se zaměříme na klíčový úkol, kterým je nastavení rozsahu dat pro graf v prezentaci.
+Prezentace často obsahují grafy a tabulky pro efektivní prezentaci dat. Aspose.Slides pro Javu zjednodušuje proces práce s grafy v prezentacích v PowerPointu. V tomto tutoriálu se zaměříme na klíčový úkol nastavení rozsahu dat pro graf v prezentaci.
 
 ## Předpoklady
 
-Než se ponoříme do kódu, ujistěte se, že máte splněny následující předpoklady:
+Než se pustíme do kódu, ujistěte se, že máte splněny následující předpoklady:
 
-- Vývojové prostředí Java
--  Aspose.Slides for Java API (Můžete si jej stáhnout[tady](https://releases.aspose.com/slides/java/))
--  PowerPointová prezentace s grafem (Budeme ji označovat jako`ExistingChart.pptx`)
+- Vývojové prostředí v Javě
+- Aspose.Slides pro Java API (můžete si ho stáhnout [zde](https://releases.aspose.com/slides/java/))
+- Prezentace v PowerPointu s grafem (budeme jej označovat jako `ExistingChart.pptx`)
 
 ## Krok 1: Začínáme
 
-Pro začátek si nastavíme prostředí Java a načteme stávající PowerPointovou prezentaci, která obsahuje graf, se kterým chceme pracovat.
+Nejprve si nastavíme naše prostředí Java a načteme existující prezentaci v PowerPointu, která obsahuje graf, se kterým chceme pracovat.
 
 ```java
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 String dataDir = "Your Document Directory";
-// Třída okamžité prezentace, která představuje soubor PPTX
+// Vytvoření instance třídy Presentation, která reprezentuje soubor PPTX
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
-// Otevřete první snímek a přidejte graf s výchozími daty
+// Otevření prvního snímku a přidání grafu s výchozími daty
 ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = (IChart) slide.getShapes().get_Item(0);
 ```
 
 ## Krok 2: Nastavení rozsahu dat
 
-Nyní, když máme objekt prezentace a grafu, nastavíme rozsah dat pro graf. Rozsah dat určuje, které buňky z tabulky se použijí k naplnění dat grafu.
+Nyní, když máme prezentaci a objekt grafu, nastavme rozsah dat pro graf. Rozsah dat určuje, které buňky z tabulky se použijí k naplnění dat grafu.
 
 ```java
 chart.getChartData().setRange("Sheet1!A1:B4");
 ```
 
-V tomto příkladu nastavujeme rozsah dat tak, aby zahrnoval buňky A1 až B4 z "Sheet1" v naší tabulce.
+V tomto příkladu nastavujeme datový rozsah tak, aby zahrnoval buňky A1 až B4 z „Listu1“ v naší tabulce.
 
 ## Krok 3: Uložení prezentace
 
-Po nastavení rozsahu dat je nezbytné naši upravenou prezentaci uložit.
+Po nastavení rozsahu dat je nezbytné uložit upravenou prezentaci.
 
 ```java
 presentation.save(dataDir + "SetDataRange_out.pptx", SaveFormat.Pptx);
 ```
 
- Tento řádek kódu uloží prezentaci do nového souboru s názvem`SetDataRange_out.pptx` v zadaném adresáři.
+Tento řádek kódu uloží prezentaci do nového souboru s názvem `SetDataRange_out.pptx` v zadaném adresáři.
 
-## Kompletní zdrojový kód pro nastavení rozsahu dat v Java Slides
+## Kompletní zdrojový kód pro nastavení rozsahu dat v Javě Slides
 
 ```java
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 String dataDir = "Your Document Directory";
-// Třída okamžité prezentace, která představuje soubor PPTX
+// Vytvoření instance třídy Presentation, která reprezentuje soubor PPTX
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
-// Otevřete první slideMarker a přidejte graf s výchozími daty
+// Přístup k prvnímu slideMarkeru a přidání grafu s výchozími daty
 ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = (IChart) slide.getShapes().get_Item(0);
 chart.getChartData().setRange("Sheet1!A1:B4");
@@ -76,36 +78,38 @@ presentation.save(dataDir + "SetDataRange_out.pptx", SaveFormat.Pptx);
 
 ## Závěr
 
-tomto tutoriálu jsme se naučili, jak nastavit rozsah dat pro graf v prezentaci PowerPoint pomocí Aspose.Slides pro Java. Toto API zjednodušuje proces práce s prezentacemi a umožňuje vývojářům efektivně automatizovat úkoly.
+tomto tutoriálu jsme se naučili, jak nastavit rozsah dat pro graf v prezentaci PowerPoint pomocí Aspose.Slides pro Javu. Toto API zjednodušuje proces práce s prezentacemi a umožňuje vývojářům efektivně automatizovat úkoly.
 
-## FAQ
+## Často kladené otázky
 
-### Jak mohu nainstalovat Aspose.Slides for Java?
+### Jak mohu nainstalovat Aspose.Slides pro Javu?
 
-Chcete-li nainstalovat Aspose.Slides for Java, postupujte takto:
+Chcete-li nainstalovat Aspose.Slides pro Javu, postupujte takto:
 
-1.  Stáhněte si API z[tady](https://releases.aspose.com/slides/java/).
+1. Stáhněte si API z [zde](https://releases.aspose.com/slides/java/).
 2. Přidejte stažené soubory JAR do svého projektu Java.
 3. Nyní jste připraveni použít Aspose.Slides pro Javu ve svém projektu.
 
 ### Mohu pro svůj graf nastavit dynamický rozsah dat?
 
-Ano, můžete nastavit dynamický rozsah dat pro váš graf pomocí proměnných v kódu Java. To vám umožňuje aktualizovat rozsah dat na základě měnících se dat ve vaší aplikaci.
+Ano, pro graf můžete nastavit dynamický rozsah dat pomocí proměnných v kódu Java. To vám umožní aktualizovat rozsah dat na základě změn dat ve vaší aplikaci.
 
-### Je Aspose.Slides for Java vhodný pro komerční použití?
+### Je Aspose.Slides pro Javu vhodný pro komerční použití?
 
-Ano, Aspose.Slides for Java je vhodný pro osobní i komerční použití. Poskytuje robustní sadu funkcí pro práci s prezentacemi PowerPoint v aplikacích Java.
+Ano, Aspose.Slides pro Javu je vhodný pro osobní i komerční použití. Nabízí robustní sadu funkcí pro práci s prezentacemi PowerPoint v aplikacích Java.
 
-### Jak získám přístup ke konkrétním snímkům a tvarům v rámci prezentace?
+### Jak získám přístup ke konkrétním snímkům a tvarům v prezentaci?
 
-Ke konkrétním snímkům a tvarům v rámci prezentace můžete přistupovat pomocí rozhraní Aspose.Slides for Java API. Fragment kódu poskytnutý v tomto kurzu ukazuje, jak získat přístup k prvnímu snímku a prvnímu tvaru (grafu) na tomto snímku.
+K určitým snímkům a tvarům v prezentaci můžete přistupovat pomocí rozhraní Aspose.Slides pro Java API. Úryvek kódu uvedený v tomto tutoriálu ukazuje, jak přistupovat k prvnímu snímku a prvnímu tvaru (grafu) na tomto snímku.
 
-### Kde najdu další dokumentaci a příklady pro Aspose.Slides pro Java?
+### Kde najdu další dokumentaci a příklady pro Aspose.Slides pro Javu?
 
- Rozsáhlou dokumentaci a příklady pro Aspose.Slides for Java můžete najít na webu dokumentace Aspose:[Aspose.Slides for Java API Reference](https://reference.aspose.com/slides/java/).
+Rozsáhlou dokumentaci a příklady pro Aspose.Slides pro Javu naleznete na webových stránkách s dokumentací k Aspose: [Aspose.Slides pro reference Java API](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

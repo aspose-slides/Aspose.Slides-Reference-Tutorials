@@ -1,41 +1,43 @@
 ---
-title: .NET용 Aspose.Slides를 사용한 마스터 슬라이드 애니메이션
-linktitle: Aspose.Slides의 슬라이드 애니메이션 제어
-second_title: Aspose.Slides .NET 파워포인트 처리 API
-description: .NET용 Aspose.Slides를 사용하여 프레젠테이션을 향상시키세요! 슬라이드 애니메이션을 손쉽게 제어하는 방법을 알아보세요. 지금 라이브러리를 다운로드하세요!
-weight: 10
-url: /ko/net/slide-animation-control/slide-animation-control/
+"description": "Aspose.Slides for .NET으로 프레젠테이션의 완성도를 높여 보세요! 슬라이드 애니메이션을 손쉽게 제어하는 방법을 알아보세요. 지금 바로 라이브러리를 다운로드하세요!"
+"linktitle": "Aspose.Slides의 슬라이드 애니메이션 컨트롤"
+"second_title": "Aspose.Slides .NET PowerPoint 처리 API"
+"title": "Aspose.Slides for .NET을 사용하여 슬라이드 애니메이션 마스터하기"
+"url": "/ko/net/slide-animation-control/slide-animation-control/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# .NET용 Aspose.Slides를 사용한 마스터 슬라이드 애니메이션
+# Aspose.Slides for .NET을 사용하여 슬라이드 애니메이션 마스터하기
 
 ## 소개
-시선을 사로잡는 슬라이드 애니메이션으로 프레젠테이션을 개선하면 청중에 대한 전반적인 영향을 크게 높일 수 있습니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 슬라이드 애니메이션을 제어하는 방법을 살펴보겠습니다. Aspose.Slides는 .NET 환경에서 PowerPoint 프레젠테이션을 원활하게 조작할 수 있는 강력한 라이브러리입니다.
-## 전제 조건
-튜토리얼을 시작하기 전에 다음 사항이 준비되어 있는지 확인하세요.
-1.  .NET 라이브러리용 Aspose.Slides: 다음에서 라이브러리를 다운로드하고 설치하세요.[다운로드 페이지](https://releases.aspose.com/slides/net/).
-2.  문서 디렉터리: 프레젠테이션 파일을 저장할 디렉터리를 만듭니다. 업데이트`dataDir` 문서 디렉터리 경로가 포함된 코드 조각의 변수입니다.
+매력적인 슬라이드 애니메이션으로 프레젠테이션을 강화하면 청중에게 미치는 전반적인 영향을 크게 높일 수 있습니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 슬라이드 애니메이션을 제어하는 방법을 살펴보겠습니다. Aspose.Slides는 .NET 환경에서 PowerPoint 프레젠테이션을 원활하게 조작할 수 있도록 지원하는 강력한 라이브러리입니다.
+## 필수 조건
+튜토리얼을 시작하기 전에 다음 사항이 준비되었는지 확인하세요.
+1. .NET 라이브러리용 Aspose.Slides: 라이브러리를 다운로드하여 설치하세요. [다운로드 페이지](https://releases.aspose.com/slides/net/).
+2. 문서 디렉터리: 프레젠테이션 파일을 저장할 디렉터리를 만듭니다. `dataDir` 코드 조각의 변수를 문서 디렉토리 경로로 변경합니다.
 ## 네임스페이스 가져오기
-.NET 파일 시작 부분에서 필요한 네임스페이스를 가져와야 합니다.
+.NET 파일의 시작 부분에 필요한 네임스페이스를 가져와야 합니다.
 ```csharp
 using Aspose.Slides.Export;
 using Aspose.Slides.SlideShow;
 ```
-이제 제공된 예제를 여러 단계로 나누어 보겠습니다.
+이제 제공된 예를 여러 단계로 나누어 보겠습니다.
 ## 1단계: 프레젠테이션 인스턴스 생성
- 인스턴스화`Presentation` 프리젠테이션 파일을 나타내는 클래스:
+인스턴스화 `Presentation` 프레젠테이션 파일을 표현하는 클래스:
 ```csharp
 using (Presentation pres = new Presentation(dataDir + "BetterSlideTransitions.pptx"))
 {
-    // 슬라이드 애니메이션 코드는 여기에 표시됩니다.
+    // 슬라이드 애니메이션 코드는 여기에 있습니다.
 }
 ```
-## 2단계: 원 유형 전환 적용
-첫 번째 슬라이드에 원 유형 전환을 적용합니다.
+## 2단계: 원형 유형 전환 적용
+첫 번째 슬라이드에 원형 전환을 적용합니다.
 ```csharp
 pres.Slides[0].SlideShowTransition.Type = TransitionType.Circle;
 ```
@@ -45,7 +47,7 @@ pres.Slides[0].SlideShowTransition.AdvanceOnClick = true;
 pres.Slides[0].SlideShowTransition.AdvanceAfterTime = 3000;
 ```
 ## 3단계: 빗 유형 전환 적용
-두 번째 슬라이드에 빗 유형 전환을 적용합니다.
+두 번째 슬라이드에 빗살무늬 전환을 적용합니다.
 ```csharp
 pres.Slides[1].SlideShowTransition.Type = TransitionType.Comb;
 ```
@@ -65,27 +67,29 @@ pres.Slides[2].SlideShowTransition.AdvanceOnClick = true;
 pres.Slides[2].SlideShowTransition.AdvanceAfterTime = 7000;
 ```
 ## 5단계: 프레젠테이션 저장
-수정된 프레젠테이션을 다시 디스크에 씁니다.
+수정된 프레젠테이션을 디스크에 다시 씁니다.
 ```csharp
 pres.Save(dataDir + "SampleTransition_out.pptx", SaveFormat.Pptx);
 ```
-이제 .NET용 Aspose.Slides를 사용하여 슬라이드 애니메이션을 성공적으로 제어했습니다!
+이제 Aspose.Slides for .NET을 사용하여 슬라이드 애니메이션을 성공적으로 제어할 수 있었습니다!
 ## 결론
-프레젠테이션의 슬라이드에 애니메이션을 적용하면 역동적인 느낌이 추가되어 콘텐츠가 더욱 매력적으로 만들어집니다. .NET용 Aspose.Slides를 사용하면 프로세스가 간단해져서 시각적으로 매력적인 프레젠테이션을 쉽게 만들 수 있습니다.
+프레젠테이션 슬라이드에 애니메이션을 적용하면 역동적인 느낌을 더하고 콘텐츠의 몰입도를 높일 수 있습니다. Aspose.Slides for .NET을 사용하면 이 과정이 간소화되어 시각적으로 매력적인 프레젠테이션을 손쉽게 만들 수 있습니다.
 ## 자주 묻는 질문
-### 전환 효과를 추가로 사용자 정의할 수 있나요?
- 예, Aspose.Slides는 다양한 전환 유형과 사용자 정의를 위한 추가 속성을 제공합니다. 다음을 참조하세요.[선적 서류 비치](https://reference.aspose.com/slides/net/) 자세한 내용은.
-### 무료 평가판이 제공되나요?
- 예, Aspose.Slides를 탐색할 수 있습니다.[무료 시험판](https://releases.aspose.com/).
-### Aspose.Slides에 대한 지원은 어디서 받을 수 있나요?
- 방문하다[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11) 커뮤니티 지원 및 토론을 위해.
-### 임시면허는 어떻게 취득하나요?
- 임시면허를 받을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
-### .NET용 Aspose.Slides를 어디서 구입할 수 있나요?
- 도서관 구입[여기](https://purchase.aspose.com/buy).
+### 전환 효과를 더욱 세부적으로 사용자 정의할 수 있나요?
+네, Aspose.Slides는 다양한 전환 유형과 사용자 정의를 위한 추가 속성을 제공합니다. [선적 서류 비치](https://reference.aspose.com/slides/net/) 자세한 내용은.
+### 무료 체험판이 있나요?
+예, Aspose.Slides를 탐색할 수 있습니다. [무료 체험](https://releases.aspose.com/).
+### Aspose.Slides에 대한 지원은 어디에서 받을 수 있나요?
+방문하세요 [Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11) 지역사회의 지원과 토론을 위해.
+### 임시면허는 어떻게 받을 수 있나요?
+임시면허를 받을 수 있습니다 [여기](https://purchase.aspose.com/temporary-license/).
+### Aspose.Slides for .NET은 어디에서 구매할 수 있나요?
+도서관 구매 [여기](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

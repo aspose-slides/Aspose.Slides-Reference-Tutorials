@@ -1,30 +1,32 @@
 ---
-title: Indicatori predefiniti nel grafico nelle diapositive Java
-linktitle: Indicatori predefiniti nel grafico nelle diapositive Java
-second_title: Aspose.Slides API di elaborazione Java PowerPoint
-description: Scopri come creare diapositive Java con indicatori predefiniti nei grafici utilizzando Aspose.Slides per Java. Guida passo passo con il codice sorgente.
-weight: 16
-url: /it/java/chart-data-manipulation/default-markers-in-chart-java-slides/
+"description": "Scopri come creare diapositive Java con marcatori predefiniti nei grafici utilizzando Aspose.Slides per Java. Guida passo passo con codice sorgente."
+"linktitle": "Marcatori predefiniti nel grafico in Java Slides"
+"second_title": "API di elaborazione Java PowerPoint di Aspose.Slides"
+"title": "Marcatori predefiniti nel grafico in Java Slides"
+"url": "/it/java/chart-data-manipulation/default-markers-in-chart-java-slides/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Indicatori predefiniti nel grafico nelle diapositive Java
+# Marcatori predefiniti nel grafico in Java Slides
 
 
-## Introduzione agli indicatori predefiniti nel grafico nelle diapositive Java
+## Introduzione ai marcatori predefiniti nei grafici in Java Slides
 
-In questo tutorial esploreremo come creare un grafico con indicatori predefiniti utilizzando Aspose.Slides per Java. Gli indicatori predefiniti sono simboli o forme aggiunti ai punti dati in un grafico per evidenziarli. Creeremo un grafico a linee con indicatori per visualizzare i dati.
+In questo tutorial, esploreremo come creare un grafico con indicatori predefiniti utilizzando Aspose.Slides per Java. Gli indicatori predefiniti sono simboli o forme aggiunti ai punti dati in un grafico per evidenziarli. Creeremo un grafico a linee con indicatori per visualizzare i dati.
 
 ## Prerequisiti
 
-Prima di iniziare, assicurati di avere la libreria Aspose.Slides per Java installata e configurata nel tuo progetto Java.
+Prima di iniziare, assicurati di aver installato e configurato la libreria Aspose.Slides per Java nel tuo progetto Java.
 
-## Passaggio 1: crea una presentazione
+## Passaggio 1: creare una presentazione
 
-Innanzitutto, creiamo una presentazione e aggiungiamo una diapositiva. Aggiungeremo quindi un grafico alla diapositiva.
+Per prima cosa, creiamo una presentazione e aggiungiamo una diapositiva. Poi aggiungeremo un grafico alla diapositiva.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -32,9 +34,9 @@ Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
 ```
 
-## Passaggio 2: aggiungi un grafico a linee con indicatori
+## Passaggio 2: aggiungere un grafico a linee con marcatori
 
-Ora aggiungiamo un grafico a linee con indicatori alla diapositiva. Cancelleremo anche tutti i dati predefiniti dal grafico.
+Ora aggiungiamo un grafico a linee con indicatori alla diapositiva. Elimineremo anche tutti i dati predefiniti dal grafico.
 
 ```java
 IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 10, 10, 400, 400);
@@ -44,7 +46,7 @@ chart.getChartData().getCategories().clear();
 
 ## Passaggio 3: popolare i dati del grafico
 
-Popoleremo il grafico con dati di esempio. In questo esempio creeremo due serie con punti dati e categorie.
+Popoleremo il grafico con dati campione. In questo esempio, creeremo due serie con punti dati e categorie.
 
 ```java
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
@@ -65,7 +67,7 @@ series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 4, 1, null));
 chart.getChartData().getSeries().add(fact.getCell(0, 0, 2, "Series 2"));
 IChartSeries series2 = chart.getChartData().getSeries().get_Item(1);
 
-// Popolamento dei dati delle serie
+// Popolamento dei dati della serie
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 1, 2, 30));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 2, 2, 10));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 3, 2, 60));
@@ -74,14 +76,14 @@ series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 4, 2, 40));
 
 ## Passaggio 4: personalizza il grafico
 
-Puoi personalizzare ulteriormente il grafico, ad esempio aggiungendo una legenda e modificandone l'aspetto.
+È possibile personalizzare ulteriormente il grafico, ad esempio aggiungendo una legenda e modificandone l'aspetto.
 
 ```java
 chart.setLegend(true);
 chart.getLegend().setOverlay(false);
 ```
 
-## Passaggio 5: salva la presentazione
+## Passaggio 5: Salva la presentazione
 
 Infine, salva la presentazione con il grafico nella posizione desiderata.
 
@@ -89,12 +91,12 @@ Infine, salva la presentazione con il grafico nella posizione desiderata.
 pres.save(dataDir + "DefaultMarkersInChart.pptx", SaveFormat.Pptx);
 ```
 
-Questo è tutto! Hai creato un grafico a linee con indicatori predefiniti utilizzando Aspose.Slides per Java.
+Ecco fatto! Hai creato un grafico a linee con indicatori predefiniti utilizzando Aspose.Slides per Java.
 
-## Codice sorgente completo per i marcatori predefiniti nel grafico nelle diapositive Java
+## Codice sorgente completo per i marcatori predefiniti nel grafico in Java Slides
 
 ```java
-        // Il percorso della directory dei documenti.
+        // Percorso verso la directory dei documenti.
         String dataDir = "Your Document Directory";
         Presentation pres = new Presentation();
         try
@@ -117,7 +119,7 @@ Questo è tutto! Hai creato un grafico a linee con indicatori predefiniti utiliz
             chart.getChartData().getSeries().add(fact.getCell(0, 0, 2, "Series 2"), chart.getType());
             //Prendi la seconda serie di grafici
             IChartSeries series2 = chart.getChartData().getSeries().get_Item(1);
-            //Ora popolano i dati delle serie
+            //Ora popolamento dei dati della serie
             series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 1, 2, 30));
             series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 2, 2, 10));
             series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 3, 2, 60));
@@ -133,24 +135,26 @@ Questo è tutto! Hai creato un grafico a linee con indicatori predefiniti utiliz
 ```
 ## Conclusione
 
-In questo tutorial completo, hai imparato come creare diapositive Java con indicatori predefiniti nei grafici utilizzando Aspose.Slides per Java. Abbiamo coperto l'intero processo, dall'impostazione di una presentazione alla personalizzazione dell'aspetto del grafico e al salvataggio del risultato.
+In questo tutorial completo, hai imparato a creare diapositive Java con indicatori predefiniti nei grafici utilizzando Aspose.Slides per Java. Abbiamo trattato l'intero processo, dalla configurazione di una presentazione alla personalizzazione dell'aspetto del grafico e al salvataggio del risultato.
 
 ## Domande frequenti
 
 ### Come posso cambiare i simboli dei marcatori?
 
-È possibile personalizzare i simboli dei marcatori impostando lo stile del marcatore per ciascun punto dati. Utilizzo`IDataPoint.setMarkerStyle()` per modificare il simbolo del marcatore.
+È possibile personalizzare i simboli dei marcatori impostando lo stile del marcatore per ogni punto dati. Utilizzare `IDataPoint.setMarkerStyle()` per cambiare il simbolo del marcatore.
 
-### Come posso regolare i colori del grafico?
+### Come faccio a regolare i colori del grafico?
 
- Per modificare i colori del grafico, puoi utilizzare il file`IChartSeriesFormat` E`IShapeFillFormat` interfacce per impostare le proprietà di riempimento e linea.
+Per modificare i colori del grafico, puoi utilizzare `IChartSeriesFormat` E `IShapeFillFormat` interfacce per impostare le proprietà di riempimento e linea.
 
 ### Posso aggiungere etichette ai punti dati?
 
- Sì, puoi aggiungere etichette ai punti dati utilizzando il file`IDataPoint.getLabel()` metodo e personalizzarli secondo necessità.
+Sì, puoi aggiungere etichette ai punti dati utilizzando `IDataPoint.getLabel()` metodo e personalizzarli in base alle proprie esigenze.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

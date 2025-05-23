@@ -1,26 +1,28 @@
 ---
-title: จัดรูปแบบบรรทัดการนำเสนอด้วย Aspose.Slides .NET Tutorial
-linktitle: การจัดรูปแบบเส้นในสไลด์การนำเสนอโดยใช้ Aspose.Slides
-second_title: Aspose.Slides .NET PowerPoint การประมวลผล API
-description: ปรับปรุงสไลด์การนำเสนอของคุณด้วย Aspose.Slides สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อจัดรูปแบบบรรทัดได้อย่างง่ายดาย ดาวน์โหลดทดลองใช้ฟรีทันที!
-weight: 10
-url: /th/net/shape-geometry-and-positioning-in-slides/formatting-lines/
+"description": "ปรับปรุงสไลด์การนำเสนอของคุณด้วย Aspose.Slides สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อจัดรูปแบบบรรทัดได้อย่างง่ายดาย ดาวน์โหลดรุ่นทดลองใช้งานฟรีทันที!"
+"linktitle": "การจัดรูปแบบบรรทัดในสไลด์การนำเสนอโดยใช้ Aspose.Slides"
+"second_title": "API การประมวลผล PowerPoint ของ Aspose.Slides .NET"
+"title": "การจัดรูปแบบบรรทัดการนำเสนอด้วย Aspose.Slides บทช่วยสอน .NET"
+"url": "/th/net/shape-geometry-and-positioning-in-slides/formatting-lines/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# จัดรูปแบบบรรทัดการนำเสนอด้วย Aspose.Slides .NET Tutorial
+# การจัดรูปแบบบรรทัดการนำเสนอด้วย Aspose.Slides บทช่วยสอน .NET
 
 ## การแนะนำ
-การสร้างสไลด์การนำเสนอที่ดึงดูดสายตาถือเป็นสิ่งสำคัญสำหรับการสื่อสารที่มีประสิทธิภาพ Aspose.Slides สำหรับ .NET มอบโซลูชันอันทรงพลังในการจัดการและจัดรูปแบบองค์ประกอบการนำเสนอโดยทางโปรแกรม ในบทช่วยสอนนี้ เราจะเน้นที่การจัดรูปแบบเส้นในสไลด์การนำเสนอโดยใช้ Aspose.Slides สำหรับ .NET
+การสร้างสไลด์นำเสนอที่มีภาพสวยงามถือเป็นสิ่งสำคัญสำหรับการสื่อสารที่มีประสิทธิภาพ Aspose.Slides สำหรับ .NET มอบโซลูชันอันทรงพลังในการจัดการและจัดรูปแบบองค์ประกอบการนำเสนอด้วยโปรแกรม ในบทช่วยสอนนี้ เราจะเน้นที่การจัดรูปแบบบรรทัดในสไลด์นำเสนอโดยใช้ Aspose.Slides สำหรับ .NET
 ## ข้อกำหนดเบื้องต้น
-ก่อนที่เราจะเจาะลึกบทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
--  Aspose.Slides สำหรับ .NET Library: ดาวน์โหลดและติดตั้งไลบรารีจาก[เอกสาร Aspose.Slides .NET](https://reference.aspose.com/slides/net/).
-- สภาพแวดล้อมการพัฒนา: ตั้งค่าสภาพแวดล้อมการพัฒนา .NET ด้วย Visual Studio หรือ IDE อื่น ๆ ที่เข้ากันได้
+ก่อนที่จะเริ่มลงลึกในบทช่วยสอนนี้ ให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
+- Aspose.Slides สำหรับไลบรารี .NET: ดาวน์โหลดและติดตั้งไลบรารีจาก [เอกสารประกอบ Aspose.Slides .NET](https://reference-aspose.com/slides/net/).
+- สภาพแวดล้อมการพัฒนา: ตั้งค่าสภาพแวดล้อมการพัฒนา .NET ด้วย Visual Studio หรือ IDE ที่เข้ากันได้อื่น ๆ
 ## นำเข้าเนมสเปซ
-ในไฟล์โค้ด C# ของคุณ ให้รวมเนมสเปซที่จำเป็นสำหรับ Aspose.Slides เพื่อใช้ประโยชน์จากฟังก์ชันการทำงาน:
+ในไฟล์โค้ด C# ของคุณ ให้รวมเนมสเปซที่จำเป็นสำหรับ Aspose.Slides เพื่อใช้ประโยชน์จากฟังก์ชันการทำงานของมัน:
 ```csharp
 using System.IO;
 using Aspose.Slides;
@@ -42,11 +44,11 @@ using (Presentation pres = new Presentation())
 ```csharp
 ISlide sld = pres.Slides[0];
 ```
-## ขั้นตอนที่ 4: เพิ่มรูปร่างอัตโนมัติของสี่เหลี่ยมผืนผ้า
+## ขั้นตอนที่ 4: เพิ่มรูปสี่เหลี่ยมผืนผ้าอัตโนมัติ
 ```csharp
 IShape shp = sld.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 150, 150, 75);
 ```
-## ขั้นตอนที่ 5: ตั้งค่าสีเติมสี่เหลี่ยมผืนผ้า
+## ขั้นตอนที่ 5: ตั้งค่าสีเติมรูปสี่เหลี่ยมผืนผ้า
 ```csharp
 shp.FillFormat.FillType = FillType.Solid;
 shp.FillFormat.SolidFillColor.Color = Color.White;
@@ -57,7 +59,7 @@ shp.LineFormat.Style = LineStyle.ThickThin;
 shp.LineFormat.Width = 7;
 shp.LineFormat.DashStyle = LineDashStyle.Dash;
 ```
-## ขั้นตอนที่ 7: ตั้งค่าสีของเส้น
+## ขั้นตอนที่ 7: ตั้งค่าสีเส้น
 ```csharp
 shp.LineFormat.FillFormat.FillType = FillType.Solid;
 shp.LineFormat.FillFormat.SolidFillColor.Color = Color.Blue;
@@ -67,23 +69,25 @@ shp.LineFormat.FillFormat.SolidFillColor.Color = Color.Blue;
 pres.Save(dataDir + "RectShpLn_out.pptx", SaveFormat.Pptx);
 }
 ```
-ตอนนี้ คุณได้จัดรูปแบบเส้นในสไลด์การนำเสนอโดยใช้ Aspose.Slides สำหรับ .NET เรียบร้อยแล้ว!
+ตอนนี้คุณได้จัดรูปแบบบรรทัดในสไลด์การนำเสนอโดยใช้ Aspose.Slides สำหรับ .NET สำเร็จแล้ว!
 ## บทสรุป
-Aspose.Slides สำหรับ .NET ช่วยลดความยุ่งยากในการจัดการองค์ประกอบการนำเสนอโดยทางโปรแกรม ด้วยการทำตามคำแนะนำทีละขั้นตอนนี้ คุณสามารถเพิ่มความดึงดูดสายตาให้กับสไลด์ของคุณได้อย่างง่ายดาย
+Aspose.Slides สำหรับ .NET ทำให้กระบวนการจัดการองค์ประกอบการนำเสนอด้วยโปรแกรมนั้นง่ายขึ้น โดยทำตามคำแนะนำทีละขั้นตอนนี้ คุณจะสามารถเพิ่มความน่าสนใจให้กับสไลด์ของคุณได้อย่างง่ายดาย
 ## คำถามที่พบบ่อย
-### คำถามที่ 1: ฉันสามารถใช้ Aspose.Slides สำหรับ .NET กับภาษาการเขียนโปรแกรมอื่นๆ ได้หรือไม่
-ใช่ Aspose.Slides รองรับภาษาการเขียนโปรแกรมที่หลากหลาย รวมถึง Java และ Python
-### คำถามที่ 2: Aspose.Slides มีรุ่นทดลองใช้ฟรีหรือไม่
- ใช่ คุณสามารถดาวน์โหลดเวอร์ชันทดลองใช้ฟรีได้จาก[Aspose.Slides ทดลองใช้ฟรี](https://releases.aspose.com/).
-### คำถามที่ 3: ฉันจะรับการสนับสนุนเพิ่มเติมหรือถามคำถามได้ที่ไหน
- เยี่ยมชม[ฟอรั่ม Aspose.Slides](https://forum.aspose.com/c/slides/11) เพื่อการสนับสนุนและช่วยเหลือชุมชน
-### คำถามที่ 4: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Slides ได้อย่างไร
- คุณสามารถรับใบอนุญาตชั่วคราวได้จาก[Aspose.Slides ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/).
-### คำถามที่ 5: ฉันจะซื้อ Aspose.Slides สำหรับ .NET ได้ที่ไหน
- ท่านสามารถซื้อสินค้าได้ที่[Aspose.Slides ซื้อ](https://purchase.aspose.com/buy).
+### คำถามที่ 1: ฉันสามารถใช้ Aspose.Slides สำหรับ .NET ร่วมกับภาษาการเขียนโปรแกรมอื่น ๆ ได้หรือไม่
+ใช่ Aspose.Slides รองรับภาษาการเขียนโปรแกรมต่างๆ รวมถึง Java และ Python
+### คำถามที่ 2: มีการทดลองใช้ Aspose.Slides ฟรีหรือไม่
+ใช่ คุณสามารถดาวน์โหลดเวอร์ชันทดลองใช้งานฟรีได้จาก [ทดลองใช้ Aspose.Slides ฟรี](https://releases-aspose.com/).
+### คำถามที่ 3: ฉันสามารถหาการสนับสนุนเพิ่มเติมหรือถามคำถามได้ที่ไหน
+เยี่ยมชม [ฟอรั่ม Aspose.Slides](https://forum.aspose.com/c/slides/11) สำหรับการสนับสนุนและช่วยเหลือชุมชน
+### คำถามที่ 4: ฉันจะขอใบอนุญาตชั่วคราวสำหรับ Aspose.Slides ได้อย่างไร
+คุณสามารถรับใบอนุญาตชั่วคราวได้จาก [ใบอนุญาตชั่วคราว Aspose.Slides](https://purchase-aspose.com/temporary-license/).
+### คำถามที่ 5: ฉันสามารถซื้อ Aspose.Slides สำหรับ .NET ได้จากที่ใด
+คุณสามารถซื้อสินค้าได้จาก [การซื้อ Aspose.Slides](https://purchase-aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

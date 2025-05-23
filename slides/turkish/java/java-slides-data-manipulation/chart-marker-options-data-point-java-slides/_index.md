@@ -1,57 +1,59 @@
 ---
-title: Java Slaytlarındaki Veri Noktasındaki Grafik İşaretleyici Seçenekleri
-linktitle: Java Slaytlarındaki Veri Noktasındaki Grafik İşaretleyici Seçenekleri
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Özel Grafik İşaretleyici Seçenekleri ile Java Slaytlarınızı optimize edin. Aspose.Slides for Java'yı kullanarak veri noktalarını görsel olarak geliştirmeyi öğrenin. Adım adım rehberlik ve SSS'leri keşfedin.
-weight: 14
-url: /tr/java/data-manipulation/chart-marker-options-data-point-java-slides/
+"description": "Özel Grafik İşaretleyici Seçenekleriyle Java Slaytlarınızı Optimize Edin. Java için Aspose.Slides'ı kullanarak veri noktalarını görsel olarak geliştirmeyi öğrenin. Adım adım rehberliği ve SSS'leri keşfedin."
+"linktitle": "Java Slaytlarında Veri Noktasındaki Grafik İşaretleyici Seçenekleri"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java Slaytlarında Veri Noktasındaki Grafik İşaretleyici Seçenekleri"
+"url": "/tr/java/data-manipulation/chart-marker-options-data-point-java-slides/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java Slaytlarındaki Veri Noktasındaki Grafik İşaretleyici Seçenekleri
+# Java Slaytlarında Veri Noktasındaki Grafik İşaretleyici Seçenekleri
 
 
-## Java Slaytlarındaki Veri Noktasındaki Grafik İşaretleyici Seçeneklerine Giriş
+## Java Slaytlarında Veri Noktalarındaki Grafik İşaretleyici Seçeneklerine Giriş
 
-Etkili sunumlar oluşturmaya gelince, veri noktalarındaki grafik işaretleyicilerini özelleştirme ve değiştirme yeteneği büyük fark yaratabilir. Aspose.Slides for Java ile grafiklerinizi dinamik ve görsel olarak ilgi çekici öğelere dönüştürme gücüne sahipsiniz.
+Etkili sunumlar oluşturmaya gelince, veri noktalarındaki grafik işaretleyicilerini özelleştirme ve düzenleme yeteneği tüm farkı yaratabilir. Java için Aspose.Slides ile grafiklerinizi dinamik ve görsel olarak ilgi çekici öğelere dönüştürme gücüne sahipsiniz.
 
-## Önkoşullar
+## Ön koşullar
 
-Kodlama kısmına geçmeden önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+Kodlama kısmına geçmeden önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
 - Java Geliştirme Ortamı
-- Aspose.Slides for Java Kütüphanesi
+- Java Kütüphanesi için Aspose.Slides
 - Java Entegre Geliştirme Ortamı (IDE)
 - Örnek Sunum Belgesi (örneğin, "Test.pptx")
 
-## 1. Adım: Ortamı Ayarlama
+## Adım 1: Ortamı Kurma
 
 Öncelikle gerekli araçların kurulu ve hazır olduğundan emin olun. IDE'nizde bir Java projesi oluşturun ve Aspose.Slides for Java kütüphanesini içe aktarın.
 
 ## Adım 2: Sunumu Yükleme
 
-Başlamak için örnek sunum belgenizi yükleyin. Sağlanan kodda belgenin adının "Test.pptx" olduğunu varsayıyoruz.
+Başlamak için örnek sunum belgenizi yükleyin. Sağlanan kodda, belgenin "Test.pptx" olarak adlandırıldığını varsayıyoruz.
 
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "Test.pptx");
 ```
 
-## 3. Adım: Grafik Oluşturma
+## Adım 3: Bir Grafik Oluşturma
 
-Şimdi sunumda bir grafik oluşturalım. Bu örnekte İşaretçili Çizgi Grafiği kullanacağız.
+Şimdi sunumda bir grafik oluşturalım. Bu örnekte İşaretçilerle Çizgi Grafiği kullanacağız.
 
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 0, 0, 400, 400);
 ```
 
-## Adım 4: Grafik Verileriyle Çalışmak
+## Adım 4: Grafik Verileriyle Çalışma
 
-Grafik verilerini işlemek için grafik verileri çalışma kitabına erişmemiz ve veri serisini hazırlamamız gerekiyor. Varsayılan seriyi temizleyeceğiz ve özel verilerimizi ekleyeceğiz.
+Grafik verilerini işlemek için grafik veri çalışma kitabına erişmemiz ve veri serisini hazırlamamız gerekir. Varsayılan seriyi temizleyip özel verilerimizi ekleyeceğiz.
 
 ```java
 int defaultWorksheetIndex = 0;
@@ -62,7 +64,7 @@ chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 1, 1, "
 
 ## Adım 5: Özel İşaretleyiciler Ekleme
 
-İşte işin heyecan verici kısmı geliyor: veri noktalarındaki işaretleyicileri özelleştirme. Bu örnekte görüntüleri işaretçi olarak kullanacağız.
+İşte heyecan verici kısım geliyor - veri noktalarındaki işaretçileri özelleştirme. Bu örnekte işaretçi olarak görselleri kullanacağız.
 
 ```java
 BufferedImage img = ImageIO.read(new File(dataDir + "aspose-logo.jpg"));
@@ -87,13 +89,13 @@ series.getMarker().setSize(15);
 
 ## Adım 6: Sunumu Kaydetme
 
-Grafik işaretçilerinizi özelleştirdikten sonra, değişiklikleri çalışırken görmek için sunuyu kaydedin.
+Grafik işaretleyicilerinizi özelleştirdikten sonra, değişiklikleri uygulamada görmek için sunumu kaydedin.
 
 ```java
 pres.save(dataDir + "CustomizedChart.pptx", SaveFormat.Pptx);
 ```
 
-## Java Slaytlarındaki Veri Noktasındaki Grafik İşaretleyici Seçenekleri İçin Tam Kaynak Kodu
+## Java Slaytlarında Veri Noktalarındaki Grafik İşaretleyici Seçenekleri İçin Tam Kaynak Kodu
 
 ```java
 String dataDir = "Your Document Directory";
@@ -101,9 +103,9 @@ Presentation pres = new Presentation(dataDir + "Test.pptx");
 ISlide slide = pres.getSlides().get_Item(0);
 //Varsayılan grafiği oluşturma
 IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 0, 0, 400, 400);
-//Varsayılan grafik verileri çalışma sayfası dizinini alma
+//Varsayılan grafik veri çalışma sayfası dizinini alma
 int defaultWorksheetIndex = 0;
-//Grafik verileri çalışma sayfasını alma
+//Grafik veri çalışma sayfasını alma
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 //Demo serisini sil
 chart.getChartData().getSeries().clear();
@@ -117,7 +119,7 @@ BufferedImage img2 = ImageIO.read(new File(dataDir + "Tulips.jpg"));
 IPPImage imgx2 = pres.getImages().addImage(img2);
 //İlk grafik serisini alın
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-//Buraya yeni noktayı (1:3) ekleyin.
+//Oraya yeni bir nokta (1:3) ekleyin.
 IChartDataPoint point = series.getDataPoints().addDataPointForLineSeries(fact.getCell(defaultWorksheetIndex, 1, 1, (double) 4.5));
 point.getMarker().getFormat().getFill().setFillType(FillType.Picture);
 point.getMarker().getFormat().getFill().getPictureFillFormat().getPicture().setImage(imgx1);
@@ -130,39 +132,41 @@ point.getMarker().getFormat().getFill().getPictureFillFormat().getPicture().setI
 point = series.getDataPoints().addDataPointForLineSeries(fact.getCell(defaultWorksheetIndex, 4, 1, (double) 4.5));
 point.getMarker().getFormat().getFill().setFillType(FillType.Picture);
 point.getMarker().getFormat().getFill().getPictureFillFormat().getPicture().setImage(imgx2);
-//Grafik serisi işaretçisini değiştirme
+//Grafik serisi işaretleyicisini değiştirme
 series.getMarker().setSize(15);
 pres.save(dataDir + "AsposeScatterChart.pptx", SaveFormat.Pptx);
 ```
 
 ## Çözüm
 
-Aspose.Slides for Java ile veri noktalarındaki grafik işaretçilerini özelleştirerek sunumlarınızı geliştirebilirsiniz. Bu, izleyicilerinizi büyüleyen görsel olarak büyüleyici ve bilgilendirici slaytlar oluşturmanıza olanak tanır.
+Java için Aspose.Slides ile veri noktalarındaki grafik işaretleyicileri özelleştirerek sunumlarınızı yükseltebilirsiniz. Bu, izleyicilerinizi büyüleyen görsel olarak çarpıcı ve bilgilendirici slaytlar oluşturmanıza olanak tanır.
 
-## SSS'ler
+## SSS
 
-### Veri noktalarının işaretçi boyutunu nasıl değiştirebilirim?
+### Veri noktaları için işaretçi boyutunu nasıl değiştirebilirim?
 
- Veri noktalarının işaretçi boyutunu değiştirmek için`series.getMarker().setSize()` yöntemi kullanın ve istediğiniz boyutu argüman olarak sağlayın.
+Veri noktaları için işaretleyici boyutunu değiştirmek için şunu kullanın: `series.getMarker().setSize()` yöntemini kullanın ve istediğiniz boyutu argüman olarak belirtin.
 
-### Görselleri özel işaretçiler olarak kullanabilir miyim?
+### Resimleri özel işaretçi olarak kullanabilir miyim?
 
- Evet, görüntüleri veri noktaları için özel işaretleyiciler olarak kullanabilirsiniz. Doldurma türünü şu şekilde ayarlayın:`FillType.Picture` ve kullanmak istediğiniz görüntüyü sağlayın.
+Evet, veri noktaları için özel işaretçiler olarak görselleri kullanabilirsiniz. Dolgu türünü şu şekilde ayarlayın: `FillType.Picture` ve kullanmak istediğiniz görseli sağlayın.
 
-### Aspose.Slides for Java dinamik grafikler oluşturmaya uygun mu?
+### Aspose.Slides for Java dinamik grafikler oluşturmak için uygun mudur?
 
-Kesinlikle! Aspose.Slides for Java, sunumlarınızda dinamik ve etkileşimli grafikler oluşturmanız için kapsamlı yetenekler sağlar.
+Kesinlikle! Aspose.Slides for Java, sunumlarınızda dinamik ve etkileşimli grafikler oluşturmak için kapsamlı yetenekler sunar.
 
 ### Aspose.Slides'ı kullanarak grafiğin diğer yönlerini özelleştirebilir miyim?
 
-Evet, Aspose.Slides for Java'yı kullanarak grafiğin başlıklar, eksenler, veri etiketleri ve daha fazlası dahil olmak üzere çeşitli yönlerini özelleştirebilirsiniz.
+Evet, Aspose.Slides for Java'yı kullanarak başlıklar, eksenler, veri etiketleri ve daha fazlası dahil olmak üzere grafiğin çeşitli yönlerini özelleştirebilirsiniz.
 
-### Aspose.Slides for Java belgelerine ve indirmelerine nereden erişebilirim?
+### Aspose.Slides for Java belgelerine ve indirmelere nereden ulaşabilirim?
 
- Belgeleri şu adreste bulabilirsiniz:[Burada](https://reference.aspose.com/slides/java/) ve şu adresteki kütüphaneyi indirin:[Burada](https://releases.aspose.com/slides/java/).
+Belgeleri şu adreste bulabilirsiniz: [Burada](https://reference.aspose.com/slides/java/) ve kütüphaneyi şu adresten indirin: [Burada](https://releases.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

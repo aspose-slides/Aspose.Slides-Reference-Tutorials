@@ -1,43 +1,45 @@
 ---
-title: Java kullanarak SmartArt'a Özel Alt Düğümler ekleme
-linktitle: Java kullanarak SmartArt'a Özel Alt Düğümler ekleme
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides ile Java kullanarak PowerPoint sunumlarında SmartArt'a nasıl özel alt düğümler ekleyeceğinizi öğrenin. Slaytlarınızı profesyonel grafiklerle zahmetsizce geliştirin.
-weight: 11
-url: /tr/java/java-powerpoint-smartart-manipulation/add-custom-child-nodes-smartart-java/
+"description": "Aspose.Slides ile Java kullanarak PowerPoint sunumlarındaki SmartArt'a özel alt düğümlerin nasıl ekleneceğini öğrenin. Slaytlarınızı profesyonel grafiklerle zahmetsizce geliştirin."
+"linktitle": "Java kullanarak SmartArt'a Özel Alt Düğümler Ekleyin"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java kullanarak SmartArt'a Özel Alt Düğümler Ekleyin"
+"url": "/tr/java/java-powerpoint-smartart-manipulation/add-custom-child-nodes-smartart-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java kullanarak SmartArt'a Özel Alt Düğümler ekleme
+# Java kullanarak SmartArt'a Özel Alt Düğümler Ekleyin
 
 ## giriiş
-SmartArt, PowerPoint'te kullanıcıların hızlı ve kolay bir şekilde profesyonel görünümlü grafikler oluşturmasına olanak tanıyan güçlü bir özelliktir. Bu eğitimde Aspose.Slides ile Java kullanarak SmartArt'a özel alt düğümlerin nasıl ekleneceğini öğreneceğiz.
-## Önkoşullar
+SmartArt, kullanıcıların profesyonel görünümlü grafikleri hızlı ve kolay bir şekilde oluşturmasına olanak tanıyan PowerPoint'teki güçlü bir özelliktir. Bu eğitimde, Java ile Aspose.Slides kullanarak SmartArt'a özel alt düğümlerin nasıl ekleneceğini öğreneceğiz.
+## Ön koşullar
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
-1. Java Geliştirme Kiti (JDK): Sisteminizde Java'nın kurulu olduğundan emin olun.
-2.  Aspose.Slides for Java: Aspose.Slides for Java'yı şu adresten indirip yükleyin:[Burada](https://releases.aspose.com/slides/java/).
+1. Java Geliştirme Kiti (JDK): Sisteminizde Java'nın yüklü olduğundan emin olun.
+2. Java için Aspose.Slides: Java için Aspose.Slides'ı indirin ve yükleyin [Burada](https://releases.aspose.com/slides/java/).
 
 ## Paketleri İçe Aktar
-Başlamak için gerekli paketleri Java projenize aktarın:
+Başlamak için Java projenize gerekli paketleri içe aktarın:
 ```java
 import com.aspose.slides.*;
 ```
-## 1. Adım: Sunuyu Yükleyin
+## Adım 1: Sunumu Yükleyin
 SmartArt'a özel alt düğümler eklemek istediğiniz PowerPoint sunumunu yükleyin:
 ```java
 String dataDir = "Your Document Directory";
 // İstediğiniz sunumu yükleyin
 Presentation pres = new Presentation(dataDir + "YourPresentation.pptx");
 ```
-## Adım 2: SmartArt'ı Slayt'a ekleyin
-Şimdi slayda SmartArt'ı ekleyelim:
+## Adım 2: Slayda SmartArt Ekleme
+Şimdi slayda SmartArt ekleyelim:
 ```java
 ISmartArt smart = pres.getSlides().get_Item(0).getShapes().addSmartArt(20, 20, 600, 500, SmartArtLayoutType.OrganizationChart);
 ```
-## 3. Adım: SmartArt Şeklini Taşı
+## Adım 3: SmartArt Şeklini Taşı
 SmartArt şeklini yeni bir konuma taşıyın:
 ```java
 ISmartArtNode node = smart.getAllNodes().get_Item(1);
@@ -66,28 +68,30 @@ node = smart.getAllNodes().get_Item(4);
 shape = node.getShapes().get_Item(1);
 shape.setRotation(90);
 ```
-## Adım 7: Sunuyu Kaydet
-Son olarak değiştirilen sunumu kaydedin:
+## Adım 7: Sunumu Kaydedin
+Son olarak, değiştirilen sunumu kaydedin:
 ```java
 pres.save(dataDir + "ModifiedPresentation.pptx", SaveFormat.Pptx);
 ```
 
 ## Çözüm
-Bu eğitimde Aspose.Slides ile Java kullanarak SmartArt'a özel alt düğümlerin nasıl ekleneceğini öğrendik. Bu adımları izleyerek sunumlarınızı özelleştirilmiş grafiklerle geliştirebilir, daha ilgi çekici ve profesyonel hale getirebilirsiniz.
-## SSS'ler
-### Aspose.Slides for Java'yı kullanarak farklı türde SmartArt mizanpajları ekleyebilir miyim?
-Evet, Aspose.Slides for Java, çeşitli SmartArt düzenlerini destekleyerek sunum ihtiyaçlarınıza en uygun olanı seçmenize olanak tanır.
-### Aspose.Slides for Java, PowerPoint'in farklı sürümleriyle uyumlu mu?
-Aspose.Slides for Java, PowerPoint'in farklı sürümleriyle sorunsuz çalışacak şekilde tasarlanmıştır ve platformlar arasında uyumluluk ve tutarlılık sağlar.
-### SmartArt şekillerinin görünümünü programlı olarak özelleştirebilir miyim?
-Kesinlikle! Aspose.Slides for Java ile SmartArt şekillerinin görünümünü, boyutunu, rengini ve düzenini tasarım tercihlerinize uyacak şekilde programlı olarak özelleştirebilirsiniz.
+Bu eğitimde, Java ile Aspose.Slides kullanarak SmartArt'a özel alt düğümlerin nasıl ekleneceğini öğrendik. Bu adımları izleyerek, sunumlarınızı özelleştirilmiş grafiklerle geliştirebilir, onları daha ilgi çekici ve profesyonel hale getirebilirsiniz.
+## SSS
+### Aspose.Slides for Java'yı kullanarak farklı türlerde SmartArt düzenleri ekleyebilir miyim?
+Evet, Aspose.Slides for Java çeşitli SmartArt düzenlerini destekler ve sunum ihtiyaçlarınıza en uygun olanı seçmenize olanak tanır.
+### Aspose.Slides for Java, PowerPoint'in farklı sürümleriyle uyumlu mudur?
+Java için Aspose.Slides, PowerPoint'in farklı sürümleriyle sorunsuz çalışacak şekilde tasarlanmıştır; böylece platformlar arasında uyumluluk ve tutarlılık sağlanır.
+### SmartArt şekillerinin görünümünü program aracılığıyla özelleştirebilir miyim?
+Kesinlikle! Aspose.Slides for Java ile SmartArt şekillerinin görünümünü, boyutunu, rengini ve düzenini tasarım tercihlerinize uyacak şekilde programlı bir şekilde özelleştirebilirsiniz.
 ### Aspose.Slides for Java dokümantasyon ve destek sağlıyor mu?
-Evet, Aspose web sitesinde kapsamlı belgeler bulabilir ve topluluk destek forumlarına erişim sağlayabilirsiniz.
-### Aspose.Slides for Java'nın deneme sürümü mevcut mu?
- Evet, Aspose.Slides for Java'nın ücretsiz deneme sürümünü web sitesinden indirebilir ve satın almadan önce özelliklerini ve yeteneklerini keşfedebilirsiniz.[Burada](https://releases.aspose.com/slides/java/).
+Evet, Aspose web sitesinde kapsamlı dokümantasyona ulaşabilir ve topluluk destek forumlarına erişebilirsiniz.
+### Aspose.Slides for Java için deneme sürümü mevcut mu?
+Evet, satın alma işlemi yapmadan önce özelliklerini ve yeteneklerini keşfetmek için Aspose.Slides for Java'nın ücretsiz deneme sürümünü web sitesinden indirebilirsiniz. [Burada](https://releases.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

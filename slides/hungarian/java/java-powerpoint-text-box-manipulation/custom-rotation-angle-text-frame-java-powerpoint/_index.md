@@ -1,78 +1,82 @@
 ---
-title: Egyéni elforgatási szög szövegkerethez a Java PowerPointban
-linktitle: Egyéni elforgatási szög szövegkerethez a Java PowerPointban
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan szabhatja testre a szövegkeretek elforgatási szögeit a Java PowerPointban az Aspose.Slides segítségével. Fokozza dinamikusan prezentációit.
-weight: 14
-url: /hu/java/java-powerpoint-text-box-manipulation/custom-rotation-angle-text-frame-java-powerpoint/
+"description": "Tanuld meg, hogyan szabhatod testre a szövegkeretek elforgatási szögeit Java PowerPointban az Aspose.Slides segítségével. Dinamikusan gazdagítsd a prezentációidat."
+"linktitle": "Egyéni elforgatási szög szövegkerethez Java PowerPointban"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Egyéni elforgatási szög szövegkerethez Java PowerPointban"
+"url": "/hu/java/java-powerpoint-text-box-manipulation/custom-rotation-angle-text-frame-java-powerpoint/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Egyéni elforgatási szög szövegkerethez a Java PowerPointban
+# Egyéni elforgatási szög szövegkerethez Java PowerPointban
 
 ## Bevezetés
-Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet manipulálni a szövegkeretek elforgatási szögeit Java PowerPoint prezentációkban az Aspose.Slides segítségével. Az elforgatási szögek testreszabása kulcsfontosságú a diákon belüli szöveg vizuális vonzerejének és tisztaságának fokozása érdekében. Akár dinamikus diagramokat készít, akár egyéni címeket ad hozzá, a szövegkeret pontos elforgatása jelentősen javíthatja a prezentáció esztétikáját.
+Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan lehet a szövegkeret elforgatási szögeit manipulálni Java PowerPoint prezentációkban az Aspose.Slides segítségével. Az elforgatási szögek testreszabása kulcsfontosságú a diákon belüli szöveg vizuális megjelenésének és érthetőségének javításához. Akár dinamikus diagramokat készít, akár egyéni címeket ad hozzá, a szövegkeret pontos elforgatása jelentősen javíthatja a prezentáció esztétikáját.
 ## Előfeltételek
-Mielőtt belevágna ebbe az oktatóanyagba, győződjön meg arról, hogy rendelkezik az alábbiakkal:
+Mielőtt belevágna ebbe az oktatóanyagba, győződjön meg arról, hogy rendelkezik a következőkkel:
 - Java programozási alapismeretek.
-- JDK (Java Development Kit) telepítve van a gépére.
--  Aspose.Slides for Java könyvtár. Letöltheti innen[itt](https://releases.aspose.com/slides/java/).
-- IDE (Integrated Development Environment), például az IntelliJ IDEA vagy az Eclipse beállítása.
+- JDK (Java Development Kit) telepítve a gépedre.
+- Aspose.Slides Java könyvtárhoz. Letöltheted innen: [itt](https://releases.aspose.com/slides/java/).
+- IDE (integrált fejlesztői környezet), például IntelliJ IDEA vagy Eclipse beállítása.
 ## Csomagok importálása
-Ügyeljen arra, hogy importálja a szükséges Aspose.Slides osztályokat a PowerPoint prezentációk Java nyelven történő használatához:
+Győződjön meg róla, hogy importálta a szükséges Aspose.Slides osztályokat a PowerPoint prezentációkhoz Java nyelven:
 ```java
 import com.aspose.slides.*;
 ```
-## 1. lépés: Állítsa be projektjét
-Először hozzon létre egy új Java-projektet az IDE-ben, és adja hozzá az Aspose.Slides for Java könyvtárat a projekt felépítési útvonalához.
-## 2. lépés: Inicializálja a bemutató objektumot
-Inicializáljon egy prezentációs objektumot, hogy egy új PowerPoint bemutatóval működjön:
+## 1. lépés: A projekt beállítása
+Először hozz létre egy új Java projektet az IDE-ben, és add hozzá az Aspose.Slides for Java könyvtárat a projekt build útvonalához.
+## 2. lépés: A prezentációs objektum inicializálása
+Presentation objektum inicializálása új PowerPoint-bemutatóval való munkához:
 ```java
 String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation();
 ```
-## 3. lépés: Adjon hozzá egy diagramot a diához
-Csoportosított oszlopdiagram hozzáadása az első diához:
+## 3. lépés: Diagram hozzáadása a diához
+Fürtözött oszlopdiagram hozzáadása az első diához:
 ```java
 IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 50, 50, 500, 300);
 ```
-## 4. lépés: A diagram adatcímkéinek testreszabása
-Testreszabhatja az adatcímkék elforgatási szögét a diagramsorozatban:
+## 4. lépés: Diagramadat-feliratok testreszabása
+Testreszabhatja az adatfeliratok elforgatási szögét a diagramsorozatban:
 ```java
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 series.getLabels().getDefaultDataLabelFormat().getTextFormat().getTextBlockFormat().setRotationAngle(65);
 ```
-## 5. lépés: Állítsa be a cím elforgatási szögét
+## 5. lépés: A cím elforgatási szögének beállítása
 Adjon hozzá egyéni címet a diagramhoz, és állítsa be az elforgatási szögét:
 ```java
 chart.getChartTitle().addTextFrameForOverriding("Custom title").getTextFrameFormat().setRotationAngle(-30);
 ```
-## 6. lépés: Mentse el a bemutatót
-Mentse el a módosított bemutatót egy megadott könyvtárba:
+## 6. lépés: Mentse el a prezentációt
+Mentse el a módosított prezentációt egy megadott könyvtárba:
 ```java
 presentation.save(dataDir + "textframe-rotation_out.pptx", SaveFormat.Pptx);
 ```
 
 ## Következtetés
-A Java PowerPoint prezentációk szövegkereteinek elforgatási szögeinek testreszabása az Aspose.Slides segítségével lehetővé teszi a fejlesztők számára, hogy tetszetős és professzionális megjelenésű diákat készítsenek könnyedén. Ezen lépések követésével dinamikusan javíthatja prezentációinak olvashatóságát és kialakítását.
+A Java PowerPoint prezentációkban a szövegkeretek elforgatási szögeinek testreszabása az Aspose.Slides segítségével lehetővé teszi a fejlesztők számára, hogy könnyedén készítsenek vizuálisan vonzó és professzionális megjelenésű diákat. A következő lépéseket követve dinamikusan javíthatja prezentációi olvashatóságát és kialakítását.
 
 ## GYIK
-### Mi az Aspose.Slides for Java?
-Az Aspose.Slides for Java egy robusztus könyvtár, amely lehetővé teszi a Java fejlesztők számára PowerPoint prezentációk programozott létrehozását, módosítását és konvertálását.
-### Hogyan tölthetem le az Aspose.Slides for Java ingyenes próbaverzióját?
- Letöltheti az Aspose.Slides for Java ingyenes próbaverzióját a webhelyről[itt](https://releases.aspose.com/).
-### Hol találom az Aspose.Slides for Java dokumentációját?
- Az Aspose.Slides for Java részletes dokumentációja elérhető[itt](https://reference.aspose.com/slides/java/).
-### Az Aspose.Slides alkalmas vállalati alkalmazásokhoz?
-Igen, az Aspose.Slides a PowerPoint prezentációk létrehozásával és kezelésével kapcsolatos vállalati szintű követelmények kezelésére szolgál.
-### Hogyan kaphatok támogatást az Aspose.Slides for Java számára?
- Technikai támogatásért és közösségi interakcióért látogassa meg a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11).
+### Mi az Aspose.Slides Java-hoz?
+Az Aspose.Slides for Java egy robusztus könyvtár, amely lehetővé teszi a Java-fejlesztők számára PowerPoint-bemutatók programozott létrehozását, módosítását és konvertálását.
+### Hogyan tölthetem le az Aspose.Slides ingyenes próbaverzióját Java-hoz?
+Letöltheti az Aspose.Slides Java-hoz készült ingyenes próbaverzióját innen: [itt](https://releases.aspose.com/).
+### Hol találok dokumentációt az Aspose.Slides Java-hoz?
+Az Aspose.Slides Java-hoz készült részletes dokumentációja elérhető. [itt](https://reference.aspose.com/slides/java/).
+### Alkalmas az Aspose.Slides vállalati alkalmazásokhoz?
+Igen, az Aspose.Slides úgy lett kialakítva, hogy megfeleljen a PowerPoint-bemutatók létrehozásának és kezelésének vállalati szintű követelményeinek.
+### Hogyan kaphatok támogatást az Aspose.Slides-hoz Java-ban?
+Technikai támogatásért és közösségi interakcióért látogassa meg a következőt: [Aspose.Slides fórum](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

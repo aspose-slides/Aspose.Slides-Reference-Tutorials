@@ -1,28 +1,30 @@
 ---
-title: Crea cornice di zoom in PowerPoint
-linktitle: Crea cornice di zoom in PowerPoint
-second_title: Aspose.Slides API di elaborazione Java PowerPoint
-description: Scopri come creare fotogrammi Zoom accattivanti in PowerPoint utilizzando Aspose.Slides per Java. Segui la nostra guida per aggiungere elementi interattivi alle tue presentazioni.
-weight: 17
-url: /it/java/java-powerpoint-shape-thumbnail-creation/create-zoom-frame-powerpoint/
+"description": "Scopri come creare coinvolgenti Zoom Frame in PowerPoint utilizzando Aspose.Slides per Java. Segui la nostra guida per aggiungere elementi interattivi alle tue presentazioni."
+"linktitle": "Creare una cornice di zoom in PowerPoint"
+"second_title": "API di elaborazione Java PowerPoint di Aspose.Slides"
+"title": "Creare una cornice di zoom in PowerPoint"
+"url": "/it/java/java-powerpoint-shape-thumbnail-creation/create-zoom-frame-powerpoint/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Crea cornice di zoom in PowerPoint
+# Creare una cornice di zoom in PowerPoint
 
-## introduzione
-Creare presentazioni PowerPoint accattivanti è un'arte e, a volte, le più piccole aggiunte possono fare un'enorme differenza. Una di queste funzionalità è Zoom Frame, che consente di ingrandire diapositive o immagini specifiche, creando una presentazione dinamica e interattiva. In questo tutorial ti guideremo attraverso il processo di creazione di un frame di zoom in PowerPoint utilizzando Aspose.Slides per Java.
+## Introduzione
+Creare presentazioni PowerPoint accattivanti è un'arte e, a volte, anche i più piccoli accorgimenti possono fare un'enorme differenza. Una di queste funzionalità è lo Zoom Frame, che consente di ingrandire diapositive o immagini specifiche, creando una presentazione dinamica e interattiva. In questo tutorial, vi guideremo attraverso il processo di creazione di uno Zoom Frame in PowerPoint utilizzando Aspose.Slides per Java.
 ## Prerequisiti
 Prima di immergerti nel tutorial, assicurati di avere quanto segue:
-- Java Development Kit (JDK) installato sul tuo sistema.
--  Aspose.Slides per la libreria Java. Puoi scaricarlo da[Qui](https://releases.aspose.com/slides/java/).
+- Java Development Kit (JDK) installato sul sistema.
+- Libreria Aspose.Slides per Java. Puoi scaricarla da [Qui](https://releases.aspose.com/slides/java/).
 - Un ambiente di sviluppo integrato (IDE) come IntelliJ IDEA o Eclipse.
-- Conoscenza base della programmazione Java.
+- Conoscenza di base della programmazione Java.
 ## Importa pacchetti
-Per cominciare, devi importare i pacchetti necessari nel tuo progetto Java. Queste importazioni forniranno l'accesso alle funzionalità Aspose.Slides richieste per questo tutorial.
+Per iniziare, è necessario importare i pacchetti necessari nel progetto Java. Queste importazioni forniranno l'accesso alle funzionalità di Aspose.Slides necessarie per questo tutorial.
 ```java
 import com.aspose.slides.*;
 
@@ -31,16 +33,16 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 ```
-## Passaggio 1: impostazione della presentazione
+## Fase 1: Impostazione della presentazione
 Per prima cosa dobbiamo creare una nuova presentazione e aggiungervi un paio di diapositive.
 ```java
 // Nome del file di output
 String resultPath = "ZoomFramePresentation.pptx";
-// Percorso dell'immagine di origine
+// Percorso all'immagine sorgente
 String imagePath = "Your Document Directory/aspose-logo.jpg";
 Presentation pres = new Presentation();
 try {
-    // Aggiungi nuove diapositive alla presentazione
+    // Aggiungere nuove diapositive alla presentazione
     ISlide slide2 = pres.getSlides().addEmptySlide(pres.getSlides().get_Item(0).getLayoutSlide());
     ISlide slide3 = pres.getSlides().addEmptySlide(pres.getSlides().get_Item(0).getLayoutSlide());
 ```
@@ -66,31 +68,31 @@ Vogliamo rendere le nostre diapositive visivamente distinte aggiungendo colori d
     autoshape = slide3.getShapes().addAutoShape(ShapeType.Rectangle, 100, 200, 500, 200);
     autoshape.getTextFrame().setText("Third Slide");
 ```
-## Passaggio 3: aggiunta di fotogrammi di zoom
-Ora aggiungiamo fotogrammi Zoom alla presentazione. Aggiungeremo un fotogramma zoom con un'anteprima della diapositiva e un altro con un'immagine personalizzata.
-### Aggiunta di un riquadro di zoom con anteprima diapositiva
+## Passaggio 3: aggiunta di cornici zoom
+Ora aggiungiamo le cornici Zoom alla presentazione. Aggiungeremo una cornice Zoom con un'anteprima della diapositiva e un'altra con un'immagine personalizzata.
+### Aggiunta di una cornice zoom con anteprima diapositiva
 ```java
-    // Aggiungi oggetti ZoomFrame con anteprima della diapositiva
+    // Aggiungi oggetti ZoomFrame con anteprima diapositiva
     IZoomFrame zoomFrame1 = pres.getSlides().get_Item(0).getShapes().addZoomFrame(20, 20, 250, 200, slide2);
 ```
-### Aggiunta di una cornice di zoom con un'immagine personalizzata
+### Aggiunta di una cornice zoom con immagine personalizzata
 ```java
     // Aggiungi oggetti ZoomFrame con immagine personalizzata
     byte[] imageBytes = Files.readAllBytes(Paths.get(imagePath));
     IPPImage image = pres.getImages().addImage(imageBytes);
     IZoomFrame zoomFrame2 = pres.getSlides().get_Item(0).getShapes().addZoomFrame(200, 250, 250, 100, slide3, image);
 ```
-## Passaggio 4: personalizzazione dei fotogrammi di zoom
-Per far risaltare le nostre cornici Zoom, personalizzeremo il loro aspetto.
-### Personalizzazione del secondo fotogramma di zoom
+## Passaggio 4: personalizzazione delle cornici di zoom
+Per far risaltare i nostri Zoom Frames, ne personalizzeremo l'aspetto.
+### Personalizzazione del secondo fotogramma dello zoom
 ```java
-    // Imposta un formato del riquadro di zoom per l'oggetto zoomFrame2
+    // Imposta un formato di zoom per l'oggetto zoomFrame2
     zoomFrame2.getLineFormat().setWidth(5);
     zoomFrame2.getLineFormat().getFillFormat().setFillType(FillType.Solid);
     zoomFrame2.getLineFormat().getFillFormat().getSolidFillColor().setColor(Color.MAGENTA);
     zoomFrame2.getLineFormat().setDashStyle(LineDashStyle.DashDot);
 ```
-### Nascondere lo sfondo per il primo fotogramma di zoom
+### Nascondere lo sfondo per il primo fotogramma dello zoom
 ```java
     // Non mostrare lo sfondo per l'oggetto zoomFrame1
     zoomFrame1.setShowBackground(false);
@@ -107,21 +109,23 @@ Infine, salviamo la nostra presentazione nel percorso specificato.
 }
 ```
 ## Conclusione
-La creazione di fotogrammi di zoom in PowerPoint utilizzando Aspose.Slides per Java può migliorare significativamente l'interattività e il coinvolgimento delle tue presentazioni. Seguendo i passaggi delineati in questo tutorial, puoi aggiungere facilmente sia anteprime di diapositive che immagini personalizzate come fotogrammi di zoom, personalizzandole per adattarle al tema della tua presentazione. Buona presentazione!
+Creare cornici di zoom in PowerPoint utilizzando Aspose.Slides per Java può migliorare significativamente l'interattività e il coinvolgimento delle presentazioni. Seguendo i passaggi descritti in questo tutorial, è possibile aggiungere facilmente sia anteprime delle diapositive che immagini personalizzate come cornici di zoom, personalizzandole in base al tema della presentazione. Buona presentazione!
 ## Domande frequenti
-### Cos'è Aspose.Slides per Java?
-Aspose.Slides per Java è una potente API per creare e manipolare presentazioni PowerPoint a livello di codice.
-### Come installo Aspose.Slides per Java?
- È possibile scaricare Aspose.Slides per Java dal file[sito web](https://releases.aspose.com/slides/java/) e aggiungilo alle dipendenze del tuo progetto.
-### Posso personalizzare l'aspetto dei fotogrammi di zoom?
-Sì, Aspose.Slides ti consente di personalizzare varie proprietà dei fotogrammi di zoom, come lo stile della linea, il colore e la visibilità dello sfondo.
-### È possibile aggiungere immagini ai fotogrammi Zoom?
-Assolutamente! Puoi aggiungere immagini personalizzate ai fotogrammi Zoom leggendo i file immagine e aggiungendoli alla presentazione.
+### Che cos'è Aspose.Slides per Java?
+Aspose.Slides per Java è una potente API per creare e manipolare presentazioni PowerPoint a livello di programmazione.
+### Come faccio a installare Aspose.Slides per Java?
+Puoi scaricare Aspose.Slides per Java da [sito web](https://releases.aspose.com/slides/java/) e aggiungilo alle dipendenze del tuo progetto.
+### Posso personalizzare l'aspetto di Zoom Frames?
+Sì, Aspose.Slides consente di personalizzare varie proprietà di Zoom Frames, come lo stile della linea, il colore e la visibilità dello sfondo.
+### È possibile aggiungere immagini a Zoom Frames?
+Assolutamente! Puoi aggiungere immagini personalizzate a Zoom Frames leggendo i file immagine e aggiungendoli alla presentazione.
 ### Dove posso trovare altri esempi e documentazione?
- È possibile trovare documentazione completa ed esempi su[Aspose.Slides per la pagina della documentazione Java](https://reference.aspose.com/slides/java/).
+Puoi trovare documentazione completa ed esempi su [Pagina di documentazione di Aspose.Slides per Java](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,42 +1,44 @@
 ---
-title: Mediabedieningen voor diavoorstellingen in Java-dia's
-linktitle: Mediabedieningen voor diavoorstellingen in Java-dia's
-second_title: Aspose.Slides Java PowerPoint-verwerkings-API
-description: Leer hoe u mediabediening in Java Slides kunt inschakelen en gebruiken met Aspose.Slides voor Java. Verbeter uw presentaties met mediabediening.
-weight: 11
-url: /nl/java/media-controls/slide-show-media-controls-in-java-slides/
+"description": "Leer hoe u mediabediening in Java Slides kunt inschakelen en gebruiken met Aspose.Slides voor Java. Verbeter uw presentaties met mediabediening."
+"linktitle": "Diavoorstelling Mediabedieningen in Java Slides"
+"second_title": "Aspose.Slides Java PowerPoint-verwerkings-API"
+"title": "Diavoorstelling Mediabedieningen in Java Slides"
+"url": "/nl/java/media-controls/slide-show-media-controls-in-java-slides/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mediabedieningen voor diavoorstellingen in Java-dia's
+# Diavoorstelling Mediabedieningen in Java Slides
 
 
-## Inleiding tot mediabedieningen voor diavoorstellingen in Java-dia's
+## Inleiding tot diavoorstellingmediabedieningen in Java Slides
 
-Op het gebied van dynamische en boeiende presentaties spelen multimedia-elementen een cruciale rol bij het trekken van de aandacht van het publiek. Met Java Slides kunnen ontwikkelaars, met de hulp van Aspose.Slides voor Java, boeiende diavoorstellingen maken waarin mediabediening naadloos is geïntegreerd. Of u nu een trainingsmodule, een verkooppraatje of een educatieve presentatie ontwerpt, de mogelijkheid om media te bedienen tijdens de diavoorstelling is een game-changer.
+In dynamische en boeiende presentaties spelen multimedia-elementen een cruciale rol bij het vasthouden van de aandacht van het publiek. Java Slides, met behulp van Aspose.Slides voor Java, stelt ontwikkelaars in staat om boeiende diavoorstellingen te maken met naadloze mediabediening. Of u nu een trainingsmodule, een verkooppraatje of een educatieve presentatie ontwerpt, de mogelijkheid om media tijdens de diavoorstelling te bedienen is een echte doorbraak.
 
 ## Vereisten
 
-Voordat je in de code duikt, zorg ervoor dat je aan de volgende vereisten voldoet:
+Voordat u aan de slag gaat met de code, moet u ervoor zorgen dat de volgende vereisten aanwezig zijn:
 
 - Java Development Kit (JDK) op uw systeem geïnstalleerd.
--  Aspose.Slides voor Java-bibliotheek. Je kunt het downloaden van[hier](https://releases.aspose.com/slides/java/).
+- Aspose.Slides voor Java-bibliotheek. Je kunt het downloaden van [hier](https://releases.aspose.com/slides/java/).
 - Een geïntegreerde ontwikkelomgeving (IDE) naar keuze, zoals IntelliJ IDEA of Eclipse.
 
 ## Stap 1: Uw ontwikkelomgeving instellen
 
-Voordat we in de code duiken, moet u ervoor zorgen dat u uw ontwikkelomgeving correct heeft ingesteld. Volg deze stappen:
+Voordat we de code induiken, moet je ervoor zorgen dat je ontwikkelomgeving correct is ingesteld. Volg deze stappen:
 
 - Installeer JDK op uw systeem.
 - Download Aspose.Slides voor Java via de meegeleverde link.
-- Stel uw favoriete IDE in.
+- Stel uw voorkeurs-IDE in.
 
 ## Stap 2: Een nieuwe presentatie maken
 
-Laten we beginnen met het maken van een nieuwe presentatie. Zo kunt u het doen in Java Slides:
+Laten we beginnen met het maken van een nieuwe presentatie. Zo doe je dat in Java Slides:
 
 ```java
 // Pad naar PPTX-document
@@ -48,39 +50,39 @@ In dit codefragment maken we een nieuw presentatieobject en specificeren we het 
 
 ## Stap 3: Mediabediening inschakelen
 
-Om de mediabedieningsweergave in de diavoorstellingsmodus in te schakelen, gebruikt u de volgende code:
+Om de weergave van mediabediening in de diavoorstellingsmodus in te schakelen, gebruikt u de volgende code:
 
 ```java
 pres.getSlideShowSettings().setShowMediaControls(true);
 ```
 
-Deze coderegel instrueert Java Slides om mediabedieningselementen weer te geven tijdens de diavoorstelling.
+Deze regel code geeft Java Slides de opdracht om mediabedieningen weer te geven tijdens de diavoorstelling.
 
 ## Stap 4: Media toevoegen aan dia's
 
-Laten we nu media aan onze dia's toevoegen. U kunt audio- of videobestanden aan dia's toevoegen met behulp van de uitgebreide functies van Java Slides.
+Laten we nu media aan onze dia's toevoegen. Je kunt audio- of videobestanden aan dia's toevoegen met de uitgebreide functies van Java Slides.
 
-Pas het afspelen van media aan
-kunt het afspelen van media verder aanpassen, zoals het instellen van de begin- en eindtijd, het volume en meer, om een multimedia-ervaring op maat voor uw publiek te creëren.
+Mediaweergave aanpassen
+U kunt de mediaweergave verder aanpassen, bijvoorbeeld door de begin- en eindtijd, het volume en meer in te stellen. Zo creëert u een multimedia-ervaring op maat voor uw publiek.
 
 ## Stap 5: De presentatie opslaan
 
-Nadat u media hebt toegevoegd en het afspelen ervan hebt aangepast, slaat u de presentatie op in PPTX-indeling met behulp van de volgende code:
+Nadat u media hebt toegevoegd en de weergave ervan hebt aangepast, slaat u de presentatie op in PPTX-formaat met behulp van de volgende code:
 
 ```java
 pres.save(outFilePath, SaveFormat.Pptx);
 ```
 
-Met deze code wordt uw presentatie opgeslagen terwijl de mediabediening is ingeschakeld.
+Met deze code wordt uw presentatie opgeslagen met ingeschakelde mediabediening.
 
-## Volledige broncode voor mediabedieningen voor diavoorstellingen in Java-dia's
+## Volledige broncode voor diavoorstellingmediabedieningen in Java Slides
 
 ```java
 // Pad naar PPTX-document
 String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 try {
-	// Schakel mediabedieningsweergave in diavoorstellingsmodus in.
+	// Schakel de weergave van mediabediening in de diavoorstellingsmodus in.
 	pres.getSlideShowSettings().setShowMediaControls(true);
 	// Presentatie opslaan in PPTX-formaat.
 	pres.save(outFilePath, SaveFormat.Pptx);
@@ -91,32 +93,34 @@ try {
 
 ## Conclusie
 
-In deze zelfstudie hebben we onderzocht hoe u mediabesturingselementen in Java Slides kunt inschakelen en gebruiken met Aspose.Slides voor Java. Door deze stappen te volgen, kunt u boeiende presentaties maken met interactieve multimedia-elementen die uw publiek boeien.
+In deze tutorial hebben we uitgelegd hoe je mediabediening in Java Slides kunt inschakelen en gebruiken met Aspose.Slides voor Java. Door deze stappen te volgen, kun je boeiende presentaties maken met interactieve multimedia-elementen die je publiek boeien.
 
 ## Veelgestelde vragen
 
 ### Hoe kan ik meerdere mediabestanden aan één dia toevoegen?
 
- Als u meerdere mediabestanden aan één dia wilt toevoegen, kunt u de`addMediaFrame`methode op een dia en specificeer het mediabestand voor elk frame. Vervolgens kunt u de afspeelinstellingen voor elk frame afzonderlijk aanpassen.
+Om meerdere mediabestanden aan één dia toe te voegen, kunt u de `addMediaFrame` Methode op een dia en specificeer het mediabestand voor elk frame. Vervolgens kunt u de afspeelinstellingen voor elk frame afzonderlijk aanpassen.
 
-### Kan ik het volume van de audio in mijn presentatie regelen?
+### Kan ik het volume van het geluid in mijn presentatie regelen?
 
- Ja, u kunt het volume van de audio in uw presentatie regelen door de`Volume` eigenschap voor het audioframe. U kunt het volumeniveau aanpassen aan uw gewenste niveau.
+Ja, u kunt het volume van de audio in uw presentatie regelen door de `Volume` Eigenschap voor het audioframe. U kunt het volume naar wens aanpassen.
 
 ### Is het mogelijk om een video continu te herhalen tijdens de diavoorstelling?
 
- Ja, u kunt de`Looping` eigenschap voor een videoframe`true` om de video continu te laten herhalen tijdens de diavoorstelling.
+Ja, u kunt de `Looping` eigenschap voor een videoframe naar `true` om de video doorlopend te laten herhalen tijdens de diavoorstelling.
 
-### Hoe kan ik een video automatisch afspelen als er een dia verschijnt?
+### Hoe kan ik automatisch een video afspelen wanneer er een dia verschijnt?
 
- Als u wilt dat een video automatisch wordt afgespeeld wanneer een dia verschijnt, kunt u de`PlayMode` eigenschap voor het videoframe`Auto`.
+Om een video automatisch te laten afspelen wanneer er een dia verschijnt, kunt u de volgende instellingen gebruiken: `PlayMode` eigenschap voor het videoframe naar `Auto`.
 
 ### Is er een manier om ondertitels of bijschriften toe te voegen aan video's in Java Slides?
 
-Ja, u kunt ondertitels of bijschriften toevoegen aan video's in Java Slides door tekstkaders of vormen toe te voegen aan de dia met de video. Vervolgens kunt u de tekst synchroniseren met het afspelen van de video met behulp van de timinginstellingen.
+Ja, je kunt ondertitels of bijschriften toevoegen aan video's in Java Slides door tekstkaders of vormen toe te voegen aan de dia met de video. Je kunt de tekst vervolgens synchroniseren met de videoweergave met behulp van timinginstellingen.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

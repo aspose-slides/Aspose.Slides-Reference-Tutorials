@@ -1,31 +1,33 @@
 ---
-title: Donut-Callout in Java-Folien hinzufügen
-linktitle: Donut-Callout in Java-Folien hinzufügen
-second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie mit Aspose.Slides für Java Donut-Callouts in Java-Folien einfügen. Schritt-für-Schritt-Anleitung mit Quellcode für erweiterte Präsentationen.
-weight: 12
-url: /de/java/chart-data-manipulation/add-doughnut-callout-java-slides/
+"description": "Erfahren Sie, wie Sie mit Aspose.Slides für Java Donut-Callouts in Java-Folien einfügen. Schritt-für-Schritt-Anleitung mit Quellcode für erweiterte Präsentationen."
+"linktitle": "Donut-Callout in Java-Folien hinzufügen"
+"second_title": "Aspose.Slides Java PowerPoint-Verarbeitungs-API"
+"title": "Donut-Callout in Java-Folien hinzufügen"
+"url": "/de/java/chart-data-manipulation/add-doughnut-callout-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Donut-Callout in Java-Folien hinzufügen
 
 
-## Einführung zum Hinzufügen eines Donut-Callouts in Java-Folien mit Aspose.Slides für Java
+## Einführung in das Hinzufügen eines Donut-Callouts in Java-Folien mit Aspose.Slides für Java
 
-In diesem Tutorial führen wir Sie durch den Prozess des Hinzufügens eines Donut-Callouts zu einer Folie in Java mithilfe von Aspose.Slides für Java. Ein Donut-Callout ist ein Diagrammelement, mit dem bestimmte Datenpunkte in einem Donut-Diagramm hervorgehoben werden können. Wir stellen Ihnen zu Ihrer Bequemlichkeit schrittweise Anweisungen und den vollständigen Quellcode zur Verfügung.
+In diesem Tutorial zeigen wir Ihnen, wie Sie mithilfe von Aspose.Slides für Java in Java einen Donut-Callout zu einer Folie hinzufügen. Ein Donut-Callout ist ein Diagrammelement, mit dem Sie bestimmte Datenpunkte in einem Donut-Diagramm hervorheben können. Wir stellen Ihnen eine Schritt-für-Schritt-Anleitung und den vollständigen Quellcode zur Verfügung.
 
 ## Voraussetzungen
 
-Stellen Sie zunächst sicher, dass die folgenden Voraussetzungen erfüllt sind:
+Bevor Sie beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
 1. Java-Entwicklungsumgebung
-2. Aspose.Slides für Java-Bibliothek
+2. Aspose.Slides für die Java-Bibliothek
 3. Integrierte Entwicklungsumgebung (IDE) wie Eclipse oder IntelliJ IDEA
-4. Eine PowerPoint-Präsentation, in der Sie den Donut-Callout einfügen möchten
+4. Eine PowerPoint-Präsentation, in der Sie den Donut-Callout hinzufügen möchten
 
 ## Schritt 1: Richten Sie Ihr Java-Projekt ein
 
@@ -34,7 +36,7 @@ Stellen Sie zunächst sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
 ## Schritt 2: Initialisieren der Präsentation
 
-Um zu beginnen, müssen Sie eine PowerPoint-Präsentation initialisieren und eine Folie erstellen, auf der Sie den Donut-Callout hinzufügen möchten. Hier ist der Code, um dies zu erreichen:
+Um zu beginnen, müssen Sie eine PowerPoint-Präsentation initialisieren und eine Folie erstellen, auf der Sie den Donut-Callout einfügen möchten. Hier ist der Code dazu:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -42,19 +44,19 @@ Presentation pres = new Presentation(dataDir + "testc.pptx");
 ISlide slide = pres.getSlides().get_Item(0);
 ```
 
- Ersetzen Sie unbedingt`"Your Document Directory"` durch den tatsächlichen Pfad zu Ihrer PowerPoint-Präsentationsdatei.
+Stellen Sie sicher, dass Sie `"Your Document Directory"` durch den tatsächlichen Pfad zu Ihrer PowerPoint-Präsentationsdatei.
 
 ## Schritt 3: Erstellen Sie ein Ringdiagramm
 
-Als Nächstes erstellen Sie ein Ringdiagramm auf der Folie. Sie können die Position und Größe des Diagramms nach Ihren Anforderungen anpassen. Hier ist der Code zum Hinzufügen eines Ringdiagramms:
+Als Nächstes erstellen Sie ein Ringdiagramm auf der Folie. Sie können Position und Größe des Diagramms nach Ihren Wünschen anpassen. Hier ist der Code zum Hinzufügen eines Ringdiagramms:
 
 ```java
 IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, false);
 ```
 
-## Schritt 4: Passen Sie das Donut-Diagramm an
+## Schritt 4: Passen Sie das Ringdiagramm an
 
-Jetzt ist es an der Zeit, das Donut-Diagramm anzupassen. Wir legen verschiedene Eigenschaften fest, z. B. das Entfernen der Legende, das Konfigurieren der Lochgröße und das Anpassen des ersten Schnittwinkels. Hier ist der Code:
+Jetzt ist es an der Zeit, das Ringdiagramm anzupassen. Wir legen verschiedene Eigenschaften fest, z. B. das Entfernen der Legende, das Konfigurieren der Lochgröße und das Anpassen des ersten Schnittwinkels. Hier ist der Code:
 
 ```java
 IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
@@ -71,11 +73,11 @@ while (seriesIndex < 15) {
 }
 ```
 
-Dieser Codeausschnitt legt die Eigenschaften für das Ringdiagramm fest. Sie können die Werte an Ihre spezifischen Anforderungen anpassen.
+Dieser Codeausschnitt legt die Eigenschaften des Ringdiagramms fest. Sie können die Werte an Ihre spezifischen Anforderungen anpassen.
 
 ## Schritt 5: Daten zum Ringdiagramm hinzufügen
 
-Fügen wir nun Daten zum Ringdiagramm hinzu. Wir werden auch das Erscheinungsbild der Datenpunkte anpassen. Hier ist der Code, um dies zu erreichen:
+Fügen wir nun Daten zum Ringdiagramm hinzu. Wir passen auch die Darstellung der Datenpunkte an. Hier ist der Code dazu:
 
 ```java
 int categoryIndex = 0;
@@ -86,26 +88,26 @@ while (categoryIndex < 15) {
         IChartSeries iCS = chart.getChartData().getSeries().get_Item(i);
         IChartDataPoint dataPoint = iCS.getDataPoints().addDataPointForDoughnutSeries(workBook.getCell(0, categoryIndex + 1, i + 1, 1));
         dataPoint.getFormat().getFill().setFillType(FillType.Solid);
-        // Passen Sie hier das Erscheinungsbild des Datenpunkts an
+        // Passen Sie hier das Erscheinungsbild der Datenpunkte an
         i++;
     }
     categoryIndex++;
 }
 ```
 
-In diesem Code fügen wir dem Ringdiagramm Kategorien und Datenpunkte hinzu. Sie können das Erscheinungsbild der Datenpunkte nach Bedarf weiter anpassen.
+In diesem Code fügen wir dem Ringdiagramm Kategorien und Datenpunkte hinzu. Sie können die Darstellung der Datenpunkte nach Bedarf weiter anpassen.
 
 ## Schritt 6: Speichern Sie die Präsentation
 
-Vergessen Sie nicht, Ihre Präsentation zu speichern, nachdem Sie den Donut-Callout hinzugefügt haben. Hier ist der Code zum Speichern der Präsentation:
+Vergessen Sie nicht, Ihre Präsentation nach dem Hinzufügen des Donut-Callouts zu speichern. Hier ist der Code zum Speichern der Präsentation:
 
 ```java
 pres.save(dataDir + "chart.pptx", SaveFormat.Pptx);
 ```
 
- Ersetzen Sie unbedingt`"chart.pptx"` durch den gewünschten Dateinamen.
+Stellen Sie sicher, dass Sie `"chart.pptx"` mit Ihrem gewünschten Dateinamen.
 
-Herzlichen Glückwunsch! Sie haben mithilfe von Aspose.Slides für Java erfolgreich einen Donut-Callout zu einer Java-Folie hinzugefügt. Sie können jetzt Ihre Java-Anwendung ausführen, um die PowerPoint-Präsentation mit dem Donut-Diagramm und dem Callout zu generieren.
+Herzlichen Glückwunsch! Sie haben mit Aspose.Slides für Java erfolgreich einen Donut-Callout zu einer Java-Folie hinzugefügt. Sie können nun Ihre Java-Anwendung ausführen, um die PowerPoint-Präsentation mit dem Donut-Diagramm und dem Callout zu erstellen.
 
 ## Vollständiger Quellcode zum Hinzufügen eines Donut-Callouts in Java-Folien
 
@@ -171,13 +173,13 @@ pres.save(dataDir + "chart.pptx", SaveFormat.Pptx);
 
 ## Abschluss
 
-In diesem Tutorial haben wir den Vorgang des Hinzufügens eines Donut-Callouts zu einer Java-Folie mithilfe von Aspose.Slides für Java behandelt. Sie haben gelernt, wie Sie ein Donut-Diagramm erstellen, sein Erscheinungsbild anpassen und Datenpunkte hinzufügen. Sie können Ihre Präsentationen mit dieser leistungsstarken Bibliothek weiter verbessern und weitere Diagrammoptionen erkunden.
+In diesem Tutorial haben wir das Hinzufügen eines Donut-Callouts zu einer Java-Folie mit Aspose.Slides für Java erläutert. Sie haben gelernt, wie Sie ein Donut-Diagramm erstellen, dessen Erscheinungsbild anpassen und Datenpunkte hinzufügen. Optimieren Sie Ihre Präsentationen mit dieser leistungsstarken Bibliothek und entdecken Sie weitere Diagrammoptionen.
 
 ## Häufig gestellte Fragen
 
 ### Wie kann ich das Erscheinungsbild des Donut-Callouts ändern?
 
-Sie können das Erscheinungsbild des Donut-Callouts anpassen, indem Sie die Eigenschaften der Datenpunkte im Diagramm ändern. Im bereitgestellten Code können Sie sehen, wie Sie die Füllfarbe, Linienfarbe, den Schriftstil und andere Attribute von Datenpunkten festlegen.
+Sie können das Erscheinungsbild des Donut-Callouts anpassen, indem Sie die Eigenschaften der Datenpunkte im Diagramm ändern. Im bereitgestellten Code erfahren Sie, wie Sie Füllfarbe, Linienfarbe, Schriftart und andere Attribute von Datenpunkten festlegen.
 
 ### Kann ich dem Ringdiagramm weitere Datenpunkte hinzufügen?
 
@@ -185,10 +187,12 @@ Ja, Sie können dem Ringdiagramm beliebig viele Datenpunkte hinzufügen. Erweite
 
 ### Wie kann ich die Position und Größe des Ringdiagramms auf der Folie anpassen?
 
- Sie können die Position und Größe des Ringdiagramms ändern, indem Sie die Parameter im`addChart` Methode. Die vier Zahlen in dieser Methode entsprechen den X- und Y-Koordinaten der oberen linken Ecke des Diagramms bzw. seiner Breite und Höhe.
+Sie können die Position und Größe des Ringdiagramms ändern, indem Sie die Parameter im `addChart` Methode. Die vier Zahlen in dieser Methode entsprechen den X- und Y-Koordinaten der oberen linken Ecke des Diagramms bzw. seiner Breite und Höhe.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

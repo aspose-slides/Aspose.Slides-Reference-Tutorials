@@ -1,32 +1,34 @@
 ---
-title: Aspose.Slides for .NET を使用してスライドからビデオを抽出する方法
-linktitle: スライドからビデオを抽出する
-second_title: Aspose.Slides .NET PowerPoint 処理 API
-description: Aspose.Slides for .NET を使用して PowerPoint スライドからビデオを抽出する方法を学びます。このステップ バイ ステップ ガイドでは、プロセスが簡素化されます。
-weight: 14
-url: /ja/net/audio-and-video-extraction/extract-video/
+"description": "Aspose.Slides for .NET を使用して、PowerPoint スライドからビデオを抽出する方法を学びましょう。このステップバイステップガイドで、プロセスを簡素化できます。"
+"linktitle": "スライドからビデオを抽出する"
+"second_title": "Aspose.Slides .NET PowerPoint 処理 API"
+"title": "Aspose.Slides for .NET を使用してスライドからビデオを抽出する方法"
+"url": "/ja/net/audio-and-video-extraction/extract-video/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Slides for .NET を使用してスライドからビデオを抽出する方法
 
 
-Aspose.Slides for .NET は、.NET 環境で PowerPoint プレゼンテーションを操作できる強力なライブラリです。このライブラリが提供する便利な機能の 1 つは、スライドからビデオを抽出する機能です。このステップ バイ ステップ ガイドでは、Aspose.Slides for .NET を使用して PowerPoint スライドからビデオを抽出する方法を説明します。
+Aspose.Slides for .NETは、.NET環境でPowerPointプレゼンテーションを操作できる強力なライブラリです。その便利な機能の一つとして、スライドからビデオを抽出する機能があります。このステップバイステップガイドでは、Aspose.Slides for .NETを使用してPowerPointスライドからビデオを抽出する方法を説明します。
 
 ## 前提条件
 
 始める前に、次の前提条件が満たされていることを確認してください。
 
--  Aspose.Slides for .NET: Aspose.Slides for .NETがインストールされている必要があります。[Webサイト](https://purchase.aspose.com/buy).
+- Aspose.Slides for .NET: Aspose.Slides for .NET がインストールされている必要があります。 [Webサイト](https://purchase。aspose.com/buy).
 
 - PowerPoint プレゼンテーション: 抽出するビデオを含む PowerPoint プレゼンテーション (例: Video.pptx) を準備します。
 
 ## 名前空間のインポート
 
-Aspose.Slides for .NET を使用するには、必要な名前空間をインポートする必要があります。手順は次のとおりです。
+Aspose.Slides for .NET を使用するには、必要な名前空間をインポートする必要があります。手順は以下のとおりです。
 
 ```csharp
 using Aspose.Slides;
@@ -41,7 +43,7 @@ using Aspose.Slides.Video;
 string dataDir = "Your Document Directory";
 ```
 
-交換する`"Your Document Directory"` PowerPoint プレゼンテーションが保存されているディレクトリへのパスを入力します。
+交換する `"Your Document Directory"` PowerPoint プレゼンテーションが保存されているディレクトリへのパスを入力します。
 
 ## ステップ2: プレゼンテーションを読み込む
 
@@ -62,7 +64,7 @@ foreach (ISlide slide in presentation.Slides)
 
 ここでは、プレゼンテーションの各スライドをループし、最初のスライドの図形を反復処理します (必要に応じて変更します)。
 
-## ステップ4: シェイプがビデオフレームであるかどうかを確認する
+## ステップ4: 図形がビデオフレームであるかどうかを確認する
 
 ```csharp
 if (shape is VideoFrame)
@@ -73,7 +75,7 @@ if (shape is VideoFrame)
 
 この手順では、スライド上の図形がビデオ フレームであるかどうかを確認します。
 
-## ステップ5: ビデオデータを抽出する
+## ステップ5：ビデオデータを抽出する
 
 ```csharp
 int ss = type.LastIndexOf('/');
@@ -83,7 +85,7 @@ Byte[] buffer = vf.EmbeddedVideo.BinaryData;
 
 このコードは、コンテンツ タイプやバイナリ データなど、ビデオに関する情報を抽出します。
 
-## ステップ6: ビデオを保存する
+## ステップ6：ビデオを保存する
 
 ```csharp
 using (FileStream stream = new FileStream(dataDir + "NewVideo_out." + type, FileMode.Create, FileAccess.Write, FileShare.Read))
@@ -98,7 +100,7 @@ using (FileStream stream = new FileStream(dataDir + "NewVideo_out." + type, File
 
 ## 結論
 
-Aspose.Slides for .NET は、PowerPoint プレゼンテーションの操作プロセスを簡素化し、スライドからビデオを抽出するなどのタスクを簡単に実行できるようにします。このステップ バイ ステップ ガイドに従い、Aspose.Slides ライブラリを利用することで、強力な PowerPoint 機能を使用して .NET アプリケーションを強化できます。
+Aspose.Slides for .NET は、PowerPoint プレゼンテーションの操作プロセスを簡素化し、スライドからビデオを簡単に抽出するなどのタスクを実行できるようにします。このステップバイステップガイドに従い、Aspose.Slides ライブラリを活用することで、強力な PowerPoint 機能で .NET アプリケーションを強化できます。
 
 ## よくある質問（FAQ）
 
@@ -106,19 +108,21 @@ Aspose.Slides for .NET は、PowerPoint プレゼンテーションの操作プ�
 Aspose.Slides for .NET は、コンテンツの作成、編集、抽出など、.NET アプリケーションで PowerPoint プレゼンテーションを操作できるようにするライブラリです。
 
 ### Aspose.Slides for .NET のドキュメントはどこにありますか?
-ドキュメントは以下からご覧いただけます[ここ](https://reference.aspose.com/slides/net/).
+ドキュメントは以下にあります [ここ](https://reference。aspose.com/slides/net/).
 
-### Aspose.Slides for .NET は無料試用版として利用できますか?
-はい、無料試用版を入手できます。[ここ](https://releases.aspose.com/).
+### Aspose.Slides for .NET は無料で試用できますか?
+はい、無料試用版は以下から入手できます。 [ここ](https://releases。aspose.com/).
 
 ### Aspose.Slides for .NET の一時ライセンスを取得するにはどうすればよいですか?
-一時ライセンスを申請するには[このリンク](https://purchase.aspose.com/temporary-license/).
+一時ライセンスの申請は [このリンク](https://purchase。aspose.com/temporary-license/).
 
 ### Aspose.Slides for .NET のサポートはどこで受けられますか?
-サポートについては、[Aspose.Slides フォーラム](https://forum.aspose.com/).
+サポートについては、 [Aspose.Slides フォーラム](https://forum。aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

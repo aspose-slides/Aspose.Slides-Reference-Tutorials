@@ -1,22 +1,24 @@
 ---
-title: Java スライドでデータ ラベルの吹き出しを設定する
-linktitle: Java スライドでデータ ラベルの吹き出しを設定する
-second_title: Aspose.Slides Java PowerPoint 処理 API
-description: Aspose.Slides for Java でデータ ラベルのコールアウトを設定する方法を学びます。ソース コード付きのステップ バイ ステップ ガイド。
-weight: 25
-url: /ja/java/data-manipulation/setting-callout-data-label-java-slides/
+"description": "Aspose.Slides for Javaでデータラベルの吹き出しを設定する方法を学びましょう。ソースコード付きのステップバイステップガイドです。"
+"linktitle": "Javaスライドでデータラベルの吹き出しを設定する"
+"second_title": "Aspose.Slides Java PowerPoint 処理 API"
+"title": "Javaスライドでデータラベルの吹き出しを設定する"
+"url": "/ja/java/data-manipulation/setting-callout-data-label-java-slides/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java スライドでデータ ラベルの吹き出しを設定する
+# Javaスライドでデータラベルの吹き出しを設定する
 
 
-## Aspose.Slides for Java でデータ ラベルのコールアウトを設定する方法の概要
+## Aspose.Slides for Java でデータラベルの吹き出しを設定する方法の紹介
 
-このチュートリアルでは、Aspose.Slides for Java を使用してグラフのデータ ラベルの吹き出しを設定する方法を説明します。吹き出しは、グラフ内の特定のデータ ポイントを強調表示するのに役立ちます。コードを段階的に説明し、必要なソース コードを提供します。
+このチュートリアルでは、Aspose.Slides for Java を使用して、グラフ内のデータラベルに吹き出しを設定する方法を説明します。吹き出しは、グラフ内の特定のデータポイントを強調表示するのに役立ちます。コードを段階的に説明し、必要なソースコードを提供します。
 
 ## 前提条件
 
@@ -25,7 +27,7 @@ url: /ja/java/data-manipulation/setting-callout-data-label-java-slides/
 
 ## ステップ1: プレゼンテーションを作成し、グラフを追加する
 
-まず、プレゼンテーションを作成し、スライドにグラフを追加する必要があります。`"Your Document Directory"`ドキュメント ディレクトリへの実際のパスを入力します。
+まず、プレゼンテーションを作成し、スライドにグラフを追加する必要があります。 `"Your Document Directory"` ドキュメント ディレクトリへの実際のパスを入力します。
 
 ```java
 String dataDir = "Your Document Directory";
@@ -44,7 +46,7 @@ chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 chart.setLegend(false);
 
-//シリーズとカテゴリを設定します（シリーズとカテゴリの数を調整できます）
+// シリーズとカテゴリを設定します（シリーズとカテゴリの数を調整できます）
 int seriesIndex = 0;
 while (seriesIndex < 15) {
     IChartSeries series = chart.getChartData().getSeries().add(workBook.getCell(0, 0, seriesIndex + 1, "SERIES " + seriesIndex), chart.getType());
@@ -59,7 +61,7 @@ while (categoryIndex < 15) {
     chart.getChartData().getCategories().add(workBook.getCell(0, categoryIndex + 1, 0, "CATEGORY " + categoryIndex));
     int i = 0;
     while (i < chart.getChartData().getSeries().size()) {
-        //ここにデータポイントを追加
+        // ここにデータポイントを追加
         // ...
         i++;
     }
@@ -77,16 +79,16 @@ while (i < chart.getChartData().getSeries().size()) {
     IChartSeries iCS = chart.getChartData().getSeries().get_Item(i);
     IChartDataPoint dataPoint = iCS.getDataPoints().addDataPointForDoughnutSeries(workBook.getCell(0, categoryIndex + 1, i + 1, 1));
     dataPoint.getFormat().getFill().setFillType(FillType.Solid);
-    //データ ポイントの書式設定 (塗りつぶし、線など) をカスタマイズする
+    // データ ポイントの書式設定 (塗りつぶし、線など) をカスタマイズします
 
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
-        //ラベルの書式設定（フォント、塗りつぶしなど）をカスタマイズする
+        // ラベルの書式設定（フォント、塗りつぶしなど）をカスタマイズする
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
-        //コールアウトを有効にする
+        // 吹き出しを有効にする
         lbl.getDataLabelFormat().setShowLabelAsDataCallout(true);
         lbl.getDataLabelFormat().setShowLeaderLines(true);
     }
@@ -102,9 +104,9 @@ while (i < chart.getChartData().getSeries().size()) {
 pres.save("chart.pptx", SaveFormat.Pptx);
 ```
 
-これで、Aspose.Slides for Java を使用してグラフのデータ ラベルのコールアウトを正常に設定できました。特定のグラフとデータの要件に応じてコードをカスタマイズします。
+これで、Aspose.Slides for Java を使用してグラフ内のデータラベルに吹き出しを設定することができました。グラフとデータの要件に合わせてコードをカスタマイズしてください。
 
-## Java スライドでデータ ラベルのコールアウトを設定するための完全なソース コード
+## Javaスライドでデータラベルの吹き出しを設定するための完全なソースコード
 
 ```java
 String dataDir = "Your Document Directory";
@@ -168,13 +170,13 @@ pres.save("chart.pptx", SaveFormat.Pptx);
 
 ## 結論
 
-このチュートリアルでは、Aspose.Slides for Java を使用してグラフのデータ ラベルの吹き出しを設定する方法について説明しました。吹き出しは、グラフやプレゼンテーションで特定のデータ ポイントを強調するための便利なツールです。このカスタマイズを実現できるように、ソース コードとともにステップ バイ ステップ ガイドを用意しました。
+このチュートリアルでは、Aspose.Slides for Java を使用してグラフのデータラベルに吹き出しを設定する方法を解説しました。吹き出しは、グラフやプレゼンテーションで特定のデータポイントを強調するのに役立つ便利なツールです。このカスタマイズを実現するためのステップバイステップガイドとソースコードをご用意しました。
 
 ## よくある質問
 
 ### データ ラベルの外観をカスタマイズするにはどうすればよいですか?
 
-データ ラベルの外観をカスタマイズするには、フォント、塗りつぶし、線のスタイルなどのプロパティを変更します。例:
+データラベルの外観をカスタマイズするには、フォント、塗りつぶし、線のスタイルなどのプロパティを変更します。例:
 
 ```java
 IDataLabel lbl = dataPoint.getLabel();
@@ -189,29 +191,31 @@ lbl.getDataLabelFormat().getFormat().getLine().getFillFormat().getSolidFillColor
 
 ### データ ラベルのコールアウトを有効または無効にするにはどうすればよいですか?
 
-データラベルの吹き出しを有効または無効にするには、`setShowLabelAsDataCallout`方法。設定する`true`吹き出しを有効にして`false`無効にします。
+データラベルの吹き出しを有効または無効にするには、 `setShowLabelAsDataCallout` メソッド。設定する `true` 吹き出しを有効にして `false` 無効にします。
 
 ```java
-lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); //コールアウトを有効にする
-lbl.getDataLabelFormat().setShowLabelAsDataCallout(false); //コールアウトを無効にする
+lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // 吹き出しを有効にする
+lbl.getDataLabelFormat().setShowLabelAsDataCallout(false); // コールアウトを無効にする
 ```
 
-### データ ラベルのリーダー ラインをカスタマイズできますか?
+### データ ラベルの引き出し線をカスタマイズできますか?
 
-はい、線のスタイル、色、幅などのプロパティを使用して、データ ラベルのリーダー ラインをカスタマイズできます。例:
+はい、データラベルの引き出し線は、線のスタイル、色、幅などのプロパティを使ってカスタマイズできます。例えば：
 
 ```java
-lbl.getDataLabelFormat().setShowLeaderLines(true); //引き出し線を有効にする
+lbl.getDataLabelFormat().setShowLeaderLines(true); // 引き出し線を有効にする
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().setStyle(LineStyle.Single);
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().setWidth(1);
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.BLACK);
 ```
 
-これらは、Aspose.Slides for Java のデータ ラベルとコールアウトの一般的なカスタマイズ オプションです。特定のニーズに合わせて外観をさらにカスタマイズできます。
+これらは、Aspose.Slides for Java におけるデータラベルと吹き出しの一般的なカスタマイズオプションです。さらに、特定のニーズに合わせて外観をカスタマイズすることもできます。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

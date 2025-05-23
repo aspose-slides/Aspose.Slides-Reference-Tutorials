@@ -1,14 +1,16 @@
 ---
-title: Aspose.Slides .NET के साथ स्लाइड से हाइपरलिंक कैसे हटाएँ?
-linktitle: स्लाइड से हाइपरलिंक हटाएँ
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: Aspose.Slides for .NET का उपयोग करके PowerPoint स्लाइड से हाइपरलिंक्स को हटाने का तरीका जानें। स्वच्छ और पेशेवर प्रस्तुतियाँ बनाएँ।
-weight: 11
-url: /hi/net/hyperlink-manipulation/remove-hyperlinks/
+"description": "जानें कि .NET के लिए Aspose.Slides का उपयोग करके PowerPoint स्लाइड से हाइपरलिंक कैसे निकालें। स्वच्छ और पेशेवर प्रस्तुतियाँ बनाएँ।"
+"linktitle": "स्लाइड से हाइपरलिंक हटाएँ"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "Aspose.Slides .NET के साथ स्लाइड से हाइपरलिंक कैसे हटाएँ?"
+"url": "/hi/net/hyperlink-manipulation/remove-hyperlinks/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Slides .NET के साथ स्लाइड से हाइपरलिंक कैसे हटाएँ?
@@ -20,7 +22,7 @@ url: /hi/net/hyperlink-manipulation/remove-hyperlinks/
 
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
-1.  Aspose.Slides for .NET: आपके पास अपने विकास परिवेश में Aspose.Slides for .NET स्थापित और सेट अप होना चाहिए। यदि आपके पास पहले से नहीं है, तो आप इसे यहाँ से प्राप्त कर सकते हैं[.NET दस्तावेज़ीकरण के लिए Aspose.Slides](https://reference.aspose.com/slides/net/).
+1. Aspose.Slides for .NET: आपके पास अपने विकास परिवेश में Aspose.Slides for .NET स्थापित और सेट अप होना चाहिए। यदि आपके पास पहले से नहीं है, तो आप इसे यहाँ से प्राप्त कर सकते हैं [.NET दस्तावेज़ीकरण के लिए Aspose.Slides](https://reference.aspose.com/slides/net/).
 
 2. पावरपॉइंट प्रेजेंटेशन: आपको एक पावरपॉइंट प्रेजेंटेशन (PPTX फ़ाइल) की आवश्यकता होगी, जिससे आप हाइपरलिंक हटाना चाहते हैं।
 
@@ -44,7 +46,7 @@ string dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "Hyperlink.pptx");
 ```
 
- उपरोक्त कोड में, प्रतिस्थापित करें`"Your Document Directory"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ और`"Hyperlink.pptx"` अपनी पावरपॉइंट प्रेजेंटेशन फ़ाइल के नाम के साथ.
+उपरोक्त कोड में, प्रतिस्थापित करें `"Your Document Directory"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ और `"Hyperlink.pptx"` अपनी पावरपॉइंट प्रेजेंटेशन फ़ाइल के नाम के साथ।
 
 ## चरण 3: हाइपरलिंक हटाएं
 
@@ -54,7 +56,7 @@ Presentation presentation = new Presentation(dataDir + "Hyperlink.pptx");
 presentation.HyperlinkQueries.RemoveAllHyperlinks();
 ```
 
-`RemoveAllHyperlinks()` विधि प्रस्तुति से सभी हाइपरलिंक्स को हटा देती है।
+The `RemoveAllHyperlinks()` विधि प्रस्तुति से सभी हाइपरलिंक्स को हटा देती है।
 
 ## चरण 4: संशोधित प्रस्तुति को सहेजें
 
@@ -64,15 +66,15 @@ presentation.HyperlinkQueries.RemoveAllHyperlinks();
 presentation.Save(dataDir + "RemovedHyperlink_out.pptx", SaveFormat.Pptx);
 ```
 
- फिर से, प्रतिस्थापित करें`"RemovedHyperlink_out.pptx"` अपने इच्छित आउटपुट फ़ाइल नाम और पथ के साथ।
+फिर से, प्रतिस्थापित करें `"RemovedHyperlink_out.pptx"` अपने इच्छित आउटपुट फ़ाइल नाम और पथ के साथ।
 
 बधाई हो! आपने Aspose.Slides for .NET का उपयोग करके अपने PowerPoint प्रेजेंटेशन से हाइपरलिंक्स को सफलतापूर्वक हटा दिया है। आपकी स्लाइड्स अब विकर्षणों से मुक्त हैं, जो एक साफ़ और अधिक केंद्रित देखने का अनुभव प्रदान करती हैं।
 
 ## निष्कर्ष
 
-इस ट्यूटोरियल में, हमने Aspose.Slides for .NET का उपयोग करके PowerPoint प्रस्तुतियों से हाइपरलिंक्स हटाने की प्रक्रिया को देखा है। बस कुछ सरल चरणों के साथ, आप यह सुनिश्चित कर सकते हैं कि आपकी स्लाइड्स पेशेवर और अव्यवस्था मुक्त दिखें। Aspose.Slides for .NET PowerPoint प्रस्तुतियों के साथ काम करने के कार्य को सरल बनाता है, आपको कुशल और सटीक प्रबंधन के लिए आवश्यक उपकरण प्रदान करता है।
+इस ट्यूटोरियल में, हमने Aspose.Slides for .NET का उपयोग करके PowerPoint प्रस्तुतियों से हाइपरलिंक्स हटाने की प्रक्रिया को देखा है। बस कुछ सरल चरणों के साथ, आप यह सुनिश्चित कर सकते हैं कि आपकी स्लाइड्स पेशेवर और अव्यवस्था-मुक्त दिखें। Aspose.Slides for .NET PowerPoint प्रस्तुतियों के साथ काम करने के कार्य को सरल बनाता है, आपको कुशल और सटीक प्रबंधन के लिए आवश्यक उपकरण प्रदान करता है।
 
-यदि आपको यह मार्गदर्शिका उपयोगी लगी, तो आप दस्तावेज़ में .NET के लिए Aspose.Slides की अधिक सुविधाओं और क्षमताओं का पता लगा सकते हैं[यहाँ](https://reference.aspose.com/slides/net/) . आप लाइब्रेरी को यहां से भी डाउनलोड कर सकते हैं[इस लिंक](https://releases.aspose.com/slides/net/) और लाइसेंस खरीदें[यहाँ](https://purchase.aspose.com/buy) अगर आपने पहले से ऐसा नहीं किया है। जो लोग इसे पहले आज़माना चाहते हैं, उनके लिए एक निःशुल्क परीक्षण उपलब्ध है[यहाँ](https://releases.aspose.com/) , और अस्थायी लाइसेंस प्राप्त किए जा सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+यदि आपको यह मार्गदर्शिका उपयोगी लगी, तो आप दस्तावेज़ में .NET के लिए Aspose.Slides की अधिक सुविधाओं और क्षमताओं का पता लगा सकते हैं [यहाँ](https://reference.aspose.com/slides/net/). आप लाइब्रेरी को यहां से भी डाउनलोड कर सकते हैं [इस लिंक](https://releases.aspose.com/slides/net/) और लाइसेंस खरीदें [यहाँ](https://purchase.aspose.com/buy) अगर आपने पहले से ऐसा नहीं किया है। जो लोग इसे पहले आज़माना चाहते हैं, उनके लिए एक निःशुल्क परीक्षण उपलब्ध है [यहाँ](https://releases.aspose.com/), और अस्थायी लाइसेंस प्राप्त किए जा सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
 
 ## अक्सर पूछे जाने वाले प्रश्न (एफएक्यू)
 
@@ -80,7 +82,7 @@ presentation.Save(dataDir + "RemovedHyperlink_out.pptx", SaveFormat.Pptx);
 हाँ, आप कर सकते हैं। Aspose.Slides for .NET विशिष्ट स्लाइड या आकृतियों को लक्षित करने और उनसे हाइपरलिंक हटाने के तरीके प्रदान करता है।
 
 ### क्या Aspose.Slides for .NET नवीनतम PowerPoint फ़ाइल स्वरूपों के साथ संगत है?
-हां, .NET के लिए Aspose.Slides PPTX सहित नवीनतम PowerPoint फ़ाइल स्वरूपों का समर्थन करता है।
+हां, Aspose.Slides for .NET, PPTX सहित नवीनतम PowerPoint फ़ाइल स्वरूपों का समर्थन करता है।
 
 ### क्या मैं एक बैच में एकाधिक प्रस्तुतियों के लिए इस प्रक्रिया को स्वचालित कर सकता हूँ?
 बिल्कुल। Aspose.Slides for .NET आपको कई प्रस्तुतियों में कार्यों को स्वचालित करने की अनुमति देता है, जिससे यह बैच प्रोसेसिंग के लिए उपयुक्त हो जाता है।
@@ -89,10 +91,12 @@ presentation.Save(dataDir + "RemovedHyperlink_out.pptx", SaveFormat.Pptx);
 हां, Aspose.Slides for .NET कई प्रकार की सुविधाएं प्रदान करता है, जिसमें स्लाइड निर्माण, संपादन और विभिन्न प्रारूपों में रूपांतरण शामिल है।
 
 ### क्या Aspose.Slides for .NET के लिए तकनीकी सहायता उपलब्ध है?
- हां, आप तकनीकी सहायता प्राप्त कर सकते हैं और Aspose समुदाय के साथ जुड़ सकते हैं[एस्पोज फोरम](https://forum.aspose.com/).
+हां, आप तकनीकी सहायता प्राप्त कर सकते हैं और Aspose समुदाय के साथ जुड़ सकते हैं [Aspose फ़ोरम](https://forum.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,28 +1,30 @@
 ---
-title: Graphique d'histogramme dans les diapositives Java
-linktitle: Graphique d'histogramme dans les diapositives Java
-second_title: API de traitement Java PowerPoint d'Aspose.Slides
-description: Découvrez comment créer des graphiques d'histogramme dans des présentations PowerPoint à l'aide d'Aspose.Slides pour Java. Guide étape par étape avec le code source pour la visualisation des données.
-weight: 19
-url: /fr/java/chart-data-manipulation/histogram-chart-java-slides/
+"description": "Apprenez à créer des histogrammes dans des présentations PowerPoint avec Aspose.Slides pour Java. Guide étape par étape avec code source pour la visualisation des données."
+"linktitle": "Histogramme dans les diapositives Java"
+"second_title": "API de traitement Java PowerPoint Aspose.Slides"
+"title": "Histogramme dans les diapositives Java"
+"url": "/fr/java/chart-data-manipulation/histogram-chart-java-slides/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Graphique d'histogramme dans les diapositives Java
+# Histogramme dans les diapositives Java
 
 
-## Introduction au graphique d'histogramme dans Java Slides à l'aide d'Aspose.Slides
+## Introduction aux histogrammes en Java (diapositives) avec Aspose.Slides
 
-Dans ce didacticiel, nous vous guiderons tout au long du processus de création d'un histogramme dans une présentation PowerPoint à l'aide de l'API Aspose.Slides pour Java. Un histogramme est utilisé pour représenter la distribution des données sur un intervalle continu.
+Dans ce tutoriel, nous vous guiderons dans la création d'un histogramme dans une présentation PowerPoint à l'aide de l'API Aspose.Slides pour Java. Un histogramme permet de représenter la distribution des données sur un intervalle continu.
 
-## Conditions préalables
+## Prérequis
 
- Avant de commencer, assurez-vous que la bibliothèque Aspose.Slides pour Java est installée. Vous pouvez le télécharger depuis le[Site Aspose](https://releases.aspose.com/slides/java/).
+Avant de commencer, assurez-vous d'avoir installé la bibliothèque Aspose.Slides pour Java. Vous pouvez la télécharger depuis le [Site Web d'Aspose](https://releases.aspose.com/slides/java/).
 
-## Étape 1 : initialisez votre projet
+## Étape 1 : Initialisez votre projet
 
 Créez un projet Java et incluez la bibliothèque Aspose.Slides dans les dépendances de votre projet.
 
@@ -39,11 +41,11 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 ```
 
- Assurez-vous de remplacer`"Your Document Directory"` avec le chemin réel vers votre document PowerPoint.
+Assurez-vous de remplacer `"Your Document Directory"` avec le chemin réel vers votre document PowerPoint.
 
 ## Étape 4 : Créer un histogramme
 
-Créons maintenant un histogramme sur une diapositive de la présentation.
+Maintenant, créons un histogramme sur une diapositive de la présentation.
 
 ```java
 try {
@@ -64,16 +66,16 @@ try {
     // Définir le type d'agrégation de l'axe horizontal sur Automatique
     chart.getAxes().getHorizontalAxis().setAggregationType(AxisAggregationType.Automatic);
     
-    // Enregistrez la présentation
+    // Enregistrer la présentation
     pres.save(dataDir + "Histogram.pptx", SaveFormat.Pptx);
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
 
- Dans ce code, nous effaçons d’abord toutes les catégories et séries existantes du graphique. Ensuite, nous ajoutons des points de données à la série en utilisant le`getDataPoints().addDataPointForHistogramSeries` méthode. Enfin, nous définissons le type d'agrégation de l'axe horizontal sur Automatique et enregistrons la présentation.
+Dans ce code, nous effaçons d'abord toutes les catégories et séries existantes du graphique. Ensuite, nous ajoutons des points de données à la série à l'aide de la commande `getDataPoints().addDataPointForHistogramSeries` méthode. Enfin, nous définissons le type d'agrégation de l'axe horizontal sur Automatique et enregistrons la présentation.
 
-## Code source complet pour le graphique d'histogramme dans les diapositives Java
+## Code source complet pour un histogramme en Java (diapositives)
 
 ```java
 String dataDir = "Your Document Directory";
@@ -103,24 +105,26 @@ finally
 
 ## Conclusion
 
-Dans ce didacticiel, nous avons expliqué comment créer un histogramme dans une présentation PowerPoint à l'aide de l'API Aspose.Slides pour Java. Les graphiques d'histogramme sont des outils précieux pour visualiser la distribution des données sur un intervalle continu, et ils peuvent constituer un ajout puissant à vos présentations, en particulier lorsqu'il s'agit de contenu statistique ou analytique.
+Dans ce tutoriel, nous avons découvert comment créer un histogramme dans une présentation PowerPoint à l'aide de l'API Aspose.Slides pour Java. Les histogrammes sont des outils précieux pour visualiser la distribution des données sur un intervalle continu et peuvent constituer un atout précieux pour vos présentations, notamment pour les contenus statistiques ou analytiques.
 
 ## FAQ
 
-### Comment installer Aspose.Slides pour Java ?
+### Comment installer Aspose.Slides pour Java ?
 
- Vous pouvez télécharger la bibliothèque Aspose.Slides pour Java à partir de[ici](https://releases.aspose.com/slides/java/). Suivez les instructions d'installation fournies sur leur site Web.
+Vous pouvez télécharger la bibliothèque Aspose.Slides pour Java à partir de [ici](https://releases.aspose.com/slides/java/)Suivez les instructions d'installation fournies sur leur site Web.
 
-### A quoi sert un histogramme ?
+### À quoi sert un histogramme ?
 
-Un histogramme est utilisé pour visualiser la distribution des données sur un intervalle continu. Il est couramment utilisé en statistiques pour représenter les distributions de fréquences.
+Un histogramme permet de visualiser la distribution des données sur un intervalle continu. Il est couramment utilisé en statistiques pour représenter les distributions de fréquences.
 
-### Puis-je personnaliser l’apparence du graphique histogramme ?
+### Puis-je personnaliser l’apparence du graphique d’histogramme ?
 
-Oui, vous pouvez personnaliser l'apparence du graphique, y compris ses couleurs, ses étiquettes et ses axes, à l'aide de l'API Aspose.Slides.
+Oui, vous pouvez personnaliser l’apparence du graphique, y compris ses couleurs, ses étiquettes et ses axes, à l’aide de l’API Aspose.Slides.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

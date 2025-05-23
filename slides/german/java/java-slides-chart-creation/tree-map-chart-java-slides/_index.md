@@ -1,14 +1,16 @@
 ---
-title: Baumdiagramm in Java-Folien
-linktitle: Baumdiagramm in Java-Folien
-second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
-description: Erstellen Sie Tree Map-Diagramme in Java Slides mit Aspose.Slides für Java. Schritt-für-Schritt-Anleitung mit Quellcode zur Visualisierung hierarchischer Daten.
-weight: 13
-url: /de/java/chart-creation/tree-map-chart-java-slides/
+"description": "Erstellen Sie Treemap-Diagramme in Java Slides mit Aspose.Slides für Java. Schritt-für-Schritt-Anleitung mit Quellcode zur Visualisierung hierarchischer Daten."
+"linktitle": "Baumdiagramm in Java-Folien"
+"second_title": "Aspose.Slides Java PowerPoint-Verarbeitungs-API"
+"title": "Baumdiagramm in Java-Folien"
+"url": "/de/java/chart-creation/tree-map-chart-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Baumdiagramm in Java-Folien
@@ -16,7 +18,7 @@ url: /de/java/chart-creation/tree-map-chart-java-slides/
 
 ## Einführung in das Tree Map-Diagramm in Java-Folien
 
-In diesem Tutorial zeigen wir, wie Sie mit der Aspose.Slides-Bibliothek für Java ein Tree Map-Diagramm in einer PowerPoint-Präsentation erstellen. Tree Map-Diagramme sind eine effektive Möglichkeit, hierarchische Daten zu visualisieren.
+In diesem Tutorial zeigen wir Ihnen, wie Sie mithilfe der Bibliothek Aspose.Slides für Java ein Treemap-Diagramm in einer PowerPoint-Präsentation erstellen. Treemap-Diagramme sind eine effektive Möglichkeit, hierarchische Daten zu visualisieren.
 
 ## Voraussetzungen
 
@@ -45,7 +47,7 @@ try {
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
     wb.clear(0);
 
-    // Filiale 1 erstellen
+    // Zweigstelle 1 erstellen
     IChartCategory leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C1", "Leaf1"));
     leaf.getGroupingLevels().setGroupingItem(1, "Stem1");
     leaf.getGroupingLevels().setGroupingItem(2, "Branch1");
@@ -57,7 +59,7 @@ try {
 
     chart.getChartData().getCategories().add(wb.getCell(0, "C4", "Leaf4"));
 
-    // Filiale 2 erstellen
+    // Zweigstelle 2 erstellen
     leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C5", "Leaf5"));
     leaf.getGroupingLevels().setGroupingItem(1, "Stem3");
     leaf.getGroupingLevels().setGroupingItem(2, "Branch2");
@@ -91,7 +93,7 @@ try {
 }
 ```
 
-## Vollständiger Quellcode für Tree Map-Diagramm in Java-Folien
+## Vollständiger Quellcode für Tree Map-Diagramme in Java-Folien
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
@@ -139,28 +141,30 @@ finally
 
 ## Abschluss
 
-In diesem Tutorial haben Sie gelernt, wie Sie mithilfe der Bibliothek Aspose.Slides für Java ein Tree Map-Diagramm in einer PowerPoint-Präsentation erstellen. Tree Map-Diagramme sind ein wertvolles Tool zur Visualisierung hierarchischer Daten und machen Ihre Präsentationen informativer und ansprechender.
+In diesem Tutorial haben Sie gelernt, wie Sie mithilfe der Bibliothek Aspose.Slides für Java ein Treemap-Diagramm in einer PowerPoint-Präsentation erstellen. Treemap-Diagramme sind ein wertvolles Werkzeug zur Visualisierung hierarchischer Daten und machen Ihre Präsentationen informativer und ansprechender.
 
 ## Häufig gestellte Fragen
 
-### Wie füge ich Daten zum Treemap-Diagramm hinzu?
+### Wie füge ich dem Treemap-Diagramm Daten hinzu?
 
- Um Daten zum Tree Map-Diagramm hinzuzufügen, verwenden Sie das`series.getDataPoints().addDataPointForTreemapSeries()` Methode, bei der die Datenwerte als Parameter übergeben werden.
+Um Daten zum Tree Map-Diagramm hinzuzufügen, verwenden Sie das `series.getDataPoints().addDataPointForTreemapSeries()` -Methode und übergibt die Datenwerte als Parameter.
 
-### Wie kann ich das Erscheinungsbild des TreeMap-Diagramms anpassen?
+### Wie kann ich das Erscheinungsbild des Tree Map-Diagramms anpassen?
 
- Sie können das Erscheinungsbild des Tree Map-Diagramms anpassen, indem Sie verschiedene Eigenschaften des`chart` Und`series`Objekte wie Farben, Beschriftungen und Layouts.
+Sie können das Erscheinungsbild des Tree Map-Diagramms anpassen, indem Sie verschiedene Eigenschaften des `chart` Und `series` Objekte wie Farben, Beschriftungen und Layouts.
 
-### Kann ich mehrere TreeMap-Diagramme in einer einzigen Präsentation erstellen?
+### Kann ich mehrere Tree Map-Diagramme in einer einzigen Präsentation erstellen?
 
 Ja, Sie können mehrere TreeMap-Diagramme in einer einzigen Präsentation erstellen, indem Sie dieselben Schritte ausführen und unterschiedliche Folienpositionen angeben.
 
 ### Wie speichere ich die Präsentation mit dem Tree Map-Diagramm?
 
- Verwenden Sie die`pres.save()` Methode, um die Präsentation mit dem Tree Map-Diagramm im gewünschten Format (z. B. PPTX) zu speichern.
+Verwenden Sie die `pres.save()` Methode, um die Präsentation mit dem Tree Map-Diagramm im gewünschten Format (z. B. PPTX) zu speichern.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

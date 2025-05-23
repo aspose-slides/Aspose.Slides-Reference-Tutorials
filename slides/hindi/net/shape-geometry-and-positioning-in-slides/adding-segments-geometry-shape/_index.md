@@ -1,14 +1,16 @@
 ---
-title: विज़ुअल्स में महारत हासिल करना - .NET में Aspose.Slides के साथ सेगमेंट जोड़ना
-linktitle: Aspose.Slides के साथ प्रस्तुति में ज्यामिति आकार में खंड जोड़ना
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: जानें कि Aspose.Slides के साथ अपने .NET अनुप्रयोगों को कैसे बेहतर बनाया जाए। यह ट्यूटोरियल आपको आकर्षक प्रस्तुतियों के लिए ज्यामिति आकृतियों में सेगमेंट जोड़ने के बारे में मार्गदर्शन करता है।
-weight: 13
-url: /hi/net/shape-geometry-and-positioning-in-slides/adding-segments-geometry-shape/
+"description": "जानें कि Aspose.Slides के साथ अपने .NET अनुप्रयोगों को कैसे बेहतर बनाया जाए। यह ट्यूटोरियल आपको आकर्षक प्रस्तुतियों के लिए ज्यामिति आकृतियों में सेगमेंट जोड़ने के बारे में मार्गदर्शन करता है।"
+"linktitle": "Aspose.Slides के साथ प्रस्तुति में ज्यामिति आकार में सेगमेंट जोड़ना"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "विज़ुअल्स में महारत हासिल करना - .NET में Aspose.Slides के साथ सेगमेंट जोड़ना"
+"url": "/hi/net/shape-geometry-and-positioning-in-slides/adding-segments-geometry-shape/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # विज़ुअल्स में महारत हासिल करना - .NET में Aspose.Slides के साथ सेगमेंट जोड़ना
@@ -59,28 +61,30 @@ geometryPath.LineTo(100, 50, 4);
 ```csharp
 shape.SetGeometryPath(geometryPath);
 ```
-## चरण 7: प्रेजेंटेशन सहेजें
+## चरण 7: प्रस्तुति सहेजें
 संशोधित प्रस्तुति को इच्छित स्थान पर सहेजें.
 ```csharp
 pres.Save(resultPath, SaveFormat.Pptx);
 ```
 इन चरणों के साथ, आपने Aspose.Slides for .NET का उपयोग करके किसी प्रस्तुति में ज्यामिति आकृति में सफलतापूर्वक खंड जोड़ दिए हैं।
 ## निष्कर्ष
-Aspose.Slides for .NET डेवलपर्स को उन्नत प्रस्तुति निर्माण क्षमताओं के साथ अपने अनुप्रयोगों को बढ़ाने में सक्षम बनाता है। ज्यामिति आकृतियों में सेगमेंट जोड़ने से आपकी प्रस्तुतियों के दृश्य तत्वों को अनुकूलित करने का एक साधन मिलता है।
+Aspose.Slides for .NET डेवलपर्स को उन्नत प्रस्तुति निर्माण क्षमताओं के साथ अपने अनुप्रयोगों को बढ़ाने में सक्षम बनाता है। ज्यामिति आकृतियों में सेगमेंट जोड़ना आपके प्रस्तुतियों के दृश्य तत्वों को अनुकूलित करने का एक साधन प्रदान करता है।
 ### अक्सर पूछे जाने वाले प्रश्नों
 ### क्या मैं Aspose.Slides का उपयोग करके विभिन्न प्रकार की आकृतियाँ जोड़ सकता हूँ?
 हां, Aspose.Slides विभिन्न आकार प्रकारों का समर्थन करता है, जिसमें आयत, वृत्त और कस्टम ज्यामिति आकार शामिल हैं।
 ### क्या मेरे प्रोजेक्ट में Aspose.Slides का उपयोग करने के लिए लाइसेंस आवश्यक है?
 हां, वैध लाइसेंस की आवश्यकता है। आप परीक्षण उद्देश्यों के लिए एक अस्थायी लाइसेंस प्राप्त कर सकते हैं या उत्पादन के लिए पूर्ण लाइसेंस खरीद सकते हैं।
 ### मैं Aspose.Slides-संबंधित प्रश्नों के लिए समर्थन कैसे प्राप्त कर सकता हूं?
- दौरा करना[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) सामुदायिक समर्थन और चर्चा के लिए।
+दौरा करना [Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) सामुदायिक समर्थन और चर्चा के लिए।
 ### क्या Aspose.Slides के लिए अन्य ट्यूटोरियल उपलब्ध हैं?
- पता लगाएं[प्रलेखन](https://reference.aspose.com/slides/net/) विस्तृत मार्गदर्शिका और उदाहरण के लिए.
+पता लगाएं [प्रलेखन](https://reference.aspose.com/slides/net/) विस्तृत मार्गदर्शिका और उदाहरण के लिए.
 ### क्या मैं खरीदने से पहले Aspose.Slides को निःशुल्क आज़मा सकता हूँ?
- हां, आप यहां से निःशुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप यहां से निःशुल्क परीक्षण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

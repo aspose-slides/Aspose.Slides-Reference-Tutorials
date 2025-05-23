@@ -1,31 +1,33 @@
 ---
-title: Conservazione dei caratteri originali converti la presentazione in HTML
-linktitle: Conservazione dei caratteri originali converti la presentazione in HTML
-second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
-description: Scopri come preservare i caratteri originali durante la conversione delle presentazioni in HTML utilizzando Aspose.Slides per .NET. Garantisci la coerenza dei caratteri e l'impatto visivo senza sforzo.
-weight: 14
-url: /it/net/presentation-conversion/preserving-original-fonts-convert-presentation-to-html/
+"description": "Scopri come preservare i font originali durante la conversione delle presentazioni in HTML utilizzando Aspose.Slides per .NET. Garantisci coerenza dei font e impatto visivo senza sforzo."
+"linktitle": "Conservazione dei caratteri originali - Convertire la presentazione in HTML"
+"second_title": "API di elaborazione PowerPoint Aspose.Slides .NET"
+"title": "Conservazione dei caratteri originali - Convertire la presentazione in HTML"
+"url": "/it/net/presentation-conversion/preserving-original-fonts-convert-presentation-to-html/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Conservazione dei caratteri originali converti la presentazione in HTML
+# Conservazione dei caratteri originali - Convertire la presentazione in HTML
 
 
-In questa guida completa, ti guideremo attraverso il processo di conservazione dei caratteri originali durante la conversione di una presentazione in HTML utilizzando Aspose.Slides per .NET. Ti forniremo il codice sorgente C# necessario e spiegheremo ogni passaggio in dettaglio. Alla fine di questo tutorial sarai in grado di assicurarti che i caratteri nel tuo documento HTML convertito rimangano fedeli alla presentazione originale.
+In questa guida completa, ti guideremo attraverso il processo di conservazione dei font originali durante la conversione di una presentazione in HTML utilizzando Aspose.Slides per .NET. Ti forniremo il codice sorgente C# necessario e spiegheremo ogni passaggio in dettaglio. Al termine di questo tutorial, sarai in grado di garantire che i font nel tuo documento HTML convertito rimangano fedeli alla presentazione originale.
 
 ## 1. Introduzione
 
-Quando si convertono le presentazioni PowerPoint in HTML, è fondamentale mantenere i caratteri originali per garantire la coerenza visiva dei contenuti. Aspose.Slides per .NET fornisce una potente soluzione per raggiungere questo obiettivo. In questo tutorial ti guideremo attraverso i passaggi necessari per preservare i caratteri originali durante il processo di conversione.
+Quando si convertono presentazioni PowerPoint in HTML, è fondamentale mantenere i font originali per garantire la coerenza visiva dei contenuti. Aspose.Slides per .NET offre una soluzione potente per raggiungere questo obiettivo. In questo tutorial, vi guideremo attraverso i passaggi necessari per preservare i font originali durante il processo di conversione.
 
 ## 2. Prerequisiti
 
-Prima di iniziare, assicurati di disporre dei seguenti prerequisiti:
+Prima di iniziare, assicurati di avere i seguenti prerequisiti:
 
-- Visual Studio installato sul tuo computer.
-- Libreria Aspose.Slides per .NET aggiunta al tuo progetto.
+- Visual Studio installato sul computer.
+- Libreria Aspose.Slides per .NET aggiunta al progetto.
 
 ## 3. Impostazione del progetto
 
@@ -33,7 +35,7 @@ Per iniziare, crea un nuovo progetto in Visual Studio e aggiungi la libreria Asp
 
 ## 4. Caricamento della presentazione
 
-Utilizza il codice seguente per caricare la presentazione di PowerPoint:
+Utilizza il seguente codice per caricare la tua presentazione PowerPoint:
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -44,21 +46,21 @@ using (Presentation pres = new Presentation("input.pptx"))
 }
 ```
 
- Sostituire`"Your Document Directory"` con il percorso del file di presentazione.
+Sostituire `"Your Document Directory"` con il percorso al file della presentazione.
 
-## 5. Esclusione dei caratteri predefiniti
+## 5. Esclusione dei font predefiniti
 
-Per escludere caratteri predefiniti come Calibri e Arial, utilizzare il seguente codice:
+Per escludere i font predefiniti come Calibri e Arial, utilizzare il seguente codice:
 
 ```csharp
 string[] fontNameExcludeList = { "Calibri", "Arial" };
 ```
 
-È possibile personalizzare questo elenco secondo necessità.
+Puoi personalizzare questo elenco in base alle tue esigenze.
 
-## 6. Incorporamento di tutti i caratteri
+## 6. Incorporamento di tutti i font
 
-Successivamente, incorporeremo tutti i caratteri nel documento HTML. Ciò garantisce che i caratteri originali vengano preservati. Utilizza il seguente codice:
+Successivamente, incorporeremo tutti i font nel documento HTML. Questo garantirà che i font originali vengano preservati. Utilizza il seguente codice:
 
 ```csharp
 EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
@@ -71,43 +73,45 @@ HtmlOptions htmlOptionsEmbed = new HtmlOptions
 
 ## 7. Salvataggio in formato HTML
 
-Ora salva la presentazione come documento HTML con caratteri incorporati:
+Ora salva la presentazione come documento HTML con i font incorporati:
 
 ```csharp
 pres.Save("output.html", SaveFormat.Html, htmlOptionsEmbed);
 ```
 
- Sostituire`"output.html"` con il nome del file di output desiderato.
+Sostituire `"output.html"` con il nome del file di output desiderato.
 
-## 8. Conclusione
+## 8. Conclusion
 
-In questo tutorial, abbiamo dimostrato come preservare i caratteri originali durante la conversione di una presentazione di PowerPoint in HTML utilizzando Aspose.Slides per .NET. Seguendo questi passaggi puoi assicurarti che il tuo documento HTML convertito mantenga l'integrità visiva della presentazione originale.
+In questo tutorial, abbiamo mostrato come preservare i font originali durante la conversione di una presentazione PowerPoint in HTML utilizzando Aspose.Slides per .NET. Seguendo questi passaggi, è possibile garantire che il documento HTML convertito mantenga l'integrità visiva della presentazione originale.
 
 ## 9. Domande frequenti
 
-### Q1: Posso personalizzare l'elenco dei caratteri esclusi?
+### D1: Posso personalizzare l'elenco dei font esclusi?
 
- Si, puoi. Modifica il`fontNameExcludeList`array per includere o escludere caratteri specifici in base alle proprie esigenze.
+Sì, puoi. Modifica il `fontNameExcludeList` array per includere o escludere specifici font in base alle tue esigenze.
 
-### Q2: Cosa succede se non voglio incorporare tutti i caratteri?
+### D2: Cosa succede se non voglio incorporare tutti i font?
 
-Se desideri incorporare solo caratteri specifici, puoi modificare il codice di conseguenza. Consultare la documentazione Aspose.Slides per .NET per ulteriori dettagli.
+Se si desidera incorporare solo font specifici, è possibile modificare il codice di conseguenza. Consultare la documentazione di Aspose.Slides per .NET per maggiori dettagli.
 
-### Q3: Esistono requisiti di licenza per l'utilizzo di Aspose.Slides per .NET?
+### D3: Esistono requisiti di licenza per utilizzare Aspose.Slides per .NET?
 
-Sì, potresti aver bisogno di una licenza valida per utilizzare Aspose.Slides per .NET nei tuoi progetti. Fare riferimento al sito Web Aspose per informazioni sulla licenza.
+Sì, potrebbe essere necessaria una licenza valida per utilizzare Aspose.Slides per .NET nei tuoi progetti. Consulta il sito web di Aspose per informazioni sulle licenze.
 
-### Q4: Posso convertire altri formati di file in HTML utilizzando Aspose.Slides per .NET?
+### D4: Posso convertire altri formati di file in HTML utilizzando Aspose.Slides per .NET?
 
-Aspose.Slides per .NET si concentra principalmente sulle presentazioni PowerPoint. Per convertire altri formati di file in HTML, potrebbe essere necessario esplorare altri prodotti Aspose su misura per tali formati.
+Aspose.Slides per .NET si concentra principalmente sulle presentazioni PowerPoint. Per convertire altri formati di file in HTML, potrebbe essere necessario esplorare altri prodotti Aspose specifici per tali formati.
 
-### Q5: Dove posso accedere a risorse e supporto aggiuntivi?
+### D5: Dove posso trovare ulteriori risorse e supporto?
 
- È possibile trovare ulteriore documentazione, tutorial e supporto sul sito Web Aspose. Visita[Aspose.Slides per la documentazione .NET](https://reference.aspose.com/slides/net/) per informazioni dettagliate.
+Puoi trovare ulteriore documentazione, tutorial e supporto sul sito web di Aspose. Visita [Documentazione di Aspose.Slides per .NET](https://reference.aspose.com/slides/net/) per informazioni dettagliate.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

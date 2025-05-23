@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में फ़ॉन्ट गुण सेट करना
-linktitle: जावा स्लाइड्स में फ़ॉन्ट गुण सेट करना
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके Java स्लाइड में फ़ॉन्ट गुण सेट करना सीखें। इस चरण-दर-चरण मार्गदर्शिका में कोड उदाहरण और FAQ शामिल हैं।
-weight: 15
-url: /hi/java/customization-and-formatting/setting-font-properties-java-slides/
+"description": "Aspose.Slides for Java का उपयोग करके Java स्लाइड में फ़ॉन्ट गुण सेट करना सीखें। इस चरण-दर-चरण मार्गदर्शिका में कोड उदाहरण और FAQ शामिल हैं।"
+"linktitle": "जावा स्लाइड्स में फ़ॉन्ट गुण सेट करना"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में फ़ॉन्ट गुण सेट करना"
+"url": "/hi/java/customization-and-formatting/setting-font-properties-java-slides/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में फ़ॉन्ट गुण सेट करना
@@ -20,11 +22,11 @@ url: /hi/java/customization-and-formatting/setting-font-properties-java-slides/
 
 ## आवश्यक शर्तें
 
- शुरू करने से पहले, सुनिश्चित करें कि आपके प्रोजेक्ट में Aspose.Slides for Java लाइब्रेरी जोड़ी गई है। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+शुरू करने से पहले, सुनिश्चित करें कि आपके प्रोजेक्ट में Aspose.Slides for Java लाइब्रेरी जोड़ी गई है। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 
 ## चरण 1: प्रस्तुति आरंभ करें
 
- सबसे पहले, आपको मौजूदा PowerPoint फ़ाइल लोड करके प्रेजेंटेशन ऑब्जेक्ट को इनिशियलाइज़ करना होगा।`"Your Document Directory"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ.
+सबसे पहले, आपको एक मौजूदा PowerPoint फ़ाइल लोड करके एक प्रेजेंटेशन ऑब्जेक्ट को इनिशियलाइज़ करना होगा। `"Your Document Directory"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -49,7 +51,7 @@ chart.getChartDataTable().getTextFormat().getPortionFormat().setFontBold(Nullabl
 chart.getChartDataTable().getTextFormat().getPortionFormat().setFontHeight(20);
 ```
 
-- `setFontBold(NullableBool.True)`: यह पंक्ति फ़ॉन्ट को बोल्ड बनाती है.
+- `setFontBold(NullableBool.True)`यह पंक्ति फ़ॉन्ट को बोल्ड बनाती है.
 - `setFontHeight(20)`: यह लाइन फ़ॉन्ट की ऊँचाई 20 पॉइंट पर सेट करती है। आप इस मान को आवश्यकतानुसार समायोजित कर सकते हैं।
 
 ## चरण 4: प्रस्तुति सहेजें
@@ -87,7 +89,7 @@ finally
 
 ### मैं फ़ॉन्ट का रंग कैसे बदलूं?
 
- फ़ॉन्ट का रंग बदलने के लिए, का उपयोग करें`setFontColor` विधि और इच्छित रंग निर्दिष्ट करें। उदाहरण के लिए:
+फ़ॉन्ट का रंग बदलने के लिए, का उपयोग करें `setFontColor` विधि और इच्छित रंग निर्दिष्ट करें। उदाहरण के लिए:
 
 ```java
 chart.getChartDataTable().getTextFormat().getPortionFormat().setFontColor(Color.RED);
@@ -99,15 +101,15 @@ chart.getChartDataTable().getTextFormat().getPortionFormat().setFontColor(Color.
 
 ### मैं इटैलिक फ़ॉन्ट शैली कैसे सेट करूँ?
 
- फ़ॉन्ट शैली को इटैलिक में सेट करने के लिए, का उपयोग करें`setFontItalic` तरीका:
+फ़ॉन्ट शैली को इटैलिक में सेट करने के लिए, का उपयोग करें `setFontItalic` तरीका:
 
 ```java
 chart.getChartDataTable().getTextFormat().getPortionFormat().setFontItalic(NullableBool.True);
 ```
 
- समायोजित`NullableBool.True` इटैलिक शैली को सक्षम या अक्षम करने के लिए आवश्यकतानुसार पैरामीटर का उपयोग करें।
+समायोजित `NullableBool.True` इटैलिक शैली को सक्षम या अक्षम करने के लिए आवश्यकतानुसार पैरामीटर का उपयोग करें।
 
-### मैं चार्ट में डेटा लेबल का फ़ॉन्ट कैसे बदल सकता हूँ?
+### मैं चार्ट में डेटा लेबल के लिए फ़ॉन्ट कैसे बदल सकता हूँ?
 
 चार्ट में डेटा लेबल के लिए फ़ॉन्ट बदलने के लिए, आपको उचित तरीकों का उपयोग करके डेटा लेबल टेक्स्ट फ़ॉर्मेट तक पहुँचना होगा। उदाहरण के लिए:
 
@@ -120,7 +122,7 @@ series.getLabels().getDefaultDataLabelFormat().getPortionFormat().setFontBold(Nu
 
 ### मैं पाठ के किसी विशिष्ट भाग का फ़ॉन्ट कैसे बदलूं?
 
- यदि आप किसी पाठ तत्व के भीतर पाठ के किसी विशिष्ट भाग के लिए फ़ॉन्ट बदलना चाहते हैं, तो आप इसका उपयोग कर सकते हैं`PortionFormat` क्लास. उस भाग तक पहुँचें जिसे आप संशोधित करना चाहते हैं और फिर वांछित फ़ॉन्ट गुण सेट करें.
+यदि आप किसी पाठ तत्व के भीतर पाठ के किसी विशिष्ट भाग के लिए फ़ॉन्ट बदलना चाहते हैं, तो आप इसका उपयोग कर सकते हैं `PortionFormat` क्लास. उस भाग तक पहुँचें जिसे आप संशोधित करना चाहते हैं और फिर वांछित फ़ॉन्ट गुण सेट करें.
 
 ```java
 IAutoShape textShape = (IAutoShape)slide.getShapes().get_Item(0); // आवश्यकतानुसार सूचकांक बदलें
@@ -143,9 +145,11 @@ for (ISlide slide : pres.getSlides()) {
     // यहां टेक्स्ट तत्वों के फ़ॉन्ट गुणों तक पहुंचें और उन्हें अनुकूलित करें
 }
 ```
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

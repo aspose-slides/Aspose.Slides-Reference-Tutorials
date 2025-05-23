@@ -1,30 +1,32 @@
 ---
-title: Obtener la posición real de la etiqueta de datos del gráfico en diapositivas de Java
-linktitle: Obtener la posición real de la etiqueta de datos del gráfico en diapositivas de Java
-second_title: Aspose.Slides API de procesamiento de PowerPoint Java
-description: Aprenda cómo obtener la posición real de las etiquetas de datos del gráfico en Java Slides usando Aspose.Slides para Java. Guía paso a paso con código fuente.
-weight: 18
-url: /es/java/data-manipulation/actual-position-chart-data-label-java-slides/
+"description": "Aprenda a obtener la posición real de las etiquetas de datos de gráficos en Java Slides usando Aspose.Slides para Java. Guía paso a paso con código fuente."
+"linktitle": "Obtener la posición actual de la etiqueta de datos del gráfico en diapositivas de Java"
+"second_title": "API de procesamiento de PowerPoint en Java de Aspose.Slides"
+"title": "Obtener la posición actual de la etiqueta de datos del gráfico en diapositivas de Java"
+"url": "/es/java/data-manipulation/actual-position-chart-data-label-java-slides/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Obtener la posición real de la etiqueta de datos del gráfico en diapositivas de Java
+# Obtener la posición actual de la etiqueta de datos del gráfico en diapositivas de Java
 
 
-## Introducción a la obtención de la posición real de la etiqueta de datos del gráfico en diapositivas de Java
+## Introducción a la obtención de la posición real de la etiqueta de datos de un gráfico en diapositivas de Java
 
-En este tutorial, aprenderá cómo recuperar la posición real de las etiquetas de datos del gráfico usando Aspose.Slides para Java. Crearemos un programa Java que genere una presentación de PowerPoint con un gráfico, personalice las etiquetas de datos y luego agregue formas que representen las posiciones de estas etiquetas de datos.
+En este tutorial, aprenderá a recuperar la posición real de las etiquetas de datos de un gráfico con Aspose.Slides para Java. Crearemos un programa Java que genera una presentación de PowerPoint con un gráfico, personaliza las etiquetas de datos y luego agrega formas que representan su posición.
 
-## Requisitos previos
+## Prerrequisitos
 
 Antes de comenzar, asegúrese de tener la biblioteca Aspose.Slides para Java configurada en su proyecto Java.
 
-## Paso 1: crea una presentación de PowerPoint
+## Paso 1: Crear una presentación de PowerPoint
 
-Primero, creemos una nueva presentación de PowerPoint y agreguemosle un gráfico. Personalizaremos las etiquetas de datos del gráfico más adelante en el tutorial.
+Primero, creemos una nueva presentación de PowerPoint y añadamos un gráfico. Personalizaremos las etiquetas de datos del gráfico más adelante en el tutorial.
 
 ```java
 // La ruta al directorio de documentos.
@@ -38,8 +40,8 @@ try {
 }
 ```
 
-## Paso 2: personaliza las etiquetas de datos
-Ahora, personalicemos las etiquetas de datos para la serie de gráficos. Estableceremos su posición y mostraremos los valores.
+## Paso 2: Personalizar las etiquetas de datos
+Ahora, personalicemos las etiquetas de datos de la serie gráfica. Estableceremos su posición y mostraremos los valores.
 
 ```java
 try {
@@ -54,8 +56,8 @@ try {
 }
 ```
 
-## Paso 3: obtener la posición real de las etiquetas de datos
-En este paso, recorreremos los puntos de datos de la serie de gráficos y recuperaremos la posición real de las etiquetas de datos que tienen un valor mayor que 4. Luego agregaremos elipses para representar estas posiciones.
+## Paso 3: Obtener la posición real de las etiquetas de datos
+En este paso, iteraremos a través de los puntos de datos de la serie de gráficos y recuperaremos la posición real de las etiquetas de datos que tengan un valor mayor a 4. Luego, agregaremos puntos suspensivos para representar estas posiciones.
 
 ```java
 try {
@@ -79,8 +81,8 @@ try {
 }
 ```
 
-## Paso 4: guarde la presentación
-Finalmente, guarde la presentación generada en un archivo.
+## Paso 4: Guardar la presentación
+Por último, guarde la presentación generada en un archivo.
 
 ```java
 try {
@@ -91,7 +93,7 @@ try {
 }
 ```
 
-## Código fuente completo para obtener la posición real de la etiqueta de datos del gráfico en diapositivas de Java
+## Código fuente completo para obtener la posición real de la etiqueta de datos de un gráfico en diapositivas de Java
 
 ```java
 // La ruta al directorio de documentos.
@@ -132,13 +134,13 @@ finally
 
 ## Conclusión
 
-En este tutorial, aprendió cómo recuperar la posición real de las etiquetas de datos del gráfico en Java Slides usando Aspose.Slides para Java. Ahora puede utilizar este conocimiento para mejorar sus presentaciones de PowerPoint con etiquetas de datos personalizadas y representaciones visuales de sus posiciones.
+En este tutorial, aprendió a recuperar la posición real de las etiquetas de datos de gráficos en Java Slides usando Aspose.Slides para Java. Ahora puede usar este conocimiento para mejorar sus presentaciones de PowerPoint con etiquetas de datos personalizadas y representaciones visuales de sus posiciones.
 
 ## Preguntas frecuentes
 
 ### ¿Cómo puedo personalizar las etiquetas de datos en un gráfico?
 
- Para personalizar las etiquetas de datos en un gráfico, puede utilizar el`setDefaultDataLabelFormat` método en la serie de gráficos y establecer propiedades como posición y visibilidad. Por ejemplo:
+Para personalizar las etiquetas de datos en un gráfico, puede utilizar el `setDefaultDataLabelFormat` Método en la serie de gráficos y configuración de propiedades como la posición y la visibilidad. Por ejemplo:
 ```java
 for (IChartSeries series : chart.getChartData().getSeries()) {
     series.getLabels().getDefaultDataLabelFormat().setPosition(LegendDataLabelPosition.OutsideEnd);
@@ -146,9 +148,9 @@ for (IChartSeries series : chart.getChartData().getSeries()) {
 }
 ```
 
-### ¿Cómo puedo agregar formas para representar las posiciones de las etiquetas de datos?
+### ¿Cómo puedo agregar formas para representar posiciones de etiquetas de datos?
 
- Puede iterar a través de los puntos de datos de una serie de gráficos y utilizar el`getActualX`, `getActualY`, `getActualWidth` , y`getActualHeight`métodos de la etiqueta de datos para obtener su posición. Luego, puedes agregar formas usando el`addAutoShape` método. He aquí un ejemplo:
+Puede iterar a través de los puntos de datos de una serie de gráficos y utilizar la `getActualX`, `getActualY`, `getActualWidth`, y `getActualHeight` Métodos de la etiqueta de datos para obtener su posición. Luego, puede agregar formas usando `addAutoShape` Método. Aquí tienes un ejemplo:
 ```java
 float x = point.getLabel().getActualX();
 float y = point.getLabel().getActualY();
@@ -159,13 +161,15 @@ IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Elli
 
 ### ¿Cómo puedo guardar la presentación generada?
 
- Puede guardar la presentación generada usando el`save` método. Proporcione la ruta del archivo deseada y el`SaveFormat` como parámetros. Por ejemplo:
+Puede guardar la presentación generada utilizando el `save` método. Proporcione la ruta del archivo deseado y el `SaveFormat` como parámetros. Por ejemplo:
 ```java
 pres.save(dataDir + "GetActualPositionOFChartDatalabel.pptx", SaveFormat.Pptx);
 ```
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

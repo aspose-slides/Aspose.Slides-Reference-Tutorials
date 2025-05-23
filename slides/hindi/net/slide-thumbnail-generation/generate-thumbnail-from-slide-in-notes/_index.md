@@ -1,14 +1,16 @@
 ---
-title: नोट्स में स्लाइड से थंबनेल उत्पन्न करें
-linktitle: नोट्स में स्लाइड से थंबनेल उत्पन्न करें
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: Aspose.Slides for .NET का उपयोग करके अपने प्रेजेंटेशन के नोट्स अनुभाग में स्लाइड से थंबनेल बनाने का तरीका जानें। अपनी विज़ुअल सामग्री को बेहतर बनाएँ!
-weight: 12
-url: /hi/net/slide-thumbnail-generation/generate-thumbnail-from-slide-in-notes/
+"description": "Aspose.Slides for .NET का उपयोग करके अपने प्रेजेंटेशन के नोट्स अनुभाग में स्लाइड से थंबनेल बनाने का तरीका जानें। अपनी विज़ुअल सामग्री को बेहतर बनाएँ!"
+"linktitle": "नोट्स में स्लाइड से थंबनेल उत्पन्न करें"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "नोट्स में स्लाइड से थंबनेल उत्पन्न करें"
+"url": "/hi/net/slide-thumbnail-generation/generate-thumbnail-from-slide-in-notes/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # नोट्स में स्लाइड से थंबनेल उत्पन्न करें
@@ -22,7 +24,7 @@ url: /hi/net/slide-thumbnail-generation/generate-thumbnail-from-slide-in-notes/
 
 ### 1. .NET के लिए Aspose.Slides
 
- सुनिश्चित करें कि आपके पास Aspose.Slides for .NET इंस्टॉल और सेट अप है। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/net/).
+सुनिश्चित करें कि आपके पास Aspose.Slides for .NET इंस्टॉल और सेट अप है। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/net/).
 
 ### 2. .NET वातावरण
 
@@ -30,7 +32,7 @@ url: /hi/net/slide-thumbnail-generation/generate-thumbnail-from-slide-in-notes/
 
 ### 3. एक प्रेजेंटेशन फ़ाइल
 
- एक प्रस्तुति फ़ाइल रखें (उदाहरण के लिए,`ThumbnailFromSlideInNotes.pptx`) जिससे आप थंबनेल बनाना चाहते हैं.
+एक प्रस्तुति फ़ाइल रखें (उदाहरण के लिए, `ThumbnailFromSlideInNotes.pptx`) जिससे आप थंबनेल बनाना चाहते हैं.
 
 अब, आइये इस प्रक्रिया को चरणों में विभाजित करें:
 
@@ -45,7 +47,7 @@ using System.Drawing;
 
 ## चरण 2: प्रस्तुति लोड करें
 
- इसके बाद, आपको प्रेजेंटेशन फ़ाइल लोड करनी होगी जिसमें नोट्स के साथ स्लाइड्स शामिल हैं। एक प्रेजेंटेशन फ़ाइल को इंस्टेंटिएट करने के लिए निम्न कोड का उपयोग करें`Presentation` कक्षा:
+इसके बाद, आपको प्रेजेंटेशन फ़ाइल लोड करनी होगी जिसमें नोट्स के साथ स्लाइड्स शामिल हैं। एक प्रेजेंटेशन फ़ाइल को इंस्टेंटिएट करने के लिए निम्न कोड का उपयोग करें। `Presentation` कक्षा:
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -58,7 +60,7 @@ using (Presentation pres = new Presentation(dataDir + "ThumbnailFromSlideInNotes
 
 ## चरण 3: स्लाइड तक पहुंचें
 
-आप चुन सकते हैं कि आप प्रस्तुति में किस स्लाइड के लिए थंबनेल बनाना चाहते हैं। इस उदाहरण में, हम पहली स्लाइड तक पहुँचेंगे:
+आप चुन सकते हैं कि प्रस्तुति में किस स्लाइड के लिए आप थंबनेल बनाना चाहते हैं। इस उदाहरण में, हम पहली स्लाइड तक पहुँचेंगे:
 
 ```csharp
 ISlide sld = pres.Slides[0];
@@ -92,7 +94,7 @@ Bitmap bmp = sld.GetThumbnail(ScaleX, ScaleY);
 
 ## चरण 7: थंबनेल सहेजें
 
-अंत में, उत्पन्न थंबनेल को JPEG छवि के रूप में सहेजें:
+अंत में, उत्पन्न थम्बनेल को JPEG छवि के रूप में सहेजें:
 
 ```csharp
 bmp.Save(dataDir + "Notes_tnail_out.jpg", System.Drawing.Imaging.ImageFormat.Jpeg);
@@ -119,10 +121,12 @@ bmp.Save(dataDir + "Notes_tnail_out.jpg", System.Drawing.Imaging.ImageFormat.Jpe
 बिल्कुल! Aspose.Slides for .NET थंबनेल की उपस्थिति को अनुकूलित करने के लिए विकल्प प्रदान करता है, जैसे आयाम, गुणवत्ता, और बहुत कुछ।
 
 ### मुझे Aspose.Slides for .NET के संबंध में समर्थन या अतिरिक्त सहायता कहां मिल सकती है?
- आप सहायता पा सकते हैं और Aspose समुदाय के साथ जुड़ सकते हैं[Aspose समर्थन मंच](https://forum.aspose.com/).
+आप सहायता पा सकते हैं और Aspose समुदाय के साथ जुड़ सकते हैं [Aspose समर्थन मंच](https://forum.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

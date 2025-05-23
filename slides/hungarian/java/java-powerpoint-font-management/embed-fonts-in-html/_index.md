@@ -1,72 +1,76 @@
 ---
-title: Betűtípusok beágyazása a HTML-be az Aspose.Slides for Java segítségével
-linktitle: Betűtípusok beágyazása a HTML-be az Aspose.Slides for Java segítségével
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Tanulja meg, hogyan ágyazhat be betűtípusokat HTML-be az Aspose.Slides for Java segítségével, hogy egységes tipográfiát biztosítson a különböző platformokon és eszközökön.
-weight: 13
-url: /hu/java/java-powerpoint-font-management/embed-fonts-in-html/
+"description": "Tanuld meg, hogyan ágyazhatsz be betűtípusokat HTML-be az Aspose.Slides for Java használatával, hogy biztosítsd az egységes tipográfiát a különböző platformokon és eszközökön."
+"linktitle": "Betűtípusok beágyazása HTML-be az Aspose.Slides for Java használatával"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Betűtípusok beágyazása HTML-be az Aspose.Slides for Java használatával"
+"url": "/hu/java/java-powerpoint-font-management/embed-fonts-in-html/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Betűtípusok beágyazása a HTML-be az Aspose.Slides for Java segítségével
+# Betűtípusok beágyazása HTML-be az Aspose.Slides for Java használatával
 
 ## Bevezetés
-Az Aspose.Slides for Java egy hatékony eszköz a PowerPoint prezentációkat programozottan kezelni kívánó Java-fejlesztők számára. Ebben az oktatóanyagban a betűtípusok HTML-be ágyazásának folyamatát mutatjuk be az Aspose.Slides for Java használatával. A betűtípusok beágyazásával biztosítja, hogy prezentációi megőrizzék tervezett megjelenésüket a különböző platformokon és eszközökön, még akkor is, ha a szükséges betűtípusok nincsenek helyben telepítve.
+Az Aspose.Slides for Java egy hatékony eszköz a Java fejlesztők számára, akik programozottan szeretnék manipulálni a PowerPoint prezentációkat. Ebben az oktatóanyagban részletesen bemutatjuk a betűtípusok HTML-be ágyazásának folyamatát az Aspose.Slides for Java segítségével. A betűtípusok beágyazásával biztosíthatod, hogy prezentációid különböző platformokon és eszközökön is megőrizzék a kívánt megjelenést, még akkor is, ha a szükséges betűtípusok nincsenek helyben telepítve.
 ## Előfeltételek
-Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
-1. Java Development Kit (JDK): Győződjön meg arról, hogy a JDK telepítve van a rendszeren.
-2.  Aspose.Slides for Java: Töltse le és telepítse az Aspose.Slides for Java alkalmazást a[letöltési oldal](https://releases.aspose.com/slides/java/).
-3. Integrált fejlesztői környezet (IDE): Válassza ki a kívánt IDE-t a Java fejlesztéshez, mint például az IntelliJ IDEA vagy az Eclipse.
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
+1. Java fejlesztőkészlet (JDK): Győződjön meg arról, hogy a JDK telepítve van a rendszerén.
+2. Aspose.Slides Java-hoz: Töltse le és telepítse az Aspose.Slides Java-hoz programot a következő helyről: [letöltési oldal](https://releases.aspose.com/slides/java/).
+3. Integrált fejlesztői környezet (IDE): Válassza ki a Java fejlesztéshez kívánt IDE-t, például az IntelliJ IDEA-t vagy az Eclipse-t.
 
 ## Csomagok importálása
-Először is importálnia kell a szükséges csomagokat, hogy elkezdhesse a betűtípusok beágyazását a HTML-be az Aspose.Slides for Java segítségével.
+Először importálnod kell a szükséges csomagokat ahhoz, hogy elkezdhesd a betűtípusok HTML-be ágyazását az Aspose.Slides for Java használatával.
 ```java
 import com.aspose.slides.*;
 ```
-## 1. lépés: Határozza meg a dokumentum- és kimeneti könyvtárakat
+## 1. lépés: Dokumentum- és kimeneti könyvtárak definiálása
 ```java
 String dataDir = "Your Document Directory";
 String outPath = "Your Output Directory";
 ```
- Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` és`"Your Output Directory"` a bemeneti PowerPoint-prezentáció és a kívánt kimeneti könyvtár elérési útjaival.
+Győződjön meg róla, hogy kicseréli `"Your Document Directory"` és `"Your Output Directory"` a bemeneti PowerPoint-bemutatóhoz, illetve a kívánt kimeneti könyvtárhoz vezető elérési úttal.
 ## 2. lépés: Töltse be a prezentációt
 ```java
 Presentation pres = new Presentation(dataDir + "Presentation.pptx");
 ```
-Ez a lépés betölti a PowerPoint bemutatót a memóriába, lehetővé téve ezzel különféle műveletek végrehajtását.
-## 3. lépés: Az alapértelmezett betűtípusok kizárása
+Ez a lépés betölti a PowerPoint bemutatót a memóriába, lehetővé téve, hogy különféle műveleteket hajtson végre rajta.
+## 3. lépés: Alapértelmezett betűtípusok kizárása
 ```java
 String[] fontNameExcludeList = { "Arial" };
 ```
-Adja meg azokat a betűtípusokat, amelyeket ki szeretne zárni a beágyazásból. Ebben a példában kizárjuk az Arial-t.
-## 4. lépés: Betűtípusok beágyazása a HTML-be
+Adja meg a beágyazásból kizárni kívánt betűtípusokat. Ebben a példában az Arial betűtípust kizárjuk.
+## 4. lépés: Betűtípusok beágyazása HTML-be
 ```java
 EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
 HtmlOptions htmlOptionsEmbed = new HtmlOptions();
 htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(embedFontsController));
 pres.save(outPath + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 ```
- Ebben a lépésben létrehozunk egy példányt`EmbedAllFontsHtmlController` az összes betűtípus beágyazásához, kivéve a kizárási listában meghatározottakat. Aztán meghatározzuk`HtmlOptions`és állítson be egyéni HTML-formázót a betűtípusok beágyazásához. Végül a prezentációt HTML-ként mentjük el, beágyazott betűtípusokkal.
+Ebben a lépésben létrehozunk egy példányt a következőből: `EmbedAllFontsHtmlController` hogy az összes betűtípust beágyazzuk, kivéve a kizárási listában megadottakat. Ezután definiáljuk `HtmlOptions` és beállítunk egy egyéni HTML formázót a betűtípusok beágyazásához. Végül HTML-ként mentjük el a prezentációt beágyazott betűtípusokkal.
 
 ## Következtetés
-Ebben az oktatóanyagban megvizsgáltuk, hogyan ágyazhatunk be betűtípusokat HTML-be az Aspose.Slides for Java segítségével. A megadott lépések követésével biztosíthatja, hogy prezentációi konzisztens tipográfiát tartsanak fenn a különböző platformokon és eszközökön, javítva ezzel az általános megtekintési élményt.
+Ebben az oktatóanyagban azt vizsgáltuk meg, hogyan ágyazhatunk be betűtípusokat HTML-be az Aspose.Slides for Java használatával. A megadott lépéseket követve biztosíthatod, hogy prezentációid egységes tipográfiát tartsanak fenn a különböző platformokon és eszközökön, ami javítja az általános vizuális élményt.
 ## GYIK
-### Beágyazhatok bizonyos betűtípusokat ahelyett, hogy kizárnám őket?
- Igen, megadhatja a beágyazni kívánt betűtípusokat a módosításával`fontNameExcludeList` tömb ennek megfelelően.
-### Az Aspose.Slides for Java támogatja a betűtípusok beágyazását a HTML-en kívül más formátumokba is?
+### Beágyazhatok bizonyos betűtípusokat a kizárásuk helyett?
+Igen, a beágyazni kívánt betűtípusokat a `fontNameExcludeList` tömbölje ennek megfelelően.
+### Az Aspose.Slides Java-ban támogatja a HTML-en kívüli más formátumokba való betűtípusok beágyazását?
 Igen, az Aspose.Slides támogatja a betűtípusok beágyazását különféle kimeneti formátumokba, beleértve a PDF-et és a képeket.
-### Elérhető az Aspose.Slides for Java próbaverziója?
- Igen, letölthet egy ingyenes próbaverziót a webhelyről[itt](https://releases.aspose.com/).
+### Van elérhető próbaverzió az Aspose.Slides for Java-hoz?
+Igen, letölthetsz egy ingyenes próbaverziót innen [itt](https://releases.aspose.com/).
 ### Hol találok további támogatást vagy segítséget az Aspose.Slides for Java-hoz?
- Meglátogathatja a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) közösségi támogatásért, vagy forduljon az Aspose supporthoz szakmai segítségért.
-### Vásárolhatok ideiglenes licencet az Aspose.Slides for Java számára?
-Igen, ideiglenes engedélyt szerezhet a[vásárlási oldal](https://purchase.aspose.com/temporary-license/).
+Meglátogathatod a [Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) közösségi támogatásért, vagy vegye fel a kapcsolatot az Aspose ügyfélszolgálatával szakmai segítségért.
+### Vásárolhatok ideiglenes licencet az Aspose.Slides for Java-hoz?
+Igen, ideiglenes jogosítványt szerezhet be a [vásárlási oldal](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

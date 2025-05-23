@@ -1,14 +1,16 @@
 ---
-title: जावा का उपयोग करके स्मार्टआर्ट में चार्ट लेआउट प्रकार व्यवस्थित करें
-linktitle: जावा का उपयोग करके स्मार्टआर्ट में चार्ट लेआउट प्रकार व्यवस्थित करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides के साथ जावा का उपयोग करके स्मार्टआर्ट में चार्ट लेआउट प्रकारों को व्यवस्थित करना सीखें, तथा प्रस्तुति दृश्यों को सहजता से बढ़ाएं।
-weight: 13
-url: /hi/java/java-powerpoint-smartart-manipulation/organize-chart-layout-type-smartart-java/
+"description": "Aspose.Slides के साथ जावा का उपयोग करके स्मार्टआर्ट में चार्ट लेआउट प्रकारों को व्यवस्थित करना सीखें, तथा प्रस्तुति दृश्यों को सहजता से बढ़ाएं।"
+"linktitle": "जावा का उपयोग करके स्मार्टआर्ट में चार्ट लेआउट प्रकार व्यवस्थित करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा का उपयोग करके स्मार्टआर्ट में चार्ट लेआउट प्रकार व्यवस्थित करें"
+"url": "/hi/java/java-powerpoint-smartart-manipulation/organize-chart-layout-type-smartart-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा का उपयोग करके स्मार्टआर्ट में चार्ट लेआउट प्रकार व्यवस्थित करें
@@ -18,7 +20,7 @@ url: /hi/java/java-powerpoint-smartart-manipulation/organize-chart-layout-type-s
 ## आवश्यक शर्तें
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 1. आपके सिस्टम पर जावा डेवलपमेंट किट (JDK) स्थापित है।
-2.  Aspose.Slides लाइब्रेरी डाउनलोड और सेट अप करें। यदि आपने अभी तक ऐसा नहीं किया है, तो इसे यहाँ से डाउनलोड करें[यहाँ](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides लाइब्रेरी डाउनलोड और सेट अप करें। यदि आपने अभी तक ऐसा नहीं किया है, तो इसे यहाँ से डाउनलोड करें [यहाँ](https://releases.aspose.com/slides/java/).
 3. जावा प्रोग्रामिंग की बुनियादी समझ.
 
 ## पैकेज आयात करें
@@ -60,10 +62,12 @@ presentation.save(dataDir + "OrganizeChartLayoutType_out.pptx", SaveFormat.Pptx)
 ### क्या Aspose.Slides के लिए कोई परीक्षण संस्करण उपलब्ध है?
 हां, आप खरीदारी का निर्णय लेने से पहले इसकी सुविधाओं का पता लगाने के लिए Aspose.Slides के निःशुल्क परीक्षण संस्करण का उपयोग कर सकते हैं।
 ### मैं Aspose.Slides-संबंधित प्रश्नों के लिए सहायता कहां से प्राप्त कर सकता हूं?
- Aspose.Slides से संबंधित किसी भी सहायता या प्रश्न के लिए, आप सहायता फ़ोरम पर जा सकते हैं[यहाँ](https://forum.aspose.com/c/slides/11).
+Aspose.Slides से संबंधित किसी भी सहायता या प्रश्न के लिए, आप सहायता फ़ोरम पर जा सकते हैं [यहाँ](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

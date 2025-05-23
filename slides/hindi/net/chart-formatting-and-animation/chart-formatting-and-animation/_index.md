@@ -1,14 +1,16 @@
 ---
-title: Aspose.Slides में चार्ट फ़ॉर्मेटिंग और एनिमेशन
-linktitle: Aspose.Slides में चार्ट फ़ॉर्मेटिंग और एनिमेशन
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: Aspose.Slides for .NET में चार्ट को प्रारूपित और एनिमेट करना सीखें, तथा आकर्षक दृश्यों के साथ अपनी प्रस्तुतियों को बेहतर बनाएं।
-weight: 10
-url: /hi/net/chart-formatting-and-animation/chart-formatting-and-animation/
+"description": "Aspose.Slides for .NET में चार्ट को प्रारूपित और एनिमेट करना सीखें, तथा आकर्षक दृश्यों के साथ अपनी प्रस्तुतियों को बेहतर बनाएं।"
+"linktitle": "Aspose.Slides में चार्ट फ़ॉर्मेटिंग और एनिमेशन"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "Aspose.Slides में चार्ट फ़ॉर्मेटिंग और एनिमेशन"
+"url": "/hi/net/chart-formatting-and-animation/chart-formatting-and-animation/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Slides में चार्ट फ़ॉर्मेटिंग और एनिमेशन
@@ -20,7 +22,7 @@ url: /hi/net/chart-formatting-and-animation/chart-formatting-and-animation/
 
 इससे पहले कि आप Aspose.Slides के साथ चार्ट फ़ॉर्मेटिंग और एनीमेशन में गोता लगाएँ, आपको निम्नलिखित की आवश्यकता होगी:
 
-1.  Aspose.Slides for .NET: सुनिश्चित करें कि आपने Aspose.Slides for .NET इंस्टॉल किया है। यदि आपने पहले से ऐसा नहीं किया है, तो आप यह कर सकते हैं[यहाँ पर डाउनलोड करो](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides for .NET: सुनिश्चित करें कि आपने Aspose.Slides for .NET इंस्टॉल किया है। यदि आपने पहले से ऐसा नहीं किया है, तो आप यह कर सकते हैं [यहाँ पर डाउनलोड करो](https://releases.aspose.com/slides/net/).
 
 2. मौजूदा प्रस्तुति: एक मौजूदा प्रस्तुति जिसमें एक चार्ट है जिसे आप प्रारूपित और एनिमेट करना चाहते हैं।
 
@@ -30,7 +32,7 @@ url: /hi/net/chart-formatting-and-animation/chart-formatting-and-animation/
 
 ## नामस्थान आयात करें
 
-आरंभ करने के लिए, आपको Aspose.Slides सुविधाओं तक पहुँचने के लिए आवश्यक नामस्थानों को आयात करना होगा। अपने C# प्रोजेक्ट में, निम्न जोड़ें:
+आरंभ करने के लिए, आपको Aspose.Slides सुविधाओं तक पहुँचने के लिए आवश्यक नामस्थानों को आयात करना होगा। अपने C# प्रोजेक्ट में, निम्नलिखित जोड़ें:
 
 ```csharp
 ﻿using Aspose.Slides.Charts;
@@ -154,34 +156,36 @@ presentation.Save("Your Document Directory\\AnimatingSeriesElements_out.pptx", S
 
 ## निष्कर्ष
 
-Aspose.Slides for .NET चार्ट फ़ॉर्मेटिंग और एनीमेशन के लिए शक्तिशाली उपकरण प्रदान करता है, जिससे आप अपने दर्शकों को आकर्षित करने वाले आकर्षक प्रस्तुतिकरण बना सकते हैं। इस चरण-दर-चरण मार्गदर्शिका का पालन करके, आप चार्ट एनीमेशन की कला में महारत हासिल कर सकते हैं और अपनी प्रस्तुतियों को बेहतर बना सकते हैं।
+Aspose.Slides for .NET चार्ट फ़ॉर्मेटिंग और एनीमेशन के लिए शक्तिशाली उपकरण प्रदान करता है, जिससे आप अपने दर्शकों को आकर्षित करने वाले आकर्षक प्रस्तुतियाँ बना सकते हैं। इस चरण-दर-चरण मार्गदर्शिका का पालन करके, आप चार्ट एनीमेशन की कला में महारत हासिल कर सकते हैं और अपनी प्रस्तुतियों को बेहतर बना सकते हैं।
 
 ## पूछे जाने वाले प्रश्न
 
 ### 1. मैं Aspose.Slides for .NET के लिए दस्तावेज़ कहां पा सकता हूं?
 
- आप दस्तावेज़ों तक यहां पहुंच सकते हैं[https://reference.aspose.com/slides/net/](https://reference.aspose.com/slides/net/).
+आप दस्तावेज़ों तक यहां पहुंच सकते हैं [https://reference.aspose.com/slides/net/](https://reference.aspose.com/slides/net/).
 
 ### 2. मैं .NET के लिए Aspose.Slides कैसे डाउनलोड करूं?
 
- आप .NET के लिए Aspose.Slides को यहां से डाउनलोड कर सकते हैं[https://releases.aspose.com/slides/net/](https://releases.aspose.com/slides/net/).
+आप .NET के लिए Aspose.Slides को यहां से डाउनलोड कर सकते हैं [https://releases.aspose.com/slides/net/](https://releases.aspose.com/slides/net/).
 
 ### 3. क्या कोई निःशुल्क परीक्षण उपलब्ध है?
 
- हां, आप .NET के लिए Aspose.Slides का निःशुल्क परीक्षण प्राप्त कर सकते हैं[https://releases.aspose.com/](https://releases.aspose.com/).
+हां, आप .NET के लिए Aspose.Slides का निःशुल्क परीक्षण प्राप्त कर सकते हैं [https://releases.aspose.com/](https://releases.aspose.com/).
 
 ### 4. क्या मैं Aspose.Slides for .NET के लिए अस्थायी लाइसेंस खरीद सकता हूँ?
 
- हां, आप यहां से अस्थायी लाइसेंस खरीद सकते हैं[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
+हां, आप यहां से अस्थायी लाइसेंस खरीद सकते हैं [https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
 
 ### 5. मैं Aspose.Slides for .NET के बारे में सहायता कहां से प्राप्त कर सकता हूं या प्रश्न कहां पूछ सकता हूं?
 
- सहायता और प्रश्नों के लिए, Aspose.Slides फ़ोरम पर जाएँ[https://forum.aspose.com/](https://forum.aspose.com/).
+सहायता और प्रश्नों के लिए, Aspose.Slides फ़ोरम पर जाएँ [https://forum.aspose.com/](https://forum.aspose.com/).
+
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,28 +1,30 @@
 ---
-title: HTML एम्बेडिंग छवियों को जावा स्लाइड्स में परिवर्तित करें
-linktitle: HTML एम्बेडिंग छवियों को जावा स्लाइड्स में परिवर्तित करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: एम्बेडेड इमेज के साथ PowerPoint को HTML में बदलें। Java के लिए Aspose.Slides का उपयोग करके चरण-दर-चरण मार्गदर्शिका। Java में प्रेजेंटेशन रूपांतरण को आसानी से स्वचालित करना सीखें।
-weight: 11
-url: /hi/java/presentation-conversion/convert-html-embedding-images-java-slides/
+"description": "एम्बेडेड इमेज के साथ PowerPoint को HTML में बदलें। Java के लिए Aspose.Slides का उपयोग करके चरण-दर-चरण मार्गदर्शिका। Java में प्रेजेंटेशन रूपांतरण को आसानी से स्वचालित करना सीखें।"
+"linktitle": "HTML एम्बेडिंग छवियों को जावा स्लाइड्स में परिवर्तित करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "HTML एम्बेडिंग छवियों को जावा स्लाइड्स में परिवर्तित करें"
+"url": "/hi/java/presentation-conversion/convert-html-embedding-images-java-slides/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # HTML एम्बेडिंग छवियों को जावा स्लाइड्स में परिवर्तित करें
 
 
-## HTML एम्बेडिंग छवियों को जावा स्लाइड्स में परिवर्तित करने का परिचय
+## HTML एम्बेडिंग इमेज को जावा स्लाइड में बदलने का परिचय
 
-इस चरण-दर-चरण मार्गदर्शिका में, हम आपको Aspose.Slides for Java का उपयोग करके छवियों को एम्बेड करते हुए PowerPoint प्रस्तुति को HTML दस्तावेज़ में परिवर्तित करने की प्रक्रिया से परिचित कराएँगे। यह ट्यूटोरियल मानता है कि आपने पहले ही अपना विकास वातावरण सेट कर लिया है और Aspose.Slides for Java लाइब्रेरी स्थापित कर ली है।
+इस चरण-दर-चरण मार्गदर्शिका में, हम आपको Aspose.Slides for Java का उपयोग करके छवियों को एम्बेड करते समय PowerPoint प्रस्तुति को HTML दस्तावेज़ में परिवर्तित करने की प्रक्रिया से परिचित कराएँगे। यह ट्यूटोरियल मानता है कि आपने पहले ही अपना विकास वातावरण सेट कर लिया है और Aspose.Slides for Java लाइब्रेरी स्थापित कर ली है।
 
 ## आवश्यकताएं
 
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
-1.  Aspose.Slides for Java लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://downloads.aspose.com/slides/java).
+1. Aspose.Slides for Java लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://downloads.aspose.com/slides/java).
 
 2. एक पावरपॉइंट प्रस्तुति फ़ाइल (PPTX प्रारूप) जिसे आप HTML में परिवर्तित करना चाहते हैं।
 
@@ -41,7 +43,7 @@ import java.io.File;
 
 ## चरण 2: पावरपॉइंट प्रेजेंटेशन लोड करें
 
- इसके बाद, आप उस PowerPoint प्रेजेंटेशन को लोड करेंगे जिसे आप HTML में बदलना चाहते हैं।`presentationName` अपनी प्रस्तुति फ़ाइल के वास्तविक पथ के साथ.
+इसके बाद, आप उस PowerPoint प्रेजेंटेशन को लोड करेंगे जिसे आप HTML में बदलना चाहते हैं। `presentationName` अपनी प्रस्तुति फ़ाइल के वास्तविक पथ के साथ.
 
 ```java
 String presentationName = "path/to/your/presentation.pptx";
@@ -56,7 +58,7 @@ Presentation pres = new Presentation(presentationName);
 Html5Options options = new Html5Options();
 // HTML5 दस्तावेज़ में छवियों को बलपूर्वक न सहेजें
 options.setEmbedImages(true); // छवियाँ एम्बेड करने के लिए true पर सेट करें
-//बाह्य छवियों के लिए पथ सेट करें (यदि आवश्यक हो)
+// बाह्य छवियों के लिए पथ सेट करें (यदि आवश्यक हो)
 options.setOutputPath("path/to/output/directory/");
 ```
 
@@ -122,7 +124,7 @@ try {
 
 ### मैं आउटपुट फ़ाइल नाम कैसे बदलूं?
 
- आप आउटपुट फ़ाइल नाम को तर्क में संशोधन करके बदल सकते हैं`pres.save()` तरीका।
+आप आउटपुट फ़ाइल नाम को तर्क में संशोधन करके बदल सकते हैं `pres.save()` तरीका।
 
 ### क्या मैं HTML टेम्पलेट को अनुकूलित कर सकता हूँ?
 
@@ -132,9 +134,11 @@ try {
 
 रूपांतरण प्रक्रिया के दौरान होने वाले अपवादों को संभालने के लिए आप रूपांतरण कोड को try-catch ब्लॉक में लपेट सकते हैं।
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

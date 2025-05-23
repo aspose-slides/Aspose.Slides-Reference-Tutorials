@@ -1,35 +1,37 @@
 ---
-title: Originele lettertypen behouden - Presentatie naar HTML converteren
-linktitle: Originele lettertypen behouden - Presentatie naar HTML converteren
-second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
-description: Leer hoe u originele lettertypen kunt behouden terwijl u presentaties naar HTML converteert met Aspose.Slides voor .NET. Zorg moeiteloos voor lettertypeconsistentie en visuele impact.
-weight: 14
-url: /nl/net/presentation-conversion/preserving-original-fonts-convert-presentation-to-html/
+"description": "Leer hoe u originele lettertypen kunt behouden tijdens het converteren van presentaties naar HTML met Aspose.Slides voor .NET. Zorg moeiteloos voor consistente lettertypen en een visuele impact."
+"linktitle": "Originele lettertypen behouden - Presentatie naar HTML converteren"
+"second_title": "Aspose.Slides .NET PowerPoint-verwerkings-API"
+"title": "Originele lettertypen behouden - Presentatie naar HTML converteren"
+"url": "/nl/net/presentation-conversion/preserving-original-fonts-convert-presentation-to-html/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Originele lettertypen behouden - Presentatie naar HTML converteren
 
 
-In deze uitgebreide handleiding begeleiden we u door het proces van het behouden van originele lettertypen bij het converteren van een presentatie naar HTML met Aspose.Slides voor .NET. Wij voorzien u van de benodigde C#-broncode en leggen elke stap gedetailleerd uit. Aan het einde van deze zelfstudie kunt u ervoor zorgen dat de lettertypen in uw geconverteerde HTML-document trouw blijven aan de oorspronkelijke presentatie.
+In deze uitgebreide handleiding leiden we je door het proces van het behouden van originele lettertypen bij het converteren van een presentatie naar HTML met Aspose.Slides voor .NET. We voorzien je van de benodigde C#-broncode en leggen elke stap in detail uit. Aan het einde van deze tutorial kun je ervoor zorgen dat de lettertypen in je geconverteerde HTML-document trouw blijven aan de originele presentatie.
 
 ## 1. Inleiding
 
-Bij het converteren van PowerPoint-presentaties naar HTML is het van cruciaal belang dat u de originele lettertypen behoudt om de visuele consistentie van uw inhoud te garanderen. Aspose.Slides voor .NET biedt een krachtige oplossing om dit te bereiken. In deze zelfstudie begeleiden we u door de stappen die nodig zijn om de originele lettertypen te behouden tijdens het conversieproces.
+Bij het converteren van PowerPoint-presentaties naar HTML is het cruciaal om de originele lettertypen te behouden om de visuele consistentie van uw content te garanderen. Aspose.Slides voor .NET biedt hiervoor een krachtige oplossing. In deze tutorial leiden we u door de stappen die nodig zijn om de originele lettertypen te behouden tijdens het conversieproces.
 
-## 2. Vereisten
+## 2. Voorwaarden
 
-Voordat we beginnen, zorg ervoor dat u aan de volgende vereisten voldoet:
+Voordat we beginnen, moet u ervoor zorgen dat u aan de volgende voorwaarden voldoet:
 
-- Visual Studio is op uw computer geïnstalleerd.
+- Visual Studio op uw computer geïnstalleerd.
 - Aspose.Slides voor .NET-bibliotheek toegevoegd aan uw project.
 
-## 3. Uw project opzetten
+## 3. Uw project instellen
 
-Om aan de slag te gaan, maakt u een nieuw project in Visual Studio en voegt u de Aspose.Slides voor .NET-bibliotheek toe als referentie.
+Om te beginnen maakt u een nieuw project in Visual Studio en voegt u de Aspose.Slides voor .NET-bibliotheek toe als referentie.
 
 ## 4. De presentatie laden
 
@@ -40,25 +42,25 @@ string dataDir = "Your Document Directory";
 
 using (Presentation pres = new Presentation("input.pptx"))
 {
-    // Jouw code hier
+    // Uw code hier
 }
 ```
 
- Vervangen`"Your Document Directory"` met het pad naar uw presentatiebestand.
+Vervangen `"Your Document Directory"` met het pad naar uw presentatiebestand.
 
-## 5. Exclusief standaardlettertypen
+## 5. Standaardlettertypen uitsluiten
 
-Gebruik de volgende code om standaardlettertypen zoals Calibri en Arial uit te sluiten:
+Om standaardlettertypen zoals Calibri en Arial uit te sluiten, gebruikt u de volgende code:
 
 ```csharp
 string[] fontNameExcludeList = { "Calibri", "Arial" };
 ```
 
-U kunt deze lijst indien nodig aanpassen.
+U kunt deze lijst naar wens aanpassen.
 
 ## 6. Alle lettertypen insluiten
 
-Vervolgens sluiten we alle lettertypen in het HTML-document in. Dit zorgt ervoor dat de originele lettertypen behouden blijven. Gebruik de volgende code:
+Vervolgens voegen we alle lettertypen toe aan het HTML-document. Zo blijven de originele lettertypen behouden. Gebruik de volgende code:
 
 ```csharp
 EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
@@ -77,37 +79,39 @@ Sla de presentatie nu op als een HTML-document met ingesloten lettertypen:
 pres.Save("output.html", SaveFormat.Html, htmlOptionsEmbed);
 ```
 
- Vervangen`"output.html"` met de gewenste uitvoerbestandsnaam.
+Vervangen `"output.html"` met de gewenste naam voor het uitvoerbestand.
 
 ## 8. Conclusie
 
-In deze zelfstudie hebben we gedemonstreerd hoe u originele lettertypen kunt behouden bij het converteren van een PowerPoint-presentatie naar HTML met Aspose.Slides voor .NET. Door deze stappen te volgen, kunt u ervoor zorgen dat uw geconverteerde HTML-document de visuele integriteit van de originele presentatie behoudt.
+In deze tutorial hebben we laten zien hoe je originele lettertypen kunt behouden bij het converteren van een PowerPoint-presentatie naar HTML met Aspose.Slides voor .NET. Door deze stappen te volgen, zorg je ervoor dat je geconverteerde HTML-document de visuele integriteit van de originele presentatie behoudt.
 
 ## 9. Veelgestelde vragen
 
 ### V1: Kan ik de lijst met uitgesloten lettertypen aanpassen?
 
- Ja, dat kan. Wijzig de`fontNameExcludeList`array om specifieke lettertypen op te nemen of uit te sluiten volgens uw vereisten.
+Ja, dat kan. Wijzig de `fontNameExcludeList` array om specifieke lettertypen op te nemen of uit te sluiten, afhankelijk van uw vereisten.
 
-### Vraag 2: Wat moet ik doen als ik niet alle lettertypen wil insluiten?
+### V2: Wat als ik niet alle lettertypen wil insluiten?
 
-Als u alleen specifieke lettertypen wilt insluiten, kunt u de code dienovereenkomstig aanpassen. Raadpleeg de Aspose.Slides voor .NET-documentatie voor meer details.
+Als u alleen specifieke lettertypen wilt insluiten, kunt u de code dienovereenkomstig aanpassen. Raadpleeg de documentatie van Aspose.Slides voor .NET voor meer informatie.
 
 ### V3: Zijn er licentievereisten voor het gebruik van Aspose.Slides voor .NET?
 
-Ja, u heeft mogelijk een geldige licentie nodig om Aspose.Slides voor .NET in uw projecten te gebruiken. Raadpleeg de Aspose-website voor licentie-informatie.
+Ja, u hebt mogelijk een geldige licentie nodig om Aspose.Slides voor .NET in uw projecten te gebruiken. Raadpleeg de Aspose-website voor licentie-informatie.
 
-### V4: Kan ik andere bestandsindelingen naar HTML converteren met Aspose.Slides voor .NET?
+### V4: Kan ik andere bestandsformaten naar HTML converteren met Aspose.Slides voor .NET?
 
-Aspose.Slides voor .NET richt zich voornamelijk op PowerPoint-presentaties. Voor het converteren van andere bestandsformaten naar HTML moet u mogelijk andere Aspose-producten verkennen die op maat zijn gemaakt voor die formaten.
+Aspose.Slides voor .NET richt zich voornamelijk op PowerPoint-presentaties. Voor het converteren van andere bestandsformaten naar HTML kunt u mogelijk andere Aspose-producten gebruiken die specifiek voor die formaten zijn ontwikkeld.
 
-### Vraag 5: Waar kan ik toegang krijgen tot aanvullende bronnen en ondersteuning?
+### V5: Waar kan ik aanvullende informatie en ondersteuning krijgen?
 
- Meer documentatie, tutorials en ondersteuning vindt u op de Aspose-website. Bezoek[Aspose.Slides voor .NET-documentatie](https://reference.aspose.com/slides/net/) voor gedetailleerde informatie.
+Meer documentatie, tutorials en ondersteuning vindt u op de Aspose-website. Bezoek [Aspose.Slides voor .NET-documentatie](https://reference.aspose.com/slides/net/) voor gedetailleerde informatie.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,49 +1,51 @@
 ---
-title: Cancella i dati dei punti dati della serie di grafici specifici nelle diapositive Java
-linktitle: Cancella i dati dei punti dati della serie di grafici specifici nelle diapositive Java
-second_title: Aspose.Slides API di elaborazione Java PowerPoint
-description: Scopri come cancellare punti dati specifici da una serie di grafici in Java Slides con Aspose.Slides per Java. Guida passo passo con codice sorgente per una gestione efficace della visualizzazione dei dati.
-weight: 15
-url: /it/java/chart-data-manipulation/clear-specific-chart-series-data-points-java-slides/
+"description": "Scopri come cancellare punti dati specifici da una serie di grafici in Java Slides con Aspose.Slides per Java. Guida passo passo con codice sorgente per una gestione efficace della visualizzazione dei dati."
+"linktitle": "Cancella i dati dei punti dati di serie di grafici specifici in Java Slides"
+"second_title": "API di elaborazione Java PowerPoint di Aspose.Slides"
+"title": "Cancella i dati dei punti dati di serie di grafici specifici in Java Slides"
+"url": "/it/java/chart-data-manipulation/clear-specific-chart-series-data-points-java-slides/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cancella i dati dei punti dati della serie di grafici specifici nelle diapositive Java
+# Cancella i dati dei punti dati di serie di grafici specifici in Java Slides
 
 
-## Introduzione alla cancellazione dei dati dei punti dati di serie di grafici specifici nelle diapositive Java
+## Introduzione alla cancellazione di dati di serie di grafici specifici in Java Slides
 
-In questo tutorial, ti guideremo attraverso il processo di cancellazione di punti dati specifici da una serie di grafici in una presentazione di PowerPoint utilizzando Aspose.Slides per Java. Ciò può essere utile quando desideri rimuovere determinati punti dati da un grafico per aggiornare o modificare la visualizzazione dei dati.
+In questo tutorial, ti guideremo attraverso il processo di cancellazione di punti dati specifici da una serie di grafici in una presentazione di PowerPoint utilizzando Aspose.Slides per Java. Questo può essere utile quando desideri rimuovere determinati punti dati da un grafico per aggiornare o modificare la visualizzazione dei dati.
 
 ## Prerequisiti
 
- Prima di iniziare, assicurati di avere la libreria Aspose.Slides per Java integrata nel tuo progetto. Puoi scaricarlo da[Qui](https://releases.aspose.com/slides/java/).
+Prima di iniziare, assicurati di aver integrato la libreria Aspose.Slides per Java nel tuo progetto. Puoi scaricarla da [Qui](https://releases.aspose.com/slides/java/).
 
 ## Passaggio 1: caricare la presentazione
 
- Per prima cosa dobbiamo caricare la presentazione PowerPoint che contiene il grafico che vogliamo modificare. Sostituire`"Your Document Directory"` con il percorso effettivo del file di presentazione.
+Per prima cosa, dobbiamo caricare la presentazione di PowerPoint che contiene il grafico che desideri modificare. Sostituisci `"Your Document Directory"` con il percorso effettivo del file della presentazione.
 
 ```java
-// Il percorso della directory dei documenti.
+// Percorso verso la directory dei documenti.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "TestChart.pptx");
 ```
 
 ## Passaggio 2: accedi al grafico
 
-Successivamente, accederemo al grafico dalla diapositiva. In questo esempio, presupponiamo che il grafico si trovi sulla prima diapositiva (diapositiva con indice 0). È possibile regolare l'indice della diapositiva secondo necessità.
+Successivamente, accederemo al grafico dalla diapositiva. In questo esempio, supponiamo che il grafico si trovi nella prima diapositiva (diapositiva con indice 0). È possibile modificare l'indice della diapositiva in base alle proprie esigenze.
 
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = (IChart) slide.getShapes().get_Item(0);
 ```
 
-## Passaggio 3: Cancella punti dati specifici
+## Passaggio 3: cancellare punti dati specifici
 
-Ora ripeteremo i punti dati della prima serie del grafico e cancelleremo i loro valori X e Y.
+Ora, scorreremo i punti dati della prima serie del grafico e cancelleremo i loro valori X e Y.
 
 ```java
 for (IChartDataPoint dataPoint : chart.getChartData().getSeries().get_Item(0).getDataPoints()) {
@@ -52,7 +54,7 @@ for (IChartDataPoint dataPoint : chart.getChartData().getSeries().get_Item(0).ge
 }
 ```
 
- Questo codice scorre ciascun punto dati nella prima serie (indice 0) e imposta entrambi i valori X e Y su`null`cancellando efficacemente i punti dati.
+Questo codice esegue un ciclo su ogni punto dati nella prima serie (indice 0) e imposta entrambi i valori X e Y su `null`, cancellando di fatto i punti dati.
 
 ## Passaggio 4: rimuovere i punti dati cancellati
 
@@ -64,7 +66,7 @@ chart.getChartData().getSeries().get_Item(0).getDataPoints().clear();
 
 Questo codice cancella tutti i punti dati della prima serie.
 
-## Passaggio 5: salva la presentazione modificata
+## Passaggio 5: salvare la presentazione modificata
 
 Infine, salveremo la presentazione modificata in un nuovo file.
 
@@ -72,10 +74,10 @@ Infine, salveremo la presentazione modificata in un nuovo file.
 pres.save(dataDir + "ClearSpecificChartSeriesDataPointsData.pptx", SaveFormat.Pptx);
 ```
 
-## Codice sorgente completo per cancellare i dati dei punti dati della serie di grafici specifici nelle diapositive Java
+## Codice sorgente completo per cancellare i dati di serie di grafici specifici in Java Slides
 
 ```java
-// Il percorso della directory dei documenti.
+// Percorso verso la directory dei documenti.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "TestChart.pptx");
 try
@@ -98,38 +100,40 @@ finally
 
 ## Conclusione
 
- In questa guida hai imparato come cancellare punti dati specifici da una serie di grafici in una presentazione di PowerPoint utilizzando Aspose.Slides per Java. Ciò può essere utile quando è necessario aggiornare o modificare dinamicamente i dati del grafico nelle applicazioni Java. Se hai ulteriori domande o hai bisogno di ulteriore assistenza, fai riferimento a[Aspose.Slides per la documentazione Java](https://reference.aspose.com/slides/java/).
+In questa guida, hai imparato come cancellare punti dati specifici da una serie di grafici in una presentazione di PowerPoint utilizzando Aspose.Slides per Java. Questo può essere utile quando devi aggiornare o modificare dinamicamente i dati dei grafici nelle tue applicazioni Java. Per ulteriori domande o assistenza, consulta la sezione [Documentazione di Aspose.Slides per Java](https://reference.aspose.com/slides/java/).
 
 ## Domande frequenti
 
 ### Come posso rimuovere punti dati specifici da una serie di grafici in Aspose.Slides per Java?
 
-Per rimuovere punti dati specifici da una serie di grafici in Aspose.Slides per Java, attenersi alla seguente procedura:
+Per rimuovere punti dati specifici da una serie di grafici in Aspose.Slides per Java, segui questi passaggi:
 
 1. Carica la presentazione.
-2. Accedi al grafico sulla diapositiva.
+2. Accedi al grafico nella diapositiva.
 3. Scorrere i punti dati della serie desiderata e cancellare i relativi valori X e Y.
 4. Cancella l'intera serie per rimuovere i punti dati cancellati.
-5. Salva la presentazione modificata.
+5. Salvare la presentazione modificata.
 
-### Posso cancellare punti dati da più serie nello stesso grafico?
+### Posso cancellare i punti dati di più serie nello stesso grafico?
 
-Sì, puoi cancellare i punti dati da più serie nello stesso grafico scorrendo i punti dati di ciascuna serie e cancellandoli singolarmente.
+Sì, puoi cancellare i punti dati di più serie nello stesso grafico scorrendo i punti dati di ogni serie e cancellandoli singolarmente.
 
-### Esiste un modo per cancellare i punti dati in base a una condizione o criteri?
+### Esiste un modo per cancellare i punti dati in base a una condizione o a un criterio?
 
-Sì, puoi cancellare i punti dati in base a una condizione aggiungendo logica condizionale all'interno del ciclo che scorre i punti dati. Puoi controllare i valori dei punti dati e decidere se cancellarli o meno in base ai tuoi criteri.
+Sì, è possibile cancellare i punti dati in base a una condizione aggiungendo una logica condizionale all'interno del ciclo che itera sui punti dati. È possibile controllare i valori dei punti dati e decidere se cancellarli o meno in base ai propri criteri.
 
 ### Come posso aggiungere nuovi punti dati a una serie di grafici utilizzando Aspose.Slides per Java?
 
- Per aggiungere nuovi punti dati a una serie di grafici, puoi utilizzare il file`addDataPoint` metodo della serie. Crea semplicemente nuovi punti dati e aggiungili alla serie utilizzando questo metodo.
+Per aggiungere nuovi punti dati a una serie di grafici, è possibile utilizzare `addDataPoint` metodo della serie. Basta creare nuovi punti dati e aggiungerli alla serie utilizzando questo metodo.
 
-### Dove posso trovare ulteriori informazioni su Aspose.Slides per Java?
+### Dove posso trovare maggiori informazioni su Aspose.Slides per Java?
 
- È possibile trovare documentazione completa ed esempi in[Aspose.Slides per la documentazione Java](https://reference.aspose.com/slides/java/).
+Puoi trovare documentazione completa ed esempi nel [Documentazione di Aspose.Slides per Java](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

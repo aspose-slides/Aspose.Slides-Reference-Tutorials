@@ -1,37 +1,39 @@
 ---
-title: Java Slaytlarında Not Slayt Görünümünü Dönüştürme
-linktitle: Java Slaytlarında Not Slayt Görünümünü Dönüştürme
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides for Java'yı kullanarak Java Slides'ta not slayt görünümlerini nasıl dönüştüreceğinizi öğrenin. Verimli PowerPoint manipülasyonu için kod örnekleri içeren adım adım kılavuz.
-weight: 15
-url: /tr/java/presentation-conversion/convert-notes-slide-view-java-slides/
+"description": "Java Slaytlarında Aspose.Slides for Java kullanarak not slayt görünümlerini nasıl dönüştüreceğinizi öğrenin. Verimli PowerPoint düzenlemesi için kod örnekleriyle adım adım kılavuz."
+"linktitle": "Java Slaytlarında Not Slayt Görünümünü Dönüştür"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java Slaytlarında Not Slayt Görünümünü Dönüştür"
+"url": "/tr/java/presentation-conversion/convert-notes-slide-view-java-slides/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java Slaytlarında Not Slayt Görünümünü Dönüştürme
+# Java Slaytlarında Not Slayt Görünümünü Dönüştür
 
 
 ## Aspose.Slides Kullanarak Java Slaytlarında Not Slayt Görünümünü Dönüştürmeye Giriş
 
-Günümüzün dijital çağında, PowerPoint sunumlarını programlı olarak değiştirme ve dönüştürme ihtiyacı giderek artıyor. Java geliştiricileri, sunumlarındaki not slayt görünümlerini yönetme ve dönüştürme konusunda kendilerini sıklıkla zorluklarla karşı karşıya bulurlar. Neyse ki Aspose.Slides for Java bu görev için güçlü bir çözüm sunuyor. Bu adım adım kılavuzda, Aspose.Slides kullanarak Java Slaytlar'daki not slayt görünümlerinin nasıl dönüştürüleceğini keşfedeceğiz.
+Günümüzün dijital çağında, PowerPoint sunumlarını programatik olarak düzenleme ve dönüştürme ihtiyacı giderek artmaktadır. Java geliştiricileri, sunumlarındaki not slayt görünümlerini yönetme ve dönüştürme konusunda sıklıkla zorluklarla karşı karşıya kalmaktadır. Neyse ki, Java için Aspose.Slides bu görev için güçlü bir çözüm sunmaktadır. Bu adım adım kılavuzda, Aspose.Slides kullanarak Java Slaytlarındaki not slayt görünümlerinin nasıl dönüştürüleceğini inceleyeceğiz.
 
-## Önkoşullar
+## Ön koşullar
 
-Kodun ayrıntılarına girmeden önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+Koda dalmadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
-- Sisteminizde Java Geliştirme Kiti (JDK) yüklü.
--  Aspose.Slides for Java kütüphanesi projenize eklendi. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/java/).
+- Sisteminizde Java Development Kit (JDK) yüklü.
+- Projenize Aspose.Slides for Java kütüphanesi eklendi. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/slides/java/).
 
 ## Adım 1: Java Projenizi Kurma
 
-Başlamak için favori Entegre Geliştirme Ortamınızda (IDE) yeni bir Java projesi oluşturun. Aspose.Slides kütüphanesinin projenizin sınıf yoluna eklendiğinden emin olun.
+Başlamak için, favori Entegre Geliştirme Ortamınızda (IDE) yeni bir Java projesi oluşturun. Projenizin sınıf yoluna Aspose.Slides kitaplığının eklendiğinden emin olun.
 
-## Adım 2: Gerekli Kitaplıkları İçe Aktarma
+## Adım 2: Gerekli Kitaplıkları İçeri Aktarma
 
-Java sınıfınızda gerekli kitaplıkları aşağıda gösterildiği gibi içe aktarın:
+Java sınıfınıza gerekli kütüphaneleri aşağıda gösterildiği gibi içe aktarın:
 
 ```java
 import com.aspose.slides.Presentation;
@@ -47,33 +49,33 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "YourPresentation.pptx");
 ```
 
- Yer değiştirmek`"Your Document Directory"` sunum dosyanızın gerçek yolunu belirtin.
+Yer değiştirmek `"Your Document Directory"` sunum dosyanızın gerçek yolunu içerir.
 
-## 4. Adım: Notes Slayt Görünümüne Dönüştürme
+## Adım 4: Notlar Slayt Görünümüne Dönüştürme
 
-Şimdi sunuyu not slayt görünümüne dönüştürüp TIFF belgesi olarak kaydedelim:
+Şimdi sunumu notlar slayt görünümüne dönüştürelim ve TIFF belgesi olarak kaydedelim:
 
 ```java
 try {
-    // Sunuyu TIFF belgesine kaydetme
+    // Sunumu TIFF belgesine kaydetme
     pres.save(dataDir + "Tiff_out.tiff", SaveFormat.Tiff);
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
 
- Bu kod parçacığında şunu kullanıyoruz:`save` Sunuyu TIFF dosyası olarak kaydetme yöntemi. İstediğiniz formatı şurada belirtebilirsiniz:`SaveFormat` numaralandırma.
+Bu kod parçacığında şunu kullanıyoruz: `save` sunumu TIFF dosyası olarak kaydetme yöntemi. İstediğiniz formatı belirtebilirsiniz `SaveFormat` sayım.
 
-## Java Slaytlarında Notları Slayt Görünümünü Dönüştürmek İçin Tam Kaynak Kodu
+## Java Slaytlarında Notları Slayt Görünümüne Dönüştürmek İçin Tam Kaynak Kodu
 
 ```java
-// Belgeler dizininin yolu.
+// Belgeler dizinine giden yol.
 String dataDir = "Your Document Directory";
-// Bir sunum dosyasını temsil eden bir Sunum nesnesinin örneğini oluşturun
+// Bir sunum dosyasını temsil eden bir Sunum nesnesi örneği oluşturun
 Presentation pres = new Presentation(dataDir + "Convert_Tiff_Default.pptx");
 try
 {
-	// Sunuyu TIFF belgesine kaydetme
+	// Sunumu TIFF belgesine kaydetme
 	pres.save(dataDir + "Tiff_out.tiff", SaveFormat.Tiff);
 }
 finally
@@ -84,33 +86,35 @@ finally
 
 ## Çözüm
 
-Bu eğitimde Aspose.Slides'ı kullanarak Java Slaytlar'daki not slayt görünümlerini dönüştürmek için gerekli adımları ele aldık. Bu adımları izleyerek ve kodu özel ihtiyaçlarınıza göre özelleştirerek, PowerPoint sunumlarını Java uygulamalarınızda programlı bir şekilde verimli bir şekilde değiştirebilir ve dönüştürebilirsiniz.
+Bu eğitimde, Aspose.Slides kullanarak Java Slaytlarında not slayt görünümlerini dönüştürmek için temel adımları ele aldık. Bu adımları izleyerek ve kodu özel ihtiyaçlarınıza göre özelleştirerek, PowerPoint sunumlarını Java uygulamalarınızda programatik olarak verimli bir şekilde düzenleyebilir ve dönüştürebilirsiniz.
 
-## SSS'ler
+## SSS
 
 ### Bir sunumu dönüştürürken çıktı formatını nasıl özelleştirebilirim?
 
- Çıkış formatını değiştirerek özelleştirebilirsiniz.`SaveFormat`koddaki numaralandırma. Örneğin sunuyu PDF olarak kaydetmek için şunu kullanın:`SaveFormat.Pdf`.
+Çıktı biçimini değiştirerek özelleştirebilirsiniz. `SaveFormat` kodda numaralandırma. Örneğin, sunumu PDF olarak kaydetmek için şunu kullanın: `SaveFormat.Pdf`.
 
 ### Aspose.Slides for Java için lisans satın almam gerekiyor mu?
 
-Evet, Aspose.Slides for Java'yı üretim ortamında kullanmak için geçerli bir lisansa ihtiyacınız olacak. Aspose web sitesinden lisans alabilirsiniz.
+Evet, Aspose.Slides for Java'yı üretim ortamında kullanmak için geçerli bir lisansa ihtiyacınız olacak. Lisansı Aspose web sitesinden edinebilirsiniz.
 
 ### Toplu modda birden fazla sunumu dönüştürebilir miyim?
 
-Evet, Aspose.Slides for Java toplu işlemeyi destekleyerek tek seferde birden fazla sunumu dönüştürmenize olanak tanır. Sunum dosyalarının bir listesini yineleyebilir ve dönüştürme mantığını bunların her birine uygulayabilirsiniz.
+Evet, Java için Aspose.Slides toplu işlemeyi destekler ve birden fazla sunumu tek seferde dönüştürmenize olanak tanır. Bir sunum dosyaları listesinde yineleme yapabilir ve dönüştürme mantığını her birine uygulayabilirsiniz.
 
-### Aspose.Slides PowerPoint'in en son sürümleriyle uyumlu mu?
+### Aspose.Slides, PowerPoint'in son sürümleriyle uyumlu mu?
 
-Aspose.Slides, en son sürümler de dahil olmak üzere çeşitli PowerPoint formatlarıyla çalışacak şekilde tasarlanmıştır. Ancak belirli format uyumluluğu ayrıntıları için belgeleri kontrol etmek her zaman iyi bir uygulamadır.
+Aspose.Slides, en son sürümler de dahil olmak üzere çeşitli PowerPoint formatlarıyla çalışmak üzere tasarlanmıştır. Ancak, belirli format uyumluluk ayrıntıları için belgeleri kontrol etmek her zaman iyi bir uygulamadır.
 
-### Aspose.Slides for Java için daha fazla kod örneğini ve öğreticiyi nerede bulabilirim?
+### Java için Aspose.Slides için daha fazla kod örneği ve öğreticiyi nerede bulabilirim?
 
- Çok sayıda kod örneği ve öğreticiyi burada bulabilirsiniz.[Aspose.Slides for Java belgeleri](https://reference.aspose.com/slides/java/)Bu güçlü kitaplığın yetenekleri hakkında daha fazla bilgi edinmek için belgeleri inceleyin.
+Çok sayıda kod örneği ve öğretici bulabilirsiniz [Java belgeleri için Aspose.Slides](https://reference.aspose.com/slides/java/)Bu güçlü kütüphanenin yetenekleri hakkında daha fazla bilgi edinmek için belgeleri inceleyin.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

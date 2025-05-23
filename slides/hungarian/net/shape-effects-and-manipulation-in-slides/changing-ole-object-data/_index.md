@@ -1,27 +1,29 @@
 ---
-title: Az OLE-objektumadatok módosítása a prezentációban az Aspose.Slides segítségével
-linktitle: Az OLE-objektumadatok módosítása a prezentációban az Aspose.Slides segítségével
-second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Fedezze fel az Aspose.Slides for .NET erejét az OLE objektumadatok könnyed megváltoztatásában. Növelje prezentációit dinamikus tartalommal.
-weight: 25
-url: /hu/net/shape-effects-and-manipulation-in-slides/changing-ole-object-data/
+"description": "Fedezze fel az Aspose.Slides for .NET erejét az OLE objektumadatok egyszerű módosításában. Dobja fel prezentációit dinamikus tartalommal."
+"linktitle": "OLE objektumadatok módosítása prezentációban az Aspose.Slides segítségével"
+"second_title": "Aspose.Slides .NET PowerPoint feldolgozási API"
+"title": "OLE objektumadatok módosítása prezentációban az Aspose.Slides segítségével"
+"url": "/hu/net/shape-effects-and-manipulation-in-slides/changing-ole-object-data/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Az OLE-objektumadatok módosítása a prezentációban az Aspose.Slides segítségével
+# OLE objektumadatok módosítása prezentációban az Aspose.Slides segítségével
 
 ## Bevezetés
-A dinamikus és interaktív PowerPoint prezentációk készítése általános követelmény a mai digitális világban. Ennek egyik hatékony eszköze az Aspose.Slides for .NET, egy robusztus könyvtár, amely lehetővé teszi a fejlesztők számára a PowerPoint prezentációk programozott kezelését és fejlesztését. Ebben az oktatóanyagban az OLE (Object Linking and Embedding) objektumadatok módosításának folyamatába fogunk belemenni a bemutató diákon belül az Aspose.Slides segítségével.
+A dinamikus és interaktív PowerPoint-bemutatók készítése mindennapos követelmény a mai digitális világban. Ennek elérésére az egyik hatékony eszköz az Aspose.Slides for .NET, egy robusztus könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan manipulálják és fejlesszék a PowerPoint-bemutatókat. Ebben az oktatóanyagban elmélyedünk az OLE (Object Linking and Embedding) objektumadatok módosításának folyamatában a prezentációs diákon belül az Aspose.Slides segítségével.
 ## Előfeltételek
-Mielőtt elkezdené dolgozni az Aspose.Slides for .NET programmal, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+Mielőtt elkezdené használni az Aspose.Slides for .NET programot, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 1. Fejlesztői környezet: Hozzon létre egy fejlesztői környezetet telepített .NET-tel.
-2.  Aspose.Slides Library: Töltse le és telepítse az Aspose.Slides for .NET könyvtárat. Megtalálhatod a könyvtárat[itt](https://releases.aspose.com/slides/net/).
-3. Alapvető ismeretek: Ismerkedjen meg a C# programozás és a PowerPoint prezentációk alapvető fogalmaival.
+2. Aspose.Slides könyvtár: Töltse le és telepítse az Aspose.Slides for .NET könyvtárat. A könyvtárat itt találja: [itt](https://releases.aspose.com/slides/net/).
+3. Alapismeretek: Ismerkedjen meg a C# programozás és a PowerPoint-prezentációk alapfogalmaival.
 ## Névterek importálása
-A C# projektben importálja a szükséges névtereket az Aspose.Slides funkciók használatához:
+A C# projektedben importáld a szükséges névtereket az Aspose.Slides funkcióinak használatához:
 ```csharp
 using System.IO;
 using Aspose.Cells;
@@ -29,9 +31,9 @@ using Aspose.Slides;
 using Aspose.Slides.DOM.Ole;
 using SaveFormat = Aspose.Slides.Export.SaveFormat;
 ```
-## 1. lépés: Állítsa be projektjét
-Kezdje egy új C# projekt létrehozásával és az Aspose.Slides könyvtár importálásával. Győződjön meg arról, hogy a projekt megfelelően van konfigurálva, és megvannak a szükséges függőségek.
-## 2. lépés: Nyissa meg a bemutatót és a diát
+## 1. lépés: A projekt beállítása
+Kezdj egy új C# projekt létrehozásával és az Aspose.Slides könyvtár importálásával. Győződj meg róla, hogy a projekted megfelelően van konfigurálva, és a szükséges függőségek megvannak.
+## 2. lépés: A prezentáció és a dia elérése
 ```csharp
 string dataDir = "Your Document Directory";
 bool IsExists = System.IO.Directory.Exists(dataDir);
@@ -41,8 +43,8 @@ using (Presentation pres = new Presentation(dataDir + "ChangeOLEObjectData.pptx"
 {
     ISlide slide = pres.Slides[0];
 ```
-## 3. lépés: Keresse meg az OLE objektumot
-Lapozzon végig a dia összes alakján, hogy megtalálja az OLE objektumkeretet:
+## 3. lépés: OLE objektum megkeresése
+Menj végig a dia összes alakzatán az OLE objektumkeret megtalálásához:
 ```csharp
 OleObjectFrame ole = null;
 foreach (IShape shape in slide.Shapes)
@@ -53,7 +55,7 @@ foreach (IShape shape in slide.Shapes)
     }
 }
 ```
-## 4. lépés: Olvassa el és módosítsa a munkafüzet adatait
+## 4. lépés: Munkafüzet-adatok olvasása és módosítása
 ```csharp
 if (ole != null)
 {
@@ -70,7 +72,7 @@ if (ole != null)
             Wb.Worksheets[0].Cells[3, 4].PutValue(15);
             OoxmlSaveOptions so1 = new OoxmlSaveOptions(Aspose.Cells.SaveFormat.Xlsx);
             Wb.Save(msout, so1);
-            // Ole frame objektum adatok módosítása
+            // Ole keret objektumadatok módosítása
             IOleEmbeddedDataInfo newData = new OleEmbeddedDataInfo(msout.ToArray(), ole.EmbeddedData.EmbeddedFileExtension);
             ole.SetEmbeddedData(newData);
         }
@@ -82,21 +84,23 @@ if (ole != null)
 pres.Save(dataDir + "OleEdit_out.pptx", SaveFormat.Pptx);
 ```
 ## Következtetés
-Az alábbi lépések követésével az Aspose.Slides for .NET segítségével zökkenőmentesen módosíthatja az OLE-objektumadatokat a bemutató diákon belül. Ez a lehetőségek világát nyitja meg dinamikus és testreszabott, az Ön egyedi igényeire szabott prezentációk létrehozásához.
+következő lépéseket követve zökkenőmentesen módosíthatja az OLE objektumadatokat a prezentációs diákon belül az Aspose.Slides for .NET használatával. Ez a lehetőségek tárházát nyitja meg a dinamikus és testreszabott prezentációk létrehozására, az Ön igényeihez igazítva.
 ## Gyakran Ismételt Kérdések
-### Mi az Aspose.Slides for .NET?
-Az Aspose.Slides for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak PowerPoint-prezentációkkal, lehetővé téve az egyszerű kezelést és fejlesztést.
+### Mi az Aspose.Slides .NET-hez?
+Az Aspose.Slides for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak PowerPoint-bemutatókkal, így azok könnyen kezelhetők és javíthatók.
 ### Hol találom az Aspose.Slides dokumentációját?
- Az Aspose.Slides for .NET dokumentációja megtalálható[itt](https://reference.aspose.com/slides/net/).
-### Hogyan tölthetem le az Aspose.Slides for .NET programot?
- A könyvtár letölthető a kiadási oldalról[itt](https://releases.aspose.com/slides/net/).
-### Létezik ingyenes próbaverzió az Aspose.Slides számára?
- Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
+Az Aspose.Slides for .NET dokumentációja megtalálható a következő címen: [itt](https://reference.aspose.com/slides/net/).
+### Hogyan tölthetem le az Aspose.Slides .NET-hez készült verzióját?
+A könyvtárat a kiadási oldalról töltheti le [itt](https://releases.aspose.com/slides/net/).
+### Van ingyenes próbaverzió az Aspose.Slides-hoz?
+Igen, hozzáférhetsz az ingyenes próbaverzióhoz [itt](https://releases.aspose.com/).
 ### Hol kaphatok támogatást az Aspose.Slides for .NET-hez?
- Támogatásért és megbeszélésekért keresse fel a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11).
+Támogatásért és beszélgetésekért látogassa meg a [Aspose.Slides fórum](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

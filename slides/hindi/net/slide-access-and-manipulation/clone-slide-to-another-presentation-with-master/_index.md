@@ -1,14 +1,16 @@
 ---
-title: मास्टर स्लाइड के साथ स्लाइड को नई प्रस्तुति में कॉपी करें
-linktitle: मास्टर स्लाइड के साथ स्लाइड को नई प्रस्तुति में कॉपी करें
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: .NET के लिए Aspose.Slides का उपयोग करके मास्टर स्लाइड के साथ स्लाइड कॉपी करना सीखें। इस चरण-दर-चरण मार्गदर्शिका के साथ अपने प्रस्तुति कौशल को बढ़ाएँ।
-weight: 20
-url: /hi/net/slide-access-and-manipulation/clone-slide-to-another-presentation-with-master/
+"description": "Aspose.Slides for .NET का उपयोग करके मास्टर स्लाइड के साथ स्लाइड कॉपी करना सीखें। इस चरण-दर-चरण मार्गदर्शिका के साथ अपने प्रस्तुति कौशल को बढ़ाएँ।"
+"linktitle": "मास्टर स्लाइड के साथ स्लाइड को नई प्रस्तुति में कॉपी करें"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "मास्टर स्लाइड के साथ स्लाइड को नई प्रस्तुति में कॉपी करें"
+"url": "/hi/net/slide-access-and-manipulation/clone-slide-to-another-presentation-with-master/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # मास्टर स्लाइड के साथ स्लाइड को नई प्रस्तुति में कॉपी करें
@@ -22,7 +24,7 @@ url: /hi/net/slide-access-and-manipulation/clone-slide-to-another-presentation-w
 
 ### 1. .NET के लिए Aspose.Slides
 
- सुनिश्चित करें कि आपके पास .NET के लिए Aspose.Slides इंस्टॉल है और आपके डेवलपमेंट एनवायरनमेंट में सेट अप है। यदि आपने पहले से ऐसा नहीं किया है, तो आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/net/).
+सुनिश्चित करें कि आपके पास .NET के लिए Aspose.Slides स्थापित है और आपके विकास वातावरण में सेट अप है। यदि आपने पहले से ऐसा नहीं किया है, तो आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/net/).
 
 ### 2. काम करने के लिए एक प्रस्तुति
 
@@ -32,7 +34,7 @@ url: /hi/net/slide-access-and-manipulation/clone-slide-to-another-presentation-w
 
 ## चरण 1: नामस्थान आयात करें
 
-सबसे पहले, आपको Aspose.Slides के साथ काम करने के लिए आवश्यक नामस्थानों को आयात करना होगा। अपने कोड में, आप आम तौर पर निम्नलिखित नामस्थानों को शामिल करेंगे:
+सबसे पहले, आपको Aspose.Slides के साथ काम करने के लिए आवश्यक नामस्थानों को आयात करना होगा। अपने कोड में, आप आमतौर पर निम्नलिखित नामस्थानों को शामिल करेंगे:
 
 ```csharp
 using Aspose.Slides;
@@ -43,7 +45,7 @@ using Aspose.Slides.Export;
 
 ## चरण 2: स्रोत प्रस्तुति लोड करें
 
- अब, उस स्रोत प्रस्तुति को लोड करें जिसमें वह स्लाइड है जिसे आप कॉपी करना चाहते हैं। सुनिश्चित करें कि आपके स्रोत प्रस्तुति का फ़ाइल पथ सही तरीके से सेट किया गया है`dataDir` चर:
+अब, उस स्रोत प्रस्तुति को लोड करें जिसमें वह स्लाइड है जिसे आप कॉपी करना चाहते हैं। सुनिश्चित करें कि आपके स्रोत प्रस्तुति का फ़ाइल पथ सही तरीके से सेट किया गया है `dataDir` चर:
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -53,11 +55,11 @@ using (Presentation srcPres = new Presentation(dataDir + "YourSourcePresentation
 }
 ```
 
- इस चरण में, हम उपयोग करते हैं`Presentation` स्रोत प्रस्तुति खोलने के लिए क्लास का चयन करें।
+इस चरण में, हम उपयोग करते हैं `Presentation` क्लास में स्रोत प्रस्तुति खोलें।
 
 ## चरण 3: गंतव्य प्रस्तुति बनाएं
 
- आपको एक गंतव्य प्रस्तुति भी बनानी होगी जहाँ आप स्लाइड की प्रतिलिपि बनाएंगे। यहाँ, हम एक और उदाहरण देते हैं`Presentation` वस्तु:
+आपको एक गंतव्य प्रस्तुति भी बनानी होगी जहाँ आप स्लाइड की प्रतिलिपि बनाएंगे। यहाँ, हम एक और उदाहरण देते हैं `Presentation` वस्तु:
 
 ```csharp
 using (Presentation destPres = new Presentation())
@@ -66,7 +68,7 @@ using (Presentation destPres = new Presentation())
 }
 ```
 
- यह`destPres` आपकी कॉपी की गई स्लाइड के साथ नई प्रस्तुति के रूप में कार्य करेगा।
+यह `destPres` आपकी कॉपी की गई स्लाइड के साथ नई प्रस्तुति के रूप में कार्य करेगा।
 
 ## चरण 4: मास्टर स्लाइड को क्लोन करें
 
@@ -101,7 +103,7 @@ slds.AddClone(SourceSlide, iSlide, true);
 destPres.Save(dataDir + "YourDestinationPresentation.pptx", SaveFormat.Pptx);
 ```
 
-यह कोड गंतव्य प्रस्तुति को कॉपी की गई स्लाइड के साथ सहेजता है।
+यह कोड कॉपी की गई स्लाइड के साथ गंतव्य प्रस्तुति को सहेजता है।
 
 ## निष्कर्ष
 
@@ -114,19 +116,21 @@ destPres.Save(dataDir + "YourDestinationPresentation.pptx", SaveFormat.Pptx);
 Aspose.Slides for .NET एक शक्तिशाली लाइब्रेरी है जो .NET डेवलपर्स को प्रोग्रामेटिक रूप से पावरपॉइंट प्रस्तुतियों को बनाने, संशोधित करने और हेरफेर करने में सक्षम बनाती है।
 
 ### मैं Aspose.Slides for .NET के लिए दस्तावेज़ कहां पा सकता हूं?
- आप दस्तावेज़ों तक यहां पहुंच सकते हैं[.NET दस्तावेज़ीकरण के लिए Aspose.Slides](https://reference.aspose.com/slides/net/).
+आप दस्तावेज़ों तक यहां पहुंच सकते हैं [.NET दस्तावेज़ीकरण के लिए Aspose.Slides](https://reference.aspose.com/slides/net/).
 
 ### क्या .NET के लिए Aspose.Slides का निःशुल्क परीक्षण उपलब्ध है?
- हां, आप यहां से निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप यहां से निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### मैं Aspose.Slides for .NET के लिए लाइसेंस कैसे खरीद सकता हूं?
- आप Aspose वेबसाइट से लाइसेंस खरीद सकते हैं:[.NET के लिए Aspose.Slides खरीदें](https://purchase.aspose.com/buy).
+आप Aspose वेबसाइट से लाइसेंस खरीद सकते हैं: [.NET के लिए Aspose.Slides खरीदें](https://purchase.aspose.com/buy).
 
 ### मैं सामुदायिक सहायता कहां से प्राप्त कर सकता हूं और .NET के लिए Aspose.Slides पर चर्चा कहां कर सकता हूं?
- आप Aspose समुदाय में शामिल हो सकते हैं और समर्थन मांग सकते हैं[Aspose.Slides for .NET समर्थन फ़ोरम](https://forum.aspose.com/).
+आप Aspose समुदाय में शामिल हो सकते हैं और समर्थन मांग सकते हैं [Aspose.Slides for .NET समर्थन फ़ोरम](https://forum.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

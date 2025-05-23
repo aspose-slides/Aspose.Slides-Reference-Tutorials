@@ -1,41 +1,43 @@
 ---
-title: Csak olvasható, ajánlott tulajdonságok a Java Slides-ben
-linktitle: Csak olvasható, ajánlott tulajdonságok a Java Slides-ben
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan engedélyezheti a Java PowerPoint prezentációkban az Írásvédett tulajdonságokat az Aspose.Slides for Java segítségével. Kövesse lépésenkénti útmutatónkat a forráskód példáival a fokozott prezentációbiztonság érdekében.
-weight: 17
-url: /hu/java/presentation-properties/read-only-recommended-properties-in-java-slides/
+"description": "Ismerje meg, hogyan engedélyezheti az Írásvédett Ajánlott tulajdonságokat Java PowerPoint prezentációkban az Aspose.Slides for Java használatával. Kövesse lépésről lépésre szóló útmutatónkat forráskódpéldákkal a prezentációk fokozott biztonsága érdekében."
+"linktitle": "Csak olvasható ajánlott tulajdonságok Java diákban"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Csak olvasható ajánlott tulajdonságok Java diákban"
+"url": "/hu/java/presentation-properties/read-only-recommended-properties-in-java-slides/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Csak olvasható, ajánlott tulajdonságok a Java Slides-ben
+# Csak olvasható ajánlott tulajdonságok Java diákban
 
 
-## Bevezetés a Java Slides írásvédett tulajdonságainak engedélyezésébe
+## Bevezetés a csak olvasható ajánlott tulajdonságok engedélyezésébe Java diákban
 
-Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet engedélyezni az Írásvédett ajánlott tulajdonságokat PowerPoint-prezentációkhoz az Aspose.Slides for Java használatával. Az Írásvédett ajánlott tulajdonságok hasznosak lehetnek, ha arra szeretné ösztönözni a felhasználókat, hogy változtatások nélkül tekintsenek meg egy prezentációt. Ezek a tulajdonságok azt sugallják, hogy a prezentációt csak olvasható módban kell megnyitni. Ennek eléréséhez lépésről lépésre útmutatót adunk a Java forráskóddal együtt.
+Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan engedélyezhetők a „Csak olvasható” ajánlott tulajdonságok PowerPoint-bemutatókhoz az Aspose.Slides for Java használatával. A „Csak olvasható” ajánlott tulajdonságok hasznosak lehetnek, ha arra szeretné ösztönözni a felhasználókat, hogy a bemutatót változtatások nélkül tekintsék meg. Ezek a tulajdonságok azt javasolják, hogy a prezentációt írásvédett módban kell megnyitni. Lépésről lépésre útmutatót és Java forráskódot biztosítunk ennek eléréséhez.
 
 ## Előfeltételek
 
- Mielőtt elkezdené, győződjön meg arról, hogy a projektben be van állítva az Aspose.Slides for Java könyvtár. Letöltheti a[Aspose.Slides for Java webhely](https://products.aspose.com/slides/java/).
+Mielőtt elkezdenénk, győződjünk meg róla, hogy az Aspose.Slides for Java könyvtár be van állítva a projektedben. Letöltheted innen: [Aspose.Slides Java-hoz weboldal](https://products.aspose.com/slides/java/).
 
-## 1. lépés: Hozzon létre egy új PowerPoint-bemutatót
+## 1. lépés: Új PowerPoint-bemutató létrehozása
 
-Kezdjük egy új PowerPoint prezentáció létrehozásával az Aspose.Slides for Java használatával. Ha már van prezentációja, kihagyhatja ezt a lépést.
+Először egy új PowerPoint prezentációt fogunk létrehozni az Aspose.Slides for Java segítségével. Ha már van prezentációd, kihagyhatod ezt a lépést.
 
 ```java
 String outPptxPath = "Your Output Directory" + "ReadOnlyRecommended.pptx";
 Presentation pres = new Presentation();
 ```
 
-A fenti kódban meghatároztuk a kimeneti PowerPoint-fájl elérési útját, és létrehoztunk egy új prezentációs objektumot.
+A fenti kódban definiáltuk a kimeneti PowerPoint fájl elérési útját, és létrehoztunk egy új prezentációs objektumot.
 
-## 2. lépés: Engedélyezze az Írásvédett ajánlott tulajdonságot
+## 2. lépés: Csak olvasható ajánlott tulajdonság engedélyezése
 
-Most engedélyezzük a Csak olvasható tulajdonságot a prezentációhoz.
+Most engedélyezzük a Csak olvasható ajánlott tulajdonságot a prezentációhoz.
 
 ```java
 try
@@ -49,13 +51,13 @@ finally
 }
 ```
 
- Ebben a kódrészletben a`getProtectionManager().setReadOnlyRecommended(true)` metódussal állítsa be a Read-Recommended tulajdonságot`true`. Ez biztosítja, hogy amikor valaki megnyitja a prezentációt, a rendszer felkéri, hogy csak olvasható módban nyissa meg.
+Ebben a kódrészletben a következőt használjuk: `getProtectionManager().setReadOnlyRecommended(true)` metódus a Csak olvasható ajánlott tulajdonság értékre állításához `true`Ez biztosítja, hogy amikor valaki megnyitja a prezentációt, a rendszer kérni fogja, hogy írásvédett módban nyissa meg.
 
 ## 3. lépés: Mentse el a prezentációt
 
-Végül a prezentációt úgy mentjük el, hogy engedélyezve van a Read-Only Recommended tulajdonság.
+Végül a prezentációt engedélyezve a Csak olvasható ajánlott tulajdonsággal mentjük el.
 
-## Teljes forráskód a Java Slides csak olvasható, ajánlott tulajdonságaihoz
+## Teljes forráskód a Java Slides csak olvasható ajánlott tulajdonságaihoz
 
 ```java
 String outPptxPath = "Your Output Directory" + "ReadOnlyRecommended.pptx";
@@ -73,13 +75,13 @@ finally
 
 ## Következtetés
 
-Ebből az oktatóanyagból megtanulta, hogyan engedélyezheti a Csak olvasható tulajdonságot egy PowerPoint-prezentációhoz az Aspose.Slides for Java használatával. Ez a funkció akkor lehet hasznos, ha korlátozni szeretné a szerkesztést, és arra ösztönzi a nézőket, hogy a prezentációt csak olvasható módban használják. Tovább fokozhatja a biztonságot, ha jelszót állít be az előadáshoz.
+Ebben az oktatóanyagban megtanultad, hogyan engedélyezheted a Csak olvasható ajánlott tulajdonságot egy PowerPoint-bemutatóhoz az Aspose.Slides for Java használatával. Ez a funkció akkor lehet hasznos, ha korlátozni szeretnéd a szerkesztést, és arra szeretnéd ösztönözni a nézőket, hogy csak olvasható módban használják a bemutatót. A biztonságot tovább fokozhatod, ha jelszót állítasz be a bemutatóhoz.
 
 ## GYIK
 
-### Hogyan tilthatom le a Csak olvasható tulajdonságot?
+### Hogyan tilthatom le az Írásvédett ajánlott tulajdonságot?
 
-A Csak olvasható tulajdonság letiltásához egyszerűen használja a következő kódot:
+A Csak olvasható ajánlott tulajdonság letiltásához egyszerűen használja a következő kódot:
 
 ```java
 pres.getProtectionManager().setReadOnlyRecommended(false);
@@ -87,16 +89,18 @@ pres.getProtectionManager().setReadOnlyRecommended(false);
 
 ### Beállíthatok jelszót egy írásvédett, ajánlott prezentációhoz?
 
-Igen, az Aspose.Slides for Java segítségével beállíthat jelszót a csak olvasható, ajánlott prezentációkhoz. Használhatja a`setPassword` módszer a prezentáció jelszavának beállítására. Ha be van állítva jelszó, a felhasználóknak meg kell adniuk azt a prezentáció megnyitásához, még csak olvasható módban is.
+Igen, beállíthatsz jelszót egy írásvédett, ajánlott prezentációhoz az Aspose.Slides for Java használatával. Használhatod a `setPassword` módszer a prezentáció jelszavának beállítására. Ha be van állítva jelszó, a felhasználóknak meg kell adniuk azt a prezentáció megnyitásához, még írásvédett módban is.
 
 ```java
 pres.getProtectionManager().setPassword("YourPassword");
 ```
 
- Ne felejtse el cserélni`"YourPassword"` a kívánt jelszóval.
+Ne felejtsd el kicserélni `"YourPassword"` a kívánt jelszóval.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

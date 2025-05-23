@@ -1,14 +1,16 @@
 ---
-title: Définir le chevauchement des séries de graphiques dans les diapositives Java
-linktitle: Définir le chevauchement des séries de graphiques dans les diapositives Java
-second_title: API de traitement Java PowerPoint d'Aspose.Slides
-description: Les séries de graphiques principaux se chevauchent dans Java Slides avec Aspose.Slides pour Java. Apprenez étape par étape à personnaliser les visuels des graphiques pour des présentations époustouflantes.
-weight: 16
-url: /fr/java/data-manipulation/set-chart-series-overlap-java-slides/
+"description": "Maîtrisez le chevauchement des séries de graphiques dans Java Slides avec Aspose.Slides pour Java. Apprenez étape par étape à personnaliser les visuels de vos graphiques pour des présentations époustouflantes."
+"linktitle": "Définir le chevauchement des séries de graphiques dans les diapositives Java"
+"second_title": "API de traitement Java PowerPoint Aspose.Slides"
+"title": "Définir le chevauchement des séries de graphiques dans les diapositives Java"
+"url": "/fr/java/data-manipulation/set-chart-series-overlap-java-slides/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Définir le chevauchement des séries de graphiques dans les diapositives Java
@@ -16,36 +18,36 @@ url: /fr/java/data-manipulation/set-chart-series-overlap-java-slides/
 
 ## Introduction à la définition du chevauchement des séries de graphiques dans les diapositives Java
 
-Dans ce guide complet, nous plongerons dans le monde fascinant de la manipulation du chevauchement des séries de graphiques dans Java Slides à l'aide de la puissante API Aspose.Slides pour Java. Que vous soyez un développeur chevronné ou que vous débutiez tout juste, ce tutoriel étape par étape vous fournira les connaissances et le code source dont vous avez besoin pour maîtriser cette tâche essentielle.
+Dans ce guide complet, nous explorerons le monde fascinant de la manipulation du chevauchement des séries de graphiques dans Java Slides grâce à la puissante API Aspose.Slides pour Java. Que vous soyez un développeur expérimenté ou débutant, ce tutoriel étape par étape vous fournira les connaissances et le code source nécessaires pour maîtriser cette tâche essentielle.
 
-## Conditions préalables
+## Prérequis
 
-Avant de plonger dans le code, assurez-vous que les conditions préalables suivantes sont en place :
+Avant de plonger dans le code, assurez-vous que les prérequis suivants sont en place :
 
 - Environnement de développement Java
-- Aspose.Slides pour la bibliothèque Java
+- Bibliothèque Aspose.Slides pour Java
 - Environnement de développement intégré (IDE) de votre choix
 
 Maintenant que nos outils sont prêts, passons à la définition du chevauchement des séries de graphiques.
 
 ## Étape 1 : Créer une présentation
 
-Tout d’abord, nous devons créer une présentation dans laquelle nous ajouterons notre graphique. Vous pouvez définir le chemin d'accès à votre répertoire de documents comme suit :
+Nous devons d'abord créer une présentation dans laquelle nous ajouterons notre graphique. Vous pouvez définir le chemin d'accès à votre répertoire de documents comme suit :
 
 ```java
 String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation();
 ```
 
-## Étape 2 : ajout d'un graphique
+## Étape 2 : Ajout d'un graphique
 
-Nous allons ajouter un histogramme groupé à notre présentation en utilisant le code suivant :
+Nous allons ajouter un graphique à colonnes groupées à notre présentation en utilisant le code suivant :
 
 ```java
 IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 50, 50, 600, 400, true);
 ```
 
-## Étape 3 : Ajustement du chevauchement des séries
+## Étape 3 : Ajuster le chevauchement des séries
 
 Pour définir le chevauchement des séries, nous allons vérifier s'il est actuellement défini sur zéro, puis l'ajuster si nécessaire :
 
@@ -53,14 +55,14 @@ Pour définir le chevauchement des séries, nous allons vérifier s'il est actue
 IChartSeriesCollection series = chart.getChartData().getSeries();
 if (series.get_Item(0).getOverlap() == 0)
 {
-    // Définition du chevauchement des séries
+    // Réglage du chevauchement des séries
     series.get_Item(0).getParentSeriesGroup().setOverlap((byte) -30);
 }
 ```
 
-## Étape 4 : Enregistrez la présentation
+## Étape 4 : Enregistrer la présentation
 
-Enfin, nous enregistrerons notre présentation modifiée dans le répertoire spécifié :
+Enfin, nous allons enregistrer notre présentation modifiée dans le répertoire spécifié :
 
 ```java
 presentation.save(dataDir + "SetChartSeriesOverlap_out.pptx", SaveFormat.Pptx);
@@ -69,7 +71,7 @@ presentation.save(dataDir + "SetChartSeriesOverlap_out.pptx", SaveFormat.Pptx);
 ## Code source complet pour le chevauchement des séries de graphiques dans les diapositives Java
 
 ```java
-// Le chemin d'accès au répertoire des documents.
+// Le chemin vers le répertoire des documents.
 String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation();
 try
@@ -79,7 +81,7 @@ try
 	IChartSeriesCollection series = chart.getChartData().getSeries();
 	if (series.get_Item(0).getOverlap() == 0)
 	{
-		// Définition du chevauchement des séries
+		// Réglage du chevauchement des séries
 		series.get_Item(0).getParentSeriesGroup().setOverlap((byte) -30);
 	}
 	// Écrire le fichier de présentation sur le disque
@@ -93,32 +95,34 @@ finally
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez appris avec succès comment définir le chevauchement des séries de graphiques dans Java Slides à l'aide d'Aspose.Slides pour Java. Cela peut s'avérer une compétence précieuse lorsque vous travaillez avec des présentations, car elle vous permet d'affiner vos graphiques pour répondre à des exigences spécifiques.
+Félicitations ! Vous avez appris à définir le chevauchement des séries de graphiques dans Java Slides avec Aspose.Slides pour Java. Cette compétence peut s'avérer précieuse pour vos présentations, car elle vous permet d'affiner vos graphiques pour répondre à des besoins spécifiques.
 
 ## FAQ
 
 ### Comment puis-je modifier le type de graphique dans Aspose.Slides pour Java ?
 
- Pour changer le type de graphique, vous pouvez utiliser le`ChartType` énumération lors de l’ajout d’un graphique. Remplacez simplement`ChartType.ClusteredColumn` avec le type de graphique souhaité, tel que`ChartType.Line` ou`ChartType.Pie`.
+Pour changer le type de graphique, vous pouvez utiliser le `ChartType` énumération lors de l'ajout d'un graphique. Il suffit de remplacer `ChartType.ClusteredColumn` avec le type de graphique souhaité, tel que `ChartType.Line` ou `ChartType.Pie`.
 
 ### Quelles autres options de personnalisation des graphiques sont disponibles ?
 
-Aspose.Slides pour Java offre une large gamme d'options de personnalisation des graphiques. Vous pouvez ajuster les titres des graphiques, les étiquettes de données, les couleurs, etc. Reportez-vous à la documentation pour des informations détaillées.
+Aspose.Slides pour Java offre un large éventail d'options de personnalisation pour les graphiques. Vous pouvez ajuster les titres des graphiques, les étiquettes de données, les couleurs, etc. Consultez la documentation pour plus d'informations.
 
-### Aspose.Slides for Java est-il adapté aux présentations professionnelles ?
+### Aspose.Slides pour Java est-il adapté aux présentations professionnelles ?
 
-Oui, Aspose.Slides pour Java est une bibliothèque puissante pour créer et manipuler des présentations. Il est largement utilisé dans les environnements professionnels pour générer des diaporamas de haute qualité dotés de fonctionnalités avancées.
+Oui, Aspose.Slides pour Java est une bibliothèque puissante pour la création et la manipulation de présentations. Elle est largement utilisée dans les environnements professionnels pour générer des diaporamas de haute qualité avec des fonctionnalités avancées.
 
-### Puis-je automatiser la génération de présentations avec Aspose.Slides pour Java ?
+### Puis-je automatiser la génération de présentations avec Aspose.Slides pour Java ?
 
-Absolument! Aspose.Slides pour Java fournit des API pour créer des présentations à partir de zéro ou modifier celles existantes. Vous pouvez automatiser l'ensemble du processus de génération de présentations pour gagner du temps et des efforts.
+Absolument ! Aspose.Slides pour Java propose des API permettant de créer des présentations de A à Z ou de modifier des présentations existantes. Vous pouvez automatiser l'ensemble du processus de création de présentations pour gagner du temps et des efforts.
 
 ### Où puis-je trouver plus de ressources et d’exemples pour Aspose.Slides pour Java ?
 
- Pour une documentation complète et des exemples, visitez la page de référence Aspose.Slides pour Java :[Référence de l'API Aspose.Slides pour Java](https://reference.aspose.com/slides/java/)
+Pour une documentation complète et des exemples, visitez la page de référence Aspose.Slides pour Java : [Référence de l'API Aspose.Slides pour Java](https://reference.aspose.com/slides/java/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

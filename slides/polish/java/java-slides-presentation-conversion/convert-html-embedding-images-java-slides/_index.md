@@ -1,34 +1,36 @@
 ---
-title: Konwertuj obrazy HTML do osadzania w slajdach Java
-linktitle: Konwertuj obrazy HTML do osadzania w slajdach Java
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Konwertuj program PowerPoint na HTML za pomocą osadzonych obrazów. Przewodnik krok po kroku dotyczący korzystania z Aspose.Slides dla Java. Naucz się bez wysiłku automatyzować konwersję prezentacji w Javie.
-weight: 11
-url: /pl/java/presentation-conversion/convert-html-embedding-images-java-slides/
+"description": "Konwertuj PowerPoint do HTML z osadzonymi obrazami. Przewodnik krok po kroku z użyciem Aspose.Slides dla Java. Naucz się automatyzować konwersje prezentacji w Javie bez wysiłku."
+"linktitle": "Konwertuj obrazy osadzone w HTML w slajdach Java"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Konwertuj obrazy osadzone w HTML w slajdach Java"
+"url": "/pl/java/presentation-conversion/convert-html-embedding-images-java-slides/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Konwertuj obrazy HTML do osadzania w slajdach Java
+# Konwertuj obrazy osadzone w HTML w slajdach Java
 
 
-## Wprowadzenie do konwersji obrazów HTML osadzanych w slajdach Java
+## Wprowadzenie do konwersji obrazów osadzonych w HTML w slajdach Java
 
-W tym przewodniku krok po kroku przeprowadzimy Cię przez proces konwertowania prezentacji programu PowerPoint do dokumentu HTML podczas osadzania obrazów przy użyciu Aspose.Slides for Java. W tym samouczku założono, że masz już skonfigurowane środowisko programistyczne i zainstalowaną bibliotekę Aspose.Slides for Java.
+W tym przewodniku krok po kroku przeprowadzimy Cię przez proces konwersji prezentacji PowerPoint do dokumentu HTML, jednocześnie osadzając obrazy za pomocą Aspose.Slides for Java. Ten samouczek zakłada, że skonfigurowałeś już środowisko programistyczne i masz zainstalowaną bibliotekę Aspose.Slides for Java.
 
 ## Wymagania
 
-Zanim zaczniemy, upewnij się, że masz następujące elementy:
+Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
 
-1.  Zainstalowana biblioteka Aspose.Slides dla Java. Można go pobrać z[Tutaj](https://downloads.aspose.com/slides/java).
+1. Zainstalowano bibliotekę Aspose.Slides for Java. Możesz ją pobrać z [Tutaj](https://downloads.aspose.com/slides/java).
 
-2. Plik prezentacji programu PowerPoint (format PPTX), który chcesz przekonwertować na format HTML.
+2. Plik prezentacji PowerPoint (format PPTX), który chcesz przekonwertować do formatu HTML.
 
 3. Skonfigurowano środowisko programistyczne Java.
 
-## Krok 1: Zaimportuj wymagane biblioteki
+## Krok 1: Importuj wymagane biblioteki
 
 Najpierw musisz zaimportować niezbędne biblioteki i klasy dla swojego projektu Java.
 
@@ -39,9 +41,9 @@ import com.aspose.slides.SaveFormat;
 import java.io.File;
 ```
 
-## Krok 2: Załaduj prezentację programu PowerPoint
+## Krok 2: Załaduj prezentację PowerPoint
 
- Następnie załadujesz prezentację programu PowerPoint, którą chcesz przekonwertować na format HTML. Pamiętaj o wymianie`presentationName` z rzeczywistą ścieżką do pliku prezentacji.
+Następnie załadujesz prezentację PowerPoint, którą chcesz przekonwertować na HTML. Pamiętaj, aby zastąpić `presentationName` z rzeczywistą ścieżką do pliku prezentacji.
 
 ```java
 String presentationName = "path/to/your/presentation.pptx";
@@ -54,15 +56,15 @@ Teraz skonfigurujesz opcje konwersji HTML. W tym przykładzie osadzimy obrazy w 
 
 ```java
 Html5Options options = new Html5Options();
-// Wymuś nie zapisywanie obrazów w dokumencie HTML5
-options.setEmbedImages(true); // Ustaw na true, aby osadzać obrazy
-//Ustaw ścieżkę dla obrazów zewnętrznych (w razie potrzeby)
+// Wymuś niezapisywanie obrazów w dokumencie HTML5
+options.setEmbedImages(true); // Ustaw na true, aby osadzić obrazy
+// Ustaw ścieżkę do obrazów zewnętrznych (jeśli to konieczne)
 options.setOutputPath("path/to/output/directory/");
 ```
 
 ## Krok 4: Utwórz katalog wyjściowy
 
-Przed zapisaniem dokumentu HTML utwórz katalog wyjściowy, jeśli nie istnieje.
+Przed zapisaniem dokumentu HTML utwórz katalog wyjściowy, jeśli jeszcze nie istnieje.
 
 ```java
 File outputDirectory = new File(options.getOutputPath());
@@ -81,7 +83,7 @@ pres.save(options.getOutputPath() + "output.html", SaveFormat.Html5, options);
 
 ## Krok 6: Oczyść zasoby
 
-Nie zapomnij pozbyć się obiektu Prezentacja, aby zwolnić przydzielone zasoby.
+Nie zapomnij pozbyć się obiektu Presentation, aby zwolnić wszelkie przydzielone zasoby.
 
 ```java
 if (pres != null) {
@@ -89,7 +91,7 @@ if (pres != null) {
 }
 ```
 
-## Kompletny kod źródłowy do konwersji obrazów HTML do osadzania obrazów w slajdach Java
+## Kompletny kod źródłowy do konwersji obrazów osadzonych w HTML w slajdach Java
 
 ```java
 // Ścieżka do prezentacji źródłowej
@@ -99,11 +101,11 @@ String outFilePath = "Your Output Directory" + "HTMLConvertion" + File.separator
 Presentation pres = new Presentation(presentationName);
 try {
 	Html5Options options = new Html5Options();
-	// Wymuś nie zapisywanie obrazów w dokumencie HTML5
+	// Wymuś niezapisywanie obrazów w dokumencie HTML5
 	options.setEmbedImages(false);
 	// Ustaw ścieżkę dla obrazów zewnętrznych
 	options.setOutputPath(outFilePath);
-	// Utwórz katalog dla wyjściowego dokumentu HTML
+	// Utwórz katalog dla dokumentu wyjściowego HTML
 	File f = new File(outFilePath);
 	if (!f.exists())
 		f.mkdir();
@@ -116,25 +118,27 @@ try {
 
 ## Wniosek
 
-W tym obszernym przewodniku dowiedzieliśmy się, jak przekonwertować prezentację programu PowerPoint na dokument HTML podczas osadzania obrazów za pomocą Aspose.Slides for Java. Postępując zgodnie ze szczegółowymi instrukcjami, możesz bezproblemowo zintegrować tę funkcjonalność z aplikacjami Java i usprawnić procesy konwersji dokumentów.
+W tym kompleksowym przewodniku nauczyliśmy się, jak przekonwertować prezentację PowerPoint na dokument HTML, jednocześnie osadzając obrazy za pomocą Aspose.Slides dla Java. Postępując zgodnie z instrukcjami krok po kroku, możesz bezproblemowo zintegrować tę funkcjonalność ze swoimi aplikacjami Java i ulepszyć procesy konwersji dokumentów.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
 ### Jak zmienić nazwę pliku wyjściowego?
 
- Możesz zmienić nazwę pliku wyjściowego, modyfikując argument w pliku`pres.save()` metoda.
+Możesz zmienić nazwę pliku wyjściowego, modyfikując argument w `pres.save()` metoda.
 
 ### Czy mogę dostosować szablon HTML?
 
 Tak, możesz dostosować szablon HTML, modyfikując pliki HTML i CSS wygenerowane przez Aspose.Slides. Znajdziesz je w katalogu wyjściowym.
 
-### Jak sobie radzić z błędami podczas konwersji?
+### Jak radzić sobie z błędami podczas konwersji?
 
-Możesz zawinąć kod konwersji w blok try-catch, aby obsłużyć wyjątki, które mogą wystąpić podczas procesu konwersji.
+Kod konwersji można umieścić w bloku try-catch, aby obsłużyć wyjątki, które mogą wystąpić w trakcie procesu konwersji.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

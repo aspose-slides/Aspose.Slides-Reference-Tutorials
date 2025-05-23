@@ -1,27 +1,29 @@
 ---
-title: Aggiungi cornice oggetto OLE in PowerPoint
-linktitle: Aggiungi cornice oggetto OLE in PowerPoint
-second_title: Aspose.Slides API di elaborazione Java PowerPoint
-description: Scopri come integrare perfettamente i frame di oggetti OLE nelle presentazioni di PowerPoint utilizzando Aspose.Slides per Java.
-weight: 13
-url: /it/java/java-powerpoint-shape-media-insertion/add-ole-object-frame-powerpoint/
+"description": "Scopri come integrare perfettamente i frame degli oggetti OLE nelle presentazioni di PowerPoint utilizzando Aspose.Slides per Java."
+"linktitle": "Aggiungere un frame di oggetto OLE in PowerPoint"
+"second_title": "API di elaborazione Java PowerPoint di Aspose.Slides"
+"title": "Aggiungere un frame di oggetto OLE in PowerPoint"
+"url": "/it/java/java-powerpoint-shape-media-insertion/add-ole-object-frame-powerpoint/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aggiungi cornice oggetto OLE in PowerPoint
+# Aggiungere un frame di oggetto OLE in PowerPoint
 
-## introduzione
-L'aggiunta di una cornice oggetto OLE (collegamento e incorporamento di oggetti) nelle presentazioni di PowerPoint può migliorare in modo significativo l'attrattiva visiva e la funzionalità delle diapositive. Con Aspose.Slides per Java, questo processo diventa snello ed efficiente. In questo tutorial ti guideremo attraverso i passaggi necessari per integrare perfettamente i frame di oggetti OLE nelle tue presentazioni PowerPoint.
+## Introduzione
+L'aggiunta di una cornice OLE (Object Linking and Embedding) nelle presentazioni di PowerPoint può migliorare significativamente l'aspetto e la funzionalità delle diapositive. Con Aspose.Slides per Java, questo processo diventa più semplice ed efficiente. In questo tutorial, vi guideremo attraverso i passaggi necessari per integrare perfettamente le cornici OLE nelle vostre presentazioni di PowerPoint.
 ### Prerequisiti
-Prima di iniziare, assicurati di disporre dei seguenti prerequisiti:
-1. Ambiente di sviluppo Java: assicurati di avere Java Development Kit (JDK) installato sul tuo sistema.
-2.  Aspose.Slides per Java: scaricare e installare Aspose.Slides per Java dal sito Web[Qui](https://releases.aspose.com/slides/java/).
-3. Comprensione di base della programmazione Java: familiarizza con i concetti e la sintassi della programmazione Java.
+Prima di iniziare, assicurati di avere i seguenti prerequisiti:
+1. Ambiente di sviluppo Java: assicurati che Java Development Kit (JDK) sia installato sul tuo sistema.
+2. Aspose.Slides per Java: scarica e installa Aspose.Slides per Java dal sito web [Qui](https://releases.aspose.com/slides/java/).
+3. Nozioni di base sulla programmazione Java: familiarizzare con i concetti e la sintassi della programmazione Java.
 ## Importa pacchetti
-Innanzitutto, devi importare i pacchetti necessari per sfruttare le funzionalità di Aspose.Slides per Java. Ecco come puoi farlo:
+Innanzitutto, è necessario importare i pacchetti necessari per sfruttare le funzionalità di Aspose.Slides per Java. Ecco come fare:
 ```java
 import com.aspose.slides.*;
 
@@ -30,21 +32,21 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 ```
-## Passaggio 1: configura il tuo ambiente
-Assicurati che il tuo progetto sia configurato correttamente e che la libreria Aspose.Slides sia inclusa nel tuo classpath.
+## Passaggio 1: configura l'ambiente
+Assicurati che il progetto sia configurato correttamente e che la libreria Aspose.Slides sia inclusa nel classpath.
 ## Passaggio 2: inizializzare l'oggetto di presentazione
-Crea un oggetto Presentazione per rappresentare il file PowerPoint con cui stai lavorando:
+Crea un oggetto Presentazione per rappresentare il file PowerPoint su cui stai lavorando:
 ```java
 String dataDir = "Your Document Directory";
 String outPath = "Your Output Directory";
-// Crea un'istanza della classe Presentation che rappresenta il PPTX
+// Crea un'istanza della classe Presentazione che rappresenta il PPTX
 Presentation pres = new Presentation();
 ```
 ## Passaggio 3: accedi alla diapositiva e carica l'oggetto
-Accedi alla diapositiva in cui desideri aggiungere il frame oggetto OLE e carica il file oggetto:
+Accedi alla diapositiva in cui desideri aggiungere il frame dell'oggetto OLE e carica il file oggetto:
 ```java
 ISlide sld = pres.getSlides().get_Item(0);
-// Carica un file da trasmettere in streaming
+// Carica un file per lo streaming
 FileInputStream fs = new FileInputStream(dataDir + "book1.xlsx");
 ByteArrayOutputStream mstream = new ByteArrayOutputStream();
 byte[] buf = new byte[4096];
@@ -61,34 +63,36 @@ Crea un oggetto dati per incorporare il file:
 IOleEmbeddedDataInfo dataInfo = new OleEmbeddedDataInfo(mstream.toByteArray(), "xlsx");
 ```
 ## Passaggio 5: aggiungere la cornice dell'oggetto OLE
-Aggiungi una forma cornice oggetto OLE alla diapositiva:
+Aggiungere una forma Cornice oggetto OLE alla diapositiva:
 ```java
 IOleObjectFrame oleObjectFrame = sld.getShapes().addOleObjectFrame(0, 0, (float)pres.getSlideSize().getSize().getWidth(),
         (float)pres.getSlideSize().getSize().getHeight(), dataInfo);
 ```
-## Passaggio 6: salva la presentazione
-Salva la presentazione modificata su disco:
+## Passaggio 6: Salva la presentazione
+Salva la presentazione modificata sul disco:
 ```java
 pres.save(outPath + "OleEmbed_out.pptx", SaveFormat.Pptx);
 ```
 
 ## Conclusione
-Congratulazioni! Hai imparato con successo come aggiungere un frame oggetto OLE nelle presentazioni di PowerPoint utilizzando Aspose.Slides per Java. Questa potente funzionalità ti consente di incorporare vari tipi di oggetti, migliorando l'interattività e il fascino visivo delle tue diapositive.
+Congratulazioni! Hai imparato come aggiungere una cornice OLE nelle presentazioni di PowerPoint utilizzando Aspose.Slides per Java. Questa potente funzionalità ti consente di incorporare vari tipi di oggetti, migliorando l'interattività e l'aspetto visivo delle tue diapositive.
 
 ## Domande frequenti
 ### Posso incorporare oggetti diversi dai file Excel utilizzando Aspose.Slides per Java?
-Sì, puoi incorporare vari tipi di oggetti tra cui documenti Word, file PDF e altro.
+Sì, puoi incorporare vari tipi di oggetti, tra cui documenti Word, file PDF e altro ancora.
 ### Aspose.Slides è compatibile con diverse versioni di PowerPoint?
-Aspose.Slides fornisce compatibilità con un'ampia gamma di versioni di PowerPoint, garantendo una perfetta integrazione.
+Aspose.Slides è compatibile con un'ampia gamma di versioni di PowerPoint, garantendo un'integrazione perfetta.
 ### Posso personalizzare l'aspetto della cornice dell'oggetto OLE?
-Assolutamente! Aspose.Slides offre ampie opzioni per personalizzare l'aspetto e il comportamento dei frame di oggetti OLE.
-### È disponibile una versione di prova per Aspose.Slides per Java?
- Sì, puoi scaricare una versione di prova gratuita da[Qui](https://releases.aspose.com/).
+Assolutamente sì! Aspose.Slides offre ampie opzioni per personalizzare l'aspetto e il comportamento dei frame degli oggetti OLE.
+### Esiste una versione di prova disponibile per Aspose.Slides per Java?
+Sì, puoi scaricare una versione di prova gratuita da [Qui](https://releases.aspose.com/).
 ### Dove posso trovare supporto per Aspose.Slides per Java?
- Puoi chiedere supporto e assistenza al forum Aspose.Slides[Qui](https://forum.aspose.com/c/slides/11).
+Puoi cercare supporto e assistenza nel forum Aspose.Slides [Qui](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

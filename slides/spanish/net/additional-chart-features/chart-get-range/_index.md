@@ -1,34 +1,36 @@
 ---
-title: Cómo obtener el rango de datos del gráfico en Aspose.Slides para .NET
-linktitle: Obtener rango de datos del gráfico
-second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
-description: Aprenda a extraer datos de gráficos de presentaciones de PowerPoint utilizando Aspose.Slides para .NET. Una guía paso a paso para desarrolladores.
-weight: 11
-url: /es/net/additional-chart-features/chart-get-range/
+"description": "Aprenda a extraer el rango de datos de gráficos de presentaciones de PowerPoint con Aspose.Slides para .NET. Guía paso a paso para desarrolladores."
+"linktitle": "Obtener rango de datos del gráfico"
+"second_title": "API de procesamiento de PowerPoint Aspose.Slides .NET"
+"title": "Cómo obtener el rango de datos de un gráfico en Aspose.Slides para .NET"
+"url": "/es/net/additional-chart-features/chart-get-range/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cómo obtener el rango de datos del gráfico en Aspose.Slides para .NET
+# Cómo obtener el rango de datos de un gráfico en Aspose.Slides para .NET
 
 
-¿Está buscando extraer el rango de datos de un gráfico en su presentación de PowerPoint usando Aspose.Slides para .NET? Has venido al lugar correcto. En esta guía paso a paso, lo guiaremos a través del proceso de obtención del rango de datos del gráfico de su presentación. Aspose.Slides para .NET es una poderosa biblioteca que le permite trabajar con documentos de PowerPoint mediante programación, y obtener el rango de datos del gráfico es solo una de las muchas tareas que puede ayudarlo a realizar.
+¿Quieres extraer el rango de datos de un gráfico en tu presentación de PowerPoint con Aspose.Slides para .NET? Estás en el lugar correcto. En esta guía paso a paso, te guiaremos en el proceso de obtener el rango de datos de un gráfico de tu presentación. Aspose.Slides para .NET es una potente biblioteca que te permite trabajar con documentos de PowerPoint mediante programación, y obtener el rango de datos de un gráfico es solo una de las muchas tareas que puede realizar.
 
-## Requisitos previos
+## Prerrequisitos
 
-Antes de sumergirnos en el proceso de obtención del rango de datos del gráfico en Aspose.Slides para .NET, asegúrese de cumplir con los siguientes requisitos previos:
+Antes de sumergirnos en el proceso de obtención del rango de datos del gráfico en Aspose.Slides para .NET, asegúrese de tener los siguientes requisitos previos:
 
-1.  Aspose.Slides para .NET: Debe tener Aspose.Slides para .NET instalado en su proyecto. Si aún no lo has hecho, puedes descargarlo desde[aquí](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides para .NET: Necesita tener Aspose.Slides para .NET instalado en su proyecto. Si aún no lo tiene, puede descargarlo desde [aquí](https://releases.aspose.com/slides/net/).
 
-2. Entorno de desarrollo: Debes tener configurado un entorno de desarrollo, que puede ser Visual Studio o cualquier otro IDE que prefieras.
+2. Entorno de desarrollo: debe tener configurado un entorno de desarrollo, que puede ser Visual Studio o cualquier otro IDE que prefiera.
 
-Ahora comencemos.
+Ahora, comencemos.
 
 ## Importar espacios de nombres
 
-El primer paso es importar los espacios de nombres necesarios. Esto permite que su código acceda a las clases y métodos necesarios para trabajar con Aspose.Slides. Así es como puedes hacerlo:
+El primer paso es importar los espacios de nombres necesarios. Esto permite que tu código acceda a las clases y métodos necesarios para trabajar con Aspose.Slides. Así es como puedes hacerlo:
 
 ```csharp
 using Aspose.Slides;
@@ -38,11 +40,11 @@ using System;
 
 Ahora que ha importado los espacios de nombres necesarios, está listo para pasar al ejemplo de código.
 
-Dividiremos el ejemplo que proporcionó en varios pasos para guiarlo a través del proceso de obtención del rango de datos del gráfico.
+Desglosaremos el ejemplo que proporcionó en varios pasos para guiarlo a través del proceso de obtención del rango de datos del gráfico.
 
-## Paso 1: crear un objeto de presentación
+## Paso 1: Crear un objeto de presentación
 
-El primer paso es crear un objeto de presentación. Este objeto representa su presentación de PowerPoint.
+El primer paso es crear un objeto de presentación. Este objeto representa tu presentación de PowerPoint.
 
 ```csharp
 using (Presentation pres = new Presentation())
@@ -51,57 +53,59 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-## Paso 2: agregar un gráfico a una diapositiva
+## Paso 2: Agregar un gráfico a una diapositiva
 
-En este paso, debe agregar un gráfico a una diapositiva de su presentación. Puede especificar el tipo de gráfico y su posición y tamaño en la diapositiva.
+En este paso, debe agregar un gráfico a una diapositiva de su presentación. Puede especificar el tipo de gráfico, su posición y tamaño en la diapositiva.
 
 ```csharp
 IChart chart = pres.Slides[0].Shapes.AddChart(ChartType.ClusteredColumn, 10, 10, 400, 300);
 ```
 
-## Paso 3: obtenga el rango de datos del gráfico
+## Paso 3: Obtener el rango de datos del gráfico
 
-Ahora es el momento de obtener el rango de datos del gráfico. Estos son los datos en los que se basa el gráfico y puede extraerlos como una cadena.
+Ahora es el momento de obtener el rango de datos del gráfico. Estos son los datos en los que se basa el gráfico y se pueden extraer como una cadena.
 
 ```csharp
 string result = chart.ChartData.GetRange();
 ```
 
-## Paso 4: mostrar el resultado
+## Paso 4: Mostrar el resultado
 
- Finalmente, puede mostrar el rango de datos del gráfico obtenido usando`Console.WriteLine`.
+Finalmente, puede visualizar el rango de datos del gráfico obtenido utilizando `Console.WriteLine`.
 
 ```csharp
 Console.WriteLine("GetRange result: {0}", result);
 ```
 
-¡Y eso es! Ha recuperado con éxito el rango de datos del gráfico de su presentación de PowerPoint usando Aspose.Slides para .NET.
+¡Listo! Has recuperado correctamente el rango de datos del gráfico de tu presentación de PowerPoint con Aspose.Slides para .NET.
 
 ## Conclusión
 
-En este tutorial, cubrimos el proceso de obtener el rango de datos del gráfico de una presentación de PowerPoint usando Aspose.Slides para .NET. Con los requisitos previos adecuados y siguiendo la guía paso a paso, puede extraer fácilmente los datos que necesita de sus presentaciones mediante programación.
+En este tutorial, explicamos el proceso para obtener el rango de datos de un gráfico de una presentación de PowerPoint con Aspose.Slides para .NET. Con los requisitos previos adecuados y siguiendo la guía paso a paso, podrá extraer fácilmente los datos que necesita de sus presentaciones mediante programación.
 
-Si tiene alguna pregunta o necesita más ayuda, no dude en visitar Aspose.Slides para .NET[documentación](https://reference.aspose.com/slides/net/) o comuníquese con la comunidad de Aspose en su[Foro de soporte](https://forum.aspose.com/).
+Si tiene alguna pregunta o necesita más ayuda, no dude en visitar Aspose.Slides para .NET [documentación](https://reference.aspose.com/slides/net/) o comuníquese con la comunidad de Aspose en su [foro de soporte](https://forum.aspose.com/).
 
 ## Preguntas frecuentes
 
 ### ¿Aspose.Slides para .NET es compatible con las últimas versiones de Microsoft PowerPoint?
-Aspose.Slides para .NET está diseñado para funcionar con varios formatos de archivos de PowerPoint, incluidos los más recientes. Consulte la documentación para obtener detalles específicos.
+Aspose.Slides para .NET está diseñado para funcionar con varios formatos de archivo de PowerPoint, incluidos los más recientes. Consulte la documentación para obtener más información.
 
 ### ¿Puedo manipular otros elementos en una presentación de PowerPoint usando Aspose.Slides para .NET?
 Sí, puedes trabajar con diapositivas, formas, texto, imágenes y otros elementos dentro de una presentación de PowerPoint.
 
-### ¿Existe una versión de prueba gratuita disponible para Aspose.Slides para .NET?
- Sí, puedes descargar una prueba gratuita desde[aquí](https://releases.aspose.com/).
+### ¿Hay una versión de prueba gratuita disponible para Aspose.Slides para .NET?
+Sí, puedes descargar una versión de prueba gratuita desde [aquí](https://releases.aspose.com/).
 
 ### ¿Cómo puedo obtener una licencia temporal de Aspose.Slides para .NET?
- Puede solicitar una licencia temporal a[aquí](https://purchase.aspose.com/temporary-license/).
+Puede solicitar una licencia temporal a [aquí](https://purchase.aspose.com/temporary-license/).
 
 ### ¿Qué tipo de opciones de soporte están disponibles para los usuarios de Aspose.Slides para .NET?
- Puede obtener apoyo y asistencia de la comunidad Aspose en su[Foro de soporte](https://forum.aspose.com/).
+Puede obtener soporte y asistencia de la comunidad Aspose en su [foro de soporte](https://forum.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

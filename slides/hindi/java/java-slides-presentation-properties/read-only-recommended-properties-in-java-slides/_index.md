@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में केवल पढ़ने के लिए अनुशंसित गुण
-linktitle: जावा स्लाइड्स में केवल पढ़ने के लिए अनुशंसित गुण
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके Java PowerPoint प्रस्तुतियों में केवल पढ़ने के लिए अनुशंसित गुणों को सक्षम करने का तरीका जानें। बेहतर प्रस्तुति सुरक्षा के लिए स्रोत कोड उदाहरणों के साथ हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 17
-url: /hi/java/presentation-properties/read-only-recommended-properties-in-java-slides/
+"description": "Aspose.Slides for Java का उपयोग करके Java PowerPoint प्रस्तुतियों में केवल पढ़ने के लिए अनुशंसित गुणों को सक्षम करने का तरीका जानें। बेहतर प्रस्तुति सुरक्षा के लिए स्रोत कोड उदाहरणों के साथ हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "जावा स्लाइड्स में केवल पढ़ने के लिए अनुशंसित गुण"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में केवल पढ़ने के लिए अनुशंसित गुण"
+"url": "/hi/java/presentation-properties/read-only-recommended-properties-in-java-slides/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में केवल पढ़ने के लिए अनुशंसित गुण
@@ -20,7 +22,7 @@ url: /hi/java/presentation-properties/read-only-recommended-properties-in-java-s
 
 ## आवश्यक शर्तें
 
- शुरू करने से पहले, सुनिश्चित करें कि आपके प्रोजेक्ट में Aspose.Slides for Java लाइब्रेरी सेट अप है। आप इसे यहाँ से डाउनलोड कर सकते हैं[Aspose.Slides for Java वेबसाइट](https://products.aspose.com/slides/java/).
+शुरू करने से पहले, सुनिश्चित करें कि आपके प्रोजेक्ट में Aspose.Slides for Java लाइब्रेरी सेट अप है। आप इसे यहाँ से डाउनलोड कर सकते हैं [Aspose.Slides for Java वेबसाइट](https://products.aspose.com/slides/java/).
 
 ## चरण 1: एक नया पावरपॉइंट प्रेजेंटेशन बनाएं
 
@@ -49,7 +51,7 @@ finally
 }
 ```
 
- इस कोड स्निपेट में, हम उपयोग करते हैं`getProtectionManager().setReadOnlyRecommended(true)` केवल पढ़ने के लिए अनुशंसित गुण को सेट करने की विधि`true`इससे यह सुनिश्चित होता है कि जब कोई व्यक्ति प्रस्तुति खोलेगा, तो उसे इसे केवल पढ़ने के लिए मोड में खोलने के लिए कहा जाएगा।
+इस कोड स्निपेट में, हम उपयोग करते हैं `getProtectionManager().setReadOnlyRecommended(true)` केवल पढ़ने के लिए अनुशंसित गुण को सेट करने की विधि `true`इससे यह सुनिश्चित होता है कि जब कोई व्यक्ति प्रस्तुति खोलेगा, तो उसे इसे केवल पढ़ने के लिए मोड में खोलने के लिए कहा जाएगा।
 
 ## चरण 3: प्रस्तुति सहेजें
 
@@ -77,7 +79,7 @@ finally
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-### मैं केवल पढ़ने के लिए अनुशंसित संपत्ति को कैसे अक्षम करूं?
+### मैं केवल पढ़ने के लिए अनुशंसित गुण को कैसे अक्षम करूँ?
 
 केवल पढ़ने के लिए अनुशंसित गुण को अक्षम करने के लिए, बस निम्नलिखित कोड का उपयोग करें:
 
@@ -87,16 +89,18 @@ pres.getProtectionManager().setReadOnlyRecommended(false);
 
 ### क्या मैं केवल पढ़ने के लिए अनुशंसित प्रस्तुति के लिए पासवर्ड सेट कर सकता हूँ?
 
-हां, आप Aspose.Slides for Java का उपयोग करके Read-Only Recommended प्रेजेंटेशन के लिए पासवर्ड सेट कर सकते हैं।`setPassword` प्रेजेंटेशन के लिए पासवर्ड सेट करने की विधि। यदि पासवर्ड सेट किया गया है, तो उपयोगकर्ताओं को प्रेजेंटेशन खोलने के लिए इसे दर्ज करना होगा, यहां तक कि केवल पढ़ने के लिए मोड में भी।
+हां, आप Aspose.Slides for Java का उपयोग करके Read-Only Recommended प्रेजेंटेशन के लिए पासवर्ड सेट कर सकते हैं। `setPassword` प्रेजेंटेशन के लिए पासवर्ड सेट करने की विधि। यदि पासवर्ड सेट किया गया है, तो प्रेजेंटेशन खोलने के लिए उपयोगकर्ताओं को इसे दर्ज करना होगा, यहां तक कि केवल पढ़ने के लिए मोड में भी।
 
 ```java
 pres.getProtectionManager().setPassword("YourPassword");
 ```
 
- प्रतिस्थापित करना याद रखें`"YourPassword"` अपने इच्छित पासवर्ड के साथ.
+प्रतिस्थापित करना याद रखें `"YourPassword"` अपने इच्छित पासवर्ड के साथ.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

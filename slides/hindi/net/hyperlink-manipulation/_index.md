@@ -1,14 +1,16 @@
 ---
-title: हाइपरलिंक हेरफेर
-linktitle: हाइपरलिंक हेरफेर
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: Aspose.Slides का उपयोग करके व्यापक हाइपरलिंक हेरफेर के साथ अपने .NET अनुप्रयोगों को बेहतर बनाएँ। हाइपरलिंक प्रबंधित करना, इंटरैक्टिव प्रस्तुतियाँ बनाना और उपयोगकर्ता सहभागिता को सहजता से बढ़ाना सीखें।
-weight: 13
-url: /hi/net/hyperlink-manipulation/
+"description": "Aspose.Slides का उपयोग करके व्यापक हाइपरलिंक हेरफेर के साथ अपने .NET अनुप्रयोगों को बेहतर बनाएँ। हाइपरलिंक प्रबंधित करना, इंटरैक्टिव प्रस्तुतियाँ बनाना और उपयोगकर्ता सहभागिता को सहजता से बढ़ाना सीखें।"
+"linktitle": "हाइपरलिंक हेरफेर"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "हाइपरलिंक हेरफेर"
+"url": "/hi/net/hyperlink-manipulation/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # हाइपरलिंक हेरफेर
@@ -26,16 +28,18 @@ url: /hi/net/hyperlink-manipulation/
 ### [Aspose.Slides में हाइपरलिंक हेरफेर](./hyperlink-manipulation/)
 Aspose.Slides for .NET का उपयोग करके हाइपरलिंक के साथ PowerPoint प्रस्तुतियों को बेहतर बनाने का तरीका जानें। सहजता से इंटरैक्टिव सामग्री बनाएँ, संशोधित करें और प्रबंधित करें।
 ### [स्लाइड से हाइपरलिंक हटाएँ](./remove-hyperlinks/)
-जानें कि Aspose.Slides for .NET का उपयोग करके PowerPoint स्लाइडों से हाइपरलिंक्स को आसानी से कैसे हटाया जाए।
+Aspose.Slides for .NET का उपयोग करके PowerPoint स्लाइडों से हाइपरलिंक्स को आसानी से हटाने का तरीका जानें।
 ### [स्लाइड में हाइपरलिंक जोड़ें](./add-hyperlink/)
 Aspose.Slides for .NET का उपयोग करके PowerPoint में स्लाइड्स में हाइपरलिंक्स जोड़ना सीखें। इंटरैक्टिव सामग्री के साथ प्रस्तुतियों को बेहतर बनाएँ।
 ### [मैक्रोज़ का उपयोग करके हाइपरलिंक प्रबंधन](./macro-hyperlink/)
 Aspose.Slides for .NET का उपयोग करके प्रस्तुतियों में हाइपरलिंक्स को प्रभावी ढंग से प्रबंधित करना सीखें। कार्यों को स्वचालित करें, इंटरैक्टिव मेनू बनाएँ और उपयोगकर्ता सहभागिता बढ़ाएँ।
 ### [परिवर्तनीय हाइपरलिंक निर्माण](./mutable-hyperlink/)
 .NET के लिए Aspose.Slides का उपयोग करके परिवर्तनशील हाइपरलिंक बनाना सीखें। गतिशील प्रस्तुतियों के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

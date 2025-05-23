@@ -1,14 +1,16 @@
 ---
-title: पावरपॉइंट टाइमलाइन से ऑडियो निकालें
-linktitle: टाइमलाइन से ऑडियो निकालें
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: Aspose.Slides for .NET का उपयोग करके PowerPoint प्रस्तुतियों से ऑडियो निकालना सीखें। आसानी से अपनी मल्टीमीडिया सामग्री को बेहतर बनाएँ।
-weight: 13
-url: /hi/net/audio-and-video-extraction/extract-audio-from-timeline/
+"description": "Aspose.Slides for .NET का उपयोग करके PowerPoint प्रस्तुतियों से ऑडियो निकालना सीखें। आसानी से अपनी मल्टीमीडिया सामग्री को बेहतर बनाएँ।"
+"linktitle": "टाइमलाइन से ऑडियो निकालें"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "पावरपॉइंट टाइमलाइन से ऑडियो निकालें"
+"url": "/hi/net/audio-and-video-extraction/extract-audio-from-timeline/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पावरपॉइंट टाइमलाइन से ऑडियो निकालें
@@ -20,7 +22,7 @@ url: /hi/net/audio-and-video-extraction/extract-audio-from-timeline/
 
 इससे पहले कि आप पावरपॉइंट प्रस्तुतियों से ऑडियो निकालना शुरू करें, आपको निम्नलिखित पूर्वापेक्षाएँ पूरी करनी होंगी:
 
-1.  Aspose.Slides for .NET लाइब्रेरी: आपके पास Aspose.Slides for .NET लाइब्रेरी इंस्टॉल होनी चाहिए। अगर आपने इसे अभी तक इंस्टॉल नहीं किया है, तो आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides for .NET लाइब्रेरी: आपके पास Aspose.Slides for .NET लाइब्रेरी इंस्टॉल होनी चाहिए। अगर आपने इसे अभी तक इंस्टॉल नहीं किया है, तो आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/net/).
 
 2. पावरपॉइंट प्रेजेंटेशन: सुनिश्चित करें कि आपके पास वह पावरपॉइंट प्रेजेंटेशन (PPTX) है जिससे आप ऑडियो निकालना चाहते हैं। प्रेजेंटेशन फ़ाइल को अपनी पसंद की डायरेक्टरी में रखें।
 
@@ -52,7 +54,7 @@ using (Presentation pres = new Presentation(pptxFile))
 }
 ```
 
-इस चरण में, हम निर्दिष्ट फ़ाइल से PowerPoint प्रस्तुति लोड करते हैं।`"Your Document Directory"` अपनी प्रस्तुति फ़ाइल के वास्तविक पथ के साथ.
+इस चरण में, हम निर्दिष्ट फ़ाइल से PowerPoint प्रस्तुति लोड करते हैं। `"Your Document Directory"` अपनी प्रस्तुति फ़ाइल के वास्तविक पथ के साथ.
 
 ### चरण 2.2: स्लाइड और टाइमलाइन तक पहुंचें
 
@@ -68,7 +70,7 @@ ISlide slide = pres.Slides[0];
 ISequence effectsSequence = slide.Timeline.MainSequence;
 ```
 
-`MainSequence` संपत्ति आपको चयनित स्लाइड के लिए प्रभाव अनुक्रम तक पहुंच प्रदान करती है।
+The `MainSequence` प्रॉपर्टी आपको चयनित स्लाइड के लिए प्रभाव अनुक्रम तक पहुंच प्रदान करती है।
 
 ### चरण 2.4: ऑडियो को बाइट ऐरे के रूप में निकालें
 
@@ -85,7 +87,7 @@ string outMediaPath = Path.Combine(RunExamples.OutPath, "MediaTimeline.mpg");
 File.WriteAllBytes(outMediaPath, audio);
 ```
 
- अंत में, हम निकाले गए ऑडियो को मीडिया फ़ाइल के रूप में सहेजते हैं। ऊपर दिया गया कोड इसे सहेजता है`"MediaTimeline.mpg"` आउटपुट निर्देशिका के भीतर फ़ाइल.
+अंत में, हम निकाले गए ऑडियो को मीडिया फ़ाइल के रूप में सहेजते हैं। ऊपर दिया गया कोड इसे मीडिया फ़ाइल में सहेजता है। `"MediaTimeline.mpg"` आउटपुट निर्देशिका के भीतर फ़ाइल.
 
 बस! आपने Aspose.Slides for .NET का उपयोग करके PowerPoint प्रेजेंटेशन से ऑडियो सफलतापूर्वक निकाल लिया है।
 
@@ -93,7 +95,7 @@ File.WriteAllBytes(outMediaPath, audio);
 
 Aspose.Slides for .NET पावरपॉइंट प्रेजेंटेशन में मल्टीमीडिया तत्वों के साथ काम करना आसान बनाता है। इस ट्यूटोरियल में, हमने सीखा कि किसी प्रेजेंटेशन से ऑडियो को चरण दर चरण कैसे निकाला जाए। सही टूल और थोड़े C# ज्ञान के साथ, आप अपनी प्रेजेंटेशन को बेहतर बना सकते हैं और आकर्षक मल्टीमीडिया कंटेंट बना सकते हैं।
 
- यदि आपके कोई प्रश्न हों या आपको और सहायता की आवश्यकता हो, तो बेझिझक हमसे संपर्क करें।[Aspose.Slides समर्थन मंच](https://forum.aspose.com/).
+यदि आपके कोई प्रश्न हों या आपको और सहायता की आवश्यकता हो, तो बेझिझक हमसे संपर्क करें। [Aspose.Slides समर्थन मंच](https://forum.aspose.com/).
 
 ## अक्सर पूछे जाने वाले प्रश्न (एफएक्यू)
 
@@ -111,14 +113,16 @@ Aspose.Slides for .NET को नवीनतम सहित विभिन्
 
 ### 4. क्या मैं Aspose.Slides का उपयोग करके निकाले गए ऑडियो में बदलाव और संपादन कर सकता हूँ?
 
-हां, Aspose.Slides पावरपॉइंट प्रेजेंटेशन से ऑडियो निकालने के बाद उसमें हेरफेर और संपादन के लिए व्यापक सुविधाएं प्रदान करता है।
+हां, Aspose.Slides, PowerPoint प्रस्तुति से ऑडियो निकालने के बाद उसमें हेरफेर और संपादन के लिए व्यापक सुविधाएं प्रदान करता है।
 
 ### 5. मैं Aspose.Slides for .NET के लिए व्यापक दस्तावेज़ कहां पा सकता हूं?
 
- आप .NET के लिए Aspose.Slides के लिए विस्तृत दस्तावेज़ और उदाहरण पा सकते हैं[यहाँ](https://reference.aspose.com/slides/net/).
+आप .NET के लिए Aspose.Slides के लिए विस्तृत दस्तावेज़ और उदाहरण पा सकते हैं [यहाँ](https://reference.aspose.com/slides/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

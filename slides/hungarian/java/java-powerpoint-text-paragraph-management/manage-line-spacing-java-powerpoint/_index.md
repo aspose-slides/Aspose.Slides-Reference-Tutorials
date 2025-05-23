@@ -1,29 +1,31 @@
 ---
-title: A sorköz kezelése a Java PowerPointban
-linktitle: A sorköz kezelése a Java PowerPointban
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Tanulja meg, hogyan kezelheti könnyedén a sorközt a Java PowerPoint prezentációkban az Aspose.Slides for Java segítségével. Javítsa a diákat.
-weight: 12
-url: /hu/java/java-powerpoint-text-paragraph-management/manage-line-spacing-java-powerpoint/
+"description": "Tanuld meg, hogyan kezelheted könnyedén a sorközöket Java PowerPoint prezentációkban az Aspose.Slides for Java segítségével. Tedd teljessé a diákat."
+"linktitle": "Sorköz kezelése Java PowerPointban"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Sorköz kezelése Java PowerPointban"
+"url": "/hu/java/java-powerpoint-text-paragraph-management/manage-line-spacing-java-powerpoint/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# A sorköz kezelése a Java PowerPointban
+# Sorköz kezelése Java PowerPointban
 
 ## Bevezetés
-A Java programozásban a sortávolság kezelése a PowerPoint-prezentációkban kulcsfontosságú a vizuálisan tetszetős diák létrehozásához, amelyek hatékonyan továbbítják az információkat. Akár beállítja a bekezdések közötti távolságot, akár az egyes bekezdések előtti és utáni térközöket, az Aspose.Slides for Java átfogó eszközöket biztosít ezeknek a feladatoknak a zökkenőmentes elvégzéséhez.
+A Java programozásban a PowerPoint-bemutatók sorközének kezelése kulcsfontosságú a vizuálisan vonzó diák létrehozásához, amelyek hatékonyan közvetítik az információkat. Akár a bekezdések közötti térközt, akár az egyes bekezdések előtti és utáni térközt szeretnéd szabályozni, az Aspose.Slides for Java átfogó eszközöket kínál ezen feladatok zökkenőmentes elvégzéséhez.
 ## Előfeltételek
-Mielőtt belevágna a PowerPoint-prezentációk sorközének kezelésébe az Aspose.Slides for Java használatával, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
+Mielőtt belemerülnél a PowerPoint-bemutatók sorközének kezelésébe az Aspose.Slides for Java segítségével, győződj meg róla, hogy a következő előfeltételek teljesülnek:
 - Java programozási alapismeretek.
-- Java Development Kit (JDK) telepítése a gépen.
-- Integrált fejlesztési környezet (IDE), például az IntelliJ IDEA vagy az Eclipse.
--  Aspose.Slides for Java könyvtár telepítve. Letöltheti innen[itt](https://releases.aspose.com/slides/java/).
+- Telepítette a Java Development Kitet (JDK) a gépére.
+- Integrált fejlesztői környezet (IDE), például IntelliJ IDEA vagy Eclipse.
+- Az Aspose.Slides Java könyvtár telepítve van. Letöltheti innen: [itt](https://releases.aspose.com/slides/java/).
 
 ## Csomagok importálása
-Először győződjön meg róla, hogy importálja a szükséges csomagokat a Java projektbe az Aspose.Slides használatához:
+Először is, importáld a szükséges csomagokat a Java projektedbe az Aspose.Slides használatához:
 ```java
 import com.aspose.slides.*;
 ```
@@ -33,44 +35,46 @@ Kezdje a PowerPoint bemutatófájl (.pptx) betöltésével:
 String dataDir = "Your Document Directory/";
 Presentation presentation = new Presentation(dataDir + "Fonts.pptx");
 ```
-## 2. lépés: Nyissa meg a diát és a szövegkeretet
-Ha szöveget szeretne manipulálni egy adott dián, nyissa meg az indexét, majd nyissa meg a szöveget tartalmazó TextFrame-et:
+## 2. lépés: Dia és szövegkeret elérése
+Egy adott dián lévő szöveg kezeléséhez nyissa meg azt az indexe alapján, majd nyissa meg a szöveget tartalmazó TextFrame-et:
 ```java
-ISlide slide = presentation.getSlides().get_Item(0); // Szerezd meg az első diát
+ISlide slide = presentation.getSlides().get_Item(0); // Az első dia betöltése
 ITextFrame textFrame = ((IAutoShape) slide.getShapes().get_Item(0)).getTextFrame();
 ```
-## 3. lépés: A bekezdés tulajdonságainak elérése és módosítása
-Ezután nyissa meg egy adott bekezdést a TextFrame-en belül, és módosítsa a bekezdésformátum tulajdonságait:
+## 3. lépés: Bekezdéstulajdonságok elérése és módosítása
+Ezután nyissa meg a TextFrame-en belüli adott bekezdést, és módosítsa a bekezdésformátum-tulajdonságait:
 ```java
 IParagraph paragraph = textFrame.getParagraphs().get_Item(0); // Szerezd meg az első bekezdést
-// Állítson be helyet a bekezdésen belül
+// Térköz beállítása a bekezdésen belül
 paragraph.getParagraphFormat().setSpaceWithin(80);
-// Állítson be szóközt a bekezdés előtt és után
+// Bekezdés előtti és utáni térköz beállítása
 paragraph.getParagraphFormat().setSpaceBefore(40);
 paragraph.getParagraphFormat().setSpaceAfter(40);
 ```
 ## 4. lépés: Mentse el a módosított prezentációt
-A szükséges módosítások elvégzése után mentse vissza a módosított prezentációt egy fájlba:
+szükséges módosítások elvégzése után mentse vissza a módosított prezentációt egy fájlba:
 ```java
 presentation.save(dataDir + "LineSpacing_out.pptx", SaveFormat.Pptx);
 ```
 
 ## Következtetés
-Java PowerPoint prezentációk sorközének kezelésének elsajátítása az Aspose.Slides for Java segítségével lehetővé teszi a fejlesztők számára, hogy vizuálisan tetszetős diákat készítsenek, egyedi tervezési követelményekhez szabva. Az Aspose.Slides rugalmasságának és robusztusságának kiaknázásával a Java fejlesztők hatékonyan szabályozhatják a bekezdések közötti távolságot, hogy javítsák a teljes prezentáció elrendezését.
+Az Aspose.Slides for Java segítségével a Java PowerPoint prezentációk sorközeinek kezelésének elsajátítása lehetővé teszi a fejlesztők számára, hogy vizuálisan vonzó diákat hozzanak létre, amelyek az adott tervezési követelményekhez igazodnak. Az Aspose.Slides rugalmasságának és robusztusságának kihasználásával a Java fejlesztők hatékonyan szabályozhatják a bekezdések közötti távolságot, így javítva a prezentáció általános elrendezését.
 ## GYIK
-### Az Aspose.Slides a sorközön kívül más formázási feladatokat is kezelhet?
-Igen, az Aspose.Slides a formázási lehetőségek széles skáláját támogatja, beleértve a betűstílusokat, színeket, igazításokat és egyebeket.
+### Az Aspose.Slides a sorközön kívül más formázási feladatokat is tud kezelni?
+Igen, az Aspose.Slides számos formázási lehetőséget támogat, beleértve a betűtípusokat, színeket, igazítást és egyebeket.
 ### Az Aspose.Slides kompatibilis a PowerPoint összes verziójával?
-Az Aspose.Slides támogatja a PowerPoint prezentációk régebbi (.ppt) és újabb (.pptx) formátumait.
-### Hol találom az Aspose.Slides átfogó dokumentációját?
-Megtekintheti a részletes dokumentációt[itt](https://reference.aspose.com/slides/java/).
+Az Aspose.Slides a PowerPoint prezentációk régebbi (.ppt) és újabb (.pptx) formátumait is támogatja.
+### Hol találok átfogó dokumentációt az Aspose.Slides-hez?
+Részletes dokumentációt böngészhet [itt](https://reference.aspose.com/slides/java/).
 ### Az Aspose.Slides ingyenes próbaverziót kínál?
- Igen, letölthet egy ingyenes próbaverziót a webhelyről[itt](https://releases.aspose.com/).
+Igen, letölthet egy ingyenes próbaverziót innen [itt](https://releases.aspose.com/).
 ### Hogyan kaphatok technikai támogatást az Aspose.Slides-hez?
- Technikai segítségért látogasson el az Aspose.Slides oldalára[támogatói fórum](https://forum.aspose.com/c/slides/11).
+Technikai segítségért látogassa meg az Aspose.Slides weboldalt. [támogató fórum](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

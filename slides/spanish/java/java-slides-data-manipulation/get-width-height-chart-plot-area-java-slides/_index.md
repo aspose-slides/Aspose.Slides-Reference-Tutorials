@@ -1,43 +1,45 @@
 ---
-title: Obtenga ancho y alto del área de trazado del gráfico en diapositivas de Java
-linktitle: Obtenga ancho y alto del área de trazado del gráfico en diapositivas de Java
-second_title: Aspose.Slides API de procesamiento de PowerPoint Java
-description: Aprenda a recuperar las dimensiones del área del trazado del gráfico en Java Slides usando Aspose.Slides para Java. Mejore sus habilidades de automatización de PowerPoint.
-weight: 21
-url: /es/java/data-manipulation/get-width-height-chart-plot-area-java-slides/
+"description": "Aprenda a recuperar las dimensiones del área de un gráfico en Presentaciones de Java con Aspose.Slides para Java. Mejore sus habilidades de automatización de PowerPoint."
+"linktitle": "Obtener el ancho y la altura del área de trazado del gráfico en diapositivas de Java"
+"second_title": "API de procesamiento de PowerPoint en Java de Aspose.Slides"
+"title": "Obtener el ancho y la altura del área de trazado del gráfico en diapositivas de Java"
+"url": "/es/java/data-manipulation/get-width-height-chart-plot-area-java-slides/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Obtenga ancho y alto del área de trazado del gráfico en diapositivas de Java
+# Obtener el ancho y la altura del área de trazado del gráfico en diapositivas de Java
 
 
 ## Introducción
 
-Los gráficos son una forma poderosa de visualizar datos en presentaciones de PowerPoint. A veces, es posible que necesite conocer las dimensiones del área de trazado de un gráfico por diversos motivos, como cambiar el tamaño o reposicionar elementos dentro del gráfico. Esta guía demostrará cómo obtener el ancho y el alto del área de trazado usando Java y Aspose.Slides para Java.
+Los gráficos son una forma eficaz de visualizar datos en presentaciones de PowerPoint. En ocasiones, puede que necesite conocer las dimensiones del área de trazado de un gráfico por diversas razones, como cambiar el tamaño o la posición de elementos dentro del gráfico. Esta guía le mostrará cómo obtener el ancho y la altura del área de trazado utilizando Java y Aspose.Slides para Java.
 
-## Requisitos previos
+## Prerrequisitos
 
- Antes de sumergirnos en el código, asegúrese de tener la biblioteca Aspose.Slides para Java instalada y configurada en su proyecto Java. Puede descargar la biblioteca desde el sitio web de Aspose.[aquí](https://releases.aspose.com/slides/java/).
+Antes de profundizar en el código, asegúrese de tener la biblioteca Aspose.Slides para Java instalada y configurada en su proyecto Java. Puede descargarla desde el sitio web de Aspose. [aquí](https://releases.aspose.com/slides/java/).
 
-## Paso 1: configurar el entorno
+## Paso 1: Configuración del entorno
 
-Asegúrese de tener la biblioteca Aspose.Slides para Java agregada a su proyecto Java. Puede hacer esto incluyendo la biblioteca en las dependencias de su proyecto o agregando manualmente el archivo JAR.
+Asegúrese de tener la biblioteca Aspose.Slides para Java añadida a su proyecto Java. Puede hacerlo incluyendo la biblioteca en las dependencias de su proyecto o añadiendo manualmente el archivo JAR.
 
-## Paso 2: crear una presentación de PowerPoint
+## Paso 2: Crear una presentación de PowerPoint
 
-Comencemos creando una presentación de PowerPoint y agregándole una diapositiva. Esto servirá como contenedor para nuestro gráfico.
+Comencemos creando una presentación de PowerPoint y agregándole una diapositiva. Esta servirá como contenedor para nuestro gráfico.
 
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.Pptx");
 ```
 
- Reemplazar`"Your Document Directory"` con la ruta a su directorio de documentos.
+Reemplazar `"Your Document Directory"` con la ruta al directorio de su documento.
 
-## Paso 3: agregar un gráfico
+## Paso 3: Agregar un gráfico
 
 Ahora, agreguemos un gráfico de columnas agrupadas a la diapositiva. También validaremos el diseño del gráfico.
 
@@ -50,7 +52,7 @@ Este código crea un gráfico de columnas agrupadas en la posición (100, 100) c
 
 ## Paso 4: Obtener las dimensiones del área de la parcela
 
-Para recuperar el ancho y el alto del área de trazado del gráfico, podemos usar el siguiente código:
+Para recuperar el ancho y la altura del área de trazado del gráfico, podemos utilizar el siguiente código:
 
 ```java
 double x = chart.getPlotArea().getActualX();
@@ -59,19 +61,19 @@ double w = chart.getPlotArea().getActualWidth();
 double h = chart.getPlotArea().getActualHeight();
 ```
 
- Ahora las variables`x`, `y`, `w` , y`h` contienen los valores respectivos para las coordenadas X, coordenadas Y, ancho y alto del área de trazado.
+Ahora, las variables `x`, `y`, `w`, y `h` Contienen los valores respectivos para las coordenadas X, Y, ancho y alto del área de la gráfica.
 
-## Paso 5: guardar la presentación
+## Paso 5: Guardar la presentación
 
-Finalmente, guarde la presentación con el gráfico.
+Por último, guarde la presentación con el gráfico.
 
 ```java
 pres.save(dataDir + "Chart_out.pptx", SaveFormat.Pptx);
 ```
 
- Asegúrate de reemplazar`"Chart_out.pptx"` con el nombre del archivo de salida que desee.
+Asegúrese de reemplazar `"Chart_out.pptx"` con el nombre de archivo de salida deseado.
 
-## Código fuente completo para obtener ancho y alto del área de trazado del gráfico en diapositivas de Java
+## Código fuente completo para obtener el ancho y la altura del área de trazado de un gráfico en diapositivas de Java
 
 ```java
 // La ruta al directorio de documentos.
@@ -96,29 +98,31 @@ finally
 
 ## Conclusión
 
-En este artículo, cubrimos cómo obtener el ancho y el alto del área de trazado de un gráfico en Java Slides usando la API Aspose.Slides para Java. Esta información puede ser valiosa cuando necesita ajustar dinámicamente el diseño de sus gráficos dentro de presentaciones de PowerPoint.
+En este artículo, explicamos cómo obtener el ancho y la altura del área de trazado de un gráfico en Java Slides mediante la API de Aspose.Slides para Java. Esta información puede ser útil al ajustar dinámicamente el diseño de los gráficos en presentaciones de PowerPoint.
 
 ## Preguntas frecuentes
 
-### ¿Cómo puedo cambiar el tipo de gráfico a algo que no sean columnas agrupadas?
+### ¿Cómo puedo cambiar el tipo de gráfico a algo distinto a columnas agrupadas?
 
- Puede cambiar el tipo de gráfico reemplazando`ChartType.ClusteredColumn` con la enumeración del tipo de gráfico deseado, como`ChartType.Line` o`ChartType.Pie`.
+Puede cambiar el tipo de gráfico reemplazando `ChartType.ClusteredColumn` con la enumeración del tipo de gráfico deseado, como por ejemplo `ChartType.Line` o `ChartType.Pie`.
 
 ### ¿Puedo modificar otras propiedades del gráfico?
 
-Sí, puede modificar varias propiedades del gráfico, como datos, etiquetas y formato, utilizando la API Aspose.Slides para Java. Consulte la documentación para obtener más detalles.
+Sí, puede modificar varias propiedades del gráfico, como datos, etiquetas y formato, mediante la API de Aspose.Slides para Java. Consulte la documentación para obtener más información.
 
-### ¿Aspose.Slides para Java es adecuado para la automatización profesional de PowerPoint?
+### ¿Es Aspose.Slides para Java adecuado para la automatización profesional de PowerPoint?
 
-Sí, Aspose.Slides para Java es una poderosa biblioteca para automatizar tareas de PowerPoint en aplicaciones Java. Proporciona funciones integrales para trabajar con presentaciones, diapositivas, formas, gráficos y más.
+Sí, Aspose.Slides para Java es una potente biblioteca para automatizar tareas de PowerPoint en aplicaciones Java. Ofrece funciones completas para trabajar con presentaciones, diapositivas, formas, gráficos y más.
 
 ### ¿Cómo puedo obtener más información sobre Aspose.Slides para Java?
 
- Puede encontrar documentación extensa y ejemplos en la página de documentación de Aspose.Slides para Java.[aquí](https://reference.aspose.com/slides/java/).
+Puede encontrar documentación extensa y ejemplos en la página de documentación de Aspose.Slides para Java [aquí](https://reference.aspose.com/slides/java/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

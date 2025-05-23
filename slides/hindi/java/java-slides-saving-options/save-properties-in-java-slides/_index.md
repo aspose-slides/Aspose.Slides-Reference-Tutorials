@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में गुण सहेजें
-linktitle: जावा स्लाइड्स में गुण सहेजें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java के साथ अपने PowerPoint प्रेजेंटेशन को ऑप्टिमाइज़ करें। गुण सेट करना, एन्क्रिप्शन अक्षम करना, पासवर्ड सुरक्षा जोड़ना और आसानी से सहेजना सीखें।
-weight: 12
-url: /hi/java/saving-options/save-properties-in-java-slides/
+"description": "Aspose.Slides for Java के साथ अपने PowerPoint प्रेजेंटेशन को ऑप्टिमाइज़ करें। गुण सेट करना, एन्क्रिप्शन अक्षम करना, पासवर्ड सुरक्षा जोड़ना और आसानी से सहेजना सीखें।"
+"linktitle": "जावा स्लाइड्स में गुण सहेजें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में गुण सहेजें"
+"url": "/hi/java/saving-options/save-properties-in-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में गुण सहेजें
@@ -20,7 +22,7 @@ url: /hi/java/saving-options/save-properties-in-java-slides/
 
 ## आवश्यक शर्तें
 
- शुरू करने से पहले, सुनिश्चित करें कि आपके पास Aspose.Slides for Java लाइब्रेरी आपके Java प्रोजेक्ट में एकीकृत है। आप लाइब्रेरी को Aspose वेबसाइट से डाउनलोड कर सकते हैं[यहाँ](https://downloads.aspose.com/slides/java).
+शुरू करने से पहले, सुनिश्चित करें कि आपके पास Aspose.Slides for Java लाइब्रेरी आपके Java प्रोजेक्ट में एकीकृत है। आप Aspose वेबसाइट से लाइब्रेरी डाउनलोड कर सकते हैं [यहाँ](https://downloads.aspose.com/slides/java).
 
 ## चरण 1: आवश्यक लाइब्रेरीज़ आयात करें
 
@@ -51,7 +53,7 @@ Presentation presentation = new Presentation();
 // प्रस्तुति का शीर्षक निर्धारित करें
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-//प्रस्तुति का लेखक निर्धारित करें
+// प्रस्तुति का लेखक निर्धारित करें
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // प्रस्तुति के लिए कीवर्ड सेट करें
@@ -68,16 +70,16 @@ presentation.getProtectionManager().setEncryptDocumentProperties(false);
 
 ## चरण 5: प्रस्तुति की सुरक्षा के लिए पासवर्ड सेट करें
 
- आप अपनी प्रस्तुति तक पहुंच को प्रतिबंधित करने के लिए पासवर्ड से उसे सुरक्षित कर सकते हैं।`encrypt` पासवर्ड सेट करने की विधि:
+आप अपनी प्रस्तुति तक पहुंच को प्रतिबंधित करने के लिए पासवर्ड से उसे सुरक्षित कर सकते हैं। `encrypt` पासवर्ड सेट करने की विधि:
 
 ```java
 // प्रस्तुति की सुरक्षा के लिए पासवर्ड सेट करें
 presentation.getProtectionManager().encrypt("your_password");
 ```
 
- प्रतिस्थापित करें`"your_password"` अपने इच्छित पासवर्ड के साथ.
+प्रतिस्थापित करें `"your_password"` अपने इच्छित पासवर्ड के साथ.
 
-## चरण 6: प्रेजेंटेशन सहेजें
+## चरण 6: प्रस्तुति सहेजें
 
 अंत में, प्रस्तुति को एक फ़ाइल में सहेजें। इस उदाहरण में, हम इसे PPTX फ़ाइल के रूप में सहेजेंगे:
 
@@ -86,7 +88,7 @@ presentation.getProtectionManager().encrypt("your_password");
 presentation.save(dataDir + "Password_Protected_Presentation_out.pptx", SaveFormat.Pptx);
 ```
 
- प्रतिस्थापित करें`"Password_Protected_Presentation_out.pptx"` अपने इच्छित फ़ाइल नाम और पथ के साथ.
+प्रतिस्थापित करें `"Password_Protected_Presentation_out.pptx"` अपने इच्छित फ़ाइल नाम और पथ के साथ.
 
 ## जावा स्लाइड्स में सेव प्रॉपर्टीज़ के लिए पूरा सोर्स कोड
 
@@ -119,13 +121,13 @@ finally
 
 ### मैं Java के लिए Aspose.Slides में दस्तावेज़ गुण कैसे सेट कर सकता हूँ?
 
- Aspose.Slides for Java में दस्तावेज़ गुण सेट करने के लिए, आप इसका उपयोग कर सकते हैं`DocumentProperties` क्लास। शीर्षक, लेखक और कीवर्ड जैसे गुण सेट करने का एक उदाहरण यहां दिया गया है:
+Aspose.Slides for Java में दस्तावेज़ गुण सेट करने के लिए, आप इसका उपयोग कर सकते हैं `DocumentProperties` क्लास। शीर्षक, लेखक और कीवर्ड जैसे गुण सेट करने का एक उदाहरण यहां दिया गया है:
 
 ```java
 // प्रस्तुति का शीर्षक निर्धारित करें
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-//प्रस्तुति का लेखक निर्धारित करें
+// प्रस्तुति का लेखक निर्धारित करें
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // प्रस्तुति के लिए कीवर्ड सेट करें
@@ -144,18 +146,18 @@ presentation.getProtectionManager().setEncryptDocumentProperties(false);
 
 ### मैं Aspose.Slides for Java का उपयोग करके अपने PowerPoint प्रेजेंटेशन को पासवर्ड से कैसे सुरक्षित कर सकता हूँ?
 
-अपने पावरपॉइंट प्रेजेंटेशन को पासवर्ड से सुरक्षित करने के लिए, आप इसका उपयोग कर सकते हैं`encrypt` द्वारा प्रदान की गई विधि`ProtectionManager` पासवर्ड सेट करने का तरीका इस प्रकार है:
+अपने पावरपॉइंट प्रेजेंटेशन को पासवर्ड से सुरक्षित करने के लिए, आप इसका उपयोग कर सकते हैं `encrypt` द्वारा प्रदान की गई विधि `ProtectionManager` पासवर्ड सेट करने का तरीका इस प्रकार है:
 
 ```java
 // प्रस्तुति की सुरक्षा के लिए पासवर्ड सेट करें
 presentation.getProtectionManager().encrypt("your_password");
 ```
 
- प्रतिस्थापित करें`"your_password"` अपने इच्छित पासवर्ड के साथ.
+प्रतिस्थापित करें `"your_password"` अपने इच्छित पासवर्ड के साथ.
 
 ### क्या मैं प्रस्तुति को PPTX के अलावा किसी अन्य प्रारूप में सहेज सकता हूँ?
 
- हां, आप प्रस्तुति को Aspose.Slides for Java द्वारा समर्थित विभिन्न प्रारूपों में सहेज सकते हैं, जैसे कि PPT, PDF, और अधिक। किसी भिन्न प्रारूप में सहेजने के लिए, बदलें`SaveFormat` पैरामीटर में`presentation.save` विधि। उदाहरण के लिए, PDF के रूप में सहेजने के लिए:
+हां, आप प्रस्तुति को Aspose.Slides for Java द्वारा समर्थित विभिन्न प्रारूपों में सहेज सकते हैं, जैसे कि PPT, PDF, और अधिक। किसी भिन्न प्रारूप में सहेजने के लिए, बदलें `SaveFormat` पैरामीटर में `presentation.save` विधि। उदाहरण के लिए, PDF के रूप में सहेजने के लिए:
 
 ```java
 presentation.save(dataDir + "Presentation.pdf", SaveFormat.Pdf);
@@ -163,7 +165,7 @@ presentation.save(dataDir + "Presentation.pdf", SaveFormat.Pdf);
 
 ### क्या प्रेजेंटेशन ऑब्जेक्ट को सेव करने के बाद उसे हटाना आवश्यक है?
 
- सिस्टम संसाधनों को रिलीज़ करने के लिए प्रेजेंटेशन ऑब्जेक्ट को हटाना एक अच्छा अभ्यास है। आप इसका उपयोग कर सकते हैं`finally` उचित निपटान सुनिश्चित करने के लिए ब्लॉक का उपयोग करें, जैसा कि कोड उदाहरण में दिखाया गया है:
+सिस्टम संसाधनों को रिलीज़ करने के लिए प्रेजेंटेशन ऑब्जेक्ट को हटाना एक अच्छा अभ्यास है। आप इसका उपयोग कर सकते हैं `finally` उचित निपटान सुनिश्चित करने के लिए ब्लॉक का उपयोग करें, जैसा कि कोड उदाहरण में दिखाया गया है:
 
 ```java
 finally {
@@ -175,10 +177,12 @@ finally {
 
 ### मैं Aspose.Slides for Java और इसकी विशेषताओं के बारे में अधिक कैसे जान सकता हूँ?
 
- आप Aspose.Slides for Java दस्तावेज़न यहाँ देख सकते हैं[यहाँ](https://docs.aspose.com/slides/java/) लाइब्रेरी के उपयोग के बारे में विस्तृत जानकारी, ट्यूटोरियल और उदाहरण के लिए यहां क्लिक करें।
+आप Aspose.Slides for Java दस्तावेज़न यहाँ देख सकते हैं [यहाँ](https://docs.aspose.com/slides/java/) लाइब्रेरी के उपयोग के बारे में विस्तृत जानकारी, ट्यूटोरियल और उदाहरण के लिए यहां क्लिक करें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

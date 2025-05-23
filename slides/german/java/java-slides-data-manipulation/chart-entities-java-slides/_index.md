@@ -1,14 +1,16 @@
 ---
-title: Diagrammentitäten in Java-Folien
-linktitle: Diagrammentitäten in Java-Folien
-second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie mit Aspose.Slides Java Slides-Diagramme erstellen und anpassen. Verbessern Sie Ihre Präsentationen mit leistungsstarken Diagrammelementen.
-weight: 13
-url: /de/java/data-manipulation/chart-entities-java-slides/
+"description": "Erfahren Sie, wie Sie Java Slides-Diagramme mit Aspose.Slides erstellen und anpassen. Optimieren Sie Ihre Präsentationen mit leistungsstarken Diagrammen."
+"linktitle": "Diagrammentitäten in Java-Folien"
+"second_title": "Aspose.Slides Java PowerPoint-Verarbeitungs-API"
+"title": "Diagrammentitäten in Java-Folien"
+"url": "/de/java/data-manipulation/chart-entities-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Diagrammentitäten in Java-Folien
@@ -16,7 +18,7 @@ url: /de/java/data-manipulation/chart-entities-java-slides/
 
 ## Einführung in Diagrammentitäten in Java-Folien
 
-Diagramme sind leistungsstarke Tools zur Visualisierung von Daten in Präsentationen. Egal, ob Sie Geschäftsberichte, akademische Präsentationen oder andere Inhalte erstellen, Diagramme helfen dabei, Informationen effektiv zu vermitteln. Aspose.Slides für Java bietet robuste Funktionen für die Arbeit mit Diagrammen und ist damit die erste Wahl für Java-Entwickler.
+Diagramme sind leistungsstarke Werkzeuge zur Visualisierung von Daten in Präsentationen. Ob Sie Geschäftsberichte, akademische Präsentationen oder andere Inhalte erstellen – Diagramme helfen Ihnen, Informationen effektiv zu vermitteln. Aspose.Slides für Java bietet robuste Funktionen für die Arbeit mit Diagrammen und ist damit die erste Wahl für Java-Entwickler.
 
 ## Voraussetzungen
 
@@ -39,7 +41,7 @@ Presentation pres = new Presentation();
 
 ## Schritt 2: Hinzufügen eines Diagramms
 
-Sobald Ihre Präsentation fertig ist, können Sie ein Diagramm hinzufügen. In diesem Beispiel fügen wir ein einfaches Liniendiagramm mit Markierungen hinzu. So können Sie es machen:
+Sobald Ihre Präsentation fertig ist, fügen Sie ein Diagramm hinzu. In diesem Beispiel fügen wir ein einfaches Liniendiagramm mit Markierungen hinzu. So geht's:
 
 ```java
 // Zugriff auf die erste Folie
@@ -51,7 +53,7 @@ IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 50, 50, 500
 
 ## Schritt 3: Diagrammtitel anpassen
 
-Ein gut definiertes Diagramm sollte einen Titel haben. Lassen Sie uns einen Titel für unser Diagramm festlegen:
+Ein gut definiertes Diagramm sollte einen Titel haben. Legen wir einen Titel für unser Diagramm fest:
 
 ```java
 // Festlegen des Diagrammtitels
@@ -61,9 +63,9 @@ IPortion chartTitle = chart.getChartTitle().getTextFrameForOverriding().getParag
 chartTitle.setText("Sample Chart");
 ```
 
-## Schritt 4: Gitternetzlinien formatieren
+## Schritt 4: Rasterlinien formatieren
 
-Sie können die Haupt- und Nebenrasterlinien Ihres Diagramms formatieren. Lassen Sie uns einige Formatierungen für die Rasterlinien der vertikalen Achse festlegen:
+Sie können die Haupt- und Nebengitterlinien Ihres Diagramms formatieren. Legen wir die Formatierung für die Gitterlinien der vertikalen Achse fest:
 
 ```java
 // Festlegen des Formats der Hauptrasterlinien für die Werteachse
@@ -83,12 +85,12 @@ chart.getAxes().getVerticalAxis().getMinorGridLinesFormat().getLine().setWidth(3
 Sie haben Kontrolle über das Zahlenformat sowie die Maximal- und Minimalwerte der Werteachse. So passen Sie sie an:
 
 ```java
-// Zahlenformat der Werteachse festlegen
+// Festlegen des Zahlenformats der Werteachse
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setDisplayUnit(DisplayUnitType.Thousands);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.0%");
 
-// Einstelldiagramm Maximal-, Minimalwerte
+// Einstelltabelle Maximal-, Minimalwerte
 chart.getAxes().getVerticalAxis().setAutomaticMajorUnit(false);
 chart.getAxes().getVerticalAxis().setAutomaticMaxValue(false);
 chart.getAxes().getVerticalAxis().setAutomaticMinorUnit(false);
@@ -104,7 +106,7 @@ chart.getAxes().getVerticalAxis().setMajorUnit(2.0f);
 Um Ihr Diagramm informativer zu gestalten, können Sie der Werteachse einen Titel hinzufügen:
 
 ```java
-// Festlegen des Titels der Werteachse
+// Titel der Werteachse festlegen
 chart.getAxes().getVerticalAxis().setTitle(true);
 chart.getAxes().getVerticalAxis().getTitle().addTextFrameForOverriding("");
 IPortion valtitle = chart.getAxes().getVerticalAxis().getTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).getPortions().get_Item(0);
@@ -113,7 +115,7 @@ valtitle.setText("Primary Axis");
 
 ## Schritt 7: Kategorieachse formatieren
 
-Die Kategorieachse, die normalerweise Datenkategorien darstellt, kann auch angepasst werden:
+Die Kategorieachse, die normalerweise Datenkategorien darstellt, kann ebenfalls angepasst werden:
 
 ```java
 // Festlegen des Formats der Hauptrasterlinien für die Kategorieachse
@@ -129,7 +131,7 @@ chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().setWidth
 
 ## Schritt 8: Legenden hinzufügen
 
-Legenden helfen dabei, die Datenreihen in Ihrem Diagramm zu erklären. Lassen Sie uns die Legenden anpassen:
+Legenden helfen dabei, die Datenreihen in Ihrem Diagramm zu erklären. Passen wir die Legenden an:
 
 ```java
 // Festlegen der Texteigenschaften für Legenden
@@ -140,7 +142,7 @@ txtleg.setFontItalic(NullableBool.True);
 txtleg.getFillFormat().setFillType(FillType.Solid);
 txtleg.getFillFormat().getSolidFillColor().setColor(Color.RED);
 
-// Legen Sie fest, ob Diagrammlegenden ohne überlappende Diagramme angezeigt werden sollen.
+// Legen Sie fest, dass Diagrammlegenden ohne überlappende Diagramme angezeigt werden sollen.
 chart.getLegend().setOverlay(true);
 ```
 
@@ -155,7 +157,7 @@ pres.save(dataDir + "FormattedChart_out.pptx", SaveFormat.Pptx);
 ## Vollständiger Quellcode für Diagrammentitäten in Java-Folien
 
 ```java
-// Der Pfad zum Dokumentverzeichnis.
+// Der Pfad zum Dokumentenverzeichnis.
 String dataDir = "Your Document Directory";
 // Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
 boolean IsExists = new File(dataDir).exists();
@@ -188,11 +190,11 @@ try
 	chart.getAxes().getVerticalAxis().getMinorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	chart.getAxes().getVerticalAxis().getMinorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
 	chart.getAxes().getVerticalAxis().getMinorGridLinesFormat().getLine().setWidth(3);
-	// Zahlenformat der Werteachse festlegen
+	// Festlegen des Zahlenformats der Werteachse
 	chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 	chart.getAxes().getVerticalAxis().setDisplayUnit(DisplayUnitType.Thousands);
 	chart.getAxes().getVerticalAxis().setNumberFormat("0.0%");
-	// Einstelldiagramm Maximal-, Minimalwerte
+	// Einstelltabelle Maximal-, Minimalwerte
 	chart.getAxes().getVerticalAxis().setAutomaticMajorUnit(false);
 	chart.getAxes().getVerticalAxis().setAutomaticMaxValue(false);
 	chart.getAxes().getVerticalAxis().setAutomaticMinorUnit(false);
@@ -209,7 +211,7 @@ try
 	txtVal.getFillFormat().setFillType(FillType.Solid);
 	txtVal.getFillFormat().getSolidFillColor().setColor(Color.GREEN);
 	txtVal.setLatinFont(new FontData("Times New Roman"));
-	// Festlegen des Titels der Werteachse
+	// Titel der Werteachse festlegen
 	chart.getAxes().getVerticalAxis().setTitle(true);
 	chart.getAxes().getVerticalAxis().getTitle().addTextFrameForOverriding("");
 	IPortion valtitle = chart.getAxes().getVerticalAxis().getTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).getPortions().get_Item(0);
@@ -222,7 +224,7 @@ try
 	// Format der Wertachsenlinie festlegen: Jetzt veraltet
 	// chart.getAxes().getVerticalAxis().aVerticalAxis.l.AxisLine.setWidth(10);
 	// chart.getAxes().getVerticalAxis().AxisLine.getFillFormat().setFillType(FillType.Solid);
-	// Chart.getAxes().getVerticalAxis().AxisLine.getFillFormat().getSolidFillColor().Color = Farbe.Rot;
+	// Chart.getAxes().getVerticalAxis().AxisLine.getFillFormat().getSolidFillColor().Color = Color.Red;
 	// Festlegen des Formats der Hauptrasterlinien für die Kategorieachse
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.GREEN);
@@ -260,17 +262,17 @@ try
 	txtleg.setFontItalic(NullableBool.True);
 	txtleg.getFillFormat().setFillType(FillType.Solid);
 	txtleg.getFillFormat().getSolidFillColor().setColor(Color.RED);
-	// Legen Sie fest, ob Diagrammlegenden ohne überlappende Diagramme angezeigt werden sollen.
+	// Legen Sie fest, dass Diagrammlegenden ohne überlappende Diagramme angezeigt werden sollen.
 	chart.getLegend().setOverlay(true);
 	// Aufzeichnen der ersten Reihe auf der sekundären Werteachse
 	// Chart.getChartData().getSeries().get_Item(0).PlotOnSecondAxis = true;
-	// Farbschema für die Rückwand festlegen
+	// Farbschema für die Rückwand
 	chart.getBackWall().setThickness(1);
 	chart.getBackWall().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getBackWall().getFormat().getFill().getSolidFillColor().setColor(Color.ORANGE);
 	chart.getFloor().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getFloor().getFormat().getFill().getSolidFillColor().getColor();
-	//Festlegen der Farbe des Plotbereichs
+	// Festlegen der Farbe des Plotbereichs
 	chart.getPlotArea().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getPlotArea().getFormat().getFill().getSolidFillColor().setColor(new Color(PresetColor.LightCyan));
 	// Präsentation speichern
@@ -290,26 +292,28 @@ In diesem Artikel haben wir die Welt der Diagrammentitäten in Java Slides mit A
 
 ### Wie ändere ich den Diagrammtyp?
 
- Um den Diagrammtyp zu ändern, verwenden Sie die`chart.setType()` und geben Sie den gewünschten Diagrammtyp an.
+Um den Diagrammtyp zu ändern, verwenden Sie das `chart.setType()` Methode und geben Sie den gewünschten Diagrammtyp an.
 
 ### Kann ich einem Diagramm mehrere Datenreihen hinzufügen?
 
- Ja, Sie können mehrere Datenreihen zu einem Diagramm hinzufügen, indem Sie`chart.getChartData().getSeries().addSeries()` Methode.
+Ja, Sie können mehrere Datenreihen zu einem Diagramm hinzufügen, indem Sie das `chart.getChartData().getSeries().addSeries()` Verfahren.
 
 ### Wie passe ich die Diagrammfarben an?
 
-Sie können die Diagrammfarben anpassen, indem Sie das Füllformat für verschiedene Diagrammelemente wie Gitternetzlinien, Titel und Legenden festlegen.
+Sie können die Diagrammfarben anpassen, indem Sie das Füllformat für verschiedene Diagrammelemente wie Rasterlinien, Titel und Legenden festlegen.
 
 ### Kann ich 3D-Diagramme erstellen?
 
- Ja, Aspose.Slides für Java unterstützt die Erstellung von 3D-Diagrammen. Sie können die`ChartType` zu einem 3D-Diagrammtyp, um eines zu erstellen.
+Ja, Aspose.Slides für Java unterstützt die Erstellung von 3D-Diagrammen. Sie können die `ChartType` zu einem 3D-Diagrammtyp, um eines zu erstellen.
 
 ### Ist Aspose.Slides für Java mit den neuesten Java-Versionen kompatibel?
 
 Ja, Aspose.Slides für Java wird regelmäßig aktualisiert, um die neuesten Java-Versionen zu unterstützen und Kompatibilität mit einer Vielzahl von Java-Umgebungen zu bieten.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

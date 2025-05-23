@@ -1,36 +1,38 @@
 ---
-title: Elementy wykresów w slajdach Java
-linktitle: Elementy wykresów w slajdach Java
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Naucz się tworzyć i dostosowywać wykresy Java Slides za pomocą Aspose.Slides. Ulepsz swoje prezentacje za pomocą potężnych jednostek wykresów.
-weight: 13
-url: /pl/java/data-manipulation/chart-entities-java-slides/
+"description": "Naucz się tworzyć i dostosowywać wykresy Java Slides za pomocą Aspose.Slides. Ulepsz swoje prezentacje za pomocą potężnych encji wykresów."
+"linktitle": "Wykresy jednostek w slajdach Java"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Wykresy jednostek w slajdach Java"
+"url": "/pl/java/data-manipulation/chart-entities-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Elementy wykresów w slajdach Java
+# Wykresy jednostek w slajdach Java
 
 
-## Wprowadzenie do jednostek wykresów w slajdach Java
+## Wprowadzenie do encji wykresu w slajdach Java
 
-Wykresy to potężne narzędzia do wizualizacji danych w prezentacjach. Niezależnie od tego, czy tworzysz raporty biznesowe, prezentacje akademickie, czy jakąkolwiek inną formę treści, wykresy pomagają skutecznie przekazywać informacje. Aspose.Slides for Java zapewnia solidne funkcje do pracy z wykresami, dzięki czemu jest chętnie wybieranym wyborem dla programistów Java.
+Wykresy to potężne narzędzia do wizualizacji danych w prezentacjach. Niezależnie od tego, czy tworzysz raporty biznesowe, prezentacje akademickie czy jakąkolwiek inną formę treści, wykresy pomagają skutecznie przekazywać informacje. Aspose.Slides for Java oferuje solidne funkcje do pracy z wykresami, co czyni go wyborem dla programistów Java.
 
-## Warunki wstępne
+## Wymagania wstępne
 
-Zanim zagłębimy się w świat jednostek wykresów, upewnij się, że spełnione są następujące wymagania wstępne:
+Zanim zagłębimy się w świat encji wykresu, upewnij się, że spełnione są następujące wymagania wstępne:
 
-- Zainstalowany zestaw Java Development Kit (JDK).
-- Biblioteka Aspose.Slides for Java pobrana i dodana do Twojego projektu
-- Podstawowa znajomość programowania w języku Java
+- Zainstalowano Java Development Kit (JDK)
+- Biblioteka Aspose.Slides for Java została pobrana i dodana do projektu
+- Podstawowa znajomość programowania w Javie
 
-Teraz zacznijmy od tworzenia i dostosowywania wykresów za pomocą Aspose.Slides dla Java.
+Teraz zajmiemy się tworzeniem i dostosowywaniem wykresów za pomocą Aspose.Slides dla Java.
 
 ## Krok 1: Tworzenie prezentacji
 
-Pierwszym krokiem jest utworzenie nowej prezentacji, do której dodasz wykres. Oto fragment kodu umożliwiający utworzenie prezentacji:
+Pierwszym krokiem jest utworzenie nowej prezentacji, do której dodasz swój wykres. Oto fragment kodu do utworzenia prezentacji:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -39,19 +41,19 @@ Presentation pres = new Presentation();
 
 ## Krok 2: Dodawanie wykresu
 
-Gdy prezentacja jest już gotowa, czas dodać wykres. W tym przykładzie dodamy prosty wykres liniowy ze znacznikami. Oto jak możesz to zrobić:
+Gdy prezentacja będzie gotowa, czas dodać wykres. W tym przykładzie dodamy prosty wykres liniowy ze znacznikami. Oto, jak to zrobić:
 
 ```java
 // Dostęp do pierwszego slajdu
 ISlide slide = pres.getSlides().get_Item(0);
 
-// Dodanie przykładowego wykresu
+// Dodawanie przykładowego wykresu
 IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 50, 50, 500, 400);
 ```
 
 ## Krok 3: Dostosowywanie tytułu wykresu
 
-Dobrze zdefiniowany wykres powinien mieć tytuł. Nadajmy tytuł naszemu wykresowi:
+Dobrze zdefiniowany wykres powinien mieć tytuł. Ustawmy tytuł dla naszego wykresu:
 
 ```java
 // Ustawianie tytułu wykresu
@@ -63,7 +65,7 @@ chartTitle.setText("Sample Chart");
 
 ## Krok 4: Formatowanie linii siatki
 
-Można formatować główne i pomocnicze linie siatki wykresu. Ustawmy formatowanie linii siatki osi pionowej:
+Możesz sformatować główne i podrzędne linie siatki swojego wykresu. Ustawmy formatowanie dla linii siatki osi pionowej:
 
 ```java
 // Ustawianie formatu głównych linii siatki dla osi wartości
@@ -72,7 +74,7 @@ chart.getAxes().getVerticalAxis().getMajorGridLinesFormat().getLine().getFillFor
 chart.getAxes().getVerticalAxis().getMajorGridLinesFormat().getLine().setWidth(5);
 chart.getAxes().getVerticalAxis().getMajorGridLinesFormat().getLine().setDashStyle(LineDashStyle.DashDot);
 
-// Ustawianie formatu mniejszych linii siatki dla osi wartości
+// Ustawianie formatu linii siatki pomocniczej dla osi wartości
 chart.getAxes().getVerticalAxis().getMinorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 chart.getAxes().getVerticalAxis().getMinorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
 chart.getAxes().getVerticalAxis().getMinorGridLinesFormat().getLine().setWidth(3);
@@ -83,12 +85,12 @@ chart.getAxes().getVerticalAxis().getMinorGridLinesFormat().getLine().setWidth(3
 Masz kontrolę nad formatem liczb, wartościami maksymalnymi i minimalnymi osi wartości. Oto jak to dostosować:
 
 ```java
-// Ustawianie formatu numeru osi wartości
+// Ustawianie formatu liczby osi wartości
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setDisplayUnit(DisplayUnitType.Thousands);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.0%");
 
-// Tabela ustawień wartości maksymalnych i minimalnych
+// Ustawianie maksymalnych i minimalnych wartości wykresu
 chart.getAxes().getVerticalAxis().setAutomaticMajorUnit(false);
 chart.getAxes().getVerticalAxis().setAutomaticMaxValue(false);
 chart.getAxes().getVerticalAxis().setAutomaticMinorUnit(false);
@@ -99,7 +101,7 @@ chart.getAxes().getVerticalAxis().setMinorUnit(0.5f);
 chart.getAxes().getVerticalAxis().setMajorUnit(2.0f);
 ```
 
-## Krok 6: Dodanie tytułu osi wartości
+## Krok 6: Dodawanie tytułu osi wartości
 
 Aby wykres był bardziej informacyjny, możesz dodać tytuł do osi wartości:
 
@@ -121,7 +123,7 @@ chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillF
 chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.GREEN);
 chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().setWidth(5);
 
-// Ustawianie formatu mniejszych linii siatki dla osi kategorii
+// Ustawianie formatu linii siatki pomocniczej dla osi kategorii
 chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.YELLOW);
 chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().setWidth(3);
@@ -129,10 +131,10 @@ chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().setWidth
 
 ## Krok 8: Dodawanie legend
 
-Legendy pomagają objaśnić serie danych na wykresie. Dostosujmy legendy:
+Legendy pomagają wyjaśnić serie danych na wykresie. Dostosujmy legendy:
 
 ```java
-// Ustawianie właściwości tekstu legendy
+// Ustawianie właściwości tekstu legend
 IChartPortionFormat txtleg = chart.getLegend().getTextFormat().getPortionFormat();
 txtleg.setFontBold(NullableBool.True);
 txtleg.setFontHeight(16);
@@ -140,7 +142,7 @@ txtleg.setFontItalic(NullableBool.True);
 txtleg.getFillFormat().setFillType(FillType.Solid);
 txtleg.getFillFormat().getSolidFillColor().setColor(Color.RED);
 
-// Ustaw wyświetlanie legend wykresów bez nakładania się wykresów
+// Ustaw legendy wykresu bez nakładania się wykresu
 chart.getLegend().setOverlay(true);
 ```
 
@@ -152,22 +154,22 @@ Na koniec zapisz prezentację z wykresem:
 pres.save(dataDir + "FormattedChart_out.pptx", SaveFormat.Pptx);
 ```
 
-## Kompletny kod źródłowy elementów wykresu w slajdach Java
+## Kompletny kod źródłowy dla jednostek wykresu w slajdach Java
 
 ```java
 // Ścieżka do katalogu dokumentów.
 String dataDir = "Your Document Directory";
-// Utwórz katalog, jeśli jeszcze nie istnieje.
+// Utwórz katalog, jeśli jeszcze go nie ma.
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
 	new File(dataDir).mkdirs();
-// Prezentacja instancyjna// Prezentacja instancyjna
+// Tworzenie instancji prezentacji// Tworzenie instancji prezentacji
 Presentation pres = new Presentation();
 try
 {
 	// Dostęp do pierwszego slajdu
 	ISlide slide = pres.getSlides().get_Item(0);
-	// Dodanie przykładowego wykresu
+	// Dodawanie przykładowego wykresu
 	IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 50, 50, 500, 400);
 	// Ustawianie tytułu wykresu
 	chart.setTitle(true);
@@ -184,15 +186,15 @@ try
 	chart.getAxes().getVerticalAxis().getMajorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.BLUE);
 	chart.getAxes().getVerticalAxis().getMajorGridLinesFormat().getLine().setWidth(5);
 	chart.getAxes().getVerticalAxis().getMajorGridLinesFormat().getLine().setDashStyle(LineDashStyle.DashDot);
-	// Ustawianie formatu mniejszych linii siatki dla osi wartości
+	// Ustawianie formatu linii siatki pomocniczej dla osi wartości
 	chart.getAxes().getVerticalAxis().getMinorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	chart.getAxes().getVerticalAxis().getMinorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
 	chart.getAxes().getVerticalAxis().getMinorGridLinesFormat().getLine().setWidth(3);
-	// Ustawianie formatu numeru osi wartości
+	// Ustawianie formatu liczby osi wartości
 	chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 	chart.getAxes().getVerticalAxis().setDisplayUnit(DisplayUnitType.Thousands);
 	chart.getAxes().getVerticalAxis().setNumberFormat("0.0%");
-	// Tabela ustawień wartości maksymalnych i minimalnych
+	// Ustawianie maksymalnych i minimalnych wartości wykresu
 	chart.getAxes().getVerticalAxis().setAutomaticMajorUnit(false);
 	chart.getAxes().getVerticalAxis().setAutomaticMaxValue(false);
 	chart.getAxes().getVerticalAxis().setAutomaticMinorUnit(false);
@@ -227,7 +229,7 @@ try
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.GREEN);
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().setWidth(5);
-	// Ustawianie formatu mniejszych linii siatki dla osi kategorii
+	// Ustawianie formatu linii siatki pomocniczej dla osi kategorii
 	chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.YELLOW);
 	chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().setWidth(3);
@@ -253,24 +255,24 @@ try
 	chart.getAxes().getHorizontalAxis().setTickLabelPosition(TickLabelPositionType.Low);
 	// Ustawianie kąta obrotu etykiety osi kategorii
 	chart.getAxes().getHorizontalAxis().setTickLabelRotationAngle(45);
-	// Ustawianie właściwości tekstu legendy
+	// Ustawianie właściwości tekstu legend
 	IChartPortionFormat txtleg = chart.getLegend().getTextFormat().getPortionFormat();
 	txtleg.setFontBold(NullableBool.True);
 	txtleg.setFontHeight(16);
 	txtleg.setFontItalic(NullableBool.True);
 	txtleg.getFillFormat().setFillType(FillType.Solid);
 	txtleg.getFillFormat().getSolidFillColor().setColor(Color.RED);
-	// Ustaw wyświetlanie legend wykresów bez nakładania się wykresów
+	// Ustaw legendy wykresu bez nakładania się wykresu
 	chart.getLegend().setOverlay(true);
-	// Wykreślanie pierwszej serii na drugorzędnej osi wartości
-	// Chart.getChartData().getSeries().get_Item(0).PlotOnSecondAxis = true;
+	// Wykreślanie pierwszej serii na osi wartości drugorzędnych
+	// Wykres.getChartData().getSeries().get_Item(0).PlotOnSecondAxis = true;
 	// Ustawianie koloru tylnej ściany wykresu
 	chart.getBackWall().setThickness(1);
 	chart.getBackWall().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getBackWall().getFormat().getFill().getSolidFillColor().setColor(Color.ORANGE);
 	chart.getFloor().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getFloor().getFormat().getFill().getSolidFillColor().getColor();
-	//Ustawianie koloru obszaru działki
+	// Ustawianie koloru obszaru wykresu
 	chart.getPlotArea().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getPlotArea().getFormat().getFill().getSolidFillColor().setColor(new Color(PresetColor.LightCyan));
 	// Zapisz prezentację
@@ -284,32 +286,34 @@ finally
 
 ## Wniosek
 
-W tym artykule zbadaliśmy świat elementów wykresów w Java Slides przy użyciu Aspose.Slides dla Java. Nauczyłeś się tworzyć, dostosowywać i manipulować wykresami, aby ulepszyć swoje prezentacje. Wykresy nie tylko sprawiają, że dane stają się atrakcyjne wizualnie, ale także pomagają odbiorcom łatwiej zrozumieć złożone informacje.
+W tym artykule zbadaliśmy świat encji wykresów w Java Slides przy użyciu Aspose.Slides for Java. Nauczyłeś się, jak tworzyć, dostosowywać i manipulować wykresami, aby ulepszyć swoje prezentacje. Wykresy nie tylko sprawiają, że Twoje dane są atrakcyjne wizualnie, ale także pomagają odbiorcom łatwiej zrozumieć złożone informacje.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
 ### Jak zmienić typ wykresu?
 
- Aby zmienić typ wykresu, użyj opcji`chart.setType()` metodę i określ żądany typ wykresu.
+Aby zmienić typ wykresu, użyj `chart.setType()` metodę i określ pożądany typ wykresu.
 
-### Czy mogę dodać wiele serii danych do wykresu?
+### Czy mogę dodać do wykresu wiele serii danych?
 
- Tak, możesz dodać wiele serii danych do wykresu za pomocą opcji`chart.getChartData().getSeries().addSeries()` metoda.
+Tak, możesz dodać wiele serii danych do wykresu za pomocą `chart.getChartData().getSeries().addSeries()` metoda.
 
 ### Jak dostosować kolory wykresu?
 
-Kolory wykresu można dostosować, ustawiając format wypełnienia różnych elementów wykresu, takich jak linie siatki, tytuł i legendy.
+Możesz dostosować kolory wykresu, ustawiając format wypełnienia różnych elementów wykresu, takich jak linie siatki, tytuł i legenda.
 
 ### Czy mogę tworzyć wykresy 3D?
 
- Tak, Aspose.Slides for Java obsługuje tworzenie wykresów 3D. Możesz ustawić`ChartType` do typu wykresu 3D, aby go utworzyć.
+Tak, Aspose.Slides dla Java obsługuje tworzenie wykresów 3D. Możesz ustawić `ChartType` do wykresu 3D, aby go utworzyć.
 
 ### Czy Aspose.Slides for Java jest kompatybilny z najnowszymi wersjami Java?
 
 Tak, Aspose.Slides for Java jest regularnie aktualizowany, aby obsługiwać najnowsze wersje Java i zapewnia kompatybilność z szeroką gamą środowisk Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

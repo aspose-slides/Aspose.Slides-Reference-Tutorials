@@ -1,20 +1,22 @@
 ---
-title: जावा स्लाइड्स में नोट्स स्लाइड दृश्य को पीडीएफ में बदलें
-linktitle: जावा स्लाइड्स में नोट्स स्लाइड दृश्य को पीडीएफ में बदलें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके नोट्स के साथ PowerPoint प्रस्तुतियों को PDF में परिवर्तित करना सीखें। स्रोत कोड के साथ हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 16
-url: /hi/java/presentation-conversion/convert-notes-slide-view-pdf-java-slides/
+"description": "Aspose.Slides for Java का उपयोग करके नोट्स के साथ PowerPoint प्रस्तुतियों को PDF में परिवर्तित करना सीखें। स्रोत कोड के साथ हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "जावा स्लाइड्स में नोट्स स्लाइड दृश्य को पीडीएफ में बदलें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में नोट्स स्लाइड दृश्य को पीडीएफ में बदलें"
+"url": "/hi/java/presentation-conversion/convert-notes-slide-view-pdf-java-slides/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में नोट्स स्लाइड दृश्य को पीडीएफ में बदलें
 
 
-## जावा स्लाइड्स में नोट्स स्लाइड दृश्य को पीडीएफ में परिवर्तित करने का परिचय
+## जावा स्लाइड्स में नोट्स स्लाइड दृश्य को पीडीएफ में बदलने का परिचय
 
 इस ट्यूटोरियल में, हम आपको Aspose.Slides for Java लाइब्रेरी का उपयोग करके नोट्स स्लाइड दृश्य वाले PowerPoint प्रेजेंटेशन को PDF में बदलने की प्रक्रिया के बारे में बताएंगे। यह लाइब्रेरी Java में PowerPoint प्रेजेंटेशन के साथ काम करने के लिए शक्तिशाली सुविधाएँ प्रदान करती है।
 
@@ -30,7 +32,7 @@ import com.aspose.slides.*;
 ```
 
 ## चरण 2: पावरपॉइंट प्रेजेंटेशन लोड करें
- आपकी पावरपॉइंट प्रेजेंटेशन फ़ाइल तैयार होनी चाहिए।`"Your Document Directory"` उस निर्देशिका का पथ जहाँ आपकी प्रस्तुति फ़ाइल स्थित है। प्रस्तुति लोड करने के लिए कोड यहाँ दिया गया है:
+आपकी पावरपॉइंट प्रेजेंटेशन फ़ाइल तैयार होनी चाहिए। `"Your Document Directory"` उस निर्देशिका का पथ जहाँ आपकी प्रस्तुति फ़ाइल स्थित है। प्रस्तुति लोड करने के लिए कोड यहाँ दिया गया है:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -38,7 +40,7 @@ Presentation presentation = new Presentation(dataDir + "NotesFile.pptx");
 ```
 
 ## चरण 3: PDF विकल्प कॉन्फ़िगर करें
-अब, आइए PDF एक्सपोर्ट विकल्पों को कॉन्फ़िगर करें। विशेष रूप से, हम PDF में स्लाइड के नीचे नोट्स शामिल करने के लिए नोट्स की स्थिति को "बॉटमफुल" पर सेट करेंगे। यहाँ कोड है:
+अब, आइए PDF एक्सपोर्ट विकल्पों को कॉन्फ़िगर करें। विशेष रूप से, हम नोट्स की स्थिति को "बॉटमफुल" पर सेट करेंगे ताकि PDF में स्लाइड के नीचे नोट्स शामिल किए जा सकें। यहाँ कोड है:
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
@@ -49,7 +51,7 @@ options.setNotesPosition(NotesPositions.BottomFull);
 आप अपनी आवश्यकताओं के अनुसार अन्य पीडीएफ विकल्पों को अनुकूलित कर सकते हैं।
 
 ## चरण 4: प्रेजेंटेशन को नोट्स के साथ PDF के रूप में सहेजें
- अंत में, आइए प्रेजेंटेशन को नोट्स सहित PDF फ़ाइल के रूप में सेव करें। आप आउटपुट फ़ाइल का नाम निर्दिष्ट कर सकते हैं (उदाहरण के लिए,`"Pdf_Notes_out.pdf"`) और प्रारूप चुनें (`SaveFormat.Pdf`) ऐसा करने के लिए कोड यहां दिया गया है:
+अंत में, आइए प्रेजेंटेशन को नोट्स सहित PDF फ़ाइल के रूप में सेव करें। आप आउटपुट फ़ाइल का नाम निर्दिष्ट कर सकते हैं (उदाहरण के लिए, `"Pdf_Notes_out.pdf"`) और प्रारूप चुनें (`SaveFormat.Pdf`) ऐसा करने के लिए कोड यहां दिया गया है:
 
 ```java
 presentation.save(dataDir + "Pdf_Notes_out.pdf", SaveFormat.Pdf, pdfOptions);
@@ -91,7 +93,7 @@ finally
 
 ### मैं पीडीएफ में नोट्स की स्थिति कैसे बदलूं?
 
- आप पीडीएफ में नोट्स की स्थिति को संशोधित करके बदल सकते हैं`setNotesPosition` विधि तर्क। उदाहरण के लिए, आप इसे सेट कर सकते हैं`NotesPositions.RightFull` नोट्स को स्लाइड के दाईं ओर रखने के लिए.
+आप पीडीएफ में नोट्स की स्थिति को संशोधित करके बदल सकते हैं `setNotesPosition` विधि तर्क। उदाहरण के लिए, आप इसे सेट कर सकते हैं `NotesPositions.RightFull` नोट्स को स्लाइड के दाईं ओर रखने के लिए.
 
 ```java
 options.setNotesPosition(NotesPositions.RightFull);
@@ -99,11 +101,11 @@ options.setNotesPosition(NotesPositions.RightFull);
 
 ### क्या मैं पीडीएफ निर्यात को और अधिक अनुकूलित कर सकता हूं?
 
- हां, आप विभिन्न विकल्पों को समायोजित करके पीडीएफ निर्यात को अनुकूलित कर सकते हैं`PdfOptions` उदाहरण के लिए, आप अपनी आवश्यकताओं के अनुसार गुणवत्ता, संपीड़न और अन्य पैरामीटर सेट कर सकते हैं।
+हां, आप विभिन्न विकल्पों को समायोजित करके पीडीएफ निर्यात को अनुकूलित कर सकते हैं `PdfOptions` उदाहरण के लिए, आप अपनी आवश्यकताओं के अनुसार गुणवत्ता, संपीड़न और अन्य पैरामीटर सेट कर सकते हैं।
 
 ### मैं Java के लिए Aspose.Slides कैसे प्राप्त कर सकता हूँ?
 
- आप वेबसाइट से Java के लिए Aspose.Slides डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+आप वेबसाइट से Java के लिए Aspose.Slides डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 
 ### क्या Aspose.Slides का उपयोग करने के लिए कोई लाइसेंसिंग आवश्यकताएं हैं?
 
@@ -111,10 +113,12 @@ options.setNotesPosition(NotesPositions.RightFull);
 
 ### मैं अधिक दस्तावेज और उदाहरण कहां पा सकता हूं?
 
- आप Aspose.Slides for Java के लिए विस्तृत दस्तावेज़ और उदाहरण यहां पा सकते हैं[यहाँ](https://reference.aspose.com/slides/java/).
+आप Aspose.Slides for Java के लिए विस्तृत दस्तावेज़ और उदाहरण यहां पा सकते हैं [यहाँ](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,37 +1,39 @@
 ---
-title: Java Slaytlarında Kesme Desteği
-linktitle: Java Slaytlarında Kesme Desteği
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides for Java ile Java Slides kesintilerini yönetme konusunda uzmanlaşın. Bu ayrıntılı kılavuz, kesintisiz kesinti yönetimi için adım adım talimatlar ve kod örnekleri sağlar.
-weight: 12
-url: /tr/java/media-controls/support-for-interrupt-in-java-slides/
+"description": "Java için Aspose.Slides ile Java Slides kesinti işleme konusunda uzmanlaşın. Bu ayrıntılı kılavuz, sorunsuz kesinti yönetimi için adım adım talimatlar ve kod örnekleri sağlar."
+"linktitle": "Java Slaytlarında Kesinti Desteği"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java Slaytlarında Kesinti Desteği"
+"url": "/tr/java/media-controls/support-for-interrupt-in-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java Slaytlarında Kesme Desteği
+# Java Slaytlarında Kesinti Desteği
 
-# Aspose.Slides for Java ile Java Slaytlarında Kesinti Desteğine Giriş
+# Java Slaytlarında Aspose.Slides for Java ile Kesinti Desteğine Giriş
 
-Aspose.Slides for Java, Java uygulamalarında PowerPoint sunumları oluşturmak, düzenlemek ve çalışmak için güçlü bir kütüphanedir. Bu kapsamlı kılavuzda Aspose.Slides for Java kullanarak Java Slides'da kesme desteğinin nasıl kullanılacağını inceleyeceğiz. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu adım adım eğitim, ayrıntılı açıklamalar ve kod örnekleriyle süreç boyunca size yol gösterecektir.
+Aspose.Slides for Java, Java uygulamalarında PowerPoint sunumları oluşturmak, düzenlemek ve üzerinde çalışmak için güçlü bir kütüphanedir. Bu kapsamlı kılavuzda, Aspose.Slides for Java kullanarak Java Slaytlarında kesme desteğinin nasıl kullanılacağını inceleyeceğiz. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu adım adım eğitim, ayrıntılı açıklamalar ve kod örnekleriyle süreci size anlatacaktır.
 
-## Önkoşullar
+## Ön koşullar
 
-Kodun ayrıntılarına girmeden önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+Koda dalmadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
-- Sisteminizde Java Geliştirme Kiti (JDK) yüklü.
+- Sisteminizde Java Development Kit (JDK) yüklü.
 - Aspose.Slides for Java kütüphanesini indirip projenize kurun.
--  Bir PowerPoint sunum dosyası (örn.`pres.pptx`) işlemek istediğiniz.
+- Bir PowerPoint sunum dosyası (örneğin, `pres.pptx`) işlemek istediğiniz.
 
-## 1. Adım: Projenizi Kurma
+## Adım 1: Projenizi Kurma
 
- Aspose.Slides for Java kütüphanesini projenize aktardığınızdan emin olun. Kütüphaneyi adresinden indirebilirsiniz.[Web sitesi](https://reference.aspose.com/slides/java/) ve kurulum talimatlarını takip edin.
+Projenize Aspose.Slides for Java kütüphanesini içe aktardığınızdan emin olun. Kütüphaneyi şuradan indirebilirsiniz: [Aspose web sitesi](https://reference.aspose.com/slides/java/) ve kurulum talimatlarını izleyin.
 
 ## Adım 2: Kesinti Belirteci Oluşturma
 
- Bu adımda, şunu kullanarak bir kesinti belirteci oluşturacağız:`InterruptionTokenSource`. Bu belirteç, gerekirse sunum işlemini kesintiye uğratmak için kullanılacaktır.
+Bu adımda, şunu kullanarak bir kesinti belirteci oluşturacağız: `InterruptionTokenSource`Bu token gerektiğinde sunum işlemini kesmek için kullanılacaktır.
 
 ```java
 final InterruptionTokenSource tokenSource = new InterruptionTokenSource();
@@ -39,7 +41,7 @@ final InterruptionTokenSource tokenSource = new InterruptionTokenSource();
 
 ## Adım 3: Sunumu Yükleme
 
-Şimdi çalışmak istediğimiz PowerPoint sunumunu yüklememiz gerekiyor. Yükleme seçeneklerinde daha önce oluşturduğumuz kesinti jetonunu da ayarlayacağız.
+Şimdi, üzerinde çalışmak istediğimiz PowerPoint sunumunu yüklememiz gerekiyor. Ayrıca, daha önce yükleme seçeneklerinde oluşturduğumuz kesinti belirtecini de ayarlayacağız.
 
 ```java
 LoadOptions options = new LoadOptions();
@@ -47,9 +49,9 @@ options.setInterruptionToken(tokenSource.getToken());
 Presentation presentation = new Presentation(dataDir[0] + "pres.pptx", options);
 ```
 
-## Adım 4: İşlemlerin Gerçekleştirilmesi
+## Adım 4: İşlemleri Gerçekleştirme
 
-Sunu üzerinde istenilen işlemleri gerçekleştirin. Bu örnekte sunumu PPT formatında kaydedeceğiz. Bunu özel gereksinimlerinizle değiştirebilirsiniz.
+Sunumda istenilen işlemleri gerçekleştirin. Bu örnekte, sunumu PPT formatında kaydedeceğiz. Bunu kendi özel gereksinimlerinizle değiştirebilirsiniz.
 
 ```java
 try {
@@ -59,14 +61,14 @@ try {
 }
 ```
 
-## Adım 5: Ayrı Bir Konuda Çalıştırma
+## Adım 5: Ayrı Bir İş Parçacığında Çalıştırma
 
-İşlemin kesintiye uğramasını sağlamak için onu ayrı bir iş parçacığında çalıştıracağız.
+İşlemin kesintiye uğratılabilmesini sağlamak için ayrı bir iş parçacığında çalıştıracağız.
 
 ```java
 Runnable interruption = new Runnable() {
     public void run() {
-        //3. Adım ve 4. Adımdaki kod buraya gelir
+        // 3. ve 4. Adımdaki kodlar buraya gelir
     }
 };
 
@@ -74,17 +76,17 @@ Thread thread = new Thread(interruption);
 thread.start();
 ```
 
-## Adım 6: Gecikmeye Giriş
+## Adım 6: Gecikmeyi Tanıtma
 
- Kesintiye uğraması gereken bazı işleri simüle etmek için şunu kullanarak bir gecikme uygulayacağız:`Thread.sleep`. Bunu gerçek işleme mantığınızla değiştirebilirsiniz.
+Kesintiye uğraması gereken bazı işleri simüle etmek için, şunu kullanarak bir gecikme tanıtacağız: `Thread.sleep`Bunu gerçek işlem mantığınızla değiştirebilirsiniz.
 
 ```java
 Thread.sleep(10000); // Simüle edilmiş çalışma
 ```
 
-## Adım 7: İşlemin Durdurulması
+## Adım 7: İşlemi Kesintiye Uğratma
 
- Son olarak, çağrı yaparak işlemi durdurabiliriz.`interrupt()` kesinti belirteci kaynağındaki yöntem.
+Son olarak, işlemi arayarak kesintiye uğratabiliriz. `interrupt()` kesinti belirteci kaynağındaki yöntem.
 
 ```java
 tokenSource.interrupt();
@@ -112,7 +114,7 @@ Runnable interruption = new Runnable()
 		}
 	}
 };
-Thread thread = new Thread(interruption);// eylemi ayrı bir başlıkta çalıştır
+Thread thread = new Thread(interruption);// eylemi ayrı bir iş parçacığında çalıştır
 thread.start();
 Thread.sleep(10000); // biraz iş
 tokenSource.interrupt();
@@ -120,28 +122,30 @@ tokenSource.interrupt();
 
 ## Çözüm
 
-Bu eğitimde, Aspose.Slides for Java kullanarak Java Slides'da kesme işlemenin nasıl uygulanacağını araştırdık. Projenizi kurmaktan operasyonu kesintiye uğratmaya kadar önemli adımları incelikle ele aldık. Bu özellik, PowerPoint işleme uygulamalarınızda uzun süredir devam eden görevlerle uğraşırken çok değerlidir.
+Bu eğitimde, Java Slides'da Aspose.Slides for Java kullanarak kesme işlemeyi nasıl uygulayacağınızı inceledik. Projenizi kurmaktan işlemi zarif bir şekilde kesmeye kadar temel adımları ele aldık. Bu özellik, PowerPoint işleme uygulamalarınızda uzun süre çalışan görevlerle uğraşırken paha biçilmezdir.
 
-## SSS'ler
+## SSS
 
-### Java Slaytlarında kesinti yönetimi nedir?
+### Java Slides'da kesme işleme nedir?
 
-Java Slaytlar'daki kesme işleme, PowerPoint sunumlarının işlenmesi sırasında belirli işlemleri düzgün bir şekilde sonlandırma veya duraklatma yeteneğini ifade eder. Geliştiricilerin uzun süren görevleri verimli bir şekilde yönetmelerine ve harici kesintilere yanıt vermelerine olanak tanır.
+Java Slides'ta kesinti işleme, PowerPoint sunumlarının işlenmesi sırasında belirli işlemleri zarif bir şekilde sonlandırma veya duraklatma yeteneğini ifade eder. Geliştiricilerin uzun süren görevleri verimli bir şekilde yönetmelerini ve harici kesintilere yanıt vermelerini sağlar.
 
-### Aspose.Slides for Java'daki herhangi bir işlemde kesinti yönetimi kullanılabilir mi?
+### Aspose.Slides for Java'da herhangi bir işlemde kesme işleme kullanılabilir mi?
 
-Evet, Aspose.Slides for Java'da kesme yönetimi çeşitli işlemlere uygulanabilir. Uygulamanız üzerinde sorunsuz kontrol sağlamak için sunumları yükleme, sunumları kaydetme ve diğer zaman alan işlemler gibi görevleri kesintiye uğratabilirsiniz.
+Evet, kesinti işleme Aspose.Slides for Java'daki çeşitli işlemlere uygulanabilir. Uygulamanız üzerinde sorunsuz bir kontrol sağlamak için sunumları yükleme, sunumları kaydetme ve diğer zaman alıcı işlemler gibi görevleri kesintiye uğratabilirsiniz.
 
-### Kesinti yönetiminin özellikle yararlı olduğu belirli senaryolar var mı?
+### Kesinti işlemenin özellikle yararlı olduğu belirli senaryolar var mı?
 
-Kesinti yönetimi, özellikle büyük sunumları işlemeniz veya zaman alan işlemler gerçekleştirmeniz gereken senaryolarda kullanışlıdır. Gerektiğinde görevleri yarıda keserek duyarlı bir kullanıcı deneyimi sunmanıza olanak tanır.
+Kesinti işleme, özellikle büyük sunumları işlemeniz veya zaman alıcı işlemler gerçekleştirmeniz gereken senaryolarda faydalıdır. Gerektiğinde görevleri kesintiye uğratarak duyarlı bir kullanıcı deneyimi sağlamanıza olanak tanır.
 
-### Aspose.Slides for Java için daha fazla kaynak ve belgeye nereden erişebilirim?
+### Aspose.Slides for Java için daha fazla kaynağa ve belgeye nereden erişebilirim?
 
-Aspose.Slides for Java için kapsamlı belgeler, eğitimler ve örnekler bulabilirsiniz.[Web sitesi](https://reference.aspose.com/slides/java/). Ayrıca özel kullanım durumunuzla ilgili yardım almak için Aspose destek ekibine ulaşabilirsiniz.
+Java için Aspose.Slides'a yönelik kapsamlı belgeleri, eğitimleri ve örnekleri şu adreste bulabilirsiniz: [Aspose web sitesi](https://reference.aspose.com/slides/java/)Ayrıca, özel kullanım durumunuzla ilgili yardım almak için Aspose destek ekibine ulaşabilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

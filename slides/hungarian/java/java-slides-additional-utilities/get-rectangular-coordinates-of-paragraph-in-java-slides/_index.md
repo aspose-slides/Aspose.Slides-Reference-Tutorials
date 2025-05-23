@@ -1,30 +1,32 @@
 ---
-title: Szerezze be a bekezdés téglalap alakú koordinátáit a Java Slides-ben
-linktitle: Szerezze be a bekezdés téglalap alakú koordinátáit a Java Slides-ben
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan kérheti le a bekezdés koordinátáit PowerPoint-prezentációkban az Aspose.Slides for Java segítségével. Kövesse lépésről lépésre útmutatónkat a forráskóddal a pontos pozicionálás érdekében.
-weight: 13
-url: /hu/java/additional-utilities/get-rectangular-coordinates-of-paragraph-in-java-slides/
+"description": "Tanuld meg, hogyan kérhetsz le bekezdéskoordinátákat PowerPoint-bemutatókban az Aspose.Slides for Java segítségével. Kövesd lépésről lépésre szóló útmutatónkat forráskóddal a pontos pozicionálás érdekében."
+"linktitle": "Bekezdés téglalap alakú koordinátáinak lekérése Java diákban"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Bekezdés téglalap alakú koordinátáinak lekérése Java diákban"
+"url": "/hu/java/additional-utilities/get-rectangular-coordinates-of-paragraph-in-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Szerezze be a bekezdés téglalap alakú koordinátáit a Java Slides-ben
+# Bekezdés téglalap alakú koordinátáinak lekérése Java diákban
 
 
-## Bevezetés a bekezdés téglalap alakú koordinátáinak lekéréséhez az Aspose.Slides for Java programban
+## Bevezetés egy bekezdés derékszögű koordinátáinak lekéréséhez az Aspose.Slides Java-ban
 
-Ebben az oktatóanyagban bemutatjuk, hogyan lehet lekérni egy bekezdés téglalap alakú koordinátáit egy PowerPoint bemutatón belül az Aspose.Slides for Java API használatával. Az alábbi lépések követésével programozottan lekérheti egy dián belüli bekezdés helyzetét és méreteit.
+Ebben az oktatóanyagban bemutatjuk, hogyan kérhetjük le egy bekezdés téglalap alakú koordinátáit egy PowerPoint-bemutatón belül az Aspose.Slides for Java API használatával. Az alábbi lépéseket követve programozottan lekérhetjük egy bekezdés pozícióját és méreteit egy dián belül.
 
 ## Előfeltételek
 
- Mielőtt elkezdené, győződjön meg arról, hogy az Aspose.Slides for Java könyvtár telepítve van és be van állítva a Java fejlesztői környezetben. Letöltheti innen[itt](https://downloads.aspose.com/slides/java).
+Mielőtt elkezdenénk, győződjünk meg róla, hogy az Aspose.Slides for Java könyvtár telepítve és beállítva van a Java fejlesztői környezetedben. Letöltheted innen: [itt](https://downloads.aspose.com/slides/java).
 
 ## 1. lépés: Importálja a szükséges könyvtárakat
 
-kezdéshez importálja a szükséges könyvtárakat az Aspose.Slides alkalmazáshoz a Java projektben:
+Első lépésként importáld a szükséges könyvtárakat az Aspose.Slides használatához a Java projektedben:
 
 ```java
 import com.aspose.slides.*;
@@ -33,21 +35,21 @@ import java.awt.geom.Rectangle2D;
 
 ## 2. lépés: Töltse be a prezentációt
 
-Ebben a lépésben betöltjük azt a PowerPoint bemutatót, amely azt a bekezdést tartalmazza, amelynek koordinátáit le szeretnénk kérni.
+Ebben a lépésben betöltjük azt a PowerPoint bemutatót, amely tartalmazza azt a bekezdést, amelynek koordinátáit le szeretnénk kérni.
 
 ```java
 // A PowerPoint bemutatófájl elérési útja
 String presentationPath = "YourPresentation.pptx";
 
-// Töltse be a prezentációt
+// Töltsd be a prezentációt
 Presentation presentation = new Presentation(presentationPath);
 ```
 
- Mindenképpen cserélje ki`"YourPresentation.pptx"` a PowerPoint-fájl tényleges elérési útjával.
+Mindenképpen cserélje ki `"YourPresentation.pptx"` a PowerPoint-fájl tényleges elérési útjával.
 
-## 3. lépés: A bekezdés koordinátáinak lekérése
+## 3. lépés: Bekezdéskoordináták lekérése
 
-Most elérünk egy adott bekezdést a dián belül, kivonjuk a derékszögű koordinátáit, és kinyomtatjuk az eredményeket.
+Most egy adott bekezdéshez férünk hozzá egy dián belül, kinyerjük a téglalap alakú koordinátáit, és kinyomtatjuk az eredményeket.
 
 ```java
 try {
@@ -63,12 +65,12 @@ finally
 }
 ```
 
-## Teljes forráskód a bekezdés derékszögű koordinátáinak lekéréséhez Java Slides-ben
+## Teljes forráskód a bekezdés téglalap alakú koordinátáinak lekéréséhez Java diákban
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
 String dataDir = "Your Document Directory";
-// Példányosítson egy bemutató objektumot, amely egy prezentációs fájlt képvisel
+// Prezentációs fájlt reprezentáló Presentation objektum példányosítása
 Presentation presentation = new Presentation(dataDir + "Shapes.pptx");
 try
 {
@@ -82,45 +84,47 @@ finally
 }
 ```
 
-Ez a kódrészlet lekéri az első bekezdés téglalap alakú koordinátáit (X, Y, szélesség és magasság) az első dia első alakzatán belül. Módosíthatja az indexeket, hogy hozzáférjen a különböző alakzatok vagy diák bekezdéseihez, ha szükséges.
+Ez a kódrészlet az első dia első alakzatán belüli első bekezdés téglalap alakú koordinátáit (X, Y, szélesség és magasság) kéri le. Az indexeket szükség szerint módosíthatja, hogy a bekezdésekhez különböző alakzatokon vagy diákon belül is hozzáférjen.
 
 ## Következtetés
 
-Ebben az oktatóanyagban megtanulta, hogyan használja az Aspose.Slides for Java alkalmazást egy PowerPoint-bemutatón belüli bekezdés téglalap alakú koordinátáinak lekérésére. Ez akkor lehet hasznos, ha programozottan kell elemeznie vagy módosítania kell a szöveg helyzetét és méretét a diákon belül.
+Ebben az oktatóanyagban megtanultad, hogyan használhatod az Aspose.Slides for Java programot egy PowerPoint-bemutatón belüli bekezdés téglalap alakú koordinátáinak lekérésére. Ez akkor lehet hasznos, ha programozottan kell elemezned vagy manipulálnod a szöveg pozícióját és méreteit a diákon belül.
 
 ## GYIK
 
-### Hogyan érhetek el bekezdéseket egy PowerPoint dián?
+### Hogyan férhetek hozzá a bekezdésekhez egy PowerPoint dián belül?
 
-A PowerPoint dián belüli bekezdések eléréséhez az Aspose.Slides for Java használatával, kövesse az alábbi lépéseket:
-1. Töltse be a PowerPoint bemutatót.
-2.  Szerezze be a kívánt diát a segítségével`presentation.getSlides().get_Item(slideIndex)`.
-3.  A szöveget tartalmazó alakzat elérése a használatával`slide.getShapes().get_Item(shapeIndex)`.
-4.  Az alakzat szövegkeretének lekérése a segítségével`shape.getTextFrame()`.
-5.  A szövegkereten belüli bekezdések elérése a használatával`textFrame.getParagraphs().get_Item(paragraphIndex)`.
+PowerPoint dián belüli bekezdések eléréséhez az Aspose.Slides for Java használatával kövesse az alábbi lépéseket:
+1. Töltsd be a PowerPoint prezentációt.
+2. Szerezd meg a kívánt diát a következővel: `presentation.getSlides().get_Item(slideIndex)`.
+3. A szöveget tartalmazó alakzat eléréséhez használja `slide.getShapes().get_Item(shapeIndex)`.
+4. Alakzat szövegkeretének lekérése a következővel: `shape.getTextFrame()`.
+5. A szövegkereten belüli bekezdések eléréséhez használja a `textFrame.getParagraphs().get_Item(paragraphIndex)`.
 
-### Lekérhetem több diában lévő bekezdések koordinátáit?
+### Lekérhetem a bekezdések koordinátáit több dián belül?
 
-Igen, lekérheti a bekezdések koordinátáit több diában úgy, hogy szükség szerint ismételgeti a diákat és az alakzatokat. Egyszerűen ismételje meg az egyes diaformákon belüli bekezdések elérésének folyamatát, hogy megkapja azok koordinátáit.
+Igen, több dián belüli bekezdések koordinátáit is lekérheti a diák és alakzatok szükség szerinti ismétlésével. Egyszerűen ismételje meg a bekezdések elérésének folyamatát az egyes dia alakzatain belül a koordináták lekéréséhez.
 
-### Hogyan módosíthatom programozottan a bekezdés koordinátáit?
+### Hogyan tudom programozottan módosítani a bekezdéskoordinátákat?
 
-Miután lekérte egy bekezdés koordinátáit, ezt az információt felhasználhatja a bekezdés helyzetének és méreteinek programozott módosítására. Például áthelyezheti a bekezdést, módosíthatja a szélességét vagy magasságát, vagy számításokat végezhet a koordinátái alapján.
+Miután lekérte egy bekezdés koordinátáit, ezeket az információkat felhasználhatja a bekezdés pozíciójának és méreteinek programozott módosítására. Például áthelyezheti a bekezdést, módosíthatja a szélességét vagy magasságát, vagy számításokat végezhet a koordinátái alapján.
 
-### Az Aspose.Slides alkalmas PowerPoint fájlok kötegelt feldolgozására?
+### Alkalmas az Aspose.Slides PowerPoint fájlok kötegelt feldolgozására?
 
-Igen, az Aspose.Slides for Java kiválóan alkalmas PowerPoint fájlok kötegelt feldolgozására. Hatékonyan automatizálhatja az olyan feladatokat, mint az adatok kinyerése, a tartalom módosítása vagy a jelentések generálása több PowerPoint prezentációból.
+Igen, az Aspose.Slides Java-ban kiválóan alkalmas PowerPoint fájlok kötegelt feldolgozására. Hatékonyan automatizálhat olyan feladatokat, mint az adatok kinyerése, a tartalom módosítása vagy jelentések készítése több PowerPoint-prezentációból.
 
 ### Hol találok további példákat és dokumentációt?
 
- További kódpéldákat és részletes dokumentációt találhat az Aspose.Slides for Java-hoz a[Aspose.Slides dokumentáció](https://reference.aspose.com/slides/java/) weboldal. Ezenkívül felfedezheti a[Aspose.Slides fórumok](https://forum.aspose.com/c/slides) közösségi támogatásra és beszélgetésekre.
+További kódpéldákat és részletes dokumentációt az Aspose.Slides for Java alkalmazáshoz a következő címen talál: [Aspose.Slides dokumentáció](https://reference.aspose.com/slides/java/) weboldal. Ezenkívül felfedezheti a [Aspose.Slides fórumok](https://forum.aspose.com/c/slides) a közösségi támogatásért és a beszélgetésekért.
 
-### Szükségem van licencre az Aspose.Slides for Java használatához?
+### Szükségem van licencre az Aspose.Slides Java-beli használatához?
 
-Igen, az Aspose.Slides for Java éles környezetben való használatához általában érvényes licenc szükséges. A licencet az Aspose webhelyéről szerezheti be. Azonban tesztelési és értékelési célokra kínálhatnak próbaverziót.
+Igen, általában érvényes licencre van szükséged az Aspose.Slides for Java használatához éles környezetben. Licencet beszerezhetsz az Aspose weboldaláról. Előfordulhat azonban, hogy tesztelési és értékelési célokra próbaverziót kínálnak.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

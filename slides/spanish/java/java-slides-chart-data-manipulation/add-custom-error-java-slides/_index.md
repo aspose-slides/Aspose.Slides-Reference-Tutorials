@@ -1,31 +1,33 @@
 ---
-title: Agregar error personalizado en diapositivas de Java
-linktitle: Agregar error personalizado en diapositivas de Java
-second_title: Aspose.Slides API de procesamiento de PowerPoint Java
-description: Aprenda a agregar barras de error personalizadas a gráficos de PowerPoint en Presentaciones Java usando Aspose.Slides. Guía paso a paso con código fuente para una visualización precisa de los datos.
-weight: 11
-url: /es/java/chart-data-manipulation/add-custom-error-java-slides/
+"description": "Aprenda a agregar barras de error personalizadas a gráficos de PowerPoint en Java Slides con Aspose.Slides. Guía paso a paso con código fuente para una visualización precisa de datos."
+"linktitle": "Agregar error personalizado en diapositivas de Java"
+"second_title": "API de procesamiento de PowerPoint en Java de Aspose.Slides"
+"title": "Agregar error personalizado en diapositivas de Java"
+"url": "/es/java/chart-data-manipulation/add-custom-error-java-slides/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Agregar error personalizado en diapositivas de Java
 
 
-## Introducción a la adición de barras de error personalizadas en diapositivas de Java usando Aspose.Slides
+## Introducción a la adición de barras de error personalizadas en diapositivas de Java mediante Aspose.Slides
 
-En este tutorial, aprenderá cómo agregar barras de error personalizadas a un gráfico en una presentación de PowerPoint usando Aspose.Slides para Java. Las barras de error son útiles para mostrar la variabilidad o la incertidumbre en los puntos de datos de un gráfico.
+En este tutorial, aprenderá a agregar barras de error personalizadas a un gráfico en una presentación de PowerPoint con Aspose.Slides para Java. Las barras de error son útiles para mostrar la variabilidad o la incertidumbre de los datos en un gráfico.
 
-## Requisitos previos
+## Prerrequisitos
 
 Antes de comenzar, asegúrese de tener lo siguiente:
 
 - Biblioteca Aspose.Slides para Java instalada y configurada en su proyecto.
 - Un entorno de desarrollo Java configurado.
 
-## Paso 1: crea una presentación vacía
+## Paso 1: Crea una presentación vacía
 
 Primero, cree una presentación de PowerPoint vacía.
 
@@ -36,16 +38,16 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation();
 ```
 
-## Paso 2: agregue un gráfico de burbujas
+## Paso 2: Agregar un gráfico de burbujas
 
 A continuación, agregaremos un gráfico de burbujas a la presentación.
 
 ```java
-// Crear un gráfico de burbujas
+// Creación de un gráfico de burbujas
 IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Bubble, 50, 50, 400, 300, true);
 ```
 
-## Paso 3: agregue barras de error personalizadas
+## Paso 3: Agregar barras de error personalizadas
 
 Ahora, agreguemos barras de error personalizadas a la serie de gráficos.
 
@@ -60,12 +62,12 @@ errBarX.setValueType(ErrorBarValueType.Custom);
 errBarY.setValueType(ErrorBarValueType.Custom);
 ```
 
-## Paso 4: configurar los datos de las barras de error
+## Paso 4: Establecer los datos de las barras de error
 
-En este paso, accederemos a los puntos de datos de la serie de gráficos y estableceremos los valores de las barras de error personalizadas para cada punto.
+En este paso, accederemos a los puntos de datos de la serie de gráficos y estableceremos los valores de las barras de error personalizados para cada punto.
 
 ```java
-// Acceder a puntos de datos de series de gráficos y configurar valores de barras de error para puntos individuales
+// Acceso a puntos de datos de series de gráficos y configuración de valores de barras de error para puntos individuales
 IChartDataPointCollection points = series.getDataPoints();
 points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForXPlusValues(DataSourceType.DoubleLiterals);
 points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForXMinusValues(DataSourceType.DoubleLiterals);
@@ -82,18 +84,18 @@ for (int i = 0; i < points.size(); i++)
 }
 ```
 
-## Paso 5: guarde la presentación
+## Paso 5: Guardar la presentación
 
-Finalmente, guarde la presentación con las barras de error personalizadas.
+Por último, guarde la presentación con las barras de error personalizadas.
 
 ```java
 // Guardar presentación
 presentation.save(dataDir + "ErrorBarsCustomValues_out.pptx", SaveFormat.Pptx);
 ```
 
-¡Eso es todo! Ha agregado con éxito barras de error personalizadas a un gráfico en una presentación de PowerPoint usando Aspose.Slides para Java.
+¡Listo! Has añadido correctamente barras de error personalizadas a un gráfico de una presentación de PowerPoint con Aspose.Slides para Java.
 
-## Código fuente completo para agregar error personalizado en diapositivas de Java
+## Código fuente completo para agregar un error personalizado en diapositivas de Java
 
 ```java
 // La ruta al directorio de documentos.
@@ -102,7 +104,7 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation();
 try
 {
-	// Crear un gráfico de burbujas
+	// Creación de un gráfico de burbujas
 	IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Bubble, 50, 50, 400, 300, true);
 	// Agregar barras de error personalizadas y configurar su formato
 	IChartSeries series = chart.getChartData().getSeries().get_Item(0);
@@ -112,7 +114,7 @@ try
 	errBarY.setVisible(true);
 	errBarX.setValueType(ErrorBarValueType.Custom);
 	errBarY.setValueType(ErrorBarValueType.Custom);
-	// Acceder a puntos de datos de series de gráficos y configurar valores de barras de error para puntos individuales
+	// Acceso a los puntos de datos de la serie de gráficos y configuración de valores de barras de error para puntos individuales
 	IChartDataPointCollection points = series.getDataPoints();
 	points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForXPlusValues(DataSourceType.DoubleLiterals);
 	points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForXMinusValues(DataSourceType.DoubleLiterals);
@@ -137,28 +139,30 @@ finally
 
 ## Conclusión
 
-En este completo tutorial, ha aprendido cómo mejorar sus presentaciones de PowerPoint agregando barras de error personalizadas a los gráficos usando Aspose.Slides para Java. Las barras de error brindan información valiosa sobre la variabilidad y la incertidumbre de los datos, lo que hace que sus gráficos sean más informativos y visualmente atractivos.
+En este completo tutorial, aprendió a mejorar sus presentaciones de PowerPoint añadiendo barras de error personalizadas a los gráficos con Aspose.Slides para Java. Las barras de error proporcionan información valiosa sobre la variabilidad e incertidumbre de los datos, lo que hace que sus gráficos sean más informativos y visualmente atractivos.
 
 ## Preguntas frecuentes
 
 ### ¿Cómo personalizo la apariencia de las barras de error?
 
- Puede personalizar la apariencia de las barras de error modificando las propiedades del`IErrorBarsFormat` objeto, como estilo de línea, color de línea y ancho de la barra de error.
+Puede personalizar la apariencia de las barras de error modificando las propiedades de la `IErrorBarsFormat` objeto, como el estilo de línea, el color de línea y el ancho de la barra de error.
 
 ### ¿Puedo agregar barras de error a otros tipos de gráficos?
 
-Sí, puede agregar barras de error a varios tipos de gráficos admitidos por Aspose.Slides para Java, incluidos gráficos de barras, gráficos de líneas y gráficos de dispersión.
+Sí, puede agregar barras de error a varios tipos de gráficos compatibles con Aspose.Slides para Java, incluidos gráficos de barras, gráficos de líneas y gráficos de dispersión.
 
-### ¿Cómo configuro diferentes valores de barra de error para cada punto de datos?
+### ¿Cómo establezco diferentes valores de barra de error para cada punto de datos?
 
 Puede recorrer los puntos de datos y establecer valores de barra de error personalizados para cada punto, como se muestra en el código anterior.
 
 ### ¿Es posible ocultar barras de error para puntos de datos específicos?
 
- Sí, puede controlar la visibilidad de las barras de error para puntos de datos individuales configurando el`setVisible` propiedad de la`IErrorBarsFormat` objeto.
+Sí, puede controlar la visibilidad de las barras de error para puntos de datos individuales configurando la `setVisible` propiedad de la `IErrorBarsFormat` objeto.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

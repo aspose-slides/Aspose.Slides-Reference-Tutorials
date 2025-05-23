@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में कस्टम आकार के साथ कनवर्ट करें
-linktitle: जावा स्लाइड्स में कस्टम आकार के साथ कनवर्ट करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों को कस्टम आकार के साथ TIFF छवियों में परिवर्तित करना सीखें। डेवलपर्स के लिए कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 31
-url: /hi/java/presentation-conversion/convert-custom-size-java-slides/
+"description": "जानें कि Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों को कस्टम आकार के साथ TIFF छवियों में कैसे परिवर्तित किया जाए। डेवलपर्स के लिए कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "जावा स्लाइड्स में कस्टम आकार के साथ कनवर्ट करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में कस्टम आकार के साथ कनवर्ट करें"
+"url": "/hi/java/presentation-conversion/convert-custom-size-java-slides/"
+"weight": 31
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में कस्टम आकार के साथ कनवर्ट करें
@@ -25,7 +27,7 @@ url: /hi/java/presentation-conversion/convert-custom-size-java-slides/
 - जावा डेवलपमेंट किट (JDK) स्थापित
 - Aspose.Slides for Java लाइब्रेरी
 
- आप वेबसाइट से Aspose.Slides for Java लाइब्रेरी डाउनलोड कर सकते हैं:[Java के लिए Aspose.Slides डाउनलोड करें](https://releases.aspose.com/slides/java/)
+आप वेबसाइट से Aspose.Slides for Java लाइब्रेरी डाउनलोड कर सकते हैं: [Java के लिए Aspose.Slides डाउनलोड करें](https://releases.aspose.com/slides/java/)
 
 ## चरण 1: Aspose.Slides लाइब्रेरी आयात करें
 
@@ -38,7 +40,7 @@ import com.aspose.slides.*;
 
 ## चरण 2: पावरपॉइंट प्रेजेंटेशन लोड करें
 
- इसके बाद, आपको उस पावरपॉइंट प्रेजेंटेशन को लोड करना होगा जिसे आप TIFF इमेज में बदलना चाहते हैं।`"Your Document Directory"` अपनी प्रस्तुति फ़ाइल के वास्तविक पथ के साथ.
+इसके बाद, आपको उस पावरपॉइंट प्रेजेंटेशन को लोड करना होगा जिसे आप TIFF इमेज में बदलना चाहते हैं। `"Your Document Directory"` अपनी प्रस्तुति फ़ाइल के वास्तविक पथ के साथ.
 
 ```java
 // दस्तावेज़ निर्देशिका का पथ.
@@ -80,7 +82,7 @@ notesOptions.setNotesPosition(NotesPositions.BottomFull);
 pres.save(dataDir + "TiffWithCustomSize_out.tiff", SaveFormat.Tiff, opts);
 ```
 
-## जावा स्लाइड्स में कस्टम आकार के साथ कन्वर्ट करने के लिए पूर्ण स्रोत कोड
+## जावा स्लाइड्स में कस्टम आकार के साथ कन्वर्ट करने के लिए पूरा स्रोत कोड
 
 ```java
 // दस्तावेज़ निर्देशिका का पथ.
@@ -126,26 +128,28 @@ finally
 
 ### मैं TIFF छवि के लिए संपीड़न प्रकार कैसे बदल सकता हूँ?
 
- आप संपीड़न प्रकार को संशोधित करके बदल सकते हैं`setCompressionType` विधि में`TiffOptions` क्लास। विभिन्न संपीड़न प्रकार उपलब्ध हैं, जैसे डिफ़ॉल्ट, कोई नहीं, CCITT3, CCITT4, LZW, और RLE।
+आप संपीड़न प्रकार को संशोधित करके बदल सकते हैं `setCompressionType` विधि में `TiffOptions` क्लास। विभिन्न संपीड़न प्रकार उपलब्ध हैं, जैसे डिफ़ॉल्ट, कोई नहीं, CCITT3, CCITT4, LZW, और RLE।
 
 ### क्या मैं TIFF छवि का DPI (डॉट्स प्रति इंच) समायोजित कर सकता हूँ?
 
-हां, आप DPI को निम्न का उपयोग करके समायोजित कर सकते हैं:`setDpiX` और`setDpiY` तरीकों में`TiffOptions` वर्ग। छवि रिज़ॉल्यूशन को नियंत्रित करने के लिए बस वांछित मान सेट करें।
+हां, आप DPI को निम्न का उपयोग करके समायोजित कर सकते हैं: `setDpiX` और `setDpiY` तरीकों में `TiffOptions` वर्ग। छवि रिज़ॉल्यूशन को नियंत्रित करने के लिए बस वांछित मान सेट करें।
 
 ### TIFF छवि में नोट्स की स्थिति के लिए उपलब्ध विकल्प क्या हैं?
 
- TIFF छवि में नोट्स की स्थिति को कॉन्फ़िगर किया जा सकता है`setNotesPosition` बॉटमफुल, बॉटमट्रंकेटेड और स्लाइडऑनली जैसे विकल्पों के साथ विधि। अपनी ज़रूरतों के हिसाब से सबसे अच्छा विकल्प चुनें।
+TIFF छवि में नोट्स की स्थिति को कॉन्फ़िगर किया जा सकता है `setNotesPosition` बॉटमफुल, बॉटमट्रंकेटेड और स्लाइडऑनली जैसे विकल्पों के साथ विधि। अपनी ज़रूरतों के हिसाब से सबसे अच्छा विकल्प चुनें।
 
 ### क्या TIFF रूपांतरण के लिए कस्टम छवि आकार निर्दिष्ट करना संभव है?
 
- बिल्कुल! आप इसका उपयोग करके एक कस्टम छवि आकार सेट कर सकते हैं`setImageSize` विधि में`TiffOptions` क्लास. आउटपुट छवि के लिए इच्छित आयाम (चौड़ाई और ऊंचाई) प्रदान करें.
+बिल्कुल! आप इसका उपयोग करके एक कस्टम छवि आकार सेट कर सकते हैं `setImageSize` विधि में `TiffOptions` क्लास. आउटपुट छवि के लिए इच्छित आयाम (चौड़ाई और ऊंचाई) प्रदान करें.
 
 ### मैं Aspose.Slides for Java के बारे में अधिक जानकारी कहां पा सकता हूं?
 
- Aspose.Slides for Java के बारे में विस्तृत दस्तावेज़ीकरण और अतिरिक्त जानकारी के लिए, कृपया दस्तावेज़ीकरण देखें:[Aspose.Slides for Java API संदर्भ](https://reference.aspose.com/slides/java/).
+Aspose.Slides for Java के बारे में विस्तृत दस्तावेज़ीकरण और अतिरिक्त जानकारी के लिए, कृपया दस्तावेज़ीकरण देखें: [Aspose.Slides for Java API संदर्भ](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

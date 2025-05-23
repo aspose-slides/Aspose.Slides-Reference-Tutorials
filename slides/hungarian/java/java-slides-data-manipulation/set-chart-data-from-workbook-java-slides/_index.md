@@ -1,65 +1,67 @@
 ---
-title: Állítsa be a diagramadatokat a munkafüzetből a Java Slides alkalmazásban
-linktitle: Állítsa be a diagramadatokat a munkafüzetből a Java Slides alkalmazásban
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan állíthat be diagramadatokat egy Excel-munkafüzetből a Java Slides alkalmazásban az Aspose.Slides segítségével. Lépésről lépésre útmutató kódpéldákkal dinamikus prezentációkhoz.
-weight: 15
-url: /hu/java/data-manipulation/set-chart-data-from-workbook-java-slides/
+"description": "Tanuld meg, hogyan állíthatsz be diagramadatokat egy Excel-munkafüzetből Java Slides-ben az Aspose.Slides használatával. Lépésről lépésre útmutató kódpéldákkal dinamikus prezentációkhoz."
+"linktitle": "Diagramadatok beállítása munkafüzetből Java Slides-ben"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Diagramadatok beállítása munkafüzetből Java Slides-ben"
+"url": "/hu/java/data-manipulation/set-chart-data-from-workbook-java-slides/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Állítsa be a diagramadatokat a munkafüzetből a Java Slides alkalmazásban
+# Diagramadatok beállítása munkafüzetből Java Slides-ben
 
 
-## Bevezetés a diagramadatok munkafüzetből történő beállításához a Java Slides programban
+## Bevezetés a Java Slides munkafüzetből származó diagramadatok beállításába
 
-Az Aspose.Slides for Java egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak PowerPoint prezentációkkal. Széleskörű szolgáltatásokat kínál a PowerPoint diák létrehozásához, kezeléséhez és kezeléséhez. A prezentációkkal végzett munka során az egyik általános követelmény a diagramadatok dinamikus beállítása külső adatforrásból, például Excel-munkafüzetből. Ebben az oktatóanyagban bemutatjuk, hogyan érhető el ez a Java használatával.
+Az Aspose.Slides for Java egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak PowerPoint-bemutatókkal. Kiterjedt funkciókat biztosít a PowerPoint-diák létrehozásához, kezeléséhez és kezeléséhez. A prezentációkkal való munka egyik gyakori követelménye a diagramadatok dinamikus beállítása egy külső adatforrásból, például egy Excel-munkafüzetből. Ebben az oktatóanyagban bemutatjuk, hogyan érhető el ez Java használatával.
 
 ## Előfeltételek
 
-Mielőtt belevágnánk a megvalósításba, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
+Mielőtt belevágnánk a megvalósításba, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
 
-- Java Development Kit (JDK) telepítve a rendszerére.
-- Aspose.Slides for Java könyvtár hozzáadva a projekthez.
-- Egy Excel-munkafüzet a diagramhoz használni kívánt adatokkal.
+- Java fejlesztőkészlet (JDK) telepítve van a rendszerére.
+- Az Aspose.Slides for Java könyvtár hozzáadva a projektedhez.
+- Egy Excel-munkafüzet, amely tartalmazza a diagramhoz használni kívánt adatokat.
 
-## 1. lépés: Hozzon létre egy prezentációt
+## 1. lépés: Prezentáció létrehozása
 
 ```java
 String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 ```
 
-Kezdjük egy új PowerPoint prezentáció létrehozásával az Aspose.Slides for Java segítségével.
+Először egy új PowerPoint prezentációt hozunk létre az Aspose.Slides for Java használatával.
 
-## 2. lépés: Adjon hozzá egy diagramot
+## 2. lépés: Diagram hozzáadása
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 500, 400);
 ```
 
-Ezután hozzáadunk egy diagramot a prezentáció egyik diájához. Ebben a példában kördiagramot adunk hozzá, de kiválaszthatja az igényeinek megfelelő diagramtípust.
+Ezután hozzáadunk egy diagramot a prezentáció egyik diájához. Ebben a példában egy kördiagramot adunk hozzá, de kiválaszthatja az igényeinek megfelelő diagramtípust.
 
-## 3. lépés: A diagramadatok törlése
+## 3. lépés: Diagramadatok törlése
 
 ```java
 chart.getChartData().getChartDataWorkbook().clear(0);
 ```
 
-Minden meglévő adatot törölünk a diagramból, hogy felkészítsük az Excel-munkafüzet új adataira.
+Töröljük a diagramból a meglévő adatokat, hogy felkészítsük az Excel-munkafüzetből származó új adatok fogadására.
 
-## 4. lépés: Töltse be az Excel-munkafüzetet
+## 4. lépés: Excel-munkafüzet betöltése
 
 ```java
 Workbook workbook = new Workbook("Your Document Directory";
 ```
 
- Betöltjük azt az Excel munkafüzetet, amely a diagramhoz használni kívánt adatokat tartalmazza. Cserélje ki`"book1.xlsx"` az Excel-fájl elérési útjával.
+Betöltjük azt az Excel munkafüzetet, amely a diagramhoz használni kívánt adatokat tartalmazza. Csere `"book1.xlsx"` az Excel-fájl elérési útjával.
 
-## 5. lépés: Írja be a munkafüzet adatfolyamot a diagramadatok közé
+## 5. lépés: Munkafüzet-adatfolyam írása diagramadatokká
 
 ```java
 ByteArrayOutputStream mem = new ByteArrayOutputStream();
@@ -68,24 +70,24 @@ mem.flush();
 chart.getChartData().writeWorkbookStream(mem.toByteArray());
 ```
 
-Az Excel munkafüzet adatait folyammá alakítjuk és a diagramadatokba írjuk.
+Az Excel munkafüzet adatait egy adatfolyammá alakítjuk, és a diagram adataiba írjuk.
 
-## 6. lépés: Állítsa be a diagram adattartományát
+## 6. lépés: Diagram adattartományának beállítása
 
 ```java
 chart.getChartData().setRange("Sheet2!$A$1:$B$3");
 ```
 
-Megadjuk az Excel-munkafüzet azon celláinak tartományát, amelyeket adatként kell használni a diagramhoz. Állítsa be a tartományt az adatoknak megfelelően.
+Megadjuk az Excel munkafüzetből azokat a cellatartományokat, amelyeket a diagram adataként kell használni. Szükség szerint módosítsa a tartományt az adataihoz.
 
-## 7. lépés: A diagramsorozat testreszabása
+## 7. lépés: Diagramsorozat testreszabása
 
 ```java
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 series.getParentSeriesGroup().setColorVaried(true);
 ```
 
-Testreszabhatja a diagramsorozat különféle tulajdonságait az igényeinek megfelelően. Ebben a példában változatos színeket engedélyezünk a diagramsorozatokhoz.
+diagramsorozat különböző tulajdonságait testreszabhatja az igényeinek megfelelően. Ebben a példában különböző színeket engedélyezünk a diagramsorozathoz.
 
 ## 8. lépés: Mentse el a prezentációt
 
@@ -93,9 +95,9 @@ Testreszabhatja a diagramsorozat különféle tulajdonságait az igényeinek meg
 pres.save(outPath, SaveFormat.Pptx);
 ```
 
-Végül elmentjük a prezentációt a frissített diagramadatokkal a megadott kimeneti útvonalra.
+Végül a frissített diagramadatokkal ellátott prezentációt a megadott kimeneti útvonalra mentjük.
 
-## A Java Slides munkafüzetből származó diagramadatok teljes forráskódja
+## Teljes forráskód a Java Slides munkafüzetből származó diagramadatokhoz
 
 ```java
 String outPath = "Your Output Directory" + "response2.pptx";
@@ -125,32 +127,34 @@ try {
 
 ## Következtetés
 
-Ebben az oktatóanyagban megtanultuk, hogyan állíthat be diagramadatokat egy Excel-munkafüzetből a Java Slides programban az Aspose.Slides for Java könyvtár használatával. A lépésenkénti útmutató követésével és a mellékelt forráskód-példák használatával könnyedén integrálhatja a dinamikus diagramadatokat PowerPoint-prezentációiba.
+Ebben az oktatóanyagban megtanultuk, hogyan állíthatunk be diagramadatokat egy Excel-munkafüzetből Java Slides-ben az Aspose.Slides for Java könyvtár használatával. A lépésről lépésre bemutatott útmutató követésével és a megadott forráskódpéldák használatával könnyedén integrálhatunk dinamikus diagramadatokat PowerPoint-bemutatóinkba.
 
 ## GYIK
 
-### Hogyan szabhatom testre a diagram megjelenését a prezentációmban?
+### Hogyan tudom testreszabni a diagram megjelenését a prezentációmban?
 
-Testreszabhatja a diagram megjelenését a tulajdonságok, például színek, betűtípusok, címkék és egyebek módosításával. A diagram testreszabási lehetőségeiről az Aspose.Slides for Java dokumentációjában talál részletes információkat.
+A diagram megjelenését testreszabhatja olyan tulajdonságok módosításával, mint a színek, betűtípusok, címkék és egyebek. A diagram testreszabási lehetőségeiről részletes információkat az Aspose.Slides for Java dokumentációjában talál.
 
-### Használhatok egy másik Excel-fájlból származó adatokat a diagramhoz?
+### Használhatok adatokat egy másik Excel-fájlból a diagramhoz?
 
-Igen, bármilyen Excel-fájlból felhasználhatja az adatokat, ha megadja a helyes fájl elérési utat a munkafüzet kódban való betöltésekor.
+Igen, bármelyik Excel-fájlból használhat adatokat, ha a munkafüzet kódba betöltésekor megadja a helyes fájlelérési utat.
 
-### Milyen más típusú diagramokat hozhatok létre az Aspose.Slides for Java programmal?
+### Milyen más típusú diagramokat hozhatok létre az Aspose.Slides for Java segítségével?
 
-Az Aspose.Slides for Java különféle diagramtípusokat támogat, beleértve az oszlopdiagramokat, vonaldiagramokat, szóródiagramokat és még sok mást. Kiválaszthatja az adatábrázolási igényeinek leginkább megfelelő diagramtípust.
+Az Aspose.Slides Java-ban különféle diagramtípusokat támogat, beleértve az oszlopdiagramokat, vonaldiagramokat, szóródási diagramokat és egyebeket. Kiválaszthatja az adatábrázolási igényeinek leginkább megfelelő diagramtípust.
 
-### Lehetséges a diagramadatok dinamikus frissítése futó prezentációban?
+### Lehetséges a diagram adatainak dinamikus frissítése egy futó prezentációban?
 
-Igen, dinamikusan frissítheti a diagramadatokat egy prezentációban az alapul szolgáló munkafüzet módosításával, majd a diagramadatok frissítésével.
+Igen, a diagramadatokat dinamikusan frissítheti egy bemutatóban az alapul szolgáló munkafüzet módosításával, majd a diagramadatok frissítésével.
 
-### Hol találhatok további példákat és forrásokat az Aspose.Slides for Java használatához?
+### Hol találok további példákat és forrásokat az Aspose.Slides Java-ban való használathoz?
 
- További példákat és forrásokat fedezhet fel a[Aspose honlapja](https://www.aspose.com/). Ezenkívül az Aspose.Slides for Java dokumentáció átfogó útmutatást ad a könyvtár használatához.
+További példákat és forrásokat találhat a következő címen: [Aspose weboldal](https://www.aspose.com/)Ezenkívül az Aspose.Slides for Java dokumentációja átfogó útmutatást nyújt a könyvtárral való munkához.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

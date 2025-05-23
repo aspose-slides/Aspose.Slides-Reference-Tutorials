@@ -1,31 +1,33 @@
 ---
-title: Configuración de llamada para etiqueta de datos en diapositivas de Java
-linktitle: Configuración de llamada para etiqueta de datos en diapositivas de Java
-second_title: Aspose.Slides API de procesamiento de PowerPoint Java
-description: Aprenda a configurar llamadas para etiquetas de datos en Aspose.Slides para Java. Guía paso a paso con código fuente.
-weight: 25
-url: /es/java/data-manipulation/setting-callout-data-label-java-slides/
+"description": "Aprenda a configurar llamadas para etiquetas de datos en Aspose.Slides para Java. Guía paso a paso con código fuente."
+"linktitle": "Configuración de una llamada para la etiqueta de datos en diapositivas de Java"
+"second_title": "API de procesamiento de PowerPoint en Java de Aspose.Slides"
+"title": "Configuración de una llamada para la etiqueta de datos en diapositivas de Java"
+"url": "/es/java/data-manipulation/setting-callout-data-label-java-slides/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Configuración de llamada para etiqueta de datos en diapositivas de Java
+# Configuración de una llamada para la etiqueta de datos en diapositivas de Java
 
 
 ## Introducción a la configuración de llamadas para etiquetas de datos en Aspose.Slides para Java
 
-En este tutorial, demostraremos cómo configurar llamadas para etiquetas de datos en un gráfico usando Aspose.Slides para Java. Las llamadas pueden resultar útiles para resaltar puntos de datos específicos en su gráfico. Revisaremos el código paso a paso y proporcionaremos el código fuente necesario.
+En este tutorial, demostraremos cómo configurar llamadas para las etiquetas de datos en un gráfico con Aspose.Slides para Java. Las llamadas pueden ser útiles para resaltar puntos de datos específicos en el gráfico. Explicaremos el código paso a paso y proporcionaremos el código fuente necesario.
 
-## Requisitos previos
+## Prerrequisitos
 
 - Deberías tener instalado Aspose.Slides para Java.
 - Cree un proyecto Java y agregue la biblioteca Aspose.Slides a su proyecto.
 
-## Paso 1: cree una presentación y agregue un gráfico
+## Paso 1: Crear una presentación y agregar un gráfico
 
- Primero, necesitamos crear una presentación y agregar un gráfico a una diapositiva. Asegúrate de reemplazar`"Your Document Directory"` con la ruta real a su directorio de documentos.
+Primero, necesitamos crear una presentación y agregar un gráfico a una diapositiva. Asegúrate de reemplazar `"Your Document Directory"` con la ruta real a su directorio de documentos.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -34,7 +36,7 @@ ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, false);
 ```
 
-## Paso 2: configurar el gráfico
+## Paso 2: Configurar el gráfico
 
 A continuación, configuraremos el gráfico estableciendo propiedades como leyenda, series y categorías.
 
@@ -59,7 +61,7 @@ while (categoryIndex < 15) {
     chart.getChartData().getCategories().add(workBook.getCell(0, categoryIndex + 1, 0, "CATEGORY " + categoryIndex));
     int i = 0;
     while (i < chart.getChartData().getSeries().size()) {
-        // Agregue puntos de datos aquí
+        // Añade puntos de datos aquí
         // ...
         i++;
     }
@@ -67,7 +69,7 @@ while (categoryIndex < 15) {
 }
 ```
 
-## Paso 3: personaliza las etiquetas de datos
+## Paso 3: Personalizar las etiquetas de datos
 
 Ahora, personalizaremos las etiquetas de datos, incluida la configuración de llamadas para la última serie.
 
@@ -77,12 +79,12 @@ while (i < chart.getChartData().getSeries().size()) {
     IChartSeries iCS = chart.getChartData().getSeries().get_Item(i);
     IChartDataPoint dataPoint = iCS.getDataPoints().addDataPointForDoughnutSeries(workBook.getCell(0, categoryIndex + 1, i + 1, 1));
     dataPoint.getFormat().getFill().setFillType(FillType.Solid);
-    // Personalice el formato de los puntos de datos (relleno, línea, etc.)
+    // Personalizar el formato de los puntos de datos (Relleno, Línea, etc.)
 
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
-        //Personalice el formato de la etiqueta (fuente, relleno, etc.)
+        // Personalizar el formato de la etiqueta (fuente, relleno, etc.)
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
@@ -94,17 +96,17 @@ while (i < chart.getChartData().getSeries().size()) {
 }
 ```
 
-## Paso 4: guarde la presentación
+## Paso 4: Guardar la presentación
 
-Finalmente, guarde la presentación con el gráfico configurado.
+Por último, guarde la presentación con el gráfico configurado.
 
 ```java
 pres.save("chart.pptx", SaveFormat.Pptx);
 ```
 
-Ahora ha configurado correctamente llamadas para etiquetas de datos en un gráfico utilizando Aspose.Slides para Java. Personalice el código de acuerdo con sus requisitos de datos y gráficos específicos.
+Ya ha configurado correctamente las llamadas para las etiquetas de datos en un gráfico con Aspose.Slides para Java. Personalice el código según las necesidades específicas de su gráfico y datos.
 
-## Código fuente completo para configurar la llamada para la etiqueta de datos en diapositivas de Java
+## Código fuente completo para configurar una llamada a la etiqueta de datos en diapositivas de Java
 
 ```java
 String dataDir = "Your Document Directory";
@@ -152,7 +154,7 @@ while (categoryIndex < 15)
 			lbl.getDataLabelFormat().setShowValue(false);
 			lbl.getDataLabelFormat().setShowCategoryName(true);
 			lbl.getDataLabelFormat().setShowSeriesName(false);
-			//lbl.getDataLabelFormat().setShowLabelAsDataCallout(true);
+			//lbl.getDataLabelFormat().setShowLabelAsDataCallout(verdadero);
 			lbl.getDataLabelFormat().setShowLeaderLines(true);
 			lbl.getDataLabelFormat().setShowLabelAsDataCallout(false);
 			chart.validateChartLayout();
@@ -168,13 +170,13 @@ pres.save("chart.pptx", SaveFormat.Pptx);
 
 ## Conclusión
 
-En este tutorial, exploramos cómo configurar llamadas para etiquetas de datos en un gráfico usando Aspose.Slides para Java. Las llamadas son herramientas valiosas para enfatizar puntos de datos específicos en sus gráficos y presentaciones. Proporcionamos una guía paso a paso junto con el código fuente para ayudarle a lograr esta personalización.
+En este tutorial, hemos explorado cómo configurar llamadas para las etiquetas de datos en un gráfico con Aspose.Slides para Java. Las llamadas son herramientas valiosas para resaltar datos específicos en sus gráficos y presentaciones. Proporcionamos una guía paso a paso con el código fuente para ayudarle a personalizarlas.
 
 ## Preguntas frecuentes
 
 ### ¿Cómo personalizo la apariencia de las etiquetas de datos?
 
-Para personalizar la apariencia de las etiquetas de datos, puede modificar propiedades como fuente, relleno y estilos de línea. Por ejemplo:
+Para personalizar la apariencia de las etiquetas de datos, puede modificar propiedades como la fuente, el relleno y los estilos de línea. Por ejemplo:
 
 ```java
 IDataLabel lbl = dataPoint.getLabel();
@@ -187,18 +189,18 @@ lbl.getDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat().getS
 lbl.getDataLabelFormat().getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
 ```
 
-### ¿Cómo puedo habilitar o deshabilitar llamadas para etiquetas de datos?
+### ¿Cómo puedo habilitar o deshabilitar las llamadas para las etiquetas de datos?
 
- Para habilitar o deshabilitar llamadas para etiquetas de datos, use el`setShowLabelAsDataCallout` método. Configúrelo en`true` para habilitar llamadas y`false`para desactivarlos.
+Para habilitar o deshabilitar las llamadas para las etiquetas de datos, utilice el `setShowLabelAsDataCallout` método. Configúrelo en `true` para habilitar llamadas y `false` para deshabilitarlos.
 
 ```java
 lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // Habilitar llamadas
 lbl.getDataLabelFormat().setShowLabelAsDataCallout(false); // Deshabilitar llamadas
 ```
 
-### ¿Puedo personalizar las líneas guía de las etiquetas de datos?
+### ¿Puedo personalizar las líneas guía para las etiquetas de datos?
 
-Sí, puede personalizar las líneas guía de las etiquetas de datos utilizando propiedades como estilo, color y ancho de línea. Por ejemplo:
+Sí, puedes personalizar las líneas guía de las etiquetas de datos mediante propiedades como el estilo, el color y el ancho de línea. Por ejemplo:
 
 ```java
 lbl.getDataLabelFormat().setShowLeaderLines(true); // Habilitar líneas guía
@@ -208,10 +210,12 @@ lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFor
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.BLACK);
 ```
 
-Estas son algunas opciones de personalización comunes para etiquetas de datos y llamadas en Aspose.Slides para Java. Puede adaptar aún más la apariencia a sus necesidades específicas.
+Estas son algunas opciones de personalización comunes para etiquetas de datos y llamadas en Aspose.Slides para Java. Puede personalizar aún más la apariencia según sus necesidades específicas.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

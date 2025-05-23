@@ -1,14 +1,16 @@
 ---
-title: Aspose.Slides .NET में डेटा पॉइंट पर चार्ट मार्कर विकल्पों का उपयोग करना
-linktitle: डेटा पॉइंट पर चार्ट मार्कर विकल्प
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: जानें कि .NET के लिए Aspose.Slides का उपयोग करके अपने PowerPoint चार्ट को कैसे बेहतर बनाया जाए। छवियों के साथ डेटा पॉइंट मार्कर को कस्टमाइज़ करें। आकर्षक प्रस्तुतियाँ बनाएँ।
-weight: 11
-url: /hi/net/advanced-chart-customization/chart-marker-options-on-data-point/
+"description": "जानें कि .NET के लिए Aspose.Slides का उपयोग करके अपने PowerPoint चार्ट को कैसे बेहतर बनाया जाए। छवियों के साथ डेटा पॉइंट मार्कर को कस्टमाइज़ करें। आकर्षक प्रस्तुतियाँ बनाएँ।"
+"linktitle": "डेटा पॉइंट पर चार्ट मार्कर विकल्प"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "Aspose.Slides .NET में डेटा पॉइंट पर चार्ट मार्कर विकल्पों का उपयोग करना"
+"url": "/hi/net/advanced-chart-customization/chart-marker-options-on-data-point/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Slides .NET में डेटा पॉइंट पर चार्ट मार्कर विकल्पों का उपयोग करना
@@ -20,11 +22,11 @@ url: /hi/net/advanced-chart-customization/chart-marker-options-on-data-point/
 
 इससे पहले कि हम डेटा बिंदुओं पर चार्ट मार्कर विकल्पों का उपयोग करना शुरू करें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
--  Aspose.Slides for .NET: सुनिश्चित करें कि आपके पास Aspose.Slides for .NET इंस्टॉल है। आप इसे यहाँ से डाउनलोड कर सकते हैं[वेबसाइट](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET: सुनिश्चित करें कि आपके पास Aspose.Slides for .NET इंस्टॉल है। आप इसे यहाँ से डाउनलोड कर सकते हैं [वेबसाइट](https://releases.aspose.com/slides/net/).
 
 - नमूना प्रस्तुति: इस ट्यूटोरियल के लिए, हम "Test.pptx" नामक एक नमूना प्रस्तुति का उपयोग करेंगे। यह प्रस्तुति आपके दस्तावेज़ निर्देशिका में होनी चाहिए।
 
-अब, आइए आवश्यक नेमस्पेस को आयात करके शुरू करें।
+अब, आइए आवश्यक नामस्थानों को आयात करके शुरू करें।
 
 ## नामस्थान आयात करें
 
@@ -34,7 +36,7 @@ using Aspose.Slides.Charts;
 using Aspose.Slides.Export;
 ```
 
-हमने आवश्यक नेमस्पेस आयात कर लिए हैं और अपनी प्रस्तुति आरंभ कर दी है। अब, चलिए डेटा पॉइंट पर चार्ट मार्कर विकल्पों का उपयोग करना शुरू करते हैं।
+हमने आवश्यक नेमस्पेस आयात कर लिए हैं और अपनी प्रस्तुति आरंभ कर दी है। अब, डेटा बिंदुओं पर चार्ट मार्कर विकल्पों का उपयोग करने के लिए आगे बढ़ते हैं।
 
 ## चरण 1: डिफ़ॉल्ट चार्ट बनाना
 
@@ -46,7 +48,7 @@ Presentation pres = new Presentation(dataDir + "Test.pptx");
 
 ISlide slide = pres.Slides[0];
 
-//डिफ़ॉल्ट चार्ट बनाना
+// डिफ़ॉल्ट चार्ट बनाना
 IChart chart = slide.Shapes.AddChart(ChartType.LineWithMarkers, 0, 0, 400, 400);
 ```
 
@@ -136,7 +138,7 @@ pres.Save(dataDir + "AsposeScatterChart.pptx", SaveFormat.Pptx);
 
 Aspose.Slides for .NET आपको विभिन्न अनुकूलन विकल्पों के साथ शानदार चार्ट प्रेजेंटेशन बनाने की शक्ति देता है। इस ट्यूटोरियल में, हमने आपके डेटा के विज़ुअल प्रतिनिधित्व को बढ़ाने के लिए डेटा पॉइंट्स पर चार्ट मार्कर विकल्पों का उपयोग करने पर ध्यान केंद्रित किया। Aspose.Slides for .NET के साथ, आप अपनी प्रस्तुतियों को अगले स्तर तक ले जा सकते हैं, उन्हें अधिक आकर्षक और जानकारीपूर्ण बना सकते हैं।
 
-यदि आपके पास कोई प्रश्न है या .NET के लिए Aspose.Slides के बारे में सहायता की आवश्यकता है, तो कृपया यहां जाएं[Aspose.Slides दस्तावेज़ीकरण](https://reference.aspose.com/slides/net/) या संपर्क करें[असपोज़ समुदाय](https://forum.aspose.com/) समर्थन के लिए।
+यदि आपके पास कोई प्रश्न है या .NET के लिए Aspose.Slides के बारे में सहायता की आवश्यकता है, तो कृपया यहां जाएं [Aspose.Slides दस्तावेज़ीकरण](https://reference.aspose.com/slides/net/) या उन तक पहुंचें [असपोज़ समुदाय](https://forum.aspose.com/) समर्थन के लिए।
 
 ## अक्सर पूछे जाने वाले प्रश्न (एफएक्यू)
 
@@ -144,19 +146,21 @@ Aspose.Slides for .NET आपको विभिन्न अनुकूलन 
 हां, आप Aspose.Slides for .NET में डेटा बिंदुओं के लिए मार्कर के रूप में कस्टम छवियों का उपयोग कर सकते हैं, जैसा कि इस ट्यूटोरियल में दिखाया गया है।
 
 ### मैं .NET के लिए Aspose.Slides में चार्ट प्रकार कैसे बदल सकता हूँ?
- आप एक अलग चार्ट प्रकार निर्दिष्ट करके चार्ट प्रकार बदल सकते हैं`ChartType` चार्ट बनाते समय, जैसे "बार," "पाई," या "क्षेत्र।"
+आप एक अलग चार्ट प्रकार निर्दिष्ट करके चार्ट प्रकार बदल सकते हैं `ChartType` चार्ट बनाते समय, जैसे "बार," "पाई," या "क्षेत्र।"
 
 ### क्या Aspose.Slides for .NET PowerPoint के नवीनतम संस्करणों के साथ संगत है?
 Aspose.Slides for .NET को विभिन्न PowerPoint प्रारूपों के साथ काम करने के लिए डिज़ाइन किया गया है और नवीनतम PowerPoint संस्करणों के साथ संगतता बनाए रखने के लिए इसे नियमित रूप से अपडेट किया जाता है।
 
 ### मैं .NET के लिए Aspose.Slides के अधिक ट्यूटोरियल और संसाधन कहां पा सकता हूं?
- आप अतिरिक्त ट्यूटोरियल और संसाधनों का पता लगा सकते हैं[Aspose.Slides दस्तावेज़ीकरण](https://reference.aspose.com/slides/net/).
+आप अतिरिक्त ट्यूटोरियल और संसाधनों का पता लगा सकते हैं [Aspose.Slides दस्तावेज़ीकरण](https://reference.aspose.com/slides/net/).
 
 ### क्या .NET के लिए Aspose.Slides का कोई परीक्षण संस्करण उपलब्ध है?
- हां, आप यहां से निःशुल्क परीक्षण संस्करण डाउनलोड करके .NET के लिए Aspose.Slides आज़मा सकते हैं।[यहाँ](https://releases.aspose.com/).
+हां, आप यहां से निःशुल्क परीक्षण संस्करण डाउनलोड करके .NET के लिए Aspose.Slides आज़मा सकते हैं। [यहाँ](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

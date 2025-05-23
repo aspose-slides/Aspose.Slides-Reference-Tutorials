@@ -1,29 +1,31 @@
 ---
-title: Właściwości akapitu końcowego w programie Java PowerPoint
-linktitle: Właściwości akapitu końcowego w programie Java PowerPoint
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Naucz się programowo tworzyć i dostosowywać prezentacje programu PowerPoint w Javie za pomocą Aspose.Slides. Zapoznaj się z samouczkami i niezbędnymi wskazówkami dotyczącymi bezproblemowej integracji.
-weight: 11
-url: /pl/java/java-powerpoint-text-alignment-formatting/end-paragraph-properties-java-powerpoint/
+"description": "Naucz się tworzyć i dostosowywać prezentacje PowerPoint w Javie programowo za pomocą Aspose.Slides. Zapoznaj się z samouczkami i podstawowymi wskazówkami dotyczącymi bezproblemowej integracji."
+"linktitle": "Właściwości końcowego akapitu w programie Java PowerPoint"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Właściwości końcowego akapitu w programie Java PowerPoint"
+"url": "/pl/java/java-powerpoint-text-alignment-formatting/end-paragraph-properties-java-powerpoint/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Właściwości akapitu końcowego w programie Java PowerPoint
+# Właściwości końcowego akapitu w programie Java PowerPoint
 
 ## Wstęp
-Programowe tworzenie prezentacji programu PowerPoint i manipulowanie nimi może usprawnić przepływ pracy i zwiększyć produktywność w różnych dziedzinach, od prezentacji biznesowych po materiały edukacyjne. Aspose.Slides dla Java zapewnia solidny interfejs API, który umożliwia programistom automatyzację zadań, takich jak dodawanie slajdów, wstawianie tekstu, formatowanie treści i eksportowanie prezentacji w różnych formatach. Ten samouczek poprowadzi Cię przez niezbędne kroki, aby rozpocząć pracę z Aspose.Slides dla Java, demonstrując, jak efektywnie wykorzystać jego funkcje.
-## Warunki wstępne
-Zanim przejdziesz do samouczka, upewnij się, że masz skonfigurowane następujące wymagania wstępne:
-- Zestaw Java Development Kit (JDK): Upewnij się, że w systemie jest zainstalowany pakiet JDK 8 lub nowszy.
--  Aspose.Slides for Java Library: Pobierz najnowszą wersję z[Aspose.Slides do pobrania w języku Java](https://releases.aspose.com/slides/java/).
-- Zintegrowane środowisko programistyczne (IDE): Użyj IntelliJ IDEA, Eclipse lub innego wybranego IDE skonfigurowanego do programowania w języku Java.
-- Podstawowe umiejętności programowania w języku Java: Znajomość składni języka Java i koncepcji programowania obiektowego będzie korzystna.
+Tworzenie i manipulowanie prezentacjami PowerPoint programowo może usprawnić przepływy pracy i zwiększyć produktywność w różnych domenach, od prezentacji biznesowych po materiały edukacyjne. Aspose.Slides for Java zapewnia solidny interfejs API, który umożliwia programistom automatyzację zadań, takich jak dodawanie slajdów, wstawianie tekstu, formatowanie treści i eksportowanie prezentacji w różnych formatach. Ten samouczek przeprowadzi Cię przez podstawowe kroki, aby rozpocząć pracę z Aspose.Slides for Java, pokazując, jak skutecznie wykorzystać jego funkcje.
+## Wymagania wstępne
+Zanim przejdziesz do samouczka, upewnij się, że spełnione są następujące wymagania wstępne:
+- Java Development Kit (JDK): Upewnij się, że w systemie jest zainstalowany JDK 8 lub nowszy.
+- Biblioteka Aspose.Slides dla Java: Pobierz najnowszą wersję z [Aspose.Slides dla Java Pobierz](https://releases.aspose.com/slides/java/).
+- Zintegrowane środowisko programistyczne (IDE): Użyj IntelliJ IDEA, Eclipse lub innego wybranego środowiska IDE skonfigurowanego pod kątem programowania w języku Java.
+- Podstawowe umiejętności programowania w Javie: Znajomość składni Javy i koncepcji programowania obiektowego będzie dodatkowym atutem.
 
 ## Importuj pakiety
-Zacznij od zaimportowania niezbędnych pakietów z Aspose.Slides dla Java. Pakiety te zapewnią dostęp do funkcjonalności potrzebnych do programowej pracy z prezentacjami programu PowerPoint.
+Zacznij od zaimportowania niezbędnych pakietów z Aspose.Slides dla Java. Pakiety te zapewnią dostęp do funkcjonalności potrzebnej do pracy z prezentacjami PowerPoint programowo.
 ```java
 import com.aspose.slides.*;
 ```
@@ -33,12 +35,12 @@ Zdefiniuj ścieżkę katalogu, w którym zostanie zapisany plik programu PowerPo
 String dataDir = "Your Document Directory/";
 ```
 ## Krok 2: Utwórz obiekt prezentacji
- Utwórz instancję a`Presentation` obiekt, który reprezentuje prezentację programu PowerPoint.
+Utwórz instancję `Presentation` obiekt, który reprezentuje prezentację programu PowerPoint.
 ```java
 Presentation pres = new Presentation();
 ```
 ## Krok 3: Dodaj slajd i kształt
-Dodaj nowy slajd do prezentacji i wstaw na nim kształt prostokąta.
+Dodaj nowy slajd do prezentacji i wstaw na nim prostokątny kształt.
 ```java
 ISlide slide = pres.getSlides().addEmptySlide(pres.getLayoutSlides().getByType(SlideLayoutType.Blank));
 IAutoShape shape = slide.getShapes().addAutoShape(ShapeType.Rectangle, 10, 10, 200, 250);
@@ -53,8 +55,8 @@ para2.getPortions().add(new Portion("Sample text 2"));
 shape.getTextFrame().getParagraphs().add(para1);
 shape.getTextFrame().getParagraphs().add(para2);
 ```
-## Krok 5: Sformatuj tekst
-Sformatuj tekst w kształcie, określając rozmiar i styl czcionki.
+## Krok 5: Formatowanie tekstu
+Sformatuj tekst wewnątrz kształtu, określając rozmiar i styl czcionki.
 ```java
 PortionFormat portionFormat = new PortionFormat();
 portionFormat.setFontHeight(24);
@@ -70,8 +72,8 @@ Zapisz zmodyfikowaną prezentację w określonym katalogu wyjściowym.
 ```java
 pres.save(dataDir + "output.pptx", SaveFormat.Pptx);
 ```
-## Krok 7: Pozbądź się obiektu prezentacji
- Upewnij się, że pozbyłeś się`Presentation` sprzeciwić się zwolnieniu zasobów.
+## Krok 7: Usuń obiekt prezentacji
+Upewnij się, że pozbędziesz się `Presentation` sprzeciw wobec zwolnienia zasobów.
 ```java
 if (pres != null) {
     pres.dispose();
@@ -79,21 +81,23 @@ if (pres != null) {
 ```
 
 ## Wniosek
-Podsumowując, Aspose.Slides dla Java oferuje potężne możliwości programowego manipulowania prezentacjami programu PowerPoint. Postępując zgodnie z tym przewodnikiem, możesz szybko zintegrować te funkcje z aplikacjami Java, automatyzując zadania i zwiększając wydajność tworzenia i modyfikowania prezentacji.
-## Często zadawane pytania
-### Czy Aspose.Slides for Java może współpracować z istniejącymi plikami programu PowerPoint?
-Tak, możesz ładować istniejące pliki PowerPoint i modyfikować je za pomocą Aspose.Slides for Java.
+Podsumowując, Aspose.Slides for Java oferuje potężne możliwości programowego manipulowania prezentacjami PowerPoint. Postępując zgodnie z tym przewodnikiem, możesz szybko zintegrować te funkcje ze swoimi aplikacjami Java, automatyzując zadania i zwiększając wydajność tworzenia i modyfikowania prezentacji.
+## Najczęściej zadawane pytania
+### Czy Aspose.Slides for Java działa z istniejącymi plikami PowerPoint?
+Tak, możesz wczytać istniejące pliki programu PowerPoint i modyfikować je za pomocą Aspose.Slides dla Java.
 ### Czy Aspose.Slides obsługuje eksportowanie prezentacji do formatu PDF?
 Tak, Aspose.Slides obsługuje eksportowanie prezentacji do różnych formatów, w tym PDF.
-### Czy Aspose.Slides nadaje się do generowania raportów z wykresami i tabelami?
-Absolutnie Aspose.Slides zapewnia interfejsy API umożliwiające dodawanie i manipulowanie wykresami, tabelami i innymi elementami w prezentacjach.
-### Czy mogę programowo dodawać animacje do slajdów za pomocą Aspose.Slides?
-Tak, możesz dodawać animacje i przejścia do slajdów poprzez interfejs API Aspose.Slides.
-### Gdzie mogę znaleźć pomoc, jeśli napotkam problemy lub mam pytania?
- Możesz odwiedzić[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) za wsparcie i dyskusje społeczne.
+### Czy Aspose.Slides nadaje się do generowania raportów zawierających wykresy i tabele?
+Oczywiście, Aspose.Slides udostępnia interfejsy API umożliwiające dodawanie i modyfikowanie wykresów, tabel i innych elementów w prezentacjach.
+### Czy mogę dodawać animacje do slajdów programowo, używając Aspose.Slides?
+Tak, możesz dodawać animacje i przejścia do slajdów poprzez API Aspose.Slides.
+### Gdzie mogę znaleźć pomoc, jeśli napotkam problemy lub będę miał pytania?
+Możesz odwiedzić [Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) w celu uzyskania wsparcia i udziału w dyskusjach społecznościowych.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

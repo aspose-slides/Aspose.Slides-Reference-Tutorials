@@ -1,14 +1,16 @@
 ---
-title: स्मार्टआर्ट चाइल्ड नोट थंबनेल बनाएं
-linktitle: स्मार्टआर्ट चाइल्ड नोट थंबनेल बनाएं
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides के साथ जावा में स्मार्टआर्ट चाइल्ड नोट थंबनेल बनाना सीखें, जिससे आपकी पावरपॉइंट प्रस्तुतियाँ आसानी से बेहतर बन सकें।
-weight: 15
-url: /hi/java/java-powerpoint-shape-thumbnail-creation/create-smartart-child-note-thumbnail/
+"description": "Aspose.Slides के साथ जावा में स्मार्टआर्ट चाइल्ड नोट थंबनेल बनाना सीखें, जिससे आपकी पावरपॉइंट प्रस्तुतियाँ आसानी से बेहतर बन सकें।"
+"linktitle": "स्मार्टआर्ट चाइल्ड नोट थंबनेल बनाएं"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "स्मार्टआर्ट चाइल्ड नोट थंबनेल बनाएं"
+"url": "/hi/java/java-powerpoint-shape-thumbnail-creation/create-smartart-child-note-thumbnail/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # स्मार्टआर्ट चाइल्ड नोट थंबनेल बनाएं
@@ -18,7 +20,7 @@ url: /hi/java/java-powerpoint-shape-thumbnail-creation/create-smartart-child-not
 ## आवश्यक शर्तें
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 1. आपके सिस्टम पर जावा डेवलपमेंट किट (JDK) स्थापित है।
-2.  Aspose.Slides for Java लाइब्रेरी को आपके प्रोजेक्ट में डाउनलोड और कॉन्फ़िगर किया गया है। आप लाइब्रेरी को यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides for Java लाइब्रेरी को आपके प्रोजेक्ट में डाउनलोड और कॉन्फ़िगर किया गया है। आप लाइब्रेरी को यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 
 ## पैकेज आयात करें
 अपने जावा क्लास में आवश्यक पैकेज आयात करना सुनिश्चित करें:
@@ -34,9 +36,9 @@ import java.io.File;
 import java.io.IOException;
 ```
 ## चरण 1: अपना प्रोजेक्ट सेट करें
-सुनिश्चित करें कि आपके पास Aspose.Slides लाइब्रेरी के साथ एक Java प्रोजेक्ट सेटअप और कॉन्फ़िगर किया गया है।
+सुनिश्चित करें कि आपके पास Aspose.Slides लाइब्रेरी के साथ एक जावा प्रोजेक्ट सेट अप और कॉन्फ़िगर किया गया है।
 ## चरण 2: एक प्रस्तुति बनाएं
- उदाहरण प्रस्तुत करें`Presentation` PPTX फ़ाइल को दर्शाने के लिए क्लास:
+उदाहरण प्रस्तुत करें `Presentation` PPTX फ़ाइल को दर्शाने के लिए क्लास:
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
@@ -75,10 +77,12 @@ ImageIO.write(bmp, "jpeg", new File(dataDir + "SmartArt_ChildNote_Thumbnail_out.
 ### क्या मैं Aspose.Slides के साथ प्रोग्रामेटिक रूप से जटिल स्मार्टआर्ट आरेख बना सकता हूँ?
 निश्चित रूप से! Aspose.Slides विभिन्न जटिलताओं के स्मार्टआर्ट आरेखों को बनाने और उनमें हेरफेर करने के लिए व्यापक समर्थन प्रदान करता है।
 ### क्या Aspose.Slides डेवलपर्स के लिए तकनीकी सहायता प्रदान करता है?
- हां, Aspose.Slides अपने माध्यम से डेवलपर्स के लिए समर्पित तकनीकी सहायता प्रदान करता है[मंच](https://forum.aspose.com/c/slides/11) और अन्य चैनल.
+हां, Aspose.Slides अपने माध्यम से डेवलपर्स के लिए समर्पित तकनीकी सहायता प्रदान करता है [मंच](https://forum.aspose.com/c/slides/11) और अन्य चैनल.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

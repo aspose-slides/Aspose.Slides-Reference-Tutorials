@@ -1,30 +1,32 @@
 ---
-title: Grafico Sunburst nelle diapositive Java
-linktitle: Grafico Sunburst nelle diapositive Java
-second_title: Aspose.Slides API di elaborazione Java PowerPoint
-description: Crea splendidi grafici Sunburst nelle diapositive Java con Aspose.Slides. Impara la creazione di grafici passo dopo passo e la manipolazione dei dati.
-weight: 16
-url: /it/java/chart-elements/sunburst-chart-java-slides/
+"description": "Crea splendidi grafici a raggiera in Java Slides con Aspose.Slides. Impara passo dopo passo come creare grafici e manipolare i dati."
+"linktitle": "Grafico a raggiera in Java Slides"
+"second_title": "API di elaborazione Java PowerPoint di Aspose.Slides"
+"title": "Grafico a raggiera in Java Slides"
+"url": "/it/java/chart-elements/sunburst-chart-java-slides/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Grafico Sunburst nelle diapositive Java
+# Grafico a raggiera in Java Slides
 
 
-## Introduzione al grafico Sunburst in Java Slides con Aspose.Slides
+## Introduzione al grafico a raggiera in Java Slides con Aspose.Slides
 
-In questo tutorial imparerai come creare un grafico Sunburst in una presentazione di PowerPoint utilizzando l'API Aspose.Slides per Java. Un grafico Sunburst è un grafico radiale utilizzato per rappresentare dati gerarchici. Forniremo istruzioni dettagliate insieme al codice sorgente.
+In questo tutorial imparerai a creare un grafico a raggiera in una presentazione PowerPoint utilizzando l'API Aspose.Slides per Java. Un grafico a raggiera è un grafico radiale utilizzato per rappresentare dati gerarchici. Forniremo istruzioni dettagliate insieme al codice sorgente.
 
 ## Prerequisiti
 
- Prima di iniziare, assicurati di avere la libreria Aspose.Slides per Java installata e configurata nel tuo progetto Java. È possibile scaricare la libreria da[Qui](https://releases.aspose.com/slides/java/).
+Prima di iniziare, assicurati di aver installato e configurato la libreria Aspose.Slides per Java nel tuo progetto Java. Puoi scaricare la libreria da [Qui](https://releases.aspose.com/slides/java/).
 
-## Passaggio 1: importa le librerie richieste
+## Passaggio 1: importare le librerie richieste
 
-Innanzitutto, importa le librerie necessarie per lavorare con Aspose.Slides e crea un grafico Sunburst nella tua applicazione Java.
+Per prima cosa, importa le librerie necessarie per lavorare con Aspose.Slides e crea un grafico Sunburst nella tua applicazione Java.
 
 ```java
 import com.aspose.slides.*;
@@ -32,16 +34,16 @@ import com.aspose.slides.*;
 
 ## Passaggio 2: inizializzare la presentazione
 
-Inizializza una presentazione PowerPoint e specifica la directory in cui verrà salvato il file di presentazione.
+Inizializza una presentazione PowerPoint e specifica la directory in cui verrà salvato il file della presentazione.
 
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 ```
 
-## Passaggio 3: crea il grafico Sunburst
+## Passaggio 3: creare il grafico a raggiera
 
-Crea un grafico Sunburst su una diapositiva. Specifichiamo la posizione (X, Y) e le dimensioni (larghezza, altezza) del grafico.
+Creiamo un grafico a raggiera su una diapositiva. Specifichiamo la posizione (X, Y) e le dimensioni (larghezza, altezza) del grafico.
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Sunburst, 50, 50, 500, 400);
@@ -49,7 +51,7 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Sunbu
 
 ## Passaggio 4: preparare i dati del grafico
 
-Cancella tutte le categorie e i dati delle serie esistenti dal grafico e crea una cartella di lavoro dei dati per il grafico.
+Cancellare dal grafico tutte le categorie e le serie di dati esistenti e creare una cartella di lavoro dati per il grafico.
 
 ```java
 chart.getChartData().getCategories().clear();
@@ -58,9 +60,9 @@ IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
 wb.clear(0);
 ```
 
-## Passaggio 5: definire la gerarchia dei grafici
+## Passaggio 5: definire la gerarchia del grafico
 
-Definire la struttura gerarchica del grafico Sunburst. Puoi aggiungere rami, steli e foglie come categorie.
+Definisci la struttura gerarchica del grafico Sunburst. Puoi aggiungere rami, steli e foglie come categorie.
 
 ```java
 // Ramo 1
@@ -82,9 +84,9 @@ leaf.getGroupingLevels().setGroupingItem(1, "Stem4");
 chart.getChartData().getCategories().add(wb.getCell(0, "C8", "Leaf8"));
 ```
 
-## Passaggio 6: aggiungi dati al grafico
+## Passaggio 6: aggiungere dati al grafico
 
-Aggiungi punti dati alla serie di grafici Sunburst.
+Aggiungere punti dati alla serie di grafici Sunburst.
 
 ```java
 IChartSeries series = chart.getChartData().getSeries().add(ChartType.Sunburst);
@@ -99,7 +101,7 @@ series.getDataPoints().addDataPointForSunburstSeries(wb.getCell(0, "D7", 4));
 series.getDataPoints().addDataPointForSunburstSeries(wb.getCell(0, "D8", 3));
 ```
 
-## Passaggio 7: salva la presentazione
+## Passaggio 7: Salva la presentazione
 
 Infine, salva la presentazione con il grafico Sunburst.
 
@@ -107,7 +109,7 @@ Infine, salva la presentazione con il grafico Sunburst.
 pres.save("Sunburst.pptx", SaveFormat.Pptx);
 ```
 
-## Codice sorgente completo per il grafico Sunburst nelle diapositive Java
+## Codice sorgente completo per il grafico a raggiera in Java Slides
 
 ```java
 String dataDir = "Your Document Directory";
@@ -155,28 +157,30 @@ finally
 
 ## Conclusione
 
-In questo tutorial, hai imparato come creare un grafico Sunburst in una presentazione di PowerPoint utilizzando l'API Aspose.Slides per Java. Hai visto come inizializzare la presentazione, creare il grafico, definire la gerarchia del grafico, aggiungere punti dati e salvare la presentazione. Ora puoi utilizzare queste conoscenze per creare grafici Sunburst interattivi e informativi nelle tue applicazioni Java.
+In questo tutorial, hai imparato a creare un grafico Sunburst in una presentazione di PowerPoint utilizzando l'API Aspose.Slides per Java. Hai visto come inizializzare la presentazione, creare il grafico, definire la gerarchia dei grafici, aggiungere punti dati e salvare la presentazione. Ora puoi utilizzare queste conoscenze per creare grafici Sunburst interattivi e informativi nelle tue applicazioni Java.
 
 ## Domande frequenti
 
 ### Come posso personalizzare l'aspetto del grafico Sunburst?
 
-È possibile personalizzare l'aspetto del grafico Sunburst modificando proprietà quali colori, etichette e stili. Fare riferimento alla documentazione di Aspose.Slides per le opzioni di personalizzazione dettagliate.
+È possibile personalizzare l'aspetto del grafico Sunburst modificando proprietà come colori, etichette e stili. Consultare la documentazione di Aspose.Slides per informazioni dettagliate sulle opzioni di personalizzazione.
 
-### Posso aggiungere più punti dati al grafico?
+### Posso aggiungere altri punti dati al grafico?
 
- Sì, puoi aggiungere più punti dati al grafico utilizzando il file`series.getDataPoints().addDataPointForSunburstSeries()` metodo per ciascun punto dati che desideri includere.
+Sì, puoi aggiungere più punti dati al grafico utilizzando `series.getDataPoints().addDataPointForSunburstSeries()` metodo per ogni punto dati che vuoi includere.
 
 ### Come posso aggiungere suggerimenti al grafico Sunburst?
 
-Per aggiungere descrizioni comando al grafico Sunburst, puoi impostare il formato dell'etichetta dati per visualizzare informazioni aggiuntive, come valori o descrizioni, quando si passa con il mouse sui segmenti del grafico.
+Per aggiungere suggerimenti al grafico Sunburst, è possibile impostare il formato dell'etichetta dati in modo da visualizzare informazioni aggiuntive, come valori o descrizioni, quando si passa il mouse sui segmenti del grafico.
 
 ### È possibile creare grafici Sunburst interattivi con collegamenti ipertestuali?
 
-Sì, puoi creare grafici Sunburst interattivi con collegamenti ipertestuali aggiungendo collegamenti ipertestuali a specifici elementi o segmenti del grafico. Fare riferimento alla documentazione di Aspose.Slides per i dettagli sull'aggiunta di collegamenti ipertestuali.
+Sì, è possibile creare grafici Sunburst interattivi con collegamenti ipertestuali aggiungendoli a specifici elementi o segmenti del grafico. Consultare la documentazione di Aspose.Slides per dettagli sull'aggiunta di collegamenti ipertestuali.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

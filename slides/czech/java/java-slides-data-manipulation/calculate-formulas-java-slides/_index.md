@@ -1,68 +1,70 @@
 ---
-title: Vypočítat vzorce v Java Slides
-linktitle: Vypočítat vzorce v Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Naučte se vypočítat vzorce v Java Slides pomocí Aspose.Slides pro Java. Podrobný průvodce se zdrojovým kódem pro dynamické prezentace v PowerPointu.
-weight: 10
-url: /cs/java/data-manipulation/calculate-formulas-java-slides/
+"description": "Naučte se, jak vypočítat vzorce v Java Slides pomocí Aspose.Slides pro Javu. Podrobný návod se zdrojovým kódem pro dynamické prezentace v PowerPointu."
+"linktitle": "Výpočet vzorců v Javě Slides"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Výpočet vzorců v Javě Slides"
+"url": "/cs/java/data-manipulation/calculate-formulas-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vypočítat vzorce v Java Slides
+# Výpočet vzorců v Javě Slides
 
 
-## Úvod do výpočtu vzorců v Java Slides pomocí Aspose.Slides
+## Úvod do výpočtu vzorců v Javě Slides pomocí Aspose.Slides
 
-V této příručce si ukážeme, jak vypočítat vzorce v Java Slides pomocí Aspose.Slides for Java API. Aspose.Slides je výkonná knihovna pro práci s prezentacemi aplikace PowerPoint a poskytuje funkce pro manipulaci s grafy a provádění výpočtů vzorců v rámci snímků.
+této příručce si ukážeme, jak vypočítat vzorce v Java Slides pomocí rozhraní Aspose.Slides for Java API. Aspose.Slides je výkonná knihovna pro práci s prezentacemi v PowerPointu, která poskytuje funkce pro manipulaci s grafy a provádění výpočtů vzorců v rámci snímků.
 
 ## Předpoklady
 
 Než začnete, ujistěte se, že máte následující:
 
-- Vývojové prostředí Java
--  Knihovna Aspose.Slides for Java (Můžete si ji stáhnout z[tady](https://releases.aspose.com/slides/java/)
+- Vývojové prostředí v Javě
+- Knihovna Aspose.Slides pro Javu (můžete si ji stáhnout z [zde](https://releases.aspose.com/slides/java/)
 - Základní znalost programování v Javě
 
 ## Krok 1: Vytvořte novou prezentaci
 
-Nejprve vytvoříme novou PowerPoint prezentaci a přidáme do ní snímek. V tomto příkladu budeme pracovat s jedním snímkem.
+Nejprve si vytvořme novou prezentaci v PowerPointu a přidejme do ní snímek. V tomto příkladu budeme pracovat s jedním snímkem.
 
 ```java
 String resultPath = "Your Output Directory" + "CalculateFormulas_out.pptx";
 Presentation presentation = new Presentation();
 ```
 
-## Krok 2: Přidejte graf do snímku
+## Krok 2: Přidání grafu do snímku
 
-Nyní na snímek přidáme seskupený sloupcový graf. Tento graf použijeme k demonstraci výpočtů vzorce.
+Nyní si na snímek přidejme shlukový sloupcový graf. Tento graf použijeme k demonstraci výpočtů pomocí vzorců.
 
 ```java
 IChart s_chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);
 ```
 
-## Krok 3: Nastavte vzorce a hodnoty
+## Krok 3: Nastavení vzorců a hodnot
 
-Dále nastavíme vzorce a hodnoty pro datové buňky grafu pomocí Aspose.Slides API. Vypočítáme vzorce pro tyto buňky.
+Dále nastavíme vzorce a hodnoty pro datové buňky grafu pomocí API Aspose.Slides. Vypočítáme vzorce pro tyto buňky.
 
 ```java
 IChartDataWorkbook workbook = s_chart.getChartData().getChartDataWorkbook();
 
-// Nastavte vzorec pro buňku A1
+// Nastavení vzorce pro buňku A1
 IChartDataCell cell = workbook.getCell(0, "A1");
 cell.setFormula("ABS(A2) + MAX(B2:C2)");
 
-// Nastavte hodnotu pro buňku A2
+// Nastavit hodnotu pro buňku A2
 workbook.getCell(0, "A2").setValue(-1);
 workbook.calculateFormulas();
 
-// Nastavte vzorec pro buňku B2
+// Nastavení vzorce pro buňku B2
 workbook.getCell(0, "B2").setFormula("2");
 workbook.calculateFormulas();
 
-// Nastavte vzorec pro buňku C2
+// Nastavení vzorce pro buňku C2
 workbook.getCell(0, "C2").setFormula("A2 + 4");
 workbook.calculateFormulas();
 
@@ -73,13 +75,13 @@ workbook.calculateFormulas();
 
 ## Krok 4: Uložte prezentaci
 
-Nakonec upravenou prezentaci s vypočtenými vzorci uložme.
+Nakonec uložme upravenou prezentaci s vypočítanými vzorci.
 
 ```java
 presentation.save(resultPath, SaveFormat.Pptx);
 ```
 
-## Kompletní zdrojový kód pro výpočet vzorců v Java Slides
+## Kompletní zdrojový kód pro výpočet vzorců v Javě (prezentace)
 
 ```java
 String resultPath = "Your Output Directory" + "CalculateFormulas_out.pptx";
@@ -105,25 +107,27 @@ try {
 
 ## Závěr
 
-V této příručce jsme se naučili, jak vypočítat vzorce v Java Slides pomocí Aspose.Slides for Java. Vytvořili jsme novou prezentaci, přidali do ní graf, nastavili vzorce a hodnoty pro datové buňky grafu a uložili prezentaci s vypočítanými vzorci.
+V této příručce jsme se naučili, jak vypočítat vzorce v Java Slides pomocí Aspose.Slides pro Javu. Vytvořili jsme novou prezentaci, přidali do ní graf, nastavili vzorce a hodnoty pro datové buňky grafu a prezentaci s vypočítanými vzorci uložili.
 
-## FAQ
+## Často kladené otázky
 
 ### Jak nastavím vzorce pro datové buňky grafu?
 
- Vzorce pro datové buňky grafu můžete nastavit pomocí`setFormula` metoda`IChartDataCell` v Aspose.Slides.
+Vzorce pro datové buňky grafu můžete nastavit pomocí `setFormula` metoda `IChartDataCell` v Aspose.Slides.
 
 ### Jak nastavím hodnoty pro datové buňky grafu?
 
- Hodnoty pro datové buňky grafu můžete nastavit pomocí`setValue` metoda`IChartDataCell` v Aspose.Slides.
+Hodnoty pro datové buňky grafu můžete nastavit pomocí `setValue` metoda `IChartDataCell` v Aspose.Slides.
 
 ### Jak vypočítám vzorce v sešitu?
 
- Vzorce v sešitu můžete vypočítat pomocí`calculateFormulas` metoda`IChartDataWorkbook` v Aspose.Slides.
+Vzorce v sešitu můžete vypočítat pomocí `calculateFormulas` metoda `IChartDataWorkbook` v Aspose.Slides.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

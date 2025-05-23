@@ -1,63 +1,65 @@
 ---
-title: Twórz wielopoziomowe punktory w Java PowerPoint
-linktitle: Twórz wielopoziomowe punktory w Java PowerPoint
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Dowiedz się, jak tworzyć wielopoziomowe punktory w programie PowerPoint przy użyciu Aspose.Slides dla Java. Przewodnik krok po kroku z przykładami kodu i często zadawanymi pytaniami.
-weight: 14
-url: /pl/java/java-powerpoint-text-paragraph-management/create-multilevel-bullets-java-powerpoint/
+"description": "Dowiedz się, jak tworzyć wielopoziomowe punkty w programie PowerPoint za pomocą Aspose.Slides dla Java. Przewodnik krok po kroku z przykładami kodu i często zadawanymi pytaniami."
+"linktitle": "Tworzenie wielopoziomowych punktów w programie PowerPoint Java"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Tworzenie wielopoziomowych punktów w programie PowerPoint Java"
+"url": "/pl/java/java-powerpoint-text-paragraph-management/create-multilevel-bullets-java-powerpoint/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Twórz wielopoziomowe punktory w Java PowerPoint
+# Tworzenie wielopoziomowych punktów w programie PowerPoint Java
 
 ## Wstęp
-W tym samouczku omówimy, jak tworzyć wielopoziomowe punktory w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java. Dodawanie wypunktowań jest częstym wymogiem tworzenia zorganizowanej i atrakcyjnej wizualnie treści w prezentacjach. Przejdziemy przez ten proces krok po kroku, upewniając się, że pod koniec tego przewodnika będziesz w stanie wzbogacić swoje prezentacje o uporządkowane wypunktowania na wielu poziomach.
-## Warunki wstępne
-Zanim zaczniemy, upewnij się, że masz następującą konfigurację:
-- Środowisko programistyczne Java: Upewnij się, że w systemie jest zainstalowany zestaw Java Development Kit (JDK).
--  Biblioteka Aspose.Slides dla Java: Pobierz i zainstaluj Aspose.Slides dla Java z[Tutaj](https://releases.aspose.com/slides/java/).
-- IDE: Użyj preferowanego zintegrowanego środowiska programistycznego Java (IDE), takiego jak IntelliJ IDEA, Eclipse lub inne.
-- Podstawowa wiedza: Pomocna będzie znajomość programowania w języku Java i podstawowych koncepcji programu PowerPoint.
+tym samouczku pokażemy, jak tworzyć wielopoziomowe punkty w prezentacjach PowerPoint przy użyciu Aspose.Slides for Java. Dodawanie punktów wypunktowania jest powszechnym wymogiem tworzenia zorganizowanej i wizualnie atrakcyjnej treści w prezentacjach. Przejdziemy przez ten proces krok po kroku, zapewniając, że do końca tego przewodnika będziesz wyposażony w narzędzia do ulepszania swoich prezentacji za pomocą ustrukturyzowanych punktów wypunktowania na wielu poziomach.
+## Wymagania wstępne
+Zanim zaczniemy, upewnij się, że masz następujące ustawienia:
+- Środowisko programistyczne Java: upewnij się, że w systemie jest zainstalowany Java Development Kit (JDK).
+- Biblioteka Aspose.Slides dla Java: Pobierz i zainstaluj Aspose.Slides dla Java z [Tutaj](https://releases.aspose.com/slides/java/).
+- IDE: Użyj preferowanego zintegrowanego środowiska programistycznego Java (IDE), takiego jak IntelliJ IDEA, Eclipse lub innego.
+- Wiedza podstawowa: Znajomość programowania w języku Java i podstawowych koncepcji programu PowerPoint będzie pomocna.
 
 ## Importuj pakiety
-Zanim przejdziemy do samouczka, zaimportujmy niezbędne pakiety z Aspose.Slides dla Java, których będziemy używać w całym samouczku.
+Zanim przejdziemy do samouczka, zaimportujmy niezbędne pakiety z Aspose.Slides dla Java, z których będziemy korzystać w całym samouczku.
 ```java
 import com.aspose.slides.*;
 import java.awt.*;
 import java.io.File;
 ```
 ## Krok 1: Skonfiguruj swój projekt
-Najpierw utwórz nowy projekt Java w swoim IDE i dodaj Aspose.Slides for Java do zależności swojego projektu. Upewnij się, że niezbędny plik JAR Aspose.Slides znajduje się w ścieżce kompilacji projektu.
+Najpierw utwórz nowy projekt Java w swoim IDE i dodaj Aspose.Slides for Java do zależności swojego projektu. Upewnij się, że niezbędny plik JAR Aspose.Slides jest uwzględniony w ścieżce kompilacji Twojego projektu.
 ```java
 // Ścieżka do katalogu dokumentów.
 String dataDir = "Your Document Directory";
 ```
 ## Krok 2: Zainicjuj obiekt prezentacji
-Rozpocznij od utworzenia nowej instancji prezentacji. Będzie to służyć jako dokument programu PowerPoint, w którym będziesz dodawać slajdy i zawartość.
+Zacznij od utworzenia nowej instancji prezentacji. Będzie ona służyć jako dokument PowerPoint, do którego będziesz dodawać slajdy i treści.
 ```java
 Presentation pres = new Presentation();
 ```
-## Krok 3: Uzyskaj dostęp do slajdu
-Następnie przejdź do slajdu, do którego chcesz dodać wielopoziomowe punktory. W tym przykładzie będziemy pracować z pierwszym slajdem (`Slide(0)`).
+## Krok 3: Dostęp do slajdu
+Następnie przejdź do slajdu, do którego chcesz dodać wielopoziomowe punkty. W tym przykładzie będziemy pracować z pierwszym slajdem (`Slide(0)`).
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
 ```
-## Krok 4: Dodaj Autokształt z ramką tekstową
-Dodaj Autokształt do slajdu, w którym umieścisz tekst z wielopoziomowymi punktorami.
+## Krok 4: Dodaj Autokształt z Ramką Tekstową
+Dodaj Autokształt do slajdu, w którym umieścisz tekst z punktami wielopoziomowymi.
 ```java
 IAutoShape aShp = slide.getShapes().addAutoShape(ShapeType.Rectangle, 200, 200, 400, 200);
 ```
-## Krok 5: Uzyskaj dostęp do ramki tekstowej
-Uzyskaj dostęp do ramki tekstowej w Autokształcie, w której będziesz dodawać akapity z punktorami.
+## Krok 5: Dostęp do ramki tekstowej
+Przejdź do ramki tekstowej w autokształcie, w której chcesz dodać akapity z punktami wypunktowanymi.
 ```java
 ITextFrame text = aShp.addTextFrame("");
-text.getParagraphs().clear(); //Wyczyść domyślne akapity
+text.getParagraphs().clear(); // Wyczyść domyślne akapity
 ```
-## Krok 6: Dodaj akapity z punktorami
-Dodaj akapity z różnymi poziomami punktorów. Oto jak dodać punktory wielopoziomowe:
+## Krok 6: Dodaj akapity z punktami
+Dodaj akapity z różnymi poziomami wypunktowań. Oto jak możesz dodać wielopoziomowe wypunktowania:
 ```java
 // Pierwszy poziom
 IParagraph para1 = new Paragraph();
@@ -103,21 +105,23 @@ pres.save(dataDir + "MultilevelBullet.pptx", SaveFormat.Pptx);
 ```
 
 ## Wniosek
-W tym samouczku omówiliśmy, jak tworzyć wielopoziomowe punktory w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java. Wykonując poniższe kroki, możesz skutecznie uporządkować treść za pomocą uporządkowanych wypunktowań na różnych poziomach, zwiększając przejrzystość i atrakcyjność wizualną prezentacji.
-## Często zadawane pytania
-### Czy mogę bardziej dostosować symbole punktorów?
-Tak, możesz dostosować symbole punktorów, dostosowując znaki Unicode lub używając różnych kształtów.
-### Czy Aspose.Slides obsługuje inne typy punktorów?
-Tak, Aspose.Slides obsługuje różne typy punktorów, w tym symbole, liczby i niestandardowe obrazy.
+W tym samouczku omówiliśmy, jak tworzyć wielopoziomowe punkty w prezentacjach PowerPoint przy użyciu Aspose.Slides dla Java. Postępując zgodnie z tymi krokami, możesz skutecznie ustrukturyzować swoją treść za pomocą uporządkowanych punktów wypunktowania na różnych poziomach, zwiększając przejrzystość i atrakcyjność wizualną swoich prezentacji.
+## Najczęściej zadawane pytania
+### Czy mogę dodatkowo dostosować symbole punktorów?
+Tak, możesz dostosować symbole punktorów, zmieniając znaki Unicode lub używając innych kształtów.
+### Czy Aspose.Slides obsługuje inne typy punktów?
+Tak, Aspose.Slides obsługuje wiele typów punktorów, w tym symbole, liczby i niestandardowe obrazy.
 ### Czy Aspose.Slides jest kompatybilny ze wszystkimi wersjami programu PowerPoint?
-Aspose.Slides generuje prezentacje kompatybilne z Microsoft PowerPoint 2007 i nowszymi wersjami.
+Aspose.Slides generuje prezentacje zgodne z programem Microsoft PowerPoint 2007 i nowszymi wersjami.
 ### Czy mogę zautomatyzować generowanie slajdów za pomocą Aspose.Slides?
-Tak, Aspose.Slides udostępnia interfejsy API umożliwiające automatyzację tworzenia, modyfikowania i manipulowania prezentacjami programu PowerPoint.
+Tak, Aspose.Slides udostępnia interfejsy API umożliwiające automatyzację tworzenia, modyfikowania i modyfikowania prezentacji PowerPoint.
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Slides dla Java?
- Możesz uzyskać wsparcie od społeczności i ekspertów Aspose.Slides pod adresem[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+Możesz uzyskać pomoc od społeczności i ekspertów Aspose.Slides pod adresem [Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

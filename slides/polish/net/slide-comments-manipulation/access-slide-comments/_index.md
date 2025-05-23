@@ -1,40 +1,42 @@
 ---
-title: Uzyskaj dostęp do komentarzy do slajdów za pomocą Aspose.Slides
-linktitle: Uzyskaj dostęp do komentarzy do slajdów
-second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Dowiedz się, jak uzyskać dostęp do komentarzy do slajdów w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla .NET. Bez wysiłku usprawnij współpracę i przepływ pracy.
-weight: 11
-url: /pl/net/slide-comments-manipulation/access-slide-comments/
+"description": "Dowiedz się, jak uzyskać dostęp do komentarzy do slajdów w prezentacjach PowerPoint za pomocą Aspose.Slides dla .NET. Bezproblemowo usprawnij współpracę i przepływ pracy."
+"linktitle": "Dostęp do komentarzy slajdów"
+"second_title": "Aspose.Slides .NET API przetwarzania programu PowerPoint"
+"title": "Dostęp do komentarzy slajdów za pomocą Aspose.Slides"
+"url": "/pl/net/slide-comments-manipulation/access-slide-comments/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Uzyskaj dostęp do komentarzy do slajdów za pomocą Aspose.Slides
+# Dostęp do komentarzy slajdów za pomocą Aspose.Slides
 
 
-W świecie dynamicznych i interaktywnych prezentacji zarządzanie komentarzami na slajdach może być kluczową częścią procesu współpracy. Aspose.Slides dla .NET zapewnia solidne i wszechstronne rozwiązanie umożliwiające dostęp do komentarzy do slajdów i manipulowanie nimi, usprawniając przepływ prezentacji. W tym przewodniku krok po kroku zagłębimy się w proces uzyskiwania dostępu do komentarzy do slajdów za pomocą Aspose.Slides dla .NET.
+świecie dynamicznych i interaktywnych prezentacji zarządzanie komentarzami w slajdach może być kluczową częścią procesu współpracy. Aspose.Slides for .NET zapewnia solidne i wszechstronne rozwiązanie do uzyskiwania dostępu i manipulowania komentarzami do slajdów, usprawniając przepływ pracy nad prezentacją. W tym przewodniku krok po kroku zagłębimy się w proces uzyskiwania dostępu do komentarzy do slajdów za pomocą Aspose.Slides for .NET.
 
-## Warunki wstępne
+## Wymagania wstępne
 
 Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstępne:
 
 ### 1. Aspose.Slides dla .NET
 
-Musisz mieć zainstalowany Aspose.Slides for .NET w swoim środowisku programistycznym. Jeśli jeszcze tego nie zrobiłeś, możesz pobrać go ze strony[strona internetowa](https://releases.aspose.com/slides/net/).
+Musisz mieć zainstalowany Aspose.Slides dla .NET w swoim środowisku programistycznym. Jeśli jeszcze tego nie zrobiłeś, możesz pobrać go ze strony [strona internetowa](https://releases.aspose.com/slides/net/).
 
-### 2. Przesuń komentarze w swojej prezentacji
+### 2. Komentarze do slajdów w prezentacji
 
-Upewnij się, że masz prezentację programu PowerPoint zawierającą komentarze do slajdów, do których chcesz uzyskać dostęp. Możesz tworzyć te komentarze w programie PowerPoint lub innym narzędziu obsługującym komentarze do slajdów.
+Upewnij się, że masz prezentację PowerPoint z komentarzami do slajdów, do których chcesz uzyskać dostęp. Możesz utworzyć te komentarze w programie PowerPoint lub dowolnym innym narzędziu obsługującym komentarze do slajdów.
 
 ## Importuj przestrzenie nazw
 
-Aby pracować z Aspose.Slides dla .NET i uzyskać dostęp do komentarzy do slajdów, musisz zaimportować niezbędne przestrzenie nazw. Oto jak możesz to zrobić:
+Aby pracować z Aspose.Slides dla .NET i uzyskać dostęp do komentarzy slajdów, musisz zaimportować niezbędne przestrzenie nazw. Oto, jak to zrobić:
 
 ### Krok 1: Importuj przestrzenie nazw
 
-Najpierw otwórz edytor kodu C# i umieść wymagane przestrzenie nazw na górze pliku kodu:
+Najpierw otwórz edytor kodu C# i uwzględnij wymagane przestrzenie nazw na górze pliku kodu:
 
 ```csharp
 using Aspose.Slides;
@@ -42,43 +44,43 @@ using Aspose.Slides.Comment;
 using System;
 ```
 
-Teraz, gdy omówiliśmy wymagania wstępne i zaimportowaliśmy niezbędne przestrzenie nazw, przyjrzyjmy się krok po kroku procesowi uzyskiwania dostępu do komentarzy do slajdów przy użyciu Aspose.Slides dla .NET.
+Teraz, gdy omówiliśmy już wymagania wstępne i zaimportowaliśmy niezbędne przestrzenie nazw, możemy przejść do szczegółowego procesu uzyskiwania dostępu do komentarzy do slajdów za pomocą Aspose.Slides dla platformy .NET.
 
 ## Krok 2: Ustaw katalog dokumentów
 
- Zdefiniuj ścieżkę do katalogu dokumentów, w którym znajduje się prezentacja PowerPoint z komentarzami do slajdów. Zastępować`"Your Document Directory"` z rzeczywistą ścieżką:
+Zdefiniuj ścieżkę do katalogu dokumentów, w którym znajduje się prezentacja PowerPoint z komentarzami do slajdów. Zastąp `"Your Document Directory"` z rzeczywistą ścieżką:
 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
 
-## Krok 3: Utwórz instancję klasy prezentacji
+## Krok 3: Utwórz klasę prezentacji
 
-Teraz utwórzmy instancję`Presentation` zajęcia, które pozwolą Ci pracować z prezentacją w programie PowerPoint:
+Teraz utwórzmy instancję `Presentation` klasa, która umożliwi Ci pracę z prezentacją PowerPoint:
 
 ```csharp
 using (Presentation presentation = new Presentation(dataDir + "YourPresentation.pptx"))
 {
-    // Twój kod trafi tutaj.
+    // Twój kod będzie tutaj.
 }
 ```
 
-## Krok 4: Iteruj po autorach komentarzy
+## Krok 4: Przejrzyj autorów komentarzy
 
-Na tym etapie przeglądamy autorów komentarzy w prezentacji. Autor komentarza to osoba, która dodała komentarz do slajdu:
+tym kroku przechodzimy przez autorów komentarzy w prezentacji. Autorem komentarza jest osoba, która dodała komentarz do slajdu:
 
 ```csharp
 foreach (var commentAuthor in presentation.CommentAuthors)
 {
     var author = (CommentAuthor)commentAuthor;
     
-    // Twój kod trafi tutaj.
+    // Twój kod będzie tutaj.
 }
 ```
 
-## Krok 5: Uzyskaj dostęp do komentarzy
+## Krok 5: Dostęp do komentarzy
 
-W ramach każdego autora komentarza możemy uzyskać dostęp do samych komentarzy. Komentarze są powiązane z konkretnymi slajdami i możemy wyodrębnić informacje o komentarzach, takie jak tekst, autor i czas utworzenia:
+W obrębie każdego autora komentarza możemy uzyskać dostęp do samych komentarzy. Komentarze są powiązane z konkretnymi slajdami i możemy wyodrębnić informacje o komentarzach, takie jak tekst, autor i czas utworzenia:
 
 ```csharp
 foreach (var commentAuthor in presentation.CommentAuthors)
@@ -96,31 +98,33 @@ foreach (var commentAuthor in presentation.CommentAuthors)
 }
 ```
 
-Gratulacje! Pomyślnie uzyskałeś dostęp do komentarzy do slajdów w prezentacji programu PowerPoint przy użyciu Aspose.Slides dla .NET. To potężne narzędzie otwiera świat możliwości zarządzania prezentacjami i współpracy nad nimi.
+Gratulacje! Udało Ci się uzyskać dostęp do komentarzy slajdów w prezentacji PowerPoint przy użyciu Aspose.Slides dla .NET. To potężne narzędzie otwiera świat możliwości zarządzania prezentacjami i współpracy nad nimi.
 
 ## Wniosek
 
-Aspose.Slides dla .NET zapewnia bezproblemowy dostęp do komentarzy do slajdów i manipulowanie nimi w prezentacjach programu PowerPoint. Wykonując czynności opisane w tym przewodniku, możesz skutecznie wyodrębnić cenne informacje ze slajdów, usprawniając współpracę i przepływ pracy.
+Aspose.Slides for .NET zapewnia bezproblemowy sposób dostępu i manipulowania komentarzami slajdów w prezentacjach PowerPoint. Postępując zgodnie z krokami opisanymi w tym przewodniku, możesz wydajnie wyodrębnić cenne informacje ze slajdów i usprawnić współpracę i przepływ pracy.
 
 ### Często zadawane pytania (FAQ)
 
-### Co to jest Aspose.Slides dla .NET?
-Aspose.Slides dla .NET to potężna biblioteka, która umożliwia programistom programową pracę z prezentacjami programu PowerPoint. Zapewnia szeroką gamę funkcji do tworzenia, modyfikowania i zarządzania plikami programu PowerPoint.
+### Czym jest Aspose.Slides dla .NET?
+Aspose.Slides for .NET to potężna biblioteka, która umożliwia programistom programową pracę z prezentacjami PowerPoint. Zapewnia szeroki zakres funkcji do tworzenia, modyfikowania i zarządzania plikami PowerPoint.
 
 ### Czy mogę używać Aspose.Slides for .NET w różnych aplikacjach .NET?
-Tak, Aspose.Slides dla .NET może być używany w różnych aplikacjach .NET, w tym Windows Forms, ASP.NET i aplikacjach konsolowych.
+Tak, Aspose.Slides for .NET można używać w różnych aplikacjach .NET, w tym Windows Forms, ASP.NET i aplikacjach konsolowych.
 
-### Czy dostępna jest bezpłatna wersja próbna Aspose.Slides dla .NET?
- Tak, możesz pobrać bezpłatną wersję próbną Aspose.Slides dla .NET z[Tutaj](https://releases.aspose.com/). Ta wersja próbna pozwala poznać możliwości biblioteki.
+### Czy jest dostępna bezpłatna wersja próbna Aspose.Slides dla .NET?
+Tak, możesz pobrać bezpłatną wersję próbną Aspose.Slides dla .NET ze strony [Tutaj](https://releases.aspose.com/). Ta wersja próbna pozwala na zapoznanie się z możliwościami biblioteki.
 
-### Gdzie mogę znaleźć dokumentację i wsparcie dla Aspose.Slides dla .NET?
- Dostęp do dokumentacji można uzyskać pod adresem[reference.aspose.com/slides/net/](https://reference.aspose.com/slides/net/) i szukaj wsparcia na[Forum Aspose.Slides](https://forum.aspose.com/).
+### Gdzie mogę znaleźć dokumentację i pomoc techniczną dotyczącą Aspose.Slides dla platformy .NET?
+Dostęp do dokumentacji można uzyskać pod adresem [odniesienie.aspose.com/slides/net/](https://reference.aspose.com/slides/net/) i poszukaj wsparcia w [Forum Aspose.Slides](https://forum.aspose.com/).
 
-### Czy mogę kupić licencję na Aspose.Slides dla .NET?
- Tak, możesz kupić licencję na Aspose.Slides dla .NET[ten link](https://purchase.aspose.com/buy) aby uwolnić pełny potencjał biblioteki w swoich projektach.
+### Czy mogę kupić licencję na Aspose.Slides dla platformy .NET?
+Tak, możesz zakupić licencję na Aspose.Slides dla .NET od [ten link](https://purchase.aspose.com/buy) aby w pełni wykorzystać potencjał biblioteki w swoich projektach.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

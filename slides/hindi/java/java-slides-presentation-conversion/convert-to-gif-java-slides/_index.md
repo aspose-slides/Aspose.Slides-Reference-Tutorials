@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स को GIF में बदलें
-linktitle: जावा स्लाइड्स को GIF में बदलें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides के साथ जावा में PowerPoint प्रस्तुतियों को GIF छवियों में परिवर्तित करना सीखें। सहज रूपांतरण के लिए आसान चरण-दर-चरण मार्गदर्शिका।
-weight: 22
-url: /hi/java/presentation-conversion/convert-to-gif-java-slides/
+"description": "Aspose.Slides के साथ जावा में PowerPoint प्रस्तुतियों को GIF छवियों में परिवर्तित करना सीखें। सहज रूपांतरण के लिए आसान चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "जावा स्लाइड्स को GIF में बदलें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स को GIF में बदलें"
+"url": "/hi/java/presentation-conversion/convert-to-gif-java-slides/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स को GIF में बदलें
@@ -22,7 +24,7 @@ url: /hi/java/presentation-conversion/convert-to-gif-java-slides/
 
 इससे पहले कि हम कोड में उतरें, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 
--  Aspose.Slides for Java: यदि आपने अभी तक इसे डाउनलोड नहीं किया है, तो आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+- Aspose.Slides for Java: यदि आपने अभी तक इसे डाउनलोड नहीं किया है, तो आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 
 ## चरण 1: अपना जावा वातावरण स्थापित करना
 
@@ -36,7 +38,7 @@ java -version
 
 ## चरण 2: पावरपॉइंट प्रेजेंटेशन लोड करना
 
- इस चरण में, हम एक PowerPoint प्रस्तुति लोड करेंगे जिसे आप GIF में बदलना चाहते हैं।`"Your Document Directory"` अपनी प्रस्तुति फ़ाइल के वास्तविक पथ के साथ.
+इस चरण में, हम एक PowerPoint प्रस्तुति लोड करेंगे जिसे आप GIF में बदलना चाहते हैं। `"Your Document Directory"` अपनी प्रस्तुति फ़ाइल के वास्तविक पथ के साथ.
 
 ```java
 // दस्तावेज़ निर्देशिका का पथ
@@ -48,7 +50,7 @@ Presentation presentation = new Presentation(dataDir + "ConvertToGif.pptx");
 
 ## चरण 3: GIF रूपांतरण विकल्प कॉन्फ़िगर करना
 
-अब, GIF रूपांतरण के लिए विकल्पों को कॉन्फ़िगर करते हैं। आप अपनी पसंद के अनुसार इन सेटिंग्स को कस्टमाइज़ कर सकते हैं। इस उदाहरण में, हमने फ़्रेम का आकार, स्लाइड के बीच देरी और संक्रमण FPS सेट किया है।
+अब, GIF रूपांतरण के लिए विकल्पों को कॉन्फ़िगर करते हैं। आप अपनी पसंद के अनुसार इन सेटिंग्स को कस्टमाइज़ कर सकते हैं। इस उदाहरण में, हमने फ़्रेम का आकार, स्लाइड के बीच देरी और ट्रांज़िशन FPS सेट किया है।
 
 ```java
 GifOptions gifOptions = new GifOptions();
@@ -100,11 +102,11 @@ try {
 
 ### मैं परिणामी GIF के फ्रेम का आकार कैसे बदल सकता हूँ?
 
- आप फ्रेम का आकार संशोधित करके बदल सकते हैं`setFrameSize` कोड में विधि। बस अपडेट करें`Dimension` अपनी इच्छित चौड़ाई और ऊंचाई वाली वस्तु चुनें।
+आप फ्रेम का आकार संशोधित करके बदल सकते हैं `setFrameSize` कोड में विधि। बस अपडेट करें `Dimension` अपनी इच्छित चौड़ाई और ऊंचाई वाली वस्तु चुनें।
 
 ### क्या मैं GIF में स्लाइडों के बीच विलंब को समायोजित कर सकता हूँ?
 
- हां, आप मान बदलकर स्लाइडों के बीच विलंब को समायोजित कर सकते हैं`setDefaultDelay`यह मिलीसेकंड में निर्दिष्ट है, इसलिए इसे वांछित विलंब समय पर सेट करें।
+हां, आप मान बदलकर स्लाइडों के बीच विलंब को समायोजित कर सकते हैं `setDefaultDelay`यह मिलीसेकंड में निर्दिष्ट है, इसलिए इसे वांछित विलंब समय पर सेट करें।
 
 ### GIF रूपांतरण के लिए अनुशंसित FPS क्या है?
 
@@ -116,10 +118,12 @@ try {
 
 ### मैं Aspose.Slides for Java लाइब्रेरी तक कहां पहुंच सकता हूं?
 
- आप Aspose.Slides for Java को Aspose वेबसाइट से डाउनलोड कर सकते हैं:[Java के लिए Aspose.Slides डाउनलोड करें](https://releases.aspose.com/slides/java/).
+आप Aspose.Slides for Java को Aspose वेबसाइट से डाउनलोड कर सकते हैं: [Java के लिए Aspose.Slides डाउनलोड करें](https://releases.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

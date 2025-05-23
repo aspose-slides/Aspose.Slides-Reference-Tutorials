@@ -1,20 +1,22 @@
 ---
-title: Jak používat Aspose.Slides .NET k obnovení sešitu z grafu
-linktitle: Obnovte sešit z grafu
-second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Naučte se, jak obnovit sešit z grafu v prezentacích PowerPoint pomocí Aspose.Slides for .NET. Postupujte podle našeho podrobného průvodce a extrahujte data efektivně.
-weight: 12
-url: /cs/net/additional-chart-features/chart-recover-workbook/
+"description": "Naučte se, jak obnovit sešit z grafu v prezentacích PowerPointu pomocí Aspose.Slides pro .NET. Postupujte podle našeho podrobného návodu, jak efektivně extrahovat data."
+"linktitle": "Obnovení sešitu z grafu"
+"second_title": "Rozhraní API pro zpracování PowerPointu v .NET od Aspose.Slides"
+"title": "Jak použít Aspose.Slides .NET k obnovení sešitu z grafu"
+"url": "/cs/net/additional-chart-features/chart-recover-workbook/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak používat Aspose.Slides .NET k obnovení sešitu z grafu
+# Jak použít Aspose.Slides .NET k obnovení sešitu z grafu
 
 
-Pokud chcete pracovat s prezentacemi PowerPoint v .NET, Aspose.Slides for .NET je výkonná knihovna, která vám pomůže dosáhnout vašich cílů. V tomto tutoriálu vás provedeme procesem obnovení sešitu z grafu v prezentaci PowerPoint pomocí Aspose.Slides pro .NET. Tato výkonná funkce může být užitečná, když potřebujete extrahovat data z grafů ve vašich prezentacích. Tento proces rozdělíme do snadno pochopitelných kroků, abyste měli jasno v tom, jak tento úkol splnit.
+Pokud chcete pracovat s prezentacemi v PowerPointu v .NET, Aspose.Slides for .NET je výkonná knihovna, která vám může pomoci dosáhnout vašich cílů. V tomto tutoriálu vás provedeme procesem obnovy sešitu z grafu v prezentaci PowerPointu pomocí Aspose.Slides for .NET. Tato výkonná funkce může být užitečná, když potřebujete extrahovat data z grafů ve vašich prezentacích. Rozdělíme proces do snadno sledovatelných kroků, abyste měli jasnou představu o tom, jak tento úkol provést.
 
 ## Předpoklady
 
@@ -22,17 +24,17 @@ Než začneme, ujistěte se, že máte splněny následující předpoklady:
 
 ### 1. Aspose.Slides pro .NET
 
-Aspose.Slides for .NET byste měli mít nainstalované a nastavené ve svém vývojovém prostředí .NET. Pokud jste to ještě neudělali, můžete si jej stáhnout a nainstalovat z webu.
+Měli byste mít ve svém vývojovém prostředí .NET nainstalovaný a nastavený Aspose.Slides pro .NET. Pokud jste tak ještě neučinili, můžete si jej stáhnout a nainstalovat z webových stránek.
 
 [Stáhněte si Aspose.Slides pro .NET](https://releases.aspose.com/slides/net/)
 
 ### 2. Prezentace v PowerPointu
 
-Budete potřebovat PowerPointovou prezentaci s grafem, ze kterého chcete sešit obnovit. Ujistěte se, že máte připravený soubor prezentace.
+Budete potřebovat prezentaci v PowerPointu s grafem, ze kterého chcete obnovit sešit. Ujistěte se, že máte připravený soubor s prezentací.
 
 ## Import nezbytných jmenných prostorů
 
-V tomto kroku budete muset importovat požadované jmenné prostory, abyste mohli efektivně pracovat s Aspose.Slides for .NET.
+V tomto kroku budete muset importovat požadované jmenné prostory, abyste mohli efektivně pracovat s Aspose.Slides pro .NET.
 
 ### Krok 1: Import jmenných prostorů
 
@@ -42,16 +44,16 @@ using Aspose.Slides.Charts;
 using Aspose.Slides.Export;
 ```
 
-Nyní si rozdělme proces obnovy sešitu z grafu v PowerPointové prezentaci do několika kroků.
+Nyní si rozdělme proces obnovy sešitu z grafu v prezentaci PowerPoint do několika kroků.
 
-## Krok 1: Definujte adresář dokumentů
+## Krok 1: Definování adresáře dokumentů
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "Your Document Directory";
 ```
 
-V tomto kroku musíte určit adresář, kde je umístěna vaše prezentace PowerPoint.
+V tomto kroku je třeba zadat adresář, kde se nachází vaše prezentace v PowerPointu.
 
 ## Krok 2: Načtěte prezentaci a povolte obnovení sešitu
 
@@ -64,12 +66,12 @@ lo.SpreadsheetOptions.RecoverWorkbookFromChartCache = true;
 
 using (Presentation pres = new Presentation(pptxFile, lo))
 {
-    // Zde je váš kód pro obnovu grafu
+    // Váš kód pro obnovu grafu patří sem
     pres.Save(outPptxFile, SaveFormat.Pptx);
 }
 ```
 
- tomto kroku načtete prezentaci PowerPoint ze zadaného souboru a povolíte obnovu sešitu z mezipaměti grafu. The`LoadOptions` k tomuto účelu slouží objekt.
+V tomto kroku načtete prezentaci PowerPoint ze zadaného souboru a povolíte obnovení sešitu z mezipaměti grafů. `LoadOptions` Objekt se k tomuto účelu používá.
 
 ## Krok 3: Přístup k datům grafu a práce s nimi
 
@@ -78,38 +80,40 @@ IChart chart = pres.Slides[0].Shapes[0] as IChart;
 IChartDataWorkbook wb = chart.ChartData.ChartDataWorkbook;
 ```
 
-V tomto kroku získáte přístup k grafu na prvním snímku a získáte sešit dat grafu. Nyní můžete s daty sešitu pracovat podle potřeby.
+V tomto kroku otevřete graf na prvním snímku a získáte sešit s daty grafu. Nyní můžete s daty sešitu pracovat podle potřeby.
 
 ## Závěr
 
-V tomto tutoriálu jsme ukázali, jak pomocí Aspose.Slides for .NET obnovit sešit z grafu v prezentaci PowerPoint. Podle kroků uvedených v této příručce můžete efektivně extrahovat data z vašich prezentací a využít je pro své specifické potřeby.
+V tomto tutoriálu jsme si ukázali, jak pomocí Aspose.Slides for .NET obnovit sešit z grafu v prezentaci PowerPoint. Dodržováním kroků uvedených v této příručce můžete efektivně extrahovat data z prezentací a využít je pro své specifické potřeby.
 
- Pokud máte nějaké otázky nebo narazíte na nějaké problémy, neváhejte vyhledat pomoc od komunity Aspose.Slides v[Fórum Aspose.Slides](https://forum.aspose.com/). Jsou tu, aby vám pomohli na vaší cestě s Aspose.Slides pro .NET.
+Pokud máte jakékoli dotazy nebo narazíte na problémy, neváhejte vyhledat pomoc komunity Aspose.Slides v… [Fórum Aspose.Slides](https://forum.aspose.com/)Jsou tu, aby vám pomohli na vaší cestě s Aspose.Slides pro .NET.
 
 ## Často kladené otázky
 
 ### 1. Co je Aspose.Slides pro .NET?
 
-Aspose.Slides for .NET je výkonná knihovna .NET pro práci se soubory Microsoft PowerPoint, která umožňuje vytvářet, manipulovat a převádět prezentace programově.
+Aspose.Slides pro .NET je výkonná knihovna .NET pro práci se soubory Microsoft PowerPoint, která umožňuje programově vytvářet, manipulovat a převádět prezentace.
 
-### 2. Mohu Aspose.Slides for .NET vyzkoušet před nákupem?
+### 2. Mohu si před zakoupením vyzkoušet Aspose.Slides pro .NET?
 
- Ano, můžete získat bezplatnou zkušební verzi Aspose.Slides for .NET, abyste mohli vyhodnotit její funkce a možnosti.[Získejte bezplatnou zkušební verzi zde](https://releases.aspose.com/).
+Ano, můžete získat bezplatnou zkušební verzi Aspose.Slides pro .NET, abyste si mohli vyzkoušet jeho funkce a možnosti. [Získejte bezplatnou zkušební verzi zde](https://releases.aspose.com/).
 
 ### 3. Kde najdu dokumentaci k Aspose.Slides pro .NET?
 
- Můžete přistupovat k dokumentaci pro Aspose.Slides pro .NET[tady](https://reference.aspose.com/slides/net/). Obsahuje podrobné informace, příklady a reference API.
+Dokumentaci k Aspose.Slides pro .NET si můžete prohlédnout [zde](https://reference.aspose.com/slides/net/)Obsahuje podrobné informace, příklady a reference API.
 
-### 4. Jak si koupím licenci pro Aspose.Slides for .NET?
+### 4. Jak si zakoupím licenci pro Aspose.Slides pro .NET?
 
- Chcete-li zakoupit licenci pro Aspose.Slides pro .NET, navštivte web Aspose a použijte následující odkaz:[Koupit Aspose.Slides pro .NET](https://purchase.aspose.com/buy).
+Chcete-li zakoupit licenci pro Aspose.Slides pro .NET, navštivte webové stránky Aspose a použijte následující odkaz: [Zakoupit Aspose.Slides pro .NET](https://purchase.aspose.com/buy).
 
-### 5. Jaká je maximální délka názvu pro SEO optimalizaci?
+### 5. Jaká je maximální délka titulku pro SEO optimalizaci?
 
-Pro SEO optimalizaci se doporučuje ponechat název kratší než 60 znaků, aby se zajistilo správné zobrazení ve výsledcích vyhledávačů.
+Pro SEO optimalizaci se doporučuje, aby název stránky neměl přesáhnout 60 znaků, aby se správně zobrazoval ve výsledcích vyhledávání.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,55 +1,57 @@
 ---
-title: Stel grafiekgegevens uit de werkmap in Java-dia's in
-linktitle: Stel grafiekgegevens uit de werkmap in Java-dia's in
-second_title: Aspose.Slides Java PowerPoint-verwerkings-API
-description: Leer hoe u diagramgegevens vanuit een Excel-werkmap in Java Slides instelt met behulp van Aspose.Slides. Stapsgewijze handleiding met codevoorbeelden voor dynamische presentaties.
-weight: 15
-url: /nl/java/data-manipulation/set-chart-data-from-workbook-java-slides/
+"description": "Leer hoe u grafiekgegevens uit een Excel-werkmap in Java Slides instelt met Aspose.Slides. Stapsgewijze handleiding met codevoorbeelden voor dynamische presentaties."
+"linktitle": "Grafiekgegevens uit werkmap instellen in Java-dia's"
+"second_title": "Aspose.Slides Java PowerPoint-verwerkings-API"
+"title": "Grafiekgegevens uit werkmap instellen in Java-dia's"
+"url": "/nl/java/data-manipulation/set-chart-data-from-workbook-java-slides/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Stel grafiekgegevens uit de werkmap in Java-dia's in
+# Grafiekgegevens uit werkmap instellen in Java-dia's
 
 
-## Inleiding tot het instellen van diagramgegevens uit de werkmap in Java-dia's
+## Inleiding tot het instellen van grafiekgegevens uit een werkmap in Java-dia's
 
-Aspose.Slides voor Java is een krachtige bibliotheek waarmee ontwikkelaars programmatisch met PowerPoint-presentaties kunnen werken. Het biedt uitgebreide functies voor het maken, manipuleren en beheren van PowerPoint-dia's. Een veel voorkomende vereiste bij het werken met presentaties is het dynamisch instellen van diagramgegevens vanuit een externe gegevensbron, zoals een Excel-werkmap. In deze tutorial laten we zien hoe u dit kunt bereiken met behulp van Java.
+Aspose.Slides voor Java is een krachtige bibliotheek waarmee ontwikkelaars programmatisch met PowerPoint-presentaties kunnen werken. Het biedt uitgebreide functies voor het maken, bewerken en beheren van PowerPoint-dia's. Een veelvoorkomende vereiste bij het werken met presentaties is het dynamisch instellen van grafiekgegevens vanuit een externe gegevensbron, zoals een Excel-werkmap. In deze tutorial laten we zien hoe u dit met Java kunt bereiken.
 
 ## Vereisten
 
-Voordat we ingaan op de implementatie, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+Voordat we met de implementatie beginnen, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 
 - Java Development Kit (JDK) op uw systeem geïnstalleerd.
 - Aspose.Slides voor Java-bibliotheek toegevoegd aan uw project.
-- Een Excel-werkmap met de gegevens die u voor het diagram wilt gebruiken.
+- Een Excel-werkmap met de gegevens die u voor de grafiek wilt gebruiken.
 
-## Stap 1: Maak een presentatie
+## Stap 1: Een presentatie maken
 
 ```java
 String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 ```
 
-We beginnen met het maken van een nieuwe PowerPoint-presentatie met Aspose.Slides voor Java.
+We beginnen met het maken van een nieuwe PowerPoint-presentatie met behulp van Aspose.Slides voor Java.
 
-## Stap 2: Voeg een diagram toe
+## Stap 2: Een grafiek toevoegen
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 500, 400);
 ```
 
-Vervolgens voegen we een diagram toe aan een van de dia's in de presentatie. In dit voorbeeld voegen we een cirkeldiagram toe, maar u kunt het diagramtype kiezen dat bij uw behoeften past.
+Vervolgens voegen we een grafiek toe aan een van de dia's in de presentatie. In dit voorbeeld voegen we een cirkeldiagram toe, maar u kunt het gewenste grafiektype kiezen.
 
-## Stap 3: Wis grafiekgegevens
+## Stap 3: Grafiekgegevens wissen
 
 ```java
 chart.getChartData().getChartDataWorkbook().clear(0);
 ```
 
-We verwijderen alle bestaande gegevens uit het diagram om deze voor te bereiden op nieuwe gegevens uit de Excel-werkmap.
+We wissen alle bestaande gegevens uit de grafiek om deze voor te bereiden op nieuwe gegevens uit de Excel-werkmap.
 
 ## Stap 4: Excel-werkmap laden
 
@@ -57,9 +59,9 @@ We verwijderen alle bestaande gegevens uit het diagram om deze voor te bereiden 
 Workbook workbook = new Workbook("Your Document Directory";
 ```
 
- We laden de Excel-werkmap die de gegevens bevat die we voor het diagram willen gebruiken. Vervangen`"book1.xlsx"` met het pad naar uw Excel-bestand.
+We laden de Excel-werkmap met de gegevens die we voor de grafiek willen gebruiken. Vervangen `"book1.xlsx"` met het pad naar uw Excel-bestand.
 
-## Stap 5: Schrijf werkmapstream naar diagramgegevens
+## Stap 5: Werkboekstroom naar grafiekgegevens schrijven
 
 ```java
 ByteArrayOutputStream mem = new ByteArrayOutputStream();
@@ -68,24 +70,24 @@ mem.flush();
 chart.getChartData().writeWorkbookStream(mem.toByteArray());
 ```
 
-We converteren de Excel-werkmapgegevens naar een stream en schrijven deze naar de diagramgegevens.
+We zetten de Excel-werkmapgegevens om in een stroom en schrijven deze naar de grafiekgegevens.
 
-## Stap 6: Stel het diagramgegevensbereik in
+## Stap 6: Stel het gegevensbereik van de grafiek in
 
 ```java
 chart.getChartData().setRange("Sheet2!$A$1:$B$3");
 ```
 
-We specificeren het cellenbereik uit de Excel-werkmap dat moet worden gebruikt als gegevens voor het diagram. Pas het bereik indien nodig aan voor uw gegevens.
+We specificeren het celbereik uit de Excel-werkmap dat als gegevens voor de grafiek moet worden gebruikt. Pas het bereik indien nodig aan voor uw gegevens.
 
-## Stap 7: Pas de grafiekreeks aan
+## Stap 7: Grafiekreeks aanpassen
 
 ```java
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 series.getParentSeriesGroup().setColorVaried(true);
 ```
 
-U kunt verschillende eigenschappen van de diagramreeks aanpassen aan uw vereisten. In dit voorbeeld schakelen we gevarieerde kleuren in voor de diagramreeksen.
+kunt verschillende eigenschappen van de grafiekreeks aanpassen aan uw wensen. In dit voorbeeld schakelen we verschillende kleuren in voor de grafiekreeks.
 
 ## Stap 8: Sla de presentatie op
 
@@ -95,7 +97,7 @@ pres.save(outPath, SaveFormat.Pptx);
 
 Ten slotte slaan we de presentatie met de bijgewerkte grafiekgegevens op in het opgegeven uitvoerpad.
 
-## Volledige broncode voor ingestelde grafiekgegevens uit de werkmap in Java-dia's
+## Volledige broncode voor het instellen van grafiekgegevens uit een werkmap in Java-dia's
 
 ```java
 String outPath = "Your Output Directory" + "response2.pptx";
@@ -125,32 +127,34 @@ try {
 
 ## Conclusie
 
-In deze zelfstudie hebben we geleerd hoe u diagramgegevens uit een Excel-werkmap in Java Slides kunt instellen met behulp van de Aspose.Slides voor Java-bibliotheek. Door de stapsgewijze handleiding te volgen en de meegeleverde broncodevoorbeelden te gebruiken, kunt u eenvoudig dynamische grafiekgegevens in uw PowerPoint-presentaties integreren.
+In deze tutorial hebben we geleerd hoe je grafiekgegevens uit een Excel-werkmap in Java Slides kunt instellen met behulp van de Aspose.Slides voor Java-bibliotheek. Door de stapsgewijze handleiding te volgen en de meegeleverde broncodevoorbeelden te gebruiken, kun je eenvoudig dynamische grafiekgegevens integreren in je PowerPoint-presentaties.
 
 ## Veelgestelde vragen
 
-### Hoe kan ik de weergave van het diagram in mijn presentatie aanpassen?
+### Hoe kan ik het uiterlijk van de grafiek in mijn presentatie aanpassen?
 
-U kunt het uiterlijk van het diagram aanpassen door eigenschappen zoals kleuren, lettertypen, labels en meer te wijzigen. Raadpleeg de Aspose.Slides voor Java-documentatie voor gedetailleerde informatie over aanpassingsopties voor diagrammen.
+U kunt het uiterlijk van de grafiek aanpassen door eigenschappen zoals kleuren, lettertypen, labels en meer te wijzigen. Raadpleeg de documentatie van Aspose.Slides voor Java voor gedetailleerde informatie over de opties voor het aanpassen van grafieken.
 
-### Kan ik gegevens uit een ander Excel-bestand gebruiken voor het diagram?
+### Kan ik gegevens uit een ander Excel-bestand gebruiken voor de grafiek?
 
 Ja, u kunt gegevens uit elk Excel-bestand gebruiken door het juiste bestandspad op te geven bij het laden van de werkmap in de code.
 
-### Welke andere soorten diagrammen kan ik maken met Aspose.Slides voor Java?
+### Welke andere typen grafieken kan ik maken met Aspose.Slides voor Java?
 
-Aspose.Slides voor Java ondersteunt verschillende diagramtypen, waaronder staafdiagrammen, lijndiagrammen, spreidingsdiagrammen en meer. U kunt het diagramtype kiezen dat het beste past bij uw behoeften op het gebied van gegevensweergave.
+Aspose.Slides voor Java ondersteunt verschillende diagramtypen, waaronder staafdiagrammen, lijndiagrammen, spreidingsdiagrammen en meer. U kunt het diagramtype kiezen dat het beste past bij uw behoeften op het gebied van gegevensrepresentatie.
 
 ### Is het mogelijk om de grafiekgegevens dynamisch bij te werken in een lopende presentatie?
 
-Ja, u kunt diagramgegevens dynamisch bijwerken in een presentatie door de onderliggende werkmap te wijzigen en vervolgens de diagramgegevens te vernieuwen.
+Ja, u kunt grafiekgegevens dynamisch bijwerken in een presentatie door de onderliggende werkmap aan te passen en vervolgens de grafiekgegevens te vernieuwen.
 
 ### Waar kan ik meer voorbeelden en bronnen vinden voor het werken met Aspose.Slides voor Java?
 
- U kunt aanvullende voorbeelden en bronnen bekijken op de[Aspose-website](https://www.aspose.com/). Bovendien biedt de Aspose.Slides voor Java-documentatie uitgebreide richtlijnen voor het werken met de bibliotheek.
+U kunt aanvullende voorbeelden en bronnen bekijken op de [Aspose-website](https://www.aspose.com/)Bovendien biedt de Aspose.Slides voor Java-documentatie uitgebreide richtlijnen voor het werken met de bibliotheek.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

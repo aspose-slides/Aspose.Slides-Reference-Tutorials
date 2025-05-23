@@ -1,14 +1,16 @@
 ---
-title: जावा पावरपॉइंट में फ़ॉन्ट परिवार प्रबंधित करें
-linktitle: जावा पावरपॉइंट में फ़ॉन्ट परिवार प्रबंधित करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके Java PowerPoint प्रस्तुतियों में फ़ॉन्ट परिवार को प्रबंधित करना सीखें। फ़ॉन्ट शैलियों, रंगों और बहुत कुछ को आसानी से अनुकूलित करें।
-weight: 10
-url: /hi/java/java-powerpoint-font-management/manage-font-family-java-powerpoint/
+"description": "Aspose.Slides for Java का उपयोग करके Java PowerPoint प्रस्तुतियों में फ़ॉन्ट परिवार को प्रबंधित करना सीखें। फ़ॉन्ट शैलियों, रंगों और बहुत कुछ को आसानी से अनुकूलित करें।"
+"linktitle": "जावा पावरपॉइंट में फ़ॉन्ट परिवार प्रबंधित करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा पावरपॉइंट में फ़ॉन्ट परिवार प्रबंधित करें"
+"url": "/hi/java/java-powerpoint-font-management/manage-font-family-java-powerpoint/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा पावरपॉइंट में फ़ॉन्ट परिवार प्रबंधित करें
@@ -18,7 +20,7 @@ url: /hi/java/java-powerpoint-font-management/manage-font-family-java-powerpoint
 ## आवश्यक शर्तें
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 1. जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपके सिस्टम पर JDK स्थापित है।
-2.  Aspose.Slides for Java: Aspose.Slides for Java को यहां से डाउनलोड और इंस्टॉल करें[यहाँ](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides for Java: Aspose.Slides for Java को यहां से डाउनलोड और इंस्टॉल करें [यहाँ](https://releases.aspose.com/slides/java/).
 3. एकीकृत विकास वातावरण (IDE): किसी भी जावा-संगत IDE जैसे IntelliJ IDEA, Eclipse, या NetBeans का उपयोग करें।
 
 ## पैकेज आयात करें
@@ -29,7 +31,7 @@ import java.awt.*;
 import java.io.File;
 ```
 ## चरण 1: एक प्रेजेंटेशन ऑब्जेक्ट बनाएँ
- उदाहरण प्रस्तुत करें`Presentation` पावरपॉइंट प्रेजेंटेशन के साथ काम करना शुरू करने के लिए कक्षा:
+उदाहरण प्रस्तुत करें `Presentation` पावरपॉइंट प्रेजेंटेशन के साथ काम करना शुरू करने के लिए कक्षा:
 ```java
 Presentation pres = new Presentation();
 ```
@@ -71,10 +73,12 @@ Aspose.Slides for Java के साथ Java PowerPoint प्रस्तुत
 ### क्या मैं Aspose.Slides का उपयोग करके प्रोग्रामेटिक रूप से पावरपॉइंट प्रस्तुतियाँ बना सकता हूँ?
 हां, Aspose.Slides पूरी तरह से कोड के माध्यम से पावरपॉइंट प्रस्तुतियों को बनाने, संशोधित करने और हेरफेर करने के लिए API प्रदान करता है।
 ### क्या Java के लिए Aspose.Slides का कोई परीक्षण संस्करण उपलब्ध है?
-हां, आप Java के लिए Aspose.Slides का निःशुल्क परीक्षण संस्करण यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप Java के लिए Aspose.Slides का निःशुल्क परीक्षण संस्करण यहां से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

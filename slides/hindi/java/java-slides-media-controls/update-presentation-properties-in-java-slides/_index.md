@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में प्रस्तुति गुण अपडेट करें
-linktitle: जावा स्लाइड्स में प्रस्तुति गुण अपडेट करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके Java स्लाइड में प्रेजेंटेशन प्रॉपर्टीज़ को अपडेट करना सीखें। प्रभावशाली प्रेजेंटेशन के लिए लेखक, शीर्षक और बहुत कुछ कस्टमाइज़ करें।
-weight: 13
-url: /hi/java/media-controls/update-presentation-properties-in-java-slides/
+"description": "Aspose.Slides for Java का उपयोग करके Java स्लाइड में प्रेजेंटेशन प्रॉपर्टीज़ को अपडेट करना सीखें। प्रभावशाली प्रेजेंटेशन के लिए लेखक, शीर्षक और बहुत कुछ कस्टमाइज़ करें।"
+"linktitle": "जावा स्लाइड्स में प्रस्तुति गुण अपडेट करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में प्रस्तुति गुण अपडेट करें"
+"url": "/hi/java/media-controls/update-presentation-properties-in-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में प्रस्तुति गुण अपडेट करें
@@ -22,9 +24,9 @@ url: /hi/java/media-controls/update-presentation-properties-in-java-slides/
 
 इससे पहले कि हम कोड और चरण-दर-चरण मार्गदर्शिका में आगे बढ़ें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
-- जावा डेवलपमेंट एनवायरनमेंट: आपके सिस्टम पर जावा स्थापित होना चाहिए।
+- जावा डेवलपमेंट एनवायरनमेंट: आपके सिस्टम पर जावा इंस्टॉल होना चाहिए।
 
--  Aspose.Slides for Java: वेबसाइट से Aspose.Slides for Java डाउनलोड करें और इंस्टॉल करें। आप डाउनलोड लिंक पा सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+- Aspose.Slides for Java: वेबसाइट से Aspose.Slides for Java डाउनलोड करें और इंस्टॉल करें। आप डाउनलोड लिंक पा सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 
 ## चरण 1: अपना प्रोजेक्ट सेट अप करना
 
@@ -37,27 +39,27 @@ url: /hi/java/media-controls/update-presentation-properties-in-java-slides/
 ```java
 // दस्तावेज़ निर्देशिका का पथ.
 String dataDir = "Your Document Directory";
-// प्रस्तुति की जानकारी पढ़ें
+// प्रस्तुति की जानकारी पढ़ें 
 IPresentationInfo info = PresentationFactory.getInstance().getPresentationInfo(dataDir + "ModifyBuiltinProperties1.pptx");
 ```
 
- प्रतिस्थापित करें`"Your Document Directory"` अपनी प्रस्तुति फ़ाइल के वास्तविक पथ के साथ.
+प्रतिस्थापित करें `"Your Document Directory"` अपनी प्रस्तुति फ़ाइल के वास्तविक पथ के साथ.
 
 ## चरण 3: वर्तमान गुण प्राप्त करना
 
 प्रस्तुति जानकारी पढ़ने के बाद, हमें वर्तमान गुण प्राप्त करने की आवश्यकता है। यह महत्वपूर्ण है क्योंकि हम इन गुणों में परिवर्तन करना चाहते हैं। वर्तमान गुणों को पुनः प्राप्त करने के लिए निम्न कोड का उपयोग करें:
 
 ```java
-// वर्तमान गुण प्राप्त करें
+// वर्तमान गुण प्राप्त करें 
 IDocumentProperties props = info.readDocumentProperties();
 ```
 
 ## चरण 4: नए मान निर्धारित करना
 
-अब जब हमारे पास मौजूदा प्रॉपर्टीज हैं, तो हम विशिष्ट फ़ील्ड के लिए नए मान सेट कर सकते हैं। इस उदाहरण में, हम लेखक और शीर्षक फ़ील्ड को नए मान पर सेट करेंगे:
+अब जब हमारे पास मौजूदा प्रॉपर्टीज़ हैं, तो हम विशिष्ट फ़ील्ड के लिए नए मान सेट कर सकते हैं। इस उदाहरण में, हम लेखक और शीर्षक फ़ील्ड को नए मानों पर सेट करेंगे:
 
 ```java
-// लेखक और शीर्षक फ़ील्ड के नए मान सेट करें
+// लेखक और शीर्षक फ़ील्ड के नए मान सेट करें 
 props.setAuthor("New Author");
 props.setTitle("New Title");
 ```
@@ -66,10 +68,10 @@ props.setTitle("New Title");
 
 ## चरण 5: प्रस्तुति को अपडेट करना
 
-नए प्रॉपर्टी मान सेट होने के बाद, इन नए मानों के साथ प्रेजेंटेशन को अपडेट करने का समय आ गया है। यह सुनिश्चित करता है कि परिवर्तन प्रेजेंटेशन फ़ाइल में सहेजे गए हैं। निम्न कोड का उपयोग करें:
+नए प्रॉपर्टी मान सेट होने के बाद, प्रेजेंटेशन को इन नए मानों के साथ अपडेट करने का समय आ गया है। यह सुनिश्चित करता है कि परिवर्तन प्रेजेंटेशन फ़ाइल में सहेजे गए हैं। निम्न कोड का उपयोग करें:
 
 ```java
-// नए मानों के साथ प्रस्तुति को अपडेट करें
+// नए मानों के साथ प्रस्तुति को अपडेट करें 
 info.updateDocumentProperties(props);
 info.writeBindedPresentation(dataDir + "ModifyBuiltinProperties1.pptx");
 ```
@@ -81,14 +83,14 @@ info.writeBindedPresentation(dataDir + "ModifyBuiltinProperties1.pptx");
 ```java
 // दस्तावेज़ निर्देशिका का पथ.
 String dataDir = "Your Document Directory";
-// प्रस्तुति की जानकारी पढ़ें
+// प्रस्तुति की जानकारी पढ़ें 
 IPresentationInfo info = PresentationFactory.getInstance().getPresentationInfo(dataDir + "ModifyBuiltinProperties1.pptx");
-// वर्तमान गुण प्राप्त करें
+// वर्तमान गुण प्राप्त करें 
 IDocumentProperties props = info.readDocumentProperties();
-// लेखक और शीर्षक फ़ील्ड के नए मान सेट करें
+// लेखक और शीर्षक फ़ील्ड के नए मान सेट करें 
 props.setAuthor("New Author");
 props.setTitle("New Title");
-// प्रस्तुति को नए मानों के साथ अपडेट करें
+// प्रस्तुति को नए मानों के साथ अपडेट करें 
 info.updateDocumentProperties(props);
 info.writeBindedPresentation(dataDir + "ModifyBuiltinProperties1.pptx");
 ```
@@ -101,11 +103,11 @@ info.writeBindedPresentation(dataDir + "ModifyBuiltinProperties1.pptx");
 
 ### मैं Java के लिए Aspose.Slides कैसे स्थापित करूं?
 
-Aspose.Slides for Java को वेबसाइट से लाइब्रेरी डाउनलोड करके इंस्टॉल किया जा सकता है।[इस लिंक](https://releases.aspose.com/slides/java/) डाउनलोड पृष्ठ तक पहुंचने और दिए गए इंस्टॉलेशन निर्देशों का पालन करने के लिए क्लिक करें।
+Aspose.Slides for Java को वेबसाइट से लाइब्रेरी डाउनलोड करके इंस्टॉल किया जा सकता है। [इस लिंक](https://releases.aspose.com/slides/java/) डाउनलोड पृष्ठ तक पहुंचने और दिए गए इंस्टॉलेशन निर्देशों का पालन करने के लिए क्लिक करें।
 
 ### क्या मैं एक ही ऑपरेशन में एकाधिक दस्तावेज़ गुणों को अद्यतन कर सकता हूँ?
 
- हां, आप एक ही ऑपरेशन में कई दस्तावेज़ गुण अपडेट कर सकते हैं। बस संबंधित फ़ील्ड को संशोधित करें`IDocumentProperties` प्रस्तुति को अद्यतन करने से पहले ऑब्जेक्ट को हटाएं।
+हां, आप एक ही ऑपरेशन में कई दस्तावेज़ गुण अपडेट कर सकते हैं। बस संबंधित फ़ील्ड को संशोधित करें `IDocumentProperties` प्रस्तुति को अद्यतन करने से पहले ऑब्जेक्ट को हटाएं।
 
 ### Aspose.Slides for Java का उपयोग करके मैं अन्य कौन से दस्तावेज़ गुण संशोधित कर सकता हूँ?
 
@@ -117,10 +119,12 @@ Aspose.Slides for Java आपको दस्तावेज़ गुणों 
 
 ### मैं Aspose.Slides for Java के दस्तावेज़ों तक कैसे पहुंच सकता हूं?
 
- आप निम्न लिंक पर जाकर Aspose.Slides for Java के दस्तावेज़ तक पहुँच सकते हैं:[Aspose.Slides for Java दस्तावेज़ीकरण](https://reference.aspose.com/slides/java/).
+आप निम्न लिंक पर जाकर Aspose.Slides for Java के दस्तावेज़ तक पहुँच सकते हैं: [Aspose.Slides for Java दस्तावेज़ीकरण](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: ShapeUtil के साथ ज्यामिति आकृतियों में महारत हासिल करें - Aspose.Slides .NET
-linktitle: प्रेजेंटेशन स्लाइड्स में ज्यामिति आकार के लिए ShapeUtil का उपयोग करना
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: गतिशील ज्यामिति आकृतियों के लिए ShapeUtil के साथ .NET के लिए Aspose.Slides की शक्ति का अन्वेषण करें। आसानी से आकर्षक प्रस्तुतियाँ बनाएँ। अभी डाउनलोड करें! Aspose.Slides के साथ PowerPoint प्रस्तुतियों को बेहतर बनाने का तरीका जानें। ज्यामिति आकृतियों में हेरफेर के लिए ShapeUtil का अन्वेषण करें। .NET स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका। प्रस्तुतियों को प्रभावी ढंग से अनुकूलित करें।
-weight: 17
-url: /hi/net/shape-geometry-and-positioning-in-slides/using-shapeutil-geometry-shape/
+"description": "गतिशील ज्यामिति आकृतियों के लिए ShapeUtil के साथ .NET के लिए Aspose.Slides की शक्ति का अन्वेषण करें। आसानी से आकर्षक प्रस्तुतियाँ बनाएँ। अभी डाउनलोड करें! Aspose.Slides के साथ PowerPoint प्रस्तुतियों को बेहतर बनाने का तरीका जानें। ज्यामिति आकृतियों में हेरफेर के लिए ShapeUtil का अन्वेषण करें। .NET स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका। प्रस्तुतियों को प्रभावी ढंग से अनुकूलित करें।"
+"linktitle": "प्रेजेंटेशन स्लाइड्स में ज्यामिति आकार के लिए ShapeUtil का उपयोग करना"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "ShapeUtil के साथ ज्यामिति आकृतियों में महारत हासिल करें - Aspose.Slides .NET"
+"url": "/hi/net/shape-geometry-and-positioning-in-slides/using-shapeutil-geometry-shape/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ShapeUtil के साथ ज्यामिति आकृतियों में महारत हासिल करें - Aspose.Slides .NET
@@ -18,7 +20,7 @@ url: /hi/net/shape-geometry-and-positioning-in-slides/using-shapeutil-geometry-s
 ## आवश्यक शर्तें
 इससे पहले कि हम ट्यूटोरियल में आगे बढ़ें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 - C# और .NET प्रोग्रामिंग की बुनियादी समझ।
--  Aspose.Slides for .NET लाइब्रेरी इंस्टॉल की गई है। यदि नहीं, तो आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET लाइब्रेरी इंस्टॉल की गई है। यदि नहीं, तो आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/net/).
 - .NET अनुप्रयोगों को चलाने के लिए स्थापित एक विकास वातावरण.
 ## नामस्थान आयात करें
 अपने C# कोड में, सुनिश्चित करें कि आप Aspose.Slides कार्यक्षमताओं तक पहुँचने के लिए आवश्यक नामस्थान आयात करें। अपनी स्क्रिप्ट की शुरुआत में निम्नलिखित जोड़ें:
@@ -76,7 +78,7 @@ textPath.FillMode = PathFillModeType.Normal;
 shape.SetGeometryPaths(new[] { originalPath, textPath });
 ```
 नए ज्यामिति पथ को मूल पथ के साथ संयोजित करें और इसे आकार पर सेट करें।
-## चरण 9: प्रेजेंटेशन सहेजें
+## चरण 9: प्रस्तुति सहेजें
 ```csharp
 pres.Save(resultPath, SaveFormat.Pptx);
 ```
@@ -87,16 +89,18 @@ pres.Save(resultPath, SaveFormat.Pptx);
 ### क्या मैं अन्य प्रोग्रामिंग भाषाओं के साथ .NET के लिए Aspose.Slides का उपयोग कर सकता हूँ?
 Aspose.Slides मुख्य रूप से .NET भाषाओं का समर्थन करता है। हालाँकि, Aspose अन्य प्लेटफ़ॉर्म और भाषाओं के लिए समान लाइब्रेरी प्रदान करता है।
 ### मैं Aspose.Slides for .NET के लिए विस्तृत दस्तावेज़ कहां पा सकता हूं?
- दस्तावेज़ उपलब्ध है[यहाँ](https://reference.aspose.com/slides/net/).
+दस्तावेज़ उपलब्ध है [यहाँ](https://reference.aspose.com/slides/net/).
 ### क्या .NET के लिए Aspose.Slides का निःशुल्क परीक्षण उपलब्ध है?
- हां, आप निशुल्क परीक्षण पा सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप निशुल्क परीक्षण पा सकते हैं [यहाँ](https://releases.aspose.com/).
 ### मैं .NET के लिए Aspose.Slides का समर्थन कैसे प्राप्त कर सकता हूं?
- सामुदायिक सहायता फ़ोरम पर जाएँ[यहाँ](https://forum.aspose.com/c/slides/11).
+समुदाय सहायता फ़ोरम पर जाएँ [यहाँ](https://forum.aspose.com/c/slides/11).
 ### क्या मैं Aspose.Slides for .NET के लिए अस्थायी लाइसेंस खरीद सकता हूँ?
- हां, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+हां, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: जावा पावरपॉइंट में पैराग्राफ पिक्चर बुलेट प्रबंधित करें
-linktitle: जावा पावरपॉइंट में पैराग्राफ पिक्चर बुलेट प्रबंधित करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके PowerPoint स्लाइड में कस्टम पिक्चर बुलेट जोड़ने का तरीका जानें। सहज एकीकरण के लिए इस विस्तृत, चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 11
-url: /hi/java/java-powerpoint-advanced-paragraph-font-properties/manage-paragraph-picture-bullets-java-powerpoint/
+"description": "Aspose.Slides for Java का उपयोग करके PowerPoint स्लाइड में कस्टम पिक्चर बुलेट जोड़ने का तरीका जानें। सहज एकीकरण के लिए इस विस्तृत, चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "जावा पावरपॉइंट में पैराग्राफ पिक्चर बुलेट प्रबंधित करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा पावरपॉइंट में पैराग्राफ पिक्चर बुलेट प्रबंधित करें"
+"url": "/hi/java/java-powerpoint-advanced-paragraph-font-properties/manage-paragraph-picture-bullets-java-powerpoint/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा पावरपॉइंट में पैराग्राफ पिक्चर बुलेट प्रबंधित करें
@@ -22,7 +24,7 @@ url: /hi/java/java-powerpoint-advanced-paragraph-font-properties/manage-paragrap
 - Aspose.Slides for Java लाइब्रेरी
 - जावा प्रोग्रामिंग का बुनियादी ज्ञान
 - बुलेट चित्र के लिए छवि फ़ाइल
- Aspose.Slides for Java लाइब्रेरी डाउनलोड करने के लिए, यहां जाएं[डाउनलोड पृष्ठ](https://releases.aspose.com/slides/java/) दस्तावेज़ीकरण के लिए, जाँच करें[प्रलेखन](https://reference.aspose.com/slides/java/).
+Aspose.Slides for Java लाइब्रेरी डाउनलोड करने के लिए, यहां जाएं [डाउनलोड पृष्ठ](https://releases.aspose.com/slides/java/)दस्तावेज़ीकरण के लिए, जाँच करें [प्रलेखन](https://reference.aspose.com/slides/java/).
 ## पैकेज आयात करें
 सबसे पहले, सुनिश्चित करें कि आपने अपने प्रोजेक्ट के लिए आवश्यक पैकेज आयात किए हैं। अपनी जावा फ़ाइल की शुरुआत में निम्नलिखित आयात जोड़ें:
 ```java
@@ -39,7 +41,7 @@ import java.io.IOException;
 String dataDir = "Your Document Directory";
 ```
 ## चरण 2: प्रस्तुति आरंभ करें
- का एक नया उदाहरण आरंभ करें`Presentation` क्लास. यह ऑब्जेक्ट आपके पावरपॉइंट प्रेजेंटेशन का प्रतिनिधित्व करता है.
+का एक नया उदाहरण आरंभ करें `Presentation` क्लास. यह ऑब्जेक्ट आपके पावरपॉइंट प्रेजेंटेशन का प्रतिनिधित्व करता है.
 ```java
 Presentation presentation = new Presentation();
 ```
@@ -98,21 +100,23 @@ presentation.save(dataDir + "ParagraphPictureBulletsPPTX_out.pptx", SaveFormat.P
 presentation.save(dataDir + "ParagraphPictureBulletsPPT_out.ppt", SaveFormat.Ppt);
 ```
 ## निष्कर्ष
- और अब यह आपके लिए है! इन चरणों का पालन करके, आप आसानी से Aspose.Slides for Java का उपयोग करके अपने PowerPoint प्रस्तुतियों में कस्टम पिक्चर बुलेट जोड़ सकते हैं। यह शक्तिशाली लाइब्रेरी आपको पेशेवर और आकर्षक प्रस्तुतियाँ बनाने में मदद करने के लिए कई सुविधाएँ प्रदान करती है।[प्रलेखन](https://reference.aspose.com/slides/java/)अधिक उन्नत सुविधाओं और अनुकूलन विकल्पों के लिए.
+और अब यह आपके लिए है! इन चरणों का पालन करके, आप आसानी से Aspose.Slides for Java का उपयोग करके अपने PowerPoint प्रस्तुतियों में कस्टम पिक्चर बुलेट जोड़ सकते हैं। यह शक्तिशाली लाइब्रेरी आपको पेशेवर और आकर्षक प्रस्तुतियाँ बनाने में मदद करने के लिए कई सुविधाएँ प्रदान करती है। [प्रलेखन](https://reference.aspose.com/slides/java/) अधिक उन्नत सुविधाओं और अनुकूलन विकल्पों के लिए.
 ## अक्सर पूछे जाने वाले प्रश्न
 ### Java के लिए Aspose.Slides क्या है?
 Aspose.Slides for Java एक शक्तिशाली लाइब्रेरी है जो जावा डेवलपर्स को प्रोग्रामेटिक रूप से पावरपॉइंट प्रस्तुतियों को बनाने, संशोधित करने और हेरफेर करने की अनुमति देती है।
 ### क्या मैं चित्र बुलेट्स के लिए किसी भी छवि का उपयोग कर सकता हूँ?
 हां, आप चित्र बुलेट्स के लिए किसी भी छवि का उपयोग कर सकते हैं, बशर्ते वह आपकी प्रोजेक्ट निर्देशिका से सुलभ हो।
 ### क्या मुझे Java के लिए Aspose.Slides का उपयोग करने के लिए लाइसेंस की आवश्यकता है?
- Aspose.Slides for Java को पूर्ण कार्यक्षमता के लिए लाइसेंस की आवश्यकता होती है। आप यहाँ से अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/) या पूर्ण लाइसेंस खरीदें[यहाँ](https://purchase.aspose.com/buy).
+Aspose.Slides for Java को पूर्ण कार्यक्षमता के लिए लाइसेंस की आवश्यकता होती है। आप यहाँ से अस्थायी लाइसेंस प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/) या पूर्ण लाइसेंस खरीदें [यहाँ](https://purchase.aspose.com/buy).
 ### क्या मैं एक ऑटोशेप में विभिन्न बुलेट शैलियों के साथ कई पैराग्राफ जोड़ सकता हूँ?
 हां, आप प्रत्येक पैराग्राफ को अलग-अलग बनाकर और कॉन्फ़िगर करके एक ही ऑटोशेप में विभिन्न बुलेट शैलियों वाले कई पैराग्राफ जोड़ सकते हैं।
 ### मुझे और अधिक उदाहरण और समर्थन कहां मिल सकता है?
- आप अधिक उदाहरण यहां पा सकते हैं[प्रलेखन](https://reference.aspose.com/slides/java/) और Aspose समुदाय से समर्थन प्राप्त करें[मंचों](https://forum.aspose.com/c/slides/11).
+आप अधिक उदाहरण यहां पा सकते हैं [प्रलेखन](https://reference.aspose.com/slides/java/) और Aspose समुदाय से समर्थन प्राप्त करें [मंचों](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

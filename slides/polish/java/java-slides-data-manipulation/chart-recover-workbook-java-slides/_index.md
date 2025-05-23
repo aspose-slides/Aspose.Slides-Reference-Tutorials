@@ -1,33 +1,35 @@
 ---
-title: Wykres odzyskiwania skoroszytu w slajdach Java
-linktitle: Wykres odzyskiwania skoroszytu w slajdach Java
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Dowiedz się, jak odzyskać skoroszyty z wykresów w Java Slides za pomocą Aspose.Slides. Przewodnik krok po kroku dotyczący automatyzacji programu PowerPoint.
-weight: 17
-url: /pl/java/data-manipulation/chart-recover-workbook-java-slides/
+"description": "Dowiedz się, jak odzyskać skoroszyty z wykresów w Java Slides za pomocą Aspose.Slides. Przewodnik krok po kroku dotyczący automatyzacji programu PowerPoint."
+"linktitle": "Wykres Odzyskaj skoroszyt w slajdach Java"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Wykres Odzyskaj skoroszyt w slajdach Java"
+"url": "/pl/java/data-manipulation/chart-recover-workbook-java-slides/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wykres odzyskiwania skoroszytu w slajdach Java
+# Wykres Odzyskaj skoroszyt w slajdach Java
 
 
-## Wprowadzenie do skoroszytu odzyskiwania wykresów w slajdach Java
+## Wprowadzenie do skoroszytu Chart Recover w slajdach Java
 
-Podczas pracy z prezentacjami programu PowerPoint w języku Java możesz napotkać scenariusze, w których konieczne będzie odzyskanie danych ze skoroszytu z wykresu. Może to być kluczowe zadanie, szczególnie w przypadku prezentacji opartych na danych. Aspose.Slides dla Java upraszcza ten proces, a w tym przewodniku pokażemy, jak to zrobić.
+Podczas pracy z prezentacjami PowerPoint w Javie możesz napotkać scenariusze, w których musisz odzyskać dane skoroszytu z wykresu. Może to być kluczowe zadanie, szczególnie w przypadku prezentacji opartych na danych. Aspose.Slides for Java upraszcza ten proces, a w tym przewodniku pokażemy Ci, jak to zrobić.
 
-## Warunki wstępne
+## Wymagania wstępne
 
 Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstępne:
 
-- Zestaw Java Development Kit (JDK) zainstalowany w systemie.
--  Aspose.Slides dla biblioteki Java. Można go pobrać z[Tutaj](https://releases.aspose.com/slides/java/).
+- Java Development Kit (JDK) zainstalowany w Twoim systemie.
+- Biblioteka Aspose.Slides dla Java. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/slides/java/).
 
-## Krok 1: Konfiguracja projektu
+## Krok 1: Konfigurowanie projektu
 
-Utwórz nowy projekt Java w swoim ulubionym zintegrowanym środowisku programistycznym (IDE) i dodaj bibliotekę Aspose.Slides for Java do zależności swojego projektu.
+Utwórz nowy projekt Java w swoim ulubionym zintegrowanym środowisku programistycznym (IDE) i dodaj bibliotekę Aspose.Slides for Java do zależności projektu.
 
 ## Krok 2: Importowanie niezbędnych klas
 
@@ -39,7 +41,7 @@ import com.aspose.slides.*;
 
 ## Krok 3: Ładowanie prezentacji
 
-Załaduj prezentację programu PowerPoint zawierającą wykres, z którego chcesz odzyskać dane ze skoroszytu:
+Załaduj prezentację programu PowerPoint zawierającą wykres, z którego chcesz odzyskać dane skoroszytu:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -68,7 +70,7 @@ finally
 }
 ```
 
-## Kompletny kod źródłowy skoroszytu odzyskiwania wykresów w slajdach Java
+## Kompletny kod źródłowy dla skoroszytu Chart Recover w slajdach Java
 
 ```java
 // Ścieżka do katalogu dokumentów.
@@ -92,32 +94,34 @@ finally
 
 ## Wniosek
 
-tym przewodniku omówiliśmy proces odzyskiwania skoroszytu z wykresu w Java Slides przy użyciu Aspose.Slides dla Java. Ta biblioteka upraszcza zadanie, ułatwiając programistom programową pracę z prezentacjami programu PowerPoint. Teraz możesz bez obaw obsługiwać prezentacje oparte na danych i w razie potrzeby wyodrębniać informacje ze skoroszytu.
+W tym przewodniku przeprowadziliśmy proces odzyskiwania skoroszytu z wykresu w Java Slides przy użyciu Aspose.Slides for Java. Ta biblioteka upraszcza zadanie, ułatwiając programistom pracę z prezentacjami PowerPoint programowo. Teraz możesz pewnie obsługiwać prezentacje oparte na danych i wyodrębniać informacje ze skoroszytu w razie potrzeby.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
 ### Jak zainstalować Aspose.Slides dla Java?
 
- Aspose.Slides dla Java można łatwo zainstalować, pobierając bibliotekę ze strony internetowej pod adresem[Tutaj](https://releases.aspose.com/slides/java/). Postępuj zgodnie z dostarczonymi instrukcjami instalacji, aby zintegrować go z projektem Java.
+Aspose.Slides dla Java można łatwo zainstalować, pobierając bibliotekę ze strony internetowej pod adresem [Tutaj](https://releases.aspose.com/slides/java/). Postępuj zgodnie z podanymi instrukcjami instalacji, aby zintegrować go ze swoim projektem Java.
 
 ### Czy mogę odzyskać dane ze skoroszytu z dowolnego wykresu w prezentacji programu PowerPoint?
 
-Tak, możesz odzyskać dane skoroszytu z dowolnego wykresu w prezentacji programu PowerPoint, jeśli masz bibliotekę Aspose.Slides for Java, a wykres jest dostępny w prezentacji. Dostarczony fragment kodu pokazuje, jak to osiągnąć.
+Tak, możesz odzyskać dane skoroszytu z dowolnego wykresu w prezentacji PowerPoint, o ile masz bibliotekę Aspose.Slides for Java i wykres jest dostępny w prezentacji. Dostarczony fragment kodu pokazuje, jak to osiągnąć.
 
-### Czy są jakieś dodatkowe opcje pracy z danymi wykresów przy użyciu Aspose.Slides for Java?
+### Czy istnieją dodatkowe opcje pracy z danymi wykresów przy użyciu Aspose.Slides dla Java?
 
-Tak, Aspose.Slides for Java oferuje szeroką gamę opcji pracy z danymi wykresów. Można manipulować właściwościami wykresów, pobierać punkty danych i wykonywać różne operacje na wykresach, aby spełnić określone wymagania.
+Tak, Aspose.Slides for Java oferuje szeroki zakres opcji do pracy z danymi wykresu. Możesz manipulować właściwościami wykresu, pobierać punkty danych i wykonywać różne operacje na wykresach, aby spełnić swoje specyficzne wymagania.
 
-### Czy Aspose.Slides for Java nadaje się do profesjonalnej automatyzacji programu PowerPoint?
+### Czy Aspose.Slides for Java nadaje się do profesjonalnej automatyzacji prezentacji PowerPoint?
 
-Absolutnie! Aspose.Slides for Java to potężna biblioteka do automatyzacji zadań programu PowerPoint, dzięki czemu nadaje się zarówno do podstawowych, jak i zaawansowanych zastosowań profesjonalnych. Zapewnia rozbudowane funkcje do programowego tworzenia, modyfikowania i zarządzania prezentacjami programu PowerPoint.
+Oczywiście! Aspose.Slides for Java to potężna biblioteka do automatyzacji zadań PowerPoint, dzięki czemu nadaje się zarówno do podstawowych, jak i zaawansowanych zastosowań profesjonalnych. Zapewnia rozbudowane funkcje do tworzenia, modyfikowania i zarządzania prezentacjami PowerPoint programowo.
 
 ### Jak mogę uzyskać dostęp do dalszej dokumentacji Aspose.Slides dla Java?
 
- Aby uzyskać szczegółową dokumentację i odniesienia do Aspose.Slides for Java, odwiedź stronę dokumentacji pod adresem[Tutaj](https://reference.aspose.com/slides/java/).
+Aby uzyskać szczegółową dokumentację i odniesienia dotyczące Aspose.Slides dla języka Java, odwiedź stronę dokumentacji pod adresem [Tutaj](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

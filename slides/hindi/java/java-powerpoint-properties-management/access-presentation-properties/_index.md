@@ -1,14 +1,16 @@
 ---
-title: प्रस्तुति गुण तक पहुँचें
-linktitle: प्रस्तुति गुण तक पहुँचें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java की शक्ति अनलॉक करें। इस ट्यूटोरियल के साथ प्रेजेंटेशन प्रबंधन में महारत हासिल करें। प्रेजेंटेशन प्रॉपर्टी को आसानी से एक्सेस करें, संशोधित करें और बेहतर बनाएँ।
-weight: 11
-url: /hi/java/java-powerpoint-properties-management/access-presentation-properties/
+"description": "Aspose.Slides for Java की शक्ति अनलॉक करें। इस ट्यूटोरियल के साथ प्रेजेंटेशन प्रबंधन में महारत हासिल करें। प्रेजेंटेशन प्रॉपर्टी को आसानी से एक्सेस करें, संशोधित करें और बेहतर बनाएँ।"
+"linktitle": "प्रस्तुति गुण तक पहुँचें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "प्रस्तुति गुण तक पहुँचें"
+"url": "/hi/java/java-powerpoint-properties-management/access-presentation-properties/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # प्रस्तुति गुण तक पहुँचें
@@ -18,7 +20,7 @@ url: /hi/java/java-powerpoint-properties-management/access-presentation-properti
 ## आवश्यक शर्तें
 इस यात्रा पर निकलने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 1. जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपके सिस्टम पर JDK स्थापित है, क्योंकि Aspose.Slides for Java को निर्बाध रूप से कार्य करने के लिए जावा रनटाइम वातावरण की आवश्यकता होती है।
-2. Aspose.Slides for Java लाइब्रेरी: उपलब्ध कराए गए से Aspose.Slides for Java लाइब्रेरी को डाउनलोड और इंस्टॉल करें[लिंक को डाउनलोड करें](https://releases.aspose.com/slides/java/)यह लाइब्रेरी हमारे प्रस्तुति प्रबंधन प्रयासों की आधारशिला होगी।
+2. Aspose.Slides for Java लाइब्रेरी: उपलब्ध कराए गए से Aspose.Slides for Java लाइब्रेरी को डाउनलोड और इंस्टॉल करें [लिंक को डाउनलोड करें](https://releases.aspose.com/slides/java/)यह लाइब्रेरी हमारे प्रस्तुति प्रबंधन प्रयासों की आधारशिला होगी।
 3. एकीकृत विकास वातावरण (IDE): जावा विकास के लिए अपना पसंदीदा IDE चुनें। चाहे वह एक्लिप्स हो, इंटेलीज आईडिया हो या कोई और, एक विश्वसनीय IDE होने से आपका कोडिंग अनुभव सरल हो जाएगा।
 
 ## पैकेज आयात करें
@@ -47,7 +49,7 @@ loadOptions.setOnlyLoadDocumentProperties(true);
 Presentation pres = new Presentation(dataDir + "AccessProperties.pptx", loadOptions);
 ```
 ## चरण 4: दस्तावेज़ गुण प्राप्त करें
- दस्तावेज़ गुण पुनर्प्राप्त करें`getDocumentProperties()` तरीका:
+दस्तावेज़ गुण पुनर्प्राप्त करें `getDocumentProperties()` तरीका:
 ```java
 IDocumentProperties docProps = pres.getDocumentProperties();
 ```
@@ -65,14 +67,16 @@ System.out.println("Name of Application: " + docProps.getNameOfApplication());
 ### क्या मैं Aspose.Slides का उपयोग करके प्रस्तुति गुणों को संशोधित कर सकता हूँ?
 बिल्कुल! Aspose.Slides न केवल एक्सेस करने के लिए बल्कि आपकी आवश्यकताओं के अनुसार प्रस्तुति गुणों को संशोधित करने के लिए व्यापक API प्रदान करता है।
 ### क्या Aspose.Slides के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
- हां, आप Aspose.Slides की कार्यक्षमताओं का पता लगाने के लिए वेबसाइट पर दिए गए निःशुल्क परीक्षण का लाभ उठा सकते हैं।[वेबसाइट](https://releases.aspose.com/).
+हां, आप Aspose.Slides पर दिए गए निःशुल्क परीक्षण का लाभ उठाकर इसकी कार्यक्षमताओं का पता लगा सकते हैं। [वेबसाइट](https://releases.aspose.com/).
 ### मैं Aspose.Slides से संबंधित प्रश्नों के लिए सहायता या समर्थन कहां से प्राप्त कर सकता हूं?
- किसी भी प्रश्न या सहायता के लिए, आप यहां जा सकते हैं[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11), जहां विशेषज्ञ और समुदाय मदद के लिए तत्पर रहते हैं।
+किसी भी प्रश्न या सहायता के लिए, आप यहां जा सकते हैं [Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11), जहां विशेषज्ञ और समुदाय मदद के लिए तत्पर रहते हैं।
 ### क्या मैं Aspose.Slides के लिए अस्थायी लाइसेंस प्राप्त कर सकता हूँ?
- हां, मूल्यांकन या परीक्षण के उद्देश्य से अस्थायी लाइसेंस उपलब्ध हैं। आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[खरीद पृष्ठ](https://purchase.aspose.com/temporary-license/).
+हां, मूल्यांकन या परीक्षण के उद्देश्य से अस्थायी लाइसेंस उपलब्ध हैं। आप अस्थायी लाइसेंस प्राप्त कर सकते हैं [खरीद पृष्ठ](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

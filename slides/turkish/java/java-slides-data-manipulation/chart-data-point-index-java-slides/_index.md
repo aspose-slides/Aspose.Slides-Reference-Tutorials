@@ -1,36 +1,38 @@
 ---
-title: Java Slaytlarında Grafik Veri Noktası Dizini
-linktitle: Java Slaytlarında Grafik Veri Noktası Dizini
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides for Java'yı kullanarak Java Slides'ta grafik veri noktası indekslerini nasıl değiştireceğinizi öğrenin. PowerPoint grafiklerinden verileri zahmetsizce çıkarın ve bunlarla çalışın.
-weight: 12
-url: /tr/java/data-manipulation/chart-data-point-index-java-slides/
+"description": "Java Slaytlarında Aspose.Slides for Java kullanarak grafik veri noktası dizinlerini nasıl değiştireceğinizi öğrenin. PowerPoint grafiklerinden verileri zahmetsizce ayıklayın ve üzerinde çalışın."
+"linktitle": "Java Slaytlarında Grafik Veri Noktası Dizini"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java Slaytlarında Grafik Veri Noktası Dizini"
+"url": "/tr/java/data-manipulation/chart-data-point-index-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java Slaytlarında Grafik Veri Noktası Dizini
 
 
-## Java Slaytlarında Grafik Veri Noktası Dizinine Giriş
+## Java Slaytlarında Grafik Veri Noktası İndeksine Giriş
 
-Bu makalede, Aspose.Slides for Java API'sini kullanarak Java Slides'ta grafik veri noktası indeksleriyle nasıl çalışılacağını inceleyeceğiz. Bir grafikteki veri noktalarına erişme ve bunları değiştirme sürecini adım adım ele alacağız. PowerPoint sunumlarınızdaki grafiklerden veri çıkarmak veya değiştirmek istiyorsanız bu kılavuz tam size göre.
+Bu makalede, Java Slides'da Aspose.Slides for Java API'sini kullanarak grafik veri noktası dizinleriyle nasıl çalışılacağını inceleyeceğiz. Bir grafikteki veri noktalarına erişme ve bunları işleme sürecini adım adım ele alacağız. PowerPoint sunumlarınızdaki grafiklerden veri çıkarmak veya işlemek istiyorsanız, bu kılavuz tam size göre.
 
-## Önkoşullar
+## Ön koşullar
 
-Kodun ayrıntılarına girmeden önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+Koda dalmadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
 1. Java Geliştirme Ortamı: Sisteminizde Java'nın kurulu olduğundan emin olun.
 
-2.  Aspose.Slides for Java: Aspose.Slides for Java kütüphanesini indirip projenize eklemeniz gerekecek. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/java/).
+2. Java için Aspose.Slides: Projenize Java için Aspose.Slides kütüphanesini indirmeniz ve eklemeniz gerekir. Bunu şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/slides/java/).
 
-3. Grafikli PowerPoint Sunumu: Grafik içeren en az bir slayt içeren bir PowerPoint sunumu oluşturun veya bulundurun.
+3. Grafik İçeren Bir PowerPoint Sunumu: En az bir slaytta grafik bulunan bir PowerPoint sunumu oluşturun veya hazırlayın.
 
-## 1. Adım: Başlarken
+## Adım 1: Başlarken
 
-Gerekli değişkenleri başlatıp PowerPoint sunumumuzu yükleyerek başlayalım:
+Gerekli değişkenleri başlatarak ve PowerPoint sunumuzu yükleyerek başlayalım:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -38,11 +40,11 @@ String pptxFile = dataDir + "ChartIndex.pptx";
 Presentation presentation = new Presentation(pptxFile);
 ```
 
- Yer değiştirmek`"Your Document Directory"` belge dizininizin yolu ile ve`"ChartIndex.pptx"` PowerPoint dosyanızın adıyla.
+Yer değiştirmek `"Your Document Directory"` belge dizininize giden yol ve `"ChartIndex.pptx"` PowerPoint dosyanızın adıyla.
 
 ## Adım 2: Grafik Veri Noktalarına Erişim
 
-Artık sunumumuzu yüklediğimize göre grafiğe ve veri noktalarına erişebiliriz. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
+Artık sunumumuz yüklendiğine göre, grafiğe ve veri noktalarına erişebiliriz. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
 
 ```java
 try {
@@ -57,12 +59,12 @@ try {
 
 Bu kod parçacığında:
 
--  İlk slaydı kullanarak alıyoruz`presentation.getSlides().get_Item(0)`.
--  Grafiğin slayttaki ilk şekil olduğunu varsayıyoruz ve bu nedenle ona şunu kullanarak erişiyoruz:`getShapes().get_Item(0)`. Grafiğiniz farklı bir slayttaysa veya şekil sırasında farklı bir konuma sahipse bu dizini ayarlayın.
+- İlk slaydı kullanarak alıyoruz `presentation.getSlides().get_Item(0)`.
+- Tablonun slayttaki ilk şekil olduğunu varsayıyoruz, bu nedenle ona şu şekilde erişiyoruz: `getShapes().get_Item(0)`. Grafiğiniz farklı bir slayttaysa veya şekil sıralamasında farklı bir konuma sahipse bu indeksi ayarlayın.
 
-Döngünün içinde, grafiğin ilk serisindeki her veri noktasını yineliyoruz ve indeksini ve değerini yazdırıyoruz.
+Döngü içerisinde, grafiğin ilk serisindeki her veri noktasını yineliyoruz ve endeksini ve değerini yazdırıyoruz.
 
-## Java Slaytlarındaki Grafik Veri Noktası Dizini İçin Tam Kaynak Kodu
+## Java Slaytlarında Grafik Veri Noktası Dizini İçin Tam Kaynak Kodu
 
 ```java
 String dataDir = "Your Document Directory";
@@ -81,32 +83,34 @@ try {
 
 ## Çözüm
 
-Bu makalede, Aspose.Slides for Java API'sini kullanarak Java Slides'ta grafik veri noktası indekslerine nasıl erişeceğimizi ve bunlarla nasıl çalışacağımızı öğrendik. Artık PowerPoint sunumlarınızdaki grafiklerden verileri kolaylıkla çıkarabilir ve değiştirebilirsiniz.
+Bu makalede, Java Slaytları'nda Aspose.Slides for Java API'sini kullanarak grafik veri noktası dizinlerine nasıl erişileceğini ve bunlarla nasıl çalışılacağını öğrendik. Artık PowerPoint sunumlarınızdaki grafiklerden verileri kolayca çıkarabilir ve işleyebilirsiniz.
 
-## SSS'ler
+## SSS
 
-### Aspose.Slides for Java'yı kullanarak PowerPoint slaytına nasıl grafik ekleyebilirim?
+### Aspose.Slides for Java kullanarak bir PowerPoint slaydına nasıl grafik ekleyebilirim?
 
-Aspose.Slides for Java'yı kullanarak bir grafik nesnesi oluşturup, türünü ve verilerini belirleyerek ve bunu bir slayda ekleyerek PowerPoint slaytına bir grafik ekleyebilirsiniz. Ayrıntılı örnekler için Aspose.Slides for Java belgelerine bakın.
+Aspose.Slides for Java kullanarak bir PowerPoint slaydına grafik ekleyebilirsiniz; bunun için bir grafik nesnesi oluşturup, türünü ve verilerini belirtip bir slayda ekleyebilirsiniz. Ayrıntılı örnekler için Aspose.Slides for Java belgelerine bakın.
 
 ### Bir grafikteki veri noktalarının görünümünü değiştirebilir miyim?
 
-Evet, Aspose.Slides for Java'yı kullanarak bir grafikteki veri noktalarının görünümünü değiştirebilirsiniz. Gerektiğinde renklerini, işaretçilerini ve diğer görsel özelliklerini değiştirebilirsiniz.
+Evet, Java için Aspose.Slides'ı kullanarak bir grafikteki veri noktalarının görünümünü değiştirebilirsiniz. Gerektiğinde renklerini, işaretleyicilerini ve diğer görsel niteliklerini değiştirebilirsiniz.
 
-### Aspose.Slides for Java farklı grafik türleriyle uyumlu mu?
+### Aspose.Slides for Java farklı grafik tipleriyle uyumlu mudur?
 
-Evet, Aspose.Slides for Java; çubuk grafikler, çizgi grafikler, pasta grafikler ve daha fazlası dahil olmak üzere çeşitli grafik türlerini destekler. Veri görselleştirme ihtiyaçlarınıza en uygun grafik türünü seçebilirsiniz.
+Evet, Aspose.Slides for Java, çubuk grafikler, çizgi grafikler, pasta grafikler ve daha fazlası dahil olmak üzere çeşitli grafik türlerini destekler. Veri görselleştirme ihtiyaçlarınıza en uygun grafik türünü seçebilirsiniz.
 
-### Grafikler içeren bir PowerPoint sunumunu farklı formatlara nasıl aktarırım?
+### Grafikler içeren bir PowerPoint sunumunu farklı formatlara nasıl aktarabilirim?
 
-Aspose.Slides for Java'yı kullanarak grafikler içeren bir PowerPoint sunumunu PDF veya görüntü dosyaları gibi farklı formatlara aktarabilirsiniz. Çıktı biçimini ve kalitesini özelleştirmenize olanak tanıyan dışa aktarma seçenekleri mevcuttur.
+Grafikler içeren bir PowerPoint sunumunu Aspose.Slides for Java kullanarak PDF veya resim dosyaları gibi farklı biçimlere aktarabilirsiniz. Çıktı biçimini ve kalitesini özelleştirmenize olanak tanıyan dışa aktarma seçenekleri mevcuttur.
 
-### Aspose.Slides for Java için daha fazla örneği ve belgeyi nerede bulabilirim?
+### Aspose.Slides for Java için daha fazla örnek ve dokümanı nerede bulabilirim?
 
- Aspose dokümantasyon web sitesinde Aspose.Slides for Java için kapsamlı örnekler ve belgeler bulabilirsiniz.[Burada](https://reference.aspose.com/slides/java/).
+Aspose.Slides for Java için kapsamlı örnekleri ve belgeleri Aspose belgeleri web sitesinde bulabilirsiniz [Burada](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

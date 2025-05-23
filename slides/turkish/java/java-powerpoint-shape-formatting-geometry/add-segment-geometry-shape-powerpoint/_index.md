@@ -1,35 +1,37 @@
 ---
-title: PowerPoint'te Geometri Şekline Segment Ekleme
-linktitle: PowerPoint'te Geometri Şekline Segment Ekleme
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Bu ayrıntılı, adım adım kılavuzla Aspose.Slides for Java kullanarak PowerPoint sunumlarındaki geometri şekillerine nasıl segment ekleyeceğinizi öğrenin.
-weight: 19
-url: /tr/java/java-powerpoint-shape-formatting-geometry/add-segment-geometry-shape-powerpoint/
+"description": "Bu ayrıntılı, adım adım kılavuzla Aspose.Slides for Java'yı kullanarak PowerPoint sunumlarındaki geometrik şekillere segment eklemeyi öğrenin."
+"linktitle": "PowerPoint'te Geometri Şekline Segment Ekleme"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "PowerPoint'te Geometri Şekline Segment Ekleme"
+"url": "/tr/java/java-powerpoint-shape-formatting-geometry/add-segment-geometry-shape-powerpoint/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PowerPoint'te Geometri Şekline Segment Ekleme
 
 ## giriiş
-İlgi çekici ve dinamik sunumlar oluşturmak, özellikle özel şekiller ve tasarımlar eklemek istediğinizde zor olabilir. Aspose.Slides for Java'nın kullanışlı olduğu yer burasıdır. Bu güçlü API, PowerPoint dosyalarını programlı bir şekilde değiştirmenize olanak tanıyarak karmaşık geometrik şekiller ve bölümleri kolaylıkla ekleme esnekliği sağlar. Bu eğitimde, Aspose.Slides for Java kullanarak bir PowerPoint sunumunda geometri şekillerine nasıl segment ekleyeceğinizi anlatacağız. İster sunum oluşturmayı otomatikleştirmek isteyen bir geliştirici olun, ister yalnızca kodlamaya dalmayı seven biri olun, bu kılavuz sizin kapsamlı kaynağınız olacaktır.
-## Önkoşullar
-Adım adım kılavuza dalmadan önce, yerine getirmeniz gereken birkaç önkoşul vardır:
-1.  Java Geliştirme Kiti (JDK): Makinenizde JDK'nın kurulu olduğundan emin olun. adresinden indirebilirsiniz.[Oracle web sitesi](https://www.oracle.com/java/technologies/javase-downloads.html).
-2.  Aspose.Slides for Java: Aspose.Slides for Java kütüphanesini indirmeniz gerekiyor. Şu adresten alabilirsiniz:[İnternet sitesi](https://releases.aspose.com/slides/java/).
-3. Entegre Geliştirme Ortamı (IDE): IntelliJ IDEA, Eclipse veya NetBeans gibi bir IDE, kodlamayı daha kolay ve daha verimli hale getirecektir.
-4. Temel Java Bilgisi: Bu eğitimi takip etmek için Java programlamaya aşina olmak çok önemlidir.
+İlgi çekici ve dinamik sunumlar oluşturmak, özellikle özel şekiller ve tasarımlar eklemek istediğinizde zor olabilir. İşte tam bu noktada Aspose.Slides for Java işe yarar. Bu güçlü API, PowerPoint dosyalarını programatik olarak düzenlemenize olanak tanır ve karmaşık geometrik şekiller ve segmentleri kolayca ekleme esnekliği sağlar. Bu eğitimde, Aspose.Slides for Java kullanarak bir PowerPoint sunumundaki geometrik şekillere segmentlerin nasıl ekleneceğini adım adım anlatacağız. İster sunumların oluşturulmasını otomatikleştirmek isteyen bir geliştirici olun, ister sadece kodlamaya dalmayı seven biri olun, bu kılavuz sizin kapsamlı kaynağınız olacak.
+## Ön koşullar
+Adım adım kılavuza dalmadan önce, yerine getirmeniz gereken birkaç ön koşul var:
+1. Java Geliştirme Kiti (JDK): Makinenizde JDK'nın yüklü olduğundan emin olun. Bunu şu adresten indirebilirsiniz: [Oracle web sitesi](https://www.oracle.com/java/technologies/javase-downloads.html).
+2. Java için Aspose.Slides: Java için Aspose.Slides kütüphanesini indirmeniz gerekir. Bunu şuradan alabilirsiniz: [web sitesi](https://releases.aspose.com/slides/java/).
+3. Entegre Geliştirme Ortamı (IDE): IntelliJ IDEA, Eclipse veya NetBeans gibi bir IDE kodlamayı daha kolay ve daha verimli hale getirecektir.
+4. Temel Java Bilgisi: Bu eğitimi takip etmek için Java programlamaya aşina olmak şarttır.
 ## Paketleri İçe Aktar
-Öncelikle gerekli paketleri Aspose.Slides'tan içe aktarmanız gerekiyor. Bu, PowerPoint sunumları oluşturmak ve düzenlemek için gereken tüm işlevlere erişmenizi sağlayacaktır.
+İlk önce, Aspose.Slides'tan gerekli paketleri içe aktarmanız gerekir. Bu, PowerPoint sunumları oluşturmak ve düzenlemek için gereken tüm işlevlere erişmenizi sağlayacaktır.
 ```java
 import com.aspose.slides.*;
 
 ```
-Açıklık ve anlaşılırlık sağlamak için geometri şekillerine parça ekleme sürecini ayrıntılı adımlara ayıralım.
-## 1. Adım: Yeni Bir Sunu Oluşturun
-Bu adımda Aspose.Slides'ı kullanarak yeni bir PowerPoint sunumu oluşturacağız.
+Geometrik şekillere segment ekleme sürecini, anlaşılırlığı ve kolaylığı sağlamak için ayrıntılı adımlara bölelim.
+## Adım 1: Yeni Bir Sunum Oluşturun
+Bu adımda Aspose.Slides kullanarak yeni bir PowerPoint sunumu oluşturacağız.
 ```java
 Presentation pres = new Presentation();
 try {
@@ -38,55 +40,57 @@ try {
     if (pres != null) pres.dispose();
 }
 ```
- Yeni bir sunum oluşturmak, sunumu başlatmak kadar basittir.`Presentation` sınıf. Bu, bellekte değiştirebileceğiniz yeni bir PowerPoint dosyasını başlatır.
-## Adım 2: Geometri Şekli Ekleme
-Daha sonra sunumun ilk slaydına yeni bir şekil ekleyeceğiz. Bu örnek için bir dikdörtgen ekleyeceğiz.
+Yeni bir sunum oluşturmak, sunumun örneğini oluşturmak kadar basittir. `Presentation` sınıf. Bu, bellekte işleyebileceğiniz yeni bir PowerPoint dosyası başlatır.
+## Adım 2: Bir Geometri Şekli Ekleyin
+Ardından, sunumun ilk slaydına yeni bir şekil ekleyeceğiz. Bu örnek için bir dikdörtgen ekleyeceğiz.
 ```java
 GeometryShape shape = (GeometryShape)pres.getSlides().get_Item(0).getShapes().addAutoShape(ShapeType.Rectangle, 100, 100, 200, 100);
 ```
 Burada (100, 100) koordinatlarına genişliği 200, yüksekliği 100 olan bir dikdörtgen şekli ekliyoruz.
 ## Adım 3: Şeklin Geometri Yolunu Alın
-Şimdi yeni eklediğimiz şeklin geometri yolunu almamız gerekiyor. Bu yol, şeklin ana hatlarını temsil eder.
+Şimdi, az önce eklediğimiz şeklin geometri yolunu almamız gerekiyor. Bu yol, şeklin ana hatlarını temsil eder.
 ```java
 IGeometryPath geometryPath = shape.getGeometryPaths()[0];
 ```
-`getGeometryPaths` yöntem, şekille ilişkili yolların bir dizisini döndürür. Basit bir şekille uğraştığımız için ilk yola doğrudan ulaşabiliyoruz.
-## Adım 4: Geometri Yoluna Segmentler Ekleme
-Şekli değiştirmek için geometri yoluna yeni parçalar ekleyebiliriz. Bu durumda iki çizgi parçası ekleyeceğiz.
+The `getGeometryPaths` method, şekille ilişkili yolların bir dizisini döndürür. Basit bir şekille uğraştığımız için, ilk yola doğrudan erişebiliriz.
+## Adım 4: Geometri Yoluna Segmentler Ekleyin
+Şekli değiştirmek için geometri yoluna yeni segmentler ekleyebiliriz. Bu durumda iki çizgi segmenti ekleyeceğiz.
 ```java
 geometryPath.lineTo(100, 50, 1);
 geometryPath.lineTo(100, 50, 4);
 ```
-`lineTo` yöntemi geometri yoluna bir çizgi parçası ekler. Parametreler hattın uç noktasını ve segment tipini belirtir.
-## Adım 5: Düzenlenen Geometri Yolunu Şekle Geri Atayın
+The `lineTo` method, geometri yoluna bir çizgi parçası ekler. Parametreler, çizginin bitiş noktasını ve parçanın türünü belirtir.
+## Adım 5: Düzenlenen Geometri Yolunu Şekle Geri Ata
 Geometri yolunu değiştirdikten sonra onu tekrar şekle atamamız gerekiyor.
 ```java
 shape.setGeometryPath(geometryPath);
 ```
-Bu, yaptığımız değişiklikleri yansıtacak şekilde şekli yeni geometri yoluyla günceller.
-## Adım 6: Sunuyu Kaydetme
-Son olarak sunuyu bir dosyaya kaydedin.
+Bu, şekli yaptığımız değişiklikleri yansıtan yeni geometri yoluyla günceller.
+## Adım 6: Sunumu Kaydedin
+Son olarak sunumu bir dosyaya kaydedin.
 ```java
 String resultPath = "GeometryShapeAddSegment.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
-Sunuyu kaydetmek istediğiniz yolu ve formatı (bu durumda PPTX) belirtin.
+Sunumu kaydetmek istediğiniz yolu ve biçimi (bu durumda PPTX) belirtin.
 ## Çözüm
-Aspose.Slides for Java kullanarak PowerPoint sunumlarındaki geometri şekillerine segmentler eklemek, slaytlarınızın görsel çekiciliğini önemli ölçüde artırabilecek basit bir işlemdir. Bu öğreticide özetlenen adımları izleyerek özelleştirilmiş şekiller oluşturabilir ve sunumlarınıza programlı olarak karmaşık ayrıntılar ekleyebilirsiniz. İster sunum oluşturma işlemini otomatikleştiriyor olun ister yalnızca kod denemeleri yapıyor olun, Aspose.Slides for Java işinizi verimli bir şekilde halletmeniz için ihtiyacınız olan araçları sağlar.
-## SSS'ler
-### Aspose.Slides for Java nedir?
-Aspose.Slides for Java, PowerPoint sunumlarını programlı olarak oluşturmak, değiştirmek ve düzenlemek için kullanılan güçlü bir API'dir.
+Aspose.Slides for Java kullanarak PowerPoint sunumlarındaki geometrik şekillere segmentler eklemek, slaytlarınızın görsel çekiciliğini önemli ölçüde artırabilecek basit bir işlemdir. Bu eğitimde özetlenen adımları izleyerek özelleştirilmiş şekiller oluşturabilir ve sunumlarınıza programatik olarak karmaşık ayrıntılar ekleyebilirsiniz. İster sunumların oluşturulmasını otomatikleştirin, ister sadece kodla denemeler yapın, Aspose.Slides for Java işi verimli bir şekilde yapmanız için gereken araçları sağlar.
+## SSS
+### Java için Aspose.Slides nedir?
+Aspose.Slides for Java, PowerPoint sunumlarını programlı olarak oluşturmak, değiştirmek ve düzenlemek için güçlü bir API'dir.
 ### Aspose.Slides for Java'yı diğer programlama dilleriyle birlikte kullanabilir miyim?
-Hayır, Aspose.Slides for Java, Java ile kullanılmak üzere özel olarak tasarlanmıştır. Ancak Aspose, .NET ve Python gibi diğer diller için de benzer API'ler sunuyor.
+Hayır, Aspose.Slides for Java özellikle Java ile kullanılmak üzere tasarlanmıştır. Ancak Aspose, .NET ve Python gibi diğer diller için de benzer API'ler sunar.
 ### Aspose.Slides for Java ücretsiz mi?
- Aspose.Slides for Java ücretli bir kütüphanedir, ancak[ücretsiz deneme](https://releases.aspose.com/) özelliklerini test etmek için.
-### Aspose.Slides'ı kullanarak bir sunuma ne tür şekiller ekleyebilirim?
-Dikdörtgenler, elipsler, çizgiler ve özel geometri şekilleri dahil olmak üzere çeşitli şekiller ekleyebilirsiniz.
-### Aspose.Slides for Java için nasıl destek alabilirim?
- adresinden destek alabilirsiniz.[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) soru sorabileceğiniz ve topluluktan ve geliştiricilerden yardım alabileceğiniz yer.
+Java için Aspose.Slides ücretli bir kütüphanedir, ancak bir [ücretsiz deneme](https://releases.aspose.com/) Özelliklerini test etmek için.
+### Aspose.Slides kullanarak bir sunuma hangi tür şekiller ekleyebilirim?
+Dikdörtgenler, elipsler, çizgiler ve özel geometrik şekiller dahil olmak üzere çeşitli şekiller ekleyebilirsiniz.
+### Java için Aspose.Slides desteğini nasıl alabilirim?
+Destek alabilirsiniz [Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) Sorularınızı sorabileceğiniz ve topluluktan ve geliştiricilerden yardım alabileceğiniz bir yer.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

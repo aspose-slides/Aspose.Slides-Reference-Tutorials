@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में श्रृंखला को एनिमेट करना
-linktitle: जावा स्लाइड्स में श्रृंखला को एनिमेट करना
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java में सीरीज एनिमेशन के साथ अपनी प्रस्तुतियों को अनुकूलित करें। आकर्षक PowerPoint एनिमेशन बनाने के लिए स्रोत कोड उदाहरणों के साथ हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 11
-url: /hi/java/animation-and-layout/animating-series-java-slides/
+"description": "Aspose.Slides for Java में सीरीज एनिमेशन के साथ अपनी प्रस्तुतियों को अनुकूलित करें। आकर्षक PowerPoint एनिमेशन बनाने के लिए स्रोत कोड उदाहरणों के साथ हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "जावा स्लाइड्स में श्रृंखला को एनिमेट करना"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में श्रृंखला को एनिमेट करना"
+"url": "/hi/java/animation-and-layout/animating-series-java-slides/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में श्रृंखला को एनिमेट करना
@@ -27,12 +29,12 @@ url: /hi/java/animation-and-layout/animating-series-java-slides/
 
 ## चरण 1: प्रस्तुति लोड करें
 
- सबसे पहले, हमें एक मौजूदा पावरपॉइंट प्रेजेंटेशन लोड करना होगा जिसमें एक चार्ट हो।`"Your Document Directory"` अपनी प्रस्तुति फ़ाइल के वास्तविक पथ के साथ.
+सबसे पहले, हमें एक मौजूदा पावरपॉइंट प्रेजेंटेशन लोड करना होगा जिसमें एक चार्ट हो। `"Your Document Directory"` अपनी प्रस्तुति फ़ाइल के वास्तविक पथ के साथ.
 
 ```java
 // दस्तावेज़ निर्देशिका का पथ.
 String dataDir = "Your Document Directory";
-// प्रेजेंटेशन फ़ाइल का प्रतिनिधित्व करने वाले प्रेजेंटेशन क्लास को इंस्टेंटिएट करें
+// प्रेजेंटेशन फ़ाइल का प्रतिनिधित्व करने वाले प्रेजेंटेशन क्लास को इंस्टेंटिएट करें 
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
@@ -78,7 +80,7 @@ presentation.save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```java
 // दस्तावेज़ निर्देशिका का पथ.
 String dataDir = "Your Document Directory";
-// प्रेजेंटेशन फ़ाइल का प्रतिनिधित्व करने वाले प्रेजेंटेशन क्लास को इंस्टेंटिएट करें
+// प्रेजेंटेशन फ़ाइल का प्रतिनिधित्व करने वाले प्रेजेंटेशन क्लास को इंस्टेंटिएट करें 
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 try
 {
@@ -101,7 +103,7 @@ try
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart,
 			EffectChartMajorGroupingType.BySeries, 3,
 			EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
-	// संशोधित प्रस्तुति को डिस्क पर लिखें
+	// संशोधित प्रस्तुति को डिस्क पर लिखें 
 	presentation.save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 }
 finally
@@ -118,11 +120,11 @@ finally
 
 ### मैं श्रृंखला एनिमेशन के क्रम को कैसे नियंत्रित करूँ?
 
- श्रृंखला एनिमेशन के क्रम को नियंत्रित करने के लिए, का उपयोग करें`EffectTriggerType.AfterPrevious` प्रभाव जोड़ते समय पैरामीटर का उपयोग करें। इससे प्रत्येक श्रृंखला एनीमेशन पिछले एक के समाप्त होने के बाद शुरू होगा।
+श्रृंखला एनिमेशन के क्रम को नियंत्रित करने के लिए, का उपयोग करें `EffectTriggerType.AfterPrevious` प्रभाव जोड़ते समय पैरामीटर। इससे प्रत्येक श्रृंखला एनीमेशन पिछले एक के समाप्त होने के बाद शुरू होगा।
 
 ### क्या मैं प्रत्येक श्रृंखला पर अलग-अलग एनिमेशन लागू कर सकता हूँ?
 
- हां, आप अलग-अलग एनिमेशन निर्दिष्ट करके प्रत्येक श्रृंखला पर अलग-अलग एनिमेशन लागू कर सकते हैं`EffectType` और`EffectSubtype` प्रभाव जोड़ते समय मान.
+हां, आप अलग-अलग सेटिंग निर्दिष्ट करके प्रत्येक श्रृंखला पर अलग-अलग एनिमेशन लागू कर सकते हैं। `EffectType` और `EffectSubtype` प्रभाव जोड़ते समय मान.
 
 ### यदि मेरी प्रस्तुति में चार से अधिक श्रृंखलाएं हों तो क्या होगा?
 
@@ -131,9 +133,11 @@ finally
 ### मैं एनीमेशन अवधि और विलंब को कैसे अनुकूलित कर सकता हूं?
 
 आप एनीमेशन प्रभाव पर गुण सेट करके एनीमेशन अवधि और देरी को अनुकूलित कर सकते हैं। उपलब्ध अनुकूलन विकल्पों के विवरण के लिए Aspose.Slides for Java दस्तावेज़ देखें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

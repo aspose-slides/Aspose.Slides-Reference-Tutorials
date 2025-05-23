@@ -1,47 +1,49 @@
 ---
-title: Přidejte komentáře ke snímku
-linktitle: Přidejte komentáře ke snímku
-second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Přidejte hloubku a interakci do vašich prezentací pomocí Aspose.Slides API. Naučte se, jak snadno integrovat komentáře do snímků pomocí .NET. Zvyšte zapojení a upoutejte své publikum.
-weight: 13
-url: /cs/net/slide-comments-manipulation/add-slide-comments/
+"description": "Dodejte svým prezentacím hloubku a interakci s rozhraním Aspose.Slides API. Naučte se, jak snadno integrovat komentáře do snímků pomocí .NET. Zvyšte zapojení a zaujměte své publikum."
+"linktitle": "Přidat komentáře ke snímku"
+"second_title": "Rozhraní API pro zpracování PowerPointu v .NET od Aspose.Slides"
+"title": "Přidat komentáře ke snímku"
+"url": "/cs/net/slide-comments-manipulation/add-slide-comments/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidejte komentáře ke snímku
+# Přidat komentáře ke snímku
 
 
-Ve světě správy prezentací může být možnost přidávat komentáře ke snímkům zásadní změnou. Komentáře nejen zlepšují spolupráci, ale také pomáhají pochopit a revidovat obsah snímků. S Aspose.Slides for .NET, výkonnou a všestrannou knihovnou, můžete bez námahy začlenit komentáře do snímků prezentace. V tomto podrobném průvodci vás provedeme procesem přidávání komentářů na snímek pomocí Aspose.Slides for .NET. Ať už jste ostřílený vývojář nebo nováček ve světě vývoje .NET, tento tutoriál vám poskytne všechny potřebné poznatky.
+Ve světě správy prezentací může být možnost přidávat komentáře ke snímkům průlomová. Komentáře nejen zlepšují spolupráci, ale také pomáhají s porozuměním a revizí obsahu snímků. S Aspose.Slides pro .NET, výkonnou a všestrannou knihovnou, můžete snadno začlenit komentáře do snímků vaší prezentace. V tomto podrobném návodu vás provedeme procesem přidávání komentářů ke snímku pomocí Aspose.Slides pro .NET. Ať už jste zkušený vývojář nebo nováček ve světě vývoje v .NET, tento tutoriál vám poskytne všechny potřebné informace.
 
 ## Předpoklady
 
-Než se ponoříme do podrobného průvodce, ujistěte se, že máte vše, co potřebujete, abyste mohli začít:
+Než se ponoříme do podrobného návodu, ujistěte se, že máte vše, co potřebujete k zahájení:
 
-1.  Aspose.Slides for .NET: Musíte mít nainstalovaný Aspose.Slides for .NET. Pokud jste tak ještě neučinili, můžete si jej stáhnout z[Web Aspose.Slides for .NET](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides pro .NET: Musíte mít nainstalovaný Aspose.Slides pro .NET. Pokud ho ještě nemáte, můžete si ho stáhnout z [Web Aspose.Slides pro .NET](https://releases.aspose.com/slides/net/).
 
-2. Vývojové prostředí: V systému byste měli mít nastavené vývojové prostředí .NET.
+2. Vývojové prostředí: V systému byste měli mít nainstalované vývojové prostředí .NET.
 
-3. Základní znalost C#: Znalost programování v C# je výhodná, protože C# budeme používat k demonstraci implementace.
+3. Základní znalost C#: Znalost programování v C# je výhodou, protože budeme C# používat k demonstraci implementace.
 
-S těmito předpoklady se pojďme ponořit do procesu přidávání komentářů na snímek prezentace.
+S těmito předpoklady se pojďme ponořit do procesu přidávání komentářů ke snímku v prezentaci.
 
 ## Importovat jmenné prostory
 
-Nejprve nastavíme naše vývojové prostředí importem potřebných jmenných prostorů.
+Nejprve si nastavme vývojové prostředí importem potřebných jmenných prostorů.
 
 ```csharp
 using Aspose.Slides;
 using Aspose.Slides.Export;
 ```
 
-Nyní, když máme seřazené předpoklady a jmenné prostory, můžeme přejít k průvodci krok za krokem.
+Nyní, když máme vyřešené předpoklady a jmenné prostory, můžeme přejít k podrobnému návodu.
 
 ## Krok 1: Vytvořte novou prezentaci
 
-Začneme vytvořením nové prezentace, kde můžeme ke snímku přidávat komentáře. Chcete-li to provést, postupujte podle níže uvedeného kódu:
+Začneme vytvořením nové prezentace, kde můžeme přidat komentáře k snímku. Postupujte podle následujícího kódu:
 
 ```csharp
 string FilePath = @"..\..\..\..\Sample Files\";
@@ -52,7 +54,7 @@ using (Presentation pres = new Presentation())
     // Přidání prázdného snímku
     pres.Slides.AddEmptySlide(pres.LayoutSlides[0]);
 
-    // Přidání autora
+    // Přidávání autora
     ICommentAuthor author = pres.CommentAuthors.AddAuthor("Zeeshan", "MZ");
 
     // Pozice komentářů
@@ -60,59 +62,61 @@ using (Presentation pres = new Presentation())
     point.X = 1;
     point.Y = 1;
 
-    // Přidání komentáře ke snímku pro autora na snímku
+    // Přidání komentáře k snímku pro autora
     author.Comments.AddComment("Hello Zeeshan, this is a slide comment", pres.Slides[0], point, DateTime.Now);
     
-    // Uložte prezentaci
+    // Uložit prezentaci
     pres.Save(FileName, SaveFormat.Pptx);
 }
 ```
 
-Pojďme si rozebrat, co se děje v tomto kódu:
+Pojďme si rozebrat, co se v tomto kódu děje:
 
--  Začneme vytvořením nové prezentace pomocí`Presentation()`.
+- Začneme vytvořením nové prezentace pomocí `Presentation()`.
 - Dále do prezentace přidáme prázdný snímek.
--  Přidáme autora komentáře pomocí`ICommentAuthor`.
--  Polohu komentáře na snímku definujeme pomocí`PointF`.
-- Ke snímku přidáme komentář pro použití autora`author.Comments.AddComment()`.
-- Nakonec prezentaci s přidanými komentáři uložíme.
+- Autora komentáře přidáme pomocí `ICommentAuthor`.
+- Pozici komentáře na snímku definujeme pomocí `PointF`.
+- Na snímek přidáme komentář pro autora pomocí `author.Comments.AddComment()`.
+- Nakonec prezentaci uložíme s přidanými komentáři.
 
-Tento kód vytvoří prezentaci PowerPoint s komentářem na prvním snímku. Jméno autora, text komentáře a další parametry si můžete upravit podle svých požadavků.
+Tento kód vytvoří prezentaci v PowerPointu s komentářem na prvním snímku. Jméno autora, text komentáře a další parametry si můžete upravit podle svých požadavků.
 
-Pomocí těchto kroků jste úspěšně přidali komentář na snímek pomocí Aspose.Slides for .NET. Nyní můžete posunout správu prezentací na další úroveň zlepšením spolupráce a komunikace se svým týmem nebo publikem.
+Pomocí těchto kroků jste úspěšně přidali komentář ke snímku pomocí Aspose.Slides pro .NET. Nyní můžete posunout správu prezentací na další úroveň vylepšením spolupráce a komunikace s vaším týmem nebo publikem.
 
 ## Závěr
 
-Přidávání komentářů ke snímkům je cennou funkcí pro ty, kteří pracují s prezentacemi, ať už pro společné projekty nebo pro vzdělávací účely. Aspose.Slides for .NET tento proces zjednodušuje a umožňuje vám snadno vytvářet, upravovat a spravovat komentáře. Podle kroků uvedených v této příručce můžete využít sílu Aspose.Slides for .NET k vylepšení svých prezentací.
+Přidávání komentářů ke snímkům je cenná funkce pro ty, kteří pracují s prezentacemi, ať už pro společné projekty nebo vzdělávací účely. Aspose.Slides pro .NET tento proces zjednodušuje a umožňuje vám bez námahy vytvářet, upravovat a spravovat komentáře. Dodržováním kroků uvedených v této příručce můžete využít sílu Aspose.Slides pro .NET k vylepšení vašich prezentací.
 
- Pokud narazíte na nějaké problémy nebo máte dotazy, neváhejte vyhledat pomoc na[Fórum Aspose.Slides](https://forum.aspose.com/).
+Pokud narazíte na jakékoli problémy nebo máte dotazy, neváhejte se obrátit na [Fórum Aspose.Slides](https://forum.aspose.com/).
 
 ---
 
-## Nejčastější dotazy
+## Často kladené otázky
 
-### 1. Jak mohu upravit vzhled komentářů v Aspose.Slides pro .NET?
+### 1. Jak si mohu přizpůsobit vzhled komentářů v Aspose.Slides pro .NET?
 
-Vzhled komentářů můžete upravit úpravou různých vlastností, jako je barva, velikost a písmo, pomocí knihovny Aspose.Slides. Podrobné pokyny naleznete v dokumentaci.
+Vzhled komentářů si můžete přizpůsobit úpravou různých vlastností, jako je barva, velikost a písmo, pomocí knihovny Aspose.Slides. Podrobné pokyny naleznete v dokumentaci.
 
-### 2. Mohu přidávat komentáře ke konkrétním prvkům na snímku, jako jsou tvary nebo obrázky?
+### 2. Mohu přidávat komentáře k určitým prvkům na snímku, jako jsou tvary nebo obrázky?
 
-Ano, Aspose.Slides for .NET umožňuje přidávat komentáře nejen k celým snímkům, ale také k jednotlivým prvkům snímku, jako jsou tvary nebo obrázky.
+Ano, Aspose.Slides pro .NET umožňuje přidávat komentáře nejen k celým snímkům, ale i k jednotlivým prvkům v rámci snímku, jako jsou tvary nebo obrázky.
 
-### 3. Je Aspose.Slides for .NET kompatibilní s různými verzemi souborů PowerPoint?
+### 3. Je Aspose.Slides pro .NET kompatibilní s různými verzemi souborů PowerPointu?
 
-Ano, Aspose.Slides for .NET podporuje různé formáty souborů PowerPoint, včetně PPTX, PPT a dalších.
+Ano, Aspose.Slides pro .NET podporuje různé formáty souborů PowerPointu, včetně PPTX, PPT a dalších.
 
-### 4. Jak mohu integrovat Aspose.Slides for .NET do své aplikace .NET?
+### 4. Jak mohu integrovat Aspose.Slides pro .NET do své .NET aplikace?
 
-Chcete-li integrovat Aspose.Slides for .NET do vaší aplikace .NET, můžete se podívat na dokumentaci, která poskytuje podrobné informace o instalaci a použití.
+Chcete-li integrovat Aspose.Slides pro .NET do vaší .NET aplikace, můžete se podívat na dokumentaci, která poskytuje podrobné informace o instalaci a použití.
 
-### 5. Mohu Aspose.Slides for .NET vyzkoušet před jeho zakoupením?
+### 5. Mohu si Aspose.Slides pro .NET vyzkoušet před zakoupením?
 
-Ano, můžete prozkoumat Aspose.Slides pro .NET pomocí bezplatné zkušební verze. Navštivte[Bezplatná zkušební stránka Aspose.Slides](https://releases.aspose.com/) začít.
+Ano, můžete si prohlédnout Aspose.Slides pro .NET pomocí bezplatné zkušební verze. Navštivte [Bezplatná zkušební verze Aspose.Slides](https://releases.aspose.com/) začít.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

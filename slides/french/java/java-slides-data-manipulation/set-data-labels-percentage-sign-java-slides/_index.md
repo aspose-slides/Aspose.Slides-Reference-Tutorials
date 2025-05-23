@@ -1,53 +1,55 @@
 ---
-title: Définir le pourcentage de connexion des étiquettes de données dans les diapositives Java
-linktitle: Définir le pourcentage de connexion des étiquettes de données dans les diapositives Java
-second_title: API de traitement Java PowerPoint d'Aspose.Slides
-description: Découvrez comment définir des étiquettes de données avec des signes de pourcentage dans les présentations PowerPoint à l'aide d'Aspose.Slides pour Java. Créez des graphiques attrayants avec des conseils étape par étape et du code source.
-weight: 17
-url: /fr/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
+"description": "Apprenez à définir des étiquettes de données avec des pourcentages dans vos présentations PowerPoint avec Aspose.Slides pour Java. Créez des graphiques attrayants grâce à des instructions étape par étape et au code source."
+"linktitle": "Définir les étiquettes de données en pourcentage dans les diapositives Java"
+"second_title": "API de traitement Java PowerPoint Aspose.Slides"
+"title": "Définir les étiquettes de données en pourcentage dans les diapositives Java"
+"url": "/fr/java/data-manipulation/set-data-labels-percentage-sign-java-slides/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Définir le pourcentage de connexion des étiquettes de données dans les diapositives Java
+# Définir les étiquettes de données en pourcentage dans les diapositives Java
 
 
-## Introduction à la définition du pourcentage de connexion aux étiquettes de données dans Aspose.Slides pour Java
+## Introduction à la définition des étiquettes de données et au signe de pourcentage dans Aspose.Slides pour Java
 
-Dans ce guide, nous vous guiderons tout au long du processus de définition d'étiquettes de données avec un signe de pourcentage à l'aide d'Aspose.Slides pour Java. Nous allons créer une présentation PowerPoint avec un histogramme empilé et configurer les étiquettes de données pour afficher les pourcentages.
+Dans ce guide, nous vous expliquerons comment définir des étiquettes de données avec un signe de pourcentage à l'aide d'Aspose.Slides pour Java. Nous créerons une présentation PowerPoint avec un graphique à colonnes empilées et configurerons des étiquettes de données pour afficher des pourcentages.
 
-## Conditions préalables
+## Prérequis
 
- Avant de commencer, assurez-vous que la bibliothèque Aspose.Slides pour Java est ajoutée à votre projet. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/slides/java/).
+Avant de commencer, assurez-vous d'avoir ajouté la bibliothèque Aspose.Slides pour Java à votre projet. Vous pouvez la télécharger ici. [ici](https://releases.aspose.com/slides/java/).
 
 ## Étape 1 : Créer une nouvelle présentation
 
 Tout d’abord, nous créons une nouvelle présentation PowerPoint à l’aide d’Aspose.Slides.
 
 ```java
-// Le chemin d'accès au répertoire des documents.
+// Le chemin vers le répertoire des documents.
 String dataDir = "Your Document Directory";
-// Créer une instance de la classe Présentation
+// Créer une instance de la classe Presentation
 Presentation presentation = new Presentation();
 ```
 
 ## Étape 2 : ajouter une diapositive et un graphique
 
-Ensuite, nous ajoutons une diapositive et un histogramme empilé à la présentation.
+Ensuite, nous ajoutons une diapositive et un graphique à colonnes empilées à la présentation.
 
 ```java
 // Obtenir la référence de la diapositive
 ISlide slide = presentation.getSlides().get_Item(0);
 
-// Ajouter un graphique PercentsStackedColumn sur une diapositive
+// Ajouter un graphique à colonnes empilées en pourcentages sur une diapositive
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
 ```
 
-## Étape 3 : Configurer le format du numéro d'axe
+## Étape 3 : Configurer le format des numéros d’axe
 
-Pour afficher les pourcentages, nous devons configurer le format numérique pour l'axe vertical du graphique.
+Pour afficher les pourcentages, nous devons configurer le format numérique pour l’axe vertical du graphique.
 
 ```java
 // Définir NumberFormatLinkedToSource sur false
@@ -55,7 +57,7 @@ chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 ```
 
-## Étape 4 : ajouter des données graphiques
+## Étape 4 : Ajouter des données de graphique
 
 Nous ajoutons des données au graphique en créant des séries et des points de données. Dans cet exemple, nous ajoutons deux séries avec leurs points de données respectifs.
 
@@ -78,12 +80,12 @@ series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorkshe
 series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 4, 2, 0.35));
 ```
 
-## Étape 5 : Personnaliser les étiquettes de données
+## Étape 5 : Personnaliser les étiquettes de données
 
-Maintenant, personnalisons l'apparence des étiquettes de données.
+Maintenant, personnalisons l’apparence des étiquettes de données.
 
 ```java
-// Définition des propriétés LabelFormat
+// Définition des propriétés de LabelFormat
 series.getLabels().getDefaultDataLabelFormat().setShowValue(true);
 series.getLabels().getDefaultDataLabelFormat().setNumberFormatLinkedToSource(false);
 series.getLabels().getDefaultDataLabelFormat().setNumberFormat("0.0%");
@@ -100,7 +102,7 @@ series2.getLabels().getDefaultDataLabelFormat().getTextFormat().getPortionFormat
 series2.getLabels().getDefaultDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
 ```
 
-## Étape 6 : Enregistrez la présentation
+## Étape 6 : Enregistrer la présentation
 
 Enfin, nous enregistrons la présentation dans un fichier PowerPoint.
 
@@ -109,18 +111,18 @@ Enfin, nous enregistrons la présentation dans un fichier PowerPoint.
 presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.Pptx);
 ```
 
-C'est ça! Vous avez créé avec succès une présentation PowerPoint avec un histogramme empilé et configuré des étiquettes de données pour afficher des pourcentages à l'aide d'Aspose.Slides pour Java.
+Et voilà ! Vous avez créé avec succès une présentation PowerPoint avec un graphique à colonnes empilées et configuré des étiquettes de données pour afficher des pourcentages avec Aspose.Slides pour Java.
 
-## Code source complet pour définir les étiquettes de données Pourcentage de connexion dans les diapositives Java
+## Code source complet pour définir les étiquettes de données (pourcentage) dans les diapositives Java
 
 ```java
-// Le chemin d'accès au répertoire des documents.
+// Le chemin vers le répertoire des documents.
 String dataDir = "Your Document Directory";
-// Créer une instance de la classe Présentation
+// Créer une instance de la classe Presentation
 Presentation presentation = new Presentation();
 // Obtenir la référence de la diapositive
 ISlide slide = presentation.getSlides().get_Item(0);
-// Ajouter un graphique PercentsStackedColumn sur une diapositive
+// Ajouter un graphique à colonnes empilées en pourcentages sur une diapositive
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
 // Définir NumberFormatLinkedToSource sur false
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
@@ -135,10 +137,10 @@ series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorkshee
 series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 2, 1, 0.50));
 series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 3, 1, 0.80));
 series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 4, 1, 0.65));
-// Définition de la couleur de remplissage des séries
+// Définir la couleur de remplissage des séries
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
-// Définition des propriétés LabelFormat
+// Définition des propriétés de LabelFormat
 series.getLabels().getDefaultDataLabelFormat().setShowValue(true);
 series.getLabels().getDefaultDataLabelFormat().setNumberFormatLinkedToSource(false);
 series.getLabels().getDefaultDataLabelFormat().setNumberFormat("0.0%");
@@ -152,7 +154,7 @@ series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorkshe
 series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 2, 2, 0.50));
 series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 3, 2, 0.20));
 series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 4, 2, 0.35));
-// Définition du type et de la couleur de remplissage
+// Définition du type de remplissage et de la couleur
 series2.getFormat().getFill().setFillType(FillType.Solid);
 series2.getFormat().getFill().getSolidFillColor().setColor(Color.BLUE);
 series2.getLabels().getDefaultDataLabelFormat().setShowValue(true);
@@ -167,25 +169,27 @@ presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.P
 
 ## Conclusion
 
-En suivant ce guide, vous avez appris à créer des présentations attrayantes avec des étiquettes de données basées sur des pourcentages, ce qui peut être particulièrement utile pour transmettre efficacement des informations dans des rapports commerciaux, du matériel pédagogique, etc.
+En suivant ce guide, vous avez appris à créer des présentations attrayantes avec des étiquettes de données basées sur des pourcentages, ce qui peut être particulièrement utile pour transmettre efficacement des informations dans des rapports commerciaux, des supports pédagogiques, etc.
 
 ## FAQ
 
-### Comment puis-je changer les couleurs de la série de graphiques ?
+### Comment puis-je changer les couleurs de la série de graphiques ?
 
- Vous pouvez modifier la couleur de remplissage des séries de graphiques à l'aide de l'icône`setFill` méthode comme indiqué dans l’exemple.
+Vous pouvez modifier la couleur de remplissage des séries de graphiques à l'aide de la `setFill` méthode comme indiqué dans l'exemple.
 
 ### Puis-je personnaliser la taille de la police des étiquettes de données ?
 
-Oui, vous pouvez personnaliser la taille de la police des étiquettes de données en définissant l'option`setFontHeight` propriété comme démontré dans le code.
+Oui, vous pouvez personnaliser la taille de la police des étiquettes de données en définissant le `setFontHeight` propriété telle que démontrée dans le code.
 
-### Comment puis-je ajouter plus de séries au graphique ?
+### Comment puis-je ajouter plus de séries au graphique ?
 
- Vous pouvez ajouter des séries supplémentaires au graphique en utilisant le`add` méthode sur le`IChartSeriesCollection` objet.
+Vous pouvez ajouter des séries supplémentaires au graphique en utilisant le `add` méthode sur le `IChartSeriesCollection` objet.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

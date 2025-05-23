@@ -1,14 +1,16 @@
 ---
-title: जावा के साथ पावरपॉइंट टेबल में सेल्स मर्ज करें
-linktitle: जावा के साथ पावरपॉइंट टेबल में सेल्स मर्ज करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके PowerPoint टेबल में सेल मर्ज करना सीखें। इस चरण-दर-चरण मार्गदर्शिका के साथ अपने प्रेजेंटेशन लेआउट को बेहतर बनाएँ।
-weight: 17
-url: /hi/java/java-powerpoint-table-manipulation/merge-cells-powerpoint-table-java/
+"description": "Aspose.Slides for Java का उपयोग करके PowerPoint टेबल में सेल मर्ज करना सीखें। इस चरण-दर-चरण मार्गदर्शिका के साथ अपने प्रेजेंटेशन लेआउट को बेहतर बनाएँ।"
+"linktitle": "जावा के साथ पावरपॉइंट टेबल में सेल्स मर्ज करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा के साथ पावरपॉइंट टेबल में सेल्स मर्ज करें"
+"url": "/hi/java/java-powerpoint-table-manipulation/merge-cells-powerpoint-table-java/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा के साथ पावरपॉइंट टेबल में सेल्स मर्ज करें
@@ -20,7 +22,7 @@ url: /hi/java/java-powerpoint-table-manipulation/merge-cells-powerpoint-table-ja
 - जावा प्रोग्रामिंग भाषा का बुनियादी ज्ञान।
 - आपकी मशीन पर JDK (जावा डेवलपमेंट किट) स्थापित है।
 - आईडीई (एकीकृत विकास पर्यावरण) जैसे कि इंटेलीज आईडिया या एक्लिप्स।
--  Aspose.Slides for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+- Aspose.Slides for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 
 ## पैकेज आयात करें
 आरंभ करने के लिए, सुनिश्चित करें कि आपने Aspose.Slides के साथ काम करने के लिए आवश्यक पैकेज आयात कर लिए हैं:
@@ -31,7 +33,7 @@ import java.awt.*;
 ## चरण 1: अपना प्रोजेक्ट सेट करें
 सबसे पहले, अपने पसंदीदा IDE में एक नया Java प्रोजेक्ट बनाएं और अपनी प्रोजेक्ट निर्भरताओं में Aspose.Slides for Java लाइब्रेरी जोड़ें।
 ## चरण 2: प्रेजेंटेशन ऑब्जेक्ट को इंस्टैंशिएट करें
- उदाहरण प्रस्तुत करें`Presentation` आप जिस PPTX फ़ाइल के साथ काम कर रहे हैं, उसका प्रतिनिधित्व करने के लिए क्लास:
+उदाहरण प्रस्तुत करें `Presentation` आप जिस PPTX फ़ाइल के साथ काम कर रहे हैं, उसका प्रतिनिधित्व करने के लिए क्लास:
 ```java
 Presentation presentation = new Presentation();
 ```
@@ -41,7 +43,7 @@ Presentation presentation = new Presentation();
 ISlide slide = presentation.getSlides().get_Item(0);
 ```
 ## चरण 4: तालिका आयाम परिभाषित करें
- अपनी तालिका के लिए स्तंभ और पंक्तियाँ निर्धारित करें। स्तंभों की चौड़ाई और पंक्तियों की ऊँचाई को सारणी के रूप में निर्दिष्ट करें`double`:
+अपनी तालिका के लिए स्तंभ और पंक्तियाँ निर्धारित करें। स्तंभों की चौड़ाई और पंक्तियों की ऊँचाई को सारणी के रूप में निर्दिष्ट करें `double`:
 ```java
 double[] dblCols = {70, 70, 70, 70};
 double[] dblRows = {70, 70, 70, 70};
@@ -73,7 +75,7 @@ for (IRow row : table.getRows()) {
 }
 ```
 ## चरण 7: तालिका में कक्षों को मर्ज करें
- तालिका में कक्षों को मर्ज करने के लिए, का उपयोग करें`mergeCells` विधि। यह उदाहरण (1, 1) से (2, 1) और (1, 2) से (2, 2) तक कोशिकाओं को मर्ज करता है:
+तालिका में कक्षों को मर्ज करने के लिए, का उपयोग करें `mergeCells` विधि। यह उदाहरण (1, 1) से (2, 1) और (1, 2) से (2, 2) तक कोशिकाओं को मर्ज करता है:
 ```java
 table.mergeCells(table.get_Item(1, 1), table.get_Item(2, 1), false);
 table.mergeCells(table.get_Item(1, 2), table.get_Item(2, 2), false);
@@ -91,16 +93,18 @@ presentation.save(dataDir + "MergeCells1_out.pptx", SaveFormat.Pptx);
 ### Java के लिए Aspose.Slides क्या है?
 Aspose.Slides for Java एक जावा एपीआई है जो प्रोग्रामेटिक रूप से पावरपॉइंट प्रस्तुतियों को बनाने, हेरफेर करने और परिवर्तित करने के लिए है।
 ### मैं Java के लिए Aspose.Slides कैसे डाउनलोड करूं?
- आप Java के लिए Aspose.Slides को यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+आप Java के लिए Aspose.Slides को यहां से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 ### क्या मैं खरीदने से पहले Aspose.Slides for Java आज़मा सकता हूँ?
- हां, आप यहां से Aspose.Slides for Java का निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप यहां से Aspose.Slides for Java का निःशुल्क परीक्षण प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/).
 ### मैं Aspose.Slides for Java के लिए दस्तावेज़ कहां पा सकता हूं?
- आप दस्तावेज़ पा सकते हैं[यहाँ](https://reference.aspose.com/slides/java/).
+आप दस्तावेज़ पा सकते हैं [यहाँ](https://reference.aspose.com/slides/java/).
 ### मैं Java के लिए Aspose.Slides के लिए समर्थन कैसे प्राप्त कर सकता हूं?
- आप Aspose.Slides समुदाय मंच से सहायता प्राप्त कर सकते हैं[यहाँ](https://forum.aspose.com/c/slides/11).
+आप Aspose.Slides समुदाय मंच से सहायता प्राप्त कर सकते हैं [यहाँ](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

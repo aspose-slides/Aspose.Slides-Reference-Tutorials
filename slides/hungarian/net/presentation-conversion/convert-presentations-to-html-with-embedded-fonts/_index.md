@@ -1,46 +1,48 @@
 ---
-title: Konvertálja a prezentációkat HTML-be beágyazott betűtípusokkal
-linktitle: Konvertálja a prezentációkat HTML-be beágyazott betűtípusokkal
-second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Konvertálja a PowerPoint prezentációkat HTML formátumba beágyazott betűtípusokkal az Aspose.Slides for .NET segítségével. Az eredetiség zökkenőmentes megőrzése.
-weight: 13
-url: /hu/net/presentation-conversion/convert-presentations-to-html-with-embedded-fonts/
+"description": "Konvertálj PowerPoint prezentációkat HTML-be beágyazott betűtípusokkal az Aspose.Slides for .NET segítségével. Őrizd meg az eredetiséget zökkenőmentesen."
+"linktitle": "Prezentációk konvertálása HTML-be beágyazott betűtípusokkal"
+"second_title": "Aspose.Slides .NET PowerPoint feldolgozási API"
+"title": "Prezentációk konvertálása HTML-be beágyazott betűtípusokkal"
+"url": "/hu/net/presentation-conversion/convert-presentations-to-html-with-embedded-fonts/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Konvertálja a prezentációkat HTML-be beágyazott betűtípusokkal
+# Prezentációk konvertálása HTML-be beágyazott betűtípusokkal
 
 
-A mai digitális korban a prezentációk és dokumentumok online megosztása általános gyakorlattá vált. Az egyik gyakran felmerülő kihívás azonban annak biztosítása, hogy a betűtípusok megfelelően jelenjenek meg a prezentációk HTML formátumba konvertálásakor. Ez a lépésenkénti oktatóanyag végigvezeti Önt az Aspose.Slides for .NET használatán a prezentációk HTML-formátumba konvertálásához beágyazott betűtípusokkal, így biztosítva, hogy a dokumentumok pontosan úgy nézzenek ki, ahogyan azt tervezte.
+mai digitális korban a prezentációk és dokumentumok online megosztása bevett gyakorlattá vált. Azonban egy gyakran felmerülő kihívás a betűtípusok helyes megjelenítésének biztosítása a prezentációk HTML-be konvertálásakor. Ez a lépésről lépésre haladó útmutató végigvezeti Önt az Aspose.Slides for .NET használatán, amellyel beágyazott betűtípusokkal konvertálhatja prezentációit HTML-be, biztosítva, hogy dokumentumai pontosan úgy nézzenek ki, ahogyan szerette volna.
 
-## Az Aspose.Slides .NET-hez bemutatása
+## Bevezetés az Aspose.Slides .NET-hez használatába
 
-Mielőtt belevágnánk az oktatóanyagba, mutassuk be röviden az Aspose.Slides for .NET-et. Ez egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy PowerPoint prezentációkkal dolgozzanak .NET-alkalmazásokban. Az Aspose.Slides segítségével PowerPoint fájlokat hozhat létre, módosíthat és konvertálhat programozottan.
+Mielőtt belemerülnénk az oktatóanyagba, röviden mutassuk be az Aspose.Slides for .NET-et. Ez egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy PowerPoint-bemutatókkal dolgozzanak .NET-alkalmazásokban. Az Aspose.Slides segítségével programozottan hozhat létre, módosíthat és konvertálhat PowerPoint-fájlokat.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételeket teljesítette:
+Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 
--  Aspose.Slides for .NET: Az Aspose.Slides könyvtárnak telepítve kell lennie a projektben. Letöltheti innen[itt](https://releases.aspose.com/slides/net/).
+- Aspose.Slides .NET-hez: A projektedben telepítve kell lennie az Aspose.Slides könyvtárnak. Letöltheted innen: [itt](https://releases.aspose.com/slides/net/).
 
-## 1. lépés: Állítsa be projektjét
+## 1. lépés: A projekt beállítása
 
 1. Hozzon létre egy új projektet, vagy nyisson meg egy meglévőt a kívánt .NET fejlesztői környezetben.
 
-2. Adjon hozzá hivatkozást az Aspose.Slides könyvtárra a projektben.
+2. Adj hozzá egy hivatkozást az Aspose.Slides könyvtárhoz a projektedben.
 
-3. Importálja a szükséges névtereket a kódba:
+3. Importálja a szükséges névtereket a kódjába:
 
    ```csharp
    using Aspose.Slides;
    ```
 
-## 2. lépés: Töltse be a bemutatót
+## 2. lépés: Töltse be a prezentációját
 
- A kezdéshez be kell töltenie a HTML-be konvertálni kívánt prezentációt. Cserélje ki`"Your Document Directory"` azzal a könyvtárral, ahol a bemutató fájl található.
+Először is be kell töltened a HTML-be konvertálni kívánt prezentációt. Csere `"Your Document Directory"` a prezentációs fájl tényleges könyvtárával.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -50,9 +52,9 @@ using (Presentation pres = new Presentation(dataDir + "presentation.pptx"))
 }
 ```
 
-## 3. lépés: Az alapértelmezett prezentációs betűtípusok kizárása
+## 3. lépés: Alapértelmezett prezentációs betűtípusok kizárása
 
-Ebben a lépésben megadhat minden olyan alapértelmezett megjelenítési betűtípust, amelyet ki szeretne zárni a beágyazásból. Ez segíthet optimalizálni az eredményül kapott HTML-fájl méretét.
+Ebben a lépésben megadhatja azokat az alapértelmezett prezentációs betűtípusokat, amelyeket ki szeretne zárni a beágyazásból. Ez segíthet optimalizálni a kapott HTML-fájl méretét.
 
 ```csharp
 string[] fontNameExcludeList = { };
@@ -60,38 +62,38 @@ string[] fontNameExcludeList = { };
 
 ## 4. lépés: Válasszon egy HTML-vezérlőt
 
-Most két lehetősége van a betűtípusok HTML-be ágyazására:
+Most két lehetőséged van betűtípusok HTML-be ágyazására:
 
-### 1. lehetőség: Minden betűtípus beágyazása
+### 1. lehetőség: Az összes betűtípus beágyazása
 
- A prezentációban használt összes betűtípus beágyazásához használja a`EmbedAllFontsHtmlController`.
+A prezentációban használt összes betűtípus beágyazásához használja a `EmbedAllFontsHtmlController`.
 
 ```csharp
 EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
 ```
 
-### 2. lehetőség: Összes betűtípus összekapcsolása
+### 2. lehetőség: Az összes betűtípus csatolása
 
- A prezentációban használt összes betűtípus hivatkozásához használja a`LinkAllFontsHtmlController`. Meg kell adnia azt a könyvtárat, ahol a betűkészletek találhatók a rendszeren.
+A prezentációban használt összes betűtípushoz való hivatkozáshoz használja a `LinkAllFontsHtmlController`Meg kell adnia azt a könyvtárat a rendszeren, ahol a betűtípusok találhatók.
 
 ```csharp
 LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, @"C:\Windows\Fonts\");
 ```
 
-## 5. lépés: Adja meg a HTML-beállításokat
+## 5. lépés: HTML-beállítások meghatározása
 
- Hozzon létre egy`HtmlOptions` objektumot, és állítsa be a HTML-formázót az előző lépésben kiválasztottra.
+Hozz létre egy `HtmlOptions` objektumot, és állítsd be a HTML formázót az előző lépésben kiválasztottra.
 
 ```csharp
 HtmlOptions htmlOptionsEmbed = new HtmlOptions
 {
-    HtmlFormatter = HtmlFormatter.CreateCustomFormatter(linkcont) // Az összes betűtípus beágyazásához használja az embedFontsController programot
+    HtmlFormatter = HtmlFormatter.CreateCustomFormatter(linkcont) // Az összes betűtípus beágyazásához használja az embedFontsController-t.
 };
 ```
 
 ## 6. lépés: Mentés HTML-ként
 
- Végül mentse a prezentációt HTML-fájlként. Bármelyik közül választhat`SaveFormat.Html` vagy`SaveFormat.Html5` az Ön igényeitől függően.
+Végül mentse el a prezentációt HTML fájlként. Választhat a következők közül: `SaveFvagymat.Html` or `SaveFormat.Html5` az igényeidtől függően.
 
 ```csharp
 pres.Save("pres.html", SaveFormat.Html, htmlOptionsEmbed);
@@ -99,37 +101,39 @@ pres.Save("pres.html", SaveFormat.Html, htmlOptionsEmbed);
 
 ## Következtetés
 
-Gratulálunk! Sikeresen átalakította prezentációját beágyazott betűtípusokkal rendelkező HTML formátumba az Aspose.Slides for .NET segítségével. Ez biztosítja, hogy a betűtípusok megfelelően jelenjenek meg prezentációi online megosztása során.
+Gratulálunk! Sikeresen konvertáltad a prezentációdat HTML-be beágyazott betűtípusokkal az Aspose.Slides for .NET segítségével. Ez biztosítja, hogy a betűtípusok helyesen jelenjenek meg a prezentációk online megosztásakor.
 
-Mostantól könnyedén megoszthatja gyönyörűen formázott prezentációit magabiztosan, tudva, hogy a közönsége pontosan úgy fogja látni őket, ahogyan azt szerette volna.
+Mostantól könnyedén megoszthatja gyönyörűen formázott prezentációit magabiztosan, tudván, hogy a közönsége pontosan úgy fogja látni őket, ahogyan Ön szerette volna.
 
- További információkért és részletes API-referenciákért tekintse meg a[Aspose.Slides a .NET dokumentációhoz](https://reference.aspose.com/slides/net/).
+További információkért és részletes API-referenciákért tekintse meg a [Aspose.Slides .NET dokumentációhoz](https://reference.aspose.com/slides/net/).
 
 ## GYIK
 
-### 1. Konvertálhatok PowerPoint prezentációkat HTML formátumba az Aspose.Slides for .NET használatával kötegelt módban?
+### 1. Konvertálhatok PowerPoint prezentációkat HTML-be az Aspose.Slides for .NET segítségével kötegelt módban?
 
-Igen, kötegelt konvertálhat több prezentációt HTML formátumba az Aspose.Slides for .NET segítségével úgy, hogy végignézi a prezentációs fájlokat, és mindegyikre alkalmazza az átalakítási folyamatot.
+Igen, az Aspose.Slides for .NET segítségével több prezentációt is konvertálhatsz HTML-be kötegelve úgy, hogy végigmész a prezentációs fájljaidon, és mindegyikre alkalmazod a konvertálási folyamatot.
 
 ### 2. Van mód a HTML kimenet megjelenésének testreszabására?
 
-Biztosan! Az Aspose.Slides for .NET különféle lehetőségeket kínál a HTML-kimenet megjelenésének és formázásának testreszabásához, például a színek, a betűtípusok és az elrendezés módosításához.
+Természetesen! Az Aspose.Slides for .NET számos lehetőséget kínál a HTML-kimenet megjelenésének és formázásának testreszabására, például a színek, betűtípusok és elrendezés módosítására.
 
 ### 3. Vannak-e korlátozások a betűtípusok HTML-be ágyazására az Aspose.Slides for .NET használatával?
 
-Míg az Aspose.Slides for .NET kiváló betűtípus-beágyazási lehetőségeket kínál, ne feledje, hogy a HTML-fájlok mérete megnőhet a betűtípusok beágyazásakor. Ügyeljen arra, hogy a webhasználathoz optimalizálja a betűtípus-választást.
+Bár az Aspose.Slides for .NET kiváló betűtípus-beágyazási lehetőségeket kínál, ne feledd, hogy a HTML-fájlok mérete megnőhet a betűtípusok beágyazásakor. Ügyelj arra, hogy optimalizáld a betűtípus-beállításaidat webes használatra.
 
-### 4. Átalakíthatom a PowerPoint prezentációkat más formátumokba az Aspose.Slides for .NET segítségével?
+### 4. Konvertálhatok PowerPoint prezentációkat más formátumokba az Aspose.Slides for .NET segítségével?
 
-Igen, az Aspose.Slides for .NET a kimeneti formátumok széles skáláját támogatja, beleértve a PDF-et, képeket és egyebeket. Könnyedén konvertálhatja prezentációit a választott formátumra.
+Igen, az Aspose.Slides for .NET számos kimeneti formátumot támogat, beleértve a PDF-et, a képeket és egyebeket. Könnyedén konvertálhatja prezentációit a kívánt formátumba.
 
-### 5. Hol találhatok további forrásokat és támogatást az Aspose.Slides for .NET-hez?
+### 5. Hol találok további forrásokat és támogatást az Aspose.Slides for .NET-hez?
 
- Rengeteg erőforráshoz, köztük dokumentációhoz férhet hozzá a webhelyen[Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/).
+Számos forráshoz, beleértve a dokumentációt is, hozzáférhet a következő címen: [Aspose.Slides .NET API-referencia](https://reference.aspose.com/slides/net/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

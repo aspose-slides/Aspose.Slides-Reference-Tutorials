@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में फ़नल चार्ट
-linktitle: जावा स्लाइड्स में फ़नल चार्ट
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: चरण-दर-चरण ट्यूटोरियल के साथ Java के लिए Aspose.Slides का अन्वेषण करें। शानदार फ़नल चार्ट और बहुत कुछ बनाएँ।
-weight: 14
-url: /hi/java/chart-elements/funnel-chart-java-slides/
+"description": "चरण-दर-चरण ट्यूटोरियल के साथ Java के लिए Aspose.Slides का अन्वेषण करें। शानदार फ़नल चार्ट और बहुत कुछ बनाएँ।"
+"linktitle": "जावा स्लाइड्स में फ़नल चार्ट"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में फ़नल चार्ट"
+"url": "/hi/java/chart-elements/funnel-chart-java-slides/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में फ़नल चार्ट
@@ -20,7 +22,7 @@ url: /hi/java/chart-elements/funnel-chart-java-slides/
 
 ## आवश्यक शर्तें
 
- शुरू करने से पहले, सुनिश्चित करें कि आपके जावा प्रोजेक्ट में Aspose.Slides लाइब्रेरी जोड़ी गई है। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+शुरू करने से पहले, सुनिश्चित करें कि आपके जावा प्रोजेक्ट में Aspose.Slides लाइब्रेरी जोड़ी गई है। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 
 ## चरण 1: प्रस्तुति आरंभ करें
 
@@ -31,7 +33,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 ```
 
- प्रतिस्थापित करना सुनिश्चित करें`"Your Document Directory"` आपके प्रोजेक्ट निर्देशिका के वास्तविक पथ के साथ.
+प्रतिस्थापित करना सुनिश्चित करें `"Your Document Directory"` आपके प्रोजेक्ट निर्देशिका के वास्तविक पथ के साथ.
 
 ## चरण 2: फ़नल चार्ट बनाएं
 
@@ -90,7 +92,7 @@ try {
 }
 ```
 
- प्रतिस्थापित करना सुनिश्चित करें`"Your Document Directory"` अपने इच्छित स्थान के साथ सहेजें.
+प्रतिस्थापित करना सुनिश्चित करें `"Your Document Directory"` अपने इच्छित स्थान के साथ सहेजें.
 
 ## जावा स्लाइड्स में फ़नल चार्ट के लिए पूर्ण स्रोत कोड
 
@@ -141,7 +143,7 @@ finally
 
 ### क्या चार्ट प्रकार को फ़नल के अलावा किसी अन्य प्रकार में बदलना संभव है?
 
- हां, Aspose.Slides विभिन्न चार्ट प्रकारों का समर्थन करता है। आप चार्ट प्रकार को बदलकर बदल सकते हैं`ChartType.Funnel` चरण 2 में वांछित चार्ट प्रकार के साथ।
+हां, Aspose.Slides विभिन्न चार्ट प्रकारों का समर्थन करता है। आप चार्ट प्रकार को बदलकर बदल सकते हैं `ChartType.Funnel` चरण 2 में वांछित चार्ट प्रकार के साथ।
 
 ### Aspose.Slides के साथ काम करते समय मैं त्रुटियों या अपवादों को कैसे संभालूँ?
 
@@ -149,10 +151,12 @@ finally
 
 ### मैं Aspose.Slides for Java के लिए और अधिक उदाहरण और दस्तावेज़ कहां पा सकता हूं?
 
- आप जावा के लिए Aspose.Slides का उपयोग करने पर अधिक उदाहरण और विस्तृत दस्तावेज़ पा सकते हैं[प्रलेखन](https://docs.aspose.com/slides/java/).
+आप जावा के लिए Aspose.Slides का उपयोग करने पर अधिक उदाहरण और विस्तृत दस्तावेज़ पा सकते हैं [प्रलेखन](https://docs.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

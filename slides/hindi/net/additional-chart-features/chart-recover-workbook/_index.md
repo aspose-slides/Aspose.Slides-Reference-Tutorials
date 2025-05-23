@@ -1,14 +1,16 @@
 ---
-title: चार्ट से कार्यपुस्तिका पुनर्प्राप्त करने के लिए Aspose.Slides .NET का उपयोग कैसे करें
-linktitle: चार्ट से कार्यपुस्तिका पुनर्प्राप्त करें
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: जानें कि Aspose.Slides for .NET का उपयोग करके PowerPoint प्रस्तुतियों में चार्ट से वर्कबुक कैसे पुनर्प्राप्त करें। डेटा को कुशलतापूर्वक निकालने के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 12
-url: /hi/net/additional-chart-features/chart-recover-workbook/
+"description": "जानें कि Aspose.Slides for .NET का उपयोग करके PowerPoint प्रस्तुतियों में चार्ट से वर्कबुक कैसे पुनर्प्राप्त करें। डेटा को कुशलतापूर्वक निकालने के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "चार्ट से कार्यपुस्तिका पुनर्प्राप्त करें"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "चार्ट से कार्यपुस्तिका पुनर्प्राप्त करने के लिए Aspose.Slides .NET का उपयोग कैसे करें"
+"url": "/hi/net/additional-chart-features/chart-recover-workbook/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # चार्ट से कार्यपुस्तिका पुनर्प्राप्त करने के लिए Aspose.Slides .NET का उपयोग कैसे करें
@@ -44,7 +46,7 @@ using Aspose.Slides.Export;
 
 अब, आइए पावरपॉइंट प्रेजेंटेशन के भीतर चार्ट से वर्कबुक को पुनर्प्राप्त करने की प्रक्रिया को कई चरणों में विभाजित करें।
 
-## चरण 1: दस्तावेज़ निर्देशिका परिभाषित करें
+## चरण 1: दस्तावेज़ निर्देशिका निर्धारित करें
 
 ```csharp
 // दस्तावेज़ निर्देशिका का पथ.
@@ -69,7 +71,7 @@ using (Presentation pres = new Presentation(pptxFile, lo))
 }
 ```
 
-इस चरण में, आप निर्दिष्ट फ़ाइल से पावरपॉइंट प्रेजेंटेशन लोड करते हैं और चार्ट कैश से कार्यपुस्तिका पुनर्प्राप्ति सक्षम करते हैं।`LoadOptions` इस उद्देश्य के लिए वस्तु का उपयोग किया जाता है।
+इस चरण में, आप निर्दिष्ट फ़ाइल से पावरपॉइंट प्रेजेंटेशन लोड करते हैं और चार्ट कैश से कार्यपुस्तिका पुनर्प्राप्ति सक्षम करते हैं। `LoadOptions` इस उद्देश्य के लिए वस्तु का उपयोग किया जाता है।
 
 ## चरण 3: चार्ट डेटा तक पहुंचें और उसके साथ काम करें
 
@@ -84,7 +86,7 @@ IChartDataWorkbook wb = chart.ChartData.ChartDataWorkbook;
 
 इस ट्यूटोरियल में, हमने दिखाया है कि PowerPoint प्रेजेंटेशन में चार्ट से वर्कबुक को रिकवर करने के लिए Aspose.Slides for .NET का उपयोग कैसे करें। इस गाइड में बताए गए चरणों का पालन करके, आप अपनी प्रस्तुतियों से डेटा को कुशलतापूर्वक निकाल सकते हैं और अपनी विशिष्ट आवश्यकताओं के लिए इसका उपयोग कर सकते हैं।
 
- यदि आपके कोई प्रश्न हैं या किसी भी समस्या का सामना करना पड़ता है, तो Aspose.Slides समुदाय से मदद लेने में संकोच न करें[Aspose.Slides फ़ोरम](https://forum.aspose.com/)वे .NET के लिए Aspose.Slides के साथ आपकी यात्रा में आपकी सहायता करने के लिए मौजूद हैं।
+यदि आपके कोई प्रश्न हैं या किसी भी समस्या का सामना करना पड़ता है, तो Aspose.Slides समुदाय से मदद लेने में संकोच न करें [Aspose.Slides फ़ोरम](https://forum.aspose.com/)वे .NET के लिए Aspose.Slides के साथ आपकी यात्रा में आपकी सहायता करने के लिए मौजूद हैं।
 
 ## अक्सर पूछे जाने वाले प्रश्नों
 
@@ -94,22 +96,24 @@ Aspose.Slides for .NET, Microsoft PowerPoint फ़ाइलों के सा
 
 ### 2. क्या मैं खरीदने से पहले Aspose.Slides for .NET आज़मा सकता हूँ?
 
- हां, आप इसकी सुविधाओं और क्षमताओं का मूल्यांकन करने के लिए Aspose.Slides for .NET का निःशुल्क परीक्षण प्राप्त कर सकते हैं।[निःशुल्क परीक्षण यहाँ प्राप्त करें](https://releases.aspose.com/).
+हां, आप इसकी सुविधाओं और क्षमताओं का मूल्यांकन करने के लिए Aspose.Slides for .NET का निःशुल्क परीक्षण प्राप्त कर सकते हैं। [निःशुल्क परीक्षण यहाँ प्राप्त करें](https://releases.aspose.com/).
 
 ### 3. मैं Aspose.Slides for .NET के लिए दस्तावेज़ कहां पा सकता हूं?
 
- आप .NET के लिए Aspose.Slides के दस्तावेज़ तक पहुँच सकते हैं[यहाँ](https://reference.aspose.com/slides/net/)इसमें विस्तृत जानकारी, उदाहरण और एपीआई संदर्भ शामिल हैं।
+आप .NET के लिए Aspose.Slides के दस्तावेज़ तक पहुँच सकते हैं [यहाँ](https://reference.aspose.com/slides/net/)इसमें विस्तृत जानकारी, उदाहरण और एपीआई संदर्भ शामिल हैं।
 
-### 4. मैं Aspose.Slides for .NET के लिए लाइसेंस कैसे खरीदूं?
+### 4. मैं Aspose.Slides for .NET का लाइसेंस कैसे खरीदूं?
 
- Aspose.Slides for .NET का लाइसेंस खरीदने के लिए, Aspose वेबसाइट पर जाएँ और निम्नलिखित लिंक का उपयोग करें:[.NET के लिए Aspose.Slides खरीदें](https://purchase.aspose.com/buy).
+.NET के लिए Aspose.Slides का लाइसेंस खरीदने के लिए, Aspose वेबसाइट पर जाएँ और निम्नलिखित लिंक का उपयोग करें: [.NET के लिए Aspose.Slides खरीदें](https://purchase.aspose.com/buy).
 
 ### 5. एसईओ अनुकूलन के लिए शीर्षक की अधिकतम लंबाई क्या है?
 
 एसईओ अनुकूलन के लिए, यह अनुशंसा की जाती है कि आप अपने शीर्षक को 60 अक्षरों से कम रखें ताकि यह सुनिश्चित हो सके कि यह खोज इंजन परिणामों में ठीक से प्रदर्शित हो।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,48 +1,50 @@
 ---
-title: Adjon hozzá egyéni dokumentumtulajdonságokat a Java Slides-hez
-linktitle: Adjon hozzá egyéni dokumentumtulajdonságokat a Java Slides-hez
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan javíthatja a PowerPoint prezentációkat egyéni dokumentumtulajdonságokkal a Java Slides alkalmazásban. Lépésről lépésre, kódpéldákkal az Aspose.Slides for Java használatával.
-weight: 13
-url: /hu/java/presentation-properties/add-custom-document-properties-in-java-slides/
+"description": "Ismerd meg, hogyan teheted teljessé a PowerPoint-bemutatóidat egyéni dokumentumtulajdonságokkal a Java Slides-ban. Lépésről lépésre útmutató kódpéldákkal az Aspose.Slides for Java használatával."
+"linktitle": "Egyéni dokumentumtulajdonságok hozzáadása Java diákban"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Egyéni dokumentumtulajdonságok hozzáadása Java diákban"
+"url": "/hu/java/presentation-properties/add-custom-document-properties-in-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Adjon hozzá egyéni dokumentumtulajdonságokat a Java Slides-hez
+# Egyéni dokumentumtulajdonságok hozzáadása Java diákban
 
 
-## Bevezetés az egyéni dokumentumtulajdonságok hozzáadásához a Java Slides-ben
+## Bevezetés az egyéni dokumentumtulajdonságok hozzáadásához Java Slides-ben
 
-Ebben az oktatóanyagban végigvezetjük az Aspose.Slides for Java segítségével egyéni dokumentumtulajdonságok PowerPoint-prezentációhoz adásának folyamatán. Az egyéni dokumentum tulajdonságai lehetővé teszik, hogy további információkat tároljon a prezentációról referencia vagy kategorizálás céljából.
+Ebben az oktatóanyagban végigvezetünk azon, hogyan adhatsz egyéni dokumentumtulajdonságokat egy PowerPoint-bemutatóhoz az Aspose.Slides for Java használatával. Az egyéni dokumentumtulajdonságok lehetővé teszik, hogy további információkat tárolj a bemutatóról referenciaként vagy kategorizálás céljából.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy az Aspose.Slides for Java könyvtár telepítve van és be van állítva a Java projektben.
+Mielőtt elkezdenéd, győződj meg róla, hogy az Aspose.Slides for Java könyvtár telepítve és beállítva van a Java projektedben.
 
-## 1. lépés: Importálja a szükséges csomagokat
+## 1. lépés: Szükséges csomagok importálása
 
 ```java
 import com.aspose.slides.*;
 ```
 
-## 2. lépés: Hozzon létre egy új prezentációt
+## 2. lépés: Új prezentáció létrehozása
 
-Először is létre kell hoznia egy új prezentációs objektumot. Ezt a következőképpen teheti meg:
+Először létre kell hoznod egy új prezentációs objektumot. Ezt a következőképpen teheted meg:
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
 String dataDir = "Your Document Directory";
 
-// Példányosítsa a Prezentáció osztályt
+// Hozz létre egy Presentation osztályt
 Presentation presentation = new Presentation();
 ```
 
-## 3. lépés: A dokumentum tulajdonságainak lekérése
+## 3. lépés: Dokumentumtulajdonságok lekérése
 
-Ezután lekérheti a prezentáció dokumentumtulajdonságait. Ezek a tulajdonságok olyan beépített tulajdonságokat tartalmaznak, mint a cím, szerző és egyéni tulajdonságok, amelyeket hozzáadhat.
+Ezután lekérheti a prezentáció dokumentumtulajdonságait. Ezek a tulajdonságok beépített tulajdonságokat tartalmaznak, például a címet, a szerzőt és az egyéni tulajdonságokat, amelyeket hozzáadhat.
 
 ```java
 // Dokumentumtulajdonságok lekérése
@@ -51,7 +53,7 @@ IDocumentProperties documentProperties = presentation.getDocumentProperties();
 
 ## 4. lépés: Egyéni tulajdonságok hozzáadása
 
-Most adjunk egyéni tulajdonságokat a prezentációhoz. Az egyéni tulajdonságok egy névből és egy értékből állnak. Használhatja őket bármilyen kívánt információ tárolására.
+Most adjunk hozzá egyéni tulajdonságokat a prezentációhoz. Az egyéni tulajdonságok egy névből és egy értékből állnak. Bármilyen információ tárolására használhatjuk őket.
 
 ```java
 documentProperties.set_Item("New Custom", 12);
@@ -59,39 +61,39 @@ documentProperties.set_Item("My Name", "Mudassir");
 documentProperties.set_Item("Custom", 124);
 ```
 
-## 5. lépés: Ingatlannév beszerzése egy adott indexen
+## 5. lépés: Tulajdonságnév lekérése egy adott indexben
 
-Egy egyedi tulajdonság nevét is lekérheti egy adott indexnél. Ez akkor lehet hasznos, ha meghatározott tulajdonságokkal kell dolgoznia.
+Egy adott indexben található egyéni tulajdonság nevét is lekérheti. Ez akkor lehet hasznos, ha adott tulajdonságokkal kell dolgoznia.
 
 ```java
-// Tulajdonnév lekérése egy adott indexnél
+// Tulajdonságnév lekérése egy adott indexben
 String getPropertyName = documentProperties.getCustomPropertyName(2);
 ```
 
-## 6. lépés: A kiválasztott tulajdonság eltávolítása
+## 6. lépés: Kijelölt tulajdonság eltávolítása
 
-Ha el szeretne távolítani egy egyéni tulajdonságot, ezt a nevének megadásával teheti meg. Itt eltávolítjuk az 5. lépésben megszerzett tulajdont.
+Ha el szeretne távolítani egy egyéni tulajdonságot, ezt megteheti a nevének megadásával. Itt az 5. lépésben megszerzett tulajdonságot távolítjuk el.
 
 ```java
-// A kiválasztott tulajdonság eltávolítása
+// Kijelölt tulajdonság eltávolítása
 documentProperties.removeCustomProperty(getPropertyName);
 ```
 
 ## 7. lépés: A prezentáció mentése
 
-Végül mentse a prezentációt a hozzáadott és eltávolított egyéni tulajdonságokkal egy fájlba.
+Végül mentse el a prezentációt a hozzáadott és eltávolított egyéni tulajdonságokkal egy fájlba.
 
 ```java
 // Prezentáció mentése
 presentation.save(dataDir + "CustomDocumentProperties_out.pptx", SaveFormat.Pptx);
 ```
 
-## Teljes forráskód az egyéni dokumentumtulajdonságok hozzáadásához a Java Slides-ben
+## Teljes forráskód az Egyéni dokumentumtulajdonságok hozzáadásához Java Slides-ben
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
 String dataDir = "Your Document Directory";
-// Példányosítsa a Prezentáció osztályt
+// Hozz létre egy Presentation osztályt
 Presentation presentation = new Presentation();
 // Dokumentumtulajdonságok lekérése
 IDocumentProperties documentProperties = presentation.getDocumentProperties();
@@ -99,9 +101,9 @@ IDocumentProperties documentProperties = presentation.getDocumentProperties();
 documentProperties.set_Item("New Custom", 12);
 documentProperties.set_Item("My Name", "Mudassir");
 documentProperties.set_Item("Custom", 124);
-// Tulajdonnév beszerzése egy adott indexnél
+// Tulajdonságnév lekérése adott indexben
 String getPropertyName = documentProperties.getCustomPropertyName(2);
-// A kiválasztott tulajdonság eltávolítása
+// Kijelölt tulajdonság eltávolítása
 documentProperties.removeCustomProperty(getPropertyName);
 // Prezentáció mentése
 presentation.save(dataDir + "CustomDocumentProperties_out.pptx", SaveFormat.Pptx);
@@ -109,13 +111,13 @@ presentation.save(dataDir + "CustomDocumentProperties_out.pptx", SaveFormat.Pptx
 
 ## Következtetés
 
-Megtanulta, hogyan adhat egyéni dokumentumtulajdonságokat egy PowerPoint prezentációhoz Java nyelven az Aspose.Slides segítségével. Az egyéni tulajdonságok értékesek lehetnek a prezentációkkal kapcsolatos további információk tárolására. Ezt a tudást kibővítheti további egyéni tulajdonságokkal, ha az adott használati esethez szükséges.
+Megtanultad, hogyan adhatsz hozzá egyéni dokumentumtulajdonságokat egy PowerPoint-bemutatóhoz Java nyelven az Aspose.Slides használatával. Az egyéni tulajdonságok értékesek lehetnek a bemutatóiddal kapcsolatos további információk tárolására. Ezt a tudást kiterjesztheted további egyéni tulajdonságokkal, szükség szerint az adott felhasználási esetedben.
 
 ## GYIK
 
-### Hogyan kérhetem le az egyéni tulajdonság értékét?
+### Hogyan kérhetem le egy egyéni tulajdonság értékét?
 
- Egy egyéni tulajdonság értékének lekéréséhez használhatja a`get_Item` módszer a`documentProperties` tárgy. Például:
+Egyéni tulajdonság értékének lekéréséhez használhatja a `get_Item` módszer a `documentProperties` tárgy. Például:
 
 ```java
 Object customPropertyValue = documentProperties.get_Item("New Custom");
@@ -123,15 +125,15 @@ Object customPropertyValue = documentProperties.get_Item("New Custom");
 
 ### Hozzáadhatok különböző adattípusok egyéni tulajdonságait?
 
-Igen, a példában látható módon hozzáadhat különféle adattípusok egyéni tulajdonságait, beleértve a számokat, karakterláncokat, dátumokat és egyebeket. Az Aspose.Slides for Java zökkenőmentesen kezeli a különböző adattípusokat.
+Igen, hozzáadhatsz egyéni tulajdonságokat különféle adattípusokhoz, beleértve a számokat, karakterláncokat, dátumokat és egyebeket, ahogy a példában is látható. Az Aspose.Slides Java-ban zökkenőmentesen kezeli a különböző adattípusokat.
 
-### Korlátozott a hozzáadható egyéni tulajdonságok száma?
+### Van-e korlátozás a hozzáadható egyéni tulajdonságok számára?
 
-hozzáadható egyéni tulajdonságok számának nincs szigorú korlátozása. Ne feledje azonban, hogy túl sok tulajdonság hozzáadása hatással lehet a bemutatófájl teljesítményére és méretére.
+Nincs szigorú korlátozás a hozzáadható egyéni tulajdonságok számára vonatkozóan. Ne feledje azonban, hogy a túlzott számú tulajdonság hozzáadása befolyásolhatja a prezentációs fájl teljesítményét és méretét.
 
-### Hogyan sorolhatom fel az összes egyéni tulajdonságot egy prezentációban?
+### Hogyan listázhatom ki egy prezentáció összes egyéni tulajdonságát?
 
-Az összes egyéni tulajdonságot végignézve felsorolhatja őket. Íme egy példa, hogyan kell ezt megtenni:
+Az összes egyéni tulajdonságon végighaladva listázhatja őket. Íme egy példa erre:
 
 ```java
 for (int i = 0; i < documentProperties.getCustomCount(); i++) {
@@ -142,10 +144,12 @@ for (int i = 0; i < documentProperties.getCustomCount(); i++) {
 }
 ```
 
-Ez a kód megjeleníti a prezentáció összes egyéni tulajdonságának nevét és értékét.
+Ez a kód megjeleníti a prezentációban található összes egyéni tulajdonság nevét és értékét.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

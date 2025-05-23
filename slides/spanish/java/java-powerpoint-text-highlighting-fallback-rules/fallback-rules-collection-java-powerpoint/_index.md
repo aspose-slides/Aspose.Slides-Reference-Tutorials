@@ -1,26 +1,28 @@
 ---
-title: Colección de reglas alternativas en Java PowerPoint
-linktitle: Colección de reglas alternativas en Java PowerPoint
-second_title: Aspose.Slides API de procesamiento de PowerPoint Java
-description: Aprenda a administrar reglas de reserva de fuentes en presentaciones de PowerPoint usando Aspose.Slides para Java. Mejore la compatibilidad entre dispositivos sin esfuerzo.
-weight: 11
-url: /es/java/java-powerpoint-text-highlighting-fallback-rules/fallback-rules-collection-java-powerpoint/
+"description": "Aprenda a administrar las reglas de reserva de fuentes en presentaciones de PowerPoint con Aspose.Slides para Java. Mejore la compatibilidad entre dispositivos fácilmente."
+"linktitle": "Colección de reglas de respaldo en PowerPoint de Java"
+"second_title": "API de procesamiento de PowerPoint en Java de Aspose.Slides"
+"title": "Colección de reglas de respaldo en PowerPoint de Java"
+"url": "/es/java/java-powerpoint-text-highlighting-fallback-rules/fallback-rules-collection-java-powerpoint/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Colección de reglas alternativas en Java PowerPoint
+# Colección de reglas de respaldo en PowerPoint de Java
 
 ## Introducción
-En este tutorial, profundizaremos en cómo administrar las reglas de reserva de fuentes usando Aspose.Slides para Java. Las fuentes alternativas son cruciales para garantizar que sus presentaciones se muestren correctamente en diferentes entornos, especialmente cuando fuentes específicas no están disponibles. Lo guiaremos paso a paso a través de la importación de los paquetes necesarios, la configuración del entorno y la implementación de reglas alternativas.
-## Requisitos previos
+En este tutorial, profundizaremos en cómo administrar las reglas de reserva de fuentes con Aspose.Slides para Java. Las reservas de fuentes son cruciales para garantizar que sus presentaciones se visualicen correctamente en diferentes entornos, especialmente cuando ciertas fuentes no están disponibles. Le guiaremos paso a paso en la importación de los paquetes necesarios, la configuración del entorno y la implementación de las reglas de reserva.
+## Prerrequisitos
 Antes de comenzar, asegúrese de tener lo siguiente:
 - Conocimientos básicos de programación Java.
 - JDK (Java Development Kit) instalado en su sistema.
--  Biblioteca Aspose.Slides para Java descargada y configurada. Puedes descargarlo desde[aquí](https://releases.aspose.com/slides/java/).
-- IDE (Entorno de desarrollo integrado) como IntelliJ IDEA o Eclipse instalado.
+- Biblioteca Aspose.Slides para Java descargada e instalada. Puede descargarla desde [aquí](https://releases.aspose.com/slides/java/).
+- IDE (entorno de desarrollo integrado) como IntelliJ IDEA o Eclipse instalado.
 ## Importar paquetes
 Comience importando los paquetes necesarios a su proyecto Java:
 ```java
@@ -29,8 +31,8 @@ import com.aspose.slides.FontFallBackRulesCollection;
 import com.aspose.slides.IFontFallBackRulesCollection;
 import com.aspose.slides.Presentation;
 ```
-## Configurar un objeto de presentación
-Primero, inicialice un objeto de presentación donde definirá sus reglas de reserva de fuentes.
+## Configuración de un objeto de presentación
+Primero, inicialice un objeto Presentación donde definirá sus reglas de reserva de fuentes.
 ```java
 Presentation presentation = new Presentation();
 ```
@@ -41,23 +43,23 @@ IFontFallBackRulesCollection userRulesList = new FontFallBackRulesCollection();
 ```
 ## Agregar reglas de reserva de fuentes
 Ahora, agregue reglas de reserva de fuentes específicas utilizando rangos Unicode y nombres de fuentes de reserva.
-### Paso 1: definir el rango y la fuente Unicode
+### Paso 1: Definir el rango y la fuente Unicode
 ```java
 userRulesList.add(new FontFallBackRule(0x0B80, 0x0BFF, "Vijaya"));
 ```
-Esta línea establece una regla alternativa para el rango Unicode 0x0B80 a 0x0BFF para usar la fuente "Vijaya" si la fuente principal no está disponible.
-### Paso 2: definir otro rango y fuente Unicode
+Esta línea establece una regla de respaldo para el rango Unicode 0x0B80 a 0x0BFF para usar la fuente "Vijaya" si la fuente principal no está disponible.
+### Paso 2: Defina otro rango Unicode y fuente
 ```java
 userRulesList.add(new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS Gothic"));
 ```
-Aquí, la regla especifica que el rango Unicode 0x3040 a 0x309F debe recurrir a las fuentes "MS Mincho" o "MS Gothic".
-## Aplicar reglas de reserva de fuentes a la presentación
+Aquí, la regla especifica que el rango Unicode 0x3040 a 0x309F debe recurrir a fuentes "MS Mincho" o "MS Gothic".
+## Aplicación de reglas de reserva de fuentes a la presentación
 Aplique la colección de reglas de reserva de fuentes creada al FontsManager de la presentación.
 ```java
 presentation.getFontsManager().setFontFallBackRulesCollection(userRulesList);
 ```
-## Desechar el objeto de presentación
-Finalmente, garantice una gestión adecuada de los recursos eliminando el objeto Presentación dentro de un bloque try-finally.
+## Desechar objeto de presentación
+Por último, asegúrese de administrar adecuadamente los recursos eliminando el objeto Presentación dentro de un bloque try-finally.
 ```java
 try {
     // Utilice el objeto de presentación según sea necesario
@@ -66,22 +68,24 @@ try {
 }
 ```
 ## Conclusión
-En este tutorial, exploramos cómo administrar las reglas de reserva de fuentes usando Aspose.Slides para Java. Comprender e implementar fuentes alternativas garantiza una representación de fuentes consistente y confiable en diferentes plataformas y entornos. Si sigue estos pasos, puede personalizar el comportamiento de reserva de fuentes para cumplir con requisitos de presentación específicos sin problemas.
+En este tutorial, hemos explorado cómo administrar las reglas de reserva de fuentes con Aspose.Slides para Java. Comprender e implementar las reglas de reserva de fuentes garantiza una representación consistente y fiable de las fuentes en diferentes plataformas y entornos. Siguiendo estos pasos, puede personalizar el comportamiento de la reserva de fuentes para satisfacer las necesidades específicas de su presentación sin problemas.
 
 ## Preguntas frecuentes
 ### ¿Qué son las reglas de reserva de fuentes?
-Las reglas de reserva de fuentes definen fuentes alternativas para usar cuando la fuente especificada no está disponible, lo que garantiza una visualización coherente del texto.
+Las reglas de reserva de fuentes definen fuentes alternativas para usar cuando la fuente especificada no está disponible, lo que garantiza una visualización consistente del texto.
 ### ¿Cómo descargo Aspose.Slides para Java?
- Puedes descargar la biblioteca desde[aquí](https://releases.aspose.com/slides/java/).
+Puedes descargar la biblioteca desde [aquí](https://releases.aspose.com/slides/java/).
 ### ¿Puedo probar Aspose.Slides para Java antes de comprarlo?
- Sí, puedes obtener una versión de prueba gratuita.[aquí](https://releases.aspose.com/).
-### ¿Dónde puedo encontrar documentación para Aspose.Slides para Java?
- La documentación detallada está disponible.[aquí](https://reference.aspose.com/slides/java/).
-### ¿Cómo obtengo soporte para Aspose.Slides para Java?
-Para obtener ayuda, visite el foro Aspose.Slides[aquí](https://forum.aspose.com/c/slides/11).
+Sí, puedes obtener una versión de prueba gratuita. [aquí](https://releases.aspose.com/).
+### ¿Dónde puedo encontrar documentación de Aspose.Slides para Java?
+La documentación detallada está disponible [aquí](https://reference.aspose.com/slides/java/).
+### ¿Cómo puedo obtener soporte para Aspose.Slides para Java?
+Para obtener ayuda, visite el foro de Aspose.Slides [aquí](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

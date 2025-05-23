@@ -1,66 +1,68 @@
 ---
-title: Установите знак процента для меток данных в слайдах Java
-linktitle: Установите знак процента для меток данных в слайдах Java
-second_title: Aspose.Slides API обработки Java PowerPoint
-description: Узнайте, как устанавливать метки данных со знаками процента в презентациях PowerPoint с помощью Aspose.Slides для Java. Создавайте интересные диаграммы с помощью пошаговых инструкций и исходного кода.
-weight: 17
-url: /ru/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
+"description": "Узнайте, как устанавливать метки данных с процентными знаками в презентациях PowerPoint с помощью Aspose.Slides для Java. Создавайте привлекательные диаграммы с пошаговыми инструкциями и исходным кодом."
+"linktitle": "Установить метки данных Процентный знак в слайдах Java"
+"second_title": "API обработки Java PowerPoint Aspose.Slides"
+"title": "Установить метки данных Процентный знак в слайдах Java"
+"url": "/ru/java/data-manipulation/set-data-labels-percentage-sign-java-slides/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Установите знак процента для меток данных в слайдах Java
+# Установить метки данных Процентный знак в слайдах Java
 
 
-## Введение в установку меток данных в процентах в Aspose.Slides для Java
+## Введение в установку меток данных процентного знака в Aspose.Slides для Java
 
-В этом руководстве мы покажем вам процесс установки меток данных со знаком процента с помощью Aspose.Slides для Java. Мы создадим презентацию PowerPoint с многоуровневой гистограммой и настроим метки данных для отображения процентов.
+В этом руководстве мы проведем вас через процесс настройки меток данных со знаком процента с помощью Aspose.Slides для Java. Мы создадим презентацию PowerPoint с диаграммой с накоплением столбцов и настроим метки данных для отображения процентов.
 
-## Предварительные условия
+## Предпосылки
 
- Прежде чем начать, убедитесь, что в ваш проект добавлена библиотека Aspose.Slides for Java. Вы можете скачать его с[здесь](https://releases.aspose.com/slides/java/).
+Прежде чем начать, убедитесь, что в ваш проект добавлена библиотека Aspose.Slides for Java. Вы можете загрузить ее с [здесь](https://releases.aspose.com/slides/java/).
 
-## Шаг 1. Создайте новую презентацию
+## Шаг 1: Создайте новую презентацию
 
 Сначала мы создаем новую презентацию PowerPoint с помощью Aspose.Slides.
 
 ```java
 // Путь к каталогу документов.
 String dataDir = "Your Document Directory";
-// Создайте экземпляр класса Presentation
+// Создать экземпляр класса Presentation
 Presentation presentation = new Presentation();
 ```
 
-## Шаг 2. Добавьте слайд и диаграмму
+## Шаг 2: Добавьте слайд и диаграмму
 
-Затем мы добавляем в презентацию слайд и гистограмму с накоплением.
+Далее мы добавляем в презентацию слайд и столбчатую диаграмму с накоплением.
 
 ```java
 // Получить ссылку на слайд
 ISlide slide = presentation.getSlides().get_Item(0);
 
-// Добавление диаграммы PercentsStackedColumn на слайд
+// Добавить диаграмму PercentsStackedColumn на слайд
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
 ```
 
-## Шаг 3. Настройка формата номера оси
+## Шаг 3: Настройте формат номера оси
 
-Чтобы отображать проценты, нам необходимо настроить числовой формат для вертикальной оси диаграммы.
+Для отображения процентов нам необходимо настроить числовой формат для вертикальной оси диаграммы.
 
 ```java
-// Установите для NumberFormatLinkedToSource значение false
+// Установите NumberFormatLinkedToSource на false
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 ```
 
-## Шаг 4. Добавьте данные диаграммы
+## Шаг 4: Добавьте данные диаграммы
 
-Мы добавляем данные на диаграмму, создавая ряды и точки данных. В этом примере мы добавляем две серии с соответствующими точками данных.
+Мы добавляем данные в диаграмму, создавая ряды и точки данных. В этом примере мы добавляем два ряда с соответствующими им точками данных.
 
 ```java
-// Получение листа данных диаграммы
+// Получение рабочего листа данных диаграммы
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // Добавить новую серию
@@ -78,12 +80,12 @@ series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorkshe
 series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 4, 2, 0.35));
 ```
 
-## Шаг 5. Настройте метки данных
+## Шаг 5: Настройте метки данных
 
 Теперь давайте настроим внешний вид меток данных.
 
 ```java
-// Установка свойств LabelFormat
+// Настройка свойств LabelFormat
 series.getLabels().getDefaultDataLabelFormat().setShowValue(true);
 series.getLabels().getDefaultDataLabelFormat().setNumberFormatLinkedToSource(false);
 series.getLabels().getDefaultDataLabelFormat().setNumberFormat("0.0%");
@@ -100,7 +102,7 @@ series2.getLabels().getDefaultDataLabelFormat().getTextFormat().getPortionFormat
 series2.getLabels().getDefaultDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
 ```
 
-## Шаг 6. Сохраните презентацию
+## Шаг 6: Сохраните презентацию
 
 Наконец, мы сохраняем презентацию в файл PowerPoint.
 
@@ -109,25 +111,25 @@ series2.getLabels().getDefaultDataLabelFormat().getTextFormat().getPortionFormat
 presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.Pptx);
 ```
 
-Вот и все! Вы успешно создали презентацию PowerPoint с многоуровневой гистограммой и настроили метки данных для отображения процентов с помощью Aspose.Slides для Java.
+Вот и все! Вы успешно создали презентацию PowerPoint с составной столбчатой диаграммой и настроили подписи данных для отображения процентов с помощью Aspose.Slides для Java.
 
-## Полный исходный код для набора меток данных. Знак процента в слайдах Java.
+## Полный исходный код для установки меток данных Процентный знак в слайдах Java
 
 ```java
 // Путь к каталогу документов.
 String dataDir = "Your Document Directory";
-// Создайте экземпляр класса Presentation
+// Создать экземпляр класса Presentation
 Presentation presentation = new Presentation();
 // Получить ссылку на слайд
 ISlide slide = presentation.getSlides().get_Item(0);
-// Добавление диаграммы PercentsStackedColumn на слайд
+// Добавить диаграмму PercentsStackedColumn на слайд
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
-// Установите для NumberFormatLinkedToSource значение false
+// Установите NumberFormatLinkedToSource на false
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
 int defaultWorksheetIndex = 0;
-// Получение листа данных диаграммы
+// Получение рабочего листа данных диаграммы
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 // Добавить новую серию
 IChartSeries series = chart.getChartData().getSeries().add(workbook.getCell(defaultWorksheetIndex, 0, 1, "Reds"), chart.getType());
@@ -138,7 +140,7 @@ series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorkshee
 // Установка цвета заливки серии
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
-// Установка свойств LabelFormat
+// Настройка свойств LabelFormat
 series.getLabels().getDefaultDataLabelFormat().setShowValue(true);
 series.getLabels().getDefaultDataLabelFormat().setNumberFormatLinkedToSource(false);
 series.getLabels().getDefaultDataLabelFormat().setNumberFormat("0.0%");
@@ -167,25 +169,27 @@ presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.P
 
 ## Заключение
 
-Следуя этому руководству, вы научились создавать привлекательные презентации с метками данных в процентах, что может быть особенно полезно для эффективной передачи информации в бизнес-отчетах, учебных материалах и т. д.
+Следуя этому руководству, вы узнали, как создавать увлекательные презентации с метками данных на основе процентов, которые могут быть особенно полезны для эффективной передачи информации в деловых отчетах, образовательных материалах и т. д.
 
 ## Часто задаваемые вопросы
 
 ### Как изменить цвета серии диаграмм?
 
- Вы можете изменить цвет заливки серии диаграмм, используя`setFill` метод, как показано в примере.
+Вы можете изменить цвет заливки ряда диаграмм с помощью `setFill` метод, как показано в примере.
 
 ### Могу ли я настроить размер шрифта меток данных?
 
-Да, вы можете настроить размер шрифта меток данных, установив`setFontHeight` свойство, как показано в коде.
+Да, вы можете настроить размер шрифта меток данных, установив `setFontHeight` свойство, как показано в коде.
 
-### Как добавить на диаграмму больше серий?
+### Как добавить больше серий в диаграмму?
 
- Вы можете добавить дополнительные серии на диаграмму, используя`add` метод на`IChartSeriesCollection` объект.
+Вы можете добавить дополнительные ряды в диаграмму, используя `add` метод на `IChartSeriesCollection` объект.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

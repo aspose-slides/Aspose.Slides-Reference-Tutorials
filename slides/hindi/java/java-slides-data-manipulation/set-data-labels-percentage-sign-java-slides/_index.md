@@ -1,14 +1,16 @@
 ---
-title: डेटा लेबल प्रतिशत साइन इन जावा स्लाइड्स सेट करें
-linktitle: डेटा लेबल प्रतिशत साइन इन जावा स्लाइड्स सेट करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में प्रतिशत चिह्नों के साथ डेटा लेबल सेट करना सीखें। चरण-दर-चरण मार्गदर्शन और स्रोत कोड के साथ आकर्षक चार्ट बनाएँ।
-weight: 17
-url: /hi/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
+"description": "Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में प्रतिशत चिह्नों के साथ डेटा लेबल सेट करना सीखें। चरण-दर-चरण मार्गदर्शन और स्रोत कोड के साथ आकर्षक चार्ट बनाएँ।"
+"linktitle": "डेटा लेबल प्रतिशत साइन इन जावा स्लाइड्स सेट करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "डेटा लेबल प्रतिशत साइन इन जावा स्लाइड्स सेट करें"
+"url": "/hi/java/data-manipulation/set-data-labels-percentage-sign-java-slides/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # डेटा लेबल प्रतिशत साइन इन जावा स्लाइड्स सेट करें
@@ -20,7 +22,7 @@ url: /hi/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
 
 ## आवश्यक शर्तें
 
- शुरू करने से पहले, सुनिश्चित करें कि आपके प्रोजेक्ट में Aspose.Slides for Java लाइब्रेरी जोड़ी गई है। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+शुरू करने से पहले, सुनिश्चित करें कि आपके प्रोजेक्ट में Aspose.Slides for Java लाइब्रेरी जोड़ी गई है। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 
 ## चरण 1: एक नई प्रस्तुति बनाएँ
 
@@ -100,7 +102,7 @@ series2.getLabels().getDefaultDataLabelFormat().getTextFormat().getPortionFormat
 series2.getLabels().getDefaultDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
 ```
 
-## चरण 6: प्रेजेंटेशन सहेजें
+## चरण 6: प्रस्तुति सहेजें
 
 अंत में, हम प्रस्तुति को पावरपॉइंट फ़ाइल में सेव कर लेते हैं।
 
@@ -173,19 +175,21 @@ presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.P
 
 ### मैं चार्ट श्रृंखला का रंग कैसे बदल सकता हूँ?
 
- आप इसका उपयोग करके चार्ट श्रृंखला का भरण रंग बदल सकते हैं`setFill` विधि जैसा कि उदाहरण में दिखाया गया है।
+आप इसका उपयोग करके चार्ट श्रृंखला का भरण रंग बदल सकते हैं `setFill` विधि जैसा कि उदाहरण में दिखाया गया है।
 
 ### क्या मैं डेटा लेबल के फ़ॉन्ट आकार को अनुकूलित कर सकता हूँ?
 
-हां, आप डेटा लेबल के फ़ॉन्ट आकार को सेट करके अनुकूलित कर सकते हैं`setFontHeight` संपत्ति जैसा कि कोड में दर्शाया गया है।
+हां, आप डेटा लेबल के फ़ॉन्ट आकार को सेट करके अनुकूलित कर सकते हैं `setFontHeight` संपत्ति जैसा कि कोड में दर्शाया गया है।
 
 ### मैं चार्ट में और अधिक श्रृंखला कैसे जोड़ सकता हूँ?
 
- आप इसका उपयोग करके चार्ट में अतिरिक्त श्रृंखला जोड़ सकते हैं`add` विधि पर`IChartSeriesCollection` वस्तु।
+आप इसका उपयोग करके चार्ट में अतिरिक्त श्रृंखला जोड़ सकते हैं `add` विधि पर `IChartSeriesCollection` वस्तु।
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

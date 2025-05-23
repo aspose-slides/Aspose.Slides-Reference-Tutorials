@@ -1,22 +1,24 @@
 ---
-title: Thêm thuộc tính tài liệu tùy chỉnh trong trang trình bày Java
-linktitle: Thêm thuộc tính tài liệu tùy chỉnh trong trang trình bày Java
-second_title: Aspose.Slides API xử lý PowerPoint Java
-description: Tìm hiểu cách nâng cao bản trình bày PowerPoint bằng các thuộc tính tài liệu tùy chỉnh trong Trang trình bày Java. Hướng dẫn từng bước với các ví dụ về mã sử dụng Aspose.Slides cho Java.
-weight: 13
-url: /vi/java/presentation-properties/add-custom-document-properties-in-java-slides/
+"description": "Tìm hiểu cách cải thiện bài thuyết trình PowerPoint bằng các thuộc tính tài liệu tùy chỉnh trong Java Slides. Hướng dẫn từng bước với các ví dụ mã sử dụng Aspose.Slides cho Java."
+"linktitle": "Thêm Thuộc tính Tài liệu Tùy chỉnh trong Java Slides"
+"second_title": "API xử lý PowerPoint Java của Aspose.Slides"
+"title": "Thêm Thuộc tính Tài liệu Tùy chỉnh trong Java Slides"
+"url": "/vi/java/presentation-properties/add-custom-document-properties-in-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Thêm thuộc tính tài liệu tùy chỉnh trong trang trình bày Java
+# Thêm Thuộc tính Tài liệu Tùy chỉnh trong Java Slides
 
 
-## Giới thiệu về Thêm thuộc tính tài liệu tùy chỉnh trong Java Slides
+## Giới thiệu về việc thêm thuộc tính tài liệu tùy chỉnh trong Java Slides
 
-Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thêm thuộc tính tài liệu tùy chỉnh vào bản trình bày PowerPoint bằng Aspose.Slides cho Java. Thuộc tính tài liệu tùy chỉnh cho phép bạn lưu trữ thông tin bổ sung về bản trình bày để tham khảo hoặc phân loại.
+Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thêm thuộc tính tài liệu tùy chỉnh vào bản trình bày PowerPoint bằng Aspose.Slides for Java. Thuộc tính tài liệu tùy chỉnh cho phép bạn lưu trữ thông tin bổ sung về bản trình bày để tham khảo hoặc phân loại.
 
 ## Điều kiện tiên quyết
 
@@ -28,30 +30,30 @@ Trước khi bắt đầu, hãy đảm bảo bạn đã cài đặt và thiết 
 import com.aspose.slides.*;
 ```
 
-## Bước 2: Tạo bản trình bày mới
+## Bước 2: Tạo một bài thuyết trình mới
 
-Đầu tiên, bạn cần tạo một đối tượng trình bày mới. Bạn có thể làm điều này như sau:
+Đầu tiên, bạn cần tạo một đối tượng trình bày mới. Bạn có thể thực hiện như sau:
 
 ```java
 // Đường dẫn đến thư mục tài liệu.
 String dataDir = "Your Document Directory";
 
-// Khởi tạo lớp Trình bày
+// Khởi tạo lớp Presentation
 Presentation presentation = new Presentation();
 ```
 
-## Bước 3: Lấy thuộc tính tài liệu
+## Bước 3: Nhận Thuộc tính Tài liệu
 
-Tiếp theo, bạn sẽ truy xuất các thuộc tính tài liệu của bản trình bày. Các thuộc tính này bao gồm các thuộc tính tích hợp sẵn như tiêu đề, tác giả và thuộc tính tùy chỉnh mà bạn có thể thêm.
+Tiếp theo, bạn sẽ lấy các thuộc tính tài liệu của bản trình bày. Các thuộc tính này bao gồm các thuộc tính tích hợp như tiêu đề, tác giả và các thuộc tính tùy chỉnh mà bạn có thể thêm.
 
 ```java
-// Lấy thuộc tính tài liệu
+// Nhận Thuộc tính Tài liệu
 IDocumentProperties documentProperties = presentation.getDocumentProperties();
 ```
 
-## Bước 4: Thêm thuộc tính tùy chỉnh
+## Bước 4: Thêm Thuộc tính Tùy chỉnh
 
-Bây giờ, hãy thêm các thuộc tính tùy chỉnh vào bản trình bày. Thuộc tính tùy chỉnh bao gồm tên và giá trị. Bạn có thể sử dụng chúng để lưu trữ bất kỳ thông tin nào bạn muốn.
+Bây giờ, hãy thêm thuộc tính tùy chỉnh vào bản trình bày. Thuộc tính tùy chỉnh bao gồm tên và giá trị. Bạn có thể sử dụng chúng để lưu trữ bất kỳ thông tin nào bạn muốn.
 
 ```java
 documentProperties.set_Item("New Custom", 12);
@@ -59,18 +61,18 @@ documentProperties.set_Item("My Name", "Mudassir");
 documentProperties.set_Item("Custom", 124);
 ```
 
-## Bước 5: Lấy tên thuộc tính tại một chỉ mục cụ thể
+## Bước 5: Nhận tên thuộc tính tại một chỉ mục cụ thể
 
-Bạn cũng có thể truy xuất tên của thuộc tính tùy chỉnh tại một chỉ mục cụ thể. Điều này có thể hữu ích nếu bạn cần làm việc với các thuộc tính cụ thể.
+Bạn cũng có thể lấy tên của một thuộc tính tùy chỉnh tại một chỉ mục cụ thể. Điều này có thể hữu ích nếu bạn cần làm việc với các thuộc tính cụ thể.
 
 ```java
-// Lấy tên thuộc tính tại một chỉ mục cụ thể
+// Nhận tên thuộc tính tại một chỉ mục cụ thể
 String getPropertyName = documentProperties.getCustomPropertyName(2);
 ```
 
-## Bước 6: Xóa thuộc tính đã chọn
+## Bước 6: Xóa Thuộc tính đã Chọn
 
-Nếu bạn muốn xóa thuộc tính tùy chỉnh, bạn có thể làm như vậy bằng cách chỉ định tên của thuộc tính đó. Ở đây, chúng tôi sẽ xóa thuộc tính mà chúng tôi có được ở Bước 5.
+Nếu bạn muốn xóa một thuộc tính tùy chỉnh, bạn có thể thực hiện bằng cách chỉ định tên của thuộc tính đó. Ở đây, chúng tôi đang xóa thuộc tính mà chúng tôi đã lấy được ở Bước 5.
 
 ```java
 // Xóa thuộc tính đã chọn
@@ -79,59 +81,59 @@ documentProperties.removeCustomProperty(getPropertyName);
 
 ## Bước 7: Lưu bài thuyết trình
 
-Cuối cùng, lưu bản trình bày với các thuộc tính tùy chỉnh đã thêm và xóa vào một tệp.
+Cuối cùng, lưu bản trình bày với các thuộc tính tùy chỉnh đã thêm và đã xóa vào một tệp.
 
 ```java
-// Đang lưu bản trình bày
+// Lưu bài thuyết trình
 presentation.save(dataDir + "CustomDocumentProperties_out.pptx", SaveFormat.Pptx);
 ```
 
-## Mã nguồn hoàn chỉnh để thêm thuộc tính tài liệu tùy chỉnh trong các trang trình bày Java
+## Mã nguồn đầy đủ để thêm thuộc tính tài liệu tùy chỉnh trong Java Slides
 
 ```java
 // Đường dẫn đến thư mục tài liệu.
 String dataDir = "Your Document Directory";
-// Khởi tạo lớp Trình bày
+// Khởi tạo lớp Presentation
 Presentation presentation = new Presentation();
-// Lấy thuộc tính tài liệu
+// Nhận Thuộc tính Tài liệu
 IDocumentProperties documentProperties = presentation.getDocumentProperties();
 // Thêm thuộc tính tùy chỉnh
 documentProperties.set_Item("New Custom", 12);
 documentProperties.set_Item("My Name", "Mudassir");
 documentProperties.set_Item("Custom", 124);
-// Lấy tên thuộc tính tại chỉ mục cụ thể
+// Nhận tên thuộc tính tại chỉ mục cụ thể
 String getPropertyName = documentProperties.getCustomPropertyName(2);
 // Xóa thuộc tính đã chọn
 documentProperties.removeCustomProperty(getPropertyName);
-// Đang lưu bản trình bày
+// Lưu bài thuyết trình
 presentation.save(dataDir + "CustomDocumentProperties_out.pptx", SaveFormat.Pptx);
 ```
 
 ## Phần kết luận
 
-Bạn đã học cách thêm thuộc tính tài liệu tùy chỉnh vào bản trình bày PowerPoint trong Java bằng Aspose.Slides. Thuộc tính tùy chỉnh có thể có giá trị để lưu trữ thông tin bổ sung liên quan đến bản trình bày của bạn. Bạn có thể mở rộng kiến thức này để bao gồm nhiều thuộc tính tùy chỉnh hơn nếu cần cho trường hợp sử dụng cụ thể của mình.
+Bạn đã học cách thêm thuộc tính tài liệu tùy chỉnh vào bản trình bày PowerPoint trong Java bằng Aspose.Slides. Thuộc tính tùy chỉnh có thể hữu ích để lưu trữ thông tin bổ sung liên quan đến bản trình bày của bạn. Bạn có thể mở rộng kiến thức này để bao gồm nhiều thuộc tính tùy chỉnh hơn khi cần cho trường hợp sử dụng cụ thể của mình.
 
 ## Câu hỏi thường gặp
 
-### Làm cách nào để truy xuất giá trị của thuộc tính tùy chỉnh?
+### Làm thế nào để lấy giá trị của thuộc tính tùy chỉnh?
 
- Để lấy giá trị của một thuộc tính tùy chỉnh, bạn có thể sử dụng`get_Item` phương pháp trên`documentProperties` sự vật. Ví dụ:
+Để lấy giá trị của một thuộc tính tùy chỉnh, bạn có thể sử dụng `get_Item` phương pháp trên `documentProperties` đối tượng. Ví dụ:
 
 ```java
 Object customPropertyValue = documentProperties.get_Item("New Custom");
 ```
 
-### Tôi có thể thêm thuộc tính tùy chỉnh của các loại dữ liệu khác nhau không?
+### Tôi có thể thêm các thuộc tính tùy chỉnh của các kiểu dữ liệu khác nhau không?
 
-Có, bạn có thể thêm thuộc tính tùy chỉnh của nhiều loại dữ liệu khác nhau, bao gồm số, chuỗi, ngày tháng, v.v., như trong ví dụ. Aspose.Slides cho Java xử lý các loại dữ liệu khác nhau một cách liền mạch.
+Có, bạn có thể thêm các thuộc tính tùy chỉnh của nhiều loại dữ liệu khác nhau, bao gồm số, chuỗi, ngày tháng, v.v., như được hiển thị trong ví dụ. Aspose.Slides for Java xử lý các loại dữ liệu khác nhau một cách liền mạch.
 
-### Có giới hạn về số lượng thuộc tính tùy chỉnh mà tôi có thể thêm không?
+### Có giới hạn số lượng thuộc tính tùy chỉnh mà tôi có thể thêm không?
 
-Không có giới hạn nghiêm ngặt về số lượng thuộc tính tùy chỉnh bạn có thể thêm. Tuy nhiên, hãy nhớ rằng việc thêm quá nhiều thuộc tính có thể ảnh hưởng đến hiệu suất và kích thước tệp bản trình bày của bạn.
+Không có giới hạn nghiêm ngặt về số lượng thuộc tính tùy chỉnh mà bạn có thể thêm. Tuy nhiên, hãy nhớ rằng việc thêm quá nhiều thuộc tính có thể ảnh hưởng đến hiệu suất và kích thước tệp trình bày của bạn.
 
-### Làm cách nào tôi có thể liệt kê tất cả các thuộc tính tùy chỉnh trong bản trình bày?
+### Làm thế nào tôi có thể liệt kê tất cả các thuộc tính tùy chỉnh trong một bài thuyết trình?
 
-Bạn có thể lặp qua tất cả các thuộc tính tùy chỉnh để liệt kê chúng. Đây là một ví dụ về cách thực hiện việc này:
+Bạn có thể lặp qua tất cả các thuộc tính tùy chỉnh để liệt kê chúng. Sau đây là ví dụ về cách thực hiện việc này:
 
 ```java
 for (int i = 0; i < documentProperties.getCustomCount(); i++) {
@@ -143,9 +145,11 @@ for (int i = 0; i < documentProperties.getCustomCount(); i++) {
 ```
 
 Mã này sẽ hiển thị tên và giá trị của tất cả các thuộc tính tùy chỉnh trong bản trình bày.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

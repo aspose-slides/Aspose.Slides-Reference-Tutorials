@@ -1,14 +1,16 @@
 ---
-title: Java के लिए Aspose.Slides का उपयोग करके टेक्स्ट फ़्रेम में कॉलम जोड़ें
-linktitle: Java के लिए Aspose.Slides का उपयोग करके टेक्स्ट फ़्रेम में कॉलम जोड़ें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: अपने पावरपॉइंट प्रेजेंटेशन को बेहतर बनाने के लिए Aspose.Slides for Java का उपयोग करके टेक्स्ट फ़्रेम में कॉलम जोड़ना सीखें। हमारी चरण-दर-चरण मार्गदर्शिका प्रक्रिया को सरल बनाती है।
-weight: 11
-url: /hi/java/java-powerpoint-text-box-manipulation/add-columns-in-text-frame/
+"description": "अपने पावरपॉइंट प्रेजेंटेशन को बेहतर बनाने के लिए Aspose.Slides for Java का उपयोग करके टेक्स्ट फ़्रेम में कॉलम जोड़ना सीखें। हमारी चरण-दर-चरण मार्गदर्शिका प्रक्रिया को सरल बनाती है।"
+"linktitle": "Java के लिए Aspose.Slides का उपयोग करके टेक्स्ट फ़्रेम में कॉलम जोड़ें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "Java के लिए Aspose.Slides का उपयोग करके टेक्स्ट फ़्रेम में कॉलम जोड़ें"
+"url": "/hi/java/java-powerpoint-text-box-manipulation/add-columns-in-text-frame/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java के लिए Aspose.Slides का उपयोग करके टेक्स्ट फ़्रेम में कॉलम जोड़ें
@@ -18,7 +20,7 @@ url: /hi/java/java-powerpoint-text-box-manipulation/add-columns-in-text-frame/
 ## आवश्यक शर्तें
 इस ट्यूटोरियल में आगे बढ़ने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 - आपकी मशीन पर जावा डेवलपमेंट किट (JDK) स्थापित है।
--  Aspose.Slides for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+- Aspose.Slides for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 - जावा प्रोग्रामिंग की बुनियादी समझ.
 - एकीकृत विकास वातावरण (आईडीई) जैसे कि एक्लिप्स या इंटेलीज आईडिया।
 - मावेन या ग्रेडल जैसे उपकरणों का उपयोग करके परियोजना निर्भरताओं को प्रबंधित करने की जानकारी।
@@ -44,7 +46,7 @@ IAutoShape shape1 = pres.getSlides().get_Item(0).getShapes().addAutoShape(ShapeT
 // ऑटोशेप के टेक्स्ट फ़्रेम तक पहुँचें
 TextFrameFormat format = (TextFrameFormat) shape1.getTextFrame().getTextFrameFormat();
 ```
-## चरण 3: कॉलम संख्या और टेक्स्ट सेट करें
+## चरण 3: कॉलम गणना और टेक्स्ट सेट करें
 पाठ फ़्रेम के भीतर स्तंभों की संख्या और पाठ सामग्री सेट करें:
 ```java
 // स्तंभों की संख्या निर्धारित करें
@@ -78,18 +80,20 @@ pres.save(outPptxFileName, SaveFormat.Pptx);
 इस ट्यूटोरियल में, हमने दिखाया है कि PowerPoint प्रस्तुतियों में टेक्स्ट फ़्रेम के भीतर कॉलम जोड़ने के लिए Aspose.Slides for Java का उपयोग कैसे करें। यह क्षमता टेक्स्ट सामग्री की दृश्य प्रस्तुति को बढ़ाती है, स्लाइड में पठनीयता और संरचना में सुधार करती है।
 ## अक्सर पूछे जाने वाले प्रश्न
 ### क्या मैं किसी टेक्स्ट फ़्रेम में तीन से अधिक कॉलम जोड़ सकता हूँ?
- हां, आप इसे समायोजित कर सकते हैं`setColumnCount` आवश्यकतानुसार अधिक कॉलम जोड़ने की विधि।
+हां, आप इसे समायोजित कर सकते हैं `setColumnCount` आवश्यकतानुसार अधिक कॉलम जोड़ने की विधि।
 ### क्या Aspose.Slides व्यक्तिगत रूप से कॉलम की चौड़ाई समायोजित करने का समर्थन करता है?
 नहीं, Aspose.Slides स्वचालित रूप से टेक्स्ट फ्रेम के भीतर कॉलम के लिए समान चौड़ाई निर्धारित करता है।
 ### क्या Java के लिए Aspose.Slides का कोई परीक्षण संस्करण उपलब्ध है?
- हां, आप एक निःशुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप एक निःशुल्क परीक्षण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
 ### मैं Aspose.Slides for Java के बारे में अधिक दस्तावेज़ कहां पा सकता हूं?
- विस्तृत दस्तावेज उपलब्ध है[यहाँ](https://reference.aspose.com/slides/java/).
+विस्तृत दस्तावेज उपलब्ध है [यहाँ](https://reference.aspose.com/slides/java/).
 ### मैं Aspose.Slides for Java के लिए तकनीकी सहायता कैसे प्राप्त कर सकता हूं?
- आप समुदाय से सहायता ले सकते हैं[यहाँ](https://forum.aspose.com/c/slides/11).
+आप समुदाय से सहायता ले सकते हैं [यहाँ](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,22 +1,24 @@
 ---
-title: Java スライドのツリー マップ チャート
-linktitle: Java スライドのツリー マップ チャート
-second_title: Aspose.Slides Java PowerPoint 処理 API
-description: Aspose.Slides for Java を使用して、Java スライドでツリー マップ チャートを作成します。階層データを視覚化するためのソース コード付きのステップ バイ ステップ ガイド。
-weight: 13
-url: /ja/java/chart-creation/tree-map-chart-java-slides/
+"description": "Aspose.Slides for Javaを使用して、Javaスライドでツリーマップチャートを作成します。階層データを視覚化するためのソースコード付きのステップバイステップガイドです。"
+"linktitle": "Javaスライドのツリーマップチャート"
+"second_title": "Aspose.Slides Java PowerPoint 処理 API"
+"title": "Javaスライドのツリーマップチャート"
+"url": "/ja/java/chart-creation/tree-map-chart-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java スライドのツリー マップ チャート
+# Javaスライドのツリーマップチャート
 
 
 ## Javaスライドでのツリーマップチャートの紹介
 
-このチュートリアルでは、Aspose.Slides for Java ライブラリを使用して、PowerPoint プレゼンテーションでツリー マップ チャートを作成する方法を説明します。ツリー マップ チャートは、階層データを視覚化する効果的な方法です。
+このチュートリアルでは、Aspose.Slides for Javaライブラリを使用して、PowerPointプレゼンテーションでツリーマップチャートを作成する方法を説明します。ツリーマップチャートは、階層化されたデータを視覚化する効果的な方法です。
 
 ## 前提条件
 
@@ -45,7 +47,7 @@ try {
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
     wb.clear(0);
 
-    //ブランチ1を作成
+    // ブランチ1を作成
     IChartCategory leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C1", "Leaf1"));
     leaf.getGroupingLevels().setGroupingItem(1, "Stem1");
     leaf.getGroupingLevels().setGroupingItem(2, "Branch1");
@@ -57,7 +59,7 @@ try {
 
     chart.getChartData().getCategories().add(wb.getCell(0, "C4", "Leaf4"));
 
-    //ブランチ2を作成
+    // ブランチ2を作成
     leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C5", "Leaf5"));
     leaf.getGroupingLevels().setGroupingItem(1, "Stem3");
     leaf.getGroupingLevels().setGroupingItem(2, "Branch2");
@@ -69,7 +71,7 @@ try {
 
     chart.getChartData().getCategories().add(wb.getCell(0, "C8", "Leaf8"));
 
-    //データポイントを追加する
+    // データポイントを追加する
     IChartSeries series = chart.getChartData().getSeries().add(ChartType.Treemap);
     series.getLabels().getDefaultDataLabelFormat().setShowCategoryName(true);
 
@@ -84,14 +86,14 @@ try {
 
     series.setParentLabelLayout(ParentLabelLayoutType.Overlapping);
 
-    //ツリーマップチャートを含むプレゼンテーションを保存する
+    // ツリーマップチャートを含むプレゼンテーションを保存する
     pres.save("Treemap.pptx", SaveFormat.Pptx);
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
 
-## Java スライドのツリー マップ チャートの完全なソース コード
+## Javaスライドのツリーマップチャートの完全なソースコード
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
@@ -102,7 +104,7 @@ try
 	chart.getChartData().getSeries().clear();
 	IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
 	wb.clear(0);
-	//ブランチ 1
+	//ブランチ1
 	IChartCategory leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C1", "Leaf1"));
 	leaf.getGroupingLevels().setGroupingItem(1, "Stem1");
 	leaf.getGroupingLevels().setGroupingItem(2, "Branch1");
@@ -139,17 +141,17 @@ finally
 
 ## 結論
 
-このチュートリアルでは、Aspose.Slides for Java ライブラリを使用して、PowerPoint プレゼンテーションでツリー マップ チャートを作成する方法を学習しました。ツリー マップ チャートは、階層データを視覚化するための貴重なツールであり、プレゼンテーションをより情報豊富で魅力的なものにします。
+このチュートリアルでは、Aspose.Slides for Javaライブラリを使用して、PowerPointプレゼンテーションでツリーマップチャートを作成する方法を学習しました。ツリーマップチャートは、階層的なデータを視覚化するための便利なツールであり、プレゼンテーションをより情報豊かで魅力的なものにします。
 
 ## よくある質問
 
 ### ツリー マップ チャートにデータを追加するにはどうすればよいですか?
 
-ツリーマップチャートにデータを追加するには、`series.getDataPoints().addDataPointForTreemapSeries()`メソッドは、データ値をパラメータとして渡します。
+ツリーマップチャートにデータを追加するには、 `series.getDataPoints().addDataPointForTreemapSeries()` メソッドは、データ値をパラメータとして渡します。
 
 ### ツリー マップ チャートの外観をカスタマイズするにはどうすればよいですか?
 
-ツリーマップチャートの外観は、さまざまなプロパティを変更することでカスタマイズできます。`chart`そして`series`色、ラベル、レイアウトなどのオブジェクト。
+ツリーマップチャートの外観は、以下のさまざまなプロパティを変更することでカスタマイズできます。 `chart` そして `series` 色、ラベル、レイアウトなどのオブジェクト。
 
 ### 1 つのプレゼンテーションで複数のツリー マップ チャートを作成できますか?
 
@@ -157,10 +159,12 @@ finally
 
 ### ツリー マップ チャートを含むプレゼンテーションを保存するにはどうすればよいですか?
 
-使用`pres.save()`ツリー マップ チャートを含むプレゼンテーションを目的の形式 (例: PPTX) で保存する方法。
+使用 `pres.save()` ツリー マップ チャートを含むプレゼンテーションを目的の形式 (例: PPTX) で保存する方法。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

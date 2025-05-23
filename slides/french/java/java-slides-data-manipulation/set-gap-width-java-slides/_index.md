@@ -1,14 +1,16 @@
 ---
-title: Définir la largeur de l'espace dans les diapositives Java
-linktitle: Définir la largeur de l'espace dans les diapositives Java
-second_title: API de traitement Java PowerPoint d'Aspose.Slides
-description: Découvrez comment définir la largeur de l'espace dans les diapositives Java avec Aspose.Slides pour Java. Améliorez les visuels des graphiques pour vos présentations PowerPoint.
-weight: 21
-url: /fr/java/data-manipulation/set-gap-width-java-slides/
+"description": "Apprenez à définir la largeur des espaces dans les diapositives Java avec Aspose.Slides pour Java. Améliorez l'aspect visuel des graphiques de vos présentations PowerPoint."
+"linktitle": "Définir la largeur de l'espace dans les diapositives Java"
+"second_title": "API de traitement Java PowerPoint Aspose.Slides"
+"title": "Définir la largeur de l'espace dans les diapositives Java"
+"url": "/fr/java/data-manipulation/set-gap-width-java-slides/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Définir la largeur de l'espace dans les diapositives Java
@@ -16,11 +18,11 @@ url: /fr/java/data-manipulation/set-gap-width-java-slides/
 
 ## Introduction à la définition de la largeur de l'espace dans Aspose.Slides pour Java
 
-Dans ce didacticiel, nous vous guiderons tout au long du processus de définition de la largeur de l'espace pour un graphique dans une présentation PowerPoint à l'aide d'Aspose.Slides pour Java. La largeur de l'espace détermine l'espacement entre les colonnes ou les barres d'un graphique, vous permettant de contrôler l'apparence visuelle du graphique.
+Dans ce tutoriel, nous vous guiderons dans la définition de la largeur d'espacement d'un graphique dans une présentation PowerPoint à l'aide d'Aspose.Slides pour Java. La largeur d'espacement détermine l'espacement entre les colonnes ou les barres d'un graphique, vous permettant ainsi de contrôler son apparence visuelle.
 
-## Conditions préalables
+## Prérequis
 
- Avant de commencer, assurez-vous que la bibliothèque Aspose.Slides pour Java est installée. Vous pouvez le télécharger sur le site Aspose[ici](https://releases.aspose.com/slides/java/).
+Avant de commencer, assurez-vous d'avoir installé la bibliothèque Aspose.Slides pour Java. Vous pouvez la télécharger sur le site web d'Aspose. [ici](https://releases.aspose.com/slides/java/).
 
 ## Guide étape par étape
 
@@ -29,17 +31,17 @@ Suivez ces étapes pour définir la largeur de l'espace dans un graphique à l'a
 ### 1. Créez une présentation vide
 
 ```java
-// Le chemin d'accès au répertoire des documents.
+// Le chemin vers le répertoire des documents.
 String dataDir = "Your Document Directory";
 
-// Créer une présentation vide
+// Créer une présentation vide 
 Presentation presentation = new Presentation();
 ```
 
-### 2. Accédez à la première diapositive
+### 2. Accéder à la première diapositive
 
 ```java
-// Accédez à la première diapositive
+// Accéder à la première diapositive
 ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
@@ -64,7 +66,7 @@ int defaultWorksheetIndex = 0;
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
 
-### 6. Ajouter une série au graphique
+### 6. Ajouter des séries au graphique
 
 ```java
 // Ajouter une série au graphique
@@ -96,7 +98,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
 ```
 
-### 9. Définir la largeur de l'espace
+### 9. Définissez la largeur de l'espace
 
 ```java
 // Définir la valeur de la largeur de l'espace
@@ -106,20 +108,20 @@ series.getParentSeriesGroup().setGapWidth(50);
 ### 10. Enregistrez la présentation
 
 ```java
-// Enregistrez la présentation avec le graphique
+// Enregistrer la présentation avec le graphique
 presentation.save(dataDir + "GapWidth_out.pptx", SaveFormat.Pptx);
 ```
 
 ## Code source complet pour définir la largeur de l'espace dans les diapositives Java
 
 ```java
-// Le chemin d'accès au répertoire des documents.
+// Le chemin vers le répertoire des documents.
 String dataDir = "Your Document Directory";
-// Création d'une présentation vide
+// Créer une présentation vide 
 Presentation presentation = new Presentation();
 // Accéder à la première diapositive
 ISlide slide = presentation.getSlides().get_Item(0);
-// Ajouter un graphique avec les données par défaut
+// Ajouter un graphique avec des données par défaut
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn, 0, 0, 500, 500);
 // Définition de l'index de la feuille de données du graphique
 int defaultWorksheetIndex = 0;
@@ -134,7 +136,7 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 // Prendre la deuxième série de graphiques
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-// Remplir maintenant les données de série
+// Les données de la série sont maintenant en cours de remplissage
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -149,24 +151,26 @@ presentation.save(dataDir + "GapWidth_out.pptx", SaveFormat.Pptx);
 
 ## Conclusion
 
-Dans ce didacticiel, vous avez appris à définir la largeur de l'espace pour un graphique dans une présentation PowerPoint à l'aide d'Aspose.Slides pour Java. Le réglage de la largeur de l'espace vous permet de contrôler l'espacement entre les colonnes ou les barres de votre graphique, améliorant ainsi la représentation visuelle de vos données.
+Dans ce tutoriel, vous avez appris à définir la largeur de l'espacement d'un graphique dans une présentation PowerPoint à l'aide d'Aspose.Slides pour Java. Ajuster la largeur de l'espacement vous permet de contrôler l'espacement entre les colonnes ou les barres de votre graphique, améliorant ainsi la représentation visuelle de vos données.
 
 ## FAQ
 
-### Comment puis-je modifier la valeur de la largeur de l'espace ?
+### Comment modifier la valeur de la largeur de l'espace ?
 
- Pour modifier la largeur de l'espace, utilisez le`setGapWidth` méthode sur le`ParentSeriesGroup`de la série de graphiques. Dans l'exemple fourni, nous définissons la largeur de l'espace sur 50, mais vous pouvez ajuster cette valeur à l'espacement souhaité.
+Pour modifier la largeur de l'espace, utilisez le `setGapWidth` méthode sur le `ParentSeriesGroup` de la série de graphiques. Dans l'exemple fourni, nous avons défini la largeur d'espacement à 50, mais vous pouvez ajuster cette valeur à l'espacement souhaité.
 
-### Puis-je personnaliser d’autres propriétés du graphique ?
+### Puis-je personnaliser d’autres propriétés du graphique ?
 
-Oui, Aspose.Slides pour Java offre des fonctionnalités étendues de personnalisation des graphiques. Vous pouvez modifier diverses propriétés du graphique, telles que les couleurs, les étiquettes, les titres, etc. Consultez la référence API pour obtenir des informations détaillées sur les options de personnalisation des graphiques.
+Oui, Aspose.Slides pour Java offre de nombreuses fonctionnalités de personnalisation des graphiques. Vous pouvez modifier diverses propriétés des graphiques, telles que les couleurs, les libellés, les titres, etc. Consultez la référence API pour plus d'informations sur les options de personnalisation des graphiques.
 
-### Où puis-je trouver plus de ressources et de documentation ?
+### Où puis-je trouver plus de ressources et de documentation ?
 
- Vous pouvez trouver une documentation complète et des ressources supplémentaires sur Aspose.Slides pour Java sur le[Site Aspose](https://reference.aspose.com/slides/java/).
+Vous pouvez trouver une documentation complète et des ressources supplémentaires sur Aspose.Slides pour Java sur le [Site Web d'Aspose](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

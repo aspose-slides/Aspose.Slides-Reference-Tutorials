@@ -1,14 +1,16 @@
 ---
-title: एम्बेडेड छवियों के साथ HTML प्रस्तुति को परिवर्तित करें
-linktitle: एम्बेडेड छवियों के साथ HTML प्रस्तुति को परिवर्तित करें
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: जानें कि Aspose.Slides for .NET का उपयोग करके एम्बेडेड छवियों के साथ PowerPoint प्रस्तुतियों को HTML में कैसे परिवर्तित किया जाए। सहज रूपांतरण के लिए चरण-दर-चरण मार्गदर्शिका।
-weight: 11
-url: /hi/net/presentation-conversion/convert-html-presentation-with-embedded-images/
+"description": "जानें कि Aspose.Slides for .NET का उपयोग करके एम्बेडेड छवियों के साथ PowerPoint प्रस्तुतियों को HTML में कैसे परिवर्तित किया जाए। सहज रूपांतरण के लिए चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "एम्बेडेड छवियों के साथ HTML प्रस्तुति को परिवर्तित करें"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "एम्बेडेड छवियों के साथ HTML प्रस्तुति को परिवर्तित करें"
+"url": "/hi/net/presentation-conversion/convert-html-presentation-with-embedded-images/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # एम्बेडेड छवियों के साथ HTML प्रस्तुति को परिवर्तित करें
@@ -22,7 +24,7 @@ url: /hi/net/presentation-conversion/convert-html-presentation-with-embedded-ima
 
 ### 1. .NET के लिए Aspose.Slides
 
- आपके पास Aspose.Slides for .NET इंस्टॉल होना चाहिए। आप लाइब्रेरी को यहाँ से डाउनलोड कर सकते हैं[लिंक को डाउनलोड करें](https://releases.aspose.com/slides/net/).
+आपके पास Aspose.Slides for .NET इंस्टॉल होना चाहिए। आप लाइब्रेरी को यहाँ से डाउनलोड कर सकते हैं [लिंक को डाउनलोड करें](https://releases.aspose.com/slides/net/).
 
 ### 2. एक पावरपॉइंट प्रेजेंटेशन
 
@@ -103,27 +105,29 @@ pres.Save(Path.Combine(outFilePath, "pres.html"), SaveFormat.Html5, options);
 
 ## निष्कर्ष
 
-इस ट्यूटोरियल में, हमने Aspose.Slides for .NET का उपयोग करके एम्बेडेड इमेज वाली PowerPoint प्रस्तुति को HTML में बदलने का तरीका खोजा है। सही लाइब्रेरी और यहाँ दिए गए चरण-दर-चरण गाइड के साथ, आप इस कार्य को आसानी से पूरा कर सकते हैं। चाहे आप डेवलपर हों या कंटेंट क्रिएटर, यह ज्ञान डिजिटल युग में मूल्यवान साबित हो सकता है।
+इस ट्यूटोरियल में, हमने Aspose.Slides for .NET का उपयोग करके एम्बेडेड इमेज वाली PowerPoint प्रस्तुति को HTML में बदलने का तरीका खोजा है। सही लाइब्रेरी और यहाँ दिए गए चरण-दर-चरण गाइड के साथ, आप आसानी से यह कार्य पूरा कर सकते हैं। चाहे आप डेवलपर हों या कंटेंट क्रिएटर, यह ज्ञान डिजिटल युग में मूल्यवान साबित हो सकता है।
 
 ## अक्सर पूछे जाने वाले प्रश्नों
 
 ### क्या Aspose.Slides for .NET एक निःशुल्क लाइब्रेरी है?
- Aspose.Slides for .NET एक व्यावसायिक लाइब्रेरी है, लेकिन आप एक प्राप्त कर सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/) अपनी क्षमताओं का मूल्यांकन करने के लिए।
+Aspose.Slides for .NET एक व्यावसायिक लाइब्रेरी है, लेकिन आप एक प्राप्त कर सकते हैं [मुफ्त परीक्षण](https://releases.aspose.com/) अपनी क्षमताओं का मूल्यांकन करने के लिए।
 
 ### क्या मैं HTML आउटपुट को और अधिक अनुकूलित कर सकता हूँ?
 हां, आप .NET के लिए Aspose.Slides द्वारा प्रदान किए गए विकल्पों को समायोजित करके HTML रूपांतरण को अनुकूलित कर सकते हैं।
 
 ### क्या मुझे इस लाइब्रेरी का उपयोग करने के लिए प्रोग्रामिंग अनुभव की आवश्यकता है?
-जबकि प्रोग्रामिंग ज्ञान फायदेमंद है, Aspose.Slides for .NET उनके लिए व्यापक प्रलेखन और समर्थन प्रदान करता है[मंच](https://forum.aspose.com/) सभी स्तरों पर उपयोगकर्ताओं की सहायता करना।
+जबकि प्रोग्रामिंग ज्ञान फायदेमंद है, Aspose.Slides for .NET उनके लिए व्यापक प्रलेखन और समर्थन प्रदान करता है [मंच](https://forum.aspose.com/) सभी स्तरों पर उपयोगकर्ताओं की सहायता करना।
 
 ### क्या मैं जटिल एनिमेशन वाली प्रस्तुतियों को HTML में परिवर्तित कर सकता हूँ?
 Aspose.Slides for .NET एनिमेशन सहित विभिन्न तत्वों के साथ प्रस्तुतियों के रूपांतरण का समर्थन करता है। हालाँकि, एनिमेशन की जटिलता के आधार पर समर्थन का स्तर भिन्न हो सकता है।
 
-### मैं .NET के लिए Aspose.Slides का उपयोग करके PowerPoint प्रस्तुतियों को अन्य किन प्रारूपों में परिवर्तित कर सकता हूँ?
+### मैं Aspose.Slides for .NET का उपयोग करके PowerPoint प्रस्तुतियों को अन्य किन प्रारूपों में परिवर्तित कर सकता हूँ?
 Aspose.Slides for .NET विभिन्न प्रारूपों में रूपांतरण का समर्थन करता है, जिसमें PDF, चित्र, और बहुत कुछ शामिल है। समर्थित प्रारूपों की विस्तृत सूची के लिए दस्तावेज़ देखें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: जावा पावरपॉइंट में टेक्स्ट को लंबवत रूप से संरेखित करें
-linktitle: जावा पावरपॉइंट में टेक्स्ट को लंबवत रूप से संरेखित करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: सहज स्लाइड फ़ॉर्मेटिंग के लिए Aspose.Slides का उपयोग करके Java PowerPoint प्रस्तुतियों में टेक्स्ट को लंबवत रूप से संरेखित करना सीखें।
-weight: 10
-url: /hi/java/java-powerpoint-text-alignment-formatting/vertically-align-text-java-powerpoint/
+"description": "सहज स्लाइड फ़ॉर्मेटिंग के लिए Aspose.Slides का उपयोग करके Java PowerPoint प्रस्तुतियों में टेक्स्ट को लंबवत रूप से संरेखित करना सीखें।"
+"linktitle": "जावा पावरपॉइंट में टेक्स्ट को लंबवत रूप से संरेखित करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा पावरपॉइंट में टेक्स्ट को लंबवत रूप से संरेखित करें"
+"url": "/hi/java/java-powerpoint-text-alignment-formatting/vertically-align-text-java-powerpoint/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा पावरपॉइंट में टेक्स्ट को लंबवत रूप से संरेखित करें
@@ -19,7 +21,7 @@ url: /hi/java/java-powerpoint-text-alignment-formatting/vertically-align-text-ja
 इस ट्यूटोरियल में आगे बढ़ने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
 - जावा प्रोग्रामिंग का बुनियादी ज्ञान.
 - आपकी मशीन पर JDK (जावा डेवलपमेंट किट) स्थापित है।
--  Aspose.Slides for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+- Aspose.Slides for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 - IDE (एकीकृत विकास वातावरण) जैसे कि IntelliJ IDEA या Eclipse स्थापित होना चाहिए।
 
 ## पैकेज आयात करें
@@ -31,7 +33,7 @@ import java.awt.*;
 ## चरण 1: अपना जावा प्रोजेक्ट सेट अप करें
 सुनिश्चित करें कि आपने अपने पसंदीदा IDE में एक नया Java प्रोजेक्ट स्थापित किया है और अपने प्रोजेक्ट के बिल्ड पथ में Aspose.Slides लाइब्रेरी को जोड़ा है।
 ## चरण 2: प्रेजेंटेशन ऑब्जेक्ट को आरंभ करें
- इसका एक उदाहरण बनाएं`Presentation` एक नई पावरपॉइंट प्रस्तुति के साथ काम करना शुरू करने के लिए कक्षा:
+इसका एक उदाहरण बनाएं `Presentation` एक नई पावरपॉइंट प्रस्तुति के साथ काम करना शुरू करने के लिए कक्षा:
 ```java
 Presentation presentation = new Presentation();
 ```
@@ -78,7 +80,7 @@ String dataDir = "Your Document Directory";
 presentation.save(dataDir + "Vertical_Align_Text_out.pptx", SaveFormat.Pptx);
 ```
 ## चरण 9: संसाधनों की सफ़ाई करें
- का निपटान करें`Presentation` संसाधन जारी करने पर आपत्ति:
+का निपटान करें `Presentation` संसाधन जारी करने पर आपत्ति:
 ```java
 if (presentation != null) presentation.dispose();
 ```
@@ -94,12 +96,14 @@ if (presentation != null) presentation.dispose();
 ### क्या Aspose.Slides PowerPoint के सभी संस्करणों के साथ संगत है?
 Aspose.Slides उन प्रस्तुतियों को बनाने का समर्थन करता है जो Microsoft PowerPoint के सभी प्रमुख संस्करणों के साथ संगत हैं।
 ### मैं Aspose.Slides के लिए और अधिक उदाहरण और दस्तावेज़ कहां पा सकता हूं?
- दौरा करना[Aspose.Slides दस्तावेज़ीकरण](https://reference.aspose.com/slides/java/) व्यापक गाइड, एपीआई संदर्भ और कोड नमूनों के लिए.
+दौरा करना [Aspose.Slides दस्तावेज़ीकरण](https://reference.aspose.com/slides/java/) व्यापक गाइड, एपीआई संदर्भ और कोड नमूनों के लिए.
 ### मैं Aspose.Slides के लिए समर्थन कैसे प्राप्त कर सकता हूं?
- तकनीकी सहायता और सामुदायिक समर्थन के लिए, यहां जाएं[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11).
+तकनीकी सहायता और सामुदायिक समर्थन के लिए, यहां जाएं [Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

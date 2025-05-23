@@ -1,31 +1,33 @@
 ---
-title: Kiemelés beállítása adatcímkéhez a Java Slides-ben
-linktitle: Kiemelés beállítása adatcímkéhez a Java Slides-ben
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan állíthat be kiemeléseket adatcímkékhez az Aspose.Slides for Java programban. Lépésről lépésre útmutató forráskóddal.
-weight: 25
-url: /hu/java/data-manipulation/setting-callout-data-label-java-slides/
+"description": "Tanuld meg, hogyan állíthatsz be feliratokat adatcímkékhez az Aspose.Slides Java-ban. Lépésről lépésre útmutató forráskóddal."
+"linktitle": "Adatcímke kiemelésének beállítása Java diákban"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Adatcímke kiemelésének beállítása Java diákban"
+"url": "/hu/java/data-manipulation/setting-callout-data-label-java-slides/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Kiemelés beállítása adatcímkéhez a Java Slides-ben
+# Adatcímke kiemelésének beállítása Java diákban
 
 
-## Bevezetés az adatcímkék kiemelésének beállításába az Aspose.Slides for Java programban
+## Bevezetés az adatcímke kiemelésének beállításába az Aspose.Slides for Java programban
 
-Ebben az oktatóanyagban bemutatjuk, hogyan állíthat be kiemeléseket az adatcímkékhez egy diagramon az Aspose.Slides for Java segítségével. A kiemelések hasznosak lehetnek bizonyos adatpontok kiemelésére a diagramon. Lépésről lépésre végigjárjuk a kódot, és megadjuk a szükséges forráskódot.
+Ebben az oktatóanyagban bemutatjuk, hogyan állíthatsz be kiemeléseket az adatcímkékhez egy diagramban az Aspose.Slides for Java használatával. A kiemelések hasznosak lehetnek a diagram adott adatpontjainak kiemelésére. Lépésről lépésre végigvezetjük a kódon, és megadjuk a szükséges forráskódot.
 
 ## Előfeltételek
 
-- Az Aspose.Slides for Java-nak telepítve kell lennie.
-- Hozzon létre egy Java-projektet, és adja hozzá az Aspose.Slides könyvtárat a projekthez.
+- Telepítenie kell az Aspose.Slides for Java programot.
+- Hozz létre egy Java projektet, és add hozzá az Aspose.Slides könyvtárat.
 
-## 1. lépés: Hozzon létre egy prezentációt és adjon hozzá egy diagramot
+## 1. lépés: Bemutató létrehozása és diagram hozzáadása
 
- Először is létre kell hoznunk egy prezentációt, és diagramot kell hozzáadnunk egy diához. Mindenképpen cserélje ki`"Your Document Directory"` a dokumentumkönyvtár tényleges elérési útjával.
+Először is létre kell hoznunk egy prezentációt, és hozzá kell adnunk egy diagramot egy diához. Ügyeljünk arra, hogy kicseréljük `"Your Document Directory"` a dokumentumkönyvtár tényleges elérési útjával.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -36,7 +38,7 @@ IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, 
 
 ## 2. lépés: A diagram konfigurálása
 
-Ezután konfiguráljuk a diagramot olyan tulajdonságok beállításával, mint a jelmagyarázat, sorozatok és kategóriák.
+Ezután konfiguráljuk a diagramot olyan tulajdonságok beállításával, mint a jelmagyarázat, az adatsorok és a kategóriák.
 
 ```java
 IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
@@ -44,7 +46,7 @@ chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 chart.setLegend(false);
 
-// Sorozatok és kategóriák konfigurálása (beállíthatja a sorozatok és kategóriák számát)
+// Sorozatok és kategóriák konfigurálása (A sorozatok és kategóriák számát módosíthatja)
 int seriesIndex = 0;
 while (seriesIndex < 15) {
     IChartSeries series = chart.getChartData().getSeries().add(workBook.getCell(0, 0, seriesIndex + 1, "SERIES " + seriesIndex), chart.getType());
@@ -59,7 +61,7 @@ while (categoryIndex < 15) {
     chart.getChartData().getCategories().add(workBook.getCell(0, categoryIndex + 1, 0, "CATEGORY " + categoryIndex));
     int i = 0;
     while (i < chart.getChartData().getSeries().size()) {
-        // Adjon hozzá adatpontokat ide
+        // Adatpontok hozzáadása itt
         // ...
         i++;
     }
@@ -67,9 +69,9 @@ while (categoryIndex < 15) {
 }
 ```
 
-## 3. lépés: Az adatcímkék testreszabása
+## 3. lépés: Adatcímkék testreszabása
 
-Most személyre szabjuk az adatcímkéket, beleértve a kiemelések beállítását az utolsó sorozathoz.
+Most testreszabjuk az adatfeliratokat, beleértve az utolsó sorozat feliratainak beállítását is.
 
 ```java
 int i = 0;
@@ -77,16 +79,16 @@ while (i < chart.getChartData().getSeries().size()) {
     IChartSeries iCS = chart.getChartData().getSeries().get_Item(i);
     IChartDataPoint dataPoint = iCS.getDataPoints().addDataPointForDoughnutSeries(workBook.getCell(0, categoryIndex + 1, i + 1, 1));
     dataPoint.getFormat().getFill().setFillType(FillType.Solid);
-    // Az adatpont formázásának testreszabása (kitöltés, vonal stb.)
+    // Adatpontok formázásának testreszabása (kitöltés, vonal stb.)
 
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
-        //Címkeformázás testreszabása (betűtípus, kitöltés stb.)
+        // Címkeformázás testreszabása (betűtípus, kitöltés stb.)
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
-        // Feliratok engedélyezése
+        // Felhívások engedélyezése
         lbl.getDataLabelFormat().setShowLabelAsDataCallout(true);
         lbl.getDataLabelFormat().setShowLeaderLines(true);
     }
@@ -94,7 +96,7 @@ while (i < chart.getChartData().getSeries().size()) {
 }
 ```
 
-## 4. lépés: Mentse el a bemutatót
+## 4. lépés: Mentse el a prezentációt
 
 Végül mentse el a prezentációt a konfigurált diagrammal.
 
@@ -102,9 +104,9 @@ Végül mentse el a prezentációt a konfigurált diagrammal.
 pres.save("chart.pptx", SaveFormat.Pptx);
 ```
 
-Az Aspose.Slides for Java segítségével sikeresen beállította az adatcímkék feliratait egy diagramon. Szabja testre a kódot saját diagram- és adatkövetelményei szerint.
+Most sikeresen beállítottad az adatcímkék feliratait egy diagramban az Aspose.Slides for Java használatával. Szabd testre a kódot az adott diagram és adatkövetelmények szerint.
 
-## Teljes forráskód a Java Slides adatcímkéjének kiemelésének beállításához
+## Teljes forráskód az adatcímke kiemelésének beállításához Java diákban
 
 ```java
 String dataDir = "Your Document Directory";
@@ -168,13 +170,13 @@ pres.save("chart.pptx", SaveFormat.Pptx);
 
 ## Következtetés
 
-Ebben az oktatóanyagban megvizsgáltuk, hogyan állíthat be kiemeléseket az adatcímkékhez egy diagramon az Aspose.Slides for Java segítségével. A kiemelések értékes eszközök a diagramok és prezentációk bizonyos adatpontjainak kiemeléséhez. Lépésről lépésre útmutatót adtunk a forráskóddal együtt, hogy segítsünk elérni ezt a testreszabást.
+Ebben az oktatóanyagban azt vizsgáltuk meg, hogyan állíthatunk be kiemeléseket adatcímkékhez egy diagramban az Aspose.Slides for Java használatával. A kiemelések értékes eszközök a diagramok és prezentációk adott adatpontjainak kiemelésére. Lépésről lépésre útmutatót és forráskódot készítettünk, amely segít ebben a testreszabásban.
 
 ## GYIK
 
 ### Hogyan szabhatom testre az adatcímkék megjelenését?
 
-Az adatcímkék megjelenésének testreszabásához módosíthatja a tulajdonságokat, például a betűtípust, a kitöltést és a vonalstílust. Például:
+Az adatfeliratok megjelenésének testreszabásához módosíthatja a tulajdonságokat, például a betűtípust, a kitöltést és a vonalstílusokat. Például:
 
 ```java
 IDataLabel lbl = dataPoint.getLabel();
@@ -187,31 +189,33 @@ lbl.getDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat().getS
 lbl.getDataLabelFormat().getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
 ```
 
-### Hogyan engedélyezhetem vagy tilthatom le az adatcímkék kiemelését?
+### Hogyan engedélyezhetem vagy letilthatom az adatfeliratok feliratait?
 
- Az adatcímkék kiemelésének engedélyezéséhez vagy letiltásához használja a`setShowLabelAsDataCallout` módszer. Állítsa be`true` feliratok engedélyezéséhez és`false`letiltani őket.
+Az adatfeliratok feliratainak engedélyezéséhez vagy letiltásához használja a `setShowLabelAsDataCallout` metódus. Állítsa be erre: `true` felhívások engedélyezéséhez és `false` hogy letiltsa őket.
 
 ```java
-lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // Feliratok engedélyezése
-lbl.getDataLabelFormat().setShowLabelAsDataCallout(false); // A kiemelések letiltása
+lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // Felhívások engedélyezése
+lbl.getDataLabelFormat().setShowLabelAsDataCallout(false); // Felhívások letiltása
 ```
 
-### Testreszabhatom az adatcímkék vezető sorait?
+### Testreszabhatom az adatfeliratok vezető vonalait?
 
-Igen, testreszabhatja az adatcímkék vezetővonalait olyan tulajdonságok használatával, mint a vonalstílus, szín és szélesség. Például:
+Igen, testreszabhatja az adatfeliratok vezető vonalait olyan tulajdonságok használatával, mint a vonalstílus, a szín és a szélesség. Például:
 
 ```java
-lbl.getDataLabelFormat().setShowLeaderLines(true); // Vezérvonalak engedélyezése
+lbl.getDataLabelFormat().setShowLeaderLines(true); // Vezető vonalak engedélyezése
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().setStyle(LineStyle.Single);
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().setWidth(1);
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.BLACK);
 ```
 
-Íme néhány gyakori testreszabási lehetőség az Aspose.Slides for Java adatcímkéihez és felirataihoz. Tovább szabhatja a megjelenést az Ön egyedi igényeihez.
+Íme néhány gyakori testreszabási lehetőség az adatcímkékhez és a feliratokhoz az Aspose.Slides for Java programban. A megjelenést tovább szabhatja az igényeinek megfelelően.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

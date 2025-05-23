@@ -1,28 +1,30 @@
 ---
-title: Dapatkan Porsi Persegi Panjang di PowerPoint dengan Java
-linktitle: Dapatkan Porsi Persegi Panjang di PowerPoint dengan Java
-second_title: Aspose.Slides API Pemrosesan Java PowerPoint
-description: Pelajari cara mendapatkan bagian persegi panjang di PowerPoint menggunakan Aspose.Slides untuk Java dengan tutorial langkah demi langkah yang mendetail ini. Sempurna untuk pengembang Java.
-weight: 12
-url: /id/java/java-powerpoint-advanced-paragraph-font-properties/get-portion-rectangle-powerpoint-java/
+"description": "Pelajari cara membuat persegi panjang di PowerPoint menggunakan Aspose.Slides untuk Java dengan tutorial terperinci dan langkah demi langkah ini. Sempurna untuk pengembang Java."
+"linktitle": "Dapatkan Porsi Persegi Panjang di PowerPoint dengan Java"
+"second_title": "API Pemrosesan PowerPoint Java Aspose.Slides"
+"title": "Dapatkan Porsi Persegi Panjang di PowerPoint dengan Java"
+"url": "/id/java/java-powerpoint-advanced-paragraph-font-properties/get-portion-rectangle-powerpoint-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan Porsi Persegi Panjang di PowerPoint dengan Java
 
 ## Perkenalan
-Membuat presentasi dinamis di Java sangatlah mudah dengan Aspose.Slides untuk Java. Dalam tutorial ini, kita akan mendalami seluk beluk cara mendapatkan bagian persegi panjang di PowerPoint menggunakan Aspose.Slides. Kami akan membahas semuanya mulai dari menyiapkan lingkungan Anda hingga menguraikan kode langkah demi langkah. Jadi, mari kita mulai!
+Membuat presentasi dinamis di Java sangat mudah dengan Aspose.Slides untuk Java. Dalam tutorial ini, kita akan menyelami seluk-beluk membuat persegi panjang di PowerPoint menggunakan Aspose.Slides. Kita akan membahas semuanya mulai dari menyiapkan lingkungan hingga menguraikan kode langkah demi langkah. Jadi, mari kita mulai!
 ## Prasyarat
-Sebelum kita beralih ke kode, pastikan Anda memiliki semua yang perlu Anda ikuti dengan lancar:
-1. Java Development Kit (JDK): Pastikan Anda telah menginstal JDK 8 atau lebih tinggi di mesin Anda.
-2.  Aspose.Slides untuk Java: Unduh versi terbaru dari[Di Sini](https://releases.aspose.com/slides/java/).
+Sebelum kita masuk ke kode, mari pastikan Anda memiliki semua yang dibutuhkan untuk mengikutinya dengan lancar:
+1. Java Development Kit (JDK): Pastikan Anda telah menginstal JDK 8 atau lebih tinggi di komputer Anda.
+2. Aspose.Slides untuk Java: Unduh versi terbaru dari [Di Sini](https://releases.aspose.com/slides/java/).
 3. Lingkungan Pengembangan Terpadu (IDE): Eclipse, IntelliJ IDEA, atau IDE Java lainnya pilihan Anda.
-4. Pengetahuan Dasar Java: Pemahaman tentang pemrograman Java sangat penting.
+4. Pengetahuan Dasar Java: Pemahaman tentang pemrograman Java sangatlah penting.
 ## Paket Impor
-Hal pertama yang pertama, mari impor paket yang diperlukan. Ini akan mencakup Aspose.Slides dan beberapa lainnya untuk menangani tugas kita secara efisien.
+Pertama-tama, mari impor paket-paket yang diperlukan. Paket ini akan mencakup Aspose.Slides dan beberapa paket lainnya untuk menangani tugas kita secara efisien.
 ```java
 import com.aspose.slides.*;
 import com.aspose.slides.examples.RunExamples;
@@ -30,19 +32,19 @@ import java.awt.*;
 import java.awt.geom.Rectangle2D;
 ```
 ## Langkah 1: Menyiapkan Presentasi
-Langkah pertama adalah membuat presentasi baru. Ini akan menjadi kanvas kami untuk dikerjakan.
+Langkah pertama adalah membuat presentasi baru. Ini akan menjadi kanvas untuk kita kerjakan.
 ```java
 Presentation pres = new Presentation();
 ```
 ## Langkah 2: Membuat Tabel
-Sekarang, mari tambahkan tabel ke slide pertama presentasi kita. Tabel ini akan berisi sel tempat kita akan menambahkan teks.
+Sekarang, mari tambahkan tabel ke slide pertama presentasi kita. Tabel ini akan berisi sel-sel tempat kita akan menambahkan teks.
 ```java
 ITable tbl = pres.getSlides().get_Item(0).getShapes().addTable(50, 50, new double[]{50, 70}, new double[]{50, 50, 50});
 ```
 ## Langkah 3: Menambahkan Paragraf ke Sel
-Selanjutnya, kita akan membuat paragraf dan menambahkannya ke sel tertentu di tabel. Ini melibatkan pembersihan teks yang ada dan kemudian menambahkan paragraf baru.
+Selanjutnya, kita akan membuat paragraf dan menambahkannya ke sel tertentu dalam tabel. Ini melibatkan penghapusan teks yang ada dan kemudian menambahkan paragraf baru.
 ```java
-// Buat paragraf
+// Membuat paragraf
 IParagraph paragraph0 = new Paragraph();
 paragraph0.getPortions().add(new Portion("Text "));
 paragraph0.getPortions().add(new Portion("in0"));
@@ -67,13 +69,13 @@ autoShape.getTextFrame().setText("Text in shape");
 autoShape.getTextFrame().getParagraphs().get_Item(0).getParagraphFormat().setAlignment(TextAlignment.Left);
 ```
 ## Langkah 5: Menghitung Koordinat
-Kita perlu mendapatkan koordinat pojok kiri atas sel tabel. Ini akan membantu kita menempatkan bentuk secara akurat.
+Kita perlu mendapatkan koordinat sudut kiri atas sel tabel. Ini akan membantu kita menempatkan bentuk-bentuk tersebut secara akurat.
 ```java
 double x = tbl.getX() + cell.getOffsetX();
 double y = tbl.getY() + cell.getOffsetY();
 ```
 ## Langkah 6: Menambahkan Bingkai ke Paragraf dan Bagian
- Menggunakan`IParagraph.getRect()` Dan`IPortion.getRect()`metode, kita dapat menambahkan bingkai ke paragraf dan bagian kita. Ini melibatkan pengulangan paragraf dan bagian, membuat bentuk di sekelilingnya, dan menyesuaikan tampilannya.
+Menggunakan `IParagraph.getRect()` Dan `IPortion.getRect()` metode, kita dapat menambahkan bingkai ke paragraf dan bagian. Ini melibatkan pengulangan melalui paragraf dan bagian, membuat bentuk di sekitarnya, dan menyesuaikan tampilannya.
 ```java
 for (IParagraph para : cell.getTextFrame().getParagraphs()) {
     if ("".equals(para.getText())) continue;
@@ -104,7 +106,7 @@ for (IParagraph para : cell.getTextFrame().getParagraphs()) {
 }
 ```
 ## Langkah 7: Menambahkan Bingkai ke Paragraf BentukOtomatis
-Demikian pula, kami akan menambahkan bingkai ke paragraf di BentukOtomatis kami, meningkatkan daya tarik visual presentasi.
+Demikian pula, kita akan menambahkan bingkai ke paragraf di AutoShape kita, untuk meningkatkan daya tarik visual presentasi.
 ```java
 for (IParagraph para : autoShape.getTextFrame().getParagraphs()) {
     Rectangle2D.Float rect = (Rectangle2D.Float) para.getRect().clone();
@@ -121,7 +123,7 @@ for (IParagraph para : autoShape.getTextFrame().getParagraphs()) {
 }
 ```
 ## Langkah 8: Menyimpan Presentasi
-Terakhir, kita akan menyimpan presentasi kita ke jalur tertentu.
+Terakhir, kita akan menyimpan presentasi kita ke jalur yang ditentukan.
 ```java
 String outPath = "path_to_output_directory";
 pres.save(outPath + "GetRect_Out.pptx", SaveFormat.Pptx);
@@ -132,21 +134,23 @@ Merupakan praktik yang baik untuk membuang objek presentasi untuk mengosongkan s
 if (pres != null) pres.dispose();
 ```
 ## Kesimpulan
-Selamat! Anda telah berhasil mempelajari cara mendapatkan bagian persegi panjang di PowerPoint menggunakan Aspose.Slides untuk Java. Pustaka yang kuat ini membuka banyak kemungkinan untuk membuat presentasi yang dinamis dan menarik secara visual secara terprogram. Selami lebih dalam Aspose.Slides dan jelajahi lebih banyak fitur untuk menyempurnakan presentasi Anda lebih jauh.
-## FAQ
-### Apa itu Aspose.Slide untuk Java?
-Aspose.Slides untuk Java adalah perpustakaan canggih yang memungkinkan pengembang membuat, memodifikasi, dan memanipulasi presentasi PowerPoint secara terprogram.
-### Bisakah saya menggunakan Aspose.Slides untuk Java dalam proyek komersial?
- Ya, Aspose.Slides untuk Java dapat digunakan dalam proyek komersial. Anda dapat membeli lisensi dari[Di Sini](https://purchase.aspose.com/buy).
+Selamat! Anda telah berhasil mempelajari cara mendapatkan bagian persegi panjang di PowerPoint menggunakan Aspose.Slides untuk Java. Pustaka canggih ini membuka banyak kemungkinan untuk membuat presentasi yang dinamis dan menarik secara visual secara terprogram. Pelajari lebih dalam Aspose.Slides dan jelajahi lebih banyak fitur untuk menyempurnakan presentasi Anda lebih jauh.
+## Pertanyaan yang Sering Diajukan
+### Apa itu Aspose.Slides untuk Java?
+Aspose.Slides untuk Java adalah pustaka hebat yang memungkinkan pengembang untuk membuat, memodifikasi, dan memanipulasi presentasi PowerPoint secara terprogram.
+### Dapatkah saya menggunakan Aspose.Slides untuk Java dalam proyek komersial?
+Ya, Aspose.Slides untuk Java dapat digunakan dalam proyek komersial. Anda dapat membeli lisensi dari [Di Sini](https://purchase.aspose.com/buy).
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.Slides untuk Java?
- Ya, Anda dapat mengunduh uji coba gratis dari[Di Sini](https://releases.aspose.com/).
-### Di mana saya dapat menemukan dokumentasi Aspose.Slides untuk Java?
- Dokumentasi tersedia[Di Sini](https://reference.aspose.com/slides/java/).
+Ya, Anda dapat mengunduh uji coba gratis dari [Di Sini](https://releases.aspose.com/).
+### Di mana saya dapat menemukan dokumentasi untuk Aspose.Slides untuk Java?
+Dokumentasinya tersedia [Di Sini](https://reference.aspose.com/slides/java/).
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Slides untuk Java?
- Anda bisa mendapatkan dukungan dari forum Aspose[Di Sini](https://forum.aspose.com/c/slides/11).
+Anda bisa mendapatkan dukungan dari forum Aspose [Di Sini](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,66 +1,68 @@
 ---
-title: Adatcímkék százalékos bejelentkezés beállítása a Java Slides szolgáltatásban
-linktitle: Adatcímkék százalékos bejelentkezés beállítása a Java Slides szolgáltatásban
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan állíthat be adatcímkéket százalékjelekkel a PowerPoint-prezentációkban az Aspose.Slides for Java segítségével. Hozzon létre lenyűgöző diagramokat lépésről lépésre útmutatóval és forráskóddal.
-weight: 17
-url: /hu/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
+"description": "Tanuld meg, hogyan állíthatsz be százalékjelekkel ellátott adatcímkéket PowerPoint-bemutatókban az Aspose.Slides for Java segítségével. Készíts lebilincselő diagramokat lépésről lépésre útmutatóval és forráskóddal."
+"linktitle": "Adatcímkék százalékos bejelentkezésének beállítása Java diákban"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Adatcímkék százalékos bejelentkezésének beállítása Java diákban"
+"url": "/hu/java/data-manipulation/set-data-labels-percentage-sign-java-slides/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Adatcímkék százalékos bejelentkezés beállítása a Java Slides szolgáltatásban
+# Adatcímkék százalékos bejelentkezésének beállítása Java diákban
 
 
-## Bevezetés az adatcímkék százalékos bejelentkezésébe az Aspose.Slides for Java-ban
+## Bevezetés az adatcímkék százalékos jelének beállításába az Aspose.Slides for Java programban
 
-Ebben az útmutatóban végigvezetjük a százalékjellel ellátott adatcímkék beállításának folyamatán az Aspose.Slides for Java segítségével. Létrehozunk egy PowerPoint prezentációt halmozott oszlopdiagrammal, és beállítjuk az adatcímkéket a százalékok megjelenítéséhez.
+Ebben az útmutatóban végigvezetünk az adatcímkék százalékjellel történő beállításának folyamatán az Aspose.Slides for Java használatával. Létrehozunk egy PowerPoint bemutatót halmozott oszlopdiagrammal, és konfiguráljuk az adatcímkéket a százalékok megjelenítéséhez.
 
 ## Előfeltételek
 
- Mielőtt elkezdené, győződjön meg arról, hogy az Aspose.Slides for Java könyvtár hozzáadva van a projekthez. Letöltheti innen[itt](https://releases.aspose.com/slides/java/).
+Mielőtt elkezdenéd, győződj meg róla, hogy az Aspose.Slides for Java könyvtár hozzá van adva a projektedhez. Letöltheted innen: [itt](https://releases.aspose.com/slides/java/).
 
-## 1. lépés: Hozzon létre egy új prezentációt
+## 1. lépés: Új prezentáció létrehozása
 
-Először is létrehozunk egy új PowerPoint-prezentációt az Aspose.Slides segítségével.
+Először is létrehozunk egy új PowerPoint prezentációt az Aspose.Slides segítségével.
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
 String dataDir = "Your Document Directory";
-// Hozzon létre egy példányt a Prezentáció osztályból
+// Hozz létre egy példányt a Presentation osztályból
 Presentation presentation = new Presentation();
 ```
 
-## 2. lépés: Adjon hozzá egy dia és egy diagramot
+## 2. lépés: Dia és diagram hozzáadása
 
-Ezután hozzáadunk egy diát és egy halmozott oszlopdiagramot a bemutatóhoz.
+Ezután hozzáadunk egy diát és egy halmozott oszlopdiagramot a prezentációhoz.
 
 ```java
-// Szerezzen hivatkozást a diára
+// Dia hivatkozásának lekérése
 ISlide slide = presentation.getSlides().get_Item(0);
 
-// Adja hozzá a PercentsStackedColumn diagramot egy diához
+// PercentsStackedColumn diagram hozzáadása egy diához
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
 ```
 
-## 3. lépés: A tengelyszám formátum konfigurálása
+## 3. lépés: Tengelyszám-formátum konfigurálása
 
-A százalékok megjelenítéséhez konfigurálnunk kell a diagram függőleges tengelyének számformátumát.
+A százalékos értékek megjelenítéséhez be kell állítanunk a diagram függőleges tengelyének számformátumát.
 
 ```java
-// Állítsa be a NumberFormatLinkedToSource értéket false értékre
+// Állítsa a NumberFormatLinkedToSource értékét hamisra
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 ```
 
 ## 4. lépés: Diagramadatok hozzáadása
 
-Adatokat adunk a diagramhoz sorozatok és adatpontok létrehozásával. Ebben a példában két sorozatot adunk hozzá a megfelelő adatpontokkal.
+Adatsorok és adatpontok létrehozásával adunk hozzá adatokat a diagramhoz. Ebben a példában két adatsort adunk hozzá a hozzájuk tartozó adatpontokkal.
 
 ```java
-// A diagram adatlapjának lekérése
+// A diagramadatok munkalapjának beszerzése
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // Új sorozat hozzáadása
@@ -78,12 +80,12 @@ series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorkshe
 series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 4, 2, 0.35));
 ```
 
-## 5. lépés: Az adatcímkék testreszabása
+## 5. lépés: Adatcímkék testreszabása
 
 Most pedig szabjuk testre az adatcímkék megjelenését.
 
 ```java
-// A LabelFormat tulajdonságainak beállítása
+// LabelFormat tulajdonságok beállítása
 series.getLabels().getDefaultDataLabelFormat().setShowValue(true);
 series.getLabels().getDefaultDataLabelFormat().setNumberFormatLinkedToSource(false);
 series.getLabels().getDefaultDataLabelFormat().setNumberFormat("0.0%");
@@ -100,7 +102,7 @@ series2.getLabels().getDefaultDataLabelFormat().getTextFormat().getPortionFormat
 series2.getLabels().getDefaultDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
 ```
 
-## 6. lépés: Mentse el a bemutatót
+## 6. lépés: Mentse el a prezentációt
 
 Végül elmentjük a prezentációt egy PowerPoint fájlba.
 
@@ -109,25 +111,25 @@ Végül elmentjük a prezentációt egy PowerPoint fájlba.
 presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.Pptx);
 ```
 
-Ez az! Sikeresen létrehozott egy PowerPoint-prezentációt halmozott oszlopdiagrammal és konfigurálta az adatcímkéket a százalékok megjelenítéséhez az Aspose.Slides for Java használatával.
+Ennyi! Sikeresen létrehoztál egy PowerPoint bemutatót halmozott oszlopdiagrammal, és az Aspose.Slides for Java segítségével beállítottad az adatfeliratokat százalékos értékek megjelenítésére.
 
-## Teljes forráskód az adatcímkék beállításához, százalékos bejelentkezés a Java Slides-be
+## Teljes forráskód az adatcímkék százalékos bejelentkezéséhez Java diákban
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
 String dataDir = "Your Document Directory";
-// Hozzon létre egy példányt a Prezentáció osztályból
+// Hozz létre egy példányt a Presentation osztályból
 Presentation presentation = new Presentation();
-// Szerezzen hivatkozást a diára
+// Dia hivatkozásának lekérése
 ISlide slide = presentation.getSlides().get_Item(0);
-// Adja hozzá a PercentsStackedColumn diagramot egy diához
+// PercentsStackedColumn diagram hozzáadása egy diához
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
-// Állítsa be a NumberFormatLinkedToSource értéket false értékre
+// Állítsa a NumberFormatLinkedToSource értékét hamisra
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
 int defaultWorksheetIndex = 0;
-// A diagram adatlapjának lekérése
+// A diagramadatok munkalapjának beszerzése
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 // Új sorozat hozzáadása
 IChartSeries series = chart.getChartData().getSeries().add(workbook.getCell(defaultWorksheetIndex, 0, 1, "Reds"), chart.getType());
@@ -135,10 +137,10 @@ series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorkshee
 series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 2, 1, 0.50));
 series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 3, 1, 0.80));
 series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 4, 1, 0.65));
-// A sorozat kitöltési színének beállítása
+// Sorozat kitöltési színének beállítása
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
-// A LabelFormat tulajdonságainak beállítása
+// LabelFormat tulajdonságok beállítása
 series.getLabels().getDefaultDataLabelFormat().setShowValue(true);
 series.getLabels().getDefaultDataLabelFormat().setNumberFormatLinkedToSource(false);
 series.getLabels().getDefaultDataLabelFormat().setNumberFormat("0.0%");
@@ -152,7 +154,7 @@ series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorkshe
 series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 2, 2, 0.50));
 series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 3, 2, 0.20));
 series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 4, 2, 0.35));
-// Beállítás Kitöltés típusa és színe
+// Kitöltés típusának és színének beállítása
 series2.getFormat().getFill().setFillType(FillType.Solid);
 series2.getFormat().getFill().getSolidFillColor().setColor(Color.BLUE);
 series2.getLabels().getDefaultDataLabelFormat().setShowValue(true);
@@ -167,25 +169,27 @@ presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.P
 
 ## Következtetés
 
-Az útmutató követésével megtanulta, hogyan hozhat létre lenyűgöző prezentációkat százalékos adatcímkékkel, amelyek különösen hasznosak lehetnek az információk hatékony közvetítéséhez üzleti jelentésekben, oktatási anyagokban és egyebekben.
+Az útmutató követésével megtanulta, hogyan hozhat létre lebilincselő prezentációkat százalékos alapú adatfeliratokkal, amelyek különösen hasznosak lehetnek az információk hatékony közvetítésében üzleti jelentésekben, oktatási anyagokban és egyebekben.
 
 ## GYIK
 
-### Hogyan változtathatom meg a diagramsorozat színeit?
+### Hogyan tudom megváltoztatni a diagramsorozat színeit?
 
- A diagramsorozatok kitöltési színét a gombbal módosíthatja`setFill` példában látható módszer.
+A diagramsorozatok kitöltési színét a következővel módosíthatja: `setFill` a példában látható módszer.
 
-### Testreszabhatom az adatcímkék betűméretét?
+### Testreszabhatom az adatfeliratok betűméretét?
 
-Igen, testreszabhatja az adatcímkék betűméretét a`setFontHeight` kódban bemutatott tulajdonság.
+Igen, testreszabhatja az adatcímkék betűméretét a következő beállítással: `setFontHeight` tulajdonság, ahogy a kódban is látható.
 
-### Hogyan tudok több sorozatot hozzáadni a diagramhoz?
+### Hogyan adhatok hozzá több sorozatot a diagramhoz?
 
- A diagram segítségével további sorozatokat adhat hozzá`add` módszer a`IChartSeriesCollection` tárgy.
+További sorozatokat adhatsz a diagramhoz a segítségével. `add` módszer a `IChartSeriesCollection` objektum.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

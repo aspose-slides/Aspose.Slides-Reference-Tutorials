@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में चार्ट लेआउट को मान्य करें
-linktitle: जावा स्लाइड्स में चार्ट लेआउट को मान्य करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java के साथ PowerPoint में चार्ट लेआउट सत्यापन में महारत हासिल करें। शानदार प्रस्तुतियों के लिए प्रोग्रामेटिक रूप से चार्ट में हेरफेर करना सीखें।
-weight: 10
-url: /hi/java/data-manipulation/validate-chart-layout-added-java-slides/
+"description": "Aspose.Slides for Java के साथ PowerPoint में चार्ट लेआउट सत्यापन में महारत हासिल करें। शानदार प्रस्तुतियों के लिए प्रोग्रामेटिक रूप से चार्ट में हेरफेर करना सीखें।"
+"linktitle": "जावा स्लाइड्स में चार्ट लेआउट को मान्य करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में चार्ट लेआउट को मान्य करें"
+"url": "/hi/java/data-manipulation/validate-chart-layout-added-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में चार्ट लेआउट को मान्य करें
@@ -20,7 +22,7 @@ url: /hi/java/data-manipulation/validate-chart-layout-added-java-slides/
 
 ## चरण 1: प्रस्तुति आरंभ करना
 
- सबसे पहले, हमें एक प्रेजेंटेशन ऑब्जेक्ट को इनिशियलाइज़ करना होगा और एक मौजूदा पावरपॉइंट प्रेजेंटेशन को लोड करना होगा।`"Your Document Directory"` आपकी प्रस्तुति फ़ाइल के वास्तविक पथ के साथ (`test.pptx` (इस उदाहरण में)
+सबसे पहले, हमें एक प्रेजेंटेशन ऑब्जेक्ट को इनिशियलाइज़ करना होगा और एक मौजूदा पावरपॉइंट प्रेजेंटेशन को लोड करना होगा। `"Your Document Directory"` आपकी प्रस्तुति फ़ाइल के वास्तविक पथ के साथ (`test.pptx` (इस उदाहरण में)
 
 ```java
 // दस्तावेज़ निर्देशिका का पथ.
@@ -30,7 +32,7 @@ Presentation pres = new Presentation(dataDir + "test.pptx");
 
 ## चरण 2: चार्ट जोड़ना
 
- इसके बाद, हम प्रस्तुति में एक चार्ट जोड़ेंगे। इस उदाहरण में, हम एक क्लस्टर कॉलम चार्ट जोड़ रहे हैं, लेकिन आप इसे बदल सकते हैं`ChartType` जरुरत के अनुसार।
+इसके बाद, हम प्रस्तुति में एक चार्ट जोड़ेंगे। इस उदाहरण में, हम एक क्लस्टर कॉलम चार्ट जोड़ रहे हैं, लेकिन आप इसे बदल सकते हैं `ChartType` जरुरत के अनुसार।
 
 ```java
 Chart chart = (Chart) pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 100, 100, 500, 350);
@@ -38,7 +40,7 @@ Chart chart = (Chart) pres.getSlides().get_Item(0).getShapes().addChart(ChartTyp
 
 ## चरण 3: चार्ट लेआउट को मान्य करना
 
- अब, हम चार्ट लेआउट का उपयोग करके सत्यापन करेंगे`validateChartLayout()` यह सुनिश्चित करता है कि चार्ट स्लाइड के भीतर ठीक से रखा गया है।
+अब, हम चार्ट लेआउट का उपयोग करके सत्यापन करेंगे `validateChartLayout()` यह सुनिश्चित करता है कि चार्ट स्लाइड के भीतर ठीक से रखा गया है।
 
 ```java
 chart.validateChartLayout();
@@ -57,7 +59,7 @@ double h = chart.getPlotArea().getActualHeight();
 
 ## चरण 5: प्रस्तुति को सहेजना
 
- अंत में, संशोधित प्रस्तुति को सहेजना न भूलें। इस उदाहरण में, हम इसे इस रूप में सहेज रहे हैं`Result.pptx`, लेकिन यदि आवश्यक हो तो आप एक अलग फ़ाइल नाम निर्दिष्ट कर सकते हैं।
+अंत में, संशोधित प्रस्तुति को सहेजना न भूलें। इस उदाहरण में, हम इसे इस रूप में सहेज रहे हैं `Result.pptx`, लेकिन यदि आवश्यक हो तो आप एक अलग फ़ाइल नाम निर्दिष्ट कर सकते हैं।
 
 ```java
 pres.save(dataDir + "Result.pptx", SaveFormat.Pptx);
@@ -94,7 +96,7 @@ finally
 
 ### मैं चार्ट का प्रकार कैसे बदलूं?
 
- चार्ट प्रकार बदलने के लिए, बस प्रतिस्थापित करें`ChartType.ClusteredColumn`वांछित चार्ट प्रकार के साथ`addChart()` तरीका।
+चार्ट प्रकार बदलने के लिए, बस प्रतिस्थापित करें `ChartType.ClusteredColumn` वांछित चार्ट प्रकार के साथ `addChart()` तरीका।
 
 ### क्या मैं चार्ट डेटा को अनुकूलित कर सकता हूँ?
 
@@ -104,9 +106,11 @@ finally
 
 आप विभिन्न चार्ट प्रॉपर्टी तक पहुँच सकते हैं और उन्हें अपनी आवश्यकताओं के अनुसार अनुकूलित कर सकते हैं। चार्ट हेरफेर पर व्यापक जानकारी के लिए Aspose.Slides दस्तावेज़ देखें।
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

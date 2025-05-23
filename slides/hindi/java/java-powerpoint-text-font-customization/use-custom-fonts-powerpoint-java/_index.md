@@ -1,24 +1,26 @@
 ---
-title: जावा के साथ पावरपॉइंट में कस्टम फ़ॉन्ट का उपयोग करें
-linktitle: जावा के साथ पावरपॉइंट में कस्टम फ़ॉन्ट का उपयोग करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में कस्टम फ़ॉन्ट एकीकृत करना सीखें। आसानी से दृश्य अपील बढ़ाएँ।
-weight: 25
-url: /hi/java/java-powerpoint-text-font-customization/use-custom-fonts-powerpoint-java/
+"description": "Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में कस्टम फ़ॉन्ट एकीकृत करना सीखें। आसानी से दृश्य अपील बढ़ाएँ।"
+"linktitle": "जावा के साथ PowerPoint में कस्टम फ़ॉन्ट का उपयोग करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा के साथ PowerPoint में कस्टम फ़ॉन्ट का उपयोग करें"
+"url": "/hi/java/java-powerpoint-text-font-customization/use-custom-fonts-powerpoint-java/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# जावा के साथ पावरपॉइंट में कस्टम फ़ॉन्ट का उपयोग करें
+# जावा के साथ PowerPoint में कस्टम फ़ॉन्ट का उपयोग करें
 
 ## परिचय
 इस ट्यूटोरियल में, हम यह पता लगाएंगे कि कस्टम फ़ॉन्ट को एकीकृत करके PowerPoint प्रस्तुतियों को बेहतर बनाने के लिए Java के लिए Aspose.Slides का लाभ कैसे उठाया जाए। कस्टम फ़ॉन्ट आपकी स्लाइड्स की दृश्य अपील को महत्वपूर्ण रूप से समृद्ध कर सकते हैं, यह सुनिश्चित करते हुए कि वे आपके ब्रांड या डिज़ाइन आवश्यकताओं के साथ पूरी तरह से संरेखित हैं। हम आवश्यक पैकेजों को आयात करने से लेकर कस्टम फ़ॉन्ट को आपकी प्रस्तुतियों में सहजता से एकीकृत करने के लिए आवश्यक चरणों को निष्पादित करने तक सब कुछ कवर करेंगे।
 ## आवश्यक शर्तें
 ट्यूटोरियल में आगे बढ़ने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
 1. जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपके सिस्टम पर JDK स्थापित है।
-2.  Aspose.Slides for Java: Aspose.Slides for Java को यहां से डाउनलोड और इंस्टॉल करें[यहाँ](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides for Java: Aspose.Slides for Java को यहां से डाउनलोड और इंस्टॉल करें [यहाँ](https://releases.aspose.com/slides/java/).
 3. कस्टम फ़ॉन्ट: कस्टम फ़ॉन्ट (.ttf फ़ाइलें) तैयार करें जिन्हें आप अपनी प्रस्तुतियों में उपयोग करना चाहते हैं।
 
 ## पैकेज आयात करें
@@ -31,7 +33,7 @@ import com.aspose.slides.SaveFormat;
 ## चरण 1: कस्टम फ़ॉन्ट लोड करें
 सबसे पहले, अपने प्रेजेंटेशन में इस्तेमाल किए जाने वाले कस्टम फ़ॉन्ट लोड करें। आप यह कैसे कर सकते हैं:
 ```java
-//आपके कस्टम फ़ॉन्ट वाली निर्देशिका का पथ
+// आपके कस्टम फ़ॉन्ट वाली निर्देशिका का पथ
 String dataDir = "Your Document Directory";
 // अपनी कस्टम फ़ॉन्ट फ़ाइलों का पथ निर्दिष्ट करें
 String[] loadFonts = new String[]{dataDir + "CustomFonts.ttf"};
@@ -74,11 +76,13 @@ Aspose.Slides for Java का उपयोग करके अपने PowerPoi
 सुनिश्चित करें कि आपके पास अपनी प्रस्तुतियों के साथ बंडल किए गए किसी भी कस्टम फ़ॉन्ट को वितरित करने के लिए उपयुक्त लाइसेंस हैं।
 ### क्या किसी प्रस्तुति में उपयोग किये जा सकने वाले कस्टम फ़ॉन्ट्स की संख्या की कोई सीमा है?
 Aspose.Slides for Java कस्टम फ़ॉन्ट्स की एक विस्तृत श्रृंखला के उपयोग का समर्थन करता है, और लाइब्रेरी द्वारा कोई अंतर्निहित सीमा नहीं लगाई गई है।
-### क्या मैं Aspose.Slides for Java का उपयोग करके सीधे PowerPoint फ़ाइल में कस्टम फ़ॉन्ट एम्बेड कर सकता हूँ?
+### क्या मैं Java के लिए Aspose.Slides का उपयोग करके सीधे PowerPoint फ़ाइल में कस्टम फ़ॉन्ट एम्बेड कर सकता हूँ?
 हां, Java के लिए Aspose.Slides आपको निर्बाध वितरण के लिए प्रस्तुति फ़ाइल में ही कस्टम फ़ॉन्ट एम्बेड करने की अनुमति देता है।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

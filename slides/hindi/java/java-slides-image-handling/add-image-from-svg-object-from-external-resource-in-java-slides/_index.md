@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में बाहरी संसाधन से SVG ऑब्जेक्ट से छवि जोड़ें
-linktitle: जावा स्लाइड्स में बाहरी संसाधन से SVG ऑब्जेक्ट से छवि जोड़ें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides का उपयोग करके बाहरी संसाधनों से वेक्टर आधारित SVG छवियों को Java स्लाइड में जोड़ना सीखें। उच्च-गुणवत्ता वाले दृश्यों के साथ शानदार प्रस्तुतियाँ बनाएँ।
-weight: 12
-url: /hi/java/image-handling/add-image-from-svg-object-from-external-resource-in-java-slides/
+"description": "Aspose.Slides का उपयोग करके बाहरी संसाधनों से वेक्टर आधारित SVG छवियों को Java स्लाइड में जोड़ना सीखें। उच्च-गुणवत्ता वाले दृश्यों के साथ शानदार प्रस्तुतियाँ बनाएँ।"
+"linktitle": "जावा स्लाइड्स में बाहरी संसाधन से SVG ऑब्जेक्ट से छवि जोड़ें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में बाहरी संसाधन से SVG ऑब्जेक्ट से छवि जोड़ें"
+"url": "/hi/java/image-handling/add-image-from-svg-object-from-external-resource-in-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में बाहरी संसाधन से SVG ऑब्जेक्ट से छवि जोड़ें
@@ -32,7 +34,7 @@ url: /hi/java/image-handling/add-image-from-svg-object-from-external-resource-in
 
 ## चरण 1: अपने प्रोजेक्ट में Aspose.Slides जोड़ना
 
- अपने प्रोजेक्ट में Aspose.Slides जोड़ने के लिए, आप Maven का उपयोग कर सकते हैं या मैन्युअल रूप से लाइब्रेरी डाउनलोड कर सकते हैं। दस्तावेज़ देखें[Aspose.Slides for Java API संदर्भ](https://reference.aspose.com/slides/java/) इसे अपने प्रोजेक्ट में शामिल करने के बारे में विस्तृत निर्देशों के लिए यहां क्लिक करें।
+अपने प्रोजेक्ट में Aspose.Slides जोड़ने के लिए, आप Maven का उपयोग कर सकते हैं या मैन्युअल रूप से लाइब्रेरी डाउनलोड कर सकते हैं। दस्तावेज़ देखें [Aspose.Slides for Java API संदर्भ](https://reference.aspose.com/slides/java/) इसे अपने प्रोजेक्ट में शामिल करने के बारे में विस्तृत निर्देशों के लिए यहां क्लिक करें।
 
 ## चरण 2: एक प्रस्तुति बनाएं
 
@@ -44,7 +46,7 @@ String outPptxPath = dataDir + "presentation_external.pptx";
 Presentation p = new Presentation();
 ```
 
- सुनिश्चित करें कि आप प्रतिस्थापित करें`"Your Document Directory"` आपके प्रोजेक्ट निर्देशिका के वास्तविक पथ के साथ.
+सुनिश्चित करें कि आप प्रतिस्थापित करें `"Your Document Directory"` आपके प्रोजेक्ट निर्देशिका के वास्तविक पथ के साथ.
 
 ## चरण 3: SVG छवि लोड करना
 
@@ -55,7 +57,7 @@ String svgContent = new String(Files.readAllBytes(Paths.get(dataDir + "image1.sv
 ISvgImage svgImage = new SvgImage(svgContent, new ExternalResourceResolver(), dataDir);
 ```
 
- इस कोड में, हम "image1.svg" फ़ाइल से SVG सामग्री पढ़ते हैं और एक बनाते हैं`ISvgImage` वस्तु।
+इस कोड में, हम "image1.svg" फ़ाइल से SVG सामग्री पढ़ते हैं और एक बनाते हैं `ISvgImage` वस्तु।
 
 ## चरण 4: स्लाइड में SVG छवि जोड़ना
 
@@ -107,7 +109,7 @@ p.save(outPptxPath, SaveFormat.Pptx);
 
 ### मैं स्लाइड पर जोड़ी गई SVG छवि की स्थिति को कैसे अनुकूलित कर सकता हूं?
 
- आप निर्देशांक को संशोधित करके SVG छवि की स्थिति को समायोजित कर सकते हैं`addPictureFrame` विधि. पैरामीटर`(0, 0)` छवि फ़्रेम के ऊपरी-बाएँ कोने के X और Y निर्देशांक को दर्शाते हैं।
+आप निर्देशांक को संशोधित करके SVG छवि की स्थिति को समायोजित कर सकते हैं `addPictureFrame` विधि. पैरामीटर `(0, 0)` छवि फ़्रेम के ऊपरी-बाएँ कोने के X और Y निर्देशांक को दर्शाते हैं।
 
 ### क्या मैं एक ही स्लाइड में एकाधिक SVG छवियाँ जोड़ने के लिए इस दृष्टिकोण का उपयोग कर सकता हूँ?
 
@@ -124,9 +126,11 @@ Aspose.Slides for Java विभिन्न SVG प्रारूपों क
 ### क्या मैं स्लाइडों में जोड़े गए SVG चित्रों पर एनिमेशन लागू कर सकता हूँ?
 
 हां, आप गतिशील प्रस्तुतियाँ बनाने के लिए Aspose.Slides का उपयोग करके अपनी स्लाइडों में SVG छवियों पर एनिमेशन लागू कर सकते हैं।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

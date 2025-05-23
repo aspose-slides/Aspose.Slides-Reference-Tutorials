@@ -1,47 +1,49 @@
 ---
-title: Imposta il segno percentuale delle etichette dati nelle diapositive Java
-linktitle: Imposta il segno percentuale delle etichette dati nelle diapositive Java
-second_title: Aspose.Slides API di elaborazione Java PowerPoint
-description: Scopri come impostare le etichette dei dati con segni di percentuale nelle presentazioni di PowerPoint utilizzando Aspose.Slides per Java. Crea grafici accattivanti con guida passo passo e codice sorgente.
-weight: 17
-url: /it/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
+"description": "Scopri come impostare etichette dati con simboli di percentuale nelle presentazioni PowerPoint utilizzando Aspose.Slides per Java. Crea grafici accattivanti con istruzioni dettagliate e codice sorgente."
+"linktitle": "Imposta il segno percentuale delle etichette dati in Java Slides"
+"second_title": "API di elaborazione Java PowerPoint di Aspose.Slides"
+"title": "Imposta il segno percentuale delle etichette dati in Java Slides"
+"url": "/it/java/data-manipulation/set-data-labels-percentage-sign-java-slides/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Imposta il segno percentuale delle etichette dati nelle diapositive Java
+# Imposta il segno percentuale delle etichette dati in Java Slides
 
 
-## Introduzione all'impostazione delle etichette dei dati Segno percentuale in Aspose.Slides per Java
+## Introduzione al segno percentuale delle etichette dati in Aspose.Slides per Java
 
-In questa guida ti guideremo attraverso il processo di impostazione delle etichette dei dati con un segno di percentuale utilizzando Aspose.Slides per Java. Creeremo una presentazione PowerPoint con un istogramma in pila e configureremo le etichette dei dati per visualizzare le percentuali.
+In questa guida, ti guideremo attraverso il processo di impostazione delle etichette dati con il simbolo di percentuale utilizzando Aspose.Slides per Java. Creeremo una presentazione PowerPoint con un grafico a colonne impilate e configureremo le etichette dati per visualizzare le percentuali.
 
 ## Prerequisiti
 
- Prima di iniziare, assicurati di aver aggiunto la libreria Aspose.Slides per Java al tuo progetto. Puoi scaricarlo da[Qui](https://releases.aspose.com/slides/java/).
+Prima di iniziare, assicurati di aver aggiunto la libreria Aspose.Slides per Java al tuo progetto. Puoi scaricarla da [Qui](https://releases.aspose.com/slides/java/).
 
-## Passaggio 1: crea una nuova presentazione
+## Passaggio 1: creare una nuova presentazione
 
-Innanzitutto, creiamo una nuova presentazione di PowerPoint utilizzando Aspose.Slides.
+Per prima cosa, creiamo una nuova presentazione PowerPoint utilizzando Aspose.Slides.
 
 ```java
-// Il percorso della directory dei documenti.
+// Percorso verso la directory dei documenti.
 String dataDir = "Your Document Directory";
-// Crea un'istanza della classe Presentation
+// Crea un'istanza della classe Presentazione
 Presentation presentation = new Presentation();
 ```
 
-## Passaggio 2: aggiungi una diapositiva e un grafico
+## Passaggio 2: aggiungere una diapositiva e un grafico
 
-Successivamente, aggiungiamo una diapositiva e un istogramma in pila alla presentazione.
+Successivamente aggiungiamo alla presentazione una diapositiva e un grafico a colonne impilate.
 
 ```java
 // Ottieni il riferimento della diapositiva
 ISlide slide = presentation.getSlides().get_Item(0);
 
-// Aggiungi il grafico PercentsStackedColumn a una diapositiva
+// Aggiungi un grafico a colonne in pila con percentuali su una diapositiva
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
 ```
 
@@ -50,17 +52,17 @@ IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 2
 Per visualizzare le percentuali, dobbiamo configurare il formato numerico per l'asse verticale del grafico.
 
 ```java
-// Imposta NumberFormatLinkedToSource su false
+// Imposta NumberFormatLinkedToSource su falso
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 ```
 
-## Passaggio 4: aggiungi i dati del grafico
+## Passaggio 4: aggiungere i dati del grafico
 
 Aggiungiamo dati al grafico creando serie e punti dati. In questo esempio, aggiungiamo due serie con i rispettivi punti dati.
 
 ```java
-// Ottenere il foglio di lavoro con i dati del grafico
+// Ottenere il foglio di lavoro dei dati del grafico
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // Aggiungi nuova serie
@@ -80,7 +82,7 @@ series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorkshe
 
 ## Passaggio 5: personalizzare le etichette dati
 
-Ora personalizziamo l'aspetto delle etichette dati.
+Adesso personalizziamo l'aspetto delle etichette dati.
 
 ```java
 // Impostazione delle proprietà LabelFormat
@@ -100,7 +102,7 @@ series2.getLabels().getDefaultDataLabelFormat().getTextFormat().getPortionFormat
 series2.getLabels().getDefaultDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
 ```
 
-## Passaggio 6: salva la presentazione
+## Passaggio 6: Salva la presentazione
 
 Infine, salviamo la presentazione in un file PowerPoint.
 
@@ -109,25 +111,25 @@ Infine, salviamo la presentazione in un file PowerPoint.
 presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.Pptx);
 ```
 
-Questo è tutto! Hai creato con successo una presentazione di PowerPoint con un istogramma in pila e configurato etichette dati per visualizzare le percentuali utilizzando Aspose.Slides per Java.
+Ecco fatto! Hai creato con successo una presentazione PowerPoint con un grafico a colonne impilate e configurato le etichette dati per visualizzare le percentuali utilizzando Aspose.Slides per Java.
 
-## Codice sorgente completo per l'accesso percentuale delle etichette dei dati impostati nelle diapositive Java
+## Codice sorgente completo per impostare il segno percentuale delle etichette dati in Java Slides
 
 ```java
-// Il percorso della directory dei documenti.
+// Percorso verso la directory dei documenti.
 String dataDir = "Your Document Directory";
-// Crea un'istanza della classe Presentation
+// Crea un'istanza della classe Presentazione
 Presentation presentation = new Presentation();
 // Ottieni il riferimento della diapositiva
 ISlide slide = presentation.getSlides().get_Item(0);
-// Aggiungi il grafico PercentsStackedColumn a una diapositiva
+// Aggiungi un grafico a colonne in pila con percentuali su una diapositiva
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
-// Imposta NumberFormatLinkedToSource su false
+// Imposta NumberFormatLinkedToSource su falso
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
 int defaultWorksheetIndex = 0;
-// Ottenere il foglio di lavoro con i dati del grafico
+// Ottenere il foglio di lavoro dei dati del grafico
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 // Aggiungi nuova serie
 IChartSeries series = chart.getChartData().getSeries().add(workbook.getCell(defaultWorksheetIndex, 0, 1, "Reds"), chart.getType());
@@ -135,7 +137,7 @@ series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorkshee
 series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 2, 1, 0.50));
 series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 3, 1, 0.80));
 series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 4, 1, 0.65));
-// Impostazione del colore di riempimento delle serie
+// Impostazione del colore di riempimento della serie
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 // Impostazione delle proprietà LabelFormat
@@ -167,25 +169,27 @@ presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.P
 
 ## Conclusione
 
-Seguendo questa guida, hai imparato come creare presentazioni accattivanti con etichette di dati basate su percentuali, che possono essere particolarmente utili per trasmettere informazioni in modo efficace in report aziendali, materiali didattici e altro ancora.
+Seguendo questa guida, hai imparato a creare presentazioni accattivanti con etichette dati basate su percentuali, che possono rivelarsi particolarmente utili per trasmettere informazioni in modo efficace in report aziendali, materiali didattici e altro ancora.
 
 ## Domande frequenti
 
 ### Come posso cambiare i colori delle serie di grafici?
 
- Puoi modificare il colore di riempimento delle serie di grafici utilizzando`setFill` metodo come mostrato nell'esempio.
+È possibile modificare il colore di riempimento delle serie di grafici utilizzando `setFill` metodo come mostrato nell'esempio.
 
 ### Posso personalizzare la dimensione del carattere delle etichette dati?
 
-Sì, puoi personalizzare la dimensione del carattere delle etichette dati impostando il file`setFontHeight` proprietà come dimostrato nel codice.
+Sì, puoi personalizzare la dimensione del carattere delle etichette dati impostando `setFontHeight` proprietà come dimostrato nel codice.
 
-### Come posso aggiungere più serie al grafico?
+### Come posso aggiungere altre serie al grafico?
 
- È possibile aggiungere ulteriori serie al grafico utilizzando il comando`add` metodo sul`IChartSeriesCollection` oggetto.
+È possibile aggiungere ulteriori serie al grafico utilizzando `add` metodo sul `IChartSeriesCollection` oggetto.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

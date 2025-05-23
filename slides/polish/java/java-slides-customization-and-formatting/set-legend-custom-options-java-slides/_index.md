@@ -1,31 +1,33 @@
 ---
-title: Ustaw niestandardowe opcje legendy w slajdach Java
-linktitle: Ustaw niestandardowe opcje legendy w slajdach Java
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Dowiedz się, jak ustawić niestandardowe opcje legendy w Java Slides za pomocą Aspose.Slides dla Java. Dostosuj położenie i rozmiar legendy na wykresach programu PowerPoint.
-weight: 14
-url: /pl/java/customization-and-formatting/set-legend-custom-options-java-slides/
+"description": "Dowiedz się, jak ustawić niestandardowe opcje legendy w Java Slides przy użyciu Aspose.Slides for Java. Dostosuj położenie i rozmiar legendy na wykresach PowerPoint."
+"linktitle": "Ustaw opcje niestandardowe legendy w slajdach Java"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Ustaw opcje niestandardowe legendy w slajdach Java"
+"url": "/pl/java/customization-and-formatting/set-legend-custom-options-java-slides/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ustaw niestandardowe opcje legendy w slajdach Java
+# Ustaw opcje niestandardowe legendy w slajdach Java
 
 
 ## Wprowadzenie do ustawiania niestandardowych opcji legendy w slajdach Java
 
-W tym samouczku pokażemy, jak dostosować właściwości legendy wykresu w prezentacji programu PowerPoint przy użyciu Aspose.Slides dla Java. Możesz modyfikować położenie, rozmiar i inne atrybuty legendy, aby dostosować je do potrzeb prezentacji.
+tym samouczku pokażemy, jak dostosować właściwości legendy wykresu w prezentacji PowerPoint przy użyciu Aspose.Slides dla Java. Możesz modyfikować położenie, rozmiar i inne atrybuty legendy, aby dopasować je do potrzeb prezentacji.
 
-## Warunki wstępne
+## Wymagania wstępne
 
-Zanim zaczniesz, upewnij się, że masz następujące elementy:
+Zanim zaczniesz, upewnij się, że masz następujące rzeczy:
 
 - Zainstalowano Aspose.Slides dla Java API.
-- Skonfigurowano środowisko programistyczne Java.
+- Konfiguracja środowiska programistycznego Java.
 
-## Krok 1: Zaimportuj niezbędne klasy:
+## Krok 1: Importuj niezbędne klasy:
 
 ```java
 // Importuj Aspose.Slides dla klas Java
@@ -38,7 +40,7 @@ import com.aspose.slides.*;
 String dataDir = "Your Document Directory";
 ```
 
-##  Krok 3: Utwórz instancję`Presentation` class:
+## Krok 3: Utwórz instancję `Presentation` klasa:
 
 ```java
 Presentation presentation = new Presentation();
@@ -51,7 +53,7 @@ try {
     ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
-## Krok 5: Dodaj do slajdu grupowany wykres kolumnowy:
+## Krok 5: Dodaj do slajdu wykres kolumnowy klastrowany:
 
 ```java
     IChart chart = slide.getShapes().addChart(ChartType.ClusteredColumn, 50, 50, 500, 500);
@@ -59,25 +61,25 @@ try {
 
 ## Krok 6. Ustaw właściwości legendy:
 
-- Ustaw pozycję X legendy (w stosunku do szerokości wykresu):
+- Ustaw pozycję X legendy (względem szerokości wykresu):
 
 ```java
 chart.getLegend().setX(50 / chart.getWidth());
 ```
 
-- Ustaw pozycję Y legendy (w stosunku do wysokości wykresu):
+- Ustaw pozycję Y legendy (względem wysokości wykresu):
 
 ```java
 chart.getLegend().setY(50 / chart.getHeight());
 ```
 
-- Ustaw szerokość legendy (w stosunku do szerokości wykresu):
+- Ustaw szerokość legendy (względem szerokości wykresu):
 
 ```java
 chart.getLegend().setWidth(100 / chart.getWidth());
 ```
 
-- Ustaw wysokość legendy (w stosunku do wysokości wykresu):
+- Ustaw wysokość legendy (względem wysokości wykresu):
 
 ```java
 chart.getLegend().setHeight(100 / chart.getHeight());
@@ -92,20 +94,20 @@ chart.getLegend().setHeight(100 / chart.getHeight());
 }
 ```
 
-Otóż to! Pomyślnie dostosowałeś właściwości legendy wykresu w prezentacji programu PowerPoint przy użyciu Aspose.Slides for Java.
+To wszystko! Udało Ci się dostosować właściwości legendy wykresu w prezentacji PowerPoint przy użyciu Aspose.Slides dla Java.
 
-## Kompletny kod źródłowy dla opcji niestandardowych zestawu legendy w slajdach Java
+## Kompletny kod źródłowy dla opcji niestandardowych legendy w slajdach Java
 
 ```java
 // Ścieżka do katalogu dokumentów.
 String dataDir = "Your Document Directory";
-// Utwórz instancję klasy Prezentacja
+// Utwórz instancję klasy Presentation
 Presentation presentation = new Presentation();
 try
 {
 	// Uzyskaj odniesienie do slajdu
 	ISlide slide = presentation.getSlides().get_Item(0);
-	// Dodaj grupowany wykres kolumnowy na slajdzie
+	// Dodaj wykres kolumnowy klastrowany na slajdzie
 	IChart chart = slide.getShapes().addChart(ChartType.ClusteredColumn, 50, 50, 500, 500);
 	// Ustaw właściwości legendy
 	chart.getLegend().setX(50 / chart.getWidth());
@@ -122,24 +124,26 @@ finally
 ```
 ## Wniosek
 
-W tym samouczku dowiedzieliśmy się, jak dostosować właściwości legendy wykresu w prezentacji programu PowerPoint przy użyciu Aspose.Slides dla Java. Możesz modyfikować położenie, rozmiar i inne atrybuty legendy, aby stworzyć atrakcyjne wizualnie i pouczające prezentacje.
+W tym samouczku nauczyliśmy się, jak dostosować właściwości legendy wykresu w prezentacji PowerPoint przy użyciu Aspose.Slides for Java. Możesz modyfikować położenie, rozmiar i inne atrybuty legendy, aby tworzyć atrakcyjne wizualnie i informacyjne prezentacje.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
 ## Jak mogę zmienić położenie legendy?
 
- Aby zmienić położenie legendy, użyj przycisku`setX` I`setY` metody obiektu legendy. Wartości są określone w odniesieniu do szerokości i wysokości wykresu.
+Aby zmienić położenie legendy, użyj `setX` I `setY` metody obiektu legendy. Wartości są określone w odniesieniu do szerokości i wysokości wykresu.
 
-## Jak mogę dostosować rozmiar legendy?
+## Jak mogę zmienić rozmiar legendy?
 
- Rozmiar legendy można dostosować za pomocą opcji`setWidth` I`setHeight` metody obiektu legendy. Wartości te odnoszą się także do szerokości i wysokości wykresu.
+Możesz dostosować rozmiar legendy za pomocą `setWidth` I `setHeight` metody obiektu legendy. Wartości te są również względne do szerokości i wysokości wykresu.
 
 ## Czy mogę dostosować inne atrybuty legendy?
 
 Tak, możesz dostosować różne atrybuty legendy, takie jak styl czcionki, obramowanie, kolor tła i inne. Zapoznaj się z dokumentacją Aspose.Slides, aby uzyskać szczegółowe informacje na temat dalszego dostosowywania legend.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Aspose.Slides ज़ूम फ़्रेम के साथ गतिशील प्रस्तुतियाँ बनाएँ
-linktitle: Aspose.Slides के साथ प्रेजेंटेशन स्लाइड्स में ज़ूम फ़्रेम बनाना
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: .NET के लिए Aspose.Slides का उपयोग करके ज़ूम फ़्रेम के साथ आकर्षक प्रस्तुतियाँ बनाना सीखें। एक आकर्षक स्लाइड अनुभव के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 17
-url: /hi/net/image-and-video-manipulation-in-slides/creating-zoom-frame/
+"description": ".NET के लिए Aspose.Slides का उपयोग करके ज़ूम फ़्रेम के साथ आकर्षक प्रस्तुतियाँ बनाना सीखें। एक आकर्षक स्लाइड अनुभव के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "Aspose.Slides के साथ प्रेजेंटेशन स्लाइड्स में ज़ूम फ़्रेम बनाना"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "Aspose.Slides ज़ूम फ़्रेम के साथ गतिशील प्रस्तुतियाँ बनाएँ"
+"url": "/hi/net/image-and-video-manipulation-in-slides/creating-zoom-frame/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Slides ज़ूम फ़्रेम के साथ गतिशील प्रस्तुतियाँ बनाएँ
@@ -17,7 +19,7 @@ url: /hi/net/image-and-video-manipulation-in-slides/creating-zoom-frame/
 प्रस्तुतियों के क्षेत्र में, आकर्षक स्लाइड्स स्थायी प्रभाव छोड़ने के लिए महत्वपूर्ण हैं। Aspose.Slides for .NET एक शक्तिशाली टूलसेट प्रदान करता है, और इस गाइड में, हम आपको अपनी प्रस्तुति स्लाइड्स में आकर्षक ज़ूम फ़्रेम शामिल करने की प्रक्रिया के बारे में बताएँगे।
 ## आवश्यक शर्तें
 इस यात्रा पर निकलने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित चीजें मौजूद हैं:
--  Aspose.Slides for .NET लाइब्रेरी: लाइब्रेरी को डाउनलोड करें और इंस्टॉल करें[Aspose.Slides दस्तावेज़ीकरण](https://reference.aspose.com/slides/net/).
+- Aspose.Slides for .NET लाइब्रेरी: लाइब्रेरी को डाउनलोड करें और इंस्टॉल करें [Aspose.Slides दस्तावेज़ीकरण](https://reference.aspose.com/slides/net/).
 - विकास वातावरण: अपना पसंदीदा .NET विकास वातावरण सेट करें।
 - ज़ूम फ़्रेम के लिए छवि: एक छवि फ़ाइल तैयार करें जिसे आप ज़ूम प्रभाव के लिए उपयोग करना चाहते हैं।
 ## नामस्थान आयात करें
@@ -33,7 +35,7 @@ using Aspose.Slides.Export;
 ```csharp
 // दस्तावेज़ निर्देशिका का पथ.
 string dataDir = "Your Documents Directory";
-// आउटपुट फ़ाइल नाम
+// आउटपुट फ़ाइल का नाम
 string resultPath = Path.Combine(dataDir, "ZoomFramePresentation.pptx");
 // स्रोत छवि का पथ
 string imagePath = Path.Combine(dataDir, "aspose-logo.jpg");
@@ -50,7 +52,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 ## चरण 3: स्लाइड पृष्ठभूमि अनुकूलित करें
-अपनी स्लाइड्स की पृष्ठभूमि को अनुकूलित करके उनकी दृश्य अपील को बढ़ाएँ। इस उदाहरण में, हमने दूसरी स्लाइड के लिए एक ठोस सियान पृष्ठभूमि सेट की है।
+अपनी स्लाइड्स की पृष्ठभूमि को कस्टमाइज़ करके उनकी दृश्य अपील को बढ़ाएँ। इस उदाहरण में, हमने दूसरी स्लाइड के लिए एक ठोस सियान पृष्ठभूमि सेट की है।
 ```csharp
 // दूसरी स्लाइड के लिए पृष्ठभूमि बनाएँ
 slide2.Background.Type = BackgroundType.OwnBackground;
@@ -88,16 +90,18 @@ pres.Save(resultPath, SaveFormat.Pptx);
 ### प्रश्न: क्या मैं ज़ूमफ्रेम्स के स्वरूप को अनुकूलित कर सकता हूँ?
 हां, आप विभिन्न पहलुओं जैसे लाइन की चौड़ाई, भरण रंग और डैश शैली को अनुकूलित कर सकते हैं, जैसा कि ट्यूटोरियल में दिखाया गया है।
 ### प्रश्न: क्या .NET के लिए Aspose.Slides का कोई परीक्षण संस्करण उपलब्ध है?
- हां, आप परीक्षण संस्करण तक पहुंच सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप परीक्षण संस्करण तक पहुंच सकते हैं [यहाँ](https://releases.aspose.com/).
 ### प्रश्न: मैं अतिरिक्त सहायता या सामुदायिक चर्चा कहां पा सकता हूं?
- दौरा करना[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) समर्थन और चर्चा के लिए।
+दौरा करना [Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) समर्थन और चर्चा के लिए।
 ### प्रश्न: मैं .NET के लिए Aspose.Slides हेतु अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
- आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+आप अस्थायी लाइसेंस प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
 ### प्रश्न: मैं .NET के लिए Aspose.Slides का पूर्ण संस्करण कहां से खरीद सकता हूं?
- आप पूर्ण संस्करण खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+आप पूर्ण संस्करण खरीद सकते हैं [यहाँ](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: पावरपॉइंट में पैटर्न के साथ आकृतियाँ भरें
-linktitle: पावरपॉइंट में पैटर्न के साथ आकृतियाँ भरें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके PowerPoint में आकृतियों को पैटर्न से भरना सीखें। अपनी प्रस्तुतियों को दृश्यात्मक रूप से बेहतर बनाने के लिए हमारे आसान, चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 11
-url: /hi/java/java-powerpoint-shape-formatting-geometry/fill-shapes-pattern-powerpoint/
+"description": "Aspose.Slides for Java का उपयोग करके PowerPoint में आकृतियों को पैटर्न से भरना सीखें। अपनी प्रस्तुतियों को दृश्यात्मक रूप से बेहतर बनाने के लिए हमारे आसान, चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "पावरपॉइंट में पैटर्न के साथ आकृतियाँ भरें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "पावरपॉइंट में पैटर्न के साथ आकृतियाँ भरें"
+"url": "/hi/java/java-powerpoint-shape-formatting-geometry/fill-shapes-pattern-powerpoint/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पावरपॉइंट में पैटर्न के साथ आकृतियाँ भरें
@@ -19,7 +21,7 @@ url: /hi/java/java-powerpoint-shape-formatting-geometry/fill-shapes-pattern-powe
 कोड में आगे बढ़ने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
 - आपकी मशीन पर जावा डेवलपमेंट किट (JDK) स्थापित है।
 - एकीकृत विकास वातावरण (आईडीई) जैसे कि इंटेलीज आईडिया या एक्लिप्स।
--  Aspose.Slides for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+- Aspose.Slides for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 - जावा प्रोग्रामिंग का बुनियादी ज्ञान.
 ## पैकेज आयात करें
 सबसे पहले, आइए हमारे उदाहरण के लिए आवश्यक पैकेजों को आयात करें।
@@ -43,7 +45,7 @@ if (!isExists) {
 ```
 यह स्निपेट जाँचता है कि क्या निर्देशिका मौजूद है, और यदि नहीं तो उसे बनाता है।
 ## चरण 3: प्रेजेंटेशन क्लास को इंस्टैंशिएट करें
- इसके बाद, हमें इसका एक उदाहरण बनाना होगा`Presentation` क्लास, जो हमारी पावरपॉइंट फ़ाइल का प्रतिनिधित्व करता है।
+इसके बाद, हमें इसका एक उदाहरण बनाना होगा `Presentation` क्लास, जो हमारी पावरपॉइंट फ़ाइल का प्रतिनिधित्व करता है।
 ```java
 Presentation pres = new Presentation();
 ```
@@ -54,7 +56,7 @@ Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
 ```
 ## चरण 5: एक आयताकार आकार जोड़ें
-आइए अपनी स्लाइड में एक आयताकार आकृति जोड़ें। यह आयताकार आकृति एक पैटर्न से भरी जाएगी।
+आइए अपनी स्लाइड में एक आयताकार आकार जोड़ें। यह आयताकार एक पैटर्न से भरा जाएगा।
 ```java
 IShape shape = slide.getShapes().addAutoShape(ShapeType.Rectangle, 50, 150, 75, 150);
 ```
@@ -75,7 +77,7 @@ shape.getFillFormat().getPatternFormat().setPatternStyle(PatternStyle.Trellis);
 shape.getFillFormat().getPatternFormat().getBackColor().setColor(Color.LIGHT_GRAY);
 shape.getFillFormat().getPatternFormat().getForeColor().setColor(Color.YELLOW);
 ```
-## चरण 9: प्रेजेंटेशन सहेजें
+## चरण 9: प्रस्तुति सहेजें
 इच्छित पैटर्न के साथ अपना आकार सेट करने के बाद, हमें प्रस्तुति को एक फ़ाइल में सहेजना होगा।
 ```java
 pres.save(dataDir + "RectShpPatt_out.pptx", SaveFormat.Pptx);
@@ -88,21 +90,23 @@ if (pres != null) pres.dispose();
 ```
 ## निष्कर्ष
 बधाई हो! आपने Aspose.Slides for Java का उपयोग करके PowerPoint स्लाइड में पैटर्न के साथ सफलतापूर्वक एक आकृति भरी है। यह शक्तिशाली लाइब्रेरी आपको आसानी से प्रस्तुतियाँ बनाने और हेरफेर करने की अनुमति देती है, जिससे आपकी परियोजनाओं में एक पेशेवर स्पर्श जुड़ जाता है।
- इस चरण-दर-चरण मार्गदर्शिका का पालन करके, आप अपनी प्रस्तुतियों को विभिन्न पैटर्न के साथ बेहतर बना सकते हैं, जिससे वे अधिक आकर्षक और दिखने में आकर्षक बन सकते हैं। अधिक उन्नत सुविधाओं और अनुकूलन विकल्पों के लिए, अवश्य देखें[Aspose.Slides for Java दस्तावेज़](https://reference.aspose.com/slides/java/).
+इस चरण-दर-चरण मार्गदर्शिका का पालन करके, आप अपने प्रस्तुतियों को विभिन्न पैटर्न के साथ बेहतर बना सकते हैं, जिससे वे अधिक आकर्षक और दिखने में आकर्षक बन सकते हैं। अधिक उन्नत सुविधाओं और अनुकूलन विकल्पों के लिए, अवश्य देखें [Aspose.Slides for Java दस्तावेज़](https://reference.aspose.com/slides/java/).
 ## अक्सर पूछे जाने वाले प्रश्न
 ### Java के लिए Aspose.Slides क्या है?
 Aspose.Slides for Java एक शक्तिशाली API है जो डेवलपर्स को Java अनुप्रयोगों में PowerPoint प्रस्तुतियों को बनाने, हेरफेर करने और परिवर्तित करने की अनुमति देता है।
 ### मैं Java के लिए Aspose.Slides कैसे प्राप्त कर सकता हूँ?
- आप Java के लिए Aspose.Slides को यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+आप Java के लिए Aspose.Slides को यहां से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 ### क्या Aspose.Slides for Java के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
- हां, आप यहां से निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप यहां से निःशुल्क परीक्षण प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/).
 ### क्या मैं मौजूदा प्रस्तुतियों में बदलाव करने के लिए Aspose.Slides for Java का उपयोग कर सकता हूँ?
 हां, Java के लिए Aspose.Slides आपको मौजूदा पावरपॉइंट प्रस्तुतियों को खोलने, संपादित करने और सहेजने की अनुमति देता है।
 ### मैं Aspose.Slides for Java के लिए समर्थन कहां से प्राप्त कर सकता हूं?
- आप यहाँ से सहायता प्राप्त कर सकते हैं[Aspose.Slides समर्थन मंच](https://forum.aspose.com/c/slides/11).
+आप यहाँ से सहायता प्राप्त कर सकते हैं [Aspose.Slides समर्थन मंच](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

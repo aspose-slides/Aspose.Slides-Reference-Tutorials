@@ -1,14 +1,16 @@
 ---
-title: अनुक्रमिक सूचकांक द्वारा स्लाइड मिटाएँ
-linktitle: अनुक्रमिक सूचकांक द्वारा स्लाइड मिटाएँ
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: Aspose.Slides for .NET का उपयोग करके PowerPoint स्लाइड्स को चरण दर चरण मिटाना सीखें। हमारा गाइड आपको उनके अनुक्रमिक इंडेक्स द्वारा प्रोग्रामेटिक रूप से स्लाइड्स को हटाने में मदद करने के लिए स्पष्ट निर्देश और पूर्ण स्रोत कोड प्रदान करता है।
-weight: 24
-url: /hi/net/slide-access-and-manipulation/remove-slide-using-index/
+"description": "Aspose.Slides for .NET का उपयोग करके PowerPoint स्लाइड्स को चरण दर चरण मिटाना सीखें। हमारा गाइड आपको उनके अनुक्रमिक इंडेक्स द्वारा प्रोग्रामेटिक रूप से स्लाइड्स को हटाने में मदद करने के लिए स्पष्ट निर्देश और पूर्ण स्रोत कोड प्रदान करता है।"
+"linktitle": "अनुक्रमिक सूचकांक द्वारा स्लाइड मिटाएँ"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "अनुक्रमिक सूचकांक द्वारा स्लाइड मिटाएँ"
+"url": "/hi/net/slide-access-and-manipulation/remove-slide-using-index/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # अनुक्रमिक सूचकांक द्वारा स्लाइड मिटाएँ
@@ -23,7 +25,7 @@ url: /hi/net/slide-access-and-manipulation/remove-slide-using-index/
 इससे पहले कि हम चरण-दर-चरण मार्गदर्शिका में आगे बढ़ें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
 - विज़ुअल स्टूडियो या कोई अन्य .NET विकास वातावरण
--  .NET लाइब्रेरी के लिए Aspose.Slides (आप इसे यहां से डाउनलोड कर सकते हैं)[यहाँ](https://releases.aspose.com/slides/net/)
+- .NET लाइब्रेरी के लिए Aspose.Slides (आप इसे यहां से डाउनलोड कर सकते हैं) [यहाँ](https://releases.aspose.com/slides/net/)
 
 ## परियोजना की स्थापना
 
@@ -41,7 +43,7 @@ using Aspose.Slides;
 string presentationPath = "path_to_your_presentation.pptx";
 using (Presentation presentation = new Presentation(presentationPath))
 {
-    //स्लाइड मैनीपुलेशन के लिए आपका कोड यहां जाएगा
+    // स्लाइड मैनीपुलेशन के लिए आपका कोड यहां जाएगा
 }
 ```
 
@@ -62,24 +64,24 @@ presentation.Slides.RemoveAt(slideIndexToRemove);
 एक बार जब आप वांछित स्लाइड्स मिटा देते हैं, तो आपको संशोधित प्रस्तुति को सहेजना होगा:
 
 ```csharp
-//संशोधित प्रस्तुति सहेजें
+// संशोधित प्रस्तुति सहेजें
 string outputPath = "path_to_output.pptx";
 presentation.Save(outputPath, SaveFormat.Pptx);
 ```
 
 ## निष्कर्ष
 
-इस गाइड में, आपने सीखा है कि .NET के लिए Aspose.Slides का उपयोग करके स्लाइड्स को उनके अनुक्रमिक इंडेक्स द्वारा कैसे मिटाया जाए। हमने आपके प्रोजेक्ट को सेट करने से लेकर प्रेजेंटेशन लोड करने, स्लाइड्स को मिटाने और संशोधित प्रेजेंटेशन को सहेजने तक के चरणों को कवर किया है। Aspose.Slides के साथ, आप आसानी से स्लाइड मैनिपुलेशन कार्यों को स्वचालित कर सकते हैं, जिससे यह PowerPoint प्रेजेंटेशन के साथ काम करने वाले .NET डेवलपर्स के लिए एक मूल्यवान उपकरण बन जाता है।
+इस गाइड में, आपने सीखा है कि .NET के लिए Aspose.Slides का उपयोग करके स्लाइड्स को उनके अनुक्रमिक इंडेक्स द्वारा कैसे मिटाया जाए। हमने आपके प्रोजेक्ट को सेट अप करने से लेकर प्रेजेंटेशन लोड करने, स्लाइड्स को मिटाने और संशोधित प्रेजेंटेशन को सहेजने तक के चरणों को कवर किया है। Aspose.Slides के साथ, आप आसानी से स्लाइड मैनिपुलेशन कार्यों को स्वचालित कर सकते हैं, जिससे यह PowerPoint प्रेजेंटेशन के साथ काम करने वाले .NET डेवलपर्स के लिए एक मूल्यवान उपकरण बन जाता है।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### मैं Aspose.Slides for .NET लाइब्रेरी कैसे प्राप्त करूं?
 
- आप Aspose.Slides for .NET लाइब्रेरी को Aspose वेबसाइट से डाउनलोड कर सकते हैं[डाउनलोड पृष्ठ](https://releases.aspose.com/slides/net/).
+आप Aspose.Slides for .NET लाइब्रेरी को Aspose वेबसाइट से डाउनलोड कर सकते हैं। [डाउनलोड पृष्ठ](https://releases.aspose.com/slides/net/).
 
 ### क्या मैं एक साथ कई स्लाइड मिटा सकता हूँ?
 
- हां, आप स्लाइड इंडेक्स के माध्यम से पुनरावृत्ति करके और वांछित स्लाइड्स को हटाकर एक बार में कई स्लाइड्स मिटा सकते हैं`Slides.RemoveAt()` तरीका।
+हां, आप स्लाइड इंडेक्स के माध्यम से पुनरावृत्ति करके और वांछित स्लाइड्स को हटाकर एक बार में कई स्लाइड्स मिटा सकते हैं `Slides.RemoveAt()` तरीका।
 
 ### क्या Aspose.Slides विभिन्न PowerPoint प्रारूपों के साथ संगत है?
 
@@ -91,10 +93,12 @@ presentation.Save(outputPath, SaveFormat.Pptx);
 
 ### मैं Aspose.Slides for .NET के बारे में अधिक कैसे जान सकता हूँ?
 
- आप .NET के लिए Aspose.Slides के विस्तृत दस्तावेज़ और API संदर्भ का पता लगा सकते हैं[दस्तावेज़ पृष्ठ](https://reference.aspose.com/slides/net/).
+आप .NET के लिए Aspose.Slides के विस्तृत दस्तावेज़ और API संदर्भ का पता लगा सकते हैं [दस्तावेज़ पृष्ठ](https://reference.aspose.com/slides/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

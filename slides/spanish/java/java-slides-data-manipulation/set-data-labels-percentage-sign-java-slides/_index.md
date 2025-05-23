@@ -1,28 +1,30 @@
 ---
-title: Establecer etiquetas de datos Iniciar sesión porcentual en diapositivas de Java
-linktitle: Establecer etiquetas de datos Iniciar sesión porcentual en diapositivas de Java
-second_title: Aspose.Slides API de procesamiento de PowerPoint Java
-description: Aprenda a configurar etiquetas de datos con signos de porcentaje en presentaciones de PowerPoint usando Aspose.Slides para Java. Cree gráficos atractivos con orientación paso a paso y código fuente.
-weight: 17
-url: /es/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
+"description": "Aprenda a establecer etiquetas de datos con signos de porcentaje en presentaciones de PowerPoint con Aspose.Slides para Java. Cree gráficos atractivos con instrucciones paso a paso y código fuente."
+"linktitle": "Establecer etiquetas de datos con el signo de porcentaje en diapositivas de Java"
+"second_title": "API de procesamiento de PowerPoint en Java de Aspose.Slides"
+"title": "Establecer etiquetas de datos con el signo de porcentaje en diapositivas de Java"
+"url": "/es/java/data-manipulation/set-data-labels-percentage-sign-java-slides/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Establecer etiquetas de datos Iniciar sesión porcentual en diapositivas de Java
+# Establecer etiquetas de datos con el signo de porcentaje en diapositivas de Java
 
 
-## Introducción al inicio de sesión de porcentaje de etiquetas de datos en Aspose.Slides para Java
+## Introducción al uso del signo de porcentaje en etiquetas de datos de conjuntos en Aspose.Slides para Java
 
-En esta guía, lo guiaremos a través del proceso de configuración de etiquetas de datos con un signo de porcentaje usando Aspose.Slides para Java. Crearemos una presentación de PowerPoint con un gráfico de columnas apiladas y configuraremos etiquetas de datos para mostrar porcentajes.
+En esta guía, le guiaremos a través del proceso de configurar etiquetas de datos con un signo de porcentaje usando Aspose.Slides para Java. Crearemos una presentación de PowerPoint con un gráfico de columnas apiladas y configuraremos las etiquetas de datos para mostrar porcentajes.
 
-## Requisitos previos
+## Prerrequisitos
 
- Antes de comenzar, asegúrese de tener la biblioteca Aspose.Slides para Java agregada a su proyecto. Puedes descargarlo desde[aquí](https://releases.aspose.com/slides/java/).
+Antes de comenzar, asegúrese de tener la biblioteca Aspose.Slides para Java agregada a su proyecto. Puede descargarla desde [aquí](https://releases.aspose.com/slides/java/).
 
-## Paso 1: crea una nueva presentación
+## Paso 1: Crear una nueva presentación
 
 Primero, creamos una nueva presentación de PowerPoint usando Aspose.Slides.
 
@@ -33,44 +35,44 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation();
 ```
 
-## Paso 2: agregue una diapositiva y un gráfico
+## Paso 2: Agregar una diapositiva y un gráfico
 
-A continuación, agregamos una diapositiva y un gráfico de columnas apiladas a la presentación.
+continuación, agregamos una diapositiva y un gráfico de columnas apiladas a la presentación.
 
 ```java
 // Obtener referencia de la diapositiva
 ISlide slide = presentation.getSlides().get_Item(0);
 
-// Agregar gráfico PercentsStackedColumn en una diapositiva
+// Agregar el gráfico PercentsStackedColumn en una diapositiva
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
 ```
 
-## Paso 3: configurar el formato del número de eje
+## Paso 3: Configurar el formato del número de eje
 
-Para mostrar porcentajes, necesitamos configurar el formato numérico para el eje vertical del gráfico.
+Para mostrar porcentajes, necesitamos configurar el formato de número para el eje vertical del gráfico.
 
 ```java
-// Establecer NumberFormatLinkedToSource en falso
+// Establezca NumberFormatLinkedToSource en falso
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 ```
 
-## Paso 4: agregar datos del gráfico
+## Paso 4: Agregar datos del gráfico
 
-Agregamos datos al gráfico creando series y puntos de datos. En este ejemplo, sumamos dos series con sus respectivos puntos de datos.
+Agregamos datos al gráfico creando series y puntos de datos. En este ejemplo, agregamos dos series con sus respectivos puntos de datos.
 
 ```java
 // Obtener la hoja de trabajo de datos del gráfico
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
-// Agregar nueva serie
+// Añadir nueva serie
 IChartSeries series = chart.getChartData().getSeries().add(workbook.getCell(defaultWorksheetIndex, 0, 1, "Reds"), chart.getType());
 series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 1, 1, 0.30));
 series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 2, 1, 0.50));
 series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 3, 1, 0.80));
 series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 4, 1, 0.65));
 
-// Agregar nueva serie
+// Añadir nueva serie
 IChartSeries series2 = chart.getChartData().getSeries().add(workbook.getCell(defaultWorksheetIndex, 0, 2, "Blues"), chart.getType());
 series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 1, 2, 0.70));
 series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 2, 2, 0.50));
@@ -78,12 +80,12 @@ series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorkshe
 series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 4, 2, 0.35));
 ```
 
-## Paso 5: Personaliza las etiquetas de datos
+## Paso 5: Personalizar las etiquetas de datos
 
 Ahora, personalicemos la apariencia de las etiquetas de datos.
 
 ```java
-// Establecer propiedades de formato de etiqueta
+// Configuración de las propiedades de LabelFormat
 series.getLabels().getDefaultDataLabelFormat().setShowValue(true);
 series.getLabels().getDefaultDataLabelFormat().setNumberFormatLinkedToSource(false);
 series.getLabels().getDefaultDataLabelFormat().setNumberFormat("0.0%");
@@ -100,18 +102,18 @@ series2.getLabels().getDefaultDataLabelFormat().getTextFormat().getPortionFormat
 series2.getLabels().getDefaultDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
 ```
 
-## Paso 6: guarde la presentación
+## Paso 6: Guardar la presentación
 
-Finalmente, guardamos la presentación en un archivo de PowerPoint.
+Por último, guardamos la presentación en un archivo de PowerPoint.
 
 ```java
 // Escribir presentación en disco
 presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.Pptx);
 ```
 
-¡Eso es todo! Ha creado con éxito una presentación de PowerPoint con un gráfico de columnas apiladas y ha configurado etiquetas de datos para mostrar porcentajes utilizando Aspose.Slides para Java.
+¡Listo! Has creado correctamente una presentación de PowerPoint con un gráfico de columnas apiladas y has configurado las etiquetas de datos para mostrar porcentajes usando Aspose.Slides para Java.
 
-## Código fuente completo para establecer etiquetas de datos Iniciar sesión porcentual en diapositivas de Java
+## Código fuente completo para etiquetas de datos de conjuntos con signos de porcentaje en diapositivas de Java
 
 ```java
 // La ruta al directorio de documentos.
@@ -120,25 +122,25 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation();
 // Obtener referencia de la diapositiva
 ISlide slide = presentation.getSlides().get_Item(0);
-// Agregar gráfico PercentsStackedColumn en una diapositiva
+// Agregar el gráfico PercentsStackedColumn en una diapositiva
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
-// Establecer NumberFormatLinkedToSource en falso
+// Establezca NumberFormatLinkedToSource en falso
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
 int defaultWorksheetIndex = 0;
 // Obtener la hoja de trabajo de datos del gráfico
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
-// Agregar nueva serie
+// Añadir nueva serie
 IChartSeries series = chart.getChartData().getSeries().add(workbook.getCell(defaultWorksheetIndex, 0, 1, "Reds"), chart.getType());
 series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 1, 1, 0.30));
 series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 2, 1, 0.50));
 series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 3, 1, 0.80));
 series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 4, 1, 0.65));
-// Configurar el color de relleno de la serie
+// Establecer el color de relleno de la serie
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
-// Establecer propiedades de formato de etiqueta
+// Configuración de las propiedades de LabelFormat
 series.getLabels().getDefaultDataLabelFormat().setShowValue(true);
 series.getLabels().getDefaultDataLabelFormat().setNumberFormatLinkedToSource(false);
 series.getLabels().getDefaultDataLabelFormat().setNumberFormat("0.0%");
@@ -146,7 +148,7 @@ series.getLabels().getDefaultDataLabelFormat().getTextFormat().getPortionFormat(
 series.getLabels().getDefaultDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat().setFillType(FillType.Solid);
 series.getLabels().getDefaultDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
 series.getLabels().getDefaultDataLabelFormat().setShowValue(true);
-// Agregar nueva serie
+// Añadir nueva serie
 IChartSeries series2 = chart.getChartData().getSeries().add(workbook.getCell(defaultWorksheetIndex, 0, 2, "Blues"), chart.getType());
 series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 1, 2, 0.70));
 series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 2, 2, 0.50));
@@ -167,25 +169,27 @@ presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.P
 
 ## Conclusión
 
-Siguiendo esta guía, habrá aprendido a crear presentaciones atractivas con etiquetas de datos basadas en porcentajes, que pueden ser particularmente útiles para transmitir información de manera efectiva en informes comerciales, materiales educativos y más.
+Al seguir esta guía, aprenderá a crear presentaciones atractivas con etiquetas de datos basadas en porcentajes, que pueden ser especialmente útiles para transmitir información de manera eficaz en informes comerciales, materiales educativos y más.
 
 ## Preguntas frecuentes
 
 ### ¿Cómo puedo cambiar los colores de la serie de gráficos?
 
- Puede cambiar el color de relleno de las series de gráficos utilizando el`setFill` método como se muestra en el ejemplo.
+Puede cambiar el color de relleno de las series de gráficos utilizando el `setFill` método como se muestra en el ejemplo.
 
 ### ¿Puedo personalizar el tamaño de fuente de las etiquetas de datos?
 
-Sí, puede personalizar el tamaño de fuente de las etiquetas de datos configurando el`setFontHeight` propiedad como se demuestra en el código.
+Sí, puede personalizar el tamaño de fuente de las etiquetas de datos configurando el `setFontHeight` propiedad como se muestra en el código.
 
 ### ¿Cómo puedo agregar más series al gráfico?
 
- Puede agregar series adicionales al gráfico utilizando el`add` método en el`IChartSeriesCollection` objeto.
+Puede agregar series adicionales al gráfico utilizando el `add` método en el `IChartSeriesCollection` objeto.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

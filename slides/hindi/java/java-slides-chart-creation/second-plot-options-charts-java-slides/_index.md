@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में चार्ट के लिए दूसरा प्लॉट विकल्प
-linktitle: जावा स्लाइड्स में चार्ट के लिए दूसरा प्लॉट विकल्प
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके Java Slides में चार्ट को कस्टमाइज़ करना सीखें। दूसरे प्लॉट विकल्पों का अन्वेषण करें और अपनी प्रस्तुतियों को बेहतर बनाएँ।
-weight: 12
-url: /hi/java/chart-creation/second-plot-options-charts-java-slides/
+"description": "Aspose.Slides for Java का उपयोग करके Java Slides में चार्ट को कस्टमाइज़ करना सीखें। दूसरे प्लॉट विकल्पों का अन्वेषण करें और अपनी प्रस्तुतियों को बेहतर बनाएँ।"
+"linktitle": "जावा स्लाइड्स में चार्ट के लिए दूसरा प्लॉट विकल्प"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में चार्ट के लिए दूसरा प्लॉट विकल्प"
+"url": "/hi/java/chart-creation/second-plot-options-charts-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में चार्ट के लिए दूसरा प्लॉट विकल्प
@@ -90,18 +92,20 @@ presentation.save(dataDir + "SecondPlotOptionsforCharts_out.pptx", SaveFormat.Pp
 
 ### मैं पाई ऑफ पाई चार्ट में दूसरे पाई का आकार कैसे बदल सकता हूँ?
 
-पाई ऑफ पाई चार्ट में दूसरे पाई का आकार बदलने के लिए, का उपयोग करें`setSecondPieSize` विधि जैसा कि ऊपर दिए गए कोड उदाहरण में दिखाया गया है। आकार को प्रतिशत में निर्दिष्ट करने के लिए मान समायोजित करें।
+पाई ऑफ पाई चार्ट में दूसरे पाई का आकार बदलने के लिए, का उपयोग करें `setSecondPieSize` विधि जैसा कि ऊपर दिए गए कोड उदाहरण में दिखाया गया है। आकार को प्रतिशत में निर्दिष्ट करने के लिए मान समायोजित करें।
 
-###  क्या करता है`PieSplitBy` control in a Pie of Pie chart?
+### क्या करता है `PieSplitBy` पाई चार्ट में नियंत्रण कैसे करें?
 
-`PieSplitBy` प्रॉपर्टी नियंत्रित करती है कि पाई चार्ट कैसे विभाजित किया जाता है। आप इसे या तो सेट कर सकते हैं`PieSplitType.ByPercentage` या`PieSplitType.ByValue` चार्ट को क्रमशः प्रतिशत या किसी विशिष्ट मान के आधार पर विभाजित करने के लिए।
+The `PieSplitBy` प्रॉपर्टी यह नियंत्रित करती है कि पाई चार्ट कैसे विभाजित किया जाता है। आप इसे या तो सेट कर सकते हैं `PieSplitType.ByPercentage` या `PieSplitType.ByValue` चार्ट को क्रमशः प्रतिशत या किसी विशिष्ट मान के आधार पर विभाजित करने के लिए।
 
 ### मैं पाई ऑफ पाई चार्ट में विभाजन की स्थिति कैसे निर्धारित करूं?
 
- आप पाई ऑफ पाई चार्ट में विभाजन की स्थिति निर्धारित करने के लिए निम्न का उपयोग कर सकते हैं:`setPieSplitPosition` विधि। वांछित स्थिति निर्दिष्ट करने के लिए मान समायोजित करें।
+आप पाई ऑफ पाई चार्ट में विभाजन की स्थिति निर्धारित करने के लिए निम्न का उपयोग कर सकते हैं: `setPieSplitPosition` विधि। वांछित स्थिति निर्दिष्ट करने के लिए मान समायोजित करें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

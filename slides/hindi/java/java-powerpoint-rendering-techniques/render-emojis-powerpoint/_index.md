@@ -1,14 +1,16 @@
 ---
-title: पावरपॉइंट में इमोजी प्रस्तुत करें
-linktitle: पावरपॉइंट में इमोजी प्रस्तुत करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में इमोजी को आसानी से प्रस्तुत करना सीखें। अभिव्यंजक दृश्यों के साथ सहभागिता बढ़ाएँ।
-weight: 12
-url: /hi/java/java-powerpoint-rendering-techniques/render-emojis-powerpoint/
+"description": "Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में इमोजी को आसानी से प्रस्तुत करना सीखें। अभिव्यंजक दृश्यों के साथ सहभागिता बढ़ाएँ।"
+"linktitle": "पावरपॉइंट में इमोजी प्रस्तुत करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "पावरपॉइंट में इमोजी प्रस्तुत करें"
+"url": "/hi/java/java-powerpoint-rendering-techniques/render-emojis-powerpoint/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पावरपॉइंट में इमोजी प्रस्तुत करें
@@ -18,7 +20,7 @@ url: /hi/java/java-powerpoint-rendering-techniques/render-emojis-powerpoint/
 ## आवश्यक शर्तें
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
 1. जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपके सिस्टम पर JDK स्थापित है।
-2.  Aspose.Slides for Java: Aspose.Slides for Java को डाउनलोड करें और इंस्टॉल करें[लिंक को डाउनलोड करें](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides for Java: Aspose.Slides for Java को डाउनलोड करें और इंस्टॉल करें [लिंक को डाउनलोड करें](https://releases.aspose.com/slides/java/).
 3. विकास वातावरण: अपना पसंदीदा जावा विकास वातावरण सेट करें।
 
 ## पैकेज आयात करें
@@ -29,7 +31,7 @@ import com.aspose.slides.SaveFormat;
 
 ```
 ## चरण 1: अपनी डेटा निर्देशिका तैयार करें
- अपनी पावरपॉइंट फ़ाइल और अन्य संसाधनों को संग्रहीत करने के लिए एक निर्देशिका बनाएँ। चलिए इसका नाम रखते हैं`dataDir`.
+अपनी पावरपॉइंट फ़ाइल और अन्य संसाधनों को संग्रहीत करने के लिए एक निर्देशिका बनाएँ। चलिए इसका नाम रखते हैं `dataDir`.
 ```java
 String dataDir = "path/to/your/data/directory/";
 ```
@@ -55,12 +57,14 @@ Java के लिए Aspose.Slides मानक यूनिकोड इमो
 ### क्या मैं प्रस्तुत इमोजी का आकार और स्थिति अनुकूलित कर सकता हूँ?
 हां, आप Aspose.Slides for Java API का उपयोग करके प्रोग्रामेटिक रूप से रेंडर किए गए इमोजी के आकार, स्थिति और अन्य गुणों को अनुकूलित कर सकते हैं।
 ### क्या Aspose.Slides for Java, PowerPoint के सभी संस्करणों में इमोजी प्रस्तुत करने का समर्थन करता है?
-हां, Aspose.Slides for Java पावरपॉइंट के सभी संस्करणों के साथ संगत है, जो विभिन्न प्लेटफार्मों पर इमोजी का निर्बाध प्रतिपादन सुनिश्चित करता है।
+हां, Java के लिए Aspose.Slides पावरपॉइंट के सभी संस्करणों के साथ संगत है, जो विभिन्न प्लेटफार्मों पर इमोजीस के निर्बाध रेंडरिंग को सुनिश्चित करता है।
 ### क्या Java के लिए Aspose.Slides का कोई परीक्षण संस्करण उपलब्ध है?
- हां, आप जावा के लिए Aspose.Slides का एक निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं[वेबसाइट](https://releases.aspose.com/) खरीदने से पहले इसकी विशेषताओं का पता लगाएं।
+हां, आप जावा के लिए Aspose.Slides का एक निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं [वेबसाइट](https://releases.aspose.com/) खरीदने से पहले इसकी विशेषताओं का पता लगाएं।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

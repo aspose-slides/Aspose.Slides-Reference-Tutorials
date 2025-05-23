@@ -1,28 +1,30 @@
 ---
-title: Lấy phần hình chữ nhật trong PowerPoint bằng Java
-linktitle: Lấy phần hình chữ nhật trong PowerPoint bằng Java
-second_title: Aspose.Slides API xử lý PowerPoint Java
-description: Tìm hiểu cách lấy phần hình chữ nhật trong PowerPoint bằng Aspose.Slides cho Java với hướng dẫn từng bước chi tiết này. Hoàn hảo cho các nhà phát triển Java.
-weight: 12
-url: /vi/java/java-powerpoint-advanced-paragraph-font-properties/get-portion-rectangle-powerpoint-java/
+"description": "Tìm hiểu cách tạo phần hình chữ nhật trong PowerPoint bằng Aspose.Slides for Java với hướng dẫn chi tiết từng bước này. Hoàn hảo cho các nhà phát triển Java."
+"linktitle": "Lấy phần hình chữ nhật trong PowerPoint bằng Java"
+"second_title": "API xử lý PowerPoint Java của Aspose.Slides"
+"title": "Lấy phần hình chữ nhật trong PowerPoint bằng Java"
+"url": "/vi/java/java-powerpoint-advanced-paragraph-font-properties/get-portion-rectangle-powerpoint-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lấy phần hình chữ nhật trong PowerPoint bằng Java
 
 ## Giới thiệu
-Tạo bản trình bày động trong Java thật dễ dàng với Aspose.Slides cho Java. Trong hướng dẫn này, chúng ta sẽ đi sâu vào chi tiết cơ bản về cách lấy phần hình chữ nhật trong PowerPoint bằng Aspose.Slides. Chúng tôi sẽ đề cập đến mọi thứ từ việc thiết lập môi trường của bạn đến chia nhỏ mã theo từng bước. Vậy hãy bắt đầu!
+Tạo các bài thuyết trình động trong Java thật dễ dàng với Aspose.Slides for Java. Trong hướng dẫn này, chúng ta sẽ đi sâu vào chi tiết để có được hình chữ nhật phần trong PowerPoint bằng Aspose.Slides. Chúng ta sẽ đề cập đến mọi thứ từ thiết lập môi trường của bạn đến phân tích mã từng bước. Vậy, hãy bắt đầu nào!
 ## Điều kiện tiên quyết
-Trước khi chúng ta bắt đầu viết mã, hãy đảm bảo bạn có mọi thứ bạn cần để thực hiện suôn sẻ:
-1. Bộ công cụ phát triển Java (JDK): Đảm bảo bạn đã cài đặt JDK 8 trở lên trên máy của mình.
-2.  Aspose.Slides cho Java: Tải xuống phiên bản mới nhất từ[đây](https://releases.aspose.com/slides/java/).
+Trước khi tìm hiểu mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết để theo dõi một cách suôn sẻ:
+1. Java Development Kit (JDK): Đảm bảo máy của bạn đã cài đặt JDK 8 trở lên.
+2. Aspose.Slides cho Java: Tải xuống phiên bản mới nhất từ [đây](https://releases.aspose.com/slides/java/).
 3. Môi trường phát triển tích hợp (IDE): Eclipse, IntelliJ IDEA hoặc bất kỳ IDE Java nào khác mà bạn chọn.
 4. Kiến thức cơ bản về Java: Hiểu biết về lập trình Java là điều cần thiết.
-## Gói nhập khẩu
-Trước tiên, hãy nhập các gói cần thiết. Điều này sẽ bao gồm Aspose.Slides và một số thứ khác để xử lý công việc của chúng tôi một cách hiệu quả.
+## Nhập gói
+Trước tiên, hãy nhập các gói cần thiết. Bao gồm Aspose.Slides và một số gói khác để xử lý tác vụ của chúng ta một cách hiệu quả.
 ```java
 import com.aspose.slides.*;
 import com.aspose.slides.examples.RunExamples;
@@ -30,17 +32,17 @@ import java.awt.*;
 import java.awt.geom.Rectangle2D;
 ```
 ## Bước 1: Thiết lập bài thuyết trình
-Bước đầu tiên là tạo một bản trình bày mới. Đây sẽ là canvas của chúng tôi để làm việc.
+Bước đầu tiên là tạo một bài thuyết trình mới. Đây sẽ là khung làm việc của chúng ta.
 ```java
 Presentation pres = new Presentation();
 ```
 ## Bước 2: Tạo bảng
-Bây giờ, hãy thêm một bảng vào slide đầu tiên của bài thuyết trình. Bảng này sẽ chứa các ô mà chúng ta sẽ thêm văn bản vào.
+Bây giờ, hãy thêm một bảng vào slide đầu tiên của bài thuyết trình. Bảng này sẽ chứa các ô mà chúng ta sẽ thêm văn bản.
 ```java
 ITable tbl = pres.getSlides().get_Item(0).getShapes().addTable(50, 50, new double[]{50, 70}, new double[]{50, 50, 50});
 ```
 ## Bước 3: Thêm đoạn văn vào ô
-Tiếp theo, chúng ta sẽ tạo các đoạn văn và thêm chúng vào một ô cụ thể trong bảng. Điều này liên quan đến việc xóa mọi văn bản hiện có và sau đó thêm các đoạn văn mới.
+Tiếp theo, chúng ta sẽ tạo các đoạn văn và thêm chúng vào một ô cụ thể trong bảng. Điều này bao gồm việc xóa bất kỳ văn bản hiện có nào và sau đó thêm các đoạn văn mới.
 ```java
 // Tạo đoạn văn
 IParagraph paragraph0 = new Paragraph();
@@ -59,21 +61,21 @@ cell.getTextFrame().getParagraphs().add(paragraph0);
 cell.getTextFrame().getParagraphs().add(paragraph1);
 cell.getTextFrame().getParagraphs().add(paragraph2);
 ```
-## Bước 4: Thêm khung văn bản vào hình tự động
-Để làm cho bản trình bày của chúng ta sinh động hơn, chúng ta sẽ thêm khung văn bản vào Hình tự động và căn chỉnh nó.
+## Bước 4: Thêm Khung Văn bản vào Hình dạng Tự động
+Để làm cho bài thuyết trình trở nên sinh động hơn, chúng ta sẽ thêm khung văn bản vào AutoShape và thiết lập căn chỉnh cho khung này.
 ```java
 IAutoShape autoShape = pres.getSlides().get_Item(0).getShapes().addAutoShape(ShapeType.Rectangle, 400, 100, 60, 120);
 autoShape.getTextFrame().setText("Text in shape");
 autoShape.getTextFrame().getParagraphs().get_Item(0).getParagraphFormat().setAlignment(TextAlignment.Left);
 ```
-## Bước 5: Tính tọa độ
-Chúng ta cần lấy tọa độ của góc trên bên trái của ô trong bảng. Điều này sẽ giúp chúng ta đặt các hình dạng một cách chính xác.
+## Bước 5: Tính toán tọa độ
+Chúng ta cần lấy tọa độ của góc trên bên trái của ô bảng. Điều này sẽ giúp chúng ta đặt các hình dạng chính xác.
 ```java
 double x = tbl.getX() + cell.getOffsetX();
 double y = tbl.getY() + cell.getOffsetY();
 ```
-## Bước 6: Thêm khung vào đoạn văn và phần
- Sử dụng`IParagraph.getRect()` Và`IPortion.getRect()`phương pháp này, chúng ta có thể thêm khung vào các đoạn văn và các phần của mình. Điều này liên quan đến việc lặp lại các đoạn văn và các phần, tạo các hình dạng xung quanh chúng và tùy chỉnh hình thức của chúng.
+## Bước 6: Thêm Khung vào Đoạn văn và Phần
+Sử dụng `IParagraph.getRect()` Và `IPortion.getRect()` phương pháp, chúng ta có thể thêm khung vào đoạn văn và phần của mình. Điều này bao gồm việc lặp lại các đoạn văn và phần, tạo hình dạng xung quanh chúng và tùy chỉnh giao diện của chúng.
 ```java
 for (IParagraph para : cell.getTextFrame().getParagraphs()) {
     if ("".equals(para.getText())) continue;
@@ -103,8 +105,8 @@ for (IParagraph para : cell.getTextFrame().getParagraphs()) {
     }
 }
 ```
-## Bước 7: Thêm khung vào đoạn văn hình tự động
-Tương tự, chúng tôi sẽ thêm khung vào các đoạn văn trong Hình tự động, nâng cao sức hấp dẫn trực quan của bản trình bày.
+## Bước 7: Thêm Khung vào Đoạn văn AutoShape
+Tương tự như vậy, chúng ta sẽ thêm khung vào các đoạn văn trong AutoShape, tăng tính hấp dẫn trực quan cho bài thuyết trình.
 ```java
 for (IParagraph para : autoShape.getTextFrame().getParagraphs()) {
     Rectangle2D.Float rect = (Rectangle2D.Float) para.getRect().clone();
@@ -121,32 +123,34 @@ for (IParagraph para : autoShape.getTextFrame().getParagraphs()) {
 }
 ```
 ## Bước 8: Lưu bài thuyết trình
-Cuối cùng, chúng ta sẽ lưu bản trình bày của mình vào một đường dẫn cụ thể.
+Cuối cùng, chúng ta sẽ lưu bài thuyết trình vào một đường dẫn cụ thể.
 ```java
 String outPath = "path_to_output_directory";
 pres.save(outPath + "GetRect_Out.pptx", SaveFormat.Pptx);
 ```
 ## Bước 9: Dọn dẹp
-Cách tốt nhất là loại bỏ đối tượng trình bày để giải phóng tài nguyên.
+Thực hành tốt nhất là loại bỏ đối tượng trình bày để giải phóng tài nguyên.
 ```java
 if (pres != null) pres.dispose();
 ```
 ## Phần kết luận
-Chúc mừng! Bạn đã học thành công cách lấy phần hình chữ nhật trong PowerPoint bằng Aspose.Slides cho Java. Thư viện mạnh mẽ này mở ra nhiều khả năng để tạo các bản trình bày năng động và hấp dẫn về mặt hình ảnh theo chương trình. Tìm hiểu sâu hơn về Aspose.Slides và khám phá nhiều tính năng hơn để nâng cao hơn nữa bản trình bày của bạn.
+Xin chúc mừng! Bạn đã học thành công cách lấy phần hình chữ nhật trong PowerPoint bằng Aspose.Slides for Java. Thư viện mạnh mẽ này mở ra một thế giới khả năng để tạo các bài thuyết trình động và hấp dẫn về mặt hình ảnh theo chương trình. Khám phá sâu hơn vào Aspose.Slides và khám phá thêm nhiều tính năng để nâng cao bài thuyết trình của bạn hơn nữa.
 ## Câu hỏi thường gặp
-### Aspose.Slides cho Java là gì?
-Aspose.Slides cho Java là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, sửa đổi và thao tác với các bản trình bày PowerPoint theo chương trình.
+### Aspose.Slides for Java là gì?
+Aspose.Slides for Java là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, chỉnh sửa và thao tác các bài thuyết trình PowerPoint theo chương trình.
 ### Tôi có thể sử dụng Aspose.Slides cho Java trong các dự án thương mại không?
- Có, Aspose.Slides for Java có thể được sử dụng trong các dự án thương mại. Bạn có thể mua giấy phép từ[đây](https://purchase.aspose.com/buy).
-### Có bản dùng thử miễn phí cho Aspose.Slides cho Java không?
- Có, bạn có thể tải xuống bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+Có, Aspose.Slides for Java có thể được sử dụng trong các dự án thương mại. Bạn có thể mua giấy phép từ [đây](https://purchase.aspose.com/buy).
+### Có bản dùng thử miễn phí Aspose.Slides cho Java không?
+Có, bạn có thể tải xuống bản dùng thử miễn phí từ [đây](https://releases.aspose.com/).
 ### Tôi có thể tìm tài liệu về Aspose.Slides cho Java ở đâu?
- Tài liệu có sẵn[đây](https://reference.aspose.com/slides/java/).
-### Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Slides cho Java?
- Bạn có thể nhận được hỗ trợ từ diễn đàn Aspose[đây](https://forum.aspose.com/c/slides/11).
+Tài liệu có sẵn [đây](https://reference.aspose.com/slides/java/).
+### Tôi có thể nhận được hỗ trợ cho Aspose.Slides cho Java như thế nào?
+Bạn có thể nhận được sự hỗ trợ từ diễn đàn Aspose [đây](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

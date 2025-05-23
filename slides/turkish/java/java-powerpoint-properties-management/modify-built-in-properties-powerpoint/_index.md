@@ -1,49 +1,51 @@
 ---
-title: PowerPoint'te Yerleşik Özellikleri Değiştirme
-linktitle: PowerPoint'te Yerleşik Özellikleri Değiştirme
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides for Java'yı kullanarak PowerPoint sunumlarındaki yerleşik özellikleri nasıl değiştireceğinizi öğrenin. Sunumlarınızı programlı olarak geliştirin.
-weight: 12
-url: /tr/java/java-powerpoint-properties-management/modify-built-in-properties-powerpoint/
+"description": "Aspose.Slides for Java kullanarak PowerPoint sunumlarındaki yerleşik özellikleri nasıl değiştireceğinizi öğrenin. Sunumlarınızı programatik olarak geliştirin."
+"linktitle": "PowerPoint'te Yerleşik Özellikleri Değiştirme"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "PowerPoint'te Yerleşik Özellikleri Değiştirme"
+"url": "/tr/java/java-powerpoint-properties-management/modify-built-in-properties-powerpoint/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PowerPoint'te Yerleşik Özellikleri Değiştirme
 
 ## giriiş
-Aspose.Slides for Java, geliştiricilerin PowerPoint sunumlarını programlı olarak değiştirmesine olanak tanır. Önemli özelliklerden biri yazar, başlık, konu, yorumlar ve yönetici gibi yerleşik özellikleri değiştirmektir. Bu eğitim, süreç boyunca size adım adım yol gösterir.
-## Önkoşullar
-Devam etmeden önce aşağıdakilere sahip olduğunuzdan emin olun:
+Java için Aspose.Slides, geliştiricilerin PowerPoint sunumlarını programatik olarak düzenlemesini sağlar. Temel özelliklerden biri, yazar, başlık, konu, yorumlar ve yönetici gibi yerleşik özellikleri değiştirmektir. Bu eğitim sizi adım adım süreç boyunca yönlendirir.
+## Ön koşullar
+Devam etmeden önce şunlara sahip olduğunuzdan emin olun:
 1. Java Geliştirme Kiti (JDK) kuruldu.
-2.  Aspose.Slides for Java kütüphanesi kuruldu. Değilse, şuradan indirin:[Burada](https://releases.aspose.com/slides/java/).
-3. Java programlamanın temel bilgisi.
+2. Java kütüphanesi için Aspose.Slides'ı yükledim. Değilse, şuradan indirin: [Burada](https://releases.aspose.com/slides/java/).
+3. Temel Java programlama bilgisi.
 ## Paketleri İçe Aktar
-Java projenizde gerekli Aspose.Slides sınıflarını içe aktarın:
+Java projenize gerekli Aspose.Slides sınıflarını içe aktarın:
 ```java
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 
 ```
-## 1. Adım: Ortamı Ayarlayın
+## Adım 1: Ortamı Ayarlayın
 PowerPoint dosyanızı içeren dizinin yolunu tanımlayın:
 ```java
 String dataDir = "path_to_your_directory/";
 ```
-## Adım 2: Sunum Sınıfını Başlatın
- PowerPoint sunum dosyasını kullanarak yükleyin.`Presentation` sınıf:
+## Adım 2: Sunum Sınıfını Örneklendirin
+PowerPoint sunum dosyasını kullanarak yükleyin `Presentation` sınıf:
 ```java
 Presentation presentation = new Presentation(dataDir + "ModifyBuiltinProperties.pptx");
 ```
-## 3. Adım: Belge Özelliklerine Erişim
- Erişmek`IDocumentProperties` sunumla ilişkili nesne:
+## Adım 3: Belge Özelliklerine Erişim
+Erişim `IDocumentProperties` sunumla ilişkili nesne:
 ```java
 IDocumentProperties documentProperties = presentation.getDocumentProperties();
 ```
-## 4. Adım: Yerleşik Özellikleri Değiştirin
+## Adım 4: Yerleşik Özellikleri Değiştirin
 Yazar, başlık, konu, yorumlar ve yönetici gibi istediğiniz yerleşik özellikleri ayarlayın:
 ```java
 documentProperties.setAuthor("Aspose.Slides for Java");
@@ -52,28 +54,30 @@ documentProperties.setSubject("Aspose Subject");
 documentProperties.setComments("Aspose Description");
 documentProperties.setManager("Aspose Manager");
 ```
-## Adım 5: Sunuyu Kaydetme
+## Adım 5: Sunumu Kaydedin
 Değiştirilen sunumu bir dosyaya kaydedin:
 ```java
 presentation.save(dataDir + "DocumentProperties_out.pptx", SaveFormat.Pptx);
 ```
 
 ## Çözüm
-Bu eğitimde Aspose.Slides for Java kullanarak PowerPoint sunumlarındaki yerleşik özellikleri nasıl değiştireceğinizi öğrendiniz. Bu işlevsellik, sunumlarınızla ilişkili meta verileri programlı olarak özelleştirmenize olanak tanıyarak bunların kullanılabilirliğini ve organizasyonunu geliştirir.
+Bu eğitimde, Aspose.Slides for Java kullanarak PowerPoint sunumlarındaki yerleşik özellikleri nasıl değiştireceğinizi öğrendiniz. Bu işlevsellik, sunumlarınızla ilişkili meta verileri programatik olarak özelleştirmenize, kullanılabilirliklerini ve organizasyonlarını geliştirmenize olanak tanır.
 ## SSS
-### Belirtilenlerin dışında diğer belge özelliklerini değiştirebilir miyim?
-Evet, Aspose.Slides tarafından sağlanan benzer yöntemleri kullanarak kategori, anahtar kelimeler, şirket vb. diğer çeşitli özellikleri değiştirebilirsiniz.
-### Aspose.Slides PowerPoint'in tüm sürümleriyle uyumlu mu?
-Aspose.Slides, PPT, PPTX, PPS ve diğerleri dahil olmak üzere çeşitli PowerPoint formatlarını destekleyerek farklı sürümler arasında uyumluluk sağlar.
-### Bu işlemi birden fazla sunum için otomatikleştirebilir miyim?
-Kesinlikle! Sunum grupları için özellik değişikliklerini otomatikleştirmek ve iş akışınızı kolaylaştırmak için komut dosyaları veya uygulamalar oluşturabilirsiniz.
+### Bahsedilenlerin dışında diğer belge özelliklerini değiştirebilir miyim?
+Evet, Aspose.Slides tarafından sağlanan benzer yöntemleri kullanarak kategori, anahtar kelimeler, şirket vb. gibi çeşitli diğer özellikleri değiştirebilirsiniz.
+### Aspose.Slides PowerPoint'in tüm sürümleriyle uyumlu mudur?
+Aspose.Slides, PPT, PPTX, PPS ve diğerleri de dahil olmak üzere çeşitli PowerPoint formatlarını destekleyerek farklı sürümler arasında uyumluluğu garanti eder.
+### Bu süreci birden fazla sunum için otomatikleştirebilir miyim?
+Kesinlikle! Sunum grupları için özellik değişikliklerini otomatikleştirmek için betikler veya uygulamalar oluşturabilir, iş akışınızı kolaylaştırabilirsiniz.
 ### Belge özelliklerini değiştirmede herhangi bir sınırlama var mı?
-Aspose.Slides kapsamlı işlevsellik sağlarken bazı gelişmiş özelliklerin PowerPoint formatına ve sürümüne bağlı olarak sınırlamaları olabilir.
+Aspose.Slides kapsamlı işlevler sunsa da, bazı gelişmiş özellikler PowerPoint formatına ve sürümüne bağlı olarak sınırlamalara sahip olabilir.
 ### Aspose.Slides için teknik destek mevcut mu?
- Evet, yardım isteyebilir ve konuyla ilgili tartışmalara katılabilirsiniz.[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11).
+Evet, yardım alabilir ve tartışmalara katılabilirsiniz. [Aspose.Slides forumu](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

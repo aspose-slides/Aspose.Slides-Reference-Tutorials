@@ -1,45 +1,47 @@
 ---
-title: Animace prvků kategorií v Java Slides
-linktitle: Animace prvků kategorií v Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Optimalizujte své Java prezentace pomocí Aspose.Slides for Java. Naučte se krok za krokem animovat prvky kategorií na snímcích PowerPoint.
-weight: 10
-url: /cs/java/animation-and-layout/animating-categories-elements-java-slides/
+"description": "Optimalizujte své prezentace v Javě pomocí Aspose.Slides pro Javu. Naučte se krok za krokem animovat prvky kategorií v PowerPointových slidech."
+"linktitle": "Animace prvků kategorií v Javě Slides"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Animace prvků kategorií v Javě Slides"
+"url": "/cs/java/animation-and-layout/animating-categories-elements-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Animace prvků kategorií v Java Slides
+# Animace prvků kategorií v Javě Slides
 
 
-## Úvod do animace prvků kategorií v Java Slides
+## Úvod do animace prvků kategorií v Javě - Slides
 
-V tomto tutoriálu vás provedeme procesem animace prvků kategorií ve snímcích Java pomocí Aspose.Slides for Java. Tento podrobný průvodce vám poskytne zdrojový kód a vysvětlení, která vám pomohou dosáhnout tohoto efektu animace.
+V tomto tutoriálu vás provedeme procesem animace prvků kategorií v Javě pomocí Aspose.Slides pro Javu. Tento podrobný návod vám poskytne zdrojový kód a vysvětlení, která vám pomohou tohoto animačního efektu dosáhnout.
 
 ## Předpoklady
 
 Než začnete, ujistěte se, že máte následující:
 
-- Aspose.Slides for Java API nainstalováno.
-- Stávající PowerPointová prezentace obsahující graf. Budete animovat prvky kategorie tohoto grafu.
+- Nainstalováno rozhraní Aspose.Slides pro Java API.
+- Existující prezentace v PowerPointu obsahující graf. Budete animovat prvky kategorií tohoto grafu.
 
-## Krok 1: Importujte knihovnu Aspose.Slides
+## Krok 1: Import knihovny Aspose.Slides
 
-Chcete-li začít, importujte knihovnu Aspose.Slides do svého projektu Java. Knihovnu si můžete stáhnout a přidat do třídy třídy svého projektu. Ujistěte se, že máte nastavené potřebné závislosti.
+Chcete-li začít, importujte knihovnu Aspose.Slides do svého projektu Java. Knihovnu si můžete stáhnout a přidat do cesty tříd vašeho projektu. Ujistěte se, že máte nastavené potřebné závislosti.
 
-## Krok 2: Načtěte prezentaci
+## Krok 2: Načtení prezentace
 
 ```java
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
- V tomto kódu načteme existující prezentaci PowerPoint, která obsahuje graf, který chcete animovat. Nahradit`"Your Document Directory"` se skutečnou cestou k vašemu adresáři dokumentů.
+V tomto kódu načteme existující prezentaci aplikace PowerPoint, která obsahuje graf, který chcete animovat. Nahraďte `"Your Document Directory"` se skutečnou cestou k adresáři dokumentů.
 
-## Krok 3: Získejte odkaz na objekt grafu
+## Krok 3: Získání odkazu na objekt Chart
 
 ```java
 ISlide slide = presentation.getSlides().get_Item(0);
@@ -47,9 +49,9 @@ IShapeCollection shapes = slide.getShapes();
 IChart chart = (IChart) shapes.get_Item(0);
 ```
 
-Získáme odkaz na objekt grafu na prvním snímku prezentace. Upravte index snímku (`get_Item(0)`) a index tvaru (`get_Item(0)`) podle potřeby pro přístup k vašemu konkrétnímu grafu.
+Získáme odkaz na objekt grafu v prvním snímku prezentace. Upravíme index snímku (`get_Item(0)`) a index tvaru (`get_Item(0)`) podle potřeby pro přístup k vašemu konkrétnímu grafu.
 
-## Krok 4: Animujte prvky kategorií
+## Krok 4: Animace prvků kategorií
 
 ```java
 slide.getTimeline().getMainSequence().addEffect(chart, EffectType.Fade, EffectSubtype.None, EffectTriggerType.AfterPrevious);
@@ -61,7 +63,7 @@ for (int i = 0; i < chart.getChartData().getCategories().size(); i++) {
 }
 ```
 
-Animujeme prvky kategorií v grafu. Tento kód přidá efekt slábnutí do celého grafu a poté přidá efekt „Objevit se“ ke každému prvku v každé kategorii. Podle potřeby upravte typ a podtyp efektu.
+Animujeme prvky kategorií v grafu. Tento kód přidá efekt prolínání do celého grafu a poté přidá efekt „Objevení“ ke každému prvku v každé kategorii. Upravte typ a podtyp efektu podle potřeby.
 
 ## Krok 5: Uložte prezentaci
 
@@ -69,21 +71,21 @@ Animujeme prvky kategorií v grafu. Tento kód přidá efekt slábnutí do celé
 presentation.save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
 ```
 
- Nakonec upravenou prezentaci s animovaným grafem uložte do nového souboru. Nahradit`"AnimatingCategoriesElements_out.pptx"` s požadovaným názvem výstupního souboru.
+Nakonec uložte upravenou prezentaci s animovaným grafem do nového souboru. Nahraďte `"AnimatingCategoriesElements_out.pptx"` s požadovaným názvem výstupního souboru.
 
 
-## Kompletní zdrojový kód pro animaci prvků kategorií v Java Slides
+## Kompletní zdrojový kód pro animaci prvků kategorií v Javě Slides
 ```java
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 try
 {
-	// Získejte odkaz na objekt grafu
+	// Získání odkazu na objekt grafu
 	ISlide slide = presentation.getSlides().get_Item(0);
 	IShapeCollection shapes = slide.getShapes();
 	IChart chart = (IChart) shapes.get_Item(0);
-	// Animujte prvky kategorií
+	// Animace prvků kategorií
 	slide.getTimeline().getMainSequence().addEffect(chart, EffectType.Fade, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 0, 0, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 0, 1, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
@@ -97,7 +99,7 @@ try
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 1, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 2, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 3, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
-	// Zapište soubor prezentace na disk
+	// Zapište soubor s prezentací na disk
 	presentation.save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
 }
 finally
@@ -108,25 +110,27 @@ finally
 
 ## Závěr
 
-Úspěšně jste animovali prvky kategorie na snímku Java pomocí Aspose.Slides for Java. Tento podrobný průvodce vám poskytl nezbytný zdrojový kód a vysvětlení k dosažení tohoto efektu animace v prezentacích PowerPoint. Experimentujte s různými efekty a nastaveními, abyste si své animace dále přizpůsobili.
+Úspěšně jste animovali prvky kategorií ve snímku v Javě pomocí Aspose.Slides pro Javu. Tato podrobná příručka vám poskytla potřebný zdrojový kód a vysvětlení k dosažení tohoto animačního efektu ve vašich prezentacích v PowerPointu. Experimentujte s různými efekty a nastaveními, abyste si animace dále přizpůsobili.
 
-## FAQ
+## Často kladené otázky
 
-### Jak mohu přizpůsobit efekty animace?
+### Jak si mohu přizpůsobit animační efekty?
 
- Efekty animace můžete přizpůsobit změnou`EffectType` a`EffectSubtype` parametry při přidávání efektů do prvků grafu. Další podrobnosti o dostupných animačních efektech naleznete v dokumentaci Aspose.Slides for Java.
+Animační efekty si můžete přizpůsobit změnou `EffectType` a `EffectSubtype` parametry při přidávání efektů k prvkům grafu. Další podrobnosti o dostupných animačních efektech naleznete v dokumentaci k Aspose.Slides pro Javu.
 
-### Mohu tyto animace použít na jiné typy grafů?
+### Mohu tyto animace použít i na jiné typy grafů?
 
-Ano, podobné animace můžete použít na jiné typy grafů úpravou kódu tak, aby cílil na konkrétní prvky grafu, které chcete animovat. Upravte podle toho strukturu a parametry smyčky.
+Ano, podobné animace můžete použít i na jiné typy grafů úpravou kódu tak, aby cílil na konkrétní prvky grafu, které chcete animovat. Upravte strukturu a parametry smyčky odpovídajícím způsobem.
 
-### Jak se dozvím více o Aspose.Slides pro Java?
+### Jak se dozvím více o Aspose.Slides pro Javu?
 
- Kompletní dokumentaci a další zdroje naleznete na adrese[Aspose.Slides for Java API Reference](https://reference.aspose.com/slides/java/) . Knihovnu si také můžete stáhnout z[tady](https://releases.aspose.com/slides/java/).
+Pro komplexní dokumentaci a další zdroje navštivte [Referenční příručka k Aspose.Slides pro Java API](https://reference.aspose.com/slides/java/)Knihovnu si také můžete stáhnout z [zde](https://releases.aspose.com/slides/java/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

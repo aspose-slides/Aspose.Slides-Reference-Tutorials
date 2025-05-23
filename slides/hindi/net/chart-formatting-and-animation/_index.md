@@ -1,14 +1,16 @@
 ---
-title: चार्ट स्वरूपण और एनीमेशन
-linktitle: चार्ट स्वरूपण और एनीमेशन
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: Aspose.Slides for .NET का उपयोग करके गतिशील चार्ट के साथ अपनी प्रस्तुतियों को बेहतर बनाएँ। चार्ट फ़ॉर्मेटिंग और एनिमेशन को चरण दर चरण सीखें। आज ही अपनी प्रस्तुति कौशल को उन्नत करें!
-weight: 22
-url: /hi/net/chart-formatting-and-animation/
+"description": "Aspose.Slides for .NET का उपयोग करके गतिशील चार्ट के साथ अपनी प्रस्तुतियों को बेहतर बनाएँ। चार्ट फ़ॉर्मेटिंग और एनिमेशन को चरण दर चरण सीखें। आज ही अपनी प्रस्तुति कौशल को उन्नत करें!"
+"linktitle": "चार्ट स्वरूपण और एनीमेशन"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "चार्ट स्वरूपण और एनीमेशन"
+"url": "/hi/net/chart-formatting-and-animation/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # चार्ट स्वरूपण और एनीमेशन
@@ -36,14 +38,16 @@ url: /hi/net/chart-formatting-and-animation/
 ### [Aspose.Slides में चार्ट फ़ॉर्मेटिंग और एनिमेशन](./chart-formatting-and-animation/)
 .NET के लिए Aspose.Slides का उपयोग करके आकर्षक चार्ट फ़ॉर्मेटिंग और एनिमेशन के साथ गतिशील प्रस्तुतियाँ बनाना सीखें।
 ### [चार्ट में श्रेणियों के तत्वों को एनिमेट करना](./animating-categories-elements/)
-Aspose.Slides for .NET का उपयोग करके चार्ट श्रेणी तत्वों में आकर्षक एनिमेशन जोड़ना सीखें। गतिशील दृश्यों के साथ अपनी प्रस्तुतियों को बेहतर बनाएँ।
+.NET के लिए Aspose.Slides का उपयोग करके चार्ट श्रेणी तत्वों में आकर्षक एनिमेशन जोड़ना सीखें। गतिशील दृश्यों के साथ अपनी प्रस्तुतियों को बेहतर बनाएँ।
 ### [चार्ट में श्रृंखला को एनिमेट करना](./animating-series/)
 .NET के लिए Aspose.Slides का उपयोग करके चार्ट श्रृंखला को एनिमेट करना सीखें। आकर्षक डेटा विज़ुअलाइज़ेशन के साथ गतिशील प्रस्तुतियाँ बनाएँ।
 ### [चार्ट में श्रृंखला तत्वों को एनिमेट करना](./animating-series-elements/)
 .NET के लिए Aspose.Slides का उपयोग करके चार्ट श्रृंखला को एनिमेट करना सीखें। गतिशील दृश्यों के साथ आकर्षक प्रस्तुतियाँ बनाएँ। कोड उदाहरणों के साथ विशेषज्ञ गाइड।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

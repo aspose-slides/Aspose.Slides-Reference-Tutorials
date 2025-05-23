@@ -1,14 +1,16 @@
 ---
-title: .NET के लिए Aspose.Slides के साथ शक्तिशाली चार्ट एनिमेशन
-linktitle: चार्ट में श्रेणियों के तत्वों को एनिमेट करना
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: Aspose.Slides for .NET के साथ PowerPoint में चार्ट तत्वों को एनिमेट करना सीखें। शानदार प्रस्तुतियों के लिए चरण-दर-चरण मार्गदर्शिका।
-weight: 11
-url: /hi/net/chart-formatting-and-animation/animating-categories-elements/
+"description": "Aspose.Slides for .NET के साथ PowerPoint में चार्ट तत्वों को एनिमेट करना सीखें। शानदार प्रस्तुतियों के लिए चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "चार्ट में श्रेणियों के तत्वों को एनिमेट करना"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": ".NET के लिए Aspose.Slides के साथ शक्तिशाली चार्ट एनिमेशन"
+"url": "/hi/net/chart-formatting-and-animation/animating-categories-elements/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # .NET के लिए Aspose.Slides के साथ शक्तिशाली चार्ट एनिमेशन
@@ -20,7 +22,7 @@ url: /hi/net/chart-formatting-and-animation/animating-categories-elements/
 
 इससे पहले कि हम ट्यूटोरियल में आगे बढ़ें, आपके पास निम्नलिखित पूर्वापेक्षाएँ होनी चाहिए:
 
--  Aspose.Slides for .NET: सुनिश्चित करें कि आपके विकास परिवेश में Aspose.Slides for .NET स्थापित है। यदि आपने पहले से ऐसा नहीं किया है, तो आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET: सुनिश्चित करें कि आपके विकास परिवेश में Aspose.Slides for .NET स्थापित है। यदि आपने पहले से ऐसा नहीं किया है, तो आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/net/).
 
 - मौजूदा प्रस्तुति: आपके पास एक पावरपॉइंट प्रस्तुति होनी चाहिए जिसमें एक चार्ट हो जिसे आप एनिमेट करना चाहते हैं। यदि आपके पास एक नहीं है, तो परीक्षण के उद्देश्य से चार्ट के साथ एक नमूना प्रस्तुति बनाएं।
 
@@ -62,7 +64,7 @@ slide.Timeline.MainSequence.AddEffect(chart, EffectType.Fade, EffectSubtype.None
 
 इसके बाद, हम चार्ट की प्रत्येक श्रेणी के भीतर अलग-अलग तत्वों में एनीमेशन जोड़ेंगे। यहीं पर असली जादू होता है।
 
-## चरण 3: अलग-अलग तत्वों को एनिमेट करें
+## चरण 3: व्यक्तिगत तत्वों को एनिमेट करें
 
 हम प्रत्येक श्रेणी के अलग-अलग तत्वों के एनीमेशन को निम्नलिखित चरणों में विभाजित करेंगे:
 
@@ -107,7 +109,7 @@ presentation.Save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.P
 }
 ```
 
-अंतिम चरण में, हम नए जोड़े गए एनिमेशन के साथ प्रेजेंटेशन को सेव करते हैं। अब, जब आप प्रेजेंटेशन चलाएँगे तो आपके चार्ट एलिमेंट खूबसूरती से एनिमेट होंगे।
+अंतिम चरण में, हम नए जोड़े गए एनिमेशन के साथ प्रेजेंटेशन को सेव करते हैं। अब, जब आप प्रेजेंटेशन चलाएँगे तो आपके चार्ट तत्व खूबसूरती से एनिमेट होंगे।
 
 ## निष्कर्ष
 
@@ -116,7 +118,7 @@ presentation.Save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.P
 ## पूछे जाने वाले प्रश्न
 
 ### 1. मैं .NET के लिए Aspose.Slides कैसे डाउनलोड कर सकता हूँ?
- आप .NET के लिए Aspose.Slides को यहां से डाउनलोड कर सकते हैं[इस लिंक](https://releases.aspose.com/slides/net/).
+आप .NET के लिए Aspose.Slides को यहां से डाउनलोड कर सकते हैं [इस लिंक](https://releases.aspose.com/slides/net/).
 
 ### 2. क्या मुझे .NET के लिए Aspose.Slides का उपयोग करने के लिए कोडिंग अनुभव की आवश्यकता है?
 जबकि कोडिंग अनुभव सहायक है, Aspose.Slides for .NET सभी कौशल स्तरों पर उपयोगकर्ताओं की सहायता के लिए व्यापक दस्तावेज और उदाहरण प्रदान करता है।
@@ -125,14 +127,16 @@ presentation.Save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.P
 Aspose.Slides for .NET को विभिन्न PowerPoint संस्करणों के साथ काम करने के लिए डिज़ाइन किया गया है, जो संगतता सुनिश्चित करता है।
 
 ### 4. मैं Aspose.Slides for .NET के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
- आप .NET के लिए Aspose.Slides हेतु अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+आप .NET के लिए Aspose.Slides हेतु अस्थायी लाइसेंस प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
 
 ### 5. क्या Aspose.Slides for .NET समर्थन के लिए कोई सामुदायिक मंच है?
- हां, आप .NET के लिए Aspose.Slides के लिए एक सहायक सामुदायिक मंच पा सकते हैं[यहाँ](https://forum.aspose.com/).
+हां, आप .NET के लिए Aspose.Slides के लिए एक सहायक सामुदायिक मंच पा सकते हैं [यहाँ](https://forum.aspose.com/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

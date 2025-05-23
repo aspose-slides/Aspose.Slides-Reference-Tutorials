@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में श्रृंखला तत्वों को एनिमेट करना
-linktitle: जावा स्लाइड्स में श्रृंखला तत्वों को एनिमेट करना
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके PowerPoint स्लाइड में श्रृंखला तत्वों को एनिमेट करना सीखें। अपने प्रस्तुतियों को बेहतर बनाने के लिए स्रोत कोड के साथ इस व्यापक चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 12
-url: /hi/java/animation-and-layout/animating-series-elements-java-slides/
+"description": "Aspose.Slides for Java का उपयोग करके PowerPoint स्लाइड में श्रृंखला तत्वों को एनिमेट करना सीखें। अपने प्रस्तुतियों को बेहतर बनाने के लिए स्रोत कोड के साथ इस व्यापक चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "जावा स्लाइड्स में श्रृंखला तत्वों को एनिमेट करना"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में श्रृंखला तत्वों को एनिमेट करना"
+"url": "/hi/java/animation-and-layout/animating-series-elements-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में श्रृंखला तत्वों को एनिमेट करना
@@ -28,7 +30,7 @@ url: /hi/java/animation-and-layout/animating-series-elements-java-slides/
 
 ## चरण 1: प्रस्तुति लोड करें
 
- सबसे पहले, आपको पावरपॉइंट प्रेजेंटेशन को लोड करना होगा जिसमें वह चार्ट हो जिसे आप एनिमेट करना चाहते हैं।`"Your Document Directory"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ.
+सबसे पहले, आपको पावरपॉइंट प्रेजेंटेशन को लोड करना होगा जिसमें वह चार्ट हो जिसे आप एनिमेट करना चाहते हैं। `"Your Document Directory"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -47,7 +49,7 @@ IChart chart = (IChart) shapes.get_Item(0);
 
 ## चरण 3: एनीमेशन प्रभाव जोड़ें
 
- अब, चार्ट तत्वों में एनीमेशन प्रभाव जोड़ते हैं। हम इसका उपयोग करेंगे`slide.getTimeline().getMainSequence().addEffect()` चार्ट को कैसे एनिमेट किया जाना चाहिए यह निर्दिष्ट करने के लिए विधि।
+अब, चार्ट तत्वों में एनीमेशन प्रभाव जोड़ते हैं। हम इसका उपयोग करेंगे `slide.getTimeline().getMainSequence().addEffect()` चार्ट को कैसे एनिमेट किया जाना चाहिए यह निर्दिष्ट करने के लिए विधि।
 
 ```java
 // संपूर्ण चार्ट को एनिमेट करें
@@ -98,7 +100,7 @@ try
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInSeries, 2, 1, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInSeries, 2, 2, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInSeries, 2, 3, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
-	// प्रस्तुति फ़ाइल को डिस्क पर लिखें
+	// प्रस्तुति फ़ाइल को डिस्क पर लिखें 
 	presentation.save(dataDir + "AnimatingSeriesElements_out.pptx", SaveFormat.Pptx);
 }
 finally
@@ -119,7 +121,7 @@ finally
 
 ### क्या मैं पावरपॉइंट स्लाइड में अन्य ऑब्जेक्ट्स पर एनिमेशन लागू कर सकता हूं?
 
- हां, आप पावरपॉइंट स्लाइड में सिर्फ चार्ट ही नहीं, बल्कि विभिन्न ऑब्जेक्ट पर एनिमेशन लागू कर सकते हैं।`addEffect` विधि का उपयोग उस ऑब्जेक्ट को निर्दिष्ट करने के लिए करें जिसे आप एनिमेट करना चाहते हैं और वांछित एनीमेशन गुणधर्मों को निर्दिष्ट करें।
+हां, आप पावरपॉइंट स्लाइड में सिर्फ चार्ट ही नहीं, बल्कि विभिन्न ऑब्जेक्ट पर एनिमेशन लागू कर सकते हैं। `addEffect` विधि का उपयोग उस ऑब्जेक्ट को निर्दिष्ट करने के लिए करें जिसे आप एनिमेट करना चाहते हैं और वांछित एनीमेशन गुणधर्मों को निर्दिष्ट करें।
 
 ### मैं अपने प्रोजेक्ट में Aspose.Slides for Java को कैसे एकीकृत करूं?
 
@@ -132,9 +134,11 @@ Aspose.Slides for Java को अपने प्रोजेक्ट में
 ### क्या Aspose.Slides for Java में अधिक उन्नत एनीमेशन विकल्प उपलब्ध हैं?
 
 हां, Aspose.Slides for Java मोशन पाथ, टाइमिंग और इंटरैक्टिव एनिमेशन सहित उन्नत एनिमेशन विकल्पों की एक विस्तृत श्रृंखला प्रदान करता है। आप अपनी प्रस्तुतियों में उन्नत एनिमेशन लागू करने के लिए Aspose.Slides द्वारा प्रदान किए गए दस्तावेज़ों और उदाहरणों का पता लगा सकते हैं।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

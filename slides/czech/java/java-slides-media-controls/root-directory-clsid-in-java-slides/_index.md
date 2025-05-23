@@ -1,14 +1,16 @@
 ---
-title: Kořenový adresář ClsId v Java Slides
-linktitle: Kořenový adresář ClsId v Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Přečtěte si, jak nastavit ClsId kořenového adresáře v Aspose.Slides pro prezentace Java. Přizpůsobte chování hypertextového odkazu pomocí CLSID.
-weight: 10
-url: /cs/java/media-controls/root-directory-clsid-in-java-slides/
+"description": "Naučte se, jak nastavit CLSID kořenového adresáře v Aspose.Slides pro prezentace v Javě. Přizpůsobte chování hypertextových odkazů pomocí CLSID."
+"linktitle": "Kořenový adresář ClsId v Java Slides"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Kořenový adresář ClsId v Java Slides"
+"url": "/cs/java/media-controls/root-directory-clsid-in-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kořenový adresář ClsId v Java Slides
@@ -16,54 +18,54 @@ url: /cs/java/media-controls/root-directory-clsid-in-java-slides/
 
 ## Úvod do nastavení ClsId kořenového adresáře v Aspose.Slides pro Javu
 
-V Aspose.Slides for Java můžete nastavit ClsId kořenového adresáře, což je identifikátor CLSID (Identifikátor třídy) používaný k určení aplikace, která se má použít jako kořenový adresář, když je ve vaší prezentaci aktivován hypertextový odkaz. V této příručce vás provedeme krok za krokem, jak to udělat.
+Aspose.Slides pro Javu můžete nastavit ClsId kořenového adresáře, což je CLSID (identifikátor třídy) používaný k určení aplikace, která se má použít jako kořenový adresář při aktivaci hypertextového odkazu v prezentaci. V této příručce vás krok za krokem provedeme postupem.
 
 ## Předpoklady
 
 Než začnete, ujistěte se, že máte následující předpoklady:
 
-- Java Development Kit (JDK) nainstalovaný ve vašem systému.
--  Do vašeho projektu byla přidána knihovna Aspose.Slides for Java. Můžete si jej stáhnout z[Aspose.Slides pro dokumentaci Java](https://reference.aspose.com/slides/java/).
+- Na vašem systému nainstalovaná sada pro vývoj Java (JDK).
+- Do vašeho projektu byla přidána knihovna Aspose.Slides pro Javu. Můžete si ji stáhnout z [Dokumentace k Aspose.Slides pro Javu](https://reference.aspose.com/slides/java/).
 - Editor kódu nebo integrované vývojové prostředí (IDE) nastavené pro vývoj v Javě.
 
 ## Krok 1: Vytvořte novou prezentaci
 
-Nejprve vytvořte novou prezentaci pomocí Aspose.Slides for Java. V tomto příkladu vytvoříme prázdnou prezentaci.
+Nejprve si vytvořme novou prezentaci pomocí Aspose.Slides pro Javu. V tomto příkladu vytvoříme prázdnou prezentaci.
 
 ```java
 // Název výstupního souboru
-String resultPath = "your_output_path/pres.ppt"; // Nahraďte "your_output_path" požadovaným výstupním adresářem.
+String resultPath = "your_output_path/pres.ppt"; // Nahraďte „vaše_výstupní_cesta“ požadovaným výstupním adresářem.
 Presentation pres = new Presentation();
 ```
 
-Ve výše uvedeném kódu definujeme cestu pro výstupní soubor prezentace a vytvoříme nový`Presentation` objekt.
+Ve výše uvedeném kódu definujeme cestu k výstupnímu prezentačnímu souboru a vytvoříme nový `Presentation` objekt.
 
-## Krok 2: Nastavte ClsId kořenového adresáře
+## Krok 2: Nastavení ClsId kořenového adresáře
 
- Chcete-li nastavit ClsId kořenového adresáře, musíte vytvořit instanci`PptOptions` a nastavte požadované CLSID. CLSID představuje aplikaci, která bude použita jako kořenový adresář při aktivaci hypertextového odkazu.
+Chcete-li nastavit ClsId kořenového adresáře, je třeba vytvořit instanci `PptOptions` a nastavte požadovaný CLSID. CLSID představuje aplikaci, která bude použita jako kořenový adresář při aktivaci hypertextového odkazu.
 
 ```java
 PptOptions pptOptions = new PptOptions();
-// Nastavte CLSID na 'Microsoft Powerpoint.Show.8'
+// Nastavte CLSID na „Microsoft PowerPoint.Show.8“.
 pptOptions.setRootDirectoryClsid(UUID.fromString("64818D10-4F9B-11CF-86EA-00AA00B929E8"));
 ```
 
- Ve výše uvedeném kódu vytvoříme a`PptOptions` objekt a nastavte CLSID na 'Microsoft Powerpoint.Show.8'. Můžete jej nahradit CLSID aplikace, kterou chcete použít jako kořenový adresář.
+Ve výše uvedeném kódu vytvoříme `PptOptions` objekt a nastavte CLSID na „Microsoft PowerPoint.Show.8“. Můžete jej nahradit CLSID aplikace, kterou chcete použít jako kořenový adresář.
 
 ## Krok 3: Uložte prezentaci
 
-Nyní uložíme prezentaci se sadou ClsId kořenového adresáře.
+Nyní uložme prezentaci s nastaveným ClsId kořenového adresáře.
 
 ```java
 // Uložit prezentaci
 pres.save(resultPath, SaveFormat.Ppt, pptOptions);
 ```
 
- V tomto kroku prezentaci uložíme na zadané`resultPath` s`PptOptions` jsme vytvořili dříve.
+V tomto kroku uložíme prezentaci do zadaného adresáře. `resultPath` s `PptOptions` jsme vytvořili dříve.
 
-## Krok 4: Vyčištění
+## Krok 4: Úklid
 
- Nezapomeňte zlikvidovat`Presentation` objekt k uvolnění všech přidělených zdrojů.
+Nezapomeňte zlikvidovat `Presentation` vznést námitku proti uvolnění jakýchkoli přidělených zdrojů.
 
 ```java
 if (pres != null) {
@@ -71,7 +73,7 @@ if (pres != null) {
 }
 ```
 
-## Kompletní zdrojový kód pro ClsId kořenového adresáře v Java Slides
+## Kompletní zdrojový kód pro kořenový adresář ClsId v Javě Slides
 
 ```java
 // Název výstupního souboru
@@ -79,7 +81,7 @@ String resultPath = "Your Output Directory" + "pres.ppt";
 Presentation pres = new Presentation();
 try {
 	PptOptions pptOptions = new PptOptions();
-	//nastavte CLSID na 'Microsoft Powerpoint.Show.8'
+	// nastavit CLSID na 'Microsoft PowerPoint.Show.8'
 	pptOptions.setRootDirectoryClsid(UUID.fromString("64818D10-4F9B-11CF-86EA-00AA00B929E8"));
 	// Uložit prezentaci
 	pres.save(resultPath, SaveFormat.Ppt, pptOptions);
@@ -90,32 +92,34 @@ try {
 
 ## Závěr
 
-Úspěšně jste nastavili ClsId kořenového adresáře v Aspose.Slides pro Java. To vám umožní určit aplikaci, která bude použita jako kořenový adresář, když jsou v prezentaci aktivovány hypertextové odkazy. CLSID si můžete přizpůsobit podle svých specifických požadavků.
+Úspěšně jste nastavili CLSID kořenového adresáře v Aspose.Slides pro Javu. To vám umožní určit aplikaci, která bude použita jako kořenový adresář při aktivaci hypertextových odkazů ve vaší prezentaci. CLSID si můžete přizpůsobit podle svých specifických požadavků.
 
-## FAQ
+## Často kladené otázky
 
-### Jak zjistím CLSID pro konkrétní aplikaci?
+### Jak najdu CLSID pro konkrétní aplikaci?
 
-Chcete-li najít CLSID pro konkrétní aplikaci, můžete se obrátit na dokumentaci nebo zdroje poskytnuté vývojářem aplikace. CLSID jsou jedinečné identifikátory přiřazené objektům COM a jsou obvykle specifické pro každou aplikaci.
+Chcete-li najít identifikátor CLSID pro konkrétní aplikaci, můžete se podívat na dokumentaci nebo zdroje poskytnuté vývojářem aplikace. CLSID jsou jedinečné identifikátory přiřazené objektům COM a obvykle jsou specifické pro každou aplikaci.
 
 ### Mohu nastavit vlastní CLSID pro kořenový adresář?
 
- Ano, můžete nastavit vlastní CLSID pro kořenový adresář zadáním požadované hodnoty CLSID pomocí`setRootDirectoryClsid` metoda, jak je ukázáno v příkladu kódu. To vám umožní použít určitou aplikaci jako kořenový adresář, když jsou v prezentaci aktivovány hypertextové odkazy.
+Ano, můžete nastavit vlastní CLSID pro kořenový adresář zadáním požadované hodnoty CLSID pomocí `setRootDirectoryClsid` metodu, jak je znázorněno v příkladu kódu. To umožňuje použít konkrétní aplikaci jako kořenový adresář, když jsou ve vaší prezentaci aktivovány hypertextové odkazy.
 
 ### Co se stane, když nenastavím ClsId kořenového adresáře?
 
-Pokud nenastavíte ClsId kořenového adresáře, bude výchozí chování záviset na prohlížeči nebo aplikaci použité k otevření prezentace. Při aktivaci hypertextových odkazů může jako kořenový adresář používat vlastní výchozí aplikaci.
+Pokud nenastavíte ClsId kořenového adresáře, bude výchozí chování záviset na prohlížeči nebo aplikaci použité k otevření prezentace. Při aktivaci hypertextových odkazů může jako kořenový adresář použít vlastní výchozí aplikaci.
 
 ### Mohu změnit ClsId kořenového adresáře pro jednotlivé hypertextové odkazy?
 
-Ne, ClsId kořenového adresáře se obvykle nastavuje na úrovni prezentace a vztahuje se na všechny hypertextové odkazy v prezentaci. Pokud potřebujete určit různé aplikace pro jednotlivé hypertextové odkazy, možná budete muset tyto hypertextové odkazy zpracovat samostatně v kódu.
+Ne, identifikátor ClsId kořenového adresáře se obvykle nastavuje na úrovni prezentace a vztahuje se na všechny hypertextové odkazy v rámci prezentace. Pokud potřebujete pro jednotlivé hypertextové odkazy určit různé aplikace, může být nutné tyto hypertextové odkazy v kódu zpracovat samostatně.
 
-### Existují nějaká omezení pro CLSID, které mohu použít?
+### Existují nějaká omezení ohledně CLSID, které mohu používat?
 
-CLSID, které můžete použít, jsou obvykle určeny aplikacemi nainstalovanými v systému. Měli byste používat CLSID, které odpovídají platným aplikacím schopným zpracovávat hypertextové odkazy. Uvědomte si, že použití neplatného CLSID může vést k neočekávanému chování.
+CLSID, které můžete použít, jsou obvykle určeny aplikacemi nainstalovanými v systému. Měli byste používat CLSID, které odpovídají platným aplikacím schopným zpracovávat hypertextové odkazy. Upozorňujeme, že použití neplatného CLSID může vést k neočekávanému chování.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

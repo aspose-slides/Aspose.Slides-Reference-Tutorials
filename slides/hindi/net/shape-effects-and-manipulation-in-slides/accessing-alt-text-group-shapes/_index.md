@@ -1,14 +1,16 @@
 ---
-title: Aspose.Slides का उपयोग करके समूह आकृतियों में वैकल्पिक पाठ तक पहुँचना
-linktitle: समूह आकृतियों में वैकल्पिक पाठ तक पहुँचना
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: .NET के लिए Aspose.Slides का उपयोग करके समूह आकृतियों में वैकल्पिक पाठ तक पहुँचने का तरीका जानें। कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 10
-url: /hi/net/shape-effects-and-manipulation-in-slides/accessing-alt-text-group-shapes/
+"description": ".NET के लिए Aspose.Slides का उपयोग करके समूह आकृतियों में वैकल्पिक पाठ तक पहुँचने का तरीका जानें। कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "समूह आकृतियों में वैकल्पिक पाठ तक पहुँचना"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "Aspose.Slides का उपयोग करके समूह आकृतियों में वैकल्पिक पाठ तक पहुँचना"
+"url": "/hi/net/shape-effects-and-manipulation-in-slides/accessing-alt-text-group-shapes/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Slides का उपयोग करके समूह आकृतियों में वैकल्पिक पाठ तक पहुँचना
@@ -22,11 +24,11 @@ url: /hi/net/shape-effects-and-manipulation-in-slides/accessing-alt-text-group-s
 
 ## अपना विकास वातावरण स्थापित करना
 
-कोड में उतरने से पहले, सुनिश्चित करें कि आपके पास उपयुक्त विकास वातावरण सेट अप है। आपको निम्न चीज़ों की आवश्यकता होगी:
+कोड में उतरने से पहले, सुनिश्चित करें कि आपके पास उपयुक्त विकास वातावरण सेट अप है। आपको निम्न की आवश्यकता होगी:
 
 - विजुअल स्टूडियो: यदि आप पहले से इसका उपयोग नहीं कर रहे हैं, तो .NET अनुप्रयोगों के लिए एक लोकप्रिय एकीकृत विकास वातावरण, विजुअल स्टूडियो को डाउनलोड और इंस्टॉल करें।
 
--  Aspose.Slides for .NET लाइब्रेरी: Aspose.Slides for .NET लाइब्रेरी प्राप्त करें और इसे अपने प्रोजेक्ट में संदर्भ के रूप में जोड़ें। आप इसे यहाँ से डाउनलोड कर सकते हैं[Aspose वेबसाइट](https://reference.aspose.com/slides/net/).
+- Aspose.Slides for .NET लाइब्रेरी: Aspose.Slides for .NET लाइब्रेरी प्राप्त करें और इसे अपने प्रोजेक्ट में संदर्भ के रूप में जोड़ें। आप इसे यहाँ से डाउनलोड कर सकते हैं  [Aspose वेबसाइट](https://reference.aspose.com/slides/net/).
 
 ## प्रस्तुति लोड करना
 
@@ -72,7 +74,7 @@ foreach (IShape shape in groupShape.Shapes)
 
 ## वैकल्पिक पाठ को संशोधित करना
 
- किसी आकृति के वैकल्पिक पाठ को संशोधित करने के लिए, बस उसके लिए एक नया मान निर्दिष्ट करें`AlternativeText` संपत्ति:
+किसी आकृति के वैकल्पिक पाठ को संशोधित करने के लिए, बस उसके लिए एक नया मान निर्दिष्ट करें `AlternativeText` संपत्ति:
 
 ```csharp
 shape.AlternativeText = "New alt text";
@@ -107,7 +109,7 @@ presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 
 ### मैं .NET के लिए Aspose.Slides कैसे स्थापित कर सकता हूँ?
 
- आप .NET के लिए Aspose.Slides को यहाँ से डाउनलोड कर सकते हैं।[Aspose वेबसाइट](https://reference.aspose.com/slides/net/)अपने प्रोजेक्ट में लाइब्रेरी स्थापित करने के लिए दिए गए इंस्टॉलेशन निर्देशों का पालन करें।
+आप .NET के लिए Aspose.Slides को यहाँ से डाउनलोड कर सकते हैं।  [Aspose वेबसाइट](https://reference.aspose.com/slides/net/)अपने प्रोजेक्ट में लाइब्रेरी स्थापित करने के लिए दिए गए इंस्टॉलेशन निर्देशों का पालन करें।
 
 ### क्या मैं अन्य प्रोग्रामिंग भाषाओं के लिए Aspose.Slides का उपयोग कर सकता हूँ?
 
@@ -119,14 +121,16 @@ presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 
 ### मैं अपनी प्रस्तुतियों की पहुंच का परीक्षण कैसे कर सकता हूं?
 
-आप अपनी प्रस्तुतियों के वैकल्पिक पाठ और समग्र पहुंच की प्रभावशीलता का मूल्यांकन करने के लिए स्क्रीन रीडर या पहुंच परीक्षण उपकरणों का उपयोग कर सकते हैं।
+आप अपनी प्रस्तुतियों के वैकल्पिक पाठ और समग्र पहुंच की प्रभावशीलता का मूल्यांकन करने के लिए स्क्रीन रीडर या पहुंच परीक्षण टूल का उपयोग कर सकते हैं।
 
 ### क्या Aspose.Slides शुरुआती और अनुभवी डेवलपर्स दोनों के लिए उपयुक्त है?
 
 हां, Aspose.Slides को सभी कौशल स्तरों के डेवलपर्स को ध्यान में रखकर डिज़ाइन किया गया है। शुरुआती लोग दस्तावेज़ में दिए गए चरण-दर-चरण गाइड का पालन कर सकते हैं, जबकि अनुभवी डेवलपर्स इसकी उन्नत सुविधाओं का लाभ उठा सकते हैं।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

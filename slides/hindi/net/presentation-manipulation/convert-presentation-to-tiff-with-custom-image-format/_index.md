@@ -1,14 +1,16 @@
 ---
-title: कस्टम छवि प्रारूप के साथ प्रस्तुति को TIFF में बदलें
-linktitle: कस्टम छवि प्रारूप के साथ प्रस्तुति को TIFF में बदलें
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: .NET के लिए Aspose.Slides का उपयोग करके कस्टम छवि सेटिंग्स के साथ प्रस्तुतिकरणों को TIFF में परिवर्तित करना सीखें। कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 26
-url: /hi/net/presentation-manipulation/convert-presentation-to-tiff-with-custom-image-format/
+"description": "Aspose.Slides for .NET का उपयोग करके कस्टम इमेज सेटिंग्स के साथ प्रेजेंटेशन को TIFF में कैसे बदलें, यह जानें। कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "कस्टम छवि प्रारूप के साथ प्रस्तुति को TIFF में बदलें"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "कस्टम छवि प्रारूप के साथ प्रस्तुति को TIFF में बदलें"
+"url": "/hi/net/presentation-manipulation/convert-presentation-to-tiff-with-custom-image-format/"
+"weight": 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # कस्टम छवि प्रारूप के साथ प्रस्तुति को TIFF में बदलें
@@ -23,7 +25,7 @@ url: /hi/net/presentation-manipulation/convert-presentation-to-tiff-with-custom-
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
 1. विजुअल स्टूडियो या कोई अन्य .NET विकास वातावरण।
-2.  Aspose.Slides for .NET लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://downloads.aspose.com/slides/net).
+2. Aspose.Slides for .NET लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://downloads.aspose.com/slides/net).
 
 ## कदम
 
@@ -39,7 +41,7 @@ url: /hi/net/presentation-manipulation/convert-presentation-to-tiff-with-custom-
 
 ## 3. रूपांतरण कोड लिखें
 
- अपने प्रोजेक्ट की मुख्य कोड फ़ाइल खोलें (उदाहरण के लिए,`Program.cs`और निम्नलिखित using कथन जोड़ें:
+अपने प्रोजेक्ट की मुख्य कोड फ़ाइल खोलें (उदाहरण के लिए, `Program.cs`) और निम्नलिखित using कथन जोड़ें:
 
 ```csharp
 using Aspose.Slides;
@@ -67,7 +69,7 @@ class Program
 }
 ```
 
- प्रतिस्थापित करें`"input.pptx"` अपने इनपुट पावरपॉइंट प्रेजेंटेशन के पथ के साथ और सेटिंग्स को समायोजित करें`TiffOptions` आवश्यकतानुसार। इस उदाहरण में, हमने संपीड़न प्रकार को LZW और पिक्सेल प्रारूप को 16-बिट RGB 555 पर सेट किया है।
+प्रतिस्थापित करें `"input.pptx"` अपने इनपुट पावरपॉइंट प्रेजेंटेशन के पथ के साथ और सेटिंग्स को समायोजित करें `TiffOptions` आवश्यकतानुसार। इस उदाहरण में, हमने संपीड़न प्रकार को LZW और पिक्सेल प्रारूप को 16-बिट RGB 555 पर सेट किया है।
 
 ## 4. एप्लिकेशन चलाएँ
 
@@ -98,9 +100,11 @@ Aspose.Slides for .NET एक मजबूत लाइब्रेरी है
 ### क्या Aspose.Slides for .NET TIFF के अलावा अन्य आउटपुट प्रारूपों का समर्थन करता है?
 
 हां, TIFF के अलावा, Aspose.Slides for .NET, PDF, JPEG, PNG, GIF, और अन्य सहित प्रस्तुतियों को परिवर्तित करने के लिए कई प्रकार के आउटपुट प्रारूपों का समर्थन करता है। यह आपको अपने विशिष्ट उपयोग के मामले के लिए सबसे उपयुक्त प्रारूप चुनने की सुविधा देता है।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

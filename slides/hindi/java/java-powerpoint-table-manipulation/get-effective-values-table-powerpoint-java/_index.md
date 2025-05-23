@@ -1,14 +1,16 @@
 ---
-title: जावा के साथ पावरपॉइंट में तालिका के प्रभावी मान प्राप्त करें
-linktitle: जावा के साथ पावरपॉइंट में तालिका के प्रभावी मान प्राप्त करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके PowerPoint में प्रभावी तालिका मान निकालना सीखें। अपने प्रस्तुतीकरण को प्रोग्रामेटिक रूप से बेहतर बनाएँ।
-weight: 14
-url: /hi/java/java-powerpoint-table-manipulation/get-effective-values-table-powerpoint-java/
+"description": "Aspose.Slides for Java का उपयोग करके PowerPoint में प्रभावी तालिका मान निकालना सीखें। अपने प्रस्तुतीकरण को प्रोग्रामेटिक रूप से बेहतर बनाएँ।"
+"linktitle": "जावा के साथ पावरपॉइंट में तालिका के प्रभावी मान प्राप्त करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा के साथ पावरपॉइंट में तालिका के प्रभावी मान प्राप्त करें"
+"url": "/hi/java/java-powerpoint-table-manipulation/get-effective-values-table-powerpoint-java/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा के साथ पावरपॉइंट में तालिका के प्रभावी मान प्राप्त करें
@@ -18,7 +20,7 @@ url: /hi/java/java-powerpoint-table-manipulation/get-effective-values-table-powe
 ## आवश्यक शर्तें
 इस ट्यूटोरियल में आगे बढ़ने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 1. जावा विकास वातावरण: जावा प्रोग्रामिंग का कार्यशील ज्ञान आवश्यक है।
-2.  Aspose.Slides for Java: Aspose.Slides for Java लाइब्रेरी स्थापित करें। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides for Java: Aspose.Slides for Java लाइब्रेरी स्थापित करें। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 3. एकीकृत विकास वातावरण (IDE): जावा विकास के लिए IntelliJ IDEA या Eclipse जैसे IDE का उपयोग करें।
 4. पावरपॉइंट की बुनियादी समझ: पावरपॉइंट प्रस्तुतियों और तालिका संरचनाओं से परिचित होना सहायक होगा।
 
@@ -52,24 +54,26 @@ try {
 }
 ```
 ## चरण 3: निकाले गए डेटा को प्रोसेस करें और उसका उपयोग करें
-अंत में, तालिका से निकाले गए प्रभावी डेटा को अपने अनुप्रयोग के भीतर आगे के संचालन या विश्लेषण के लिए संसाधित और उपयोग करें।
+अंत में, तालिका से निकाले गए प्रभावी डेटा को संसाधित करें और अपने अनुप्रयोग के भीतर आगे के संचालन या विश्लेषण के लिए उसका उपयोग करें।
 
 ## निष्कर्ष
 निष्कर्ष में, इस ट्यूटोरियल ने प्रदर्शित किया है कि Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में तालिकाओं से प्रभावी मानों को प्रोग्रामेटिक रूप से कैसे प्राप्त किया जाए। इन क्षमताओं का लाभ उठाकर, Java डेवलपर्स शक्तिशाली प्रस्तुति हेरफेर सुविधाओं के साथ अपने अनुप्रयोगों को बढ़ा सकते हैं।
 ## अक्सर पूछे जाने वाले प्रश्न
-### क्या मैं Java के लिए Aspose.Slides का उपयोग करके तालिकाओं के अलावा अन्य तत्वों में हेरफेर कर सकता हूं?
+### क्या मैं Java के लिए Aspose.Slides का उपयोग करके तालिकाओं के अलावा अन्य तत्वों में भी हेरफेर कर सकता हूँ?
 हां, Java के लिए Aspose.Slides स्लाइड, आकार, पाठ, चित्र आदि के साथ काम करने के लिए व्यापक API प्रदान करता है।
 ### मैं Aspose.Slides for Java के लिए और अधिक दस्तावेज़ कहां पा सकता हूं?
- विस्तृत दस्तावेज उपलब्ध है[यहाँ](https://reference.aspose.com/slides/java/).
+विस्तृत दस्तावेज उपलब्ध है [यहाँ](https://reference.aspose.com/slides/java/).
 ### क्या Aspose.Slides for Java के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
- हां, आप यहां से निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप यहां से निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
 ### मैं Java के लिए Aspose.Slides के लिए समर्थन कैसे प्राप्त कर सकता हूं?
- सामुदायिक सहायता फ़ोरम पर जाएँ[यहाँ](https://forum.aspose.com/c/slides/11) सहायता के लिए।
+समुदाय सहायता फ़ोरम पर जाएँ [यहाँ](https://forum.aspose.com/c/slides/11) सहायता के लिए.
 ### क्या मैं Aspose.Slides for Java के लिए अस्थायी लाइसेंस खरीद सकता हूँ?
- हां, आप एक अस्थायी लाइसेंस खरीद सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+हां, आप एक अस्थायी लाइसेंस खरीद सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

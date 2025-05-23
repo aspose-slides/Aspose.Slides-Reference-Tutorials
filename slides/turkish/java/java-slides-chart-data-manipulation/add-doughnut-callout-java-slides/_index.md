@@ -1,40 +1,42 @@
 ---
-title: Java Slaytlarına Donut Belirtme Çizgisi Ekleme
-linktitle: Java Slaytlarına Donut Belirtme Çizgisi Ekleme
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides for Java'yı kullanarak Java Slaytlarına Donut Açıklamaları Eklemeyi öğrenin. Gelişmiş sunumlar için kaynak kodlu adım adım kılavuz.
-weight: 12
-url: /tr/java/chart-data-manipulation/add-doughnut-callout-java-slides/
+"description": "Java için Aspose.Slides'ı kullanarak Java Slaytlarına Donut Açıklamaları Eklemeyi Öğrenin. Gelişmiş sunumlar için kaynak kodlu adım adım kılavuz."
+"linktitle": "Java Slaytlarında Donut Açıklaması Ekleme"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java Slaytlarında Donut Açıklaması Ekleme"
+"url": "/tr/java/chart-data-manipulation/add-doughnut-callout-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java Slaytlarına Donut Belirtme Çizgisi Ekleme
+# Java Slaytlarında Donut Açıklaması Ekleme
 
 
-## Aspose.Slides for Java kullanarak Java Slaytlarına Donut Açıklamaları Eklemeye Giriş
+## Java Slaytlarında Aspose.Slides for Java Kullanarak Donut Açıklaması Eklemeye Giriş
 
-Bu eğitimde, Aspose.Slides for Java kullanarak Java'da bir slayda Donut Açıklamaları ekleme sürecinde size yol göstereceğiz. Halka Belirtme Çizgisi, Halka grafiğindeki belirli veri noktalarını vurgulamak için kullanılabilen bir grafik öğesidir. Size kolaylık sağlamak için adım adım talimatlar ve eksiksiz kaynak kodu sağlayacağız.
+Bu eğitimde, Java'da Aspose.Slides for Java kullanarak bir slayda Doughnut Çağrısı ekleme sürecini adım adım anlatacağız. Doughnut Çağrısı, bir Doughnut grafiğindeki belirli veri noktalarını vurgulamak için kullanılabilen bir grafik öğesidir. Size kolaylık sağlamak için adım adım talimatlar ve eksiksiz kaynak kodu sağlayacağız.
 
-## Önkoşullar
+## Ön koşullar
 
-Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
 1. Java Geliştirme Ortamı
-2. Aspose.Slides for Java kütüphanesi
+2. Java kütüphanesi için Aspose.Slides
 3. Eclipse veya IntelliJ IDEA gibi Entegre Geliştirme Ortamı (IDE)
 4. Donut Açıklamasını eklemek istediğiniz bir PowerPoint sunumu
 
-## 1. Adım: Java Projenizi ayarlayın
+## Adım 1: Java Projenizi Kurun
 
 1. Seçtiğiniz IDE'de yeni bir Java projesi oluşturun.
 2. Aspose.Slides for Java kütüphanesini projenize bağımlılık olarak ekleyin.
 
 ## Adım 2: Sunumu Başlatın
 
-Başlamak için bir PowerPoint sunumu başlatmanız ve Donut Açıklamasını eklemek istediğiniz yere bir slayt oluşturmanız gerekir. İşte bunu başarmak için kod:
+Başlamak için bir PowerPoint sunumu başlatmanız ve Donut Çağrısını eklemek istediğiniz bir slayt oluşturmanız gerekir. Bunu başarmak için kod şudur:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -42,19 +44,19 @@ Presentation pres = new Presentation(dataDir + "testc.pptx");
 ISlide slide = pres.getSlides().get_Item(0);
 ```
 
- Değiştirdiğinizden emin olun`"Your Document Directory"` PowerPoint sunum dosyanızın gerçek yolunu belirtin.
+Değiştirdiğinizden emin olun `"Your Document Directory"` PowerPoint sunum dosyanızın gerçek yolunu belirtin.
 
-## 3. Adım: Halka Grafiği Oluşturun
+## Adım 3: Bir Çörek Grafiği Oluşturun
 
-Daha sonra slaytta bir Halka grafiği oluşturacaksınız. Grafiğin konumunu ve boyutunu gereksinimlerinize göre özelleştirebilirsiniz. İşte Donut grafiği ekleme kodu:
+Sonra, slaytta bir Donut grafiği oluşturacaksınız. Grafiğin konumunu ve boyutunu ihtiyaçlarınıza göre özelleştirebilirsiniz. İşte bir Donut grafiği eklemek için kod:
 
 ```java
 IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, false);
 ```
 
-## Adım 4: Halka Tablosunu Özelleştirin
+## Adım 4: Donut Grafiğini Özelleştirin
 
-Şimdi Halka grafiğini özelleştirmenin zamanı geldi. Göstergeyi kaldırmak, delik boyutunu yapılandırmak ve ilk dilim açısını ayarlamak gibi çeşitli özellikleri ayarlayacağız. İşte kod:
+Şimdi, Donut grafiğini özelleştirme zamanı. Efsaneyi kaldırma, delik boyutunu yapılandırma ve ilk dilim açısını ayarlama gibi çeşitli özellikler ayarlayacağız. İşte kod:
 
 ```java
 IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
@@ -71,11 +73,11 @@ while (seriesIndex < 15) {
 }
 ```
 
-Bu kod parçacığı, Halka grafiğinin özelliklerini ayarlar. Değerleri özel ihtiyaçlarınızı karşılayacak şekilde ayarlayabilirsiniz.
+Bu kod parçacığı Donut grafiğinin özelliklerini ayarlar. Değerleri özel ihtiyaçlarınızı karşılayacak şekilde ayarlayabilirsiniz.
 
 ## Adım 5: Halka Grafiğine Veri Ekleme
 
-Şimdi Donut grafiğine veri ekleyelim. Ayrıca veri noktalarının görünümünü de özelleştireceğiz. İşte bunu başarmak için kod:
+Şimdi, Donut grafiğine veri ekleyelim. Ayrıca veri noktalarının görünümünü özelleştireceğiz. Bunu başarmak için kod şu şekilde:
 
 ```java
 int categoryIndex = 0;
@@ -93,21 +95,21 @@ while (categoryIndex < 15) {
 }
 ```
 
-Bu kodda Donut grafiğine kategoriler ve veri noktaları ekliyoruz. Gerektiğinde veri noktalarının görünümünü daha da özelleştirebilirsiniz.
+Bu kodda, Donut grafiğine kategoriler ve veri noktaları ekliyoruz. Veri noktalarının görünümünü gerektiği gibi daha da özelleştirebilirsiniz.
 
-## Adım 6: Sunuyu Kaydetme
+## Adım 6: Sunumu Kaydedin
 
-Son olarak Donut Callout'u ekledikten sonra sunumunuzu kaydetmeyi unutmayın. Sunuyu kaydetme kodu:
+Son olarak, Donut Çağrısını ekledikten sonra sunumunuzu kaydetmeyi unutmayın. Sunumu kaydetmek için kod şu şekilde:
 
 ```java
 pres.save(dataDir + "chart.pptx", SaveFormat.Pptx);
 ```
 
- Değiştirdiğinizden emin olun`"chart.pptx"` İstediğiniz dosya adı ile.
+Değiştirdiğinizden emin olun `"chart.pptx"` İstediğiniz dosya adıyla.
 
-Tebrikler! Aspose.Slides for Java'yı kullanarak Java slaydına başarıyla Donut Açıklamaları eklediniz. Artık Donut grafiği ve Belirtme çizgisiyle PowerPoint sunumu oluşturmak için Java uygulamanızı çalıştırabilirsiniz.
+Tebrikler! Java için Aspose.Slides kullanarak bir Doughnut Çağrısını bir Java slaydına başarıyla eklediniz. Artık Doughnut grafiği ve Çağrı ile PowerPoint sunumunu oluşturmak için Java uygulamanızı çalıştırabilirsiniz.
 
-## Java Slaytlarına Donut Belirtme Çizgisi Eklemek İçin Kaynak Kodunu Tamamlayın
+## Java Slaytlarında Donut Çağrısı Eklemek İçin Tam Kaynak Kodu
 
 ```java
 String dataDir = "Your Document Directory";
@@ -171,24 +173,26 @@ pres.save(dataDir + "chart.pptx", SaveFormat.Pptx);
 
 ## Çözüm
 
-Bu eğitimde Aspose.Slides for Java'yı kullanarak bir Java slaytına Donut Callout ekleme işlemini ele aldık. Halka grafiği oluşturmayı, görünümünü özelleştirmeyi ve veri noktaları eklemeyi öğrendiniz. Bu güçlü kitaplıkla sunumlarınızı daha da geliştirmekten çekinmeyin ve daha fazla grafik seçeneğini keşfedin.
+Bu eğitimde, Java için Aspose.Slides kullanarak bir Java slaydına Donut Çağrısı ekleme sürecini ele aldık. Donut grafiği oluşturmayı, görünümünü özelleştirmeyi ve veri noktaları eklemeyi öğrendiniz. Bu güçlü kütüphaneyle sunumlarınızı daha da geliştirmekten ve daha fazla grafik seçeneğini keşfetmekten çekinmeyin.
 
-## SSS'ler
+## SSS
 
-### Donut Açıklamalarının görünümünü nasıl değiştirebilirim?
+### Donut Açıklamasının görünümünü nasıl değiştirebilirim?
 
-Grafikteki veri noktalarının özelliklerini değiştirerek Halka Belirtinin görünümünü özelleştirebilirsiniz. Sağlanan kodda dolgu rengini, çizgi rengini, yazı tipi stilini ve veri noktalarının diğer niteliklerini nasıl ayarlayacağınızı görebilirsiniz.
+Grafikteki veri noktalarının özelliklerini değiştirerek Donut Çağrısının görünümünü özelleştirebilirsiniz. Sağlanan kodda, veri noktalarının dolgu rengini, çizgi rengini, yazı tipi stilini ve diğer özniteliklerini nasıl ayarlayacağınızı görebilirsiniz.
 
-### Donut grafiğine daha fazla veri noktası ekleyebilir miyim?
+### Çörek grafiğine daha fazla veri noktası ekleyebilir miyim?
 
-Evet, Donut grafiğine gerektiği kadar veri noktası ekleyebilirsiniz. Kategorilerin ve veri noktalarının eklendiği koddaki döngüleri genişletmeniz ve uygun verileri ve biçimlendirmeyi sağlamanız yeterlidir.
+Evet, Donut grafiğine ihtiyaç duyduğunuz kadar veri noktası ekleyebilirsiniz. Kategorilerin ve veri noktalarının eklendiği koddaki döngüleri basitçe genişletin ve uygun verileri ve biçimlendirmeyi sağlayın.
 
 ### Slayttaki Halka grafiğinin konumunu ve boyutunu nasıl ayarlayabilirim?
 
- Aşağıdaki parametreleri değiştirerek Halka grafiğinin konumunu ve boyutunu değiştirebilirsiniz.`addChart` yöntem. Bu yöntemdeki dört sayı, sırasıyla grafiğin sol üst köşesinin X ve Y koordinatlarına ve genişliğine ve yüksekliğine karşılık gelir.
+Çörek grafiğinin konumunu ve boyutunu, parametreleri değiştirerek değiştirebilirsiniz. `addChart` yöntem. Bu yöntemdeki dört sayı, grafiğin sol üst köşesinin X ve Y koordinatlarına ve sırasıyla genişliğine ve yüksekliğine karşılık gelir.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

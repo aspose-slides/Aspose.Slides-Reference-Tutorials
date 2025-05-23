@@ -1,32 +1,34 @@
 ---
-title: Grafiektrendlijnen verkennen in Aspose.Slides voor .NET
-linktitle: Grafiektrendlijnen
-second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
-description: Leer in deze stapsgewijze handleiding hoe u verschillende trendlijnen aan grafieken kunt toevoegen met Aspose.Slides voor .NET. Verbeter uw vaardigheden op het gebied van datavisualisatie met gemak!
-weight: 12
-url: /nl/net/advanced-chart-customization/chart-trend-lines/
+"description": "Leer in deze stapsgewijze handleiding hoe u verschillende trendlijnen aan grafieken toevoegt met Aspose.Slides voor .NET. Verbeter uw datavisualisatievaardigheden met gemak!"
+"linktitle": "Grafiek Trendlijnen"
+"second_title": "Aspose.Slides .NET PowerPoint-verwerkings-API"
+"title": "Trendlijnen in grafieken verkennen in Aspose.Slides voor .NET"
+"url": "/nl/net/advanced-chart-customization/chart-trend-lines/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Grafiektrendlijnen verkennen in Aspose.Slides voor .NET
+# Trendlijnen in grafieken verkennen in Aspose.Slides voor .NET
 
 
-In de wereld van datavisualisatie en -presentatie kan het opnemen van grafieken een krachtige manier zijn om informatie effectief over te brengen. Aspose.Slides voor .NET biedt een uitgebreide set tools om met grafieken te werken, inclusief de mogelijkheid om trendlijnen aan uw grafieken toe te voegen. In deze zelfstudie gaan we stap voor stap dieper in op het proces van het toevoegen van trendlijnen aan een diagram met behulp van Aspose.Slides voor .NET. 
+In de wereld van datavisualisatie en -presentatie kan het integreren van grafieken een krachtige manier zijn om informatie effectief over te brengen. Aspose.Slides voor .NET biedt een uitgebreide set tools om met grafieken te werken, waaronder de mogelijkheid om trendlijnen toe te voegen. In deze tutorial gaan we stap voor stap in op het toevoegen van trendlijnen aan een grafiek met behulp van Aspose.Slides voor .NET. 
 
 ## Vereisten
 
-Voordat we met Aspose.Slides voor .NET gaan werken, moet je ervoor zorgen dat je aan de volgende vereisten voldoet:
+Voordat u aan de slag gaat met Aspose.Slides voor .NET, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 
-1. Aspose.Slides voor .NET: Om toegang te krijgen tot de bibliotheek en deze te gebruiken, moet Aspose.Slides voor .NET geïnstalleerd zijn. U kunt de bibliotheek verkrijgen bij de[downloadpagina](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides voor .NET: Om toegang te krijgen tot de bibliotheek en deze te gebruiken, moet u Aspose.Slides voor .NET geïnstalleerd hebben. U kunt de bibliotheek downloaden via de [downloadpagina](https://releases.aspose.com/slides/net/).
 
-2. Ontwikkelomgeving: U moet een ontwikkelomgeving hebben opgezet, bij voorkeur met behulp van een .NET geïntegreerde ontwikkelomgeving zoals Visual Studio.
+2. Ontwikkelomgeving: U dient een ontwikkelomgeving in te richten, bij voorkeur met behulp van een geïntegreerde .NET-ontwikkelomgeving zoals Visual Studio.
 
-3. Basiskennis van C#: Een fundamenteel begrip van programmeren in C# is nuttig, aangezien we C# zullen gebruiken om met Aspose.Slides voor .NET te werken.
+3. Basiskennis van C#: Een basiskennis van C#-programmering is nuttig, omdat we C# gaan gebruiken om met Aspose.Slides voor .NET te werken.
 
-Nu we de vereisten hebben besproken, gaan we stap voor stap het proces van het toevoegen van trendlijnen aan een diagram bekijken.
+Nu we de vereisten hebben besproken, gaan we stap voor stap het proces van het toevoegen van trendlijnen aan een grafiek uitleggen.
 
 ## Naamruimten importeren
 
@@ -38,7 +40,7 @@ using Aspose.Slides.Charts;
 using Aspose.Slides.Export;
 ```
 
-## Stap 1: Maak een presentatie
+## Stap 1: Een presentatie maken
 
 In deze stap maken we een lege presentatie om mee te werken.
 
@@ -46,7 +48,7 @@ In deze stap maken we een lege presentatie om mee te werken.
 // Het pad naar de documentenmap.
 string dataDir = "Your Document Directory";
 
-// Maak een directory aan als deze nog niet aanwezig is.
+// Maak een map aan als deze nog niet bestaat.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -55,23 +57,23 @@ if (!IsExists)
 Presentation pres = new Presentation();
 ```
 
-## Stap 2: Voeg een diagram toe aan de dia
+## Stap 2: Voeg een grafiek toe aan de dia
 
 Vervolgens voegen we een geclusterd kolomdiagram toe aan een dia.
 
 ```csharp
-// Een geclusterd kolomdiagram maken
+// Een geclusterde kolomgrafiek maken
 IChart chart = pres.Slides[0].Shapes.AddChart(ChartType.ClusteredColumn, 20, 20, 500, 400);
 ```
 
-## Stap 3: voeg trendlijnen toe aan de grafiek
+## Stap 3: Trendlijnen toevoegen aan de grafiek
 
-Nu voegen we verschillende soorten trendlijnen toe aan de diagramreeks.
+Nu voegen we verschillende typen trendlijnen toe aan de grafiekreeks.
 
 ### Een exponentiële trendlijn toevoegen
 
 ```csharp
-// Exponentiële trendlijn toevoegen voor diagramserie 1
+// Exponentiële trendlijn toevoegen voor grafiekserie 1
 ITrendline tredLineExp = chart.ChartData.Series[0].TrendLines.Add(TrendlineType.Exponential);
 tredLineExp.DisplayEquation = false;
 tredLineExp.DisplayRSquaredValue = false;
@@ -80,7 +82,7 @@ tredLineExp.DisplayRSquaredValue = false;
 ### Een lineaire trendlijn toevoegen
 
 ```csharp
-// Lineaire trendlijn toevoegen voor diagramserie 1
+// Lineaire trendlijn toevoegen voor grafiekserie 1
 ITrendline tredLineLin = chart.ChartData.Series[0].TrendLines.Add(TrendlineType.Linear);
 tredLineLin.Format.Line.FillFormat.FillType = FillType.Solid;
 tredLineLin.Format.Line.FillFormat.SolidFillColor.Color = Color.Red;
@@ -89,15 +91,15 @@ tredLineLin.Format.Line.FillFormat.SolidFillColor.Color = Color.Red;
 ### Een logaritmische trendlijn toevoegen
 
 ```csharp
-// Logaritmische trendlijn toevoegen voor diagramreeks 2
+// Logaritmische trendlijn toevoegen voor grafiekserie 2
 ITrendline tredLineLog = chart.ChartData.Series[1].TrendLines.Add(TrendlineType.Logarithmic);
 tredLineLog.AddTextFrameForOverriding("New log trend line");
 ```
 
-### Een voortschrijdend gemiddelde trendlijn toevoegen
+### Een voortschrijdende gemiddelde trendlijn toevoegen
 
 ```csharp
-// Trendlijn voor voortschrijdend gemiddelde toegevoegd voor diagramserie 2
+// Trendlijn met voortschrijdend gemiddelde toevoegen voor grafiekserie 2
 ITrendline tredLineMovAvg = chart.ChartData.Series[1].TrendLines.Add(TrendlineType.MovingAverage);
 tredLineMovAvg.Period = 3;
 tredLineMovAvg.TrendlineName = "New TrendLine Name";
@@ -106,54 +108,56 @@ tredLineMovAvg.TrendlineName = "New TrendLine Name";
 ### Een polynomiale trendlijn toevoegen
 
 ```csharp
-// Polynomiale trendlijn toegevoegd voor diagramreeks 3
+// Polynomiale trendlijn toevoegen voor grafiekserie 3
 ITrendline tredLinePol = chart.ChartData.Series[2].TrendLines.Add(TrendlineType.Polynomial);
 tredLinePol.Forward = 1;
 tredLinePol.Order = 3;
 ```
 
-### Een vermogenstrendlijn toevoegen
+### Een Power Trendlijn toevoegen
 
 ```csharp
-// Vermogenstrendlijn toevoegen voor diagramreeks 3
+// Powertrendlijn toevoegen voor grafiekserie 3
 ITrendline tredLinePower = chart.ChartData.Series[1].TrendLines.Add(TrendlineType.Power);
 tredLinePower.Backward = 1;
 ```
 
 ## Stap 4: Sla de presentatie op
 
-Nadat u trendlijnen aan het diagram heeft toegevoegd, slaat u de presentatie op.
+Nadat u trendlijnen aan de grafiek hebt toegevoegd, slaat u de presentatie op.
 
 ```csharp
 // Presentatie opslaan
 pres.Save(dataDir + "ChartTrendLines_out.pptx", SaveFormat.Pptx);
 ```
 
-Dat is het! U hebt met succes verschillende trendlijnen aan uw diagram toegevoegd met Aspose.Slides voor .NET.
+Dat is alles! Je hebt met succes verschillende trendlijnen aan je grafiek toegevoegd met Aspose.Slides voor .NET.
 
 ## Conclusie
 
-Aspose.Slides voor .NET is een veelzijdige bibliotheek waarmee u eenvoudig grafieken kunt maken en manipuleren. Door deze stapsgewijze handleiding te volgen, kunt u verschillende soorten trendlijnen aan uw diagrammen toevoegen, waardoor de visuele weergave van uw gegevens wordt verbeterd.
+Aspose.Slides voor .NET is een veelzijdige bibliotheek waarmee u eenvoudig grafieken kunt maken en bewerken. Door deze stapsgewijze handleiding te volgen, kunt u verschillende typen trendlijnen aan uw grafieken toevoegen en zo de visuele weergave van uw gegevens verbeteren.
 
 ### Veelgestelde vragen
 
 ### Waar kan ik de documentatie voor Aspose.Slides voor .NET vinden?
- U heeft toegang tot de documentatie[hier](https://reference.aspose.com/slides/net/).
+U kunt de documentatie raadplegen [hier](https://reference.aspose.com/slides/net/).
 
 ### Hoe kan ik Aspose.Slides voor .NET downloaden?
- U kunt Aspose.Slides voor .NET downloaden vanaf de downloadpagina[hier](https://releases.aspose.com/slides/net/).
+U kunt Aspose.Slides voor .NET downloaden vanaf de downloadpagina [hier](https://releases.aspose.com/slides/net/).
 
 ### Is er een gratis proefversie beschikbaar voor Aspose.Slides voor .NET?
- Ja, je kunt Aspose.Slides voor .NET gratis uitproberen door te bezoeken[deze link](https://releases.aspose.com/).
+Ja, u kunt Aspose.Slides voor .NET gratis uitproberen door naar [deze link](https://releases.aspose.com/).
 
 ### Waar kan ik Aspose.Slides voor .NET kopen?
- Ga naar de aankooppagina om Aspose.Slides voor .NET te kopen[hier](https://purchase.aspose.com/buy).
+Om Aspose.Slides voor .NET te kopen, gaat u naar de aankooppagina [hier](https://purchase.aspose.com/buy).
 
 ### Heb ik een tijdelijke licentie nodig voor Aspose.Slides voor .NET?
- U kunt een tijdelijke licentie voor Aspose.Slides voor .NET verkrijgen bij[deze link](https://purchase.aspose.com/temporary-license/).
+U kunt een tijdelijke licentie voor Aspose.Slides voor .NET verkrijgen via [deze link](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

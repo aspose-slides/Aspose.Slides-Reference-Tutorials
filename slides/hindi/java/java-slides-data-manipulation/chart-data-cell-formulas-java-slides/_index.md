@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में चार्ट डेटा सेल सूत्र
-linktitle: जावा स्लाइड्स में चार्ट डेटा सेल सूत्र
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके Java PowerPoint प्रस्तुतियों में चार्ट डेटा सेल फ़ॉर्मूले सेट करना सीखें। फ़ॉर्मूले के साथ गतिशील चार्ट बनाएँ।
-weight: 11
-url: /hi/java/data-manipulation/chart-data-cell-formulas-java-slides/
+"description": "Aspose.Slides for Java का उपयोग करके Java PowerPoint प्रस्तुतियों में चार्ट डेटा सेल फ़ॉर्मूले सेट करना सीखें। फ़ॉर्मूले के साथ गतिशील चार्ट बनाएँ।"
+"linktitle": "जावा स्लाइड्स में चार्ट डेटा सेल सूत्र"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में चार्ट डेटा सेल सूत्र"
+"url": "/hi/java/data-manipulation/chart-data-cell-formulas-java-slides/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में चार्ट डेटा सेल सूत्र
@@ -20,7 +22,7 @@ url: /hi/java/data-manipulation/chart-data-cell-formulas-java-slides/
 
 ## आवश्यक शर्तें
 
- शुरू करने से पहले, सुनिश्चित करें कि आपके पास Aspose.Slides for Java लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+शुरू करने से पहले, सुनिश्चित करें कि आपके पास Aspose.Slides for Java लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 
 ## चरण 1: पावरपॉइंट प्रेजेंटेशन बनाएं
 
@@ -119,7 +121,7 @@ finally
 
 ### मैं किसी विशिष्ट स्लाइड में चार्ट कैसे जोड़ूं?
 
- किसी विशिष्ट स्लाइड में चार्ट जोड़ने के लिए, आप इसका उपयोग कर सकते हैं`getSlides().get_Item(slideIndex)` वांछित स्लाइड तक पहुंचने के लिए विधि, और फिर का उपयोग करें`addChart` चार्ट जोड़ने की विधि.
+किसी विशिष्ट स्लाइड में चार्ट जोड़ने के लिए, आप इसका उपयोग कर सकते हैं `getSlides().get_Item(slideIndex)` वांछित स्लाइड तक पहुंचने के लिए विधि, और फिर का उपयोग करें `addChart` चार्ट जोड़ने की विधि.
 
 ### क्या मैं डेटा सेल में विभिन्न प्रकार के सूत्रों का उपयोग कर सकता हूँ?
 
@@ -127,10 +129,12 @@ finally
 
 ### मैं चार्ट का प्रकार कैसे बदलूं?
 
- आप इसका उपयोग करके चार्ट प्रकार बदल सकते हैं`setChartType` विधि पर`IChart` वस्तु और वांछित निर्दिष्ट करना`ChartType`.
+आप इसका उपयोग करके चार्ट प्रकार बदल सकते हैं `setChartType` विधि पर `IChart` वस्तु और वांछित निर्दिष्ट करना `ChartType`.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

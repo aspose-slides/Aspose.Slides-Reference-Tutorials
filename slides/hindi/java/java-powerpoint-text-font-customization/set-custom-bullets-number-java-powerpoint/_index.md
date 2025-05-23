@@ -1,14 +1,16 @@
 ---
-title: जावा पावरपॉइंट में कस्टम बुलेट नंबर सेट करें
-linktitle: जावा पावरपॉइंट में कस्टम बुलेट नंबर सेट करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides के साथ Java PowerPoint में कस्टम बुलेट नंबर सेट करना सीखें, जिससे प्रोग्रामेटिक रूप से प्रस्तुति स्पष्टता और संरचना में वृद्धि हो।
-weight: 15
-url: /hi/java/java-powerpoint-text-font-customization/set-custom-bullets-number-java-powerpoint/
+"description": "Aspose.Slides के साथ Java PowerPoint में कस्टम बुलेट नंबर सेट करना सीखें, जिससे प्रोग्रामेटिक रूप से प्रस्तुति स्पष्टता और संरचना में वृद्धि हो।"
+"linktitle": "जावा पावरपॉइंट में कस्टम बुलेट नंबर सेट करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा पावरपॉइंट में कस्टम बुलेट नंबर सेट करें"
+"url": "/hi/java/java-powerpoint-text-font-customization/set-custom-bullets-number-java-powerpoint/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा पावरपॉइंट में कस्टम बुलेट नंबर सेट करें
@@ -19,7 +21,7 @@ url: /hi/java/java-powerpoint-text-font-customization/set-custom-bullets-number-
 ट्यूटोरियल में आगे बढ़ने से पहले, सुनिश्चित करें कि आपके विकास परिवेश में निम्नलिखित पूर्वापेक्षाएँ स्थापित हैं:
 - जावा डेवलपमेंट किट (JDK) स्थापित
 - एकीकृत विकास वातावरण (IDE) जैसे कि IntelliJ IDEA या Eclipse
--  Aspose.Slides for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/)
+- Aspose.Slides for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/)
 - जावा प्रोग्रामिंग भाषा और ऑब्जेक्ट-ओरिएंटेड अवधारणाओं की बुनियादी समझ
 
 ## पैकेज आयात करें
@@ -83,14 +85,16 @@ presentation.save(dataDir + "SetCustomBulletsNumber-slides.pptx", SaveFormat.Ppt
 ### क्या Aspose.Slides PowerPoint के सभी संस्करणों के साथ संगत है?
 Aspose.Slides 97-2003 से लेकर नवीनतम संस्करणों तक PowerPoint प्रारूपों का समर्थन करता है।
 ### मैं Aspose.Slides के लिए तकनीकी सहायता कैसे प्राप्त कर सकता हूं?
- मिलने जाना[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) तकनीकी सहायता के लिए संपर्क करें।
+मिलने जाना [Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) तकनीकी सहायता के लिए.
 ### क्या मैं खरीदने से पहले Aspose.Slides आज़मा सकता हूँ?
- हां, आप यहां से निःशुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप यहां से निःशुल्क परीक्षण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
 ### मैं Aspose.Slides कहां से खरीद सकता हूं?
- आप Aspose.Slides यहाँ से खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+आप Aspose.Slides यहाँ से खरीद सकते हैं [यहाँ](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

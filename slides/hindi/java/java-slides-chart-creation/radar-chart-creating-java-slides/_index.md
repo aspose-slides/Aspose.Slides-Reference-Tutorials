@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में रडार चार्ट बनाना
-linktitle: जावा स्लाइड्स में रडार चार्ट बनाना
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java API का उपयोग करके Java PowerPoint प्रस्तुतियों में रडार चार्ट बनाना सीखें।
-weight: 10
-url: /hi/java/chart-creation/radar-chart-creating-java-slides/
+"description": "Aspose.Slides for Java API का उपयोग करके Java PowerPoint प्रस्तुतियों में रडार चार्ट बनाना सीखें।"
+"linktitle": "जावा स्लाइड्स में रडार चार्ट बनाना"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में रडार चार्ट बनाना"
+"url": "/hi/java/chart-creation/radar-chart-creating-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में रडार चार्ट बनाना
@@ -20,9 +22,9 @@ url: /hi/java/chart-creation/radar-chart-creating-java-slides/
 
 ## आवश्यक शर्तें
 
- शुरू करने से पहले, सुनिश्चित करें कि आपके प्रोजेक्ट में Aspose.Slides for Java लाइब्रेरी एकीकृत है। आप लाइब्रेरी को यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+शुरू करने से पहले, सुनिश्चित करें कि आपके प्रोजेक्ट में Aspose.Slides for Java लाइब्रेरी एकीकृत है। आप लाइब्रेरी को यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 
-## चरण 1: प्रस्तुतिकरण सेट करना
+## चरण 1: प्रस्तुति सेट करना
 
 आइए एक नया पावरपॉइंट प्रेजेंटेशन सेट करके और उसमें एक स्लाइड जोड़कर शुरुआत करें।
 
@@ -100,7 +102,7 @@ series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.ORANGE);
 ```
 
-## चरण 5: अक्ष और महापुरूष को अनुकूलित करना
+## चरण 5: एक्सिस और लीजेंड्स को अनुकूलित करना
 
 आइए अपने रडार चार्ट के लिए अक्ष और लेजेंड को अनुकूलित करें।
 
@@ -151,7 +153,7 @@ ichart.getAxes().getVerticalAxis().setMajorUnit(1.25f);
 pres.save(outPath, SaveFormat.Pptx);
 ```
 
-बस! आपने Aspose.Slides for Java का उपयोग करके PowerPoint प्रेजेंटेशन में सफलतापूर्वक रडार चार्ट बना लिया है। अब आप इस उदाहरण को अपनी विशिष्ट आवश्यकताओं के अनुरूप और भी अनुकूलित कर सकते हैं।
+बस! आपने Aspose.Slides for Java का उपयोग करके PowerPoint प्रेजेंटेशन में सफलतापूर्वक रडार चार्ट बना लिया है। अब आप इस उदाहरण को अपनी विशिष्ट आवश्यकताओं के अनुसार और भी अनुकूलित कर सकते हैं।
 
 ## जावा स्लाइड्स में रडार चार्ट बनाने के लिए पूर्ण स्रोत कोड
 
@@ -194,7 +196,7 @@ try
 	// श्रृंखला रंग सेट करें
 	series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
-	//अब एक और श्रृंखला डेटा पॉपुलेट किया जा रहा है
+	// अब एक और श्रृंखला डेटा पॉपुलेट किया जा रहा है
 	series = ichart.getChartData().getSeries().get_Item(1);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 2.5));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 2.4));
@@ -262,7 +264,7 @@ ichart.getChartTitle().addTextFrameForOverriding("Radar Chart");
 
 ### मैं चार्ट के रंगों को कैसे अनुकूलित करूँ?
 
- आप श्रृंखला के रंगों को उन पंक्तियों को संशोधित करके अनुकूलित कर सकते हैं जो`SolidFillColor` प्रत्येक श्रृंखला के लिए संपत्ति। उदाहरण के लिए:
+आप श्रृंखला के रंगों को उन पंक्तियों को संशोधित करके अनुकूलित कर सकते हैं जो `SolidFillColor` प्रत्येक श्रृंखला के लिए संपत्ति। उदाहरण के लिए:
 ```java
 series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
 ```
@@ -273,10 +275,12 @@ series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.
 
 ### मैं चार्ट को भिन्न फ़ाइल प्रारूप में कैसे सहेजूँ?
 
-आप फ़ाइल एक्सटेंशन को संशोधित करके आउटपुट प्रारूप बदल सकते हैं`outPath` परिवर्तनीय और उपयुक्त का उपयोग करना`SaveFormat` उदाहरण के लिए, PDF के रूप में सहेजने के लिए, उपयोग करें`SaveFormat.Pdf`.
+आप फ़ाइल एक्सटेंशन को संशोधित करके आउटपुट प्रारूप बदल सकते हैं `outPath` परिवर्तनीय और उपयुक्त का उपयोग करना `SaveFormat`उदाहरण के लिए, PDF के रूप में सहेजने के लिए, उपयोग करें `SaveFormat.Pdf`.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

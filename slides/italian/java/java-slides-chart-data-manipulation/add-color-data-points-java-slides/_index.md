@@ -1,51 +1,53 @@
 ---
-title: Aggiungi colore ai punti dati nelle diapositive Java
-linktitle: Aggiungi colore ai punti dati nelle diapositive Java
-second_title: Aspose.Slides API di elaborazione Java PowerPoint
-description: Scopri come aggiungere colore ai punti dati nelle diapositive Java utilizzando Aspose.Slides per Java.
-weight: 10
-url: /it/java/chart-data-manipulation/add-color-data-points-java-slides/
+"description": "Scopri come aggiungere colore ai punti dati nelle diapositive Java utilizzando Aspose.Slides per Java."
+"linktitle": "Aggiungere colore ai punti dati nelle diapositive Java"
+"second_title": "API di elaborazione Java PowerPoint di Aspose.Slides"
+"title": "Aggiungere colore ai punti dati nelle diapositive Java"
+"url": "/it/java/chart-data-manipulation/add-color-data-points-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aggiungi colore ai punti dati nelle diapositive Java
+# Aggiungere colore ai punti dati nelle diapositive Java
 
 
-## Introduzione all'aggiunta di colore ai punti dati nelle diapositive Java
+## Introduzione all'aggiunta di colore ai punti dati in Java Slides
 
-In questo tutorial, dimostreremo come aggiungere colore ai punti dati nelle diapositive Java utilizzando Aspose.Slides per Java. Questa guida passo passo include esempi di codice sorgente per aiutarti a raggiungere questo obiettivo.
+In questo tutorial, mostreremo come aggiungere colore ai punti dati nelle diapositive Java utilizzando Aspose.Slides per Java. Questa guida passo passo include esempi di codice sorgente per aiutarti a raggiungere questo obiettivo.
 
 ## Prerequisiti
 
-Prima di iniziare, assicurati di disporre dei seguenti prerequisiti:
+Prima di iniziare, assicurati di avere i seguenti prerequisiti:
 
 - Ambiente di sviluppo Java
-- Aspose.Slides per la libreria Java
+- Libreria Aspose.Slides per Java
 
-## Passaggio 1: crea una nuova presentazione
+## Passaggio 1: creare una nuova presentazione
 
-Innanzitutto, creeremo una nuova presentazione utilizzando Aspose.Slides per Java. Questa presentazione servirà da contenitore per il nostro grafico.
+Per prima cosa, creeremo una nuova presentazione utilizzando Aspose.Slides per Java. Questa presentazione servirà da contenitore per il nostro grafico.
 
 ```java
 Presentation pres = new Presentation();
 ```
 
-## Passaggio 2: aggiungi un grafico Sunburst
+## Passaggio 2: aggiungere un grafico a raggiera
 
-Ora aggiungiamo un grafico Sunburst alla presentazione. Specifichiamo il tipo di grafico, la posizione e la dimensione.
+Ora aggiungiamo un grafico Sunburst alla presentazione. Specifichiamo il tipo, la posizione e le dimensioni del grafico.
 
 ```java
-// Il percorso della directory dei documenti.
+// Percorso verso la directory dei documenti.
 String dataDir = "Your Document Directory";
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Sunburst, 100, 100, 450, 400);
 ```
 
-## Passaggio 3: accesso ai punti dati
+## Passaggio 3: accedere ai punti dati
 
- Per modificare i punti dati nel grafico, dobbiamo accedere a`IChartDataPointCollection` oggetto.
+Per modificare i punti dati nel grafico, dobbiamo accedere a `IChartDataPointCollection` oggetto.
 
 ```java
 IChartDataPointCollection dataPoints = chart.getChartData().getSeries().get_Item(0).getDataPoints();
@@ -53,7 +55,7 @@ IChartDataPointCollection dataPoints = chart.getChartData().getSeries().get_Item
 
 ## Passaggio 4: personalizzare i punti dati
 
-In questo passaggio personalizzeremo punti dati specifici. Qui stiamo cambiando il colore dei punti dati e configurando le impostazioni delle etichette.
+In questa fase, personalizzeremo punti dati specifici. Qui, cambieremo il colore dei punti dati e configureremo le impostazioni delle etichette.
 
 ```java
 // Personalizza il punto dati 0
@@ -69,7 +71,7 @@ steam4Format.getFill().setFillType(FillType.Solid);
 steam4Format.getFill().getSolidFillColor().setColor(com.aspose.cells.Color.fromArgb(0, 176, 240, 255).d());
 ```
 
-## Passaggio 5: salva la presentazione
+## Passaggio 5: Salva la presentazione
 
 Infine, salva la presentazione con il grafico personalizzato.
 
@@ -77,15 +79,15 @@ Infine, salva la presentazione con il grafico personalizzato.
 pres.save("Your Output Directory/AddColorToDataPoints.pptx", SaveFormat.Pptx);
 ```
 
-Questo è tutto! Hai aggiunto con successo colore a punti dati specifici in una diapositiva Java utilizzando Aspose.Slides per Java.
+Ecco fatto! Hai aggiunto con successo il colore a punti dati specifici in una diapositiva Java utilizzando Aspose.Slides per Java.
 
-## Codice sorgente completo per aggiungere colore ai punti dati nelle diapositive Java
+## Codice sorgente completo per aggiungere colore ai punti dati in Java Slides
 
 ```java
 Presentation pres = new Presentation();
 try
 {
-	// Il percorso della directory dei documenti.
+	// Percorso verso la directory dei documenti.
 	String dataDir = "Your Document Directory";
 	IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Sunburst, 100, 100, 450, 400);
 	IChartDataPointCollection dataPoints = chart.getChartData().getSeries().get_Item(0).getDataPoints();
@@ -108,24 +110,26 @@ finally
 
 ## Conclusione
 
-In questo tutorial, hai imparato come aggiungere colore ai punti dati nelle diapositive Java utilizzando Aspose.Slides per Java. Puoi personalizzare ulteriormente i tuoi grafici e le tue presentazioni in base alle tue esigenze specifiche.
+In questo tutorial, hai imparato come aggiungere colore ai punti dati nelle diapositive Java utilizzando Aspose.Slides per Java. Puoi personalizzare ulteriormente grafici e presentazioni in base alle tue esigenze specifiche.
 
 ## Domande frequenti
 
 ### Come posso cambiare il colore di altri punti dati?
 
-Per cambiare il colore di altri punti dati, puoi seguire un approccio simile come mostrato nel passaggio 4. Accedi al punto dati che desideri personalizzare e modifica le impostazioni di colore ed etichetta.
+Per modificare il colore di altri punti dati, puoi seguire un approccio simile a quello mostrato nel passaggio 4. Accedi al punto dati che vuoi personalizzare e modificane le impostazioni di colore ed etichetta.
 
 ### Posso personalizzare altri aspetti del grafico?
 
- Sì, puoi personalizzare vari aspetti del grafico, inclusi caratteri, etichette, titoli e altro. Fare riferimento al[Aspose.Slides per la documentazione Java](https://reference.aspose.com/slides/java/) per opzioni di personalizzazione dettagliate.
+Sì, puoi personalizzare vari aspetti del grafico, inclusi caratteri, etichette, titoli e altro ancora. Fai riferimento a [Documentazione di Aspose.Slides per Java](https://reference.aspose.com/slides/java/) per opzioni di personalizzazione dettagliate.
 
 ### Dove posso trovare altri esempi e documentazione?
 
- Puoi trovare ulteriori esempi e documentazione dettagliata sull'utilizzo di Aspose.Slides per Java su[Documentazione Aspose.Slides](https://reference.aspose.com/slides/java/) sito web.
+Puoi trovare altri esempi e documentazione dettagliata sull'utilizzo di Aspose.Slides per Java su [Documentazione di Aspose.Slides](https://reference.aspose.com/slides/java/) sito web.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,57 +1,59 @@
 ---
-title: Možnosti převodu bez XPS v Java Slides
-linktitle: Možnosti převodu bez XPS v Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Naučte se převádět prezentace PowerPoint do formátu XPS pomocí Aspose.Slides for Java. Průvodce krok za krokem se zdrojovým kódem.
-weight: 33
-url: /cs/java/presentation-conversion/convert-without-xps-options-java-slides/
+"description": "Naučte se, jak převést prezentace PowerPointu do formátu XPS pomocí Aspose.Slides pro Javu. Podrobný návod se zdrojovým kódem."
+"linktitle": "Převod bez možností XPS v prezentaci Java"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Převod bez možností XPS v prezentaci Java"
+"url": "/cs/java/presentation-conversion/convert-without-xps-options-java-slides/"
+"weight": 33
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Možnosti převodu bez XPS v Java Slides
+# Převod bez možností XPS v prezentaci Java
 
 
-## Úvod Převod PowerPoint na XPS bez možností XPS v Aspose.Slides pro Javu
+## Úvod Převod PowerPointu do XPS bez možností XPS v Aspose.Slides pro Javu
 
-V tomto tutoriálu vás provedeme procesem převodu prezentace v PowerPointu na dokument XPS (XML Paper Specification) pomocí Aspose.Slides for Java, aniž byste museli specifikovat jakékoli možnosti XPS. Poskytneme vám podrobné pokyny a zdrojový kód Java pro dosažení tohoto úkolu.
+tomto tutoriálu vás provedeme procesem převodu prezentace v PowerPointu do dokumentu XPS (XML Paper Specification) pomocí Aspose.Slides pro Javu bez zadání jakýchkoli možností XPS. Poskytneme vám podrobné pokyny a zdrojový kód Java pro dosažení tohoto úkolu.
 
 ## Předpoklady
 
 Než začnete, ujistěte se, že máte splněny následující předpoklady:
 
-1.  Aspose.Slides for Java: Ujistěte se, že máte v projektu Java nainstalovanou a nakonfigurovanou knihovnu Aspose.Slides for Java. Můžete si jej stáhnout z[Aspose.Slides pro webové stránky Java](https://downloads.aspose.com/slides/java).
+1. Aspose.Slides pro Javu: Ujistěte se, že máte ve svém projektu Java nainstalovanou a nakonfigurovanou knihovnu Aspose.Slides pro Javu. Můžete si ji stáhnout z [Web Aspose.Slides pro Javu](https://downloads.aspose.com/slides/java).
 
-2. Vývojové prostředí Java: Na svém počítači byste měli mít nastavené vývojové prostředí Java.
+2. Vývojové prostředí Java: Na počítači byste měli mít nainstalované vývojové prostředí Java.
 
-## Krok 1: Import Aspose.Slides pro Java
+## Krok 1: Import Aspose.Slides pro Javu
 
-Ve svém projektu Java naimportujte potřebné třídy Aspose.Slides for Java na začátek souboru Java:
+Ve vašem projektu Java importujte potřebné třídy Aspose.Slides pro Java na začátek souboru Java:
 
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 ```
 
-## Krok 2: Načtěte prezentaci PowerPoint
+## Krok 2: Načtěte prezentaci v PowerPointu
 
-Nyní načteme prezentaci PowerPoint, kterou chcete převést na XPS. Nahradit`"Your Document Directory"` se skutečnou cestou k souboru prezentace PowerPoint:
+Nyní načteme prezentaci PowerPointu, kterou chcete převést do formátu XPS. Nahraďte `"Your Document Directory"` se skutečnou cestou k souboru vaší prezentace v PowerPointu:
 
 ```java
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 String dataDir = "Your Document Directory";
 
-// Vytvořte instanci objektu Presentation, který představuje soubor prezentace
+// Vytvoření instance objektu Presentation, který představuje soubor prezentace.
 Presentation pres = new Presentation(dataDir + "Convert_XPS.pptx");
 ```
 
- Ujistěte se, že jste vyměnili`"Convert_XPS.pptx"` se skutečným názvem vašeho PowerPoint souboru.
+Ujistěte se, že vyměníte `"Convert_XPS.pptx"` se skutečným názvem vašeho souboru PowerPoint.
 
 ## Krok 3: Uložit jako XPS bez možností XPS
 
-S Aspose.Slides for Java můžete snadno uložit načtenou prezentaci jako dokument XPS, aniž byste museli zadávat jakékoli možnosti XPS. Můžete to udělat takto:
+S Aspose.Slides pro Javu můžete snadno uložit načtenou prezentaci jako dokument XPS bez nutnosti zadávat jakékoli možnosti XPS. Zde je návod, jak to udělat:
 
 ```java
 try {
@@ -62,14 +64,14 @@ try {
 }
 ```
 
- Tento blok kódu uloží prezentaci jako dokument XPS s názvem`"XPS_Output_Without_XPSOption_out.xps"`. Podle potřeby můžete změnit název výstupního souboru.
+Tento blok kódu uloží prezentaci jako dokument XPS s názvem `"XPS_Output_Without_XPSOption_out.xps"`Název výstupního souboru můžete podle potřeby změnit.
 
 ## Kompletní zdrojový kód pro převod bez možností XPS v Java Slides
 
 ```java
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 String dataDir = "Your Document Directory";
-// Vytvořte instanci objektu Presentation, který představuje soubor prezentace
+// Vytvoření instance objektu Presentation, který představuje soubor prezentace.
 Presentation pres = new Presentation(dataDir + "Convert_XPS.pptx");
 try
 {
@@ -84,24 +86,26 @@ finally
 
 ## Závěr
 
- V tomto tutoriálu jste se naučili, jak pomocí Aspose.Slides for Java převést PowerPointovou prezentaci na dokument XPS, aniž byste museli zadávat jakékoli možnosti XPS. Proces převodu můžete dále přizpůsobit prozkoumáním možností, které poskytuje Aspose.Slides for Java. Pro pokročilejší funkce a podrobnou dokumentaci navštivte stránku[Aspose.Slides pro dokumentaci Java](https://docs.aspose.com/slides/java/).
+tomto tutoriálu jste se naučili, jak převést prezentaci PowerPointu do dokumentu XPS bez zadání jakýchkoli možností XPS pomocí nástroje Aspose.Slides pro Javu. Proces převodu si můžete dále přizpůsobit prozkoumáním možností, které Aspose.Slides pro Javu nabízí. Pokročilejší funkce a podrobnou dokumentaci naleznete na [Dokumentace k Aspose.Slides pro Javu](https://docs.aspose.com/slides/java/).
 
-## FAQ
+## Často kladené otázky
 
-### Jak určím možnosti XPS při převodu?
+### Jak mohu při převodu zadat možnosti XPS?
 
- Chcete-li určit možnosti XPS při převodu prezentace PowerPoint, můžete použít`XpsOptions` třídy a nastavit různé vlastnosti, jako je komprese obrázků a vkládání písem. Pokud máte specifické požadavky na konverzi XPS, podívejte se na[Aspose.Slides pro dokumentaci Java](https://docs.aspose.com/slides/java/) Více podrobností.
+Chcete-li při převodu prezentace PowerPointu zadat možnosti XPS, můžete použít `XpsOptions` třídu a nastavit různé vlastnosti, jako je komprese obrázků a vkládání písem. Pokud máte specifické požadavky na převod XPS, podívejte se na [Dokumentace k Aspose.Slides pro Javu](https://docs.aspose.com/slides/java/) pro více informací.
 
 ### Existují nějaké další možnosti pro ukládání v jiných formátech?
 
- Ano, Aspose.Slides for Java poskytuje různé výstupní formáty kromě XPS, jako jsou PDF, TIFF a HTML. Požadovaný výstupní formát můžete určit změnou`SaveFormat` parametru při volání`save` metoda. Úplný seznam podporovaných formátů naleznete v dokumentaci.
+Ano, Aspose.Slides pro Javu nabízí kromě XPS i různé výstupní formáty, například PDF, TIFF a HTML. Požadovaný výstupní formát můžete určit změnou `SaveFormat` parametr při volání `save` metoda. Úplný seznam podporovaných formátů naleznete v dokumentaci.
 
-### Jak mohu zpracovat výjimky během procesu převodu?
+### Jak mohu během procesu převodu ošetřit výjimky?
 
- Můžete implementovat zpracování výjimek, abyste elegantně zvládli všechny chyby, které mohou nastat během procesu převodu. Jak je uvedeno v kódu, a`try` a`finally` blok se používají k zajištění správné likvidace zdrojů, i když dojde k výjimce.
+Můžete implementovat ošetření výjimek pro elegantní zpracování všech chyb, které se mohou vyskytnout během procesu převodu. Jak je znázorněno v kódu, `try` a `finally` Bloky se používají k zajištění správného odstranění zdrojů, i když dojde k výjimce.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

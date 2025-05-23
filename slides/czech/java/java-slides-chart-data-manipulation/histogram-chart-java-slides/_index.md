@@ -1,30 +1,32 @@
 ---
-title: Histogram Chart v Java Slides
-linktitle: Histogram Chart v Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Naučte se vytvářet histogramové grafy v prezentacích PowerPoint pomocí Aspose.Slides pro Java. Podrobný průvodce se zdrojovým kódem pro vizualizaci dat.
-weight: 19
-url: /cs/java/chart-data-manipulation/histogram-chart-java-slides/
+"description": "Naučte se, jak vytvářet histogramy v prezentacích v PowerPointu pomocí Aspose.Slides pro Javu. Podrobný návod se zdrojovým kódem pro vizualizaci dat."
+"linktitle": "Histogram v Javě Slides"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Histogram v Javě Slides"
+"url": "/cs/java/chart-data-manipulation/histogram-chart-java-slides/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Histogram Chart v Java Slides
+# Histogram v Javě Slides
 
 
-## Úvod do Histogram Chart v Java Slides pomocí Aspose.Slides
+## Úvod do histogramu v Javě s využitím Aspose.Slides
 
-V tomto tutoriálu vás provedeme procesem vytváření histogramového grafu v prezentaci PowerPoint pomocí rozhraní Aspose.Slides for Java API. Histogram Chart se používá k reprezentaci rozložení dat v nepřetržitém intervalu.
+V tomto tutoriálu vás provedeme procesem vytvoření histogramu v prezentaci PowerPoint pomocí rozhraní Aspose.Slides pro Java API. Histogram se používá k znázornění rozložení dat v spojitém intervalu.
 
 ## Předpoklady
 
- Než začnete, ujistěte se, že máte nainstalovanou knihovnu Aspose.Slides for Java. Můžete si jej stáhnout z[Aspose webové stránky](https://releases.aspose.com/slides/java/).
+Než začnete, ujistěte se, že máte nainstalovanou knihovnu Aspose.Slides pro Javu. Můžete si ji stáhnout z [Webové stránky Aspose](https://releases.aspose.com/slides/java/).
 
-## Krok 1: Inicializujte svůj projekt
+## Krok 1: Inicializace projektu
 
-Vytvořte projekt Java a zahrňte knihovnu Aspose.Slides do závislostí svého projektu.
+Vytvořte projekt v Javě a do závislostí projektu zahrňte knihovnu Aspose.Slides.
 
 ## Krok 2: Importujte potřebné knihovny
 
@@ -32,18 +34,18 @@ Vytvořte projekt Java a zahrňte knihovnu Aspose.Slides do závislostí svého 
 import com.aspose.slides.*;
 ```
 
-## Krok 3: Načtěte existující prezentaci
+## Krok 3: Načtení existující prezentace
 
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 ```
 
- Nezapomeňte vyměnit`"Your Document Directory"` se skutečnou cestou k vašemu PowerPoint dokumentu.
+Nezapomeňte vyměnit `"Your Document Directory"` se skutečnou cestou k vašemu dokumentu PowerPoint.
 
 ## Krok 4: Vytvořte histogram
 
-Nyní vytvoříme histogram na snímku prezentace.
+Nyní si vytvořme histogram na snímku v prezentaci.
 
 ```java
 try {
@@ -52,7 +54,7 @@ try {
     chart.getChartData().getSeries().clear();
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
     
-    // Přidejte datové body do řady
+    // Přidání datových bodů do řady
     IChartSeries series = chart.getChartData().getSeries().add(ChartType.Histogram);
     series.getDataPoints().addDataPointForHistogramSeries(wb.getCell(0, "A1", 15));
     series.getDataPoints().addDataPointForHistogramSeries(wb.getCell(0, "A2", -41));
@@ -61,19 +63,19 @@ try {
     series.getDataPoints().addDataPointForHistogramSeries(wb.getCell(0, "A5", -23));
     series.getDataPoints().addDataPointForHistogramSeries(wb.getCell(0, "A6", 16));
     
-    // Nastavte typ agregace vodorovné osy na Automaticky
+    // Nastavit typ agregace vodorovné osy na Automaticky
     chart.getAxes().getHorizontalAxis().setAggregationType(AxisAggregationType.Automatic);
     
-    // Uložte prezentaci
+    // Uložit prezentaci
     pres.save(dataDir + "Histogram.pptx", SaveFormat.Pptx);
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
 
- V tomto kódu nejprve vymažeme všechny existující kategorie a řady z grafu. Poté přidáme datové body do řady pomocí`getDataPoints().addDataPointForHistogramSeries` metoda. Nakonec nastavíme typ agregace vodorovné osy na Automaticky a prezentaci uložíme.
+V tomto kódu nejprve z grafu vymažeme všechny existující kategorie a řady. Poté do řady přidáme datové body pomocí `getDataPoints().addDataPointForHistogramSeries` metoda. Nakonec nastavíme typ agregace horizontální osy na Automaticky a uložíme prezentaci.
 
-## Kompletní zdrojový kód pro histogramový graf v Java Slides
+## Kompletní zdrojový kód pro histogram v Javě Slides
 
 ```java
 String dataDir = "Your Document Directory";
@@ -103,24 +105,26 @@ finally
 
 ## Závěr
 
-tomto tutoriálu jsme prozkoumali, jak vytvořit histogramový graf v prezentaci PowerPoint pomocí Aspose.Slides for Java API. Histogramové grafy jsou cennými nástroji pro vizualizaci distribuce dat v nepřetržitém intervalu a mohou být účinným doplňkem vašich prezentací, zejména při práci se statistickým nebo analytickým obsahem.
+tomto tutoriálu jsme prozkoumali, jak vytvořit histogram v prezentaci PowerPoint pomocí rozhraní Aspose.Slides pro Java API. Histogramy jsou cennými nástroji pro vizualizaci rozložení dat v nepřetržitém intervalu a mohou být účinným doplňkem vašich prezentací, zejména při práci se statistickým nebo analytickým obsahem.
 
-## FAQ
+## Často kladené otázky
 
-### Jak nainstaluji Aspose.Slides for Java?
+### Jak nainstaluji Aspose.Slides pro Javu?
 
- Knihovnu Aspose.Slides for Java si můžete stáhnout z[tady](https://releases.aspose.com/slides/java/). Postupujte podle pokynů k instalaci uvedených na jejich webových stránkách.
+Knihovnu Aspose.Slides pro Javu si můžete stáhnout z [zde](https://releases.aspose.com/slides/java/)Postupujte podle pokynů k instalaci uvedených na jejich webových stránkách.
 
-### K čemu slouží histogram?
+### K čemu se používá histogram?
 
-Histogram Chart se používá k vizualizaci rozložení dat v nepřetržitém intervalu. Běžně se používá ve statistikách k reprezentaci rozdělení frekvencí.
+Histogram se používá k vizualizaci rozložení dat v spojitém intervalu. Ve statistice se běžně používá k reprezentaci frekvenčního rozdělení.
 
-### Mohu upravit vzhled histogramového grafu?
+### Mohu si přizpůsobit vzhled histogramu?
 
-Ano, vzhled grafu, včetně jeho barev, štítků a os, můžete upravit pomocí rozhraní Aspose.Slides API.
+Ano, vzhled grafu, včetně jeho barev, popisků a os, si můžete přizpůsobit pomocí rozhraní API Aspose.Slides.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

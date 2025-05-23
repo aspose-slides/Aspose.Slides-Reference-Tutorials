@@ -1,28 +1,30 @@
 ---
-title: Dodaj niestandardowe właściwości dokumentu w slajdach Java
-linktitle: Dodaj niestandardowe właściwości dokumentu w slajdach Java
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Dowiedz się, jak ulepszyć prezentacje programu PowerPoint za pomocą niestandardowych właściwości dokumentu w aplikacji Java Slides. Przewodnik krok po kroku z przykładami kodu przy użyciu Aspose.Slides dla Java.
-weight: 13
-url: /pl/java/presentation-properties/add-custom-document-properties-in-java-slides/
+"description": "Dowiedz się, jak ulepszyć prezentacje PowerPoint za pomocą niestandardowych właściwości dokumentu w Java Slides. Przewodnik krok po kroku z przykładami kodu przy użyciu Aspose.Slides dla Java."
+"linktitle": "Dodawanie niestandardowych właściwości dokumentu w slajdach Java"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Dodawanie niestandardowych właściwości dokumentu w slajdach Java"
+"url": "/pl/java/presentation-properties/add-custom-document-properties-in-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dodaj niestandardowe właściwości dokumentu w slajdach Java
+# Dodawanie niestandardowych właściwości dokumentu w slajdach Java
 
 
 ## Wprowadzenie do dodawania niestandardowych właściwości dokumentu w slajdach Java
 
-W tym samouczku przeprowadzimy Cię przez proces dodawania niestandardowych właściwości dokumentu do prezentacji programu PowerPoint przy użyciu Aspose.Slides dla Java. Niestandardowe właściwości dokumentu umożliwiają przechowywanie dodatkowych informacji o prezentacji w celach informacyjnych lub kategoryzacji.
+W tym samouczku przeprowadzimy Cię przez proces dodawania niestandardowych właściwości dokumentu do prezentacji PowerPoint przy użyciu Aspose.Slides for Java. Niestandardowe właściwości dokumentu pozwalają Ci przechowywać dodatkowe informacje o prezentacji w celach informacyjnych lub kategoryzacji.
 
-## Warunki wstępne
+## Wymagania wstępne
 
-Zanim zaczniesz, upewnij się, że masz zainstalowaną i skonfigurowaną bibliotekę Aspose.Slides for Java w swoim projekcie Java.
+Zanim zaczniesz, upewnij się, że biblioteka Aspose.Slides for Java jest zainstalowana i skonfigurowana w projekcie Java.
 
-## Krok 1: Zaimportuj wymagane pakiety
+## Krok 1: Importuj wymagane pakiety
 
 ```java
 import com.aspose.slides.*;
@@ -36,22 +38,22 @@ Najpierw musisz utworzyć nowy obiekt prezentacji. Możesz to zrobić w następu
 // Ścieżka do katalogu dokumentów.
 String dataDir = "Your Document Directory";
 
-// Utwórz instancję klasy Prezentacja
+// Utwórz instancję klasy Presentation
 Presentation presentation = new Presentation();
 ```
 
 ## Krok 3: Pobieranie właściwości dokumentu
 
-Następnie pobierzesz właściwości dokumentu prezentacji. Właściwości te obejmują właściwości wbudowane, takie jak tytuł, autor i właściwości niestandardowe, które można dodać.
+Następnie pobierzesz właściwości dokumentu prezentacji. Właściwości te obejmują wbudowane właściwości, takie jak tytuł, autor i właściwości niestandardowe, które możesz dodać.
 
 ```java
-// Uzyskiwanie właściwości dokumentu
+// Pobieranie właściwości dokumentu
 IDocumentProperties documentProperties = presentation.getDocumentProperties();
 ```
 
-## Krok 4: Dodawanie właściwości niestandardowych
+## Krok 4: Dodawanie niestandardowych właściwości
 
-Teraz dodajmy niestandardowe właściwości do prezentacji. Właściwości niestandardowe składają się z nazwy i wartości. Możesz ich używać do przechowywania dowolnych informacji.
+Teraz dodajmy niestandardowe właściwości do prezentacji. Niestandardowe właściwości składają się z nazwy i wartości. Możesz ich użyć do przechowywania dowolnych informacji, które chcesz.
 
 ```java
 documentProperties.set_Item("New Custom", 12);
@@ -59,18 +61,18 @@ documentProperties.set_Item("My Name", "Mudassir");
 documentProperties.set_Item("Custom", 124);
 ```
 
-## Krok 5: Uzyskanie nazwy właściwości według określonego indeksu
+## Krok 5: Uzyskanie nazwy nieruchomości pod określonym indeksem
 
-Można także pobrać nazwę właściwości niestandardowej w określonym indeksie. Może to być przydatne, jeśli musisz pracować z określonymi właściwościami.
+Możesz również pobrać nazwę niestandardowej właściwości pod określonym indeksem. Może to być przydatne, jeśli musisz pracować z określonymi właściwościami.
 
 ```java
-// Pobieranie nazwy właściwości w określonym indeksie
+// Pobieranie nazwy właściwości pod określonym indeksem
 String getPropertyName = documentProperties.getCustomPropertyName(2);
 ```
 
 ## Krok 6: Usuwanie wybranej właściwości
 
-Jeśli chcesz usunąć właściwość niestandardową, możesz to zrobić, podając jej nazwę. Tutaj usuwamy właściwość, którą uzyskaliśmy w kroku 5.
+Jeśli chcesz usunąć niestandardową właściwość, możesz to zrobić, podając jej nazwę. Tutaj usuwamy właściwość, którą uzyskaliśmy w kroku 5.
 
 ```java
 // Usuwanie wybranej właściwości
@@ -79,27 +81,27 @@ documentProperties.removeCustomProperty(getPropertyName);
 
 ## Krok 7: Zapisywanie prezentacji
 
-Na koniec zapisz prezentację z dodanymi i usuniętymi właściwościami niestandardowymi w pliku.
+Na koniec zapisz prezentację z dodanymi i usuniętymi właściwościami niestandardowymi do pliku.
 
 ```java
 // Zapisywanie prezentacji
 presentation.save(dataDir + "CustomDocumentProperties_out.pptx", SaveFormat.Pptx);
 ```
 
-## Kompletny kod źródłowy umożliwiający dodawanie niestandardowych właściwości dokumentu w slajdach Java
+## Kompletny kod źródłowy do dodawania niestandardowych właściwości dokumentu w slajdach Java
 
 ```java
 // Ścieżka do katalogu dokumentów.
 String dataDir = "Your Document Directory";
-// Utwórz instancję klasy Prezentacja
+// Utwórz instancję klasy Presentation
 Presentation presentation = new Presentation();
-// Uzyskiwanie właściwości dokumentu
+// Pobieranie właściwości dokumentu
 IDocumentProperties documentProperties = presentation.getDocumentProperties();
 // Dodawanie właściwości niestandardowych
 documentProperties.set_Item("New Custom", 12);
 documentProperties.set_Item("My Name", "Mudassir");
 documentProperties.set_Item("Custom", 124);
-// Pobieranie nazwy właściwości w określonym indeksie
+// Pobieranie nazwy właściwości pod określonym indeksem
 String getPropertyName = documentProperties.getCustomPropertyName(2);
 // Usuwanie wybranej właściwości
 documentProperties.removeCustomProperty(getPropertyName);
@@ -109,13 +111,13 @@ presentation.save(dataDir + "CustomDocumentProperties_out.pptx", SaveFormat.Pptx
 
 ## Wniosek
 
-Nauczyłeś się, jak dodawać niestandardowe właściwości dokumentu do prezentacji programu PowerPoint w Javie przy użyciu Aspose.Slides. Właściwości niestandardowe mogą być przydatne do przechowywania dodatkowych informacji związanych z prezentacjami. Możesz rozszerzyć tę wiedzę, aby uwzględnić więcej niestandardowych właściwości, jeśli są potrzebne w konkretnym przypadku użycia.
+Nauczyłeś się, jak dodawać niestandardowe właściwości dokumentu do prezentacji PowerPoint w Javie za pomocą Aspose.Slides. Niestandardowe właściwości mogą być cenne do przechowywania dodatkowych informacji związanych z prezentacjami. Możesz rozszerzyć tę wiedzę, aby uwzględnić więcej niestandardowych właściwości, jeśli będzie to potrzebne w konkretnym przypadku użycia.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### Jak odzyskać wartość właściwości niestandardowej?
+### Jak pobrać wartość właściwości niestandardowej?
 
- Aby pobrać wartość właściwości niestandardowej, możesz użyć metody`get_Item` metoda na`documentProperties` obiekt. Na przykład:
+Aby pobrać wartość właściwości niestandardowej, możesz użyć `get_Item` metoda na `documentProperties` obiekt. Na przykład:
 
 ```java
 Object customPropertyValue = documentProperties.get_Item("New Custom");
@@ -123,15 +125,15 @@ Object customPropertyValue = documentProperties.get_Item("New Custom");
 
 ### Czy mogę dodać niestandardowe właściwości różnych typów danych?
 
-Tak, możesz dodawać niestandardowe właściwości różnych typów danych, w tym liczb, ciągów znaków, dat i innych, jak pokazano w przykładzie. Aspose.Slides dla Java płynnie obsługuje różne typy danych.
+Tak, możesz dodawać niestandardowe właściwości różnych typów danych, w tym liczby, ciągi znaków, daty i inne, jak pokazano w przykładzie. Aspose.Slides for Java bezproblemowo obsługuje różne typy danych.
 
-### Czy istnieje ograniczenie liczby niestandardowych właściwości, które mogę dodać?
+### Czy liczba niestandardowych właściwości, które mogę dodać, jest ograniczona?
 
-Nie ma ścisłego ograniczenia liczby niestandardowych właściwości, które można dodać. Należy jednak pamiętać, że dodanie nadmiernej liczby właściwości może mieć wpływ na wydajność i rozmiar pliku prezentacji.
+Nie ma ścisłego limitu liczby niestandardowych właściwości, które możesz dodać. Pamiętaj jednak, że dodanie nadmiernej liczby właściwości może wpłynąć na wydajność i rozmiar pliku prezentacji.
 
-### Jak wyświetlić listę wszystkich właściwości niestandardowych w prezentacji?
+### Jak mogę wyświetlić listę wszystkich właściwości niestandardowych w prezentacji?
 
-Możesz przeglądać wszystkie niestandardowe właściwości, aby je wyświetlić. Oto przykład, jak to zrobić:
+Możesz przejść przez wszystkie niestandardowe właściwości, aby je wyświetlić. Oto przykład, jak to zrobić:
 
 ```java
 for (int i = 0; i < documentProperties.getCustomCount(); i++) {
@@ -142,10 +144,12 @@ for (int i = 0; i < documentProperties.getCustomCount(); i++) {
 }
 ```
 
-Ten kod wyświetli nazwy i wartości wszystkich właściwości niestandardowych w prezentacji.
+Ten kod wyświetli nazwy i wartości wszystkich niestandardowych właściwości w prezentacji.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

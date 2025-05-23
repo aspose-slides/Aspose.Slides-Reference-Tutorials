@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में भाग के स्थिति निर्देशांक प्राप्त करें
-linktitle: जावा स्लाइड्स में भाग के स्थिति निर्देशांक प्राप्त करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java API का उपयोग करके Java स्लाइड में टेक्स्ट भाग निर्देशांक प्राप्त करना सीखें। PowerPoint प्रस्तुतियों में टेक्स्ट प्लेसमेंट पर सटीक नियंत्रण प्राप्त करें।
-weight: 12
-url: /hi/java/additional-utilities/get-position-coordinates-of-portion-in-java-slides/
+"description": "Aspose.Slides for Java API का उपयोग करके Java स्लाइड में टेक्स्ट भाग निर्देशांक प्राप्त करना सीखें। PowerPoint प्रस्तुतियों में टेक्स्ट प्लेसमेंट पर सटीक नियंत्रण प्राप्त करें।"
+"linktitle": "जावा स्लाइड्स में भाग के स्थिति निर्देशांक प्राप्त करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में भाग के स्थिति निर्देशांक प्राप्त करें"
+"url": "/hi/java/additional-utilities/get-position-coordinates-of-portion-in-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में भाग के स्थिति निर्देशांक प्राप्त करें
@@ -16,7 +18,7 @@ url: /hi/java/additional-utilities/get-position-coordinates-of-portion-in-java-s
 
 ## जावा स्लाइड्स में भाग के स्थिति निर्देशांक प्राप्त करने का परिचय
 
-इस व्यापक गाइड में, हम यह पता लगाएंगे कि Aspose.Slides for Java API का उपयोग करके Java स्लाइड के भीतर किसी भाग के स्थिति निर्देशांक कैसे प्राप्त करें। आप सीखेंगे कि स्लाइड में टेक्स्ट भागों तक कैसे पहुँचें और उनमें हेरफेर करें तथा उनके X और Y निर्देशांक कैसे निकालें। इस चरण-दर-चरण ट्यूटोरियल में स्रोत कोड उदाहरण और मूल्यवान जानकारी शामिल है जो आपको इस कार्य में निपुण होने में मदद करेगी।
+इस विस्तृत गाइड में, हम यह पता लगाएंगे कि Aspose.Slides for Java API का उपयोग करके Java स्लाइड के भीतर किसी भाग के स्थिति निर्देशांक कैसे प्राप्त करें। आप सीखेंगे कि स्लाइड में टेक्स्ट भागों तक कैसे पहुँचें और उनमें हेरफेर करें तथा उनके X और Y निर्देशांक कैसे निकालें। इस चरण-दर-चरण ट्यूटोरियल में स्रोत कोड उदाहरण और मूल्यवान जानकारी शामिल है जो आपको इस कार्य में निपुण होने में मदद करेगी।
 
 ## आवश्यक शर्तें
 
@@ -43,7 +45,7 @@ import java.awt.geom.Point2D;
 
 ## चरण 2: प्रस्तुति लोड करना
 
- इस चरण में, हम पावरपॉइंट प्रेजेंटेशन को लोड करेंगे जिसमें वह स्लाइड होगी जिसके साथ हम काम करना चाहते हैं।`"Your Document Directory"` अपनी PowerPoint फ़ाइल के वास्तविक पथ के साथ.
+इस चरण में, हम पावरपॉइंट प्रेजेंटेशन को लोड करेंगे जिसमें वह स्लाइड होगी जिसके साथ हम काम करना चाहते हैं। `"Your Document Directory"` अपनी PowerPoint फ़ाइल के वास्तविक पथ के साथ.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -109,11 +111,11 @@ finally
 
 ### मैं Java के लिए Aspose.Slides कैसे डाउनलोड कर सकता हूँ?
 
- आप निम्न लिंक का उपयोग करके वेबसाइट से Aspose.Slides for Java डाउनलोड कर सकते हैं:[Java के लिए Aspose.Slides डाउनलोड करें](https://releases.aspose.com/slides/java/)
+आप निम्न लिंक का उपयोग करके वेबसाइट से Aspose.Slides for Java डाउनलोड कर सकते हैं: [Java के लिए Aspose.Slides डाउनलोड करें](https://releases.aspose.com/slides/java/)
 
 ### मैं Aspose.Slides for Java के लिए दस्तावेज़ कहां पा सकता हूं?
 
- Aspose.Slides for Java का दस्तावेज़ यहां उपलब्ध है:[Aspose.Slides for Java दस्तावेज़ीकरण](https://reference.aspose.com/slides/java/)
+Java के लिए Aspose.Slides का दस्तावेज़ यहां उपलब्ध है: [Aspose.Slides for Java दस्तावेज़ीकरण](https://reference.aspose.com/slides/java/)
 
 ### क्या मैं अपनी व्यावसायिक परियोजनाओं में Java के लिए Aspose.Slides का उपयोग कर सकता हूँ?
 
@@ -121,14 +123,16 @@ finally
 
 ### क्या Aspose.Slides for Java विभिन्न PowerPoint फ़ाइल स्वरूपों के साथ संगत है?
 
-हां, Aspose.Slides for Java विभिन्न PowerPoint फ़ाइल स्वरूपों का समर्थन करता है, जिनमें PPTX, PPT, आदि शामिल हैं।
+हां, Aspose.Slides for Java विभिन्न PowerPoint फ़ाइल स्वरूपों का समर्थन करता है, जिनमें PPTX, PPT, और अन्य शामिल हैं।
 
 ### मैं Aspose.Slides for Java के लिए आगे समर्थन या सहायता कैसे प्राप्त कर सकता हूं?
 
 आप Aspose वेबसाइट पर अतिरिक्त सहायता और संसाधन प्राप्त कर सकते हैं। वे उपयोगकर्ताओं के लिए फ़ोरम, दस्तावेज़ और प्रीमियम सहायता विकल्प प्रदान करते हैं।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

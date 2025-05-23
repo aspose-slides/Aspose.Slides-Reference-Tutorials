@@ -1,26 +1,28 @@
 ---
-title: Java Slaytlarına Özel Belge Özellikleri Ekleme
-linktitle: Java Slaytlarına Özel Belge Özellikleri Ekleme
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Java Slaytlar'daki özel belge özellikleriyle PowerPoint sunumlarını nasıl geliştireceğinizi öğrenin. Aspose.Slides for Java'yı kullanan kod örneklerini içeren adım adım kılavuz.
-weight: 13
-url: /tr/java/presentation-properties/add-custom-document-properties-in-java-slides/
+"description": "Java Slaytlar'da özel belge özellikleriyle PowerPoint sunumlarını nasıl geliştireceğinizi öğrenin. Java için Aspose.Slides'ı kullanarak kod örnekleriyle adım adım kılavuz."
+"linktitle": "Java Slaytlarında Özel Belge Özellikleri Ekleme"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java Slaytlarında Özel Belge Özellikleri Ekleme"
+"url": "/tr/java/presentation-properties/add-custom-document-properties-in-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java Slaytlarına Özel Belge Özellikleri Ekleme
+# Java Slaytlarında Özel Belge Özellikleri Ekleme
 
 
-## Java Slaytlarına Özel Belge Özellikleri Eklemeye Giriş
+## Java Slaytlarında Özel Belge Özellikleri Eklemeye Giriş
 
-Bu eğitimde, Aspose.Slides for Java kullanarak bir PowerPoint sunumuna özel belge özellikleri ekleme sürecinde size yol göstereceğiz. Özel belge özellikleri, başvuru veya kategorizasyon amacıyla sunumla ilgili ek bilgileri saklamanıza olanak tanır.
+Bu eğitimde, Aspose.Slides for Java kullanarak bir PowerPoint sunumuna özel belge özellikleri ekleme sürecini adım adım anlatacağız. Özel belge özellikleri, başvuru veya kategorilendirme için sunum hakkında ek bilgiler depolamanıza olanak tanır.
 
-## Önkoşullar
+## Ön koşullar
 
-Başlamadan önce Java projenizde Aspose.Slides for Java kitaplığının kurulu olduğundan ve kurulduğundan emin olun.
+Başlamadan önce, Java projenizde Aspose.Slides for Java kütüphanesinin yüklü ve ayarlanmış olduğundan emin olun.
 
 ## Adım 1: Gerekli Paketleri İçe Aktarın
 
@@ -28,30 +30,30 @@ Başlamadan önce Java projenizde Aspose.Slides for Java kitaplığının kurulu
 import com.aspose.slides.*;
 ```
 
-## Adım 2: Yeni Bir Sunu Oluşturun
+## Adım 2: Yeni Bir Sunum Oluşturun
 
-Öncelikle yeni bir sunum nesnesi oluşturmanız gerekir. Bunu şu şekilde yapabilirsiniz:
+Öncelikle yeni bir sunum nesnesi oluşturmanız gerekiyor. Bunu şu şekilde yapabilirsiniz:
 
 ```java
-// Belgeler dizininin yolu.
+// Belgeler dizinine giden yol.
 String dataDir = "Your Document Directory";
 
-// Sunum sınıfını somutlaştırın
+// Sunum sınıfını örneklendirin
 Presentation presentation = new Presentation();
 ```
 
 ## Adım 3: Belge Özelliklerini Alma
 
-Daha sonra sunumun belge özelliklerini alacaksınız. Bu özellikler başlık, yazar gibi yerleşik özellikleri ve ekleyebileceğiniz özel özellikleri içerir.
+Sonra, sunumun belge özelliklerini alacaksınız. Bu özellikler, başlık, yazar ve ekleyebileceğiniz özel özellikler gibi yerleşik özellikleri içerir.
 
 ```java
 // Belge Özelliklerini Alma
 IDocumentProperties documentProperties = presentation.getDocumentProperties();
 ```
 
-## 4. Adım: Özel Özellikler Ekleme
+## Adım 4: Özel Özellikler Ekleme
 
-Şimdi sunuma özel özellikler ekleyelim. Özel özellikler bir ad ve değerden oluşur. İstediğiniz bilgiyi saklamak için bunları kullanabilirsiniz.
+Şimdi sunuma özel özellikler ekleyelim. Özel özellikler bir isim ve bir değerden oluşur. Bunları istediğiniz herhangi bir bilgiyi depolamak için kullanabilirsiniz.
 
 ```java
 documentProperties.set_Item("New Custom", 12);
@@ -59,39 +61,39 @@ documentProperties.set_Item("My Name", "Mudassir");
 documentProperties.set_Item("Custom", 124);
 ```
 
-## Adım 5: Belirli Bir Dizinde Özellik Adı Alma
+## Adım 5: Belirli Bir Endekste Bir Özellik Adı Alma
 
-Ayrıca belirli bir dizindeki özel bir özelliğin adını da alabilirsiniz. Belirli özelliklerle çalışmanız gerekiyorsa bu yararlı olabilir.
+Ayrıca belirli bir dizindeki özel bir özelliğin adını da alabilirsiniz. Bu, belirli özelliklerle çalışmanız gerektiğinde yararlı olabilir.
 
 ```java
-// Belirli bir dizinde özellik adını alma
+// Belirli bir dizindeki özellik adını alma
 String getPropertyName = documentProperties.getCustomPropertyName(2);
 ```
 
-## Adım 6: Seçilen Bir Özelliği Kaldırma
+## Adım 6: Seçili Bir Özelliği Kaldırma
 
-Özel bir özelliği kaldırmak isterseniz adını belirterek bunu yapabilirsiniz. Burada 5. Adımda elde ettiğimiz özelliği kaldırıyoruz.
+Özel bir özelliği kaldırmak istiyorsanız, adını belirterek bunu yapabilirsiniz. Burada, 5. Adımda elde ettiğimiz özelliği kaldırıyoruz.
 
 ```java
-// Seçilen mülk kaldırılıyor
+// Seçili özelliği kaldırma
 documentProperties.removeCustomProperty(getPropertyName);
 ```
 
 ## Adım 7: Sunumu Kaydetme
 
-Son olarak, eklenen ve kaldırılan özel özelliklerle birlikte sunuyu bir dosyaya kaydedin.
+Son olarak sunuyu eklenen ve kaldırılan özel özelliklerle birlikte bir dosyaya kaydedin.
 
 ```java
 // Sunum kaydediliyor
 presentation.save(dataDir + "CustomDocumentProperties_out.pptx", SaveFormat.Pptx);
 ```
 
-## Java Slaytlarına Özel Belge Özellikleri Eklemek İçin Tam Kaynak Kodu
+## Java Slaytlarında Özel Belge Özellikleri Eklemek İçin Tam Kaynak Kodu
 
 ```java
-// Belgeler dizininin yolu.
+// Belgeler dizinine giden yol.
 String dataDir = "Your Document Directory";
-// Sunum sınıfını somutlaştırın
+// Sunum sınıfını örneklendirin
 Presentation presentation = new Presentation();
 // Belge Özelliklerini Alma
 IDocumentProperties documentProperties = presentation.getDocumentProperties();
@@ -101,7 +103,7 @@ documentProperties.set_Item("My Name", "Mudassir");
 documentProperties.set_Item("Custom", 124);
 // Belirli bir dizinde özellik adını alma
 String getPropertyName = documentProperties.getCustomPropertyName(2);
-// Seçilen mülk kaldırılıyor
+// Seçili özelliği kaldırma
 documentProperties.removeCustomProperty(getPropertyName);
 // Sunum kaydediliyor
 presentation.save(dataDir + "CustomDocumentProperties_out.pptx", SaveFormat.Pptx);
@@ -109,29 +111,29 @@ presentation.save(dataDir + "CustomDocumentProperties_out.pptx", SaveFormat.Pptx
 
 ## Çözüm
 
-Aspose.Slides'ı kullanarak Java'da bir PowerPoint sunumuna özel belge özelliklerinin nasıl ekleneceğini öğrendiniz. Özel özellikler, sunumlarınızla ilgili ek bilgilerin saklanması açısından değerli olabilir. Bu bilgiyi, özel kullanım durumunuz için gereken daha fazla özel özelliği içerecek şekilde genişletebilirsiniz.
+Aspose.Slides kullanarak Java'da bir PowerPoint sunumuna özel belge özelliklerinin nasıl ekleneceğini öğrendiniz. Özel özellikler, sunumlarınızla ilgili ek bilgileri depolamak için değerli olabilir. Bu bilgiyi, belirli kullanım durumunuz için ihtiyaç duyduğunuzda daha fazla özel özellik içerecek şekilde genişletebilirsiniz.
 
-## SSS'ler
+## SSS
 
-### Özel bir özelliğin değerini nasıl alırım?
+### Özel bir özelliğin değerini nasıl alabilirim?
 
- Özel bir özelliğin değerini almak için şunu kullanabilirsiniz:`get_Item` konusundaki yöntem`documentProperties` nesne. Örneğin:
+Özel bir özelliğin değerini almak için şunu kullanabilirsiniz: `get_Item` yöntem üzerinde `documentProperties` nesne. Örneğin:
 
 ```java
 Object customPropertyValue = documentProperties.get_Item("New Custom");
 ```
 
-### Farklı veri türlerinin özel özelliklerini ekleyebilir miyim?
+### Farklı veri tiplerine özel özellikler ekleyebilir miyim?
 
-Evet, örnekte gösterildiği gibi sayılar, dizeler, tarihler ve daha fazlasını içeren çeşitli veri türlerinin özel özelliklerini ekleyebilirsiniz. Aspose.Slides for Java, farklı veri türlerini sorunsuz bir şekilde işler.
+Evet, örnekte gösterildiği gibi sayılar, dizeler, tarihler ve daha fazlası dahil olmak üzere çeşitli veri türlerinin özel özelliklerini ekleyebilirsiniz. Java için Aspose.Slides farklı veri türlerini sorunsuz bir şekilde işler.
 
-### Ekleyebileceğim özel özelliklerin sayısında bir sınır var mı?
+### Ekleyebileceğim özel özelliklerin sayısında bir sınırlama var mı?
 
-Ekleyebileceğiniz özel özelliklerin sayısında kesin bir sınır yoktur. Ancak aşırı sayıda özellik eklemenin sunum dosyanızın performansını ve boyutunu etkileyebileceğini unutmayın.
+Ekleyebileceğiniz özel özelliklerin sayısında kesin bir sınır yoktur. Ancak, aşırı sayıda özellik eklemenin sunum dosyanızın performansını ve boyutunu etkileyebileceğini unutmayın.
 
 ### Bir sunumdaki tüm özel özellikleri nasıl listeleyebilirim?
 
-Listelemek için tüm özel özellikler arasında geçiş yapabilirsiniz. İşte bunun nasıl yapılacağına dair bir örnek:
+Tüm özel özellikleri listelemek için döngüye alabilirsiniz. Bunu nasıl yapacağınıza dair bir örnek şöyledir:
 
 ```java
 for (int i = 0; i < documentProperties.getCustomCount(); i++) {
@@ -142,10 +144,12 @@ for (int i = 0; i < documentProperties.getCustomCount(); i++) {
 }
 ```
 
-Bu kod, sunumdaki tüm özel özelliklerin adlarını ve değerlerini görüntüler.
+Bu kod sunumdaki tüm özel özelliklerin adlarını ve değerlerini gösterecektir.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

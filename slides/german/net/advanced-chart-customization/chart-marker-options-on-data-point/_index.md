@@ -1,28 +1,30 @@
 ---
-title: Verwenden von Diagrammmarkierungsoptionen für Datenpunkte in Aspose.Slides .NET
-linktitle: Diagrammmarkierungsoptionen für Datenpunkte
-second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie Ihre PowerPoint-Diagramme mit Aspose.Slides für .NET verbessern. Passen Sie Datenpunktmarkierungen mit Bildern an. Erstellen Sie ansprechende Präsentationen.
-weight: 11
-url: /de/net/advanced-chart-customization/chart-marker-options-on-data-point/
+"description": "Erfahren Sie, wie Sie Ihre PowerPoint-Diagramme mit Aspose.Slides für .NET optimieren. Passen Sie Datenpunktmarkierungen mit Bildern an. Erstellen Sie ansprechende Präsentationen."
+"linktitle": "Diagrammmarkierungsoptionen für Datenpunkte"
+"second_title": "Aspose.Slides .NET PowerPoint-Verarbeitungs-API"
+"title": "Verwenden von Diagrammmarkierungsoptionen für Datenpunkte in Aspose.Slides .NET"
+"url": "/de/net/advanced-chart-customization/chart-marker-options-on-data-point/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Verwenden von Diagrammmarkierungsoptionen für Datenpunkte in Aspose.Slides .NET
 
 
-Beim Arbeiten mit Präsentationen und Datenvisualisierung bietet Aspose.Slides für .NET eine breite Palette leistungsstarker Funktionen zum Erstellen, Anpassen und Bearbeiten von Diagrammen. In diesem Tutorial erfahren Sie, wie Sie Diagrammmarkierungsoptionen für Datenpunkte verwenden, um Ihre Diagrammpräsentationen zu verbessern. Diese Schritt-für-Schritt-Anleitung führt Sie durch den Prozess, angefangen bei den Voraussetzungen und dem Importieren von Namespaces bis hin zur Aufteilung jedes Beispiels in mehrere Schritte.
+Für Präsentationen und Datenvisualisierungen bietet Aspose.Slides für .NET eine Vielzahl leistungsstarker Funktionen zum Erstellen, Anpassen und Bearbeiten von Diagrammen. In diesem Tutorial erfahren Sie, wie Sie Diagrammmarkierungsoptionen für Datenpunkte nutzen, um Ihre Diagrammpräsentationen zu verbessern. Diese Schritt-für-Schritt-Anleitung führt Sie durch den Prozess, angefangen bei den Voraussetzungen und dem Importieren von Namespaces bis hin zur Aufteilung jedes Beispiels in mehrere Schritte.
 
 ## Voraussetzungen
 
 Bevor wir uns mit der Verwendung von Diagrammmarkierungsoptionen für Datenpunkte befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
--  Aspose.Slides für .NET: Stellen Sie sicher, dass Sie Aspose.Slides für .NET installiert haben. Sie können es von der[Webseite](https://releases.aspose.com/slides/net/).
+- Aspose.Slides für .NET: Stellen Sie sicher, dass Sie Aspose.Slides für .NET installiert haben. Sie können es von der [Webseite](https://releases.aspose.com/slides/net/).
 
-- Beispielpräsentation: Für dieses Tutorial verwenden wir eine Beispielpräsentation mit dem Namen „Test.pptx“. Sie sollten diese Präsentation in Ihrem Dokumentverzeichnis haben.
+- Beispielpräsentation: Für dieses Tutorial verwenden wir eine Beispielpräsentation namens „Test.pptx“. Diese Präsentation befindet sich in Ihrem Dokumentverzeichnis.
 
 Beginnen wir nun mit dem Importieren der erforderlichen Namespaces.
 
@@ -34,32 +36,32 @@ using Aspose.Slides.Charts;
 using Aspose.Slides.Export;
 ```
 
-Wir haben die erforderlichen Namespaces importiert und unsere Präsentation initialisiert. Nun fahren wir mit der Verwendung von Diagrammmarkierungsoptionen für Datenpunkte fort.
+Wir haben die erforderlichen Namespaces importiert und unsere Präsentation initialisiert. Nun wenden wir die Diagrammmarkierungsoptionen auf Datenpunkte an.
 
 ## Schritt 1: Erstellen des Standarddiagramms
 
 ```csharp
 
-// Der Pfad zum Dokumentverzeichnis.
+// Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "Test.pptx");
 
 ISlide slide = pres.Slides[0];
 
-//Erstellen des Standarddiagramms
+// Erstellen des Standarddiagramms
 IChart chart = slide.Shapes.AddChart(ChartType.LineWithMarkers, 0, 0, 400, 400);
 ```
 
-Wir erstellen ein Standarddiagramm vom Typ „LinieMitMarkierungen“ auf der Folie an einer angegebenen Position und in einer angegebenen Größe.
+Wir erstellen auf der Folie an einer angegebenen Position und in einer angegebenen Größe ein Standarddiagramm vom Typ „Linie mit Markierungen“.
 
 ## Schritt 2: Abrufen des Standard-Arbeitsblattindex für Diagrammdaten
 
 ```csharp
-// Abrufen des Standardarbeitsblattindexes für Diagrammdaten
+// Abrufen des Standardarbeitsblattindex für Diagrammdaten
 int defaultWorksheetIndex = 0;
 ```
 
-Hier erhalten wir den Index des Standardarbeitsblatts mit Diagrammdaten.
+Hier erhalten wir den Index des Standard-Diagrammdatenarbeitsblatts.
 
 ## Schritt 3: Abrufen des Arbeitsblatts mit den Diagrammdaten
 
@@ -134,9 +136,9 @@ Abschließend speichern wir die Präsentation mit den neuen Diagrammeinstellunge
 
 ## Abschluss
 
-Mit Aspose.Slides für .NET können Sie beeindruckende Diagrammpräsentationen mit verschiedenen Anpassungsoptionen erstellen. In diesem Tutorial haben wir uns auf die Verwendung von Diagrammmarkierungsoptionen für Datenpunkte konzentriert, um die visuelle Darstellung Ihrer Daten zu verbessern. Mit Aspose.Slides für .NET können Sie Ihre Präsentationen auf die nächste Ebene bringen und sie ansprechender und informativer gestalten.
+Aspose.Slides für .NET ermöglicht Ihnen die Erstellung beeindruckender Diagrammpräsentationen mit verschiedenen Anpassungsmöglichkeiten. In diesem Tutorial haben wir uns auf die Verwendung von Diagrammmarkierungsoptionen für Datenpunkte konzentriert, um die visuelle Darstellung Ihrer Daten zu verbessern. Mit Aspose.Slides für .NET können Sie Ihre Präsentationen auf das nächste Level heben und sie ansprechender und informativer gestalten.
 
-Wenn Sie Fragen haben oder Hilfe zu Aspose.Slides für .NET benötigen, besuchen Sie bitte die[Aspose.Slides-Dokumentation](https://reference.aspose.com/slides/net/) oder wenden Sie sich an die[Aspose-Gemeinschaft](https://forum.aspose.com/) zur Unterstützung.
+Wenn Sie Fragen haben oder Hilfe zu Aspose.Slides für .NET benötigen, besuchen Sie bitte die [Aspose.Slides-Dokumentation](https://reference.aspose.com/slides/net/) oder wenden Sie sich an die [Aspose-Community](https://forum.aspose.com/) für Unterstützung.
 
 ## Häufig gestellte Fragen (FAQs)
 
@@ -144,19 +146,21 @@ Wenn Sie Fragen haben oder Hilfe zu Aspose.Slides für .NET benötigen, besuchen
 Ja, Sie können benutzerdefinierte Bilder als Markierungen für Datenpunkte in Aspose.Slides für .NET verwenden, wie in diesem Tutorial gezeigt.
 
 ### Wie kann ich den Diagrammtyp in Aspose.Slides für .NET ändern?
- Sie können den Diagrammtyp ändern, indem Sie einen anderen`ChartType` beim Erstellen des Diagramms, beispielsweise „Balken-“, „Kreis-“ oder „Flächendiagramm“.
+Sie können den Diagrammtyp ändern, indem Sie einen anderen `ChartType` beim Erstellen des Diagramms, z. B. „Balken-“, „Kreis-“ oder „Flächendiagramm“.
 
 ### Ist Aspose.Slides für .NET mit den neuesten Versionen von PowerPoint kompatibel?
 Aspose.Slides für .NET ist für die Arbeit mit verschiedenen PowerPoint-Formaten konzipiert und wird regelmäßig aktualisiert, um die Kompatibilität mit den neuesten PowerPoint-Versionen aufrechtzuerhalten.
 
 ### Wo finde ich weitere Tutorials und Ressourcen für Aspose.Slides für .NET?
- Weitere Tutorials und Ressourcen finden Sie im[Aspose.Slides-Dokumentation](https://reference.aspose.com/slides/net/).
+Weitere Tutorials und Ressourcen finden Sie im [Aspose.Slides-Dokumentation](https://reference.aspose.com/slides/net/).
 
 ### Gibt es eine Testversion von Aspose.Slides für .NET?
- Ja, Sie können Aspose.Slides für .NET ausprobieren, indem Sie eine kostenlose Testversion herunterladen von[Hier](https://releases.aspose.com/).
+Ja, Sie können Aspose.Slides für .NET ausprobieren, indem Sie eine kostenlose Testversion von herunterladen [Hier](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

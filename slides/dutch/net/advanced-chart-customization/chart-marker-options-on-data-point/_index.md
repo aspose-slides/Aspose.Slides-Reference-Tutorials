@@ -1,30 +1,32 @@
 ---
-title: Grafiekmarkeringsopties gebruiken op gegevenspunten in Aspose.Slides .NET
-linktitle: Grafiekmarkeringsopties op gegevenspunt
-second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
-description: Leer hoe u uw PowerPoint-grafieken kunt verbeteren met Aspose.Slides voor .NET. Pas datapuntmarkeringen aan met afbeeldingen. Maak boeiende presentaties.
-weight: 11
-url: /nl/net/advanced-chart-customization/chart-marker-options-on-data-point/
+"description": "Leer hoe u uw PowerPoint-grafieken kunt verbeteren met Aspose.Slides voor .NET. Pas markeringen voor datapunten aan met afbeeldingen. Maak boeiende presentaties."
+"linktitle": "Grafiekmarkeringsopties op gegevenspunt"
+"second_title": "Aspose.Slides .NET PowerPoint-verwerkings-API"
+"title": "Grafiekmarkeringsopties gebruiken op gegevenspunten in Aspose.Slides .NET"
+"url": "/nl/net/advanced-chart-customization/chart-marker-options-on-data-point/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Grafiekmarkeringsopties gebruiken op gegevenspunten in Aspose.Slides .NET
 
 
-Bij het werken met presentaties en gegevensvisualisatie biedt Aspose.Slides voor .NET een breed scala aan krachtige functies voor het maken, aanpassen en manipuleren van diagrammen. In deze zelfstudie onderzoeken we hoe u diagrammarkeringsopties op gegevenspunten kunt gebruiken om uw diagrampresentaties te verbeteren. Deze stapsgewijze handleiding leidt u door het proces, beginnend bij de vereisten en het importeren van naamruimten, tot het opsplitsen van elk voorbeeld in meerdere stappen.
+Bij het werken met presentaties en datavisualisatie biedt Aspose.Slides voor .NET een breed scala aan krachtige functies om grafieken te maken, aan te passen en te bewerken. In deze tutorial onderzoeken we hoe u grafiekmarkeringsopties op datapunten kunt gebruiken om uw grafiekpresentaties te verbeteren. Deze stapsgewijze handleiding leidt u door het proces, beginnend bij de vereisten en het importeren van naamruimten, tot het opsplitsen van elk voorbeeld in meerdere stappen.
 
 ## Vereisten
 
-Voordat we dieper ingaan op het gebruik van kaartmarkeringsopties voor gegevenspunten, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+Voordat we ingaan op het gebruik van grafiekmarkeringsopties voor datapunten, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 
--  Aspose.Slides voor .NET: Zorg ervoor dat Aspose.Slides voor .NET is geïnstalleerd. Je kunt het downloaden van de[website](https://releases.aspose.com/slides/net/).
+- Aspose.Slides voor .NET: Zorg ervoor dat je Aspose.Slides voor .NET hebt geïnstalleerd. Je kunt het downloaden van de [website](https://releases.aspose.com/slides/net/).
 
-- Voorbeeldpresentatie: voor deze zelfstudie gebruiken we een voorbeeldpresentatie met de naam 'Test.pptx'. U zou deze presentatie in uw documentmap moeten hebben.
+- Voorbeeldpresentatie: Voor deze tutorial gebruiken we een voorbeeldpresentatie met de naam 'Test.pptx'. Deze presentatie zou in uw documentenmap moeten staan.
 
-Laten we nu beginnen met het importeren van de benodigde naamruimten.
+Laten we beginnen met het importeren van de benodigde naamruimten.
 
 ## Naamruimten importeren
 
@@ -34,9 +36,9 @@ using Aspose.Slides.Charts;
 using Aspose.Slides.Export;
 ```
 
-We hebben de vereiste naamruimten geïmporteerd en onze presentatie geïnitialiseerd. Laten we nu verder gaan met het gebruiken van diagrammarkeringsopties voor gegevenspunten.
+We hebben de vereiste naamruimten geïmporteerd en onze presentatie geïnitialiseerd. Laten we nu de opties voor diagrammarkeringen op datapunten gebruiken.
 
-## Stap 1: Het standaarddiagram maken
+## Stap 1: De standaardgrafiek maken
 
 ```csharp
 
@@ -46,31 +48,31 @@ Presentation pres = new Presentation(dataDir + "Test.pptx");
 
 ISlide slide = pres.Slides[0];
 
-//Het standaarddiagram maken
+// Het standaarddiagram maken
 IChart chart = slide.Shapes.AddChart(ChartType.LineWithMarkers, 0, 0, 400, 400);
 ```
 
-We maken een standaarddiagram van het type "LineWithMarkers" op de dia op een opgegeven locatie en grootte.
+We maken een standaardgrafiek van het type 'LijnMetMarkeringen' op de dia op een bepaalde locatie en in een bepaald formaat.
 
-## Stap 2: De standaard werkbladindex voor diagramgegevens verkrijgen
+## Stap 2: De standaardindex voor grafiekgegevensbladen ophalen
 
 ```csharp
-// De standaard werkbladindex voor diagramgegevens ophalen
+// De standaardindex voor grafiekgegevens ophalen
 int defaultWorksheetIndex = 0;
 ```
 
-Hier verkrijgen we de index van het standaard werkblad met grafiekgegevens.
+Hier verkrijgen we de index van het standaard grafiekgegevensblad.
 
 ## Stap 3: Het werkblad met grafiekgegevens ophalen
 
 ```csharp
-// Het werkblad met diagramgegevens ophalen
+// Het werkblad met grafiekgegevens ophalen
 IChartDataWorkbook fact = chart.ChartData.ChartDataWorkbook;
 ```
 
-We halen de werkmap met diagramgegevens op om met diagramgegevens te werken.
+We halen de werkmap met grafiekgegevens op om met grafiekgegevens te werken.
 
-## Stap 4: De kaartreeks wijzigen
+## Stap 4: De grafiekreeks wijzigen
 
 ```csharp
 // Demoserie verwijderen
@@ -80,22 +82,22 @@ chart.ChartData.Series.Clear();
 chart.ChartData.Series.Add(fact.GetCell(defaultWorksheetIndex, 1, 1, "Series 1"), chart.Type);
 ```
 
-In deze stap verwijderen we alle bestaande demoseries en voegen we een nieuwe serie met de naam 'Serie 1' toe aan het diagram.
+In deze stap verwijderen we alle bestaande demoseries en voegen we een nieuwe serie met de naam 'Serie 1' toe aan de grafiek.
 
 ## Stap 5: Afbeeldingsvulling voor gegevenspunten instellen
 
 ```csharp
-// Stel de afbeelding voor de markeringen in
+// Stel de afbeelding in voor de markeringen
 System.Drawing.Image img1 = (System.Drawing.Image)new Bitmap(dataDir + "aspose-logo.jpg");
 IPPImage imgx1 = pres.Images.AddImage(img1);
 
 System.Drawing.Image img2 = (System.Drawing.Image)new Bitmap(dataDir + "Tulips.jpg");
 IPPImage imgx2 = pres.Images.AddImage(img2);
 
-// Neem de eerste kaartenserie
+// Neem de eerste grafiekserie
 IChartSeries series = chart.ChartData.Series[0];
 
-// Voeg nieuwe gegevenspunten toe met afbeeldingsvulling
+// Nieuwe datapunten toevoegen met afbeeldingsvulling
 IChartDataPoint point = series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 1, 1, (double)4.5));
 point.Marker.Format.Fill.FillType = FillType.Picture;
 point.Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx1;
@@ -113,16 +115,16 @@ point.Marker.Format.Fill.FillType = FillType.Picture;
 point.Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx2;
 ```
 
-We stellen afbeeldingsmarkeringen in voor gegevenspunten, zodat u kunt aanpassen hoe elk gegevenspunt in de grafiek wordt weergegeven.
+We plaatsen beeldmarkeringen voor datapunten, zodat u zelf kunt bepalen hoe elk datapunt op de grafiek wordt weergegeven.
 
-## Stap 6: De maat van de markering van de kaartserie wijzigen
+## Stap 6: De grootte van de grafiekreeksmarkering wijzigen
 
 ```csharp
-// De grootte van de markering van de kaartserie wijzigen
+// De grootte van de grafiekreeksmarkering wijzigen
 series.Marker.Size = 15;
 ```
 
-Hier passen we de grootte van de kaartseriemarkering aan om deze visueel aantrekkelijk te maken.
+Hier passen we de grootte van de grafiekseriemarkering aan om deze visueel aantrekkelijk te maken.
 
 ## Stap 7: De presentatie opslaan
 
@@ -134,29 +136,31 @@ Ten slotte slaan we de presentatie op met de nieuwe grafiekinstellingen.
 
 ## Conclusie
 
-Met Aspose.Slides voor .NET kunt u verbluffende grafiekpresentaties maken met verschillende aanpassingsopties. In deze zelfstudie hebben we ons gericht op het gebruik van diagrammarkeringsopties op gegevenspunten om de visuele weergave van uw gegevens te verbeteren. Met Aspose.Slides voor .NET kunt u uw presentaties naar een hoger niveau tillen, waardoor ze aantrekkelijker en informatiever worden.
+Met Aspose.Slides voor .NET kunt u verbluffende grafiekpresentaties maken met diverse aanpassingsmogelijkheden. In deze tutorial hebben we ons gericht op het gebruik van grafiekmarkeringen op datapunten om de visuele weergave van uw gegevens te verbeteren. Met Aspose.Slides voor .NET tilt u uw presentaties naar een hoger niveau en maakt u ze aantrekkelijker en informatiever.
 
-Als u vragen heeft of hulp nodig heeft met Aspose.Slides voor .NET, bezoek dan gerust de[Aspose.Slides-documentatie](https://reference.aspose.com/slides/net/) of neem contact op met de[Stel gemeenschap](https://forum.aspose.com/) Voor ondersteuning.
+Als u vragen hebt of hulp nodig hebt met Aspose.Slides voor .NET, kunt u gerust de website bezoeken [Aspose.Slides-documentatie](https://reference.aspose.com/slides/net/) of neem contact op met de [Aspose-gemeenschap](https://forum.aspose.com/) voor ondersteuning.
 
 ## Veelgestelde vragen (FAQ's)
 
-### Kan ik aangepaste afbeeldingen gebruiken als markeringen voor gegevenspunten in Aspose.Slides voor .NET?
-Ja, u kunt aangepaste afbeeldingen gebruiken als markeringen voor gegevenspunten in Aspose.Slides voor .NET, zoals gedemonstreerd in deze zelfstudie.
+### Kan ik aangepaste afbeeldingen gebruiken als markeringen voor datapunten in Aspose.Slides voor .NET?
+Ja, u kunt aangepaste afbeeldingen gebruiken als markeringen voor datapunten in Aspose.Slides voor .NET, zoals in deze tutorial wordt gedemonstreerd.
 
-### Hoe kan ik het diagramtype in Aspose.Slides voor .NET wijzigen?
- U kunt het diagramtype wijzigen door een ander diagramtype op te geven`ChartType` bij het maken van het diagram, zoals 'Bar', 'Taart' of 'Gebied'.
+### Hoe kan ik het grafiektype in Aspose.Slides voor .NET wijzigen?
+U kunt het grafiektype wijzigen door een ander type op te geven `ChartType` bij het maken van de grafiek, zoals 'Staaf', 'Cirkel' of 'Vlak'.
 
 ### Is Aspose.Slides voor .NET compatibel met de nieuwste versies van PowerPoint?
-Aspose.Slides voor .NET is ontworpen om met verschillende PowerPoint-formaten te werken en wordt regelmatig bijgewerkt om de compatibiliteit met de nieuwste PowerPoint-versies te behouden.
+Aspose.Slides voor .NET is ontworpen om te werken met verschillende PowerPoint-indelingen en wordt regelmatig bijgewerkt om de compatibiliteit met de nieuwste PowerPoint-versies te behouden.
 
 ### Waar kan ik meer tutorials en bronnen vinden voor Aspose.Slides voor .NET?
- U kunt aanvullende zelfstudies en bronnen verkennen in de[Aspose.Slides-documentatie](https://reference.aspose.com/slides/net/).
+U kunt aanvullende tutorials en bronnen bekijken in de [Aspose.Slides-documentatie](https://reference.aspose.com/slides/net/).
 
 ### Is er een proefversie van Aspose.Slides voor .NET beschikbaar?
- Ja, u kunt Aspose.Slides voor .NET uitproberen door een gratis proefversie te downloaden van[hier](https://releases.aspose.com/).
+Ja, u kunt Aspose.Slides voor .NET uitproberen door een gratis proefversie te downloaden van [hier](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

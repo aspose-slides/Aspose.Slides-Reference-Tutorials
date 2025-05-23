@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में डेटा लेबल के लिए कॉलआउट सेट करना
-linktitle: जावा स्लाइड्स में डेटा लेबल के लिए कॉलआउट सेट करना
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java में डेटा लेबल के लिए कॉलआउट सेट अप करना सीखें। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 25
-url: /hi/java/data-manipulation/setting-callout-data-label-java-slides/
+"description": "Aspose.Slides for Java में डेटा लेबल के लिए कॉलआउट सेट अप करना सीखें। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "जावा स्लाइड्स में डेटा लेबल के लिए कॉलआउट सेट करना"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में डेटा लेबल के लिए कॉलआउट सेट करना"
+"url": "/hi/java/data-manipulation/setting-callout-data-label-java-slides/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में डेटा लेबल के लिए कॉलआउट सेट करना
@@ -25,7 +27,7 @@ url: /hi/java/data-manipulation/setting-callout-data-label-java-slides/
 
 ## चरण 1: एक प्रस्तुति बनाएं और एक चार्ट जोड़ें
 
- सबसे पहले, हमें एक प्रेजेंटेशन बनाना होगा और स्लाइड में एक चार्ट जोड़ना होगा।`"Your Document Directory"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ.
+सबसे पहले, हमें एक प्रेजेंटेशन बनाना होगा और स्लाइड में एक चार्ट जोड़ना होगा। `"Your Document Directory"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -69,7 +71,7 @@ while (categoryIndex < 15) {
 
 ## चरण 3: डेटा लेबल अनुकूलित करें
 
-अब, हम डेटा लेबल को कस्टमाइज़ करेंगे, जिसमें अंतिम श्रृंखला के लिए कॉलआउट सेट करना भी शामिल है।
+अब, हम अंतिम श्रृंखला के लिए कॉलआउट सेट अप करने सहित डेटा लेबल को कस्टमाइज़ करेंगे।
 
 ```java
 int i = 0;
@@ -82,7 +84,7 @@ while (i < chart.getChartData().getSeries().size()) {
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
-        //लेबल स्वरूपण अनुकूलित करें (फ़ॉन्ट, भरण, आदि)
+        // लेबल स्वरूपण अनुकूलित करें (फ़ॉन्ट, भरण, आदि)
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
@@ -189,7 +191,7 @@ lbl.getDataLabelFormat().getFormat().getLine().getFillFormat().getSolidFillColor
 
 ### मैं डेटा लेबल के लिए कॉलआउट कैसे सक्षम या अक्षम कर सकता हूं?
 
- डेटा लेबल के लिए कॉलआउट सक्षम या अक्षम करने के लिए, का उपयोग करें`setShowLabelAsDataCallout` विधि. इसे इस पर सेट करें`true` कॉलआउट सक्षम करने के लिए और`false`उन्हें निष्क्रिय करने के लिए.
+डेटा लेबल के लिए कॉलआउट सक्षम या अक्षम करने के लिए, का उपयोग करें `setShowLabelAsDataCallout` विधि. इसे इस पर सेट करें `true` कॉलआउट सक्षम करने के लिए और `false` उन्हें निष्क्रिय करने के लिए.
 
 ```java
 lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // कॉलआउट सक्षम करें
@@ -209,9 +211,11 @@ lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFor
 ```
 
 Aspose.Slides for Java में डेटा लेबल और कॉलआउट के लिए ये कुछ सामान्य अनुकूलन विकल्प हैं। आप अपनी विशिष्ट आवश्यकताओं के अनुसार उपस्थिति को और भी अनुकूलित कर सकते हैं।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

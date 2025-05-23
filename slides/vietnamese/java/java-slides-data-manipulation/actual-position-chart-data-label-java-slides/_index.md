@@ -1,30 +1,32 @@
 ---
-title: Nhận vị trí thực tế của nhãn dữ liệu biểu đồ trong các trang trình bày Java
-linktitle: Nhận vị trí thực tế của nhãn dữ liệu biểu đồ trong các trang trình bày Java
-second_title: Aspose.Slides API xử lý PowerPoint Java
-description: Tìm hiểu cách lấy vị trí thực tế của nhãn dữ liệu biểu đồ trong Java Slides bằng Aspose.Slides for Java. Hướng dẫn từng bước với mã nguồn.
-weight: 18
-url: /vi/java/data-manipulation/actual-position-chart-data-label-java-slides/
+"description": "Tìm hiểu cách lấy vị trí thực tế của nhãn dữ liệu biểu đồ trong Java Slides bằng Aspose.Slides cho Java. Hướng dẫn từng bước có mã nguồn."
+"linktitle": "Lấy Vị trí Thực tế của Nhãn Dữ liệu Biểu đồ trong Java Slides"
+"second_title": "API xử lý PowerPoint Java của Aspose.Slides"
+"title": "Lấy Vị trí Thực tế của Nhãn Dữ liệu Biểu đồ trong Java Slides"
+"url": "/vi/java/data-manipulation/actual-position-chart-data-label-java-slides/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nhận vị trí thực tế của nhãn dữ liệu biểu đồ trong các trang trình bày Java
+# Lấy Vị trí Thực tế của Nhãn Dữ liệu Biểu đồ trong Java Slides
 
 
-## Giới thiệu Cách lấy vị trí thực tế của nhãn dữ liệu biểu đồ trong Java Slides
+## Giới thiệu về Lấy Vị trí Thực tế của Nhãn Dữ liệu Biểu đồ trong Java Slides
 
-Trong hướng dẫn này, bạn sẽ tìm hiểu cách truy xuất vị trí thực tế của nhãn dữ liệu biểu đồ bằng Aspose.Slides cho Java. Chúng tôi sẽ tạo một chương trình Java để tạo bản trình bày PowerPoint có biểu đồ, tùy chỉnh nhãn dữ liệu, sau đó thêm các hình dạng biểu thị vị trí của các nhãn dữ liệu này.
+Trong hướng dẫn này, bạn sẽ học cách lấy vị trí thực tế của nhãn dữ liệu biểu đồ bằng Aspose.Slides for Java. Chúng ta sẽ tạo một chương trình Java tạo bản trình bày PowerPoint có biểu đồ, tùy chỉnh nhãn dữ liệu, sau đó thêm hình dạng biểu diễn vị trí của các nhãn dữ liệu này.
 
 ## Điều kiện tiên quyết
 
-Trước khi bắt đầu, hãy đảm bảo bạn đã thiết lập thư viện Aspose.Slides cho Java trong dự án Java của mình.
+Trước khi bắt đầu, hãy đảm bảo rằng bạn đã thiết lập thư viện Aspose.Slides for Java trong dự án Java của mình.
 
-## Bước 1: Tạo bản trình bày PowerPoint
+## Bước 1: Tạo bài thuyết trình PowerPoint
 
-Trước tiên, hãy tạo một bản trình bày PowerPoint mới và thêm biểu đồ vào đó. Chúng tôi sẽ tùy chỉnh nhãn dữ liệu của biểu đồ sau trong phần hướng dẫn.
+Trước tiên, hãy tạo một bản trình bày PowerPoint mới và thêm biểu đồ vào đó. Chúng ta sẽ tùy chỉnh nhãn dữ liệu của biểu đồ sau trong hướng dẫn.
 
 ```java
 // Đường dẫn đến thư mục tài liệu.
@@ -39,7 +41,7 @@ try {
 ```
 
 ## Bước 2: Tùy chỉnh nhãn dữ liệu
-Bây giờ, hãy tùy chỉnh nhãn dữ liệu cho chuỗi biểu đồ. Chúng tôi sẽ thiết lập vị trí của họ và hiển thị các giá trị.
+Bây giờ, hãy tùy chỉnh nhãn dữ liệu cho chuỗi biểu đồ. Chúng ta sẽ đặt vị trí của chúng và hiển thị các giá trị.
 
 ```java
 try {
@@ -55,7 +57,7 @@ try {
 ```
 
 ## Bước 3: Nhận vị trí thực tế của nhãn dữ liệu
-Trong bước này, chúng ta sẽ lặp qua các điểm dữ liệu của chuỗi biểu đồ và truy xuất vị trí thực tế của các nhãn dữ liệu có giá trị lớn hơn 4. Sau đó, chúng ta sẽ thêm các hình elip để thể hiện các vị trí này.
+Ở bước này, chúng ta sẽ lặp qua các điểm dữ liệu của chuỗi biểu đồ và lấy vị trí thực tế của các nhãn dữ liệu có giá trị lớn hơn 4. Sau đó, chúng ta sẽ thêm dấu ba chấm để biểu diễn các vị trí này.
 
 ```java
 try {
@@ -91,7 +93,7 @@ try {
 }
 ```
 
-## Mã nguồn hoàn chỉnh để nhận vị trí thực tế của nhãn dữ liệu biểu đồ trong các trang trình bày Java
+## Mã nguồn đầy đủ để lấy vị trí thực tế của nhãn dữ liệu biểu đồ trong Java Slides
 
 ```java
 // Đường dẫn đến thư mục tài liệu.
@@ -118,7 +120,7 @@ try
 				float h = point.getLabel().getActualHeight();
 				IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Ellipse, x, y, w, h);
 				shape.getFillFormat().setFillType(FillType.Solid);
-				shape.getFillFormat().getSolidFillColor().setColor(com.aspose.cells.Color.fromArgb(100, 0, 255, 0).d());//LÀM
+				shape.getFillFormat().getSolidFillColor().setColor(com.aspose.cells.Color.fromArgb(100, 0, 255, 0).d());//CẦN LÀM
 			}
 		}
 	}
@@ -132,13 +134,13 @@ finally
 
 ## Phần kết luận
 
-Trong hướng dẫn này, bạn đã học cách truy xuất vị trí thực tế của nhãn dữ liệu biểu đồ trong Java Slides bằng Aspose.Slides for Java. Giờ đây, bạn có thể sử dụng kiến thức này để cải thiện bản trình bày PowerPoint của mình bằng nhãn dữ liệu tùy chỉnh và cách trình bày trực quan về vị trí của chúng.
+Trong hướng dẫn này, bạn đã học cách lấy vị trí thực tế của nhãn dữ liệu biểu đồ trong Java Slides bằng Aspose.Slides for Java. Bây giờ bạn có thể sử dụng kiến thức này để nâng cao bài thuyết trình PowerPoint của mình bằng nhãn dữ liệu tùy chỉnh và biểu diễn trực quan về vị trí của chúng.
 
 ## Câu hỏi thường gặp
 
-### Làm cách nào tôi có thể tùy chỉnh nhãn dữ liệu trong biểu đồ?
+### Làm thế nào để tùy chỉnh nhãn dữ liệu trong biểu đồ?
 
- Để tùy chỉnh nhãn dữ liệu trong biểu đồ, bạn có thể sử dụng`setDefaultDataLabelFormat` trên chuỗi biểu đồ và đặt các thuộc tính như vị trí và mức độ hiển thị. Ví dụ:
+Để tùy chỉnh nhãn dữ liệu trong biểu đồ, bạn có thể sử dụng `setDefaultDataLabelFormat` phương pháp trên chuỗi biểu đồ và thiết lập các thuộc tính như vị trí và khả năng hiển thị. Ví dụ:
 ```java
 for (IChartSeries series : chart.getChartData().getSeries()) {
     series.getLabels().getDefaultDataLabelFormat().setPosition(LegendDataLabelPosition.OutsideEnd);
@@ -146,9 +148,9 @@ for (IChartSeries series : chart.getChartData().getSeries()) {
 }
 ```
 
-### Làm cách nào tôi có thể thêm hình dạng để thể hiện vị trí nhãn dữ liệu?
+### Làm thế nào tôi có thể thêm hình dạng để biểu diễn vị trí nhãn dữ liệu?
 
- Bạn có thể lặp qua các điểm dữ liệu của chuỗi biểu đồ và sử dụng`getActualX`, `getActualY`, `getActualWidth` , Và`getActualHeight`phương pháp của nhãn dữ liệu để có được vị trí của nó. Sau đó, bạn có thể thêm hình dạng bằng cách sử dụng`addAutoShape` phương pháp. Đây là một ví dụ:
+Bạn có thể lặp lại qua các điểm dữ liệu của một loạt biểu đồ và sử dụng `getActualX`, `getActualY`, `getActualWidth`, Và `getActualHeight` phương pháp của nhãn dữ liệu để có được vị trí của nó. Sau đó, bạn có thể thêm hình dạng bằng cách sử dụng `addAutoShape` phương pháp. Đây là một ví dụ:
 ```java
 float x = point.getLabel().getActualX();
 float y = point.getLabel().getActualY();
@@ -157,15 +159,17 @@ float h = point.getLabel().getActualHeight();
 IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Ellipse, x, y, w, h);
 ```
 
-### Làm cách nào để lưu bản trình bày đã tạo?
+### Tôi có thể lưu bài thuyết trình đã tạo như thế nào?
 
- Bạn có thể lưu bản trình bày đã tạo bằng cách sử dụng`save` phương pháp. Cung cấp đường dẫn tệp mong muốn và`SaveFormat` như các tham số. Ví dụ:
+Bạn có thể lưu bản trình bày đã tạo bằng cách sử dụng `save` phương pháp. Cung cấp đường dẫn tệp mong muốn và `SaveFormat` như các tham số. Ví dụ:
 ```java
 pres.save(dataDir + "GetActualPositionOFChartDatalabel.pptx", SaveFormat.Pptx);
 ```
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

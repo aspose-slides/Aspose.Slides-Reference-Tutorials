@@ -1,14 +1,16 @@
 ---
-title: Aspose.Slides में स्मार्टआर्ट चाइल्ड नोट के लिए थंबनेल बनाना
-linktitle: Aspose.Slides में स्मार्टआर्ट चाइल्ड नोट के लिए थंबनेल बनाना
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: Aspose.Slides for .NET का उपयोग करके आकर्षक SmartArt Child Note थंबनेल बनाना सीखें। गतिशील दृश्यों के साथ अपनी प्रस्तुतियों को बेहतर बनाएँ!
-weight: 15
-url: /hi/net/image-and-video-manipulation-in-slides/creating-thumbnail-smartart-child-note/
+"description": "Aspose.Slides for .NET का उपयोग करके आकर्षक SmartArt चाइल्ड नोट थंबनेल बनाना सीखें। गतिशील दृश्यों के साथ अपनी प्रस्तुतियों को बेहतर बनाएँ!"
+"linktitle": "Aspose.Slides में स्मार्टआर्ट चाइल्ड नोट के लिए थंबनेल बनाना"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "Aspose.Slides में स्मार्टआर्ट चाइल्ड नोट के लिए थंबनेल बनाना"
+"url": "/hi/net/image-and-video-manipulation-in-slides/creating-thumbnail-smartart-child-note/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Slides में स्मार्टआर्ट चाइल्ड नोट के लिए थंबनेल बनाना
@@ -17,11 +19,11 @@ url: /hi/net/image-and-video-manipulation-in-slides/creating-thumbnail-smartart-
 गतिशील प्रस्तुतियों के क्षेत्र में, Aspose.Slides for .NET एक शक्तिशाली उपकरण के रूप में सामने आता है, जो डेवलपर्स को प्रोग्रामेटिक रूप से PowerPoint प्रस्तुतियों में हेरफेर करने और उन्हें बेहतर बनाने की क्षमता प्रदान करता है। एक आकर्षक विशेषता SmartArt Child Notes के लिए थंबनेल बनाने की क्षमता है, जो आपकी प्रस्तुतियों में दृश्य अपील की एक परत जोड़ती है। यह चरण-दर-चरण मार्गदर्शिका आपको Aspose.Slides for .NET का उपयोग करके SmartArt Child Notes के लिए थंबनेल बनाने की प्रक्रिया से परिचित कराएगी।
 ## आवश्यक शर्तें
 ट्यूटोरियल में आगे बढ़ने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
--  .NET के लिए Aspose.Slides: सुनिश्चित करें कि आपके .NET प्रोजेक्ट में Aspose.Slides लाइब्रेरी एकीकृत है। यदि नहीं, तो इसे यहाँ से डाउनलोड करें।[विज्ञप्ति पृष्ठ](https://releases.aspose.com/slides/net/).
+- .NET के लिए Aspose.Slides: सुनिश्चित करें कि आपके .NET प्रोजेक्ट में Aspose.Slides लाइब्रेरी एकीकृत है। यदि नहीं, तो इसे यहाँ से डाउनलोड करें [विज्ञप्ति पृष्ठ](https://releases.aspose.com/slides/net/).
 - विकास परिवेश: एक कार्यशील .NET विकास परिवेश स्थापित करें, तथा C# प्रोग्रामिंग की बुनियादी समझ रखें।
 - नमूना प्रस्तुति: परीक्षण के लिए चाइल्ड नोट्स के साथ स्मार्टआर्ट युक्त पावरपॉइंट प्रस्तुति बनाएं या प्राप्त करें।
 ## नामस्थान आयात करें
-अपने C# प्रोजेक्ट में आवश्यक नेमस्पेस को आयात करके शुरू करें। ये नेमस्पेस Aspose.Slides के साथ काम करने के लिए आवश्यक क्लास और विधियों तक पहुँच प्रदान करते हैं।
+अपने C# प्रोजेक्ट में आवश्यक नेमस्पेस को आयात करके शुरू करें। ये नेमस्पेस Aspose.Slides के साथ काम करने के लिए आवश्यक क्लासेस और विधियों तक पहुँच प्रदान करते हैं।
 ```csharp
 using System.Drawing;
 using System.Drawing.Imaging;
@@ -29,13 +31,13 @@ using Aspose.Slides.SmartArt;
 using Aspose.Slides;
 ```
 ## चरण 1: प्रेजेंटेशन क्लास को इंस्टैंशिएट करें
- प्रारंभ में इसे उदाहरण के रूप में प्रस्तुत करें`Presentation` क्लास, उस PPTX फ़ाइल का प्रतिनिधित्व करता है जिसके साथ आप काम करेंगे।
+प्रारंभ में इसे उदाहरण के रूप में प्रस्तुत करें `Presentation` क्लास, उस PPTX फ़ाइल का प्रतिनिधित्व करता है जिसके साथ आप काम करेंगे।
 ```csharp
 string dataDir = "Your Documents Directory";
 Presentation pres = new Presentation();
 ```
 ## चरण 2: स्मार्टआर्ट जोड़ें
- अब, प्रस्तुति के भीतर एक स्लाइड में स्मार्टआर्ट जोड़ें। इस उदाहरण में, हम इसका उपयोग कर रहे हैं`BasicCycle` लेआउट।
+अब, प्रस्तुति के भीतर एक स्लाइड में स्मार्टआर्ट जोड़ें। इस उदाहरण में, हम इसका उपयोग कर रहे हैं `BasicCycle` लेआउट।
 ```csharp
 ISmartArt smart = pres.Slides[0].Shapes.AddSmartArt(10, 10, 400, 300, SmartArtLayoutType.BasicCycle);
 ```
@@ -50,7 +52,7 @@ ISmartArtNode node = smart.Nodes[1];
 Bitmap bmp = node.Shapes[0].GetThumbnail();
 ```
 ## चरण 5: थंबनेल सहेजें
-उत्पन्न थंबनेल छवि को निर्दिष्ट निर्देशिका में सहेजें।
+उत्पन्न थंबनेल छवि को निर्दिष्ट निर्देशिका में सहेजें.
 ```csharp
 bmp.Save(dataDir + "SmartArt_ChildNote_Thumbnail_out.jpeg", ImageFormat.Jpeg);
 ```
@@ -63,14 +65,16 @@ bmp.Save(dataDir + "SmartArt_ChildNote_Thumbnail_out.jpeg", ImageFormat.Jpeg);
 ### प्रश्न: क्या Aspose.Slides अन्य स्मार्टआर्ट लेआउट का समर्थन करता है?
 उत्तर: बिल्कुल! Aspose.Slides विभिन्न प्रकार के स्मार्टआर्ट लेआउट प्रदान करता है, जिससे आप अपनी प्रस्तुति आवश्यकताओं के लिए सबसे उपयुक्त लेआउट चुन सकते हैं।
 ### प्रश्न: क्या परीक्षण प्रयोजनों के लिए अस्थायी लाइसेंस उपलब्ध है?
- उत्तर: हां, आप यहां से अस्थायी लाइसेंस प्राप्त कर सकते हैं।[यहाँ](https://purchase.aspose.com/temporary-license/) परीक्षण और मूल्यांकन के लिए।
+उत्तर: हां, आप यहां से अस्थायी लाइसेंस प्राप्त कर सकते हैं। [यहाँ](https://purchase.aspose.com/temporary-license/) परीक्षण और मूल्यांकन के लिए।
 ### प्रश्न: मैं सहायता कहां प्राप्त कर सकता हूं या Aspose.Slides समुदाय से कहां जुड़ सकता हूं?
- उत्तर: यहाँ जाएँ[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) समुदाय के साथ जुड़ना, प्रश्न पूछना और समाधान ढूंढना।
+उत्तर: यहाँ जाएँ [Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) समुदाय के साथ जुड़ना, प्रश्न पूछना और समाधान ढूंढना।
 ### प्रश्न: क्या मैं .NET के लिए Aspose.Slides खरीद सकता हूँ?
- उत्तर: ज़रूर! खरीद के विकल्प तलाशें[यहाँ](https://purchase.aspose.com/buy) अपनी परियोजनाओं में Aspose.Slides की पूरी क्षमता को अनलॉक करने के लिए।
+उत्तर: ज़रूर! खरीद के विकल्प तलाशें [यहाँ](https://purchase.aspose.com/buy) अपनी परियोजनाओं में Aspose.Slides की पूरी क्षमता को अनलॉक करने के लिए।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

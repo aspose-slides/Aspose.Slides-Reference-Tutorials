@@ -1,14 +1,16 @@
 ---
-title: Schrifteigenschaften für Diagramme in Java-Folien
-linktitle: Schrifteigenschaften für Diagramme in Java-Folien
-second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
-description: Verbessern Sie die Diagrammschrifteigenschaften in Java-Folien mit Aspose.Slides für Java. Passen Sie Schriftgröße, -stil und -farbe für wirkungsvolle Präsentationen an.
-weight: 11
-url: /de/java/customization-and-formatting/font-properties-for-chart-java-slides/
+"description": "Verbessern Sie die Schrifteigenschaften von Diagrammen in Java-Folien mit Aspose.Slides für Java. Passen Sie Schriftgröße, Stil und Farbe für wirkungsvolle Präsentationen an."
+"linktitle": "Schrifteigenschaften für Diagramme in Java-Folien"
+"second_title": "Aspose.Slides Java PowerPoint-Verarbeitungs-API"
+"title": "Schrifteigenschaften für Diagramme in Java-Folien"
+"url": "/de/java/customization-and-formatting/font-properties-for-chart-java-slides/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Schrifteigenschaften für Diagramme in Java-Folien
@@ -16,18 +18,18 @@ url: /de/java/customization-and-formatting/font-properties-for-chart-java-slides
 
 ## Einführung in die Schrifteigenschaften für Diagramme in Java-Folien
 
-Diese Anleitung führt Sie durch das Festlegen der Schrifteigenschaften für ein Diagramm in Java Slides mithilfe von Aspose.Slides. Sie können die Schriftgröße und das Erscheinungsbild des Diagrammtexts anpassen, um die visuelle Attraktivität Ihrer Präsentationen zu verbessern.
+Diese Anleitung führt Sie durch das Festlegen der Schrifteigenschaften für ein Diagramm in Java Slides mit Aspose.Slides. Sie können die Schriftgröße und das Erscheinungsbild des Diagrammtextes anpassen, um die visuelle Attraktivität Ihrer Präsentationen zu verbessern.
 
 ## Voraussetzungen
 
- Bevor Sie beginnen, stellen Sie sicher, dass Sie Aspose.Slides für Java API in Ihr Projekt integriert haben. Wenn Sie es noch nicht getan haben, können Sie es von der[Aspose.Slides für Java-Dokumentation](https://reference.aspose.com/slides/java/).
+Bevor Sie beginnen, stellen Sie sicher, dass Aspose.Slides für Java API in Ihr Projekt integriert ist. Falls noch nicht geschehen, können Sie es von der [Aspose.Slides für Java-Dokumentation](https://reference.aspose.com/slides/java/).
 
 ## Schritt 1: Erstellen Sie eine Präsentation
 
 Erstellen Sie zunächst eine neue Präsentation mit dem folgenden Code:
 
 ```java
-// Der Pfad zum Dokumentverzeichnis.
+// Der Pfad zum Dokumentenverzeichnis.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 ```
@@ -50,7 +52,7 @@ Als Nächstes passen wir die Schrifteigenschaften des Diagramms an. In diesem Be
 chart.getTextFormat().getPortionFormat().setFontHeight(20);
 ```
 
-Dieser Code stellt die Schriftgröße für den gesamten Text im Diagramm auf 20 Punkt ein.
+Dieser Code legt die Schriftgröße für den gesamten Text im Diagramm auf 20 Punkte fest.
 
 ## Schritt 4: Datenbeschriftungen anzeigen
 
@@ -64,7 +66,7 @@ Diese Codezeile aktiviert Datenbeschriftungen für die erste Reihe im Diagramm u
 
 ## Schritt 5: Speichern Sie die Präsentation
 
-Speichern Sie abschließend die Präsentation mit den von Ihnen angepassten Diagrammschrifteigenschaften:
+Speichern Sie abschließend die Präsentation mit Ihren angepassten Diagrammschrifteigenschaften:
 
 ```java
 pres.save(dataDir + "FontPropertiesForChart.pptx", SaveFormat.Pptx);
@@ -75,7 +77,7 @@ Dieser Code speichert die Präsentation im angegebenen Verzeichnis unter dem Dat
 ## Vollständiger Quellcode für Schrifteigenschaften für Diagramme in Java-Folien
 
 ```java
-// Der Pfad zum Dokumentverzeichnis.
+// Der Pfad zum Dokumentenverzeichnis.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 try
@@ -93,24 +95,26 @@ finally
 
 ## Abschluss
 
-In diesem Tutorial haben Sie gelernt, wie Sie die Schrifteigenschaften für ein Diagramm in Java Slides mit Aspose.Slides für Java anpassen. Sie können diese Techniken anwenden, um das Erscheinungsbild Ihrer Diagramme und Präsentationen zu verbessern. Weitere Optionen finden Sie im[Aspose.Slides für Java-Dokumentation](https://reference.aspose.com/slides/java/).
+In diesem Tutorial haben Sie gelernt, wie Sie die Schrifteigenschaften eines Diagramms in Java Slides mit Aspose.Slides für Java anpassen. Sie können diese Techniken anwenden, um das Erscheinungsbild Ihrer Diagramme und Präsentationen zu verbessern. Weitere Optionen finden Sie im [Aspose.Slides für Java-Dokumentation](https://reference.aspose.com/slides/java/).
 
 ## Häufig gestellte Fragen
 
 ### Wie kann ich die Schriftfarbe ändern?
 
- Um die Schriftfarbe für Diagrammtext zu ändern, verwenden Sie`chart.getTextFormat().getPortionFormat().setFontColor(Color.RED);` , ersetzt`Color.RED` mit der gewünschten Farbe.
+Um die Schriftfarbe für Diagrammtext zu ändern, verwenden Sie `chart.getTextFormat().getPortionFormat().setFontColor(Color.RED);`, ersetzt `Color.RED` mit der gewünschten Farbe.
 
 ### Kann ich den Schriftstil (fett, kursiv usw.) ändern?
 
- Ja, Sie können den Schriftstil ändern. Verwenden Sie`chart.getTextFormat().getPortionFormat().setFontBold(true);` um die Schrift fett zu machen. Ebenso können Sie verwenden`setFontItalic(true)` um es kursiv zu machen.
+Ja, Sie können den Schriftstil ändern. Verwenden Sie `chart.getTextFormat().getPortionFormat().setFontBold(true);` um die Schrift fett zu machen. Ebenso können Sie `setFontItalic(true)` um es kursiv zu machen.
 
 ### Wie passe ich die Schrifteigenschaften für bestimmte Diagrammelemente an?
 
-Um Schrifteigenschaften für bestimmte Diagrammelemente wie Achsenbeschriftungen oder Legendentext anzupassen, können Sie auf diese Elemente zugreifen und ihre Schrifteigenschaften mit ähnlichen Methoden wie oben gezeigt festlegen.
+Um die Schrifteigenschaften für bestimmte Diagrammelemente wie Achsenbeschriftungen oder Legendentext anzupassen, können Sie auf diese Elemente zugreifen und ihre Schrifteigenschaften mit ähnlichen Methoden wie oben gezeigt festlegen.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

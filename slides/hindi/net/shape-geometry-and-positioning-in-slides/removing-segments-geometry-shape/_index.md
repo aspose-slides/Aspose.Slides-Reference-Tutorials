@@ -1,14 +1,16 @@
 ---
-title: आकार खंड निकालें - Aspose.Slides .NET ट्यूटोरियल
-linktitle: प्रेजेंटेशन स्लाइड में ज्यामिति आकार से सेगमेंट हटाना
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: .NET के लिए Aspose.Slides API का उपयोग करके प्रेजेंटेशन स्लाइड में ज्यामिति आकृतियों से सेगमेंट निकालना सीखें। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 16
-url: /hi/net/shape-geometry-and-positioning-in-slides/removing-segments-geometry-shape/
+"description": ".NET के लिए Aspose.Slides API का उपयोग करके प्रेजेंटेशन स्लाइड में ज्यामिति आकृतियों से सेगमेंट निकालना सीखें। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "प्रेजेंटेशन स्लाइड में ज्यामिति आकार से सेगमेंट हटाना"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "आकार खंड निकालें - Aspose.Slides .NET ट्यूटोरियल"
+"url": "/hi/net/shape-geometry-and-positioning-in-slides/removing-segments-geometry-shape/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # आकार खंड निकालें - Aspose.Slides .NET ट्यूटोरियल
@@ -17,7 +19,7 @@ url: /hi/net/shape-geometry-and-positioning-in-slides/removing-segments-geometry
 दिखने में आकर्षक प्रस्तुतियाँ बनाने में अक्सर मनचाहा डिज़ाइन पाने के लिए आकृतियों और तत्वों में हेरफेर करना शामिल होता है। Aspose.Slides for .NET के साथ, डेवलपर्स आकृतियों की ज्यामिति को आसानी से नियंत्रित कर सकते हैं, जिससे विशिष्ट खंडों को हटाया जा सकता है। इस ट्यूटोरियल में, हम आपको Aspose.Slides for .NET का उपयोग करके प्रस्तुति स्लाइड में ज्यामिति आकृति से खंडों को हटाने की प्रक्रिया के बारे में बताएँगे।
 ## आवश्यक शर्तें
 ट्यूटोरियल में शामिल होने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
--  Aspose.Slides for .NET लाइब्रेरी: सुनिश्चित करें कि आपके पास Aspose.Slides for .NET लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं[रिलीज़ पेज](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET लाइब्रेरी: सुनिश्चित करें कि आपके पास Aspose.Slides for .NET लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं [रिलीज़ पेज](https://releases.aspose.com/slides/net/).
 - विकास परिवेश: Aspose.Slides को अपने प्रोजेक्ट में एकीकृत करने के लिए Visual Studio जैसे .NET विकास परिवेश को सेट करें।
 - दस्तावेज़ निर्देशिका: एक निर्देशिका बनाएं जहां आप अपने दस्तावेज़ संग्रहीत करेंगे और कोड में उचित पथ सेट करें।
 ## नामस्थान आयात करें
@@ -73,10 +75,12 @@ shape.SetGeometryPath(path);
 ### क्या मैं प्रस्तुति को सहेजने के बाद खंड हटाने को पूर्ववत कर सकता हूँ?
 नहीं, सहेजने के बाद परिवर्तन अपरिवर्तनीय हैं। संशोधन से पहले बैकअप सहेजने पर विचार करें।
 ### मैं अतिरिक्त समर्थन या सहायता कहां से प्राप्त कर सकता हूं?
- दौरा करना[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) सामुदायिक समर्थन और चर्चा के लिए।
+दौरा करना [Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) सामुदायिक समर्थन और चर्चा के लिए।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

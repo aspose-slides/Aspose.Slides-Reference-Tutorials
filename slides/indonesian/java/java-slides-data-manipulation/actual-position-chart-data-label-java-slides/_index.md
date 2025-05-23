@@ -1,22 +1,24 @@
 ---
-title: Dapatkan Posisi Sebenarnya Label Data Bagan di Slide Java
-linktitle: Dapatkan Posisi Sebenarnya Label Data Bagan di Slide Java
-second_title: Aspose.Slides API Pemrosesan Java PowerPoint
-description: Pelajari cara mendapatkan posisi sebenarnya dari label data bagan di Java Slides menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah dengan kode sumber.
-weight: 18
-url: /id/java/data-manipulation/actual-position-chart-data-label-java-slides/
+"description": "Pelajari cara mendapatkan posisi sebenarnya dari label data grafik di Java Slides menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah dengan kode sumber."
+"linktitle": "Mendapatkan Posisi Aktual Label Data Grafik di Java Slides"
+"second_title": "API Pemrosesan PowerPoint Java Aspose.Slides"
+"title": "Mendapatkan Posisi Aktual Label Data Grafik di Java Slides"
+"url": "/id/java/data-manipulation/actual-position-chart-data-label-java-slides/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dapatkan Posisi Sebenarnya Label Data Bagan di Slide Java
+# Mendapatkan Posisi Aktual Label Data Grafik di Java Slides
 
 
-## Pengantar Mendapatkan Posisi Sebenarnya Label Data Bagan di Slide Java
+## Pengantar untuk Mendapatkan Posisi Aktual Label Data Grafik di Java Slides
 
-Dalam tutorial ini, Anda akan mempelajari cara mengambil posisi sebenarnya dari label data bagan menggunakan Aspose.Slides untuk Java. Kita akan membuat program Java yang menghasilkan presentasi PowerPoint dengan bagan, mengkustomisasi label data, dan kemudian menambahkan bentuk yang mewakili posisi label data tersebut.
+Dalam tutorial ini, Anda akan mempelajari cara mengambil posisi sebenarnya dari label data bagan menggunakan Aspose.Slides untuk Java. Kita akan membuat program Java yang menghasilkan presentasi PowerPoint dengan bagan, menyesuaikan label data, lalu menambahkan bentuk yang mewakili posisi label data ini.
 
 ## Prasyarat
 
@@ -24,7 +26,7 @@ Sebelum memulai, pastikan Anda telah menyiapkan pustaka Aspose.Slides untuk Java
 
 ## Langkah 1: Buat Presentasi PowerPoint
 
-Pertama, mari buat presentasi PowerPoint baru dan tambahkan bagan ke dalamnya. Kita akan menyesuaikan label data bagan nanti di tutorial.
+Pertama, mari kita buat presentasi PowerPoint baru dan tambahkan diagram ke dalamnya. Kita akan menyesuaikan label data diagram nanti dalam tutorial ini.
 
 ```java
 // Jalur ke direktori dokumen.
@@ -38,8 +40,8 @@ try {
 }
 ```
 
-## Langkah 2: Sesuaikan Label Data
-Sekarang, mari sesuaikan label data untuk rangkaian bagan. Kami akan menetapkan posisi mereka dan menunjukkan nilainya.
+## Langkah 2: Kustomisasi Label Data
+Sekarang, mari kita sesuaikan label data untuk rangkaian grafik. Kita akan mengatur posisi label dan menampilkan nilainya.
 
 ```java
 try {
@@ -48,14 +50,14 @@ try {
         series.getLabels().getDefaultDataLabelFormat().setPosition(LegendDataLabelPosition.OutsideEnd);
         series.getLabels().getDefaultDataLabelFormat().setShowValue(true);
     }
-    // ... (kode yang tersisa)
+    // ... (kode tersisa)
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
 
-## Langkah 3: Dapatkan Posisi Label Data Sebenarnya
-Pada langkah ini, kita akan mengulangi titik data rangkaian bagan dan mengambil posisi sebenarnya dari label data yang memiliki nilai lebih besar dari 4. Kemudian kita akan menambahkan elips untuk mewakili posisi ini.
+## Langkah 3: Dapatkan Posisi Aktual Label Data
+Pada langkah ini, kita akan mengulangi titik-titik data dari rangkaian grafik dan mengambil posisi sebenarnya dari label data yang memiliki nilai lebih besar dari 4. Kita kemudian akan menambahkan elips untuk mewakili posisi ini.
 
 ```java
 try {
@@ -73,14 +75,14 @@ try {
             }
         }
     }
-    // ... (kode yang tersisa)
+    // ... (kode tersisa)
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
 
 ## Langkah 4: Simpan Presentasi
-Terakhir, simpan presentasi yang dihasilkan ke file.
+Terakhir, simpan presentasi yang dihasilkan ke sebuah berkas.
 
 ```java
 try {
@@ -91,7 +93,7 @@ try {
 }
 ```
 
-## Kode Sumber Lengkap untuk Mendapatkan Posisi Sebenarnya Label Data Bagan di Slide Java
+## Source Code Lengkap untuk Mendapatkan Posisi Aktual Label Data Grafik di Java Slides
 
 ```java
 // Jalur ke direktori dokumen.
@@ -118,7 +120,7 @@ try
 				float h = point.getLabel().getActualHeight();
 				IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Ellipse, x, y, w, h);
 				shape.getFillFormat().setFillType(FillType.Solid);
-				shape.getFillFormat().getSolidFillColor().setColor(com.aspose.cells.Color.fromArgb(100, 0, 255, 0).d());//MELAKUKAN
+				shape.getFillFormat().getSolidFillColor().setColor(com.aspose.cells.Color.fromArgb(100, 0, 255, 0).d());//YANG HARUS DILAKUKAN
 			}
 		}
 	}
@@ -134,11 +136,11 @@ finally
 
 Dalam tutorial ini, Anda telah mempelajari cara mengambil posisi sebenarnya dari label data bagan di Java Slides menggunakan Aspose.Slides untuk Java. Anda sekarang dapat menggunakan pengetahuan ini untuk menyempurnakan presentasi PowerPoint Anda dengan label data yang disesuaikan dan representasi visual dari posisinya.
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
-### Bagaimana cara mengkustomisasi label data dalam bagan?
+### Bagaimana cara menyesuaikan label data dalam bagan?
 
- Untuk mengkustomisasi label data dalam bagan, Anda dapat menggunakan`setDefaultDataLabelFormat` metode pada rangkaian bagan dan mengatur properti seperti posisi dan visibilitas. Misalnya:
+Untuk menyesuaikan label data dalam bagan, Anda dapat menggunakan `setDefaultDataLabelFormat` metode pada rangkaian bagan dan tetapkan properti seperti posisi dan visibilitas. Misalnya:
 ```java
 for (IChartSeries series : chart.getChartData().getSeries()) {
     series.getLabels().getDefaultDataLabelFormat().setPosition(LegendDataLabelPosition.OutsideEnd);
@@ -146,9 +148,9 @@ for (IChartSeries series : chart.getChartData().getSeries()) {
 }
 ```
 
-### Bagaimana cara menambahkan bentuk untuk mewakili posisi label data?
+### Bagaimana cara menambahkan bentuk untuk merepresentasikan posisi label data?
 
- Anda dapat melakukan iterasi melalui titik data rangkaian bagan dan menggunakan`getActualX`, `getActualY`, `getActualWidth` , Dan`getActualHeight`metode label data untuk mendapatkan posisinya. Kemudian, Anda dapat menambahkan bentuk menggunakan`addAutoShape` metode. Berikut ini contohnya:
+Anda dapat mengulangi titik data dari rangkaian grafik dan menggunakan `getActualX`Bahasa Indonesia: `getActualY`Bahasa Indonesia: `getActualWidth`, Dan `getActualHeight` metode label data untuk mendapatkan posisinya. Kemudian, Anda dapat menambahkan bentuk menggunakan `addAutoShape` metode. Berikut contohnya:
 ```java
 float x = point.getLabel().getActualX();
 float y = point.getLabel().getActualY();
@@ -159,13 +161,15 @@ IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Elli
 
 ### Bagaimana cara menyimpan presentasi yang dihasilkan?
 
- Anda dapat menyimpan presentasi yang dihasilkan menggunakan`save` metode. Berikan jalur file yang diinginkan dan`SaveFormat` sebagai parameter. Misalnya:
+Anda dapat menyimpan presentasi yang dihasilkan menggunakan `save` metode. Berikan jalur file yang diinginkan dan `SaveFormat` sebagai parameter. Misalnya:
 ```java
 pres.save(dataDir + "GetActualPositionOFChartDatalabel.pptx", SaveFormat.Pptx);
 ```
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

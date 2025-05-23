@@ -1,14 +1,16 @@
 ---
-title: जावा पावरपॉइंट में टेक्स्ट फ़्रेम का ऑटोफ़िट सेट करें
-linktitle: जावा पावरपॉइंट में टेक्स्ट फ़्रेम का ऑटोफ़िट सेट करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके Java PowerPoint में टेक्स्ट फ़्रेम के लिए ऑटोफ़िट सेट करना सीखें। आसानी से गतिशील प्रस्तुतियाँ बनाएँ।
-weight: 14
-url: /hi/java/java-powerpoint-text-font-customization/set-autofit-text-frame-java-powerpoint/
+"description": "Aspose.Slides for Java का उपयोग करके Java PowerPoint में टेक्स्ट फ़्रेम के लिए ऑटोफ़िट सेट करना सीखें। आसानी से गतिशील प्रस्तुतियाँ बनाएँ।"
+"linktitle": "जावा पावरपॉइंट में टेक्स्ट फ़्रेम का ऑटोफ़िट सेट करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा पावरपॉइंट में टेक्स्ट फ़्रेम का ऑटोफ़िट सेट करें"
+"url": "/hi/java/java-powerpoint-text-font-customization/set-autofit-text-frame-java-powerpoint/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा पावरपॉइंट में टेक्स्ट फ़्रेम का ऑटोफ़िट सेट करें
@@ -37,7 +39,7 @@ Presentation presentation = new Presentation();
 ## चरण 2: आकृतियाँ जोड़ने के लिए स्लाइड तक पहुँचें
 प्रस्तुति की पहली स्लाइड तक पहुँचें जहाँ आप ऑटोफिट टेक्स्ट के साथ एक आकृति जोड़ना चाहते हैं।
 ```java
-// पहली स्लाइड पर पहुँचें
+// पहली स्लाइड पर पहुँचें 
 ISlide slide = presentation.getSlides().get_Item(0);
 ```
 ## चरण 3: एक ऑटोशेप (आयताकार) जोड़ें
@@ -71,7 +73,7 @@ portion.setText("A quick brown fox jumps over the lazy dog. A quick brown fox ju
 portion.getPortionFormat().getFillFormat().setFillType(FillType.Solid);
 portion.getPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.BLACK);
 ```
-## चरण 7: प्रेजेंटेशन सहेजें
+## चरण 7: प्रस्तुति सहेजें
 संशोधित प्रस्तुति को ऑटोफिट टेक्स्ट फ्रेम के साथ सहेजें।
 ```java
 // प्रस्तुति सहेजें
@@ -85,16 +87,18 @@ presentation.save(dataDir + "formatText_out.pptx", SaveFormat.Pptx);
 ### Java के लिए Aspose.Slides क्या है?
 Aspose.Slides for Java एक मजबूत Java API है जो डेवलपर्स को पावरपॉइंट प्रस्तुतियों को बनाने, पढ़ने, हेरफेर करने और परिवर्तित करने की अनुमति देता है।
 ### मैं Java के लिए Aspose.Slides कैसे डाउनलोड करूं?
- आप Java के लिए Aspose.Slides को यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+आप Java के लिए Aspose.Slides को यहां से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 ### क्या मैं Java के लिए Aspose.Slides निःशुल्क आज़मा सकता हूँ?
- हां, आप यहां से Aspose.Slides for Java का निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप यहां से Aspose.Slides for Java का निःशुल्क परीक्षण प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/).
 ### मैं Aspose.Slides for Java के लिए दस्तावेज़ कहां पा सकता हूं?
- आप Java के लिए Aspose.Slides के लिए विस्तृत दस्तावेज़ पा सकते हैं[यहाँ](https://reference.aspose.com/slides/java/).
+आप Java के लिए Aspose.Slides के लिए विस्तृत दस्तावेज़ पा सकते हैं [यहाँ](https://reference.aspose.com/slides/java/).
 ### मैं Java के लिए Aspose.Slides के लिए समर्थन कैसे प्राप्त कर सकता हूं?
- आप Aspose.Slides for Java के लिए सामुदायिक और पेशेवर सहायता यहाँ से प्राप्त कर सकते हैं[यहाँ](https://forum.aspose.com/c/slides/11).
+आप Aspose.Slides for Java के लिए सामुदायिक और पेशेवर समर्थन यहाँ से प्राप्त कर सकते हैं [यहाँ](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

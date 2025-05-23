@@ -1,28 +1,30 @@
 ---
-title: Zkontrolujte ochranu prezentace v aplikaci Java Slides
-linktitle: Zkontrolujte ochranu prezentace v aplikaci Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Zjistěte, jak zkontrolovat ochranu prezentace na snímcích Java pomocí Aspose.Slides for Java. Tento podrobný průvodce poskytuje příklady kódu pro kontrolu zápisu a ochrany proti otevření.
-weight: 15
-url: /cs/java/presentation-properties/check-presentation-protection-in-java-slides/
+"description": "Naučte se, jak kontrolovat ochranu prezentací v slidech v Javě pomocí Aspose.Slides pro Javu. Tato podrobná příručka obsahuje příklady kódu pro kontroly ochrany proti zápisu a otevření."
+"linktitle": "Kontrola ochrany prezentace v Java Slides"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Kontrola ochrany prezentace v Java Slides"
+"url": "/cs/java/presentation-properties/check-presentation-protection-in-java-slides/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zkontrolujte ochranu prezentace v aplikaci Java Slides
+# Kontrola ochrany prezentace v Java Slides
 
 
-## Úvod do kontroly ochrany prezentace v Java Slides
+## Úvod do kontroly ochrany prezentací v aplikaci Java Slides
 
-V tomto tutoriálu prozkoumáme, jak zkontrolovat ochranu prezentace pomocí Aspose.Slides for Java. Pokryjeme dva scénáře: kontrola ochrany proti zápisu a kontrola otevřené ochrany prezentace. Pro každý scénář poskytneme podrobné příklady kódu.
+V tomto tutoriálu se podíváme na to, jak zkontrolovat ochranu prezentace pomocí Aspose.Slides pro Javu. Probereme dva scénáře: kontrolu ochrany proti zápisu a kontrolu ochrany proti otevření prezentace. Pro každý scénář uvedeme podrobné příklady kódu.
 
 ## Předpoklady
 
-Než začneme, ujistěte se, že máte v projektu Java nastavenou knihovnu Aspose.Slides for Java. Můžete si jej stáhnout z webu Aspose a přidat do závislostí svého projektu.
+Než začneme, ujistěte se, že máte ve svém projektu Java nastavenou knihovnu Aspose.Slides for Java. Můžete si ji stáhnout z webových stránek Aspose a přidat ji do závislostí vašeho projektu.
 
-### Závislost na Mavenovi
+### Závislost Mavenu
 
 ```xml
 <dependency>
@@ -32,17 +34,17 @@ Než začneme, ujistěte se, že máte v projektu Java nastavenou knihovnu Aspos
 </dependency>
 ```
 
- Nahradit`your_version_here` s verzí Aspose.Slides for Java, kterou používáte.
+Nahradit `your_version_here` s verzí Aspose.Slides pro Javu, kterou používáte.
 
 ## Krok 1: Zkontrolujte ochranu proti zápisu
 
- Chcete-li zkontrolovat, zda je prezentace chráněna proti zápisu heslem, můžete použít`IPresentationInfo` rozhraní. Zde je kód, jak to udělat:
+Chcete-li zkontrolovat, zda je prezentace chráněna proti zápisu heslem, můžete použít `IPresentationInfo` rozhraní. Zde je kód, který to provede:
 
 ```java
 // Cesta ke zdrojové prezentaci
 String pptxFile = "path_to_presentation.pptx";
 
-// Zkontrolujte heslo ochrany proti zápisu prostřednictvím rozhraní IPresentationInfo
+// Zkontrolujte heslo ochrany proti zápisu pomocí rozhraní IPresentationInfo
 IPresentationInfo presentationInfo = PresentationFactory.getInstance().getPresentationInfo(pptxFile);
 boolean isWriteProtectedByPassword = presentationInfo.isWriteProtected() == NullableBool.True
         && presentationInfo.checkWriteProtection("password_here");
@@ -50,36 +52,36 @@ boolean isWriteProtectedByPassword = presentationInfo.isWriteProtected() == Null
 System.out.println("Is presentation write protected by password = " + isWriteProtectedByPassword);
 ```
 
- Nahradit`"path_to_presentation.pptx"` se skutečnou cestou k souboru prezentace a`"password_here"` s heslem ochrany proti zápisu.
+Nahradit `"path_to_presentation.pptx"` se skutečnou cestou k souboru prezentace a `"password_here"` s heslem na ochranu proti zápisu.
 
-## Krok 2: Zkontrolujte otevřenou ochranu
+## Krok 2: Zkontrolujte ochranu proti otevření
 
- Chcete-li zkontrolovat, zda je prezentace chráněna heslem pro otevření, můžete použít`IPresentationInfo` rozhraní. Zde je kód, jak to udělat:
+Chcete-li zkontrolovat, zda je prezentace chráněna heslem pro otevření, můžete použít `IPresentationInfo` rozhraní. Zde je kód, který to provede:
 
 ```java
 // Cesta ke zdrojové prezentaci
 String pptFile = "path_to_presentation.ppt";
 
-// Zkontrolujte ochranu otevřené prezentace prostřednictvím rozhraní IPresentationInfo
+// Zkontrolujte ochranu před otevřením prezentace pomocí rozhraní IPresentationInfo
 presentationInfo = PresentationFactory.getInstance().getPresentationInfo(pptFile);
 if (presentationInfo.isPasswordProtected()) {
     System.out.println("The presentation is protected by password to open.");
 }
 ```
 
- Nahradit`"path_to_presentation.ppt"` se skutečnou cestou k souboru vaší prezentace.
+Nahradit `"path_to_presentation.ppt"` se skutečnou cestou k souboru prezentace.
 
-## Kompletní zdrojový kód pro kontrolu ochrany prezentace v Java Slides
+## Kompletní zdrojový kód pro kontrolu ochrany prezentací v Java Slides
 
 ```java
 //Cesta k prezentaci zdroje
 String pptxFile = "Your Document Directory";
 String pptFile = "Your Document Directory";
-// Zkontrolujte heslo ochrany proti zápisu prostřednictvím rozhraní IPresentationInfo
+// Zkontrolujte heslo ochrany proti zápisu pomocí rozhraní IPresentationInfo
 IPresentationInfo presentationInfo = PresentationFactory.getInstance().getPresentationInfo(pptxFile);
 boolean isWriteProtectedByPassword = presentationInfo.isWriteProtected() == NullableBool.True && presentationInfo.checkWriteProtection("pass2");
 System.out.println("Is presentation write protected by password = " + isWriteProtectedByPassword);
-// Zkontrolujte heslo ochrany proti zápisu prostřednictvím rozhraní IProtectionManager
+// Zkontrolujte heslo ochrany proti zápisu pomocí rozhraní iProtectionManager
 Presentation presentation = new Presentation();
 try
 {
@@ -90,7 +92,7 @@ finally
 {
 	if (presentation != null) presentation.dispose();
 }
-// Zkontrolujte ochranu otevřené prezentace prostřednictvím rozhraní IPresentationInfo
+// Zkontrolujte ochranu před otevřením prezentace pomocí rozhraní IPresentationInfo
 presentationInfo = PresentationFactory.getInstance().getPresentationInfo(pptFile);
 if (presentationInfo.isPasswordProtected())
 {
@@ -100,28 +102,30 @@ if (presentationInfo.isPasswordProtected())
 
 ## Závěr
 
-tomto tutoriálu jsme se naučili, jak zkontrolovat ochranu prezentace na snímcích Java pomocí Aspose.Slides for Java. Pokryli jsme dva scénáře: kontrola ochrany proti zápisu a kontrola otevřené ochrany. Nyní můžete tyto kontroly integrovat do svých aplikací Java a efektivně zpracovávat chráněné prezentace.
+V tomto tutoriálu jsme se naučili, jak kontrolovat ochranu prezentací v Javě pomocí Aspose.Slides pro Javu. Probrali jsme dva scénáře: kontrolu ochrany proti zápisu a kontrolu ochrany proti otevření. Nyní můžete tyto kontroly integrovat do svých Java aplikací a efektivně zpracovávat chráněné prezentace.
 
-## FAQ
+## Často kladené otázky
 
-### Jak získám Aspose.Slides pro Java?
+### Jak získám Aspose.Slides pro Javu?
 
-Aspose.Slides pro Javu si můžete stáhnout z webu Aspose nebo je přidat jako závislost Maven do vašeho projektu, jak je znázorněno v sekci předpoklady.
+Aspose.Slides pro Javu si můžete stáhnout z webových stránek Aspose nebo jej přidat jako závislost Maven ve vašem projektu, jak je uvedeno v části s požadavky.
 
-### Mohu u prezentace zkontrolovat ochranu proti zápisu i otevřenou ochranu?
+### Mohu u prezentace zaškrtnout ochranu proti zápisu i ochranu proti otevření?
 
-Ano, pomocí poskytnutých příkladů kódu můžete zkontrolovat ochranu proti zápisu i otevřenou ochranu prezentace.
+Ano, pomocí poskytnutých příkladů kódu můžete zkontrolovat ochranu proti zápisu i ochranu proti otevření prezentace.
 
 ### Co mám dělat, když zapomenu ochranné heslo?
 
-Pokud zapomenete heslo pro ochranu prezentace, neexistuje žádný vestavěný způsob, jak jej obnovit. Abyste předešli takovým situacím, nezapomeňte si svá hesla zaznamenat.
+Pokud zapomenete ochranné heslo pro prezentaci, neexistuje žádný vestavěný způsob, jak ho obnovit. Abyste se takovým situacím vyhnuli, nezapomeňte si svá hesla zaznamenat.
 
-### Je Aspose.Slides for Java kompatibilní s nejnovějšími formáty souborů PowerPoint?
+### Je Aspose.Slides pro Javu kompatibilní s nejnovějšími formáty souborů PowerPointu?
 
-Ano, Aspose.Slides for Java podporuje nejnovější formáty souborů PowerPoint, včetně souborů .pptx.
+Ano, Aspose.Slides pro Javu podporuje nejnovější formáty souborů PowerPointu, včetně souborů .pptx.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

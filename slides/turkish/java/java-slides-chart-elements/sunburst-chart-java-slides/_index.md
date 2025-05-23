@@ -1,30 +1,32 @@
 ---
-title: Java Slaytlarında Güneş Patlaması Grafiği
-linktitle: Java Slaytlarında Güneş Patlaması Grafiği
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides ile Java Slaytlarında Çarpıcı Sunburst Grafikleri oluşturun. Adım Adım Grafik Oluşturmayı ve Veri İşlemeyi Öğrenin.
-weight: 16
-url: /tr/java/chart-elements/sunburst-chart-java-slides/
+"description": "Aspose.Slides ile Java Slaytlarında Çarpıcı Sunburst Grafikleri Oluşturun. Adım Adım Grafik Oluşturma ve Veri İşlemeyi Öğrenin."
+"linktitle": "Java Slaytlarında Sunburst Grafiği"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java Slaytlarında Sunburst Grafiği"
+"url": "/tr/java/chart-elements/sunburst-chart-java-slides/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java Slaytlarında Güneş Patlaması Grafiği
+# Java Slaytlarında Sunburst Grafiği
 
 
-## Aspose.Slides ile Java Slaytlarında Sunburst Grafiğine Giriş
+## Java Slaytlarında Aspose.Slides ile Sunburst Grafiğine Giriş
 
-Bu eğitimde Aspose.Slides for Java API'sini kullanarak PowerPoint sunumunda Sunburst grafiğinin nasıl oluşturulacağını öğreneceksiniz. Sunburst grafiği, hiyerarşik verileri temsil etmek için kullanılan radyal bir grafiktir. Kaynak koduyla birlikte adım adım talimatlar sunacağız.
+Bu eğitimde, Aspose.Slides for Java API'sini kullanarak bir PowerPoint sunumunda Sunburst grafiğinin nasıl oluşturulacağını öğreneceksiniz. Sunburst grafiği, hiyerarşik verileri temsil etmek için kullanılan bir radyal grafiktir. Kaynak koduyla birlikte adım adım talimatlar sağlayacağız.
 
-## Önkoşullar
+## Ön koşullar
 
- Başlamadan önce Java projenizde Aspose.Slides for Java kütüphanesinin kurulu ve yapılandırılmış olduğundan emin olun. Kütüphaneyi adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/slides/java/).
+Başlamadan önce, Java projenizde Aspose.Slides for Java kütüphanesinin yüklü ve yapılandırılmış olduğundan emin olun. Kütüphaneyi şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/slides/java/).
 
-## 1. Adım: Gerekli Kitaplıkları İçe Aktarın
+## Adım 1: Gerekli Kitaplıkları İçe Aktarın
 
-Öncelikle Aspose.Slides ile çalışmak için gerekli kütüphaneleri içe aktarın ve Java uygulamanızda bir Sunburst grafiği oluşturun.
+Öncelikle Aspose.Slides ile çalışmak için gerekli kütüphaneleri içeri aktarın ve Java uygulamanızda bir Sunburst grafiği oluşturun.
 
 ```java
 import com.aspose.slides.*;
@@ -32,7 +34,7 @@ import com.aspose.slides.*;
 
 ## Adım 2: Sunumu Başlatın
 
-Bir PowerPoint sunumunu başlatın ve sunum dosyanızın kaydedileceği dizini belirtin.
+Bir PowerPoint sunumu başlatın ve sunum dosyanızın kaydedileceği dizini belirtin.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -41,7 +43,7 @@ Presentation pres = new Presentation(dataDir + "test.pptx");
 
 ## Adım 3: Sunburst Grafiğini Oluşturun
 
-Bir slaytta Sunburst grafiği oluşturun. Grafiğin konumunu (X, Y) ve boyutlarını (genişlik, yükseklik) belirliyoruz.
+Bir slaytta Sunburst grafiği oluşturun. Grafiğin konumunu (X, Y) ve boyutlarını (genişlik, yükseklik) belirtiyoruz.
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Sunburst, 50, 50, 500, 400);
@@ -49,7 +51,7 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Sunbu
 
 ## Adım 4: Grafik Verilerini Hazırlayın
 
-Mevcut tüm kategorileri ve seri verilerini grafikten temizleyin ve grafik için bir veri çalışma kitabı oluşturun.
+Grafikteki mevcut kategorileri ve seri verilerini temizleyin ve grafik için bir veri çalışma kitabı oluşturun.
 
 ```java
 chart.getChartData().getCategories().clear();
@@ -60,7 +62,7 @@ wb.clear(0);
 
 ## Adım 5: Grafik Hiyerarşisini Tanımlayın
 
-Sunburst grafiğinin hiyerarşik yapısını tanımlayın. Dalları, gövdeleri ve yaprakları kategori olarak ekleyebilirsiniz.
+Sunburst grafiğinin hiyerarşik yapısını tanımlayın. Kategoriler olarak dallar, gövdeler ve yapraklar ekleyebilirsiniz.
 
 ```java
 // Şube 1
@@ -99,15 +101,15 @@ series.getDataPoints().addDataPointForSunburstSeries(wb.getCell(0, "D7", 4));
 series.getDataPoints().addDataPointForSunburstSeries(wb.getCell(0, "D8", 3));
 ```
 
-## Adım 7: Sunuyu Kaydet
+## Adım 7: Sunumu Kaydedin
 
-Son olarak sunburst grafiğiyle sunuyu kaydedin.
+Son olarak sunuyu Sunburst grafiğiyle kaydedin.
 
 ```java
 pres.save("Sunburst.pptx", SaveFormat.Pptx);
 ```
 
-## Java Slaytlarındaki Sunburst Grafiği İçin Tam Kaynak Kodu
+## Java Slaytlarında Sunburst Grafiği İçin Tam Kaynak Kodu
 
 ```java
 String dataDir = "Your Document Directory";
@@ -155,28 +157,30 @@ finally
 
 ## Çözüm
 
-Bu eğitimde Aspose.Slides for Java API'sini kullanarak PowerPoint sunumunda Sunburst grafiğinin nasıl oluşturulacağını öğrendiniz. Sunuyu nasıl başlatacağınızı, grafiği nasıl oluşturacağınızı, grafik hiyerarşisini nasıl tanımlayacağınızı, veri noktalarını nasıl ekleyeceğinizi ve sunumu nasıl kaydedeceğinizi gördünüz. Artık bu bilgiyi Java uygulamalarınızda etkileşimli ve bilgilendirici Sunburst grafikleri oluşturmak için kullanabilirsiniz.
+Bu eğitimde, Aspose.Slides for Java API'sini kullanarak bir PowerPoint sunumunda Sunburst grafiğinin nasıl oluşturulacağını öğrendiniz. Sunumu nasıl başlatacağınızı, grafiği nasıl oluşturacağınızı, grafik hiyerarşisini nasıl tanımlayacağınızı, veri noktaları nasıl ekleyeceğinizi ve sunumu nasıl kaydedeceğinizi gördünüz. Artık bu bilgiyi kullanarak Java uygulamalarınızda etkileşimli ve bilgilendirici Sunburst grafikleri oluşturabilirsiniz.
 
-## SSS'ler
+## SSS
 
-### Sunburst grafiğinin görünümünü nasıl özelleştiririm?
+### Sunburst grafiğinin görünümünü nasıl özelleştirebilirim?
 
 Renkler, etiketler ve stiller gibi özellikleri değiştirerek Sunburst grafiğinin görünümünü özelleştirebilirsiniz. Ayrıntılı özelleştirme seçenekleri için Aspose.Slides belgelerine bakın.
 
 ### Grafiğe daha fazla veri noktası ekleyebilir miyim?
 
- Evet, kullanarak grafiğe daha fazla veri noktası ekleyebilirsiniz.`series.getDataPoints().addDataPointForSunburstSeries()` Eklemek istediğiniz her veri noktası için yöntem.
+Evet, grafiğe daha fazla veri noktası eklemek için şunu kullanabilirsiniz: `series.getDataPoints().addDataPointForSunburstSeries()` Dahil etmek istediğiniz her veri noktası için bir yöntem.
 
-### Sunburst grafiğine nasıl araç ipuçları ekleyebilirim?
+### Sunburst grafiğine araç ipuçlarını nasıl ekleyebilirim?
 
-Sunburst grafiğine araç ipuçları eklemek için veri etiketi biçimini, grafik bölümlerinin üzerine geldiğinizde değerler veya açıklamalar gibi ek bilgileri görüntüleyecek şekilde ayarlayabilirsiniz.
+Sunburst grafiğine araç ipuçları eklemek için, grafik segmentlerinin üzerine gelindiğinde değerler veya açıklamalar gibi ek bilgilerin görüntülenmesini sağlayacak şekilde veri etiketi biçimini ayarlayabilirsiniz.
 
-### Köprülerle etkileşimli Sunburst grafikleri oluşturmak mümkün müdür?
+### Bağlantılı etkileşimli Sunburst grafikleri oluşturmak mümkün müdür?
 
-Evet, belirli grafik öğelerine veya bölümlerine köprüler ekleyerek köprülerle etkileşimli Sunburst grafikleri oluşturabilirsiniz. Köprü eklemeyle ilgili ayrıntılar için Aspose.Slides belgelerine bakın.
+Evet, belirli grafik öğelerine veya segmentlerine köprüler ekleyerek köprülerle etkileşimli Sunburst grafikleri oluşturabilirsiniz. Köprüler ekleme hakkında ayrıntılar için Aspose.Slides belgelerine bakın.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

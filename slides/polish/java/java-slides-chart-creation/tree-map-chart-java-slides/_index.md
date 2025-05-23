@@ -1,14 +1,16 @@
 ---
-title: Wykres mapy drzewa w slajdach Java
-linktitle: Wykres mapy drzewa w slajdach Java
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Twórz wykresy mapy drzewa w slajdach Java za pomocą Aspose.Slides dla Java. Przewodnik krok po kroku z kodem źródłowym do wizualizacji danych hierarchicznych.
-weight: 13
-url: /pl/java/chart-creation/tree-map-chart-java-slides/
+"description": "Utwórz wykresy map drzew w slajdach Java przy użyciu Aspose.Slides dla Java. Przewodnik krok po kroku z kodem źródłowym do wizualizacji danych hierarchicznych."
+"linktitle": "Wykres mapy drzewa w slajdach Java"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Wykres mapy drzewa w slajdach Java"
+"url": "/pl/java/chart-creation/tree-map-chart-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wykres mapy drzewa w slajdach Java
@@ -16,13 +18,13 @@ url: /pl/java/chart-creation/tree-map-chart-java-slides/
 
 ## Wprowadzenie do wykresu mapy drzewa w slajdach Java
 
-W tym samouczku pokażemy, jak utworzyć wykres mapy drzewa w prezentacji programu PowerPoint przy użyciu biblioteki Aspose.Slides for Java. Wykresy mapy drzewa to skuteczny sposób wizualizacji danych hierarchicznych.
+W tym samouczku pokażemy, jak utworzyć wykres Tree Map w prezentacji PowerPoint przy użyciu biblioteki Aspose.Slides for Java. Wykresy Tree Map to skuteczny sposób na wizualizację danych hierarchicznych.
 
-## Warunki wstępne
+## Wymagania wstępne
 
-Zanim zaczniesz, upewnij się, że w projekcie Java masz skonfigurowaną bibliotekę Aspose.Slides for Java.
+Zanim zaczniesz, upewnij się, że biblioteka Aspose.Slides for Java jest skonfigurowana w projekcie Java.
 
-## Krok 1: Zaimportuj wymagane biblioteki
+## Krok 1: Importuj wymagane biblioteki
 
 ```java
 import com.aspose.slides.*;
@@ -35,7 +37,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 ```
 
-## Krok 3: Utwórz wykres mapy drzewa
+## Krok 3: Utwórz wykres mapy drzew
 
 ```java
 try {
@@ -45,7 +47,7 @@ try {
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
     wb.clear(0);
 
-    // Utwórz oddział 1
+    // Utwórz gałąź 1
     IChartCategory leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C1", "Leaf1"));
     leaf.getGroupingLevels().setGroupingItem(1, "Stem1");
     leaf.getGroupingLevels().setGroupingItem(2, "Branch1");
@@ -57,7 +59,7 @@ try {
 
     chart.getChartData().getCategories().add(wb.getCell(0, "C4", "Leaf4"));
 
-    // Utwórz oddział 2
+    // Utwórz gałąź 2
     leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C5", "Leaf5"));
     leaf.getGroupingLevels().setGroupingItem(1, "Stem3");
     leaf.getGroupingLevels().setGroupingItem(2, "Branch2");
@@ -84,14 +86,14 @@ try {
 
     series.setParentLabelLayout(ParentLabelLayoutType.Overlapping);
 
-    // Zapisz prezentację z wykresem Mapy Drzewa
+    // Zapisz prezentację z wykresem mapy drzewa
     pres.save("Treemap.pptx", SaveFormat.Pptx);
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
 
-## Kompletny kod źródłowy wykresu mapy drzewa w slajdach Java
+## Kompletny kod źródłowy dla wykresu mapy drzewa w slajdach Java
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
@@ -139,28 +141,30 @@ finally
 
 ## Wniosek
 
-W tym samouczku nauczyłeś się tworzyć wykres mapy drzewa w prezentacji programu PowerPoint przy użyciu biblioteki Aspose.Slides for Java. Wykresy mapy drzewa są cennym narzędziem do wizualizacji danych hierarchicznych, dzięki czemu Twoje prezentacje są bardziej pouczające i wciągające.
+W tym samouczku nauczyłeś się, jak utworzyć wykres Tree Map w prezentacji PowerPoint przy użyciu biblioteki Aspose.Slides for Java. Wykresy Tree Map są cennym narzędziem do wizualizacji danych hierarchicznych, dzięki czemu Twoje prezentacje są bardziej pouczające i angażujące.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
 ### Jak dodać dane do wykresu mapy drzewa?
 
- Aby dodać dane do wykresu Mapy Drzewa, użyj opcji`series.getDataPoints().addDataPointForTreemapSeries()` metodę, przekazując wartości danych jako parametry.
+Aby dodać dane do wykresu mapy drzewa, użyj `series.getDataPoints().addDataPointForTreemapSeries()` metoda, przekazując wartości danych jako parametry.
 
 ### Jak mogę dostosować wygląd wykresu mapy drzewa?
 
- Możesz dostosować wygląd wykresu mapy drzewa, modyfikując różne właściwości pliku`chart` I`series`obiektów, takich jak kolory, etykiety i układy.
+Możesz dostosować wygląd wykresu mapy drzewa, modyfikując różne właściwości `chart` I `series` obiekty, takie jak kolory, etykiety i układy.
 
-### Czy mogę utworzyć wiele wykresów mapy drzewa w jednej prezentacji?
+### Czy mogę utworzyć wiele wykresów Tree Map w jednej prezentacji?
 
-Tak, możesz utworzyć wiele wykresów Mapy Drzewa w jednej prezentacji, wykonując te same kroki i określając różne pozycje slajdów.
+Tak, możesz utworzyć wiele wykresów mapy drzewa w jednej prezentacji, wykonując te same kroki i określając różne pozycje slajdów.
 
-### Jak zapisać prezentację z wykresem Mapy Drzewa?
+### Jak zapisać prezentację z wykresem mapy drzewa?
 
- Użyj`pres.save()` metoda zapisania prezentacji z wykresem Mapy Drzewa w żądanym formacie (np. PPTX).
+Użyj `pres.save()` metoda zapisywania prezentacji z wykresem Mapy Drzewa w wybranym formacie (np. PPTX).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

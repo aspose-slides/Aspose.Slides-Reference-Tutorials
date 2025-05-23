@@ -1,85 +1,87 @@
 ---
-title: Képletek kiszámítása a Java Slides-ben
-linktitle: Képletek kiszámítása a Java Slides-ben
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan számíthat ki képleteket a Java Slides programban az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskóddal dinamikus PowerPoint prezentációkhoz.
-weight: 10
-url: /hu/java/data-manipulation/calculate-formulas-java-slides/
+"description": "Tanuld meg, hogyan számíthatsz ki képleteket Java Slides-ben az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskóddal dinamikus PowerPoint-bemutatókhoz."
+"linktitle": "Képletek kiszámítása Java diákban"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Képletek kiszámítása Java diákban"
+"url": "/hu/java/data-manipulation/calculate-formulas-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Képletek kiszámítása a Java Slides-ben
+# Képletek kiszámítása Java diákban
 
 
-## Bevezetés a képletek kiszámításába Java Slides-ben az Aspose.Slides használatával
+## Bevezetés a Java diákban használt képletek kiszámításába az Aspose.Slides használatával
 
-Ebben az útmutatóban bemutatjuk, hogyan lehet képleteket kiszámítani a Java Slides alkalmazásban az Aspose.Slides for Java API használatával. Az Aspose.Slides egy hatékony könyvtár a PowerPoint-prezentációkkal való munkavégzéshez, és olyan funkciókat kínál, amelyek segítségével diagramokat lehet kezelni és képletszámításokat végezni a diákon belül.
+Ebben az útmutatóban bemutatjuk, hogyan számíthatunk ki képleteket Java Slides-ban az Aspose.Slides for Java API használatával. Az Aspose.Slides egy hatékony függvénykönyvtár PowerPoint-bemutatókkal való munkához, és funkciókat biztosít diagramok kezeléséhez és képletszámítások elvégzéséhez a diákon belül.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következőkkel:
+Mielőtt elkezdené, győződjön meg arról, hogy a következőkkel rendelkezik:
 
 - Java fejlesztői környezet
--  Aspose.Slides for Java könyvtár (letöltheti a[itt](https://releases.aspose.com/slides/java/)
-- Java programozási alapismeretek
+- Aspose.Slides Java könyvtárhoz (Letöltheti innen: [itt](https://releases.aspose.com/slides/java/)
+- Alapvető Java programozási ismeretek
 
-## 1. lépés: Hozzon létre egy új prezentációt
+## 1. lépés: Új prezentáció létrehozása
 
-Először hozzunk létre egy új PowerPoint-prezentációt, és adjunk hozzá egy diát. Ebben a példában egyetlen diával fogunk dolgozni.
+Először is hozzunk létre egy új PowerPoint bemutatót, és adjunk hozzá egy diát. Ebben a példában egyetlen diával fogunk dolgozni.
 
 ```java
 String resultPath = "Your Output Directory" + "CalculateFormulas_out.pptx";
 Presentation presentation = new Presentation();
 ```
 
-## 2. lépés: Adjon hozzá egy diagramot a diához
+## 2. lépés: Diagram hozzáadása a diához
 
-Most adjunk hozzá egy fürtözött oszlopdiagramot a diához. Ezt a diagramot használjuk a képletszámítások bemutatására.
+Most adjunk hozzá egy csoportos oszlopdiagramot a diához. Ezt a diagramot fogjuk használni a képletszámítások bemutatására.
 
 ```java
 IChart s_chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);
 ```
 
-## 3. lépés: Állítsa be a képleteket és az értékeket
+## 3. lépés: Képletek és értékek beállítása
 
-Ezután az Aspose.Slides API segítségével képleteket és értékeket állítunk be a diagram adatcelláihoz. Kiszámoljuk ezeknek a celláknak a képleteit.
+Ezután az Aspose.Slides API segítségével beállítjuk a diagram adatcelláinak képleteit és értékeit. Kiszámítjuk a cellák képleteit.
 
 ```java
 IChartDataWorkbook workbook = s_chart.getChartData().getChartDataWorkbook();
 
-// Állítsa be a képletet az A1 cellához
+// Képlet beállítása az A1 cellához
 IChartDataCell cell = workbook.getCell(0, "A1");
 cell.setFormula("ABS(A2) + MAX(B2:C2)");
 
-// Állítsa be az A2 cella értékét
+// Az A2 cella értékének beállítása
 workbook.getCell(0, "A2").setValue(-1);
 workbook.calculateFormulas();
 
-// Állítsa be a képletet a B2 cellához
+// Képlet beállítása a B2 cellához
 workbook.getCell(0, "B2").setFormula("2");
 workbook.calculateFormulas();
 
-// Állítsa be a képletet a C2 cellához
+// Képlet beállítása a C2 cellához
 workbook.getCell(0, "C2").setFormula("A2 + 4");
 workbook.calculateFormulas();
 
-// Állítsa be újra az A1 cella képletét
+// Az A1 cella képletének újbóli beállítása
 cell.setFormula("MAX(2:2)");
 workbook.calculateFormulas();
 ```
 
-## 4. lépés: Mentse el a bemutatót
+## 4. lépés: Mentse el a prezentációt
 
-Végül mentsük el a módosított prezentációt a kiszámított képletekkel.
+Végül mentsük el a módosított prezentációt a számított képletekkel.
 
 ```java
 presentation.save(resultPath, SaveFormat.Pptx);
 ```
 
-## Teljes forráskód a Java Slides képletek kiszámításához
+## Teljes forráskód a Java diák képleteinek kiszámításához
 
 ```java
 String resultPath = "Your Output Directory" + "CalculateFormulas_out.pptx";
@@ -105,25 +107,27 @@ try {
 
 ## Következtetés
 
-Ebben az útmutatóban megtanultuk, hogyan lehet képleteket kiszámítani a Java Slides programban az Aspose.Slides for Java segítségével. Létrehoztunk egy új prezentációt, hozzáadtunk egy diagramot, képleteket és értékeket állítottunk be a diagram adatcelláihoz, és elmentettük a prezentációt a kiszámított képletekkel.
+Ebben az útmutatóban megtanultuk, hogyan számíthatunk ki képleteket Java diákban az Aspose.Slides for Java használatával. Létrehoztunk egy új prezentációt, hozzáadtunk egy diagramot, beállítottuk a képleteket és értékeket a diagram adatcelláihoz, majd mentettük a prezentációt a kiszámított képletekkel.
 
 ## GYIK
 
-### Hogyan állíthatok be képleteket diagram adatcellákhoz?
+### Hogyan állíthatok be képleteket a diagram adatcelláihoz?
 
- A diagram adatcellákhoz képleteket állíthat be a`setFormula` a metódusa`IChartDataCell` az Aspose-ban.Diák.
+A diagram adatcelláihoz képleteket állíthat be a következő használatával: `setFormula` módszer `IChartDataCell` az Aspose.Slides-ban.
 
 ### Hogyan állíthatok be értékeket a diagram adatcelláihoz?
 
- A diagram adatcellák értékét a segítségével állíthatja be`setValue` a metódusa`IChartDataCell` az Aspose-ban.Diák.
+diagram adatcelláinak értékeit a következővel állíthatja be: `setValue` módszer `IChartDataCell` az Aspose.Slides-ban.
 
-### Hogyan számíthatok ki képleteket a munkafüzetben?
+### Hogyan számolhatok ki képleteket egy munkafüzetben?
 
- Képleteket számíthat ki egy munkafüzetben a`calculateFormulas` a metódusa`IChartDataWorkbook` az Aspose-ban.Diák.
+A munkafüzetben képleteket számolhat ki a következővel: `calculateFormulas` módszer `IChartDataWorkbook` az Aspose.Slides-ban.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,25 +1,27 @@
 ---
-title: जावा का उपयोग करके PowerPoint में आस्पेक्ट रेशियो लॉक करें
-linktitle: जावा का उपयोग करके PowerPoint में आस्पेक्ट रेशियो लॉक करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides के साथ जावा का उपयोग करके PowerPoint प्रस्तुतियों में पहलू अनुपात को लॉक करना सीखें। स्लाइड डिज़ाइन पर सटीक नियंत्रण चाहने वाले जावा डेवलपर्स के लिए बिल्कुल सही।
-weight: 16
-url: /hi/java/java-powerpoint-table-manipulation/lock-aspect-ratio-powerpoint-java/
+"description": "Aspose.Slides के साथ जावा का उपयोग करके PowerPoint प्रस्तुतियों में पहलू अनुपात को लॉक करना सीखें। स्लाइड डिज़ाइन पर सटीक नियंत्रण चाहने वाले जावा डेवलपर्स के लिए बिल्कुल सही।"
+"linktitle": "जावा का उपयोग करके PowerPoint में आस्पेक्ट रेशियो लॉक करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा का उपयोग करके PowerPoint में आस्पेक्ट रेशियो लॉक करें"
+"url": "/hi/java/java-powerpoint-table-manipulation/lock-aspect-ratio-powerpoint-java/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा का उपयोग करके PowerPoint में आस्पेक्ट रेशियो लॉक करें
 
 ## परिचय
-जावा विकास के क्षेत्र में, PowerPoint प्रस्तुतियों को प्रोग्रामेटिक रूप से हेरफेर करने से वर्कफ़्लो को सुव्यवस्थित किया जा सकता है और उत्पादकता में उल्लेखनीय वृद्धि हो सकती है। Aspose.Slides for Java जावा डेवलपर्स के लिए स्लाइड्स को संशोधित करने, सामग्री जोड़ने और सीधे जावा कोड से फ़ॉर्मेटिंग लागू करने जैसे कार्यों को स्वचालित करने के लिए एक मजबूत टूलकिट प्रदान करता है। यह ट्यूटोरियल PowerPoint प्रस्तुति प्रबंधन के एक मूलभूत पहलू पर केंद्रित है: पहलू अनुपात को लॉक करना।
+जावा विकास के क्षेत्र में, PowerPoint प्रस्तुतियों को प्रोग्रामेटिक रूप से हेरफेर करने से वर्कफ़्लो को सुव्यवस्थित किया जा सकता है और उत्पादकता में उल्लेखनीय वृद्धि हो सकती है। Aspose.Slides for Java जावा डेवलपर्स के लिए एक मजबूत टूलकिट प्रदान करता है, जिससे स्लाइड को संशोधित करने, सामग्री जोड़ने और सीधे जावा कोड से फ़ॉर्मेटिंग लागू करने जैसे कार्यों को स्वचालित किया जा सकता है। यह ट्यूटोरियल PowerPoint प्रस्तुति प्रबंधन के एक मूलभूत पहलू पर केंद्रित है: पहलू अनुपात को लॉक करना।
 ## आवश्यक शर्तें
 इस ट्यूटोरियल में आगे बढ़ने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 - जावा प्रोग्रामिंग का बुनियादी ज्ञान.
 - आपकी मशीन पर जावा डेवलपमेंट किट (JDK) स्थापित है।
--  Aspose.Slides for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+- Aspose.Slides for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 - एकीकृत विकास वातावरण (आईडीई) जैसे कि इंटेलीज आईडिया या एक्लिप्स की स्थापना।
 
 ## पैकेज आयात करें
@@ -64,12 +66,14 @@ pres.save(dataDir + "pres-out.pptx", SaveFormat.Pptx);
 ### क्या Aspose.Slides for Java एंटरप्राइज़-स्तरीय अनुप्रयोगों के लिए उपयुक्त है?
 हां, Aspose.Slides for Java को एंटरप्राइज़ अनुप्रयोगों में जटिल परिदृश्यों को प्रभावी ढंग से संभालने के लिए डिज़ाइन किया गया है।
 ### यदि मुझे Aspose.Slides for Java में कोई समस्या आती है तो मुझे सहायता कहां से मिल सकती है?
- आप Aspose.Slides समुदाय से सहायता ले सकते हैं[यहाँ](https://forum.aspose.com/c/slides/11).
+आप Aspose.Slides समुदाय से सहायता ले सकते हैं [यहाँ](https://forum.aspose.com/c/slides/11).
 ### खरीदने से पहले मैं Aspose.Slides for Java को कैसे आज़मा सकता हूँ?
- आप निःशुल्क परीक्षण संस्करण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
+आप निःशुल्क परीक्षण संस्करण प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

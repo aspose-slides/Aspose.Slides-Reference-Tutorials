@@ -1,30 +1,32 @@
 ---
-title: Automatikus kördiagram szeletszínek beállítása a Java diákban
-linktitle: Automatikus kördiagram szeletszínek beállítása a Java diákban
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan hozhat létre dinamikus kördiagramokat automatikus szeletszínekkel Java PowerPoint prezentációkban az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskóddal.
-weight: 24
-url: /hu/java/data-manipulation/setting-automatic-pie-chart-slice-colors-java-slides/
+"description": "Tanuld meg, hogyan hozhatsz létre dinamikus kördiagramokat automatikus szeletszínekkel Java PowerPoint prezentációkban az Aspose.Slides for Java használatával. Lépésről lépésre útmutató forráskóddal."
+"linktitle": "Automatikus kördiagram szeletek színeinek beállítása Java diákban"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Automatikus kördiagram szeletek színeinek beállítása Java diákban"
+"url": "/hu/java/data-manipulation/setting-automatic-pie-chart-slice-colors-java-slides/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Automatikus kördiagram szeletszínek beállítása a Java diákban
+# Automatikus kördiagram szeletek színeinek beállítása Java diákban
 
 
-## Bevezetés az automatikus kördiagram szeletszínek beállításába a Java diákban
+## Bevezetés a kördiagram szeletek színeinek automatikus beállításába Java diákban
 
-Ebben az oktatóanyagban megvizsgáljuk, hogyan hozhatunk létre kördiagramot egy PowerPoint-prezentációban az Aspose.Slides for Java használatával, és hogyan állíthatunk be automatikus szeletszíneket a diagramhoz. Lépésről lépésre útmutatást adunk a forráskóddal együtt.
+Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan hozhatsz létre kördiagramot egy PowerPoint bemutatóban az Aspose.Slides for Java segítségével, és hogyan állíthatsz be automatikus szeletszíneket a diagramhoz. Lépésről lépésre útmutatást és forráskódot is biztosítunk.
 
 ## Előfeltételek
 
- Mielőtt elkezdené, győződjön meg arról, hogy az Aspose.Slides for Java könyvtár telepítve van és be van állítva a Java projektben. A könyvtár letölthető az Aspose weboldaláról:[Az Aspose.Slides letöltése Java-hoz](https://releases.aspose.com/slides/java/).
+Mielőtt elkezdenéd, győződj meg róla, hogy az Aspose.Slides for Java könyvtár telepítve és beállítva van a Java projektedben. A könyvtárat letöltheted az Aspose weboldaláról: [Aspose.Slides letöltése Java-hoz](https://releases.aspose.com/slides/java/).
 
-## 1. lépés: Importálja a szükséges csomagokat
+## 1. lépés: Szükséges csomagok importálása
 
-Először is importálnia kell a szükséges csomagokat az Aspose.Slides for Java alkalmazásból:
+Először importálnod kell a szükséges csomagokat az Aspose.Slides for Java-ból:
 
 ```java
 import com.aspose.slides.ChartType;
@@ -37,16 +39,16 @@ import com.aspose.slides.NullableBool;
 import com.aspose.slides.charts.IChartDataWorkbook;
 ```
 
-## 2. lépés: Hozzon létre egy PowerPoint-bemutatót
+## 2. lépés: PowerPoint-bemutató létrehozása
 
- Példányosítsa a`Presentation` osztályban új PowerPoint prezentáció létrehozásához:
+Példányosítsa a `Presentation` osztály új PowerPoint prezentáció létrehozásához:
 
 ```java
 String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation();
 ```
 
-## 3. lépés: Adjon hozzá egy diát
+## 3. lépés: Dia hozzáadása
 
 Nyissa meg a prezentáció első diáját, és adjon hozzá egy diagramot az alapértelmezett adatokkal:
 
@@ -55,9 +57,9 @@ ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
-## 4. lépés: Állítsa be a diagram címét
+## 4. lépés: Diagram címének beállítása
 
-Adja meg a diagram címét:
+Adjon meg egy címet a diagramnak:
 
 ```java
 chart.getChartTitle().addTextFrameForOverriding("Sample Title");
@@ -66,7 +68,7 @@ chart.getChartTitle().setHeight(20);
 chart.setTitle(true);
 ```
 
-## 5. lépés: A diagramadatok konfigurálása
+## 5. lépés: Diagramadatok konfigurálása
 
 Állítsa be a diagramot az első sorozat értékeinek megjelenítésére, és konfigurálja a diagram adatait:
 
@@ -91,9 +93,9 @@ chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
 ```
 
-## 7. lépés: Töltse fel a sorozatadatokat
+## 7. lépés: Sorozatadatok feltöltése
 
-Töltse fel a kördiagram sorozatadatait:
+Töltse ki a kördiagram sorozatadatait:
 
 ```java
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
@@ -101,56 +103,56 @@ series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 ```
 
-## 8. lépés: Engedélyezze a Változatos szeletszíneket
+## 8. lépés: Változatos szeletszínek engedélyezése
 
-Változatos szeletszínek engedélyezése a kördiagramhoz:
+Különböző szeletszínek engedélyezése a kördiagramhoz:
 
 ```java
 series.getParentSeriesGroup().setColorVaried(true);
 ```
 
-## 9. lépés: Mentse el a bemutatót
+## 9. lépés: Mentse el a prezentációt
 
-Végül mentse a prezentációt egy PowerPoint fájlba:
+Végül mentse el a prezentációt egy PowerPoint fájlba:
 
 ```java
 presentation.save(dataDir + "Pie.pptx", SaveFormat.Pptx);
 ```
 
-## Teljes forráskód az automatikus kördiagram szeletszínek beállításához a Java diákban
+## Teljes forráskód a kördiagram szeletek színeinek automatikus beállításához Java diákban
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
 String dataDir = "Your Document Directory";
-// Példányosítási osztály, amely a PPTX fájlt képviseli
+// PPTX fájlt reprezentáló megjelenítési osztály példányosítása
 Presentation presentation = new Presentation();
 try
 {
-	// Hozzáférés az első diához
+	// Első dia elérése
 	ISlide slides = presentation.getSlides().get_Item(0);
 	// Diagram hozzáadása alapértelmezett adatokkal
 	IChart chart = slides.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
-	// Beállítási diagram Cím
+	// Beállítási táblázat címe
 	chart.getChartTitle().addTextFrameForOverriding("Sample Title");
 	chart.getChartTitle().getTextFrameForOverriding().getTextFrameFormat().setCenterText(NullableBool.True);
 	chart.getChartTitle().setHeight(20);
 	chart.setTitle(true);
-	// Az első sorozat beállítása Értékek megjelenítése
+	// Az első sorozat beállítása az Értékek megjelenítése lehetőségre
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// Diagram adatlap indexének beállítása
 	int defaultWorksheetIndex = 0;
-	// A diagram adatlapjának lekérése
+	// A diagramadatok munkalapjának beszerzése
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
-	// Törölje az alapértelmezett generált sorozatokat és kategóriákat
+	// Alapértelmezetten generált sorozatok és kategóriák törlése
 	chart.getChartData().getSeries().clear();
 	chart.getChartData().getCategories().clear();
 	// Új kategóriák hozzáadása
 	chart.getChartData().getCategories().add(fact.getCell(0, 1, 0, "First Qtr"));
 	chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 	chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
-	// Új sorozat hozzáadása
+	// Új sorozatok hozzáadása
 	IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-	// Most a sorozatadatok feltöltése
+	// Most feltöltjük a sorozat adatait
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -165,48 +167,50 @@ finally
 
 ## Következtetés
 
-Sikeresen létrehozott egy kördiagramot egy PowerPoint-prezentációban az Aspose.Slides for Java használatával, és konfigurálta azt, hogy automatikus szeletszíneket használjon. Ez a lépésenkénti útmutató biztosítja az ehhez szükséges forráskódot. Szükség szerint tovább testreszabhatja a diagramot és a prezentációt.
+Sikeresen létrehoztál egy kördiagramot egy PowerPoint bemutatóban az Aspose.Slides for Java segítségével, és beállítottad, hogy automatikus szeletszínek legyenek rajta. Ez a lépésenkénti útmutató biztosítja a szükséges forráskódot ehhez. Szükség szerint tovább testreszabhatod a diagramot és a bemutatót.
 
 ## GYIK
 
-### Hogyan szabhatom testre a kördiagram egyes szeleteinek színét?
+### Hogyan tudom testreszabni az egyes szeletek színét a kördiagramban?
 
- A kördiagram egyes szeleteinek színének testreszabásához használhatja a`getAutomaticSeriesColors` módszerrel lekérheti az alapértelmezett színsémát, majd szükség szerint módosíthatja a színeket. Íme egy példa:
+A kördiagram egyes szeleteinek színeinek testreszabásához használhatja a `getAutomaticSeriesColors` metódus az alapértelmezett színséma lekéréséhez, majd a színek szükség szerinti módosításához. Íme egy példa:
 
 ```java
-//Szerezze be az alapértelmezett színsémát
+// Az alapértelmezett színséma beszerzése
 IColorFormatCollection colors = chart.getChartData().getSeries().get_Item(0).getAutomaticSeriesColors();
 
-// Szükség szerint módosítsa a színeket
-colors.get_Item(0).setColor(Color.RED); // Az első szelet színét állítsa pirosra
-colors.get_Item(1).setColor(Color.BLUE); // A második szelet színét állítsa kékre
-// Igény szerint adjon hozzá további színmódosításokat
+// Módosítsa a színeket szükség szerint
+colors.get_Item(0).setColor(Color.RED); // Az első szelet színét állítsd pirosra
+colors.get_Item(1).setColor(Color.BLUE); // A második szelet színét állítsd kékre
+// Szükség szerint további színmódosításokat végezhet
 ```
 
 ### Hogyan adhatok hozzá jelmagyarázatot a kördiagramhoz?
 
- Jelmagyarázat hozzáadásához a kördiagramhoz használhatja a`getLegend` módszert, és állítsa be a következőképpen:
+A kördiagramhoz jelmagyarázat hozzáadásához használhatja a `getLegend` metódust, és konfigurálja a következőképpen:
 
 ```java
 ILegend legend = chart.getLegend();
-legend.setPosition(LegendPositionType.Right); // Állítsa be a jelmagyarázat pozícióját
-legend.setOverlay(true); // Jelenítse meg a jelmagyarázatot a diagramon
+legend.setPosition(LegendPositionType.Right); // Jelmagyarázat pozíciójának beállítása
+legend.setOverlay(true); // Jelmagyarázat megjelenítése a diagram felett
 ```
 
-### Módosíthatom a cím betűtípusát és stílusát?
+### Meg lehet változtatni a cím betűtípusát és stílusát?
 
-Igen, módosíthatja a cím betűtípusát és stílusát. A cím betűtípusának és stílusának beállításához használja a következő kódot:
+Igen, megváltoztathatod a cím betűtípusát és stílusát. Használd a következő kódot a cím betűtípusának és stílusának beállításához:
 
 ```java
 chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().setFontHeight(20); // Betűméret beállítása
-chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().setFontBold(NullableBool.True); // Tegye félkövérre a címet
-chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().setFontItalic(NullableBool.True); // Tegye a címet dőlt betűvel
+chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().setFontBold(NullableBool.True); // Tedd a címet félkövérré
+chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().setFontItalic(NullableBool.True); // A cím legyen dőlt betűs
 ```
 
-Szükség szerint módosíthatja a betűméretet, a vastagságot és a dőlt stílust.
+Szükség szerint módosíthatja a betűméretet, a félkövérséget és a dőlt stílust.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

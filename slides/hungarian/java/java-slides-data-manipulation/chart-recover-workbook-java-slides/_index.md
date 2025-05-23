@@ -1,37 +1,39 @@
 ---
-title: Chart Recover Workbook Java Slides
-linktitle: Chart Recover Workbook Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan állíthat helyre munkafüzeteket a Java Slides diagramjaiból az Aspose.Slides segítségével. Útmutató lépésről lépésre a PowerPoint automatizálásához.
-weight: 17
-url: /hu/java/data-manipulation/chart-recover-workbook-java-slides/
+"description": "Tanuld meg, hogyan állíthatsz vissza munkafüzeteket diagramokból Java Slides-ban az Aspose.Slides segítségével. Lépésről lépésre útmutató a PowerPoint automatizálásához."
+"linktitle": "Diagram-helyreállítási munkafüzet Java diákban"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Diagram-helyreállítási munkafüzet Java diákban"
+"url": "/hu/java/data-manipulation/chart-recover-workbook-java-slides/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Chart Recover Workbook Java Slides
+# Diagram-helyreállítási munkafüzet Java diákban
 
 
-## Bevezetés a Chart Recover munkafüzetbe Java Slides-ben
+## Bevezetés a Java diavetítési munkafüzetbe
 
-Amikor PowerPoint-prezentációkkal dolgozik Java nyelven, előfordulhat, hogy olyan helyzetekkel találkozhat, amikor a munkafüzet adatait diagramból kell visszaállítani. Ez döntő feladat lehet, különösen adatvezérelt prezentációk esetén. Az Aspose.Slides for Java leegyszerűsíti ezt a folyamatot, és ebben az útmutatóban bemutatjuk, hogyan kell ezt megtenni.
+Amikor Java nyelven PowerPoint-bemutatókkal dolgozik, előfordulhat, hogy olyan helyzetekbe kell kerülnie, amikor munkafüzet-adatokat kell visszaállítania egy diagramból. Ez egy kulcsfontosságú feladat lehet, különösen adatvezérelt prezentációk esetén. Az Aspose.Slides Java-ban leegyszerűsíti ezt a folyamatot, és ebben az útmutatóban megmutatjuk, hogyan teheti ezt meg.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
 
-- Java Development Kit (JDK) telepítve a rendszerére.
--  Aspose.Slides for Java könyvtár. Letöltheti innen[itt](https://releases.aspose.com/slides/java/).
+- Java fejlesztőkészlet (JDK) telepítve van a rendszerére.
+- Aspose.Slides Java könyvtárhoz. Letöltheted innen: [itt](https://releases.aspose.com/slides/java/).
 
 ## 1. lépés: A projekt beállítása
 
-Hozzon létre egy új Java-projektet kedvenc Integrated Development Environment-ben (IDE), és adja hozzá az Aspose.Slides for Java könyvtárat projektje függőségeihez.
+Hozz létre egy új Java projektet a kedvenc integrált fejlesztői környezetedben (IDE), és add hozzá az Aspose.Slides for Java könyvtárat a projekted függőségeihez.
 
 ## 2. lépés: A szükséges osztályok importálása
 
-Java kódjában importálja a szükséges osztályokat az Aspose.Slides for Java fájlból:
+A Java kódodban importáld a szükséges osztályokat az Aspose.Slides for Java fájlból:
 
 ```java
 import com.aspose.slides.*;
@@ -39,7 +41,7 @@ import com.aspose.slides.*;
 
 ## 3. lépés: A prezentáció betöltése
 
-Töltse be a PowerPoint bemutatót, amely tartalmazza azt a diagramot, amelyről a munkafüzet adatait helyre szeretné állítani:
+Töltse be azt a PowerPoint bemutatót, amely tartalmazza azt a diagramot, amelyből vissza szeretné állítani a munkafüzet adatait:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -50,16 +52,16 @@ lo.getSpreadsheetOptions().setRecoverWorkbookFromChartCache(true);
 Presentation pres = new Presentation(pptxFile, lo);
 ```
 
-## 4. lépés: Hozzáférés a diagramadatokhoz
+## 4. lépés: A diagramadatok elérése
 
-Most hozzáférhet a diagramadatokhoz, és helyreállíthatja a munkafüzetet:
+Most már hozzáférhet a diagram adataihoz és helyreállíthatja a munkafüzetet:
 
 ```java
 try
 {
     IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
-    // Itt hajtsa végre a műveleteket a munkafüzet adataival
+    // Végezzen műveleteket a munkafüzet adatain itt
     pres.save(outPptxFile, SaveFormat.Pptx);
 }
 finally
@@ -68,7 +70,7 @@ finally
 }
 ```
 
-## A diagram-helyreállítási munkafüzet teljes forráskódja a Java Slides-ben
+## Teljes forráskód a Java diákban található diagram-helyreállítási munkafüzethez
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
@@ -92,32 +94,34 @@ finally
 
 ## Következtetés
 
-Ebben az útmutatóban végigvezettük a munkafüzet helyreállításának folyamatát a Java Slides diagramjából az Aspose.Slides for Java használatával. Ez a könyvtár leegyszerűsíti a feladatot, és megkönnyíti a fejlesztők számára a PowerPoint-prezentációk programozott munkáját. Most már magabiztosan kezelheti az adatvezérelt prezentációkat, és szükség szerint kinyerheti a munkafüzet-információkat.
+Ebben az útmutatóban végigvezettük egy munkafüzet diagramból történő helyreállításának folyamatán Java Slides-ban az Aspose.Slides for Java használatával. Ez a függvénytár leegyszerűsíti a feladatot, megkönnyítve a fejlesztők számára a PowerPoint-bemutatók programozott kezelését. Mostantól magabiztosan kezelheti az adatvezérelt prezentációkat, és szükség szerint kinyerheti a munkafüzet adatait.
 
 ## GYIK
 
-### Hogyan telepíthetem az Aspose.Slides for Java programot?
+### Hogyan telepíthetem az Aspose.Slides-t Java-hoz?
 
- Az Aspose.Slides for Java könnyen telepíthető, ha letölti a könyvtárat a címen található webhelyről[itt](https://releases.aspose.com/slides/java/). Kövesse a mellékelt telepítési utasításokat a Java projektbe való integrálásához.
+Az Aspose.Slides Java-hoz könnyen telepíthető a könyvtár letöltésével a következő weboldalról: [itt](https://releases.aspose.com/slides/java/)Kövesd a mellékelt telepítési utasításokat a Java-projektedbe való integráláshoz.
 
-### Visszaállíthatom a munkafüzet adatait a PowerPoint prezentáció bármely diagramjáról?
+### Visszaállíthatom a munkafüzet adatait egy PowerPoint-bemutatóban található diagramokból?
 
-Igen, visszaállíthatja a munkafüzet adatait bármely PowerPoint-prezentáció diagramjáról, ha rendelkezik az Aspose.Slides for Java könyvtárral, és a diagram elérhető a prezentáción belül. A mellékelt kódrészlet bemutatja, hogyan lehet ezt elérni.
+Igen, a PowerPoint-bemutatókban található bármely diagramból visszaállíthatók a munkafüzet adatai, amennyiben rendelkezik az Aspose.Slides for Java könyvtárral, és a diagram elérhető a bemutatón belül. A mellékelt kódrészlet bemutatja, hogyan lehet ezt elérni.
 
-### Vannak további lehetőségek a diagramadatokkal való munkavégzéshez az Aspose.Slides for Java használatával?
+### Vannak további lehetőségek a diagramadatokkal való munkához az Aspose.Slides for Java használatával?
 
-Igen, az Aspose.Slides for Java lehetőségek széles skáláját kínálja a diagramadatokkal való munkavégzéshez. Módosíthatja a diagram tulajdonságait, lekérheti az adatpontokat, és különféle műveleteket hajthat végre a diagramokon, hogy megfeleljen sajátos követelményeinek.
+Igen, az Aspose.Slides Java-ban számos lehetőséget kínál a diagramadatokkal való munkához. Kezelheti a diagram tulajdonságait, lekérheti az adatpontokat, és különféle műveleteket végezhet a diagramokon az Ön igényeinek megfelelően.
 
-### Az Aspose.Slides for Java alkalmas a professzionális PowerPoint automatizálásra?
+### Alkalmas az Aspose.Slides Java-hoz professzionális PowerPoint automatizáláshoz?
 
-Teljesen! Az Aspose.Slides for Java egy hatékony könyvtár a PowerPoint-feladatok automatizálására, így alkalmas mind az alapvető, mind a haladó professzionális felhasználási esetekre. Kiterjedt szolgáltatásokat kínál a PowerPoint prezentációk programozott létrehozásához, módosításához és kezeléséhez.
+Abszolút! Az Aspose.Slides Java-hoz egy hatékony könyvtár a PowerPoint-feladatok automatizálásához, így mind az alapvető, mind a haladó professzionális felhasználási esetekre alkalmas. Kiterjedt funkciókat kínál PowerPoint-bemutatók programozott létrehozásához, módosításához és kezeléséhez.
 
-### Hogyan férhetek hozzá az Aspose.Slides for Java további dokumentációjához?
+### Hogyan férhetek hozzá további dokumentációhoz az Aspose.Slides for Java-hoz?
 
- Az Aspose.Slides for Java részletes dokumentációjához és hivatkozásaiért keresse fel a dokumentációs oldalt a címen[itt](https://reference.aspose.com/slides/java/).
+Az Aspose.Slides Java-hoz készült részletes dokumentációjáért és referenciáiért látogassa meg a dokumentációs oldalt a következő címen: [itt](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

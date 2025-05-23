@@ -1,33 +1,35 @@
 ---
-title: แปลงเป็น PDF ด้วย Progress Update ใน Java Slides
-linktitle: แปลงเป็น PDF ด้วย Progress Update ใน Java Slides
-second_title: Aspose.Slides Java PowerPoint การประมวลผล API
-description: แปลง PowerPoint เป็น PDF ด้วยการอัปเดตความคืบหน้าใน Java โดยใช้ Aspose.Slides สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมซอร์สโค้ดและการติดตามความคืบหน้าเพื่อการแปลงที่ราบรื่น
-weight: 36
-url: /th/java/presentation-conversion/convert-pdf-progress-update-java-slides/
+"description": "แปลง PowerPoint เป็น PDF ด้วย Progress Updates ใน Java โดยใช้ Aspose.Slides สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับและการติดตามความคืบหน้าเพื่อการแปลงที่ราบรื่น"
+"linktitle": "แปลงเป็น PDF ด้วย Progress Update ใน Java Slides"
+"second_title": "API การประมวลผล Java PowerPoint ของ Aspose.Slides"
+"title": "แปลงเป็น PDF ด้วย Progress Update ใน Java Slides"
+"url": "/th/java/presentation-conversion/convert-pdf-progress-update-java-slides/"
+"weight": 36
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แปลงเป็น PDF ด้วย Progress Update ใน Java Slides
 
 
-## ข้อมูลเบื้องต้นเกี่ยวกับการแปลง PowerPoint เป็น PDF พร้อมการอัปเดตความคืบหน้าใน Java โดยใช้ Aspose.Slides สำหรับ Java
+## บทนำสู่การแปลง PowerPoint เป็น PDF พร้อมการอัปเดตความคืบหน้าใน Java โดยใช้ Aspose.Slides สำหรับ Java
 
-ในคำแนะนำทีละขั้นตอนนี้ เราจะสาธิตวิธีการแปลงงานนำเสนอ PowerPoint (PPTX) เป็นไฟล์ PDF ใน Java โดยใช้ Aspose.Slides สำหรับ Java นอกจากนี้ เราจะรวมการอัปเดตความคืบหน้าระหว่างกระบวนการแปลงด้วย
+ในคู่มือทีละขั้นตอนนี้ เราจะสาธิตวิธีการแปลงงานนำเสนอ PowerPoint (PPTX) เป็นไฟล์ PDF ใน Java โดยใช้ Aspose.Slides สำหรับ Java นอกจากนี้ เราจะรวมการอัปเดตความคืบหน้าระหว่างกระบวนการแปลงด้วย
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่คุณจะเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+ก่อนที่คุณจะเริ่มต้น โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
-- ตั้งค่าสภาพแวดล้อมการพัฒนา Java
--  เพิ่ม Aspose.Slides สำหรับไลบรารี Java ในโครงการของคุณ คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://downloads.aspose.com/slides/java).
+- การตั้งค่าสภาพแวดล้อมการพัฒนา Java
+- เพิ่มไลบรารี Aspose.Slides สำหรับ Java ลงในโปรเจ็กต์ของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://downloads-aspose.com/slides/java).
 
-## ขั้นตอนที่ 1: นำเข้า Aspose.Slides สำหรับ Java Library
+## ขั้นตอนที่ 1: นำเข้า Aspose.Slides สำหรับไลบรารี Java
 
-ในการเริ่มต้น คุณต้องนำเข้าไลบรารี Aspose.Slides ไปยังโปรเจ็กต์ Java ของคุณ ตรวจสอบให้แน่ใจว่าคุณได้เพิ่มไฟล์ Aspose.Slides JAR ลงใน classpath ของคุณแล้ว
+ในการเริ่มต้น คุณต้องนำเข้าไลบรารี Aspose.Slides เข้าสู่โปรเจ็กต์ Java ของคุณ ตรวจสอบให้แน่ใจว่าคุณได้เพิ่มไฟล์ JAR ของ Aspose.Slides ลงในคลาสพาธของคุณแล้ว
 
 ```java
 import com.aspose.slides.*;
@@ -35,7 +37,7 @@ import com.aspose.slides.*;
 
 ## ขั้นตอนที่ 2: สร้างคลาส Java
 
- สร้างคลาส Java ที่คุณจะทำการแปลง PowerPoint เป็น PDF มาตั้งชื่อกันเถอะ`PowerPointToPdfConverter`.
+สร้างคลาส Java ที่คุณจะทำการแปลง PowerPoint เป็น PDF มาตั้งชื่อกัน `PowerPointToPdfConverter`-
 
 ```java
 public class PowerPointToPdfConverter {
@@ -54,9 +56,9 @@ public class PowerPointToPdfConverter {
 }
 ```
 
-## ขั้นตอนที่ 3: ใช้การเรียกกลับความคืบหน้า
+## ขั้นตอนที่ 3: นำ Progress Callback มาใช้
 
- เราจะใช้ตัวจัดการการโทรกลับความคืบหน้าเพื่อรับการอัปเดตระหว่างกระบวนการแปลง มาสร้างคลาสที่ชื่อว่า`ExportProgressHandler` เพื่อจุดประสงค์นี้.
+เราจะใช้ตัวจัดการการเรียกกลับความคืบหน้าเพื่อรับการอัพเดตระหว่างกระบวนการแปลง มาสร้างคลาสที่มีชื่อว่า `ExportProgressHandler` เพื่อจุดประสงค์นี้
 
 ```java
 class ExportProgressHandler implements IProgressCallback {
@@ -70,13 +72,13 @@ class ExportProgressHandler implements IProgressCallback {
 
 ## ขั้นตอนที่ 4: แทนที่ 'ไดเรกทอรีเอกสารของคุณ'
 
- แทนที่`"Your Document Directory"` ใน`PowerPointToPdfConverter` คลาสพร้อมเส้นทางจริงไปยังไฟล์ PowerPoint ของคุณและไดเร็กทอรีเอาต์พุตที่ต้องการ
+แทนที่ `"Your Document Directory"` ใน `PowerPointToPdfConverter` คลาสที่มีเส้นทางจริงไปยังไฟล์ PowerPoint ของคุณและไดเร็กทอรีเอาต์พุตที่ต้องการ
 
 ## ขั้นตอนที่ 5: คอมไพล์และรัน
 
-คอมไพล์คลาส Java ของคุณและรันไฟล์`PowerPointToPdfConverter` ระดับ. มันจะแปลงงานนำเสนอ PowerPoint เป็นไฟล์ PDF ในขณะที่ให้การอัปเดตความคืบหน้าในคอนโซล
+คอมไพล์คลาส Java ของคุณและรัน `PowerPointToPdfConverter` คลาสนี้จะแปลงการนำเสนอ PowerPoint เป็นไฟล์ PDF พร้อมทั้งอัปเดตความคืบหน้าในคอนโซล
 
-## กรอกซอร์สโค้ดสำหรับการแปลงเป็น PDF พร้อมอัปเดตความคืบหน้าใน Java Slides
+## โค้ดต้นฉบับสมบูรณ์สำหรับการแปลงเป็น PDF พร้อม Progress Update ใน Java Slides
 
 ```java
         // เส้นทางไปยังไดเร็กทอรีเอกสาร
@@ -105,29 +107,31 @@ class ExportProgressHandler implements IProgressCallback
 
 ## บทสรุป
 
-ในคำแนะนำทีละขั้นตอนนี้ เราได้ศึกษาวิธีแปลงงานนำเสนอ PowerPoint (PPTX) เป็นไฟล์ PDF ใน Java โดยใช้ Aspose.Slides สำหรับ Java นอกจากนี้เรายังใช้การอัปเดตความคืบหน้าในระหว่างกระบวนการแปลงเพื่อติดตามสถานะของการดำเนินการ
+ในคู่มือทีละขั้นตอนนี้ เราได้ศึกษาวิธีการแปลงงานนำเสนอ PowerPoint (PPTX) เป็นไฟล์ PDF ใน Java โดยใช้ Aspose.Slides สำหรับ Java นอกจากนี้ เราได้ดำเนินการอัปเดตความคืบหน้าในระหว่างกระบวนการแปลงเพื่อติดตามสถานะของการดำเนินการ
 
 ## คำถามที่พบบ่อย
 
-### ฉันจะดาวน์โหลด Aspose.Slides สำหรับ Java ได้อย่างไร
+### ฉันจะดาวน์โหลด Aspose.Slides สำหรับ Java ได้อย่างไร?
 
- คุณสามารถดาวน์โหลด Aspose.Slides สำหรับ Java ได้จากเว็บไซต์ Aspose ที่[ที่นี่](https://downloads.aspose.com/slides/java).
+คุณสามารถดาวน์โหลด Aspose.Slides สำหรับ Java ได้จากเว็บไซต์ Aspose ได้ที่ [ที่นี่](https://downloads-aspose.com/slides/java).
 
-###  มีจุดประสงค์อะไร.`IProgressCallback`?
+### จุดประสงค์ของการคืออะไร `IProgressCallback`-
 
-`IProgressCallback` เป็นอินเทอร์เฟซที่ Aspose.Slides สำหรับ Java จัดทำขึ้นเพื่อใช้การรายงานความคืบหน้าระหว่างการดำเนินการส่งออก ช่วยให้คุณสามารถติดตามความคืบหน้าของงานต่างๆ เช่น การแปลงงานนำเสนอเป็น PDF
+`IProgressCallback` เป็นอินเทอร์เฟซที่ Aspose.Slides จัดทำขึ้นสำหรับ Java เพื่อใช้ในการรายงานความคืบหน้าระหว่างการดำเนินการส่งออก อินเทอร์เฟซนี้ช่วยให้คุณติดตามความคืบหน้าของงานต่างๆ เช่น การแปลงงานนำเสนอเป็น PDF
 
 ### ฉันสามารถใช้ Aspose.Slides สำหรับ Java สำหรับการดำเนินการ PowerPoint อื่นๆ ได้หรือไม่
 
-ใช่ Aspose.Slides สำหรับ Java มีฟังก์ชันการทำงานที่ครอบคลุมสำหรับการทำงานกับงานนำเสนอ PowerPoint รวมถึงการสร้าง การแก้ไข และการแปลงเป็นรูปแบบต่างๆ
+ใช่ Aspose.Slides สำหรับ Java มีฟังก์ชันมากมายสำหรับการทำงานกับงานนำเสนอ PowerPoint รวมถึงการสร้าง แก้ไข และแปลงเป็นรูปแบบต่างๆ
 
-### ฉันจะปรับแต่งตัวเลือกการแปลง PDF ได้อย่างไร
+### ฉันจะปรับแต่งตัวเลือกการแปลง PDF ได้อย่างไร?
 
- คุณสามารถปรับแต่งตัวเลือกการแปลง PDF ได้โดยการแก้ไข`PdfOptions` วัตถุก่อนที่จะเรียก`presentation.save` วิธี. ซึ่งรวมถึงการตั้งค่าคุณสมบัติ เช่น ขนาดหน้า คุณภาพ และอื่นๆ
+คุณสามารถปรับแต่งตัวเลือกการแปลง PDF ได้โดยการแก้ไข `PdfOptions` วัตถุก่อนที่จะเรียกใช้ `presentation.save` วิธีการนี้ รวมถึงการตั้งค่าคุณสมบัติ เช่น ขนาดหน้า คุณภาพ และอื่นๆ
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

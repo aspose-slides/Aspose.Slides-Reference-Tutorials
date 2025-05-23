@@ -1,20 +1,22 @@
 ---
-title: Bagan Kotak di Slide Java
-linktitle: Bagan Kotak di Slide Java
-second_title: Aspose.Slides API Pemrosesan Java PowerPoint
-description: Pelajari cara membuat Bagan Kotak dalam presentasi Java dengan Aspose.Slides. Panduan langkah demi langkah dan kode sumber disertakan untuk visualisasi data yang efektif.
-weight: 10
-url: /id/java/chart-elements/box-chart-java-slides/
+"description": "Pelajari cara membuat Bagan Kotak dalam presentasi Java dengan Aspose.Slides. Panduan langkah demi langkah dan kode sumber disertakan untuk visualisasi data yang efektif."
+"linktitle": "Bagan Kotak dalam Slide Java"
+"second_title": "API Pemrosesan PowerPoint Java Aspose.Slides"
+"title": "Bagan Kotak dalam Slide Java"
+"url": "/id/java/chart-elements/box-chart-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Bagan Kotak di Slide Java
+# Bagan Kotak dalam Slide Java
 
 
-## Pengantar Bagan Kotak di Aspose.Slide untuk Java
+## Pengenalan Bagan Kotak di Aspose.Slides untuk Java
 
 Dalam tutorial ini, kami akan memandu Anda melalui proses pembuatan Bagan Kotak menggunakan Aspose.Slides untuk Java. Bagan kotak berguna untuk memvisualisasikan data statistik dengan berbagai kuartil dan outlier. Kami akan memberikan petunjuk langkah demi langkah beserta kode sumber untuk membantu Anda memulai.
 
@@ -22,7 +24,7 @@ Dalam tutorial ini, kami akan memandu Anda melalui proses pembuatan Bagan Kotak 
 
 Sebelum memulai, pastikan Anda memiliki hal berikut:
 
-- Aspose.Slides untuk perpustakaan Java diinstal dan dikonfigurasi.
+- Aspose.Slides untuk pustaka Java terinstal dan dikonfigurasi.
 - Lingkungan pengembangan Java telah disiapkan.
 
 ## Langkah 1: Inisialisasi Presentasi
@@ -32,7 +34,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 ```
 
-Pada langkah ini, kita menginisialisasi objek presentasi menggunakan jalur ke file PowerPoint yang ada ("test.pptx" dalam contoh ini).
+Pada langkah ini, kami menginisialisasi objek presentasi menggunakan jalur ke file PowerPoint yang ada ("test.pptx" dalam contoh ini).
 
 ## Langkah 2: Buat Bagan Kotak
 
@@ -43,7 +45,7 @@ try {
     chart.getChartData().getSeries().clear();
 ```
 
-Pada langkah ini, kita membuat bentuk Bagan Kotak pada slide pertama presentasi. Kami juga menghapus semua kategori dan rangkaian yang ada dari bagan.
+Pada langkah ini, kita membuat bentuk Bagan Kotak pada slide pertama presentasi. Kita juga menghapus kategori dan seri yang ada dari bagan.
 
 ## Langkah 3: Tentukan Kategori
 
@@ -58,7 +60,7 @@ Pada langkah ini, kita membuat bentuk Bagan Kotak pada slide pertama presentasi.
     chart.getChartData().getCategories().add(wb.getCell(0, "A6", "Category 1"));
 ```
 
- Pada langkah ini, kita menentukan kategori untuk Bagan Kotak. Kami menggunakan`IChartDataWorkbook` untuk menambahkan kategori dan memberi label yang sesuai.
+Pada langkah ini, kami mendefinisikan kategori untuk Bagan Kotak. Kami menggunakan `IChartDataWorkbook` untuk menambahkan kategori dan memberinya label sesuai kebutuhan.
 
 ## Langkah 4: Buat Seri
 
@@ -71,9 +73,9 @@ Pada langkah ini, kita membuat bentuk Bagan Kotak pada slide pertama presentasi.
     series.setShowOutlierPoints(true);
 ```
 
-Di sini, kita membuat rangkaian BoxAndWhisker untuk bagan dan mengonfigurasi berbagai opsi seperti metode kuartil, garis rata-rata, penanda rata-rata, titik dalam, dan titik outlier.
+Di sini, kami membuat seri BoxAndWhisker untuk bagan dan mengonfigurasi berbagai opsi seperti metode kuartil, garis rata-rata, penanda rata-rata, titik dalam, dan titik outlier.
 
-## Langkah 5: Tambahkan Poin Data
+## Langkah 5: Tambahkan Titik Data
 
 ```java
     series.getDataPoints().addDataPointForBoxAndWhiskerSeries(wb.getCell(0, "B1", 15));
@@ -84,7 +86,7 @@ Di sini, kita membuat rangkaian BoxAndWhisker untuk bagan dan mengonfigurasi ber
     series.getDataPoints().addDataPointForBoxAndWhiskerSeries(wb.getCell(0, "B6", 16));
 ```
 
-Pada langkah ini, kami menambahkan titik data ke seri BoxAndWhisker. Titik data ini mewakili data statistik untuk grafik.
+Pada langkah ini, kami menambahkan titik data ke seri BoxAndWhisker. Titik data ini mewakili data statistik untuk diagram.
 
 ## Langkah 6: Simpan Presentasi
 
@@ -95,11 +97,11 @@ Pada langkah ini, kami menambahkan titik data ke seri BoxAndWhisker. Titik data 
 }
 ```
 
-Terakhir, kami menyimpan presentasi dengan Box Chart ke file PowerPoint baru bernama "BoxAndWhisker.pptx."
+Terakhir, kami menyimpan presentasi dengan Bagan Kotak ke file PowerPoint baru bernama "BoxAndWhisker.pptx."
 
 Selamat! Anda telah berhasil membuat Bagan Kotak menggunakan Aspose.Slides untuk Java. Anda dapat menyesuaikan bagan lebih lanjut dengan menyesuaikan berbagai properti dan menambahkan lebih banyak titik data sesuai kebutuhan.
 
-## Kode Sumber Lengkap Untuk Bagan Kotak di Slide Java
+## Source Code Lengkap Untuk Box Chart di Java Slides
 
 ```java
 String dataDir = "Your Document Directory";
@@ -139,24 +141,26 @@ finally
 
 ## Kesimpulan
 
-Dalam tutorial ini, kita telah mempelajari cara membuat Bagan Kotak menggunakan Aspose.Slides untuk Java. Bagan Kotak adalah alat yang berharga untuk memvisualisasikan data statistik, termasuk kuartil dan outlier. Kami menyediakan panduan langkah demi langkah bersama dengan kode sumber untuk membantu Anda mulai membuat Bagan Kotak di aplikasi Java Anda.
+Dalam tutorial ini, kita telah mempelajari cara membuat Bagan Kotak menggunakan Aspose.Slides untuk Java. Bagan Kotak merupakan alat yang berharga untuk memvisualisasikan data statistik, termasuk kuartil dan outlier. Kami menyediakan panduan langkah demi langkah beserta kode sumber untuk membantu Anda memulai membuat Bagan Kotak di aplikasi Java Anda.
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
 ### Bagaimana cara mengubah tampilan Bagan Kotak?
 
 Anda dapat menyesuaikan tampilan Bagan Kotak dengan memodifikasi properti seperti gaya garis, warna, dan font. Lihat dokumentasi Aspose.Slides untuk Java untuk detail tentang penyesuaian bagan.
 
-### Bisakah saya menambahkan rangkaian data tambahan ke Bagan Kotak?
+### Bisakah saya menambahkan seri data tambahan ke Bagan Kotak?
 
- Ya, Anda dapat menambahkan beberapa seri data ke Bagan Kotak dengan membuat tambahan`IChartSeries` objek dan menambahkan titik data ke dalamnya.
+Ya, Anda dapat menambahkan beberapa seri data ke Bagan Kotak dengan membuat tambahan `IChartSeries` objek dan menambahkan titik data ke dalamnya.
 
-### Apa yang dimaksud dengan QuartileMethodType.Exclusive?
+### Apa arti QuartileMethodType.Exclusive?
 
- Itu`QuartileMethodType.Exclusive` pengaturan menetapkan bahwa penghitungan kuartil harus dilakukan menggunakan metode eksklusif. Anda dapat memilih metode penghitungan kuartil yang berbeda bergantung pada data dan kebutuhan Anda.
+Itu `QuartileMethodType.Exclusive` Pengaturan menentukan bahwa perhitungan kuartil harus dilakukan menggunakan metode eksklusif. Anda dapat memilih metode perhitungan kuartil yang berbeda tergantung pada data dan kebutuhan Anda.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

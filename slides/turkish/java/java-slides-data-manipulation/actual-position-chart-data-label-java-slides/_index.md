@@ -1,14 +1,16 @@
 ---
-title: Java Slaytlarında Grafik Veri Etiketinin Gerçek Konumunu Alın
-linktitle: Java Slaytlarında Grafik Veri Etiketinin Gerçek Konumunu Alın
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides for Java'yı kullanarak Java Slides'ta grafik veri etiketlerinin gerçek konumunu nasıl alacağınızı öğrenin. Kaynak koduyla adım adım kılavuz.
-weight: 18
-url: /tr/java/data-manipulation/actual-position-chart-data-label-java-slides/
+"description": "Java Slaytlarında grafik veri etiketlerinin gerçek konumunu Aspose.Slides for Java kullanarak nasıl alacağınızı öğrenin. Kaynak kodlu adım adım kılavuz."
+"linktitle": "Java Slaytlarında Grafik Veri Etiketinin Gerçek Konumunu Alın"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java Slaytlarında Grafik Veri Etiketinin Gerçek Konumunu Alın"
+"url": "/tr/java/data-manipulation/actual-position-chart-data-label-java-slides/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java Slaytlarında Grafik Veri Etiketinin Gerçek Konumunu Alın
@@ -16,18 +18,18 @@ url: /tr/java/data-manipulation/actual-position-chart-data-label-java-slides/
 
 ## Java Slaytlarında Grafik Veri Etiketinin Gerçek Konumunu Almaya Giriş
 
-Bu eğitimde Aspose.Slides for Java'yı kullanarak grafik veri etiketlerinin gerçek konumunu nasıl alacağınızı öğreneceksiniz. Grafik içeren bir PowerPoint sunumu oluşturan, veri etiketlerini özelleştiren ve ardından bu veri etiketlerinin konumlarını temsil eden şekiller ekleyen bir Java programı oluşturacağız.
+Bu eğitimde, Java için Aspose.Slides kullanarak grafik veri etiketlerinin gerçek konumunu nasıl alacağınızı öğreneceksiniz. Grafik içeren bir PowerPoint sunumu oluşturan, veri etiketlerini özelleştiren ve ardından bu veri etiketlerinin konumlarını temsil eden şekiller ekleyen bir Java programı oluşturacağız.
 
-## Önkoşullar
+## Ön koşullar
 
-Başlamadan önce Java projenizde Aspose.Slides for Java kütüphanesinin kurulu olduğundan emin olun.
+Başlamadan önce, Java projenizde Aspose.Slides for Java kütüphanesinin kurulu olduğundan emin olun.
 
-## 1. Adım: PowerPoint Sunusu Oluşturun
+## Adım 1: Bir PowerPoint Sunumu Oluşturun
 
-Öncelikle yeni bir PowerPoint sunusu oluşturalım ve ona bir grafik ekleyelim. Grafiğin veri etiketlerini öğreticinin ilerleyen kısımlarında özelleştireceğiz.
+Öncelikle yeni bir PowerPoint sunumu oluşturalım ve ona bir grafik ekleyelim. Grafiğin veri etiketlerini eğitimin ilerleyen kısımlarında özelleştireceğiz.
 
 ```java
-// Belgeler dizininin yolu.
+// Belgeler dizinine giden yol.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 try {
@@ -38,8 +40,8 @@ try {
 }
 ```
 
-## 2. Adım: Veri Etiketlerini Özelleştirin
-Şimdi grafik serisi için veri etiketlerini özelleştirelim. Konumlarını belirleyip değerlerini göstereceğiz.
+## Adım 2: Veri Etiketlerini Özelleştirin
+Şimdi, grafik serileri için veri etiketlerini özelleştirelim. Konumlarını ayarlayıp değerleri göstereceğiz.
 
 ```java
 try {
@@ -54,8 +56,8 @@ try {
 }
 ```
 
-## 3. Adım: Veri Etiketlerinin Gerçek Konumunu Alın
-Bu adımda grafik serisinin veri noktalarını yineleyeceğiz ve değeri 4'ten büyük olan veri etiketlerinin gerçek konumunu alacağız. Daha sonra bu konumları temsil etmek için elipsler ekleyeceğiz.
+## Adım 3: Veri Etiketlerinin Gerçek Pozisyonunu Alın
+Bu adımda, grafik serisinin veri noktaları arasında yineleme yapacağız ve 4'ten büyük bir değere sahip veri etiketlerinin gerçek konumunu alacağız. Daha sonra bu konumları temsil etmek için elipsler ekleyeceğiz.
 
 ```java
 try {
@@ -79,7 +81,7 @@ try {
 }
 ```
 
-## 4. Adım: Sunuyu Kaydetme
+## Adım 4: Sunumu Kaydedin
 Son olarak oluşturulan sunumu bir dosyaya kaydedin.
 
 ```java
@@ -91,10 +93,10 @@ try {
 }
 ```
 
-## Java Slaytlarında Grafik Veri Etiketinin Gerçek Konumunu Almak için Kaynak Kodunu Tamamlayın
+## Java Slaytlarında Grafik Veri Etiketinin Gerçek Konumunu Almak İçin Tam Kaynak Kodu
 
 ```java
-// Belgeler dizininin yolu.
+// Belgeler dizinine giden yol.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 try
@@ -118,7 +120,7 @@ try
 				float h = point.getLabel().getActualHeight();
 				IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Ellipse, x, y, w, h);
 				shape.getFillFormat().setFillType(FillType.Solid);
-				shape.getFillFormat().getSolidFillColor().setColor(com.aspose.cells.Color.fromArgb(100, 0, 255, 0).d());//YAPMAK
+				shape.getFillFormat().getSolidFillColor().setColor(com.aspose.cells.Color.fromArgb(100, 0, 255, 0).d());//Yapılacaklar
 			}
 		}
 	}
@@ -132,13 +134,13 @@ finally
 
 ## Çözüm
 
-Bu eğitimde, Aspose.Slides for Java'yı kullanarak Java Slides'daki grafik veri etiketlerinin gerçek konumunu nasıl alacağınızı öğrendiniz. Artık bu bilgiyi PowerPoint sunumlarınızı özelleştirilmiş veri etiketleri ve konumlarının görsel temsilleriyle geliştirmek için kullanabilirsiniz.
+Bu eğitimde, Java Slaytlarında grafik veri etiketlerinin gerçek konumunu Aspose.Slides for Java kullanarak nasıl alacağınızı öğrendiniz. Artık bu bilgiyi, PowerPoint sunumlarınızı özelleştirilmiş veri etiketleri ve konumlarının görsel gösterimleriyle geliştirmek için kullanabilirsiniz.
 
-## SSS'ler
+## SSS
 
 ### Bir grafikteki veri etiketlerini nasıl özelleştirebilirim?
 
- Bir grafikteki veri etiketlerini özelleştirmek için`setDefaultDataLabelFormat` Grafik serisindeki yöntemi kullanın ve konum ve görünürlük gibi özellikleri ayarlayın. Örneğin:
+Bir grafikteki veri etiketlerini özelleştirmek için şunu kullanabilirsiniz: `setDefaultDataLabelFormat` grafik serisindeki yöntemi ve konum ve görünürlük gibi özellikleri ayarlayın. Örneğin:
 ```java
 for (IChartSeries series : chart.getChartData().getSeries()) {
     series.getLabels().getDefaultDataLabelFormat().setPosition(LegendDataLabelPosition.OutsideEnd);
@@ -146,9 +148,9 @@ for (IChartSeries series : chart.getChartData().getSeries()) {
 }
 ```
 
-### Veri etiketi konumlarını temsil edecek şekilleri nasıl ekleyebilirim?
+### Veri etiketi konumlarını temsil etmek için şekilleri nasıl ekleyebilirim?
 
- Bir grafik serisinin veri noktalarını yineleyebilir ve`getActualX`, `getActualY`, `getActualWidth` , Ve`getActualHeight`Konumunu almak için veri etiketinin yöntemleri. Daha sonra, kullanarak şekiller ekleyebilirsiniz.`addAutoShape` yöntem. İşte bir örnek:
+Bir grafik serisinin veri noktaları arasında yineleme yapabilir ve `getActualX`, `getActualY`, `getActualWidth`, Ve `getActualHeight` veri etiketinin konumunu almak için yöntemler. Daha sonra, kullanarak şekiller ekleyebilirsiniz `addAutoShape` yöntem. İşte bir örnek:
 ```java
 float x = point.getLabel().getActualX();
 float y = point.getLabel().getActualY();
@@ -159,13 +161,15 @@ IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Elli
 
 ### Oluşturulan sunumu nasıl kaydedebilirim?
 
- Oluşturulan sunumu kullanarak kaydedebilirsiniz.`save` yöntem. İstediğiniz dosya yolunu ve`SaveFormat` parametreler olarak. Örneğin:
+Oluşturulan sunuyu kullanarak kaydedebilirsiniz. `save` yöntem. İstenilen dosya yolunu ve `SaveFormat` parametre olarak. Örneğin:
 ```java
 pres.save(dataDir + "GetActualPositionOFChartDatalabel.pptx", SaveFormat.Pptx);
 ```
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

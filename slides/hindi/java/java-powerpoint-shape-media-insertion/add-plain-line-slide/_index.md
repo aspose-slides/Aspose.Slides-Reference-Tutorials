@@ -1,14 +1,16 @@
 ---
-title: स्लाइड में सादी लाइन जोड़ें
-linktitle: स्लाइड में सादी लाइन जोड़ें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके प्रोग्रामेटिक रूप से PowerPoint स्लाइड में एक सादी लाइन जोड़ना सीखें। इस चरण-दर-चरण मार्गदर्शिका के साथ अपनी उत्पादकता बढ़ाएँ।
-weight: 14
-url: /hi/java/java-powerpoint-shape-media-insertion/add-plain-line-slide/
+"description": "Aspose.Slides for Java का उपयोग करके प्रोग्रामेटिक रूप से PowerPoint स्लाइड में एक सादी लाइन जोड़ना सीखें। इस चरण-दर-चरण मार्गदर्शिका के साथ अपनी उत्पादकता बढ़ाएँ।"
+"linktitle": "स्लाइड में सादी लाइन जोड़ें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "स्लाइड में सादी लाइन जोड़ें"
+"url": "/hi/java/java-powerpoint-shape-media-insertion/add-plain-line-slide/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # स्लाइड में सादी लाइन जोड़ें
@@ -32,9 +34,9 @@ import com.aspose.slides.ShapeType;
 import java.io.File;
 ```
 ## चरण 1: वातावरण सेट करें
- सबसे पहले, एक नया जावा प्रोजेक्ट बनाएं और अपने प्रोजेक्ट के क्लासपाथ में Aspose.Slides for Java लाइब्रेरी जोड़ें। आप लाइब्रेरी को यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+सबसे पहले, एक नया जावा प्रोजेक्ट बनाएं और अपने प्रोजेक्ट के क्लासपाथ में Aspose.Slides for Java लाइब्रेरी जोड़ें। आप लाइब्रेरी को यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 ## चरण 2: एक नई प्रस्तुति बनाएँ
- इसके बाद, उदाहरण बनाएं`Presentation` एक नया पावरपॉइंट प्रेजेंटेशन बनाने के लिए क्लास का उपयोग करें।
+इसके बाद, उदाहरण बनाएं `Presentation` एक नया पावरपॉइंट प्रेजेंटेशन बनाने के लिए क्लास का उपयोग करें।
 ```java
 Presentation pres = new Presentation();
 ```
@@ -67,10 +69,12 @@ pres.save("Your Document Directory/LineShape1_out.pptx", SaveFormat.Pptx);
 ### क्या मैं लाइन आकार के साथ स्लाइड में पाठ भी जोड़ सकता हूँ?
 हां, आप Aspose.Slides API का उपयोग करके स्लाइड में टेक्स्ट, चित्र और अन्य सामग्री जोड़ सकते हैं।
 ### क्या Aspose.Slides के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
- हां, आप Aspose.Slides का निःशुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप Aspose.Slides का निःशुल्क परीक्षण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: प्रस्तुतियों में गणितीय पैराग्राफ़ को MathML में निर्यात करें
-linktitle: प्रस्तुतियों में गणितीय पैराग्राफ़ को MathML में निर्यात करें
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: .NET के लिए Aspose.Slides का उपयोग करके गणित पैराग्राफ़ को MathML में निर्यात करके अपनी प्रस्तुतियों को बेहतर बनाएँ। सटीक गणितीय रेंडरिंग के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें। Aspose.Slides डाउनलोड करें और आज ही आकर्षक प्रस्तुतियाँ बनाना शुरू करें।
-weight: 14
-url: /hi/net/presentation-manipulation/export-math-paragraphs-to-mathml-in-presentations/
+"description": ".NET के लिए Aspose.Slides का उपयोग करके गणित पैराग्राफ़ को MathML में निर्यात करके अपनी प्रस्तुतियों को बेहतर बनाएँ। सटीक गणितीय रेंडरिंग के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें। Aspose.Slides डाउनलोड करें और आज ही आकर्षक प्रस्तुतियाँ बनाना शुरू करें।"
+"linktitle": "प्रस्तुतियों में गणितीय पैराग्राफ़ को MathML में निर्यात करें"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "प्रस्तुतियों में गणितीय पैराग्राफ़ को MathML में निर्यात करें"
+"url": "/hi/net/presentation-manipulation/export-math-paragraphs-to-mathml-in-presentations/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # प्रस्तुतियों में गणितीय पैराग्राफ़ को MathML में निर्यात करें
@@ -22,7 +24,7 @@ url: /hi/net/presentation-manipulation/export-math-paragraphs-to-mathml-in-prese
 
 ## 2. अपना विकास वातावरण स्थापित करना
 
- आरंभ करने के लिए, सुनिश्चित करें कि आपके विकास परिवेश में Aspose.Slides for .NET स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/net/)एक बार इंस्टॉल हो जाने पर, आप जाने के लिए तैयार हैं।
+आरंभ करने के लिए, सुनिश्चित करें कि आपके विकास परिवेश में Aspose.Slides for .NET स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/net/)एक बार इंस्टॉल हो जाने पर, आप जाने के लिए तैयार हैं।
 
 ## 3. प्रेजेंटेशन बनाना
 
@@ -37,7 +39,7 @@ using (Presentation pres = new Presentation())
     var autoShape = pres.Slides[0].Shapes.AddMathShape(0, 0, 500, 50);
     var mathParagraph = ((MathPortion) autoShape.TextFrame.Paragraphs[0].Portions[0]).MathParagraph;
 
-    // अपनी गणितीय सामग्री यहां जोड़ें
+    // अपनी गणितीय सामग्री यहाँ जोड़ें
 
     using (Stream stream = new FileStream(outSvgFileName, FileMode.Create))
         mathParagraph.WriteAsMathMl(stream);
@@ -52,7 +54,7 @@ using (Presentation pres = new Presentation())
 
 एक बार जब आप अपनी गणितीय सामग्री जोड़ लेते हैं, तो इसे MathML में निर्यात करने का समय आ जाता है। हमारे द्वारा प्रदान किया गया कोड एक MathML फ़ाइल बनाएगा, जिससे इसे आपकी प्रस्तुतियों में एकीकृत करना आसान हो जाएगा।
 
-## 6। निष्कर्ष
+## 6. निष्कर्ष
 
 इस ट्यूटोरियल में, हमने .NET के लिए Aspose.Slides का उपयोग करके गणित पैराग्राफ़ को MathML में निर्यात करने का तरीका खोजा है। यह शक्तिशाली लाइब्रेरी आपके प्रस्तुतियों में जटिल गणितीय सामग्री जोड़ने की प्रक्रिया को सरल बनाती है, जिससे आपको आकर्षक और जानकारीपूर्ण स्लाइड बनाने की सुविधा मिलती है।
 
@@ -60,15 +62,15 @@ using (Presentation pres = new Presentation())
 
 ### प्रश्न 1: क्या .NET के लिए Aspose.Slides का उपयोग निःशुल्क है?
 
- नहीं, Aspose.Slides for .NET एक व्यावसायिक लाइब्रेरी है। आप लाइसेंसिंग जानकारी और मूल्य निर्धारण पा सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+नहीं, Aspose.Slides for .NET एक व्यावसायिक लाइब्रेरी है। आप लाइसेंसिंग जानकारी और मूल्य निर्धारण पा सकते हैं [यहाँ](https://purchase.aspose.com/buy).
 
 ### प्रश्न 2: क्या मैं खरीदने से पहले .NET के लिए Aspose.Slides आज़मा सकता हूँ?
 
- हां, आप निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप निःशुल्क परीक्षण प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### प्रश्न 3: मैं .NET के लिए Aspose.Slides का समर्थन कैसे प्राप्त कर सकता हूं?
 
- सहायता के लिए, यहां जाएं[Aspose.Slides फ़ोरम](https://forum.aspose.com/).
+सहायता के लिए, यहां जाएं [Aspose.Slides फ़ोरम](https://forum.aspose.com/).
 
 ### प्रश्न 4: क्या इस लाइब्रेरी का उपयोग करने के लिए मुझे MathML में विशेषज्ञ होना आवश्यक है?
 
@@ -80,9 +82,11 @@ using (Presentation pres = new Presentation())
 
 अब जब आपने Aspose.Slides for .NET के साथ गणित पैराग्राफ़ को MathML में निर्यात करना सीख लिया है, तो आप गणितीय सामग्री के साथ गतिशील और आकर्षक प्रस्तुतियाँ बनाने के लिए तैयार हैं। प्रस्तुतीकरण का आनंद लें!
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

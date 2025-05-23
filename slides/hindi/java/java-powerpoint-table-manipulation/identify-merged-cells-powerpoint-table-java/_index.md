@@ -1,14 +1,16 @@
 ---
-title: जावा का उपयोग करके पावरपॉइंट तालिका में मर्ज किए गए कक्षों की पहचान करें
-linktitle: जावा का उपयोग करके पावरपॉइंट तालिका में मर्ज किए गए कक्षों की पहचान करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: जावा के लिए Aspose.Slides का उपयोग करके PowerPoint तालिकाओं में मर्ज किए गए सेल को प्रोग्रामेटिक रूप से पहचानना सीखें। जावा डेवलपर्स के लिए बिल्कुल सही।
-weight: 15
-url: /hi/java/java-powerpoint-table-manipulation/identify-merged-cells-powerpoint-table-java/
+"description": "जावा के लिए Aspose.Slides का उपयोग करके PowerPoint तालिकाओं में मर्ज किए गए सेल को प्रोग्रामेटिक रूप से पहचानना सीखें। जावा डेवलपर्स के लिए बिल्कुल सही।"
+"linktitle": "जावा का उपयोग करके पावरपॉइंट तालिका में मर्ज किए गए कक्षों की पहचान करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा का उपयोग करके पावरपॉइंट तालिका में मर्ज किए गए कक्षों की पहचान करें"
+"url": "/hi/java/java-powerpoint-table-manipulation/identify-merged-cells-powerpoint-table-java/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा का उपयोग करके पावरपॉइंट तालिका में मर्ज किए गए कक्षों की पहचान करें
@@ -19,7 +21,7 @@ url: /hi/java/java-powerpoint-table-manipulation/identify-merged-cells-powerpoin
 ट्यूटोरियल में शामिल होने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
 - जावा प्रोग्रामिंग का बुनियादी ज्ञान.
 - आपके सिस्टम पर JDK स्थापित है.
--  Aspose.Slides for Java लाइब्रेरी। यदि इंस्टॉल नहीं है, तो आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+- Aspose.Slides for Java लाइब्रेरी। यदि इंस्टॉल नहीं है, तो आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 - एक एकीकृत विकास वातावरण (IDE) जैसे कि IntelliJ IDEA या Eclipse.
 
 ## पैकेज आयात करें
@@ -66,16 +68,18 @@ try {
 ### Java के लिए Aspose.Slides क्या है?
 Aspose.Slides for Java, जावा का उपयोग करके पावरपॉइंट प्रस्तुतियों को प्रोग्रामेटिक रूप से संचालित करने के लिए एक शक्तिशाली लाइब्रेरी है।
 ### मैं Java के लिए Aspose.Slides कैसे डाउनलोड करूं?
- आप Java के लिए Aspose.Slides को यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+आप Java के लिए Aspose.Slides को यहां से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 ### क्या मैं खरीदने से पहले Aspose.Slides for Java आज़मा सकता हूँ?
- हां, आप यहां से निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप यहां से निःशुल्क परीक्षण प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/).
 ### मैं Aspose.Slides for Java के लिए दस्तावेज़ कहां पा सकता हूं?
- दस्तावेज़ यहां पाया जा सकता है[यहाँ](https://reference.aspose.com/slides/java/).
+दस्तावेज़ यहां पाया जा सकता है [यहाँ](https://reference.aspose.com/slides/java/).
 ### मैं Java के लिए Aspose.Slides के लिए समर्थन कैसे प्राप्त कर सकता हूं?
-सहायता के लिए, Aspose.Slides फ़ोरम पर जाएँ[यहाँ](https://forum.aspose.com/c/slides/11).
+सहायता के लिए, Aspose.Slides फ़ोरम पर जाएँ [यहाँ](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

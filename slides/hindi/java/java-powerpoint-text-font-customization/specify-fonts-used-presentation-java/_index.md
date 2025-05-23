@@ -1,14 +1,16 @@
 ---
-title: जावा के साथ प्रेजेंटेशन में प्रयुक्त फ़ॉन्ट निर्दिष्ट करें
-linktitle: जावा के साथ प्रेजेंटेशन में प्रयुक्त फ़ॉन्ट निर्दिष्ट करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में कस्टम फ़ॉन्ट निर्दिष्ट करना सीखें। अपनी स्लाइड्स को अद्वितीय टाइपोग्राफी के साथ सहजता से बेहतर बनाएँ।
-weight: 22
-url: /hi/java/java-powerpoint-text-font-customization/specify-fonts-used-presentation-java/
+"description": "Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में कस्टम फ़ॉन्ट निर्दिष्ट करना सीखें। अपनी स्लाइड्स को अद्वितीय टाइपोग्राफी के साथ आसानी से बेहतर बनाएँ।"
+"linktitle": "जावा के साथ प्रेजेंटेशन में प्रयुक्त फ़ॉन्ट निर्दिष्ट करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा के साथ प्रेजेंटेशन में प्रयुक्त फ़ॉन्ट निर्दिष्ट करें"
+"url": "/hi/java/java-powerpoint-text-font-customization/specify-fonts-used-presentation-java/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा के साथ प्रेजेंटेशन में प्रयुक्त फ़ॉन्ट निर्दिष्ट करें
@@ -18,7 +20,7 @@ url: /hi/java/java-powerpoint-text-font-customization/specify-fonts-used-present
 ## आवश्यक शर्तें
 इस ट्यूटोरियल में आगे बढ़ने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 1. जावा डेवलपमेंट एनवायरनमेंट: सुनिश्चित करें कि आपके मशीन पर जावा स्थापित है।
-2.  Aspose.Slides for Java: Aspose.Slides for Java लाइब्रेरी को यहां से डाउनलोड और इंस्टॉल करें[यहाँ](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides for Java: Aspose.Slides for Java लाइब्रेरी को यहां से डाउनलोड और इंस्टॉल करें [यहाँ](https://releases.aspose.com/slides/java/).
 3. कस्टम फ़ॉन्ट: ट्रू टाइप फ़ॉन्ट (.ttf) फ़ाइलें तैयार करें जिन्हें आप अपनी प्रस्तुति में उपयोग करना चाहते हैं।
 
 ## पैकेज आयात करें
@@ -34,7 +36,7 @@ import java.nio.file.Paths;
 ## चरण 1: कस्टम फ़ॉन्ट लोड करें
 अपनी प्रस्तुति में कस्टम फ़ॉन्ट एकीकृत करने के लिए, आपको फ़ॉन्ट फ़ाइलों को मेमोरी में लोड करना होगा।
 ```java
-//आपके कस्टम फ़ॉन्ट वाली निर्देशिका का पथ
+// आपके कस्टम फ़ॉन्ट वाली निर्देशिका का पथ
 String dataDir = "Your Document Directory";
 // कस्टम फ़ॉन्ट फ़ाइलों को बाइट ऐरे में पढ़ें
 byte[] memoryFont1 = Files.readAllBytes(Paths.get(dataDir + "customfonts\\CustomFont1.ttf"));
@@ -77,9 +79,11 @@ try {
 Aspose.Slides कस्टम फ़ॉन्ट्स की संख्या पर सख्त सीमाएं नहीं लगाता है; हालाँकि, प्रदर्शन संबंधी निहितार्थों पर विचार करें।
 ### क्या मैं अपने एप्लिकेशन में फ़ॉन्ट्स को एम्बेड किए बिना रनटाइम पर गतिशील रूप से लोड कर सकता हूं?
 हां, आप बाहरी स्रोतों या मेमोरी से फ़ॉन्ट लोड कर सकते हैं जैसा कि इस ट्यूटोरियल में दिखाया गया है।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

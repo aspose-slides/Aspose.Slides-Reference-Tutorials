@@ -1,63 +1,65 @@
 ---
-title: Konvertálja a bemutatót PDF-be rejtett diákkal
-linktitle: Konvertálja a bemutatót PDF-be rejtett diákkal
-second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Ismerje meg, hogyan használhatja az Aspose.Slides for .NET-et a prezentációk zökkenőmentes PDF-formátumba konvertálásához rejtett diákkal.
-weight: 26
-url: /hu/net/presentation-conversion/convert-presentation-to-pdf-with-hidden-slides/
+"description": "Tanuld meg, hogyan használhatod az Aspose.Slides for .NET programot prezentációk zökkenőmentes PDF formátumba konvertálásához rejtett diákkal."
+"linktitle": "Prezentáció konvertálása PDF-be rejtett diákkal"
+"second_title": "Aspose.Slides .NET PowerPoint feldolgozási API"
+"title": "Prezentáció konvertálása PDF-be rejtett diákkal"
+"url": "/hu/net/presentation-conversion/convert-presentation-to-pdf-with-hidden-slides/"
+"weight": 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Konvertálja a bemutatót PDF-be rejtett diákkal
+# Prezentáció konvertálása PDF-be rejtett diákkal
 
 
-## Az Aspose.Slides .NET-hez bemutatása
+## Bevezetés az Aspose.Slides .NET-hez használatába
 
-Az Aspose.Slides for .NET egy hatékony könyvtár, amely átfogó funkciókat kínál a .NET-alkalmazások prezentációihoz. Lehetővé teszi a fejlesztők számára, hogy prezentációkat hozzanak létre, szerkesszenek, kezeljenek és konvertáljanak különféle formátumokba, beleértve a PDF-t is.
+Az Aspose.Slides for .NET egy hatékony könyvtár, amely átfogó funkciókat biztosít a .NET alkalmazásokban történő prezentációk kezeléséhez. Lehetővé teszi a fejlesztők számára, hogy prezentációkat hozzanak létre, szerkesszenek, manipuláljanak és konvertáljanak különböző formátumokba, beleértve a PDF-et is.
 
-## bemutatók rejtett diákjainak megértése
+## Rejtett diák megértése a prezentációkban
 
-A rejtett diák olyan prezentáción belüli diák, amely normál diavetítés közben nem látható. Tartalmazhatnak kiegészítő információkat, tartalék tartalmat vagy meghatározott közönségnek szánt tartalmat. A prezentációk PDF formátumba konvertálásakor elengedhetetlen, hogy ezek a rejtett diák is szerepeljenek a prezentáció integritásának megőrzése érdekében.
+A rejtett diák olyan diák a prezentációban, amelyek nem láthatók egy normál diavetítés során. Tartalmazhatnak kiegészítő információkat, biztonsági másolatokat vagy adott közönségnek szánt tartalmat. Prezentációk PDF formátumba konvertálásakor elengedhetetlen, hogy ezek a rejtett diák is szerepeljenek a prezentációban a prezentáció integritásának megőrzése érdekében.
 
 ## A fejlesztői környezet beállítása
 
-Mielőtt elkezdené, győződjön meg arról, hogy a következők vannak a helyükön:
+Mielőtt elkezdenénk, győződjünk meg róla, hogy a következők megvannak:
 
-- Visual Studio vagy bármely telepített .NET fejlesztői környezet.
--  Aspose.Slides a .NET könyvtárhoz. Letöltheti innen[itt](https://releases.aspose.com/slides/net).
+- Visual Studio vagy bármilyen telepített .NET fejlesztői környezet.
+- Aspose.Slides .NET könyvtárhoz. Letöltheted innen: [itt](https://releases.aspose.com/slides/net).
 
-## Prezentációs fájl betöltése
+## Bemutatófájl betöltése
 
-A kezdéshez töltsünk be egy prezentációs fájlt az Aspose.Slides for .NET segítségével:
+Kezdésként töltsünk be egy prezentációs fájlt az Aspose.Slides for .NET használatával:
 
 ```csharp
 using Aspose.Slides;
 
-// Töltse be a prezentációt
+// Töltsd be a prezentációt
 using var presentation = new Presentation("sample.pptx");
 ```
 
 ## Prezentáció konvertálása PDF-be rejtett diákkal
 
-Most, hogy azonosítani tudjuk a rejtett diákat, folytassuk a prezentáció konvertálását PDF formátumba, miközben gondoskodunk arról, hogy a rejtett diák benne legyen:
+Most, hogy azonosítani tudjuk a rejtett diákat, folytassuk a prezentáció PDF-be konvertálásával, ügyelve arra, hogy a rejtett diák is benne legyenek:
 
 ```csharp
 var pdfOptions = new PdfOptions();
-pdfOptions.ShowHiddenSlides = true; // Rejtett diák belefoglalása a PDF-be
+pdfOptions.ShowHiddenSlides = true; // Rejtett diák beillesztése PDF-be
 
 presentation.Save("output.pdf", SaveFormat.Pdf, pdfOptions);
 ```
 
-## További lehetőségek és testreszabások
+## További opciók és testreszabási lehetőségek
 
-Az Aspose.Slides for .NET különféle lehetőségeket és testreszabásokat kínál az átalakítási folyamathoz. Beállíthat PDF-specifikus beállításokat, például oldalméretet, tájolást és minőséget a kimeneti PDF optimalizálásához.
+Az Aspose.Slides for .NET számos lehetőséget és testreszabási lehetőséget kínál a konvertálási folyamathoz. PDF-specifikus beállításokat, például oldalméretet, tájolást és minőséget adhat meg a kimeneti PDF optimalizálása érdekében.
 
 ## Kódpélda: Prezentáció konvertálása PDF-be rejtett diákkal
 
-Íme egy teljes példa egy prezentáció PDF-formátumba konvertálására rejtett diákkal az Aspose.Slides for .NET használatával:
+Íme egy teljes példa egy prezentáció PDF-be konvertálására rejtett diákkal az Aspose.Slides for .NET használatával:
 
 ```csharp
 using Aspose.Slides;
@@ -78,32 +80,34 @@ class Program
 
 ## Következtetés
 
-A prezentációk PDF formátumba konvertálása gyakori feladat, de a rejtett diák kezelésekor fontos, hogy olyan megbízható könyvtárat használjunk, mint az Aspose.Slides for .NET. Az ebben az útmutatóban vázolt lépések követésével zökkenőmentesen konvertálhatja a prezentációkat PDF formátumba, miközben gondoskodik a rejtett diákról, megőrizve a prezentáció általános minőségét és kontextusát.
+prezentációk PDF formátumba konvertálása gyakori feladat, de rejtett diák kezelésekor fontos egy megbízható könyvtár, például az Aspose.Slides for .NET használata. Az útmutatóban ismertetett lépéseket követve zökkenőmentesen konvertálhatja a prezentációkat PDF formátumba, miközben biztosítja a rejtett diák szerepeltetését, megőrizve a prezentáció általános minőségét és kontextusát.
 
 ## GYIK
 
-### Hogyan vehetek fel rejtett diákat a PDF-fájlba az Aspose.Slides for .NET segítségével?
+### Hogyan illeszthetek be rejtett diákat a PDF-be az Aspose.Slides for .NET használatával?
 
- Ha rejtett diákat szeretne bevonni a PDF-konverzióba, beállíthatja a`ShowHiddenSlides` tulajdonát`true` a PDF-beállításokban, mielőtt a prezentációt PDF-ként menti.
+A rejtett diák PDF-konvertálásba való felvételéhez beállíthatja a `ShowHiddenSlides` ingatlan `true` a PDF beállításokban, mielőtt PDF formátumban mentené a prezentációt.
 
 ### Testreszabhatom a PDF kimeneti beállításait az Aspose.Slides segítségével?
 
-Igen, az Aspose.Slides for .NET különféle lehetőségeket kínál a PDF kimeneti beállítások, például az oldalméret, a tájolás és a képminőség testreszabására.
+Igen, az Aspose.Slides for .NET számos lehetőséget kínál a PDF kimeneti beállításainak testreszabására, például az oldalméret, a tájolás és a képminőség módosítására.
 
-### Az Aspose.Slides for .NET alkalmas egyszerű és összetett prezentációkhoz is?
+### Az Aspose.Slides for .NET alkalmas mind egyszerű, mind összetett prezentációkhoz?
 
-Természetesen az Aspose.Slides for .NET-et a különböző bonyolultságú prezentációk kezelésére tervezték. Egyszerű és összetett prezentációkonverziós feladatokra egyaránt alkalmas.
+Az Aspose.Slides for .NET természetesen különböző komplexitású prezentációk kezelésére is alkalmas. Alkalmas mind egyszerű, mind összetett prezentáció-konvertálási feladatokhoz.
 
-### Honnan tölthetem le az Aspose.Slides for .NET könyvtárat?
+### Hol tudom letölteni az Aspose.Slides for .NET könyvtárat?
 
- Az Aspose.Slides for .NET könyvtár letölthető innen[itt](https://releases.aspose.com/slides/net).
+Az Aspose.Slides for .NET könyvtárat letöltheted innen: [itt](https://releases.aspose.com/slides/net).
 
-### Van valami dokumentáció az Aspose.Slides for .NET-hez?
+### Van bármilyen dokumentáció az Aspose.Slides .NET-hez?
 
- Igen, az Aspose.Slides for .NET dokumentációját és használati példáit itt találja[itt](https://reference.aspose.com/slides/net).
+Igen, az Aspose.Slides for .NET dokumentációját és használati példáit itt találja: [itt](https://reference.aspose.com/slides/net).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

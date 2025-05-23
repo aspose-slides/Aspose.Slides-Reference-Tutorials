@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में सभी फ़ॉन्ट्स एम्बेड करके प्रेजेंटेशन को HTML में परिवर्तित करना
-linktitle: जावा स्लाइड्स में सभी फ़ॉन्ट्स एम्बेड करके प्रेजेंटेशन को HTML में परिवर्तित करना
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके एम्बेडेड फ़ॉन्ट के साथ प्रेजेंटेशन को HTML में कैसे परिवर्तित करें, यह जानें। यह चरण-दर-चरण मार्गदर्शिका सहज साझाकरण के लिए सुसंगत स्वरूपण सुनिश्चित करती है।
-weight: 13
-url: /hi/java/presentation-conversion/convert-presentation-html-embed-fonts-java-slides/
+"description": "Aspose.Slides for Java का उपयोग करके एम्बेडेड फ़ॉन्ट के साथ प्रेजेंटेशन को HTML में कैसे परिवर्तित करें, यह जानें। यह चरण-दर-चरण मार्गदर्शिका सहज साझाकरण के लिए सुसंगत स्वरूपण सुनिश्चित करती है।"
+"linktitle": "जावा स्लाइड्स में सभी फ़ॉन्ट्स एम्बेड करके प्रेजेंटेशन को HTML में परिवर्तित करना"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में सभी फ़ॉन्ट्स एम्बेड करके प्रेजेंटेशन को HTML में परिवर्तित करना"
+"url": "/hi/java/presentation-conversion/convert-presentation-html-embed-fonts-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में सभी फ़ॉन्ट्स एम्बेड करके प्रेजेंटेशन को HTML में परिवर्तित करना
@@ -23,16 +25,16 @@ url: /hi/java/presentation-conversion/convert-presentation-html-embed-fonts-java
 इससे पहले कि हम कोड और रूपांतरण प्रक्रिया में उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
 - आपके सिस्टम पर जावा डेवलपमेंट किट (JDK) स्थापित है।
--  Aspose.Slides for Java API, जिसे आप यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
--  एक प्रस्तुति फ़ाइल (जैसे,`presentation.pptx`) जिसे आप HTML में बदलना चाहते हैं.
+- Aspose.Slides for Java API, जिसे आप यहां से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
+- एक प्रस्तुति फ़ाइल (जैसे, `presentation.pptx`) जिसे आप HTML में बदलना चाहते हैं.
 
 ## चरण 1: जावा वातावरण की स्थापना
 
-सुनिश्चित करें कि आपके सिस्टम पर Java और Aspose.Slides for Java API ठीक से इंस्टॉल है। आप इंस्टॉलेशन निर्देशों के लिए दस्तावेज़ देख सकते हैं।
+सुनिश्चित करें कि आपके सिस्टम पर Java और Aspose.Slides for Java API ठीक से इंस्टॉल है। इंस्टॉलेशन निर्देशों के लिए आप दस्तावेज़ देख सकते हैं।
 
 ## चरण 2: प्रेजेंटेशन फ़ाइल लोड करना
 
-अपने जावा कोड में, आपको उस प्रेजेंटेशन फ़ाइल को लोड करना होगा जिसे आप कनवर्ट करना चाहते हैं।`"Your Document Directory"` अपनी प्रस्तुति फ़ाइल के वास्तविक पथ के साथ.
+अपने जावा कोड में, आपको उस प्रेजेंटेशन फ़ाइल को लोड करना होगा जिसे आप कनवर्ट करना चाहते हैं। `"Your Document Directory"` अपनी प्रस्तुति फ़ाइल के वास्तविक पथ के साथ.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -101,7 +103,7 @@ finally
 
 ### क्या मैं HTML आउटपुट को और अधिक अनुकूलित कर सकता हूँ, जैसे स्टाइलिंग और लेआउट?
 
- हां, आप HTML आउटपुट को संशोधित करके अनुकूलित कर सकते हैं`HtmlOptions` और फ़ॉर्मेटिंग के लिए इस्तेमाल किया गया HTML टेम्प्लेट। Java के लिए Aspose.Slides इस संबंध में लचीलापन प्रदान करता है।
+हां, आप HTML आउटपुट को संशोधित करके अनुकूलित कर सकते हैं `HtmlOptions` और फ़ॉर्मेटिंग के लिए इस्तेमाल किया गया HTML टेम्प्लेट। Java के लिए Aspose.Slides इस संबंध में लचीलापन प्रदान करता है।
 
 ### HTML में फ़ॉन्ट एम्बेड करते समय क्या कोई सीमाएं हैं?
 
@@ -113,10 +115,12 @@ finally
 
 ### मैं Aspose.Slides for Java के लिए और अधिक संसाधन और दस्तावेज़ कहां पा सकता हूं?
 
- आप Aspose.Slides for Java के लिए व्यापक दस्तावेज़ और संसाधनों तक पहुँच सकते हैं[Aspose.Slides for Java API संदर्भ](https://reference.aspose.com/slides/java/).
+आप Aspose.Slides for Java के लिए व्यापक दस्तावेज़ और संसाधनों तक पहुँच सकते हैं [Aspose.Slides for Java API संदर्भ](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

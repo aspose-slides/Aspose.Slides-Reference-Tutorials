@@ -1,22 +1,24 @@
 ---
-title: Java スライドにドーナツ コールアウトを追加する
-linktitle: Java スライドにドーナツ コールアウトを追加する
-second_title: Aspose.Slides Java PowerPoint 処理 API
-description: Aspose.Slides for Java を使用して、Java スライドにドーナツ コールアウトを追加する方法を学びます。強化されたプレゼンテーションのためのソース コード付きのステップ バイ ステップ ガイド。
-weight: 12
-url: /ja/java/chart-data-manipulation/add-doughnut-callout-java-slides/
+"description": "Aspose.Slides for Javaを使用して、Javaスライドにドーナツ型の吹き出しを追加する方法を学びましょう。ソースコード付きのステップバイステップガイドで、プレゼンテーションの質を高めます。"
+"linktitle": "Javaスライドにドーナツ吹き出しを追加する"
+"second_title": "Aspose.Slides Java PowerPoint 処理 API"
+"title": "Javaスライドにドーナツ吹き出しを追加する"
+"url": "/ja/java/chart-data-manipulation/add-doughnut-callout-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java スライドにドーナツ コールアウトを追加する
+# Javaスライドにドーナツ吹き出しを追加する
 
 
 ## Aspose.Slides for Java を使用して Java スライドにドーナツ コールアウトを追加する方法の紹介
 
-このチュートリアルでは、Aspose.Slides for Java を使用して、Java でスライドにドーナツ コールアウトを追加する手順を説明します。ドーナツ コールアウトは、ドーナツ グラフ内の特定のデータ ポイントを強調表示するために使用できるグラフ要素です。便宜上、ステップ バイ ステップの手順と完全なソース コードを提供します。
+このチュートリアルでは、Aspose.Slides for Java を使用して、Java でスライドにドーナツ型の吹き出しを追加する手順を詳しく説明します。ドーナツ型の吹き出しは、ドーナツグラフ内の特定のデータポイントを強調表示するために使用できるグラフ要素です。ステップバイステップの手順と完全なソースコードをご用意しておりますので、ご活用ください。
 
 ## 前提条件
 
@@ -34,7 +36,7 @@ url: /ja/java/chart-data-manipulation/add-doughnut-callout-java-slides/
 
 ## ステップ2: プレゼンテーションを初期化する
 
-まず、PowerPoint プレゼンテーションを初期化し、ドーナツ コールアウトを追加するスライドを作成する必要があります。これを実現するためのコードは次のとおりです。
+まず、PowerPointプレゼンテーションを初期化し、ドーナツ吹き出しを追加するスライドを作成する必要があります。これを実現するコードは次のとおりです。
 
 ```java
 String dataDir = "Your Document Directory";
@@ -42,11 +44,11 @@ Presentation pres = new Presentation(dataDir + "testc.pptx");
 ISlide slide = pres.getSlides().get_Item(0);
 ```
 
-必ず交換してください`"Your Document Directory"` PowerPoint プレゼンテーション ファイルへの実際のパスを入力します。
+必ず交換してください `"Your Document Directory"` PowerPoint プレゼンテーション ファイルへの実際のパスを入力します。
 
 ## ステップ3: ドーナツグラフを作成する
 
-次に、スライドにドーナツ グラフを作成します。グラフの位置とサイズは、必要に応じてカスタマイズできます。ドーナツ グラフを追加するコードは次のとおりです。
+次に、スライドにドーナツグラフを作成します。グラフの位置とサイズは必要に応じてカスタマイズできます。ドーナツグラフを追加するコードは次のとおりです。
 
 ```java
 IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, false);
@@ -54,7 +56,7 @@ IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, 
 
 ## ステップ4: ドーナツグラフをカスタマイズする
 
-さて、ドーナツ チャートをカスタマイズします。凡例の削除、穴のサイズの設定、最初のスライスの角度の調整など、さまざまなプロパティを設定します。コードは次のとおりです。
+では、ドーナツグラフをカスタマイズしてみましょう。凡例の削除、穴のサイズの設定、最初のスライスの角度の調整など、様々なプロパティを設定します。コードは次のとおりです。
 
 ```java
 IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
@@ -71,11 +73,11 @@ while (seriesIndex < 15) {
 }
 ```
 
-このコード スニペットはドーナツ グラフのプロパティを設定します。特定のニーズに合わせて値を調整できます。
+このコードスニペットはドーナツグラフのプロパティを設定します。値は必要に応じて調整できます。
 
 ## ステップ5: ドーナツグラフにデータを追加する
 
-それでは、ドーナツ グラフにデータを追加しましょう。また、データ ポイントの外観をカスタマイズします。これを実現するためのコードは次のとおりです。
+それでは、ドーナツグラフにデータを追加しましょう。データポイントの外観もカスタマイズします。これを実現するコードは次のとおりです。
 
 ```java
 int categoryIndex = 0;
@@ -86,28 +88,28 @@ while (categoryIndex < 15) {
         IChartSeries iCS = chart.getChartData().getSeries().get_Item(i);
         IChartDataPoint dataPoint = iCS.getDataPoints().addDataPointForDoughnutSeries(workBook.getCell(0, categoryIndex + 1, i + 1, 1));
         dataPoint.getFormat().getFill().setFillType(FillType.Solid);
-        //ここでデータポイントの外観をカスタマイズします
+        // ここでデータポイントの外観をカスタマイズします
         i++;
     }
     categoryIndex++;
 }
 ```
 
-このコードでは、ドーナツ グラフにカテゴリとデータ ポイントを追加しています。必要に応じて、データ ポイントの外観をさらにカスタマイズできます。
+このコードでは、ドーナツグラフにカテゴリとデータポイントを追加しています。必要に応じて、データポイントの外観をさらにカスタマイズできます。
 
 ## ステップ6: プレゼンテーションを保存する
 
-最後に、ドーナツ コールアウトを追加した後は、プレゼンテーションを保存することを忘れないでください。プレゼンテーションを保存するコードは次のとおりです。
+最後に、ドーナツ吹き出しを追加したら、プレゼンテーションを保存することを忘れないでください。プレゼンテーションを保存するコードは次のとおりです。
 
 ```java
 pres.save(dataDir + "chart.pptx", SaveFormat.Pptx);
 ```
 
-必ず交換してください`"chart.pptx"`希望するファイル名を入力します。
+必ず交換してください `"chart.pptx"` 希望するファイル名を入力します。
 
-おめでとうございます! Aspose.Slides for Java を使用して、Java スライドにドーナツ コールアウトを正常に追加しました。これで、Java アプリケーションを実行して、ドーナツ グラフとコールアウトを含む PowerPoint プレゼンテーションを生成できます。
+おめでとうございます！Aspose.Slides for Javaを使用して、Javaスライドにドーナツ型の吹き出しを追加できました。これでJavaアプリケーションを実行し、ドーナツグラフと吹き出しを含むPowerPointプレゼンテーションを生成できます。
 
-## Java スライドにドーナツ コールアウトを追加するための完全なソース コード
+## Javaスライドにドーナツ吹き出しを追加するための完全なソースコード
 
 ```java
 String dataDir = "Your Document Directory";
@@ -171,24 +173,26 @@ pres.save(dataDir + "chart.pptx", SaveFormat.Pptx);
 
 ## 結論
 
-このチュートリアルでは、Aspose.Slides for Java を使用して Java スライドにドーナツ コールアウトを追加する手順について説明しました。ドーナツ グラフの作成方法、外観のカスタマイズ方法、データ ポイントの追加方法を学習しました。この強力なライブラリを使用してプレゼンテーションをさらに強化し、さらに多くのグラフ作成オプションを自由に探索してください。
+このチュートリアルでは、Aspose.Slides for Java を使用して Java スライドにドーナツ型の吹き出しを追加する手順を説明しました。ドーナツグラフの作成方法、外観のカスタマイズ方法、データポイントの追加方法を学びました。この強力なライブラリを使って、プレゼンテーションをさらに充実させ、より多くのグラフ作成オプションを試してみてください。
 
 ## よくある質問
 
 ### ドーナツ吹き出しの外観を変更するにはどうすればよいですか?
 
-チャート内のデータ ポイントのプロパティを変更することで、ドーナツ コールアウトの外観をカスタマイズできます。提供されているコードでは、データ ポイントの塗りつぶしの色、線の色、フォント スタイル、その他の属性を設定する方法を確認できます。
+ドーナツ吹き出しの外観は、チャート内のデータポイントのプロパティを変更することでカスタマイズできます。提供されているコードでは、データポイントの塗りつぶし色、線の色、フォントスタイル、その他の属性を設定する方法を確認できます。
 
 ### ドーナツ グラフにさらにデータ ポイントを追加できますか?
 
-はい、ドーナツ グラフには必要な数だけデータ ポイントを追加できます。カテゴリとデータ ポイントを追加するコード内のループを拡張し、適切なデータと書式設定を指定するだけです。
+はい、ドーナツグラフには必要な数だけデータポイントを追加できます。カテゴリとデータポイントを追加するコード内のループを拡張し、適切なデータと書式を設定するだけです。
 
 ### スライド上のドーナツ グラフの位置とサイズを調整するにはどうすればよいですか?
 
-ドーナツグラフの位置とサイズは、`addChart`メソッド。このメソッドの 4 つの数字は、それぞれグラフの左上隅の X 座標と Y 座標、および幅と高さに対応します。
+ドーナツグラフの位置とサイズは、 `addChart` メソッド。このメソッド内の 4 つの数値は、それぞれグラフの左上隅の X 座標と Y 座標、および幅と高さに対応します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

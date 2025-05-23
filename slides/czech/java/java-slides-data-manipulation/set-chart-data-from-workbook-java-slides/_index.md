@@ -1,30 +1,32 @@
 ---
-title: Nastavení dat grafu ze sešitu v Java Slides
-linktitle: Nastavení dat grafu ze sešitu v Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Naučte se, jak nastavit data grafu z excelového sešitu v Java Slides pomocí Aspose.Slides. Podrobný průvodce s příklady kódu pro dynamické prezentace.
-weight: 15
-url: /cs/java/data-manipulation/set-chart-data-from-workbook-java-slides/
+"description": "Naučte se, jak nastavit data grafu z excelového sešitu v Java Slides pomocí Aspose.Slides. Podrobný návod s příklady kódu pro dynamické prezentace."
+"linktitle": "Nastavení dat grafu ze sešitu v Java Slides"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Nastavení dat grafu ze sešitu v Java Slides"
+"url": "/cs/java/data-manipulation/set-chart-data-from-workbook-java-slides/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nastavení dat grafu ze sešitu v Java Slides
 
 
-## Úvod k nastavení dat grafu ze sešitu v Java Slides
+## Úvod do nastavení dat grafu ze sešitu v Javě - Slides
 
-Aspose.Slides for Java je výkonná knihovna, která umožňuje vývojářům pracovat s prezentacemi v PowerPointu programově. Poskytuje rozsáhlé funkce pro vytváření, manipulaci a správu snímků aplikace PowerPoint. Jedním z běžných požadavků při práci s prezentacemi je dynamické nastavení dat grafu z externího zdroje dat, jako je sešit aplikace Excel. V tomto tutoriálu si ukážeme, jak toho dosáhnout pomocí Javy.
+Aspose.Slides pro Javu je výkonná knihovna, která umožňuje vývojářům programově pracovat s prezentacemi v PowerPointu. Poskytuje rozsáhlé funkce pro vytváření, manipulaci a správu snímků v PowerPointu. Jedním z běžných požadavků při práci s prezentacemi je dynamické nastavování dat grafu z externího zdroje dat, například ze sešitu aplikace Excel. V tomto tutoriálu si ukážeme, jak toho dosáhnout pomocí Javy.
 
 ## Předpoklady
 
-Než se pustíme do implementace, ujistěte se, že máte následující předpoklady:
+Než se pustíme do implementace, ujistěte se, že máte splněny následující předpoklady:
 
-- Java Development Kit (JDK) nainstalovaný ve vašem systému.
-- Do vašeho projektu byla přidána knihovna Aspose.Slides for Java.
-- Excelový sešit s daty, která chcete použít pro graf.
+- Na vašem systému nainstalovaná sada pro vývoj Java (JDK).
+- Do vašeho projektu byla přidána knihovna Aspose.Slides pro Javu.
+- Sešit aplikace Excel s daty, která chcete použít pro graf.
 
 ## Krok 1: Vytvořte prezentaci
 
@@ -33,33 +35,33 @@ String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 ```
 
-Začneme vytvořením nové PowerPointové prezentace pomocí Aspose.Slides for Java.
+Začneme vytvořením nové prezentace v PowerPointu pomocí Aspose.Slides pro Javu.
 
-## Krok 2: Přidejte graf
+## Krok 2: Přidání grafu
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 500, 400);
 ```
 
-Dále přidáme graf na jeden ze snímků v prezentaci. V tomto příkladu přidáváme výsečový graf, ale můžete si vybrat typ grafu, který vyhovuje vašim potřebám.
+Dále přidáme graf do jednoho ze snímků v prezentaci. V tomto příkladu přidáváme koláčový graf, ale můžete si vybrat typ grafu, který vyhovuje vašim potřebám.
 
-## Krok 3: Vymažte data grafu
+## Krok 3: Vymazání dat grafu
 
 ```java
 chart.getChartData().getChartDataWorkbook().clear(0);
 ```
 
-grafu vymažeme všechna existující data, abychom je připravili na nová data z excelového sešitu.
+Z grafu vymažeme veškerá existující data, abychom jej připravili na nová data ze sešitu aplikace Excel.
 
-## Krok 4: Načtěte sešit aplikace Excel
+## Krok 4: Načtení sešitu aplikace Excel
 
 ```java
 Workbook workbook = new Workbook("Your Document Directory";
 ```
 
- Načteme sešit Excel, který obsahuje data, která chceme použít pro graf. Nahradit`"book1.xlsx"` s cestou k souboru Excel.
+Načteme sešit aplikace Excel, který obsahuje data, která chceme použít pro graf. Nahraďte `"book1.xlsx"` s cestou k vašemu souboru Excel.
 
-## Krok 5: Zapište datový proud sešitu do dat grafu
+## Krok 5: Zápis datového proudu sešitu do grafu
 
 ```java
 ByteArrayOutputStream mem = new ByteArrayOutputStream();
@@ -68,24 +70,24 @@ mem.flush();
 chart.getChartData().writeWorkbookStream(mem.toByteArray());
 ```
 
-Data sešitu Excel převedeme na stream a zapíšeme je do dat grafu.
+Data z excelového sešitu převedeme do streamu a zapíšeme je do dat grafu.
 
-## Krok 6: Nastavte rozsah dat grafu
+## Krok 6: Nastavení rozsahu dat grafu
 
 ```java
 chart.getChartData().setRange("Sheet2!$A$1:$B$3");
 ```
 
-Určujeme rozsah buněk z excelového sešitu, které mají být použity jako data pro graf. Upravte rozsah podle potřeby pro vaše data.
+Z excelového sešitu určíme rozsah buněk, které se mají použít jako data pro graf. Upravte rozsah podle potřeby pro vaše data.
 
-## Krok 7: Přizpůsobte řadu grafů
+## Krok 7: Úprava série grafů
 
 ```java
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 series.getParentSeriesGroup().setColorVaried(true);
 ```
 
-Různé vlastnosti sérií grafů můžete přizpůsobit svým požadavkům. V tomto příkladu povolíme různé barvy pro řadu grafů.
+Různé vlastnosti grafové série si můžete přizpůsobit svým požadavkům. V tomto příkladu povolujeme pro grafovou sérii různé barvy.
 
 ## Krok 8: Uložte prezentaci
 
@@ -93,9 +95,9 @@ Různé vlastnosti sérií grafů můžete přizpůsobit svým požadavkům. V t
 pres.save(outPath, SaveFormat.Pptx);
 ```
 
-Nakonec prezentaci s aktualizovanými daty grafu uložíme do zadané výstupní cesty.
+Nakonec uložíme prezentaci s aktualizovanými daty grafu do zadané výstupní cesty.
 
-## Kompletní zdrojový kód pro nastavení dat grafu ze sešitu v Java Slides
+## Kompletní zdrojový kód pro nastavení dat grafu ze sešitu v Javě Slides
 
 ```java
 String outPath = "Your Output Directory" + "response2.pptx";
@@ -125,32 +127,34 @@ try {
 
 ## Závěr
 
-tomto tutoriálu jsme se naučili, jak nastavit data grafu z excelového sešitu v Java Slides pomocí knihovny Aspose.Slides for Java. Podle podrobného průvodce a pomocí poskytnutých příkladů zdrojového kódu můžete snadno integrovat data dynamických grafů do svých prezentací PowerPoint.
+V tomto tutoriálu jsme se naučili, jak nastavit data grafu z excelového sešitu v Java Slides pomocí knihovny Aspose.Slides pro Javu. Pomocí podrobného návodu a poskytnutých příkladů zdrojového kódu můžete snadno integrovat dynamická data grafu do svých prezentací v PowerPointu.
 
-## FAQ
+## Často kladené otázky
 
-### Jak mohu přizpůsobit vzhled grafu v mé prezentaci?
+### Jak si mohu přizpůsobit vzhled grafu v prezentaci?
 
-Vzhled grafu můžete upravit úpravou vlastností, jako jsou barvy, písma, štítky a další. Podrobné informace o možnostech přizpůsobení grafu naleznete v dokumentaci Aspose.Slides for Java.
+Vzhled grafu si můžete přizpůsobit úpravou vlastností, jako jsou barvy, písma, popisky a další. Podrobné informace o možnostech přizpůsobení grafu naleznete v dokumentaci k Aspose.Slides pro Javu.
 
-### Mohu pro graf použít data z jiného souboru Excel?
+### Mohu pro graf použít data z jiného souboru aplikace Excel?
 
-Ano, můžete použít data z libovolného souboru Excel zadáním správné cesty k souboru při načítání sešitu v kódu.
+Ano, data z libovolného souboru aplikace Excel můžete použít zadáním správné cesty k souboru při načítání sešitu v kódu.
 
-### Jaké další typy grafů mohu vytvořit pomocí Aspose.Slides for Java?
+### Jaké další typy grafů mohu vytvořit pomocí Aspose.Slides pro Javu?
 
-Aspose.Slides for Java podporuje různé typy grafů, včetně sloupcových grafů, spojnicových grafů, bodových grafů a dalších. Můžete si vybrat typ grafu, který nejlépe vyhovuje vašim potřebám reprezentace dat.
+Aspose.Slides pro Javu podporuje různé typy grafů, včetně sloupcových grafů, spojnicových grafů, bodových grafů a dalších. Můžete si vybrat typ grafu, který nejlépe vyhovuje vašim potřebám reprezentace dat.
 
 ### Je možné dynamicky aktualizovat data grafu v běžící prezentaci?
 
-Ano, data grafu můžete dynamicky aktualizovat v prezentaci úpravou podkladového sešitu a následným obnovením dat grafu.
+Ano, data grafu v prezentaci můžete dynamicky aktualizovat úpravou podkladového sešitu a následnou aktualizací dat grafu.
 
-### Kde najdu další příklady a zdroje pro práci s Aspose.Slides for Java?
+### Kde najdu další příklady a zdroje pro práci s Aspose.Slides pro Javu?
 
- Další příklady a zdroje můžete prozkoumat na[Aspose webové stránky](https://www.aspose.com/). Dokumentace Aspose.Slides for Java navíc poskytuje komplexní pokyny pro práci s knihovnou.
+Další příklady a zdroje si můžete prohlédnout na [Webové stránky Aspose](https://www.aspose.com/)Dokumentace k Aspose.Slides pro Javu navíc poskytuje komplexní pokyny k práci s knihovnou.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

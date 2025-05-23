@@ -1,42 +1,44 @@
 ---
-title: Crea elenchi puntati multilivello in Java PowerPoint
-linktitle: Crea elenchi puntati multilivello in Java PowerPoint
-second_title: Aspose.Slides API di elaborazione Java PowerPoint
-description: Scopri come creare punti elenco multilivello in PowerPoint utilizzando Aspose.Slides per Java. Guida passo passo con esempi di codice e domande frequenti.
-weight: 14
-url: /it/java/java-powerpoint-text-paragraph-management/create-multilevel-bullets-java-powerpoint/
+"description": "Scopri come creare elenchi puntati multilivello in PowerPoint utilizzando Aspose.Slides per Java. Guida dettagliata con esempi di codice e FAQ."
+"linktitle": "Creare elenchi puntati multilivello in Java PowerPoint"
+"second_title": "API di elaborazione Java PowerPoint di Aspose.Slides"
+"title": "Creare elenchi puntati multilivello in Java PowerPoint"
+"url": "/it/java/java-powerpoint-text-paragraph-management/create-multilevel-bullets-java-powerpoint/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Crea elenchi puntati multilivello in Java PowerPoint
+# Creare elenchi puntati multilivello in Java PowerPoint
 
-## introduzione
-In questo tutorial esploreremo come creare punti elenco multilivello nelle presentazioni di PowerPoint utilizzando Aspose.Slides per Java. L'aggiunta di punti elenco è un requisito comune per la creazione di contenuti organizzati e visivamente accattivanti nelle presentazioni. Seguiremo il processo passo dopo passo, assicurandoci che entro la fine di questa guida sarai in grado di migliorare le tue presentazioni con elenchi puntati strutturati a più livelli.
+## Introduzione
+In questo tutorial, esploreremo come creare elenchi puntati multilivello nelle presentazioni di PowerPoint utilizzando Aspose.Slides per Java. L'aggiunta di elenchi puntati è un requisito comune per creare contenuti organizzati e visivamente accattivanti nelle presentazioni. Illustreremo il processo passo dopo passo, assicurandoci che, al termine di questa guida, sarete in grado di migliorare le vostre presentazioni con elenchi puntati strutturati a più livelli.
 ## Prerequisiti
-Prima di iniziare, assicurati di avere la seguente configurazione:
+Prima di iniziare, assicurati di aver impostato quanto segue:
 - Ambiente di sviluppo Java: assicurati che Java Development Kit (JDK) sia installato sul tuo sistema.
--  Aspose.Slides per Java Library: scarica e installa Aspose.Slides per Java da[Qui](https://releases.aspose.com/slides/java/).
-- IDE: utilizza il tuo ambiente di sviluppo integrato Java (IDE) preferito come IntelliJ IDEA, Eclipse o altri.
-- Conoscenze di base: sarà utile avere familiarità con la programmazione Java e i concetti di base di PowerPoint.
+- Libreria Aspose.Slides per Java: scarica e installa Aspose.Slides per Java da [Qui](https://releases.aspose.com/slides/java/).
+- IDE: utilizza il tuo Java Integrated Development Environment (IDE) preferito, come IntelliJ IDEA, Eclipse o altri.
+- Conoscenze di base: sarà utile avere familiarità con la programmazione Java e con i concetti base di PowerPoint.
 
 ## Importa pacchetti
-Prima di immergerci nel tutorial, importiamo i pacchetti necessari da Aspose.Slides per Java che utilizzeremo durante il tutorial.
+Prima di immergerci nel tutorial, importiamo i pacchetti necessari da Aspose.Slides per Java che utilizzeremo nel corso del tutorial.
 ```java
 import com.aspose.slides.*;
 import java.awt.*;
 import java.io.File;
 ```
 ## Passaggio 1: imposta il tuo progetto
-Innanzitutto, crea un nuovo progetto Java nel tuo IDE e aggiungi Aspose.Slides per Java alle dipendenze del tuo progetto. Assicurati che il file JAR Aspose.Slides necessario sia incluso nel percorso di compilazione del tuo progetto.
+Per prima cosa, crea un nuovo progetto Java nel tuo IDE e aggiungi Aspose.Slides per Java alle dipendenze del progetto. Assicurati che il file JAR di Aspose.Slides necessario sia incluso nel percorso di compilazione del progetto.
 ```java
-// Il percorso della directory dei documenti.
+// Percorso verso la directory dei documenti.
 String dataDir = "Your Document Directory";
 ```
 ## Passaggio 2: inizializzare l'oggetto di presentazione
-Inizia creando una nuova istanza di presentazione. Questo servirà come documento PowerPoint in cui aggiungerai diapositive e contenuti.
+Inizia creando una nuova istanza di presentazione. Questa fungerà da documento PowerPoint in cui aggiungerai diapositive e contenuti.
 ```java
 Presentation pres = new Presentation();
 ```
@@ -45,19 +47,19 @@ Successivamente, accedi alla diapositiva in cui desideri aggiungere i punti elen
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
 ```
-## Passaggio 4: aggiungi forma automatica con cornice di testo
-Aggiungi una forma alla diapositiva in cui posizionerai il testo con punti elenco multilivello.
+## Passaggio 4: aggiungere AutoShape con cornice di testo
+Aggiungi una forma automatica alla diapositiva in cui inserirai il testo con elenchi puntati a più livelli.
 ```java
 IAutoShape aShp = slide.getShapes().addAutoShape(ShapeType.Rectangle, 200, 200, 400, 200);
 ```
 ## Passaggio 5: accedi alla cornice di testo
-Accedi alla cornice di testo all'interno della forma in cui aggiungerai paragrafi con punti elenco.
+Accedi alla cornice di testo all'interno di AutoShape, dove potrai aggiungere paragrafi con punti elenco.
 ```java
 ITextFrame text = aShp.addTextFrame("");
-text.getParagraphs().clear(); //Cancella i paragrafi predefiniti
+text.getParagraphs().clear(); // Cancella i paragrafi predefiniti
 ```
-## Passaggio 6: aggiungi paragrafi con punti elenco
-Aggiungi paragrafi con diversi livelli di punti elenco. Ecco come puoi aggiungere punti elenco multilivello:
+## Passaggio 6: aggiungere paragrafi con elenchi puntati
+Aggiungi paragrafi con diversi livelli di punti elenco. Ecco come aggiungere punti elenco multilivello:
 ```java
 // Primo livello
 IParagraph para1 = new Paragraph();
@@ -96,28 +98,30 @@ para4.getParagraphFormat().getDefaultPortionFormat().getFillFormat().getSolidFil
 para4.getParagraphFormat().setDepth((short) 3);
 text.getParagraphs().add(para4);
 ```
-## Passaggio 7: salva la presentazione
+## Passaggio 7: Salva la presentazione
 Infine, salva la presentazione come file PPTX nella directory desiderata.
 ```java
 pres.save(dataDir + "MultilevelBullet.pptx", SaveFormat.Pptx);
 ```
 
 ## Conclusione
-In questo tutorial, abbiamo spiegato come creare punti elenco multilivello nelle presentazioni di PowerPoint utilizzando Aspose.Slides per Java. Seguendo questi passaggi, puoi strutturare in modo efficace i tuoi contenuti con elenchi puntati organizzati a diversi livelli, migliorando la chiarezza e l'attrattiva visiva delle tue presentazioni.
+In questo tutorial, abbiamo spiegato come creare elenchi puntati multilivello nelle presentazioni di PowerPoint utilizzando Aspose.Slides per Java. Seguendo questi passaggi, puoi strutturare efficacemente i tuoi contenuti con elenchi puntati organizzati a diversi livelli, migliorando la chiarezza e l'impatto visivo delle tue presentazioni.
 ## Domande frequenti
 ### Posso personalizzare ulteriormente i simboli dei punti elenco?
 Sì, puoi personalizzare i simboli dei punti elenco modificando i caratteri Unicode o utilizzando forme diverse.
 ### Aspose.Slides supporta altri tipi di punti elenco?
-Sì, Aspose.Slides supporta una varietà di tipi di punti elenco inclusi simboli, numeri e immagini personalizzate.
+Sì, Aspose.Slides supporta vari tipi di punti elenco, tra cui simboli, numeri e immagini personalizzate.
 ### Aspose.Slides è compatibile con tutte le versioni di PowerPoint?
 Aspose.Slides genera presentazioni compatibili con Microsoft PowerPoint 2007 e versioni successive.
 ### Posso automatizzare la generazione di diapositive utilizzando Aspose.Slides?
 Sì, Aspose.Slides fornisce API per automatizzare la creazione, la modifica e la manipolazione delle presentazioni PowerPoint.
 ### Dove posso ottenere supporto per Aspose.Slides per Java?
- Puoi ottenere supporto dalla community e dagli esperti di Aspose.Slides su[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+Puoi ottenere supporto dalla community e dagli esperti di Aspose.Slides su [Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

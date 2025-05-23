@@ -1,14 +1,16 @@
 ---
-title: Fügen Sie Datenpunkten in Java-Folien Farbe hinzu
-linktitle: Fügen Sie Datenpunkten in Java-Folien Farbe hinzu
-second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie mit Aspose.Slides für Java Datenpunkten in Java-Folien Farbe hinzufügen.
-weight: 10
-url: /de/java/chart-data-manipulation/add-color-data-points-java-slides/
+"description": "Erfahren Sie, wie Sie mit Aspose.Slides für Java Datenpunkten in Java-Folien Farbe hinzufügen."
+"linktitle": "Fügen Sie Datenpunkten in Java-Folien Farbe hinzu"
+"second_title": "Aspose.Slides Java PowerPoint-Verarbeitungs-API"
+"title": "Fügen Sie Datenpunkten in Java-Folien Farbe hinzu"
+"url": "/de/java/chart-data-manipulation/add-color-data-points-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Fügen Sie Datenpunkten in Java-Folien Farbe hinzu
@@ -16,36 +18,36 @@ url: /de/java/chart-data-manipulation/add-color-data-points-java-slides/
 
 ## Einführung in das Hinzufügen von Farbe zu Datenpunkten in Java-Folien
 
-In diesem Tutorial zeigen wir, wie Sie mit Aspose.Slides für Java Datenpunkten in Java-Folien Farbe hinzufügen. Diese Schritt-für-Schritt-Anleitung enthält Quellcodebeispiele, die Ihnen bei dieser Aufgabe helfen.
+In diesem Tutorial zeigen wir, wie Sie Datenpunkten in Java-Folien mit Aspose.Slides für Java Farbe hinzufügen. Diese Schritt-für-Schritt-Anleitung enthält Quellcodebeispiele, die Sie bei der Bewältigung dieser Aufgabe unterstützen.
 
 ## Voraussetzungen
 
-Stellen Sie zunächst sicher, dass die folgenden Voraussetzungen erfüllt sind:
+Bevor Sie beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
 - Java-Entwicklungsumgebung
-- Aspose.Slides für Java-Bibliothek
+- Aspose.Slides für die Java-Bibliothek
 
 ## Schritt 1: Erstellen Sie eine neue Präsentation
 
-Zuerst erstellen wir eine neue Präsentation mit Aspose.Slides für Java. Diese Präsentation dient als Container für unser Diagramm.
+Zunächst erstellen wir eine neue Präsentation mit Aspose.Slides für Java. Diese Präsentation dient als Container für unser Diagramm.
 
 ```java
 Presentation pres = new Presentation();
 ```
 
-## Schritt 2: Fügen Sie ein Sunburst-Diagramm hinzu
+## Schritt 2: Hinzufügen eines Sunburst-Diagramms
 
-Fügen wir nun der Präsentation ein Sunburst-Diagramm hinzu. Wir geben den Diagrammtyp, die Position und die Größe an.
+Fügen wir nun der Präsentation ein Sunburst-Diagramm hinzu. Wir legen Diagrammtyp, Position und Größe fest.
 
 ```java
-// Der Pfad zum Dokumentverzeichnis.
+// Der Pfad zum Dokumentenverzeichnis.
 String dataDir = "Your Document Directory";
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Sunburst, 100, 100, 450, 400);
 ```
 
-## Schritt 3: Auf Datenpunkte zugreifen
+## Schritt 3: Zugriff auf Datenpunkte
 
- Um Datenpunkte im Diagramm zu ändern, müssen wir auf die`IChartDataPointCollection` Objekt.
+Um Datenpunkte im Diagramm zu ändern, müssen wir auf die `IChartDataPointCollection` Objekt.
 
 ```java
 IChartDataPointCollection dataPoints = chart.getChartData().getSeries().get_Item(0).getDataPoints();
@@ -77,7 +79,7 @@ Speichern Sie abschließend die Präsentation mit dem angepassten Diagramm.
 pres.save("Your Output Directory/AddColorToDataPoints.pptx", SaveFormat.Pptx);
 ```
 
-Das ist es! Sie haben mit Aspose.Slides für Java erfolgreich bestimmten Datenpunkten in einer Java-Folie Farbe hinzugefügt.
+Das war's! Sie haben mit Aspose.Slides für Java erfolgreich bestimmten Datenpunkten in einer Java-Folie Farbe hinzugefügt.
 
 ## Vollständiger Quellcode zum Hinzufügen von Farbe zu Datenpunkten in Java-Folien
 
@@ -85,7 +87,7 @@ Das ist es! Sie haben mit Aspose.Slides für Java erfolgreich bestimmten Datenpu
 Presentation pres = new Presentation();
 try
 {
-	// Der Pfad zum Dokumentverzeichnis.
+	// Der Pfad zum Dokumentenverzeichnis.
 	String dataDir = "Your Document Directory";
 	IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Sunburst, 100, 100, 450, 400);
 	IChartDataPointCollection dataPoints = chart.getChartData().getSeries().get_Item(0).getDataPoints();
@@ -97,7 +99,7 @@ try
 	branch1Label.getDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat().getSolidFillColor().setColor(java.awt.Color.YELLOW);
 	IFormat steam4Format = dataPoints.get_Item(9).getFormat();
 	steam4Format.getFill().setFillType(FillType.Solid);
-	steam4Format.getFill().getSolidFillColor().setColor(com.aspose.cells.Color.fromArgb(0, 176, 240, 255).d());//MACHEN
+	steam4Format.getFill().getSolidFillColor().setColor(com.aspose.cells.Color.fromArgb(0, 176, 240, 255).d());//ZU TUN
 	pres.save(dataDir + "AddColorToDataPoints.pptx", SaveFormat.Pptx);
 }
 finally
@@ -108,7 +110,7 @@ finally
 
 ## Abschluss
 
-In diesem Tutorial haben Sie gelernt, wie Sie mit Aspose.Slides für Java Datenpunkten in Java-Folien Farbe hinzufügen. Sie können Ihre Diagramme und Präsentationen weiter an Ihre spezifischen Anforderungen anpassen.
+In diesem Tutorial haben Sie gelernt, wie Sie Datenpunkten in Java-Folien mit Aspose.Slides für Java Farbe hinzufügen. Sie können Ihre Diagramme und Präsentationen weiter an Ihre spezifischen Anforderungen anpassen.
 
 ## Häufig gestellte Fragen
 
@@ -118,14 +120,16 @@ Um die Farbe anderer Datenpunkte zu ändern, können Sie einen ähnlichen Ansatz
 
 ### Kann ich andere Aspekte des Diagramms anpassen?
 
- Ja, Sie können verschiedene Aspekte des Diagramms anpassen, einschließlich Schriftarten, Beschriftungen, Titel und mehr. Weitere Informationen finden Sie im[Aspose.Slides für Java-Dokumentation](https://reference.aspose.com/slides/java/) für detaillierte Anpassungsoptionen.
+Ja, Sie können verschiedene Aspekte des Diagramms anpassen, einschließlich Schriftarten, Beschriftungen, Titel und mehr. Weitere Informationen finden Sie im [Aspose.Slides für Java-Dokumentation](https://reference.aspose.com/slides/java/) für detaillierte Anpassungsoptionen.
 
 ### Wo finde ich weitere Beispiele und Dokumentation?
 
- Weitere Beispiele und eine ausführliche Dokumentation zur Verwendung von Aspose.Slides für Java finden Sie auf der[Aspose.Slides-Dokumentation](https://reference.aspose.com/slides/java/) Webseite.
+Weitere Beispiele und eine ausführliche Dokumentation zur Verwendung von Aspose.Slides für Java finden Sie auf der [Aspose.Slides-Dokumentation](https://reference.aspose.com/slides/java/) Webseite.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

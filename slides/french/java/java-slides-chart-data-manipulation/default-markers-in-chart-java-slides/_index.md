@@ -1,30 +1,32 @@
 ---
-title: Marqueurs par défaut dans le graphique dans les diapositives Java
-linktitle: Marqueurs par défaut dans le graphique dans les diapositives Java
-second_title: API de traitement Java PowerPoint d'Aspose.Slides
-description: Découvrez comment créer des diapositives Java avec des marqueurs par défaut dans des graphiques à l'aide d'Aspose.Slides pour Java. Guide étape par étape avec le code source.
-weight: 16
-url: /fr/java/chart-data-manipulation/default-markers-in-chart-java-slides/
+"description": "Apprenez à créer des diapositives Java avec des marqueurs par défaut dans les graphiques à l'aide d'Aspose.Slides pour Java. Guide étape par étape avec code source."
+"linktitle": "Marqueurs par défaut dans les graphiques des diapositives Java"
+"second_title": "API de traitement Java PowerPoint Aspose.Slides"
+"title": "Marqueurs par défaut dans les graphiques des diapositives Java"
+"url": "/fr/java/chart-data-manipulation/default-markers-in-chart-java-slides/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Marqueurs par défaut dans le graphique dans les diapositives Java
+# Marqueurs par défaut dans les graphiques des diapositives Java
 
 
-## Introduction aux marqueurs par défaut dans le graphique dans les diapositives Java
+## Introduction aux marqueurs par défaut dans les graphiques en Java (diapositives)
 
-Dans ce didacticiel, nous verrons comment créer un graphique avec des marqueurs par défaut à l'aide d'Aspose.Slides pour Java. Les marqueurs par défaut sont des symboles ou des formes ajoutés aux points de données dans un graphique pour les mettre en évidence. Nous allons créer un graphique linéaire avec des marqueurs pour visualiser les données.
+Dans ce tutoriel, nous allons découvrir comment créer un graphique avec des marqueurs par défaut à l'aide d'Aspose.Slides pour Java. Les marqueurs par défaut sont des symboles ou des formes ajoutés aux points de données d'un graphique pour les mettre en évidence. Nous allons créer un graphique en courbes avec des marqueurs pour visualiser les données.
 
-## Conditions préalables
+## Prérequis
 
 Avant de commencer, assurez-vous que la bibliothèque Aspose.Slides pour Java est installée et configurée dans votre projet Java.
 
 ## Étape 1 : Créer une présentation
 
-Tout d’abord, créons une présentation et ajoutons-y une diapositive. Nous ajouterons ensuite un graphique à la diapositive.
+Commençons par créer une présentation et y ajouter une diapositive. Nous y ajouterons ensuite un graphique.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -32,9 +34,9 @@ Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
 ```
 
-## Étape 2 : ajouter un graphique linéaire avec des marqueurs
+## Étape 2 : Ajouter un graphique linéaire avec des marqueurs
 
-Maintenant, ajoutons un graphique linéaire avec des marqueurs à la diapositive. Nous effacerons également toutes les données par défaut du graphique.
+Ajoutons maintenant un graphique linéaire avec des marqueurs à la diapositive. Nous allons également supprimer toutes les données par défaut du graphique.
 
 ```java
 IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 10, 10, 400, 400);
@@ -44,7 +46,7 @@ chart.getChartData().getCategories().clear();
 
 ## Étape 3 : Remplir les données du graphique
 
-Nous allons remplir le graphique avec des exemples de données. Dans cet exemple, nous allons créer deux séries avec des points de données et des catégories.
+Nous allons remplir le graphique avec des données d'exemple. Dans cet exemple, nous allons créer deux séries avec des points de données et des catégories.
 
 ```java
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
@@ -65,7 +67,7 @@ series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 4, 1, null));
 chart.getChartData().getSeries().add(fact.getCell(0, 0, 2, "Series 2"));
 IChartSeries series2 = chart.getChartData().getSeries().get_Item(1);
 
-// Remplir les données des séries
+// Remplissage des données de la série
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 1, 2, 30));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 2, 2, 10));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 3, 2, 60));
@@ -81,20 +83,20 @@ chart.setLegend(true);
 chart.getLegend().setOverlay(false);
 ```
 
-## Étape 5 : Enregistrez la présentation
+## Étape 5 : Enregistrer la présentation
 
-Enfin, enregistrez la présentation avec le graphique à l'emplacement souhaité.
+Enfin, enregistrez la présentation avec le graphique à l’emplacement souhaité.
 
 ```java
 pres.save(dataDir + "DefaultMarkersInChart.pptx", SaveFormat.Pptx);
 ```
 
-C'est ça! Vous avez créé un graphique linéaire avec des marqueurs par défaut à l'aide d'Aspose.Slides pour Java.
+Et voilà ! Vous avez créé un graphique linéaire avec des marqueurs par défaut à l'aide d'Aspose.Slides pour Java.
 
-## Code source complet pour les marqueurs par défaut dans le graphique dans les diapositives Java
+## Code source complet des marqueurs par défaut dans les diapositives Java
 
 ```java
-        // Le chemin d'accès au répertoire des documents.
+        // Le chemin vers le répertoire des documents.
         String dataDir = "Your Document Directory";
         Presentation pres = new Presentation();
         try
@@ -117,7 +119,7 @@ C'est ça! Vous avez créé un graphique linéaire avec des marqueurs par défau
             chart.getChartData().getSeries().add(fact.getCell(0, 0, 2, "Series 2"), chart.getType());
             //Prendre la deuxième série de graphiques
             IChartSeries series2 = chart.getChartData().getSeries().get_Item(1);
-            //Remplir maintenant les données de série
+            //Les données de la série sont maintenant en cours de remplissage
             series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 1, 2, 30));
             series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 2, 2, 10));
             series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 3, 2, 60));
@@ -133,24 +135,26 @@ C'est ça! Vous avez créé un graphique linéaire avec des marqueurs par défau
 ```
 ## Conclusion
 
-Dans ce didacticiel complet, vous avez appris à créer des diapositives Java avec des marqueurs par défaut dans des graphiques à l'aide d'Aspose.Slides pour Java. Nous avons couvert l'ensemble du processus, de la configuration d'une présentation à la personnalisation de l'apparence du graphique et à l'enregistrement du résultat.
+Dans ce tutoriel complet, vous avez appris à créer des diapositives Java avec des marqueurs par défaut dans des graphiques à l'aide d'Aspose.Slides pour Java. Nous avons couvert l'intégralité du processus, de la configuration d'une présentation à la personnalisation de l'apparence du graphique, en passant par l'enregistrement du résultat.
 
 ## FAQ
 
-### Comment puis-je modifier les symboles des marqueurs ?
+### Comment puis-je changer les symboles des marqueurs ?
 
-Vous pouvez personnaliser les symboles de marqueur en définissant le style de marqueur pour chaque point de données. Utiliser`IDataPoint.setMarkerStyle()` pour changer le symbole du marqueur.
+Vous pouvez personnaliser les symboles de marqueur en définissant le style de marqueur pour chaque point de données. `IDataPoint.setMarkerStyle()` pour changer le symbole du marqueur.
 
 ### Comment ajuster les couleurs du graphique ?
 
- Pour modifier les couleurs du graphique, vous pouvez utiliser le`IChartSeriesFormat` et`IShapeFillFormat` interfaces pour définir les propriétés de remplissage et de ligne.
+Pour modifier les couleurs du graphique, vous pouvez utiliser le `IChartSeriesFormat` et `IShapeFillFormat` interfaces pour définir les propriétés de remplissage et de ligne.
 
 ### Puis-je ajouter des étiquettes aux points de données ?
 
- Oui, vous pouvez ajouter des étiquettes aux points de données à l'aide de l'outil`IDataPoint.getLabel()` et personnalisez-les selon vos besoins.
+Oui, vous pouvez ajouter des étiquettes aux points de données à l'aide de l' `IDataPoint.getLabel()` méthode et les personnaliser selon vos besoins.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

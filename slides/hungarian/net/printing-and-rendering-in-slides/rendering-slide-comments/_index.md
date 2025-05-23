@@ -1,27 +1,29 @@
 ---
-title: Dia megjegyzések megjelenítése az Aspose.Slides-ben
-linktitle: Dia megjegyzések megjelenítése az Aspose.Slides-ben
-second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Fedezze fel, hogyan jeleníthet meg diakommentárokat az Aspose.Slides for .NET-ben a lépésenkénti oktatóanyagunk segítségével. Testreszabhatja a megjegyzések megjelenését, és javíthatja PowerPoint automatizálását.
-weight: 12
-url: /hu/net/printing-and-rendering-in-slides/rendering-slide-comments/
+"description": "Fedezd fel lépésről lépésre bemutató oktatóanyagunk segítségével, hogyan jeleníthetsz meg diákhozzászólásokat az Aspose.Slides for .NET programban. Szabd testre a megjegyzések megjelenését és fokozd a PowerPoint automatizálásodat."
+"linktitle": "Diakommentek renderelése az Aspose.Slides-ban"
+"second_title": "Aspose.Slides .NET PowerPoint feldolgozási API"
+"title": "Diakommentek renderelése az Aspose.Slides-ban"
+"url": "/hu/net/printing-and-rendering-in-slides/rendering-slide-comments/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dia megjegyzések megjelenítése az Aspose.Slides-ben
+# Diakommentek renderelése az Aspose.Slides-ban
 
 ## Bevezetés
-Üdvözöljük átfogó oktatóanyagunkban a diakommentárok megjelenítéséről az Aspose.Slides for .NET használatával! Az Aspose.Slides egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak PowerPoint prezentációkkal .NET-alkalmazásaikban. Ebben az útmutatóban egy konkrét feladatra összpontosítunk – a diák megjegyzéseinek megjelenítésére –, és lépésről lépésre végigvezetjük a folyamaton.
+Üdvözlünk átfogó oktatóanyagunkban, amely az Aspose.Slides for .NET segítségével diakommentárok renderelését ismerteti! Az Aspose.Slides egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak PowerPoint-bemutatókkal .NET-alkalmazásaikban. Ebben az útmutatóban egy adott feladatra – a diakommentárok renderelésére – fogunk összpontosítani, és lépésről lépésre végigvezetjük a folyamaton.
 ## Előfeltételek
-Mielőtt belevetnénk magunkat az oktatóanyagba, győződjön meg arról, hogy a helyén van a következők:
--  Aspose.Slides for .NET Library: Győződjön meg arról, hogy a fejlesztői környezetében telepítve van az Aspose.Slides for .NET könyvtár. Ha még nem tette meg, letöltheti[itt](https://releases.aspose.com/slides/net/).
-- Fejlesztési környezet: Hozzon létre egy működő .NET fejlesztői környezetet, és rendelkezzen alapvető C#-ismeretekkel.
+Mielőtt belemerülnénk az oktatóanyagba, győződjünk meg róla, hogy a következők a helyükön vannak:
+- Aspose.Slides .NET könyvtárhoz: Győződjön meg arról, hogy az Aspose.Slides .NET könyvtár telepítve van a fejlesztői környezetében. Ha még nem tette meg, letöltheti. [itt](https://releases.aspose.com/slides/net/).
+- Fejlesztői környezet: Állítson be egy működő .NET fejlesztői környezetet, és rendelkezzen alapvető C# ismeretekkel.
 Most pedig kezdjük az oktatóanyaggal!
 ## Névterek importálása
-A C# kódban importálnia kell a szükséges névtereket az Aspose.Slides funkciók használatához. Adja hozzá a következő sorokat a fájl elejéhez:
+A C# kódodban importálnod kell a szükséges névtereket az Aspose.Slides funkcióinak használatához. Add hozzá a következő sorokat a fájl elejéhez:
 ```csharp
 using Aspose.Slides.Export;
 using Aspose.Slides;
@@ -29,27 +31,27 @@ using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
 ```
-## 1. lépés: Állítsa be a dokumentumkönyvtárat
-Először adja meg a dokumentumkönyvtár elérési útját, ahol a PowerPoint bemutató található:
+## 1. lépés: Dokumentumkönyvtár beállítása
+Kezdje azzal, hogy megadja a dokumentumkönyvtár elérési útját, ahol a PowerPoint-bemutató található:
 ```csharp
 string dataDir = "Your Document Directory";
 ```
 ## 2. lépés: Adja meg a kimeneti útvonalat
-Határozza meg az elérési utat, ahová a megjelenített képet megjegyzésekkel menteni szeretné:
+Adja meg a renderelt kép mentési útvonalát megjegyzésekkel:
 ```csharp
 string resultPath = Path.Combine(dataDir, "OutPresBitmap_Comments.png");
 ```
 ## 3. lépés: Töltse be a prezentációt
-Töltse be a PowerPoint bemutatót az Aspose.Slides könyvtár használatával:
+Töltsd be a PowerPoint prezentációt az Aspose.Slides könyvtár segítségével:
 ```csharp
 Presentation pres = new Presentation(dataDir + "presentation.pptx");
 ```
-## 4. lépés: Hozzon létre egy bitképet a rendereléshez
-Hozzon létre egy bittérképes objektumot a kívánt méretekkel:
+## 4. lépés: Bitkép létrehozása rendereléshez
+Hozz létre egy bitkép objektumot a kívánt méretekkel:
 ```csharp
 Bitmap bmp = new Bitmap(740, 960);
 ```
-## 5. lépés: Konfigurálja a renderelési beállításokat
+## 5. lépés: Renderelési beállítások konfigurálása
 Konfigurálja a megjelenítési beállításokat, beleértve a jegyzetek és megjegyzések elrendezési beállításait:
 ```csharp
 IRenderingOptions renderOptions = new RenderingOptions();
@@ -60,8 +62,8 @@ notesOptions.CommentsPosition = CommentsPositions.Right;
 notesOptions.NotesPosition = NotesPositions.BottomTruncated;
 renderOptions.SlidesLayoutOptions = notesOptions;
 ```
-## 6. lépés: Renderelje le a Grafikára
-Jelenítse meg az első diát megjegyzésekkel a megadott grafikus objektumnak:
+## 6. lépés: Renderelés grafikává
+Rendereld az első diát a megadott grafikus objektumhoz fűzött megjegyzésekkel:
 ```csharp
 using (Graphics graphics = Graphics.FromImage(bmp))
 {
@@ -69,32 +71,34 @@ using (Graphics graphics = Graphics.FromImage(bmp))
 }
 ```
 ## 7. lépés: Mentse el az eredményt
-Mentse el a megjelenített képet megjegyzésekkel a megadott elérési útra:
+Mentse el a renderelt képet megjegyzésekkel a megadott elérési útra:
 ```csharp
 bmp.Save(resultPath, ImageFormat.Png);
 ```
-## 8. lépés: Jelenítse meg az eredményt
-Nyissa meg a renderelt képet az alapértelmezett képnézegetővel:
+## 8. lépés: Az eredmény megjelenítése
+Nyissa meg a renderelt képet az alapértelmezett képmegjelenítővel:
 ```csharp
 System.Diagnostics.Process.Start(resultPath);
 ```
-Gratulálunk! Sikeresen megjelenítette a dia megjegyzéseit az Aspose.Slides for .NET használatával.
+Gratulálunk! Sikeresen megjelenítetted a diakommenteket az Aspose.Slides for .NET használatával.
 ## Következtetés
-Ebben az oktatóanyagban megvizsgáltuk a diakommentárok megjelenítésének folyamatát az Aspose.Slides for .NET használatával. A lépésenkénti útmutató követésével könnyedén fejlesztheti PowerPoint automatizálási képességeit.
+Ebben az oktatóanyagban az Aspose.Slides for .NET használatával történő diakommentelés-renderelést vizsgáltuk meg. A lépésről lépésre haladó útmutató követésével könnyedén fejlesztheted PowerPoint automatizálási képességeidet.
 ## Gyakran Ismételt Kérdések
-### K: Az Aspose.Slides kompatibilis a legújabb .NET-keretrendszer-verziókkal?
-V: Igen, az Aspose.Slides rendszeresen frissül, hogy támogassa a legújabb .NET-keretrendszer-verziókat.
+### K: Az Aspose.Slides kompatibilis a legújabb .NET keretrendszer verziókkal?
+V: Igen, az Aspose.Slides rendszeresen frissül, hogy támogassa a legújabb .NET keretrendszer verziókat.
 ### K: Testreszabhatom a megjelenített megjegyzések megjelenését?
-V: Abszolút! Az oktatóanyag tartalmazza a megjegyzésterület színének, szélességének és pozíciójának testreszabását.
-### K: Hol találok további dokumentációt az Aspose.Slides for .NET-hez?
- V: Fedezze fel a dokumentációt[itt](https://reference.aspose.com/slides/net/).
-### K: Hogyan szerezhetek ideiglenes licencet az Aspose.Slides számára?
- V: Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+V: Természetesen! Az oktatóanyag tartalmazza a megjegyzésterület színének, szélességének és pozíciójának testreszabására szolgáló lehetőségeket.
+### K: Hol találok további dokumentációt az Aspose.Slides for .NET-ről?
+A: Tekintse meg a dokumentációt [itt](https://reference.aspose.com/slides/net/).
+### K: Hogyan szerezhetek ideiglenes licencet az Aspose.Slides-hoz?
+V: Ideiglenes jogosítványt szerezhet. [itt](https://purchase.aspose.com/temporary-license/).
 ### K: Hol kérhetek segítséget és támogatást az Aspose.Slides-hez?
- V: Látogassa meg a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) közösségi támogatásért.
+V: Látogassa meg a [Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) közösségi támogatásért.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

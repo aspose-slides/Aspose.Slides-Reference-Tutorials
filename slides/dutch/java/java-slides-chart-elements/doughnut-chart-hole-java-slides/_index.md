@@ -1,26 +1,28 @@
 ---
-title: Ringdiagramgat in Java-dia's
-linktitle: Ringdiagramgat in Java-dia's
-second_title: Aspose.Slides Java PowerPoint-verwerkings-API
-description: Maak ringdiagrammen met aangepaste gatgroottes in Java-dia's met Aspose.Slides voor Java. Stapsgewijze handleiding met broncode voor het aanpassen van diagrammen.
-weight: 11
-url: /nl/java/chart-elements/doughnut-chart-hole-java-slides/
+"description": "Maak ringdiagrammen met aangepaste gatgroottes in Java Slides met Aspose.Slides voor Java. Stapsgewijze handleiding met broncode voor het aanpassen van de grafiek."
+"linktitle": "Gat in de donutgrafiek in Java-dia's"
+"second_title": "Aspose.Slides Java PowerPoint-verwerkings-API"
+"title": "Gat in de donutgrafiek in Java-dia's"
+"url": "/nl/java/chart-elements/doughnut-chart-hole-java-slides/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ringdiagramgat in Java-dia's
+# Gat in de donutgrafiek in Java-dia's
 
 
-## Inleiding tot ringdiagram met een gat in Java-dia's
+## Inleiding tot donutdiagram met gat in Java-dia's
 
-In deze zelfstudie begeleiden we u bij het maken van een ringdiagram met een gat met behulp van Aspose.Slides voor Java. Deze stapsgewijze handleiding leidt u door het proces met broncodevoorbeelden.
+In deze tutorial laten we je zien hoe je een ringdiagram met een gat maakt met Aspose.Slides voor Java. Deze stapsgewijze handleiding leidt je door het proces met broncodevoorbeelden.
 
 ## Vereisten
 
- Voordat u begint, moet u ervoor zorgen dat de Aspose.Slides voor Java-bibliotheek is geïnstalleerd en ingesteld in uw Java-project. Je kunt het downloaden van de[Aspose.Slides voor Java-documentatie](https://reference.aspose.com/slides/java/).
+Voordat u begint, moet u ervoor zorgen dat de Aspose.Slides voor Java-bibliotheek is geïnstalleerd en ingesteld in uw Java-project. U kunt deze downloaden van de [Aspose.Slides voor Java-documentatie](https://reference.aspose.com/slides/java/).
 
 ## Stap 1: Importeer de vereiste bibliotheken
 
@@ -37,18 +39,18 @@ import com.aspose.slides.SaveFormat;
 // Het pad naar de documentenmap.
 String dataDir = "Your Document Directory";
 
-// Maak een exemplaar van de presentatieklasse
+// Een exemplaar van de presentatieklasse maken
 Presentation presentation = new Presentation();
 ```
 
-## Stap 3: Maak het ringdiagram
+## Stap 3: Maak de donutgrafiek
 
 ```java
 try {
-    // Maak een ringdiagram op de eerste dia
+    // Maak een donutdiagram op de eerste dia
     IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Doughnut, 50, 50, 400, 400);
     
-    // Stel de grootte van het gat in het ringdiagram in (in percentage)
+    // Stel de grootte van het gat in het ringdiagram in (in procenten)
     chart.getChartData().getSeriesGroups().get_Item(0).setDoughnutHoleSize((byte) 90);
     
     // Sla de presentatie op schijf op
@@ -61,14 +63,14 @@ try {
 
 ## Stap 4: Voer de code uit
 
- Voer de Java-code uit in uw IDE- of teksteditor om een ringdiagram met een opgegeven gatgrootte te maken. Zorg ervoor dat u vervangt`"Your Document Directory"` met het daadwerkelijke pad waar u de presentatie wilt opslaan.
+Voer de Java-code uit in je IDE of teksteditor om een ringdiagram te maken met een opgegeven gatgrootte. Zorg ervoor dat je `"Your Document Directory"` met het daadwerkelijke pad waar u de presentatie wilt opslaan.
 
-## Volledige broncode voor ringdiagramgat in Java-dia's
+## Volledige broncode voor het gat in een donutdiagram in Java-dia's
 
 ```java
 // Het pad naar de documentenmap.
 String dataDir = "Your Document Directory";
-// Maak een exemplaar van de presentatieklasse
+// Een exemplaar van de presentatieklasse maken
 Presentation presentation = new Presentation();
 try
 {
@@ -85,24 +87,26 @@ finally
 
 ## Conclusie
 
- In deze zelfstudie hebt u geleerd hoe u een ringdiagram met een gat kunt maken met Aspose.Slides voor Java. U kunt de grootte van het gat aanpassen door de`setDoughnutHoleSize` methodeparameter.
+In deze tutorial heb je geleerd hoe je een ringdiagram met een gat maakt met Aspose.Slides voor Java. Je kunt de grootte van het gat aanpassen door de `setDoughnutHoleSize` methodeparameter.
 
 ## Veelgestelde vragen
 
-### Hoe kan ik de kleur van de diagramsegmenten wijzigen?
+### Hoe kan ik de kleur van de grafieksegmenten wijzigen?
 
- Om de kleur van de diagramsegmenten te wijzigen, kunt u de`setDataPointsInLegend` methode op de`IChart` object en stel de gewenste kleur in voor elk gegevenspunt.
+Om de kleur van de diagramsegmenten te wijzigen, kunt u de `setDataPointsInLegend` methode op de `IChart` object en stel de gewenste kleur in voor elk gegevenspunt.
 
-### Kan ik labels toevoegen aan de ringdiagramsegmenten?
+### Kan ik labels toevoegen aan de segmenten van het ringdiagram?
 
- Ja, u kunt labels aan de ringdiagramsegmenten toevoegen met behulp van de`setDataPointsLabelValue` methode op de`IChart` voorwerp.
+Ja, u kunt labels toevoegen aan de segmenten van het ringdiagram met behulp van de `setDataPointsLabelValue` methode op de `IChart` voorwerp.
 
-### Is het mogelijk om een titel aan het diagram toe te voegen?
+### Is het mogelijk om een titel aan de grafiek toe te voegen?
 
- Zeker! U kunt een titel aan het diagram toevoegen met behulp van de`setTitle` methode op de`IChart` object en het verstrekken van de gewenste titeltekst.
+Zeker! Je kunt een titel aan de grafiek toevoegen met behulp van de `setTitle` methode op de `IChart` object en geef de gewenste titeltekst op.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

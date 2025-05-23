@@ -1,40 +1,42 @@
 ---
-title: Přidejte do Slides Java popisek donut
-linktitle: Přidejte do Slides Java popisek donut
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Naučte se přidávat donutové popisky do Java snímků pomocí Aspose.Slides pro Java. Podrobný průvodce se zdrojovým kódem pro vylepšené prezentace.
-weight: 12
-url: /cs/java/chart-data-manipulation/add-doughnut-callout-java-slides/
+"description": "Naučte se přidávat popisky koblih do slidů v Javě pomocí Aspose.Slides pro Javu. Podrobný návod se zdrojovým kódem pro vylepšené prezentace."
+"linktitle": "Přidání popisku koblihy v Javě Slides"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Přidání popisku koblihy v Javě Slides"
+"url": "/cs/java/chart-data-manipulation/add-doughnut-callout-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidejte do Slides Java popisek donut
+# Přidání popisku koblihy v Javě Slides
 
 
-## Úvod k přidání popisku donut do snímků Java pomocí Aspose.Slides pro Java
+## Úvod do přidání popisku koblihy v Java Slides pomocí Aspose.Slides pro Javu
 
-V tomto tutoriálu vás provedeme procesem přidání Donut Callout do snímku v Javě pomocí Aspose.Slides for Java. Popisek prstence je prvek grafu, který lze použít ke zvýraznění konkrétních datových bodů v prstencovém grafu. Pro vaše pohodlí vám poskytneme podrobné pokyny a kompletní zdrojový kód.
+V tomto tutoriálu vás provedeme procesem přidání prstencového popisku na snímek v Javě pomocí Aspose.Slides for Java. Prstencový popisek je prvek grafu, který lze použít k zvýraznění konkrétních datových bodů v prstencovém grafu. Pro vaše pohodlí vám poskytneme podrobné pokyny a kompletní zdrojový kód.
 
 ## Předpoklady
 
 Než začnete, ujistěte se, že máte splněny následující předpoklady:
 
-1. Vývojové prostředí Java
+1. Vývojové prostředí v Javě
 2. Aspose.Slides pro knihovnu Java
 3. Integrované vývojové prostředí (IDE) jako Eclipse nebo IntelliJ IDEA
-4. PowerPointová prezentace, do které chcete přidat popisek donut
+4. Prezentace v PowerPointu, kam chcete přidat popisek koblihy
 
-## Krok 1: Nastavte svůj Java Project
+## Krok 1: Nastavení projektu Java
 
-1. Vytvořte nový Java projekt ve zvoleném IDE.
-2. Přidejte knihovnu Aspose.Slides for Java do svého projektu jako závislost.
+1. Vytvořte nový projekt Java ve zvoleném IDE.
+2. Přidejte do projektu knihovnu Aspose.Slides pro Javu jako závislost.
 
-## Krok 2: Inicializujte prezentaci
+## Krok 2: Inicializace prezentace
 
-Chcete-li začít, budete muset inicializovat prezentaci v PowerPointu a vytvořit snímek, kam chcete přidat popisek Donut. Zde je kód, jak toho dosáhnout:
+Chcete-li začít, budete muset inicializovat prezentaci v PowerPointu a vytvořit snímek, kam chcete přidat popisek prstence. Zde je kód, který toho dosáhnete:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -42,19 +44,19 @@ Presentation pres = new Presentation(dataDir + "testc.pptx");
 ISlide slide = pres.getSlides().get_Item(0);
 ```
 
- Nezapomeňte vyměnit`"Your Document Directory"` se skutečnou cestou k souboru prezentace PowerPoint.
+Nezapomeňte vyměnit `"Your Document Directory"` se skutečnou cestou k souboru vaší prezentace v PowerPointu.
 
 ## Krok 3: Vytvořte prstencový graf
 
-Dále na snímku vytvoříte prstencový graf. Umístění a velikost grafu můžete upravit podle svých požadavků. Zde je kód pro přidání prstencového grafu:
+Dále na snímku vytvoříte prstencový graf. Umístění a velikost grafu si můžete přizpůsobit podle svých požadavků. Zde je kód pro přidání prstencového grafu:
 
 ```java
 IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, false);
 ```
 
-## Krok 4: Přizpůsobte si prstencový graf
+## Krok 4: Přizpůsobení prstencového grafu
 
-Nyní je čas upravit prstencový graf. Nastavíme různé vlastnosti, jako je odstranění legendy, konfigurace velikosti otvoru a úprava úhlu prvního řezu. Zde je kód:
+Nyní je čas přizpůsobit prstencový graf. Nastavíme různé vlastnosti, jako je odstranění legendy, konfigurace velikosti otvoru a úprava úhlu prvního řezu. Zde je kód:
 
 ```java
 IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
@@ -71,11 +73,11 @@ while (seriesIndex < 15) {
 }
 ```
 
-Tento fragment kódu nastavuje vlastnosti prstencového grafu. Hodnoty můžete upravit tak, aby vyhovovaly vašim konkrétním potřebám.
+Tento úryvek kódu nastavuje vlastnosti prstencového grafu. Hodnoty můžete upravit podle svých specifických potřeb.
 
-## Krok 5: Přidejte data do prstencového grafu
+## Krok 5: Přidání dat do prstencového grafu
 
-Nyní přidáme data do prstencového grafu. Přizpůsobíme také vzhled datových bodů. Zde je kód, jak toho dosáhnout:
+Nyní přidáme data do prstencového grafu. Také upravíme vzhled datových bodů. Zde je kód, který toho dosáhne:
 
 ```java
 int categoryIndex = 0;
@@ -86,28 +88,28 @@ while (categoryIndex < 15) {
         IChartSeries iCS = chart.getChartData().getSeries().get_Item(i);
         IChartDataPoint dataPoint = iCS.getDataPoints().addDataPointForDoughnutSeries(workBook.getCell(0, categoryIndex + 1, i + 1, 1));
         dataPoint.getFormat().getFill().setFillType(FillType.Solid);
-        // Zde můžete přizpůsobit vzhled datových bodů
+        // Zde si můžete upravit vzhled datových bodů
         i++;
     }
     categoryIndex++;
 }
 ```
 
-V tomto kódu přidáváme kategorie a datové body do prstencového grafu. Vzhled datových bodů můžete dále upravit podle potřeby.
+V tomto kódu přidáváme kategorie a datové body do prstencového grafu. Vzhled datových bodů si můžete dále přizpůsobit dle potřeby.
 
 ## Krok 6: Uložte prezentaci
 
-Nakonec nezapomeňte po přidání Donut Callout prezentaci uložit. Zde je kód pro uložení prezentace:
+Nakonec nezapomeňte po přidání popisku koblihy prezentaci uložit. Zde je kód pro uložení prezentace:
 
 ```java
 pres.save(dataDir + "chart.pptx", SaveFormat.Pptx);
 ```
 
- Nezapomeňte vyměnit`"chart.pptx"` s požadovaným názvem souboru.
+Nezapomeňte vyměnit `"chart.pptx"` s požadovaným názvem souboru.
 
-Gratulujeme! Úspěšně jste přidali popisek donut na snímek Java pomocí Aspose.Slides for Java. Nyní můžete spustit aplikaci Java a vygenerovat PowerPointovou prezentaci s prstencovým grafem a popiskem.
+Gratulujeme! Úspěšně jste přidali prstencový popisek do snímku v Javě pomocí Aspose.Slides pro Javu. Nyní můžete spustit aplikaci Java a vygenerovat prezentaci PowerPoint s prstencovým grafem a popiskem.
 
-## Kompletní zdrojový kód pro přidání Donut Callout v Java Slides
+## Kompletní zdrojový kód pro přidání popisku koblihy v Javě Slides
 
 ```java
 String dataDir = "Your Document Directory";
@@ -171,24 +173,26 @@ pres.save(dataDir + "chart.pptx", SaveFormat.Pptx);
 
 ## Závěr
 
-V tomto tutoriálu jsme se zabývali procesem přidávání Donut Callout do snímku Java pomocí Aspose.Slides for Java. Naučili jste se, jak vytvořit prstencový graf, přizpůsobit jeho vzhled a přidat datové body. Neváhejte dále vylepšit své prezentace pomocí této výkonné knihovny a prozkoumejte další možnosti vytváření grafů.
+V tomto tutoriálu jsme se zabývali procesem přidání prstencového popisku na snímek v Javě pomocí knihovny Aspose.Slides pro Javu. Naučili jste se, jak vytvořit prstencový graf, přizpůsobit jeho vzhled a přidat datové body. Neváhejte a vylepšete své prezentace pomocí této výkonné knihovny a prozkoumejte další možnosti vytváření grafů.
 
-## FAQ
+## Často kladené otázky
 
-### Jak mohu změnit vzhled Donut Callout?
+### Jak mohu změnit vzhled popisku koblihy?
 
-Vzhled prstence můžete upravit úpravou vlastností datových bodů v grafu. V poskytnutém kódu můžete vidět, jak nastavit barvu výplně, barvu čáry, styl písma a další atributy datových bodů.
+Vzhled prstencového popisku si můžete přizpůsobit úpravou vlastností datových bodů v grafu. V poskytnutém kódu vidíte, jak nastavit barvu výplně, barvu čáry, styl písma a další atributy datových bodů.
 
 ### Mohu do prstencového grafu přidat další datové body?
 
-Ano, do prstencového grafu můžete přidat tolik datových bodů, kolik potřebujete. Jednoduše rozšiřte smyčky v kódu, kam se přidávají kategorie a datové body, a poskytněte příslušná data a formátování.
+Ano, do prstencového grafu můžete přidat libovolný počet datových bodů. Jednoduše rozšířte smyčky v kódu, kde se přidávají kategorie a datové body, a zadejte příslušná data a formátování.
 
 ### Jak mohu upravit polohu a velikost prstencového grafu na snímku?
 
- Pozici a velikost prstencového grafu můžete změnit úpravou parametrů v`addChart` metoda. Čtyři čísla v této metodě odpovídají souřadnicím X a Y levého horního rohu grafu a jeho šířce a výšce.
+Umístění a velikost prstencového grafu můžete změnit úpravou parametrů v `addChart` metoda. Čtyři čísla v této metodě odpovídají souřadnicím X a Y levého horního rohu grafu a jeho šířce a výšce.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Legenda voor lettergrootte in Java-dia's
-linktitle: Legenda voor lettergrootte in Java-dia's
-second_title: Aspose.Slides Java PowerPoint-verwerkings-API
-description: Verbeter PowerPoint-presentaties met Aspose.Slides voor Java. Leer hoe u de lettergrootte van legenda's kunt aanpassen en meer in onze stapsgewijze handleiding.
-weight: 13
-url: /nl/java/chart-elements/font-size-legend-java-slides/
+"description": "Verbeter PowerPoint-presentaties met Aspose.Slides voor Java. Leer hoe u de lettergrootte van legenda's kunt aanpassen en meer in onze stapsgewijze handleiding."
+"linktitle": "Legenda voor lettergrootte in Java-dia's"
+"second_title": "Aspose.Slides Java PowerPoint-verwerkings-API"
+"title": "Legenda voor lettergrootte in Java-dia's"
+"url": "/nl/java/chart-elements/font-size-legend-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Legenda voor lettergrootte in Java-dia's
@@ -16,11 +18,11 @@ url: /nl/java/chart-elements/font-size-legend-java-slides/
 
 ## Inleiding tot de legenda van de lettergrootte in Java-dia's
 
-In deze zelfstudie leert u hoe u de lettergrootte van de legenda in een PowerPoint-dia kunt aanpassen met Aspose.Slides voor Java. We zullen stapsgewijze instructies en broncode leveren om deze taak te volbrengen.
+In deze tutorial leer je hoe je de lettergrootte van de legenda in een PowerPoint-dia kunt aanpassen met Aspose.Slides voor Java. We bieden stapsgewijze instructies en broncode om dit te doen.
 
 ## Vereisten
 
- Voordat u begint, moet u ervoor zorgen dat de Aspose.Slides voor Java-bibliotheek is geïnstalleerd en ingesteld in uw Java-project. U kunt de bibliotheek downloaden van[hier](https://releases.aspose.com/slides/java/).
+Voordat u begint, moet u ervoor zorgen dat de Aspose.Slides voor Java-bibliotheek is geïnstalleerd en ingesteld in uw Java-project. U kunt de bibliotheek downloaden van [hier](https://releases.aspose.com/slides/java/).
 
 ## Stap 1: Initialiseer de presentatie
 
@@ -32,11 +34,11 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 ```
 
- Vervangen`"Your Document Directory"` met het daadwerkelijke pad naar uw PowerPoint-bestand.
+Vervangen `"Your Document Directory"` met het daadwerkelijke pad naar uw PowerPoint-bestand.
 
-## Stap 2: Voeg een diagram toe
+## Stap 2: Een grafiek toevoegen
 
-Vervolgens voegen we een diagram aan de dia toe en stellen we de lettergrootte van de legenda in.
+Vervolgens voegen we een grafiek toe aan de dia en stellen we de lettergrootte van de legenda in.
 
 ```java
 try
@@ -46,11 +48,11 @@ try
 }
 ```
 
- In deze code maken we een geclusterd kolomdiagram op de eerste dia en stellen we de lettergrootte van de legendatekst in op 20 punten. U kunt de`setFontHeight`waarde om de lettergrootte indien nodig te wijzigen.
+In deze code maken we een geclusterde kolomgrafiek op de eerste dia en stellen we de lettergrootte van de legenda in op 20 punten. U kunt de `setFontHeight` waarde om de lettergrootte indien nodig te wijzigen.
 
 ## Stap 3: Aswaarden aanpassen
 
-Laten we nu de verticale aswaarden van het diagram aanpassen.
+Laten we nu de waarden voor de verticale as van de grafiek aanpassen.
 
 ```java
     chart.getAxes().getVerticalAxis().setAutomaticMinValue(false);
@@ -59,7 +61,7 @@ Laten we nu de verticale aswaarden van het diagram aanpassen.
     chart.getAxes().getVerticalAxis().setMaxValue(10);
 ```
 
-Hier stellen we de minimum- en maximumwaarden voor de verticale as in. U kunt de waarden aanpassen aan uw gegevensvereisten.
+Hier stellen we de minimum- en maximumwaarden voor de verticale as in. U kunt de waarden aanpassen aan uw datavereisten.
 
 ## Stap 4: Sla de presentatie op
 
@@ -100,34 +102,34 @@ finally
 
 ## Conclusie
 
-U hebt met succes de lettergrootte van de legenda in een Java PowerPoint-dia aangepast met Aspose.Slides voor Java. U kunt de mogelijkheden van Aspose.Slides verder verkennen om interactieve en visueel aantrekkelijke presentaties te maken.
+U hebt de lettergrootte van de legenda in een Java PowerPoint-dia succesvol aangepast met Aspose.Slides voor Java. U kunt de mogelijkheden van Aspose.Slides verder verkennen om interactieve en visueel aantrekkelijke presentaties te maken.
 
 ## Veelgestelde vragen
 
-### Hoe wijzig ik de lettergrootte van de legendatekst in een diagram?
+### Hoe verander ik de lettergrootte van de legendatekst in een grafiek?
 
-Om de lettergrootte van de legendatekst in een diagram te wijzigen, kunt u de volgende code gebruiken:
+Om de lettergrootte van de legendatekst in een grafiek te wijzigen, kunt u de volgende code gebruiken:
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 50, 50, 600, 400);
 chart.getLegend().getTextFormat().getPortionFormat().setFontHeight(20);
 ```
 
- In deze code maken we een diagram en stellen we de lettergrootte van de legendatekst in op 20 punten. U kunt de`setFontHeight` waarde om de lettergrootte te wijzigen.
+In deze code maken we een grafiek en stellen we de lettergrootte van de legenda in op 20 punten. U kunt de `setFontHeight` waarde om de lettergrootte te wijzigen.
 
-### Kan ik andere eigenschappen van de legenda in een diagram aanpassen?
+### Kan ik andere eigenschappen van de legenda in een grafiek aanpassen?
 
-Ja, u kunt verschillende eigenschappen van de legenda in een diagram aanpassen met Aspose.Slides. Enkele van de algemene eigenschappen die u kunt aanpassen, zijn onder meer tekstopmaak, positie, zichtbaarheid en meer. Om bijvoorbeeld de positie van de legenda te wijzigen, kunt u het volgende gebruiken:
+Ja, u kunt verschillende eigenschappen van de legenda in een grafiek aanpassen met Aspose.Slides. Enkele veelvoorkomende eigenschappen die u kunt aanpassen, zijn onder andere tekstopmaak, positie, zichtbaarheid en meer. Om bijvoorbeeld de positie van de legenda te wijzigen, kunt u het volgende doen:
 
 ```java
 chart.getLegend().setPosition(LegendPosition.Bottom);
 ```
 
-Deze code zorgt ervoor dat de legenda onder aan het diagram verschijnt. Verken de Aspose.Slides-documentatie voor meer aanpassingsopties.
+Met deze code wordt de legenda onder aan de grafiek weergegeven. Raadpleeg de Aspose.Slides-documentatie voor meer aanpassingsmogelijkheden.
 
-### Hoe stel ik minimum- en maximumwaarden in voor de verticale as in een diagram?
+### Hoe stel ik minimum- en maximumwaarden in voor de verticale as in een grafiek?
 
-Om minimum- en maximumwaarden voor de verticale as in een diagram in te stellen, kunt u de volgende code gebruiken:
+Om minimum- en maximumwaarden voor de verticale as in een grafiek in te stellen, kunt u de volgende code gebruiken:
 
 ```java
 chart.getAxes().getVerticalAxis().setAutomaticMinValue(false);
@@ -136,14 +138,16 @@ chart.getAxes().getVerticalAxis().setAutomaticMaxValue(false);
 chart.getAxes().getVerticalAxis().setMaxValue(10);
 ```
 
-Hier schakelen we het automatisch schalen van de assen uit en specificeren we de minimum- en maximumwaarden voor de verticale as. Pas de waarden indien nodig aan voor uw diagramgegevens.
+Hier schakelen we automatische asschaling uit en specificeren we de minimum- en maximumwaarden voor de verticale as. Pas de waarden indien nodig aan voor uw grafiekgegevens.
 
-### Waar kan ik meer informatie en documentatie voor Aspose.Slides vinden?
+### Waar kan ik meer informatie en documentatie over Aspose.Slides vinden?
 
- Uitgebreide documentatie en API-referenties voor Aspose.Slides voor Java vindt u op de documentatiewebsite van Aspose. Bezoek[hier](https://reference.aspose.com/slides/java/) voor gedetailleerde informatie over het gebruik van de bibliotheek.
+Uitgebreide documentatie en API-referenties voor Aspose.Slides voor Java vindt u op de Aspose-documentatiewebsite. Bezoek [hier](https://reference.aspose.com/slides/java/) voor gedetailleerde informatie over het gebruik van de bibliotheek.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

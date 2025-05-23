@@ -1,38 +1,40 @@
 ---
-title: Konwertuj slajdy do formatu PDF za pomocą notatek
-linktitle: Konwertuj slajdy do formatu PDF za pomocą notatek
-second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Bez wysiłku konwertuj slajdy prezentacji z notatkami prelegenta do formatu PDF za pomocą Aspose.Slides dla .NET. Bezproblemowo zachowuj treść i kontekst.
-weight: 18
-url: /pl/net/presentation-conversion/convert-slides-to-pdf-with-notes/
+"description": "Bezproblemowo konwertuj slajdy prezentacji z notatkami mówcy do formatu PDF za pomocą Aspose.Slides dla .NET. Bezproblemowo zachowaj zawartość i kontekst."
+"linktitle": "Konwertuj slajdy do formatu PDF z notatkami"
+"second_title": "Aspose.Slides .NET API przetwarzania programu PowerPoint"
+"title": "Konwertuj slajdy do formatu PDF z notatkami"
+"url": "/pl/net/presentation-conversion/convert-slides-to-pdf-with-notes/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Konwertuj slajdy do formatu PDF za pomocą notatek
+# Konwertuj slajdy do formatu PDF z notatkami
 
 
-# Napisz przewodnik krok po kroku dotyczący konwertowania slajdów do formatu PDF z notatkami przy użyciu Aspose.Slides dla .NET
+# Napisz przewodnik krok po kroku dotyczący konwersji slajdów do formatu PDF z notatkami przy użyciu Aspose.Slides dla platformy .NET
 
-Szukasz niezawodnego sposobu na konwersję slajdów programu PowerPoint do formatu PDF przy jednoczesnym zachowaniu wszystkich ważnych notatek? Nie szukaj dalej! W tym kompleksowym samouczku przeprowadzimy Cię krok po kroku przez proces korzystania z Aspose.Slides dla .NET, aby osiągnąć to zadanie.
+Szukasz niezawodnego sposobu na konwersję slajdów programu PowerPoint do formatu PDF, zachowując jednocześnie wszystkie ważne notatki? Nie szukaj dalej! W tym kompleksowym samouczku przeprowadzimy Cię przez proces korzystania z Aspose.Slides dla .NET, aby krok po kroku wykonać to zadanie.
 
-## 1. Wstęp
+## 1. Wprowadzenie
 
-Konwertowanie slajdów programu PowerPoint do formatu PDF z notatkami może być cennym narzędziem do udostępniania prezentacji, zapewniając jednocześnie zachowanie ważnego kontekstu i komentarzy. Aspose.Slides dla .NET zapewnia potężne rozwiązanie tego zadania.
+Konwersja slajdów programu PowerPoint do formatu PDF z notatkami może być cennym narzędziem do udostępniania prezentacji, zapewniając jednocześnie zachowanie ważnego kontekstu i komentarzy. Aspose.Slides for .NET zapewnia potężne rozwiązanie do tego zadania.
 
 ## 2. Konfigurowanie środowiska
 
-Zanim zagłębimy się w proces kodowania, upewnij się, że masz skonfigurowane niezbędne środowisko. Będziesz potrzebował:
+Zanim przejdziemy do procesu kodowania, upewnij się, że masz skonfigurowane niezbędne środowisko. Będziesz potrzebować:
 
 - Visual Studio lub preferowane środowisko programistyczne .NET.
-- Zainstalowana biblioteka Aspose.Slides dla .NET.
-- Prezentacja programu PowerPoint z notatkami, które chcesz przekonwertować.
+- Zainstalowano bibliotekę Aspose.Slides dla .NET.
+- Prezentacja programu PowerPoint zawierająca notatki, które chcesz przekonwertować.
 
 ## 3. Ładowanie prezentacji
 
-W kodzie C# musisz załadować prezentację programu PowerPoint, którą chcesz przekonwertować. Oto jak możesz to zrobić:
+kodzie C# musisz załadować prezentację PowerPoint, którą chcesz przekonwertować. Oto, jak możesz to zrobić:
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -43,7 +45,7 @@ Presentation presentation = new Presentation(dataDir + "SelectedSlides.pptx");
 
 ## 4. Klonowanie slajdu
 
-Aby mieć pewność, że plik PDF będzie zawierał wszystkie niezbędne slajdy z notatkami, możesz sklonować je z oryginalnej prezentacji. Oto jak:
+Aby mieć pewność, że Twój plik PDF zawiera wszystkie niezbędne slajdy z notatkami, możesz je sklonować z oryginalnej prezentacji. Oto jak to zrobić:
 
 ```csharp
 Presentation auxPresentation = new Presentation();
@@ -53,7 +55,7 @@ auxPresentation.Slides.InsertClone(0, slide);
 
 ## 5. Dostosowywanie rozmiaru slajdu
 
-Możesz dostosować rozmiar slajdu, aby dopasować go do pliku PDF. Aspose.Slides dla .NET pozwala to zrobić z łatwością:
+Możesz chcieć dostosować rozmiar slajdu do swojego pliku PDF. Aspose.Slides dla .NET pozwala to zrobić z łatwością:
 
 ```csharp
 auxPresentation.SlideSize.SetSize(612F, 792F, SlideSizeScaleType.EnsureFit);
@@ -61,7 +63,7 @@ auxPresentation.SlideSize.SetSize(612F, 792F, SlideSizeScaleType.EnsureFit);
 
 ## 6. Konfigurowanie opcji PDF
 
-Aby kontrolować sposób wyświetlania notatek w pliku PDF, możesz skonfigurować opcje pliku PDF:
+Aby kontrolować sposób wyświetlania notatek w pliku PDF, możesz skonfigurować opcje PDF:
 
 ```csharp
 PdfOptions pdfOptions = new PdfOptions();
@@ -69,7 +71,7 @@ INotesCommentsLayoutingOptions options = pdfOptions.NotesCommentsLayouting;
 options.NotesPosition = NotesPositions.BottomFull;
 ```
 
-## 7. Zapisywanie w formacie PDF z notatkami
+## 7. Zapisywanie jako PDF z notatkami
 
 Na koniec możesz zapisać swoją prezentację w formacie PDF z notatkami:
 
@@ -77,36 +79,38 @@ Na koniec możesz zapisać swoją prezentację w formacie PDF z notatkami:
 auxPresentation.Save(outPath + "PDFnotes_out.pdf", SaveFormat.Pdf, pdfOptions);
 ```
 
-## 8. Wniosek
+## 8. Wnioski
 
-Gratulacje! Pomyślnie przekonwertowałeś slajdy programu PowerPoint do formatu PDF, zachowując wszystkie ważne notatki. Aspose.Slides dla .NET sprawia, że proces ten jest prosty i wydajny.
+Gratulacje! Udało Ci się przekonwertować slajdy programu PowerPoint do formatu PDF, zachowując jednocześnie wszystkie ważne notatki. Aspose.Slides dla .NET sprawia, że ten proces jest prosty i wydajny.
 
 ## 9. Często zadawane pytania
 
 ### P1: Czy mogę dostosować układ notatek w pliku PDF?
 
- Tak, możesz dostosować układ notatek za pomocą`INotesCommentsLayoutingOptions` w opcjach PDF.
+Tak, możesz dostosować układ notatek za pomocą `INotesCommentsLayoutingOptions` w opcjach PDF.
 
-### P2: Czy Aspose.Slides dla .NET obsługuje inne formaty wyjściowe oprócz PDF?
+### P2: Czy Aspose.Slides dla platformy .NET obsługuje inne formaty wyjściowe oprócz PDF?
 
-Tak, Aspose.Slides dla .NET obsługuje różne formaty wyjściowe, w tym PPTX, DOCX i inne.
+Tak, Aspose.Slides dla platformy .NET obsługuje różne formaty wyjściowe, w tym PPTX, DOCX i inne.
 
-### P3: Czy dostępna jest wersja próbna Aspose.Slides dla .NET?
+### P3: Czy jest dostępna wersja próbna Aspose.Slides dla .NET?
 
- Tak, możesz uzyskać bezpłatną wersję próbną Aspose.Slides dla .NET pod adresem[https://releases.aspose.com/](https://releases.aspose.com/).
+Tak, możesz otrzymać bezpłatną wersję próbną Aspose.Slides dla .NET pod adresem [https://releases.aspose.com/](https://releases.aspose.com/).
 
 ### P4: Gdzie mogę uzyskać pomoc dotyczącą Aspose.Slides dla .NET?
 
- Wsparcie i dyskusje w społeczności można znaleźć pod adresem[https://forum.aspose.com/](https://forum.aspose.com/).
+Wsparcie i dyskusje społecznościowe można znaleźć na stronie [https://forum.aspose.com/](https://forum.aspose.com/).
 
-### P5: Czy mogę kupić tymczasową licencję na Aspose.Slides dla .NET?
+### P5: Czy mogę kupić tymczasową licencję na Aspose.Slides dla platformy .NET?
 
- Tak, możesz kupić tymczasową licencję na stronie[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
+Tak, możesz zakupić licencję tymczasową na [https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
 
-Podsumowując, używając Aspose.Slides dla .NET, możesz łatwo konwertować slajdy programu PowerPoint do formatu PDF z nienaruszonymi notatkami. Jest to cenne narzędzie dla profesjonalistów, którzy muszą udostępniać prezentacje współpracownikom i klientom, jednocześnie dbając o to, aby nie utracić ważnego kontekstu.
+Podsumowując, używając Aspose.Slides dla .NET, możesz łatwo przekonwertować slajdy PowerPoint do formatu PDF z nienaruszonymi notatkami. To cenne narzędzie dla profesjonalistów, którzy muszą udostępniać prezentacje współpracownikom i klientom, jednocześnie dbając o to, aby ważny kontekst nie został utracony.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

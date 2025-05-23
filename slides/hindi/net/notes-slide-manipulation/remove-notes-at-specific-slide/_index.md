@@ -1,28 +1,30 @@
 ---
-title: Aspose.Slides .NET के साथ किसी विशिष्ट स्लाइड पर नोट्स कैसे निकालें?
-linktitle: विशिष्ट स्लाइड पर नोट्स हटाएं
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: Aspose.Slides for .NET का उपयोग करके PowerPoint में किसी विशिष्ट स्लाइड से नोट्स हटाने का तरीका जानें। अपनी प्रस्तुतियों को सहजता से सुव्यवस्थित करें।
-weight: 12
-url: /hi/net/notes-slide-manipulation/remove-notes-at-specific-slide/
+"description": "Aspose.Slides for .NET का उपयोग करके PowerPoint में किसी विशिष्ट स्लाइड से नोट्स हटाने का तरीका जानें। अपनी प्रस्तुतियों को सहजता से सुव्यवस्थित करें।"
+"linktitle": "विशिष्ट स्लाइड से नोट्स हटाएं"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "Aspose.Slides .NET के साथ किसी विशिष्ट स्लाइड पर नोट्स कैसे निकालें?"
+"url": "/hi/net/notes-slide-manipulation/remove-notes-at-specific-slide/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Slides .NET के साथ किसी विशिष्ट स्लाइड पर नोट्स कैसे निकालें?
 
 
-इस चरण-दर-चरण मार्गदर्शिका में, हम आपको .NET के लिए Aspose.Slides का उपयोग करके PowerPoint प्रस्तुति में किसी विशिष्ट स्लाइड पर नोट्स हटाने की प्रक्रिया से परिचित कराएँगे। Aspose.Slides एक शक्तिशाली लाइब्रेरी है जो आपको PowerPoint फ़ाइलों के साथ प्रोग्रामेटिक रूप से काम करने की अनुमति देती है। चाहे आप डेवलपर हों या PowerPoint प्रस्तुतियों में कार्यों को स्वचालित करने की तलाश करने वाले व्यक्ति हों, यह ट्यूटोरियल आपको इसे आसानी से प्राप्त करने में मदद करेगा।
+इस चरण-दर-चरण मार्गदर्शिका में, हम आपको .NET के लिए Aspose.Slides का उपयोग करके PowerPoint प्रस्तुति में किसी विशिष्ट स्लाइड पर नोट्स हटाने की प्रक्रिया से परिचित कराएँगे। Aspose.Slides एक शक्तिशाली लाइब्रेरी है जो आपको प्रोग्रामेटिक रूप से PowerPoint फ़ाइलों के साथ काम करने की अनुमति देती है। चाहे आप डेवलपर हों या PowerPoint प्रस्तुतियों में कार्यों को स्वचालित करने की तलाश करने वाले व्यक्ति हों, यह ट्यूटोरियल आपको इसे आसानी से प्राप्त करने में मदद करेगा।
 
 ## आवश्यक शर्तें
 
 इससे पहले कि हम ट्यूटोरियल में आगे बढ़ें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
-1.  Aspose.Slides for .NET: आपको Aspose.Slides for .NET इंस्टॉल करना होगा। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides for .NET: आपको Aspose.Slides for .NET इंस्टॉल करना होगा। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/net/).
 
-2.  आपकी दस्तावेज़ निर्देशिका: प्रतिस्थापित करें`"Your Document Directory"` कोड में प्लेसहोल्डर को अपने दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ जोड़ें जहां आपका पावरपॉइंट प्रेजेंटेशन संग्रहीत है।
+2. आपकी दस्तावेज़ निर्देशिका: प्रतिस्थापित करें `"Your Document Directory"` कोड में प्लेसहोल्डर को अपने दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ जोड़ें जहां आपका पावरपॉइंट प्रेजेंटेशन संग्रहीत है।
 
 अब, आइए .NET के लिए Aspose.Slides का उपयोग करके किसी विशिष्ट स्लाइड पर नोट्स हटाने के लिए चरण-दर-चरण मार्गदर्शिका के साथ आगे बढ़ें।
 
@@ -40,7 +42,7 @@ using Aspose.Slides.Export;
 
 ## चरण 2: प्रस्तुति लोड करें
 
- आरंभ करने के लिए, हम एक प्रेजेंटेशन ऑब्जेक्ट को इंस्टैंसिएट करेंगे जो PowerPoint प्रेजेंटेशन फ़ाइल का प्रतिनिधित्व करता है।`"Your Document Directory"` अपनी प्रस्तुति के पथ के साथ.
+आरंभ करने के लिए, हम एक प्रेजेंटेशन ऑब्जेक्ट को इंस्टैंसिएट करेंगे जो PowerPoint प्रेजेंटेशन फ़ाइल का प्रतिनिधित्व करता है। `"Your Document Directory"` अपनी प्रस्तुति के पथ के साथ.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -70,7 +72,7 @@ presentation.Save(dataDir + "ModifiedPresentation.pptx", SaveFormat.Pptx);
 
 इस ट्यूटोरियल में, हमने .NET के लिए Aspose.Slides का उपयोग करके PowerPoint प्रेजेंटेशन में किसी विशिष्ट स्लाइड से नोट्स हटाने के चरणों को कवर किया है। सही टूल और कोड की कुछ पंक्तियों के साथ, आप इस कार्य को कुशलतापूर्वक स्वचालित कर सकते हैं।
 
- यदि आपके कोई प्रश्न हों या आपको कोई समस्या हो तो कृपया हमसे संपर्क करें[Aspose.Slides दस्तावेज़ीकरण](https://reference.aspose.com/slides/net/) या सहायता मांगें[Aspose.Slides फ़ोरम](https://forum.aspose.com/).
+यदि आपके कोई प्रश्न हों या आपको कोई समस्या हो तो कृपया हमसे संपर्क करें [Aspose.Slides दस्तावेज़ीकरण](https://reference.aspose.com/slides/net/) या सहायता मांगें [Aspose.Slides फ़ोरम](https://forum.aspose.com/).
 
 ## अक्सर पूछे जाने वाले प्रश्न (एफएक्यू)
 
@@ -81,16 +83,18 @@ Aspose.Slides for .NET, PowerPoint फ़ाइलों के साथ प्
 हां, आप स्लाइडों के माध्यम से लूप कर सकते हैं और समान कोड स्निपेट का उपयोग करके एकाधिक स्लाइडों से नोट्स हटा सकते हैं।
 
 ### क्या .NET के लिए Aspose.Slides का उपयोग निःशुल्क है?
- Aspose.Slides for .NET एक वाणिज्यिक लाइब्रेरी है, और आप उनके मूल्य निर्धारण की जानकारी और लाइसेंसिंग विकल्प पा सकते हैं[खरीद पृष्ठ](https://purchase.aspose.com/buy).
+Aspose.Slides for .NET एक वाणिज्यिक लाइब्रेरी है, और आप उनके मूल्य निर्धारण की जानकारी और लाइसेंसिंग विकल्प पा सकते हैं [खरीद पृष्ठ](https://purchase.aspose.com/buy).
 
 ### क्या मुझे .NET के लिए Aspose.Slides का उपयोग करने के लिए प्रोग्रामिंग अनुभव की आवश्यकता है?
 जबकि कुछ प्रोग्रामिंग ज्ञान उपयोगी है, Aspose.Slides विभिन्न कौशल स्तरों पर उपयोगकर्ताओं की सहायता के लिए दस्तावेज और उदाहरण प्रदान करता है।
 
 ### क्या .NET के लिए Aspose.Slides का कोई परीक्षण संस्करण उपलब्ध है?
-हां, आप यहां से निःशुल्क परीक्षण डाउनलोड करके Aspose.Slides का पता लगा सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप यहां से निःशुल्क परीक्षण डाउनलोड करके Aspose.Slides का पता लगा सकते हैं [यहाँ](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

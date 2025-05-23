@@ -1,51 +1,53 @@
 ---
-title: Calcular fórmulas en diapositivas de Java
-linktitle: Calcular fórmulas en diapositivas de Java
-second_title: Aspose.Slides API de procesamiento de PowerPoint Java
-description: Aprenda a calcular fórmulas en Java Slides usando Aspose.Slides para Java. Guía paso a paso con código fuente para presentaciones dinámicas de PowerPoint.
-weight: 10
-url: /es/java/data-manipulation/calculate-formulas-java-slides/
+"description": "Aprenda a calcular fórmulas en Java Slides con Aspose.Slides para Java. Guía paso a paso con código fuente para presentaciones dinámicas de PowerPoint."
+"linktitle": "Calcular fórmulas en diapositivas de Java"
+"second_title": "API de procesamiento de PowerPoint en Java de Aspose.Slides"
+"title": "Calcular fórmulas en diapositivas de Java"
+"url": "/es/java/data-manipulation/calculate-formulas-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Calcular fórmulas en diapositivas de Java
 
 
-## Introducción al cálculo de fórmulas en diapositivas Java usando Aspose.Slides
+## Introducción al cálculo de fórmulas en Java (diapositivas con Aspose.Slides)
 
-En esta guía, demostraremos cómo calcular fórmulas en Java Slides utilizando la API Aspose.Slides para Java. Aspose.Slides es una biblioteca poderosa para trabajar con presentaciones de PowerPoint y proporciona funciones para manipular gráficos y realizar cálculos de fórmulas dentro de las diapositivas.
+En esta guía, demostraremos cómo calcular fórmulas en Java Slides mediante la API Aspose.Slides para Java. Aspose.Slides es una potente biblioteca para trabajar con presentaciones de PowerPoint y ofrece funciones para manipular gráficos y realizar cálculos con fórmulas en las diapositivas.
 
-## Requisitos previos
+## Prerrequisitos
 
 Antes de comenzar, asegúrese de tener lo siguiente:
 
-- Entorno de desarrollo Java
--  Biblioteca Aspose.Slides para Java (puede descargarla desde[aquí](https://releases.aspose.com/slides/java/)
-- Conocimientos básicos de programación Java.
+- Entorno de desarrollo de Java
+- Biblioteca Aspose.Slides para Java (puede descargarla desde [aquí](https://releases.aspose.com/slides/java/)
+- Conocimientos básicos de programación Java
 
-## Paso 1: crea una nueva presentación
+## Paso 1: Crear una nueva presentación
 
-Primero, creemos una nueva presentación de PowerPoint y agreguemosle una diapositiva. Trabajaremos con una sola diapositiva en este ejemplo.
+Primero, creemos una nueva presentación de PowerPoint y añadamos una diapositiva. En este ejemplo, trabajaremos con una sola diapositiva.
 
 ```java
 String resultPath = "Your Output Directory" + "CalculateFormulas_out.pptx";
 Presentation presentation = new Presentation();
 ```
 
-## Paso 2: agregue un gráfico a la diapositiva
+## Paso 2: Agregar un gráfico a la diapositiva
 
-Ahora, agreguemos un gráfico de columnas agrupadas a la diapositiva. Usaremos este cuadro para demostrar los cálculos de fórmulas.
+Ahora, agreguemos un gráfico de columnas agrupadas a la diapositiva. Lo usaremos para demostrar el cálculo de fórmulas.
 
 ```java
 IChart s_chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);
 ```
 
-## Paso 3: establecer fórmulas y valores
+## Paso 3: Establecer fórmulas y valores
 
-A continuación, estableceremos fórmulas y valores para las celdas de datos del gráfico utilizando la API Aspose.Slides. Calcularemos las fórmulas para estas celdas.
+continuación, definiremos fórmulas y valores para las celdas de datos del gráfico mediante la API Aspose.Slides. Calcularemos las fórmulas para estas celdas.
 
 ```java
 IChartDataWorkbook workbook = s_chart.getChartData().getChartDataWorkbook();
@@ -66,20 +68,20 @@ workbook.calculateFormulas();
 workbook.getCell(0, "C2").setFormula("A2 + 4");
 workbook.calculateFormulas();
 
-// Establecer la fórmula para la celda A1 nuevamente
+// Establecer nuevamente la fórmula para la celda A1
 cell.setFormula("MAX(2:2)");
 workbook.calculateFormulas();
 ```
 
-## Paso 4: guarde la presentación
+## Paso 4: Guardar la presentación
 
-Finalmente, guardemos la presentación modificada con las fórmulas calculadas.
+Por último, guardemos la presentación modificada con las fórmulas calculadas.
 
 ```java
 presentation.save(resultPath, SaveFormat.Pptx);
 ```
 
-## Código fuente completo para calcular fórmulas en diapositivas de Java
+## Código fuente completo para calcular fórmulas en Java (diapositivas)
 
 ```java
 String resultPath = "Your Output Directory" + "CalculateFormulas_out.pptx";
@@ -105,25 +107,27 @@ try {
 
 ## Conclusión
 
-En esta guía, hemos aprendido cómo calcular fórmulas en Java Slides usando Aspose.Slides para Java. Creamos una nueva presentación, le agregamos un gráfico, configuramos fórmulas y valores para las celdas de datos del gráfico y guardamos la presentación con las fórmulas calculadas.
+En esta guía, aprendimos a calcular fórmulas en Java Slides usando Aspose.Slides para Java. Creamos una nueva presentación, le agregamos un gráfico, definimos fórmulas y valores para las celdas de datos del gráfico y guardamos la presentación con las fórmulas calculadas.
 
 ## Preguntas frecuentes
 
-### ¿Cómo configuro fórmulas para celdas de datos de gráficos?
+### ¿Cómo configuro fórmulas para las celdas de datos del gráfico?
 
- Puede establecer fórmulas para celdas de datos del gráfico utilizando el`setFormula` método de`IChartDataCell` en Aspose.Diapositivas.
+Puede establecer fórmulas para las celdas de datos del gráfico utilizando el `setFormula` método de `IChartDataCell` en Aspose.Slides.
 
-### ¿Cómo configuro valores para las celdas de datos del gráfico?
+### ¿Cómo establezco valores para las celdas de datos del gráfico?
 
- Puede establecer valores para las celdas de datos del gráfico utilizando el`setValue` método de`IChartDataCell` en Aspose.Diapositivas.
+Puede establecer valores para las celdas de datos del gráfico utilizando el `setValue` método de `IChartDataCell` en Aspose.Slides.
 
 ### ¿Cómo calculo fórmulas en un libro de trabajo?
 
- Puede calcular fórmulas en un libro de trabajo usando el`calculateFormulas` método de`IChartDataWorkbook` en Aspose.Diapositivas.
+Puede calcular fórmulas en un libro de trabajo utilizando la `calculateFormulas` método de `IChartDataWorkbook` en Aspose.Slides.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

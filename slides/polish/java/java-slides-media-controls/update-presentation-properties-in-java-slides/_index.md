@@ -1,63 +1,65 @@
 ---
-title: Zaktualizuj właściwości prezentacji w slajdach Java
-linktitle: Zaktualizuj właściwości prezentacji w slajdach Java
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Dowiedz się, jak zaktualizować właściwości prezentacji na slajdach Java za pomocą Aspose.Slides for Java. Dostosuj autora, tytuł i inne elementy, aby uzyskać efektowne prezentacje.
-weight: 13
-url: /pl/java/media-controls/update-presentation-properties-in-java-slides/
+"description": "Dowiedz się, jak aktualizować właściwości prezentacji w slajdach Java przy użyciu Aspose.Slides for Java. Dostosuj autora, tytuł i inne elementy, aby prezentacje były efektowne."
+"linktitle": "Aktualizowanie właściwości prezentacji w slajdach Java"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Aktualizowanie właściwości prezentacji w slajdach Java"
+"url": "/pl/java/media-controls/update-presentation-properties-in-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zaktualizuj właściwości prezentacji w slajdach Java
+# Aktualizowanie właściwości prezentacji w slajdach Java
 
 
-## Wprowadzenie do aktualizowania właściwości prezentacji w slajdach Java
+## Wprowadzenie do aktualizacji właściwości prezentacji w slajdach Java
 
-dzisiejszej erze cyfrowej prezentacje odgrywają kluczową rolę w skutecznym przekazywaniu informacji. Niezależnie od tego, czy jest to propozycja biznesowa, wykład edukacyjny czy prezentacja sprzedażowa, prezentacje służą do przekazywania pomysłów, danych i koncepcji. W świecie programowania w języku Java może się okazać, że będziesz musiał manipulować właściwościami prezentacji, aby poprawić jakość i efekt swoich slajdów. W tym obszernym przewodniku przeprowadzimy Cię przez proces aktualizacji właściwości prezentacji na slajdach Java za pomocą Aspose.Slides for Java.
+dzisiejszej erze cyfrowej prezentacje odgrywają kluczową rolę w skutecznym przekazywaniu informacji. Niezależnie od tego, czy jest to propozycja biznesowa, wykład edukacyjny czy oferta sprzedaży, prezentacje służą do komunikowania pomysłów, danych i koncepcji. W świecie programowania Java możesz potrzebować manipulować właściwościami prezentacji, aby poprawić jakość i wpływ swoich slajdów. W tym kompleksowym przewodniku przeprowadzimy Cię przez proces aktualizacji właściwości prezentacji w slajdach Java przy użyciu Aspose.Slides for Java.
 
-## Warunki wstępne
+## Wymagania wstępne
 
-Zanim zagłębimy się w kod i przewodnik krok po kroku, upewnij się, że spełnione są następujące wymagania wstępne:
+Zanim przejdziemy do kodu i przewodnika krok po kroku, upewnij się, że spełnione są następujące wymagania wstępne:
 
-- Środowisko programistyczne Java: Powinieneś mieć zainstalowaną Javę w swoim systemie.
+- Środowisko programistyczne Java: w systemie powinna być zainstalowana Java.
 
--  Aspose.Slides dla Java: Pobierz i zainstaluj Aspose.Slides dla Java ze strony internetowej. Możesz znaleźć link do pobrania[Tutaj](https://releases.aspose.com/slides/java/).
+- Aspose.Slides dla Java: Pobierz i zainstaluj Aspose.Slides dla Java ze strony internetowej. Link do pobrania znajdziesz [Tutaj](https://releases.aspose.com/slides/java/).
 
-## Krok 1: Konfiguracja projektu
+## Krok 1: Konfigurowanie projektu
 
 Aby rozpocząć, utwórz nowy projekt Java w preferowanym zintegrowanym środowisku programistycznym (IDE). Po skonfigurowaniu projektu upewnij się, że dodałeś bibliotekę Aspose.Slides for Java do zależności projektu.
 
-## Krok 2: Czytanie informacji o prezentacji
+## Krok 2: Odczytanie informacji z prezentacji
 
-W tym kroku zapoznamy się z informacjami zawartymi w pliku prezentacji. Odbywa się to za pomocą następującego fragmentu kodu:
+W tym kroku odczytamy informacje z pliku prezentacji. Robimy to za pomocą następującego fragmentu kodu:
 
 ```java
 // Ścieżka do katalogu dokumentów.
 String dataDir = "Your Document Directory";
-// przeczytaj informacje o prezentacji
+// przeczytaj info o prezentacji 
 IPresentationInfo info = PresentationFactory.getInstance().getPresentationInfo(dataDir + "ModifyBuiltinProperties1.pptx");
 ```
 
- Zastępować`"Your Document Directory"` z rzeczywistą ścieżką do pliku prezentacji.
+Zastępować `"Your Document Directory"` z rzeczywistą ścieżką do pliku prezentacji.
 
 ## Krok 3: Uzyskanie aktualnych właściwości
 
-Po zapoznaniu się z informacjami prezentacyjnymi należy uzyskać aktualne właściwości. Jest to kluczowe, ponieważ chcemy dokonać zmian w tych właściwościach. Użyj poniższego kodu, aby pobrać bieżące właściwości:
+Po przeczytaniu informacji z prezentacji musimy uzyskać bieżące właściwości. Jest to kluczowe, ponieważ chcemy wprowadzić zmiany w tych właściwościach. Użyj następującego kodu, aby pobrać bieżące właściwości:
 
 ```java
-// uzyskać aktualne właściwości
+// uzyskać aktualne właściwości 
 IDocumentProperties props = info.readDocumentProperties();
 ```
 
-## Krok 4: Ustalanie nowych wartości
+## Krok 4: Ustawianie nowych wartości
 
-Teraz, gdy mamy już aktualne właściwości, możemy ustawić nowe wartości dla konkretnych pól. W tym przykładzie ustawimy pola autora i tytułu na nowe wartości:
+Teraz, gdy mamy bieżące właściwości, możemy ustawić nowe wartości dla określonych pól. W tym przykładzie ustawimy pola autora i tytułu na nowe wartości:
 
 ```java
-// ustaw nowe wartości pól Autor i Tytuł
+// ustaw nowe wartości pól Autor i Tytuł 
 props.setAuthor("New Author");
 props.setTitle("New Title");
 ```
@@ -66,61 +68,63 @@ Możesz dostosować ten krok, aby w razie potrzeby zaktualizować inne właściw
 
 ## Krok 5: Aktualizacja prezentacji
 
-Po ustawieniu nowych wartości właściwości czas zaktualizować prezentację o te nowe wartości. Dzięki temu zmiany zostaną zapisane w pliku prezentacji. Użyj następującego kodu:
+Po ustawieniu nowych wartości właściwości nadszedł czas na aktualizację prezentacji o te nowe wartości. Dzięki temu zmiany zostaną zapisane w pliku prezentacji. Użyj następującego kodu:
 
 ```java
-// zaktualizować prezentację o nowe wartości
+// zaktualizuj prezentację o nowe wartości 
 info.updateDocumentProperties(props);
 info.writeBindedPresentation(dataDir + "ModifyBuiltinProperties1.pptx");
 ```
 
 Ten kod zapisze zmodyfikowane właściwości z powrotem do pliku prezentacji.
 
-## Kompletny kod źródłowy aktualizacji właściwości prezentacji w slajdach Java
+## Kompletny kod źródłowy do aktualizacji właściwości prezentacji w slajdach Java
 
 ```java
 // Ścieżka do katalogu dokumentów.
 String dataDir = "Your Document Directory";
-// przeczytaj informacje o prezentacji
+// przeczytaj info o prezentacji 
 IPresentationInfo info = PresentationFactory.getInstance().getPresentationInfo(dataDir + "ModifyBuiltinProperties1.pptx");
-// uzyskać aktualne właściwości
+// uzyskać aktualne właściwości 
 IDocumentProperties props = info.readDocumentProperties();
-// ustaw nowe wartości pól Autor i Tytuł
+// ustaw nowe wartości pól Autor i Tytuł 
 props.setAuthor("New Author");
 props.setTitle("New Title");
-// zaktualizować prezentację o nowe wartości
+// zaktualizuj prezentację o nowe wartości 
 info.updateDocumentProperties(props);
 info.writeBindedPresentation(dataDir + "ModifyBuiltinProperties1.pptx");
 ```
 
 ## Wniosek
 
-W tym przewodniku omówiliśmy, jak zaktualizować właściwości prezentacji na slajdach Java za pomocą Aspose.Slides for Java. Wykonując czynności opisane powyżej, możesz dostosować różne właściwości dokumentu, aby ulepszyć informacje powiązane z plikami prezentacji. Niezależnie od tego, czy aktualizujesz autora, tytuł czy inne właściwości, Aspose.Slides dla Java zapewnia solidne rozwiązanie do programowego zarządzania właściwościami prezentacji.
+tym przewodniku przyjrzeliśmy się sposobowi aktualizowania właściwości prezentacji w slajdach Java przy użyciu Aspose.Slides for Java. Postępując zgodnie z powyższymi krokami, możesz dostosować różne właściwości dokumentu, aby wzbogacić informacje powiązane z plikami prezentacji. Niezależnie od tego, czy aktualizujesz autora, tytuł czy inne właściwości, Aspose.Slides for Java zapewnia solidne rozwiązanie do zarządzania właściwościami prezentacji programowo.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
 ### Jak zainstalować Aspose.Slides dla Java?
 
-Aspose.Slides dla Java można zainstalować, pobierając bibliotekę ze strony internetowej. Odwiedzać[ten link](https://releases.aspose.com/slides/java/) aby uzyskać dostęp do strony pobierania i postępuj zgodnie z dostarczonymi instrukcjami instalacji.
+Aspose.Slides dla Java można zainstalować, pobierając bibliotekę ze strony internetowej. Odwiedź [ten link](https://releases.aspose.com/slides/java/) aby uzyskać dostęp do strony pobierania i postępować zgodnie z wyświetlanymi instrukcjami instalacji.
 
 ### Czy mogę zaktualizować wiele właściwości dokumentu w jednej operacji?
 
- Tak, możesz zaktualizować wiele właściwości dokumentu w jednej operacji. Wystarczy zmodyfikować odpowiednie pola w pliku`IDocumentProperties` obiekt przed aktualizacją prezentacji.
+Tak, możesz aktualizować wiele właściwości dokumentu w jednej operacji. Po prostu zmodyfikuj odpowiednie pola w `IDocumentProperties` obiekt przed aktualizacją prezentacji.
 
-### Jakie inne właściwości dokumentu mogę modyfikować za pomocą Aspose.Slides for Java?
+### Jakie inne właściwości dokumentu mogę modyfikować za pomocą Aspose.Slides dla Java?
 
-Aspose.Slides for Java umożliwia modyfikowanie szerokiego zakresu właściwości dokumentu, w tym między innymi autora, tytułu, tematu, słów kluczowych i właściwości niestandardowych. Pełną listę właściwości, którymi można manipulować, można znaleźć w dokumentacji.
+Aspose.Slides for Java umożliwia modyfikowanie szerokiego zakresu właściwości dokumentu, w tym między innymi autora, tytułu, tematu, słów kluczowych i właściwości niestandardowych. Zapoznaj się z dokumentacją, aby uzyskać pełną listę właściwości, którymi możesz manipulować.
 
-### Czy Aspose.Slides dla Java nadaje się zarówno do użytku osobistego, jak i komercyjnego?
+### Czy Aspose.Slides for Java nadaje się zarówno do użytku osobistego, jak i komercyjnego?
 
-Tak, Aspose.Slides for Java może być używany zarówno w projektach osobistych, jak i komercyjnych. Oferuje opcje licencjonowania dostosowane do różnych scenariuszy użytkowania.
+Tak, Aspose.Slides for Java może być używany zarówno do projektów osobistych, jak i komercyjnych. Oferuje opcje licencjonowania, aby dostosować się do różnych scenariuszy użytkowania.
 
 ### Jak mogę uzyskać dostęp do dokumentacji Aspose.Slides dla Java?
 
- Dostęp do dokumentacji Aspose.Slides for Java można uzyskać, odwiedzając następujący link:[Aspose.Slides dla dokumentacji Java](https://reference.aspose.com/slides/java/).
+Dostęp do dokumentacji Aspose.Slides for Java można uzyskać, odwiedzając poniższy link: [Aspose.Slides dla dokumentacji Java](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

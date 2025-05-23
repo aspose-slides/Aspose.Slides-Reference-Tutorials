@@ -1,33 +1,35 @@
 ---
-title: Löschen bestimmter Datenpunktdaten von Diagrammreihen in Java-Folien
-linktitle: Löschen bestimmter Datenpunktdaten von Diagrammreihen in Java-Folien
-second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie mit Aspose.Slides für Java bestimmte Datenpunkte aus einer Diagrammreihe in Java Slides löschen. Schritt-für-Schritt-Anleitung mit Quellcode für effektives Datenvisualisierungsmanagement.
-weight: 15
-url: /de/java/chart-data-manipulation/clear-specific-chart-series-data-points-java-slides/
+"description": "Erfahren Sie, wie Sie mit Aspose.Slides für Java bestimmte Datenpunkte aus einer Diagrammreihe in Java Slides löschen. Schritt-für-Schritt-Anleitung mit Quellcode für effektives Datenvisualisierungsmanagement."
+"linktitle": "Löschen bestimmter Datenpunktdaten von Diagrammreihen in Java-Folien"
+"second_title": "Aspose.Slides Java PowerPoint-Verarbeitungs-API"
+"title": "Löschen bestimmter Datenpunktdaten von Diagrammreihen in Java-Folien"
+"url": "/de/java/chart-data-manipulation/clear-specific-chart-series-data-points-java-slides/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Löschen bestimmter Datenpunktdaten von Diagrammreihen in Java-Folien
 
 
-## Einführung in das Löschen bestimmter Datenpunktdaten von Diagrammreihen in Java-Folien
+## Einführung in das Löschen spezifischer Datenpunktdaten von Diagrammreihen in Java-Folien
 
-In diesem Tutorial führen wir Sie durch den Prozess zum Löschen bestimmter Datenpunkte aus einer Diagrammreihe in einer PowerPoint-Präsentation mit Aspose.Slides für Java. Dies kann nützlich sein, wenn Sie bestimmte Datenpunkte aus einem Diagramm entfernen möchten, um Ihre Datenvisualisierung zu aktualisieren oder zu ändern.
+In diesem Tutorial führen wir Sie durch das Löschen bestimmter Datenpunkte aus einer Diagrammreihe in einer PowerPoint-Präsentation mit Aspose.Slides für Java. Dies kann nützlich sein, wenn Sie bestimmte Datenpunkte aus einem Diagramm entfernen möchten, um Ihre Datenvisualisierung zu aktualisieren oder zu ändern.
 
 ## Voraussetzungen
 
- Bevor wir beginnen, stellen Sie sicher, dass Sie die Aspose.Slides für Java-Bibliothek in Ihr Projekt integriert haben. Sie können sie hier herunterladen:[Hier](https://releases.aspose.com/slides/java/).
+Bevor wir beginnen, stellen Sie sicher, dass Sie die Aspose.Slides für Java-Bibliothek in Ihr Projekt integriert haben. Sie können sie hier herunterladen. [Hier](https://releases.aspose.com/slides/java/).
 
 ## Schritt 1: Laden Sie die Präsentation
 
- Zuerst müssen wir die PowerPoint-Präsentation laden, die das zu ändernde Diagramm enthält. Ersetzen`"Your Document Directory"` durch den tatsächlichen Pfad zu Ihrer Präsentationsdatei.
+Zuerst müssen wir die PowerPoint-Präsentation laden, die das zu ändernde Diagramm enthält. Ersetzen `"Your Document Directory"` durch den tatsächlichen Pfad zu Ihrer Präsentationsdatei.
 
 ```java
-// Der Pfad zum Dokumentverzeichnis.
+// Der Pfad zum Dokumentenverzeichnis.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "TestChart.pptx");
 ```
@@ -43,7 +45,7 @@ IChart chart = (IChart) slide.getShapes().get_Item(0);
 
 ## Schritt 3: Bestimmte Datenpunkte löschen
 
-Jetzt durchlaufen wir die Datenpunkte der ersten Reihe des Diagramms und löschen ihre X- und Y-Werte.
+Nun durchlaufen wir die Datenpunkte der ersten Reihe des Diagramms und löschen ihre X- und Y-Werte.
 
 ```java
 for (IChartDataPoint dataPoint : chart.getChartData().getSeries().get_Item(0).getDataPoints()) {
@@ -52,7 +54,7 @@ for (IChartDataPoint dataPoint : chart.getChartData().getSeries().get_Item(0).ge
 }
 ```
 
- Dieser Code durchläuft jeden Datenpunkt in der ersten Reihe (Index 0) und setzt sowohl die X- als auch die Y-Werte auf`null`wodurch die Datenpunkte effektiv gelöscht werden.
+Dieser Code durchläuft jeden Datenpunkt in der ersten Reihe (Index 0) und setzt sowohl die X- als auch die Y-Werte auf `null`, wodurch die Datenpunkte effektiv gelöscht werden.
 
 ## Schritt 4: Gelöschte Datenpunkte entfernen
 
@@ -75,7 +77,7 @@ pres.save(dataDir + "ClearSpecificChartSeriesDataPointsData.pptx", SaveFormat.Pp
 ## Vollständiger Quellcode zum Löschen spezifischer Datenpunktdaten von Diagrammreihen in Java-Folien
 
 ```java
-// Der Pfad zum Dokumentverzeichnis.
+// Der Pfad zum Dokumentenverzeichnis.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "TestChart.pptx");
 try
@@ -98,11 +100,11 @@ finally
 
 ## Abschluss
 
- In diesem Handbuch haben Sie gelernt, wie Sie mit Aspose.Slides für Java bestimmte Datenpunkte aus einer Diagrammreihe in einer PowerPoint-Präsentation löschen. Dies kann nützlich sein, wenn Sie Diagrammdaten in Ihren Java-Anwendungen dynamisch aktualisieren oder ändern müssen. Wenn Sie weitere Fragen haben oder zusätzliche Hilfe benötigen, lesen Sie bitte die[Aspose.Slides für Java-Dokumentation](https://reference.aspose.com/slides/java/).
+In dieser Anleitung haben Sie gelernt, wie Sie mit Aspose.Slides für Java bestimmte Datenpunkte aus einer Diagrammreihe in einer PowerPoint-Präsentation löschen. Dies kann nützlich sein, wenn Sie Diagrammdaten in Ihren Java-Anwendungen dynamisch aktualisieren oder ändern müssen. Wenn Sie weitere Fragen haben oder zusätzliche Unterstützung benötigen, lesen Sie bitte die [Aspose.Slides für Java-Dokumentation](https://reference.aspose.com/slides/java/).
 
 ## Häufig gestellte Fragen
 
-### Wie kann ich in Aspose.Slides für Java bestimmte Datenpunkte aus einer Diagrammreihe entfernen?
+### Wie kann ich bestimmte Datenpunkte aus einer Diagrammreihe in Aspose.Slides für Java entfernen?
 
 Um bestimmte Datenpunkte aus einer Diagrammreihe in Aspose.Slides für Java zu entfernen, gehen Sie folgendermaßen vor:
 
@@ -118,18 +120,20 @@ Ja, Sie können Datenpunkte aus mehreren Reihen im selben Diagramm löschen, ind
 
 ### Gibt es eine Möglichkeit, Datenpunkte basierend auf einer Bedingung oder einem Kriterium zu löschen?
 
-Ja, Sie können Datenpunkte basierend auf einer Bedingung löschen, indem Sie der Schleife, die die Datenpunkte durchläuft, eine bedingte Logik hinzufügen. Sie können die Werte der Datenpunkte überprüfen und basierend auf Ihren Kriterien entscheiden, ob sie gelöscht werden sollen oder nicht.
+Ja, Sie können Datenpunkte basierend auf einer Bedingung löschen, indem Sie der Schleife, die die Datenpunkte durchläuft, eine bedingte Logik hinzufügen. Sie können die Werte der Datenpunkte überprüfen und anhand Ihrer Kriterien entscheiden, ob sie gelöscht werden sollen oder nicht.
 
-### Wie kann ich mit Aspose.Slides für Java einer Diagrammreihe neue Datenpunkte hinzufügen?
+### Wie kann ich mit Aspose.Slides für Java neue Datenpunkte zu einer Diagrammreihe hinzufügen?
 
- Um neue Datenpunkte zu einer Diagrammreihe hinzuzufügen, können Sie das`addDataPoint` Methode der Reihe. Erstellen Sie einfach neue Datenpunkte und fügen Sie sie mit dieser Methode der Reihe hinzu.
+Um neue Datenpunkte zu einer Diagrammreihe hinzuzufügen, können Sie die `addDataPoint` Methode der Reihe. Erstellen Sie einfach neue Datenpunkte und fügen Sie sie mit dieser Methode der Reihe hinzu.
 
 ### Wo finde ich weitere Informationen zu Aspose.Slides für Java?
 
- Ausführliche Dokumentationen und Beispiele finden Sie im[Aspose.Slides für Java-Dokumentation](https://reference.aspose.com/slides/java/).
+Eine umfassende Dokumentation und Beispiele finden Sie im [Aspose.Slides für Java-Dokumentation](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

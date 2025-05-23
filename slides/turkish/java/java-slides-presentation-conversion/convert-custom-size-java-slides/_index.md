@@ -1,14 +1,16 @@
 ---
-title: Java Slaytlarında Özel Boyutla Dönüştürme
-linktitle: Java Slaytlarında Özel Boyutla Dönüştürme
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides for Java'yı kullanarak PowerPoint sunumlarını özel boyutlu TIFF görüntülerine nasıl dönüştüreceğinizi öğrenin. Geliştiriciler için kod örnekleri içeren adım adım kılavuz.
-weight: 31
-url: /tr/java/presentation-conversion/convert-custom-size-java-slides/
+"description": "Aspose.Slides for Java kullanarak PowerPoint sunumlarını özel boyutlu TIFF görüntülerine nasıl dönüştüreceğinizi öğrenin. Geliştiriciler için kod örnekleri içeren adım adım kılavuz."
+"linktitle": "Java Slaytlarında Özel Boyutla Dönüştürme"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java Slaytlarında Özel Boyutla Dönüştürme"
+"url": "/tr/java/presentation-conversion/convert-custom-size-java-slides/"
+"weight": 31
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java Slaytlarında Özel Boyutla Dönüştürme
@@ -16,20 +18,20 @@ url: /tr/java/presentation-conversion/convert-custom-size-java-slides/
 
 ## Java Slaytlarında Özel Boyutla Dönüştürmeye Giriş
 
-Bu makalede, Aspose.Slides for Java API'sini kullanarak PowerPoint sunumlarını özel boyutlu TIFF görsellerine nasıl dönüştürebileceğinizi inceleyeceğiz. Aspose.Slides for Java, geliştiricilerin PowerPoint dosyalarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir kitaplıktır. Adım adım ilerleyeceğiz ve bu görevi gerçekleştirmek için size gerekli Java kodunu sağlayacağız.
+Bu makalede, Aspose.Slides for Java API'sini kullanarak PowerPoint sunumlarını özel boyutlu TIFF görüntülerine nasıl dönüştüreceğinizi inceleyeceğiz. Aspose.Slides for Java, geliştiricilerin PowerPoint dosyalarıyla programatik olarak çalışmasına olanak tanıyan güçlü bir kütüphanedir. Adım adım ilerleyeceğiz ve bu görevi başarmanız için gereken Java kodunu size sağlayacağız.
 
-## Önkoşullar
+## Ön koşullar
 
-Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
-- Java Geliştirme Kiti (JDK) yüklü
-- Aspose.Slides for Java kütüphanesi
+- Java Geliştirme Kiti (JDK) yüklendi
+- Java kütüphanesi için Aspose.Slides
 
- Aspose.Slides for Java kütüphanesini web sitesinden indirebilirsiniz:[Java için Aspose.Slides'ı indirin](https://releases.aspose.com/slides/java/)
+Aspose.Slides for Java kütüphanesini şu web sitesinden indirebilirsiniz: [Java için Aspose.Slides'ı indirin](https://releases.aspose.com/slides/java/)
 
-## 1. Adım: Aspose.Slides Kitaplığını İçe Aktarın
+## Adım 1: Aspose.Slides Kitaplığını İçe Aktar
 
-Başlamak için Aspose.Slides kütüphanesini Java projenize aktarmanız gerekir. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
+Başlamak için Aspose.Slides kütüphanesini Java projenize aktarmanız gerekir. Bunu şu şekilde yapabilirsiniz:
 
 ```java
 // Gerekli içe aktarma ifadesini ekleyin
@@ -38,78 +40,78 @@ import com.aspose.slides.*;
 
 ## Adım 2: PowerPoint Sunumunu Yükleyin
 
- Daha sonra, TIFF görüntüsüne dönüştürmek istediğiniz PowerPoint sunumunu yüklemeniz gerekecek. Yer değiştirmek`"Your Document Directory"` sunum dosyanızın gerçek yolunu belirtin.
+Daha sonra, TIFF görüntüsüne dönüştürmek istediğiniz PowerPoint sunumunu yüklemeniz gerekecektir. Değiştir `"Your Document Directory"` sunum dosyanızın gerçek yolunu içerir.
 
 ```java
-// Belgeler dizininin yolu.
+// Belgeler dizinine giden yol.
 String dataDir = "Your Document Directory";
 
-// Bir Sunum dosyasını temsil eden bir Sunum nesnesini örnekleyin
+// Bir Sunum dosyasını temsil eden bir Sunum nesnesi örneği oluşturun
 Presentation pres = new Presentation(dataDir + "Convert_Tiff_Custom.pptx");
 ```
 
-## 3. Adım: TIFF Dönüştürme Seçeneklerini Ayarlayın
+## Adım 3: TIFF Dönüştürme Seçeneklerini Ayarlayın
 
-Şimdi TIFF dönüşümüne ilişkin seçenekleri ayarlayalım. Sıkıştırma türünü, DPI'yi (inç başına nokta sayısı), görüntü boyutunu ve notların konumunu belirleyeceğiz. Bu seçenekleri ihtiyaçlarınıza göre özelleştirebilirsiniz.
+Şimdi, TIFF dönüştürme için seçenekleri ayarlayalım. Sıkıştırma türünü, DPI'yi (inç başına nokta sayısı), görüntü boyutunu ve not konumunu belirteceğiz. Bu seçenekleri gereksinimlerinize göre özelleştirebilirsiniz.
 
 ```java
-// TiffOptions sınıfını örnekleyin
+// TiffOptions sınıfını örneklendirin
 TiffOptions opts = new TiffOptions();
 
 // Sıkıştırma türünü ayarlama
 opts.setCompressionType(TiffCompressionTypes.Default);
 
-// Görüntü DPI'sını ayarlama
+// Görüntü DPI'sini ayarlama
 opts.setDpiX(200);
 opts.setDpiY(100);
 
 // Resim Boyutunu Ayarla
 opts.setImageSize(new Dimension(1728, 1078));
 
-// Notların konumunu ayarla
+// Not pozisyonunu ayarla
 INotesCommentsLayoutingOptions notesOptions = opts.getNotesCommentsLayouting();
 notesOptions.setNotesPosition(NotesPositions.BottomFull);
 ```
 
-## 4. Adım: TIFF olarak kaydedin
+## Adım 4: TIFF olarak kaydedin
 
-Tüm seçenekler yapılandırıldığında artık sunuyu belirtilen ayarlarla TIFF görüntüsü olarak kaydedebilirsiniz.
+Tüm seçenekler yapılandırıldıktan sonra artık sunumunuzu belirtilen ayarlarla TIFF resmi olarak kaydedebilirsiniz.
 
 ```java
-// Sunuyu belirtilen görüntü boyutuyla TIFF'e kaydedin
+// Sunuyu belirtilen görüntü boyutuyla TIFF olarak kaydedin
 pres.save(dataDir + "TiffWithCustomSize_out.tiff", SaveFormat.Tiff, opts);
 ```
 
 ## Java Slaytlarında Özel Boyutla Dönüştürmek İçin Tam Kaynak Kodu
 
 ```java
-// Belgeler dizininin yolu.
+// Belgeler dizinine giden yol.
 String dataDir = "Your Document Directory";
-// Bir Sunum dosyasını temsil eden bir Sunum nesnesini örnekleyin
+// Bir Sunum dosyasını temsil eden bir Sunum nesnesi örneği oluşturun
 Presentation pres = new Presentation(dataDir + "Convert_Tiff_Custom.pptx");
 try
 {
-	// TiffOptions sınıfını örnekleyin
+	// TiffOptions sınıfını örneklendirin
 	TiffOptions opts = new TiffOptions();
 	// Sıkıştırma türünü ayarlama
 	opts.setCompressionType(TiffCompressionTypes.Default);
 	INotesCommentsLayoutingOptions notesOptions = opts.getNotesCommentsLayouting();
 	notesOptions.setNotesPosition(NotesPositions.BottomFull);
 	// Sıkıştırma Türleri
-	// Varsayılan - Varsayılan sıkıştırma düzenini (LZW) belirtir.
-	// Yok - Sıkıştırma olmadığını belirtir.
+	// Varsayılan - Varsayılan sıkıştırma şemasını (LZW) belirtir.
+	// Hiçbiri - Sıkıştırma yapılmayacağını belirtir.
 	// CCITT3
 	// CCITT4
 	// LZW
 	// RLE
 	// Derinlik sıkıştırma türüne bağlıdır ve manuel olarak ayarlanamaz.
-	// Çözünürlük birimi her zaman “2”ye eşittir (inç başına nokta sayısı)
-	// Görüntü DPI'sını ayarlama
+	// Çözünürlük birimi her zaman "2"ye (inç başına nokta) eşittir
+	// Görüntü DPI'sini ayarlama
 	opts.setDpiX(200);
 	opts.setDpiY(100);
 	// Resim Boyutunu Ayarla
 	opts.setImageSize(new Dimension(1728, 1078));
-	// Sunuyu belirtilen görüntü boyutuyla TIFF'e kaydedin
+	// Sunuyu belirtilen görüntü boyutuyla TIFF olarak kaydedin
 	pres.save(dataDir + "TiffWithCustomSize_out.tiff", SaveFormat.Tiff, opts);
 }
 finally
@@ -120,32 +122,34 @@ finally
 
 ## Çözüm
 
-Tebrikler! Aspose.Slides for Java'yı kullanarak bir PowerPoint sunumunu özel boyutlu bir TIFF görüntüsüne başarıyla dönüştürdünüz. Çeşitli amaçlarla sunumlarınızdan yüksek kaliteli görüntüler oluşturmanız gerektiğinde bu değerli bir özellik olabilir.
+Tebrikler! Aspose.Slides for Java kullanarak bir PowerPoint sunumunu özel boyutlu bir TIFF resmine başarıyla dönüştürdünüz. Bu, çeşitli amaçlar için sunumlarınızdan yüksek kaliteli resimler üretmeniz gerektiğinde değerli bir özellik olabilir.
 
-## SSS'ler
+## SSS
 
-### TIFF görüntüsünün sıkıştırma türünü nasıl değiştirebilirim?
+### TIFF resminin sıkıştırma türünü nasıl değiştirebilirim?
 
- Sıkıştırma türünü değiştirerek değiştirebilirsiniz.`setCompressionType` yöntemdeki`TiffOptions` sınıf. Varsayılan, Yok, CCITT3, CCITT4, LZW ve RLE gibi farklı sıkıştırma türleri mevcuttur.
+Sıkıştırma türünü değiştirerek değiştirebilirsiniz. `setCompressionType` yöntemde `TiffOptions` sınıf. Varsayılan, Hiçbiri, CCITT3, CCITT4, LZW ve RLE gibi farklı sıkıştırma türleri mevcuttur.
 
-### TIFF görüntüsünün DPI'sini (inç başına nokta sayısı) ayarlayabilir miyim?
+### TIFF resminin DPI'ını (inç başına nokta sayısı) ayarlayabilir miyim?
 
-Evet, DPI'yi kullanarak ayarlayabilirsiniz.`setDpiX` Ve`setDpiY` içindeki yöntemler`TiffOptions` sınıf. Görüntü çözünürlüğünü kontrol etmek için istediğiniz değerleri ayarlamanız yeterlidir.
+Evet, DPI'ı kullanarak ayarlayabilirsiniz. `setDpiX` Ve `setDpiY` yöntemler `TiffOptions` sınıf. Görüntü çözünürlüğünü kontrol etmek için istediğiniz değerleri ayarlamanız yeterlidir.
 
-### TIFF görüntüsündeki notların konumu için mevcut seçenekler nelerdir?
+### TIFF görüntüsünde notların konumu için hangi seçenekler mevcuttur?
 
- TIFF görüntüsündeki notların konumu,`setNotesPosition` BottomFull, BottomTruncated ve SlideOnly gibi seçeneklerle yöntem. İhtiyaçlarınıza en uygun olanı seçin.
+TIFF görüntüsündeki notların konumu, şu şekilde yapılandırılabilir: `setNotesPosition` BottomFull, BottomTruncated ve SlideOnly gibi seçeneklere sahip yöntem. İhtiyaçlarınıza en uygun olanı seçin.
 
-### TIFF dönüşümü için özel bir görüntü boyutu belirlemek mümkün müdür?
+### TIFF dönüşümü için özel bir resim boyutu belirtmek mümkün müdür?
 
- Kesinlikle! kullanarak özel bir görüntü boyutu ayarlayabilirsiniz.`setImageSize` yöntemdeki`TiffOptions` sınıf. Çıktı görüntüsü için istediğiniz boyutları (genişlik ve yükseklik) sağlayın.
+Kesinlikle! Özel bir resim boyutunu şu şekilde ayarlayabilirsiniz: `setImageSize` yöntemde `TiffOptions` sınıf. Çıktı görüntüsü için istediğiniz boyutları (genişlik ve yükseklik) sağlayın.
 
 ### Aspose.Slides for Java hakkında daha fazla bilgiyi nerede bulabilirim?
 
- Aspose.Slides for Java hakkında ayrıntılı belgeler ve ek bilgiler için lütfen belgeleri ziyaret edin:[Java API Referansı için Aspose.Slides](https://reference.aspose.com/slides/java/).
+Aspose.Slides for Java hakkında ayrıntılı belgeler ve ek bilgiler için lütfen belgeleri ziyaret edin: [Java API Referansı için Aspose.Slides](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

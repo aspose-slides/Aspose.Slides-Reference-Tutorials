@@ -1,30 +1,32 @@
 ---
-title: Ustaw szerokość przerwy w slajdach Java
-linktitle: Ustaw szerokość przerwy w slajdach Java
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Dowiedz się, jak ustawić szerokość przerwy w slajdach Java za pomocą Aspose.Slides dla Java. Ulepsz wizualizacje wykresów w prezentacjach programu PowerPoint.
-weight: 21
-url: /pl/java/data-manipulation/set-gap-width-java-slides/
+"description": "Dowiedz się, jak ustawić szerokość przerwy w slajdach Java za pomocą Aspose.Slides dla Java. Ulepsz wizualizacje wykresów w prezentacjach PowerPoint."
+"linktitle": "Ustaw szerokość przerwy w slajdach Java"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Ustaw szerokość przerwy w slajdach Java"
+"url": "/pl/java/data-manipulation/set-gap-width-java-slides/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw szerokość przerwy w slajdach Java
 
 
-## Wprowadzenie do ustawiania szerokości odstępu w Aspose.Slides dla Java
+## Wprowadzenie do ustawiania szerokości przerwy w Aspose.Slides dla Java
 
-W tym samouczku przeprowadzimy Cię przez proces ustawiania szerokości odstępu dla wykresu w prezentacji programu PowerPoint przy użyciu Aspose.Slides dla Java. Szerokość odstępu określa odstępy między kolumnami lub słupkami na wykresie, umożliwiając kontrolowanie wyglądu wykresu.
+W tym samouczku przeprowadzimy Cię przez proces ustawiania szerokości przerwy dla wykresu w prezentacji PowerPoint przy użyciu Aspose.Slides for Java. Szerokość przerwy określa odstępy między kolumnami lub słupkami na wykresie, umożliwiając Ci kontrolowanie wyglądu wizualnego wykresu.
 
-## Warunki wstępne
+## Wymagania wstępne
 
- Zanim zaczniesz, upewnij się, że masz zainstalowaną bibliotekę Aspose.Slides for Java. Można go pobrać ze strony Aspose[Tutaj](https://releases.aspose.com/slides/java/).
+Zanim zaczniesz, upewnij się, że masz zainstalowaną bibliotekę Aspose.Slides for Java. Możesz ją pobrać ze strony internetowej Aspose [Tutaj](https://releases.aspose.com/slides/java/).
 
 ## Przewodnik krok po kroku
 
-Wykonaj poniższe kroki, aby ustawić szerokość przerwy na wykresie za pomocą Aspose.Slides for Java:
+Aby ustawić szerokość przerwy na wykresie przy użyciu Aspose.Slides dla Java, wykonaj następujące kroki:
 
 ### 1. Utwórz pustą prezentację
 
@@ -32,7 +34,7 @@ Wykonaj poniższe kroki, aby ustawić szerokość przerwy na wykresie za pomocą
 // Ścieżka do katalogu dokumentów.
 String dataDir = "Your Document Directory";
 
-// Tworzenie pustej prezentacji
+// Tworzenie pustej prezentacji 
 Presentation presentation = new Presentation();
 ```
 
@@ -46,7 +48,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 ### 3. Dodaj wykres z danymi domyślnymi
 
 ```java
-// Dodaj wykres z danymi domyślnymi
+// Dodaj wykres z domyślnymi danymi
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn, 0, 0, 500, 500);
 ```
 
@@ -57,7 +59,7 @@ IChart chart = slide.getShapes().addChart(ChartType.StackedColumn, 0, 0, 500, 50
 int defaultWorksheetIndex = 0;
 ```
 
-### 5. Pobierz skoroszyt danych wykresu
+### 5. Pobierz skoroszyt z danymi wykresu
 
 ```java
 // Pobieranie arkusza danych wykresu
@@ -110,16 +112,16 @@ series.getParentSeriesGroup().setGapWidth(50);
 presentation.save(dataDir + "GapWidth_out.pptx", SaveFormat.Pptx);
 ```
 
-## Kompletny kod źródłowy umożliwiający ustawienie szerokości odstępu w slajdach Java
+## Kompletny kod źródłowy dla ustawienia szerokości przerwy w slajdach Java
 
 ```java
 // Ścieżka do katalogu dokumentów.
 String dataDir = "Your Document Directory";
-// Tworzenie pustej prezentacji
+// Tworzenie pustej prezentacji 
 Presentation presentation = new Presentation();
-// Uzyskaj dostęp do pierwszego slajdu
+// Dostęp do pierwszego slajdu
 ISlide slide = presentation.getSlides().get_Item(0);
-// Dodaj wykres z danymi domyślnymi
+// Dodaj wykres z domyślnymi danymi
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn, 0, 0, 500, 500);
 // Ustawianie indeksu arkusza danych wykresu
 int defaultWorksheetIndex = 0;
@@ -134,7 +136,7 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 // Weź drugą serię wykresów
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-// Teraz wypełniam dane serii
+// Teraz wypełniamy dane serii
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -149,24 +151,26 @@ presentation.save(dataDir + "GapWidth_out.pptx", SaveFormat.Pptx);
 
 ## Wniosek
 
-W tym samouczku nauczyłeś się, jak ustawić szerokość odstępu dla wykresu w prezentacji programu PowerPoint przy użyciu Aspose.Slides dla Java. Dostosowanie szerokości odstępu umożliwia kontrolowanie odstępów między kolumnami lub słupkami na wykresie, poprawiając wizualną reprezentację danych.
+tym samouczku dowiedziałeś się, jak ustawić szerokość przerwy dla wykresu w prezentacji PowerPoint przy użyciu Aspose.Slides for Java. Dostosowanie szerokości przerwy pozwala kontrolować odstępy między kolumnami lub słupkami na wykresie, poprawiając wizualną reprezentację danych.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
 ### Jak zmienić wartość szerokości odstępu?
 
- Aby zmienić szerokość odstępu, użyj opcji`setGapWidth` metoda na`ParentSeriesGroup` serii wykresów. W podanym przykładzie ustawiliśmy szerokość odstępu na 50, ale możesz dostosować tę wartość do żądanych odstępów.
+Aby zmienić szerokość odstępu, użyj `setGapWidth` metoda na `ParentSeriesGroup` serii wykresów. W podanym przykładzie ustawiliśmy szerokość odstępu na 50, ale możesz dostosować tę wartość do pożądanego odstępu.
 
 ### Czy mogę dostosować inne właściwości wykresu?
 
-Tak, Aspose.Slides for Java zapewnia szerokie możliwości dostosowywania wykresów. Możesz modyfikować różne właściwości wykresów, takie jak kolory, etykiety, tytuły i inne. Szczegółowe informacje na temat opcji dostosowywania wykresów można znaleźć w dokumentacji API.
+Tak, Aspose.Slides for Java oferuje rozbudowane możliwości dostosowywania wykresów. Możesz modyfikować różne właściwości wykresów, takie jak kolory, etykiety, tytuły i inne. Zapoznaj się z API Reference, aby uzyskać szczegółowe informacje na temat opcji dostosowywania wykresów.
 
-### Gdzie mogę znaleźć więcej zasobów i dokumentacji?
+### Gdzie mogę znaleźć więcej materiałów i dokumentacji?
 
- Obszerną dokumentację i dodatkowe zasoby dotyczące Aspose.Slides for Java można znaleźć na stronie[Strona Aspose](https://reference.aspose.com/slides/java/).
+Pełną dokumentację i dodatkowe zasoby dotyczące Aspose.Slides dla języka Java można znaleźć na stronie [Strona internetowa Aspose](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,95 +1,99 @@
 ---
-title: Přidejte sloupce do textového rámce pomocí Aspose.Slides pro Java
-linktitle: Přidejte sloupce do textového rámce pomocí Aspose.Slides pro Java
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Naučte se přidávat sloupce do textových rámečků pomocí Aspose.Slides pro Java, abyste vylepšili své PowerPointové prezentace. Náš průvodce krok za krokem celý proces zjednodušuje.
-weight: 11
-url: /cs/java/java-powerpoint-text-box-manipulation/add-columns-in-text-frame/
+"description": "Naučte se, jak přidávat sloupce do textových rámečků pomocí Aspose.Slides pro Javu a vylepšit tak své prezentace v PowerPointu. Náš podrobný návod vám tento proces zjednoduší."
+"linktitle": "Přidání sloupců do textového rámečku pomocí Aspose.Slides pro Javu"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Přidání sloupců do textového rámečku pomocí Aspose.Slides pro Javu"
+"url": "/cs/java/java-powerpoint-text-box-manipulation/add-columns-in-text-frame/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidejte sloupce do textového rámce pomocí Aspose.Slides pro Java
+# Přidání sloupců do textového rámečku pomocí Aspose.Slides pro Javu
 
-## Úvod
-V tomto tutoriálu prozkoumáme, jak manipulovat s textovými rámečky a přidávat sloupce pomocí Aspose.Slides pro Java. Aspose.Slides je výkonná knihovna, která umožňuje vývojářům Java vytvářet, manipulovat a převádět PowerPointové prezentace programově. Přidání sloupců do textových rámečků zvyšuje vizuální přitažlivost a organizaci textu v rámci snímků, díky čemuž jsou prezentace poutavější a snadněji čitelné.
+## Zavedení
+V tomto tutoriálu se podíváme na to, jak manipulovat s textovými rámečky a přidávat sloupce pomocí knihovny Aspose.Slides pro Javu. Aspose.Slides je výkonná knihovna, která umožňuje vývojářům v Javě programově vytvářet, manipulovat a převádět prezentace v PowerPointu. Přidání sloupců do textových rámečků zvyšuje vizuální atraktivitu a organizaci textu v rámci snímků, díky čemuž jsou prezentace poutavější a snadněji čitelné.
 ## Předpoklady
-Než se pustíte do tohoto návodu, ujistěte se, že máte následující:
-- Java Development Kit (JDK) nainstalovaný na vašem počítači.
--  Aspose.Slides pro knihovnu Java. Můžete si jej stáhnout z[tady](https://releases.aspose.com/slides/java/).
+Než se pustíte do tohoto tutoriálu, ujistěte se, že máte následující:
+- Na vašem počítači nainstalovaná sada pro vývojáře Java (JDK).
+- Knihovna Aspose.Slides pro Javu. Můžete si ji stáhnout z [zde](https://releases.aspose.com/slides/java/).
 - Základní znalost programování v Javě.
 - Integrované vývojové prostředí (IDE), jako je Eclipse nebo IntelliJ IDEA.
-- Znalost správy závislostí projektu pomocí nástrojů jako Maven nebo Gradle.
+- Znalost správy závislostí projektů pomocí nástrojů jako Maven nebo Gradle.
 
-## Importujte balíčky
+## Importovat balíčky
 Nejprve importujte potřebné balíčky z Aspose.Slides pro práci s prezentacemi a textovými rámečky:
 ```java
 import com.aspose.slides.*;
 ```
-## Krok 1: Inicializujte prezentaci
-Začněte vytvořením nového objektu prezentace PowerPoint:
+## Krok 1: Inicializace prezentace
+Začněte vytvořením nového objektu prezentace v PowerPointu:
 ```java
 String dataDir = "Your Document Directory";
 String outPptxFileName = dataDir + "ColumnsTest.pptx";
 // Vytvořte nový objekt prezentace
 Presentation pres = new Presentation();
 ```
-## Krok 2: Přidejte automatický tvar s textovým rámečkem
-Přidejte automatický tvar (např. obdélník) na první snímek a otevřete jeho textový rámeček:
+## Krok 2: Přidání automatického tvaru s textovým rámečkem
+Přidejte automatický tvar (např. obdélník) do prvního snímku a zpřístupněte jeho textový rámeček:
 ```java
-// Přidejte na první snímek automatický tvar
+// Přidání automatického tvaru na první snímek
 IAutoShape shape1 = pres.getSlides().get_Item(0).getShapes().addAutoShape(ShapeType.Rectangle, 100, 100, 300, 300);
 // Přístup k textovému rámečku automatického tvaru
 TextFrameFormat format = (TextFrameFormat) shape1.getTextFrame().getTextFrameFormat();
 ```
-## Krok 3: Nastavte počet sloupců a text
-Nastavte počet sloupců a obsah textu v textovém rámečku:
+## Krok 3: Nastavení počtu sloupců a textu
+Nastavte počet sloupců a textový obsah v textovém rámečku:
 ```java
 // Nastavte počet sloupců
 format.setColumnCount(2);
-// Nastavte obsah textu
+// Nastavte textový obsah
 shape1.getTextFrame().setText("All these columns are limited to be within a single text container -- " +
     "you can add or delete text and the new or remaining text automatically adjusts " +
     "itself to flow within the container. You cannot have text flow from one container " +
     "to other though -- we told you PowerPoint's column options for text are limited!");
 ```
 ## Krok 4: Uložte prezentaci
-Po provedení změn prezentaci uložte:
+Po provedení změn uložte prezentaci:
 ```java
-// Uložte prezentaci
+// Uložit prezentaci
 pres.save(outPptxFileName, SaveFormat.Pptx);
 ```
-## Krok 5: Úprava mezer mezi sloupci (volitelné)
-V případě potřeby upravte rozestupy mezi sloupci:
+## Krok 5: Úprava rozteče sloupců (volitelné)
+V případě potřeby upravte rozteč mezi sloupci:
 ```java
-// Nastavte rozteč sloupců
+// Nastavení rozteče sloupců
 format.setColumnSpacing(20);
-// Uložte prezentaci s aktualizovanými mezerami mezi sloupci
+// Uložit prezentaci s aktualizovaným roztečem sloupců
 pres.save(outPptxFileName, SaveFormat.Pptx);
-// V případě potřeby můžete znovu změnit počet sloupců a mezery
+// V případě potřeby můžete znovu změnit počet sloupců a rozteč.
 format.setColumnCount(3);
 format.setColumnSpacing(15);
 pres.save(outPptxFileName, SaveFormat.Pptx);
 ```
 
 ## Závěr
-tomto tutoriálu jsme ukázali, jak pomocí programu Aspose.Slides pro Javu programově přidávat sloupce do textových rámečků v prezentacích PowerPoint. Tato schopnost zlepšuje vizuální prezentaci textového obsahu, zlepšuje čitelnost a strukturu snímků.
-## FAQ
+V tomto tutoriálu jsme si ukázali, jak pomocí Aspose.Slides pro Javu programově přidávat sloupce do textových rámečků v prezentacích v PowerPointu. Tato funkce vylepšuje vizuální prezentaci textového obsahu, zlepšuje čitelnost a strukturu snímků.
+## Často kladené otázky
 ### Mohu do textového rámečku přidat více než tři sloupce?
- Ano, můžete upravit`setColumnCount` způsob přidání dalších sloupců podle potřeby.
+Ano, můžete upravit `setColumnCount` metoda pro přidání dalších sloupců podle potřeby.
 ### Podporuje Aspose.Slides individuální úpravu šířky sloupců?
-Ne, Aspose.Slides automaticky nastaví stejnou šířku sloupců v textovém rámečku.
-### Je k dispozici zkušební verze pro Aspose.Slides pro Java?
- Ano, můžete si stáhnout bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
-### Kde najdu další dokumentaci o Aspose.Slides pro Java?
- K dispozici je podrobná dokumentace[tady](https://reference.aspose.com/slides/java/).
-### Jak mohu získat technickou podporu pro Aspose.Slides pro Java?
- Můžete hledat podporu v komunitě[tady](https://forum.aspose.com/c/slides/11).
+Ne, Aspose.Slides automaticky nastaví stejnou šířku pro sloupce v textovém rámečku.
+### Je k dispozici zkušební verze Aspose.Slides pro Javu?
+Ano, můžete si stáhnout bezplatnou zkušební verzi [zde](https://releases.aspose.com/).
+### Kde najdu další dokumentaci o Aspose.Slides pro Javu?
+Podrobná dokumentace je k dispozici [zde](https://reference.aspose.com/slides/java/).
+### Jak mohu získat technickou podporu pro Aspose.Slides pro Javu?
+Můžete požádat o podporu komunity [zde](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

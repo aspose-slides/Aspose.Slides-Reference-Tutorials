@@ -1,30 +1,32 @@
 ---
-title: Java Slaytlarındaki Grafikteki Varsayılan İşaretçiler
-linktitle: Java Slaytlarındaki Grafikteki Varsayılan İşaretçiler
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides for Java'yı kullanarak grafiklerde varsayılan işaretleyicilerle Java Slaytları oluşturmayı öğrenin. Kaynak koduyla adım adım kılavuz.
-weight: 16
-url: /tr/java/chart-data-manipulation/default-markers-in-chart-java-slides/
+"description": "Aspose.Slides for Java kullanarak grafiklerde varsayılan işaretleyicilerle Java Slaytları oluşturmayı öğrenin. Kaynak kodlu adım adım kılavuz."
+"linktitle": "Java Slaytlarındaki Grafiklerde Varsayılan İşaretleyiciler"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java Slaytlarındaki Grafiklerde Varsayılan İşaretleyiciler"
+"url": "/tr/java/chart-data-manipulation/default-markers-in-chart-java-slides/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java Slaytlarındaki Grafikteki Varsayılan İşaretçiler
+# Java Slaytlarındaki Grafiklerde Varsayılan İşaretleyiciler
 
 
-## Java Slaytlarındaki Grafikteki Varsayılan İşaretleyicilere Giriş
+## Java Slaytlarında Grafikteki Varsayılan İşaretleyicilere Giriş
 
-Bu eğitimde Aspose.Slides for Java'yı kullanarak varsayılan işaretleyicilerle nasıl grafik oluşturulacağını keşfedeceğiz. Varsayılan işaretçiler, bir grafikteki veri noktalarını vurgulamak için bunlara eklenen semboller veya şekillerdir. Verileri görselleştirmek için işaretçilerin bulunduğu bir çizgi grafiği oluşturacağız.
+Bu eğitimde, Java için Aspose.Slides kullanarak varsayılan işaretçilerle bir grafik oluşturmayı keşfedeceğiz. Varsayılan işaretçiler, bir grafikteki veri noktalarına vurgulamak için eklenen semboller veya şekillerdir. Verileri görselleştirmek için işaretçilerle bir çizgi grafiği oluşturacağız.
 
-## Önkoşullar
+## Ön koşullar
 
-Başlamadan önce Java projenizde Aspose.Slides for Java kitaplığının kurulu olduğundan ve kurulduğundan emin olun.
+Başlamadan önce, Java projenizde Aspose.Slides for Java kütüphanesinin yüklü ve ayarlanmış olduğundan emin olun.
 
-## 1. Adım: Bir Sunu Oluşturun
+## Adım 1: Bir Sunum Oluşturun
 
-Öncelikle bir sunum oluşturalım ve ona bir slayt ekleyelim. Daha sonra slayda bir grafik ekleyeceğiz.
+Öncelikle bir sunum oluşturalım ve ona bir slayt ekleyelim. Daha sonra slayda bir grafik ekleyelim.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -32,9 +34,9 @@ Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
 ```
 
-## Adım 2: İşaretçilerle Çizgi Grafiği Ekleme
+## Adım 2: İşaretçilerle Çizgi Grafiği Ekleyin
 
-Şimdi slayta işaretleyicilerin bulunduğu bir çizgi grafiği ekleyelim. Ayrıca grafikteki tüm varsayılan verileri de temizleyeceğiz.
+Şimdi, slayda işaretçileri olan bir çizgi grafiği ekleyelim. Ayrıca grafikteki varsayılan verileri de temizleyeceğiz.
 
 ```java
 IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 10, 10, 400, 400);
@@ -42,9 +44,9 @@ chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 ```
 
-## 3. Adım: Grafik Verilerini Doldurun
+## Adım 3: Grafik Verilerini Doldurun
 
-Grafiği örnek verilerle dolduracağız. Bu örnekte veri noktaları ve kategorileri olan iki seri oluşturacağız.
+Grafiği örnek verilerle dolduracağız. Bu örnekte, veri noktaları ve kategorilerle iki seri oluşturacağız.
 
 ```java
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
@@ -65,36 +67,36 @@ series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 4, 1, null));
 chart.getChartData().getSeries().add(fact.getCell(0, 0, 2, "Series 2"));
 IChartSeries series2 = chart.getChartData().getSeries().get_Item(1);
 
-// Seri verilerini doldurma
+// Seri verilerinin doldurulması
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 1, 2, 30));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 2, 2, 10));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 3, 2, 60));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 4, 2, 40));
 ```
 
-## 4. Adım: Grafiği Özelleştirin
+## Adım 4: Grafiği Özelleştirin
 
-Gösterge eklemek ve görünümünü ayarlamak gibi yöntemlerle grafiği daha da özelleştirebilirsiniz.
+Grafiği daha da özelleştirebilirsiniz; örneğin, bir açıklama ekleyebilir ve görünümünü ayarlayabilirsiniz.
 
 ```java
 chart.setLegend(true);
 chart.getLegend().setOverlay(false);
 ```
 
-## Adım 5: Sunuyu Kaydetme
+## Adım 5: Sunumu Kaydedin
 
-Son olarak, sunumu grafikle birlikte istediğiniz konuma kaydedin.
+Son olarak sunumu grafikle birlikte istediğiniz yere kaydedin.
 
 ```java
 pres.save(dataDir + "DefaultMarkersInChart.pptx", SaveFormat.Pptx);
 ```
 
-Bu kadar! Aspose.Slides for Java'yı kullanarak varsayılan işaretleyicilere sahip bir çizgi grafik oluşturdunuz.
+İşte bu kadar! Java için Aspose.Slides'ı kullanarak varsayılan işaretçilerle bir çizgi grafiği oluşturdunuz.
 
-## Java Slaytlarındaki Grafikteki Varsayılan İşaretleyiciler İçin Kaynak Kodunu Tamamlayın
+## Java Slaytlarındaki Grafikteki Varsayılan İşaretleyiciler İçin Tam Kaynak Kodu
 
 ```java
-        // Belgeler dizininin yolu.
+        // Belgeler dizinine giden yol.
         String dataDir = "Your Document Directory";
         Presentation pres = new Presentation();
         try
@@ -133,24 +135,26 @@ Bu kadar! Aspose.Slides for Java'yı kullanarak varsayılan işaretleyicilere sa
 ```
 ## Çözüm
 
-Bu kapsamlı eğitimde Aspose.Slides for Java'yı kullanarak grafiklerde varsayılan işaretçilerle Java Slaytları oluşturmayı öğrendiniz. Bir sunumun hazırlanmasından grafiğin görünümünün özelleştirilmesine ve sonucun kaydedilmesine kadar tüm süreci ele aldık.
+Bu kapsamlı eğitimde, Java için Aspose.Slides kullanarak grafiklerde varsayılan işaretçilerle Java Slaytları oluşturmayı öğrendiniz. Bir sunum hazırlamaktan grafiğin görünümünü özelleştirmeye ve sonucu kaydetmeye kadar tüm süreci ele aldık.
 
-## SSS'ler
+## SSS
 
-### İşaretçi sembollerini nasıl değiştirebilirim?
+### İşaretleyici sembollerini nasıl değiştirebilirim?
 
-Her veri noktası için işaretçi stilini ayarlayarak işaretçi sembollerini özelleştirebilirsiniz. Kullanmak`IDataPoint.setMarkerStyle()` İşaretçi sembolünü değiştirmek için.
+Her veri noktası için işaretçi stilini ayarlayarak işaretçi sembollerini özelleştirebilirsiniz. Kullan `IDataPoint.setMarkerStyle()` İşaretleyici sembolünü değiştirmek için.
 
-### Grafiğin renklerini nasıl ayarlarım?
+### Tablonun renklerini nasıl ayarlarım?
 
- Grafiğin renklerini değiştirmek için`IChartSeriesFormat` Ve`IShapeFillFormat` Dolgu ve çizgi özelliklerini ayarlamak için arayüzler.
+Tablonun renklerini değiştirmek için şunu kullanabilirsiniz: `IChartSeriesFormat` Ve `IShapeFillFormat` dolgu ve çizgi özelliklerini ayarlamak için arayüzler.
 
 ### Veri noktalarına etiket ekleyebilir miyim?
 
- Evet, kullanarak veri noktalarına etiket ekleyebilirsiniz.`IDataPoint.getLabel()` yöntemini kullanın ve bunları gerektiği gibi özelleştirin.
+Evet, veri noktalarına etiketler ekleyebilirsiniz. `IDataPoint.getLabel()` yöntemini kullanın ve ihtiyaç duyduğunuzda özelleştirin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

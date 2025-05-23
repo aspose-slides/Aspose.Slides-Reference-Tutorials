@@ -1,34 +1,36 @@
 ---
-title: Állítsa be a Jelmagyarázat egyéni beállításait a Java Slides alkalmazásban
-linktitle: Állítsa be a Jelmagyarázat egyéni beállításait a Java Slides alkalmazásban
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan állíthat be egyéni jelmagyarázat-beállításokat a Java Slides alkalmazásban az Aspose.Slides for Java segítségével. Szabja testre a jelmagyarázat pozícióját és méretét a PowerPoint diagramokon.
-weight: 14
-url: /hu/java/customization-and-formatting/set-legend-custom-options-java-slides/
+"description": "Tanuld meg, hogyan állíthatsz be egyéni jelmagyarázat-beállításokat Java Slides-ben az Aspose.Slides for Java használatával. Testreszabhatod a jelmagyarázat pozícióját és méretét a PowerPoint-diagramjaidban."
+"linktitle": "Jelmagyarázat egyéni beállításainak megadása Java diákban"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Jelmagyarázat egyéni beállításainak megadása Java diákban"
+"url": "/hu/java/customization-and-formatting/set-legend-custom-options-java-slides/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Állítsa be a Jelmagyarázat egyéni beállításait a Java Slides alkalmazásban
+# Jelmagyarázat egyéni beállításainak megadása Java diákban
 
 
-## Bevezetés a Java Slides jelmagyarázat egyéni beállításainak megadásához
+## Bevezetés a Java diák jelmagyarázat-egyéni beállításainak megadásához
 
-Ebben az oktatóanyagban bemutatjuk, hogyan lehet testreszabni egy diagram jelmagyarázat tulajdonságait egy PowerPoint-prezentációban az Aspose.Slides for Java segítségével. Módosíthatja a jelmagyarázat helyzetét, méretét és egyéb attribútumait a prezentációs igényeinek megfelelően.
+Ebben az oktatóanyagban bemutatjuk, hogyan szabhatod testre egy PowerPoint-bemutató diagramjának jelmagyarázat-tulajdonságait az Aspose.Slides for Java segítségével. A jelmagyarázat pozícióját, méretét és egyéb attribútumait a prezentációs igényeidnek megfelelően módosíthatod.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következőkkel:
+Mielőtt elkezdené, győződjön meg arról, hogy a következőkkel rendelkezik:
 
-- Aspose.Slides for Java API telepítve.
+- Aspose.Slides Java API-hoz telepítve.
 - Java fejlesztői környezet beállítása.
 
 ## 1. lépés: Importálja a szükséges osztályokat:
 
 ```java
-// Importálja az Aspose.Slides-t a Java osztályokhoz
+// Aspose.Slides importálása Java osztályokhoz
 import com.aspose.slides.*;
 ```
 
@@ -38,52 +40,52 @@ import com.aspose.slides.*;
 String dataDir = "Your Document Directory";
 ```
 
-##  3. lépés: Hozzon létre egy példányt a`Presentation` class:
+## 3. lépés: Hozz létre egy példányt a következőből: `Presentation` osztály:
 
 ```java
 Presentation presentation = new Presentation();
 ```
 
-## 4. lépés: Adjon hozzá egy diát a prezentációhoz:
+## 4. lépés: Dia hozzáadása a prezentációhoz:
 
 ```java
 try {
     ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
-## 5. lépés: Adjon hozzá egy fürtözött oszlopdiagramot a diához:
+## 5. lépés: Csoportos oszlopdiagram hozzáadása a diához:
 
 ```java
     IChart chart = slide.getShapes().addChart(ChartType.ClusteredColumn, 50, 50, 500, 500);
 ```
 
-## 6. lépés: Állítsa be a jelmagyarázat tulajdonságait:
+## 6. lépés. Jelmagyarázat tulajdonságainak beállítása:
 
-- Állítsa be a jelmagyarázat X-pozícióját (a diagram szélességéhez képest):
+- A jelmagyarázat X pozíciójának beállítása (a diagram szélességéhez viszonyítva):
 
 ```java
 chart.getLegend().setX(50 / chart.getWidth());
 ```
 
-- Állítsa be a jelmagyarázat Y-pozícióját (a diagram magasságához képest):
+- A jelmagyarázat Y pozíciójának beállítása (a diagram magasságához képest):
 
 ```java
 chart.getLegend().setY(50 / chart.getHeight());
 ```
 
-- Állítsa be a jelmagyarázat szélességét (a diagram szélességéhez képest):
+- A jelmagyarázat szélességének beállítása (a diagram szélességéhez viszonyítva):
 
 ```java
 chart.getLegend().setWidth(100 / chart.getWidth());
 ```
 
-- Állítsa be a jelmagyarázat magasságát (a diagram magasságához képest):
+- jelmagyarázat magasságának beállítása (a diagram magasságához viszonyítva):
 
 ```java
 chart.getLegend().setHeight(100 / chart.getHeight());
 ```
 
-## 7. lépés: Mentse el a prezentációt lemezre:
+## 7. lépés: Mentse a prezentációt lemezre:
 
 ```java
     presentation.save(dataDir + "Legend_out.pptx", SaveFormat.Pptx);
@@ -92,22 +94,22 @@ chart.getLegend().setHeight(100 / chart.getHeight());
 }
 ```
 
-Ez az! Sikeresen testreszabta egy PowerPoint-prezentáció diagramjának jelmagyarázat tulajdonságait az Aspose.Slides for Java segítségével.
+Ennyi! Sikeresen testre szabtad egy PowerPoint-bemutatóban lévő diagram jelmagyarázat-tulajdonságait az Aspose.Slides for Java használatával.
 
-## Teljes forráskód a Java Slides jelmagyarázat egyéni beállításaihoz
+## Teljes forráskód a Java Slides jelmagyarázat egyéni beállításainak beállításához
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
 String dataDir = "Your Document Directory";
-// Hozzon létre egy példányt a Prezentáció osztályból
+// Hozz létre egy példányt a Presentation osztályból
 Presentation presentation = new Presentation();
 try
 {
-	// Szerezzen hivatkozást a diára
+	// Dia hivatkozásának lekérése
 	ISlide slide = presentation.getSlides().get_Item(0);
-	// Adjon hozzá egy fürtözött oszlopdiagramot a diához
+	// Csoportos oszlopdiagram hozzáadása a diához
 	IChart chart = slide.getShapes().addChart(ChartType.ClusteredColumn, 50, 50, 500, 500);
-	// Állítsa be a Jelmagyarázat tulajdonságait
+	// Jelmagyarázat tulajdonságainak beállítása
 	chart.getLegend().setX(50 / chart.getWidth());
 	chart.getLegend().setY(50 / chart.getHeight());
 	chart.getLegend().setWidth(100 / chart.getWidth());
@@ -122,24 +124,26 @@ finally
 ```
 ## Következtetés
 
-Ebben az oktatóanyagban megtanultuk, hogyan lehet testreszabni egy diagram jelmagyarázat tulajdonságait egy PowerPoint-prezentációban az Aspose.Slides for Java segítségével. Módosíthatja a jelmagyarázat helyzetét, méretét és egyéb attribútumait, hogy tetszetős és informatív bemutatókat hozzon létre.
+Ebben az oktatóanyagban megtanultuk, hogyan szabhatjuk testre egy PowerPoint-bemutató diagramjának jelmagyarázat-tulajdonságait az Aspose.Slides Java verziójával. Módosíthatjuk a jelmagyarázat pozícióját, méretét és egyéb tulajdonságait, hogy vizuálisan vonzó és informatív bemutatókat hozzunk létre.
 
 ## GYIK
 
-## Hogyan változtathatom meg a legenda pozícióját?
+## Hogyan tudom megváltoztatni a jelmagyarázat pozícióját?
 
- A jelmagyarázat pozíciójának megváltoztatásához használja a`setX` és`setY` a legenda objektum módszerei. Az értékek a diagram szélességéhez és magasságához viszonyítva vannak megadva.
+A jelmagyarázat pozíciójának módosításához használja a `setX` és `setY` legend objektum metódusai. Az értékek a diagram szélességéhez és magasságához viszonyítva vannak megadva.
 
-## Hogyan állíthatom be a legenda méretét?
+## Hogyan tudom beállítani a jelmagyarázat méretét?
 
- A jelmagyarázat méretét a gombbal állíthatja be`setWidth` és`setHeight` a legenda objektum módszerei. Ezek az értékek a diagram szélességéhez és magasságához is vonatkoznak.
+A jelmagyarázat méretét a következővel módosíthatja: `setWidth` és `setHeight` a legend objektum metódusai. Ezek az értékek a diagram szélességéhez és magasságához képest is relatívak.
 
-## Testreszabhatok más jelmagyarázat attribútumokat?
+## Testreszabhatom a jelmagyarázat egyéb attribútumait?
 
-Igen, testreszabhatja a jelmagyarázat különféle attribútumait, például a betűstílust, a keretet, a háttérszínt és egyebeket. Fedezze fel az Aspose.Slides dokumentációját a legendák testreszabásával kapcsolatos részletes információkért.
+Igen, testreszabhatja a jelmagyarázat különböző attribútumait, például a betűstílust, a szegélyt, a háttérszínt és egyebeket. A jelmagyarázatok testreszabásával kapcsolatos részletes információkért tekintse meg az Aspose.Slides dokumentációját.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

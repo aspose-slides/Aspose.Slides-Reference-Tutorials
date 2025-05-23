@@ -1,28 +1,30 @@
 ---
-title: Állítsa be az elrendezési módot a Java Slides alkalmazásban
-linktitle: Állítsa be az elrendezési módot a Java Slides alkalmazásban
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan állíthat be Java diák elrendezési módokat az Aspose.Slides segítségével. Szabja testre a diagram pozícionálását és méretezését ebben a forráskóddal ellátott, lépésenkénti útmutatóban.
-weight: 23
-url: /hu/java/data-manipulation/set-layout-mode-java-slides/
+"description": "Tanuld meg, hogyan állíthatsz be elrendezési módokat Java diákhoz az Aspose.Slides segítségével. Testreszabhatod a diagramok elhelyezését és méretezését ebben a lépésről lépésre szóló útmutatóban forráskóddal."
+"linktitle": "Elrendezési mód beállítása Java diákban"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Elrendezési mód beállítása Java diákban"
+"url": "/hu/java/data-manipulation/set-layout-mode-java-slides/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Állítsa be az elrendezési módot a Java Slides alkalmazásban
+# Elrendezési mód beállítása Java diákban
 
 
-## Bevezetés az elrendezési mód beállításába a Java Slides programban
+## Bevezetés a Java diák elrendezési módjának beállításába
 
-Ebben az oktatóanyagban megtudjuk, hogyan állíthatja be a diagram elrendezési módját Java diákon az Aspose.Slides for Java segítségével. Az elrendezési mód határozza meg a diagram elhelyezését és méretét a dián belül.
+Ebben az oktatóanyagban megtanuljuk, hogyan állíthatjuk be a diagram elrendezési módját Java diákon az Aspose.Slides for Java használatával. Az elrendezési mód határozza meg a diagram elhelyezkedését és méretét a dián belül.
 
 ## Előfeltételek
 
- Mielőtt elkezdené, győződjön meg arról, hogy az Aspose.Slides for Java könyvtár telepítve van és be van állítva a Java projektben. A könyvtárat innen töltheti le[itt](https://releases.aspose.com/slides/java/).
+Mielőtt elkezdenénk, győződjünk meg róla, hogy az Aspose.Slides for Java könyvtár telepítve és beállítva van a Java projektedben. A könyvtárat innen töltheted le: [itt](https://releases.aspose.com/slides/java/).
 
-## 1. lépés: Hozzon létre egy prezentációt
+## 1. lépés: Prezentáció létrehozása
 
 Először is létre kell hoznunk egy új prezentációt.
 
@@ -31,18 +33,18 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation();
 ```
 
-## 2. lépés: Adjon hozzá egy dia és egy diagramot
+## 2. lépés: Dia és diagram hozzáadása
 
-Ezután egy diát és egy diagramot adunk hozzá. Ebben a példában fürtözött oszlopdiagramot fogunk létrehozni.
+Következőként hozzáadunk egy diát és egy diagramot. Ebben a példában egy csoportos oszlopdiagramot fogunk létrehozni.
 
 ```java
 ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.ClusteredColumn, 20, 100, 600, 400);
 ```
 
-## 3. lépés: Állítsa be a diagram elrendezését
+## 3. lépés: Diagram elrendezésének beállítása
 
- Most állítsuk be a diagram elrendezését. A dián belüli diagram helyzetét és méretét a gombbal állítjuk be`setX`, `setY`, `setWidth`, `setHeight` mód. Ezenkívül beállítjuk a`LayoutTargetType` az elrendezési mód meghatározásához.
+Most állítsuk be a diagram elrendezését. A diagram pozícióját és méretét a dián belül a következővel fogjuk beállítani: `setX`, `setY`, `setWidth`, `setHeight` metódusok. Ezenkívül beállítjuk a `LayoutTargetType` az elrendezési mód meghatározásához.
 
 ```java
 chart.getPlotArea().setX(0.2f);
@@ -52,17 +54,17 @@ chart.getPlotArea().setHeight(0.7f);
 chart.getPlotArea().setLayoutTargetType(LayoutTargetType.Inner);
 ```
 
-Ebben a példában úgy állítottuk be a diagramot, hogy az elrendezési céltípus "Belső" legyen, ami azt jelenti, hogy a dia belső területéhez képest lesz elhelyezve és méretezve.
+Ebben a példában a diagram elrendezési céltípusa „Belső” lett, ami azt jelenti, hogy a dia belső területéhez képest lesz elhelyezve és méretezve.
 
-## 4. lépés: Mentse el a bemutatót
+## 4. lépés: Mentse el a prezentációt
 
-Végül mentsük el a bemutatót a diagram elrendezési beállításaival.
+Végül mentsük el a prezentációt a diagram elrendezési beállításaival.
 
 ```java
 presentation.save(dataDir + "SetLayoutMode_outer.pptx", SaveFormat.Pptx);
 ```
 
-## Teljes forráskód az elrendezési mód beállításához a Java Slides-ben
+## Teljes forráskód a Java Slides elrendezési módjának beállításához
 
 ```java
 String dataDir = "Your Document Directory";
@@ -86,24 +88,26 @@ finally
 
 ## Következtetés
 
- Ebben az oktatóanyagban megtanultuk, hogyan állíthatjuk be a diagram elrendezési módját Java diákon az Aspose.Slides for Java segítségével. Testreszabhatja a diagram helyzetét és méretét saját igényei szerint, ha módosítja az értékeket a`setX`, `setY`, `setWidth`, `setHeight` , és`setLayoutTargetType`mód. Ezzel szabályozhatja a diagramok elhelyezését a diákon belül.
+Ebben az oktatóanyagban megtanultuk, hogyan állíthatjuk be a diagram elrendezési módját Java diákon az Aspose.Slides for Java használatával. A diagram pozícióját és méretét testreszabhatja az Ön igényei szerint a `setX`, `setY`, `setWidth`, `setHeight`, és `setLayoutTargetType` metódusok. Ezáltal szabályozhatod a diagramok elhelyezését a diákon belül.
 
 ## GYIK
 
-### Hogyan módosíthatom a diagram elrendezési módját az Aspose.Slides for Java alkalmazásban?
+### Hogyan változtathatom meg egy diagram elrendezési módját az Aspose.Slides for Java programban?
 
- A diagram elrendezési módjának megváltoztatásához az Aspose.Slides for Java programban használhatja a`setLayoutTargetType` metódus a diagram ábrázolási területén. Bármelyikre beállíthatja`LayoutTargetType.Inner` vagy`LayoutTargetType.Outer` a kívánt elrendezéstől függően.
+Az Aspose.Slides Java-ban egy diagram elrendezési módjának megváltoztatásához használhatja a `setLayoutTargetType` metódus a diagram ábrázolási területén. Beállíthatja a következőre: `LayoutTargetType.Inner` vagy `LayoutTargetType.Outer` kívánt elrendezéstől függően.
 
-### Testreszabhatom a diagram helyzetét és méretét a dián belül?
+### Testreszabhatom a diagram pozícióját és méretét a dián belül?
 
- Igen, testreszabhatja a diagram helyzetét és méretét a dián belül a gombbal`setX`, `setY`, `setWidth` , és`setHeight` módszereket a diagram plot területén. Állítsa be ezeket az értékeket a diagram elhelyezéséhez és méretéhez az igényeinek megfelelően.
+Igen, a dián belüli diagram pozícióját és méretét testreszabhatja a `setX`, `setY`, `setWidth`, és `setHeight` metódusok a diagram ábrázolási területén. Módosítsa ezeket az értékeket a diagram igényeinek megfelelő elhelyezéséhez és méretéhez.
 
-### Hol találhatok további információt az Aspose.Slides for Java programról?
+### Hol találok további információt az Aspose.Slides for Java-ról?
 
- További információt az Aspose.Slides for Java programról itt találhat[dokumentáció](https://reference.aspose.com/slides/java/). Részletes API-referenciákat és példákat tartalmaz, amelyek segítségével hatékonyan dolgozhat a diákkal és diagramokkal Java nyelven.
+További információkat az Aspose.Slides Java-hoz való használatáról itt talál: [dokumentáció](https://reference.aspose.com/slides/java/)Részletes API-hivatkozásokat és példákat tartalmaz, amelyek segítenek a diákkal és diagramokkal való hatékony munkában Java nyelven.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

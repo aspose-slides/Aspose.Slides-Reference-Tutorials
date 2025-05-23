@@ -1,43 +1,45 @@
 ---
-title: Adjon hozzá beágyazott betűtípusokat a PowerPointban Java használatával
-linktitle: Adjon hozzá beágyazott betűtípusokat a PowerPointban Java használatával
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan adhat beágyazott betűtípusokat PowerPoint-prezentációkhoz Java használatával az Aspose.Slides for Java segítségével. Konzisztens megjelenítés biztosítása minden eszközön.
-weight: 10
-url: /hu/java/java-powerpoint-font-management/add-embedded-fonts-powerpoint-java/
+"description": "Tanuld meg, hogyan adhatsz hozzá beágyazott betűtípusokat PowerPoint-bemutatókhoz Java használatával az Aspose.Slides for Java segítségével. Biztosítsd az egységes megjelenítést minden eszközön."
+"linktitle": "Beágyazott betűtípusok hozzáadása PowerPointban Java használatával"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Beágyazott betűtípusok hozzáadása PowerPointban Java használatával"
+"url": "/hu/java/java-powerpoint-font-management/add-embedded-fonts-powerpoint-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Adjon hozzá beágyazott betűtípusokat a PowerPointban Java használatával
+# Beágyazott betűtípusok hozzáadása PowerPointban Java használatával
 
 ## Bevezetés
-Ebben az oktatóanyagban végigvezetjük a beágyazott betűtípusok hozzáadásának folyamatán a PowerPoint prezentációkhoz Java használatával, különösen az Aspose.Slides for Java kihasználásával. A beágyazott betűtípusok biztosítják, hogy prezentációja egységesen jelenjen meg a különböző eszközökön, még akkor is, ha az eredeti betűtípus nem elérhető. Merüljünk el a lépésekben:
+Ebben az oktatóanyagban végigvezetünk a PowerPoint-bemutatókhoz beágyazott betűtípusok hozzáadásának folyamatán Java használatával, különös tekintettel az Aspose.Slides for Java használatára. A beágyazott betűtípusok biztosítják, hogy a bemutatód egységesen jelenjen meg a különböző eszközökön, még akkor is, ha az eredeti betűtípus nem érhető el. Nézzük meg a lépéseket:
 ## Előfeltételek
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik az alábbiakkal:
-1. Java Development Kit (JDK): Győződjön meg arról, hogy a Java telepítve van a rendszeren.
-2.  Aspose.Slides for Java Library: Töltse le és telepítse az Aspose.Slides for Java könyvtárat. től lehet kapni[itt](https://releases.aspose.com/slides/java/).
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következőkkel rendelkezünk:
+1. Java fejlesztőkészlet (JDK): Győződjön meg arról, hogy a Java telepítve van a rendszerén.
+2. Aspose.Slides for Java könyvtár: Töltse le és telepítse az Aspose.Slides for Java könyvtárat. Letöltheti innen: [itt](https://releases.aspose.com/slides/java/).
 
 ## Csomagok importálása
-Importálja a szükséges csomagokat a Java projektbe:
+Importáld a szükséges csomagokat a Java projektedbe:
 ```java
 import com.aspose.slides.*;
 ```
 ## 1. lépés: Töltse be a prezentációt
-Először töltse be a PowerPoint prezentációt, amelyhez beágyazott betűtípusokat szeretne hozzáadni:
+Először töltse be a PowerPoint bemutatót, ahová beágyazott betűtípusokat szeretne hozzáadni:
 ```java
 String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "Fonts.pptx");
 ```
-## 2. lépés: Töltse be a forrás betűtípust
-Ezután töltse be a prezentációba beágyazni kívánt betűtípust. Itt az Arial-t használjuk példaként:
+## 2. lépés: Töltse be a forrásbetűtípust
+Ezután töltse be a prezentációba beágyazni kívánt betűtípust. Itt példaként az Arial betűtípust használjuk:
 ```java
 IFontData sourceFont = new FontData("Arial");
 ```
-## 3. lépés: Adjon hozzá beágyazott betűtípusokat
-Ismételje meg a bemutatóban használt összes betűtípust, és adjon hozzá minden nem beágyazott betűtípust:
+## 3. lépés: Beágyazott betűtípusok hozzáadása
+Menj végig az összes, a prezentációban használt betűtípuson, és adj hozzá minden nem beágyazott betűtípust:
 ```java
 IFontData[] allFonts = presentation.getFontsManager().getFonts();
 IFontData[] embeddedFonts = presentation.getFontsManager().getEmbeddedFonts();
@@ -55,29 +57,31 @@ for (IFontData font : allFonts) {
     }
 }
 ```
-## 4. lépés: Mentse el a bemutatót
+## 4. lépés: Mentse el a prezentációt
 Végül mentse el a prezentációt a beágyazott betűtípusokkal:
 ```java
 presentation.save(dataDir + "AddEmbeddedFont_out.pptx", SaveFormat.Pptx);
 ```
-Gratulálunk! Sikeresen beágyazott betűtípusokat a PowerPoint prezentációjába Java használatával.
+Gratulálunk! Sikeresen beágyazta a betűtípusokat a PowerPoint-bemutatójába Java használatával.
 
 ## Következtetés
-Beágyazott betűtípusok hozzáadása PowerPoint-prezentációihoz egységes megjelenítést biztosít a különböző eszközökön, és zökkenőmentes megtekintési élményt biztosít a közönség számára. Az Aspose.Slides for Java segítségével a folyamat egyszerűvé és hatékonysá válik.
+PowerPoint-bemutatóidba beágyazott betűtípusok hozzáadásával biztosíthatod a konzisztens megjelenítést a különböző eszközökön, így zökkenőmentes megtekintési élményt nyújtva a közönségednek. Az Aspose.Slides Java-hoz segítségével ez a folyamat egyszerűvé és hatékonnyá válik.
 ## GYIK
-### Miért fontosak a beágyazott betűtípusok a PowerPoint prezentációkban?
-beágyazott betűtípusok biztosítják, hogy a prezentáció megőrizze formázását és stílusát, még akkor is, ha az eredeti betűtípusok nem állnak rendelkezésre a megtekintő eszközön.
+### Miért fontosak a beágyazott betűtípusok a PowerPoint-bemutatókban?
+A beágyazott betűtípusok biztosítják, hogy a bemutató megőrzi formázását és stílusát, még akkor is, ha az eredeti betűtípusok nem érhetők el a megtekintő eszközön.
 ### Beágyazhatok több betűtípust egyetlen prezentációba az Aspose.Slides for Java használatával?
-Igen, több betűtípust is beágyazhat a bemutatóban használt összes betűtípus iterációjával, és a nem beágyazott betűtípusok beágyazásával.
+Igen, több betűtípust is beágyazhat úgy, hogy végigmegy az összes, a prezentációban használt betűtípuson, és beágyazza a nem beágyazottakat.
 ### A betűtípusok beágyazása növeli a prezentáció fájlméretét?
-Igen, a betűtípusok beágyazása kis mértékben növelheti a prezentáció fájlméretét, de biztosítja a konzisztens megjelenítést a különböző eszközökön.
-### Vannak-e korlátozások a beágyazható betűtípusokra vonatkozóan?
-Az Aspose.Slides for Java támogatja a TrueType betűtípusok beágyazását, amely a prezentációkban gyakran használt betűtípusok széles skáláját fedi le.
+Igen, a betűtípusok beágyazása kismértékben növelheti a prezentáció fájlméretét, de biztosítja a konzisztens megjelenítést a különböző eszközökön.
+### Vannak-e korlátozások a beágyazható betűtípusok típusaira vonatkozóan?
+Az Aspose.Slides for Java támogatja a TrueType betűtípusok beágyazását, amely a prezentációkban gyakran használt betűtípusok széles skáláját lefedi.
 ### Beágyazhatok betűtípusokat programozottan az Aspose.Slides for Java használatával?
-Igen, amint az ebben az oktatóanyagban látható, beágyazhat betűtípusokat programozottan az Aspose.Slides for Java API használatával.
+Igen, ahogy ebben az oktatóanyagban is látható, programozottan beágyazhatsz betűtípusokat az Aspose.Slides for Java API használatával.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,25 +1,27 @@
 ---
-title: Java kullanarak PowerPoint'e Paragraf Madde İşaretleri Ekleme
-linktitle: Java kullanarak PowerPoint'e Paragraf Madde İşaretleri Ekleme
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides for Java'yı kullanarak PowerPoint slaytlarına nasıl paragraf madde işaretleri ekleyeceğinizi öğrenin. Bu eğitim, kod örnekleriyle adım adım size yol gösterir.
-weight: 15
-url: /tr/java/java-powerpoint-text-paragraph-management/add-paragraph-bullets-powerpoint-java/
+"description": "Aspose.Slides for Java kullanarak PowerPoint slaytlarına paragraf madde işaretlerinin nasıl ekleneceğini öğrenin. Bu eğitim, kod örnekleriyle adım adım size rehberlik eder."
+"linktitle": "Java kullanarak PowerPoint'te Paragraf Madde İşaretleri Ekleme"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java kullanarak PowerPoint'te Paragraf Madde İşaretleri Ekleme"
+"url": "/tr/java/java-powerpoint-text-paragraph-management/add-paragraph-bullets-powerpoint-java/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java kullanarak PowerPoint'e Paragraf Madde İşaretleri Ekleme
+# Java kullanarak PowerPoint'te Paragraf Madde İşaretleri Ekleme
 
 ## giriiş
-Paragraf madde işaretleri eklemek PowerPoint sunumlarının okunabilirliğini ve yapısını geliştirir. Aspose.Slides for Java, metni çeşitli madde işareti stilleriyle biçimlendirme yeteneği de dahil olmak üzere, sunumları programlı olarak değiştirmek için güçlü araçlar sağlar. Bu eğitimde, Aspose.Slides'ı kullanarak Java kodunu kullanarak madde işaretlerini PowerPoint slaytlarına nasıl entegre edeceğinizi öğreneceksiniz.
-## Önkoşullar
+Paragraf madde işaretleri eklemek, PowerPoint sunumlarının okunabilirliğini ve yapısını geliştirir. Java için Aspose.Slides, metni çeşitli madde işareti stilleriyle biçimlendirme yeteneği de dahil olmak üzere sunumları programatik olarak düzenlemek için sağlam araçlar sağlar. Bu eğitimde, Aspose.Slides'ı kullanarak Java kodunu kullanarak madde işaretlerini PowerPoint slaytlarına nasıl entegre edeceğinizi öğreneceksiniz.
+## Ön koşullar
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
-- Java programlamanın temel bilgisi.
-- JDK (Java Development Kit) sisteminizde kuruludur.
--  Aspose.Slides for Java kütüphanesi. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/java/).
+- Temel Java programlama bilgisi.
+- Sisteminizde JDK (Java Development Kit) yüklü.
+- Java kütüphanesi için Aspose.Slides. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/slides/java/).
 
 ## Paketleri İçe Aktar
 Başlamak için gerekli Aspose.Slides paketlerini Java projenize aktarın:
@@ -28,30 +30,30 @@ import com.aspose.slides.*;
 import java.awt.*;
 import java.io.File;
 ```
-## 1. Adım: Projenizi Kurun
-Öncelikle yeni bir Java projesi oluşturun ve Aspose.Slides for Java kütüphanesini projenizin derleme yoluna ekleyin.
-## Adım 2: Sunumu Başlatın
-Bir sunum nesnesini başlat (`Presentation`) slaytlarla çalışmaya başlamak için.
+## Adım 1: Projenizi Kurun
+Öncelikle yeni bir Java projesi oluşturun ve Aspose.Slides for Java kütüphanesini projenizin build path'ine ekleyin.
+## Adım 2: Bir Sunumu Başlatın
+Bir sunum nesnesini başlatın (`Presentation`) Slaytlarla çalışmaya başlamak için.
 ```java
-// Belgeler dizininin yolu.
+// Belgeler dizinine giden yol.
 String dataDir = "Your Document Directory";
-// Sunum örneği oluşturma
+// Bir sunum örneği oluşturma
 Presentation pres = new Presentation();
 ```
-## 3. Adım: Slayt ve Metin Çerçevesine Erişin
-Slayta erişin (`ISlide`ve metin çerçevesi (`ITextFrame`) madde işaretleri eklemek istediğiniz yere tıklayın.
+## Adım 3: Slayt ve Metin Çerçevesine Erişim
+Slayda erişin (`ISlide`) ve metin çerçevesi (`ITextFrame`) madde işareti eklemek istediğiniz yere.
 ```java
 // İlk slayda erişim
 ISlide slide = pres.getSlides().get_Item(0);
 // Autoshape'i ekleme ve erişme
 IAutoShape aShp = slide.getShapes().addAutoShape(ShapeType.Rectangle, 200, 200, 400, 200);
-// Oluşturulan otomatik şeklin metin çerçevesine erişme
+// Oluşturulan otomatik şeklin metin çerçevesine erişim
 ITextFrame txtFrm = aShp.getTextFrame();
 ```
 ## Adım 4: Madde İşaretleriyle Paragraflar Oluşturun ve Biçimlendirin
-Paragraflar oluştur (`Paragraph`) ve madde işareti stillerini, girintisini ve metnini ayarlayın.
+Paragraflar oluştur (`Paragraph`) ve madde işaretlerini, girintileri ve metinleri ayarlayabilirsiniz.
 ```java
-// Paragraf oluşturma
+// Bir paragraf oluşturma
 Paragraph para = new Paragraph();
 para.getParagraphFormat().getBullet().setType(BulletType.Symbol);
 para.getParagraphFormat().getBullet().setChar((char) 8226);
@@ -66,38 +68,40 @@ para2.setText("This is numbered bullet");
 para2.getParagraphFormat().setIndent(25);
 txtFrm.getParagraphs().add(para2);
 ```
-## Adım 5: Sunuyu Kaydetme
-Değiştirilen sunuyu bir PowerPoint dosyasına kaydedin (`PPTX`).
+## Adım 5: Sunumu Kaydedin
+Değiştirilen sunumu bir PowerPoint dosyasına kaydedin (`PPTX`).
 ```java
-// Sunuyu PPTX dosyası olarak yazma
+// Sunumu PPTX dosyası olarak yazma
 pres.save(dataDir + "Bullet_out.pptx", SaveFormat.Pptx);
 ```
 ## Adım 6: Kaynakları Temizleyin
-Kaynakları serbest bırakmak için sunum nesnesini atın.
+Kaynakları serbest bırakmak için sunum nesnesini elden çıkarın.
 ```java
-// Sunum nesnesini atın
+// Sunum nesnesini elden çıkarın
 if (pres != null) {
     pres.dispose();
 }
 ```
 
 ## Çözüm
-Aspose.Slides for Java'yı kullanarak PowerPoint'e paragraf madde işaretleri eklemek, sağlanan kod örnekleriyle basittir. Madde işareti stillerini ve biçimlendirmeyi sunum ihtiyaçlarınıza sorunsuz bir şekilde uyacak şekilde özelleştirin.
+PowerPoint'te Aspose.Slides for Java kullanarak paragraf madde işaretleri eklemek, sağlanan kod örnekleriyle basittir. Madde işaretlerini ve biçimlendirmeyi sunum ihtiyaçlarınıza sorunsuz bir şekilde uyacak şekilde özelleştirin.
 
 ## SSS
-### Madde işareti renklerini özelleştirebilir miyim?
+### Madde işaretlerinin renklerini özelleştirebilir miyim?
 Evet, Aspose.Slides API'sini kullanarak madde işaretleri için özel renkler ayarlayabilirsiniz.
-### İç içe madde işaretlerini nasıl eklerim?
-Madde işaretlerinin iç içe yerleştirilmesi, paragrafların içine paragrafların eklenmesini ve girintilerin buna göre ayarlanmasını içerir.
-### Farklı slaytlar için farklı madde işareti stilleri oluşturabilir miyim?
-Evet, program aracılığıyla farklı slaytlara benzersiz madde işareti stilleri uygulayabilirsiniz.
+### İç içe madde işaretleri nasıl eklerim?
+İç içe madde işaretleri, paragrafların içine paragraflar eklemeyi ve girintileri buna göre ayarlamayı içerir.
+### Farklı slaytlar için farklı madde işaretleri oluşturabilir miyim?
+Evet, farklı slaytlara program aracılığıyla benzersiz madde işaretleri stilleri uygulayabilirsiniz.
 ### Aspose.Slides Java 11 ile uyumlu mu?
 Evet, Aspose.Slides Java 11 ve üzeri sürümleri destekler.
-### Daha fazla örnek ve belgeyi nerede bulabilirim?
- Ziyaret etmek[Aspose.Slides for Java Belgelendirmesi](https://reference.aspose.com/slides/java/) Kapsamlı kılavuzlar ve örnekler için.
+### Daha fazla örnek ve dokümanı nerede bulabilirim?
+Ziyaret etmek [Java Belgeleri için Aspose.Slides](https://reference.aspose.com/slides/java/) Kapsamlı kılavuzlar ve örnekler için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

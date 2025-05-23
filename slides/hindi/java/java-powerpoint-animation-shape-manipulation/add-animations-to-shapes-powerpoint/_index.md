@@ -1,14 +1,16 @@
 ---
-title: PowerPoint में आकृतियों में एनिमेशन जोड़ें
-linktitle: PowerPoint में आकृतियों में एनिमेशन जोड़ें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: इस विस्तृत ट्यूटोरियल के साथ Aspose.Slides for Java का उपयोग करके PowerPoint में आकृतियों में एनिमेशन जोड़ना सीखें। आकर्षक प्रस्तुतियाँ बनाने के लिए बिल्कुल सही।
-weight: 10
-url: /hi/java/java-powerpoint-animation-shape-manipulation/add-animations-to-shapes-powerpoint/
+"description": "इस विस्तृत ट्यूटोरियल के साथ Aspose.Slides for Java का उपयोग करके PowerPoint में आकृतियों में एनिमेशन जोड़ना सीखें। आकर्षक प्रस्तुतियाँ बनाने के लिए बिल्कुल सही।"
+"linktitle": "PowerPoint में आकृतियों में एनिमेशन जोड़ें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "PowerPoint में आकृतियों में एनिमेशन जोड़ें"
+"url": "/hi/java/java-powerpoint-animation-shape-manipulation/add-animations-to-shapes-powerpoint/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PowerPoint में आकृतियों में एनिमेशन जोड़ें
@@ -17,7 +19,7 @@ url: /hi/java/java-powerpoint-animation-shape-manipulation/add-animations-to-sha
 आकर्षक प्रस्तुतियाँ बनाने के लिए अक्सर आकृतियों और पाठ में एनिमेशन जोड़ने की आवश्यकता होती है। एनिमेशन आपकी स्लाइड्स को अधिक गतिशील और आकर्षक बना सकते हैं, जिससे आपके दर्शकों की दिलचस्पी बनी रहेगी। इस ट्यूटोरियल में, हम आपको Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुति में आकृतियों में एनिमेशन जोड़ने की प्रक्रिया के बारे में बताएँगे। इस लेख के अंत तक, आप आसानी से पेशेवर एनिमेशन बनाने में सक्षम हो जाएँगे।
 ## आवश्यक शर्तें
 इससे पहले कि हम ट्यूटोरियल में आगे बढ़ें, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
-1.  Aspose.Slides for Java लाइब्रेरी: आपके पास Aspose.Slides for Java लाइब्रेरी स्थापित होनी चाहिए। आप ऐसा कर सकते हैं[यहाँ पर डाउनलोड करो](https://releases.aspose.com/slides/java/).
+1. Aspose.Slides for Java लाइब्रेरी: आपके पास Aspose.Slides for Java लाइब्रेरी स्थापित होनी चाहिए। आप ऐसा कर सकते हैं [यहाँ पर डाउनलोड करो](https://releases.aspose.com/slides/java/).
 2. जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपकी मशीन पर JDK स्थापित है।
 3. एकीकृत विकास वातावरण (IDE): किसी भी Java IDE जैसे IntelliJ IDEA, Eclipse, या NetBeans का उपयोग करें।
 4. जावा का बुनियादी ज्ञान: यह ट्यूटोरियल मानता है कि आपको जावा प्रोग्रामिंग की बुनियादी समझ है।
@@ -41,9 +43,9 @@ if (!IsExists)
     new File(dataDir).mkdirs();
 ```
 ## चरण 2: प्रेजेंटेशन ऑब्जेक्ट को आरंभ करें
- इसके बाद, उदाहरण बनाएं`Presentation` क्लास का उपयोग करके अपनी पावरपॉइंट फ़ाइल का प्रतिनिधित्व करें।
+इसके बाद, उदाहरण बनाएं `Presentation` क्लास का उपयोग करके अपनी पावरपॉइंट फ़ाइल का प्रतिनिधित्व करें।
 ```java
-// PPTX का प्रतिनिधित्व करने वाले प्रेजेंटेशन क्लास को इंस्टेंटिएट करें
+// PPTX का प्रतिनिधित्व करने वाला इन्स्टेन्शियेट प्रेजेंटेशन क्लास
 Presentation pres = new Presentation();
 ```
 ## चरण 3: पहली स्लाइड तक पहुंचें
@@ -93,7 +95,7 @@ pts[0] = new Point2D.Float(-0.076f, -0.59f);
 motionBhv.getPath().add(MotionCommandPathType.LineTo, pts, MotionPathPointsType.Auto, false);
 motionBhv.getPath().add(MotionCommandPathType.End, null, MotionPathPointsType.Auto, false);
 ```
-## चरण 9: प्रेजेंटेशन सहेजें
+## चरण 9: प्रस्तुति सहेजें
 अंत में, प्रस्तुति को अपने इच्छित स्थान पर सेव करें।
 ```java
 // प्रस्तुति को PPTX फ़ाइल के रूप में सहेजें
@@ -107,16 +109,18 @@ if (pres != null) pres.dispose();
 ### Java के लिए Aspose.Slides क्या है?
 Aspose.Slides for Java, पावरपॉइंट प्रस्तुतियों को प्रोग्रामेटिक रूप से बनाने, संशोधित करने और उनमें हेरफेर करने के लिए एक शक्तिशाली API है।
 ### क्या मैं Aspose.Slides का निःशुल्क उपयोग कर सकता हूँ?
- आप Aspose.Slides को निःशुल्क आज़मा सकते हैं[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/)निरंतर उपयोग के लिए, सशुल्क लाइसेंस की आवश्यकता है।
+आप Aspose.Slides को निःशुल्क आज़मा सकते हैं [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/)निरंतर उपयोग के लिए, सशुल्क लाइसेंस की आवश्यकता है।
 ### कौन से Java संस्करण Aspose.Slides के साथ संगत हैं?
 Aspose.Slides Java SE 6 और इसके बाद के संस्करण का समर्थन करता है।
 ### मैं एकाधिक आकृतियों में अलग-अलग एनिमेशन कैसे जोड़ूं?
-आप प्रत्येक आकृति के लिए चरणों को दोहराकर और आवश्यकतानुसार विभिन्न प्रभाव निर्दिष्ट करके एकाधिक आकृतियों में अलग-अलग एनिमेशन जोड़ सकते हैं।
+आप प्रत्येक आकृति के लिए चरणों को दोहराकर और आवश्यकतानुसार विभिन्न प्रभाव निर्दिष्ट करके एकाधिक आकृतियों में भिन्न एनिमेशन जोड़ सकते हैं।
 ### मैं और अधिक उदाहरण और दस्तावेज कहां पा सकता हूं?
- इसकी जाँच पड़ताल करो[प्रलेखन](https://reference.aspose.com/slides/java/) और[सहयता मंच](https://forum.aspose.com/c/slides/11)अधिक उदाहरण और सहायता के लिए.
+इसकी जाँच पड़ताल करो [प्रलेखन](https://reference.aspose.com/slides/java/) और [सहयता मंच](https://forum.aspose.com/c/slides/11) अधिक उदाहरण और सहायता के लिए.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

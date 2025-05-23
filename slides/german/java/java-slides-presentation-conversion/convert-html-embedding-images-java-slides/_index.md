@@ -1,14 +1,16 @@
 ---
-title: Konvertieren Sie HTML-Einbettungsbilder in Java-Folien
-linktitle: Konvertieren Sie HTML-Einbettungsbilder in Java-Folien
-second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
-description: Konvertieren Sie PowerPoint mit eingebetteten Bildern in HTML. Schritt-für-Schritt-Anleitung zur Verwendung von Aspose.Slides für Java. Lernen Sie, Präsentationskonvertierungen in Java mühelos zu automatisieren.
-weight: 11
-url: /de/java/presentation-conversion/convert-html-embedding-images-java-slides/
+"description": "Konvertieren Sie PowerPoint in HTML mit eingebetteten Bildern. Schritt-für-Schritt-Anleitung mit Aspose.Slides für Java. Lernen Sie, Präsentationskonvertierungen in Java mühelos zu automatisieren."
+"linktitle": "Konvertieren Sie HTML-Einbettungsbilder in Java-Folien"
+"second_title": "Aspose.Slides Java PowerPoint-Verarbeitungs-API"
+"title": "Konvertieren Sie HTML-Einbettungsbilder in Java-Folien"
+"url": "/de/java/presentation-conversion/convert-html-embedding-images-java-slides/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konvertieren Sie HTML-Einbettungsbilder in Java-Folien
@@ -16,17 +18,17 @@ url: /de/java/presentation-conversion/convert-html-embedding-images-java-slides/
 
 ## Einführung in die Konvertierung von HTML-Einbettungsbildern in Java-Folien
 
-In dieser Schritt-für-Schritt-Anleitung führen wir Sie durch den Prozess der Konvertierung einer PowerPoint-Präsentation in ein HTML-Dokument unter Einbettung von Bildern mithilfe von Aspose.Slides für Java. Dieses Tutorial setzt voraus, dass Sie Ihre Entwicklungsumgebung bereits eingerichtet und die Bibliothek Aspose.Slides für Java installiert haben.
+In dieser Schritt-für-Schritt-Anleitung führen wir Sie durch die Konvertierung einer PowerPoint-Präsentation in ein HTML-Dokument und betten Bilder mit Aspose.Slides für Java ein. Dieses Tutorial setzt voraus, dass Sie Ihre Entwicklungsumgebung bereits eingerichtet und die Bibliothek Aspose.Slides für Java installiert haben.
 
 ## Anforderungen
 
 Bevor wir beginnen, stellen Sie sicher, dass Sie Folgendes haben:
 
-1.  Aspose.Slides für Java-Bibliothek installiert. Sie können es herunterladen von[Hier](https://downloads.aspose.com/slides/java).
+1. Aspose.Slides für Java-Bibliothek installiert. Sie können es herunterladen von [Hier](https://downloads.aspose.com/slides/java).
 
 2. Eine PowerPoint-Präsentationsdatei (PPTX-Format), die Sie in HTML konvertieren möchten.
 
-3. Eine Java-Entwicklungsumgebung wurde eingerichtet.
+3. Eine Java-Entwicklungsumgebung ist eingerichtet.
 
 ## Schritt 1: Erforderliche Bibliotheken importieren
 
@@ -41,7 +43,7 @@ import java.io.File;
 
 ## Schritt 2: Laden Sie die PowerPoint-Präsentation
 
- Als nächstes laden Sie die PowerPoint-Präsentation, die Sie in HTML konvertieren möchten. Achten Sie darauf,`presentationName` durch den tatsächlichen Pfad zu Ihrer Präsentationsdatei.
+Als nächstes laden Sie die PowerPoint-Präsentation, die Sie in HTML konvertieren möchten. Ersetzen Sie `presentationName` durch den tatsächlichen Pfad zu Ihrer Präsentationsdatei.
 
 ```java
 String presentationName = "path/to/your/presentation.pptx";
@@ -50,13 +52,13 @@ Presentation pres = new Presentation(presentationName);
 
 ## Schritt 3: HTML-Konvertierungsoptionen konfigurieren
 
-Jetzt konfigurieren Sie die HTML-Konvertierungsoptionen. In diesem Beispiel betten wir Bilder in das HTML-Dokument ein und geben das Ausgabeverzeichnis für externe Bilder an.
+Nun konfigurieren Sie die HTML-Konvertierungsoptionen. In diesem Beispiel betten wir Bilder in das HTML-Dokument ein und geben das Ausgabeverzeichnis für externe Bilder an.
 
 ```java
 Html5Options options = new Html5Options();
 // Erzwingen Sie, dass Bilder im HTML5-Dokument nicht gespeichert werden
-options.setEmbedImages(true); // Auf „True“ setzen, um Bilder einzubetten
-//Legen Sie den Pfad für externe Bilder fest (falls erforderlich).
+options.setEmbedImages(true); // Auf „true“ setzen, um Bilder einzubetten
+// Legen Sie den Pfad für externe Bilder fest (falls erforderlich).
 options.setOutputPath("path/to/output/directory/");
 ```
 
@@ -73,7 +75,7 @@ if (!outputDirectory.exists()) {
 
 ## Schritt 5: Speichern Sie die Präsentation als HTML
 
-Speichern Sie die Präsentation nun mit den angegebenen Optionen im HTML5-Format.
+Speichern Sie die Präsentation nun im HTML5-Format mit den angegebenen Optionen.
 
 ```java
 pres.save(options.getOutputPath() + "output.html", SaveFormat.Html5, options);
@@ -116,13 +118,13 @@ try {
 
 ## Abschluss
 
-In dieser umfassenden Anleitung haben wir gelernt, wie Sie mit Aspose.Slides für Java eine PowerPoint-Präsentation in ein HTML-Dokument konvertieren und dabei Bilder einbetten. Indem Sie die Schritt-für-Schritt-Anleitung befolgen, können Sie diese Funktionalität nahtlos in Ihre Java-Anwendungen integrieren und Ihre Dokumentkonvertierungsprozesse verbessern.
+In dieser umfassenden Anleitung erfahren Sie, wie Sie eine PowerPoint-Präsentation mit Aspose.Slides für Java in ein HTML-Dokument konvertieren und dabei Bilder einbetten. Indem Sie die Schritt-für-Schritt-Anleitung befolgen, können Sie diese Funktionalität nahtlos in Ihre Java-Anwendungen integrieren und Ihre Dokumentkonvertierungsprozesse verbessern.
 
 ## Häufig gestellte Fragen
 
 ### Wie ändere ich den Ausgabedateinamen?
 
- Sie können den Ausgabedateinamen ändern, indem Sie das Argument im`pres.save()` Methode.
+Sie können den Ausgabedateinamen ändern, indem Sie das Argument in der `pres.save()` Verfahren.
 
 ### Kann ich die HTML-Vorlage anpassen?
 
@@ -132,9 +134,11 @@ Ja, Sie können die HTML-Vorlage anpassen, indem Sie die von Aspose.Slides gener
 
 Sie können den Konvertierungscode in einen Try-Catch-Block einschließen, um Ausnahmen zu behandeln, die während des Konvertierungsvorgangs auftreten können.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

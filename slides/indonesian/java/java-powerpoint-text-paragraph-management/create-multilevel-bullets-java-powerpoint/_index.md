@@ -1,25 +1,27 @@
 ---
-title: Buat Poin Bertingkat di Java PowerPoint
-linktitle: Buat Poin Bertingkat di Java PowerPoint
-second_title: Aspose.Slides API Pemrosesan Java PowerPoint
-description: Pelajari cara membuat poin bertingkat di PowerPoint menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah dengan contoh kode dan FAQ.
-weight: 14
-url: /id/java/java-powerpoint-text-paragraph-management/create-multilevel-bullets-java-powerpoint/
+"description": "Pelajari cara membuat poin-poin bertingkat di PowerPoint menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah dengan contoh kode dan Tanya Jawab Umum."
+"linktitle": "Membuat Poin Bertingkat di Java PowerPoint"
+"second_title": "API Pemrosesan PowerPoint Java Aspose.Slides"
+"title": "Membuat Poin Bertingkat di Java PowerPoint"
+"url": "/id/java/java-powerpoint-text-paragraph-management/create-multilevel-bullets-java-powerpoint/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Buat Poin Bertingkat di Java PowerPoint
+# Membuat Poin Bertingkat di Java PowerPoint
 
 ## Perkenalan
-Dalam tutorial ini, kita akan mempelajari cara membuat poin bertingkat dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Menambahkan poin-poin adalah persyaratan umum untuk membuat konten yang terorganisir dan menarik secara visual dalam presentasi. Kami akan menjalani prosesnya langkah demi langkah, memastikan bahwa pada akhir panduan ini, Anda akan diperlengkapi untuk menyempurnakan presentasi Anda dengan poin-poin terstruktur di berbagai tingkatan.
+Dalam tutorial ini, kita akan menjelajahi cara membuat poin-poin bertingkat dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Menambahkan poin-poin merupakan persyaratan umum untuk membuat konten yang terorganisir dan menarik secara visual dalam presentasi. Kita akan membahas prosesnya langkah demi langkah, memastikan bahwa di akhir panduan ini, Anda akan diperlengkapi untuk menyempurnakan presentasi Anda dengan poin-poin terstruktur di berbagai tingkatan.
 ## Prasyarat
-Sebelum kita mulai, pastikan Anda telah menyiapkan yang berikut:
-- Lingkungan Pengembangan Java: Pastikan Java Development Kit (JDK) diinstal pada sistem Anda.
--  Aspose.Slides for Java Library: Unduh dan instal Aspose.Slides for Java dari[Di Sini](https://releases.aspose.com/slides/java/).
-- IDE: Gunakan Java Integrated Development Environment (IDE) pilihan Anda seperti IntelliJ IDEA, Eclipse, atau lainnya.
+Sebelum kita mulai, pastikan Anda telah menyiapkan hal berikut:
+- Lingkungan Pengembangan Java: Pastikan Java Development Kit (JDK) terinstal di sistem Anda.
+- Pustaka Aspose.Slides untuk Java: Unduh dan instal Aspose.Slides untuk Java dari [Di Sini](https://releases.aspose.com/slides/java/).
+- IDE: Gunakan Lingkungan Pengembangan Terpadu (IDE) Java pilihan Anda seperti IntelliJ IDEA, Eclipse, atau lainnya.
 - Pengetahuan Dasar: Keakraban dengan pemrograman Java dan konsep dasar PowerPoint akan sangat membantu.
 
 ## Paket Impor
@@ -30,7 +32,7 @@ import java.awt.*;
 import java.io.File;
 ```
 ## Langkah 1: Siapkan Proyek Anda
-Pertama, buat proyek Java baru di IDE Anda dan tambahkan Aspose.Slides for Java ke dependensi proyek Anda. Pastikan file JAR Aspose.Slides yang diperlukan disertakan dalam jalur pembangunan proyek Anda.
+Pertama, buat proyek Java baru di IDE Anda dan tambahkan Aspose.Slides for Java ke dependensi proyek Anda. Pastikan file JAR Aspose.Slides yang diperlukan disertakan dalam jalur pembuatan proyek Anda.
 ```java
 // Jalur ke direktori dokumen.
 String dataDir = "Your Document Directory";
@@ -46,20 +48,20 @@ Selanjutnya, akses slide tempat Anda ingin menambahkan poin bertingkat. Untuk co
 ISlide slide = pres.getSlides().get_Item(0);
 ```
 ## Langkah 4: Tambahkan BentukOtomatis dengan Bingkai Teks
-Tambahkan BentukOtomatis ke slide tempat Anda akan menempatkan teks dengan poin bertingkat.
+Tambahkan BentukOtomatis ke slide tempat Anda akan meletakkan teks dengan poin-poin bertingkat.
 ```java
 IAutoShape aShp = slide.getShapes().addAutoShape(ShapeType.Rectangle, 200, 200, 400, 200);
 ```
 ## Langkah 5: Akses Bingkai Teks
-Akses bingkai teks dalam BentukOtomatis tempat Anda akan menambahkan paragraf dengan poin-poin.
+Akses bingkai teks dalam BentukOtomatis tempat Anda akan menambahkan paragraf dengan poin-poin penting.
 ```java
 ITextFrame text = aShp.addTextFrame("");
-text.getParagraphs().clear(); //Hapus paragraf default
+text.getParagraphs().clear(); // Hapus paragraf default
 ```
-## Langkah 6: Tambahkan Paragraf dengan Poin
-Tambahkan paragraf dengan tingkat poin yang berbeda. Berikut cara menambahkan poin bertingkat:
+## Langkah 6: Tambahkan Paragraf dengan Poin-poin
+Tambahkan paragraf dengan berbagai tingkatan poin. Berikut cara menambahkan poin bertingkat:
 ```java
-// Tingkat pertama
+// Tingkat Pertama
 IParagraph para1 = new Paragraph();
 para1.setText("Content");
 para1.getParagraphFormat().getBullet().setType(BulletType.Symbol);
@@ -68,7 +70,7 @@ para1.getParagraphFormat().getDefaultPortionFormat().getFillFormat().setFillType
 para1.getParagraphFormat().getDefaultPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.BLACK);
 para1.getParagraphFormat().setDepth((short) 0);
 text.getParagraphs().add(para1);
-// Tingkat kedua
+// Tingkat Kedua
 IParagraph para2 = new Paragraph();
 para2.setText("Second Level");
 para2.getParagraphFormat().getBullet().setType(BulletType.Symbol);
@@ -103,10 +105,10 @@ pres.save(dataDir + "MultilevelBullet.pptx", SaveFormat.Pptx);
 ```
 
 ## Kesimpulan
-Dalam tutorial ini, kita telah membahas cara membuat poin bertingkat dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Dengan mengikuti langkah-langkah ini, Anda dapat secara efektif menyusun konten Anda dengan poin-poin yang terorganisir di berbagai tingkat, sehingga meningkatkan kejelasan dan daya tarik visual presentasi Anda.
-## FAQ
-### Bisakah saya menyesuaikan simbol poin lebih lanjut?
-Ya, Anda dapat menyesuaikan simbol poin dengan menyesuaikan karakter Unicode atau menggunakan bentuk yang berbeda.
+Dalam tutorial ini, kami telah membahas cara membuat poin-poin bertingkat dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Dengan mengikuti langkah-langkah ini, Anda dapat menyusun konten secara efektif dengan poin-poin yang terorganisasi pada berbagai tingkat, sehingga meningkatkan kejelasan dan daya tarik visual presentasi Anda.
+## Pertanyaan yang Sering Diajukan
+### Bisakah saya menyesuaikan simbol peluru lebih lanjut?
+Ya, Anda dapat menyesuaikan simbol peluru dengan menyesuaikan karakter Unicode atau menggunakan bentuk yang berbeda.
 ### Apakah Aspose.Slides mendukung jenis poin lainnya?
 Ya, Aspose.Slides mendukung berbagai jenis poin termasuk simbol, angka, dan gambar khusus.
 ### Apakah Aspose.Slides kompatibel dengan semua versi PowerPoint?
@@ -114,10 +116,12 @@ Aspose.Slides menghasilkan presentasi yang kompatibel dengan Microsoft PowerPoin
 ### Bisakah saya mengotomatiskan pembuatan slide menggunakan Aspose.Slides?
 Ya, Aspose.Slides menyediakan API untuk mengotomatiskan pembuatan, modifikasi, dan manipulasi presentasi PowerPoint.
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.Slides untuk Java?
- Anda bisa mendapatkan dukungan dari komunitas dan pakar Aspose.Slides di[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11).
+Anda bisa mendapatkan dukungan dari komunitas dan pakar Aspose.Slides di [Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

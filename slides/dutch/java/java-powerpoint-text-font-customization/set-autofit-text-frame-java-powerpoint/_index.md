@@ -1,100 +1,104 @@
 ---
-title: Stel Autofit van tekstframe in Java PowerPoint in
-linktitle: Stel Autofit van tekstframe in Java PowerPoint in
-second_title: Aspose.Slides Java PowerPoint-verwerkings-API
-description: Leer hoe u autofit instelt voor tekstframes in Java PowerPoint met behulp van Aspose.Slides voor Java. Creëer moeiteloos dynamische presentaties.
-weight: 14
-url: /nl/java/java-powerpoint-text-font-customization/set-autofit-text-frame-java-powerpoint/
+"description": "Leer hoe u automatisch aanpassen voor tekstkaders in Java PowerPoint instelt met Aspose.Slides voor Java. Maak moeiteloos dynamische presentaties."
+"linktitle": "Automatisch aanpassen van tekstkader instellen in Java PowerPoint"
+"second_title": "Aspose.Slides Java PowerPoint-verwerkings-API"
+"title": "Automatisch aanpassen van tekstkader instellen in Java PowerPoint"
+"url": "/nl/java/java-powerpoint-text-font-customization/set-autofit-text-frame-java-powerpoint/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Stel Autofit van tekstframe in Java PowerPoint in
+# Automatisch aanpassen van tekstkader instellen in Java PowerPoint
 
 ## Invoering
-Bij de ontwikkeling van Java-applicaties is het programmatisch creëren van dynamische en visueel aantrekkelijke PowerPoint-presentaties een veel voorkomende vereiste. Aspose.Slides voor Java biedt een krachtige set API's om dit moeiteloos te bereiken. Een essentiële functie is het automatisch aanpassen van tekstkaders, zodat de tekst netjes binnen de vormen wordt aangepast zonder handmatige aanpassingen. Deze tutorial leidt u stap voor stap door het proces, waarbij gebruik wordt gemaakt van Aspose.Slides voor Java om het passend maken van tekst in PowerPoint-dia's te automatiseren.
+Bij de ontwikkeling van Java-applicaties is het vaak nodig om programmatisch dynamische en visueel aantrekkelijke PowerPoint-presentaties te creëren. Aspose.Slides voor Java biedt een krachtige set API's om dit moeiteloos te realiseren. Een essentiële functie is het instellen van automatisch aanpassen voor tekstkaders, zodat tekst netjes binnen vormen past zonder handmatige aanpassingen. Deze tutorial leidt je stap voor stap door het proces, waarbij Aspose.Slides voor Java wordt gebruikt om de tekstaanpassing in PowerPoint-dia's te automatiseren.
 ## Vereisten
-Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+Voordat u met de tutorial begint, moet u ervoor zorgen dat u aan de volgende vereisten hebt voldaan:
 - Java Development Kit (JDK) op uw systeem geïnstalleerd
-- Aspose.Slides voor Java-bibliotheek gedownload en waarnaar wordt verwezen in uw Java-project
-- Integrated Development Environment (IDE), zoals IntelliJ IDEA of Eclipse
+- Aspose.Slides voor Java-bibliotheek gedownload en gerefereerd in uw Java-project
+- Geïntegreerde ontwikkelomgeving (IDE) zoals IntelliJ IDEA of Eclipse
 ### Pakketten importeren
 Zorg er eerst voor dat u de benodigde Aspose.Slides-klassen in uw Java-project importeert:
 ```java
 import com.aspose.slides.*;
 import java.awt.*;
 ```
-## Stap 1: Maak een nieuwe presentatie
-Begin met het maken van een nieuw PowerPoint-presentatie-exemplaar waarin u dia's en vormen toevoegt.
+## Stap 1: Een nieuwe presentatie maken
+Begin met het maken van een nieuwe PowerPoint-presentatie waaraan u dia's en vormen toevoegt.
 ```java
 // Het pad naar de documentenmap.
 String dataDir = "Your Document Directory";
-// Maak een exemplaar van de presentatieklasse
+// Een exemplaar van de presentatieklasse maken
 Presentation presentation = new Presentation();
 ```
-## Stap 2: Open de dia om vormen toe te voegen
-Ga naar de eerste dia van de presentatie waaraan u een vorm met automatisch aanpassende tekst wilt toevoegen.
+## Stap 2: Toegang tot de dia om vormen toe te voegen
+Ga naar de eerste dia van de presentatie waaraan u een vorm met automatisch passende tekst wilt toevoegen.
 ```java
-// Toegang tot de eerste dia
+// Toegang tot de eerste dia 
 ISlide slide = presentation.getSlides().get_Item(0);
 ```
-## Stap 3: Voeg een AutoVorm toe (rechthoek)
-Voeg een AutoVorm (rechthoek) toe aan de dia op specifieke coördinaten en afmetingen.
+## Stap 3: Een AutoVorm (Rechthoek) toevoegen
+Voeg een AutoVorm (Rechthoek) toe aan de dia op specifieke coördinaten en afmetingen.
 ```java
 // Voeg een AutoVorm van het type Rechthoek toe
 IAutoShape ashp = slide.getShapes().addAutoShape(ShapeType.Rectangle, 150, 75, 350, 350);
 ```
-## Stap 4: Voeg TextFrame toe aan de rechthoek
+## Stap 4: Tekstframe toevoegen aan de rechthoek
 Voeg een tekstkader toe aan de rechthoekige vorm.
 ```java
-// Voeg TextFrame toe aan de rechthoek
+// Tekstframe toevoegen aan de rechthoek
 ashp.addTextFrame(" ");
 ashp.getFillFormat().setFillType(FillType.NoFill);
 ```
-## Stap 5: Stel Autofit in voor tekstkader
-Stel autofit-eigenschappen in voor het tekstkader om tekst aan te passen op basis van de vormgrootte.
+## Stap 5: Automatisch aanpassen instellen voor tekstkader
+Stel de eigenschappen voor automatisch aanpassen in voor het tekstkader om de tekst aan te passen op basis van de vormgrootte.
 ```java
 // Toegang tot het tekstkader
 ITextFrame txtFrame = ashp.getTextFrame();
 txtFrame.getTextFrameFormat().setAutofitType(TextAutofitType.Shape);
 ```
-## Stap 6: Voeg tekst toe aan het tekstkader
+## Stap 6: Tekst toevoegen aan het tekstkader
 Voeg tekstinhoud toe aan het tekstkader binnen de vorm.
 ```java
-// Maak het Paragraafobject voor het tekstkader
+// Het Paragraaf-object voor het tekstkader maken
 IParagraph para = txtFrame.getParagraphs().get_Item(0);
-// Maak een Portion-object voor een alinea
+// Portieobject voor alinea maken
 IPortion portion = para.getPortions().get_Item(0);
 portion.setText("A quick brown fox jumps over the lazy dog. A quick brown fox jumps over the lazy dog.");
 portion.getPortionFormat().getFillFormat().setFillType(FillType.Solid);
 portion.getPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.BLACK);
 ```
 ## Stap 7: Sla de presentatie op
-Sla de gewijzigde presentatie op met het autofit-tekstkader.
+Sla de gewijzigde presentatie op met het automatisch passende tekstkader.
 ```java
 // Presentatie opslaan
 presentation.save(dataDir + "formatText_out.pptx", SaveFormat.Pptx);
 ```
 
 ## Conclusie
-In deze zelfstudie hebt u geleerd hoe u autofit instelt voor tekstframes in Java PowerPoint-presentaties met behulp van Aspose.Slides voor Java. Door deze stappen te volgen, kunt u het passen van tekst in vormen automatiseren, waardoor de leesbaarheid en esthetiek van uw presentaties programmatisch worden verbeterd.
+In deze tutorial heb je geleerd hoe je automatisch passend maken voor tekstkaders in Java PowerPoint-presentaties instelt met Aspose.Slides voor Java. Door deze stappen te volgen, kun je de aanpassing van tekst aan vormen automatiseren, wat de leesbaarheid en esthetiek van je presentaties programmatisch verbetert.
 
 ## Veelgestelde vragen
 ### Wat is Aspose.Slides voor Java?
-Aspose.Slides voor Java is een robuuste Java-API waarmee ontwikkelaars PowerPoint-presentaties kunnen maken, lezen, manipuleren en converteren.
+Aspose.Slides voor Java is een robuuste Java API waarmee ontwikkelaars PowerPoint-presentaties kunnen maken, lezen, bewerken en converteren.
 ### Hoe download ik Aspose.Slides voor Java?
- U kunt Aspose.Slides voor Java downloaden van[hier](https://releases.aspose.com/slides/java/).
+U kunt Aspose.Slides voor Java downloaden van [hier](https://releases.aspose.com/slides/java/).
 ### Kan ik Aspose.Slides voor Java gratis uitproberen?
- Ja, u kunt een gratis proefversie van Aspose.Slides voor Java krijgen[hier](https://releases.aspose.com/).
+Ja, u kunt een gratis proefversie van Aspose.Slides voor Java krijgen van [hier](https://releases.aspose.com/).
 ### Waar kan ik documentatie vinden voor Aspose.Slides voor Java?
- U kunt gedetailleerde documentatie vinden voor Aspose.Slides voor Java[hier](https://reference.aspose.com/slides/java/).
+Gedetailleerde documentatie voor Aspose.Slides voor Java vindt u hier [hier](https://reference.aspose.com/slides/java/).
 ### Hoe kan ik ondersteuning krijgen voor Aspose.Slides voor Java?
- U kunt community- en professionele ondersteuning voor Aspose.Slides voor Java krijgen van[hier](https://forum.aspose.com/c/slides/11).
+U kunt community- en professionele ondersteuning voor Aspose.Slides voor Java krijgen van [hier](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

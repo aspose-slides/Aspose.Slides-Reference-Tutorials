@@ -1,14 +1,16 @@
 ---
-title: Festlegen des Datumsformats für die Kategorieachse in Java-Folien
-linktitle: Festlegen des Datumsformats für die Kategorieachse in Java-Folien
-second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie mit Aspose.Slides für Java ein Datumsformat für die Kategorieachse in einem PowerPoint-Diagramm festlegen. Schritt-für-Schritt-Anleitung mit Quellcode.
-weight: 26
-url: /de/java/data-manipulation/setting-date-format-category-axis-java-slides/
+"description": "Erfahren Sie, wie Sie mit Aspose.Slides für Java ein Datumsformat für die Kategorieachse in einem PowerPoint-Diagramm festlegen. Schritt-für-Schritt-Anleitung mit Quellcode."
+"linktitle": "Festlegen des Datumsformats für die Kategorieachse in Java-Folien"
+"second_title": "Aspose.Slides Java PowerPoint-Verarbeitungs-API"
+"title": "Festlegen des Datumsformats für die Kategorieachse in Java-Folien"
+"url": "/de/java/data-manipulation/setting-date-format-category-axis-java-slides/"
+"weight": 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Festlegen des Datumsformats für die Kategorieachse in Java-Folien
@@ -16,21 +18,21 @@ url: /de/java/data-manipulation/setting-date-format-category-axis-java-slides/
 
 ## Einführung in das Festlegen des Datumsformats für die Kategorieachse in Java-Folien
 
-In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Slides für Java ein Datumsformat für die Kategorieachse in einem PowerPoint-Diagramm festlegen. Aspose.Slides für Java ist eine leistungsstarke Bibliothek, mit der Sie PowerPoint-Präsentationen programmgesteuert erstellen, bearbeiten und verwalten können.
+In diesem Tutorial lernen wir, wie man mit Aspose.Slides für Java ein Datumsformat für die Kategorieachse in einem PowerPoint-Diagramm einstellt. Aspose.Slides für Java ist eine leistungsstarke Bibliothek, mit der Sie PowerPoint-Präsentationen programmgesteuert erstellen, bearbeiten und verwalten können.
 
 ## Voraussetzungen
 
 Bevor Sie beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
 
-1. Aspose.Slides für Java-Bibliothek (Sie können es herunterladen von[Hier](https://releases.aspose.com/slides/java/).
+1. Aspose.Slides für Java-Bibliothek (Sie können es herunterladen von [Hier](https://releases.aspose.com/slides/java/).
 2. Java-Entwicklungsumgebung eingerichtet.
 
 ## Schritt 1: Erstellen Sie eine PowerPoint-Präsentation
 
-Zuerst müssen wir eine PowerPoint-Präsentation erstellen, in die wir ein Diagramm einfügen. Stellen Sie sicher, dass Sie die erforderlichen Aspose.Slides-Klassen importiert haben.
+Zunächst erstellen wir eine PowerPoint-Präsentation, in die wir ein Diagramm einfügen. Stellen Sie sicher, dass Sie die erforderlichen Aspose.Slides-Klassen importiert haben.
 
 ```java
-// Der Pfad zum Dokumentverzeichnis.
+// Der Pfad zum Dokumentenverzeichnis.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 ```
@@ -60,7 +62,7 @@ chart.getChartData().getCategories().add(wb.getCell(0, "A3", convertToOADate(new
 chart.getChartData().getCategories().add(wb.getCell(0, "A4", convertToOADate(new GregorianCalendar(2017, 1, 1))));
 chart.getChartData().getCategories().add(wb.getCell(0, "A5", convertToOADate(new GregorianCalendar(2018, 1, 1))));
 
-// Datenreihen hinzufügen
+// Hinzufügen von Datenreihen
 IChartSeries series = chart.getChartData().getSeries().add(ChartType.Line);
 series.getDataPoints().addDataPointForLineSeries(wb.getCell(0, "B2", 1));
 series.getDataPoints().addDataPointForLineSeries(wb.getCell(0, "B3", 2));
@@ -69,7 +71,7 @@ series.getDataPoints().addDataPointForLineSeries(wb.getCell(0, "B5", 4));
 ```
 
 ## Schritt 4: Kategorieachse anpassen
-Passen wir nun die Kategorieachse an, um Daten in einem bestimmten Format anzuzeigen (z. B. jjjj).
+Passen wir nun die Kategorieachse an, um Daten in einem bestimmten Format anzuzeigen (z. B. jjjj).
 
 ```java
 chart.getAxes().getHorizontalAxis().setCategoryAxisType(CategoryAxisType.Date);
@@ -84,12 +86,12 @@ Speichern Sie abschließend die PowerPoint-Präsentation.
 pres.save(dataDir + "test.pptx", SaveFormat.Pptx);
 ```
 
-Das ist es! Sie haben mit Aspose.Slides für Java erfolgreich ein Datumsformat für die Kategorieachse in einem PowerPoint-Diagramm festgelegt.
+Das war's! Sie haben mit Aspose.Slides für Java erfolgreich ein Datumsformat für die Kategorieachse in einem PowerPoint-Diagramm festgelegt.
 
 ## Vollständiger Quellcode zum Festlegen des Datumsformats für die Kategorieachse in Java-Folien
 
 ```java
-	// Der Pfad zum Dokumentverzeichnis.
+	// Der Pfad zum Dokumentenverzeichnis.
 	String dataDir = "Your Document Directory";
 	Presentation pres = new Presentation();
 	try
@@ -130,24 +132,26 @@ public static String convertToOADate(GregorianCalendar date) throws ParseExcepti
 
 ##Abschluss
 
-Sie haben das Datumsformat für die Kategorieachse in einem Java Slides-Diagramm mithilfe von Aspose.Slides für Java erfolgreich angepasst. Auf diese Weise können Sie Datumswerte in Ihren Diagrammen im gewünschten Format darstellen. Sie können gerne weitere Anpassungsoptionen basierend auf Ihren spezifischen Anforderungen erkunden.
+Sie haben das Datumsformat für die Kategorieachse in einem Java Slides-Diagramm mit Aspose.Slides für Java erfolgreich angepasst. Dadurch können Sie Datumswerte in Ihren Diagrammen im gewünschten Format darstellen. Nutzen Sie gerne weitere Anpassungsmöglichkeiten entsprechend Ihren spezifischen Anforderungen.
 
 ## Häufig gestellte Fragen
 
 ### Wie ändere ich das Datumsformat für die Kategorieachse?
 
- Um das Datumsformat für die Kategorieachse zu ändern, verwenden Sie die`setNumberFormat` Methode auf der Kategorieachse und geben Sie das gewünschte Datumsformatmuster an, z. B. "yyyy-MM-dd" oder "MM/yyyy". Stellen Sie sicher, dass Sie`setNumberFormatLinkedToSource(false)` um das Standardformat zu überschreiben.
+Um das Datumsformat für die Kategorieachse zu ändern, verwenden Sie die `setNumberFormat` Methode auf der Kategorieachse und geben Sie das gewünschte Datumsformatmuster an, z. B. "JJJJ-MM-TT" oder "MM/JJJJ". Stellen Sie sicher, dass `setNumberFormatLinkedToSource(false)` um das Standardformat zu überschreiben.
 
-### Kann ich für unterschiedliche Diagramme in derselben Präsentation unterschiedliche Datumsformate verwenden?
+### Kann ich für verschiedene Diagramme in derselben Präsentation unterschiedliche Datumsformate verwenden?
 
-Ja, Sie können in verschiedenen Diagrammen innerhalb derselben Präsentation unterschiedliche Datumsformate für Kategorieachsen festlegen. Passen Sie die Kategorieachse für jedes Diagramm einfach nach Bedarf an.
+Ja, Sie können in verschiedenen Diagrammen derselben Präsentation unterschiedliche Datumsformate für Kategorieachsen festlegen. Passen Sie die Kategorieachse einfach für jedes Diagramm nach Bedarf an.
 
 ### Wie füge ich dem Diagramm weitere Datenpunkte hinzu?
 
- Um dem Diagramm weitere Datenpunkte hinzuzufügen, verwenden Sie die`getDataPoints().addDataPointForLineSeries`Methode auf die Datenreihe anwenden und die Datenwerte bereitstellen.
+Um dem Diagramm weitere Datenpunkte hinzuzufügen, verwenden Sie die `getDataPoints().addDataPointForLineSeries` Methode auf die Datenreihe anwenden und die Datenwerte bereitstellen.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

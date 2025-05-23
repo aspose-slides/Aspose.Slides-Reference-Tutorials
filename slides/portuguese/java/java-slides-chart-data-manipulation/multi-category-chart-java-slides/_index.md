@@ -1,27 +1,29 @@
 ---
-title: Gráfico multicategoria em slides Java
-linktitle: Gráfico multicategoria em slides Java
-second_title: API de processamento Aspose.Slides Java PowerPoint
-description: Crie gráficos multicategorias em slides Java usando Aspose.Slides para Java. Guia passo a passo com código-fonte para visualização impressionante de dados em apresentações.
-weight: 20
-url: /pt/java/chart-data-manipulation/multi-category-chart-java-slides/
+"description": "Crie gráficos multicategoria em slides Java usando o Aspose.Slides para Java. Guia passo a passo com código-fonte para uma visualização de dados impressionante em apresentações."
+"linktitle": "Gráfico de múltiplas categorias em slides Java"
+"second_title": "API de processamento Java PowerPoint Aspose.Slides"
+"title": "Gráfico de múltiplas categorias em slides Java"
+"url": "/pt/java/chart-data-manipulation/multi-category-chart-java-slides/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Gráfico multicategoria em slides Java
+# Gráfico de múltiplas categorias em slides Java
 
 
-## Introdução ao gráfico de múltiplas categorias em slides Java com Aspose.Slides
+## Introdução ao Gráfico Multicategoria em Slides Java com Aspose.Slides
 
-Neste tutorial, aprenderemos como criar um gráfico de múltiplas categorias em slides Java usando a API Aspose.Slides for Java. Este guia fornecerá instruções passo a passo junto com o código-fonte para ajudá-lo a criar um gráfico de colunas agrupadas com várias categorias e séries.
+Neste tutorial, aprenderemos a criar um gráfico multicategoria em slides Java usando a API Aspose.Slides para Java. Este guia fornecerá instruções passo a passo, juntamente com o código-fonte, para ajudar você a criar um gráfico de colunas agrupadas com múltiplas categorias e séries.
 
 ## Pré-requisitos
 Antes de começar, certifique-se de ter a biblioteca Aspose.Slides para Java instalada e configurada em seu ambiente de desenvolvimento Java.
 
-## Etapa 1: Configurando o Ambiente
+## Etapa 1: Configurando o ambiente
 Primeiro, importe as classes necessárias e crie um novo objeto Presentation para trabalhar com slides.
 
 ```java
@@ -30,7 +32,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 ```
 
-## Etapa 2: adicionar um slide e um gráfico
+## Etapa 2: Adicionar um slide e um gráfico
 Em seguida, crie um slide e adicione um gráfico de colunas agrupadas a ele.
 
 ```java
@@ -38,7 +40,7 @@ ISlide slide = pres.getSlides().get_Item(0);
 IChart ch = slide.getShapes().addChart(ChartType.ClusteredColumn, 100, 100, 600, 450);
 ```
 
-## Etapa 3: limpar os dados existentes
+## Etapa 3: Limpando dados existentes
 Limpe todos os dados existentes do gráfico.
 
 ```java
@@ -46,7 +48,7 @@ ch.getChartData().getSeries().clear();
 ch.getChartData().getCategories().clear();
 ```
 
-## Etapa 4: configurar categorias de dados
+## Etapa 4: Configurando categorias de dados
 Agora, vamos configurar categorias de dados para o gráfico. Criaremos várias categorias e as agruparemos.
 
 ```java
@@ -77,8 +79,8 @@ category.getGroupingLevels().setGroupingItem(1, "Group4");
 category = ch.getChartData().getCategories().add(fact.getCell(0, "c9", "H"));
 ```
 
-## Etapa 5: adicionar séries
-Agora, vamos adicionar uma série ao gráfico junto com os pontos de dados.
+## Etapa 5: Adicionando Séries
+Agora, vamos adicionar uma série ao gráfico junto com pontos de dados.
 
 ```java
 IChartSeries series = ch.getChartData().getSeries().add(fact.getCell(0, "D1", "Series 1"), ChartType.ClusteredColumn);
@@ -93,16 +95,16 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, "D9", 80));
 ```
 
-## Etapa 6: salvando a apresentação
+## Etapa 6: Salvando a apresentação
 Por fim, salve a apresentação com o gráfico.
 
 ```java
 pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
 
-É isso! Você criou com sucesso um gráfico de múltiplas categorias em um slide Java usando Aspose.Slides. Você pode personalizar ainda mais este gráfico para atender às suas necessidades específicas.
+Pronto! Você criou com sucesso um gráfico multicategoria em um slide Java usando o Aspose.Slides. Você pode personalizar ainda mais este gráfico para atender às suas necessidades específicas.
 
-## Código-fonte completo para gráfico de múltiplas categorias em slides Java
+## Código-fonte completo para gráfico multicategoria em slides Java
 
 ```java
 // O caminho para o diretório de documentos.
@@ -127,7 +129,7 @@ category = ch.getChartData().getCategories().add(fact.getCell(0, "c7", "F"));
 category = ch.getChartData().getCategories().add(fact.getCell(0, "c8", "G"));
 category.getGroupingLevels().setGroupingItem(1, "Group4");
 category = ch.getChartData().getCategories().add(fact.getCell(0, "c9", "H"));
-// Adicionando Série
+//            Adicionando Séries
 IChartSeries series = ch.getChartData().getSeries().add(fact.getCell(0, "D1", "Series 1"),
 		ChartType.ClusteredColumn);
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, "D2", 10));
@@ -144,13 +146,13 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ## Conclusão
 
-Neste tutorial, aprendemos como criar um gráfico de múltiplas categorias em slides Java usando a API Aspose.Slides for Java. Seguimos um guia passo a passo com código-fonte para criar um gráfico de colunas agrupado com várias categorias e séries.
+Neste tutorial, aprendemos a criar um gráfico multicategoria em slides Java usando a API Aspose.Slides para Java. Seguimos um guia passo a passo com código-fonte para criar um gráfico de colunas agrupadas com múltiplas categorias e séries.
 
 ## Perguntas frequentes
 
 ### Como posso personalizar a aparência do gráfico?
 
-Você pode personalizar a aparência do gráfico modificando propriedades como cores, fontes e estilos. Consulte a documentação do Aspose.Slides para opções de personalização detalhadas.
+Você pode personalizar a aparência do gráfico modificando propriedades como cores, fontes e estilos. Consulte a documentação do Aspose.Slides para obter opções detalhadas de personalização.
 
 ### Posso adicionar mais séries ao gráfico?
 
@@ -158,14 +160,16 @@ Sim, você pode adicionar séries adicionais ao gráfico seguindo um processo se
 
 ### Como altero o tipo de gráfico?
 
- Para alterar o tipo de gráfico, substitua`ChartType.ClusteredColumn` com o tipo de gráfico desejado ao adicionar o gráfico na Etapa 2.
+Para alterar o tipo de gráfico, substitua `ChartType.ClusteredColumn` com o tipo de gráfico desejado ao adicionar o gráfico na Etapa 2.
 
 ### Como posso adicionar um título ao gráfico?
 
- Você pode adicionar um título ao gráfico usando o`ch.getChartTitle().getTextFrame().setText("Chart Title");` método.
+Você pode adicionar um título ao gráfico usando o `ch.getChartTitle().getTextFrame().setText("Chart Title");` método.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

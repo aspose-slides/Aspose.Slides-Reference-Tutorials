@@ -1,14 +1,16 @@
 ---
-title: पावरपॉइंट में लाइट रिग प्रभावी डेटा प्राप्त करें
-linktitle: पावरपॉइंट में लाइट रिग प्रभावी डेटा प्राप्त करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: इस विस्तृत, चरण-दर-चरण मार्गदर्शिका में जानें कि Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों से लाइट रिग प्रभावी डेटा कैसे प्राप्त करें।
-weight: 25
-url: /hi/java/java-powerpoint-shape-formatting-geometry/get-light-rig-effective-data-powerpoint/
+"description": "इस विस्तृत, चरण-दर-चरण मार्गदर्शिका में जानें कि Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों से लाइट रिग प्रभावी डेटा कैसे प्राप्त करें।"
+"linktitle": "पावरपॉइंट में लाइट रिग प्रभावी डेटा प्राप्त करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "पावरपॉइंट में लाइट रिग प्रभावी डेटा प्राप्त करें"
+"url": "/hi/java/java-powerpoint-shape-formatting-geometry/get-light-rig-effective-data-powerpoint/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पावरपॉइंट में लाइट रिग प्रभावी डेटा प्राप्त करें
@@ -18,7 +20,7 @@ url: /hi/java/java-powerpoint-shape-formatting-geometry/get-light-rig-effective-
 ## आवश्यक शर्तें
 कोड में आगे बढ़ने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
 1. जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपके सिस्टम पर JDK 8 या उच्चतर संस्करण स्थापित है।
-2.  Aspose.Slides for Java: लाइब्रेरी को यहां से डाउनलोड करें[यहाँ](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides for Java: लाइब्रेरी को यहां से डाउनलोड करें [यहाँ](https://releases.aspose.com/slides/java/).
 3. IDE: कोडिंग के लिए IntelliJ IDEA या Eclipse जैसे एकीकृत विकास वातावरण (IDE) का उपयोग करें।
 4. प्रस्तुति फ़ाइल: एक नमूना पावरपॉइंट फ़ाइल (`Presentation1.pptx`) कोड का परीक्षण करने के लिए.
 ## पैकेज आयात करें
@@ -34,7 +36,7 @@ import com.aspose.slides.Presentation;
 String dataDir = "Your Document Directory";  // अपने दस्तावेज़ निर्देशिका के वास्तविक पथ से प्रतिस्थापित करें
 ```
 ## चरण 2: प्रस्तुति लोड करें
- इसके बाद, आप PowerPoint प्रस्तुति को लोड करेंगे`Presentation` Aspose.Slides से क्लास.
+इसके बाद, आप PowerPoint प्रस्तुति को लोड करेंगे `Presentation` Aspose.Slides से क्लास.
 ```java
 Presentation pres = new Presentation(dataDir + "Presentation1.pptx");
 ```
@@ -66,15 +68,17 @@ System.out.println("Direction: " + threeDEffectiveData.getLightRig().getDirectio
 Aspose.Slides for Java, Java का उपयोग करके PowerPoint फ़ाइलें बनाने, उनमें हेरफेर करने और उन्हें परिवर्तित करने के लिए एक शक्तिशाली लाइब्रेरी है।
 ### क्या मैं Microsoft PowerPoint इंस्टॉल किए बिना Aspose.Slides का उपयोग कर सकता हूँ?
 हां, आप Microsoft PowerPoint इंस्टॉल किए बिना Aspose.Slides का उपयोग कर सकते हैं।
-### मैं Aspose.Slides के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूँ?
- आप यहां से अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+### मैं Aspose.Slides के लिए अस्थायी लाइसेंस कैसे प्राप्त करूं?
+आप यहां से अस्थायी लाइसेंस प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
 ### मैं Aspose.Slides for Java के लिए दस्तावेज़ कहां पा सकता हूं?
- दस्तावेज़ यहां उपलब्ध है[इस लिंक](https://reference.aspose.com/slides/java/).
+दस्तावेज़ यहां उपलब्ध है [इस लिंक](https://reference.aspose.com/slides/java/).
 ### मैं Aspose.Slides के लिए समर्थन कैसे प्राप्त करूं?
- आप Aspose.Slides सहायता मंच से सहायता प्राप्त कर सकते हैं[यहाँ](https://forum.aspose.com/c/slides/11).
+आप Aspose.Slides सहायता मंच से सहायता प्राप्त कर सकते हैं [यहाँ](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

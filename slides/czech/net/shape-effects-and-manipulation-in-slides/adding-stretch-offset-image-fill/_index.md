@@ -1,37 +1,39 @@
 ---
-title: Přidání odsazení roztažení pro výplň obrázku v prezentacích PowerPoint
-linktitle: Přidání odsazení roztažení pro snímky výplně obrázků
-second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Naučte se, jak vylepšit prezentace PowerPoint pomocí Aspose.Slides pro .NET. Postupujte podle podrobného průvodce a přidejte odsazení roztažení pro výplň obrazu.
-weight: 18
-url: /cs/net/shape-effects-and-manipulation-in-slides/adding-stretch-offset-image-fill/
+"description": "Naučte se, jak vylepšit prezentace v PowerPointu pomocí Aspose.Slides pro .NET. Postupujte podle podrobného návodu, jak přidat roztažení pro výplň obrázku."
+"linktitle": "Přidání roztaženého odsazení pro výplň obrázku ve slidech"
+"second_title": "Rozhraní API pro zpracování PowerPointu v .NET od Aspose.Slides"
+"title": "Přidání roztaženého odsazení pro výplň obrázku v prezentacích PowerPointu"
+"url": "/cs/net/shape-effects-and-manipulation-in-slides/adding-stretch-offset-image-fill/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidání odsazení roztažení pro výplň obrázku v prezentacích PowerPoint
+# Přidání roztaženého odsazení pro výplň obrázku v prezentacích PowerPointu
 
-## Úvod
-V dynamickém světě prezentací hrají vizuální prvky klíčovou roli při upoutání pozornosti publika. Aspose.Slides for .NET umožňuje vývojářům vylepšit jejich prezentace v PowerPointu poskytnutím robustní sady funkcí. Jednou z takových funkcí je možnost přidat odsazení roztažení pro výplň obrazu, což umožňuje kreativní a vizuálně přitažlivé snímky.
+## Zavedení
+V dynamickém světě prezentací hrají vizuální prvky klíčovou roli v upoutání pozornosti publika. Aspose.Slides pro .NET umožňuje vývojářům vylepšit jejich prezentace v PowerPointu tím, že poskytuje robustní sadu funkcí. Jednou z takových funkcí je možnost přidat roztažení pro výplň obrázku, což umožňuje vytvářet kreativní a vizuálně přitažlivé snímky.
 ## Předpoklady
-Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
-1.  Aspose.Slides for .NET Library: Stáhněte a nainstalujte knihovnu z[Aspose.Slides pro dokumentaci .NET](https://reference.aspose.com/slides/net/).
+Než se pustíte do tutoriálu, ujistěte se, že máte splněny následující předpoklady:
+1. Knihovna Aspose.Slides pro .NET: Stáhněte a nainstalujte knihovnu z [Dokumentace k Aspose.Slides pro .NET](https://reference.aspose.com/slides/net/).
 2. Vývojové prostředí: Ujistěte se, že máte nastavené funkční vývojové prostředí .NET.
-Nyní začneme s průvodcem krok za krokem.
+A teď se pojďme podívat na podrobný návod.
 ## Importovat jmenné prostory
-Nejprve naimportujte potřebné jmenné prostory, abyste mohli využít funkcionalitu Aspose.Slides ve vaší aplikaci .NET.
+Nejprve importujte potřebné jmenné prostory, abyste mohli využít funkcionalitu Aspose.Slides ve vaší .NET aplikaci.
 ```csharp
 using System.IO;
 using Aspose.Slides;
 using System.Drawing;
 using Aspose.Slides.Export;
 ```
-## Krok 1: Nastavte svůj projekt
-Vytvořte nový projekt .NET ve vámi preferovaném vývojovém prostředí. Ujistěte se, že je správně odkazováno na Aspose.Slides for .NET.
-## Krok 2: Inicializujte třídu prezentace
- Vytvořte instanci`Presentation` třídy reprezentovat soubor PowerPoint.
+## Krok 1: Nastavení projektu
+Vytvořte nový projekt .NET ve vámi preferovaném vývojovém prostředí. Ujistěte se, že je Aspose.Slides for .NET správně odkazováno.
+## Krok 2: Inicializace třídy Presentation
+Vytvořte instanci `Presentation` třída pro reprezentaci souboru PowerPoint.
 ```csharp
 string dataDir = "Your Document Directory";
 bool isExists = System.IO.Directory.Exists(dataDir);
@@ -39,22 +41,22 @@ if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
 using (Presentation pres = new Presentation())
 {
-    // Váš kód je zde
+    // Váš kód patří sem
 }
 ```
 ## Krok 3: Získejte první snímek
-Načtěte první snímek z prezentace, se kterým budete pracovat.
+Načtěte první snímek z prezentace, se kterým chcete pracovat.
 ```csharp
 ISlide sld = pres.Slides[0];
 ```
-## Krok 4: Vytvořte instanci třídy ImageEx
- Vytvořte instanci souboru`ImageEx`třídy pro zpracování obrázku, který chcete přidat na snímek.
+## Krok 4: Vytvoření instance třídy ImageEx
+Vytvořte instanci `ImageEx` třída pro zpracování obrázku, který chcete přidat na snímek.
 ```csharp
 System.Drawing.Image img = (System.Drawing.Image)new Bitmap(dataDir + "aspose-logo.jpg");
 IPPImage imgx = pres.Images.AddImage(img);
 ```
-## Krok 5: Přidejte rámeček obrázku
- Využijte`AddPictureFrame` způsob přidání rámečku obrázku na snímek. Zadejte rozměry a polohu rámu.
+## Krok 5: Přidání fotorámečku
+Využijte `AddPictureFrame` Metoda pro přidání rámečku obrázku do snímku. Zadejte rozměry a umístění rámečku.
 ```csharp
 sld.Shapes.AddPictureFrame(ShapeType.Rectangle, 50, 150, imgx.Width, imgx.Height, imgx);
 ```
@@ -63,23 +65,25 @@ Uložte upravenou prezentaci na disk.
 ```csharp
 pres.Save(dataDir + "AddStretchOffsetForImageFill_out.pptx", SaveFormat.Pptx);
 ```
-A je to! Pomocí Aspose.Slides for .NET jste úspěšně přidali posunutí roztažení pro snímky výplně obrázků.
+To je vše! Úspěšně jste přidali posun roztažení pro výplň obrázků v slidech pomocí Aspose.Slides pro .NET.
 ## Závěr
-Vylepšení vašich prezentací v PowerPointu je nyní s Aspose.Slides pro .NET snazší než kdy dříve. Sledováním tohoto tutoriálu jste se naučili, jak začlenit odsazení roztažení pro výplň obrazu, což vašim snímkům přináší novou úroveň kreativity.
-## Nejčastější dotazy
-### Mohu používat Aspose.Slides for .NET ve svých webových aplikacích?
-Ano, Aspose.Slides for .NET je vhodný pro desktopové i webové aplikace.
-### Je k dispozici bezplatná zkušební verze pro Aspose.Slides pro .NET?
- Ano, můžete si stáhnout bezplatnou zkušební verzi z[tady](https://releases.aspose.com/).
+Vylepšení vašich prezentací v PowerPointu je nyní s Aspose.Slides pro .NET snazší než kdy dříve. Dodržováním tohoto tutoriálu jste se naučili, jak začlenit roztažení pro výplň obrázků, což vašim snímkům přináší novou úroveň kreativity.
+## Často kladené otázky
+### Mohu ve svých webových aplikacích použít Aspose.Slides pro .NET?
+Ano, Aspose.Slides pro .NET je vhodný jak pro desktopové, tak pro webové aplikace.
+### Je k dispozici bezplatná zkušební verze Aspose.Slides pro .NET?
+Ano, můžete si stáhnout bezplatnou zkušební verzi z [zde](https://releases.aspose.com/).
 ### Jak mohu získat podporu pro Aspose.Slides pro .NET?
- Navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) za podporu komunity.
+Navštivte [Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) pro podporu komunity.
 ### Kde najdu kompletní dokumentaci k Aspose.Slides pro .NET?
- Odkazovat na[dokumentace](https://reference.aspose.com/slides/net/) pro podrobné informace.
+Viz [dokumentace](https://reference.aspose.com/slides/net/) pro podrobné informace.
 ### Mohu si zakoupit Aspose.Slides pro .NET?
- Ano, produkt si můžete koupit[tady](https://purchase.aspose.com/buy).
+Ano, produkt si můžete koupit [zde](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

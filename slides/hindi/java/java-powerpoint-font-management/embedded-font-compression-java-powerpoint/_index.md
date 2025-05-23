@@ -1,14 +1,16 @@
 ---
-title: जावा पावरपॉइंट में एम्बेडेड फ़ॉन्ट संपीड़न
-linktitle: जावा पावरपॉइंट में एम्बेडेड फ़ॉन्ट संपीड़न
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides का उपयोग करके Java PowerPoint प्रस्तुतियों में एम्बेडेड फ़ॉन्ट को संपीड़ित करना सीखें। फ़ाइल आकार को आसानी से अनुकूलित करें।
-weight: 12
-url: /hi/java/java-powerpoint-font-management/embedded-font-compression-java-powerpoint/
+"description": "Aspose.Slides का उपयोग करके Java PowerPoint प्रस्तुतियों में एम्बेडेड फ़ॉन्ट को संपीड़ित करना सीखें। फ़ाइल आकार को आसानी से अनुकूलित करें।"
+"linktitle": "जावा पावरपॉइंट में एम्बेडेड फ़ॉन्ट संपीड़न"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा पावरपॉइंट में एम्बेडेड फ़ॉन्ट संपीड़न"
+"url": "/hi/java/java-powerpoint-font-management/embedded-font-compression-java-powerpoint/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा पावरपॉइंट में एम्बेडेड फ़ॉन्ट संपीड़न
@@ -20,7 +22,7 @@ url: /hi/java/java-powerpoint-font-management/embedded-font-compression-java-pow
 ### 1. जावा डेवलपमेंट किट (JDK)
 सुनिश्चित करें कि आपके सिस्टम पर JDK इंस्टॉल है। आप Oracle वेबसाइट से नवीनतम संस्करण डाउनलोड और इंस्टॉल कर सकते हैं।
 ### 2. Aspose.Slides for Java लाइब्रेरी
- उपलब्ध कराए गए लिंक से Aspose.Slides for Java लाइब्रेरी डाउनलोड करें[लिंक को डाउनलोड करें](https://releases.aspose.com/slides/java/) और इसे अपने विकास परिवेश में स्थापित करने के लिए स्थापना निर्देशों का पालन करें।
+उपलब्ध कराए गए लिंक से Aspose.Slides for Java लाइब्रेरी डाउनलोड करें [लिंक को डाउनलोड करें](https://releases.aspose.com/slides/java/) और इसे अपने विकास परिवेश में स्थापित करने के लिए स्थापना निर्देशों का पालन करें।
 
 ## पैकेज आयात करें
 आरंभ करने के लिए, Aspose.Slides for Java की कार्यक्षमताओं तक पहुंचने के लिए अपने Java प्रोजेक्ट में आवश्यक पैकेज आयात करें:
@@ -36,7 +38,7 @@ String presentationName = "Your Document Directory";
 Presentation pres = new Presentation(presentationName);
 ```
 ## 2. एम्बेडेड फ़ॉन्ट्स को संपीड़ित करें
- इसके बाद, आह्वान करें`Compress.compressEmbeddedFonts()` प्रस्तुति में एम्बेडेड फ़ॉन्ट्स को संपीड़ित करने की विधि:
+इसके बाद, आह्वान करें `Compress.compressEmbeddedFonts()` प्रस्तुति में एम्बेडेड फ़ॉन्ट्स को संपीड़ित करने की विधि:
 ```java
 Compress.compressEmbeddedFonts(pres);
 ```
@@ -61,18 +63,20 @@ System.out.println(String.format("Result file size = %d bytes", outputFile.lengt
 अपने जावा-संचालित पावरपॉइंट प्रेजेंटेशन में एम्बेडेड फ़ॉन्ट कम्प्रेशन को शामिल करने से फ़ाइल आकार को काफी हद तक अनुकूलित किया जा सकता है, जिससे वितरण आसान हो जाता है और प्रदर्शन में सुधार होता है। इस ट्यूटोरियल में बताए गए चरणों का पालन करके, आप इस सुविधा को अपने वर्कफ़्लो में सहजता से एकीकृत कर सकते हैं, जिससे आपकी प्रेजेंटेशन की दक्षता बढ़ जाती है।
 ## अक्सर पूछे जाने वाले प्रश्न
 ### क्या मैं अन्य प्रोग्रामिंग भाषाओं के साथ Java के लिए Aspose.Slides का उपयोग कर सकता हूँ?
-हां, Aspose.Slides कई प्रोग्रामिंग भाषाओं के लिए उपलब्ध है, जिसमें .NET, Python और C शामिल हैं++, क्रॉस-प्लेटफॉर्म संगतता प्रदान करना।
+हां, Aspose.Slides .NET, Python और C++ सहित कई प्रोग्रामिंग भाषाओं के लिए उपलब्ध है, जो क्रॉस-प्लेटफॉर्म संगतता प्रदान करता है।
 ### क्या Aspose.Slides प्रस्तुतियों के लिए एन्क्रिप्शन और पासवर्ड सुरक्षा का समर्थन करता है?
 हां, Aspose.Slides आपके प्रस्तुतीकरणों को अनधिकृत पहुंच से सुरक्षित रखने के लिए एन्क्रिप्शन और पासवर्ड सुरक्षा सुविधाएं प्रदान करता है।
 ### क्या मूल्यांकन के लिए Aspose.Slides का परीक्षण संस्करण उपलब्ध है?
- हां, आप प्रदान की गई साइट से Aspose.Slides का निःशुल्क परीक्षण प्राप्त कर सकते हैं[जोड़ना](https://releases.aspose.com/) खरीदारी करने से पहले इसकी विशेषताओं का मूल्यांकन करें।
+हां, आप प्रदान की गई साइट से Aspose.Slides का निःशुल्क परीक्षण प्राप्त कर सकते हैं [जोड़ना](https://releases.aspose.com/) खरीदारी करने से पहले इसकी विशेषताओं का मूल्यांकन करें।
 ### यदि मुझे Aspose.Slides का उपयोग करते समय कोई समस्या आती है तो क्या मैं सहायता ले सकता हूँ?
- ज़रूर! आप समर्पित के माध्यम से Aspose.Slides समुदाय से समर्थन प्राप्त कर सकते हैं[मंच](https://forum.aspose.com/c/slides/11) या प्राथमिकता सहायता के लिए अस्थायी लाइसेंस प्राप्त करने पर विचार करें।
+ज़रूर! आप समर्पित के माध्यम से Aspose.Slides समुदाय से समर्थन प्राप्त कर सकते हैं [मंच](https://forum.aspose.com/c/slides/11) या प्राथमिकता सहायता के लिए अस्थायी लाइसेंस प्राप्त करने पर विचार करें।
 ### मैं Java के लिए Aspose.Slides का लाइसेंस प्राप्त संस्करण कैसे खरीद सकता हूं?
-आप दिए गए निर्देशों का उपयोग करके वेबसाइट से Aspose.Slides for Java का लाइसेंस प्राप्त संस्करण खरीद सकते हैं।[लिंक खरीदें](https://purchase.aspose.com/buy).
+आप दिए गए निर्देशों का उपयोग करके वेबसाइट से Aspose.Slides for Java का लाइसेंस प्राप्त संस्करण खरीद सकते हैं। [खरीदें लिंक](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

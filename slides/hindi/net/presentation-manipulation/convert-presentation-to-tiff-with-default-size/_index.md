@@ -1,14 +1,16 @@
 ---
-title: प्रस्तुति को डिफ़ॉल्ट आकार के साथ TIFF में बदलें
-linktitle: प्रस्तुति को डिफ़ॉल्ट आकार के साथ TIFF में बदलें
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: जानें कि Aspose.Slides for .NET का उपयोग करके आसानी से प्रस्तुतियों को उनके डिफ़ॉल्ट आकार के साथ TIFF छवियों में कैसे परिवर्तित किया जाए।
-weight: 27
-url: /hi/net/presentation-manipulation/convert-presentation-to-tiff-with-default-size/
+"description": "जानें कि Aspose.Slides for .NET का उपयोग करके आसानी से प्रस्तुतियों को उनके डिफ़ॉल्ट आकार के साथ TIFF छवियों में कैसे परिवर्तित किया जाए।"
+"linktitle": "प्रस्तुति को डिफ़ॉल्ट आकार के साथ TIFF में बदलें"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "प्रस्तुति को डिफ़ॉल्ट आकार के साथ TIFF में बदलें"
+"url": "/hi/net/presentation-manipulation/convert-presentation-to-tiff-with-default-size/"
+"weight": 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # प्रस्तुति को डिफ़ॉल्ट आकार के साथ TIFF में बदलें
@@ -23,20 +25,20 @@ Aspose.Slides for .NET एक मजबूत लाइब्रेरी है
 इससे पहले कि हम कोडिंग प्रक्रिया में उतरें, आपको यह सुनिश्चित करना होगा कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
 - विज़ुअल स्टूडियो या कोई अन्य .NET विकास वातावरण
--  .NET लाइब्रेरी के लिए Aspose.Slides (डाउनलोड करें[यहाँ](https://downloads.aspose.com/slides/net)
+- .NET लाइब्रेरी के लिए Aspose.Slides (डाउनलोड करें [यहाँ](https://downloads.aspose.com/slides/net)
 - C# प्रोग्रामिंग का बुनियादी ज्ञान
 
 ## .NET के लिए Aspose.Slides स्थापित करना
 
-आरंभ करने के लिए, Aspose.Slides for .NET लाइब्रेरी को स्थापित करने के लिए इन चरणों का पालन करें:
+आरंभ करने के लिए, .NET लाइब्रेरी के लिए Aspose.Slides स्थापित करने हेतु इन चरणों का पालन करें:
 
-1.  .NET लाइब्रेरी के लिए Aspose.Slides डाउनलोड करें[यहाँ](https://downloads.aspose.com/slides/net).
+1. .NET लाइब्रेरी के लिए Aspose.Slides डाउनलोड करें [यहाँ](https://downloads.aspose.com/slides/net).
 2. डाउनलोड की गई ZIP फ़ाइल को अपने सिस्टम पर उपयुक्त स्थान पर निकालें।
 3. अपना विज़ुअल स्टूडियो प्रोजेक्ट खोलें.
 
 ## प्रस्तुति लोड करना
 
-एक बार जब आप Aspose.Slides लाइब्रेरी को अपने प्रोजेक्ट में एकीकृत कर लेते हैं, तो आप कोडिंग शुरू कर सकते हैं। उस प्रेजेंटेशन फ़ाइल को लोड करके शुरू करें जिसे आप TIFF में बदलना चाहते हैं। इसे कैसे करना है, इसका एक उदाहरण यहां दिया गया है:
+एक बार जब आप Aspose.Slides लाइब्रेरी को अपने प्रोजेक्ट में एकीकृत कर लेते हैं, तो आप कोडिंग शुरू कर सकते हैं। उस प्रेजेंटेशन फ़ाइल को लोड करके शुरू करें जिसे आप TIFF में बदलना चाहते हैं। इसे कैसे करना है इसका एक उदाहरण यहां दिया गया है:
 
 ```csharp
 using Aspose.Slides;
@@ -60,7 +62,7 @@ presentation.Save("output.tiff", SaveFormat.Tiff, options);
 
 ## TIFF छवि को सहेजना
 
- अंत में, उत्पन्न TIFF छवि को वांछित स्थान पर सहेजें`Save` तरीका:
+अंत में, उत्पन्न TIFF छवि को वांछित स्थान पर सहेजें `Save` तरीका:
 
 ```csharp
 // TIFF छवि सहेजें
@@ -79,7 +81,7 @@ presentation.Save("output.tiff", SaveFormat.Tiff,options);
 
 ### क्या मैं संपूर्ण प्रस्तुति के बजाय विशिष्ट स्लाइडों को परिवर्तित कर सकता हूँ?
 
- हां, आप चुनिंदा स्लाइडों को TIFF प्रारूप में परिवर्तित कर सकते हैं`Slide` क्लास का उपयोग करके व्यक्तिगत स्लाइडों तक पहुंच बनाई जा सकती है और फिर उन्हें TIFF छवियों के रूप में परिवर्तित और सहेजा जा सकता है।
+हां, आप चुनिंदा स्लाइडों को TIFF प्रारूप में परिवर्तित कर सकते हैं `Slide` क्लास का उपयोग करके व्यक्तिगत स्लाइडों तक पहुंचें और फिर उन्हें TIFF छवियों के रूप में परिवर्तित और सहेज लें।
 
 ### क्या Aspose.Slides for .NET PowerPoint के विभिन्न संस्करणों के साथ संगत है?
 
@@ -91,10 +93,12 @@ presentation.Save("output.tiff", SaveFormat.Tiff,options);
 
 ### मैं Aspose.Slides for .NET के बारे में अधिक जानकारी कहां पा सकता हूं?
 
- विस्तृत दस्तावेज़ीकरण और उदाहरणों के लिए, यहां जाएं[.NET दस्तावेज़ीकरण के लिए Aspose.Slides](https://reference.aspose.com/slides/net).
+विस्तृत दस्तावेज़ीकरण और उदाहरणों के लिए, यहां जाएं [.NET दस्तावेज़ीकरण के लिए Aspose.Slides](https://reference.aspose.com/slides/net).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

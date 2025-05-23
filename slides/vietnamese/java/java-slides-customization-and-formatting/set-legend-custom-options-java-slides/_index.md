@@ -1,29 +1,31 @@
 ---
-title: Đặt tùy chọn tùy chỉnh chú giải trong Java Slides
-linktitle: Đặt tùy chọn tùy chỉnh chú giải trong Java Slides
-second_title: Aspose.Slides API xử lý PowerPoint Java
-description: Tìm hiểu cách đặt tùy chọn chú giải tùy chỉnh trong Java Slides bằng Aspose.Slides for Java. Tùy chỉnh vị trí và kích thước chú giải trong biểu đồ PowerPoint của bạn.
-weight: 14
-url: /vi/java/customization-and-formatting/set-legend-custom-options-java-slides/
+"description": "Tìm hiểu cách thiết lập tùy chọn chú giải tùy chỉnh trong Java Slides bằng Aspose.Slides for Java. Tùy chỉnh vị trí và kích thước chú giải trong biểu đồ PowerPoint của bạn."
+"linktitle": "Thiết lập tùy chọn tùy chỉnh chú giải trong Java Slides"
+"second_title": "API xử lý PowerPoint Java của Aspose.Slides"
+"title": "Thiết lập tùy chọn tùy chỉnh chú giải trong Java Slides"
+"url": "/vi/java/customization-and-formatting/set-legend-custom-options-java-slides/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Đặt tùy chọn tùy chỉnh chú giải trong Java Slides
+# Thiết lập tùy chọn tùy chỉnh chú giải trong Java Slides
 
 
-## Giới thiệu về Đặt tùy chọn tùy chỉnh chú giải trong Java Slides
+## Giới thiệu về Tùy chọn tùy chỉnh Set Legend trong Java Slides
 
-Trong hướng dẫn này, chúng tôi sẽ trình bày cách tùy chỉnh các thuộc tính chú giải của biểu đồ trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Bạn có thể sửa đổi vị trí, kích thước của chú giải và các thuộc tính khác cho phù hợp với nhu cầu trình bày của mình.
+Trong hướng dẫn này, chúng tôi sẽ trình bày cách tùy chỉnh các thuộc tính chú giải của biểu đồ trong bản trình bày PowerPoint bằng Aspose.Slides for Java. Bạn có thể sửa đổi vị trí, kích thước và các thuộc tính khác của chú giải để phù hợp với nhu cầu trình bày của mình.
 
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
-- Aspose.Slides cho API Java đã được cài đặt.
-- Môi trường phát triển Java được thiết lập.
+- Đã cài đặt Aspose.Slides cho Java API.
+- Thiết lập môi trường phát triển Java.
 
 ## Bước 1: Nhập các lớp cần thiết:
 
@@ -38,7 +40,7 @@ import com.aspose.slides.*;
 String dataDir = "Your Document Directory";
 ```
 
-##  Bước 3: Tạo một thể hiện của`Presentation` class:
+## Bước 3: Tạo một phiên bản của `Presentation` lớp học:
 
 ```java
 Presentation presentation = new Presentation();
@@ -51,15 +53,15 @@ try {
     ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
-## Bước 5: Thêm biểu đồ cột nhóm vào slide:
+## Bước 5: Thêm biểu đồ cột nhóm vào trang chiếu:
 
 ```java
     IChart chart = slide.getShapes().addChart(ChartType.ClusteredColumn, 50, 50, 500, 500);
 ```
 
-## Bước 6. Đặt thuộc tính chú giải:
+## Bước 6. Thiết lập Thuộc tính chú giải:
 
-- Đặt vị trí X của chú giải (so với chiều rộng biểu đồ):
+- Đặt vị trí X của chú giải (tương ứng với chiều rộng biểu đồ):
 
 ```java
 chart.getLegend().setX(50 / chart.getWidth());
@@ -71,13 +73,13 @@ chart.getLegend().setX(50 / chart.getWidth());
 chart.getLegend().setY(50 / chart.getHeight());
 ```
 
-- Đặt chiều rộng của chú giải (so với chiều rộng biểu đồ):
+- Đặt chiều rộng của chú giải (tương ứng với chiều rộng của biểu đồ):
 
 ```java
 chart.getLegend().setWidth(100 / chart.getWidth());
 ```
 
-- Đặt chiều cao của chú giải (so với chiều cao biểu đồ):
+- Đặt chiều cao của chú giải (tương ứng với chiều cao của biểu đồ):
 
 ```java
 chart.getLegend().setHeight(100 / chart.getHeight());
@@ -92,27 +94,27 @@ chart.getLegend().setHeight(100 / chart.getHeight());
 }
 ```
 
-Đó là nó! Bạn đã tùy chỉnh thành công các thuộc tính chú giải của biểu đồ trong bản trình bày PowerPoint bằng Aspose.Slides cho Java.
+Vậy là xong! Bạn đã tùy chỉnh thành công các thuộc tính chú giải của biểu đồ trong bản trình bày PowerPoint bằng Aspose.Slides for Java.
 
-## Mã nguồn hoàn chỉnh cho các tùy chọn tùy chỉnh chú giải trong Java Slides
+## Mã nguồn đầy đủ cho tùy chọn tùy chỉnh chú giải tập hợp trong Java Slides
 
 ```java
 // Đường dẫn đến thư mục tài liệu.
 String dataDir = "Your Document Directory";
-// Tạo một thể hiện của lớp Trình bày
+// Tạo một thể hiện của lớp Presentation
 Presentation presentation = new Presentation();
 try
 {
-	// Nhận tài liệu tham khảo của slide
+	// Lấy tham chiếu của slide
 	ISlide slide = presentation.getSlides().get_Item(0);
-	// Thêm biểu đồ cột được nhóm trên trang chiếu
+	// Thêm biểu đồ cột nhóm vào trang chiếu
 	IChart chart = slide.getShapes().addChart(ChartType.ClusteredColumn, 50, 50, 500, 500);
-	// Đặt thuộc tính chú giải
+	// Đặt Thuộc tính Chú giải
 	chart.getLegend().setX(50 / chart.getWidth());
 	chart.getLegend().setY(50 / chart.getHeight());
 	chart.getLegend().setWidth(100 / chart.getWidth());
 	chart.getLegend().setHeight(100 / chart.getHeight());
-	// Ghi bài thuyết trình vào đĩa
+	// Ghi bản trình bày vào đĩa
 	presentation.save(dataDir + "Legend_out.pptx", SaveFormat.Pptx);
 }
 finally
@@ -122,24 +124,26 @@ finally
 ```
 ## Phần kết luận
 
-Trong hướng dẫn này, chúng ta đã tìm hiểu cách tùy chỉnh các thuộc tính chú giải của biểu đồ trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Bạn có thể sửa đổi vị trí, kích thước của chú giải và các thuộc tính khác để tạo ra các bản trình bày đầy thông tin và hấp dẫn về mặt trực quan.
+Trong hướng dẫn này, chúng ta đã học cách tùy chỉnh các thuộc tính chú giải của biểu đồ trong bản trình bày PowerPoint bằng Aspose.Slides for Java. Bạn có thể sửa đổi vị trí, kích thước và các thuộc tính khác của chú giải để tạo ra các bản trình bày hấp dẫn về mặt hình ảnh và nhiều thông tin.
 
 ## Câu hỏi thường gặp
 
-## Làm cách nào để thay đổi vị trí của huyền thoại?
+## Làm thế nào để tôi có thể thay đổi vị trí của chú giải?
 
- Để thay đổi vị trí của chú giải, hãy sử dụng`setX` Và`setY` các phương thức của đối tượng huyền thoại. Các giá trị được chỉ định tương ứng với chiều rộng và chiều cao của biểu đồ.
+Để thay đổi vị trí của chú giải, hãy sử dụng `setX` Và `setY` phương pháp của đối tượng chú giải. Các giá trị được chỉ định theo chiều rộng và chiều cao của biểu đồ.
 
-## Làm cách nào để điều chỉnh kích thước của chú giải?
+## Làm thế nào để tôi có thể điều chỉnh kích thước của chú giải?
 
- Bạn có thể điều chỉnh kích thước của chú giải bằng cách sử dụng`setWidth` Và`setHeight` các phương thức của đối tượng huyền thoại. Các giá trị này cũng liên quan đến chiều rộng và chiều cao của biểu đồ.
+Bạn có thể điều chỉnh kích thước của chú giải bằng cách sử dụng `setWidth` Và `setHeight` phương pháp của đối tượng chú giải. Các giá trị này cũng liên quan đến chiều rộng và chiều cao của biểu đồ.
 
 ## Tôi có thể tùy chỉnh các thuộc tính chú giải khác không?
 
-Có, bạn có thể tùy chỉnh các thuộc tính khác nhau của chú giải, chẳng hạn như kiểu phông chữ, đường viền, màu nền, v.v. Khám phá tài liệu Aspose.Slides để biết thêm thông tin chi tiết về cách tùy chỉnh chú giải.
+Có, bạn có thể tùy chỉnh nhiều thuộc tính khác nhau của chú giải, chẳng hạn như kiểu phông chữ, đường viền, màu nền, v.v. Khám phá tài liệu Aspose.Slides để biết thông tin chi tiết về cách tùy chỉnh chú giải thêm.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

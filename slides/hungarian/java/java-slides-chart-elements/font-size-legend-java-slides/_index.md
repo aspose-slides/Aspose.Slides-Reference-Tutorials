@@ -1,30 +1,32 @@
 ---
-title: Betűméret-magyarázat a Java Slides-ben
-linktitle: Betűméret-magyarázat a Java Slides-ben
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Javítsa a PowerPoint prezentációkat az Aspose.Slides for Java segítségével. Lépésről lépésre szóló útmutatónkból megtudhatja, hogyan szabhatja személyre a jelmagyarázat betűméretét és még sok mást.
-weight: 13
-url: /hu/java/chart-elements/font-size-legend-java-slides/
+"description": "Turbózd fel a PowerPoint prezentációidat az Aspose.Slides Java verziójával. Tanuld meg, hogyan szabhatod testre a jelmagyarázatok betűméretét és sok mást lépésről lépésre szóló útmutatónkban."
+"linktitle": "Betűméret-jelmagyarázat Java diákban"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Betűméret-jelmagyarázat Java diákban"
+"url": "/hu/java/chart-elements/font-size-legend-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Betűméret-magyarázat a Java Slides-ben
+# Betűméret-jelmagyarázat Java diákban
 
 
-## A Java Slides betűméret-magyarázatának bemutatása
+## Bevezetés a betűméret-jelmagyarázatba Java diákban
 
-Ebből az oktatóanyagból megtudhatja, hogyan szabhatja testre a jelmagyarázat betűméretét egy PowerPoint dián az Aspose.Slides for Java segítségével. Ennek a feladatnak a megvalósításához lépésről lépésre útmutatást és forráskódot adunk.
+Ebben az oktatóanyagban megtanulod, hogyan szabhatod testre a PowerPoint-diák jelmagyarázatának betűméretét az Aspose.Slides for Java segítségével. Lépésről lépésre bemutatjuk a feladat elvégzéséhez szükséges utasításokat és forráskódot.
 
 ## Előfeltételek
 
- Mielőtt elkezdené, győződjön meg arról, hogy az Aspose.Slides for Java könyvtár telepítve van és be van állítva a Java projektben. A könyvtárat innen töltheti le[itt](https://releases.aspose.com/slides/java/).
+Mielőtt elkezdenéd, győződj meg róla, hogy az Aspose.Slides for Java könyvtár telepítve és beállítva van a Java projektedben. A könyvtárat letöltheted innen: [itt](https://releases.aspose.com/slides/java/).
 
-## 1. lépés: Inicializálja a prezentációt
+## 1. lépés: A prezentáció inicializálása
 
-Először importálja a szükséges osztályokat, és inicializálja a PowerPoint bemutatót.
+Először importálja a szükséges osztályokat, és inicializálja a PowerPoint-bemutatóját.
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
@@ -32,9 +34,9 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 ```
 
- Cserélje ki`"Your Document Directory"` a PowerPoint-fájl tényleges elérési útjával.
+Csere `"Your Document Directory"` a PowerPoint-fájl tényleges elérési útjával.
 
-## 2. lépés: Adjon hozzá egy diagramot
+## 2. lépés: Diagram hozzáadása
 
 Ezután hozzáadunk egy diagramot a diához, és beállítjuk a jelmagyarázat betűméretét.
 
@@ -46,11 +48,11 @@ try
 }
 ```
 
- Ebben a kódban az első dián fürtözött oszlopdiagramot hozunk létre, és a jelmagyarázat szövegének betűméretét 20 pontra állítjuk. Beállíthatja a`setFontHeight`értékét a betűméret igény szerinti módosításához.
+Ebben a kódban egy csoportos oszlopdiagramot hozunk létre az első dián, és a jelmagyarázat szövegének betűméretét 20 pontra állítjuk. Módosíthatja a `setFontHeight` értékkel módosíthatja a betűméretet szükség szerint.
 
-## 3. lépés: A tengelyértékek testreszabása
+## 3. lépés: Tengelyértékek testreszabása
 
-Most pedig szabjuk testre a diagram függőleges tengelyértékeit.
+Most pedig szabjuk testre a diagram függőleges tengelyének értékeit.
 
 ```java
     chart.getAxes().getVerticalAxis().setAutomaticMinValue(false);
@@ -59,11 +61,11 @@ Most pedig szabjuk testre a diagram függőleges tengelyértékeit.
     chart.getAxes().getVerticalAxis().setMaxValue(10);
 ```
 
-Itt beállítjuk a függőleges tengely minimális és maximális értékét. Az értékeket az adatkövetelményeknek megfelelően módosíthatja.
+Itt állítjuk be a függőleges tengely minimális és maximális értékeit. Az értékeket az adatigényeknek megfelelően módosíthatja.
 
-## 4. lépés: Mentse el a bemutatót
+## 4. lépés: Mentse el a prezentációt
 
-Végül mentse a módosított prezentációt egy új fájlba.
+Végül mentse el a módosított prezentációt egy új fájlba.
 
 ```java
     pres.save(dataDir + "output.pptx", SaveFormat.Pptx);
@@ -74,9 +76,9 @@ finally
 }
 ```
 
-Ez a kód a módosított prezentációt "output.pptx" néven menti a megadott könyvtárba.
+Ez a kód a módosított prezentációt „output.pptx” néven menti a megadott könyvtárba.
 
-## A Java Slides betűméret-magyarázatának teljes forráskódja
+## Teljes forráskód a Java diák betűméret-jelmagyarázatához
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
@@ -100,24 +102,24 @@ finally
 
 ## Következtetés
 
-Sikeresen testreszabta a jelmagyarázat betűméretét egy Java PowerPoint dián az Aspose.Slides for Java segítségével. Tovább fedezheti az Aspose.Slides interaktív és tetszetős prezentációinak képességeit.
+Sikeresen testre szabtad a Java PowerPoint dia jelmagyarázatának betűméretét az Aspose.Slides for Java segítségével. Tovább is felfedezheted az Aspose.Slides képességeit interaktív és vizuálisan vonzó prezentációk készítéséhez.
 
 ## GYIK
 
-### Hogyan változtathatom meg a jelmagyarázat szövegének betűméretét a diagramban?
+### Hogyan tudom megváltoztatni a jelmagyarázat szövegének betűméretét egy diagramban?
 
-A diagramon szereplő jelmagyarázat szövegének betűméretének módosításához a következő kódot használhatja:
+A diagram jelmagyarázatának betűméretének megváltoztatásához a következő kódot használhatja:
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 50, 50, 600, 400);
 chart.getLegend().getTextFormat().getPortionFormat().setFontHeight(20);
 ```
 
- Ebben a kódban létrehozunk egy diagramot, és a jelmagyarázat szövegének betűméretét 20 pontra állítjuk. Beállíthatja a`setFontHeight` értéket a betűméret módosításához.
+Ebben a kódban létrehozunk egy diagramot, és a jelmagyarázat szövegének betűméretét 20 pontra állítjuk. Beállíthatod a `setFontHeight` érték a betűméret módosításához.
 
 ### Testreszabhatom a jelmagyarázat egyéb tulajdonságait egy diagramban?
 
-Igen, az Aspose.Slides segítségével testreszabhatja a diagramon szereplő jelmagyarázat különféle tulajdonságait. A testreszabható általános tulajdonságok közé tartozik a szöveg formázása, pozíciója, láthatósága és még sok más. Például a jelmagyarázat pozíciójának megváltoztatásához használhatja:
+Igen, az Aspose.Slides segítségével testreszabhatja a diagram jelmagyarázatának különböző tulajdonságait. Néhány gyakori tulajdonság, amelyet testreszabhat, például a szöveg formázása, pozíciója, láthatósága és egyebek. Például a jelmagyarázat pozíciójának módosításához használhatja a következőket:
 
 ```java
 chart.getLegend().setPosition(LegendPosition.Bottom);
@@ -125,9 +127,9 @@ chart.getLegend().setPosition(LegendPosition.Bottom);
 
 Ez a kód beállítja, hogy a jelmagyarázat a diagram alján jelenjen meg. További testreszabási lehetőségekért tekintse meg az Aspose.Slides dokumentációját.
 
-### Hogyan állíthatok be minimális és maximális értéket a diagram függőleges tengelyéhez?
+### Hogyan állíthatom be a diagram függőleges tengelyének minimum és maximum értékeit?
 
-A diagram függőleges tengelyének minimális és maximális értékének beállításához a következő kódot használhatja:
+A diagram függőleges tengelyének minimális és maximális értékeinek beállításához a következő kódot használhatja:
 
 ```java
 chart.getAxes().getVerticalAxis().setAutomaticMinValue(false);
@@ -136,14 +138,16 @@ chart.getAxes().getVerticalAxis().setAutomaticMaxValue(false);
 chart.getAxes().getVerticalAxis().setMaxValue(10);
 ```
 
-Itt letiltjuk az automatikus tengelyméretezést, és megadjuk a függőleges tengely minimális és maximális értékét. Állítsa be a diagramadatokhoz szükséges értékeket.
+Itt letiltjuk az automatikus tengelyméretezést, és megadjuk a függőleges tengely minimális és maximális értékeit. Szükség szerint módosítsa az értékeket a diagram adataihoz.
 
-### Hol találhatok további információt és dokumentációt az Aspose.Slides-hez?
+### Hol találok további információt és dokumentációt az Aspose.Slides-ről?
 
- Az Aspose.Slides for Java-hoz átfogó dokumentációt és API-referenciákat találhat az Aspose dokumentációs webhelyén. Látogatás[itt](https://reference.aspose.com/slides/java/) a könyvtár használatával kapcsolatos részletes információkért.
+Az Aspose.Slides for Java átfogó dokumentációját és API-referenciáit az Aspose dokumentációs weboldalán találja. Látogassa meg a következőt: [itt](https://reference.aspose.com/slides/java/) részletes információkat a könyvtár használatáról.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

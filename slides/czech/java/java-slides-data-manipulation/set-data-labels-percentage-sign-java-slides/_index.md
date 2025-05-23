@@ -1,53 +1,55 @@
 ---
-title: Nastavit štítky dat Procento přihlášení do Java Slides
-linktitle: Nastavit štítky dat Procento přihlášení do Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Naučte se, jak nastavit štítky dat se znaky procenta v prezentacích PowerPoint pomocí Aspose.Slides for Java. Vytvářejte poutavé grafy s podrobnými pokyny a zdrojovým kódem.
-weight: 17
-url: /cs/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
+"description": "Naučte se, jak nastavit popisky dat pomocí procentuálních znaků v prezentacích v PowerPointu pomocí Aspose.Slides pro Javu. Vytvářejte poutavé grafy s podrobnými pokyny a zdrojovým kódem."
+"linktitle": "Nastavení popisků dat Procento Přihlášení v prezentaci Java"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Nastavení popisků dat Procento Přihlášení v prezentaci Java"
+"url": "/cs/java/data-manipulation/set-data-labels-percentage-sign-java-slides/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nastavit štítky dat Procento přihlášení do Java Slides
+# Nastavení popisků dat Procento Přihlášení v prezentaci Java
 
 
-## Úvod k nastavení datových štítků Procento přihlášení Aspose.Slides for Java
+## Úvod do nastavení popisků dat a procentuálního přihlášení v Aspose.Slides pro Javu
 
-této příručce vás provedeme procesem nastavení štítků dat se znakem procenta pomocí Aspose.Slides for Java. Vytvoříme prezentaci v PowerPointu se skládaným sloupcovým grafem a nakonfigurujeme popisky dat pro zobrazení procent.
+V této příručce vás provedeme procesem nastavení popisků dat se znaménkem procenta pomocí Aspose.Slides pro Javu. Vytvoříme prezentaci v PowerPointu se skládaným sloupcovým grafem a nakonfigurujeme popisky dat pro zobrazení procent.
 
 ## Předpoklady
 
- Než začnete, ujistěte se, že máte do projektu přidánu knihovnu Aspose.Slides for Java. Můžete si jej stáhnout z[tady](https://releases.aspose.com/slides/java/).
+Než začnete, ujistěte se, že máte do projektu přidánu knihovnu Aspose.Slides pro Javu. Můžete si ji stáhnout z [zde](https://releases.aspose.com/slides/java/).
 
 ## Krok 1: Vytvořte novou prezentaci
 
-Nejprve vytvoříme novou PowerPoint prezentaci pomocí Aspose.Slides.
+Nejprve vytvoříme novou prezentaci v PowerPointu pomocí Aspose.Slides.
 
 ```java
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 String dataDir = "Your Document Directory";
-// Vytvořte instanci třídy Presentation
+// Vytvoření instance třídy Presentation
 Presentation presentation = new Presentation();
 ```
 
-## Krok 2: Přidejte snímek a graf
+## Krok 2: Přidání snímku a grafu
 
 Dále do prezentace přidáme snímek a skládaný sloupcový graf.
 
 ```java
-// Získejte referenci na snímek
+// Získat odkaz na snímek
 ISlide slide = presentation.getSlides().get_Item(0);
 
-// Přidejte graf PercentsStackedColumn na snímek
+// Přidání grafu PercentsStackedColumn na snímek
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
 ```
 
-## Krok 3: Konfigurace formátu čísla osy
+## Krok 3: Konfigurace formátu čísel os
 
-Chcete-li zobrazit procenta, musíme nakonfigurovat formát čísel pro svislou osu grafu.
+Pro zobrazení procent je třeba nakonfigurovat formát čísel pro svislou osu grafu.
 
 ```java
 // Nastavte NumberFormatLinkedToSource na hodnotu false
@@ -55,12 +57,12 @@ chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 ```
 
-## Krok 4: Přidejte data grafu
+## Krok 4: Přidání dat grafu
 
-Data do grafu přidáváme vytvářením řad a datových bodů. V tomto příkladu přidáme dvě řady s jejich příslušnými datovými body.
+Data do grafu přidáváme vytvořením řad a datových bodů. V tomto příkladu přidáváme dvě řady s příslušnými datovými body.
 
 ```java
-// Získání listu dat grafu
+// Získání pracovního listu s daty grafu
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // Přidat novou sérii
@@ -78,12 +80,12 @@ series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorkshe
 series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 4, 2, 0.35));
 ```
 
-## Krok 5: Přizpůsobte štítky dat
+## Krok 5: Úprava popisků dat
 
-Nyní přizpůsobíme vzhled štítků dat.
+Nyní si přizpůsobme vzhled popisků dat.
 
 ```java
-// Nastavení vlastností LabelFormat
+// Nastavení vlastností formátu štítků (LabelFormat)
 series.getLabels().getDefaultDataLabelFormat().setShowValue(true);
 series.getLabels().getDefaultDataLabelFormat().setNumberFormatLinkedToSource(false);
 series.getLabels().getDefaultDataLabelFormat().setNumberFormat("0.0%");
@@ -102,32 +104,32 @@ series2.getLabels().getDefaultDataLabelFormat().getTextFormat().getPortionFormat
 
 ## Krok 6: Uložte prezentaci
 
-Nakonec prezentaci uložíme do souboru PowerPoint.
+Nakonec prezentaci uložíme do souboru PowerPointu.
 
 ```java
-// Zápis prezentace na disk
+// Zapsat prezentaci na disk
 presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.Pptx);
 ```
 
-A je to! Úspěšně jste vytvořili prezentaci aplikace PowerPoint se skládaným sloupcovým grafem a nakonfigurovali popisky dat pro zobrazení procent pomocí Aspose.Slides for Java.
+To je vše! Úspěšně jste vytvořili prezentaci v PowerPointu se skládaným sloupcovým grafem a nakonfigurovali popisky dat pro zobrazení procent pomocí Aspose.Slides pro Javu.
 
-## Úplný zdrojový kód pro sadu štítků dat Procento přihlášení do Java Slides
+## Kompletní zdrojový kód pro nastavení procentuálního přihlášení k datovým popiskům v Javě
 
 ```java
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 String dataDir = "Your Document Directory";
-// Vytvořte instanci třídy Presentation
+// Vytvoření instance třídy Presentation
 Presentation presentation = new Presentation();
-// Získejte referenci na snímek
+// Získat odkaz na snímek
 ISlide slide = presentation.getSlides().get_Item(0);
-// Přidejte graf PercentsStackedColumn na snímek
+// Přidání grafu PercentsStackedColumn na snímek
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
 // Nastavte NumberFormatLinkedToSource na hodnotu false
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
 int defaultWorksheetIndex = 0;
-// Získání listu dat grafu
+// Získání pracovního listu s daty grafu
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 // Přidat novou sérii
 IChartSeries series = chart.getChartData().getSeries().add(workbook.getCell(defaultWorksheetIndex, 0, 1, "Reds"), chart.getType());
@@ -138,7 +140,7 @@ series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorkshee
 // Nastavení barvy výplně série
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
-// Nastavení vlastností LabelFormat
+// Nastavení vlastností formátu štítků (LabelFormat)
 series.getLabels().getDefaultDataLabelFormat().setShowValue(true);
 series.getLabels().getDefaultDataLabelFormat().setNumberFormatLinkedToSource(false);
 series.getLabels().getDefaultDataLabelFormat().setNumberFormat("0.0%");
@@ -161,31 +163,33 @@ series2.getLabels().getDefaultDataLabelFormat().setNumberFormat("0.0%");
 series2.getLabels().getDefaultDataLabelFormat().getTextFormat().getPortionFormat().setFontHeight(10);
 series2.getLabels().getDefaultDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat().setFillType(FillType.Solid);
 series2.getLabels().getDefaultDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
-// Zápis prezentace na disk
+// Zapsat prezentaci na disk
 presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.Pptx);
 ```
 
 ## Závěr
 
-Podle této příručky jste se naučili, jak vytvářet poutavé prezentace s datovými štítky založenými na procentech, které mohou být zvláště užitečné pro efektivní předávání informací v obchodních zprávách, vzdělávacích materiálech a dalších.
+Dodržováním tohoto průvodce jste se naučili, jak vytvářet poutavé prezentace s popisky dat založenými na procentech, což může být obzvláště užitečné pro efektivní sdělování informací v obchodních zprávách, vzdělávacích materiálech a dalších materiálech.
 
-## FAQ
+## Často kladené otázky
 
-### Jak mohu změnit barvy řady grafů?
+### Jak mohu změnit barvy série grafů?
 
- Barvu výplně řad grafů můžete změnit pomocí`setFill` způsobem, jak je ukázáno v příkladu.
+Barvu výplně grafové série můžete změnit pomocí `setFill` metodu, jak je znázorněno v příkladu.
 
-### Mohu přizpůsobit velikost písma datových štítků?
+### Mohu si přizpůsobit velikost písma popisků dat?
 
-Ano, velikost písma datových štítků si můžete přizpůsobit nastavením`setFontHeight` vlastnost, jak je uvedeno v kódu.
+Ano, velikost písma popisků dat si můžete přizpůsobit nastavením `setFontHeight` vlastnost, jak je znázorněno v kódu.
 
 ### Jak mohu do grafu přidat další série?
 
- Další řady můžete do grafu přidat pomocí`add` metoda na`IChartSeriesCollection` objekt.
+Do grafu můžete přidat další řady pomocí `add` metoda na `IChartSeriesCollection` objekt.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

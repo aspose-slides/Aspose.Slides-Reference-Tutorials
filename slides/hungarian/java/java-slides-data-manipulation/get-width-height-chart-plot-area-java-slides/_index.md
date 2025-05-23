@@ -1,56 +1,58 @@
 ---
-title: Szerezzen szélességet és magasságot a Java Slides diagrammezőterületéből
-linktitle: Szerezzen szélességet és magasságot a Java Slides diagrammezőterületéből
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan kérheti le a diagrammezőterület méreteit a Java Slides programban az Aspose.Slides for Java segítségével. Fejlessze PowerPoint automatizálási készségeit.
-weight: 21
-url: /hu/java/data-manipulation/get-width-height-chart-plot-area-java-slides/
+"description": "Tanuld meg, hogyan kérheted le a diagramterület méreteit Java Slidesben az Aspose.Slides for Java használatával. Fejleszd PowerPoint automatizálási készségeidet."
+"linktitle": "Szélesség és magasság lekérése a diagramterületről Java diákban"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Szélesség és magasság lekérése a diagramterületről Java diákban"
+"url": "/hu/java/data-manipulation/get-width-height-chart-plot-area-java-slides/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Szerezzen szélességet és magasságot a Java Slides diagrammezőterületéből
+# Szélesség és magasság lekérése a diagramterületről Java diákban
 
 
 ## Bevezetés
 
-A diagramok hatékony módja az adatok megjelenítésének a PowerPoint-prezentációkban. Előfordulhat, hogy különböző okok miatt, például a diagramon belüli elemek átméretezése vagy áthelyezése miatt, ismernie kell a diagram ábrázolási területének méreteit. Ez az útmutató bemutatja, hogyan lehet meghatározni a nyomtatási terület szélességét és magasságát a Java és az Aspose.Slides for Java használatával.
+diagramok hatékony eszközt jelentenek az adatok PowerPoint-bemutatókban történő vizualizációjához. Előfordulhat, hogy különféle okokból, például a diagram elemeinek átméretezéséhez vagy áthelyezéséhez szüksége lehet a diagram nyomtatási területének méreteire. Ez az útmutató bemutatja, hogyan lehet a nyomtatási terület szélességét és magasságát Java és az Aspose.Slides for Java használatával meghatározni.
 
 ## Előfeltételek
 
- Mielőtt belemerülnénk a kódba, győződjön meg arról, hogy az Aspose.Slides for Java könyvtár telepítve van, és be van állítva a Java projektben. A könyvtár letölthető az Aspose webhelyéről[itt](https://releases.aspose.com/slides/java/).
+Mielőtt belemerülnénk a kódba, győződjünk meg róla, hogy az Aspose.Slides for Java könyvtár telepítve és beállítva van a Java projektünkben. A könyvtárat letölthetjük az Aspose weboldaláról. [itt](https://releases.aspose.com/slides/java/).
 
 ## 1. lépés: A környezet beállítása
 
-Győződjön meg arról, hogy az Aspose.Slides for Java könyvtár hozzáadva van a Java projekthez. Ezt úgy teheti meg, hogy felveszi a könyvtárat a projekt függőségei közé, vagy manuálisan adja hozzá a JAR-fájlt.
+Győződjön meg róla, hogy az Aspose.Slides for Java könyvtár hozzá van adva a Java projekthez. Ezt megteheti úgy, hogy a könyvtárat a projekt függőségei közé veszi fel, vagy manuálisan hozzáadja a JAR fájlt.
 
 ## 2. lépés: PowerPoint-bemutató létrehozása
 
-Kezdjük egy PowerPoint prezentáció létrehozásával, és adjunk hozzá egy diát. Ez szolgál majd a diagramunk tárolójaként.
+Kezdjük egy PowerPoint bemutató létrehozásával és egy diával. Ez fog szolgálni a diagramunk tárolójaként.
 
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.Pptx");
 ```
 
- Cserélje ki`"Your Document Directory"` a dokumentumkönyvtár elérési útjával.
+Csere `"Your Document Directory"` dokumentumkönyvtár elérési útjával.
 
 ## 3. lépés: Diagram hozzáadása
 
-Most adjunk hozzá egy fürtözött oszlopdiagramot a diához. A diagram elrendezését is érvényesíteni fogjuk.
+Most adjunk hozzá egy csoportos oszlopdiagramot a diához. Ezenkívül ellenőrizzük a diagram elrendezését.
 
 ```java
 Chart chart = (Chart) pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 100, 100, 500, 350);
 chart.validateChartLayout();
 ```
 
-Ez a kód fürtözött oszlopdiagramot hoz létre a (100, 100) pozícióban (500, 350) méretekkel.
+Ez a kód egy fürtözött oszlopdiagramot hoz létre a (100, 100) pozícióban, (500, 350) dimenziókkal.
 
-## 4. lépés: A telekterület méreteinek lekérése
+## 4. lépés: A telekterület méreteinek lekérdezése
 
-A diagram ábrázolási területének szélességének és magasságának lekéréséhez a következő kódot használhatjuk:
+A diagram nyomtatási területének szélességének és magasságának lekéréséhez a következő kódot használhatjuk:
 
 ```java
 double x = chart.getPlotArea().getActualX();
@@ -59,7 +61,7 @@ double w = chart.getPlotArea().getActualWidth();
 double h = chart.getPlotArea().getActualHeight();
 ```
 
- Most a változók`x`, `y`, `w` , és`h` tartalmazza a telekterület X-koordinátájának, Y-koordinátájának, szélességének és magasságának megfelelő értékeit.
+Most a változók `x`, `y`, `w`, és `h` tartalmazza a nyomtatási terület X koordinátájának, Y koordinátájának, szélességének és magasságának megfelelő értékeit.
 
 ## 5. lépés: A prezentáció mentése
 
@@ -69,9 +71,9 @@ Végül mentse el a prezentációt a diagrammal együtt.
 pres.save(dataDir + "Chart_out.pptx", SaveFormat.Pptx);
 ```
 
- Mindenképpen cserélje ki`"Chart_out.pptx"` a kívánt kimeneti fájlnévvel.
+Mindenképpen cserélje ki `"Chart_out.pptx"` a kívánt kimeneti fájlnévvel.
 
-## Teljes forráskód a Java Slides diagrammezőterületének szélességéhez és magasságához
+## Teljes forráskód a szélesség és magasság lekéréséhez a diagramterületről Java diákban
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
@@ -96,29 +98,31 @@ finally
 
 ## Következtetés
 
-Ebben a cikkben megtudtuk, hogyan szerezheti meg a diagram diagramterületének szélességét és magasságát a Java Slides alkalmazásban az Aspose.Slides for Java API használatával. Ezek az információk értékesek lehetnek, ha dinamikusan módosítani kell a diagramok elrendezését a PowerPoint-prezentációkban.
+Ebben a cikkben azt tárgyaltuk, hogyan lehet lekérdezni egy diagram nyomtatási területének szélességét és magasságát Java Slides-ban az Aspose.Slides for Java API használatával. Ez az információ értékes lehet, ha dinamikusan kell módosítani a diagramok elrendezését a PowerPoint-bemutatókon belül.
 
 ## GYIK
 
 ### Hogyan módosíthatom a diagram típusát a fürtözött oszlopoktól eltérőre?
 
- A diagram típusát cserével módosíthatja`ChartType.ClusteredColumn` a kívánt diagram típusú felsorolással, mint pl`ChartType.Line` vagy`ChartType.Pie`.
+A diagram típusát a következő cseréjével módosíthatja: `ChartType.ClusteredColumn` a kívánt diagramtípus-felsorolással, például `ChartType.Line` vagy `ChartType.Pie`.
 
-### Módosíthatom a diagram egyéb tulajdonságait?
+### Módosíthatom a diagram más tulajdonságait?
 
-Igen, az Aspose.Slides for Java API használatával módosíthatja a diagram különféle tulajdonságait, például az adatokat, a címkéket és a formázást. További részletekért tekintse meg a dokumentációt.
+Igen, a diagram különböző tulajdonságait, például az adatokat, a címkéket és a formázást módosíthatja az Aspose.Slides for Java API használatával. További részletekért lásd a dokumentációt.
 
-### Az Aspose.Slides for Java alkalmas a professzionális PowerPoint automatizálásra?
+### Alkalmas az Aspose.Slides Java-hoz professzionális PowerPoint automatizáláshoz?
 
-Igen, az Aspose.Slides for Java egy hatékony könyvtár a PowerPoint feladatok automatizálására Java alkalmazásokban. Átfogó funkciókat biztosít a prezentációk, diák, alakzatok, diagramok és egyebek kezeléséhez.
+Igen, az Aspose.Slides for Java egy hatékony könyvtár PowerPoint-feladatok automatizálására Java-alkalmazásokban. Átfogó funkciókat biztosít prezentációkkal, diákkal, alakzatokkal, diagramokkal és egyebekkel való munkához.
 
-### Hogyan tudhatok meg többet az Aspose.Slides for Java programról?
+### Hogyan tudhatok meg többet az Aspose.Slides Java-hoz készült verziójáról?
 
- Részletes dokumentációt és példákat találhat az Aspose.Slides for Java dokumentációs oldalán[itt](https://reference.aspose.com/slides/java/).
+Bőséges dokumentációt és példákat találsz az Aspose.Slides for Java dokumentációs oldalán. [itt](https://reference.aspose.com/slides/java/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

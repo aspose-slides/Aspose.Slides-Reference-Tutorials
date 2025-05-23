@@ -1,47 +1,49 @@
 ---
-title: ผลย่อหน้ากล่องข้อความใน Java PowerPoint
-linktitle: ผลย่อหน้ากล่องข้อความใน Java PowerPoint
-second_title: Aspose.Slides Java PowerPoint การประมวลผล API
-description: เรียนรู้วิธีปรับปรุงงานนำเสนอ PowerPoint ใน Java ด้วยเอฟเฟกต์ข้อความแบบไดนามิกโดยใช้ Aspose.Slides เพื่อการผสานรวมและการปรับแต่งที่ราบรื่น
-weight: 16
-url: /th/java/java-powerpoint-text-box-manipulation/effect-text-box-paragraph-java-powerpoint/
+"description": "เรียนรู้วิธีปรับปรุงการนำเสนอ PowerPoint ใน Java ด้วยเอฟเฟกต์ข้อความแบบไดนามิกโดยใช้ Aspose.Slides เพื่อการบูรณาการและการปรับแต่งที่ราบรื่น"
+"linktitle": "เอฟเฟกต์กล่องข้อความย่อหน้าใน Java PowerPoint"
+"second_title": "API การประมวลผล Java PowerPoint ของ Aspose.Slides"
+"title": "เอฟเฟกต์กล่องข้อความย่อหน้าใน Java PowerPoint"
+"url": "/th/java/java-powerpoint-text-box-manipulation/effect-text-box-paragraph-java-powerpoint/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ผลย่อหน้ากล่องข้อความใน Java PowerPoint
+# เอฟเฟกต์กล่องข้อความย่อหน้าใน Java PowerPoint
 
 ## การแนะนำ
-Aspose.Slides สำหรับ Java ช่วยให้นักพัฒนาจัดการงานนำเสนอ PowerPoint โดยทางโปรแกรม โดยนำเสนอชุดคุณสมบัติที่แข็งแกร่งสำหรับการสร้าง การแก้ไข และการแปลงสไลด์ บทช่วยสอนนี้จะเจาะลึกเกี่ยวกับการใช้ประโยชน์จาก Aspose.Slides เพื่อเพิ่มและจัดการเอฟเฟกต์ภายในกล่องข้อความ ปรับปรุงการนำเสนอแบบไดนามิกผ่านโค้ด Java
+Aspose.Slides สำหรับ Java ช่วยให้ผู้พัฒนาสามารถจัดการการนำเสนอ PowerPoint ได้ด้วยโปรแกรม โดยนำเสนอฟีเจอร์อันแข็งแกร่งสำหรับการสร้าง แก้ไข และแปลงสไลด์ บทช่วยสอนนี้จะเจาะลึกถึงการใช้ Aspose.Slides เพื่อเพิ่มและจัดการเอฟเฟกต์ภายในกล่องข้อความ รวมถึงปรับปรุงการนำเสนอแบบไดนามิกด้วยโค้ด Java
 ## ข้อกำหนดเบื้องต้น
-ก่อนที่จะเข้าสู่บทช่วยสอนนี้ ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าต่อไปนี้:
-- ติดตั้ง Java Development Kit (JDK) บนเครื่องของคุณแล้ว
-- Aspose.Slides สำหรับไลบรารี Java ที่ดาวน์โหลดและติดตั้ง ([ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/slides/java/-)
-- IDE (สภาพแวดล้อมการพัฒนาแบบรวม) เช่น IntelliJ IDEA หรือ Eclipse
+ก่อนจะเข้าสู่บทช่วยสอนนี้ ให้แน่ใจว่าคุณมีการตั้งค่าต่อไปนี้:
+- ติดตั้ง Java Development Kit (JDK) บนเครื่องของคุณ
+- ดาวน์โหลดและติดตั้งไลบรารี Aspose.Slides สำหรับ Java ([ดาวน์โหลดที่นี่](https://releases.aspose.com/slides/java/-)
+- IDE (Integrated Development Environment) เช่น IntelliJ IDEA หรือ Eclipse
 - ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม Java และแนวคิดเชิงวัตถุ
 
 ## แพ็คเกจนำเข้า
-เริ่มต้นด้วยการนำเข้าแพ็คเกจ Aspose.Slides ที่จำเป็นไปยังโปรเจ็กต์ Java ของคุณ:
+เริ่มต้นด้วยการนำเข้าแพ็กเกจ Aspose.Slides ที่จำเป็นลงในโปรเจ็กต์ Java ของคุณ:
 ```java
 import com.aspose.slides.*;
 ```
-## ขั้นตอนที่ 1 ผลย่อหน้ากล่องข้อความใน Java PowerPoint
-เริ่มต้นด้วยการเริ่มต้นโครงการของคุณและโหลดไฟล์งานนำเสนอ PowerPoint (`Test.pptx`) จากไดเร็กทอรีที่ระบุ:
+## ขั้นตอนที่ 1. เอฟเฟกต์กล่องข้อความย่อหน้าใน Java PowerPoint
+เริ่มต้นด้วยการเริ่มต้นโครงการของคุณและโหลดไฟล์การนำเสนอ PowerPoint (`Test.pptx`) จากไดเร็กทอรีที่ระบุ:
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "Test.pptx");
 ```
-## ขั้นตอนที่ 2 การเข้าถึงลำดับหลักและรูปร่างอัตโนมัติ
-เข้าถึงลำดับหลักและรูปร่างอัตโนมัติเฉพาะภายในสไลด์แรกของงานนำเสนอ:
+## ขั้นตอนที่ 2 การเข้าถึงลำดับหลักและ AutoShape
+เข้าถึงลำดับหลักและรูปร่างอัตโนมัติที่เฉพาะเจาะจงภายในสไลด์แรกของการนำเสนอ:
 ```java
 try {
     ISequence sequence = pres.getSlides().get_Item(0).getTimeline().getMainSequence();
     IAutoShape autoShape = (IAutoShape) pres.getSlides().get_Item(0).getShapes().get_Item(1);
 ```
-## ขั้นตอนที่ 3 การดึงย่อหน้าและเอฟเฟกต์
-วนซ้ำย่อหน้าต่างๆ ภายในกรอบข้อความของรูปร่างอัตโนมัติและรับเอฟเฟกต์ที่เกี่ยวข้อง:
+## ขั้นตอนที่ 3 การดึงข้อมูลย่อหน้าและผลกระทบ
+ทำซ้ำผ่านย่อหน้าต่างๆ ภายในกรอบข้อความของรูปร่างอัตโนมัติและดึงผลที่เกี่ยวข้อง:
 ```java
     for (IParagraph paragraph : autoShape.getTextFrame().getParagraphs()) {
         IEffect[] effects = sequence.getEffectsByParagraph(paragraph);
@@ -54,21 +56,23 @@ try {
 ```
 
 ## บทสรุป
-โดยสรุป การจัดการเอฟเฟกต์กล่องข้อความในงานนำเสนอ Java PowerPoint โดยใช้ Aspose.Slides นั้นมีประสิทธิภาพและตรงไปตรงมาด้วย API ที่ครอบคลุม ด้วยการทำตามขั้นตอนที่ระบุไว้ในบทช่วยสอนนี้ นักพัฒนาสามารถรวมเอฟเฟกต์ข้อความแบบไดนามิกเข้ากับแอปพลิเคชันของตนได้อย่างราบรื่น เพิ่มความน่าดึงดูดทางภาพของงานนำเสนอ PowerPoint โดยทางโปรแกรม
+โดยสรุป การจัดการเอฟเฟกต์กล่องข้อความในงานนำเสนอ PowerPoint เวอร์ชัน Java โดยใช้ Aspose.Slides ทำได้มีประสิทธิภาพและตรงไปตรงมาด้วย API ที่ครอบคลุม โดยทำตามขั้นตอนที่ระบุไว้ในบทช่วยสอนนี้ นักพัฒนาสามารถผสานเอฟเฟกต์ข้อความแบบไดนามิกลงในแอปพลิเคชันได้อย่างราบรื่น ช่วยเพิ่มความสวยงามให้กับงานนำเสนอ PowerPoint ได้ด้วยโปรแกรม
 ### คำถามที่พบบ่อย
-### Java เวอร์ชันใดบ้างที่ Aspose.Slides สำหรับ Java รองรับ
-Aspose.Slides สำหรับ Java รองรับ Java 6 และสูงกว่า
+### Aspose.Slides สำหรับ Java รองรับ Java เวอร์ชันใดบ้าง
+Aspose.Slides สำหรับ Java รองรับ Java 6 ขึ้นไป
 ### ฉันสามารถประเมิน Aspose.Slides สำหรับ Java ก่อนซื้อได้หรือไม่
- ใช่ คุณสามารถดาวน์โหลดรุ่นทดลองใช้ฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
-### ฉันจะหาเอกสารประกอบโดยละเอียดสำหรับ Aspose.Slides สำหรับ Java ได้ที่ไหน
- มีเอกสารรายละเอียดให้[ที่นี่](https://reference.aspose.com/slides/java/).
-### ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Slides สำหรับ Java ได้อย่างไร
- คุณสามารถรับใบอนุญาตชั่วคราวได้จาก[ที่นี่](https://purchase.aspose.com/temporary-license/).
-### Aspose.Slides สำหรับ Java รองรับรูปแบบไฟล์ PowerPoint อื่นที่ไม่ใช่ .pptx หรือไม่
-ใช่ รองรับรูปแบบ PowerPoint หลากหลาย รวมถึง .ppt, .pptx, .pptm เป็นต้น
+ใช่ คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้จาก [ที่นี่](https://releases-aspose.com/).
+### ฉันสามารถหาเอกสารโดยละเอียดเกี่ยวกับ Aspose.Slides สำหรับ Java ได้ที่ไหน
+เอกสารรายละเอียดมีให้ [ที่นี่](https://reference-aspose.com/slides/java/).
+### ฉันจะรับใบอนุญาตชั่วคราวสำหรับ Aspose.Slides สำหรับ Java ได้อย่างไร
+คุณสามารถรับใบอนุญาตชั่วคราวได้จาก [ที่นี่](https://purchase-aspose.com/temporary-license/).
+### Aspose.Slides สำหรับ Java รองรับรูปแบบไฟล์ PowerPoint อื่นนอกเหนือจาก .pptx หรือไม่
+ใช่ รองรับรูปแบบ PowerPoint ต่างๆ รวมถึง .ppt, .pptx, .pptm เป็นต้น
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

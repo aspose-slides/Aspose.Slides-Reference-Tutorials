@@ -1,14 +1,16 @@
 ---
-title: Définition du format de date pour l'axe des catégories dans les diapositives Java
-linktitle: Définition du format de date pour l'axe des catégories dans les diapositives Java
-second_title: API de traitement Java PowerPoint d'Aspose.Slides
-description: Découvrez comment définir un format de date pour l'axe des catégories dans un graphique PowerPoint à l'aide d'Aspose.Slides pour Java. Guide étape par étape avec le code source.
-weight: 26
-url: /fr/java/data-manipulation/setting-date-format-category-axis-java-slides/
+"description": "Apprenez à définir un format de date pour l'axe des catégories dans un graphique PowerPoint avec Aspose.Slides pour Java. Guide étape par étape avec code source."
+"linktitle": "Définition du format de date pour l'axe des catégories dans les diapositives Java"
+"second_title": "API de traitement Java PowerPoint Aspose.Slides"
+"title": "Définition du format de date pour l'axe des catégories dans les diapositives Java"
+"url": "/fr/java/data-manipulation/setting-date-format-category-axis-java-slides/"
+"weight": 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Définition du format de date pour l'axe des catégories dans les diapositives Java
@@ -16,28 +18,28 @@ url: /fr/java/data-manipulation/setting-date-format-category-axis-java-slides/
 
 ## Introduction à la définition du format de date pour l'axe des catégories dans les diapositives Java
 
-Dans ce didacticiel, nous apprendrons comment définir un format de date pour l'axe des catégories dans un graphique PowerPoint à l'aide d'Aspose.Slides pour Java. Aspose.Slides pour Java est une bibliothèque puissante qui vous permet de créer, manipuler et gérer des présentations PowerPoint par programme.
+Dans ce tutoriel, nous allons apprendre à définir un format de date pour l'axe des catégories d'un graphique PowerPoint à l'aide d'Aspose.Slides pour Java. Aspose.Slides pour Java est une bibliothèque puissante qui vous permet de créer, manipuler et gérer des présentations PowerPoint par programmation.
 
-## Conditions préalables
+## Prérequis
 
-Avant de commencer, assurez-vous d'avoir les éléments suivants :
+Avant de commencer, assurez-vous d’avoir les éléments suivants :
 
-1. Bibliothèque Aspose.Slides pour Java (vous pouvez la télécharger depuis[ici](https://releases.aspose.com/slides/java/).
-2. Environnement de développement Java mis en place.
+1. Bibliothèque Aspose.Slides pour Java (vous pouvez la télécharger à partir de [ici](https://releases.aspose.com/slides/java/).
+2. Configuration de l'environnement de développement Java.
 
 ## Étape 1 : Créer une présentation PowerPoint
 
-Tout d’abord, nous devons créer une présentation PowerPoint dans laquelle nous ajouterons un graphique. Assurez-vous d'avoir importé les classes Aspose.Slides nécessaires.
+Tout d'abord, nous devons créer une présentation PowerPoint dans laquelle nous ajouterons un graphique. Assurez-vous d'avoir importé les classes Aspose.Slides nécessaires.
 
 ```java
-// Le chemin d'accès au répertoire des documents.
+// Le chemin vers le répertoire des documents.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 ```
 
 ## Étape 2 : ajouter un graphique à la diapositive
 
-Maintenant, ajoutons un graphique à la diapositive PowerPoint. Nous utiliserons un graphique en aires dans cet exemple.
+Ajoutons maintenant un graphique à la diapositive PowerPoint. Dans cet exemple, nous utiliserons un graphique en aires.
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Area, 50, 50, 450, 300);
@@ -68,7 +70,7 @@ series.getDataPoints().addDataPointForLineSeries(wb.getCell(0, "B4", 3));
 series.getDataPoints().addDataPointForLineSeries(wb.getCell(0, "B5", 4));
 ```
 
-## Étape 4 : Personnaliser l'axe des catégories
+## Étape 4 : Personnaliser l’axe des catégories
 Maintenant, personnalisons l'axe des catégories pour afficher les dates dans un format spécifique (par exemple, aaaa).
 
 ```java
@@ -77,19 +79,19 @@ chart.getAxes().getHorizontalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getHorizontalAxis().setNumberFormat("yyyy");
 ```
 
-## Étape 5 : Enregistrez la présentation
+## Étape 5 : Enregistrer la présentation
 Enfin, enregistrez la présentation PowerPoint.
 
 ```java
 pres.save(dataDir + "test.pptx", SaveFormat.Pptx);
 ```
 
-C'est ça! Vous avez défini avec succès un format de date pour l'axe des catégories dans un graphique PowerPoint à l'aide d'Aspose.Slides pour Java.
+Et voilà ! Vous avez défini avec succès un format de date pour l'axe des catégories dans un graphique PowerPoint avec Aspose.Slides pour Java.
 
-## Code source complet pour définir le format de date pour l'axe des catégories dans les diapositives Java
+## Code source complet pour définir le format de date de l'axe des catégories dans les diapositives Java
 
 ```java
-	// Le chemin d'accès au répertoire des documents.
+	// Le chemin vers le répertoire des documents.
 	String dataDir = "Your Document Directory";
 	Presentation pres = new Presentation();
 	try
@@ -130,24 +132,26 @@ public static String convertToOADate(GregorianCalendar date) throws ParseExcepti
 
 ##Conclusion
 
-Vous avez personnalisé avec succès le format de date pour l'axe des catégories dans un graphique Java Slides à l'aide d'Aspose.Slides pour Java. Cela vous permet de présenter les valeurs de date dans le format souhaité sur vos graphiques. N'hésitez pas à explorer d'autres options de personnalisation en fonction de vos besoins spécifiques.
+Vous avez personnalisé avec succès le format de date de l'axe des catégories dans un graphique Java Slides avec Aspose.Slides pour Java. Cela vous permet de présenter les valeurs de date au format souhaité sur vos graphiques. N'hésitez pas à explorer d'autres options de personnalisation en fonction de vos besoins spécifiques.
 
 ## FAQ
 
-### Comment modifier le format de date pour l’axe des catégories ?
+### Comment modifier le format de date pour l'axe des catégories ?
 
- Pour modifier le format de date de l'axe des catégories, utilisez l'option`setNumberFormat` sur l'axe des catégories et fournissez le modèle de format de date souhaité, tel que « aaaa-MM-jj » ou « MM/aaaa ». Assurez-vous de définir`setNumberFormatLinkedToSource(false)` pour remplacer le format par défaut.
+Pour modifier le format de date de l'axe des catégories, utilisez le `setNumberFormat` sur l'axe des catégories et indiquez le format de date souhaité, par exemple « aaaa-MM-jj » ou « MM/aaaa ». Assurez-vous de définir `setNumberFormatLinkedToSource(false)` pour remplacer le format par défaut.
 
 ### Puis-je utiliser différents formats de date pour différents graphiques dans la même présentation ?
 
-Oui, vous pouvez définir différents formats de date pour les axes de catégories dans différents graphiques au sein de la même présentation. Personnalisez simplement l'axe des catégories pour chaque graphique selon vos besoins.
+Oui, vous pouvez définir différents formats de date pour les axes de catégories de différents graphiques au sein d'une même présentation. Personnalisez simplement l'axe de catégories de chaque graphique selon vos besoins.
 
-### Comment ajouter plus de points de données au graphique ?
+### Comment ajouter plus de points de données au graphique ?
 
- Pour ajouter plus de points de données au graphique, utilisez le`getDataPoints().addDataPointForLineSeries`méthode sur la série de données et fournir les valeurs des données.
+Pour ajouter plus de points de données au graphique, utilisez le `getDataPoints().addDataPointForLineSeries` méthode sur la série de données et fournir les valeurs des données.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

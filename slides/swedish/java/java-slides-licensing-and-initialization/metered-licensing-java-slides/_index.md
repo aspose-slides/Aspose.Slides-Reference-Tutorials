@@ -1,41 +1,43 @@
 ---
-title: Metered Licensing i Java Slides
-linktitle: Metered Licensing i Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Optimera dina Aspose.Slides för Java-användning med Metered Licensing. Lär dig hur du ställer in det och övervakar din API-förbrukning.
-weight: 10
-url: /sv/java/licensing-and-initialization/metered-licensing-java-slides/
+"description": "Optimera din Aspose.Slides för Java-användning med Metered Licensing. Lär dig hur du konfigurerar det och övervakar din API-förbrukning."
+"linktitle": "Mätad licensiering i Java Slides"
+"second_title": "Aspose.Slides Java PowerPoint-bearbetnings-API"
+"title": "Mätad licensiering i Java Slides"
+"url": "/sv/java/licensing-and-initialization/metered-licensing-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Metered Licensing i Java Slides
+# Mätad licensiering i Java Slides
 
 
-## Introduktion till Metered Licensing i Aspose.Slides för Java
+## Introduktion till mätad licensiering i Aspose.Slides för Java
 
-Licensiering med mätning gör att du kan övervaka och kontrollera din användning av Aspose.Slides för Java API. Den här guiden leder dig genom processen att implementera mätlicenser i ditt Java-projekt med Aspose.Slides. 
+Mätad licensiering låter dig övervaka och kontrollera din användning av Aspose.Slides för Java API. Den här guiden guidar dig genom processen att implementera mätad licensiering i ditt Java-projekt med Aspose.Slides. 
 
-## Förutsättningar
+## Förkunskapskrav
 
 Innan du börjar, se till att du har följande:
 
 - Aspose.Slides för Java JAR-filer integrerade i ditt projekt.
-- Offentliga och privata nycklar för mätlicenser, som du kan få från Aspose.
+- Publika och privata nycklar för mätad licensiering, som du kan erhålla från Aspose.
 
-## Implementera Metered Licensing
+## Implementering av mätlicensiering
 
-För att använda mätlicenser i Aspose.Slides för Java, följ dessa steg:
+För att använda mätt licensiering i Aspose.Slides för Java, följ dessa steg:
 
-###  Steg 1: Skapa en instans av`Metered` class:
+### Steg 1: Skapa en instans av `Metered` klass:
 
 ```java
 Metered metered = new Metered();
 ```
 
-### Steg 2: Ställ in mätnyckeln med dina offentliga och privata nycklar:
+### Steg 2: Ställ in den uppmätta nyckeln med dina offentliga och privata nycklar:
 
 ```java
 try
@@ -51,15 +53,15 @@ catch (Exception ex)
 ### Steg 3: Hämta den uppmätta datamängden före och efter anrop av API:et:
 
 ```java
-// Få uppmätt datamängd innan du anropar API
+// Hämta uppmätt datamängd innan API:et anropas
 double amountBefore = Metered.getConsumptionQuantity();
 
 // Visa information
 System.out.println("Amount Consumed Before: " + amountBefore);
 
-// Anropa Aspose.Slides API-metoder här
+// Anropa Aspose.Slides API-metoderna här
 
-// Få uppmätta datamängder efter att ha anropat API
+// Hämta uppmätt datamängd efter anrop av API
 double amountAfter = Metered.getConsumptionQuantity();
 
 // Visa information
@@ -67,17 +69,17 @@ System.out.println("Amount Consumed After: " + amountAfter);
 ```
 ## Komplett källkod
 ```java
-// Skapa en instans av CAD Metered class
+// Skapa en instans av CAD Metered-klassen
 Metered metered = new Metered();
 try
 {
-	// Gå till egenskapen setMeteredKey och skicka offentliga och privata nycklar som parametrar
+	// Åtkomst till egenskapen setMeteredKey och skicka publika och privata nycklar som parametrar
 	metered.setMeteredKey("*****", "*****");
-	// Få uppmätt datamängd innan du anropar API
+	// Hämta uppmätt datamängd innan API:et anropas
 	double amountbefore = Metered.getConsumptionQuantity();
 	// Visa information
 	System.out.println("Amount Consumed Before: " + amountbefore);
-	//Få uppmätt datamängd efter att ha anropat API
+	// Hämta uppmätt datamängd efter anrop av API
 	double amountafter = Metered.getConsumptionQuantity();
 	// Visa information
 	System.out.println("Amount Consumed After: " + amountafter);
@@ -90,33 +92,35 @@ catch (Exception ex)
 
 ## Slutsats
 
-Genom att implementera mätlicenser i Aspose.Slides för Java kan du övervaka din API-användning effektivt. Detta kan vara särskilt användbart när du vill hantera kostnader och hålla dig inom dina tilldelade gränser.
+Genom att implementera mätad licensiering i Aspose.Slides för Java kan du övervaka din API-användning effektivt. Detta kan vara särskilt användbart när du vill hantera kostnader och hålla dig inom dina tilldelade gränser.
 
-## FAQ's
+## Vanliga frågor
 
-### Hur får jag uppmätta licensnycklar?
+### Hur får jag tag på mätta licensnycklar?
 
-Du kan få uppmätta licensnycklar från Aspose. Kontakta deras support eller besök deras hemsida för mer information.
+Du kan få uppmätta licensnycklar från Aspose. Kontakta deras support eller besök deras webbplats för mer information.
 
-### Krävs mätlicens för att använda Aspose.Slides för Java?
+### Krävs uppmätt licens för att använda Aspose.Slides för Java?
 
-Licensering med mätare är valfritt men kan hjälpa dig att hålla reda på din API-användning och hantera kostnader effektivt.
+Mätad licensiering är valfri men kan hjälpa dig att hålla koll på din API-användning och hantera kostnader effektivt.
 
 ### Kan jag använda mätlicenser med andra Aspose-produkter?
 
-Ja, uppmätt licens är tillgänglig för olika Aspose-produkter, inklusive Aspose.Slides för Java.
+Ja, mätlicensiering är tillgänglig för olika Aspose-produkter, inklusive Aspose.Slides för Java.
 
 ### Vad händer om jag överskrider min uppmätta gräns?
 
-Om du överskrider din uppmätta gräns kan du behöva uppgradera din licensiering eller kontakta Aspose för hjälp.
+Om du överskrider din uppmätta gräns kan du behöva uppgradera din licens eller kontakta Aspose för hjälp.
 
-### Behöver jag en internetanslutning för mätlicenser?
+### Behöver jag en internetanslutning för mätad licens?
 
-Ja, en internetanslutning krävs för att ställa in och validera mätlicenser.
+Ja, en internetanslutning krävs för att ställa in och validera licenser med mätning.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

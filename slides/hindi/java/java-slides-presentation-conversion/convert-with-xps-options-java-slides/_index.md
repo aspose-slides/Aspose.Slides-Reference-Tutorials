@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में XPS विकल्पों के साथ कनवर्ट करें
-linktitle: जावा स्लाइड्स में XPS विकल्पों के साथ कनवर्ट करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides का उपयोग करके जावा में PowerPoint प्रस्तुतियों को XPS प्रारूप में परिवर्तित करना सीखें। निर्बाध रूपांतरण प्रक्रिया के लिए विकल्पों को अनुकूलित करें।
-weight: 34
-url: /hi/java/presentation-conversion/convert-with-xps-options-java-slides/
+"description": "Aspose.Slides का उपयोग करके जावा में PowerPoint प्रस्तुतियों को XPS प्रारूप में परिवर्तित करना सीखें। निर्बाध रूपांतरण प्रक्रिया के लिए विकल्पों को अनुकूलित करें।"
+"linktitle": "जावा स्लाइड्स में XPS विकल्पों के साथ कनवर्ट करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में XPS विकल्पों के साथ कनवर्ट करें"
+"url": "/hi/java/presentation-conversion/convert-with-xps-options-java-slides/"
+"weight": 34
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में XPS विकल्पों के साथ कनवर्ट करें
@@ -28,7 +30,7 @@ url: /hi/java/presentation-conversion/convert-with-xps-options-java-slides/
 
 ## चरण 1: आवश्यक लाइब्रेरीज़ आयात करें
 
- अपने जावा प्रोजेक्ट में, Aspose.Slides के काम करने के लिए आवश्यक लाइब्रेरीज़ आयात करें। इसमें आयात करना शामिल है`com.aspose.slides` पैकेज को उसके वर्गों और विधियों तक पहुंचने के लिए।
+अपने जावा प्रोजेक्ट में, Aspose.Slides के काम करने के लिए आवश्यक लाइब्रेरीज़ आयात करें। इसमें आयात करना शामिल है `com.aspose.slides` पैकेज को उसके वर्गों और विधियों तक पहुंचने के लिए।
 
 ```java
 import com.aspose.slides.*;
@@ -36,7 +38,7 @@ import com.aspose.slides.*;
 
 ## चरण 2: दस्तावेज़ निर्देशिका निर्दिष्ट करें
 
- उस निर्देशिका का पथ निर्धारित करें जहाँ आपकी प्रस्तुति फ़ाइलें स्थित हैं।`"Your Document Directory"` आपकी फ़ाइलों के वास्तविक पथ के साथ.
+उस निर्देशिका का पथ निर्धारित करें जहाँ आपकी प्रस्तुति फ़ाइलें स्थित हैं। `"Your Document Directory"` आपकी फ़ाइलों के वास्तविक पथ के साथ.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -44,7 +46,7 @@ String dataDir = "Your Document Directory";
 
 ## चरण 3: प्रस्तुति लोड करें
 
- इसका एक उदाहरण बनाएं`Presentation` क्लास में जाकर वह पावरपॉइंट प्रेजेंटेशन फ़ाइल लोड करें जिसे आप कन्वर्ट करना चाहते हैं। दिए गए कोड में, हम "Convert_XPS_Options.pptx" नाम की एक प्रेजेंटेशन लोड करते हैं।
+इसका एक उदाहरण बनाएं `Presentation` क्लास में जाकर वह पावरपॉइंट प्रेजेंटेशन फ़ाइल लोड करें जिसे आप कन्वर्ट करना चाहते हैं। दिए गए कोड में, हम "Convert_XPS_Options.pptx" नाम की एक प्रेजेंटेशन लोड करते हैं।
 
 ```java
 Presentation pres = new Presentation(dataDir + "Convert_XPS_Options.pptx");
@@ -52,7 +54,7 @@ Presentation pres = new Presentation(dataDir + "Convert_XPS_Options.pptx");
 
 ## चरण 4: रूपांतरण विकल्प अनुकूलित करें
 
-रूपांतरण प्रक्रिया को अनुकूलित करने के लिए, आप इसका एक उदाहरण बना सकते हैं`XpsOptions` क्लास। उदाहरण में, हमने मेटाफ़ाइल्स को PNG छवियों के रूप में सहेजने का विकल्प सेट किया है।
+रूपांतरण प्रक्रिया को अनुकूलित करने के लिए, आप इसका एक उदाहरण बना सकते हैं `XpsOptions` क्लास। उदाहरण में, हमने मेटाफ़ाइल्स को PNG छवियों के रूप में सहेजने का विकल्प सेट किया है।
 
 ```java
 XpsOptions opts = new XpsOptions();
@@ -63,7 +65,7 @@ opts.setSaveMetafilesAsPng(true);
 
 ## चरण 5: रूपांतरण करें
 
- अब जब आपने प्रेजेंटेशन लोड कर लिया है और रूपांतरण विकल्पों को अनुकूलित कर लिया है, तो वास्तविक रूपांतरण करने का समय आ गया है।`save` की विधि`Presentation` प्रस्तुति को XPS प्रारूप में सहेजने के लिए क्लास का उपयोग करें।
+अब जब आपने प्रेजेंटेशन लोड कर लिया है और रूपांतरण विकल्पों को अनुकूलित कर लिया है, तो वास्तविक रूपांतरण करने का समय आ गया है। `save` की विधि `Presentation` प्रस्तुति को XPS प्रारूप में सहेजने के लिए क्लास का उपयोग करें।
 
 ```java
 pres.save(dataDir + "XPS_With_Options_out.xps", SaveFormat.Xps, opts);
@@ -71,7 +73,7 @@ pres.save(dataDir + "XPS_With_Options_out.xps", SaveFormat.Xps, opts);
 
 ## चरण 6: संसाधनों की सफ़ाई करें
 
- अंत में, किसी भी आवंटित संसाधन को निपटाने के लिए जारी करना न भूलें।`Presentation` वस्तु।
+अंत में, किसी भी आवंटित संसाधन को निपटाने के लिए जारी करना न भूलें। `Presentation` वस्तु।
 
 ```java
 if (pres != null) pres.dispose();
@@ -107,7 +109,7 @@ finally
 
 ### मैं Java के लिए Aspose.Slides कैसे डाउनलोड कर सकता हूँ?
 
- आप Aspose.Slides for Java को Aspose वेबसाइट से डाउनलोड कर सकते हैं।[यहाँ](https://releases.aspose.com/slides/java/) डाउनलोड लिंक तक पहुंचने के लिए.
+आप Aspose.Slides for Java को Aspose वेबसाइट से डाउनलोड कर सकते हैं। [यहाँ](https://releases.aspose.com/slides/java/) डाउनलोड लिंक तक पहुंचने के लिए.
 
 ### क्या Java के लिए Aspose.Slides का उपयोग करने के लिए कोई लाइसेंसिंग आवश्यकताएं हैं?
 
@@ -121,9 +123,11 @@ finally
 
 अपवादों को संभालने के लिए, आप Aspose.Slides के साथ काम करते समय अपने कोड के चारों ओर try-catch ब्लॉक का उपयोग कर सकते हैं। विशिष्ट अपवाद हैंडलिंग दिशा-निर्देशों के लिए दस्तावेज़ देखें।
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

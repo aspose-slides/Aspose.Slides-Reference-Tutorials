@@ -1,85 +1,89 @@
 ---
-title: Prezentációk nyomtatásának előnézete az Aspose.Slides programban
-linktitle: Prezentációk nyomtatásának előnézete az Aspose.Slides programban
-second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Ismerje meg, hogyan tekintheti meg a PowerPoint-prezentációk nyomtatási kimenetének előnézetét az Aspose.Slides for .NET segítségével. Kövesse ezt a lépésenkénti útmutatót a forráskóddal a nyomtatási előnézetek létrehozásához és testreszabásához.
-weight: 11
-url: /hu/net/printing-and-rendering-in-slides/presentation-print-preview/
+"description": "Ismerje meg, hogyan tekintheti meg a PowerPoint-bemutatók nyomtatási kimenetét az Aspose.Slides for .NET segítségével. Kövesse ezt a lépésről lépésre szóló útmutatót a forráskóddal együtt a nyomtatási előnézetek létrehozásához és testreszabásához."
+"linktitle": "Prezentációk nyomtatási kimenetének előnézete az Aspose.Slides-ban"
+"second_title": "Aspose.Slides .NET PowerPoint feldolgozási API"
+"title": "Prezentációk nyomtatási kimenetének előnézete az Aspose.Slides-ban"
+"url": "/hu/net/printing-and-rendering-in-slides/presentation-print-preview/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Prezentációk nyomtatásának előnézete az Aspose.Slides programban
+# Prezentációk nyomtatási kimenetének előnézete az Aspose.Slides-ban
 
 ## Bevezetés
-Üdvözöljük az Aspose.Slides for .NET világában, egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen manipulálják és javítsák a PowerPoint prezentációkat .NET-alkalmazásaikban. Akár tapasztalt fejlesztő, akár csak kezdő, ez az átfogó útmutató végigvezeti Önt az Aspose.Slides teljes potenciáljának kiaknázásához szükséges alapvető lépéseken.
+Üdvözlünk az Aspose.Slides for .NET világában! Ez egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen manipulálják és javítsák PowerPoint-bemutatóikat .NET-alkalmazásaikban. Akár tapasztalt fejlesztő vagy, akár most kezded, ez az átfogó útmutató végigvezet a legfontosabb lépéseken, hogy kihasználhasd az Aspose.Slides teljes potenciálját.
 ## Előfeltételek
-Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételeket teljesítette:
-1. Visual Studio telepítve: Győződjön meg arról, hogy a Visual Studio telepítve van a gépen.
-2.  Aspose.Slides Library: Töltse le és telepítse az Aspose.Slides könyvtárat innen[itt](https://releases.aspose.com/slides/net/).
-3. Dokumentumkönyvtár: Hozzon létre egy könyvtárat, ahol a dokumentumokat tárolni fogja, és a kódpéldákban a „Saját dokumentumkönyvtárat” cserélje ki a tényleges elérési útra.
+Mielőtt belevágnál az oktatóanyagba, győződj meg róla, hogy a következő előfeltételek teljesülnek:
+1. Visual Studio telepítve: Győződjön meg arról, hogy a Visual Studio telepítve van a gépén.
+2. Aspose.Slides könyvtár: Töltse le és telepítse az Aspose.Slides könyvtárat innen: [itt](https://releases.aspose.com/slides/net/).
+3. Dokumentumkönyvtár: Hozz létre egy könyvtárat, ahová a dokumentumokat tárolni fogod, és a kódpéldákban a „Saját dokumentumkönyvtár” részt cseréld le a tényleges elérési útra.
 ## Névterek importálása
-A Visual Studio projektben importálja a szükséges névtereket az Aspose.Slides által biztosított funkciók eléréséhez. Kovesd ezeket a lepeseket:
-## 1. lépés: Nyissa meg a Visual Studio projektet
-Indítsa el a Visual Studio programot, és nyissa meg a projektet.
-## 2. lépés: Az Aspose.Slides Reference hozzáadása
-A projektben kattintson a jobb gombbal a Referenciák elemre, és válassza a "Hivatkozás hozzáadása" lehetőséget. Keresse meg azt a helyet, ahová az Aspose.Slides könyvtárat mentette, és adja hozzá a hivatkozást.
+A Visual Studio projektedben importáld a szükséges névtereket az Aspose.Slides által biztosított funkciók eléréséhez. Kövesd az alábbi lépéseket:
+## 1. lépés: Nyisd meg a Visual Studio-projektedet
+Indítsd el a Visual Studio-t, és nyisd meg a projektedet.
+## 2. lépés: Aspose.Slides referencia hozzáadása
+A projektedben kattints jobb gombbal a Referenciákra, és válaszd a „Referencia hozzáadása” lehetőséget. Keresd meg azt a helyet, ahová az Aspose.Slides könyvtárat mentetted, és add hozzá a referenciát.
 ## 3. lépés: Névterek importálása
-A kódfájlban importálja a szükséges névtereket:
+A kódfájlodban importáld a szükséges névtereket:
 ```csharp
 using System;
 using Aspose.Slides;
 using System.Drawing.Printing;
 ```
-Most már készen áll az Aspose.Slides képességeinek felfedezésére.
-## Oktatóanyag: A prezentációk nyomtatásának előnézete az Aspose.Slides programban
-Nézzük végig a nyomtatási kimenet előnézetének folyamatát az Aspose.Slides segítségével. A következő lépések vezetik Önt:
-## 1. lépés: Állítsa be a dokumentumkönyvtárat
-Cserélje le a „Saját dokumentumkönyvtár” szöveget a kódban a dokumentumkönyvtár elérési útjával.
+Most már készen állsz az Aspose.Slides képességeinek felfedezésére.
+## Oktatóanyag: Prezentációk nyomtatási kimenetének előnézete az Aspose.Slides-ban
+Nézzük meg a nyomtatási kimenet előnézetének folyamatát az Aspose.Slides használatával. A következő lépések segítenek:
+## 1. lépés: Dokumentumkönyvtár beállítása
+Cserélje ki a kódban a „Saját dokumentumkönyvtár” részt a dokumentumkönyvtár elérési útjára.
 ```csharp
 string dataDir = "Your Document Directory";
 ```
 ## 2. lépés: Prezentációs objektum létrehozása
-Új bemutató objektum inicializálása.
+Inicializáljon egy új Presentation objektumot.
 ```csharp
 using (Presentation pres = new Presentation())
 {
-    // Itt a kódod
+    // A kódod itt
 }
 ```
-## 3. lépés: Konfigurálja a nyomtató beállításait
-Adja meg a nyomtató beállításait, például a másolatok számát, az oldal tájolását és a margókat.
+## 3. lépés: Nyomtatóbeállítások konfigurálása
+Állítsa be a nyomtató beállításait, például a példányszámot, az oldal tájolását és a margókat.
 ```csharp
 PrinterSettings printerSettings = new PrinterSettings();
 printerSettings.Copies = 2;
 printerSettings.DefaultPageSettings.Landscape = true;
 printerSettings.DefaultPageSettings.Margins.Left = 10;
-//... Adjon hozzá további beállításokat, ha szükséges
+//... Szükség szerint további beállítások hozzáadása
 ```
 ## 4. lépés: Nyomtassa ki a prezentációt
-Nyomtassa ki a prezentációt a konfigurált nyomtatóbeállítások segítségével.
+Nyomtassa ki a bemutatót a konfigurált nyomtatóbeállításokkal.
 ```csharp
 pres.Print(printerSettings);
 ```
-Gratulálunk! Sikeresen megtekintette egy prezentáció nyomtatási kimenetének előnézetét az Aspose.Slides for .NET használatával.
+Gratulálunk! Sikeresen megtekintetted egy prezentáció nyomtatási kimenetének előnézetét az Aspose.Slides for .NET használatával.
 ## Következtetés
-Ebben az oktatóanyagban bemutatjuk az Aspose.Slides for .NET projektekbe való integrálásának és használatának alapvető lépéseit. Ez a hatékony könyvtár a lehetőségek világát nyitja meg a PowerPoint-prezentációk programozott munkavégzésében. Kísérletezzen, fedezze fel és fejlessze alkalmazásait az Aspose.Slides által kínált rugalmassággal.
+Ebben az oktatóanyagban áttekintettük az Aspose.Slides for .NET integrálásának és projektekben való használatának alapvető lépéseit. Ez a hatékony könyvtár a PowerPoint-bemutatókkal való programozott munka lehetőségeinek tárházát nyitja meg. Kísérletezz, fedezd fel és fejleszd alkalmazásaidat az Aspose.Slides által kínált rugalmassággal.
 ## Gyakran Ismételt Kérdések
-### Az Aspose.Slides kompatibilis a PowerPoint legújabb verzióival?
+### Kompatibilis az Aspose.Slides a PowerPoint legújabb verzióival?
 Igen, az Aspose.Slides támogatja a legújabb PowerPoint formátumokat, biztosítva a kompatibilitást a legújabb verziókkal.
 ### Használhatom az Aspose.Slides-t Windows és webes alkalmazásokban is?
-Teljesen! Az Aspose.Slides sokoldalú, és zökkenőmentesen integrálható mind Windows, mind webalapú alkalmazásokba.
-### Hol találom az Aspose.Slides átfogó dokumentációját?
- A dokumentáció elérhető a címen[Aspose.Slides .NET dokumentáció](https://reference.aspose.com/slides/net/).
-### Hogyan szerezhetek ideiglenes licencet az Aspose.Slides számára?
- Látogatás[Ideiglenes jogosítvány](https://purchase.aspose.com/temporary-license/) tesztelési célból ideiglenes engedélyt szerezni.
-### Támogatásra van szüksége, vagy további kérdései vannak?
- Meglátogatni a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) segítséget kapni és kapcsolatba lépni a közösséggel.
+Abszolút! Az Aspose.Slides sokoldalú, és zökkenőmentesen integrálható mind Windows, mind webes alkalmazásokba.
+### Hol találok átfogó dokumentációt az Aspose.Slides-hez?
+A dokumentáció elérhető a következő címen: [Aspose.Slides .NET dokumentáció](https://reference.aspose.com/slides/net/).
+### Hogyan szerezhetek ideiglenes licencet az Aspose.Slides-hez?
+Látogatás [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/) ideiglenes engedély megszerzése tesztelési célokra.
+### Segítségre van szüksége, vagy további kérdései vannak?
+Látogassa meg a [Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) hogy segítséget kapjon és kapcsolatba lépjen a közösséggel.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

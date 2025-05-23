@@ -1,14 +1,16 @@
 ---
-title: प्रस्तुति को XAML प्रारूप में निर्यात करें
-linktitle: प्रस्तुति को XAML प्रारूप में निर्यात करें
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: .NET के लिए Aspose.Slides का उपयोग करके प्रस्तुतियों को XAML प्रारूप में निर्यात करना सीखें। सहजता से इंटरैक्टिव सामग्री बनाएँ!
-weight: 27
-url: /hi/net/presentation-conversion/export-presentation-to-xaml-format/
+"description": ".NET के लिए Aspose.Slides का उपयोग करके प्रस्तुतियों को XAML प्रारूप में निर्यात करना सीखें। सहजता से इंटरैक्टिव सामग्री बनाएँ!"
+"linktitle": "प्रस्तुति को XAML प्रारूप में निर्यात करें"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "प्रस्तुति को XAML प्रारूप में निर्यात करें"
+"url": "/hi/net/presentation-conversion/export-presentation-to-xaml-format/"
+"weight": 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # प्रस्तुति को XAML प्रारूप में निर्यात करें
@@ -41,7 +43,7 @@ string outPath = "Your Output Directory";
 string presentationFileName = Path.Combine(dataDir, "XamlEtalon.pptx");
 ```
 
- प्रतिस्थापित करें`"Your Document Directory"` अपने स्रोत PowerPoint प्रस्तुति वाली निर्देशिका के पथ के साथ। साथ ही, आउटपुट निर्देशिका निर्दिष्ट करें जहाँ जेनरेट की गई XAML फ़ाइलें सहेजी जाएँगी।
+प्रतिस्थापित करें `"Your Document Directory"` अपने स्रोत PowerPoint प्रस्तुति वाली निर्देशिका के पथ के साथ। साथ ही, आउटपुट निर्देशिका निर्दिष्ट करें जहाँ जेनरेट की गई XAML फ़ाइलें सहेजी जाएँगी।
 
 ## चरण 2: प्रस्तुति को XAML में निर्यात करें
 
@@ -69,11 +71,11 @@ using (Presentation pres = new Presentation(presentationFileName))
 }
 ```
 
- इस कोड स्निपेट में, हम स्रोत प्रस्तुति को लोड करते हैं, XAML रूपांतरण विकल्प बनाते हैं, और एक कस्टम आउटपुट-सेविंग सेवा को परिभाषित करते हैं`NewXamlSaver`फिर हम XAML फ़ाइलों को निर्दिष्ट आउटपुट निर्देशिका में सहेजते हैं।
+इस कोड स्निपेट में, हम स्रोत प्रस्तुति को लोड करते हैं, XAML रूपांतरण विकल्प बनाते हैं, और एक कस्टम आउटपुट-सेविंग सेवा को परिभाषित करते हैं `NewXamlSaver`फिर हम XAML फ़ाइलों को निर्दिष्ट आउटपुट निर्देशिका में सहेजते हैं।
 
 ## चरण 3: कस्टम XAML सेवर क्लास
 
- कस्टम XAML सेवर को लागू करने के लिए, हम नाम से एक क्लास बनाएंगे`NewXamlSaver` जो लागू करता है`IXamlOutputSaver` इंटरफेस।
+कस्टम XAML सेवर को लागू करने के लिए, हम नाम से एक क्लास बनाएंगे `NewXamlSaver` जो लागू करता है `IXamlOutputSaver` इंटरफ़ेस.
 
 ```csharp
 class NewXamlSaver : IXamlOutputSaver
@@ -107,21 +109,23 @@ class NewXamlSaver : IXamlOutputSaver
 Aspose.Slides for .NET एक .NET लाइब्रेरी है जो PowerPoint प्रस्तुतियों के साथ प्रोग्रामेटिक रूप से काम करने के लिए है।
 
 2. ### मैं .NET के लिए Aspose.Slides कहां से प्राप्त कर सकता हूं?
- आप .NET के लिए Aspose.Slides को यहां से डाउनलोड कर सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+आप .NET के लिए Aspose.Slides को यहां से डाउनलोड कर सकते हैं [यहाँ](https://purchase.aspose.com/buy).
 
 3. ### क्या कोई निःशुल्क परीक्षण उपलब्ध है?
- हां, आप .NET के लिए Aspose.Slides का निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप .NET के लिए Aspose.Slides का निःशुल्क परीक्षण प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 4. ### मैं Aspose.Slides for .NET के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
- आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+आप अस्थायी लाइसेंस प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
 
 5. ### मुझे Aspose.Slides for .NET के लिए समर्थन कहां मिल सकता है?
- आप समर्थन और सामुदायिक चर्चा पा सकते हैं[यहाँ](https://forum.aspose.com/).
+आप समर्थन और सामुदायिक चर्चा पा सकते हैं [यहाँ](https://forum.aspose.com/).
 
- अधिक ट्यूटोरियल और संसाधनों के लिए, यहां जाएं[Aspose.Slides API दस्तावेज़](https://reference.aspose.com/slides/net/).
+अधिक ट्यूटोरियल और संसाधनों के लिए, यहां जाएं [Aspose.Slides API दस्तावेज़](https://reference.aspose.com/slides/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

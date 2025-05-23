@@ -1,14 +1,16 @@
 ---
-title: जावा का उपयोग करके PowerPoint में पैराग्राफ संरेखित करें
-linktitle: जावा का उपयोग करके PowerPoint में पैराग्राफ संरेखित करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में पैराग्राफ़ को संरेखित करना सीखें। सटीक फ़ॉर्मेटिंग के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 17
-url: /hi/java/java-powerpoint-text-paragraph-management/align-paragraphs-powerpoint-java/
+"description": "Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में पैराग्राफ़ को संरेखित करना सीखें। सटीक फ़ॉर्मेटिंग के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "जावा का उपयोग करके PowerPoint में पैराग्राफ संरेखित करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा का उपयोग करके PowerPoint में पैराग्राफ संरेखित करें"
+"url": "/hi/java/java-powerpoint-text-paragraph-management/align-paragraphs-powerpoint-java/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा का उपयोग करके PowerPoint में पैराग्राफ संरेखित करें
@@ -19,7 +21,7 @@ url: /hi/java/java-powerpoint-text-paragraph-management/align-paragraphs-powerpo
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 - जावा प्रोग्रामिंग भाषा की बुनियादी समझ।
 - अपने सिस्टम पर JDK (जावा डेवलपमेंट किट) स्थापित करें।
--  Aspose.Slides for Java लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+- Aspose.Slides for Java लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 - एकीकृत विकास वातावरण (आईडीई) जैसे कि इंटेलीज आईडिया या एक्लिप्स की स्थापना।
 
 ## पैकेज आयात करें
@@ -28,7 +30,7 @@ url: /hi/java/java-powerpoint-text-paragraph-management/align-paragraphs-powerpo
 import com.aspose.slides.*;
 ```
 ## चरण 1: प्रेजेंटेशन ऑब्जेक्ट को आरंभ करें
- एक बनाकर शुरू करें`Presentation`ऑब्जेक्ट जो आपकी PowerPoint फ़ाइल का प्रतिनिधित्व करता है। यह उदाहरण मानता है कि आपके पास अपनी निर्दिष्ट निर्देशिका में "ParagraphsAlignment.pptx" नामक एक PowerPoint फ़ाइल है।
+एक बनाकर शुरू करें `Presentation` ऑब्जेक्ट जो आपकी PowerPoint फ़ाइल का प्रतिनिधित्व करता है। यह उदाहरण मानता है कि आपके पास अपनी निर्दिष्ट निर्देशिका में "ParagraphsAlignment.pptx" नामक एक PowerPoint फ़ाइल है।
 ```java
 // आपकी PowerPoint फ़ाइल वाली निर्देशिका का पथ
 String dataDir = "Your Document Directory/";
@@ -73,14 +75,16 @@ pres.save(dataDir + "Centeralign_out.pptx", SaveFormat.Pptx);
 ### क्या Aspose.Slides पैराग्राफ़ के लिए अन्य फ़ॉर्मेटिंग विकल्पों का समर्थन करता है?
 बिल्कुल, आप फ़ॉन्ट शैली, रंग, स्पेसिंग और बहुत कुछ को प्रोग्रामेटिक रूप से अनुकूलित कर सकते हैं।
 ### मैं Aspose.Slides के लिए और अधिक उदाहरण और दस्तावेज़ कहां पा सकता हूं?
- विस्तृत दस्तावेज़ीकरण और कोड नमूने यहां देखें[Aspose.Slides for Java दस्तावेज़ीकरण](https://reference.aspose.com/slides/java/).
+विस्तृत दस्तावेज़ीकरण और कोड नमूने देखें [Aspose.Slides for Java दस्तावेज़ीकरण](https://reference.aspose.com/slides/java/).
 ### क्या Aspose.Slides Microsoft PowerPoint के सभी संस्करणों के साथ संगत है?
 Aspose.Slides PowerPoint प्रारूपों की एक विस्तृत श्रृंखला का समर्थन करता है, जो विभिन्न संस्करणों में संगतता सुनिश्चित करता है।
 ### क्या मैं खरीदने से पहले Aspose.Slides आज़मा सकता हूँ?
- हां, आप यहां से निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप यहां से निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

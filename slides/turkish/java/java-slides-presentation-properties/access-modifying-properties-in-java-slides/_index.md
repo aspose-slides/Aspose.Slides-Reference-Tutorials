@@ -1,57 +1,59 @@
 ---
-title: Java Slaytlarındaki Özellikleri Değiştirmeye Erişim
-linktitle: Java Slaytlarındaki Özellikleri Değiştirmeye Erişim
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides for Java'yı kullanarak Java Slides'taki özelliklere nasıl erişeceğinizi ve bunları nasıl değiştireceğinizi öğrenin. Sunumlarınızı özel özelliklerle geliştirin.
-weight: 11
-url: /tr/java/presentation-properties/access-modifying-properties-in-java-slides/
+"description": "Java Slaytları'ndaki özelliklere Aspose.Slides for Java kullanarak nasıl erişeceğinizi ve bunları nasıl değiştireceğinizi öğrenin. Özel özelliklerle sunumlarınızı geliştirin."
+"linktitle": "Java Slaytlarında Özellikleri Değiştirmeye Erişim"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java Slaytlarında Özellikleri Değiştirmeye Erişim"
+"url": "/tr/java/presentation-properties/access-modifying-properties-in-java-slides/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java Slaytlarındaki Özellikleri Değiştirmeye Erişim
+# Java Slaytlarında Özellikleri Değiştirmeye Erişim
 
 
-## Java Slaytlarında Erişim Değiştirme Özelliklerine Giriş
+## Java Slaytlarında Access Özelliklerini Değiştirmeye Giriş
 
-Java geliştirme dünyasında PowerPoint sunumlarını değiştirmek yaygın bir görevdir. İster dinamik raporlar oluşturuyor olun, ister sunumları otomatikleştiriyor olun, ister uygulamanızın kullanıcı arayüzünü geliştiriyor olun, çoğu zaman bir PowerPoint slaytının çeşitli özelliklerini değiştirme ihtiyacını bulacaksınız. Bu adım adım kılavuz, Aspose.Slides for Java kullanarak Java Slides'taki özelliklere nasıl erişeceğinizi ve bunları nasıl değiştireceğinizi gösterecektir.
+Java geliştirme dünyasında, PowerPoint sunumlarını düzenlemek yaygın bir görevdir. Dinamik raporlar oluşturuyor, sunumları otomatikleştiriyor veya uygulamanızın kullanıcı arayüzünü geliştiriyor olun, sıklıkla bir PowerPoint slaydının çeşitli özelliklerini değiştirme ihtiyacı duyarsınız. Bu adım adım kılavuz, Java için Aspose.Slides kullanarak Java Slaytlarındaki özelliklere nasıl erişeceğinizi ve bunları nasıl değiştireceğinizi gösterecektir.
 
-## Önkoşullar
+## Ön koşullar
 
-Kodun ayrıntılarına girmeden önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+Koda dalmadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
-- Sisteminizde Java Geliştirme Kiti (JDK) yüklü.
--  Aspose.Slides for Java kütüphanesini şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/slides/java/).
-- Java programlamanın temel anlayışı.
+- Sisteminizde Java Development Kit (JDK) yüklü.
+- Java kütüphanesi için Aspose.Slides'ı indirebilirsiniz [Burada](https://releases.aspose.com/slides/java/).
+- Java programlamanın temellerini anlamak.
 
-## 1. Adım: Java Geliştirme Ortamınızı Kurma
+## Adım 1: Java Geliştirme Ortamınızı Kurma
 
-Aspose.Slides for Java'yı kullanmaya başlamadan önce Java geliştirme ortamınızı ayarlamanız gerekir. Sisteminizde JDK'nın kurulu ve yapılandırılmış olduğundan emin olun. Ayrıca Aspose.Slides kütüphanesini indirip projenizin sınıf yoluna ekleyin.
+Aspose.Slides for Java'yı kullanmaya başlamadan önce, Java geliştirme ortamınızı ayarlamanız gerekir. Sisteminizde JDK'nın kurulu ve yapılandırılmış olduğundan emin olun. Ayrıca, Aspose.Slides kitaplığını indirin ve projenizin sınıf yoluna ekleyin.
 
-## Adım 2: PowerPoint Sunumu Yükleme
+## Adım 2: Bir PowerPoint Sunumunu Yükleme
 
-Bir PowerPoint sunumuyla çalışmak için önce onu Java uygulamanıza yüklemeniz gerekir. Bir sunumu yüklemek için basit bir kod pasajını burada bulabilirsiniz:
+Bir PowerPoint sunumuyla çalışmak için, önce onu Java uygulamanıza yüklemeniz gerekir. İşte bir sunumu yüklemek için basit bir kod parçası:
 
 ```java
-// Belgeler dizininin yolu.
+// Belgeler dizinine giden yol.
 String dataDir = "Your Document Directory";
-// PPTX'i temsil eden Sunum sınıfını örnekleyin
+// PPTX'i temsil eden Sunum sınıfını örneklendirin
 Presentation presentation = new Presentation(dataDir + "AccessModifyingProperties.pptx");
 ```
 
-## 3. Adım: Belge Özelliklerine Erişim
+## Adım 3: Belge Özelliklerine Erişim
 
-Artık sunuyu yüklediğinize göre belge özelliklerine erişebilirsiniz. Belge özellikleri sunum hakkında başlık, yazar ve özel özellikler gibi bilgiler sağlar. Belge özelliklerine şu şekilde erişebilirsiniz:
+Artık sunuyu yüklediğinize göre, belge özelliklerine erişebilirsiniz. Belge özellikleri, başlık, yazar ve özel özellikler gibi sunum hakkında bilgi sağlar. Belge özelliklerine şu şekilde erişebilirsiniz:
 
 ```java
-// Sunumla ilişkili DocumentProperties nesnesine bir başvuru oluşturun
+// Presentation ile ilişkili DocumentProperties nesnesine bir başvuru oluşturun
 IDocumentProperties documentProperties = presentation.getDocumentProperties();
 
-// Özel özelliklere erişme ve bunları görüntüleme
+// Özel özelliklere erişin ve bunları görüntüleyin
 for (int i = 0; i < documentProperties.getCountOfCustomProperties(); i++) {
-    // Özel özelliklerin görünen adları ve değerleri
+    // Özel özelliklerin görüntü adları ve değerleri
     System.out.println("Custom Property Name: " + documentProperties.getCustomPropertyName(i));
     System.out.println("Custom Property Value: " + documentProperties.get_Item(documentProperties.getCustomPropertyName(i)));
 }
@@ -59,39 +61,39 @@ for (int i = 0; i < documentProperties.getCountOfCustomProperties(); i++) {
 
 ## Adım 4: Özel Özellikleri Değiştirme
 
-Çoğu durumda bir sununun özel özelliklerini değiştirmeniz gerekecektir. Özel özellikler, uygulamanıza özel sunumla ilgili ek bilgileri saklamanıza olanak tanır. Özel özellikleri şu şekilde değiştirebilirsiniz:
+Çoğu durumda, bir sunumun özel özelliklerini değiştirmeniz gerekir. Özel özellikler, uygulamanıza özgü sunum hakkında ek bilgiler depolamanıza olanak tanır. Özel özellikleri şu şekilde değiştirebilirsiniz:
 
 ```java
-// Özel özelliklerin değerlerini değiştirin
+// Özel özelliklerin değerlerini değiştir
 for (int i = 0; i < documentProperties.getCountOfCustomProperties(); i++) {
     documentProperties.set_Item(documentProperties.getCustomPropertyName(i), "New Value " + (i + 1));
 }
 ```
 
-## Adım 5: Değiştirilen Sununuzu Kaydetme
+## Adım 5: Değiştirilmiş Sunumunuzu Kaydetme
 
-Sunumda değişiklik yaptıktan sonra değiştirilen sürümü kaydetmek önemlidir. Bunu aşağıdaki kodu kullanarak yapabilirsiniz:
+Sunumda değişiklikler yaptıktan sonra, değiştirilmiş sürümü kaydetmek önemlidir. Bunu aşağıdaki kodu kullanarak yapabilirsiniz:
 
 ```java
 presentation.save(dataDir + "CustomDemoModified_out.pptx", SaveFormat.Pptx);
 ```
 
-## Java Slaytlarındaki Özellikleri Değiştirmek İçin Tam Kaynak Kodu
+## Java Slaytlarında Erişim Özelliklerini Değiştirmek İçin Tam Kaynak Kodu
 
 ```java
-// Belgeler dizininin yolu.
+// Belgeler dizinine giden yol.
 String dataDir = "Your Document Directory";
 // PPTX'i temsil eden Sunum sınıfını örnekleyin
 Presentation presentation = new Presentation(dataDir + "AccessModifyingProperties.pptx");
-// Sunum ile ilişkili DocumentProperties nesnesine bir başvuru oluşturun
+// Prsentation ile ilişkili DocumentProperties nesnesine bir başvuru oluşturun
 IDocumentProperties documentProperties = presentation.getDocumentProperties();
-// Özel özelliklere erişme ve bunları değiştirme
+// Özel özelliklere erişin ve bunları değiştirin
 for (int i = 0; i < documentProperties.getCountOfCustomProperties(); i++)
 {
-	// Özel özelliklerin görünen adları ve değerleri
+	// Özel özelliklerin görüntü adları ve değerleri
 	System.out.println("Custom Property Name : " + documentProperties.getCustomPropertyName(i));
 	System.out.println("Custom Property Value : " + documentProperties.get_Item(documentProperties.getCustomPropertyName(i)));
-	// Özel özelliklerin değerlerini değiştirin
+	// Özel özelliklerin değerlerini değiştir
 	documentProperties.set_Item(documentProperties.getCustomPropertyName(i), "New Value " + (i + 1));
 }
 // Sununuzu bir dosyaya kaydedin
@@ -100,32 +102,34 @@ presentation.save(dataDir + "CustomDemoModified_out.pptx", SaveFormat.Pptx);
 
 ## Çözüm
 
-Bu makalede Aspose.Slides for Java'yı kullanarak Java Slides'daki özelliklere nasıl erişeceğinizi ve bunları nasıl değiştireceğinizi araştırdık. Kitaplığı tanıtarak, geliştirme ortamını ayarlayarak, bir sunum yükleyerek, belge özelliklerine erişerek, özel özellikleri değiştirerek ve son olarak değiştirilen sunumu kaydederek başladık. Bu bilgiyle artık Java uygulamalarınızı Aspose.Slides'ın gücüyle geliştirebilirsiniz.
+Bu makalede, Java için Aspose.Slides kullanarak Java Slides'daki özelliklere nasıl erişileceğini ve bunların nasıl değiştirileceğini inceledik. Kütüphaneyi tanıtarak, geliştirme ortamını kurarak, bir sunumu yükleyerek, belge özelliklerine erişerek, özel özellikleri değiştirerek ve son olarak değiştirilmiş sunumu kaydederek başladık. Bu bilgiyle artık Java uygulamalarınızı Aspose.Slides'ın gücüyle geliştirebilirsiniz.
 
-## SSS'ler
+## SSS
 
-### Aspose.Slides for Java'yı nasıl kurabilirim?
+### Java için Aspose.Slides'ı nasıl yükleyebilirim?
 
- Aspose.Slides for Java'yı yüklemek için kütüphaneyi şu adresten indirin:[Burada](https://releases.aspose.com/slides/java/) ve onu Java projenizin sınıf yoluna ekleyin.
+Java için Aspose.Slides'ı yüklemek için, kitaplığı şu adresten indirin: [Burada](https://releases.aspose.com/slides/java/) ve bunu Java projenizin sınıf yoluna ekleyin.
 
 ### Aspose.Slides for Java'yı ücretsiz kullanabilir miyim?
 
-Aspose.Slides for Java ticari bir kütüphanedir ancak özelliklerini ücretsiz deneme sürümüyle keşfedebilirsiniz. Üretimde kullanmak için bir lisans almanız gerekir.
+Aspose.Slides for Java ticari bir kütüphanedir, ancak ücretsiz deneme sürümüyle özelliklerini keşfedebilirsiniz. Üretimde kullanmak için bir lisans edinmeniz gerekir.
 
-### PowerPoint sunumundaki özel özellikler nelerdir?
+### PowerPoint sunumunda özel özellikler nelerdir?
 
-Özel özellikler, PowerPoint sunumuyla ilişkili kullanıcı tanımlı meta verilerdir. Uygulamanızla ilgili ek bilgileri saklamanıza olanak tanırlar.
+Özel özellikler, bir PowerPoint sunumuyla ilişkilendirilen kullanıcı tanımlı meta verilerdir. Uygulamanızla ilgili ek bilgileri depolamanıza olanak tanırlar.
 
-### Aspose.Slides for Java ile çalışırken hataları nasıl halledebilirim?
+### Aspose.Slides for Java ile çalışırken hataları nasıl çözebilirim?
 
-Hataları Java'nın istisna işleme mekanizmalarını kullanarak halledebilirsiniz. Aspose.Slides for Java çeşitli nedenlerle istisnalar oluşturabilir, bu nedenle kodunuzda hata işlemeyi uygulamanız çok önemlidir.
+Java'nın istisna işleme mekanizmalarını kullanarak hataları işleyebilirsiniz. Java için Aspose.Slides çeşitli nedenlerle istisnalar atabilir, bu nedenle kodunuzda hata işlemeyi uygulamanız önemlidir.
 
-### Daha fazla belge ve örneği nerede bulabilirim?
+### Daha fazla doküman ve örneği nerede bulabilirim?
 
- Aspose.Slides for Java'ya yönelik kapsamlı belgeleri ve kod örneklerini şu adreste bulabilirsiniz:[Burada](https://reference.aspose.com/slides/java/).
+Java için Aspose.Slides'a ilişkin kapsamlı dokümanları ve kod örneklerini şu adreste bulabilirsiniz: [Burada](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

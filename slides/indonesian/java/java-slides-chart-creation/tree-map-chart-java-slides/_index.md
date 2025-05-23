@@ -1,28 +1,30 @@
 ---
-title: Bagan Peta Pohon di Slide Java
-linktitle: Bagan Peta Pohon di Slide Java
-second_title: Aspose.Slides API Pemrosesan Java PowerPoint
-description: Buat Bagan Peta Pohon di Slide Java menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah dengan kode sumber untuk memvisualisasikan data hierarki.
-weight: 13
-url: /id/java/chart-creation/tree-map-chart-java-slides/
+"description": "Buat Diagram Peta Pohon di Slide Java menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah dengan kode sumber untuk memvisualisasikan data hierarkis."
+"linktitle": "Bagan Peta Pohon dalam Slide Java"
+"second_title": "API Pemrosesan PowerPoint Java Aspose.Slides"
+"title": "Bagan Peta Pohon dalam Slide Java"
+"url": "/id/java/chart-creation/tree-map-chart-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Bagan Peta Pohon di Slide Java
+# Bagan Peta Pohon dalam Slide Java
 
 
-## Pengantar Bagan Peta Pohon di Slide Java
+## Pengenalan Diagram Peta Pohon di Java Slides
 
-Dalam tutorial ini, kami akan mendemonstrasikan cara membuat bagan Peta Pohon dalam presentasi PowerPoint menggunakan pustaka Aspose.Slides untuk Java. Bagan Peta Pohon adalah cara efektif untuk memvisualisasikan data hierarki.
+Dalam tutorial ini, kami akan menunjukkan cara membuat bagan Tree Map dalam presentasi PowerPoint menggunakan pustaka Aspose.Slides for Java. Bagan Tree Map merupakan cara yang efektif untuk memvisualisasikan data hierarkis.
 
 ## Prasyarat
 
 Sebelum memulai, pastikan Anda telah menyiapkan pustaka Aspose.Slides untuk Java di proyek Java Anda.
 
-## Langkah 1: Impor Perpustakaan yang Diperlukan
+## Langkah 1: Impor Pustaka yang Diperlukan
 
 ```java
 import com.aspose.slides.*;
@@ -91,7 +93,7 @@ try {
 }
 ```
 
-## Kode Sumber Lengkap Untuk Bagan Peta Pohon di Slide Java
+## Source Code Lengkap Untuk Diagram Peta Pohon di Java Slides
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
@@ -139,28 +141,30 @@ finally
 
 ## Kesimpulan
 
-Dalam tutorial ini, Anda telah mempelajari cara membuat bagan Peta Pohon dalam presentasi PowerPoint menggunakan pustaka Aspose.Slides untuk Java. Bagan Peta Pohon adalah alat yang berharga untuk memvisualisasikan data hierarki, membuat presentasi Anda lebih informatif dan menarik.
+Dalam tutorial ini, Anda telah mempelajari cara membuat bagan Tree Map dalam presentasi PowerPoint menggunakan pustaka Aspose.Slides for Java. Bagan Tree Map merupakan alat yang berharga untuk memvisualisasikan data hierarkis, sehingga presentasi Anda menjadi lebih informatif dan menarik.
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
-### Bagaimana cara menambahkan data ke diagram Peta Pohon?
+### Bagaimana cara menambahkan data ke bagan Peta Pohon?
 
- Untuk menambahkan data ke bagan Peta Pohon, gunakan`series.getDataPoints().addDataPointForTreemapSeries()` metode, meneruskan nilai data sebagai parameter.
+Untuk menambahkan data ke bagan Peta Pohon, gunakan `series.getDataPoints().addDataPointForTreemapSeries()` metode, yang meneruskan nilai data sebagai parameter.
 
-### Bagaimana cara menyesuaikan tampilan bagan Peta Pohon?
+### Bagaimana saya dapat menyesuaikan tampilan bagan Peta Pohon?
 
- Anda dapat menyesuaikan tampilan bagan Peta Pohon dengan memodifikasi berbagai properti`chart` Dan`series`objek, seperti warna, label, dan tata letak.
+Anda dapat menyesuaikan tampilan bagan Peta Pohon dengan memodifikasi berbagai properti bagan `chart` Dan `series` objek, seperti warna, label, dan tata letak.
 
-### Bisakah saya membuat beberapa diagram Peta Pohon dalam satu presentasi?
+### Bisakah saya membuat beberapa bagan Peta Pohon dalam satu presentasi?
 
-Ya, Anda dapat membuat beberapa bagan Peta Pohon dalam satu presentasi dengan mengikuti langkah-langkah yang sama dan menentukan posisi slide yang berbeda.
+Ya, Anda dapat membuat beberapa bagan Peta Pohon dalam satu presentasi dengan mengikuti langkah yang sama dan menentukan posisi slide yang berbeda.
 
 ### Bagaimana cara menyimpan presentasi dengan bagan Peta Pohon?
 
- Menggunakan`pres.save()` metode untuk menyimpan presentasi dengan bagan Peta Pohon dalam format yang diinginkan (misalnya PPTX).
+Gunakan `pres.save()` metode untuk menyimpan presentasi dengan bagan Peta Pohon dalam format yang diinginkan (misalnya, PPTX).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

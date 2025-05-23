@@ -1,14 +1,16 @@
 ---
-title: .NET के लिए Aspose.Slides के साथ आकार कनेक्शन महारत
-linktitle: प्रेजेंटेशन में कनेक्शन साइट का उपयोग करके आकृति को जोड़ना
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: .NET के लिए Aspose.Slides के साथ आकर्षक प्रस्तुतियाँ बनाएँ, आकृतियों को सहजता से जोड़ें। सहज, आकर्षक अनुभव के लिए हमारी मार्गदर्शिका का पालन करें।
-weight: 30
-url: /hi/net/shape-effects-and-manipulation-in-slides/connecting-shape-using-connection-site/
+"description": ".NET के लिए Aspose.Slides के साथ आकर्षक प्रस्तुतियाँ बनाएँ, आकृतियों को सहजता से जोड़ें। सहज, आकर्षक अनुभव के लिए हमारी मार्गदर्शिका का पालन करें।"
+"linktitle": "प्रेजेंटेशन में कनेक्शन साइट का उपयोग करके आकृति को जोड़ना"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": ".NET के लिए Aspose.Slides के साथ आकार कनेक्शन महारत"
+"url": "/hi/net/shape-effects-and-manipulation-in-slides/connecting-shape-using-connection-site/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # .NET के लिए Aspose.Slides के साथ आकार कनेक्शन महारत
@@ -18,7 +20,7 @@ url: /hi/net/shape-effects-and-manipulation-in-slides/connecting-shape-using-con
 ## आवश्यक शर्तें
 ट्यूटोरियल में आगे बढ़ने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 - C# और .NET प्रोग्रामिंग की बुनियादी समझ।
--  Aspose.Slides for .NET लाइब्रेरी स्थापित है। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET लाइब्रेरी स्थापित है। आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/net/).
 - विजुअल स्टूडियो जैसा एक एकीकृत विकास वातावरण (आईडीई) स्थापित किया गया।
 ## नामस्थान आयात करें
 अपने C# कोड में आवश्यक नेमस्पेस आयात करके प्रारंभ करें:
@@ -27,7 +29,7 @@ using Aspose.Slides.Export;
 using Aspose.Slides;
 ```
 ## चरण 1: अपनी दस्तावेज़ निर्देशिका सेट करें
-सुनिश्चित करें कि आपके पास अपने दस्तावेज़ के लिए एक निर्दिष्ट निर्देशिका है। यदि यह मौजूद नहीं है, तो एक बनाएँ:
+सुनिश्चित करें कि आपके पास अपने दस्तावेज़ के लिए एक निर्दिष्ट निर्देशिका है। यदि यह मौजूद नहीं है, तो एक बनाएं:
 ```csharp
 string dataDir = "Your Document Directory";
 bool isExists = System.IO.Directory.Exists(dataDir);
@@ -72,21 +74,23 @@ presentation.Save(dataDir + "Connecting_Shape_on_desired_connection_site_out.ppt
 ```
 अब आपने अपनी प्रस्तुति में कनेक्शन साइटों का उपयोग करके आकृतियों को सफलतापूर्वक जोड़ लिया है।
 ## निष्कर्ष
-Aspose.Slides for .NET आकृतियों को जोड़ने की प्रक्रिया को सरल बनाता है, जिससे आप आसानी से आकर्षक प्रस्तुतिकरण बना सकते हैं। इस चरण-दर-चरण मार्गदर्शिका का पालन करके, आप अपनी स्लाइड्स की दृश्य अपील को बढ़ा सकते हैं और अपने संदेश को प्रभावी ढंग से व्यक्त कर सकते हैं।
+Aspose.Slides for .NET आकृतियों को जोड़ने की प्रक्रिया को सरल बनाता है, जिससे आप आसानी से आकर्षक प्रस्तुतिकरण बना सकते हैं। इस चरण-दर-चरण मार्गदर्शिका का पालन करके, आप अपनी स्लाइड्स की दृश्य अपील को बढ़ा सकते हैं और अपना संदेश प्रभावी ढंग से व्यक्त कर सकते हैं।
 ## अक्सर पूछे जाने वाले प्रश्नों
 ### क्या Aspose.Slides Visual Studio 2019 के साथ संगत है?
 हां, Aspose.Slides Visual Studio 2019 के साथ संगत है। सुनिश्चित करें कि आपके पास उपयुक्त संस्करण स्थापित है।
 ### क्या मैं एक ही कनेक्टर में दो से अधिक आकृतियों को जोड़ सकता हूँ?
 Aspose.Slides आपको एक ही कनेक्टर से दो आकृतियों को जोड़ने की अनुमति देता है। अधिक आकृतियों को जोड़ने के लिए, आपको अतिरिक्त कनेक्टर की आवश्यकता होगी।
 ### Aspose.Slides का उपयोग करते समय मैं अपवादों को कैसे संभालूँ?
-आप अपवादों को संभालने के लिए try-catch ब्लॉक का उपयोग कर सकते हैं।[प्रलेखन](https://reference.aspose.com/slides/net/) विशिष्ट अपवादों और त्रुटि प्रबंधन के लिए.
+आप अपवादों को संभालने के लिए try-catch ब्लॉक का उपयोग कर सकते हैं। [प्रलेखन](https://reference.aspose.com/slides/net/) विशिष्ट अपवादों और त्रुटि प्रबंधन के लिए.
 ### क्या Aspose.Slides का कोई परीक्षण संस्करण उपलब्ध है?
- हां, आप निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
 ### मुझे Aspose.Slides के लिए समर्थन कहां मिल सकता है?
- दौरा करना[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) सामुदायिक समर्थन और चर्चा के लिए।
+दौरा करना [Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) सामुदायिक समर्थन और चर्चा के लिए।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

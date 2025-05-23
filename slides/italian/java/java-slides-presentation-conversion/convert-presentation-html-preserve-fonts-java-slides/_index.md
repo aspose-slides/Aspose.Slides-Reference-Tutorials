@@ -1,31 +1,33 @@
 ---
-title: Conversione della presentazione in HTML preservando i caratteri originali nelle diapositive Java
-linktitle: Conversione della presentazione in HTML preservando i caratteri originali nelle diapositive Java
-second_title: Aspose.Slides API di elaborazione Java PowerPoint
-description: Converti presentazioni PowerPoint in HTML preservando i caratteri originali utilizzando Aspose.Slides per Java.
-weight: 14
-url: /it/java/presentation-conversion/convert-presentation-html-preserve-fonts-java-slides/
+"description": "Converti le presentazioni PowerPoint in HTML mantenendo i font originali utilizzando Aspose.Slides per Java."
+"linktitle": "Conversione di una presentazione in HTML mantenendo i caratteri originali in Java Slides"
+"second_title": "API di elaborazione Java PowerPoint di Aspose.Slides"
+"title": "Conversione di una presentazione in HTML mantenendo i caratteri originali in Java Slides"
+"url": "/it/java/presentation-conversion/convert-presentation-html-preserve-fonts-java-slides/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Conversione della presentazione in HTML preservando i caratteri originali nelle diapositive Java
+# Conversione di una presentazione in HTML mantenendo i caratteri originali in Java Slides
 
 
-## Introduzione alla conversione della presentazione in HTML con la conservazione dei caratteri originali nelle diapositive Java
+## Introduzione alla conversione di presentazioni in HTML con conservazione dei caratteri originali in Java Slides
 
-In questo tutorial esploreremo come convertire una presentazione PowerPoint (PPTX) in HTML preservando i caratteri originali utilizzando Aspose.Slides per Java. Ciò garantirà che l'HTML risultante assomigli molto all'aspetto della presentazione originale.
+In questo tutorial, esploreremo come convertire una presentazione PowerPoint (PPTX) in HTML mantenendo i font originali utilizzando Aspose.Slides per Java. Questo garantirà che il codice HTML risultante assomigli il più possibile all'aspetto della presentazione originale.
 
 ## Passaggio 1: impostazione del progetto
 Prima di immergerci nel codice, assicuriamoci di avere la configurazione necessaria:
 
-1. Scarica Aspose.Slides per Java: se non lo hai già fatto, scarica e includi la libreria Aspose.Slides per Java nel tuo progetto.
+1. Scarica Aspose.Slides per Java: se non l'hai ancora fatto, scarica e includi la libreria Aspose.Slides per Java nel tuo progetto.
 
-2. Crea un progetto Java: configura un progetto Java nel tuo IDE preferito e assicurati di avere una cartella "lib" in cui puoi posizionare il file JAR Aspose.Slides.
+2. Crea un progetto Java: imposta un progetto Java nel tuo IDE preferito e assicurati di avere una cartella "lib" in cui puoi posizionare il file JAR Aspose.Slides.
 
-3. Importa classi richieste: importa le classi necessarie all'inizio del tuo file Java:
+3. Importa le classi richieste: importa le classi necessarie all'inizio del tuo file Java:
 
 ```java
 import com.aspose.slides.EmbedAllFontsHtmlController;
@@ -35,19 +37,19 @@ import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 ```
 
-## Passaggio 2: conversione della presentazione in HTML con caratteri originali
+## Passaggio 2: conversione della presentazione in HTML con i caratteri originali
 
-Ora convertiamo una presentazione PowerPoint in HTML preservando i caratteri originali:
+Ora convertiamo una presentazione PowerPoint in HTML mantenendo i font originali:
 
 ```java
-// Il percorso della directory dei documenti.
+// Percorso verso la directory dei documenti.
 String dataDir = "Your Document Directory";
 
 // Carica la presentazione
 Presentation pres = new Presentation("input.pptx");
 
 try {
-    // Escludi i caratteri di presentazione predefiniti come Calibri e Arial
+    // Escludi i font di presentazione predefiniti come Calibri e Arial
     String[] fontNameExcludeList = {"Calibri", "Arial"};
     EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
     
@@ -58,32 +60,32 @@ try {
     // Salva la presentazione come HTML
     pres.save("output.html", SaveFormat.Html, htmlOptionsEmbed);
 } finally {
-    // Smaltire l'oggetto della presentazione
+    // Eliminare l'oggetto di presentazione
     if (pres != null) pres.dispose();
 }
 ```
 
 In questo frammento di codice:
 
--  Carichiamo la presentazione PowerPoint di input utilizzando`Presentation`.
+- Carichiamo la presentazione PowerPoint in input utilizzando `Presentation`.
 
-- Definiamo un elenco di caratteri (`fontNameExcludeList`che vogliamo escludere dall'incorporamento nell'HTML. Ciò è utile per escludere caratteri comuni come Calibri e Arial per ridurre le dimensioni del file.
+- Definiamo un elenco di font (`fontNameExcludeList`) che vogliamo escludere dall'incorporamento nell'HTML. Questo è utile per escludere font comuni come Calibri e Arial e ridurre le dimensioni del file.
 
--  Creiamo un'istanza di`EmbedAllFontsHtmlController` e passargli l'elenco di esclusione dei caratteri.
+- Creiamo un'istanza di `EmbedAllFontsHtmlController` e passargli l'elenco di esclusione dei font.
 
--  Noi creiamo`HtmlOptions` e impostare un formattatore HTML personalizzato utilizzando`HtmlFormatter.createCustomFormatter(embedFontsController)`.
+- Noi creiamo `HtmlOptions` e imposta un formattatore HTML personalizzato utilizzando `HtmlFormatter.createCustomFormatter(embedFontsController)`.
 
-- Infine, salviamo la presentazione come HTML con le opzioni specificate.
+- Infine, salviamo la presentazione in formato HTML con le opzioni specificate.
 
-## Codice sorgente completo per convertire la presentazione in HTML preservando i caratteri originali nelle diapositive Java
+## Codice sorgente completo per convertire la presentazione in HTML mantenendo i caratteri originali nelle diapositive Java
 
 ```java
-// Il percorso della directory dei documenti.
+// Percorso verso la directory dei documenti.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation("input.pptx");
 try
 {
-	// escludere i caratteri di presentazione predefiniti
+	// escludi i font di presentazione predefiniti
 	String[] fontNameExcludeList = {"Calibri", "Arial"};
 	EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
 	HtmlOptions htmlOptionsEmbed = new HtmlOptions();
@@ -98,28 +100,30 @@ finally
 
 ## Conclusione
 
-In questo tutorial hai imparato come convertire una presentazione PowerPoint in HTML preservando i caratteri originali utilizzando Aspose.Slides per Java. Ciò è utile quando desideri mantenere la fedeltà visiva delle tue presentazioni quando le condividi sul web.
+In questo tutorial, hai imparato come convertire una presentazione PowerPoint in HTML mantenendo i font originali utilizzando Aspose.Slides per Java. Questo è utile quando vuoi mantenere la fedeltà visiva delle tue presentazioni quando le condividi sul web.
 
 ## Domande frequenti
 
 ### Come posso scaricare Aspose.Slides per Java?
 
- È possibile scaricare Aspose.Slides per Java dal sito Web Aspose. Visita[Qui](https://downloads.aspose.com/slides/java/) per ottenere la versione più recente.
+Puoi scaricare Aspose.Slides per Java dal sito web di Aspose. Visita [Qui](https://downloads.aspose.com/slides/java/) per ottenere la versione più recente.
 
-### Posso personalizzare l'elenco dei caratteri esclusi?
+### Posso personalizzare l'elenco dei font esclusi?
 
- Sì, puoi personalizzare il file`fontNameExcludeList` array per includere o escludere caratteri specifici in base alle proprie esigenze.
+Sì, puoi personalizzare il `fontNameExcludeList` array per includere o escludere specifici font in base alle tue esigenze.
 
-### Questo metodo funziona con i formati PowerPoint meno recenti come PPT?
+### Questo metodo funziona anche per i vecchi formati di PowerPoint, come PPT?
 
-Questo esempio di codice è progettato per i file PPTX. Se devi convertire file PPT più vecchi, potrebbe essere necessario apportare modifiche al codice.
+Questo esempio di codice è progettato per file PPTX. Se è necessario convertire file PPT più vecchi, potrebbe essere necessario apportare modifiche al codice.
 
 ### Come posso personalizzare ulteriormente l'output HTML?
 
- Puoi esplorare il`HtmlOptions` classe per personalizzare vari aspetti dell'output HTML, come dimensioni della diapositiva, qualità dell'immagine e altro.
+Puoi esplorare il `HtmlOptions` classe per personalizzare vari aspetti dell'output HTML, come le dimensioni della diapositiva, la qualità dell'immagine e altro ancora.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

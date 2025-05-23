@@ -1,32 +1,34 @@
 ---
-title: Java Slaytlarındaki Harita Grafiği
-linktitle: Java Slaytlarındaki Harita Grafiği
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides for Java ile PowerPoint Sunumlarında Çarpıcı Harita Grafikleri oluşturun. Java geliştiricileri için adım adım kılavuz ve kaynak kodu.
-weight: 15
-url: /tr/java/chart-elements/map-chart-java-slides/
+"description": "Aspose.Slides for Java ile PowerPoint Sunumlarınızda Çarpıcı Harita Grafikleri Oluşturun. Java geliştiricileri için adım adım kılavuz ve kaynak kodu."
+"linktitle": "Java Slaytlarında Harita Grafiği"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java Slaytlarında Harita Grafiği"
+"url": "/tr/java/chart-elements/map-chart-java-slides/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java Slaytlarındaki Harita Grafiği
+# Java Slaytlarında Harita Grafiği
 
 
-## Aspose.Slides for Java kullanarak Java Slaytlarındaki Harita Grafiğine Giriş
+## Java Slaytlarında Harita Grafiğine Giriş Aspose.Slides for Java kullanarak
 
-Bu eğitimde, Aspose.Slides for Java'yı kullanarak PowerPoint sunumunda Harita Grafiği oluşturma sürecinde size rehberlik edeceğiz. Harita grafikleri, sunumlarınızda coğrafi verileri görselleştirmenin harika bir yoludur.
+Bu eğitimde, Aspose.Slides for Java kullanarak bir PowerPoint sunumunda Harita Grafiği oluşturma sürecinde size rehberlik edeceğiz. Harita grafikleri, sunumlarınızdaki coğrafi verileri görselleştirmenin harika bir yoludur.
 
-## Önkoşullar
+## Ön koşullar
 
- Başlamadan önce Aspose.Slides for Java kütüphanesinin Java projenize entegre olduğundan emin olun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/java/).
+Başlamadan önce, Java projenize Aspose.Slides for Java kütüphanesinin entegre olduğundan emin olun. Bunu şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/slides/java/).
 
-## 1. Adım: Projenizi Kurun
+## Adım 1: Projenizi Kurun
 
 Java projenizi kurduğunuzdan ve Aspose.Slides for Java kütüphanesini projenizin sınıf yoluna eklediğinizden emin olun.
 
-## 2. Adım: PowerPoint Sunusu Oluşturun
+## Adım 2: Bir PowerPoint Sunumu Oluşturun
 
 Öncelikle yeni bir PowerPoint sunumu oluşturalım.
 
@@ -35,7 +37,7 @@ String resultPath = "MapChart_out.pptx";
 Presentation presentation = new Presentation();
 ```
 
-## 3. Adım: Harita Grafiği Ekleme
+## Adım 3: Harita Grafiği Ekleyin
 
 Şimdi sunuma bir harita grafiği ekleyeceğiz.
 
@@ -44,9 +46,9 @@ IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartTy
 IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
 ```
 
-## 4. Adım: Harita Grafiğine Veri Ekleme
+## Adım 4: Harita Grafiğine Veri Ekleme
 
-Harita grafiğine bazı veriler ekleyelim. Bir seri oluşturacağız ve ona veri noktaları ekleyeceğiz.
+Harita grafiğine biraz veri ekleyelim. Bir seri oluşturacağız ve ona veri noktaları ekleyeceğiz.
 
 ```java
 IChartSeries series = chart.getChartData().getSeries().add(ChartType.Map);
@@ -55,7 +57,7 @@ series.getDataPoints().addDataPointForMapSeries(wb.getCell(0, "B3", 1));
 series.getDataPoints().addDataPointForMapSeries(wb.getCell(0, "B4", 10));
 ```
 
-## Adım 5: Kategori Ekle
+## Adım 5: Kategorileri ekleyin
 
 Harita grafiğine farklı coğrafi bölgeleri temsil eden kategoriler eklememiz gerekiyor.
 
@@ -67,7 +69,7 @@ chart.getChartData().getCategories().add(wb.getCell(0, "A4", "Brazil"));
 
 ## Adım 6: Veri Noktalarını Özelleştirin
 
-Bireysel veri noktalarını özelleştirebilirsiniz. Bu örnekte belirli bir veri noktasının rengini ve değerini değiştiriyoruz.
+Bireysel veri noktalarını özelleştirebilirsiniz. Bu örnekte, belirli bir veri noktasının rengini ve değerini değiştiriyoruz.
 
 ```java
 IChartDataPoint dataPoint = series.getDataPoints().get_Item(1);
@@ -76,17 +78,17 @@ dataPoint.getFormat().getFill().setFillType(FillType.Solid);
 dataPoint.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 ```
 
-## Adım 7: Sunuyu Kaydet
+## Adım 7: Sunumu Kaydedin
 
-Son olarak sunumu harita grafiğiyle kaydedin.
+Son olarak sunumu harita çizelgesiyle birlikte kaydedin.
 
 ```java
 presentation.save(resultPath, SaveFormat.Pptx);
 ```
 
-Bu kadar! Aspose.Slides for Java'yı kullanarak PowerPoint sunumunda bir harita grafiği oluşturdunuz. Sunumlarınızı geliştirmek için grafiği daha da özelleştirebilir ve Aspose.Slides tarafından sunulan diğer özellikleri keşfedebilirsiniz.
+İşte bu kadar! Aspose.Slides for Java kullanarak bir PowerPoint sunumunda bir harita grafiği oluşturdunuz. Grafiği daha da özelleştirebilir ve sunumlarınızı geliştirmek için Aspose.Slides tarafından sunulan diğer özellikleri keşfedebilirsiniz.
 
-## Java Slaytlarındaki Harita Grafiği İçin Kaynak Kodunu Tamamlayın
+## Java Slaytlarında Harita Grafiği İçin Tam Kaynak Kodu
 
 ```java
 String resultPath = "Your Output Directory" +  "MapChart_out.pptx";
@@ -107,7 +109,7 @@ try {
 	//veri noktası değerini değiştir
 	IChartDataPoint dataPoint = series.getDataPoints().get_Item(1);
 	dataPoint.getColorValue().getAsCell().setValue("15");
-	//veri noktası görünümünü ayarlama
+	//veri noktası görünümünü ayarla
 	dataPoint.getFormat().getFill().setFillType(FillType.Solid);
 	dataPoint.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 	presentation.save(resultPath, SaveFormat.Pptx);
@@ -118,28 +120,30 @@ try {
 
 ## Çözüm
 
-Bu eğitimde Aspose.Slides for Java'yı kullanarak PowerPoint sunumunda Harita Grafiği oluşturma sürecini anlattık. Harita grafikleri coğrafi verileri görselleştirmenin etkili bir yoludur ve sunumlarınızı daha ilgi çekici ve bilgilendirici hale getirir. Temel adımları özetleyelim:
+Bu eğitimde, Aspose.Slides for Java kullanarak bir PowerPoint sunumunda Harita Grafiği oluşturma sürecini ele aldık. Harita grafikleri coğrafi verileri görselleştirmenin etkili bir yoludur ve sunumlarınızı daha ilgi çekici ve bilgilendirici hale getirir. Temel adımları özetleyelim:
 
-## SSS'ler
+## SSS
 
 ### Harita grafik türünü nasıl değiştirebilirim?
 
- Grafik türünü değiştirerek değiştirebilirsiniz.`ChartType.Map` 3. Adımda grafiği oluştururken istenen grafik türüyle.
+Grafik türünü değiştirerek değiştirebilirsiniz. `ChartType.Map` Adım 3'te grafik oluştururken istenilen grafik türüyle.
 
 ### Harita grafiğinin görünümünü nasıl özelleştirebilirim?
 
- Grafiğin özelliklerini değiştirerek grafiğin görünümünü özelleştirebilirsiniz.`dataPoint` 6. Adımda nesneyi seçin. Renkleri, değerleri ve daha fazlasını değiştirebilirsiniz.
+Grafiğin görünümünü, özelliklerini değiştirerek özelleştirebilirsiniz. `dataPoint` Adım 6'daki nesne. Renkleri, değerleri ve daha fazlasını değiştirebilirsiniz.
 
 ### Daha fazla veri noktası ve kategori ekleyebilir miyim?
 
- Evet, gerektiği kadar veri noktası ve kategori ekleyebilirsiniz. Basitçe kullanın`series.getDataPoints().addDataPointForMapSeries()` Ve`chart.getChartData().getCategories().add()` bunları ekleme yöntemleri.
+Evet, ihtiyaç duyduğunuz kadar veri noktası ve kategori ekleyebilirsiniz. Basitçe şunu kullanın: `series.getDataPoints().addDataPointForMapSeries()` Ve `chart.getChartData().getCategories().add()` bunları eklemenin yöntemleri.
 
 ### Aspose.Slides for Java'yı projeme nasıl entegre edebilirim?
 
- Kütüphaneyi şuradan indirin:[Burada](https://releases.aspose.com/slides/java/) ve bunu projenizin sınıf yoluna ekleyin.
+Kütüphaneyi şu adresten indirin: [Burada](https://releases.aspose.com/slides/java/) ve bunu projenizin sınıf yoluna ekleyin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

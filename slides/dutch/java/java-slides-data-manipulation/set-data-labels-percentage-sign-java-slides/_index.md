@@ -1,35 +1,37 @@
 ---
-title: Gegevenslabels instellen Percentage Aanmelden in Java-dia's
-linktitle: Gegevenslabels instellen Percentage Aanmelden in Java-dia's
-second_title: Aspose.Slides Java PowerPoint-verwerkings-API
-description: Leer hoe u gegevenslabels met procenttekens instelt in PowerPoint-presentaties met Aspose.Slides voor Java. Maak boeiende grafieken met stapsgewijze begeleiding en broncode.
-weight: 17
-url: /nl/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
+"description": "Leer hoe u gegevenslabels met procenttekens instelt in PowerPoint-presentaties met Aspose.Slides voor Java. Maak boeiende grafieken met stapsgewijze instructies en broncode."
+"linktitle": "Gegevenslabels instellen Percentageteken in Java-dia's"
+"second_title": "Aspose.Slides Java PowerPoint-verwerkings-API"
+"title": "Gegevenslabels instellen Percentageteken in Java-dia's"
+"url": "/nl/java/data-manipulation/set-data-labels-percentage-sign-java-slides/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Gegevenslabels instellen Percentage Aanmelden in Java-dia's
+# Gegevenslabels instellen Percentageteken in Java-dia's
 
 
-## Inleiding tot het instellen van gegevenslabels Percentage-aanmelding in Aspose.Slides voor Java
+## Inleiding tot het instellen van gegevenslabels met percentagetekens in Aspose.Slides voor Java
 
-In deze handleiding begeleiden we u door het proces van het instellen van gegevenslabels met een percentageteken met behulp van Aspose.Slides voor Java. We gaan een PowerPoint-presentatie maken met een gestapeld kolomdiagram en gegevenslabels configureren om percentages weer te geven.
+In deze handleiding leiden we je door het proces van het instellen van gegevenslabels met een percentageteken met behulp van Aspose.Slides voor Java. We maken een PowerPoint-presentatie met een gestapelde kolomgrafiek en configureren gegevenslabels om percentages weer te geven.
 
 ## Vereisten
 
- Voordat u begint, moet u ervoor zorgen dat de Aspose.Slides voor Java-bibliotheek aan uw project is toegevoegd. Je kunt het downloaden van[hier](https://releases.aspose.com/slides/java/).
+Voordat u begint, moet u ervoor zorgen dat u de Aspose.Slides voor Java-bibliotheek aan uw project hebt toegevoegd. U kunt deze downloaden van [hier](https://releases.aspose.com/slides/java/).
 
-## Stap 1: Maak een nieuwe presentatie
+## Stap 1: Een nieuwe presentatie maken
 
-Eerst maken we een nieuwe PowerPoint-presentatie met Aspose.Slides.
+Eerst maken we een nieuwe PowerPoint-presentatie met behulp van Aspose.Slides.
 
 ```java
 // Het pad naar de documentenmap.
 String dataDir = "Your Document Directory";
-// Maak een exemplaar van de presentatieklasse
+// Een exemplaar van de presentatieklasse maken
 Presentation presentation = new Presentation();
 ```
 
@@ -38,16 +40,16 @@ Presentation presentation = new Presentation();
 Vervolgens voegen we een dia en een gestapeld kolomdiagram toe aan de presentatie.
 
 ```java
-// Referentie van de dia opvragen
+// Verkrijg een referentie van de dia
 ISlide slide = presentation.getSlides().get_Item(0);
 
-// Voeg PercentsStackedColumn-diagram toe aan een dia
+// PercentsStackedColumn-diagram toevoegen aan een dia
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
 ```
 
-## Stap 3: Configureer het asnummerformaat
+## Stap 3: Asnummerformaat configureren
 
-Om percentages weer te geven, moeten we de getalnotatie voor de verticale as van het diagram configureren.
+Om percentages weer te geven, moeten we de getalnotatie voor de verticale as van de grafiek configureren.
 
 ```java
 // Stel NumberFormatLinkedToSource in op false
@@ -55,12 +57,12 @@ chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 ```
 
-## Stap 4: Voeg grafiekgegevens toe
+## Stap 4: Grafiekgegevens toevoegen
 
-We voegen gegevens aan het diagram toe door reeksen en gegevenspunten te maken. In dit voorbeeld voegen we twee reeksen toe met hun respectievelijke gegevenspunten.
+We voegen gegevens toe aan de grafiek door reeksen en datapunten te creëren. In dit voorbeeld voegen we twee reeksen toe met hun bijbehorende datapunten.
 
 ```java
-// Het werkblad met diagramgegevens ophalen
+// Het werkblad met grafiekgegevens ophalen
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // Nieuwe serie toevoegen
@@ -109,25 +111,25 @@ Ten slotte slaan we de presentatie op in een PowerPoint-bestand.
 presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.Pptx);
 ```
 
-Dat is het! U hebt met succes een PowerPoint-presentatie gemaakt met een gestapeld kolomdiagram en gegevenslabels geconfigureerd om percentages weer te geven met behulp van Aspose.Slides voor Java.
+Dat is alles! U hebt met succes een PowerPoint-presentatie gemaakt met een gestapelde kolomgrafiek en geconfigureerde gegevenslabels om percentages weer te geven met behulp van Aspose.Slides voor Java.
 
-## Volledige broncode voor ingestelde gegevenslabels Percentage aanmelden in Java-dia's
+## Volledige broncode voor het instellen van gegevenslabels met percentagetekens in Java-dia's
 
 ```java
 // Het pad naar de documentenmap.
 String dataDir = "Your Document Directory";
-// Maak een exemplaar van de presentatieklasse
+// Een exemplaar van de presentatieklasse maken
 Presentation presentation = new Presentation();
-// Referentie van de dia opvragen
+// Verkrijg een referentie van de dia
 ISlide slide = presentation.getSlides().get_Item(0);
-// Voeg PercentsStackedColumn-diagram toe aan een dia
+// PercentsStackedColumn-diagram toevoegen aan een dia
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
 // Stel NumberFormatLinkedToSource in op false
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
 int defaultWorksheetIndex = 0;
-// Het werkblad met diagramgegevens ophalen
+// Het werkblad met grafiekgegevens ophalen
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 // Nieuwe serie toevoegen
 IChartSeries series = chart.getChartData().getSeries().add(workbook.getCell(defaultWorksheetIndex, 0, 1, "Reds"), chart.getType());
@@ -135,7 +137,7 @@ series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorkshee
 series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 2, 1, 0.50));
 series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 3, 1, 0.80));
 series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 4, 1, 0.65));
-// De vulkleur van series instellen
+// De vulkleur van een reeks instellen
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 // LabelFormat-eigenschappen instellen
@@ -167,25 +169,27 @@ presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.P
 
 ## Conclusie
 
-Door deze handleiding te volgen, heeft u geleerd hoe u boeiende presentaties kunt maken met op percentages gebaseerde gegevenslabels, wat vooral handig kan zijn voor het effectief overbrengen van informatie in bedrijfsrapporten, educatief materiaal en meer.
+Met behulp van deze handleiding hebt u geleerd hoe u aantrekkelijke presentaties kunt maken met op percentages gebaseerde gegevenslabels. Deze presentaties zijn vooral handig om informatie op een effectieve manier over te brengen in bedrijfsrapporten, educatieve materialen en meer.
 
 ## Veelgestelde vragen
 
-### Hoe kan ik de kleuren van de kaartenserie wijzigen?
+### Hoe kan ik de kleuren van de grafiekserie wijzigen?
 
- U kunt de vulkleur van diagramreeksen wijzigen met behulp van de`setFill` methode zoals weergegeven in het voorbeeld.
+U kunt de vulkleur van diagramreeksen wijzigen met behulp van de `setFill` methode zoals getoond in het voorbeeld.
 
 ### Kan ik de lettergrootte van de gegevenslabels aanpassen?
 
-Ja, u kunt de lettergrootte van gegevenslabels aanpassen door de`setFontHeight` eigenschap zoals gedemonstreerd in de code.
+Ja, u kunt de lettergrootte van gegevenslabels aanpassen door de `setFontHeight` eigenschap zoals gedemonstreerd in de code.
 
-### Hoe kan ik meer series aan het diagram toevoegen?
+### Hoe kan ik meer series aan de grafiek toevoegen?
 
- U kunt extra reeksen aan het diagram toevoegen met behulp van de`add` methode op de`IChartSeriesCollection` voorwerp.
+U kunt extra series aan de grafiek toevoegen met behulp van de `add` methode op de `IChartSeriesCollection` voorwerp.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

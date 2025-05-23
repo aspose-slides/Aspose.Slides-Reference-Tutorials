@@ -1,84 +1,88 @@
 ---
-title: Java kullanarak SmartArt'ta Belirli Konumdaki Düğümleri Ekleme
-linktitle: Java kullanarak SmartArt'ta Belirli Konumdaki Düğümleri Ekleme
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides ile Java kullanarak SmartArt'ta belirli konumlara nasıl düğüm ekleyeceğinizi keşfedin. Zahmetsizce dinamik sunumlar oluşturun.
-weight: 16
-url: /tr/java/java-powerpoint-smartart-manipulation/add-nodes-specific-position-smartart-java/
+"description": "Java ile Aspose.Slides kullanarak SmartArt'ta belirli konumlara düğümlerin nasıl ekleneceğini keşfedin. Zahmetsizce dinamik sunumlar oluşturun."
+"linktitle": "Java kullanarak SmartArt'ta Belirli Bir Konuma Düğümler Ekleyin"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java kullanarak SmartArt'ta Belirli Bir Konuma Düğümler Ekleyin"
+"url": "/tr/java/java-powerpoint-smartart-manipulation/add-nodes-specific-position-smartart-java/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java kullanarak SmartArt'ta Belirli Konumdaki Düğümleri Ekleme
+# Java kullanarak SmartArt'ta Belirli Bir Konuma Düğümler Ekleyin
 
 ## giriiş
-Bu eğitimde, Aspose.Slides ile Java kullanarak SmartArt'ta belirli konumlara düğüm ekleme sürecinde size rehberlik edeceğiz. SmartArt, PowerPoint'te görsel olarak çekici diyagramlar ve grafikler oluşturmanıza olanak tanıyan bir özelliktir.
-## Önkoşullar
+Bu eğitimde, Java ile Aspose.Slides kullanarak SmartArt'ta belirli konumlara düğüm ekleme sürecinde size rehberlik edeceğiz. SmartArt, PowerPoint'te görsel olarak çekici diyagramlar ve grafikler oluşturmanıza olanak tanıyan bir özelliktir.
+## Ön koşullar
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
-1. Sisteminizde Java Geliştirme Kiti (JDK) yüklü.
-2.  Aspose.Slides for Java kütüphanesi indirildi. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/java/).
-3. Java programlama dili hakkında temel bilgiler.
+1. Sisteminizde Java Development Kit (JDK) yüklü.
+2. Java kütüphanesi için Aspose.Slides indirildi. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/slides/java/).
+3. Java programlama dilinin temel bilgisi.
 
 ## Paketleri İçe Aktar
-Öncelikle gerekli paketleri Java kodumuza aktaralım:
+Öncelikle Java kodumuza gerekli paketleri aktaralım:
 ```java
 import com.aspose.slides.*;
 import java.io.File;
 ```
-## 1. Adım: Bir Sunum Örneği Oluşturun
-Sunum sınıfının bir örneğini oluşturarak başlayın:
+## Adım 1: Bir Sunum Örneği Oluşturun
+Presentation sınıfının bir örneğini oluşturarak başlayın:
 ```java
 Presentation pres = new Presentation();
 ```
-## Adım 2: Sunum Slaytına Erişin
+## Adım 2: Sunum Slaydına Erişim
 SmartArt'ı eklemek istediğiniz slayda erişin:
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
 ```
-## 3. Adım: SmartArt Şeklini Ekleyin
-Slayta bir SmartArt şekli ekleyin:
+## Adım 3: SmartArt Şeklini Ekle
+Slayda bir SmartArt şekli ekleyin:
 ```java
 ISmartArt smart = slide.getShapes().addSmartArt(0, 0, 400, 400, SmartArtLayoutType.StackedList);
 ```
-## Adım 4: SmartArt Node'a erişin
-İstediğiniz dizindeki SmartArt düğümüne erişin:
+## Adım 4: SmartArt Düğümüne Erişim
+İstenilen dizindeki SmartArt düğümüne erişin:
 ```java
 ISmartArtNode node = smart.getAllNodes().get_Item(0);
 ```
-## Adım 5: Belirli Bir Konuma Alt Düğüm Ekleme
-Ana düğümdeki belirli bir konuma yeni bir alt düğüm ekleyin:
+## Adım 5: Belirli Bir Konuma Alt Düğüm Ekleyin
+Üst düğümdeki belirli bir konuma yeni bir alt düğüm ekleyin:
 ```java
 SmartArtNode chNode = (SmartArtNode) ((SmartArtNodeCollection) node.getChildNodes()).addNodeByPosition(2);
 ```
-## Adım 6: Düğüme Metin Ekleme
-Yeni eklenen düğümün metnini ayarlayın:
+## Adım 6: Düğüme Metin Ekleyin
+Yeni eklenen düğüm için metni ayarlayın:
 ```java
 chNode.getTextFrame().setText("Sample Text Added");
 ```
-## Adım 7: Sunuyu Kaydet
+## Adım 7: Sunumu Kaydedin
 Değiştirilen sunumu kaydedin:
 ```java
 pres.save(dataDir + "AddSmartArtNodeByPosition_out.pptx", SaveFormat.Pptx);
 ```
 
 ## Çözüm
-Bu eğitimde Aspose.Slides ile Java kullanarak SmartArt'ta belirli konumlara nasıl düğüm ekleyeceğinizi öğrendiniz. Bu adımları izleyerek, dinamik sunumlar oluşturmak için SmartArt şekillerini programlı olarak değiştirebilirsiniz.
-## SSS'ler
-### Aynı anda birden fazla düğüm ekleyebilir miyim?
-Evet, istediğiniz konumları yineleyerek programlı olarak birden fazla düğüm ekleyebilirsiniz.
-### Aspose.Slides PowerPoint'in tüm sürümleriyle uyumlu mu?
-Aspose.Slides çeşitli PowerPoint formatlarını destekleyerek çoğu sürümle uyumluluk sağlar.
+Bu eğitimde, Java ile Aspose.Slides kullanarak SmartArt'ta belirli konumlara düğüm eklemeyi öğrendiniz. Bu adımları izleyerek, dinamik sunumlar oluşturmak için SmartArt şekillerini programatik olarak düzenleyebilirsiniz.
+## SSS
+### Aynı anda birden fazla node ekleyebilir miyim?
+Evet, istediğiniz konumlar üzerinde yineleme yaparak birden fazla düğümü programlı olarak ekleyebilirsiniz.
+### Aspose.Slides PowerPoint'in tüm sürümleriyle uyumlu mudur?
+Aspose.Slides birçok PowerPoint formatını destekleyerek çoğu sürümle uyumluluğu garanti eder.
 ### SmartArt düğümlerinin görünümünü özelleştirebilir miyim?
-Evet, düğümlerin görünümünü, boyutları, renkleri ve stilleri de dahil olmak üzere özelleştirebilirsiniz.
-### Aspose.Slides diğer programlama dilleri için destek sunuyor mu?
-Evet, Aspose.Slides, .NET ve Python da dahil olmak üzere birçok programlama dili için kütüphaneler sağlar.
-### Aspose.Slides'ın deneme sürümü mevcut mu?
- Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
+Evet, düğümlerin boyutunu, rengini ve stilini de içeren görünümünü özelleştirebilirsiniz.
+### Aspose.Slides diğer programlama dillerini destekliyor mu?
+Evet, Aspose.Slides .NET ve Python da dahil olmak üzere birden fazla programlama dili için kütüphaneler sağlar.
+### Aspose.Slides için deneme sürümü mevcut mu?
+Evet, ücretsiz deneme sürümünü şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

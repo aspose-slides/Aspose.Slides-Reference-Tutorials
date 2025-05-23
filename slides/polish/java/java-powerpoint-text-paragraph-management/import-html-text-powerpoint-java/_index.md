@@ -1,25 +1,27 @@
 ---
-title: Importuj tekst HTML w programie PowerPoint przy użyciu języka Java
-linktitle: Importuj tekst HTML w programie PowerPoint przy użyciu języka Java
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Dowiedz się, jak importować tekst HTML do slajdów programu PowerPoint przy użyciu języka Java z Aspose.Slides w celu zapewnienia bezproblemowej integracji. Idealny dla programistów poszukujących zarządzania dokumentami.
-weight: 10
-url: /pl/java/java-powerpoint-text-paragraph-management/import-html-text-powerpoint-java/
+"description": "Dowiedz się, jak importować tekst HTML do slajdów programu PowerPoint za pomocą języka Java z Aspose.Slides, aby zapewnić bezproblemową integrację. Idealne dla programistów poszukujących zarządzania dokumentami."
+"linktitle": "Importuj tekst HTML do programu PowerPoint za pomocą języka Java"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Importuj tekst HTML do programu PowerPoint za pomocą języka Java"
+"url": "/pl/java/java-powerpoint-text-paragraph-management/import-html-text-powerpoint-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Importuj tekst HTML w programie PowerPoint przy użyciu języka Java
+# Importuj tekst HTML do programu PowerPoint za pomocą języka Java
 
 ## Wstęp
-W tym samouczku dowiesz się, jak importować tekst HTML do prezentacji programu PowerPoint przy użyciu języka Java za pomocą Aspose.Slides. Ten przewodnik krok po kroku przeprowadzi Cię przez proces od importowania niezbędnych pakietów po zapisanie pliku PowerPoint.
-## Warunki wstępne
-Zanim zaczniesz, upewnij się, że masz następujące wymagania wstępne:
-- Podstawowa znajomość programowania w języku Java.
-- JDK (Java Development Kit) zainstalowany w twoim systemie.
--  Aspose.Slides dla biblioteki Java. Możesz go pobrać[Tutaj](https://releases.aspose.com/slides/java/).
+tym samouczku dowiesz się, jak importować tekst HTML do prezentacji PowerPoint za pomocą Javy z pomocą Aspose.Slides. Ten przewodnik krok po kroku przeprowadzi Cię przez proces od importowania niezbędnych pakietów do zapisywania pliku PowerPoint.
+## Wymagania wstępne
+Zanim zaczniesz, upewnij się, że spełniasz następujące wymagania wstępne:
+- Podstawowa znajomość programowania w Javie.
+- JDK (Java Development Kit) zainstalowany w Twoim systemie.
+- Biblioteka Aspose.Slides dla Java. Możesz ją pobrać [Tutaj](https://releases.aspose.com/slides/java/).
 
 ## Importuj pakiety
 Najpierw zaimportuj niezbędne pakiety z Aspose.Slides i standardowych bibliotek Java:
@@ -30,7 +32,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 ```
 ## Krok 1: Skonfiguruj swoje środowisko
-Upewnij się, że masz skonfigurowany projekt Java z Aspose.Slides for Java zawartym w ścieżce kompilacji.
+Upewnij się, że w ścieżce kompilacji skonfigurowano projekt Java z dołączoną biblioteką Aspose.Slides for Java.
 ## Krok 2: Zainicjuj obiekt prezentacji
 Utwórz pustą prezentację programu PowerPoint (`Presentation` obiekt):
 ```java
@@ -38,7 +40,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 ```
 ## Krok 3: Uzyskaj dostęp do slajdu i dodaj autokształt
-Uzyskaj dostęp do domyślnego pierwszego slajdu prezentacji i dodaj autokształt, aby uwzględnić zawartość HTML:
+Uzyskaj dostęp do pierwszego domyślnego slajdu prezentacji i dodaj Autokształt, aby dostosować go do zawartości HTML:
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
 IAutoShape ashape = slide.getShapes().addAutoShape(ShapeType.Rectangle, 10, 10, (float) pres.getSlideSize().getSize().getWidth() - 20, (float) pres.getSlideSize().getSize().getHeight() - 10);
@@ -62,21 +64,23 @@ pres.save(dataDir + "output_out.pptx", SaveFormat.Pptx);
 ```
 
 ## Wniosek
-Gratulacje! Pomyślnie zaimportowałeś tekst HTML do prezentacji programu PowerPoint przy użyciu języka Java z Aspose.Slides. Proces ten pozwala dynamicznie dołączać sformatowaną treść z plików HTML bezpośrednio do slajdów, zwiększając elastyczność i możliwości prezentacji aplikacji.
-## Często zadawane pytania
-### Czy przy użyciu tej metody mogę importować kod HTML z obrazami?
-Tak, Aspose.Slides obsługuje importowanie treści HTML z obrazami do prezentacji PowerPoint.
-### Jakie wersje programu PowerPoint są obsługiwane przez Aspose.Slides dla Java?
+Gratulacje! Udało Ci się zaimportować tekst HTML do prezentacji PowerPoint przy użyciu Java z Aspose.Slides. Ten proces pozwala Ci dynamicznie dołączać sformatowaną zawartość z plików HTML bezpośrednio do slajdów, zwiększając elastyczność i możliwości prezentacji Twoich aplikacji.
+## Najczęściej zadawane pytania
+### Czy mogę importować pliki HTML z obrazami za pomocą tej metody?
+Tak, Aspose.Slides obsługuje importowanie zawartości HTML z obrazami do prezentacji PowerPoint.
+### Jakie wersje programu PowerPoint są obsługiwane przez Aspose.Slides for Java?
 Aspose.Slides for Java obsługuje formaty PowerPoint 97-2016 i PowerPoint dla Office 365.
-### Jak radzić sobie ze złożonym formatowaniem HTML podczas importu?
-Aspose.Slides automatycznie obsługuje większość formatowania HTML, w tym style tekstu i podstawowe układy.
+### Jak poradzić sobie ze skomplikowanym formatowaniem HTML podczas importowania?
+Aspose.Slides automatycznie obsługuje większość formatowań HTML, w tym style tekstu i podstawowe układy.
 ### Czy Aspose.Slides nadaje się do przetwarzania wsadowego plików PowerPoint na dużą skalę?
-Tak, Aspose.Slides zapewnia interfejsy API do wydajnego przetwarzania wsadowego plików PowerPoint w Javie.
-### Gdzie mogę znaleźć więcej przykładów i wsparcia dla Aspose.Slides?
- Odwiedzić[Dokumentacja Aspose.Slides](https://reference.aspose.com/slides/java/) I[forum wsparcia](https://forum.aspose.com/c/slides/11) szczegółowe przykłady i pomoc.
+Tak, Aspose.Slides udostępnia interfejsy API umożliwiające wydajne przetwarzanie wsadowe plików PowerPoint w języku Java.
+### Gdzie mogę znaleźć więcej przykładów i pomoc dotyczącą Aspose.Slides?
+Odwiedź [Dokumentacja Aspose.Slides](https://reference.aspose.com/slides/java/) I [forum wsparcia](https://forum.aspose.com/c/slides/11) aby uzyskać szczegółowe przykłady i pomoc.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

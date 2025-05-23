@@ -1,27 +1,29 @@
 ---
-title: जावा के साथ PowerPoint में बाहरी छाया लागू करें
-linktitle: जावा के साथ PowerPoint में बाहरी छाया लागू करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides के साथ Java का उपयोग करके PowerPoint में बाहरी छाया प्रभाव लागू करना सीखें। अपनी प्रस्तुतियों को गहराई और दृश्य अपील के साथ बेहतर बनाएँ।
-weight: 13
-url: /hi/java/java-powerpoint-animation-effects/apply-outer-shadow-powerpoint-java/
+"description": "Aspose.Slides के साथ Java का उपयोग करके PowerPoint में बाहरी छाया प्रभाव लागू करना सीखें। अपनी प्रस्तुतियों को गहराई और दृश्य अपील के साथ बेहतर बनाएँ।"
+"linktitle": "जावा के साथ PowerPoint में बाहरी छाया लागू करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा के साथ PowerPoint में बाहरी छाया लागू करें"
+"url": "/hi/java/java-powerpoint-animation-effects/apply-outer-shadow-powerpoint-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा के साथ PowerPoint में बाहरी छाया लागू करें
 
 ## परिचय
-दिखने में आकर्षक पावरपॉइंट प्रेजेंटेशन बनाने में अक्सर आकृतियों और टेक्स्ट में कई तरह के इफ़ेक्ट जोड़ने पड़ते हैं। ऐसा ही एक इफ़ेक्ट है बाहरी छाया, जो तत्वों को अलग दिखा सकता है और आपकी स्लाइड्स में गहराई जोड़ सकता है। इस ट्यूटोरियल में, आप सीखेंगे कि Aspose.Slides के साथ Java का उपयोग करके PowerPoint में किसी आकृति पर बाहरी छाया इफ़ेक्ट कैसे लागू करें।
+दिखने में आकर्षक पावरपॉइंट प्रेजेंटेशन बनाने में अक्सर आकृतियों और टेक्स्ट में कई तरह के प्रभाव जोड़ने पड़ते हैं। ऐसा ही एक प्रभाव बाहरी छाया है, जो तत्वों को अलग दिखा सकता है और आपकी स्लाइड में गहराई जोड़ सकता है। इस ट्यूटोरियल में, आप सीखेंगे कि Aspose.Slides के साथ Java का उपयोग करके PowerPoint में किसी आकृति पर बाहरी छाया प्रभाव कैसे लागू किया जाता है।
 ## आवश्यक शर्तें
 
 इस ट्यूटोरियल को शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
 
 1. जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपके सिस्टम पर जावा इंस्टॉल है। आप Oracle वेबसाइट से JDK का नवीनतम संस्करण डाउनलोड और इंस्टॉल कर सकते हैं।
 
-2.  Aspose.Slides for Java: Aspose.Slides for Java को डाउनलोड करें और इंस्टॉल करें[डाउनलोड पृष्ठ](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides for Java: Aspose.Slides for Java को डाउनलोड करें और इंस्टॉल करें [डाउनलोड पृष्ठ](https://releases.aspose.com/slides/java/).
 
 3. एकीकृत विकास वातावरण (IDE): कोडिंग और जावा अनुप्रयोगों को चलाने के लिए अपना पसंदीदा जावा IDE जैसे कि इक्लिप्स, इंटेलीज आईडिया, या नेटबीन्स चुनें।
 
@@ -43,7 +45,7 @@ import com.aspose.slides.*;
 
 ## चरण 2: प्रेजेंटेशन ऑब्जेक्ट को आरंभ करें
 
- इसका एक उदाहरण बनाएं`Presentation` क्लास, जो एक पावरपॉइंट प्रेजेंटेशन फ़ाइल का प्रतिनिधित्व करता है.
+इसका एक उदाहरण बनाएं `Presentation` क्लास, जो एक पावरपॉइंट प्रेजेंटेशन फ़ाइल का प्रतिनिधित्व करता है.
 
 ```java
 Presentation presentation = new Presentation();
@@ -126,10 +128,12 @@ presentation.save("output.pptx", SaveFormat.Pptx);
 हां, आप न केवल आकृतियों पर बल्कि आकृतियों के भीतर अलग-अलग पाठ भागों पर भी प्रभाव लागू कर सकते हैं, जिससे आपको अपनी स्लाइडों को डिजाइन करने में व्यापक लचीलापन मिलता है।
 
 ### मैं Aspose.Slides के लिए अधिक संसाधन और समर्थन कहां पा सकता हूं?
- आप इसका संदर्भ ले सकते हैं[प्रलेखन](https://reference.aspose.com/slides/java/) विस्तृत API संदर्भों के लिए और अन्वेषण करें[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) सामुदायिक समर्थन और चर्चा के लिए।
+आप इसका संदर्भ ले सकते हैं [प्रलेखन](https://reference.aspose.com/slides/java/) विस्तृत API संदर्भों के लिए और अन्वेषण करें [Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) सामुदायिक समर्थन और चर्चा के लिए।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

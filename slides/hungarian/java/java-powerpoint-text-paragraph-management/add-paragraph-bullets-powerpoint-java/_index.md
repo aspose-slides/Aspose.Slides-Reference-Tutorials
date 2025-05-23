@@ -1,45 +1,47 @@
 ---
-title: Bekezdésjelek hozzáadása a PowerPointban Java használatával
-linktitle: Bekezdésjelek hozzáadása a PowerPointban Java használatával
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan adhat hozzá bekezdéssorokat a PowerPoint-diákhoz az Aspose.Slides for Java segítségével. Ez az oktatóprogram lépésről lépésre végigvezeti a kódpéldákon.
-weight: 15
-url: /hu/java/java-powerpoint-text-paragraph-management/add-paragraph-bullets-powerpoint-java/
+"description": "Tanuld meg, hogyan adhatsz hozzá bekezdésjeleket PowerPoint diákhoz az Aspose.Slides for Java használatával. Ez az oktatóanyag lépésről lépésre végigvezet a folyamaton kódpéldákkal."
+"linktitle": "Bekezdésjelek hozzáadása PowerPointban Java használatával"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Bekezdésjelek hozzáadása PowerPointban Java használatával"
+"url": "/hu/java/java-powerpoint-text-paragraph-management/add-paragraph-bullets-powerpoint-java/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Bekezdésjelek hozzáadása a PowerPointban Java használatával
+# Bekezdésjelek hozzáadása PowerPointban Java használatával
 
 ## Bevezetés
-Bekezdésjelek hozzáadása javítja a PowerPoint-prezentációk olvashatóságát és szerkezetét. Az Aspose.Slides for Java robusztus eszközöket biztosít a prezentációk programozott manipulálásához, beleértve a szöveg formázásának lehetőségét különféle felsorolásjelekkel. Ebből az oktatóanyagból megtudhatja, hogyan integrálhat pontokat PowerPoint diákba Java kóddal, az Aspose.Slides segítségével.
+bekezdésjelek hozzáadása javítja a PowerPoint-bemutatók olvashatóságát és szerkezetét. Az Aspose.Slides Java-hoz készült változata robusztus eszközöket biztosít a prezentációk programozott kezeléséhez, beleértve a szöveg különböző felsorolásjelstílusokkal történő formázásának lehetőségét is. Ebben az oktatóanyagban megtanulod, hogyan integrálhatsz felsorolásjeleket a PowerPoint-diákba Java-kód használatával, kihasználva az Aspose.Slides előnyeit.
 ## Előfeltételek
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik az alábbiakkal:
+Mielőtt elkezdené, győződjön meg arról, hogy a következőkkel rendelkezik:
 - Java programozási alapismeretek.
-- JDK (Java Development Kit) telepítve van a rendszerére.
--  Aspose.Slides for Java könyvtár. Letöltheti innen[itt](https://releases.aspose.com/slides/java/).
+- JDK (Java Development Kit) telepítve a rendszeredre.
+- Aspose.Slides Java könyvtárhoz. Letöltheted innen: [itt](https://releases.aspose.com/slides/java/).
 
 ## Csomagok importálása
-A kezdéshez importálja a szükséges Aspose.Slides csomagokat a Java projektbe:
+A kezdéshez importáld a szükséges Aspose.Slides csomagokat a Java projektedbe:
 ```java
 import com.aspose.slides.*;
 import java.awt.*;
 import java.io.File;
 ```
-## 1. lépés: Állítsa be projektjét
-Először hozzon létre egy új Java-projektet, és adja hozzá az Aspose.Slides for Java könyvtárat a projekt összeállítási útvonalához.
-## 2. lépés: Inicializáljon egy prezentációt
-Egy prezentációs objektum inicializálása (`Presentation`) a diákkal való munka megkezdéséhez.
+## 1. lépés: A projekt beállítása
+Először hozz létre egy új Java projektet, és add hozzá az Aspose.Slides for Java könyvtárat a projekted építési útvonalához.
+## 2. lépés: Prezentáció inicializálása
+Prezentációs objektum inicializálása (`Presentation`) a diákkal való munka megkezdéséhez.
 ```java
 // A dokumentumok könyvtárának elérési útja.
 String dataDir = "Your Document Directory";
 // Prezentációs példány létrehozása
 Presentation pres = new Presentation();
 ```
-## 3. lépés: Nyissa meg a Dia és a szövegkeretet
-Nyissa meg a csúszdát (`ISlide`és szövegkerete (`ITextFrame`), ahol golyókat szeretne hozzáadni.
+## 3. lépés: A dia és a szövegkeret elérése
+A dia elérése (`ISlide`) és a szövegkeretét (`ITextFrame`) ahová felsorolásjeleket szeretne hozzáadni.
 ```java
 // Az első dia elérése
 ISlide slide = pres.getSlides().get_Item(0);
@@ -67,37 +69,39 @@ para2.getParagraphFormat().setIndent(25);
 txtFrm.getParagraphs().add(para2);
 ```
 ## 5. lépés: Mentse el a prezentációt
-Mentse el a módosított bemutatót egy PowerPoint fájlba (`PPTX`).
+Mentse el a módosított bemutatót egy PowerPoint-fájlba (`PPTX`).
 ```java
-// A prezentáció megírása PPTX fájlként
+// Prezentáció írása PPTX fájlként
 pres.save(dataDir + "Bullet_out.pptx", SaveFormat.Pptx);
 ```
-## 6. lépés: Tisztítsa meg az erőforrásokat
-Az erőforrások felszabadításához dobja el a bemutató objektumot.
+## 6. lépés: Erőforrások tisztítása
+Erőforrások felszabadításához dobja ki a prezentációs objektumot.
 ```java
-// Dobja el a bemutató objektumot
+// A prezentációs objektum eltávolítása
 if (pres != null) {
     pres.dispose();
 }
 ```
 
 ## Következtetés
-Bekezdésjelek hozzáadása a PowerPointban az Aspose.Slides for Java használatával egyszerű a mellékelt kódpéldák segítségével. A felsorolásjel-stílusokat és a formázást zökkenőmentesen testreszabhatja prezentációs igényeinek megfelelően.
+PowerPointban az Aspose.Slides for Java használatával bekezdésjelek hozzáadása egyszerűen elvégezhető a megadott kódpéldák segítségével. A felsorolásjelek stílusát és formázását zökkenőmentesen testreszabhatja a prezentációs igényeinek megfelelően.
 
 ## GYIK
-### Testreszabhatom a felsorolás színeit?
-Igen, az Aspose.Slides API segítségével beállíthat egyéni színeket a felsorolásokhoz.
-### Hogyan adhatok hozzá beágyazott felsorolásokat?
-A felsorolásjelek beágyazása azt jelenti, hogy bekezdéseket adunk hozzá a bekezdésekhez, és ennek megfelelően módosítjuk a behúzást.
-### Létrehozhatok különböző golyóstílusokat a különböző diákhoz?
-Igen, programozottan alkalmazhat egyedi felsorolásjel-stílusokat a különböző diákra.
+### Testreszabhatom a felsorolásjelek színeit?
+Igen, az Aspose.Slides API segítségével egyéni színeket állíthatsz be a felsorolásjelekhez.
+### Hogyan adhatok hozzá beágyazott felsorolásjeleket?
+A felsorolásjelek beágyazása bekezdések bekezdéseken belüli hozzáadását, a behúzás ennek megfelelő beállítását jelenti.
+### Létrehozhatok különböző felsorolásjeleket a különböző diákhoz?
+Igen, programozottan alkalmazhat egyedi felsorolásjelstílusokat a különböző diákra.
 ### Az Aspose.Slides kompatibilis a Java 11-gyel?
-Igen, az Aspose.Slides támogatja a Java 11 és újabb verzióit.
+Igen, az Aspose.Slides támogatja a Java 11-es és újabb verzióit.
 ### Hol találok további példákat és dokumentációt?
- Látogatás[Aspose.Slides a Java dokumentációhoz](https://reference.aspose.com/slides/java/) átfogó útmutatókért és példákért.
+Látogatás [Aspose.Slides Java dokumentációhoz](https://reference.aspose.com/slides/java/) átfogó útmutatókért és példákért.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

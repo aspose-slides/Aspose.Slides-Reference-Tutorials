@@ -1,14 +1,16 @@
 ---
-title: प्रस्तुति को मार्कडाउन प्रारूप में बदलें
-linktitle: प्रस्तुति को मार्कडाउन प्रारूप में बदलें
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: Aspose.Slides for .NET का उपयोग करके आसानी से प्रस्तुतियों को Markdown में परिवर्तित करना सीखें। कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 23
-url: /hi/net/presentation-conversion/convert-presentation-to-markdown-format/
+"description": "Aspose.Slides for .NET का उपयोग करके आसानी से प्रस्तुतियों को Markdown में परिवर्तित करना सीखें। कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "प्रस्तुति को मार्कडाउन प्रारूप में बदलें"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "प्रस्तुति को मार्कडाउन प्रारूप में बदलें"
+"url": "/hi/net/presentation-conversion/convert-presentation-to-markdown-format/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # प्रस्तुति को मार्कडाउन प्रारूप में बदलें
@@ -77,9 +79,9 @@ mdOptions.BasePath = outPath;
 pres.Save(Path.Combine(outPath, "pres.md"), SaveFormat.Md, mdOptions);
 ```
 
-## सात निष्कर्ष
+## 7. निष्कर्ष
 
-इस ट्यूटोरियल में, हमने सीखा है कि .NET के लिए Aspose.Slides का उपयोग करके प्रस्तुतियों को मार्कडाउन प्रारूप में कैसे परिवर्तित किया जाए। मार्कडाउन प्रारूप आपकी सामग्री को प्रस्तुत करने का एक लचीला और कुशल तरीका प्रदान करता है, और यह रूपांतरण प्रक्रिया आपको अपनी प्रस्तुतियों के साथ व्यापक दर्शकों तक पहुँचने में मदद कर सकती है।
+इस ट्यूटोरियल में, हमने सीखा है कि Aspose.Slides for .NET का उपयोग करके प्रस्तुतियों को मार्कडाउन प्रारूप में कैसे परिवर्तित किया जाए। मार्कडाउन प्रारूप आपकी सामग्री को प्रस्तुत करने का एक लचीला और कुशल तरीका प्रदान करता है, और यह रूपांतरण प्रक्रिया आपको अपनी प्रस्तुतियों के साथ व्यापक दर्शकों तक पहुँचने में मदद कर सकती है।
 
 अब आपके पास अपनी प्रस्तुतियों को मार्कडाउन प्रारूप में बदलने का ज्ञान और उपकरण हैं, जिससे वे अधिक बहुमुखी और सुलभ बन जाती हैं। अपनी परिवर्तित प्रस्तुतियों को और बेहतर बनाने के लिए विभिन्न मार्कडाउन सुविधाओं के साथ प्रयोग करें।
 
@@ -91,11 +93,11 @@ pres.Save(Path.Combine(outPath, "pres.md"), SaveFormat.Md, mdOptions);
 
 ### प्रश्न 2: क्या .NET के लिए Aspose.Slides का उपयोग निःशुल्क है?
 
-.NET के लिए Aspose.Slides एक निःशुल्क परीक्षण संस्करण प्रदान करता है, लेकिन पूर्ण कार्यक्षमता और लाइसेंसिंग जानकारी के लिए, यहां जाएं[https://purchase.aspose.com/buy](https://purchase.aspose.com/buy).
+.NET के लिए Aspose.Slides एक निःशुल्क परीक्षण संस्करण प्रदान करता है, लेकिन पूर्ण कार्यक्षमता और लाइसेंसिंग जानकारी के लिए, यहां जाएं [https://purchase.aspose.com/buy](https://purchase.aspose.com/buy).
 
 ### प्रश्न 3: मैं .NET के लिए Aspose.Slides का समर्थन कैसे प्राप्त करूं?
 
- समर्थन और सहायता के लिए, आप Aspose.Slides for .NET फोरम पर जा सकते हैं[https://forum.aspose.com/](https://forum.aspose.com/).
+समर्थन और सहायता के लिए, आप Aspose.Slides for .NET फ़ोरम पर जा सकते हैं [https://forum.aspose.com/](https://forum.aspose.com/).
 
 ### प्रश्न 4: क्या मैं प्रस्तुतियों को अन्य प्रारूपों में भी परिवर्तित कर सकता हूँ?
 
@@ -103,11 +105,13 @@ pres.Save(Path.Combine(outPath, "pres.md"), SaveFormat.Md, mdOptions);
 
 ### प्रश्न 5: मैं Aspose.Slides for .NET के लिए अस्थायी लाइसेंस कहां से प्राप्त कर सकता हूं?
 
- आप Aspose.Slides for .NET के लिए अस्थायी लाइसेंस यहां से प्राप्त कर सकते हैं[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
+आप Aspose.Slides for .NET के लिए अस्थायी लाइसेंस यहां से प्राप्त कर सकते हैं [https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

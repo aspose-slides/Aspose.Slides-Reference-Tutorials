@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में सनबर्स्ट चार्ट
-linktitle: जावा स्लाइड्स में सनबर्स्ट चार्ट
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides के साथ जावा स्लाइड्स में शानदार सनबर्स्ट चार्ट बनाएं। चरण-दर-चरण चार्ट निर्माण और डेटा हेरफेर सीखें।
-weight: 16
-url: /hi/java/chart-elements/sunburst-chart-java-slides/
+"description": "Aspose.Slides के साथ जावा स्लाइड्स में शानदार सनबर्स्ट चार्ट बनाएं। चरण-दर-चरण चार्ट निर्माण और डेटा हेरफेर सीखें।"
+"linktitle": "जावा स्लाइड्स में सनबर्स्ट चार्ट"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में सनबर्स्ट चार्ट"
+"url": "/hi/java/chart-elements/sunburst-chart-java-slides/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में सनबर्स्ट चार्ट
@@ -20,7 +22,7 @@ url: /hi/java/chart-elements/sunburst-chart-java-slides/
 
 ## आवश्यक शर्तें
 
- शुरू करने से पहले, सुनिश्चित करें कि आपके पास अपने जावा प्रोजेक्ट में Aspose.Slides for Java लाइब्रेरी स्थापित और कॉन्फ़िगर है। आप लाइब्रेरी को यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+शुरू करने से पहले, सुनिश्चित करें कि आपके पास अपने जावा प्रोजेक्ट में Aspose.Slides for Java लाइब्रेरी स्थापित और कॉन्फ़िगर है। आप लाइब्रेरी को यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 
 ## चरण 1: आवश्यक लाइब्रेरीज़ आयात करें
 
@@ -99,7 +101,7 @@ series.getDataPoints().addDataPointForSunburstSeries(wb.getCell(0, "D7", 4));
 series.getDataPoints().addDataPointForSunburstSeries(wb.getCell(0, "D8", 3));
 ```
 
-## चरण 7: प्रेजेंटेशन सहेजें
+## चरण 7: प्रस्तुति सहेजें
 
 अंत में, प्रस्तुति को सनबर्स्ट चार्ट के साथ सेव करें।
 
@@ -119,7 +121,7 @@ try
 	chart.getChartData().getSeries().clear();
 	IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
 	wb.clear(0);
-	//शाखा १
+	//शाखा 1
 	IChartCategory leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C1", "Leaf1"));
 	leaf.getGroupingLevels().setGroupingItem(1, "Stem1");
 	leaf.getGroupingLevels().setGroupingItem(2, "Branch1");
@@ -165,7 +167,7 @@ finally
 
 ### क्या मैं चार्ट में और अधिक डेटा बिंदु जोड़ सकता हूँ?
 
- हां, आप इसका उपयोग करके चार्ट में अधिक डेटा बिंदु जोड़ सकते हैं`series.getDataPoints().addDataPointForSunburstSeries()` प्रत्येक डेटा बिंदु के लिए विधि जिसे आप शामिल करना चाहते हैं।
+हां, आप इसका उपयोग करके चार्ट में अधिक डेटा बिंदु जोड़ सकते हैं `series.getDataPoints().addDataPointForSunburstSeries()` प्रत्येक डेटा बिंदु के लिए विधि जिसे आप शामिल करना चाहते हैं।
 
 ### मैं सनबर्स्ट चार्ट में टूलटिप्स कैसे जोड़ सकता हूँ?
 
@@ -174,9 +176,11 @@ finally
 ### क्या हाइपरलिंक के साथ इंटरैक्टिव सनबर्स्ट चार्ट बनाना संभव है?
 
 हां, आप विशिष्ट चार्ट तत्वों या खंडों में हाइपरलिंक जोड़कर हाइपरलिंक के साथ इंटरैक्टिव सनबर्स्ट चार्ट बना सकते हैं। हाइपरलिंक जोड़ने के विवरण के लिए Aspose.Slides दस्तावेज़ देखें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,26 +1,28 @@
 ---
-title: หลุมแผนภูมิโดนัทใน Java Slides
-linktitle: หลุมแผนภูมิโดนัทใน Java Slides
-second_title: Aspose.Slides Java PowerPoint การประมวลผล API
-description: สร้างแผนภูมิโดนัทด้วยขนาดรูที่กำหนดเองใน Java Slides โดยใช้ Aspose.Slides สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมซอร์สโค้ดสำหรับการปรับแต่งแผนภูมิ
-weight: 11
-url: /th/java/chart-elements/doughnut-chart-hole-java-slides/
+"description": "สร้างแผนภูมิโดนัทพร้อมขนาดรูที่กำหนดเองใน Java Slides โดยใช้ Aspose.Slides สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับสำหรับการปรับแต่งแผนภูมิ"
+"linktitle": "รูแผนภูมิโดนัทในสไลด์ Java"
+"second_title": "API การประมวลผล Java PowerPoint ของ Aspose.Slides"
+"title": "รูแผนภูมิโดนัทในสไลด์ Java"
+"url": "/th/java/chart-elements/doughnut-chart-hole-java-slides/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# หลุมแผนภูมิโดนัทใน Java Slides
+# รูแผนภูมิโดนัทในสไลด์ Java
 
 
-## รู้เบื้องต้นเกี่ยวกับแผนภูมิโดนัทที่มีรูใน Java Slides
+## การแนะนำแผนภูมิโดนัทที่มีรูในสไลด์ Java
 
-ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการสร้างแผนภูมิโดนัทที่มีรูโดยใช้ Aspose.Slides สำหรับ Java คำแนะนำทีละขั้นตอนนี้จะแนะนำคุณตลอดกระบวนการพร้อมตัวอย่างซอร์สโค้ด
+ในบทช่วยสอนนี้ เราจะแนะนำคุณเกี่ยวกับการสร้างแผนภูมิโดนัทที่มีรูโดยใช้ Aspose.Slides สำหรับ Java คำแนะนำทีละขั้นตอนนี้จะแนะนำคุณตลอดกระบวนการพร้อมตัวอย่างโค้ดต้นฉบับ
 
 ## ข้อกำหนดเบื้องต้น
 
- ก่อนที่คุณจะเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งและตั้งค่าไลบรารี Aspose.Slides สำหรับ Java ในโปรเจ็กต์ Java ของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก[Aspose.Slides สำหรับเอกสาร Java](https://reference.aspose.com/slides/java/).
+ก่อนเริ่มต้น โปรดตรวจสอบว่าได้ติดตั้งและตั้งค่าไลบรารี Aspose.Slides สำหรับ Java ในโปรเจ็กต์ Java ของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก [เอกสาร Aspose.Slides สำหรับ Java](https://reference-aspose.com/slides/java/).
 
 ## ขั้นตอนที่ 1: นำเข้าไลบรารีที่จำเป็น
 
@@ -45,25 +47,25 @@ Presentation presentation = new Presentation();
 
 ```java
 try {
-    // สร้างแผนภูมิโดนัทบนสไลด์แรก
+    // สร้างแผนภูมิโดนัทในสไลด์แรก
     IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Doughnut, 50, 50, 400, 400);
     
     // กำหนดขนาดของรูในแผนภูมิโดนัท (เป็นเปอร์เซ็นต์)
     chart.getChartData().getSeriesGroups().get_Item(0).setDoughnutHoleSize((byte) 90);
     
-    // บันทึกการนำเสนอลงดิสก์
+    // บันทึกการนำเสนอลงในดิสก์
     presentation.save(dataDir + "DoughnutHoleSize_out.pptx", SaveFormat.Pptx);
 } finally {
-    // กำจัดวัตถุการนำเสนอ
+    // กำจัดวัตถุนำเสนอ
     if (presentation != null) presentation.dispose();
 }
 ```
 
-## ขั้นตอนที่ 4: เรียกใช้โค้ด
+## ขั้นตอนที่ 4: รันโค้ด
 
- เรียกใช้โค้ด Java ใน IDE หรือโปรแกรมแก้ไขข้อความของคุณเพื่อสร้างแผนภูมิโดนัทที่มีขนาดรูที่ระบุ ตรวจสอบให้แน่ใจว่าได้เปลี่ยน`"Your Document Directory"` พร้อมเส้นทางจริงที่คุณต้องการบันทึกการนำเสนอ
+เรียกใช้โค้ด Java ใน IDE หรือโปรแกรมแก้ไขข้อความของคุณเพื่อสร้างแผนภูมิโดนัทที่มีขนาดรูตามที่กำหนด อย่าลืมเปลี่ยน `"Your Document Directory"` ด้วยเส้นทางจริงที่คุณต้องการบันทึกการนำเสนอ
 
-## กรอกซอร์สโค้ดสำหรับรูแผนภูมิโดนัทใน Java Slides
+## โค้ดต้นฉบับสมบูรณ์สำหรับช่องแผนภูมิโดนัทในสไลด์ Java
 
 ```java
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
@@ -74,7 +76,7 @@ try
 {
 	IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Doughnut, 50, 50, 400, 400);
 	chart.getChartData().getSeriesGroups().get_Item(0).setDoughnutHoleSize((byte) 90);
-	// เขียนงานนำเสนอลงดิสก์
+	// เขียนการนำเสนอลงดิสก์
 	presentation.save(dataDir + "DoughnutHoleSize_out.pptx", SaveFormat.Pptx);
 }
 finally
@@ -85,24 +87,26 @@ finally
 
 ## บทสรุป
 
- ในบทช่วยสอนนี้ คุณได้เรียนรู้วิธีสร้างแผนภูมิโดนัทที่มีรูโดยใช้ Aspose.Slides สำหรับ Java คุณสามารถปรับแต่งขนาดของรูได้โดยการปรับ`setDoughnutHoleSize` พารามิเตอร์วิธีการ
+ในบทช่วยสอนนี้ คุณจะได้เรียนรู้วิธีสร้างแผนภูมิโดนัทที่มีรูโดยใช้ Aspose.Slides สำหรับ Java คุณสามารถปรับขนาดของรูได้โดยปรับ `setDoughnutHoleSize` พารามิเตอร์วิธีการ
 
 ## คำถามที่พบบ่อย
 
-### ฉันจะเปลี่ยนสีของส่วนแผนภูมิได้อย่างไร
+### ฉันจะเปลี่ยนสีของส่วนต่างๆ ของแผนภูมิได้อย่างไร?
 
- หากต้องการเปลี่ยนสีของส่วนแผนภูมิ คุณสามารถใช้`setDataPointsInLegend` วิธีการบน`IChart` object และกำหนดสีที่ต้องการให้กับจุดข้อมูลแต่ละจุด
+หากต้องการเปลี่ยนสีของส่วนแผนภูมิ คุณสามารถใช้ `setDataPointsInLegend` วิธีการบน `IChart` วัตถุและตั้งค่าสีที่ต้องการให้กับจุดข้อมูลแต่ละจุด
 
 ### ฉันสามารถเพิ่มป้ายกำกับให้กับส่วนแผนภูมิโดนัทได้หรือไม่
 
- ได้ คุณสามารถเพิ่มป้ายกำกับให้กับส่วนแผนภูมิโดนัทได้โดยใช้`setDataPointsLabelValue` วิธีการบน`IChart` วัตถุ.
+ใช่ คุณสามารถเพิ่มป้ายกำกับให้กับส่วนแผนภูมิโดนัทได้โดยใช้ `setDataPointsLabelValue` วิธีการบน `IChart` วัตถุ.
 
-### เป็นไปได้ไหมที่จะเพิ่มชื่อลงในแผนภูมิ?
+### สามารถเพิ่มชื่อเรื่องให้กับแผนภูมิได้หรือไม่?
 
- แน่นอน! คุณสามารถเพิ่มชื่อให้กับแผนภูมิโดยใช้`setTitle` วิธีการบน`IChart` วัตถุและระบุข้อความชื่อที่ต้องการ
+แน่นอน! คุณสามารถเพิ่มชื่อเรื่องให้กับแผนภูมิได้โดยใช้ `setTitle` วิธีการบน `IChart` วัตถุและจัดเตรียมข้อความชื่อเรื่องที่ต้องการ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

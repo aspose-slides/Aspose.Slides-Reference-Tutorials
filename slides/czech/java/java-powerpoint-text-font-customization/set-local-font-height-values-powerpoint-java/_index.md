@@ -1,51 +1,53 @@
 ---
-title: Nastavte místní hodnoty výšky písma v PowerPointu pomocí Java
-linktitle: Nastavte místní hodnoty výšky písma v PowerPointu pomocí Java
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Naučte se, jak upravit výšku písma v prezentacích PowerPoint pomocí Java s Aspose.Slides. Vylepšete formátování textu na svých snímcích bez námahy.
-weight: 17
-url: /cs/java/java-powerpoint-text-font-customization/set-local-font-height-values-powerpoint-java/
+"description": "Naučte se, jak upravit výšku písma v prezentacích PowerPointu pomocí Javy s Aspose.Slides. Bez námahy vylepšete formátování textu ve slidech."
+"linktitle": "Nastavení lokálních hodnot výšky písma v PowerPointu pomocí Javy"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Nastavení lokálních hodnot výšky písma v PowerPointu pomocí Javy"
+"url": "/cs/java/java-powerpoint-text-font-customization/set-local-font-height-values-powerpoint-java/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nastavte místní hodnoty výšky písma v PowerPointu pomocí Java
+# Nastavení lokálních hodnot výšky písma v PowerPointu pomocí Javy
 
-## Úvod
-V tomto tutoriálu se naučíte manipulovat s výškami písma na různých úrovních v rámci prezentací PowerPoint pomocí Aspose.Slides for Java. Kontrola velikosti písma je zásadní pro vytváření vizuálně přitažlivých a strukturovaných prezentací. Projdeme si příklady krok za krokem, abychom ilustrovali, jak nastavit výšky písma pro různé textové prvky.
+## Zavedení
+V tomto tutoriálu se naučíte, jak manipulovat s výškou písma na různých úrovních v prezentacích v PowerPointu pomocí Aspose.Slides pro Javu. Ovládání velikosti písma je klíčové pro vytváření vizuálně přitažlivých a strukturovaných prezentací. Projdeme si podrobné příklady, které ilustrují, jak nastavit výšku písma pro různé textové prvky.
 ## Předpoklady
 Než začnete, ujistěte se, že máte následující:
-- Java Development Kit (JDK) nainstalovaný ve vašem systému
--  Aspose.Slides pro knihovnu Java. Můžete si jej stáhnout[tady](https://releases.aspose.com/slides/java/).
-- Základní znalost programování v jazyce Java a prezentací v PowerPointu
-## Importujte balíčky
-Ujistěte se, že jste do svého souboru Java zahrnuli potřebné balíčky Aspose.Slides:
+- Sada pro vývoj Java (JDK) nainstalovaná ve vašem systému
+- Knihovna Aspose.Slides pro Javu. Můžete si ji stáhnout. [zde](https://releases.aspose.com/slides/java/).
+- Základní znalost programování v Javě a prezentací v PowerPointu
+## Importovat balíčky
+Nezapomeňte do souboru Java zahrnout potřebné balíčky Aspose.Slides:
 ```java
 import com.aspose.slides.*;
 ```
-## Krok 1: Inicializujte objekt prezentace
-Nejprve vytvořte nový objekt prezentace PowerPoint:
+## Krok 1: Inicializace prezentačního objektu
+Nejprve vytvořte nový objekt prezentace v PowerPointu:
 ```java
 Presentation pres = new Presentation();
 ```
-## Krok 2: Přidejte tvar a textový rámeček
-Přidejte na první snímek automatický tvar s textovým rámečkem:
+## Krok 2: Přidání tvaru a textového rámečku
+Přidejte automatický tvar s textovým rámečkem na první snímek:
 ```java
 IAutoShape newShape = pres.getSlides().get_Item(0).getShapes().addAutoShape(ShapeType.Rectangle, 100, 100, 400, 75, false);
 newShape.addTextFrame("");
 ```
-## Krok 3: Vytvořte části textu
-Definujte části textu s různými výškami písma:
+## Krok 3: Vytvořte textové části
+Definujte části textu s různou výškou písma:
 ```java
 IPortion portion0 = new Portion("Sample text with first portion");
 IPortion portion1 = new Portion(" and second portion.");
 newShape.getTextFrame().getParagraphs().get_Item(0).getPortions().add(portion0);
 newShape.getTextFrame().getParagraphs().get_Item(0).getPortions().add(portion1);
 ```
-## Krok 4: Nastavte výšky písma
-Nastavte výšky písma na různých úrovních:
+## Krok 4: Nastavení výšky písma
+Nastavení výšky písma na různých úrovních:
 ```java
 pres.getDefaultTextStyle().getLevel(0).getDefaultPortionFormat().setFontHeight(24);
 newShape.getTextFrame().getParagraphs().get_Item(0).getParagraphFormat().getDefaultPortionFormat().setFontHeight(40);
@@ -59,21 +61,23 @@ pres.save("YourOutputDirectory/SetLocalFontHeightValues.pptx", SaveFormat.Pptx);
 ```
 
 ## Závěr
-Tento výukový program demonstroval, jak upravit výšku písma v rámci snímků aplikace PowerPoint pomocí programu Aspose.Slides for Java. Manipulací s velikostmi písem na různých úrovních (v celé prezentaci, v odstavci a po části) můžete dosáhnout přesné kontroly nad formátováním textu v prezentacích.
-## FAQ
-### Co je Aspose.Slides for Java?
-Aspose.Slides for Java je výkonné API pro programovou manipulaci s prezentacemi v PowerPointu.
+Tento tutoriál ukázal, jak programově upravit výšku písma v PowerPointových slidech pomocí Aspose.Slides pro Javu. Manipulací s velikostmi písma na různých úrovních (v celé prezentaci, v odstavci a v části) můžete dosáhnout přesné kontroly nad formátováním textu ve vašich prezentacích.
+## Často kladené otázky
+### Co je Aspose.Slides pro Javu?
+Aspose.Slides pro Javu je výkonné API pro programovou manipulaci s prezentacemi v PowerPointu.
 ### Kde najdu dokumentaci k Aspose.Slides pro Javu?
- Dokumentaci najdete[tady](https://reference.aspose.com/slides/java/).
-### Mohu si Aspose.Slides for Java před nákupem vyzkoušet?
- Ano, můžete získat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
-### Jak mohu získat podporu pro Aspose.Slides pro Java?
- Pro podporu navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11).
-### Kde si mohu zakoupit licenci pro Aspose.Slides for Java?
- Můžete si zakoupit licenci[tady](https://purchase.aspose.com/buy).
+Dokumentaci najdete [zde](https://reference.aspose.com/slides/java/).
+### Mohu si před zakoupením vyzkoušet Aspose.Slides pro Javu?
+Ano, můžete získat bezplatnou zkušební verzi [zde](https://releases.aspose.com/).
+### Jak mohu získat podporu pro Aspose.Slides pro Javu?
+Pro podporu navštivte [Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+### Kde si mohu zakoupit licenci pro Aspose.Slides pro Javu?
+Můžete si zakoupit licenci [zde](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

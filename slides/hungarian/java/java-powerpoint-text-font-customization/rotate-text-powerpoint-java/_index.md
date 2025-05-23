@@ -1,89 +1,93 @@
 ---
-title: Szövegforgatás a PowerPointban Java használatával
-linktitle: Szövegforgatás a PowerPointban Java használatával
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan forgathat el szöveget a PowerPointban Java használatával az Aspose.Slides segítségével. Lépésről lépésre bemutató oktatóanyag kezdőknek és haladóknak.
-weight: 10
-url: /hu/java/java-powerpoint-text-font-customization/rotate-text-powerpoint-java/
+"description": "Tanuld meg, hogyan forgathatsz szöveget PowerPointban Java használatával az Aspose.Slides segítségével. Lépésről lépésre útmutató kezdőknek és haladóknak egyaránt."
+"linktitle": "Szöveg elforgatása PowerPointban Java használatával"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Szöveg elforgatása PowerPointban Java használatával"
+"url": "/hu/java/java-powerpoint-text-font-customization/rotate-text-powerpoint-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Szövegforgatás a PowerPointban Java használatával
+# Szöveg elforgatása PowerPointban Java használatával
 
 ## Bevezetés
-Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet programozottan forgatni szöveget PowerPoint-prezentációkban Java és Aspose.Slides használatával. A szöveg elforgatása hasznos funkció lehet diák tervezésekor, hogy tetszetős prezentációkat hozzon létre.
+Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan lehet programozottan elforgatni a szöveget PowerPoint-bemutatókban Java és Aspose.Slides használatával. A szöveg elforgatása hasznos funkció lehet a diák tervezésénél a vizuálisan vonzó prezentációk létrehozása érdekében.
 ## Előfeltételek
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik az alábbiakkal:
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következőkkel rendelkezünk:
 - Java programozási nyelv alapismerete.
-- JDK telepítve van a rendszerére.
--  Aspose.Slides for Java könyvtár. Letöltheti innen[itt](https://releases.aspose.com/slides/java/).
-- IDE (Integrated Development Environment), például az IntelliJ IDEA vagy az Eclipse beállítása a gépén.
+- JDK telepítve a rendszeredre.
+- Aspose.Slides Java könyvtárhoz. Letöltheted innen: [itt](https://releases.aspose.com/slides/java/).
+- IDE (integrált fejlesztői környezet), például IntelliJ IDEA vagy Eclipse beállítva a gépeden.
 ## Csomagok importálása
-Először is importálnia kell a szükséges Aspose.Slides osztályokat, hogy PowerPoint fájlokkal dolgozhasson Java nyelven:
+Először is importálnod kell a szükséges Aspose.Slides osztályokat a PowerPoint fájlokkal való munkához Java-ban:
 ```java
 import com.aspose.slides.*;
 import java.awt.*;
 ```
-## 1. lépés: Állítsa be projektjét
-Kezdje azzal, hogy hozzon létre egy új Java-projektet az IDE-ben, és adja hozzá az Aspose.Slides JAR fájlt a projekt felépítési útvonalához.
-## 2. lépés: Inicializálja a prezentációt és a diaobjektumokat
+## 1. lépés: A projekt beállítása
+Kezd azzal, hogy létrehozol egy új Java projektet az IDE-ben, és hozzáadod az Aspose.Slides JAR fájlt a projekted build útvonalához.
+## 2. lépés: Prezentáció és dia objektumok inicializálása
 ```java
-// Annak a könyvtárnak az elérési útja, ahová a bemutatót menteni szeretné
+// prezentáció mentési mappájának elérési útja
 String dataDir = "Your_Document_Directory/";
-// Hozzon létre egy példányt a Prezentáció osztályból
+// Hozz létre egy példányt a Presentation osztályból
 Presentation presentation = new Presentation();
-// Szerezd meg az első diát
+// Az első dia betöltése 
 ISlide slide = presentation.getSlides().get_Item(0);
 ```
-## 3. lépés: Téglalap alakzat hozzáadása
+## 3. lépés: Téglalap alakú alak hozzáadása
 ```java
-// Adjon hozzá egy téglalap típusú automatikus alakzatot
+// Téglalap típusú AutoShape hozzáadása
 IAutoShape ashp = slide.getShapes().addAutoShape(ShapeType.Rectangle, 150, 75, 350, 350);
 ```
 ## 4. lépés: Szöveg hozzáadása a téglalap alakzathoz
 ```java
-// Szövegkeret hozzáadása a téglalaphoz
+// TextFrame hozzáadása a téglalaphoz
 ashp.addTextFrame(" ");
 ashp.getFillFormat().setFillType(FillType.NoFill);
-// Hozzáférés a szövegkerethez
+// A szövegkeret elérése
 ITextFrame txtFrame = ashp.getTextFrame();
 txtFrame.getTextFrameFormat().setTextVerticalType(TextVerticalType.Vertical270);
 ```
-## 5. lépés: Állítsa be a szöveg tartalmát és stílusát
+## 5. lépés: A szöveg tartalmának és stílusának beállítása
 ```java
-// Hozza létre a Bekezdés objektumot a szövegkerethez
+// Hozd létre a Bekezdés objektumot a szövegkerethez
 IParagraph para = txtFrame.getParagraphs().get_Item(0);
-// Részlet objektum létrehozása a bekezdéshez
+// Rész objektum létrehozása a bekezdéshez
 IPortion portion = para.getPortions().get_Item(0);
 portion.setText("A quick brown fox jumps over the lazy dog. A quick brown fox jumps over the lazy dog.");
 portion.getPortionFormat().getFillFormat().setFillType(FillType.Solid);
 portion.getPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.BLACK);
 ```
-## 6. lépés: Mentse el a bemutatót
+## 6. lépés: Mentse el a prezentációt
 ```java
 // Prezentáció mentése
 presentation.save(dataDir + "RotateText_out.pptx", SaveFormat.Pptx);
 ```
 
 ## Következtetés
-Ebben az oktatóanyagban megtanultuk, hogyan lehet szöveget forgatni PowerPoint-prezentációkban Java és Aspose.Slides használatával. Ha követi ezeket a lépéseket, dinamikusan módosíthatja a szöveg tájolását a diákban a vizuális hatás fokozása érdekében.
+Ebben az oktatóanyagban megtanultuk, hogyan forgathatjuk el a szöveget PowerPoint-bemutatókban Java és Aspose.Slides használatával. A következő lépéseket követve dinamikusan manipulálhatod a szöveg tájolását a diákon a vizuális hatás fokozása érdekében.
 ## GYIK
-### Elforgathatom a szöveget bármilyen szögben a PowerPointban az Aspose.Slides for Java segítségével?
-Igen, programozottan megadhat bármilyen kívánt szöget a szövegelforgatáshoz.
+### Elforgathatom a szöveget bármilyen szögben PowerPointban az Aspose.Slides for Java használatával?
+Igen, programozottan megadhatja a szövegforgatás bármely kívánt szögét.
 ### Az Aspose.Slides támogat más szövegformázási beállításokat, például a betűméretet és az igazítást?
-Természetesen az Aspose.Slides átfogó API-kat biztosít a különféle szövegformázási követelmények kezelésére.
-### Hogyan kezdhetem el az Aspose.Slides for Java alkalmazást?
- Letöltheti az Aspose.Slides ingyenes próbaverzióját a webhelyről[itt](https://releases.aspose.com/) jellemzőinek feltárására.
+Természetesen az Aspose.Slides átfogó API-kat biztosít a különféle szövegformázási követelmények kezeléséhez.
+### Hogyan kezdhetem el az Aspose.Slides használatát Java-ban?
+Az Aspose.Slides ingyenes próbaverzióját letöltheti innen: [itt](https://releases.aspose.com/) hogy felfedezzük a tulajdonságait.
 ### Hol találok további dokumentációt és támogatást az Aspose.Slides-hez?
- Részletes dokumentációért látogasson el ide[Aspose.Slides a Java dokumentációhoz](https://reference.aspose.com/slides/java/) . Támogatást is kérhet a közösségtől a címen[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11).
-### Hogyan szerezhetek ideiglenes licencet az Aspose.Slides számára?
- Ideiglenes jogosítványt szerezhet be[itt](https://purchase.aspose.com/temporary-license/)hogy értékelje Aspose.Diák korlátozások nélkül.
+Részletes dokumentációért látogasson el a következő oldalra: [Aspose.Slides Java dokumentációhoz](https://reference.aspose.com/slides/java/)A közösségtől is kaphatsz támogatást a következő címen: [Aspose.Slides fórum](https://forum.aspose.com/c/slides/11).
+### Hogyan szerezhetek ideiglenes licencet az Aspose.Slides-hoz?
+Ideiglenes jogosítványt igényelhetsz [itt](https://purchase.aspose.com/temporary-license/) az Aspose.Slides korlátozás nélküli értékeléséhez.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,20 +1,22 @@
 ---
-title: जावा स्लाइड्स में श्रेणियों के तत्वों को एनिमेट करना
-linktitle: जावा स्लाइड्स में श्रेणियों के तत्वों को एनिमेट करना
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java के साथ अपने Java प्रेजेंटेशन को ऑप्टिमाइज़ करें। PowerPoint स्लाइड में श्रेणी तत्वों को चरण-दर-चरण एनिमेट करना सीखें।
-weight: 10
-url: /hi/java/animation-and-layout/animating-categories-elements-java-slides/
+"description": "Aspose.Slides for Java के साथ अपने Java प्रेजेंटेशन को ऑप्टिमाइज़ करें। PowerPoint स्लाइड में श्रेणी तत्वों को चरण-दर-चरण एनिमेट करना सीखें।"
+"linktitle": "जावा स्लाइड्स में श्रेणियों के तत्वों को एनिमेट करना"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में श्रेणियों के तत्वों को एनिमेट करना"
+"url": "/hi/java/animation-and-layout/animating-categories-elements-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में श्रेणियों के तत्वों को एनिमेट करना
 
 
-## जावा स्लाइड्स में श्रेणियों के तत्वों को एनिमेट करने का परिचय
+## जावा स्लाइड्स में कैटेगरी तत्वों को एनिमेट करने का परिचय
 
 इस ट्यूटोरियल में, हम आपको Aspose.Slides for Java का उपयोग करके Java स्लाइड में श्रेणी तत्वों को एनिमेट करने की प्रक्रिया के बारे में बताएंगे। यह चरण-दर-चरण मार्गदर्शिका आपको इस एनीमेशन प्रभाव को प्राप्त करने में मदद करने के लिए स्रोत कोड और स्पष्टीकरण प्रदान करेगी।
 
@@ -27,7 +29,7 @@ url: /hi/java/animation-and-layout/animating-categories-elements-java-slides/
 
 ## चरण 1: Aspose.Slides लाइब्रेरी आयात करें
 
-आरंभ करने के लिए, Aspose.Slides लाइब्रेरी को अपने Java प्रोजेक्ट में आयात करें। आप लाइब्रेरी को डाउनलोड करके अपने प्रोजेक्ट के क्लासपाथ में जोड़ सकते हैं। सुनिश्चित करें कि आपके पास आवश्यक निर्भरताएँ सेट अप हैं।
+आरंभ करने के लिए, Aspose.Slides लाइब्रेरी को अपने जावा प्रोजेक्ट में आयात करें। आप लाइब्रेरी को डाउनलोड करके अपने प्रोजेक्ट के क्लासपाथ में जोड़ सकते हैं। सुनिश्चित करें कि आपके पास आवश्यक निर्भरताएँ सेट अप हैं।
 
 ## चरण 2: प्रस्तुति लोड करें
 
@@ -37,7 +39,7 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
- इस कोड में, हम एक मौजूदा पावरपॉइंट प्रेजेंटेशन लोड करते हैं जिसमें वह चार्ट होता है जिसे आप एनिमेट करना चाहते हैं।`"Your Document Directory"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ.
+इस कोड में, हम एक मौजूदा पावरपॉइंट प्रेजेंटेशन लोड करते हैं जिसमें वह चार्ट होता है जिसे आप एनिमेट करना चाहते हैं। `"Your Document Directory"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ.
 
 ## चरण 3: चार्ट ऑब्जेक्ट का संदर्भ प्राप्त करें
 
@@ -69,7 +71,7 @@ for (int i = 0; i < chart.getChartData().getCategories().size(); i++) {
 presentation.save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
 ```
 
- अंत में, संशोधित प्रस्तुति को एनिमेटेड चार्ट के साथ एक नई फ़ाइल में सहेजें।`"AnimatingCategoriesElements_out.pptx"` अपने इच्छित आउटपुट फ़ाइल नाम के साथ.
+अंत में, संशोधित प्रस्तुति को एनिमेटेड चार्ट के साथ एक नई फ़ाइल में सहेजें। `"AnimatingCategoriesElements_out.pptx"` अपने इच्छित आउटपुट फ़ाइल नाम के साथ.
 
 
 ## जावा स्लाइड्स में श्रेणियों के तत्वों को एनिमेट करने के लिए पूर्ण स्रोत कोड
@@ -114,7 +116,7 @@ finally
 
 ### मैं एनीमेशन प्रभाव को कैसे अनुकूलित कर सकता हूँ?
 
- आप एनीमेशन प्रभाव को बदलकर अनुकूलित कर सकते हैं`EffectType` और`EffectSubtype` चार्ट तत्वों में प्रभाव जोड़ते समय पैरामीटर। उपलब्ध एनीमेशन प्रभावों के बारे में अधिक जानकारी के लिए Aspose.Slides for Java दस्तावेज़ देखें।
+आप एनीमेशन प्रभाव को बदलकर अनुकूलित कर सकते हैं `EffectType` और `EffectSubtype` चार्ट तत्वों में प्रभाव जोड़ते समय पैरामीटर। उपलब्ध एनीमेशन प्रभावों के बारे में अधिक जानकारी के लिए Aspose.Slides for Java दस्तावेज़ देखें।
 
 ### क्या मैं इन एनिमेशन को अन्य प्रकार के चार्ट पर लागू कर सकता हूँ?
 
@@ -122,11 +124,13 @@ finally
 
 ### मैं Aspose.Slides for Java के बारे में अधिक कैसे जान सकता हूँ?
 
- विस्तृत दस्तावेज़ीकरण और अतिरिक्त संसाधनों के लिए, कृपया देखें[Aspose.Slides for Java API संदर्भ](https://reference.aspose.com/slides/java/) . आप लाइब्रेरी को यहां से भी डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+विस्तृत दस्तावेज़ीकरण और अतिरिक्त संसाधनों के लिए, कृपया देखें [Aspose.Slides for Java API संदर्भ](https://reference.aspose.com/slides/java/). आप लाइब्रेरी को यहां से भी डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

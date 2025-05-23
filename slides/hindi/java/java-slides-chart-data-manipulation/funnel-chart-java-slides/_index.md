@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में फ़नल चार्ट
-linktitle: जावा स्लाइड्स में फ़नल चार्ट
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java के साथ PowerPoint प्रस्तुतियों में फ़नल चार्ट बनाना सीखें। प्रभावी डेटा विज़ुअलाइज़ेशन के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 18
-url: /hi/java/chart-data-manipulation/funnel-chart-java-slides/
+"description": "Aspose.Slides for Java के साथ PowerPoint प्रस्तुतियों में फ़नल चार्ट बनाना सीखें। प्रभावी डेटा विज़ुअलाइज़ेशन के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "जावा स्लाइड्स में फ़नल चार्ट"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में फ़नल चार्ट"
+"url": "/hi/java/chart-data-manipulation/funnel-chart-java-slides/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में फ़नल चार्ट
@@ -42,7 +44,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 try
 {
-    //पहली स्लाइड में निर्देशांक (50, 50) पर आयाम (500, 400) के साथ एक फ़नल चार्ट जोड़ें।
+    // पहली स्लाइड में निर्देशांक (50, 50) पर आयाम (500, 400) के साथ एक फ़नल चार्ट जोड़ें।
     IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Funnel, 50, 50, 500, 400);
     chart.getChartData().getCategories().clear();
     chart.getChartData().getSeries().clear();
@@ -138,14 +140,16 @@ pres.save(dataDir + "Funnel.pptx", SaveFormat.Pptx);
 
 ### मैं स्लाइड पर फ़नल चार्ट की स्थिति और आकार कैसे बदल सकता हूँ?
 
-आप चरण 2 में स्लाइड में चार्ट जोड़ते समय दिए गए निर्देशांक और आयामों को संशोधित करके फ़नल चार्ट की स्थिति और आकार को समायोजित कर सकते हैं। तदनुसार मान (50, 50, 500, 400) अपडेट करें।
+चरण 2 में स्लाइड में चार्ट जोड़ते समय दिए गए निर्देशांक और आयामों को संशोधित करके आप फ़नल चार्ट की स्थिति और आकार को समायोजित कर सकते हैं। तदनुसार मान (50, 50, 500, 400) अपडेट करें।
 
 ### क्या मैं चार्ट को विभिन्न प्रारूपों में निर्यात कर सकता हूँ, जैसे कि PDF या छवि?
 
-हां, Aspose.Slides for Java आपको फ़नल चार्ट के साथ प्रेजेंटेशन को PDF, इमेज फॉर्मेट और अन्य सहित विभिन्न फॉर्मेट में एक्सपोर्ट करने की अनुमति देता है। आप इसका उपयोग कर सकते हैं`SaveFormat` प्रस्तुति को सहेजते समय वांछित आउटपुट प्रारूप निर्दिष्ट करने के लिए विकल्प।
+हां, Aspose.Slides for Java आपको फ़नल चार्ट के साथ प्रेजेंटेशन को PDF, इमेज फॉर्मेट और अन्य सहित विभिन्न फॉर्मेट में एक्सपोर्ट करने की अनुमति देता है। आप इसका उपयोग कर सकते हैं `SaveFormat` प्रस्तुति को सहेजते समय वांछित आउटपुट प्रारूप निर्दिष्ट करने के लिए विकल्प।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

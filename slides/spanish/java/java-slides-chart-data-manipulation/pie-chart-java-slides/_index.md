@@ -1,28 +1,30 @@
 ---
-title: Gráfico circular en diapositivas de Java
-linktitle: Gráfico circular en diapositivas de Java
-second_title: Aspose.Slides API de procesamiento de PowerPoint Java
-description: Aprenda a crear impresionantes gráficos circulares en presentaciones de PowerPoint utilizando Aspose.Slides para Java. Guía paso a paso con código fuente para desarrolladores de Java.
-weight: 23
-url: /es/java/chart-data-manipulation/pie-chart-java-slides/
+"description": "Aprende a crear gráficos circulares impactantes en presentaciones de PowerPoint con Aspose.Slides para Java. Guía paso a paso con código fuente para desarrolladores de Java."
+"linktitle": "Gráfico circular en diapositivas de Java"
+"second_title": "API de procesamiento de PowerPoint en Java de Aspose.Slides"
+"title": "Gráfico circular en diapositivas de Java"
+"url": "/es/java/chart-data-manipulation/pie-chart-java-slides/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gráfico circular en diapositivas de Java
 
 
-## Introducción a la creación de un gráfico circular en diapositivas de Java utilizando Aspose.Slides
+## Introducción a la creación de un gráfico circular en diapositivas de Java con Aspose.Slides
 
-En este tutorial, demostraremos cómo crear un gráfico circular en una presentación de PowerPoint usando Aspose.Slides para Java. Le proporcionaremos instrucciones paso a paso y el código fuente de Java para ayudarle a comenzar. Esta guía asume que ya ha configurado su entorno de desarrollo con Aspose.Slides para Java.
+En este tutorial, le mostraremos cómo crear un gráfico circular en una presentación de PowerPoint con Aspose.Slides para Java. Le proporcionaremos instrucciones paso a paso y el código fuente de Java para ayudarle a comenzar. Esta guía asume que ya ha configurado su entorno de desarrollo con Aspose.Slides para Java.
 
-## Requisitos previos
+## Prerrequisitos
 
- Antes de comenzar, asegúrese de tener la biblioteca Aspose.Slides para Java instalada y configurada en su proyecto. Puedes descargarlo desde[aquí](https://releases.aspose.com/slides/java/).
+Antes de comenzar, asegúrese de tener la biblioteca Aspose.Slides para Java instalada y configurada en su proyecto. Puede descargarla desde [aquí](https://releases.aspose.com/slides/java/).
 
-## Paso 1: importar las bibliotecas necesarias
+## Paso 1: Importar las bibliotecas necesarias
 
 ```java
 import com.aspose.slides.*;
@@ -31,7 +33,7 @@ import com.aspose.slides.charts.*;
 
 Asegúrese de importar las clases necesarias de la biblioteca Aspose.Slides.
 
-## Paso 2: Inicialice la presentación
+## Paso 2: Inicializar la presentación
 
 ```java
 // La ruta al directorio de documentos.
@@ -41,42 +43,42 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation();
 ```
 
- Cree un nuevo objeto de presentación para representar su archivo de PowerPoint. Reemplazar`"Your Document Directory"` con la ruta real donde desea guardar la presentación.
+Crea un nuevo objeto de presentación para representar tu archivo de PowerPoint. Reemplaza `"Your Document Directory"` con la ruta real donde desea guardar la presentación.
 
-## Paso 3: agregar una diapositiva
+## Paso 3: Agregar una diapositiva
 
 ```java
-// Accede a la primera diapositiva
+// Acceda a la primera diapositiva
 ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
 Obtenga la primera diapositiva de la presentación donde desea agregar el gráfico circular.
 
-## Paso 4: agregue un gráfico circular
+## Paso 4: Agregar un gráfico circular
 
 ```java
 // Agregar un gráfico circular con datos predeterminados
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
-Agregue un gráfico circular a la diapositiva en la posición y el tamaño especificados.
+Agregue un gráfico circular a la diapositiva en la posición y tamaño especificados.
 
-## Paso 5: establecer el título del gráfico
+## Paso 5: Establecer el título del gráfico
 
 ```java
-// Establecer título del gráfico
+// Establecer el título del gráfico
 chart.getChartTitle().addTextFrameForOverriding("Sample Title");
 chart.getChartTitle().getTextFrameForOverriding().getTextFrameFormat().setCenterText(NullableBool.True);
 chart.getChartTitle().setHeight(20);
 chart.setTitle(true);
 ```
 
-Establezca un título para el gráfico circular. Puede personalizar el título según sea necesario.
+Define un título para el gráfico circular. Puedes personalizarlo según tus necesidades.
 
-## Paso 6: personalizar los datos del gráfico
+## Paso 6: Personalizar los datos del gráfico
 
 ```java
-//Establecer la primera serie para mostrar valores.
+// Establezca la primera serie para mostrar valores
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 
 // Configuración del índice de la hoja de datos del gráfico
@@ -89,7 +91,7 @@ IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 
-// Agregar nuevas categorías
+// Añadiendo nuevas categorías
 chart.getChartData().getCategories().add(workbook.getCell(0, 1, 0, "First Qtr"));
 chart.getChartData().getCategories().add(workbook.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(workbook.getCell(0, 3, 0, "3rd Qtr"));
@@ -97,21 +99,21 @@ chart.getChartData().getCategories().add(workbook.getCell(0, 3, 0, "3rd Qtr"));
 // Añadiendo nueva serie
 IChartSeries series = chart.getChartData().getSeries().add(workbook.getCell(0, 0, 1, "Series 1"), chart.getType());
 
-// Poblar datos de series
+// Población de datos de series
 series.getDataPoints().addDataPointForPieSeries(workbook.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(workbook.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(workbook.getCell(defaultWorksheetIndex, 3, 1, 30));
 ```
 
-Personalice los datos del gráfico agregando categorías y series, y estableciendo sus valores. En este ejemplo, tenemos tres categorías y una serie con los puntos de datos correspondientes.
+Personalice los datos del gráfico añadiendo categorías y series, y configurando sus valores. En este ejemplo, tenemos tres categorías y una serie con sus puntos de datos correspondientes.
 
-## Paso 7: personalizar los sectores del gráfico circular
+## Paso 7: Personalizar los sectores del gráfico circular
 
 ```java
-// Establecer colores de sector
+// Establecer colores del sector
 chart.getChartData().getSeriesGroups().get_Item(0).setColorVaried(true);
 
-// Personaliza la apariencia de cada sector.
+// Personaliza la apariencia de cada sector
 IChartDataPoint point1 = series.getDataPoints().get_Item(0);
 point1.getFormat().getFill().setFillType(FillType.Solid);
 point1.getFormat().getFill().getSolidFillColor().setColor(new Color(PresetColor.Cyan));
@@ -125,9 +127,9 @@ point1.getFormat().getLine().setDashStyle(LineDashStyle.DashDot);
 // Personaliza otros sectores de forma similar
 ```
 
-Personaliza la apariencia de cada sector en el gráfico circular. Puede cambiar los colores, estilos de borde y otras propiedades visuales.
+Personaliza la apariencia de cada sector en el gráfico circular. Puedes cambiar los colores, los estilos de borde y otras propiedades visuales.
 
-## Paso 8: Personaliza las etiquetas de datos
+## Paso 8: Personalizar las etiquetas de datos
 
 ```java
 // Personalizar etiquetas de datos
@@ -137,16 +139,16 @@ lbl1.getDataLabelFormat().setShowValue(true);
 // Personalice las etiquetas de datos para otros puntos de datos de manera similar
 ```
 
-Personalice las etiquetas de datos para cada punto de datos en el gráfico circular. Puede controlar qué valores se muestran en el gráfico.
+Personaliza las etiquetas de datos para cada punto del gráfico circular. Puedes controlar qué valores se muestran en el gráfico.
 
-## Paso 9: mostrar líneas guía
+## Paso 9: Mostrar líneas guía
 
 ```java
 // Mostrar líneas guía para el gráfico
 series.getLabels().getDefaultDataLabelFormat().setShowLeaderLines(true);
 ```
 
-Habilite líneas guía para conectar etiquetas de datos a sus sectores correspondientes.
+Habilite las líneas guía para conectar las etiquetas de datos con sus sectores correspondientes.
 
 ## Paso 10: Establecer el ángulo de rotación del gráfico circular
 
@@ -155,18 +157,18 @@ Habilite líneas guía para conectar etiquetas de datos a sus sectores correspon
 chart.getChartData().getSeriesGroups().get_Item(0).setFirstSliceAngle(180);
 ```
 
-Establezca el ángulo de rotación para los sectores del gráfico circular. En este ejemplo, lo configuramos en 180 grados.
+Establezca el ángulo de rotación de los sectores del gráfico circular. En este ejemplo, lo establecimos en 180 grados.
 
-## Paso 11: guarde la presentación
+## Paso 11: Guardar la presentación
 
 ```java
-// Guarde la presentación con el gráfico circular
+// Guardar la presentación con el gráfico circular
 presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 ```
 
 Guarde la presentación con el gráfico circular en el directorio especificado.
 
-## Código fuente completo para gráfico circular en diapositivas de Java
+## Código fuente completo para gráficos circulares en Java (diapositivas)
 
 ```java
 // La ruta al directorio de documentos.
@@ -182,7 +184,7 @@ chart.getChartTitle().addTextFrameForOverriding("Sample Title");
 chart.getChartTitle().getTextFrameForOverriding().getTextFrameFormat().setCenterText(NullableBool.True);
 chart.getChartTitle().setHeight(20);
 chart.setTitle(true);
-// Establecer la primera serie para Mostrar valores
+// Establecer la primera serie en Mostrar valores
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 // Configuración del índice de la hoja de datos del gráfico
 int defaultWorksheetIndex = 0;
@@ -191,24 +193,24 @@ IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Eliminar series y categorías generadas por defecto
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
-// Agregar nuevas categorías
+// Añadiendo nuevas categorías
 chart.getChartData().getCategories().add(fact.getCell(0, 1, 0, "First Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 // Añadiendo nueva serie
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-// Ahora completando datos de series
+// Ahora se están rellenando los datos de la serie
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 // No funciona en la nueva versión
 // Agregar nuevos puntos y configurar el color del sector
-// series.IsColorVaried = verdadero;
+// serie.IsColorVaried = verdadero;
 chart.getChartData().getSeriesGroups().get_Item(0).setColorVaried(true);
 IChartDataPoint point = series.getDataPoints().get_Item(0);
 point.getFormat().getFill().setFillType(FillType.Solid);
 point.getFormat().getFill().getSolidFillColor().setColor(new Color(PresetColor.Cyan));
-// Configuración del borde del sector
+// Establecer el borde del sector
 point.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 point.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.GRAY);
 point.getFormat().getLine().setWidth(3.0);
@@ -217,7 +219,7 @@ point.getFormat().getLine().setDashStyle(LineDashStyle.DashDot);
 IChartDataPoint point1 = series.getDataPoints().get_Item(1);
 point1.getFormat().getFill().setFillType(FillType.Solid);
 point1.getFormat().getFill().getSolidFillColor().setColor(new Color(PresetColor.Brown));
-// Configuración del borde del sector
+// Establecer el borde del sector
 point1.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 point1.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.BLUE);
 point1.getFormat().getLine().setWidth(3.0);
@@ -226,13 +228,13 @@ point1.getFormat().getLine().setDashStyle(LineDashStyle.LargeDashDot);
 IChartDataPoint point2 = series.getDataPoints().get_Item(2);
 point2.getFormat().getFill().setFillType(FillType.Solid);
 point2.getFormat().getFill().getSolidFillColor().setColor(new Color(PresetColor.Coral));
-// Configuración del borde del sector
+// Establecer el borde del sector
 point2.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 point2.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
 point2.getFormat().getLine().setWidth(2.0);
 point2.getFormat().getLine().setStyle(LineStyle.ThinThin);
 point2.getFormat().getLine().setDashStyle(LineDashStyle.LargeDashDotDot);
-// Cree etiquetas personalizadas para cada una de las categorías de nuevas series.
+// Crea etiquetas personalizadas para cada una de las categorías de las nuevas series
 IDataLabel lbl1 = series.getDataPoints().get_Item(0).getLabel();
 // lbl.setShowCategoryName(verdadero);
 lbl1.getDataLabelFormat().setShowValue(true);
@@ -253,45 +255,47 @@ presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 
 ## Conclusión
 
-Ha creado con éxito un gráfico circular en una presentación de PowerPoint utilizando Aspose.Slides para Java. Puede personalizar la apariencia del gráfico y las etiquetas de datos según sus requisitos específicos. Este tutorial proporciona un ejemplo básico y puede mejorar y personalizar aún más sus gráficos según sea necesario.
+Ha creado correctamente un gráfico circular en una presentación de PowerPoint con Aspose.Slides para Java. Puede personalizar la apariencia y las etiquetas de datos del gráfico según sus necesidades. Este tutorial ofrece un ejemplo básico, y puede mejorar y personalizar aún más sus gráficos según sea necesario.
 
 ## Preguntas frecuentes
 
 ### ¿Cómo puedo cambiar los colores de sectores individuales en el gráfico circular?
 
- Para cambiar los colores de sectores individuales en el gráfico circular, puede personalizar el color de relleno de cada punto de datos. En el ejemplo de código proporcionado, demostramos cómo establecer el color de relleno para cada sector usando el`getSolidFillColor().setColor()` método. Puede modificar los valores de color para lograr la apariencia deseada.
+Para cambiar los colores de sectores individuales en el gráfico circular, puede personalizar el color de relleno de cada punto de datos. En el ejemplo de código proporcionado, mostramos cómo configurar el color de relleno de cada sector usando `getSolidFillColor().setColor()` Método. Puede modificar los valores de color para lograr la apariencia deseada.
 
 ### ¿Puedo agregar más categorías y series de datos al gráfico circular?
 
- Sí, puede agregar categorías y series de datos adicionales al gráfico circular. Para hacer esto, puedes usar el`getChartData().getCategories().add()` y`getChartData().getSeries().add()` métodos, como se muestra en el ejemplo. Simplemente proporcione los datos y etiquetas apropiados para las nuevas categorías y series para expandir su gráfico.
+Sí, puedes agregar categorías y series de datos adicionales al gráfico circular. Para ello, puedes usar el `getChartData().getCategories().add()` y `getChartData().getSeries().add()` Métodos, como se muestra en el ejemplo. Simplemente proporcione los datos y las etiquetas adecuados para las nuevas categorías y series para ampliar el gráfico.
 
 ### ¿Cómo personalizo la apariencia de las etiquetas de datos?
 
- Puede personalizar la apariencia de las etiquetas de datos usando el`getDataLabelFormat()` método en la etiqueta de cada punto de datos. En el ejemplo, demostramos cómo mostrar el valor en las etiquetas de datos usando`getDataLabelFormat().setShowValue(true)`. Puede personalizar aún más las etiquetas de datos controlando qué valores se muestran, mostrando claves de leyenda y ajustando otras opciones de formato.
+Puede personalizar la apariencia de las etiquetas de datos utilizando el `getDataLabelFormat()` en la etiqueta de cada punto de datos. En el ejemplo, demostramos cómo mostrar el valor en las etiquetas de datos usando `getDataLabelFormat().setShowValue(true)`Puede personalizar aún más las etiquetas de datos controlando qué valores se muestran, mostrando claves de leyenda y ajustando otras opciones de formato.
 
 ### ¿Puedo cambiar el título del gráfico circular?
 
- Sí, puedes cambiar el título del gráfico circular. En el código proporcionado, configuramos el título del gráfico usando`chart.getChartTitle().addTextFrameForOverriding("Sample Title")` . puedes reemplazar`"Sample Title"` con el texto del título que desee.
+Sí, puedes cambiar el título del gráfico circular. En el código proporcionado, configuramos el título del gráfico usando `chart.getChartTitle().addTextFrameForOverriding("Sample Title")`Puedes reemplazar `"Sample Title"` con el texto del título deseado.
 
 ### ¿Cómo guardo la presentación generada con el gráfico circular?
 
- Para guardar la presentación con el gráfico circular, utilice el`presentation.save()` método. Proporcione la ruta y el nombre del archivo deseado junto con el formato en el que desea guardar la presentación. Por ejemplo:
+Para guardar la presentación con el gráfico circular, utilice el `presentation.save()` Método. Indique la ruta y el nombre del archivo deseados, junto con el formato en el que desea guardar la presentación. Por ejemplo:
 ```java
 presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 ```
 
-Asegúrese de especificar la ruta y el formato del archivo correctos.
+Asegúrese de especificar la ruta de archivo y el formato correctos.
 
-### ¿Puedo crear otros tipos de gráficos usando Aspose.Slides para Java?
+### ¿Puedo crear otros tipos de gráficos utilizando Aspose.Slides para Java?
 
-Sí, Aspose.Slides para Java admite varios tipos de gráficos, incluidos gráficos de barras, gráficos de líneas y más. Puede crear diferentes tipos de gráficos cambiando el`ChartType` al agregar un gráfico. Consulte la documentación de Aspose.Slides para obtener más detalles sobre la creación de diferentes tipos de gráficos.
+Sí, Aspose.Slides para Java admite varios tipos de gráficos, como gráficos de barras, gráficos de líneas y más. Puede crear diferentes tipos de gráficos modificando... `ChartType` Al agregar un gráfico. Consulte la documentación de Aspose.Slides para obtener más información sobre la creación de diferentes tipos de gráficos.
 
 ### ¿Cómo puedo encontrar más información y ejemplos para trabajar con Aspose.Slides para Java?
 
- Para obtener más información, documentación detallada y ejemplos adicionales, puede visitar el[Documentación de Aspose.Slides para Java](https://reference.aspose.com/slides/java/). Proporciona recursos completos para ayudarle a utilizar la biblioteca de forma eficaz.
+Para obtener más información, documentación detallada y ejemplos adicionales, puede visitar el sitio web [Documentación de Aspose.Slides para Java](https://reference.aspose.com/slides/java/)Proporciona recursos completos para ayudarle a utilizar la biblioteca de manera eficaz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

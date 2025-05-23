@@ -1,41 +1,43 @@
 ---
-title: Licencias medidas en diapositivas de Java
-linktitle: Licencias medidas en diapositivas de Java
-second_title: Aspose.Slides API de procesamiento de PowerPoint Java
-description: Optimice su uso de Aspose.Slides para Java con licencias medidas. Aprenda cómo configurarlo y monitorear su consumo de API.
-weight: 10
-url: /es/java/licensing-and-initialization/metered-licensing-java-slides/
+"description": "Optimice el uso de Aspose.Slides para Java con licencias medidas. Aprenda a configurarlo y a supervisar el consumo de su API."
+"linktitle": "Diapositivas sobre licencias medidas en Java"
+"second_title": "API de procesamiento de PowerPoint en Java de Aspose.Slides"
+"title": "Diapositivas sobre licencias medidas en Java"
+"url": "/es/java/licensing-and-initialization/metered-licensing-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Licencias medidas en diapositivas de Java
+# Diapositivas sobre licencias medidas en Java
 
 
 ## Introducción a las licencias medidas en Aspose.Slides para Java
 
-Las licencias medidas le permiten monitorear y controlar su uso de Aspose.Slides para la API de Java. Esta guía lo guiará a través del proceso de implementación de licencias medidas en su proyecto Java utilizando Aspose.Slides. 
+Las licencias medidas le permiten supervisar y controlar el uso de Aspose.Slides para la API de Java. Esta guía le guiará en el proceso de implementación de licencias medidas en su proyecto Java con Aspose.Slides. 
 
-## Requisitos previos
+## Prerrequisitos
 
 Antes de comenzar, asegúrese de tener lo siguiente:
 
 - Aspose.Slides para archivos JAR de Java integrados en su proyecto.
-- Claves públicas y privadas para licencias medidas, que puede obtener de Aspose.
+- Claves públicas y privadas para licencias medidas, que puedes obtener en Aspose.
 
 ## Implementación de licencias medidas
 
 Para utilizar licencias medidas en Aspose.Slides para Java, siga estos pasos:
 
-###  Paso 1: crear una instancia de`Metered` class:
+### Paso 1: Crear una instancia del `Metered` clase:
 
 ```java
 Metered metered = new Metered();
 ```
 
-### Paso 2: configure la clave medida utilizando sus claves pública y privada:
+### Paso 2: Establezca la clave medida utilizando sus claves públicas y privadas:
 
 ```java
 try
@@ -48,18 +50,18 @@ catch (Exception ex)
 }
 ```
 
-### Paso 3: obtenga la cantidad de datos medidos antes y después de llamar a la API:
+### Paso 3: Obtenga la cantidad de datos medidos antes y después de llamar a la API:
 
 ```java
-// Obtenga la cantidad de datos medida antes de llamar a la API
+// Obtenga la cantidad de datos medidos antes de llamar a la API
 double amountBefore = Metered.getConsumptionQuantity();
 
 // Mostrar información
 System.out.println("Amount Consumed Before: " + amountBefore);
 
-// Llame a los métodos API de Aspose.Slides aquí
+// Llame a los métodos de la API Aspose.Slides aquí
 
-// Obtenga la cantidad de datos medida después de llamar a la API
+// Obtener la cantidad de datos medidos después de llamar a la API
 double amountAfter = Metered.getConsumptionQuantity();
 
 // Mostrar información
@@ -73,11 +75,11 @@ try
 {
 	// Acceda a la propiedad setMeteredKey y pase claves públicas y privadas como parámetros
 	metered.setMeteredKey("*****", "*****");
-	// Obtenga la cantidad de datos medida antes de llamar a la API
+	// Obtenga la cantidad de datos medidos antes de llamar a la API
 	double amountbefore = Metered.getConsumptionQuantity();
 	// Mostrar información
 	System.out.println("Amount Consumed Before: " + amountbefore);
-	//Obtener la cantidad de datos medida después de llamar a la API
+	// Obtener la cantidad de datos medidos después de llamar a la API
 	double amountafter = Metered.getConsumptionQuantity();
 	// Mostrar información
 	System.out.println("Amount Consumed After: " + amountafter);
@@ -90,33 +92,35 @@ catch (Exception ex)
 
 ## Conclusión
 
-La implementación de licencias medidas en Aspose.Slides para Java le permite monitorear el uso de su API de manera eficiente. Esto puede resultar especialmente útil cuando desea gestionar los costes y mantenerse dentro de los límites asignados.
+Implementar licencias medidas en Aspose.Slides para Java le permite supervisar el uso de su API de forma eficiente. Esto puede ser especialmente útil si desea gestionar los costes y mantenerse dentro de los límites asignados.
 
 ## Preguntas frecuentes
 
-### ¿Cómo obtengo claves de licencia medidas?
+### ¿Cómo puedo obtener claves de licencia medidas?
 
-Puede obtener claves de licencia medidas de Aspose. Póngase en contacto con su soporte o visite su sitio web para obtener más información.
+Puede obtener claves de licencia medidas de Aspose. Para más información, contacte con su soporte o visite su sitio web.
 
-### ¿Se requiere una licencia medida para usar Aspose.Slides para Java?
+### ¿Se requiere una licencia medida para utilizar Aspose.Slides para Java?
 
-Las licencias medidas son opcionales, pero pueden ayudarlo a realizar un seguimiento del uso de su API y administrar los costos de manera efectiva.
+Las licencias medidas son opcionales, pero pueden ayudarle a realizar un seguimiento del uso de su API y administrar los costos de manera efectiva.
 
 ### ¿Puedo utilizar licencias medidas con otros productos Aspose?
 
-Sí, las licencias medidas están disponibles para varios productos Aspose, incluido Aspose.Slides para Java.
+Sí, hay licencias medidas disponibles para varios productos Aspose, incluido Aspose.Slides para Java.
 
-### ¿Qué sucede si excedo mi límite medido?
+### ¿Qué pasa si excedo mi límite medido?
 
-Si excede su límite medido, es posible que deba actualizar su licencia o comunicarse con Aspose para obtener ayuda.
+Si excede su límite medido, es posible que necesite actualizar su licencia o comunicarse con Aspose para obtener ayuda.
 
-### ¿Necesito una conexión a Internet para obtener licencias medidas?
+### ¿Necesito una conexión a Internet para obtener una licencia medida?
 
-Sí, se requiere una conexión a Internet para configurar y validar las licencias medidas.
+Sí, se requiere una conexión a Internet para configurar y validar la licencia medida.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

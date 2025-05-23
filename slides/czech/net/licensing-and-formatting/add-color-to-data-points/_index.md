@@ -1,32 +1,34 @@
 ---
-title: Zbarvení grafu pomocí Aspose.Slides pro .NET
-linktitle: Přidejte barvu k datovým bodům v grafu
-second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Naučte se, jak přidat barvu k datovým bodům v grafu pomocí Aspose.Slides pro .NET. Vylepšete své prezentace vizuálně a efektivně zapojte své publikum.
-weight: 12
-url: /cs/net/licensing-and-formatting/add-color-to-data-points/
+"description": "Naučte se, jak pomocí Aspose.Slides pro .NET přidat barvu k datovým bodům v grafu. Vylepšete své prezentace vizuálně a efektivně zaujměte publikum."
+"linktitle": "Přidání barvy k datovým bodům v grafu"
+"second_title": "Rozhraní API pro zpracování PowerPointu v .NET od Aspose.Slides"
+"title": "Barvení grafů pomocí Aspose.Slides pro .NET"
+"url": "/cs/net/licensing-and-formatting/add-color-to-data-points/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zbarvení grafu pomocí Aspose.Slides pro .NET
+# Barvení grafů pomocí Aspose.Slides pro .NET
 
 
-V tomto podrobném průvodci vás provedeme procesem přidávání barev k datovým bodům v grafu pomocí Aspose.Slides pro .NET. Aspose.Slides je výkonná knihovna pro práci s PowerPointovými prezentacemi v aplikacích .NET. Přidáním barvy k datovým bodům v grafu mohou být vaše prezentace vizuálně přitažlivější a snáze srozumitelné.
+tomto podrobném návodu vás provedeme procesem přidání barvy k datovým bodům v grafu pomocí knihovny Aspose.Slides pro .NET. Aspose.Slides je výkonná knihovna pro práci s prezentacemi v PowerPointu v aplikacích .NET. Přidání barvy k datovým bodům v grafu může vaše prezentace učinit vizuálně přitažlivějšími a srozumitelnějšími.
 
 ## Předpoklady
 
 Než začnete, ujistěte se, že máte splněny následující předpoklady:
 
-1. Visual Studio: V počítači musíte mít nainstalované Visual Studio.
+1. Visual Studio: Na počítači musíte mít nainstalované Visual Studio.
 
-2.  Aspose.Slides for .NET: Stáhněte si a nainstalujte Aspose.Slides for .NET z[odkaz ke stažení](https://releases.aspose.com/slides/net/).
+2. Aspose.Slides pro .NET: Stáhněte a nainstalujte Aspose.Slides pro .NET z [odkaz ke stažení](https://releases.aspose.com/slides/net/).
 
-3. Základní porozumění C#: Měli byste mít základní znalosti programování C#.
+3. Základní znalost C#: Měli byste mít základní znalosti programování v C#.
 
-4. Váš adresář dokumentů: Nahraďte "Your Document Directory" v kódu skutečnou cestou k adresáři vašeho dokumentu.
+4. Adresář dokumentů: V kódu nahraďte „Adresář dokumentů“ skutečnou cestou k adresáři dokumentů.
 
 ## Import jmenných prostorů
 
@@ -39,12 +41,12 @@ using Aspose.Slides;
 ```
 
 
-V tomto příkladu přidáme barvu k datovým bodům v grafu pomocí typu grafu Sunburst.
+tomto příkladu přidáme barvu k datovým bodům v grafu pomocí typu grafu Sunburst.
 
 ```csharp
 using (Presentation pres = new Presentation())
 {
-    // Cesta k adresáři dokumentů.
+    // Cesta k adresáři s dokumenty.
     string dataDir = "Your Document Directory";
 
     IChart chart = pres.Slides[0].Shapes.AddChart(ChartType.Sunburst, 100, 100, 450, 400);
@@ -62,9 +64,9 @@ IChartDataPointCollection dataPoints = chart.ChartData.Series[0].DataPoints;
 dataPoints[3].DataPointLevels[0].Label.DataLabelFormat.ShowValue = true;
 ```
 
-## Krok 2: Přizpůsobení štítků dat
+## Krok 2: Přizpůsobení popisků dat
 
-Nyní přizpůsobme popisky dat pro datový bod 0. Skryjeme název kategorie a zobrazíme název série.
+Nyní si upravme popisky dat pro datový bod 0. Skryjeme název kategorie a zobrazíme název řady.
 
 ```csharp
 IDataLabel branch1Label = dataPoints[0].DataPointLevels[2].Label;
@@ -74,16 +76,16 @@ branch1Label.DataLabelFormat.ShowSeriesName = true;
 
 ## Krok 3: Nastavení formátu textu a barvy výplně
 
-Vzhled datových štítků můžeme dále vylepšit nastavením formátu textu a barvy výplně. V tomto kroku nastavíme barvu textu pro datový bod 0 na žlutou.
+Vzhled popisků dat můžeme dále vylepšit nastavením formátu textu a barvy výplně. V tomto kroku nastavíme barvu textu pro datový bod 0 na žlutou.
 
 ```csharp
 branch1Label.DataLabelFormat.TextFormat.PortionFormat.FillFormat.FillType = FillType.Solid;
 branch1Label.DataLabelFormat.TextFormat.PortionFormat.FillFormat.SolidFillColor.Color = Color.Yellow;
 ```
 
-## Krok 4: Přizpůsobení barvy výplně datových bodů
+## Krok 4: Úprava barvy výplně datových bodů
 
-Nyní změňme barvu výplně datového bodu 9. Nastavíme jej na konkrétní barvu.
+Nyní změníme barvu výplně datového bodu 9. Nastavíme ji na konkrétní barvu.
 
 ```csharp
 IFormat steam4Format = dataPoints[9].Format;
@@ -93,37 +95,39 @@ steam4Format.Fill.SolidFillColor.Color = Color.FromArgb(0, 176, 240, 255);
 
 ## Krok 5: Uložení prezentace
 
-Po přizpůsobení grafu můžete prezentaci uložit se změnami.
+Po úpravě grafu můžete prezentaci uložit se změnami.
 
 ```csharp
 pres.Save(dataDir + "AddColorToDataPoints.pptx", SaveFormat.Pptx);
 ```
 
-Gratulujeme! Úspěšně jste přidali barvu do datových bodů v grafu pomocí Aspose.Slides pro .NET. To může výrazně zvýšit vizuální přitažlivost a jasnost vašich prezentací.
+Gratulujeme! Úspěšně jste přidali barvu k datovým bodům v grafu pomocí Aspose.Slides pro .NET. To může výrazně zvýšit vizuální atraktivitu a srozumitelnost vašich prezentací.
 
 ## Závěr
 
-Přidání barvy k datovým bodům v grafu je účinný způsob, jak učinit vaše prezentace poutavější a informativnější. S Aspose.Slides for .NET máte nástroje k vytváření vizuálně přitažlivých grafů, které efektivně předávají vaše data.
+Přidání barev k datovým bodům v grafu je účinný způsob, jak učinit vaše prezentace poutavějšími a informativnějšími. S Aspose.Slides pro .NET máte nástroje k vytváření vizuálně poutavých grafů, které efektivně zobrazují vaše data.
 
 ## Často kladené otázky (FAQ)
 
 ### Co je Aspose.Slides pro .NET?
-   Aspose.Slides for .NET je knihovna, která umožňuje vývojářům .NET pracovat s prezentacemi v PowerPointu programově.
+   Aspose.Slides pro .NET je knihovna, která umožňuje vývojářům v .NET programově pracovat s prezentacemi v PowerPointu.
 
-### Mohu upravit další vlastnosti grafu pomocí Aspose.Slides?
-   Ano, pomocí Aspose.Slides for .NET si můžete přizpůsobit různé aspekty grafů, jako jsou štítky dat, písma, barvy a další.
+### Mohu si přizpůsobit další vlastnosti grafu pomocí Aspose.Slides?
+   Ano, pomocí Aspose.Slides pro .NET si můžete přizpůsobit různé aspekty grafů, jako jsou popisky dat, písma, barvy a další.
 
 ### Kde najdu dokumentaci k Aspose.Slides pro .NET?
-    Podrobnou dokumentaci najdete na[odkaz na dokumentaci](https://reference.aspose.com/slides/net/).
+   Podrobnou dokumentaci naleznete na [odkaz na dokumentaci](https://reference.aspose.com/slides/net/).
 
-### Je k dispozici bezplatná zkušební verze pro Aspose.Slides pro .NET?
-    Ano, můžete si stáhnout bezplatnou zkušební verzi z[tady](https://releases.aspose.com/).
+### Je k dispozici bezplatná zkušební verze Aspose.Slides pro .NET?
+   Ano, můžete si stáhnout bezplatnou zkušební verzi z [zde](https://releases.aspose.com/).
 
 ### Jak získám podporu pro Aspose.Slides pro .NET?
-    Pro podporu a diskuze navštivte[Fórum Aspose.Slides](https://forum.aspose.com/).
+   Pro podporu a diskuzi navštivte [Fórum Aspose.Slides](https://forum.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में हिस्टोग्राम चार्ट
-linktitle: जावा स्लाइड्स में हिस्टोग्राम चार्ट
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में हिस्टोग्राम चार्ट बनाना सीखें। डेटा विज़ुअलाइज़ेशन के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 19
-url: /hi/java/chart-data-manipulation/histogram-chart-java-slides/
+"description": "Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में हिस्टोग्राम चार्ट बनाना सीखें। डेटा विज़ुअलाइज़ेशन के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "जावा स्लाइड्स में हिस्टोग्राम चार्ट"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में हिस्टोग्राम चार्ट"
+"url": "/hi/java/chart-data-manipulation/histogram-chart-java-slides/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में हिस्टोग्राम चार्ट
@@ -20,7 +22,7 @@ url: /hi/java/chart-data-manipulation/histogram-chart-java-slides/
 
 ## आवश्यक शर्तें
 
- शुरू करने से पहले, सुनिश्चित करें कि आपके पास Aspose.Slides for Java लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं[Aspose वेबसाइट](https://releases.aspose.com/slides/java/).
+शुरू करने से पहले, सुनिश्चित करें कि आपके पास Aspose.Slides for Java लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं [Aspose वेबसाइट](https://releases.aspose.com/slides/java/).
 
 ## चरण 1: अपना प्रोजेक्ट आरंभ करें
 
@@ -39,7 +41,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 ```
 
- प्रतिस्थापित करना सुनिश्चित करें`"Your Document Directory"` अपने PowerPoint दस्तावेज़ के वास्तविक पथ के साथ.
+प्रतिस्थापित करना सुनिश्चित करें `"Your Document Directory"` अपने PowerPoint दस्तावेज़ के वास्तविक पथ के साथ.
 
 ## चरण 4: हिस्टोग्राम चार्ट बनाएं
 
@@ -71,7 +73,7 @@ try {
 }
 ```
 
- इस कोड में, हम सबसे पहले चार्ट से मौजूदा श्रेणियों और श्रृंखलाओं को हटाते हैं। फिर, हम श्रृंखला में डेटा बिंदुओं को जोड़ते हैं`getDataPoints().addDataPointForHistogramSeries` अंत में, हम क्षैतिज अक्ष एकत्रीकरण प्रकार को स्वचालित पर सेट करते हैं और प्रस्तुति को सहेजते हैं।
+इस कोड में, हम सबसे पहले चार्ट से मौजूदा श्रेणियों और श्रृंखलाओं को हटाते हैं। फिर, हम श्रृंखला में डेटा बिंदुओं को जोड़ते हैं `getDataPoints().addDataPointForHistogramSeries` अंत में, हम क्षैतिज अक्ष एकत्रीकरण प्रकार को स्वचालित पर सेट करते हैं और प्रस्तुति को सहेजते हैं।
 
 ## जावा स्लाइड्स में हिस्टोग्राम चार्ट के लिए पूर्ण स्रोत कोड
 
@@ -109,7 +111,7 @@ finally
 
 ### मैं Java के लिए Aspose.Slides कैसे स्थापित करूं?
 
- आप Aspose.Slides for Java लाइब्रेरी को यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/)उनकी वेबसाइट पर दिए गए इंस्टॉलेशन निर्देशों का पालन करें।
+आप Aspose.Slides for Java लाइब्रेरी को यहां से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/)उनकी वेबसाइट पर दिए गए इंस्टॉलेशन निर्देशों का पालन करें।
 
 ### हिस्टोग्राम चार्ट का उपयोग किस लिए किया जाता है?
 
@@ -118,9 +120,11 @@ finally
 ### क्या मैं हिस्टोग्राम चार्ट के स्वरूप को अनुकूलित कर सकता हूँ?
 
 हां, आप Aspose.Slides API का उपयोग करके चार्ट के रंग, लेबल और अक्ष सहित उसके स्वरूप को अनुकूलित कर सकते हैं।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

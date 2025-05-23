@@ -1,99 +1,103 @@
 ---
-title: Nyújtáseltolás hozzáadása balra a PowerPointban az Aspose.Slide segítségével
-linktitle: Nyújtáseltolás hozzáadása balra az Aspose.Slides képkeretéhez
-second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Ismerje meg, hogyan javíthatja a PowerPoint prezentációkat az Aspose.Slides for .NET használatával. Kövesse lépésenkénti útmutatónkat, hogy a képkeretekhez balra nyújtsa a nyújtási eltolást.
-weight: 14
-url: /hu/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left-picture-frame/
+"description": "Ismerd meg, hogyan javíthatod a PowerPoint prezentációidat az Aspose.Slides for .NET segítségével. Kövesd lépésről lépésre szóló útmutatónkat a képkeretek balra nyújtásos eltolásának hozzáadásához."
+"linktitle": "Nyújtott eltolás hozzáadása balra képkerethez az Aspose.Slides-ban"
+"second_title": "Aspose.Slides .NET PowerPoint feldolgozási API"
+"title": "Nyújtott eltolás hozzáadása balra PowerPointban az Aspose.Slide segítségével"
+"url": "/hu/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left-picture-frame/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nyújtáseltolás hozzáadása balra a PowerPointban az Aspose.Slide segítségével
+# Nyújtott eltolás hozzáadása balra PowerPointban az Aspose.Slide segítségével
 
 ## Bevezetés
-Az Aspose.Slides for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára a PowerPoint prezentációk egyszerű kezelését. Ebben az oktatóanyagban azt a folyamatot vizsgáljuk meg, amely során az Aspose.Slides for .NET segítségével nyúlási eltolást adunk a képkeret bal oldalához. Kövesse ezt a lépésenkénti útmutatót a PowerPoint-bemutatókon belüli képekkel és alakzatokkal kapcsolatos készségeinek fejlesztéséhez.
+Az Aspose.Slides for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára a PowerPoint-bemutatók egyszerű kezelését. Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet balra eltolni egy képkeretet az Aspose.Slides for .NET segítségével. Kövesd ezt a lépésről lépésre szóló útmutatót, hogy fejleszd a képekkel és alakzatokkal való PowerPoint-bemutatókon belüli munkádban szerzett készségeidet.
 ## Előfeltételek
-Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételeket teljesítette:
--  Aspose.Slides for .NET: Győződjön meg arról, hogy a könyvtár telepítve van. Ha nem, töltse le a[Aspose.Slides a .NET dokumentációhoz](https://reference.aspose.com/slides/net/).
-- Fejlesztési környezet: .NET-képességekkel rendelkező, működő fejlesztői környezettel.
+Mielőtt belevágnál az oktatóanyagba, győződj meg róla, hogy a következő előfeltételek teljesülnek:
+- Aspose.Slides .NET-hez: Győződjön meg róla, hogy telepítve van a könyvtár. Ha nem, töltse le innen: [Aspose.Slides .NET dokumentációhoz](https://reference.aspose.com/slides/net/).
+- Fejlesztői környezet: Rendelkezzen egy működőképes fejlesztői környezettel .NET képességekkel.
 ## Névterek importálása
-Kezdje a szükséges névterek importálásával a .NET-projektben:
+Kezdje a szükséges névterek importálásával a .NET projektjébe:
 ```csharp
 using System.IO;
 using Aspose.Slides;
 using System.Drawing;
 using Aspose.Slides.Export;
 ```
-## 1. lépés: Állítsa be projektjét
-Hozzon létre egy új projektet, vagy nyisson meg egy meglévőt. Győződjön meg arról, hogy az Aspose.Slides könyvtárra hivatkozik a projektben.
+## 1. lépés: A projekt beállítása
+Hozz létre egy új projektet, vagy nyisson meg egy meglévőt. Győződjön meg róla, hogy az Aspose.Slides könyvtárra hivatkozik a projektben.
 ## 2. lépés: Prezentációs objektum létrehozása
- Példányosítsa a`Presentation` osztály, amely a PPTX fájlt képviseli:
+Példányosítsa a `Presentation` osztály, amely a PPTX fájlt jelöli:
 ```csharp
 using (Presentation pres = new Presentation())
 {
-    // A további lépések kódja ide kerül.
+    // A következő lépésekhez tartozó kódod ide fog kerülni.
 }
 ```
-## 3. lépés: Szerezd meg az első diát
-Az első diának előhívása a prezentációból:
+## 3. lépés: Az első dia elkészítése
+A prezentáció első diájának lekérése:
 ```csharp
 ISlide slide = pres.Slides[0];
 ```
-## 4. lépés: Példányosítsa a képet
-Töltse be a használni kívánt képet:
+## 4. lépés: A kép példányosítása
+Töltsd be a használni kívánt képet:
 ```csharp
 System.Drawing.Image img = (System.Drawing.Image)new Bitmap(dataDir + "aspose-logo.jpg");
 IPPImage imgEx = pres.Images.AddImage(img);
 ```
-## 5. lépés: Téglalap automatikus alakzat hozzáadása
-Hozzon létre egy téglalap típusú automatikus alakzatot:
+## 5. lépés: Téglalap alakú alakzat hozzáadása
+Hozz létre egy Téglalap típusú AutoShape-ot:
 ```csharp
 IAutoShape aShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 300, 300);
 ```
-## 6. lépés: Állítsa be a kitöltés típusát és a képkitöltési módot
-Állítsa be az alakzat kitöltési típusát és a képkitöltés módját:
+## 6. lépés: Kitöltési típus és képkitöltési mód beállítása
+Konfigurálja az alakzat kitöltési típusát és a képkitöltés módját:
 ```csharp
 aShape.FillFormat.FillType = FillType.Picture;
 aShape.FillFormat.PictureFillFormat.PictureFillMode = PictureFillMode.Stretch;
 ```
-## 7. lépés: Állítsa be a képet az alakzat kitöltésére
-Adja meg az alakzat kitöltéséhez szükséges képet:
+## 7. lépés: Kép beállítása az alakzat kitöltéséhez
+Adja meg a képet az alakzat kitöltéséhez:
 ```csharp
 aShape.FillFormat.PictureFillFormat.Picture.Image = imgEx;
 ```
-## 8. lépés: Adja meg a nyújtási eltolásokat
-Határozza meg a kép eltolásait az alakzat határolókeretének megfelelő éleihez képest:
+## 8. lépés: Nyújtási eltolások megadása
+Adja meg a kép eltolását az alakzat határolókeretének megfelelő éleitől:
 ```csharp
 aShape.FillFormat.PictureFillFormat.StretchOffsetLeft = 25;
 aShape.FillFormat.PictureFillFormat.StretchOffsetRight = 25;
 aShape.FillFormat.PictureFillFormat.StretchOffsetTop = -20;
 aShape.FillFormat.PictureFillFormat.StretchOffsetBottom = -10;
 ```
-## 9. lépés: Mentse el a bemutatót
-Írja ki a PPTX fájlt a lemezre:
+## 9. lépés: Mentse el a prezentációt
+Írd ki a PPTX fájlt lemezre:
 ```csharp
 pres.Save(dataDir + "StretchOffsetLeftForPictureFrame_out.pptx", SaveFormat.Pptx);
 ```
-Gratulálunk! Sikeresen hozzáadott egy nyújtási eltolást a képkeret bal oldalához az Aspose.Slides for .NET használatával.
+Gratulálunk! Sikeresen hozzáadtál egy balra eltolt nyújtást egy képkerethez az Aspose.Slides for .NET használatával.
 ## Következtetés
-Ebben az oktatóanyagban megvizsgáltuk a PowerPoint-prezentációk képkereteinek manipulálásának folyamatát az Aspose.Slides for .NET használatával. A lépésenkénti útmutató követésével betekintést nyerhetett a képekkel, alakzatokkal és eltolásokkal végzett munkába.
+Ebben az oktatóanyagban a PowerPoint-bemutatókban a képkeretek manipulálásának folyamatát vizsgáltuk meg az Aspose.Slides for .NET használatával. A lépésről lépésre haladó útmutató követésével betekintést nyerhettél a képekkel, alakzatokkal és eltolásokkal való munkába.
 ## Gyakran Ismételt Kérdések
-### K: Alkalmazhatok nyújtási eltolást a téglalapokon kívül más alakzatokra is?
-V: Míg ez az oktatóanyag a téglalapokra összpontosít, a nyújtási eltolásokat az Aspose.Slides által támogatott különféle alakzatokra lehet alkalmazni.
-### K: Hogyan állíthatom be a nyúlási eltolásokat a különböző effektusokhoz?
-V: Kísérletezzen különböző eltolási értékekkel a kívánt vizuális hatás elérése érdekében. Finomítsa az értékeket saját igényei szerint.
+### K: Alkalmazhatok nyújtási eltolásokat más alakzatokra is, nem csak téglalapokra?
+A: Bár ez az oktatóanyag a téglalapokra összpontosít, a nyújtási eltolások az Aspose.Slides által támogatott különféle alakzatokra alkalmazhatók.
+### K: Hogyan tudom beállítani a nyújtási eltolásokat a különböző effektekhez?
+A: Kísérletezzen különböző eltolási értékekkel a kívánt vizuális hatás eléréséhez. Finomítsa az értékeket az Ön igényeinek megfelelően.
 ### K: Az Aspose.Slides kompatibilis a legújabb .NET keretrendszerrel?
-V: Az Aspose.Slides-t rendszeresen frissítik, hogy biztosítsák a kompatibilitást a legújabb .NET-keretrendszer-verziókkal.
-### K: Hol találhatok további példákat és forrásokat az Aspose.Slides-hez?
- V: Fedezze fel a[Aspose.Slides dokumentáció](https://reference.aspose.com/slides/net/) átfogó példákért és útmutatásért.
+A: Az Aspose.Slides rendszeresen frissül, hogy biztosítsa a kompatibilitást a legújabb .NET keretrendszer verziókkal.
+### K: Hol találok további példákat és forrásokat az Aspose.Slides-hez?
+A: Fedezze fel a [Aspose.Slides dokumentáció](https://reference.aspose.com/slides/net/) átfogó példákért és útmutatásért.
 ### K: Alkalmazhatok több nyújtási eltolást egyetlen alakzatra?
-V: Igen, több nyújtási eltolást kombinálhat összetett és testreszabott vizuális hatások eléréséhez.
+V: Igen, több nyújtási eltolást kombinálhat összetett és testreszabott vizuális effektek eléréséhez.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

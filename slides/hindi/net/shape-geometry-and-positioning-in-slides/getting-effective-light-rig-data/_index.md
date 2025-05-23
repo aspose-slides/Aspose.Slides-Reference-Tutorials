@@ -1,14 +1,16 @@
 ---
-title: Aspose.Slides के साथ प्रभावी लाइट रिग डेटा में महारत हासिल करें
-linktitle: प्रेजेंटेशन स्लाइड्स में प्रभावी लाइट रिग डेटा प्राप्त करना
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: Aspose.Slides for .NET के साथ अपनी प्रस्तुति स्लाइड्स को बेहतर बनाएँ! प्रभावी लाइट रिग डेटा को चरण-दर-चरण प्राप्त करना सीखें। अपनी विज़ुअल स्टोरीटेलिंग को अभी और बेहतर बनाएँ!
-weight: 19
-url: /hi/net/shape-geometry-and-positioning-in-slides/getting-effective-light-rig-data/
+"description": "Aspose.Slides for .NET के साथ अपनी प्रस्तुति स्लाइड्स को बेहतर बनाएँ! प्रभावी लाइट रिग डेटा को चरण-दर-चरण प्राप्त करना सीखें। अपनी विज़ुअल स्टोरीटेलिंग को अभी और बेहतर बनाएँ!"
+"linktitle": "प्रेजेंटेशन स्लाइड्स में प्रभावी लाइट रिग डेटा प्राप्त करना"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "Aspose.Slides के साथ प्रभावी लाइट रिग डेटा में महारत हासिल करें"
+"url": "/hi/net/shape-geometry-and-positioning-in-slides/getting-effective-light-rig-data/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Slides के साथ प्रभावी लाइट रिग डेटा में महारत हासिल करें
@@ -18,7 +20,7 @@ url: /hi/net/shape-geometry-and-positioning-in-slides/getting-effective-light-ri
 ## आवश्यक शर्तें
 इससे पहले कि हम ट्यूटोरियल में आगे बढ़ें, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 - C# और .NET प्रोग्रामिंग का बुनियादी ज्ञान।
--  Aspose.Slides for .NET लाइब्रेरी स्थापित है। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET लाइब्रेरी स्थापित है। आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/net/).
 - एक कोड संपादक जैसे कि विजुअल स्टूडियो.
 ## नामस्थान आयात करें
 अपने C# कोड में, सुनिश्चित करें कि आप Aspose.Slides के साथ काम करने के लिए आवश्यक नामस्थानों को आयात करते हैं:
@@ -46,7 +48,7 @@ if (!isExists)
 ```csharp
 using (Presentation pres = new Presentation(dataDir + "Presentation1.pptx"))
 {
-    //प्रभावी लाइट रिग डेटा प्राप्त करने के लिए आपका कोड यहां दिया गया है
+    // प्रभावी लाइट रिग डेटा प्राप्त करने के लिए आपका कोड यहां दिया गया है
 }
 ```
 ## चरण 4: प्रभावी लाइट रिग डेटा प्राप्त करें
@@ -63,16 +65,18 @@ Console.WriteLine("Direction: " + threeDEffectiveData.LightRig.Direction);
 ### क्या मैं अन्य प्रोग्रामिंग भाषाओं के साथ .NET के लिए Aspose.Slides का उपयोग कर सकता हूँ?
 Aspose.Slides मुख्य रूप से C# जैसी .NET भाषाओं का समर्थन करता है। हालाँकि, Java के लिए भी समान उत्पाद उपलब्ध हैं।
 ### क्या .NET के लिए Aspose.Slides का कोई परीक्षण संस्करण उपलब्ध है?
- हां, आप परीक्षण संस्करण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप परीक्षण संस्करण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
 ### मैं Aspose.Slides for .NET के लिए विस्तृत दस्तावेज़ कहां पा सकता हूं?
- दस्तावेज़ उपलब्ध है[यहाँ](https://reference.aspose.com/slides/net/).
+दस्तावेज़ उपलब्ध है [यहाँ](https://reference.aspose.com/slides/net/).
 ### मैं Aspose.Slides for .NET के बारे में समर्थन कैसे प्राप्त कर सकता हूं या प्रश्न कैसे पूछ सकता हूं?
- सहायता फ़ोरम पर जाएँ[यहाँ](https://forum.aspose.com/c/slides/11).
+सहायता फ़ोरम पर जाएँ [यहाँ](https://forum.aspose.com/c/slides/11).
 ### क्या मैं Aspose.Slides for .NET के लिए अस्थायी लाइसेंस खरीद सकता हूँ?
- हां, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+हां, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

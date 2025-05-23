@@ -1,14 +1,16 @@
 ---
-title: Ẩn thông tin khỏi biểu đồ trong Java Slides
-linktitle: Ẩn thông tin khỏi biểu đồ trong Java Slides
-second_title: Aspose.Slides API xử lý PowerPoint Java
-description: Tìm hiểu cách ẩn các thành phần biểu đồ trong Java Slides với Aspose.Slides for Java. Tùy chỉnh bản trình bày để rõ ràng và có tính thẩm mỹ với hướng dẫn từng bước và mã nguồn.
-weight: 13
-url: /vi/java/customization-and-formatting/hide-information-chart-java-slides/
+"description": "Tìm hiểu cách ẩn các thành phần biểu đồ trong Java Slides với Aspose.Slides for Java. Tùy chỉnh bài thuyết trình để rõ ràng và thẩm mỹ hơn với hướng dẫn từng bước và mã nguồn."
+"linktitle": "Ẩn thông tin khỏi biểu đồ trong Java Slides"
+"second_title": "API xử lý PowerPoint Java của Aspose.Slides"
+"title": "Ẩn thông tin khỏi biểu đồ trong Java Slides"
+"url": "/vi/java/customization-and-formatting/hide-information-chart-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ẩn thông tin khỏi biểu đồ trong Java Slides
@@ -16,22 +18,22 @@ url: /vi/java/customization-and-formatting/hide-information-chart-java-slides/
 
 ## Giới thiệu về Ẩn thông tin khỏi biểu đồ trong Java Slides
 
-Trong hướng dẫn này, chúng ta sẽ khám phá cách ẩn các thành phần khác nhau khỏi biểu đồ trong Java Slides bằng cách sử dụng API Aspose.Slides cho Java. Bạn có thể sử dụng mã này để tùy chỉnh biểu đồ nếu cần cho bản trình bày của mình.
+Trong hướng dẫn này, chúng ta sẽ khám phá cách ẩn nhiều thành phần khác nhau khỏi biểu đồ trong Java Slides bằng cách sử dụng Aspose.Slides for Java API. Bạn có thể sử dụng mã này để tùy chỉnh biểu đồ của mình khi cần cho bài thuyết trình của mình.
 
 ## Bước 1: Thiết lập môi trường
 
- Trước khi chúng ta bắt đầu, hãy đảm bảo bạn đã thêm thư viện Aspose.Slides for Java vào dự án của mình. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/slides/java/).
+Trước khi bắt đầu, hãy đảm bảo bạn đã thêm thư viện Aspose.Slides for Java vào dự án của mình. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/slides/java/).
 
-## Bước 2: Tạo bản trình bày mới
+## Bước 2: Tạo một bài thuyết trình mới
 
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 ```
 
-## Bước 3: Thêm biểu đồ vào slide
+## Bước 3: Thêm biểu đồ vào trang chiếu
 
-Chúng tôi sẽ thêm biểu đồ dạng đường có điểm đánh dấu vào trang chiếu, sau đó tiến hành ẩn các thành phần khác nhau của biểu đồ.
+Chúng tôi sẽ thêm biểu đồ đường có đánh dấu vào trang chiếu và sau đó tiến hành ẩn các thành phần khác nhau của biểu đồ.
 
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
@@ -48,13 +50,13 @@ chart.setTitle(false);
 
 ## Bước 5: Ẩn trục giá trị
 
-Để ẩn trục giá trị (trục tung), hãy sử dụng mã sau:
+Để ẩn trục giá trị (trục dọc), hãy sử dụng mã sau:
 
 ```java
 chart.getAxes().getVerticalAxis().setVisible(false);
 ```
 
-## Bước 6: Ẩn trục danh mục
+## Bước 6: Ẩn Trục Danh mục
 
 Để ẩn trục danh mục (trục ngang), hãy sử dụng mã này:
 
@@ -64,7 +66,7 @@ chart.getAxes().getHorizontalAxis().setVisible(false);
 
 ## Bước 7: Ẩn chú giải
 
-Bạn có thể ẩn chú giải của biểu đồ như thế này:
+Bạn có thể ẩn chú thích của biểu đồ như thế này:
 
 ```java
 chart.setLegend(false);
@@ -72,15 +74,15 @@ chart.setLegend(false);
 
 ## Bước 8: Ẩn các đường lưới chính
 
-Để ẩn các đường lưới chính của trục hoành, bạn có thể sử dụng đoạn mã sau:
+Để ẩn các đường lưới chính của trục ngang, bạn có thể sử dụng đoạn mã sau:
 
 ```java
 chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.NoFill);
 ```
 
-## Bước 9: Xóa chuỗi
+## Bước 9: Xóa Series
 
-Nếu muốn xóa tất cả chuỗi khỏi biểu đồ, bạn có thể sử dụng vòng lặp như thế này:
+Nếu bạn muốn xóa toàn bộ chuỗi khỏi biểu đồ, bạn có thể sử dụng vòng lặp như thế này:
 
 ```java
 for (int i = 0; i < chart.getChartData().getSeries().size(); i++) {
@@ -88,9 +90,9 @@ for (int i = 0; i < chart.getChartData().getSeries().size(); i++) {
 }
 ```
 
-## Bước 10: Tùy chỉnh chuỗi biểu đồ
+## Bước 10: Tùy chỉnh Chuỗi Biểu đồ
 
-Bạn có thể tùy chỉnh chuỗi biểu đồ nếu cần. Trong ví dụ này, chúng tôi thay đổi kiểu điểm đánh dấu, vị trí nhãn dữ liệu, kích thước điểm đánh dấu, màu đường và kiểu dấu gạch ngang:
+Bạn có thể tùy chỉnh chuỗi biểu đồ khi cần. Trong ví dụ này, chúng tôi thay đổi kiểu đánh dấu, vị trí nhãn dữ liệu, kích thước đánh dấu, màu đường và kiểu gạch ngang:
 
 ```java
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
@@ -105,15 +107,15 @@ series.getFormat().getLine().setDashStyle(LineDashStyle.Solid);
 
 ## Bước 11: Lưu bài thuyết trình
 
-Cuối cùng, lưu bản trình bày vào một tệp:
+Cuối cùng, lưu bài thuyết trình vào một tệp:
 
 ```java
 pres.save(dataDir + "HideInformationFromChart.pptx", SaveFormat.Pptx);
 ```
 
-Đó là nó! Bạn đã ẩn thành công nhiều thành phần khác nhau khỏi biểu đồ trong Java Slides bằng Aspose.Slides for Java. Bạn có thể tùy chỉnh thêm biểu đồ và bản trình bày nếu cần cho các yêu cầu cụ thể của mình.
+Vậy là xong! Bạn đã ẩn thành công nhiều thành phần khác nhau khỏi biểu đồ trong Java Slides bằng Aspose.Slides for Java. Bạn có thể tùy chỉnh thêm biểu đồ và bản trình bày của mình khi cần cho các yêu cầu cụ thể của bạn.
 
-## Mã nguồn hoàn chỉnh để ẩn thông tin khỏi biểu đồ trong Java Slides
+## Mã nguồn đầy đủ để ẩn thông tin khỏi biểu đồ trong Java Slides
 
 ```java
 // Đường dẫn đến thư mục tài liệu.
@@ -123,13 +125,13 @@ try
 {
 	ISlide slide = pres.getSlides().get_Item(0);
 	IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 140, 118, 320, 370);
-	//Ẩn biểu đồ
+	//Ẩn tiêu đề biểu đồ
 	chart.setTitle(false);
-	///Ẩn trục giá trị
+	///Ẩn trục Giá trị
 	chart.getAxes().getVerticalAxis().setVisible(false);
-	//Khả năng hiển thị trục danh mục
+	//Hiển thị trục danh mục
 	chart.getAxes().getHorizontalAxis().setVisible(false);
-	//Ẩn huyền thoại
+	//Ẩn Huyền Thoại
 	chart.setLegend(false);
 	//Ẩn MajorGridLines
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.NoFill);
@@ -142,7 +144,7 @@ try
 	series.getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	series.getLabels().getDefaultDataLabelFormat().setPosition(LegendDataLabelPosition.Top);
 	series.getMarker().setSize(15);
-	//Đặt màu dòng loạt
+	//Thiết lập màu dòng sê-ri
 	series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(new Color(PresetColor.Purple));
 	series.getFormat().getLine().setDashStyle(LineDashStyle.Solid);
@@ -155,32 +157,34 @@ finally
 ```
 ## Phần kết luận
 
-Trong hướng dẫn từng bước này, chúng tôi đã khám phá cách ẩn các thành phần khác nhau khỏi biểu đồ trong Java Slides bằng cách sử dụng API Aspose.Slides cho Java. Điều này có thể cực kỳ hữu ích khi bạn cần tùy chỉnh biểu đồ cho bản trình bày và làm cho chúng hấp dẫn hơn về mặt trực quan hoặc phù hợp với nhu cầu cụ thể của bạn.
+Trong hướng dẫn từng bước này, chúng tôi đã khám phá cách ẩn nhiều thành phần khác nhau khỏi biểu đồ trong Java Slides bằng cách sử dụng Aspose.Slides for Java API. Điều này có thể cực kỳ hữu ích khi bạn cần tùy chỉnh biểu đồ cho bài thuyết trình và làm cho chúng hấp dẫn hơn về mặt hình ảnh hoặc phù hợp với nhu cầu cụ thể của bạn.
 
 ## Câu hỏi thường gặp
 
-### Làm cách nào để tùy chỉnh thêm hình thức của các thành phần biểu đồ?
+### Làm thế nào để tùy chỉnh thêm giao diện của các thành phần biểu đồ?
 
-Bạn có thể tùy chỉnh các thuộc tính khác nhau của các thành phần biểu đồ như màu đường, màu tô, kiểu điểm đánh dấu, v.v. bằng cách truy cập các thuộc tính tương ứng của chuỗi biểu đồ, điểm đánh dấu, nhãn và định dạng.
+Bạn có thể tùy chỉnh nhiều thuộc tính khác nhau của các thành phần biểu đồ như màu đường, màu tô, kiểu đánh dấu, v.v. bằng cách truy cập các thuộc tính tương ứng của chuỗi biểu đồ, đánh dấu, nhãn và định dạng.
 
-### Tôi có thể ẩn các điểm dữ liệu cụ thể trong biểu đồ không?
+### Tôi có thể ẩn những điểm dữ liệu cụ thể trong biểu đồ không?
 
-Có, bạn có thể ẩn các điểm dữ liệu cụ thể bằng cách thao tác với dữ liệu trong chuỗi biểu đồ. Bạn có thể xóa điểm dữ liệu hoặc đặt giá trị của chúng thành null để ẩn chúng.
+Có, bạn có thể ẩn các điểm dữ liệu cụ thể bằng cách thao tác dữ liệu trong chuỗi biểu đồ. Bạn có thể xóa các điểm dữ liệu hoặc đặt giá trị của chúng thành null để ẩn chúng.
 
-### Làm cách nào tôi có thể thêm chuỗi bổ sung vào biểu đồ?
+### Làm thế nào tôi có thể thêm chuỗi bổ sung vào biểu đồ?
 
- Bạn có thể thêm nhiều chuỗi khác vào biểu đồ bằng cách sử dụng`IChartData.getSeries().add` phương pháp và chỉ định các điểm dữ liệu cho chuỗi mới.
+Bạn có thể thêm nhiều chuỗi hơn vào biểu đồ bằng cách sử dụng `IChartData.getSeries().add` phương pháp và chỉ định các điểm dữ liệu cho chuỗi mới.
 
 ### Có thể thay đổi loại biểu đồ một cách linh hoạt không?
 
-Có, bạn có thể thay đổi loại biểu đồ một cách linh hoạt bằng cách tạo biểu đồ mới thuộc loại mong muốn và sao chép dữ liệu từ biểu đồ cũ sang biểu đồ mới.
+Có, bạn có thể thay đổi loại biểu đồ một cách linh hoạt bằng cách tạo biểu đồ mới theo loại mong muốn và sao chép dữ liệu từ biểu đồ cũ sang biểu đồ mới.
 
-### Làm cách nào để thay đổi tiêu đề và nhãn trục của biểu đồ theo chương trình?
+### Làm thế nào tôi có thể thay đổi tiêu đề biểu đồ và nhãn trục theo chương trình?
 
-Bạn có thể đặt tiêu đề và nhãn của biểu đồ và trục bằng cách truy cập các thuộc tính tương ứng của chúng và đặt văn bản cũng như định dạng mong muốn.
+Bạn có thể đặt tiêu đề và nhãn cho biểu đồ và trục bằng cách truy cập vào các thuộc tính tương ứng của chúng và đặt văn bản và định dạng mong muốn.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

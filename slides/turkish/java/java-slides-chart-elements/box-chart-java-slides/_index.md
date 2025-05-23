@@ -1,29 +1,31 @@
 ---
-title: Java Slaytlarındaki Kutu Grafiği
-linktitle: Java Slaytlarındaki Kutu Grafiği
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides ile Java sunumlarında Kutu Grafikleri oluşturmayı öğrenin. Etkili veri görselleştirmesi için adım adım kılavuz ve kaynak kodu dahildir.
-weight: 10
-url: /tr/java/chart-elements/box-chart-java-slides/
+"description": "Aspose.Slides ile Java sunumlarında Kutu Grafikleri oluşturmayı öğrenin. Etkili veri görselleştirmesi için adım adım kılavuz ve kaynak kodu dahildir."
+"linktitle": "Java Slaytlarında Kutu Grafiği"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java Slaytlarında Kutu Grafiği"
+"url": "/tr/java/chart-elements/box-chart-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java Slaytlarındaki Kutu Grafiği
+# Java Slaytlarında Kutu Grafiği
 
 
-## Aspose.Slides for Java'da Kutu Grafiğine Giriş
+## Java için Aspose.Slides'da Kutu Grafiğine Giriş
 
-Bu eğitimde Aspose.Slides for Java'yı kullanarak Kutu Grafiği oluşturma sürecinde size yol göstereceğiz. Kutu grafikleri, çeşitli çeyreklere ve aykırı değerlere sahip istatistiksel verileri görselleştirmek için kullanışlıdır. Başlamanıza yardımcı olmak için kaynak koduyla birlikte adım adım talimatlar sağlayacağız.
+Bu eğitimde, Aspose.Slides for Java kullanarak bir Kutu Grafiği oluşturma sürecinde size yol göstereceğiz. Kutu grafikleri, çeşitli çeyrekler ve aykırı değerler içeren istatistiksel verileri görselleştirmek için kullanışlıdır. Başlamanıza yardımcı olmak için kaynak koduyla birlikte adım adım talimatlar sağlayacağız.
 
-## Önkoşullar
+## Ön koşullar
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-- Aspose.Slides for Java kütüphanesi yüklendi ve yapılandırıldı.
-- Bir Java geliştirme ortamı kuruldu.
+- Java kütüphanesi için Aspose.Slides kuruldu ve yapılandırıldı.
+- Java geliştirme ortamı kuruldu.
 
 ## Adım 1: Sunumu Başlatın
 
@@ -32,9 +34,9 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 ```
 
-Bu adımda, mevcut bir PowerPoint dosyasının yolunu (bu örnekte "test.pptx") kullanarak bir sunum nesnesini başlatıyoruz.
+Bu adımda, mevcut bir PowerPoint dosyasının (bu örnekte "test.pptx") yolunu kullanarak bir sunum nesnesi başlatıyoruz.
 
-## Adım 2: Kutu Grafiği Oluşturun
+## Adım 2: Kutu Grafiğini Oluşturun
 
 ```java
 try {
@@ -43,9 +45,9 @@ try {
     chart.getChartData().getSeries().clear();
 ```
 
-Bu adımda sunumun ilk slaytında Kutu Grafiği şekli oluşturuyoruz. Ayrıca mevcut kategorileri ve serileri de grafikten temizliyoruz.
+Bu adımda, sunumun ilk slaydında bir Kutu Tablosu şekli oluşturuyoruz. Ayrıca tablodan mevcut kategorileri ve serileri temizliyoruz.
 
-## 3. Adım: Kategorileri Tanımlayın
+## Adım 3: Kategorileri Tanımlayın
 
 ```java
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
@@ -58,7 +60,7 @@ Bu adımda sunumun ilk slaytında Kutu Grafiği şekli oluşturuyoruz. Ayrıca m
     chart.getChartData().getCategories().add(wb.getCell(0, "A6", "Category 1"));
 ```
 
- Bu adımda Kutu Grafiği için kategorileri tanımlıyoruz. biz kullanıyoruz`IChartDataWorkbook` Kategoriler eklemek ve bunları buna göre etiketlemek için.
+Bu adımda, Kutu Tablosu için kategorileri tanımlıyoruz. `IChartDataWorkbook` kategoriler eklemek ve bunları uygun şekilde etiketlemek.
 
 ## Adım 4: Seriyi Oluşturun
 
@@ -71,9 +73,9 @@ Bu adımda sunumun ilk slaytında Kutu Grafiği şekli oluşturuyoruz. Ayrıca m
     series.setShowOutlierPoints(true);
 ```
 
-Burada grafik için bir BoxAndWhisker serisi oluşturuyoruz ve çeyrek yöntemi, ortalama çizgi, ortalama işaretleyiciler, iç noktalar ve aykırı noktalar gibi çeşitli seçenekleri yapılandırıyoruz.
+Burada, grafik için bir BoxAndWhisker serisi oluşturuyoruz ve çeyreklik yöntemi, ortalama çizgisi, ortalama işaretleyicileri, iç noktalar ve aykırı değer noktaları gibi çeşitli seçenekleri yapılandırıyoruz.
 
-## 5. Adım: Veri Noktalarını Ekleyin
+## Adım 5: Veri Noktalarını Ekleyin
 
 ```java
     series.getDataPoints().addDataPointForBoxAndWhiskerSeries(wb.getCell(0, "B1", 15));
@@ -84,9 +86,9 @@ Burada grafik için bir BoxAndWhisker serisi oluşturuyoruz ve çeyrek yöntemi,
     series.getDataPoints().addDataPointForBoxAndWhiskerSeries(wb.getCell(0, "B6", 16));
 ```
 
-Bu adımda BoxAndWhisker serisine veri noktaları ekliyoruz. Bu veri noktaları grafiğin istatistiksel verilerini temsil eder.
+Bu adımda, BoxAndWhisker serisine veri noktaları ekliyoruz. Bu veri noktaları, grafik için istatistiksel verileri temsil eder.
 
-## Adım 6: Sunuyu Kaydetme
+## Adım 6: Sunumu Kaydedin
 
 ```java
     pres.save("BoxAndWhisker.pptx", SaveFormat.Pptx);
@@ -95,11 +97,11 @@ Bu adımda BoxAndWhisker serisine veri noktaları ekliyoruz. Bu veri noktaları 
 }
 ```
 
-Son olarak Kutu Grafiğinin bulunduğu sunumu "BoxAndWhisker.pptx" isimli yeni bir PowerPoint dosyasına kaydediyoruz.
+Son olarak sunumu Kutu Grafiği ile birlikte "BoxAndWhisker.pptx" adlı yeni bir PowerPoint dosyasına kaydediyoruz.
 
-Tebrikler! Aspose.Slides for Java'yı kullanarak başarıyla bir Kutu Grafiği oluşturdunuz. Çeşitli özellikleri ayarlayarak ve gerektiğinde daha fazla veri noktası ekleyerek grafiği daha da özelleştirebilirsiniz.
+Tebrikler! Java için Aspose.Slides kullanarak bir Kutu Grafiği başarıyla oluşturdunuz. Çeşitli özellikleri ayarlayarak ve ihtiyaç duyduğunuzda daha fazla veri noktası ekleyerek grafiği daha da özelleştirebilirsiniz.
 
-## Java Slaytlarındaki Kutu Grafiği İçin Kaynak Kodunu Tamamlayın
+## Java Slaytlarında Kutu Grafiği İçin Tam Kaynak Kodu
 
 ```java
 String dataDir = "Your Document Directory";
@@ -139,9 +141,9 @@ finally
 
 ## Çözüm
 
-Bu eğitimde Aspose.Slides for Java'yı kullanarak Kutu Grafiğinin nasıl oluşturulacağını öğrendik. Kutu Grafikleri, çeyrekler ve aykırı değerler de dahil olmak üzere istatistiksel verileri görselleştirmek için değerli araçlardır. Java uygulamalarınızda Kutu Grafikleri oluşturmaya başlamanıza yardımcı olmak için kaynak koduyla birlikte adım adım bir kılavuz sağladık.
+Bu eğitimde, Java için Aspose.Slides kullanarak bir Kutu Grafiği oluşturmayı öğrendik. Kutu Grafikleri, dörtlükler ve aykırı değerler dahil olmak üzere istatistiksel verileri görselleştirmek için değerli araçlardır. Java uygulamalarınızda Kutu Grafikleri oluşturmaya başlamanıza yardımcı olmak için kaynak koduyla birlikte adım adım bir kılavuz sağladık.
 
-## SSS'ler
+## SSS
 
 ### Kutu Grafiğinin görünümünü nasıl değiştirebilirim?
 
@@ -149,14 +151,16 @@ Bu eğitimde Aspose.Slides for Java'yı kullanarak Kutu Grafiğinin nasıl oluş
 
 ### Kutu Grafiğine ek veri serileri ekleyebilir miyim?
 
- Evet, ek veriler oluşturarak Kutu Grafiğine birden fazla veri serisi ekleyebilirsiniz.`IChartSeries` nesneler ve bunlara veri noktaları ekleme.
+Evet, ek veri serileri oluşturarak Kutu Grafiğine birden fazla veri serisi ekleyebilirsiniz. `IChartSeries` nesneleri ve onlara veri noktaları eklemeyi içerir.
 
 ### QuartileMethodType.Exclusive ne anlama geliyor?
 
-`QuartileMethodType.Exclusive` ayarı, çeyrek hesaplamalarının özel yöntem kullanılarak yapılması gerektiğini belirtir. Verilerinize ve gereksinimlerinize bağlı olarak farklı çeyrek hesaplama yöntemlerini seçebilirsiniz.
+The `QuartileMethodType.Exclusive` ayar, çeyrek hesaplamalarının münhasır yöntem kullanılarak yapılması gerektiğini belirtir. Verilerinize ve gereksinimlerinize bağlı olarak farklı çeyrek hesaplama yöntemleri seçebilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

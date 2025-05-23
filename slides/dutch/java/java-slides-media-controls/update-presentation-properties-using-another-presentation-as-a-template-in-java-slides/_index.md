@@ -1,34 +1,36 @@
 ---
-title: Presentatie-eigenschappen bijwerken met een andere presentatie als sjabloon in Java-dia's
-linktitle: Presentatie-eigenschappen bijwerken met een andere presentatie als sjabloon in Java-dia's
-second_title: Aspose.Slides Java PowerPoint-verwerkings-API
-description: Verbeter PowerPoint-presentaties met bijgewerkte metadata met Aspose.Slides voor Java. Leer eigenschappen zoals auteur, titel en trefwoorden bijwerken met behulp van sjablonen in Java Slides.
-weight: 14
-url: /nl/java/media-controls/update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/
+"description": "Verbeter PowerPoint-presentaties met bijgewerkte metadata met Aspose.Slides voor Java. Leer hoe u eigenschappen zoals auteur, titel en trefwoorden kunt bijwerken met behulp van sjablonen in Java Slides."
+"linktitle": "Presentatie-eigenschappen bijwerken met een andere presentatie als sjabloon in Java Slides"
+"second_title": "Aspose.Slides Java PowerPoint-verwerkings-API"
+"title": "Presentatie-eigenschappen bijwerken met een andere presentatie als sjabloon in Java Slides"
+"url": "/nl/java/media-controls/update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Presentatie-eigenschappen bijwerken met een andere presentatie als sjabloon in Java-dia's
+# Presentatie-eigenschappen bijwerken met een andere presentatie als sjabloon in Java Slides
 
 
-## Inleiding tot het bijwerken van presentatie-eigenschappen met een andere presentatie als sjabloon in Java-dia's
+## Inleiding tot het bijwerken van presentatie-eigenschappen met een andere presentatie als sjabloon in Java Slides
 
-In deze zelfstudie leiden we u door het proces van het bijwerken van presentatie-eigenschappen (metagegevens) voor PowerPoint-presentaties met behulp van Aspose.Slides voor Java. U kunt een andere presentatie als sjabloon gebruiken om eigenschappen zoals auteur, titel, trefwoorden en meer bij te werken. We geven u stapsgewijze instructies en broncodevoorbeelden.
+In deze tutorial laten we je zien hoe je presentatie-eigenschappen (metadata) voor PowerPoint-presentaties bijwerkt met Aspose.Slides voor Java. Je kunt een andere presentatie als sjabloon gebruiken om eigenschappen zoals auteur, titel, trefwoorden en meer bij te werken. We geven je stapsgewijze instructies en voorbeelden van broncode.
 
 ## Vereisten
 
- Voordat u begint, moet u ervoor zorgen dat de Aspose.Slides voor Java-bibliotheek in uw Java-project is geïntegreerd. Je kunt het downloaden van[hier](https://releases.aspose.com/slides/java/).
+Voordat u begint, moet u ervoor zorgen dat de Aspose.Slides voor Java-bibliotheek in uw Java-project is geïntegreerd. U kunt deze downloaden van [hier](https://releases.aspose.com/slides/java/).
 
 ## Stap 1: Stel uw project in
 
 Zorg ervoor dat u een Java-project hebt gemaakt en de Aspose.Slides voor Java-bibliotheek hebt toegevoegd aan de afhankelijkheden van uw project.
 
-## Stap 2: Importeer de vereiste pakketten
+## Stap 2: Vereiste pakketten importeren
 
-U moet de benodigde Aspose.Slides-pakketten importeren om met presentatie-eigenschappen te kunnen werken. Neem de volgende importinstructies op aan het begin van uw Java-klasse:
+Je moet de benodigde Aspose.Slides-pakketten importeren om met presentatie-eigenschappen te kunnen werken. Neem de volgende import-instructies op aan het begin van je Java-les:
 
 ```java
 import com.aspose.slides.DocumentProperties;
@@ -39,13 +41,13 @@ import com.aspose.slides.PresentationFactory;
 
 ## Stap 3: Presentatie-eigenschappen bijwerken
 
-Laten we nu de presentatie-eigenschappen bijwerken en een andere presentatie als sjabloon gebruiken. In dit voorbeeld updaten we de eigenschappen voor meerdere presentaties, maar u kunt deze code aanpassen aan uw specifieke gebruiksscenario.
+Laten we nu de presentatie-eigenschappen bijwerken met een andere presentatie als sjabloon. In dit voorbeeld werken we de eigenschappen voor meerdere presentaties bij, maar u kunt deze code aanpassen aan uw specifieke gebruikssituatie.
 
 ```java
 // Het pad naar de documentenmap.
 String dataDir = "Your Document Directory";
 
-// Laad de sjabloonpresentatie waaruit u eigenschappen wilt kopiëren
+// Laad de sjabloonpresentatie waarvan u eigenschappen wilt kopiëren
 DocumentProperties template;
 IPresentationInfo info = PresentationFactory.getInstance().getPresentationInfo(dataDir + "template.pptx");
 template = (DocumentProperties) info.readDocumentProperties();
@@ -60,15 +62,15 @@ template.setComments("Created from template");
 template.setContentType("Template Content");
 template.setSubject("Template Subject");
 
-// Update meerdere presentaties met dezelfde sjabloon
+// Meerdere presentaties bijwerken met dezelfde sjabloon
 updateByTemplate(dataDir + "doc1.pptx", template);
 updateByTemplate(dataDir + "doc2.odp", template);
 updateByTemplate(dataDir + "doc3.ppt", template);
 ```
 
-##  Stap 4: Definieer de`updateByTemplate` Method
+## Stap 4: Definieer de `updateByTemplate` Methode
 
-Laten we een methode definiëren om de eigenschappen van individuele presentaties bij te werken met behulp van de sjabloon. Deze methode neemt het pad van de presentatie die moet worden bijgewerkt en de sjablooneigenschappen als parameters.
+Laten we een methode definiëren om de eigenschappen van individuele presentaties bij te werken met behulp van de sjabloon. Deze methode gebruikt het pad van de bij te werken presentatie en de sjablooneigenschappen als parameters.
 
 ```java
 private static void updateByTemplate(String path, IDocumentProperties template)
@@ -84,7 +86,7 @@ private static void updateByTemplate(String path, IDocumentProperties template)
 }
 ```
 
-## Volledige broncode voor het bijwerken van presentatie-eigenschappen met behulp van een andere presentatie als sjabloon in Java-dia's
+## Volledige broncode voor het bijwerken van presentatie-eigenschappen met behulp van een andere presentatie als sjabloon in Java Slides
 
 ```java
 	// Het pad naar de documentenmap.
@@ -113,24 +115,26 @@ private static void updateByTemplate(String path, IDocumentProperties template)
 
 ## Conclusie
 
-In deze uitgebreide zelfstudie hebben we onderzocht hoe u presentatie-eigenschappen in PowerPoint-presentaties kunt bijwerken met Aspose.Slides voor Java. We hebben ons specifiek gericht op het gebruik van een andere presentatie als sjabloon om metagegevens zoals auteursnamen, titels, trefwoorden en meer efficiënt bij te werken.
+In deze uitgebreide tutorial hebben we onderzocht hoe je presentatie-eigenschappen in PowerPoint-presentaties kunt bijwerken met Aspose.Slides voor Java. We hebben ons specifiek gericht op het gebruik van een andere presentatie als sjabloon om metadata zoals auteursnamen, titels, trefwoorden en meer efficiënt bij te werken.
 
 ## Veelgestelde vragen
 
 ### Hoe kan ik eigenschappen bijwerken voor meer presentaties?
 
- U kunt eigenschappen voor meerdere presentaties bijwerken door het`updateByTemplate` methode voor elke presentatie met het gewenste pad.
+U kunt eigenschappen voor meerdere presentaties bijwerken door de `updateByTemplate` Methode voor elke presentatie met het gewenste pad.
 
-### Kan ik deze code aanpassen voor verschillende eigenschappen?
+### Kan ik deze code aanpassen voor verschillende eigendommen?
 
-Ja, u kunt de code aanpassen om specifieke eigenschappen bij te werken op basis van uw vereisten. Wijzig eenvoudigweg de`template` object met de gewenste eigenschapswaarden.
+Ja, u kunt de code aanpassen om specifieke eigenschappen bij te werken op basis van uw vereisten. Wijzig eenvoudig de `template` object met de gewenste eigenschapswaarden.
 
-### Geldt er een beperking voor het type presentaties dat kan worden bijgewerkt?
+### Zijn er beperkingen aan het type presentaties dat kan worden bijgewerkt?
 
-Nee, u kunt eigenschappen bijwerken voor presentaties in verschillende indelingen, waaronder PPTX, ODP en PPT.
+Nee, u kunt eigenschappen bijwerken voor presentaties in verschillende formaten, waaronder PPTX, ODP en PPT.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में बिखरे हुए चार्ट
-linktitle: जावा स्लाइड्स में बिखरे हुए चार्ट
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides का उपयोग करके जावा में स्कैटर चार्ट बनाना सीखें। प्रस्तुतियों में डेटा विज़ुअलाइज़ेशन के लिए जावा स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 11
-url: /hi/java/chart-creation/scattered-chart-java-slides/
+"description": "Aspose.Slides का उपयोग करके जावा में स्कैटर चार्ट बनाना सीखें। प्रस्तुतियों में डेटा विज़ुअलाइज़ेशन के लिए जावा स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "जावा स्लाइड्स में बिखरे हुए चार्ट"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में बिखरे हुए चार्ट"
+"url": "/hi/java/chart-creation/scattered-chart-java-slides/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में बिखरे हुए चार्ट
@@ -44,7 +46,7 @@ Presentation pres = new Presentation();
 
 ## चरण 2: स्लाइड जोड़ें और स्कैटर चार्ट बनाएं
 
- इसके बाद, एक स्लाइड जोड़ें और उस पर स्कैटर चार्ट बनाएं। हम इसका उपयोग करेंगे`ScatterWithSmoothLines`इस उदाहरण में चार्ट प्रकार.
+इसके बाद, एक स्लाइड जोड़ें और उस पर स्कैटर चार्ट बनाएं। हम इसका उपयोग करेंगे `ScatterWithSmoothLines` इस उदाहरण में चार्ट प्रकार.
 
 ```java
 // पहली स्लाइड प्राप्त करें
@@ -118,7 +120,7 @@ if (!IsExists)
 	new File(dataDir).mkdirs();
 Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
-//डिफ़ॉल्ट चार्ट बनाना
+// डिफ़ॉल्ट चार्ट बनाना
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 // डिफ़ॉल्ट चार्ट डेटा वर्कशीट इंडेक्स प्राप्त करना
 int defaultWorksheetIndex = 0;
@@ -164,11 +166,11 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ### मैं चार्ट का प्रकार कैसे बदल सकता हूँ?
 
- चार्ट प्रकार बदलने के लिए, का उपयोग करें`setType` चार्ट श्रृंखला पर विधि और वांछित चार्ट प्रकार प्रदान करें। उदाहरण के लिए,`series.setType(ChartType.Line)` श्रृंखला को लाइन चार्ट में बदल दिया जाएगा।
+चार्ट प्रकार बदलने के लिए, का उपयोग करें `setType` चार्ट श्रृंखला पर विधि और वांछित चार्ट प्रकार प्रदान करें। उदाहरण के लिए, `series.setType(ChartType.Line)` श्रृंखला को लाइन चार्ट में बदल देगा।
 
 ### मैं मार्कर का आकार और शैली कैसे अनुकूलित करूं?
 
- आप इसका उपयोग करके मार्कर का आकार और शैली बदल सकते हैं`getMarker` श्रृंखला पर विधि और फिर आकार और प्रतीक गुण सेट करें। उदाहरण के लिए:
+आप इसका उपयोग करके मार्कर का आकार और शैली बदल सकते हैं `getMarker` श्रृंखला पर विधि और फिर आकार और प्रतीक गुण सेट करें। उदाहरण के लिए:
 
 ```java
 series.getMarker().setSize(10);
@@ -177,10 +179,12 @@ series.getMarker().setSymbol(MarkerStyleType.Circle);
 
 Aspose.Slides for Java दस्तावेज़ में अधिक अनुकूलन विकल्पों का पता लगाने के लिए स्वतंत्र महसूस करें।
 
- प्रतिस्थापित करना याद रखें`"Your Document Directory"` उस वास्तविक पथ के साथ जहाँ आप प्रस्तुति को सहेजना चाहते हैं.
+प्रतिस्थापित करना याद रखें `"Your Document Directory"` उस वास्तविक पथ के साथ जहां आप प्रस्तुति को सहेजना चाहते हैं.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

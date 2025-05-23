@@ -1,28 +1,30 @@
 ---
-title: Nascondi informazioni dal grafico nelle diapositive Java
-linktitle: Nascondi informazioni dal grafico nelle diapositive Java
-second_title: Aspose.Slides API di elaborazione Java PowerPoint
-description: Scopri come nascondere gli elementi del grafico in Diapositive Java con Aspose.Slides per Java. Personalizza le presentazioni per maggiore chiarezza ed estetica con guida passo passo e codice sorgente.
-weight: 13
-url: /it/java/customization-and-formatting/hide-information-chart-java-slides/
+"description": "Scopri come nascondere gli elementi dei grafici in Java Slides con Aspose.Slides per Java. Personalizza le presentazioni per renderle più chiare ed esteticamente gradevoli con istruzioni dettagliate e codice sorgente."
+"linktitle": "Nascondi informazioni dal grafico in Java Slides"
+"second_title": "API di elaborazione Java PowerPoint di Aspose.Slides"
+"title": "Nascondi informazioni dal grafico in Java Slides"
+"url": "/it/java/customization-and-formatting/hide-information-chart-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nascondi informazioni dal grafico nelle diapositive Java
+# Nascondi informazioni dal grafico in Java Slides
 
 
-## Introduzione a nascondere le informazioni dal grafico nelle diapositive Java
+## Introduzione a come nascondere le informazioni dal grafico in Java Slides
 
-In questo tutorial, esploreremo come nascondere vari elementi da un grafico in Java Slides utilizzando l'API Aspose.Slides per Java. Puoi utilizzare questo codice per personalizzare i tuoi grafici secondo necessità per le tue presentazioni.
+In questo tutorial, esploreremo come nascondere diversi elementi da un grafico in Java Slides utilizzando l'API Aspose.Slides per Java. Puoi utilizzare questo codice per personalizzare i grafici in base alle tue esigenze per le tue presentazioni.
 
-## Passaggio 1: impostazione dell'ambiente
+## Fase 1: Impostazione dell'ambiente
 
- Prima di iniziare, assicurati di aver aggiunto la libreria Aspose.Slides per Java al tuo progetto. Puoi scaricarlo da[Qui](https://releases.aspose.com/slides/java/).
+Prima di iniziare, assicurati di aver aggiunto la libreria Aspose.Slides per Java al tuo progetto. Puoi scaricarla da [Qui](https://releases.aspose.com/slides/java/).
 
-## Passaggio 2: crea una nuova presentazione
+## Passaggio 2: creare una nuova presentazione
 
 ```java
 String dataDir = "Your Document Directory";
@@ -31,22 +33,22 @@ Presentation pres = new Presentation();
 
 ## Passaggio 3: aggiunta di un grafico alla diapositiva
 
-Aggiungeremo un grafico a linee con indicatori a una diapositiva e quindi procederemo a nascondere i vari elementi del grafico.
+Aggiungeremo un grafico a linee con dei marcatori a una diapositiva e poi procederemo a nascondere vari elementi del grafico.
 
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 140, 118, 320, 370);
 ```
 
-## Passaggio 4: nascondi il titolo del grafico
+## Passaggio 4: nascondere il titolo del grafico
 
-Puoi nascondere il titolo del grafico come segue:
+È possibile nascondere il titolo del grafico come segue:
 
 ```java
 chart.setTitle(false);
 ```
 
-## Passaggio 5: nascondere l'asse dei valori
+## Passaggio 5: Nascondi l'asse dei valori
 
 Per nascondere l'asse dei valori (asse verticale), utilizzare il seguente codice:
 
@@ -54,7 +56,7 @@ Per nascondere l'asse dei valori (asse verticale), utilizzare il seguente codice
 chart.getAxes().getVerticalAxis().setVisible(false);
 ```
 
-## Passaggio 6: nascondi l'asse delle categorie
+## Passaggio 6: nascondere l'asse delle categorie
 
 Per nascondere l'asse delle categorie (asse orizzontale), utilizzare questo codice:
 
@@ -62,7 +64,7 @@ Per nascondere l'asse delle categorie (asse orizzontale), utilizzare questo codi
 chart.getAxes().getHorizontalAxis().setVisible(false);
 ```
 
-## Passaggio 7: nascondi la legenda
+## Passaggio 7: Nascondi la legenda
 
 Puoi nascondere la legenda del grafico in questo modo:
 
@@ -72,7 +74,7 @@ chart.setLegend(false);
 
 ## Passaggio 8: nascondere le linee principali della griglia
 
-Per nascondere le principali linee della griglia dell'asse orizzontale, puoi utilizzare il seguente codice:
+Per nascondere le linee principali della griglia dell'asse orizzontale, puoi utilizzare il seguente codice:
 
 ```java
 chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.NoFill);
@@ -90,7 +92,7 @@ for (int i = 0; i < chart.getChartData().getSeries().size(); i++) {
 
 ## Passaggio 10: personalizzare la serie di grafici
 
-È possibile personalizzare le serie di grafici secondo necessità. In questo esempio, modifichiamo lo stile del marcatore, la posizione dell'etichetta dati, la dimensione del marcatore, il colore della linea e lo stile del trattino:
+È possibile personalizzare la serie di grafici in base alle proprie esigenze. In questo esempio, modifichiamo lo stile del marcatore, la posizione dell'etichetta dati, la dimensione del marcatore, il colore della linea e lo stile del trattino:
 
 ```java
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
@@ -103,7 +105,7 @@ series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(new Co
 series.getFormat().getLine().setDashStyle(LineDashStyle.Solid);
 ```
 
-## Passaggio 11: salva la presentazione
+## Passaggio 11: Salva la presentazione
 
 Infine, salva la presentazione in un file:
 
@@ -111,23 +113,23 @@ Infine, salva la presentazione in un file:
 pres.save(dataDir + "HideInformationFromChart.pptx", SaveFormat.Pptx);
 ```
 
-Questo è tutto! Hai nascosto con successo vari elementi da un grafico in Java Slides utilizzando Aspose.Slides per Java. Puoi personalizzare ulteriormente i tuoi grafici e presentazioni secondo necessità per le tue esigenze specifiche.
+Ecco fatto! Hai nascosto con successo vari elementi da un grafico in Java Slides utilizzando Aspose.Slides per Java. Puoi personalizzare ulteriormente grafici e presentazioni in base alle tue esigenze specifiche.
 
 ## Codice sorgente completo per nascondere le informazioni dal grafico nelle diapositive Java
 
 ```java
-// Il percorso della directory dei documenti.
+// Percorso verso la directory dei documenti.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 try
 {
 	ISlide slide = pres.getSlides().get_Item(0);
 	IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 140, 118, 320, 370);
-	//Titolo del grafico nascosto
+	//Nascondere il titolo del grafico
 	chart.setTitle(false);
-	///Asse dei valori nascosti
+	///Nascondere l'asse dei valori
 	chart.getAxes().getVerticalAxis().setVisible(false);
-	//Categoria Visibilità dell'asse
+	//Visibilità dell'asse delle categorie
 	chart.getAxes().getHorizontalAxis().setVisible(false);
 	//Leggenda nascosta
 	chart.setLegend(false);
@@ -142,7 +144,7 @@ try
 	series.getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	series.getLabels().getDefaultDataLabelFormat().setPosition(LegendDataLabelPosition.Top);
 	series.getMarker().setSize(15);
-	//Impostazione del colore della linea della serie
+	//Impostazione del colore della linea di serie
 	series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(new Color(PresetColor.Purple));
 	series.getFormat().getLine().setDashStyle(LineDashStyle.Solid);
@@ -155,32 +157,34 @@ finally
 ```
 ## Conclusione
 
-In questa guida passo passo, abbiamo esplorato come nascondere vari elementi da un grafico in Java Slides utilizzando l'API Aspose.Slides per Java. Questo può essere incredibilmente utile quando hai bisogno di personalizzare i tuoi grafici per le presentazioni e renderli visivamente più accattivanti o adattati alle tue esigenze specifiche.
+In questa guida passo passo, abbiamo spiegato come nascondere vari elementi da un grafico in Java Slides utilizzando l'API Aspose.Slides per Java. Questo può essere incredibilmente utile quando si desidera personalizzare i grafici per le presentazioni, renderli più accattivanti o adattarli alle proprie esigenze specifiche.
 
 ## Domande frequenti
 
 ### Come posso personalizzare ulteriormente l'aspetto degli elementi del grafico?
 
-Puoi personalizzare varie proprietà degli elementi del grafico come il colore della linea, il colore di riempimento, lo stile degli indicatori e altro ancora accedendo alle proprietà corrispondenti delle serie di grafici, degli indicatori, delle etichette e del formato.
+È possibile personalizzare varie proprietà degli elementi del grafico, come il colore della linea, il colore di riempimento, lo stile del marcatore e altro ancora, accedendo alle proprietà corrispondenti della serie del grafico, dei marcatori, delle etichette e del formato.
 
 ### Posso nascondere punti dati specifici nel grafico?
 
-Sì, puoi nascondere punti dati specifici manipolando i dati nelle serie di grafici. Puoi rimuovere punti dati o impostarne i valori su null per nasconderli.
+Sì, puoi nascondere punti dati specifici manipolando i dati nella serie del grafico. Puoi rimuovere punti dati o impostarne i valori su null per nasconderli.
 
-### Come posso aggiungere ulteriori serie al grafico?
+### Come posso aggiungere altre serie al grafico?
 
- Puoi aggiungere più serie al grafico utilizzando il comando`IChartData.getSeries().add` metodo e specificando i punti dati per la nuova serie.
+È possibile aggiungere altre serie al grafico utilizzando `IChartData.getSeries().add` metodo e specificando i punti dati per la nuova serie.
 
-### È possibile modificare il tipo di grafico in modo dinamico?
+### È possibile modificare dinamicamente il tipo di grafico?
 
-Sì, puoi modificare il tipo di grafico in modo dinamico creando un nuovo grafico del tipo desiderato e copiando i dati dal vecchio grafico a quello nuovo.
+Sì, puoi modificare dinamicamente il tipo di grafico creando un nuovo grafico del tipo desiderato e copiando i dati dal vecchio grafico a quello nuovo.
 
-### Come posso modificare il titolo del grafico e le etichette degli assi a livello di codice?
+### Come posso modificare a livello di programmazione il titolo e le etichette degli assi del grafico?
 
-Puoi impostare il titolo e le etichette del grafico e degli assi accedendo alle rispettive proprietà e impostando il testo e la formattazione desiderati.
+È possibile impostare il titolo e le etichette del grafico e degli assi accedendo alle rispettive proprietà e impostando il testo e la formattazione desiderati.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

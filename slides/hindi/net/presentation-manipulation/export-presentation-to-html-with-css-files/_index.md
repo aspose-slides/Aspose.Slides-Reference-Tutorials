@@ -1,14 +1,16 @@
 ---
-title: CSS फ़ाइलों के साथ प्रस्तुति को HTML में निर्यात करें
-linktitle: CSS फ़ाइलों के साथ प्रस्तुति को HTML में निर्यात करें
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: जानें कि .NET के लिए Aspose.Slides का उपयोग करके CSS फ़ाइलों के साथ PowerPoint प्रस्तुतियों को HTML में कैसे निर्यात किया जाए। सहज रूपांतरण के लिए चरण-दर-चरण मार्गदर्शिका। शैली और लेआउट को सुरक्षित रखें!
-weight: 29
-url: /hi/net/presentation-manipulation/export-presentation-to-html-with-css-files/
+"description": "जानें कि .NET के लिए Aspose.Slides का उपयोग करके CSS फ़ाइलों के साथ PowerPoint प्रस्तुतियों को HTML में कैसे निर्यात किया जाए। सहज रूपांतरण के लिए चरण-दर-चरण मार्गदर्शिका। शैली और लेआउट को सुरक्षित रखें!"
+"linktitle": "CSS फ़ाइलों के साथ प्रस्तुति को HTML में निर्यात करें"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "CSS फ़ाइलों के साथ प्रस्तुति को HTML में निर्यात करें"
+"url": "/hi/net/presentation-manipulation/export-presentation-to-html-with-css-files/"
+"weight": 29
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # CSS फ़ाइलों के साथ प्रस्तुति को HTML में निर्यात करें
@@ -56,33 +58,35 @@ using (Presentation pres = new Presentation(dataDir + "pres.pptx"))
 ## 5. सीएसएस शैलियों को अनुकूलित करना
 अपने HTML प्रेजेंटेशन की दिखावट को बेहतर बनाने के लिए, आप "styles.css" फ़ाइल में CSS स्टाइल को कस्टमाइज़ कर सकते हैं। इससे आप फ़ॉन्ट, रंग, लेआउट और बहुत कुछ नियंत्रित कर सकते हैं।
 
-## 6। निष्कर्ष
+## 6. निष्कर्ष
 इस ट्यूटोरियल में, हमने दिखाया है कि Aspose.Slides for .NET का उपयोग करके CSS फ़ाइलों के साथ PowerPoint प्रेजेंटेशन को HTML में कैसे निर्यात किया जाए। यह दृष्टिकोण सुनिश्चित करता है कि आपकी सामग्री आपके दर्शकों के लिए सुलभ और आकर्षक हो।
 
 ## 7. अक्सर पूछे जाने वाले प्रश्न
 
 ### प्रश्न 1: मैं .NET के लिए Aspose.Slides कैसे स्थापित कर सकता हूं?
- आप .NET के लिए Aspose.Slides को इस वेबसाइट से डाउनलोड कर सकते हैं:[Aspose.Slides डाउनलोड करें](https://releases.aspose.com/slides/net/)
+आप .NET के लिए Aspose.Slides को इस वेबसाइट से डाउनलोड कर सकते हैं: [Aspose.Slides डाउनलोड करें](https://releases.aspose.com/slides/net/)
 
 ### प्रश्न 2: क्या मुझे Aspose.Slides for .NET के लिए लाइसेंस की आवश्यकता है?
- हां, आप यहां से लाइसेंस प्राप्त कर सकते हैं[असपोज](https://purchase.aspose.com/buy) API की सम्पूर्ण सुविधाओं का उपयोग करने के लिए.
+हां, आप यहां से लाइसेंस प्राप्त कर सकते हैं [असपोज](https://purchase.aspose.com/buy) API की सम्पूर्ण सुविधाओं का उपयोग करने के लिए।
 
 ### प्रश्न 3: क्या मैं .NET के लिए Aspose.Slides को निःशुल्क आज़मा सकता हूँ?
- ज़रूर! आप यहाँ से निःशुल्क परीक्षण संस्करण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
+ज़रूर! आप यहाँ से निःशुल्क परीक्षण संस्करण प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### प्रश्न 4: मैं .NET के लिए Aspose.Slides का समर्थन कैसे प्राप्त करूं?
- किसी भी तकनीकी सहायता या प्रश्न के लिए, कृपया यहां जाएं[Aspose.Slides फ़ोरम](https://forum.aspose.com/).
+किसी भी तकनीकी सहायता या प्रश्न के लिए, कृपया यहां जाएं [Aspose.Slides फ़ोरम](https://forum.aspose.com/).
 
 ### प्रश्न 5: क्या मैं अन्य प्रोग्रामिंग भाषाओं के साथ .NET के लिए Aspose.Slides का उपयोग कर सकता हूँ?
 .NET के लिए Aspose.Slides मुख्य रूप से C# के लिए है, लेकिन Aspose Java और अन्य भाषाओं के लिए भी संस्करण प्रदान करता है।
 
-.NET के लिए Aspose.Slides के साथ, आप आसानी से अपने पावरपॉइंट प्रस्तुतियों को CSS फ़ाइलों के साथ HTML में परिवर्तित कर सकते हैं, जिससे आपके दर्शकों के लिए एक सहज देखने का अनुभव सुनिश्चित हो सके।
+.NET के लिए Aspose.Slides के साथ, आप आसानी से अपने पावरपॉइंट प्रस्तुतियों को CSS फाइलों के साथ HTML में परिवर्तित कर सकते हैं, जिससे आपके दर्शकों के लिए एक सहज देखने का अनुभव सुनिश्चित हो सके।
 
 अब, आगे बढ़ें और .NET के लिए Aspose.Slides के साथ शानदार HTML प्रस्तुतियाँ बनाएँ!
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

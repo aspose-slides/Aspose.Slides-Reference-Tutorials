@@ -1,33 +1,35 @@
 ---
-title: Drugie opcje wykresów w slajdach Java
-linktitle: Drugie opcje wykresów w slajdach Java
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Dowiedz się, jak dostosowywać wykresy w Java Slides za pomocą Aspose.Slides dla Java. Przeglądaj opcje drugiej fabuły i ulepszaj swoje prezentacje.
-weight: 12
-url: /pl/java/chart-creation/second-plot-options-charts-java-slides/
+"description": "Dowiedz się, jak dostosowywać wykresy w Java Slides przy użyciu Aspose.Slides for Java. Poznaj opcje drugiego wykresu i ulepsz swoje prezentacje."
+"linktitle": "Drugie opcje wykresów dla wykresów w slajdach Java"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Drugie opcje wykresów dla wykresów w slajdach Java"
+"url": "/pl/java/chart-creation/second-plot-options-charts-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Drugie opcje wykresów w slajdach Java
+# Drugie opcje wykresów dla wykresów w slajdach Java
 
 
-## Wprowadzenie do opcji drugiego wykresu dla wykresów w slajdach Java
+## Wprowadzenie do drugich opcji wykresów dla wykresów w slajdach Java
 
-W tym samouczku przyjrzymy się, jak dodać drugie opcje wykresu do wykresów za pomocą Aspose.Slides dla Java. Drugie opcje wykresu umożliwiają dostosowanie wyglądu i zachowania wykresów, szczególnie w scenariuszach takich jak wykresy kołowe. Aby to osiągnąć, udostępnimy instrukcje krok po kroku i przykłady kodu źródłowego. 
+tym samouczku pokażemy, jak dodać drugie opcje wykresu do wykresów za pomocą Aspose.Slides dla Java. Drugie opcje wykresu pozwalają dostosować wygląd i zachowanie wykresów, szczególnie w scenariuszach takich jak wykresy kołowe. Podamy instrukcje krok po kroku i przykłady kodu źródłowego, aby to osiągnąć. 
 
-## Warunki wstępne
+## Wymagania wstępne
 Zanim zaczniemy, upewnij się, że masz zainstalowany i skonfigurowany Aspose.Slides for Java w swoim projekcie Java.
 
 ## Krok 1: Utwórz prezentację
-Zacznijmy od stworzenia nowej prezentacji:
+Zacznijmy od utworzenia nowej prezentacji:
 
 ```java
 // Ścieżka do katalogu dokumentów.
 String dataDir = "Your Document Directory";
-// Utwórz instancję klasy Prezentacja
+// Utwórz instancję klasy Presentation
 Presentation presentation = new Presentation();
 ```
 
@@ -46,7 +48,7 @@ Teraz ustawmy różne właściwości wykresu, w tym opcje drugiego wykresu:
 // Pokaż etykiety danych dla pierwszej serii
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 
-// Ustaw rozmiar drugiego ciasta (w procentach)
+// Ustaw rozmiar drugiego wykresu kołowego (w procentach)
 chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setSecondPieSize(149);
 
 // Podziel ciasto procentowo
@@ -57,19 +59,19 @@ chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setPieSplitP
 ```
 
 ## Krok 4: Zapisz prezentację
-Na koniec zapisz prezentację z wykresem i drugą opcją wykresu:
+Na koniec zapisz prezentację z opcjami wykresu i drugiego wykresu:
 
 ```java
 // Zapisz prezentację na dysku
 presentation.save(dataDir + "SecondPlotOptionsforCharts_out.pptx", SaveFormat.Pptx);
 ```
 
-## Kompletny kod źródłowy dla opcji drugiej fabuły
+## Kompletny kod źródłowy dla drugiej opcji wykresu
 
 ```java
 // Ścieżka do katalogu dokumentów.
 String dataDir = "Your Document Directory";
-// Utwórz instancję klasy Prezentacja
+// Utwórz instancję klasy Presentation
 Presentation presentation = new Presentation();
 // Dodaj wykres na slajdzie
 IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.PieOfPie, 50, 50, 500, 400);
@@ -84,24 +86,26 @@ presentation.save(dataDir + "SecondPlotOptionsforCharts_out.pptx", SaveFormat.Pp
 
 ## Wniosek
 
-W tym samouczku nauczyliśmy się, jak dodawać drugie opcje wykresu do wykresów w Java Slides przy użyciu Aspose.Slides dla Java. Możesz dostosować różne właściwości, aby poprawić wygląd i funkcjonalność wykresów, dzięki czemu Twoje prezentacje będą bardziej informacyjne i atrakcyjne wizualnie.
+W tym samouczku nauczyliśmy się, jak dodawać drugie opcje wykresu do wykresów w Java Slides przy użyciu Aspose.Slides for Java. Możesz dostosować różne właściwości, aby ulepszyć wygląd i funkcjonalność wykresów, dzięki czemu prezentacje będą bardziej informacyjne i atrakcyjne wizualnie.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### Jak zmienić rozmiar drugiego koła na wykresie kołowym?
+### Jak mogę zmienić rozmiar drugiego koła na wykresie kołowym?
 
-Aby zmienić rozmiar drugiego koła na wykresie kołowym, użyj opcji`setSecondPieSize` metodę, jak pokazano w powyższym przykładzie kodu. Dostosuj wartość, aby określić rozmiar w procentach.
+Aby zmienić rozmiar drugiego koła w wykresie kołowym, użyj `setSecondPieSize` metoda pokazana w przykładzie kodu powyżej. Dostosuj wartość, aby określić rozmiar w procentach.
 
-###  Co robi`PieSplitBy` control in a Pie of Pie chart?
+### Co robi `PieSplitBy` kontrola na wykresie kołowym?
 
- The`PieSplitBy` właściwość kontroluje sposób podziału wykresu kołowego. Możesz to ustawić na jedno i drugie`PieSplitType.ByPercentage` Lub`PieSplitType.ByValue` aby podzielić wykres odpowiednio procentowo lub według określonej wartości.
+Ten `PieSplitBy` właściwość kontroluje sposób podziału wykresu kołowego. Możesz ustawić ją na `PieSplitType.ByPercentage` Lub `PieSplitType.ByValue` aby podzielić wykres według procentów lub określonej wartości.
 
 ### Jak ustawić pozycję podziału na wykresie kołowym?
 
- Możesz ustawić pozycję podziału na wykresie kołowym za pomocą opcji`setPieSplitPosition` metoda. Dostosuj wartość, aby określić żądaną pozycję.
+Pozycję podziału na wykresie kołowym można ustawić za pomocą `setPieSplitPosition` metoda. Dostosuj wartość, aby określić żądaną pozycję.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: पावरपॉइंट में आकृतियाँ छिपाएँ
-linktitle: पावरपॉइंट में आकृतियाँ छिपाएँ
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: हमारे विस्तृत चरण-दर-चरण गाइड के साथ Aspose.Slides for Java का उपयोग करके PowerPoint में आकृतियों को छिपाने का तरीका जानें। सभी स्तरों के Java डेवलपर्स के लिए बिल्कुल सही।
-weight: 27
-url: /hi/java/java-powerpoint-shape-formatting-geometry/hide-shapes-powerpoint/
+"description": "हमारे विस्तृत चरण-दर-चरण गाइड के साथ Aspose.Slides for Java का उपयोग करके PowerPoint में आकृतियों को छिपाने का तरीका जानें। सभी स्तरों के Java डेवलपर्स के लिए बिल्कुल सही।"
+"linktitle": "पावरपॉइंट में आकृतियाँ छिपाएँ"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "पावरपॉइंट में आकृतियाँ छिपाएँ"
+"url": "/hi/java/java-powerpoint-shape-formatting-geometry/hide-shapes-powerpoint/"
+"weight": 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पावरपॉइंट में आकृतियाँ छिपाएँ
@@ -17,8 +19,8 @@ url: /hi/java/java-powerpoint-shape-formatting-geometry/hide-shapes-powerpoint/
 Aspose.Slides for Java का उपयोग करके PowerPoint में आकृतियों को छिपाने के बारे में हमारे व्यापक ट्यूटोरियल में आपका स्वागत है! यदि आपको कभी भी अपने PowerPoint प्रस्तुतियों में प्रोग्रामेटिक रूप से विशिष्ट आकृतियों को छिपाने की आवश्यकता हुई है, तो आप सही जगह पर हैं। यह मार्गदर्शिका आपको सरल, संवादात्मक शैली में प्रत्येक चरण से गुजारेगी। चाहे आप एक अनुभवी डेवलपर हों या अभी-अभी Java के साथ शुरुआत कर रहे हों, हम आपके लिए सब कुछ लेकर आए हैं।
 ## आवश्यक शर्तें
 इससे पहले कि हम ट्यूटोरियल में आगे बढ़ें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
--  जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपकी मशीन पर JDK इंस्टॉल है। आप इसे यहाँ से डाउनलोड कर सकते हैं[ओरेकल वेबसाइट](https://www.oracle.com/java/technologies/javase-downloads.html).
--  Aspose.Slides for Java लाइब्रेरी: यहां से नवीनतम संस्करण डाउनलोड करें[Aspose.Slides for Java रिलीज़](https://releases.aspose.com/slides/java/).
+- जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपकी मशीन पर JDK इंस्टॉल है। आप इसे यहाँ से डाउनलोड कर सकते हैं [ओरेकल वेबसाइट](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Aspose.Slides for Java लाइब्रेरी: यहां से नवीनतम संस्करण डाउनलोड करें [Aspose.Slides for Java रिलीज़](https://releases.aspose.com/slides/java/).
 - एकीकृत विकास वातावरण (IDE): कोई भी जावा IDE जैसे कि IntelliJ IDEA, Eclipse, या NetBeans.
 - जावा की बुनियादी समझ: यद्यपि यह ट्यूटोरियल शुरुआती लोगों के लिए अनुकूल है, लेकिन जावा की बुनियादी समझ लाभदायक होगी।
 ## पैकेज आयात करें
@@ -31,15 +33,15 @@ import com.aspose.slides.*;
 ## चरण 1: अपना प्रोजेक्ट सेट करें
 सबसे पहले, आपको अपना जावा प्रोजेक्ट सेट अप करना होगा और Aspose.Slides को निर्भरता के रूप में शामिल करना होगा। यहाँ बताया गया है कि कैसे:
 ### एक नया जावा प्रोजेक्ट बनाएं
- अपना IDE खोलें और एक नया Java प्रोजेक्ट बनाएँ। इसे कोई प्रासंगिक नाम दें, जैसे`HideShapesInPowerPoint`.
+अपना IDE खोलें और एक नया Java प्रोजेक्ट बनाएँ। इसे कोई प्रासंगिक नाम दें, जैसे `HideShapesInPowerPoint`.
 ### Aspose.Slides लाइब्रेरी जोड़ें
- Aspose.Slides JAR फ़ाइल को यहाँ से डाउनलोड करें[लिंक को डाउनलोड करें](https://releases.aspose.com/slides/java/) और इसे अपने प्रोजेक्ट के क्लासपाथ में जोड़ें। यह चरण आपके IDE के आधार पर थोड़ा भिन्न हो सकता है।
+Aspose.Slides JAR फ़ाइल को यहाँ से डाउनलोड करें [लिंक को डाउनलोड करें](https://releases.aspose.com/slides/java/) और इसे अपने प्रोजेक्ट के क्लासपाथ में जोड़ें। यह चरण आपके IDE के आधार पर थोड़ा भिन्न हो सकता है।
 ## चरण 2: प्रस्तुति आरंभ करें
 अब, कोडिंग शुरू करते हैं। आपको एक प्रेजेंटेशन ऑब्जेक्ट को इनिशियलाइज़ करना होगा जो आपकी PowerPoint फ़ाइल का प्रतिनिधित्व करता है।
 ```java
 // दस्तावेज़ निर्देशिका का पथ.
 String dataDir = "Your Document Directory";
-// PPTX का प्रतिनिधित्व करने वाले प्रेजेंटेशन क्लास को इंस्टेंटिएट करें
+// PPTX का प्रतिनिधित्व करने वाला इन्स्टेन्शियेट प्रेजेंटेशन क्लास
 Presentation pres = new Presentation();
 ```
 
@@ -68,7 +70,7 @@ for (int i = 0; i < iCount; i++) {
     }
 }
 ```
-## चरण 6: प्रेजेंटेशन सहेजें
+## चरण 6: प्रस्तुति सहेजें
 अंत में, संशोधित प्रस्तुति को अपने इच्छित स्थान पर सहेजें।
 ```java
 // प्रस्तुति को डिस्क पर सहेजें
@@ -80,16 +82,18 @@ pres.save(dataDir + "Hiding_Shapes_out.pptx", SaveFormat.Pptx);
 ### Java के लिए Aspose.Slides क्या है?
 Aspose.Slides for Java, PowerPoint फ़ाइलों को प्रोग्रामेटिक रूप से मैनिपुलेट करने के लिए एक शक्तिशाली API है। यह डेवलपर्स को Microsoft PowerPoint की आवश्यकता के बिना प्रस्तुतियाँ बनाने, संशोधित करने और प्रबंधित करने की अनुमति देता है।
 ### मैं जावा का उपयोग करके PowerPoint में किसी आकृति को कैसे छिपाऊं?
- आप किसी आकृति को उसकी सेटिंग करके छिपा सकते हैं`setHidden` संपत्ति को`true`इसमें आकृति को उसके वैकल्पिक पाठ से पहचानना और स्लाइड पर आकृतियों के माध्यम से लूपिंग करना शामिल है।
+आप किसी आकृति को उसकी सेटिंग करके छिपा सकते हैं `setHidden` संपत्ति को `true`इसमें आकृति को उसके वैकल्पिक पाठ से पहचानना और स्लाइड पर आकृतियों के माध्यम से लूपिंग करना शामिल है।
 ### क्या मैं अन्य प्रोग्रामिंग भाषाओं के साथ Java के लिए Aspose.Slides का उपयोग कर सकता हूँ?
-Aspose.Slides .NET, Python और C सहित विभिन्न प्रोग्रामिंग भाषाओं के लिए उपलब्ध है++हालाँकि, यह गाइड विशेष रूप से जावा को कवर करती है।
+Aspose.Slides .NET, Python और C++ सहित विभिन्न प्रोग्रामिंग भाषाओं के लिए उपलब्ध है। हालाँकि, यह गाइड विशेष रूप से Java को कवर करती है।
 ### क्या Aspose.Slides के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
- हां, आप यहां से निःशुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप यहां से निःशुल्क परीक्षण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
 ### मुझे Aspose.Slides के लिए समर्थन कहां मिल सकता है?
- आप यहाँ से सहायता प्राप्त कर सकते हैं[Aspose.Slides समर्थन मंच](https://forum.aspose.com/c/slides/11).
+आप यहाँ से सहायता प्राप्त कर सकते हैं [Aspose.Slides समर्थन मंच](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

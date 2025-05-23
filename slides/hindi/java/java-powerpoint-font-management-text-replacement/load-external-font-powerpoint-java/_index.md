@@ -1,24 +1,26 @@
 ---
-title: जावा के साथ PowerPoint में बाह्य फ़ॉन्ट लोड करें
-linktitle: जावा के साथ PowerPoint में बाह्य फ़ॉन्ट लोड करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में कस्टम फ़ॉन्ट लोड करना सीखें। अद्वितीय टाइपोग्राफी के साथ अपनी स्लाइड्स को बेहतर बनाएँ।
-weight: 10
-url: /hi/java/java-powerpoint-font-management-text-replacement/load-external-font-powerpoint-java/
+"description": "Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में कस्टम फ़ॉन्ट लोड करना सीखें। अद्वितीय टाइपोग्राफी के साथ अपनी स्लाइड्स को बेहतर बनाएँ।"
+"linktitle": "जावा के साथ पावरपॉइंट में बाहरी फ़ॉन्ट लोड करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा के साथ पावरपॉइंट में बाहरी फ़ॉन्ट लोड करें"
+"url": "/hi/java/java-powerpoint-font-management-text-replacement/load-external-font-powerpoint-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# जावा के साथ PowerPoint में बाह्य फ़ॉन्ट लोड करें
+# जावा के साथ पावरपॉइंट में बाहरी फ़ॉन्ट लोड करें
 
 ## परिचय
 इस ट्यूटोरियल में, हम आपको Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में बाहरी फ़ॉन्ट लोड करने की प्रक्रिया के बारे में बताएँगे। कस्टम फ़ॉन्ट आपकी प्रस्तुतियों में एक अनूठा स्पर्श जोड़ सकते हैं, जिससे विभिन्न प्लेटफ़ॉर्म पर सुसंगत ब्रांडिंग या शैलीगत प्राथमिकताएँ सुनिश्चित होती हैं।
 ## आवश्यक शर्तें
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 1. जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपके सिस्टम पर JDK स्थापित है।
-2.  Aspose.Slides for Java लाइब्रेरी: Aspose.Slides for Java लाइब्रेरी डाउनलोड करें और इंस्टॉल करें। आप डाउनलोड लिंक पा सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides for Java लाइब्रेरी: Aspose.Slides for Java लाइब्रेरी डाउनलोड करें और इंस्टॉल करें। आप डाउनलोड लिंक पा सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 3. बाह्य फ़ॉन्ट फ़ाइल: कस्टम फ़ॉन्ट फ़ाइल (.ttf प्रारूप) तैयार करें जिसे आप अपनी प्रस्तुति में उपयोग करना चाहते हैं।
 
 ## पैकेज आयात करें
@@ -31,8 +33,8 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 ```
-## चरण 1: दस्तावेज़ निर्देशिका परिभाषित करें
-वह निर्देशिका सेट करें जहाँ आपके दस्तावेज़ स्थित हैं:
+## चरण 1: दस्तावेज़ निर्देशिका निर्धारित करें
+वह निर्देशिका सेट करें जहां आपके दस्तावेज़ स्थित हैं:
 ```java
 String dataDir = "Your Document Directory";
 ```
@@ -68,10 +70,12 @@ Aspose.Slides for Java वर्तमान में केवल ट्रू
 ### क्या लोड किए जा सकने वाले कस्टम फ़ॉन्ट के आकार या प्रकार पर कोई सीमाएं हैं?
 जब तक फ़ॉन्ट फ़ाइल ट्रूटाइप (.ttf) प्रारूप में है और उचित आकार सीमा के भीतर है, तब तक आप इसे सफलतापूर्वक लोड करने में सक्षम होंगे।
 ### क्या बाह्य फ़ॉन्ट लोड करने से विभिन्न PowerPoint संस्करणों के साथ प्रस्तुति की संगतता प्रभावित होती है?
-नहीं, प्रस्तुति विभिन्न पावरपॉइंट संस्करणों के साथ संगत रहती है, जब तक फ़ॉन्ट एम्बेडेड या बाह्य रूप से लोड किए गए हों।
+नहीं, प्रस्तुति विभिन्न पावरपॉइंट संस्करणों के साथ संगत रहती है, जब तक कि फ़ॉन्ट एम्बेडेड या बाह्य रूप से लोड किए गए हों।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

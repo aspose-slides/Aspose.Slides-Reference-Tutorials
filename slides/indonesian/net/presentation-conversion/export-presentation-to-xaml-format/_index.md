@@ -1,51 +1,53 @@
 ---
-title: Ekspor Presentasi ke Format XAML
-linktitle: Ekspor Presentasi ke Format XAML
-second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
-description: Pelajari cara mengekspor presentasi ke format XAML menggunakan Aspose.Slides untuk .NET. Buat konten interaktif dengan mudah!
-weight: 27
-url: /id/net/presentation-conversion/export-presentation-to-xaml-format/
+"description": "Pelajari cara mengekspor presentasi ke format XAML menggunakan Aspose.Slides untuk .NET. Ciptakan konten interaktif dengan mudah!"
+"linktitle": "Ekspor Presentasi ke Format XAML"
+"second_title": "API Pemrosesan PowerPoint Aspose.Slides .NET"
+"title": "Ekspor Presentasi ke Format XAML"
+"url": "/id/net/presentation-conversion/export-presentation-to-xaml-format/"
+"weight": 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ekspor Presentasi ke Format XAML
 
 
-Dalam dunia pengembangan perangkat lunak, penting untuk memiliki alat yang dapat menyederhanakan tugas-tugas kompleks. Aspose.Slides for .NET adalah salah satu alat yang memungkinkan Anda bekerja dengan presentasi PowerPoint secara terprogram. Dalam tutorial langkah demi langkah ini, kita akan mempelajari cara mengekspor presentasi ke format XAML menggunakan Aspose.Slides untuk .NET. 
+Dalam dunia pengembangan perangkat lunak, penting untuk memiliki alat yang dapat menyederhanakan tugas-tugas yang rumit. Aspose.Slides for .NET adalah salah satu alat yang memungkinkan Anda bekerja dengan presentasi PowerPoint secara terprogram. Dalam tutorial langkah demi langkah ini, kita akan menjelajahi cara mengekspor presentasi ke format XAML menggunakan Aspose.Slides for .NET. 
 
 ## Pengantar Aspose.Slides untuk .NET
 
-Sebelum kita mendalami tutorialnya, mari kita perkenalkan secara singkat Aspose.Slides untuk .NET. Ini adalah perpustakaan canggih yang memungkinkan pengembang membuat, memodifikasi, mengonversi, dan mengelola presentasi PowerPoint tanpa memerlukan Microsoft PowerPoint itu sendiri. Dengan Aspose.Slides untuk .NET, Anda dapat mengotomatiskan berbagai tugas yang terkait dengan presentasi PowerPoint, menjadikan proses pengembangan Anda lebih efisien.
+Sebelum kita menyelami tutorialnya, mari kita perkenalkan Aspose.Slides for .NET secara singkat. Ini adalah pustaka canggih yang memungkinkan pengembang untuk membuat, memodifikasi, mengonversi, dan mengelola presentasi PowerPoint tanpa memerlukan Microsoft PowerPoint itu sendiri. Dengan Aspose.Slides for .NET, Anda dapat mengotomatiskan berbagai tugas yang terkait dengan presentasi PowerPoint, sehingga proses pengembangan Anda menjadi lebih efisien.
 
 ## Prasyarat
 
-Untuk mengikuti tutorial ini, Anda memerlukan yang berikut ini:
+Untuk mengikuti tutorial ini, Anda memerlukan hal berikut:
 
-1. Aspose.Slides for .NET: Pastikan Anda telah menginstal pustaka Aspose.Slides for .NET dan siap digunakan dalam proyek .NET Anda.
+1. Aspose.Slides untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Slides untuk .NET dan siap digunakan dalam proyek .NET Anda.
 
-2. Sumber Presentasi: Miliki presentasi PowerPoint (PPTX) yang ingin Anda ekspor ke format XAML. Pastikan Anda mengetahui jalur menuju presentasi ini.
+2. Presentasi Sumber: Punya presentasi PowerPoint (PPTX) yang ingin diekspor ke format XAML. Pastikan Anda mengetahui jalur ke presentasi ini.
 
-3. Direktori Output: Pilih direktori tempat Anda ingin menyimpan file XAML yang dihasilkan.
+3. Direktori Keluaran: Pilih direktori tempat Anda ingin menyimpan file XAML yang dihasilkan.
 
 ## Langkah 1: Siapkan Proyek Anda
 
-Pada langkah pertama ini, kami akan menyiapkan proyek kami dan memastikan semua komponen yang diperlukan telah siap. Pastikan Anda telah menambahkan referensi ke pustaka Aspose.Slides for .NET di proyek Anda.
+Pada langkah pertama ini, kita akan menyiapkan proyek dan memastikan semua komponen yang diperlukan telah siap. Pastikan Anda telah menambahkan referensi ke pustaka Aspose.Slides for .NET di proyek Anda.
 
 ```csharp
 string dataDir = "Your Document Directory";
 string outPath = "Your Output Directory";
-// Jalur menuju presentasi sumber
+// Presentasi jalur menuju sumber
 string presentationFileName = Path.Combine(dataDir, "XamlEtalon.pptx");
 ```
 
- Mengganti`"Your Document Directory"` dengan jalur ke direktori yang berisi presentasi PowerPoint sumber Anda. Juga, tentukan direktori keluaran tempat file XAML yang dihasilkan akan disimpan.
+Mengganti `"Your Document Directory"` dengan jalur ke direktori yang berisi presentasi PowerPoint sumber Anda. Tentukan juga direktori keluaran tempat file XAML yang dihasilkan akan disimpan.
 
 ## Langkah 2: Ekspor Presentasi ke XAML
 
-Sekarang, mari kita lanjutkan mengekspor presentasi PowerPoint ke format XAML. Kami akan menggunakan Aspose.Slides untuk .NET untuk mencapai hal ini. 
+Sekarang, mari kita lanjutkan untuk mengekspor presentasi PowerPoint ke format XAML. Kita akan menggunakan Aspose.Slides for .NET untuk mencapainya. 
 
 ```csharp
 using (Presentation pres = new Presentation(presentationFileName))
@@ -54,7 +56,7 @@ using (Presentation pres = new Presentation(presentationFileName))
     XamlOptions xamlOptions = new XamlOptions();
     xamlOptions.ExportHiddenSlides = true;
 
-    // Tentukan layanan penyimpanan keluaran Anda sendiri
+    // Tentukan layanan penghematan output Anda sendiri
     NewXamlSaver newXamlSaver = new NewXamlSaver();
     xamlOptions.OutputSaver = newXamlSaver;
 
@@ -69,11 +71,11 @@ using (Presentation pres = new Presentation(presentationFileName))
 }
 ```
 
- Dalam cuplikan kode ini, kami memuat presentasi sumber, membuat opsi konversi XAML, dan menentukan layanan penyimpanan keluaran khusus menggunakan`NewXamlSaver`. Kami kemudian menyimpan file XAML ke direktori keluaran yang ditentukan.
+Dalam potongan kode ini, kami memuat presentasi sumber, membuat opsi konversi XAML, dan menentukan layanan penyimpanan keluaran khusus menggunakan `NewXamlSaver`Kemudian kami menyimpan file XAML ke direktori keluaran yang ditentukan.
 
-## Langkah 3: Kelas Penghemat XAML Khusus
+## Langkah 3: Kelas Penyimpan XAML Kustom
 
- Untuk mengimplementasikan penghemat XAML khusus, kita akan membuat kelas bernama`NewXamlSaver` yang mengimplementasikan`IXamlOutputSaver` antarmuka.
+Untuk mengimplementasikan penyimpan XAML khusus, kita akan membuat kelas bernama `NewXamlSaver` yang mengimplementasikan `IXamlOutputSaver` antarmuka.
 
 ```csharp
 class NewXamlSaver : IXamlOutputSaver
@@ -93,35 +95,37 @@ class NewXamlSaver : IXamlOutputSaver
 }
 ```
 
-Kelas ini akan menangani penyimpanan file XAML ke direktori keluaran.
+Kelas ini akan menangani penyimpanan berkas XAML ke direktori keluaran.
 
 ## Kesimpulan
 
-Selamat! Anda telah berhasil mempelajari cara mengekspor presentasi PowerPoint ke format XAML menggunakan Aspose.Slides untuk .NET. Ini bisa menjadi keterampilan yang berharga ketika mengerjakan proyek yang melibatkan manipulasi presentasi.
+Selamat! Anda telah berhasil mempelajari cara mengekspor presentasi PowerPoint ke format XAML menggunakan Aspose.Slides for .NET. Ini dapat menjadi keterampilan yang berharga saat mengerjakan proyek yang melibatkan manipulasi presentasi.
 
-Jangan ragu untuk menjelajahi lebih banyak fitur dan kemampuan Aspose.Slides untuk .NET guna menyempurnakan tugas otomatisasi PowerPoint Anda.
+Jangan ragu untuk menjelajahi lebih banyak fitur dan kemampuan Aspose.Slides for .NET untuk menyempurnakan tugas otomatisasi PowerPoint Anda.
 
-## FAQ
+## Tanya Jawab Umum
 
-1. ### Apa itu Aspose.Slide untuk .NET?
-Aspose.Slides for .NET adalah perpustakaan .NET untuk bekerja dengan presentasi PowerPoint secara terprogram.
+1. ### Apa itu Aspose.Slides untuk .NET?
+Aspose.Slides untuk .NET adalah pustaka .NET untuk bekerja dengan presentasi PowerPoint secara terprogram.
 
 2. ### Di mana saya bisa mendapatkan Aspose.Slides untuk .NET?
- Anda dapat mengunduh Aspose.Slides untuk .NET dari[Di Sini](https://purchase.aspose.com/buy).
+Anda dapat mengunduh Aspose.Slides untuk .NET dari [Di Sini](https://purchase.aspose.com/buy).
 
 3. ### Apakah ada uji coba gratis yang tersedia?
- Ya, Anda bisa mendapatkan uji coba gratis Aspose.Slides untuk .NET[Di Sini](https://releases.aspose.com/).
+Ya, Anda bisa mendapatkan uji coba gratis Aspose.Slides untuk .NET [Di Sini](https://releases.aspose.com/).
 
-4. ### Bagaimana saya bisa mendapatkan lisensi sementara untuk Aspose.Slides untuk .NET?
- Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+4. ### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Slides for .NET?
+Anda bisa mendapatkan lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 5. ### Di mana saya bisa mendapatkan dukungan untuk Aspose.Slides untuk .NET?
- Anda dapat menemukan dukungan dan diskusi komunitas[Di Sini](https://forum.aspose.com/).
+Anda dapat menemukan dukungan dan diskusi komunitas [Di Sini](https://forum.aspose.com/).
 
- Untuk tutorial dan sumber daya lainnya, kunjungi[Dokumentasi Aspose.Slides API](https://reference.aspose.com/slides/net/).
+Untuk tutorial dan sumber daya lebih lanjut, kunjungi [Dokumentasi API Aspose.Slides](https://reference.aspose.com/slides/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

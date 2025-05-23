@@ -1,54 +1,56 @@
 ---
-title: Informatie uit diagram verbergen in Java-dia's
-linktitle: Informatie uit diagram verbergen in Java-dia's
-second_title: Aspose.Slides Java PowerPoint-verwerkings-API
-description: Leer hoe u diagramelementen in Java Slides kunt verbergen met Aspose.Slides voor Java. Pas presentaties aan voor duidelijkheid en esthetiek met stapsgewijze begeleiding en broncode.
-weight: 13
-url: /nl/java/customization-and-formatting/hide-information-chart-java-slides/
+"description": "Leer hoe u grafiekelementen in Java Slides kunt verbergen met Aspose.Slides voor Java. Pas presentaties aan voor helderheid en esthetiek met stapsgewijze instructies en broncode."
+"linktitle": "Informatie verbergen uit grafiek in Java-dia's"
+"second_title": "Aspose.Slides Java PowerPoint-verwerkings-API"
+"title": "Informatie verbergen uit grafiek in Java-dia's"
+"url": "/nl/java/customization-and-formatting/hide-information-chart-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Informatie uit diagram verbergen in Java-dia's
+# Informatie verbergen uit grafiek in Java-dia's
 
 
-## Inleiding tot het verbergen van informatie uit diagrammen in Java-dia's
+## Inleiding tot het verbergen van informatie uit een grafiek in Java-dia's
 
-In deze zelfstudie onderzoeken we hoe u verschillende elementen uit een diagram in Java Slides kunt verbergen met behulp van de Aspose.Slides voor Java API. U kunt deze code gebruiken om uw diagrammen naar wens aan te passen voor uw presentaties.
+In deze tutorial laten we zien hoe je verschillende elementen in een grafiek in Java Slides kunt verbergen met behulp van de Aspose.Slides voor Java API. Je kunt deze code gebruiken om je grafieken naar wens aan te passen voor je presentaties.
 
 ## Stap 1: De omgeving instellen
 
- Voordat we beginnen, moet u ervoor zorgen dat de Aspose.Slides voor Java-bibliotheek aan uw project is toegevoegd. Je kunt het downloaden van[hier](https://releases.aspose.com/slides/java/).
+Voordat we beginnen, zorg ervoor dat je de Aspose.Slides voor Java-bibliotheek aan je project hebt toegevoegd. Je kunt deze downloaden van [hier](https://releases.aspose.com/slides/java/).
 
-## Stap 2: Maak een nieuwe presentatie
+## Stap 2: Een nieuwe presentatie maken
 
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 ```
 
-## Stap 3: Een diagram aan de dia toevoegen
+## Stap 3: Een grafiek toevoegen aan de dia
 
-We voegen een lijndiagram met markeringen toe aan een dia en gaan vervolgens verder met het verbergen van verschillende elementen van het diagram.
+We voegen een lijndiagram met markeringen toe aan een dia en verbergen vervolgens verschillende elementen van het diagram.
 
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 140, 118, 320, 370);
 ```
 
-## Stap 4: Verberg de titel van het diagram
+## Stap 4: Verberg grafiektitel
 
-U kunt de diagramtitel als volgt verbergen:
+U kunt de grafiektitel als volgt verbergen:
 
 ```java
 chart.setTitle(false);
 ```
 
-## Stap 5: Waardenas verbergen
+## Stap 5: Waarden-as verbergen
 
-Gebruik de volgende code om de waardenas (verticale as) te verbergen:
+Om de waarden-as (verticale as) te verbergen, gebruikt u de volgende code:
 
 ```java
 chart.getAxes().getVerticalAxis().setVisible(false);
@@ -56,7 +58,7 @@ chart.getAxes().getVerticalAxis().setVisible(false);
 
 ## Stap 6: Categorie-as verbergen
 
-Gebruik deze code om de categorie-as (horizontale as) te verbergen:
+Om de categorie-as (horizontale as) te verbergen, gebruikt u deze code:
 
 ```java
 chart.getAxes().getHorizontalAxis().setVisible(false);
@@ -64,7 +66,7 @@ chart.getAxes().getHorizontalAxis().setVisible(false);
 
 ## Stap 7: Legenda verbergen
 
-U kunt de legenda van het diagram als volgt verbergen:
+U kunt de legenda van de grafiek als volgt verbergen:
 
 ```java
 chart.setLegend(false);
@@ -88,9 +90,9 @@ for (int i = 0; i < chart.getChartData().getSeries().size(); i++) {
 }
 ```
 
-## Stap 10: Pas de grafiekreeks aan
+## Stap 10: Grafiekreeks aanpassen
 
-U kunt de kaartserie indien nodig aanpassen. In dit voorbeeld wijzigen we de markeringsstijl, de positie van het gegevenslabel, de markeringsgrootte, de lijnkleur en de streepjesstijl:
+U kunt de grafiekreeks naar wens aanpassen. In dit voorbeeld wijzigen we de markeringsstijl, de positie van het gegevenslabel, de markeringsgrootte, de lijnkleur en de streepjesstijl:
 
 ```java
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
@@ -111,9 +113,9 @@ Sla de presentatie ten slotte op in een bestand:
 pres.save(dataDir + "HideInformationFromChart.pptx", SaveFormat.Pptx);
 ```
 
-Dat is het! U hebt met succes verschillende elementen uit een diagram in Java Slides verborgen met Aspose.Slides voor Java. U kunt uw grafieken en presentaties indien nodig verder aanpassen aan uw specifieke vereisten.
+Dat is alles! Je hebt met succes verschillende elementen uit een grafiek in Java Slides verborgen met Aspose.Slides voor Java. Je kunt je grafieken en presentaties naar wens verder aanpassen aan je specifieke wensen.
 
-## Volledige broncode voor het verbergen van informatie uit het diagram in Java-dia's
+## Volledige broncode voor het verbergen van informatie uit grafieken in Java-dia's
 
 ```java
 // Het pad naar de documentenmap.
@@ -123,13 +125,13 @@ try
 {
 	ISlide slide = pres.getSlides().get_Item(0);
 	IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 140, 118, 320, 370);
-	//Titel van diagram verbergen
+	//Grafiektitel verbergen
 	chart.setTitle(false);
-	///Waarden-as verbergen
+	///Waarden verbergen-as
 	chart.getAxes().getVerticalAxis().setVisible(false);
 	//Zichtbaarheid van de categorie-as
 	chart.getAxes().getHorizontalAxis().setVisible(false);
-	//Legende verbergen
+	//Verbergende legende
 	chart.setLegend(false);
 	//MajorGridLines verbergen
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.NoFill);
@@ -142,7 +144,7 @@ try
 	series.getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	series.getLabels().getDefaultDataLabelFormat().setPosition(LegendDataLabelPosition.Top);
 	series.getMarker().setSize(15);
-	//Serielijnkleur instellen
+	//Instellen van de lijnkleur van de serie
 	series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(new Color(PresetColor.Purple));
 	series.getFormat().getLine().setDashStyle(LineDashStyle.Solid);
@@ -155,32 +157,34 @@ finally
 ```
 ## Conclusie
 
-In deze stapsgewijze handleiding hebben we onderzocht hoe u verschillende elementen uit een diagram in Java Slides kunt verbergen met behulp van de Aspose.Slides voor Java API. Dit kan ongelooflijk handig zijn wanneer u uw diagrammen voor presentaties moet aanpassen en ze visueel aantrekkelijker moet maken of moet afstemmen op uw specifieke behoeften.
+In deze stapsgewijze handleiding hebben we uitgelegd hoe je verschillende elementen in een grafiek in Java Slides kunt verbergen met behulp van de Aspose.Slides voor Java API. Dit kan ontzettend handig zijn wanneer je je grafieken voor presentaties wilt aanpassen en ze visueel aantrekkelijker wilt maken of wilt afstemmen op je specifieke behoeften.
 
 ## Veelgestelde vragen
 
-### Hoe pas ik het uiterlijk van diagramelementen verder aan?
+### Hoe kan ik het uiterlijk van grafiekelementen verder aanpassen?
 
-U kunt verschillende eigenschappen van diagramelementen aanpassen, zoals lijnkleur, opvulkleur, markeringsstijl en meer, door de overeenkomstige eigenschappen van de diagramserie, markeringen, labels en opmaak te openen.
+U kunt verschillende eigenschappen van grafiekelementen, zoals lijnkleur, opvulkleur, markeringsstijl en meer, aanpassen door de bijbehorende eigenschappen van de grafiekreeks, markeringen, labels en opmaak te openen.
 
-### Kan ik specifieke gegevenspunten in het diagram verbergen?
+### Kan ik specifieke datapunten in de grafiek verbergen?
 
-Ja, u kunt specifieke gegevenspunten verbergen door de gegevens in de diagramserie te manipuleren. U kunt gegevenspunten verwijderen of hun waarden instellen op nul om ze te verbergen.
+Ja, u kunt specifieke datapunten verbergen door de gegevens in de grafiekreeks te manipuleren. U kunt datapunten verwijderen of hun waarden op nul zetten om ze te verbergen.
 
-### Hoe kan ik extra series aan het diagram toevoegen?
+### Hoe kan ik extra series aan de grafiek toevoegen?
 
- U kunt meer reeksen aan het diagram toevoegen met behulp van de`IChartData.getSeries().add` methode en het specificeren van de gegevenspunten voor de nieuwe reeks.
+U kunt meer series aan de grafiek toevoegen met behulp van de `IChartData.getSeries().add` methode en het specificeren van de datapunten voor de nieuwe reeks.
 
-### Is het mogelijk om het diagramtype dynamisch te wijzigen?
+### Is het mogelijk om het grafiektype dynamisch te wijzigen?
 
-Ja, u kunt het diagramtype dynamisch wijzigen door een nieuw diagram van het gewenste type te maken en gegevens van het oude diagram naar het nieuwe te kopiëren.
+Ja, u kunt het grafiektype dynamisch wijzigen door een nieuwe grafiek van het gewenste type te maken en gegevens uit de oude grafiek naar de nieuwe te kopiëren.
 
-### Hoe kan ik de titel- en aslabels van het diagram programmatisch wijzigen?
+### Hoe kan ik de titel en aslabels van het diagram programmatisch wijzigen?
 
-U kunt de titel en labels van het diagram en de assen instellen door hun respectieve eigenschappen te openen en de gewenste tekst en opmaak in te stellen.
+U kunt de titel en labels van de grafiek en de assen instellen door de bijbehorende eigenschappen te openen en de gewenste tekst en opmaak in te stellen.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

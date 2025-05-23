@@ -1,26 +1,28 @@
 ---
-title: Legenda Ukuran Font di Slide Java
-linktitle: Legenda Ukuran Font di Slide Java
-second_title: Aspose.Slides API Pemrosesan Java PowerPoint
-description: Sempurnakan presentasi PowerPoint dengan Aspose.Slides untuk Java. Pelajari cara menyesuaikan ukuran font legenda dan lainnya di panduan langkah demi langkah kami.
-weight: 13
-url: /id/java/chart-elements/font-size-legend-java-slides/
+"description": "Sempurnakan presentasi PowerPoint dengan Aspose.Slides untuk Java. Pelajari cara menyesuaikan ukuran font legenda dan lainnya dalam panduan langkah demi langkah kami."
+"linktitle": "Legenda Ukuran Font di Java Slides"
+"second_title": "API Pemrosesan PowerPoint Java Aspose.Slides"
+"title": "Legenda Ukuran Font di Java Slides"
+"url": "/id/java/chart-elements/font-size-legend-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Legenda Ukuran Font di Slide Java
+# Legenda Ukuran Font di Java Slides
 
 
-## Pengantar Legenda Ukuran Font di Slide Java
+## Pengenalan Legenda Ukuran Font di Java Slides
 
-Dalam tutorial ini, Anda akan mempelajari cara menyesuaikan ukuran font legenda di slide PowerPoint menggunakan Aspose.Slides untuk Java. Kami akan memberikan petunjuk langkah demi langkah dan kode sumber untuk mencapai tugas ini.
+Dalam tutorial ini, Anda akan mempelajari cara menyesuaikan ukuran font legenda dalam slide PowerPoint menggunakan Aspose.Slides untuk Java. Kami akan memberikan petunjuk langkah demi langkah dan kode sumber untuk menyelesaikan tugas ini.
 
 ## Prasyarat
 
- Sebelum memulai, pastikan Anda telah menginstal dan menyiapkan pustaka Aspose.Slides untuk Java di proyek Java Anda. Anda dapat mengunduh perpustakaan dari[Di Sini](https://releases.aspose.com/slides/java/).
+Sebelum memulai, pastikan Anda telah menginstal dan mengatur pustaka Aspose.Slides for Java di proyek Java Anda. Anda dapat mengunduh pustaka tersebut dari [Di Sini](https://releases.aspose.com/slides/java/).
 
 ## Langkah 1: Inisialisasi Presentasi
 
@@ -32,11 +34,11 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 ```
 
- Mengganti`"Your Document Directory"` dengan jalur sebenarnya ke file PowerPoint Anda.
+Mengganti `"Your Document Directory"` dengan jalur sebenarnya ke berkas PowerPoint Anda.
 
 ## Langkah 2: Tambahkan Bagan
 
-Selanjutnya, kita akan menambahkan bagan ke slide dan mengatur ukuran font legenda.
+Berikutnya, kita akan menambahkan bagan ke slide dan mengatur ukuran font legenda.
 
 ```java
 try
@@ -46,11 +48,11 @@ try
 }
 ```
 
- Dalam kode ini, kita membuat bagan kolom berkerumun pada slide pertama dan mengatur ukuran font teks legenda menjadi 20 poin. Anda dapat menyesuaikannya`setFontHeight`nilai untuk mengubah ukuran font sesuai kebutuhan.
+Dalam kode ini, kita membuat bagan kolom berkelompok pada slide pertama dan mengatur ukuran font teks legenda menjadi 20 poin. Anda dapat menyesuaikan `setFontHeight` nilai untuk mengubah ukuran font sesuai kebutuhan.
 
 ## Langkah 3: Sesuaikan Nilai Sumbu
 
-Sekarang, mari sesuaikan nilai sumbu vertikal bagan.
+Sekarang, mari kita sesuaikan nilai sumbu vertikal bagan.
 
 ```java
     chart.getAxes().getVerticalAxis().setAutomaticMinValue(false);
@@ -59,7 +61,7 @@ Sekarang, mari sesuaikan nilai sumbu vertikal bagan.
     chart.getAxes().getVerticalAxis().setMaxValue(10);
 ```
 
-Di sini, kami menetapkan nilai minimum dan maksimum untuk sumbu vertikal. Anda dapat mengubah nilainya sesuai kebutuhan data Anda.
+Di sini, kami menetapkan nilai minimum dan maksimum untuk sumbu vertikal. Anda dapat mengubah nilai sesuai kebutuhan data Anda.
 
 ## Langkah 4: Simpan Presentasi
 
@@ -76,7 +78,7 @@ finally
 
 Kode ini menyimpan presentasi yang dimodifikasi sebagai "output.pptx" di direktori yang ditentukan.
 
-## Kode Sumber Lengkap Untuk Legenda Ukuran Font di Slide Java
+## Source Code Lengkap Legenda Ukuran Font di Java Slides
 
 ```java
 // Jalur ke direktori dokumen.
@@ -100,11 +102,11 @@ finally
 
 ## Kesimpulan
 
-Anda telah berhasil mengkustomisasi ukuran font legenda dalam slide Java PowerPoint menggunakan Aspose.Slides untuk Java. Anda dapat mengeksplorasi lebih jauh kemampuan Aspose.Slides untuk membuat presentasi yang interaktif dan menarik secara visual.
+Anda telah berhasil menyesuaikan ukuran font legenda dalam slide PowerPoint Java menggunakan Aspose.Slides untuk Java. Anda dapat mengeksplorasi lebih lanjut kemampuan Aspose.Slides untuk membuat presentasi yang interaktif dan menarik secara visual.
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
-### Bagaimana cara mengubah ukuran font teks legenda dalam bagan?
+### Bagaimana cara mengubah ukuran font teks legenda pada bagan?
 
 Untuk mengubah ukuran font teks legenda dalam bagan, Anda dapat menggunakan kode berikut:
 
@@ -113,21 +115,21 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Clust
 chart.getLegend().getTextFormat().getPortionFormat().setFontHeight(20);
 ```
 
- Dalam kode ini, kita membuat bagan dan mengatur ukuran font teks legenda menjadi 20 poin. Anda dapat menyesuaikannya`setFontHeight` nilai untuk mengubah ukuran font.
+Dalam kode ini, kita membuat grafik dan mengatur ukuran font teks legenda menjadi 20 poin. Anda dapat menyesuaikan `setFontHeight` nilai untuk mengubah ukuran font.
 
-### Bisakah saya mengkustomisasi properti legenda lainnya dalam bagan?
+### Bisakah saya menyesuaikan properti legenda lainnya dalam bagan?
 
-Ya, Anda dapat mengkustomisasi berbagai properti legenda dalam bagan menggunakan Aspose.Slides. Beberapa properti umum yang dapat Anda sesuaikan mencakup pemformatan teks, posisi, visibilitas, dan lainnya. Misalnya, untuk mengubah posisi legenda, Anda dapat menggunakan:
+Ya, Anda dapat menyesuaikan berbagai properti legenda dalam bagan menggunakan Aspose.Slides. Beberapa properti umum yang dapat Anda sesuaikan meliputi pemformatan teks, posisi, visibilitas, dan banyak lagi. Misalnya, untuk mengubah posisi legenda, Anda dapat menggunakan:
 
 ```java
 chart.getLegend().setPosition(LegendPosition.Bottom);
 ```
 
-Kode ini mengatur legenda untuk muncul di bagian bawah grafik. Jelajahi dokumentasi Aspose.Slides untuk opsi penyesuaian lainnya.
+Kode ini mengatur legenda agar muncul di bagian bawah bagan. Jelajahi dokumentasi Aspose.Slides untuk opsi penyesuaian lebih lanjut.
 
-### Bagaimana cara menetapkan nilai minimum dan maksimum untuk sumbu vertikal dalam grafik?
+### Bagaimana cara menetapkan nilai minimum dan maksimum untuk sumbu vertikal dalam bagan?
 
-Untuk menetapkan nilai minimum dan maksimum sumbu vertikal dalam bagan, Anda dapat menggunakan kode berikut:
+Untuk menetapkan nilai minimum dan maksimum untuk sumbu vertikal dalam bagan, Anda dapat menggunakan kode berikut:
 
 ```java
 chart.getAxes().getVerticalAxis().setAutomaticMinValue(false);
@@ -136,14 +138,16 @@ chart.getAxes().getVerticalAxis().setAutomaticMaxValue(false);
 chart.getAxes().getVerticalAxis().setMaxValue(10);
 ```
 
-Di sini, kami menonaktifkan penskalaan sumbu otomatis dan menentukan nilai minimum dan maksimum untuk sumbu vertikal. Sesuaikan nilainya sesuai kebutuhan untuk data bagan Anda.
+Di sini, kami menonaktifkan penskalaan sumbu otomatis dan menentukan nilai minimum dan maksimum untuk sumbu vertikal. Sesuaikan nilai sesuai kebutuhan untuk data bagan Anda.
 
 ### Di mana saya dapat menemukan informasi dan dokumentasi lebih lanjut untuk Aspose.Slides?
 
- Anda dapat menemukan dokumentasi komprehensif dan referensi API untuk Aspose.Slides untuk Java di situs web dokumentasi Aspose. Mengunjungi[Di Sini](https://reference.aspose.com/slides/java/) untuk informasi rinci tentang penggunaan perpustakaan.
+Anda dapat menemukan dokumentasi lengkap dan referensi API untuk Aspose.Slides for Java di situs web dokumentasi Aspose. Kunjungi [Di Sini](https://reference.aspose.com/slides/java/) untuk informasi terperinci tentang penggunaan perpustakaan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

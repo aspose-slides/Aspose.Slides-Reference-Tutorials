@@ -1,69 +1,73 @@
 ---
-title: Organizuj układ wykresu Wpisz grafikę SmartArt przy użyciu języka Java
-linktitle: Organizuj układ wykresu Wpisz grafikę SmartArt przy użyciu języka Java
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Opanuj organizowanie typów układów wykresów w SmartArt przy użyciu języka Java z Aspose.Slides, bez wysiłku ulepszając wizualizacje prezentacji.
-weight: 13
-url: /pl/java/java-powerpoint-smartart-manipulation/organize-chart-layout-type-smartart-java/
+"description": "Opanuj różne rodzaje układów diagramów organizacyjnych w programie SmartArt przy użyciu języka Java z programem Aspose.Slides, bez trudu wzbogacając wizualizacje prezentacji."
+"linktitle": "Organizuj układ wykresu Typ w SmartArt przy użyciu Java"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Organizuj układ wykresu Typ w SmartArt przy użyciu Java"
+"url": "/pl/java/java-powerpoint-smartart-manipulation/organize-chart-layout-type-smartart-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Organizuj układ wykresu Wpisz grafikę SmartArt przy użyciu języka Java
+# Organizuj układ wykresu Typ w SmartArt przy użyciu Java
 
 ## Wstęp
-tym samouczku omówimy proces organizowania układu wykresu w SmartArt przy użyciu języka Java, w szczególności z wykorzystaniem biblioteki Aspose.Slides. Grafika SmartArt w prezentacjach może znacznie poprawić atrakcyjność wizualną i przejrzystość danych, dlatego konieczne jest opanowanie manipulacji nimi.
-## Warunki wstępne
-Zanim zaczniemy, upewnij się, że masz następujące elementy:
-1. Zestaw Java Development Kit (JDK) zainstalowany w systemie.
-2.  Pobrano i skonfigurowano bibliotekę Aspose.Slides. Jeśli jeszcze tego nie zrobiłeś, pobierz go z[Tutaj](https://releases.aspose.com/slides/java/).
-3. Podstawowa znajomość programowania w języku Java.
+W tym samouczku przejdziemy przez proces organizowania typu układu wykresu w SmartArt przy użyciu Java, w szczególności wykorzystując bibliotekę Aspose.Slides. SmartArt w prezentacjach może znacznie poprawić atrakcyjność wizualną i przejrzystość danych, co sprawia, że opanowanie jego manipulacji jest niezbędne.
+## Wymagania wstępne
+Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
+1. Java Development Kit (JDK) zainstalowany w Twoim systemie.
+2. Biblioteka Aspose.Slides pobrana i skonfigurowana. Jeśli jeszcze tego nie zrobiłeś, pobierz ją z [Tutaj](https://releases.aspose.com/slides/java/).
+3. Podstawowa znajomość programowania w Javie.
 
 ## Importuj pakiety
 Najpierw zaimportuj niezbędne pakiety:
 ```java
 import com.aspose.slides.*;
 ```
-Podzielmy podany przykład na kilka kroków:
+Rozłóżmy podany przykład na kilka kroków:
 ## Krok 1: Zainicjuj obiekt prezentacji
 ```java
 Presentation presentation = new Presentation();
 ```
 Utwórz nowy obiekt prezentacji.
-## Krok 2: Dodaj grafikę SmartArt do slajdu
+## Krok 2: Dodaj SmartArt do slajdu
 ```java
 ISmartArt smart = presentation.getSlides().get_Item(0).getShapes().addSmartArt(10, 10, 400, 300, SmartArtLayoutType.OrganizationChart);
 ```
-Dodaj grafikę SmartArt do żądanego slajdu z określonymi wymiarami i typem układu.
+Dodaj SmartArt do wybranego slajdu o określonych wymiarach i typie układu.
 ## Krok 3: Ustaw układ schematu organizacyjnego
 ```java
 smart.getNodes().get_Item(0).setOrganizationChartLayout(OrganizationChartLayoutType.LeftHanging);
 ```
-Ustaw typ układu schematu organizacyjnego. W tym przykładzie używamy układu wiszącego po lewej stronie.
+Ustaw typ układu schematu organizacyjnego. W tym przykładzie używamy układu Left Hanging.
 ## Krok 4: Zapisz prezentację
 ```java
 presentation.save(dataDir + "OrganizeChartLayoutType_out.pptx", SaveFormat.Pptx);
 ```
-Zapisz prezentację ze zorganizowanym układem wykresu.
+Zapisz prezentację z uporządkowanym układem wykresów.
 
 ## Wniosek
-Opanowanie organizacji typów układów wykresów w SmartArt przy użyciu języka Java umożliwia łatwe tworzenie atrakcyjnych wizualnie prezentacji. Dzięki Aspose.Slides proces staje się usprawniony i wydajny, dzięki czemu możesz skupić się na tworzeniu wpływowych treści.
-## Często zadawane pytania
+Opanowanie organizacji typów układów wykresów w SmartArt przy użyciu Java pozwala na łatwe tworzenie angażujących wizualnie prezentacji. Dzięki Aspose.Slides proces ten staje się usprawniony i wydajny, co pozwala skupić się na tworzeniu treści o dużym wpływie.
+## Najczęściej zadawane pytania
 ### Czy Aspose.Slides jest kompatybilny z różnymi środowiskami programistycznymi Java?
-Tak, Aspose.Slides jest kompatybilny z różnymi środowiskami programistycznymi Java, zapewniając programistom elastyczność.
+Tak, Aspose.Slides jest kompatybilny z różnymi środowiskami programistycznymi Java, co zapewnia programistom elastyczność.
 ### Czy mogę dostosować wygląd elementów SmartArt za pomocą Aspose.Slides?
-Absolutnie Aspose.Slides zapewnia szerokie opcje dostosowywania elementów SmartArt, umożliwiając dostosowanie ich do konkretnych wymagań.
+Oczywiście, Aspose.Slides oferuje rozbudowane opcje personalizacji elementów SmartArt, dzięki czemu możesz dopasować je do swoich konkretnych wymagań.
 ### Czy Aspose.Slides oferuje kompleksową dokumentację dla programistów?
-Tak, programiści mogą zapoznać się ze szczegółową dokumentacją dostarczoną przez Aspose.Slides dla Java, oferując wgląd w jej funkcjonalności i wykorzystanie.
-### Czy dostępna jest wersja próbna Aspose.Slides?
-Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Slides, aby zapoznać się z jej funkcjami przed podjęciem decyzji o zakupie.
-### Gdzie mogę uzyskać pomoc w przypadku zapytań związanych z Aspose.Slides?
- Aby uzyskać pomoc lub pytania dotyczące Aspose.Slides, możesz odwiedzić forum pomocy technicznej[Tutaj](https://forum.aspose.com/c/slides/11).
+Tak, programiści mogą zapoznać się ze szczegółową dokumentacją Aspose.Slides for Java, która zawiera informacje na temat jego funkcjonalności i sposobu użycia.
+### Czy jest dostępna wersja próbna Aspose.Slides?
+Tak, możesz skorzystać z bezpłatnej wersji próbnej Aspose.Slides, aby zapoznać się z jej funkcjami przed podjęciem decyzji o zakupie.
+### Gdzie mogę szukać pomocy w kwestiach związanych z Aspose.Slides?
+W przypadku pytań lub pomocy dotyczącej Aspose.Slides możesz odwiedzić forum pomocy technicznej [Tutaj](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

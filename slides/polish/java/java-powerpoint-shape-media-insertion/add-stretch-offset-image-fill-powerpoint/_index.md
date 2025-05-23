@@ -1,24 +1,26 @@
 ---
-title: Dodaj przesunięcie rozciągania dla wypełnienia obrazem w programie PowerPoint
-linktitle: Dodaj przesunięcie rozciągania dla wypełnienia obrazem w programie PowerPoint
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Dowiedz się, jak dodać przesunięcie rozciągania do wypełnienia obrazem w prezentacjach programu PowerPoint za pomocą Aspose.Slides dla Java. W zestawie tutorial krok po kroku.
-weight: 16
-url: /pl/java/java-powerpoint-shape-media-insertion/add-stretch-offset-image-fill-powerpoint/
+"description": "Dowiedz się, jak dodać offset rozciągania dla wypełnienia obrazem w prezentacjach PowerPoint przy użyciu Aspose.Slides dla Java. Zawiera samouczek krok po kroku."
+"linktitle": "Dodaj rozciągnięcie offsetowe dla wypełnienia obrazem w programie PowerPoint"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Dodaj rozciągnięcie offsetowe dla wypełnienia obrazem w programie PowerPoint"
+"url": "/pl/java/java-powerpoint-shape-media-insertion/add-stretch-offset-image-fill-powerpoint/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dodaj przesunięcie rozciągania dla wypełnienia obrazem w programie PowerPoint
+# Dodaj rozciągnięcie offsetowe dla wypełnienia obrazem w programie PowerPoint
 
 ## Wstęp
-W tym samouczku dowiesz się, jak używać Aspose.Slides dla Java, aby dodać przesunięcie rozciągania przy wypełnianiu obrazu w prezentacjach programu PowerPoint. Ta funkcja umożliwia manipulowanie obrazami na slajdach, co daje większą kontrolę nad ich wyglądem.
-## Warunki wstępne
-Zanim zaczniesz, upewnij się, że masz następujące elementy:
-1. Zestaw Java Development Kit (JDK) zainstalowany w systemie.
-2. Biblioteka Aspose.Slides for Java pobrana i skonfigurowana w projekcie Java.
+W tym samouczku dowiesz się, jak używać Aspose.Slides for Java, aby dodać rozciągnięcie offsetowe do wypełnienia obrazem w prezentacjach PowerPoint. Ta funkcja umożliwia manipulowanie obrazami w slajdach, dając większą kontrolę nad ich wyglądem.
+## Wymagania wstępne
+Zanim zaczniesz, upewnij się, że masz następujące rzeczy:
+1. Java Development Kit (JDK) zainstalowany w Twoim systemie.
+2. Biblioteka Aspose.Slides for Java została pobrana i skonfigurowana w projekcie Java.
 ## Importuj pakiety
 Aby rozpocząć, zaimportuj niezbędne pakiety do swojego projektu Java:
 ```java
@@ -35,7 +37,7 @@ Zdefiniuj katalog, w którym znajduje się dokument programu PowerPoint:
 String dataDir = "Your Document Directory";
 ```
 ## Krok 2: Utwórz obiekt prezentacji
-Utwórz instancję klasy Prezentacja reprezentującą plik programu PowerPoint:
+Utwórz klasę Presentation, aby reprezentować plik programu PowerPoint:
 ```java
 Presentation pres = new Presentation();
 ```
@@ -46,33 +48,35 @@ ISlide sld = pres.getSlides().get_Item(0);
 BufferedImage img = ImageIO.read(new File(dataDir + "aspose-logo.jpg"));
 IPPImage imgx = pres.getImages().addImage(img);
 ```
-## Krok 4: Dodaj ramkę do zdjęć
-Utwórz ramkę na zdjęcie o wymiarach odpowiadających obrazowi:
+## Krok 4: Dodaj ramkę do zdjęcia
+Utwórz ramkę na zdjęcie o wymiarach odpowiadających wymiarom obrazu:
 ```java
 sld.getShapes().addPictureFrame(ShapeType.Rectangle, 50, 150, imgx.getWidth(), imgx.getHeight(), imgx);
 ```
 ## Krok 5: Zapisz prezentację
-Zapisz zmodyfikowany plik PowerPoint:
+Zapisz zmodyfikowany plik programu PowerPoint:
 ```java
 pres.save(dataDir + "AddStretchOffsetForImageFill_out.pptx", SaveFormat.Pptx);
 ```
 
 ## Wniosek
-Gratulacje! Pomyślnie nauczyłeś się, jak dodać przesunięcie rozciągania do wypełnienia obrazem w programie PowerPoint przy użyciu Aspose.Slides dla Java. Ta funkcja otwiera mnóstwo możliwości ulepszania prezentacji za pomocą niestandardowych obrazów.
-## Często zadawane pytania
-### Czy mogę użyć tej metody do dodania obrazów do określonych slajdów w prezentacji?
-Tak, możesz określić indeks slajdu podczas pobierania obiektu slajdu w celu skierowania go do określonego slajdu.
-### Czy Aspose.Slides for Java obsługuje inne formaty obrazów oprócz JPEG?
+Gratulacje! Udało Ci się nauczyć, jak dodać offset rozciągania dla wypełnienia obrazu w programie PowerPoint przy użyciu Aspose.Slides dla Java. Ta funkcja otwiera świat możliwości ulepszania prezentacji za pomocą niestandardowych obrazów.
+## Najczęściej zadawane pytania
+### Czy mogę użyć tej metody, aby dodać obrazy do konkretnych slajdów prezentacji?
+Tak, możesz określić indeks slajdu podczas pobierania obiektu slajdu, aby wskazać konkretny slajd.
+### Czy Aspose.Slides dla Java obsługuje inne formaty obrazów oprócz JPEG?
 Tak, Aspose.Slides for Java obsługuje różne formaty obrazów, w tym między innymi PNG, GIF i BMP.
 ### Czy istnieje ograniczenie rozmiaru obrazów, które mogę dodać za pomocą tej metody?
-Aspose.Slides for Java może obsługiwać obrazy o różnych rozmiarach, ale zaleca się optymalizację obrazów w celu uzyskania lepszej wydajności w prezentacjach.
-### Czy mogę zastosować dodatkowe efekty lub przekształcenia do obrazów po dodaniu ich do slajdów?
-Tak, możesz zastosować szeroką gamę efektów i transformacji do obrazów, korzystając z rozbudowanego API Aspose.Slides for Java.
-### Gdzie mogę znaleźć więcej zasobów i wsparcia dla Aspose.Slides dla Java?
- Możesz odwiedzić[Aspose.Slides dla dokumentacji Java](https://reference.aspose.com/slides/java/) aby uzyskać szczegółowe przewodniki i poznać[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) za wsparcie społeczności.
+Aspose.Slides for Java radzi sobie z obrazami o różnych rozmiarach, ale zaleca się optymalizację obrazów w celu zwiększenia wydajności prezentacji.
+### Czy mogę zastosować dodatkowe efekty lub transformacje do obrazów po dodaniu ich do slajdów?
+Tak, możesz stosować szeroką gamę efektów i przekształceń do obrazów, korzystając z rozbudowanego interfejsu API Aspose.Slides for Java.
+### Gdzie mogę znaleźć więcej materiałów i pomocy dla Aspose.Slides dla Java?
+Możesz odwiedzić [Aspose.Slides dla dokumentacji Java](https://reference.aspose.com/slides/java/) aby uzyskać szczegółowe przewodniki i zapoznać się z [Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) o wsparcie społeczności.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

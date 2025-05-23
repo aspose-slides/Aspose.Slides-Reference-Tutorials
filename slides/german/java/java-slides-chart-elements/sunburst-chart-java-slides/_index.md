@@ -1,14 +1,16 @@
 ---
-title: Sunburst-Diagramm in Java-Folien
-linktitle: Sunburst-Diagramm in Java-Folien
-second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
-description: Erstellen Sie mit Aspose.Slides beeindruckende Sunburst-Diagramme in Java Slides. Erfahren Sie Schritt für Schritt, wie Sie Diagramme erstellen und Daten bearbeiten.
-weight: 16
-url: /de/java/chart-elements/sunburst-chart-java-slides/
+"description": "Erstellen Sie beeindruckende Sunburst-Diagramme in Java Slides mit Aspose.Slides. Lernen Sie Schritt für Schritt, wie Sie Diagramme erstellen und Daten bearbeiten."
+"linktitle": "Sunburst-Diagramm in Java-Folien"
+"second_title": "Aspose.Slides Java PowerPoint-Verarbeitungs-API"
+"title": "Sunburst-Diagramm in Java-Folien"
+"url": "/de/java/chart-elements/sunburst-chart-java-slides/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sunburst-Diagramm in Java-Folien
@@ -16,15 +18,15 @@ url: /de/java/chart-elements/sunburst-chart-java-slides/
 
 ## Einführung in das Sunburst-Diagramm in Java-Folien mit Aspose.Slides
 
-In diesem Tutorial erfahren Sie, wie Sie mithilfe der Aspose.Slides für Java-API ein Sunburst-Diagramm in einer PowerPoint-Präsentation erstellen. Ein Sunburst-Diagramm ist ein Radialdiagramm zur Darstellung hierarchischer Daten. Wir stellen Ihnen Schritt-für-Schritt-Anleitungen sowie den Quellcode zur Verfügung.
+In diesem Tutorial erfahren Sie, wie Sie mithilfe der Aspose.Slides für Java-API ein Sunburst-Diagramm in einer PowerPoint-Präsentation erstellen. Ein Sunburst-Diagramm ist ein Radialdiagramm zur Darstellung hierarchischer Daten. Wir stellen Ihnen eine Schritt-für-Schritt-Anleitung sowie den Quellcode zur Verfügung.
 
 ## Voraussetzungen
 
- Bevor Sie beginnen, stellen Sie sicher, dass die Bibliothek Aspose.Slides für Java in Ihrem Java-Projekt installiert und konfiguriert ist. Sie können die Bibliothek von herunterladen:[Hier](https://releases.aspose.com/slides/java/).
+Bevor Sie beginnen, stellen Sie sicher, dass die Bibliothek Aspose.Slides für Java in Ihrem Java-Projekt installiert und konfiguriert ist. Sie können die Bibliothek hier herunterladen: [Hier](https://releases.aspose.com/slides/java/).
 
 ## Schritt 1: Erforderliche Bibliotheken importieren
 
-Importieren Sie zunächst die erforderlichen Bibliotheken, um mit Aspose.Slides zu arbeiten und ein Sunburst-Diagramm in Ihrer Java-Anwendung zu erstellen.
+Importieren Sie zunächst die erforderlichen Bibliotheken für die Arbeit mit Aspose.Slides und erstellen Sie ein Sunburst-Diagramm in Ihrer Java-Anwendung.
 
 ```java
 import com.aspose.slides.*;
@@ -49,7 +51,7 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Sunbu
 
 ## Schritt 4: Diagrammdaten vorbereiten
 
-Löschen Sie alle vorhandenen Kategorien und Seriendaten aus dem Diagramm und erstellen Sie eine Datenarbeitsmappe für das Diagramm.
+Löschen Sie alle vorhandenen Kategorien und Reihendaten aus dem Diagramm und erstellen Sie eine Datenarbeitsmappe für das Diagramm.
 
 ```java
 chart.getChartData().getCategories().clear();
@@ -107,7 +109,7 @@ Speichern Sie abschließend die Präsentation mit dem Sunburst-Diagramm.
 pres.save("Sunburst.pptx", SaveFormat.Pptx);
 ```
 
-## Vollständiger Quellcode für Sunburst-Diagramm in Java-Folien
+## Vollständiger Quellcode für Sunburst-Diagramme in Java-Folien
 
 ```java
 String dataDir = "Your Document Directory";
@@ -155,28 +157,30 @@ finally
 
 ## Abschluss
 
-In diesem Tutorial haben Sie gelernt, wie Sie mithilfe der Aspose.Slides für Java-API ein Sunburst-Diagramm in einer PowerPoint-Präsentation erstellen. Sie haben gesehen, wie Sie die Präsentation initialisieren, das Diagramm erstellen, die Diagrammhierarchie definieren, Datenpunkte hinzufügen und die Präsentation speichern. Dieses Wissen können Sie nun nutzen, um interaktive und informative Sunburst-Diagramme in Ihren Java-Anwendungen zu erstellen.
+In diesem Tutorial haben Sie gelernt, wie Sie mithilfe der Aspose.Slides für Java-API ein Sunburst-Diagramm in einer PowerPoint-Präsentation erstellen. Sie haben gelernt, wie Sie die Präsentation initialisieren, das Diagramm erstellen, die Diagrammhierarchie definieren, Datenpunkte hinzufügen und die Präsentation speichern. Dieses Wissen können Sie nun nutzen, um interaktive und informative Sunburst-Diagramme in Ihren Java-Anwendungen zu erstellen.
 
 ## Häufig gestellte Fragen
 
 ### Wie passe ich das Erscheinungsbild des Sunburst-Diagramms an?
 
-Sie können das Erscheinungsbild des Sunburst-Diagramms anpassen, indem Sie Eigenschaften wie Farben, Beschriftungen und Stile ändern. Detaillierte Anpassungsoptionen finden Sie in der Aspose.Slides-Dokumentation.
+Sie können das Erscheinungsbild des Sunburst-Diagramms anpassen, indem Sie Eigenschaften wie Farben, Beschriftungen und Stile ändern. Detaillierte Anpassungsmöglichkeiten finden Sie in der Aspose.Slides-Dokumentation.
 
 ### Kann ich dem Diagramm weitere Datenpunkte hinzufügen?
 
- Ja, Sie können dem Diagramm weitere Datenpunkte hinzufügen, indem Sie das`series.getDataPoints().addDataPointForSunburstSeries()` Methode für jeden Datenpunkt, den Sie einschließen möchten.
+Ja, Sie können dem Diagramm weitere Datenpunkte hinzufügen, indem Sie das `series.getDataPoints().addDataPointForSunburstSeries()` Methode für jeden Datenpunkt, den Sie einschließen möchten.
 
 ### Wie kann ich dem Sunburst-Diagramm Tooltips hinzufügen?
 
-Um dem Sunburst-Diagramm Tooltips hinzuzufügen, können Sie das Datenbeschriftungsformat so einstellen, dass beim Bewegen des Mauszeigers über Diagrammsegmente zusätzliche Informationen wie Werte oder Beschreibungen angezeigt werden.
+Um dem Sunburst-Diagramm QuickInfos hinzuzufügen, können Sie das Datenbeschriftungsformat so einstellen, dass beim Bewegen des Mauszeigers über Diagrammsegmente zusätzliche Informationen wie Werte oder Beschreibungen angezeigt werden.
 
 ### Ist es möglich, interaktive Sunburst-Diagramme mit Hyperlinks zu erstellen?
 
 Ja, Sie können interaktive Sunburst-Diagramme mit Hyperlinks erstellen, indem Sie Hyperlinks zu bestimmten Diagrammelementen oder -segmenten hinzufügen. Weitere Informationen zum Hinzufügen von Hyperlinks finden Sie in der Aspose.Slides-Dokumentation.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में गुण चार्ट प्रबंधित करें
-linktitle: जावा स्लाइड्स में गुण चार्ट प्रबंधित करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides के साथ जावा स्लाइड में शानदार चार्ट बनाना और प्रॉपर्टीज़ को मैनेज करना सीखें। शक्तिशाली प्रस्तुतियों के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 13
-url: /hi/java/data-manipulation/manage-properties-charts-java-slides/
+"description": "Aspose.Slides के साथ जावा स्लाइड में शानदार चार्ट बनाना और प्रॉपर्टीज़ को मैनेज करना सीखें। शक्तिशाली प्रस्तुतियों के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "जावा स्लाइड्स में गुण चार्ट प्रबंधित करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में गुण चार्ट प्रबंधित करें"
+"url": "/hi/java/data-manipulation/manage-properties-charts-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में गुण चार्ट प्रबंधित करें
@@ -20,7 +22,7 @@ url: /hi/java/data-manipulation/manage-properties-charts-java-slides/
 
 ## आवश्यक शर्तें
 
-शुरू करने से पहले, सुनिश्चित करें कि आपके पास जावा के लिए Aspose.Slides लाइब्रेरी स्थापित है और आपके प्रोजेक्ट में सेट अप है। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+शुरू करने से पहले, सुनिश्चित करें कि आपके पास जावा के लिए Aspose.Slides लाइब्रेरी स्थापित है और आपके प्रोजेक्ट में सेट अप है। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 
 ## स्लाइड में चार्ट जोड़ना
 
@@ -159,7 +161,7 @@ chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 1, 0, "Caetegoty 1"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 0, "Caetegoty 2"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
-// Rotation3D गुण सेट करें
+// रोटेशन3D गुण सेट करें
 chart.getRotation3D().setRightAngleAxes(true);
 chart.getRotation3D().setRotationX((byte) 40);
 chart.getRotation3D().setRotationY(270);
@@ -187,7 +189,7 @@ presentation.save(dataDir + "Rotation3D_out.pptx", SaveFormat.Pptx);
 
 ### मैं चार्ट का प्रकार कैसे बदल सकता हूँ?
 
- आप चार्ट प्रकार को संशोधित करके बदल सकते हैं`ChartType` चार्ट जोड़ते समय पैरामीटर। उपलब्ध चार्ट प्रकारों के लिए Aspose.Slides दस्तावेज़ देखें।
+आप चार्ट प्रकार को संशोधित करके बदल सकते हैं `ChartType` चार्ट जोड़ते समय पैरामीटर। उपलब्ध चार्ट प्रकारों के लिए Aspose.Slides दस्तावेज़ देखें।
 
 ### क्या मैं चार्ट के रंगों को अनुकूलित कर सकता हूँ?
 
@@ -195,18 +197,20 @@ presentation.save(dataDir + "Rotation3D_out.pptx", SaveFormat.Pptx);
 
 ### मैं किसी श्रृंखला में अधिक डेटा बिंदु कैसे जोड़ूं?
 
- आप किसी श्रृंखला में अधिक डेटा बिंदु जोड़ सकते हैं`series.getDataPoints().addDataPointForBarSeries()` विधि और डेटा मान युक्त सेल को निर्दिष्ट करना।
+आप किसी श्रृंखला में अधिक डेटा बिंदु जोड़ सकते हैं `series.getDataPoints().addDataPointForBarSeries()` विधि और डेटा मान युक्त सेल को निर्दिष्ट करना।
 
 ### मैं अलग घूर्णन कोण कैसे निर्धारित कर सकता हूं?
 
- X और Y अक्षों के लिए अलग-अलग घूर्णन कोण सेट करने के लिए, उपयोग करें`chart.getRotation3D().setRotationX()` और`chart.getRotation3D().setRotationY()` वांछित कोण मानों के साथ।
+X और Y अक्षों के लिए अलग घूर्णन कोण सेट करने के लिए, उपयोग करें `chart.getRotation3D().setRotationX()` और `chart.getRotation3D().setRotationY()` वांछित कोण मानों के साथ।
 
 ### मैं अन्य कौन से 3D गुण अनुकूलित कर सकता हूँ?
 
 आप Aspose.Slides दस्तावेज़न का संदर्भ लेकर चार्ट के अन्य 3D गुणों, जैसे गहराई, परिप्रेक्ष्य और प्रकाश व्यवस्था का पता लगा सकते हैं।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

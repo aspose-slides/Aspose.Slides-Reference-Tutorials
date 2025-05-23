@@ -1,37 +1,39 @@
 ---
-title: Grafik Java Slaytlarındaki Çalışma Kitabını Kurtarma
-linktitle: Grafik Java Slaytlarındaki Çalışma Kitabını Kurtarma
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides ile Java Slides'taki grafiklerden çalışma kitaplarını nasıl kurtaracağınızı öğrenin. PowerPoint otomasyonu için adım adım kılavuz.
-weight: 17
-url: /tr/java/data-manipulation/chart-recover-workbook-java-slides/
+"description": "Java Slaytlarında Aspose.Slides ile çalışma kitaplarını grafiklerden nasıl kurtaracağınızı öğrenin. PowerPoint otomasyonu için adım adım kılavuz."
+"linktitle": "Java Slaytlarında Grafik Kurtarma Çalışma Kitabı"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java Slaytlarında Grafik Kurtarma Çalışma Kitabı"
+"url": "/tr/java/data-manipulation/chart-recover-workbook-java-slides/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Grafik Java Slaytlarındaki Çalışma Kitabını Kurtarma
+# Java Slaytlarında Grafik Kurtarma Çalışma Kitabı
 
 
 ## Java Slaytlarında Grafik Kurtarma Çalışma Kitabına Giriş
 
-Java'da PowerPoint sunumlarıyla çalışırken, çalışma kitabı verilerini bir grafikten kurtarmanız gereken senaryolarla karşılaşabilirsiniz. Bu, özellikle veriye dayalı sunumlarla uğraşırken çok önemli bir görev olabilir. Aspose.Slides for Java bu süreci basitleştirir ve bu kılavuzda size bunun nasıl yapılacağını göstereceğiz.
+Java'da PowerPoint sunumlarıyla çalışırken, bir grafikten çalışma kitabı verilerini kurtarmanız gereken senaryolarla karşılaşabilirsiniz. Bu, özellikle veri odaklı sunumlarla uğraşırken önemli bir görev olabilir. Java için Aspose.Slides bu süreci basitleştirir ve bu kılavuzda bunu nasıl yapacağınızı göstereceğiz.
 
-## Önkoşullar
+## Ön koşullar
 
-Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
-- Sisteminizde Java Geliştirme Kiti (JDK) yüklü.
--  Aspose.Slides for Java kütüphanesi. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/java/).
+- Sisteminizde Java Development Kit (JDK) yüklü.
+- Java kütüphanesi için Aspose.Slides. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/slides/java/).
 
-## 1. Adım: Projenizi Ayarlama
+## Adım 1: Projenizi Kurma
 
 Favori Entegre Geliştirme Ortamınızda (IDE) yeni bir Java projesi oluşturun ve Aspose.Slides for Java kütüphanesini projenizin bağımlılıklarına ekleyin.
 
 ## Adım 2: Gerekli Sınıfları İçe Aktarma
 
-Java kodunuzda gerekli sınıfları Aspose.Slides for Java'dan içe aktarın:
+Java kodunuzda, Aspose.Slides for Java'dan gerekli sınıfları içe aktarın:
 
 ```java
 import com.aspose.slides.*;
@@ -59,7 +61,7 @@ try
 {
     IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
-    // Çalışma kitabı verileri üzerinde işlemleri burada gerçekleştirin
+    // Çalışma kitabı verilerinde işlemleri burada gerçekleştirin
     pres.save(outPptxFile, SaveFormat.Pptx);
 }
 finally
@@ -68,10 +70,10 @@ finally
 }
 ```
 
-## Java Slaytlarındaki Grafik Kurtarma Çalışma Kitabı İçin Kaynak Kodunu Tamamlayın
+## Java Slaytlarında Grafik Kurtarma Çalışma Kitabı İçin Tam Kaynak Kodu
 
 ```java
-// Belgeler dizininin yolu.
+// Belgeler dizinine giden yol.
 String dataDir = "Your Document Directory";
 String pptxFile = dataDir + "ExternalWB.pptx";
 String outPptxFile = RunExamples.OutPath + "ExternalWB_out.pptx";
@@ -92,32 +94,34 @@ finally
 
 ## Çözüm
 
-Bu kılavuzda, Aspose.Slides for Java kullanarak Java Slides'daki bir grafikten çalışma kitabını kurtarma sürecini anlattık. Bu kitaplık görevi basitleştirerek geliştiricilerin PowerPoint sunumlarıyla programlı olarak çalışmasını kolaylaştırır. Artık veriye dayalı sunumları güvenle yönetebilir ve gerektiğinde çalışma kitabı bilgilerini çıkarabilirsiniz.
+Bu kılavuzda, Java Slaytları'nda Aspose.Slides for Java kullanarak bir grafikten bir çalışma kitabını kurtarma sürecini ele aldık. Bu kitaplık görevi basitleştirerek geliştiricilerin PowerPoint sunumlarıyla programatik olarak çalışmasını kolaylaştırır. Artık, veri odaklı sunumları güvenle işleyebilir ve gerektiğinde çalışma kitabı bilgilerini çıkarabilirsiniz.
 
-## SSS'ler
+## SSS
 
-### Aspose.Slides for Java'yı nasıl yüklerim?
+### Java için Aspose.Slides'ı nasıl yüklerim?
 
- Aspose.Slides for Java, kütüphaneyi aşağıdaki web sitesinden indirerek kolayca kurulabilir:[Burada](https://releases.aspose.com/slides/java/). Java projenize entegre etmek için sağlanan kurulum talimatlarını izleyin.
+Java için Aspose.Slides, web sitesinden kütüphaneyi indirerek kolayca kurulabilir. [Burada](https://releases.aspose.com/slides/java/)Java projenize entegre etmek için verilen kurulum talimatlarını izleyin.
 
-### Bir PowerPoint sunumundaki herhangi bir grafikten çalışma kitabı verilerini kurtarabilir miyim?
+### PowerPoint sunumundaki herhangi bir grafikten çalışma kitabı verilerini kurtarabilir miyim?
 
-Evet, Aspose.Slides for Java kitaplığına sahip olduğunuz ve grafiğe sunum içinden erişilebildiği sürece, PowerPoint sunumundaki herhangi bir grafikten çalışma kitabı verilerini kurtarabilirsiniz. Sağlanan kod pasajı bunun nasıl başarılacağını gösterir.
+Evet, Aspose.Slides for Java kütüphanesine sahip olduğunuz ve grafiğe sunum içinde erişilebildiği sürece PowerPoint sunumundaki herhangi bir grafikten çalışma kitabı verilerini kurtarabilirsiniz. Sağlanan kod parçacığı bunun nasıl başarılacağını göstermektedir.
 
-### Aspose.Slides for Java'yı kullanarak grafik verileriyle çalışmak için ek seçenekler var mı?
+### Java için Aspose.Slides'ı kullanarak grafik verileriyle çalışmak için ek seçenekler var mı?
 
-Evet, Aspose.Slides for Java, grafik verileriyle çalışmak için çok çeşitli seçenekler sunar. Özel gereksinimlerinizi karşılamak için grafik özelliklerini değiştirebilir, veri noktalarını alabilir ve grafikler üzerinde çeşitli işlemler gerçekleştirebilirsiniz.
+Evet, Java için Aspose.Slides, grafik verileriyle çalışmak için geniş bir seçenek yelpazesi sunar. Grafik özelliklerini düzenleyebilir, veri noktalarını alabilir ve belirli gereksinimlerinizi karşılamak için grafikler üzerinde çeşitli işlemler gerçekleştirebilirsiniz.
 
-### Aspose.Slides for Java profesyonel PowerPoint otomasyonuna uygun mu?
+### Aspose.Slides for Java profesyonel PowerPoint otomasyonu için uygun mudur?
 
-Kesinlikle! Aspose.Slides for Java, PowerPoint görevlerini otomatikleştirmeye yönelik güçlü bir kitaplıktır; bu da onu hem temel hem de ileri düzey profesyonel kullanım örneklerine uygun hale getirir. PowerPoint sunumlarını programlı olarak oluşturmak, değiştirmek ve yönetmek için kapsamlı özellikler sağlar.
+Kesinlikle! Aspose.Slides for Java, PowerPoint görevlerini otomatikleştirmek için güçlü bir kütüphanedir ve bu da onu hem temel hem de gelişmiş profesyonel kullanım durumları için uygun hale getirir. PowerPoint sunumlarını programatik olarak oluşturmak, değiştirmek ve yönetmek için kapsamlı özellikler sunar.
 
-### Aspose.Slides for Java ile ilgili diğer belgelere nasıl erişebilirim?
+### Aspose.Slides for Java için daha fazla dokümana nasıl erişebilirim?
 
- Aspose.Slides for Java ile ilgili ayrıntılı belgeler ve referanslar için şu adresteki belgeler sayfasını ziyaret edin:[Burada](https://reference.aspose.com/slides/java/).
+Java için Aspose.Slides hakkında ayrıntılı belgeler ve referanslar için şu adresteki belgeler sayfasını ziyaret edin: [Burada](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,26 +1,28 @@
 ---
-title: जावा का उपयोग करके पावरपॉइंट में स्मार्टआर्ट आकृति बनाएं
-linktitle: जावा का उपयोग करके पावरपॉइंट में स्मार्टआर्ट आकृति बनाएं
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides के साथ Java का उपयोग करके गतिशील PowerPoint प्रस्तुतियाँ बनाएँ। बेहतर दृश्यों के लिए प्रोग्रामेटिक रूप से SmartArt आकृतियाँ जोड़ना सीखें।
-weight: 10
-url: /hi/java/java-powerpoint-smartart-manipulation/create-smartart-shape-powerpoint-java/
+"description": "Aspose.Slides के साथ Java का उपयोग करके गतिशील PowerPoint प्रस्तुतियाँ बनाएँ। बेहतर दृश्यों के लिए प्रोग्रामेटिक रूप से SmartArt आकृतियाँ जोड़ना सीखें।"
+"linktitle": "जावा का उपयोग करके PowerPoint में स्मार्टआर्ट आकृति बनाएँ"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा का उपयोग करके PowerPoint में स्मार्टआर्ट आकृति बनाएँ"
+"url": "/hi/java/java-powerpoint-smartart-manipulation/create-smartart-shape-powerpoint-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# जावा का उपयोग करके पावरपॉइंट में स्मार्टआर्ट आकृति बनाएं
+# जावा का उपयोग करके PowerPoint में स्मार्टआर्ट आकृति बनाएँ
 
 ## परिचय
 जावा प्रोग्रामिंग के क्षेत्र में, आकर्षक प्रस्तुतिकरण बनाना एक सामान्य आवश्यकता है। चाहे वह व्यावसायिक पिचों, अकादमिक प्रस्तुतियों या केवल जानकारी साझा करने के लिए हो, प्रोग्रामेटिक रूप से गतिशील पावरपॉइंट स्लाइड बनाने की क्षमता एक गेम-चेंजर हो सकती है। जावा के लिए Aspose.Slides इस प्रक्रिया को सुविधाजनक बनाने के लिए एक शक्तिशाली उपकरण के रूप में उभरता है, जो प्रस्तुतियों को आसानी और दक्षता के साथ हेरफेर करने के लिए सुविधाओं का एक व्यापक सेट प्रदान करता है।
 ## आवश्यक शर्तें
 Aspose.Slides के साथ Java का उपयोग करके PowerPoint में स्मार्टआर्ट आकृतियाँ बनाने की दुनिया में उतरने से पहले, एक सहज अनुभव सुनिश्चित करने के लिए कुछ पूर्वापेक्षाएँ हैं:
 ### जावा विकास पर्यावरण सेटअप
- सुनिश्चित करें कि आपके सिस्टम पर जावा डेवलपमेंट किट (JDK) स्थापित है। आप नवीनतम JDK संस्करण को डाउनलोड करके इंस्टॉल कर सकते हैं।[ओरेकल वेबसाइट](https://www.oracle.com/java/technologies/javase-downloads.html).
+सुनिश्चित करें कि आपके सिस्टम पर जावा डेवलपमेंट किट (JDK) स्थापित है। आप JDK का नवीनतम संस्करण डाउनलोड करके इंस्टॉल कर सकते हैं। [ओरेकल वेबसाइट](https://www.oracle.com/java/technologies/javase-downloads.html).
 ### Aspose.Slides for Java स्थापना
- Aspose.Slides for Java की कार्यक्षमताओं का उपयोग करने के लिए, आपको लाइब्रेरी डाउनलोड करके उसे सेट अप करना होगा। आप लाइब्रेरी को यहाँ से डाउनलोड कर सकते हैं[Aspose.Slides for Java डाउनलोड पृष्ठ](https://releases.aspose.com/slides/java/).
+Aspose.Slides for Java की कार्यक्षमताओं का उपयोग करने के लिए, आपको लाइब्रेरी डाउनलोड करके उसे सेट अप करना होगा। आप लाइब्रेरी को यहाँ से डाउनलोड कर सकते हैं [Aspose.Slides for Java डाउनलोड पृष्ठ](https://releases.aspose.com/slides/java/).
 ### आईडीई स्थापना
 जावा विकास के लिए एक एकीकृत विकास वातावरण (IDE) चुनें और स्थापित करें। लोकप्रिय विकल्पों में IntelliJ IDEA, Eclipse, या NetBeans शामिल हैं।
 ### बुनियादी जावा प्रोग्रामिंग ज्ञान
@@ -65,13 +67,15 @@ pres.save(dataDir + "SimpleSmartArt_out.pptx", SaveFormat.Pptx);
 ### क्या Aspose.Slides for Java प्रस्तुतियों को विभिन्न फ़ाइल स्वरूपों में निर्यात करने का समर्थन करता है?
 हां, Aspose.Slides for Java, PPTX, PDF, HTML, आदि सहित फ़ाइल स्वरूपों की एक विस्तृत श्रृंखला में प्रस्तुतियों को निर्यात करने का समर्थन करता है।
 ### क्या कोई समुदाय या मंच है जहां मैं सहायता प्राप्त कर सकता हूं या अन्य Aspose.Slides उपयोगकर्ताओं के साथ सहयोग कर सकता हूं?
- हां, आप Aspose.Slides सामुदायिक मंच पर जा सकते हैं[यहाँ](https://forum.aspose.com/c/slides/11) साथी उपयोगकर्ताओं के साथ जुड़ने, प्रश्न पूछने और ज्ञान साझा करने के लिए।
+हां, आप Aspose.Slides सामुदायिक मंच पर जा सकते हैं [यहाँ](https://forum.aspose.com/c/slides/11) साथी उपयोगकर्ताओं के साथ जुड़ने, प्रश्न पूछने और ज्ञान साझा करने के लिए।
 ### क्या मैं खरीदारी करने से पहले Aspose.Slides for Java आज़मा सकता हूँ?
- ज़रूर! आप एक निःशुल्क परीक्षण डाउनलोड करके Aspose.Slides for Java की क्षमताओं का पता लगा सकते हैं[यहाँ](https://releases.aspose.com/).
+ज़रूर! आप एक निःशुल्क परीक्षण डाउनलोड करके Aspose.Slides for Java की क्षमताओं का पता लगा सकते हैं [यहाँ](https://releases.aspose.com/).
 Aspose.Slides के साथ Java का उपयोग करके गतिशील PowerPoint प्रस्तुतियाँ बनाएँ। बेहतर दृश्यों के लिए प्रोग्रामेटिक रूप से SmartArt आकृतियाँ जोड़ना सीखें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

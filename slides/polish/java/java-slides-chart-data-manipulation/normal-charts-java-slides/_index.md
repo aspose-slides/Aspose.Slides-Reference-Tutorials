@@ -1,14 +1,16 @@
 ---
-title: Normalne wykresy w slajdach Java
-linktitle: Normalne wykresy w slajdach Java
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Twórz normalne wykresy w slajdach Java za pomocą Aspose.Slides dla Java. Przewodnik krok po kroku i kod źródłowy tworzenia, dostosowywania i zapisywania wykresów w prezentacjach programu PowerPoint.
-weight: 21
-url: /pl/java/chart-data-manipulation/normal-charts-java-slides/
+"description": "Twórz normalne wykresy w slajdach Java za pomocą Aspose.Slides dla Java. Przewodnik krok po kroku i kod źródłowy do tworzenia, dostosowywania i zapisywania wykresów w prezentacjach PowerPoint."
+"linktitle": "Normalne wykresy w slajdach Java"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Normalne wykresy w slajdach Java"
+"url": "/pl/java/chart-data-manipulation/normal-charts-java-slides/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Normalne wykresy w slajdach Java
@@ -16,24 +18,24 @@ url: /pl/java/chart-data-manipulation/normal-charts-java-slides/
 
 ## Wprowadzenie do normalnych wykresów w slajdach Java
 
-tym samouczku omówimy proces tworzenia normalnych wykresów w Java Slides przy użyciu Aspose.Slides for Java API. Użyjemy instrukcji krok po kroku wraz z kodem źródłowym, aby zademonstrować, jak utworzyć grupowany wykres kolumnowy w prezentacji PowerPoint.
+W tym samouczku przejdziemy przez proces tworzenia normalnych wykresów w Java Slides przy użyciu Aspose.Slides for Java API. Użyjemy instrukcji krok po kroku wraz z kodem źródłowym, aby pokazać, jak utworzyć wykres kolumnowy klastrowany w prezentacji PowerPoint.
 
-## Warunki wstępne
+## Wymagania wstępne
 
 Zanim zaczniesz, upewnij się, że spełnione są następujące wymagania wstępne:
 
 1. Zainstalowano Aspose.Slides dla Java API.
 2. Skonfigurowano środowisko programistyczne Java.
-3. Podstawowa znajomość programowania w języku Java.
+3. Podstawowa znajomość programowania w Javie.
 
-## Krok 1: Konfiguracja projektu
+## Krok 1: Konfigurowanie projektu
 
-Upewnij się, że masz katalog dla swojego projektu. Nazwijmy go „Katalogiem Twoich dokumentów”, jak wspomniano w kodzie. Możesz zastąpić to rzeczywistą ścieżką do katalogu projektu.
+Upewnij się, że masz katalog dla swojego projektu. Nazwijmy go „Twoim katalogiem dokumentów”, jak wspomniano w kodzie. Możesz zastąpić to rzeczywistą ścieżką do katalogu swojego projektu.
 
 ```java
 // Ścieżka do katalogu dokumentów.
 String dataDir = "Your Document Directory";
-// Utwórz katalog, jeśli jeszcze nie istnieje.
+// Utwórz katalog, jeśli jeszcze go nie ma.
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
     new File(dataDir).mkdirs();
@@ -41,23 +43,23 @@ if (!IsExists)
 
 ## Krok 2: Tworzenie prezentacji
 
-Utwórzmy teraz prezentację programu PowerPoint i uzyskaj dostęp do jej pierwszego slajdu.
+Teraz utwórzmy prezentację w programie PowerPoint i przejdźmy do jej pierwszego slajdu.
 
 ```java
-// Klasa prezentacji instancji reprezentująca plik PPTX
+// Utwórz klasę prezentacji reprezentującą plik PPTX
 Presentation pres = new Presentation();
-// Uzyskaj dostęp do pierwszego slajdu
+// Dostęp do pierwszego slajdu
 ISlide sld = pres.getSlides().get_Item(0);
 ```
 
 ## Krok 3: Dodawanie wykresu
 
-Do slajdu dodamy grupowany wykres kolumnowy i ustalimy jego tytuł.
+Dodamy do slajdu wykres kolumnowy i ustalimy jego tytuł.
 
 ```java
-// Dodaj wykres z danymi domyślnymi
+// Dodaj wykres z domyślnymi danymi
 IChart chart = sld.getShapes().addChart(ChartType.ClusteredColumn, 0, 0, 500, 500);
-// Tytuł tabeli ustawień
+// Ustawienie tytułu wykresu
 chart.getChartTitle().addTextFrameForOverriding("Sample Title");
 chart.getChartTitle().getTextFrameForOverriding().getTextFrameFormat().setCenterText(NullableBool.True);
 chart.getChartTitle().setHeight(20);
@@ -66,7 +68,7 @@ chart.setTitle(true);
 
 ## Krok 4: Ustawianie danych wykresu
 
-Następnie ustalimy dane wykresu, definiując serie i kategorie.
+Następnie ustawimy dane wykresu poprzez zdefiniowanie serii i kategorii.
 
 ```java
 // Ustaw pierwszą serię na Pokaż wartości
@@ -94,7 +96,7 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 
 
 ## Krok 5: Wypełnianie danych serii
 
-Teraz wypełnijmy punkty danych serii dla wykresu.
+Teraz wypełnijmy punkty danych serii na wykresie.
 
 ```java
 // Weź pierwszą serię wykresów
@@ -105,7 +107,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
-// Ustawianie koloru wypełnienia serii
+// Ustawianie koloru wypełnienia dla serii
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 
@@ -117,7 +119,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
 
-// Ustawianie koloru wypełnienia serii
+// Ustawianie koloru wypełnienia dla serii
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 ```
@@ -127,14 +129,14 @@ series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 Dostosujmy etykiety danych dla serii wykresów.
 
 ```java
-// Pierwsza etykieta będzie zawierać nazwę kategorii
+// Pierwsza etykieta będzie pokazywać nazwę kategorii
 IDataLabel lbl = series.getDataPoints().get_Item(0).getLabel();
 lbl.getDataLabelFormat().setShowCategoryName(true);
 
 lbl = series.getDataPoints().get_Item(1).getLabel();
 lbl.getDataLabelFormat().setShowSeriesName(true);
 
-// Pokaż wartość trzeciej etykiety z nazwą serii i separatorem
+// Pokaż wartość dla trzeciej etykiety z nazwą serii i separatorem
 lbl = series.getDataPoints().get_Item(2).getLabel();
 lbl.getDataLabelFormat().setShowValue(true);
 lbl.getDataLabelFormat().setShowSeriesName(true);
@@ -149,24 +151,24 @@ Na koniec zapisz prezentację z wykresem w katalogu projektu.
 pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
 
-Otóż to! Pomyślnie utworzyłeś grupowany wykres kolumnowy w prezentacji programu PowerPoint przy użyciu Aspose.Slides for Java. Możesz dodatkowo dostosować ten wykres do swoich wymagań.
+To wszystko! Udało Ci się utworzyć wykres kolumnowy klastrowany w prezentacji PowerPoint przy użyciu Aspose.Slides for Java. Możesz dostosować ten wykres dalej zgodnie ze swoimi wymaganiami.
 
-## Kompletny kod źródłowy normalnych wykresów w slajdach Java
+## Kompletny kod źródłowy dla normalnych wykresów w slajdach Java
 
 ```java
 // Ścieżka do katalogu dokumentów.
 String dataDir = "Your Document Directory";
-// Utwórz katalog, jeśli jeszcze nie istnieje.
+// Utwórz katalog, jeśli jeszcze go nie ma.
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
 	new File(dataDir).mkdirs();
-// Klasa prezentacji instancji reprezentująca plik PPTX
+// Utwórz klasę prezentacji reprezentującą plik PPTX
 Presentation pres = new Presentation();
-// Uzyskaj dostęp do pierwszego slajdu
+// Dostęp do pierwszego slajdu
 ISlide sld = pres.getSlides().get_Item(0);
-// Dodaj wykres z danymi domyślnymi
+// Dodaj wykres z domyślnymi danymi
 IChart chart = sld.getShapes().addChart(ChartType.ClusteredColumn, 0, 0, 500, 500);
-// Tytuł tabeli ustawień
+// Ustawienie tytułu wykresu
 // Chart.getChartTitle().getTextFrameForOverriding().setText("Przykładowy tytuł");
 chart.getChartTitle().addTextFrameForOverriding("Sample Title");
 chart.getChartTitle().getTextFrameForOverriding().getTextFrameFormat().setCenterText(NullableBool.True);
@@ -192,28 +194,28 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 // Weź pierwszą serię wykresów
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-// Teraz wypełniam dane serii
+// Teraz wypełniamy dane serii
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
-// Ustawianie koloru wypełnienia serii
+// Ustawianie koloru wypełnienia dla serii
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 // Weź drugą serię wykresów
 series = chart.getChartData().getSeries().get_Item(1);
-// Teraz wypełniam dane serii
+// Teraz wypełniamy dane serii
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-// Ustawianie koloru wypełnienia serii
+// Ustawianie koloru wypełnienia dla serii
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
-// Pierwsza etykieta wyświetli nazwę kategorii
+// Pierwsza etykieta będzie wyświetlać nazwę kategorii
 IDataLabel lbl = series.getDataPoints().get_Item(0).getLabel();
 lbl.getDataLabelFormat().setShowCategoryName(true);
 lbl = series.getDataPoints().get_Item(1).getLabel();
 lbl.getDataLabelFormat().setShowSeriesName(true);
-// Pokaż wartość trzeciej etykiety
+// Pokaż wartość dla trzeciej etykiety
 lbl = series.getDataPoints().get_Item(2).getLabel();
 lbl.getDataLabelFormat().setShowValue(true);
 lbl.getDataLabelFormat().setShowSeriesName(true);
@@ -223,32 +225,34 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
 # Wniosek
 
-W tym samouczku nauczyliśmy się, jak tworzyć normalne wykresy w Java Slides przy użyciu Aspose.Slides for Java API. Przeszliśmy przez przewodnik krok po kroku z kodem źródłowym, jak utworzyć grupowany wykres kolumnowy w prezentacji programu PowerPoint.
+W tym samouczku nauczyliśmy się, jak tworzyć normalne wykresy w Java Slides przy użyciu Aspose.Slides for Java API. Przeszliśmy przez przewodnik krok po kroku z kodem źródłowym, aby utworzyć wykres kolumnowy klastrowany w prezentacji PowerPoint.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
 ### Jak mogę zmienić typ wykresu?
 
- Aby zmienić typ wykresu, zmodyfikuj plik`ChartType`parametr podczas dodawania wykresu za pomocą`sld.getShapes().addChart()`. Możesz wybierać spośród różnych typów wykresów dostępnych w Aspose.Slides.
+Aby zmienić typ wykresu, zmodyfikuj `ChartType` parametr podczas dodawania wykresu za pomocą `sld.getShapes().addChart()`Możesz wybierać spośród różnych typów wykresów dostępnych w Aspose.Slides.
 
 ### Czy mogę zmienić kolory serii wykresów?
 
- Tak, możesz zmienić kolory serii wykresów, ustawiając kolor wypełnienia dla każdej serii`series.getFormat().getFill().getSolidFillColor().setColor(Color.YOUR_COLOR)`.
+Tak, możesz zmienić kolory serii wykresu, ustawiając kolor wypełnienia dla każdej serii za pomocą `series.getFormat().getFill().getSolidFillColor().setColor(Color.YOUR_COLOR)`.
 
 ### Jak dodać więcej kategorii lub serii do wykresu?
 
- Możesz dodać więcej kategorii lub serii do wykresu, dodając nowe punkty danych i etykiety za pomocą przycisku`chart.getChartData().getCategories().add()` I`chart.getChartData().getSeries().add()` metody.
+Możesz dodać więcej kategorii lub serii do wykresu, dodając nowe punkty danych i etykiety za pomocą `chart.getChartData().getCategories().add()` I `chart.getChartData().getSeries().add()` metody.
 
-### Jak mogę bardziej dostosować tytuł wykresu?
+### Jak mogę dodatkowo dostosować tytuł wykresu?
 
- Możesz dodatkowo dostosować tytuł wykresu, modyfikując właściwości`chart.getChartTitle()` takie jak wyrównanie tekstu, rozmiar czcionki i kolor.
+Możesz dodatkowo dostosować tytuł wykresu, modyfikując właściwości `chart.getChartTitle()` takie jak wyrównanie tekstu, rozmiar czcionki i kolor.
 
 ### Jak zapisać wykres w innym formacie pliku?
 
- Aby zapisać wykres w innym formacie pliku, zmień opcję`SaveFormat` parametr w`pres.save()` metodę do żądanego formatu (np. PDF, PNG, JPEG).
+Aby zapisać wykres w innym formacie pliku, zmień `SaveFormat` parametr w `pres.save()` metodę do żądanego formatu (np. PDF, PNG, JPEG).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

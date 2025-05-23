@@ -1,28 +1,30 @@
 ---
-title: Executar mala direta em apresentações
-linktitle: Executar mala direta em apresentações
-second_title: API de processamento de PowerPoint Aspose.Slides .NET
-description: Aprenda mala direta em apresentações usando Aspose.Slides for .NET neste guia passo a passo. Crie apresentações dinâmicas e personalizadas sem esforço.
-weight: 21
-url: /pt/net/presentation-manipulation/perform-mail-merge-in-presentations/
+"description": "Aprenda a mesclar e-mails em apresentações usando o Aspose.Slides para .NET neste guia passo a passo. Crie apresentações dinâmicas e personalizadas sem esforço."
+"linktitle": "Executar mala direta em apresentações"
+"second_title": "API de processamento de PowerPoint Aspose.Slides .NET"
+"title": "Executar mala direta em apresentações"
+"url": "/pt/net/presentation-manipulation/perform-mail-merge-in-presentations/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Executar mala direta em apresentações
 
 ## Introdução
-No mundo do desenvolvimento .NET, a criação de apresentações dinâmicas e personalizadas é um requisito comum. Uma ferramenta poderosa que simplifica esse processo é o Aspose.Slides for .NET. Neste tutorial, nos aprofundaremos no fascinante reino de realizar mala direta em apresentações usando Aspose.Slides for .NET.
+No mundo do desenvolvimento .NET, criar apresentações dinâmicas e personalizadas é uma necessidade comum. Uma ferramenta poderosa que simplifica esse processo é o Aspose.Slides para .NET. Neste tutorial, vamos nos aprofundar no fascinante universo da mala direta em apresentações usando o Aspose.Slides para .NET.
 ## Pré-requisitos
-Antes de embarcarmos nesta jornada, certifique-se de ter os seguintes pré-requisitos em vigor:
-- Biblioteca Aspose.Slides for .NET: Certifique-se de ter a biblioteca Aspose.Slides for .NET instalada. Você pode baixá-lo em[aqui](https://releases.aspose.com/slides/net/).
-- Modelo de documento: Prepare um modelo de apresentação (por exemplo, PresentationTemplate.pptx) que servirá como base para mala direta.
-- Fonte de dados: você precisa de uma fonte de dados para mala direta. Em nosso exemplo, usaremos dados XML (TestData.xml), mas Aspose.Slides suporta várias fontes de dados como RDBMS.
-Agora, vamos mergulhar nas etapas de execução de mala direta em apresentações usando Aspose.Slides for .NET.
+Antes de embarcar nessa jornada, certifique-se de ter os seguintes pré-requisitos em vigor:
+- Biblioteca Aspose.Slides para .NET: Certifique-se de ter a biblioteca Aspose.Slides para .NET instalada. Você pode baixá-la em [aqui](https://releases.aspose.com/slides/net/).
+- Modelo de documento: prepare um modelo de apresentação (por exemplo, PresentationTemplate.pptx) que servirá como base para mala direta.
+- Fonte de dados: Você precisa de uma fonte de dados para mala direta. No nosso exemplo, usaremos dados XML (TestData.xml), mas o Aspose.Slides suporta diversas fontes de dados, como RDBMS.
+Agora, vamos nos aprofundar nas etapas de execução de mala direta em apresentações usando o Aspose.Slides para .NET.
 ## Importar namespaces
-Em primeiro lugar, certifique-se de importar os namespaces necessários para aproveitar as funcionalidades fornecidas pelo Aspose.Slides:
+Primeiro, certifique-se de importar os namespaces necessários para aproveitar as funcionalidades fornecidas pelo Aspose.Slides:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -47,7 +49,7 @@ string resultPath = Path.Combine(RunExamples.OutPath, "MailMergeResult");
 if (!Directory.Exists(resultPath))
     Directory.CreateDirectory(resultPath);
 ```
-## Etapa 2: Criar um DataSet usando dados XML
+## Etapa 2: Criar um conjunto de dados usando dados XML
 ```csharp
 using (DataSet dataSet = new DataSet())
 {
@@ -57,7 +59,7 @@ using (DataSet dataSet = new DataSet())
     DataTable staffListTable = dataTables["StaffList"];
     DataTable planFactTable = dataTables["Plan_Fact"];
 ```
-## Etapa 3: percorrer os registros e criar apresentações individuais
+## Etapa 3: Percorra os registros e crie apresentações individuais
 ```csharp
 foreach (DataRow userRow in usersTable.Rows)
 {
@@ -69,9 +71,9 @@ foreach (DataRow userRow in usersTable.Rows)
         // Preencha as caixas de texto com dados da tabela principal
         ((AutoShape)pres.Slides[0].Shapes[0]).TextFrame.Text = "Chief of the department - " + userRow["Name"];
         ((AutoShape)pres.Slides[0].Shapes[4]).TextFrame.Text = userRow["Department"].ToString();
-        // Obtenha imagem do banco de dados
+        // Obter imagem do banco de dados
         byte[] bytes = Convert.FromBase64String(userRow["Img"].ToString());
-        //Insira a imagem no porta-retratos da apresentação
+        // Inserir imagem no quadro da apresentação
         IPPImage image = pres.Images.AddImage(bytes);
         IPictureFrame pf = pres.Slides[0].Shapes[1] as PictureFrame;
         pf.PictureFormat.Picture.Image.ReplaceImage(image);
@@ -82,9 +84,9 @@ foreach (DataRow userRow in usersTable.Rows)
         Paragraph para = new Paragraph();
         para.Text = "Department Staff:";
         textFrame.Paragraphs.Add(para);
-        // Preencha os dados da equipe
+        // Preencher dados da equipe
         FillStaffList(textFrame, userRow, staffListTable);
-        // Preencha os dados factuais do plano
+        // Preencher dados factuais do plano
         FillPlanFact(pres, userRow, planFactTable);
         pres.Save(presPath, SaveFormat.Pptx);
     }
@@ -111,7 +113,7 @@ static void FillStaffList(ITextFrame textFrame, DataRow userRow, DataTable staff
     }
 }
 ```
-## Etapa 5: preencher o gráfico de dados da tabela PlanFact secundária
+## Etapa 5: Preencher o gráfico de dados a partir da tabela secundária PlanFact
 ```csharp
 static void FillPlanFact(Presentation pres, DataRow row, DataTable planFactTable)
 {
@@ -142,23 +144,25 @@ static void FillPlanFact(Presentation pres, DataRow row, DataTable planFactTable
     chart.ChartData.SetRange(range);
 }
 ```
-Estas etapas demonstram um guia abrangente sobre como realizar mala direta em apresentações usando Aspose.Slides for .NET. Agora, vamos responder a algumas perguntas frequentes.
-## perguntas frequentes
-### 1. O Aspose.Slides for .NET é compatível com diferentes fontes de dados?
-Sim, Aspose.Slides for .NET oferece suporte a várias fontes de dados, incluindo XML, RDBMS e muito mais.
+Estas etapas demonstram um guia completo sobre como realizar mala direta em apresentações usando o Aspose.Slides para .NET. Agora, vamos responder a algumas perguntas frequentes.
+## Perguntas frequentes
+### 1. O Aspose.Slides para .NET é compatível com diferentes fontes de dados?
+Sim, o Aspose.Slides para .NET suporta várias fontes de dados, incluindo XML, RDBMS e muito mais.
 ### 2. Posso personalizar a aparência dos marcadores na apresentação gerada?
- Certamente! Você tem controle total sobre a aparência dos marcadores, conforme demonstrado no`FillStaffList` método.
-### 3. Que tipos de gráficos posso criar usando Aspose.Slides for .NET?
-Aspose.Slides for .NET oferece suporte a uma ampla variedade de gráficos, incluindo gráficos de linhas conforme mostrado em nosso exemplo, gráficos de barras, gráficos de pizza e muito mais.
-### 4. Como obtenho suporte ou assistência com Aspose.Slides for .NET?
- Para suporte e assistência, você pode visitar o[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11).
-### 5. Posso experimentar o Aspose.Slides for .NET antes de comprar?
- Certamente! Você pode aproveitar uma avaliação gratuita do Aspose.Slides for .NET em[aqui](https://releases.aspose.com/).
+Certamente! Você tem controle total sobre a aparência dos marcadores, conforme demonstrado no `FillStaffList` método.
+### 3. Que tipos de gráficos posso criar usando o Aspose.Slides para .NET?
+O Aspose.Slides para .NET oferece suporte a uma ampla variedade de gráficos, incluindo gráficos de linhas, como mostrado em nosso exemplo, gráficos de barras, gráficos de pizza e muito mais.
+### 4. Como obtenho suporte ou procuro assistência com o Aspose.Slides para .NET?
+Para obter suporte e assistência, você pode visitar o [Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+### 5. Posso testar o Aspose.Slides para .NET antes de comprar?
+Com certeza! Você pode aproveitar uma avaliação gratuita do Aspose.Slides para .NET em [aqui](https://releases.aspose.com/).
 ## Conclusão
-Neste tutorial, exploramos os recursos interessantes do Aspose.Slides for .NET na realização de mala direta em apresentações. Seguindo o guia passo a passo, você pode criar apresentações dinâmicas e personalizadas sem esforço. Eleve sua experiência de desenvolvimento .NET com Aspose.Slides para geração de apresentações perfeita.
+Neste tutorial, exploramos os recursos interessantes do Aspose.Slides para .NET para realizar mala direta em apresentações. Seguindo o guia passo a passo, você poderá criar apresentações dinâmicas e personalizadas sem esforço. Aprimore sua experiência de desenvolvimento .NET com o Aspose.Slides para gerar apresentações de forma integrada.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

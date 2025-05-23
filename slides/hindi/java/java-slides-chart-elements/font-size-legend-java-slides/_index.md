@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में फ़ॉन्ट आकार लेजेंड
-linktitle: जावा स्लाइड्स में फ़ॉन्ट आकार लेजेंड
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java के साथ PowerPoint प्रस्तुतियों को बेहतर बनाएँ। हमारे चरण-दर-चरण मार्गदर्शिका में लेजेंड फ़ॉन्ट आकार और अन्य चीज़ों को कस्टमाइज़ करना सीखें।
-weight: 13
-url: /hi/java/chart-elements/font-size-legend-java-slides/
+"description": "Aspose.Slides for Java के साथ PowerPoint प्रस्तुतियों को बेहतर बनाएँ। हमारे चरण-दर-चरण मार्गदर्शिका में लेजेंड फ़ॉन्ट आकार और अन्य चीज़ों को कस्टमाइज़ करना सीखें।"
+"linktitle": "जावा स्लाइड्स में फ़ॉन्ट आकार लेजेंड"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में फ़ॉन्ट आकार लेजेंड"
+"url": "/hi/java/chart-elements/font-size-legend-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में फ़ॉन्ट आकार लेजेंड
@@ -20,7 +22,7 @@ url: /hi/java/chart-elements/font-size-legend-java-slides/
 
 ## आवश्यक शर्तें
 
- शुरू करने से पहले, सुनिश्चित करें कि आपके पास Aspose.Slides for Java लाइब्रेरी स्थापित है और आपके Java प्रोजेक्ट में सेट अप है। आप लाइब्रेरी को यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+शुरू करने से पहले, सुनिश्चित करें कि आपके पास Aspose.Slides for Java लाइब्रेरी स्थापित है और आपके Java प्रोजेक्ट में सेट अप है। आप लाइब्रेरी को यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 
 ## चरण 1: प्रस्तुति आरंभ करें
 
@@ -32,7 +34,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 ```
 
- प्रतिस्थापित करें`"Your Document Directory"` अपनी PowerPoint फ़ाइल के वास्तविक पथ के साथ.
+प्रतिस्थापित करें `"Your Document Directory"` अपनी PowerPoint फ़ाइल के वास्तविक पथ के साथ.
 
 ## चरण 2: चार्ट जोड़ें
 
@@ -46,7 +48,7 @@ try
 }
 ```
 
- इस कोड में, हम पहली स्लाइड पर एक क्लस्टर्ड कॉलम चार्ट बनाते हैं और लेजेंड टेक्स्ट का फ़ॉन्ट आकार 20 पॉइंट पर सेट करते हैं। आप इसे समायोजित कर सकते हैं`setFontHeight`फ़ॉन्ट आकार को आवश्यकतानुसार बदलने के लिए मान का उपयोग करें.
+इस कोड में, हम पहली स्लाइड पर एक क्लस्टर्ड कॉलम चार्ट बनाते हैं और लेजेंड टेक्स्ट का फ़ॉन्ट आकार 20 पॉइंट पर सेट करते हैं। आप इसे समायोजित कर सकते हैं `setFontHeight` फ़ॉन्ट आकार को आवश्यकतानुसार बदलने के लिए मान का उपयोग करें.
 
 ## चरण 3: अक्ष मान अनुकूलित करें
 
@@ -104,7 +106,7 @@ finally
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-### मैं चार्ट में लेजेंड टेक्स्ट का फ़ॉन्ट आकार कैसे बदल सकता हूँ?
+### मैं चार्ट में लेजेंड टेक्स्ट का फ़ॉन्ट आकार कैसे बदलूं?
 
 चार्ट में लेजेंड टेक्स्ट का फ़ॉन्ट आकार बदलने के लिए, आप निम्नलिखित कोड का उपयोग कर सकते हैं:
 
@@ -113,7 +115,7 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Clust
 chart.getLegend().getTextFormat().getPortionFormat().setFontHeight(20);
 ```
 
- इस कोड में, हम एक चार्ट बनाते हैं और लेजेंड टेक्स्ट का फ़ॉन्ट आकार 20 पॉइंट पर सेट करते हैं। आप इसे समायोजित कर सकते हैं`setFontHeight` फ़ॉन्ट आकार बदलने के लिए मान.
+इस कोड में, हम एक चार्ट बनाते हैं और लेजेंड टेक्स्ट का फ़ॉन्ट आकार 20 पॉइंट पर सेट करते हैं। आप इसे समायोजित कर सकते हैं `setFontHeight` फ़ॉन्ट आकार बदलने के लिए मान.
 
 ### क्या मैं चार्ट में लेजेंड के अन्य गुणों को अनुकूलित कर सकता हूँ?
 
@@ -140,10 +142,12 @@ chart.getAxes().getVerticalAxis().setMaxValue(10);
 
 ### मैं Aspose.Slides के लिए अधिक जानकारी और दस्तावेज़ कहां पा सकता हूं?
 
- आप Aspose.Slides for Java के लिए Aspose डॉक्यूमेंटेशन वेबसाइट पर विस्तृत डॉक्यूमेंटेशन और API संदर्भ पा सकते हैं।[यहाँ](https://reference.aspose.com/slides/java/) पुस्तकालय के उपयोग के बारे में विस्तृत जानकारी के लिए कृपया देखें.
+आप Aspose.Slides for Java के लिए Aspose डॉक्यूमेंटेशन वेबसाइट पर विस्तृत डॉक्यूमेंटेशन और API संदर्भ पा सकते हैं। [यहाँ](https://reference.aspose.com/slides/java/) पुस्तकालय के उपयोग के बारे में विस्तृत जानकारी के लिए कृपया देखें.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

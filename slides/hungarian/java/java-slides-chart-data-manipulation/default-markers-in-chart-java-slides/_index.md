@@ -1,30 +1,32 @@
 ---
-title: Alapértelmezett jelölők a diagramon a Java Slides-ben
-linktitle: Alapértelmezett jelölők a diagramon a Java Slides-ben
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan hozhat létre Java-diákat alapértelmezett jelölőkkel a diagramokon az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskóddal.
-weight: 16
-url: /hu/java/chart-data-manipulation/default-markers-in-chart-java-slides/
+"description": "Tanuld meg, hogyan hozhatsz létre Java diákat alapértelmezett jelölőkkel a diagramokban az Aspose.Slides for Java használatával. Lépésről lépésre útmutató forráskóddal."
+"linktitle": "Alapértelmezett jelölők a Java diák diagramjában"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Alapértelmezett jelölők a Java diák diagramjában"
+"url": "/hu/java/chart-data-manipulation/default-markers-in-chart-java-slides/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Alapértelmezett jelölők a diagramon a Java Slides-ben
+# Alapértelmezett jelölők a Java diák diagramjában
 
 
-## Bevezetés az alapértelmezett jelölőkhöz a Java Slides diagramjában
+## Bevezetés az alapértelmezett jelölőkbe a Java diák diagramjaiban
 
-Ebben az oktatóanyagban megvizsgáljuk, hogyan hozhat létre diagramot alapértelmezett jelölőkkel az Aspose.Slides for Java használatával. Az alapértelmezett jelölők a diagram adatpontjaihoz hozzáadott szimbólumok vagy alakzatok, amelyek kiemelik azokat. Létrehozunk egy vonaldiagramot markerekkel az adatok megjelenítéséhez.
+Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan hozhatunk létre alapértelmezett jelölőkkel rendelkező diagramot az Aspose.Slides for Java használatával. Az alapértelmezett jelölők olyan szimbólumok vagy alakzatok, amelyeket a diagram adatpontjaihoz adunk, hogy kiemeljék azokat. Létrehozunk egy vonaldiagramot jelölőkkel az adatok vizualizálásához.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy az Aspose.Slides for Java könyvtár telepítve van és be van állítva a Java projektben.
+Mielőtt elkezdenéd, győződj meg róla, hogy az Aspose.Slides for Java könyvtár telepítve és beállítva van a Java projektedben.
 
-## 1. lépés: Hozzon létre egy prezentációt
+## 1. lépés: Prezentáció létrehozása
 
-Először hozzunk létre egy prezentációt, és adjunk hozzá egy diát. Ezután hozzáadunk egy diagramot a diához.
+Először is hozzunk létre egy prezentációt, és adjunk hozzá egy diát. Ezután adjunk hozzá egy diagramot a diához.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -32,9 +34,9 @@ Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
 ```
 
-## 2. lépés: Adjon hozzá egy vonaldiagramot jelölőkkel
+## 2. lépés: Vonaldiagram hozzáadása jelölőkkel
 
-Most adjunk hozzá egy vonaldiagramot jelölőkkel a diához. Ezenkívül töröljük az alapértelmezett adatokat a diagramból.
+Most adjunk hozzá egy jelölőkkel ellátott vonaldiagramot a diához. Emellett töröljük az alapértelmezett adatokat a diagramból.
 
 ```java
 IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 10, 10, 400, 400);
@@ -42,9 +44,9 @@ chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 ```
 
-## 3. lépés: Töltse fel a diagramadatokat
+## 3. lépés: Diagramadatok feltöltése
 
-diagramot mintaadatokkal töltjük fel. Ebben a példában két sorozatot hozunk létre adatpontokkal és kategóriákkal.
+A diagramot mintaadatokkal fogjuk feltölteni. Ebben a példában két sorozatot fogunk létrehozni adatpontokkal és kategóriákkal.
 
 ```java
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
@@ -74,7 +76,7 @@ series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 4, 2, 40));
 
 ## 4. lépés: A diagram testreszabása
 
-A diagram testreszabható, például jelmagyarázat hozzáadásával és megjelenésének módosításával.
+A diagramot tovább testreszabhatja, például jelmagyarázatot adhat hozzá és módosíthatja a megjelenését.
 
 ```java
 chart.setLegend(true);
@@ -83,15 +85,15 @@ chart.getLegend().setOverlay(false);
 
 ## 5. lépés: Mentse el a prezentációt
 
-Végül mentse a prezentációt a diagrammal a kívánt helyre.
+Végül mentse el a diagramot tartalmazó bemutatót a kívánt helyre.
 
 ```java
 pres.save(dataDir + "DefaultMarkersInChart.pptx", SaveFormat.Pptx);
 ```
 
-Ez az! Létrehozott egy vonaldiagramot alapértelmezett jelölőkkel az Aspose.Slides for Java használatával.
+Ez minden! Létrehoztál egy vonaldiagramot alapértelmezett jelölőkkel az Aspose.Slides for Java használatával.
 
-## Teljes forráskód az alapértelmezett jelölőkhöz a Java Slides diagramjában
+## Teljes forráskód az alapértelmezett jelölőkhöz a Java diák diagramjában
 
 ```java
         // A dokumentumok könyvtárának elérési útja.
@@ -117,7 +119,7 @@ Ez az! Létrehozott egy vonaldiagramot alapértelmezett jelölőkkel az Aspose.S
             chart.getChartData().getSeries().add(fact.getCell(0, 0, 2, "Series 2"), chart.getType());
             //Vegyük a második diagramsorozatot
             IChartSeries series2 = chart.getChartData().getSeries().get_Item(1);
-            //Most a sorozatadatok feltöltése
+            //Most feltöltjük a sorozat adatait
             series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 1, 2, 30));
             series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 2, 2, 10));
             series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 3, 2, 60));
@@ -133,24 +135,26 @@ Ez az! Létrehozott egy vonaldiagramot alapértelmezett jelölőkkel az Aspose.S
 ```
 ## Következtetés
 
-Ebben az átfogó oktatóanyagban megtanulta, hogyan hozhat létre Java-diákat alapértelmezett jelölőkkel a diagramokon az Aspose.Slides for Java használatával. A teljes folyamatot lefedtük, a prezentáció felállításától a diagram megjelenésének testreszabásáig és az eredmény mentéséig.
+Ebben az átfogó oktatóanyagban megtanultad, hogyan hozhatsz létre Java diákat alapértelmezett jelölőkkel a diagramokban az Aspose.Slides for Java segítségével. Áttekintettük a teljes folyamatot, a prezentáció beállításától a diagram megjelenésének testreszabásán át az eredmény mentéséig.
 
 ## GYIK
 
-### Hogyan változtathatom meg a jelölő szimbólumokat?
+### Hogyan tudom megváltoztatni a jelölő szimbólumokat?
 
- jelölőszimbólumokat testreszabhatja az egyes adatpontokhoz tartozó jelölőstílusok beállításával. Használat`IDataPoint.setMarkerStyle()` a jelölő szimbólum megváltoztatásához.
+A jelölő szimbólumokat testreszabhatja az egyes adatpontok jelölőstílusának beállításával. `IDataPoint.setMarkerStyle()` a jelölő szimbólumának módosításához.
 
-### Hogyan állíthatom be a diagram színeit?
+### Hogyan tudom beállítani a diagram színeit?
 
- A diagram színeinek módosításához használhatja a`IChartSeriesFormat` és`IShapeFillFormat` interfészek a kitöltési és vonali tulajdonságok beállításához.
+A diagram színeinek módosításához használhatja a `IChartSeriesFormat` és `IShapeFillFormat` felületek a kitöltési és vonaltulajdonságok beállításához.
 
 ### Hozzáadhatok címkéket az adatpontokhoz?
 
- Igen, az adatpontokhoz címkéket adhat hozzá a`IDataPoint.getLabel()` módszert, és szükség szerint testreszabhatja azokat.
+Igen, címkéket adhatsz hozzá az adatpontokhoz a használatával. `IDataPoint.getLabel()` módszert, és szükség szerint testreszabhatja azokat.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में सूत्रों की गणना करें
-linktitle: जावा स्लाइड्स में सूत्रों की गणना करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके Java Slides में फ़ार्मुलों की गणना करना सीखें। गतिशील PowerPoint प्रस्तुतियों के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 10
-url: /hi/java/data-manipulation/calculate-formulas-java-slides/
+"description": "Aspose.Slides for Java का उपयोग करके Java Slides में सूत्रों की गणना करना सीखें। गतिशील PowerPoint प्रस्तुतियों के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "जावा स्लाइड्स में सूत्रों की गणना करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में सूत्रों की गणना करें"
+"url": "/hi/java/data-manipulation/calculate-formulas-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में सूत्रों की गणना करें
@@ -16,14 +18,14 @@ url: /hi/java/data-manipulation/calculate-formulas-java-slides/
 
 ## Aspose.Slides का उपयोग करके जावा स्लाइड्स में सूत्रों की गणना करने का परिचय
 
-इस गाइड में, हम Aspose.Slides for Java API का उपयोग करके Java स्लाइड्स में फ़ॉर्मूला की गणना करने का तरीका प्रदर्शित करेंगे। Aspose.Slides PowerPoint प्रस्तुतियों के साथ काम करने के लिए एक शक्तिशाली लाइब्रेरी है, और यह स्लाइड्स के भीतर चार्ट में हेरफेर करने और फ़ॉर्मूला गणना करने की सुविधाएँ प्रदान करती है।
+इस गाइड में, हम Aspose.Slides for Java API का उपयोग करके Java स्लाइड्स में फ़ॉर्मूला की गणना करने का तरीका दिखाएंगे। Aspose.Slides PowerPoint प्रस्तुतियों के साथ काम करने के लिए एक शक्तिशाली लाइब्रेरी है, और यह स्लाइड्स के भीतर चार्ट में हेरफेर करने और फ़ॉर्मूला गणना करने के लिए सुविधाएँ प्रदान करती है।
 
 ## आवश्यक शर्तें
 
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
 - जावा विकास पर्यावरण
--  Aspose.Slides for Java लाइब्रेरी (आप इसे यहां से डाउनलोड कर सकते हैं)[यहाँ](https://releases.aspose.com/slides/java/)
+- Aspose.Slides for Java लाइब्रेरी (आप इसे यहां से डाउनलोड कर सकते हैं) [यहाँ](https://releases.aspose.com/slides/java/)
 - जावा प्रोग्रामिंग का बुनियादी ज्ञान
 
 ## चरण 1: एक नई प्रस्तुति बनाएँ
@@ -111,19 +113,21 @@ try {
 
 ### मैं चार्ट डेटा कक्षों के लिए सूत्र कैसे सेट करूँ?
 
- आप चार्ट डेटा कक्षों के लिए सूत्र सेट कर सकते हैं`setFormula` उसकि विधि`IChartDataCell` Aspose.Slides में.
+आप चार्ट डेटा कक्षों के लिए सूत्र सेट कर सकते हैं `setFormula` की विधि `IChartDataCell` Aspose.Slides में.
 
 ### मैं चार्ट डेटा कक्षों के लिए मान कैसे सेट करूँ?
 
- आप चार्ट डेटा कक्षों के लिए मान सेट कर सकते हैं`setValue` उसकि विधि`IChartDataCell` Aspose.Slides में.
+आप चार्ट डेटा कक्षों के लिए मान सेट कर सकते हैं `setValue` की विधि `IChartDataCell` Aspose.Slides में.
 
 ### मैं कार्यपुस्तिका में सूत्रों की गणना कैसे करूँ?
 
- आप किसी कार्यपुस्तिका में सूत्रों की गणना कर सकते हैं`calculateFormulas` उसकि विधि`IChartDataWorkbook` Aspose.Slides में.
+आप किसी कार्यपुस्तिका में सूत्रों की गणना कर सकते हैं `calculateFormulas` की विधि `IChartDataWorkbook` Aspose.Slides में.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,79 +1,81 @@
 ---
-title: Második nyomtatási opciók a diagramokhoz a Java Slides-ben
-linktitle: Második nyomtatási opciók a diagramokhoz a Java Slides-ben
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan testreszabhatja a diagramokat a Java Slides programban az Aspose.Slides for Java segítségével. Fedezze fel a második cselekmény lehetőségeit, és javítsa prezentációit.
-weight: 12
-url: /hu/java/chart-creation/second-plot-options-charts-java-slides/
+"description": "Tanuld meg, hogyan szabhatsz testre diagramokat Java Slides-ben az Aspose.Slides for Java használatával. Fedezd fel a második diagram lehetőségeit és javítsd a prezentációidat."
+"linktitle": "Második diagrambeállítások Java diákban"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Második diagrambeállítások Java diákban"
+"url": "/hu/java/chart-creation/second-plot-options-charts-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Második nyomtatási opciók a diagramokhoz a Java Slides-ben
+# Második diagrambeállítások Java diákban
 
 
-## Bevezetés a Java Slides diagramjainak második ábrázolási opcióiba
+## Bevezetés a Java-diagramok második diagrambeállításaiba
 
-Ebben az oktatóanyagban megvizsgáljuk, hogyan adhatunk hozzá második nyomtatási opciókat a diagramokhoz az Aspose.Slides for Java segítségével. A második diagram opciók lehetővé teszik a diagramok megjelenésének és viselkedésének testreszabását, különösen az olyan forgatókönyvekben, mint a kördiagramok. Ennek eléréséhez lépésenkénti utasításokat és forráskód-példákat fogunk nyújtani. 
+Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan adhatunk hozzá második ábrázolási opciókat diagramokhoz az Aspose.Slides for Java használatával. A második ábrázolási opciók lehetővé teszik a diagramok megjelenésének és viselkedésének testreszabását, különösen olyan esetekben, mint a kördiagramok. Lépésről lépésre bemutatjuk a megvalósítás módját, valamint forráskódpéldákat is adunk. 
 
 ## Előfeltételek
-Mielőtt elkezdené, győződjön meg arról, hogy az Aspose.Slides for Java telepítve van, és be van állítva a Java projektben.
+Mielőtt elkezdenénk, győződjünk meg róla, hogy az Aspose.Slides for Java telepítve és beállítva van a Java projektedben.
 
-## 1. lépés: Hozzon létre egy prezentációt
+## 1. lépés: Prezentáció létrehozása
 Kezdjük egy új prezentáció létrehozásával:
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
 String dataDir = "Your Document Directory";
-// Hozzon létre egy példányt a Prezentáció osztályból
+// Hozz létre egy példányt a Presentation osztályból
 Presentation presentation = new Presentation();
 ```
 
-## 2. lépés: Diagram hozzáadása a diához
-Ezután hozzáadunk egy diagramot egy diához. Ebben a példában egy kördiagramot hozunk létre:
+## 2. lépés: Diagram hozzáadása egy diához
+Következőként egy diagramot fogunk hozzáadni egy diához. Ebben a példában egy kördiagramot fogunk létrehozni:
 
 ```java
-// Diagram hozzáadása a dián
+// Diagram hozzáadása a diához
 IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.PieOfPie, 50, 50, 500, 400);
 ```
 
-## 3. lépés: A diagram tulajdonságainak testreszabása
-Most állítsunk be különböző tulajdonságokat a diagramhoz, beleértve a második diagram opciókat is:
+## 3. lépés: Diagram tulajdonságainak testreszabása
+Most állítsuk be a diagram különböző tulajdonságait, beleértve a második diagram beállításait is:
 
 ```java
 // Az első sorozat adatcímkéinek megjelenítése
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 
-// Állítsa be a második pite méretét (százalékban)
+// A második kördiagram méretének beállítása (százalékban)
 chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setSecondPieSize(149);
 
-// Osszuk el a tortát százalékosan
+// Ossza fel a tortát százalékosan
 chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setPieSplitBy(PieSplitType.ByPercentage);
 
-// Állítsa be a felosztás helyzetét
+// A felosztás pozíciójának beállítása
 chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setPieSplitPosition(53);
 ```
 
-## 4. lépés: Mentse el a bemutatót
-Végül mentse el a prezentációt a diagrammal és a második diagram opciókkal:
+## 4. lépés: Mentse el a prezentációt
+Végül mentse el a prezentációt a diagram és a második ábrázolási beállításokkal:
 
 ```java
 // Prezentáció írása lemezre
 presentation.save(dataDir + "SecondPlotOptionsforCharts_out.pptx", SaveFormat.Pptx);
 ```
 
-## Teljes forráskód a második telek opciókhoz
+## Teljes forráskód a második diagram opcióihoz
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
 String dataDir = "Your Document Directory";
-// Hozzon létre egy példányt a Prezentáció osztályból
+// Hozz létre egy példányt a Presentation osztályból
 Presentation presentation = new Presentation();
-// Diagram hozzáadása a dián
+// Diagram hozzáadása a diához
 IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.PieOfPie, 50, 50, 500, 400);
-// Állítson be különböző tulajdonságokat
+// Különböző tulajdonságok beállítása
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setSecondPieSize(149);
 chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setPieSplitBy(PieSplitType.ByPercentage);
@@ -84,24 +86,26 @@ presentation.save(dataDir + "SecondPlotOptionsforCharts_out.pptx", SaveFormat.Pp
 
 ## Következtetés
 
-Ebben az oktatóanyagban megtanultuk, hogyan adhatunk hozzá második nyomtatási beállításokat a Java Slides diagramjaihoz az Aspose.Slides for Java segítségével. Testreszabhatja a különböző tulajdonságokat a diagramok megjelenésének és funkcionalitásának javítása érdekében, így prezentációi informatívabbak és látványosabbak.
+Ebben az oktatóanyagban megtanultuk, hogyan adhatunk hozzá második diagrambeállításokat a Java diákban található diagramokhoz az Aspose.Slides for Java használatával. Testreszabhatja a különböző tulajdonságokat a diagramok megjelenésének és funkcionalitásának javítása érdekében, így a prezentációk informatívabbak és vizuálisan vonzóbbak lesznek.
 
 ## GYIK
 
-### Hogyan módosíthatom a második kör méretét egy kördiagramon?
+### Hogyan tudom megváltoztatni a második kördiagram méretét egy kördiagramban?
 
- kördiagram második körének méretének módosításához használja a`setSecondPieSize` módszert a fenti kódpéldában látható módon. Módosítsa az értéket a méret százalékos megadásához.
+A kördiagram második körének méretének módosításához használja a `setSecondPieSize` metódust, ahogy a fenti kódpéldában látható. Módosítsa az értéket a méret százalékos megadásához.
 
-###  Mit csinál`PieSplitBy` control in a Pie of Pie chart?
+### Mit jelent `PieSplitBy` kontroll egy kördiagramon?
 
- A`PieSplitBy` tulajdonság szabályozza a kördiagram felosztását. Bármelyikre beállíthatja`PieSplitType.ByPercentage` vagy`PieSplitType.ByValue` a diagram százalékos vagy meghatározott érték szerinti felosztásához.
+A `PieSplitBy` tulajdonság szabályozza, hogy a kördiagram hogyan legyen felosztva. Beállíthatja a kettő közül: `PieSplitType.ByPercentage` vagy `PieSplitType.ByValue` a diagram százalékos vagy egy adott érték szerinti felosztásához.
 
-### Hogyan állíthatom be a felosztás pozícióját egy kördiagramon?
+### Hogyan tudom beállítani a felosztás pozícióját egy kördiagramban?
 
- Beállíthatja a felosztás pozícióját egy kördiagramon a`setPieSplitPosition` módszer. Állítsa be az értéket a kívánt pozíció megadásához.
+A kördiagram felosztásának pozícióját a következővel állíthatja be: `setPieSplitPosition` módszer. Módosítsa az értéket a kívánt pozíció megadásához.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

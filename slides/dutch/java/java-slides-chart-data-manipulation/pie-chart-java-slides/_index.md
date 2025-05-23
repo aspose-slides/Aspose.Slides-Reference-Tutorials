@@ -1,28 +1,30 @@
 ---
-title: Cirkeldiagram in Java-dia's
-linktitle: Cirkeldiagram in Java-dia's
-second_title: Aspose.Slides Java PowerPoint-verwerkings-API
-description: Leer hoe u verbluffende cirkeldiagrammen kunt maken in PowerPoint-presentaties met Aspose.Slides voor Java. Stap-voor-stap handleiding met broncode voor Java-ontwikkelaars.
-weight: 23
-url: /nl/java/chart-data-manipulation/pie-chart-java-slides/
+"description": "Leer hoe je verbluffende cirkeldiagrammen maakt in PowerPoint-presentaties met Aspose.Slides voor Java. Stapsgewijze handleiding met broncode voor Java-ontwikkelaars."
+"linktitle": "Cirkeldiagram in Java-dia's"
+"second_title": "Aspose.Slides Java PowerPoint-verwerkings-API"
+"title": "Cirkeldiagram in Java-dia's"
+"url": "/nl/java/chart-data-manipulation/pie-chart-java-slides/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cirkeldiagram in Java-dia's
 
 
-## Inleiding tot het maken van een cirkeldiagram in Java-dia's met Aspose.Slides
+## Inleiding tot het maken van een cirkeldiagram in Java Slides met Aspose.Slides
 
-In deze zelfstudie laten we zien hoe u een cirkeldiagram maakt in een PowerPoint-presentatie met behulp van Aspose.Slides voor Java. We geven u stapsgewijze instructies en Java-broncode om u op weg te helpen. In deze handleiding wordt ervan uitgegaan dat u uw ontwikkelomgeving al hebt ingesteld met Aspose.Slides voor Java.
+In deze tutorial laten we zien hoe je een cirkeldiagram maakt in een PowerPoint-presentatie met Aspose.Slides voor Java. We geven je stapsgewijze instructies en Java-broncode om je op weg te helpen. Deze handleiding gaat ervan uit dat je je ontwikkelomgeving al hebt ingesteld met Aspose.Slides voor Java.
 
 ## Vereisten
 
- Voordat u begint, moet u ervoor zorgen dat de Aspose.Slides voor Java-bibliotheek in uw project is geïnstalleerd en geconfigureerd. Je kunt het downloaden van[hier](https://releases.aspose.com/slides/java/).
+Voordat u begint, moet u ervoor zorgen dat de Aspose.Slides voor Java-bibliotheek in uw project is geïnstalleerd en geconfigureerd. U kunt deze downloaden van [hier](https://releases.aspose.com/slides/java/).
 
-## Stap 1: Importeer de vereiste bibliotheken
+## Stap 1: Vereiste bibliotheken importeren
 
 ```java
 import com.aspose.slides.*;
@@ -37,20 +39,20 @@ Zorg ervoor dat u de benodigde klassen uit de Aspose.Slides-bibliotheek importee
 // Het pad naar de documentenmap.
 String dataDir = "Your Document Directory";
 
-// Instantieer de presentatieklasse die het PPTX-bestand vertegenwoordigt
+// Instantieer presentatieklasse die PPTX-bestand vertegenwoordigt
 Presentation presentation = new Presentation();
 ```
 
- Maak een nieuw presentatieobject om uw PowerPoint-bestand weer te geven. Vervangen`"Your Document Directory"` met het daadwerkelijke pad waar u de presentatie wilt opslaan.
+Maak een nieuw presentatieobject om uw PowerPoint-bestand te vertegenwoordigen. Vervang `"Your Document Directory"` met het daadwerkelijke pad waar u de presentatie wilt opslaan.
 
-## Stap 3: Voeg een dia toe
+## Stap 3: Een dia toevoegen
 
 ```java
 // Toegang tot de eerste dia
 ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
-Haal de eerste dia van de presentatie op waar u het cirkeldiagram wilt toevoegen.
+Selecteer de eerste dia van de presentatie waaraan u het cirkeldiagram wilt toevoegen.
 
 ## Stap 4: Voeg een cirkeldiagram toe
 
@@ -61,31 +63,31 @@ IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 
 Voeg een cirkeldiagram toe aan de dia op de opgegeven positie en grootte.
 
-## Stap 5: Stel de diagramtitel in
+## Stap 5: Stel de grafiektitel in
 
 ```java
-// Diagramtitel instellen
+// Titel van grafiek instellen
 chart.getChartTitle().addTextFrameForOverriding("Sample Title");
 chart.getChartTitle().getTextFrameForOverriding().getTextFrameFormat().setCenterText(NullableBool.True);
 chart.getChartTitle().setHeight(20);
 chart.setTitle(true);
 ```
 
-Stel een titel in voor het cirkeldiagram. U kunt de titel indien nodig aanpassen.
+Geef een titel op voor het cirkeldiagram. U kunt de titel naar wens aanpassen.
 
 ## Stap 6: Grafiekgegevens aanpassen
 
 ```java
-//Stel de eerste reeks in om waarden weer te geven
+// Stel de eerste reeks in om waarden weer te geven
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 
-// Instellen van de index van het kaartgegevensblad
+// De index van het grafiekgegevensblad instellen
 int defaultWorksheetIndex = 0;
 
-// Het werkblad met diagramgegevens ophalen
+// Het werkblad met grafiekgegevens ophalen
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
-// Verwijder standaard gegenereerde series en categorieën
+// Standaard gegenereerde series en categorieën verwijderen
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 
@@ -94,18 +96,18 @@ chart.getChartData().getCategories().add(workbook.getCell(0, 1, 0, "First Qtr"))
 chart.getChartData().getCategories().add(workbook.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(workbook.getCell(0, 3, 0, "3rd Qtr"));
 
-// Nieuwe serie toevoegen
+// Nieuwe series toevoegen
 IChartSeries series = chart.getChartData().getSeries().add(workbook.getCell(0, 0, 1, "Series 1"), chart.getType());
 
-// Reeksgegevens invullen
+// Het vullen van reeksgegevens
 series.getDataPoints().addDataPointForPieSeries(workbook.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(workbook.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(workbook.getCell(defaultWorksheetIndex, 3, 1, 30));
 ```
 
-Pas de diagramgegevens aan door categorieën en reeksen toe te voegen en hun waarden in te stellen. In dit voorbeeld hebben we drie categorieën en één reeks met bijbehorende gegevenspunten.
+Pas de grafiekgegevens aan door categorieën en reeksen toe te voegen en hun waarden in te stellen. In dit voorbeeld hebben we drie categorieën en één reeks met bijbehorende datapunten.
 
-## Stap 7: Pas cirkeldiagramsectoren aan
+## Stap 7: Sectoren van cirkeldiagrammen aanpassen
 
 ```java
 // Sectorkleuren instellen
@@ -115,7 +117,7 @@ chart.getChartData().getSeriesGroups().get_Item(0).setColorVaried(true);
 IChartDataPoint point1 = series.getDataPoints().get_Item(0);
 point1.getFormat().getFill().setFillType(FillType.Solid);
 point1.getFormat().getFill().getSolidFillColor().setColor(new Color(PresetColor.Cyan));
-// Pas de sectorrand aan
+// Sectorgrens aanpassen
 point1.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 point1.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.GRAY);
 point1.getFormat().getLine().setWidth(3.0);
@@ -130,32 +132,32 @@ Pas het uiterlijk van elke sector in het cirkeldiagram aan. U kunt de kleuren, r
 ## Stap 8: Gegevenslabels aanpassen
 
 ```java
-// Pas gegevenslabels aan
+// Gegevenslabels aanpassen
 IDataLabel lbl1 = series.getDataPoints().get_Item(0).getLabel();
 lbl1.getDataLabelFormat().setShowValue(true);
 
-// Pas gegevenslabels voor andere gegevenspunten op een vergelijkbare manier aan
+// Pas op een vergelijkbare manier gegevenslabels aan voor andere datapunten
 ```
 
-Pas gegevenslabels aan voor elk gegevenspunt in het cirkeldiagram. U kunt bepalen welke waarden in het diagram worden weergegeven.
+Pas de gegevenslabels voor elk gegevenspunt in het cirkeldiagram aan. U kunt bepalen welke waarden in het diagram worden weergegeven.
 
-## Stap 9: Toon aanhaallijnen
+## Stap 9: Toon leiderlijnen
 
 ```java
-// Toon aanhaallijnen voor het diagram
+// Toon leiderlijnen voor de grafiek
 series.getLabels().getDefaultDataLabelFormat().setShowLeaderLines(true);
 ```
 
-Schakel aanlooplijnen in om gegevenslabels te verbinden met de overeenkomstige sectoren.
+Schakel leiderlijnen in om gegevenslabels te verbinden met de bijbehorende sectoren.
 
 ## Stap 10: Stel de rotatiehoek van het cirkeldiagram in
 
 ```java
-// Stel de rotatiehoek voor cirkeldiagramsectoren in
+// Stel de rotatiehoek in voor cirkeldiagramsectoren
 chart.getChartData().getSeriesGroups().get_Item(0).setFirstSliceAngle(180);
 ```
 
-Stel de rotatiehoek in voor de cirkeldiagramsectoren. In dit voorbeeld stellen we deze in op 180 graden.
+Stel de rotatiehoek voor de cirkeldiagramsectoren in. In dit voorbeeld stellen we deze in op 180 graden.
 
 ## Stap 11: Sla de presentatie op
 
@@ -171,39 +173,39 @@ Sla de presentatie met het cirkeldiagram op in de opgegeven map.
 ```java
 // Het pad naar de documentenmap.
 String dataDir = "Your Document Directory";
-// Instantieer de presentatieklasse die het PPTX-bestand vertegenwoordigt
+// Instantieer presentatieklasse die PPTX-bestand vertegenwoordigt
 Presentation presentation = new Presentation();
-// Toegang tot de eerste dia
+// Toegang tot eerste dia
 ISlide slides = presentation.getSlides().get_Item(0);
-// Diagram met standaardgegevens toevoegen
+// Grafiek toevoegen met standaardgegevens
 IChart chart = slides.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
-// Instelschema Titel
+// Titel van de instellingsgrafiek
 chart.getChartTitle().addTextFrameForOverriding("Sample Title");
 chart.getChartTitle().getTextFrameForOverriding().getTextFrameFormat().setCenterText(NullableBool.True);
 chart.getChartTitle().setHeight(20);
 chart.setTitle(true);
-// Stel de eerste reeks in op Waarden tonen
+// Stel de eerste reeks in op Waarden weergeven
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
-// De index van het kaartgegevensblad instellen
+// De index van het grafiekgegevensblad instellen
 int defaultWorksheetIndex = 0;
-// Het werkblad met diagramgegevens ophalen
+// Het werkblad met grafiekgegevens ophalen
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
-// Verwijder standaard gegenereerde series en categorieën
+// Standaard gegenereerde series en categorieën verwijderen
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 // Nieuwe categorieën toevoegen
 chart.getChartData().getCategories().add(fact.getCell(0, 1, 0, "First Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
-// Nieuwe serie toevoegen
+// Nieuwe series toevoegen
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-// Vult nu seriegegevens in
+// Nu worden reeksgegevens ingevuld
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 // Werkt niet in nieuwe versie
 // Nieuwe punten toevoegen en sectorkleur instellen
-// series.IsColorVaried = waar;
+// serie.IsColorVaried = true;
 chart.getChartData().getSeriesGroups().get_Item(0).setColorVaried(true);
 IChartDataPoint point = series.getDataPoints().get_Item(0);
 point.getFormat().getFill().setFillType(FillType.Solid);
@@ -232,9 +234,9 @@ point2.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.
 point2.getFormat().getLine().setWidth(2.0);
 point2.getFormat().getLine().setStyle(LineStyle.ThinThin);
 point2.getFormat().getLine().setDashStyle(LineDashStyle.LargeDashDotDot);
-// Maak aangepaste labels voor elk van de categorieën voor nieuwe series
+// Maak aangepaste labels voor elke categorie voor nieuwe series
 IDataLabel lbl1 = series.getDataPoints().get_Item(0).getLabel();
-// lbl.setShowCategoryName(waar);
+// lbl.setShowCategoryName(true);
 lbl1.getDataLabelFormat().setShowValue(true);
 IDataLabel lbl2 = series.getDataPoints().get_Item(1).getLabel();
 lbl2.getDataLabelFormat().setShowValue(true);
@@ -243,55 +245,57 @@ lbl2.getDataLabelFormat().setShowPercentage(true);
 IDataLabel lbl3 = series.getDataPoints().get_Item(2).getLabel();
 lbl3.getDataLabelFormat().setShowSeriesName(true);
 lbl3.getDataLabelFormat().setShowPercentage(true);
-// Toont aanhaallijnen voor diagram
+// Leiderlijnen voor grafiek weergeven
 series.getLabels().getDefaultDataLabelFormat().setShowLeaderLines(true);
-// Rotatiehoek voor cirkeldiagramsectoren instellen
+// Rotatiehoek instellen voor cirkeldiagramsectoren
 chart.getChartData().getSeriesGroups().get_Item(0).setFirstSliceAngle(180);
-// Presentatie opslaan met grafiek
+// Presentatie met grafiek opslaan
 presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 ```
 
 ## Conclusie
 
-hebt met succes een cirkeldiagram gemaakt in een PowerPoint-presentatie met Aspose.Slides voor Java. U kunt het uiterlijk en de gegevenslabels van het diagram aanpassen aan uw specifieke vereisten. Deze zelfstudie geeft een basisvoorbeeld en u kunt uw diagrammen indien nodig verder verbeteren en aanpassen.
+U hebt met succes een cirkeldiagram gemaakt in een PowerPoint-presentatie met Aspose.Slides voor Java. U kunt het uiterlijk en de gegevenslabels van het diagram aanpassen aan uw specifieke wensen. Deze tutorial geeft een eenvoudig voorbeeld; u kunt uw diagrammen naar wens verder verbeteren en aanpassen.
 
 ## Veelgestelde vragen
 
-### Hoe kan ik de kleuren van individuele sectoren in het cirkeldiagram wijzigen?
+### Hoe kan ik de kleuren van afzonderlijke sectoren in het cirkeldiagram wijzigen?
 
- Als u de kleuren van afzonderlijke sectoren in het cirkeldiagram wilt wijzigen, kunt u de vulkleur voor elk gegevenspunt aanpassen. In het meegeleverde codevoorbeeld hebben we gedemonstreerd hoe u de vulkleur voor elke sector kunt instellen met behulp van de`getSolidFillColor().setColor()` methode. U kunt de kleurwaarden wijzigen om het gewenste uiterlijk te bereiken.
+Om de kleuren van individuele sectoren in het cirkeldiagram te wijzigen, kunt u de opvulkleur voor elk gegevenspunt aanpassen. In het meegeleverde codevoorbeeld laten we zien hoe u de opvulkleur voor elke sector instelt met behulp van de `getSolidFillColor().setColor()` methode. U kunt de kleurwaarden wijzigen om het gewenste uiterlijk te bereiken.
 
 ### Kan ik meer categorieën en gegevensreeksen toevoegen aan het cirkeldiagram?
 
- Ja, u kunt extra categorieën en gegevensreeksen toevoegen aan het cirkeldiagram. Om dit te doen, kunt u gebruik maken van de`getChartData().getCategories().add()` En`getChartData().getSeries().add()` methoden, zoals weergegeven in het voorbeeld. Geef eenvoudigweg de juiste gegevens en labels op voor de nieuwe categorieën en series om uw diagram uit te breiden.
+Ja, u kunt extra categorieën en gegevensreeksen toevoegen aan de cirkeldiagram. Hiervoor kunt u de `getChartData().getCategories().add()` En `getChartData().getSeries().add()` Methoden, zoals weergegeven in het voorbeeld. Geef eenvoudig de juiste gegevens en labels op voor de nieuwe categorieën en reeksen om uw grafiek uit te breiden.
 
 ### Hoe pas ik het uiterlijk van gegevenslabels aan?
 
- U kunt het uiterlijk van gegevenslabels aanpassen met behulp van de`getDataLabelFormat()` methode op het label van elk gegevenspunt. In het voorbeeld hebben we gedemonstreerd hoe u de waarde op gegevenslabels kunt weergeven met behulp van`getDataLabelFormat().setShowValue(true)`. U kunt gegevenslabels verder aanpassen door te bepalen welke waarden worden weergegeven, legendasleutels weer te geven en andere opmaakopties aan te passen.
+U kunt het uiterlijk van gegevenslabels aanpassen met behulp van de `getDataLabelFormat()` methode op het label van elk datapunt. In het voorbeeld hebben we laten zien hoe je de waarde op datalabels kunt weergeven met behulp van `getDataLabelFormat().setShowValue(true)`U kunt gegevenslabels verder aanpassen door te bepalen welke waarden worden weergegeven, legendasleutels weer te geven en andere opmaakopties aan te passen.
 
 ### Kan ik de titel van het cirkeldiagram wijzigen?
 
- Ja, u kunt de titel van het cirkeldiagram wijzigen. In de meegeleverde code stellen we de diagramtitel in met behulp van`chart.getChartTitle().addTextFrameForOverriding("Sample Title")` . Je kunt vervangen`"Sample Title"` met uw gewenste titeltekst.
+Ja, u kunt de titel van het cirkeldiagram wijzigen. In de meegeleverde code stellen we de titel van het diagram in met `chart.getChartTitle().addTextFrameForOverriding("Sample Title")`. Je kunt vervangen `"Sample Title"` met de gewenste titeltekst.
 
 ### Hoe sla ik de gegenereerde presentatie met het cirkeldiagram op?
 
- Om de presentatie met het cirkeldiagram op te slaan, gebruikt u de`presentation.save()` methode. Geef het gewenste bestandspad en de gewenste naam op, samen met het formaat waarin u de presentatie wilt opslaan. Bijvoorbeeld:
+Om de presentatie met het cirkeldiagram op te slaan, gebruikt u de `presentation.save()` Methode. Geef het gewenste bestandspad en de gewenste bestandsnaam op, samen met het formaat waarin u de presentatie wilt opslaan. Bijvoorbeeld:
 ```java
 presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 ```
 
 Zorg ervoor dat u het juiste bestandspad en de juiste indeling opgeeft.
 
-### Kan ik andere typen diagrammen maken met Aspose.Slides voor Java?
+### Kan ik andere soorten grafieken maken met Aspose.Slides voor Java?
 
-Ja, Aspose.Slides voor Java ondersteunt verschillende diagramtypen, waaronder staafdiagrammen, lijndiagrammen en meer. U kunt verschillende typen diagrammen maken door de`ChartType` bij het toevoegen van een diagram. Raadpleeg de Aspose.Slides-documentatie voor meer informatie over het maken van verschillende soorten diagrammen.
+Ja, Aspose.Slides voor Java ondersteunt verschillende grafiektypen, waaronder staafdiagrammen, lijndiagrammen en meer. U kunt verschillende soorten grafieken maken door de `ChartType` Bij het toevoegen van een grafiek. Raadpleeg de Aspose.Slides-documentatie voor meer informatie over het maken van verschillende typen grafieken.
 
-### Hoe kan ik meer informatie en voorbeelden vinden voor het werken met Aspose.Slides voor Java?
+### Waar kan ik meer informatie en voorbeelden vinden over het werken met Aspose.Slides voor Java?
 
- Voor meer informatie, gedetailleerde documentatie en aanvullende voorbeelden kunt u terecht op de website[Aspose.Slides voor Java-documentatie](https://reference.aspose.com/slides/java/). Het biedt uitgebreide hulpmiddelen waarmee u de bibliotheek effectief kunt gebruiken.
+Voor meer informatie, gedetailleerde documentatie en extra voorbeelden kunt u terecht op de [Aspose.Slides voor Java-documentatie](https://reference.aspose.com/slides/java/)Het biedt uitgebreide bronnen om u te helpen de bibliotheek effectief te gebruiken.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

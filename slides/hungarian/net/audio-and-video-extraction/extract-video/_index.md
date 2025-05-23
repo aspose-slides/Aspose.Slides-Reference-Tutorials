@@ -1,32 +1,34 @@
 ---
-title: Videó kibontása a diából az Aspose.Slides segítségével .NET-hez
-linktitle: Videó kibontása a diából
-second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Ismerje meg, hogyan bonthat ki videókat a PowerPoint diákból az Aspose.Slides for .NET segítségével. Ez a lépésenkénti útmutató leegyszerűsíti a folyamatot az Ön számára.
-weight: 14
-url: /hu/net/audio-and-video-extraction/extract-video/
+"description": "Tanuld meg, hogyan nyerhetsz ki videókat PowerPoint diákból az Aspose.Slides for .NET segítségével. Ez a lépésről lépésre szóló útmutató leegyszerűsíti a folyamatot."
+"linktitle": "Videó kivonása diáról"
+"second_title": "Aspose.Slides .NET PowerPoint feldolgozási API"
+"title": "Hogyan lehet videót kinyerni diából az Aspose.Slides for .NET használatával"
+"url": "/hu/net/audio-and-video-extraction/extract-video/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Videó kibontása a diából az Aspose.Slides segítségével .NET-hez
+# Hogyan lehet videót kinyerni diából az Aspose.Slides for .NET használatával
 
 
-Az Aspose.Slides for .NET egy hatékony könyvtár, amely lehetővé teszi a PowerPoint prezentációk kezelését .NET környezetben. Az egyik hasznos funkció, amelyet kínál, az a képesség, hogy videókat kinyerhet a diákból. Ebben a lépésről lépésre bemutatjuk, hogyan bonthat ki videót egy PowerPoint diából az Aspose.Slides for .NET segítségével.
+Az Aspose.Slides for .NET egy hatékony könyvtár, amely lehetővé teszi PowerPoint prezentációkkal való munkát .NET környezetben. Az egyik hasznos funkciója a videók kinyerésének lehetősége diákból. Ebben a lépésről lépésre bemutatjuk, hogyan kinyerhet videót egy PowerPoint diából az Aspose.Slides for .NET segítségével.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételeket teljesítette:
+Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 
--  Aspose.Slides for .NET: telepítenie kell az Aspose.Slides for .NET-et. Beszerezheti a[weboldal](https://purchase.aspose.com/buy).
+- Aspose.Slides .NET-hez: Telepítenie kell az Aspose.Slides .NET-hez készült programot. Letöltheti a következő helyről: [weboldal](https://purchase.aspose.com/buy).
 
-- PowerPoint-prezentáció: Készítsen PowerPoint-prezentációt (pl. Video.pptx), amely tartalmazza a kicsomagolni kívánt videót.
+- PowerPoint bemutató: Készítsen egy PowerPoint bemutatót (pl. Video.pptx), amely tartalmazza a kiemelni kívánt videót.
 
 ## Névterek importálása
 
-Az Aspose.Slides for .NET használatához importálnia kell a szükséges névtereket. A következőképpen teheti meg:
+Importálnod kell a szükséges névtereket az Aspose.Slides for .NET használatához. Így teheted meg:
 
 ```csharp
 using Aspose.Slides;
@@ -41,7 +43,7 @@ Most bontsuk le több lépésre a videó diából való kinyerésének folyamat�
 string dataDir = "Your Document Directory";
 ```
 
- Cserélje ki`"Your Document Directory"` annak a könyvtárnak az elérési útjával, ahol a PowerPoint bemutató található.
+Csere `"Your Document Directory"` a PowerPoint-bemutató könyvtárának elérési útjával.
 
 ## 2. lépés: Töltse be a prezentációt
 
@@ -49,9 +51,9 @@ string dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "Video.pptx");
 ```
 
-Ez a kód inicializál egy prezentációs objektumot, amely a PowerPoint bemutatófájlt képviseli.
+Ez a kód inicializál egy Presentation objektumot, amely a PowerPoint bemutatófájlt képviseli.
 
-## 3. lépés: Iteráció diákon és alakzatokon keresztül
+## 3. lépés: Diák és alakzatok ismétlése
 
 ```csharp
 foreach (ISlide slide in presentation.Slides)
@@ -60,9 +62,9 @@ foreach (ISlide slide in presentation.Slides)
     {
 ```
 
-Itt végigpörgetjük a prezentáció egyes diáit, majd ismételgetjük az első diában lévő alakzatokat (szükség szerint módosítjuk).
+Itt végigmegyünk a prezentáció minden diáján, majd végigmegyünk az első dia alakzatain (szükség szerint módosítjuk).
 
-## 4. lépés: Ellenőrizze, hogy az alakzat videokeret-e
+## 4. lépés: Ellenőrizze, hogy az alakzat videoképkocka-e
 
 ```csharp
 if (shape is VideoFrame)
@@ -71,9 +73,9 @@ if (shape is VideoFrame)
     String type = vf.EmbeddedVideo.ContentType;
 ```
 
-Ez a lépés ellenőrzi, hogy a dián lévő alakzat-e videokocka.
+Ez a lépés azt ellenőrzi, hogy a dián lévő alakzat egy videoképkocka-e.
 
-## 5. lépés: Videoadatok kibontása
+## 5. lépés: Videóadatok kinyerése
 
 ```csharp
 int ss = type.LastIndexOf('/');
@@ -81,7 +83,7 @@ type = type.Remove(0, type.LastIndexOf('/') + 1);
 Byte[] buffer = vf.EmbeddedVideo.BinaryData;
 ```
 
-Ez a kód információkat nyer ki a videóról, beleértve a tartalomtípust és a bináris adatokat.
+Ez a kód információkat nyer ki a videóról, beleértve a tartalom típusát és a bináris adatokat.
 
 ## 6. lépés: Mentse el a videót
 
@@ -92,33 +94,35 @@ using (FileStream stream = new FileStream(dataDir + "NewVideo_out." + type, File
 }
 ```
 
-Végül ez a lépés a videót egy új fájlba menti a megadott könyvtárban.
+Végül ez a lépés egy új fájlba menti a videót a megadott könyvtárban.
 
-Miután elvégezte ezeket a lépéseket, az Aspose.Slides for .NET segítségével sikeresen kibontja a videót egy PowerPoint diáról.
+Miután elvégezte ezeket a lépéseket, sikeresen kinyert egy videót egy PowerPoint diából az Aspose.Slides for .NET segítségével.
 
 ## Következtetés
 
-Az Aspose.Slides for .NET leegyszerűsíti a PowerPoint-prezentációkkal való munkafolyamatot, lehetővé téve olyan feladatok elvégzését, mint például a videók diákból való kinyerése. Ha követi ezt a lépésenkénti útmutatót, és használja az Aspose.Slides könyvtárat, .NET-alkalmazásait hatékony PowerPoint funkciókkal bővítheti.
+Az Aspose.Slides for .NET leegyszerűsíti a PowerPoint-bemutatókkal való munkát, lehetővé téve olyan feladatok egyszerű elvégzését, mint például a videók kinyerése diákból. A lépésről lépésre útmutató követésével és az Aspose.Slides könyvtár használatával hatékony PowerPoint-funkciókkal bővítheti .NET-alkalmazásait.
 
 ## Gyakran Ismételt Kérdések (GYIK)
 
-### Mi az Aspose.Slides for .NET?
-Az Aspose.Slides for .NET egy olyan könyvtár, amely lehetővé teszi a .NET-alkalmazások számára a PowerPoint-bemutatókkal való együttműködést, beleértve a tartalom létrehozását, szerkesztését és kibontását.
+### Mi az Aspose.Slides .NET-hez?
+Az Aspose.Slides for .NET egy olyan függvénytár, amely lehetővé teszi a .NET alkalmazások számára a PowerPoint-bemutatók kezelését, beleértve a tartalom létrehozását, szerkesztését és kinyerését.
 
 ### Hol találom az Aspose.Slides for .NET dokumentációját?
- A dokumentációt megtalálod[itt](https://reference.aspose.com/slides/net/).
+A dokumentációt megtalálod [itt](https://reference.aspose.com/slides/net/).
 
-### Az Aspose.Slides for .NET elérhető ingyenes próbaverzióra?
- Igen, ingyenes próbaverziót szerezhet be a webhelyről[itt](https://releases.aspose.com/).
+### Ingyenes próbaverzióként elérhető az Aspose.Slides for .NET?
+Igen, letölthet egy ingyenes próbaverziót innen [itt](https://releases.aspose.com/).
 
-### Hogyan szerezhetek ideiglenes licencet az Aspose.Slides for .NET számára?
- Ideiglenes jogosítványt kérhetsz[ez a link](https://purchase.aspose.com/temporary-license/).
+### Hogyan szerezhetek ideiglenes licencet az Aspose.Slides for .NET-hez?
+Ideiglenes engedélyt kérhetsz a [ez a link](https://purchase.aspose.com/temporary-license/).
 
 ### Hol kaphatok támogatást az Aspose.Slides for .NET-hez?
- Támogatást találhat a[Aspose.Slides fórum](https://forum.aspose.com/).
+Támogatást találhatsz a [Aspose.Slides fórum](https://forum.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

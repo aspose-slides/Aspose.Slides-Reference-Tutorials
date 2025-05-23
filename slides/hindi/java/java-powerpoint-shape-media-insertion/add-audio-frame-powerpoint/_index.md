@@ -1,14 +1,16 @@
 ---
-title: PowerPoint में ऑडियो फ़्रेम जोड़ें
-linktitle: PowerPoint में ऑडियो फ़्रेम जोड़ें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में ऑडियो फ़्रेम जोड़ना सीखें। आकर्षक ऑडियो तत्वों के साथ अपनी प्रस्तुतियों को सहजता से बेहतर बनाएँ।
-weight: 12
-url: /hi/java/java-powerpoint-shape-media-insertion/add-audio-frame-powerpoint/
+"description": "Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में ऑडियो फ़्रेम जोड़ना सीखें। आकर्षक ऑडियो तत्वों के साथ अपनी प्रस्तुतियों को सहजता से बेहतर बनाएँ।"
+"linktitle": "PowerPoint में ऑडियो फ़्रेम जोड़ें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "PowerPoint में ऑडियो फ़्रेम जोड़ें"
+"url": "/hi/java/java-powerpoint-shape-media-insertion/add-audio-frame-powerpoint/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PowerPoint में ऑडियो फ़्रेम जोड़ें
@@ -18,7 +20,7 @@ url: /hi/java/java-powerpoint-shape-media-insertion/add-audio-frame-powerpoint/
 ## आवश्यक शर्तें
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 1. जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपके सिस्टम पर जावा स्थापित है।
-2.  Aspose.Slides for Java लाइब्रेरी: Aspose.Slides for Java लाइब्रेरी डाउनलोड करें और इंस्टॉल करें। आप इसे यहाँ से डाउनलोड कर सकते हैं[Aspose.Slides for Java दस्तावेज़](https://reference.aspose.com/slides/java/).
+2. Aspose.Slides for Java लाइब्रेरी: Aspose.Slides for Java लाइब्रेरी डाउनलोड करें और इंस्टॉल करें। आप इसे यहाँ से डाउनलोड कर सकते हैं [Aspose.Slides for Java दस्तावेज़](https://reference.aspose.com/slides/java/).
 3. ऑडियो फ़ाइल: वह ऑडियो फ़ाइल (जैसे, WAV प्रारूप) तैयार करें जिसे आप अपनी प्रस्तुति में जोड़ना चाहते हैं।
 ## पैकेज आयात करें
 अपने जावा प्रोजेक्ट में आवश्यक पैकेज आयात करें:
@@ -38,7 +40,7 @@ if (!isExists)
     new File(dataDir).mkdirs();
 ```
 ## चरण 2: प्रेजेंटेशन क्लास को इंस्टैंशिएट करें
- उदाहरण प्रस्तुत करें`Presentation` पावरपॉइंट प्रेजेंटेशन को दर्शाने के लिए क्लास का उपयोग करें।
+उदाहरण प्रस्तुत करें `Presentation` पावरपॉइंट प्रेजेंटेशन को दर्शाने के लिए क्लास का उपयोग करें।
 ```java
 Presentation pres = new Presentation();
 ```
@@ -61,7 +63,7 @@ audioFrame.setRewindAudio(true);
 audioFrame.setPlayMode(AudioPlayModePreset.Auto);
 audioFrame.setVolume(AudioVolumeMode.Loud);
 ```
-## चरण 6: प्रेजेंटेशन सहेजें
+## चरण 6: प्रस्तुति सहेजें
 संशोधित प्रस्तुति को जोड़े गए ऑडियो फ्रेम के साथ सहेजें।
 ```java
 pres.save(dataDir + "AudioFrameEmbed_out.pptx", SaveFormat.Pptx);
@@ -75,15 +77,17 @@ pres.save(dataDir + "AudioFrameEmbed_out.pptx", SaveFormat.Pptx);
 हां, Aspose.Slides for Java विभिन्न ऑडियो प्रारूपों का समर्थन करता है, जिसमें WAV, MP3 और अन्य शामिल हैं।
 ### क्या स्लाइडों में ऑडियो प्लेबैक का समय समायोजित करना संभव है?
 बिल्कुल। आप Aspose.Slides for Java का उपयोग करके ऑडियो प्लेबैक को विशिष्ट स्लाइड ट्रांज़िशन के साथ सिंक्रनाइज़ कर सकते हैं।
-### क्या Java के लिए Aspose.Slides क्रॉस-प्लेटफॉर्म संगतता के लिए समर्थन प्रदान करता है?
+### क्या Aspose.Slides for Java क्रॉस-प्लेटफॉर्म संगतता के लिए समर्थन प्रदान करता है?
 हां, आप एम्बेडेड ऑडियो फ्रेम के साथ पावरपॉइंट प्रस्तुतियां बना सकते हैं जो विभिन्न प्लेटफार्मों पर संगत हैं।
 ### क्या मैं प्रस्तुति में ऑडियो प्लेयर के स्वरूप को अनुकूलित कर सकता हूँ?
 Aspose.Slides for Java व्यापक अनुकूलन विकल्प प्रदान करता है, जिससे आप ऑडियो प्लेयर के स्वरूप को अपनी पसंद के अनुसार ढाल सकते हैं।
 ### क्या Java के लिए Aspose.Slides का कोई परीक्षण संस्करण उपलब्ध है?
- हां, आप उनके यहां से Aspose.Slides for Java का निःशुल्क परीक्षण प्राप्त कर सकते हैं[वेबसाइट](https://releases.aspose.com/).
+हां, आप उनके यहां से Aspose.Slides for Java का निःशुल्क परीक्षण प्राप्त कर सकते हैं [वेबसाइट](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

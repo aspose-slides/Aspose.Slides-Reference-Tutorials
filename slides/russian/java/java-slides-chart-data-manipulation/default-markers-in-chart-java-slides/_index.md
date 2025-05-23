@@ -1,30 +1,32 @@
 ---
-title: Маркеры по умолчанию на диаграмме в слайдах Java
-linktitle: Маркеры по умолчанию на диаграмме в слайдах Java
-second_title: Aspose.Slides API обработки Java PowerPoint
-description: Узнайте, как создавать слайды Java с маркерами по умолчанию на диаграммах с помощью Aspose.Slides для Java. Пошаговое руководство с исходным кодом.
-weight: 16
-url: /ru/java/chart-data-manipulation/default-markers-in-chart-java-slides/
+"description": "Узнайте, как создавать Java Slides с маркерами по умолчанию в диаграммах с помощью Aspose.Slides для Java. Пошаговое руководство с исходным кодом."
+"linktitle": "Маркеры по умолчанию в диаграмме в Java Slides"
+"second_title": "API обработки Java PowerPoint Aspose.Slides"
+"title": "Маркеры по умолчанию в диаграмме в Java Slides"
+"url": "/ru/java/chart-data-manipulation/default-markers-in-chart-java-slides/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Маркеры по умолчанию на диаграмме в слайдах Java
+# Маркеры по умолчанию в диаграмме в Java Slides
 
 
-## Введение в маркеры по умолчанию в диаграмме в слайдах Java
+## Введение в маркеры по умолчанию в диаграммах в Java Slides
 
-В этом уроке мы рассмотрим, как создать диаграмму с маркерами по умолчанию, используя Aspose.Slides для Java. Маркеры по умолчанию — это символы или фигуры, добавляемые к точкам данных на диаграмме для их выделения. Мы создадим линейную диаграмму с маркерами для визуализации данных.
+В этом уроке мы рассмотрим, как создать диаграмму с маркерами по умолчанию с помощью Aspose.Slides для Java. Маркеры по умолчанию — это символы или фигуры, добавляемые к точкам данных на диаграмме для их выделения. Мы создадим линейную диаграмму с маркерами для визуализации данных.
 
-## Предварительные условия
+## Предпосылки
 
-Прежде чем начать, убедитесь, что у вас установлена и настроена библиотека Aspose.Slides for Java в вашем Java-проекте.
+Прежде чем начать, убедитесь, что в вашем проекте Java установлена и настроена библиотека Aspose.Slides for Java.
 
-## Шаг 1. Создайте презентацию
+## Шаг 1: Создайте презентацию
 
-Для начала давайте создадим презентацию и добавим в нее слайд. Затем мы добавим диаграмму на слайд.
+Сначала создадим презентацию и добавим в нее слайд. Затем добавим на слайд диаграмму.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -32,9 +34,9 @@ Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
 ```
 
-## Шаг 2. Добавьте линейный график с маркерами
+## Шаг 2: Добавьте линейную диаграмму с маркерами
 
-Теперь давайте добавим на слайд линейную диаграмму с маркерами. Мы также удалим из диаграммы все данные по умолчанию.
+Теперь добавим на слайд линейную диаграмму с маркерами. Также удалим все данные по умолчанию из диаграммы.
 
 ```java
 IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 10, 10, 400, 400);
@@ -42,9 +44,9 @@ chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 ```
 
-## Шаг 3. Заполнение данных диаграммы
+## Шаг 3: Заполнение диаграммы данными
 
-Мы заполним диаграмму примерами данных. В этом примере мы создадим две серии с точками данных и категориями.
+Заполним диаграмму образцами данных. В этом примере мы создадим две серии с точками данных и категориями.
 
 ```java
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
@@ -65,33 +67,33 @@ series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 4, 1, null));
 chart.getChartData().getSeries().add(fact.getCell(0, 0, 2, "Series 2"));
 IChartSeries series2 = chart.getChartData().getSeries().get_Item(1);
 
-// Заполнение данных серии
+// Заполнение рядов данных
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 1, 2, 30));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 2, 2, 10));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 3, 2, 60));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 4, 2, 40));
 ```
 
-## Шаг 4. Настройте диаграмму
+## Шаг 4: Настройте диаграмму
 
-Вы можете дополнительно настроить диаграмму, например добавить легенду и настроить ее внешний вид.
+Вы можете дополнительно настроить диаграмму, например, добавить легенду и изменить ее внешний вид.
 
 ```java
 chart.setLegend(true);
 chart.getLegend().setOverlay(false);
 ```
 
-## Шаг 5. Сохраните презентацию
+## Шаг 5: Сохраните презентацию
 
-Наконец, сохраните презентацию с диаграммой в нужном месте.
+Наконец, сохраните презентацию с диаграммой в желаемом месте.
 
 ```java
 pres.save(dataDir + "DefaultMarkersInChart.pptx", SaveFormat.Pptx);
 ```
 
-Вот и все! Вы создали линейную диаграмму с маркерами по умолчанию, используя Aspose.Slides для Java.
+Вот и все! Вы создали линейную диаграмму с маркерами по умолчанию с помощью Aspose.Slides для Java.
 
-## Полный исходный код для маркеров по умолчанию в диаграмме в слайдах Java
+## Полный исходный код для маркеров по умолчанию в диаграммах в Java Slides
 
 ```java
         // Путь к каталогу документов.
@@ -117,7 +119,7 @@ pres.save(dataDir + "DefaultMarkersInChart.pptx", SaveFormat.Pptx);
             chart.getChartData().getSeries().add(fact.getCell(0, 0, 2, "Series 2"), chart.getType());
             //Возьмите вторую серию диаграмм
             IChartSeries series2 = chart.getChartData().getSeries().get_Item(1);
-            //Теперь заполняем данные серии
+            //Сейчас заполняем данные серий
             series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 1, 2, 30));
             series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 2, 2, 10));
             series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 3, 2, 60));
@@ -133,24 +135,26 @@ pres.save(dataDir + "DefaultMarkersInChart.pptx", SaveFormat.Pptx);
 ```
 ## Заключение
 
-В этом подробном руководстве вы узнали, как создавать слайды Java с маркерами по умолчанию на диаграммах, используя Aspose.Slides для Java. Мы рассмотрели весь процесс: от настройки презентации до настройки внешнего вида диаграммы и сохранения результата.
+В этом всеобъемлющем руководстве вы узнали, как создавать Java Slides с маркерами по умолчанию в диаграммах с помощью Aspose.Slides для Java. Мы рассмотрели весь процесс, от настройки презентации до настройки внешнего вида диаграммы и сохранения результата.
 
 ## Часто задаваемые вопросы
 
-### Как изменить символы маркеров?
+### Как изменить символы маркера?
 
-Вы можете настроить символы маркеров, задав стиль маркера для каждой точки данных. Использовать`IDataPoint.setMarkerStyle()` чтобы изменить символ маркера.
+Вы можете настроить символы маркера, установив стиль маркера для каждой точки данных. Используйте `IDataPoint.setMarkerStyle()` для изменения символа маркера.
 
 ### Как настроить цвета диаграммы?
 
- Чтобы изменить цвета диаграммы, вы можете использовать`IChartSeriesFormat` и`IShapeFillFormat` интерфейсы для установки свойств заливки и линии.
+Чтобы изменить цвета диаграммы, вы можете использовать `IChartSeriesFormat` и `IShapeFillFormat` интерфейсы для настройки свойств заливки и линий.
 
 ### Могу ли я добавлять метки к точкам данных?
 
- Да, вы можете добавлять метки к точкам данных, используя`IDataPoint.getLabel()` метод и настройте их по мере необходимости.
+Да, вы можете добавлять метки к точкам данных с помощью `IDataPoint.getLabel()` метод и настройте их по мере необходимости.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

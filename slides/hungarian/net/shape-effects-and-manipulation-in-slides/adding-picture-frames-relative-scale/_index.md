@@ -1,78 +1,82 @@
 ---
-title: Képkeretek hozzáadása oktatóanyag az Aspose.Slides .NET segítségével
-linktitle: Képkeretek hozzáadása relatív léptékmagassággal az Aspose.Slides-ben
-second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Ismerje meg, hogyan adhat hozzá relatív méretarányú képkereteket az Aspose.Slides for .NET-hez. Kövesse ezt a lépésről lépésre szóló útmutatót a zökkenőmentes prezentációkhoz.
-weight: 17
-url: /hu/net/shape-effects-and-manipulation-in-slides/adding-picture-frames-relative-scale/
+"description": "Tanuld meg, hogyan adhatsz hozzá relatív méretarányú képkereteket az Aspose.Slides for .NET programban. Kövesd ezt a lépésről lépésre szóló útmutatót a zökkenőmentes prezentációkhoz."
+"linktitle": "Relatív méretarányú magasságú képkeretek hozzáadása az Aspose.Slides-ben"
+"second_title": "Aspose.Slides .NET PowerPoint feldolgozási API"
+"title": "Képkeretek hozzáadása oktatóanyag az Aspose.Slides .NET segítségével"
+"url": "/hu/net/shape-effects-and-manipulation-in-slides/adding-picture-frames-relative-scale/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Képkeretek hozzáadása oktatóanyag az Aspose.Slides .NET segítségével
 
 ## Bevezetés
-Az Aspose.Slides for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy .NET-alkalmazásaikban könnyedén hozzanak létre, kezeljenek és alakítsanak át PowerPoint-prezentációkat. Ebben az oktatóanyagban a relatív méretarányú képkeretek hozzáadásának folyamatát mutatjuk be az Aspose.Slides for .NET segítségével. Kövesse ezt a lépésenkénti útmutatót prezentációkészítési készségeinek fejlesztéséhez.
+Az Aspose.Slides for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy könnyedén létrehozzanak, szerkesztessenek és konvertáljanak PowerPoint prezentációkat .NET alkalmazásaikban. Ebben az oktatóanyagban elmerülünk a képkeretek relatív méretarányos magasságú hozzáadásának folyamatában az Aspose.Slides for .NET használatával. Kövesd ezt a lépésről lépésre haladó útmutatót, hogy fejleszd prezentációkészítési készségeidet.
 ## Előfeltételek
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik az alábbiakkal:
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következőkkel rendelkezünk:
 - C# programozási nyelv alapismerete.
 - Visual Studio vagy bármely más preferált C# fejlesztői környezet telepítve.
-- Aspose.Slides for .NET könyvtár hozzáadva a projekthez.
+- Az Aspose.Slides for .NET könyvtár hozzáadva a projektedhez.
 ## Névterek importálása
-Kezdje a szükséges névterek importálásával a C# kódba. Ez a lépés biztosítja, hogy hozzáférjen az Aspose.Slides könyvtár által biztosított osztályokhoz és funkciókhoz.
+Kezdd a szükséges névterek importálásával a C# kódodba. Ez a lépés biztosítja, hogy hozzáférj az Aspose.Slides könyvtár által biztosított osztályokhoz és funkciókhoz.
 ```csharp
 using System.Drawing;
 using Aspose.Slides.Export;
 using Aspose.Slides;
 ```
-## 1. lépés: Állítsa be projektjét
-Kezdje egy új C# projekt létrehozásával a kívánt fejlesztői környezetben. Ügyeljen arra, hogy az Aspose.Slides for .NET könyvtárat a projekthez adva hivatkozzon rá.
-## 2. lépés: Töltse be a bemutatót és a képet
+## 1. lépés: A projekt beállítása
+Kezdésként hozz létre egy új C# projektet a kívánt fejlesztői környezetben. Ne felejtsd el hozzáadni az Aspose.Slides for .NET könyvtárat a projektedhez a rá való hivatkozással.
+## 2. lépés: Prezentáció és kép betöltése
 ```csharp
 string dataDir = "Your Document Directory";
 using (Presentation presentation = new Presentation())
 {
-    //Kép betöltése a bemutató képgyűjteménybe adandó
+    // Kép betöltése a prezentációs képgyűjteményhez hozzáadandó képhez
     Image img = new Bitmap(dataDir + "aspose-logo.jpg");
     IPPImage image = presentation.Images.AddImage(img);
     // ...
 }
 ```
-Ebben a lépésben létrehozunk egy új prezentációs objektumot, és betöltjük azt a képet, amelyet hozzá szeretnénk adni a bemutatóhoz.
+Ebben a lépésben létrehozunk egy új prezentációs objektumot, és betöltjük a prezentációhoz hozzáadni kívánt képet.
 ## 3. lépés: Képkeret hozzáadása a diához
 ```csharp
 IPictureFrame pf = presentation.Slides[0].Shapes.AddPictureFrame(ShapeType.Rectangle, 50, 50, 100, 100, image);
 ```
-Most adjon hozzá egy képkeretet a bemutató első diájához. Igényeinek megfelelően állítsa be a paramétereket, például az alaktípust, a pozíciót és a méreteket.
-## 4. lépés: Állítsa be a skála relatív szélességét és magasságát
+Most adj hozzá egy képkeretet a prezentáció első diájához. Módosítsd a paramétereket, például az alakzat típusát, pozícióját és méreteit az igényeid szerint.
+## 4. lépés: Relatív méretarány szélességének és magasságának beállítása
 ```csharp
 pf.RelativeScaleHeight = 0.8f;
 pf.RelativeScaleWidth = 1.35f;
 ```
-Állítsa be a képkeret relatív skálamagasságát és szélességét a kívánt méretezési hatás eléréséhez.
-## 5. lépés: Mentse a bemutatót
+Állítsa be a képkeret relatív méretezési magasságát és szélességét a kívánt méretezési hatás eléréséhez.
+## 5. lépés: Prezentáció mentése
 ```csharp
 presentation.Save(dataDir + "Adding Picture Frame with Relative Scale_out.pptx", SaveFormat.Pptx);
 ```
-Végül mentse el a prezentációt a hozzáadott képkerettel a megadott kimeneti formátumban.
+Végül mentse el a hozzáadott képkerettel ellátott prezentációt a megadott kimeneti formátumban.
 ## Következtetés
-Gratulálunk! Sikeresen megtanulta, hogyan adhat hozzá relatív méretarányú képkereteket az Aspose.Slides for .NET segítségével. Kísérletezzen különböző képekkel, pozíciókkal és léptékekkel, hogy tetszetős prezentációkat készítsen az Ön igényei szerint.
+Gratulálunk! Sikeresen megtanultad, hogyan adhatsz hozzá relatív méretarányú képkereteket az Aspose.Slides for .NET segítségével. Kísérletezz különböző képekkel, pozíciókkal és méretekkel, hogy vizuálisan vonzó, az igényeidnek megfelelő prezentációkat hozz létre.
 ## Gyakran Ismételt Kérdések
-### Használhatom az Aspose.Slides for .NET programot más programozási nyelvekkel?
-Az Aspose.Slides elsősorban a .NET nyelveket támogatja, de felfedezhet más Aspose-termékeket a különböző platformokkal való kompatibilitás érdekében.
-### Hol találom az Aspose.Slides for .NET részletes dokumentációját?
- Utal[dokumentáció](https://reference.aspose.com/slides/net/) átfogó információkért és példákért.
-### Létezik ingyenes próbaverzió az Aspose.Slides for .NET számára?
- Igen, kaphat a[ingyenes próbaverzió](https://releases.aspose.com/) hogy értékelje a könyvtár képességeit.
+### Használhatom az Aspose.Slides for .NET-et más programozási nyelvekkel?
+Az Aspose.Slides elsősorban a .NET nyelveket támogatja, de más Aspose termékeket is felfedezhetsz a különböző platformokkal való kompatibilitás szempontjából.
+### Hol találok részletes dokumentációt az Aspose.Slides for .NET-hez?
+Lásd a [dokumentáció](https://reference.aspose.com/slides/net/) átfogó információkért és példákért.
+### Van ingyenes próbaverzió az Aspose.Slides for .NET-hez?
+Igen, kaphatsz egy [ingyenes próba](https://releases.aspose.com/) hogy felmérje a könyvtár lehetőségeit.
 ### Hogyan kaphatok támogatást az Aspose.Slides for .NET-hez?
- Meglátogatni a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) hogy kérjen segítséget a közösségtől és az Aspose szakértőitől.
-### Hol vásárolhatom meg az Aspose.Slides-t .NET-hez?
- Az Aspose.Slides for .NET megvásárolható itt[vásárlási oldal](https://purchase.aspose.com/buy).
+Látogassa meg a [Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) hogy segítséget kérjen a közösségtől és az Aspose szakértőitől.
+### Hol tudom megvásárolni az Aspose.Slides .NET-hez készült verzióját?
+Az Aspose.Slides .NET-hez verzióját a következő címről vásárolhatja meg: [vásárlási oldal](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

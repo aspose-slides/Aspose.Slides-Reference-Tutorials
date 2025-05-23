@@ -1,39 +1,41 @@
 ---
-title: Konwertuj indywidualny slajd w slajdach Java
-linktitle: Konwertuj indywidualny slajd w slajdach Java
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Dowiedz się, jak krok po kroku konwertować poszczególne slajdy programu PowerPoint do formatu HTML, korzystając z przykładów kodu przy użyciu Aspose.Slides dla Java.
-weight: 12
-url: /pl/java/presentation-conversion/convert-individual-slide-java-slides/
+"description": "Dowiedz się, jak krok po kroku konwertować pojedyncze slajdy programu PowerPoint do formatu HTML za pomocą przykładów kodu przy użyciu Aspose.Slides for Java."
+"linktitle": "Konwertuj pojedynczy slajd w slajdach Java"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Konwertuj pojedynczy slajd w slajdach Java"
+"url": "/pl/java/presentation-conversion/convert-individual-slide-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Konwertuj indywidualny slajd w slajdach Java
+# Konwertuj pojedynczy slajd w slajdach Java
 
 
-## Wprowadzenie do konwertowania poszczególnych slajdów w slajdach Java
+## Wprowadzenie do konwersji pojedynczych slajdów w Java Slides
 
-W tym samouczku omówimy proces konwersji poszczególnych slajdów z prezentacji programu PowerPoint do formatu HTML przy użyciu Aspose.Slides for Java. W tym przewodniku krok po kroku znajdziesz kod źródłowy i wyjaśnienia, które pomogą Ci osiągnąć to zadanie.
+W tym samouczku przeprowadzimy Cię przez proces konwersji pojedynczych slajdów z prezentacji PowerPoint do HTML przy użyciu Aspose.Slides for Java. Ten przewodnik krok po kroku dostarczy Ci kod źródłowy i wyjaśnienia, które pomogą Ci wykonać to zadanie.
 
-## Warunki wstępne
+## Wymagania wstępne
 
-Zanim zaczniemy, upewnij się, że masz następujące elementy:
+Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
 
-- Zainstalowana biblioteka Aspose.Slides dla Java.
-- Plik prezentacji programu PowerPoint (`Individual-Slide.pptx`), który chcesz przekonwertować.
-- Skonfigurowano środowisko programistyczne Java.
+- Zainstalowano bibliotekę Aspose.Slides for Java.
+- Plik prezentacji PowerPoint (`Individual-Slide.pptx`) który chcesz przekonwertować.
+- Konfiguracja środowiska programistycznego Java.
 
 ## Krok 1: Skonfiguruj projekt
 
 1. Utwórz projekt Java w preferowanym środowisku programistycznym.
 2. Dodaj bibliotekę Aspose.Slides for Java do swojego projektu.
 
-## Krok 2: Zaimportuj niezbędne klasy
+## Krok 2: Importuj niezbędne klasy
 
-W klasie Java zaimportuj wymagane klasy i skonfiguruj początkową konfigurację.
+W swojej klasie Java zaimportuj wymagane klasy i skonfiguruj je początkowo.
 
 ```java
 import com.aspose.slides.HtmlOptions;
@@ -50,7 +52,7 @@ import com.aspose.slides.IShape;
 
 ## Krok 3: Zdefiniuj główną metodę konwersji
 
- Utwórz metodę przeprowadzania konwersji poszczególnych slajdów. Pamiętaj o wymianie`"Your Document Directory"` z rzeczywistą ścieżką do katalogu dokumentów.
+Utwórz metodę wykonywania konwersji pojedynczych slajdów. Upewnij się, że zastąpisz `"Your Document Directory"` z rzeczywistą ścieżką do katalogu dokumentów.
 
 ```java
 public static void convertIndividualSlides() {
@@ -72,9 +74,9 @@ public static void convertIndividualSlides() {
 }
 ```
 
-## Krok 4: Zaimplementuj CustomFormattingController
+## Krok 4: Implementacja CustomFormattingController
 
- Utwórz`CustomFormattingController` class do obsługi niestandardowego formatowania podczas konwersji.
+Utwórz `CustomFormattingController` Klasa obsługująca formatowanie niestandardowe podczas konwersji.
 
 ```java
 public static class CustomFormattingController implements IHtmlFormattingController {
@@ -105,7 +107,7 @@ public static class CustomFormattingController implements IHtmlFormattingControl
 
 ## Krok 5: Wykonaj konwersję
 
- Na koniec zadzwoń do`convertIndividualSlides` metoda wykonania procesu konwersji.
+Na koniec zadzwoń `convertIndividualSlides` metoda wykonania procesu konwersji.
 
 ```java
 public static void main(String[] args) {
@@ -113,7 +115,7 @@ public static void main(String[] args) {
 }
 ```
 
-## Kompletny kod źródłowy do konwersji poszczególnych slajdów w slajdach Java
+## Kompletny kod źródłowy do konwersji pojedynczych slajdów w slajdach Java
 
 ```java
 	String dataDir = "Your Document Directory";
@@ -124,7 +126,7 @@ public static void main(String[] args) {
 		htmlOptions.setHtmlFormatter(HtmlFormatter.createCustomFormatter(new CustomFormattingController()));
 		INotesCommentsLayoutingOptions notesOptions = htmlOptions.getNotesCommentsLayouting();
 		notesOptions.setNotesPosition(NotesPositions.BottomFull);
-		// Zapisywanie pliku
+		// Zapisywanie pliku              
 		for (int i = 0; i < presentation.getSlides().size(); i++)
 			presentation.save(dataDir + "Individual Slide" + i + 1 + "_out.html", new int[]{i + 1}, SaveFormat.Html, htmlOptions);
 	}
@@ -161,24 +163,26 @@ public static class CustomFormattingController implements IHtmlFormattingControl
 
 ## Wniosek
 
-Pomyślnie przekonwertowałeś pojedyncze slajdy z prezentacji programu PowerPoint do formatu HTML przy użyciu Aspose.Slides for Java. W tym samouczku przedstawiono niezbędny kod i kroki umożliwiające wykonanie tego zadania. Możesz dostosować wydruk i formatowanie zgodnie z własnymi wymaganiami.
+Udało Ci się przekonwertować poszczególne slajdy z prezentacji PowerPoint na HTML przy użyciu Aspose.Slides for Java. Ten samouczek dostarczył Ci niezbędnego kodu i kroków do wykonania tego zadania. Możesz dostosować dane wyjściowe i formatowanie zgodnie ze swoimi konkretnymi wymaganiami.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### Jak mogę bardziej dostosować dane wyjściowe HTML?
+### W jaki sposób mogę jeszcze bardziej dostosować wyjście HTML?
 
- Możesz dostosować dane wyjściowe HTML, modyfikując plik`CustomFormattingController` klasa. Poprawić`writeSlideStart` I`writeSlideEnd` metody zmiany struktury i stylu HTML slajdu.
+Możesz dostosować wynik HTML, modyfikując `CustomFormattingController` klasa. Dostosuj `writeSlideStart` I `writeSlideEnd` metody zmiany struktury i stylu HTML slajdu.
 
-### Czy mogę przekonwertować wiele prezentacji programu PowerPoint za jednym razem?
+### Czy mogę przekonwertować wiele prezentacji PowerPoint na raz?
 
- Tak, możesz zmodyfikować kod, aby przeglądać wiele plików prezentacji i konwertować je indywidualnie, wywołując metodę`convertIndividualSlides` sposób na każdą prezentację.
+Tak, możesz zmodyfikować kod, aby przechodził przez wiele plików prezentacji i konwertował je indywidualnie, wywołując `convertIndividualSlides` metodę dla każdej prezentacji.
 
-### Jak sobie poradzić z dodatkowym formatowaniem kształtów i tekstu na slajdach?
+### Jak radzić sobie z dodatkowym formatowaniem kształtów i tekstu na slajdach?
 
- Możesz przedłużyć`CustomFormattingController` klasę do obsługi formatowania specyficznego dla kształtu poprzez implementację metody`writeShapeStart` I`writeShapeEnd` metod i stosując w nich niestandardową logikę formatowania.
+Możesz rozszerzyć `CustomFormattingController` klasa do obsługi formatowania specyficznego dla kształtu poprzez implementację `writeShapeStart` I `writeShapeEnd` metod i stosowania w nich niestandardowej logiki formatowania.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

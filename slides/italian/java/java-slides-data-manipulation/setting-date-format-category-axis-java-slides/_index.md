@@ -1,43 +1,45 @@
 ---
-title: Impostazione del formato della data per l'asse delle categorie nelle diapositive Java
-linktitle: Impostazione del formato della data per l'asse delle categorie nelle diapositive Java
-second_title: Aspose.Slides API di elaborazione Java PowerPoint
-description: Scopri come impostare un formato di data per l'asse delle categorie in un grafico di PowerPoint utilizzando Aspose.Slides per Java. Guida passo passo con il codice sorgente.
-weight: 26
-url: /it/java/data-manipulation/setting-date-format-category-axis-java-slides/
+"description": "Scopri come impostare un formato data per l'asse delle categorie in un grafico di PowerPoint utilizzando Aspose.Slides per Java. Guida passo passo con codice sorgente."
+"linktitle": "Impostazione del formato data per l'asse delle categorie in Java Slides"
+"second_title": "API di elaborazione Java PowerPoint di Aspose.Slides"
+"title": "Impostazione del formato data per l'asse delle categorie in Java Slides"
+"url": "/it/java/data-manipulation/setting-date-format-category-axis-java-slides/"
+"weight": 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Impostazione del formato della data per l'asse delle categorie nelle diapositive Java
+# Impostazione del formato data per l'asse delle categorie in Java Slides
 
 
-## Introduzione all'impostazione del formato della data per l'asse delle categorie nelle diapositive Java
+## Introduzione all'impostazione del formato data per l'asse delle categorie in Java Slides
 
-In questo tutorial impareremo come impostare un formato di data per l'asse delle categorie in un grafico di PowerPoint utilizzando Aspose.Slides per Java. Aspose.Slides per Java è una potente libreria che ti consente di creare, manipolare e gestire presentazioni PowerPoint a livello di codice.
+In questo tutorial impareremo come impostare un formato data per l'asse delle categorie in un grafico di PowerPoint utilizzando Aspose.Slides per Java. Aspose.Slides per Java è una potente libreria che consente di creare, manipolare e gestire le presentazioni di PowerPoint a livello di codice.
 
 ## Prerequisiti
 
 Prima di iniziare, assicurati di avere quanto segue:
 
-1. Aspose.Slides per la libreria Java (puoi scaricarla da[Qui](https://releases.aspose.com/slides/java/).
+1. Libreria Aspose.Slides per Java (puoi scaricarla da [Qui](https://releases.aspose.com/slides/java/).
 2. Configurazione dell'ambiente di sviluppo Java.
 
-## Passaggio 1: crea una presentazione PowerPoint
+## Passaggio 1: creare una presentazione PowerPoint
 
-Innanzitutto, dobbiamo creare una presentazione PowerPoint in cui aggiungeremo un grafico. Assicurati di aver importato le classi Aspose.Slides necessarie.
+Per prima cosa, dobbiamo creare una presentazione PowerPoint in cui aggiungeremo un grafico. Assicuratevi di aver importato le classi Aspose.Slides necessarie.
 
 ```java
-// Il percorso della directory dei documenti.
+// Percorso verso la directory dei documenti.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 ```
 
-## Passaggio 2: aggiungi un grafico alla diapositiva
+## Passaggio 2: aggiungere un grafico alla diapositiva
 
-Ora aggiungiamo un grafico alla diapositiva di PowerPoint. In questo esempio utilizzeremo un grafico ad area.
+Ora aggiungiamo un grafico alla diapositiva di PowerPoint. In questo esempio useremo un grafico ad area.
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Area, 50, 50, 450, 300);
@@ -45,7 +47,7 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Area,
 
 ## Passaggio 3: preparare i dati del grafico
 
-Imposteremo i dati e le categorie del grafico. In questo esempio utilizzeremo le categorie di date.
+Imposteremo i dati e le categorie del grafico. In questo esempio, useremo le categorie di data.
 
 ```java
 IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
@@ -68,8 +70,8 @@ series.getDataPoints().addDataPointForLineSeries(wb.getCell(0, "B4", 3));
 series.getDataPoints().addDataPointForLineSeries(wb.getCell(0, "B5", 4));
 ```
 
-## Passaggio 4: personalizza l'asse delle categorie
-Ora personalizziamo l'asse delle categorie per visualizzare le date in un formato specifico (ad esempio, aaaa).
+## Passaggio 4: personalizzare l'asse delle categorie
+Adesso personalizziamo l'asse delle categorie per visualizzare le date in un formato specifico (ad esempio, aaaa).
 
 ```java
 chart.getAxes().getHorizontalAxis().setCategoryAxisType(CategoryAxisType.Date);
@@ -77,19 +79,19 @@ chart.getAxes().getHorizontalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getHorizontalAxis().setNumberFormat("yyyy");
 ```
 
-## Passaggio 5: salva la presentazione
-Infine, salva la presentazione di PowerPoint.
+## Passaggio 5: Salva la presentazione
+Infine, salva la presentazione PowerPoint.
 
 ```java
 pres.save(dataDir + "test.pptx", SaveFormat.Pptx);
 ```
 
-Questo è tutto! Hai impostato correttamente un formato di data per l'asse delle categorie in un grafico di PowerPoint utilizzando Aspose.Slides per Java.
+Ecco fatto! Hai impostato correttamente un formato data per l'asse delle categorie in un grafico di PowerPoint utilizzando Aspose.Slides per Java.
 
-## Codice sorgente completo per impostare il formato della data per l'asse delle categorie nelle diapositive Java
+## Codice sorgente completo per l'impostazione del formato data per l'asse delle categorie in Java Slides
 
 ```java
-	// Il percorso della directory dei documenti.
+	// Percorso verso la directory dei documenti.
 	String dataDir = "Your Document Directory";
 	Presentation pres = new Presentation();
 	try
@@ -130,24 +132,26 @@ public static String convertToOADate(GregorianCalendar date) throws ParseExcepti
 
 ##Conclusione
 
-Hai personalizzato con successo il formato della data per l'asse delle categorie in un grafico di Diapositive Java utilizzando Aspose.Slides per Java. Ciò ti consente di presentare i valori delle date nel formato desiderato sui tuoi grafici. Sentiti libero di esplorare ulteriori opzioni di personalizzazione in base alle tue esigenze specifiche.
+Hai personalizzato con successo il formato della data per l'asse delle categorie in un grafico Java Slides utilizzando Aspose.Slides per Java. Questo ti consente di presentare i valori di data nel formato desiderato sui tuoi grafici. Non esitare a esplorare ulteriori opzioni di personalizzazione in base alle tue esigenze specifiche.
 
 ## Domande frequenti
 
 ### Come posso modificare il formato della data per l'asse delle categorie?
 
- Per modificare il formato della data per l'asse delle categorie, utilizzare il file`setNumberFormat` sull'asse delle categorie e fornire il modello di formato della data desiderato, ad esempio "aaaa-MM-gg" o "MM/aaaa". Assicurati di impostare`setNumberFormatLinkedToSource(false)` per sovrascrivere il formato predefinito.
+Per modificare il formato della data per l'asse delle categorie, utilizzare `setNumberFormat` metodo sull'asse delle categorie e fornire il modello di formato data desiderato, ad esempio "aaaa-MM-gg" o "MM/aaaa". Assicurati di impostare `setNumberFormatLinkedToSource(false)` per sovrascrivere il formato predefinito.
 
 ### Posso utilizzare formati di data diversi per grafici diversi nella stessa presentazione?
 
-Sì, puoi impostare formati di data diversi per gli assi delle categorie in grafici diversi all'interno della stessa presentazione. Personalizza semplicemente l'asse delle categorie per ciascun grafico in base alle esigenze.
+Sì, puoi impostare formati di data diversi per gli assi delle categorie in grafici diversi all'interno della stessa presentazione. Personalizza semplicemente l'asse delle categorie per ogni grafico in base alle tue esigenze.
 
-### Come faccio ad aggiungere più punti dati al grafico?
+### Come posso aggiungere altri punti dati al grafico?
 
- Per aggiungere più punti dati al grafico, utilizzare il file`getDataPoints().addDataPointForLineSeries`metodo sulla serie di dati e fornire i valori dei dati.
+Per aggiungere più punti dati al grafico, utilizzare `getDataPoints().addDataPointForLineSeries` metodo sulla serie di dati e fornire i valori dei dati.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

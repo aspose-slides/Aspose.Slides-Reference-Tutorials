@@ -1,36 +1,38 @@
 ---
-title: Převeďte prezentace do HTML pomocí vložených písem
-linktitle: Převeďte prezentace do HTML pomocí vložených písem
-second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Převeďte PowerPointové prezentace do HTML pomocí vložených písem pomocí Aspose.Slides for .NET. Bezproblémově udržujte originalitu.
-weight: 13
-url: /cs/net/presentation-conversion/convert-presentations-to-html-with-embedded-fonts/
+"description": "Převeďte prezentace PowerPointu do HTML s vloženými fonty pomocí Aspose.Slides pro .NET. Zachovejte si originalitu bez problémů."
+"linktitle": "Převod prezentací do HTML s vloženými fonty"
+"second_title": "Rozhraní API pro zpracování PowerPointu v .NET od Aspose.Slides"
+"title": "Převod prezentací do HTML s vloženými fonty"
+"url": "/cs/net/presentation-conversion/convert-presentations-to-html-with-embedded-fonts/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Převeďte prezentace do HTML pomocí vložených písem
+# Převod prezentací do HTML s vloženými fonty
 
 
-V dnešní digitální době se sdílení prezentací a dokumentů online stalo běžnou praxí. Jedním z problémů, který se často objevuje, je zajistit, aby se vaše písma při převodu prezentací do HTML správně zobrazovala. Tento podrobný návod vás provede procesem používání Aspose.Slides for .NET k převodu prezentací do HTML s vloženými fonty, čímž zajistíte, že vaše dokumenty budou vypadat přesně tak, jak jste zamýšleli.
+dnešní digitální době se sdílení prezentací a dokumentů online stalo běžnou praxí. Často však vzniká problém s zajištěním správného zobrazení písem při převodu prezentací do formátu HTML. Tento podrobný návod vás provede procesem použití Aspose.Slides pro .NET k převodu prezentací do formátu HTML s vloženými písmy a zajistí, že vaše dokumenty budou vypadat přesně tak, jak jste zamýšleli.
 
 ## Úvod do Aspose.Slides pro .NET
 
-Než se vrhneme na tutoriál, pojďme si krátce představit Aspose.Slides pro .NET. Jedná se o výkonnou knihovnu, která umožňuje vývojářům pracovat s PowerPointovými prezentacemi v aplikacích .NET. S Aspose.Slides můžete vytvářet, upravovat a převádět soubory PowerPoint programově.
+Než se pustíme do tutoriálu, pojďme si stručně představit Aspose.Slides pro .NET. Jedná se o výkonnou knihovnu, která umožňuje vývojářům pracovat s prezentacemi PowerPoint v aplikacích .NET. S Aspose.Slides můžete programově vytvářet, upravovat a převádět soubory PowerPoint.
 
 ## Předpoklady
 
 Než začnete, ujistěte se, že máte splněny následující předpoklady:
 
--  Aspose.Slides for .NET: Měli byste mít ve svém projektu nainstalovanou knihovnu Aspose.Slides. Můžete si jej stáhnout z[tady](https://releases.aspose.com/slides/net/).
+- Aspose.Slides pro .NET: Měli byste mít ve svém projektu nainstalovanou knihovnu Aspose.Slides. Můžete si ji stáhnout z [zde](https://releases.aspose.com/slides/net/).
 
-## Krok 1: Nastavte svůj projekt
+## Krok 1: Nastavení projektu
 
-1. Vytvořte nový projekt nebo otevřete stávající ve vámi preferovaném vývojovém prostředí .NET.
+1. Vytvořte nový projekt nebo otevřete existující ve vámi preferovaném vývojovém prostředí .NET.
 
-2. Přidejte odkaz na knihovnu Aspose.Slides ve svém projektu.
+2. Přidejte do projektu odkaz na knihovnu Aspose.Slides.
 
 3. Importujte potřebné jmenné prostory do kódu:
 
@@ -38,15 +40,15 @@ Než začnete, ujistěte se, že máte splněny následující předpoklady:
    using Aspose.Slides;
    ```
 
-## Krok 2: Načtěte svou prezentaci
+## Krok 2: Načtěte prezentaci
 
- Chcete-li začít, musíte načíst prezentaci, kterou chcete převést do HTML. Nahradit`"Your Document Directory"` se skutečným adresářem, kde je umístěn soubor vaší prezentace.
+Nejprve je třeba načíst prezentaci, kterou chcete převést do formátu HTML. Nahraďte `"Your Document Directory"` se skutečným adresářem, kde se nachází soubor s prezentací.
 
 ```csharp
 string dataDir = "Your Document Directory";
 using (Presentation pres = new Presentation(dataDir + "presentation.pptx"))
 {
-    // Váš kód je zde
+    // Váš kód patří sem
 }
 ```
 
@@ -58,13 +60,13 @@ V tomto kroku můžete určit libovolná výchozí prezentační písma, která 
 string[] fontNameExcludeList = { };
 ```
 
-## Krok 4: Vyberte ovladač HTML
+## Krok 4: Vyberte HTML kontroler
 
-Nyní máte dvě možnosti pro vkládání písem do HTML:
+Nyní máte dvě možnosti, jak vložit písma do HTML:
 
 ### Možnost 1: Vložit všechna písma
 
- Chcete-li vložit všechna písma použitá v prezentaci, použijte`EmbedAllFontsHtmlController`.
+Chcete-li vložit všechna písma použitá v prezentaci, použijte `EmbedAllFontsHtmlController`.
 
 ```csharp
 EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
@@ -72,26 +74,26 @@ EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlControll
 
 ### Možnost 2: Propojit všechna písma
 
- Chcete-li vytvořit odkaz na všechna písma použitá v prezentaci, použijte`LinkAllFontsHtmlController`. Měli byste zadat adresář, ve kterém jsou ve vašem systému umístěny fonty.
+Chcete-li propojit všechna písma použitá v prezentaci, použijte `LinkAllFontsHtmlController`Měli byste zadat adresář, kde se písma nacházejí ve vašem systému.
 
 ```csharp
 LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, @"C:\Windows\Fonts\");
 ```
 
-## Krok 5: Definujte možnosti HTML
+## Krok 5: Definování možností HTML
 
- Vytvořit`HtmlOptions` objekt a nastavte formátovač HTML na ten, který jste vybrali v předchozím kroku.
+Vytvořte `HtmlOptions` objekt a nastavte formátovač HTML na ten, který jste vybrali v předchozím kroku.
 
 ```csharp
 HtmlOptions htmlOptionsEmbed = new HtmlOptions
 {
-    HtmlFormatter = HtmlFormatter.CreateCustomFormatter(linkcont) // Pro vložení všech písem použijte embedFontsController
+    HtmlFormatter = HtmlFormatter.CreateCustomFormatter(linkcont) // Pro vkládání všech písem použijte embedFontsController
 };
 ```
 
 ## Krok 6: Uložit jako HTML
 
- Nakonec uložte prezentaci jako soubor HTML. Můžete si vybrat buď`SaveFormat.Html` nebo`SaveFormat.Html5` v závislosti na vašich požadavcích.
+Nakonec uložte prezentaci jako soubor HTML. Můžete si vybrat jednu z možností `SaveFnebomat.Html` or `SaveFormat.Html5` v závislosti na vašich požadavcích.
 
 ```csharp
 pres.Save("pres.html", SaveFormat.Html, htmlOptionsEmbed);
@@ -99,37 +101,39 @@ pres.Save("pres.html", SaveFormat.Html, htmlOptionsEmbed);
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste převedli svou prezentaci do HTML s vloženými fonty pomocí Aspose.Slides for .NET. Tím zajistíte, že se vaše písma budou při sdílení prezentací online zobrazovat správně.
+Gratulujeme! Úspěšně jste převedli svou prezentaci do HTML s vloženými fonty pomocí Aspose.Slides pro .NET. Tím je zajištěno, že se vaše fonty budou při sdílení prezentací online zobrazovat správně.
 
-Nyní můžete snadno sdílet své krásně formátované prezentace s jistotou, protože víte, že je vaše publikum uvidí přesně tak, jak jste zamýšleli.
+Nyní můžete snadno a s jistotou sdílet své krásně naformátované prezentace s vědomím, že je vaše publikum uvidí přesně tak, jak jste zamýšleli.
 
- Další informace a podrobné reference API naleznete na[Aspose.Slides pro dokumentaci .NET](https://reference.aspose.com/slides/net/).
+Pro více informací a podrobné reference API se podívejte na [Dokumentace k Aspose.Slides pro .NET](https://reference.aspose.com/slides/net/).
 
-## Nejčastější dotazy
+## Často kladené otázky
 
-### 1. Mohu převést PowerPointové prezentace do HTML pomocí Aspose.Slides for .NET v dávkovém režimu?
+### 1. Mohu převést prezentace PowerPointu do HTML pomocí Aspose.Slides pro .NET v dávkovém režimu?
 
-Ano, můžete dávkově převést více prezentací do HTML pomocí Aspose.Slides for .NET procházením souborů prezentací a aplikací procesu převodu na každou z nich.
+Ano, můžete dávkově převést více prezentací do HTML pomocí Aspose.Slides pro .NET tak, že projdete soubory prezentace a na každý z nich aplikujete proces převodu.
 
-### 2. Existuje způsob, jak upravit vzhled výstupu HTML?
+### 2. Existuje způsob, jak si přizpůsobit vzhled HTML výstupu?
 
-Rozhodně! Aspose.Slides for .NET poskytuje různé možnosti přizpůsobení vzhledu a formátování výstupu HTML, jako je úprava barev, písem a rozvržení.
+Jistě! Aspose.Slides pro .NET nabízí různé možnosti pro přizpůsobení vzhledu a formátování HTML výstupu, například úpravu barev, písem a rozvržení.
 
 ### 3. Existují nějaká omezení pro vkládání písem do HTML pomocí Aspose.Slides pro .NET?
 
-Zatímco Aspose.Slides for .NET nabízí vynikající možnosti vkládání písem, mějte na paměti, že velikost vašich souborů HTML se může při vkládání písem zvětšit. Ujistěte se, že jste optimalizovali výběr písem pro použití na webu.
+Přestože Aspose.Slides pro .NET nabízí vynikající možnosti vkládání písem, mějte na paměti, že velikost vašich HTML souborů se při vkládání písem může zvětšit. Nezapomeňte optimalizovat výběr písem pro použití na webu.
 
-### 4. Mohu pomocí Aspose.Slides for .NET převést PowerPointové prezentace do jiných formátů?
+### 4. Mohu pomocí Aspose.Slides pro .NET převést prezentace v PowerPointu do jiných formátů?
 
-Ano, Aspose.Slides for .NET podporuje širokou škálu výstupních formátů, včetně PDF, obrázků a dalších. Své prezentace můžete snadno převést do vámi zvoleného formátu.
+Ano, Aspose.Slides pro .NET podporuje širokou škálu výstupních formátů, včetně PDF, obrázků a dalších. Své prezentace můžete snadno převést do formátu dle vlastního výběru.
 
 ### 5. Kde najdu další zdroje a podporu pro Aspose.Slides pro .NET?
 
- Na webu máte přístup k velkému množství zdrojů, včetně dokumentace[Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/).
+K dispozici je široká škála zdrojů, včetně dokumentace, na [Referenční příručka k Aspose.Slides pro .NET API](https://reference.aspose.com/slides/net/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

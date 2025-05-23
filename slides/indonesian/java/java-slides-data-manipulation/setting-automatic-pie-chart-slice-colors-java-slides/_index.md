@@ -1,26 +1,28 @@
 ---
-title: Mengatur Warna Irisan Diagram Lingkaran Otomatis di Slide Java
-linktitle: Mengatur Warna Irisan Diagram Lingkaran Otomatis di Slide Java
-second_title: Aspose.Slides API Pemrosesan Java PowerPoint
-description: Pelajari cara membuat diagram lingkaran dinamis dengan warna irisan otomatis dalam presentasi Java PowerPoint menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah dengan kode sumber.
-weight: 24
-url: /id/java/data-manipulation/setting-automatic-pie-chart-slice-colors-java-slides/
+"description": "Pelajari cara membuat diagram pai dinamis dengan warna irisan otomatis dalam presentasi PowerPoint Java menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah dengan kode sumber."
+"linktitle": "Mengatur Warna Potongan Diagram Pai Otomatis di Java Slides"
+"second_title": "API Pemrosesan PowerPoint Java Aspose.Slides"
+"title": "Mengatur Warna Potongan Diagram Pai Otomatis di Java Slides"
+"url": "/id/java/data-manipulation/setting-automatic-pie-chart-slice-colors-java-slides/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mengatur Warna Irisan Diagram Lingkaran Otomatis di Slide Java
+# Mengatur Warna Potongan Diagram Pai Otomatis di Java Slides
 
 
-## Pengantar Pengaturan Warna Irisan Diagram Lingkaran Otomatis di Slide Java
+## Pengantar Pengaturan Warna Irisan Diagram Pai Otomatis di Java Slides
 
-Dalam tutorial ini, kita akan mempelajari cara membuat diagram lingkaran dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java dan mengatur warna irisan otomatis untuk diagram. Kami akan memberikan panduan langkah demi langkah beserta kode sumbernya.
+Dalam tutorial ini, kita akan mempelajari cara membuat diagram pai dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java dan mengatur warna irisan otomatis untuk diagram tersebut. Kami akan memberikan panduan langkah demi langkah beserta kode sumbernya.
 
 ## Prasyarat
 
- Sebelum memulai, pastikan Anda telah menginstal dan menyiapkan pustaka Aspose.Slides untuk Java di proyek Java Anda. Anda dapat mengunduh perpustakaan dari situs web Aspose:[Unduh Aspose.Slide untuk Java](https://releases.aspose.com/slides/java/).
+Sebelum memulai, pastikan Anda telah menginstal dan menyiapkan pustaka Aspose.Slides for Java di proyek Java Anda. Anda dapat mengunduh pustaka tersebut dari situs web Aspose: [Unduh Aspose.Slides untuk Java](https://releases.aspose.com/slides/java/).
 
 ## Langkah 1: Impor Paket yang Diperlukan
 
@@ -39,7 +41,7 @@ import com.aspose.slides.charts.IChartDataWorkbook;
 
 ## Langkah 2: Buat Presentasi PowerPoint
 
- Buat instance`Presentation` kelas untuk membuat presentasi PowerPoint baru:
+Membuat contoh `Presentation` kelas untuk membuat presentasi PowerPoint baru:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -68,7 +70,7 @@ chart.setTitle(true);
 
 ## Langkah 5: Konfigurasikan Data Bagan
 
-Atur bagan agar memperlihatkan nilai untuk rangkaian pertama dan konfigurasikan data bagan:
+Atur bagan untuk menampilkan nilai untuk seri pertama dan konfigurasikan data bagan:
 
 ```java
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
@@ -81,7 +83,7 @@ chart.getChartData().getCategories().clear();
 
 ## Langkah 6: Tambahkan Kategori dan Seri
 
-Tambahkan kategori dan rangkaian baru ke bagan:
+Tambahkan kategori dan seri baru ke bagan:
 
 ```java
 chart.getChartData().getCategories().add(fact.getCell(0, 1, 0, "First Qtr"));
@@ -91,7 +93,7 @@ chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
 ```
 
-## Langkah 7: Isi Data Seri
+## Langkah 7: Mengisi Data Seri
 
 Isi data seri untuk diagram lingkaran:
 
@@ -101,9 +103,9 @@ series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 ```
 
-## Langkah 8: Aktifkan Warna Irisan Bervariasi
+## Langkah 8: Aktifkan Warna Irisan Beragam
 
-Aktifkan beragam warna irisan untuk diagram lingkaran:
+Aktifkan warna irisan bervariasi untuk diagram pai:
 
 ```java
 series.getParentSeriesGroup().setColorVaried(true);
@@ -117,12 +119,12 @@ Terakhir, simpan presentasi ke file PowerPoint:
 presentation.save(dataDir + "Pie.pptx", SaveFormat.Pptx);
 ```
 
-## Kode Sumber Lengkap Untuk Mengatur Warna Irisan Diagram Lingkaran Otomatis di Slide Java
+## Source Code Lengkap Untuk Mengatur Warna Irisan Pie Chart Secara Otomatis di Java Slides
 
 ```java
 // Jalur ke direktori dokumen.
 String dataDir = "Your Document Directory";
-// Buat instance kelas Presentasi yang mewakili file PPTX
+// Membuat instance kelas Presentasi yang merepresentasikan file PPTX
 Presentation presentation = new Presentation();
 try
 {
@@ -130,16 +132,16 @@ try
 	ISlide slides = presentation.getSlides().get_Item(0);
 	// Tambahkan bagan dengan data default
 	IChart chart = slides.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
-	// Judul bagan pengaturan
+	// Mengatur Judul Bagan
 	chart.getChartTitle().addTextFrameForOverriding("Sample Title");
 	chart.getChartTitle().getTextFrameForOverriding().getTextFrameFormat().setCenterText(NullableBool.True);
 	chart.getChartTitle().setHeight(20);
 	chart.setTitle(true);
-	// Setel seri pertama ke Tampilkan Nilai
+	// Tetapkan seri pertama untuk Menampilkan Nilai
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// Mengatur indeks lembar data grafik
 	int defaultWorksheetIndex = 0;
-	// Mendapatkan lembar kerja data bagan
+	// Mendapatkan lembar kerja data grafik
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// Hapus seri dan kategori yang dihasilkan secara default
 	chart.getChartData().getSeries().clear();
@@ -165,16 +167,16 @@ finally
 
 ## Kesimpulan
 
-Anda telah berhasil membuat diagram lingkaran dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java dan mengonfigurasinya agar memiliki warna irisan otomatis. Panduan langkah demi langkah ini memberi Anda kode sumber yang diperlukan untuk mencapai hal ini. Anda dapat menyesuaikan lebih lanjut bagan dan presentasi sesuai kebutuhan.
+Anda telah berhasil membuat diagram pai dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java dan mengonfigurasinya agar memiliki warna irisan otomatis. Panduan langkah demi langkah ini menyediakan kode sumber yang diperlukan untuk mencapainya. Anda dapat menyesuaikan diagram dan presentasi lebih lanjut sesuai kebutuhan.
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
-### Bagaimana cara menyesuaikan warna masing-masing irisan dalam diagram lingkaran?
+### Bagaimana cara menyesuaikan warna tiap irisan pada diagram lingkaran?
 
- Untuk menyesuaikan warna masing-masing irisan dalam diagram lingkaran, Anda dapat menggunakan`getAutomaticSeriesColors` metode untuk mengambil skema warna default dan kemudian memodifikasi warna sesuai kebutuhan. Berikut ini contohnya:
+Untuk menyesuaikan warna setiap irisan pada diagram lingkaran, Anda dapat menggunakan `getAutomaticSeriesColors` metode untuk mengambil skema warna default dan kemudian mengubah warna sesuai kebutuhan. Berikut contohnya:
 
 ```java
-//Dapatkan skema warna default
+// Dapatkan skema warna default
 IColorFormatCollection colors = chart.getChartData().getSeries().get_Item(0).getAutomaticSeriesColors();
 
 // Ubah warna sesuai kebutuhan
@@ -185,12 +187,12 @@ colors.get_Item(1).setColor(Color.BLUE); // Atur warna irisan kedua menjadi biru
 
 ### Bagaimana cara menambahkan legenda ke diagram lingkaran?
 
- Untuk menambahkan legenda ke diagram lingkaran, Anda dapat menggunakan`getLegend` metode dan konfigurasikan sebagai berikut:
+Untuk menambahkan legenda ke diagram lingkaran, Anda dapat menggunakan `getLegend` metode dan konfigurasikan sebagai berikut:
 
 ```java
 ILegend legend = chart.getLegend();
-legend.setPosition(LegendPositionType.Right); // Tetapkan posisi legenda
-legend.setOverlay(true); // Tampilkan legenda di atas grafik
+legend.setPosition(LegendPositionType.Right); // Mengatur posisi legenda
+legend.setOverlay(true); // Menampilkan legenda di atas grafik
 ```
 
 ### Bisakah saya mengubah font dan gaya judul?
@@ -198,15 +200,17 @@ legend.setOverlay(true); // Tampilkan legenda di atas grafik
 Ya, Anda dapat mengubah font dan gaya judul. Gunakan kode berikut untuk mengatur font dan gaya judul:
 
 ```java
-chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().setFontHeight(20); // Atur ukuran font
-chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().setFontBold(NullableBool.True); // Buatlah judul menjadi tebal
-chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().setFontItalic(NullableBool.True); // Buatlah judul menjadi miring
+chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().setFontHeight(20); // Mengatur ukuran font
+chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().setFontBold(NullableBool.True); // Buat judulnya tebal
+chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().setFontItalic(NullableBool.True); // Buat judulnya miring
 ```
 
 Anda dapat menyesuaikan ukuran font, ketebalan, dan gaya miring sesuai kebutuhan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

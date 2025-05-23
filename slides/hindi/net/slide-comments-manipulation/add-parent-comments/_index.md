@@ -1,14 +1,16 @@
 ---
-title: Aspose.Slides का उपयोग करके स्लाइड में मूल टिप्पणियाँ जोड़ें
-linktitle: स्लाइड में मूल टिप्पणियाँ जोड़ें
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: Aspose.Slides for .NET का उपयोग करके अपने PowerPoint प्रस्तुतियों में इंटरैक्टिव टिप्पणियाँ और उत्तर जोड़ना सीखें। सहभागिता और सहयोग बढ़ाएँ।
-weight: 12
-url: /hi/net/slide-comments-manipulation/add-parent-comments/
+"description": "Aspose.Slides for .NET का उपयोग करके अपने PowerPoint प्रस्तुतियों में इंटरैक्टिव टिप्पणियाँ और उत्तर जोड़ना सीखें। सहभागिता और सहयोग बढ़ाएँ।"
+"linktitle": "स्लाइड में मूल टिप्पणियाँ जोड़ें"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "Aspose.Slides का उपयोग करके स्लाइड में मूल टिप्पणियाँ जोड़ें"
+"url": "/hi/net/slide-comments-manipulation/add-parent-comments/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Slides का उपयोग करके स्लाइड में मूल टिप्पणियाँ जोड़ें
@@ -20,7 +22,7 @@ url: /hi/net/slide-comments-manipulation/add-parent-comments/
 
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
-1.  Aspose.Slides for .NET: सुनिश्चित करें कि आपके पास Aspose.Slides for .NET इंस्टॉल है। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides for .NET: सुनिश्चित करें कि आपके पास Aspose.Slides for .NET इंस्टॉल है। आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/net/).
 
 2. विज़ुअल स्टूडियो: आपको अपना .NET अनुप्रयोग बनाने और चलाने के लिए विज़ुअल स्टूडियो की आवश्यकता होगी।
 
@@ -55,11 +57,11 @@ using (Presentation pres = new Presentation())
 }
 ```
 
- उपरोक्त कोड में, प्रतिस्थापित करें`"Output Path"` अपने आउटपुट प्रेजेंटेशन के लिए वांछित पथ के साथ।
+उपरोक्त कोड में, प्रतिस्थापित करें `"Output Path"` अपने आउटपुट प्रेजेंटेशन के लिए वांछित पथ के साथ।
 
 ## चरण 2: टिप्पणी लेखक जोड़ें
 
-टिप्पणियाँ जोड़ने से पहले, आपको इन टिप्पणियों के लेखकों को परिभाषित करना होगा। इस उदाहरण में, हमारे पास दो लेखक हैं, "Author_1" और "Author_2", जिनमें से प्रत्येक को एक उदाहरण द्वारा दर्शाया गया है`ICommentAuthor`.
+टिप्पणियाँ जोड़ने से पहले, आपको इन टिप्पणियों के लेखकों को परिभाषित करना होगा। इस उदाहरण में, हमारे पास दो लेखक हैं, "Author_1" और "Author_2", जिनमें से प्रत्येक को एक उदाहरण द्वारा दर्शाया गया है `ICommentAuthor`.
 
 ```csharp
 // टिप्पणी जोड़ना
@@ -148,7 +150,7 @@ pres.Save(outPptxFile + "remove_comment.pptx", SaveFormat.Pptx);
 
 ## निष्कर्ष
 
-Aspose.Slides for .NET आपके PowerPoint प्रेजेंटेशन को बेहतर बनाने के लिए उपकरणों का एक शक्तिशाली सेट प्रदान करता है। टिप्पणियाँ और उत्तर जोड़ने की क्षमता के साथ, आप गतिशील और इंटरैक्टिव सामग्री बना सकते हैं जो आपके दर्शकों को आकर्षित करती है। इस चरण-दर-चरण मार्गदर्शिका ने आपको दिखाया है कि स्लाइड में मूल टिप्पणियाँ कैसे जोड़ें, पदानुक्रम स्थापित करें और आवश्यकता पड़ने पर टिप्पणियाँ हटाएँ भी। इन चरणों का पालन करके और Aspose.Slides दस्तावेज़ों की खोज करके[यहाँ](https://reference.aspose.com/slides/net/), आप अपनी प्रस्तुतियों को अगले स्तर तक ले जा सकते हैं।
+Aspose.Slides for .NET आपके PowerPoint प्रेजेंटेशन को बेहतर बनाने के लिए उपकरणों का एक शक्तिशाली सेट प्रदान करता है। टिप्पणियाँ और उत्तर जोड़ने की क्षमता के साथ, आप गतिशील और इंटरैक्टिव सामग्री बना सकते हैं जो आपके दर्शकों को आकर्षित करती है। इस चरण-दर-चरण मार्गदर्शिका ने आपको दिखाया है कि स्लाइड में मूल टिप्पणियाँ कैसे जोड़ें, पदानुक्रम स्थापित करें और आवश्यकता पड़ने पर टिप्पणियाँ हटाएँ भी। इन चरणों का पालन करके और Aspose.Slides दस्तावेज़ों की खोज करके [यहाँ](https://reference.aspose.com/slides/net/), आप अपनी प्रस्तुतियों को अगले स्तर तक ले जा सकते हैं।
 
 ## पूछे जाने वाले प्रश्न
 
@@ -165,10 +167,12 @@ Aspose.Slides for .NET आपके PowerPoint प्रेजेंटेशन
 Aspose.Slides for .NET को PowerPoint संस्करणों की एक विस्तृत श्रृंखला के साथ काम करने के लिए डिज़ाइन किया गया है, जो नवीनतम रिलीज़ के साथ संगतता सुनिश्चित करता है।
 
 ### क्या .NET के लिए Aspose.Slides के लिए कोई लाइसेंसिंग विकल्प उपलब्ध हैं?
- हां, आप Aspose वेबसाइट पर अस्थायी लाइसेंस सहित लाइसेंसिंग विकल्पों का पता लगा सकते हैं[यहाँ](https://purchase.aspose.com/buy) या निःशुल्क परीक्षण का प्रयास करें[यहाँ](https://releases.aspose.com/temporary-license/).
+हां, आप Aspose वेबसाइट पर अस्थायी लाइसेंस सहित लाइसेंसिंग विकल्पों का पता लगा सकते हैं [यहाँ](https://purchase.aspose.com/buy) या निःशुल्क परीक्षण का प्रयास करें [यहाँ](https://releases.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,33 +1,35 @@
 ---
-title: Hapus Segmen Bentuk - Tutorial Aspose.Slides .NET
-linktitle: Menghapus Segmen dari Bentuk Geometri di Slide Presentasi
-second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
-description: Pelajari cara menghapus segmen dari bentuk geometri di slide presentasi menggunakan Aspose.Slides API untuk .NET. Panduan langkah demi langkah dengan kode sumber.
-weight: 16
-url: /id/net/shape-geometry-and-positioning-in-slides/removing-segments-geometry-shape/
+"description": "Pelajari cara menghapus segmen dari bentuk geometri dalam slide presentasi menggunakan Aspose.Slides API untuk .NET. Panduan langkah demi langkah dengan kode sumber."
+"linktitle": "Menghapus Segmen dari Bentuk Geometri di Slide Presentasi"
+"second_title": "API Pemrosesan PowerPoint Aspose.Slides .NET"
+"title": "Hapus Segmen Bentuk - Tutorial Aspose.Slides .NET"
+"url": "/id/net/shape-geometry-and-positioning-in-slides/removing-segments-geometry-shape/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hapus Segmen Bentuk - Tutorial Aspose.Slides .NET
 
 ## Perkenalan
-Membuat presentasi yang menarik secara visual sering kali melibatkan manipulasi bentuk dan elemen untuk mencapai desain yang diinginkan. Dengan Aspose.Slides untuk .NET, pengembang dapat dengan mudah mengontrol geometri bentuk, memungkinkan penghapusan segmen tertentu. Dalam tutorial ini, kami akan memandu Anda melalui proses menghilangkan segmen dari bentuk geometri di slide presentasi menggunakan Aspose.Slides untuk .NET.
+Membuat presentasi yang menarik secara visual sering kali melibatkan manipulasi bentuk dan elemen untuk mencapai desain yang diinginkan. Dengan Aspose.Slides for .NET, pengembang dapat dengan mudah mengontrol geometri bentuk, yang memungkinkan penghapusan segmen tertentu. Dalam tutorial ini, kami akan memandu Anda melalui proses penghapusan segmen dari bentuk geometri di slide presentasi menggunakan Aspose.Slides for .NET.
 ## Prasyarat
-Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
--  Aspose.Slides for .NET Library: Pastikan Anda telah menginstal perpustakaan Aspose.Slides for .NET. Anda dapat mengunduhnya dari[halaman rilis](https://releases.aspose.com/slides/net/).
+Sebelum memulai tutorial, pastikan Anda memiliki prasyarat berikut:
+- Pustaka Aspose.Slides untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Slides untuk .NET. Anda dapat mengunduhnya dari [halaman rilis](https://releases.aspose.com/slides/net/).
 - Lingkungan Pengembangan: Siapkan lingkungan pengembangan .NET, seperti Visual Studio, untuk mengintegrasikan Aspose.Slides ke dalam proyek Anda.
-- Direktori Dokumen: Buat direktori tempat Anda menyimpan dokumen dan atur jalur dengan tepat dalam kode.
-## Impor Namespace
-Untuk memulai, impor namespace yang diperlukan di proyek .NET Anda. Namespace ini menyediakan akses ke kelas dan metode yang diperlukan untuk bekerja dengan slide presentasi.
+- Direktori Dokumen: Buat direktori tempat Anda akan menyimpan dokumen dan atur jalur yang tepat dalam kode.
+## Mengimpor Ruang Nama
+Untuk memulai, impor namespace yang diperlukan dalam proyek .NET Anda. Namespace ini menyediakan akses ke kelas dan metode yang diperlukan untuk bekerja dengan slide presentasi.
 ```csharp
 using System.IO;
 using Aspose.Slides.Export;
 ```
 ## Langkah 1: Buat Presentasi Baru
-Mulailah dengan membuat presentasi baru menggunakan perpustakaan Aspose.Slides.
+Mulailah dengan membuat presentasi baru menggunakan pustaka Aspose.Slides.
 ```csharp
 string dataDir = "Your Document Directory";
 bool isExists = Directory.Exists(dataDir);
@@ -42,7 +44,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 ## Langkah 2: Tambahkan Bentuk Geometri
-Pada langkah ini, buatlah bentuk baru dengan geometri tertentu. Untuk contoh ini, kita menggunakan bentuk hati.
+Pada langkah ini, buat bentuk baru dengan geometri tertentu. Untuk contoh ini, kami menggunakan bentuk hati.
 ```csharp
 GeometryShape shape = (GeometryShape)pres.Slides[0].Shapes.AddAutoShape(ShapeType.Heart, 100, 100, 300, 300);
 ```
@@ -52,31 +54,33 @@ Ambil jalur geometri dari bentuk yang dibuat.
 IGeometryPath path = shape.GetGeometryPaths()[0];
 ```
 ## Langkah 4: Hapus Segmen
-Hapus segmen tertentu dari jalur geometri. Dalam contoh ini, kami menghapus segmen di indeks 2.
+Hapus segmen tertentu dari jalur geometri. Dalam contoh ini, kami menghapus segmen pada indeks 2.
 ```csharp
 path.RemoveAt(2);
 ```
 ## Langkah 5: Tetapkan Jalur Geometri Baru
-Atur jalur geometri yang dimodifikasi kembali ke bentuk.
+Atur kembali jalur geometri yang dimodifikasi ke bentuk semula.
 ```csharp
 shape.SetGeometryPath(path);
 ```
 ## Kesimpulan
-Selamat! Anda telah berhasil mempelajari cara menghapus segmen dari bentuk geometri di slide presentasi menggunakan Aspose.Slides untuk .NET. Bereksperimenlah dengan berbagai bentuk dan indeks segmen untuk mencapai efek visual yang diinginkan dalam presentasi Anda.
-## FAQ
-### Bisakah saya menerapkan teknik ini pada bentuk lain?
-Ya, Anda dapat menggunakan langkah serupa untuk berbagai bentuk yang didukung oleh Aspose.Slides.
+Selamat! Anda telah berhasil mempelajari cara menghilangkan segmen dari bentuk geometri dalam slide presentasi menggunakan Aspose.Slides for .NET. Bereksperimenlah dengan berbagai bentuk dan indeks segmen untuk memperoleh efek visual yang diinginkan dalam presentasi Anda.
+## Tanya Jawab Umum
+### Bisakah saya menerapkan teknik ini ke bentuk lain?
+Ya, Anda dapat menggunakan langkah serupa untuk bentuk berbeda yang didukung oleh Aspose.Slides.
 ### Apakah ada batasan jumlah segmen yang dapat saya hapus?
-Tidak ada batasan ketat, tapi hati-hati untuk menjaga integritas bentuknya.
+Tidak ada batasan yang ketat, tetapi berhati-hatilah untuk menjaga integritas bentuknya.
 ### Bagaimana cara menangani kesalahan selama proses penghapusan segmen?
-Terapkan penanganan kesalahan yang tepat menggunakan blok coba-tangkap.
+Terapkan penanganan kesalahan yang tepat menggunakan blok try-catch.
 ### Bisakah saya membatalkan penghapusan segmen setelah menyimpan presentasi?
-Tidak, perubahan tidak dapat diubah setelah disimpan. Pertimbangkan untuk menyimpan cadangan sebelum modifikasi.
+Tidak, perubahan tidak dapat dikembalikan setelah disimpan. Sebaiknya simpan cadangan sebelum modifikasi.
 ### Di mana saya dapat mencari dukungan atau bantuan tambahan?
- Mengunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk dukungan dan diskusi komunitas.
+Kunjungi [Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) untuk dukungan dan diskusi komunitas.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

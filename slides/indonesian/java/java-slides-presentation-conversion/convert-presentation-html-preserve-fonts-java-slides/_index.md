@@ -1,27 +1,29 @@
 ---
-title: Mengonversi Presentasi ke HTML dengan Mempertahankan Font Asli di Slide Java
-linktitle: Mengonversi Presentasi ke HTML dengan Mempertahankan Font Asli di Slide Java
-second_title: Aspose.Slides API Pemrosesan Java PowerPoint
-description: Konversikan presentasi PowerPoint ke HTML sambil mempertahankan font asli menggunakan Aspose.Slides untuk Java.
-weight: 14
-url: /id/java/presentation-conversion/convert-presentation-html-preserve-fonts-java-slides/
+"description": "Ubah presentasi PowerPoint ke HTML sambil mempertahankan font asli menggunakan Aspose.Slides untuk Java."
+"linktitle": "Mengubah Presentasi ke HTML dengan Mempertahankan Font Asli di Slide Java"
+"second_title": "API Pemrosesan PowerPoint Java Aspose.Slides"
+"title": "Mengubah Presentasi ke HTML dengan Mempertahankan Font Asli di Slide Java"
+"url": "/id/java/presentation-conversion/convert-presentation-html-preserve-fonts-java-slides/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mengonversi Presentasi ke HTML dengan Mempertahankan Font Asli di Slide Java
+# Mengubah Presentasi ke HTML dengan Mempertahankan Font Asli di Slide Java
 
 
-## Pengantar Mengonversi Presentasi ke HTML dengan Mempertahankan Font Asli di Slide Java
+## Pengantar Konversi Presentasi ke HTML dengan Mempertahankan Font Asli di Slide Java
 
-Dalam tutorial ini, kita akan mempelajari cara mengonversi presentasi PowerPoint (PPTX) ke HTML sambil mempertahankan font asli menggunakan Aspose.Slides untuk Java. Ini akan memastikan bahwa HTML yang dihasilkan sangat mirip dengan tampilan presentasi aslinya.
+Dalam tutorial ini, kita akan mempelajari cara mengonversi presentasi PowerPoint (PPTX) ke HTML dengan tetap mempertahankan font asli menggunakan Aspose.Slides untuk Java. Ini akan memastikan bahwa HTML yang dihasilkan sangat mirip dengan tampilan presentasi asli.
 
 ## Langkah 1: Menyiapkan Proyek
-Sebelum kita mendalami kodenya, pastikan Anda memiliki pengaturan yang diperlukan:
+Sebelum kita masuk ke kode, mari pastikan Anda telah menyiapkan pengaturan yang diperlukan:
 
-1. Unduh Aspose.Slides untuk Java: Jika Anda belum melakukannya, unduh dan sertakan perpustakaan Aspose.Slides untuk Java dalam proyek Anda.
+1. Unduh Aspose.Slides untuk Java: Jika Anda belum melakukannya, unduh dan sertakan pustaka Aspose.Slides untuk Java dalam proyek Anda.
 
 2. Buat Proyek Java: Siapkan proyek Java di IDE favorit Anda, dan pastikan Anda memiliki folder "lib" tempat Anda dapat meletakkan file JAR Aspose.Slides.
 
@@ -43,7 +45,7 @@ Sekarang, mari kita ubah presentasi PowerPoint ke HTML sambil mempertahankan fon
 // Jalur ke direktori dokumen.
 String dataDir = "Your Document Directory";
 
-// Muat presentasi
+// Muat presentasinya
 Presentation pres = new Presentation("input.pptx");
 
 try {
@@ -63,19 +65,19 @@ try {
 }
 ```
 
-Dalam cuplikan kode ini:
+Dalam potongan kode ini:
 
--  Kami memuat input presentasi PowerPoint menggunakan`Presentation`.
+- Kami memuat presentasi PowerPoint input menggunakan `Presentation`.
 
-- Kami mendefinisikan daftar font (`fontNameExcludeList`yang ingin kami kecualikan dari penyematan di HTML. Ini berguna untuk mengecualikan font umum seperti Calibri dan Arial guna mengurangi ukuran file.
+- Kami mendefinisikan daftar font (`fontNameExcludeList`) yang ingin kita kecualikan dari penyematan di HTML. Ini berguna untuk mengecualikan font umum seperti Calibri dan Arial guna mengurangi ukuran file.
 
--  Kami membuat sebuah instance dari`EmbedAllFontsHtmlController` dan meneruskan daftar pengecualian font ke sana.
+- Kami membuat sebuah contoh dari `EmbedAllFontsHtmlController` dan meneruskan daftar pengecualian font ke sana.
 
--  Kami menciptakan`HtmlOptions` dan atur formatter HTML khusus menggunakan`HtmlFormatter.createCustomFormatter(embedFontsController)`.
+- Kami menciptakan `HtmlOptions` dan mengatur format HTML khusus menggunakan `HtmlFormatter.createCustomFormatter(embedFontsController)`.
 
 - Terakhir, kami menyimpan presentasi sebagai HTML dengan opsi yang ditentukan.
 
-## Kode Sumber Lengkap Untuk Mengubah Presentasi ke HTML dengan Mempertahankan Font Asli di Slide Java
+## Source Code Lengkap Untuk Mengubah Presentasi ke HTML dengan Mempertahankan Font Asli di Slide Java
 
 ```java
 // Jalur ke direktori dokumen.
@@ -83,7 +85,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation("input.pptx");
 try
 {
-	// kecualikan font presentasi default
+	// mengecualikan font presentasi default
 	String[] fontNameExcludeList = {"Calibri", "Arial"};
 	EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
 	HtmlOptions htmlOptionsEmbed = new HtmlOptions();
@@ -98,28 +100,30 @@ finally
 
 ## Kesimpulan
 
-Dalam tutorial ini, Anda telah mempelajari cara mengonversi presentasi PowerPoint ke HTML sambil mempertahankan font asli menggunakan Aspose.Slides untuk Java. Ini berguna bila Anda ingin menjaga ketelitian visual presentasi Anda saat membagikannya di web.
+Dalam tutorial ini, Anda telah mempelajari cara mengonversi presentasi PowerPoint ke HTML sambil mempertahankan font asli menggunakan Aspose.Slides untuk Java. Ini berguna saat Anda ingin mempertahankan ketepatan visual presentasi saat membagikannya di web.
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
 ### Bagaimana cara mengunduh Aspose.Slides untuk Java?
 
- Anda dapat mengunduh Aspose.Slides untuk Java dari situs web Aspose. Mengunjungi[Di Sini](https://downloads.aspose.com/slides/java/) untuk mendapatkan versi terbaru.
+Anda dapat mengunduh Aspose.Slides untuk Java dari situs web Aspose. Kunjungi [Di Sini](https://downloads.aspose.com/slides/java/) untuk mendapatkan versi terbaru.
 
 ### Bisakah saya menyesuaikan daftar font yang dikecualikan?
 
- Ya, Anda dapat menyesuaikannya`fontNameExcludeList` array untuk memasukkan atau mengecualikan font tertentu sesuai kebutuhan Anda.
+Ya, Anda dapat menyesuaikan `fontNameExcludeList` array untuk menyertakan atau mengecualikan font tertentu sesuai kebutuhan Anda.
 
 ### Apakah metode ini berfungsi untuk format PowerPoint lama seperti PPT?
 
-Contoh kode ini dirancang untuk file PPTX. Jika Anda perlu mengonversi file PPT lama, Anda mungkin perlu melakukan penyesuaian pada kodenya.
+Contoh kode ini dirancang untuk file PPTX. Jika Anda perlu mengonversi file PPT lama, Anda mungkin perlu melakukan penyesuaian pada kode.
 
-### Bagaimana cara menyesuaikan keluaran HTML lebih lanjut?
+### Bagaimana saya dapat menyesuaikan keluaran HTML lebih lanjut?
 
- Anda dapat menjelajahi`HtmlOptions` kelas untuk menyesuaikan berbagai aspek keluaran HTML, seperti ukuran slide, kualitas gambar, dan banyak lagi.
+Anda dapat menjelajahi `HtmlOptions` kelas untuk menyesuaikan berbagai aspek keluaran HTML, seperti ukuran slide, kualitas gambar, dan banyak lagi.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

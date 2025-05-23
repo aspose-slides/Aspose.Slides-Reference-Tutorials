@@ -1,14 +1,16 @@
 ---
-title: प्रेजेंटेशन से आकृतियों को SVG प्रारूप में निर्यात करें
-linktitle: प्रेजेंटेशन से आकृतियों को SVG प्रारूप में निर्यात करें
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: Aspose.Slides for .NET का उपयोग करके PowerPoint प्रस्तुति से SVG प्रारूप में आकृतियों को निर्यात करना सीखें। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका शामिल है। विभिन्न अनुप्रयोगों के लिए कुशलतापूर्वक आकृतियों को निकालें।
-weight: 16
-url: /hi/net/presentation-manipulation/export-shapes-to-svg-format-from-presentation/
+"description": "Aspose.Slides for .NET का उपयोग करके PowerPoint प्रस्तुति से SVG प्रारूप में आकृतियों को निर्यात करना सीखें। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका शामिल है। विभिन्न अनुप्रयोगों के लिए कुशलतापूर्वक आकृतियों को निकालें।"
+"linktitle": "प्रेजेंटेशन से आकृतियों को SVG प्रारूप में निर्यात करें"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "प्रेजेंटेशन से आकृतियों को SVG प्रारूप में निर्यात करें"
+"url": "/hi/net/presentation-manipulation/export-shapes-to-svg-format-from-presentation/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # प्रेजेंटेशन से आकृतियों को SVG प्रारूप में निर्यात करें
@@ -28,7 +30,7 @@ url: /hi/net/presentation-manipulation/export-shapes-to-svg-format-from-presenta
 - एक पावरपॉइंट प्रस्तुति (PPTX) जिसमें वह आकृति शामिल है जिसे आप निर्यात करना चाहते हैं।
 - C# प्रोग्रामिंग का बुनियादी ज्ञान.
 
-## 3. अपना वातावरण तैयार करना
+## 3. अपना वातावरण स्थापित करना
 
 आरंभ करने के लिए, अपने पसंदीदा IDE में एक नया C# प्रोजेक्ट बनाएँ। सुनिश्चित करें कि आपने अपने प्रोजेक्ट में Aspose.Slides for .NET लाइब्रेरी का संदर्भ दिया है।
 
@@ -49,7 +51,7 @@ using (Presentation pres = new Presentation(dataDir + "YourPresentation.pptx"))
 
 ## 5. किसी आकृति को SVG में निर्यात करना
 
- के अंदर`using` ब्लॉक में, आप अपनी प्रस्तुति में आकृतियों तक पहुँच सकते हैं और उन्हें SVG प्रारूप में निर्यात कर सकते हैं। यहाँ, हम पहली स्लाइड पर पहली आकृति निर्यात कर रहे हैं:
+के अंदर `using` ब्लॉक में, आप अपनी प्रस्तुति में आकृतियों तक पहुँच सकते हैं और उन्हें SVG प्रारूप में निर्यात कर सकते हैं। यहाँ, हम पहली स्लाइड पर पहली आकृति निर्यात कर रहे हैं:
 
 ```csharp
 using (Stream stream = new FileStream(outSvgFileName, FileMode.Create, FileAccess.Write))
@@ -60,9 +62,9 @@ using (Stream stream = new FileStream(outSvgFileName, FileMode.Create, FileAcces
 
 आप इस कोड को विभिन्न आकृतियों को निर्यात करने या आवश्यकतानुसार अतिरिक्त परिवर्तन लागू करने के लिए अनुकूलित कर सकते हैं।
 
-## 6। निष्कर्ष
+## 6. निष्कर्ष
 
-इस ट्यूटोरियल में, हमने .NET के लिए Aspose.Slides का उपयोग करके PowerPoint प्रेजेंटेशन से SVG प्रारूप में आकृतियों को निर्यात करने की प्रक्रिया को देखा है। यह शक्तिशाली लाइब्रेरी कार्य को सरल बनाती है, जिससे आप निर्यात प्रक्रिया को स्वचालित कर सकते हैं और अपने वर्कफ़्लो को बढ़ा सकते हैं।
+इस ट्यूटोरियल में, हमने Aspose.Slides for .NET का उपयोग करके PowerPoint प्रेजेंटेशन से SVG फ़ॉर्मेट में आकृतियों को निर्यात करने की प्रक्रिया को देखा है। यह शक्तिशाली लाइब्रेरी कार्य को सरल बनाती है, जिससे आप निर्यात प्रक्रिया को स्वचालित कर सकते हैं और अपने वर्कफ़्लो को बढ़ा सकते हैं।
 
 ## 7. अक्सर पूछे जाने वाले प्रश्न
 
@@ -84,14 +86,16 @@ using (Stream stream = new FileStream(outSvgFileName, FileMode.Create, FileAcces
 
 ### प्रश्न 5: मुझे .NET के लिए Aspose.Slides का समर्थन कहां मिल सकता है?
 
- आप यहां जा सकते हैं[Aspose.Slides फ़ोरम](https://forum.aspose.com/) समर्थन और सामुदायिक चर्चा के लिए।
+आप यहां जा सकते हैं [Aspose.Slides फ़ोरम](https://forum.aspose.com/) समर्थन और सामुदायिक चर्चा के लिए।
 
 अब जब आपने सीख लिया है कि आकृतियों को SVG प्रारूप में कैसे निर्यात किया जाता है, तो आप अपनी प्रस्तुतियों को बेहतर बना सकते हैं और उन्हें विभिन्न उद्देश्यों के लिए अधिक बहुमुखी बना सकते हैं। हैप्पी कोडिंग!
 
- अधिक जानकारी और उन्नत सुविधाओं के लिए, देखें[.NET API संदर्भ के लिए Aspose.Slides](https://reference.aspose.com/slides/net/).
+अधिक जानकारी और उन्नत सुविधाओं के लिए, देखें [.NET API संदर्भ के लिए Aspose.Slides](https://reference.aspose.com/slides/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

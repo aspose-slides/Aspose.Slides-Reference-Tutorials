@@ -1,34 +1,36 @@
 ---
-title: Rimodellamento delle diapositive della presentazione con Aspose.Slides per .NET
-linktitle: Modifica dell'ordine delle forme nelle diapositive della presentazione utilizzando Aspose.Slides
-second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
-description: Scopri come rimodellare le diapositive della presentazione utilizzando Aspose.Slides per .NET. Segui questa guida passo passo per riordinare le forme e migliorare l'attrattiva visiva.
-weight: 26
-url: /it/net/shape-effects-and-manipulation-in-slides/changing-order-shapes/
+"description": "Scopri come rimodellare le diapositive di una presentazione utilizzando Aspose.Slides per .NET. Segui questa guida passo passo per riordinare le forme e migliorare l'aspetto visivo."
+"linktitle": "Modifica dell'ordine delle forme nelle diapositive della presentazione utilizzando Aspose.Slides"
+"second_title": "API di elaborazione PowerPoint Aspose.Slides .NET"
+"title": "Rimodellare le diapositive della presentazione con Aspose.Slides per .NET"
+"url": "/it/net/shape-effects-and-manipulation-in-slides/changing-order-shapes/"
+"weight": 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Rimodellamento delle diapositive della presentazione con Aspose.Slides per .NET
+# Rimodellare le diapositive della presentazione con Aspose.Slides per .NET
 
-## introduzione
-Creare diapositive di presentazione visivamente accattivanti è un aspetto cruciale di una comunicazione efficace. Aspose.Slides per .NET consente agli sviluppatori di manipolare le diapositive a livello di codice, offrendo un'ampia gamma di funzionalità. In questo tutorial, approfondiremo il processo di modifica dell'ordine delle forme nelle diapositive di presentazione utilizzando Aspose.Slides per .NET.
+## Introduzione
+Creare slide di presentazione visivamente accattivanti è un aspetto cruciale per una comunicazione efficace. Aspose.Slides per .NET consente agli sviluppatori di manipolare le slide a livello di codice, offrendo un'ampia gamma di funzionalità. In questo tutorial, approfondiremo il processo di modifica dell'ordine delle forme nelle slide di una presentazione utilizzando Aspose.Slides per .NET.
 ## Prerequisiti
-Prima di intraprendere questo viaggio, assicurati di disporre dei seguenti prerequisiti:
--  Aspose.Slides per .NET: assicurati di avere la libreria Aspose.Slides integrata nel tuo progetto .NET. In caso contrario, puoi scaricarlo da[pagina dei comunicati](https://releases.aspose.com/slides/net/).
+Prima di intraprendere questo viaggio, assicurati di avere i seguenti prerequisiti:
+- Aspose.Slides per .NET: assicurati di avere la libreria Aspose.Slides integrata nel tuo progetto .NET. In caso contrario, puoi scaricarla da [pagina delle release](https://releases.aspose.com/slides/net/).
 - Ambiente di sviluppo: configura un ambiente di sviluppo funzionante con Visual Studio o qualsiasi altro strumento di sviluppo .NET.
-- Comprensione di base di C#: familiarizza con le basi del linguaggio di programmazione C#.
+- Nozioni di base di C#: familiarizzare con le basi del linguaggio di programmazione C#.
 ## Importa spazi dei nomi
-Nel tuo progetto C#, includi gli spazi dei nomi necessari per accedere alla funzionalità Aspose.Slides:
+Nel tuo progetto C# includi gli spazi dei nomi necessari per accedere alla funzionalità Aspose.Slides:
 ```csharp
 using Aspose.Slides.Export;
 using Aspose.Slides;
 ```
 ## Passaggio 1: imposta il tuo progetto
-Crea un nuovo progetto in Visual Studio o nel tuo ambiente di sviluppo .NET preferito. Assicurati che Aspose.Slides per .NET sia referenziato nel tuo progetto.
-## Passaggio 2: carica la presentazione
+Crea un nuovo progetto in Visual Studio o nel tuo ambiente di sviluppo .NET preferito. Assicurati che Aspose.Slides per .NET sia referenziato nel progetto.
+## Passaggio 2: caricare la presentazione
 ```csharp
 string dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "HelloWorld.pptx");
@@ -37,7 +39,7 @@ Presentation presentation = new Presentation(dataDir + "HelloWorld.pptx");
 ```csharp
 ISlide slide = presentation.Slides[0];
 ```
-## Passaggio 4: aggiungi una nuova forma
+## Passaggio 4: aggiungere una nuova forma
 ```csharp
 IAutoShape shp3 = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 200, 365, 400, 150);
 shp3.FillFormat.FillType = FillType.NoFill;
@@ -50,35 +52,37 @@ IParagraph para = txtFrame.Paragraphs[0];
 IPortion portion = para.Portions[0];
 portion.Text = "Watermark Text Watermark Text Watermark Text";
 ```
-## Passaggio 6: aggiungi un'altra forma
+## Passaggio 6: aggiungere un'altra forma
 ```csharp
 shp3 = slide.Shapes.AddAutoShape(ShapeType.Triangle, 200, 365, 400, 150);
 ```
-## Passaggio 7: modificare l'ordine delle forme
+## Passaggio 7: modifica l'ordine delle forme
 ```csharp
 slide.Shapes.Reorder(2, shp3);
 ```
-## Passaggio 8: salva la presentazione modificata
+## Passaggio 8: salvare la presentazione modificata
 ```csharp
 presentation.Save(dataDir + "Reshape_out.pptx", SaveFormat.Pptx);
 ```
-Questo completa la guida passo passo per modificare l'ordine delle forme nelle diapositive di presentazione utilizzando Aspose.Slides per .NET.
+Questo completa la guida dettagliata per modificare l'ordine delle forme nelle diapositive della presentazione utilizzando Aspose.Slides per .NET.
 ## Conclusione
-Aspose.Slides per .NET semplifica il compito di manipolare le diapositive di presentazione a livello di codice. Seguendo questo tutorial, hai imparato come riordinare le forme, permettendoti di migliorare l'attrattiva visiva delle tue presentazioni.
+Aspose.Slides per .NET semplifica la gestione delle slide delle presentazioni a livello di codice. Seguendo questo tutorial, hai imparato a riordinare le forme, migliorando l'aspetto visivo delle tue presentazioni.
 ## Domande frequenti
-### D: Posso utilizzare Aspose.Slides per .NET in ambienti Windows e Linux?
-R: Sì, Aspose.Slides per .NET è compatibile con ambienti Windows e Linux.
-### D: Esistono considerazioni sulla licenza per l'utilizzo di Aspose.Slides in un progetto commerciale?
- R: Sì, puoi trovare i dettagli della licenza e le opzioni di acquisto su[Pagina di acquisto di Aspose.Slides](https://purchase.aspose.com/buy).
-### D: È disponibile una prova gratuita per Aspose.Slides per .NET?
- R: Sì, puoi esplorare le funzionalità con[prova gratuita](https://releases.aspose.com/) disponibile sul sito Web Aspose.Slides.
+### D: Posso utilizzare Aspose.Slides per .NET sia in ambienti Windows che Linux?
+R: Sì, Aspose.Slides per .NET è compatibile sia con gli ambienti Windows che Linux.
+### D: Ci sono considerazioni sulla licenza per l'utilizzo di Aspose.Slides in un progetto commerciale?
+A: Sì, puoi trovare i dettagli sulla licenza e le opzioni di acquisto su [Pagina di acquisto di Aspose.Slides](https://purchase.aspose.com/buy).
+### D: È disponibile una versione di prova gratuita di Aspose.Slides per .NET?
+A: Sì, puoi esplorare le funzionalità con [prova gratuita](https://releases.aspose.com/) disponibile sul sito web Aspose.Slides.
 ### D: Dove posso trovare supporto o porre domande relative ad Aspose.Slides per .NET?
- R: Visita il[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) per ottenere supporto e interagire con la comunità.
+A: Visita il [Forum di Aspose.Slides](https://forum.aspose.com/c/slides/11) per ottenere supporto e interagire con la comunità.
 ### D: Come posso ottenere una licenza temporanea per Aspose.Slides per .NET?
- R: Puoi acquisire a[licenza temporanea](https://purchase.aspose.com/temporary-license/) a fini di valutazione.
+A: Puoi acquisire un [licenza temporanea](https://purchase.aspose.com/temporary-license/) a fini di valutazione.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

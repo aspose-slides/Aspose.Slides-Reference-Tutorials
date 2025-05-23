@@ -1,14 +1,16 @@
 ---
-title: जावा पावरपॉइंट में स्मार्टआर्ट में सहायक नोड जोड़ें
-linktitle: जावा पावरपॉइंट में स्मार्टआर्ट में सहायक नोड जोड़ें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides का उपयोग करके Java PowerPoint प्रस्तुतियों में SmartArt में सहायक नोड जोड़ने का तरीका जानें। अपने PowerPoint संपादन कौशल को बढ़ाएँ।
-weight: 17
-url: /hi/java/java-powerpoint-smartart-manipulation/add-assistant-node-smartart-java-powerpoint/
+"description": "Aspose.Slides का उपयोग करके Java PowerPoint प्रस्तुतियों में SmartArt में सहायक नोड जोड़ने का तरीका जानें। अपने PowerPoint संपादन कौशल को बढ़ाएँ।"
+"linktitle": "जावा पावरपॉइंट में स्मार्टआर्ट में सहायक नोड जोड़ें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा पावरपॉइंट में स्मार्टआर्ट में सहायक नोड जोड़ें"
+"url": "/hi/java/java-powerpoint-smartart-manipulation/add-assistant-node-smartart-java-powerpoint/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा पावरपॉइंट में स्मार्टआर्ट में सहायक नोड जोड़ें
@@ -17,8 +19,8 @@ url: /hi/java/java-powerpoint-smartart-manipulation/add-assistant-node-smartart-
 इस ट्यूटोरियल में, हम आपको Aspose.Slides का उपयोग करके Java PowerPoint प्रस्तुतियों में SmartArt में सहायक नोड जोड़ने की प्रक्रिया के बारे में मार्गदर्शन करेंगे।
 ## आवश्यक शर्तें
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
-1.  जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपके सिस्टम पर जावा इंस्टॉल है। आप नवीनतम JDK को यहाँ से डाउनलोड और इंस्टॉल कर सकते हैं।[यहाँ](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
-2.  Aspose.Slides for Java: Aspose.Slides for Java लाइब्रेरी को यहां से डाउनलोड और इंस्टॉल करें[इस लिंक](https://releases.aspose.com/slides/java/).
+1. जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपके सिस्टम पर जावा इंस्टॉल है। आप नवीनतम JDK को यहाँ से डाउनलोड और इंस्टॉल कर सकते हैं। [यहाँ](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+2. Aspose.Slides for Java: Aspose.Slides for Java लाइब्रेरी को यहां से डाउनलोड और इंस्टॉल करें [इस लिंक](https://releases.aspose.com/slides/java/).
 
 ## पैकेज आयात करें
 आरंभ करने के लिए, अपने जावा कोड में आवश्यक पैकेज आयात करें:
@@ -26,7 +28,7 @@ url: /hi/java/java-powerpoint-smartart-manipulation/add-assistant-node-smartart-
 import com.aspose.slides.*;
 ```
 ## चरण 1: प्रस्तुति सेट करें
-अपनी PowerPoint फ़ाइल के पथ का उपयोग करके एक प्रेजेंटेशन इंस्टैंस बनाना शुरू करें:
+अपनी PowerPoint फ़ाइल के पथ का उपयोग करके एक प्रस्तुतिकरण उदाहरण बनाना शुरू करें:
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "AssistantNode.pptx");
@@ -76,9 +78,11 @@ Aspose.Slides PowerPoint संस्करण 97-2003 से नवीनतम
 हां, आप Aspose.Slides द्वारा प्रदान किए गए विभिन्न गुणों और विधियों का उपयोग करके उपस्थिति को अनुकूलित कर सकते हैं।
 ### क्या स्मार्टआर्ट में नोड्स की संख्या की कोई सीमा होती है?
 पावरपॉइंट में स्मार्टआर्ट बड़ी संख्या में नोड्स का समर्थन करता है, लेकिन बेहतर पठनीयता के लिए इसे उचित रखने की अनुशंसा की जाती है।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

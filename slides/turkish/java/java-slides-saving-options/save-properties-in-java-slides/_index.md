@@ -1,14 +1,16 @@
 ---
-title: Java Slaytlarında Özellikleri Kaydetme
-linktitle: Java Slaytlarında Özellikleri Kaydetme
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides for Java ile PowerPoint sunumlarınızı optimize edin. Özellikleri ayarlamayı, şifrelemeyi devre dışı bırakmayı, parola koruması eklemeyi ve zahmetsizce kaydetmeyi öğrenin.
-weight: 12
-url: /tr/java/saving-options/save-properties-in-java-slides/
+"description": "PowerPoint sunumlarınızı Aspose.Slides for Java ile optimize edin. Özellikleri ayarlamayı, şifrelemeyi devre dışı bırakmayı, parola koruması eklemeyi ve zahmetsizce kaydetmeyi öğrenin."
+"linktitle": "Java Slaytlarında Özellikleri Kaydetme"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java Slaytlarında Özellikleri Kaydetme"
+"url": "/tr/java/saving-options/save-properties-in-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java Slaytlarında Özellikleri Kaydetme
@@ -16,13 +18,13 @@ url: /tr/java/saving-options/save-properties-in-java-slides/
 
 ## Java Slaytlarında Özellikleri Kaydetmeye Giriş
 
-Bu eğitimde, Aspose.Slides for Java'yı kullanarak bir PowerPoint sunumundaki özellikleri kaydetme sürecinde size rehberlik edeceğiz. Belge özelliklerini nasıl ayarlayacağınızı, belge özellikleri için şifrelemeyi nasıl devre dışı bırakacağınızı, sununuzu korumak için bir parola ayarlamayı ve bunu bir dosyaya kaydetmeyi öğreneceksiniz. Size adım adım talimatlar ve kaynak kodu örnekleri sunacağız.
+Bu eğitimde, Aspose.Slides for Java kullanarak bir PowerPoint sunumunda özellikleri kaydetme sürecinde size rehberlik edeceğiz. Belge özelliklerini ayarlamayı, belge özellikleri için şifrelemeyi devre dışı bırakmayı, sunumunuzu korumak için bir parola ayarlamayı ve bir dosyaya kaydetmeyi öğreneceksiniz. Size adım adım talimatlar ve kaynak kodu örnekleri sağlayacağız.
 
-## Önkoşullar
+## Ön koşullar
 
- Başlamadan önce Aspose.Slides for Java kütüphanesinin Java projenize entegre olduğundan emin olun. Kütüphaneyi Aspose web sitesinden indirebilirsiniz.[Burada](https://downloads.aspose.com/slides/java).
+Başlamadan önce, Java projenize Aspose.Slides for Java kütüphanesinin entegre olduğundan emin olun. Kütüphaneyi Aspose web sitesinden indirebilirsiniz [Burada](https://downloads.aspose.com/slides/java).
 
-## 1. Adım: Gerekli Kitaplıkları İçe Aktarın
+## Adım 1: Gerekli Kitaplıkları İçe Aktarın
 
 Başlamak için gerekli sınıfları ve kitaplıkları içe aktarın:
 
@@ -31,27 +33,27 @@ import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 ```
 
-## Adım 2: Sunum Nesnesi Oluşturun
+## Adım 2: Bir Sunum Nesnesi Oluşturun
 
-PowerPoint sunumunuzu temsil edecek bir Sunum nesnesi oluşturun. Yeni bir sunum oluşturabilir veya mevcut bir sunumu yükleyebilirsiniz. Bu örnekte yeni bir sunum oluşturacağız.
+PowerPoint sunumunuzu temsil etmek için bir Sunum nesnesi oluşturun. Yeni bir sunum oluşturabilir veya mevcut bir sunumu yükleyebilirsiniz. Bu örnekte yeni bir sunum oluşturacağız.
 
 ```java
-// Sunuyu kaydetmek istediğiniz dizinin yolu
+// Sunumu kaydetmek istediğiniz dizinin yolu
 String dataDir = "Your Document Directory";
 
-// Bir Sunum nesnesinin örneğini oluşturma
+// Bir Sunum nesnesi örneği oluşturun
 Presentation presentation = new Presentation();
 ```
 
-## 3. Adım: Belge Özelliklerini Ayarlayın
+## Adım 3: Belge Özelliklerini Ayarlayın
 
-Başlık, yazar, anahtar kelimeler ve daha fazlası gibi çeşitli belge özelliklerini ayarlayabilirsiniz. Burada birkaç ortak özelliği belirleyeceğiz:
+Başlık, yazar, anahtar sözcükler ve daha fazlası gibi çeşitli belge özelliklerini ayarlayabilirsiniz. Burada, birkaç ortak özelliği ayarlayacağız:
 
 ```java
 // Sunumun başlığını ayarlayın
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-//Sununun yazarını ayarlama
+// Sunumun yazarını belirleyin
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // Sunum için anahtar kelimeler belirleyin
@@ -60,44 +62,44 @@ presentation.getDocumentProperties().setKeywords("Aspose, Slides, Java, Tutorial
 
 ## Adım 4: Belge Özellikleri için Şifrelemeyi Devre Dışı Bırakın
 
-Aspose.Slides varsayılan olarak belge özelliklerini şifreler. Belge özelliklerinde şifrelemeyi devre dışı bırakmak istiyorsanız aşağıdaki kodu kullanın:
+Varsayılan olarak, Aspose.Slides belge özelliklerini şifreler. Belge özellikleri için şifrelemeyi devre dışı bırakmak istiyorsanız, aşağıdaki kodu kullanın:
 
 ```java
 presentation.getProtectionManager().setEncryptDocumentProperties(false);
 ```
 
-## Adım 5: Sunumu Korumak için Bir Parola Belirleyin
+## Adım 5: Sunumu Korumak İçin Bir Parola Ayarlayın
 
- Erişimi kısıtlamak için sunumunuzu bir parola ile koruyabilirsiniz. Kullan`encrypt` şifre belirleme yöntemi:
+Erişimi kısıtlamak için sunumunuzu bir parola ile koruyabilirsiniz. `encrypt` şifre belirleme yöntemi:
 
 ```java
-// Sunuyu korumak için bir şifre belirleyin
+// Sunumu korumak için bir parola belirleyin
 presentation.getProtectionManager().encrypt("your_password");
 ```
 
- Yer değiştirmek`"your_password"` İstediğiniz şifre ile
+Yer değiştirmek `"your_password"` İstediğiniz şifreyle.
 
-## Adım 6: Sunuyu Kaydetme
+## Adım 6: Sunumu Kaydedin
 
-Son olarak sunuyu bir dosyaya kaydedin. Bu örnekte bunu bir PPTX dosyası olarak kaydedeceğiz:
+Son olarak sunumu bir dosyaya kaydedin. Bu örnekte, bunu bir PPTX dosyası olarak kaydedeceğiz:
 
 ```java
-// Sunuyu bir dosyaya kaydetme
+// Sunumu bir dosyaya kaydedin
 presentation.save(dataDir + "Password_Protected_Presentation_out.pptx", SaveFormat.Pptx);
 ```
 
- Yer değiştirmek`"Password_Protected_Presentation_out.pptx"` İstediğiniz dosya adı ve yolu ile.
+Yer değiştirmek `"Password_Protected_Presentation_out.pptx"` İstediğiniz dosya adı ve yolu ile.
 
-## Java Slaytlarındaki Özellikleri Kaydetmek İçin Tam Kaynak Kodu
+## Java Slaytlarında Özellikleri Kaydetmek İçin Tam Kaynak Kodu
 
 ```java
-// Belgeler dizininin yolu.
+// Belgeler dizinine giden yol.
 String dataDir = "Your Document Directory";
-// Bir PPT dosyasını temsil eden bir Sunum nesnesinin örneğini oluşturun
+// Bir PPT dosyasını temsil eden bir Sunum nesnesi örneği oluşturun
 Presentation presentation = new Presentation();
 try
 {
-	//....burada biraz iş yapın.....
+	//....burada biraz çalış...
 	// Parola korumalı modda belge özelliklerine erişimi ayarlama
 	presentation.getProtectionManager().setEncryptDocumentProperties(false);
 	// Şifre Ayarlama
@@ -113,28 +115,28 @@ finally
 
 ## Çözüm
 
-Bu eğitimde Aspose.Slides for Java kullanarak bir PowerPoint sunumunda belge özelliklerini nasıl kaydedeceğinizi öğrendiniz. Çeşitli özellikleri ayarlayabilir, belge özellikleri için şifrelemeyi devre dışı bırakabilir, koruma için bir parola belirleyebilir ve sunuyu istediğiniz formatta kaydedebilirsiniz.
+Bu eğitimde, Aspose.Slides for Java kullanarak bir PowerPoint sunumunda belge özelliklerinin nasıl kaydedileceğini öğrendiniz. Çeşitli özellikler ayarlayabilir, belge özellikleri için şifrelemeyi devre dışı bırakabilir, koruma için bir parola belirleyebilir ve sunumu istediğiniz biçimde kaydedebilirsiniz.
 
-## SSS'ler
+## SSS
 
 ### Aspose.Slides for Java'da belge özelliklerini nasıl ayarlayabilirim?
 
- Aspose.Slides for Java'da belge özelliklerini ayarlamak için`DocumentProperties` sınıf. Başlık, yazar ve anahtar kelimeler gibi özelliklerin nasıl ayarlanacağına ilişkin bir örneği burada bulabilirsiniz:
+Java için Aspose.Slides'ta belge özelliklerini ayarlamak için şunu kullanabilirsiniz: `DocumentProperties` sınıf. İşte başlık, yazar ve anahtar sözcükler gibi özelliklerin nasıl ayarlanacağına dair bir örnek:
 
 ```java
 // Sunumun başlığını ayarlayın
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-//Sununun yazarını ayarlama
+// Sunumun yazarını belirleyin
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // Sunum için anahtar kelimeler belirleyin
 presentation.getDocumentProperties().setKeywords("Aspose, Slides, Java, Tutorial");
 ```
 
-### Belge özellikleri için şifrelemeyi devre dışı bırakmanın amacı nedir?
+### Belge özelliklerinde şifrelemenin devre dışı bırakılmasının amacı nedir?
 
-Belge özellikleri için şifrelemeyi devre dışı bırakmak, belge meta verilerini şifreleme olmadan saklamanıza olanak tanır. Belge özelliklerinin (başlık, yazar vb.) parola girmeden görünür ve erişilebilir olmasını istediğinizde bu yararlı olabilir.
+Belge özellikleri için şifrelemeyi devre dışı bırakmak, belge meta verilerini şifreleme olmadan depolamanıza olanak tanır. Bu, belge özelliklerinin (başlık, yazar vb. gibi) parola girmeden görünür ve erişilebilir olmasını istediğinizde yararlı olabilir.
 
 Aşağıdaki kodu kullanarak şifrelemeyi devre dışı bırakabilirsiniz:
 
@@ -142,28 +144,28 @@ Aşağıdaki kodu kullanarak şifrelemeyi devre dışı bırakabilirsiniz:
 presentation.getProtectionManager().setEncryptDocumentProperties(false);
 ```
 
-### Aspose.Slides for Java'yı kullanarak PowerPoint sunumumu nasıl şifreyle koruyabilirim?
+### Aspose.Slides for Java kullanarak PowerPoint sunumumu parola ile nasıl koruyabilirim?
 
-PowerPoint sunumunuzu bir parolayla korumak için`encrypt` tarafından sağlanan yöntem`ProtectionManager` sınıf. Şifreyi nasıl belirleyeceğiniz aşağıda açıklanmıştır:
+PowerPoint sunumunuzu bir parola ile korumak için şunu kullanabilirsiniz: `encrypt` tarafından sağlanan yöntem `ProtectionManager` sınıf. İşte şifre belirleme yöntemi:
 
 ```java
-// Sunuyu korumak için bir şifre belirleyin
+// Sunumu korumak için bir parola belirleyin
 presentation.getProtectionManager().encrypt("your_password");
 ```
 
- Yer değiştirmek`"your_password"` İstediğiniz şifre ile
+Yer değiştirmek `"your_password"` İstediğiniz şifreyle.
 
-### Sunuyu PPTX dışında farklı bir formatta kaydedebilir miyim?
+### Sunumu PPTX dışında farklı bir formatta kaydedebilir miyim?
 
- Evet, sunumu Aspose.Slides for Java tarafından desteklenen PPT, PDF ve daha fazlası gibi çeşitli formatlarda kaydedebilirsiniz. Farklı bir formatta kaydetmek için`SaveFormat` parametresi`presentation.save` yöntem. Örneğin PDF olarak kaydetmek için:
+Evet, sunumu Aspose.Slides for Java tarafından desteklenen PPT, PDF ve daha fazlası gibi çeşitli biçimlerde kaydedebilirsiniz. Farklı bir biçimde kaydetmek için, `SaveFormat` parametre içinde `presentation.save` yöntem. Örneğin, PDF olarak kaydetmek için:
 
 ```java
 presentation.save(dataDir + "Presentation.pdf", SaveFormat.Pdf);
 ```
 
-### Sunum nesnesini kaydettikten sonra imha etmek gerekir mi?
+### Sunum nesnesini kaydettikten sonra elden çıkarmak gerekli midir?
 
- Sistem kaynaklarını serbest bırakmak için Sunum nesnesini elden çıkarmak iyi bir uygulamadır. Bir kullanabilirsiniz`finally` Kod örneğinde gösterildiği gibi, uygun şekilde imha edilmesini sağlamak için bloke edin:
+Sistem kaynaklarını serbest bırakmak için Sunum nesnesini elden çıkarmak iyi bir uygulamadır. Bir `finally` Kod örneğinde gösterildiği gibi, uygun şekilde bertaraf edilmesini sağlamak için engelleyin:
 
 ```java
 finally {
@@ -171,14 +173,16 @@ finally {
 }
 ```
 
-Bu, uygulamanızdaki bellek sızıntılarını önlemeye yardımcı olur.
+Bu, uygulamanızda bellek sızıntılarının önlenmesine yardımcı olur.
 
-### Aspose.Slides for Java ve özellikleri hakkında nasıl daha fazla bilgi edinebilirim?
+### Aspose.Slides for Java ve özellikleri hakkında daha fazla bilgi nasıl edinebilirim?
 
- Aspose.Slides for Java belgelerini şuradan inceleyebilirsiniz:[Burada](https://docs.aspose.com/slides/java/) Kitaplığın kullanımına ilişkin ayrıntılı bilgi, eğitimler ve örnekler için.
+Java için Aspose.Slides belgelerini şu adreste inceleyebilirsiniz: [Burada](https://docs.aspose.com/slides/java/) Kütüphanenin kullanımı hakkında detaylı bilgi, eğitimler ve örnekler için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

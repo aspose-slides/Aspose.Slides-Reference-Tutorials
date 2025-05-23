@@ -1,22 +1,24 @@
 ---
-title: Java スライドの従量制ライセンス
-linktitle: Java スライドの従量制ライセンス
-second_title: Aspose.Slides Java PowerPoint 処理 API
-description: 従量制ライセンスを使用して Aspose.Slides for Java の使用を最適化します。設定方法と API 使用量の監視方法を学びます。
-weight: 10
-url: /ja/java/licensing-and-initialization/metered-licensing-java-slides/
+"description": "従量制ライセンスでAspose.Slides for Javaの利用を最適化しましょう。設定方法とAPI使用量の監視方法をご紹介します。"
+"linktitle": "Javaスライドにおける従量制ライセンス"
+"second_title": "Aspose.Slides Java PowerPoint 処理 API"
+"title": "Javaスライドにおける従量制ライセンス"
+"url": "/ja/java/licensing-and-initialization/metered-licensing-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java スライドの従量制ライセンス
+# Javaスライドにおける従量制ライセンス
 
 
-## Aspose.Slides for Java の従量制ライセンスの概要
+## Aspose.Slides for Java における従量制ライセンスの概要
 
-従量制ライセンスを使用すると、Aspose.Slides for Java API の使用状況を監視および制御できます。このガイドでは、Aspose.Slides を使用して Java プロジェクトに従量制ライセンスを実装するプロセスについて説明します。 
+従量制ライセンスを使用すると、Aspose.Slides for Java API の使用状況を監視および制御できます。このガイドでは、Aspose.Slides を使用して Java プロジェクトに従量制ライセンスを実装する手順を説明します。 
 
 ## 前提条件
 
@@ -29,13 +31,13 @@ url: /ja/java/licensing-and-initialization/metered-licensing-java-slides/
 
 Aspose.Slides for Java で従量制ライセンスを使用するには、次の手順に従います。
 
-### ステップ1: インスタンスを作成する`Metered` class:
+### ステップ1: インスタンスを作成する `Metered` クラス：
 
 ```java
 Metered metered = new Metered();
 ```
 
-### ステップ 2: 公開キーと秘密キーを使用して計測キーを設定します。
+### ステップ 2: 公開キーと秘密キーを使用して従量制キーを設定します。
 
 ```java
 try
@@ -44,42 +46,42 @@ try
 }
 catch (Exception ex)
 {
-	//例外を処理する
+	// 例外を処理する
 }
 ```
 
-### ステップ 3: API を呼び出す前と呼び出した後の計測データ量を取得します。
+### ステップ 3: API を呼び出す前と後の従量制データ量を取得します。
 
 ```java
 // API を呼び出す前に従量制データ量を取得する
 double amountBefore = Metered.getConsumptionQuantity();
 
-//情報を表示
+// 情報を表示
 System.out.println("Amount Consumed Before: " + amountBefore);
 
-//ここでAspose.Slides APIメソッドを呼び出します
+// ここでAspose.Slides APIメソッドを呼び出します
 
-//API を呼び出して従量制データ量を取得する
+// API を呼び出した後、従量制データ量を取得する
 double amountAfter = Metered.getConsumptionQuantity();
 
-//情報を表示
+// 情報を表示
 System.out.println("Amount Consumed After: " + amountAfter);
 ```
 ## 完全なソースコード
 ```java
-//CAD Meteredクラスのインスタンスを作成する
+// CAD Meteredクラスのインスタンスを作成する
 Metered metered = new Metered();
 try
 {
-	//setMeteredKeyプロパティにアクセスし、公開鍵と秘密鍵をパラメータとして渡す
+	// setMeteredKeyプロパティにアクセスし、公開鍵と秘密鍵をパラメータとして渡す
 	metered.setMeteredKey("*****", "*****");
 	// API を呼び出す前に従量制データ量を取得する
 	double amountbefore = Metered.getConsumptionQuantity();
-	//情報を表示
+	// 情報を表示
 	System.out.println("Amount Consumed Before: " + amountbefore);
-	//API呼び出し後に従量制データ量を取得する
+	// API呼び出し後に従量制データ量を取得する
 	double amountafter = Metered.getConsumptionQuantity();
-	//情報を表示
+	// 情報を表示
 	System.out.println("Amount Consumed After: " + amountafter);
 }
 catch (Exception ex)
@@ -90,13 +92,13 @@ catch (Exception ex)
 
 ## 結論
 
-Aspose.Slides for Java で従量制ライセンスを実装すると、API の使用状況を効率的に監視できます。これは、コストを管理し、割り当てられた制限内に収めたい場合に特に便利です。
+Aspose.Slides for Java に従量制ライセンスを実装すると、API の使用状況を効率的に監視できます。これは、コストを管理し、割り当てられた制限内に収めたい場合に特に役立ちます。
 
 ## よくある質問
 
 ### 従量制ライセンス キーを取得するにはどうすればよいですか?
 
-Aspose から従量制ライセンス キーを取得できます。詳細については、サポートに問い合わせるか、Web サイトにアクセスしてください。
+Aspose から従量制ライセンスキーを取得できます。詳細については、サポートにお問い合わせいただくか、ウェブサイトをご覧ください。
 
 ### Aspose.Slides for Java を使用するには従量制ライセンスが必要ですか?
 
@@ -106,7 +108,7 @@ Aspose から従量制ライセンス キーを取得できます。詳細につ
 
 はい、Aspose.Slides for Java を含むさまざまな Aspose 製品で従量制ライセンスをご利用いただけます。
 
-### メーター制限を超えたらどうなりますか?
+### メーターの制限を超えたらどうなりますか?
 
 従量制制限を超えた場合は、ライセンスをアップグレードするか、Aspose に問い合わせてサポートを受ける必要があります。
 
@@ -114,9 +116,11 @@ Aspose から従量制ライセンス キーを取得できます。詳細につ
 
 はい、従量制ライセンスを設定および検証するにはインターネット接続が必要です。
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

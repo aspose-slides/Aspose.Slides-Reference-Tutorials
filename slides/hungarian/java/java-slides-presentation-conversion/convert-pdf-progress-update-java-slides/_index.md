@@ -1,41 +1,43 @@
 ---
-title: Konvertálja PDF-be a Java Slides folyamatfrissítésével
-linktitle: Konvertálja PDF-be a Java Slides folyamatfrissítésével
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: A PowerPoint konvertálása PDF-be a Java Progress Updates segítségével az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskóddal és folyamatkövetéssel a zökkenőmentes átalakítás érdekében.
-weight: 36
-url: /hu/java/presentation-conversion/convert-pdf-progress-update-java-slides/
+"description": "PowerPoint fájlok konvertálása PDF-be folyamatfrissítésekkel Java nyelven az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskóddal és folyamatkövetéssel a zökkenőmentes konvertáláshoz."
+"linktitle": "PDF-be konvertálás folyamatfrissítéssel Java Slides-ben"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "PDF-be konvertálás folyamatfrissítéssel Java Slides-ben"
+"url": "/hu/java/presentation-conversion/convert-pdf-progress-update-java-slides/"
+"weight": 36
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Konvertálja PDF-be a Java Slides folyamatfrissítésével
+# PDF-be konvertálás folyamatfrissítéssel Java Slides-ben
 
 
-## Bevezetés a PowerPoint PDF formátumba konvertálásához Java folyamatfrissítésekkel az Aspose.Slides for Java használatával
+## Bevezetés a PowerPoint PDF-be konvertálásához a folyamatfrissítésekkel Java nyelven az Aspose.Slides for Java használatával
 
-Ebben a lépésenkénti útmutatóban bemutatjuk, hogyan konvertálhat PowerPoint prezentációt (PPTX) PDF-fájllá Java nyelven az Aspose.Slides for Java segítségével. Ezenkívül az átalakítási folyamat során az előrehaladásról szóló frissítéseket is tartalmazni fogjuk.
+Ebben a lépésről lépésre bemutató útmutatóban bemutatjuk, hogyan konvertálhatsz egy PowerPoint prezentációt (PPTX) PDF fájllá Java nyelven az Aspose.Slides for Java segítségével. Ezenkívül a konvertálási folyamat során folyamatosan frissítjük a folyamatot.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételeket teljesítette:
+Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 
 - Java fejlesztői környezet beállítása.
--  Aspose.Slides for Java könyvtár hozzáadva a projekthez. Letöltheti innen[itt](https://downloads.aspose.com/slides/java).
+- Az Aspose.Slides for Java könyvtár hozzáadva a projektedhez. Letöltheted innen: [itt](https://downloads.aspose.com/slides/java).
 
-## 1. lépés: Az Aspose.Slides for Java Library importálása
+## 1. lépés: Importálja az Aspose.Slides fájlt a Java könyvtárhoz
 
-A kezdéshez importálnia kell az Aspose.Slides könyvtárat a Java projektbe. Győződjön meg arról, hogy hozzáadta az Aspose.Slides JAR fájlokat az osztályútvonalhoz.
+A kezdéshez importálnod kell az Aspose.Slides könyvtárat a Java projektedbe. Győződj meg róla, hogy hozzáadtad az Aspose.Slides JAR fájlokat az osztályútvonaladhoz.
 
 ```java
 import com.aspose.slides.*;
 ```
 
-## 2. lépés: Hozzon létre egy Java osztályt
+## 2. lépés: Java osztály létrehozása
 
- Hozzon létre egy Java osztályt, ahol végrehajtja a PowerPoint PDF konvertálását. Nevezzük el`PowerPointToPdfConverter`.
+Hozz létre egy Java osztályt, ahol PowerPointból PDF-et fogsz konvertálni. Nevezzük el `PowerPointToPdfConverter`.
 
 ```java
 public class PowerPointToPdfConverter {
@@ -54,29 +56,29 @@ public class PowerPointToPdfConverter {
 }
 ```
 
-## 3. lépés: Végezze el a folyamat visszahívását
+## 3. lépés: A folyamat visszahívásának megvalósítása
 
- Bevezetünk egy folyamat visszahívási kezelőt, amely frissítéseket kap az átalakítási folyamat során. Hozzuk létre a nevű osztályt`ExportProgressHandler` erre a célra.
+Implementálunk egy folyamatjelző visszahívás-kezelőt, amely a konverziós folyamat során frissítéseket fogad. Hozzunk létre egy osztályt a következő néven: `ExportProgressHandler` erre a célra.
 
 ```java
 class ExportProgressHandler implements IProgressCallback {
     public void reporting(double progressValue) {
-        // Itt használja a haladási százalékos értéket
+        // Használja itt a haladás százalékos értékét
         long progress = Math.round(progressValue);
         System.out.println(progress + "% file converted");
     }
 }
 ```
 
-## 4. lépés: Cserélje ki a „Saját dokumentumkönyvtárat”
+## 4. lépés: Cserélje le a „Saját dokumentumkönyvtár” részt
 
- Cserélje ki`"Your Document Directory"` ban,-ben`PowerPointToPdfConverter` osztályba a PowerPoint-fájl tényleges elérési útjával és a kívánt kimeneti könyvtárral.
+Csere `"Your Document Directory"` a `PowerPointToPdfConverter` osztály a PowerPoint fájl tényleges elérési útjával és a kívánt kimeneti könyvtárral.
 
 ## 5. lépés: Fordítás és futtatás
 
-Fordítsa le a Java osztályt, és futtassa a`PowerPointToPdfConverter` osztály. A PowerPoint prezentációt PDF-fájllá konvertálja, miközben frissítéseket biztosít a konzolon.
+Fordítsd le a Java osztályodat, és futtasd a `PowerPointToPdfConverter` osztály. PDF fájllá konvertálja a PowerPoint bemutatót, miközben a konzolon frissítéseket jelenít meg a folyamatról.
 
-## Teljes forráskód PDF formátumba konvertálásához a Java Slides folyamatfrissítésével
+## Teljes forráskód a PDF-be konvertáláshoz a folyamatfrissítéssel Java Slides-ben
 
 ```java
         // A dokumentumok könyvtárának elérési útja.
@@ -98,36 +100,38 @@ class ExportProgressHandler implements IProgressCallback
 {
     public void reporting(double progressValue)
     {
-        // Itt használja a haladási százalékos értéket
+        // Használja itt a haladás százalékos értékét
         long progress = Math.round(progressValue);
         System.out.println(progress + "% file converted");
 ```
 
 ## Következtetés
 
-Ebben a lépésenkénti útmutatóban megvizsgáltuk, hogyan lehet a PowerPoint prezentációt (PPTX) PDF-fájllá konvertálni Java nyelven az Aspose.Slides for Java segítségével. Ezenkívül az átalakítási folyamat során frissítéseket hajtottunk végre, hogy nyomon követhessük a művelet állapotát.
+Ebben a lépésről lépésre szóló útmutatóban azt vizsgáltuk meg, hogyan lehet PowerPoint-bemutatót (PPTX) PDF-fájllá konvertálni Java-ban az Aspose.Slides for Java segítségével. Ezenkívül a konvertálási folyamat során frissítéseket is bevezettünk a művelet állapotának nyomon követése érdekében.
 
 ## GYIK
 
-### Hogyan tölthetem le az Aspose.Slides for Java programot?
+### Hogyan tölthetem le az Aspose.Slides programot Java-hoz?
 
- Az Aspose.Slides for Java letölthető az Aspose webhelyéről:[itt](https://downloads.aspose.com/slides/java).
+Az Aspose.Slides Java-verzióját letöltheted az Aspose weboldaláról a következő címen: [itt](https://downloads.aspose.com/slides/java).
 
-###  Mi a célja`IProgressCallback`?
+### Mi a célja? `IProgressCallback`?
 
-`IProgressCallback` az Aspose.Slides for Java által biztosított interfész, amely az exportálási műveletek során az előrehaladás jelentését valósítja meg. Lehetővé teszi az olyan feladatok előrehaladásának nyomon követését, mint a prezentációk PDF-be konvertálása.
+`IProgressCallback` egy Aspose.Slides által Java-ban biztosított felület, amely az exportálási műveletek során megjelenő folyamatjelentéseket teszi lehetővé. Lehetővé teszi az olyan feladatok előrehaladásának nyomon követését, mint például a prezentációk PDF-be konvertálása.
 
-### Használhatom az Aspose.Slides for Java programot más PowerPoint-műveletekhez?
+### Használhatom az Aspose.Slides for Java-t más PowerPoint-műveletekhez?
 
-Igen, az Aspose.Slides for Java kiterjedt funkcionalitást biztosít a PowerPoint prezentációkkal való munkavégzéshez, beleértve azok létrehozását, módosítását és különféle formátumokba konvertálását.
+Igen, az Aspose.Slides for Java kiterjedt funkciókat kínál a PowerPoint-bemutatókkal való munkához, beleértve a létrehozásukat, módosításukat és különböző formátumokba konvertálásukat.
 
-### Hogyan szabhatom testre a PDF-konverziós beállításokat?
+### Hogyan szabhatom testre a PDF konvertálási beállításait?
 
- A PDF-konverziós beállításokat személyre szabhatja a`PdfOptions` objektumot a`presentation.save` módszer. Ez magában foglalja az olyan tulajdonságok beállítását, mint az oldalméret, a minőség és egyebek.
+A PDF konvertálási beállításokat testreszabhatja a következő módosításával: `PdfOptions` objektum hívása előtt `presentation.save` metódus. Ez magában foglalja az olyan tulajdonságok beállítását, mint az oldalméret, a minőség és egyebek.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

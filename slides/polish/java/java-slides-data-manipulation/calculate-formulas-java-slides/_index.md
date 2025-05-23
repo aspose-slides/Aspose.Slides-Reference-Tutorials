@@ -1,30 +1,32 @@
 ---
-title: Oblicz formuły w slajdach Java
-linktitle: Oblicz formuły w slajdach Java
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Dowiedz się, jak obliczać formuły w Java Slides przy użyciu Aspose.Slides dla Java. Przewodnik krok po kroku z kodem źródłowym dynamicznych prezentacji PowerPoint.
-weight: 10
-url: /pl/java/data-manipulation/calculate-formulas-java-slides/
+"description": "Dowiedz się, jak obliczać formuły w Java Slides przy użyciu Aspose.Slides for Java. Przewodnik krok po kroku z kodem źródłowym dla dynamicznych prezentacji PowerPoint."
+"linktitle": "Oblicz formuły w slajdach Java"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Oblicz formuły w slajdach Java"
+"url": "/pl/java/data-manipulation/calculate-formulas-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Oblicz formuły w slajdach Java
 
 
-## Wprowadzenie do obliczania formuł w slajdach Java przy użyciu Aspose.Slides
+## Wprowadzenie do obliczania formuł w Java Slajdy z użyciem Aspose.Slides
 
-W tym przewodniku pokażemy, jak obliczać formuły w Java Slides przy użyciu Aspose.Slides for Java API. Aspose.Slides to potężna biblioteka do pracy z prezentacjami programu PowerPoint, która udostępnia funkcje umożliwiające manipulowanie wykresami i wykonywanie obliczeń formuł na slajdach.
+tym przewodniku pokażemy, jak obliczać formuły w Java Slides przy użyciu Aspose.Slides for Java API. Aspose.Slides to potężna biblioteka do pracy z prezentacjami PowerPoint, która udostępnia funkcje do manipulowania wykresami i wykonywania obliczeń formuł w slajdach.
 
-## Warunki wstępne
+## Wymagania wstępne
 
-Zanim zaczniesz, upewnij się, że masz następujące elementy:
+Zanim zaczniesz, upewnij się, że masz następujące rzeczy:
 
 - Środowisko programistyczne Java
--  Biblioteka Aspose.Slides for Java (można ją pobrać z[Tutaj](https://releases.aspose.com/slides/java/)
-- Podstawowa znajomość programowania w języku Java
+- Biblioteka Aspose.Slides dla Java (można ją pobrać ze strony [Tutaj](https://releases.aspose.com/slides/java/)
+- Podstawowa znajomość programowania w Javie
 
 ## Krok 1: Utwórz nową prezentację
 
@@ -37,7 +39,7 @@ Presentation presentation = new Presentation();
 
 ## Krok 2: Dodaj wykres do slajdu
 
-Dodajmy teraz do slajdu grupowany wykres kolumnowy. Wykorzystamy ten wykres do zademonstrowania obliczeń formuły.
+Teraz dodajmy do slajdu wykres kolumnowy klastrowany. Użyjemy tego wykresu, aby zademonstrować obliczenia formuł.
 
 ```java
 IChart s_chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);
@@ -54,7 +56,7 @@ IChartDataWorkbook workbook = s_chart.getChartData().getChartDataWorkbook();
 IChartDataCell cell = workbook.getCell(0, "A1");
 cell.setFormula("ABS(A2) + MAX(B2:C2)");
 
-// Ustaw wartość komórki A2
+// Ustaw wartość dla komórki A2
 workbook.getCell(0, "A2").setValue(-1);
 workbook.calculateFormulas();
 
@@ -73,7 +75,7 @@ workbook.calculateFormulas();
 
 ## Krok 4: Zapisz prezentację
 
-Na koniec zapiszmy zmodyfikowaną prezentację z obliczonymi formułami.
+Na koniec zapiszemy zmodyfikowaną prezentację z obliczonymi wzorami.
 
 ```java
 presentation.save(resultPath, SaveFormat.Pptx);
@@ -105,25 +107,27 @@ try {
 
 ## Wniosek
 
-W tym przewodniku nauczyliśmy się, jak obliczać formuły w Java Slides przy użyciu Aspose.Slides dla Java. Stworzyliśmy nową prezentację, dodaliśmy do niej wykres, ustawiliśmy formuły i wartości dla komórek danych wykresu oraz zapisaliśmy prezentację z obliczonymi formułami.
+W tym przewodniku nauczyliśmy się, jak obliczać formuły w Java Slides przy użyciu Aspose.Slides for Java. Utworzyliśmy nową prezentację, dodaliśmy do niej wykres, ustawiliśmy formuły i wartości dla komórek danych wykresu i zapisaliśmy prezentację z obliczonymi formułami.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
 ### Jak ustawić formuły dla komórek danych wykresu?
 
- Możesz ustawić formuły dla komórek danych wykresu za pomocą`setFormula` metoda`IChartDataCell` w Aspose.Slides.
+Można ustawić formuły dla komórek danych wykresu za pomocą `setFormula` metoda `IChartDataCell` w Aspose.Slides.
 
-### Jak ustawić wartości komórek danych wykresu?
+### Jak ustawić wartości dla komórek danych wykresu?
 
- Wartości komórek danych wykresu można ustawić za pomocą opcji`setValue` metoda`IChartDataCell` w Aspose.Slides.
+Możesz ustawić wartości dla komórek danych wykresu za pomocą `setValue` metoda `IChartDataCell` w Aspose.Slides.
 
 ### Jak obliczać formuły w skoroszycie?
 
- Formuły w skoroszycie można obliczać za pomocą narzędzia`calculateFormulas` metoda`IChartDataWorkbook` w Aspose.Slides.
+Możesz obliczać formuły w skoroszycie, używając `calculateFormulas` metoda `IChartDataWorkbook` w Aspose.Slides.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Java के लिए Aspose.Slides के साथ टेक्स्ट बॉक्स में कॉलम जोड़ें
-linktitle: Java के लिए Aspose.Slides के साथ टेक्स्ट बॉक्स में कॉलम जोड़ें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: जानें कि Java के लिए Aspose.Slides का उपयोग करके PowerPoint में टेक्स्ट बॉक्स में कॉलम कैसे जोड़ें। इस चरण-दर-चरण मार्गदर्शिका के साथ अपनी प्रस्तुतियों को बेहतर बनाएँ।
-weight: 10
-url: /hi/java/java-powerpoint-text-box-manipulation/add-column-in-text-boxes/
+"description": "जानें कि Java के लिए Aspose.Slides का उपयोग करके PowerPoint में टेक्स्ट बॉक्स में कॉलम कैसे जोड़ें। इस चरण-दर-चरण मार्गदर्शिका के साथ अपनी प्रस्तुतियों को बेहतर बनाएँ।"
+"linktitle": "Java के लिए Aspose.Slides के साथ टेक्स्ट बॉक्स में कॉलम जोड़ें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "Java के लिए Aspose.Slides के साथ टेक्स्ट बॉक्स में कॉलम जोड़ें"
+"url": "/hi/java/java-powerpoint-text-box-manipulation/add-column-in-text-boxes/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java के लिए Aspose.Slides के साथ टेक्स्ट बॉक्स में कॉलम जोड़ें
@@ -19,10 +21,10 @@ url: /hi/java/java-powerpoint-text-box-manipulation/add-column-in-text-boxes/
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
 - जावा प्रोग्रामिंग का बुनियादी ज्ञान.
 - आपकी मशीन पर JDK (जावा डेवलपमेंट किट) स्थापित है।
--  Aspose.Slides for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+- Aspose.Slides for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 
 ## पैकेज आयात करें
-आरंभ करने के लिए, आपको अपनी जावा फ़ाइल में आवश्यक Aspose.Slides क्लासेस आयात करने की आवश्यकता है। आप इसे इस प्रकार कर सकते हैं:
+आरंभ करने के लिए, आपको अपनी जावा फ़ाइल में आवश्यक Aspose.Slides क्लासेस आयात करने की आवश्यकता है। यहाँ बताया गया है कि आप यह कैसे कर सकते हैं:
 ```java
 import com.aspose.slides.*;
 ```
@@ -65,7 +67,7 @@ try {
     // स्तंभों के बीच रिक्ति निर्दिष्ट करें
     format.setColumnSpacing(10);
 ```
-## चरण 6: प्रेजेंटेशन सहेजें
+## चरण 6: प्रस्तुति सहेजें
 अंत में, संशोधित प्रस्तुति को पावरपॉइंट फ़ाइल में सहेजें।
 ```java
     // निर्मित प्रस्तुति सहेजें
@@ -83,14 +85,16 @@ try {
 ### क्या Aspose.Slides Java 11 के साथ संगत है?
 हां, Aspose.Slides Java 11 और उच्चतर संस्करणों का समर्थन करता है।
 ### मैं Aspose.Slides के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
- आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+आप अस्थायी लाइसेंस प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
 ### क्या Aspose.Slides को Microsoft Office स्थापित करने की आवश्यकता है?
 नहीं, Aspose.Slides को मशीन पर Microsoft Office स्थापित करने की आवश्यकता नहीं है।
 ### मैं Aspose.Slides for Java के बारे में अधिक दस्तावेज़ कहां पा सकता हूं?
- विस्तृत दस्तावेज उपलब्ध है[यहाँ](https://reference.aspose.com/slides/java/).
+विस्तृत दस्तावेज उपलब्ध है [यहाँ](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

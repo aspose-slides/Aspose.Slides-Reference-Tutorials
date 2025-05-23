@@ -1,26 +1,28 @@
 ---
-title: Ellenőrizze a prezentációvédelmet a Java Slides-ben
-linktitle: Ellenőrizze a prezentációvédelmet a Java Slides-ben
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan ellenőrizheti a prezentációvédelmet a Java diákban az Aspose.Slides for Java segítségével. Ez a lépésenkénti útmutató kódpéldákat tartalmaz az írási és nyitott védelmi ellenőrzésekhez.
-weight: 15
-url: /hu/java/presentation-properties/check-presentation-protection-in-java-slides/
+"description": "Tanuld meg, hogyan ellenőrizheted a prezentációvédelmet Java diákon az Aspose.Slides for Java segítségével. Ez a lépésről lépésre szóló útmutató kódpéldákat tartalmaz az írás- és nyílt védelem ellenőrzéséhez."
+"linktitle": "Prezentációvédelem ellenőrzése Java Slides-ben"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Prezentációvédelem ellenőrzése Java Slides-ben"
+"url": "/hu/java/presentation-properties/check-presentation-protection-in-java-slides/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ellenőrizze a prezentációvédelmet a Java Slides-ben
+# Prezentációvédelem ellenőrzése Java Slides-ben
 
 
-## Bevezetés a Java Slides prezentációvédelmének ellenőrzésébe
+## Bevezetés a prezentáció védelmének ellenőrzésébe Java Slides-ben
 
-Ebben az oktatóanyagban megvizsgáljuk, hogyan ellenőrizheti a prezentációvédelmet az Aspose.Slides for Java használatával. Két forgatókönyvet tárgyalunk: az írásvédelem ellenőrzését és a nyitott védelem ellenőrzését egy prezentációnál. Lépésről lépésre kódpéldákat adunk az egyes forgatókönyvekhez.
+Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan ellenőrizhető a prezentáció védelme az Aspose.Slides for Java segítségével. Két forgatókönyvet fogunk tárgyalni: az írásvédelem és a nyílt védelem ellenőrzése egy prezentációhoz. Lépésről lépésre bemutatjuk a kódot minden forgatókönyvhöz.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy az Aspose.Slides for Java könyvtár be van állítva a Java projektben. Letöltheti az Aspose webhelyéről, és hozzáadhatja projektje függőségeihez.
+Mielőtt elkezdenénk, győződjünk meg róla, hogy az Aspose.Slides for Java könyvtár be van állítva a Java projektedben. Letöltheted az Aspose weboldaláról, és hozzáadhatod a projekted függőségeihez.
 
 ### Maven-függőség
 
@@ -32,17 +34,17 @@ Mielőtt elkezdené, győződjön meg arról, hogy az Aspose.Slides for Java kö
 </dependency>
 ```
 
- Cserélje ki`your_version_here` az Aspose.Slides for Java által használt verziójával.
+Csere `your_version_here` az Aspose.Slides for Java általad használt verziójával.
 
 ## 1. lépés: Ellenőrizze az írásvédelmet
 
- Ha ellenőrizni szeretné, hogy egy prezentáció írásvédett-e jelszóval, használja a`IPresentationInfo` felület. Íme a kód ehhez:
+Annak ellenőrzéséhez, hogy egy prezentáció írásvédett-e jelszóval, használhatja a `IPresentationInfo` felület. Íme a kód ehhez:
 
 ```java
 // A forrásbemutató elérési útja
 String pptxFile = "path_to_presentation.pptx";
 
-// Ellenőrizze az írásvédelmi jelszót az IPresentationInfo interfészen keresztül
+// Ellenőrizze az írásvédelmi jelszót az IPresentationInfo felületen keresztül
 IPresentationInfo presentationInfo = PresentationFactory.getInstance().getPresentationInfo(pptxFile);
 boolean isWriteProtectedByPassword = presentationInfo.isWriteProtected() == NullableBool.True
         && presentationInfo.checkWriteProtection("password_here");
@@ -50,36 +52,36 @@ boolean isWriteProtectedByPassword = presentationInfo.isWriteProtected() == Null
 System.out.println("Is presentation write protected by password = " + isWriteProtectedByPassword);
 ```
 
- Cserélje ki`"path_to_presentation.pptx"` a prezentációs fájl tényleges elérési útjával és`"password_here"` írásvédelmi jelszóval.
+Csere `"path_to_presentation.pptx"` a prezentációs fájl tényleges elérési útjával és `"password_here"` az írásvédelmi jelszóval.
 
-## 2. lépés: Ellenőrizze a Nyitott védelmet
+## 2. lépés: Ellenőrizze a nyílt védelmet
 
- Ha ellenőrizni szeretné, hogy egy prezentációt jelszó véd-e a megnyitáshoz, használja a`IPresentationInfo` felület. Íme a kód ehhez:
+Annak ellenőrzéséhez, hogy egy prezentáció jelszóval védett-e a megnyitáshoz, használhatja a `IPresentationInfo` felület. Íme a kód ehhez:
 
 ```java
 // A forrásbemutató elérési útja
 String pptFile = "path_to_presentation.ppt";
 
-// Ellenőrizze a Presentation Open Protection lehetőséget az IPresentationInfo interfészen keresztül
+// Ellenőrizze a prezentáció megnyitásának védelmét az IPresentationInfo felületen keresztül
 presentationInfo = PresentationFactory.getInstance().getPresentationInfo(pptFile);
 if (presentationInfo.isPasswordProtected()) {
     System.out.println("The presentation is protected by password to open.");
 }
 ```
 
- Cserélje ki`"path_to_presentation.ppt"` a prezentációs fájl tényleges elérési útjával.
+Csere `"path_to_presentation.ppt"` a prezentációs fájl tényleges elérési útjával.
 
-## Teljes forráskód a Java Slides prezentációvédelméhez
+## Teljes forráskód a Java Slides prezentációvédelem ellenőrzéséhez
 
 ```java
-//forrás bemutatásának elérési útja
+//Forrásmegjelenítési útvonal
 String pptxFile = "Your Document Directory";
 String pptFile = "Your Document Directory";
-// Ellenőrizze az írásvédelmi jelszót az IPresentationInfo interfészen keresztül
+// Ellenőrizze az írásvédelmi jelszót az IPresentationInfo felületen keresztül
 IPresentationInfo presentationInfo = PresentationFactory.getInstance().getPresentationInfo(pptxFile);
 boolean isWriteProtectedByPassword = presentationInfo.isWriteProtected() == NullableBool.True && presentationInfo.checkWriteProtection("pass2");
 System.out.println("Is presentation write protected by password = " + isWriteProtectedByPassword);
-// Ellenőrizze az írásvédelmi jelszót az IProtectionManager interfészen keresztül
+// Ellenőrizze az írásvédelmi jelszót az IProtectionManager felületén keresztül
 Presentation presentation = new Presentation();
 try
 {
@@ -90,7 +92,7 @@ finally
 {
 	if (presentation != null) presentation.dispose();
 }
-// Ellenőrizze a Presentation Open Protection lehetőséget az IPresentationInfo interfészen keresztül
+// Ellenőrizze a prezentáció megnyitásának védelmét az IPresentationInfo felületen keresztül
 presentationInfo = PresentationFactory.getInstance().getPresentationInfo(pptFile);
 if (presentationInfo.isPasswordProtected())
 {
@@ -100,28 +102,30 @@ if (presentationInfo.isPasswordProtected())
 
 ## Következtetés
 
-Ebben az oktatóanyagban megtanultuk, hogyan ellenőrizheti a prezentációvédelmet a Java diákban az Aspose.Slides for Java segítségével. Két forgatókönyvvel foglalkoztunk: az írásvédelem ellenőrzésével és a nyitott védelem ellenőrzésével. Mostantól ezeket az ellenőrzéseket integrálhatja Java-alkalmazásaiba, hogy hatékonyan kezelje a védett prezentációkat.
+Ebben az oktatóanyagban megtanultuk, hogyan ellenőrizhetjük a prezentációk védelmét Java diákon az Aspose.Slides for Java segítségével. Két forgatókönyvet tárgyaltunk: az írásvédelem és a megnyitásvédelem ellenőrzését. Mostantól integrálhatjuk ezeket az ellenőrzéseket a Java alkalmazásainkba a védett prezentációk hatékony kezelése érdekében.
 
 ## GYIK
 
-### Hogyan szerezhetem be az Aspose.Slides for Java programot?
+### Hogyan tudom letölteni az Aspose.Slides fájlt Java-hoz?
 
-Az Aspose.Slides for Java letölthető az Aspose webhelyéről, vagy hozzáadhatja Maven-függőségként a projekthez, az előfeltételek részben látható módon.
+Az Aspose.Slides Java-verzióját letöltheted az Aspose weboldaláról, vagy hozzáadhatod Maven-függőségként a projektedhez, az előfeltételek részben látható módon.
 
-### Ellenőrizhetem az írásvédelmet és a nyílt védelmet is egy prezentációnál?
+### Ellenőrizhetem egy prezentáció írásvédelmét és nyílt védelmét is?
 
-Igen, a megadott kódpéldák segítségével ellenőrizheti a prezentáció írásvédelmét és nyitott védelmét is.
+Igen, a megadott kódpéldák segítségével ellenőrizheted egy prezentáció írásvédelmét és nyílt védelmét is.
 
-### Mi a teendő, ha elfelejtettem a védelmi jelszót?
+### Mit tegyek, ha elfelejtettem a védelmi jelszót?
 
-Ha elfelejti a prezentáció védelmi jelszavát, nincs beépített módja annak helyreállítására. Az ilyen helyzetek elkerülése érdekében mindenképpen jegyezze fel jelszavait.
+Ha elfelejti egy prezentáció védelmi jelszavát, nincs beépített mód a visszaállítására. Az ilyen helyzetek elkerülése érdekében jegyezze fel a jelszavait.
 
-### Az Aspose.Slides for Java kompatibilis a legújabb PowerPoint fájlformátumokkal?
+### Kompatibilis az Aspose.Slides for Java a legújabb PowerPoint fájlformátumokkal?
 
 Igen, az Aspose.Slides for Java támogatja a legújabb PowerPoint fájlformátumokat, beleértve a .pptx fájlokat is.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

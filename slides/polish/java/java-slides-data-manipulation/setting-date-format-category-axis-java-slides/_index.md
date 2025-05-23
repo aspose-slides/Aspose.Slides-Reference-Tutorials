@@ -1,14 +1,16 @@
 ---
-title: Ustawianie formatu daty dla osi kategorii w slajdach Java
-linktitle: Ustawianie formatu daty dla osi kategorii w slajdach Java
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Dowiedz się, jak ustawić format daty dla osi kategorii na wykresie programu PowerPoint przy użyciu Aspose.Slides dla Java. Przewodnik krok po kroku z kodem źródłowym.
-weight: 26
-url: /pl/java/data-manipulation/setting-date-format-category-axis-java-slides/
+"description": "Dowiedz się, jak ustawić format daty dla osi kategorii na wykresie programu PowerPoint przy użyciu Aspose.Slides dla Java. Przewodnik krok po kroku z kodem źródłowym."
+"linktitle": "Ustawianie formatu daty dla osi kategorii w slajdach Java"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Ustawianie formatu daty dla osi kategorii w slajdach Java"
+"url": "/pl/java/data-manipulation/setting-date-format-category-axis-java-slides/"
+"weight": 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustawianie formatu daty dla osi kategorii w slajdach Java
@@ -16,18 +18,18 @@ url: /pl/java/data-manipulation/setting-date-format-category-axis-java-slides/
 
 ## Wprowadzenie do ustawiania formatu daty dla osi kategorii w slajdach Java
 
-W tym samouczku dowiemy się, jak ustawić format daty dla osi kategorii na wykresie programu PowerPoint za pomocą Aspose.Slides dla Java. Aspose.Slides for Java to potężna biblioteka, która umożliwia programowe tworzenie, manipulowanie i zarządzanie prezentacjami programu PowerPoint.
+tym samouczku nauczymy się, jak ustawić format daty dla osi kategorii na wykresie programu PowerPoint przy użyciu Aspose.Slides for Java. Aspose.Slides for Java to potężna biblioteka, która umożliwia programowe tworzenie, manipulowanie i zarządzanie prezentacjami programu PowerPoint.
 
-## Warunki wstępne
+## Wymagania wstępne
 
-Zanim zaczniesz, upewnij się, że masz następujące elementy:
+Zanim zaczniesz, upewnij się, że masz następujące rzeczy:
 
-1. Biblioteka Aspose.Slides for Java (możesz ją pobrać z[Tutaj](https://releases.aspose.com/slides/java/).
-2. Skonfigurowano środowisko programistyczne Java.
+1. Biblioteka Aspose.Slides dla Java (można ją pobrać ze strony [Tutaj](https://releases.aspose.com/slides/java/).
+2. Konfiguracja środowiska programistycznego Java.
 
-## Krok 1: Utwórz prezentację programu PowerPoint
+## Krok 1: Utwórz prezentację PowerPoint
 
-Najpierw musimy stworzyć prezentację PowerPoint, do której dodamy wykres. Upewnij się, że zaimportowałeś niezbędne klasy Aspose.Slides.
+Najpierw musimy utworzyć prezentację PowerPoint, do której dodamy wykres. Upewnij się, że zaimportowałeś niezbędne klasy Aspose.Slides.
 
 ```java
 // Ścieżka do katalogu dokumentów.
@@ -37,7 +39,7 @@ Presentation pres = new Presentation();
 
 ## Krok 2: Dodaj wykres do slajdu
 
-Teraz dodajmy wykres do slajdu programu PowerPoint. W tym przykładzie użyjemy wykresu warstwowego.
+Teraz dodajmy wykres do slajdu programu PowerPoint. W tym przykładzie użyjemy wykresu obszarowego.
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Area, 50, 50, 450, 300);
@@ -45,7 +47,7 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Area,
 
 ## Krok 3: Przygotuj dane wykresu
 
-Skonfigurujemy dane i kategorie wykresu. W tym przykładzie użyjemy kategorii dat.
+Skonfigurujemy dane wykresu i kategorie. W tym przykładzie użyjemy kategorii dat.
 
 ```java
 IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
@@ -78,13 +80,13 @@ chart.getAxes().getHorizontalAxis().setNumberFormat("yyyy");
 ```
 
 ## Krok 5: Zapisz prezentację
-Na koniec zapisz prezentację programu PowerPoint.
+Na koniec zapisz prezentację PowerPoint.
 
 ```java
 pres.save(dataDir + "test.pptx", SaveFormat.Pptx);
 ```
 
-Otóż to! Pomyślnie ustawiłeś format daty dla osi kategorii na wykresie programu PowerPoint przy użyciu Aspose.Slides for Java.
+To wszystko! Udało Ci się ustawić format daty dla osi kategorii na wykresie PowerPoint przy użyciu Aspose.Slides dla Java.
 
 ## Kompletny kod źródłowy do ustawiania formatu daty dla osi kategorii w slajdach Java
 
@@ -130,24 +132,26 @@ public static String convertToOADate(GregorianCalendar date) throws ParseExcepti
 
 ##Wniosek
 
-Pomyślnie dostosowałeś format daty dla osi kategorii na wykresie Java Slides przy użyciu Aspose.Slides for Java. Dzięki temu możesz prezentować na wykresach wartości dat w żądanym formacie. Zachęcamy do zapoznania się z dalszymi opcjami dostosowywania w oparciu o konkretne wymagania.
+Udało Ci się dostosować format daty dla osi kategorii na wykresie Java Slides przy użyciu Aspose.Slides for Java. Pozwala to na prezentowanie wartości dat w pożądanym formacie na wykresach. Możesz swobodnie eksplorować dalsze opcje dostosowywania w oparciu o swoje konkretne wymagania.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
 ### Jak zmienić format daty dla osi kategorii?
 
- Aby zmienić format daty dla osi kategorii, użyj opcji`setNumberFormat` metodę na osi kategorii i podaj żądany wzorzec formatu daty, taki jak „rrrr-MM-dd” lub „MM/rrrr”. Upewnij się, że ustawiłeś`setNumberFormatLinkedToSource(false)` aby zastąpić domyślny format.
+Aby zmienić format daty dla osi kategorii, użyj `setNumberFormat` metodę na osi kategorii i podaj pożądany wzór formatu daty, taki jak „yyyy-MM-dd” lub „MM/yyyy”. Upewnij się, że ustawiłeś `setNumberFormatLinkedToSource(false)` aby zastąpić format domyślny.
 
 ### Czy mogę używać różnych formatów dat dla różnych wykresów w tej samej prezentacji?
 
-Tak, możesz ustawić różne formaty dat dla osi kategorii na różnych wykresach w tej samej prezentacji. W razie potrzeby po prostu dostosuj oś kategorii dla każdego wykresu.
+Tak, możesz ustawić różne formaty daty dla osi kategorii na różnych wykresach w tej samej prezentacji. Po prostu dostosuj oś kategorii dla każdego wykresu według potrzeb.
 
 ### Jak dodać więcej punktów danych do wykresu?
 
- Aby dodać więcej punktów danych do wykresu, użyj opcji`getDataPoints().addDataPointForLineSeries`metodę na serii danych i podaj wartości danych.
+Aby dodać więcej punktów danych do wykresu, użyj `getDataPoints().addDataPointForLineSeries` metodę na szeregu danych i podaj wartości danych.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

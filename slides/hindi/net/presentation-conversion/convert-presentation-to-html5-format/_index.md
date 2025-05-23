@@ -1,14 +1,16 @@
 ---
-title: प्रस्तुति को HTML5 प्रारूप में बदलें
-linktitle: प्रस्तुति को HTML5 प्रारूप में बदलें
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: जानें कि .NET के लिए Aspose.Slides का उपयोग करके PowerPoint प्रस्तुतियों को HTML5 प्रारूप में कैसे परिवर्तित किया जाए। वेब साझाकरण के लिए आसान और कुशल रूपांतरण।
-weight: 22
-url: /hi/net/presentation-conversion/convert-presentation-to-html5-format/
+"description": "जानें कि .NET के लिए Aspose.Slides का उपयोग करके PowerPoint प्रस्तुतियों को HTML5 प्रारूप में कैसे परिवर्तित किया जाए। वेब साझाकरण के लिए आसान और कुशल रूपांतरण।"
+"linktitle": "प्रस्तुति को HTML5 प्रारूप में बदलें"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "प्रस्तुति को HTML5 प्रारूप में बदलें"
+"url": "/hi/net/presentation-conversion/convert-presentation-to-html5-format/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # प्रस्तुति को HTML5 प्रारूप में बदलें
@@ -22,7 +24,7 @@ url: /hi/net/presentation-conversion/convert-presentation-to-html5-format/
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
 1. विज़ुअल स्टूडियो: आपके सिस्टम पर विज़ुअल स्टूडियो स्थापित होना आवश्यक है।
-2.  Aspose.Slides for .NET: Aspose.Slides for .NET लाइब्रेरी को यहां से डाउनलोड और इंस्टॉल करें[यहाँ](https://downloads.aspose.com/slides/net).
+2. Aspose.Slides for .NET: Aspose.Slides for .NET लाइब्रेरी को यहां से डाउनलोड और इंस्टॉल करें [यहाँ](https://downloads.aspose.com/slides/net).
 
 ## रूपांतरण चरण
 
@@ -34,7 +36,7 @@ url: /hi/net/presentation-conversion/convert-presentation-to-html5-format/
 
 ### Aspose.Slides में संदर्भ जोड़ें
 
-अपने प्रोजेक्ट में, सॉल्यूशन एक्सप्लोरर में "संदर्भ" पर राइट-क्लिक करें और "संदर्भ जोड़ें" चुनें। आपके द्वारा डाउनलोड किए गए Aspose.Slides DLL को ब्राउज़ करें और जोड़ें।
+अपने प्रोजेक्ट में, सॉल्यूशन एक्सप्लोरर में "रेफरेंस" पर राइट-क्लिक करें और "रेफरेंस जोड़ें" चुनें। आपके द्वारा डाउनलोड किए गए Aspose.Slides DLL को ब्राउज़ करें और जोड़ें।
 
 ### रूपांतरण कोड लिखें
 
@@ -64,11 +66,11 @@ namespace PresentationToHTML5Converter
 }
 ```
 
- प्रतिस्थापित करें`"input.pptx"` आपके इनपुट प्रस्तुति के पथ के साथ और`"output.html"` वांछित आउटपुट HTML फ़ाइल पथ के साथ.
+प्रतिस्थापित करें `"input.pptx"` आपके इनपुट प्रस्तुति के पथ के साथ और `"output.html"` वांछित आउटपुट HTML फ़ाइल पथ के साथ.
 
 ## एप्लिकेशन चलाएँ
 
-अपना एप्लिकेशन बनाएं और चलाएं। यह प्रेजेंटेशन को HTML5 फॉर्मेट में बदल देगा और इसे HTML फ़ाइल के रूप में सेव कर देगा।
+अपना एप्लिकेशन बनाएं और चलाएं। यह प्रेजेंटेशन को HTML5 प्रारूप में परिवर्तित कर देगा और इसे HTML फ़ाइल के रूप में सहेज देगा।
 
 ## निष्कर्ष
 
@@ -78,7 +80,7 @@ namespace PresentationToHTML5Converter
 
 ### मैं HTML5 आउटपुट के स्वरूप को कैसे अनुकूलित कर सकता हूँ?
 
- आप HTML5 आउटपुट के स्वरूप को विभिन्न विकल्पों को सेट करके अनुकूलित कर सकते हैं`Html5Options`वर्ग देखें।[प्रलेखन](https://reference.aspose.com/slides/net/aspose.slides.export/html5options) उपलब्ध अनुकूलन विकल्पों के लिए.
+आप HTML5 आउटपुट के स्वरूप को विभिन्न विकल्पों को सेट करके अनुकूलित कर सकते हैं `Html5Options` वर्ग देखें। [प्रलेखन](https://reference.aspose.com/slides/net/aspose.slides.export/html5options) उपलब्ध अनुकूलन विकल्पों के लिए.
 
 ### क्या मैं एनिमेशन और ट्रांजिशन के साथ प्रस्तुतियों को परिवर्तित कर सकता हूँ?
 
@@ -86,10 +88,12 @@ namespace PresentationToHTML5Converter
 
 ### क्या Aspose.Slides का कोई परीक्षण संस्करण उपलब्ध है?
 
- हां, आप .NET के लिए Aspose.Slides का निःशुल्क परीक्षण संस्करण प्राप्त कर सकते हैं[डाउनलोड पृष्ठ](https://releases.aspose.com/slides/net).
+हां, आप .NET के लिए Aspose.Slides का निःशुल्क परीक्षण संस्करण प्राप्त कर सकते हैं [डाउनलोड पृष्ठ](https://releases.aspose.com/slides/net).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

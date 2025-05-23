@@ -1,86 +1,88 @@
 ---
-title: Szerezzen be értékeket és mértékegység-skálát az Axis szolgáltatásból a Java Slides-ben
-linktitle: Szerezzen be értékeket és mértékegység-skálát az Axis szolgáltatásból a Java Slides-ben
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan szerezhet be értékeket és mértékegység-skálát a Java Slides tengelyeiből az Aspose.Slides for Java segítségével. Növelje adatelemzési képességeit.
-weight: 20
-url: /hu/java/data-manipulation/get-values-unit-scale-axis-java-slides/
+"description": "Tanuld meg, hogyan lehet értékeket és mértékegység-skálát kinyerni tengelyekből Java Slides-ben az Aspose.Slides for Java használatával. Bővítsd adatelemzési képességeidet."
+"linktitle": "Értékek és mértékegység-skálák lekérése tengelyekből Java diákban"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Értékek és mértékegység-skálák lekérése tengelyekből Java diákban"
+"url": "/hu/java/data-manipulation/get-values-unit-scale-axis-java-slides/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Szerezzen be értékeket és mértékegység-skálát az Axis szolgáltatásból a Java Slides-ben
+# Értékek és mértékegység-skálák lekérése tengelyekből Java diákban
 
 
-## Bevezetés az Axis-ből származó értékek és mértékegységek lekéréséhez a Java Slides-ben
+## Bevezetés az értékek és az egységskálák tengelyekből való lekéréséhez Java diákban
 
-Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet értékeket és mértékegységeket lekérni egy tengelyről a Java Slides alkalmazásban az Aspose.Slides for Java API használatával. Akár adatvizualizációs projekten dolgozik, akár a diagramadatokat kell elemeznie Java-alkalmazásaiban, a tengelyértékek elérésének megértése elengedhetetlen. Lépésről lépésre végigvezetjük a folyamaton, miközben kódpéldákat mutatunk be.
+Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan lehet értékeket és mértékegység-skálát lekérni egy tengelyről Java Slides-ban az Aspose.Slides for Java API használatával. Akár egy adatvizualizációs projekten dolgozik, akár diagramadatokat kell elemeznie Java-alkalmazásaiban, elengedhetetlen a tengelyértékek elérésének ismerete. Lépésről lépésre végigvezetjük a folyamaton, kódpéldákkal kísérve.
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk a kódba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+Mielőtt belemerülnénk a kódba, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
 
-1. Java fejlesztői környezet: Győződjön meg arról, hogy a Java telepítve van a rendszerére, és ismeri a Java programozási koncepciókat.
+1. Java fejlesztői környezet: Győződjön meg róla, hogy telepítve van a Java a rendszerén, és ismeri a Java programozási alapfogalmakat.
 
-2.  Aspose.Slides for Java: Töltse le és telepítse az Aspose.Slides for Java könyvtárat a[letöltési link](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides Java-hoz: Töltse le és telepítse az Aspose.Slides Java-hoz könyvtárat a következő helyről: [letöltési link](https://releases.aspose.com/slides/java/).
 
 ## 1. lépés: Prezentáció létrehozása
 
-A kezdéshez hozzunk létre egy új prezentációt az Aspose.Slides for Java használatával:
+Kezdésként hozzunk létre egy új prezentációt az Aspose.Slides for Java használatával:
 
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 ```
 
- Cserélje ki`"Your Document Directory"` annak a könyvtárnak az elérési útjával, ahová a bemutatót menteni szeretné.
+Csere `"Your Document Directory"` a prezentáció mentési könyvtárának elérési útjával.
 
 ## 2. lépés: Diagram hozzáadása
 
-Ezután egy diagramot adunk a bemutatóhoz. Ebben a példában egy területdiagramot hozunk létre:
+Ezután hozzáadunk egy diagramot a prezentációhoz. Ebben a példában egy területdiagramot fogunk létrehozni:
 
 ```java
 Chart chart = (Chart) pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Area, 100, 100, 500, 350);
 chart.validateChartLayout();
 ```
 
-A bemutató első diájához hozzáadtunk egy területdiagramot. Igény szerint testreszabhatja a diagram típusát és pozícióját.
+Hozzáadtunk egy területdiagramot a prezentáció első diájához. A diagram típusát és pozícióját szükség szerint testreszabhatja.
 
 ## 3. lépés: Függőleges tengelyértékek lekérése
 
-Most vegyük le az értékeket a diagram függőleges tengelyéről:
+Most pedig kinyerjük az értékeket a diagram függőleges tengelyéről:
 
 ```java
 double maxValue = chart.getAxes().getVerticalAxis().getActualMaxValue();
 double minValue = chart.getAxes().getVerticalAxis().getActualMinValue();
 ```
 
-Itt megkapjuk a függőleges tengely maximális és minimális értékét. Ezek az értékek különféle adatelemzési feladatokhoz hasznosak lehetnek.
+Itt a függőleges tengely maximális és minimális értékeit kapjuk meg. Ezek az értékek hasznosak lehetnek különféle adatelemzési feladatokhoz.
 
 ## 4. lépés: Vízszintes tengelyértékek lekérése
 
-Hasonlóképpen a vízszintes tengelyről is lekérhetünk értékeket:
+Hasonlóképpen, a vízszintes tengelyről is kinyerhetjük az értékeket:
 
 ```java
 double majorUnit = chart.getAxes().getHorizontalAxis().getActualMajorUnit();
 double minorUnit = chart.getAxes().getHorizontalAxis().getActualMinorUnit();
 ```
 
- A`majorUnit` és`minorUnit` Az értékek a vízszintes tengely nagy- és mellékegységeit jelentik.
+A `majorUnit` és `minorUnit` Az értékek rendre a vízszintes tengelyen szereplő fő- és mellékegységeket jelölik.
 
 ## 5. lépés: A prezentáció mentése
 
-Miután lekértük a tengelyértékeket, elmenthetjük a prezentációt:
+Miután lekértük a tengelyértékeket, menthetjük a prezentációt:
 
 ```java
 pres.save(dataDir + "ChartValues.pptx", SaveFormat.Pptx);
 ```
 
-Ez a kód elmenti a prezentációt a beolvasott tengelyértékekkel egy PowerPoint-fájlba.
+Ez a kód a lekért tengelyértékeket tartalmazó bemutatót egy PowerPoint-fájlba menti.
 
-## Teljes forráskód az Axis-ből származó értékek és mértékegységek lekéréséhez a Java Slides-ben
+## Teljes forráskód az értékek és az egységskálák tengelyből való lekéréséhez Java diákban
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
@@ -105,32 +107,34 @@ finally
 
 ## Következtetés
 
-Ebben az oktatóanyagban megvizsgáltuk, hogyan szerezhet be értékeket és mértékegység-skálát a Java Slides tengelyeiről az Aspose.Slides for Java használatával. Ez hihetetlenül értékes lehet, amikor diagramokkal dolgozik és adatokat elemez a Java-alkalmazásokon belül. Az Aspose.Slides for Java biztosítja a prezentációkkal való programozott munkavégzéshez szükséges eszközöket, így irányíthatja a diagramadatokat és még sok mást.
+Ebben az oktatóanyagban azt vizsgáltuk meg, hogyan lehet értékeket és mértékegység-skálát kinyerni tengelyekből Java Slides-ben az Aspose.Slides for Java használatával. Ez hihetetlenül értékes lehet diagramokkal való munka és adatok elemzése során Java alkalmazásokban. Az Aspose.Slides for Java biztosítja azokat az eszközöket, amelyekre szükséged van a prezentációkkal való programozott munkához, így szabályozhatod a diagramadatokat és sok minden mást.
 
 ## GYIK
 
-### Hogyan szabhatom testre a diagram típusát az Aspose.Slides for Java alkalmazásban?
+### Hogyan tudom testreszabni a diagram típusát az Aspose.Slides for Java programban?
 
- A diagram típusának testreszabásához egyszerűen cserélje ki`ChartType.Area` a kívánt diagramtípussal, amikor hozzáadja a diagramot a prezentációhoz.
+A diagramtípus testreszabásához egyszerűen cserélje ki `ChartType.Area` a kívánt diagramtípussal, amikor a diagramot hozzáadja a bemutatóhoz.
 
-### Módosíthatom a diagram tengelycímkéinek megjelenését?
+### Módosíthatom a diagram tengelyfeliratainak megjelenését?
 
-Igen, testreszabhatja a diagramtengely-címkék megjelenését az Aspose.Slides for Java segítségével. A részletes útmutatásért lásd a dokumentációt.
+Igen, testreszabhatja a diagramtengely-feliratok megjelenését az Aspose.Slides for Java segítségével. Részletes útmutatásért lásd a dokumentációt.
 
-### Az Aspose.Slides for Java kompatibilis a legújabb Java-verziókkal?
+### Kompatibilis az Aspose.Slides for Java a legújabb Java verziókkal?
 
-Az Aspose.Slides for Java-t rendszeresen frissítik, hogy támogassa a legújabb Java-verziókat, biztosítva a kompatibilitást a legújabb Java-fejlesztésekkel.
+Az Aspose.Slides Java-alapú változata rendszeresen frissül, hogy támogassa a legújabb Java verziókat, biztosítva a kompatibilitást a legújabb Java fejlesztésekkel.
 
-### Használhatom az Aspose.Slides for Java programot kereskedelmi projektekben?
+### Használhatom az Aspose.Slides-t Java-ban kereskedelmi projektekben?
 
-Igen, az Aspose.Slides for Java használható kereskedelmi projektekben. A különféle projektkövetelményeknek megfelelő licencelési lehetőségeket kínál.
+Igen, az Aspose.Slides használható Java-ban kereskedelmi projektekben. Licencelési lehetőségeket kínál, hogy megfeleljen a különféle projektkövetelményeknek.
 
 ### Hol találok további forrásokat és dokumentációt az Aspose.Slides for Java-hoz?
 
- A webhelyen átfogó dokumentációt és további forrásokat találhat[Aspose.Slides for Java dokumentáció](https://reference.aspose.com/slides/java/) weboldal.
+Átfogó dokumentációt és további forrásokat talál a következő címen: [Aspose.Slides Java dokumentációhoz](https://reference.aspose.com/slides/java/) weboldal.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

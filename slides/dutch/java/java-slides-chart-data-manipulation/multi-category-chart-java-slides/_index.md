@@ -1,25 +1,27 @@
 ---
-title: Grafiek met meerdere categorieën in Java-dia's
-linktitle: Grafiek met meerdere categorieën in Java-dia's
-second_title: Aspose.Slides Java PowerPoint-verwerkings-API
-description: Maak diagrammen met meerdere categorieën in Java-dia's met Aspose.Slides voor Java. Stap-voor-stap handleiding met broncode voor indrukwekkende datavisualisatie in presentaties.
-weight: 20
-url: /nl/java/chart-data-manipulation/multi-category-chart-java-slides/
+"description": "Maak grafieken met meerdere categorieën in Java Slides met Aspose.Slides voor Java. Stapsgewijze handleiding met broncode voor indrukwekkende datavisualisatie in presentaties."
+"linktitle": "Grafiek met meerdere categorieën in Java-dia's"
+"second_title": "Aspose.Slides Java PowerPoint-verwerkings-API"
+"title": "Grafiek met meerdere categorieën in Java-dia's"
+"url": "/nl/java/chart-data-manipulation/multi-category-chart-java-slides/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Grafiek met meerdere categorieën in Java-dia's
 
 
-## Inleiding tot diagrammen met meerdere categorieën in Java-dia's met Aspose.Slides
+## Inleiding tot multi-categorie diagrammen in Java-dia's met Aspose.Slides
 
-In deze zelfstudie leren we hoe u een diagram met meerdere categorieën in Java-dia's kunt maken met behulp van de Aspose.Slides voor Java API. Deze handleiding biedt stapsgewijze instructies samen met de broncode om u te helpen een geclusterd kolomdiagram met meerdere categorieën en reeksen te maken.
+In deze tutorial leren we hoe je een grafiek met meerdere categorieën in Java Slides maakt met behulp van de Aspose.Slides voor Java API. Deze handleiding biedt stapsgewijze instructies en broncode om je te helpen bij het maken van een geclusterde kolomgrafiek met meerdere categorieën en reeksen.
 
 ## Vereisten
-Voordat we beginnen, moet u ervoor zorgen dat de Aspose.Slides voor Java-bibliotheek is geïnstalleerd en ingesteld in uw Java-ontwikkelomgeving.
+Voordat u begint, moet u ervoor zorgen dat u de Aspose.Slides voor Java-bibliotheek hebt geïnstalleerd en ingesteld in uw Java-ontwikkelomgeving.
 
 ## Stap 1: De omgeving instellen
 Importeer eerst de benodigde klassen en maak een nieuw presentatieobject om met dia's te werken.
@@ -39,7 +41,7 @@ IChart ch = slide.getShapes().addChart(ChartType.ClusteredColumn, 100, 100, 600,
 ```
 
 ## Stap 3: Bestaande gegevens wissen
-Wis alle bestaande gegevens uit het diagram.
+Verwijder alle bestaande gegevens uit de grafiek.
 
 ```java
 ch.getChartData().getSeries().clear();
@@ -47,7 +49,7 @@ ch.getChartData().getCategories().clear();
 ```
 
 ## Stap 4: Gegevenscategorieën instellen
-Laten we nu gegevenscategorieën voor het diagram instellen. We zullen meerdere categorieën maken en deze groeperen.
+Laten we nu gegevenscategorieën voor de grafiek instellen. We maken meerdere categorieën aan en groeperen ze.
 
 ```java
 IChartDataWorkbook fact = ch.getChartData().getChartDataWorkbook();
@@ -55,7 +57,7 @@ fact.clear(0);
 
 int defaultWorksheetIndex = 0;
 
-// Voeg categorieën toe en groepeer ze
+// Categorieën toevoegen en groeperen
 IChartCategory category = ch.getChartData().getCategories().add(fact.getCell(0, "c2", "A"));
 category.getGroupingLevels().setGroupingItem(1, "Group1");
 
@@ -78,7 +80,7 @@ category = ch.getChartData().getCategories().add(fact.getCell(0, "c9", "H"));
 ```
 
 ## Stap 5: Serie toevoegen
-Laten we nu een reeks aan het diagram toevoegen, samen met gegevenspunten.
+Laten we nu een reeks aan de grafiek toevoegen, samen met datapunten.
 
 ```java
 IChartSeries series = ch.getChartData().getSeries().add(fact.getCell(0, "D1", "Series 1"), ChartType.ClusteredColumn);
@@ -94,15 +96,15 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 ```
 
 ## Stap 6: De presentatie opslaan
-Sla ten slotte de presentatie op met het diagram.
+Sla ten slotte de presentatie met de grafiek op.
 
 ```java
 pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
 
-Dat is het! U hebt met succes een diagram met meerdere categorieën gemaakt in een Java-dia met behulp van Aspose.Slides. U kunt dit diagram verder aanpassen aan uw specifieke vereisten.
+Dat is alles! Je hebt met succes een grafiek met meerdere categorieën in een Java-dia gemaakt met Aspose.Slides. Je kunt deze grafiek verder aanpassen aan je specifieke wensen.
 
-## Volledige broncode voor diagram met meerdere categorieën in Java-dia's
+## Volledige broncode voor multi-categorie grafiek in Java-dia's
 
 ```java
 // Het pad naar de documentenmap.
@@ -127,7 +129,7 @@ category = ch.getChartData().getCategories().add(fact.getCell(0, "c7", "F"));
 category = ch.getChartData().getCategories().add(fact.getCell(0, "c8", "G"));
 category.getGroupingLevels().setGroupingItem(1, "Group4");
 category = ch.getChartData().getCategories().add(fact.getCell(0, "c9", "H"));
-// Serie toevoegen
+//            Serie toevoegen
 IChartSeries series = ch.getChartData().getSeries().add(fact.getCell(0, "D1", "Series 1"),
 		ChartType.ClusteredColumn);
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, "D2", 10));
@@ -138,34 +140,36 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, "D7", 60));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, "D8", 70));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, "D9", 80));
-// Presentatie opslaan met grafiek
+// Presentatie met grafiek opslaan
 pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
 
 ## Conclusie
 
-In deze zelfstudie hebben we geleerd hoe u een diagram met meerdere categorieën in Java-dia's kunt maken met behulp van de Aspose.Slides voor Java API. We hebben een stapsgewijze handleiding met broncode doorlopen om een geclusterd kolomdiagram met meerdere categorieën en reeksen te maken.
+In deze tutorial hebben we geleerd hoe je een grafiek met meerdere categorieën in Java Slides maakt met behulp van de Aspose.Slides voor Java API. We hebben een stapsgewijze handleiding met broncode doorgenomen om een geclusterde kolomgrafiek met meerdere categorieën en reeksen te maken.
 
 ## Veelgestelde vragen
 
-### Hoe kan ik de weergave van het diagram aanpassen?
+### Hoe kan ik het uiterlijk van de grafiek aanpassen?
 
-kunt het uiterlijk van het diagram aanpassen door eigenschappen zoals kleuren, lettertypen en stijlen te wijzigen. Raadpleeg de Aspose.Slides-documentatie voor gedetailleerde aanpassingsopties.
+U kunt de weergave van de grafiek aanpassen door eigenschappen zoals kleuren, lettertypen en stijlen aan te passen. Raadpleeg de Aspose.Slides-documentatie voor gedetailleerde aanpassingsopties.
 
-### Kan ik meer series aan het diagram toevoegen?
+### Kan ik meer series aan de grafiek toevoegen?
 
-Ja, u kunt extra reeksen aan het diagram toevoegen door een soortgelijk proces te volgen als weergegeven in stap 5.
+Ja, u kunt extra series aan de grafiek toevoegen door een soortgelijk proces te volgen als getoond in stap 5.
 
-### Hoe wijzig ik het diagramtype?
+### Hoe verander ik het grafiektype?
 
- Als u het diagramtype wilt wijzigen, vervangt u`ChartType.ClusteredColumn` met het gewenste diagramtype bij het toevoegen van het diagram in stap 2.
+Om het grafiektype te wijzigen, vervangt u `ChartType.ClusteredColumn` met het gewenste grafiektype wanneer u de grafiek toevoegt in stap 2.
 
-### Hoe kan ik een titel aan het diagram toevoegen?
+### Hoe kan ik een titel aan de grafiek toevoegen?
 
- U kunt een titel aan het diagram toevoegen met behulp van de`ch.getChartTitle().getTextFrame().setText("Chart Title");` methode.
+U kunt een titel aan de grafiek toevoegen met behulp van de `ch.getChartTitle().getTextFrame().setText("Chart Title");` methode.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

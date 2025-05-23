@@ -1,28 +1,30 @@
 ---
-title: Hibasávok hozzáadása a Java Slides-hez
-linktitle: Hibasávok hozzáadása a Java Slides-hez
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan adhat hozzá hibasávokat a PowerPoint diagramokhoz Java nyelven az Aspose.Slides segítségével. Lépésről lépésre útmutató forráskóddal a hibasávok testreszabásához.
-weight: 13
-url: /hu/java/chart-data-manipulation/add-error-bars-java-slides/
+"description": "Tanuld meg, hogyan adhatsz hozzá hibasávokat PowerPoint-diagramokhoz Java-ban az Aspose.Slides segítségével. Lépésről lépésre útmutató forráskóddal a hibasávok testreszabásához."
+"linktitle": "Hibasávok hozzáadása Java diákban"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Hibasávok hozzáadása Java diákban"
+"url": "/hu/java/chart-data-manipulation/add-error-bars-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hibasávok hozzáadása a Java Slides-hez
+# Hibasávok hozzáadása Java diákban
 
 
-## Bevezetés a hibasávok hozzáadásához Java Slides-ben az Aspose.Slides használatával
+## Bevezetés a hibasávok hozzáadásához Java diákban az Aspose.Slides használatával
 
-Ebben az oktatóanyagban bemutatjuk, hogyan lehet hibasávokat hozzáadni egy PowerPoint dián lévő diagramhoz az Aspose.Slides for Java segítségével. A hibasávok értékes információkkal szolgálnak a diagram adatpontjainak változékonyságáról vagy bizonytalanságáról. Létrehozunk egy buborékdiagramot, és hibasávokat adunk hozzá. Kezdjük el!
+Ebben az oktatóanyagban bemutatjuk, hogyan adhatunk hozzá hibasávokat egy PowerPoint dián lévő diagramhoz az Aspose.Slides for Java segítségével. A hibasávok értékes információkat nyújtanak a diagram adatpontjainak változékonyságáról vagy bizonytalanságáról. Létrehozunk egy buborékdiagramot, és hibasávokat adunk hozzá. Kezdjük is!
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy az Aspose.Slides for Java könyvtár telepítve van és be van állítva a Java projektben. A könyvtár letölthető a[Aspose honlapja](https://downloads.aspose.com/slides/java).
+Mielőtt elkezdenéd, győződj meg róla, hogy az Aspose.Slides for Java könyvtár telepítve és beállítva van a Java projektedben. A könyvtárat letöltheted innen: [Aspose weboldal](https://downloads.aspose.com/slides/java).
 
-## 1. lépés: Hozzon létre egy üres prezentációt
+## 1. lépés: Hozz létre egy üres prezentációt
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
@@ -31,21 +33,21 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation();
 ```
 
-Ebben a lépésben létrehozunk egy üres prezentációt, ahol hozzáadjuk a diagramunkat hibasávokkal.
+Ebben a lépésben létrehozunk egy üres prezentációt, ahová hozzáadjuk a hibasávokkal ellátott diagramunkat.
 
-## 2. lépés: Hozzon létre egy buborékdiagramot
+## 2. lépés: Buborékdiagram létrehozása
 
 ```java
-// Buborékdiagram készítése
+// Buborékdiagram létrehozása
 IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Bubble, 50, 50, 400, 300, true);
 ```
 
-Itt létrehozunk egy buborékdiagramot, és megadjuk a helyzetét és méreteit a dián.
+Itt létrehozunk egy buborékdiagramot, és megadjuk annak helyét és méreteit a dián.
 
-## 3. lépés: Hibasávok hozzáadása és formátum beállítása
+## 3. lépés: Hibasávok hozzáadása és a formátum beállítása
 
 ```java
-// Hibasávok hozzáadása és formátumának beállítása
+// Hibasávok hozzáadása és formátumuk beállítása
 IErrorBarsFormat errBarX = chart.getChartData().getSeries().get_Item(0).getErrorBarsXFormat();
 IErrorBarsFormat errBarY = chart.getChartData().getSeries().get_Item(0).getErrorBarsYFormat();
 errBarX.setVisible(true);
@@ -59,29 +61,29 @@ errBarY.getFormat().getLine().setWidth(2);
 errBarX.setEndCap(true);
 ```
 
-Ebben a lépésben hibasávokat adunk a diagramhoz, és beállítjuk a formátumukat. A hibasávokat értékek, típusok és egyéb tulajdonságok módosításával testreszabhatja.
+Ebben a lépésben hibasávokat adunk a diagramhoz, és beállítjuk a formátumukat. A hibasávokat testreszabhatja az értékek, típusok és egyéb tulajdonságok módosításával.
 
-- `errBarX` hibasávokat jelöl az X tengely mentén.
-- `errBarY` hibasávokat jelöl az Y tengely mentén.
-- Mind az X, mind az Y hibasávot láthatóvá tesszük.
-- `setValueType` megadja a hibasávok értéktípusát (pl. Fix vagy Percentage).
+- `errBarX` az X tengely mentén található hibasávokat jelöli.
+- `errBarY` az Y tengely mentén található hibasávokat jelöli.
+- Láthatóvá tesszük mind az X, mind az Y hibasávokat.
+- `setValueType` meghatározza a hibasávok értéktípusát (pl. Fix vagy Százalék).
 - `setValue` beállítja a hibasávok értékét.
-- `setType` meghatározza a hibasávok típusát (pl. plusz vagy mínusz).
--  A hibasáv vonalainak szélességét a segítségével állítjuk be`getFormat().getLine().setWidth(2)`.
-- `setEndCap`megadja, hogy szerepeljenek-e zárófejek a hibasávokon.
+- `setType` meghatározza a hibasávok típusát (pl. Plusz vagy Mínusz).
+- A hibasáv vonalak szélességét a következővel állítottuk be: `getFormat().getLine().setWidth(2)`.
+- `setEndCap` meghatározza, hogy szerepeljenek-e végzárók a hibasávokon.
 
-## 4. lépés: Mentse el a bemutatót
+## 4. lépés: Mentse el a prezentációt
 
 ```java
 // Prezentáció mentése
 presentation.save(dataDir + "ErrorBars_out.pptx", SaveFormat.Pptx);
 ```
 
-Végül elmentjük a prezentációt a hozzáadott hibasávokkal egy megadott helyre.
+Végül a hozzáadott hibasávokkal ellátott prezentációt egy megadott helyre mentjük.
 
-Ez az! Sikeresen hozzáadott hibasávokat egy PowerPoint-dián lévő diagramhoz az Aspose.Slides for Java segítségével.
+Ez minden! Sikeresen hozzáadtad a hibasávokat egy PowerPoint dián lévő diagramhoz az Aspose.Slides for Java használatával.
 
-## Teljes forráskód a Java Slides hibasávok hozzáadásához
+## Teljes forráskód a hibasávok hozzáadásához Java diákban
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
@@ -90,9 +92,9 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation();
 try
 {
-	// Buborékdiagram készítése
+	// Buborékdiagram létrehozása
 	IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Bubble, 50, 50, 400, 300, true);
-	// Hibasávok hozzáadása és formátumának beállítása
+	// Hibasávok hozzáadása és formátumuk beállítása
 	IErrorBarsFormat errBarX = chart.getChartData().getSeries().get_Item(0).getErrorBarsXFormat();
 	IErrorBarsFormat errBarY = chart.getChartData().getSeries().get_Item(0).getErrorBarsYFormat();
 	errBarX.setVisible(true);
@@ -115,28 +117,30 @@ finally
 
 ## Következtetés
 
-Ebben az oktatóanyagban megvizsgáltuk, hogyan javíthatja PowerPoint-prezentációit az Aspose.Slides for Java segítségével hibasávok hozzáadásával a diagramokhoz. A hibasávok értékes betekintést nyújtanak az adatok változékonyságába és bizonytalanságába, így a prezentációk informatívabbak és látványosabbak.
+Ebben az oktatóanyagban azt vizsgáltuk meg, hogyan javíthatjuk PowerPoint-bemutatóinkat hibasávok hozzáadásával a diagramokhoz az Aspose.Slides for Java segítségével. A hibasávok értékes betekintést nyújtanak az adatok változékonyságába és bizonytalanságaiba, így a bemutatók informatívabbak és vizuálisan vonzóbbak.
 
 ## GYIK
 
-### Hogyan szabhatom tovább a hibasávok megjelenését?
+### Hogyan tudom tovább testreszabni a hibasávok megjelenését?
 
-Testreszabhatja a hibasávokat tulajdonságaik, például vonalstílus, szín és szélesség módosításával, a 3. lépésben bemutatott módon.
+A hibasávokat testreszabhatja a tulajdonságaik, például a vonalstílus, a szín és a szélesség módosításával, ahogy azt a 3. lépésben bemutattuk.
 
-### Hozzáadhatok hibasávokat a különböző diagramtípusokhoz?
+### Hozzáadhatok hibasávokat különböző diagramtípusokhoz?
 
-Igen, az Aspose.Slides for Java által támogatott különféle diagramtípusokhoz hozzáadhat hibasávokat. Egyszerűen hozza létre a kívánt diagramtípust, és kövesse ugyanazokat a hibasáv testreszabási lépéseket.
+Igen, hibasávokat adhatsz hozzá az Aspose.Slides for Java által támogatott különféle diagramtípusokhoz. Egyszerűen hozd létre a kívánt diagramtípust, és kövesd a hibasáv testreszabási lépéseit.
 
-### Hogyan állíthatom be a diagram helyzetét és méretét a dián?
+### Hogyan tudom beállítani a diagram pozícióját és méretét a dián?
 
- A diagram helyzetét és méreteit a paraméterek beállításával szabályozhatja`addChart` módszert a 2. lépésben látható módon.
+A diagram pozícióját és méreteit a paraméterek módosításával szabályozhatja. `addChart` módszer, ahogy a 2. lépésben látható.
 
-### Hol találhatok további információt az Aspose.Slides for Java programról?
+### Hol találok további információt az Aspose.Slides for Java-ról?
 
- Hivatkozhat a[Aspose.Slides for Java dokumentáció](https://reference.aspose.com/slides/java/) a könyvtár használatával kapcsolatos részletes információkért.
+Hivatkozhat a [Aspose.Slides Java dokumentációhoz](https://reference.aspose.com/slides/java/) részletes információkat a könyvtár használatáról.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

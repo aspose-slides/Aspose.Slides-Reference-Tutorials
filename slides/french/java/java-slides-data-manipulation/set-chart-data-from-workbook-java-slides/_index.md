@@ -1,28 +1,30 @@
 ---
-title: Définir les données du graphique à partir du classeur dans les diapositives Java
-linktitle: Définir les données du graphique à partir du classeur dans les diapositives Java
-second_title: API de traitement Java PowerPoint d'Aspose.Slides
-description: Découvrez comment définir les données d'un graphique à partir d'un classeur Excel dans Java Slides à l'aide d'Aspose.Slides. Guide étape par étape avec des exemples de code pour des présentations dynamiques.
-weight: 15
-url: /fr/java/data-manipulation/set-chart-data-from-workbook-java-slides/
+"description": "Apprenez à définir les données d'un graphique à partir d'un classeur Excel dans Java Slides avec Aspose.Slides. Guide étape par étape avec exemples de code pour des présentations dynamiques."
+"linktitle": "Définir les données du graphique à partir du classeur dans les diapositives Java"
+"second_title": "API de traitement Java PowerPoint Aspose.Slides"
+"title": "Définir les données du graphique à partir du classeur dans les diapositives Java"
+"url": "/fr/java/data-manipulation/set-chart-data-from-workbook-java-slides/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Définir les données du graphique à partir du classeur dans les diapositives Java
 
 
-## Introduction à la définition des données de graphique à partir d'un classeur dans des diapositives Java
+## Introduction à la définition des données d'un graphique à partir d'un classeur dans Java (diapositives)
 
-Aspose.Slides pour Java est une bibliothèque puissante qui permet aux développeurs de travailler avec des présentations PowerPoint par programme. Il fournit des fonctionnalités étendues pour créer, manipuler et gérer des diapositives PowerPoint. Une exigence courante lorsque l'on travaille avec des présentations consiste à définir dynamiquement les données du graphique à partir d'une source de données externe, telle qu'un classeur Excel. Dans ce didacticiel, nous montrerons comment y parvenir en utilisant Java.
+Aspose.Slides pour Java est une bibliothèque puissante qui permet aux développeurs de travailler avec des présentations PowerPoint par programmation. Elle offre des fonctionnalités complètes pour la création, la manipulation et la gestion de diapositives PowerPoint. L'une des exigences courantes des présentations est de définir dynamiquement les données d'un graphique à partir d'une source de données externe, comme un classeur Excel. Dans ce tutoriel, nous vous montrerons comment y parvenir avec Java.
 
-## Conditions préalables
+## Prérequis
 
-Avant de nous lancer dans la mise en œuvre, assurez-vous de disposer des conditions préalables suivantes :
+Avant de nous plonger dans la mise en œuvre, assurez-vous de disposer des prérequis suivants :
 
-- Kit de développement Java (JDK) installé sur votre système.
+- Java Development Kit (JDK) installé sur votre système.
 - Bibliothèque Aspose.Slides pour Java ajoutée à votre projet.
 - Un classeur Excel contenant les données que vous souhaitez utiliser pour le graphique.
 
@@ -33,15 +35,15 @@ String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 ```
 
-Nous commençons par créer une nouvelle présentation PowerPoint à l'aide d'Aspose.Slides pour Java.
+Nous commençons par créer une nouvelle présentation PowerPoint en utilisant Aspose.Slides pour Java.
 
-## Étape 2 : ajouter un graphique
+## Étape 2 : Ajouter un graphique
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 500, 400);
 ```
 
-Ensuite, nous ajoutons un graphique à l'une des diapositives de la présentation. Dans cet exemple, nous ajoutons un graphique circulaire, mais vous pouvez choisir le type de graphique qui correspond à vos besoins.
+Ensuite, nous ajoutons un graphique à l'une des diapositives de la présentation. Dans cet exemple, nous ajoutons un graphique à secteurs, mais vous pouvez choisir le type de graphique qui vous convient.
 
 ## Étape 3 : Effacer les données du graphique
 
@@ -57,9 +59,9 @@ Nous effaçons toutes les données existantes du graphique pour le préparer aux
 Workbook workbook = new Workbook("Your Document Directory";
 ```
 
- Nous chargeons le classeur Excel contenant les données que nous souhaitons utiliser pour le graphique. Remplacer`"book1.xlsx"` avec le chemin d'accès à votre fichier Excel.
+Nous chargeons le classeur Excel contenant les données que nous souhaitons utiliser pour le graphique. Remplacer `"book1.xlsx"` avec le chemin vers votre fichier Excel.
 
-## Étape 5 : Écrire un flux de classeur pour tracer des données
+## Étape 5 : Écrire le flux du classeur dans les données du graphique
 
 ```java
 ByteArrayOutputStream mem = new ByteArrayOutputStream();
@@ -68,7 +70,7 @@ mem.flush();
 chart.getChartData().writeWorkbookStream(mem.toByteArray());
 ```
 
-Nous convertissons les données du classeur Excel en flux et les écrivons dans les données du graphique.
+Nous convertissons les données du classeur Excel en un flux et les écrivons dans les données du graphique.
 
 ## Étape 6 : Définir la plage de données du graphique
 
@@ -76,18 +78,18 @@ Nous convertissons les données du classeur Excel en flux et les écrivons dans 
 chart.getChartData().setRange("Sheet2!$A$1:$B$3");
 ```
 
-Nous spécifions la plage de cellules du classeur Excel qui doit être utilisée comme données pour le graphique. Ajustez la plage selon vos besoins.
+Nous spécifions la plage de cellules du classeur Excel à utiliser comme données pour le graphique. Ajustez la plage selon vos besoins.
 
-## Étape 7 : Personnaliser la série de graphiques
+## Étape 7 : Personnaliser la série de graphiques
 
 ```java
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 series.getParentSeriesGroup().setColorVaried(true);
 ```
 
-Vous pouvez personnaliser diverses propriétés de la série de graphiques pour répondre à vos besoins. Dans cet exemple, nous activons des couleurs variées pour la série de graphiques.
+Vous pouvez personnaliser différentes propriétés de la série de graphiques selon vos besoins. Dans cet exemple, nous activons différentes couleurs pour la série de graphiques.
 
-## Étape 8 : Enregistrez la présentation
+## Étape 8 : Enregistrer la présentation
 
 ```java
 pres.save(outPath, SaveFormat.Pptx);
@@ -125,32 +127,34 @@ try {
 
 ## Conclusion
 
-Dans ce didacticiel, nous avons appris à définir les données d'un graphique à partir d'un classeur Excel dans Java Slides à l'aide de la bibliothèque Aspose.Slides pour Java. En suivant le guide étape par étape et en utilisant les exemples de code source fournis, vous pouvez facilement intégrer des données de graphiques dynamiques dans vos présentations PowerPoint.
+Dans ce tutoriel, nous avons appris à définir des données graphiques à partir d'un classeur Excel dans Java Slides grâce à la bibliothèque Aspose.Slides pour Java. En suivant le guide étape par étape et en utilisant les exemples de code source fournis, vous pourrez facilement intégrer des données graphiques dynamiques à vos présentations PowerPoint.
 
 ## FAQ
 
-### Comment puis-je personnaliser l’apparence du graphique dans ma présentation ?
+### Comment puis-je personnaliser l’apparence du graphique dans ma présentation ?
 
-Vous pouvez personnaliser l'apparence du graphique en modifiant les propriétés telles que les couleurs, les polices, les étiquettes, etc. Reportez-vous à la documentation Aspose.Slides pour Java pour des informations détaillées sur les options de personnalisation des graphiques.
+Vous pouvez personnaliser l'apparence du graphique en modifiant des propriétés telles que les couleurs, les polices, les libellés, etc. Consultez la documentation d'Aspose.Slides pour Java pour plus d'informations sur les options de personnalisation des graphiques.
 
-### Puis-je utiliser les données d’un autre fichier Excel pour le graphique ?
+### Puis-je utiliser des données provenant d’un autre fichier Excel pour le graphique ?
 
-Oui, vous pouvez utiliser les données de n'importe quel fichier Excel en spécifiant le chemin de fichier correct lors du chargement du classeur dans le code.
+Oui, vous pouvez utiliser les données de n’importe quel fichier Excel en spécifiant le chemin de fichier correct lors du chargement du classeur dans le code.
 
 ### Quels autres types de graphiques puis-je créer avec Aspose.Slides pour Java ?
 
-Aspose.Slides pour Java prend en charge différents types de graphiques, notamment les graphiques à barres, les graphiques linéaires, les graphiques à nuages de points, etc. Vous pouvez choisir le type de graphique qui correspond le mieux à vos besoins en matière de représentation des données.
+Aspose.Slides pour Java prend en charge différents types de graphiques, notamment les graphiques à barres, les graphiques en courbes, les graphiques en nuage de points, etc. Vous pouvez choisir le type de graphique le mieux adapté à vos besoins de représentation de données.
 
-### Est-il possible de mettre à jour les données du graphique de manière dynamique dans une présentation en cours ?
+### Est-il possible de mettre à jour les données du graphique de manière dynamique dans une présentation en cours d'exécution ?
 
 Oui, vous pouvez mettre à jour les données du graphique de manière dynamique dans une présentation en modifiant le classeur sous-jacent, puis en actualisant les données du graphique.
 
-### Où puis-je trouver plus d’exemples et de ressources pour travailler avec Aspose.Slides pour Java ?
+### Où puis-je trouver plus d’exemples et de ressources pour travailler avec Aspose.Slides pour Java ?
 
- Vous pouvez explorer des exemples et des ressources supplémentaires sur le[Site Aspose](https://www.aspose.com/). De plus, la documentation Aspose.Slides pour Java fournit des conseils complets sur l'utilisation de la bibliothèque.
+Vous pouvez explorer des exemples et des ressources supplémentaires sur le [Site Web d'Aspose](https://www.aspose.com/)De plus, la documentation Aspose.Slides pour Java fournit des conseils complets sur l'utilisation de la bibliothèque.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: चार्ट निर्माण और अनुकूलन
-linktitle: चार्ट निर्माण और अनुकूलन
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: Aspose.Slides के साथ अपने .NET एप्लिकेशन की प्रस्तुति क्षमताओं को बेहतर बनाएँ। चार्ट निर्माण और अनुकूलन पर हमारे ट्यूटोरियल में गोता लगाएँ, चरण-दर-चरण मार्गदर्शिकाएँ और कोड उदाहरणों का अन्वेषण करें।
-weight: 14
-url: /hi/net/chart-creation-and-customization/
+"description": "Aspose.Slides के साथ अपने .NET एप्लिकेशन की प्रस्तुति क्षमताओं को बेहतर बनाएँ। चार्ट निर्माण और अनुकूलन पर हमारे ट्यूटोरियल में गोता लगाएँ, चरण-दर-चरण मार्गदर्शिकाएँ और कोड उदाहरणों का अन्वेषण करें।"
+"linktitle": "चार्ट निर्माण और अनुकूलन"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "चार्ट निर्माण और अनुकूलन"
+"url": "/hi/net/chart-creation-and-customization/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # चार्ट निर्माण और अनुकूलन
@@ -24,18 +26,20 @@ url: /hi/net/chart-creation-and-customization/
 
 ## चार्ट निर्माण और अनुकूलन ट्यूटोरियल
 ### [Aspose.Slides में चार्ट निर्माण और अनुकूलन](./chart-creation-and-customization/)
-.NET के लिए Aspose.Slides का उपयोग करके शानदार चार्ट बनाना और उन्हें कस्टमाइज़ करना सीखें। कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।
+Aspose.Slides for .NET का उपयोग करके शानदार चार्ट बनाना और उन्हें कस्टमाइज़ करना सीखें। कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।
 ### [प्रस्तुति में लेआउट स्लाइड जोड़ें](./add-layout-slides/)
 .NET के लिए Aspose.Slides का उपयोग करके प्रस्तुतियों को बेहतर बनाएँ: दृश्यात्मक रूप से सम्मोहक सामग्री के लिए लेआउट स्लाइड्स को सहजता से जोड़ें।
 ### [प्रस्तुति के भीतर स्लाइडों की तुलना करें](./check-slides-comparison/)
-Aspose.Slides for .NET का उपयोग करके प्रस्तुतियों में स्लाइड्स की तुलना करना सीखें। सटीक तुलना के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
+.NET के लिए Aspose.Slides का उपयोग करके प्रस्तुतियों में स्लाइड्स की तुलना करना सीखें। सटीक तुलना के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
 ### [बेस प्लेसहोल्डर उदाहरण प्राप्त करें](./get-base-placeholder-example/)
-जानें कि बेस प्लेसहोल्डर्स के साथ गतिशील पावरपॉइंट प्रेजेंटेशन बनाने के लिए Aspose.Slides for .NET का उपयोग कैसे करें।
+बेस प्लेसहोल्डर्स के साथ गतिशील पावरपॉइंट प्रस्तुतियाँ बनाने के लिए Aspose.Slides for .NET का उपयोग करना सीखें।
 ### [स्लाइड्स में हेडर और फ़ुटर प्रबंधित करें](./header-footer-manager/)
 Aspose.Slides for .NET का उपयोग करके स्लाइड्स में हेडर और फ़ुटर को प्रबंधित करना सीखें। अपनी प्रस्तुतियों को आसानी और सटीकता से अनुकूलित करें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

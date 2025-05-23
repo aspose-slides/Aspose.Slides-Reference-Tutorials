@@ -1,14 +1,16 @@
 ---
-title: Java Slaytlarına Özel Hata Ekleme
-linktitle: Java Slaytlarına Özel Hata Ekleme
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides'ı kullanarak Java Slides'daki PowerPoint grafiklerine özel hata çubuklarının nasıl ekleneceğini öğrenin. Hassas veri görselleştirmesi için kaynak kodlu adım adım kılavuz.
-weight: 11
-url: /tr/java/chart-data-manipulation/add-custom-error-java-slides/
+"description": "Aspose.Slides kullanarak Java Slaytlarında PowerPoint grafiklerine özel hata çubuklarının nasıl ekleneceğini öğrenin. Hassas veri görselleştirmesi için kaynak kodlu adım adım kılavuz."
+"linktitle": "Java Slaytlarına Özel Hata Ekleme"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java Slaytlarına Özel Hata Ekleme"
+"url": "/tr/java/chart-data-manipulation/add-custom-error-java-slides/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java Slaytlarına Özel Hata Ekleme
@@ -16,41 +18,41 @@ url: /tr/java/chart-data-manipulation/add-custom-error-java-slides/
 
 ## Aspose.Slides Kullanarak Java Slaytlarına Özel Hata Çubukları Eklemeye Giriş
 
-Bu eğitimde Aspose.Slides for Java kullanarak PowerPoint sunumundaki bir grafiğe özel hata çubuklarının nasıl ekleneceğini öğreneceksiniz. Hata çubukları, bir grafikteki veri noktalarındaki değişkenliği veya belirsizliği görüntülemek için kullanışlıdır.
+Bu eğitimde, Aspose.Slides for Java kullanarak bir PowerPoint sunumundaki bir grafiğe özel hata çubuklarının nasıl ekleneceğini öğreneceksiniz. Hata çubukları, bir grafikteki veri noktalarındaki değişkenliği veya belirsizliği göstermek için kullanışlıdır.
 
-## Önkoşullar
+## Ön koşullar
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-- Aspose.Slides for Java kütüphanesi projenizde kurulu ve yapılandırılmıştır.
-- Bir Java geliştirme ortamı kuruldu.
+- Projenizde Aspose.Slides for Java kütüphanesi kurulu ve yapılandırılmış.
+- Java geliştirme ortamı kuruldu.
 
-## 1. Adım: Boş Bir Sunu Oluşturun
+## Adım 1: Boş Bir Sunum Oluşturun
 
-Öncelikle boş bir PowerPoint sunusu oluşturun.
+Öncelikle boş bir PowerPoint sunumu oluşturun.
 
 ```java
-// Belgeler dizininin yolu.
+// Belgeler dizinine giden yol.
 String dataDir = "Your Document Directory";
 // Boş sunum oluşturma
 Presentation presentation = new Presentation();
 ```
 
-## 2. Adım: Kabarcık Grafiği Ekleyin
+## Adım 2: Bir Balon Grafiği Ekleyin
 
-Daha sonra sunuma bir kabarcık grafiği ekleyeceğiz.
+Daha sonra sunuma bir balon grafiği ekleyeceğiz.
 
 ```java
-// Kabarcık grafiği oluşturma
+// Bir balon grafiği oluşturma
 IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Bubble, 50, 50, 400, 300, true);
 ```
 
-## 3. Adım: Özel Hata Çubukları Ekleyin
+## Adım 3: Özel Hata Çubukları Ekleyin
 
 Şimdi grafik serisine özel hata çubukları ekleyelim.
 
 ```java
-// Özel Hata çubukları ekleme ve formatlarını ayarlama
+// Özel Hata çubukları ekleme ve biçimlerini ayarlama
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 IErrorBarsFormat errBarX = series.getErrorBarsXFormat();
 IErrorBarsFormat errBarY = series.getErrorBarsYFormat();
@@ -62,17 +64,17 @@ errBarY.setValueType(ErrorBarValueType.Custom);
 
 ## Adım 4: Hata Çubukları Verilerini Ayarlayın
 
-Bu adımda grafik serisi veri noktalarına erişeceğiz ve her nokta için özel hata çubuğu değerlerini ayarlayacağız.
+Bu adımda, grafik serisi veri noktalarına erişeceğiz ve her nokta için özel hata çubuğu değerlerini ayarlayacağız.
 
 ```java
-// Grafik serisi veri noktalarına erişme ve tek tek noktalar için hata çubuğu değerlerini ayarlama
+// Grafik serisi veri noktalarına erişim ve tek tek noktalar için hata çubuğu değerlerinin ayarlanması
 IChartDataPointCollection points = series.getDataPoints();
 points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForXPlusValues(DataSourceType.DoubleLiterals);
 points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForXMinusValues(DataSourceType.DoubleLiterals);
 points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForYPlusValues(DataSourceType.DoubleLiterals);
 points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForYMinusValues(DataSourceType.DoubleLiterals);
 
-// Grafik serisi noktaları için hata çubuklarını ayarlama
+// Grafik serisi noktaları için hata çubuklarının ayarlanması
 for (int i = 0; i < points.size(); i++)
 {
     points.get_Item(i).getErrorBarsCustomValues().getXMinus().setAsLiteralDouble(i + 1);
@@ -82,27 +84,27 @@ for (int i = 0; i < points.size(); i++)
 }
 ```
 
-## Adım 5: Sunuyu Kaydetme
+## Adım 5: Sunumu Kaydedin
 
-Son olarak sunuyu özel hata çubuklarıyla kaydedin.
+Son olarak sunumu özel hata çubuklarıyla kaydedin.
 
 ```java
 // Sunum kaydediliyor
 presentation.save(dataDir + "ErrorBarsCustomValues_out.pptx", SaveFormat.Pptx);
 ```
 
-Bu kadar! Aspose.Slides for Java'yı kullanarak PowerPoint sunumundaki bir grafiğe özel hata çubuklarını başarıyla eklediniz.
+İşte bu kadar! Aspose.Slides for Java kullanarak bir PowerPoint sunumundaki bir grafiğe özel hata çubuklarını başarıyla eklediniz.
 
-## Java Slaytlarına Özel Hata Eklemek İçin Kaynak Kodunu Tamamlayın
+## Java Slaytlarında Özel Hata Eklemek İçin Tam Kaynak Kodu
 
 ```java
-// Belgeler dizininin yolu.
+// Belgeler dizinine giden yol.
 String dataDir = "Your Document Directory";
 // Boş sunum oluşturma
 Presentation presentation = new Presentation();
 try
 {
-	// Kabarcık grafiği oluşturma
+	// Bir balon grafiği oluşturma
 	IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Bubble, 50, 50, 400, 300, true);
 	// Özel Hata çubukları ekleme ve biçimini ayarlama
 	IChartSeries series = chart.getChartData().getSeries().get_Item(0);
@@ -112,13 +114,13 @@ try
 	errBarY.setVisible(true);
 	errBarX.setValueType(ErrorBarValueType.Custom);
 	errBarY.setValueType(ErrorBarValueType.Custom);
-	// Grafik serisi veri noktasına erişme ve tek tek noktalar için hata çubukları değerlerini ayarlama
+	// Grafik serisi veri noktasına erişim ve bireysel nokta için hata çubuğu değerlerinin ayarlanması
 	IChartDataPointCollection points = series.getDataPoints();
 	points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForXPlusValues(DataSourceType.DoubleLiterals);
 	points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForXMinusValues(DataSourceType.DoubleLiterals);
 	points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForYPlusValues(DataSourceType.DoubleLiterals);
 	points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForYMinusValues(DataSourceType.DoubleLiterals);
-	// Grafik serisi noktaları için hata çubuklarını ayarlama
+	// Grafik serisi noktaları için hata çubuklarının ayarlanması
 	for (int i = 0; i < points.size(); i++)
 	{
 		points.get_Item(i).getErrorBarsCustomValues().getXMinus().setAsLiteralDouble(i + 1);
@@ -137,28 +139,30 @@ finally
 
 ## Çözüm
 
-Bu kapsamlı eğitimde Aspose.Slides for Java kullanarak grafiklere özel hata çubukları ekleyerek PowerPoint sunumlarınızı nasıl geliştireceğinizi öğrendiniz. Hata çubukları, veri değişkenliği ve belirsizliğine ilişkin değerli bilgiler sağlayarak grafiklerinizi daha bilgilendirici ve görsel olarak çekici hale getirir.
+Bu kapsamlı eğitimde, Aspose.Slides for Java kullanarak grafiklere özel hata çubukları ekleyerek PowerPoint sunumlarınızı nasıl geliştireceğinizi öğrendiniz. Hata çubukları, veri değişkenliği ve belirsizliği hakkında değerli bilgiler sağlayarak grafiklerinizi daha bilgilendirici ve görsel olarak çekici hale getirir.
 
-## SSS'ler
+## SSS
 
-### Hata çubuklarının görünümünü nasıl özelleştiririm?
+### Hata çubuklarının görünümünü nasıl özelleştirebilirim?
 
- Özelliklerini değiştirerek hata çubuklarının görünümünü özelleştirebilirsiniz.`IErrorBarsFormat` çizgi stili, çizgi rengi ve hata çubuğu genişliği gibi nesne.
+Hata çubuklarının görünümünü, özelliklerini değiştirerek özelleştirebilirsiniz. `IErrorBarsFormat` çizgi stili, çizgi rengi ve hata çubuğu genişliği gibi nesne.
 
 ### Diğer grafik türlerine hata çubukları ekleyebilir miyim?
 
-Evet, Aspose.Slides for Java tarafından desteklenen çubuk grafikler, çizgi grafikler ve dağılım grafikleri dahil çeşitli grafik türlerine hata çubukları ekleyebilirsiniz.
+Evet, Aspose.Slides for Java tarafından desteklenen çubuk grafikler, çizgi grafikler ve dağılım grafikleri dahil olmak üzere çeşitli grafik türlerine hata çubukları ekleyebilirsiniz.
 
-### Her veri noktası için farklı hata çubuğu değerlerini nasıl ayarlarım?
+### Her veri noktası için farklı hata çubuğu değerleri nasıl ayarlarım?
 
-Yukarıdaki kodda gösterildiği gibi, veri noktaları arasında geçiş yapabilir ve her nokta için özel hata çubuğu değerleri ayarlayabilirsiniz.
+Yukarıdaki kodda gösterildiği gibi, veri noktaları arasında döngü oluşturabilir ve her nokta için özel hata çubuğu değerleri ayarlayabilirsiniz.
 
-### Belirli veri noktalarına ilişkin hata çubuklarını gizlemek mümkün müdür?
+### Belirli veri noktaları için hata çubuklarını gizlemek mümkün müdür?
 
- Evet, ayrı ayrı veri noktaları için hata çubuklarının görünürlüğünü ayarlayarak kontrol edebilirsiniz.`setVisible` mülkiyeti`IErrorBarsFormat` nesne.
+Evet, tek tek veri noktaları için hata çubuklarının görünürlüğünü, `setVisible` mülkiyeti `IErrorBarsFormat` nesne.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

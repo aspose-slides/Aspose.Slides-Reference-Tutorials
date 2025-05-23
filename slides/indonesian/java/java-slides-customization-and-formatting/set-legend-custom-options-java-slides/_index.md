@@ -1,29 +1,31 @@
 ---
-title: Tetapkan Opsi Kustom Legenda di Slide Java
-linktitle: Tetapkan Opsi Kustom Legenda di Slide Java
-second_title: Aspose.Slides API Pemrosesan Java PowerPoint
-description: Pelajari cara mengatur opsi legenda khusus di Java Slides menggunakan Aspose.Slides for Java. Sesuaikan posisi dan ukuran legenda di bagan PowerPoint Anda.
-weight: 14
-url: /id/java/customization-and-formatting/set-legend-custom-options-java-slides/
+"description": "Pelajari cara mengatur opsi legenda khusus di Java Slides menggunakan Aspose.Slides untuk Java. Sesuaikan posisi dan ukuran legenda di bagan PowerPoint Anda."
+"linktitle": "Mengatur Opsi Kustom Legenda di Slide Java"
+"second_title": "API Pemrosesan PowerPoint Java Aspose.Slides"
+"title": "Mengatur Opsi Kustom Legenda di Slide Java"
+"url": "/id/java/customization-and-formatting/set-legend-custom-options-java-slides/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tetapkan Opsi Kustom Legenda di Slide Java
+# Mengatur Opsi Kustom Legenda di Slide Java
 
 
-## Pengantar Mengatur Opsi Kustom Legenda di Slide Java
+## Pengantar untuk Mengatur Opsi Kustom Legenda di Slide Java
 
-Dalam tutorial ini, kami akan mendemonstrasikan cara mengkustomisasi properti legenda bagan dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Anda dapat memodifikasi posisi legenda, ukuran, dan atribut lainnya sesuai kebutuhan presentasi Anda.
+Dalam tutorial ini, kami akan menunjukkan cara menyesuaikan properti legenda bagan dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Anda dapat mengubah posisi, ukuran, dan atribut legenda lainnya agar sesuai dengan kebutuhan presentasi Anda.
 
 ## Prasyarat
 
 Sebelum memulai, pastikan Anda memiliki hal berikut:
 
-- Aspose.Slides untuk Java API diinstal.
-- Lingkungan pengembangan Java disiapkan.
+- Aspose.Slides untuk API Java terinstal.
+- Lingkungan pengembangan Java telah disiapkan.
 
 ## Langkah 1: Impor kelas yang diperlukan:
 
@@ -38,7 +40,7 @@ import com.aspose.slides.*;
 String dataDir = "Your Document Directory";
 ```
 
-##  Langkah 3: Buat sebuah instance dari`Presentation` class:
+## Langkah 3: Buat contoh dari `Presentation` kelas:
 
 ```java
 Presentation presentation = new Presentation();
@@ -51,7 +53,7 @@ try {
     ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
-## Langkah 5: Tambahkan bagan kolom berkerumun ke slide:
+## Langkah 5: Tambahkan bagan kolom berkelompok ke slide:
 
 ```java
     IChart chart = slide.getShapes().addChart(ChartType.ClusteredColumn, 50, 50, 500, 500);
@@ -59,13 +61,13 @@ try {
 
 ## Langkah 6. Tetapkan Properti Legenda:
 
-- Tetapkan posisi X pada legenda (relatif terhadap lebar grafik):
+- Mengatur posisi X legenda (relatif terhadap lebar grafik):
 
 ```java
 chart.getLegend().setX(50 / chart.getWidth());
 ```
 
-- Tetapkan posisi Y pada legenda (relatif terhadap tinggi grafik):
+- Tetapkan posisi Y legenda (relatif terhadap tinggi grafik):
 
 ```java
 chart.getLegend().setY(50 / chart.getHeight());
@@ -77,7 +79,7 @@ chart.getLegend().setY(50 / chart.getHeight());
 chart.getLegend().setWidth(100 / chart.getWidth());
 ```
 
-- Tetapkan tinggi legenda (relatif terhadap tinggi grafik):
+- Mengatur tinggi legenda (relatif terhadap tinggi grafik):
 
 ```java
 chart.getLegend().setHeight(100 / chart.getHeight());
@@ -92,9 +94,9 @@ chart.getLegend().setHeight(100 / chart.getHeight());
 }
 ```
 
-Itu dia! Anda telah berhasil mengkustomisasi properti legenda bagan dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java.
+Selesai! Anda telah berhasil menyesuaikan properti legenda bagan dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java.
 
-## Kode Sumber Lengkap Untuk Opsi Kustom Set Legenda di Slide Java
+## Source Code Lengkap Untuk Set Legend Custom Options di Java Slides
 
 ```java
 // Jalur ke direktori dokumen.
@@ -105,7 +107,7 @@ try
 {
 	// Dapatkan referensi slide
 	ISlide slide = presentation.getSlides().get_Item(0);
-	// Tambahkan bagan kolom berkerumun pada slide
+	// Tambahkan bagan kolom berkelompok pada slide
 	IChart chart = slide.getShapes().addChart(ChartType.ClusteredColumn, 50, 50, 500, 500);
 	// Tetapkan Properti Legenda
 	chart.getLegend().setX(50 / chart.getWidth());
@@ -122,24 +124,26 @@ finally
 ```
 ## Kesimpulan
 
-Dalam tutorial ini, kita mempelajari cara mengkustomisasi properti legenda bagan dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Anda dapat memodifikasi posisi legenda, ukuran, dan atribut lainnya untuk membuat presentasi yang menarik secara visual dan informatif.
+Dalam tutorial ini, kita mempelajari cara menyesuaikan properti legenda bagan dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Anda dapat mengubah posisi, ukuran, dan atribut legenda lainnya untuk membuat presentasi yang menarik secara visual dan informatif.
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
 ## Bagaimana cara mengubah posisi legenda?
 
- Untuk mengubah posisi legenda, gunakan`setX` Dan`setY` metode objek legenda. Nilainya ditentukan secara relatif terhadap lebar dan tinggi bagan.
+Untuk mengubah posisi legenda, gunakan `setX` Dan `setY` metode objek legenda. Nilai ditentukan relatif terhadap lebar dan tinggi bagan.
 
 ## Bagaimana cara menyesuaikan ukuran legenda?
 
- Anda dapat menyesuaikan ukuran legenda dengan menggunakan`setWidth` Dan`setHeight` metode objek legenda. Nilai-nilai ini juga relatif terhadap lebar dan tinggi bagan.
+Anda dapat menyesuaikan ukuran legenda dengan menggunakan `setWidth` Dan `setHeight` metode objek legenda. Nilai-nilai ini juga relatif terhadap lebar dan tinggi bagan.
 
 ## Bisakah saya menyesuaikan atribut legenda lainnya?
 
-Ya, Anda dapat menyesuaikan berbagai atribut legenda, seperti gaya font, batas, warna latar belakang, dan lainnya. Jelajahi dokumentasi Aspose.Slides untuk informasi mendetail tentang penyesuaian legenda lebih lanjut.
+Ya, Anda dapat menyesuaikan berbagai atribut legenda, seperti gaya font, border, warna latar belakang, dan banyak lagi. Jelajahi dokumentasi Aspose.Slides untuk informasi terperinci tentang penyesuaian legenda lebih lanjut.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

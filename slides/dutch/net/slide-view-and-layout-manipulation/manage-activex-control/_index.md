@@ -1,35 +1,37 @@
 ---
-title: Beheer ActiveX-besturingselement in PowerPoint
-linktitle: Beheer ActiveX-besturingselement in PowerPoint
-second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
-description: Leer hoe u PowerPoint-presentaties kunt verbeteren met ActiveX-besturingselementen met behulp van Aspose.Slides voor .NET. Onze stapsgewijze handleiding behandelt het invoegen, manipuleren, aanpassen, afhandelen van gebeurtenissen en meer.
-weight: 13
-url: /nl/net/slide-view-and-layout-manipulation/manage-activex-control/
+"description": "Leer hoe u PowerPoint-presentaties kunt verbeteren met ActiveX-besturingselementen met Aspose.Slides voor .NET. Onze stapsgewijze handleiding behandelt het invoegen, bewerken, aanpassen, gebeurtenisafhandeling en meer."
+"linktitle": "ActiveX-besturingselement beheren in PowerPoint"
+"second_title": "Aspose.Slides .NET PowerPoint-verwerkings-API"
+"title": "ActiveX-besturingselement beheren in PowerPoint"
+"url": "/nl/net/slide-view-and-layout-manipulation/manage-activex-control/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Beheer ActiveX-besturingselement in PowerPoint
+# ActiveX-besturingselement beheren in PowerPoint
 
-ActiveX-besturingselementen zijn krachtige elementen die de functionaliteit en interactiviteit van uw PowerPoint-presentaties kunnen verbeteren. Met deze besturingselementen kunt u objecten zoals multimediaspelers, formulieren voor gegevensinvoer en meer rechtstreeks in uw dia's insluiten en manipuleren. In dit artikel onderzoeken we hoe u ActiveX-besturingselementen in PowerPoint kunt beheren met Aspose.Slides voor .NET, een veelzijdige bibliotheek die naadloze integratie en manipulatie van PowerPoint-bestanden in uw .NET-toepassingen mogelijk maakt.
+ActiveX-besturingselementen zijn krachtige elementen die de functionaliteit en interactiviteit van uw PowerPoint-presentaties kunnen verbeteren. Met deze besturingselementen kunt u objecten zoals multimediaspelers, gegevensinvoerformulieren en meer rechtstreeks in uw dia's insluiten en bewerken. In dit artikel bespreken we hoe u ActiveX-besturingselementen in PowerPoint kunt beheren met Aspose.Slides voor .NET, een veelzijdige bibliotheek die naadloze integratie en bewerking van PowerPoint-bestanden in uw .NET-applicaties mogelijk maakt.
 
 ## ActiveX-besturingselementen toevoegen aan PowerPoint-dia's
 
-Volg deze stappen om te beginnen met het opnemen van ActiveX-besturingselementen in uw PowerPoint-presentaties:
+Volg deze stappen om ActiveX-besturingselementen in uw PowerPoint-presentaties te integreren:
 
-1.  Maak een nieuwe PowerPoint-presentatie: Maak eerst een nieuwe PowerPoint-presentatie met Aspose.Slides voor .NET. U kunt verwijzen naar de[Aspose.Slides voor .NET API-referentie](https://reference.aspose.com/slides/net/) voor begeleiding bij het werken met presentaties.
+1. Een nieuwe PowerPoint-presentatie maken: Maak eerst een nieuwe PowerPoint-presentatie met Aspose.Slides voor .NET. U kunt hiervoor de [Aspose.Slides voor .NET API-referentie](https://reference.aspose.com/slides/net/) voor begeleiding bij het werken met presentaties.
 
-2. Een dia toevoegen: gebruik de bibliotheek om een nieuwe dia aan uw presentatie toe te voegen. Dit is de dia waarin u het ActiveX-besturingselement wilt invoegen.
+2. Een dia toevoegen: Gebruik de bibliotheek om een nieuwe dia aan je presentatie toe te voegen. Dit is de dia waar je het ActiveX-besturingselement wilt invoegen.
 
-3. Voeg het ActiveX-besturingselement in: Nu is het tijd om het ActiveX-besturingselement in de dia in te voegen. U kunt dit bereiken door de onderstaande voorbeeldcode te volgen:
+3. Het ActiveX-besturingselement invoegen: Nu is het tijd om het ActiveX-besturingselement in de dia te plaatsen. U kunt dit doen met behulp van de onderstaande voorbeeldcode:
 
 ```csharp
 // Laad de presentatie
 Presentation presentation = new Presentation("path_to_your_presentation.pptx");
 
-// Haal de dia op waar u het ActiveX-besturingselement wilt invoegen
+// Pak de dia waar u het ActiveX-besturingselement wilt invoegen
 ISlide slide = presentation.Slides[0];
 
 // Definieer de eigenschappen van het ActiveX-besturingselement
@@ -43,9 +45,9 @@ string progId = "YourActiveXControl.ProgID"; // Geef de ProgID van het ActiveX-b
 IOleObjectFrame oleObjectFrame = slide.Shapes.AddOleObjectFrame(left, top, width, height, progId);
 ```
 
- Zorg ervoor dat u vervangt`"YourActiveXControl.ProgID"` met de daadwerkelijke ProgID van het ActiveX-besturingselement dat u wilt invoegen.
+Zorg ervoor dat u vervangt `"YourActiveXControl.ProgID"` met de werkelijke ProgID van het ActiveX-besturingselement dat u wilt invoegen.
 
-4. Sla de presentatie op: Nadat u het ActiveX-besturingselement hebt ingevoegd, slaat u de presentatie op met de volgende code:
+4. Presentatie opslaan: Nadat u het ActiveX-besturingselement hebt ingevoegd, slaat u de presentatie op met de volgende code:
 
 ```csharp
 presentation.Save("output.pptx", SaveFormat.Pptx);
@@ -53,48 +55,48 @@ presentation.Save("output.pptx", SaveFormat.Pptx);
 
 ## ActiveX-besturingselementen programmatisch manipuleren
 
-Nadat u het ActiveX-besturingselement aan uw dia hebt toegevoegd, wilt u dit wellicht programmatisch manipuleren. Hier ziet u hoe u het kunt doen:
+Nadat je het ActiveX-besturingselement aan je dia hebt toegevoegd, wil je het misschien programmatisch bewerken. Zo doe je dat:
 
-1. Toegang tot het ActiveX-besturingselement: Om toegang te krijgen tot de eigenschappen en methoden van het ActiveX-besturingselement, hebt u een verwijzing ernaar nodig. Gebruik de volgende code om het besturingselement van de dia te krijgen:
+1. Toegang tot het ActiveX-besturingselement: Om toegang te krijgen tot de eigenschappen en methoden van het ActiveX-besturingselement, moet u een referentie ernaar verkrijgen. Gebruik de volgende code om het besturingselement uit de dia te halen:
 
 ```csharp
 IOleObjectFrame oleObjectFrame = slide.Shapes[0] as IOleObjectFrame;
 ```
 
-2. Methoden aanroepen: u kunt methoden van het ActiveX-besturingselement aanroepen met behulp van de verkregen referentie. Als het ActiveX-besturingselement bijvoorbeeld een methode heeft met de naam 'Afspelen', kunt u deze als volgt aanroepen:
+2. Methoden aanroepen: U kunt methoden van het ActiveX-besturingselement aanroepen met behulp van de verkregen referentie. Als het ActiveX-besturingselement bijvoorbeeld een methode met de naam 'Afspelen' heeft, kunt u deze als volgt aanroepen:
 
 ```csharp
 oleObjectFrame.InvokeMethod("Play");
 ```
 
-3. Eigenschappen instellen: u kunt de eigenschappen van het ActiveX-besturingselement ook programmatisch instellen. Als het besturingselement bijvoorbeeld de eigenschap 'Volume' heeft, kunt u deze als volgt instellen:
+3. Eigenschappen instellen: U kunt de eigenschappen van het ActiveX-besturingselement ook programmatisch instellen. Als het besturingselement bijvoorbeeld een eigenschap met de naam 'Volume' heeft, kunt u deze als volgt instellen:
 
 ```csharp
 oleObjectFrame.SetProperty("Volume", 50);
 ```
 
-## Eigenschappen van ActiveX-besturingselement aanpassen
+## Eigenschappen van ActiveX-besturingselementen aanpassen
 
-Het aanpassen van de eigenschappen van uw ActiveX-besturingselement kan de gebruikerservaring van uw presentatie aanzienlijk verbeteren. U kunt deze eigenschappen als volgt aanpassen:
+Het aanpassen van de eigenschappen van uw ActiveX-besturingselement kan de gebruikerservaring van uw presentatie aanzienlijk verbeteren. Zo kunt u deze eigenschappen aanpassen:
 
-1.  Toegang tot eigenschappen: Zoals eerder vermeld, hebt u toegang tot de eigenschappen van het ActiveX-besturingselement met behulp van de`IOleObjectFrame` referentie.
+1. Toegang tot eigenschappen: Zoals eerder vermeld, kunt u toegang krijgen tot de eigenschappen van het ActiveX-besturingselement met behulp van de `IOleObjectFrame` referentie.
 
-2.  Eigenschappen instellen: gebruik de`SetProperty`methode om verschillende eigenschappen van het ActiveX-besturingselement in te stellen. U kunt de achtergrondkleur bijvoorbeeld als volgt wijzigen:
+2. Eigenschappen instellen: Gebruik de `SetProperty` Methode om verschillende eigenschappen van het ActiveX-besturingselement in te stellen. U kunt bijvoorbeeld de achtergrondkleur als volgt wijzigen:
 
 ```csharp
 oleObjectFrame.SetProperty("BackColor", Color.Red);
 ```
 
-## Gebeurtenissen verwerken die verband houden met ActiveX-besturingselementen
+## Afhandeling van gebeurtenissen die verband houden met ActiveX-besturingselementen
 
 ActiveX-besturingselementen hebben vaak bijbehorende gebeurtenissen die acties kunnen activeren op basis van gebruikersinteracties. Zo kunt u deze gebeurtenissen afhandelen:
 
-1. Abonneren op gebeurtenissen: Abonneer u eerst op de gewenste gebeurtenis van het ActiveX-besturingselement. Als het besturingselement bijvoorbeeld de gebeurtenis 'Geklikt' heeft, kunt u zich hierop als volgt abonneren:
+1. Abonneren op gebeurtenissen: abonneer u eerst op de gewenste gebeurtenis van het ActiveX-besturingselement. Als het besturingselement bijvoorbeeld een 'Geklikt'-gebeurtenis heeft, kunt u zich er als volgt op abonneren:
 
 ```csharp
 oleObjectFrame.EventClick += (sender, args) =>
 {
-    // Uw gebeurtenisafhandelingscode hier
+    // Hier is uw code voor gebeurtenisafhandeling
 };
 ```
 
@@ -102,9 +104,9 @@ oleObjectFrame.EventClick += (sender, args) =>
 
 Als u een ActiveX-besturingselement uit een dia wilt verwijderen, volgt u deze stappen:
 
-1.  Toegang tot het besturingselement: verkrijg een verwijzing naar het ActiveX-besturingselement met behulp van de`IOleObjectFrame` referentie zoals eerder weergegeven.
+1. Toegang tot het besturingselement: verkrijg een referentie naar het ActiveX-besturingselement met behulp van de `IOleObjectFrame` referentie zoals eerder getoond.
 
-2. Verwijder het besturingselement: Gebruik de volgende code om het besturingselement van de dia te verwijderen:
+2. Verwijder het besturingselement: gebruik de volgende code om het besturingselement uit de dia te verwijderen:
 
 ```csharp
 slide.Shapes.Remove(oleObjectFrame);
@@ -112,7 +114,7 @@ slide.Shapes.Remove(oleObjectFrame);
 
 ## De gewijzigde presentatie opslaan en exporteren
 
-Nadat u alle noodzakelijke wijzigingen in uw presentatie heeft aangebracht, kunt u deze opslaan en exporteren met de volgende code:
+Nadat u alle benodigde wijzigingen in uw presentatie hebt aangebracht, kunt u deze opslaan en exporteren met behulp van de volgende code:
 
 ```csharp
 presentation.Save("modified.pptx", SaveFormat.Pptx);
@@ -120,44 +122,46 @@ presentation.Save("modified.pptx", SaveFormat.Pptx);
 
 ## Voordelen van het gebruik van Aspose.Slides voor .NET
 
-Aspose.Slides voor .NET vereenvoudigt het proces van het werken met ActiveX-besturingselementen in PowerPoint-presentaties door een gebruiksvriendelijke API te bieden waarmee u deze besturingselementen naadloos kunt integreren en manipuleren. Enkele voordelen van het gebruik van Aspose.Slides voor .NET zijn:
+Aspose.Slides voor .NET vereenvoudigt het werken met ActiveX-besturingselementen in PowerPoint-presentaties door een gebruiksvriendelijke API te bieden waarmee u deze besturingselementen naadloos kunt integreren en bewerken. Enkele voordelen van Aspose.Slides voor .NET zijn:
 
-- Gemakkelijk invoegen van ActiveX-besturingselementen op dia's.
-- Uitgebreide methoden voor programmatische interactie met bedieningselementen.
-- Vereenvoudigde aanpassing van besturingseigenschappen.
+- Eenvoudig ActiveX-besturingselementen in dia's invoegen.
+- Uitgebreide methoden voor programmatische interactie met besturingselementen.
+- Vereenvoudigde aanpassing van besturingselementeigenschappen.
 - Efficiënte gebeurtenisafhandeling voor interactieve presentaties.
-- Gestroomlijnde verwijdering van bedieningselementen van dia's.
+- Gestroomlijnd verwijderen van bedieningselementen van dia's.
 
 ## Conclusie
 
-Door ActiveX-besturingselementen in uw PowerPoint-presentaties op te nemen, kunt u de interactiviteit en betrokkenheid van uw publiek verhogen. Met Aspose.Slides voor .NET beschikt u over een krachtig hulpmiddel om ActiveX-besturingselementen naadloos te beheren, waardoor u dynamische en boeiende presentaties kunt maken die een blijvende indruk achterlaten.
+Het integreren van ActiveX-besturingselementen in uw PowerPoint-presentaties kan de interactiviteit en betrokkenheid van uw publiek vergroten. Met Aspose.Slides voor .NET beschikt u over een krachtige tool om ActiveX-besturingselementen naadloos te beheren, zodat u dynamische en boeiende presentaties kunt maken die een blijvende indruk achterlaten.
 
 ## Veelgestelde vragen
 
 ### Hoe kan ik een ActiveX-besturingselement aan een specifieke dia toevoegen?
 
- Om een ActiveX-besturingselement aan een specifieke dia toe te voegen, kunt u de`AddOleObjectFrame` methode geleverd door Aspose.Slides voor .NET. Met deze methode kunt u de positie, grootte en ProgID opgeven van het ActiveX-besturingselement dat u wilt invoegen.
+Om een ActiveX-besturingselement aan een specifieke dia toe te voegen, kunt u de `AddOleObjectFrame` Methode van Aspose.Slides voor .NET. Met deze methode kunt u de positie, grootte en ProgID opgeven van het ActiveX-besturingselement dat u wilt invoegen.
 
 ### Kan ik ActiveX-besturingselementen programmatisch manipuleren?
 
- Ja, u kunt ActiveX-besturingselementen programmatisch manipuleren met Aspose.Slides voor .NET. Door een verwijzing te verkrijgen naar de`IOleObjectFrame` die het besturingselement vertegenwoordigt, kunt u methoden aanroepen en eigenschappen instellen om dynamisch met het besturingselement te communiceren.
+Ja, u kunt ActiveX-besturingselementen programmatisch manipuleren met Aspose.Slides voor .NET. Door een verwijzing naar de `IOleObjectFrame` die het besturingselement vertegenwoordigen, kunt u methoden aanroepen en eigenschappen instellen om dynamisch met het besturingselement te communiceren.
 
-### Hoe ga ik om met gebeurtenissen
+### Hoe ga ik om met gebeurtenissen?
 
  geactiveerd door ActiveX-besturingselementen?
 
- kunt gebeurtenissen afhandelen die worden geactiveerd door ActiveX-besturingselementen door u te abonneren op de overeenkomstige gebeurtenissen met behulp van de`EventClick` (of soortgelijke) gebeurtenishandler. Hierdoor kunt u specifieke acties uitvoeren als reactie op gebruikersinteracties met de besturing.
+kunt gebeurtenissen die worden geactiveerd door ActiveX-besturingselementen afhandelen door u te abonneren op de overeenkomstige gebeurtenissen met behulp van de `EventClick` (of een vergelijkbare) gebeurtenisafhandeling. Hiermee kunt u specifieke acties uitvoeren als reactie op gebruikersinteracties met het besturingselement.
 
 ### Is het mogelijk om het uiterlijk van ActiveX-besturingselementen aan te passen?
 
- Absoluut, u kunt het uiterlijk van ActiveX-besturingselementen aanpassen met behulp van de`SetProperty` methode geleverd door Aspose.Slides voor .NET. Met deze methode kunt u verschillende eigenschappen wijzigen, zoals de achtergrondkleur, de tekenstijl en meer.
+Absoluut, u kunt het uiterlijk van ActiveX-besturingselementen aanpassen met behulp van de `SetProperty` Methode van Aspose.Slides voor .NET. Met deze methode kunt u verschillende eigenschappen wijzigen, zoals achtergrondkleur, lettertype en meer.
 
 ### Kan ik een ActiveX-besturingselement uit een dia verwijderen?
 
- Ja, u kunt een ActiveX-besturingselement van een dia verwijderen met behulp van de`Remove` werkwijze van de`Shapes` verzameling. Geef de verwijzing door naar de`IOleObjectFrame` het besturingselement weergeven als een argument voor de`Remove` methode, en het besturingselement wordt van de dia verwijderd.
+Ja, u kunt een ActiveX-besturingselement uit een dia verwijderen met behulp van de `Remove` methode van de `Shapes` verzameling. Geef de referentie door aan de `IOleObjectFrame` het weergeven van de controle als argument voor de `Remove` methode, en het besturingselement wordt van de dia verwijderd.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

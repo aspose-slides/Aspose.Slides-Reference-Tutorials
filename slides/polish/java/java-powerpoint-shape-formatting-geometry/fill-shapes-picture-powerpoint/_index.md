@@ -1,25 +1,27 @@
 ---
-title: Wypełnianie kształtów obrazami w programie PowerPoint
-linktitle: Wypełnianie kształtów obrazami w programie PowerPoint
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Dowiedz się, jak wypełniać kształty obrazami w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java. Zwiększ atrakcyjność wizualną bez wysiłku.
-weight: 12
-url: /pl/java/java-powerpoint-shape-formatting-geometry/fill-shapes-picture-powerpoint/
+"description": "Dowiedz się, jak wypełniać kształty obrazami w prezentacjach PowerPoint za pomocą Aspose.Slides dla Java. Zwiększ atrakcyjność wizualną bez wysiłku."
+"linktitle": "Wypełnianie kształtów obrazem w programie PowerPoint"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Wypełnianie kształtów obrazem w programie PowerPoint"
+"url": "/pl/java/java-powerpoint-shape-formatting-geometry/fill-shapes-picture-powerpoint/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wypełnianie kształtów obrazami w programie PowerPoint
+# Wypełnianie kształtów obrazem w programie PowerPoint
 
 ## Wstęp
-Prezentacje programu PowerPoint często wymagają elementów wizualnych, takich jak kształty wypełnione obrazami, aby zwiększyć ich atrakcyjność i skutecznie przekazywać informacje. Aspose.Slides dla Java zapewnia potężny zestaw narzędzi do bezproblemowego wykonania tego zadania. W tym samouczku nauczymy się krok po kroku wypełniać kształty obrazkami za pomocą Aspose.Slides for Java.
-## Warunki wstępne
-Zanim zaczniemy, upewnij się, że masz następujące elementy:
-1. Zestaw Java Development Kit (JDK) zainstalowany w systemie.
-2.  Pobrano bibliotekę Aspose.Slides dla Java. Możesz to dostać od[Tutaj](https://releases.aspose.com/slides/java/).
-3. Podstawowa znajomość programowania w języku Java.
+Prezentacje PowerPoint często wymagają elementów wizualnych, takich jak kształty wypełnione obrazami, aby zwiększyć ich atrakcyjność i skutecznie przekazać informacje. Aspose.Slides for Java zapewnia potężny zestaw narzędzi do bezproblemowego wykonania tego zadania. W tym samouczku nauczymy się, jak wypełniać kształty obrazami za pomocą Aspose.Slides for Java krok po kroku.
+## Wymagania wstępne
+Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
+1. Java Development Kit (JDK) zainstalowany w Twoim systemie.
+2. Pobrano bibliotekę Aspose.Slides for Java. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/slides/java/).
+3. Podstawowa znajomość programowania w Javie.
 ## Importuj pakiety
 W swoim projekcie Java zaimportuj niezbędne pakiety:
 ```java
@@ -37,18 +39,18 @@ boolean isExists = new File(dataDir).exists();
 if (!isExists)
     new File(dataDir).mkdirs();
 ```
- Pamiętaj o wymianie`"Your Document Directory"` ze ścieżką do katalogu projektu.
+Upewnij się, że wymienisz `"Your Document Directory"` ze ścieżką do katalogu Twojego projektu.
 ## Krok 2: Utwórz prezentację
 ```java
 Presentation pres = new Presentation();
 ```
- Utwórz instancję`Presentation` klasie, aby utworzyć nową prezentację programu PowerPoint.
+Utwórz instancję `Presentation` klasa, aby utworzyć nową prezentację PowerPoint.
 ## Krok 3: Dodaj slajd i kształt
 ```java
 ISlide sld = pres.getSlides().get_Item(0);
 IShape shp = sld.getShapes().addAutoShape(ShapeType.Rectangle, 50, 150, 75, 150);
 ```
-Dodaj slajd do prezentacji i utwórz na nim kształt prostokąta.
+Dodaj slajd do prezentacji i utwórz na nim prostokątny kształt.
 ## Krok 4: Ustaw typ wypełnienia na Obraz
 ```java
 shp.getFillFormat().setFillType(FillType.Picture);
@@ -58,7 +60,7 @@ Ustaw typ wypełnienia kształtu na obraz.
 ```java
 shp.getFillFormat().getPictureFillFormat().setPictureFillMode(PictureFillMode.Tile);
 ```
-Ustaw tryb wypełniania obrazem kształtu.
+Ustaw tryb wypełniania kształtu obrazkiem.
 ## Krok 6: Ustaw obraz
 ```java
 BufferedImage img = ImageIO.read(new File(dataDir + "Tulips.jpg"));
@@ -73,22 +75,24 @@ pres.save(dataDir + "RectShpPic_out.pptx", SaveFormat.Pptx);
 Zapisz zmodyfikowaną prezentację do pliku.
 
 ## Wniosek
-Dzięki Aspose.Slides dla Java wypełnianie kształtów obrazami w prezentacjach programu PowerPoint staje się prostym procesem. Wykonując kroki opisane w tym samouczku, możesz łatwo wzbogacić swoje prezentacje o atrakcyjne wizualnie elementy.
+Dzięki Aspose.Slides for Java wypełnianie kształtów obrazami w prezentacjach PowerPoint staje się prostym procesem. Postępując zgodnie z krokami opisanymi w tym samouczku, możesz łatwo wzbogacić swoje prezentacje o atrakcyjne wizualnie elementy.
 
-## Często zadawane pytania
-### Czy mogę wypełnić różne kształty obrazkami za pomocą Aspose.Slides dla Java?
-Tak, Aspose.Slides for Java obsługuje wypełnianie różnych kształtów obrazami, zapewniając elastyczność w projektowaniu.
+## Najczęściej zadawane pytania
+### Czy mogę wypełniać różne kształty obrazkami, korzystając z Aspose.Slides dla Java?
+Tak, Aspose.Slides dla Java obsługuje wypełnianie różnych kształtów obrazkami, zapewniając elastyczność projektowania.
 ### Czy Aspose.Slides for Java jest kompatybilny ze wszystkimi wersjami programu PowerPoint?
-Aspose.Slides for Java generuje prezentacje kompatybilne z programem PowerPoint 97 i nowszymi, zapewniając szeroką kompatybilność.
-### Jak zmienić rozmiar obrazu w kształcie?
-Możesz zmienić rozmiar obrazu w kształcie, dostosowując wymiary kształtu lub odpowiednio skalując obraz przed ustawieniem go jako wypełnienia.
-### Czy istnieją jakieś ograniczenia dotyczące formatów obrazów obsługiwanych przy wypełnianiu kształtów?
-Aspose.Slides for Java obsługuje szeroką gamę formatów obrazów, w tym między innymi JPEG, PNG, GIF, BMP i TIFF.
-### Czy mogę zastosować efekty do wypełnionych kształtów?
-Tak, Aspose.Slides dla Java zapewnia kompleksowe interfejsy API umożliwiające zastosowanie różnych efektów, takich jak cienie, odbicia i obroty 3D, do wypełnionych kształtów.
+Aspose.Slides for Java generuje prezentacje zgodne z programem PowerPoint 97 i nowszymi wersjami, zapewniając szeroką kompatybilność.
+### Jak mogę zmienić rozmiar obrazu w obrębie kształtu?
+Możesz zmienić rozmiar obrazu w obrębie kształtu, dostosowując wymiary kształtu lub skalując obraz przed ustawieniem go jako wypełnienia.
+### Czy istnieją jakieś ograniczenia co do formatów obrazów obsługiwanych przy wypełnianiu kształtów?
+Aspose.Slides for Java obsługuje szeroką gamę formatów obrazów, w tym m.in. JPEG, PNG, GIF, BMP i TIFF.
+### Czy mogę stosować efekty do wypełnionych kształtów?
+Tak, Aspose.Slides for Java udostępnia kompleksowe interfejsy API umożliwiające stosowanie różnych efektów, takich jak cienie, odbicia i obroty 3D, do wypełnionych kształtów.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

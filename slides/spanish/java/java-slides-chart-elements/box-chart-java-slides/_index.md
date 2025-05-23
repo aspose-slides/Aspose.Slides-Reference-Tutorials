@@ -1,40 +1,42 @@
 ---
-title: Gráfico de cuadros en diapositivas de Java
-linktitle: Gráfico de cuadros en diapositivas de Java
-second_title: Aspose.Slides API de procesamiento de PowerPoint Java
-description: Aprenda a crear gráficos de cajas en presentaciones Java con Aspose.Slides. Guía paso a paso y código fuente incluidos para una visualización de datos eficaz.
-weight: 10
-url: /es/java/chart-elements/box-chart-java-slides/
+"description": "Aprenda a crear gráficos de caja en presentaciones Java con Aspose.Slides. Incluye guía paso a paso y código fuente para una visualización de datos eficaz."
+"linktitle": "Diagrama de caja en diapositivas de Java"
+"second_title": "API de procesamiento de PowerPoint en Java de Aspose.Slides"
+"title": "Diagrama de caja en diapositivas de Java"
+"url": "/es/java/chart-elements/box-chart-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Gráfico de cuadros en diapositivas de Java
+# Diagrama de caja en diapositivas de Java
 
 
-## Introducción al gráfico de cajas en Aspose.Slides para Java
+## Introducción al gráfico de caja en Aspose.Slides para Java
 
-En este tutorial, lo guiaremos a través del proceso de creación de un gráfico de caja usando Aspose.Slides para Java. Los gráficos de cajas son útiles para visualizar datos estadísticos con varios cuartiles y valores atípicos. Le proporcionaremos instrucciones paso a paso junto con el código fuente para ayudarle a comenzar.
+En este tutorial, le guiaremos a través del proceso de creación de un gráfico de caja con Aspose.Slides para Java. Los gráficos de caja son útiles para visualizar datos estadísticos con varios cuartiles y valores atípicos. Le proporcionaremos instrucciones paso a paso junto con el código fuente para ayudarle a comenzar.
 
-## Requisitos previos
+## Prerrequisitos
 
 Antes de comenzar, asegúrese de tener lo siguiente:
 
 - Biblioteca Aspose.Slides para Java instalada y configurada.
 - Un entorno de desarrollo Java configurado.
 
-## Paso 1: Inicialice la presentación
+## Paso 1: Inicializar la presentación
 
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 ```
 
-En este paso, inicializamos un objeto de presentación usando la ruta a un archivo de PowerPoint existente ("test.pptx" en este ejemplo).
+En este paso, inicializamos un objeto de presentación utilizando la ruta a un archivo de PowerPoint existente ("test.pptx" en este ejemplo).
 
-## Paso 2: crea el gráfico de cajas
+## Paso 2: Crea el gráfico de caja
 
 ```java
 try {
@@ -43,9 +45,9 @@ try {
     chart.getChartData().getSeries().clear();
 ```
 
-En este paso, creamos una forma de gráfico de cuadro en la primera diapositiva de la presentación. También borramos del gráfico cualquier categoría y serie existente.
+En este paso, creamos un gráfico de caja en la primera diapositiva de la presentación. También borramos las categorías y series existentes del gráfico.
 
-## Paso 3: definir categorías
+## Paso 3: Definir categorías
 
 ```java
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
@@ -58,9 +60,9 @@ En este paso, creamos una forma de gráfico de cuadro en la primera diapositiva 
     chart.getChartData().getCategories().add(wb.getCell(0, "A6", "Category 1"));
 ```
 
- En este paso, definimos las categorías para el gráfico de cajas. Usamos el`IChartDataWorkbook` para agregar categorías y etiquetarlas en consecuencia.
+En este paso, definimos las categorías para el gráfico de caja. Usamos el `IChartDataWorkbook` para agregar categorías y etiquetarlas en consecuencia.
 
-## Paso 4: crea la serie
+## Paso 4: Crea la serie
 
 ```java
     IChartSeries series = chart.getChartData().getSeries().add(ChartType.BoxAndWhisker);
@@ -71,9 +73,9 @@ En este paso, creamos una forma de gráfico de cuadro en la primera diapositiva 
     series.setShowOutlierPoints(true);
 ```
 
-Aquí, creamos una serie BoxAndWhisker para el gráfico y configuramos varias opciones como el método de cuartil, la línea media, los marcadores de media, los puntos internos y los puntos atípicos.
+Aquí, creamos una serie BoxAndWhisker para el gráfico y configuramos varias opciones como el método de cuartil, la línea media, marcadores de media, puntos internos y puntos atípicos.
 
-## Paso 5: agregar puntos de datos
+## Paso 5: Agregar puntos de datos
 
 ```java
     series.getDataPoints().addDataPointForBoxAndWhiskerSeries(wb.getCell(0, "B1", 15));
@@ -84,9 +86,9 @@ Aquí, creamos una serie BoxAndWhisker para el gráfico y configuramos varias op
     series.getDataPoints().addDataPointForBoxAndWhiskerSeries(wb.getCell(0, "B6", 16));
 ```
 
-En este paso, agregamos puntos de datos a la serie BoxAndWhisker. Estos puntos de datos representan los datos estadísticos del gráfico.
+En este paso, añadimos puntos de datos a la serie BoxAndWhisker. Estos puntos representan los datos estadísticos del gráfico.
 
-## Paso 6: guarde la presentación
+## Paso 6: Guardar la presentación
 
 ```java
     pres.save("BoxAndWhisker.pptx", SaveFormat.Pptx);
@@ -95,11 +97,11 @@ En este paso, agregamos puntos de datos a la serie BoxAndWhisker. Estos puntos d
 }
 ```
 
-Finalmente, guardamos la presentación con Box Chart en un nuevo archivo de PowerPoint llamado "BoxAndWhisker.pptx".
+Por último, guardamos la presentación con el gráfico de caja en un nuevo archivo de PowerPoint llamado "BoxAndWhisker.pptx".
 
-¡Felicidades! Ha creado con éxito un gráfico de caja utilizando Aspose.Slides para Java. Puede personalizar aún más el gráfico ajustando varias propiedades y agregando más puntos de datos según sea necesario.
+¡Felicitaciones! Ha creado correctamente un gráfico de caja con Aspose.Slides para Java. Puede personalizarlo aún más ajustando diversas propiedades y añadiendo más puntos de datos según sea necesario.
 
-## Código fuente completo para el gráfico de cuadros en diapositivas de Java
+## Código fuente completo para diagramas de caja en Java Slides
 
 ```java
 String dataDir = "Your Document Directory";
@@ -139,24 +141,26 @@ finally
 
 ## Conclusión
 
-En este tutorial, hemos aprendido cómo crear un gráfico de caja usando Aspose.Slides para Java. Los gráficos de cajas son herramientas valiosas para visualizar datos estadísticos, incluidos cuartiles y valores atípicos. Proporcionamos una guía paso a paso junto con el código fuente para ayudarle a comenzar a crear Box Charts en sus aplicaciones Java.
+En este tutorial, aprendimos a crear un gráfico de caja con Aspose.Slides para Java. Los gráficos de caja son herramientas valiosas para visualizar datos estadísticos, incluyendo cuartiles y valores atípicos. Proporcionamos una guía paso a paso junto con el código fuente para ayudarte a empezar a crear gráficos de caja en tus aplicaciones Java.
 
 ## Preguntas frecuentes
 
-### ¿Cómo puedo cambiar la apariencia del gráfico de cuadros?
+### ¿Cómo puedo cambiar la apariencia del gráfico de caja?
 
-Puede personalizar la apariencia del gráfico de cuadros modificando propiedades como estilos de línea, colores y fuentes. Consulte la documentación de Aspose.Slides para Java para obtener detalles sobre la personalización de gráficos.
+Puede personalizar la apariencia del gráfico de caja modificando propiedades como estilos de línea, colores y fuentes. Consulte la documentación de Aspose.Slides para Java para obtener más información sobre la personalización de gráficos.
 
-### ¿Puedo agregar series de datos adicionales al gráfico de cajas?
+### ¿Puedo agregar series de datos adicionales al gráfico de caja?
 
- Sí, puede agregar varias series de datos al gráfico de cuadros creando`IChartSeries` objetos y agregarles puntos de datos.
+Sí, puede agregar varias series de datos al gráfico de caja creando series de datos adicionales. `IChartSeries` objetos y agregarles puntos de datos.
 
 ### ¿Qué significa QuartileMethodType.Exclusive?
 
- El`QuartileMethodType.Exclusive` La configuración especifica que los cálculos de cuartiles deben realizarse utilizando el método exclusivo. Puede elegir diferentes métodos de cálculo de cuartiles según sus datos y requisitos.
+El `QuartileMethodType.Exclusive` La configuración especifica que los cálculos de cuartiles deben realizarse con el método exclusivo. Puede elegir diferentes métodos de cálculo de cuartiles según sus datos y requisitos.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

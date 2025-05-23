@@ -1,33 +1,35 @@
 ---
-title: PowerPoint animációk elsajátítása az Aspose.Slides .NET segítségével
-linktitle: Ismételje meg az animációt a dián
-second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Javítsa a PowerPoint prezentációkat az Aspose.Slides for .NET segítségével. Könnyedén vezérelheti az animációkat, ragadja meg közönségét, és hagyjon maradandó benyomást.
-weight: 12
-url: /hu/net/slide-animation-control/repeat-animation-on-slide/
+"description": "Javítsa PowerPoint prezentációit az Aspose.Slides for .NET segítségével. Könnyedén vezérelheti az animációkat, lenyűgözheti közönségét, és maradandó benyomást kelthet."
+"linktitle": "Animáció ismétlése a dián"
+"second_title": "Aspose.Slides .NET PowerPoint feldolgozási API"
+"title": "PowerPoint animációk elsajátítása az Aspose.Slides .NET segítségével"
+"url": "/hu/net/slide-animation-control/repeat-animation-on-slide/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PowerPoint animációk elsajátítása az Aspose.Slides .NET segítségével
 
 ## Bevezetés
-A prezentációk dinamikus világában az animációk irányításának képessége kulcsfontosságú szerepet játszik a közönség lekötésében és figyelmének lekötésében. Az Aspose.Slides for .NET lehetővé teszi a fejlesztők számára, hogy átvegyék a diákon belüli animációs típusokat, így interaktívabb és tetszetősebb bemutatót készíthetnek. Ebben az oktatóanyagban lépésről lépésre megvizsgáljuk, hogyan lehet vezérelni az animációtípusokat egy dián az Aspose.Slides for .NET segítségével.
+prezentációk dinamikus világában az animációk vezérlésének képessége kulcsszerepet játszik a közönség figyelmének felkeltésében és lekötésében. Az Aspose.Slides for .NET lehetővé teszi a fejlesztők számára, hogy kézbe vegyék az animációtípusokat a diákon belül, lehetővé téve egy interaktívabb és vizuálisan vonzóbb prezentációt. Ebben az oktatóanyagban lépésről lépésre megvizsgáljuk, hogyan vezérelhetők az animációtípusok egy diákon az Aspose.Slides for .NET segítségével.
 ## Előfeltételek
-Mielőtt belevágnánk az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
-1.  Aspose.Slides for .NET Library: Töltse le és telepítse a könyvtárat innen[itt](https://releases.aspose.com/slides/net/).
-2. .NET fejlesztői környezet: Állítson be egy .NET fejlesztői környezetet a gépen.
+Mielőtt belemerülnénk az oktatóanyagba, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
+1. Aspose.Slides .NET könyvtárhoz: Töltse le és telepítse a könyvtárat innen: [itt](https://releases.aspose.com/slides/net/).
+2. .NET fejlesztői környezet: Állítson be egy .NET fejlesztői környezetet a gépén.
 ## Névterek importálása
-A .NET-projektben kezdje a szükséges névterek importálásával, hogy kihasználja az Aspose.Slides által biztosított funkciókat:
+A .NET projektedben kezdd a szükséges névterek importálásával, hogy kihasználhasd az Aspose.Slides által biztosított funkciókat:
 ```csharp
 using Aspose.Slides.Animation;
 using Aspose.Slides.SlideShow;
 using Aspose.Slides.Export;
 ```
-## 1. lépés: Állítsa be a projektet
-Hozzon létre egy új könyvtárat a projekthez, és példányosítsa a Prezentáció osztályt a prezentációs fájl megjelenítéséhez.
+## 1. lépés: A projekt beállítása
+Hozz létre egy új könyvtárat a projektedhez, és hozz létre egy Presentation osztályt a prezentációs fájl reprezentálására.
 ```csharp
 string dataDir = "Your Document Directory";
 bool IsExists = System.IO.Directory.Exists(dataDir);
@@ -38,43 +40,45 @@ using (Presentation pres = new Presentation(dataDir + "AnimationOnSlide.pptx"))
     // A kódod ide kerül
 }
 ```
-## 2. lépés: Hozzáférés az effektusokhoz
-MainSequence tulajdonság segítségével kérje le az első dia effektusszekvenciáját.
+## 2. lépés: Hozzáférés effektussorozathoz
+A MainSequence tulajdonság használatával kérd le az első dia effektussorozatát.
 ```csharp
 ISequence effectsSequence = pres.Slides[0].Timeline.MainSequence;
 ```
-## 3. lépés: Nyissa meg az Első effektust
-Szerezze meg a fő szekvencia első hatását a tulajdonságainak manipulálásához.
+## 3. lépés: Az első effektus elérése
+Szerezd meg a fő szekvencia első hatását a tulajdonságainak manipulálásához.
 ```csharp
 IEffect effect = effectsSequence[0];
 ```
-## 4. lépés: Módosítsa az ismétlési beállításokat
-Módosítsa az effektus Időzítés/Ismétlés tulajdonságát „A dia végéig” értékre.
+## 4. lépés: Ismétlési beállítások módosítása
+Módosítsa az effektus Időzítés/Ismétlés tulajdonságát „Dia végéig” értékre.
 ```csharp
 effect.Timing.RepeatUntilEndSlide = true;
 ```
 ## 5. lépés: Mentse el a prezentációt
-Mentse el a módosított prezentációt a változások megjelenítéséhez.
+Mentse el a módosított prezentációt a változtatások megjelenítéséhez.
 ```csharp
 pres.Save(RunExamples.OutPath + "AnimationOnSlide-out.pptx", Aspose.Slides.Export.SaveFormat.Pptx);
 ```
-Ismételje meg ezeket a lépéseket további effektusok eléréséhez, vagy szabja testre azokat a prezentációs követelményeknek megfelelően.
+Ismételje meg ezeket a lépéseket további effektusok eléréséhez, vagy szabja testre őket a prezentációs igényei szerint.
 ## Következtetés
-A dinamikus animációk beépítése PowerPoint-prezentációiba még soha nem volt ilyen egyszerű az Aspose.Slides for .NET segítségével. Ez a részletes útmutató felvértezi Önt az animációtípusok kezeléséhez szükséges ismeretekkel, így biztosítva, hogy diákjai maradandó benyomást hagyjanak a közönségben.
+A dinamikus animációk PowerPoint-bemutatókba való beépítése még soha nem volt ilyen egyszerű az Aspose.Slides for .NET segítségével. Ez a lépésről lépésre haladó útmutató felvértezi Önt az animációtípusok kezeléséhez szükséges ismeretekkel, biztosítva, hogy diái maradandó benyomást tegyenek a közönségre.
 ## Gyakran Ismételt Kérdések
 ### Alkalmazhatom ezeket az animációkat egy dián belüli adott objektumokra?
-Igen, megcélozhat bizonyos objektumokat, ha hozzáfér a sorozaton belüli egyedi hatásukhoz.
-### Az Aspose.Slides kompatibilis a legújabb PowerPoint-verziókkal?
-Az Aspose.Slides a PowerPoint-verziók széles skáláját támogatja, így biztosítja a kompatibilitást a régi és az új verziókkal egyaránt.
-### Hol találhatok további példákat és forrásokat?
- Fedezze fel a[dokumentáció](https://reference.aspose.com/slides/net/) átfogó példákért és részletes magyarázatokért.
-### Hogyan szerezhetek ideiglenes licencet az Aspose.Slides számára?
- Látogatás[itt](https://purchase.aspose.com/temporary-license/) az ideiglenes engedély megszerzésével kapcsolatos információkért.
+Igen, megcélozhatsz adott objektumokat a sorozaton belüli egyedi hatásaik elérésével.
+### Kompatibilis az Aspose.Slides a legújabb PowerPoint verziókkal?
+Az Aspose.Slides a PowerPoint számos verzióját támogatja, biztosítva a kompatibilitást mind a régi, mind az új verziókkal.
+### Hol találok további példákat és forrásokat?
+Fedezze fel a [dokumentáció](https://reference.aspose.com/slides/net/) átfogó példákért és részletes magyarázatokért.
+### Hogyan szerezhetek ideiglenes licencet az Aspose.Slides-hoz?
+Látogatás [itt](https://purchase.aspose.com/temporary-license/) információkért az ideiglenes jogosítvány megszerzésével kapcsolatban.
 ### Segítségre van szüksége, vagy további kérdései vannak?
- Vegyen részt az Aspose.Slides közösséggel a[támogatói fórum](https://forum.aspose.com/c/slides/11).
+Lépj kapcsolatba az Aspose.Slides közösséggel a következő oldalon: [támogató fórum](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

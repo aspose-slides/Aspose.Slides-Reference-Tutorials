@@ -1,96 +1,100 @@
 ---
-title: Spojte tvary pomocí konektorů v PowerPointu
-linktitle: Spojte tvary pomocí konektorů v PowerPointu
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Naučte se propojovat tvary pomocí konektorů v prezentacích PowerPoint s Aspose.Slides pro Java. Návod krok za krokem pro začátečníky.
-weight: 18
-url: /cs/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-connectors-powerpoint/
+"description": "Naučte se, jak propojovat tvary pomocí spojnic v prezentacích v PowerPointu s Aspose.Slides pro Javu. Podrobný návod pro začátečníky."
+"linktitle": "Propojení tvarů pomocí spojnic v PowerPointu"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Propojení tvarů pomocí spojnic v PowerPointu"
+"url": "/cs/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-connectors-powerpoint/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Spojte tvary pomocí konektorů v PowerPointu
+# Propojení tvarů pomocí spojnic v PowerPointu
 
-## Úvod
-V tomto tutoriálu prozkoumáme, jak spojovat tvary pomocí konektorů v prezentacích PowerPoint s pomocí Aspose.Slides for Java. Postupujte podle těchto podrobných pokynů, abyste efektivně spojili tvary a vytvořili vizuálně přitažlivé snímky.
+## Zavedení
+V tomto tutoriálu se podíváme na to, jak propojit tvary pomocí spojnic v prezentacích v PowerPointu s pomocí Aspose.Slides pro Javu. Postupujte podle těchto podrobných pokynů, abyste efektivně propojili tvary a vytvořili vizuálně atraktivní snímky.
 ## Předpoklady
 Než začneme, ujistěte se, že máte následující předpoklady:
 - Základní znalost programovacího jazyka Java.
-- Nainstalovaný Java Development Kit (JDK) ve vašem systému.
--  Staženo a nastaveno Aspose.Slides pro Javu. Pokud jste jej ještě nenainstalovali, můžete si jej stáhnout z[tady](https://releases.aspose.com/slides/java/).
-- Editor kódu, jako je Eclipse nebo IntelliJ IDEA.
+- Nainstalovaná sada pro vývojáře Java (JDK) ve vašem systému.
+- Stáhl jsem a nastavil Aspose.Slides pro Javu. Pokud jste ho ještě nenainstalovali, můžete si ho stáhnout z [zde](https://releases.aspose.com/slides/java/).
+- Editor kódu, jako například Eclipse nebo IntelliJ IDEA.
 
-## Importujte balíčky
-Nejprve importujte potřebné balíčky pro práci s Aspose.Slides ve vašem projektu Java.
+## Importovat balíčky
+Nejprve importujte potřebné balíčky pro práci s Aspose.Slides do vašeho projektu v Javě.
 ```java
 import com.aspose.slides.*;
 
 ```
-## Krok 1: Okamžitá prezentace
- Vytvořte instanci`Presentation`class, která představuje soubor PPTX, na kterém pracujete.
+## Krok 1: Vytvoření instance třídy prezentací
+Vytvořte instanci `Presentation` třída, která představuje soubor PPTX, se kterým pracujete.
 ```java
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.                    
 String dataDir = "Your Document Directory";
 Presentation input = new Presentation();
 ```
-## Krok 2: Přístup ke kolekci Shapes
+## Krok 2: Přístup ke kolekci tvarů
 Otevřete kolekci tvarů pro vybraný snímek, kam chcete přidat tvary a spojnice.
 ```java
 IShapeCollection shapes = input.getSlides().get_Item(0).getShapes();
 ```
-## Krok 3: Přidejte tvary
+## Krok 3: Přidání tvarů
 Přidejte na snímek požadované tvary. V tomto příkladu přidáme elipsu a obdélník.
 ```java
-// Přidejte automatický tvar Ellipse
+// Přidat elipsu automatického tvaru
 IAutoShape ellipse = shapes.addAutoShape(ShapeType.Ellipse, 0, 100, 100, 100);
-// Přidejte obdélník automatického tvaru
+// Přidat automatický tvar obdélníku
 IAutoShape rectangle = shapes.addAutoShape(ShapeType.Rectangle, 100, 300, 100, 100);
 ```
-## Krok 4: Přidejte konektor
-Přidejte tvar spojnice do kolekce obrazců snímku.
+## Krok 4: Přidání konektoru
+Přidejte tvar spojnice do kolekce tvarů snímků.
 ```java
 IConnector connector = shapes.addConnector(ShapeType.BentConnector2, 0, 0, 10, 10);
 ```
-## Krok 5: Připojte tvary ke konektorům
-Připojte tvary ke konektoru.
+## Krok 5: Spojte tvary se spojnicemi
+Spojte tvary se spojnicí.
 ```java
 connector.setStartShapeConnectedTo(ellipse);
 connector.setEndShapeConnectedTo(rectangle);
 ```
-## Krok 6: Přesměrujte konektor
-Přesměrování hovoru pro nastavení automatické nejkratší cesty mezi tvary.
+## Krok 6: Přesměrování konektoru
+Voláním metody reroute nastavíte automatickou nejkratší cestu mezi tvary.
 ```java
 connector.reroute();
 ```
-## Krok 7: Uložte prezentaci
-Po připojení tvarů pomocí spojek prezentaci uložte.
+## Krok 7: Uložení prezentace
+Po propojení tvarů pomocí spojnic prezentaci uložte.
 ```java
 input.save(dataDir + "Connecting shapes using connectors_out.pptx", SaveFormat.Pptx);
 ```
-Nakonec nezapomeňte objekt prezentace zlikvidovat.
+Nakonec nezapomeňte zlikvidovat objekt Presentation.
 ```java
 if (input != null) input.dispose();
 ```
-Nyní jste úspěšně propojili tvary pomocí konektorů v PowerPointu pomocí Aspose.Slides pro Java.
+Nyní jste úspěšně propojili tvary pomocí spojnic v PowerPointu s využitím Aspose.Slides pro Javu.
 
 ## Závěr
-tomto tutoriálu jsme se naučili, jak spojovat tvary pomocí konektorů v prezentacích PowerPoint s Aspose.Slides pro Java. Pomocí těchto jednoduchých kroků můžete své prezentace vylepšit vizuálně přitažlivými diagramy a vývojovými diagramy.
-## FAQ
-### Mohu upravit vzhled konektorů v Aspose.Slides for Java?
-Ano, můžete přizpůsobit různé vlastnosti konektorů, jako je barva, styl čáry a tloušťka, aby vyhovovaly vašim potřebám prezentace.
-### Je Aspose.Slides for Java kompatibilní se všemi verzemi PowerPointu?
-Aspose.Slides for Java podporuje různé formáty PowerPoint, včetně PPTX, PPT a ODP.
-### Mohu připojit více než dva tvary jedním konektorem?
-Ano, můžete propojit více tvarů pomocí složitých konektorů poskytovaných Aspose.Slides pro Java.
-### Nabízí Aspose.Slides for Java podporu pro přidávání textu do tvarů?
-Rozhodně můžete snadno přidávat text do tvarů a konektorů programově pomocí Aspose.Slides pro Java.
-### Je k dispozici komunitní fórum nebo kanál podpory pro Aspose.Slides pro uživatele Java?
- Ano, na fóru Aspose.Slides můžete najít užitečné zdroje, klást otázky a komunikovat s ostatními uživateli[tady](https://forum.aspose.com/c/slides/11).
+V tomto tutoriálu jsme se naučili, jak propojovat tvary pomocí spojnic v prezentacích v PowerPointu s Aspose.Slides pro Javu. Dodržováním těchto jednoduchých kroků můžete vylepšit své prezentace vizuálně poutavými diagramy a vývojovými diagramy.
+## Často kladené otázky
+### Mohu si přizpůsobit vzhled konektorů v Aspose.Slides pro Javu?
+Ano, můžete si přizpůsobit různé vlastnosti spojnic, jako je barva, styl čáry a tloušťka, aby vyhovovaly vašim potřebám prezentace.
+### Je Aspose.Slides pro Javu kompatibilní se všemi verzemi PowerPointu?
+Aspose.Slides pro Javu podporuje různé formáty PowerPointu, včetně PPTX, PPT a ODP.
+### Mohu propojit více než dva tvary jednou spojnicí?
+Ano, můžete propojit více tvarů pomocí komplexních konektorů, které poskytuje Aspose.Slides pro Javu.
+### Nabízí Aspose.Slides pro Javu podporu pro přidávání textu do tvarů?
+Rozhodně můžete snadno programově přidávat text k tvarům a spojnicím pomocí Aspose.Slides pro Javu.
+### Existuje nějaké komunitní fórum nebo kanál podpory pro uživatele Aspose.Slides pro Javu?
+Ano, na fóru Aspose.Slides můžete najít užitečné zdroje, klást otázky a komunikovat s ostatními uživateli. [zde](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

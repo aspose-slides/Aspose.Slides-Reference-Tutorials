@@ -1,93 +1,95 @@
 ---
-title: Nastavte šířku mezery v Java Slides
-linktitle: Nastavte šířku mezery v Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Naučte se, jak nastavit Gap Width v Java Slides pomocí Aspose.Slides pro Java. Vylepšete vizuály grafů pro prezentace v PowerPointu.
-weight: 21
-url: /cs/java/data-manipulation/set-gap-width-java-slides/
+"description": "Naučte se, jak nastavit šířku mezery v Javě pomocí Aspose.Slides pro Javu. Vylepšete vizuální prvky grafů pro vaše prezentace v PowerPointu."
+"linktitle": "Nastavení šířky mezery v Javě Slides"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Nastavení šířky mezery v Javě Slides"
+"url": "/cs/java/data-manipulation/set-gap-width-java-slides/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nastavte šířku mezery v Java Slides
+# Nastavení šířky mezery v Javě Slides
 
 
 ## Úvod do nastavení šířky mezery v Aspose.Slides pro Javu
 
-V tomto tutoriálu vás provedeme procesem nastavení šířky mezery pro graf v prezentaci PowerPoint pomocí Aspose.Slides pro Java. Šířka mezery určuje mezery mezi sloupci nebo pruhy v grafu, což vám umožňuje ovládat vizuální vzhled grafu.
+V tomto tutoriálu vás provedeme procesem nastavení šířky mezery pro graf v prezentaci PowerPoint pomocí Aspose.Slides pro Javu. Šířka mezery určuje rozteč mezi sloupci nebo pruhy v grafu, což vám umožňuje ovládat vizuální vzhled grafu.
 
 ## Předpoklady
 
- Než začnete, ujistěte se, že máte nainstalovanou knihovnu Aspose.Slides for Java. Můžete si jej stáhnout z webu Aspose[tady](https://releases.aspose.com/slides/java/).
+Než začnete, ujistěte se, že máte nainstalovanou knihovnu Aspose.Slides pro Javu. Můžete si ji stáhnout z webových stránek Aspose. [zde](https://releases.aspose.com/slides/java/).
 
-## Průvodce krok za krokem
+## Podrobný průvodce
 
-Chcete-li nastavit šířku mezery v grafu pomocí Aspose.Slides for Java, postupujte takto:
+Chcete-li nastavit šířku mezery v grafu pomocí Aspose.Slides pro Javu, postupujte takto:
 
 ### 1. Vytvořte prázdnou prezentaci
 
 ```java
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 String dataDir = "Your Document Directory";
 
-// Vytvoření prázdné prezentace
+// Vytvoření prázdné prezentace 
 Presentation presentation = new Presentation();
 ```
 
-### 2. Otevřete první snímek
+### 2. Přístup k prvnímu snímku
 
 ```java
-// Otevřete první snímek
+// Přístup k prvnímu snímku
 ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
-### 3. Přidejte graf s výchozími daty
+### 3. Přidání grafu s výchozími daty
 
 ```java
-// Přidejte graf s výchozími daty
+// Přidat graf s výchozími daty
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn, 0, 0, 500, 500);
 ```
 
-### 4. Nastavte Index datového listu grafu
+### 4. Nastavení indexu datového listu grafu
 
 ```java
 // Nastavení indexu datového listu grafu
 int defaultWorksheetIndex = 0;
 ```
 
-### 5. Získejte sešit dat grafu
+### 5. Získejte sešit s daty grafů
 
 ```java
-// Získání listu dat grafu
+// Získání pracovního listu s daty grafu
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
 
-### 6. Přidejte do grafu řady
+### 6. Přidání série do grafu
 
 ```java
-// Přidejte řadu do grafu
+// Přidání série do grafu
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), chart.getType());
 ```
 
-### 7. Přidejte do grafu kategorie
+### 7. Přidání kategorií do grafu
 
 ```java
-// Přidejte do grafu kategorie
+// Přidání kategorií do grafu
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 1, 0, "Category 1"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 0, "Category 2"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Category 3"));
 ```
 
-### 8. Vyplňte data série
+### 8. Naplnění dat série
 
 ```java
-// Vyplňte data série
+// Naplnění dat série
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
 
-// Vyplňování sériových datových bodů
+// Naplnění datových bodů řady
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -96,10 +98,10 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
 ```
 
-### 9. Nastavte šířku mezery
+### 9. Nastavení šířky mezery
 
 ```java
-// Nastavte hodnotu Gap Width
+// Nastavení hodnoty šířky mezery
 series.getParentSeriesGroup().setGapWidth(50);
 ```
 
@@ -110,12 +112,12 @@ series.getParentSeriesGroup().setGapWidth(50);
 presentation.save(dataDir + "GapWidth_out.pptx", SaveFormat.Pptx);
 ```
 
-## Kompletní zdrojový kód pro nastavení šířky mezery v Java Slides
+## Kompletní zdrojový kód pro nastavení šířky mezery v Javě Slides
 
 ```java
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 String dataDir = "Your Document Directory";
-// Vytváření prázdné prezentace
+// Vytvoření prázdné prezentace 
 Presentation presentation = new Presentation();
 // Přístup k prvnímu snímku
 ISlide slide = presentation.getSlides().get_Item(0);
@@ -123,7 +125,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn, 0, 0, 500, 500);
 // Nastavení indexu datového listu grafu
 int defaultWorksheetIndex = 0;
-// Získání listu dat grafu
+// Získání pracovního listu s daty grafu
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Přidat sérii
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
@@ -132,16 +134,16 @@ chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 1, 0, "Caetegoty 1"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 0, "Caetegoty 2"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
-// Vezměte druhou řadu grafů
+// Vezměte si druhou sérii grafů
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-// Nyní se vyplňují data série
+// Nyní se naplňují data série
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-// Nastavte hodnotu GapWidth
+// Nastavit hodnotu GapWidth
 series.getParentSeriesGroup().setGapWidth(50);
 // Uložit prezentaci s grafem
 presentation.save(dataDir + "GapWidth_out.pptx", SaveFormat.Pptx);
@@ -149,24 +151,26 @@ presentation.save(dataDir + "GapWidth_out.pptx", SaveFormat.Pptx);
 
 ## Závěr
 
-V tomto tutoriálu jste se naučili, jak nastavit šířku mezery pro graf v prezentaci PowerPoint pomocí Aspose.Slides for Java. Úpravou šířky mezery můžete ovládat mezery mezi sloupci nebo pruhy v grafu a zlepšit tak vizuální reprezentaci vašich dat.
+tomto tutoriálu jste se naučili, jak nastavit šířku mezery v grafu v prezentaci PowerPoint pomocí Aspose.Slides pro Javu. Úprava šířky mezery umožňuje ovládat rozteč mezi sloupci nebo pruhy v grafu a vylepšit tak vizuální reprezentaci dat.
 
-## FAQ
+## Často kladené otázky
 
-### Jak změním hodnotu Gap Width?
+### Jak změním hodnotu šířky mezery?
 
- Chcete-li změnit šířku mezery, použijte`setGapWidth` metoda na`ParentSeriesGroup` řady grafů. V uvedeném příkladu jsme nastavili šířku mezery na 50, ale tuto hodnotu můžete upravit na požadovanou vzdálenost.
+Chcete-li změnit šířku mezery, použijte `setGapWidth` metoda na `ParentSeriesGroup` série grafů. V uvedeném příkladu jsme nastavili šířku mezery na 50, ale tuto hodnotu můžete upravit na požadovanou rozteč.
 
-### Mohu přizpůsobit další vlastnosti grafu?
+### Mohu si přizpůsobit další vlastnosti grafu?
 
-Ano, Aspose.Slides for Java poskytuje rozsáhlé možnosti pro přizpůsobení grafů. Můžete upravit různé vlastnosti grafu, jako jsou barvy, štítky, názvy a další. Podrobné informace o možnostech přizpůsobení grafu naleznete v Referenční příručce rozhraní API.
+Ano, Aspose.Slides pro Javu nabízí rozsáhlé možnosti pro přizpůsobení grafů. Můžete upravovat různé vlastnosti grafu, jako jsou barvy, popisky, názvy a další. Podrobné informace o možnostech přizpůsobení grafů naleznete v referenční příručce API.
 
 ### Kde najdu další zdroje a dokumentaci?
 
- Komplexní dokumentaci a další zdroje naleznete na Aspose.Slides for Java na[Aspose webové stránky](https://reference.aspose.com/slides/java/).
+Komplexní dokumentaci a další zdroje k Aspose.Slides pro Javu naleznete na [Webové stránky Aspose](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

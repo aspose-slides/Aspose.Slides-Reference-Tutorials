@@ -1,52 +1,54 @@
 ---
-title: Java Slaytlarındaki Grafikler için İkinci Grafik Seçenekleri
-linktitle: Java Slaytlarındaki Grafikler için İkinci Grafik Seçenekleri
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides for Java'yı kullanarak Java Slides'taki grafikleri nasıl özelleştireceğinizi öğrenin. İkinci senaryo seçeneklerini keşfedin ve sunumlarınızı geliştirin.
-weight: 12
-url: /tr/java/chart-creation/second-plot-options-charts-java-slides/
+"description": "Java Slaytlarında grafikleri Aspose.Slides for Java kullanarak nasıl özelleştireceğinizi öğrenin. İkinci çizim seçeneklerini keşfedin ve sunumlarınızı geliştirin."
+"linktitle": "Java Slaytlarında Grafikler için İkinci Grafik Seçenekleri"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java Slaytlarında Grafikler için İkinci Grafik Seçenekleri"
+"url": "/tr/java/chart-creation/second-plot-options-charts-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java Slaytlarındaki Grafikler için İkinci Grafik Seçenekleri
+# Java Slaytlarında Grafikler için İkinci Grafik Seçenekleri
 
 
-## Java Slaytlarındaki Grafikler için İkinci Grafik Seçeneklerine Giriş
+## Java Slaytlarında Grafikler için İkinci Grafik Seçeneklerine Giriş
 
-Bu eğitimde Aspose.Slides for Java kullanarak grafiklere ikinci çizim seçeneklerinin nasıl ekleneceğini inceleyeceğiz. İkinci çizim seçenekleri, özellikle Pie of Pie grafikleri gibi senaryolarda grafiklerin görünümünü ve davranışını özelleştirmenize olanak tanır. Bunu başarmak için adım adım talimatlar ve kaynak kodu örnekleri sunacağız. 
+Bu eğitimde, Java için Aspose.Slides kullanarak grafiklere ikinci çizim seçeneklerinin nasıl ekleneceğini inceleyeceğiz. İkinci çizim seçenekleri, özellikle Pasta veya Pasta grafikleri gibi senaryolarda grafiklerin görünümünü ve davranışını özelleştirmenize olanak tanır. Bunu başarmak için adım adım talimatlar ve kaynak kodu örnekleri sağlayacağız. 
 
-## Önkoşullar
-Başlamadan önce Java projenizde Aspose.Slides for Java'nın kurulu ve kurulu olduğundan emin olun.
+## Ön koşullar
+Başlamadan önce, Java projenizde Aspose.Slides for Java'nın yüklü ve ayarlanmış olduğundan emin olun.
 
-## 1. Adım: Bir Sunu Oluşturun
+## Adım 1: Bir Sunum Oluşturun
 Yeni bir sunum oluşturarak başlayalım:
 
 ```java
-// Belgeler dizininin yolu.
+// Belgeler dizinine giden yol.
 String dataDir = "Your Document Directory";
-// Sunum sınıfının bir örneğini oluşturun
+// Bir Presentation sınıfı örneği oluşturun
 Presentation presentation = new Presentation();
 ```
 
-## Adım 2: Slayta Grafik Ekleme
-Daha sonra slayta bir grafik ekleyeceğiz. Bu örnekte bir Pasta Pastası grafiği oluşturacağız:
+## Adım 2: Bir Slayda Grafik Ekleme
+Sonra, bir slayta bir grafik ekleyeceğiz. Bu örnekte, bir Pasta Pastası grafiği oluşturacağız:
 
 ```java
-// Slayta grafik ekleme
+// Slayta grafik ekle
 IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.PieOfPie, 50, 50, 500, 400);
 ```
 
-## 3. Adım: Grafik Özelliklerini Özelleştirin
-Şimdi ikinci çizim seçenekleri de dahil olmak üzere grafik için farklı özellikler ayarlayalım:
+## Adım 3: Grafik Özelliklerini Özelleştirin
+Şimdi, ikinci çizim seçenekleri de dahil olmak üzere grafik için farklı özellikler ayarlayalım:
 
 ```java
-// İlk serinin veri etiketlerini göster
+// İlk seri için veri etiketlerini göster
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 
-// İkinci pastanın boyutunu ayarlayın (yüzde olarak)
+// İkinci pastanın boyutunu (yüzde olarak) ayarlayın
 chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setSecondPieSize(149);
 
 // Pastayı yüzdeye göre böl
@@ -56,7 +58,7 @@ chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setPieSplitB
 chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setPieSplitPosition(53);
 ```
 
-## 4. Adım: Sunuyu Kaydetme
+## Adım 4: Sunumu Kaydedin
 Son olarak sunumu grafik ve ikinci çizim seçenekleriyle kaydedin:
 
 ```java
@@ -64,16 +66,16 @@ Son olarak sunumu grafik ve ikinci çizim seçenekleriyle kaydedin:
 presentation.save(dataDir + "SecondPlotOptionsforCharts_out.pptx", SaveFormat.Pptx);
 ```
 
-## İkinci Grafik Seçenekleri İçin Kaynak Kodunu Tamamlayın
+## İkinci Plot Seçenekleri İçin Tam Kaynak Kodu
 
 ```java
-// Belgeler dizininin yolu.
+// Belgeler dizinine giden yol.
 String dataDir = "Your Document Directory";
-// Sunum sınıfının bir örneğini oluşturun
+// Bir Presentation sınıfı örneği oluşturun
 Presentation presentation = new Presentation();
-// Slayta grafik ekleme
+// Slayta grafik ekle
 IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.PieOfPie, 50, 50, 500, 400);
-// Farklı özellikleri ayarlayın
+// Farklı özellikler ayarlayın
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setSecondPieSize(149);
 chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setPieSplitBy(PieSplitType.ByPercentage);
@@ -84,24 +86,26 @@ presentation.save(dataDir + "SecondPlotOptionsforCharts_out.pptx", SaveFormat.Pp
 
 ## Çözüm
 
-Bu eğitimde, Aspose.Slides for Java kullanarak Java Slides'daki grafiklere ikinci çizim seçeneklerini nasıl ekleyeceğimizi öğrendik. Grafiklerinizin görünümünü ve işlevselliğini geliştirmek, sunumlarınızı daha bilgilendirici ve görsel olarak çekici hale getirmek için çeşitli özellikleri özelleştirebilirsiniz.
+Bu eğitimde, Java Slides'da Aspose.Slides for Java kullanarak grafiklere ikinci çizim seçeneklerinin nasıl ekleneceğini öğrendik. Grafiklerinizin görünümünü ve işlevselliğini geliştirmek için çeşitli özellikleri özelleştirebilir, sunumlarınızı daha bilgilendirici ve görsel olarak çekici hale getirebilirsiniz.
 
-## SSS'ler
+## SSS
 
-### Pie of Pie grafiğindeki ikinci pastanın boyutunu nasıl değiştirebilirim?
+### Pasta Pasta grafiğinde ikinci pastanın boyutunu nasıl değiştirebilirim?
 
-Pasta Pastası grafiğindeki ikinci pastanın boyutunu değiştirmek için`setSecondPieSize` Yukarıdaki kod örneğinde gösterildiği gibi yöntem. Boyutu yüzde cinsinden belirtmek için değeri ayarlayın.
+Pasta Pasta grafiğindeki ikinci pastanın boyutunu değiştirmek için şunu kullanın: `setSecondPieSize` Yukarıdaki kod örneğinde gösterildiği gibi yöntem. Boyutu yüzde olarak belirtmek için değeri ayarlayın.
 
-###  Nedir`PieSplitBy` control in a Pie of Pie chart?
+### Ne yapar? `PieSplitBy` Pasta grafiğinde kontrol nedir?
 
-`PieSplitBy` özellik pasta grafiğinin nasıl bölündüğünü kontrol eder. İkisinden birine ayarlayabilirsiniz`PieSplitType.ByPercentage` veya`PieSplitType.ByValue` Grafiği sırasıyla yüzdeye veya belirli bir değere göre bölmek için.
+The `PieSplitBy` özellik, pasta grafiğinin nasıl bölüneceğini kontrol eder. Bunu şu şekilde ayarlayabilirsiniz: `PieSplitType.ByPercentage` veya `PieSplitType.ByValue` Tabloyu sırasıyla yüzdeye göre veya belirli bir değere göre bölmek için.
 
-### Pie of Pie grafiğinde bölünmenin konumunu nasıl ayarlarım?
+### Pasta Pasta grafiğinde bölünmenin konumunu nasıl ayarlarım?
 
- Bölmenin konumunu Pie of Pie grafiğinde ayarlayabilirsiniz.`setPieSplitPosition` yöntem. İstenilen konumu belirtmek için değeri ayarlayın.
+Pasta grafiğindeki bölünmenin konumunu, `setPieSplitPosition` yöntem. İstenilen pozisyonu belirtmek için değeri ayarlayın.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

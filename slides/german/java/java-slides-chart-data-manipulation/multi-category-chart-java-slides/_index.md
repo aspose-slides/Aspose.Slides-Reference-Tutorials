@@ -1,31 +1,33 @@
 ---
-title: Mehrkategoriendiagramm in Java-Folien
-linktitle: Mehrkategoriendiagramm in Java-Folien
-second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
-description: Erstellen Sie Multi-Kategorie-Diagramme in Java-Folien mit Aspose.Slides für Java. Schritt-für-Schritt-Anleitung mit Quellcode für eine beeindruckende Datenvisualisierung in Präsentationen.
-weight: 20
-url: /de/java/chart-data-manipulation/multi-category-chart-java-slides/
+"description": "Erstellen Sie Multi-Kategorie-Diagramme in Java Slides mit Aspose.Slides für Java. Schritt-für-Schritt-Anleitung mit Quellcode für beeindruckende Datenvisualisierung in Präsentationen."
+"linktitle": "Mehrkategoriendiagramm in Java-Folien"
+"second_title": "Aspose.Slides Java PowerPoint-Verarbeitungs-API"
+"title": "Mehrkategoriendiagramm in Java-Folien"
+"url": "/de/java/chart-data-manipulation/multi-category-chart-java-slides/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mehrkategoriendiagramm in Java-Folien
 
 
-## Einführung in Multi-Category-Diagramme in Java-Folien mit Aspose.Slides
+## Einführung in Multi-Kategorie-Diagramme in Java-Folien mit Aspose.Slides
 
-In diesem Tutorial erfahren Sie, wie Sie mithilfe der Aspose.Slides für Java-API ein Diagramm mit mehreren Kategorien in Java-Folien erstellen. Diese Anleitung enthält schrittweise Anweisungen sowie Quellcode, mit denen Sie ein gruppiertes Säulendiagramm mit mehreren Kategorien und Reihen erstellen können.
+In diesem Tutorial erfahren Sie, wie Sie mithilfe der Aspose.Slides für Java-API ein Mehrkategoriendiagramm in Java-Folien erstellen. Diese Anleitung enthält Schritt-für-Schritt-Anleitungen und Quellcode, mit denen Sie ein gruppiertes Säulendiagramm mit mehreren Kategorien und Reihen erstellen können.
 
 ## Voraussetzungen
-Bevor wir beginnen, stellen Sie sicher, dass Sie die Bibliothek Aspose.Slides für Java in Ihrer Java-Entwicklungsumgebung installiert und eingerichtet haben.
+Bevor wir beginnen, stellen Sie sicher, dass Sie die Aspose.Slides-Bibliothek für Java in Ihrer Java-Entwicklungsumgebung installiert und eingerichtet haben.
 
 ## Schritt 1: Einrichten der Umgebung
 Importieren Sie zunächst die erforderlichen Klassen und erstellen Sie ein neues Präsentationsobjekt, um mit Folien zu arbeiten.
 
 ```java
-// Der Pfad zum Dokumentverzeichnis.
+// Der Pfad zum Dokumentenverzeichnis.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 ```
@@ -47,7 +49,7 @@ ch.getChartData().getCategories().clear();
 ```
 
 ## Schritt 4: Datenkategorien einrichten
-Richten wir nun Datenkategorien für das Diagramm ein. Wir werden mehrere Kategorien erstellen und sie gruppieren.
+Richten wir nun Datenkategorien für das Diagramm ein. Wir erstellen mehrere Kategorien und gruppieren sie.
 
 ```java
 IChartDataWorkbook fact = ch.getChartData().getChartDataWorkbook();
@@ -78,7 +80,7 @@ category = ch.getChartData().getCategories().add(fact.getCell(0, "c9", "H"));
 ```
 
 ## Schritt 5: Serien hinzufügen
-Fügen wir nun dem Diagramm eine Reihe zusammen mit Datenpunkten hinzu.
+Fügen wir dem Diagramm nun eine Reihe zusammen mit Datenpunkten hinzu.
 
 ```java
 IChartSeries series = ch.getChartData().getSeries().add(fact.getCell(0, "D1", "Series 1"), ChartType.ClusteredColumn);
@@ -100,12 +102,12 @@ Speichern Sie abschließend die Präsentation mit dem Diagramm.
 pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
 
-Das ist es! Sie haben erfolgreich ein Mehrkategoriendiagramm in einer Java-Folie mit Aspose.Slides erstellt. Sie können dieses Diagramm weiter an Ihre spezifischen Anforderungen anpassen.
+Fertig! Sie haben mit Aspose.Slides erfolgreich ein Multikategoriendiagramm in einer Java-Folie erstellt. Sie können dieses Diagramm weiter an Ihre spezifischen Anforderungen anpassen.
 
-## Vollständiger Quellcode für Mehrkategoriendiagramme in Java-Folien
+## Vollständiger Quellcode für Multi-Kategorie-Diagramme in Java-Folien
 
 ```java
-// Der Pfad zum Dokumentverzeichnis.
+// Der Pfad zum Dokumentenverzeichnis.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
@@ -127,7 +129,7 @@ category = ch.getChartData().getCategories().add(fact.getCell(0, "c7", "F"));
 category = ch.getChartData().getCategories().add(fact.getCell(0, "c8", "G"));
 category.getGroupingLevels().setGroupingItem(1, "Group4");
 category = ch.getChartData().getCategories().add(fact.getCell(0, "c9", "H"));
-// Serien hinzufügen
+//            Hinzufügen von Serien
 IChartSeries series = ch.getChartData().getSeries().add(fact.getCell(0, "D1", "Series 1"),
 		ChartType.ClusteredColumn);
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, "D2", 10));
@@ -144,7 +146,7 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ## Abschluss
 
-In diesem Tutorial haben wir gelernt, wie man mit der Aspose.Slides für Java-API ein Mehrkategoriendiagramm in Java-Folien erstellt. Wir haben eine Schritt-für-Schritt-Anleitung mit Quellcode durchgearbeitet, um ein gruppiertes Säulendiagramm mit mehreren Kategorien und Reihen zu erstellen.
+In diesem Tutorial haben wir gelernt, wie man mithilfe der Aspose.Slides für Java-API ein Mehrkategoriendiagramm in Java-Folien erstellt. Wir haben eine Schritt-für-Schritt-Anleitung mit Quellcode durchgearbeitet, um ein gruppiertes Säulendiagramm mit mehreren Kategorien und Reihen zu erstellen.
 
 ## Häufig gestellte Fragen
 
@@ -154,18 +156,20 @@ Sie können das Erscheinungsbild des Diagramms anpassen, indem Sie Eigenschaften
 
 ### Kann ich dem Diagramm weitere Reihen hinzufügen?
 
-Ja, Sie können dem Diagramm weitere Reihen hinzufügen, indem Sie einem ähnlichen Verfahren wie in Schritt 5 gezeigt folgen.
+Ja, Sie können dem Diagramm zusätzliche Reihen hinzufügen, indem Sie einem ähnlichen Vorgang wie in Schritt 5 gezeigt folgen.
 
 ### Wie ändere ich den Diagrammtyp?
 
- Um den Diagrammtyp zu ändern, ersetzen Sie`ChartType.ClusteredColumn` mit dem gewünschten Diagrammtyp, wenn Sie das Diagramm in Schritt 2 hinzufügen.
+Um den Diagrammtyp zu ändern, ersetzen Sie `ChartType.ClusteredColumn` mit dem gewünschten Diagrammtyp, wenn Sie das Diagramm in Schritt 2 hinzufügen.
 
 ### Wie kann ich dem Diagramm einen Titel hinzufügen?
 
- Sie können dem Diagramm einen Titel hinzufügen, indem Sie das`ch.getChartTitle().getTextFrame().setText("Chart Title");` Methode.
+Sie können dem Diagramm einen Titel hinzufügen, indem Sie das Symbol `ch.getChartTitle().getTextFrame().setText("Chart Title");` Verfahren.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

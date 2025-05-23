@@ -1,20 +1,22 @@
 ---
-title: प्रेजेंटेशन से रिस्पॉन्सिव लेआउट के साथ HTML बनाएं
-linktitle: प्रेजेंटेशन से रिस्पॉन्सिव लेआउट के साथ HTML बनाएं
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: .NET के लिए Aspose.Slides का उपयोग करके प्रस्तुतियों को रिस्पॉन्सिव HTML में बदलना सीखें। सहजता से इंटरैक्टिव, डिवाइस-फ्रेंडली सामग्री बनाएँ।
-weight: 17
-url: /hi/net/presentation-manipulation/create-html-with-responsive-layout-from-presentation/
+"description": "Aspose.Slides for .NET का उपयोग करके प्रस्तुतियों को रिस्पॉन्सिव HTML में परिवर्तित करना सीखें। सहजता से इंटरैक्टिव, डिवाइस-फ्रेंडली सामग्री बनाएँ।"
+"linktitle": "प्रेजेंटेशन से रिस्पॉन्सिव लेआउट के साथ HTML बनाएं"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "प्रेजेंटेशन से रिस्पॉन्सिव लेआउट के साथ HTML बनाएं"
+"url": "/hi/net/presentation-manipulation/create-html-with-responsive-layout-from-presentation/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # प्रेजेंटेशन से रिस्पॉन्सिव लेआउट के साथ HTML बनाएं
 
 
-आज के डिजिटल युग में, वेब डेवलपर्स और डिज़ाइनरों के लिए रिस्पॉन्सिव वेब कंटेंट बनाना एक महत्वपूर्ण कौशल है। सौभाग्य से, .NET के लिए Aspose.Slides जैसे उपकरण प्रेजेंटेशन से रिस्पॉन्सिव लेआउट के साथ HTML जेनरेट करना आसान बनाते हैं। इस चरण-दर-चरण ट्यूटोरियल में, हम आपको दिए गए स्रोत कोड का उपयोग करके इसे प्राप्त करने की प्रक्रिया के माध्यम से मार्गदर्शन करेंगे।
+आज के डिजिटल युग में, वेब डेवलपर्स और डिज़ाइनरों के लिए रिस्पॉन्सिव वेब कंटेंट बनाना एक महत्वपूर्ण कौशल है। सौभाग्य से, .NET के लिए Aspose.Slides जैसे उपकरण प्रेजेंटेशन से रिस्पॉन्सिव लेआउट के साथ HTML जेनरेट करना आसान बनाते हैं। इस चरण-दर-चरण ट्यूटोरियल में, हम आपको दिए गए सोर्स कोड का उपयोग करके इसे प्राप्त करने की प्रक्रिया के माध्यम से मार्गदर्शन करेंगे।
 
 
 ## 1 परिचय
@@ -30,7 +32,7 @@ url: /hi/net/presentation-manipulation/create-html-with-responsive-layout-from-p
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- प्रतिस्थापित करें`"Your Document Directory"` अपनी प्रस्तुति फ़ाइल के पथ के साथ.
+प्रतिस्थापित करें `"Your Document Directory"` अपनी प्रस्तुति फ़ाइल के पथ के साथ.
 
 ## 3.2. आउटपुट डायरेक्टरी को परिभाषित करना
 ```csharp
@@ -63,24 +65,26 @@ presentation.Save(dataDir + "SomePresentation-out.html", SaveFormat.Html, saveOp
 ## 6. अक्सर पूछे जाने वाले प्रश्न
 
 ### FAQ 1: क्या .NET के लिए Aspose.Slides का उपयोग निःशुल्क है?
- Aspose.Slides for .NET एक व्यावसायिक उत्पाद है, लेकिन आप इसका निःशुल्क परीक्षण भी कर सकते हैं[यहाँ](https://releases.aspose.com/).
+Aspose.Slides for .NET एक व्यावसायिक उत्पाद है, लेकिन आप इसका निःशुल्क परीक्षण भी कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### FAQ 2: मैं .NET के लिए Aspose.Slides का समर्थन कैसे प्राप्त कर सकता हूं?
-किसी भी सहायता-संबंधी पूछताछ के लिए, यहां जाएं[Aspose.Slides फ़ोरम](https://forum.aspose.com/).
+किसी भी सहायता-संबंधी पूछताछ के लिए, यहां जाएं [Aspose.Slides फ़ोरम](https://forum.aspose.com/).
 
 ### FAQ 3: क्या मैं व्यावसायिक परियोजनाओं के लिए Aspose.Slides for .NET का उपयोग कर सकता हूँ?
- हां, आप व्यावसायिक उपयोग के लिए लाइसेंस खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+हां, आप व्यावसायिक उपयोग के लिए लाइसेंस खरीद सकते हैं [यहाँ](https://purchase.aspose.com/buy).
 
 ### FAQ 4: क्या मुझे .NET के लिए Aspose.Slides का उपयोग करने के लिए गहन प्रोग्रामिंग ज्ञान की आवश्यकता है?
- जबकि बुनियादी प्रोग्रामिंग ज्ञान सहायक है, Aspose.Slides for .NET आपकी परियोजनाओं में सहायता के लिए व्यापक दस्तावेज़ीकरण प्रदान करता है। आप API दस्तावेज़ पा सकते हैं[यहाँ](https://reference.aspose.com/slides/net/).
+जबकि बुनियादी प्रोग्रामिंग ज्ञान सहायक है, Aspose.Slides for .NET आपकी परियोजनाओं में सहायता के लिए व्यापक दस्तावेज़ीकरण प्रदान करता है। आप API दस्तावेज़ पा सकते हैं [यहाँ](https://reference.aspose.com/slides/net/).
 
 ### FAQ 5: क्या मैं .NET के लिए Aspose.Slides हेतु अस्थायी लाइसेंस प्राप्त कर सकता हूँ?
- हां, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+हां, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
 
 अब जब आपके पास प्रस्तुतियों से रिस्पॉन्सिव HTML बनाने के लिए एक व्यापक गाइड है, तो आप अपनी वेब सामग्री की पहुँच और आकर्षण को बढ़ाने के लिए अच्छी तरह से तैयार हैं। हैप्पी कोडिंग!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

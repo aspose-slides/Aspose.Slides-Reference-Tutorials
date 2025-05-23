@@ -1,14 +1,16 @@
 ---
-title: PowerPoint आकार थंबनेल बनाएँ - Aspose.Slides .NET
-linktitle: Aspose.Slides में आकृति के लिए थंबनेल बनाना
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: Aspose.Slides for .NET का उपयोग करके PowerPoint प्रस्तुतियों में आकृतियों के लिए थंबनेल बनाना सीखें। डेवलपर्स के लिए एक व्यापक चरण-दर-चरण मार्गदर्शिका।
-weight: 14
-url: /hi/net/image-and-video-manipulation-in-slides/creating-thumbnail-shape/
+"description": "जानें कि Aspose.Slides for .NET का उपयोग करके PowerPoint प्रस्तुतियों में आकृतियों के लिए थंबनेल कैसे बनाएं। डेवलपर्स के लिए एक व्यापक चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "Aspose.Slides में आकृति के लिए थंबनेल बनाना"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "PowerPoint आकार थंबनेल बनाएँ - Aspose.Slides .NET"
+"url": "/hi/net/image-and-video-manipulation-in-slides/creating-thumbnail-shape/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PowerPoint आकार थंबनेल बनाएँ - Aspose.Slides .NET
@@ -17,7 +19,7 @@ url: /hi/net/image-and-video-manipulation-in-slides/creating-thumbnail-shape/
 Aspose.Slides for .NET एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को PowerPoint प्रस्तुतियों के साथ सहजता से काम करने में सक्षम बनाती है। इसकी उल्लेखनीय विशेषताओं में से एक प्रस्तुति के भीतर आकृतियों के लिए थंबनेल बनाने की क्षमता है। यह ट्यूटोरियल आपको Aspose.Slides for .NET का उपयोग करके आकृतियों के लिए थंबनेल बनाने की प्रक्रिया के माध्यम से मार्गदर्शन करेगा।
 ## आवश्यक शर्तें
 ट्यूटोरियल में आगे बढ़ने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
-1.  .NET के लिए Aspose.Slides: सुनिश्चित करें कि आपके पास Aspose.Slides लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं[रिलीज़ पेज](https://releases.aspose.com/slides/net/).
+1. .NET के लिए Aspose.Slides: सुनिश्चित करें कि आपके पास Aspose.Slides लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं [रिलीज़ पेज](https://releases.aspose.com/slides/net/).
 2. विकास परिवेश: एक उपयुक्त विकास परिवेश स्थापित करें, जैसे कि विजुअल स्टूडियो, और C# प्रोग्रामिंग की बुनियादी समझ रखें।
 ## नामस्थान आयात करें
 आरंभ करने के लिए, आपको अपने C# कोड में आवश्यक नामस्थान आयात करने होंगे। ये नामस्थान Aspose.Slides लाइब्रेरी के साथ संचार की सुविधा प्रदान करते हैं। अपनी C# फ़ाइल की शुरुआत में निम्न पंक्तियाँ जोड़ें:
@@ -29,7 +31,7 @@ using Aspose.Slides;
 ## चरण 1: अपना प्रोजेक्ट सेट करें
 अपने पसंदीदा डेवलपमेंट एनवायरनमेंट में एक नया C# प्रोजेक्ट बनाएँ। सुनिश्चित करें कि आपके प्रोजेक्ट में Aspose.Slides लाइब्रेरी का संदर्भ दिया गया है।
 ## चरण 2: प्रस्तुति आरंभ करें
-PowerPoint फ़ाइल को दर्शाने के लिए एक प्रेजेंटेशन क्लास को इंस्टेंटिएट करें। अपनी प्रेजेंटेशन फ़ाइल का पथ प्रदान करें`dataDir` चर।
+PowerPoint फ़ाइल को दर्शाने के लिए एक प्रेजेंटेशन क्लास को इंस्टेंटिएट करें। अपनी प्रेजेंटेशन फ़ाइल का पथ प्रदान करें `dataDir` चर।
 ```csharp
 string dataDir = "Your Documents Directory";
 using (Presentation presentation = new Presentation(dataDir + "HelloWorld.pptx"))
@@ -62,10 +64,12 @@ A: Aspose.Slides विभिन्न फ़ाइल स्वरूपों 
 ### प्रश्न: क्या थंबनेल वाले आकृतियों के आकार या प्रकार पर कोई सीमाएं हैं?
 उत्तर: Aspose.Slides विभिन्न आकृतियों के लिए थंबनेल बनाने की सुविधा प्रदान करता है, जिसमें टेक्स्ट बॉक्स, चित्र आदि शामिल हैं।
 ### प्रश्न: क्या मैं उत्पन्न थंबनेल का आकार और रिज़ॉल्यूशन अनुकूलित कर सकता हूँ?
- उत्तर: हां, आप कॉल करते समय पैरामीटर समायोजित कर सकते हैं`GetThumbnail` आकार और रिज़ोल्यूशन को नियंत्रित करने की विधि।
+उत्तर: हां, आप कॉल करते समय पैरामीटर समायोजित कर सकते हैं `GetThumbnail` आकार और रिज़ोल्यूशन को नियंत्रित करने की विधि।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

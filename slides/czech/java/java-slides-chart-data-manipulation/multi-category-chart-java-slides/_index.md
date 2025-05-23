@@ -1,37 +1,39 @@
 ---
-title: Multi-Category Chart v Java Slides
-linktitle: Multi-Category Chart v Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Vytvářejte vícekategorní grafy v Java Slides pomocí Aspose.Slides for Java. Podrobný průvodce se zdrojovým kódem pro působivou vizualizaci dat v prezentacích.
-weight: 20
-url: /cs/java/chart-data-manipulation/multi-category-chart-java-slides/
+"description": "Vytvářejte grafy s více kategoriemi v Java Slides pomocí Aspose.Slides pro Javu. Podrobný návod se zdrojovým kódem pro působivou vizualizaci dat v prezentacích."
+"linktitle": "Vícekategorický graf v Javě Slides"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Vícekategorický graf v Javě Slides"
+"url": "/cs/java/chart-data-manipulation/multi-category-chart-java-slides/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Multi-Category Chart v Java Slides
+# Vícekategorický graf v Javě Slides
 
 
-## Úvod do Multi-Category Chart v Java Slides s Aspose.Slides
+## Úvod do vícekategorizačních grafů v Javě - Slides s Aspose.Slides
 
-V tomto tutoriálu se naučíme, jak vytvořit vícekategoriální graf na snímcích Java pomocí Aspose.Slides for Java API. Tato příručka poskytne podrobné pokyny spolu se zdrojovým kódem, které vám pomohou vytvořit seskupený sloupcový graf s více kategoriemi a řadami.
+V tomto tutoriálu se naučíme, jak vytvořit graf s více kategoriemi v Javě pomocí rozhraní Aspose.Slides pro Java API. Tato příručka poskytne podrobné pokyny spolu se zdrojovým kódem, které vám pomohou vytvořit seskupený sloupcový graf s více kategoriemi a řadami.
 
 ## Předpoklady
-Než začneme, ujistěte se, že máte knihovnu Aspose.Slides for Java nainstalovanou a nastavenou ve vývojovém prostředí Java.
+Než začneme, ujistěte se, že máte ve svém vývojovém prostředí Java nainstalovanou a nastavenou knihovnu Aspose.Slides for Java.
 
 ## Krok 1: Nastavení prostředí
 Nejprve importujte potřebné třídy a vytvořte nový objekt Presentation pro práci se snímky.
 
 ```java
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 ```
 
 ## Krok 2: Přidání snímku a grafu
-Dále vytvořte snímek a přidejte k němu seskupený sloupcový graf.
+Dále vytvořte snímek a přidejte do něj seskupený sloupcový graf.
 
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
@@ -39,7 +41,7 @@ IChart ch = slide.getShapes().addChart(ChartType.ClusteredColumn, 100, 100, 600,
 ```
 
 ## Krok 3: Vymazání existujících dat
-Vymažte veškerá existující data z grafu.
+Vymažte všechna existující data z grafu.
 
 ```java
 ch.getChartData().getSeries().clear();
@@ -47,7 +49,7 @@ ch.getChartData().getCategories().clear();
 ```
 
 ## Krok 4: Nastavení kategorií dat
-Nyní nastavíme kategorie dat pro graf. Vytvoříme více kategorií a seskupíme je.
+Nyní si nastavíme kategorie dat pro graf. Vytvoříme více kategorií a seskupíme je.
 
 ```java
 IChartDataWorkbook fact = ch.getChartData().getChartDataWorkbook();
@@ -78,7 +80,7 @@ category = ch.getChartData().getCategories().add(fact.getCell(0, "c9", "H"));
 ```
 
 ## Krok 5: Přidání série
-Nyní přidejte do grafu řadu spolu s datovými body.
+Nyní přidejme do grafu řadu spolu s datovými body.
 
 ```java
 IChartSeries series = ch.getChartData().getSeries().add(fact.getCell(0, "D1", "Series 1"), ChartType.ClusteredColumn);
@@ -94,18 +96,18 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 ```
 
 ## Krok 6: Uložení prezentace
-Nakonec uložte prezentaci s grafem.
+Nakonec prezentaci s grafem uložte.
 
 ```java
 pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
 
-A je to! Úspěšně jste vytvořili graf více kategorií na snímku Java pomocí Aspose.Slides. Tento graf můžete dále upravit tak, aby vyhovoval vašim specifickým požadavkům.
+To je vše! Úspěšně jste vytvořili graf s více kategoriemi v snímku v Javě pomocí Aspose.Slides. Tento graf si můžete dále přizpůsobit svým specifickým požadavkům.
 
-## Kompletní zdrojový kód pro graf více kategorií v Java Slides
+## Kompletní zdrojový kód pro vícekategorický graf v Javě Slides
 
 ```java
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
@@ -127,7 +129,7 @@ category = ch.getChartData().getCategories().add(fact.getCell(0, "c7", "F"));
 category = ch.getChartData().getCategories().add(fact.getCell(0, "c8", "G"));
 category.getGroupingLevels().setGroupingItem(1, "Group4");
 category = ch.getChartData().getCategories().add(fact.getCell(0, "c9", "H"));
-// Přidávání série
+//            Přidávání sérií
 IChartSeries series = ch.getChartData().getSeries().add(fact.getCell(0, "D1", "Series 1"),
 		ChartType.ClusteredColumn);
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, "D2", 10));
@@ -144,28 +146,30 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ## Závěr
 
-V tomto tutoriálu jsme se naučili, jak vytvořit vícekategoriální graf na snímcích Java pomocí rozhraní Aspose.Slides for Java API. Prošli jsme krok za krokem průvodce se zdrojovým kódem, abychom vytvořili seskupený sloupcový graf s více kategoriemi a řadami.
+tomto tutoriálu jsme se naučili, jak vytvořit graf s více kategoriemi v Javě pomocí rozhraní Aspose.Slides pro Java API. Prošli jsme si podrobný návod se zdrojovým kódem pro vytvoření klastrovaného sloupcového grafu s více kategoriemi a řadami.
 
-## FAQ
+## Často kladené otázky
 
-### Jak mohu přizpůsobit vzhled grafu?
+### Jak si mohu přizpůsobit vzhled grafu?
 
-Vzhled grafu můžete přizpůsobit úpravou vlastností, jako jsou barvy, písma a styly. Podrobné možnosti přizpůsobení naleznete v dokumentaci Aspose.Slides.
+Vzhled grafu si můžete přizpůsobit úpravou vlastností, jako jsou barvy, písma a styly. Podrobné možnosti přizpůsobení naleznete v dokumentaci k Aspose.Slides.
 
 ### Mohu do grafu přidat další série?
 
-Ano, do grafu můžete přidat další řady podobným postupem jako v kroku 5.
+Ano, do grafu můžete přidat další řady podobným způsobem, jaký je znázorněn v kroku 5.
 
 ### Jak změním typ grafu?
 
- Chcete-li změnit typ grafu, nahraďte`ChartType.ClusteredColumn` s požadovaným typem grafu při přidávání grafu v kroku 2.
+Chcete-li změnit typ grafu, nahraďte `ChartType.ClusteredColumn` s požadovaným typem grafu při přidávání grafu v kroku 2.
 
-### Jak mohu přidat název do grafu?
+### Jak mohu přidat název grafu?
 
- Do grafu můžete přidat název pomocí`ch.getChartTitle().getTextFrame().setText("Chart Title");` metoda.
+Název grafu můžete přidat pomocí `ch.getChartTitle().getTextFrame().setText("Chart Title");` metoda.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

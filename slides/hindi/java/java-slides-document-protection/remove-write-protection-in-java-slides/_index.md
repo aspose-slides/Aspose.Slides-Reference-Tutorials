@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में लेखन सुरक्षा हटाएँ
-linktitle: जावा स्लाइड्स में लेखन सुरक्षा हटाएँ
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके Java Slides प्रस्तुतियों में लेखन सुरक्षा को हटाने का तरीका जानें। स्रोत कोड सहित चरण-दर-चरण मार्गदर्शिका।
-weight: 10
-url: /hi/java/document-protection/remove-write-protection-in-java-slides/
+"description": "Aspose.Slides for Java का उपयोग करके Java Slides प्रस्तुतियों में लेखन सुरक्षा को हटाने का तरीका जानें। स्रोत कोड सहित चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "जावा स्लाइड्स में लेखन सुरक्षा हटाएँ"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में लेखन सुरक्षा हटाएँ"
+"url": "/hi/java/document-protection/remove-write-protection-in-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में लेखन सुरक्षा हटाएँ
@@ -23,7 +25,7 @@ url: /hi/java/document-protection/remove-write-protection-in-java-slides/
 इससे पहले कि हम कोड में उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
 - आपके सिस्टम पर जावा डेवलपमेंट किट (JDK) स्थापित है।
--  Aspose.Slides for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+- Aspose.Slides for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 
 ## चरण 1: आवश्यक लाइब्रेरीज़ आयात करना
 
@@ -47,11 +49,11 @@ Presentation presentation = new Presentation(dataDir + "RemoveWriteProtection.pp
 
 ## चरण 3: जाँच करें कि प्रस्तुति लेखन-संरक्षित है या नहीं
 
- लेखन सुरक्षा हटाने का प्रयास करने से पहले, यह जांचना एक अच्छा अभ्यास है कि क्या प्रस्तुति वास्तव में सुरक्षित है। हम इसका उपयोग करके ऐसा कर सकते हैं`getProtectionManager().isWriteProtected()` तरीका।
+लेखन सुरक्षा हटाने का प्रयास करने से पहले, यह जांचना एक अच्छा अभ्यास है कि क्या प्रस्तुति वास्तव में सुरक्षित है। हम इसका उपयोग करके ऐसा कर सकते हैं `getProtectionManager().isWriteProtected()` तरीका।
 
 ```java
 try {
-    //जाँच करना कि प्रस्तुति लेखन-संरक्षित है या नहीं
+    // जाँच करना कि प्रस्तुति लेखन-संरक्षित है या नहीं
     if (presentation.getProtectionManager().isWriteProtected())
         // लेखन सुरक्षा हटाना
         presentation.getProtectionManager().removeWriteProtection();
@@ -76,7 +78,7 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "RemoveWriteProtection.pptx");
 try
 {
-	//जाँच करना कि प्रस्तुति लेखन-संरक्षित है या नहीं
+	// जाँच करना कि प्रस्तुति लेखन-संरक्षित है या नहीं
 	if (presentation.getProtectionManager().isWriteProtected())
 		// लेखन सुरक्षा हटाना
 		presentation.getProtectionManager().removeWriteProtection();
@@ -97,7 +99,7 @@ finally
 
 ### मैं कैसे जांच सकता हूं कि कोई पावरपॉइंट प्रस्तुति लेखन-संरक्षित है या नहीं?
 
- आप यह जाँच सकते हैं कि कोई प्रस्तुति लेखन-संरक्षित है या नहीं, इसके लिए आप निम्न का उपयोग कर सकते हैं:`getProtectionManager().isWriteProtected()` Aspose.Slides लाइब्रेरी द्वारा प्रदान की गई विधि।
+आप यह जाँच सकते हैं कि कोई प्रस्तुति लेखन-संरक्षित है या नहीं, इसके लिए आप निम्न का उपयोग कर सकते हैं: `getProtectionManager().isWriteProtected()` Aspose.Slides लाइब्रेरी द्वारा प्रदान की गई विधि।
 
 ### क्या पासवर्ड-संरक्षित प्रस्तुति से लेखन सुरक्षा हटाना संभव है?
 
@@ -113,10 +115,12 @@ finally
 
 ### मैं Aspose.Slides for Java के बारे में अधिक जानकारी कहां पा सकता हूं?
 
- आप Aspose.Slides for Java के लिए दस्तावेज़ देख सकते हैं[यहाँ](https://reference.aspose.com/slides/java/).
+आप Aspose.Slides for Java के लिए दस्तावेज़ देख सकते हैं [यहाँ](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

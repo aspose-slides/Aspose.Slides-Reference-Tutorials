@@ -1,34 +1,36 @@
 ---
-title: Állítsa be a külső munkafüzetet a diagramadatok frissítésével a Java Slides-ben
-linktitle: Állítsa be a külső munkafüzetet a diagramadatok frissítésével a Java Slides-ben
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan állíthat be külső munkafüzeteket és frissítheti a diagramadatokat a Java Slides alkalmazásban az Aspose.Slides for Java segítségével. Fejlessze PowerPoint automatizálási készségeit.
-weight: 20
-url: /hu/java/data-manipulation/set-external-workbook-update-chart-data-java-slides/
+"description": "Tanuld meg, hogyan állíthatsz be külső munkafüzeteket és frissítheted a diagramadatokat Java Slides-ben az Aspose.Slides for Java használatával. Fejleszd PowerPoint automatizálási készségeidet."
+"linktitle": "Külső munkafüzet beállítása a diagramadatok frissítésével Java diákban"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Külső munkafüzet beállítása a diagramadatok frissítésével Java diákban"
+"url": "/hu/java/data-manipulation/set-external-workbook-update-chart-data-java-slides/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Állítsa be a külső munkafüzetet a diagramadatok frissítésével a Java Slides-ben
+# Külső munkafüzet beállítása a diagramadatok frissítésével Java diákban
 
 
-## Bevezetés a külső munkafüzet beállításához a diagramadatok frissítésével a Java Slides-ben
+## Bevezetés a külső munkafüzet beállításához a diagramadatok frissítésével Java Slides-ben
 
-Ebben az átfogó útmutatóban végigvezetjük egy külső munkafüzet beállításának folyamatán, frissített diagramadatokkal a Java Slides alkalmazásban az Aspose.Slides for Java API használatával. Ez a nagy teljesítményű könyvtár lehetővé teszi a PowerPoint prezentációk programozott kezelését, megkönnyítve az olyan feladatok automatizálását, mint például a diagramadatok külső forrásból történő frissítése. Ennek az oktatóanyagnak a végére világosan megérti, hogyan lehet ezt a feladatot lépésről lépésre lépésről lépésre végrehajtani, és a kísérő Java-kódot tartalmazza.
+Ebben az átfogó útmutatóban végigvezetünk egy külső munkafüzet beállításának folyamatán, amely frissített diagramadatokat tartalmaz Java Slides-ban az Aspose.Slides for Java API használatával. Ez a hatékony könyvtár lehetővé teszi a PowerPoint-bemutatók programozott kezelését, megkönnyítve az olyan feladatok automatizálását, mint például a diagramadatok frissítése külső forrásból. A bemutató végére világosan megérted majd, hogyan valósíthatod meg ezt a feladatot lépésről lépésre bemutatott utasítások és a hozzá tartozó Java-kód segítségével.
 
 ## Előfeltételek
 
-Mielőtt belevágnánk a megvalósításba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+Mielőtt belevágnánk a megvalósításba, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
 
-1.  Aspose.Slides for Java: telepítenie kell az Aspose.Slides for Java könyvtárat. Letöltheti innen[itt](https://releases.aspose.com/slides/java/).
+1. Aspose.Slides Java-hoz: Telepíteni kell az Aspose.Slides Java-hoz könyvtárat. Letöltheti innen: [itt](https://releases.aspose.com/slides/java/).
 
-2. Java fejlesztői környezet: Győződjön meg arról, hogy a rendszeren be van állítva Java fejlesztői környezet.
+2. Java fejlesztői környezet: Győződjön meg arról, hogy van Java fejlesztői környezet beállítva a rendszerén.
 
-## 1. lépés: Hozzon létre egy új prezentációt
+## 1. lépés: Új prezentáció létrehozása
 
-A kezdéshez hozzunk létre egy új PowerPoint-prezentációt az Aspose.Slides for Java segítségével. Íme a Java kód ehhez:
+Kezdésként hozzunk létre egy új PowerPoint bemutatót az Aspose.Slides for Java használatával. Íme a Java kód ehhez:
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
@@ -36,24 +38,24 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 ```
 
-## 2. lépés: Adjon hozzá egy diagramot
+## 2. lépés: Diagram hozzáadása
 
-Most pedig adjunk hozzá egy diagramot bemutatónkhoz. Ebben a példában kördiagramot hozunk létre:
+Most adjunk hozzá egy diagramot a prezentációnkhoz. Ebben a példában egy kördiagramot fogunk létrehozni:
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 400, 600, true);
 ```
 
-## 3. lépés: Állítsa be a külső munkafüzetet
+## 3. lépés: Külső munkafüzet beállítása
 
-Itt állítjuk be a külső munkafüzetet diagramunk adatforrásaként. Meg kell adnia a külső munkafüzet URL-címét, még akkor is, ha jelenleg nem létezik:
+Itt állítjuk be a külső munkafüzetet a diagram adatforrásaként. Meg kell adnia a külső munkafüzet URL-címét, még akkor is, ha az jelenleg nem létezik:
 
 ```java
 IChartData chartData = chart.getChartData();
-chartData.setExternalWorkbook("http://útvonal/nincs/létezik", false);
+chartData.setExternalWorkbook("http://"path/does/létezik", "false");
 ```
 
-## 4. lépés: Mentse el a bemutatót
+## 4. lépés: Mentse el a prezentációt
 
 Végül mentse el a prezentációt a frissített diagramadatokkal:
 
@@ -61,7 +63,7 @@ Végül mentse el a prezentációt a frissített diagramadatokkal:
 pres.save(dataDir + "SetExternalWorkbookWithUpdateChartData.pptx", SaveFormat.Pptx);
 ```
 
-## Teljes forráskód a külső munkafüzethez a Java Slides diagramadatok frissítésével
+## Teljes forráskód a külső munkafüzet beállításához a diagramadatok frissítésével Java diákban
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
@@ -71,7 +73,7 @@ try
 {
 	IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 400, 600, true);
 	IChartData chartData = chart.getChartData();
-	chartData.setExternalWorkbook("http://útvonal/nincs/létezik", false);
+	chartData.setExternalWorkbook("http://"path/does/létezik", "false");
 	pres.save(dataDir + "SetExternalWorkbookWithUpdateChartData.pptx", SaveFormat.Pptx);
 }
 finally
@@ -82,32 +84,34 @@ finally
 
 ## Következtetés
 
-Gratulálunk! Megtanulta, hogyan állíthat be külső munkafüzetet frissített diagramadatokkal a Java Slides alkalmazásban az Aspose.Slides for Java segítségével. Ez hihetetlenül hasznos lehet a PowerPoint-prezentációk külső adatforrásokból származó diagramjainak dinamikus frissítéséhez.
+Gratulálunk! Megtanultad, hogyan állíthatsz be egy külső munkafüzetet frissített diagramadatokkal Java Slidesben az Aspose.Slides for Java használatával. Ez hihetetlenül hasznos lehet a PowerPoint-bemutatóidban található diagramok külső adatforrásokból történő dinamikus frissítéséhez.
 
 ## GYIK
 
-### Hogyan frissíthetem a diagram külső munkafüzet adatait?
+### Hogyan frissíthetem a diagram külső munkafüzet-adatait?
 
-A diagram külső munkafüzet-adatainak frissítéséhez egyszerűen módosítania kell a külső munkafüzet adatait a megadott URL-címen. A prezentáció következő megnyitásakor az Aspose.Slides for Java lekéri a frissített adatokat a külső munkafüzetből, és ennek megfelelően frissíti a diagramot.
+A diagram külső munkafüzet-adatainak frissítéséhez egyszerűen módosítania kell a megadott URL-címen található külső munkafüzet adatait. A prezentáció következő megnyitásakor az Aspose.Slides for Java lekéri a frissített adatokat a külső munkafüzetből, és ennek megfelelően frissíti a diagramot.
 
-### Használhatok helyi fájlt külső munkafüzetként?
+### Használhatok egy helyi fájlt külső munkafüzetként?
 
-Igen, használhat helyi fájlt külső munkafüzetként, ha URL helyett a fájl elérési útját adja meg. Csak győződjön meg arról, hogy a fájl elérési útja helyes, és elérhető-e a Java alkalmazásból.
+Igen, használhatsz helyi fájlt külső munkafüzetként, ha URL helyett a fájl elérési útját adod meg. Csak győződj meg róla, hogy a fájl elérési útja helyes és elérhető a Java-alkalmazásodból.
 
-### Vannak-e korlátozások a külső munkafüzetek Aspose.Slides for Java alkalmazással való használatára?
+### Vannak-e korlátozások a külső munkafüzetek Aspose.Slides for Java használatával történő használatára vonatkozóan?
 
-Bár a külső munkafüzetek használata hatékony szolgáltatás, ne feledje, hogy a külső munkafüzet adatainak elérhetősége attól függ, hogy a megadott URL-en vagy fájlútvonalon elérhető-e. Győződjön meg arról, hogy a külső adatforrás elérhető a bemutató megnyitásakor, hogy elkerülje az adatlekérési problémákat.
+Bár a külső munkafüzetek használata hatékony funkció, ne feledje, hogy a külső munkafüzet adatainak elérhetősége a megadott URL-címen vagy fájlelérési úton való elérhetőségüktől függ. Az adatlekérési problémák elkerülése érdekében győződjön meg arról, hogy a külső adatforrás elérhető a bemutató megnyitásakor.
 
 ### Testreszabhatom a diagram megjelenését a külső munkafüzet beállítása után?
 
-Igen, testreszabhatja a diagram megjelenését, beleértve a címét, a címkéket, a színeket és egyebeket, még a külső munkafüzet beállítása után is. Az Aspose.Slides for Java kiterjedt diagramformázási lehetőségeket kínál az Ön igényeinek megfelelően.
+Igen, testreszabhatja a diagram megjelenését, beleértve a címét, címkéit, színeit és egyebeket, még a külső munkafüzet beállítása után is. Az Aspose.Slides for Java kiterjedt diagramformázási lehetőségeket kínál az Ön igényeinek kielégítésére.
 
 ### Hol találok további dokumentációt és forrásokat az Aspose.Slides for Java-hoz?
 
- Részletes dokumentációért és további forrásokért keresse fel az Aspose.Slides for Java dokumentációt a címen[itt](https://reference.aspose.com/slides/java/).
+Részletes dokumentációért és további forrásokért látogassa meg az Aspose.Slides Java-hoz készült dokumentációját a következő címen: [itt](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

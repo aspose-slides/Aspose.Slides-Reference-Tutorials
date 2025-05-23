@@ -1,43 +1,45 @@
 ---
-title: Calcola formule nelle diapositive Java
-linktitle: Calcola formule nelle diapositive Java
-second_title: Aspose.Slides API di elaborazione Java PowerPoint
-description: Scopri come calcolare le formule in Diapositive Java utilizzando Aspose.Slides per Java. Guida passo passo con codice sorgente per presentazioni PowerPoint dinamiche.
-weight: 10
-url: /it/java/data-manipulation/calculate-formulas-java-slides/
+"description": "Scopri come calcolare le formule in Java Slides utilizzando Aspose.Slides per Java. Guida passo passo con codice sorgente per presentazioni PowerPoint dinamiche."
+"linktitle": "Calcola le formule in Java Slides"
+"second_title": "API di elaborazione Java PowerPoint di Aspose.Slides"
+"title": "Calcola le formule in Java Slides"
+"url": "/it/java/data-manipulation/calculate-formulas-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Calcola formule nelle diapositive Java
+# Calcola le formule in Java Slides
 
 
-## Introduzione al calcolo delle formule nelle diapositive Java utilizzando Aspose.Slides
+## Introduzione al calcolo delle formule in Java Slides utilizzando Aspose.Slides
 
-In questa guida, dimostreremo come calcolare le formule in Java Slides utilizzando l'API Aspose.Slides per Java. Aspose.Slides è una potente libreria per lavorare con presentazioni PowerPoint e fornisce funzionalità per manipolare grafici ed eseguire calcoli di formule all'interno delle diapositive.
+In questa guida, mostreremo come calcolare le formule in Java Slides utilizzando l'API Aspose.Slides per Java. Aspose.Slides è una potente libreria per lavorare con le presentazioni PowerPoint e offre funzionalità per manipolare grafici ed eseguire calcoli di formule all'interno delle diapositive.
 
 ## Prerequisiti
 
 Prima di iniziare, assicurati di avere quanto segue:
 
 - Ambiente di sviluppo Java
--  Aspose.Slides per la libreria Java (puoi scaricarla da[Qui](https://releases.aspose.com/slides/java/)
-- Conoscenza base della programmazione Java
+- Libreria Aspose.Slides per Java (puoi scaricarla da [Qui](https://releases.aspose.com/slides/java/)
+- Conoscenza di base della programmazione Java
 
-## Passaggio 1: crea una nuova presentazione
+## Passaggio 1: creare una nuova presentazione
 
-Innanzitutto, creiamo una nuova presentazione PowerPoint e aggiungiamovi una diapositiva. In questo esempio lavoreremo con una singola diapositiva.
+Per prima cosa, creiamo una nuova presentazione PowerPoint e aggiungiamo una diapositiva. In questo esempio, lavoreremo con una singola diapositiva.
 
 ```java
 String resultPath = "Your Output Directory" + "CalculateFormulas_out.pptx";
 Presentation presentation = new Presentation();
 ```
 
-## Passaggio 2: aggiungi un grafico alla diapositiva
+## Passaggio 2: aggiungere un grafico alla diapositiva
 
-Ora aggiungiamo un istogramma in cluster alla diapositiva. Utilizzeremo questo grafico per dimostrare i calcoli delle formule.
+Ora aggiungiamo un grafico a colonne raggruppate alla diapositiva. Useremo questo grafico per illustrare i calcoli delle formule.
 
 ```java
 IChart s_chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);
@@ -45,7 +47,7 @@ IChart s_chart = presentation.getSlides().get_Item(0).getShapes().addChart(Chart
 
 ## Passaggio 3: impostare formule e valori
 
-Successivamente, imposteremo formule e valori per le celle di dati del grafico utilizzando l'API Aspose.Slides. Calcoleremo le formule per queste celle.
+Successivamente, imposteremo formule e valori per le celle dei dati del grafico utilizzando l'API Aspose.Slides. Calcoleremo le formule per queste celle.
 
 ```java
 IChartDataWorkbook workbook = s_chart.getChartData().getChartDataWorkbook();
@@ -79,7 +81,7 @@ Infine, salviamo la presentazione modificata con le formule calcolate.
 presentation.save(resultPath, SaveFormat.Pptx);
 ```
 
-## Codice sorgente completo per calcolare le formule nelle diapositive Java
+## Codice sorgente completo per calcolare le formule in Java Slides
 
 ```java
 String resultPath = "Your Output Directory" + "CalculateFormulas_out.pptx";
@@ -105,25 +107,27 @@ try {
 
 ## Conclusione
 
-In questa guida, abbiamo imparato come calcolare le formule in Java Slides utilizzando Aspose.Slides per Java. Abbiamo creato una nuova presentazione, aggiunto un grafico, impostato formule e valori per le celle di dati del grafico e salvato la presentazione con le formule calcolate.
+In questa guida abbiamo imparato a calcolare le formule in Java Slides utilizzando Aspose.Slides per Java. Abbiamo creato una nuova presentazione, vi abbiamo aggiunto un grafico, abbiamo impostato formule e valori per le celle dei dati del grafico e abbiamo salvato la presentazione con le formule calcolate.
 
 ## Domande frequenti
 
-### Come posso impostare le formule per le celle di dati del grafico?
+### Come posso impostare le formule per le celle dei dati del grafico?
 
- Puoi impostare le formule per le celle di dati del grafico utilizzando`setFormula` metodo di`IChartDataCell` in Aspose.Slides.
+È possibile impostare le formule per le celle dei dati del grafico utilizzando `setFormula` metodo di `IChartDataCell` in Aspose.Slides.
 
 ### Come posso impostare i valori per le celle dei dati del grafico?
 
- È possibile impostare i valori per le celle di dati del grafico utilizzando il comando`setValue` metodo di`IChartDataCell` in Aspose.Slides.
+È possibile impostare i valori per le celle dei dati del grafico utilizzando `setValue` metodo di `IChartDataCell` in Aspose.Slides.
 
-### Come si calcolano le formule in una cartella di lavoro?
+### Come calcolo le formule in una cartella di lavoro?
 
- È possibile calcolare le formule in una cartella di lavoro utilizzando il file`calculateFormulas` metodo di`IChartDataWorkbook` in Aspose.Slides.
+È possibile calcolare le formule in una cartella di lavoro utilizzando `calculateFormulas` metodo di `IChartDataWorkbook` in Aspose.Slides.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

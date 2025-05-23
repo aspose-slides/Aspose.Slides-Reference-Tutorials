@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में लेजेंड कस्टम विकल्प सेट करें
-linktitle: जावा स्लाइड्स में लेजेंड कस्टम विकल्प सेट करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके Java स्लाइड में कस्टम लेजेंड विकल्प सेट करना सीखें। अपने PowerPoint चार्ट में लेजेंड की स्थिति और आकार को कस्टमाइज़ करें।
-weight: 14
-url: /hi/java/customization-and-formatting/set-legend-custom-options-java-slides/
+"description": "Aspose.Slides for Java का उपयोग करके Java स्लाइड में कस्टम लेजेंड विकल्प सेट करना सीखें। अपने PowerPoint चार्ट में लेजेंड की स्थिति और आकार को कस्टमाइज़ करें।"
+"linktitle": "जावा स्लाइड्स में लेजेंड कस्टम विकल्प सेट करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में लेजेंड कस्टम विकल्प सेट करें"
+"url": "/hi/java/customization-and-formatting/set-legend-custom-options-java-slides/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में लेजेंड कस्टम विकल्प सेट करें
@@ -38,7 +40,7 @@ import com.aspose.slides.*;
 String dataDir = "Your Document Directory";
 ```
 
-##  चरण 3: इसका एक उदाहरण बनाएँ`Presentation` class:
+## चरण 3: इसका एक उदाहरण बनाएँ `Presentation` कक्षा:
 
 ```java
 Presentation presentation = new Presentation();
@@ -77,7 +79,7 @@ chart.getLegend().setY(50 / chart.getHeight());
 chart.getLegend().setWidth(100 / chart.getWidth());
 ```
 
-- लेजेंड की ऊंचाई सेट करें (चार्ट ऊंचाई के सापेक्ष):
+- लेजेंड की ऊंचाई निर्धारित करें (चार्ट ऊंचाई के सापेक्ष):
 
 ```java
 chart.getLegend().setHeight(100 / chart.getHeight());
@@ -128,18 +130,20 @@ finally
 
 ## मैं किंवदंती की स्थिति कैसे बदल सकता हूँ?
 
- किंवदंती की स्थिति बदलने के लिए, का उपयोग करें`setX` और`setY` लीजेंड ऑब्जेक्ट की विधियाँ। मान चार्ट की चौड़ाई और ऊँचाई के सापेक्ष निर्दिष्ट किए जाते हैं।
+किंवदंती की स्थिति बदलने के लिए, का उपयोग करें `setX` और `setY` लीजेंड ऑब्जेक्ट की विधियाँ। मान चार्ट की चौड़ाई और ऊँचाई के सापेक्ष निर्दिष्ट किए जाते हैं।
 
 ## मैं किंवदंती का आकार कैसे समायोजित कर सकता हूं?
 
- आप लेजेंड के आकार को निम्न प्रकार से समायोजित कर सकते हैं:`setWidth` और`setHeight` लीजेंड ऑब्जेक्ट की विधियाँ। ये मान चार्ट की चौड़ाई और ऊँचाई से भी संबंधित हैं।
+आप लेजेंड के आकार को निम्न प्रकार से समायोजित कर सकते हैं: `setWidth` और `setHeight` लीजेंड ऑब्जेक्ट की विधियाँ। ये मान चार्ट की चौड़ाई और ऊँचाई से भी संबंधित हैं।
 
 ## क्या मैं अन्य किंवदंती विशेषताओं को अनुकूलित कर सकता हूं?
 
 हां, आप लीजेंड की विभिन्न विशेषताओं को अनुकूलित कर सकते हैं, जैसे कि फ़ॉन्ट शैली, बॉर्डर, पृष्ठभूमि रंग, और बहुत कुछ। लीजेंड को और अधिक अनुकूलित करने के बारे में विस्तृत जानकारी के लिए Aspose.Slides दस्तावेज़ देखें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

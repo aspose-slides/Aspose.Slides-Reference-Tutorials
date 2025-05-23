@@ -1,14 +1,16 @@
 ---
-title: जावा का उपयोग करके स्मार्टआर्ट की छिपी हुई संपत्ति की जाँच करें
-linktitle: जावा का उपयोग करके स्मार्टआर्ट की छिपी हुई संपत्ति की जाँच करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: जानें कि Aspose.Slides for Java का उपयोग करके PowerPoint में SmartArt की छिपी हुई संपत्ति की जांच कैसे करें, जिससे प्रस्तुति में हेरफेर में वृद्धि हो।
-weight: 24
-url: /hi/java/java-powerpoint-smartart-manipulation/check-smartart-hidden-property-java/
+"description": "जानें कि Aspose.Slides for Java का उपयोग करके PowerPoint में SmartArt की छिपी हुई संपत्ति की जांच कैसे करें, जिससे प्रस्तुति में हेरफेर में वृद्धि हो।"
+"linktitle": "जावा का उपयोग करके स्मार्टआर्ट की छिपी हुई संपत्ति की जाँच करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा का उपयोग करके स्मार्टआर्ट की छिपी हुई संपत्ति की जाँच करें"
+"url": "/hi/java/java-powerpoint-smartart-manipulation/check-smartart-hidden-property-java/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा का उपयोग करके स्मार्टआर्ट की छिपी हुई संपत्ति की जाँच करें
@@ -21,7 +23,7 @@ url: /hi/java/java-powerpoint-smartart-manipulation/check-smartart-hidden-proper
 चरण 1: JDK डाउनलोड करें: अपने ऑपरेटिंग सिस्टम के साथ संगत JDK का नवीनतम संस्करण डाउनलोड करने के लिए Oracle वेबसाइट या अपने पसंदीदा JDK वितरक पर जाएं।
 चरण 2: JDK स्थापित करें: अपने ऑपरेटिंग सिस्टम के लिए JDK वितरक द्वारा दिए गए स्थापना निर्देशों का पालन करें।
 ### Aspose.Slides for Java स्थापना
-चरण 1: Java के लिए Aspose.Slides डाउनलोड करें: दस्तावेज़ में दिए गए डाउनलोड लिंक पर जाएँ (https://releases.aspose.com/slides/java/) पर क्लिक करें और Aspose.Slides for Java लाइब्रेरी डाउनलोड करें।
+चरण 1: Java के लिए Aspose.Slides डाउनलोड करें: Java लाइब्रेरी के लिए Aspose.Slides डाउनलोड करने के लिए दस्तावेज़ (https://releases.aspose.com/slides/java/) में दिए गए डाउनलोड लिंक पर जाएँ।
 चरण 2: अपने प्रोजेक्ट में Aspose.Slides जोड़ें: डाउनलोड की गई JAR फ़ाइल को अपने प्रोजेक्ट के बिल्ड पथ में जोड़कर अपने Java प्रोजेक्ट में Aspose.Slides for Java लाइब्रेरी को शामिल करें।
 ### एकीकृत विकास वातावरण (आईडीई)
 चरण 1: एक IDE चुनें: एक जावा एकीकृत विकास वातावरण (IDE) चुनें, जैसे कि एक्लिप्स, इंटेलीज आईडिया, या नेटबीन्स।
@@ -39,7 +41,7 @@ String dataDir = "Your Document Directory";
 ```java
 Presentation presentation = new Presentation();
 ```
-यहाँ, हम एक नया उदाहरण बनाते हैं`Presentation` क्लास, जो एक पावरपॉइंट प्रस्तुति का प्रतिनिधित्व करता है।
+यहाँ, हम एक नया उदाहरण बनाते हैं `Presentation` क्लास, जो एक पावरपॉइंट प्रस्तुति का प्रतिनिधित्व करता है।
 ## चरण 3: स्लाइड में स्मार्टआर्ट जोड़ें
 ```java
 ISmartArt smart = presentation.getSlides().get_Item(0).getShapes().addSmartArt(10, 10, 400, 300, SmartArtLayoutType.RadialCycle);
@@ -52,7 +54,7 @@ ISmartArtNode node = smart.getAllNodes().addNode();
 पिछले चरण में बनाए गए स्मार्टआर्ट आकार में एक नया नोड जोड़ा जाता है।
 ## चरण 5: छिपी हुई संपत्ति की जाँच करें
 ```java
-boolean hidden = node.isHidden(); //सत्य लौटाता है
+boolean hidden = node.isHidden(); // सत्य लौटाता है
 ```
 यह चरण जाँचता है कि स्मार्टआर्ट नोड का छुपा हुआ गुण सत्य है या असत्य।
 ## चरण 6: छिपी हुई संपत्ति के आधार पर कार्रवाई करें
@@ -62,7 +64,7 @@ if (hidden)
     // कुछ कार्य करें या सूचनाएँ दें
 }
 ```
-यदि छुपा हुआ गुण सत्य है, तो आवश्यकतानुसार विशिष्ट क्रियाएं या अधिसूचनाएं निष्पादित करें।
+यदि छुपा हुआ गुण सत्य है, तो आवश्यकतानुसार विशिष्ट क्रियाएं या सूचनाएं निष्पादित करें।
 ## चरण 7: प्रस्तुति सहेजें
 ```java
 presentation.save(dataDir + "CheckSmartArtHiddenProperty_out.pptx", SaveFormat.Pptx);
@@ -75,16 +77,18 @@ presentation.save(dataDir + "CheckSmartArtHiddenProperty_out.pptx", SaveFormat.P
 ### क्या मैं अन्य Java लाइब्रेरीज़ के साथ Aspose.Slides for Java का उपयोग कर सकता हूँ?
 हां, कार्यक्षमता बढ़ाने के लिए Aspose.Slides for Java को अन्य Java लाइब्रेरीज़ के साथ सहजता से एकीकृत किया जा सकता है।
 ### क्या Aspose.Slides for Java विभिन्न ऑपरेटिंग सिस्टम के साथ संगत है?
-हां, Aspose.Slides for Java विभिन्न ऑपरेटिंग सिस्टम के साथ संगत है, जिसमें विंडोज, मैकओएस और लिनक्स शामिल हैं।
+हां, Aspose.Slides for Java विंडोज, macOS और Linux सहित विभिन्न ऑपरेटिंग सिस्टम के साथ संगत है।
 ### क्या मैं Aspose.Slides for Java का उपयोग करके मौजूदा PowerPoint प्रस्तुतियों को संशोधित कर सकता हूँ?
 बिल्कुल! Aspose.Slides for Java मौजूदा प्रस्तुतियों को संशोधित करने के लिए व्यापक क्षमताएं प्रदान करता है, जिसमें स्लाइड और आकृतियों को जोड़ना, हटाना या संपादित करना शामिल है।
 ### क्या Aspose.Slides for Java नवीनतम PowerPoint फ़ाइल स्वरूपों का समर्थन करता है?
-हां, Java के लिए Aspose.Slides PPT, PPTX, POT, POTX, PPS, आदि सहित PowerPoint फ़ाइल स्वरूपों की एक विस्तृत श्रृंखला का समर्थन करता है।
+हां, Aspose.Slides for Java पावरपॉइंट फ़ाइल स्वरूपों की एक विस्तृत श्रृंखला का समर्थन करता है, जिसमें PPT, PPTX, POT, POTX, PPS, आदि शामिल हैं।
 ### क्या कोई समुदाय या मंच है जहां मैं Aspose.Slides for Java के लिए सहायता प्राप्त कर सकता हूं?
-हां, आप Aspose.Slides फोरम पर जा सकते हैं (https://forum.aspose.com/c/slides/11) प्रश्न पूछने, विचार साझा करने और समुदाय से समर्थन प्राप्त करने के लिए।
+हां, आप प्रश्न पूछने, विचार साझा करने और समुदाय से समर्थन प्राप्त करने के लिए Aspose.Slides फ़ोरम (https://forum.aspose.com/c/slides/11) पर जा सकते हैं।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

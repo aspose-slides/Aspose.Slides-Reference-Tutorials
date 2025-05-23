@@ -1,31 +1,33 @@
 ---
-title: Conversión de presentaciones a HTML conservando fuentes originales en diapositivas Java
-linktitle: Conversión de presentaciones a HTML conservando fuentes originales en diapositivas Java
-second_title: Aspose.Slides API de procesamiento de PowerPoint Java
-description: Convierta presentaciones de PowerPoint a HTML conservando las fuentes originales utilizando Aspose.Slides para Java.
-weight: 14
-url: /es/java/presentation-conversion/convert-presentation-html-preserve-fonts-java-slides/
+"description": "Convierta presentaciones de PowerPoint a HTML conservando las fuentes originales utilizando Aspose.Slides para Java."
+"linktitle": "Convertir una presentación a HTML conservando las fuentes originales en Java Slides"
+"second_title": "API de procesamiento de PowerPoint en Java de Aspose.Slides"
+"title": "Convertir una presentación a HTML conservando las fuentes originales en Java Slides"
+"url": "/es/java/presentation-conversion/convert-presentation-html-preserve-fonts-java-slides/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Conversión de presentaciones a HTML conservando fuentes originales en diapositivas Java
+# Convertir una presentación a HTML conservando las fuentes originales en Java Slides
 
 
-## Introducción a la conversión de presentaciones a HTML conservando las fuentes originales en diapositivas Java
+## Introducción a la conversión de presentaciones a HTML con conservación de fuentes originales en diapositivas de Java
 
-En este tutorial, exploraremos cómo convertir una presentación de PowerPoint (PPTX) a HTML conservando las fuentes originales usando Aspose.Slides para Java. Esto asegurará que el HTML resultante se parezca mucho a la apariencia de la presentación original.
+En este tutorial, exploraremos cómo convertir una presentación de PowerPoint (PPTX) a HTML conservando las fuentes originales mediante Aspose.Slides para Java. Esto garantizará que el HTML resultante se asemeje lo más posible a la presentación original.
 
-## Paso 1: configurar el proyecto
-Antes de profundizar en el código, asegurémonos de tener la configuración necesaria:
+## Paso 1: Configuración del proyecto
+Antes de sumergirnos en el código, asegurémonos de que tienes la configuración necesaria:
 
 1. Descargue Aspose.Slides para Java: si aún no lo ha hecho, descargue e incluya la biblioteca Aspose.Slides para Java en su proyecto.
 
 2. Cree un proyecto Java: configure un proyecto Java en su IDE favorito y asegúrese de tener una carpeta "lib" donde pueda colocar el archivo JAR Aspose.Slides.
 
-3. Importe las clases necesarias: importe las clases necesarias al principio de su archivo Java:
+3. Importar clases requeridas: importe las clases necesarias al comienzo de su archivo Java:
 
 ```java
 import com.aspose.slides.EmbedAllFontsHtmlController;
@@ -35,9 +37,9 @@ import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 ```
 
-## Paso 2: convertir una presentación a HTML con fuentes originales
+## Paso 2: Convertir la presentación a HTML con fuentes originales
 
-Ahora, conviertamos una presentación de PowerPoint a HTML conservando las fuentes originales:
+Ahora, convirtamos una presentación de PowerPoint a HTML conservando las fuentes originales:
 
 ```java
 // La ruta al directorio de documentos.
@@ -55,27 +57,27 @@ try {
     HtmlOptions htmlOptionsEmbed = new HtmlOptions();
     htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(embedFontsController));
     
-    // Guarde la presentación como HTML
+    // Guardar la presentación como HTML
     pres.save("output.html", SaveFormat.Html, htmlOptionsEmbed);
 } finally {
-    // Desechar el objeto de presentación.
+    // Desechar el objeto de presentación
     if (pres != null) pres.dispose();
 }
 ```
 
 En este fragmento de código:
 
--  Cargamos la presentación de PowerPoint de entrada usando`Presentation`.
+- Cargamos la presentación de PowerPoint de entrada usando `Presentation`.
 
-- Definimos una lista de fuentes (`fontNameExcludeList`que queremos excluir de la incrustación en el HTML. Esto es útil para excluir fuentes comunes como Calibri y Arial para reducir el tamaño del archivo.
+- Definimos una lista de fuentes (`fontNameExcludeList`) que queremos excluir de la incrustación en el HTML. Esto es útil para excluir fuentes comunes como Calibri y Arial y así reducir el tamaño del archivo.
 
--  Creamos una instancia de`EmbedAllFontsHtmlController` y pásele la lista de exclusión de fuentes.
+- Creamos una instancia de `EmbedAllFontsHtmlController` y pasarle la lista de exclusión de fuentes.
 
--  Nosotros creamos`HtmlOptions` y configurar un formateador HTML personalizado usando`HtmlFormatter.createCustomFormatter(embedFontsController)`.
+- Nosotros creamos `HtmlOptions` y configure un formateador HTML personalizado usando `HtmlFormatter.createCustomFormatter(embedFontsController)`.
 
-- Finalmente guardamos la presentación como HTML con las opciones especificadas.
+- Finalmente, guardamos la presentación como HTML con las opciones especificadas.
 
-## Código fuente completo para convertir presentaciones a HTML conservando las fuentes originales en diapositivas Java
+## Código fuente completo para convertir presentaciones a HTML conservando las fuentes originales en diapositivas de Java
 
 ```java
 // La ruta al directorio de documentos.
@@ -98,28 +100,30 @@ finally
 
 ## Conclusión
 
-En este tutorial, aprendió cómo convertir una presentación de PowerPoint a HTML conservando las fuentes originales usando Aspose.Slides para Java. Esto es útil cuando desea mantener la fidelidad visual de sus presentaciones al compartirlas en la web.
+En este tutorial, aprendiste a convertir una presentación de PowerPoint a HTML conservando las fuentes originales con Aspose.Slides para Java. Esto resulta útil si quieres mantener la fidelidad visual de tus presentaciones al compartirlas en la web.
 
 ## Preguntas frecuentes
 
 ### ¿Cómo descargo Aspose.Slides para Java?
 
- Puede descargar Aspose.Slides para Java desde el sitio web de Aspose. Visita[aquí](https://downloads.aspose.com/slides/java/) para obtener la última versión.
+Puede descargar Aspose.Slides para Java desde el sitio web de Aspose. Visite [aquí](https://downloads.aspose.com/slides/java/) para obtener la última versión.
 
 ### ¿Puedo personalizar la lista de fuentes excluidas?
 
- Sí, puedes personalizar el`fontNameExcludeList` matriz para incluir o excluir fuentes específicas según sus requisitos.
+Sí, puedes personalizar el `fontNameExcludeList` matriz para incluir o excluir fuentes específicas según sus requisitos.
 
 ### ¿Este método funciona para formatos de PowerPoint más antiguos como PPT?
 
-Este ejemplo de código está diseñado para archivos PPTX. Si necesita convertir archivos PPT más antiguos, es posible que deba realizar ajustes en el código.
+Este ejemplo de código está diseñado para archivos PPTX. Si necesita convertir archivos PPT antiguos, es posible que deba realizar ajustes en el código.
 
 ### ¿Cómo puedo personalizar aún más la salida HTML?
 
- Puedes explorar el`HtmlOptions` clase para personalizar varios aspectos de la salida HTML, como el tamaño de la diapositiva, la calidad de la imagen y más.
+Puedes explorar el `HtmlOptions` Clase para personalizar varios aspectos de la salida HTML, como el tamaño de la diapositiva, la calidad de la imagen y más.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

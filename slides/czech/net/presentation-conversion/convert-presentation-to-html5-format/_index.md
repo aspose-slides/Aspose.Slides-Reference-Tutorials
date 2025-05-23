@@ -1,30 +1,32 @@
 ---
-title: Převést prezentaci do formátu HTML5
-linktitle: Převést prezentaci do formátu HTML5
-second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Naučte se převádět prezentace PowerPoint do formátu HTML5 pomocí Aspose.Slides for .NET. Snadná a efektivní konverze pro sdílení na webu.
-weight: 22
-url: /cs/net/presentation-conversion/convert-presentation-to-html5-format/
+"description": "Naučte se, jak převést prezentace v PowerPointu do formátu HTML5 pomocí Aspose.Slides pro .NET. Snadná a efektivní konverze pro sdílení na webu."
+"linktitle": "Převod prezentace do formátu HTML5"
+"second_title": "Rozhraní API pro zpracování PowerPointu v .NET od Aspose.Slides"
+"title": "Převod prezentace do formátu HTML5"
+"url": "/cs/net/presentation-conversion/convert-presentation-to-html5-format/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Převést prezentaci do formátu HTML5
+# Převod prezentace do formátu HTML5
 
-## Převeďte prezentaci do formátu HTML5 pomocí Aspose.Slides for .NET
+## Převod prezentace do formátu HTML5 pomocí Aspose.Slides pro .NET
 
-V této příručce vás provedeme procesem převodu prezentace PowerPoint (PPT/PPTX) do formátu HTML5 pomocí knihovny Aspose.Slides for .NET. Aspose.Slides je výkonná knihovna, která vám umožňuje manipulovat a převádět PowerPointové prezentace v různých formátech.
+této příručce vás provedeme procesem převodu prezentace v PowerPointu (PPT/PPTX) do formátu HTML5 pomocí knihovny Aspose.Slides pro .NET. Aspose.Slides je výkonná knihovna, která umožňuje manipulovat s prezentacemi v PowerPointu a převádět je v různých formátech.
 
 ## Předpoklady
 
 Než začnete, ujistěte se, že máte následující:
 
 1. Visual Studio: V systému musíte mít nainstalované Visual Studio.
-2.  Aspose.Slides for .NET: Stáhněte si a nainstalujte knihovnu Aspose.Slides for .NET z[tady](https://downloads.aspose.com/slides/net).
+2. Aspose.Slides pro .NET: Stáhněte a nainstalujte knihovnu Aspose.Slides pro .NET z [zde](https://downloads.aspose.com/slides/net).
 
-## Konverzní kroky
+## Kroky konverze
 
 Chcete-li převést prezentaci do formátu HTML5, postupujte takto:
 
@@ -32,13 +34,13 @@ Chcete-li převést prezentaci do formátu HTML5, postupujte takto:
 
 Otevřete Visual Studio a vytvořte nový projekt.
 
-### Přidejte odkaz do Aspose.Slides
+### Přidat odkaz na Aspose.Slides
 
-Ve svém projektu klikněte pravým tlačítkem na "Reference" v Průzkumníku řešení a vyberte "Přidat odkaz." Procházejte a přidejte Aspose.Slides DLL, kterou jste si stáhli.
+Ve vašem projektu klikněte pravým tlačítkem myši na „Reference“ v Průzkumníku řešení a vyberte „Přidat referenci“. Vyhledejte a přidejte staženou knihovnu DLL Aspose.Slides.
 
-### Napište kód konverze
+### Napište konverzní kód
 
-V editoru kódu napište následující kód pro převod prezentace do formátu HTML5:
+editoru kódu napište následující kód pro převod prezentace do formátu HTML5:
 
 ```csharp
 using Aspose.Slides;
@@ -50,10 +52,10 @@ namespace PresentationToHTML5Converter
     {
         static void Main(string[] args)
         {
-            // Načtěte prezentaci
+            // Načíst prezentaci
             using (Presentation presentation = new Presentation("input.pptx"))
             {
-                // Definujte možnosti HTML5
+                // Definování možností HTML5
                 Html5Options options = new Html5Options();
 
                 // Uložit prezentaci jako HTML5
@@ -64,32 +66,34 @@ namespace PresentationToHTML5Converter
 }
 ```
 
- Nahradit`"input.pptx"` s cestou k vaší vstupní prezentaci a`"output.html"` s požadovanou cestou výstupního HTML souboru.
+Nahradit `"input.pptx"` s cestou k vaší vstupní prezentaci a `"output.html"` s požadovanou cestou k výstupnímu HTML souboru.
 
 ## Spusťte aplikaci
 
-Sestavte a spusťte svou aplikaci. Převede prezentaci do formátu HTML5 a uloží ji jako soubor HTML.
+Sestavte a spusťte aplikaci. Aplikace převede prezentaci do formátu HTML5 a uloží ji jako soubor HTML.
 
 ## Závěr
 
-Pomocí těchto kroků můžete snadno převést prezentace PowerPoint do formátu HTML5 pomocí knihovny Aspose.Slides for .NET. To vám umožní sdílet vaše prezentace na webu, aniž byste potřebovali software PowerPoint.
+Pomocí těchto kroků můžete snadno převést prezentace PowerPointu do formátu HTML5 pomocí knihovny Aspose.Slides pro .NET. To vám umožní sdílet vaše prezentace na webu bez nutnosti použití softwaru PowerPoint.
 
-## FAQ
+## Často kladené otázky
 
 ### Jak mohu přizpůsobit vzhled výstupu HTML5?
 
- Vzhled výstupu HTML5 můžete přizpůsobit nastavením různých možností v`Html5Options`třída. Odkazovat na[dokumentace](https://reference.aspose.com/slides/net/aspose.slides.export/html5options) pro dostupné možnosti přizpůsobení.
+Vzhled výstupu HTML5 si můžete přizpůsobit nastavením různých možností v `Html5Options` třída. Viz [dokumentace](https://reference.aspose.com/slides/net/aspose.slides.export/html5options) pro dostupné možnosti přizpůsobení.
 
 ### Mohu převádět prezentace s animacemi a přechody?
 
-Ano, Aspose.Slides for .NET podporuje převod prezentací s animacemi a přechody do formátu HTML5.
+Ano, Aspose.Slides pro .NET podporuje převod prezentací s animacemi a přechody do formátu HTML5.
 
 ### Je k dispozici zkušební verze Aspose.Slides?
 
- Ano, můžete získat bezplatnou zkušební verzi Aspose.Slides pro .NET od[stránka ke stažení](https://releases.aspose.com/slides/net).
+Ano, můžete získat bezplatnou zkušební verzi Aspose.Slides pro .NET z [stránka ke stažení](https://releases.aspose.com/slides/net).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

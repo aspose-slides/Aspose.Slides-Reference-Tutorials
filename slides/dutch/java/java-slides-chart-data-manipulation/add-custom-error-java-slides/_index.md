@@ -1,28 +1,30 @@
 ---
-title: Aangepaste fout toevoegen in Java-dia's
-linktitle: Aangepaste fout toevoegen in Java-dia's
-second_title: Aspose.Slides Java PowerPoint-verwerkings-API
-description: Leer hoe u aangepaste foutbalken kunt toevoegen aan PowerPoint-diagrammen in Java Slides met behulp van Aspose.Slides. Stapsgewijze handleiding met broncode voor nauwkeurige datavisualisatie.
-weight: 11
-url: /nl/java/chart-data-manipulation/add-custom-error-java-slides/
+"description": "Leer hoe u aangepaste foutbalken toevoegt aan PowerPoint-grafieken in Java Slides met Aspose.Slides. Stapsgewijze handleiding met broncode voor nauwkeurige datavisualisatie."
+"linktitle": "Aangepaste fout toevoegen in Java-dia's"
+"second_title": "Aspose.Slides Java PowerPoint-verwerkings-API"
+"title": "Aangepaste fout toevoegen in Java-dia's"
+"url": "/nl/java/chart-data-manipulation/add-custom-error-java-slides/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aangepaste fout toevoegen in Java-dia's
 
 
-## Inleiding tot het toevoegen van aangepaste foutbalken in Java-dia's met behulp van Aspose.Slides
+## Inleiding tot het toevoegen van aangepaste foutbalken in Java-dia's met Aspose.Slides
 
-In deze zelfstudie leert u hoe u aangepaste foutbalken kunt toevoegen aan een diagram in een PowerPoint-presentatie met behulp van Aspose.Slides voor Java. Foutbalken zijn handig voor het weergeven van variabiliteit of onzekerheid in gegevenspunten in een diagram.
+In deze tutorial leer je hoe je aangepaste foutbalken toevoegt aan een grafiek in een PowerPoint-presentatie met Aspose.Slides voor Java. Foutbalken zijn handig om de variabiliteit of onzekerheid in datapunten in een grafiek weer te geven.
 
 ## Vereisten
 
-Zorg ervoor dat u over het volgende beschikt voordat u begint:
+Voordat u begint, moet u ervoor zorgen dat u het volgende heeft:
 
-- Aspose.Slides voor Java-bibliotheek geïnstalleerd en geconfigureerd in uw project.
+- Aspose.Slides voor de Java-bibliotheek is geïnstalleerd en geconfigureerd in uw project.
 - Er is een Java-ontwikkelomgeving opgezet.
 
 ## Stap 1: Maak een lege presentatie
@@ -36,21 +38,21 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation();
 ```
 
-## Stap 2: Voeg een bellendiagram toe
+## Stap 2: Voeg een bubbeldiagram toe
 
-Vervolgens voegen we een bellendiagram toe aan de presentatie.
+Vervolgens voegen we een bubbeldiagram toe aan de presentatie.
 
 ```java
-// Een bellendiagram maken
+// Een bubbeldiagram maken
 IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Bubble, 50, 50, 400, 300, true);
 ```
 
-## Stap 3: aangepaste foutbalken toevoegen
+## Stap 3: Aangepaste foutbalken toevoegen
 
-Laten we nu aangepaste foutbalken toevoegen aan de diagramreeks.
+Laten we nu aangepaste foutbalken toevoegen aan de grafiekreeks.
 
 ```java
-// Aangepaste foutbalken toevoegen en hun formaat instellen
+// Aangepaste foutbalken toevoegen en hun opmaak instellen
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 IErrorBarsFormat errBarX = series.getErrorBarsXFormat();
 IErrorBarsFormat errBarY = series.getErrorBarsYFormat();
@@ -60,19 +62,19 @@ errBarX.setValueType(ErrorBarValueType.Custom);
 errBarY.setValueType(ErrorBarValueType.Custom);
 ```
 
-## Stap 4: Foutbalkgegevens instellen
+## Stap 4: Gegevens voor foutbalken instellen
 
-In deze stap hebben we toegang tot de gegevenspunten van de diagramserie en stellen we de aangepaste foutbalkwaarden voor elk punt in.
+In deze stap openen we de gegevenspunten in de grafiekserie en stellen we de aangepaste foutbalkwaarden voor elk punt in.
 
 ```java
-// Toegang krijgen tot gegevenspunten uit diagramreeksen en foutbalkwaarden instellen voor individuele punten
+// Toegang tot gegevenspunten in grafiekreeksen en het instellen van foutbalkwaarden voor afzonderlijke punten
 IChartDataPointCollection points = series.getDataPoints();
 points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForXPlusValues(DataSourceType.DoubleLiterals);
 points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForXMinusValues(DataSourceType.DoubleLiterals);
 points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForYPlusValues(DataSourceType.DoubleLiterals);
 points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForYMinusValues(DataSourceType.DoubleLiterals);
 
-// Foutbalken instellen voor kaartreekspunten
+// Foutbalken instellen voor grafiekreekspunten
 for (int i = 0; i < points.size(); i++)
 {
     points.get_Item(i).getErrorBarsCustomValues().getXMinus().setAsLiteralDouble(i + 1);
@@ -91,7 +93,7 @@ Sla ten slotte de presentatie op met de aangepaste foutbalken.
 presentation.save(dataDir + "ErrorBarsCustomValues_out.pptx", SaveFormat.Pptx);
 ```
 
-Dat is het! U hebt met succes aangepaste foutbalken toegevoegd aan een diagram in een PowerPoint-presentatie met behulp van Aspose.Slides voor Java.
+Dat is alles! Je hebt met succes aangepaste foutbalken toegevoegd aan een grafiek in een PowerPoint-presentatie met Aspose.Slides voor Java.
 
 ## Volledige broncode voor het toevoegen van aangepaste fouten in Java-dia's
 
@@ -102,9 +104,9 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation();
 try
 {
-	// Een bellendiagram maken
+	// Een bubbeldiagram maken
 	IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Bubble, 50, 50, 400, 300, true);
-	// Aangepaste foutbalken toevoegen en het formaat ervan instellen
+	// Aangepaste foutbalken toevoegen en de opmaak ervan instellen
 	IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 	IErrorBarsFormat errBarX = series.getErrorBarsXFormat();
 	IErrorBarsFormat errBarY = series.getErrorBarsYFormat();
@@ -112,13 +114,13 @@ try
 	errBarY.setVisible(true);
 	errBarX.setValueType(ErrorBarValueType.Custom);
 	errBarY.setValueType(ErrorBarValueType.Custom);
-	// Toegang krijgen tot gegevenspunten uit diagramseries en foutbalkwaarden instellen voor individuele punten
+	// Toegang tot gegevenspunten uit grafiekreeksen en het instellen van foutbalkwaarden voor afzonderlijke punten
 	IChartDataPointCollection points = series.getDataPoints();
 	points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForXPlusValues(DataSourceType.DoubleLiterals);
 	points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForXMinusValues(DataSourceType.DoubleLiterals);
 	points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForYPlusValues(DataSourceType.DoubleLiterals);
 	points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForYMinusValues(DataSourceType.DoubleLiterals);
-	// Foutbalken instellen voor kaartreekspunten
+	// Foutbalken instellen voor grafiekreekspunten
 	for (int i = 0; i < points.size(); i++)
 	{
 		points.get_Item(i).getErrorBarsCustomValues().getXMinus().setAsLiteralDouble(i + 1);
@@ -137,28 +139,30 @@ finally
 
 ## Conclusie
 
-In deze uitgebreide zelfstudie hebt u geleerd hoe u uw PowerPoint-presentaties kunt verbeteren door aangepaste foutbalken aan diagrammen toe te voegen met behulp van Aspose.Slides voor Java. Foutbalken bieden waardevolle inzichten in de variabiliteit en onzekerheid van gegevens, waardoor uw diagrammen informatiever en visueel aantrekkelijker worden.
+In deze uitgebreide tutorial heb je geleerd hoe je je PowerPoint-presentaties kunt verbeteren door aangepaste foutbalken aan grafieken toe te voegen met Aspose.Slides voor Java. Foutbalken bieden waardevolle inzichten in de variabiliteit en onzekerheid van gegevens, waardoor je grafieken informatiever en visueel aantrekkelijker worden.
 
 ## Veelgestelde vragen
 
-### Hoe pas ik het uiterlijk van foutbalken aan?
+### Hoe pas ik het uiterlijk van de foutbalken aan?
 
- U kunt het uiterlijk van foutbalken aanpassen door de eigenschappen van het`IErrorBarsFormat` object, zoals lijnstijl, lijnkleur en foutbalkbreedte.
+U kunt het uiterlijk van de foutbalken aanpassen door de eigenschappen van de `IErrorBarsFormat` object, zoals lijnstijl, lijnkleur en breedte van de foutbalk.
 
-### Kan ik foutbalken toevoegen aan andere diagramtypen?
+### Kan ik foutbalken toevoegen aan andere grafiektypen?
 
-Ja, u kunt foutbalken toevoegen aan verschillende diagramtypen die worden ondersteund door Aspose.Slides voor Java, inclusief staafdiagrammen, lijndiagrammen en spreidingsdiagrammen.
+Ja, u kunt foutbalken toevoegen aan verschillende grafiektypen die door Aspose.Slides voor Java worden ondersteund, waaronder staafdiagrammen, lijndiagrammen en spreidingsdiagrammen.
 
-### Hoe stel ik verschillende foutbalkwaarden in voor elk gegevenspunt?
+### Hoe stel ik voor elk gegevenspunt een andere foutbalkwaarde in?
 
-kunt de gegevenspunten doorlopen en voor elk punt aangepaste foutbalkwaarden instellen, zoals weergegeven in de bovenstaande code.
+U kunt door de datapunten heen loopen en voor elk punt aangepaste foutbalkwaarden instellen, zoals weergegeven in de bovenstaande code.
 
-### Is het mogelijk om foutbalken voor specifieke gegevenspunten te verbergen?
+### Is het mogelijk om foutbalken voor specifieke datapunten te verbergen?
 
- Ja, u kunt de zichtbaarheid van foutbalken voor individuele gegevenspunten bepalen door de`setVisible` eigendom van de`IErrorBarsFormat` voorwerp.
+Ja, u kunt de zichtbaarheid van foutbalken voor individuele datapunten regelen door de `setVisible` eigendom van de `IErrorBarsFormat` voorwerp.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में अप्रयुक्त लेआउट मास्टर को हटाएँ
-linktitle: जावा स्लाइड्स में अप्रयुक्त लेआउट मास्टर को हटाएँ
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides के साथ अप्रयुक्त लेआउट मास्टर्स को हटाएँ। चरण-दर-चरण गाइड और कोड। प्रस्तुति दक्षता बढ़ाएँ।
-weight: 10
-url: /hi/java/additional-utilities/remove-unused-layout-master-in-java-slides/
+"description": "Aspose.Slides के साथ अप्रयुक्त लेआउट मास्टर्स को हटाएँ। चरण-दर-चरण गाइड और कोड। प्रस्तुति दक्षता बढ़ाएँ।"
+"linktitle": "जावा स्लाइड्स में अप्रयुक्त लेआउट मास्टर को हटाएँ"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में अप्रयुक्त लेआउट मास्टर को हटाएँ"
+"url": "/hi/java/additional-utilities/remove-unused-layout-master-in-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में अप्रयुक्त लेआउट मास्टर को हटाएँ
@@ -34,7 +36,7 @@ String pptxFileName = "YourPresentation.pptx";
 Presentation pres = new Presentation(pptxFileName);
 ```
 
- प्रतिस्थापित करें`"YourPresentation.pptx"` अपनी PowerPoint फ़ाइल का पथ लिखें.
+प्रतिस्थापित करें `"YourPresentation.pptx"` अपनी PowerPoint फ़ाइल का पथ लिखें.
 
 ## चरण 2: अप्रयुक्त मास्टर्स की पहचान करें
 
@@ -85,7 +87,7 @@ System.out.println("Master slides number in result presentation = " + pres.getMa
 System.out.println("Layout slides number in result presentation = " + pres.getLayoutSlides().size());
 ```
 
-यह कोड आपकी प्रस्तुति में अद्यतन गणना को प्रिंट करेगा, तथा यह दर्शाएगा कि अप्रयुक्त तत्व हटा दिए गए हैं।
+यह कोड आपके प्रस्तुतीकरण में अद्यतन गणना को प्रिंट करेगा, तथा यह दर्शाएगा कि अप्रयुक्त तत्व हटा दिए गए हैं।
 
 ## जावा स्लाइड्स में अप्रयुक्त लेआउट मास्टर को हटाने के लिए पूर्ण स्रोत कोड
 
@@ -112,7 +114,7 @@ System.out.println("Layout slides number in result presentation = " + pres.getLa
 
 ### मैं Java के लिए Aspose.Slides कैसे स्थापित कर सकता हूँ?
 
- Aspose.Slides for Java को लाइब्रेरी से डाउनलोड करके स्थापित किया जा सकता है[Aspose वेबसाइट](https://downloads.aspose.com/slides/java)अपने जावा प्रोजेक्ट में लाइब्रेरी स्थापित करने के लिए वहां दिए गए इंस्टॉलेशन निर्देशों का पालन करें।
+Aspose.Slides for Java को लाइब्रेरी से डाउनलोड करके स्थापित किया जा सकता है [Aspose वेबसाइट](https://downloads.aspose.com/slides/java)अपने जावा प्रोजेक्ट में लाइब्रेरी स्थापित करने के लिए वहां दिए गए इंस्टॉलेशन निर्देशों का पालन करें।
 
 ### क्या Java के लिए Aspose.Slides का उपयोग करने के लिए कोई लाइसेंसिंग आवश्यकताएं हैं?
 
@@ -129,9 +131,11 @@ System.out.println("Layout slides number in result presentation = " + pres.getLa
 ### मैं इस आलेख में प्रयुक्त स्रोत कोड कहां से प्राप्त कर सकता हूं?
 
 आप इस लेख में इस्तेमाल किए गए सोर्स कोड को प्रत्येक चरण में दिए गए कोड स्निपेट में पा सकते हैं। अपने प्रेजेंटेशन में अप्रयुक्त लेआउट मास्टर्स को हटाने के लिए कोड को कॉपी करके अपने जावा प्रोजेक्ट में पेस्ट करें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

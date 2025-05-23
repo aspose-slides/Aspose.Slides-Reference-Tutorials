@@ -1,30 +1,32 @@
 ---
-title: Stel de tussenruimte in Java-dia's in
-linktitle: Stel de tussenruimte in Java-dia's in
-second_title: Aspose.Slides Java PowerPoint-verwerkings-API
-description: Leer hoe u de tussenruimte in Java-dia's instelt met Aspose.Slides voor Java. Verbeter de diagrambeelden voor uw PowerPoint-presentaties.
-weight: 21
-url: /nl/java/data-manipulation/set-gap-width-java-slides/
+"description": "Leer hoe u de tussenruimte in Java Slides instelt met Aspose.Slides voor Java. Verbeter de grafiekweergave in uw PowerPoint-presentaties."
+"linktitle": "Gapbreedte instellen in Java-dia's"
+"second_title": "Aspose.Slides Java PowerPoint-verwerkings-API"
+"title": "Gapbreedte instellen in Java-dia's"
+"url": "/nl/java/data-manipulation/set-gap-width-java-slides/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Stel de tussenruimte in Java-dia's in
+# Gapbreedte instellen in Java-dia's
 
 
-## Inleiding tot het instellen van de tussenruimte in Aspose.Slides voor Java
+## Inleiding tot het instellen van de spleetbreedte in Aspose.Slides voor Java
 
-In deze zelfstudie begeleiden we u bij het instellen van de tussenruimte voor een diagram in een PowerPoint-presentatie met behulp van Aspose.Slides voor Java. Tussenruimte bepaalt de afstand tussen de kolommen of staven in een diagram, zodat u de visuele weergave van het diagram kunt bepalen.
+In deze tutorial begeleiden we je door het proces van het instellen van de tussenruimte voor een grafiek in een PowerPoint-presentatie met behulp van Aspose.Slides voor Java. De tussenruimte bepaalt de afstand tussen de kolommen of balken in een grafiek, zodat je de visuele weergave van de grafiek kunt bepalen.
 
 ## Vereisten
 
- Voordat u begint, moet u ervoor zorgen dat de Aspose.Slides voor Java-bibliotheek is geïnstalleerd. U kunt het downloaden van de Aspose-website[hier](https://releases.aspose.com/slides/java/).
+Voordat u begint, moet u ervoor zorgen dat de Aspose.Slides for Java-bibliotheek is geïnstalleerd. U kunt deze downloaden van de Aspose-website. [hier](https://releases.aspose.com/slides/java/).
 
 ## Stapsgewijze handleiding
 
-Volg deze stappen om de tussenruimte in een diagram in te stellen met Aspose.Slides voor Java:
+Volg deze stappen om de tussenruimtebreedte in een grafiek in te stellen met Aspose.Slides voor Java:
 
 ### 1. Maak een lege presentatie
 
@@ -32,62 +34,62 @@ Volg deze stappen om de tussenruimte in een diagram in te stellen met Aspose.Sli
 // Het pad naar de documentenmap.
 String dataDir = "Your Document Directory";
 
-// Een lege presentatie maken
+// Een lege presentatie maken 
 Presentation presentation = new Presentation();
 ```
 
-### 2. Ga naar de eerste dia
+### 2. Toegang tot de eerste dia
 
 ```java
 // Toegang tot de eerste dia
 ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
-### 3. Voeg een diagram met standaardgegevens toe
+### 3. Voeg een grafiek toe met standaardgegevens
 
 ```java
-// Voeg een diagram met standaardgegevens toe
+// Een grafiek met standaardgegevens toevoegen
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn, 0, 0, 500, 500);
 ```
 
-### 4. Stel de index van het diagramgegevensblad in
+### 4. Stel de index van het grafiekgegevensblad in
 
 ```java
-// De index van het kaartgegevensblad instellen
+// De index van het grafiekgegevensblad instellen
 int defaultWorksheetIndex = 0;
 ```
 
-### 5. Download de werkmap Diagramgegevens
+### 5. Download het werkboek met grafiekgegevens
 
 ```java
-// Het werkblad met diagramgegevens ophalen
+// Het werkblad met grafiekgegevens ophalen
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
 
-### 6. Voeg reeksen toe aan het diagram
+### 6. Voeg series toe aan de grafiek
 
 ```java
-// Voeg reeksen toe aan het diagram
+// Serie toevoegen aan de grafiek
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), chart.getType());
 ```
 
-### 7. Voeg categorieën toe aan het diagram
+### 7. Categorieën toevoegen aan de grafiek
 
 ```java
-// Voeg categorieën toe aan het diagram
+// Categorieën toevoegen aan de grafiek
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 1, 0, "Category 1"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 0, "Category 2"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Category 3"));
 ```
 
-### 8. Reeksgegevens invullen
+### 8. Vul reeksgegevens in
 
 ```java
-// Reeksgegevens invullen
+// Vul reeksgegevens in
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
 
-// Gegevenspunten van reeksen vullen
+// Het vullen van reeksgegevenspunten
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -96,34 +98,34 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
 ```
 
-### 9. Stel de tussenruimte in
+### 9. Stel de spleetbreedte in
 
 ```java
-// Stel de waarde voor de tussenruimte in
+// Stel de waarde voor de tussenruimtebreedte in
 series.getParentSeriesGroup().setGapWidth(50);
 ```
 
 ### 10. Sla de presentatie op
 
 ```java
-// Sla de presentatie met het diagram op
+// Sla de presentatie met de grafiek op
 presentation.save(dataDir + "GapWidth_out.pptx", SaveFormat.Pptx);
 ```
 
-## Volledige broncode voor ingestelde tussenruimte in Java-dia's
+## Volledige broncode voor het instellen van de breedte van de tussenruimte in Java-dia's
 
 ```java
 // Het pad naar de documentenmap.
 String dataDir = "Your Document Directory";
-// Lege presentatie maken
+// Lege presentatie maken 
 Presentation presentation = new Presentation();
-// Toegang tot de eerste dia
+// Toegang tot eerste dia
 ISlide slide = presentation.getSlides().get_Item(0);
-// Diagram met standaardgegevens toevoegen
+// Grafiek toevoegen met standaardgegevens
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn, 0, 0, 500, 500);
-// De index van het kaartgegevensblad instellen
+// De index van het grafiekgegevensblad instellen
 int defaultWorksheetIndex = 0;
-// Het werkblad met diagramgegevens ophalen
+// Het werkblad met grafiekgegevens ophalen
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Serie toevoegen
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
@@ -132,41 +134,43 @@ chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 1, 0, "Caetegoty 1"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 0, "Caetegoty 2"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
-// Neem de tweede kaartenreeks
+// Neem de tweede grafiekserie
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-// Vult nu seriegegevens in
+// Nu worden reeksgegevens ingevuld
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-// Stel de GapWidth-waarde in
+// GapWidth-waarde instellen
 series.getParentSeriesGroup().setGapWidth(50);
-// Presentatie opslaan met grafiek
+// Presentatie met grafiek opslaan
 presentation.save(dataDir + "GapWidth_out.pptx", SaveFormat.Pptx);
 ```
 
 ## Conclusie
 
-In deze zelfstudie hebt u geleerd hoe u de tussenruimte instelt voor een diagram in een PowerPoint-presentatie met behulp van Aspose.Slides voor Java. Door de tussenruimte aan te passen, kunt u de afstand tussen kolommen of staven in uw diagram bepalen, waardoor de visuele weergave van uw gegevens wordt verbeterd.
+In deze tutorial heb je geleerd hoe je de tussenruimte voor een grafiek in een PowerPoint-presentatie instelt met Aspose.Slides voor Java. Door de tussenruimte aan te passen, kun je de afstand tussen kolommen of balken in je grafiek bepalen, wat de visuele weergave van je gegevens verbetert.
 
 ## Veelgestelde vragen
 
-### Hoe wijzig ik de waarde van de tussenruimte?
+### Hoe verander ik de waarde van de Gap Width?
 
- Om de tussenruimte te wijzigen, gebruikt u de`setGapWidth` methode op de`ParentSeriesGroup`van de kaartenreeks. In het gegeven voorbeeld stellen we de tussenruimte in op 50, maar u kunt deze waarde aanpassen aan de gewenste afstand.
+Om de tussenruimtebreedte te wijzigen, gebruikt u de `setGapWidth` methode op de `ParentSeriesGroup` van de grafiekreeks. In het gegeven voorbeeld stellen we de tussenruimte in op 50, maar u kunt deze waarde aanpassen naar uw gewenste afstand.
 
-### Kan ik andere diagrameigenschappen aanpassen?
+### Kan ik andere grafiekeigenschappen aanpassen?
 
-Ja, Aspose.Slides voor Java biedt uitgebreide mogelijkheden voor het aanpassen van diagrammen. U kunt verschillende diagrameigenschappen wijzigen, zoals kleuren, labels, titels en meer. Raadpleeg de API-referentie voor gedetailleerde informatie over de aanpassingsopties voor diagrammen.
+Ja, Aspose.Slides voor Java biedt uitgebreide mogelijkheden voor het aanpassen van grafieken. U kunt verschillende grafiekeigenschappen aanpassen, zoals kleuren, labels, titels en meer. Raadpleeg de API-referentie voor gedetailleerde informatie over de opties voor het aanpassen van grafieken.
 
 ### Waar kan ik meer bronnen en documentatie vinden?
 
- Uitgebreide documentatie en aanvullende bronnen over Aspose.Slides voor Java vindt u op de website[Aspose-website](https://reference.aspose.com/slides/java/).
+Uitgebreide documentatie en aanvullende bronnen vindt u op Aspose.Slides voor Java op de [Aspose-website](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,47 +1,49 @@
 ---
-title: Java Slaytlarındaki Düzen Formatlarına Erişim
-linktitle: Java Slaytlarındaki Düzen Formatlarına Erişim
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides for Java ile Java Slides'ta düzen formatlarına nasıl erişeceğinizi ve bunları nasıl değiştireceğinizi öğrenin. PowerPoint sunumlarında şekil ve çizgi stillerini zahmetsizce özelleştirin.
-weight: 10
-url: /tr/java/presentation-properties/access-layout-formats-in-java-slides/
+"description": "Java Slaytlarında düzen biçimlerine nasıl erişeceğinizi ve bunları nasıl değiştireceğinizi Aspose.Slides for Java ile öğrenin. PowerPoint sunumlarında şekil ve çizgi stillerini zahmetsizce özelleştirin."
+"linktitle": "Java Slaytlarında Erişim Düzeni Biçimleri"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java Slaytlarında Erişim Düzeni Biçimleri"
+"url": "/tr/java/presentation-properties/access-layout-formats-in-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java Slaytlarındaki Düzen Formatlarına Erişim
+# Java Slaytlarında Erişim Düzeni Biçimleri
 
 
-## Java Slaytlarındaki Erişim Düzeni Formatlarına Giriş
+## Java Slaytlarında Access Düzen Biçimlerine Giriş
 
-Bu eğitimde, Aspose.Slides for Java API'sini kullanarak Java Slides'ta düzen formatlarına nasıl erişeceğimizi ve bunlarla nasıl çalışacağımızı keşfedeceğiz. Düzen formatları, bir sunumun düzen slaytlarındaki şekillerin ve çizgilerin görünümünü denetlemenize olanak tanır. Düzen slaytlarındaki şekiller için dolgu formatlarının ve çizgi formatlarının nasıl alınacağını ele alacağız.
+Bu eğitimde, Java Slaytlarında Aspose.Slides for Java API'sini kullanarak düzen biçimlerine nasıl erişileceğini ve bunlarla nasıl çalışılacağını inceleyeceğiz. Düzen biçimleri, bir sunumun düzen slaytlarındaki şekillerin ve çizgilerin görünümünü kontrol etmenizi sağlar. Düzen slaytlarındaki şekiller için dolgu biçimlerinin ve çizgi biçimlerinin nasıl alınacağını ele alacağız.
 
-## Önkoşullar
+## Ön koşullar
 
-1. Aspose.Slides for Java kütüphanesi.
-2. Düzen slaytlarını içeren bir PowerPoint sunumu (PPTX formatı).
+1. Java için Aspose.Slides kütüphanesi.
+2. Düzen slaytları içeren bir PowerPoint sunumu (PPTX formatında).
 
-## 1. Adım: Sunuyu Yükleyin
+## Adım 1: Sunumu Yükleyin
 
- Öncelikle düzen slaytlarını içeren PowerPoint sunumunu yüklememiz gerekiyor. Yer değiştirmek`"Your Document Directory"` belge dizininizin gerçek yolu ile.
+İlk olarak, düzen slaytlarını içeren PowerPoint sunumunu yüklememiz gerekir. Değiştir `"Your Document Directory"` belge dizininize giden gerçek yol ile.
 
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "pres.pptx");
 ```
 
-## Adım 2: Düzen Formatlarına Erişim
+## Adım 2: Düzen Biçimlerine Erişim
 
-Şimdi sunumdaki düzen slaytları arasında dolaşalım ve her düzen slaytındaki şekillerin dolgu biçimlerine ve çizgi biçimlerine erişelim.
+Şimdi sunumdaki düzen slaytları arasında dolaşalım ve her düzen slaydındaki şekillerin dolgu biçimlerine ve çizgi biçimlerine erişelim.
 
 ```java
 try
 {
     for (ILayoutSlide layoutSlide : pres.getLayoutSlides())
     {
-        // Şekillerin dolgu formatlarına erişme
+        // Şekillerin doldurma biçimlerine erişin
         IFillFormat[] fillFormats = new IFillFormat[layoutSlide.getShapes().size()];
         int i = 0;
         for (IShape shape : layoutSlide.getShapes())
@@ -50,7 +52,7 @@ try
             i++;
         }
         
-        // Şekillerin satır formatlarına erişim
+        // Şekillerin erişim hattı biçimleri
         ILineFormat[] lineFormats = new ILineFormat[layoutSlide.getShapes().size()];
         int j = 0;
         for (IShape shape : layoutSlide.getShapes())
@@ -68,18 +70,18 @@ finally
 
 Yukarıdaki kodda:
 
-- Her düzen slaytını bir kullanarak yineliyoruz`for` döngü.
-- Her düzen slaydı için, o slayttaki şekillerin dolgu formatlarını ve çizgi formatlarını depolamak üzere diziler oluştururuz.
--  İç içe kullanıyoruz`for` Düzen slaytındaki şekiller arasında yineleme yapmak ve bunların dolgu ve çizgi formatlarını almak için döngüler.
+- Her düzen slaydını bir yineleme kullanarak yineliyoruz `for` döngü.
+- Her düzen slaydı için, o slayttaki şekiller için dolgu biçimlerini ve çizgi biçimlerini depolamak üzere diziler oluşturuyoruz.
+- İç içe geçmiş kullanıyoruz `for` Düzen slaydındaki şekiller arasında yineleme yapmak ve bunların dolgu ve çizgi biçimlerini almak için döngüler.
 
-## 3. Adım: Mizanpaj Formatlarıyla Çalışma
+## Adım 3: Düzen Formatlarıyla Çalışın
 
-Artık mizanpaj slaytlarındaki şekillerin dolgu formatlarına ve çizgi formatlarına eriştiğimize göre, bunlar üzerinde gerektiği gibi çeşitli işlemler gerçekleştirebilirsiniz. Örneğin şekillerin dolgu rengini, çizgi stilini veya diğer özelliklerini değiştirebilirsiniz.
+Artık düzen slaytlarındaki şekiller için dolgu biçimlerine ve çizgi biçimlerine eriştiğimize göre, bunlar üzerinde gerektiği gibi çeşitli işlemler gerçekleştirebilirsiniz. Örneğin, şekillerin dolgu rengini, çizgi stilini veya diğer özelliklerini değiştirebilirsiniz.
 
-## Java Slaytlarındaki Erişim Düzeni Formatları İçin Tam Kaynak Kodu
+## Java Slaytlarında Erişim Düzeni Biçimleri İçin Tam Kaynak Kodu
 
 ```java
-// Belgeler dizininin yolu.
+// Belgeler dizinine giden yol.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "pres.pptx");
 try
@@ -110,43 +112,45 @@ finally
 
 ## Çözüm
 
-Bu eğitimde Aspose.Slides for Java API'sini kullanarak Java Slides'daki düzen formatlarına nasıl erişeceğimizi ve bunları nasıl değiştireceğimizi araştırdık. Düzen formatları, PowerPoint sunumlarındaki düzen slaytlarındaki şekillerin ve çizgilerin görünümünü kontrol etmek için gereklidir.
+Bu eğitimde, Java Slaytlarında Aspose.Slides for Java API'sini kullanarak düzen biçimlerine nasıl erişileceğini ve bunların nasıl düzenleneceğini inceledik. Düzen biçimleri, PowerPoint sunumlarındaki düzen slaytlarındaki şekillerin ve çizgilerin görünümünü kontrol etmek için önemlidir.
 
-## SSS'ler
+## SSS
 
 ### Bir şeklin dolgu rengini nasıl değiştiririm?
 
- Bir şeklin dolgu rengini değiştirmek için kullanabilirsiniz.`IFillFormat`nesnenin yöntemleri. İşte bir örnek:
+Bir şeklin dolgu rengini değiştirmek için şunu kullanabilirsiniz: `IFillFormat` nesnenin yöntemleri. İşte bir örnek:
 
 ```java
 IFillFormat fillFormat = shape.getFillFormat();
-fillFormat.setFillType(FillType.Solid); // Doldurma türünü düz renge ayarla
-fillFormat.getSolidFillColor().setColor(Color.RED); // Dolgu rengini kırmızı olarak ayarlayın
+fillFormat.setFillType(FillType.Solid); // Dolgu türünü düz renge ayarlayın
+fillFormat.getSolidFillColor().setColor(Color.RED); // Dolgu rengini kırmızıya ayarla
 ```
 
 ### Bir şeklin çizgi stilini nasıl değiştiririm?
 
- Bir şeklin çizgi stilini değiştirmek için kullanabilirsiniz.`ILineFormat`nesnenin yöntemleri. İşte bir örnek:
+Bir şeklin çizgi stilini değiştirmek için şunu kullanabilirsiniz: `ILineFormat` nesnenin yöntemleri. İşte bir örnek:
 
 ```java
 ILineFormat lineFormat = shape.getLineFormat();
-lineFormat.setStyle(LineStyle.Single); // Çizgi stilini tek olarak ayarla
-lineFormat.setWidth(2.0); // Çizgi genişliğini 2,0 puntoya ayarla
-lineFormat.getSolidFillColor().setColor(Color.BLUE); // Çizgi rengini mavi olarak ayarla
+lineFormat.setStyle(LineStyle.Single); // Satır stilini tek olarak ayarla
+lineFormat.setWidth(2.0); // Çizgi genişliğini 2,0 puana ayarlayın
+lineFormat.getSolidFillColor().setColor(Color.BLUE); // Çizgi rengini maviye ayarla
 ```
 
-### Bu değişiklikleri düzen slaydındaki bir şekle nasıl uygularım?
+### Bu değişiklikleri bir düzen slaydındaki şekle nasıl uygularım?
 
-Bu değişiklikleri düzen slaydındaki belirli bir şekle uygulamak için, düzen slaydının şekiller koleksiyonundaki dizinini kullanarak şekle erişebilirsiniz. Örneğin:
+Bu değişiklikleri bir düzen slaydındaki belirli bir şekle uygulamak için, düzen slaydının şekiller koleksiyonundaki dizinini kullanarak şekle erişebilirsiniz. Örneğin:
 
 ```java
-IShape shape = layoutSlide.getShapes().get_Item(0); // Düzen slaytındaki ilk şekle erişme
+IShape shape = layoutSlide.getShapes().get_Item(0); // Düzen slaydındaki ilk şekle erişin
 ```
 
- Daha sonra şunu kullanabilirsiniz:`IFillFormat` Ve`ILineFormat` şeklin dolgu ve çizgi formatlarını değiştirmek için önceki cevaplarda gösterilen yöntemler.
+Daha sonra şunu kullanabilirsiniz: `IFillFormat` Ve `ILineFormat` Önceki cevaplarda gösterildiği gibi şeklin dolgu ve çizgi biçimlerini değiştirme yöntemleri.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,26 +1,28 @@
 ---
-title: Sunburst Chart v Java Slides
-linktitle: Sunburst Chart v Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Vytvářejte úžasné grafy Sunburst v Java Slides pomocí Aspose.Slides. Naučte se krok za krokem vytvářet grafy a manipulovat s daty.
-weight: 16
-url: /cs/java/chart-elements/sunburst-chart-java-slides/
+"description": "Vytvořte úžasné Sunburst grafy v Java Slides s Aspose.Slides. Naučte se krok za krokem vytvářet grafy a manipulovat s daty."
+"linktitle": "Sunburst graf v Javě Slides"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Sunburst graf v Javě Slides"
+"url": "/cs/java/chart-elements/sunburst-chart-java-slides/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Sunburst Chart v Java Slides
+# Sunburst graf v Javě Slides
 
 
-## Úvod do Sunburst Chart v Java Slides s Aspose.Slides
+## Úvod do Sunburst Chart v Javě - Slides s Aspose.Slides
 
-V tomto tutoriálu se naučíte, jak vytvořit graf Sunburst v powerpointové prezentaci pomocí Aspose.Slides for Java API. Graf Sunburst je radiální graf používaný k reprezentaci hierarchických dat. Poskytneme vám podrobné pokyny spolu se zdrojovým kódem.
+V tomto tutoriálu se naučíte, jak vytvořit graf Sunburst v prezentaci PowerPointu pomocí rozhraní Aspose.Slides pro Java API. Graf Sunburst je radiální graf používaný k reprezentaci hierarchických dat. Poskytneme podrobné pokyny spolu se zdrojovým kódem.
 
 ## Předpoklady
 
- Než začnete, ujistěte se, že máte v projektu Java nainstalovanou a nakonfigurovanou knihovnu Aspose.Slides for Java. Knihovnu si můžete stáhnout z[tady](https://releases.aspose.com/slides/java/).
+Než začnete, ujistěte se, že máte ve svém projektu Java nainstalovanou a nakonfigurovanou knihovnu Aspose.Slides for Java. Knihovnu si můžete stáhnout z [zde](https://releases.aspose.com/slides/java/).
 
 ## Krok 1: Importujte požadované knihovny
 
@@ -30,26 +32,26 @@ Nejprve importujte potřebné knihovny pro práci s Aspose.Slides a vytvořte gr
 import com.aspose.slides.*;
 ```
 
-## Krok 2: Inicializujte prezentaci
+## Krok 2: Inicializace prezentace
 
-Inicializujte prezentaci PowerPoint a určete adresář, do kterého se uloží soubor prezentace.
+Inicializujte prezentaci v PowerPointu a zadejte adresář, kam bude soubor prezentace uložen.
 
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 ```
 
-## Krok 3: Vytvořte Sunburst Chart
+## Krok 3: Vytvořte graf Sunburst
 
-Vytvořte Sunburst graf na snímku. Určíme polohu (X, Y) a rozměry (šířku, výšku) grafu.
+Vytvořte na snímku graf Sunburst. Určíme pozici (X, Y) a rozměry (šířka, výška) grafu.
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Sunburst, 50, 50, 500, 400);
 ```
 
-## Krok 4: Připravte data grafu
+## Krok 4: Příprava dat grafu
 
-Vymažte z grafu všechna existující data kategorií a řad a vytvořte pro graf datový sešit.
+Odstraňte z grafu všechny existující kategorie a data řad a vytvořte pro graf datový sešit.
 
 ```java
 chart.getChartData().getCategories().clear();
@@ -58,9 +60,9 @@ IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
 wb.clear(0);
 ```
 
-## Krok 5: Definujte hierarchii grafů
+## Krok 5: Definování hierarchie grafů
 
-Definujte hierarchickou strukturu grafu Sunburst. Větve, stonky a listy můžete přidat jako kategorie.
+Definujte hierarchickou strukturu grafu Sunburst. Jako kategorie můžete přidat větve, stonky a listy.
 
 ```java
 // Pobočka 1
@@ -82,9 +84,9 @@ leaf.getGroupingLevels().setGroupingItem(1, "Stem4");
 chart.getChartData().getCategories().add(wb.getCell(0, "C8", "Leaf8"));
 ```
 
-## Krok 6: Přidejte data do grafu
+## Krok 6: Přidání dat do grafu
 
-Přidejte datové body do řady grafů Sunburst.
+Přidejte datové body do série grafů Sunburst.
 
 ```java
 IChartSeries series = chart.getChartData().getSeries().add(ChartType.Sunburst);
@@ -107,7 +109,7 @@ Nakonec uložte prezentaci s grafem Sunburst.
 pres.save("Sunburst.pptx", SaveFormat.Pptx);
 ```
 
-## Kompletní zdrojový kód pro Sunburst Chart v Java Slides
+## Kompletní zdrojový kód pro Sunburst Chart v Javě Slides
 
 ```java
 String dataDir = "Your Document Directory";
@@ -119,7 +121,7 @@ try
 	chart.getChartData().getSeries().clear();
 	IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
 	wb.clear(0);
-	//větev 1
+	//pobočka 1
 	IChartCategory leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C1", "Leaf1"));
 	leaf.getGroupingLevels().setGroupingItem(1, "Stem1");
 	leaf.getGroupingLevels().setGroupingItem(2, "Branch1");
@@ -155,28 +157,30 @@ finally
 
 ## Závěr
 
-tomto tutoriálu jste se naučili, jak vytvořit graf Sunburst v prezentaci PowerPoint pomocí rozhraní Aspose.Slides for Java API. Viděli jste, jak inicializovat prezentaci, vytvořit graf, definovat hierarchii grafu, přidat datové body a uložit prezentaci. Nyní můžete tyto znalosti využít k vytváření interaktivních a informativních grafů Sunburst ve vašich aplikacích Java.
+V tomto tutoriálu jste se naučili, jak vytvořit graf Sunburst v prezentaci PowerPointu pomocí rozhraní Aspose.Slides pro Java API. Viděli jste, jak inicializovat prezentaci, vytvořit graf, definovat hierarchii grafů, přidat datové body a uložit prezentaci. Nyní můžete tyto znalosti využít k vytváření interaktivních a informativních grafů Sunburst ve vašich aplikacích Java.
 
-## FAQ
+## Často kladené otázky
 
-### Jak přizpůsobím vzhled grafu Sunburst?
+### Jak si mohu přizpůsobit vzhled grafu Sunburst?
 
-Vzhled grafu Sunburst můžete přizpůsobit úpravou vlastností, jako jsou barvy, popisky a styly. Podrobné možnosti přizpůsobení naleznete v dokumentaci Aspose.Slides.
+Vzhled grafu Sunburst si můžete přizpůsobit úpravou vlastností, jako jsou barvy, popisky a styly. Podrobné možnosti přizpůsobení naleznete v dokumentaci k Aspose.Slides.
 
 ### Mohu do grafu přidat další datové body?
 
- Ano, do grafu můžete přidat další datové body pomocí`series.getDataPoints().addDataPointForSunburstSeries()` pro každý datový bod, který chcete zahrnout.
+Ano, do grafu můžete přidat další datové body pomocí `series.getDataPoints().addDataPointForSunburstSeries()` metodu pro každý datový bod, který chcete zahrnout.
 
 ### Jak mohu přidat popisky do grafu Sunburst?
 
-Chcete-li do grafu Sunburst přidat nápovědu, můžete nastavit formát štítku dat tak, aby se při najetí myší na segmenty grafu zobrazovaly další informace, jako jsou hodnoty nebo popisy.
+Chcete-li do grafu Sunburst přidat popisky, můžete nastavit formát popisků dat tak, aby se při najetí myší na segmenty grafu zobrazovaly další informace, jako jsou hodnoty nebo popisy.
 
-### Je možné vytvořit interaktivní grafy Sunburst s hypertextovými odkazy?
+### Je možné vytvářet interaktivní Sunburst grafy s hypertextovými odkazy?
 
-Ano, můžete vytvářet interaktivní grafy Sunburst s hypertextovými odkazy přidáním hypertextových odkazů na konkrétní prvky grafu nebo segmenty. Podrobnosti o přidávání hypertextových odkazů naleznete v dokumentaci Aspose.Slides.
+Ano, interaktivní grafy Sunburst s hypertextovými odkazy můžete vytvářet přidáním hypertextových odkazů na konkrétní prvky nebo segmenty grafu. Podrobnosti o přidávání hypertextových odkazů naleznete v dokumentaci k Aspose.Slides.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

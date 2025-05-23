@@ -1,14 +1,16 @@
 ---
-title: जावा का उपयोग करके PowerPoint में HTML टेक्स्ट आयात करें
-linktitle: जावा का उपयोग करके PowerPoint में HTML टेक्स्ट आयात करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: सहज एकीकरण के लिए Aspose.Slides के साथ Java का उपयोग करके PowerPoint स्लाइड में HTML टेक्स्ट को आयात करना सीखें। दस्तावेज़ प्रबंधन चाहने वाले डेवलपर्स के लिए आदर्श।
-weight: 10
-url: /hi/java/java-powerpoint-text-paragraph-management/import-html-text-powerpoint-java/
+"description": "सहज एकीकरण के लिए Aspose.Slides के साथ Java का उपयोग करके PowerPoint स्लाइड में HTML टेक्स्ट को आयात करना सीखें। दस्तावेज़ प्रबंधन चाहने वाले डेवलपर्स के लिए आदर्श।"
+"linktitle": "जावा का उपयोग करके PowerPoint में HTML टेक्स्ट आयात करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा का उपयोग करके PowerPoint में HTML टेक्स्ट आयात करें"
+"url": "/hi/java/java-powerpoint-text-paragraph-management/import-html-text-powerpoint-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा का उपयोग करके PowerPoint में HTML टेक्स्ट आयात करें
@@ -19,7 +21,7 @@ url: /hi/java/java-powerpoint-text-paragraph-management/import-html-text-powerpo
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
 - जावा प्रोग्रामिंग का बुनियादी ज्ञान.
 - आपके सिस्टम पर JDK (जावा डेवलपमेंट किट) स्थापित है।
--  Aspose.Slides for Java लाइब्रेरी। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+- Aspose.Slides for Java लाइब्रेरी। आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 
 ## पैकेज आयात करें
 सबसे पहले, Aspose.Slides और मानक Java लाइब्रेरीज़ से आवश्यक पैकेज आयात करें:
@@ -55,7 +57,7 @@ ashape.addTextFrame("");
 String htmlContent = new String(Files.readAllBytes(Paths.get(dataDir + "file.html")));
 ashape.getTextFrame().getParagraphs().addFromHtml(htmlContent);
 ```
-## चरण 6: प्रेजेंटेशन सहेजें
+## चरण 6: प्रस्तुति सहेजें
 संशोधित प्रस्तुति को PPTX फ़ाइल में सहेजें:
 ```java
 pres.save(dataDir + "output_out.pptx", SaveFormat.Pptx);
@@ -73,10 +75,12 @@ Aspose.Slides स्वचालित रूप से अधिकांश HT
 ### क्या Aspose.Slides PowerPoint फ़ाइलों के बड़े पैमाने पर बैच प्रसंस्करण के लिए उपयुक्त है?
 हां, Aspose.Slides जावा में पावरपॉइंट फ़ाइलों के कुशल बैच प्रसंस्करण के लिए API प्रदान करता है।
 ### मैं Aspose.Slides के लिए और अधिक उदाहरण और समर्थन कहां पा सकता हूं?
- दौरा करना[Aspose.Slides दस्तावेज़ीकरण](https://reference.aspose.com/slides/java/) और[सहयता मंच](https://forum.aspose.com/c/slides/11) विस्तृत उदाहरण और सहायता के लिए.
+दौरा करना [Aspose.Slides दस्तावेज़ीकरण](https://reference.aspose.com/slides/java/) और [सहयता मंच](https://forum.aspose.com/c/slides/11) विस्तृत उदाहरण और सहायता के लिए.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

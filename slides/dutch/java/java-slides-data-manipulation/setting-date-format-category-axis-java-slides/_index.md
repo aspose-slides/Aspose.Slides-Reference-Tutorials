@@ -1,33 +1,35 @@
 ---
-title: Datumnotatie instellen voor categorie-as in Java-dia's
-linktitle: Datumnotatie instellen voor categorie-as in Java-dia's
-second_title: Aspose.Slides Java PowerPoint-verwerkings-API
-description: Leer hoe u een datumnotatie instelt voor de categorie-as in een PowerPoint-diagram met Aspose.Slides voor Java. Stap-voor-stap handleiding met broncode.
-weight: 26
-url: /nl/java/data-manipulation/setting-date-format-category-axis-java-slides/
+"description": "Leer hoe u een datumnotatie instelt voor de categorie-as in een PowerPoint-grafiek met Aspose.Slides voor Java. Stapsgewijze handleiding met broncode."
+"linktitle": "Datumnotatie instellen voor categorie-as in Java-dia's"
+"second_title": "Aspose.Slides Java PowerPoint-verwerkings-API"
+"title": "Datumnotatie instellen voor categorie-as in Java-dia's"
+"url": "/nl/java/data-manipulation/setting-date-format-category-axis-java-slides/"
+"weight": 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Datumnotatie instellen voor categorie-as in Java-dia's
 
 
-## Inleiding tot het instellen van het datumformaat voor de categorie-as in Java-dia's
+## Inleiding tot het instellen van de datumnotatie voor de categorie-as in Java-dia's
 
-In deze zelfstudie leren we hoe u een datumnotatie voor de categorie-as in een PowerPoint-grafiek kunt instellen met behulp van Aspose.Slides voor Java. Aspose.Slides voor Java is een krachtige bibliotheek waarmee u PowerPoint-presentaties programmatisch kunt maken, manipuleren en beheren.
+In deze tutorial leren we hoe je een datumnotatie instelt voor de categorie-as in een PowerPoint-grafiek met behulp van Aspose.Slides voor Java. Aspose.Slides voor Java is een krachtige bibliotheek waarmee je PowerPoint-presentaties programmatisch kunt maken, bewerken en beheren.
 
 ## Vereisten
 
-Zorg ervoor dat u over het volgende beschikt voordat u begint:
+Voordat u begint, moet u ervoor zorgen dat u het volgende heeft:
 
-1. Aspose.Slides voor Java-bibliotheek (u kunt deze downloaden van[hier](https://releases.aspose.com/slides/java/).
-2. Java-ontwikkelomgeving opgezet.
+1. Aspose.Slides voor Java-bibliotheek (u kunt deze downloaden van [hier](https://releases.aspose.com/slides/java/).
+2. Java-ontwikkelomgeving instellen.
 
 ## Stap 1: Maak een PowerPoint-presentatie
 
-Eerst moeten we een PowerPoint-presentatie maken waarin we een diagram toevoegen. Zorg ervoor dat u de benodigde Aspose.Slides-klassen hebt geïmporteerd.
+Eerst moeten we een PowerPoint-presentatie maken waaraan we een grafiek toevoegen. Zorg ervoor dat je de benodigde Aspose.Slides-klassen hebt geïmporteerd.
 
 ```java
 // Het pad naar de documentenmap.
@@ -35,17 +37,17 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 ```
 
-## Stap 2: Voeg een diagram toe aan de dia
+## Stap 2: Voeg een grafiek toe aan de dia
 
-Laten we nu een diagram aan de PowerPoint-dia toevoegen. In dit voorbeeld gebruiken we een vlakdiagram.
+Laten we nu een grafiek toevoegen aan de PowerPoint-dia. In dit voorbeeld gebruiken we een vlakdiagram.
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Area, 50, 50, 450, 300);
 ```
 
-## Stap 3: Bereid grafiekgegevens voor
+## Stap 3: Grafiekgegevens voorbereiden
 
-We zullen de grafiekgegevens en categorieën instellen. In dit voorbeeld gebruiken we datumcategorieën.
+We gaan de grafiekgegevens en -categorieën instellen. In dit voorbeeld gebruiken we datumcategorieën.
 
 ```java
 IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
@@ -68,7 +70,7 @@ series.getDataPoints().addDataPointForLineSeries(wb.getCell(0, "B4", 3));
 series.getDataPoints().addDataPointForLineSeries(wb.getCell(0, "B5", 4));
 ```
 
-## Stap 4: Categorie-as aanpassen
+## Stap 4: Pas de categorie-as aan
 Laten we nu de categorie-as aanpassen om datums in een specifiek formaat weer te geven (bijvoorbeeld jjjj).
 
 ```java
@@ -84,9 +86,9 @@ Sla ten slotte de PowerPoint-presentatie op.
 pres.save(dataDir + "test.pptx", SaveFormat.Pptx);
 ```
 
-Dat is het! U hebt met succes een datumnotatie voor de categorie-as in een PowerPoint-grafiek ingesteld met behulp van Aspose.Slides voor Java.
+Dat is alles! Je hebt met succes een datumnotatie ingesteld voor de categorie-as in een PowerPoint-grafiek met behulp van Aspose.Slides voor Java.
 
-## Volledige broncode voor het instellen van het datumformaat voor de categorie-as in Java-dia's
+## Volledige broncode voor het instellen van de datumnotatie voor de categorie-as in Java-dia's
 
 ```java
 	// Het pad naar de documentenmap.
@@ -130,24 +132,26 @@ public static String convertToOADate(GregorianCalendar date) throws ParseExcepti
 
 ##Conclusie
 
-hebt met succes de datumnotatie voor de categorie-as in een Java Slides-diagram aangepast met Aspose.Slides voor Java. Hierdoor kunt u datumwaarden in het gewenste formaat in uw diagrammen presenteren. Voel je vrij om verdere aanpassingsopties te verkennen op basis van jouw specifieke vereisten.
+U hebt de datumnotatie voor de categorie-as in een Java Slides-diagram succesvol aangepast met Aspose.Slides voor Java. Hiermee kunt u datumwaarden in de gewenste notatie in uw diagrammen weergeven. U kunt gerust verdere aanpassingsopties verkennen op basis van uw specifieke vereisten.
 
 ## Veelgestelde vragen
 
 ### Hoe wijzig ik de datumnotatie voor de categorie-as?
 
- Om de datumnotatie voor de categorie-as te wijzigen, gebruikt u de`setNumberFormat` methode op de categorie-as en geef het gewenste datumnotatiepatroon op, zoals "jjjj-MM-dd" of "MM/jjjj". Zorg ervoor dat u dit instelt`setNumberFormatLinkedToSource(false)` om het standaardformaat te overschrijven.
+Om de datumnotatie voor de categorie-as te wijzigen, gebruikt u de `setNumberFormat` methode op de categorie-as en geef het gewenste datumnotatiepatroon op, zoals "jjjj-MM-dd" of "MM/jjjj". Zorg ervoor dat u `setNumberFormatLinkedToSource(false)` om de standaardopmaak te negeren.
 
-### Kan ik verschillende datumnotaties gebruiken voor verschillende diagrammen in dezelfde presentatie?
+### Kan ik verschillende datumnotaties gebruiken voor verschillende grafieken in dezelfde presentatie?
 
-Ja, u kunt binnen dezelfde presentatie verschillende datumnotaties instellen voor categorie-assen in verschillende diagrammen. Pas indien nodig eenvoudig de categorie-as voor elk diagram aan.
+Ja, u kunt verschillende datumnotaties instellen voor categorieassen in verschillende grafieken binnen dezelfde presentatie. Pas de categorieas voor elke grafiek eenvoudig naar wens aan.
 
-### Hoe voeg ik meer gegevenspunten toe aan het diagram?
+### Hoe voeg ik meer datapunten toe aan de grafiek?
 
- Als u meer gegevenspunten aan het diagram wilt toevoegen, gebruikt u de`getDataPoints().addDataPointForLineSeries`methode op de gegevensreeksen en geef de gegevenswaarden op.
+Om meer datapunten aan de grafiek toe te voegen, gebruikt u de `getDataPoints().addDataPointForLineSeries` methode op de gegevensreeks en geef de gegevenswaarden op.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

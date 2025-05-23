@@ -1,24 +1,26 @@
 ---
-title: Graphique de carte arborescente dans les diapositives Java
-linktitle: Graphique de carte arborescente dans les diapositives Java
-second_title: API de traitement Java PowerPoint d'Aspose.Slides
-description: Créez des graphiques arborescents dans Java Slides à l'aide d'Aspose.Slides pour Java. Guide étape par étape avec code source pour visualiser les données hiérarchiques.
-weight: 13
-url: /fr/java/chart-creation/tree-map-chart-java-slides/
+"description": "Créez des graphiques arborescents dans Java Slides avec Aspose.Slides pour Java. Guide étape par étape avec code source pour visualiser des données hiérarchiques."
+"linktitle": "Diagramme arborescent en diapositives Java"
+"second_title": "API de traitement Java PowerPoint Aspose.Slides"
+"title": "Diagramme arborescent en diapositives Java"
+"url": "/fr/java/chart-creation/tree-map-chart-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Graphique de carte arborescente dans les diapositives Java
+# Diagramme arborescent en diapositives Java
 
 
-## Introduction au graphique arborescent dans Java Slides
+## Introduction aux diagrammes arborescents en Java (diapositives)
 
-Dans ce didacticiel, nous montrerons comment créer un graphique Tree Map dans une présentation PowerPoint à l'aide de la bibliothèque Aspose.Slides pour Java. Les graphiques Tree Map sont un moyen efficace de visualiser des données hiérarchiques.
+Dans ce tutoriel, nous vous montrerons comment créer un graphique arborescent dans une présentation PowerPoint à l'aide de la bibliothèque Aspose.Slides pour Java. Les graphiques arborescents sont un moyen efficace de visualiser des données hiérarchiques.
 
-## Conditions préalables
+## Prérequis
 
 Avant de commencer, assurez-vous que la bibliothèque Aspose.Slides pour Java est configurée dans votre projet Java.
 
@@ -91,7 +93,7 @@ try {
 }
 ```
 
-## Code source complet pour le graphique arborescent dans les diapositives Java
+## Code source complet pour le diagramme arborescent en Java (diapositives)
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
@@ -139,28 +141,30 @@ finally
 
 ## Conclusion
 
-Dans ce didacticiel, vous avez appris à créer un graphique Tree Map dans une présentation PowerPoint à l'aide de la bibliothèque Aspose.Slides pour Java. Les graphiques Tree Map sont un outil précieux pour visualiser des données hiérarchiques, rendant vos présentations plus informatives et plus attrayantes.
+Dans ce tutoriel, vous avez appris à créer un diagramme arborescent dans une présentation PowerPoint à l'aide de la bibliothèque Aspose.Slides pour Java. Les diagrammes arborescents sont un outil précieux pour visualiser des données hiérarchiques, rendant vos présentations plus informatives et attrayantes.
 
 ## FAQ
 
-### Comment ajouter des données au graphique Tree Map ?
+### Comment ajouter des données au graphique Tree Map ?
 
- Pour ajouter des données au graphique Tree Map, utilisez l'outil`series.getDataPoints().addDataPointForTreemapSeries()` méthode, en passant les valeurs des données en tant que paramètres.
+Pour ajouter des données au graphique Tree Map, utilisez le `series.getDataPoints().addDataPointForTreemapSeries()` méthode, passant les valeurs de données en tant que paramètres.
 
-### Comment puis-je personnaliser l’apparence du graphique Tree Map ?
+### Comment puis-je personnaliser l'apparence du graphique Tree Map ?
 
- Vous pouvez personnaliser l'apparence du graphique Tree Map en modifiant diverses propriétés du`chart` et`series`objets, tels que les couleurs, les étiquettes et les mises en page.
+Vous pouvez personnaliser l'apparence du graphique Tree Map en modifiant diverses propriétés du `chart` et `series` objets, tels que des couleurs, des étiquettes et des mises en page.
 
 ### Puis-je créer plusieurs graphiques Tree Map dans une seule présentation ?
 
-Oui, vous pouvez créer plusieurs graphiques Tree Map dans une seule présentation en suivant les mêmes étapes et en spécifiant différentes positions des diapositives.
+Oui, vous pouvez créer plusieurs graphiques Tree Map dans une seule présentation en suivant les mêmes étapes et en spécifiant différentes positions de diapositives.
 
-### Comment puis-je enregistrer la présentation avec le graphique Tree Map ?
+### Comment enregistrer la présentation avec le graphique Tree Map ?
 
- Utilisez le`pres.save()` méthode pour enregistrer la présentation avec le graphique Tree Map dans le format souhaité (par exemple, PPTX).
+Utilisez le `pres.save()` méthode pour enregistrer la présentation avec le graphique Tree Map au format souhaité (par exemple, PPTX).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

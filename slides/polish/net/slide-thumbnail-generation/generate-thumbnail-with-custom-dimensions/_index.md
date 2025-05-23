@@ -1,42 +1,44 @@
 ---
-title: Generuj miniatury na slajdach o niestandardowych wymiarach
-linktitle: Wygeneruj miniaturę z niestandardowymi wymiarami
-second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Dowiedz się, jak generować niestandardowe miniatury z prezentacji programu PowerPoint za pomocą Aspose.Slides dla .NET. Zwiększ komfort użytkowania i funkcjonalność.
-weight: 13
-url: /pl/net/slide-thumbnail-generation/generate-thumbnail-with-custom-dimensions/
+"description": "Dowiedz się, jak generować niestandardowe obrazy miniatur z prezentacji PowerPoint przy użyciu Aspose.Slides dla .NET. Ulepsz wrażenia użytkownika i funkcjonalność."
+"linktitle": "Generuj miniaturę z niestandardowymi wymiarami"
+"second_title": "Aspose.Slides .NET API przetwarzania programu PowerPoint"
+"title": "Generuj miniatury w slajdach z niestandardowymi wymiarami"
+"url": "/pl/net/slide-thumbnail-generation/generate-thumbnail-with-custom-dimensions/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Generuj miniatury na slajdach o niestandardowych wymiarach
+# Generuj miniatury w slajdach z niestandardowymi wymiarami
 
 
-Tworzenie niestandardowych miniatur prezentacji programu PowerPoint może być cennym nabytkiem, niezależnie od tego, czy tworzysz interaktywną aplikację, poprawiasz komfort użytkownika, czy optymalizujesz zawartość dla różnych platform. W tym samouczku przeprowadzimy Cię przez proces generowania niestandardowych miniatur z prezentacji programu PowerPoint przy użyciu biblioteki Aspose.Slides dla .NET. Ta potężna biblioteka umożliwia programowe manipulowanie, konwertowanie i ulepszanie plików programu PowerPoint w aplikacjach .NET.
+Tworzenie niestandardowych miniatur prezentacji PowerPoint może być cennym atutem, niezależnie od tego, czy tworzysz interaktywną aplikację, ulepszasz doświadczenie użytkownika, czy optymalizujesz zawartość dla różnych platform. W tym samouczku przeprowadzimy Cię przez proces generowania niestandardowych miniatur prezentacji PowerPoint przy użyciu biblioteki Aspose.Slides for .NET. Ta potężna biblioteka umożliwia programowe manipulowanie, konwertowanie i ulepszanie plików PowerPoint w aplikacjach .NET.
 
-## Warunki wstępne
+## Wymagania wstępne
 
-Zanim zajmiemy się generowaniem niestandardowych obrazów miniatur, upewnij się, że spełnione są następujące wymagania wstępne:
+Zanim przejdziemy do generowania niestandardowych miniatur, upewnij się, że spełnione są następujące wymagania wstępne:
 
 ### 1. Aspose.Slides dla .NET
 
- Musisz mieć zainstalowaną bibliotekę Aspose.Slides for .NET w swoim projekcie. Jeśli jeszcze tego nie zrobiłeś, możesz znaleźć niezbędną dokumentację i linki do pobrania[Tutaj](https://reference.aspose.com/slides/net/).
+Musisz mieć zainstalowaną bibliotekę Aspose.Slides for .NET w swoim projekcie. Jeśli jeszcze tego nie zrobiłeś, możesz znaleźć potrzebną dokumentację i linki do pobrania [Tutaj](https://reference.aspose.com/slides/net/).
 
-### 2. Prezentacja programu PowerPoint
+### 2. Prezentacja PowerPoint
 
-Upewnij się, że masz prezentację programu PowerPoint, z której chcesz wygenerować niestandardową miniaturę. Ta prezentacja powinna być dostępna w katalogu Twojego projektu.
+Upewnij się, że masz prezentację PowerPoint, z której chcesz wygenerować niestandardowy obraz miniatury. Ta prezentacja powinna być dostępna w katalogu projektu.
 
 ### 3. Środowisko programistyczne
 
-Aby skorzystać z tego samouczka, należy posiadać praktyczną wiedzę na temat programowania .NET przy użyciu języka C# i skonfigurowanego środowiska programistycznego, takiego jak Visual Studio.
+Aby móc skorzystać z tego samouczka, musisz mieć praktyczną znajomość programowania .NET za pomocą języka C# i posiadać skonfigurowane środowisko programistyczne, np. Visual Studio.
 
-Teraz, gdy omówiliśmy wymagania wstępne, podzielmy proces generowania niestandardowych miniatur na instrukcje krok po kroku.
+Teraz, gdy omówiliśmy już wymagania wstępne, możemy przedstawić proces generowania niestandardowych miniatur w postaci instrukcji krok po kroku.
 
 ## Importuj przestrzenie nazw
 
-Najpierw musisz uwzględnić wymagane przestrzenie nazw w kodzie C#. Te przestrzenie nazw umożliwiają pracę z Aspose.Slides i manipulowanie prezentacjami programu PowerPoint.
+Najpierw musisz uwzględnić wymagane przestrzenie nazw w kodzie C#. Te przestrzenie nazw umożliwiają pracę z Aspose.Slides i manipulowanie prezentacjami PowerPoint.
 
 ```csharp
 using Aspose.Slides;
@@ -45,31 +47,31 @@ using System.Drawing;
 
 ## Krok 1: Załaduj prezentację
 
-Aby rozpocząć, załaduj prezentację programu PowerPoint, z której chcesz wygenerować niestandardową miniaturę. Osiąga się to za pomocą biblioteki Aspose.Slides.
+Na początek wczytaj prezentację PowerPoint, z której chcesz wygenerować niestandardowy obraz miniatury. Można to zrobić za pomocą biblioteki Aspose.Slides.
 
 ```csharp
 string FilePath = @"..\..\..\Sample Files\";
 string srcFileName = FilePath + "User Defined Thumbnail.pptx";
 
-// Utwórz instancję klasy Prezentacja reprezentującej plik prezentacji
+// Utwórz klasę Presentation reprezentującą plik prezentacji
 using (Presentation pres = new Presentation(srcFileName))
 {
-    // Twój kod do generowania miniatur będzie tutaj
+    // Twój kod do generowania miniaturek będzie tutaj
 }
 ```
 
-## Krok 2: Uzyskaj dostęp do slajdu
+## Krok 2: Dostęp do slajdu
 
-W załadowanej prezentacji musisz uzyskać dostęp do konkretnego slajdu, z którego chcesz wygenerować niestandardową miniaturę. Możesz wybrać slajd według jego indeksu.
+W załadowanej prezentacji musisz uzyskać dostęp do konkretnego slajdu, z którego chcesz wygenerować niestandardowy obraz miniatury. Możesz wybrać slajd według jego indeksu.
 
 ```csharp
-// Uzyskaj dostęp do pierwszego slajdu (w razie potrzeby możesz zmienić indeks)
+// Uzyskaj dostęp do pierwszego slajdu (indeks możesz zmienić w razie potrzeby)
 ISlide sld = pres.Slides[0];
 ```
 
 ## Krok 3: Zdefiniuj niestandardowe wymiary miniatur
 
-Określ żądane wymiary niestandardowej miniatury. Możesz zdefiniować szerokość i wysokość w pikselach zgodnie z wymaganiami aplikacji.
+Określ żądane wymiary dla swojego niestandardowego obrazu miniatury. Możesz zdefiniować szerokość i wysokość w pikselach zgodnie z wymaganiami swojej aplikacji.
 
 ```csharp
 int desiredX = 1200; // Szerokość
@@ -78,7 +80,7 @@ int desiredY = 800;  // Wysokość
 
 ## Krok 4: Oblicz współczynniki skalowania
 
-Aby zachować proporcje slajdu, oblicz współczynniki skalowania dla wymiarów X i Y w oparciu o rozmiar slajdu i żądane wymiary.
+Aby zachować proporcje slajdu, oblicz współczynniki skalowania dla wymiarów X i Y na podstawie rozmiaru slajdu i pożądanych wymiarów.
 
 ```csharp
 float ScaleX = (float)(1.0 / pres.SlideSize.Size.Width) * desiredX;
@@ -87,7 +89,7 @@ float ScaleY = (float)(1.0 / pres.SlideSize.Size.Height) * desiredY;
 
 ## Krok 5: Wygeneruj obraz miniatury
 
-Utwórz pełnowymiarowy obraz slajdu o określonych niestandardowych wymiarach i zapisz go na dysku w formacie JPEG.
+Utwórz obraz slajdu w pełnej skali o określonych wymiarach i zapisz go na dysku w formacie JPEG.
 
 ```csharp
 // Utwórz obraz w pełnej skali
@@ -97,33 +99,35 @@ Bitmap bmp = sld.GetThumbnail(ScaleX, ScaleY);
 bmp.Save(destFileName, System.Drawing.Imaging.ImageFormat.Jpeg);
 ```
 
-Po wykonaniu tych kroków powinieneś pomyślnie wygenerować niestandardową miniaturę z prezentacji programu PowerPoint.
+Po wykonaniu tych kroków powinieneś pomyślnie wygenerować niestandardowy obraz miniatury ze swojej prezentacji PowerPoint.
 
 ## Wniosek
 
-Generowanie niestandardowych miniatur z prezentacji programu PowerPoint przy użyciu Aspose.Slides dla .NET to cenna umiejętność, która może poprawić komfort użytkowania i funkcjonalność aplikacji. Wykonując kroki opisane w tym samouczku, możesz łatwo tworzyć niestandardowe miniatury spełniające Twoje specyficzne wymagania.
+Generowanie niestandardowych miniatur z prezentacji PowerPoint przy użyciu Aspose.Slides dla .NET to cenna umiejętność, która może poprawić wrażenia użytkownika i funkcjonalność Twoich aplikacji. Postępując zgodnie z krokami opisanymi w tym samouczku, możesz łatwo tworzyć niestandardowe miniatury, które spełniają Twoje specyficzne wymagania.
 
 ---
 
-## Często zadawane pytania (często zadawane pytania)
+## FAQ (najczęściej zadawane pytania)
 
-### Co to jest Aspose.Slides dla .NET?
-Aspose.Slides dla .NET to potężna biblioteka, która umożliwia programistom programową pracę z prezentacjami programu PowerPoint w aplikacjach .NET.
+### Czym jest Aspose.Slides dla .NET?
+Aspose.Slides for .NET to zaawansowana biblioteka umożliwiająca programistom programistyczną pracę z prezentacjami PowerPoint w aplikacjach .NET.
 
 ### Gdzie mogę znaleźć dokumentację Aspose.Slides dla .NET?
- Można znaleźć dokumentację[Tutaj](https://reference.aspose.com/slides/net/).
+Dokumentację można znaleźć [Tutaj](https://reference.aspose.com/slides/net/).
 
 ### Czy korzystanie z Aspose.Slides dla .NET jest bezpłatne?
- Aspose.Slides dla .NET to biblioteka komercyjna. Można znaleźć informacje o cenach i licencjach[Tutaj](https://purchase.aspose.com/buy).
+Aspose.Slides dla .NET to komercyjna biblioteka. Informacje o cenach i licencjach można znaleźć [Tutaj](https://purchase.aspose.com/buy).
 
-### Czy potrzebuję zaawansowanych umiejętności programowania, aby korzystać z Aspose.Slides dla .NET?
-Chociaż pewna znajomość programowania .NET jest korzystna, Aspose.Slides dla .NET zapewnia przyjazny dla użytkownika interfejs API, który upraszcza pracę z prezentacjami programu PowerPoint.
+### Czy do korzystania z Aspose.Slides dla .NET potrzebne są zaawansowane umiejętności programistyczne?
+Chociaż pewna znajomość programowania .NET może być przydatna, Aspose.Slides for .NET udostępnia przyjazny dla użytkownika interfejs API, który ułatwia pracę z prezentacjami PowerPoint.
 
-### Czy dostępna jest pomoc techniczna dla Aspose.Slides dla .NET?
- Tak, możesz uzyskać dostęp do pomocy technicznej i forów społeczności[Tutaj](https://forum.aspose.com/).
+### Czy dla Aspose.Slides dla .NET dostępna jest pomoc techniczna?
+Tak, możesz uzyskać dostęp do pomocy technicznej i forów społecznościowych [Tutaj](https://forum.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

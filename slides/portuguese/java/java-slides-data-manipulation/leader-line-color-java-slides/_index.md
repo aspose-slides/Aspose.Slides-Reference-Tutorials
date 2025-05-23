@@ -1,32 +1,34 @@
 ---
-title: Cor da linha líder em slides Java
-linktitle: Cor da linha líder em slides Java
-second_title: API de processamento Aspose.Slides Java PowerPoint
-description: Aprenda como alterar as cores das linhas de chamada em gráficos do PowerPoint usando Aspose.Slides para Java. Guia passo a passo com exemplos de código-fonte.
-weight: 12
-url: /pt/java/data-manipulation/leader-line-color-java-slides/
+"description": "Aprenda a alterar as cores das linhas de chamada em gráficos do PowerPoint usando o Aspose.Slides para Java. Guia passo a passo com exemplos de código-fonte."
+"linktitle": "Cor da linha de liderança em slides Java"
+"second_title": "API de processamento Java PowerPoint Aspose.Slides"
+"title": "Cor da linha de liderança em slides Java"
+"url": "/pt/java/data-manipulation/leader-line-color-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cor da linha líder em slides Java
+# Cor da linha de liderança em slides Java
 
 
-## Introdução à cor da linha líder em Aspose.Slides para Java
+## Introdução à cor da linha de liderança no Aspose.Slides para Java
 
-Neste tutorial, exploraremos como alterar a cor da linha líder de um gráfico em uma apresentação do PowerPoint usando Aspose.Slides para Java. As linhas líderes são usadas em gráficos para conectar rótulos de dados aos seus pontos de dados correspondentes. Usaremos código Java para realizar esta tarefa.
+Neste tutorial, exploraremos como alterar a cor da linha de chamada de um gráfico em uma apresentação do PowerPoint usando o Aspose.Slides para Java. As linhas de chamada são usadas em gráficos para conectar rótulos de dados aos seus pontos de dados correspondentes. Usaremos código Java para realizar essa tarefa.
 
 ## Pré-requisitos
 
 Antes de começar, certifique-se de ter o seguinte:
 
--  Aspose.Slides para API Java instalada. Você pode baixá-lo em[aqui](https://releases.aspose.com/slides/java/).
+- Aspose.Slides para API Java instalada. Você pode baixá-la em [aqui](https://releases.aspose.com/slides/java/).
 
-## Etapa 1: carregar a apresentação
+## Etapa 1: Carregue a apresentação
 
- Primeiro, você precisa carregar a apresentação do PowerPoint que contém o gráfico que deseja modificar. Substituir`presentationName` com o caminho para o seu arquivo PowerPoint.
+Primeiro, você precisa carregar a apresentação do PowerPoint que contém o gráfico que deseja modificar. Substituir `presentationName` com o caminho para o seu arquivo do PowerPoint.
 
 ```java
 String presentationName = "path/to/your/presentation.pptx";
@@ -34,40 +36,40 @@ String outPath = "output/path/output.pptx";
 Presentation pres = new Presentation(presentationName);
 ```
 
-## Etapa 2: acesse o gráfico e os rótulos de dados
+## Etapa 2: acesse os rótulos de gráfico e dados
 
-A seguir, acessaremos o gráfico e os rótulos de dados da apresentação. Neste exemplo, assumimos que o gráfico está localizado no primeiro slide.
+Em seguida, acessaremos os rótulos do gráfico e dos dados na apresentação. Neste exemplo, presumimos que o gráfico está localizado no primeiro slide.
 
 ```java
 // Obtenha o gráfico do primeiro slide
 IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
 
-//Obtenha a série do gráfico
+// Obter série do gráfico
 IChartSeriesCollection series = chart.getChartData().getSeries();
 
-// Obtenha rótulos da primeira série
+// Obtenha os rótulos da primeira série
 IDataLabelCollection labels = series.get_Item(0).getLabels();
 ```
 
-## Etapa 3: alterar a cor da linha líder
+## Etapa 3: Alterar a cor da linha de liderança
 
-Agora, mudaremos a cor de todas as linhas líderes da coleção para vermelho. Você pode personalizar a cor de acordo com suas necessidades.
+Agora, mudaremos a cor de todas as linhas de liderança da coleção para vermelho. Você pode personalizar a cor conforme desejar.
 
 ```java
-// Altere a cor de todas as linhas líderes da coleção para vermelho
+// Alterar a cor de todas as linhas de liderança na coleção para vermelho
 labels.getLeaderLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
 ```
 
-## Etapa 4: salve a apresentação modificada
+## Etapa 4: Salve a apresentação modificada
 
 Por fim, salve a apresentação com as cores da linha de chamada modificadas em um novo arquivo.
 
 ```java
-//Salve a apresentação modificada
+// Salvar a apresentação modificada
 pres.save(outPath, SaveFormat.Pptx);
 ```
 
-## Código-fonte completo para cor da linha líder em slides Java
+## Código-fonte completo para cores de linha de liderança em slides Java
 
 ```java
         String presentationName = "Your Document Directory";
@@ -76,11 +78,11 @@ pres.save(outPath, SaveFormat.Pptx);
         try {
             // Obtenha o gráfico do primeiro slide
             IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
-            //Obtenha a série do gráfico
+            // Obter série do gráfico
             IChartSeriesCollection series = chart.getChartData().getSeries();
-            // Obtenha os lebels da primeira série
+            // Obtenha os níveis da primeira série
             IDataLabelCollection labels = series.get_Item(0).getLabels();
-            // Alterar a cor de todas as linhas líderes da coleção
+            // Alterar a cor de todas as linhas de liderança na coleção
             labels.getLeaderLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
             // Salvar resultado
             pres.save(outPath, SaveFormat.Pptx);
@@ -91,40 +93,42 @@ pres.save(outPath, SaveFormat.Pptx);
 
 ## Conclusão
 
-Neste tutorial, aprendemos como alterar a cor da linha líder em um gráfico do PowerPoint usando Aspose.Slides para Java. Você pode personalizar a cor e outras opções de formatação para atender às suas necessidades específicas. Isso pode ser particularmente útil quando você deseja destacar determinados pontos de dados em seus gráficos para melhor visualização.
+Neste tutorial, aprendemos como alterar a cor da linha de chamada em um gráfico do PowerPoint usando o Aspose.Slides para Java. Você pode personalizar a cor e outras opções de formatação para atender às suas necessidades específicas. Isso pode ser particularmente útil quando você deseja destacar determinados pontos de dados em seus gráficos para melhor visualização.
 
 ## Perguntas frequentes
 
-### Posso alterar a cor da linha líder para uma cor personalizada?
+### Posso alterar a cor da linha de liderança para uma cor personalizada?
 
-Sim, você pode alterar a cor da linha líder para uma cor personalizada. No exemplo de código fornecido, definimos a cor da linha líder como vermelho (Color.RED). Você pode substituir "Color.RED" por qualquer outra cor válida em Java para obter a cor desejada para suas linhas líderes.
+Sim, você pode alterar a cor da linha de chamada para uma cor personalizada. No exemplo de código fornecido, definimos a cor da linha de chamada como vermelho (Color.RED). Você pode substituir "Color.RED" por qualquer outra cor válida em Java para obter a cor desejada para suas linhas de chamada.
 
-### Como acesso e modifico outras propriedades do gráfico usando Aspose.Slides for Java?
+### Como posso acessar e modificar outras propriedades do gráfico usando o Aspose.Slides para Java?
 
-Para acessar e modificar outras propriedades do gráfico, você pode explorar as várias classes e métodos fornecidos por Aspose.Slides para API de gráfico do Java. Você pode manipular dados do gráfico, formatação, rótulos e muito mais. Consulte a documentação do Aspose.Slides para Java para obter informações detalhadas e exemplos de código.
+Para acessar e modificar outras propriedades do gráfico, você pode explorar as diversas classes e métodos fornecidos pela API de Gráficos do Aspose.Slides para Java. Você pode manipular dados do gráfico, formatação, rótulos e muito mais. Consulte a documentação do Aspose.Slides para Java para obter informações detalhadas e exemplos de código.
 
 ### Existe uma versão de teste do Aspose.Slides para Java disponível?
 
- Sim, você pode solicitar uma versão de teste gratuita do Aspose.Slides for Java no site do Aspose. A versão de teste permite avaliar os recursos e capacidades da biblioteca antes de tomar uma decisão de compra. Visite a[Página de teste gratuito do Aspose.Slides para Java](https://products.aspose.com/slides/java) para começar.
+Sim, você pode solicitar uma versão de teste gratuita do Aspose.Slides para Java no site do Aspose. A versão de teste permite que você avalie os recursos e funcionalidades da biblioteca antes de tomar uma decisão de compra. Visite o [Página de teste gratuito do Aspose.Slides para Java](https://products.aspose.com/slides/java) para começar.
 
-### Como posso aprender mais sobre como usar Aspose.Slides para Java?
+### Como posso aprender mais sobre como usar o Aspose.Slides para Java?
 
- Você pode encontrar documentação abrangente e exemplos de código adicionais sobre como usar Aspose.Slides for Java no site Aspose. Visite a[Aspose.Slides para documentação Java](https://docs.aspose.com/slides/java/) para guias e tutoriais detalhados.
+Você pode encontrar documentação completa e exemplos de código adicionais sobre como usar o Aspose.Slides para Java no site do Aspose. Visite o [Documentação do Aspose.Slides para Java](https://docs.aspose.com/slides/java/) para guias e tutoriais detalhados.
 
-### Preciso de uma licença para usar Aspose.Slides for Java em um projeto comercial?
+### Preciso de uma licença para usar o Aspose.Slides para Java em um projeto comercial?
 
- Sim, geralmente você precisa de uma licença válida para usar Aspose.Slides for Java em um projeto comercial. Aspose oferece várias opções de licenciamento, incluindo uma licença de avaliação gratuita para fins de teste e avaliação. Entretanto, para uso em produção, você deverá obter a licença comercial apropriada. Visite a[Página de compra do Aspose](https://purchase.aspose.com/) para detalhes de licenciamento.
+Sim, geralmente você precisa de uma licença válida para usar o Aspose.Slides para Java em um projeto comercial. O Aspose oferece diversas opções de licenciamento, incluindo uma licença de avaliação gratuita para fins de teste e avaliação. No entanto, para uso em produção, você deve obter a licença comercial apropriada. Visite o site [Página de compra da Aspose](https://purchase.aspose.com/) para obter detalhes sobre o licenciamento.
 
-### Como posso obter suporte técnico para Aspose.Slides for Java?
+### Como posso obter suporte técnico para o Aspose.Slides para Java?
 
-Você pode obter suporte técnico para Aspose.Slides for Java visitando o fórum de suporte do Aspose, onde você pode fazer perguntas, relatar problemas e interagir com a comunidade Aspose. Além disso, se você tiver uma licença comercial válida, poderá ter direito ao suporte técnico direto da Aspose.
+Você pode obter suporte técnico para o Aspose.Slides para Java acessando o fórum de suporte do Aspose, onde você pode tirar dúvidas, relatar problemas e interagir com a comunidade Aspose. Além disso, se você tiver uma licença comercial válida, poderá ter direito a suporte técnico direto do Aspose.
 
-### Posso usar Aspose.Slides for Java com outras bibliotecas e estruturas Java?
+### Posso usar o Aspose.Slides para Java com outras bibliotecas e frameworks Java?
 
-Sim, você pode integrar Aspose.Slides for Java com outras bibliotecas e estruturas Java conforme necessário para o seu projeto. Aspose.Slides fornece APIs para trabalhar com diversos recursos do PowerPoint, possibilitando combiná-lo com outras ferramentas e tecnologias para criar aplicativos poderosos.
+Sim, você pode integrar o Aspose.Slides para Java com outras bibliotecas e frameworks Java, conforme necessário para o seu projeto. O Aspose.Slides fornece APIs para trabalhar com diversos recursos do PowerPoint, possibilitando a combinação com outras ferramentas e tecnologias para criar aplicativos poderosos.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

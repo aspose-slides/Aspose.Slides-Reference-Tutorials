@@ -1,34 +1,36 @@
 ---
-title: Bagan Peta di Slide Java
-linktitle: Bagan Peta di Slide Java
-second_title: Aspose.Slides API Pemrosesan Java PowerPoint
-description: Buat Bagan Peta yang Menakjubkan dalam Presentasi PowerPoint dengan Aspose.Slides untuk Java. Panduan langkah demi langkah dan kode sumber untuk pengembang Java.
-weight: 15
-url: /id/java/chart-elements/map-chart-java-slides/
+"description": "Buat Bagan Peta yang Menakjubkan dalam Presentasi PowerPoint dengan Aspose.Slides untuk Java. Panduan langkah demi langkah dan kode sumber untuk pengembang Java."
+"linktitle": "Bagan Peta dalam Slide Java"
+"second_title": "API Pemrosesan PowerPoint Java Aspose.Slides"
+"title": "Bagan Peta dalam Slide Java"
+"url": "/id/java/chart-elements/map-chart-java-slides/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Bagan Peta di Slide Java
+# Bagan Peta dalam Slide Java
 
 
 ## Pengenalan Bagan Peta di Slide Java menggunakan Aspose.Slides untuk Java
 
-Dalam tutorial ini, kami akan memandu Anda melalui proses pembuatan Bagan Peta dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Bagan peta adalah cara terbaik untuk memvisualisasikan data geografis dalam presentasi Anda.
+Dalam tutorial ini, kami akan memandu Anda melalui proses pembuatan Bagan Peta dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Bagan peta merupakan cara yang bagus untuk memvisualisasikan data geografis dalam presentasi Anda.
 
 ## Prasyarat
 
- Sebelum memulai, pastikan Anda memiliki perpustakaan Aspose.Slides untuk Java yang terintegrasi ke dalam proyek Java Anda. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/slides/java/).
+Sebelum memulai, pastikan Anda telah mengintegrasikan pustaka Aspose.Slides for Java ke dalam proyek Java Anda. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/slides/java/).
 
 ## Langkah 1: Siapkan Proyek Anda
 
-Pastikan Anda telah menyiapkan proyek Java dan menambahkan pustaka Aspose.Slides untuk Java ke jalur kelas proyek Anda.
+Pastikan Anda telah menyiapkan proyek Java Anda dan menambahkan pustaka Aspose.Slides untuk Java ke classpath proyek Anda.
 
 ## Langkah 2: Buat Presentasi PowerPoint
 
-Pertama, mari buat presentasi PowerPoint baru.
+Pertama, mari membuat presentasi PowerPoint baru.
 
 ```java
 String resultPath = "MapChart_out.pptx";
@@ -46,7 +48,7 @@ IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
 
 ## Langkah 4: Tambahkan Data ke Bagan Peta
 
-Mari tambahkan beberapa data ke bagan peta. Kami akan membuat rangkaian dan menambahkan titik data ke dalamnya.
+Mari tambahkan beberapa data ke bagan peta. Kita akan membuat seri dan menambahkan titik data ke dalamnya.
 
 ```java
 IChartSeries series = chart.getChartData().getSeries().add(ChartType.Map);
@@ -65,9 +67,9 @@ chart.getChartData().getCategories().add(wb.getCell(0, "A3", "Mexico"));
 chart.getChartData().getCategories().add(wb.getCell(0, "A4", "Brazil"));
 ```
 
-## Langkah 6: Sesuaikan Titik Data
+## Langkah 6: Kustomisasi Titik Data
 
-Anda dapat menyesuaikan titik data individual. Dalam contoh ini, kita mengubah warna dan nilai titik data tertentu.
+Anda dapat menyesuaikan titik data individual. Dalam contoh ini, kami mengubah warna dan nilai titik data tertentu.
 
 ```java
 IChartDataPoint dataPoint = series.getDataPoints().get_Item(1);
@@ -84,15 +86,15 @@ Terakhir, simpan presentasi dengan bagan peta.
 presentation.save(resultPath, SaveFormat.Pptx);
 ```
 
-Itu dia! Anda telah membuat bagan peta dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Anda dapat menyesuaikan bagan lebih lanjut dan menjelajahi fitur lain yang ditawarkan oleh Aspose.Slides untuk menyempurnakan presentasi Anda.
+Selesai! Anda telah membuat bagan peta dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Anda dapat menyesuaikan bagan lebih lanjut dan menjelajahi fitur lain yang ditawarkan oleh Aspose.Slides untuk menyempurnakan presentasi Anda.
 
-## Kode Sumber Lengkap Untuk Bagan Peta di Slide Java
+## Source Code Lengkap Untuk Map Chart di Java Slides
 
 ```java
 String resultPath = "Your Output Directory" +  "MapChart_out.pptx";
 Presentation presentation = new Presentation();
 try {
-	//membuat grafik kosong
+	//buat bagan kosong
 	IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Map, 50, 50, 500, 400, false);
 	IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
 	//Tambahkan seri dan beberapa titik data
@@ -100,7 +102,7 @@ try {
 	series.getDataPoints().addDataPointForMapSeries(wb.getCell(0, "B2", 5));
 	series.getDataPoints().addDataPointForMapSeries(wb.getCell(0, "B3", 1));
 	series.getDataPoints().addDataPointForMapSeries(wb.getCell(0, "B4", 10));
-	//menambahkan kategori
+	//tambahkan kategori
 	chart.getChartData().getCategories().add(wb.getCell(0, "A2", "United States"));
 	chart.getChartData().getCategories().add(wb.getCell(0, "A3", "Mexico"));
 	chart.getChartData().getCategories().add(wb.getCell(0, "A4", "Brazil"));
@@ -118,28 +120,30 @@ try {
 
 ## Kesimpulan
 
-Dalam tutorial ini, kita telah mempelajari proses pembuatan Bagan Peta dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Bagan peta adalah cara efektif untuk memvisualisasikan data geografis, menjadikan presentasi Anda lebih menarik dan informatif. Mari kita rangkum langkah-langkah utamanya:
+Dalam tutorial ini, kami telah membahas proses pembuatan Bagan Peta dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Bagan peta merupakan cara yang efektif untuk memvisualisasikan data geografis, sehingga presentasi Anda menjadi lebih menarik dan informatif. Mari kita rangkum langkah-langkah utamanya:
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
 ### Bagaimana cara mengubah jenis bagan peta?
 
- Anda dapat mengubah jenis grafik dengan menggantinya`ChartType.Map` dengan tipe bagan yang diinginkan saat membuat bagan di Langkah 3.
+Anda dapat mengubah jenis grafik dengan mengganti `ChartType.Map` dengan jenis bagan yang diinginkan saat membuat bagan di Langkah 3.
 
-### Bagaimana cara menyesuaikan tampilan bagan peta?
+### Bagaimana saya dapat menyesuaikan tampilan bagan peta?
 
- Anda dapat menyesuaikan tampilan bagan dengan memodifikasi properti`dataPoint` objek di Langkah 6. Anda dapat mengubah warna, nilai, dan lainnya.
+Anda dapat menyesuaikan tampilan grafik dengan memodifikasi properti grafik. `dataPoint` objek pada Langkah 6. Anda dapat mengubah warna, nilai, dan banyak lagi.
 
 ### Bisakah saya menambahkan lebih banyak titik data dan kategori?
 
- Ya, Anda dapat menambahkan titik data dan kategori sebanyak yang diperlukan. Cukup gunakan`series.getDataPoints().addDataPointForMapSeries()` Dan`chart.getChartData().getCategories().add()` metode untuk menambahkannya.
+Ya, Anda dapat menambahkan titik data dan kategori sebanyak yang diperlukan. Cukup gunakan `series.getDataPoints().addDataPointForMapSeries()` Dan `chart.getChartData().getCategories().add()` metode untuk menambahkannya.
 
 ### Bagaimana cara mengintegrasikan Aspose.Slides untuk Java ke dalam proyek saya?
 
- Unduh perpustakaan dari[Di Sini](https://releases.aspose.com/slides/java/) dan menambahkannya ke classpath proyek Anda.
+Unduh perpustakaan dari [Di Sini](https://releases.aspose.com/slides/java/) dan menambahkannya ke classpath proyek Anda.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

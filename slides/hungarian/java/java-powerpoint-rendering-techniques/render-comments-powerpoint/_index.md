@@ -1,27 +1,29 @@
 ---
-title: Megjegyzések megjelenítése a PowerPointban
-linktitle: Megjegyzések megjelenítése a PowerPointban
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan jeleníthet meg megjegyzéseket PowerPoint-prezentációkban az Aspose.Slides for Java segítségével. A megjelenés testreszabása és a kép-előnézetek hatékony létrehozása.
-weight: 10
-url: /hu/java/java-powerpoint-rendering-techniques/render-comments-powerpoint/
+"description": "Tanuld meg, hogyan jeleníthetsz meg megjegyzéseket PowerPoint prezentációkban az Aspose.Slides for Java használatával. Testreszabhatod a megjelenést és hatékonyan generálhatsz képelőnézeteket."
+"linktitle": "Megjegyzések renderelése PowerPointban"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Megjegyzések renderelése PowerPointban"
+"url": "/hu/java/java-powerpoint-rendering-techniques/render-comments-powerpoint/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Megjegyzések megjelenítése a PowerPointban
+# Megjegyzések renderelése PowerPointban
 
 ## Bevezetés
-Ebben az oktatóanyagban végigvezetjük a megjegyzések megjelenítésének folyamatát PowerPoint-prezentációkban az Aspose.Slides for Java használatával. A megjegyzések megjelenítése különféle célokra hasznos lehet, például a prezentációk kép-előnézeteinek létrehozásához megjegyzésekkel együtt.
+Ebben az oktatóanyagban bemutatjuk a PowerPoint-bemutatókban a megjegyzések renderelésének folyamatát az Aspose.Slides for Java használatával. A megjegyzések renderelésének számos célja lehet, például a prezentációk képelőnézeteinek létrehozása megjegyzésekkel együtt.
 ## Előfeltételek
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik az alábbiakkal:
-1. Java Development Kit (JDK): Győződjön meg arról, hogy a JDK telepítve van a rendszeren.
-2.  Aspose.Slides for Java: Töltse le és telepítse az Aspose.Slides for Java könyvtárat a[letöltési link](https://releases.aspose.com/slides/java/).
-3. IDE: Java kód írásához és végrehajtásához integrált fejlesztői környezetre (IDE) van szüksége, mint például az Eclipse vagy az IntelliJ IDEA.
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következőkkel rendelkezünk:
+1. Java fejlesztőkészlet (JDK): Győződjön meg arról, hogy a JDK telepítve van a rendszerén.
+2. Aspose.Slides Java-hoz: Töltse le és telepítse az Aspose.Slides Java-hoz könyvtárat a következő helyről: [letöltési link](https://releases.aspose.com/slides/java/).
+3. IDE: Java kód írásához és végrehajtásához integrált fejlesztői környezetre (IDE) van szüksége, például Eclipse-re vagy IntelliJ IDEA-ra.
 ## Csomagok importálása
-Kezdje a szükséges csomagok importálásával a Java kódban:
+Kezdje a szükséges csomagok importálásával a Java kódjába:
 ```java
 import com.aspose.slides.*;
 
@@ -32,15 +34,15 @@ import java.io.File;
 import java.io.IOException;
 ```
 ## 1. lépés: A környezet beállítása
-Először állítsa be a Java-környezetet az Aspose.Slides könyvtár felvételével a projekt függőségeibe. Ezt úgy teheti meg, hogy letölti a könyvtárat a megadott hivatkozásról, és hozzáadja a projekt felépítési útvonalához.
+Először is állítsd be a Java környezetedet az Aspose.Slides könyvtár beillesztésével a projekted függőségei közé. Ezt úgy teheted meg, hogy letöltöd a könyvtárat a megadott linkről, és hozzáadod a projekted build útvonalához.
 ## 2. lépés: Töltse be a prezentációt
-Töltse be a megjeleníteni kívánt megjegyzéseket tartalmazó PowerPoint-prezentációs fájlt.
+Töltse be a megjeleníteni kívánt megjegyzéseket tartalmazó PowerPoint bemutatófájlt.
 ```java
 String dataDir = "path/to/your/presentation/";
 Presentation pres = new Presentation(dataDir + "presentation.pptx");
 ```
-## 3. lépés: Konfigurálja a renderelési beállításokat
-Konfigurálja a megjelenítési beállításokat a megjegyzések megjelenítési módjának testreszabásához.
+## 3. lépés: Renderelési beállítások konfigurálása
+Konfigurálja a megjelenítési beállításokat a megjegyzések megjelenítésének testreszabásához.
 ```java
 IRenderingOptions renderOptions = new RenderingOptions();
 renderOptions.getNotesCommentsLayouting().setCommentsAreaColor(Color.RED);
@@ -48,8 +50,8 @@ renderOptions.getNotesCommentsLayouting().setCommentsAreaWidth(200);
 renderOptions.getNotesCommentsLayouting().setCommentsPosition(CommentsPositions.Right);
 renderOptions.getNotesCommentsLayouting().setNotesPosition(NotesPositions.BottomTruncated);
 ```
-## 4. lépés: Rendeljen megjegyzéseket a képhez
-Renderelje le a megjegyzéseket képfájlba a megadott renderelési beállításokkal.
+## 4. lépés: Megjegyzések renderelése képre
+A megjegyzéseket képfájlba renderelheti a megadott renderelési beállításokkal.
 ```java
 try {
     BufferedImage image = new BufferedImage(740, 960, BufferedImage.TYPE_INT_ARGB);
@@ -66,21 +68,23 @@ try {
 ```
 
 ## Következtetés
-Ebben az oktatóanyagban megtanultuk, hogyan jeleníthet meg megjegyzéseket PowerPoint-prezentációkban az Aspose.Slides for Java használatával. Az alábbi lépések követésével kép-előnézeteket hozhat létre a prezentációkról megjegyzésekkel együtt, javítva ezzel a PowerPoint-fájlok vizuális megjelenítését.
+Ebben az oktatóanyagban megtanultuk, hogyan jeleníthetünk meg megjegyzéseket PowerPoint-bemutatókban az Aspose.Slides for Java használatával. A következő lépéseket követve képelőnézeteket hozhatunk létre a prezentációkhoz megjegyzésekkel, javítva ezzel a PowerPoint-fájlok vizuális megjelenítését.
 ## GYIK
-### Renderelhetek megjegyzéseket több diáról?
-Igen, végignézheti a prezentáció összes diáját, és külön-külön megjelenítheti a megjegyzéseket az egyes diákról.
-### Testreszabható a megjelenített megjegyzések megjelenése?
-Természetesen beállíthat különféle paramétereket, például a megjegyzések területének színét, méretét és helyzetét az Ön preferenciái szerint.
-### Az Aspose.Slides támogatja a megjegyzések megjelenítését a PNG-n kívül más képformátumokban is?
-Igen, a PNG mellett más, a Java ImageIO osztálya által támogatott képformátumokhoz is renderelhet megjegyzéseket.
-### Megjeleníthetem a megjegyzéseket programozottan anélkül, hogy megjeleníteném őket a PowerPointban?
-Igen, az Aspose.Slides használatával megjegyzéseket jeleníthet meg a képekhez a PowerPoint alkalmazás megnyitása nélkül.
-### Van mód a megjegyzések közvetlenül PDF-dokumentumban való megjelenítésére?
-Igen, az Aspose.Slides lehetővé teszi a megjegyzések közvetlenül PDF-dokumentumokban való megjelenítését, lehetővé téve a zökkenőmentes integrációt a dokumentumok munkafolyamatába.
+### Több diáról is megjeleníthetek megjegyzéseket?
+Igen, végiglépkedhet a prezentáció összes diáján, és külön-külön megjelenítheti az egyes diákhoz tartozó megjegyzéseket.
+### Lehetséges a megjelenített megjegyzések megjelenésének testreszabása?
+Természetesen a megjegyzésterület színét, méretét és pozícióját is testreszabhatod az igényeid szerint.
+### Az Aspose.Slides támogatja a PNG-n kívüli képformátumokban is a megjegyzések megjelenítését?
+Igen, a PNG mellett más, a Java ImageIO osztálya által támogatott képformátumokhoz is lehet megjegyzéseket rendelni.
+### Programozottan megjeleníthetem a megjegyzéseket anélkül, hogy PowerPointban megjeleníteném őket?
+Igen, az Aspose.Slides segítségével megjegyzéseket rendelhet a képekhez a PowerPoint alkalmazás megnyitása nélkül.
+### Van mód arra, hogy a megjegyzéseket közvetlenül egy PDF dokumentumba lehessen beilleszteni?
+Igen, az Aspose.Slides funkciói lehetővé teszik a megjegyzések közvetlen PDF-dokumentumokba való renderelését, lehetővé téve a dokumentumkezelési munkafolyamatba való zökkenőmentes integrációt.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

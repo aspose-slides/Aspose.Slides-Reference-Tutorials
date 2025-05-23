@@ -1,30 +1,32 @@
 ---
-title: Krijg de werkelijke positie van het diagramgegevenslabel in Java-dia's
-linktitle: Krijg de werkelijke positie van het diagramgegevenslabel in Java-dia's
-second_title: Aspose.Slides Java PowerPoint-verwerkings-API
-description: Leer hoe u de werkelijke positie van diagramgegevenslabels in Java Slides kunt achterhalen met behulp van Aspose.Slides voor Java. Stap-voor-stap handleiding met broncode.
-weight: 18
-url: /nl/java/data-manipulation/actual-position-chart-data-label-java-slides/
+"description": "Leer hoe u de werkelijke positie van diagramgegevenslabels in Java Slides kunt bepalen met Aspose.Slides voor Java. Stapsgewijze handleiding met broncode."
+"linktitle": "De werkelijke positie van het gegevenslabel van een grafiek in Java-dia's weergeven"
+"second_title": "Aspose.Slides Java PowerPoint-verwerkings-API"
+"title": "De werkelijke positie van het gegevenslabel van een grafiek in Java-dia's weergeven"
+"url": "/nl/java/data-manipulation/actual-position-chart-data-label-java-slides/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Krijg de werkelijke positie van het diagramgegevenslabel in Java-dia's
+# De werkelijke positie van het gegevenslabel van een grafiek in Java-dia's weergeven
 
 
-## Inleiding tot het verkrijgen van de werkelijke positie van het diagramgegevenslabel in Java-dia's
+## Inleiding tot het verkrijgen van de werkelijke positie van het gegevenslabel van een grafiek in Java-dia's
 
-In deze zelfstudie leert u hoe u de werkelijke positie van diagramgegevenslabels kunt ophalen met Aspose.Slides voor Java. We gaan een Java-programma maken dat een PowerPoint-presentatie met een diagram genereert, de gegevenslabels aanpast en vervolgens vormen toevoegt die de posities van deze gegevenslabels vertegenwoordigen.
+In deze tutorial leer je hoe je de werkelijke positie van diagramgegevenslabels kunt ophalen met Aspose.Slides voor Java. We maken een Java-programma dat een PowerPoint-presentatie met een diagram genereert, de gegevenslabels aanpast en vervolgens vormen toevoegt die de posities van deze gegevenslabels weergeven.
 
 ## Vereisten
 
-Voordat u begint, moet u ervoor zorgen dat de Aspose.Slides voor Java-bibliotheek in uw Java-project is ingesteld.
+Voordat u begint, moet u ervoor zorgen dat u de Aspose.Slides voor Java-bibliotheek in uw Java-project hebt ingesteld.
 
 ## Stap 1: Maak een PowerPoint-presentatie
 
-Laten we eerst een nieuwe PowerPoint-presentatie maken en er een diagram aan toevoegen. We zullen de gegevenslabels van het diagram later in de zelfstudie aanpassen.
+Laten we eerst een nieuwe PowerPoint-presentatie maken en er een grafiek aan toevoegen. Later in deze tutorial passen we de gegevenslabels van de grafiek aan.
 
 ```java
 // Het pad naar de documentenmap.
@@ -39,7 +41,7 @@ try {
 ```
 
 ## Stap 2: Gegevenslabels aanpassen
-Laten we nu de gegevenslabels voor de diagramreeksen aanpassen. We zullen hun positie bepalen en de waarden tonen.
+Laten we nu de gegevenslabels voor de grafiekreeks aanpassen. We stellen hun positie in en tonen de waarden.
 
 ```java
 try {
@@ -54,8 +56,8 @@ try {
 }
 ```
 
-## Stap 3: Krijg de werkelijke positie van gegevenslabels
-In deze stap doorlopen we de gegevenspunten van de diagramreeks en halen we de werkelijke positie op van gegevenslabels die een waarde groter dan 4 hebben. Vervolgens voegen we ellipsen toe om deze posities weer te geven.
+## Stap 3: De werkelijke positie van de gegevenslabels verkrijgen
+In deze stap itereren we door de datapunten van de grafiekreeks en halen we de werkelijke positie op van gegevenslabels met een waarde groter dan 4. Vervolgens voegen we ellipsen toe om deze posities weer te geven.
 
 ```java
 try {
@@ -91,7 +93,7 @@ try {
 }
 ```
 
-## Volledige broncode voor het verkrijgen van de werkelijke positie van het diagramgegevenslabel in Java-dia's
+## Volledige broncode voor het verkrijgen van de werkelijke positie van het gegevenslabel van een grafiek in Java-dia's
 
 ```java
 // Het pad naar de documentenmap.
@@ -118,7 +120,7 @@ try
 				float h = point.getLabel().getActualHeight();
 				IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Ellipse, x, y, w, h);
 				shape.getFillFormat().setFillType(FillType.Solid);
-				shape.getFillFormat().getSolidFillColor().setColor(com.aspose.cells.Color.fromArgb(100, 0, 255, 0).d());//TE DOEN
+				shape.getFillFormat().getSolidFillColor().setColor(com.aspose.cells.Color.fromArgb(100, 0, 255, 0).d());//TODO
 			}
 		}
 	}
@@ -132,13 +134,13 @@ finally
 
 ## Conclusie
 
-In deze zelfstudie hebt u geleerd hoe u de werkelijke positie van diagramgegevenslabels in Java Slides kunt ophalen met behulp van Aspose.Slides voor Java. U kunt deze kennis nu gebruiken om uw PowerPoint-presentaties te verbeteren met aangepaste gegevenslabels en visuele weergaven van hun posities.
+In deze tutorial heb je geleerd hoe je de werkelijke positie van diagramgegevenslabels in Java Slides kunt ophalen met Aspose.Slides voor Java. Je kunt deze kennis nu gebruiken om je PowerPoint-presentaties te verbeteren met aangepaste gegevenslabels en visuele weergaven van hun posities.
 
 ## Veelgestelde vragen
 
-### Hoe kan ik gegevenslabels in een diagram aanpassen?
+### Hoe kan ik gegevenslabels in een grafiek aanpassen?
 
- Om gegevenslabels in een diagram aan te passen, kunt u de`setDefaultDataLabelFormat` methode op de kaartreeks en stel eigenschappen in zoals positie en zichtbaarheid. Bijvoorbeeld:
+Om gegevenslabels in een grafiek aan te passen, kunt u de `setDefaultDataLabelFormat` Methode op de grafiekreeks en stel eigenschappen zoals positie en zichtbaarheid in. Bijvoorbeeld:
 ```java
 for (IChartSeries series : chart.getChartData().getSeries()) {
     series.getLabels().getDefaultDataLabelFormat().setPosition(LegendDataLabelPosition.OutsideEnd);
@@ -148,7 +150,7 @@ for (IChartSeries series : chart.getChartData().getSeries()) {
 
 ### Hoe kan ik vormen toevoegen om de posities van gegevenslabels weer te geven?
 
- U kunt de gegevenspunten van een diagramreeks doorlopen en de`getActualX`, `getActualY`, `getActualWidth` , En`getActualHeight`methoden van het datalabel om zijn positie te bepalen. Vervolgens kunt u vormen toevoegen met behulp van de`addAutoShape` methode. Hier is een voorbeeld:
+U kunt door de datapunten van een grafiekreeks itereren en de `getActualX`, `getActualY`, `getActualWidth`, En `getActualHeight` methoden van het gegevenslabel om de positie ervan te bepalen. Vervolgens kunt u vormen toevoegen met behulp van de `addAutoShape` methode. Hier is een voorbeeld:
 ```java
 float x = point.getLabel().getActualX();
 float y = point.getLabel().getActualY();
@@ -159,13 +161,15 @@ IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Elli
 
 ### Hoe kan ik de gegenereerde presentatie opslaan?
 
- U kunt de gegenereerde presentatie opslaan met behulp van de`save` methode. Geef het gewenste bestandspad op en de`SaveFormat` als parameters. Bijvoorbeeld:
+U kunt de gegenereerde presentatie opslaan met behulp van de `save` methode. Geef het gewenste bestandspad en de `SaveFormat` als parameters. Bijvoorbeeld:
 ```java
 pres.save(dataDir + "GetActualPositionOFChartDatalabel.pptx", SaveFormat.Pptx);
 ```
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

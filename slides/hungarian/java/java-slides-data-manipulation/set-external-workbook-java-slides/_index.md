@@ -1,58 +1,60 @@
 ---
-title: Állítsa be a külső munkafüzetet a Java Slides alkalmazásban
-linktitle: Állítsa be a külső munkafüzetet a Java Slides alkalmazásban
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan állíthat be külső munkafüzeteket a Java Slides programban az Aspose.Slides for Java segítségével. Hozzon létre dinamikus prezentációkat az Excel adatintegrációjával.
-weight: 19
-url: /hu/java/data-manipulation/set-external-workbook-java-slides/
+"description": "Ismerje meg, hogyan állíthat be külső munkafüzeteket Java Slides-ben az Aspose.Slides for Java használatával. Készítsen dinamikus prezentációkat Excel adatintegrációval."
+"linktitle": "Külső munkafüzet beállítása Java Slides-ben"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Külső munkafüzet beállítása Java Slides-ben"
+"url": "/hu/java/data-manipulation/set-external-workbook-java-slides/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Állítsa be a külső munkafüzetet a Java Slides alkalmazásban
+# Külső munkafüzet beállítása Java Slides-ben
 
 
-## Bevezetés a külső munkafüzet beállításához Java Slides-ben
+## Bevezetés a külső munkafüzet beállításába Java Slides-ben
 
-Ebben az oktatóanyagban megvizsgáljuk, hogyan állíthat be külső munkafüzetet a Java Slides alkalmazásban az Aspose.Slides segítségével. Megtanulja, hogyan hozhat létre PowerPoint-prezentációt egy külső Excel-munkafüzet adataira hivatkozó diagrammal. Az útmutató végére világosan megérti, hogyan integrálhat külső adatokat a Java Slides prezentációiba.
+Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan állíthatunk be külső munkafüzetet Java Slides-ben az Aspose.Slides használatával. Megtanulod, hogyan hozhatsz létre PowerPoint-bemutatót egy olyan diagrammal, amely egy külső Excel-munkafüzetből származó adatokra hivatkozik. Az útmutató végére világos képet kapsz arról, hogyan integrálhatsz külső adatokat a Java Slides-bemutatóidba.
 
 ## Előfeltételek
 
-Mielőtt belevágnánk a megvalósításba, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
+Mielőtt belevágnánk a megvalósításba, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
 
-- Java Development Kit (JDK) telepítve a rendszerére.
-- Aspose.Slides for Java könyvtár hozzáadva a projekthez.
-- Excel-munkafüzet a prezentációban hivatkozni kívánt adatokkal.
+- Java fejlesztőkészlet (JDK) telepítve van a rendszerére.
+- Az Aspose.Slides for Java könyvtár hozzáadva a projektedhez.
+- Egy Excel-munkafüzet, amely tartalmazza a bemutatóban hivatkozni kívánt adatokat.
 
-## 1. lépés: Hozzon létre egy új prezentációt
+## 1. lépés: Új prezentáció létrehozása
 
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 ```
 
-Kezdjük egy új PowerPoint prezentáció létrehozásával az Aspose.Slides segítségével.
+Először egy új PowerPoint prezentációt hozunk létre az Aspose.Slides segítségével.
 
-## 2. lépés: Adjon hozzá egy diagramot
+## 2. lépés: Diagram hozzáadása
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 400, 600, false);
 ```
 
-Ezután egy kördiagramot illesztünk be a prezentációba. Igény szerint testreszabhatja a diagram típusát és pozícióját.
+Ezután beszúrunk egy kördiagramot a prezentációba. A diagram típusát és pozícióját szükség szerint testreszabhatjuk.
 
-## 3. lépés: Nyissa meg a külső munkafüzetet
+## 3. lépés: Külső munkafüzet elérése
 
 ```java
 IChartData chartData = chart.getChartData();
 chartData.setExternalWorkbook(dataDir + "externalWorkbook.xlsx");
 ```
 
- A külső munkafüzet eléréséhez a`setExternalWorkbook` módszert, és adja meg az adatokat tartalmazó Excel-munkafüzet elérési útját.
+A külső munkafüzet eléréséhez a következőt használjuk: `setExternalWorkbook` metódust, és adja meg az adatokat tartalmazó Excel-munkafüzet elérési útját.
 
-## 4. lépés: A diagramadatok összerendelése
+## 4. lépés: Diagramadatok kötése
 
 ```java
 chartData.getSeries().add(chartData.getChartDataWorkbook().getCell(0, "B1"), ChartType.Pie);
@@ -72,9 +74,9 @@ A diagramot a külső munkafüzet adataihoz kötjük a sorozatok és kategóriá
 pres.save(dataDir + "Presentation_with_externalWorkbook.pptx", SaveFormat.Pptx);
 ```
 
-Végül elmentjük a bemutatót a külső munkafüzet hivatkozásával PowerPoint fájlként.
+Végül a külső munkafüzet-hivatkozással ellátott bemutatót PowerPoint-fájlként mentjük.
 
-## A Java Slides külső munkafüzetének teljes forráskódja
+## Teljes forráskód a külső munkafüzet beállításához Java Slides-ben
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
@@ -102,32 +104,34 @@ finally
 
 ## Következtetés
 
-Ebben az oktatóanyagban megtanultuk, hogyan állíthat be külső munkafüzetet a Java Slides programban az Aspose.Slides segítségével. Mostantól prezentációkat hozhat létre, amelyek dinamikusan hivatkoznak az Excel-munkafüzetekből származó adatokra, növelve a diák rugalmasságát és interaktivitását.
+Ebben az oktatóanyagban megtanultuk, hogyan állíthatunk be külső munkafüzetet Java Slides-ban az Aspose.Slides használatával. Mostantól olyan prezentációkat hozhatunk létre, amelyek dinamikusan hivatkoznak az Excel-munkafüzetek adataira, növelve a diák rugalmasságát és interaktivitását.
 
 ## GYIK
 
-### Hogyan telepíthetem az Aspose.Slides for Java programot?
+### Hogyan telepíthetem az Aspose.Slides-t Java-hoz?
 
-Az Aspose.Slides for Java úgy telepíthető, hogy hozzáadja a könyvtárat a Java projekthez. A könyvtár letölthető az Aspose webhelyéről, és kövesse a dokumentációban található telepítési utasításokat.
+Az Aspose.Slides Java-hoz telepíthető a könyvtár Java-projekthez való hozzáadásával. A könyvtárat letöltheti az Aspose webhelyéről, és követheti a dokumentációban található telepítési utasításokat.
 
 ### Használhatok különböző diagramtípusokat külső munkafüzetekkel?
 
-Igen, az Aspose.Slides által támogatott különféle diagramtípusokat használhatja, és külső munkafüzetekből származó adatokhoz kötheti őket. A folyamat a választott diagramtípustól függően kissé eltérhet.
+Igen, használhatsz különféle, az Aspose.Slides által támogatott diagramtípusokat, és külső munkafüzetekből származó adatokhoz kötheted őket. A folyamat kissé eltérhet a választott diagramtípustól függően.
 
-### Mi a teendő, ha a külső munkafüzetem adatszerkezete megváltozik?
+### Mi van, ha megváltozik a külső munkafüzetem adatszerkezete?
 
-Ha a külső munkafüzet adatszerkezete megváltozik, előfordulhat, hogy frissítenie kell a Java-kód cellahivatkozásait, hogy a diagramadatok pontosak maradjanak.
+Ha a külső munkafüzet adatainak szerkezete megváltozik, előfordulhat, hogy frissítenie kell a cellahivatkozásokat a Java-kódban, hogy a diagram adatai pontosak maradjanak.
 
-### Az Aspose.Slides kompatibilis a legújabb Java-verziókkal?
+### Kompatibilis az Aspose.Slides a legújabb Java verziókkal?
 
-Az Aspose.Slides for Java programot rendszeresen frissítik, hogy biztosítsák a kompatibilitást a legújabb Java-verziókkal. Ügyeljen arra, hogy ellenőrizze a frissítéseket, és használja a könyvtár legújabb verzióját az optimális teljesítmény és kompatibilitás érdekében.
+Az Aspose.Slides Java-hoz rendszeresen frissül, hogy biztosítsa a kompatibilitást a legújabb Java verziókkal. Az optimális teljesítmény és kompatibilitás érdekében ellenőrizze a frissítéseket, és használja a könyvtár legújabb verzióját.
 
 ### Hozzáadhatok több diagramot, amelyek ugyanarra a külső munkafüzetre hivatkoznak?
 
-Igen, több diagramot is hozzáadhat a prezentációhoz, amelyek mindegyike ugyanarra a külső munkafüzetre hivatkozik. Egyszerűen ismételje meg az ebben az oktatóanyagban vázolt lépéseket minden létrehozni kívánt diagramnál.
+Igen, több diagramot is hozzáadhat a bemutatójához, amelyek mindegyike ugyanarra a külső munkafüzetre hivatkozik. Egyszerűen ismételje meg az ebben az oktatóanyagban ismertetett lépéseket minden létrehozni kívánt diagramhoz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,26 +1,28 @@
 ---
-title: Nastavte režim rozvržení v aplikaci Java Slides
-linktitle: Nastavte režim rozvržení v aplikaci Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Naučte se, jak nastavit režimy rozvržení pro snímky Java pomocí Aspose.Slides. Přizpůsobte si umístění a velikost grafu v tomto podrobném průvodci se zdrojovým kódem.
-weight: 23
-url: /cs/java/data-manipulation/set-layout-mode-java-slides/
+"description": "Naučte se, jak nastavit režimy rozvržení pro snímky v Javě pomocí Aspose.Slides. V tomto podrobném návodu se zdrojovým kódem si můžete přizpůsobit umístění a velikost grafu."
+"linktitle": "Nastavení režimu rozvržení v Java Slides"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Nastavení režimu rozvržení v Java Slides"
+"url": "/cs/java/data-manipulation/set-layout-mode-java-slides/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nastavte režim rozvržení v aplikaci Java Slides
+# Nastavení režimu rozvržení v Java Slides
 
 
-## Úvod do nastavení režimu rozvržení v Java Slides
+## Úvod do nastavení režimu rozvržení v Javě Slides
 
-V tomto tutoriálu se naučíme, jak nastavit režim rozvržení pro graf v Java slides pomocí Aspose.Slides for Java. Režim rozložení určuje umístění a velikost grafu na snímku.
+tomto tutoriálu se naučíme, jak nastavit režim rozvržení grafu v Javě pomocí Aspose.Slides pro Javu. Režim rozvržení určuje umístění a velikost grafu v rámci snímku.
 
 ## Předpoklady
 
- Než začneme, ujistěte se, že máte ve svém projektu Java nainstalovanou a nastavenou knihovnu Aspose.Slides for Java. Knihovnu si můžete stáhnout z[tady](https://releases.aspose.com/slides/java/).
+Než začneme, ujistěte se, že máte ve svém projektu Java nainstalovanou a nastavenou knihovnu Aspose.Slides for Java. Knihovnu si můžete stáhnout z [zde](https://releases.aspose.com/slides/java/).
 
 ## Krok 1: Vytvořte prezentaci
 
@@ -31,18 +33,18 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation();
 ```
 
-## Krok 2: Přidejte snímek a graf
+## Krok 2: Přidání snímku a grafu
 
-Dále k němu přidáme snímek a graf. V tomto příkladu vytvoříme seskupený sloupcový graf.
+Dále přidáme snímek a k němu graf. V tomto příkladu vytvoříme seskupený sloupcový graf.
 
 ```java
 ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.ClusteredColumn, 20, 100, 600, 400);
 ```
 
-## Krok 3: Nastavte rozložení grafu
+## Krok 3: Nastavení rozvržení grafu
 
- Nyní nastavíme rozložení grafu. Pozici a velikost grafu v rámci snímku upravíme pomocí`setX`, `setY`, `setWidth`, `setHeight` metody. Navíc nastavíme`LayoutTargetType` k určení režimu rozvržení.
+Nyní nastavme rozvržení grafu. Upravíme pozici a velikost grafu na snímku pomocí `setX`, `setY`, `setWidth`, `setHeight` metody. Dále nastavíme `LayoutTargetType` pro určení režimu rozvržení.
 
 ```java
 chart.getPlotArea().setX(0.2f);
@@ -52,17 +54,17 @@ chart.getPlotArea().setHeight(0.7f);
 chart.getPlotArea().setLayoutTargetType(LayoutTargetType.Inner);
 ```
 
-V tomto příkladu jsme nastavili graf tak, aby měl cílový typ rozvržení "Vnitřní", což znamená, že bude umístěn a velikostně vzhledem k vnitřní oblasti snímku.
+tomto příkladu jsme nastavili cílový typ rozvržení grafu na „Vnitřní“, což znamená, že bude umístěn a zvětšen vzhledem k vnitřní oblasti snímku.
 
 ## Krok 4: Uložte prezentaci
 
-Nakonec uložíme prezentaci s nastavením rozložení grafu.
+Nakonec uložme prezentaci s nastavením rozvržení grafu.
 
 ```java
 presentation.save(dataDir + "SetLayoutMode_outer.pptx", SaveFormat.Pptx);
 ```
 
-## Kompletní zdrojový kód pro nastavení režimu rozvržení v Java Slides
+## Kompletní zdrojový kód pro nastavení režimu rozvržení v Javě Slides
 
 ```java
 String dataDir = "Your Document Directory";
@@ -86,24 +88,26 @@ finally
 
 ## Závěr
 
- V tomto tutoriálu jsme se naučili, jak nastavit režim rozvržení pro graf na snímcích Java pomocí Aspose.Slides for Java. Pozici a velikost grafu můžete upravit podle svých konkrétních požadavků úpravou hodnot v`setX`, `setY`, `setWidth`, `setHeight` , a`setLayoutTargetType`metody. To vám dává kontrolu nad umístěním grafů na snímcích.
+V tomto tutoriálu jsme se naučili, jak nastavit režim rozvržení grafu v Javě pomocí Aspose.Slides pro Javu. Polohu a velikost grafu si můžete přizpůsobit podle svých specifických požadavků úpravou hodnot v `setX`, `setY`, `setWidth`, `setHeight`a `setLayoutTargetType` metody. To vám dává kontrolu nad umístěním grafů v rámci snímků.
 
-## FAQ
+## Často kladené otázky
 
-### Jak změním režim rozložení pro graf v Aspose.Slides pro Java?
+### Jak změním režim rozvržení grafu v Aspose.Slides pro Javu?
 
- Chcete-li změnit režim rozložení pro graf v Aspose.Slides pro Java, můžete použít`setLayoutTargetType` metoda na ploše grafu. Můžete jej nastavit na obojí`LayoutTargetType.Inner` nebo`LayoutTargetType.Outer` v závislosti na požadovaném rozložení.
+Chcete-li změnit režim rozvržení grafu v Aspose.Slides pro Javu, můžete použít `setLayoutTargetType` metodu v oblasti grafu. Můžete ji nastavit na jednu z možností `LayoutTargetType.Inner` nebo `LayoutTargetType.Outer` závislosti na požadovaném rozvržení.
 
-### Mohu upravit polohu a velikost grafu na snímku?
+### Mohu si přizpůsobit umístění a velikost grafu na snímku?
 
- Ano, polohu a velikost grafu na snímku můžete upravit pomocí`setX`, `setY`, `setWidth` , a`setHeight` metody na ploše grafu. Upravte tyto hodnoty tak, aby umístění a velikost grafu odpovídaly vašim požadavkům.
+Ano, polohu a velikost grafu na snímku můžete přizpůsobit pomocí `setX`, `setY`, `setWidth`a `setHeight` metody v oblasti vykreslování grafu. Upravte tyto hodnoty tak, aby graf byl umístěn a měl velikost podle vašich požadavků.
 
-### Kde najdu více informací o Aspose.Slides for Java?
+### Kde najdu více informací o Aspose.Slides pro Javu?
 
- Více informací o Aspose.Slides for Java naleznete v[dokumentace](https://reference.aspose.com/slides/java/). Obsahuje podrobné odkazy a příklady rozhraní API, které vám pomohou efektivně pracovat se snímky a grafy v Javě.
+Více informací o Aspose.Slides pro Javu naleznete v [dokumentace](https://reference.aspose.com/slides/java/)Obsahuje podrobné reference API a příklady, které vám pomohou efektivně pracovat se snímky a grafy v Javě.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

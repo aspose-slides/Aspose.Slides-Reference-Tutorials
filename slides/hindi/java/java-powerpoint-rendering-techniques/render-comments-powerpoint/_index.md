@@ -1,14 +1,16 @@
 ---
-title: पावरपॉइंट में टिप्पणियाँ प्रस्तुत करें
-linktitle: पावरपॉइंट में टिप्पणियाँ प्रस्तुत करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में टिप्पणियाँ प्रस्तुत करना सीखें। उपस्थिति को अनुकूलित करें और कुशलतापूर्वक छवि पूर्वावलोकन बनाएँ।
-weight: 10
-url: /hi/java/java-powerpoint-rendering-techniques/render-comments-powerpoint/
+"description": "Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में टिप्पणियाँ प्रस्तुत करना सीखें। उपस्थिति को अनुकूलित करें और कुशलतापूर्वक छवि पूर्वावलोकन बनाएँ।"
+"linktitle": "पावरपॉइंट में टिप्पणियाँ प्रस्तुत करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "पावरपॉइंट में टिप्पणियाँ प्रस्तुत करें"
+"url": "/hi/java/java-powerpoint-rendering-techniques/render-comments-powerpoint/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पावरपॉइंट में टिप्पणियाँ प्रस्तुत करें
@@ -18,7 +20,7 @@ url: /hi/java/java-powerpoint-rendering-techniques/render-comments-powerpoint/
 ## आवश्यक शर्तें
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 1. जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपके सिस्टम पर JDK स्थापित है।
-2.  Aspose.Slides for Java: Aspose.Slides for Java लाइब्रेरी को डाउनलोड करें और इंस्टॉल करें[लिंक को डाउनलोड करें](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides for Java: Aspose.Slides for Java लाइब्रेरी को डाउनलोड करें और इंस्टॉल करें [लिंक को डाउनलोड करें](https://releases.aspose.com/slides/java/).
 3. IDE: जावा कोड लिखने और निष्पादित करने के लिए आपको एक एकीकृत विकास वातावरण (IDE) जैसे कि इक्लिप्स या इंटेलीज आईडिया की आवश्यकता होती है।
 ## पैकेज आयात करें
 अपने जावा कोड में आवश्यक पैकेज आयात करके प्रारंभ करें:
@@ -78,9 +80,11 @@ try {
 हां, Aspose.Slides का उपयोग करके, आप PowerPoint एप्लिकेशन खोले बिना छवियों पर टिप्पणियां प्रस्तुत कर सकते हैं।
 ### क्या टिप्पणियों को सीधे पीडीएफ दस्तावेज़ में प्रस्तुत करने का कोई तरीका है?
 हां, Aspose.Slides सीधे पीडीएफ दस्तावेजों में टिप्पणियां प्रस्तुत करने की कार्यक्षमता प्रदान करता है, जिससे आपके दस्तावेज़ वर्कफ़्लो में सहज एकीकरण की अनुमति मिलती है।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

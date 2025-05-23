@@ -1,14 +1,16 @@
 ---
-title: Aspose.Slides - .NET में आकृतियों को सहजता से जोड़ें
-linktitle: प्रेजेंटेशन में कनेक्टर्स का उपयोग करके आकृतियों को जोड़ना
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: .NET के लिए Aspose.Slides की शक्ति का अन्वेषण करें, अपनी प्रस्तुतियों में आकृतियों को आसानी से कनेक्ट करें। डायनेमिक कनेक्टर के साथ अपनी स्लाइड्स को बेहतर बनाएँ।
-weight: 29
-url: /hi/net/shape-effects-and-manipulation-in-slides/connecting-shapes-using-connectors/
+"description": "Aspose.Slides for .NET की शक्ति का अनुभव करें, अपनी प्रस्तुतियों में आकृतियों को आसानी से कनेक्ट करें। डायनेमिक कनेक्टर के साथ अपनी स्लाइड्स को बेहतर बनाएँ।"
+"linktitle": "प्रेजेंटेशन में कनेक्टर्स का उपयोग करके आकृतियों को जोड़ना"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "Aspose.Slides - .NET में आकृतियों को सहजता से जोड़ें"
+"url": "/hi/net/shape-effects-and-manipulation-in-slides/connecting-shapes-using-connectors/"
+"weight": 29
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Slides - .NET में आकृतियों को सहजता से जोड़ें
@@ -18,7 +20,7 @@ url: /hi/net/shape-effects-and-manipulation-in-slides/connecting-shapes-using-co
 ## आवश्यक शर्तें
 इससे पहले कि हम ट्यूटोरियल में आगे बढ़ें, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 - C# और .NET फ्रेमवर्क का बुनियादी ज्ञान।
--  Aspose.Slides for .NET इंस्टॉल है। यदि नहीं, तो इसे डाउनलोड करें[यहाँ](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET इंस्टॉल है। यदि नहीं, तो इसे डाउनलोड करें [यहाँ](https://releases.aspose.com/slides/net/).
 - एक विकास वातावरण स्थापित किया गया।
 ## नामस्थान आयात करें
 अपने C# कोड में, आवश्यक नामस्थानों को आयात करके प्रारंभ करें:
@@ -80,12 +82,14 @@ input.Save(dataDir + "Connecting shapes using connectors_out.pptx", SaveFormat.P
 ### क्या मेरे द्वारा जोड़े जा सकने वाले आकृतियों पर कोई सीमाएं हैं?
 Aspose.Slides for .NET विभिन्न आकृतियों को जोड़ने का समर्थन करता है, जिसमें मूल आकृतियाँ, स्मार्ट आर्ट और कस्टम आकृतियाँ शामिल हैं।
 ### मैं कनेक्टर के स्वरूप को कैसे अनुकूलित कर सकता हूँ?
-कनेक्टर उपस्थिति को अनुकूलित करने के तरीकों, जैसे लाइन शैली और रंग, के लिए Aspose.Slides दस्तावेज़ देखें।
+कनेक्टर उपस्थिति को अनुकूलित करने के तरीकों के लिए Aspose.Slides दस्तावेज़ देखें, जैसे लाइन शैली और रंग।
 ### क्या Aspose.Slides समर्थन के लिए कोई सामुदायिक मंच है?
- हां, आप सहायता पा सकते हैं और अपने अनुभव साझा कर सकते हैं[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11).
+हां, आप सहायता पा सकते हैं और अपने अनुभव साझा कर सकते हैं [Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,43 +1,45 @@
 ---
-title: Imposta Inverti tabella colori di riempimento nelle diapositive Java
-linktitle: Imposta Inverti tabella colori di riempimento nelle diapositive Java
-second_title: Aspose.Slides API di elaborazione Java PowerPoint
-description: Scopri come impostare i colori di riempimento invertiti per i grafici di diapositive Java utilizzando Aspose.Slides. Migliora le tue visualizzazioni dei grafici con questa guida passo passo e il codice sorgente.
-weight: 22
-url: /it/java/data-manipulation/set-invert-fill-color-chart-java-slides/
+"description": "Scopri come impostare colori di riempimento invertiti per i grafici Java Slides utilizzando Aspose.Slides. Migliora le visualizzazioni dei tuoi grafici con questa guida passo passo e il codice sorgente."
+"linktitle": "Imposta il grafico dei colori di riempimento invertito nelle diapositive Java"
+"second_title": "API di elaborazione Java PowerPoint di Aspose.Slides"
+"title": "Imposta il grafico dei colori di riempimento invertito nelle diapositive Java"
+"url": "/it/java/data-manipulation/set-invert-fill-color-chart-java-slides/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Imposta Inverti tabella colori di riempimento nelle diapositive Java
+# Imposta il grafico dei colori di riempimento invertito nelle diapositive Java
 
 
-## Introduzione all'impostazione della tabella dei colori di riempimento invertito nelle diapositive Java
+## Introduzione al grafico dei colori di riempimento invertito in Java Slides
 
-In questo tutorial, dimostreremo come impostare il colore di riempimento invertito per un grafico in Java Slides utilizzando Aspose.Slides per Java. L'inversione del colore di riempimento è una funzionalità utile quando desideri evidenziare i valori negativi in un grafico con un colore specifico. Forniremo istruzioni dettagliate e codice sorgente per raggiungere questo obiettivo.
+In questo tutorial, mostreremo come impostare il colore di riempimento invertito per un grafico in Java Slides utilizzando Aspose.Slides per Java. L'inversione del colore di riempimento è una funzionalità utile quando si desidera evidenziare i valori negativi in un grafico con un colore specifico. Forniremo istruzioni dettagliate e il codice sorgente per ottenere questo risultato.
 
 ## Prerequisiti
 
-Prima di iniziare, assicurati di disporre dei seguenti prerequisiti:
+Prima di iniziare, assicurati di avere i seguenti prerequisiti:
 
-1. Aspose.Slides per la libreria Java installata.
+1. Libreria Aspose.Slides per Java installata.
 2. Configurazione dell'ambiente di sviluppo Java.
 
-## Passaggio 1: crea una presentazione
+## Passaggio 1: creare una presentazione
 
-Innanzitutto, dobbiamo creare una presentazione a cui aggiungere il nostro grafico. È possibile utilizzare il seguente codice per creare una presentazione:
+Per prima cosa, dobbiamo creare una presentazione a cui aggiungere il nostro grafico. Puoi usare il seguente codice per creare una presentazione:
 
 ```java
-// Il percorso della directory dei documenti.
+// Percorso verso la directory dei documenti.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 ```
 
-## Passaggio 2: aggiungi un grafico
+## Passaggio 2: aggiungere un grafico
 
-Successivamente, aggiungeremo un istogramma in cluster alla presentazione. Ecco come puoi farlo:
+Successivamente, aggiungeremo un grafico a colonne raggruppate alla presentazione. Ecco come fare:
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 100, 100, 400, 300);
@@ -45,7 +47,7 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Clust
 
 ## Passaggio 3: impostare i dati del grafico
 
-Ora impostiamo i dati del grafico, incluse serie e categorie:
+Ora impostiamo i dati del grafico, incluse le serie e le categorie:
 
 ```java
 IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
@@ -61,7 +63,7 @@ chart.getChartData().getCategories().add(workBook.getCell(0, 3, 0, "Category 3")
 
 ## Passaggio 4: popolare i dati della serie
 
-Ora popoliamo i dati della serie per il grafico:
+Adesso, popoliamo i dati della serie per il grafico:
 
 ```java
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
@@ -70,9 +72,9 @@ series.getDataPoints().addDataPointForBarSeries(workBook.getCell(0, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(workBook.getCell(0, 3, 1, -30));
 ```
 
-## Passaggio 5: imposta Inverti colore di riempimento
+## Passaggio 5: imposta il colore di riempimento invertito
 
-Per impostare il colore di riempimento invertito per le serie di grafici, puoi utilizzare il seguente codice:
+Per impostare il colore di riempimento invertito per la serie di grafici, puoi utilizzare il seguente codice:
 
 ```java
 Color seriesColor = series.getAutomaticSeriesColor();
@@ -82,9 +84,9 @@ series.getFormat().getFill().getSolidFillColor().setColor(seriesColor);
 series.getInvertedSolidFillColor().setColor(Color.RED);
 ```
 
-Nel codice sopra, impostiamo la serie per invertire il colore di riempimento per valori negativi e specifichiamo il colore per il riempimento invertito.
+Nel codice sopra, impostiamo la serie per invertire il colore di riempimento per i valori negativi e specifichiamo il colore per il riempimento invertito.
 
-## Passaggio 6: salva la presentazione
+## Passaggio 6: Salva la presentazione
 
 Infine, salva la presentazione con il grafico:
 
@@ -92,10 +94,10 @@ Infine, salva la presentazione con il grafico:
 pres.save(dataDir + "SetInvertFillColorChart_out.pptx", SaveFormat.Pptx);
 ```
 
-## Codice sorgente completo per impostare la tabella dei colori di riempimento invertito nelle diapositive Java
+## Codice sorgente completo per il grafico dei colori di riempimento invertito in Java Slides
 
 ```java
-// Il percorso della directory dei documenti.
+// Percorso verso la directory dei documenti.
 String dataDir = "Your Document Directory";
 Color inverColor = Color.RED;
 Presentation pres = new Presentation();
@@ -110,7 +112,7 @@ chart.getChartData().getSeries().add(workBook.getCell(0, 0, 1, "Series 1"), char
 chart.getChartData().getCategories().add(workBook.getCell(0, 1, 0, "Category 1"));
 chart.getChartData().getCategories().add(workBook.getCell(0, 2, 0, "Category 2"));
 chart.getChartData().getCategories().add(workBook.getCell(0, 3, 0, "Category 3"));
-// Prendi la prima serie di grafici e popola i dati della serie.
+// Prendiamo prima la serie di grafici e i dati della serie di popolamento.
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 series.getDataPoints().addDataPointForBarSeries(workBook.getCell(0, 1, 1, -20));
 series.getDataPoints().addDataPointForBarSeries(workBook.getCell(0, 2, 1, 50));
@@ -130,38 +132,40 @@ if (pres != null) pres.dispose();
 
 ## Conclusione
 
-In questo tutorial, ti abbiamo mostrato come impostare il colore di riempimento invertito per un grafico in Java Slides utilizzando Aspose.Slides per Java. Questa funzione ti consente di evidenziare i valori negativi nei tuoi grafici con un colore specifico, rendendo i tuoi dati visivamente più informativi.
+In questo tutorial, vi abbiamo mostrato come impostare il colore di riempimento invertito per un grafico in Java Slides utilizzando Aspose.Slides per Java. Questa funzione vi permette di evidenziare i valori negativi nei grafici con un colore specifico, rendendo i dati visivamente più informativi.
 
 ## Domande frequenti
 
-In questa sezione, affronteremo alcune domande comuni relative all'impostazione del colore di riempimento invertito per un grafico in Java Slides utilizzando Aspose.Slides per Java.
+In questa sezione risponderemo ad alcune domande comuni relative all'impostazione del colore di riempimento invertito per un grafico in Java Slides utilizzando Aspose.Slides per Java.
 
-### Come installo Aspose.Slides per Java?
+### Come faccio a installare Aspose.Slides per Java?
 
- È possibile installare Aspose.Slides per Java includendo i file JAR Aspose.Slides nel progetto Java. È possibile scaricare la libreria da[Aspose.Slides per la pagina di download di Java](https://releases.aspose.com/slides/java/). Seguire le istruzioni di installazione fornite nella documentazione per il proprio ambiente di sviluppo specifico.
+Puoi installare Aspose.Slides per Java includendo i file JAR di Aspose.Slides nel tuo progetto Java. Puoi scaricare la libreria da [Pagina di download di Aspose.Slides per Java](https://releases.aspose.com/slides/java/)Seguire le istruzioni di installazione fornite nella documentazione relativa al proprio specifico ambiente di sviluppo.
 
-### Posso personalizzare il colore per il riempimento invertito nelle serie di grafici?
+### Posso personalizzare il colore per il riempimento invertito nella serie di grafici?
 
-Sì, puoi personalizzare il colore per il riempimento invertito nelle serie di grafici. Nell'esempio di codice fornito, il`series.getInvertedSolidFillColor().setColor(Color.RED)` linea imposta il colore rosso per il riempimento invertito. Puoi sostituire`Color.RED` con qualsiasi altro colore a tua scelta.
+Sì, puoi personalizzare il colore del riempimento invertito nella serie di grafici. Nell'esempio di codice fornito, `series.getInvertedSolidFillColor().setColor(Color.RED)` la linea imposta il colore rosso per il riempimento invertito. Puoi sostituire `Color.RED` con qualsiasi altro colore a tua scelta.
 
 ### Come posso modificare il tipo di grafico in Aspose.Slides per Java?
 
- È possibile modificare il tipo di grafico modificando il file`ChartType` parametro quando si aggiunge un grafico alla presentazione. Nell'esempio di codice, abbiamo usato`ChartType.ClusteredColumn` . È possibile esplorare altri tipi di grafici come grafici a linee, grafici a barre, grafici a torta, ecc., specificando l'appropriato`ChartType` valore enum.
+È possibile modificare il tipo di grafico modificando il `ChartType` parametro quando si aggiunge un grafico alla presentazione. Nell'esempio di codice, abbiamo usato `ChartType.ClusteredColumn`È possibile esplorare altri tipi di grafici come grafici a linee, grafici a barre, grafici a torta, ecc., specificando l'appropriato `ChartType` valore enum.
 
 ### Come faccio ad aggiungere più serie di dati a un grafico?
 
- Per aggiungere più serie di dati a un grafico, puoi utilizzare il file`chart.getChartData().getSeries().add(...)` per ogni serie che desideri aggiungere. Assicurati di fornire i punti dati e le etichette appropriati per ciascuna serie per popolare il tuo grafico con più serie.
+Per aggiungere più serie di dati a un grafico, puoi utilizzare `chart.getChartData().getSeries().add(...)` metodo per ogni serie che desideri aggiungere. Assicurati di fornire i punti dati e le etichette appropriati per ogni serie per popolare il grafico con più serie.
 
 ### C'è un modo per personalizzare altri aspetti dell'aspetto del grafico?
 
-Sì, puoi personalizzare vari aspetti dell'aspetto del grafico, incluse etichette degli assi, titoli, legende e altro utilizzando Aspose.Slides per Java. Fare riferimento alla documentazione per indicazioni dettagliate sulla personalizzazione degli elementi e dell'aspetto del grafico.
+Sì, puoi personalizzare vari aspetti dell'aspetto del grafico, tra cui etichette degli assi, titoli, legende e altro ancora, utilizzando Aspose.Slides per Java. Consulta la documentazione per istruzioni dettagliate sulla personalizzazione degli elementi e dell'aspetto del grafico.
 
-### Posso salvare il grafico in diversi formati?
+### Posso salvare il grafico in formati diversi?
 
- Sì, puoi salvare il grafico in diversi formati utilizzando Aspose.Slides per Java. Nell'esempio di codice fornito, abbiamo salvato la presentazione come file PPTX. Puoi usarne diversi`SaveFormat` opzioni per salvarlo in altri formati come PDF, PNG o SVG, a seconda delle tue esigenze.
+Sì, puoi salvare il grafico in diversi formati utilizzando Aspose.Slides per Java. Nell'esempio di codice fornito, abbiamo salvato la presentazione come file PPTX. Puoi utilizzare diversi formati. `SaveFormat` opzioni per salvarlo in altri formati come PDF, PNG o SVG, a seconda delle tue esigenze.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,25 +1,27 @@
 ---
-title: Establecer reserva de fuentes en Java PowerPoint
-linktitle: Establecer reserva de fuentes en Java PowerPoint
-second_title: Aspose.Slides API de procesamiento de PowerPoint Java
-description: Aprenda a configurar fuentes alternativas en Java PowerPoint usando Aspose.Slides para Java para garantizar una visualización de texto consistente.
-weight: 16
-url: /es/java/java-powerpoint-text-font-customization/set-font-fallback-java-powerpoint/
+"description": "Aprenda a configurar alternativas de fuentes en PowerPoint con Java usando Aspose.Slides para Java para garantizar una visualización de texto consistente."
+"linktitle": "Establecer la reserva de fuentes en PowerPoint con Java"
+"second_title": "API de procesamiento de PowerPoint en Java de Aspose.Slides"
+"title": "Establecer la reserva de fuentes en PowerPoint con Java"
+"url": "/es/java/java-powerpoint-text-font-customization/set-font-fallback-java-powerpoint/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Establecer reserva de fuentes en Java PowerPoint
+# Establecer la reserva de fuentes en PowerPoint con Java
 
 ## Introducción
-En este tutorial, profundizaremos en las complejidades de configurar fuentes alternativas en presentaciones de PowerPoint Java usando Aspose.Slides para Java. Las fuentes alternativas son cruciales para garantizar que el texto de sus presentaciones se muestre correctamente en diferentes dispositivos y sistemas operativos, incluso cuando las fuentes requeridas no estén disponibles.
-## Requisitos previos
+En este tutorial, profundizaremos en los detalles de la configuración de fuentes de reserva en presentaciones de PowerPoint en Java con Aspose.Slides para Java. Las fuentes de reserva son cruciales para garantizar que el texto de las presentaciones se muestre correctamente en diferentes dispositivos y sistemas operativos, incluso cuando las fuentes requeridas no estén disponibles.
+## Prerrequisitos
 Antes de comenzar, asegúrese de tener lo siguiente:
-- Kit de desarrollo de Java (JDK) instalado en su sistema.
--  Aspose.Slides para la biblioteca Java. Puedes descargarlo desde[aquí](https://releases.aspose.com/slides/java/).
-- Conocimientos básicos del lenguaje de programación Java.
+- Java Development Kit (JDK) instalado en su sistema.
+- Biblioteca Aspose.Slides para Java. Puedes descargarla desde [aquí](https://releases.aspose.com/slides/java/).
+- Comprensión básica del lenguaje de programación Java.
 - Entorno de desarrollo integrado (IDE) como IntelliJ IDEA o Eclipse.
 
 ## Importar paquetes
@@ -28,8 +30,8 @@ Primero, incluya los paquetes Aspose.Slides para Java necesarios en su clase Jav
 import com.aspose.slides.FontFallBackRule;
 import com.aspose.slides.IFontFallBackRule;
 ```
-## Paso 1: inicializar las reglas de reserva de fuentes
-Para establecer fuentes de reserva, debe definir reglas que especifiquen los rangos Unicode y las fuentes de reserva correspondientes. Así es como puedes inicializar estas reglas:
+## Paso 1: Inicializar las reglas de reserva de fuentes
+Para configurar las fuentes de reserva, debe definir reglas que especifiquen los rangos Unicode y las fuentes de reserva correspondientes. A continuación, se explica cómo inicializar estas reglas:
 ```java
 long startUnicodeIndex = 0x0B80;
 long endUnicodeIndex = 0x0BFF;
@@ -39,29 +41,31 @@ String[] fontNames = new String[]{"Segoe UI Emoji, Segoe UI Symbol", "Arial"};
 IFontFallBackRule thirdRule = new FontFallBackRule(0x1F300, 0x1F64F, fontNames);
 ```
 ## Paso 2: Aplicar reglas de reserva de fuentes
-A continuación, aplica estas reglas a la presentación o diapositiva donde se deben configurar las fuentes alternativas. A continuación se muestra un ejemplo de cómo aplicar estas reglas a una diapositiva en una presentación de PowerPoint:
+A continuación, aplique estas reglas a la presentación o diapositiva donde se deban configurar las fuentes de reserva. A continuación, se muestra un ejemplo de cómo aplicar estas reglas a una diapositiva de una presentación de PowerPoint:
 ```java
-// Suponiendo que la diapositiva es su objeto Slide
+// Suponiendo que la diapositiva es su objeto Diapositiva
 slide.getFontsManager().setFontFallBackRules(new IFontFallBackRule[]{firstRule, secondRule, thirdRule});
 ```
 
 ## Conclusión
-Configurar fuentes alternativas en presentaciones Java de PowerPoint usando Aspose.Slides para Java es esencial para garantizar una visualización de texto consistente en diferentes entornos. Al definir reglas alternativas como se demuestra en este tutorial, puede manejar situaciones en las que fuentes específicas no están disponibles, manteniendo la integridad de sus presentaciones.
+Configurar reglas de reserva de fuentes en presentaciones de PowerPoint en Java con Aspose.Slides para Java es esencial para garantizar la coherencia del texto en diferentes entornos. Al definir reglas de reserva, como se muestra en este tutorial, puede gestionar situaciones en las que ciertas fuentes no estén disponibles, manteniendo así la integridad de sus presentaciones.
 
 ## Preguntas frecuentes
-### ¿Qué son las fuentes alternativas en las presentaciones de PowerPoint?
-Las fuentes alternativas garantizan que el texto se muestre correctamente sustituyendo las fuentes disponibles por aquellas que no están instaladas.
+### ¿Qué son las alternativas de fuentes en las presentaciones de PowerPoint?
+Las reservas de fuentes garantizan que el texto se muestre correctamente sustituyendo las fuentes disponibles por aquellas que no están instaladas.
 ### ¿Cómo puedo descargar Aspose.Slides para Java?
- Puede descargar Aspose.Slides para Java desde[aquí](https://releases.aspose.com/slides/java/).
+Puede descargar Aspose.Slides para Java desde [aquí](https://releases.aspose.com/slides/java/).
 ### ¿Aspose.Slides para Java es compatible con todos los IDE de Java?
 Sí, Aspose.Slides para Java es compatible con IDE de Java populares como IntelliJ IDEA y Eclipse.
 ### ¿Puedo obtener licencias temporales para los productos Aspose?
-Sí, se pueden obtener licencias temporales para los productos Aspose en[aquí](https://purchase.aspose.com/temporary-license/).
+Sí, se pueden obtener licencias temporales para los productos Aspose en [aquí](https://purchase.aspose.com/temporary-license/).
 ### ¿Dónde puedo encontrar soporte para Aspose.Slides para Java?
- Para obtener soporte relacionado con Aspose.Slides para Java, visite el[asponer foro](https://forum.aspose.com/c/slides/11).
+Para obtener asistencia relacionada con Aspose.Slides para Java, visite el sitio web [Foro de Aspose](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

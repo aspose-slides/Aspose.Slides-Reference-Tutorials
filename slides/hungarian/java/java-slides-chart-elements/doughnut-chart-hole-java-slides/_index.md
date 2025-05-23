@@ -1,28 +1,30 @@
 ---
-title: Donut Chart Hole a Java Slides-ben
-linktitle: Donut Chart Hole a Java Slides-ben
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Hozzon létre fánkdiagramokat egyéni furatméretekkel a Java Slides-ben az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskóddal a diagram testreszabásához.
-weight: 11
-url: /hu/java/chart-elements/doughnut-chart-hole-java-slides/
+"description": "Egyedi lyukméretekkel rendelkező fánkdiagramok létrehozása Java diákban az Aspose.Slides for Java használatával. Lépésről lépésre útmutató forráskóddal a diagram testreszabásához."
+"linktitle": "Fánkdiagram-lyuk Java diákban"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Fánkdiagram-lyuk Java diákban"
+"url": "/hu/java/chart-elements/doughnut-chart-hole-java-slides/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Donut Chart Hole a Java Slides-ben
+# Fánkdiagram-lyuk Java diákban
 
 
-## A fánkdiagram bemutatása lyukkal a Java diákban
+## Bevezetés a lyukas fánkdiagram használatába Java diákon
 
-Ebben az oktatóanyagban végigvezetjük Önt egy lyukú fánkdiagram létrehozásán az Aspose.Slides for Java segítségével. Ez a lépésről lépésre végigvezeti a folyamaton, forráskód-példákkal.
+Ebben az oktatóanyagban végigvezetünk egy lyukas fánkdiagram létrehozásán az Aspose.Slides Java verziójában. Ez a lépésről lépésre bemutatott útmutató forráskód-példákkal mutatja be a folyamatot.
 
 ## Előfeltételek
 
- Mielőtt elkezdené, győződjön meg arról, hogy az Aspose.Slides for Java könyvtár telepítve van és be van állítva a Java projektben. Letöltheti a[Aspose.Slides for Java dokumentáció](https://reference.aspose.com/slides/java/).
+Mielőtt elkezdenéd, győződj meg róla, hogy az Aspose.Slides for Java könyvtár telepítve és beállítva van a Java projektedben. Letöltheted innen: [Aspose.Slides Java dokumentációhoz](https://reference.aspose.com/slides/java/).
 
-## 1. lépés: Importálja a szükséges könyvtárakat
+## 1. lépés: A szükséges könyvtárak importálása
 
 ```java
 import com.aspose.slides.ChartType;
@@ -31,44 +33,44 @@ import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 ```
 
-## 2. lépés: Inicializálja a prezentációt
+## 2. lépés: A prezentáció inicializálása
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
 String dataDir = "Your Document Directory";
 
-// Hozzon létre egy példányt a Prezentáció osztályból
+// Hozz létre egy példányt a Presentation osztályból
 Presentation presentation = new Presentation();
 ```
 
-## 3. lépés: Hozd létre a fánkdiagramot
+## 3. lépés: A fánkdiagram létrehozása
 
 ```java
 try {
-    // Hozzon létre egy fánkdiagramot az első dián
+    // Fánkdiagram létrehozása az első dián
     IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Doughnut, 50, 50, 400, 400);
     
-    // Állítsa be a lyuk méretét a fánkdiagramon (százalékban)
+    // A fánkdiagram lyukméretének beállítása (százalékban)
     chart.getChartData().getSeriesGroups().get_Item(0).setDoughnutHoleSize((byte) 90);
     
     // Mentse a prezentációt lemezre
     presentation.save(dataDir + "DoughnutHoleSize_out.pptx", SaveFormat.Pptx);
 } finally {
-    // Dobja el a bemutató objektumot
+    // A prezentációs objektum eltávolítása
     if (presentation != null) presentation.dispose();
 }
 ```
 
 ## 4. lépés: Futtassa a kódot
 
- Futtassa a Java-kódot az IDE-ben vagy a szövegszerkesztőben, hogy meghatározott lyukméretű fánkdiagramot hozzon létre. Mindenképpen cserélje ki`"Your Document Directory"` azzal a tényleges elérési úttal, ahová a prezentációt menteni szeretné.
+Futtassa a Java kódot az IDE-ben vagy szövegszerkesztőben egy fánkdiagram létrehozásához a megadott lyukmérettel. Ügyeljen arra, hogy a következőt cserélje ki: `"Your Document Directory"` a prezentáció mentésének tényleges elérési útjával.
 
-## Java Slides Donut Chart Hole teljes forráskódja
+## Teljes forráskód a fánkdiagram lyukhoz Java diákban
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
 String dataDir = "Your Document Directory";
-// Hozzon létre egy példányt a Prezentáció osztályból
+// Hozz létre egy példányt a Presentation osztályból
 Presentation presentation = new Presentation();
 try
 {
@@ -85,24 +87,26 @@ finally
 
 ## Következtetés
 
- Ebben az oktatóanyagban megtanulta, hogyan hozhat létre lyukas fánkdiagramot az Aspose.Slides for Java segítségével. A lyuk méretét testreszabhatja a`setDoughnutHoleSize` metódus paraméter.
+Ebben az oktatóanyagban megtanultad, hogyan hozhatsz létre lyukkal ellátott fánkdiagramot az Aspose.Slides for Java segítségével. A lyuk méretét testreszabhatod a `setDoughnutHoleSize` metódus paraméter.
 
 ## GYIK
 
-### Hogyan változtathatom meg a diagram szegmenseinek színét?
+### Hogyan tudom megváltoztatni a diagram szegmenseinek színét?
 
- A diagramszegmensek színének megváltoztatásához használhatja a`setDataPointsInLegend` módszer a`IChart` objektumot, és állítsa be a kívánt színt minden adatponthoz.
+A diagramszegmensek színének módosításához használhatja a `setDataPointsInLegend` módszer a `IChart` objektumot, és állítsa be a kívánt színt minden adatponthoz.
 
 ### Hozzáadhatok címkéket a fánkdiagram szegmenseihez?
 
- Igen, a fánkdiagram szegmenseihez címkéket adhat hozzá a`setDataPointsLabelValue` módszer a`IChart` tárgy.
+Igen, a fánkdiagram szegmenseihez hozzáadhat címkéket a `setDataPointsLabelValue` módszer a `IChart` objektum.
 
-### Lehet-e címet adni a diagramhoz?
+### Lehetséges címet adni a diagramhoz?
 
- Biztosan! A diagram segítségével címet adhat hozzá`setTitle` módszer a`IChart` objektumot, és megadja a kívánt címszöveget.
+Természetesen! Címet adhatsz a diagramhoz a `setTitle` módszer a `IChart` objektumot, és megadja a kívánt címszöveget.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

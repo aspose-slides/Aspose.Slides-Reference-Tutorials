@@ -1,24 +1,26 @@
 ---
-title: Festlegen lokaler Schrifthöhenwerte in PowerPoint mithilfe von Java
-linktitle: Festlegen lokaler Schrifthöhenwerte in PowerPoint mithilfe von Java
-second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie mit Aspose.Slides mithilfe von Java die Schrifthöhe in PowerPoint-Präsentationen anpassen. Verbessern Sie mühelos die Textformatierung in Ihren Folien.
-weight: 17
-url: /de/java/java-powerpoint-text-font-customization/set-local-font-height-values-powerpoint-java/
+"description": "Erfahren Sie, wie Sie mit Aspose.Slides die Schrifthöhe in PowerPoint-Präsentationen mithilfe von Java anpassen. Optimieren Sie mühelos die Textformatierung in Ihren Folien."
+"linktitle": "Festlegen lokaler Schrifthöhenwerte in PowerPoint mit Java"
+"second_title": "Aspose.Slides Java PowerPoint-Verarbeitungs-API"
+"title": "Festlegen lokaler Schrifthöhenwerte in PowerPoint mit Java"
+"url": "/de/java/java-powerpoint-text-font-customization/set-local-font-height-values-powerpoint-java/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Festlegen lokaler Schrifthöhenwerte in PowerPoint mithilfe von Java
+# Festlegen lokaler Schrifthöhenwerte in PowerPoint mit Java
 
 ## Einführung
-In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Slides für Java die Schrifthöhe auf verschiedenen Ebenen in PowerPoint-Präsentationen ändern können. Die Kontrolle der Schriftgrößen ist entscheidend für die Erstellung optisch ansprechender und strukturierter Präsentationen. Wir werden Schritt-für-Schritt-Beispiele durchgehen, um zu veranschaulichen, wie Sie die Schrifthöhe für verschiedene Textelemente festlegen.
+In diesem Tutorial lernen Sie, wie Sie die Schrifthöhe in PowerPoint-Präsentationen mit Aspose.Slides für Java auf verschiedenen Ebenen anpassen. Die Kontrolle der Schriftgrößen ist entscheidend für optisch ansprechende und strukturierte Präsentationen. Wir zeigen Ihnen Schritt für Schritt anhand von Beispielen, wie Sie die Schrifthöhe für verschiedene Textelemente festlegen.
 ## Voraussetzungen
 Bevor Sie beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
-- Auf Ihrem System ist Java Development Kit (JDK) installiert.
--  Aspose.Slides für Java-Bibliothek. Sie können es herunterladen[Hier](https://releases.aspose.com/slides/java/).
+- Java Development Kit (JDK) auf Ihrem System installiert
+- Aspose.Slides für Java-Bibliothek. Sie können es herunterladen [Hier](https://releases.aspose.com/slides/java/).
 - Grundkenntnisse in Java-Programmierung und PowerPoint-Präsentationen
 ## Pakete importieren
 Stellen Sie sicher, dass Sie die erforderlichen Aspose.Slides-Pakete in Ihre Java-Datei aufnehmen:
@@ -37,7 +39,7 @@ IAutoShape newShape = pres.getSlides().get_Item(0).getShapes().addAutoShape(Shap
 newShape.addTextFrame("");
 ```
 ## Schritt 3: Textabschnitte erstellen
-Textabschnitte mit unterschiedlicher Schrifthöhe definieren:
+Definieren Sie Textabschnitte mit unterschiedlichen Schrifthöhen:
 ```java
 IPortion portion0 = new Portion("Sample text with first portion");
 IPortion portion1 = new Portion(" and second portion.");
@@ -59,21 +61,23 @@ pres.save("YourOutputDirectory/SetLocalFontHeightValues.pptx", SaveFormat.Pptx);
 ```
 
 ## Abschluss
-Dieses Tutorial zeigt, wie Sie die Schrifthöhe in PowerPoint-Folien programmgesteuert mit Aspose.Slides für Java anpassen. Durch die Manipulation der Schriftgrößen auf verschiedenen Ebenen (präsentationsweit, Absatz und Teil) können Sie die Textformatierung in Ihren Präsentationen präzise steuern.
+Dieses Tutorial zeigt, wie Sie die Schrifthöhe in PowerPoint-Folien programmgesteuert mit Aspose.Slides für Java anpassen. Durch die Anpassung der Schriftgrößen auf verschiedenen Ebenen (präsentationsweit, Absatz und Teilbereich) können Sie die Textformatierung in Ihren Präsentationen präzise steuern.
 ## Häufig gestellte Fragen
 ### Was ist Aspose.Slides für Java?
 Aspose.Slides für Java ist eine leistungsstarke API zur programmgesteuerten Bearbeitung von PowerPoint-Präsentationen.
 ### Wo finde ich Dokumentation für Aspose.Slides für Java?
- Die Dokumentation finden Sie[Hier](https://reference.aspose.com/slides/java/).
-### Kann ich Aspose.Slides für Java vor dem Kauf ausprobieren?
- Ja, Sie können eine kostenlose Testversion erhalten[Hier](https://releases.aspose.com/).
-### Wie kann ich Support für Aspose.Slides für Java erhalten?
- Für Unterstützung besuchen Sie die[Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11).
+Die Dokumentation finden Sie [Hier](https://reference.aspose.com/slides/java/).
+### Kann ich Aspose.Slides für Java vor dem Kauf testen?
+Ja, Sie können eine kostenlose Testversion erhalten [Hier](https://releases.aspose.com/).
+### Wie erhalte ich Support für Aspose.Slides für Java?
+Für Unterstützung besuchen Sie die [Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11).
 ### Wo kann ich eine Lizenz für Aspose.Slides für Java erwerben?
- Sie können eine Lizenz erwerben[Hier](https://purchase.aspose.com/buy).
+Sie können eine Lizenz erwerben [Hier](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

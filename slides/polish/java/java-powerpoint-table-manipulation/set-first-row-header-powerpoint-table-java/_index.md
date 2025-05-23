@@ -1,28 +1,30 @@
 ---
-title: Ustaw pierwszy wiersz jako nagłówek w tabeli programu PowerPoint za pomocą języka Java
-linktitle: Ustaw pierwszy wiersz jako nagłówek w tabeli programu PowerPoint za pomocą języka Java
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Dowiedz się, jak ustawić pierwszy wiersz jako nagłówek w tabelach programu PowerPoint przy użyciu Aspose.Slides dla Java. Bez wysiłku poprawiaj przejrzystość i organizację prezentacji.
-weight: 19
-url: /pl/java/java-powerpoint-table-manipulation/set-first-row-header-powerpoint-table-java/
+"description": "Dowiedz się, jak ustawić pierwszy wiersz jako nagłówek w tabelach programu PowerPoint za pomocą Aspose.Slides dla języka Java. Popraw przejrzystość i organizację prezentacji bez wysiłku."
+"linktitle": "Ustaw pierwszy wiersz jako nagłówek w tabeli programu PowerPoint za pomocą języka Java"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Ustaw pierwszy wiersz jako nagłówek w tabeli programu PowerPoint za pomocą języka Java"
+"url": "/pl/java/java-powerpoint-table-manipulation/set-first-row-header-powerpoint-table-java/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw pierwszy wiersz jako nagłówek w tabeli programu PowerPoint za pomocą języka Java
 
 ## Wstęp
-W tym samouczku omówimy, jak manipulować tabelami programu PowerPoint za pomocą Aspose.Slides dla Java, potężnej biblioteki, która umożliwia bezproblemową integrację i modyfikację prezentacji. W szczególności skupimy się na ustawieniu pierwszego wiersza tabeli jako nagłówka, co poprawi atrakcyjność wizualną i organizację slajdów.
-## Warunki wstępne
-Zanim zagłębisz się w samouczek, upewnij się, że posiadasz następujące elementy:
-- Podstawowa znajomość programowania w języku Java.
-- JDK (Java Development Kit) zainstalowany na twoim komputerze.
--  Aspose.Slides dla biblioteki Java. Można go pobrać z[Tutaj](https://releases.aspose.com/slides/java/).
+tym samouczku zagłębimy się w to, jak manipulować tabelami PowerPoint za pomocą Aspose.Slides for Java, potężnej biblioteki, która umożliwia bezproblemową integrację i modyfikację prezentacji. Skupimy się konkretnie na ustawieniu pierwszego wiersza tabeli jako nagłówka, zwiększając atrakcyjność wizualną i organizację slajdów.
+## Wymagania wstępne
+Zanim przejdziesz do samouczka, upewnij się, że posiadasz następujące rzeczy:
+- Podstawowa znajomość programowania w Javie.
+- JDK (Java Development Kit) zainstalowany na Twoim komputerze.
+- Biblioteka Aspose.Slides dla Java. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/slides/java/).
 
 ## Importuj pakiety
-Po pierwsze, upewnij się, że zaimportowałeś niezbędne pakiety do swojego projektu Java:
+Najpierw upewnij się, że zaimportowałeś niezbędne pakiety do swojego projektu Java:
 ```java
 import com.aspose.slides.IShape;
 import com.aspose.slides.ISlide;
@@ -30,7 +32,7 @@ import com.aspose.slides.ITable;
 import com.aspose.slides.Presentation;
 ```
 ## Krok 1: Załaduj prezentację
-Aby rozpocząć, załaduj prezentację programu PowerPoint zawierającą tabelę, którą chcesz zmodyfikować.
+Na początek załaduj prezentację programu PowerPoint zawierającą tabelę, którą chcesz zmodyfikować.
 ```java
 // Określ ścieżkę do dokumentu programu PowerPoint
 String dataDir = "Your Document Directory";
@@ -41,9 +43,9 @@ Przejdź do slajdu zawierającego tabelę i uzyskaj dostęp do obiektu tabeli.
 ```java
 // Uzyskaj dostęp do pierwszego slajdu
 ISlide slide = pres.getSlides().get_Item(0);
-// Zainicjuj zmienną przechowującą odwołanie do tabeli
+// Zainicjuj zmienną, aby zachować odwołanie do tabeli
 ITable table = null;
-// Iteruj po kształtach, aby znaleźć tabelę
+// Przejrzyj kształty, aby znaleźć tabelę
 for (IShape shape : slide.getShapes()) {
     if (shape instanceof ITable) {
         table = (ITable) shape;
@@ -52,39 +54,41 @@ for (IShape shape : slide.getShapes()) {
 }
 ```
 ## Krok 3: Ustaw pierwszy wiersz jako nagłówek
-Po zidentyfikowaniu tabeli ustaw pierwszy wiersz jako nagłówek.
+Po zidentyfikowaniu tabeli należy ustawić pierwszy wiersz jako nagłówek.
 ```java
-//Sprawdź, czy tabela została znaleziona
+// Sprawdź czy tabela została znaleziona
 if (table != null) {
     // Ustaw pierwszy wiersz jako nagłówek
     table.setFirstRow(true);
 }
 ```
-## Krok 4: Zapisz i wyrzuć
-Na koniec zapisz zmodyfikowaną prezentację i pozbądź się zasobów.
+## Krok 4: Zapisz i usuń
+Na koniec zapisz zmodyfikowaną prezentację i usuń zasoby.
 ```java
 // Zapisz prezentację
 pres.save(dataDir + "output.pptx", SaveFormat.Pptx);
-// Pozbądź się obiektu Prezentacja
+// Usuń obiekt Prezentacja
 pres.dispose();
 ```
 
 ## Wniosek
-Podsumowując, Aspose.Slides dla Java upraszcza zadanie programowego manipulowania prezentacjami programu PowerPoint. Ustawiając pierwszy wiersz tabeli jako nagłówek, wykonując czynności opisane powyżej, możesz bez wysiłku zwiększyć przejrzystość i profesjonalizm swoich prezentacji.
-## Często zadawane pytania
-### Co to jest Aspose.Slides dla Java?
-Aspose.Slides dla Java to solidna biblioteka do programowej pracy z plikami programu PowerPoint.
+Podsumowując, Aspose.Slides for Java upraszcza zadanie manipulowania prezentacjami PowerPoint programowo. Ustawiając pierwszy wiersz tabeli jako nagłówek, korzystając z kroków opisanych powyżej, możesz bez wysiłku zwiększyć przejrzystość i profesjonalizm swoich prezentacji.
+## Najczęściej zadawane pytania
+### Czym jest Aspose.Slides dla Java?
+Aspose.Slides for Java to solidna biblioteka umożliwiająca programową pracę z plikami PowerPoint.
 ### Jak mogę pobrać Aspose.Slides dla Java?
- Można go pobrać z[Tutaj](https://releases.aspose.com/slides/java/).
+Można go pobrać z [Tutaj](https://releases.aspose.com/slides/java/).
 ### Czy mogę wypróbować Aspose.Slides dla Java przed zakupem?
- Tak, możesz skorzystać z bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
+Tak, możesz otrzymać bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/).
 ### Gdzie mogę znaleźć dokumentację Aspose.Slides dla Java?
- Dostępna jest szczegółowa dokumentacja[Tutaj](https://reference.aspose.com/slides/java/).
-### Jak mogę uzyskać pomoc dotyczącą Aspose.Slides dla Java?
- Możesz uzyskać wsparcie społeczności[Tutaj](https://forum.aspose.com/c/slides/11).
+Dostępna jest szczegółowa dokumentacja [Tutaj](https://reference.aspose.com/slides/java/).
+### Gdzie mogę uzyskać pomoc techniczną dotyczącą Aspose.Slides dla Java?
+Możesz uzyskać wsparcie społeczności [Tutaj](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

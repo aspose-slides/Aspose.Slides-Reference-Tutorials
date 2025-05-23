@@ -1,115 +1,117 @@
 ---
-title: Konvertálása egyéni mérettel a Java Slides alkalmazásban
-linktitle: Konvertálása egyéni mérettel a Java Slides alkalmazásban
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan alakíthat át PowerPoint-prezentációkat egyéni méretű TIFF-képekké az Aspose.Slides for Java segítségével. Lépésről lépésre, kódpéldákkal fejlesztők számára.
-weight: 31
-url: /hu/java/presentation-conversion/convert-custom-size-java-slides/
+"description": "Tanuld meg, hogyan konvertálhatsz PowerPoint prezentációkat egyéni méretű TIFF képekké az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató kódpéldákkal fejlesztőknek."
+"linktitle": "Konvertálás egyéni mérettel Java Slides-ben"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Konvertálás egyéni mérettel Java Slides-ben"
+"url": "/hu/java/presentation-conversion/convert-custom-size-java-slides/"
+"weight": 31
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Konvertálása egyéni mérettel a Java Slides alkalmazásban
+# Konvertálás egyéni mérettel Java Slides-ben
 
 
-## Bevezetés az egyéni mérettel történő konvertáláshoz a Java Slides-ben
+## Bevezetés az Egyéni mérettel konvertálásba Java Slides-ben
 
-Ebben a cikkben megvizsgáljuk, hogyan lehet a PowerPoint-prezentációkat egyéni méretű TIFF-képekké alakítani az Aspose.Slides for Java API használatával. Az Aspose.Slides for Java egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak PowerPoint fájlokkal. Lépésről lépésre haladunk, és biztosítjuk Önnek a szükséges Java kódot a feladat elvégzéséhez.
+Ebben a cikkben azt vizsgáljuk meg, hogyan konvertálhatunk PowerPoint prezentációkat egyéni méretű TIFF képekké az Aspose.Slides for Java API segítségével. Az Aspose.Slides for Java egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak PowerPoint fájlokkal. Lépésről lépésre haladva bemutatjuk a feladat elvégzéséhez szükséges Java kódot.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
 
-- Java Development Kit (JDK) telepítve
-- Aspose.Slides for Java könyvtár
+- Telepített Java fejlesztőkészlet (JDK)
+- Aspose.Slides Java könyvtárhoz
 
- Az Aspose.Slides for Java könyvtárat letöltheti a következő webhelyről:[Az Aspose.Slides letöltése Java-hoz](https://releases.aspose.com/slides/java/)
+Az Aspose.Slides for Java könyvtárat letöltheted a weboldalról: [Aspose.Slides letöltése Java-hoz](https://releases.aspose.com/slides/java/)
 
 ## 1. lépés: Importálja az Aspose.Slides könyvtárat
 
-kezdéshez importálnia kell az Aspose.Slides könyvtárat a Java projektbe. A következőképpen teheti meg:
+A kezdéshez importálnod kell az Aspose.Slides könyvtárat a Java projektedbe. Így teheted meg:
 
 ```java
-// Adja hozzá a szükséges importálási nyilatkozatot
+// Adja hozzá a szükséges importálási utasítást
 import com.aspose.slides.*;
 ```
 
-## 2. lépés: Töltse be a PowerPoint-prezentációt
+## 2. lépés: Töltse be a PowerPoint-bemutatót
 
- Ezután be kell töltenie azt a PowerPoint-prezentációt, amelyet TIFF-képpé kíván alakítani. Cserélje ki`"Your Document Directory"` a prezentációs fájl tényleges elérési útjával.
+Ezután be kell töltened a PowerPoint bemutatót, amelyet TIFF képpé szeretnél konvertálni. Csere `"Your Document Directory"` a prezentációs fájl tényleges elérési útjával.
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
 String dataDir = "Your Document Directory";
 
-// Példányosítson egy bemutató objektumot, amely egy prezentációs fájlt képvisel
+// Prezentációs fájlt reprezentáló prezentációs objektum példányosítása
 Presentation pres = new Presentation(dataDir + "Convert_Tiff_Custom.pptx");
 ```
 
-## 3. lépés: Állítsa be a TIFF-átalakítási beállításokat
+## 3. lépés: TIFF konvertálási beállítások megadása
 
-Most állítsuk be a TIFF-konverzió beállításait. Meghatározzuk a tömörítés típusát, a DPI-t (dots per inch), a képméretet és a jegyzetek pozícióját. Ezeket a beállításokat igényei szerint testreszabhatja.
+Most állítsuk be a TIFF konverzió beállításait. Megadjuk a tömörítés típusát, a DPI-t (képpont/hüvelyk), a képméretet és a jegyzetek pozícióját. Ezeket a beállításokat az igényeidnek megfelelően testreszabhatod.
 
 ```java
-// Példányosítsa a TiffOptions osztályt
+// Hozz létre egy TiffOptions osztályt
 TiffOptions opts = new TiffOptions();
 
-// A tömörítés típusának beállítása
+// Tömörítési típus beállítása
 opts.setCompressionType(TiffCompressionTypes.Default);
 
 // Kép DPI beállítása
 opts.setDpiX(200);
 opts.setDpiY(100);
 
-// Állítsa be a képméretet
+// Képméret beállítása
 opts.setImageSize(new Dimension(1728, 1078));
 
-// Állítsa be a jegyzetek pozícióját
+// Hangjegyek pozíciójának beállítása
 INotesCommentsLayoutingOptions notesOptions = opts.getNotesCommentsLayouting();
 notesOptions.setNotesPosition(NotesPositions.BottomFull);
 ```
 
-## 4. lépés: Mentés TIFF-ként
+## 4. lépés: Mentés TIFF formátumban
 
-Az összes beállítás konfigurálásával a prezentációt a megadott beállításokkal TIFF-képként mentheti.
+Miután beállította az összes beállítást, mostantól TIFF képként mentheti a prezentációt a megadott beállításokkal.
 
 ```java
-// Mentse el a prezentációt TIFF-re a megadott képmérettel
+// Mentse el a prezentációt TIFF formátumban a megadott képmérettel
 pres.save(dataDir + "TiffWithCustomSize_out.tiff", SaveFormat.Tiff, opts);
 ```
 
-## Teljes forráskód az egyéni méretű konvertáláshoz a Java Slides-ben
+## Teljes forráskód a Java diákban található egyéni mérettel konvertáláshoz
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
 String dataDir = "Your Document Directory";
-// Példányosítson egy bemutató objektumot, amely egy prezentációs fájlt képvisel
+// Prezentációs fájlt reprezentáló prezentációs objektum példányosítása
 Presentation pres = new Presentation(dataDir + "Convert_Tiff_Custom.pptx");
 try
 {
-	// Példányosítsa a TiffOptions osztályt
+	// Hozz létre egy TiffOptions osztályt
 	TiffOptions opts = new TiffOptions();
-	// A tömörítés típusának beállítása
+	// Tömörítési típus beállítása
 	opts.setCompressionType(TiffCompressionTypes.Default);
 	INotesCommentsLayoutingOptions notesOptions = opts.getNotesCommentsLayouting();
 	notesOptions.setNotesPosition(NotesPositions.BottomFull);
 	// Tömörítési típusok
-	// Alapértelmezett – Megadja az alapértelmezett tömörítési sémát (LZW).
-	// None – Nincs tömörítés.
+	// Alapértelmezett – Meghatározza az alapértelmezett tömörítési sémát (LZW).
+	// Nincs – Nincs tömörítés.
 	// CCITT3
 	// CCITT4
 	// LZW
 	// RLE
-	// A mélység a tömörítés típusától függ, és nem állítható be kézzel.
-	// A felbontás mértékegysége mindig „2” (pont/hüvelyk)
+	// A mélység a tömörítés típusától függ, és manuálisan nem állítható be.
+	// A felbontás mértékegysége mindig „2” (képpont/hüvelyk)
 	// Kép DPI beállítása
 	opts.setDpiX(200);
 	opts.setDpiY(100);
-	// Állítsa be a képméretet
+	// Képméret beállítása
 	opts.setImageSize(new Dimension(1728, 1078));
-	// Mentse el a prezentációt TIFF-re a megadott képmérettel
+	// Mentse el a prezentációt TIFF formátumban a megadott képmérettel
 	pres.save(dataDir + "TiffWithCustomSize_out.tiff", SaveFormat.Tiff, opts);
 }
 finally
@@ -120,32 +122,34 @@ finally
 
 ## Következtetés
 
-Gratulálunk! Sikeresen konvertált egy PowerPoint-prezentációt egyéni méretű TIFF-képpé az Aspose.Slides for Java segítségével. Ez értékes funkció lehet, ha kiváló minőségű képeket kell előállítania prezentációiból különböző célokra.
+Gratulálunk! Sikeresen konvertáltál egy PowerPoint prezentációt egyéni méretű TIFF képpé az Aspose.Slides for Java segítségével. Ez egy értékes funkció lehet, ha kiváló minőségű képeket kell létrehoznod a prezentációidból különféle célokra.
 
 ## GYIK
 
-### Hogyan módosíthatom a TIFF-kép tömörítési típusát?
+### Hogyan tudom megváltoztatni a TIFF kép tömörítési típusát?
 
- A tömörítés típusát módosíthatja a`setCompressionType` módszer a`TiffOptions` osztály. Különféle tömörítési típusok állnak rendelkezésre, például alapértelmezett, nincs, CCITT3, CCITT4, LZW és RLE.
+A tömörítés típusát a következő módosításával módosíthatja: `setCompressionType` módszer a `TiffOptions` osztály. Különböző tömörítési típusok érhetők el, például az Alapértelmezett, Nincs, CCITT3, CCITT4, LZW és RLE.
 
-### Beállíthatom a TIFF-kép DPI-jét (dots per inch)?
+### Be tudom állítani a TIFF kép DPI-jét (pontok/hüvelyk)?
 
-Igen, beállíthatja a DPI-t a gombbal`setDpiX` és`setDpiY` módszerek a`TiffOptions` osztály. Egyszerűen állítsa be a kívánt értékeket a képfelbontás szabályozásához.
+Igen, a DPI-t a következővel állíthatod be: `setDpiX` és `setDpiY` módszerek a `TiffOptions` osztály. Egyszerűen állítsa be a kívánt értékeket a képfelbontás szabályozásához.
 
-### Milyen opciók állnak rendelkezésre a jegyzetek pozíciójához a TIFF-képen?
+### Milyen lehetőségek vannak a jegyzetek elhelyezésére a TIFF képen?
 
- A jegyzetek pozíciója a TIFF képen a következővel konfigurálható`setNotesPosition` módszer olyan opciókkal, mint a BottomFull, BottomTruncated és SlideOnly. Válassza ki az igényeinek leginkább megfelelőt.
+A jegyzetek pozíciója a TIFF képen a következővel konfigurálható: `setNotesPosition` metódus olyan opciókkal, mint a BottomFull, BottomTroncated és SlideOnly. Válassza ki az igényeinek leginkább megfelelőt.
 
-### Megadható-e egyéni képméret a TIFF konverzióhoz?
+### Lehetséges egyéni képméretet megadni a TIFF konverzióhoz?
 
- Teljesen! Egyéni képméretet állíthat be a segítségével`setImageSize` módszer a`TiffOptions` osztály. Adja meg a kívánt méreteket (szélesség és magasság) a kimeneti képhez.
+Természetesen! Egyéni képméretet is beállíthat a használatával `setImageSize` módszer a `TiffOptions` osztály. Adja meg a kimeneti kép kívánt méreteit (szélesség és magasság).
 
-### Hol találhatok további információt az Aspose.Slides for Java programról?
+### Hol találok további információt az Aspose.Slides for Java-ról?
 
- Az Aspose.Slides for Java-val kapcsolatos részletes dokumentációért és további információkért keresse fel a következő dokumentációt:[Aspose.Slides for Java API Reference](https://reference.aspose.com/slides/java/).
+A részletes dokumentációért és az Aspose.Slides for Java programról további információkért kérjük, látogassa meg a dokumentációt: [Aspose.Slides Java API-referenciához](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

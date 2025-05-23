@@ -1,14 +1,16 @@
 ---
-title: स्लाइड एनीमेशन नियंत्रण
-linktitle: स्लाइड एनीमेशन नियंत्रण
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: Aspose.Slides for .NET का उपयोग करके गतिशील एनिमेशन के साथ अपनी प्रस्तुतियों को बेहतर बनाएँ। इस व्यापक ट्यूटोरियल में चरण दर चरण स्लाइड एनिमेशन को नियंत्रित करना सीखें।
-weight: 18
-url: /hi/net/slide-animation-control/
+"description": "Aspose.Slides for .NET का उपयोग करके गतिशील एनिमेशन के साथ अपनी प्रस्तुतियों को बेहतर बनाएँ। इस व्यापक ट्यूटोरियल में चरण दर चरण स्लाइड एनिमेशन को नियंत्रित करना सीखें।"
+"linktitle": "स्लाइड एनीमेशन नियंत्रण"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "स्लाइड एनीमेशन नियंत्रण"
+"url": "/hi/net/slide-animation-control/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # स्लाइड एनीमेशन नियंत्रण
@@ -37,14 +39,16 @@ url: /hi/net/slide-animation-control/
 ### [Aspose.Slides में स्लाइड एनीमेशन नियंत्रण](./slide-animation-control/)
 Aspose.Slides for .NET का उपयोग करके PowerPoint प्रस्तुतियों में स्लाइड एनिमेशन को नियंत्रित करना सीखें। यह चरण-दर-चरण मार्गदर्शिका एनिमेशन जोड़ने, उन्हें अनुकूलित करने और प्रबंधित करने के लिए स्रोत कोड उदाहरण प्रदान करती है, जिससे आपकी प्रस्तुतियों की दृश्य अपील बढ़ जाती है।
 ### [स्लाइड में एनीमेशन टाइप के बाद नियंत्रण](./control-after-animation-type/)
-Aspose.Slides for .NET का उपयोग करके PowerPoint स्लाइड में एनीमेशन प्रकारों को नियंत्रित करना सीखें। यह चरण-दर-चरण मार्गदर्शिका स्रोत कोड उदाहरण प्रदान करती है और इंस्टॉलेशन, कोड कार्यान्वयन और एनीमेशन प्रभावों को संशोधित करने को कवर करती है।
+जानें कि .NET के लिए Aspose.Slides का उपयोग करके PowerPoint स्लाइड में एनीमेशन प्रकारों को कैसे नियंत्रित किया जाए। यह चरण-दर-चरण मार्गदर्शिका स्रोत कोड उदाहरण प्रदान करती है और इंस्टॉलेशन, कोड कार्यान्वयन और एनीमेशन प्रभावों को संशोधित करने को कवर करती है।
 ### [स्लाइड पर एनिमेशन दोहराएँ](./repeat-animation-on-slide/)
 .NET के लिए Aspose.Slides का उपयोग करके स्लाइड पर एनिमेशन दोहराना सीखें। यह चरण-दर-चरण मार्गदर्शिका प्रोग्रामेटिक रूप से PowerPoint प्रस्तुतियों में आकर्षक एनिमेशन जोड़ने के लिए स्रोत कोड और स्पष्ट निर्देश प्रदान करती है।
-### [स्लाइड पर एनिमेशन रिवाइंड करें](./rewind-animation-on-slide/)
+### [स्लाइड पर एनीमेशन रिवाइंड करें](./rewind-animation-on-slide/)
 Aspose.Slides for .NET का उपयोग करके PowerPoint स्लाइड पर एनिमेशन को रिवाइंड करना सीखें। अपने प्रेजेंटेशन को गतिशील रूप से बढ़ाने के लिए संपूर्ण स्रोत कोड उदाहरणों के साथ इस चरण-दर-चरण मार्गदर्शिका का पालन करें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

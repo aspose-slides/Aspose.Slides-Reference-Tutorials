@@ -1,39 +1,41 @@
 ---
-title: เพิ่มโหนดลูกแบบกำหนดเองใน SmartArt โดยใช้ Java
-linktitle: เพิ่มโหนดลูกแบบกำหนดเองใน SmartArt โดยใช้ Java
-second_title: Aspose.Slides Java PowerPoint การประมวลผล API
-description: เรียนรู้วิธีเพิ่มโหนดลูกแบบกำหนดเองลงใน SmartArt ในงานนำเสนอ PowerPoint โดยใช้ Java กับ Aspose.Slides ปรับปรุงสไลด์ของคุณด้วยกราฟิกระดับมืออาชีพได้อย่างง่ายดาย
-weight: 11
-url: /th/java/java-powerpoint-smartart-manipulation/add-custom-child-nodes-smartart-java/
+"description": "เรียนรู้วิธีเพิ่มโหนดย่อยแบบกำหนดเองลงใน SmartArt ในงานนำเสนอ PowerPoint โดยใช้ Java กับ Aspose.Slides ปรับปรุงสไลด์ของคุณด้วยกราฟิกระดับมืออาชีพได้อย่างง่ายดาย"
+"linktitle": "เพิ่มโหนดย่อยที่กำหนดเองใน SmartArt โดยใช้ Java"
+"second_title": "API การประมวลผล Java PowerPoint ของ Aspose.Slides"
+"title": "เพิ่มโหนดย่อยที่กำหนดเองใน SmartArt โดยใช้ Java"
+"url": "/th/java/java-powerpoint-smartart-manipulation/add-custom-child-nodes-smartart-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# เพิ่มโหนดลูกแบบกำหนดเองใน SmartArt โดยใช้ Java
+# เพิ่มโหนดย่อยที่กำหนดเองใน SmartArt โดยใช้ Java
 
 ## การแนะนำ
-SmartArt เป็นฟีเจอร์ที่มีประสิทธิภาพใน PowerPoint ที่ช่วยให้ผู้ใช้สามารถสร้างกราฟิกที่ดูเป็นมืออาชีพได้อย่างรวดเร็วและง่ายดาย ในบทช่วยสอนนี้ เราจะได้เรียนรู้วิธีเพิ่มโหนดลูกแบบกำหนดเองให้กับ SmartArt โดยใช้ Java กับ Aspose.Slides
+SmartArt เป็นฟีเจอร์อันทรงพลังใน PowerPoint ที่ช่วยให้ผู้ใช้สร้างกราฟิกที่ดูเป็นมืออาชีพได้อย่างรวดเร็วและง่ายดาย ในบทช่วยสอนนี้ เราจะเรียนรู้วิธีเพิ่มโหนดย่อยแบบกำหนดเองลงใน SmartArt โดยใช้ Java กับ Aspose.Slides
 ## ข้อกำหนดเบื้องต้น
-ก่อนที่เราจะเริ่ม ตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
-1. Java Development Kit (JDK): ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java บนระบบของคุณ
-2.  Aspose.Slides สำหรับ Java: ดาวน์โหลดและติดตั้ง Aspose.Slides สำหรับ Java จาก[ที่นี่](https://releases.aspose.com/slides/java/).
+ก่อนที่เราจะเริ่ม โปรดตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
+1. Java Development Kit (JDK): ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java ไว้ในระบบของคุณแล้ว
+2. Aspose.Slides สำหรับ Java: ดาวน์โหลดและติดตั้ง Aspose.Slides สำหรับ Java จาก [ที่นี่](https://releases-aspose.com/slides/java/).
 
 ## แพ็คเกจนำเข้า
-ในการเริ่มต้น ให้นำเข้าแพ็คเกจที่จำเป็นในโปรเจ็กต์ Java ของคุณ:
+ในการเริ่มต้น ให้โหลดแพ็คเกจที่จำเป็นลงในโปรเจ็กต์ Java ของคุณ:
 ```java
 import com.aspose.slides.*;
 ```
 ## ขั้นตอนที่ 1: โหลดงานนำเสนอ
-โหลดงานนำเสนอ PowerPoint ที่คุณต้องการเพิ่มโหนดลูกแบบกำหนดเองลงใน SmartArt:
+โหลดงานนำเสนอ PowerPoint ที่คุณต้องการเพิ่มโหนดย่อยที่กำหนดเองลงใน SmartArt:
 ```java
 String dataDir = "Your Document Directory";
-// โหลดการนำเสนอที่ต้องการ
+// โหลดงานนำเสนอที่ต้องการ
 Presentation pres = new Presentation(dataDir + "YourPresentation.pptx");
 ```
 ## ขั้นตอนที่ 2: เพิ่ม SmartArt ลงในสไลด์
-ตอนนี้ มาเพิ่ม SmartArt ลงในสไลด์กันดีกว่า:
+ตอนนี้เรามาเพิ่ม SmartArt ลงในสไลด์กัน:
 ```java
 ISmartArt smart = pres.getSlides().get_Item(0).getShapes().addSmartArt(20, 20, 600, 500, SmartArtLayoutType.OrganizationChart);
 ```
@@ -67,27 +69,29 @@ shape = node.getShapes().get_Item(1);
 shape.setRotation(90);
 ```
 ## ขั้นตอนที่ 7: บันทึกการนำเสนอ
-สุดท้าย ให้บันทึกงานนำเสนอที่แก้ไขแล้ว:
+สุดท้ายให้บันทึกการนำเสนอที่แก้ไขแล้ว:
 ```java
 pres.save(dataDir + "ModifiedPresentation.pptx", SaveFormat.Pptx);
 ```
 
 ## บทสรุป
-ในบทช่วยสอนนี้ เราได้เรียนรู้วิธีเพิ่มโหนดลูกแบบกำหนดเองให้กับ SmartArt โดยใช้ Java กับ Aspose.Slides เมื่อทำตามขั้นตอนเหล่านี้ คุณจะปรับปรุงการนำเสนอของคุณด้วยกราฟิกที่ปรับแต่งเองได้ ทำให้น่าสนใจและเป็นมืออาชีพมากขึ้น
+ในบทช่วยสอนนี้ เราได้เรียนรู้วิธีการเพิ่มโหนดย่อยแบบกำหนดเองลงใน SmartArt โดยใช้ Java ด้วย Aspose.Slides เมื่อทำตามขั้นตอนเหล่านี้แล้ว คุณจะสามารถปรับปรุงการนำเสนอของคุณด้วยกราฟิกแบบกำหนดเอง ทำให้การนำเสนอน่าสนใจและเป็นมืออาชีพมากขึ้น
 ## คำถามที่พบบ่อย
-### ฉันสามารถเพิ่มเค้าโครง SmartArt ประเภทต่างๆ โดยใช้ Aspose.Slides สำหรับ Java ได้หรือไม่
-ใช่ Aspose.Slides สำหรับ Java รองรับเค้าโครง SmartArt ที่หลากหลาย ช่วยให้คุณสามารถเลือกเค้าโครงที่เหมาะกับความต้องการในการนำเสนอของคุณได้มากที่สุด
+### ฉันสามารถเพิ่มรูปแบบ SmartArt ประเภทต่างๆ โดยใช้ Aspose.Slides สำหรับ Java ได้หรือไม่
+ใช่ Aspose.Slides สำหรับ Java รองรับเค้าโครง SmartArt ที่หลากหลาย ช่วยให้คุณสามารถเลือกเค้าโครงที่เหมาะกับความต้องการในการนำเสนอของคุณได้
 ### Aspose.Slides สำหรับ Java เข้ากันได้กับ PowerPoint เวอร์ชันต่างๆ หรือไม่
-Aspose.Slides สำหรับ Java ได้รับการออกแบบมาให้ทำงานได้อย่างราบรื่นกับ PowerPoint เวอร์ชันต่างๆ ทำให้มั่นใจได้ถึงความเข้ากันได้และความสม่ำเสมอในทุกแพลตฟอร์ม
-### ฉันสามารถปรับแต่งลักษณะที่ปรากฏของรูปร่าง SmartArt โดยทางโปรแกรมได้หรือไม่
-อย่างแน่นอน! ด้วย Aspose.Slides สำหรับ Java คุณสามารถปรับแต่งรูปลักษณ์ ขนาด สี และเลย์เอาต์ของรูปร่าง SmartArt โดยทางโปรแกรมเพื่อให้เหมาะกับความต้องการในการออกแบบของคุณ
+Aspose.Slides สำหรับ Java ได้รับการออกแบบมาให้ทำงานได้อย่างราบรื่นกับ PowerPoint เวอร์ชันต่างๆ ช่วยให้มั่นใจถึงความเข้ากันได้และความสอดคล้องกันในทุกแพลตฟอร์ม
+### ฉันสามารถปรับแต่งลักษณะของรูปทรง SmartArt โดยโปรแกรมได้หรือไม่
+แน่นอน! ด้วย Aspose.Slides สำหรับ Java คุณสามารถปรับแต่งรูปลักษณ์ ขนาด สี และเค้าโครงของรูปทรง SmartArt ได้ตามต้องการเพื่อให้เหมาะกับความต้องการในการออกแบบของคุณ
 ### Aspose.Slides สำหรับ Java มีเอกสารประกอบและการสนับสนุนหรือไม่
-ใช่ คุณสามารถค้นหาเอกสารที่ครอบคลุมและเข้าถึงฟอรัมสนับสนุนชุมชนได้จากเว็บไซต์ Aspose
-### มีรุ่นทดลองใช้งานสำหรับ Aspose.Slides สำหรับ Java หรือไม่
- ใช่ คุณสามารถดาวน์โหลด Aspose.Slides สำหรับ Java เวอร์ชันทดลองใช้ฟรีได้จากเว็บไซต์เพื่อสำรวจคุณลักษณะและความสามารถของเวอร์ชันก่อนตัดสินใจซื้อ[ที่นี่](https://releases.aspose.com/slides/java/).
+ใช่ คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมและเข้าถึงฟอรัมสนับสนุนชุมชนได้บนเว็บไซต์ Aspose
+### มีเวอร์ชันทดลองใช้สำหรับ Aspose.Slides สำหรับ Java หรือไม่
+ใช่ คุณสามารถดาวน์โหลด Aspose.Slides สำหรับ Java เวอร์ชันทดลองใช้งานฟรีจากเว็บไซต์เพื่อสำรวจคุณลักษณะและความสามารถก่อนตัดสินใจซื้อ [ที่นี่](https://releases-aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

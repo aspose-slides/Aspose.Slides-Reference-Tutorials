@@ -1,14 +1,16 @@
 ---
-title: जावा का उपयोग करके PowerPoint में पैराग्राफ बुलेट जोड़ें
-linktitle: जावा का उपयोग करके PowerPoint में पैराग्राफ बुलेट जोड़ें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: जानें कि Aspose.Slides for Java का उपयोग करके PowerPoint स्लाइड में पैराग्राफ़ बुलेट कैसे जोड़ें। यह ट्यूटोरियल आपको कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शन करता है।
-weight: 15
-url: /hi/java/java-powerpoint-text-paragraph-management/add-paragraph-bullets-powerpoint-java/
+"description": "जानें कि Aspose.Slides for Java का उपयोग करके PowerPoint स्लाइड में पैराग्राफ़ बुलेट कैसे जोड़ें। यह ट्यूटोरियल आपको कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शन करता है।"
+"linktitle": "जावा का उपयोग करके PowerPoint में पैराग्राफ बुलेट जोड़ें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा का उपयोग करके PowerPoint में पैराग्राफ बुलेट जोड़ें"
+"url": "/hi/java/java-powerpoint-text-paragraph-management/add-paragraph-bullets-powerpoint-java/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा का उपयोग करके PowerPoint में पैराग्राफ बुलेट जोड़ें
@@ -19,7 +21,7 @@ url: /hi/java/java-powerpoint-text-paragraph-management/add-paragraph-bullets-po
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 - जावा प्रोग्रामिंग का बुनियादी ज्ञान.
 - आपके सिस्टम पर JDK (जावा डेवलपमेंट किट) स्थापित है।
--  Aspose.Slides for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+- Aspose.Slides for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 
 ## पैकेज आयात करें
 आरंभ करने के लिए, अपने जावा प्रोजेक्ट में आवश्यक Aspose.Slides पैकेज आयात करें:
@@ -39,7 +41,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 ```
 ## चरण 3: स्लाइड और टेक्स्ट फ़्रेम तक पहुँचें
-स्लाइड तक पहुंचें (`ISlide`और उसका टेक्स्ट फ़्रेम (`ITextFrame`) जहाँ आप बुलेट जोड़ना चाहते हैं.
+स्लाइड तक पहुंचें (`ISlide`) और उसका टेक्स्ट फ़्रेम (`ITextFrame`) जहाँ आप बुलेट जोड़ना चाहते हैं.
 ```java
 // पहली स्लाइड तक पहुँचना
 ISlide slide = pres.getSlides().get_Item(0);
@@ -94,10 +96,12 @@ Aspose.Slides for Java का उपयोग करके PowerPoint में 
 ### क्या Aspose.Slides Java 11 के साथ संगत है?
 हां, Aspose.Slides Java 11 और उच्चतर संस्करणों का समर्थन करता है।
 ### मैं और अधिक उदाहरण और दस्तावेज कहां पा सकता हूं?
- मिलने जाना[Aspose.Slides for Java दस्तावेज़ीकरण](https://reference.aspose.com/slides/java/) विस्तृत मार्गदर्शिका और उदाहरण के लिए.
+मिलने जाना [Aspose.Slides for Java दस्तावेज़ीकरण](https://reference.aspose.com/slides/java/) विस्तृत मार्गदर्शिका और उदाहरण के लिए.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

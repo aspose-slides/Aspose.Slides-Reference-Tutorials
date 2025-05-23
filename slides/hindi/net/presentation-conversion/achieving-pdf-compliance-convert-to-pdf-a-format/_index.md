@@ -1,14 +1,16 @@
 ---
-title: .NET के लिए Aspose.Slides के साथ PowerPoint को PDF/A में बदलें
-linktitle: पीडीएफ अनुपालन प्राप्त करना - पीडीएफ/ए प्रारूप में कनवर्ट करें
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: जानें कि Aspose.Slides for .NET के साथ PowerPoint प्रस्तुतियों को PDF/A प्रारूप में परिवर्तित करके PDF अनुपालन कैसे प्राप्त करें। दस्तावेज़ की दीर्घायु और पहुँच सुनिश्चित करें।
-weight: 25
-url: /hi/net/presentation-conversion/achieving-pdf-compliance-convert-to-pdf-a-format/
+"description": "जानें कि Aspose.Slides for .NET के साथ PowerPoint प्रस्तुतियों को PDF/A प्रारूप में परिवर्तित करके PDF अनुपालन कैसे प्राप्त करें। दस्तावेज़ की दीर्घायु और पहुँच सुनिश्चित करें।"
+"linktitle": "पीडीएफ अनुपालन प्राप्त करना - पीडीएफ/ए प्रारूप में कनवर्ट करें"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": ".NET के लिए Aspose.Slides के साथ PowerPoint को PDF/A में बदलें"
+"url": "/hi/net/presentation-conversion/achieving-pdf-compliance-convert-to-pdf-a-format/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # .NET के लिए Aspose.Slides के साथ PowerPoint को PDF/A में बदलें
@@ -22,7 +24,7 @@ url: /hi/net/presentation-conversion/achieving-pdf-compliance-convert-to-pdf-a-f
 
 रूपांतरण प्रक्रिया में उतरने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
--  .NET के लिए Aspose.Slides: सुनिश्चित करें कि आपके .NET प्रोजेक्ट में Aspose.Slides लाइब्रेरी स्थापित है। यदि नहीं, तो आप[यहाँ पर डाउनलोड करो](https://releases.aspose.com/slides/net/).
+- .NET के लिए Aspose.Slides: सुनिश्चित करें कि आपके .NET प्रोजेक्ट में Aspose.Slides लाइब्रेरी स्थापित है। यदि नहीं, तो आप [यहाँ पर डाउनलोड करो](https://releases.aspose.com/slides/net/).
 
 - परिवर्तित करने हेतु दस्तावेज़: आपके पास पावरपॉइंट प्रस्तुति (PPTX) होनी चाहिए जिसे आप PDF/A प्रारूप में परिवर्तित करना चाहते हैं।
 
@@ -61,17 +63,17 @@ using (Presentation presentation = new Presentation(presentationName))
 }
 ```
 
- इस कोड स्निपेट में, प्रतिस्थापित करें`"Your Document Directory"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ और`"YourPresentation.pptx"` अपने पावरपॉइंट प्रेजेंटेशन के नाम के साथ।
+इस कोड स्निपेट में, प्रतिस्थापित करें `"Your Document Directory"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ और `"YourPresentation.pptx"` अपने पावरपॉइंट प्रेजेंटेशन के नाम के साथ।
 
 ### चरण 3: PDF विकल्प कॉन्फ़िगर करें
 
- PDF अनुपालन प्राप्त करने के लिए, आपको PDF विकल्प निर्दिष्ट करने होंगे। PDF/A अनुपालन के लिए, हम उपयोग करेंगे`PdfCompliance.PdfA2a`पीडीएफ विकल्पों को निम्नानुसार कॉन्फ़िगर करें:
+PDF अनुपालन प्राप्त करने के लिए, आपको PDF विकल्प निर्दिष्ट करने होंगे। PDF/A अनुपालन के लिए, हम उपयोग करेंगे `PdfCompliance.PdfA2a`पीडीएफ विकल्पों को निम्नानुसार कॉन्फ़िगर करें:
 
 ```csharp
 PdfOptions pdfOptions = new PdfOptions() { Compliance = PdfCompliance.PdfA2a };
 ```
 
- अनुपालन निर्धारित करके`PdfCompliance.PdfA2a`आप सुनिश्चित करते हैं कि आपका पीडीएफ पीडीएफ/ए-2ए मानक का पालन करेगा, जो आमतौर पर दीर्घकालिक दस्तावेज़ संग्रह के लिए आवश्यक है।
+अनुपालन निर्धारित करके `PdfCompliance.PdfA2a`, आप सुनिश्चित करते हैं कि आपका पीडीएफ पीडीएफ/ए-2ए मानक का पालन करेगा, जो आमतौर पर दीर्घकालिक दस्तावेज़ संग्रह के लिए आवश्यक है।
 
 ### चरण 4: रूपांतरण करें
 
@@ -81,13 +83,13 @@ PdfOptions pdfOptions = new PdfOptions() { Compliance = PdfCompliance.PdfA2a };
 presentation.Save(dataDir, SaveFormat.Pdf, pdfOptions);
 ```
 
- कोड की यह पंक्ति निर्दिष्ट अनुपालन के साथ प्रस्तुति को PDF फ़ाइल के रूप में सहेजती है।`dataDir` अपने वास्तविक दस्तावेज़ निर्देशिका पथ के साथ.
+कोड की यह पंक्ति निर्दिष्ट अनुपालन के साथ प्रस्तुति को PDF फ़ाइल के रूप में सहेजती है। `dataDir` अपने वास्तविक दस्तावेज़ निर्देशिका पथ के साथ.
 
 ## निष्कर्ष
 
 इस ट्यूटोरियल में, आपने सीखा है कि Aspose.Slides for .NET का उपयोग करके PowerPoint प्रस्तुतियों को PDF/A प्रारूप में परिवर्तित करके PDF अनुपालन कैसे प्राप्त करें। इन चरणों का पालन करके, आप यह सुनिश्चित कर सकते हैं कि आपके दस्तावेज़ सबसे सख्त अनुपालन मानकों को पूरा करते हैं, जिससे वे दीर्घकालिक संग्रह और वितरण के लिए उपयुक्त बन जाते हैं।
 
- अपने दस्तावेज़ प्रबंधन वर्कफ़्लो को बढ़ाने के लिए Aspose.Slides द्वारा पेश की गई आगे की संभावनाओं और अनुकूलन विकल्पों का पता लगाने के लिए स्वतंत्र महसूस करें। अधिक जानकारी के लिए, आप देख सकते हैं[.NET दस्तावेज़ीकरण के लिए Aspose.Slides](https://reference.aspose.com/slides/net/).
+अपने दस्तावेज़ प्रबंधन वर्कफ़्लो को बढ़ाने के लिए Aspose.Slides द्वारा पेश की गई आगे की संभावनाओं और अनुकूलन विकल्पों का पता लगाने के लिए स्वतंत्र महसूस करें। अधिक जानकारी के लिए, आप देख सकते हैं [.NET दस्तावेज़ीकरण के लिए Aspose.Slides](https://reference.aspose.com/slides/net/).
 
 ## अक्सर पूछे जाने वाले प्रश्नों
 
@@ -95,19 +97,21 @@ presentation.Save(dataDir, SaveFormat.Pdf, pdfOptions);
 PDF/A, डिजिटल संरक्षण के लिए डिज़ाइन किया गया PDF का ISO-मानकीकृत संस्करण है। यह महत्वपूर्ण है क्योंकि यह सुनिश्चित करता है कि आपके दस्तावेज़ समय के साथ सुलभ और दृश्यमान रूप से सुसंगत बने रहें।
 
 ### क्या मैं Aspose.Slides for .NET का उपयोग करके प्रस्तुतियों को अन्य PDF प्रारूपों में परिवर्तित कर सकता हूँ?
- हां, आप प्रस्तुतिकरण को विभिन्न पीडीएफ प्रारूपों में परिवर्तित कर सकते हैं।`PdfCompliance` पीडीएफ विकल्पों में सेटिंग.
+हां, आप प्रस्तुतिकरण को विभिन्न पीडीएफ प्रारूपों में परिवर्तित कर सकते हैं। `PdfCompliance` पीडीएफ विकल्पों में सेटिंग.
 
 ### क्या Aspose.Slides for .NET बैच रूपांतरण के लिए उपयुक्त है?
 हां, Aspose.Slides बैच रूपांतरणों का समर्थन करता है, जिससे आप एक बार में कई प्रस्तुतियों को संसाधित कर सकते हैं।
 
 ### क्या .NET के लिए Aspose.Slides के लिए कोई लाइसेंसिंग विकल्प उपलब्ध हैं?
- हां, आप यहां जाकर अस्थायी लाइसेंस सहित लाइसेंसिंग विकल्पों का पता लगा सकते हैं[Aspose का लाइसेंसिंग पृष्ठ](https://purchase.aspose.com/buy).
+हां, आप यहां जाकर अस्थायी लाइसेंस सहित लाइसेंसिंग विकल्पों का पता लगा सकते हैं [Aspose का लाइसेंसिंग पृष्ठ](https://purchase.aspose.com/buy).
 
 ### यदि मुझे कोई समस्या आती है तो मैं Aspose.Slides for .NET के लिए समर्थन कहां पा सकता हूं?
- यदि आपके कोई प्रश्न हों या आपको कोई समस्या हो, तो आप यहाँ सहायता और सहयोग ले सकते हैं।[Aspose.Slides फ़ोरम](https://forum.aspose.com/).
+यदि आपके कोई प्रश्न हों या आपको कोई समस्या हो, तो आप यहाँ सहायता और सहयोग ले सकते हैं। [Aspose.Slides फ़ोरम](https://forum.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

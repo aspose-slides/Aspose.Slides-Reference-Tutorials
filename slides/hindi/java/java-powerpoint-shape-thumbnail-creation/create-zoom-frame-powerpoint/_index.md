@@ -1,14 +1,16 @@
 ---
-title: पावरपॉइंट में ज़ूम फ़्रेम बनाएँ
-linktitle: पावरपॉइंट में ज़ूम फ़्रेम बनाएँ
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके PowerPoint में आकर्षक ज़ूम फ़्रेम बनाने का तरीका जानें। अपनी प्रस्तुतियों में इंटरैक्टिव तत्व जोड़ने के लिए हमारी मार्गदर्शिका का पालन करें।
-weight: 17
-url: /hi/java/java-powerpoint-shape-thumbnail-creation/create-zoom-frame-powerpoint/
+"description": "जानें कि Aspose.Slides for Java का उपयोग करके PowerPoint में आकर्षक ज़ूम फ़्रेम कैसे बनाएँ। अपनी प्रस्तुतियों में इंटरैक्टिव तत्व जोड़ने के लिए हमारी मार्गदर्शिका का पालन करें।"
+"linktitle": "पावरपॉइंट में ज़ूम फ़्रेम बनाएँ"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "पावरपॉइंट में ज़ूम फ़्रेम बनाएँ"
+"url": "/hi/java/java-powerpoint-shape-thumbnail-creation/create-zoom-frame-powerpoint/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पावरपॉइंट में ज़ूम फ़्रेम बनाएँ
@@ -18,7 +20,7 @@ url: /hi/java/java-powerpoint-shape-thumbnail-creation/create-zoom-frame-powerpo
 ## आवश्यक शर्तें
 ट्यूटोरियल में आगे बढ़ने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 - आपके सिस्टम पर जावा डेवलपमेंट किट (JDK) स्थापित है।
--  Aspose.Slides for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+- Aspose.Slides for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 - एक एकीकृत विकास वातावरण (IDE) जैसे कि IntelliJ IDEA या Eclipse.
 - जावा प्रोग्रामिंग का बुनियादी ज्ञान.
 ## पैकेज आयात करें
@@ -31,10 +33,10 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 ```
-## चरण 1: प्रस्तुतिकरण सेट करना
+## चरण 1: प्रस्तुति सेट करना
 सबसे पहले, हमें एक नई प्रस्तुति बनानी होगी और उसमें कुछ स्लाइडें जोड़नी होंगी।
 ```java
-// आउटपुट फ़ाइल नाम
+// आउटपुट फ़ाइल का नाम
 String resultPath = "ZoomFramePresentation.pptx";
 // स्रोत छवि का पथ
 String imagePath = "Your Document Directory/aspose-logo.jpg";
@@ -112,16 +114,18 @@ Aspose.Slides for Java का उपयोग करके PowerPoint में 
 ### Java के लिए Aspose.Slides क्या है?
 Aspose.Slides for Java, पावरपॉइंट प्रस्तुतियों को प्रोग्रामेटिक रूप से बनाने और उनमें बदलाव करने के लिए एक शक्तिशाली API है।
 ### मैं Java के लिए Aspose.Slides कैसे स्थापित करूं?
- आप Java के लिए Aspose.Slides को यहाँ से डाउनलोड कर सकते हैं[वेबसाइट](https://releases.aspose.com/slides/java/) और इसे अपने प्रोजेक्ट की निर्भरताओं में जोड़ें.
+आप Java के लिए Aspose.Slides को यहाँ से डाउनलोड कर सकते हैं [वेबसाइट](https://releases.aspose.com/slides/java/) और इसे अपने प्रोजेक्ट की निर्भरताओं में जोड़ें.
 ### क्या मैं ज़ूम फ़्रेम के स्वरूप को अनुकूलित कर सकता हूँ?
 हां, Aspose.Slides आपको ज़ूम फ्रेम्स के विभिन्न गुणों को अनुकूलित करने की अनुमति देता है, जैसे लाइन शैली, रंग और पृष्ठभूमि दृश्यता।
 ### क्या ज़ूम फ्रेम्स में छवियाँ जोड़ना संभव है?
 बिल्कुल! आप इमेज फ़ाइलों को पढ़कर और उन्हें प्रेजेंटेशन में जोड़कर ज़ूम फ़्रेम में कस्टम इमेज जोड़ सकते हैं।
 ### मैं और अधिक उदाहरण और दस्तावेज कहां पा सकता हूं?
- आप यहाँ पर विस्तृत दस्तावेज और उदाहरण पा सकते हैं।[Aspose.Slides for Java दस्तावेज़न पृष्ठ](https://reference.aspose.com/slides/java/).
+आप यहाँ पर विस्तृत दस्तावेज और उदाहरण पा सकते हैं। [Aspose.Slides for Java दस्तावेज़न पृष्ठ](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

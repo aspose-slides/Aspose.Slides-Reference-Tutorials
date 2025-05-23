@@ -1,78 +1,80 @@
 ---
-title: Beheer eigenschappendiagrammen in Java-dia's
-linktitle: Beheer eigenschappendiagrammen in Java-dia's
-second_title: Aspose.Slides Java PowerPoint-verwerkings-API
-description: Leer verbluffende grafieken maken en eigenschappen beheren in Java-dia's met Aspose.Slides. Stap-voor-stap handleiding met broncode voor krachtige presentaties.
-weight: 13
-url: /nl/java/data-manipulation/manage-properties-charts-java-slides/
+"description": "Leer hoe u verbluffende grafieken maakt en eigenschappen beheert in Java-dia's met Aspose.Slides. Stapsgewijze handleiding met broncode voor krachtige presentaties."
+"linktitle": "Eigenschappengrafieken beheren in Java-dia's"
+"second_title": "Aspose.Slides Java PowerPoint-verwerkings-API"
+"title": "Eigenschappengrafieken beheren in Java-dia's"
+"url": "/nl/java/data-manipulation/manage-properties-charts-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Beheer eigenschappendiagrammen in Java-dia's
+# Eigenschappengrafieken beheren in Java-dia's
 
 
-## Inleiding tot het beheren van eigenschappen en diagrammen in Java Slides met Aspose.Slides
+## Inleiding tot het beheren van eigenschappen en grafieken in Java-dia's met Aspose.Slides
 
-In deze zelfstudie onderzoeken we hoe u eigenschappen kunt beheren en grafieken kunt maken in Java-dia's met behulp van Aspose.Slides. Aspose.Slides is een krachtige Java API voor het werken met PowerPoint-presentaties. We zullen het stapsgewijze proces doorlopen, inclusief broncodevoorbeelden.
+In deze tutorial laten we zien hoe je eigenschappen kunt beheren en grafieken kunt maken in Java-dia's met Aspose.Slides. Aspose.Slides is een krachtige Java API voor het werken met PowerPoint-presentaties. We doorlopen het proces stapsgewijs, inclusief broncodevoorbeelden.
 
 ## Vereisten
 
-Voordat we beginnen, moet u ervoor zorgen dat de Aspose.Slides-bibliotheek voor Java in uw project is geïnstalleerd en ingesteld. Je kunt het downloaden van[hier](https://releases.aspose.com/slides/java/).
+Voordat we beginnen, zorg ervoor dat je de Aspose.Slides-bibliotheek voor Java hebt geïnstalleerd en ingesteld in je project. Je kunt deze downloaden van [hier](https://releases.aspose.com/slides/java/).
 
-## Een diagram aan een dia toevoegen
+## Een grafiek aan een dia toevoegen
 
-Volg deze stappen om een diagram aan een dia toe te voegen:
+Om een grafiek aan een dia toe te voegen, volgt u deze stappen:
 
-1. Importeer de benodigde klassen en maak een exemplaar van de klasse Presentation.
+1. Importeer de benodigde klassen en maak een exemplaar van de Presentation-klasse.
 
 ```java
-// Maak een exemplaar van de presentatieklasse
+// Een exemplaar van de presentatieklasse maken
 Presentation presentation = new Presentation();
 ```
 
-2. Ga naar de dia waaraan u het diagram wilt toevoegen. In dit voorbeeld hebben we toegang tot de eerste dia.
+2. Ga naar de dia waaraan u de grafiek wilt toevoegen. In dit voorbeeld gaan we naar de eerste dia.
 
 ```java
-// Toegang tot de eerste dia
+// Toegang tot eerste dia
 ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
-3. Voeg een diagram met standaardgegevens toe. In dit geval voegen we een StackedColumn3D-diagram toe.
+3. Voeg een grafiek toe met standaardgegevens. In dit geval voegen we een StackedColumn3D-grafiek toe.
 
 ```java
-// Diagram met standaardgegevens toevoegen
+// Grafiek toevoegen met standaardgegevens
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn3D, 0, 0, 500, 500);
 ```
 
 ## Grafiekgegevens instellen
 
-Om de diagramgegevens in te stellen, moeten we een werkmap met diagramgegevens maken en series en categorieën toevoegen. Volg deze stappen:
+Om de grafiekgegevens in te stellen, moeten we een grafiekwerkmap maken en reeksen en categorieën toevoegen. Volg deze stappen:
 
-4. Stel de index van het kaartgegevensblad in.
+4. Stel de index van het grafiekgegevensblad in.
 
 ```java
-// De index van het kaartgegevensblad instellen
+// De index van het grafiekgegevensblad instellen
 int defaultWorksheetIndex = 0;
 ```
 
-5. Haal de diagramgegevenswerkmap op.
+5. Download het werkboek met grafiekgegevens.
 
 ```java
-// Het werkblad met diagramgegevens ophalen
+// Het werkblad met grafiekgegevens ophalen
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
 
-6. Voeg reeksen toe aan het diagram. In dit voorbeeld voegen we twee series toe met de namen 'Serie 1' en 'Serie 2'.
+6. Voeg series toe aan de grafiek. In dit voorbeeld voegen we twee series toe, genaamd "Serie 1" en "Serie 2".
 
 ```java
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), chart.getType());
 ```
 
-7. Voeg categorieën toe aan het diagram. Hier voegen we drie categorieën toe.
+7. Voeg categorieën toe aan de grafiek. Hier voegen we drie categorieën toe.
 
 ```java
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 1, 0, "Category 1"));
@@ -82,15 +84,15 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 
 
 ## 3D-rotatie-eigenschappen instellen
 
-Laten we nu de 3D-rotatie-eigenschappen voor het diagram instellen:
+Laten we nu de 3D-rotatie-eigenschappen voor de grafiek instellen:
 
-8. Stel de rechte hoekassen in.
+8. Stel de assen in met een rechte hoek.
 
 ```java
 chart.getRotation3D().setRightAngleAxes(true);
 ```
 
-9. Stel de rotatiehoeken voor de X- en Y-assen in. In dit voorbeeld roteren we X met 40 graden en Y met 270 graden.
+9. Stel de rotatiehoeken voor de X- en Y-as in. In dit voorbeeld roteren we X met 40 graden en Y met 270 graden.
 
 ```java
 chart.getRotation3D().setRotationX((byte) 40);
@@ -103,14 +105,14 @@ chart.getRotation3D().setRotationY(270);
 chart.getRotation3D().setDepthPercents(150);
 ```
 
-## Reeksgegevens invullen
+## Het vullen van reeksgegevens
 
-11. Neem de tweede diagramreeks en vul deze met gegevenspunten.
+11. Neem de tweede grafiekserie en vul deze met datapunten.
 
 ```java
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
 
-// Reeksgegevens invullen
+// Vul reeksgegevens in
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -119,9 +121,9 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
 ```
 
-## Overlapping aanpassen
+## Overlap aanpassen
 
-12. Stel de overlapwaarde voor reeksen in. U kunt dit bijvoorbeeld instellen op 100, zodat er geen overlap is.
+12. Stel de overlappingswaarde voor series in. U kunt deze bijvoorbeeld op 100 zetten voor geen overlapping.
 
 ```java
 series.getParentSeriesGroup().setOverlap((byte) 100);
@@ -135,22 +137,22 @@ Sla ten slotte de presentatie op schijf op.
 presentation.save(dataDir + "Rotation3D_out.pptx", SaveFormat.Pptx);
 ```
 
-Dat is het! U hebt met succes een 3D-gestapeld kolomdiagram met aangepaste eigenschappen gemaakt met behulp van Aspose.Slides in Java.
+Dat is alles! Je hebt met succes een 3D-gestapelde kolomgrafiek met aangepaste eigenschappen gemaakt met Aspose.Slides in Java.
 
 ## Volledige broncode voor het beheren van eigenschappengrafieken in Java-dia's
 
 ```java
 // Het pad naar de documentenmap.
 String dataDir = "Your Document Directory";
-// Maak een exemplaar van de presentatieklasse
+// Een exemplaar van de presentatieklasse maken
 Presentation presentation = new Presentation();
-// Toegang tot de eerste dia
+// Toegang tot eerste dia
 ISlide slide = presentation.getSlides().get_Item(0);
-// Diagram met standaardgegevens toevoegen
+// Grafiek toevoegen met standaardgegevens
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn3D, 0, 0, 500, 500);
-// De index van het kaartgegevensblad instellen
+// De index van het grafiekgegevensblad instellen
 int defaultWorksheetIndex = 0;
-// Het werkblad met diagramgegevens ophalen
+// Het werkblad met grafiekgegevens ophalen
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Serie toevoegen
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
@@ -159,21 +161,21 @@ chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 1, 0, "Caetegoty 1"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 0, "Caetegoty 2"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
-// Stel Rotatie3D-eigenschappen in
+// Rotation3D-eigenschappen instellen
 chart.getRotation3D().setRightAngleAxes(true);
 chart.getRotation3D().setRotationX((byte) 40);
 chart.getRotation3D().setRotationY(270);
 chart.getRotation3D().setDepthPercents(150);
-// Neem de tweede kaartenreeks
+// Neem de tweede grafiekserie
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-// Vult nu seriegegevens in
+// Nu worden reeksgegevens ingevuld
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-// Stel de OverLap-waarde in
+// OverLap-waarde instellen
 series.getParentSeriesGroup().setOverlap((byte) 100);
 // Presentatie naar schijf schrijven
 presentation.save(dataDir + "Rotation3D_out.pptx", SaveFormat.Pptx);
@@ -181,32 +183,34 @@ presentation.save(dataDir + "Rotation3D_out.pptx", SaveFormat.Pptx);
 
 ## Conclusie
 
-In deze zelfstudie hebben we ons verdiept in de wereld van het beheren van eigenschappen en het maken van diagrammen in Java-dia's met behulp van Aspose.Slides. Aspose.Slides is een robuuste Java API waarmee ontwikkelaars efficiënt met PowerPoint-presentaties kunnen werken. We hebben de essentiële stappen besproken en broncodevoorbeelden gegeven om u door het proces te begeleiden.
+In deze tutorial hebben we ons verdiept in de wereld van het beheren van eigenschappen en het maken van grafieken in Java-dia's met Aspose.Slides. Aspose.Slides is een robuuste Java API waarmee ontwikkelaars efficiënt met PowerPoint-presentaties kunnen werken. We hebben de essentiële stappen behandeld en broncodevoorbeelden gegeven om je door het proces te leiden.
 
 ## Veelgestelde vragen
 
-### Hoe kan ik het diagramtype wijzigen?
+### Hoe kan ik het grafiektype wijzigen?
 
- U kunt het diagramtype wijzigen door het`ChartType` parameter bij het toevoegen van het diagram. Raadpleeg de Aspose.Slides-documentatie voor beschikbare diagramtypen.
+U kunt het grafiektype wijzigen door de `ChartType` parameter bij het toevoegen van de grafiek. Raadpleeg de Aspose.Slides-documentatie voor beschikbare grafiektypen.
 
-### Kan ik de grafiekkleuren aanpassen?
+### Kan ik de kleuren van het diagram aanpassen?
 
-Ja, u kunt de diagramkleuren aanpassen door de vuleigenschappen van reeksgegevenspunten of categorieën in te stellen.
+Ja, u kunt de kleuren van het diagram aanpassen door de vuleigenschappen van reeksen gegevenspunten of categorieën in te stellen.
 
-### Hoe voeg ik meer gegevenspunten toe aan een reeks?
+### Hoe voeg ik meer datapunten toe aan een reeks?
 
- U kunt meer gegevenspunten aan een reeks toevoegen met behulp van de`series.getDataPoints().addDataPointForBarSeries()` methode en specificeert de cel die de gegevenswaarde bevat.
+U kunt meer datapunten aan een reeks toevoegen door de `series.getDataPoints().addDataPointForBarSeries()` methode en het opgeven van de cel die de gegevenswaarde bevat.
 
 ### Hoe kan ik een andere rotatiehoek instellen?
 
- Gebruik om een andere rotatiehoek voor de X- en Y-assen in te stellen`chart.getRotation3D().setRotationX()` En`chart.getRotation3D().setRotationY()` met de gewenste hoekwaarden.
+Om een andere rotatiehoek voor de X- en Y-as in te stellen, gebruikt u `chart.getRotation3D().setRotationX()` En `chart.getRotation3D().setRotationY()` met de gewenste hoekwaarden.
 
 ### Welke andere 3D-eigenschappen kan ik aanpassen?
 
-kunt andere 3D-eigenschappen van het diagram verkennen, zoals diepte, perspectief en belichting, door de Aspose.Slides-documentatie te raadplegen.
+U kunt andere 3D-eigenschappen van de grafiek, zoals diepte, perspectief en belichting, bekijken door de documentatie van Aspose.Slides te raadplegen.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

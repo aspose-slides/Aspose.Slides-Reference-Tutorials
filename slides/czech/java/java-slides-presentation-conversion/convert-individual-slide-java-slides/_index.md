@@ -1,39 +1,41 @@
 ---
-title: Převést jednotlivé snímky v Java Slides
-linktitle: Převést jednotlivé snímky v Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Naučte se, jak převést jednotlivé PowerPoint snímky do HTML krok za krokem pomocí příkladů kódu pomocí Aspose.Slides for Java.
-weight: 12
-url: /cs/java/presentation-conversion/convert-individual-slide-java-slides/
+"description": "Naučte se, jak krok za krokem převést jednotlivé snímky PowerPointu do HTML s ukázkami kódu pomocí Aspose.Slides pro Javu."
+"linktitle": "Převod jednotlivých snímků v Javě"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Převod jednotlivých snímků v Javě"
+"url": "/cs/java/presentation-conversion/convert-individual-slide-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Převést jednotlivé snímky v Java Slides
+# Převod jednotlivých snímků v Javě
 
 
-## Úvod do převodu jednotlivých snímků v Java Slides
+## Úvod do převodu jednotlivých snímků v Javě
 
-V tomto tutoriálu si projdeme procesem převodu jednotlivých snímků z PowerPointové prezentace do HTML pomocí Aspose.Slides for Java. Tento podrobný průvodce vám poskytne zdrojový kód a vysvětlení, která vám pomohou splnit tento úkol.
+V tomto tutoriálu si projdeme procesem převodu jednotlivých snímků z prezentace v PowerPointu do HTML pomocí Aspose.Slides pro Javu. Tato podrobná příručka vám poskytne zdrojový kód a vysvětlení, která vám s tímto úkolem pomohou.
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte následující:
 
-- Nainstalovaná knihovna Aspose.Slides for Java.
-- Soubor prezentace PowerPoint (`Individual-Slide.pptx`), které chcete převést.
-- Nastavení vývojového prostředí Java.
+- Nainstalována knihovna Aspose.Slides pro Javu.
+- Soubor prezentace v PowerPointu (`Individual-Slide.pptx`), které chcete převést.
+- Nastavení vývojového prostředí v Javě.
 
-## Krok 1: Nastavte projekt
+## Krok 1: Nastavení projektu
 
-1. Vytvořte projekt Java ve vámi preferovaném vývojovém prostředí.
-2. Přidejte do projektu knihovnu Aspose.Slides for Java.
+1. Vytvořte projekt v Javě ve vámi preferovaném vývojovém prostředí.
+2. Přidejte do svého projektu knihovnu Aspose.Slides pro Javu.
 
 ## Krok 2: Importujte potřebné třídy
 
-Ve své třídě Java naimportujte požadované třídy a nastavte počáteční konfiguraci.
+Ve vaší třídě Java importujte požadované třídy a nastavte počáteční konfiguraci.
 
 ```java
 import com.aspose.slides.HtmlOptions;
@@ -48,9 +50,9 @@ import com.aspose.slides.ISlide;
 import com.aspose.slides.IShape;
 ```
 
-## Krok 3: Definujte hlavní metodu konverze
+## Krok 3: Definujte hlavní metodu převodu
 
- Vytvořte metodu pro provedení převodu jednotlivých snímků. Nezapomeňte vyměnit`"Your Document Directory"` se skutečnou cestou k vašemu adresáři dokumentů.
+Vytvořte metodu pro provedení převodu jednotlivých snímků. Nezapomeňte nahradit `"Your Document Directory"` se skutečnou cestou k adresáři dokumentů.
 
 ```java
 public static void convertIndividualSlides() {
@@ -72,9 +74,9 @@ public static void convertIndividualSlides() {
 }
 ```
 
-## Krok 4: Implementujte CustomFormattingController
+## Krok 4: Implementace CustomFormattingControlleru
 
- Vytvořte`CustomFormattingController` třída pro zpracování vlastního formátování během převodu.
+Vytvořte `CustomFormattingController` třída pro zpracování vlastního formátování během převodu.
 
 ```java
 public static class CustomFormattingController implements IHtmlFormattingController {
@@ -105,7 +107,7 @@ public static class CustomFormattingController implements IHtmlFormattingControl
 
 ## Krok 5: Proveďte konverzi
 
- Nakonec zavolejte na`convertIndividualSlides` způsob provedení procesu převodu.
+Nakonec zavolejte `convertIndividualSlides` metoda pro provedení procesu konverze.
 
 ```java
 public static void main(String[] args) {
@@ -113,7 +115,7 @@ public static void main(String[] args) {
 }
 ```
 
-## Kompletní zdrojový kód pro převod jednotlivých snímků v Java Slides
+## Kompletní zdrojový kód pro převod jednotlivých snímků v Javě
 
 ```java
 	String dataDir = "Your Document Directory";
@@ -124,7 +126,7 @@ public static void main(String[] args) {
 		htmlOptions.setHtmlFormatter(HtmlFormatter.createCustomFormatter(new CustomFormattingController()));
 		INotesCommentsLayoutingOptions notesOptions = htmlOptions.getNotesCommentsLayouting();
 		notesOptions.setNotesPosition(NotesPositions.BottomFull);
-		// Ukládání souboru
+		// Ukládání souboru              
 		for (int i = 0; i < presentation.getSlides().size(); i++)
 			presentation.save(dataDir + "Individual Slide" + i + 1 + "_out.html", new int[]{i + 1}, SaveFormat.Html, htmlOptions);
 	}
@@ -161,24 +163,26 @@ public static class CustomFormattingController implements IHtmlFormattingControl
 
 ## Závěr
 
-Úspěšně jste převedli jednotlivé snímky z powerpointové prezentace do HTML pomocí Aspose.Slides for Java. Tento výukový program vám poskytl nezbytný kód a kroky k dosažení tohoto úkolu. Neváhejte a upravte výstup a formátování podle potřeby pro vaše specifické požadavky.
+Úspěšně jste převedli jednotlivé snímky z prezentace v PowerPointu do formátu HTML pomocí nástroje Aspose.Slides pro Javu. Tento tutoriál vám poskytl potřebný kód a kroky k dosažení tohoto úkolu. Neváhejte a přizpůsobte výstup a formátování podle svých specifických požadavků.
 
-## FAQ
+## Často kladené otázky
 
-### Jak mohu dále upravit výstup HTML?
+### Jak mohu dále přizpůsobit HTML výstup?
 
- Výstup HTML můžete upravit úpravou souboru`CustomFormattingController` třída. Upravte`writeSlideStart` a`writeSlideEnd` metody pro změnu struktury HTML a stylů snímku.
+Výstup HTML můžete přizpůsobit úpravou `CustomFormattingController` třída. Upravte `writeSlideStart` a `writeSlideEnd` metody pro změnu struktury a stylu HTML slajdu.
 
-### Mohu převést více prezentací PowerPoint najednou?
+### Mohu převést více prezentací v PowerPointu najednou?
 
- Ano, kód můžete upravit tak, aby procházel více prezentačními soubory a jednotlivě je převádět voláním`convertIndividualSlides` metoda pro každou prezentaci.
+Ano, kód můžete upravit tak, aby procházel více prezentačních souborů a převáděl je jednotlivě voláním metody `convertIndividualSlides` metoda pro každou prezentaci.
 
-### Jak zvládnu další formátování tvarů a textu na snímcích?
+### Jak mám zvládnout dodatečné formátování tvarů a textu v rámci snímků?
 
- Můžete prodloužit`CustomFormattingController` třídy pro zpracování formátování specifického pro tvar implementací`writeShapeStart` a`writeShapeEnd` metody a v nich aplikovat vlastní logiku formátování.
+Můžete prodloužit `CustomFormattingController` třída pro zpracování formátování specifického pro tvar implementací `writeShapeStart` a `writeShapeEnd` metody a aplikování vlastní logiky formátování v nich.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

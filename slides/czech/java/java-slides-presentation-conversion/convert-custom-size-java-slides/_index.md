@@ -1,95 +1,97 @@
 ---
-title: Převod s vlastní velikostí v Java Slides
-linktitle: Převod s vlastní velikostí v Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Naučte se převádět prezentace PowerPoint na obrázky TIFF s vlastní velikostí pomocí Aspose.Slides for Java. Podrobný průvodce s příklady kódu pro vývojáře.
-weight: 31
-url: /cs/java/presentation-conversion/convert-custom-size-java-slides/
+"description": "Naučte se, jak převést prezentace PowerPointu do obrázků TIFF s vlastní velikostí pomocí Aspose.Slides pro Javu. Podrobný návod s příklady kódu pro vývojáře."
+"linktitle": "Převod s vlastní velikostí v Java Slides"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Převod s vlastní velikostí v Java Slides"
+"url": "/cs/java/presentation-conversion/convert-custom-size-java-slides/"
+"weight": 31
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Převod s vlastní velikostí v Java Slides
 
 
-## Úvod do převodu s vlastní velikostí v Java Slides
+## Úvod do převodu s vlastní velikostí v Javě Slides
 
-V tomto článku prozkoumáme, jak převést PowerPointové prezentace na obrázky TIFF s vlastní velikostí pomocí Aspose.Slides for Java API. Aspose.Slides for Java je výkonná knihovna, která umožňuje vývojářům pracovat se soubory PowerPoint programově. Půjdeme krok za krokem a poskytneme vám potřebný kód Java, abyste mohli tento úkol splnit.
+tomto článku se podíváme na to, jak převést prezentace PowerPointu do obrázků TIFF s vlastní velikostí pomocí rozhraní API Aspose.Slides for Java. Aspose.Slides for Java je výkonná knihovna, která umožňuje vývojářům programově pracovat se soubory PowerPointu. Projdeme si to krok za krokem a poskytneme vám potřebný kód Java k provedení tohoto úkolu.
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte splněny následující předpoklady:
 
-- Java Development Kit (JDK) nainstalován
+- Nainstalovaná vývojářská sada Java (JDK)
 - Aspose.Slides pro knihovnu Java
 
- Knihovnu Aspose.Slides for Java si můžete stáhnout z webu:[Stáhněte si Aspose.Slides pro Java](https://releases.aspose.com/slides/java/)
+Knihovnu Aspose.Slides pro Javu si můžete stáhnout z webových stránek: [Stáhněte si Aspose.Slides pro Javu](https://releases.aspose.com/slides/java/)
 
 ## Krok 1: Import knihovny Aspose.Slides
 
-Chcete-li začít, musíte do svého projektu Java importovat knihovnu Aspose.Slides. Můžete to udělat takto:
+Chcete-li začít, musíte importovat knihovnu Aspose.Slides do svého projektu v Javě. Zde je návod, jak to udělat:
 
 ```java
-// Přidejte potřebné prohlášení o importu
+// Přidejte potřebný příkaz pro import
 import com.aspose.slides.*;
 ```
 
-## Krok 2: Načtěte prezentaci PowerPoint
+## Krok 2: Načtěte prezentaci v PowerPointu
 
- Dále budete muset načíst prezentaci PowerPoint, kterou chcete převést na obrázek TIFF. Nahradit`"Your Document Directory"` se skutečnou cestou k souboru vaší prezentace.
+Dále budete muset načíst prezentaci PowerPoint, kterou chcete převést na obrázek TIFF. Nahraďte `"Your Document Directory"` se skutečnou cestou k souboru prezentace.
 
 ```java
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 String dataDir = "Your Document Directory";
 
-// Vytvořte instanci objektu Presentation, který představuje soubor Presentation
+// Vytvoření instance objektu Presentation, který představuje soubor Presentation.
 Presentation pres = new Presentation(dataDir + "Convert_Tiff_Custom.pptx");
 ```
 
-## Krok 3: Nastavte možnosti převodu TIFF
+## Krok 3: Nastavení možností převodu TIFF
 
-Nyní nastavíme možnosti pro převod TIFF. Zadáme typ komprese, DPI (bodů na palec), velikost obrázku a polohu poznámek. Tyto možnosti si můžete přizpůsobit podle svých požadavků.
+Nyní nastavme možnosti pro převod TIFF. Určíme typ komprese, DPI (body na palec), velikost obrázku a umístění poznámek. Tyto možnosti si můžete přizpůsobit podle svých požadavků.
 
 ```java
-// Vytvořte instanci třídy TiffOptions
+// Vytvoření instance třídy TiffOptions
 TiffOptions opts = new TiffOptions();
 
 // Nastavení typu komprese
 opts.setCompressionType(TiffCompressionTypes.Default);
 
-// Nastavení DPI obrazu
+// Nastavení DPI obrázku
 opts.setDpiX(200);
 opts.setDpiY(100);
 
-// Nastavte velikost obrázku
+// Nastavit velikost obrázku
 opts.setImageSize(new Dimension(1728, 1078));
 
-// Nastavte polohu poznámek
+// Nastavení pozice not
 INotesCommentsLayoutingOptions notesOptions = opts.getNotesCommentsLayouting();
 notesOptions.setNotesPosition(NotesPositions.BottomFull);
 ```
 
-## Krok 4: Uložte jako TIFF
+## Krok 4: Uložit jako TIFF
 
-Se všemi konfigurovanými možnostmi můžete nyní prezentaci uložit jako obrázek TIFF se zadaným nastavením.
+Po nastavení všech možností můžete nyní prezentaci uložit jako obrázek TIFF se zadaným nastavením.
 
 ```java
-// Uložte prezentaci do formátu TIFF se zadanou velikostí obrázku
+// Uložit prezentaci do formátu TIFF s danou velikostí obrázku
 pres.save(dataDir + "TiffWithCustomSize_out.tiff", SaveFormat.Tiff, opts);
 ```
 
-## Kompletní zdrojový kód pro převod s vlastní velikostí v Java Slides
+## Kompletní zdrojový kód pro převod s vlastní velikostí v Javě Slides
 
 ```java
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 String dataDir = "Your Document Directory";
-// Vytvořte instanci objektu Presentation, který představuje soubor Presentation
+// Vytvoření instance objektu Presentation, který představuje soubor Presentation.
 Presentation pres = new Presentation(dataDir + "Convert_Tiff_Custom.pptx");
 try
 {
-	// Vytvořte instanci třídy TiffOptions
+	// Vytvoření instance třídy TiffOptions
 	TiffOptions opts = new TiffOptions();
 	// Nastavení typu komprese
 	opts.setCompressionType(TiffCompressionTypes.Default);
@@ -97,19 +99,19 @@ try
 	notesOptions.setNotesPosition(NotesPositions.BottomFull);
 	// Typy komprese
 	// Výchozí – Určuje výchozí schéma komprese (LZW).
-	// Žádná – neurčuje žádnou kompresi.
+	// Žádná – Určuje žádnou kompresi.
 	// CCITT3
 	// CCITT4
 	// LZW
 	// RLE
 	// Hloubka závisí na typu komprese a nelze ji nastavit ručně.
 	// Jednotka rozlišení je vždy rovna „2“ (body na palec)
-	// Nastavení DPI obrazu
+	// Nastavení DPI obrázku
 	opts.setDpiX(200);
 	opts.setDpiY(100);
-	// Nastavte velikost obrázku
+	// Nastavit velikost obrázku
 	opts.setImageSize(new Dimension(1728, 1078));
-	// Uložte prezentaci do formátu TIFF se zadanou velikostí obrázku
+	// Uložit prezentaci do formátu TIFF s danou velikostí obrázku
 	pres.save(dataDir + "TiffWithCustomSize_out.tiff", SaveFormat.Tiff, opts);
 }
 finally
@@ -120,32 +122,34 @@ finally
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste převedli prezentaci PowerPoint na obrázek TIFF s vlastní velikostí pomocí Aspose.Slides for Java. To může být cenná funkce, když potřebujete generovat vysoce kvalitní obrázky z vašich prezentací pro různé účely.
+Gratulujeme! Úspěšně jste převedli prezentaci PowerPoint do formátu TIFF s vlastní velikostí pomocí nástroje Aspose.Slides pro Javu. Tato funkce může být cenná, když potřebujete z prezentací generovat vysoce kvalitní obrázky pro různé účely.
 
-## FAQ
+## Často kladené otázky
 
 ### Jak mohu změnit typ komprese pro obrázek TIFF?
 
- Typ komprese můžete změnit úpravou`setCompressionType` metoda v`TiffOptions` třída. K dispozici jsou různé typy komprese, například Výchozí, Žádná, CCITT3, CCITT4, LZW a RLE.
+Typ komprese můžete změnit úpravou `setCompressionType` metoda v `TiffOptions` třída. K dispozici jsou různé typy komprese, například Výchozí, Žádná, CCITT3, CCITT4, LZW a RLE.
 
-### Mohu upravit DPI (bodů na palec) obrázku TIFF?
+### Mohu upravit DPI (body na palec) obrázku TIFF?
 
-Ano, můžete upravit DPI pomocí`setDpiX` a`setDpiY` metody v`TiffOptions` třída. Jednoduše nastavte požadované hodnoty pro ovládání rozlišení obrazu.
+Ano, DPI můžete upravit pomocí `setDpiX` a `setDpiY` metody v `TiffOptions` třída. Jednoduše nastavte požadované hodnoty pro ovládání rozlišení obrazu.
 
 ### Jaké jsou dostupné možnosti pro umístění poznámek v obrázku TIFF?
 
- Pozici poznámek v obrázku TIFF lze konfigurovat pomocí`setNotesPosition` metoda s možnostmi jako BottomFull, BottomTruncated a SlideOnly. Vyberte si ten, který nejlépe vyhovuje vašim potřebám.
+Pozici poznámek v obrázku TIFF lze nakonfigurovat pomocí `setNotesPosition` s možnostmi jako BottomFull, BottomTruncated a SlideOnly. Vyberte si tu, která nejlépe vyhovuje vašim potřebám.
 
-### Je možné určit vlastní velikost obrázku pro převod TIFF?
+### Je možné zadat vlastní velikost obrázku pro konverzi TIFF?
 
- Absolutně! Vlastní velikost obrázku můžete nastavit pomocí`setImageSize` metoda v`TiffOptions` třída. Zadejte rozměry (šířku a výšku), které chcete pro výstupní obrázek.
+Rozhodně! Vlastní velikost obrázku si můžete nastavit pomocí `setImageSize` metoda v `TiffOptions` třída. Zadejte požadované rozměry (šířku a výšku) výstupního obrázku.
 
-### Kde najdu více informací o Aspose.Slides for Java?
+### Kde najdu více informací o Aspose.Slides pro Javu?
 
- Podrobnou dokumentaci a další informace o Aspose.Slides pro Java naleznete v dokumentaci:[Aspose.Slides for Java API Reference](https://reference.aspose.com/slides/java/).
+Podrobnou dokumentaci a další informace o Aspose.Slides pro Javu naleznete v dokumentaci: [Referenční příručka k Aspose.Slides pro Java API](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

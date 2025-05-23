@@ -1,17 +1,19 @@
 ---
-title: प्रस्तुतियों को पासवर्ड-संरक्षित PDF में बदलें
-linktitle: प्रस्तुतियों को पासवर्ड-संरक्षित PDF में बदलें
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: Aspose.Slides for .NET का उपयोग करके प्रेजेंटेशन को पासवर्ड से सुरक्षित करके और उन्हें PDF में परिवर्तित करके सुरक्षित करना सीखें। डेटा सुरक्षा को अभी बढ़ाएँ।
-weight: 16
-url: /hi/net/presentation-conversion/password-protect-presentations-convert-to-password-protected-pdf/
+"description": "Aspose.Slides for .NET का उपयोग करके प्रेजेंटेशन को पासवर्ड से सुरक्षित करके और उन्हें PDF में परिवर्तित करके सुरक्षित करना सीखें। डेटा सुरक्षा को अभी बढ़ाएँ।"
+"linktitle": "प्रस्तुतियों को पासवर्ड-संरक्षित पीडीएफ में बदलें"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "प्रस्तुतियों को पासवर्ड-संरक्षित पीडीएफ में बदलें"
+"url": "/hi/net/presentation-conversion/password-protect-presentations-convert-to-password-protected-pdf/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# प्रस्तुतियों को पासवर्ड-संरक्षित PDF में बदलें
+# प्रस्तुतियों को पासवर्ड-संरक्षित पीडीएफ में बदलें
 
 
 आज के डिजिटल युग में, अपनी संवेदनशील प्रस्तुतियों को सुरक्षित रखना सबसे महत्वपूर्ण है। अपनी PowerPoint प्रस्तुतियों की गोपनीयता सुनिश्चित करने का एक प्रभावी तरीका उन्हें पासवर्ड-संरक्षित PDF में परिवर्तित करना है। Aspose.Slides for .NET के साथ, आप इसे सहजता से प्राप्त कर सकते हैं। इस व्यापक गाइड में, हम आपको Aspose.Slides for .NET API का उपयोग करके प्रस्तुतियों को पासवर्ड-संरक्षित PDF में परिवर्तित करने की प्रक्रिया से अवगत कराएँगे। इस ट्यूटोरियल के अंत तक, आपके पास अपनी प्रस्तुतियों को आसानी से सुरक्षित रखने के लिए ज्ञान और उपकरण होंगे।
@@ -20,15 +22,15 @@ url: /hi/net/presentation-conversion/password-protect-presentations-convert-to-p
 
 इससे पहले कि हम ट्यूटोरियल में आगे बढ़ें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
--  Aspose.Slides for .NET: आपके पास अपने डेवलपमेंट एनवायरनमेंट में Aspose.Slides for .NET इंस्टॉल और सेट अप होना चाहिए। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET: आपके पास अपने डेवलपमेंट एनवायरनमेंट में Aspose.Slides for .NET इंस्टॉल और सेट अप होना चाहिए। आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/net/).
 
 ## चरण 1: अपना प्रोजेक्ट आरंभ करें
 
-आरंभ करने के लिए, आपको एक नया प्रोजेक्ट सेट अप करना होगा या अपने पसंदीदा .NET विकास वातावरण में किसी मौजूदा प्रोजेक्ट का उपयोग करना होगा। सुनिश्चित करें कि आपके प्रोजेक्ट में Aspose.Slides for .NET के लिए आवश्यक संदर्भ मौजूद हैं।
+आरंभ करने के लिए, आपको एक नया प्रोजेक्ट सेट अप करना होगा या अपने पसंदीदा .NET विकास वातावरण में किसी मौजूदा प्रोजेक्ट का उपयोग करना होगा। सुनिश्चित करें कि आपके प्रोजेक्ट में Aspose.Slides for .NET के लिए आवश्यक संदर्भ हैं।
 
 ## चरण 2: अपनी प्रस्तुति आयात करें
 
-अब, आप उस प्रेजेंटेशन को आयात करेंगे जिसे आप पासवर्ड-संरक्षित पीडीएफ में बदलना चाहते हैं।`"Your Document Directory"` अपनी प्रस्तुति फ़ाइल के पथ के साथ और`"DemoFile.pptx"` अपनी प्रस्तुति फ़ाइल के नाम के साथ। यहाँ एक नमूना कोड स्निपेट है:
+अब, आप उस प्रेजेंटेशन को आयात करेंगे जिसे आप पासवर्ड-संरक्षित पीडीएफ में बदलना चाहते हैं। `"Your Document Directory"` अपनी प्रस्तुति फ़ाइल के पथ के साथ और `"DemoFile.pptx"` अपनी प्रस्तुति फ़ाइल के नाम के साथ। यहाँ एक नमूना कोड स्निपेट है:
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -40,7 +42,7 @@ using (Presentation presentation = new Presentation(dataDir + "DemoFile.pptx"))
 
 ## चरण 3: पीडीएफ विकल्प सेट करें
 
- इस चरण में, आप PDF रूपांतरण विकल्प सेट करेंगे। विशेष रूप से, आप सुरक्षा बढ़ाने के लिए PDF के लिए पासवर्ड सेट करेंगे। बदलें`"password"` अपने इच्छित पासवर्ड के साथ.
+इस चरण में, आप PDF रूपांतरण विकल्प सेट करेंगे। विशेष रूप से, आप सुरक्षा बढ़ाने के लिए PDF के लिए पासवर्ड सेट करेंगे। बदलें `"password"` अपने इच्छित पासवर्ड के साथ.
 
 ```csharp
 PdfOptions pdfOptions = new PdfOptions();
@@ -49,7 +51,7 @@ pdfOptions.Password = "password";
 
 ## चरण 4: पासवर्ड-संरक्षित पीडीएफ के रूप में सहेजें
 
- अब, आप अपनी प्रस्तुति को पासवर्ड-संरक्षित PDF के रूप में सहेजने के लिए तैयार हैं।`"Your Output Directory"` उस पथ के साथ जहाँ आप पीडीएफ को सहेजना चाहते हैं और`"PasswordProtectedPDF_out.pdf"` वांछित आउटपुट फ़ाइल नाम के साथ.
+अब, आप अपनी प्रस्तुति को पासवर्ड-संरक्षित PDF के रूप में सहेजने के लिए तैयार हैं। `"Your Output Directory"` उस पथ के साथ जहाँ आप पीडीएफ को सहेजना चाहते हैं और `"PasswordProtectedPDF_out.pdf"` वांछित आउटपुट फ़ाइल नाम के साथ.
 
 ```csharp
 string outPath = "Your Output Directory";
@@ -66,7 +68,7 @@ presentation.Save(outPath + "PasswordProtectedPDF_out.pdf", SaveFormat.Pdf, pdfO
 
 ### मैं .NET के लिए Aspose.Slides कैसे स्थापित कर सकता हूँ?
 
- आप .NET के लिए Aspose.Slides को निम्नलिखित निर्देशों का पालन करके स्थापित कर सकते हैं:[.NET दस्तावेज़ीकरण के लिए Aspose.Slides](https://docs.aspose.com/slides/net/).
+आप नीचे दिए गए निर्देशों का पालन करके .NET के लिए Aspose.Slides स्थापित कर सकते हैं। [.NET दस्तावेज़ीकरण के लिए Aspose.Slides](https://docs.aspose.com/slides/net/).
 
 ### क्या मैं पासवर्ड-संरक्षित PDF में वॉटरमार्क जोड़ सकता हूँ?
 
@@ -82,10 +84,12 @@ presentation.Save(outPath + "PasswordProtectedPDF_out.pdf", SaveFormat.Pdf, pdfO
 
 ### मैं Aspose.Slides for .NET API दस्तावेज़ कहां से प्राप्त कर सकता हूं?
 
- आप .NET के लिए Aspose.Slides के दस्तावेज़ों तक यहां पहुंच सकते हैं[यहाँ](https://reference.aspose.com/slides/net/).
+आप .NET के लिए Aspose.Slides के दस्तावेज़ों तक यहां पहुंच सकते हैं [यहाँ](https://reference.aspose.com/slides/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

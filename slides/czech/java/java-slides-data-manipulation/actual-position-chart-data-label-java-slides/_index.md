@@ -1,33 +1,35 @@
 ---
-title: Získejte skutečnou polohu štítku dat grafu v Java Slides
-linktitle: Získejte skutečnou polohu štítku dat grafu v Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Naučte se, jak získat skutečnou polohu štítků dat grafu v Java Slides pomocí Aspose.Slides for Java. Průvodce krok za krokem se zdrojovým kódem.
-weight: 18
-url: /cs/java/data-manipulation/actual-position-chart-data-label-java-slides/
+"description": "Naučte se, jak získat skutečnou pozici popisků dat grafu v Java Slides pomocí Aspose.Slides pro Javu. Podrobný návod se zdrojovým kódem."
+"linktitle": "Získejte skutečnou pozici popisku dat grafu v Java Slides"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Získejte skutečnou pozici popisku dat grafu v Java Slides"
+"url": "/cs/java/data-manipulation/actual-position-chart-data-label-java-slides/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Získejte skutečnou polohu štítku dat grafu v Java Slides
+# Získejte skutečnou pozici popisku dat grafu v Java Slides
 
 
-## Úvod k získání skutečné polohy štítku dat grafu v Java Slides
+## Úvod do získání skutečné pozice popisku dat grafu v Java Slides
 
-V tomto tutoriálu se naučíte, jak získat skutečnou polohu štítků dat grafu pomocí Aspose.Slides pro Java. Vytvoříme Java program, který vygeneruje powerpointovou prezentaci s grafem, přizpůsobí popisky dat a poté přidá tvary představující pozice těchto datových popisků.
+tomto tutoriálu se naučíte, jak načíst skutečnou pozici popisků dat grafu pomocí Aspose.Slides pro Javu. Vytvoříme program v Javě, který vygeneruje prezentaci v PowerPointu s grafem, upraví popisky dat a poté přidá tvary představující pozice těchto popisků dat.
 
 ## Předpoklady
 
-Než začnete, ujistěte se, že máte v projektu Java nastavenou knihovnu Aspose.Slides for Java.
+Než začnete, ujistěte se, že máte ve svém projektu Java nastavenou knihovnu Aspose.Slides for Java.
 
 ## Krok 1: Vytvořte prezentaci v PowerPointu
 
-Nejprve vytvoříme novou PowerPoint prezentaci a přidáme do ní graf. Popisky dat grafu přizpůsobíme později v tutoriálu.
+Nejprve si vytvořme novou prezentaci v PowerPointu a přidejme do ní graf. Popisky dat grafu upravíme později v tutoriálu.
 
 ```java
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 try {
@@ -38,8 +40,8 @@ try {
 }
 ```
 
-## Krok 2: Přizpůsobte štítky dat
-Nyní přizpůsobíme štítky dat pro řadu grafů. Nastavíme jejich polohu a ukážeme hodnoty.
+## Krok 2: Úprava popisků dat
+Nyní si upravíme popisky dat pro sérii grafů. Nastavíme jejich pozici a zobrazíme hodnoty.
 
 ```java
 try {
@@ -54,8 +56,8 @@ try {
 }
 ```
 
-## Krok 3: Získejte skutečnou polohu datových štítků
-tomto kroku budeme iterovat datové body řady grafů a získáme skutečnou polohu datových štítků, které mají hodnotu větší než 4. Poté přidáme elipsy, které budou reprezentovat tyto pozice.
+## Krok 3: Získejte skutečnou polohu datových popisků
+tomto kroku budeme iterovat datovými body v sérii grafů a načíst skutečnou pozici datových popisků, které mají hodnotu větší než 4. Poté přidáme elipsy, které tyto pozice reprezentují.
 
 ```java
 try {
@@ -80,7 +82,7 @@ try {
 ```
 
 ## Krok 4: Uložte prezentaci
-Nakonec vygenerovanou prezentaci uložte do souboru.
+Nakonec uložte vygenerovanou prezentaci do souboru.
 
 ```java
 try {
@@ -91,10 +93,10 @@ try {
 }
 ```
 
-## Kompletní zdrojový kód pro získání skutečné polohy štítku dat grafu v Java Slides
+## Kompletní zdrojový kód pro získání skutečné pozice popisku dat grafu v Java Slides
 
 ```java
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 try
@@ -118,7 +120,7 @@ try
 				float h = point.getLabel().getActualHeight();
 				IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Ellipse, x, y, w, h);
 				shape.getFillFormat().setFillType(FillType.Solid);
-				shape.getFillFormat().getSolidFillColor().setColor(com.aspose.cells.Color.fromArgb(100, 0, 255, 0).d());//DĚLAT
+				shape.getFillFormat().getSolidFillColor().setColor(com.aspose.cells.Color.fromArgb(100, 0, 255, 0).d());//ÚKOL
 			}
 		}
 	}
@@ -132,13 +134,13 @@ finally
 
 ## Závěr
 
-V tomto tutoriálu jste se naučili, jak získat skutečnou polohu štítků dat grafu v Java Slides pomocí Aspose.Slides for Java. Tyto znalosti nyní můžete využít k vylepšení svých prezentací PowerPoint pomocí přizpůsobených štítků dat a vizuálních reprezentací jejich pozic.
+V tomto tutoriálu jste se naučili, jak načíst skutečnou pozici popisků dat grafu v Java Slides pomocí Aspose.Slides pro Javu. Nyní můžete tyto znalosti využít k vylepšení svých prezentací v PowerPointu o přizpůsobené popisky dat a vizuální znázornění jejich pozic.
 
-## FAQ
+## Často kladené otázky
 
-### Jak mohu přizpůsobit štítky dat v grafu?
+### Jak mohu přizpůsobit popisky dat v grafu?
 
- Chcete-li upravit štítky dat v grafu, můžete použít`setDefaultDataLabelFormat` metodu na sérii grafů a nastavte vlastnosti, jako je poloha a viditelnost. Například:
+Chcete-li přizpůsobit popisky dat v grafu, můžete použít `setDefaultDataLabelFormat` metodu na sérii grafů a nastavit vlastnosti, jako je pozice a viditelnost. Například:
 ```java
 for (IChartSeries series : chart.getChartData().getSeries()) {
     series.getLabels().getDefaultDataLabelFormat().setPosition(LegendDataLabelPosition.OutsideEnd);
@@ -146,9 +148,9 @@ for (IChartSeries series : chart.getChartData().getSeries()) {
 }
 ```
 
-### Jak mohu přidat tvary, které reprezentují pozice štítků dat?
+### Jak mohu přidat tvary, které budou reprezentovat pozice popisků dat?
 
- Můžete iterovat datové body řady grafů a použít`getActualX`, `getActualY`, `getActualWidth` , a`getActualHeight`metody datového štítku k získání jeho pozice. Poté můžete přidávat tvary pomocí`addAutoShape` metoda. Zde je příklad:
+Můžete iterovat datovými body série grafů a použít `getActualX`, `getActualY`, `getActualWidth`a `getActualHeight` metody popisku dat pro získání jeho pozice. Poté můžete přidat tvary pomocí `addAutoShape` metoda. Zde je příklad:
 ```java
 float x = point.getLabel().getActualX();
 float y = point.getLabel().getActualY();
@@ -159,13 +161,15 @@ IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Elli
 
 ### Jak mohu uložit vygenerovanou prezentaci?
 
- Vygenerovanou prezentaci můžete uložit pomocí`save` metoda. Zadejte požadovanou cestu k souboru a`SaveFormat` jako parametry. Například:
+Vygenerovanou prezentaci můžete uložit pomocí `save` metodu. Zadejte požadovanou cestu k souboru a `SaveFormat` jako parametry. Například:
 ```java
 pres.save(dataDir + "GetActualPositionOFChartDatalabel.pptx", SaveFormat.Pptx);
 ```
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

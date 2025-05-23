@@ -1,26 +1,28 @@
 ---
-title: Domyślne znaczniki na wykresie w slajdach Java
-linktitle: Domyślne znaczniki na wykresie w slajdach Java
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Dowiedz się, jak tworzyć slajdy Java z domyślnymi znacznikami na wykresach przy użyciu Aspose.Slides dla Java. Przewodnik krok po kroku z kodem źródłowym.
-weight: 16
-url: /pl/java/chart-data-manipulation/default-markers-in-chart-java-slides/
+"description": "Dowiedz się, jak tworzyć slajdy Java z domyślnymi znacznikami na wykresach, używając Aspose.Slides for Java. Przewodnik krok po kroku z kodem źródłowym."
+"linktitle": "Domyślne znaczniki w wykresie w slajdach Java"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Domyślne znaczniki w wykresie w slajdach Java"
+"url": "/pl/java/chart-data-manipulation/default-markers-in-chart-java-slides/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Domyślne znaczniki na wykresie w slajdach Java
+# Domyślne znaczniki w wykresie w slajdach Java
 
 
-## Wprowadzenie do domyślnych znaczników na wykresie w slajdach Java
+## Wprowadzenie do domyślnych znaczników w wykresie w Java Slajdy
 
-W tym samouczku przyjrzymy się, jak utworzyć wykres z domyślnymi znacznikami przy użyciu Aspose.Slides dla Java. Domyślne znaczniki to symbole lub kształty dodawane do punktów danych na wykresie w celu ich wyróżnienia. Utworzymy wykres liniowy ze znacznikami do wizualizacji danych.
+W tym samouczku pokażemy, jak utworzyć wykres z domyślnymi znacznikami przy użyciu Aspose.Slides dla Java. Domyślne znaczniki to symbole lub kształty dodawane do punktów danych na wykresie w celu ich wyróżnienia. Utworzymy wykres liniowy ze znacznikami w celu wizualizacji danych.
 
-## Warunki wstępne
+## Wymagania wstępne
 
-Zanim zaczniesz, upewnij się, że masz zainstalowaną i skonfigurowaną bibliotekę Aspose.Slides for Java w swoim projekcie Java.
+Zanim zaczniesz, upewnij się, że biblioteka Aspose.Slides for Java jest zainstalowana i skonfigurowana w projekcie Java.
 
 ## Krok 1: Utwórz prezentację
 
@@ -34,7 +36,7 @@ ISlide slide = pres.getSlides().get_Item(0);
 
 ## Krok 2: Dodaj wykres liniowy ze znacznikami
 
-Dodajmy teraz do slajdu wykres liniowy ze znacznikami. Usuniemy także wszelkie domyślne dane z wykresu.
+Teraz dodajmy wykres liniowy ze znacznikami do slajdu. Wyczyścimy również wszystkie domyślne dane z wykresu.
 
 ```java
 IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 10, 10, 400, 400);
@@ -74,7 +76,7 @@ series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 4, 2, 40));
 
 ## Krok 4: Dostosuj wykres
 
-Możesz dodatkowo dostosować wykres, na przykład dodać legendę i dostosować jego wygląd.
+Możesz dodatkowo dostosować wykres, na przykład dodając legendę i zmieniając jego wygląd.
 
 ```java
 chart.setLegend(true);
@@ -83,15 +85,15 @@ chart.getLegend().setOverlay(false);
 
 ## Krok 5: Zapisz prezentację
 
-Na koniec zapisz prezentację z wykresem w wybranej lokalizacji.
+Na koniec zapisz prezentację z wykresem w wybranym miejscu.
 
 ```java
 pres.save(dataDir + "DefaultMarkersInChart.pptx", SaveFormat.Pptx);
 ```
 
-Otóż to! Utworzyłeś wykres liniowy z domyślnymi znacznikami przy użyciu Aspose.Slides dla Java.
+To wszystko! Stworzyłeś wykres liniowy z domyślnymi znacznikami przy użyciu Aspose.Slides dla Java.
 
-## Kompletny kod źródłowy domyślnych znaczników na wykresie w slajdach Java
+## Kompletny kod źródłowy dla domyślnych znaczników w wykresie w slajdach Java
 
 ```java
         // Ścieżka do katalogu dokumentów.
@@ -117,7 +119,7 @@ Otóż to! Utworzyłeś wykres liniowy z domyślnymi znacznikami przy użyciu As
             chart.getChartData().getSeries().add(fact.getCell(0, 0, 2, "Series 2"), chart.getType());
             //Weź drugą serię wykresów
             IChartSeries series2 = chart.getChartData().getSeries().get_Item(1);
-            //Teraz wypełniam dane serii
+            //Teraz wypełniamy dane serii
             series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 1, 2, 30));
             series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 2, 2, 10));
             series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 3, 2, 60));
@@ -133,24 +135,26 @@ Otóż to! Utworzyłeś wykres liniowy z domyślnymi znacznikami przy użyciu As
 ```
 ## Wniosek
 
-W tym obszernym samouczku nauczyłeś się tworzyć slajdy Java z domyślnymi znacznikami na wykresach przy użyciu Aspose.Slides dla Java. Omówiliśmy cały proces, od skonfigurowania prezentacji po dostosowanie wyglądu wykresu i zapisanie wyniku.
+tym kompleksowym samouczku nauczyłeś się, jak tworzyć slajdy Java z domyślnymi znacznikami na wykresach przy użyciu Aspose.Slides for Java. Omówiliśmy cały proces, od konfiguracji prezentacji po dostosowanie wyglądu wykresu i zapisanie wyniku.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
 ### Jak mogę zmienić symbole znaczników?
 
-Możesz dostosować symbole znaczników, ustawiając styl znaczników dla każdego punktu danych. Używać`IDataPoint.setMarkerStyle()` aby zmienić symbol znacznika.
+Możesz dostosować symbole znaczników, ustawiając styl znacznika dla każdego punktu danych. Użyj `IDataPoint.setMarkerStyle()` aby zmienić symbol znacznika.
 
-### Jak dostosować kolory wykresu?
+### Jak mogę dostosować kolory wykresu?
 
- Aby zmodyfikować kolory wykresu, możesz użyć opcji`IChartSeriesFormat` I`IShapeFillFormat` interfejsy do ustawiania właściwości wypełnienia i linii.
+Aby zmienić kolory wykresu, możesz użyć `IChartSeriesFormat` I `IShapeFillFormat` interfejsy umożliwiające ustawienie właściwości wypełnienia i linii.
 
 ### Czy mogę dodać etykiety do punktów danych?
 
- Tak, możesz dodawać etykiety do punktów danych za pomocą`IDataPoint.getLabel()` metody i dostosować je według potrzeb.
+Tak, możesz dodawać etykiety do punktów danych za pomocą `IDataPoint.getLabel()` metodę i dostosować ją według potrzeb.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Penanda Default dalam Bagan di Slide Java
-linktitle: Penanda Default dalam Bagan di Slide Java
-second_title: Aspose.Slides API Pemrosesan Java PowerPoint
-description: Pelajari cara membuat Slide Java dengan penanda default di bagan menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah dengan kode sumber.
-weight: 16
-url: /id/java/chart-data-manipulation/default-markers-in-chart-java-slides/
+"description": "Pelajari cara membuat Slide Java dengan penanda default dalam bagan menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah dengan kode sumber."
+"linktitle": "Penanda Default dalam Bagan di Slide Java"
+"second_title": "API Pemrosesan PowerPoint Java Aspose.Slides"
+"title": "Penanda Default dalam Bagan di Slide Java"
+"url": "/id/java/chart-data-manipulation/default-markers-in-chart-java-slides/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Penanda Default dalam Bagan di Slide Java
@@ -16,7 +18,7 @@ url: /id/java/chart-data-manipulation/default-markers-in-chart-java-slides/
 
 ## Pengenalan Penanda Default pada Bagan di Slide Java
 
-Dalam tutorial ini, kita akan mempelajari cara membuat bagan dengan penanda default menggunakan Aspose.Slides untuk Java. Penanda default adalah simbol atau bentuk yang ditambahkan ke titik data dalam bagan untuk menyorotnya. Kami akan membuat diagram garis dengan penanda untuk memvisualisasikan data.
+Dalam tutorial ini, kita akan menjelajahi cara membuat bagan dengan penanda default menggunakan Aspose.Slides untuk Java. Penanda default adalah simbol atau bentuk yang ditambahkan ke titik data dalam bagan untuk menyorotnya. Kita akan membuat bagan garis dengan penanda untuk memvisualisasikan data.
 
 ## Prasyarat
 
@@ -24,7 +26,7 @@ Sebelum memulai, pastikan Anda telah menginstal dan menyiapkan pustaka Aspose.Sl
 
 ## Langkah 1: Buat Presentasi
 
-Pertama, mari buat presentasi dan tambahkan slide ke dalamnya. Kami kemudian akan menambahkan grafik ke slide.
+Pertama, mari kita buat presentasi dan tambahkan slide ke dalamnya. Kemudian kita akan menambahkan diagram ke slide tersebut.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -34,7 +36,7 @@ ISlide slide = pres.getSlides().get_Item(0);
 
 ## Langkah 2: Tambahkan Bagan Garis dengan Penanda
 
-Sekarang, mari tambahkan diagram garis dengan penanda ke slide. Kami juga akan menghapus semua data default dari grafik.
+Sekarang, mari tambahkan diagram garis dengan penanda ke slide. Kita juga akan menghapus data default dari diagram.
 
 ```java
 IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 10, 10, 400, 400);
@@ -42,9 +44,9 @@ chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 ```
 
-## Langkah 3: Isi Data Bagan
+## Langkah 3: Mengisi Data Bagan
 
-Kami akan mengisi grafik dengan data sampel. Dalam contoh ini, kita akan membuat dua rangkaian dengan titik data dan kategori.
+Kita akan mengisi diagram dengan data sampel. Dalam contoh ini, kita akan membuat dua seri dengan titik data dan kategori.
 
 ```java
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
@@ -83,15 +85,15 @@ chart.getLegend().setOverlay(false);
 
 ## Langkah 5: Simpan Presentasi
 
-Terakhir, simpan presentasi dengan bagan ke lokasi yang Anda inginkan.
+Terakhir, simpan presentasi dengan bagan di lokasi yang Anda inginkan.
 
 ```java
 pres.save(dataDir + "DefaultMarkersInChart.pptx", SaveFormat.Pptx);
 ```
 
-Itu dia! Anda telah membuat diagram garis dengan penanda default menggunakan Aspose.Slides untuk Java.
+Selesai! Anda telah membuat diagram garis dengan penanda default menggunakan Aspose.Slides untuk Java.
 
-## Kode Sumber Lengkap Untuk Penanda Default pada Bagan di Slide Java
+## Source Code Lengkap Untuk Penanda Default pada Bagan di Java Slides
 
 ```java
         // Jalur ke direktori dokumen.
@@ -133,24 +135,26 @@ Itu dia! Anda telah membuat diagram garis dengan penanda default menggunakan Asp
 ```
 ## Kesimpulan
 
-Dalam tutorial komprehensif ini, Anda telah mempelajari cara membuat Slide Java dengan penanda default di bagan menggunakan Aspose.Slides untuk Java. Kami membahas keseluruhan proses, mulai dari menyiapkan presentasi hingga menyesuaikan tampilan bagan dan menyimpan hasilnya.
+Dalam tutorial lengkap ini, Anda telah mempelajari cara membuat Java Slides dengan penanda default dalam bagan menggunakan Aspose.Slides untuk Java. Kami membahas seluruh proses, mulai dari menyiapkan presentasi hingga menyesuaikan tampilan bagan dan menyimpan hasilnya.
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
 ### Bagaimana cara mengubah simbol penanda?
 
-Anda dapat mengkustomisasi simbol penanda dengan mengatur gaya penanda untuk setiap titik data. Menggunakan`IDataPoint.setMarkerStyle()` untuk mengubah simbol penanda.
+Anda dapat menyesuaikan simbol penanda dengan mengatur gaya penanda untuk setiap titik data. Gunakan `IDataPoint.setMarkerStyle()` untuk mengubah simbol penanda.
 
 ### Bagaimana cara menyesuaikan warna grafik?
 
- Untuk mengubah warna bagan, Anda dapat menggunakan`IChartSeriesFormat` Dan`IShapeFillFormat` antarmuka untuk mengatur properti isian dan garis.
+Untuk mengubah warna grafik, Anda dapat menggunakan `IChartSeriesFormat` Dan `IShapeFillFormat` antarmuka untuk mengatur properti isi dan garis.
 
 ### Bisakah saya menambahkan label ke titik data?
 
- Ya, Anda dapat menambahkan label ke titik data menggunakan`IDataPoint.getLabel()` metode dan sesuaikan sesuai kebutuhan.
+Ya, Anda dapat menambahkan label ke titik data menggunakan `IDataPoint.getLabel()` metode dan menyesuaikannya sesuai kebutuhan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

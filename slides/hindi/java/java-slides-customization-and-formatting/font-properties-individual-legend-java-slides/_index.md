@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में व्यक्तिगत लेजेंड के लिए फ़ॉन्ट गुण
-linktitle: जावा स्लाइड्स में व्यक्तिगत लेजेंड के लिए फ़ॉन्ट गुण
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके Java स्लाइड्स में व्यक्तिगत लेजेंड के लिए कस्टम फ़ॉन्ट शैलियों, आकारों और रंगों के साथ PowerPoint प्रस्तुतियों को बेहतर बनाएँ।
-weight: 12
-url: /hi/java/customization-and-formatting/font-properties-individual-legend-java-slides/
+"description": "Aspose.Slides for Java का उपयोग करके Java स्लाइड्स में व्यक्तिगत लेजेंड के लिए कस्टम फ़ॉन्ट शैलियों, आकारों और रंगों के साथ पावरपॉइंट प्रस्तुतियों को बेहतर बनाएँ।"
+"linktitle": "जावा स्लाइड्स में व्यक्तिगत लेजेंड के लिए फ़ॉन्ट गुण"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में व्यक्तिगत लेजेंड के लिए फ़ॉन्ट गुण"
+"url": "/hi/java/customization-and-formatting/font-properties-individual-legend-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में व्यक्तिगत लेजेंड के लिए फ़ॉन्ट गुण
@@ -20,7 +22,7 @@ url: /hi/java/customization-and-formatting/font-properties-individual-legend-jav
 
 ## आवश्यक शर्तें
 
- शुरू करने से पहले, सुनिश्चित करें कि आपके प्रोजेक्ट में Aspose.Slides for Java लाइब्रेरी एकीकृत है। आप इसे यहाँ से डाउनलोड कर सकते हैं[Aspose.Slides for Java दस्तावेज़ीकरण](https://reference.aspose.com/slides/java/).
+शुरू करने से पहले, सुनिश्चित करें कि आपके प्रोजेक्ट में Aspose.Slides for Java लाइब्रेरी एकीकृत है। आप इसे यहाँ से डाउनलोड कर सकते हैं [Aspose.Slides for Java दस्तावेज़ीकरण](https://reference.aspose.com/slides/java/).
 
 ## चरण 1: प्रस्तुति आरंभ करें और चार्ट जोड़ें
 
@@ -38,7 +40,7 @@ try {
 }
 ```
 
- प्रतिस्थापित करें`"Your Document Directory"` वास्तविक निर्देशिका के साथ जहां आपका पावरपॉइंट दस्तावेज़ स्थित है।
+प्रतिस्थापित करें `"Your Document Directory"` वास्तविक निर्देशिका के साथ जहां आपका पावरपॉइंट दस्तावेज़ स्थित है।
 
 ## चरण 2: लेजेंड के लिए फ़ॉन्ट गुण अनुकूलित करें
 
@@ -60,7 +62,7 @@ tf.getPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.BLUE);
 - `setFontHeight(20)` फ़ॉन्ट का आकार 20 पॉइंट पर सेट करता है.
 - `setFontItalic(NullableBool.True)` फ़ॉन्ट को इटैलिक पर सेट करता है.
 - `setFillType(FillType.Solid)` निर्दिष्ट करता है कि किंवदंती प्रविष्टि पाठ में एक ठोस भरण होना चाहिए।
-- `getSolidFillColor().setColor(Color.BLUE)` भरण रंग को नीला सेट करता है। आप इसे बदल सकते हैं`Color.BLUE` अपने इच्छित रंग के साथ.
+- `getSolidFillColor().setColor(Color.BLUE)` भरण रंग को नीला सेट करता है। आप इसे बदल सकते हैं `Color.BLUE` अपने इच्छित रंग के साथ.
 
 ## चरण 3: संशोधित प्रस्तुति को सहेजें
 
@@ -70,7 +72,7 @@ tf.getPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.BLUE);
 pres.save(dataDir + "output.pptx", SaveFormat.Pptx);
 ```
 
- प्रतिस्थापित करें`"output.pptx"` अपने पसंदीदा आउटपुट फ़ाइल नाम के साथ.
+प्रतिस्थापित करें `"output.pptx"` अपने पसंदीदा आउटपुट फ़ाइल नाम के साथ.
 
 बस! आपने Aspose.Slides for Java का उपयोग करके Java स्लाइड्स प्रेजेंटेशन में एक व्यक्तिगत लेजेंड प्रविष्टि के लिए फ़ॉन्ट गुणों को सफलतापूर्वक अनुकूलित कर लिया है।
 
@@ -104,7 +106,7 @@ finally
 
 ### मैं फ़ॉन्ट का रंग कैसे बदल सकता हूँ?
 
- फ़ॉन्ट का रंग बदलने के लिए, उपयोग करें`tf.getPortionFormat().getFontColor().setColor(yourColor)` भरण रंग बदलने के बजाय।`yourColor` इच्छित फ़ॉन्ट रंग के साथ.
+फ़ॉन्ट का रंग बदलने के लिए, उपयोग करें `tf.getPortionFormat().getFontColor().setColor(yourColor)` भरण रंग बदलने के बजाय। `yourColor` इच्छित फ़ॉन्ट रंग के साथ.
 
 ### मैं अन्य लेजेंड गुणों को कैसे संशोधित करूँ?
 
@@ -112,16 +114,18 @@ finally
 
 ### क्या मैं इन परिवर्तनों को एकाधिक लेजेंड प्रविष्टियों पर लागू कर सकता हूँ?
 
- हां, आप लीजेंड प्रविष्टियों के माध्यम से लूप कर सकते हैं और इंडेक्स को समायोजित करके इन परिवर्तनों को एकाधिक प्रविष्टियों पर लागू कर सकते हैं`get_Item(index)` और अनुकूलन कोड को दोहराएँ.
+हां, आप लीजेंड प्रविष्टियों के माध्यम से लूप कर सकते हैं और इंडेक्स को समायोजित करके इन परिवर्तनों को एकाधिक प्रविष्टियों पर लागू कर सकते हैं `get_Item(index)` और अनुकूलन कोड को दोहराएँ.
 
 जब आप संसाधन जारी करने का काम पूरा कर लें तो प्रस्तुति ऑब्जेक्ट को हटाना याद रखें:
 
 ```java
 if (pres != null) pres.dispose();
 ```
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

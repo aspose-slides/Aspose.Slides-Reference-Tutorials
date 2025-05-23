@@ -1,50 +1,52 @@
 ---
-title: Αφαιρέστε τον κόμβο σε συγκεκριμένη θέση στο SmartArt
-linktitle: Αφαιρέστε τον κόμβο σε συγκεκριμένη θέση στο SmartArt
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Μάθετε πώς μπορείτε να αφαιρέσετε έναν κόμβο σε μια συγκεκριμένη θέση στο SmartArt χρησιμοποιώντας το Aspose.Slides για Java. Βελτιώστε την προσαρμογή της παρουσίασης χωρίς κόπο.
-weight: 15
-url: /el/java/java-powerpoint-smartart-manipulation/remove-node-specific-position-smartart-java/
+"description": "Μάθετε πώς να καταργείτε έναν κόμβο σε μια συγκεκριμένη θέση μέσα στο SmartArt χρησιμοποιώντας το Aspose.Slides για Java. Βελτιώστε την προσαρμογή της παρουσίασης χωρίς κόπο."
+"linktitle": "Αφαίρεση κόμβου σε συγκεκριμένη θέση στο SmartArt"
+"second_title": "Aspose.Slides API επεξεργασίας Java PowerPoint"
+"title": "Αφαίρεση κόμβου σε συγκεκριμένη θέση στο SmartArt"
+"url": "/el/java/java-powerpoint-smartart-manipulation/remove-node-specific-position-smartart-java/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Αφαιρέστε τον κόμβο σε συγκεκριμένη θέση στο SmartArt
+# Αφαίρεση κόμβου σε συγκεκριμένη θέση στο SmartArt
 
 ## Εισαγωγή
-Στον τομέα της ανάπτυξης Java, το Aspose.Slides αναδεικνύεται ως ένα ισχυρό εργαλείο για τον προγραμματισμό των παρουσιάσεων. Είτε πρόκειται για τη δημιουργία, την τροποποίηση ή τη διαχείριση διαφανειών, το Aspose.Slides για Java παρέχει ένα ισχυρό σύνολο λειτουργιών για τον εξορθολογισμό αυτών των εργασιών αποτελεσματικά. Μια τέτοια κοινή λειτουργία είναι η αφαίρεση ενός κόμβου σε μια συγκεκριμένη θέση μέσα σε ένα αντικείμενο SmartArt. Αυτό το σεμινάριο εμβαθύνει στη διαδικασία βήμα προς βήμα για την επίτευξη αυτού του στόχου χρησιμοποιώντας το Aspose.Slides για Java.
+Στον τομέα της ανάπτυξης σε Java, το Aspose.Slides αναδεικνύεται ως ένα ισχυρό εργαλείο για τον προγραμματιστικό χειρισμό παρουσιάσεων. Είτε πρόκειται για δημιουργία, τροποποίηση ή διαχείριση διαφανειών, το Aspose.Slides για Java παρέχει ένα ισχυρό σύνολο λειτουργιών για την αποτελεσματική βελτιστοποίηση αυτών των εργασιών. Μια τέτοια συνηθισμένη λειτουργία είναι η αφαίρεση ενός κόμβου σε μια συγκεκριμένη θέση μέσα σε ένα αντικείμενο SmartArt. Αυτό το σεμινάριο εμβαθύνει στη διαδικασία βήμα προς βήμα για την επίτευξη αυτού του στόχου χρησιμοποιώντας το Aspose.Slides για Java.
 ## Προαπαιτούμενα
-Πριν βουτήξετε στο σεμινάριο, βεβαιωθείτε ότι έχετε ρυθμίσει τις ακόλουθες προϋποθέσεις:
-1.  Java Development Kit (JDK): Βεβαιωθείτε ότι έχετε εγκαταστήσει το JDK στο σύστημά σας. Μπορείτε να το κατεβάσετε από[εδώ](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.Slides για Java: Αποκτήστε τη βιβλιοθήκη Aspose.Slides για Java. Μπορείτε να το κατεβάσετε από[αυτός ο σύνδεσμος](https://releases.aspose.com/slides/java/).
-3. Ολοκληρωμένο περιβάλλον ανάπτυξης (IDE): Εγκαταστήστε ένα IDE όπως το IntelliJ IDEA ή το Eclipse για την απρόσκοπτη εγγραφή και εκτέλεση κώδικα Java.
+Πριν ξεκινήσετε το σεμινάριο, βεβαιωθείτε ότι έχετε ρυθμίσει τις ακόλουθες προϋποθέσεις:
+1. Κιτ Ανάπτυξης Java (JDK): Βεβαιωθείτε ότι έχετε εγκαταστήσει το JDK στο σύστημά σας. Μπορείτε να το κατεβάσετε από [εδώ](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+2. Aspose.Slides για Java: Αποκτήστε τη βιβλιοθήκη Aspose.Slides για Java. Μπορείτε να την κατεβάσετε από [αυτός ο σύνδεσμος](https://releases.aspose.com/slides/java/).
+3. Ολοκληρωμένο Περιβάλλον Ανάπτυξης (IDE): Να έχετε εγκατεστημένο ένα IDE όπως το IntelliJ IDEA ή το Eclipse για να γράφετε και να εκτελείτε κώδικα Java απρόσκοπτα.
 
 ## Εισαγωγή πακέτων
-Στο έργο σας Java, συμπεριλάβετε τα απαραίτητα πακέτα για να χρησιμοποιήσετε τις λειτουργίες Aspose.Slides:
+Στο έργο Java που διαθέτετε, συμπεριλάβετε τα απαραίτητα πακέτα για την αξιοποίηση των λειτουργιών του Aspose.Slides:
 ```java
 import com.aspose.slides.*;
 ```
-## Βήμα 1: Φορτώστε την παρουσίαση
+## Βήμα 1: Φόρτωση της παρουσίασης
 Ξεκινήστε φορτώνοντας το αρχείο παρουσίασης όπου υπάρχει το αντικείμενο SmartArt:
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "RemoveNodeSpecificPosition.pptx");
 ```
 ## Βήμα 2: Διασχίστε τα σχήματα SmartArt
-Διασχίστε κάθε σχήμα στην παρουσίαση για να αναγνωρίσετε αντικείμενα SmartArt:
+Διασχίστε κάθε σχήμα στην παρουσίαση για να εντοπίσετε αντικείμενα SmartArt:
 ```java
 for (IShape shape : pres.getSlides().get_Item(0).getShapes()) {
     if (shape instanceof ISmartArt) {
         ISmartArt smart = (ISmartArt) shape;
 ```
-## Βήμα 3: Πρόσβαση στο SmartArt Node
-Πρόσβαση στον κόμβο SmartArt στην επιθυμητή θέση:
+## Βήμα 3: Πρόσβαση στον κόμβο SmartArt
+Αποκτήστε πρόσβαση στον κόμβο SmartArt στην επιθυμητή θέση:
 ```java
 ISmartArtNode node = smart.getAllNodes().get_Item(0);
 ```
-## Βήμα 4: Κατάργηση Child Node
+## Βήμα 4: Κατάργηση θυγατρικού κόμβου
 Αφαιρέστε τον θυγατρικό κόμβο στην καθορισμένη θέση:
 ```java
 ((ISmartArtNodeCollection) node.getChildNodes()).removeNode(1);
@@ -55,22 +57,24 @@ ISmartArtNode node = smart.getAllNodes().get_Item(0);
 pres.save(dataDir + "RemoveSmartArtNodeByPosition_out.pptx", SaveFormat.Pptx);
 ```
 
-## συμπέρασμα
-Με το Aspose.Slides για Java, ο χειρισμός αντικειμένων SmartArt μέσα στις παρουσιάσεις γίνεται μια απλή εργασία. Ακολουθώντας τα βήματα που περιγράφονται, μπορείτε να αφαιρέσετε απρόσκοπτα κόμβους σε συγκεκριμένες θέσεις, ενισχύοντας τις δυνατότητες προσαρμογής της παρουσίασής σας.
+## Σύναψη
+Με το Aspose.Slides για Java, ο χειρισμός αντικειμένων SmartArt μέσα σε παρουσιάσεις γίνεται μια απλή εργασία. Ακολουθώντας τα βήματα που περιγράφονται, μπορείτε να καταργήσετε απρόσκοπτα κόμβους σε συγκεκριμένες θέσεις, βελτιώνοντας τις δυνατότητες προσαρμογής των παρουσιάσεών σας.
 ## Συχνές ερωτήσεις
-### Είναι το Aspose.Slides για Java δωρεάν για χρήση;
- Το Aspose.Slides for Java είναι μια εμπορική βιβλιοθήκη, αλλά μπορείτε να εξερευνήσετε τις λειτουργίες της με μια δωρεάν δοκιμή. Επίσκεψη[αυτός ο σύνδεσμος](https://releases.aspose.com/) για να ξεκινήσετε.
+### Είναι το Aspose.Slides για Java δωρεάν στη χρήση;
+Το Aspose.Slides για Java είναι μια εμπορική βιβλιοθήκη, αλλά μπορείτε να εξερευνήσετε τις λειτουργίες της με μια δωρεάν δοκιμαστική περίοδο. Επισκεφθείτε το [αυτός ο σύνδεσμος](https://releases.aspose.com/) για να ξεκινήσετε.
 ### Πού μπορώ να βρω υποστήριξη για ερωτήματα που σχετίζονται με το Aspose.Slides;
- Για οποιαδήποτε βοήθεια ή απορία, μπορείτε να επισκεφτείτε το φόρουμ Aspose.Slides[εδώ](https://forum.aspose.com/c/slides/11).
-### Μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.Slides;
- Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια από[εδώ](https://purchase.aspose.com/temporary-license/) για σκοπούς αξιολόγησης.
-### Πώς μπορώ να αγοράσω Aspose.Slides για Java;
- Για να αγοράσετε Aspose.Slides για Java, επισκεφτείτε τη σελίδα αγοράς[εδώ](https://purchase.aspose.com/buy).
+Για οποιαδήποτε βοήθεια ή απορίες, μπορείτε να επισκεφθείτε το φόρουμ Aspose.Slides [εδώ](https://forum.aspose.com/c/slides/11).
+### Μπορώ να λάβω προσωρινή άδεια χρήσης για το Aspose.Slides;
+Ναι, μπορείτε να λάβετε προσωρινή άδεια από [εδώ](https://purchase.aspose.com/temporary-license/) για σκοπούς αξιολόγησης.
+### Πώς μπορώ να αγοράσω το Aspose.Slides για Java;
+Για να αγοράσετε το Aspose.Slides για Java, επισκεφθείτε τη σελίδα αγοράς [εδώ](https://purchase.aspose.com/buy).
 ### Πού μπορώ να βρω λεπτομερή τεκμηρίωση για το Aspose.Slides για Java;
- Μπορείτε να αποκτήσετε πρόσβαση στην πλήρη τεκμηρίωση[εδώ](https://reference.aspose.com/slides/java/).
+Μπορείτε να έχετε πρόσβαση στην ολοκληρωμένη τεκμηρίωση [εδώ](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

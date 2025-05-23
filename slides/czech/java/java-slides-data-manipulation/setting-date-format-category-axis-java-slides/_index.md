@@ -1,49 +1,51 @@
 ---
-title: Nastavení formátu data pro osu kategorie v Java Slides
-linktitle: Nastavení formátu data pro osu kategorie v Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Naučte se, jak nastavit formát data pro osu kategorií v grafu PowerPoint pomocí Aspose.Slides for Java. Průvodce krok za krokem se zdrojovým kódem.
-weight: 26
-url: /cs/java/data-manipulation/setting-date-format-category-axis-java-slides/
+"description": "Naučte se, jak nastavit formát data pro osu kategorií v grafu PowerPoint pomocí Aspose.Slides pro Javu. Podrobný návod se zdrojovým kódem."
+"linktitle": "Nastavení formátu data pro osu kategorií v Java Slides"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Nastavení formátu data pro osu kategorií v Java Slides"
+"url": "/cs/java/data-manipulation/setting-date-format-category-axis-java-slides/"
+"weight": 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nastavení formátu data pro osu kategorie v Java Slides
+# Nastavení formátu data pro osu kategorií v Java Slides
 
 
-## Úvod do nastavení formátu data pro osu kategorií v Java Slides
+## Úvod do nastavení formátu data pro osu kategorií v aplikaci Java Slides
 
-V tomto tutoriálu se naučíme, jak nastavit formát data pro osu kategorií v grafu PowerPoint pomocí Aspose.Slides pro Java. Aspose.Slides for Java je výkonná knihovna, která vám umožňuje programově vytvářet, manipulovat a spravovat prezentace PowerPoint.
+tomto tutoriálu se naučíme, jak nastavit formát data pro osu kategorií v grafu PowerPoint pomocí knihovny Aspose.Slides pro Javu. Aspose.Slides pro Javu je výkonná knihovna, která umožňuje programově vytvářet, manipulovat a spravovat prezentace v PowerPointu.
 
 ## Předpoklady
 
 Než začnete, ujistěte se, že máte následující:
 
-1. Knihovna Aspose.Slides for Java (můžete si ji stáhnout z[tady](https://releases.aspose.com/slides/java/).
-2. Nastavení vývojového prostředí Java.
+1. Knihovna Aspose.Slides pro Javu (můžete si ji stáhnout z [zde](https://releases.aspose.com/slides/java/).
+2. Nastavení vývojového prostředí v Javě.
 
 ## Krok 1: Vytvořte prezentaci v PowerPointu
 
-Nejprve si musíme vytvořit powerpointovou prezentaci, kam přidáme graf. Ujistěte se, že jste importovali potřebné třídy Aspose.Slides.
+Nejprve musíme vytvořit prezentaci v PowerPointu, do které přidáme graf. Ujistěte se, že jste importovali potřebné třídy Aspose.Slides.
 
 ```java
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 ```
 
-## Krok 2: Přidejte graf do snímku
+## Krok 2: Přidání grafu do snímku
 
-Nyní přidáme graf na snímek aplikace PowerPoint. V tomto příkladu použijeme plošný graf.
+Nyní přidejme do snímku PowerPointu graf. V tomto příkladu použijeme plošný graf.
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Area, 50, 50, 450, 300);
 ```
 
-## Krok 3: Připravte data grafu
+## Krok 3: Příprava dat grafu
 
 Nastavíme data a kategorie grafu. V tomto příkladu použijeme kategorie data.
 
@@ -54,7 +56,7 @@ wb.clear(0);
 chart.getChartData().getCategories().clear();
 chart.getChartData().getSeries().clear();
 
-// Přidávání kategorií data
+// Přidávání kategorií dat
 chart.getChartData().getCategories().add(wb.getCell(0, "A2", convertToOADate(new GregorianCalendar(2015, 1, 1))));
 chart.getChartData().getCategories().add(wb.getCell(0, "A3", convertToOADate(new GregorianCalendar(2016, 1, 1))));
 chart.getChartData().getCategories().add(wb.getCell(0, "A4", convertToOADate(new GregorianCalendar(2017, 1, 1))));
@@ -68,8 +70,8 @@ series.getDataPoints().addDataPointForLineSeries(wb.getCell(0, "B4", 3));
 series.getDataPoints().addDataPointForLineSeries(wb.getCell(0, "B5", 4));
 ```
 
-## Krok 4: Přizpůsobte osu kategorií
-Nyní přizpůsobme osu kategorií tak, aby zobrazovala data v určitém formátu (např. rrrr).
+## Krok 4: Úprava osy kategorií
+Nyní si upravme osu kategorií tak, aby zobrazovala data v určitém formátu (např. rrrr).
 
 ```java
 chart.getAxes().getHorizontalAxis().setCategoryAxisType(CategoryAxisType.Date);
@@ -84,12 +86,12 @@ Nakonec uložte prezentaci v PowerPointu.
 pres.save(dataDir + "test.pptx", SaveFormat.Pptx);
 ```
 
-A je to! Úspěšně jste nastavili formát data pro osu kategorií v grafu PowerPoint pomocí Aspose.Slides for Java.
+To je vše! Úspěšně jste nastavili formát data pro osu kategorií v grafu PowerPoint pomocí Aspose.Slides pro Javu.
 
 ## Kompletní zdrojový kód pro nastavení formátu data pro osu kategorií v Java Slides
 
 ```java
-	// Cesta k adresáři dokumentů.
+	// Cesta k adresáři s dokumenty.
 	String dataDir = "Your Document Directory";
 	Presentation pres = new Presentation();
 	try
@@ -130,24 +132,26 @@ public static String convertToOADate(GregorianCalendar date) throws ParseExcepti
 
 ##Závěr
 
-Úspěšně jste přizpůsobili formát data pro osu kategorií v grafu Java Slides pomocí Aspose.Slides for Java. To vám umožní prezentovat hodnoty data v požadovaném formátu v grafech. Neváhejte a prozkoumejte další možnosti přizpůsobení na základě vašich konkrétních požadavků.
+Úspěšně jste upravili formát data pro osu kategorií v grafu Java Slides pomocí Aspose.Slides pro Javu. To vám umožní prezentovat hodnoty data v požadovaném formátu v grafech. Neváhejte a prozkoumejte další možnosti přizpůsobení na základě vašich specifických požadavků.
 
-## FAQ
+## Často kladené otázky
 
 ### Jak změním formát data pro osu kategorií?
 
- Chcete-li změnit formát data pro osu kategorií, použijte`setNumberFormat` metodu na ose kategorií a zadejte požadovaný vzor formátu data, například "rrrr-MM-dd" nebo "MM/rrrr". Nezapomeňte nastavit`setNumberFormatLinkedToSource(false)` pro přepsání výchozího formátu.
+Chcete-li změnit formát data pro osu kategorií, použijte `setNumberFormat` metodu na ose kategorií a zadejte požadovaný formát data, například „rrrr-MM-dd“ nebo „MM/rrrr“. Ujistěte se, že jste nastavili `setNumberFormatLinkedToSource(false)` přepsat výchozí formát.
 
-### Mohu použít různé formáty data pro různé grafy ve stejné prezentaci?
+### Mohu v jedné prezentaci použít různé formáty data pro různé grafy?
 
-Ano, můžete nastavit různé formáty data pro osy kategorií v různých grafech ve stejné prezentaci. Jednoduše přizpůsobte osu kategorií pro každý graf podle potřeby.
+Ano, v rámci jedné prezentace můžete nastavit různé formáty data pro osy kategorií v různých grafech. Jednoduše si osu kategorií pro každý graf přizpůsobte podle potřeby.
 
-### Jak přidám do grafu další datové body?
+### Jak mohu do grafu přidat další datové body?
 
- Chcete-li do grafu přidat další datové body, použijte`getDataPoints().addDataPointForLineSeries`na datové řadě a poskytnout hodnoty dat.
+Chcete-li do grafu přidat další datové body, použijte `getDataPoints().addDataPointForLineSeries` metodu na datové řadě a poskytněte datové hodnoty.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

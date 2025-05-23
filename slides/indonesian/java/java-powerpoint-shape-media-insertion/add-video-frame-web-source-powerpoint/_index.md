@@ -1,14 +1,16 @@
 ---
-title: Tambahkan Bingkai Video dari Sumber Web di PowerPoint
-linktitle: Tambahkan Bingkai Video dari Sumber Web di PowerPoint
-second_title: Aspose.Slides API Pemrosesan Java PowerPoint
-description: Pelajari cara menyempurnakan presentasi PowerPoint Anda dengan menambahkan bingkai video dari sumber web menggunakan Aspose.Slides untuk Java.
-weight: 18
-url: /id/java/java-powerpoint-shape-media-insertion/add-video-frame-web-source-powerpoint/
+"description": "Pelajari cara menyempurnakan presentasi PowerPoint Anda dengan menambahkan bingkai video dari sumber web menggunakan Aspose.Slides untuk Java."
+"linktitle": "Tambahkan Bingkai Video dari Sumber Web di PowerPoint"
+"second_title": "API Pemrosesan PowerPoint Java Aspose.Slides"
+"title": "Tambahkan Bingkai Video dari Sumber Web di PowerPoint"
+"url": "/id/java/java-powerpoint-shape-media-insertion/add-video-frame-web-source-powerpoint/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Bingkai Video dari Sumber Web di PowerPoint
@@ -18,9 +20,9 @@ Dalam tutorial ini, kita akan mempelajari cara menambahkan bingkai video dari su
 ## Prasyarat
 Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 - Pengetahuan dasar tentang pemrograman Java.
-- JDK (Java Development Kit) diinstal pada sistem Anda.
--  Aspose.Slides untuk perpustakaan Java diunduh dan ditambahkan ke proyek Java Anda. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/slides/java/).
-- Koneksi internet aktif untuk mengakses sumber web (misalnya YouTube).
+- JDK (Java Development Kit) terinstal di sistem Anda.
+- Pustaka Aspose.Slides untuk Java diunduh dan ditambahkan ke proyek Java Anda. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/slides/java/).
+- Koneksi internet aktif untuk mengakses sumber web (misalnya, YouTube).
 
 ## Paket Impor
 Pertama, impor paket yang diperlukan ke proyek Java Anda:
@@ -42,18 +44,18 @@ Inisialisasi objek Presentasi, yang mewakili presentasi PowerPoint:
 Presentation pres = new Presentation();
 ```
 ## Langkah 2: Tambahkan Bingkai Video
-Sekarang, mari tambahkan bingkai video ke presentasi. Bingkai ini akan berisi video dari sumber web. Kami akan menggunakan metode addVideoFrame:
+Sekarang, mari tambahkan bingkai video ke presentasi. Bingkai ini akan berisi video dari sumber web. Kita akan menggunakan metode addVideoFrame:
 ```java
 IVideoFrame videoFrame = pres.getSlides().get_Item(0).getShapes().addVideoFrame(10, 10, 427, 240, "https://www.youtube.com/embed/VIDEO_ID");
 ```
 Ganti "VIDEO_ID" dengan ID video YouTube yang ingin Anda sematkan.
-## Langkah 3: Atur Mode Putar Video
-Atur mode putar untuk bingkai video. Dalam contoh ini, kami akan menyetelnya ke Otomatis:
+## Langkah 3: Atur Mode Pemutaran Video
+Mengatur mode pemutaran untuk bingkai video. Dalam contoh ini, kita akan mengaturnya ke Otomatis:
 ```java
 videoFrame.setPlayMode(VideoPlayModePreset.Auto);
 ```
-## Langkah 4: Muat Gambar Kecil
-Untuk meningkatkan daya tarik visual, kami akan memuat thumbnail video. Langkah ini melibatkan pengambilan gambar mini dari sumber web:
+## Langkah 4: Muat Gambar Mini
+Untuk meningkatkan daya tarik visual, kami akan memuat gambar mini video. Langkah ini melibatkan pengambilan gambar mini dari sumber web:
 ```java
 String thumbnailUri = "https://www.youtube.com/watch?v=VIDEO_ID";
 URL url = new URL(thumbnailUri);
@@ -79,20 +81,22 @@ Ganti "YOUR_DIRECTORY" dengan direktori tempat Anda ingin menyimpan presentasi.
 
 ## Kesimpulan
 Selamat! Anda telah berhasil mempelajari cara menambahkan bingkai video dari sumber web di PowerPoint menggunakan Aspose.Slides untuk Java. Memasukkan elemen multimedia seperti video dapat meningkatkan dampak dan keterlibatan presentasi Anda secara signifikan.
-## FAQ
+## Pertanyaan yang Sering Diajukan
 ### Bisakah saya menambahkan video dari sumber selain YouTube?
-Ya, Anda dapat menambahkan video dari berbagai sumber web asalkan menyediakan tautan yang dapat disematkan.
-### Apakah saya memerlukan koneksi internet untuk memutar video yang disematkan?
-Ya, koneksi internet aktif diperlukan untuk melakukan streaming video dari sumber web.
+Ya, Anda dapat menambahkan video dari berbagai sumber web asalkan mereka menyediakan tautan yang dapat disematkan.
+### Apakah saya memerlukan koneksi internet untuk memutar video yang tertanam?
+Ya, koneksi internet aktif diperlukan untuk menyiarkan video dari sumber web.
 ### Bisakah saya menyesuaikan tampilan bingkai video?
-Sangat! Aspose.Slides menyediakan opsi ekstensif untuk menyesuaikan tampilan dan perilaku bingkai video.
+Tentu saja! Aspose.Slides menyediakan opsi yang luas untuk menyesuaikan tampilan dan perilaku bingkai video.
 ### Apakah Aspose.Slides kompatibel dengan semua versi PowerPoint?
 Aspose.Slides mendukung berbagai versi PowerPoint, memastikan kompatibilitas di berbagai platform.
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dukungan untuk Aspose.Slides?
- Anda dapat mengunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk bantuan, dokumentasi, dan dukungan komunitas.
+Anda dapat mengunjungi [Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) untuk bantuan, dokumentasi, dan dukungan komunitas.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,40 +1,42 @@
 ---
-title: Donut Callout hozzáadása a Java Slides-hez
-linktitle: Donut Callout hozzáadása a Java Slides-hez
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan adhat hozzá fánkfeliratokat a Java Slides-hez az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskóddal a továbbfejlesztett prezentációkhoz.
-weight: 12
-url: /hu/java/chart-data-manipulation/add-doughnut-callout-java-slides/
+"description": "Tanuld meg, hogyan adhatsz hozzá fánk alakú feliratokat Java diákhoz az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskóddal a továbbfejlesztett prezentációkhoz."
+"linktitle": "Fánk kiemelés hozzáadása Java diákban"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Fánk kiemelés hozzáadása Java diákban"
+"url": "/hu/java/chart-data-manipulation/add-doughnut-callout-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Donut Callout hozzáadása a Java Slides-hez
+# Fánk kiemelés hozzáadása Java diákban
 
 
-## Fánk kiemelés hozzáadása Java Slides programhoz az Aspose.Slides for Java segítségével
+## Bevezetés a fánkfelirat hozzáadásához Java diákban az Aspose.Slides for Java használatával
 
-Ebben az oktatóanyagban végigvezetjük Önt azon a folyamaton, hogyan adjon hozzá Donut Callout diát Java nyelven az Aspose.Slides for Java segítségével. A Donut Callout egy diagramelem, amellyel a fánkdiagram adott adatpontjait lehet kiemelni. Lépésről lépésre útmutatást és teljes forráskódot biztosítunk az Ön kényelme érdekében.
+Ebben az oktatóanyagban végigvezetünk azon, hogyan adhatsz hozzá fánkdiagramot egy diához Java nyelven az Aspose.Slides for Java segítségével. A fánkdiagram egy diagramelem, amely felhasználható adott adatpontok kiemelésére egy fánkdiagramban. Lépésről lépésre útmutatást és teljes forráskódot biztosítunk a kényelmed érdekében.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételeket teljesítette:
+Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 
 1. Java fejlesztői környezet
-2. Aspose.Slides for Java könyvtár
-3. Integrált fejlesztői környezet (IDE), mint az Eclipse vagy az IntelliJ IDEA
-4. Egy PowerPoint-prezentáció, amelyhez hozzá szeretné adni a fánk kiemelést
+2. Aspose.Slides Java könyvtárhoz
+3. Integrált fejlesztői környezet (IDE), mint például az Eclipse vagy az IntelliJ IDEA
+4. Egy PowerPoint-bemutató, amelyhez hozzá szeretné adni a fánkfeliratot
 
-## 1. lépés: Állítsa be a Java projektet
+## 1. lépés: Java-projekt beállítása
 
-1. Hozzon létre egy új Java-projektet a kiválasztott IDE-ben.
-2. Adja hozzá az Aspose.Slides for Java könyvtárat a projekthez függőségként.
+1. Hozz létre egy új Java projektet a kiválasztott IDE-ben.
+2. Add hozzá az Aspose.Slides for Java könyvtárat a projektedhez függőségként.
 
-## 2. lépés: Inicializálja a prezentációt
+## 2. lépés: A prezentáció inicializálása
 
-A kezdéshez inicializálnia kell egy PowerPoint-prezentációt, és létre kell hoznia egy diát, amelyhez hozzá szeretné adni a Donut Callout-ot. Íme a kód ennek eléréséhez:
+A kezdéshez inicializálnia kell egy PowerPoint bemutatót, és létre kell hoznia egy diát, ahová a fánkdiagramot hozzá szeretné adni. Íme a kód ehhez:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -42,19 +44,19 @@ Presentation pres = new Presentation(dataDir + "testc.pptx");
 ISlide slide = pres.getSlides().get_Item(0);
 ```
 
- Mindenképpen cserélje ki`"Your Document Directory"` a PowerPoint bemutatófájl tényleges elérési útjával.
+Mindenképpen cserélje ki `"Your Document Directory"` a PowerPoint-bemutatófájl tényleges elérési útjával.
 
-## 3. lépés: Hozzon létre egy fánkdiagramot
+## 3. lépés: Fánkdiagram létrehozása
 
-Ezután létrehoz egy Fánk diagramot a dián. Testreszabhatja a diagram helyzetét és méretét igényei szerint. Íme a kód a Donut diagram hozzáadásához:
+Ezután létrehoz egy fánkdiagramot a dián. A diagram pozícióját és méretét az igényeidnek megfelelően testreszabhatod. Íme a kód a fánkdiagram hozzáadásához:
 
 ```java
 IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, false);
 ```
 
-## 4. lépés: A Donut Chart testreszabása
+## 4. lépés: A fánkdiagram testreszabása
 
-Most itt az ideje, hogy személyre szabja a Donut diagramot. Különféle tulajdonságokat állítunk be, mint például a jelmagyarázat eltávolítása, a furat méretének beállítása és az első szelet szögének beállítása. Íme a kód:
+Most itt az ideje a fánkdiagram testreszabásának. Különböző tulajdonságokat fogunk beállítani, például a jelmagyarázat eltávolítását, a lyuk méretének konfigurálását és az első szelet szögének módosítását. Íme a kód:
 
 ```java
 IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
@@ -71,11 +73,11 @@ while (seriesIndex < 15) {
 }
 ```
 
-Ez a kódrészlet beállítja a Donut diagram tulajdonságait. Az értékeket saját igényei szerint állíthatja be.
+Ez a kódrészlet a fánkdiagram tulajdonságait állítja be. Az értékeket az igényeidnek megfelelően módosíthatod.
 
-## 5. lépés: Adjon hozzá adatokat a fánkdiagramhoz
+## 5. lépés: Adatok hozzáadása a fánkdiagramhoz
 
-Most adjunk hozzá adatokat a Donut diagramhoz. Az adatpontok megjelenését is testre szabjuk. Íme a kód ennek végrehajtásához:
+Most adjunk hozzá adatokat a fánkdiagramhoz. Az adatpontok megjelenését is testreszabjuk. Íme a kód ehhez:
 
 ```java
 int categoryIndex = 0;
@@ -86,28 +88,28 @@ while (categoryIndex < 15) {
         IChartSeries iCS = chart.getChartData().getSeries().get_Item(i);
         IChartDataPoint dataPoint = iCS.getDataPoints().addDataPointForDoughnutSeries(workBook.getCell(0, categoryIndex + 1, i + 1, 1));
         dataPoint.getFormat().getFill().setFillType(FillType.Solid);
-        // Itt testreszabhatja az adatpontok megjelenését
+        // Adatpontok megjelenésének testreszabása itt
         i++;
     }
     categoryIndex++;
 }
 ```
 
-Ebben a kódban kategóriákat és adatpontokat adunk a Donut diagramhoz. Szükség szerint tovább testreszabhatja az adatpontok megjelenését.
+Ebben a kódban kategóriákat és adatpontokat adunk a fánkdiagramhoz. Az adatpontok megjelenését szükség szerint tovább testreszabhatja.
 
-## 6. lépés: Mentse el a bemutatót
+## 6. lépés: Mentse el a prezentációt
 
-Végül ne felejtse el menteni a prezentációt a Donut Callout hozzáadása után. Íme a kód a prezentáció mentéséhez:
+Végül ne felejtsd el menteni a prezentációdat a fánkdiagram hozzáadása után. Íme a kód a prezentáció mentéséhez:
 
 ```java
 pres.save(dataDir + "chart.pptx", SaveFormat.Pptx);
 ```
 
- Mindenképpen cserélje ki`"chart.pptx"` a kívánt fájlnévvel.
+Mindenképpen cserélje ki `"chart.pptx"` a kívánt fájlnévvel.
 
-Gratulálunk! Sikeresen hozzáadott egy Donut Calloutot egy Java diához az Aspose.Slides for Java segítségével. Most már futtathatja a Java-alkalmazást a PowerPoint prezentáció létrehozásához a Donut diagrammal és a kiemeléssel.
+Gratulálunk! Sikeresen hozzáadott egy fánkdiagramot egy Java diához az Aspose.Slides for Java segítségével. Most már futtathatja a Java alkalmazást a fánkdiagrammal és a diagrammal rendelkező PowerPoint bemutató létrehozásához.
 
-## Teljes forráskód az Add Donut Callout Java Slides-hez
+## Teljes forráskód a fánkfelirat hozzáadásához Java diákban
 
 ```java
 String dataDir = "Your Document Directory";
@@ -171,24 +173,26 @@ pres.save(dataDir + "chart.pptx", SaveFormat.Pptx);
 
 ## Következtetés
 
-Ebben az oktatóanyagban bemutattuk a Donut Callout Java diához való hozzáadásának folyamatát az Aspose.Slides for Java segítségével. Megtanulta, hogyan hozhat létre Donut diagramot, hogyan szabhatja testre a megjelenését, és hogyan adhat hozzá adatpontokat. Nyugodtan bővítheti tovább prezentációit ezzel a hatékony könyvtárral, és fedezzen fel további diagramkészítési lehetőségeket.
+Ebben az oktatóanyagban áttekintettük a fánkdiagram Java diákhoz való hozzáadásának folyamatát az Aspose.Slides for Java segítségével. Megtanultad, hogyan hozhatsz létre fánkdiagramot, hogyan szabhatod testre a megjelenését és hogyan adhatsz hozzá adatpontokat. Nyugodtan gazdagíthatod prezentációidat ezzel a hatékony könyvtárral, és felfedezhetsz további diagramkészítési lehetőségeket.
 
 ## GYIK
 
-### Hogyan változtathatom meg a fánk kiemelés megjelenését?
+### Hogyan tudom megváltoztatni a fánkdiagram megjelenését?
 
-Testreszabhatja a Donut Callout megjelenését a diagram adatpontjainak tulajdonságainak módosításával. A megadott kódban láthatja, hogyan állíthatja be az adatpontok kitöltési színét, vonalszínét, betűstílusát és egyéb attribútumait.
+fánkdiagram megjelenését testreszabhatja a diagram adatpontjainak tulajdonságainak módosításával. A megadott kódban láthatja, hogyan állíthatja be az adatpontok kitöltési színét, vonalszínét, betűstílusát és egyéb attribútumait.
 
-### Hozzáadhatok további adatpontokat a Donut diagramhoz?
+### Hozzáadhatok további adatpontokat a fánkdiagramhoz?
 
-Igen, annyi adatpontot adhat hozzá a Donut diagramhoz, amennyi szükséges. Egyszerűen bővítse ki a kód ciklusait, ahol kategóriákat és adatpontokat ad hozzá, és adja meg a megfelelő adatokat és formázást.
+Igen, annyi adatpontot adhatsz hozzá a fánkdiagramhoz, amennyire szükséged van. Egyszerűen bővítsd ki a kódban a kategóriák és adatpontok hozzáadásához szükséges ciklusokat, és add meg a megfelelő adatokat és formázást.
 
-### Hogyan állíthatom be a fánk diagram helyzetét és méretét a dián?
+### Hogyan tudom beállítani a fánkdiagram pozícióját és méretét a dián?
 
- Módosíthatja a Donut diagram helyzetét és méretét a paraméterek módosításával a`addChart` módszer. Ebben a módszerben a négy szám megfelel a diagram bal felső sarkának X és Y koordinátáinak, illetve annak szélességének és magasságának.
+A fánkdiagram pozícióját és méretét a paraméterek módosításával módosíthatja a `addChart` metódus. A metódusban szereplő négy szám a diagram bal felső sarkának X és Y koordinátáinak, illetve a szélességének és magasságának felel meg.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Aspose.Slides में स्लाइड पृष्ठभूमि संशोधन
-linktitle: Aspose.Slides में स्लाइड पृष्ठभूमि संशोधन
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: Aspose.Slides for .NET का उपयोग करके स्लाइड पृष्ठभूमि को अनुकूलित करना सीखें। आकर्षक पृष्ठभूमि के साथ अपनी प्रस्तुतियों को बेहतर बनाएँ। आज ही शुरू करें!
-weight: 10
-url: /hi/net/slide-background-manipulation/slide-background-modification/
+"description": "Aspose.Slides for .NET का उपयोग करके स्लाइड बैकग्राउंड को कस्टमाइज़ करना सीखें। आकर्षक बैकग्राउंड के साथ अपनी प्रस्तुतियों को बेहतर बनाएँ। आज ही शुरू करें!"
+"linktitle": "Aspose.Slides में स्लाइड पृष्ठभूमि संशोधन"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "Aspose.Slides में स्लाइड पृष्ठभूमि संशोधन"
+"url": "/hi/net/slide-background-manipulation/slide-background-modification/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Slides में स्लाइड पृष्ठभूमि संशोधन
@@ -22,13 +24,13 @@ url: /hi/net/slide-background-manipulation/slide-background-modification/
 
 ### 1. .NET लाइब्रेरी के लिए Aspose.Slides
 
- सुनिश्चित करें कि आपके पास Aspose.Slides for .NET लाइब्रेरी स्थापित है। आप इसे वेबसाइट से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/net/).
+सुनिश्चित करें कि आपके पास Aspose.Slides for .NET लाइब्रेरी स्थापित है। आप इसे वेबसाइट से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/net/).
 
 ### 2. .NET फ्रेमवर्क
 
 यह ट्यूटोरियल मानता है कि आपको .NET फ्रेमवर्क की बुनियादी समझ है और आप C# के साथ काम करने में सहज हैं।
 
-अब जबकि हमने पूर्वापेक्षाओं पर चर्चा कर ली है, तो चलिए चरण-दर-चरण मार्गदर्शिका पर चलते हैं।
+अब जबकि हमने पूर्वापेक्षाओं पर चर्चा कर ली है, तो चलिए चरण-दर-चरण मार्गदर्शिका की ओर बढ़ते हैं।
 
 ## नामस्थान आयात करें
 
@@ -72,15 +74,15 @@ if (!IsExists)
 // प्रेजेंटेशन फ़ाइल का प्रतिनिधित्व करने वाले प्रेजेंटेशन क्लास को इंस्टैंसिएट करें
 using (Presentation pres = new Presentation())
 {
-    //स्लाइड पृष्ठभूमि संशोधन के लिए आपका कोड यहां जाएगा।
+    // स्लाइड पृष्ठभूमि संशोधन के लिए आपका कोड यहां जाएगा।
     // हम अगले चरणों में इसका पता लगाएंगे।
     
-    //संशोधित प्रस्तुति सहेजें
+    // संशोधित प्रस्तुति सहेजें
     pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 }
 ```
 
- इसका एक उदाहरण बनाएं`Presentation` प्रस्तुति फ़ाइल का प्रतिनिधित्व करने के लिए क्लास। स्लाइड पृष्ठभूमि संशोधन कोड इस के भीतर रखा जाएगा`using` अवरोध पैदा करना।
+इसका एक उदाहरण बनाएं `Presentation` प्रस्तुति फ़ाइल का प्रतिनिधित्व करने के लिए क्लास। स्लाइड पृष्ठभूमि संशोधन कोड इस के भीतर रखा जाएगा `using` अवरोध पैदा करना।
 
 ## चरण 5: स्लाइड पृष्ठभूमि अनुकूलित करें
 
@@ -96,7 +98,7 @@ pres.Slides[0].Background.FillFormat.SolidFillColor.Color = Color.Blue;
 ## चरण 6: संशोधित प्रस्तुति को सहेजें
 
 ```csharp
-//संशोधित प्रस्तुति सहेजें
+// संशोधित प्रस्तुति सहेजें
 pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 ```
 
@@ -112,27 +114,29 @@ pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 
 ### 1. क्या Aspose.Slides for .NET एक निःशुल्क लाइब्रेरी है?
 
- .NET के लिए Aspose.Slides निःशुल्क नहीं है; यह एक वाणिज्यिक लाइब्रेरी है। आप वेबसाइट पर लाइसेंसिंग विकल्प और मूल्य निर्धारण का पता लगा सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+.NET के लिए Aspose.Slides निःशुल्क नहीं है; यह एक वाणिज्यिक लाइब्रेरी है। आप वेबसाइट पर लाइसेंसिंग विकल्प और मूल्य निर्धारण का पता लगा सकते हैं [यहाँ](https://purchase.aspose.com/buy).
 
 ### 2. क्या मैं खरीदने से पहले Aspose.Slides for .NET आज़मा सकता हूँ?
 
- हां, आप .NET के लिए Aspose.Slides का निःशुल्क परीक्षण संस्करण प्राप्त करके इसे आज़मा सकते हैं।[यहाँ](https://releases.aspose.com/).
+हां, आप .NET के लिए Aspose.Slides का निःशुल्क परीक्षण संस्करण प्राप्त करके इसे आज़मा सकते हैं। [यहाँ](https://releases.aspose.com/).
 
 ### 3. मैं .NET के लिए Aspose.Slides का समर्थन कैसे प्राप्त कर सकता हूं?
 
- यदि आपको सहायता की आवश्यकता है या Aspose.Slides for .NET के बारे में कोई प्रश्न है, तो आप सहायता फ़ोरम पर जा सकते हैं[यहाँ](https://forum.aspose.com/).
+यदि आपको सहायता की आवश्यकता है या Aspose.Slides for .NET के बारे में कोई प्रश्न है, तो आप सहायता फ़ोरम पर जा सकते हैं [यहाँ](https://forum.aspose.com/).
 
 ### 4. Aspose.Slides for .NET अन्य क्या सुविधाएँ प्रदान करता है?
 
- Aspose.Slides for .NET कई तरह की सुविधाएँ प्रदान करता है, जिसमें स्लाइड निर्माण, हेरफेर और विभिन्न प्रारूपों में रूपांतरण शामिल है। दस्तावेज़ देखें[यहाँ](https://reference.aspose.com/slides/net/)क्षमताओं की एक व्यापक सूची के लिए.
+Aspose.Slides for .NET कई तरह की सुविधाएँ प्रदान करता है, जिसमें स्लाइड निर्माण, हेरफेर और विभिन्न प्रारूपों में रूपांतरण शामिल है। दस्तावेज़ देखें [यहाँ](https://reference.aspose.com/slides/net/) क्षमताओं की एक व्यापक सूची के लिए.
 
 ### 5. क्या मैं एक प्रस्तुति में एकाधिक स्लाइडों के लिए स्लाइड पृष्ठभूमि को अनुकूलित कर सकता हूँ?
 
 हां, आप Aspose.Slides for .NET का उपयोग करके किसी भी प्रस्तुति में स्लाइड की पृष्ठभूमि को संशोधित कर सकते हैं। बस उस स्लाइड को लक्षित करें जिसे आप अनुकूलित करना चाहते हैं और इस ट्यूटोरियल में बताए गए समान चरणों का पालन करें।
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

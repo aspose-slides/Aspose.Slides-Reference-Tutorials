@@ -1,33 +1,35 @@
 ---
-title: Stel de kleurenkaart omkeren in in Java-dia's
-linktitle: Stel de kleurenkaart omkeren in in Java-dia's
-second_title: Aspose.Slides Java PowerPoint-verwerkings-API
-description: Leer hoe u de omgekeerde opvulkleuren voor Java Slides-diagrammen kunt instellen met Aspose.Slides. Verbeter uw diagramvisualisaties met deze stapsgewijze handleiding en broncode.
-weight: 22
-url: /nl/java/data-manipulation/set-invert-fill-color-chart-java-slides/
+"description": "Leer hoe u de opvulkleuren voor Java Slides-diagrammen kunt omkeren met Aspose.Slides. Verbeter uw diagramvisualisaties met deze stapsgewijze handleiding en broncode."
+"linktitle": "Omgekeerde vulkleurgrafiek instellen in Java-dia's"
+"second_title": "Aspose.Slides Java PowerPoint-verwerkings-API"
+"title": "Omgekeerde vulkleurgrafiek instellen in Java-dia's"
+"url": "/nl/java/data-manipulation/set-invert-fill-color-chart-java-slides/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Stel de kleurenkaart omkeren in in Java-dia's
+# Omgekeerde vulkleurgrafiek instellen in Java-dia's
 
 
-## Inleiding tot het instellen van de kleurengrafiek Omkeren in Java-dia's
+## Inleiding tot het instellen van de omgekeerde vulkleurkaart in Java-dia's
 
-In deze zelfstudie laten we zien hoe u de omgekeerde vulkleur voor een diagram in Java Slides kunt instellen met Aspose.Slides voor Java. Het omkeren van de vulkleur is een handige functie als u negatieve waarden in een diagram met een specifieke kleur wilt markeren. We zullen stapsgewijze instructies en broncode verstrekken om dit te bereiken.
+In deze tutorial laten we zien hoe je de omgekeerde opvulkleur voor een grafiek in Java Slides instelt met Aspose.Slides voor Java. Het omkeren van de opvulkleur is een handige functie wanneer je negatieve waarden in een grafiek met een specifieke kleur wilt markeren. We bieden stapsgewijze instructies en broncode om dit te doen.
 
 ## Vereisten
 
-Voordat u begint, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+Voordat u begint, moet u ervoor zorgen dat aan de volgende vereisten is voldaan:
 
 1. Aspose.Slides voor Java-bibliotheek geïnstalleerd.
-2. Java-ontwikkelomgeving opgezet.
+2. Java-ontwikkelomgeving instellen.
 
-## Stap 1: Maak een presentatie
+## Stap 1: Een presentatie maken
 
-Eerst moeten we een presentatie maken waaraan we ons diagram kunnen toevoegen. U kunt de volgende code gebruiken om een presentatie te maken:
+Eerst moeten we een presentatie maken om onze grafiek aan toe te voegen. Je kunt de volgende code gebruiken om een presentatie te maken:
 
 ```java
 // Het pad naar de documentenmap.
@@ -35,9 +37,9 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 ```
 
-## Stap 2: Voeg een diagram toe
+## Stap 2: Een grafiek toevoegen
 
-Vervolgens voegen we een geclusterd kolomdiagram toe aan de presentatie. Hier ziet u hoe u het kunt doen:
+Vervolgens voegen we een geclusterde kolomgrafiek toe aan de presentatie. Zo doe je dat:
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 100, 100, 400, 300);
@@ -45,7 +47,7 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Clust
 
 ## Stap 3: Grafiekgegevens instellen
 
-Laten we nu de diagramgegevens instellen, inclusief series en categorieën:
+Laten we nu de grafiekgegevens instellen, inclusief reeksen en categorieën:
 
 ```java
 IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
@@ -59,9 +61,9 @@ chart.getChartData().getCategories().add(workBook.getCell(0, 2, 0, "Category 2")
 chart.getChartData().getCategories().add(workBook.getCell(0, 3, 0, "Category 3"));
 ```
 
-## Stap 4: Reeksgegevens invullen
+## Stap 4: Vul reeksgegevens in
 
-Laten we nu de reeksgegevens voor het diagram invullen:
+Laten we nu de reeksgegevens voor de grafiek invullen:
 
 ```java
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
@@ -70,9 +72,9 @@ series.getDataPoints().addDataPointForBarSeries(workBook.getCell(0, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(workBook.getCell(0, 3, 1, -30));
 ```
 
-## Stap 5: Stel de vulkleur omkeren in
+## Stap 5: Omgekeerde vulkleur instellen
 
-Om de omgekeerde vulkleur voor de diagramserie in te stellen, kunt u de volgende code gebruiken:
+Om de omgekeerde vulkleur voor de grafiekreeks in te stellen, kunt u de volgende code gebruiken:
 
 ```java
 Color seriesColor = series.getAutomaticSeriesColor();
@@ -82,17 +84,17 @@ series.getFormat().getFill().getSolidFillColor().setColor(seriesColor);
 series.getInvertedSolidFillColor().setColor(Color.RED);
 ```
 
-In de bovenstaande code stellen we de reeks zo in dat de vulkleur wordt omgekeerd voor negatieve waarden en specificeren we de kleur voor de omgekeerde vulling.
+In de bovenstaande code stellen we de reeks in op het omkeren van de opvulkleur voor negatieve waarden en specificeren we de kleur voor de omgekeerde opvulling.
 
 ## Stap 6: Sla de presentatie op
 
-Sla ten slotte de presentatie op met het diagram:
+Sla ten slotte de presentatie met de grafiek op:
 
 ```java
 pres.save(dataDir + "SetInvertFillColorChart_out.pptx", SaveFormat.Pptx);
 ```
 
-## Volledige broncode voor het instellen van de omgekeerde vulkleurenkaart in Java-dia's
+## Volledige broncode voor de kleurenkaart voor het omkeren van de opvulling in Java-dia's
 
 ```java
 // Het pad naar de documentenmap.
@@ -110,7 +112,7 @@ chart.getChartData().getSeries().add(workBook.getCell(0, 0, 1, "Series 1"), char
 chart.getChartData().getCategories().add(workBook.getCell(0, 1, 0, "Category 1"));
 chart.getChartData().getCategories().add(workBook.getCell(0, 2, 0, "Category 2"));
 chart.getChartData().getCategories().add(workBook.getCell(0, 3, 0, "Category 3"));
-// Neem de eerste grafiekreeks en vul de reeksgegevens in.
+// Neem de eerste grafiekserie en vul de seriegegevens in.
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 series.getDataPoints().addDataPointForBarSeries(workBook.getCell(0, 1, 1, -20));
 series.getDataPoints().addDataPointForBarSeries(workBook.getCell(0, 2, 1, 50));
@@ -130,38 +132,40 @@ if (pres != null) pres.dispose();
 
 ## Conclusie
 
-In deze zelfstudie hebben we u laten zien hoe u de omgekeerde vulkleur voor een diagram in Java Slides instelt met behulp van Aspose.Slides voor Java. Met deze functie kunt u negatieve waarden in uw diagrammen markeren met een specifieke kleur, waardoor uw gegevens visueel informatiever worden.
+In deze tutorial hebben we je laten zien hoe je de omgekeerde opvulkleur voor een grafiek in Java Slides instelt met Aspose.Slides voor Java. Met deze functie kun je negatieve waarden in je grafieken markeren met een specifieke kleur, waardoor je gegevens visueel aantrekkelijker worden.
 
 ## Veelgestelde vragen
 
-In deze sectie behandelen we enkele veelgestelde vragen met betrekking tot het instellen van de omgekeerde vulkleur voor een diagram in Java Slides met behulp van Aspose.Slides voor Java.
+In deze sectie beantwoorden we een aantal veelgestelde vragen over het instellen van de omgekeerde opvulkleur voor een grafiek in Java Slides met behulp van Aspose.Slides voor Java.
 
 ### Hoe installeer ik Aspose.Slides voor Java?
 
- U kunt Aspose.Slides voor Java installeren door de Aspose.Slides JAR-bestanden in uw Java-project op te nemen. U kunt de bibliotheek downloaden via de[Aspose.Slides voor Java-downloadpagina](https://releases.aspose.com/slides/java/). Volg de installatie-instructies in de documentatie voor uw specifieke ontwikkelomgeving.
+U kunt Aspose.Slides voor Java installeren door de Aspose.Slides JAR-bestanden in uw Java-project op te nemen. U kunt de bibliotheek downloaden van de [Aspose.Slides voor Java downloadpagina](https://releases.aspose.com/slides/java/)Volg de installatie-instructies in de documentatie voor uw specifieke ontwikkelomgeving.
 
-### Kan ik de kleur voor omgekeerde vulling in de diagramserie aanpassen?
+### Kan ik de kleur van de omgekeerde vulling in de grafiekserie aanpassen?
 
-Ja, u kunt de kleur voor de omgekeerde vulling in de diagramserie aanpassen. In het gegeven codevoorbeeld is de`series.getInvertedSolidFillColor().setColor(Color.RED)` lijn stelt de kleur in op rood voor de omgekeerde vulling. Je kunt vervangen`Color.RED` met een andere kleur naar keuze.
+Ja, u kunt de kleur van de omgekeerde vulling in de grafiekreeks aanpassen. In het meegeleverde codevoorbeeld: `series.getInvertedSolidFillColor().setColor(Color.RED)` lijn stelt de kleur in op rood voor de omgekeerde vulling. U kunt vervangen `Color.RED` met een andere kleur naar keuze.
 
-### Hoe kan ik het diagramtype in Aspose.Slides voor Java wijzigen?
+### Hoe kan ik het grafiektype in Aspose.Slides voor Java wijzigen?
 
- U kunt het diagramtype wijzigen door de`ChartType` parameter bij het toevoegen van een diagram aan de presentatie. In het codevoorbeeld gebruikten we`ChartType.ClusteredColumn` . U kunt andere diagramtypen verkennen, zoals lijndiagrammen, staafdiagrammen, cirkeldiagrammen, enz., door de juiste`ChartType` enum-waarde.
+U kunt het grafiektype wijzigen door de `ChartType` parameter bij het toevoegen van een grafiek aan de presentatie. In het codevoorbeeld gebruikten we `ChartType.ClusteredColumn`U kunt andere grafiektypen verkennen, zoals lijndiagrammen, staafdiagrammen, cirkeldiagrammen, enz., door de juiste `ChartType` enum-waarde.
 
-### Hoe voeg ik meerdere gegevensreeksen toe aan een diagram?
+### Hoe voeg ik meerdere gegevensreeksen toe aan een grafiek?
 
- Als u meerdere gegevensreeksen aan een diagram wilt toevoegen, kunt u de`chart.getChartData().getSeries().add(...)` methode voor elke serie die u wilt toevoegen. Zorg ervoor dat u voor elke reeks de juiste gegevenspunten en labels opgeeft, zodat uw diagram met meerdere reeksen kan worden gevuld.
+Om meerdere gegevensreeksen aan een grafiek toe te voegen, kunt u de `chart.getChartData().getSeries().add(...)` Methode voor elke reeks die u wilt toevoegen. Zorg ervoor dat u de juiste datapunten en labels voor elke reeks opgeeft om uw grafiek met meerdere reeksen te vullen.
 
-### Is er een manier om andere aspecten van de weergave van het diagram aan te passen?
+### Is er een manier om andere aspecten van het uiterlijk van de grafiek aan te passen?
 
-Ja, u kunt verschillende aspecten van de weergave van het diagram aanpassen, inclusief aslabels, titels, legenda's en meer met behulp van Aspose.Slides voor Java. Raadpleeg de documentatie voor gedetailleerde richtlijnen over het aanpassen van kaartelementen en het uiterlijk.
+Ja, u kunt verschillende aspecten van de weergave van de grafiek aanpassen, zoals aslabels, titels, legenda's en meer, met Aspose.Slides voor Java. Raadpleeg de documentatie voor gedetailleerde instructies over het aanpassen van grafiekelementen en de weergave.
 
 ### Kan ik het diagram in verschillende formaten opslaan?
 
- Ja, u kunt het diagram in verschillende formaten opslaan met Aspose.Slides voor Java. In het meegeleverde codevoorbeeld hebben we de presentatie opgeslagen als een PPTX-bestand. Je kunt verschillende gebruiken`SaveFormat` opties om het op te slaan in andere formaten zoals PDF, PNG of SVG, afhankelijk van uw vereisten.
+Ja, u kunt de grafiek in verschillende formaten opslaan met Aspose.Slides voor Java. In het gegeven codevoorbeeld hebben we de presentatie opgeslagen als een PPTX-bestand. U kunt verschillende formaten gebruiken. `SaveFormat` opties om het op te slaan in andere formaten, zoals PDF, PNG of SVG, afhankelijk van uw vereisten.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

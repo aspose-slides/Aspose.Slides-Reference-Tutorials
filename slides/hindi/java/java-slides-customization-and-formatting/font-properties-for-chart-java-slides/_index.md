@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में चार्ट के लिए फ़ॉन्ट गुण
-linktitle: जावा स्लाइड्स में चार्ट के लिए फ़ॉन्ट गुण
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java के साथ Java स्लाइड्स में चार्ट फ़ॉन्ट गुण बढ़ाएँ। प्रभावशाली प्रस्तुतियों के लिए फ़ॉन्ट आकार, शैली और रंग को अनुकूलित करें।
-weight: 11
-url: /hi/java/customization-and-formatting/font-properties-for-chart-java-slides/
+"description": "Aspose.Slides for Java के साथ Java स्लाइड्स में चार्ट फ़ॉन्ट गुण बढ़ाएँ। प्रभावशाली प्रस्तुतियों के लिए फ़ॉन्ट आकार, शैली और रंग को अनुकूलित करें।"
+"linktitle": "जावा स्लाइड्स में चार्ट के लिए फ़ॉन्ट गुण"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में चार्ट के लिए फ़ॉन्ट गुण"
+"url": "/hi/java/customization-and-formatting/font-properties-for-chart-java-slides/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में चार्ट के लिए फ़ॉन्ट गुण
@@ -20,7 +22,7 @@ url: /hi/java/customization-and-formatting/font-properties-for-chart-java-slides
 
 ## आवश्यक शर्तें
 
- शुरू करने से पहले, सुनिश्चित करें कि आपके प्रोजेक्ट में Aspose.Slides for Java API एकीकृत है। यदि आपने पहले से ऐसा नहीं किया है, तो आप इसे यहाँ से डाउनलोड कर सकते हैं।[Aspose.Slides for Java दस्तावेज़](https://reference.aspose.com/slides/java/).
+शुरू करने से पहले, सुनिश्चित करें कि आपके प्रोजेक्ट में Aspose.Slides for Java API एकीकृत है। यदि आपने पहले से ऐसा नहीं किया है, तो आप इसे यहाँ से डाउनलोड कर सकते हैं। [Aspose.Slides for Java दस्तावेज़](https://reference.aspose.com/slides/java/).
 
 ## चरण 1: एक प्रस्तुति बनाएं
 
@@ -72,7 +74,7 @@ pres.save(dataDir + "FontPropertiesForChart.pptx", SaveFormat.Pptx);
 
 यह कोड प्रस्तुति को "FontPropertiesForChart.pptx" फ़ाइल नाम के साथ निर्दिष्ट निर्देशिका में सहेज देगा।
 
-## जावा स्लाइड्स में चार्ट के लिए फ़ॉन्ट गुणों के लिए पूर्ण स्रोत कोड
+## जावा स्लाइड्स में चार्ट के लिए फ़ॉन्ट गुणों हेतु पूर्ण स्रोत कोड
 
 ```java
 // दस्तावेज़ निर्देशिका का पथ.
@@ -93,24 +95,26 @@ finally
 
 ## निष्कर्ष
 
-इस ट्यूटोरियल में, आपने सीखा है कि Aspose.Slides for Java का उपयोग करके Java Slides में चार्ट के लिए फ़ॉन्ट गुण कैसे अनुकूलित करें। आप अपने चार्ट और प्रस्तुतियों की उपस्थिति को बेहतर बनाने के लिए इन तकनीकों को लागू कर सकते हैं। में और अधिक विकल्प खोजें[Aspose.Slides for Java दस्तावेज़](https://reference.aspose.com/slides/java/).
+इस ट्यूटोरियल में, आपने सीखा है कि Aspose.Slides for Java का उपयोग करके Java Slides में चार्ट के लिए फ़ॉन्ट गुण कैसे अनुकूलित करें। आप अपने चार्ट और प्रस्तुतियों की उपस्थिति को बेहतर बनाने के लिए इन तकनीकों को लागू कर सकते हैं। में और अधिक विकल्प खोजें [Aspose.Slides for Java दस्तावेज़](https://reference.aspose.com/slides/java/).
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### मैं फ़ॉन्ट का रंग कैसे बदल सकता हूँ?
 
- चार्ट टेक्स्ट के लिए फ़ॉन्ट रंग बदलने के लिए, उपयोग करें`chart.getTextFormat().getPortionFormat().setFontColor(Color.RED);` , प्रतिस्थापित`Color.RED` इच्छित रंग के साथ.
+चार्ट टेक्स्ट के लिए फ़ॉन्ट रंग बदलने के लिए, उपयोग करें `chart.getTextFormat().getPortionFormat().setFontColor(Color.RED);`, प्रतिस्थापित `Color.RED` इच्छित रंग के साथ.
 
 ### क्या मैं फ़ॉन्ट शैली (बोल्ड, इटैलिक, आदि) बदल सकता हूँ?
 
- हां, आप फ़ॉन्ट शैली बदल सकते हैं।`chart.getTextFormat().getPortionFormat().setFontBold(true);` फ़ॉन्ट को बोल्ड बनाने के लिए। इसी तरह, आप उपयोग कर सकते हैं`setFontItalic(true)` इसे इटैलिक बनाने के लिए.
+हां, आप फ़ॉन्ट शैली बदल सकते हैं। `chart.getTextFormat().getPortionFormat().setFontBold(true);` फ़ॉन्ट को बोल्ड बनाने के लिए। इसी तरह, आप उपयोग कर सकते हैं `setFontItalic(true)` इसे इटैलिक बनाने के लिए.
 
 ### मैं विशिष्ट चार्ट तत्वों के लिए फ़ॉन्ट गुण कैसे अनुकूलित करूं?
 
-विशिष्ट चार्ट तत्वों, जैसे अक्ष लेबल या लेजेंड पाठ, के लिए फ़ॉन्ट गुणों को अनुकूलित करने के लिए, आप उन तत्वों तक पहुँच सकते हैं और ऊपर दिखाए गए समान तरीकों का उपयोग करके उनके फ़ॉन्ट गुणों को सेट कर सकते हैं।
+विशिष्ट चार्ट तत्वों, जैसे अक्ष लेबल या लेजेंड टेक्स्ट, के लिए फ़ॉन्ट गुणों को अनुकूलित करने के लिए, आप उन तत्वों तक पहुँच सकते हैं और ऊपर दिखाए गए समान तरीकों का उपयोग करके उनके फ़ॉन्ट गुणों को सेट कर सकते हैं।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

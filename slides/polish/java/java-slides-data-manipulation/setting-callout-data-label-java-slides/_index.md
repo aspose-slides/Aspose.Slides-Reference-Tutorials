@@ -1,31 +1,33 @@
 ---
-title: Ustawianie objaśnienia etykiety danych w slajdach Java
-linktitle: Ustawianie objaśnienia etykiety danych w slajdach Java
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Dowiedz się, jak skonfigurować objaśnienia dla etykiet danych w Aspose.Slides dla Java. Przewodnik krok po kroku z kodem źródłowym.
-weight: 25
-url: /pl/java/data-manipulation/setting-callout-data-label-java-slides/
+"description": "Dowiedz się, jak skonfigurować wywołania dla etykiet danych w Aspose.Slides dla Java. Przewodnik krok po kroku z kodem źródłowym."
+"linktitle": "Ustawianie wywołania dla etykiety danych w slajdach Java"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Ustawianie wywołania dla etykiety danych w slajdach Java"
+"url": "/pl/java/data-manipulation/setting-callout-data-label-java-slides/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ustawianie objaśnienia etykiety danych w slajdach Java
+# Ustawianie wywołania dla etykiety danych w slajdach Java
 
 
-## Wprowadzenie do ustawiania objaśnień dla etykiety danych w Aspose.Slides dla Java
+## Wprowadzenie do ustawiania wywołania dla etykiety danych w Aspose.Slides dla Java
 
-tym samouczku pokażemy, jak skonfigurować objaśnienia etykiet danych na wykresie za pomocą Aspose.Slides dla Java. Objaśnienia mogą być przydatne do wyróżniania określonych punktów danych na wykresie. Przejdziemy przez kod krok po kroku i udostępnimy niezbędny kod źródłowy.
+W tym samouczku pokażemy, jak skonfigurować odwołania do etykiet danych na wykresie przy użyciu Aspose.Slides dla Java. Odwołania mogą być przydatne do wyróżniania określonych punktów danych na wykresie. Przeprowadzimy kod krok po kroku i podamy niezbędny kod źródłowy.
 
-## Warunki wstępne
+## Wymagania wstępne
 
-- Powinieneś mieć zainstalowany Aspose.Slides dla Java.
-- Utwórz projekt Java i dodaj do niego bibliotekę Aspose.Slides.
+- Powinieneś mieć zainstalowany Aspose.Slides for Java.
+- Utwórz projekt Java i dodaj bibliotekę Aspose.Slides do swojego projektu.
 
 ## Krok 1: Utwórz prezentację i dodaj wykres
 
- Najpierw musimy stworzyć prezentację i dodać wykres do slajdu. Pamiętaj o wymianie`"Your Document Directory"` z rzeczywistą ścieżką do katalogu dokumentów.
+Najpierw musimy utworzyć prezentację i dodać wykres do slajdu. Pamiętaj, aby zastąpić `"Your Document Directory"` z rzeczywistą ścieżką do katalogu dokumentów.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -36,7 +38,7 @@ IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, 
 
 ## Krok 2: Skonfiguruj wykres
 
-Następnie skonfigurujemy wykres, ustawiając właściwości, takie jak legenda, seria i kategorie.
+Następnie skonfigurujemy wykres poprzez ustawienie właściwości, takich jak legenda, serie i kategorie.
 
 ```java
 IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
@@ -44,7 +46,7 @@ chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 chart.setLegend(false);
 
-// Skonfiguruj serie i kategorie (Możesz dostosować liczbę serii i kategorii)
+// Konfiguruj serie i kategorie (Możesz dostosować liczbę serii i kategorii)
 int seriesIndex = 0;
 while (seriesIndex < 15) {
     IChartSeries series = chart.getChartData().getSeries().add(workBook.getCell(0, 0, seriesIndex + 1, "SERIES " + seriesIndex), chart.getType());
@@ -69,7 +71,7 @@ while (categoryIndex < 15) {
 
 ## Krok 3: Dostosuj etykiety danych
 
-Teraz dostosujemy etykiety danych, w tym skonfigurujemy objaśnienia dla ostatniej serii.
+Teraz dostosujemy etykiety danych, m.in. ustawiając odwołania do ostatniej serii.
 
 ```java
 int i = 0;
@@ -82,7 +84,7 @@ while (i < chart.getChartData().getSeries().size()) {
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
-        //Dostosuj formatowanie etykiet (czcionka, wypełnienie itp.)
+        // Dostosuj formatowanie etykiety (czcionka, wypełnienie itp.)
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
@@ -102,9 +104,9 @@ Na koniec zapisz prezentację ze skonfigurowanym wykresem.
 pres.save("chart.pptx", SaveFormat.Pptx);
 ```
 
-Teraz pomyślnie skonfigurowałeś objaśnienia etykiet danych na wykresie za pomocą Aspose.Slides for Java. Dostosuj kod zgodnie ze swoimi konkretnymi wymaganiami dotyczącymi wykresów i danych.
+Teraz udało Ci się skonfigurować wywołania dla etykiet danych na wykresie przy użyciu Aspose.Slides dla Java. Dostosuj kod zgodnie ze swoimi konkretnymi wymaganiami dotyczącymi wykresu i danych.
 
-## Kompletny kod źródłowy do ustawiania objaśnień dla etykiety danych w slajdach Java
+## Kompletny kod źródłowy do ustawiania wywołania dla etykiety danych w slajdach Java
 
 ```java
 String dataDir = "Your Document Directory";
@@ -168,9 +170,9 @@ pres.save("chart.pptx", SaveFormat.Pptx);
 
 ## Wniosek
 
-W tym samouczku omówiliśmy, jak skonfigurować objaśnienia etykiet danych na wykresie za pomocą Aspose.Slides dla Java. Objaśnienia to cenne narzędzia służące do podkreślania określonych punktów danych na wykresach i prezentacjach. Udostępniliśmy przewodnik krok po kroku wraz z kodem źródłowym, który pomoże Ci w osiągnięciu tego dostosowania.
+W tym samouczku sprawdziliśmy, jak skonfigurować odwołania do etykiet danych na wykresie przy użyciu Aspose.Slides for Java. Odwołania to cenne narzędzia do podkreślania określonych punktów danych na wykresach i prezentacjach. Udostępniliśmy przewodnik krok po kroku wraz z kodem źródłowym, aby pomóc Ci osiągnąć tę personalizację.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
 ### Jak dostosować wygląd etykiet danych?
 
@@ -187,9 +189,9 @@ lbl.getDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat().getS
 lbl.getDataLabelFormat().getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
 ```
 
-### Jak włączyć lub wyłączyć objaśnienia etykiet danych?
+### Jak mogę włączyć lub wyłączyć objaśnienia dla etykiet danych?
 
- Aby włączyć lub wyłączyć objaśnienia etykiet danych, użyj opcji`setShowLabelAsDataCallout` metoda. Ustaw to na`true` aby włączyć objaśnienia i`false`aby je wyłączyć.
+Aby włączyć lub wyłączyć objaśnienia dla etykiet danych, użyj `setShowLabelAsDataCallout` metoda. Ustaw ją na `true` aby włączyć odwołania i `false` aby je wyłączyć.
 
 ```java
 lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // Włącz objaśnienia
@@ -198,7 +200,7 @@ lbl.getDataLabelFormat().setShowLabelAsDataCallout(false); // Wyłącz objaśnie
 
 ### Czy mogę dostosować linie odniesienia dla etykiet danych?
 
-Tak, możesz dostosować linie odniesienia dla etykiet danych, korzystając z takich właściwości, jak styl linii, kolor i szerokość. Na przykład:
+Tak, możesz dostosować linie odniesienia dla etykiet danych, używając właściwości, takich jak styl linii, kolor i szerokość. Na przykład:
 
 ```java
 lbl.getDataLabelFormat().setShowLeaderLines(true); // Włącz linie odniesienia
@@ -208,10 +210,12 @@ lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFor
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.BLACK);
 ```
 
-Oto kilka typowych opcji dostosowywania etykiet danych i objaśnień w Aspose.Slides dla Java. Możesz dodatkowo dostosować wygląd do swoich konkretnych potrzeb.
+Oto kilka typowych opcji dostosowywania etykiet danych i objaśnień w Aspose.Slides dla Java. Możesz dalej dostosować wygląd do swoich konkretnych potrzeb.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

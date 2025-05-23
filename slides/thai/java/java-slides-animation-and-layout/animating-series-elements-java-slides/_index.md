@@ -1,43 +1,45 @@
 ---
-title: การสร้างภาพเคลื่อนไหวองค์ประกอบซีรีส์ใน Java Slides
-linktitle: การสร้างภาพเคลื่อนไหวองค์ประกอบซีรีส์ใน Java Slides
-second_title: Aspose.Slides Java PowerPoint การประมวลผล API
-description: เรียนรู้วิธีทำให้องค์ประกอบชุดเคลื่อนไหวในสไลด์ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนที่ครอบคลุมพร้อมซอร์สโค้ดเพื่อปรับปรุงการนำเสนอของคุณ
-weight: 12
-url: /th/java/animation-and-layout/animating-series-elements-java-slides/
+"description": "เรียนรู้วิธีสร้างภาพเคลื่อนไหวให้กับองค์ประกอบในสไลด์ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนที่ครอบคลุมนี้พร้อมโค้ดต้นฉบับเพื่อปรับปรุงการนำเสนอของคุณ"
+"linktitle": "การสร้างภาพเคลื่อนไหวให้กับองค์ประกอบซีรีส์ใน Java Slides"
+"second_title": "API การประมวลผล Java PowerPoint ของ Aspose.Slides"
+"title": "การสร้างภาพเคลื่อนไหวให้กับองค์ประกอบซีรีส์ใน Java Slides"
+"url": "/th/java/animation-and-layout/animating-series-elements-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การสร้างภาพเคลื่อนไหวองค์ประกอบซีรีส์ใน Java Slides
+# การสร้างภาพเคลื่อนไหวให้กับองค์ประกอบซีรีส์ใน Java Slides
 
 
-## ข้อมูลเบื้องต้นเกี่ยวกับการสร้างภาพเคลื่อนไหวองค์ประกอบซีรีส์ใน Java Slides
+## การแนะนำการสร้างแอนิเมชันองค์ประกอบซีรีส์ใน Java Slides
 
-ในบทช่วยสอนนี้ เราจะแนะนำคุณเกี่ยวกับการสร้างภาพเคลื่อนไหวองค์ประกอบชุดในสไลด์ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java แอนิเมชั่นสามารถทำให้การนำเสนอของคุณน่าสนใจและให้ข้อมูลมากขึ้น ในตัวอย่างนี้ เราจะเน้นที่การทำให้แผนภูมิเคลื่อนไหวในสไลด์ PowerPoint
+ในบทช่วยสอนนี้ เราจะแนะนำคุณเกี่ยวกับการสร้างภาพเคลื่อนไหวขององค์ประกอบในสไลด์ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java ภาพเคลื่อนไหวสามารถทำให้การนำเสนอของคุณน่าสนใจและให้ข้อมูลมากขึ้น ในตัวอย่างนี้ เราจะเน้นที่การสร้างภาพเคลื่อนไหวของแผนภูมิในสไลด์ PowerPoint
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่คุณจะเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
+ก่อนที่คุณจะเริ่มต้น โปรดตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
-- ติดตั้ง Aspose.Slides สำหรับไลบรารี Java แล้ว
-- งานนำเสนอ PowerPoint ที่มีอยู่พร้อมแผนภูมิที่คุณต้องการทำให้เคลื่อนไหว
-- ตั้งค่าสภาพแวดล้อมการพัฒนา Java
+- ติดตั้งไลบรารี Aspose.Slides สำหรับ Java แล้ว
+- การนำเสนอ PowerPoint ที่มีอยู่พร้อมแผนภูมิที่คุณต้องการสร้างภาพเคลื่อนไหว
+- การตั้งค่าสภาพแวดล้อมการพัฒนา Java
 
 ## ขั้นตอนที่ 1: โหลดงานนำเสนอ
 
- ขั้นแรก คุณต้องโหลดงานนำเสนอ PowerPoint ที่มีแผนภูมิที่คุณต้องการทำให้เคลื่อนไหว แทนที่`"Your Document Directory"` ด้วยเส้นทางจริงไปยังไดเร็กทอรีเอกสารของคุณ
+ขั้นแรก คุณต้องโหลดงานนำเสนอ PowerPoint ที่มีแผนภูมิที่คุณต้องการให้เคลื่อนไหว แทนที่ `"Your Document Directory"` พร้อมเส้นทางจริงไปยังไดเร็กทอรีเอกสารของคุณ
 
 ```java
 String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
-## ขั้นตอนที่ 2: รับการอ้างอิงไปยังแผนภูมิ
+## ขั้นตอนที่ 2: รับการอ้างอิงแผนภูมิ
 
-เมื่อโหลดงานนำเสนอแล้ว รับข้อมูลอ้างอิงไปยังแผนภูมิที่คุณต้องการทำให้เคลื่อนไหว ในตัวอย่างนี้ เราถือว่าแผนภูมิอยู่บนสไลด์แรก
+เมื่อโหลดงานนำเสนอเสร็จแล้ว ให้รับการอ้างอิงไปยังแผนภูมิที่คุณต้องการสร้างภาพเคลื่อนไหว ในตัวอย่างนี้ เราจะถือว่าแผนภูมิอยู่ในสไลด์แรก
 
 ```java
 ISlide slide = presentation.getSlides().get_Item(0);
@@ -45,15 +47,15 @@ IShapeCollection shapes = slide.getShapes();
 IChart chart = (IChart) shapes.get_Item(0);
 ```
 
-## ขั้นตอนที่ 3: เพิ่มเอฟเฟกต์ภาพเคลื่อนไหว
+## ขั้นตอนที่ 3: เพิ่มเอฟเฟ็กต์แอนิเมชัน
 
- ตอนนี้ มาเพิ่มเอฟเฟ็กต์ภาพเคลื่อนไหวให้กับองค์ประกอบแผนภูมิกัน เราจะใช้`slide.getTimeline().getMainSequence().addEffect()` วิธีการระบุว่าแผนภูมิควรเคลื่อนไหวอย่างไร
+ตอนนี้เรามาเพิ่มเอฟเฟ็กต์แอนิเมชันให้กับองค์ประกอบแผนภูมิกัน เราจะใช้ `slide.getTimeline().getMainSequence().addEffect()` วิธีการระบุว่าแผนภูมิควรแสดงภาพเคลื่อนไหวอย่างไร
 
 ```java
-// ทำให้แผนภูมิทั้งหมดเคลื่อนไหว
+// สร้างภาพเคลื่อนไหวให้กับแผนภูมิทั้งหมด
 slide.getTimeline().getMainSequence().addEffect(chart, EffectType.Fade, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 
-// ทำให้องค์ประกอบแต่ละชุดเคลื่อนไหว (คุณสามารถปรับแต่งส่วนนี้ได้)
+// สร้างภาพเคลื่อนไหวให้กับองค์ประกอบแต่ละชุดของซีรีส์ (คุณสามารถปรับแต่งส่วนนี้เองได้)
 for (int seriesIndex = 0; seriesIndex < chart.getChartData().getSeries().size(); seriesIndex++) {
     for (int pointIndex = 0; pointIndex < chart.getChartData().getSeries().get_Item(seriesIndex).getPoints().size(); pointIndex++) {
         ((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInSeries, seriesIndex, pointIndex, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
@@ -61,17 +63,17 @@ for (int seriesIndex = 0; seriesIndex < chart.getChartData().getSeries().size();
 }
 ```
 
-ในโค้ดด้านบน ขั้นแรกเราจะทำให้ทั้งแผนภูมิเคลื่อนไหวด้วยเอฟเฟกต์ "จางลง" จากนั้น เราวนซ้ำชุดข้อมูลและจุดต่างๆ ภายในแผนภูมิ และใช้เอฟเฟกต์ "ปรากฏ" กับแต่ละองค์ประกอบ คุณสามารถปรับแต่งประเภทภาพเคลื่อนไหวและทริกเกอร์ได้ตามต้องการ
+ในโค้ดด้านบนนี้ เราจะสร้างภาพเคลื่อนไหวให้กับแผนภูมิทั้งหมดโดยใช้เอฟเฟกต์ "Fade" ก่อน จากนั้น เราจะวนซ้ำผ่านชุดข้อมูลและจุดต่างๆ ในแผนภูมิ และใช้เอฟเฟกต์ "Appear" กับแต่ละองค์ประกอบ คุณสามารถปรับแต่งประเภทภาพเคลื่อนไหวและทริกเกอร์ได้ตามต้องการ
 
 ## ขั้นตอนที่ 4: บันทึกการนำเสนอ
 
-สุดท้าย ให้บันทึกงานนำเสนอที่แก้ไขแล้วพร้อมภาพเคลื่อนไหวลงในไฟล์ใหม่
+สุดท้าย ให้บันทึกงานนำเสนอที่ปรับเปลี่ยนพร้อมแอนิเมชันลงในไฟล์ใหม่
 
 ```java
 presentation.save(dataDir + "AnimatingSeriesElements_out.pptx", SaveFormat.Pptx);
 ```
 
-## ซอร์สโค้ดที่สมบูรณ์สำหรับการสร้างภาพเคลื่อนไหวองค์ประกอบซีรีส์ใน Java Slides
+## โค้ดต้นฉบับที่สมบูรณ์สำหรับการสร้างแอนิเมชันองค์ประกอบซีรีส์ใน Java Slides
 
 ```java
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
@@ -84,7 +86,7 @@ try
 	ISlide slide = presentation.getSlides().get_Item(0);
 	IShapeCollection shapes = slide.getShapes();
 	IChart chart = (IChart) shapes.get_Item(0);
-	// ทำให้องค์ประกอบซีรีส์เคลื่อนไหว
+	// สร้างแอนิเมชั่นองค์ประกอบซีรีส์
 	slide.getTimeline().getMainSequence().addEffect(chart, EffectType.Fade, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInSeries, 0, 0, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInSeries, 0, 1, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
@@ -98,7 +100,7 @@ try
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInSeries, 2, 1, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInSeries, 2, 2, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInSeries, 2, 3, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
-	// เขียนไฟล์การนำเสนอลงดิสก์
+	// เขียนไฟล์การนำเสนอลงดิสก์ 
 	presentation.save(dataDir + "AnimatingSeriesElements_out.pptx", SaveFormat.Pptx);
 }
 finally
@@ -109,32 +111,34 @@ finally
 
 ## บทสรุป
 
-คุณได้เรียนรู้วิธีสร้างภาพเคลื่อนไหวองค์ประกอบชุดในสไลด์ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java แอนิเมชั่นสามารถปรับปรุงการนำเสนอของคุณและทำให้พวกเขาน่าดึงดูดยิ่งขึ้น ปรับแต่งเอฟเฟ็กต์ภาพเคลื่อนไหวและทริกเกอร์ให้เหมาะกับความต้องการเฉพาะของคุณ
+คุณได้เรียนรู้วิธีการสร้างแอนิเมชั่นให้กับองค์ประกอบในสไลด์ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java แล้ว แอนิเมชั่นสามารถเพิ่มประสิทธิภาพให้กับการนำเสนอของคุณและทำให้ดูน่าสนใจยิ่งขึ้น ปรับแต่งเอฟเฟกต์แอนิเมชั่นและทริกเกอร์ให้เหมาะกับความต้องการเฉพาะของคุณ
 
 ## คำถามที่พบบ่อย
 
-### ฉันจะปรับแต่งภาพเคลื่อนไหวสำหรับองค์ประกอบแผนภูมิแต่ละรายการได้อย่างไร
+### ฉันจะปรับแต่งแอนิเมชั่นสำหรับองค์ประกอบแผนภูมิแต่ละองค์ประกอบได้อย่างไร
 
-คุณสามารถปรับแต่งภาพเคลื่อนไหวสำหรับองค์ประกอบแผนภูมิแต่ละรายการได้โดยการแก้ไขประเภทภาพเคลื่อนไหวและทริกเกอร์ในโค้ด ในตัวอย่างของเรา เราใช้เอฟเฟกต์ "ปรากฏ" แต่คุณสามารถเลือกประเภทภาพเคลื่อนไหวได้หลากหลาย เช่น "จางลง" "บินเข้า" ฯลฯ และระบุทริกเกอร์ที่แตกต่างกัน เช่น "เมื่อคลิก" "หลังจากก่อนหน้า" หรือ "กับก่อนหน้า"
+คุณสามารถปรับแต่งแอนิเมชั่นสำหรับองค์ประกอบแผนภูมิแต่ละองค์ประกอบได้โดยแก้ไขประเภทแอนิเมชั่นและทริกเกอร์ในโค้ด ในตัวอย่างของเรา เราใช้เอฟเฟกต์ "ปรากฏ" แต่คุณสามารถเลือกจากประเภทแอนิเมชั่นต่างๆ เช่น "จางลง" "บินเข้ามา" เป็นต้น และระบุทริกเกอร์ที่แตกต่างกัน เช่น "เมื่อคลิก" "หลังจากก่อนหน้า" หรือ "พร้อมกับก่อนหน้า"
 
-### ฉันสามารถนำภาพเคลื่อนไหวไปใช้กับวัตถุอื่นในสไลด์ PowerPoint ได้หรือไม่
+### ฉันสามารถใช้แอนิเมชั่นกับวัตถุอื่นในสไลด์ PowerPoint ได้หรือไม่
 
- ใช่ คุณสามารถนำภาพเคลื่อนไหวไปใช้กับวัตถุต่างๆ ในสไลด์ PowerPoint ได้ ไม่ใช่แค่แผนภูมิเท่านั้น ใช้`addEffect` วิธีการระบุวัตถุที่คุณต้องการให้เคลื่อนไหวและคุณสมบัติภาพเคลื่อนไหวที่ต้องการ
+ใช่ คุณสามารถใช้แอนิเมชั่นกับวัตถุต่างๆ ในสไลด์ PowerPoint ได้ ไม่ใช่แค่แผนภูมิเท่านั้น ใช้ `addEffect` วิธีการระบุวัตถุที่คุณต้องการสร้างภาพเคลื่อนไหวและคุณสมบัติภาพเคลื่อนไหวที่ต้องการ
 
 ### ฉันจะรวม Aspose.Slides สำหรับ Java เข้ากับโปรเจ็กต์ของฉันได้อย่างไร
 
-หากต้องการรวม Aspose.Slides สำหรับ Java เข้ากับโปรเจ็กต์ของคุณ คุณต้องรวมไลบรารีไว้ในพาธบิวด์ของคุณหรือใช้เครื่องมือการจัดการการพึ่งพาเช่น Maven หรือ Gradle โปรดดูเอกสารประกอบของ Aspose.Slides สำหรับคำแนะนำในการผสานรวมโดยละเอียด
+หากต้องการรวม Aspose.Slides สำหรับ Java เข้ากับโปรเจ็กต์ของคุณ คุณต้องรวมไลบรารีไว้ในเส้นทางการสร้างของคุณหรือใช้เครื่องมือการจัดการการอ้างอิง เช่น Maven หรือ Gradle โปรดดูคำแนะนำในการรวมโดยละเอียดในเอกสาร Aspose.Slides
 
-### มีวิธีดูตัวอย่างภาพเคลื่อนไหวในแอปพลิเคชัน PowerPoint หรือไม่?
+### มีวิธีดูตัวอย่างแอนิเมชั่นในแอพพลิเคชัน PowerPoint หรือไม่
 
-ได้ หลังจากบันทึกงานนำเสนอแล้ว คุณสามารถเปิดในแอปพลิเคชัน PowerPoint เพื่อดูตัวอย่างภาพเคลื่อนไหวและทำการปรับเปลี่ยนเพิ่มเติมได้หากจำเป็น PowerPoint มีโหมดแสดงตัวอย่างเพื่อจุดประสงค์นี้
+ใช่ หลังจากบันทึกการนำเสนอแล้ว คุณสามารถเปิดในแอปพลิเคชัน PowerPoint เพื่อดูตัวอย่างแอนิเมชันและปรับแต่งเพิ่มเติมหากจำเป็น PowerPoint มีโหมดดูตัวอย่างสำหรับจุดประสงค์นี้
 
-### มีตัวเลือกภาพเคลื่อนไหวขั้นสูงเพิ่มเติมใน Aspose.Slides สำหรับ Java หรือไม่
+### มีตัวเลือกแอนิเมชันขั้นสูงเพิ่มเติมใน Aspose.Slides สำหรับ Java หรือไม่
 
-ใช่ Aspose.Slides สำหรับ Java มีตัวเลือกภาพเคลื่อนไหวขั้นสูงมากมาย รวมถึงเส้นทางการเคลื่อนไหว การกำหนดเวลา และภาพเคลื่อนไหวแบบโต้ตอบ คุณสามารถสำรวจเอกสารและตัวอย่างที่ Aspose.Slides จัดเตรียมไว้ให้เพื่อใช้ภาพเคลื่อนไหวขั้นสูงในการนำเสนอของคุณ
+ใช่ Aspose.Slides สำหรับ Java นำเสนอตัวเลือกแอนิเมชันขั้นสูงมากมาย รวมถึงเส้นทางการเคลื่อนไหว การกำหนดเวลา และแอนิเมชันแบบโต้ตอบ คุณสามารถสำรวจเอกสารประกอบและตัวอย่างที่ Aspose.Slides จัดเตรียมไว้เพื่อนำแอนิเมชันขั้นสูงไปใช้กับงานนำเสนอของคุณได้
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

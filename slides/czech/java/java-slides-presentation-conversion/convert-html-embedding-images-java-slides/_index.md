@@ -1,36 +1,38 @@
 ---
-title: Převeďte vložené obrázky HTML do snímků Java
-linktitle: Převeďte vložené obrázky HTML do snímků Java
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Převeďte PowerPoint do HTML s vloženými obrázky. Průvodce krok za krokem pomocí Aspose.Slides pro Java. Naučte se bez námahy automatizovat převody prezentací v Javě.
-weight: 11
-url: /cs/java/presentation-conversion/convert-html-embedding-images-java-slides/
+"description": "Převod PowerPointu do HTML s vloženými obrázky. Podrobný návod k použití Aspose.Slides pro Javu. Naučte se bez námahy automatizovat převody prezentací v Javě."
+"linktitle": "Převod HTML a vkládání obrázků do Java Slides"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Převod HTML a vkládání obrázků do Java Slides"
+"url": "/cs/java/presentation-conversion/convert-html-embedding-images-java-slides/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Převeďte vložené obrázky HTML do snímků Java
+# Převod HTML a vkládání obrázků do Java Slides
 
 
-## Úvod do převodu HTML vkládání obrázků do Java Slides
+## Úvod do převodu HTML a vkládání obrázků do Java Slides
 
-V tomto podrobném průvodci vás provedeme procesem převodu prezentace PowerPoint na dokument HTML při vkládání obrázků pomocí Aspose.Slides for Java. Tento tutoriál předpokládá, že jste již nastavili vývojové prostředí a máte nainstalovanou knihovnu Aspose.Slides for Java.
+V tomto podrobném návodu vás provedeme procesem převodu prezentace v PowerPointu do dokumentu HTML s vkládáním obrázků pomocí knihovny Aspose.Slides for Java. Tento tutoriál předpokládá, že jste již nastavili vývojové prostředí a máte nainstalovanou knihovnu Aspose.Slides for Java.
 
 ## Požadavky
 
 Než začneme, ujistěte se, že máte následující:
 
-1.  Nainstalovaná knihovna Aspose.Slides for Java. Můžete si jej stáhnout z[tady](https://downloads.aspose.com/slides/java).
+1. Je nainstalována knihovna Aspose.Slides pro Javu. Můžete si ji stáhnout z [zde](https://downloads.aspose.com/slides/java).
 
-2. Soubor prezentace PowerPoint (formát PPTX), který chcete převést do HTML.
+2. Soubor prezentace PowerPoint (formát PPTX), který chcete převést do formátu HTML.
 
-3. Nastaveno vývojové prostředí Java.
+3. Nastavení vývojového prostředí v Javě.
 
 ## Krok 1: Importujte požadované knihovny
 
-Nejprve musíte importovat potřebné knihovny a třídy pro váš projekt Java.
+Nejprve je potřeba importovat potřebné knihovny a třídy pro váš projekt v Javě.
 
 ```java
 import com.aspose.slides.Html5Options;
@@ -39,30 +41,30 @@ import com.aspose.slides.SaveFormat;
 import java.io.File;
 ```
 
-## Krok 2: Načtěte prezentaci PowerPoint
+## Krok 2: Načtěte prezentaci v PowerPointu
 
- Dále načtete prezentaci PowerPoint, kterou chcete převést do HTML. Nezapomeňte vyměnit`presentationName` se skutečnou cestou k souboru vaší prezentace.
+Dále načtete prezentaci PowerPointu, kterou chcete převést do formátu HTML. Nezapomeňte nahradit `presentationName` se skutečnou cestou k souboru prezentace.
 
 ```java
 String presentationName = "path/to/your/presentation.pptx";
 Presentation pres = new Presentation(presentationName);
 ```
 
-## Krok 3: Nakonfigurujte možnosti převodu HTML
+## Krok 3: Konfigurace možností převodu HTML
 
 Nyní nakonfigurujete možnosti převodu HTML. V tomto příkladu vložíme obrázky do dokumentu HTML a určíme výstupní adresář pro externí obrázky.
 
 ```java
 Html5Options options = new Html5Options();
 // Vynutit neukládání obrázků v dokumentu HTML5
-options.setEmbedImages(true); // Chcete-li vkládat obrázky, nastavte na hodnotu true
-//Nastavte cestu pro externí obrázky (v případě potřeby)
+options.setEmbedImages(true); // Pro vložení obrázků nastavte na hodnotu true.
+// Nastavení cesty pro externí obrázky (pokud je to potřeba)
 options.setOutputPath("path/to/output/directory/");
 ```
 
 ## Krok 4: Vytvořte výstupní adresář
 
-Před uložením dokumentu HTML vytvořte výstupní adresář, pokud neexistuje.
+Před uložením HTML dokumentu vytvořte výstupní adresář, pokud neexistuje.
 
 ```java
 File outputDirectory = new File(options.getOutputPath());
@@ -71,7 +73,7 @@ if (!outputDirectory.exists()) {
 }
 ```
 
-## Krok 5: Uložte prezentaci jako HTML
+## Krok 5: Uložení prezentace jako HTML
 
 Nyní uložte prezentaci ve formátu HTML5 se zadanými možnostmi.
 
@@ -79,9 +81,9 @@ Nyní uložte prezentaci ve formátu HTML5 se zadanými možnostmi.
 pres.save(options.getOutputPath() + "output.html", SaveFormat.Html5, options);
 ```
 
-## Krok 6: Vyčistěte zdroje
+## Krok 6: Vyčištění zdrojů
 
-Nezapomeňte zlikvidovat objekt Prezentace, abyste uvolnili všechny přidělené zdroje.
+Nezapomeňte zrušit objekt Presentation, abyste uvolnili všechny alokované prostředky.
 
 ```java
 if (pres != null) {
@@ -89,7 +91,7 @@ if (pres != null) {
 }
 ```
 
-## Kompletní zdrojový kód pro převod obrázků HTML Embedding v Java Slides
+## Kompletní zdrojový kód pro převod HTML a vkládání obrázků do Java Slides
 
 ```java
 // Cesta ke zdrojové prezentaci
@@ -101,9 +103,9 @@ try {
 	Html5Options options = new Html5Options();
 	// Vynutit neukládání obrázků v dokumentu HTML5
 	options.setEmbedImages(false);
-	// Nastavit cestu pro externí obrázky
+	// Nastavení cesty pro externí obrázky
 	options.setOutputPath(outFilePath);
-	// Vytvořte adresář pro výstupní HTML dokument
+	// Vytvořit adresář pro výstupní HTML dokument
 	File f = new File(outFilePath);
 	if (!f.exists())
 		f.mkdir();
@@ -116,25 +118,27 @@ try {
 
 ## Závěr
 
-V tomto komplexním průvodci jsme se naučili, jak převést prezentaci v PowerPointu na dokument HTML při vkládání obrázků pomocí Aspose.Slides for Java. Dodržováním pokynů krok za krokem můžete tuto funkci bez problémů integrovat do svých aplikací Java a zlepšit procesy převodu dokumentů.
+V tomto komplexním průvodci jsme se naučili, jak převést prezentaci v PowerPointu do dokumentu HTML s vkládáním obrázků pomocí Aspose.Slides pro Javu. Dodržováním podrobných pokynů můžete tuto funkci bezproblémově integrovat do svých aplikací v Javě a vylepšit procesy převodu dokumentů.
 
-## FAQ
+## Často kladené otázky
 
-### Jak změním výstupní název souboru?
+### Jak změním název výstupního souboru?
 
- Výstupní název souboru můžete změnit úpravou argumentu v`pres.save()` metoda.
+Název výstupního souboru můžete změnit úpravou argumentu v `pres.save()` metoda.
 
-### Mohu přizpůsobit šablonu HTML?
+### Mohu si přizpůsobit HTML šablonu?
 
-Ano, šablonu HTML můžete přizpůsobit úpravou souborů HTML a CSS generovaných Aspose.Slides. Najdete je ve výstupním adresáři.
+Ano, šablonu HTML si můžete přizpůsobit úpravou souborů HTML a CSS vygenerovaných souborem Aspose.Slides. Najdete je ve výstupním adresáři.
 
-### Jak se vypořádám s chybami během převodu?
+### Jak mám řešit chyby během konverze?
 
-Konverzní kód můžete zabalit do bloku try-catch, abyste zvládli výjimky, které mohou nastat během procesu převodu.
+Kód převodu můžete zabalit do bloku try-catch pro zpracování výjimek, které mohou nastat během procesu převodu.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

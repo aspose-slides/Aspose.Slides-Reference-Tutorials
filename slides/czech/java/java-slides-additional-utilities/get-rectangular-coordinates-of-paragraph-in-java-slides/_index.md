@@ -1,53 +1,55 @@
 ---
-title: Získejte obdélníkové souřadnice odstavce v Java Slides
-linktitle: Získejte obdélníkové souřadnice odstavce v Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Naučte se, jak načíst souřadnice odstavce v prezentacích PowerPoint pomocí Aspose.Slides for Java. Postupujte podle našeho podrobného průvodce se zdrojovým kódem pro přesné umístění.
-weight: 13
-url: /cs/java/additional-utilities/get-rectangular-coordinates-of-paragraph-in-java-slides/
+"description": "Naučte se, jak načíst souřadnice odstavců v prezentacích PowerPointu pomocí Aspose.Slides pro Javu. Pro přesné umístění postupujte podle našeho podrobného návodu se zdrojovým kódem."
+"linktitle": "Získejte obdélníkové souřadnice odstavce v Java Slides"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Získejte obdélníkové souřadnice odstavce v Java Slides"
+"url": "/cs/java/additional-utilities/get-rectangular-coordinates-of-paragraph-in-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Získejte obdélníkové souřadnice odstavce v Java Slides
 
 
-## Úvod do získávání pravoúhlých souřadnic odstavce v Aspose.Slides pro Javu
+## Úvod do načítání obdélníkových souřadnic odstavce v Aspose.Slides pro Javu
 
-V tomto tutoriálu si ukážeme, jak načíst pravoúhlé souřadnice odstavce v prezentaci PowerPoint pomocí Aspose.Slides for Java API. Pomocí následujících kroků můžete programově získat polohu a rozměry odstavce na snímku.
+tomto tutoriálu si ukážeme, jak načíst obdélníkové souřadnice odstavce v prezentaci PowerPoint pomocí rozhraní Aspose.Slides pro Java API. Pomocí níže uvedených kroků můžete programově získat pozici a rozměry odstavce v rámci snímku.
 
 ## Předpoklady
 
- Než začneme, ujistěte se, že máte knihovnu Aspose.Slides for Java nainstalovanou a nastavenou ve vývojovém prostředí Java. Můžete si jej stáhnout z[tady](https://downloads.aspose.com/slides/java).
+Než začneme, ujistěte se, že máte ve svém vývojovém prostředí Java nainstalovanou a nastavenou knihovnu Aspose.Slides pro Javu. Můžete si ji stáhnout z [zde](https://downloads.aspose.com/slides/java).
 
 ## Krok 1: Importujte potřebné knihovny
 
-Chcete-li začít, importujte požadované knihovny pro práci s Aspose.Slides ve vašem projektu Java:
+Chcete-li začít, importujte potřebné knihovny pro práci s Aspose.Slides do svého projektu Java:
 
 ```java
 import com.aspose.slides.*;
 import java.awt.geom.Rectangle2D;
 ```
 
-## Krok 2: Načtěte prezentaci
+## Krok 2: Načtení prezentace
 
-V tomto kroku načteme prezentaci PowerPoint, která obsahuje odstavec, jehož souřadnice chceme načíst.
+V tomto kroku načteme prezentaci PowerPointu, která obsahuje odstavec, jehož souřadnice chceme načíst.
 
 ```java
-// Cesta k souboru prezentace PowerPoint
+// Cesta k souboru prezentace v PowerPointu
 String presentationPath = "YourPresentation.pptx";
 
-// Načtěte prezentaci
+// Načíst prezentaci
 Presentation presentation = new Presentation(presentationPath);
 ```
 
- Nezapomeňte vyměnit`"YourPresentation.pptx"` se skutečnou cestou k souboru PowerPoint.
+Nezapomeňte vyměnit `"YourPresentation.pptx"` se skutečnou cestou k vašemu souboru PowerPointu.
 
-## Krok 3: Načtěte souřadnice odstavce
+## Krok 3: Načtení souřadnic odstavce
 
-Nyní přistoupíme ke konkrétnímu odstavci na snímku, extrahujeme jeho pravoúhlé souřadnice a vytiskneme výsledky.
+Nyní si na snímku prohlédneme konkrétní odstavec, extrahujeme jeho obdélníkové souřadnice a vypíšeme výsledky.
 
 ```java
 try {
@@ -63,12 +65,12 @@ finally
 }
 ```
 
-## Kompletní zdrojový kód pro získání pravoúhlých souřadnic odstavce v Java Slides
+## Kompletní zdrojový kód pro získání obdélníkových souřadnic odstavce v Javě Slides
 
 ```java
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 String dataDir = "Your Document Directory";
-// Vytvořte instanci objektu Presentation, který představuje soubor prezentace
+// Vytvoření instance objektu Presentation, který představuje soubor prezentace.
 Presentation presentation = new Presentation(dataDir + "Shapes.pptx");
 try
 {
@@ -82,45 +84,47 @@ finally
 }
 ```
 
-Tento fragment kódu načte obdélníkové souřadnice (X, Y, Šířka a Výška) prvního odstavce v rámci prvního tvaru prvního snímku. Indexy můžete upravit, abyste získali přístup k odstavcům v různých tvarech nebo snímcích podle potřeby.
+Tento úryvek kódu načte obdélníkové souřadnice (X, Y, šířka a výška) prvního odstavce v prvním tvaru prvního snímku. Indexy můžete podle potřeby upravit pro přístup k odstavcům v různých tvarech nebo snímcích.
 
 ## Závěr
 
-tomto tutoriálu jste se naučili používat Aspose.Slides pro Java k načtení pravoúhlých souřadnic odstavce v prezentaci PowerPoint. To může být užitečné, když potřebujete programově analyzovat nebo manipulovat s pozicí a rozměry textu na snímcích.
+V tomto tutoriálu jste se naučili, jak pomocí Aspose.Slides pro Javu načíst obdélníkové souřadnice odstavce v prezentaci PowerPoint. To může být užitečné, když potřebujete programově analyzovat nebo manipulovat s polohou a rozměry textu ve slidech.
 
-## FAQ
+## Často kladené otázky
 
-### Jak získám přístup k odstavcům na snímku aplikace PowerPoint?
+### Jak mohu přistupovat k odstavcům v rámci snímku v PowerPointu?
 
-Chcete-li získat přístup k odstavcům na snímku aplikace PowerPoint pomocí Aspose.Slides for Java, postupujte takto:
-1. Načtěte prezentaci PowerPoint.
-2.  Získejte požadovaný snímek pomocí`presentation.getSlides().get_Item(slideIndex)`.
-3.  Přístup k tvaru obsahujícímu text pomocí`slide.getShapes().get_Item(shapeIndex)`.
-4.  Načtěte textový rámeček tvaru pomocí`shape.getTextFrame()`.
-5.  Přístup k odstavcům v rámci textového rámečku pomocí`textFrame.getParagraphs().get_Item(paragraphIndex)`.
+Chcete-li přistupovat k odstavcům v rámci snímku aplikace PowerPoint pomocí nástroje Aspose.Slides pro Javu, postupujte takto:
+1. Načtěte prezentaci v PowerPointu.
+2. Získejte požadovaný snímek pomocí `presentation.getSlides().get_Item(slideIndex)`.
+3. Přístup k tvaru obsahujícímu text pomocí `slide.getShapes().get_Item(shapeIndex)`.
+4. Načíst textový rámeček tvaru pomocí `shape.getTextFrame()`.
+5. Přístup k odstavcům v textovém rámečku pomocí `textFrame.getParagraphs().get_Item(paragraphIndex)`.
 
-### Mohu získat souřadnice pro odstavce ve více snímcích?
+### Mohu načíst souřadnice odstavců ve více snímcích?
 
-Ano, souřadnice pro odstavce ve více snímcích můžete získat iterací mezi snímky a obrazci podle potřeby. Jednoduše opakujte proces přístupu k odstavcům ve tvaru každého snímku, abyste získali jejich souřadnice.
+Ano, souřadnice odstavců ve více snímcích můžete získat iterací mezi snímky a tvary podle potřeby. Jednoduše opakujte proces přístupu k odstavcům v rámci tvaru každého snímku, abyste získali jejich souřadnice.
 
-### Jak mohu programově manipulovat se souřadnicemi odstavce?
+### Jak programově manipuluji se souřadnicemi odstavce?
 
-Jakmile získáte souřadnice odstavce, můžete tyto informace použít k programové manipulaci s pozicí a rozměry odstavce. Můžete například přemístit odstavec, upravit jeho šířku nebo výšku nebo provádět výpočty na základě jeho souřadnic.
+Jakmile načtete souřadnice odstavce, můžete tyto informace použít k programově manipulaci s polohou a rozměry odstavce. Můžete například změnit polohu odstavce, upravit jeho šířku nebo výšku nebo provádět výpočty na základě jeho souřadnic.
 
 ### Je Aspose.Slides vhodný pro dávkové zpracování souborů PowerPoint?
 
-Ano, Aspose.Slides for Java se dobře hodí pro dávkové zpracování souborů PowerPoint. Úlohy, jako je extrahování dat, úprava obsahu nebo generování sestav z více prezentací PowerPoint, můžete efektivně automatizovat.
+Ano, Aspose.Slides pro Javu je vhodný pro dávkové zpracování souborů PowerPoint. Můžete efektivně automatizovat úkoly, jako je extrakce dat, úprava obsahu nebo generování sestav z více prezentací PowerPoint.
 
 ### Kde najdu další příklady a dokumentaci?
 
- Více příkladů kódu a podrobnou dokumentaci k Aspose.Slides pro Java můžete najít na[Dokumentace Aspose.Slides](https://reference.aspose.com/slides/java/) webová stránka. Kromě toho můžete prozkoumat[Aspose.Slides fóra](https://forum.aspose.com/c/slides) za podporu komunity a diskuze.
+Další příklady kódu a podrobnou dokumentaci k Aspose.Slides pro Javu naleznete na [Dokumentace k Aspose.Slides](https://reference.aspose.com/slides/java/) webové stránky. Kromě toho si můžete prohlédnout [Fóra Aspose.Slides](https://forum.aspose.com/c/slides) pro podporu a diskuze v komunitě.
 
-### Potřebuji licenci k používání Aspose.Slides for Java?
+### Potřebuji licenci k používání Aspose.Slides pro Javu?
 
-Ano, k používání Aspose.Slides for Java v produkčním prostředí obvykle potřebujete platnou licenci. Licenci můžete získat z webu Aspose. Mohou však nabízet zkušební verzi pro účely testování a hodnocení.
+Ano, k používání Aspose.Slides pro Javu v produkčním prostředí obvykle potřebujete platnou licenci. Licenci můžete získat na webových stránkách Aspose. Mohou však nabízet zkušební verzi pro účely testování a vyhodnocení.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

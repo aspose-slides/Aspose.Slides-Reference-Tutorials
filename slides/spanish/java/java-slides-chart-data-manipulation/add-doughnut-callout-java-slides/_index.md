@@ -1,40 +1,42 @@
 ---
-title: Agregar texto de donut en diapositivas de Java
-linktitle: Agregar texto de donut en diapositivas de Java
-second_title: Aspose.Slides API de procesamiento de PowerPoint Java
-description: Aprenda a agregar notas de donut en diapositivas de Java usando Aspose.Slides para Java. Guía paso a paso con código fuente para presentaciones mejoradas.
-weight: 12
-url: /es/java/chart-data-manipulation/add-doughnut-callout-java-slides/
+"description": "Aprenda a añadir llamadas de dona en presentaciones de Java con Aspose.Slides para Java. Guía paso a paso con código fuente para mejorar sus presentaciones."
+"linktitle": "Agregar llamada de dona en diapositivas de Java"
+"second_title": "API de procesamiento de PowerPoint en Java de Aspose.Slides"
+"title": "Agregar llamada de dona en diapositivas de Java"
+"url": "/es/java/chart-data-manipulation/add-doughnut-callout-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Agregar texto de donut en diapositivas de Java
+# Agregar llamada de dona en diapositivas de Java
 
 
-## Introducción a agregar una leyenda de donut en diapositivas de Java usando Aspose.Slides para Java
+## Introducción a la adición de una llamada de dona en diapositivas de Java con Aspose.Slides para Java
 
-En este tutorial, lo guiaremos a través del proceso de agregar un Donut Callout a una diapositiva en Java usando Aspose.Slides para Java. Un Donut Callout es un elemento de gráfico que se puede utilizar para resaltar puntos de datos específicos en un gráfico de Donut. Le proporcionaremos instrucciones paso a paso y el código fuente completo para su comodidad.
+En este tutorial, le guiaremos a través del proceso de agregar un Llamado de Anillo a una diapositiva en Java usando Aspose.Slides para Java. Un Llamado de Anillo es un elemento gráfico que permite resaltar puntos de datos específicos en un gráfico de anillos. Le proporcionaremos instrucciones paso a paso y el código fuente completo para su comodidad.
 
-## Requisitos previos
+## Prerrequisitos
 
-Antes de comenzar, asegúrese de cumplir con los siguientes requisitos previos:
+Antes de comenzar, asegúrese de tener los siguientes requisitos previos:
 
-1. Entorno de desarrollo Java
+1. Entorno de desarrollo de Java
 2. Biblioteca Aspose.Slides para Java
 3. Entorno de desarrollo integrado (IDE) como Eclipse o IntelliJ IDEA
-4. Una presentación de PowerPoint donde desea agregar el Donut Callout
+4. Una presentación de PowerPoint en la que desea agregar el llamado Donut
 
-## Paso 1: configura tu proyecto Java
+## Paso 1: Configura tu proyecto Java
 
-1. Cree un nuevo proyecto Java en el IDE elegido.
+1. Crea un nuevo proyecto Java en el IDE elegido.
 2. Agregue la biblioteca Aspose.Slides para Java a su proyecto como una dependencia.
 
-## Paso 2: Inicialice la presentación
+## Paso 2: Inicializar la presentación
 
-Para comenzar, deberá inicializar una presentación de PowerPoint y crear una diapositiva donde desee agregar el Donut Callout. Aquí está el código para lograr esto:
+Para empezar, deberá inicializar una presentación de PowerPoint y crear una diapositiva donde desee agregar el texto destacado de dona. Aquí está el código para lograrlo:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -42,19 +44,19 @@ Presentation pres = new Presentation(dataDir + "testc.pptx");
 ISlide slide = pres.getSlides().get_Item(0);
 ```
 
- Asegúrate de reemplazar`"Your Document Directory"` con la ruta real a su archivo de presentación de PowerPoint.
+Asegúrese de reemplazar `"Your Document Directory"` con la ruta real a su archivo de presentación de PowerPoint.
 
-## Paso 3: crea un gráfico de anillos
+## Paso 3: Crea un gráfico de anillos
 
-A continuación, creará un gráfico de anillos en la diapositiva. Puede personalizar la posición y el tamaño del gráfico según sus requisitos. Aquí está el código para agregar un gráfico de anillos:
+A continuación, creará un gráfico de anillos en la diapositiva. Puede personalizar la posición y el tamaño del gráfico según sus necesidades. Aquí está el código para agregar un gráfico de anillos:
 
 ```java
 IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, false);
 ```
 
-## Paso 4: personaliza el gráfico de anillos
+## Paso 4: Personaliza el gráfico de anillos
 
-Ahora es el momento de personalizar el gráfico de anillos. Estableceremos varias propiedades, como eliminar la leyenda, configurar el tamaño del agujero y ajustar el ángulo del primer corte. Aquí está el código:
+Ahora es momento de personalizar el gráfico de anillos. Configuraremos varias propiedades, como eliminar la leyenda, configurar el tamaño del agujero y ajustar el ángulo del primer corte. Aquí está el código:
 
 ```java
 IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
@@ -71,11 +73,11 @@ while (seriesIndex < 15) {
 }
 ```
 
-Este fragmento de código establece las propiedades del gráfico de anillos. Puede ajustar los valores para satisfacer sus necesidades específicas.
+Este fragmento de código define las propiedades del gráfico de anillos. Puede ajustar los valores según sus necesidades.
 
-## Paso 5: agregar datos al gráfico de anillos
+## Paso 5: Agregar datos al gráfico de anillos
 
-Ahora, agreguemos datos al gráfico de anillos. También personalizaremos la apariencia de los puntos de datos. Aquí está el código para lograr esto:
+Ahora, agreguemos datos al gráfico de anillos. También personalizaremos la apariencia de los puntos de datos. Aquí está el código para lograrlo:
 
 ```java
 int categoryIndex = 0;
@@ -95,19 +97,19 @@ while (categoryIndex < 15) {
 
 En este código, agregamos categorías y puntos de datos al gráfico de anillos. Puede personalizar aún más la apariencia de los puntos de datos según sea necesario.
 
-## Paso 6: guarde la presentación
+## Paso 6: Guardar la presentación
 
-Finalmente, no olvide guardar su presentación después de agregar el Donut Callout. Aquí está el código para guardar la presentación:
+Por último, no olvides guardar la presentación después de añadir el texto de dona. Aquí tienes el código para guardarla:
 
 ```java
 pres.save(dataDir + "chart.pptx", SaveFormat.Pptx);
 ```
 
- Asegúrate de reemplazar`"chart.pptx"` con el nombre de archivo que desee.
+Asegúrese de reemplazar `"chart.pptx"` con el nombre de archivo deseado.
 
-¡Felicidades! Ha agregado con éxito un Donut Callout a una diapositiva de Java usando Aspose.Slides para Java. Ahora puede ejecutar su aplicación Java para generar la presentación de PowerPoint con el gráfico de anillos y la llamada.
+¡Felicitaciones! Ha agregado correctamente un gráfico de anillo a una diapositiva de Java con Aspose.Slides para Java. Ahora puede ejecutar su aplicación Java para generar la presentación de PowerPoint con el gráfico de anillo y el gráfico de anillo.
 
-## Código fuente completo para agregar texto de donut en diapositivas de Java
+## Código fuente completo para añadir una llamada de donut en diapositivas de Java
 
 ```java
 String dataDir = "Your Document Directory";
@@ -155,7 +157,7 @@ while (categoryIndex < 15)
 			lbl.getDataLabelFormat().setShowValue(false);
 			lbl.getDataLabelFormat().setShowCategoryName(true);
 			lbl.getDataLabelFormat().setShowSeriesName(false);
-			//lbl.getDataLabelFormat().setShowLabelAsDataCallout(true);
+			//lbl.getDataLabelFormat().setShowLabelAsDataCallout(verdadero);
 			lbl.getDataLabelFormat().setShowLeaderLines(true);
 			lbl.getDataLabelFormat().setShowLabelAsDataCallout(false);
 			chart.validateChartLayout();
@@ -171,24 +173,26 @@ pres.save(dataDir + "chart.pptx", SaveFormat.Pptx);
 
 ## Conclusión
 
-En este tutorial, cubrimos el proceso de agregar un Donut Callout a una diapositiva de Java usando Aspose.Slides para Java. Ha aprendido a crear un gráfico de anillos, personalizar su apariencia y agregar puntos de datos. No dude en mejorar aún más sus presentaciones con esta poderosa biblioteca y explorar más opciones de gráficos.
+En este tutorial, hemos explicado cómo añadir un gráfico de anillo a una diapositiva de Java con Aspose.Slides para Java. Ha aprendido a crear un gráfico de anillo, personalizar su apariencia y añadir puntos de datos. Siéntase libre de mejorar sus presentaciones con esta potente biblioteca y explorar más opciones de gráficos.
 
 ## Preguntas frecuentes
 
-### ¿Cómo puedo cambiar la apariencia del Donut Callout?
+### ¿Cómo puedo cambiar la apariencia del cuadro de diálogo Donut?
 
-Puede personalizar la apariencia de Donut Callout modificando las propiedades de los puntos de datos en el gráfico. En el código proporcionado, puede ver cómo configurar el color de relleno, el color de línea, el estilo de fuente y otros atributos de los puntos de datos.
+Puede personalizar la apariencia de la llamada de anillo modificando las propiedades de los puntos de datos en el gráfico. En el código proporcionado, puede ver cómo configurar el color de relleno, el color de línea, el estilo de fuente y otros atributos de los puntos de datos.
 
 ### ¿Puedo agregar más puntos de datos al gráfico de anillos?
 
-Sí, puede agregar tantos puntos de datos como necesite al gráfico de anillos. Simplemente extienda los bucles en el código donde se agregan categorías y puntos de datos y proporcione los datos y el formato adecuados.
+Sí, puede agregar tantos puntos de datos como necesite al gráfico de anillos. Simplemente extienda los bucles en el código donde se agregan las categorías y los puntos de datos, y proporcione los datos y el formato adecuados.
 
 ### ¿Cómo puedo ajustar la posición y el tamaño del gráfico de anillos en la diapositiva?
 
- Puede cambiar la posición y el tamaño del gráfico de anillos modificando los parámetros en el`addChart` método. Los cuatro números de ese método corresponden a las coordenadas X e Y de la esquina superior izquierda del gráfico y su ancho y alto, respectivamente.
+Puede cambiar la posición y el tamaño del gráfico de anillos modificando los parámetros en el `addChart` método. Los cuatro números de ese método corresponden a las coordenadas X e Y de la esquina superior izquierda del gráfico y a su ancho y alto, respectivamente.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,40 +1,42 @@
 ---
-title: Donut-toelichting toevoegen aan Java-dia's
-linktitle: Donut-toelichting toevoegen aan Java-dia's
-second_title: Aspose.Slides Java PowerPoint-verwerkings-API
-description: Leer hoe u donut-toelichtingen toevoegt aan Java-dia's met behulp van Aspose.Slides voor Java. Stapsgewijze handleiding met broncode voor verbeterde presentaties.
-weight: 12
-url: /nl/java/chart-data-manipulation/add-doughnut-callout-java-slides/
+"description": "Leer hoe je donut-callouts toevoegt aan Java-dia's met Aspose.Slides voor Java. Stapsgewijze handleiding met broncode voor verbeterde presentaties."
+"linktitle": "Voeg een donut-callout toe aan Java-dia's"
+"second_title": "Aspose.Slides Java PowerPoint-verwerkings-API"
+"title": "Voeg een donut-callout toe aan Java-dia's"
+"url": "/nl/java/chart-data-manipulation/add-doughnut-callout-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Donut-toelichting toevoegen aan Java-dia's
+# Voeg een donut-callout toe aan Java-dia's
 
 
-## Inleiding tot het toevoegen van een donut-toelichting in Java-dia's met behulp van Aspose.Slides voor Java
+## Inleiding tot het toevoegen van een donut-callout in Java-dia's met Aspose.Slides voor Java
 
-In deze zelfstudie begeleiden we u bij het toevoegen van een Donut Callout aan een dia in Java met behulp van Aspose.Slides voor Java. Een ringdiagram is een diagramelement dat kan worden gebruikt om specifieke gegevenspunten in een ringdiagram te markeren. Wij zullen u voor uw gemak voorzien van stapsgewijze instructies en de volledige broncode.
+In deze tutorial laten we je zien hoe je een donut-callout aan een dia toevoegt in Java met behulp van Aspose.Slides voor Java. Een donut-callout is een grafiekelement dat gebruikt kan worden om specifieke datapunten in een donutdiagram te markeren. We geven je stapsgewijze instructies en de volledige broncode voor je gemak.
 
 ## Vereisten
 
-Voordat u begint, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+Voordat u begint, moet u ervoor zorgen dat aan de volgende vereisten is voldaan:
 
 1. Java-ontwikkelomgeving
 2. Aspose.Slides voor Java-bibliotheek
-3. Integrated Development Environment (IDE) zoals Eclipse of IntelliJ IDEA
-4. Een PowerPoint-presentatie waaraan u de Donut Callout wilt toevoegen
+3. Geïntegreerde ontwikkelomgeving (IDE) zoals Eclipse of IntelliJ IDEA
+4. Een PowerPoint-presentatie waaraan u de donut-toelichting wilt toevoegen
 
 ## Stap 1: Stel uw Java-project in
 
-1. Maak een nieuw Java-project in de door u gekozen IDE.
+1. Maak een nieuw Java-project in de IDE van uw keuze.
 2. Voeg de Aspose.Slides voor Java-bibliotheek als afhankelijkheid toe aan uw project.
 
 ## Stap 2: Initialiseer de presentatie
 
-Om aan de slag te gaan, moet u een PowerPoint-presentatie initialiseren en een dia maken waaraan u de Donut Callout wilt toevoegen. Hier is de code om dit te bereiken:
+Om te beginnen moet je een PowerPoint-presentatie initialiseren en een dia maken waaraan je de donut-toelichting wilt toevoegen. Hier is de code om dit te bereiken:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -42,11 +44,11 @@ Presentation pres = new Presentation(dataDir + "testc.pptx");
 ISlide slide = pres.getSlides().get_Item(0);
 ```
 
- Zorg ervoor dat u vervangt`"Your Document Directory"` met het daadwerkelijke pad naar uw PowerPoint-presentatiebestand.
+Zorg ervoor dat u vervangt `"Your Document Directory"` met het daadwerkelijke pad naar uw PowerPoint-presentatiebestand.
 
-## Stap 3: Maak een ringdiagram
+## Stap 3: Maak een donutdiagram
 
-Vervolgens maakt u een ringdiagram op de dia. U kunt de positie en grootte van het diagram aanpassen aan uw vereisten. Hier is de code om een ringdiagram toe te voegen:
+Vervolgens maak je een ringdiagram op de dia. Je kunt de positie en grootte van het diagram naar wens aanpassen. Hier is de code om een ringdiagram toe te voegen:
 
 ```java
 IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, false);
@@ -54,7 +56,7 @@ IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, 
 
 ## Stap 4: Pas het donutdiagram aan
 
-Nu is het tijd om het donutdiagram aan te passen. We zullen verschillende eigenschappen instellen, zoals het verwijderen van de legenda, het configureren van de gatgrootte en het aanpassen van de eerste segmenthoek. Hier is de code:
+Nu is het tijd om het ringdiagram aan te passen. We stellen verschillende eigenschappen in, zoals het verwijderen van de legenda, het configureren van de gatgrootte en het aanpassen van de hoek van de eerste snede. Hier is de code:
 
 ```java
 IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
@@ -73,9 +75,9 @@ while (seriesIndex < 15) {
 
 Met dit codefragment worden de eigenschappen voor het ringdiagram ingesteld. U kunt de waarden aanpassen aan uw specifieke behoeften.
 
-## Stap 5: Voeg gegevens toe aan het ringdiagram
+## Stap 5: Gegevens toevoegen aan het ringdiagram
 
-Laten we nu gegevens toevoegen aan het ringdiagram. We passen ook het uiterlijk van de gegevenspunten aan. Hier is de code om dit te bereiken:
+Laten we nu gegevens toevoegen aan het ringdiagram. We passen ook de weergave van de datapunten aan. Hier is de code om dit te doen:
 
 ```java
 int categoryIndex = 0;
@@ -86,28 +88,28 @@ while (categoryIndex < 15) {
         IChartSeries iCS = chart.getChartData().getSeries().get_Item(i);
         IChartDataPoint dataPoint = iCS.getDataPoints().addDataPointForDoughnutSeries(workBook.getCell(0, categoryIndex + 1, i + 1, 1));
         dataPoint.getFormat().getFill().setFillType(FillType.Solid);
-        // Pas hier de weergave van datapunten aan
+        // Pas hier het uiterlijk van het gegevenspunt aan
         i++;
     }
     categoryIndex++;
 }
 ```
 
-In deze code voegen we categorieën en gegevenspunten toe aan het ringdiagram. U kunt de weergave van gegevenspunten indien nodig verder aanpassen.
+In deze code voegen we categorieën en datapunten toe aan het ringdiagram. Je kunt de weergave van de datapunten naar wens aanpassen.
 
 ## Stap 6: Sla de presentatie op
 
-Vergeet ten slotte niet uw presentatie op te slaan nadat u de Donut Callout hebt toegevoegd. Hier is de code om de presentatie op te slaan:
+Vergeet ten slotte niet je presentatie op te slaan nadat je de donut-callout hebt toegevoegd. Hier is de code om de presentatie op te slaan:
 
 ```java
 pres.save(dataDir + "chart.pptx", SaveFormat.Pptx);
 ```
 
- Zorg ervoor dat u vervangt`"chart.pptx"` met uw gewenste bestandsnaam.
+Zorg ervoor dat u vervangt `"chart.pptx"` met de gewenste bestandsnaam.
 
-Gefeliciteerd! U hebt met succes een Donut Callout aan een Java-dia toegevoegd met behulp van Aspose.Slides voor Java. U kunt nu uw Java-toepassing uitvoeren om de PowerPoint-presentatie te genereren met het ringdiagram en de toelichting.
+Gefeliciteerd! U hebt met succes een donut-toelichting toegevoegd aan een Java-dia met Aspose.Slides voor Java. U kunt nu uw Java-applicatie gebruiken om de PowerPoint-presentatie met het donutdiagram en de toelichting te genereren.
 
-## Volledige broncode voor het toevoegen van een donut-toelichting in Java-dia's
+## Volledige broncode voor het toevoegen van een donut-callout in Java-dia's
 
 ```java
 String dataDir = "Your Document Directory";
@@ -171,24 +173,26 @@ pres.save(dataDir + "chart.pptx", SaveFormat.Pptx);
 
 ## Conclusie
 
-In deze zelfstudie hebben we het proces besproken van het toevoegen van een Donut Callout aan een Java-dia met behulp van Aspose.Slides voor Java. U hebt geleerd hoe u een ringdiagram maakt, het uiterlijk ervan aanpast en gegevenspunten toevoegt. Voel je vrij om je presentaties verder te verbeteren met deze krachtige bibliotheek en meer diagramopties te verkennen.
+In deze tutorial hebben we het proces behandeld van het toevoegen van een donut-callout aan een Java-dia met Aspose.Slides voor Java. Je hebt geleerd hoe je een donutdiagram maakt, de weergave ervan aanpast en datapunten toevoegt. Voel je vrij om je presentaties verder te verbeteren met deze krachtige bibliotheek en meer diagramopties te verkennen.
 
 ## Veelgestelde vragen
 
-### Hoe kan ik het uiterlijk van de Donut Callout wijzigen?
+### Hoe kan ik het uiterlijk van de donut-callout veranderen?
 
-U kunt het uiterlijk van de donut-toelichting aanpassen door de eigenschappen van gegevenspunten in het diagram te wijzigen. In de meegeleverde code kunt u zien hoe u de vulkleur, lijnkleur, lettertypestijl en andere kenmerken van gegevenspunten kunt instellen.
+kunt de weergave van de donut-toelichting aanpassen door de eigenschappen van de datapunten in de grafiek aan te passen. In de meegeleverde code ziet u hoe u de opvulkleur, lijnkleur, lettertype en andere kenmerken van datapunten instelt.
 
-### Kan ik meer gegevenspunten toevoegen aan het ringdiagram?
+### Kan ik meer datapunten toevoegen aan het ringdiagram?
 
-Ja, u kunt zoveel gegevenspunten aan het ringdiagram toevoegen als nodig is. Verleng eenvoudigweg de lussen in de code waar categorieën en datapunten worden toegevoegd, en geef de juiste gegevens en opmaak op.
+Ja, u kunt zoveel datapunten als nodig toevoegen aan het ringdiagram. Breid eenvoudig de lussen in de code uit waar categorieën en datapunten worden toegevoegd en geef de juiste gegevens en opmaak op.
 
 ### Hoe kan ik de positie en grootte van het ringdiagram op de dia aanpassen?
 
- U kunt de positie en grootte van het ringdiagram wijzigen door de parameters in het`addChart` methode. De vier getallen in die methode komen overeen met respectievelijk de X- en Y-coördinaten van de linkerbovenhoek van het diagram en de breedte en hoogte ervan.
+U kunt de positie en de grootte van het ringdiagram wijzigen door de parameters in de `addChart` methode. De vier getallen in die methode komen overeen met de X- en Y-coördinaten van de linkerbovenhoek van de grafiek en respectievelijk de breedte en hoogte ervan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

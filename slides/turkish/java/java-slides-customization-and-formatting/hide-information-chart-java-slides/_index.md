@@ -1,37 +1,39 @@
 ---
-title: Java Slaytlarındaki Grafikteki Bilgileri Gizle
-linktitle: Java Slaytlarındaki Grafikteki Bilgileri Gizle
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides for Java ile Java Slides'ta grafik öğelerini nasıl gizleyeceğinizi öğrenin. Adım adım rehberlik ve kaynak koduyla sunumlarınızı netlik ve estetik açısından özelleştirin.
-weight: 13
-url: /tr/java/customization-and-formatting/hide-information-chart-java-slides/
+"description": "Java Slaytlarında grafik öğelerini Aspose.Slides for Java ile nasıl gizleyeceğinizi öğrenin. Adım adım rehberlik ve kaynak koduyla sunumları netlik ve estetik için özelleştirin."
+"linktitle": "Java Slaytlarında Grafikten Bilgileri Gizle"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java Slaytlarında Grafikten Bilgileri Gizle"
+"url": "/tr/java/customization-and-formatting/hide-information-chart-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java Slaytlarındaki Grafikteki Bilgileri Gizle
+# Java Slaytlarında Grafikten Bilgileri Gizle
 
 
-## Java Slaytlarında Bilgileri Grafikten Gizlemeye Giriş
+## Java Slaytlarında Grafikten Bilgi Gizlemeye Giriş
 
-Bu derste, Aspose.Slides for Java API'sini kullanarak Java Slides'daki bir grafikteki çeşitli öğelerin nasıl gizleneceğini inceleyeceğiz. Sunumlarınız için grafiklerinizi gerektiği gibi özelleştirmek amacıyla bu kodu kullanabilirsiniz.
+Bu eğitimde, Java Slaytlarında Aspose.Slides for Java API'sini kullanarak bir grafikten çeşitli öğeleri nasıl gizleyeceğinizi inceleyeceğiz. Bu kodu sunumlarınız için ihtiyaç duyduğunuz şekilde grafiklerinizi özelleştirmek için kullanabilirsiniz.
 
-## 1. Adım: Ortamı Ayarlama
+## Adım 1: Ortamı Kurma
 
- Başlamadan önce Aspose.Slides for Java kütüphanesinin projenize eklendiğinden emin olun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/java/).
+Başlamadan önce, projenize Aspose.Slides for Java kütüphanesinin eklendiğinden emin olun. Bunu şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/slides/java/).
 
-## Adım 2: Yeni Bir Sunu Oluşturun
+## Adım 2: Yeni Bir Sunum Oluşturun
 
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 ```
 
-## 3. Adım: Slayta Grafik Ekleme
+## Adım 3: Slayda Grafik Ekleme
 
-Bir slayda işaretleyicilerin bulunduğu bir çizgi grafiği ekleyeceğiz ve ardından grafiğin çeşitli öğelerini gizlemeye devam edeceğiz.
+Bir slayda işaretçiler içeren bir çizgi grafiği ekleyeceğiz ve ardından grafiğin çeşitli öğelerini gizleyeceğiz.
 
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
@@ -48,7 +50,7 @@ chart.setTitle(false);
 
 ## Adım 5: Değer Eksenini Gizle
 
-Değerler eksenini (dikey eksen) gizlemek için aşağıdaki kodu kullanın:
+Değer eksenini (dikey eksen) gizlemek için aşağıdaki kodu kullanın:
 
 ```java
 chart.getAxes().getVerticalAxis().setVisible(false);
@@ -62,15 +64,15 @@ Kategori eksenini (yatay eksen) gizlemek için şu kodu kullanın:
 chart.getAxes().getHorizontalAxis().setVisible(false);
 ```
 
-## Adım 7: Göstergeyi Gizle
+## Adım 7: Efsaneyi Gizle
 
-Grafiğin açıklamasını şu şekilde gizleyebilirsiniz:
+Tablonun açıklamasını şu şekilde gizleyebilirsiniz:
 
 ```java
 chart.setLegend(false);
 ```
 
-## Adım 8: Ana Izgara Çizgilerini Gizleyin
+## Adım 8: Ana Izgara Çizgilerini Gizle
 
 Yatay eksenin ana ızgara çizgilerini gizlemek için aşağıdaki kodu kullanabilirsiniz:
 
@@ -80,7 +82,7 @@ chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillF
 
 ## Adım 9: Seriyi Kaldır
 
-Tüm serileri grafikten kaldırmak istiyorsanız şunun gibi bir döngü kullanabilirsiniz:
+Eğer grafikten tüm serileri kaldırmak istiyorsanız, aşağıdaki gibi bir döngü kullanabilirsiniz:
 
 ```java
 for (int i = 0; i < chart.getChartData().getSeries().size(); i++) {
@@ -90,7 +92,7 @@ for (int i = 0; i < chart.getChartData().getSeries().size(); i++) {
 
 ## Adım 10: Grafik Serisini Özelleştirin
 
-Grafik serisini gerektiği gibi özelleştirebilirsiniz. Bu örnekte işaretçi stilini, veri etiketi konumunu, işaretçi boyutunu, çizgi rengini ve çizgi stilini değiştiriyoruz:
+Grafik serisini gerektiği gibi özelleştirebilirsiniz. Bu örnekte, işaretçi stilini, veri etiketi konumunu, işaretçi boyutunu, çizgi rengini ve çizgi stilini değiştiriyoruz:
 
 ```java
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
@@ -103,35 +105,35 @@ series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(new Co
 series.getFormat().getLine().setDashStyle(LineDashStyle.Solid);
 ```
 
-## Adım 11: Sunuyu Kaydetme
+## Adım 11: Sunumu Kaydedin
 
-Son olarak sunuyu bir dosyaya kaydedin:
+Son olarak sunumu bir dosyaya kaydedin:
 
 ```java
 pres.save(dataDir + "HideInformationFromChart.pptx", SaveFormat.Pptx);
 ```
 
-Bu kadar! Aspose.Slides for Java'yı kullanarak Java Slides'daki bir grafikteki çeşitli öğeleri başarıyla gizlediniz. Grafiklerinizi ve sunumlarınızı özel gereksinimlerinize göre daha da özelleştirebilirsiniz.
+İşte bu kadar! Java Slides'da Aspose.Slides for Java kullanarak bir grafikten çeşitli öğeleri başarıyla gizlediniz. Grafiklerinizi ve sunumlarınızı özel gereksinimleriniz için gerektiği gibi daha da özelleştirebilirsiniz.
 
-## Java Slaytlarındaki Grafikten Bilgileri Gizlemek İçin Kaynak Kodunu Tamamlayın
+## Java Slaytlarında Grafikten Bilgi Gizleme İçin Tam Kaynak Kodu
 
 ```java
-// Belgeler dizininin yolu.
+// Belgeler dizinine giden yol.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 try
 {
 	ISlide slide = pres.getSlides().get_Item(0);
 	IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 140, 118, 320, 370);
-	//Grafik Başlığını gizleme
+	//Grafik Başlığını Gizleme
 	chart.setTitle(false);
-	///Değerler eksenini gizleme
+	///Değerleri Gizleme ekseni
 	chart.getAxes().getVerticalAxis().setVisible(false);
 	//Kategori Eksen görünürlüğü
 	chart.getAxes().getHorizontalAxis().setVisible(false);
-	//Efsaneyi Gizleme
+	//Efsaneyi Gizlemek
 	chart.setLegend(false);
-	//MajorGridLines'ı gizleme
+	//MajorGridLines'ı Gizleme
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.NoFill);
 	for (int i = 0; i < chart.getChartData().getSeries().size(); i++)
 	{
@@ -142,7 +144,7 @@ try
 	series.getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	series.getLabels().getDefaultDataLabelFormat().setPosition(LegendDataLabelPosition.Top);
 	series.getMarker().setSize(15);
-	//Seri çizgi rengini ayarlama
+	//Seri çizgi renginin ayarlanması
 	series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(new Color(PresetColor.Purple));
 	series.getFormat().getLine().setDashStyle(LineDashStyle.Solid);
@@ -155,32 +157,34 @@ finally
 ```
 ## Çözüm
 
-Bu adım adım kılavuzda, Aspose.Slides for Java API'sini kullanarak Java Slides'daki bir grafikteki çeşitli öğelerin nasıl gizleneceğini araştırdık. Grafiklerinizi sunumlar için özelleştirmeniz ve onları görsel olarak daha çekici veya özel ihtiyaçlarınıza göre uyarlamanız gerektiğinde bu son derece yararlı olabilir.
+Bu adım adım kılavuzda, Java Slaytlar'da Aspose.Slides for Java API'sini kullanarak bir grafikten çeşitli öğeleri nasıl gizleyeceğinizi inceledik. Bu, sunumlarınız için grafiklerinizi özelleştirmeniz ve bunları görsel olarak daha çekici hale getirmeniz veya özel ihtiyaçlarınıza göre uyarlamanız gerektiğinde inanılmaz derecede faydalı olabilir.
 
-## SSS'ler
+## SSS
 
-### Grafik öğelerinin görünümünü nasıl daha da özelleştirebilirim?
+### Grafik öğelerinin görünümünü nasıl daha fazla özelleştirebilirim?
 
-Grafik serisinin, işaretçilerin, etiketlerin ve formatın ilgili özelliklerine erişerek grafik öğelerinin çizgi rengi, dolgu rengi, işaretçi stili ve daha fazlası gibi çeşitli özelliklerini özelleştirebilirsiniz.
+Grafik serisinin, işaretçilerin, etiketlerin ve biçimin ilgili özelliklerine erişerek çizgi rengi, dolgu rengi, işaretçi stili ve daha fazlası gibi grafik öğelerinin çeşitli özelliklerini özelleştirebilirsiniz.
 
-### Grafikteki belirli veri noktalarını gizleyebilir miyim?
+### Grafikte belirli veri noktalarını gizleyebilir miyim?
 
-Evet, grafik serisindeki verileri değiştirerek belirli veri noktalarını gizleyebilirsiniz. Veri noktalarını kaldırabilir veya gizlemek için değerlerini null olarak ayarlayabilirsiniz.
+Evet, grafik serisindeki verileri düzenleyerek belirli veri noktalarını gizleyebilirsiniz. Veri noktalarını kaldırabilir veya değerlerini null olarak ayarlayarak gizleyebilirsiniz.
 
-### Grafiğe nasıl ek seri ekleyebilirim?
+### Grafiğe ek serileri nasıl ekleyebilirim?
 
- Kullanarak grafiğe daha fazla seri ekleyebilirsiniz.`IChartData.getSeries().add` yöntemi ve yeni seri için veri noktalarının belirlenmesi.
+Grafiğe daha fazla seri eklemek için şunu kullanabilirsiniz: `IChartData.getSeries().add` Yöntem ve yeni seri için veri noktalarının belirlenmesi.
 
-### Grafik türünü dinamik olarak değiştirmek mümkün mü?
+### Grafik türünü dinamik olarak değiştirmek mümkün müdür?
 
-Evet, istediğiniz türde yeni bir grafik oluşturup verileri eski grafikten yenisine kopyalayarak grafik türünü dinamik olarak değiştirebilirsiniz.
+Evet, istediğiniz tipte yeni bir grafik oluşturarak ve eski grafikten yenisine veri kopyalayarak grafik tipini dinamik olarak değiştirebilirsiniz.
 
 ### Grafiğin başlığını ve eksen etiketlerini programlı olarak nasıl değiştirebilirim?
 
-Grafiğin ve eksenlerin başlığını ve etiketlerini, ilgili özelliklerine erişerek ve istediğiniz metni ve formatı ayarlayarak ayarlayabilirsiniz.
+Grafik ve eksenlerin başlıklarını ve etiketlerini, ilgili özelliklerine erişip istediğiniz metni ve biçimlendirmeyi ayarlayarak ayarlayabilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,28 +1,30 @@
 ---
-title: ดำเนินการจดหมายเวียนในการนำเสนอ
-linktitle: ดำเนินการจดหมายเวียนในการนำเสนอ
-second_title: Aspose.Slides .NET PowerPoint การประมวลผล API
-description: เรียนรู้จดหมายเวียนในงานนำเสนอโดยใช้ Aspose.Slides สำหรับ .NET ในคำแนะนำทีละขั้นตอนนี้ สร้างงานนำเสนอแบบไดนามิกและเป็นส่วนตัวได้อย่างง่ายดาย
-weight: 21
-url: /th/net/presentation-manipulation/perform-mail-merge-in-presentations/
+"description": "เรียนรู้การผสานจดหมายในงานนำเสนอโดยใช้ Aspose.Slides สำหรับ .NET ในคู่มือทีละขั้นตอนนี้ สร้างงานนำเสนอที่เป็นแบบไดนามิกและปรับแต่งได้เองได้อย่างง่ายดาย"
+"linktitle": "ดำเนินการผสานจดหมายในงานนำเสนอ"
+"second_title": "API การประมวลผล PowerPoint ของ Aspose.Slides .NET"
+"title": "ดำเนินการผสานจดหมายในงานนำเสนอ"
+"url": "/th/net/presentation-manipulation/perform-mail-merge-in-presentations/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ดำเนินการจดหมายเวียนในการนำเสนอ
+# ดำเนินการผสานจดหมายในงานนำเสนอ
 
 ## การแนะนำ
-ในโลกของการพัฒนา .NET การสร้างงานนำเสนอแบบไดนามิกและเป็นส่วนตัวถือเป็นข้อกำหนดทั่วไป เครื่องมืออันทรงพลังอย่างหนึ่งที่ทำให้กระบวนการนี้ง่ายขึ้นคือ Aspose.Slides สำหรับ .NET ในบทช่วยสอนนี้ เราจะเจาะลึกขอบเขตอันน่าทึ่งของการดำเนินการจดหมายเวียนในการนำเสนอโดยใช้ Aspose.Slides สำหรับ .NET
+ในโลกของการพัฒนา .NET การสร้างงานนำเสนอแบบไดนามิกและปรับแต่งตามความต้องการทั่วไปถือเป็นข้อกำหนดทั่วไป เครื่องมืออันทรงพลังที่ช่วยลดความซับซ้อนของกระบวนการนี้คือ Aspose.Slides สำหรับ .NET ในบทช่วยสอนนี้ เราจะเจาะลึกถึงขอบเขตที่น่าสนใจของการทำจดหมายเวียนในงานนำเสนอโดยใช้ Aspose.Slides สำหรับ .NET
 ## ข้อกำหนดเบื้องต้น
-ก่อนที่เราจะเริ่มต้นการเดินทางนี้ ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
-- Aspose.Slides สำหรับ .NET Library: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Slides สำหรับ .NET Library แล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/slides/net/).
-- เทมเพลตเอกสาร: เตรียมเทมเพลตการนำเสนอ (เช่น PresentationTemplate.pptx) ที่จะใช้เป็นฐานสำหรับจดหมายเวียน
-- แหล่งข้อมูล: คุณต้องมีแหล่งข้อมูลสำหรับจดหมายเวียน ในตัวอย่างของเรา เราจะใช้ข้อมูล XML (TestData.xml) แต่ Aspose.Slides รองรับแหล่งข้อมูลต่างๆ เช่น RDBMS
-ตอนนี้ เรามาเจาะลึกขั้นตอนการดำเนินการจดหมายเวียนในการนำเสนอโดยใช้ Aspose.Slides สำหรับ .NET กัน
+ก่อนที่เราจะเริ่มต้นการเดินทางครั้งนี้ โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
+- ไลบรารี Aspose.Slides สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Slides สำหรับ .NET แล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/slides/net/).
+- เทมเพลตเอกสาร: เตรียมเทมเพลตการนำเสนอ (เช่น PresentationTemplate.pptx) ที่จะทำหน้าที่เป็นฐานสำหรับการผสานจดหมาย
+- แหล่งข้อมูล: คุณต้องมีแหล่งข้อมูลสำหรับการผสานจดหมาย ในตัวอย่างของเรา เราจะใช้ข้อมูล XML (TestData.xml) แต่ Aspose.Slides รองรับแหล่งข้อมูลต่างๆ เช่น RDBMS
+ตอนนี้เรามาดูขั้นตอนการดำเนินการผสานจดหมายในงานนำเสนอโดยใช้ Aspose.Slides สำหรับ .NET กัน
 ## นำเข้าเนมสเปซ
-ประการแรก ตรวจสอบให้แน่ใจว่าคุณนำเข้าเนมสเปซที่จำเป็นเพื่อใช้ประโยชน์จากฟังก์ชันการทำงานที่ Aspose.Slides มอบให้:
+ประการแรก ให้แน่ใจว่าคุณนำเข้าเนมสเปซที่จำเป็นเพื่อใช้ประโยชน์จากฟังก์ชันการทำงานที่ Aspose.Slides จัดให้:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -38,12 +40,12 @@ using Aspose.Slides.Examples.CSharp;
 using Aspose.Slides.Export;
 using DataTable = System.Data.DataTable;
 ```
-## ขั้นตอนที่ 1: ตั้งค่าไดเร็กทอรีเอกสารของคุณ
+## ขั้นตอนที่ 1: ตั้งค่าไดเรกทอรีเอกสารของคุณ
 ```csharp
 string dataDir = "Your Document Directory";
 string presTemplatePath = Path.Combine(dataDir, "PresentationTemplate.pptx");
 string resultPath = Path.Combine(RunExamples.OutPath, "MailMergeResult");
-// ตรวจสอบว่ามีเส้นทางผลลัพธ์อยู่หรือไม่
+// ตรวจสอบว่าเส้นทางผลลัพธ์มีอยู่หรือไม่
 if (!Directory.Exists(resultPath))
     Directory.CreateDirectory(resultPath);
 ```
@@ -57,11 +59,11 @@ using (DataSet dataSet = new DataSet())
     DataTable staffListTable = dataTables["StaffList"];
     DataTable planFactTable = dataTables["Plan_Fact"];
 ```
-## ขั้นตอนที่ 3: วนซ้ำบันทึกและสร้างการนำเสนอส่วนบุคคล
+## ขั้นตอนที่ 3: วนซ้ำผ่านบันทึกและสร้างการนำเสนอส่วนบุคคล
 ```csharp
 foreach (DataRow userRow in usersTable.Rows)
 {
-    // สร้างชื่อการนำเสนอผลลัพธ์ (รายบุคคล)
+    // สร้างผลงาน (รายบุคคล) ชื่อการนำเสนอ
     string presPath = Path.Combine(resultPath, "PresFor_" + userRow["Name"] + ".pptx");
     // โหลดเทมเพลตการนำเสนอ
     using (Presentation pres = new Presentation(presTemplatePath))
@@ -71,7 +73,7 @@ foreach (DataRow userRow in usersTable.Rows)
         ((AutoShape)pres.Slides[0].Shapes[4]).TextFrame.Text = userRow["Department"].ToString();
         // รับภาพจากฐานข้อมูล
         byte[] bytes = Convert.FromBase64String(userRow["Img"].ToString());
-        //แทรกรูปภาพลงในกรอบรูปของงานนำเสนอ
+        // แทรกภาพเข้าในกรอบรูปของงานนำเสนอ
         IPPImage image = pres.Images.AddImage(bytes);
         IPictureFrame pf = pres.Slides[0].Shapes[1] as PictureFrame;
         pf.PictureFormat.Picture.Image.ReplaceImage(image);
@@ -90,7 +92,7 @@ foreach (DataRow userRow in usersTable.Rows)
     }
 }
 ```
-## ขั้นตอนที่ 4: กรอกกรอบข้อความด้วยข้อมูลเป็นรายการ
+## ขั้นตอนที่ 4: เติมกรอบข้อความด้วยข้อมูลเป็นรายการ
 ```csharp
 static void FillStaffList(ITextFrame textFrame, DataRow userRow, DataTable staffListTable)
 {
@@ -111,7 +113,7 @@ static void FillStaffList(ITextFrame textFrame, DataRow userRow, DataTable staff
     }
 }
 ```
-## ขั้นตอนที่ 5: กรอกแผนภูมิข้อมูลจากตาราง PlanFact รอง
+## ขั้นตอนที่ 5: กรอกแผนภูมิข้อมูลจากตาราง Secondary PlanFact
 ```csharp
 static void FillPlanFact(Presentation pres, DataRow row, DataTable planFactTable)
 {
@@ -122,7 +124,7 @@ static void FillPlanFact(Presentation pres, DataRow row, DataTable planFactTable
     string range = chart.ChartData.GetRange();
     IChartDataWorkbook cellsFactory = chart.ChartData.ChartDataWorkbook;
     int worksheetIndex = 0;
-    // เพิ่มจุดข้อมูลสำหรับชุดบรรทัด
+    // เพิ่มจุดข้อมูลสำหรับชุดเส้น
     chart.ChartData.Series[0].DataPoints.AddDataPointForLineSeries
 (cellsFactory.GetCell(worksheetIndex, 1, 1, double.Parse(selRows[0]["PlanData"].ToString())));
     chart.ChartData.Series[1].DataPoints.AddDataPointForLineSeries(
@@ -142,23 +144,25 @@ static void FillPlanFact(Presentation pres, DataRow row, DataTable planFactTable
     chart.ChartData.SetRange(range);
 }
 ```
-ขั้นตอนเหล่านี้สาธิตคำแนะนำที่ครอบคลุมเกี่ยวกับการดำเนินการจดหมายเวียนในการนำเสนอโดยใช้ Aspose.Slides สำหรับ .NET ตอนนี้ เรามาตอบคำถามที่พบบ่อยกัน
+ขั้นตอนเหล่านี้จะแสดงคำแนะนำที่ครอบคลุมเกี่ยวกับการดำเนินการผสานจดหมายในงานนำเสนอโดยใช้ Aspose.Slides สำหรับ .NET ตอนนี้เรามาตอบคำถามที่พบบ่อยกัน
 ## คำถามที่พบบ่อย
-### 1. Aspose.Slides สำหรับ .NET เข้ากันได้กับแหล่งข้อมูลที่แตกต่างกันหรือไม่
-ใช่ Aspose.Slides สำหรับ .NET รองรับแหล่งข้อมูลที่หลากหลาย รวมถึง XML, RDBMS และอื่นๆ
-### 2. ฉันสามารถปรับแต่งลักษณะที่ปรากฏของสัญลักษณ์แสดงหัวข้อย่อยในงานนำเสนอที่สร้างขึ้นได้หรือไม่
- แน่นอน! คุณสามารถควบคุมลักษณะที่ปรากฏของสัญลักษณ์แสดงหัวข้อย่อยได้อย่างเต็มที่ ดังที่แสดงใน`FillStaffList` วิธี.
-### 3. ฉันสามารถสร้างแผนภูมิประเภทใดโดยใช้ Aspose.Slides สำหรับ .NET ได้
-Aspose.Slides สำหรับ .NET รองรับแผนภูมิที่หลากหลาย รวมถึงแผนภูมิเส้นตามที่แสดงในตัวอย่างของเรา แผนภูมิแท่ง แผนภูมิวงกลม และอื่นๆ
-### 4. ฉันจะรับการสนับสนุนหรือขอความช่วยเหลือเกี่ยวกับ Aspose.Slides สำหรับ .NET ได้อย่างไร
- สำหรับการสนับสนุนและความช่วยเหลือคุณสามารถเยี่ยมชมได้ที่[ฟอรั่ม Aspose.Slides](https://forum.aspose.com/c/slides/11).
-### 5. ฉันสามารถลองใช้ Aspose.Slides สำหรับ .NET ก่อนซื้อได้หรือไม่
- แน่นอน! คุณสามารถทดลองใช้ Aspose.Slides สำหรับ .NET ฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
+### 1. Aspose.Slides สำหรับ .NET เข้ากันได้กับแหล่งข้อมูลอื่นหรือไม่
+ใช่ Aspose.Slides สำหรับ .NET รองรับแหล่งข้อมูลต่างๆ รวมถึง XML, RDBMS และอื่นๆ อีกมากมาย
+### 2. ฉันสามารถปรับแต่งลักษณะที่ปรากฏของจุดหัวข้อในงานนำเสนอที่สร้างขึ้นได้หรือไม่
+แน่นอน! คุณสามารถควบคุมการปรากฏของจุดหัวข้อได้เต็มที่ ดังที่แสดงใน `FillStaffList` วิธี.
+### 3. ฉันสามารถสร้างแผนภูมิประเภทใดได้บ้างโดยใช้ Aspose.Slides สำหรับ .NET
+Aspose.Slides สำหรับ .NET รองรับแผนภูมิต่างๆ มากมาย รวมถึงแผนภูมิเส้นดังที่แสดงในตัวอย่างของเรา แผนภูมิแท่ง แผนภูมิวงกลม และอื่นๆ อีกมากมาย
+### 4. ฉันจะได้รับการสนับสนุนหรือขอความช่วยเหลือเกี่ยวกับ Aspose.Slides สำหรับ .NET ได้อย่างไร
+หากต้องการการสนับสนุนและความช่วยเหลือ คุณสามารถไปที่ [ฟอรั่ม Aspose.Slides](https://forum-aspose.com/c/slides/11).
+### 5. ฉันสามารถทดลองใช้ Aspose.Slides สำหรับ .NET ก่อนซื้อได้หรือไม่
+แน่นอน! คุณสามารถใช้ประโยชน์จากการทดลองใช้ Aspose.Slides สำหรับ .NET ฟรีได้จาก [ที่นี่](https://releases-aspose.com/).
 ## บทสรุป
-ในบทช่วยสอนนี้ เราได้สำรวจความสามารถที่น่าตื่นเต้นของ Aspose.Slides สำหรับ .NET ในการดำเนินการจดหมายเวียนในงานนำเสนอ ด้วยการทำตามคำแนะนำทีละขั้นตอน คุณสามารถสร้างงานนำเสนอแบบไดนามิกและเป็นส่วนตัวได้อย่างง่ายดาย ยกระดับประสบการณ์การพัฒนา .NET ของคุณด้วย Aspose.Slides เพื่อการสร้างการนำเสนอที่ราบรื่น
+ในบทช่วยสอนนี้ เราได้สำรวจความสามารถที่น่าสนใจของ Aspose.Slides สำหรับ .NET ในการทำจดหมายเวียนในงานนำเสนอ โดยปฏิบัติตามคำแนะนำทีละขั้นตอน คุณสามารถสร้างงานนำเสนอแบบไดนามิกและปรับแต่งได้เองอย่างง่ายดาย ยกระดับประสบการณ์การพัฒนา .NET ของคุณด้วย Aspose.Slides เพื่อการสร้างงานนำเสนอที่ราบรื่น
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

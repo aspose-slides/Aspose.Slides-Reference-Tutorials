@@ -1,14 +1,16 @@
 ---
-title: Legenda rozmiaru czcionki w slajdach Java
-linktitle: Legenda rozmiaru czcionki w slajdach Java
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Ulepsz prezentacje programu PowerPoint za pomocą Aspose.Slides dla Java. Z naszego przewodnika krok po kroku dowiesz się, jak dostosować rozmiary czcionek legendy i nie tylko.
-weight: 13
-url: /pl/java/chart-elements/font-size-legend-java-slides/
+"description": "Ulepsz prezentacje PowerPoint dzięki Aspose.Slides dla Java. Dowiedz się, jak dostosować rozmiary czcionek legendy i nie tylko w naszym przewodniku krok po kroku."
+"linktitle": "Legenda rozmiaru czcionki w slajdach Java"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Legenda rozmiaru czcionki w slajdach Java"
+"url": "/pl/java/chart-elements/font-size-legend-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Legenda rozmiaru czcionki w slajdach Java
@@ -16,11 +18,11 @@ url: /pl/java/chart-elements/font-size-legend-java-slides/
 
 ## Wprowadzenie do legendy rozmiaru czcionki w slajdach Java
 
-W tym samouczku dowiesz się, jak dostosować rozmiar czcionki legendy na slajdzie programu PowerPoint za pomocą Aspose.Slides dla Java. Dostarczymy instrukcje krok po kroku i kod źródłowy, aby osiągnąć to zadanie.
+tym samouczku dowiesz się, jak dostosować rozmiar czcionki legendy w slajdzie programu PowerPoint za pomocą Aspose.Slides for Java. Podamy instrukcje krok po kroku i kod źródłowy, aby wykonać to zadanie.
 
-## Warunki wstępne
+## Wymagania wstępne
 
- Zanim zaczniesz, upewnij się, że masz zainstalowaną i skonfigurowaną bibliotekę Aspose.Slides for Java w swoim projekcie Java. Bibliotekę możesz pobrać ze strony[Tutaj](https://releases.aspose.com/slides/java/).
+Zanim zaczniesz, upewnij się, że masz zainstalowaną i skonfigurowaną bibliotekę Aspose.Slides for Java w swoim projekcie Java. Możesz pobrać bibliotekę z [Tutaj](https://releases.aspose.com/slides/java/).
 
 ## Krok 1: Zainicjuj prezentację
 
@@ -32,11 +34,11 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 ```
 
- Zastępować`"Your Document Directory"` z rzeczywistą ścieżką do pliku programu PowerPoint.
+Zastępować `"Your Document Directory"` z rzeczywistą ścieżką do pliku PowerPoint.
 
 ## Krok 2: Dodaj wykres
 
-Następnie dodamy wykres do slajdu i ustalimy rozmiar czcionki legendy.
+Następnie dodamy wykres do slajdu i ustawimy rozmiar czcionki legendy.
 
 ```java
 try
@@ -46,11 +48,11 @@ try
 }
 ```
 
- W tym kodzie tworzymy grupowany wykres kolumnowy na pierwszym slajdzie i ustawiamy rozmiar czcionki tekstu legendy na 20 punktów. Możesz dostosować`setFontHeight`wartość, aby zmienić rozmiar czcionki według potrzeb.
+W tym kodzie tworzymy wykres kolumnowy klastrowany na pierwszym slajdzie i ustawiamy rozmiar czcionki tekstu legendy na 20 punktów. Możesz dostosować `setFontHeight` wartość umożliwiająca zmianę rozmiaru czcionki w razie potrzeby.
 
 ## Krok 3: Dostosuj wartości osi
 
-Teraz dostosujmy wartości osi pionowej wykresu.
+Teraz dostosujemy wartości osi pionowej wykresu.
 
 ```java
     chart.getAxes().getVerticalAxis().setAutomaticMinValue(false);
@@ -59,7 +61,7 @@ Teraz dostosujmy wartości osi pionowej wykresu.
     chart.getAxes().getVerticalAxis().setMaxValue(10);
 ```
 
-Tutaj ustawiamy wartości minimalne i maksymalne dla osi pionowej. Możesz modyfikować wartości zgodnie z wymaganiami dotyczącymi danych.
+Tutaj ustawiamy minimalne i maksymalne wartości dla osi pionowej. Możesz modyfikować wartości zgodnie z wymaganiami danych.
 
 ## Krok 4: Zapisz prezentację
 
@@ -100,9 +102,9 @@ finally
 
 ## Wniosek
 
-Pomyślnie dostosowałeś rozmiar czcionki legendy na slajdzie Java PowerPoint za pomocą Aspose.Slides for Java. Możesz dalej eksplorować możliwości Aspose.Slides, aby tworzyć interaktywne i atrakcyjne wizualnie prezentacje.
+Udało Ci się dostosować rozmiar czcionki legendy w slajdzie Java PowerPoint przy użyciu Aspose.Slides for Java. Możesz dalej eksplorować możliwości Aspose.Slides, aby tworzyć interaktywne i atrakcyjne wizualnie prezentacje.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
 ### Jak zmienić rozmiar czcionki tekstu legendy na wykresie?
 
@@ -113,21 +115,21 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Clust
 chart.getLegend().getTextFormat().getPortionFormat().setFontHeight(20);
 ```
 
- W tym kodzie tworzymy wykres i ustawiamy rozmiar czcionki tekstu legendy na 20 punktów. Możesz dostosować`setFontHeight` wartość, aby zmienić rozmiar czcionki.
+tym kodzie tworzymy wykres i ustawiamy rozmiar czcionki tekstu legendy na 20 punktów. Możesz dostosować `setFontHeight` wartość umożliwiająca zmianę rozmiaru czcionki.
 
 ### Czy mogę dostosować inne właściwości legendy na wykresie?
 
-Tak, możesz dostosować różne właściwości legendy na wykresie za pomocą Aspose.Slides. Niektóre z typowych właściwości, które można dostosować, obejmują formatowanie tekstu, położenie, widoczność i inne. Na przykład, aby zmienić położenie legendy, możesz użyć:
+Tak, możesz dostosować różne właściwości legendy na wykresie za pomocą Aspose.Slides. Niektóre z typowych właściwości, które możesz dostosować, obejmują formatowanie tekstu, pozycję, widoczność i inne. Na przykład, aby zmienić pozycję legendy, możesz użyć:
 
 ```java
 chart.getLegend().setPosition(LegendPosition.Bottom);
 ```
 
-Ten kod ustawia wyświetlanie legendy na dole wykresu. Zapoznaj się z dokumentacją Aspose.Slides, aby uzyskać więcej opcji dostosowywania.
+Ten kod ustawia legendę tak, aby pojawiała się na dole wykresu. Zapoznaj się z dokumentacją Aspose.Slides, aby uzyskać więcej opcji dostosowywania.
 
-### Jak ustawić minimalne i maksymalne wartości osi pionowej na wykresie?
+### Jak ustawić wartości minimalne i maksymalne dla osi pionowej na wykresie?
 
-Aby ustawić minimalne i maksymalne wartości osi pionowej na wykresie, możesz użyć następującego kodu:
+Aby ustawić minimalne i maksymalne wartości dla osi pionowej na wykresie, możesz użyć następującego kodu:
 
 ```java
 chart.getAxes().getVerticalAxis().setAutomaticMinValue(false);
@@ -138,12 +140,14 @@ chart.getAxes().getVerticalAxis().setMaxValue(10);
 
 Tutaj wyłączamy automatyczne skalowanie osi i określamy minimalne i maksymalne wartości dla osi pionowej. Dostosuj wartości zgodnie z potrzebami danych wykresu.
 
-### Gdzie mogę znaleźć więcej informacji i dokumentacji dla Aspose.Slides?
+### Gdzie mogę znaleźć więcej informacji i dokumentacji na temat Aspose.Slides?
 
- Obszerną dokumentację i odniesienia do API dla Aspose.Slides for Java można znaleźć na stronie dokumentacji Aspose. Odwiedzać[Tutaj](https://reference.aspose.com/slides/java/) szczegółowe informacje na temat korzystania z biblioteki.
+Możesz znaleźć pełną dokumentację i odniesienia API dla Aspose.Slides dla Java na stronie dokumentacji Aspose. Odwiedź [Tutaj](https://reference.aspose.com/slides/java/) Aby uzyskać szczegółowe informacje dotyczące korzystania z biblioteki.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Настройка выноски для метки данных в слайдах Java
-linktitle: Настройка выноски для метки данных в слайдах Java
-second_title: Aspose.Slides API обработки Java PowerPoint
-description: Узнайте, как настроить выноски для меток данных в Aspose.Slides для Java. Пошаговое руководство с исходным кодом.
-weight: 25
-url: /ru/java/data-manipulation/setting-callout-data-label-java-slides/
+"description": "Узнайте, как настроить выноски для меток данных в Aspose.Slides для Java. Пошаговое руководство с исходным кодом."
+"linktitle": "Настройка выноски для метки данных в слайдах Java"
+"second_title": "API обработки Java PowerPoint Aspose.Slides"
+"title": "Настройка выноски для метки данных в слайдах Java"
+"url": "/ru/java/data-manipulation/setting-callout-data-label-java-slides/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Настройка выноски для метки данных в слайдах Java
@@ -16,16 +18,16 @@ url: /ru/java/data-manipulation/setting-callout-data-label-java-slides/
 
 ## Введение в настройку выноски для метки данных в Aspose.Slides для Java
 
-В этом уроке мы покажем, как настроить выноски для меток данных на диаграмме с помощью Aspose.Slides для Java. Выноски могут быть полезны для выделения определенных точек данных на диаграмме. Мы шаг за шагом рассмотрим код и предоставим необходимый исходный код.
+В этом уроке мы покажем, как настроить выноски для меток данных в диаграмме с помощью Aspose.Slides для Java. Выноски могут быть полезны для выделения определенных точек данных в вашей диаграмме. Мы пройдемся по коду шаг за шагом и предоставим необходимый исходный код.
 
-## Предварительные условия
+## Предпосылки
 
-- У вас должен быть установлен Aspose.Slides for Java.
-- Создайте проект Java и добавьте в свой проект библиотеку Aspose.Slides.
+- У вас должен быть установлен Aspose.Slides для Java.
+- Создайте проект Java и добавьте в него библиотеку Aspose.Slides.
 
-## Шаг 1. Создайте презентацию и добавьте диаграмму
+## Шаг 1: Создайте презентацию и добавьте диаграмму
 
- Сначала нам нужно создать презентацию и добавить диаграмму на слайд. Обязательно замените`"Your Document Directory"` с фактическим путем к каталогу вашего документа.
+Сначала нам нужно создать презентацию и добавить диаграмму на слайд. Обязательно замените `"Your Document Directory"` с фактическим путем к каталогу ваших документов.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -34,9 +36,9 @@ ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, false);
 ```
 
-## Шаг 2. Настройте диаграмму
+## Шаг 2: Настройте диаграмму
 
-Далее мы настроим диаграмму, задав такие свойства, как легенда, ряды и категории.
+Далее мы настроим диаграмму, задав такие свойства, как легенда, серии и категории.
 
 ```java
 IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
@@ -44,7 +46,7 @@ chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 chart.setLegend(false);
 
-// Настройте серии и категории (вы можете настроить количество серий и категорий)
+// Настройте серии и категории (Вы можете настроить количество серий и категорий)
 int seriesIndex = 0;
 while (seriesIndex < 15) {
     IChartSeries series = chart.getChartData().getSeries().add(workBook.getCell(0, 0, seriesIndex + 1, "SERIES " + seriesIndex), chart.getType());
@@ -59,7 +61,7 @@ while (categoryIndex < 15) {
     chart.getChartData().getCategories().add(workBook.getCell(0, categoryIndex + 1, 0, "CATEGORY " + categoryIndex));
     int i = 0;
     while (i < chart.getChartData().getSeries().size()) {
-        // Добавьте сюда точки данных
+        // Добавьте точки данных здесь
         // ...
         i++;
     }
@@ -67,9 +69,9 @@ while (categoryIndex < 15) {
 }
 ```
 
-## Шаг 3. Настройте метки данных
+## Шаг 3: Настройте метки данных
 
-Теперь настроим метки данных, в том числе настроим выноски для последней серии.
+Теперь мы настроим метки данных, включая настройку выносок для последней серии.
 
 ```java
 int i = 0;
@@ -82,11 +84,11 @@ while (i < chart.getChartData().getSeries().size()) {
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
-        //Настройте форматирование этикетки (шрифт, заливка и т. д.)
+        // Настройте форматирование этикетки (шрифт, заливка и т. д.)
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
-        // Включить уточнения
+        // Включить выноски
         lbl.getDataLabelFormat().setShowLabelAsDataCallout(true);
         lbl.getDataLabelFormat().setShowLeaderLines(true);
     }
@@ -94,7 +96,7 @@ while (i < chart.getChartData().getSeries().size()) {
 }
 ```
 
-## Шаг 4. Сохраните презентацию
+## Шаг 4: Сохраните презентацию
 
 Наконец, сохраните презентацию с настроенной диаграммой.
 
@@ -102,7 +104,7 @@ while (i < chart.getChartData().getSeries().size()) {
 pres.save("chart.pptx", SaveFormat.Pptx);
 ```
 
-Теперь вы успешно настроили выноски для меток данных на диаграмме с помощью Aspose.Slides для Java. Настройте код в соответствии с вашими конкретными требованиями к диаграмме и данным.
+Теперь вы успешно настроили выноски для меток данных в диаграмме с помощью Aspose.Slides для Java. Настройте код в соответствии с вашими конкретными требованиями к диаграмме и данным.
 
 ## Полный исходный код для настройки выноски для метки данных в слайдах Java
 
@@ -168,7 +170,7 @@ pres.save("chart.pptx", SaveFormat.Pptx);
 
 ## Заключение
 
-В этом уроке мы рассмотрели, как настроить выноски для меток данных на диаграмме с помощью Aspose.Slides для Java. Выноски — это ценные инструменты для выделения определенных точек данных в диаграммах и презентациях. Мы предоставили пошаговое руководство вместе с исходным кодом, которое поможет вам выполнить эту настройку.
+В этом уроке мы изучили, как настроить выноски для меток данных в диаграмме с помощью Aspose.Slides для Java. Выноски — это ценные инструменты для выделения определенных точек данных в ваших диаграммах и презентациях. Мы предоставили пошаговое руководство вместе с исходным кодом, чтобы помочь вам достичь этой настройки.
 
 ## Часто задаваемые вопросы
 
@@ -189,16 +191,16 @@ lbl.getDataLabelFormat().getFormat().getLine().getFillFormat().getSolidFillColor
 
 ### Как включить или отключить выноски для меток данных?
 
- Чтобы включить или отключить выноски для меток данных, используйте`setShowLabelAsDataCallout` метод. Установите его на`true` чтобы включить уточнения и`false`чтобы отключить их.
+Чтобы включить или отключить выноски для меток данных, используйте `setShowLabelAsDataCallout` Метод. Установите его на `true` для включения выносок и `false` чтобы отключить их.
 
 ```java
-lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // Включить уточнения
-lbl.getDataLabelFormat().setShowLabelAsDataCallout(false); // Отключить уточнения
+lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // Включить выноски
+lbl.getDataLabelFormat().setShowLabelAsDataCallout(false); // Отключить выноски
 ```
 
-### Могу ли я настроить линии-выноски для меток данных?
+### Могу ли я настроить линии указателей для меток данных?
 
-Да, вы можете настроить линии-выноски для меток данных, используя такие свойства, как стиль линии, цвет и ширина. Например:
+Да, вы можете настроить линии выноски для меток данных, используя такие свойства, как стиль линии, цвет и ширина. Например:
 
 ```java
 lbl.getDataLabelFormat().setShowLeaderLines(true); // Включить линии выноски
@@ -208,10 +210,12 @@ lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFor
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.BLACK);
 ```
 
-Это некоторые распространенные варианты настройки меток данных и выносок в Aspose.Slides для Java. Вы можете дополнительно адаптировать внешний вид к вашим конкретным потребностям.
+Это некоторые общие параметры настройки для меток данных и выносок в Aspose.Slides для Java. Вы можете дополнительно настроить внешний вид в соответствии со своими конкретными потребностями.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

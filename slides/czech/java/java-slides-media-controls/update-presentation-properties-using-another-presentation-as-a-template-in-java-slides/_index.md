@@ -1,34 +1,36 @@
 ---
-title: Aktualizujte vlastnosti prezentace pomocí jiné prezentace jako šablony v Java Slides
-linktitle: Aktualizujte vlastnosti prezentace pomocí jiné prezentace jako šablony v Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Vylepšete prezentace PowerPoint aktualizovanými metadaty pomocí Aspose.Slides for Java. Naučte se aktualizovat vlastnosti, jako je autor, název a klíčová slova, pomocí šablon v Java Slides.
-weight: 14
-url: /cs/java/media-controls/update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/
+"description": "Vylepšete prezentace v PowerPointu aktualizovanými metadaty pomocí Aspose.Slides pro Javu. Naučte se aktualizovat vlastnosti, jako je autor, název a klíčová slova, pomocí šablon v Java Slides."
+"linktitle": "Aktualizace vlastností prezentace pomocí jiné prezentace jako šablony v aplikaci Java Slides"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Aktualizace vlastností prezentace pomocí jiné prezentace jako šablony v aplikaci Java Slides"
+"url": "/cs/java/media-controls/update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aktualizujte vlastnosti prezentace pomocí jiné prezentace jako šablony v Java Slides
+# Aktualizace vlastností prezentace pomocí jiné prezentace jako šablony v aplikaci Java Slides
 
 
-## Úvod do aktualizace vlastností prezentace pomocí jiné prezentace jako šablony v Java Slides
+## Úvod do aktualizace vlastností prezentace pomocí jiné prezentace jako šablony v aplikaci Java Slides
 
-V tomto tutoriálu vás provedeme procesem aktualizace vlastností prezentace (metadat) pro prezentace PowerPoint pomocí Aspose.Slides pro Java. K aktualizaci vlastností, jako je autor, název, klíčová slova a další, můžete použít jinou prezentaci jako šablonu. Poskytneme vám podrobné pokyny a příklady zdrojového kódu.
+V tomto tutoriálu vás provedeme procesem aktualizace vlastností (metadat) prezentace v PowerPointu pomocí Aspose.Slides pro Javu. Jako šablonu můžete použít jinou prezentaci pro aktualizaci vlastností, jako je autor, název, klíčová slova a další. Poskytneme vám podrobné pokyny a příklady zdrojového kódu.
 
 ## Předpoklady
 
- Než začnete, ujistěte se, že máte knihovnu Aspose.Slides for Java integrovanou do svého projektu Java. Můžete si jej stáhnout z[tady](https://releases.aspose.com/slides/java/).
+Než začnete, ujistěte se, že máte ve svém projektu v Javě integrovanou knihovnu Aspose.Slides for Java. Můžete si ji stáhnout z [zde](https://releases.aspose.com/slides/java/).
 
-## Krok 1: Nastavte svůj projekt
+## Krok 1: Nastavení projektu
 
-Ujistěte se, že jste vytvořili projekt Java a přidali knihovnu Aspose.Slides for Java do závislostí vašeho projektu.
+Ujistěte se, že jste vytvořili projekt Java a přidali knihovnu Aspose.Slides for Java do závislostí projektu.
 
 ## Krok 2: Importujte požadované balíčky
 
-Pro práci s vlastnostmi prezentace budete muset importovat potřebné balíčky Aspose.Slides. Na začátek třídy Java vložte následující příkazy pro import:
+Pro práci s vlastnostmi prezentace budete muset importovat potřebné balíčky Aspose.Slides. Na začátek vaší třídy Java vložte následující příkazy import:
 
 ```java
 import com.aspose.slides.DocumentProperties;
@@ -37,12 +39,12 @@ import com.aspose.slides.IPresentationInfo;
 import com.aspose.slides.PresentationFactory;
 ```
 
-## Krok 3: Aktualizujte vlastnosti prezentace
+## Krok 3: Aktualizace vlastností prezentace
 
-Nyní aktualizujme vlastnosti prezentace pomocí jiné prezentace jako šablony. V tomto příkladu aktualizujeme vlastnosti pro více prezentací, ale tento kód můžete přizpůsobit svému konkrétnímu případu použití.
+Nyní aktualizujme vlastnosti prezentace pomocí jiné prezentace jako šablony. V tomto příkladu aktualizujeme vlastnosti pro více prezentací, ale tento kód si můžete přizpůsobit svému konkrétnímu případu použití.
 
 ```java
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 String dataDir = "Your Document Directory";
 
 // Načtěte šablonu prezentace, ze které chcete kopírovat vlastnosti
@@ -60,26 +62,26 @@ template.setComments("Created from template");
 template.setContentType("Template Content");
 template.setSubject("Template Subject");
 
-// Aktualizujte více prezentací pomocí stejné šablony
+// Aktualizace více prezentací pomocí stejné šablony
 updateByTemplate(dataDir + "doc1.pptx", template);
 updateByTemplate(dataDir + "doc2.odp", template);
 updateByTemplate(dataDir + "doc3.ppt", template);
 ```
 
-##  Krok 4: Definujte`updateByTemplate` Method
+## Krok 4: Definujte `updateByTemplate` Metoda
 
-Pojďme si definovat způsob aktualizace vlastností jednotlivých prezentací pomocí šablony. Tato metoda vezme jako parametry cestu prezentace, která má být aktualizována, a vlastnosti šablony.
+Definujme metodu pro aktualizaci vlastností jednotlivých prezentací pomocí šablony. Tato metoda bude jako parametry brát cestu k aktualizované prezentaci a vlastnosti šablony.
 
 ```java
 private static void updateByTemplate(String path, IDocumentProperties template)
 {
-    // Načtěte prezentaci, kterou chcete aktualizovat
+    // Načíst prezentaci, která má být aktualizována
     IPresentationInfo toUpdate = PresentationFactory.getInstance().getPresentationInfo(path);
     
-    // Aktualizujte vlastnosti dokumentu pomocí šablony
+    // Aktualizace vlastností dokumentu pomocí šablony
     toUpdate.updateDocumentProperties(template);
     
-    // Uložte aktualizovanou prezentaci
+    // Uložit aktualizovanou prezentaci
     toUpdate.writeBindedPresentation(path);
 }
 ```
@@ -87,7 +89,7 @@ private static void updateByTemplate(String path, IDocumentProperties template)
 ## Kompletní zdrojový kód pro aktualizaci vlastností prezentace pomocí jiné prezentace jako šablony v Java Slides
 
 ```java
-	// Cesta k adresáři dokumentů.
+	// Cesta k adresáři s dokumenty.
 	String dataDir = "Your Document Directory";
 	DocumentProperties template;
 	IPresentationInfo info = PresentationFactory.getInstance().getPresentationInfo(dataDir + "template.pptx");
@@ -113,24 +115,26 @@ private static void updateByTemplate(String path, IDocumentProperties template)
 
 ## Závěr
 
-V tomto komplexním tutoriálu jsme prozkoumali, jak aktualizovat vlastnosti prezentace v prezentacích PowerPoint pomocí Aspose.Slides for Java. Konkrétně jsme se zaměřili na použití jiné prezentace jako šablony pro efektivní aktualizaci metadat, jako jsou jména autorů, názvy, klíčová slova a další.
+V tomto komplexním tutoriálu jsme prozkoumali, jak aktualizovat vlastnosti prezentace v PowerPointu pomocí Aspose.Slides pro Javu. Zaměřili jsme se zejména na použití jiné prezentace jako šablony pro efektivní aktualizaci metadat, jako jsou jména autorů, názvy, klíčová slova a další.
 
-## FAQ
+## Často kladené otázky
 
 ### Jak mohu aktualizovat vlastnosti pro více prezentací?
 
- Vlastnosti pro více prezentací můžete aktualizovat voláním funkce`updateByTemplate` metoda pro každou prezentaci s požadovanou cestou.
+Vlastnosti pro více prezentací můžete aktualizovat voláním metody `updateByTemplate` metoda pro každou prezentaci s požadovanou cestou.
 
-### Mohu přizpůsobit tento kód pro různé vlastnosti?
+### Mohu tento kód přizpůsobit pro různé vlastnosti?
 
-Ano, kód můžete přizpůsobit tak, aby aktualizoval konkrétní vlastnosti na základě vašich požadavků. Jednoduše upravte`template` objekt s požadovanými hodnotami vlastností.
+Ano, kód si můžete upravit tak, aby aktualizoval konkrétní vlastnosti na základě vašich požadavků. Jednoduše upravte `template` objekt s požadovanými hodnotami vlastností.
 
-### Existuje nějaké omezení typu prezentací, které lze aktualizovat?
+### Existuje nějaké omezení ohledně typu prezentací, které lze aktualizovat?
 
-Ne, můžete aktualizovat vlastnosti prezentací v různých formátech, včetně PPTX, ODP a PPT.
+Ne, vlastnosti prezentací v různých formátech, včetně PPTX, ODP a PPT, můžete aktualizovat.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

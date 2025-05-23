@@ -1,28 +1,30 @@
 ---
-title: Több kategóriás diagram a Java Slides-ben
-linktitle: Több kategóriás diagram a Java Slides-ben
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Hozzon létre többkategóriás diagramokat a Java Slides programban az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskóddal a lenyűgöző adatok megjelenítéséhez prezentációkban.
-weight: 20
-url: /hu/java/chart-data-manipulation/multi-category-chart-java-slides/
+"description": "Többkategóriás diagramok létrehozása Java diákban az Aspose.Slides for Java használatával. Lépésről lépésre útmutató forráskóddal a lenyűgöző adatvizualizációhoz prezentációkban."
+"linktitle": "Többkategóriás diagram Java diákban"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Többkategóriás diagram Java diákban"
+"url": "/hu/java/chart-data-manipulation/multi-category-chart-java-slides/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Több kategóriás diagram a Java Slides-ben
+# Többkategóriás diagram Java diákban
 
 
-## Bevezetés a Java Slides többkategóriás diagramjába az Aspose.Slides segítségével
+## Bevezetés a többkategóriás diagramokba Java diákban az Aspose.Slides segítségével
 
-Ebben az oktatóanyagban megtanuljuk, hogyan lehet több kategóriás diagramot létrehozni Java diákban az Aspose.Slides for Java API használatával. Ez az útmutató lépésről lépésre tartalmaz utasításokat a forráskóddal együtt, hogy segítsen létrehozni több kategóriát és sorozatot tartalmazó fürtözött oszlopdiagramot.
+Ebben az oktatóanyagban megtanuljuk, hogyan hozhatunk létre többkategóriás diagramot Java diákon az Aspose.Slides for Java API használatával. Ez az útmutató lépésről lépésre bemutatja a forráskódot, és segít létrehozni egy több kategóriát és adatsort tartalmazó fürtözött oszlopdiagramot.
 
 ## Előfeltételek
-Mielőtt elkezdené, győződjön meg arról, hogy az Aspose.Slides for Java könyvtár telepítve van és be van állítva a Java fejlesztői környezetben.
+Mielőtt elkezdenénk, győződjünk meg róla, hogy az Aspose.Slides for Java könyvtár telepítve és beállítva van a Java fejlesztői környezetedben.
 
 ## 1. lépés: A környezet beállítása
-Először is importálja a szükséges osztályokat, és hozzon létre egy új bemutató objektumot a diákkal való munkavégzéshez.
+Először importáld a szükséges osztályokat, és hozz létre egy új Presentation objektumot a diákkal való munkához.
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
@@ -31,7 +33,7 @@ Presentation pres = new Presentation();
 ```
 
 ## 2. lépés: Dia és diagram hozzáadása
-Ezután hozzon létre egy diát, és adjon hozzá egy fürtözött oszlopdiagramot.
+Ezután hozzon létre egy diát, és adjon hozzá egy csoportos oszlopdiagramot.
 
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
@@ -47,7 +49,7 @@ ch.getChartData().getCategories().clear();
 ```
 
 ## 4. lépés: Adatkategóriák beállítása
-Most állítsunk be adatkategóriákat a diagramhoz. Több kategóriát hozunk létre és csoportosítunk.
+Most állítsuk be a diagram adatkategóriáit. Létrehozunk több kategóriát, és csoportosítjuk őket.
 
 ```java
 IChartDataWorkbook fact = ch.getChartData().getChartDataWorkbook();
@@ -55,7 +57,7 @@ fact.clear(0);
 
 int defaultWorksheetIndex = 0;
 
-// Adjon hozzá kategóriákat és csoportosítsa őket
+// Kategóriák hozzáadása és csoportosítása
 IChartCategory category = ch.getChartData().getCategories().add(fact.getCell(0, "c2", "A"));
 category.getGroupingLevels().setGroupingItem(1, "Group1");
 
@@ -77,7 +79,7 @@ category.getGroupingLevels().setGroupingItem(1, "Group4");
 category = ch.getChartData().getCategories().add(fact.getCell(0, "c9", "H"));
 ```
 
-## 5. lépés: Sorozat hozzáadása
+## 5. lépés: Sorozatok hozzáadása
 Most adjunk hozzá egy sorozatot a diagramhoz az adatpontokkal együtt.
 
 ```java
@@ -100,9 +102,9 @@ Végül mentse el a prezentációt a diagrammal együtt.
 pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
 
-Ez az! Sikeresen létrehozott egy többkategóriás diagramot egy Java dián az Aspose.Slides segítségével. Ezt a diagramot tovább szabhatja saját igényeinek megfelelően.
+Ennyi! Sikeresen létrehoztál egy többkategóriás diagramot egy Java dián az Aspose.Slides használatával. Ezt a diagramot tovább testreszabhatod a saját igényeidnek megfelelően.
 
-## A Java Slides többkategóriás diagramjának teljes forráskódja
+## Teljes forráskód többkategóriás diagramhoz Java diákban
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
@@ -127,7 +129,7 @@ category = ch.getChartData().getCategories().add(fact.getCell(0, "c7", "F"));
 category = ch.getChartData().getCategories().add(fact.getCell(0, "c8", "G"));
 category.getGroupingLevels().setGroupingItem(1, "Group4");
 category = ch.getChartData().getCategories().add(fact.getCell(0, "c9", "H"));
-// Sorozat hozzáadása
+//            Sorozatok hozzáadása
 IChartSeries series = ch.getChartData().getSeries().add(fact.getCell(0, "D1", "Series 1"),
 		ChartType.ClusteredColumn);
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, "D2", 10));
@@ -144,28 +146,30 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ## Következtetés
 
-Ebben az oktatóanyagban megtanultuk, hogyan lehet több kategóriás diagramot létrehozni Java diákban az Aspose.Slides for Java API használatával. A forráskódot tartalmazó, lépésről lépésre szóló útmutatón keresztül létrehoztunk egy több kategóriát és sorozatot tartalmazó fürtözött oszlopdiagramot.
+Ebben az oktatóanyagban megtanultuk, hogyan hozhatunk létre többkategóriás diagramot Java diákon az Aspose.Slides for Java API használatával. Lépésről lépésre bemutattuk, hogyan hozhatunk létre egy több kategóriát és adatsort tartalmazó fürtözött oszlopdiagramot forráskóddal.
 
 ## GYIK
 
-### Hogyan szabhatom testre a diagram megjelenését?
+### Hogyan tudom testreszabni a diagram megjelenését?
 
-Testreszabhatja a diagram megjelenését a tulajdonságok, például színek, betűtípusok és stílusok módosításával. A részletes testreszabási lehetőségeket az Aspose.Slides dokumentációjában találja.
+A diagram megjelenését testreszabhatja olyan tulajdonságok módosításával, mint a színek, betűtípusok és stílusok. A részletes testreszabási lehetőségekért lásd az Aspose.Slides dokumentációját.
 
 ### Hozzáadhatok több sorozatot a diagramhoz?
 
-Igen, további sorozatokat is hozzáadhat a diagramhoz az 5. lépésben bemutatott hasonló folyamat követésével.
+Igen, további sorozatokat adhat a diagramhoz az 5. lépésben bemutatotthoz hasonló folyamatot követve.
 
-### Hogyan változtathatom meg a diagram típusát?
+### Hogyan tudom megváltoztatni a diagram típusát?
 
- A diagram típusának módosításához cserélje ki`ChartType.ClusteredColumn` a kívánt diagramtípussal, amikor hozzáadja a diagramot a 2. lépésben.
+A diagram típusának módosításához cserélje ki a `ChartType.ClusteredColumn` a kívánt diagramtípussal, amikor a 2. lépésben hozzáadta a diagramot.
 
 ### Hogyan adhatok címet a diagramhoz?
 
- Címet adhat a diagramhoz a gombbal`ch.getChartTitle().getTextFrame().setText("Chart Title");` módszer.
+A diagramhoz a következővel adhatsz címet: `ch.getChartTitle().getTextFrame().setText("Chart Title");` módszer.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

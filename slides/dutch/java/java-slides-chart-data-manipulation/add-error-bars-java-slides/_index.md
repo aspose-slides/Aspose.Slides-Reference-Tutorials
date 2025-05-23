@@ -1,26 +1,28 @@
 ---
-title: Voeg foutbalken toe aan Java-dia's
-linktitle: Voeg foutbalken toe aan Java-dia's
-second_title: Aspose.Slides Java PowerPoint-verwerkings-API
-description: Leer hoe u foutbalken kunt toevoegen aan PowerPoint-diagrammen in Java met behulp van Aspose.Slides. Stapsgewijze handleiding met broncode voor het aanpassen van foutbalken.
-weight: 13
-url: /nl/java/chart-data-manipulation/add-error-bars-java-slides/
+"description": "Leer hoe u foutbalken toevoegt aan PowerPoint-grafieken in Java met Aspose.Slides. Stapsgewijze handleiding met broncode voor het aanpassen van foutbalken."
+"linktitle": "Foutbalken toevoegen in Java-dia's"
+"second_title": "Aspose.Slides Java PowerPoint-verwerkings-API"
+"title": "Foutbalken toevoegen in Java-dia's"
+"url": "/nl/java/chart-data-manipulation/add-error-bars-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Voeg foutbalken toe aan Java-dia's
+# Foutbalken toevoegen in Java-dia's
 
 
-## Inleiding tot het toevoegen van foutbalken in Java-dia's met behulp van Aspose.Slides
+## Inleiding tot het toevoegen van foutbalken in Java-dia's met Aspose.Slides
 
-In deze zelfstudie laten we zien hoe u foutbalken aan een diagram in een PowerPoint-dia kunt toevoegen met behulp van Aspose.Slides voor Java. Foutbalken bieden waardevolle informatie over de variabiliteit of onzekerheid van gegevenspunten in een diagram. We gaan een bellendiagram maken en er foutbalken aan toevoegen. Laten we beginnen!
+In deze tutorial laten we zien hoe je foutbalken toevoegt aan een grafiek in een PowerPoint-dia met behulp van Aspose.Slides voor Java. Foutbalken bieden waardevolle informatie over de variabiliteit of onzekerheid van datapunten in een grafiek. We maken een bellendiagram en voegen er foutbalken aan toe. Laten we beginnen!
 
 ## Vereisten
 
-Voordat u begint, moet u ervoor zorgen dat de Aspose.Slides voor Java-bibliotheek is geïnstalleerd en ingesteld in uw Java-project. U kunt de bibliotheek downloaden via de[Aspose-website](https://downloads.aspose.com/slides/java).
+Voordat u begint, moet u ervoor zorgen dat de Aspose.Slides voor Java-bibliotheek is geïnstalleerd en ingesteld in uw Java-project. U kunt de bibliotheek downloaden van de [Aspose-website](https://downloads.aspose.com/slides/java).
 
 ## Stap 1: Maak een lege presentatie
 
@@ -31,21 +33,21 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation();
 ```
 
-In deze stap maken we een lege presentatie waarin we ons diagram met foutbalken toevoegen.
+In deze stap maken we een lege presentatie waaraan we onze grafiek met foutbalken toevoegen.
 
-## Stap 2: Maak een bellendiagram
+## Stap 2: Maak een bubbeldiagram
 
 ```java
-// Een bellendiagram maken
+// Een bubbeldiagram maken
 IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Bubble, 50, 50, 400, 300, true);
 ```
 
 Hier maken we een bellendiagram en specificeren we de positie en afmetingen ervan op de dia.
 
-## Stap 3: Foutbalken toevoegen en het formaat instellen
+## Stap 3: Foutbalken toevoegen en opmaak instellen
 
 ```java
-// Foutbalken toevoegen en het formaat ervan instellen
+// Foutbalken toevoegen en de opmaak ervan instellen
 IErrorBarsFormat errBarX = chart.getChartData().getSeries().get_Item(0).getErrorBarsXFormat();
 IErrorBarsFormat errBarY = chart.getChartData().getSeries().get_Item(0).getErrorBarsYFormat();
 errBarX.setVisible(true);
@@ -59,16 +61,16 @@ errBarY.getFormat().getLine().setWidth(2);
 errBarX.setEndCap(true);
 ```
 
-In deze stap voegen we foutbalken toe aan het diagram en stellen we het formaat ervan in. U kunt foutbalken aanpassen door waarden, typen en andere eigenschappen te wijzigen.
+In deze stap voegen we foutbalken toe aan de grafiek en stellen we de opmaak ervan in. U kunt de foutbalken aanpassen door waarden, typen en andere eigenschappen te wijzigen.
 
-- `errBarX` vertegenwoordigt foutbalken langs de X-as.
-- `errBarY` vertegenwoordigt foutbalken langs de Y-as.
+- `errBarX` geeft foutbalken weer langs de X-as.
+- `errBarY` geeft foutbalken weer langs de Y-as.
 - We maken zowel X- als Y-foutbalken zichtbaar.
 - `setValueType` specificeert het waardetype voor foutbalken (bijvoorbeeld Vast of Percentage).
 - `setValue` stelt de waarde voor foutbalken in.
-- `setType` definieert het type foutbalken (bijvoorbeeld Plus of Min).
--  We stellen de breedte van de foutbalklijnen in met behulp van`getFormat().getLine().setWidth(2)`.
-- `setEndCap`specificeert of einddoppen op de foutbalken moeten worden opgenomen.
+- `setType` definieert het type foutbalken (bijv. Plus of Min).
+- We stellen de breedte van de foutbalklijnen in met behulp van `getFormat().getLine().setWidth(2)`.
+- `setEndCap` Hiermee wordt aangegeven of eindkappen op de foutbalken moeten worden weergegeven.
 
 ## Stap 4: Sla de presentatie op
 
@@ -77,9 +79,9 @@ In deze stap voegen we foutbalken toe aan het diagram en stellen we het formaat 
 presentation.save(dataDir + "ErrorBars_out.pptx", SaveFormat.Pptx);
 ```
 
-Ten slotte slaan we de presentatie met de toegevoegde foutbalken op een opgegeven locatie op.
+Ten slotte slaan we de presentatie met de toegevoegde foutbalken op de opgegeven locatie op.
 
-Dat is het! U hebt met succes foutbalken toegevoegd aan een diagram in een PowerPoint-dia met behulp van Aspose.Slides voor Java.
+Dat is alles! Je hebt met succes foutbalken toegevoegd aan een grafiek in een PowerPoint-dia met Aspose.Slides voor Java.
 
 ## Volledige broncode voor het toevoegen van foutbalken in Java-dia's
 
@@ -90,9 +92,9 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation();
 try
 {
-	// Een bellendiagram maken
+	// Een bubbeldiagram maken
 	IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Bubble, 50, 50, 400, 300, true);
-	// Foutbalken toevoegen en het formaat ervan instellen
+	// Foutbalken toevoegen en de opmaak ervan instellen
 	IErrorBarsFormat errBarX = chart.getChartData().getSeries().get_Item(0).getErrorBarsXFormat();
 	IErrorBarsFormat errBarY = chart.getChartData().getSeries().get_Item(0).getErrorBarsYFormat();
 	errBarX.setVisible(true);
@@ -115,28 +117,30 @@ finally
 
 ## Conclusie
 
-In deze zelfstudie hebben we onderzocht hoe u uw PowerPoint-presentaties kunt verbeteren door foutbalken aan diagrammen toe te voegen met behulp van Aspose.Slides voor Java. Foutbalken bieden waardevolle inzichten in de variabiliteit en onzekerheden van gegevens, waardoor uw presentaties informatiever en visueel aantrekkelijker worden.
+In deze tutorial hebben we onderzocht hoe je je PowerPoint-presentaties kunt verbeteren door foutbalken aan grafieken toe te voegen met Aspose.Slides voor Java. Foutbalken bieden waardevolle inzichten in de variabiliteit en onzekerheden van gegevens, waardoor je presentaties informatiever en visueel aantrekkelijker worden.
 
 ## Veelgestelde vragen
 
-### Hoe kan ik de weergave van foutbalken verder aanpassen?
+### Hoe kan ik het uiterlijk van de foutbalken verder aanpassen?
 
-U kunt foutbalken aanpassen door hun eigenschappen, zoals lijnstijl, kleur en breedte, te wijzigen, zoals gedemonstreerd in stap 3.
+U kunt foutbalken aanpassen door hun eigenschappen te wijzigen, zoals lijnstijl, kleur en breedte, zoals gedemonstreerd in stap 3.
 
-### Kan ik foutbalken toevoegen aan verschillende diagramtypen?
+### Kan ik foutbalken toevoegen aan verschillende grafiektypen?
 
-Ja, u kunt foutbalken toevoegen aan verschillende diagramtypen die worden ondersteund door Aspose.Slides voor Java. Maak eenvoudig het gewenste diagramtype en volg dezelfde stappen voor het aanpassen van de foutbalk.
+Ja, u kunt foutbalken toevoegen aan verschillende grafiektypen die Aspose.Slides voor Java ondersteunt. Maak eenvoudig het gewenste grafiektype aan en volg dezelfde stappen voor het aanpassen van de foutbalk.
 
-### Hoe kan ik de positie en grootte van het diagram op de dia aanpassen?
+### Hoe kan ik de positie en grootte van de grafiek op de dia aanpassen?
 
- U kunt de positie en afmetingen van het diagram bepalen door de parameters in het diagram aan te passen`addChart` methode, zoals weergegeven in stap 2.
+U kunt de positie en afmetingen van de grafiek bepalen door de parameters in de `addChart` methode, zoals getoond in Stap 2.
 
 ### Waar kan ik meer informatie vinden over Aspose.Slides voor Java?
 
- U kunt verwijzen naar de[Aspose.Slides voor Java-documentatie](https://reference.aspose.com/slides/java/) voor gedetailleerde informatie over het gebruik van de bibliotheek.
+U kunt verwijzen naar de [Aspose.Slides voor Java-documentatie](https://reference.aspose.com/slides/java/) voor gedetailleerde informatie over het gebruik van de bibliotheek.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

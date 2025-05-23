@@ -1,24 +1,26 @@
 ---
-title: Java を使用して SmartArt にカスタム子ノードを追加する
-linktitle: Java を使用して SmartArt にカスタム子ノードを追加する
-second_title: Aspose.Slides Java PowerPoint 処理 API
-description: Aspose.Slides で Java を使用して、PowerPoint プレゼンテーションの SmartArt にカスタム子ノードを追加する方法を学びます。プロフェッショナルなグラフィックでスライドを簡単に強化できます。
-weight: 11
-url: /ja/java/java-powerpoint-smartart-manipulation/add-custom-child-nodes-smartart-java/
+"description": "Aspose.SlidesとJavaを使用して、PowerPointプレゼンテーションのSmartArtにカスタム子ノードを追加する方法を学びましょう。プロフェッショナルなグラフィックでスライドを簡単に魅力的に仕上げることができます。"
+"linktitle": "Javaを使用してSmartArtにカスタム子ノードを追加する"
+"second_title": "Aspose.Slides Java PowerPoint 処理 API"
+"title": "Javaを使用してSmartArtにカスタム子ノードを追加する"
+"url": "/ja/java/java-powerpoint-smartart-manipulation/add-custom-child-nodes-smartart-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java を使用して SmartArt にカスタム子ノードを追加する
+# Javaを使用してSmartArtにカスタム子ノードを追加する
 
 ## 導入
-SmartArt は PowerPoint の強力な機能で、ユーザーはこれを使用してプロフェッショナルなグラフィックをすばやく簡単に作成できます。このチュートリアルでは、Java と Aspose.Slides を使用して SmartArt にカスタム子ノードを追加する方法を学習します。
+SmartArtは、プロフェッショナルなグラフィックを素早く簡単に作成できるPowerPointの強力な機能です。このチュートリアルでは、JavaとAspose.Slidesを使用して、SmartArtにカスタム子ノードを追加する方法を学びます。
 ## 前提条件
 始める前に、以下のものを用意してください。
 1. Java 開発キット (JDK): システムに Java がインストールされていることを確認します。
-2.  Aspose.Slides for Java: Aspose.Slides for Javaをこちらからダウンロードしてインストールします。[ここ](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides for Java: Aspose.Slides for Javaを以下のサイトからダウンロードしてインストールします。 [ここ](https://releases。aspose.com/slides/java/).
 
 ## パッケージのインポート
 まず、Java プロジェクトに必要なパッケージをインポートします。
@@ -29,7 +31,7 @@ import com.aspose.slides.*;
 SmartArt にカスタム子ノードを追加する PowerPoint プレゼンテーションを読み込みます。
 ```java
 String dataDir = "Your Document Directory";
-//希望のプレゼンテーションをロードする
+// 希望のプレゼンテーションを読み込む
 Presentation pres = new Presentation(dataDir + "YourPresentation.pptx");
 ```
 ## ステップ2: スライドにSmartArtを追加する
@@ -59,7 +61,7 @@ node = smart.getAllNodes().get_Item(3);
 shape = node.getShapes().get_Item(1);
 shape.setHeight(shape.getHeight() + (shape.getHeight() / 2));
 ```
-## ステップ6: 図形を回転する
+## ステップ6：図形を回転する
 SmartArt 図形を回転します。
 ```java
 node = smart.getAllNodes().get_Item(4);
@@ -73,21 +75,23 @@ pres.save(dataDir + "ModifiedPresentation.pptx", SaveFormat.Pptx);
 ```
 
 ## 結論
-このチュートリアルでは、Java と Aspose.Slides を使用して SmartArt にカスタム子ノードを追加する方法を学習しました。これらの手順に従うことで、カスタマイズされたグラフィックでプレゼンテーションを強化し、より魅力的でプロフェッショナルなものにすることができます。
+このチュートリアルでは、JavaとAspose.Slidesを使用してSmartArtにカスタム子ノードを追加する方法を学習しました。これらの手順に従うことで、カスタマイズされたグラフィックでプレゼンテーションを強化し、より魅力的でプロフェッショナルなプレゼンテーションを作成できます。
 ## よくある質問
 ### Aspose.Slides for Java を使用して、さまざまな種類の SmartArt レイアウトを追加できますか?
 はい、Aspose.Slides for Java はさまざまな SmartArt レイアウトをサポートしており、プレゼンテーションのニーズに最適なレイアウトを選択できます。
 ### Aspose.Slides for Java は、さまざまなバージョンの PowerPoint と互換性がありますか?
-Aspose.Slides for Java は、さまざまなバージョンの PowerPoint とシームレスに連携するように設計されており、プラットフォーム間での互換性と一貫性を保証します。
+Aspose.Slides for Java は、さまざまなバージョンの PowerPoint とシームレスに連携するように設計されており、プラットフォーム間の互換性と一貫性を保証します。
 ### SmartArt 図形の外観をプログラムでカスタマイズできますか?
-もちろんです! Aspose.Slides for Java を使用すると、デザインの好みに合わせて SmartArt 図形の外観、サイズ、色、レイアウトをプログラムでカスタマイズできます。
-### Aspose.Slides for Java はドキュメントとサポートを提供しますか?
-はい、Aspose Web サイトで包括的なドキュメントやコミュニティ サポート フォーラムにアクセスできます。
+もちろんです！Aspose.Slides for Java を使用すると、デザインの好みに合わせて SmartArt 図形の外観、サイズ、色、レイアウトをプログラムでカスタマイズできます。
+### Aspose.Slides for Java ではドキュメントとサポートは提供されますか?
+はい、Aspose Web サイトに包括的なドキュメントがあり、コミュニティ サポート フォーラムにアクセスできます。
 ### Aspose.Slides for Java の試用版はありますか?
-はい、購入前に Aspose.Slides for Java の無料試用版を Web サイトからダウンロードして、その機能や性能を調べることができます。[ここ](https://releases.aspose.com/slides/java/).
+はい、購入前に Aspose.Slides for Java の無料試用版を Web サイトからダウンロードして、その機能や性能を試すことができます。 [ここ](https://releases。aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

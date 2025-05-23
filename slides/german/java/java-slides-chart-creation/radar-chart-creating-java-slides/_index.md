@@ -1,26 +1,28 @@
 ---
-title: Erstellen von Radardiagrammen in Java-Folien
-linktitle: Erstellen von Radardiagrammen in Java-Folien
-second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie mit Aspose.Slides für die Java-API Radardiagramme in Java-PowerPoint-Präsentationen erstellen.
-weight: 10
-url: /de/java/chart-creation/radar-chart-creating-java-slides/
+"description": "Erfahren Sie, wie Sie mit Aspose.Slides für die Java-API Radardiagramme in Java-PowerPoint-Präsentationen erstellen."
+"linktitle": "Radardiagramm erstellen in Java-Folien"
+"second_title": "Aspose.Slides Java PowerPoint-Verarbeitungs-API"
+"title": "Radardiagramm erstellen in Java-Folien"
+"url": "/de/java/chart-creation/radar-chart-creating-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Erstellen von Radardiagrammen in Java-Folien
+# Radardiagramm erstellen in Java-Folien
 
 
 ## Einführung in das Erstellen eines Radardiagramms in Java-Folien
 
-In diesem Tutorial führen wir Sie durch den Prozess der Erstellung eines Radardiagramms mithilfe der Aspose.Slides für Java-API. Radardiagramme sind nützlich, um Daten in einem kreisförmigen Muster zu visualisieren, wodurch mehrere Datenreihen leichter verglichen werden können. Wir stellen Ihnen Schritt-für-Schritt-Anleitungen sowie Java-Quellcode zur Verfügung.
+In diesem Tutorial führen wir Sie durch die Erstellung eines Radardiagramms mit der Aspose.Slides für Java-API. Radardiagramme eignen sich zur Visualisierung von Daten in einem kreisförmigen Muster und erleichtern so den Vergleich mehrerer Datenreihen. Wir stellen Ihnen eine Schritt-für-Schritt-Anleitung sowie Java-Quellcode zur Verfügung.
 
 ## Voraussetzungen
 
- Bevor wir beginnen, stellen Sie sicher, dass Sie die Aspose.Slides für Java-Bibliothek in Ihr Projekt integriert haben. Sie können die Bibliothek hier herunterladen:[Hier](https://releases.aspose.com/slides/java/).
+Bevor wir beginnen, stellen Sie sicher, dass Sie die Aspose.Slides für Java-Bibliothek in Ihr Projekt integriert haben. Sie können die Bibliothek herunterladen von [Hier](https://releases.aspose.com/slides/java/).
 
 ## Schritt 1: Einrichten der Präsentation
 
@@ -33,16 +35,16 @@ Presentation pres = new Presentation();
 
 ## Schritt 2: Hinzufügen eines Radardiagramms
 
-Als Nächstes fügen wir der Folie ein Radardiagramm hinzu. Wir geben die Position und Abmessungen des Diagramms an.
+Als Nächstes fügen wir der Folie ein Radardiagramm hinzu. Wir legen die Position und Abmessungen des Diagramms fest.
 
 ```java
 ISlide sld = pres.getSlides().get_Item(0);
 IChart ichart = sld.getShapes().addChart(ChartType.Radar, 0, 0, 400, 400);
 ```
 
-## Schritt 3: Diagrammdaten festlegen
+## Schritt 3: Festlegen der Diagrammdaten
 
-Wir legen nun die Diagrammdaten fest. Dazu müssen wir eine Datenarbeitsmappe erstellen, Kategorien hinzufügen und Reihen hinzufügen.
+Wir legen nun die Diagrammdaten fest. Dazu erstellen wir eine Datenarbeitsmappe und fügen Kategorien und Reihen hinzu.
 
 ```java
 int defaultWorksheetIndex = 0;
@@ -132,18 +134,18 @@ txtVal.getFillFormat().setFillType(FillType.Solid);
 txtVal.getFillFormat().getSolidFillColor().setColor(new Color(PresetColor.DimGray));
 txtVal.setLatinFont(new FontData("Calibri"));
 
-// Zahlenformat der Werteachse festlegen
+// Festlegen des Zahlenformats der Werteachse
 ichart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 ichart.getAxes().getVerticalAxis().setNumberFormat("\"$\"#,##0.00");
 
-// Einstellen des Haupteinheitswerts im Diagramm
+// Einstelldiagramm Haupteinheitswert
 ichart.getAxes().getVerticalAxis().setAutomaticMajorUnit(false);
 ichart.getAxes().getVerticalAxis().setMajorUnit(1.25f);
 ```
 
 ## Schritt 6: Speichern der Präsentation
 
-Speichern Sie abschließend die erstellte Präsentation mit dem Radardiagramm
+Abschließend speichern Sie die erstellte Präsentation mit dem Radardiagramm
 
 .
 
@@ -151,7 +153,7 @@ Speichern Sie abschließend die erstellte Präsentation mit dem Radardiagramm
 pres.save(outPath, SaveFormat.Pptx);
 ```
 
-Das ist es! Sie haben erfolgreich ein Radardiagramm in einer PowerPoint-Präsentation mit Aspose.Slides für Java erstellt. Sie können dieses Beispiel jetzt weiter an Ihre spezifischen Anforderungen anpassen.
+Fertig! Sie haben mit Aspose.Slides für Java erfolgreich ein Radardiagramm in einer PowerPoint-Präsentation erstellt. Sie können dieses Beispiel nun weiter an Ihre spezifischen Bedürfnisse anpassen.
 
 ## Vollständiger Quellcode zum Erstellen von Radardiagrammen in Java-Folien
 
@@ -160,11 +162,11 @@ String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx
 Presentation pres = new Presentation();
 try
 {
-	// Zur ersten Folie
+	// Zugriff auf die erste Folie
 	ISlide sld = pres.getSlides().get_Item(0);
 	// Radardiagramm hinzufügen
 	IChart ichart = sld.getShapes().addChart(ChartType.Radar, 0, 0, 400, 400);
-	// Festlegen des Indexes des Diagrammdatenblattes
+	// Festlegen des Index des Diagrammdatenblatts
 	int defaultWorksheetIndex = 0;
 	// Abrufen der Diagrammdaten Arbeitsblatt
 	IChartDataWorkbook fact = ichart.getChartData().getChartDataWorkbook();
@@ -194,7 +196,7 @@ try
 	// Serienfarbe festlegen
 	series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
-	//Jetzt wird eine weitere Datenreihe gefüllt
+	// Jetzt werden weitere Datenreihen gefüllt
 	series = ichart.getChartData().getSeries().get_Item(1);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 2.5));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 2.4));
@@ -228,10 +230,10 @@ try
 	txtVal.getFillFormat().setFillType(FillType.Solid);
 	txtVal.getFillFormat().getSolidFillColor().setColor(new Color(PresetColor.DimGray));
 	txtVal.setLatinFont(new FontData("Calibri"));
-	// Zahlenformat der Werteachse festlegen
+	// Festlegen des Zahlenformats der Werteachse
 	ichart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 	ichart.getAxes().getVerticalAxis().setNumberFormat("\"$\"#,##0.00");
-	// Einstellen des Haupteinheitswerts im Diagramm
+	// Einstelldiagramm Haupteinheitswert
 	ichart.getAxes().getVerticalAxis().setAutomaticMajorUnit(false);
 	ichart.getAxes().getVerticalAxis().setMajorUnit(1.25f);
 	// Generierte Präsentation speichern
@@ -258,25 +260,27 @@ ichart.getChartTitle().addTextFrameForOverriding("Radar Chart");
 
 ### Kann ich dem Radardiagramm weitere Datenreihen hinzufügen?
 
-Ja, Sie können weitere Datenreihen hinzufügen, indem Sie die Schritte in „Schritt 3“ und „Schritt 4“ für jede zusätzliche Reihe befolgen, die Sie einschließen möchten.
+Ja, Sie können weitere Datenreihen hinzufügen, indem Sie für jede weitere Reihe, die Sie einschließen möchten, die Schritte in „Schritt 3“ und „Schritt 4“ befolgen.
 
 ### Wie passe ich die Diagrammfarben an?
 
- Sie können die Serienfarben anpassen, indem Sie die Linien ändern, die die`SolidFillColor` Eigenschaft für jede Serie. Beispiel:
+Sie können die Serienfarben anpassen, indem Sie die Zeilen ändern, die die `SolidFillColor` Eigenschaft für jede Serie. Beispiel:
 ```java
 series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
 ```
 
 ### Wie kann ich die Achsenbeschriftungen und die Formatierung ändern?
 
-Informationen zum Anpassen der Achsenbeschriftungen und -formatierung, einschließlich Schriftgröße und -farbe, finden Sie unter „Schritt 5“.
+Informationen zum Anpassen der Achsenbeschriftungen und -formatierung, einschließlich Schriftgröße und -farbe, finden Sie in „Schritt 5“.
 
 ### Wie speichere ich das Diagramm in einem anderen Dateiformat?
 
-Sie können das Ausgabeformat ändern, indem Sie die Dateierweiterung im`outPath` Variable und unter Verwendung der entsprechenden`SaveFormat` . Um beispielsweise als PDF zu speichern, verwenden Sie`SaveFormat.Pdf`.
+Sie können das Ausgabeformat ändern, indem Sie die Dateierweiterung im `outPath` Variable und unter Verwendung der entsprechenden `SaveFormat`. Um beispielsweise als PDF zu speichern, verwenden Sie `SaveFormat.Pdf`.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Aspose.Slides का उपयोग करके स्लाइड पर ट्रांज़िशन मॉर्फ़ प्रकार कैसे सेट करें
-linktitle: स्लाइड पर ट्रांज़िशन मॉर्फ़ प्रकार सेट करें
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: .NET के लिए Aspose.Slides का उपयोग करके स्लाइड पर ट्रांज़िशन मॉर्फ़ प्रकार सेट करना सीखें। कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका। अपनी प्रस्तुतियों को अभी बेहतर बनाएँ!
-weight: 12
-url: /hi/net/slide-transition-effects/set-transition-morph-type/
+"description": ".NET के लिए Aspose.Slides का उपयोग करके स्लाइड पर ट्रांज़िशन मॉर्फ़ प्रकार सेट करना सीखें। कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका। अपनी प्रस्तुतियों को अभी बेहतर बनाएँ!"
+"linktitle": "स्लाइड पर ट्रांज़िशन मॉर्फ़ प्रकार सेट करें"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "Aspose.Slides का उपयोग करके स्लाइड पर ट्रांज़िशन मॉर्फ़ प्रकार कैसे सेट करें"
+"url": "/hi/net/slide-transition-effects/set-transition-morph-type/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Slides का उपयोग करके स्लाइड पर ट्रांज़िशन मॉर्फ़ प्रकार कैसे सेट करें
@@ -20,9 +22,9 @@ url: /hi/net/slide-transition-effects/set-transition-morph-type/
 
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
-1.  Aspose.Slides for .NET: आपके पास Aspose.Slides for .NET इंस्टॉल होना चाहिए। अगर नहीं है, तो आप इसे यहाँ से डाउनलोड कर सकते हैं।[Aspose.Slides for .NET डाउनलोड पृष्ठ](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides for .NET: आपके पास Aspose.Slides for .NET इंस्टॉल होना चाहिए। अगर नहीं है, तो आप इसे यहाँ से डाउनलोड कर सकते हैं। [Aspose.Slides for .NET डाउनलोड पृष्ठ](https://releases.aspose.com/slides/net/).
 
-2.  पावरपॉइंट प्रेजेंटेशन: पावरपॉइंट प्रेजेंटेशन तैयार करें (उदाहरण के लिए,`presentation.pptx`) जिस पर आप संक्रमण प्रभाव लागू करना चाहते हैं.
+2. पावरपॉइंट प्रेजेंटेशन: पावरपॉइंट प्रेजेंटेशन तैयार करें (उदाहरण के लिए, `presentation.pptx`) जिस पर आप संक्रमण प्रभाव लागू करना चाहते हैं.
 
 3. विकास परिवेश: आपको एक विकास परिवेश की आवश्यकता होती है, जो .NET विकास के लिए विजुअल स्टूडियो या कोई अन्य IDE हो सकता है।
 
@@ -45,7 +47,7 @@ using Aspose.Slides.Transitions;
 
 ### चरण 1: प्रस्तुति लोड करें
 
- हम उस पावरपॉइंट प्रेजेंटेशन को लोड करके शुरू करते हैं जिस पर आप काम करना चाहते हैं।`"Your Document Directory"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ.
+हम उस पावरपॉइंट प्रेजेंटेशन को लोड करके शुरू करते हैं जिस पर आप काम करना चाहते हैं। `"Your Document Directory"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -94,24 +96,26 @@ Aspose.Slides for .NET .NET अनुप्रयोगों में PowerPoi
 
 ### 2. क्या मैं खरीदने से पहले Aspose.Slides for .NET को आज़मा सकता हूँ?
 
- हां, आप .NET के लिए Aspose.Slides का निःशुल्क परीक्षण डाउनलोड कर सकते हैं[.NET परीक्षण के लिए Aspose.Slides पृष्ठ](https://releases.aspose.com/)इससे आप खरीदारी करने से पहले इसकी विशेषताओं का मूल्यांकन कर सकते हैं।
+हां, आप .NET के लिए Aspose.Slides का निःशुल्क परीक्षण डाउनलोड कर सकते हैं [.NET परीक्षण के लिए Aspose.Slides पृष्ठ](https://releases.aspose.com/)इससे आप खरीदारी करने से पहले इसकी विशेषताओं का मूल्यांकन कर सकते हैं।
 
 ### 3. मैं Aspose.Slides for .NET के लिए अस्थायी लाइसेंस कैसे प्राप्त करूं?
 
- आप .NET के लिए Aspose.Slides के लिए एक अस्थायी लाइसेंस प्राप्त कर सकते हैं[अस्थायी लाइसेंस पृष्ठ](https://purchase.aspose.com/temporary-license/)यह आपको मूल्यांकन और परीक्षण उद्देश्यों के लिए सीमित समय के लिए उत्पाद का उपयोग करने की अनुमति देता है।
+आप .NET के लिए Aspose.Slides के लिए एक अस्थायी लाइसेंस प्राप्त कर सकते हैं [अस्थायी लाइसेंस पृष्ठ](https://purchase.aspose.com/temporary-license/)यह आपको मूल्यांकन और परीक्षण उद्देश्यों के लिए सीमित समय के लिए उत्पाद का उपयोग करने की अनुमति देता है।
 
-### 4. मैं .NET के लिए Aspose.Slides का समर्थन कहां पा सकता हूं?
+### 4. मैं Aspose.Slides for .NET के लिए समर्थन कहां पा सकता हूं?
 
-किसी भी तकनीकी या उत्पाद-संबंधी प्रश्न के लिए, आप यहां जा सकते हैं[.NET फ़ोरम के लिए Aspose.Slides](https://forum.aspose.com/), जहां आप सामान्य प्रश्नों के उत्तर पा सकते हैं और समुदाय और Aspose समर्थन कर्मचारियों से सहायता प्राप्त कर सकते हैं।
+किसी भी तकनीकी या उत्पाद-संबंधी प्रश्न के लिए, आप यहां जा सकते हैं [.NET फ़ोरम के लिए Aspose.Slides](https://forum.aspose.com/), जहां आप सामान्य प्रश्नों के उत्तर पा सकते हैं और समुदाय और Aspose समर्थन कर्मचारियों से सहायता प्राप्त कर सकते हैं।
 
-### 5. मैं Aspose.Slides for .NET का उपयोग करके अन्य कौन से संक्रमण प्रभाव लागू कर सकता हूँ?
+### 5. मैं Aspose.Slides for .NET का उपयोग करके कौन से अन्य संक्रमण प्रभाव लागू कर सकता हूं?
 
- Aspose.Slides for .NET कई तरह के ट्रांज़िशन इफ़ेक्ट प्रदान करता है, जिसमें फ़ेड, पुश, वाइप और बहुत कुछ शामिल है। आप यहाँ पर दस्तावेज़ देख सकते हैं[.NET के लिए Aspose.Slides दस्तावेज़न पृष्ठ](https://reference.aspose.com/slides/net/) सभी उपलब्ध संक्रमण प्रकारों के विवरण के लिए कृपया देखें.
+Aspose.Slides for .NET कई तरह के ट्रांज़िशन इफ़ेक्ट प्रदान करता है, जिसमें फ़ेड, पुश, वाइप और बहुत कुछ शामिल है। आप यहाँ पर दस्तावेज़ देख सकते हैं [.NET के लिए Aspose.Slides दस्तावेज़न पृष्ठ](https://reference.aspose.com/slides/net/) सभी उपलब्ध संक्रमण प्रकारों के विवरण के लिए कृपया देखें.
+
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

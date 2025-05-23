@@ -1,44 +1,46 @@
 ---
-title: Konvertálja a Notes Slide View-t PDF-be a Java Slides alkalmazásban
-linktitle: Konvertálja a Notes Slide View-t PDF-be a Java Slides alkalmazásban
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan konvertálhat feljegyzéseket tartalmazó PowerPoint-prezentációkat PDF-fájlokká az Aspose.Slides for Java segítségével. Kövesse lépésenkénti útmutatónkat a forráskóddal.
-weight: 16
-url: /hu/java/presentation-conversion/convert-notes-slide-view-pdf-java-slides/
+"description": "Tanuld meg, hogyan konvertálhatsz jegyzetekkel ellátott PowerPoint-bemutatókat PDF-fájlokká az Aspose.Slides for Java segítségével. Kövesd lépésről lépésre szóló útmutatónkat forráskóddal."
+"linktitle": "Jegyzetek dianézetének konvertálása PDF-be Java diákban"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Jegyzetek dianézetének konvertálása PDF-be Java diákban"
+"url": "/hu/java/presentation-conversion/convert-notes-slide-view-pdf-java-slides/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Konvertálja a Notes Slide View-t PDF-be a Java Slides alkalmazásban
+# Jegyzetek dianézetének konvertálása PDF-be Java diákban
 
 
-## Bevezetés a jegyzetek dianézetének PDF formátumba konvertálásához a Java Slides alkalmazásban
+## Bevezetés a Jegyzetek dianézetének PDF-be konvertálásához Java Slides programban
 
-Ebben az oktatóanyagban végigvezetjük a PowerPoint prezentáció jegyzeteket tartalmazó dianézetű PDF-formátumba konvertálásának folyamatán az Aspose.Slides for Java könyvtár használatával. Ez a könyvtár hatékony funkciókat kínál a PowerPoint prezentációk használatához Java nyelven.
+Ebben az oktatóanyagban végigvezetünk egy jegyzeteket tartalmazó dianézetű PowerPoint-bemutató PDF-fájllá konvertálásának folyamatán az Aspose.Slides for Java könyvtár segítségével. Ez a könyvtár hatékony funkciókat biztosít a PowerPoint-bemutatókkal való munkához Java nyelven.
 
 ## Előfeltételek
-1. Java Development Kit (JDK) telepítve.
-2. Aspose.Slides for Java könyvtár hozzáadva a projekthez.
+1. Telepített Java fejlesztőkészlet (JDK).
+2. Az Aspose.Slides for Java könyvtár hozzáadva a projektedhez.
 
-## 1. lépés: Importálja a szükséges osztályokat
-A kezdéshez importálnia kell a szükséges osztályokat az Aspose.Slides könyvtárból. Íme a kód ehhez:
+## 1. lépés: Szükséges osztályok importálása
+A kezdéshez importálnod kell a szükséges osztályokat az Aspose.Slides könyvtárból. Íme a kód ehhez:
 
 ```java
 import com.aspose.slides.*;
 ```
 
-## 2. lépés: Töltse be a PowerPoint-prezentációt
- Elő kell készítenie a PowerPoint bemutatófájlt. Cserélje ki`"Your Document Directory"` annak a könyvtárnak az elérési útjával, ahol a prezentációs fájl található. Íme a kód a prezentáció betöltéséhez:
+## 2. lépés: Töltse be a PowerPoint-bemutatót
+Készen kell lennie a PowerPoint bemutató fájlodnak. Csere `"Your Document Directory"` ... a prezentációs fájl könyvtárának elérési útjával. Íme a prezentáció betöltéséhez szükséges kód:
 
 ```java
 String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "NotesFile.pptx");
 ```
 
-## 3. lépés: Konfigurálja a PDF-beállításokat
-Most konfiguráljuk a PDF-exportálási beállításokat. Pontosabban, a megjegyzések pozícióját "BottomFull" értékre állítjuk, hogy a PDF-ben a diák alatti megjegyzések is megjelenjenek. Íme a kód:
+## 3. lépés: PDF-beállítások konfigurálása
+Most konfiguráljuk a PDF exportálási beállításait. Konkrétan a jegyzetek pozícióját „BottomFull” értékre állítjuk, hogy a jegyzetek a PDF diák alatt is megjelenjenek. Íme a kód:
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
@@ -46,35 +48,35 @@ INotesCommentsLayoutingOptions options = pdfOptions.getNotesCommentsLayouting();
 options.setNotesPosition(NotesPositions.BottomFull);
 ```
 
-Igényei szerint testreszabhat más PDF-beállításokat.
+Más PDF-beállításokat is testreszabhat az igényei szerint.
 
-## 4. lépés: Mentse el a prezentációt PDF formátumban a Megjegyzésekkel
- Végül mentsük el a prezentációt PDF fájlként a jegyzetekkel együtt. Megadhatja a kimeneti fájl nevét (pl.`"Pdf_Notes_out.pdf"`) és válassza ki a formátumot (`SaveFormat.Pdf`). Íme a kód ehhez:
+## 4. lépés: Mentse el a prezentációt PDF formátumban jegyzetekkel
+Végül mentsük el a prezentációt PDF fájlként, a jegyzetekkel együtt. Megadhatjuk a kimeneti fájl nevét (pl. `"Pdf_Notes_out.pdf"`) és válassza ki a formátumot (`SaveFormat.Pdf`). Itt a kód ehhez:
 
 ```java
 presentation.save(dataDir + "Pdf_Notes_out.pdf", SaveFormat.Pdf, pdfOptions);
 ```
 
-## 5. lépés: Tisztítsa meg az erőforrásokat
-Ne felejtse el felszabadítani az erőforrásokat, miután végzett a bemutatóval:
+## 5. lépés: Erőforrások tisztítása
+Ne felejtsd el elérhetővé tenni az erőforrásokat, miután befejezted a prezentációt:
 
 ```java
 if (presentation != null) presentation.dispose();
 ```
 
-## Teljes forráskód a jegyzetek dianézetének PDF formátumba konvertálásához a Java diákban
+## Teljes forráskód a Jegyzetek diavetítésének PDF-be konvertálásához Java diákban
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
 String dataDir = "Your Document Directory";
-// Példányosítson egy bemutató objektumot, amely egy prezentációs fájlt képvisel
+// Prezentációs fájlt reprezentáló Presentation objektum példányosítása
 Presentation presentation = new Presentation(dataDir + "NotesFile.pptx");
 try
 {
 	PdfOptions pdfOptions = new PdfOptions();
 	INotesCommentsLayoutingOptions options = pdfOptions.getNotesCommentsLayouting();
 	options.setNotesPosition(NotesPositions.BottomFull);
-	// A prezentáció mentése PDF jegyzetekbe
+	// Prezentáció mentése PDF jegyzetekbe
 	presentation.save(dataDir + "Pdf_Notes_out.pdf", SaveFormat.Pdf, pdfOptions);
 }
 finally
@@ -85,36 +87,38 @@ finally
 
 ## Következtetés
 
-Ebben az oktatóanyagban megvizsgáltuk, hogyan konvertálhat feljegyzés-dianézetet tartalmazó PowerPoint-prezentációkat PDF-fájlokká az Aspose.Slides for Java könyvtár használatával. A konverzió eléréséhez lépésről lépésre követtük a forráskódot tartalmazó útmutatót. Íme a legfontosabb tudnivalók:
+Ebben az oktatóanyagban azt vizsgáltuk meg, hogyan konvertálhatunk jegyzeteket tartalmazó PowerPoint prezentációkat PDF formátumba az Aspose.Slides for Java könyvtár segítségével. Lépésről lépésre bemutatott útmutatót és forráskódot követtünk a konvertálás elvégzéséhez. Íme a legfontosabb tudnivalók:
 
 ## GYIK
 
-### Hogyan változtathatom meg a megjegyzések pozícióját a PDF-ben?
+### Hogyan tudom megváltoztatni a jegyzetek helyét a PDF-ben?
 
- A megjegyzések pozícióját a PDF-ben módosíthatja a`setNotesPosition` módszer argumentum. Például beállíthatja`NotesPositions.RightFull` a jegyzetek elhelyezéséhez a diák jobb oldalán.
+A PDF-ben a jegyzetek pozícióját a következő módosításával módosíthatja: `setNotesPosition` metódus argumentum. Például beállíthatja úgy, hogy `NotesPositions.RightFull` a jegyzetek diák jobb oldalára helyezéséhez.
 
 ```java
 options.setNotesPosition(NotesPositions.RightFull);
 ```
 
-### Testreszabhatom a PDF-exportálást?
+### Testreszabhatom tovább a PDF exportálását?
 
- Igen, testreszabhatja a PDF-exportálást a különböző beállítások módosításával`PdfOptions` tárgy. Például beállíthatja a minőséget, a tömörítést és egyéb paramétereket igényei szerint.
+Igen, testreszabhatja a PDF exportálását a különféle beállítások módosításával a `PdfOptions` objektum. Például beállíthatja a minőséget, a tömörítést és egyéb paramétereket az igényei szerint.
 
-### Hogyan szerezhetem be az Aspose.Slides for Java programot?
+### Hogyan tudom letölteni az Aspose.Slides fájlt Java-hoz?
 
- Az Aspose.Slides for Java letölthető a következő webhelyről:[itt](https://releases.aspose.com/slides/java/).
+Az Aspose.Slides Java-hoz készült verzióját a következő weboldalról töltheti le: [itt](https://releases.aspose.com/slides/java/).
 
 ### Vannak-e licenckövetelmények az Aspose.Slides használatához?
 
-Igen, az Aspose.Slides kereskedelmi használatra érvényes licenc szükséges. A licencet az Aspose webhelyéről szerezheti be.
+Igen, az Aspose.Slides kereskedelmi célú felhasználásához érvényes licenc szükséges. A licencet az Aspose weboldalán szerezheti be.
 
 ### Hol találok további dokumentációt és példákat?
 
- Az Aspose.Slides for Java átfogó dokumentációját és példáit itt találja[itt](https://reference.aspose.com/slides/java/).
+Az Aspose.Slides Java-verziójához átfogó dokumentációt és példákat talál a következő címen: [itt](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

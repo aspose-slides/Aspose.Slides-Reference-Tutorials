@@ -1,35 +1,37 @@
 ---
-title: Κινούμενη κίνηση στοιχείων κατηγοριών σε διαφάνειες Java
-linktitle: Κινούμενη κίνηση στοιχείων κατηγοριών σε διαφάνειες Java
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Βελτιστοποιήστε τις παρουσιάσεις σας Java με το Aspose.Slides for Java. Μάθετε πώς να κάνετε κίνηση στοιχείων κατηγορίας στις διαφάνειες του PowerPoint βήμα προς βήμα.
-weight: 10
-url: /el/java/animation-and-layout/animating-categories-elements-java-slides/
+"description": "Βελτιστοποιήστε τις παρουσιάσεις σας σε Java με το Aspose.Slides για Java. Μάθετε πώς να δημιουργείτε κίνηση σε στοιχεία κατηγορίας σε διαφάνειες PowerPoint βήμα προς βήμα."
+"linktitle": "Κίνηση στοιχείων κατηγοριών σε διαφάνειες Java"
+"second_title": "Aspose.Slides API επεξεργασίας Java PowerPoint"
+"title": "Κίνηση στοιχείων κατηγοριών σε διαφάνειες Java"
+"url": "/el/java/animation-and-layout/animating-categories-elements-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Κινούμενη κίνηση στοιχείων κατηγοριών σε διαφάνειες Java
+# Κίνηση στοιχείων κατηγοριών σε διαφάνειες Java
 
 
-## Εισαγωγή στην Κινούμενη Στοιχεία Κατηγοριών σε Διαφάνειες Java
+## Εισαγωγή στην Προσθήκη Ζωής σε Στοιχεία Κατηγοριών σε Διαφάνειες Java
 
-Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία της κίνησης στοιχείων κατηγορίας σε διαφάνειες Java χρησιμοποιώντας το Aspose.Slides για Java. Αυτός ο αναλυτικός οδηγός θα σας παρέχει τον πηγαίο κώδικα και εξηγήσεις που θα σας βοηθήσουν να επιτύχετε αυτό το εφέ κινούμενης εικόνας.
+Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία δημιουργίας κίνησης στοιχείων κατηγορίας σε διαφάνειες Java χρησιμοποιώντας το Aspose.Slides για Java. Αυτός ο οδηγός βήμα προς βήμα θα σας παρέχει τον πηγαίο κώδικα και εξηγήσεις που θα σας βοηθήσουν να επιτύχετε αυτό το εφέ κίνησης.
 
 ## Προαπαιτούμενα
 
-Πριν ξεκινήσετε, βεβαιωθείτε ότι έχετε τα ακόλουθα:
+Πριν ξεκινήσετε, βεβαιωθείτε ότι έχετε τα εξής:
 
-- Το Aspose.Slides for Java API έχει εγκατασταθεί.
-- Μια υπάρχουσα παρουσίαση PowerPoint που περιέχει ένα γράφημα. Θα δημιουργήσετε κίνηση στα στοιχεία κατηγορίας αυτού του γραφήματος.
+- Εγκατεστημένο το Aspose.Slides για το Java API.
+- Μια υπάρχουσα παρουσίαση PowerPoint που περιέχει ένα γράφημα. Θα προσθέσετε κίνηση στα στοιχεία κατηγορίας αυτού του γραφήματος.
 
-## Βήμα 1: Εισαγάγετε τη Βιβλιοθήκη Aspose.Slides
+## Βήμα 1: Εισαγωγή της βιβλιοθήκης Aspose.Slides
 
-Για να ξεκινήσετε, εισαγάγετε τη βιβλιοθήκη Aspose.Slides στο έργο σας Java. Μπορείτε να κάνετε λήψη και να προσθέσετε τη βιβλιοθήκη στη διαδρομή τάξης του έργου σας. Βεβαιωθείτε ότι έχετε ρυθμίσει τις απαραίτητες εξαρτήσεις.
+Για να ξεκινήσετε, εισαγάγετε τη βιβλιοθήκη Aspose.Slides στο έργο Java σας. Μπορείτε να κατεβάσετε και να προσθέσετε τη βιβλιοθήκη στη διαδρομή κλάσεων του έργου σας. Βεβαιωθείτε ότι έχετε ρυθμίσει τις απαραίτητες εξαρτήσεις.
 
-## Βήμα 2: Φορτώστε την παρουσίαση
+## Βήμα 2: Φόρτωση της παρουσίασης
 
 ```java
 // Η διαδρομή προς τον κατάλογο εγγράφων.
@@ -37,9 +39,9 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
- Σε αυτόν τον κώδικα, φορτώνουμε μια υπάρχουσα παρουσίαση PowerPoint που περιέχει το γράφημα που θέλετε να κάνετε κίνηση. Αντικαθιστώ`"Your Document Directory"` με την πραγματική διαδρομή προς τον κατάλογο εγγράφων σας.
+Σε αυτόν τον κώδικα, φορτώνουμε μια υπάρχουσα παρουσίαση PowerPoint που περιέχει το γράφημα στο οποίο θέλετε να προσθέσετε κίνηση. Αντικαταστήστε `"Your Document Directory"` με την πραγματική διαδρομή προς τον κατάλογο εγγράφων σας.
 
-## Βήμα 3: Λάβετε μια αναφορά στο αντικείμενο του γραφήματος
+## Βήμα 3: Λήψη αναφοράς στο αντικείμενο γραφήματος
 
 ```java
 ISlide slide = presentation.getSlides().get_Item(0);
@@ -47,9 +49,9 @@ IShapeCollection shapes = slide.getShapes();
 IChart chart = (IChart) shapes.get_Item(0);
 ```
 
-Λαμβάνουμε μια αναφορά στο αντικείμενο του γραφήματος στην πρώτη διαφάνεια της παρουσίασης. Προσαρμόστε το ευρετήριο διαφανειών (`get_Item(0)`) και ευρετήριο σχήματος (`get_Item(0)`) όπως απαιτείται για να αποκτήσετε πρόσβαση στο συγκεκριμένο γράφημά σας.
+Λαμβάνουμε μια αναφορά στο αντικείμενο γραφήματος στην πρώτη διαφάνεια της παρουσίασης. Προσαρμόστε τον δείκτη διαφάνειας (`get_Item(0)`) και δείκτης σχήματος (`get_Item(0)`) όπως απαιτείται για να αποκτήσετε πρόσβαση στο συγκεκριμένο γράφημά σας.
 
-## Βήμα 4: Κινούμενη εικόνα των στοιχείων των κατηγοριών
+## Βήμα 4: Κίνηση στοιχείων κατηγοριών
 
 ```java
 slide.getTimeline().getMainSequence().addEffect(chart, EffectType.Fade, EffectSubtype.None, EffectTriggerType.AfterPrevious);
@@ -61,29 +63,29 @@ for (int i = 0; i < chart.getChartData().getCategories().size(); i++) {
 }
 ```
 
-Εμψυχώνουμε τα στοιχεία των κατηγοριών μέσα στο γράφημα. Αυτός ο κώδικας προσθέτει ένα εφέ εξασθένισης σε ολόκληρο το γράφημα και στη συνέχεια προσθέτει ένα εφέ "Εμφάνιση" σε κάθε στοιχείο σε κάθε κατηγορία. Προσαρμόστε τον τύπο και τον υποτύπο εφέ όπως απαιτείται.
+Προσθέτουμε κίνηση στα στοιχεία των κατηγοριών μέσα στο γράφημα. Αυτός ο κώδικας προσθέτει ένα εφέ fade σε ολόκληρο το γράφημα και στη συνέχεια προσθέτει ένα εφέ "Εμφάνιση" σε κάθε στοιχείο μέσα σε κάθε κατηγορία. Προσαρμόστε τον τύπο και τον υποτύπο του εφέ όπως απαιτείται.
 
-## Βήμα 5: Αποθηκεύστε την Παρουσίαση
+## Βήμα 5: Αποθήκευση της παρουσίασης
 
 ```java
 presentation.save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
 ```
 
- Τέλος, αποθηκεύστε την τροποποιημένη παρουσίαση με το κινούμενο γράφημα σε ένα νέο αρχείο. Αντικαθιστώ`"AnimatingCategoriesElements_out.pptx"` με το επιθυμητό όνομα αρχείου εξόδου.
+Τέλος, αποθηκεύστε την τροποποιημένη παρουσίαση με το κινούμενο γράφημα σε ένα νέο αρχείο. Αντικαταστήστε `"AnimatingCategoriesElements_out.pptx"` με το όνομα αρχείου εξόδου που επιθυμείτε.
 
 
-## Πλήρης Πηγαίος Κώδικας για Κίνηση Στοιχείων Κατηγοριών σε Διαφάνειες Java
+## Πλήρης πηγαίος κώδικας για την κίνηση στοιχείων κατηγοριών σε διαφάνειες Java
 ```java
 // Η διαδρομή προς τον κατάλογο εγγράφων.
 String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 try
 {
-	// Λάβετε αναφορά για το αντικείμενο του γραφήματος
+	// Λήψη αναφοράς του αντικειμένου γραφήματος
 	ISlide slide = presentation.getSlides().get_Item(0);
 	IShapeCollection shapes = slide.getShapes();
 	IChart chart = (IChart) shapes.get_Item(0);
-	// Εμψύχωση στοιχείων κατηγοριών
+	// Στοιχεία κατηγοριών κίνησης
 	slide.getTimeline().getMainSequence().addEffect(chart, EffectType.Fade, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 0, 0, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 0, 1, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
@@ -97,7 +99,7 @@ try
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 1, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 2, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 3, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
-	// Γράψτε το αρχείο παρουσίασης στο δίσκο
+	// Εγγραφή του αρχείου παρουσίασης στο δίσκο
 	presentation.save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
 }
 finally
@@ -106,27 +108,29 @@ finally
 }
 ```
 
-## συμπέρασμα
+## Σύναψη
 
-Έχετε κινήσει επιτυχώς τα στοιχεία κατηγορίας σε μια διαφάνεια Java χρησιμοποιώντας το Aspose.Slides για Java. Αυτός ο οδηγός βήμα προς βήμα σάς παρείχε τον απαραίτητο πηγαίο κώδικα και επεξηγήσεις για να επιτύχετε αυτό το εφέ κινούμενης εικόνας στις παρουσιάσεις σας στο PowerPoint. Πειραματιστείτε με διαφορετικά εφέ και ρυθμίσεις για να προσαρμόσετε περαιτέρω τα κινούμενα σχέδια σας.
+Έχετε δημιουργήσει με επιτυχία κίνηση στα στοιχεία κατηγορίας σε μια διαφάνεια Java χρησιμοποιώντας το Aspose.Slides για Java. Αυτός ο οδηγός βήμα προς βήμα σάς παρείχε τον απαραίτητο πηγαίο κώδικα και εξηγήσεις για να επιτύχετε αυτό το εφέ κίνησης στις παρουσιάσεις PowerPoint σας. Πειραματιστείτε με διαφορετικά εφέ και ρυθμίσεις για να προσαρμόσετε περαιτέρω τις κινήσεις σας.
 
 ## Συχνές ερωτήσεις
 
-### Πώς μπορώ να προσαρμόσω τα εφέ κινούμενων εικόνων;
+### Πώς μπορώ να προσαρμόσω τα εφέ κίνησης;
 
- Μπορείτε να προσαρμόσετε τα εφέ κίνησης αλλάζοντας το`EffectType` και`EffectSubtype` παραμέτρους κατά την προσθήκη εφέ στα στοιχεία του γραφήματος. Ανατρέξτε στην τεκμηρίωση Aspose.Slides for Java για περισσότερες λεπτομέρειες σχετικά με τα διαθέσιμα εφέ κινούμενων εικόνων.
+Μπορείτε να προσαρμόσετε τα εφέ κίνησης αλλάζοντας το `EffectType` και `EffectSubtype` παραμέτρους κατά την προσθήκη εφέ στα στοιχεία του γραφήματος. Ανατρέξτε στην τεκμηρίωση του Aspose.Slides για Java για περισσότερες λεπτομέρειες σχετικά με τα διαθέσιμα εφέ κίνησης.
 
-### Μπορώ να εφαρμόσω αυτά τα κινούμενα σχέδια σε άλλους τύπους γραφημάτων;
+### Μπορώ να εφαρμόσω αυτές τις κινούμενες εικόνες σε άλλους τύπους γραφημάτων;
 
-Ναι, μπορείτε να εφαρμόσετε παρόμοια κινούμενα σχέδια σε άλλους τύπους γραφημάτων τροποποιώντας τον κώδικα για να στοχεύσετε τα συγκεκριμένα στοιχεία γραφήματος που θέλετε να κάνετε κίνηση. Προσαρμόστε τη δομή και τις παραμέτρους του βρόχου ανάλογα.
+Ναι, μπορείτε να εφαρμόσετε παρόμοιες κινήσεις σε άλλους τύπους γραφημάτων τροποποιώντας τον κώδικα για να στοχεύσετε τα συγκεκριμένα στοιχεία του γραφήματος που θέλετε να ζωντανέψετε. Προσαρμόστε τη δομή και τις παραμέτρους του βρόχου ανάλογα.
 
 ### Πώς μπορώ να μάθω περισσότερα για το Aspose.Slides για Java;
 
- Για πλήρη τεκμηρίωση και πρόσθετους πόρους, επισκεφθείτε τη διεύθυνση[Aspose.Slides for Java API Reference](https://reference.aspose.com/slides/java/) . Μπορείτε επίσης να κατεβάσετε τη βιβλιοθήκη από[εδώ](https://releases.aspose.com/slides/java/).
+Για πλήρη τεκμηρίωση και πρόσθετους πόρους, επισκεφθείτε τη διεύθυνση [Aspose.Slides για αναφορά API Java](https://reference.aspose.com/slides/java/)Μπορείτε επίσης να κατεβάσετε τη βιβλιοθήκη από [εδώ](https://releases.aspose.com/slides/java/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

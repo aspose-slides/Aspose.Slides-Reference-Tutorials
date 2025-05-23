@@ -1,30 +1,32 @@
 ---
-title: รับตำแหน่งที่แท้จริงของป้ายกำกับข้อมูลแผนภูมิใน Java Slides
-linktitle: รับตำแหน่งที่แท้จริงของป้ายกำกับข้อมูลแผนภูมิใน Java Slides
-second_title: Aspose.Slides Java PowerPoint การประมวลผล API
-description: เรียนรู้วิธีรับตำแหน่งที่แท้จริงของป้ายกำกับข้อมูลแผนภูมิใน Java Slides โดยใช้ Aspose.Slides สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมซอร์สโค้ด
-weight: 18
-url: /th/java/data-manipulation/actual-position-chart-data-label-java-slides/
+"description": "เรียนรู้วิธีรับตำแหน่งจริงของป้ายข้อมูลแผนภูมิใน Java Slides โดยใช้ Aspose.Slides สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับ"
+"linktitle": "รับตำแหน่งจริงของป้ายข้อมูลแผนภูมิใน Java Slides"
+"second_title": "API การประมวลผล Java PowerPoint ของ Aspose.Slides"
+"title": "รับตำแหน่งจริงของป้ายข้อมูลแผนภูมิใน Java Slides"
+"url": "/th/java/data-manipulation/actual-position-chart-data-label-java-slides/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# รับตำแหน่งที่แท้จริงของป้ายกำกับข้อมูลแผนภูมิใน Java Slides
+# รับตำแหน่งจริงของป้ายข้อมูลแผนภูมิใน Java Slides
 
 
-## ข้อมูลเบื้องต้นเกี่ยวกับการรับตำแหน่งที่แท้จริงของป้ายกำกับข้อมูลแผนภูมิใน Java Slides
+## บทนำสู่การรับตำแหน่งจริงของป้ายข้อมูลแผนภูมิใน Java Slides
 
-ในบทช่วยสอนนี้ คุณจะได้เรียนรู้วิธีดึงข้อมูลตำแหน่งจริงของป้ายกำกับข้อมูลแผนภูมิโดยใช้ Aspose.Slides สำหรับ Java เราจะสร้างโปรแกรม Java ที่สร้างงานนำเสนอ PowerPoint ด้วยแผนภูมิ ปรับแต่งป้ายข้อมูล จากนั้นเพิ่มรูปร่างที่แสดงถึงตำแหน่งของป้ายข้อมูลเหล่านี้
+ในบทช่วยสอนนี้ คุณจะได้เรียนรู้วิธีดึงตำแหน่งจริงของป้ายข้อมูลแผนภูมิโดยใช้ Aspose.Slides สำหรับ Java เราจะสร้างโปรแกรม Java ที่สร้างการนำเสนอ PowerPoint ด้วยแผนภูมิ ปรับแต่งป้ายข้อมูล และเพิ่มรูปร่างที่แสดงตำแหน่งของป้ายข้อมูลเหล่านี้
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่คุณจะเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าไลบรารี Aspose.Slides for Java ในโปรเจ็กต์ Java ของคุณแล้ว
+ก่อนที่คุณจะเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าไลบรารี Aspose.Slides สำหรับ Java ในโปรเจ็กต์ Java ของคุณแล้ว
 
-## ขั้นตอนที่ 1: สร้างงานนำเสนอ PowerPoint
+## ขั้นตอนที่ 1: สร้างการนำเสนอ PowerPoint
 
-ขั้นแรก มาสร้างงานนำเสนอ PowerPoint ใหม่และเพิ่มแผนภูมิลงไป เราจะปรับแต่งป้ายกำกับข้อมูลของแผนภูมิในภายหลังในบทช่วยสอน
+ขั้นแรก ให้สร้างงานนำเสนอ PowerPoint ใหม่และเพิ่มแผนภูมิลงไป เราจะปรับแต่งป้ายข้อมูลของแผนภูมิในภายหลังในบทช่วยสอนนี้
 
 ```java
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
@@ -38,12 +40,12 @@ try {
 }
 ```
 
-## ขั้นตอนที่ 2: ปรับแต่งป้ายกำกับข้อมูล
-ตอนนี้ มาปรับแต่งป้ายชื่อข้อมูลสำหรับชุดแผนภูมิกันดีกว่า เราจะกำหนดตำแหน่งและแสดงค่า
+## ขั้นตอนที่ 2: ปรับแต่งป้ายข้อมูล
+ตอนนี้เรามาปรับแต่งป้ายข้อมูลสำหรับชุดแผนภูมิกัน เราจะกำหนดตำแหน่งและแสดงค่าต่างๆ
 
 ```java
 try {
-    // ... (รหัสก่อนหน้า)
+    // ... (โค้ดก่อนหน้า)
     for (IChartSeries series : chart.getChartData().getSeries()) {
         series.getLabels().getDefaultDataLabelFormat().setPosition(LegendDataLabelPosition.OutsideEnd);
         series.getLabels().getDefaultDataLabelFormat().setShowValue(true);
@@ -54,12 +56,12 @@ try {
 }
 ```
 
-## ขั้นตอนที่ 3: รับตำแหน่งที่แท้จริงของป้ายกำกับข้อมูล
-ในขั้นตอนนี้ เราจะวนซ้ำจุดข้อมูลของชุดแผนภูมิและดึงข้อมูลตำแหน่งจริงของป้ายกำกับข้อมูลที่มีค่ามากกว่า 4 จากนั้นเราจะเพิ่มจุดไข่ปลาเพื่อแสดงตำแหน่งเหล่านี้
+## ขั้นตอนที่ 3: รับตำแหน่งจริงของป้ายข้อมูล
+ในขั้นตอนนี้ เราจะวนซ้ำผ่านจุดข้อมูลของชุดแผนภูมิ และดึงตำแหน่งจริงของป้ายข้อมูลซึ่งมีค่ามากกว่า 4 จากนั้นเราจะเพิ่มวงรีเพื่อแสดงตำแหน่งเหล่านี้
 
 ```java
 try {
-    // ... (รหัสก่อนหน้า)
+    // ... (โค้ดก่อนหน้า)
     for (IChartSeries series : chart.getChartData().getSeries()) {
         for (IChartDataPoint point : series.getDataPoints()) {
             if (point.getValue().toDouble() > 4) {
@@ -80,18 +82,18 @@ try {
 ```
 
 ## ขั้นตอนที่ 4: บันทึกการนำเสนอ
-สุดท้าย ให้บันทึกงานนำเสนอที่สร้างขึ้นลงในไฟล์
+สุดท้ายให้บันทึกการนำเสนอที่สร้างขึ้นลงในไฟล์
 
 ```java
 try {
-    // ... (รหัสก่อนหน้า)
+    // ... (โค้ดก่อนหน้า)
     pres.save(dataDir + "GetActualPositionOFChartDatalabel.pptx", SaveFormat.Pptx);
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
 
-## กรอกซอร์สโค้ดเพื่อรับตำแหน่งที่แท้จริงของป้ายกำกับข้อมูลแผนภูมิใน Java Slides
+## โค้ดต้นฉบับที่สมบูรณ์สำหรับรับตำแหน่งจริงของป้ายข้อมูลแผนภูมิใน Java Slides
 
 ```java
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
@@ -118,7 +120,7 @@ try
 				float h = point.getLabel().getActualHeight();
 				IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Ellipse, x, y, w, h);
 				shape.getFillFormat().setFillType(FillType.Solid);
-				shape.getFillFormat().getSolidFillColor().setColor(com.aspose.cells.Color.fromArgb(100, 0, 255, 0).d());//ทำ
+				shape.getFillFormat().getSolidFillColor().setColor(com.aspose.cells.Color.fromArgb(100, 0, 255, 0).d());//สิ่งที่ต้องทำ
 			}
 		}
 	}
@@ -132,13 +134,13 @@ finally
 
 ## บทสรุป
 
-ในบทช่วยสอนนี้ คุณได้เรียนรู้วิธีดึงข้อมูลตำแหน่งจริงของป้ายกำกับข้อมูลแผนภูมิใน Java Slides โดยใช้ Aspose.Slides สำหรับ Java ตอนนี้คุณสามารถใช้ความรู้นี้เพื่อปรับปรุงงานนำเสนอ PowerPoint ของคุณด้วยป้ายข้อมูลที่กำหนดเองและการแสดงตำแหน่งของพวกเขาด้วยภาพ
+ในบทช่วยสอนนี้ คุณจะได้เรียนรู้วิธีการดึงตำแหน่งจริงของป้ายข้อมูลแผนภูมิใน Java Slides โดยใช้ Aspose.Slides สำหรับ Java ตอนนี้คุณสามารถใช้ความรู้เหล่านี้เพื่อปรับปรุงการนำเสนอ PowerPoint ของคุณด้วยป้ายข้อมูลที่กำหนดเองและการแสดงภาพตำแหน่งของป้ายข้อมูลเหล่านั้น
 
 ## คำถามที่พบบ่อย
 
-### ฉันจะปรับแต่งป้ายกำกับข้อมูลในแผนภูมิได้อย่างไร
+### ฉันจะปรับแต่งป้ายข้อมูลในแผนภูมิได้อย่างไร
 
- หากต้องการปรับแต่งป้ายกำกับข้อมูลในแผนภูมิ คุณสามารถใช้`setDefaultDataLabelFormat` บนชุดแผนภูมิและตั้งค่าคุณสมบัติ เช่น ตำแหน่งและการมองเห็น ตัวอย่างเช่น:
+หากต้องการปรับแต่งป้ายข้อมูลในแผนภูมิ คุณสามารถใช้ `setDefaultDataLabelFormat` วิธีการบนชุดแผนภูมิและตั้งค่าคุณสมบัติเช่นตำแหน่งและการมองเห็น ตัวอย่างเช่น:
 ```java
 for (IChartSeries series : chart.getChartData().getSeries()) {
     series.getLabels().getDefaultDataLabelFormat().setPosition(LegendDataLabelPosition.OutsideEnd);
@@ -146,9 +148,9 @@ for (IChartSeries series : chart.getChartData().getSeries()) {
 }
 ```
 
-### ฉันจะเพิ่มรูปร่างเพื่อแสดงตำแหน่งป้ายกำกับข้อมูลได้อย่างไร
+### ฉันจะเพิ่มรูปร่างเพื่อแสดงตำแหน่งป้ายข้อมูลได้อย่างไร
 
- คุณสามารถวนซ้ำจุดข้อมูลของชุดแผนภูมิและใช้`getActualX`, `getActualY`, `getActualWidth` , และ`getActualHeight`วิธีการของฉลากข้อมูลเพื่อให้ได้ตำแหน่ง จากนั้นคุณสามารถเพิ่มรูปร่างโดยใช้`addAutoShape` วิธี. นี่คือตัวอย่าง:
+คุณสามารถทำซ้ำผ่านจุดข้อมูลของชุดแผนภูมิและใช้ `getActualX`- `getActualY`- `getActualWidth`, และ `getActualHeight` วิธีการของป้ายข้อมูลเพื่อรับตำแหน่ง จากนั้นคุณสามารถเพิ่มรูปร่างโดยใช้ `addAutoShape` วิธีการ นี่คือตัวอย่าง:
 ```java
 float x = point.getLabel().getActualX();
 float y = point.getLabel().getActualY();
@@ -157,15 +159,17 @@ float h = point.getLabel().getActualHeight();
 IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Ellipse, x, y, w, h);
 ```
 
-### ฉันจะบันทึกงานนำเสนอที่สร้างขึ้นได้อย่างไร
+### ฉันสามารถบันทึกการนำเสนอที่สร้างขึ้นได้อย่างไร
 
- คุณสามารถบันทึกการนำเสนอที่สร้างขึ้นได้โดยใช้`save` วิธี. ระบุเส้นทางไฟล์ที่ต้องการและไฟล์`SaveFormat` เป็นพารามิเตอร์ ตัวอย่างเช่น:
+คุณสามารถบันทึกการนำเสนอที่สร้างขึ้นได้โดยใช้ `save` วิธีการ ระบุเส้นทางไฟล์ที่ต้องการและ `SaveFormat` เป็นพารามิเตอร์ เช่น:
 ```java
 pres.save(dataDir + "GetActualPositionOFChartDatalabel.pptx", SaveFormat.Pptx);
 ```
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

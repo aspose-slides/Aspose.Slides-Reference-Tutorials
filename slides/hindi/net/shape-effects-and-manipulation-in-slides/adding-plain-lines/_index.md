@@ -1,14 +1,16 @@
 ---
-title: Aspose.Slides का उपयोग करके प्रेजेंटेशन स्लाइड्स में सादी लाइनें जोड़ना
-linktitle: Aspose.Slides का उपयोग करके प्रेजेंटेशन स्लाइड्स में सादी लाइनें जोड़ना
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: Aspose.Slides का उपयोग करके .NET में अपने PowerPoint प्रेजेंटेशन को बेहतर बनाएँ। सरलता से सरल रेखाएँ जोड़ने के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 16
-url: /hi/net/shape-effects-and-manipulation-in-slides/adding-plain-lines/
+"description": "Aspose.Slides का उपयोग करके .NET में अपने PowerPoint प्रेजेंटेशन को बेहतर बनाएँ। सरलता से सरल रेखाएँ जोड़ने के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "Aspose.Slides का उपयोग करके प्रेजेंटेशन स्लाइड्स में सादी लाइनें जोड़ना"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "Aspose.Slides का उपयोग करके प्रेजेंटेशन स्लाइड्स में सादी लाइनें जोड़ना"
+"url": "/hi/net/shape-effects-and-manipulation-in-slides/adding-plain-lines/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Slides का उपयोग करके प्रेजेंटेशन स्लाइड्स में सादी लाइनें जोड़ना
@@ -19,7 +21,7 @@ url: /hi/net/shape-effects-and-manipulation-in-slides/adding-plain-lines/
 ट्यूटोरियल में शामिल होने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
 - .NET प्रोग्रामिंग का बुनियादी ज्ञान.
 - Visual Studio या कोई भी पसंदीदा .NET विकास वातावरण स्थापित किया गया।
--  Aspose.Slides for .NET लाइब्रेरी स्थापित है। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET लाइब्रेरी स्थापित है। आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/net/).
 ## नामस्थान आयात करें
 अपने .NET प्रोजेक्ट में, Aspose.Slides कार्यक्षमता तक पहुंचने के लिए आवश्यक नामस्थानों को आयात करके प्रारंभ करें:
 ```csharp
@@ -36,7 +38,7 @@ if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 ## चरण 2: PresentationEx क्लास को इंस्टैंशिएट करें
- इसका एक उदाहरण बनाएं`Presentation` क्लास, जो PPTX फ़ाइल का प्रतिनिधित्व करता है:
+इसका एक उदाहरण बनाएं `Presentation` क्लास, जो PPTX फ़ाइल का प्रतिनिधित्व करता है:
 ```csharp
 using (Presentation pres = new Presentation())
 {
@@ -68,14 +70,16 @@ pres.Save(dataDir + "LineShape1_out.pptx", SaveFormat.Pptx);
 ### प्रश्न: क्या Aspose.Slides नवीनतम .NET फ्रेमवर्क के साथ संगत है?
 उत्तर: बिल्कुल, Aspose.Slides नवीनतम .NET फ्रेमवर्क का समर्थन करता है।
 ### प्रश्न: मैं और अधिक उदाहरण एवं दस्तावेज कहां पा सकता हूं?
- उत्तर: दस्तावेज़ देखें[यहाँ](https://reference.aspose.com/slides/net/).
-### प्रश्न: मैं Aspose.Slides के लिए अस्थायी लाइसेंस कैसे प्राप्त करूं?
- दौरा[यहाँ](https://purchase.aspose.com/temporary-license/) अस्थायी लाइसेंस के लिए।
+उत्तर: दस्तावेज़ देखें [यहाँ](https://reference.aspose.com/slides/net/).
+### प्रश्न: मैं Aspose.Slides के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूँ?
+दौरा [यहाँ](https://purchase.aspose.com/temporary-license/) अस्थायी लाइसेंस के लिए।
 ### प्रश्न: क्या आपको कोई समस्या आ रही है? मुझे सहायता कहां से मिल सकती है?
- उत्तर: निम्नलिखित पर सहायता लें[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11).
+उत्तर: निम्नलिखित पर सहायता लें [Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

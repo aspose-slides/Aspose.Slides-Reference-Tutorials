@@ -1,14 +1,16 @@
 ---
-title: भिन्न प्रस्तुति से स्लाइड को निर्दिष्ट स्थान पर क्लोन करें
-linktitle: भिन्न प्रस्तुति से स्लाइड को निर्दिष्ट स्थान पर क्लोन करें
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: Aspose.Slides for .NET का उपयोग करके विभिन्न प्रस्तुतियों से स्लाइड को किसी निर्दिष्ट स्थान पर क्लोन करना सीखें। संपूर्ण स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका, जिसमें स्लाइड क्लोनिंग, स्थिति विनिर्देशन और प्रस्तुति सहेजना शामिल है।
-weight: 16
-url: /hi/net/slide-access-and-manipulation/clone-slide-from-another-presentation-specified-position/
+"description": "Aspose.Slides for .NET का उपयोग करके विभिन्न प्रस्तुतियों से स्लाइड को किसी निर्दिष्ट स्थान पर क्लोन करना सीखें। संपूर्ण स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका, जिसमें स्लाइड क्लोनिंग, स्थिति विनिर्देशन और प्रस्तुति सहेजना शामिल है।"
+"linktitle": "भिन्न प्रस्तुति से स्लाइड को निर्दिष्ट स्थान पर क्लोन करें"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "भिन्न प्रस्तुति से स्लाइड को निर्दिष्ट स्थान पर क्लोन करें"
+"url": "/hi/net/slide-access-and-manipulation/clone-slide-from-another-presentation-specified-position/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # भिन्न प्रस्तुति से स्लाइड को निर्दिष्ट स्थान पर क्लोन करें
@@ -23,7 +25,7 @@ url: /hi/net/slide-access-and-manipulation/clone-slide-from-another-presentation
 इससे पहले कि हम कार्यान्वयन में उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
 - विजुअल स्टूडियो या कोई अन्य .NET विकास वातावरण स्थापित होना चाहिए।
--  Aspose.Slides for .NET लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/net/).
 
 ## 1. .NET के लिए Aspose.Slides का परिचय
 
@@ -43,7 +45,7 @@ Presentation sourcePresentation = new Presentation("path_to_source_presentation.
 Presentation destPresentation = new Presentation("path_to_destination_presentation.pptx");
 ```
 
- प्रतिस्थापित करें`"path_to_source_presentation.pptx"` और`"path_to_destination_presentation.pptx"` वास्तविक फ़ाइल पथ के साथ.
+प्रतिस्थापित करें `"path_to_source_presentation.pptx"` और `"path_to_destination_presentation.pptx"` वास्तविक फ़ाइल पथ के साथ.
 
 ## 3. स्लाइड क्लोन करना
 
@@ -69,18 +71,18 @@ int desiredPosition = 2; // स्थिति 2 पर डालें
 destPresentation.Slides.InsertClone(desiredPosition, clonedSlide);
 ```
 
- समायोजित`desiredPosition`अपनी आवश्यकताओं के अनुसार मूल्य.
+समायोजित `desiredPosition` अपनी आवश्यकताओं के अनुसार मूल्य.
 
 ## 5. संशोधित प्रस्तुति को सहेजना
 
 एक बार जब स्लाइड क्लोन हो जाए और उसे वांछित स्थान पर डाल दिया जाए, तो आपको संशोधित गंतव्य प्रस्तुति को सहेजना होगा। प्रस्तुति को सहेजने के लिए निम्न कोड का उपयोग करें:
 
 ```csharp
-//संशोधित प्रस्तुति सहेजें
+// संशोधित प्रस्तुति सहेजें
 destPresentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ```
 
- प्रतिस्थापित करें`"path_to_modified_presentation.pptx"` संशोधित प्रस्तुति के लिए वांछित फ़ाइल पथ के साथ.
+प्रतिस्थापित करें `"path_to_modified_presentation.pptx"` संशोधित प्रस्तुति के लिए वांछित फ़ाइल पथ के साथ.
 
 ## 6. पूर्ण स्रोत कोड
 
@@ -111,7 +113,7 @@ namespace SlideCloningDemo
             // क्लोन की गई स्लाइड को निर्दिष्ट स्थान पर डालें
             destPresentation.Slides.InsertClone(desiredPosition, clonedSlide);
 
-            //संशोधित प्रस्तुति सहेजें
+            // संशोधित प्रस्तुति सहेजें
             destPresentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
         }
     }
@@ -126,7 +128,7 @@ namespace SlideCloningDemo
 
 ### मैं .NET के लिए Aspose.Slides कैसे स्थापित करूं?
 
- आप Aspose.Slides for .NET लाइब्रेरी को यहां से डाउनलोड और इंस्टॉल कर सकते हैं[यहाँ](https://releases.aspose.com/slides/net/).
+आप Aspose.Slides for .NET लाइब्रेरी को यहां से डाउनलोड और इंस्टॉल कर सकते हैं [यहाँ](https://releases.aspose.com/slides/net/).
 
 ### क्या मैं एक साथ कई स्लाइडों का क्लोन बना सकता हूँ?
 
@@ -142,10 +144,12 @@ namespace SlideCloningDemo
 
 ### मैं Aspose.Slides for .NET के बारे में अधिक जानकारी कहां पा सकता हूं?
 
- आप इसका संदर्भ ले सकते हैं[प्रलेखन](https://reference.aspose.com/slides/net/) Aspose.Slides for .NET से संबंधित विस्तृत जानकारी, उदाहरण और API संदर्भ के लिए।
+आप इसका संदर्भ ले सकते हैं [प्रलेखन](https://reference.aspose.com/slides/net/) Aspose.Slides for .NET से संबंधित विस्तृत जानकारी, उदाहरण और API संदर्भ के लिए।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

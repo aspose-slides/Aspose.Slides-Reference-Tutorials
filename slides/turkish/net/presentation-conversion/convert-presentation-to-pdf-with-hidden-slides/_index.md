@@ -1,63 +1,65 @@
 ---
-title: Sunumu Gizli Slaytlarla PDF'ye Dönüştürün
-linktitle: Sunumu Gizli Slaytlarla PDF'ye Dönüştürün
-second_title: Aspose.Slides .NET PowerPoint İşleme API'si
-description: Sunumları gizli slaytlarla PDF'ye sorunsuz bir şekilde dönüştürmek için Aspose.Slides for .NET'i nasıl kullanacağınızı öğrenin.
-weight: 26
-url: /tr/net/presentation-conversion/convert-presentation-to-pdf-with-hidden-slides/
+"description": "Sunuları gizli slaytlarla sorunsuz bir şekilde PDF'ye dönüştürmek için Aspose.Slides for .NET'in nasıl kullanılacağını öğrenin."
+"linktitle": "Gizli Slaytlarla Sunumu PDF'ye Dönüştür"
+"second_title": "Aspose.Slides .NET PowerPoint İşleme API'si"
+"title": "Gizli Slaytlarla Sunumu PDF'ye Dönüştür"
+"url": "/tr/net/presentation-conversion/convert-presentation-to-pdf-with-hidden-slides/"
+"weight": 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Sunumu Gizli Slaytlarla PDF'ye Dönüştürün
+# Gizli Slaytlarla Sunumu PDF'ye Dönüştür
 
 
-## Aspose.Slides for .NET'e Giriş
+## .NET için Aspose.Slides'a Giriş
 
-Aspose.Slides for .NET, .NET uygulamalarındaki sunumlarla çalışmak için kapsamlı özellikler sağlayan güçlü bir kütüphanedir. Geliştiricilerin sunumları oluşturmasına, düzenlemesine, değiştirmesine ve PDF dahil çeşitli formatlara dönüştürmesine olanak tanır.
+Aspose.Slides for .NET, .NET uygulamalarında sunumlarla çalışmak için kapsamlı özellikler sağlayan güçlü bir kütüphanedir. Geliştiricilerin sunumları PDF dahil çeşitli biçimlere oluşturmasına, düzenlemesine, düzenlemesine ve dönüştürmesine olanak tanır.
 
-## Sunumlardaki Gizli Slaytları Anlamak
+## Sunumlardaki Gizli Slaytları Anlama
 
-Gizli slaytlar, normal bir slayt gösterisi sırasında görünmeyen, sunum içindeki slaytlardır. Ek bilgiler, yedek içerik veya belirli hedef kitlelere yönelik içerik içerebilirler. Sunumları PDF'ye dönüştürürken sunumun bütünlüğünü korumak için bu gizli slaytların da dahil edildiğinden emin olmak önemlidir.
+Gizli slaytlar, normal bir slayt gösterisi sırasında görünmeyen bir sunumdaki slaytlardır. Bunlar, ek bilgiler, yedek içerik veya belirli kitlelere yönelik içerik içerebilir. Sunumları PDF'ye dönüştürürken, sunumun bütünlüğünü korumak için bu gizli slaytların da dahil edildiğinden emin olmak önemlidir.
 
-## Geliştirme Ortamını Kurma
+## Geliştirme Ortamının Kurulumu
 
-Başlamadan önce aşağıdakilerin yerinde olduğundan emin olun:
+Başlamadan önce aşağıdakilerin mevcut olduğundan emin olun:
 
-- Visual Studio veya yüklü herhangi bir .NET geliştirme ortamı.
--  Aspose.Slides for .NET kitaplığı. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/net).
+- Visual Studio veya herhangi bir .NET geliştirme ortamı yüklü.
+- Aspose.Slides for .NET kütüphanesi. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/slides/net).
 
-## Sunum Dosyası Yükleme
+## Bir Sunum Dosyası Yükleme
 
-Başlamak için Aspose.Slides for .NET'i kullanarak bir sunum dosyası yükleyelim:
+Başlamak için Aspose.Slides for .NET kullanarak bir sunum dosyası yükleyelim:
 
 ```csharp
 using Aspose.Slides;
 
-// Sunuyu yükle
+// Sunumu yükle
 using var presentation = new Presentation("sample.pptx");
 ```
 
-## Sunumu Gizli Slaytlarla PDF'ye Dönüştürme
+## Gizli Slaytlarla Sunumu PDF'ye Dönüştürme
 
-Artık gizli slaytları tanımlayabildiğimize göre, gizli slaytların dahil edildiğinden emin olarak sunuyu PDF'ye dönüştürmeye devam edelim:
+Artık gizli slaytları belirleyebildiğimize göre, gizli slaytların dahil edildiğinden emin olarak sunumu PDF'ye dönüştürmeye devam edelim:
 
 ```csharp
 var pdfOptions = new PdfOptions();
-pdfOptions.ShowHiddenSlides = true; // Gizli slaytları PDF'ye dahil et
+pdfOptions.ShowHiddenSlides = true; // PDF'ye gizli slaytları ekle
 
 presentation.Save("output.pdf", SaveFormat.Pdf, pdfOptions);
 ```
 
 ## Ek Seçenekler ve Özelleştirmeler
 
-Aspose.Slides for .NET, dönüştürme süreci için çeşitli seçenekler ve özelleştirmeler sunar. Çıktı PDF'sini optimize etmek için sayfa boyutu, yönlendirme ve kalite gibi PDF'ye özgü seçenekleri ayarlayabilirsiniz.
+Aspose.Slides for .NET, dönüştürme süreci için çeşitli seçenekler ve özelleştirmeler sunar. Çıktı PDF'sini optimize etmek için sayfa boyutu, yönlendirme ve kalite gibi PDF'ye özgü seçenekler ayarlayabilirsiniz.
 
 ## Kod Örneği: Sunumu Gizli Slaytlarla PDF'ye Dönüştürme
 
-Aspose.Slides for .NET kullanarak bir sunumu gizli slaytlarla PDF'ye dönüştürmenin tam bir örneğini burada bulabilirsiniz:
+İşte Aspose.Slides for .NET kullanarak bir sunumu gizli slaytlarla PDF'ye dönüştürmenin eksiksiz bir örneği:
 
 ```csharp
 using Aspose.Slides;
@@ -78,32 +80,34 @@ class Program
 
 ## Çözüm
 
-Sunumları PDF'ye dönüştürmek yaygın bir iştir, ancak gizli slaytlarla uğraşırken Aspose.Slides for .NET gibi güvenilir bir kütüphane kullanmak önemlidir. Bu kılavuzda özetlenen adımları izleyerek sunumları sorunsuz bir şekilde PDF'ye dönüştürebilir, gizli slaytların dahil edilmesini sağlayarak sunumun genel kalitesini ve bağlamını koruyabilirsiniz.
+Sunumları PDF'ye dönüştürmek yaygın bir görevdir, ancak gizli slaytlarla uğraşırken, .NET için Aspose.Slides gibi güvenilir bir kütüphane kullanmak önemlidir. Bu kılavuzda özetlenen adımları izleyerek, sunumun genel kalitesini ve bağlamını koruyarak gizli slaytların dahil edilmesini sağlayarak sunumları sorunsuz bir şekilde PDF'ye dönüştürebilirsiniz.
 
-## SSS'ler
+## SSS
 
-### Aspose.Slides for .NET kullanarak gizli slaytları PDF'ye nasıl eklerim?
+### Aspose.Slides for .NET kullanarak PDF'e gizli slaytları nasıl eklerim?
 
- Gizli slaytları PDF dönüşümüne dahil etmek için`ShowHiddenSlides` mülkiyet`true` Sunuyu PDF olarak kaydetmeden önce PDF seçeneklerinde.
+PDF dönüştürme işlemine gizli slaytları dahil etmek için, `ShowHiddenSlides` mülk `true` Sunumu PDF olarak kaydetmeden önce PDF seçeneklerinde.
 
 ### Aspose.Slides'ı kullanarak PDF çıktı ayarlarını özelleştirebilir miyim?
 
-Evet, Aspose.Slides for .NET, PDF çıktı ayarlarını özelleştirmek için sayfa boyutu, yönlendirme ve görüntü kalitesi gibi çeşitli seçenekler sunar.
+Evet, Aspose.Slides for .NET, sayfa boyutu, yönlendirme ve görüntü kalitesi gibi PDF çıktı ayarlarını özelleştirmek için çeşitli seçenekler sunar.
 
-### Aspose.Slides for .NET hem basit hem de karmaşık sunumlara uygun mu?
+### Aspose.Slides for .NET hem basit hem de karmaşık sunumlar için uygun mudur?
 
-Aspose.Slides for .NET kesinlikle farklı karmaşıklıktaki sunumları yönetecek şekilde tasarlanmıştır. Hem basit hem de karmaşık sunum dönüştürme görevleri için uygundur.
+Kesinlikle, Aspose.Slides for .NET, çeşitli karmaşıklıklardaki sunumları işlemek için tasarlanmıştır. Hem basit hem de karmaşık sunum dönüştürme görevleri için uygundur.
 
 ### Aspose.Slides for .NET kütüphanesini nereden indirebilirim?
 
- Aspose.Slides for .NET kütüphanesini şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/slides/net).
+Aspose.Slides for .NET kütüphanesini şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/slides/net).
 
-### Aspose.Slides for .NET'e ait herhangi bir belge var mı?
+### Aspose.Slides for .NET için herhangi bir doküman var mı?
 
- Evet, Aspose.Slides for .NET'in belgelerini ve kullanım örneklerini şu adreste bulabilirsiniz:[Burada](https://reference.aspose.com/slides/net).
+Evet, Aspose.Slides for .NET için belgeleri ve kullanım örneklerini şu adreste bulabilirsiniz: [Burada](https://reference.aspose.com/slides/net).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

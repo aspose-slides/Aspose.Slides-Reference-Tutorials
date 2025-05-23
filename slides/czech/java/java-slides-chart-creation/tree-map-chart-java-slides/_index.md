@@ -1,26 +1,28 @@
 ---
-title: Stromová mapa v Java Slides
-linktitle: Stromová mapa v Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Vytvářejte stromové mapy v Java Slides pomocí Aspose.Slides pro Java. Podrobný průvodce se zdrojovým kódem pro vizualizaci hierarchických dat.
-weight: 13
-url: /cs/java/chart-creation/tree-map-chart-java-slides/
+"description": "Vytvořte stromové mapy v Java Slides pomocí Aspose.Slides pro Javu. Podrobný návod se zdrojovým kódem pro vizualizaci hierarchických dat."
+"linktitle": "Stromová mapa v Javě Slides"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Stromová mapa v Javě Slides"
+"url": "/cs/java/chart-creation/tree-map-chart-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Stromová mapa v Java Slides
+# Stromová mapa v Javě Slides
 
 
-## Úvod do Tree Map Chart v Java Slides
+## Úvod do stromové mapy v Javě - Slidy
 
-V tomto tutoriálu si ukážeme, jak vytvořit graf stromové mapy v powerpointové prezentaci pomocí knihovny Aspose.Slides for Java. Stromové mapy jsou efektivním způsobem vizualizace hierarchických dat.
+V tomto tutoriálu si ukážeme, jak vytvořit stromovou mapu v prezentaci v PowerPointu pomocí knihovny Aspose.Slides pro Javu. Stromové mapy jsou efektivním způsobem vizualizace hierarchických dat.
 
 ## Předpoklady
 
-Než začnete, ujistěte se, že máte v projektu Java nastavenou knihovnu Aspose.Slides for Java.
+Než začnete, ujistěte se, že máte ve svém projektu Java nastavenou knihovnu Aspose.Slides for Java.
 
 ## Krok 1: Importujte požadované knihovny
 
@@ -28,7 +30,7 @@ Než začnete, ujistěte se, že máte v projektu Java nastavenou knihovnu Aspos
 import com.aspose.slides.*;
 ```
 
-## Krok 2: Načtěte prezentaci
+## Krok 2: Načtení prezentace
 
 ```java
 String dataDir = "Your Document Directory";
@@ -45,7 +47,7 @@ try {
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
     wb.clear(0);
 
-    // Vytvořit větev 1
+    // Vytvořit pobočku 1
     IChartCategory leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C1", "Leaf1"));
     leaf.getGroupingLevels().setGroupingItem(1, "Stem1");
     leaf.getGroupingLevels().setGroupingItem(2, "Branch1");
@@ -69,7 +71,7 @@ try {
 
     chart.getChartData().getCategories().add(wb.getCell(0, "C8", "Leaf8"));
 
-    // Přidejte datové body
+    // Přidat datové body
     IChartSeries series = chart.getChartData().getSeries().add(ChartType.Treemap);
     series.getLabels().getDefaultDataLabelFormat().setShowCategoryName(true);
 
@@ -84,14 +86,14 @@ try {
 
     series.setParentLabelLayout(ParentLabelLayoutType.Overlapping);
 
-    // Uložte prezentaci pomocí stromové mapy
+    // Uložte prezentaci s grafem Stromová mapa
     pres.save("Treemap.pptx", SaveFormat.Pptx);
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
 
-## Kompletní zdrojový kód pro graf stromové mapy v Java Slides
+## Kompletní zdrojový kód pro stromovou mapu v Javě - Slides
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
@@ -102,7 +104,7 @@ try
 	chart.getChartData().getSeries().clear();
 	IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
 	wb.clear(0);
-	//větev 1
+	//pobočka 1
 	IChartCategory leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C1", "Leaf1"));
 	leaf.getGroupingLevels().setGroupingItem(1, "Stem1");
 	leaf.getGroupingLevels().setGroupingItem(2, "Branch1");
@@ -139,28 +141,30 @@ finally
 
 ## Závěr
 
-V tomto tutoriálu jste se naučili, jak vytvořit graf stromové mapy v prezentaci PowerPoint pomocí knihovny Aspose.Slides for Java. Grafy stromové mapy jsou cenným nástrojem pro vizualizaci hierarchických dat, díky čemuž jsou vaše prezentace informativnější a poutavější.
+V tomto tutoriálu jste se naučili, jak vytvořit stromovou mapu v prezentaci v PowerPointu pomocí knihovny Aspose.Slides pro Javu. Stromové mapy jsou cenným nástrojem pro vizualizaci hierarchických dat, díky čemuž jsou vaše prezentace informativnější a poutavější.
 
-## FAQ
+## Často kladené otázky
 
-### Jak přidám data do stromové mapy?
+### Jak přidám data do grafu Stromová mapa?
 
- Chcete-li přidat data do stromové mapy, použijte`series.getDataPoints().addDataPointForTreemapSeries()` předávání datových hodnot jako parametrů.
+Chcete-li přidat data do grafu Stromová mapa, použijte `series.getDataPoints().addDataPointForTreemapSeries()` metoda, která předává datové hodnoty jako parametry.
 
-### Jak mohu upravit vzhled stromové mapy?
+### Jak si mohu přizpůsobit vzhled grafu Stromová mapa?
 
- Vzhled stromové mapy si můžete přizpůsobit úpravou různých vlastností`chart` a`series`objekty, jako jsou barvy, štítky a rozvržení.
+Vzhled stromové mapy si můžete přizpůsobit úpravou různých vlastností `chart` a `series` objekty, jako jsou barvy, popisky a rozvržení.
 
-### Mohu vytvořit více grafů stromové mapy v jedné prezentaci?
+### Mohu v jedné prezentaci vytvořit více grafů stromové mapy?
 
-Ano, můžete vytvořit více grafů stromové mapy v jedné prezentaci provedením stejných kroků a určením různých pozic snímků.
+Ano, v jedné prezentaci můžete vytvořit více stromových map podle stejných kroků a zadáním různých pozic snímků.
 
-### Jak uložím prezentaci s mapou stromu?
+### Jak uložím prezentaci s grafem Stromová mapa?
 
- Použijte`pres.save()` způsob uložení prezentace s grafem Tree Map v požadovaném formátu (např. PPTX).
+Použijte `pres.save()` metodu pro uložení prezentace s grafem Stromová mapa v požadovaném formátu (např. PPTX).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

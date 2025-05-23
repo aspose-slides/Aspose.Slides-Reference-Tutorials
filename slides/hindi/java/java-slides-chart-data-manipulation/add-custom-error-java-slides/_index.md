@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में कस्टम त्रुटि जोड़ें
-linktitle: जावा स्लाइड्स में कस्टम त्रुटि जोड़ें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides का उपयोग करके Java Slides में PowerPoint चार्ट में कस्टम त्रुटि बार जोड़ने का तरीका जानें। सटीक डेटा विज़ुअलाइज़ेशन के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 11
-url: /hi/java/chart-data-manipulation/add-custom-error-java-slides/
+"description": "Aspose.Slides का उपयोग करके Java स्लाइड्स में PowerPoint चार्ट में कस्टम त्रुटि बार जोड़ने का तरीका जानें। सटीक डेटा विज़ुअलाइज़ेशन के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "जावा स्लाइड्स में कस्टम त्रुटि जोड़ें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में कस्टम त्रुटि जोड़ें"
+"url": "/hi/java/chart-data-manipulation/add-custom-error-java-slides/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में कस्टम त्रुटि जोड़ें
@@ -143,7 +145,7 @@ finally
 
 ### मैं त्रुटि बार के स्वरूप को कैसे अनुकूलित करूँ?
 
- आप त्रुटि बार के गुणों को संशोधित करके उसके स्वरूप को अनुकूलित कर सकते हैं।`IErrorBarsFormat` ऑब्जेक्ट, जैसे लाइन शैली, लाइन रंग, और त्रुटि बार चौड़ाई।
+आप त्रुटि बार के गुणों को संशोधित करके उसके स्वरूप को अनुकूलित कर सकते हैं `IErrorBarsFormat` ऑब्जेक्ट, जैसे लाइन शैली, लाइन रंग, और त्रुटि बार चौड़ाई।
 
 ### क्या मैं अन्य चार्ट प्रकारों में त्रुटि बार जोड़ सकता हूँ?
 
@@ -155,10 +157,12 @@ finally
 
 ### क्या विशिष्ट डेटा बिंदुओं के लिए त्रुटि बार को छिपाना संभव है?
 
- हां, आप अलग-अलग डेटा बिंदुओं के लिए त्रुटि बार की दृश्यता को नियंत्रित कर सकते हैं`setVisible` की संपत्ति`IErrorBarsFormat` वस्तु।
+हां, आप अलग-अलग डेटा बिंदुओं के लिए त्रुटि बार की दृश्यता को नियंत्रित कर सकते हैं `setVisible` की संपत्ति `IErrorBarsFormat` वस्तु।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

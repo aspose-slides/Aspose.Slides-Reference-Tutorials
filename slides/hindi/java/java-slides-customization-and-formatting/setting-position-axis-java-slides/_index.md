@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में स्थिति अक्ष सेट करना
-linktitle: जावा स्लाइड्स में स्थिति अक्ष सेट करना
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Java के लिए Aspose.Slides के साथ अपने चार्ट को बेहतर बनाएँ। Java स्लाइड में स्थिति अक्ष सेट करना, शानदार प्रस्तुतियाँ बनाना और चार्ट लेआउट को आसानी से कस्टमाइज़ करना सीखें।
-weight: 16
-url: /hi/java/customization-and-formatting/setting-position-axis-java-slides/
+"description": "Java के लिए Aspose.Slides के साथ अपने चार्ट को बेहतर बनाएँ। Java स्लाइड में स्थिति अक्ष सेट करना, शानदार प्रस्तुतियाँ बनाना और चार्ट लेआउट को आसानी से कस्टमाइज़ करना सीखें।"
+"linktitle": "जावा स्लाइड्स में स्थिति अक्ष सेट करना"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में स्थिति अक्ष सेट करना"
+"url": "/hi/java/customization-and-formatting/setting-position-axis-java-slides/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में स्थिति अक्ष सेट करना
@@ -20,7 +22,7 @@ url: /hi/java/customization-and-formatting/setting-position-axis-java-slides/
 
 ## आवश्यक शर्तें
 
- शुरू करने से पहले, सुनिश्चित करें कि आपके पास Aspose.Slides for Java लाइब्रेरी स्थापित है और आपके Java प्रोजेक्ट में सेट अप है। आप लाइब्रेरी को यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+शुरू करने से पहले, सुनिश्चित करें कि आपके पास Aspose.Slides for Java लाइब्रेरी स्थापित है और आपके Java प्रोजेक्ट में सेट अप है। आप लाइब्रेरी को यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 
 ## चरण 1: प्रेजेंटेशन बनाना
 
@@ -31,7 +33,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 ```
 
- प्रतिस्थापित करना सुनिश्चित करें`"Your Document Directory"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ.
+प्रतिस्थापित करना सुनिश्चित करें `"Your Document Directory"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ.
 
 ## चरण 2: चार्ट जोड़ना
 
@@ -61,7 +63,7 @@ chart.getAxes().getHorizontalAxis().setAxisBetweenCategories(true);
 pres.save(dataDir + "AsposeClusteredColumnChart.pptx", SaveFormat.Pptx);
 ```
 
- प्रतिस्थापित करें`"AsposeClusteredColumnChart.pptx"` अपने इच्छित फ़ाइल नाम के साथ.
+प्रतिस्थापित करें `"AsposeClusteredColumnChart.pptx"` अपने इच्छित फ़ाइल नाम के साथ.
 
 बस! आपने Aspose.Slides for Java का उपयोग करके सफलतापूर्वक एक क्लस्टर्ड कॉलम चार्ट बना लिया है और श्रेणियों के बीच स्थिति अक्ष सेट कर लिया है।
 
@@ -89,15 +91,15 @@ finally
 
 ### मैं चार्ट को और अधिक अनुकूलित कैसे करूँ?
 
-आप चार्ट के विभिन्न पहलुओं को अनुकूलित कर सकते हैं, जिसमें डेटा श्रृंखला, चार्ट शीर्षक, लेजेंड और बहुत कुछ शामिल है।[Aspose.Slides for Java दस्तावेज़](https://reference.aspose.com/slides/java/) विस्तृत निर्देशों और उदाहरणों के लिए.
+आप चार्ट के विभिन्न पहलुओं को अनुकूलित कर सकते हैं, जिसमें डेटा श्रृंखला, चार्ट शीर्षक, लेजेंड और बहुत कुछ शामिल है। [Aspose.Slides for Java दस्तावेज़](https://reference.aspose.com/slides/java/) विस्तृत निर्देशों और उदाहरणों के लिए.
 
 ### क्या मैं चार्ट का प्रकार बदल सकता हूँ?
 
- हां, आप चार्ट प्रकार को संशोधित करके बदल सकते हैं`ChartType` चार्ट जोड़ते समय पैरामीटर। Aspose.Slides for Java विभिन्न चार्ट प्रकारों जैसे बार चार्ट, लाइन चार्ट और बहुत कुछ का समर्थन करता है।
+हां, आप चार्ट प्रकार को संशोधित करके बदल सकते हैं `ChartType` चार्ट जोड़ते समय पैरामीटर। Aspose.Slides for Java विभिन्न चार्ट प्रकारों जैसे बार चार्ट, लाइन चार्ट और बहुत कुछ का समर्थन करता है।
 
 ### मैं और अधिक उदाहरण और दस्तावेज कहां पा सकता हूं?
 
- आप यहां पर विस्तृत दस्तावेज और अधिक उदाहरण पा सकते हैं[Aspose.Slides for Java दस्तावेज़](https://reference.aspose.com/slides/java/) पृष्ठ।
+आप यहां पर विस्तृत दस्तावेज और अधिक उदाहरण पा सकते हैं [Aspose.Slides for Java दस्तावेज़](https://reference.aspose.com/slides/java/) पृष्ठ.
 
 सिस्टम संसाधनों को रिलीज़ करने के लिए जब आप प्रस्तुतिकरण ऑब्जेक्ट का उपयोग कर लें तो उसे हटाना न भूलें:
 
@@ -106,9 +108,11 @@ if (pres != null) pres.dispose();
 ```
 
 इस ट्यूटोरियल के लिए बस इतना ही। आपने सीखा कि Aspose.Slides for Java का उपयोग करके चार्ट में स्थिति अक्ष कैसे सेट करें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

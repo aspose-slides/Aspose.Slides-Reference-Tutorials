@@ -1,28 +1,30 @@
 ---
-title: Java 投影片中的樹狀圖
-linktitle: Java 投影片中的樹狀圖
-second_title: Aspose.Slides Java PowerPoint 處理 API
-description: 使用 Aspose.Slides for Java 在 Java 投影片中建立樹狀圖。包含用於視覺化分層資料的原始程式碼的逐步指南。
-weight: 13
-url: /zh-hant/java/chart-creation/tree-map-chart-java-slides/
+"description": "使用 Aspose.Slides for Java 在 Java Slides 中建立樹狀圖。帶有原始程式碼的分步指南，用於可視化分層資料。"
+"linktitle": "Java 投影片中的樹狀圖"
+"second_title": "Aspose.Slides Java PowerPoint 處理 API"
+"title": "Java 投影片中的樹狀圖"
+"url": "/zh-hant/java/chart-creation/tree-map-chart-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java 投影片中的樹狀圖
 
 
-## Java 投影片樹狀圖簡介
+## Java 投影片中的樹狀圖圖表介紹
 
 在本教學中，我們將示範如何使用 Aspose.Slides for Java 函式庫在 PowerPoint 簡報中建立樹狀圖。樹狀圖是可視化分層資料的有效方法。
 
 ## 先決條件
 
-開始之前，請確保您的 Java 專案中已設定 Aspose.Slides for Java 程式庫。
+在開始之前，請確保您的 Java 專案中已設定了 Aspose.Slides for Java 程式庫。
 
-## 第 1 步：導入所需的庫
+## 步驟 1：導入所需庫
 
 ```java
 import com.aspose.slides.*;
@@ -35,7 +37,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 ```
 
-## 第 3 步：建立樹狀圖
+## 步驟 3：建立樹狀圖
 
 ```java
 try {
@@ -45,7 +47,7 @@ try {
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
     wb.clear(0);
 
-    //建立分支1
+    // 建立分支 1
     IChartCategory leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C1", "Leaf1"));
     leaf.getGroupingLevels().setGroupingItem(1, "Stem1");
     leaf.getGroupingLevels().setGroupingItem(2, "Branch1");
@@ -57,7 +59,7 @@ try {
 
     chart.getChartData().getCategories().add(wb.getCell(0, "C4", "Leaf4"));
 
-    //建立分支2
+    // 建立分支 2
     leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C5", "Leaf5"));
     leaf.getGroupingLevels().setGroupingItem(1, "Stem3");
     leaf.getGroupingLevels().setGroupingItem(2, "Branch2");
@@ -69,7 +71,7 @@ try {
 
     chart.getChartData().getCategories().add(wb.getCell(0, "C8", "Leaf8"));
 
-    //新增數據點
+    // 新增數據點
     IChartSeries series = chart.getChartData().getSeries().add(ChartType.Treemap);
     series.getLabels().getDefaultDataLabelFormat().setShowCategoryName(true);
 
@@ -84,14 +86,14 @@ try {
 
     series.setParentLabelLayout(ParentLabelLayoutType.Overlapping);
 
-    //使用樹狀圖儲存簡報
+    // 使用樹狀圖儲存簡報
     pres.save("Treemap.pptx", SaveFormat.Pptx);
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
 
-## Java 投影片中樹狀圖的完整原始碼
+## Java 投影片中樹狀圖圖表的完整原始碼
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
@@ -102,7 +104,7 @@ try
 	chart.getChartData().getSeries().clear();
 	IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
 	wb.clear(0);
-	//分行1
+	//分支 1
 	IChartCategory leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C1", "Leaf1"));
 	leaf.getGroupingLevels().setGroupingItem(1, "Stem1");
 	leaf.getGroupingLevels().setGroupingItem(2, "Branch1");
@@ -110,7 +112,7 @@ try
 	leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C3", "Leaf3"));
 	leaf.getGroupingLevels().setGroupingItem(1, "Stem2");
 	chart.getChartData().getCategories().add(wb.getCell(0, "C4", "Leaf4"));
-	//分支2
+	//分支 2
 	leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C5", "Leaf5"));
 	leaf.getGroupingLevels().setGroupingItem(1, "Stem3");
 	leaf.getGroupingLevels().setGroupingItem(2, "Branch2");
@@ -139,28 +141,30 @@ finally
 
 ## 結論
 
-在本教學中，您學習如何使用 Aspose.Slides for Java 函式庫在 PowerPoint 簡報中建立樹狀圖。樹狀圖是可視化分層資料的寶貴工具，可使您的簡報內容更豐富、更有吸引力。
+在本教學中，您學習如何使用 Aspose.Slides for Java 函式庫在 PowerPoint 簡報中建立樹狀圖。樹狀圖是可視化分層資料的寶貴工具，可使您的簡報更具資訊量和吸引力。
 
 ## 常見問題解答
 
-### 如何為樹狀圖新增資料？
+### 如何為樹狀圖添加資料？
 
-若要將資料新增至樹狀圖，請使用`series.getDataPoints().addDataPointForTreemapSeries()`方法，將資料值作為參數傳遞。
+若要將資料新增至樹狀圖，請使用 `series.getDataPoints().addDataPointForTreemapSeries()` 方法，將資料值作為參數傳遞。
 
-### 如何自訂樹形圖圖表的外觀？
+### 如何自訂樹狀圖的外觀？
 
-您可以透過修改樹形圖的各種屬性來自訂樹形圖的外觀。`chart`和`series`對象，例如顏色、標籤和佈局。
+您可以透過修改樹狀圖的各種屬性來自訂樹狀圖的外觀 `chart` 和 `series` 對象，例如顏色、標籤和佈局。
 
-### 我可以在一個簡報中建立多個樹形圖嗎？
+### 我可以在單一簡報中建立多個樹形圖嗎？
 
-是的，您可以透過遵循相同的步驟並指定不同的投影片位置，在單一簡報中建立多個樹形圖。
+是的，您可以按照相同的步驟並指定不同的幻燈片位置在單一簡報中建立多個樹形圖。
 
-### 如何保存帶有樹形圖的簡報？
+### 如何保存帶有樹狀圖的簡報？
 
-使用`pres.save()`方法以所需的格式（例如，PPTX）保存帶有樹形圖的簡報。
+使用 `pres.save()` 方法以所需格式（例如 PPTX）儲存帶有樹狀圖的簡報。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,22 +1,24 @@
 ---
-title: Holen Sie sich die Positionskoordinaten von Abschnitten in Java-Folien
-linktitle: Holen Sie sich die Positionskoordinaten von Abschnitten in Java-Folien
-second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie mit Aspose.Slides für Java API die Koordinaten von Textabschnitten in Java-Folien abrufen. Erhalten Sie präzise Kontrolle über die Textplatzierung in PowerPoint-Präsentationen.
-weight: 12
-url: /de/java/additional-utilities/get-position-coordinates-of-portion-in-java-slides/
+"description": "Erfahren Sie, wie Sie Textabschnittskoordinaten in Java-Folien mithilfe der Aspose.Slides für Java-API abrufen. Erhalten Sie präzise Kontrolle über die Textplatzierung in PowerPoint-Präsentationen."
+"linktitle": "Holen Sie sich die Positionskoordinaten von Abschnitten in Java-Folien"
+"second_title": "Aspose.Slides Java PowerPoint-Verarbeitungs-API"
+"title": "Holen Sie sich die Positionskoordinaten von Abschnitten in Java-Folien"
+"url": "/de/java/additional-utilities/get-position-coordinates-of-portion-in-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Holen Sie sich die Positionskoordinaten von Abschnitten in Java-Folien
 
 
-## Einführung zum Abrufen der Positionskoordinaten von Abschnitten in Java-Folien
+## Einführung in das Abrufen von Positionskoordinaten von Abschnitten in Java-Folien
 
-In dieser umfassenden Anleitung erfahren Sie, wie Sie die Positionskoordinaten eines Abschnitts in Java-Folien mithilfe der Aspose.Slides für Java-API abrufen. Sie erfahren, wie Sie auf die Textabschnitte in einer Folie zugreifen und diese bearbeiten und ihre X- und Y-Koordinaten extrahieren. Dieses Schritt-für-Schritt-Tutorial enthält Quellcodebeispiele und wertvolle Einblicke, die Ihnen bei der Bewältigung dieser Aufgabe helfen.
+In dieser umfassenden Anleitung erfahren Sie, wie Sie die Positionskoordinaten eines Teils von Java-Folien mithilfe der Aspose.Slides für Java-API abrufen. Sie lernen, wie Sie auf die Textteile einer Folie zugreifen, diese bearbeiten und ihre X- und Y-Koordinaten extrahieren. Dieses Schritt-für-Schritt-Tutorial enthält Quellcodebeispiele und wertvolle Einblicke, die Ihnen dabei helfen, diese Aufgabe zu meistern.
 
 ## Voraussetzungen
 
@@ -43,7 +45,7 @@ import java.awt.geom.Point2D;
 
 ## Schritt 2: Laden der Präsentation
 
- In diesem Schritt laden wir die PowerPoint-Präsentation, die die Folie enthält, mit der wir arbeiten möchten. Ersetzen Sie`"Your Document Directory"` durch den tatsächlichen Pfad zu Ihrer PowerPoint-Datei.
+In diesem Schritt laden wir die PowerPoint-Präsentation, die die Folie enthält, mit der wir arbeiten möchten. Ersetzen Sie `"Your Document Directory"` durch den tatsächlichen Pfad zu Ihrer PowerPoint-Datei.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -52,7 +54,7 @@ Presentation presentation = new Presentation(dataDir + "Shapes.pptx");
 
 ## Schritt 3: Zugriff auf Textteile und Koordinaten
 
-Jetzt greifen wir auf die Textteile innerhalb der Folie zu und ermitteln ihre X- und Y-Koordinaten. Dazu durchlaufen wir Absätze und Teile. Hier ist der Codeausschnitt:
+Nun greifen wir auf die Textabschnitte innerhalb der Folie zu und ermitteln deren X- und Y-Koordinaten. Dazu durchlaufen wir Absätze und Abschnitte. Hier ist der Codeausschnitt:
 
 ```java
 try
@@ -74,12 +76,12 @@ finally
 }
 ```
 
-Dieser Code ruft die X- und Y-Koordinaten für jeden Textabschnitt in der angegebenen Folie ab. Sie können ihn Ihren spezifischen Anforderungen entsprechend ändern.
+Dieser Code ruft die X- und Y-Koordinaten für jeden Textabschnitt der angegebenen Folie ab. Sie können ihn an Ihre spezifischen Anforderungen anpassen.
 
 ## Vollständiger Quellcode zum Abrufen der Positionskoordinaten von Abschnitten in Java-Folien
 
 ```java
-// Der Pfad zum Dokumentverzeichnis.
+// Der Pfad zum Dokumentenverzeichnis.
 String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "Shapes.pptx");
 try
@@ -103,21 +105,21 @@ finally
 
 ## Abschluss
 
-In diesem Tutorial haben wir erläutert, wie Sie die Positionskoordinaten von Textabschnitten in Java-Folien mithilfe der Aspose.Slides für Java-API abrufen. Dieses Wissen kann besonders nützlich sein, wenn Sie eine präzise Kontrolle über die Platzierung von Textelementen in Ihren PowerPoint-Präsentationen benötigen.
+In diesem Tutorial haben wir erläutert, wie Sie die Positionskoordinaten von Textabschnitten in Java-Folien mithilfe der Aspose.Slides für Java-API ermitteln. Dieses Wissen ist besonders nützlich, wenn Sie die Platzierung von Textelementen in Ihren PowerPoint-Präsentationen präzise steuern möchten.
 
 ## Häufig gestellte Fragen
 
 ### Wie kann ich Aspose.Slides für Java herunterladen?
 
- Sie können Aspose.Slides für Java von der Website unter dem folgenden Link herunterladen:[Laden Sie Aspose.Slides für Java herunter](https://releases.aspose.com/slides/java/)
+Sie können Aspose.Slides für Java von der Website unter dem folgenden Link herunterladen: [Laden Sie Aspose.Slides für Java herunter](https://releases.aspose.com/slides/java/)
 
 ### Wo finde ich die Dokumentation für Aspose.Slides für Java?
 
- Die Dokumentation für Aspose.Slides für Java ist verfügbar unter:[Aspose.Slides für Java-Dokumentation](https://reference.aspose.com/slides/java/)
+Die Dokumentation für Aspose.Slides für Java ist verfügbar unter: [Aspose.Slides für Java-Dokumentation](https://reference.aspose.com/slides/java/)
 
 ### Kann ich Aspose.Slides für Java in meinen kommerziellen Projekten verwenden?
 
-Ja, Aspose.Slides für Java kann in kommerziellen Projekten verwendet werden. Lesen Sie jedoch unbedingt die von Aspose bereitgestellten Lizenzbedingungen.
+Ja, Aspose.Slides für Java kann in kommerziellen Projekten verwendet werden. Beachten Sie jedoch unbedingt die Lizenzbedingungen von Aspose.
 
 ### Ist Aspose.Slides für Java mit verschiedenen PowerPoint-Dateiformaten kompatibel?
 
@@ -125,10 +127,12 @@ Ja, Aspose.Slides für Java unterstützt verschiedene PowerPoint-Dateiformate, d
 
 ### Wie kann ich weiteren Support oder Hilfe zu Aspose.Slides für Java erhalten?
 
-Auf der Aspose-Website können Sie auf zusätzlichen Support und Ressourcen zugreifen. Sie bietet Foren, Dokumentation und Premium-Supportoptionen für Benutzer.
+Auf der Aspose-Website finden Sie zusätzlichen Support und Ressourcen. Dort finden Sie Foren, Dokumentationen und Premium-Supportoptionen für Benutzer.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

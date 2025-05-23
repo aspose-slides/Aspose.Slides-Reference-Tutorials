@@ -1,42 +1,44 @@
 ---
-title: Accedi alle proprietà integrate in PowerPoint
-linktitle: Accedi alle proprietà integrate in PowerPoint
-second_title: Aspose.Slides API di elaborazione Java PowerPoint
-description: Scopri come accedere alle proprietà integrate in PowerPoint utilizzando Aspose.Slides per Java. Questo tutorial ti guida nel recupero dell'autore, della data di creazione e altro ancora.
-weight: 10
-url: /it/java/java-powerpoint-properties-management/access-built-in-properties-powerpoint/
+"description": "Scopri come accedere alle proprietà predefinite in PowerPoint utilizzando Aspose.Slides per Java. Questo tutorial ti guiderà nel recupero di autore, data di creazione e altro ancora."
+"linktitle": "Accesso alle proprietà integrate in PowerPoint"
+"second_title": "API di elaborazione Java PowerPoint di Aspose.Slides"
+"title": "Accesso alle proprietà integrate in PowerPoint"
+"url": "/it/java/java-powerpoint-properties-management/access-built-in-properties-powerpoint/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Accedi alle proprietà integrate in PowerPoint
+# Accesso alle proprietà integrate in PowerPoint
 
-## introduzione
-In questo tutorial esploreremo come accedere alle proprietà integrate nelle presentazioni di PowerPoint utilizzando Aspose.Slides per Java. Aspose.Slides è una potente libreria che consente agli sviluppatori Java di lavorare con presentazioni PowerPoint a livello di codice, abilitando attività come la lettura e la modifica delle proprietà senza problemi.
+## Introduzione
+In questo tutorial, esploreremo come accedere alle proprietà integrate nelle presentazioni di PowerPoint utilizzando Aspose.Slides per Java. Aspose.Slides è una potente libreria che consente agli sviluppatori Java di lavorare con le presentazioni di PowerPoint a livello di codice, consentendo attività come la lettura e la modifica delle proprietà senza problemi.
 ## Prerequisiti
 Prima di iniziare, assicurati di avere i seguenti prerequisiti:
-1.  Java Development Kit (JDK): assicurati di avere JDK installato sul tuo sistema. Puoi scaricarlo da[Qui](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.Slides per Java: scarica e installa Aspose.Slides per Java da[questo link](https://releases.aspose.com/slides/java/).
+1. Java Development Kit (JDK): assicurati di aver installato il JDK sul tuo sistema. Puoi scaricarlo da [Qui](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+2. Aspose.Slides per Java: Scarica e installa Aspose.Slides per Java da [questo collegamento](https://releases.aspose.com/slides/java/).
 
 ## Importa pacchetti
-Innanzitutto, devi importare i pacchetti necessari nel tuo progetto Java. Aggiungi la seguente istruzione di importazione all'inizio del tuo file Java:
+Per prima cosa, devi importare i pacchetti necessari nel tuo progetto Java. Aggiungi la seguente istruzione di importazione all'inizio del file Java:
 ```java
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.Presentation;
 
 ```
 ## Passaggio 1: impostare l'oggetto di presentazione
-Inizia impostando l'oggetto Presentazione per rappresentare la presentazione di PowerPoint con cui vuoi lavorare. Ecco come puoi farlo:
+Inizia configurando l'oggetto Presentazione per rappresentare la presentazione PowerPoint con cui desideri lavorare. Ecco come fare:
 ```java
-// Il percorso della directory contenente il file di presentazione
+// Il percorso verso la directory contenente il file di presentazione
 String dataDir = "path_to_your_presentation_directory/";
-// Istanziare la classe Presentation
+// Istanziare la classe Presentazione
 Presentation pres = new Presentation(dataDir + "your_presentation_file.pptx");
 ```
 ## Passaggio 2: accedere alle proprietà del documento
-Dopo aver configurato l'oggetto Presentation, puoi accedere alle proprietà integrate della presentazione utilizzando l'interfaccia IDocumentProperties. Ecco come è possibile recuperare varie proprietà:
+Dopo aver configurato l'oggetto Presentation, è possibile accedere alle proprietà integrate della presentazione tramite l'interfaccia IDocumentProperties. Ecco come recuperare diverse proprietà:
 ### Categoria
 ```java
 System.out.println("Category : " + documentProperties.getCategory());
@@ -69,7 +71,7 @@ System.out.println("Last Modified By : " + documentProperties.getLastSavedBy());
 ```java
 System.out.println("Supervisor : " + documentProperties.getManager());
 ```
-### Data modificata
+### Data di modifica
 ```java
 System.out.println("Modified Date : " + documentProperties.getLastSavedTime());
 ```
@@ -95,21 +97,23 @@ System.out.println("Title : " + documentProperties.getTitle());
 ```
 
 ## Conclusione
-In questo tutorial, abbiamo imparato come accedere alle proprietà integrate nelle presentazioni di PowerPoint utilizzando Aspose.Slides per Java. Seguendo i passaggi descritti sopra, puoi facilmente recuperare varie proprietà come autore, data di creazione e titolo a livello di codice.
+In questo tutorial abbiamo imparato come accedere alle proprietà predefinite nelle presentazioni di PowerPoint utilizzando Aspose.Slides per Java. Seguendo i passaggi descritti sopra, è possibile recuperare facilmente diverse proprietà, come autore, data di creazione e titolo, a livello di codice.
 ## Domande frequenti
 ### Posso modificare queste proprietà integrate utilizzando Aspose.Slides per Java?
 Sì, puoi modificare queste proprietà utilizzando Aspose.Slides. È sufficiente utilizzare i metodi setter appropriati forniti dall'interfaccia IDocumentProperties.
 ### Aspose.Slides è compatibile con diverse versioni di PowerPoint?
-Aspose.Slides supporta un'ampia gamma di versioni di PowerPoint, garantendo la compatibilità su varie piattaforme.
+Aspose.Slides supporta un'ampia gamma di versioni di PowerPoint, garantendo la compatibilità su diverse piattaforme.
 ### Posso recuperare anche le proprietà personalizzate?
 Sì, oltre alle proprietà integrate, puoi anche recuperare e modificare proprietà personalizzate utilizzando Aspose.Slides per Java.
 ### Aspose.Slides offre documentazione e supporto?
- Sì, puoi trovare la documentazione completa e accedere ai forum di supporto su[Sito web Aspose](https://reference.aspose.com/slides/java/).
-### È disponibile una versione di prova per Aspose.Slides per Java?
- Sì, puoi scaricare una versione di prova gratuita da[Qui](https://releases.aspose.com/).
+Sì, puoi trovare una documentazione completa e accedere ai forum di supporto su [Sito web di Aspose](https://reference.aspose.com/slides/java/).
+### Esiste una versione di prova disponibile per Aspose.Slides per Java?
+Sì, puoi scaricare una versione di prova gratuita da [Qui](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

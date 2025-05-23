@@ -1,42 +1,44 @@
 ---
-title: Java Slaytlarında Yazı Tipi Boyutu Açıklaması
-linktitle: Java Slaytlarında Yazı Tipi Boyutu Açıklaması
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides for Java ile PowerPoint sunumlarını geliştirin. Adım adım kılavuzumuzda açıklama yazı tipi boyutlarını ve daha fazlasını nasıl özelleştireceğinizi öğrenin.
-weight: 13
-url: /tr/java/chart-elements/font-size-legend-java-slides/
+"description": "PowerPoint sunumlarınızı Aspose.Slides for Java ile geliştirin. Adım adım kılavuzumuzda efsane yazı tiplerini ve daha fazlasını nasıl özelleştireceğinizi öğrenin."
+"linktitle": "Java Slaytlarında Yazı Tipi Boyutu Efsanesi"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java Slaytlarında Yazı Tipi Boyutu Efsanesi"
+"url": "/tr/java/chart-elements/font-size-legend-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java Slaytlarında Yazı Tipi Boyutu Açıklaması
+# Java Slaytlarında Yazı Tipi Boyutu Efsanesi
 
 
-## Java Slaytlarında Yazı Tipi Boyutu Göstergesine Giriş
+## Java Slaytlarında Yazı Tipi Boyutu Efsanesine Giriş
 
-Bu eğitimde, Aspose.Slides for Java'yı kullanarak bir PowerPoint slaydındaki açıklamanın yazı tipi boyutunu nasıl özelleştireceğinizi öğreneceksiniz. Bu görevi gerçekleştirmek için adım adım talimatlar ve kaynak kodu sağlayacağız.
+Bu eğitimde, Aspose.Slides for Java kullanarak bir PowerPoint slaydındaki efsanenin yazı tipi boyutunu nasıl özelleştireceğinizi öğreneceksiniz. Bu görevi başarmak için adım adım talimatlar ve kaynak kodu sağlayacağız.
 
-## Önkoşullar
+## Ön koşullar
 
- Başlamadan önce Java projenizde Aspose.Slides for Java kitaplığının kurulu olduğundan ve kurulduğundan emin olun. Kütüphaneyi adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/slides/java/).
+Başlamadan önce, Java projenizde Aspose.Slides for Java kütüphanesinin yüklü ve ayarlanmış olduğundan emin olun. Kütüphaneyi şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/slides/java/).
 
 ## Adım 1: Sunumu Başlatın
 
 Öncelikle gerekli sınıfları içe aktarın ve PowerPoint sunumunuzu başlatın.
 
 ```java
-// Belgeler dizininin yolu.
+// Belgeler dizinine giden yol.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 ```
 
- Yer değiştirmek`"Your Document Directory"` PowerPoint dosyanızın gerçek yolunu belirtin.
+Yer değiştirmek `"Your Document Directory"` PowerPoint dosyanızın gerçek yolunu belirtin.
 
-## 2. Adım: Grafik Ekleme
+## Adım 2: Bir Grafik Ekleyin
 
-Daha sonra slayta bir grafik ekleyeceğiz ve açıklamanın yazı tipi boyutunu ayarlayacağız.
+Daha sonra slayda bir grafik ekleyeceğiz ve açıklamanın yazı boyutunu ayarlayacağız.
 
 ```java
 try
@@ -46,7 +48,7 @@ try
 }
 ```
 
- Bu kodda ilk slaytta kümelenmiş bir sütun grafiği oluşturuyoruz ve açıklama metninin yazı tipi boyutunu 20 punto olarak ayarlıyoruz. Ayarlayabilirsiniz`setFontHeight`Yazı tipi boyutunu gerektiği gibi değiştirmek için değer.
+Bu kodda, ilk slaytta kümelenmiş bir sütun grafiği oluşturuyoruz ve efsane metninin yazı tipi boyutunu 20 punto olarak ayarlıyoruz. `setFontHeight` İhtiyaç halinde yazı tipi boyutunu değiştirmek için değer.
 
 ## Adım 3: Eksen Değerlerini Özelleştirin
 
@@ -59,11 +61,11 @@ try
     chart.getAxes().getVerticalAxis().setMaxValue(10);
 ```
 
-Burada dikey eksen için minimum ve maksimum değerleri ayarlıyoruz. Değerleri veri gereksinimlerinize göre değiştirebilirsiniz.
+Burada, dikey eksen için minimum ve maksimum değerleri ayarlıyoruz. Değerleri veri gereksinimlerinize göre değiştirebilirsiniz.
 
-## 4. Adım: Sunuyu Kaydetme
+## Adım 4: Sunumu Kaydedin
 
-Son olarak değiştirilen sunumu yeni bir dosyaya kaydedin.
+Son olarak, değiştirilen sunumu yeni bir dosyaya kaydedin.
 
 ```java
     pres.save(dataDir + "output.pptx", SaveFormat.Pptx);
@@ -76,10 +78,10 @@ finally
 
 Bu kod, değiştirilen sunumu belirtilen dizine "output.pptx" olarak kaydeder.
 
-## Java Slaytlarında Yazı Tipi Boyutu Açıklaması İçin Tam Kaynak Kodu
+## Java Slaytlarında Yazı Tipi Boyutu Efsanesi İçin Tam Kaynak Kodu
 
 ```java
-// Belgeler dizininin yolu.
+// Belgeler dizinine giden yol.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 try
@@ -100,34 +102,34 @@ finally
 
 ## Çözüm
 
-Aspose.Slides for Java'yı kullanarak bir Java PowerPoint slaytındaki açıklamanın yazı tipi boyutunu başarıyla özelleştirdiniz. Etkileşimli ve görsel olarak çekici sunumlar oluşturmak için Aspose.Slides'ın yeteneklerini daha fazla keşfedebilirsiniz.
+Java PowerPoint slaydındaki efsanenin yazı tipi boyutunu Aspose.Slides for Java kullanarak başarıyla özelleştirdiniz. Etkileşimli ve görsel olarak çekici sunumlar oluşturmak için Aspose.Slides'ın yeteneklerini daha fazla keşfedebilirsiniz.
 
-## SSS'ler
+## SSS
 
-### Bir grafikteki açıklama metninin yazı tipi boyutunu nasıl değiştiririm?
+### Bir grafikteki açıklama metninin yazı tipi boyutunu nasıl değiştirebilirim?
 
-Bir grafikteki açıklama metninin yazı tipi boyutunu değiştirmek için aşağıdaki kodu kullanabilirsiniz:
+Bir grafikteki efsane metninin yazı tipi boyutunu değiştirmek için aşağıdaki kodu kullanabilirsiniz:
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 50, 50, 600, 400);
 chart.getLegend().getTextFormat().getPortionFormat().setFontHeight(20);
 ```
 
- Bu kodda bir grafik oluşturup lejant metninin yazı tipi boyutunu 20 punto olarak ayarlıyoruz. Ayarlayabilirsiniz`setFontHeight` Yazı tipi boyutunu değiştirmek için değer.
+Bu kodda bir grafik oluşturuyoruz ve efsane metninin yazı tipi boyutunu 20 punto olarak ayarlıyoruz. `setFontHeight` yazı tipi boyutunu değiştirmek için değer.
 
-### Bir grafikteki göstergenin diğer özelliklerini özelleştirebilir miyim?
+### Bir grafikteki efsanenin diğer özelliklerini özelleştirebilir miyim?
 
-Evet, Aspose.Slides'ı kullanarak bir grafikteki açıklamanın çeşitli özelliklerini özelleştirebilirsiniz. Özelleştirebileceğiniz ortak özelliklerden bazıları metin biçimlendirmesi, konum, görünürlük ve daha fazlasını içerir. Örneğin efsanenin konumunu değiştirmek için şunları kullanabilirsiniz:
+Evet, Aspose.Slides kullanarak bir grafikteki efsanenin çeşitli özelliklerini özelleştirebilirsiniz. Özelleştirebileceğiniz bazı genel özellikler arasında metin biçimlendirme, konum, görünürlük ve daha fazlası bulunur. Örneğin, efsanenin konumunu değiştirmek için şunları kullanabilirsiniz:
 
 ```java
 chart.getLegend().setPosition(LegendPosition.Bottom);
 ```
 
-Bu kod, göstergenin grafiğin altında görünmesini ayarlar. Daha fazla özelleştirme seçeneği için Aspose.Slides belgelerini inceleyin.
+Bu kod, efsanenin grafiğin alt kısmında görünmesini sağlar. Daha fazla özelleştirme seçeneği için Aspose.Slides belgelerini inceleyin.
 
 ### Bir grafikte dikey eksen için minimum ve maksimum değerleri nasıl ayarlarım?
 
-Bir grafikte dikey eksenin minimum ve maksimum değerlerini ayarlamak için aşağıdaki kodu kullanabilirsiniz:
+Bir grafikteki dikey eksen için minimum ve maksimum değerleri ayarlamak için aşağıdaki kodu kullanabilirsiniz:
 
 ```java
 chart.getAxes().getVerticalAxis().setAutomaticMinValue(false);
@@ -136,14 +138,16 @@ chart.getAxes().getVerticalAxis().setAutomaticMaxValue(false);
 chart.getAxes().getVerticalAxis().setMaxValue(10);
 ```
 
-Burada otomatik eksen ölçeklendirmeyi devre dışı bırakıp dikey eksen için minimum ve maksimum değerleri belirliyoruz. Değerleri grafik verileriniz için gereken şekilde ayarlayın.
+Burada, otomatik eksen ölçeklemesini devre dışı bırakıyoruz ve dikey eksen için minimum ve maksimum değerleri belirliyoruz. Değerleri grafik verileriniz için gerektiği gibi ayarlayın.
 
-### Aspose.Slides için daha fazla bilgi ve belgeyi nerede bulabilirim?
+### Aspose.Slides hakkında daha fazla bilgi ve belgeyi nerede bulabilirim?
 
- Aspose dokümantasyon web sitesinde Aspose.Slides for Java için kapsamlı dokümantasyon ve API referansları bulabilirsiniz. Ziyaret etmek[Burada](https://reference.aspose.com/slides/java/) Kütüphanenin kullanımına ilişkin detaylı bilgi için.
+Aspose.Slides for Java için kapsamlı dokümanları ve API referanslarını Aspose dokümantasyon web sitesinde bulabilirsiniz. Ziyaret edin [Burada](https://reference.aspose.com/slides/java/) Kütüphanenin kullanımı hakkında detaylı bilgi için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

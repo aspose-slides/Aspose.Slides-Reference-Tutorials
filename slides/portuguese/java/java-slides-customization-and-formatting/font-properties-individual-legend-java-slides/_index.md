@@ -1,30 +1,32 @@
 ---
-title: Propriedades de fonte para legenda individual em slides Java
-linktitle: Propriedades de fonte para legenda individual em slides Java
-second_title: API de processamento Aspose.Slides Java PowerPoint
-description: Aprimore as apresentações do PowerPoint com estilos, tamanhos e cores de fonte personalizados para legendas individuais em Java Slides usando Aspose.Slides for Java.
-weight: 12
-url: /pt/java/customization-and-formatting/font-properties-individual-legend-java-slides/
+"description": "Aprimore apresentações do PowerPoint com estilos de fonte, tamanhos e cores personalizados para legendas individuais no Java Slides usando o Aspose.Slides para Java."
+"linktitle": "Propriedades de fonte para legendas individuais em slides Java"
+"second_title": "API de processamento Java PowerPoint Aspose.Slides"
+"title": "Propriedades de fonte para legendas individuais em slides Java"
+"url": "/pt/java/customization-and-formatting/font-properties-individual-legend-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Propriedades de fonte para legenda individual em slides Java
+# Propriedades de fonte para legendas individuais em slides Java
 
 
-## Introdução às propriedades de fonte para legenda individual em slides Java
+## Introdução às propriedades de fonte para legendas individuais em slides Java
 
-Neste tutorial, exploraremos como definir propriedades de fonte para uma legenda individual em Java Slides usando Aspose.Slides for Java. Ao personalizar as propriedades da fonte, você pode tornar suas legendas mais atraentes visualmente e informativas em suas apresentações do PowerPoint.
+Neste tutorial, exploraremos como definir propriedades de fonte para uma legenda individual em Slides Java usando o Aspose.Slides para Java. Ao personalizar as propriedades da fonte, você pode tornar suas legendas mais visualmente atraentes e informativas em suas apresentações do PowerPoint.
 
 ## Pré-requisitos
 
- Antes de começar, certifique-se de ter a biblioteca Aspose.Slides for Java integrada ao seu projeto. Você pode baixá-lo no[Aspose.Slides para documentação Java](https://reference.aspose.com/slides/java/).
+Antes de começar, certifique-se de ter a biblioteca Aspose.Slides para Java integrada ao seu projeto. Você pode baixá-la do site [Documentação do Aspose.Slides para Java](https://reference.aspose.com/slides/java/).
 
-## Etapa 1: inicializar a apresentação e adicionar gráfico
+## Etapa 1: inicializar a apresentação e adicionar o gráfico
 
-Primeiro, vamos começar inicializando uma apresentação do PowerPoint e adicionando um gráfico a ela. Neste exemplo, usaremos um gráfico de colunas agrupadas como ilustração.
+Primeiro, vamos inicializar uma apresentação do PowerPoint e adicionar um gráfico a ela. Neste exemplo, usaremos um gráfico de colunas agrupadas como ilustração.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -38,11 +40,11 @@ try {
 }
 ```
 
- Substituir`"Your Document Directory"` com o diretório real onde seu documento PowerPoint está localizado.
+Substituir `"Your Document Directory"` com o diretório real onde seu documento do PowerPoint está localizado.
 
-## Etapa 2: personalizar propriedades de fonte para legenda
+## Etapa 2: personalizar as propriedades da fonte para a legenda
 
-Agora, vamos personalizar as propriedades da fonte para uma entrada de legenda individual no gráfico. Neste exemplo, temos como alvo a segunda entrada da legenda (índice 1), mas você pode ajustar o índice de acordo com seus requisitos específicos.
+Agora, vamos personalizar as propriedades da fonte para uma entrada de legenda individual no gráfico. Neste exemplo, estamos focando na segunda entrada de legenda (índice 1), mas você pode ajustar o índice de acordo com suas necessidades específicas.
 
 ```java
 IChartTextFormat tf = chart.getLegend().getEntries().get_Item(1).getTextFormat();
@@ -53,28 +55,28 @@ tf.getPortionFormat().getFillFormat().setFillType(FillType.Solid);
 tf.getPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.BLUE);
 ```
 
-Aqui está o que cada linha de código faz:
+Veja o que cada linha de código faz:
 
 - `get_Item(1)` recupera a segunda entrada da legenda (índice 1). Você pode alterar o índice para direcionar uma entrada de legenda diferente.
-- `setFontBold(NullableBool.True)` define a fonte para negrito.
+- `setFontBold(NullableBool.True)` define a fonte como negrito.
 - `setFontHeight(20)` define o tamanho da fonte para 20 pontos.
 - `setFontItalic(NullableBool.True)` define a fonte para itálico.
 - `setFillType(FillType.Solid)` especifica que o texto de entrada da legenda deve ter um preenchimento sólido.
-- `getSolidFillColor().setColor(Color.BLUE)` define a cor de preenchimento para azul. Você pode substituir`Color.BLUE` com a cor desejada.
+- `getSolidFillColor().setColor(Color.BLUE)` define a cor de preenchimento como azul. Você pode substituir `Color.BLUE` com a cor desejada.
 
-## Etapa 3: salve a apresentação modificada
+## Etapa 3: Salve a apresentação modificada
 
-Por fim, salve a apresentação modificada em um novo arquivo para preservar as alterações.
+Por fim, salve a apresentação modificada em um novo arquivo para preservar suas alterações.
 
 ```java
 pres.save(dataDir + "output.pptx", SaveFormat.Pptx);
 ```
 
- Substituir`"output.pptx"` com o nome do arquivo de saída de sua preferência.
+Substituir `"output.pptx"` com seu nome de arquivo de saída preferido.
 
-É isso! Você personalizou com êxito as propriedades da fonte para uma entrada de legenda individual em uma apresentação do Java Slides usando Aspose.Slides for Java.
+Pronto! Você personalizou com sucesso as propriedades da fonte para uma entrada de legenda individual em uma apresentação Java Slides usando o Aspose.Slides para Java.
 
-## Código-fonte completo para propriedades de fonte para legenda individual em slides Java
+## Código-fonte completo para propriedades de fonte para legendas individuais em slides Java
 
 ```java
 String dataDir = "Your Document Directory";
@@ -98,30 +100,32 @@ finally
 
 ## Conclusão
 
-Neste tutorial, aprendemos como personalizar as propriedades da fonte para uma legenda individual em Java Slides usando Aspose.Slides for Java. Ao ajustar estilos, tamanhos e cores de fontes, você pode aprimorar o apelo visual e a clareza de suas apresentações em PowerPoint.
+Neste tutorial, aprendemos a personalizar as propriedades da fonte para uma legenda individual no Java Slides usando o Aspose.Slides para Java. Ajustando estilos, tamanhos e cores de fonte, você pode aprimorar o apelo visual e a clareza das suas apresentações do PowerPoint.
 
 ## Perguntas frequentes
 
 ### Como posso alterar a cor da fonte?
 
- Para alterar a cor da fonte, use`tf.getPortionFormat().getFontColor().setColor(yourColor)` em vez de alterar a cor de preenchimento. Substituir`yourColor` com a cor de fonte desejada.
+Para alterar a cor da fonte, use `tf.getPortionFormat().getFontColor().setColor(yourColor)` em vez de alterar a cor de preenchimento. Substituir `yourColor` com a cor de fonte desejada.
 
 ### Como modifico outras propriedades da legenda?
 
-Você pode modificar várias outras propriedades da legenda, como posição, tamanho e formato. Consulte a documentação do Aspose.Slides for Java para obter informações detalhadas sobre como trabalhar com legendas.
+Você pode modificar várias outras propriedades da legenda, como posição, tamanho e formato. Consulte a documentação do Aspose.Slides para Java para obter informações detalhadas sobre como trabalhar com legendas.
 
-### Posso aplicar essas alterações a diversas entradas de legenda?
+### Posso aplicar essas alterações a várias entradas de legenda?
 
- Sim, você pode percorrer as entradas da legenda e aplicar essas alterações a várias entradas ajustando o índice em`get_Item(index)` e repetindo o código de personalização.
+Sim, você pode percorrer as entradas da legenda e aplicar essas alterações a várias entradas ajustando o índice em `get_Item(index)` e repetindo o código de personalização.
 
-Lembre-se de descartar o objeto de apresentação quando terminar para liberar recursos:
+Lembre-se de descartar o objeto de apresentação quando terminar de liberar recursos:
 
 ```java
 if (pres != null) pres.dispose();
 ```
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,30 +1,32 @@
 ---
-title: เครื่องหมายเริ่มต้นในแผนภูมิใน Java Slides
-linktitle: เครื่องหมายเริ่มต้นในแผนภูมิใน Java Slides
-second_title: Aspose.Slides Java PowerPoint การประมวลผล API
-description: เรียนรู้วิธีสร้าง Java Slides ด้วยมาร์กเกอร์เริ่มต้นในแผนภูมิโดยใช้ Aspose.Slides สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมซอร์สโค้ด
-weight: 16
-url: /th/java/chart-data-manipulation/default-markers-in-chart-java-slides/
+"description": "เรียนรู้วิธีสร้าง Java Slides โดยใช้มาร์กเกอร์เริ่มต้นในแผนภูมิโดยใช้ Aspose.Slides สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับ"
+"linktitle": "เครื่องหมายเริ่มต้นในแผนภูมิใน Java Slides"
+"second_title": "API การประมวลผล Java PowerPoint ของ Aspose.Slides"
+"title": "เครื่องหมายเริ่มต้นในแผนภูมิใน Java Slides"
+"url": "/th/java/chart-data-manipulation/default-markers-in-chart-java-slides/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เครื่องหมายเริ่มต้นในแผนภูมิใน Java Slides
 
 
-## ข้อมูลเบื้องต้นเกี่ยวกับเครื่องหมายเริ่มต้นในแผนภูมิใน Java Slides
+## การแนะนำการใช้เครื่องหมายเริ่มต้นในแผนภูมิใน Java Slides
 
-ในบทช่วยสอนนี้ เราจะสำรวจวิธีสร้างแผนภูมิด้วยมาร์กเกอร์เริ่มต้นโดยใช้ Aspose.Slides สำหรับ Java เครื่องหมายเริ่มต้นคือสัญลักษณ์หรือรูปร่างที่เพิ่มลงในจุดข้อมูลในแผนภูมิเพื่อไฮไลท์ เราจะสร้างแผนภูมิเส้นพร้อมเครื่องหมายเพื่อแสดงภาพข้อมูล
+ในบทช่วยสอนนี้ เราจะมาเรียนรู้วิธีการสร้างแผนภูมิโดยใช้เครื่องหมายเริ่มต้นโดยใช้ Aspose.Slides สำหรับ Java เครื่องหมายเริ่มต้นคือสัญลักษณ์หรือรูปร่างที่เพิ่มลงในจุดข้อมูลในแผนภูมิเพื่อเน้นจุดข้อมูลเหล่านั้น เราจะสร้างแผนภูมิเส้นโดยใช้เครื่องหมายเพื่อแสดงข้อมูล
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่คุณจะเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งและตั้งค่าไลบรารี Aspose.Slides สำหรับ Java ในโปรเจ็กต์ Java ของคุณแล้ว
+ก่อนเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งและตั้งค่าไลบรารี Aspose.Slides สำหรับ Java ในโปรเจ็กต์ Java ของคุณแล้ว
 
 ## ขั้นตอนที่ 1: สร้างงานนำเสนอ
 
-ขั้นแรก มาสร้างงานนำเสนอและเพิ่มสไลด์ลงไป จากนั้นเราจะเพิ่มแผนภูมิลงในสไลด์
+ขั้นแรก ให้สร้างงานนำเสนอและเพิ่มสไลด์เข้าไป จากนั้นจึงเพิ่มแผนภูมิลงในสไลด์
 
 ```java
 String dataDir = "Your Document Directory";
@@ -32,9 +34,9 @@ Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
 ```
 
-## ขั้นตอนที่ 2: เพิ่มแผนภูมิเส้นด้วยเครื่องหมาย
+## ขั้นตอนที่ 2: เพิ่มแผนภูมิเส้นพร้อมเครื่องหมาย
 
-ตอนนี้ เรามาเพิ่มแผนภูมิเส้นที่มีเครื่องหมายลงในสไลด์กันดีกว่า นอกจากนี้เรายังจะล้างข้อมูลเริ่มต้นออกจากแผนภูมิด้วย
+ตอนนี้เรามาเพิ่มแผนภูมิเส้นพร้อมเครื่องหมายลงในสไลด์กัน เราจะล้างข้อมูลเริ่มต้นทั้งหมดออกจากแผนภูมิด้วย
 
 ```java
 IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 10, 10, 400, 400);
@@ -44,7 +46,7 @@ chart.getChartData().getCategories().clear();
 
 ## ขั้นตอนที่ 3: เติมข้อมูลแผนภูมิ
 
-เราจะเติมแผนภูมิด้วยข้อมูลตัวอย่าง ในตัวอย่างนี้ เราจะสร้างชุดข้อมูล 2 ชุดพร้อมจุดข้อมูลและหมวดหมู่
+เราจะเติมข้อมูลตัวอย่างลงในแผนภูมิ ในตัวอย่างนี้ เราจะสร้างชุดข้อมูลสองชุดที่มีจุดข้อมูลและหมวดหมู่
 
 ```java
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
@@ -61,11 +63,11 @@ series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 3, 1, -10));
 chart.getChartData().getCategories().add(fact.getCell(0, 4, 0, "C4"));
 series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 4, 1, null));
 
-// ชุดที่ 2
+// ซีรี่ย์ 2
 chart.getChartData().getSeries().add(fact.getCell(0, 0, 2, "Series 2"));
 IChartSeries series2 = chart.getChartData().getSeries().get_Item(1);
 
-// กำลังเติมข้อมูลซีรีส์
+// การเติมข้อมูลชุด
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 1, 2, 30));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 2, 2, 10));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 3, 2, 60));
@@ -74,7 +76,7 @@ series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 4, 2, 40));
 
 ## ขั้นตอนที่ 4: ปรับแต่งแผนภูมิ
 
-คุณสามารถปรับแต่งแผนภูมิเพิ่มเติมได้ เช่น การเพิ่มคำอธิบายและการปรับรูปลักษณ์
+คุณสามารถปรับแต่งแผนภูมิเพิ่มเติมได้ เช่น การเพิ่มคำอธิบายและปรับเปลี่ยนลักษณะที่ปรากฏ
 
 ```java
 chart.setLegend(true);
@@ -83,15 +85,15 @@ chart.getLegend().setOverlay(false);
 
 ## ขั้นตอนที่ 5: บันทึกการนำเสนอ
 
-สุดท้าย บันทึกงานนำเสนอพร้อมแผนภูมิไปยังตำแหน่งที่คุณต้องการ
+สุดท้ายให้บันทึกการนำเสนอพร้อมแผนภูมิไปยังตำแหน่งที่คุณต้องการ
 
 ```java
 pres.save(dataDir + "DefaultMarkersInChart.pptx", SaveFormat.Pptx);
 ```
 
-แค่นั้นแหละ! คุณได้สร้างแผนภูมิเส้นพร้อมเครื่องหมายเริ่มต้นโดยใช้ Aspose.Slides สำหรับ Java
+เสร็จเรียบร้อย! คุณได้สร้างแผนภูมิเส้นที่มีเครื่องหมายเริ่มต้นโดยใช้ Aspose.Slides สำหรับ Java แล้ว
 
-## กรอกซอร์สโค้ดให้สมบูรณ์สำหรับมาร์กเกอร์เริ่มต้นในแผนภูมิใน Java Slides
+## โค้ดต้นฉบับสมบูรณ์สำหรับเครื่องหมายเริ่มต้นในแผนภูมิใน Java Slides
 
 ```java
         // เส้นทางไปยังไดเร็กทอรีเอกสาร
@@ -115,9 +117,9 @@ pres.save(dataDir + "DefaultMarkersInChart.pptx", SaveFormat.Pptx);
             chart.getChartData().getCategories().add(fact.getCell(0, 4, 0, "C4"));
             series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 4, 1, null));
             chart.getChartData().getSeries().add(fact.getCell(0, 0, 2, "Series 2"), chart.getType());
-            //ใช้แผนภูมิชุดที่สอง
+            //มาดูแผนภูมิชุดที่สองกัน
             IChartSeries series2 = chart.getChartData().getSeries().get_Item(1);
-            //กำลังเติมข้อมูลซีรีส์
+            //ขณะนี้กำลังเพิ่มข้อมูลซีรีส์
             series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 1, 2, 30));
             series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 2, 2, 10));
             series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 3, 2, 60));
@@ -133,24 +135,26 @@ pres.save(dataDir + "DefaultMarkersInChart.pptx", SaveFormat.Pptx);
 ```
 ## บทสรุป
 
-ในบทช่วยสอนที่ครอบคลุมนี้ คุณได้เรียนรู้วิธีสร้าง Java Slides ด้วยเครื่องหมายเริ่มต้นในแผนภูมิโดยใช้ Aspose.Slides สำหรับ Java เราครอบคลุมกระบวนการทั้งหมดตั้งแต่การตั้งค่าการนำเสนอไปจนถึงการปรับแต่งรูปลักษณ์ของแผนภูมิและการบันทึกผลลัพธ์
+ในบทช่วยสอนที่ครอบคลุมนี้ คุณจะได้เรียนรู้วิธีสร้าง Java Slides ด้วยเครื่องหมายเริ่มต้นในแผนภูมิโดยใช้ Aspose.Slides สำหรับ Java เราได้ครอบคลุมกระบวนการทั้งหมดตั้งแต่การตั้งค่าการนำเสนอไปจนถึงการปรับแต่งรูปลักษณ์ของแผนภูมิและการบันทึกผลลัพธ์
 
 ## คำถามที่พบบ่อย
 
-### ฉันจะเปลี่ยนสัญลักษณ์มาร์กเกอร์ได้อย่างไร?
+### ฉันจะเปลี่ยนสัญลักษณ์เครื่องหมายได้อย่างไร
 
-คุณสามารถปรับแต่งสัญลักษณ์มาร์กเกอร์ได้โดยการตั้งค่าสไตล์มาร์กเกอร์สำหรับจุดข้อมูลแต่ละจุด ใช้`IDataPoint.setMarkerStyle()` เพื่อเปลี่ยนสัญลักษณ์เครื่องหมาย
+คุณสามารถปรับแต่งสัญลักษณ์เครื่องหมายได้โดยการตั้งค่ารูปแบบเครื่องหมายสำหรับจุดข้อมูลแต่ละจุด ใช้ `IDataPoint.setMarkerStyle()` เพื่อเปลี่ยนสัญลักษณ์เครื่องหมาย
 
-### ฉันจะปรับสีของแผนภูมิได้อย่างไร
+### ฉันจะปรับสีของแผนภูมิได้อย่างไร?
 
- หากต้องการแก้ไขสีของแผนภูมิ คุณสามารถใช้`IChartSeriesFormat` และ`IShapeFillFormat` อินเทอร์เฟซเพื่อตั้งค่าคุณสมบัติการเติมและเส้น
+หากต้องการปรับเปลี่ยนสีของแผนภูมิ คุณสามารถใช้ `IChartSeriesFormat` และ `IShapeFillFormat` อินเทอร์เฟซสำหรับตั้งค่าคุณสมบัติการเติมและเส้น
 
-### ฉันสามารถเพิ่มป้ายกำกับให้กับจุดข้อมูลได้หรือไม่
+### ฉันสามารถเพิ่มป้ายกำกับลงในจุดข้อมูลได้หรือไม่
 
- ใช่ คุณสามารถเพิ่มป้ายกำกับให้กับจุดข้อมูลได้โดยใช้`IDataPoint.getLabel()` วิธีการและปรับแต่งได้ตามต้องการ
+ใช่ คุณสามารถเพิ่มป้ายกำกับลงในจุดข้อมูลโดยใช้ `IDataPoint.getLabel()` วิธีการและปรับแต่งตามความจำเป็น
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

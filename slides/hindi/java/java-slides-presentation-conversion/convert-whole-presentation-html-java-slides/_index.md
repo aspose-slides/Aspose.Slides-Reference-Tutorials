@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में संपूर्ण प्रस्तुति को HTML में बदलें
-linktitle: जावा स्लाइड्स में संपूर्ण प्रस्तुति को HTML में बदलें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides का उपयोग करके जावा में PowerPoint प्रस्तुतियों को HTML में परिवर्तित करना सीखें। कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 29
-url: /hi/java/presentation-conversion/convert-whole-presentation-html-java-slides/
+"description": "Aspose.Slides का उपयोग करके जावा में PowerPoint प्रस्तुतियों को HTML में परिवर्तित करना सीखें। कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "जावा स्लाइड्स में संपूर्ण प्रस्तुति को HTML में बदलें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में संपूर्ण प्रस्तुति को HTML में बदलें"
+"url": "/hi/java/presentation-conversion/convert-whole-presentation-html-java-slides/"
+"weight": 29
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में संपूर्ण प्रस्तुति को HTML में बदलें
@@ -26,7 +28,7 @@ url: /hi/java/presentation-conversion/convert-whole-presentation-html-java-slide
 2. Aspose.Slides for Java: Aspose.Slides for Java लाइब्रेरी को डाउनलोड और सेट अप करें।
 3. प्रस्तुति: आपको एक पावरपॉइंट प्रस्तुति की आवश्यकता होगी जिसे आप HTML में परिवर्तित करना चाहते हैं।
 
-अब जब हमारी पूर्व-आवश्यकताएं तैयार हैं, तो आइए रूपांतरण प्रक्रिया शुरू करें।
+अब जबकि हमारी पूर्व-आवश्यकताएं तैयार हैं, तो आइए रूपांतरण प्रक्रिया शुरू करें।
 
 ## चरण 1: आवश्यक लाइब्रेरीज़ आयात करें
 
@@ -116,16 +118,18 @@ finally
 
 हां, Aspose.Slides for Java एक व्यावसायिक लाइब्रेरी है, लेकिन यह एक निःशुल्क परीक्षण संस्करण प्रदान करता है। लाइसेंस खरीदने का निर्णय लेने से पहले आप इसकी विशेषताओं और कार्यक्षमता का पता लगा सकते हैं।
 
-### क्या कोई अन्य आउटपुट प्रारूप समर्थित हैं?
+### क्या कोई अन्य आउटपुट प्रारूप समर्थित है?
 
 हां, Aspose.Slides for Java विभिन्न आउटपुट प्रारूपों का समर्थन करता है, जिसमें PDF, PPTX और छवियां शामिल हैं। आप अपनी आवश्यकताओं के अनुसार सबसे उपयुक्त प्रारूप चुन सकते हैं।
 
 ### क्या मैं संपूर्ण प्रस्तुति के बजाय विशिष्ट स्लाइडों को परिवर्तित कर सकता हूँ?
 
 हां, आप प्रेजेंटेशन को सेव करने से पहले कोड में उन्हें चुनकर विशिष्ट स्लाइड्स को कन्वर्ट कर सकते हैं। इससे आपको यह नियंत्रण मिलता है कि कौन सी स्लाइड्स HTML में कन्वर्ट होंगी।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

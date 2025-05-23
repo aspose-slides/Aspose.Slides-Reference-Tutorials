@@ -1,36 +1,38 @@
 ---
-title: Graf index datových bodů v Java Slides
-linktitle: Graf index datových bodů v Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Naučte se manipulovat s indexy datových bodů grafu v aplikaci Java Slides pomocí Aspose.Slides for Java. Extrahujte data z grafů PowerPoint a pracujte s nimi bez námahy.
-weight: 12
-url: /cs/java/data-manipulation/chart-data-point-index-java-slides/
+"description": "Naučte se, jak manipulovat s indexy datových bodů grafů v Java Slides pomocí Aspose.Slides pro Javu. Bez námahy extrahujte a pracujte s daty z grafů PowerPoint."
+"linktitle": "Index datových bodů grafu v Javě Slides"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Index datových bodů grafu v Javě Slides"
+"url": "/cs/java/data-manipulation/chart-data-point-index-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Graf index datových bodů v Java Slides
+# Index datových bodů grafu v Javě Slides
 
 
-## Úvod do indexu datových bodů grafu v Java Slides
+## Úvod do indexu datových bodů grafu v Javě – Slidy
 
-V tomto článku prozkoumáme, jak pracovat s indexy datových bodů grafu v Java Slides pomocí Aspose.Slides for Java API. Pokryjeme krok za krokem proces přístupu a manipulace s datovými body v grafu. Pokud chcete extrahovat nebo manipulovat s daty z grafů v prezentacích PowerPoint, tato příručka je pro vás.
+tomto článku se podíváme na to, jak pracovat s indexy datových bodů grafů v aplikaci Java Slides pomocí rozhraní Aspose.Slides for Java API. Probereme krok za krokem proces přístupu a manipulace s datovými body v grafu. Pokud chcete extrahovat nebo manipulovat s daty z grafů ve svých prezentacích v PowerPointu, je tento průvodce určen právě vám.
 
 ## Předpoklady
 
-Než se ponoříme do kódu, ujistěte se, že máte splněny následující předpoklady:
+Než se pustíme do kódu, ujistěte se, že máte splněny následující předpoklady:
 
-1. Vývojové prostředí Java: Ujistěte se, že máte v systému nastavenou Javu.
+1. Vývojové prostředí Java: Ujistěte se, že máte v systému nainstalovanou Javu.
 
-2.  Aspose.Slides for Java: Budete si muset stáhnout a zahrnout knihovnu Aspose.Slides for Java do svého projektu. Můžete si jej stáhnout z[tady](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides pro Javu: Budete si muset stáhnout a zahrnout knihovnu Aspose.Slides pro Javu do svého projektu. Můžete si ji stáhnout z [zde](https://releases.aspose.com/slides/java/).
 
-3. PowerPointová prezentace s grafem: Vytvořte nebo si vytvořte PowerPointovou prezentaci s alespoň jedním snímkem obsahujícím graf.
+3. Prezentace v PowerPointu s grafem: Vytvořte nebo si pořiďte prezentaci v PowerPointu, která bude mít alespoň jeden snímek obsahující graf.
 
 ## Krok 1: Začínáme
 
-Začněme inicializací potřebných proměnných a načtením naší PowerPointové prezentace:
+Začněme inicializací potřebných proměnných a načtením naší prezentace v PowerPointu:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -38,11 +40,11 @@ String pptxFile = dataDir + "ChartIndex.pptx";
 Presentation presentation = new Presentation(pptxFile);
 ```
 
- Nahradit`"Your Document Directory"` s cestou k adresáři dokumentů a`"ChartIndex.pptx"` s názvem vašeho PowerPoint souboru.
+Nahradit `"Your Document Directory"` cestou k adresáři s dokumenty a `"ChartIndex.pptx"` s názvem vašeho souboru PowerPoint.
 
 ## Krok 2: Přístup k datovým bodům grafu
 
-Nyní, když máme naši prezentaci načtenou, máme přístup k grafu a jeho datovým bodům. Můžete to udělat takto:
+Nyní, když máme načtenou prezentaci, můžeme přistupovat k grafu a jeho datovým bodům. Zde je návod, jak to udělat:
 
 ```java
 try {
@@ -55,14 +57,14 @@ try {
 }
 ```
 
-V tomto fragmentu kódu:
+V tomto úryvku kódu:
 
--  První snímek získáme pomocí`presentation.getSlides().get_Item(0)`.
--  Předpokládáme, že graf je prvním obrazcem na snímku, takže k němu přistupujeme pomocí`getShapes().get_Item(0)`. Upravte tento index, pokud je graf na jiném snímku nebo má jinou pozici v pořadí tvarů.
+- První snímek načteme pomocí `presentation.getSlides().get_Item(0)`.
+- Předpokládáme, že graf je prvním tvarem na snímku, takže k němu přistupujeme pomocí `getShapes().get_Item(0)`Upravte tento index, pokud se váš graf nachází na jiném snímku nebo má jinou pozici v pořadí tvarů.
 
-Uvnitř smyčky iterujeme každý datový bod v první řadě grafu a vytiskneme jeho index a hodnotu.
+Uvnitř smyčky iterujeme každým datovým bodem v první sérii grafu a vypíšeme jeho index a hodnotu.
 
-## Kompletní zdrojový kód pro index datových bodů grafu v Java Slides
+## Kompletní zdrojový kód pro index datových bodů grafu v Javě Slides
 
 ```java
 String dataDir = "Your Document Directory";
@@ -81,32 +83,34 @@ try {
 
 ## Závěr
 
-tomto článku jsme se naučili, jak přistupovat k indexům datových bodů grafu a pracovat s nimi v aplikaci Java Slides pomocí Aspose.Slides for Java API. Nyní můžete snadno extrahovat a manipulovat s daty z grafů v prezentacích PowerPoint.
+V tomto článku jsme se naučili, jak přistupovat k indexům datových bodů grafů a jak s nimi pracovat v aplikaci Java Slides pomocí rozhraní Aspose.Slides for Java API. Nyní můžete snadno extrahovat a manipulovat s daty z grafů ve vašich prezentacích v PowerPointu.
 
-## FAQ
+## Často kladené otázky
 
-### Jak mohu přidat graf na snímek aplikace PowerPoint pomocí Aspose.Slides for Java?
+### Jak mohu přidat graf do snímku PowerPointu pomocí Aspose.Slides pro Javu?
 
-Graf můžete přidat na snímek aplikace PowerPoint pomocí Aspose.Slides for Java vytvořením objektu grafu, určením jeho typu a dat a jeho přidáním na snímek. Podrobné příklady naleznete v dokumentaci Aspose.Slides for Java.
+Graf můžete přidat do snímku aplikace PowerPoint pomocí Aspose.Slides pro Javu vytvořením objektu grafu, zadáním jeho typu a dat a jeho přidáním do snímku. Podrobné příklady naleznete v dokumentaci k Aspose.Slides pro Javu.
 
 ### Mohu upravit vzhled datových bodů v grafu?
 
-Ano, vzhled datových bodů v grafu můžete upravit pomocí Aspose.Slides for Java. Podle potřeby můžete změnit jejich barvy, značky a další vizuální atributy.
+Ano, vzhled datových bodů v grafu můžete upravit pomocí Aspose.Slides pro Javu. V případě potřeby můžete změnit jejich barvy, značky a další vizuální atributy.
 
-### Je Aspose.Slides for Java kompatibilní s různými typy grafů?
+### Je Aspose.Slides pro Javu kompatibilní s různými typy grafů?
 
-Ano, Aspose.Slides for Java podporuje různé typy grafů, včetně sloupcových grafů, spojnicových grafů, koláčových grafů a dalších. Můžete si vybrat typ grafu, který nejlépe vyhovuje vašim potřebám vizualizace dat.
+Ano, Aspose.Slides pro Javu podporuje různé typy grafů, včetně sloupcových, spojnicových, koláčových a dalších. Můžete si vybrat typ grafu, který nejlépe vyhovuje vašim potřebám vizualizace dat.
 
-### Jak exportuji PowerPointovou prezentaci s grafy do různých formátů?
+### Jak exportuji prezentaci v PowerPointu s grafy do různých formátů?
 
-PowerPointovou prezentaci s grafy můžete exportovat do různých formátů, jako jsou PDF nebo obrázkové soubory, pomocí Aspose.Slides for Java. K dispozici jsou možnosti exportu, které umožňují přizpůsobit výstupní formát a kvalitu.
+Prezentaci v PowerPointu s grafy můžete exportovat do různých formátů, jako je PDF nebo obrazové soubory, pomocí Aspose.Slides pro Javu. K dispozici jsou možnosti exportu, které vám umožňují přizpůsobit výstupní formát a kvalitu.
 
 ### Kde najdu další příklady a dokumentaci k Aspose.Slides pro Javu?
 
- Komplexní příklady a dokumentaci k Aspose.Slides for Java můžete najít na webové stránce dokumentace Aspose[tady](https://reference.aspose.com/slides/java/).
+Komplexní příklady a dokumentaci k Aspose.Slides pro Javu naleznete na webových stránkách dokumentace k Aspose. [zde](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

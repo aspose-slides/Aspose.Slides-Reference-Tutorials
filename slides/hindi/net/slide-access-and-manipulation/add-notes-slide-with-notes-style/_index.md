@@ -1,14 +1,16 @@
 ---
-title: .NET के लिए Aspose.Slides के साथ स्टाइलिश नोट्स फ़ॉर्मेटिंग जोड़ना
-linktitle: स्टाइलिश नोट्स फ़ॉर्मेटिंग के साथ नोट्स स्लाइड जोड़ें
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: Aspose.Slides for .NET का उपयोग करके अपने PowerPoint प्रेजेंटेशन में स्टाइलिश नोट्स फ़ॉर्मेटिंग जोड़ना सीखें। प्रतीकों और बुलेट पॉइंट्स के साथ अपनी स्लाइड्स को बेहतर बनाएँ।
-weight: 14
-url: /hi/net/slide-access-and-manipulation/add-notes-slide-with-notes-style/
+"description": "Aspose.Slides for .NET का उपयोग करके अपने PowerPoint प्रेजेंटेशन में स्टाइलिश नोट्स फ़ॉर्मेटिंग जोड़ना सीखें। प्रतीकों और बुलेट पॉइंट्स के साथ अपनी स्लाइड्स को बेहतर बनाएँ।"
+"linktitle": "स्टाइलिश नोट्स फ़ॉर्मेटिंग के साथ नोट्स स्लाइड जोड़ें"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": ".NET के लिए Aspose.Slides के साथ स्टाइलिश नोट्स फ़ॉर्मेटिंग जोड़ना"
+"url": "/hi/net/slide-access-and-manipulation/add-notes-slide-with-notes-style/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # .NET के लिए Aspose.Slides के साथ स्टाइलिश नोट्स फ़ॉर्मेटिंग जोड़ना
@@ -21,7 +23,7 @@ url: /hi/net/slide-access-and-manipulation/add-notes-slide-with-notes-style/
 इससे पहले कि हम चरण-दर-चरण ट्यूटोरियल में उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
 ### 1. .NET के लिए Aspose.Slides
-    आपके पास Aspose.Slides for .NET इंस्टॉल होना चाहिए। अगर आपने पहले से ऐसा नहीं किया है, तो आप इसे वेबसाइट से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/net/).
+   आपके पास Aspose.Slides for .NET इंस्टॉल होना चाहिए। अगर आपने पहले से ऐसा नहीं किया है, तो आप इसे वेबसाइट से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/net/).
 
 ### 2. एक पावरपॉइंट प्रेजेंटेशन
    आपके पास एक पावरपॉइंट प्रेजेंटेशन फ़ाइल (PPTX) होनी चाहिए जिसमें आप स्टाइलिश नोट्स फ़ॉर्मेटिंग जोड़ना चाहते हैं। सुनिश्चित करें कि आपको इस प्रेजेंटेशन फ़ाइल का पथ पता है।
@@ -39,11 +41,11 @@ using Aspose.Slides.Export;
 
 ## चरण 2: स्टाइलिश नोट्स फ़ॉर्मेटिंग जोड़ें
 
-अब, आइए हमारे ट्यूटोरियल के मुख्य भाग में उतरें - अपने पावरपॉइंट स्लाइड्स में स्टाइलिश नोट्स फ़ॉर्मेटिंग जोड़ना। बेहतर समझ के लिए हम इसे कई चरणों में विभाजित करेंगे:
+अब, आइए हमारे ट्यूटोरियल के मुख्य भाग में उतरें - अपने पावरपॉइंट स्लाइड में स्टाइलिश नोट्स फ़ॉर्मेटिंग जोड़ना। बेहतर समझ के लिए हम इसे कई चरणों में विभाजित करेंगे:
 
 ### चरण 2.1: प्रेजेंटेशन क्लास को इंस्टैंशिएट करें
 
- सबसे पहले, हमें इसका एक उदाहरण बनाना होगा`Presentation` क्लास जो आपकी पावरपॉइंट प्रेजेंटेशन फ़ाइल का प्रतिनिधित्व करता है। आपको अपनी प्रेजेंटेशन फ़ाइल का पथ प्रदान करना चाहिए`dataDir` चर।
+सबसे पहले, हमें इसका एक उदाहरण बनाना होगा `Presentation` क्लास जो आपकी पावरपॉइंट प्रेजेंटेशन फ़ाइल का प्रतिनिधित्व करता है। आपको अपनी प्रेजेंटेशन फ़ाइल का पथ प्रदान करना चाहिए `dataDir` चर।
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -55,7 +57,7 @@ using (Presentation presentation = new Presentation(dataDir + "YourPresentation.
 
 ### चरण 2.2: मास्टर नोट्स स्लाइड तक पहुंचें
 
- के अंदर`using`ब्लॉक में, हम मास्टर नोट्स स्लाइड तक पहुँचते हैं। मास्टर नोट्स स्लाइड में आपके प्रेजेंटेशन में नोट्स के लिए डिफ़ॉल्ट स्टाइलिंग शामिल है।
+के अंदर `using` ब्लॉक में, हम मास्टर नोट्स स्लाइड तक पहुँचते हैं। मास्टर नोट्स स्लाइड में आपके प्रेजेंटेशन में नोट्स के लिए डिफ़ॉल्ट स्टाइलिंग शामिल है।
 
 ```csharp
 IMasterNotesSlide notesMaster = presentation.MasterNotesSlideManager.MasterNotesSlide;
@@ -76,7 +78,7 @@ ITextStyle notesStyle = notesMaster.NotesStyle;
 
 ### चरण 2.4: बुलेट पॉइंट सेट करें
 
-इस चरण में, हम नोट्स में पहले स्तर के पैराग्राफ़ के लिए सिंबल बुलेट सेट करते हैं। इससे आपके नोट्स में स्टाइलिश बुलेट पॉइंट बनते हैं।
+इस चरण में, हम नोट्स में पहले स्तर के पैराग्राफ के लिए सिंबल बुलेट सेट करते हैं। इससे आपके नोट्स में स्टाइलिश बुलेट पॉइंट बनते हैं।
 
 ```csharp
 IParagraphFormat paragraphFormat = notesStyle.GetLevel(0);
@@ -105,19 +107,21 @@ presentation.Save(dataDir + "StylishNotesPresentation.pptx", SaveFormat.Pptx);
 Aspose.Slides for .NET, Microsoft PowerPoint फ़ाइलों के साथ प्रोग्रामेटिक रूप से काम करने के लिए एक शक्तिशाली लाइब्रेरी है। यह आपको .NET अनुप्रयोगों का उपयोग करके PowerPoint प्रस्तुतियाँ बनाने, हेरफेर करने और परिवर्तित करने की अनुमति देता है।
 
 ### मैं .NET के लिए Aspose.Slides दस्तावेज़ कहां पा सकता हूं?
- आप दस्तावेज़ तक पहुँच सकते हैं[यहाँ](https://reference.aspose.com/slides/net/)यह पुस्तकालय के उपयोग के बारे में व्यापक जानकारी प्रदान करता है।
+आप दस्तावेज़ तक पहुँच सकते हैं [यहाँ](https://reference.aspose.com/slides/net/)यह पुस्तकालय के उपयोग के बारे में व्यापक जानकारी प्रदान करता है।
 
 ### क्या .NET के लिए Aspose.Slides का उपयोग निःशुल्क है?
- Aspose.Slides for .NET एक व्यावसायिक लाइब्रेरी है, और इसके पूर्ण उपयोग के लिए लाइसेंस की आवश्यकता होती है। हालाँकि, आप इसे उपलब्ध निःशुल्क परीक्षण के साथ एक्सप्लोर कर सकते हैं[यहाँ](https://releases.aspose.com/).
+Aspose.Slides for .NET एक व्यावसायिक लाइब्रेरी है, और इसके पूर्ण उपयोग के लिए लाइसेंस की आवश्यकता होती है। हालाँकि, आप इसे उपलब्ध निःशुल्क परीक्षण के साथ एक्सप्लोर कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### क्या मैं अस्थायी लाइसेंस के साथ .NET के लिए Aspose.Slides आज़मा सकता हूँ?
-हां, आप परीक्षण और मूल्यांकन उद्देश्यों के लिए अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+हां, आप परीक्षण और मूल्यांकन उद्देश्यों के लिए अस्थायी लाइसेंस प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
 
 ### क्या Aspose.Slides for .NET के लिए कोई सामुदायिक मंच या समर्थन उपलब्ध है?
- हां, आप Aspose.Slides for .NET समुदाय फोरम पर सहायता ले सकते हैं और चर्चाओं में भाग ले सकते हैं[यहाँ](https://forum.aspose.com/).
+हां, आप Aspose.Slides for .NET समुदाय फोरम पर सहायता ले सकते हैं और चर्चाओं में भाग ले सकते हैं [यहाँ](https://forum.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

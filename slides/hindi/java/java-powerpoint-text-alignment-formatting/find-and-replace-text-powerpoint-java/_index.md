@@ -1,14 +1,16 @@
 ---
-title: जावा का उपयोग करके पावरपॉइंट में टेक्स्ट ढूंढें और बदलें
-linktitle: जावा का उपयोग करके पावरपॉइंट में टेक्स्ट ढूंढें और बदलें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में टेक्स्ट को कुशलतापूर्वक बदलने का तरीका जानें। इस ट्यूटोरियल के साथ अपने Java एप्लिकेशन की उत्पादकता बढ़ाएँ।
-weight: 13
-url: /hi/java/java-powerpoint-text-alignment-formatting/find-and-replace-text-powerpoint-java/
+"description": "Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में टेक्स्ट को कुशलतापूर्वक बदलने का तरीका जानें। इस ट्यूटोरियल के साथ अपने Java एप्लिकेशन की उत्पादकता बढ़ाएँ।"
+"linktitle": "जावा का उपयोग करके पावरपॉइंट में टेक्स्ट ढूंढें और बदलें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा का उपयोग करके पावरपॉइंट में टेक्स्ट ढूंढें और बदलें"
+"url": "/hi/java/java-powerpoint-text-alignment-formatting/find-and-replace-text-powerpoint-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा का उपयोग करके पावरपॉइंट में टेक्स्ट ढूंढें और बदलें
@@ -20,7 +22,7 @@ url: /hi/java/java-powerpoint-text-alignment-formatting/find-and-replace-text-po
 - आपके सिस्टम पर जावा डेवलपमेंट किट (JDK) स्थापित है।
 - जावा प्रोग्रामिंग भाषा की बुनियादी समझ।
 - आईडीई (एकीकृत विकास पर्यावरण) जैसे कि इंटेलीज आईडिया या एक्लिप्स।
--  Aspose.Slides for Java लाइब्रेरी, जिसे आप यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+- Aspose.Slides for Java लाइब्रेरी, जिसे आप यहां से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 
 ## पैकेज आयात करें
 सबसे पहले, आपको अपने जावा प्रोजेक्ट में पावरपॉइंट प्रस्तुतियों के साथ काम करना शुरू करने के लिए Aspose.Slides for Java से आवश्यक पैकेज आयात करने होंगे:
@@ -34,13 +36,13 @@ import java.awt.Color;
 String presentationName = "Your Document Directory";
 Presentation pres = new Presentation(presentationName);
 ```
- प्रतिस्थापित करें`"Your Document Directory"` अपनी PowerPoint फ़ाइल के वास्तविक पथ के साथ.
+प्रतिस्थापित करें `"Your Document Directory"` अपनी PowerPoint फ़ाइल के वास्तविक पथ के साथ.
 ## चरण 2: आउटपुट पथ परिभाषित करें
 आउटपुट पथ निर्दिष्ट करें जहां पाठ प्रतिस्थापन के बाद संशोधित प्रस्तुति सहेजी जाएगी।
 ```java
-String outPath = "Your Output Directory" + "TextReplaceExample-out.pptx";
+String outPath = "Your Output Directory" + "Textप्रतिस्थापित करेंExample-out.pptx";
 ```
- प्रतिस्थापित करें`"Your Output Directory"` उस निर्देशिका के साथ जहां आप संशोधित प्रस्तुति को सहेजना चाहते हैं.
+Replace `"Your Output Directory"` उस निर्देशिका के साथ जहां आप संशोधित प्रस्तुति को सहेजना चाहते हैं.
 ## चरण 3: टेक्स्ट प्रतिस्थापन प्रारूप सेट करें
 प्रतिस्थापित पाठ के लिए प्रारूप निर्धारित करें, जैसे फ़ॉन्ट आकार, शैली और रंग.
 ```java
@@ -50,13 +52,13 @@ format.setFontItalic(NullableBool.True);
 format.getFillFormat().setFillType(FillType.Solid);
 format.getFillFormat().getSolidFillColor().setColor(Color.RED);
 ```
-इन विशेषताओं को संशोधित करें (`setFontHeight`, `setFontItalic`, `setFillColor`, आदि) को अपनी विशिष्ट स्वरूपण आवश्यकताओं के अनुसार चुनें।
+इन विशेषताओं को संशोधित करें (`setFontHeight`, `setFontItalic`, `setFillColor`, आदि) को अपनी विशिष्ट स्वरूपण आवश्यकताओं के अनुसार बदलें।
 ## चरण 4: पाठ प्रतिस्थापन करें
 स्लाइडों के भीतर पाठ ढूंढने और बदलने के लिए Aspose.Slides API का उपयोग करें।
 ```java
-SlideUtil.findAndReplaceText(pres, true, "[this block] ", "my text", format);
+SlideUtil.findAndप्रतिस्थापित करेंText(pres, true, "[this block] ", "my text", format);
 ```
- प्रतिस्थापित करें`"my text"` उस पाठ के साथ जिसे आप बदलना चाहते हैं और`"[this block] "` उस पाठ के साथ जिसे आप प्रस्तुति में ढूंढना चाहते हैं।
+Replace `"my text"` उस पाठ के साथ जिसे आप बदलना चाहते हैं और `"[this block] "` उस पाठ के साथ जिसे आप प्रस्तुति में ढूंढना चाहते हैं।
 ## चरण 5: संशोधित प्रस्तुति को सहेजें
 संशोधित प्रस्तुति को निर्दिष्ट आउटपुट पथ पर सहेजें.
 ```java
@@ -76,14 +78,16 @@ if (pres != null) pres.dispose();
 ### क्या Aspose.Slides for Java एंटरप्राइज़-स्तरीय अनुप्रयोगों के लिए उपयुक्त है?
 बिल्कुल। Aspose.Slides एंटरप्राइज़ दस्तावेज़ प्रसंस्करण आवश्यकताओं के लिए अनुकूलित मजबूत सुविधाएँ प्रदान करता है।
 ### मैं और अधिक उदाहरण और दस्तावेज कहां पा सकता हूं?
- विस्तृत दस्तावेज़ीकरण और उदाहरण देखें[Aspose.Slides जावा दस्तावेज़ीकरण](https://reference.aspose.com/slides/java/).
+विस्तृत दस्तावेज़ीकरण और उदाहरण देखें [Aspose.Slides जावा दस्तावेज़ीकरण](https://reference.aspose.com/slides/java/).
 ### क्या Aspose.Slides PPTX के अलावा अन्य फ़ाइल स्वरूपों का समर्थन करता है?
 हां, Aspose.Slides विभिन्न PowerPoint फ़ाइल स्वरूपों का समर्थन करता है, जिनमें PPT, PPTX और अन्य शामिल हैं।
 ### क्या मैं खरीदने से पहले Aspose.Slides for Java आज़मा सकता हूँ?
- हां, आप यहां से निःशुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप यहां से निःशुल्क परीक्षण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

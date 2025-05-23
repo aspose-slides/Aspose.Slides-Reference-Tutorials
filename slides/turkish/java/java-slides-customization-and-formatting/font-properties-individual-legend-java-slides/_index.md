@@ -1,30 +1,32 @@
 ---
-title: Java Slaytlarında Bireysel Açıklamalar için Yazı Tipi Özellikleri
-linktitle: Java Slaytlarında Bireysel Açıklamalar için Yazı Tipi Özellikleri
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides for Java'yı kullanarak, Java Slides'daki ayrı açıklamalar için özel yazı tipi stilleri, boyutları ve renkleri ile PowerPoint sunumlarınızı geliştirin.
-weight: 12
-url: /tr/java/customization-and-formatting/font-properties-individual-legend-java-slides/
+"description": "Aspose.Slides for Java'yı kullanarak Java Slaytlarında bireysel açıklamalar için özel yazı tipleri, boyutlar ve renklerle PowerPoint sunumlarınızı geliştirin."
+"linktitle": "Java Slaytlarında Bireysel Efsane için Yazı Tipi Özellikleri"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java Slaytlarında Bireysel Efsane için Yazı Tipi Özellikleri"
+"url": "/tr/java/customization-and-formatting/font-properties-individual-legend-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java Slaytlarında Bireysel Açıklamalar için Yazı Tipi Özellikleri
+# Java Slaytlarında Bireysel Efsane için Yazı Tipi Özellikleri
 
 
-## Java Slaytlarında Bireysel Açıklamalar için Yazı Tipi Özelliklerine Giriş
+## Java Slaytlarında Bireysel Efsaneler için Font Özelliklerine Giriş
 
-Bu eğitimde, Aspose.Slides for Java kullanarak Java Slides'ta tek bir gösterge için yazı tipi özelliklerinin nasıl ayarlanacağını keşfedeceğiz. Yazı tipi özelliklerini özelleştirerek, PowerPoint sunumlarınızda efsanelerinizi görsel olarak daha çekici ve bilgilendirici hale getirebilirsiniz.
+Bu eğitimde, Java Slaytlarında Aspose.Slides for Java kullanarak tek bir efsane için yazı tipi özelliklerinin nasıl ayarlanacağını inceleyeceğiz. Yazı tipi özelliklerini özelleştirerek, PowerPoint sunumlarınızda efsanelerinizi görsel olarak daha çekici ve bilgilendirici hale getirebilirsiniz.
 
-## Önkoşullar
+## Ön koşullar
 
- Başlamadan önce Aspose.Slides for Java kütüphanesinin projenize entegre olduğundan emin olun. adresinden indirebilirsiniz.[Aspose.Slides for Java Belgelendirmesi](https://reference.aspose.com/slides/java/).
+Başlamadan önce, projenize Aspose.Slides for Java kütüphanesinin entegre olduğundan emin olun. Bunu şuradan indirebilirsiniz: [Java Belgeleri için Aspose.Slides](https://reference.aspose.com/slides/java/).
 
-## 1. Adım: Sunumu Başlatın ve Grafik Ekleyin
+## Adım 1: Sunumu Başlatın ve Grafik Ekleyin
 
-Öncelikle bir PowerPoint sunumu başlatıp ona bir grafik ekleyerek başlayalım. Bu örnekte örnek olarak kümelenmiş sütun grafiğini kullanacağız.
+Öncelikle bir PowerPoint sunumu başlatarak ve ona bir grafik ekleyerek başlayalım. Bu örnekte, bir örnek olarak kümelenmiş sütun grafiği kullanacağız.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -38,11 +40,11 @@ try {
 }
 ```
 
- Yer değiştirmek`"Your Document Directory"` PowerPoint belgenizin bulunduğu gerçek dizinle.
+Yer değiştirmek `"Your Document Directory"` PowerPoint belgenizin bulunduğu gerçek dizinle.
 
-## Adım 2: Açıklama için Yazı Tipi Özelliklerini Özelleştirin
+## Adım 2: Legend için Yazı Tipi Özelliklerini Özelleştirin
 
-Şimdi grafikteki tek bir gösterge girişi için yazı tipi özelliklerini özelleştirelim. Bu örnekte ikinci açıklama girişini hedefliyoruz (dizin 1), ancak dizini özel gereksinimlerinize göre ayarlayabilirsiniz.
+Şimdi, grafikteki bireysel bir gösterge girişi için yazı tipi özelliklerini özelleştirelim. Bu örnekte, ikinci gösterge girişini (indeks 1) hedefliyoruz, ancak dizini özel gereksinimlerinize göre ayarlayabilirsiniz.
 
 ```java
 IChartTextFormat tf = chart.getLegend().getEntries().get_Item(1).getTextFormat();
@@ -53,28 +55,28 @@ tf.getPortionFormat().getFillFormat().setFillType(FillType.Solid);
 tf.getPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.BLUE);
 ```
 
-İşte her kod satırının yaptığı şey:
+İşte her bir kod satırının yaptığı şey:
 
-- `get_Item(1)` ikinci açıklama girişini alır (dizin 1). Farklı bir açıklama girişini hedeflemek için dizini değiştirebilirsiniz.
+- `get_Item(1)` ikinci efsane girişini (indeks 1) alır. Farklı bir efsane girişini hedeflemek için dizini değiştirebilirsiniz.
 - `setFontBold(NullableBool.True)` yazı tipini kalın olarak ayarlar.
 - `setFontHeight(20)` yazı tipi boyutunu 20 puntoya ayarlar.
 - `setFontItalic(NullableBool.True)` yazı tipini italik olarak ayarlar.
-- `setFillType(FillType.Solid)` Açıklama girişi metninin düz bir dolguya sahip olması gerektiğini belirtir.
-- `getSolidFillColor().setColor(Color.BLUE)` dolgu rengini mavi olarak ayarlar. Değiştirebilirsin`Color.BLUE` İstediğiniz renk ile.
+- `setFillType(FillType.Solid)` efsane giriş metninin düz bir dolguya sahip olması gerektiğini belirtir.
+- `getSolidFillColor().setColor(Color.BLUE)` dolgu rengini maviye ayarlar. Değiştirebilirsiniz `Color.BLUE` İstediğiniz renk ile.
 
-## 3. Adım: Değiştirilen Sunuyu Kaydetme
+## Adım 3: Değiştirilen Sunumu Kaydedin
 
-Son olarak, değişikliklerinizi korumak için değiştirilen sunuyu yeni bir dosyaya kaydedin.
+Son olarak, değişikliklerinizi korumak için değiştirilmiş sunumu yeni bir dosyaya kaydedin.
 
 ```java
 pres.save(dataDir + "output.pptx", SaveFormat.Pptx);
 ```
 
- Yer değiştirmek`"output.pptx"` tercih ettiğiniz çıktı dosyası adı ile.
+Yer değiştirmek `"output.pptx"` Tercih ettiğiniz çıktı dosya adı ile.
 
-Bu kadar! Aspose.Slides for Java'yı kullanarak Java Slides sunumundaki bireysel bir gösterge girişinin yazı tipi özelliklerini başarıyla özelleştirdiniz.
+İşte bu kadar! Java Slaytlar sunumunda Aspose.Slides for Java kullanarak bireysel bir gösterge girişi için yazı tipi özelliklerini başarıyla özelleştirdiniz.
 
-## Java Slaytlarında Bireysel Açıklamaya Yönelik Yazı Tipi Özellikleri İçin Tam Kaynak Kodu
+## Java Slaytlarında Bireysel Efsaneler İçin Yazı Tipi Özelliklerinin Tam Kaynak Kodu
 
 ```java
 String dataDir = "Your Document Directory";
@@ -98,30 +100,32 @@ finally
 
 ## Çözüm
 
-Bu eğitimde, Aspose.Slides for Java'yı kullanarak Java Slides'ta tek bir gösterge için yazı tipi özelliklerini nasıl özelleştireceğimizi öğrendik. Yazı tipi stillerini, boyutlarını ve renklerini ayarlayarak PowerPoint sunumlarınızın görsel çekiciliğini ve netliğini artırabilirsiniz.
+Bu eğitimde, Java Slaytlarında Aspose.Slides for Java kullanarak tek bir efsane için yazı tipi özelliklerinin nasıl özelleştirileceğini öğrendik. Yazı tipi stillerini, boyutlarını ve renklerini ayarlayarak PowerPoint sunumlarınızın görsel çekiciliğini ve netliğini artırabilirsiniz.
 
-## SSS'ler
+## SSS
 
-### Yazı tipi rengini nasıl değiştirebilirim?
+### Yazı rengini nasıl değiştirebilirim?
 
- Yazı tipi rengini değiştirmek için şunu kullanın:`tf.getPortionFormat().getFontColor().setColor(yourColor)` dolgu rengini değiştirmek yerine. Yer değiştirmek`yourColor` İstenilen yazı tipi rengiyle.
+Yazı tipi rengini değiştirmek için şunu kullanın: `tf.getPortionFormat().getFontColor().setColor(yourColor)` dolgu rengini değiştirmek yerine. Değiştir `yourColor` İstediğiniz yazı rengiyle.
 
-### Diğer gösterge özelliklerini nasıl değiştirebilirim?
+### Diğer efsane özelliklerini nasıl değiştirebilirim?
 
-Göstergenin konum, boyut ve format gibi diğer çeşitli özelliklerini değiştirebilirsiniz. Göstergelerle çalışmaya ilişkin ayrıntılı bilgi için Aspose.Slides for Java belgelerine bakın.
+Efsanenin konum, boyut ve biçim gibi çeşitli diğer özelliklerini değiştirebilirsiniz. Efsanelerle çalışma hakkında ayrıntılı bilgi için Aspose.Slides for Java belgelerine bakın.
 
 ### Bu değişiklikleri birden fazla gösterge girişine uygulayabilir miyim?
 
- Evet, açıklama girişleri arasında geçiş yapabilir ve dizini ayarlayarak bu değişiklikleri birden fazla girişe uygulayabilirsiniz.`get_Item(index)` ve özelleştirme kodunun tekrarlanması.
+Evet, efsane girişleri arasında döngü oluşturabilir ve bu değişiklikleri dizini ayarlayarak birden fazla girişe uygulayabilirsiniz. `get_Item(index)` ve özelleştirme kodunu tekrarlamak.
 
-Kaynakları serbest bırakmayı tamamladığınızda sunum nesnesini elden çıkarmayı unutmayın:
+Kaynakları serbest bırakmayı bitirdiğinizde sunum nesnesini elden çıkarmayı unutmayın:
 
 ```java
 if (pres != null) pres.dispose();
 ```
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

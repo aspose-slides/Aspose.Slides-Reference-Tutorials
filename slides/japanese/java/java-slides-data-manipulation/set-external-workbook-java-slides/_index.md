@@ -1,28 +1,30 @@
 ---
-title: Java スライドで外部ワークブックを設定する
-linktitle: Java スライドで外部ワークブックを設定する
-second_title: Aspose.Slides Java PowerPoint 処理 API
-description: Aspose.Slides for Java を使用して Java スライドに外部ワークブックを設定する方法を学習します。Excel データ統合により動的なプレゼンテーションを作成します。
-weight: 19
-url: /ja/java/data-manipulation/set-external-workbook-java-slides/
+"description": "Aspose.Slides for Javaを使用して、Javaスライドに外部ワークブックを設定する方法を学びます。Excelデータ統合により、ダイナミックなプレゼンテーションを作成します。"
+"linktitle": "Javaスライドで外部ワークブックを設定する"
+"second_title": "Aspose.Slides Java PowerPoint 処理 API"
+"title": "Javaスライドで外部ワークブックを設定する"
+"url": "/ja/java/data-manipulation/set-external-workbook-java-slides/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java スライドで外部ワークブックを設定する
+# Javaスライドで外部ワークブックを設定する
 
 
-## Java スライドで外部ワークブックを設定する方法の紹介
+## Javaスライドで外部ワークブックを設定する方法の紹介
 
-このチュートリアルでは、Aspose.Slides を使用して Java Slides に外部ブックを設定する方法について説明します。外部 Excel ブックのデータを参照するグラフを含む PowerPoint プレゼンテーションを作成する方法を学習します。このガイドを読み終えると、外部データを Java Slides プレゼンテーションに統合する方法を明確に理解できるようになります。
+このチュートリアルでは、Aspose.Slides を使用して Java Slides に外部ワークブックを設定する方法を説明します。外部 Excel ワークブックのデータを参照するグラフを含む PowerPoint プレゼンテーションを作成する方法を学びます。このガイドを最後まで読み進めれば、Java Slides プレゼンテーションに外部データを統合する方法を明確に理解できるようになります。
 
 ## 前提条件
 
 実装に進む前に、次の前提条件が満たされていることを確認してください。
 
-- Java 開発キット (JDK) がシステムにインストールされています。
+- Java Development Kit (JDK) がシステムにインストールされています。
 - Aspose.Slides for Java ライブラリがプロジェクトに追加されました。
 - プレゼンテーションで参照するデータを含む Excel ブック。
 
@@ -41,7 +43,7 @@ Presentation pres = new Presentation();
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 400, 600, false);
 ```
 
-次に、プレゼンテーションに円グラフを挿入します。必要に応じてグラフの種類と位置をカスタマイズできます。
+次に、プレゼンテーションに円グラフを挿入します。グラフの種類と位置は必要に応じてカスタマイズできます。
 
 ## ステップ3: 外部ワークブックにアクセスする
 
@@ -50,7 +52,7 @@ IChartData chartData = chart.getChartData();
 chartData.setExternalWorkbook(dataDir + "externalWorkbook.xlsx");
 ```
 
-外部ワークブックにアクセスするには、`setExternalWorkbook`メソッドを使用して、データを含む Excel ブックへのパスを指定します。
+外部ワークブックにアクセスするには、 `setExternalWorkbook` メソッドを使用して、データを含む Excel ブックへのパスを指定します。
 
 ## ステップ4: チャートデータをバインドする
 
@@ -74,10 +76,10 @@ pres.save(dataDir + "Presentation_with_externalWorkbook.pptx", SaveFormat.Pptx);
 
 最後に、外部ブック参照を含むプレゼンテーションを PowerPoint ファイルとして保存します。
 
-## Java スライドで外部ワークブックを設定するための完全なソース コード
+## Javaスライドで外部ワークブックを設定するための完全なソースコード
 
 ```java
-//ドキュメント ディレクトリへのパス。
+// ドキュメント ディレクトリへのパス。
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 try
@@ -102,17 +104,17 @@ finally
 
 ## 結論
 
-このチュートリアルでは、Aspose.Slides を使用して Java Slides に外部ブックを設定する方法を学習しました。Excel ブックからデータを動的に参照するプレゼンテーションを作成できるようになり、スライドの柔軟性とインタラクティブ性が強化されます。
+このチュートリアルでは、Aspose.Slides を使用して Java Slides に外部ワークブックを設定する方法を学習しました。Excel ワークブックのデータを動的に参照するプレゼンテーションを作成できるようになり、スライドの柔軟性とインタラクティブ性が向上します。
 
 ## よくある質問
 
 ### Aspose.Slides for Java をインストールするにはどうすればよいですか?
 
-Aspose.Slides for Java は、ライブラリを Java プロジェクトに追加することでインストールできます。ライブラリは Aspose Web サイトからダウンロードし、ドキュメントに記載されているインストール手順に従ってください。
+Aspose.Slides for Javaは、Javaプロジェクトにライブラリを追加することでインストールできます。ライブラリはAsposeのWebサイトからダウンロードし、ドキュメントに記載されているインストール手順に従ってください。
 
-### 外部のワークブックで異なる種類のグラフを使用できますか?
+### 外部のブックで異なる種類のグラフを使用できますか?
 
-はい、Aspose.Slides でサポートされているさまざまなグラフの種類を使用して、外部のワークブックのデータにバインドできます。選択したグラフの種類によって、プロセスが若干異なる場合があります。
+はい、Aspose.Slides でサポートされている様々な種類のグラフを使用し、外部ワークブックのデータとバインドできます。選択したグラフの種類によって、手順が若干異なる場合があります。
 
 ### 外部ワークブックのデータ構造が変更された場合はどうなりますか?
 
@@ -120,14 +122,16 @@ Aspose.Slides for Java は、ライブラリを Java プロジェクトに追加
 
 ### Aspose.Slides は最新の Java バージョンと互換性がありますか?
 
-Aspose.Slides for Java は、最新の Java バージョンとの互換性を確保するために定期的に更新されます。最適なパフォーマンスと互換性を確保するため、必ず更新を確認し、最新バージョンのライブラリを使用してください。
+Aspose.Slides for Javaは、最新のJavaバージョンとの互換性を確保するために定期的に更新されています。最適なパフォーマンスと互換性を確保するため、必ず更新を確認し、最新バージョンのライブラリをご利用ください。
 
 ### 同じ外部ブックを参照する複数のグラフを追加できますか?
 
-はい、同じ外部ブックを参照する複数のグラフをプレゼンテーションに追加できます。作成するグラフごとに、このチュートリアルで説明されている手順を繰り返すだけです。
+はい、プレゼンテーションに複数のグラフを追加し、すべて同じ外部ブックを参照することができます。作成したいグラフごとに、このチュートリアルで説明されている手順を繰り返すだけです。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

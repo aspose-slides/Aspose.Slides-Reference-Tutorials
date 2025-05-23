@@ -1,28 +1,30 @@
 ---
-title: Lakukan Mail Merge dalam Presentasi
-linktitle: Lakukan Mail Merge dalam Presentasi
-second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
-description: Pelajari gabungan surat dalam presentasi menggunakan Aspose.Slides untuk .NET dalam panduan langkah demi langkah ini. Buat presentasi yang dinamis dan dipersonalisasi dengan mudah.
-weight: 21
-url: /id/net/presentation-manipulation/perform-mail-merge-in-presentations/
+"description": "Pelajari penggabungan surat dalam presentasi menggunakan Aspose.Slides untuk .NET dalam panduan langkah demi langkah ini. Buat presentasi yang dinamis dan personal dengan mudah."
+"linktitle": "Melakukan Mail Merge dalam Presentasi"
+"second_title": "API Pemrosesan PowerPoint Aspose.Slides .NET"
+"title": "Melakukan Mail Merge dalam Presentasi"
+"url": "/id/net/presentation-manipulation/perform-mail-merge-in-presentations/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lakukan Mail Merge dalam Presentasi
+# Melakukan Mail Merge dalam Presentasi
 
 ## Perkenalan
-Dalam dunia pengembangan .NET, membuat presentasi yang dinamis dan personal merupakan kebutuhan umum. Salah satu alat canggih yang menyederhanakan proses ini adalah Aspose.Slides untuk .NET. Dalam tutorial ini, kita akan mempelajari dunia menarik dalam melakukan penggabungan surat dalam presentasi menggunakan Aspose.Slides untuk .NET.
+Dalam dunia pengembangan .NET, membuat presentasi yang dinamis dan personal merupakan persyaratan umum. Salah satu alat canggih yang menyederhanakan proses ini adalah Aspose.Slides for .NET. Dalam tutorial ini, kita akan menyelami ranah menarik dalam melakukan penggabungan surat dalam presentasi menggunakan Aspose.Slides for .NET.
 ## Prasyarat
 Sebelum kita memulai perjalanan ini, pastikan Anda memiliki prasyarat berikut:
-- Aspose.Slides for .NET Library: Pastikan Anda telah menginstal perpustakaan Aspose.Slides for .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/slides/net/).
-- Templat Dokumen: Siapkan templat presentasi (misalnya, PresentationTemplate.pptx) yang akan berfungsi sebagai dasar gabungan surat.
-- Sumber Data: Anda memerlukan sumber data untuk gabungan surat. Dalam contoh kita, kita akan menggunakan data XML (TestData.xml), namun Aspose.Slides mendukung berbagai sumber data seperti RDBMS.
-Sekarang, mari selami langkah-langkah melakukan penggabungan surat dalam presentasi menggunakan Aspose.Slides untuk .NET.
-## Impor Namespace
-Pertama, pastikan Anda mengimpor namespace yang diperlukan untuk memanfaatkan fungsi yang disediakan oleh Aspose.Slides:
+- Pustaka Aspose.Slides untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Slides untuk .NET. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/slides/net/).
+- Templat Dokumen: Siapkan templat presentasi (misalnya, PresentationTemplate.pptx) yang akan berfungsi sebagai dasar untuk gabungan surat.
+- Sumber Data: Anda memerlukan sumber data untuk gabungan surat. Dalam contoh kami, kami akan menggunakan data XML (TestData.xml), tetapi Aspose.Slides mendukung berbagai sumber data seperti RDBMS.
+Sekarang, mari selami langkah-langkah melakukan gabungan surat dalam presentasi menggunakan Aspose.Slides for .NET.
+## Mengimpor Ruang Nama
+Pertama, pastikan Anda mengimpor namespace yang diperlukan untuk memanfaatkan fungsionalitas yang disediakan oleh Aspose.Slides:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -47,7 +49,7 @@ string resultPath = Path.Combine(RunExamples.OutPath, "MailMergeResult");
 if (!Directory.Exists(resultPath))
     Directory.CreateDirectory(resultPath);
 ```
-## Langkah 2: Buat Kumpulan Data Menggunakan Data XML
+## Langkah 2: Buat DataSet Menggunakan Data XML
 ```csharp
 using (DataSet dataSet = new DataSet())
 {
@@ -57,13 +59,13 @@ using (DataSet dataSet = new DataSet())
     DataTable staffListTable = dataTables["StaffList"];
     DataTable planFactTable = dataTables["Plan_Fact"];
 ```
-## Langkah 3: Ulangi Catatan dan Buat Presentasi Individual
+## Langkah 3: Ulangi Rekaman dan Buat Presentasi Individual
 ```csharp
 foreach (DataRow userRow in usersTable.Rows)
 {
-    // buat nama presentasi hasil (individu).
+    // buat hasil (individual) nama presentasi
     string presPath = Path.Combine(resultPath, "PresFor_" + userRow["Name"] + ".pptx");
-    // Muat templat presentasi
+    // Muat template presentasi
     using (Presentation pres = new Presentation(presTemplatePath))
     {
         // Isi kotak teks dengan data dari tabel utama
@@ -71,11 +73,11 @@ foreach (DataRow userRow in usersTable.Rows)
         ((AutoShape)pres.Slides[0].Shapes[4]).TextFrame.Text = userRow["Department"].ToString();
         // Dapatkan gambar dari database
         byte[] bytes = Convert.FromBase64String(userRow["Img"].ToString());
-        //Masukkan gambar ke dalam bingkai foto presentasi
+        // Masukkan gambar ke dalam bingkai gambar presentasi
         IPPImage image = pres.Images.AddImage(bytes);
         IPictureFrame pf = pres.Slides[0].Shapes[1] as PictureFrame;
         pf.PictureFormat.Picture.Image.ReplaceImage(image);
-        // Dapatkan dan siapkan bingkai teks untuk diisi dengan data
+        // Dapatkan dan siapkan bingkai teks untuk mengisinya dengan data
         IAutoShape list = pres.Slides[0].Shapes[2] as IAutoShape;
         ITextFrame textFrame = list.TextFrame;
         textFrame.Paragraphs.Clear();
@@ -122,7 +124,7 @@ static void FillPlanFact(Presentation pres, DataRow row, DataTable planFactTable
     string range = chart.ChartData.GetRange();
     IChartDataWorkbook cellsFactory = chart.ChartData.ChartDataWorkbook;
     int worksheetIndex = 0;
-    // Tambahkan titik data untuk rangkaian garis
+    // Tambahkan titik data untuk seri garis
     chart.ChartData.Series[0].DataPoints.AddDataPointForLineSeries
 (cellsFactory.GetCell(worksheetIndex, 1, 1, double.Parse(selRows[0]["PlanData"].ToString())));
     chart.ChartData.Series[1].DataPoints.AddDataPointForLineSeries(
@@ -142,23 +144,25 @@ static void FillPlanFact(Presentation pres, DataRow row, DataTable planFactTable
     chart.ChartData.SetRange(range);
 }
 ```
-Langkah-langkah ini menunjukkan panduan komprehensif tentang cara melakukan gabungan surat dalam presentasi menggunakan Aspose.Slides untuk .NET. Sekarang, mari kita jawab beberapa pertanyaan umum.
+Langkah-langkah ini menunjukkan panduan lengkap tentang cara melakukan penggabungan surat dalam presentasi menggunakan Aspose.Slides for .NET. Sekarang, mari kita bahas beberapa pertanyaan yang sering diajukan.
 ## Pertanyaan yang Sering Diajukan
-### 1. Apakah Aspose.Slides for .NET kompatibel dengan sumber data yang berbeda?
-Ya, Aspose.Slides untuk .NET mendukung berbagai sumber data, termasuk XML, RDBMS, dan lainnya.
-### 2. Bisakah saya menyesuaikan tampilan poin-poin dalam presentasi yang dihasilkan?
- Tentu! Anda memiliki kendali penuh atas tampilan poin-poin, seperti yang ditunjukkan di`FillStaffList` metode.
+### 1. Apakah Aspose.Slides untuk .NET kompatibel dengan sumber data yang berbeda?
+Ya, Aspose.Slides untuk .NET mendukung berbagai sumber data, termasuk XML, RDBMS, dan banyak lagi.
+### 2. Dapatkah saya menyesuaikan tampilan poin-poin penting dalam presentasi yang dihasilkan?
+Tentu saja! Anda memiliki kontrol penuh atas tampilan poin-poin, seperti yang ditunjukkan dalam `FillStaffList` metode.
 ### 3. Jenis bagan apa yang dapat saya buat menggunakan Aspose.Slides untuk .NET?
-Aspose.Slides untuk .NET mendukung berbagai bagan, termasuk bagan garis seperti yang ditunjukkan dalam contoh kita, bagan batang, bagan lingkaran, dan banyak lagi.
+Aspose.Slides untuk .NET mendukung berbagai macam bagan, termasuk bagan garis seperti ditunjukkan dalam contoh kami, bagan batang, bagan pai, dan banyak lagi.
 ### 4. Bagaimana cara mendapatkan dukungan atau mencari bantuan dengan Aspose.Slides untuk .NET?
- Untuk dukungan dan bantuan, Anda dapat mengunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11).
-### 5. Bisakah saya mencoba Aspose.Slides untuk .NET sebelum membeli?
- Tentu! Anda dapat memanfaatkan uji coba gratis Aspose.Slides untuk .NET dari[Di Sini](https://releases.aspose.com/).
+Untuk dukungan dan bantuan, Anda dapat mengunjungi [Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+### 5. Dapatkah saya mencoba Aspose.Slides untuk .NET sebelum membeli?
+Tentu saja! Anda dapat memanfaatkan uji coba gratis Aspose.Slides untuk .NET dari [Di Sini](https://releases.aspose.com/).
 ## Kesimpulan
-Dalam tutorial ini, kita menjelajahi kemampuan menarik Aspose.Slides untuk .NET dalam melakukan penggabungan surat dalam presentasi. Dengan mengikuti panduan langkah demi langkah, Anda dapat membuat presentasi yang dinamis dan dipersonalisasi dengan mudah. Tingkatkan pengalaman pengembangan .NET Anda dengan Aspose.Slides untuk pembuatan presentasi yang lancar.
+Dalam tutorial ini, kami mengeksplorasi kemampuan Aspose.Slides for .NET yang menarik dalam melakukan penggabungan surat dalam presentasi. Dengan mengikuti panduan langkah demi langkah, Anda dapat membuat presentasi yang dinamis dan personal dengan mudah. Tingkatkan pengalaman pengembangan .NET Anda dengan Aspose.Slides untuk pembuatan presentasi yang lancar.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

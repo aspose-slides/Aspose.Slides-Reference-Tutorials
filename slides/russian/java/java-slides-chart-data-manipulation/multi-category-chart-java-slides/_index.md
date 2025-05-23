@@ -1,25 +1,27 @@
 ---
-title: Диаграмма с несколькими категориями в слайдах Java
-linktitle: Диаграмма с несколькими категориями в слайдах Java
-second_title: Aspose.Slides API обработки Java PowerPoint
-description: Создавайте диаграммы с несколькими категориями в слайдах Java, используя Aspose.Slides для Java. Пошаговое руководство с исходным кодом для впечатляющей визуализации данных в презентациях.
-weight: 20
-url: /ru/java/chart-data-manipulation/multi-category-chart-java-slides/
+"description": "Создавайте многокатегорийные диаграммы в Java Slides с помощью Aspose.Slides для Java. Пошаговое руководство с исходным кодом для впечатляющей визуализации данных в презентациях."
+"linktitle": "Многокатегорийная диаграмма в Java Slides"
+"second_title": "API обработки Java PowerPoint Aspose.Slides"
+"title": "Многокатегорийная диаграмма в Java Slides"
+"url": "/ru/java/chart-data-manipulation/multi-category-chart-java-slides/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Диаграмма с несколькими категориями в слайдах Java
+# Многокатегорийная диаграмма в Java Slides
 
 
-## Введение в многокатегорийную диаграмму в слайдах Java с помощью Aspose.Slides
+## Введение в многокатегорийные диаграммы в Java Slides с Aspose.Slides
 
-В этом уроке мы узнаем, как создать диаграмму с несколькими категориями в слайдах Java с помощью API Aspose.Slides для Java. В этом руководстве представлены пошаговые инструкции вместе с исходным кодом, которые помогут вам создать кластеризованную столбчатую диаграмму с несколькими категориями и сериями.
+В этом уроке мы научимся создавать многокатегорийную диаграмму в слайдах Java с помощью API Aspose.Slides for Java. Это руководство предоставит пошаговые инструкции вместе с исходным кодом, которые помогут вам создать кластеризованную столбчатую диаграмму с несколькими категориями и рядами.
 
-## Предварительные условия
-Прежде чем мы начнем, убедитесь, что у вас установлена и настроена библиотека Aspose.Slides for Java в вашей среде разработки Java.
+## Предпосылки
+Прежде чем начать, убедитесь, что в вашей среде разработки Java установлена и настроена библиотека Aspose.Slides for Java.
 
 ## Шаг 1: Настройка среды
 Сначала импортируйте необходимые классы и создайте новый объект Presentation для работы со слайдами.
@@ -30,8 +32,8 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 ```
 
-## Шаг 2. Добавление слайда и диаграммы
-Затем создайте слайд и добавьте к нему гистограмму с кластеризацией.
+## Шаг 2: Добавление слайда и диаграммы
+Затем создайте слайд и добавьте на него кластеризованную столбчатую диаграмму.
 
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
@@ -39,14 +41,14 @@ IChart ch = slide.getShapes().addChart(ChartType.ClusteredColumn, 100, 100, 600,
 ```
 
 ## Шаг 3: Очистка существующих данных
-Удалите все существующие данные из диаграммы.
+Удалите все существующие данные с диаграммы.
 
 ```java
 ch.getChartData().getSeries().clear();
 ch.getChartData().getCategories().clear();
 ```
 
-## Шаг 4. Настройка категорий данных
+## Шаг 4: Настройка категорий данных
 Теперь давайте настроим категории данных для диаграммы. Мы создадим несколько категорий и сгруппируем их.
 
 ```java
@@ -55,7 +57,7 @@ fact.clear(0);
 
 int defaultWorksheetIndex = 0;
 
-// Добавляйте категории и группируйте их
+// Добавьте категории и сгруппируйте их
 IChartCategory category = ch.getChartData().getCategories().add(fact.getCell(0, "c2", "A"));
 category.getGroupingLevels().setGroupingItem(1, "Group1");
 
@@ -78,7 +80,7 @@ category = ch.getChartData().getCategories().add(fact.getCell(0, "c9", "H"));
 ```
 
 ## Шаг 5: Добавление серии
-Теперь давайте добавим на диаграмму серию вместе с точками данных.
+Теперь давайте добавим на диаграмму ряд вместе с точками данных.
 
 ```java
 IChartSeries series = ch.getChartData().getSeries().add(fact.getCell(0, "D1", "Series 1"), ChartType.ClusteredColumn);
@@ -100,9 +102,9 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
 
-Вот и все! Вы успешно создали диаграмму с несколькими категориями на слайде Java с помощью Aspose.Slides. Вы можете дополнительно настроить эту диаграмму в соответствии с вашими конкретными требованиями.
+Вот и все! Вы успешно создали многокатегорийную диаграмму на слайде Java с помощью Aspose.Slides. Вы можете настроить эту диаграмму в дальнейшем в соответствии с вашими конкретными требованиями.
 
-## Полный исходный код для диаграммы с несколькими категориями в слайдах Java
+## Полный исходный код для многокатегорийной диаграммы в Java Slides
 
 ```java
 // Путь к каталогу документов.
@@ -127,7 +129,7 @@ category = ch.getChartData().getCategories().add(fact.getCell(0, "c7", "F"));
 category = ch.getChartData().getCategories().add(fact.getCell(0, "c8", "G"));
 category.getGroupingLevels().setGroupingItem(1, "Group4");
 category = ch.getChartData().getCategories().add(fact.getCell(0, "c9", "H"));
-// Добавление серии
+//            Добавление серии
 IChartSeries series = ch.getChartData().getSeries().add(fact.getCell(0, "D1", "Series 1"),
 		ChartType.ClusteredColumn);
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, "D2", 10));
@@ -144,28 +146,30 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ## Заключение
 
-В этом уроке мы узнали, как создать диаграмму с несколькими категориями в слайдах Java с помощью API Aspose.Slides для Java. Мы прошли пошаговое руководство с исходным кодом для создания кластеризованной столбчатой диаграммы с несколькими категориями и сериями.
+В этом уроке мы узнали, как создать многокатегорийную диаграмму в слайдах Java с помощью API Aspose.Slides for Java. Мы прошли пошаговое руководство с исходным кодом для создания кластеризованной столбчатой диаграммы с несколькими категориями и сериями.
 
 ## Часто задаваемые вопросы
 
 ### Как настроить внешний вид диаграммы?
 
-Вы можете настроить внешний вид диаграммы, изменив такие свойства, как цвета, шрифты и стили. Подробные параметры настройки см. в документации Aspose.Slides.
+Вы можете настроить внешний вид диаграммы, изменив такие свойства, как цвета, шрифты и стили. Обратитесь к документации Aspose.Slides для получения подробных параметров настройки.
 
-### Могу ли я добавить в диаграмму больше серий?
+### Могу ли я добавить больше серий в диаграмму?
 
-Да, вы можете добавить дополнительные серии в диаграмму, выполнив процесс, аналогичный показанному в шаге 5.
+Да, вы можете добавить дополнительные ряды в диаграмму, выполнив процедуру, аналогичную показанной в шаге 5.
 
 ### Как изменить тип диаграммы?
 
- Чтобы изменить тип диаграммы, замените`ChartType.ClusteredColumn` с нужным типом диаграммы при добавлении диаграммы на шаге 2.
+Чтобы изменить тип диаграммы, замените `ChartType.ClusteredColumn` с желаемым типом диаграммы при добавлении диаграммы на шаге 2.
 
 ### Как добавить заголовок к диаграмме?
 
- Вы можете добавить заголовок к диаграмме, используя`ch.getChartTitle().getTextFrame().setText("Chart Title");` метод.
+Вы можете добавить заголовок к диаграмме, используя `ch.getChartTitle().getTextFrame().setText("Chart Title");` метод.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

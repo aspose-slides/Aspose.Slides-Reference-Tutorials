@@ -1,146 +1,148 @@
 ---
-title: แผนภูมิกระจัดกระจายใน Java Slides
-linktitle: แผนภูมิกระจัดกระจายใน Java Slides
-second_title: Aspose.Slides Java PowerPoint การประมวลผล API
-description: เรียนรู้วิธีสร้างแผนภูมิกระจายใน Java โดยใช้ Aspose.Slides คำแนะนำทีละขั้นตอนพร้อมซอร์สโค้ด Java สำหรับการแสดงข้อมูลเป็นภาพในการนำเสนอ
-weight: 11
-url: /th/java/chart-creation/scattered-chart-java-slides/
+"description": "เรียนรู้วิธีสร้างแผนภูมิแบบกระจายใน Java โดยใช้ Aspose.Slides คำแนะนำแบบทีละขั้นตอนพร้อมโค้ดต้นฉบับ Java สำหรับการแสดงภาพข้อมูลในงานนำเสนอ"
+"linktitle": "แผนภูมิแบบกระจายใน Java Slides"
+"second_title": "API การประมวลผล Java PowerPoint ของ Aspose.Slides"
+"title": "แผนภูมิแบบกระจายใน Java Slides"
+"url": "/th/java/chart-creation/scattered-chart-java-slides/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# แผนภูมิกระจัดกระจายใน Java Slides
+# แผนภูมิแบบกระจายใน Java Slides
 
 
-## ข้อมูลเบื้องต้นเกี่ยวกับแผนภูมิกระจายใน Aspose.Slides สำหรับ Java
+## บทนำเกี่ยวกับแผนภูมิแบบกระจายใน Aspose.Slides สำหรับ Java
 
-ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการสร้างแผนภูมิกระจายโดยใช้ Aspose.Slides สำหรับ Java แผนภูมิกระจายมีประโยชน์ในการแสดงจุดข้อมูลเป็นภาพบนระนาบสองมิติ เราจะให้คำแนะนำทีละขั้นตอนและรวมซอร์สโค้ด Java ไว้เพื่อความสะดวกของคุณ
+ในบทช่วยสอนนี้ เราจะแนะนำคุณเกี่ยวกับขั้นตอนการสร้างแผนภูมิแบบกระจายโดยใช้ Aspose.Slides สำหรับ Java แผนภูมิแบบกระจายมีประโยชน์สำหรับการแสดงภาพจุดข้อมูลบนระนาบสองมิติ เราจะให้คำแนะนำทีละขั้นตอนและรวมโค้ดต้นฉบับของ Java ไว้เพื่อความสะดวกของคุณ
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่คุณจะเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+ก่อนที่คุณจะเริ่มต้น โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
 1. [Aspose.Slides สำหรับ Java](https://products.aspose.com/slides/java) ติดตั้งแล้ว
-2. ตั้งค่าสภาพแวดล้อมการพัฒนา Java
+2. การตั้งค่าสภาพแวดล้อมการพัฒนา Java
 
 ## ขั้นตอนที่ 1: เริ่มต้นการนำเสนอ
 
-ขั้นแรก นำเข้าไลบรารีที่จำเป็นและสร้างงานนำเสนอใหม่
+ขั้นแรก นำเข้าไลบรารีที่จำเป็น และสร้างงานนำเสนอใหม่
 
 ```java
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
 String dataDir = "Your Document Directory";
 
-// สร้างไดเร็กทอรีหากไม่มีอยู่
+// สร้างไดเร็กทอรีหากยังไม่มีอยู่
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
     new File(dataDir).mkdirs();
 
-// สร้างงานนำเสนอใหม่
+// สร้างการนำเสนอใหม่
 Presentation pres = new Presentation();
 ```
 
-## ขั้นตอนที่ 2: เพิ่มสไลด์และสร้างแผนภูมิกระจาย
+## ขั้นตอนที่ 2: เพิ่มสไลด์และสร้างแผนภูมิแบบกระจาย
 
- จากนั้น เพิ่มสไลด์และสร้างแผนภูมิกระจายบนสไลด์ เราจะใช้`ScatterWithSmoothLines`ประเภทแผนภูมิในตัวอย่างนี้
+ขั้นตอนต่อไปคือการเพิ่มสไลด์และสร้างแผนภูมิแบบกระจายบนสไลด์นั้น เราจะใช้ `ScatterWithSmoothLines` ประเภทแผนภูมิในตัวอย่างนี้
 
 ```java
 // รับสไลด์แรก
 ISlide slide = pres.getSlides().get_Item(0);
 
-// การสร้างแผนภูมิกระจาย
+// การสร้างแผนภูมิแบบกระจาย
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 ```
 
 ## ขั้นตอนที่ 3: เตรียมข้อมูลแผนภูมิ
 
-ตอนนี้ เรามาเตรียมข้อมูลสำหรับแผนภูมิกระจายของเรากันดีกว่า เราจะเพิ่มสองชุด โดยแต่ละชุดจะมีจุดข้อมูลหลายจุด
+ตอนนี้เรามาเตรียมข้อมูลสำหรับแผนภูมิกระจายของเรากัน เราจะเพิ่มชุดข้อมูลสองชุด โดยแต่ละชุดมีจุดข้อมูลหลายจุด
 
 ```java
-// รับดัชนีแผ่นงานข้อมูลแผนภูมิเริ่มต้น
+// การรับดัชนีเวิร์กชีตข้อมูลแผนภูมิเริ่มต้น
 int defaultWorksheetIndex = 0;
 
-// รับแผ่นงานข้อมูลแผนภูมิ
+// การรับแผ่นงานข้อมูลแผนภูมิ
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
-// ลบชุดสาธิต
+// ลบซีรีย์สาธิต
 chart.getChartData().getSeries().clear();
 
-// เพิ่มชุดแรก
+// เพิ่มซีรีย์แรก
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 1, 1, "Series 1"), chart.getType());
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 1, 3, "Series 2"), chart.getType());
 
-// ใช้แผนภูมิชุดแรก
+// มาดูแผนภูมิชุดแรกกัน
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 
 // เพิ่มจุดข้อมูลลงในชุดแรก
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 1), fact.getCell(defaultWorksheetIndex, 2, 2, 3));
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 2), fact.getCell(defaultWorksheetIndex, 3, 2, 10));
 
-// แก้ไขประเภทของซีรีส์
+// แก้ไขประเภทของซีรีย์
 series.setType(ChartType.ScatterWithStraightLinesAndMarkers);
 series.getMarker().setSize(10); // เปลี่ยนขนาดเครื่องหมาย
 series.getMarker().setSymbol(MarkerStyleType.Star); // เปลี่ยนสัญลักษณ์เครื่องหมาย
 
-// ใช้ชุดแผนภูมิที่สอง
+// มาดูแผนภูมิชุดที่ 2 กัน
 series = chart.getChartData().getSeries().get_Item(1);
 
-// เพิ่มจุดข้อมูลลงในชุดข้อมูลที่สอง
+// เพิ่มจุดข้อมูลลงในซีรีส์ที่สอง
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 5), fact.getCell(defaultWorksheetIndex, 2, 4, 2));
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 3), fact.getCell(defaultWorksheetIndex, 3, 4, 1));
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 4, 3, 2), fact.getCell(defaultWorksheetIndex, 4, 4, 2));
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 5, 3, 5), fact.getCell(defaultWorksheetIndex, 5, 4, 1));
 
-// เปลี่ยนสไตล์มาร์กเกอร์สำหรับซีรีส์ที่สอง
+// เปลี่ยนรูปแบบมาร์กเกอร์สำหรับซีรีส์ที่สอง
 series.getMarker().setSize(10);
 series.getMarker().setSymbol(MarkerStyleType.Circle);
 ```
 
 ## ขั้นตอนที่ 4: บันทึกการนำเสนอ
 
-สุดท้าย บันทึกงานนำเสนอด้วยแผนภูมิกระจายเป็นไฟล์ PPTX
+สุดท้าย ให้บันทึกการนำเสนอด้วยแผนภูมิแบบกระจายลงในไฟล์ PPTX
 
 ```java
 pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
 
-แค่นั้นแหละ! คุณสร้างแผนภูมิกระจายโดยใช้ Aspose.Slides สำหรับ Java สำเร็จแล้ว ตอนนี้คุณสามารถปรับแต่งตัวอย่างนี้เพิ่มเติมเพื่อให้เหมาะกับข้อมูลเฉพาะและข้อกำหนดการออกแบบของคุณ
+เสร็จเรียบร้อย! คุณได้สร้าง Scatter Chart โดยใช้ Aspose.Slides สำหรับ Java สำเร็จแล้ว ตอนนี้คุณสามารถปรับแต่งตัวอย่างนี้เพิ่มเติมเพื่อให้เหมาะกับข้อมูลเฉพาะและข้อกำหนดด้านการออกแบบของคุณ
 
-## กรอกซอร์สโค้ดสำหรับแผนภูมิที่กระจัดกระจายใน Java Slides
+## โค้ดต้นฉบับสมบูรณ์สำหรับแผนภูมิแบบกระจายใน Java Slides
 ```java
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
 String dataDir = "Your Document Directory";
-// สร้างไดเร็กทอรีหากไม่มีอยู่
+// สร้างไดเร็กทอรีหากยังไม่มีอยู่
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
 	new File(dataDir).mkdirs();
 Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
-//การสร้างแผนภูมิเริ่มต้น
+// การสร้างแผนภูมิเริ่มต้น
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
-// รับดัชนีแผ่นงานข้อมูลแผนภูมิเริ่มต้น
+// การรับดัชนีเวิร์กชีตข้อมูลแผนภูมิเริ่มต้น
 int defaultWorksheetIndex = 0;
-// รับแผ่นงานข้อมูลแผนภูมิ
+// การรับแผ่นงานข้อมูลแผนภูมิ
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
-// ลบชุดสาธิต
+// ลบซีรีย์สาธิต
 chart.getChartData().getSeries().clear();
-// เพิ่มซีรีส์ใหม่
+// เพิ่มซีรีย์ใหม่
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 1, 1, "Series 1"), chart.getType());
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 1, 3, "Series 2"), chart.getType());
-// ใช้แผนภูมิชุดแรก
+// เริ่มต้นด้วยชุดแผนภูมิแรก
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 // เพิ่มจุดใหม่ (1:3) ที่นั่น
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 1), fact.getCell(defaultWorksheetIndex, 2, 2, 3));
 // เพิ่มจุดใหม่ (2:10)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 2), fact.getCell(defaultWorksheetIndex, 3, 2, 10));
-// แก้ไขประเภทของซีรีส์
+// แก้ไขประเภทของซีรีย์
 series.setType(ChartType.ScatterWithStraightLinesAndMarkers);
-// การเปลี่ยนเครื่องหมายชุดแผนภูมิ
+// การเปลี่ยนแปลงเครื่องหมายชุดแผนภูมิ
 series.getMarker().setSize(10);
 series.getMarker().setSymbol(MarkerStyleType.Star);
-// ใช้แผนภูมิชุดที่สอง
+// มาดูแผนภูมิชุดที่สองกัน
 series = chart.getChartData().getSeries().get_Item(1);
 // เพิ่มจุดใหม่ (5:2) ที่นั่น
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 5), fact.getCell(defaultWorksheetIndex, 2, 4, 2));
@@ -150,7 +152,7 @@ series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorkshee
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 4, 3, 2), fact.getCell(defaultWorksheetIndex, 4, 4, 2));
 // เพิ่มจุดใหม่ (5:1)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 5, 3, 5), fact.getCell(defaultWorksheetIndex, 5, 4, 1));
-// การเปลี่ยนเครื่องหมายชุดแผนภูมิ
+// การเปลี่ยนแปลงเครื่องหมายชุดแผนภูมิ
 series.getMarker().setSize(10);
 series.getMarker().setSymbol(MarkerStyleType.Circle);
 pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
@@ -158,29 +160,31 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ## บทสรุป
 
-ในบทช่วยสอนนี้ เราได้แนะนำคุณตลอดขั้นตอนการสร้างแผนภูมิกระจายโดยใช้ Aspose.Slides สำหรับ Java แผนภูมิกระจายเป็นเครื่องมือที่มีประสิทธิภาพสำหรับการแสดงจุดข้อมูลในพื้นที่สองมิติ ทำให้วิเคราะห์และทำความเข้าใจความสัมพันธ์ของข้อมูลที่ซับซ้อนได้ง่ายขึ้น
+ในบทช่วยสอนนี้ เราจะแนะนำคุณเกี่ยวกับขั้นตอนการสร้างแผนภูมิแบบกระจายโดยใช้ Aspose.Slides สำหรับ Java แผนภูมิแบบกระจายเป็นเครื่องมือที่มีประสิทธิภาพสำหรับการแสดงภาพจุดข้อมูลในพื้นที่สองมิติ ทำให้วิเคราะห์และทำความเข้าใจความสัมพันธ์ของข้อมูลที่ซับซ้อนได้ง่ายขึ้น
 
 ## คำถามที่พบบ่อย
 
-### ฉันจะเปลี่ยนประเภทแผนภูมิได้อย่างไร?
+### ฉันจะเปลี่ยนประเภทแผนภูมิได้อย่างไร
 
- หากต้องการเปลี่ยนประเภทแผนภูมิ ให้ใช้`setType` วิธีการชุดแผนภูมิและระบุประเภทแผนภูมิที่ต้องการ ตัวอย่างเช่น,`series.setType(ChartType.Line)` จะเปลี่ยนชุดข้อมูลเป็นแผนภูมิเส้น
+หากต้องการเปลี่ยนประเภทแผนภูมิ ให้ใช้ `setType` วิธีการบนชุดแผนภูมิและระบุประเภทแผนภูมิที่ต้องการ ตัวอย่างเช่น `series.setType(ChartType.Line)` จะเปลี่ยนชุดข้อมูลให้เป็นแผนภูมิเส้น
 
-### ฉันจะปรับแต่งขนาดและรูปแบบของมาร์กเกอร์ได้อย่างไร
+### ฉันจะปรับขนาดและรูปแบบของเครื่องหมายได้อย่างไร
 
- คุณสามารถเปลี่ยนขนาดและรูปแบบของมาร์กเกอร์ได้โดยใช้`getMarker` บนอนุกรมแล้วกำหนดคุณสมบัติขนาดและสัญลักษณ์ ตัวอย่างเช่น:
+คุณสามารถเปลี่ยนขนาดและรูปแบบของเครื่องหมายได้โดยใช้ `getMarker` วิธีการบนซีรีส์แล้วกำหนดขนาดและคุณสมบัติสัญลักษณ์ ตัวอย่างเช่น:
 
 ```java
 series.getMarker().setSize(10);
 series.getMarker().setSymbol(MarkerStyleType.Circle);
 ```
 
-สำรวจตัวเลือกการปรับแต่งเพิ่มเติมได้ตามสบายในเอกสาร Aspose.Slides สำหรับ Java
+อย่าลังเลที่จะสำรวจตัวเลือกการปรับแต่งเพิ่มเติมในเอกสาร Aspose.Slides สำหรับ Java
 
- อย่าลืมเปลี่ยน`"Your Document Directory"` พร้อมเส้นทางจริงที่คุณต้องการบันทึกการนำเสนอ
+อย่าลืมเปลี่ยน `"Your Document Directory"` ด้วยเส้นทางจริงที่คุณต้องการบันทึกการนำเสนอ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

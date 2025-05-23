@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में ट्री मैप चार्ट
-linktitle: जावा स्लाइड्स में ट्री मैप चार्ट
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके Java स्लाइड्स में ट्री मैप चार्ट बनाएँ। पदानुक्रमित डेटा को विज़ुअलाइज़ करने के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 13
-url: /hi/java/chart-creation/tree-map-chart-java-slides/
+"description": "Aspose.Slides for Java का उपयोग करके Java स्लाइड्स में ट्री मैप चार्ट बनाएँ। पदानुक्रमित डेटा को विज़ुअलाइज़ करने के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "जावा स्लाइड्स में ट्री मैप चार्ट"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में ट्री मैप चार्ट"
+"url": "/hi/java/chart-creation/tree-map-chart-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में ट्री मैप चार्ट
@@ -102,7 +104,7 @@ try
 	chart.getChartData().getSeries().clear();
 	IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
 	wb.clear(0);
-	//शाखा १
+	//शाखा 1
 	IChartCategory leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C1", "Leaf1"));
 	leaf.getGroupingLevels().setGroupingItem(1, "Stem1");
 	leaf.getGroupingLevels().setGroupingItem(2, "Branch1");
@@ -145,11 +147,11 @@ finally
 
 ### मैं ट्री मैप चार्ट में डेटा कैसे जोड़ूं?
 
- ट्री मैप चार्ट में डेटा जोड़ने के लिए, का उपयोग करें`series.getDataPoints().addDataPointForTreemapSeries()` विधि, डेटा मानों को पैरामीटर के रूप में पास करती है।
+ट्री मैप चार्ट में डेटा जोड़ने के लिए, का उपयोग करें `series.getDataPoints().addDataPointForTreemapSeries()` विधि, डेटा मानों को पैरामीटर के रूप में पास करती है।
 
 ### मैं ट्री मैप चार्ट के स्वरूप को कैसे अनुकूलित कर सकता हूँ?
 
- आप ट्री मैप चार्ट के विभिन्न गुणों को संशोधित करके इसके स्वरूप को अनुकूलित कर सकते हैं।`chart` और`series`ऑब्जेक्ट्स, जैसे रंग, लेबल और लेआउट।
+आप ट्री मैप चार्ट के विभिन्न गुणों को संशोधित करके इसके स्वरूप को अनुकूलित कर सकते हैं। `chart` और `series` ऑब्जेक्ट्स, जैसे रंग, लेबल और लेआउट।
 
 ### क्या मैं एक ही प्रस्तुति में एकाधिक ट्री मैप चार्ट बना सकता हूँ?
 
@@ -157,10 +159,12 @@ finally
 
 ### मैं ट्री मैप चार्ट के साथ प्रस्तुति को कैसे सहेजूँ?
 
- उपयोग`pres.save()` ट्री मैप चार्ट के साथ प्रस्तुति को वांछित प्रारूप (जैसे, PPTX) में सहेजने की विधि।
+उपयोग `pres.save()` ट्री मैप चार्ट के साथ प्रस्तुति को वांछित प्रारूप (जैसे, PPTX) में सहेजने की विधि।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,22 +1,24 @@
 ---
-title: Benutzerdefinierte Dokumenteigenschaften in Java-Folien hinzufügen
-linktitle: Benutzerdefinierte Dokumenteigenschaften in Java-Folien hinzufügen
-second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie PowerPoint-Präsentationen mit benutzerdefinierten Dokumenteigenschaften in Java Slides verbessern. Schritt-für-Schritt-Anleitung mit Codebeispielen unter Verwendung von Aspose.Slides für Java.
-weight: 13
-url: /de/java/presentation-properties/add-custom-document-properties-in-java-slides/
+"description": "Erfahren Sie, wie Sie PowerPoint-Präsentationen mit benutzerdefinierten Dokumenteigenschaften in Java Slides verbessern. Schritt-für-Schritt-Anleitung mit Codebeispielen für Aspose.Slides für Java."
+"linktitle": "Hinzufügen benutzerdefinierter Dokumenteigenschaften in Java-Folien"
+"second_title": "Aspose.Slides Java PowerPoint-Verarbeitungs-API"
+"title": "Hinzufügen benutzerdefinierter Dokumenteigenschaften in Java-Folien"
+"url": "/de/java/presentation-properties/add-custom-document-properties-in-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Benutzerdefinierte Dokumenteigenschaften in Java-Folien hinzufügen
+# Hinzufügen benutzerdefinierter Dokumenteigenschaften in Java-Folien
 
 
 ## Einführung in das Hinzufügen benutzerdefinierter Dokumenteigenschaften in Java-Folien
 
-In diesem Tutorial führen wir Sie durch den Prozess des Hinzufügens benutzerdefinierter Dokumenteigenschaften zu einer PowerPoint-Präsentation mit Aspose.Slides für Java. Mit benutzerdefinierten Dokumenteigenschaften können Sie zusätzliche Informationen zur Präsentation als Referenz oder zur Kategorisierung speichern.
+In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Slides für Java benutzerdefinierte Dokumenteigenschaften zu einer PowerPoint-Präsentation hinzufügen. Mit benutzerdefinierten Dokumenteigenschaften können Sie zusätzliche Informationen zur Präsentation speichern, um sie zu Referenzzwecken oder zur Kategorisierung zu verwenden.
 
 ## Voraussetzungen
 
@@ -30,10 +32,10 @@ import com.aspose.slides.*;
 
 ## Schritt 2: Erstellen Sie eine neue Präsentation
 
-Zuerst müssen Sie ein neues Präsentationsobjekt erstellen. Dies können Sie wie folgt tun:
+Zuerst müssen Sie ein neues Präsentationsobjekt erstellen. Gehen Sie dazu wie folgt vor:
 
 ```java
-// Der Pfad zum Dokumentverzeichnis.
+// Der Pfad zum Dokumentenverzeichnis.
 String dataDir = "Your Document Directory";
 
 // Instanziieren der Präsentationsklasse
@@ -51,7 +53,7 @@ IDocumentProperties documentProperties = presentation.getDocumentProperties();
 
 ## Schritt 4: Hinzufügen benutzerdefinierter Eigenschaften
 
-Fügen wir nun der Präsentation benutzerdefinierte Eigenschaften hinzu. Benutzerdefinierte Eigenschaften bestehen aus einem Namen und einem Wert. Sie können sie verwenden, um beliebige Informationen zu speichern.
+Fügen wir nun der Präsentation benutzerdefinierte Eigenschaften hinzu. Benutzerdefinierte Eigenschaften bestehen aus einem Namen und einem Wert. Sie können darin beliebige Informationen speichern.
 
 ```java
 documentProperties.set_Item("New Custom", 12);
@@ -89,7 +91,7 @@ presentation.save(dataDir + "CustomDocumentProperties_out.pptx", SaveFormat.Pptx
 ## Vollständiger Quellcode zum Hinzufügen benutzerdefinierter Dokumenteigenschaften in Java-Folien
 
 ```java
-// Der Pfad zum Dokumentverzeichnis.
+// Der Pfad zum Dokumentenverzeichnis.
 String dataDir = "Your Document Directory";
 // Instanziieren der Präsentationsklasse
 Presentation presentation = new Presentation();
@@ -109,13 +111,13 @@ presentation.save(dataDir + "CustomDocumentProperties_out.pptx", SaveFormat.Pptx
 
 ## Abschluss
 
-Sie haben gelernt, wie Sie mit Aspose.Slides in Java einer PowerPoint-Präsentation benutzerdefinierte Dokumenteigenschaften hinzufügen. Benutzerdefinierte Eigenschaften können hilfreich sein, um zusätzliche Informationen zu Ihren Präsentationen zu speichern. Sie können dieses Wissen erweitern, um bei Bedarf weitere benutzerdefinierte Eigenschaften für Ihren spezifischen Anwendungsfall einzuschließen.
+Sie haben gelernt, wie Sie mit Aspose.Slides in Java benutzerdefinierte Dokumenteigenschaften zu einer PowerPoint-Präsentation hinzufügen. Benutzerdefinierte Eigenschaften können hilfreich sein, um zusätzliche Informationen zu Ihren Präsentationen zu speichern. Sie können dieses Wissen erweitern, um je nach Bedarf weitere benutzerdefinierte Eigenschaften für Ihren spezifischen Anwendungsfall hinzuzufügen.
 
 ## Häufig gestellte Fragen
 
 ### Wie rufe ich den Wert einer benutzerdefinierten Eigenschaft ab?
 
- Um den Wert einer benutzerdefinierten Eigenschaft abzurufen, können Sie den`get_Item` Methode auf der`documentProperties` Objekt. Beispiel:
+Um den Wert einer benutzerdefinierten Eigenschaft abzurufen, können Sie die `get_Item` Methode auf der `documentProperties` Objekt. Beispiel:
 
 ```java
 Object customPropertyValue = documentProperties.get_Item("New Custom");
@@ -123,15 +125,15 @@ Object customPropertyValue = documentProperties.get_Item("New Custom");
 
 ### Kann ich benutzerdefinierte Eigenschaften verschiedener Datentypen hinzufügen?
 
-Ja, Sie können benutzerdefinierte Eigenschaften verschiedener Datentypen hinzufügen, darunter Zahlen, Zeichenfolgen, Daten und mehr, wie im Beispiel gezeigt. Aspose.Slides für Java verarbeitet verschiedene Datentypen nahtlos.
+Ja, Sie können benutzerdefinierte Eigenschaften verschiedener Datentypen hinzufügen, darunter Zahlen, Zeichenfolgen, Datumsangaben und mehr, wie im Beispiel gezeigt. Aspose.Slides für Java verarbeitet verschiedene Datentypen nahtlos.
 
 ### Gibt es eine Begrenzung für die Anzahl der benutzerdefinierten Eigenschaften, die ich hinzufügen kann?
 
-Es gibt keine strikte Beschränkung für die Anzahl der benutzerdefinierten Eigenschaften, die Sie hinzufügen können. Beachten Sie jedoch, dass das Hinzufügen einer übermäßigen Anzahl von Eigenschaften die Leistung und Größe Ihrer Präsentationsdatei beeinträchtigen kann.
+Es gibt keine strikte Begrenzung für die Anzahl der benutzerdefinierten Eigenschaften, die Sie hinzufügen können. Beachten Sie jedoch, dass das Hinzufügen einer übermäßigen Anzahl von Eigenschaften die Leistung und Größe Ihrer Präsentationsdatei beeinträchtigen kann.
 
 ### Wie kann ich alle benutzerdefinierten Eigenschaften in einer Präsentation auflisten?
 
-Sie können alle benutzerdefinierten Eigenschaften durchlaufen, um sie aufzulisten. Hier ist ein Beispiel dafür:
+Sie können alle benutzerdefinierten Eigenschaften in einer Schleife durchlaufen, um sie aufzulisten. Hier ist ein Beispiel dafür:
 
 ```java
 for (int i = 0; i < documentProperties.getCustomCount(); i++) {
@@ -143,9 +145,11 @@ for (int i = 0; i < documentProperties.getCustomCount(); i++) {
 ```
 
 Dieser Code zeigt die Namen und Werte aller benutzerdefinierten Eigenschaften in der Präsentation an.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

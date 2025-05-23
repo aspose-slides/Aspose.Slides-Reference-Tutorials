@@ -1,37 +1,39 @@
 ---
-title: Establecer el modo de diseño en diapositivas de Java
-linktitle: Establecer el modo de diseño en diapositivas de Java
-second_title: Aspose.Slides API de procesamiento de PowerPoint Java
-description: Aprenda a configurar modos de diseño para diapositivas Java usando Aspose.Slides. Personalice el posicionamiento y el tamaño del gráfico en esta guía paso a paso con código fuente.
-weight: 23
-url: /es/java/data-manipulation/set-layout-mode-java-slides/
+"description": "Aprenda a configurar modos de diseño para diapositivas de Java con Aspose.Slides. Personalice la posición y el tamaño de los gráficos con esta guía paso a paso con código fuente."
+"linktitle": "Establecer el modo de diseño en Java Slides"
+"second_title": "API de procesamiento de PowerPoint en Java de Aspose.Slides"
+"title": "Establecer el modo de diseño en Java Slides"
+"url": "/es/java/data-manipulation/set-layout-mode-java-slides/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Establecer el modo de diseño en diapositivas de Java
+# Establecer el modo de diseño en Java Slides
 
 
-## Introducción a establecer el modo de diseño en diapositivas de Java
+## Introducción al modo de diseño de conjuntos en diapositivas de Java
 
-En este tutorial, aprenderemos cómo configurar el modo de diseño para un gráfico en diapositivas de Java usando Aspose.Slides para Java. El modo de diseño determina la posición y el tamaño del gráfico dentro de la diapositiva.
+En este tutorial, aprenderemos a configurar el modo de diseño de un gráfico en diapositivas de Java con Aspose.Slides para Java. El modo de diseño determina la posición y el tamaño del gráfico dentro de la diapositiva.
 
-## Requisitos previos
+## Prerrequisitos
 
- Antes de comenzar, asegúrese de tener la biblioteca Aspose.Slides para Java instalada y configurada en su proyecto Java. Puedes descargar la biblioteca desde[aquí](https://releases.aspose.com/slides/java/).
+Antes de comenzar, asegúrese de tener la biblioteca Aspose.Slides para Java instalada y configurada en su proyecto Java. Puede descargarla desde [aquí](https://releases.aspose.com/slides/java/).
 
-## Paso 1: crea una presentación
+## Paso 1: Crear una presentación
 
-Primero, necesitamos crear una nueva presentación.
+Primero necesitamos crear una nueva presentación.
 
 ```java
 String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation();
 ```
 
-## Paso 2: agregue una diapositiva y un gráfico
+## Paso 2: Agregar una diapositiva y un gráfico
 
 A continuación, le agregaremos una diapositiva y un gráfico. En este ejemplo, crearemos un gráfico de columnas agrupadas.
 
@@ -40,9 +42,9 @@ ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.ClusteredColumn, 20, 100, 600, 400);
 ```
 
-## Paso 3: configurar el diseño del gráfico
+## Paso 3: Establecer el diseño del gráfico
 
- Ahora, configuremos el diseño del gráfico. Ajustaremos la posición y el tamaño del gráfico dentro de la diapositiva usando el`setX`, `setY`, `setWidth`, `setHeight` métodos. Además, estableceremos el`LayoutTargetType` para determinar el modo de diseño.
+Ahora, configuremos el diseño del gráfico. Ajustaremos la posición y el tamaño del gráfico dentro de la diapositiva usando `setX`, `setY`, `setWidth`, `setHeight` métodos. Además, configuraremos el `LayoutTargetType` para determinar el modo de diseño.
 
 ```java
 chart.getPlotArea().setX(0.2f);
@@ -52,17 +54,17 @@ chart.getPlotArea().setHeight(0.7f);
 chart.getPlotArea().setLayoutTargetType(LayoutTargetType.Inner);
 ```
 
-En este ejemplo, hemos configurado el gráfico para que su tipo de destino de diseño sea "Interior", lo que significa que se colocará y dimensionará en relación con el área interior de la diapositiva.
+En este ejemplo, hemos configurado el gráfico para que tenga como tipo de destino de diseño "Interno", lo que significa que se posicionará y dimensionará en relación con el área interna de la diapositiva.
 
-## Paso 4: guarde la presentación
+## Paso 4: Guardar la presentación
 
-Finalmente, guardemos la presentación con la configuración de diseño del gráfico.
+Por último, guardemos la presentación con la configuración del diseño del gráfico.
 
 ```java
 presentation.save(dataDir + "SetLayoutMode_outer.pptx", SaveFormat.Pptx);
 ```
 
-## Código fuente completo para establecer el modo de diseño en diapositivas de Java
+## Código fuente completo para el modo de diseño en diapositivas de Java
 
 ```java
 String dataDir = "Your Document Directory";
@@ -86,24 +88,26 @@ finally
 
 ## Conclusión
 
- En este tutorial, hemos aprendido cómo configurar el modo de diseño para un gráfico en diapositivas de Java usando Aspose.Slides para Java. Puede personalizar la posición y el tamaño del gráfico según sus requisitos específicos ajustando los valores en el`setX`, `setY`, `setWidth`, `setHeight` , y`setLayoutTargetType`métodos. Esto le brinda control sobre la ubicación de los gráficos dentro de sus diapositivas.
+En este tutorial, aprendimos a configurar el modo de diseño de un gráfico en diapositivas de Java con Aspose.Slides para Java. Puede personalizar la posición y el tamaño del gráfico según sus necesidades específicas ajustando los valores en el... `setX`, `setY`, `setWidth`, `setHeight`, y `setLayoutTargetType` métodos. Esto le permite controlar la ubicación de los gráficos dentro de sus diapositivas.
 
 ## Preguntas frecuentes
 
 ### ¿Cómo cambio el modo de diseño de un gráfico en Aspose.Slides para Java?
 
- Para cambiar el modo de diseño de un gráfico en Aspose.Slides para Java, puede utilizar el`setLayoutTargetType` método en el área de trazado del gráfico. Puedes configurarlo en cualquiera de los dos`LayoutTargetType.Inner` o`LayoutTargetType.Outer` dependiendo del diseño deseado.
+Para cambiar el modo de diseño de un gráfico en Aspose.Slides para Java, puede utilizar el `setLayoutTargetType` método en el área de trazado del gráfico. Puede configurarlo en `LayoutTargetType.Inner` o `LayoutTargetType.Outer` dependiendo del diseño deseado.
 
 ### ¿Puedo personalizar la posición y el tamaño del gráfico dentro de la diapositiva?
 
- Sí, puede personalizar la posición y el tamaño del gráfico dentro de la diapositiva usando el`setX`, `setY`, `setWidth` , y`setHeight` métodos en el área de trazado del gráfico. Ajuste estos valores para posicionar y dimensionar el gráfico según sus requisitos.
+Sí, puede personalizar la posición y el tamaño del gráfico dentro de la diapositiva utilizando el `setX`, `setY`, `setWidth`, y `setHeight` Métodos en el área de trazado del gráfico. Ajuste estos valores para posicionar y dimensionar el gráfico según sus necesidades.
 
 ### ¿Dónde puedo encontrar más información sobre Aspose.Slides para Java?
 
- Puede encontrar más información sobre Aspose.Slides para Java en el[documentación](https://reference.aspose.com/slides/java/). Incluye referencias API detalladas y ejemplos para ayudarle a trabajar con diapositivas y gráficos de forma eficaz en Java.
+Puede encontrar más información sobre Aspose.Slides para Java en [documentación](https://reference.aspose.com/slides/java/)Incluye referencias API detalladas y ejemplos para ayudarle a trabajar con diapositivas y gráficos de manera eficaz en Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

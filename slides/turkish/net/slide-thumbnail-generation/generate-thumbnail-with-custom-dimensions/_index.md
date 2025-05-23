@@ -1,84 +1,86 @@
 ---
-title: Özel Boyutlu Slaytlarda Küçük Resim Oluşturma
-linktitle: Özel Boyutlarla Küçük Resim Oluşturun
-second_title: Aspose.Slides .NET PowerPoint İşleme API'si
-description: Aspose.Slides for .NET'i kullanarak PowerPoint sunumlarından özel küçük resimler oluşturmayı öğrenin. Kullanıcı deneyimini ve işlevselliğini geliştirin.
-weight: 13
-url: /tr/net/slide-thumbnail-generation/generate-thumbnail-with-custom-dimensions/
+"description": "Aspose.Slides for .NET kullanarak PowerPoint sunumlarından özel küçük resim görüntüleri oluşturmayı öğrenin. Kullanıcı deneyimini ve işlevselliği geliştirin."
+"linktitle": "Özel Boyutlarla Küçük Resim Oluştur"
+"second_title": "Aspose.Slides .NET PowerPoint İşleme API'si"
+"title": "Slaytlarda Özel Boyutlarla Küçük Resim Oluşturma"
+"url": "/tr/net/slide-thumbnail-generation/generate-thumbnail-with-custom-dimensions/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Özel Boyutlu Slaytlarda Küçük Resim Oluşturma
+# Slaytlarda Özel Boyutlarla Küçük Resim Oluşturma
 
 
-İster etkileşimli bir uygulama oluşturuyor olun, ister kullanıcı deneyimini geliştiriyor olun, ister içeriği çeşitli platformlar için optimize ediyor olun, PowerPoint sunumlarınızın özel küçük resim görüntülerini oluşturmak değerli bir varlık olabilir. Bu eğitimde, Aspose.Slides for .NET kütüphanesini kullanarak PowerPoint sunumlarından özel küçük resimler oluşturma sürecinde size rehberlik edeceğiz. Bu güçlü kitaplık, PowerPoint dosyalarını .NET uygulamalarında programlı olarak değiştirmenize, dönüştürmenize ve geliştirmenize olanak tanır.
+PowerPoint sunumlarınızın özel küçük resim görüntülerini oluşturmak, etkileşimli bir uygulama oluşturuyor, kullanıcı deneyimini geliştiriyor veya çeşitli platformlar için içeriği optimize ediyor olun, değerli bir varlık olabilir. Bu eğitimde, Aspose.Slides for .NET kitaplığını kullanarak PowerPoint sunumlarından özel küçük resim görüntüleri oluşturma sürecinde size rehberlik edeceğiz. Bu güçlü kitaplık, PowerPoint dosyalarını .NET uygulamalarında programatik olarak düzenlemenize, dönüştürmenize ve geliştirmenize olanak tanır.
 
-## Önkoşullar
+## Ön koşullar
 
-Özel küçük resimler oluşturmaya başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+Özel küçük resim görüntüleri oluşturmaya başlamadan önce, aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
-### 1. Aspose.Slides for .NET
+### 1. .NET için Aspose.Slides
 
- Aspose.Slides for .NET kütüphanesinin projenizde kurulu olması gerekir. Henüz yapmadıysanız gerekli belgeleri ve indirme bağlantılarını bulabilirsiniz.[Burada](https://reference.aspose.com/slides/net/).
+Projenizde Aspose.Slides for .NET kütüphanesinin yüklü olması gerekir. Henüz yüklü değilse, gerekli belgeleri ve indirme bağlantılarını bulabilirsiniz [Burada](https://reference.aspose.com/slides/net/).
 
-### 2. PowerPoint Sunumu
+### 2. Bir PowerPoint Sunumu
 
-Özel bir küçük resim oluşturmak istediğiniz PowerPoint sunumunuza sahip olduğunuzdan emin olun. Bu sunuma proje dizininizden erişilebilir olmalıdır.
+Özel bir küçük resim görüntüsü oluşturmak istediğiniz PowerPoint sunumuna sahip olduğunuzdan emin olun. Bu sunum, proje dizininizde erişilebilir olmalıdır.
 
 ### 3. Geliştirme Ortamı
 
-Bu öğreticiyi takip etmek için, C# kullanarak .NET programlama konusunda çalışma bilgisine ve Visual Studio gibi bir geliştirme ortamı kurulumuna sahip olmanız gerekir.
+Bu eğitimi takip edebilmek için, C# kullanarak .NET programlama hakkında çalışma bilgisine sahip olmanız ve Visual Studio gibi bir geliştirme ortamı kurmuş olmanız gerekir.
 
-Artık önkoşulları ele aldığımıza göre, özel küçük resimler oluşturma sürecini adım adım talimatlara ayıralım.
+Artık ön koşulları ele aldığımıza göre, özel küçük resimler oluşturma sürecini adım adım talimatlara ayıralım.
 
 ## Ad Alanlarını İçe Aktar
 
-Öncelikle gerekli ad alanlarını C# kodunuza eklemeniz gerekir. Bu ad alanları Aspose.Slides ile çalışmanıza ve PowerPoint sunumlarını değiştirmenize olanak tanır.
+Öncelikle, C# kodunuza gerekli ad alanlarını eklemeniz gerekir. Bu ad alanları, Aspose.Slides ile çalışmanıza ve PowerPoint sunumlarını düzenlemenize olanak tanır.
 
 ```csharp
 using Aspose.Slides;
 using System.Drawing;
 ```
 
-## 1. Adım: Sunuyu Yükleyin
+## Adım 1: Sunumu Yükleyin
 
-Başlamak için özel bir küçük resim oluşturmak istediğiniz PowerPoint sunumunu yükleyin. Bu, Aspose.Slides kütüphanesi kullanılarak gerçekleştirilir.
+Başlamak için, özel bir küçük resim görüntüsü oluşturmak istediğiniz PowerPoint sunumunu yükleyin. Bu, Aspose.Slides kitaplığı kullanılarak gerçekleştirilir.
 
 ```csharp
 string FilePath = @"..\..\..\Sample Files\";
 string srcFileName = FilePath + "User Defined Thumbnail.pptx";
 
-// Sunum dosyasını temsil eden bir Sunum sınıfının örneğini oluşturun
+// Sunum dosyasını temsil eden bir Sunum sınıfı örneği oluşturun
 using (Presentation pres = new Presentation(srcFileName))
 {
-    // Küçük resim oluşturmaya yönelik kodunuz buraya gelecek
+    // Küçük resim oluşturma kodunuz buraya gelecek
 }
 ```
 
-## 2. Adım: Slayta Erişin
+## Adım 2: Slayda Erişim
 
-Yüklenen sunumda, özel küçük resim görüntüsünü oluşturmak istediğiniz belirli slayda erişmeniz gerekir. Slaytı indeksine göre seçebilirsiniz.
+Yüklenen sunum içinde, özel küçük resim görüntüsünü oluşturmak istediğiniz belirli slayta erişmeniz gerekir. Slaydı dizinine göre seçebilirsiniz.
 
 ```csharp
-// İlk slayda erişin (gerektiğinde dizini değiştirebilirsiniz)
+// İlk slayda erişin (ihtiyacınız olduğunda dizini değiştirebilirsiniz)
 ISlide sld = pres.Slides[0];
 ```
 
-## 3. Adım: Özel Küçük Resim Boyutlarını Tanımlayın
+## Adım 3: Özel Küçük Resim Boyutlarını Tanımlayın
 
-Özel küçük resim görseliniz için istediğiniz boyutları belirtin. Uygulamanızın gereksinimlerine göre genişlik ve yüksekliği piksel cinsinden tanımlayabilirsiniz.
+Özel küçük resim görüntünüz için istediğiniz boyutları belirtin. Genişliği ve yüksekliği uygulamanızın gereksinimlerine göre piksel olarak tanımlayabilirsiniz.
 
 ```csharp
 int desiredX = 1200; // Genişlik
 int desiredY = 800;  // Yükseklik
 ```
 
-## Adım 4: Ölçeklendirme Faktörlerini Hesaplayın
+## Adım 4: Ölçekleme Faktörlerini Hesaplayın
 
-Slaydın en boy oranını korumak için slaydın boyutuna ve istediğiniz boyutlara göre X ve Y boyutlarına ilişkin ölçeklendirme faktörlerini hesaplayın.
+Slaydın en boy oranını korumak için slaydın boyutuna ve istediğiniz boyutlara göre X ve Y boyutları için ölçekleme faktörlerini hesaplayın.
 
 ```csharp
 float ScaleX = (float)(1.0 / pres.SlideSize.Size.Width) * desiredX;
@@ -87,7 +89,7 @@ float ScaleY = (float)(1.0 / pres.SlideSize.Size.Height) * desiredY;
 
 ## Adım 5: Küçük Resim Görüntüsünü Oluşturun
 
-Belirtilen özel boyutlarla slaydın tam ölçekli bir görüntüsünü oluşturun ve bunu JPEG formatında diske kaydedin.
+Belirtilen özel boyutlarla slaydın tam ölçekli bir görüntüsünü oluşturun ve JPEG formatında diske kaydedin.
 
 ```csharp
 // Tam ölçekli bir görüntü oluşturun
@@ -97,33 +99,35 @@ Bitmap bmp = sld.GetThumbnail(ScaleX, ScaleY);
 bmp.Save(destFileName, System.Drawing.Imaging.ImageFormat.Jpeg);
 ```
 
-Artık bu adımları izlediğinize göre PowerPoint sunumunuzdan başarıyla özel bir küçük resim oluşturmuş olmalısınız.
+Artık bu adımları takip ettiğinize göre, PowerPoint sununuzdan özel bir küçük resim görüntüsünü başarıyla oluşturmuş olmalısınız.
 
 ## Çözüm
 
-Aspose.Slides for .NET'i kullanarak PowerPoint sunumlarından özel küçük resimler oluşturmak, uygulamalarınızın kullanıcı deneyimini ve işlevselliğini geliştirebilecek değerli bir beceridir. Bu eğitimde özetlenen adımları izleyerek, özel gereksinimlerinizi karşılayan özel küçük resimleri kolayca oluşturabilirsiniz.
+Aspose.Slides for .NET kullanarak PowerPoint sunumlarından özel küçük resim görüntüleri oluşturmak, uygulamalarınızın kullanıcı deneyimini ve işlevselliğini artırabilecek değerli bir beceridir. Bu eğitimde özetlenen adımları izleyerek, özel gereksinimlerinizi karşılayan özel küçük resimleri kolayca oluşturabilirsiniz.
 
 ---
 
-## SSS (Sık Sorulan Sorular)
+## SSS (Sıkça Sorulan Sorular)
 
 ### Aspose.Slides for .NET nedir?
-Aspose.Slides for .NET, geliştiricilerin .NET uygulamalarında PowerPoint sunumlarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir kitaplıktır.
+Aspose.Slides for .NET, geliştiricilerin .NET uygulamalarında PowerPoint sunumlarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir kütüphanedir.
 
-### Aspose.Slides for .NET belgelerini nerede bulabilirim?
- Belgeleri bulabilirsiniz[Burada](https://reference.aspose.com/slides/net/).
+### Aspose.Slides for .NET'in belgelerini nerede bulabilirim?
+Belgeleri bulabilirsiniz [Burada](https://reference.aspose.com/slides/net/).
 
-### Aspose.Slides for .NET'in kullanımı ücretsiz mi?
- Aspose.Slides for .NET ticari bir kütüphanedir. Fiyatlandırma ve lisans bilgilerini bulabilirsiniz[Burada](https://purchase.aspose.com/buy).
+### Aspose.Slides for .NET'i kullanmak ücretsiz mi?
+Aspose.Slides for .NET ticari bir kütüphanedir. Fiyatlandırma ve lisanslama bilgilerini bulabilirsiniz [Burada](https://purchase.aspose.com/buy).
 
-### Aspose.Slides for .NET'i kullanmak için ileri düzey programlama becerilerine ihtiyacım var mı?
-Biraz .NET programlama bilgisi faydalı olsa da Aspose.Slides for .NET, PowerPoint sunumlarıyla çalışmayı kolaylaştıran kullanıcı dostu bir API sağlar.
+### Aspose.Slides for .NET'i kullanmak için gelişmiş programlama becerilerine ihtiyacım var mı?
+.NET programlama hakkında bir miktar bilgi sahibi olmak faydalı olsa da, .NET için Aspose.Slides, PowerPoint sunumlarıyla çalışmayı basitleştiren kullanıcı dostu bir API sağlar.
 
 ### Aspose.Slides for .NET için teknik destek mevcut mu?
- Evet, teknik desteğe ve topluluk forumlarına erişebilirsiniz[Burada](https://forum.aspose.com/).
+Evet, teknik desteğe ve topluluk forumlarına erişebilirsiniz [Burada](https://forum.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

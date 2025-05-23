@@ -1,36 +1,38 @@
 ---
-title: Az Aspose.Slides .NET használata a munkafüzet helyreállításához a diagramból
-linktitle: Munkafüzet helyreállítása a diagramból
-second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Ismerje meg, hogyan állíthat helyre munkafüzetet PowerPoint-prezentációk diagramjából az Aspose.Slides for .NET segítségével. Kövesse lépésről lépésre útmutatónkat az adatok hatékony kinyeréséhez.
-weight: 12
-url: /hu/net/additional-chart-features/chart-recover-workbook/
+"description": "Ismerje meg, hogyan állíthat vissza munkafüzetet egy PowerPoint-bemutatók diagramjából az Aspose.Slides for .NET segítségével. Kövesse lépésről lépésre szóló útmutatónkat az adatok hatékony kinyeréséhez."
+"linktitle": "Munkafüzet helyreállítása diagramból"
+"second_title": "Aspose.Slides .NET PowerPoint feldolgozási API"
+"title": "Hogyan használjuk az Aspose.Slides .NET-et munkafüzet visszaállításához diagramból"
+"url": "/hu/net/additional-chart-features/chart-recover-workbook/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Az Aspose.Slides .NET használata a munkafüzet helyreállításához a diagramból
+# Hogyan használjuk az Aspose.Slides .NET-et munkafüzet visszaállításához diagramból
 
 
-Ha PowerPoint prezentációkkal szeretne dolgozni .NET-ben, az Aspose.Slides for .NET egy hatékony könyvtár, amely segíthet céljai elérésében. Ebben az oktatóanyagban végigvezetjük a munkafüzet helyreállításának folyamatán egy PowerPoint-prezentáció diagramjából az Aspose.Slides for .NET segítségével. Ez a hatékony funkció akkor lehet hasznos, ha adatokat kell kinyernie a prezentációkon belüli diagramokból. A folyamatot könnyen követhető lépésekre bontjuk, így biztosítva, hogy világosan megértse, hogyan kell ezt a feladatot elvégezni.
+Ha PowerPoint-bemutatókkal szeretne dolgozni .NET-ben, az Aspose.Slides for .NET egy hatékony könyvtár, amely segíthet céljai elérésében. Ebben az oktatóanyagban végigvezetjük Önt egy munkafüzet helyreállításának folyamatán egy PowerPoint-bemutatóban található diagramból az Aspose.Slides for .NET segítségével. Ez a hatékony funkció hasznos lehet, ha adatokat kell kinyernie a bemutatóiban található diagramokból. A folyamatot könnyen követhető lépésekre bontjuk, biztosítva, hogy világosan megértse, hogyan kell ezt a feladatot elvégezni.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+Mielőtt belekezdenénk, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
 
 ### 1. Aspose.Slides .NET-hez
 
-Az Aspose.Slides for .NET-nek telepítve és beállítva kell lennie a .NET fejlesztői környezetben. Ha még nem tette meg, letöltheti és telepítheti a webhelyről.
+.NET fejlesztői környezetedben telepíteni és beállítani kell az Aspose.Slides for .NET programot. Ha még nem tetted meg, letöltheted és telepítheted a weboldalról.
 
-[Az Aspose.Slides letöltése .NET-hez](https://releases.aspose.com/slides/net/)
+[Aspose.Slides letöltése .NET-hez](https://releases.aspose.com/slides/net/)
 
-### 2. PowerPoint bemutató
+### 2. PowerPoint-bemutató
 
-Szüksége lesz egy PowerPoint-bemutatóra egy diagrammal, amelyből vissza szeretné állítani a munkafüzetet. Győződjön meg arról, hogy készen áll a prezentációs fájl.
+Szükséged lesz egy PowerPoint-bemutatóra egy diagrammal, amelyből vissza szeretnéd állítani a munkafüzetet. Győződj meg róla, hogy készen állsz a bemutatófájlra.
 
-## A szükséges névterek importálása
+## Szükséges névterek importálása
 
 Ebben a lépésben importálnia kell a szükséges névtereket az Aspose.Slides for .NET hatékony használatához.
 
@@ -42,18 +44,18 @@ using Aspose.Slides.Charts;
 using Aspose.Slides.Export;
 ```
 
-Most bontsuk le a munkafüzet PowerPoint-prezentáción belüli diagramból való helyreállításának folyamatát több lépésre.
+Most bontsuk le egy munkafüzet PowerPoint-bemutatón belüli diagramból történő helyreállításának folyamatát több lépésre.
 
-## 1. lépés: Határozza meg a dokumentumkönyvtárat
+## 1. lépés: A dokumentumkönyvtár meghatározása
 
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "Your Document Directory";
 ```
 
-Ebben a lépésben meg kell adnia azt a könyvtárat, ahol a PowerPoint bemutató található.
+Ebben a lépésben meg kell adnia azt a könyvtárat, ahol a PowerPoint-bemutatója található.
 
-## 2. lépés: Töltse be a prezentációt, és engedélyezze a munkafüzet-helyreállítást
+## 2. lépés: Töltse be a bemutatót és engedélyezze a munkafüzet-helyreállítást
 
 ```csharp
 string pptxFile = Path.Combine(dataDir, "YourPresentation.pptx");
@@ -64,52 +66,54 @@ lo.SpreadsheetOptions.RecoverWorkbookFromChartCache = true;
 
 using (Presentation pres = new Presentation(pptxFile, lo))
 {
-    // Ide kerül a diagram helyreállítási kódja
+    // diagram-helyreállítási kódod ide kerül
     pres.Save(outPptxFile, SaveFormat.Pptx);
 }
 ```
 
-Ebben a lépésben betölti a PowerPoint bemutatót a megadott fájlból, és engedélyezi a munkafüzet helyreállítását a diagram gyorsítótárából. A`LoadOptions` objektumot használnak erre a célra.
+Ebben a lépésben betölti a PowerPoint-bemutatót a megadott fájlból, és engedélyezi a munkafüzet-helyreállítást a diagram gyorsítótárából. `LoadOptions` objektumot használnak erre a célra.
 
-## 3. lépés: A diagramadatok elérése és kezelése
+## 3. lépés: A diagramadatok elérése és használata
 
 ```csharp
 IChart chart = pres.Slides[0].Shapes[0] as IChart;
 IChartDataWorkbook wb = chart.ChartData.ChartDataWorkbook;
 ```
 
-Ebben a lépésben hozzáférhet az első dián lévő diagramhoz, és beszerezheti a diagramadatok munkafüzetét. Mostantól szükség szerint dolgozhat a munkafüzet adataival.
+Ebben a lépésben az első dián található diagramhoz férhet hozzá, és lekérheti a diagramadatokat tartalmazó munkafüzetet. Most már szükség szerint dolgozhat a munkafüzet adataival.
 
 ## Következtetés
 
-Ebben az oktatóanyagban bemutattuk, hogyan használható az Aspose.Slides for .NET a munkafüzet helyreállítására egy PowerPoint-prezentáció diagramjából. Az ebben az útmutatóban ismertetett lépések követésével hatékonyan kinyerhet adatokat prezentációiból, és felhasználhatja azokat sajátos igényei szerint.
+Ebben az oktatóanyagban bemutattuk, hogyan használható az Aspose.Slides for .NET egy PowerPoint-bemutatóban található diagramból munkafüzet visszaállítására. Az útmutatóban ismertetett lépéseket követve hatékonyan kinyerheti az adatokat a bemutatóiból, és felhasználhatja azokat az Ön igényeinek megfelelően.
 
- Ha bármilyen kérdése van, vagy problémába ütközik, ne habozzon kérni segítséget az Aspose.Slides közösségtől a[Aspose.Slides fórum](https://forum.aspose.com/). Ott vannak, hogy segítsenek Önnek az Aspose.Slides for .NET segítségével.
+Ha bármilyen kérdése van, vagy bármilyen problémába ütközik, ne habozzon segítséget kérni az Aspose.Slides közösségtől a [Aspose.Slides fórum](https://forum.aspose.com/)Azért vannak ott, hogy segítsenek az Aspose.Slides for .NET használatában.
 
 ## Gyakran Ismételt Kérdések
 
-### 1. Mi az Aspose.Slides for .NET?
+### 1. Mi az Aspose.Slides .NET-hez?
 
-Az Aspose.Slides for .NET egy hatékony .NET-könyvtár a Microsoft PowerPoint fájlokkal való munkavégzéshez, amely lehetővé teszi prezentációk programozott létrehozását, kezelését és konvertálását.
+Az Aspose.Slides for .NET egy hatékony .NET könyvtár Microsoft PowerPoint fájlokkal való munkához, amely lehetővé teszi prezentációk programozott létrehozását, kezelését és konvertálását.
 
-### 2. Vásárlás előtt kipróbálhatom az Aspose.Slides for .NET programot?
+### 2. Kipróbálhatom az Aspose.Slides for .NET-et vásárlás előtt?
 
- Igen, letöltheti az Aspose.Slides for .NET ingyenes próbaverzióját, hogy kiértékelhesse szolgáltatásait és képességeit.[Töltse le az ingyenes próbaverziót itt](https://releases.aspose.com/).
+Igen, ingyenesen kipróbálhatod az Aspose.Slides for .NET verziót, hogy kiértékelhesd a funkcióit és képességeit. [Szerezd meg az ingyenes próbaverziót itt](https://releases.aspose.com/).
 
 ### 3. Hol találom az Aspose.Slides for .NET dokumentációját?
 
- Hozzáférhet az Aspose.Slides for .NET dokumentációjához[itt](https://reference.aspose.com/slides/net/). Részletes információkat, példákat és API-referenciákat tartalmaz.
+Az Aspose.Slides for .NET dokumentációját itt találod: [itt](https://reference.aspose.com/slides/net/)Részletes információkat, példákat és API-hivatkozásokat tartalmaz.
 
-### 4. Hogyan vásárolhatok licencet az Aspose.Slides for .NET számára?
+### 4. Hogyan vásárolhatok licencet az Aspose.Slides for .NET-hez?
 
- Az Aspose.Slides for .NET licencének megvásárlásához látogasson el az Aspose webhelyére, és használja a következő hivatkozást:[Vásároljon Aspose.Slides-t .NET-hez](https://purchase.aspose.com/buy).
+Az Aspose.Slides for .NET licencének megvásárlásához látogasson el az Aspose webhelyére, és használja a következő linket: [Vásárolja meg az Aspose.Slides .NET-hez készült verzióját](https://purchase.aspose.com/buy).
 
-### 5. Mennyi a maximális cím hossza a SEO optimalizáláshoz?
+### 5. Mi a SEO optimalizálás címének maximális hossza?
 
-A SEO optimalizálás érdekében ajánlatos a címét 60 karakternél rövidebb ideig tartani, hogy megfelelően megjelenjen a keresőmotorok találatai között.
+SEO optimalizálás céljából ajánlott a címet 60 karakternél rövidebbre tartani, hogy megfelelően jelenjen meg a keresőmotorok találati listáján.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

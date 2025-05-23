@@ -1,20 +1,22 @@
 ---
-title: प्रस्तुतियों में कस्टम आकार आईडी के साथ SVG उत्पन्न करें
-linktitle: प्रस्तुतियों में कस्टम आकार आईडी के साथ SVG उत्पन्न करें
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: .NET के लिए Aspose.Slides का उपयोग करके कस्टम SVG आकृतियों और ID के साथ आकर्षक प्रस्तुतिकरण बनाएं। स्रोत कोड उदाहरणों के साथ चरण दर चरण इंटरैक्टिव स्लाइड बनाने का तरीका जानें। अपनी प्रस्तुतियों में दृश्य अपील और उपयोगकर्ता सहभागिता को बढ़ाएँ।
-weight: 19
-url: /hi/net/presentation-manipulation/generate-svg-with-custom-shape-ids-in-presentations/
+"description": ".NET के लिए Aspose.Slides का उपयोग करके कस्टम SVG आकृतियों और ID के साथ आकर्षक प्रस्तुतिकरण बनाएं। स्रोत कोड उदाहरणों के साथ चरण दर चरण इंटरैक्टिव स्लाइड बनाने का तरीका जानें। अपनी प्रस्तुतियों में दृश्य अपील और उपयोगकर्ता सहभागिता को बढ़ाएँ।"
+"linktitle": "प्रस्तुतियों में कस्टम आकार आईडी के साथ SVG उत्पन्न करें"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "प्रस्तुतियों में कस्टम आकार आईडी के साथ SVG उत्पन्न करें"
+"url": "/hi/net/presentation-manipulation/generate-svg-with-custom-shape-ids-in-presentations/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # प्रस्तुतियों में कस्टम आकार आईडी के साथ SVG उत्पन्न करें
 
 
-क्या आप कस्टम शेप आईडी के साथ SVG फ़ाइलें बनाने के लिए Aspose.Slides for .NET की शक्ति का उपयोग करना चाहते हैं? आप सही जगह पर हैं! इस चरण-दर-चरण ट्यूटोरियल में, हम आपको निम्नलिखित स्रोत कोड स्निपेट का उपयोग करके प्रक्रिया के माध्यम से मार्गदर्शन करेंगे। अंत तक, आप अपनी प्रस्तुतियों में कस्टम शेप आईडी के साथ SVG फ़ाइलें बनाने के लिए अच्छी तरह से सुसज्जित होंगे।
+क्या आप कस्टम शेप आईडी के साथ SVG फ़ाइलें बनाने के लिए .NET के लिए Aspose.Slides की शक्ति का उपयोग करना चाहते हैं? आप सही जगह पर हैं! इस चरण-दर-चरण ट्यूटोरियल में, हम आपको निम्नलिखित स्रोत कोड स्निपेट का उपयोग करके प्रक्रिया के माध्यम से मार्गदर्शन करेंगे। अंत तक, आप अपनी प्रस्तुतियों में कस्टम शेप आईडी के साथ SVG फ़ाइलें बनाने के लिए अच्छी तरह से सुसज्जित होंगे।
 
 ### शुरू करना
 
@@ -30,7 +32,7 @@ url: /hi/net/presentation-manipulation/generate-svg-with-custom-shape-ids-in-pre
 
 ### चरण 1: वातावरण की स्थापना
 
-इस चरण में, हम आवश्यक वेरिएबल्स को आरंभीकृत करेंगे और अपनी प्रस्तुति फ़ाइल लोड करेंगे।
+इस चरण में, हम आवश्यक वेरिएबल्स को आरंभ करेंगे और अपनी प्रेजेंटेशन फ़ाइल लोड करेंगे।
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -42,7 +44,7 @@ using (Presentation pres = new Presentation(dataDir + "presentation.pptx"))
 }
 ```
 
- प्रतिस्थापित करें`"Your Document Directory"` अपनी प्रस्तुति फ़ाइल के वास्तविक पथ के साथ.
+प्रतिस्थापित करें `"Your Document Directory"` अपनी प्रस्तुति फ़ाइल के वास्तविक पथ के साथ.
 
 ### चरण 2: आकृतियों को SVG के रूप में लिखना
 
@@ -60,7 +62,7 @@ using (FileStream stream = new FileStream(dataDir + "pptxFileName.svg", FileMode
 }
 ```
 
- सुनिश्चित करें कि आप प्रतिस्थापित करें`"pptxFileName.svg"` अपने इच्छित आउटपुट फ़ाइल नाम के साथ.
+सुनिश्चित करें कि आप प्रतिस्थापित करें `"pptxFileName.svg"` अपने इच्छित आउटपुट फ़ाइल नाम के साथ.
 
 ### निष्कर्ष
 
@@ -81,13 +83,15 @@ using (FileStream stream = new FileStream(dataDir + "pptxFileName.svg", FileMode
    जबकि .NET के लिए Aspose.Slides शक्तिशाली SVG पीढ़ी क्षमताएं प्रदान करता है, इसकी क्षमता को अधिकतम करने के लिए लाइब्रेरी के दस्तावेज़ीकरण को समझना आवश्यक है।
 
 5. ### मैं Aspose.Slides for .NET के लिए अधिक संसाधन और समर्थन कहां पा सकता हूं?
-    अतिरिक्त दस्तावेज़ीकरण के लिए, यहां जाएं[.NET API संदर्भ के लिए Aspose.Slides](https://reference.aspose.com/slides/net/).
+   अतिरिक्त दस्तावेज़ीकरण के लिए, यहां जाएं [.NET API संदर्भ के लिए Aspose.Slides](https://reference.aspose.com/slides/net/).
 
 अब, आगे बढ़ें और Aspose.Slides for .NET के साथ SVG जेनरेशन की अनंत संभावनाओं का पता लगाएं। हैप्पी कोडिंग!
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

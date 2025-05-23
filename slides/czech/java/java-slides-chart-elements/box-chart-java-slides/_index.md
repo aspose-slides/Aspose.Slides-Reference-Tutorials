@@ -1,38 +1,40 @@
 ---
-title: Box Chart v Java Slides
-linktitle: Box Chart v Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Naučte se vytvářet krabicové grafy v prezentacích Java pomocí Aspose.Slides. Součástí je podrobný průvodce a zdrojový kód pro efektivní vizualizaci dat.
-weight: 10
-url: /cs/java/chart-elements/box-chart-java-slides/
+"description": "Naučte se, jak vytvářet krabicové grafy v prezentacích v Javě pomocí Aspose.Slides. Součástí je podrobný návod a zdrojový kód pro efektivní vizualizaci dat."
+"linktitle": "Krabicový graf v Javě Slides"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Krabicový graf v Javě Slides"
+"url": "/cs/java/chart-elements/box-chart-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Box Chart v Java Slides
+# Krabicový graf v Javě Slides
 
 
-## Úvod do Box Chart v Aspose.Slides pro Javu
+## Úvod do rámečkového grafu v Aspose.Slides pro Javu
 
-tomto tutoriálu vás provedeme procesem vytváření krabicového grafu pomocí Aspose.Slides for Java. Krabicové grafy jsou užitečné pro vizualizaci statistických dat s různými kvartily a odlehlými hodnotami. Poskytneme vám podrobné pokyny spolu se zdrojovým kódem, které vám pomohou začít.
+tomto tutoriálu vás provedeme procesem vytvoření krabicového grafu pomocí Aspose.Slides pro Javu. Krabicové grafy jsou užitečné pro vizualizaci statistických dat s různými kvartily a odlehlými hodnotami. Poskytneme vám podrobné pokyny spolu se zdrojovým kódem, které vám pomohou začít.
 
 ## Předpoklady
 
 Než začnete, ujistěte se, že máte následující:
 
-- Aspose.Slides for Java knihovna nainstalována a nakonfigurována.
-- Nastaveno vývojové prostředí Java.
+- Knihovna Aspose.Slides pro Javu nainstalována a nakonfigurována.
+- Nastavení vývojového prostředí v Javě.
 
-## Krok 1: Inicializujte prezentaci
+## Krok 1: Inicializace prezentace
 
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 ```
 
-V tomto kroku inicializujeme objekt prezentace pomocí cesty k existujícímu souboru PowerPoint (v tomto příkladu "test.pptx").
+V tomto kroku inicializujeme objekt prezentace pomocí cesty k existujícímu souboru PowerPointu (v tomto příkladu „test.pptx“).
 
 ## Krok 2: Vytvořte krabicový graf
 
@@ -43,9 +45,9 @@ try {
     chart.getChartData().getSeries().clear();
 ```
 
-V tomto kroku vytvoříme na prvním snímku prezentace tvar krabicového grafu. Z grafu také vymažeme všechny existující kategorie a série.
+V tomto kroku vytvoříme na prvním snímku prezentace tvar rámečkového grafu. Také z grafu odstraníme všechny existující kategorie a řady.
 
-## Krok 3: Definujte kategorie
+## Krok 3: Definování kategorií
 
 ```java
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
@@ -58,7 +60,7 @@ V tomto kroku vytvoříme na prvním snímku prezentace tvar krabicového grafu.
     chart.getChartData().getCategories().add(wb.getCell(0, "A6", "Category 1"));
 ```
 
- V tomto kroku definujeme kategorie pro Box Chart. Používáme`IChartDataWorkbook` přidat kategorie a odpovídajícím způsobem je označit.
+V tomto kroku definujeme kategorie pro krabicový graf. Použijeme `IChartDataWorkbook` přidat kategorie a odpovídajícím způsobem je označit.
 
 ## Krok 4: Vytvořte sérii
 
@@ -71,9 +73,9 @@ V tomto kroku vytvoříme na prvním snímku prezentace tvar krabicového grafu.
     series.setShowOutlierPoints(true);
 ```
 
-Zde pro graf vytvoříme sérii BoxAndWhisker a nakonfigurujeme různé možnosti, jako je kvartilová metoda, střední čára, střední značky, vnitřní body a odlehlé body.
+Zde pro graf vytvoříme řadu BoxAndWhisker a nakonfigurujeme různé možnosti, jako je kvartilová metoda, průměrná čára, značky průměru, vnitřní body a odlehlé body.
 
-## Krok 5: Přidejte datové body
+## Krok 5: Přidání datových bodů
 
 ```java
     series.getDataPoints().addDataPointForBoxAndWhiskerSeries(wb.getCell(0, "B1", 15));
@@ -95,11 +97,11 @@ V tomto kroku přidáme datové body do řady BoxAndWhisker. Tyto datové body p
 }
 ```
 
-Nakonec prezentaci s krabicovým grafem uložíme do nového souboru PowerPoint s názvem "BoxAndWhisker.pptx."
+Nakonec uložíme prezentaci s krabicovým grafem do nového souboru PowerPointu s názvem „BoxAndWhisker.pptx“.
 
-Gratulujeme! Úspěšně jste vytvořili krabicový graf pomocí Aspose.Slides for Java. Graf můžete dále přizpůsobit úpravou různých vlastností a přidáním dalších datových bodů podle potřeby.
+Gratulujeme! Úspěšně jste vytvořili krabicový graf pomocí Aspose.Slides pro Javu. Graf si můžete dále přizpůsobit úpravou různých vlastností a přidáním dalších datových bodů dle potřeby.
 
-## Kompletní zdrojový kód pro krabicový graf v Java Slides
+## Kompletní zdrojový kód pro krabicový graf v Javě Slides
 
 ```java
 String dataDir = "Your Document Directory";
@@ -139,24 +141,26 @@ finally
 
 ## Závěr
 
-tomto tutoriálu jsme se naučili, jak vytvořit krabicový graf pomocí Aspose.Slides pro Java. Krabicové grafy jsou cennými nástroji pro vizualizaci statistických dat, včetně kvartilů a odlehlých hodnot. Poskytli jsme podrobného průvodce spolu se zdrojovým kódem, který vám pomůže začít s vytvářením krabicových grafů ve vašich aplikacích Java.
+tomto tutoriálu jsme se naučili, jak vytvořit krabicový graf pomocí Aspose.Slides pro Javu. Krabicové grafy jsou cenné nástroje pro vizualizaci statistických dat, včetně kvartilů a odlehlých hodnot. Poskytli jsme podrobný návod spolu se zdrojovým kódem, který vám pomůže začít s vytvářením krabicových grafů ve vašich aplikacích v Javě.
 
-## FAQ
+## Často kladené otázky
 
 ### Jak mohu změnit vzhled krabicového grafu?
 
-Vzhled krabicového grafu můžete přizpůsobit úpravou vlastností, jako jsou styly čar, barvy a písma. Podrobnosti o přizpůsobení grafu naleznete v dokumentaci Aspose.Slides for Java.
+Vzhled krabicového grafu si můžete přizpůsobit úpravou vlastností, jako jsou styly čar, barvy a písma. Podrobnosti o přizpůsobení grafu naleznete v dokumentaci k Aspose.Slides pro Javu.
 
 ### Mohu do krabicového grafu přidat další datové řady?
 
- Ano, do krabicového grafu můžete přidat více datových řad vytvořením dalších`IChartSeries` objektů a přidávání datových bodů k nim.
+Ano, do krabicového grafu můžete přidat více datových řad vytvořením dalších `IChartSeries` objekty a přidávání datových bodů k nim.
 
 ### Co znamená QuartileMethodType.Exclusive?
 
- The`QuartileMethodType.Exclusive` nastavení určuje, že výpočty kvartilů by měly být prováděny pomocí exkluzivní metody. Můžete si vybrat různé metody výpočtu kvartilů v závislosti na vašich datech a požadavcích.
+Ten/Ta/To `QuartileMethodType.Exclusive` Nastavení určuje, že výpočty kvartilů by měly být provedeny pomocí exkluzivní metody. V závislosti na vašich datech a požadavcích si můžete zvolit různé metody výpočtu kvartilů.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

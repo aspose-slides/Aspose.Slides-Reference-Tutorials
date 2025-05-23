@@ -1,14 +1,16 @@
 ---
-title: पावरपॉइंट में एनिमेशन के लिए लक्ष्य आकृतियाँ
-linktitle: पावरपॉइंट में एनिमेशन के लिए लक्ष्य आकृतियाँ
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में विशिष्ट आकृतियों को एनिमेट करना सीखें। आसानी से आकर्षक स्लाइड बनाएँ।
-weight: 11
-url: /hi/java/java-powerpoint-animation-shape-manipulation/target-shapes-for-animation-powerpoint/
+"description": "Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में विशिष्ट आकृतियों को एनिमेट करना सीखें। आसानी से आकर्षक स्लाइड बनाएँ।"
+"linktitle": "पावरपॉइंट में एनिमेशन के लिए लक्ष्य आकृतियाँ"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "पावरपॉइंट में एनिमेशन के लिए लक्ष्य आकृतियाँ"
+"url": "/hi/java/java-powerpoint-animation-shape-manipulation/target-shapes-for-animation-powerpoint/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पावरपॉइंट में एनिमेशन के लिए लक्ष्य आकृतियाँ
@@ -18,7 +20,7 @@ url: /hi/java/java-powerpoint-animation-shape-manipulation/target-shapes-for-ani
 ## आवश्यक शर्तें
 ट्यूटोरियल में शामिल होने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
 1. जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपके सिस्टम पर JDK स्थापित है।
-2.  Aspose.Slides for Java: Aspose.Slides for Java को यहां से डाउनलोड और इंस्टॉल करें[यहाँ](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides for Java: Aspose.Slides for Java को यहां से डाउनलोड और इंस्टॉल करें [यहाँ](https://releases.aspose.com/slides/java/).
 3. एकीकृत विकास वातावरण (IDE): जावा विकास के लिए अपनी पसंद का IDE चुनें, जैसे IntelliJ IDEA या Eclipse.
 
 ## पैकेज आयात करें
@@ -39,7 +41,7 @@ Aspose.Slides for Java का उपयोग करके प्रस्तु
 ```java
 Presentation pres = new Presentation(presentationFileName);
 ```
-## चरण 3: स्लाइड्स और एनीमेशन प्रभावों के माध्यम से पुनरावृत्ति करें
+## चरण 3: स्लाइड्स और एनीमेशन प्रभावों के माध्यम से पुनरावृति करें
 प्रस्तुति में प्रत्येक स्लाइड को पुनरावृत्त करें और एनीमेशन प्रभावों का विश्लेषण करें:
 ```java
 try {
@@ -61,16 +63,18 @@ try {
 ### क्या मैं जटिल एनिमेशन बनाने के लिए Aspose.Slides for Java का उपयोग कर सकता हूँ?
 हां, Aspose.Slides for Java पावरपॉइंट प्रस्तुतियों में जटिल एनिमेशन बनाने के लिए व्यापक सुविधाएं प्रदान करता है।
 ### क्या Aspose.Slides for Java के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
- हां, आप यहां से Aspose.Slides for Java का निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
-### मैं Aspose.Slides for Java के लिए समर्थन कहां पा सकता हूं?
- आप Aspose.Slides समुदाय मंच से समर्थन और सहायता प्राप्त कर सकते हैं[यहाँ](https://forum.aspose.com/c/slides/11).
+हां, आप यहां से Aspose.Slides for Java का निःशुल्क परीक्षण प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/).
+### मैं Java के लिए Aspose.Slides का समर्थन कहां पा सकता हूं?
+आप Aspose.Slides समुदाय मंच से समर्थन और सहायता प्राप्त कर सकते हैं [यहाँ](https://forum.aspose.com/c/slides/11).
 ### मैं Aspose.Slides for Java के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
- आप यहां से अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+आप यहां से अस्थायी लाइसेंस प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
 ### मैं Java के लिए Aspose.Slides कहां से खरीद सकता हूं?
- आप वेबसाइट से Java के लिए Aspose.Slides खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+आप वेबसाइट से Java के लिए Aspose.Slides खरीद सकते हैं [यहाँ](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

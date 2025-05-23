@@ -1,26 +1,28 @@
 ---
-title: Thêm Độ lệch kéo dài sang trái trong PowerPoint bằng Aspose.Slide
-linktitle: Thêm Độ lệch kéo dài sang trái cho Khung ảnh trong Aspose.Slides
-second_title: API xử lý Aspose.Slides .NET PowerPoint
-description: Tìm hiểu cách cải thiện bản trình bày PowerPoint bằng Aspose.Slides cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để thêm độ lệch kéo dài sang trái cho khung ảnh.
-weight: 14
-url: /vi/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left-picture-frame/
+"description": "Tìm hiểu cách cải thiện bài thuyết trình PowerPoint bằng Aspose.Slides cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để thêm độ lệch kéo dài sang trái cho khung hình."
+"linktitle": "Thêm Stretch Offset vào bên trái cho khung hình trong Aspose.Slides"
+"second_title": "API xử lý PowerPoint Aspose.Slides .NET"
+"title": "Thêm Stretch Offset vào bên trái trong PowerPoint bằng Aspose.Slide"
+"url": "/vi/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left-picture-frame/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Thêm Độ lệch kéo dài sang trái trong PowerPoint bằng Aspose.Slide
+# Thêm Stretch Offset vào bên trái trong PowerPoint bằng Aspose.Slide
 
 ## Giới thiệu
-Aspose.Slides for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển thao tác các bản trình bày PowerPoint một cách dễ dàng. Trong hướng dẫn này, chúng ta sẽ khám phá quy trình thêm phần bù kéo dài ở bên trái cho khung ảnh bằng Aspose.Slides cho .NET. Hãy làm theo hướng dẫn từng bước này để nâng cao kỹ năng làm việc với hình ảnh và hình dạng trong bản trình bày PowerPoint của bạn.
+Aspose.Slides for .NET là một thư viện mạnh mẽ giúp các nhà phát triển dễ dàng thao tác với các bài thuyết trình PowerPoint. Trong hướng dẫn này, chúng ta sẽ khám phá quy trình thêm độ lệch kéo dài sang bên trái cho khung hình bằng Aspose.Slides for .NET. Thực hiện theo hướng dẫn từng bước này để nâng cao kỹ năng làm việc với hình ảnh và hình dạng trong các bài thuyết trình PowerPoint.
 ## Điều kiện tiên quyết
-Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
--  Aspose.Slides for .NET: Đảm bảo bạn đã cài đặt thư viện. Nếu không, hãy tải xuống từ[Aspose.Slides cho tài liệu .NET](https://reference.aspose.com/slides/net/).
-- Môi trường phát triển: Có môi trường phát triển làm việc với khả năng .NET.
+Trước khi bắt đầu hướng dẫn, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
+- Aspose.Slides cho .NET: Đảm bảo bạn đã cài đặt thư viện. Nếu chưa, hãy tải xuống từ [Aspose.Slides cho tài liệu .NET](https://reference.aspose.com/slides/net/).
+- Môi trường phát triển: Có môi trường phát triển hoạt động với khả năng .NET.
 ## Nhập không gian tên
-Bắt đầu bằng cách nhập các vùng tên cần thiết trong dự án .NET của bạn:
+Bắt đầu bằng cách nhập các không gian tên cần thiết vào dự án .NET của bạn:
 ```csharp
 using System.IO;
 using Aspose.Slides;
@@ -30,42 +32,42 @@ using Aspose.Slides.Export;
 ## Bước 1: Thiết lập dự án của bạn
 Tạo một dự án mới hoặc mở một dự án hiện có. Đảm bảo rằng bạn có thư viện Aspose.Slides được tham chiếu trong dự án của bạn.
 ## Bước 2: Tạo đối tượng trình bày
- Khởi tạo`Presentation` lớp, đại diện cho tệp PPTX:
+Khởi tạo `Presentation` lớp, biểu diễn tệp PPTX:
 ```csharp
 using (Presentation pres = new Presentation())
 {
-    // Mã của bạn cho các bước tiếp theo sẽ xuất hiện ở đây.
+    // Mã cho các bước tiếp theo của bạn sẽ nằm ở đây.
 }
 ```
-## Bước 3: Lấy slide đầu tiên
-Truy xuất slide đầu tiên từ bản trình bày:
+## Bước 3: Lấy Slide đầu tiên
+Lấy trang chiếu đầu tiên từ bản trình bày:
 ```csharp
 ISlide slide = pres.Slides[0];
 ```
-## Bước 4: Khởi tạo hình ảnh
+## Bước 4: Tạo hình ảnh
 Tải hình ảnh bạn muốn sử dụng:
 ```csharp
 System.Drawing.Image img = (System.Drawing.Image)new Bitmap(dataDir + "aspose-logo.jpg");
 IPPImage imgEx = pres.Images.AddImage(img);
 ```
-## Bước 5: Thêm hình chữ nhật tự động
+## Bước 5: Thêm Hình chữ nhật Tự động
 Tạo một AutoShape kiểu hình chữ nhật:
 ```csharp
 IAutoShape aShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 300, 300);
 ```
-## Bước 6: Đặt kiểu tô và chế độ tô ảnh
-Định cấu hình kiểu tô và chế độ tô ảnh của hình dạng:
+## Bước 6: Thiết lập Kiểu tô và Chế độ tô hình ảnh
+Cấu hình kiểu tô hình dạng và chế độ tô hình ảnh:
 ```csharp
 aShape.FillFormat.FillType = FillType.Picture;
 aShape.FillFormat.PictureFillFormat.PictureFillMode = PictureFillMode.Stretch;
 ```
-## Bước 7: Đặt hình ảnh để điền vào hình dạng
-Chỉ định hình ảnh để điền vào hình dạng:
+## Bước 7: Đặt hình ảnh để tô vào hình dạng
+Chỉ định hình ảnh để tô vào hình dạng:
 ```csharp
 aShape.FillFormat.PictureFillFormat.Picture.Image = imgEx;
 ```
-## Bước 8: Chỉ định Độ lệch kéo dài
-Xác định độ lệch hình ảnh từ các cạnh tương ứng của hộp giới hạn của hình:
+## Bước 8: Chỉ định độ lệch kéo dài
+Xác định độ lệch hình ảnh từ các cạnh tương ứng của hộp giới hạn hình dạng:
 ```csharp
 aShape.FillFormat.PictureFillFormat.StretchOffsetLeft = 25;
 aShape.FillFormat.PictureFillFormat.StretchOffsetRight = 25;
@@ -77,23 +79,25 @@ Ghi tệp PPTX vào đĩa:
 ```csharp
 pres.Save(dataDir + "StretchOffsetLeftForPictureFrame_out.pptx", SaveFormat.Pptx);
 ```
-Chúc mừng! Bạn đã thêm thành công khoảng lệch kéo dài sang bên trái cho khung ảnh bằng Aspose.Slides for .NET.
+Xin chúc mừng! Bạn đã thêm thành công độ lệch kéo dài sang bên trái cho khung ảnh bằng Aspose.Slides cho .NET.
 ## Phần kết luận
-Trong hướng dẫn này, chúng ta đã khám phá quy trình thao tác khung ảnh trong bản trình bày PowerPoint bằng Aspose.Slides cho .NET. Bằng cách làm theo hướng dẫn từng bước, bạn đã hiểu rõ hơn về cách làm việc với hình ảnh, hình dạng và độ lệch.
-## Các câu hỏi thường gặp
-### Câu hỏi: Tôi có thể áp dụng offset kéo dài cho các hình dạng khác ngoài hình chữ nhật không?
-Trả lời: Mặc dù hướng dẫn này tập trung vào hình chữ nhật, nhưng độ lệch kéo dài có thể được áp dụng cho nhiều hình dạng khác nhau được Aspose.Slides hỗ trợ.
-### Câu hỏi: Làm cách nào tôi có thể điều chỉnh độ lệch kéo dài cho các hiệu ứng khác nhau?
-Đáp: Thử nghiệm với các giá trị bù đắp khác nhau để đạt được tác động trực quan như mong muốn. Tinh chỉnh các giá trị cho phù hợp với yêu cầu cụ thể của bạn.
-### Câu hỏi: Aspose.Slides có tương thích với .NET framework mới nhất không?
-Trả lời: Aspose.Slides được cập nhật thường xuyên để đảm bảo khả năng tương thích với các phiên bản .NET framework mới nhất.
-### Câu hỏi: Tôi có thể tìm thêm ví dụ và tài nguyên cho Aspose.Slides ở đâu?
- A: Khám phá[Tài liệu Aspose.Slides](https://reference.aspose.com/slides/net/) để có ví dụ và hướng dẫn toàn diện.
-### Câu hỏi: Tôi có thể áp dụng nhiều khoảng giãn cách cho một hình dạng không?
-Trả lời: Có, bạn có thể kết hợp nhiều độ lệch kéo dài để đạt được hiệu ứng hình ảnh phức tạp và tùy chỉnh.
+Trong hướng dẫn này, chúng tôi đã khám phá quy trình thao tác khung hình ảnh trong bản trình bày PowerPoint bằng Aspose.Slides cho .NET. Bằng cách làm theo hướng dẫn từng bước, bạn đã có được hiểu biết sâu sắc về cách làm việc với hình ảnh, hình dạng và độ lệch.
+## Những câu hỏi thường gặp
+### H: Tôi có thể áp dụng độ lệch giãn cho các hình dạng khác ngoài hình chữ nhật không?
+A: Mặc dù hướng dẫn này tập trung vào hình chữ nhật, nhưng độ lệch giãn có thể được áp dụng cho nhiều hình dạng khác nhau được Aspose.Slides hỗ trợ.
+### H: Làm thế nào tôi có thể điều chỉnh độ giãn nở cho các hiệu ứng khác nhau?
+A: Thử nghiệm với các giá trị bù trừ khác nhau để đạt được hiệu ứng thị giác mong muốn. Tinh chỉnh các giá trị cho phù hợp với yêu cầu cụ thể của bạn.
+### H: Aspose.Slides có tương thích với .NET framework mới nhất không?
+A: Aspose.Slides được cập nhật thường xuyên để đảm bảo khả năng tương thích với các phiên bản .NET framework mới nhất.
+### H: Tôi có thể tìm thêm ví dụ và tài nguyên cho Aspose.Slides ở đâu?
+A: Khám phá [Tài liệu Aspose.Slides](https://reference.aspose.com/slides/net/) để có ví dụ và hướng dẫn toàn diện.
+### H: Tôi có thể áp dụng nhiều độ lệch giãn nở cho một hình dạng duy nhất không?
+A: Có, bạn có thể kết hợp nhiều hiệu ứng kéo giãn để tạo ra các hiệu ứng hình ảnh phức tạp và tùy chỉnh.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

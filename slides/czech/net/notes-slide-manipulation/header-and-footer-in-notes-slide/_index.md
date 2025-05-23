@@ -1,45 +1,47 @@
 ---
-title: Správa záhlaví a zápatí v poznámkách pomocí Aspose.Slides .NET
-linktitle: Spravujte záhlaví a zápatí na snímku Poznámky
-second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Naučte se spravovat záhlaví a zápatí na snímcích poznámek aplikace PowerPoint pomocí Aspose.Slides pro .NET. Vylepšete své prezentace bez námahy.
-weight: 11
-url: /cs/net/notes-slide-manipulation/header-and-footer-in-notes-slide/
+"description": "Naučte se, jak spravovat záhlaví a zápatí v poznámkách v PowerPointu pomocí Aspose.Slides pro .NET. Vylepšete své prezentace bez námahy."
+"linktitle": "Správa záhlaví a zápatí v snímku aplikace Poznámky"
+"second_title": "Rozhraní API pro zpracování PowerPointu v .NET od Aspose.Slides"
+"title": "Správa záhlaví a zápatí v poznámkách pomocí Aspose.Slides .NET"
+"url": "/cs/net/notes-slide-manipulation/header-and-footer-in-notes-slide/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Správa záhlaví a zápatí v poznámkách pomocí Aspose.Slides .NET
 
 
-dnešní digitální době je vytváření poutavých a informativních prezentací životně důležitou dovedností. V rámci tohoto procesu může být často nutné zahrnout záhlaví a zápatí do snímků s poznámkami, abyste získali další kontext a informace. Aspose.Slides for .NET je výkonný nástroj, který vám umožňuje snadno spravovat nastavení záhlaví a zápatí ve snímcích s poznámkami. V tomto podrobném průvodci prozkoumáme, jak toho dosáhnout pomocí Aspose.Slides pro .NET.
+V dnešní digitální době je vytváření poutavých a informativních prezentací zásadní dovedností. Součástí tohoto procesu může být často potřeba do snímků s poznámkami zahrnout záhlaví a zápatí, které poskytnou další kontext a informace. Aspose.Slides for .NET je výkonný nástroj, který vám umožňuje snadno spravovat nastavení záhlaví a zápatí v snímcích s poznámkami. V tomto podrobném návodu prozkoumáme, jak toho pomocí Aspose.Slides for .NET dosáhnout.
 
 ## Předpoklady
 
-Než se pustíme do výukového programu, ujistěte se, že máte splněny následující předpoklady:
+Než se pustíme do tutoriálu, ujistěte se, že máte splněny následující předpoklady:
 
-1.  Aspose.Slides for .NET: Ujistěte se, že máte Aspose.Slides for .NET nainstalované a nakonfigurované. Můžete si jej stáhnout[tady](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides pro .NET: Ujistěte se, že máte nainstalovaný a nakonfigurovaný Aspose.Slides pro .NET. Můžete si ho stáhnout [zde](https://releases.aspose.com/slides/net/).
 
-2. PowerPointová prezentace: Budete potřebovat PowerPointovou prezentaci (soubor PPTX), se kterou chcete pracovat.
+2. Prezentace v PowerPointu: Budete potřebovat prezentaci v PowerPointu (soubor PPTX), se kterou chcete pracovat.
 
-Nyní, když máme pokryty předpoklady, začněme se správou záhlaví a zápatí snímků s poznámkami pomocí Aspose.Slides pro .NET.
+Nyní, když máme pokryty předpoklady, pojďme začít se správou záhlaví a zápatí v poznámkových slidech pomocí Aspose.Slides pro .NET.
 
 ## Krok 1: Import jmenných prostorů
 
-Chcete-li začít, musíte importovat potřebné jmenné prostory pro váš projekt. Zahrňte následující jmenné prostory:
+Pro začátek je potřeba importovat potřebné jmenné prostory pro váš projekt. Zahrňte následující jmenné prostory:
 
 ```csharp
 ﻿using Aspose.Slides;
 using Aspose.Slides.Export;
 ```
 
-Tyto obory názvů poskytují přístup ke třídám a metodám potřebným ke správě záhlaví a zápatí snímků s poznámkami.
+Tyto jmenné prostory poskytují přístup ke třídám a metodám potřebným pro správu záhlaví a zápatí v poznámkových slidech.
 
-## Krok 2: Změňte nastavení záhlaví a zápatí
+## Krok 2: Změna nastavení záhlaví a zápatí
 
-Dále změníme nastavení záhlaví a zápatí pro předlohu poznámek a všechny snímky poznámek ve vaší prezentaci. Jak na to:
+Dále změníme nastavení záhlaví a zápatí pro vzor poznámek a všechny snímky s poznámkami ve vaší prezentaci. Zde je návod, jak to udělat:
 
 ```csharp
 using (Presentation presentation = new Presentation("presentation.pptx"))
@@ -60,16 +62,16 @@ using (Presentation presentation = new Presentation("presentation.pptx"))
         headerFooterManager.SetDateTimeAndChildDateTimesText("Date and time text");
     }
 
-    // Uložte prezentaci s aktualizovaným nastavením
+    // Uložit prezentaci s aktualizovaným nastavením
     presentation.Save("testresult.pptx", SaveFormat.Pptx);
 }
 ```
 
-V tomto kroku přistoupíme na snímek hlavních poznámek a nastavíme viditelnost a text pro záhlaví, zápatí, čísla snímků a zástupné symboly data a času.
+tomto kroku přistupujeme k hlavnímu snímku s poznámkami a nastavujeme viditelnost a text pro záhlaví, zápatí, čísla snímků a zástupné symboly data a času.
 
-## Krok 3: Změňte nastavení záhlaví a zápatí pro konkrétní snímek poznámek
+## Krok 3: Změna nastavení záhlaví a zápatí pro konkrétní snímek s poznámkami
 
-Pokud nyní chcete změnit nastavení záhlaví a zápatí pro konkrétní snímek poznámek, postupujte takto:
+Pokud chcete změnit nastavení záhlaví a zápatí pro konkrétní snímek s poznámkami, postupujte takto:
 
 ```csharp
 using (Presentation presentation = new Presentation("presentation.pptx"))
@@ -97,38 +99,40 @@ using (Presentation presentation = new Presentation("presentation.pptx"))
         headerFooterManager.SetDateTimeText("New date and time text");
     }
 
-    // Uložte prezentaci s aktualizovaným nastavením
+    // Uložit prezentaci s aktualizovaným nastavením
     presentation.Save("testresult.pptx", SaveFormat.Pptx);
 }
 ```
 
-V tomto kroku přistoupíme ke konkrétnímu snímku poznámek a upravíme viditelnost a text pro záhlaví, zápatí, číslo snímku a zástupné symboly data a času.
+V tomto kroku přistupujeme ke konkrétnímu snímku s poznámkami a upravujeme viditelnost a text záhlaví, zápatí, čísla snímku a zástupných symbolů data a času.
 
 ## Závěr
 
-Efektivní správa záhlaví a zápatí ve snímcích s poznámkami je zásadní pro zvýšení celkové kvality a srozumitelnosti vašich prezentací. S Aspose.Slides pro .NET se tento proces stává přímočarým a efektivním. Tento výukový program vám poskytl komplexního průvodce, jak toho dosáhnout, od importu jmenných prostorů až po změnu nastavení pro snímek s hlavními poznámkami i pro jednotlivé snímky s poznámkami.
+Efektivní správa záhlaví a zápatí v poznámkových slidech je klíčová pro zlepšení celkové kvality a srozumitelnosti vašich prezentací. S Aspose.Slides pro .NET se tento proces stává přímočarým a efektivním. Tento tutoriál vám poskytl komplexního průvodce, jak toho dosáhnout, od importu jmenných prostorů až po změnu nastavení pro hlavní slide s poznámkami i pro jednotlivé slidy s poznámkami.
 
- Pokud jste to ještě neudělali, určitě prozkoumejte[Aspose.Slides pro dokumentaci .NET](https://reference.aspose.com/slides/net/) pro podrobnější informace a příklady.
+Pokud jste tak ještě neučinili, určitě si to prohlédněte [Dokumentace k Aspose.Slides pro .NET](https://reference.aspose.com/slides/net/) pro podrobnější informace a příklady.
 
 ## Často kladené otázky
 
-### Je Aspose.Slides for .NET zdarma k použití?
- Ne, Aspose.Slides for .NET je komerční produkt a budete si muset zakoupit licenci, abyste jej mohli používat ve svých projektech. Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/) pro testování.
+### Je Aspose.Slides pro .NET zdarma?
+Ne, Aspose.Slides pro .NET je komerční produkt a pro jeho použití ve vašich projektech si budete muset zakoupit licenci. Můžete získat dočasnou licenci. [zde](https://purchase.aspose.com/temporary-license/) pro testování.
 
-### Mohu dále upravit vzhled záhlaví a zápatí?
-Ano, Aspose.Slides for .NET poskytuje rozsáhlé možnosti přizpůsobení vzhledu záhlaví a zápatí, což vám umožní přizpůsobit je vašim konkrétním potřebám.
+### Mohu si vzhled záhlaví a zápatí dále přizpůsobit?
+Ano, Aspose.Slides pro .NET nabízí rozsáhlé možnosti pro přizpůsobení vzhledu záhlaví a zápatí, což vám umožňuje přizpůsobit je vašim specifickým potřebám.
 
-### Existují nějaké další funkce v Aspose.Slides pro .NET pro správu prezentací?
-Ano, Aspose.Slides for .NET nabízí širokou škálu funkcí pro vytváření, úpravy a správu prezentací, včetně snímků, tvarů a přechodů snímků.
+### Existují v Aspose.Slides pro .NET nějaké další funkce pro správu prezentací?
+Ano, Aspose.Slides pro .NET nabízí širokou škálu funkcí pro vytváření, úpravy a správu prezentací, včetně snímků, tvarů a přechodů mezi snímky.
 
-### Mohu automatizovat prezentace PowerPoint pomocí Aspose.Slides pro .NET?
-Aspose.Slides for .NET vám samozřejmě umožňuje automatizovat prezentace v PowerPointu, což z něj činí cenný nástroj pro generování dynamických a datově řízených prezentací.
+### Mohu automatizovat prezentace v PowerPointu pomocí Aspose.Slides pro .NET?
+Aspose.Slides pro .NET vám rozhodně umožňuje automatizovat prezentace v PowerPointu, což z něj činí cenný nástroj pro generování dynamických a datově řízených prezentací.
 
-### Je k dispozici technická podpora pro Aspose.Slides pro uživatele .NET?
- Ano, můžete najít podporu a pomoc od komunity Aspose a odborníků na webu[Aspose fórum podpory](https://forum.aspose.com/).
+### Je technická podpora k dispozici pro uživatele Aspose.Slides pro .NET?
+Ano, podporu a pomoc můžete najít od komunity Aspose a odborníků na [Fórum podpory Aspose](https://forum.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

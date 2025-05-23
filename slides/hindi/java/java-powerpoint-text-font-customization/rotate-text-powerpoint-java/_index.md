@@ -1,14 +1,16 @@
 ---
-title: जावा का उपयोग करके पावरपॉइंट में टेक्स्ट घुमाएँ
-linktitle: जावा का उपयोग करके पावरपॉइंट में टेक्स्ट घुमाएँ
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides के साथ जावा का उपयोग करके PowerPoint में टेक्स्ट को घुमाना सीखें। शुरुआती से लेकर उन्नत उपयोगकर्ताओं के लिए चरण-दर-चरण ट्यूटोरियल।
-weight: 10
-url: /hi/java/java-powerpoint-text-font-customization/rotate-text-powerpoint-java/
+"description": "Aspose.Slides के साथ जावा का उपयोग करके PowerPoint में टेक्स्ट को घुमाना सीखें। शुरुआती से लेकर उन्नत उपयोगकर्ताओं के लिए चरण-दर-चरण ट्यूटोरियल।"
+"linktitle": "जावा का उपयोग करके पावरपॉइंट में टेक्स्ट घुमाएँ"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा का उपयोग करके पावरपॉइंट में टेक्स्ट घुमाएँ"
+"url": "/hi/java/java-powerpoint-text-font-customization/rotate-text-powerpoint-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा का उपयोग करके पावरपॉइंट में टेक्स्ट घुमाएँ
@@ -19,8 +21,8 @@ url: /hi/java/java-powerpoint-text-font-customization/rotate-text-powerpoint-jav
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 - जावा प्रोग्रामिंग भाषा का बुनियादी ज्ञान।
 - आपके सिस्टम पर JDK स्थापित है.
--  Aspose.Slides for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
-- आपके मशीन पर IDE (एकीकृत विकास वातावरण) जैसे कि IntelliJ IDEA या Eclipse स्थापित है।
+- Aspose.Slides for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
+- आपके मशीन पर IDE (एकीकृत विकास वातावरण) जैसे कि IntelliJ IDEA या Eclipse स्थापित होना चाहिए।
 ## पैकेज आयात करें
 सबसे पहले, आपको जावा में पावरपॉइंट फ़ाइलों के साथ काम करने के लिए आवश्यक Aspose.Slides क्लासेस को आयात करना होगा:
 ```java
@@ -35,7 +37,7 @@ import java.awt.*;
 String dataDir = "Your_Document_Directory/";
 // प्रेजेंटेशन क्लास का एक उदाहरण बनाएँ
 Presentation presentation = new Presentation();
-// पहली स्लाइड प्राप्त करें
+// पहली स्लाइड प्राप्त करें 
 ISlide slide = presentation.getSlides().get_Item(0);
 ```
 ## चरण 3: एक आयताकार आकार जोड़ें
@@ -62,7 +64,7 @@ portion.setText("A quick brown fox jumps over the lazy dog. A quick brown fox ju
 portion.getPortionFormat().getFillFormat().setFillType(FillType.Solid);
 portion.getPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.BLACK);
 ```
-## चरण 6: प्रेजेंटेशन सहेजें
+## चरण 6: प्रस्तुति सहेजें
 ```java
 // प्रस्तुति सहेजें
 presentation.save(dataDir + "RotateText_out.pptx", SaveFormat.Pptx);
@@ -75,15 +77,17 @@ presentation.save(dataDir + "RotateText_out.pptx", SaveFormat.Pptx);
 हां, आप प्रोग्रामेटिक रूप से पाठ रोटेशन के लिए कोई भी वांछित कोण निर्दिष्ट कर सकते हैं।
 ### क्या Aspose.Slides फ़ॉन्ट आकार और संरेखण जैसे अन्य पाठ स्वरूपण विकल्पों का समर्थन करता है?
 बिल्कुल, Aspose.Slides विभिन्न पाठ स्वरूपण आवश्यकताओं को संभालने के लिए व्यापक API प्रदान करता है।
-### मैं Java के लिए Aspose.Slides के साथ कैसे शुरुआत कर सकता हूं?
- आप Aspose.Slides का निःशुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/) इसकी विशेषताओं का पता लगाने के लिए।
+### मैं Aspose.Slides for Java के साथ कैसे शुरुआत कर सकता हूँ?
+आप Aspose.Slides का निःशुल्क परीक्षण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/) इसकी विशेषताओं का पता लगाने के लिए।
 ### मैं Aspose.Slides के लिए अधिक दस्तावेज़ और समर्थन कहां पा सकता हूं?
- विस्तृत दस्तावेज़ीकरण के लिए, यहां जाएं[Aspose.Slides for Java दस्तावेज़ीकरण](https://reference.aspose.com/slides/java/) . आप समुदाय से भी सहायता प्राप्त कर सकते हैं[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11).
+विस्तृत दस्तावेज़ीकरण के लिए, यहां जाएं [Aspose.Slides for Java दस्तावेज़ीकरण](https://reference.aspose.com/slides/java/). आप समुदाय से भी सहायता प्राप्त कर सकते हैं [Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11).
 ### मैं Aspose.Slides के लिए अस्थायी लाइसेंस कैसे प्राप्त करूं?
- आप यहां से अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/)Aspose.Slides का बिना किसी सीमा के मूल्यांकन करने के लिए.
+आप यहां से अस्थायी लाइसेंस प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/) Aspose.Slides का बिना किसी सीमा के मूल्यांकन करने के लिए.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

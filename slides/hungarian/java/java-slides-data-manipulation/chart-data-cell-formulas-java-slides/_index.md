@@ -1,46 +1,48 @@
 ---
-title: Diagram adatcella képletek Java Slides
-linktitle: Diagram adatcella képletek Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan állíthat be diagramadatcella-képleteket Java PowerPoint prezentációkban az Aspose.Slides for Java segítségével. Dinamikus diagramok létrehozása képletekkel.
-weight: 11
-url: /hu/java/data-manipulation/chart-data-cell-formulas-java-slides/
+"description": "Tanuld meg, hogyan állíthatsz be diagram adatcellák képleteit Java PowerPoint prezentációkban az Aspose.Slides for Java használatával. Hozz létre dinamikus diagramokat képletekkel."
+"linktitle": "Diagramadatok cellaképletei Java diákban"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Diagramadatok cellaképletei Java diákban"
+"url": "/hu/java/data-manipulation/chart-data-cell-formulas-java-slides/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Diagram adatcella képletek Java Slides
+# Diagramadatok cellaképletei Java diákban
 
 
-## Bevezetés a Chart Data Cell Formulákba az Aspose.Slides for Java programban
+## Bevezetés a diagramadatok cellaképleteibe az Aspose.Slides Java-ban
 
-Ebben az oktatóanyagban megvizsgáljuk, hogyan dolgozhatunk diagram-adatcella-képletekkel az Aspose.Slides for Java használatával. Az Aspose.Slides segítségével diagramokat hozhat létre és kezelhet PowerPoint-prezentációkban, beleértve az adatcellák képleteinek beállítását.
+Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan dolgozhatunk diagram adatcella-képletekkel az Aspose.Slides for Java segítségével. Az Aspose.Slides segítségével diagramokat hozhat létre és kezelhet PowerPoint-bemutatókban, beleértve az adatcellák képleteinek beállítását is.
 
 ## Előfeltételek
 
- Mielőtt elkezdené, ellenőrizze, hogy telepítve van-e az Aspose.Slides for Java könyvtár. Letöltheti innen[itt](https://releases.aspose.com/slides/java/).
+Mielőtt elkezdenéd, győződj meg róla, hogy telepítve van az Aspose.Slides for Java könyvtár. Letöltheted innen: [itt](https://releases.aspose.com/slides/java/).
 
-## 1. lépés: Hozzon létre egy PowerPoint-bemutatót
+## 1. lépés: PowerPoint-bemutató létrehozása
 
-Először hozzunk létre egy új PowerPoint-prezentációt, és adjunk hozzá egy diagramot.
+Először is hozzunk létre egy új PowerPoint bemutatót, és adjunk hozzá egy diagramot.
 
 ```java
 String outpptxFile = "Your Output Directory" + File.separator + "ChartDataCell_Formulas_out.pptx";
 Presentation presentation = new Presentation();
 try
 {
-    // Adjon hozzá egy diagramot az első diához
+    // Diagram hozzáadása az első diához
     IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 150, 150, 500, 300);
     
-    // Szerezze be a munkafüzetet a diagramadatokhoz
+    // A diagramadatokhoz tartozó munkafüzet beszerzése
     IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
     
     // Folytassa az adatcella-műveletekkel
     // ...
     
-    // Mentse el a bemutatót
+    // Mentse el a prezentációt
     presentation.save(outpptxFile, SaveFormat.Pptx);
 }
 finally
@@ -49,9 +51,9 @@ finally
 }
 ```
 
-## 2. lépés: Állítsa be az adatcellák képleteit
+## 2. lépés: Képletek beállítása az adatcellákhoz
 
-Most állítsunk be képleteket a diagram adott adatcelláihoz. Ebben a példában két különböző cellához állítunk be képleteket.
+Most állítsunk be képleteket a diagram adott adatcelláihoz. Ebben a példában két különböző cellához fogunk képleteket beállítani.
 
 ### 1. cella: A1 jelölés használata
 
@@ -60,7 +62,7 @@ IChartDataCell cell1 = workbook.getCell(0, "B2");
 cell1.setFormula("1 + SUM(F2:H5)");
 ```
 
-A fenti kódban beállítunk egy képletet a B2 cellához A1 jelöléssel. A képlet kiszámítja az F2 és H5 cellák összegét, és az eredményhez hozzáad 1-et.
+A fenti kódban az A1 jelölést használva beállítottunk egy képletet a B2 cellához. A képlet kiszámítja az F2-től H5-ig terjedő cellák összegét, és 1-et ad az eredményhez.
 
 ### 2. cella: R1C1 jelölés használata
 
@@ -69,27 +71,27 @@ IChartDataCell cell2 = workbook.getCell(0, "C2");
 cell2.setR1C1Formula("MAX(R2C6:R5C8) / 3");
 ```
 
-Itt beállítunk egy képletet a C2 cellához az R1C1 jelöléssel. A képlet kiszámítja a maximális értéket az R2C6 és R5C8 tartományban, majd elosztja 3-mal.
+Itt egy képletet állítunk be a C2 cellához az R1C1 jelölés használatával. A képlet kiszámítja az R2C6 és R5C8 közötti tartományon belüli maximális értéket, majd elosztja azt 3-mal.
 
-## 3. lépés: Számítsa ki a képleteket
+## 3. lépés: Képletek kiszámítása
 
-A képletek beállítása után feltétlenül ki kell számítani őket a következő kóddal:
+A képletek beállítása után elengedhetetlen a következő kóddal kiszámítani őket:
 
 ```java
 workbook.calculateFormulas();
 ```
 
-Ez a lépés biztosítja, hogy a diagram tükrözze a képletek alapján frissített értékeket.
+Ez a lépés biztosítja, hogy a diagram a képleteken alapuló frissített értékeket tükrözze.
 
-## 4. lépés: Mentse el a bemutatót
+## 4. lépés: Mentse el a prezentációt
 
-Végül mentse a módosított prezentációt egy fájlba.
+Végül mentse el a módosított prezentációt egy fájlba.
 
 ```java
 presentation.save(outpptxFile, SaveFormat.Pptx);
 ```
 
-## Java Slides diagramadat-cellaképleteinek teljes forráskódja
+## Teljes forráskód a Java diák diagramadat-cellaképleteihez
 
 ```java
 String outpptxFile = "Your Output Directory" + File.pathSeparator + "ChartDataCell_Formulas_out.pptx";
@@ -113,24 +115,26 @@ finally
 
 ## Következtetés
 
-Ebben az oktatóanyagban megvizsgáltuk, hogyan dolgozhatunk diagram adatcella-képletekkel az Aspose.Slides for Java programban. Szóba került a PowerPoint-prezentáció létrehozása, a diagramok hozzáadása, az adatcellák képletei beállítása, a képletek kiszámítása és a prezentáció mentése. Mostantól ezeket a képességeket kihasználva dinamikus és adatvezérelt diagramokat hozhat létre prezentációiban.
+Ebben az oktatóanyagban azt vizsgáltuk meg, hogyan dolgozhatunk diagram adatcella-képletekkel az Aspose.Slides Java verziójában. Áttekintettük a PowerPoint-bemutatók létrehozását, diagramok hozzáadását, az adatcellák képleteinek beállítását, a képletek kiszámítását és a bemutató mentését. Mostantól kihasználhatod ezeket a képességeket dinamikus és adatvezérelt diagramok létrehozásához a bemutatóidban.
 
 ## GYIK
 
-### Hogyan adhatok hozzá diagramot egy adott diához?
+### Hogyan adhatok hozzá egy diagramot egy adott diához?
 
- Ha diagramot szeretne hozzáadni egy adott diához, használja a`getSlides().get_Item(slideIndex)` módszerrel elérheti a kívánt diát, majd használja a`addChart` módszer a diagram hozzáadásához.
+Ha egy adott diához szeretne diagramot hozzáadni, használhatja a `getSlides().get_Item(slideIndex)` módszerrel érheti el a kívánt diát, majd használja a `addChart` módszer a diagram hozzáadásához.
 
 ### Használhatok különböző típusú képleteket az adatcellákban?
 
-Igen, az adatcella-képletekben különféle típusú képleteket használhat, beleértve a matematikai műveleteket, függvényeket és más cellákra való hivatkozásokat.
+Igen, az adatcellák képleteiben különféle típusú képleteket használhat, beleértve a matematikai műveleteket, függvényeket és más cellákra való hivatkozásokat.
 
-### Hogyan változtathatom meg a diagram típusát?
+### Hogyan tudom megváltoztatni a diagram típusát?
 
- A diagram típusát a gombbal módosíthatja`setChartType` módszer a`IChart` objektumot, és megadja a kívántat`ChartType`.
+A diagram típusát a következővel módosíthatja: `setChartType` módszer a `IChart` objektum és a kívánt `ChartType`.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

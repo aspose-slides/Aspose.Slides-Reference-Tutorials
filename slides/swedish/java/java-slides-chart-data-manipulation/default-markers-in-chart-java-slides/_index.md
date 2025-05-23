@@ -1,30 +1,32 @@
 ---
-title: Standardmarkörer i diagram i Java Slides
-linktitle: Standardmarkörer i diagram i Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Lär dig hur du skapar Java Slides med standardmarkörer i diagram med Aspose.Slides för Java. Steg-för-steg guide med källkod.
-weight: 16
-url: /sv/java/chart-data-manipulation/default-markers-in-chart-java-slides/
+"description": "Lär dig hur du skapar Java-bilder med standardmarkörer i diagram med Aspose.Slides för Java. Steg-för-steg-guide med källkod."
+"linktitle": "Standardmarkörer i diagram i Java-bilder"
+"second_title": "Aspose.Slides Java PowerPoint-bearbetnings-API"
+"title": "Standardmarkörer i diagram i Java-bilder"
+"url": "/sv/java/chart-data-manipulation/default-markers-in-chart-java-slides/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Standardmarkörer i diagram i Java Slides
+# Standardmarkörer i diagram i Java-bilder
 
 
-## Introduktion till standardmarkörer i diagram i Java Slides
+## Introduktion till standardmarkörer i diagram i Java-presentationer
 
-I den här handledningen kommer vi att utforska hur man skapar ett diagram med standardmarkörer med Aspose.Slides för Java. Standardmarkörer är symboler eller former som läggs till datapunkter i ett diagram för att markera dem. Vi skapar ett linjediagram med markörer för att visualisera data.
+I den här handledningen ska vi utforska hur man skapar ett diagram med standardmarkörer med hjälp av Aspose.Slides för Java. Standardmarkörer är symboler eller former som läggs till datapunkter i ett diagram för att markera dem. Vi ska skapa ett linjediagram med markörer för att visualisera data.
 
-## Förutsättningar
+## Förkunskapskrav
 
 Innan du börjar, se till att du har Aspose.Slides för Java-biblioteket installerat och konfigurerat i ditt Java-projekt.
 
 ## Steg 1: Skapa en presentation
 
-Låt oss först skapa en presentation och lägga till en bild till den. Vi lägger sedan till ett diagram på bilden.
+Först skapar vi en presentation och lägger till en bild i den. Sedan lägger vi till ett diagram i bilden.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -34,7 +36,7 @@ ISlide slide = pres.getSlides().get_Item(0);
 
 ## Steg 2: Lägg till ett linjediagram med markörer
 
-Låt oss nu lägga till ett linjediagram med markörer på bilden. Vi tar också bort alla standarddata från diagrammet.
+Nu ska vi lägga till ett linjediagram med markörer på bilden. Vi rensar även all standarddata från diagrammet.
 
 ```java
 IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 10, 10, 400, 400);
@@ -44,7 +46,7 @@ chart.getChartData().getCategories().clear();
 
 ## Steg 3: Fyll i diagramdata
 
-Vi fyller i diagrammet med exempeldata. I det här exemplet skapar vi två serier med datapunkter och kategorier.
+Vi fyller diagrammet med exempeldata. I det här exemplet skapar vi två serier med datapunkter och kategorier.
 
 ```java
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
@@ -65,7 +67,7 @@ series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 4, 1, null));
 chart.getChartData().getSeries().add(fact.getCell(0, 0, 2, "Series 2"));
 IChartSeries series2 = chart.getChartData().getSeries().get_Item(1);
 
-// Fyller på seriedata
+// Ifyllning av seriedata
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 1, 2, 30));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 2, 2, 10));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 3, 2, 60));
@@ -74,7 +76,7 @@ series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 4, 2, 40));
 
 ## Steg 4: Anpassa diagrammet
 
-Du kan anpassa diagrammet ytterligare, som att lägga till en förklaring och justera dess utseende.
+Du kan anpassa diagrammet ytterligare, till exempel genom att lägga till en förklaring och justera dess utseende.
 
 ```java
 chart.setLegend(true);
@@ -83,13 +85,13 @@ chart.getLegend().setOverlay(false);
 
 ## Steg 5: Spara presentationen
 
-Slutligen sparar du presentationen med diagrammet på önskad plats.
+Spara slutligen presentationen med diagrammet på önskad plats.
 
 ```java
 pres.save(dataDir + "DefaultMarkersInChart.pptx", SaveFormat.Pptx);
 ```
 
-Det är allt! Du har skapat ett linjediagram med standardmarkörer med Aspose.Slides för Java.
+Det var allt! Du har skapat ett linjediagram med standardmarkörer med Aspose.Slides för Java.
 
 ## Komplett källkod för standardmarkörer i diagram i Java Slides
 
@@ -115,9 +117,9 @@ Det är allt! Du har skapat ett linjediagram med standardmarkörer med Aspose.Sl
             chart.getChartData().getCategories().add(fact.getCell(0, 4, 0, "C4"));
             series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 4, 1, null));
             chart.getChartData().getSeries().add(fact.getCell(0, 0, 2, "Series 2"), chart.getType());
-            //Ta andra diagramserien
+            //Ta den andra diagramserien
             IChartSeries series2 = chart.getChartData().getSeries().get_Item(1);
-            //Fyller nu på seriedata
+            //Nu fyller seriedata
             series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 1, 2, 30));
             series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 2, 2, 10));
             series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 3, 2, 60));
@@ -133,24 +135,26 @@ Det är allt! Du har skapat ett linjediagram med standardmarkörer med Aspose.Sl
 ```
 ## Slutsats
 
-I den här omfattande handledningen har du lärt dig hur du skapar Java Slides med standardmarkörer i diagram med Aspose.Slides för Java. Vi täckte hela processen, från att sätta upp en presentation till att anpassa diagrammets utseende och spara resultatet.
+den här omfattande handledningen har du lärt dig hur du skapar Java-presentationer med standardmarkörer i diagram med hjälp av Aspose.Slides för Java. Vi gick igenom hela processen, från att skapa en presentation till att anpassa diagrammets utseende och spara resultatet.
 
-## FAQ's
+## Vanliga frågor
 
 ### Hur kan jag ändra markörsymbolerna?
 
-Du kan anpassa markörsymbolerna genom att ställa in markörstilen för varje datapunkt. Använda sig av`IDataPoint.setMarkerStyle()` för att ändra markörsymbolen.
+Du kan anpassa markörsymbolerna genom att ställa in markörstilen för varje datapunkt. `IDataPoint.setMarkerStyle()` för att ändra markörsymbolen.
 
 ### Hur justerar jag diagrammets färger?
 
- För att ändra diagrammets färger kan du använda`IChartSeriesFormat` och`IShapeFillFormat` gränssnitt för att ställa in fyllnings- och linjeegenskaper.
+För att ändra diagrammets färger kan du använda `IChartSeriesFormat` och `IShapeFillFormat` gränssnitt för att ställa in fyllnings- och linjeegenskaper.
 
 ### Kan jag lägga till etiketter till datapunkterna?
 
- Ja, du kan lägga till etiketter till datapunkter med hjälp av`IDataPoint.getLabel()` metod och anpassa dem efter behov.
+Ja, du kan lägga till etiketter till datapunkter med hjälp av `IDataPoint.getLabel()` metod och anpassa dem efter behov.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

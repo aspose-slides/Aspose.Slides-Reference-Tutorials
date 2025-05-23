@@ -1,58 +1,60 @@
 ---
-title: Tweede plotopties voor grafieken in Java-dia's
-linktitle: Tweede plotopties voor grafieken in Java-dia's
-second_title: Aspose.Slides Java PowerPoint-verwerkings-API
-description: Leer hoe u diagrammen in Java Slides kunt aanpassen met Aspose.Slides voor Java. Ontdek tweede plotopties en verbeter uw presentaties.
-weight: 12
-url: /nl/java/chart-creation/second-plot-options-charts-java-slides/
+"description": "Leer hoe je grafieken in Java Slides kunt aanpassen met Aspose.Slides voor Java. Ontdek de opties voor een tweede plot en verbeter je presentaties."
+"linktitle": "Tweede plotopties voor grafieken in Java-dia's"
+"second_title": "Aspose.Slides Java PowerPoint-verwerkings-API"
+"title": "Tweede plotopties voor grafieken in Java-dia's"
+"url": "/nl/java/chart-creation/second-plot-options-charts-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tweede plotopties voor grafieken in Java-dia's
 
 
-## Inleiding tot tweede plotopties voor diagrammen in Java-dia's
+## Inleiding tot tweede plotopties voor grafieken in Java-dia's
 
-In deze zelfstudie onderzoeken we hoe u tweede plotopties aan diagrammen kunt toevoegen met behulp van Aspose.Slides voor Java. Met tweede plotopties kunt u het uiterlijk en het gedrag van diagrammen aanpassen, vooral in scenario's zoals cirkeldiagrammen. We zullen stapsgewijze instructies en broncodevoorbeelden geven om dit te bereiken. 
+In deze tutorial laten we zien hoe je tweede plotopties aan grafieken kunt toevoegen met Aspose.Slides voor Java. Met tweede plotopties kun je het uiterlijk en gedrag van grafieken aanpassen, met name in scenario's zoals cirkeldiagrammen. We geven stapsgewijze instructies en broncodevoorbeelden om dit te bereiken. 
 
 ## Vereisten
-Voordat we beginnen, zorg ervoor dat Aspose.Slides voor Java is geïnstalleerd en ingesteld in uw Java-project.
+Voordat we beginnen, moet u ervoor zorgen dat u Aspose.Slides voor Java hebt geïnstalleerd en ingesteld in uw Java-project.
 
-## Stap 1: Maak een presentatie
+## Stap 1: Een presentatie maken
 Laten we beginnen met het maken van een nieuwe presentatie:
 
 ```java
 // Het pad naar de documentenmap.
 String dataDir = "Your Document Directory";
-// Maak een exemplaar van de presentatieklasse
+// Een exemplaar van de presentatieklasse maken
 Presentation presentation = new Presentation();
 ```
 
-## Stap 2: Voeg een diagram toe aan een dia
-Vervolgens voegen we een diagram aan een dia toe. In dit voorbeeld maken we een cirkeldiagram:
+## Stap 2: Een grafiek toevoegen aan een dia
+Vervolgens voegen we een grafiek toe aan een dia. In dit voorbeeld maken we een cirkeldiagram:
 
 ```java
-// Voeg een diagram toe aan de dia
+// Grafiek toevoegen aan dia
 IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.PieOfPie, 50, 50, 500, 400);
 ```
 
-## Stap 3: Pas de diagrameigenschappen aan
-Laten we nu verschillende eigenschappen voor het diagram instellen, inclusief tweede plotopties:
+## Stap 3: Grafiekeigenschappen aanpassen
+Laten we nu verschillende eigenschappen voor de grafiek instellen, waaronder opties voor het tweede diagram:
 
 ```java
-// Toon gegevenslabels voor de eerste serie
+// Gegevenslabels weergeven voor de eerste reeks
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 
-// Stel de grootte van de tweede taart in (in percentage)
+// Stel de grootte van de tweede taart in (in procenten)
 chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setSecondPieSize(149);
 
-// Verdeel de taart op percentage
+// Verdeel de taart in procenten
 chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setPieSplitBy(PieSplitType.ByPercentage);
 
-// Stel de positie van de splitsing in
+// De positie van de splitsing instellen
 chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setPieSplitPosition(53);
 ```
 
@@ -69,11 +71,11 @@ presentation.save(dataDir + "SecondPlotOptionsforCharts_out.pptx", SaveFormat.Pp
 ```java
 // Het pad naar de documentenmap.
 String dataDir = "Your Document Directory";
-// Maak een exemplaar van de presentatieklasse
+// Een exemplaar van de presentatieklasse maken
 Presentation presentation = new Presentation();
-// Voeg een diagram toe aan de dia
+// Grafiek toevoegen aan dia
 IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.PieOfPie, 50, 50, 500, 400);
-// Stel verschillende eigenschappen in
+// Verschillende eigenschappen instellen
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setSecondPieSize(149);
 chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setPieSplitBy(PieSplitType.ByPercentage);
@@ -84,24 +86,26 @@ presentation.save(dataDir + "SecondPlotOptionsforCharts_out.pptx", SaveFormat.Pp
 
 ## Conclusie
 
-In deze zelfstudie hebben we geleerd hoe u tweede plotopties kunt toevoegen aan diagrammen in Java Slides met behulp van Aspose.Slides voor Java. U kunt verschillende eigenschappen aanpassen om het uiterlijk en de functionaliteit van uw diagrammen te verbeteren, waardoor uw presentaties informatiever en visueel aantrekkelijker worden.
+In deze tutorial hebben we geleerd hoe je met Aspose.Slides voor Java tweede plotopties kunt toevoegen aan grafieken in Java Slides. Je kunt verschillende eigenschappen aanpassen om het uiterlijk en de functionaliteit van je grafieken te verbeteren, waardoor je presentaties informatiever en visueel aantrekkelijker worden.
 
 ## Veelgestelde vragen
 
 ### Hoe kan ik de grootte van de tweede cirkel in een cirkeldiagram wijzigen?
 
-Als u de grootte van de tweede cirkel in een cirkeldiagram wilt wijzigen, gebruikt u de`setSecondPieSize` methode zoals weergegeven in het bovenstaande codevoorbeeld. Pas de waarde aan om de grootte in procenten op te geven.
+Om de grootte van de tweede cirkel in een cirkeldiagram te wijzigen, gebruikt u de `setSecondPieSize` Methode zoals weergegeven in het bovenstaande codevoorbeeld. Pas de waarde aan om de grootte in percentage op te geven.
 
-###  Wat doet`PieSplitBy` control in a Pie of Pie chart?
+### Wat betekent `PieSplitBy` controle in een cirkeldiagram?
 
- De`PieSplitBy` eigenschap bepaalt hoe het cirkeldiagram wordt gesplitst. Je kunt het op beide instellen`PieSplitType.ByPercentage` of`PieSplitType.ByValue` om het diagram respectievelijk op percentage of op een specifieke waarde te splitsen.
+De `PieSplitBy` De eigenschap bepaalt hoe het cirkeldiagram wordt gesplitst. U kunt het instellen op: `PieSplitType.ByPercentage` of `PieSplitType.ByValue` om de grafiek respectievelijk op een percentage of op een specifieke waarde te splitsen.
 
 ### Hoe stel ik de positie van de splitsing in een cirkeldiagram in?
 
- U kunt de positie van de splitsing in een cirkeldiagram instellen met behulp van de`setPieSplitPosition` methode. Pas de waarde aan om de gewenste positie op te geven.
+U kunt de positie van de splitsing in een cirkeldiagram instellen met behulp van de `setPieSplitPosition` methode. Pas de waarde aan om de gewenste positie op te geven.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Konvertieren einer Präsentation in HTML unter Beibehaltung der Originalschriftarten in Java-Folien
-linktitle: Konvertieren einer Präsentation in HTML unter Beibehaltung der Originalschriftarten in Java-Folien
-second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
-description: Konvertieren Sie PowerPoint-Präsentationen mit Aspose.Slides für Java in HTML und behalten Sie dabei die Originalschriftarten bei.
-weight: 14
-url: /de/java/presentation-conversion/convert-presentation-html-preserve-fonts-java-slides/
+"description": "Konvertieren Sie PowerPoint-Präsentationen mit Aspose.Slides für Java in HTML und behalten Sie dabei die Originalschriftarten bei."
+"linktitle": "Konvertieren einer Präsentation in HTML unter Beibehaltung der Originalschriftarten in Java-Folien"
+"second_title": "Aspose.Slides Java PowerPoint-Verarbeitungs-API"
+"title": "Konvertieren einer Präsentation in HTML unter Beibehaltung der Originalschriftarten in Java-Folien"
+"url": "/de/java/presentation-conversion/convert-presentation-html-preserve-fonts-java-slides/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konvertieren einer Präsentation in HTML unter Beibehaltung der Originalschriftarten in Java-Folien
@@ -19,11 +21,11 @@ url: /de/java/presentation-conversion/convert-presentation-html-preserve-fonts-j
 In diesem Tutorial erfahren Sie, wie Sie eine PowerPoint-Präsentation (PPTX) mit Aspose.Slides für Java in HTML konvertieren und dabei die Originalschriftarten beibehalten. Dadurch wird sichergestellt, dass das resultierende HTML dem Erscheinungsbild der Originalpräsentation sehr ähnlich ist.
 
 ## Schritt 1: Einrichten des Projekts
-Bevor wir uns in den Code vertiefen, stellen wir sicher, dass Sie über die erforderliche Konfiguration verfügen:
+Bevor wir uns in den Code vertiefen, stellen wir sicher, dass Sie über die erforderlichen Einstellungen verfügen:
 
 1. Laden Sie Aspose.Slides für Java herunter: Falls Sie dies noch nicht getan haben, laden Sie die Bibliothek Aspose.Slides für Java herunter und fügen Sie sie in Ihr Projekt ein.
 
-2. Erstellen Sie ein Java-Projekt: Richten Sie ein Java-Projekt in Ihrer bevorzugten IDE ein und stellen Sie sicher, dass Sie einen „lib“-Ordner haben, in dem Sie die Aspose.Slides JAR-Datei platzieren können.
+2. Erstellen Sie ein Java-Projekt: Richten Sie ein Java-Projekt in Ihrer bevorzugten IDE ein und stellen Sie sicher, dass Sie einen „lib“-Ordner haben, in dem Sie die Aspose.Slides-JAR-Datei platzieren können.
 
 3. Erforderliche Klassen importieren: Importieren Sie die erforderlichen Klassen am Anfang Ihrer Java-Datei:
 
@@ -37,10 +39,10 @@ import com.aspose.slides.SaveFormat;
 
 ## Schritt 2: Konvertieren der Präsentation in HTML mit Originalschriftarten
 
-Lassen Sie uns nun eine PowerPoint-Präsentation unter Beibehaltung der Originalschriftarten in HTML konvertieren:
+Konvertieren wir nun eine PowerPoint-Präsentation in HTML und behalten dabei die Originalschriftarten bei:
 
 ```java
-// Der Pfad zum Dokumentverzeichnis.
+// Der Pfad zum Dokumentenverzeichnis.
 String dataDir = "Your Document Directory";
 
 // Laden Sie die Präsentation
@@ -58,27 +60,27 @@ try {
     // Speichern Sie die Präsentation als HTML
     pres.save("output.html", SaveFormat.Html, htmlOptionsEmbed);
 } finally {
-    // Entsorgen des Präsentationsobjekts
+    // Entsorgen Sie das Präsentationsobjekt
     if (pres != null) pres.dispose();
 }
 ```
 
 In diesem Codeausschnitt:
 
--  Wir laden die eingegebene PowerPoint-Präsentation mit`Presentation`.
+- Wir laden die eingegebene PowerPoint-Präsentation mit `Presentation`.
 
 - Wir definieren eine Liste von Schriftarten (`fontNameExcludeList`), die wir von der Einbettung in HTML ausschließen möchten. Dies ist nützlich, um gängige Schriftarten wie Calibri und Arial auszuschließen und so die Dateigröße zu reduzieren.
 
--  Wir erstellen eine Instanz von`EmbedAllFontsHtmlController` und übergeben Sie ihm die Liste mit den ausgeschlossenen Schriftarten.
+- Wir erstellen eine Instanz von `EmbedAllFontsHtmlController` und übergeben Sie ihm die Liste der ausgeschlossenen Schriftarten.
 
--  Wir erstellen`HtmlOptions` und legen Sie einen benutzerdefinierten HTML-Formatierer fest mit`HtmlFormatter.createCustomFormatter(embedFontsController)`.
+- Wir schaffen `HtmlOptions` und legen Sie einen benutzerdefinierten HTML-Formatierer fest mit `HtmlFormatter.createCustomFormatter(embedFontsController)`.
 
 - Abschließend speichern wir die Präsentation als HTML mit den angegebenen Optionen.
 
-## Vollständiger Quellcode zur Konvertierung von Präsentationen in HTML unter Beibehaltung der Originalschriftarten in Java-Folien
+## Vollständiger Quellcode zum Konvertieren von Präsentationen in HTML unter Beibehaltung der Originalschriftarten in Java-Folien
 
 ```java
-// Der Pfad zum Dokumentverzeichnis.
+// Der Pfad zum Dokumentenverzeichnis.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation("input.pptx");
 try
@@ -104,11 +106,11 @@ In diesem Tutorial haben Sie gelernt, wie Sie eine PowerPoint-Präsentation mit 
 
 ### Wie lade ich Aspose.Slides für Java herunter?
 
- Sie können Aspose.Slides für Java von der Aspose-Website herunterladen. Besuchen Sie[Hier](https://downloads.aspose.com/slides/java/) um die neueste Version zu erhalten.
+Sie können Aspose.Slides für Java von der Aspose-Website herunterladen. Besuchen Sie [Hier](https://downloads.aspose.com/slides/java/) um die neueste Version zu erhalten.
 
 ### Kann ich die Liste der ausgeschlossenen Schriftarten anpassen?
 
- Ja, Sie können die`fontNameExcludeList` Array, um bestimmte Schriftarten entsprechend Ihren Anforderungen ein- oder auszuschließen.
+Ja, Sie können die `fontNameExcludeList` Array, um bestimmte Schriftarten entsprechend Ihren Anforderungen ein- oder auszuschließen.
 
 ### Funktioniert diese Methode für ältere PowerPoint-Formate wie PPT?
 
@@ -116,10 +118,12 @@ Dieses Codebeispiel ist für PPTX-Dateien konzipiert. Wenn Sie ältere PPT-Datei
 
 ### Wie kann ich die HTML-Ausgabe weiter anpassen?
 
- Entdecken Sie die`HtmlOptions` Klasse, um verschiedene Aspekte der HTML-Ausgabe anzupassen, beispielsweise Foliengröße, Bildqualität und mehr.
+Sie können die `HtmlOptions` Klasse zum Anpassen verschiedener Aspekte der HTML-Ausgabe, wie Foliengröße, Bildqualität und mehr.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

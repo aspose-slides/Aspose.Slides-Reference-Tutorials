@@ -1,46 +1,48 @@
 ---
-title: Graf Získat rozsah v Java Slides
-linktitle: Graf Získat rozsah v Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Naučte se, jak načíst rozsahy grafů v Java Slides pomocí Aspose.Slides for Java API. Podrobný průvodce se zdrojovým kódem pro efektivní přístup k datům grafu.
-weight: 16
-url: /cs/java/data-manipulation/chart-get-range-java-slides/
+"description": "Naučte se, jak načíst rozsahy grafů v Java Slides pomocí Aspose.Slides pro Java API. Podrobný návod se zdrojovým kódem pro efektivní přístup k datům grafů."
+"linktitle": "Graf Získat Rozsah v Javě Slides"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Graf Získat Rozsah v Javě Slides"
+"url": "/cs/java/data-manipulation/chart-get-range-java-slides/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Graf Získat rozsah v Java Slides
+# Graf Získat Rozsah v Javě Slides
 
 
-## Úvod do grafu Získat rozsah v Java Slides
+## Úvod do funkce Získání rozsahu grafů v Javě Slides
 
-V tomto podrobném průvodci prozkoumáme, jak získat rozsah grafu v Java Slides pomocí Aspose.Slides for Java API. Provedeme vás procesem s podrobnými příklady zdrojového kódu. Pokud chcete získat přístup k rozsahu grafu v prezentaci Java Slides, postupujte podle pokynů.
+V tomto podrobném návodu se podíváme na to, jak získat rozsah grafu v Java Slides pomocí rozhraní Aspose.Slides for Java API. Provedeme vás celým procesem s podrobnými příklady zdrojového kódu. Pokud chcete získat přístup k rozsahu grafu ve vaší prezentaci Java Slides, sledujte tento návod a dozvíte se, jak na to.
 
 ## Předpoklady
 
-Než se ponoříme do kódu, ujistěte se, že máte splněny následující předpoklady:
+Než se pustíme do kódu, ujistěte se, že máte splněny následující předpoklady:
 
-- Java Development Kit (JDK) nainstalovaný ve vašem systému.
--  Aspose.Slides pro knihovnu Java. Můžete si jej stáhnout z[tady](https://releases.aspose.com/slides/java/).
+- Na vašem systému nainstalovaná sada pro vývoj Java (JDK).
+- Knihovna Aspose.Slides pro Javu. Můžete si ji stáhnout z [zde](https://releases.aspose.com/slides/java/).
 
 ## Krok 1: Nastavení prostředí
 
-Než začneme psát kód, ujistěte se, že máte knihovnu Aspose.Slides for Java přidanou do cesty třídy vašeho projektu. Knihovnu si můžete stáhnout z uvedeného odkazu v sekci předpoklady.
+Než začneme psát kód, ujistěte se, že máte do třídní cesty vašeho projektu přidánu knihovnu Aspose.Slides pro Javu. Knihovnu si můžete stáhnout z odkazu uvedeného v sekci předpokladů.
 
 ## Krok 2: Vytvoření prezentace
 
 Pro začátek vytvoříme prezentaci pomocí Aspose.Slides. Zde je kód pro vytvoření objektu prezentace:
 
 ```java
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 Presentation pres = new Presentation();
 ```
 
 ## Krok 3: Přidání grafu
 
-Dále do prezentace přidáme graf. V tomto příkladu vytvoříme seskupený sloupcový graf. Zde je kód pro přidání grafu:
+Dále do prezentace přidáme graf. V tomto příkladu vytvoříme klastrovaný sloupcový graf. Zde je kód pro přidání grafu:
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 400, 300);
@@ -48,7 +50,7 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Clust
 
 ## Krok 4: Získání rozsahu
 
- Nyní přichází část, kde získáme rozsah grafu. Použijeme`getChartData().getRange()` způsob, jak toho dosáhnout:
+Nyní přichází část, kde získáme rozsah grafu. Použijeme `getChartData().getRange()` metoda, jak toho dosáhnout:
 
 ```java
 String result = chart.getChartData().getRange();
@@ -56,16 +58,16 @@ String result = chart.getChartData().getRange();
 
 ## Krok 5: Zobrazení výsledku
 
-Vytiskneme výsledek, abychom viděli rozsah grafu:
+Vytiskněme výsledek, abychom viděli rozsah grafu:
 
 ```java
 System.out.println("GetRange result : " + result);
 ```
 
-## Kompletní zdrojový kód pro graf získat rozsah v Java Slides
+## Kompletní zdrojový kód pro získání rozsahu grafu v Javě Slides
 
 ```java
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 Presentation pres = new Presentation();
 try
 {
@@ -81,33 +83,35 @@ finally
 
 ## Závěr
 
-V této příručce jsme se naučili, jak získat rozsah grafu v Java Slides pomocí Aspose.Slides for Java API. Zabývali jsme se nastavením prostředí, vytvořením prezentace, přidáním grafu a získáním rozsahu. Tyto znalosti nyní můžete využít ve svých projektech Java Slides k efektivnímu přístupu k rozsahům grafů.
+V této příručce jsme se naučili, jak získat rozsah grafu v Java Slides pomocí rozhraní Aspose.Slides pro Java API. Probrali jsme nastavení prostředí, vytvoření prezentace, přidání grafu a získání rozsahu. Nyní můžete tyto znalosti využít ve svých projektech Java Slides k efektivnímu přístupu k rozsahům grafů.
 
-## FAQ
+## Často kladené otázky
 
-### Jak si mohu stáhnout Aspose.Slides pro Java?
+### Jak si mohu stáhnout Aspose.Slides pro Javu?
 
- Aspose.Slides for Java si můžete stáhnout z webu Aspose pomocí tohoto odkazu:[Stáhněte si Aspose.Slides pro Java](https://releases.aspose.com/slides/java/).
+Aspose.Slides pro Javu si můžete stáhnout z webových stránek Aspose pomocí tohoto odkazu: [Stáhněte si Aspose.Slides pro Javu](https://releases.aspose.com/slides/java/).
 
 ### Mohu používat Aspose.Slides pro Javu zdarma?
 
-Aspose.Slides for Java je komerční knihovna, ale její funkce můžete prozkoumat pomocí bezplatné zkušební verze. Pro produkční použití si však budete muset zakoupit licenci.
+Aspose.Slides pro Javu je komerční knihovna, ale její funkce si můžete vyzkoušet s bezplatnou zkušební verzí. Pro produkční použití si však budete muset zakoupit licenci.
 
-### Existují nějaké další typy grafů podporované Aspose.Slides pro Java?
+### Podporuje Aspose.Slides pro Javu nějaké další typy grafů?
 
-Ano, Aspose.Slides for Java podporuje různé typy grafů, včetně sloupcových grafů, koláčových grafů, spojnicových grafů a dalších. Úplný seznam podporovaných typů grafů najdete v dokumentaci.
+Ano, Aspose.Slides pro Javu podporuje různé typy grafů, včetně sloupcových grafů, koláčových grafů, spojnicových grafů a dalších. Úplný seznam podporovaných typů grafů naleznete v dokumentaci.
 
-### Mohu upravit vzhled grafu pomocí Aspose.Slides for Java?
+### Mohu si přizpůsobit vzhled grafu pomocí Aspose.Slides pro Javu?
 
-Ano, pomocí Aspose.Slides for Java API můžete upravit vzhled grafů, jako je změna barev, písem a stylů. Podrobné možnosti přizpůsobení naleznete v dokumentaci.
+Ano, vzhled grafů si můžete přizpůsobit, například změnit barvy, písma a styly, pomocí rozhraní Aspose.Slides pro Java API. Podrobné možnosti přizpůsobení naleznete v dokumentaci.
 
-### Kde najdu další zdroje a dokumentaci k Aspose.Slides for Java?
+### Kde najdu další zdroje a dokumentaci k Aspose.Slides pro Javu?
 
- Komplexní dokumentaci a zdroje pro Aspose.Slides for Java můžete najít na webu:[Aspose.Slides pro dokumentaci Java](https://reference.aspose.com/slides/java/).
+Komplexní dokumentaci a zdroje pro Aspose.Slides pro Javu naleznete na webu: [Dokumentace k Aspose.Slides pro Javu](https://reference.aspose.com/slides/java/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

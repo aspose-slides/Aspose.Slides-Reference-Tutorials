@@ -1,30 +1,32 @@
 ---
-title: Diagramjelölő-beállítások használata az adatponton az Aspose.Slides .NET-ben
-linktitle: Diagramjelölő beállításai az adatponton
-second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Ismerje meg, hogyan javíthatja PowerPoint diagramjait az Aspose.Slides for .NET segítségével. Testreszabhatja az adatpontjelzőket képekkel. Hozzon létre vonzó prezentációkat.
-weight: 11
-url: /hu/net/advanced-chart-customization/chart-marker-options-on-data-point/
+"description": "Tanuld meg, hogyan gazdagíthatod PowerPoint-diagramjaidat az Aspose.Slides for .NET segítségével. Testreszabhatod az adatpont-jelölőket képekkel. Készíthetsz lebilincselő prezentációkat."
+"linktitle": "Diagramjelölő beállítások az adatponton"
+"second_title": "Aspose.Slides .NET PowerPoint feldolgozási API"
+"title": "Diagramjelölő opciók használata adatpontokon az Aspose.Slides .NET-ben"
+"url": "/hu/net/advanced-chart-customization/chart-marker-options-on-data-point/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Diagramjelölő-beállítások használata az adatponton az Aspose.Slides .NET-ben
+# Diagramjelölő opciók használata adatpontokon az Aspose.Slides .NET-ben
 
 
-Amikor prezentációkkal és adatvizualizációval dolgozik, az Aspose.Slides for .NET hatékony funkciók széles skáláját kínálja diagramok létrehozásához, testreszabásához és kezeléséhez. Ebben az oktatóanyagban megvizsgáljuk, hogyan használhatja a diagramjelölő-beállításokat az adatpontokon a diagrambemutatók javítása érdekében. Ez a lépésenkénti útmutató végigvezeti a folyamaton, kezdve az előfeltételektől és a névterek importálásától az egyes példák több lépésre bontásáig.
+Prezentációk és adatvizualizációk készítésekor az Aspose.Slides for .NET számos hatékony funkciót kínál diagramok létrehozásához, testreszabásához és kezeléséhez. Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan használhatjuk a diagramjelölő opciókat adatpontokon a diagramprezentációk javítása érdekében. Ez a lépésről lépésre szóló útmutató végigvezeti Önt a folyamaton, az előfeltételektől és a névterek importálásától kezdve az egyes példák több lépésre bontásáig.
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk a diagramjelölő-beállítások használatába az adatpontokon, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+Mielőtt belemerülnénk a diagramjelölők adatpontokon való használatába, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
 
--  Aspose.Slides for .NET: Győződjön meg arról, hogy az Aspose.Slides for .NET telepítve van. Letöltheti a[weboldal](https://releases.aspose.com/slides/net/).
+- Aspose.Slides .NET-hez: Győződjön meg róla, hogy telepítve van az Aspose.Slides .NET-hez. Letöltheti innen: [weboldal](https://releases.aspose.com/slides/net/).
 
-- Prezentációs minta: Ehhez az oktatóanyaghoz a „Test.pptx” nevű mintabemutatót használjuk. Ennek a bemutatónak a dokumentumkönyvtárában kell lennie.
+- Minta prezentáció: Ebben az oktatóanyagban egy „Test.pptx” nevű minta prezentációt fogunk használni. Ennek a prezentációnak a dokumentumkönyvtáradban kell lennie.
 
-Most kezdjük a szükséges névterek importálásával.
+Most pedig kezdjük a szükséges névterek importálásával.
 
 ## Névterek importálása
 
@@ -34,7 +36,7 @@ using Aspose.Slides.Charts;
 using Aspose.Slides.Export;
 ```
 
-Importáltuk a szükséges névtereket, és inicializáltuk a bemutatónkat. Most folytassuk a diagramjelölő opciók használatát az adatpontokon.
+Importáltuk a szükséges névtereket és inicializáltuk a prezentációnkat. Most pedig folytassuk a diagramjelölő opciók használatával az adatpontokon.
 
 ## 1. lépés: Az alapértelmezett diagram létrehozása
 
@@ -46,29 +48,29 @@ Presentation pres = new Presentation(dataDir + "Test.pptx");
 
 ISlide slide = pres.Slides[0];
 
-//Az alapértelmezett diagram létrehozása
+// Az alapértelmezett diagram létrehozása
 IChart chart = slide.Shapes.AddChart(ChartType.LineWithMarkers, 0, 0, 400, 400);
 ```
 
-Létrehozunk egy alapértelmezett "LineWithMarkers" típusú diagramot a dián egy megadott helyen és méretben.
+Létrehozunk egy alapértelmezett „LineWithMarkers” típusú diagramot a dián a megadott helyen és méretben.
 
-## 2. lépés: Az alapértelmezett diagramadat-munkalapindex beszerzése
+## 2. lépés: Az alapértelmezett diagramadat-munkalap indexének lekérése
 
 ```csharp
-// Az alapértelmezett diagramadat-munkalapindex lekérése
+// Az alapértelmezett diagramadat-munkalap indexének lekérése
 int defaultWorksheetIndex = 0;
 ```
 
-Itt megkapjuk az alapértelmezett diagram adatlap indexét.
+Itt megkapjuk az alapértelmezett diagramadat-munkalap indexét.
 
-## 3. lépés: A diagram adatlap beszerzése
+## 3. lépés: A diagramadat-munkalap beszerzése
 
 ```csharp
-// A diagram adatlapjának lekérése
+// A diagramadatok munkalapjának beszerzése
 IChartDataWorkbook fact = chart.ChartData.ChartDataWorkbook;
 ```
 
-Lekérjük a diagramadatok munkafüzetét, hogy dolgozzon a diagramadatokkal.
+Lekérjük a diagramadatokkal foglalkozó munkafüzetet, hogy diagramadatokkal dolgozhassunk.
 
 ## 4. lépés: A diagramsorozat módosítása
 
@@ -80,19 +82,19 @@ chart.ChartData.Series.Clear();
 chart.ChartData.Series.Add(fact.GetCell(defaultWorksheetIndex, 1, 1, "Series 1"), chart.Type);
 ```
 
-Ebben a lépésben eltávolítunk minden meglévő demósorozatot, és hozzáadunk egy új „Series 1” nevű sorozatot a diagramhoz.
+Ebben a lépésben eltávolítjuk a meglévő demó sorozatokat, és hozzáadunk egy új, „1. sorozat” nevű sorozatot a diagramhoz.
 
 ## 5. lépés: Képkitöltés beállítása adatpontokhoz
 
 ```csharp
-// Állítsa be a képet a jelölőkhöz
+// Jelölők képének beállítása
 System.Drawing.Image img1 = (System.Drawing.Image)new Bitmap(dataDir + "aspose-logo.jpg");
 IPPImage imgx1 = pres.Images.AddImage(img1);
 
 System.Drawing.Image img2 = (System.Drawing.Image)new Bitmap(dataDir + "Tulips.jpg");
 IPPImage imgx2 = pres.Images.AddImage(img2);
 
-// Vegyük az első diagramsorozatot
+// Vegyük az első slágerlista-sorozatot
 IChartSeries series = chart.ChartData.Series[0];
 
 // Új adatpontok hozzáadása képkitöltéssel
@@ -113,16 +115,16 @@ point.Marker.Format.Fill.FillType = FillType.Picture;
 point.Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx2;
 ```
 
-Az adatpontokhoz képjelzőket állítunk be, amelyek lehetővé teszik az egyes adatpontok diagramon való megjelenésének testreszabását.
+Képjelölőket állítunk be az adatpontokhoz, így testreszabhatja az egyes adatpontok megjelenését a diagramon.
 
 ## 6. lépés: A diagramsorozat-jelölő méretének módosítása
 
 ```csharp
-// A diagramsorozat-jelölő méretének módosítása
+// Diagramsorozat-jelölő méretének módosítása
 series.Marker.Size = 15;
 ```
 
-Itt beállítjuk a diagramsorozat-jelölő méretét, hogy vizuálisan vonzó legyen.
+Itt a diagramsorozat-jelölő méretét állítjuk be, hogy vizuálisan vonzóbb legyen.
 
 ## 7. lépés: A prezentáció mentése
 
@@ -130,33 +132,35 @@ Itt beállítjuk a diagramsorozat-jelölő méretét, hogy vizuálisan vonzó le
 pres.Save(dataDir + "AsposeScatterChart.pptx", SaveFormat.Pptx);
 ```
 
-Végül elmentjük a prezentációt az új diagrambeállításokkal.
+Végül mentjük a prezentációt az új diagrambeállításokkal.
 
 ## Következtetés
 
-Az Aspose.Slides for .NET lehetővé teszi, hogy lenyűgöző diagramprezentációkat készítsen különféle testreszabási lehetőségekkel. Ebben az oktatóanyagban arra összpontosítottunk, hogy az adatpontokon diagramjelölő-beállításokat használjunk, hogy javítsuk az adatok vizuális megjelenítését. A .NET-hez készült Aspose.Slides segítségével prezentációit a következő szintre emelheti, így vonzóbbá és informatívabbá teheti azokat.
+Az Aspose.Slides for .NET segítségével lenyűgöző diagramos prezentációkat hozhatsz létre különféle testreszabási lehetőségekkel. Ebben az oktatóanyagban a diagramjelölők adatpontokon való használatára összpontosítottunk az adatok vizuális ábrázolásának javítása érdekében. Az Aspose.Slides for .NET segítségével prezentációidat a következő szintre emelheted, még lebilincselőbbé és informatívabbá teheted őket.
 
-Ha bármilyen kérdése van, vagy segítségre van szüksége az Aspose.Slides for .NET-hez kapcsolódóan, keresse fel a[Aspose.Slides dokumentáció](https://reference.aspose.com/slides/net/) vagy nyúljon a[Aspose közösség](https://forum.aspose.com/) támogatásért.
+Ha bármilyen kérdése van, vagy segítségre van szüksége az Aspose.Slides for .NET programmal kapcsolatban, látogasson el a következő oldalra: [Aspose.Slides dokumentáció](https://reference.aspose.com/slides/net/) vagy forduljon a [Aspose közösség](https://forum.aspose.com/) támogatásért.
 
 ## Gyakran Ismételt Kérdések (GYIK)
 
-### Használhatok egyéni képeket adatpontok jelölőiként az Aspose.Slides for .NET-ben?
-Igen, az Aspose.Slides for .NET alkalmazásban egyéni képeket használhat adatpontok jelölőiként, amint az ebben az oktatóanyagban látható.
+### Használhatok egyéni képeket adatpontok jelölőjeként az Aspose.Slides for .NET-ben?
+Igen, egyéni képeket használhatsz adatpontok jelölőjeként az Aspose.Slides for .NET-ben, ahogy azt ebben az oktatóanyagban is bemutatjuk.
 
-### Hogyan módosíthatom a diagram típusát az Aspose.Slides for .NET-ben?
- A diagram típusát egy másik megadásával módosíthatja`ChartType` a diagram létrehozásakor, például „Sáv”, „Korta” vagy „Terület”.
+### Hogyan tudom megváltoztatni a diagram típusát az Aspose.Slides for .NET programban?
+A diagram típusát egy másik megadásával módosíthatja `ChartType` a diagram létrehozásakor, például „Oszlop”, „Kördiagram” vagy „Terület”.
 
-### Az Aspose.Slides for .NET kompatibilis a PowerPoint legújabb verzióival?
-Az Aspose.Slides for .NET úgy lett kialakítva, hogy különböző PowerPoint-formátumokkal működjön, és rendszeresen frissítik a legújabb PowerPoint-verziókkal való kompatibilitás fenntartása érdekében.
+### Kompatibilis az Aspose.Slides for .NET a PowerPoint legújabb verzióival?
+Az Aspose.Slides for .NET-et úgy tervezték, hogy különféle PowerPoint formátumokkal működjön, és rendszeresen frissül a legújabb PowerPoint verziókkal való kompatibilitás fenntartása érdekében.
 
 ### Hol találok további oktatóanyagokat és forrásokat az Aspose.Slides for .NET-hez?
- További oktatóanyagokat és forrásokat fedezhet fel a[Aspose.Slides dokumentáció](https://reference.aspose.com/slides/net/).
+További oktatóanyagokat és forrásokat találhatsz a következő helyen: [Aspose.Slides dokumentáció](https://reference.aspose.com/slides/net/).
 
-### Elérhető az Aspose.Slides .NET-hez készült próbaverziója?
- Igen, kipróbálhatja az Aspose.Slides for .NET alkalmazást, ha letölt egy ingyenes próbaverziót a webhelyről[itt](https://releases.aspose.com/).
+### Van elérhető próbaverzió az Aspose.Slides .NET-hez?
+Igen, kipróbálhatja az Aspose.Slides for .NET programot egy ingyenes próbaverzió letöltésével innen: [itt](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

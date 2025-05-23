@@ -1,32 +1,34 @@
 ---
-title: Bagan Histogram di Slide Java
-linktitle: Bagan Histogram di Slide Java
-second_title: Aspose.Slides API Pemrosesan Java PowerPoint
-description: Pelajari cara membuat Bagan Histogram dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah dengan kode sumber untuk visualisasi data.
-weight: 19
-url: /id/java/chart-data-manipulation/histogram-chart-java-slides/
+"description": "Pelajari cara membuat Bagan Histogram dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah dengan kode sumber untuk visualisasi data."
+"linktitle": "Grafik Histogram dalam Slide Java"
+"second_title": "API Pemrosesan PowerPoint Java Aspose.Slides"
+"title": "Grafik Histogram dalam Slide Java"
+"url": "/id/java/chart-data-manipulation/histogram-chart-java-slides/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Bagan Histogram di Slide Java
+# Grafik Histogram dalam Slide Java
 
 
-## Pengenalan Bagan Histogram di Java Slides menggunakan Aspose.Slides
+## Pengenalan Grafik Histogram di Java Slides menggunakan Aspose.Slides
 
-Dalam tutorial ini, kami akan memandu Anda melalui proses pembuatan Bagan Histogram dalam presentasi PowerPoint menggunakan Aspose.Slides for Java API. Bagan Histogram digunakan untuk mewakili distribusi data dalam interval kontinu.
+Dalam tutorial ini, kami akan memandu Anda melalui proses pembuatan Bagan Histogram dalam presentasi PowerPoint menggunakan API Aspose.Slides for Java. Bagan Histogram digunakan untuk merepresentasikan distribusi data pada interval berkelanjutan.
 
 ## Prasyarat
 
- Sebelum memulai, pastikan Anda telah menginstal pustaka Aspose.Slides untuk Java. Anda dapat mengunduhnya dari[Asumsikan situs web](https://releases.aspose.com/slides/java/).
+Sebelum memulai, pastikan Anda telah menginstal pustaka Aspose.Slides for Java. Anda dapat mengunduhnya dari [Situs web Aspose](https://releases.aspose.com/slides/java/).
 
 ## Langkah 1: Inisialisasi Proyek Anda
 
 Buat proyek Java dan sertakan pustaka Aspose.Slides dalam dependensi proyek Anda.
 
-## Langkah 2: Impor Perpustakaan yang Diperlukan
+## Langkah 2: Impor Pustaka yang Diperlukan
 
 ```java
 import com.aspose.slides.*;
@@ -39,11 +41,11 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 ```
 
- Pastikan untuk mengganti`"Your Document Directory"` dengan jalur sebenarnya ke dokumen PowerPoint Anda.
+Pastikan untuk mengganti `"Your Document Directory"` dengan jalur sebenarnya ke dokumen PowerPoint Anda.
 
 ## Langkah 4: Buat Bagan Histogram
 
-Sekarang, mari kita membuat Bagan Histogram pada slide presentasi.
+Sekarang, mari membuat Bagan Histogram pada slide presentasi.
 
 ```java
 try {
@@ -52,7 +54,7 @@ try {
     chart.getChartData().getSeries().clear();
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
     
-    // Tambahkan titik data ke rangkaian
+    // Tambahkan titik data ke seri
     IChartSeries series = chart.getChartData().getSeries().add(ChartType.Histogram);
     series.getDataPoints().addDataPointForHistogramSeries(wb.getCell(0, "A1", 15));
     series.getDataPoints().addDataPointForHistogramSeries(wb.getCell(0, "A2", -41));
@@ -61,7 +63,7 @@ try {
     series.getDataPoints().addDataPointForHistogramSeries(wb.getCell(0, "A5", -23));
     series.getDataPoints().addDataPointForHistogramSeries(wb.getCell(0, "A6", 16));
     
-    // Atur jenis agregasi sumbu horizontal ke Otomatis
+    // Tetapkan jenis agregasi sumbu horizontal ke Otomatis
     chart.getAxes().getHorizontalAxis().setAggregationType(AxisAggregationType.Automatic);
     
     // Simpan presentasi
@@ -71,9 +73,9 @@ try {
 }
 ```
 
- Dalam kode ini, pertama-tama kita menghapus semua kategori dan rangkaian yang ada dari bagan. Kemudian, kita menambahkan titik data ke rangkaian tersebut menggunakan`getDataPoints().addDataPointForHistogramSeries` metode. Terakhir, kami mengatur jenis agregasi sumbu horizontal ke Otomatis dan menyimpan presentasi.
+Dalam kode ini, pertama-tama kita menghapus kategori dan seri yang ada dari bagan. Kemudian, kita menambahkan titik data ke seri menggunakan `getDataPoints().addDataPointForHistogramSeries` metode. Terakhir, kami tetapkan jenis agregasi sumbu horizontal ke Otomatis dan simpan presentasinya.
 
-## Kode Sumber Lengkap Untuk Bagan Histogram di Slide Java
+## Source Code Lengkap Untuk Histogram Chart di Java Slides
 
 ```java
 String dataDir = "Your Document Directory";
@@ -103,24 +105,26 @@ finally
 
 ## Kesimpulan
 
-Dalam tutorial ini, kita telah menjelajahi cara membuat Bagan Histogram dalam presentasi PowerPoint menggunakan Aspose.Slides for Java API. Bagan Histogram adalah alat yang berharga untuk memvisualisasikan distribusi data dalam interval yang berkesinambungan, dan dapat menjadi tambahan yang berguna untuk presentasi Anda, terutama ketika berhubungan dengan konten statistik atau analitis.
+Dalam tutorial ini, kami telah mempelajari cara membuat Bagan Histogram dalam presentasi PowerPoint menggunakan API Aspose.Slides for Java. Bagan Histogram merupakan alat yang berharga untuk memvisualisasikan distribusi data dalam interval berkelanjutan, dan dapat menjadi tambahan yang hebat untuk presentasi Anda, terutama saat menangani konten statistik atau analitis.
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
 ### Bagaimana cara menginstal Aspose.Slides untuk Java?
 
- Anda dapat mengunduh perpustakaan Aspose.Slides untuk Java dari[Di Sini](https://releases.aspose.com/slides/java/). Ikuti petunjuk instalasi yang disediakan di situs web mereka.
+Anda dapat mengunduh pustaka Aspose.Slides untuk Java dari [Di Sini](https://releases.aspose.com/slides/java/)Ikuti petunjuk instalasi yang tersedia di situs web mereka.
 
-### Untuk apa Bagan Histogram digunakan?
+### Apa kegunaan grafik Histogram?
 
-Bagan Histogram digunakan untuk memvisualisasikan distribusi data dalam interval berkelanjutan. Ini biasanya digunakan dalam statistik untuk mewakili distribusi frekuensi.
+Bagan Histogram digunakan untuk memvisualisasikan distribusi data pada interval kontinu. Bagan ini umumnya digunakan dalam statistik untuk menggambarkan distribusi frekuensi.
 
 ### Bisakah saya menyesuaikan tampilan Bagan Histogram?
 
-Ya, Anda dapat menyesuaikan tampilan bagan, termasuk warna, label, dan sumbunya, menggunakan Aspose.Slides API.
+Ya, Anda dapat menyesuaikan tampilan bagan, termasuk warna, label, dan sumbu, menggunakan API Aspose.Slides.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

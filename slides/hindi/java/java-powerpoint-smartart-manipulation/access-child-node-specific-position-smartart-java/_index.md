@@ -1,14 +1,16 @@
 ---
-title: स्मार्टआर्ट में विशिष्ट स्थान पर चाइल्ड नोड तक पहुँचें
-linktitle: स्मार्टआर्ट में विशिष्ट स्थान पर चाइल्ड नोड तक पहुँचें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: इस विस्तृत गाइड के साथ Aspose.Slides for Java में SmartArt को मैनिपुलेट करना सीखें। चरण-दर-चरण निर्देश, उदाहरण और सर्वोत्तम अभ्यास शामिल हैं।
-weight: 11
-url: /hi/java/java-powerpoint-smartart-manipulation/access-child-node-specific-position-smartart-java/
+"description": "इस विस्तृत गाइड के साथ Aspose.Slides for Java में SmartArt को मैनिपुलेट करना सीखें। चरण-दर-चरण निर्देश, उदाहरण और सर्वोत्तम अभ्यास शामिल हैं।"
+"linktitle": "स्मार्टआर्ट में विशिष्ट स्थान पर चाइल्ड नोड तक पहुँचें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "स्मार्टआर्ट में विशिष्ट स्थान पर चाइल्ड नोड तक पहुँचें"
+"url": "/hi/java/java-powerpoint-smartart-manipulation/access-child-node-specific-position-smartart-java/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # स्मार्टआर्ट में विशिष्ट स्थान पर चाइल्ड नोड तक पहुँचें
@@ -18,10 +20,10 @@ url: /hi/java/java-powerpoint-smartart-manipulation/access-child-node-specific-p
 
 ## आवश्यक शर्तें
 आरंभ करने से पहले, आपके पास कुछ पूर्व-आवश्यकताएं होनी चाहिए:
-1.  जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपके मशीन पर JDK इंस्टॉल है। आप इसे यहाँ से डाउनलोड कर सकते हैं।[Oracle JDK पृष्ठ](https://www.oracle.com/java/technologies/javase-downloads.html).
-2.  Aspose.Slides for Java लाइब्रेरी: Aspose.Slides for Java लाइब्रेरी को यहाँ से डाउनलोड करें[डाउनलोड पृष्ठ](https://releases.aspose.com/slides/java/).
+1. जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपके मशीन पर JDK इंस्टॉल है। आप इसे यहाँ से डाउनलोड कर सकते हैं [Oracle JDK पृष्ठ](https://www.oracle.com/java/technologies/javase-downloads.html).
+2. Aspose.Slides for Java लाइब्रेरी: Aspose.Slides for Java लाइब्रेरी को यहाँ से डाउनलोड करें [डाउनलोड पृष्ठ](https://releases.aspose.com/slides/java/).
 3. एकीकृत विकास वातावरण (IDE): अपनी पसंद का कोई भी Java IDE इस्तेमाल करें। IntelliJ IDEA, Eclipse, या NetBeans लोकप्रिय विकल्प हैं।
-4.  एस्पोज लाइसेंस: जबकि आप एक नि: शुल्क परीक्षण के साथ शुरू कर सकते हैं, पूर्ण क्षमताओं के लिए, एक प्राप्त करने पर विचार करें[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) या पूर्ण लाइसेंस खरीदना[यहाँ](https://purchase.aspose.com/buy).
+4. एस्पोज लाइसेंस: जबकि आप एक नि: शुल्क परीक्षण के साथ शुरू कर सकते हैं, पूर्ण क्षमताओं के लिए, एक प्राप्त करने पर विचार करें [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) या पूर्ण लाइसेंस खरीदना [यहाँ](https://purchase.aspose.com/buy).
 ## पैकेज आयात करें
 सबसे पहले, आइए अपने जावा प्रोजेक्ट में आवश्यक पैकेज आयात करें। यह Aspose.Slides कार्यक्षमताओं का उपयोग करने के लिए महत्वपूर्ण है।
 ```java
@@ -44,7 +46,7 @@ if (!IsExists)
 
 इसके बाद, हम एक नया प्रेजेंटेशन इंस्टेंस बनाएंगे। यह हमारे प्रोजेक्ट की रीढ़ है जहाँ सभी स्लाइड और आकृतियाँ जोड़ी जाएँगी।
 ```java
-//प्रस्तुति को तत्काल प्रस्तुत करें
+// प्रस्तुति को तत्काल प्रस्तुत करें
 Presentation pres = new Presentation();
 ```
 कोड की यह पंक्ति Aspose.Slides का उपयोग करके एक नई प्रस्तुति ऑब्जेक्ट को आरंभीकृत करती है।
@@ -63,7 +65,7 @@ ISlide slide = pres.getSlides().get_Item(0);
 // पहली स्लाइड में स्मार्टआर्ट आकार जोड़ना
 ISmartArt smart = slide.getShapes().addSmartArt(0, 0, 400, 400, SmartArtLayoutType.StackedList);
 ```
- यहाँ, हम स्मार्टआर्ट आकृति की स्थिति और आयाम निर्दिष्ट करते हैं और एक लेआउट प्रकार चुनते हैं, इस मामले में,`StackedList`.
+यहाँ, हम स्मार्टआर्ट आकृति की स्थिति और आयाम निर्दिष्ट करते हैं और एक लेआउट प्रकार चुनते हैं, इस मामले में, `StackedList`.
 ## चरण 5: स्मार्टआर्ट नोड तक पहुंचें
 
 अब, हम स्मार्टआर्ट ग्राफ़िक के भीतर एक विशिष्ट नोड तक पहुँचते हैं। नोड्स स्मार्टआर्ट आकृति के भीतर अलग-अलग तत्व होते हैं।
@@ -92,21 +94,23 @@ System.out.println(outString);
 कोड की यह पंक्ति चाइल्ड नोड के विवरण को प्रारूपित और प्रिंट करती है, जैसे उसका पाठ, स्तर और स्थिति।
 ## निष्कर्ष
 बधाई हो! आपने Aspose.Slides for Java का उपयोग करके SmartArt ग्राफ़िक के भीतर चाइल्ड नोड को सफलतापूर्वक एक्सेस और मैनिपुलेट किया है। इस गाइड ने आपको अपना प्रोजेक्ट सेट अप करने, SmartArt जोड़ने और इसके नोड्स को चरण-दर-चरण मैनिपुलेट करने के बारे में बताया। इस ज्ञान के साथ, अब आप अधिक गतिशील और आकर्षक प्रस्तुतिकरण बना सकते हैं।
- आगे पढ़ने और अधिक उन्नत सुविधाओं की खोज के लिए, देखें[Aspose.Slides for Java दस्तावेज़](https://reference.aspose.com/slides/java/)यदि आपके कोई प्रश्न हों या आपको सहायता की आवश्यकता हो, तो[Aspose समुदाय मंच](https://forum.aspose.com/c/slides/11) सहायता प्राप्त करने के लिए एक बेहतरीन स्थान है।
+आगे पढ़ने और अधिक उन्नत सुविधाओं की खोज के लिए, देखें [Aspose.Slides for Java दस्तावेज़](https://reference.aspose.com/slides/java/)यदि आपके कोई प्रश्न हों या आपको सहायता की आवश्यकता हो, तो [Aspose समुदाय मंच](https://forum.aspose.com/c/slides/11) सहायता प्राप्त करने के लिए एक बेहतरीन स्थान है।
 ## अक्सर पूछे जाने वाले प्रश्न
 ### मैं Java के लिए Aspose.Slides कैसे स्थापित कर सकता हूँ?
- आप इसे यहाँ से डाउनलोड कर सकते हैं[डाउनलोड पृष्ठ](https://releases.aspose.com/slides/java/) और दिए गए स्थापना निर्देशों का पालन करें।
+आप इसे यहाँ से डाउनलोड कर सकते हैं [डाउनलोड पृष्ठ](https://releases.aspose.com/slides/java/) और दिए गए स्थापना निर्देशों का पालन करें।
 ### क्या मैं खरीदने से पहले Aspose.Slides for Java आज़मा सकता हूँ?
- हाँ, आप प्राप्त कर सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/) या एक[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) सुविधाओं का परीक्षण करने के लिए.
+हाँ, आप प्राप्त कर सकते हैं [मुफ्त परीक्षण](https://releases.aspose.com/) या एक [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) सुविधाओं का परीक्षण करने के लिए.
 ### Aspose.Slides में किस प्रकार के स्मार्टआर्ट लेआउट उपलब्ध हैं?
- Aspose.Slides विभिन्न स्मार्टआर्ट लेआउट जैसे कि सूची, प्रक्रिया, चक्र, पदानुक्रम, और अधिक का समर्थन करता है। आप विस्तृत जानकारी यहाँ पा सकते हैं[प्रलेखन](https://reference.aspose.com/slides/java/).
+Aspose.Slides विभिन्न स्मार्टआर्ट लेआउट जैसे कि सूची, प्रक्रिया, चक्र, पदानुक्रम, और अधिक का समर्थन करता है। आप विस्तृत जानकारी यहाँ पा सकते हैं [प्रलेखन](https://reference.aspose.com/slides/java/).
 ### मैं Java के लिए Aspose.Slides का समर्थन कैसे प्राप्त करूं?
- आप यहाँ से सहायता प्राप्त कर सकते हैं[Aspose समुदाय मंच](https://forum.aspose.com/c/slides/11) या व्यापक संदर्भ लें[प्रलेखन](https://reference.aspose.com/slides/java/).
+आप यहाँ से सहायता प्राप्त कर सकते हैं [Aspose समुदाय मंच](https://forum.aspose.com/c/slides/11) या व्यापक संदर्भ लें [प्रलेखन](https://reference.aspose.com/slides/java/).
 ### क्या मैं Aspose.Slides for Java के लिए पूर्ण लाइसेंस खरीद सकता हूँ?
- हां, आप यहां से पूर्ण लाइसेंस खरीद सकते हैं[खरीद पृष्ठ](https://purchase.aspose.com/buy).
+हां, आप यहां से पूर्ण लाइसेंस खरीद सकते हैं। [खरीद पृष्ठ](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

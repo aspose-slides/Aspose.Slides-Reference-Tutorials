@@ -1,56 +1,58 @@
 ---
-title: เพิ่มข้อผิดพลาดที่กำหนดเองใน Java Slides
-linktitle: เพิ่มข้อผิดพลาดที่กำหนดเองใน Java Slides
-second_title: Aspose.Slides Java PowerPoint การประมวลผล API
-description: เรียนรู้วิธีเพิ่มแถบข้อผิดพลาดที่กำหนดเองลงในแผนภูมิ PowerPoint ใน Java Slides โดยใช้ Aspose.Slides คำแนะนำทีละขั้นตอนพร้อมซอร์สโค้ดเพื่อการแสดงภาพข้อมูลที่แม่นยำ
-weight: 11
-url: /th/java/chart-data-manipulation/add-custom-error-java-slides/
+"description": "เรียนรู้วิธีเพิ่มแถบข้อผิดพลาดแบบกำหนดเองลงในแผนภูมิ PowerPoint ใน Java Slides โดยใช้ Aspose.Slides คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับสำหรับการแสดงภาพข้อมูลที่แม่นยำ"
+"linktitle": "เพิ่มข้อผิดพลาดแบบกำหนดเองใน Java Slides"
+"second_title": "API การประมวลผล Java PowerPoint ของ Aspose.Slides"
+"title": "เพิ่มข้อผิดพลาดแบบกำหนดเองใน Java Slides"
+"url": "/th/java/chart-data-manipulation/add-custom-error-java-slides/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# เพิ่มข้อผิดพลาดที่กำหนดเองใน Java Slides
+# เพิ่มข้อผิดพลาดแบบกำหนดเองใน Java Slides
 
 
-## ข้อมูลเบื้องต้นเกี่ยวกับการเพิ่มแถบข้อผิดพลาดที่กำหนดเองใน Java Slides โดยใช้ Aspose.Slides
+## การแนะนำการเพิ่มแถบข้อผิดพลาดแบบกำหนดเองใน Java Slides โดยใช้ Aspose.Slides
 
-ในบทช่วยสอนนี้ คุณจะได้เรียนรู้วิธีเพิ่มแถบข้อผิดพลาดแบบกำหนดเองลงในแผนภูมิในงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java แถบข้อผิดพลาดมีประโยชน์สำหรับการแสดงความแปรปรวนหรือความไม่แน่นอนของจุดข้อมูลบนแผนภูมิ
+ในบทช่วยสอนนี้ คุณจะได้เรียนรู้วิธีเพิ่มแถบข้อผิดพลาดแบบกำหนดเองลงในแผนภูมิในงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java แถบข้อผิดพลาดมีประโยชน์สำหรับการแสดงความแปรปรวนหรือความไม่แน่นอนในจุดข้อมูลบนแผนภูมิ
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่คุณจะเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
+ก่อนที่คุณจะเริ่มต้น โปรดตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
-- Aspose.Slides สำหรับไลบรารี Java ที่ติดตั้งและกำหนดค่าในโปรเจ็กต์ของคุณ
-- ตั้งค่าสภาพแวดล้อมการพัฒนา Java
+- Aspose.Slides สำหรับไลบรารี Java ได้รับการติดตั้งและกำหนดค่าในโปรเจ็กต์ของคุณแล้ว
+- การตั้งค่าสภาพแวดล้อมการพัฒนา Java
 
-## ขั้นตอนที่ 1: สร้างงานนำเสนอเปล่า
+## ขั้นตอนที่ 1: สร้างการนำเสนอที่ว่างเปล่า
 
-ขั้นแรก สร้างงานนำเสนอ PowerPoint เปล่า
+ขั้นแรก ให้สร้างการนำเสนอ PowerPoint ที่ว่างเปล่า
 
 ```java
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
 String dataDir = "Your Document Directory";
-// กำลังสร้างการนำเสนอที่ว่างเปล่า
+// การสร้างการนำเสนอแบบว่างเปล่า
 Presentation presentation = new Presentation();
 ```
 
-## ขั้นตอนที่ 2: เพิ่มแผนภูมิฟอง
+## ขั้นตอนที่ 2: เพิ่มแผนภูมิฟองสบู่
 
-ต่อไป เราจะเพิ่มแผนภูมิฟองให้กับงานนำเสนอ
+ต่อไปเราจะเพิ่มแผนภูมิฟองลงในการนำเสนอ
 
 ```java
-// การสร้างแผนภูมิฟอง
+// การสร้างแผนภูมิฟองสบู่
 IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Bubble, 50, 50, 400, 300, true);
 ```
 
 ## ขั้นตอนที่ 3: เพิ่มแถบข้อผิดพลาดที่กำหนดเอง
 
-ตอนนี้ มาเพิ่มแถบข้อผิดพลาดแบบกำหนดเองลงในชุดแผนภูมิกัน
+ตอนนี้ มาเพิ่มแถบข้อผิดพลาดแบบกำหนดเองให้กับชุดแผนภูมิกัน
 
 ```java
-// การเพิ่มแถบข้อผิดพลาดที่กำหนดเองและการตั้งค่ารูปแบบ
+// การเพิ่มแถบข้อผิดพลาดแบบกำหนดเองและการตั้งค่ารูปแบบ
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 IErrorBarsFormat errBarX = series.getErrorBarsXFormat();
 IErrorBarsFormat errBarY = series.getErrorBarsYFormat();
@@ -62,10 +64,10 @@ errBarY.setValueType(ErrorBarValueType.Custom);
 
 ## ขั้นตอนที่ 4: ตั้งค่าข้อมูลแถบข้อผิดพลาด
 
-ในขั้นตอนนี้ เราจะเข้าถึงจุดข้อมูลชุดแผนภูมิและตั้งค่าแถบข้อผิดพลาดที่กำหนดเองสำหรับแต่ละจุด
+ในขั้นตอนนี้เราจะเข้าถึงจุดข้อมูลชุดแผนภูมิและตั้งค่าแถบข้อผิดพลาดแบบกำหนดเองสำหรับแต่ละจุด
 
 ```java
-// การเข้าถึงจุดข้อมูลชุดแผนภูมิและการตั้งค่าแถบข้อผิดพลาดสำหรับแต่ละจุด
+// การเข้าถึงจุดข้อมูลชุดแผนภูมิและการตั้งค่าแถบข้อผิดพลาดสำหรับจุดแต่ละจุด
 IChartDataPointCollection points = series.getDataPoints();
 points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForXPlusValues(DataSourceType.DoubleLiterals);
 points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForXMinusValues(DataSourceType.DoubleLiterals);
@@ -84,27 +86,27 @@ for (int i = 0; i < points.size(); i++)
 
 ## ขั้นตอนที่ 5: บันทึกการนำเสนอ
 
-สุดท้าย ให้บันทึกงานนำเสนอด้วยแถบข้อผิดพลาดแบบกำหนดเอง
+สุดท้าย ให้บันทึกการนำเสนอด้วยแถบข้อผิดพลาดแบบกำหนดเอง
 
 ```java
-// กำลังบันทึกการนำเสนอ
+// บันทึกการนำเสนอ
 presentation.save(dataDir + "ErrorBarsCustomValues_out.pptx", SaveFormat.Pptx);
 ```
 
-แค่นั้นแหละ! คุณได้เพิ่มแถบข้อผิดพลาดแบบกำหนดเองลงในแผนภูมิในงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java สำเร็จแล้ว
+เสร็จเรียบร้อย! คุณได้เพิ่มแถบข้อผิดพลาดแบบกำหนดเองลงในแผนภูมิในงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java สำเร็จแล้ว
 
-## กรอกซอร์สโค้ดให้สมบูรณ์เพื่อเพิ่มข้อผิดพลาดที่กำหนดเองใน Java Slides
+## โค้ดต้นฉบับสมบูรณ์สำหรับการเพิ่มข้อผิดพลาดแบบกำหนดเองใน Java Slides
 
 ```java
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
 String dataDir = "Your Document Directory";
-// กำลังสร้างการนำเสนอที่ว่างเปล่า
+// การสร้างการนำเสนอแบบว่างเปล่า
 Presentation presentation = new Presentation();
 try
 {
-	// การสร้างแผนภูมิฟอง
+	// การสร้างแผนภูมิฟองสบู่
 	IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Bubble, 50, 50, 400, 300, true);
-	// การเพิ่มแถบข้อผิดพลาดที่กำหนดเองและการตั้งค่ารูปแบบ
+	// การเพิ่มแถบข้อผิดพลาดแบบกำหนดเองและการตั้งค่ารูปแบบ
 	IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 	IErrorBarsFormat errBarX = series.getErrorBarsXFormat();
 	IErrorBarsFormat errBarY = series.getErrorBarsYFormat();
@@ -112,7 +114,7 @@ try
 	errBarY.setVisible(true);
 	errBarX.setValueType(ErrorBarValueType.Custom);
 	errBarY.setValueType(ErrorBarValueType.Custom);
-	// การเข้าถึงจุดข้อมูลชุดแผนภูมิและการตั้งค่าแถบข้อผิดพลาดสำหรับแต่ละจุด
+	// การเข้าถึงจุดข้อมูลชุดแผนภูมิและการตั้งค่าแถบข้อผิดพลาดสำหรับจุดแต่ละจุด
 	IChartDataPointCollection points = series.getDataPoints();
 	points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForXPlusValues(DataSourceType.DoubleLiterals);
 	points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForXMinusValues(DataSourceType.DoubleLiterals);
@@ -126,7 +128,7 @@ try
 		points.get_Item(i).getErrorBarsCustomValues().getYMinus().setAsLiteralDouble(i + 1);
 		points.get_Item(i).getErrorBarsCustomValues().getYPlus().setAsLiteralDouble(i + 1);
 	}
-	// กำลังบันทึกการนำเสนอ
+	// บันทึกการนำเสนอ
 	presentation.save(dataDir + "ErrorBarsCustomValues_out.pptx", SaveFormat.Pptx);
 }
 finally
@@ -137,28 +139,30 @@ finally
 
 ## บทสรุป
 
-ในบทช่วยสอนที่ครอบคลุมนี้ คุณได้เรียนรู้วิธีปรับปรุงงานนำเสนอ PowerPoint ของคุณโดยการเพิ่มแถบข้อผิดพลาดที่กำหนดเองลงในแผนภูมิโดยใช้ Aspose.Slides สำหรับ Java แถบข้อผิดพลาดให้ข้อมูลเชิงลึกอันมีค่าเกี่ยวกับความแปรปรวนของข้อมูลและความไม่แน่นอน ทำให้แผนภูมิของคุณมีข้อมูลมากขึ้นและดึงดูดสายตามากขึ้น
+ในบทช่วยสอนที่ครอบคลุมนี้ คุณจะได้เรียนรู้วิธีปรับปรุงการนำเสนอ PowerPoint ของคุณโดยเพิ่มแถบข้อผิดพลาดแบบกำหนดเองลงในแผนภูมิโดยใช้ Aspose.Slides สำหรับ Java แถบข้อผิดพลาดจะให้ข้อมูลเชิงลึกอันมีค่าเกี่ยวกับความแปรปรวนและความไม่แน่นอนของข้อมูล ทำให้แผนภูมิของคุณมีข้อมูลมากขึ้นและดูน่าสนใจยิ่งขึ้น
 
 ## คำถามที่พบบ่อย
 
 ### ฉันจะปรับแต่งลักษณะที่ปรากฏของแถบข้อผิดพลาดได้อย่างไร
 
- คุณสามารถปรับแต่งลักษณะที่ปรากฏของแถบข้อผิดพลาดได้โดยการแก้ไขคุณสมบัติของ`IErrorBarsFormat` วัตถุ เช่น ลักษณะของเส้น สีของเส้น และความกว้างของแถบข้อผิดพลาด
+คุณสามารถปรับแต่งลักษณะที่ปรากฏของแถบข้อผิดพลาดได้โดยการแก้ไขคุณสมบัติของ `IErrorBarsFormat` วัตถุ เช่น สไตล์เส้น สีเส้น และความกว้างของแถบแสดงข้อผิดพลาด
 
 ### ฉันสามารถเพิ่มแถบข้อผิดพลาดให้กับแผนภูมิประเภทอื่นได้หรือไม่
 
-ได้ คุณสามารถเพิ่มแถบข้อผิดพลาดลงในแผนภูมิประเภทต่างๆ ที่ Aspose.Slides สำหรับ Java รองรับ รวมถึงแผนภูมิแท่ง แผนภูมิเส้น และแผนภูมิกระจาย
+ใช่ คุณสามารถเพิ่มแถบข้อผิดพลาดให้กับแผนภูมิประเภทต่างๆ ที่ได้รับการรองรับโดย Aspose.Slides สำหรับ Java รวมถึงแผนภูมิแท่ง แผนภูมิเส้น และแผนภูมิกระจาย
 
-### ฉันจะตั้งค่าแถบข้อผิดพลาดที่แตกต่างกันสำหรับแต่ละจุดข้อมูลได้อย่างไร
+### ฉันจะตั้งค่าแถบข้อผิดพลาดที่แตกต่างกันสำหรับจุดข้อมูลแต่ละจุดได้อย่างไร
 
-คุณสามารถวนซ้ำจุดข้อมูลและตั้งค่าแถบข้อผิดพลาดแบบกำหนดเองสำหรับแต่ละจุดได้ ดังที่แสดงในโค้ดด้านบน
+คุณสามารถวนซ้ำผ่านจุดข้อมูลและตั้งค่าแถบข้อผิดพลาดแบบกำหนดเองสำหรับแต่ละจุดได้ ดังที่แสดงในโค้ดด้านบน
 
-### เป็นไปได้ไหมที่จะซ่อนแถบข้อผิดพลาดสำหรับจุดข้อมูลเฉพาะ
+### สามารถซ่อนแถบข้อผิดพลาดสำหรับจุดข้อมูลที่เจาะจงได้หรือไม่
 
- ได้ คุณสามารถควบคุมการมองเห็นแถบข้อผิดพลาดสำหรับจุดข้อมูลแต่ละจุดได้โดยการตั้งค่า`setVisible` ทรัพย์สินของ`IErrorBarsFormat` วัตถุ.
+ใช่ คุณสามารถควบคุมการมองเห็นของแถบข้อผิดพลาดสำหรับจุดข้อมูลแต่ละจุดได้โดยการตั้งค่า `setVisible` ทรัพย์สินของ `IErrorBarsFormat` วัตถุ.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

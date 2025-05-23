@@ -1,14 +1,16 @@
 ---
-title: नोट्स के साथ स्लाइड्स को पीडीएफ में बदलें
-linktitle: नोट्स के साथ स्लाइड्स को पीडीएफ में बदलें
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: .NET के लिए Aspose.Slides का उपयोग करके स्पीकर नोट्स के साथ प्रेजेंटेशन स्लाइड्स को आसानी से PDF में बदलें। सामग्री और संदर्भ को सहजता से संरक्षित करें।
-weight: 18
-url: /hi/net/presentation-conversion/convert-slides-to-pdf-with-notes/
+"description": ".NET के लिए Aspose.Slides का उपयोग करके स्पीकर नोट्स के साथ प्रेजेंटेशन स्लाइड्स को आसानी से PDF में बदलें। सामग्री और संदर्भ को सहजता से संरक्षित करें।"
+"linktitle": "नोट्स के साथ स्लाइड्स को पीडीएफ में बदलें"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "नोट्स के साथ स्लाइड्स को पीडीएफ में बदलें"
+"url": "/hi/net/presentation-conversion/convert-slides-to-pdf-with-notes/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # नोट्स के साथ स्लाइड्स को पीडीएफ में बदलें
@@ -20,7 +22,7 @@ url: /hi/net/presentation-conversion/convert-slides-to-pdf-with-notes/
 
 ## 1 परिचय
 
-नोट्स के साथ PowerPoint स्लाइड्स को PDF में बदलना प्रेजेंटेशन को साझा करने के लिए एक मूल्यवान उपकरण हो सकता है, जबकि यह सुनिश्चित करता है कि महत्वपूर्ण संदर्भ और टिप्पणियाँ बरकरार रहें। Aspose.Slides for .NET इस कार्य के लिए एक शक्तिशाली समाधान प्रदान करता है।
+नोट्स के साथ पावरपॉइंट स्लाइड्स को पीडीएफ में बदलना प्रेजेंटेशन को साझा करने के लिए एक मूल्यवान उपकरण हो सकता है, जबकि यह सुनिश्चित करता है कि महत्वपूर्ण संदर्भ और टिप्पणियाँ बरकरार रहें। Aspose.Slides for .NET इस कार्य के लिए एक शक्तिशाली समाधान प्रदान करता है।
 
 ## 2. अपना वातावरण स्थापित करना
 
@@ -79,13 +81,13 @@ auxPresentation.Save(outPath + "PDFnotes_out.pdf", SaveFormat.Pdf, pdfOptions);
 
 ## 8. निष्कर्ष
 
-बधाई हो! आपने सभी महत्वपूर्ण नोट्स को सुरक्षित रखते हुए अपनी PowerPoint स्लाइड्स को PDF फ़ॉर्मेट में सफलतापूर्वक परिवर्तित कर लिया है। Aspose.Slides for .NET इस प्रक्रिया को सरल और कुशल बनाता है।
+बधाई हो! आपने सभी महत्वपूर्ण नोट्स को सुरक्षित रखते हुए अपनी PowerPoint स्लाइड्स को सफलतापूर्वक PDF प्रारूप में परिवर्तित कर लिया है। Aspose.Slides for .NET इस प्रक्रिया को सरल और कुशल बनाता है।
 
 ## 9. अक्सर पूछे जाने वाले प्रश्न
 
 ### प्रश्न 1: क्या मैं पीडीएफ में नोट्स के लेआउट को अनुकूलित कर सकता हूं?
 
- हां, आप नोट्स के लेआउट को अनुकूलित कर सकते हैं`INotesCommentsLayoutingOptions` पीडीएफ विकल्पों में.
+हां, आप नोट्स के लेआउट को अनुकूलित कर सकते हैं `INotesCommentsLayoutingOptions` पीडीएफ विकल्पों में.
 
 ### प्रश्न 2: क्या Aspose.Slides for .NET PDF के अलावा अन्य आउटपुट प्रारूपों का समर्थन करता है?
 
@@ -93,20 +95,22 @@ auxPresentation.Save(outPath + "PDFnotes_out.pdf", SaveFormat.Pdf, pdfOptions);
 
 ### प्रश्न 3: क्या .NET के लिए Aspose.Slides का कोई परीक्षण संस्करण उपलब्ध है?
 
- हां, आप .NET के लिए Aspose.Slides का निःशुल्क परीक्षण प्राप्त कर सकते हैं[https://releases.aspose.com/](https://releases.aspose.com/).
+हां, आप .NET के लिए Aspose.Slides का निःशुल्क परीक्षण प्राप्त कर सकते हैं [https://releases.aspose.com/](https://releases.aspose.com/).
 
 ### प्रश्न 4: मुझे .NET के लिए Aspose.Slides का समर्थन कहां मिल सकता है?
 
- आप समर्थन और सामुदायिक चर्चाएं यहां पा सकते हैं[https://forum.aspose.com/](https://forum.aspose.com/).
+आप समर्थन और सामुदायिक चर्चाएं यहां पा सकते हैं [https://forum.aspose.com/](https://forum.aspose.com/).
 
 ### प्रश्न 5: क्या मैं Aspose.Slides for .NET के लिए अस्थायी लाइसेंस खरीद सकता हूँ?
 
- हां, आप यहां से अस्थायी लाइसेंस खरीद सकते हैं[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
+हां, आप यहां से अस्थायी लाइसेंस खरीद सकते हैं [https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
 
 निष्कर्ष में, Aspose.Slides for .NET का उपयोग करके, आप आसानी से PowerPoint स्लाइड्स को नोट्स के साथ PDF प्रारूप में परिवर्तित कर सकते हैं। यह उन पेशेवरों के लिए एक मूल्यवान उपकरण है जिन्हें सहकर्मियों और ग्राहकों के साथ प्रस्तुतियाँ साझा करने की आवश्यकता होती है, जबकि यह सुनिश्चित करना होता है कि महत्वपूर्ण संदर्भ खो न जाए।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

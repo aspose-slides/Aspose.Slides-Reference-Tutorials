@@ -1,14 +1,16 @@
 ---
-title: जावा का उपयोग करके PowerPoint में टेक्स्ट बदलें
-linktitle: जावा का उपयोग करके PowerPoint में टेक्स्ट बदलें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में टेक्स्ट को बदलने का तरीका जानें। अपनी प्रस्तुति अपडेट को स्वचालित करने के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 13
-url: /hi/java/java-powerpoint-font-management-text-replacement/replace-text-powerpoint-java/
+"description": "Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में टेक्स्ट को बदलने का तरीका जानें। अपनी प्रस्तुति अपडेट को स्वचालित करने के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "जावा का उपयोग करके PowerPoint में टेक्स्ट बदलें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा का उपयोग करके PowerPoint में टेक्स्ट बदलें"
+"url": "/hi/java/java-powerpoint-font-management-text-replacement/replace-text-powerpoint-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा का उपयोग करके PowerPoint में टेक्स्ट बदलें
@@ -17,8 +19,8 @@ url: /hi/java/java-powerpoint-font-management-text-replacement/replace-text-powe
 क्या आपको कभी PowerPoint प्रेजेंटेशन में प्रोग्रामेटिक रूप से टेक्स्ट अपडेट करने की ज़रूरत पड़ी है? हो सकता है कि आपके पास सैकड़ों स्लाइड हों, और मैन्युअल अपडेट बहुत समय लेने वाले हों। Aspose.Slides for Java दर्ज करें, एक मज़बूत API जो PowerPoint फ़ाइलों को प्रबंधित और हेरफेर करना आसान बनाता है। इस ट्यूटोरियल में, हम आपको Aspose.Slides for Java का उपयोग करके PowerPoint प्रेजेंटेशन में टेक्स्ट बदलने के बारे में बताएँगे। इस गाइड के अंत तक, आप अपनी स्लाइड में टेक्स्ट अपडेट को स्वचालित करने में माहिर हो जाएँगे, जिससे आपका समय और मेहनत बचेगी।
 ## आवश्यक शर्तें
 कोड में आगे बढ़ने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
-- जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपके मशीन पर JDK इंस्टॉल है। यदि नहीं, तो इसे यहाँ से डाउनलोड करें।[ओरेकल वेबसाइट](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
--  Aspose.Slides for Java: लाइब्रेरी को यहाँ से डाउनलोड करें[Aspose.Slides for Java डाउनलोड पृष्ठ](https://releases.aspose.com/slides/java/).
+- जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपके मशीन पर JDK इंस्टॉल है। यदि नहीं, तो इसे यहाँ से डाउनलोड करें। [ओरेकल वेबसाइट](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+- Aspose.Slides for Java: लाइब्रेरी को यहाँ से डाउनलोड करें [Aspose.Slides for Java डाउनलोड पृष्ठ](https://releases.aspose.com/slides/java/).
 - एकीकृत विकास वातावरण (IDE): अपनी पसंद का कोई भी Java IDE इस्तेमाल करें। IntelliJ IDEA या Eclipse अच्छे विकल्प हैं।
 ## पैकेज आयात करें
 सबसे पहले, आपको Aspose.Slides से आवश्यक पैकेज आयात करने होंगे। इससे आपको PowerPoint फ़ाइलों में हेरफेर करने के लिए आवश्यक क्लास और विधियों तक पहुँचने की अनुमति मिलेगी।
@@ -41,7 +43,7 @@ String dataDir = "Your Document Directory";
 // PPTX का प्रतिनिधित्व करने वाले प्रेजेंटेशन क्लास को इंस्टेंटिएट करें
 Presentation pres = new Presentation(dataDir + "ReplacingText.pptx");
 ```
- उपरोक्त कोड में, प्रतिस्थापित करें`"Your Document Directory"` अपनी प्रस्तुति फ़ाइल के पथ के साथ.
+उपरोक्त कोड में, प्रतिस्थापित करें `"Your Document Directory"` अपनी प्रस्तुति फ़ाइल के पथ के साथ.
 ## चरण 3: स्लाइड और आकृतियों तक पहुँचें
 प्रस्तुति लोड होने के बाद, आपको पाठ ढूंढने और बदलने के लिए विशिष्ट स्लाइड और उसके आकार तक पहुंचने की आवश्यकता होती है।
 
@@ -72,23 +74,25 @@ try {
     if (pres != null) pres.dispose();
 }
 ```
- यह कोड संशोधित प्रस्तुति को एक नई फ़ाइल में सहेजता है जिसे कहा जाता है`output_out.pptx`.
+यह कोड संशोधित प्रस्तुति को एक नई फ़ाइल में सहेजता है जिसे कहा जाता है `output_out.pptx`.
 ## निष्कर्ष
-बस हो गया! Aspose.Slides for Java के साथ, PowerPoint प्रेजेंटेशन में टेक्स्ट को बदलना सीधा और कुशल है। इन चरणों का पालन करके, आप अपनी स्लाइड्स में अपडेट को स्वचालित कर सकते हैं, समय की बचत कर सकते हैं और अपनी प्रेजेंटेशन में एकरूपता सुनिश्चित कर सकते हैं।
+बस इतना ही! Aspose.Slides for Java के साथ, PowerPoint प्रेजेंटेशन में टेक्स्ट को बदलना सरल और कुशल है। इन चरणों का पालन करके, आप अपनी स्लाइड्स में अपडेट को स्वचालित कर सकते हैं, समय की बचत कर सकते हैं और अपनी प्रस्तुतियों में एकरूपता सुनिश्चित कर सकते हैं।
 ## अक्सर पूछे जाने वाले प्रश्न
 ### Java के लिए Aspose.Slides क्या है?
 Aspose.Slides for Java जावा में पावरपॉइंट प्रस्तुतियों को बनाने, संशोधित करने और परिवर्तित करने के लिए एक शक्तिशाली API है।
 ### क्या मैं Java के लिए Aspose.Slides का निःशुल्क उपयोग कर सकता हूँ?
- Aspose एक निःशुल्क परीक्षण संस्करण प्रदान करता है, जिसे आप डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/)पूर्ण कार्यक्षमता के लिए, आपको लाइसेंस खरीदना होगा।
+Aspose एक निःशुल्क परीक्षण संस्करण प्रदान करता है, जिसे आप डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/)पूर्ण कार्यक्षमता के लिए, आपको लाइसेंस खरीदना होगा।
 ### मैं अपने प्रोजेक्ट में Aspose.Slides कैसे जोड़ूं?
- JAR फ़ाइल को यहाँ से डाउनलोड करें[डाउनलोड पृष्ठ](https://releases.aspose.com/slides/java/) और इसे अपने प्रोजेक्ट के निर्माण पथ में जोड़ें.
+JAR फ़ाइल को यहाँ से डाउनलोड करें [डाउनलोड पृष्ठ](https://releases.aspose.com/slides/java/) और इसे अपने प्रोजेक्ट के निर्माण पथ में जोड़ें.
 ### क्या Aspose.Slides for Java बड़ी प्रस्तुतियों को संभाल सकता है?
 हां, Aspose.Slides for Java को बड़ी और जटिल प्रस्तुतियों को कुशलतापूर्वक संभालने के लिए डिज़ाइन किया गया है।
 ### मैं और अधिक उदाहरण और दस्तावेज कहां पा सकता हूं?
- आप विस्तृत दस्तावेज और उदाहरण यहां पा सकते हैं[Aspose.Slides for Java दस्तावेज़न पृष्ठ](https://reference.aspose.com/slides/java/).
+आप विस्तृत दस्तावेज और उदाहरण यहां पा सकते हैं [Aspose.Slides for Java दस्तावेज़न पृष्ठ](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

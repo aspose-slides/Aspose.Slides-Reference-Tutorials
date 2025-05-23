@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में स्वचालित चार्ट श्रृंखला रंग
-linktitle: जावा स्लाइड्स में स्वचालित चार्ट श्रृंखला रंग
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में स्वचालित श्रृंखला रंग के साथ गतिशील चार्ट बनाना सीखें। अपने डेटा विज़ुअलाइज़ेशन को सहजता से बढ़ाएँ।
-weight: 14
-url: /hi/java/chart-data-manipulation/automatic-chart-series-color-java-slides/
+"description": "Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में स्वचालित श्रृंखला रंग के साथ गतिशील चार्ट बनाना सीखें। अपने डेटा विज़ुअलाइज़ेशन को सहजता से बढ़ाएँ।"
+"linktitle": "जावा स्लाइड्स में स्वचालित चार्ट श्रृंखला रंग"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में स्वचालित चार्ट श्रृंखला रंग"
+"url": "/hi/java/chart-data-manipulation/automatic-chart-series-color-java-slides/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में स्वचालित चार्ट श्रृंखला रंग
@@ -20,7 +22,7 @@ url: /hi/java/chart-data-manipulation/automatic-chart-series-color-java-slides/
 
 ## आवश्यक शर्तें
 
- शुरू करने से पहले, सुनिश्चित करें कि आपके प्रोजेक्ट में Aspose.Slides for Java लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+शुरू करने से पहले, सुनिश्चित करें कि आपके प्रोजेक्ट में Aspose.Slides for Java लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 
 ## चरण 1: एक नई प्रस्तुति बनाएँ
 
@@ -98,7 +100,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getFormat().getFill().setFillType(FillType.NotDefined);
 ```
 
-## चरण 6: प्रेजेंटेशन सहेजें
+## चरण 6: प्रस्तुति सहेजें
 
 अंत में, हम चार्ट के साथ प्रस्तुति को पावरपॉइंट फ़ाइल में सहेज लेंगे।
 
@@ -183,11 +185,11 @@ series.getFormat().getFill().setFillType(FillType.NotDefined);
 
 ### यदि आवश्यक हो तो क्या मैं चार्ट के रंगों को अनुकूलित कर सकता हूँ?
 
- हां, आप चार्ट के रंगों को आवश्यकतानुसार कस्टमाइज़ कर सकते हैं। दिए गए उदाहरण में, हमने स्वचालित भरण रंगों का उपयोग किया है, लेकिन आप चार्ट के रंग को संशोधित करके विशिष्ट रंग सेट कर सकते हैं।`FillType` और`SolidFillColor` श्रृंखला के प्रारूप के गुण.
+हां, आप चार्ट के रंगों को आवश्यकतानुसार कस्टमाइज़ कर सकते हैं। दिए गए उदाहरण में, हमने स्वचालित भरण रंगों का उपयोग किया है, लेकिन आप चार्ट के रंग को संशोधित करके विशिष्ट रंग सेट कर सकते हैं। `FillType` और `SolidFillColor` श्रृंखला के प्रारूप के गुण.
 
 ### मैं चार्ट में अतिरिक्त श्रृंखला या श्रेणियां कैसे जोड़ सकता हूं?
 
- चार्ट में अतिरिक्त श्रृंखला या श्रेणियाँ जोड़ने के लिए, का उपयोग करें`getSeries()` और`getCategories()` चार्ट के तरीके`ChartData` आप उनके डेटा और लेबल निर्दिष्ट करके नई श्रृंखला और श्रेणियां जोड़ सकते हैं।
+चार्ट में अतिरिक्त श्रृंखला या श्रेणियाँ जोड़ने के लिए, का उपयोग करें `getSeries()` और `getCategories()` चार्ट के तरीके `ChartData` आप उनके डेटा और लेबल निर्दिष्ट करके नई श्रृंखला और श्रेणियां जोड़ सकते हैं।
 
 ### क्या चार्ट और लेबल को और अधिक प्रारूपित करना संभव है?
 
@@ -195,10 +197,12 @@ series.getFormat().getFill().setFillType(FillType.NotDefined);
 
 ### मैं Java के लिए Aspose.Slides के साथ काम करने के बारे में अधिक जानकारी कहां पा सकता हूं?
 
- Aspose.Slides for Java पर अधिक जानकारी और विस्तृत दस्तावेज़ीकरण के लिए, आप संदर्भ दस्तावेज़ देख सकते हैं[यहाँ](https://reference.aspose.com/slides/java/).
+Aspose.Slides for Java पर अधिक जानकारी और विस्तृत दस्तावेज़ीकरण के लिए, आप संदर्भ दस्तावेज़ देख सकते हैं [यहाँ](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

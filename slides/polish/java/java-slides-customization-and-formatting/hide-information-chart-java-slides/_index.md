@@ -1,26 +1,28 @@
 ---
-title: Ukryj informacje z wykresu w slajdach Java
-linktitle: Ukryj informacje z wykresu w slajdach Java
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Dowiedz się, jak ukryć elementy wykresu w Java Slides za pomocą Aspose.Slides for Java. Dostosuj prezentacje pod kątem przejrzystości i estetyki, korzystając ze wskazówek krok po kroku i kodu źródłowego.
-weight: 13
-url: /pl/java/customization-and-formatting/hide-information-chart-java-slides/
+"description": "Dowiedz się, jak ukryć elementy wykresu w Java Slides za pomocą Aspose.Slides for Java. Dostosuj prezentacje pod kątem przejrzystości i estetyki dzięki wskazówkom krok po kroku i kodowi źródłowemu."
+"linktitle": "Ukryj informacje z wykresu w slajdach Java"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Ukryj informacje z wykresu w slajdach Java"
+"url": "/pl/java/customization-and-formatting/hide-information-chart-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ukryj informacje z wykresu w slajdach Java
 
 
-## Wprowadzenie do ukrywania informacji na wykresie w slajdach Java
+## Wprowadzenie do ukrywania informacji z wykresu w slajdach Java
 
-W tym samouczku pokażemy, jak ukryć różne elementy wykresu w aplikacji Java Slides za pomocą interfejsu API Aspose.Slides for Java. Możesz użyć tego kodu, aby dostosować wykresy do potrzeb prezentacji.
+tym samouczku pokażemy, jak ukryć różne elementy na wykresie w Java Slides, używając Aspose.Slides for Java API. Możesz użyć tego kodu, aby dostosować wykresy do swoich prezentacji.
 
 ## Krok 1: Konfigurowanie środowiska
 
- Zanim zaczniemy, upewnij się, że masz dodaną bibliotekę Aspose.Slides for Java do swojego projektu. Można go pobrać z[Tutaj](https://releases.aspose.com/slides/java/).
+Zanim zaczniemy, upewnij się, że biblioteka Aspose.Slides for Java została dodana do Twojego projektu. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/slides/java/).
 
 ## Krok 2: Utwórz nową prezentację
 
@@ -31,7 +33,7 @@ Presentation pres = new Presentation();
 
 ## Krok 3: Dodawanie wykresu do slajdu
 
-Do slajdu dodamy wykres liniowy ze znacznikami, a następnie przystąpimy do ukrywania poszczególnych elementów wykresu.
+Dodamy do slajdu wykres liniowy ze znacznikami, a następnie ukryjemy różne elementy wykresu.
 
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
@@ -40,7 +42,7 @@ IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 140, 118, 3
 
 ## Krok 4: Ukryj tytuł wykresu
 
-Tytuł wykresu możesz ukryć w następujący sposób:
+Możesz ukryć tytuł wykresu w następujący sposób:
 
 ```java
 chart.setTitle(false);
@@ -90,7 +92,7 @@ for (int i = 0; i < chart.getChartData().getSeries().size(); i++) {
 
 ## Krok 10: Dostosuj serię wykresów
 
-W razie potrzeby możesz dostosować serię wykresów. W tym przykładzie zmieniamy styl znacznika, położenie etykiety danych, rozmiar znacznika, kolor linii i styl kreski:
+Możesz dostosować serię wykresu według potrzeb. W tym przykładzie zmieniamy styl znacznika, pozycję etykiety danych, rozmiar znacznika, kolor linii i styl kreski:
 
 ```java
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
@@ -111,7 +113,7 @@ Na koniec zapisz prezentację do pliku:
 pres.save(dataDir + "HideInformationFromChart.pptx", SaveFormat.Pptx);
 ```
 
-Otóż to! Pomyślnie ukryłeś różne elementy wykresu w Java Slides przy użyciu Aspose.Slides for Java. Możesz dodatkowo dostosować wykresy i prezentacje do swoich konkretnych wymagań.
+To wszystko! Udało Ci się ukryć różne elementy z wykresu w Java Slides przy użyciu Aspose.Slides dla Java. Możesz dalej dostosowywać wykresy i prezentacje według potrzeb do swoich konkretnych wymagań.
 
 ## Kompletny kod źródłowy do ukrywania informacji z wykresu w slajdach Java
 
@@ -131,7 +133,7 @@ try
 	chart.getAxes().getHorizontalAxis().setVisible(false);
 	//Ukrywanie legendy
 	chart.setLegend(false);
-	//Ukrywanie MajorGridLines
+	//Ukrywanie głównych linii siatki
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.NoFill);
 	for (int i = 0; i < chart.getChartData().getSeries().size(); i++)
 	{
@@ -155,32 +157,34 @@ finally
 ```
 ## Wniosek
 
-W tym przewodniku krok po kroku omówiliśmy, jak ukryć różne elementy wykresu w aplikacji Java Slides za pomocą interfejsu API Aspose.Slides for Java. Może to być niezwykle przydatne, gdy chcesz dostosować wykresy do prezentacji i uczynić je bardziej atrakcyjnymi wizualnie lub dostosowanymi do Twoich konkretnych potrzeb.
+tym przewodniku krok po kroku sprawdziliśmy, jak ukryć różne elementy wykresu w Java Slides, korzystając z Aspose.Slides for Java API. Może to być niezwykle przydatne, gdy trzeba dostosować wykresy do prezentacji i uczynić je bardziej atrakcyjnymi wizualnie lub dostosowanymi do konkretnych potrzeb.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### Jak jeszcze bardziej dostosować wygląd elementów wykresu?
+### W jaki sposób mogę dodatkowo dostosować wygląd elementów wykresu?
 
-Możesz dostosować różne właściwości elementów wykresu, takie jak kolor linii, kolor wypełnienia, styl znacznika i inne, uzyskując dostęp do odpowiednich właściwości serii wykresu, znaczników, etykiet i formatu.
+Można dostosować różne właściwości elementów wykresu, takie jak kolor linii, kolor wypełnienia, styl znacznika i inne, uzyskując dostęp do odpowiednich właściwości serii wykresu, znaczników, etykiet i formatu.
 
-### Czy mogę ukryć określone punkty danych na wykresie?
+### Czy mogę ukryć konkretne punkty danych na wykresie?
 
-Tak, możesz ukryć określone punkty danych, manipulując danymi w serii wykresów. Możesz usunąć punkty danych lub ustawić ich wartości na null, aby je ukryć.
+Tak, możesz ukryć określone punkty danych, manipulując danymi w serii wykresu. Możesz usunąć punkty danych lub ustawić ich wartości na null, aby je ukryć.
 
-### Jak dodać kolejne serie do wykresu?
+### Jak mogę dodać dodatkowe serie do wykresu?
 
- Możesz dodać więcej serii do wykresu, korzystając z opcji`IChartData.getSeries().add` metody i określenie punktów danych dla nowej serii.
+Możesz dodać więcej serii do wykresu, używając `IChartData.getSeries().add` metodę i określenie punktów danych dla nowej serii.
 
 ### Czy można dynamicznie zmieniać typ wykresu?
 
-Tak, możesz dynamicznie zmieniać typ wykresu, tworząc nowy wykres żądanego typu i kopiując dane ze starego wykresu do nowego.
+Tak, możesz dynamicznie zmienić typ wykresu, tworząc nowy wykres o żądanym typie i kopiując dane ze starego wykresu do nowego.
 
-### Jak mogę programowo zmienić tytuł i etykiety osi wykresu?
+### Jak mogę programowo zmienić tytuł wykresu i etykiety osi?
 
-Możesz ustawić tytuł i etykiety wykresu i osi, uzyskując dostęp do ich odpowiednich właściwości i ustawiając żądany tekst i formatowanie.
+Tytuł i etykiety wykresu oraz osi można ustawić, uzyskując dostęp do ich odpowiednich właściwości i ustawiając żądany tekst oraz formatowanie.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

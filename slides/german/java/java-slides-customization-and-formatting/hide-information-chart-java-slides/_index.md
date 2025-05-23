@@ -1,14 +1,16 @@
 ---
-title: Informationen aus Diagrammen in Java-Folien ausblenden
-linktitle: Informationen aus Diagrammen in Java-Folien ausblenden
-second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie mit Aspose.Slides für Java Diagrammelemente in Java-Folien ausblenden. Passen Sie Präsentationen mit Schritt-für-Schritt-Anleitung und Quellcode für mehr Übersichtlichkeit und Ästhetik an.
-weight: 13
-url: /de/java/customization-and-formatting/hide-information-chart-java-slides/
+"description": "Erfahren Sie, wie Sie Diagrammelemente in Java Slides mit Aspose.Slides für Java ausblenden. Passen Sie Präsentationen mit Schritt-für-Schritt-Anleitung und Quellcode für mehr Übersichtlichkeit und Ästhetik an."
+"linktitle": "Informationen aus Diagrammen in Java-Folien ausblenden"
+"second_title": "Aspose.Slides Java PowerPoint-Verarbeitungs-API"
+"title": "Informationen aus Diagrammen in Java-Folien ausblenden"
+"url": "/de/java/customization-and-formatting/hide-information-chart-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Informationen aus Diagrammen in Java-Folien ausblenden
@@ -16,11 +18,11 @@ url: /de/java/customization-and-formatting/hide-information-chart-java-slides/
 
 ## Einführung zum Ausblenden von Informationen aus Diagrammen in Java-Folien
 
-In diesem Tutorial erfahren Sie, wie Sie mithilfe der Aspose.Slides für Java-API verschiedene Elemente aus einem Diagramm in Java Slides ausblenden. Mit diesem Code können Sie Ihre Diagramme nach Bedarf für Ihre Präsentationen anpassen.
+In diesem Tutorial erfahren Sie, wie Sie mithilfe der Aspose.Slides für Java-API verschiedene Elemente eines Diagramms in Java Slides ausblenden. Mit diesem Code können Sie Ihre Diagramme nach Bedarf für Ihre Präsentationen anpassen.
 
 ## Schritt 1: Einrichten der Umgebung
 
- Bevor wir beginnen, stellen Sie sicher, dass Sie die Aspose.Slides für Java-Bibliothek zu Ihrem Projekt hinzugefügt haben. Sie können sie hier herunterladen:[Hier](https://releases.aspose.com/slides/java/).
+Bevor wir beginnen, stellen Sie sicher, dass Sie die Aspose.Slides für Java-Bibliothek zu Ihrem Projekt hinzugefügt haben. Sie können sie hier herunterladen: [Hier](https://releases.aspose.com/slides/java/).
 
 ## Schritt 2: Erstellen Sie eine neue Präsentation
 
@@ -88,7 +90,7 @@ for (int i = 0; i < chart.getChartData().getSeries().size(); i++) {
 }
 ```
 
-## Schritt 10: Diagrammserien anpassen
+## Schritt 10: Diagrammreihen anpassen
 
 Sie können die Diagrammreihe nach Bedarf anpassen. In diesem Beispiel ändern wir den Markierungsstil, die Position der Datenbeschriftung, die Markierungsgröße, die Linienfarbe und den Strichstil:
 
@@ -111,12 +113,12 @@ Speichern Sie die Präsentation abschließend in einer Datei:
 pres.save(dataDir + "HideInformationFromChart.pptx", SaveFormat.Pptx);
 ```
 
-Das ist es! Sie haben erfolgreich verschiedene Elemente aus einem Diagramm in Java Slides mithilfe von Aspose.Slides für Java ausgeblendet. Sie können Ihre Diagramme und Präsentationen nach Bedarf weiter an Ihre spezifischen Anforderungen anpassen.
+Fertig! Sie haben mit Aspose.Slides für Java erfolgreich verschiedene Elemente aus einem Diagramm in Java Slides ausgeblendet. Sie können Ihre Diagramme und Präsentationen nach Bedarf weiter an Ihre spezifischen Anforderungen anpassen.
 
 ## Vollständiger Quellcode zum Ausblenden von Informationen aus Diagrammen in Java-Folien
 
 ```java
-// Der Pfad zum Dokumentverzeichnis.
+// Der Pfad zum Dokumentenverzeichnis.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 try
@@ -155,7 +157,7 @@ finally
 ```
 ## Abschluss
 
-In dieser Schritt-für-Schritt-Anleitung haben wir untersucht, wie Sie mithilfe der Aspose.Slides für Java-API verschiedene Elemente aus einem Diagramm in Java Slides ausblenden können. Dies kann unglaublich nützlich sein, wenn Sie Ihre Diagramme für Präsentationen anpassen und sie optisch ansprechender gestalten oder an Ihre spezifischen Anforderungen anpassen müssen.
+In dieser Schritt-für-Schritt-Anleitung haben wir gezeigt, wie Sie mithilfe der Aspose.Slides für Java-API verschiedene Elemente aus einem Diagramm in Java Slides ausblenden können. Dies ist äußerst nützlich, wenn Sie Ihre Diagramme für Präsentationen anpassen und optisch ansprechender gestalten oder auf Ihre spezifischen Bedürfnisse zuschneiden möchten.
 
 ## Häufig gestellte Fragen
 
@@ -167,9 +169,9 @@ Sie können verschiedene Eigenschaften von Diagrammelementen wie Linienfarbe, F�
 
 Ja, Sie können bestimmte Datenpunkte ausblenden, indem Sie die Daten in der Diagrammreihe bearbeiten. Sie können Datenpunkte entfernen oder ihre Werte auf Null setzen, um sie auszublenden.
 
-### Wie kann ich dem Diagramm weitere Reihen hinzufügen?
+### Wie kann ich dem Diagramm zusätzliche Reihen hinzufügen?
 
- Sie können dem Diagramm weitere Reihen hinzufügen, indem Sie das`IChartData.getSeries().add` Methode und Angabe der Datenpunkte für die neue Reihe.
+Sie können dem Diagramm weitere Reihen hinzufügen, indem Sie die `IChartData.getSeries().add` Methode und Angabe der Datenpunkte für die neue Reihe.
 
 ### Ist es möglich, den Diagrammtyp dynamisch zu ändern?
 
@@ -178,9 +180,11 @@ Ja, Sie können den Diagrammtyp dynamisch ändern, indem Sie ein neues Diagramm 
 ### Wie kann ich den Titel und die Achsenbeschriftungen des Diagramms programmgesteuert ändern?
 
 Sie können den Titel und die Beschriftungen des Diagramms und der Achsen festlegen, indem Sie auf die jeweiligen Eigenschaften zugreifen und den gewünschten Text und die gewünschte Formatierung festlegen.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

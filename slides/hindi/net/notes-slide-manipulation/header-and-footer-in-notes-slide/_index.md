@@ -1,14 +1,16 @@
 ---
-title: Aspose.Slides .NET के साथ नोट्स में हेडर और फ़ुटर का प्रबंधन करना
-linktitle: नोट्स स्लाइड में हेडर और फ़ुटर प्रबंधित करें
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: Aspose.Slides for .NET का उपयोग करके PowerPoint नोट्स स्लाइड में हेडर और फ़ुटर को प्रबंधित करना सीखें। अपनी प्रस्तुतियों को सहजता से बेहतर बनाएँ।
-weight: 11
-url: /hi/net/notes-slide-manipulation/header-and-footer-in-notes-slide/
+"description": "Aspose.Slides for .NET का उपयोग करके PowerPoint नोट्स स्लाइड में हेडर और फ़ुटर को प्रबंधित करना सीखें। अपनी प्रस्तुतियों को सहजता से बेहतर बनाएँ।"
+"linktitle": "नोट्स स्लाइड में हेडर और फ़ुटर प्रबंधित करें"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "Aspose.Slides .NET के साथ नोट्स में हेडर और फ़ुटर का प्रबंधन करना"
+"url": "/hi/net/notes-slide-manipulation/header-and-footer-in-notes-slide/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Slides .NET के साथ नोट्स में हेडर और फ़ुटर का प्रबंधन करना
@@ -20,7 +22,7 @@ url: /hi/net/notes-slide-manipulation/header-and-footer-in-notes-slide/
 
 इससे पहले कि हम ट्यूटोरियल में आगे बढ़ें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
-1.  Aspose.Slides for .NET: सुनिश्चित करें कि आपके पास Aspose.Slides for .NET इंस्टॉल और कॉन्फ़िगर है। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides for .NET: सुनिश्चित करें कि आपके पास Aspose.Slides for .NET इंस्टॉल और कॉन्फ़िगर है। आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/net/).
 
 2. पावरपॉइंट प्रेजेंटेशन: आपको एक पावरपॉइंट प्रेजेंटेशन (PPTX फ़ाइल) की आवश्यकता होगी, जिस पर आप काम करना चाहते हैं।
 
@@ -108,12 +110,12 @@ using (Presentation presentation = new Presentation("presentation.pptx"))
 
 नोट्स स्लाइड में हेडर और फ़ुटर को प्रभावी ढंग से प्रबंधित करना आपकी प्रस्तुतियों की समग्र गुणवत्ता और स्पष्टता को बढ़ाने के लिए महत्वपूर्ण है। .NET के लिए Aspose.Slides के साथ, यह प्रक्रिया सरल और कुशल हो जाती है। इस ट्यूटोरियल ने आपको इसे प्राप्त करने के तरीके पर एक व्यापक गाइड प्रदान की है, जिसमें नेमस्पेस को आयात करने से लेकर मास्टर नोट्स स्लाइड और व्यक्तिगत नोट्स स्लाइड दोनों के लिए सेटिंग्स बदलने तक शामिल है।
 
- यदि आपने अभी तक ऐसा नहीं किया है, तो अवश्य देखें[.NET दस्तावेज़ीकरण के लिए Aspose.Slides](https://reference.aspose.com/slides/net/) अधिक गहन जानकारी और उदाहरण के लिए.
+यदि आपने अभी तक ऐसा नहीं किया है, तो अवश्य देखें [.NET दस्तावेज़ीकरण के लिए Aspose.Slides](https://reference.aspose.com/slides/net/) अधिक गहन जानकारी और उदाहरण के लिए.
 
 ## अक्सर पूछे जाने वाले प्रश्नों
 
 ### क्या .NET के लिए Aspose.Slides का उपयोग निःशुल्क है?
- नहीं, Aspose.Slides for .NET एक व्यावसायिक उत्पाद है, और आपको इसे अपनी परियोजनाओं में उपयोग करने के लिए लाइसेंस खरीदना होगा। आप एक अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/) परीक्षण के लिए।
+नहीं, Aspose.Slides for .NET एक व्यावसायिक उत्पाद है, और आपको इसे अपनी परियोजनाओं में उपयोग करने के लिए लाइसेंस खरीदना होगा। आप एक अस्थायी लाइसेंस प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/) परीक्षण के लिए.
 
 ### क्या मैं हेडर और फ़ुटर के स्वरूप को और अधिक अनुकूलित कर सकता हूँ?
 हां, Aspose.Slides for .NET हेडर और फुटर के स्वरूप को अनुकूलित करने के लिए व्यापक विकल्प प्रदान करता है, जिससे आप उन्हें अपनी विशिष्ट आवश्यकताओं के अनुरूप बना सकते हैं।
@@ -125,10 +127,12 @@ using (Presentation presentation = new Presentation("presentation.pptx"))
 बिल्कुल, .NET के लिए Aspose.Slides आपको पावरपॉइंट प्रस्तुतियों को स्वचालित करने की अनुमति देता है, जिससे यह गतिशील और डेटा-संचालित स्लाइडशो बनाने के लिए एक मूल्यवान उपकरण बन जाता है।
 
 ### क्या .NET उपयोगकर्ताओं के लिए Aspose.Slides हेतु तकनीकी सहायता उपलब्ध है?
- हां, आप Aspose समुदाय और विशेषज्ञों से समर्थन और सहायता पा सकते हैं[Aspose समर्थन मंच](https://forum.aspose.com/).
+हां, आप Aspose समुदाय और विशेषज्ञों से समर्थन और सहायता पा सकते हैं [Aspose समर्थन मंच](https://forum.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,42 +1,44 @@
 ---
-title: Υπάρχον γράφημα σε διαφάνειες Java
-linktitle: Υπάρχον γράφημα σε διαφάνειες Java
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Βελτιώστε τις παρουσιάσεις σας στο PowerPoint με το Aspose.Slides για Java. Μάθετε να τροποποιείτε τα υπάρχοντα γραφήματα μέσω προγραμματισμού. Οδηγός βήμα προς βήμα με πηγαίο κώδικα για προσαρμογή γραφήματος.
-weight: 12
-url: /el/java/chart-elements/existing-chart-java-slides/
+"description": "Βελτιώστε τις παρουσιάσεις PowerPoint σας με το Aspose.Slides για Java. Μάθετε να τροποποιείτε υπάρχοντα γραφήματα μέσω προγραμματισμού. Οδηγός βήμα προς βήμα με πηγαίο κώδικα για την προσαρμογή γραφημάτων."
+"linktitle": "Υπάρχον γράφημα σε διαφάνειες Java"
+"second_title": "Aspose.Slides API επεξεργασίας Java PowerPoint"
+"title": "Υπάρχον γράφημα σε διαφάνειες Java"
+"url": "/el/java/chart-elements/existing-chart-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Υπάρχον γράφημα σε διαφάνειες Java
 
 
-## Εισαγωγή στο υπάρχον γράφημα σε διαφάνειες Java χρησιμοποιώντας το Aspose.Slides για Java
+## Εισαγωγή σε υπάρχοντα γραφήματα σε διαφάνειες Java χρησιμοποιώντας το Aspose.Slides για Java
 
-Σε αυτό το σεμινάριο, θα δείξουμε πώς να τροποποιήσετε ένα υπάρχον γράφημα σε μια παρουσίαση του PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Θα ακολουθήσουμε τα βήματα για να αλλάξουμε δεδομένα γραφήματος, ονόματα κατηγοριών, ονόματα σειρών και να προσθέσουμε μια νέα σειρά στο γράφημα. Βεβαιωθείτε ότι έχετε ρυθμίσει το Aspose.Slides για Java στο έργο σας.
+Σε αυτό το σεμινάριο, θα δείξουμε πώς να τροποποιήσετε ένα υπάρχον γράφημα σε μια παρουσίαση PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Θα δούμε τα βήματα για να αλλάξετε δεδομένα γραφήματος, ονόματα κατηγοριών, ονόματα σειρών και να προσθέσετε μια νέα σειρά στο γράφημα. Βεβαιωθείτε ότι έχετε ρυθμίσει το Aspose.Slides για Java στο έργο σας.
 
 ## Προαπαιτούμενα
 
 Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
 
-1. Η βιβλιοθήκη Aspose.Slides for Java περιλαμβάνονται στο έργο σας.
+1. Aspose.Slides για τη βιβλιοθήκη Java που περιλαμβάνεται στο έργο σας.
 2. Μια υπάρχουσα παρουσίαση PowerPoint με ένα γράφημα που θέλετε να τροποποιήσετε.
 3. Ρύθμιση περιβάλλοντος ανάπτυξης Java.
 
-## Βήμα 1: Φορτώστε την παρουσίαση
+## Βήμα 1: Φόρτωση της παρουσίασης
 
 ```java
 // Η διαδρομή προς τον κατάλογο εγγράφων.
 String dataDir = "Your Document Directory";
 
-// Κλάση Instantiation Presentation που αντιπροσωπεύει το αρχείο PPTX
+// Δημιουργία κλάσης παρουσίασης που αντιπροσωπεύει αρχείο PPTX
 Presentation pres = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
-## Βήμα 2: Πρόσβαση στη διαφάνεια και στο γράφημα
+## Βήμα 2: Πρόσβαση στη διαφάνεια και το γράφημα
 
 ```java
 // Πρόσβαση στην πρώτη διαφάνεια
@@ -49,7 +51,7 @@ IChart chart = (IChart) sld.getShapes().get_Item(0);
 ## Βήμα 3: Αλλαγή δεδομένων γραφήματος και ονομάτων κατηγοριών
 
 ```java
-// Ρύθμιση του ευρετηρίου του φύλλου δεδομένων γραφήματος
+// Ορισμός του ευρετηρίου του φύλλου δεδομένων γραφήματος
 int defaultWorksheetIndex = 0;
 
 // Λήψη του φύλλου εργασίας δεδομένων γραφήματος
@@ -60,7 +62,7 @@ fact.getCell(defaultWorksheetIndex, 1, 0, "Modified Category 1");
 fact.getCell(defaultWorksheetIndex, 2, 0, "Modified Category 2");
 ```
 
-## Βήμα 4: Ενημερώστε την πρώτη σειρά γραφημάτων
+## Βήμα 4: Ενημέρωση Πρώτης Σειράς Γραφημάτων
 
 ```java
 // Πάρτε την πρώτη σειρά γραφημάτων
@@ -75,7 +77,7 @@ series.getDataPoints().get_Item(1).getValue().setData(123);
 series.getDataPoints().get_Item(2).getValue().setData(44);
 ```
 
-## Βήμα 5: Ενημερώστε τη δεύτερη σειρά γραφημάτων
+## Βήμα 5: Ενημέρωση δεύτερης σειράς γραφημάτων
 
 ```java
 // Πάρτε τη δεύτερη σειρά γραφημάτων
@@ -90,7 +92,7 @@ series.getDataPoints().get_Item(1).getValue().setData(67);
 series.getDataPoints().get_Item(2).getValue().setData(99);
 ```
 
-## Βήμα 6: Προσθέστε μια νέα σειρά στο γράφημα
+## Βήμα 6: Προσθήκη νέας σειράς στο διάγραμμα
 
 ```java
 // Προσθήκη νέας σειράς
@@ -105,30 +107,30 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 30));
 ```
 
-## Βήμα 7: Αλλάξτε τον τύπο γραφήματος
+## Βήμα 7: Αλλαγή τύπου γραφήματος
 
 ```java
-//Αλλάξτε τον τύπο γραφήματος σε Clustered Cylinder
+// Αλλάξτε τον τύπο γραφήματος σε Κύλινδρος σε Ομαδοποιημένο
 chart.setType(ChartType.ClusteredCylinder);
 ```
 
-## Βήμα 8: Αποθηκεύστε την Τροποποιημένη Παρουσίαση
+## Βήμα 8: Αποθήκευση της τροποποιημένης παρουσίασης
 
 ```java
-// Αποθηκεύστε την παρουσίαση με το τροποποιημένο γράφημα
+// Αποθήκευση της παρουσίασης με το τροποποιημένο γράφημα
 pres.save(dataDir + "AsposeChartModified_out.pptx", SaveFormat.Pptx);
 ```
 
-Συγχαρητήρια! Τροποποιήσατε επιτυχώς ένα υπάρχον γράφημα σε μια παρουσίαση PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Τώρα μπορείτε να χρησιμοποιήσετε αυτόν τον κώδικα για να προσαρμόσετε γραφήματα στις παρουσιάσεις σας στο PowerPoint μέσω προγραμματισμού.
+Συγχαρητήρια! Τροποποιήσατε με επιτυχία ένα υπάρχον γράφημα σε μια παρουσίαση PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Μπορείτε πλέον να χρησιμοποιήσετε αυτόν τον κώδικα για να προσαρμόσετε τα γραφήματα στις παρουσιάσεις PowerPoint σας μέσω προγραμματισμού.
 
-## Πλήρης κώδικας πηγής για υπάρχον γράφημα σε διαφάνειες Java
+## Πλήρης πηγαίος κώδικας για υπάρχοντα γραφήματα σε διαφάνειες Java
 
 ```java
 // Η διαδρομή προς τον κατάλογο εγγράφων.
 String dataDir = "Your Document Directory";
-// Κλάση Instantiate Presentation που αντιπροσωπεύει αρχείο PPTX// Instantiate Presentation class που αντιπροσωπεύει αρχείο PPTX
+// Δημιουργία κλάσης παρουσίασης που αντιπροσωπεύει το αρχείο PPTX// Δημιουργία κλάσης παρουσίασης που αντιπροσωπεύει το αρχείο PPTX
 Presentation pres = new Presentation(dataDir + "ExistingChart.pptx");
-// Πρόσβαση στο πρώτο slideMarker
+// Πρόσβαση στην πρώτη διαφάνεια Δείκτης
 ISlide sld = pres.getSlides().get_Item(0);
 // Προσθήκη γραφήματος με προεπιλεγμένα δεδομένα
 IChart chart = (IChart) sld.getShapes().get_Item(0);
@@ -136,28 +138,28 @@ IChart chart = (IChart) sld.getShapes().get_Item(0);
 int defaultWorksheetIndex = 0;
 // Λήψη του φύλλου εργασίας δεδομένων γραφήματος
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
-// Αλλαγή γραφήματος Όνομα κατηγορίας
+// Αλλαγή ονόματος κατηγορίας γραφήματος
 fact.getCell(defaultWorksheetIndex, 1, 0, "Modified Category 1");
 fact.getCell(defaultWorksheetIndex, 2, 0, "Modified Category 2");
 // Πάρτε την πρώτη σειρά γραφημάτων
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-// Τώρα γίνεται ενημέρωση δεδομένων σειράς
+// Ενημερώνονται τώρα τα δεδομένα της σειράς.
 fact.getCell(defaultWorksheetIndex, 0, 1, "New_Series1");// Τροποποίηση ονόματος σειράς
 series.getDataPoints().get_Item(0).getValue().setData(90);
 series.getDataPoints().get_Item(1).getValue().setData(123);
 series.getDataPoints().get_Item(2).getValue().setData(44);
-// Πάρτε τη δεύτερη σειρά γραφημάτων
+// Σειρά γραφημάτων Take Second
 series = chart.getChartData().getSeries().get_Item(1);
-// Τώρα γίνεται ενημέρωση δεδομένων σειράς
+// Ενημερώνονται τώρα τα δεδομένα της σειράς.
 fact.getCell(defaultWorksheetIndex, 0, 2, "New_Series2");// Τροποποίηση ονόματος σειράς
 series.getDataPoints().get_Item(0).getValue().setData(23);
 series.getDataPoints().get_Item(1).getValue().setData(67);
 series.getDataPoints().get_Item(2).getValue().setData(99);
-// Τώρα, Προσθήκη νέας σειράς
+// Τώρα, προσθέτοντας μια νέα σειρά
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 3, "Series 3"), chart.getType());
 // Πάρτε την 3η σειρά γραφημάτων
 series = chart.getChartData().getSeries().get_Item(2);
-// Τώρα συμπληρώνονται δεδομένα σειράς
+// Συμπληρώνονται τώρα τα δεδομένα σειράς
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 3, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 30));
@@ -165,34 +167,36 @@ chart.setType(ChartType.ClusteredCylinder);
 // Αποθήκευση παρουσίασης με γράφημα
 pres.save(dataDir + "AsposeChartModified_out.pptx", SaveFormat.Pptx);
 ```
-## συμπέρασμα
+## Σύναψη
 
-Σε αυτό το ολοκληρωμένο σεμινάριο, μάθαμε πώς να τροποποιούμε ένα υπάρχον γράφημα σε μια παρουσίαση του PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Ακολουθώντας τον οδηγό βήμα προς βήμα και χρησιμοποιώντας παραδείγματα πηγαίου κώδικα, μπορείτε εύκολα να προσαρμόσετε και να ενημερώσετε γραφήματα για να ανταποκρίνονται στις συγκεκριμένες απαιτήσεις σας. Ακολουθεί μια ανακεφαλαίωση όσων καλύψαμε:
+Σε αυτό το ολοκληρωμένο σεμινάριο, μάθαμε πώς να τροποποιήσουμε ένα υπάρχον γράφημα σε μια παρουσίαση PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Ακολουθώντας τον οδηγό βήμα προς βήμα και αξιοποιώντας παραδείγματα πηγαίου κώδικα, μπορείτε εύκολα να προσαρμόσετε και να ενημερώσετε τα γραφήματα ώστε να ανταποκρίνονται στις συγκεκριμένες απαιτήσεις σας. Ακολουθεί μια ανακεφαλαίωση των όσων καλύψαμε:
 
 ## Συχνές ερωτήσεις
 
-### Πώς μπορώ να αλλάξω τον τύπο του γραφήματος;
+### Πώς μπορώ να αλλάξω τον τύπο γραφήματος;
 
- Μπορείτε να αλλάξετε τον τύπο γραφήματος χρησιμοποιώντας το`chart.setType(ChartType.ChartTypeHere)` μέθοδος. Αντικαθιστώ`ChartTypeHere` με τον επιθυμητό τύπο γραφήματος, όπως`ChartType.ClusteredCylinder` στο παράδειγμά μας.
+Μπορείτε να αλλάξετε τον τύπο γραφήματος χρησιμοποιώντας το `chart.setType(ChartType.ChartTypeHere)` μέθοδος. Αντικατάσταση `ChartTypeHere` με τον επιθυμητό τύπο γραφήματος, όπως π.χ. `ChartType.ClusteredCylinder` στο παράδειγμά μας.
 
 ### Μπορώ να προσθέσω περισσότερα σημεία δεδομένων σε μια σειρά;
 
- Ναι, μπορείτε να προσθέσετε περισσότερα σημεία δεδομένων σε μια σειρά χρησιμοποιώντας το`series.getDataPoints().addDataPointForBarSeries(cell)` μέθοδος. Φροντίστε να παρέχετε τα κατάλληλα δεδομένα κυψέλης.
+Ναι, μπορείτε να προσθέσετε περισσότερα σημεία δεδομένων σε μια σειρά χρησιμοποιώντας το `series.getDataPoints().addDataPointForBarSeries(cell)` μέθοδος. Βεβαιωθείτε ότι έχετε παράσχει τα κατάλληλα δεδομένα κελιού.
 
 ### Πώς μπορώ να ενημερώσω τα ονόματα των κατηγοριών;
 
- Μπορείτε να ενημερώσετε τα ονόματα των κατηγοριών χρησιμοποιώντας`fact.getCell(worksheetIndex, columnIndex, rowIndex, newValue)` για να ορίσετε τα ονόματα των νέων κατηγοριών.
+Μπορείτε να ενημερώσετε τα ονόματα κατηγοριών χρησιμοποιώντας `fact.getCell(worksheetIndex, columnIndex, rowIndex, newValue)` για να ορίσετε τα νέα ονόματα κατηγοριών.
 
 ### Πώς μπορώ να τροποποιήσω τα ονόματα των σειρών;
 
- Για να τροποποιήσετε τα ονόματα των σειρών, χρησιμοποιήστε`fact.getCell(worksheetIndex, columnIndex, rowIndex, newValue)` για να ορίσετε τα ονόματα των νέων σειρών.
+Για να τροποποιήσετε τα ονόματα των σειρών, χρησιμοποιήστε `fact.getCell(worksheetIndex, columnIndex, rowIndex, newValue)` για να ορίσετε τα νέα ονόματα σειρών.
 
-### Υπάρχει τρόπος να αφαιρέσετε μια σειρά από το γράφημα;
+### Υπάρχει τρόπος να αφαιρέσω μια σειρά από το διάγραμμα;
 
- Ναι, μπορείτε να αφαιρέσετε μια σειρά από το γράφημα χρησιμοποιώντας το`chart.getChartData().getSeries().removeAt(index)` μέθοδος, όπου`index`είναι το ευρετήριο της σειράς που θέλετε να καταργήσετε.
+Ναι, μπορείτε να αφαιρέσετε μια σειρά από το γράφημα χρησιμοποιώντας το `chart.getChartData().getSeries().removeAt(index)` μέθοδος, όπου `index` είναι ο δείκτης της σειράς που θέλετε να καταργήσετε.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

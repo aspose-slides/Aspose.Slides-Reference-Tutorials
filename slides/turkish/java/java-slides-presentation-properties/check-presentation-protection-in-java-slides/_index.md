@@ -1,26 +1,28 @@
 ---
-title: Java Slaytlarında Sunum Korumasını Kontrol Edin
-linktitle: Java Slaytlarında Sunum Korumasını Kontrol Edin
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides for Java kullanarak Java slaytlarında sunum korumasını nasıl kontrol edeceğinizi öğrenin. Bu adım adım kılavuz, yazma ve açma koruması kontrollerine yönelik kod örnekleri sağlar.
-weight: 15
-url: /tr/java/presentation-properties/check-presentation-protection-in-java-slides/
+"description": "Java slaytlarında sunum korumasını Aspose.Slides for Java kullanarak nasıl kontrol edeceğinizi öğrenin. Bu adım adım kılavuz, yazma ve açık koruma kontrolleri için kod örnekleri sağlar."
+"linktitle": "Java Slaytlarında Sunum Korumasını Kontrol Etme"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java Slaytlarında Sunum Korumasını Kontrol Etme"
+"url": "/tr/java/presentation-properties/check-presentation-protection-in-java-slides/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java Slaytlarında Sunum Korumasını Kontrol Edin
+# Java Slaytlarında Sunum Korumasını Kontrol Etme
 
 
 ## Java Slaytlarında Sunum Korumasını Kontrol Etmeye Giriş
 
-Bu eğitimde Aspose.Slides for Java kullanarak sunum korumasını nasıl kontrol edeceğimizi inceleyeceğiz. İki senaryoyu ele alacağız: bir sunum için yazma korumasını kontrol etmek ve açık korumayı kontrol etmek. Her senaryo için adım adım kod örnekleri sunacağız.
+Bu eğitimde, Java için Aspose.Slides kullanarak sunum korumasının nasıl kontrol edileceğini inceleyeceğiz. İki senaryoyu ele alacağız: bir sunum için yazma korumasının ve açık korumasının kontrol edilmesi. Her senaryo için adım adım kod örnekleri sağlayacağız.
 
-## Önkoşullar
+## Ön koşullar
 
-Başlamadan önce Java projenizde Aspose.Slides for Java kütüphanesinin kurulu olduğundan emin olun. Aspose web sitesinden indirebilir ve projenizin bağımlılıklarına ekleyebilirsiniz.
+Başlamadan önce, Java projenizde Aspose.Slides for Java kütüphanesinin kurulu olduğundan emin olun. Bunu Aspose web sitesinden indirebilir ve projenizin bağımlılıklarına ekleyebilirsiniz.
 
 ### Maven Bağımlılığı
 
@@ -32,17 +34,17 @@ Başlamadan önce Java projenizde Aspose.Slides for Java kütüphanesinin kurulu
 </dependency>
 ```
 
- Yer değiştirmek`your_version_here` kullandığınız Aspose.Slides for Java sürümüyle.
+Yer değiştirmek `your_version_here` Kullandığınız Aspose.Slides for Java sürümüyle.
 
-## 1. Adım: Yazma Korumasını Kontrol Edin
+## Adım 1: Yazma Korumasını Kontrol Edin
 
- Bir sunumun parolayla yazmaya karşı korumalı olup olmadığını kontrol etmek için`IPresentationInfo` arayüz. İşte bunu yapacak kod:
+Bir sunumun parola ile yazmaya karşı korumalı olup olmadığını kontrol etmek için şunu kullanabilirsiniz: `IPresentationInfo` arayüz. Bunu yapmak için kod şu şekilde:
 
 ```java
-// Kaynak sunumunun yolu
+// Kaynak sunumuna giden yol
 String pptxFile = "path_to_presentation.pptx";
 
-// IPresentationInfo Arayüzü aracılığıyla Yazma Koruması Parolasını Kontrol Edin
+// Yazma Koruması Parolasını IPresentationInfo Arayüzü Üzerinden Kontrol Edin
 IPresentationInfo presentationInfo = PresentationFactory.getInstance().getPresentationInfo(pptxFile);
 boolean isWriteProtectedByPassword = presentationInfo.isWriteProtected() == NullableBool.True
         && presentationInfo.checkWriteProtection("password_here");
@@ -50,36 +52,36 @@ boolean isWriteProtectedByPassword = presentationInfo.isWriteProtected() == Null
 System.out.println("Is presentation write protected by password = " + isWriteProtectedByPassword);
 ```
 
- Yer değiştirmek`"path_to_presentation.pptx"` sunum dosyanızın gerçek yolunu ve`"password_here"` Yazma koruması şifresi ile.
+Yer değiştirmek `"path_to_presentation.pptx"` sunum dosyanıza giden gerçek yol ve `"password_here"` yazma koruma şifresi ile.
 
 ## Adım 2: Açık Korumayı Kontrol Edin
 
- Bir sunumun açılışta parolayla korunup korunmadığını kontrol etmek için`IPresentationInfo` arayüz. İşte bunu yapacak kod:
+Bir sunumun açılması için bir parola ile korunup korunmadığını kontrol etmek için şunu kullanabilirsiniz: `IPresentationInfo` arayüz. Bunu yapmak için kod şu şekilde:
 
 ```java
-// Kaynak sunumunun yolu
+// Kaynak sunumuna giden yol
 String pptFile = "path_to_presentation.ppt";
 
-// IPresentationInfo Arayüzü aracılığıyla Sunum Açık Korumasını Kontrol Edin
+// Sunumu Kontrol Et IPresentationInfo Arayüzü Üzerinden Açık Koruma
 presentationInfo = PresentationFactory.getInstance().getPresentationInfo(pptFile);
 if (presentationInfo.isPasswordProtected()) {
     System.out.println("The presentation is protected by password to open.");
 }
 ```
 
- Yer değiştirmek`"path_to_presentation.ppt"` sunum dosyanızın gerçek yolunu belirtin.
+Yer değiştirmek `"path_to_presentation.ppt"` sunum dosyanızın gerçek yolunu içerir.
 
 ## Java Slaytlarında Sunum Korumasını Kontrol Etmek İçin Tam Kaynak Kodu
 
 ```java
-//Kaynak sunumunun yolu
+//Kaynak sunumu için yol
 String pptxFile = "Your Document Directory";
 String pptFile = "Your Document Directory";
-// IPresentationInfo Arayüzü aracılığıyla Yazma Koruması Parolasını Kontrol Edin
+// Yazma Koruması Parolasını IPresentationInfo Arayüzü Üzerinden Kontrol Edin
 IPresentationInfo presentationInfo = PresentationFactory.getInstance().getPresentationInfo(pptxFile);
 boolean isWriteProtectedByPassword = presentationInfo.isWriteProtected() == NullableBool.True && presentationInfo.checkWriteProtection("pass2");
 System.out.println("Is presentation write protected by password = " + isWriteProtectedByPassword);
-// IProtéctionManager Arayüzü aracılığıyla Yazma Koruması Parolasını Kontrol Edin
+// IProtectionManager Arayüzü Üzerinden Yazma Koruması Parolasını Kontrol Edin
 Presentation presentation = new Presentation();
 try
 {
@@ -90,7 +92,7 @@ finally
 {
 	if (presentation != null) presentation.dispose();
 }
-// IPresentationInfo Arayüzü aracılığıyla Sunum Açık Korumasını Kontrol Edin
+// Sunumu Kontrol Et IPresentationInfo Arayüzü Üzerinden Açık Koruma
 presentationInfo = PresentationFactory.getInstance().getPresentationInfo(pptFile);
 if (presentationInfo.isPasswordProtected())
 {
@@ -100,28 +102,30 @@ if (presentationInfo.isPasswordProtected())
 
 ## Çözüm
 
-Bu eğitimde Aspose.Slides for Java kullanarak Java slaytlarında sunum korumasını nasıl kontrol edeceğimizi öğrendik. İki senaryoyu ele aldık: yazma korumasını kontrol etmek ve açık korumayı kontrol etmek. Korumalı sunumları etkili bir şekilde yönetmek için artık bu kontrolleri Java uygulamalarınıza entegre edebilirsiniz.
+Bu eğitimde, Java için Aspose.Slides kullanarak Java slaytlarında sunum korumasının nasıl kontrol edileceğini öğrendik. İki senaryoyu ele aldık: yazma korumasını kontrol etme ve açık korumayı kontrol etme. Artık bu kontrolleri, korumalı sunumları etkili bir şekilde işlemek için Java uygulamalarınıza entegre edebilirsiniz.
 
-## SSS'ler
+## SSS
 
-### Aspose.Slides for Java'yı nasıl edinebilirim?
+### Java için Aspose.Slides'ı nasıl edinebilirim?
 
-Aspose.Slides for Java'yı Aspose web sitesinden indirebilir veya önkoşullar bölümünde gösterildiği gibi projenize Maven bağımlılığı olarak ekleyebilirsiniz.
+Aspose.Slides for Java'yı Aspose web sitesinden indirebilir veya ön koşullar bölümünde gösterildiği gibi projenize Maven bağımlılığı olarak ekleyebilirsiniz.
 
-### Bir sunum için hem yazma korumasını hem de açık korumayı kontrol edebilir miyim?
+### Bir sunum için hem yazma korumasını hem de açık korumasını işaretleyebilir miyim?
 
-Evet, sağlanan kod örneklerini kullanarak bir sunum için hem yazma korumasını hem de açık korumayı kontrol edebilirsiniz.
+Evet, verilen kod örneklerini kullanarak bir sunum için hem yazma korumasını hem de açık korumayı kontrol edebilirsiniz.
 
-### Koruma şifresini unutursam ne yapmalıyım?
+### Koruma şifremi unutursam ne yapmalıyım?
 
-Bir sunumun koruma parolasını unutursanız onu kurtarmanın yerleşik bir yolu yoktur. Bu gibi durumlarla karşılaşmamak için şifrelerinizin kaydını mutlaka tutun.
+Bir sunumun koruma parolasını unutursanız, onu kurtarmanın yerleşik bir yolu yoktur. Bu tür durumlardan kaçınmak için parolalarınızın bir kaydını tuttuğunuzdan emin olun.
 
-### Aspose.Slides for Java en son PowerPoint dosya formatlarıyla uyumlu mu?
+### Aspose.Slides for Java en son PowerPoint dosya formatlarıyla uyumlu mudur?
 
-Evet, Aspose.Slides for Java, .pptx dosyaları dahil en yeni PowerPoint dosya formatlarını destekler.
+Evet, Aspose.Slides for Java, .pptx dosyaları da dahil olmak üzere en son PowerPoint dosya formatlarını destekler.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

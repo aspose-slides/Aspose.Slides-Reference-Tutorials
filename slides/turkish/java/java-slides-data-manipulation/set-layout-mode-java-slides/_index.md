@@ -1,14 +1,16 @@
 ---
-title: Java Slaytlarında Düzen Modunu Ayarlama
-linktitle: Java Slaytlarında Düzen Modunu Ayarlama
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides'ı kullanarak Java slaytları için düzen modlarını nasıl ayarlayacağınızı öğrenin. Kaynak kodlu bu adım adım kılavuzda grafik konumlandırmasını ve boyutlandırmasını özelleştirin.
-weight: 23
-url: /tr/java/data-manipulation/set-layout-mode-java-slides/
+"description": "Aspose.Slides kullanarak Java slaytları için düzen modlarının nasıl ayarlanacağını öğrenin. Kaynak koduyla bu adım adım kılavuzda grafik konumlandırma ve boyutlandırmayı özelleştirin."
+"linktitle": "Java Slaytlarında Düzen Modunu Ayarlama"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java Slaytlarında Düzen Modunu Ayarlama"
+"url": "/tr/java/data-manipulation/set-layout-mode-java-slides/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java Slaytlarında Düzen Modunu Ayarlama
@@ -16,13 +18,13 @@ url: /tr/java/data-manipulation/set-layout-mode-java-slides/
 
 ## Java Slaytlarında Düzen Modunu Ayarlamaya Giriş
 
-Bu eğitimde Aspose.Slides for Java kullanarak Java slaytlarındaki bir grafiğin düzen modunu nasıl ayarlayacağımızı öğreneceğiz. Düzen modu, grafiğin slayt içindeki konumunu ve boyutlarını belirler.
+Bu eğitimde, Java slaytlarında Aspose.Slides for Java kullanarak bir grafik için düzen modunun nasıl ayarlanacağını öğreneceğiz. Düzen modu, grafiğin slayt içindeki konumunu ve boyutunu belirler.
 
-## Önkoşullar
+## Ön koşullar
 
- Başlamadan önce, Java projenizde Aspose.Slides for Java kütüphanesinin kurulu ve kurulu olduğundan emin olun. Kütüphaneyi adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/slides/java/).
+Başlamadan önce, Java projenizde Aspose.Slides for Java kütüphanesinin yüklü ve ayarlanmış olduğundan emin olun. Kütüphaneyi şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/slides/java/).
 
-## 1. Adım: Bir Sunu Oluşturun
+## Adım 1: Bir Sunum Oluşturun
 
 Öncelikle yeni bir sunum oluşturmamız gerekiyor.
 
@@ -31,18 +33,18 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation();
 ```
 
-## 2. Adım: Slayt ve Grafik Ekleme
+## Adım 2: Slayt ve Grafik Ekleyin
 
-Daha sonra buna bir slayt ve grafik ekleyeceğiz. Bu örnekte kümelenmiş bir sütun grafiği oluşturacağız.
+Sonra, buna bir slayt ve bir grafik ekleyeceğiz. Bu örnekte, kümelenmiş bir sütun grafiği oluşturacağız.
 
 ```java
 ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.ClusteredColumn, 20, 100, 600, 400);
 ```
 
-## 3. Adım: Grafik Düzenini Ayarlayın
+## Adım 3: Grafik Düzenini Ayarlayın
 
- Şimdi grafiğin düzenini ayarlayalım. Grafiğin slayt içindeki konumunu ve boyutunu aşağıdaki düğmeyi kullanarak ayarlayacağız:`setX`, `setY`, `setWidth`, `setHeight` yöntemler. Ek olarak, ayarlayacağız`LayoutTargetType` Düzen modunu belirlemek için.
+Şimdi, grafik için düzeni ayarlayalım. Slayt içindeki grafiğin konumunu ve boyutunu, `setX`, `setY`, `setWidth`, `setHeight` yöntemler. Ek olarak, şunu ayarlayacağız: `LayoutTargetType` düzen modunu belirlemek için.
 
 ```java
 chart.getPlotArea().setX(0.2f);
@@ -52,9 +54,9 @@ chart.getPlotArea().setHeight(0.7f);
 chart.getPlotArea().setLayoutTargetType(LayoutTargetType.Inner);
 ```
 
-Bu örnekte grafiği, düzen hedef türü "İç" olacak şekilde ayarladık; bu, slaydın iç alanına göre konumlandırılacağı ve boyutlandırılacağı anlamına gelir.
+Bu örnekte, grafiğin düzen hedef türünü "İç" olarak ayarladık; bu, grafiğin slaydın iç alanına göre konumlandırılacağı ve boyutlandırılacağı anlamına gelir.
 
-## 4. Adım: Sunuyu Kaydetme
+## Adım 4: Sunumu Kaydedin
 
 Son olarak sunumu grafik düzeni ayarlarıyla kaydedelim.
 
@@ -62,7 +64,7 @@ Son olarak sunumu grafik düzeni ayarlarıyla kaydedelim.
 presentation.save(dataDir + "SetLayoutMode_outer.pptx", SaveFormat.Pptx);
 ```
 
-## Java Slaytlarında Düzen Modunu Ayarlamak İçin Kaynak Kodunu Tamamlayın
+## Java Slaytlarında Düzen Modu Ayarlamak İçin Tam Kaynak Kodu
 
 ```java
 String dataDir = "Your Document Directory";
@@ -86,24 +88,26 @@ finally
 
 ## Çözüm
 
- Bu eğitimde, Aspose.Slides for Java'yı kullanarak Java slaytlarındaki bir grafiğin düzen modunu nasıl ayarlayacağımızı öğrendik. Tablodaki değerleri ayarlayarak grafiğin konumunu ve boyutunu özel gereksinimlerinize göre özelleştirebilirsiniz.`setX`, `setY`, `setWidth`, `setHeight` , Ve`setLayoutTargetType`yöntemler. Bu, slaytlarınızın içindeki grafiklerin yerleşimi üzerinde kontrol sahibi olmanızı sağlar.
+Bu eğitimde, Java slaytlarında Aspose.Slides for Java kullanarak bir grafik için düzen modunun nasıl ayarlanacağını öğrendik. Grafiğin konumunu ve boyutunu, değerleri ayarlayarak özel gereksinimlerinize göre özelleştirebilirsiniz. `setX`, `setY`, `setWidth`, `setHeight`, Ve `setLayoutTargetType` yöntemler. Bu, slaytlarınızdaki grafiklerin yerleşimi üzerinde kontrol sahibi olmanızı sağlar.
 
-## SSS'ler
+## SSS
 
 ### Aspose.Slides for Java'da bir grafiğin düzen modunu nasıl değiştiririm?
 
- Aspose.Slides for Java'da bir grafiğin düzen modunu değiştirmek için`setLayoutTargetType` Grafiğin çizim alanındaki yöntem. İkisinden birine ayarlayabilirsiniz`LayoutTargetType.Inner` veya`LayoutTargetType.Outer` İstediğiniz düzene bağlı olarak.
+Java için Aspose.Slides'ta bir grafiğin düzen modunu değiştirmek için şunu kullanabilirsiniz: `setLayoutTargetType` yöntemi grafiğin çizim alanında ayarlayabilirsiniz. Bunu şu şekilde ayarlayabilirsiniz: `LayoutTargetType.Inner` veya `LayoutTargetType.Outer` İstediğiniz düzene bağlı olarak.
 
-### Slayttaki grafiğin konumunu ve boyutunu özelleştirebilir miyim?
+### Slayt içindeki grafiğin konumunu ve boyutunu özelleştirebilir miyim?
 
- Evet, slayt içindeki grafiğin konumunu ve boyutunu özelleştirebilirsiniz.`setX`, `setY`, `setWidth` , Ve`setHeight` Grafiğin çizim alanındaki yöntemler. Grafiği gereksinimlerinize göre konumlandırmak ve boyutlandırmak için bu değerleri ayarlayın.
+Evet, slayt içindeki grafiğin konumunu ve boyutunu, `setX`, `setY`, `setWidth`, Ve `setHeight` grafik çizim alanındaki yöntemler. Bu değerleri, grafiği gereksinimlerinize göre konumlandırmak ve boyutlandırmak için ayarlayın.
 
 ### Aspose.Slides for Java hakkında daha fazla bilgiyi nerede bulabilirim?
 
- Aspose.Slides for Java hakkında daha fazla bilgiyi şurada bulabilirsiniz:[dokümantasyon](https://reference.aspose.com/slides/java/). Java'da slaytlar ve grafiklerle etkili bir şekilde çalışmanıza yardımcı olacak ayrıntılı API referansları ve örnekleri içerir.
+Java için Aspose.Slides hakkında daha fazla bilgiyi şu adreste bulabilirsiniz: [belgeleme](https://reference.aspose.com/slides/java/)Java'da slaytlar ve grafiklerle etkili bir şekilde çalışmanıza yardımcı olacak ayrıntılı API referansları ve örnekler içerir.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

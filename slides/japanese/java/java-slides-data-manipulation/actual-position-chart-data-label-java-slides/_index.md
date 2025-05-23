@@ -1,22 +1,24 @@
 ---
-title: Java スライドでチャート データ ラベルの実際の位置を取得する
-linktitle: Java スライドでチャート データ ラベルの実際の位置を取得する
-second_title: Aspose.Slides Java PowerPoint 処理 API
-description: Aspose.Slides for Java を使用して、Java スライドのグラフ データ ラベルの実際の位置を取得する方法を学びます。ソース コードを使用したステップ バイ ステップ ガイド。
-weight: 18
-url: /ja/java/data-manipulation/actual-position-chart-data-label-java-slides/
+"description": "Aspose.Slides for Javaを使用して、Javaスライド内のグラフデータラベルの実際の位置を取得する方法を学びます。ソースコード付きのステップバイステップガイドです。"
+"linktitle": "Javaスライドでチャートデータラベルの実際の位置を取得する"
+"second_title": "Aspose.Slides Java PowerPoint 処理 API"
+"title": "Javaスライドでチャートデータラベルの実際の位置を取得する"
+"url": "/ja/java/data-manipulation/actual-position-chart-data-label-java-slides/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java スライドでチャート データ ラベルの実際の位置を取得する
+# Javaスライドでチャートデータラベルの実際の位置を取得する
 
 
-## Java スライドでチャート データ ラベルの実際の位置を取得する方法の紹介
+## Javaスライドでチャートデータラベルの実際の位置を取得する方法の紹介
 
-このチュートリアルでは、Aspose.Slides for Java を使用してグラフ データ ラベルの実際の位置を取得する方法を学習します。グラフを含む PowerPoint プレゼンテーションを生成し、データ ラベルをカスタマイズし、これらのデータ ラベルの位置を表す図形を追加する Java プログラムを作成します。
+このチュートリアルでは、Aspose.Slides for Java を使用してグラフのデータラベルの実際の位置を取得する方法を学習します。グラフを含むPowerPointプレゼンテーションを生成し、データラベルをカスタマイズし、それらのデータラベルの位置を表す図形を追加するJavaプログラムを作成します。
 
 ## 前提条件
 
@@ -24,10 +26,10 @@ url: /ja/java/data-manipulation/actual-position-chart-data-label-java-slides/
 
 ## ステップ1: PowerPointプレゼンテーションを作成する
 
-まず、新しい PowerPoint プレゼンテーションを作成し、それにグラフを追加しましょう。グラフのデータ ラベルはチュートリアルの後半でカスタマイズします。
+まず、新しいPowerPointプレゼンテーションを作成し、グラフを追加しましょう。グラフのデータラベルは、チュートリアルの後半でカスタマイズします。
 
 ```java
-//ドキュメント ディレクトリへのパス。
+// ドキュメント ディレクトリへのパス。
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 try {
@@ -39,11 +41,11 @@ try {
 ```
 
 ## ステップ2: データラベルをカスタマイズする
-次に、グラフシリーズのデータ ラベルをカスタマイズします。ラベルの位置を設定し、値を表示します。
+それでは、グラフ系列のデータラベルをカスタマイズしてみましょう。ラベルの位置を設定し、値を表示します。
 
 ```java
 try {
-    // ... (前のコード)
+    // ...（前のコード）
     for (IChartSeries series : chart.getChartData().getSeries()) {
         series.getLabels().getDefaultDataLabelFormat().setPosition(LegendDataLabelPosition.OutsideEnd);
         series.getLabels().getDefaultDataLabelFormat().setShowValue(true);
@@ -55,11 +57,11 @@ try {
 ```
 
 ## ステップ3: データラベルの実際の位置を取得する
-この手順では、グラフ シリーズのデータ ポイントを反復処理し、値が 4 より大きいデータ ラベルの実際の位置を取得します。次に、これらの位置を表す省略記号を追加します。
+この手順では、グラフ系列のデータ ポイントを反復処理し、値が 4 より大きいデータ ラベルの実際の位置を取得します。次に、これらの位置を表す省略記号を追加します。
 
 ```java
 try {
-    // ... (前のコード)
+    // ...（前のコード）
     for (IChartSeries series : chart.getChartData().getSeries()) {
         for (IChartDataPoint point : series.getDataPoints()) {
             if (point.getValue().toDouble() > 4) {
@@ -84,17 +86,17 @@ try {
 
 ```java
 try {
-    // ... (前のコード)
+    // ...（前のコード）
     pres.save(dataDir + "GetActualPositionOFChartDatalabel.pptx", SaveFormat.Pptx);
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
 
-## Java スライドでチャート データ ラベルの実際の位置を取得するための完全なソース コード
+## Javaスライドでチャートデータラベルの実際の位置を取得するための完全なソースコード
 
 ```java
-//ドキュメント ディレクトリへのパス。
+// ドキュメント ディレクトリへのパス。
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 try
@@ -132,13 +134,13 @@ finally
 
 ## 結論
 
-このチュートリアルでは、Aspose.Slides for Java を使用して Java スライドのグラフ データ ラベルの実際の位置を取得する方法を学習しました。この知識を使用して、カスタマイズされたデータ ラベルとその位置の視覚的表現で PowerPoint プレゼンテーションを強化できます。
+このチュートリアルでは、Aspose.Slides for Java を使用して、Java スライド内のグラフのデータラベルの実際の位置を取得する方法を学習しました。この知識を活用して、カスタマイズされたデータラベルとその位置を視覚的に表現することで、PowerPoint プレゼンテーションをより魅力的にすることができます。
 
 ## よくある質問
 
 ### グラフ内のデータ ラベルをカスタマイズするにはどうすればよいですか?
 
-グラフのデータラベルをカスタマイズするには、`setDefaultDataLabelFormat`メソッドをチャート シリーズに適用し、位置や表示などのプロパティを設定します。例:
+グラフのデータラベルをカスタマイズするには、 `setDefaultDataLabelFormat` チャート系列のメソッドを使用して、位置や表示/非表示などのプロパティを設定します。例:
 ```java
 for (IChartSeries series : chart.getChartData().getSeries()) {
     series.getLabels().getDefaultDataLabelFormat().setPosition(LegendDataLabelPosition.OutsideEnd);
@@ -148,7 +150,7 @@ for (IChartSeries series : chart.getChartData().getSeries()) {
 
 ### データ ラベルの位置を表す図形を追加するにはどうすればよいですか?
 
-チャートシリーズのデータポイントを反復処理し、`getActualX`, `getActualY`, `getActualWidth` 、 そして`getActualHeight`データラベルの位置を取得するには、データラベルのメソッドを使用します。次に、`addAutoShape`方法。次に例を示します。
+チャートシリーズのデータポイントを反復処理し、 `getActualX`、 `getActualY`、 `getActualWidth`、 そして `getActualHeight` データラベルの位置を取得するには、データラベルのメソッドを使用します。その後、 `addAutoShape` 方法。以下に例を示します。
 ```java
 float x = point.getLabel().getActualX();
 float y = point.getLabel().getActualY();
@@ -159,13 +161,15 @@ IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Elli
 
 ### 生成されたプレゼンテーションを保存するにはどうすればよいですか?
 
-生成されたプレゼンテーションは、`save`方法。希望するファイルパスと`SaveFormat`パラメータとして。例:
+生成されたプレゼンテーションは、 `save` 方法。希望するファイルパスと `SaveFormat` パラメータとして。例えば：
 ```java
 pres.save(dataDir + "GetActualPositionOFChartDatalabel.pptx", SaveFormat.Pptx);
 ```
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

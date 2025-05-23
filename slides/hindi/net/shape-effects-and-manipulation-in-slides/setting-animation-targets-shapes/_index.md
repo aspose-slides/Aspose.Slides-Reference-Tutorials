@@ -1,14 +1,16 @@
 ---
-title: .NET के लिए Aspose.Slides के साथ एनिमेशन लक्ष्यों में महारत हासिल करना
-linktitle: Aspose.Slides का उपयोग करके प्रस्तुति स्लाइड आकृतियों के लिए एनीमेशन लक्ष्य निर्धारित करना
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: जानें कि Aspose.Slides for .NET के साथ अपनी प्रस्तुतियों को कैसे जीवंत बनाया जाए! आसानी से एनीमेशन लक्ष्य निर्धारित करें और अपने दर्शकों को मोहित करें।
-weight: 22
-url: /hi/net/shape-effects-and-manipulation-in-slides/setting-animation-targets-shapes/
+"description": "जानें कि Aspose.Slides for .NET के साथ अपनी प्रस्तुतियों को कैसे जीवंत बनाया जाए! आसानी से एनीमेशन लक्ष्य निर्धारित करें और अपने दर्शकों को मोहित करें।"
+"linktitle": "Aspose.Slides का उपयोग करके प्रस्तुति स्लाइड आकृतियों के लिए एनिमेशन लक्ष्य निर्धारित करना"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": ".NET के लिए Aspose.Slides के साथ एनिमेशन लक्ष्यों में महारत हासिल करना"
+"url": "/hi/net/shape-effects-and-manipulation-in-slides/setting-animation-targets-shapes/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # .NET के लिए Aspose.Slides के साथ एनिमेशन लक्ष्यों में महारत हासिल करना
@@ -17,7 +19,7 @@ url: /hi/net/shape-effects-and-manipulation-in-slides/setting-animation-targets-
 प्रस्तुतियों की गतिशील दुनिया में, अपनी स्लाइड में एनिमेशन जोड़ना एक गेम-चेंजर हो सकता है। Aspose.Slides for .NET डेवलपर्स को स्लाइड आकृतियों के लिए एनिमेशन लक्ष्यों पर सटीक नियंत्रण की अनुमति देकर आकर्षक और आकर्षक प्रस्तुतियाँ बनाने में सक्षम बनाता है। इस चरण-दर-चरण मार्गदर्शिका में, हम आपको Aspose.Slides for .NET का उपयोग करके एनिमेशन लक्ष्य निर्धारित करने की प्रक्रिया से अवगत कराएँगे। चाहे आप एक अनुभवी डेवलपर हों या अभी शुरुआत कर रहे हों, यह ट्यूटोरियल आपको अपनी प्रस्तुतियों में एनिमेशन की शक्ति का उपयोग करने में मदद करेगा।
 ## आवश्यक शर्तें
 ट्यूटोरियल में शामिल होने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
--  Aspose.Slides for .NET लाइब्रेरी: लाइब्रेरी को डाउनलोड करें और इंस्टॉल करें[.NET दस्तावेज़ीकरण के लिए Aspose.Slides](https://reference.aspose.com/slides/net/).
+- Aspose.Slides for .NET लाइब्रेरी: लाइब्रेरी को डाउनलोड करें और इंस्टॉल करें [.NET दस्तावेज़ीकरण के लिए Aspose.Slides](https://reference.aspose.com/slides/net/).
 - विकास वातावरण: सुनिश्चित करें कि आपके मशीन पर एक कार्यशील .NET विकास वातावरण स्थापित है।
 ## नामस्थान आयात करें
 अपने .NET प्रोजेक्ट में, Aspose.Slides कार्यक्षमताओं तक पहुँचने के लिए आवश्यक नामस्थान शामिल करें। अपने प्रोजेक्ट में निम्न कोड स्निपेट जोड़ें:
@@ -56,7 +58,7 @@ foreach (ISlide slide in pres.Slides)
 }
 ```
 ## निष्कर्ष
-बधाई हो! आपने सफलतापूर्वक सीख लिया है कि Aspose.Slides for .NET का उपयोग करके प्रेजेंटेशन स्लाइड आकृतियों के लिए एनिमेशन लक्ष्य कैसे सेट करें। अब, आगे बढ़ें और आकर्षक एनिमेशन के साथ अपनी प्रेजेंटेशन को बेहतर बनाएँ।
+बधाई हो! आपने Aspose.Slides for .NET का उपयोग करके प्रेजेंटेशन स्लाइड आकृतियों के लिए एनीमेशन लक्ष्य निर्धारित करना सफलतापूर्वक सीख लिया है। अब, आगे बढ़ें और आकर्षक एनिमेशन के साथ अपनी प्रेजेंटेशन को बेहतर बनाएँ।
 ## अक्सर पूछे जाने वाले प्रश्नों
 ### क्या मैं एक ही स्लाइड पर एकाधिक आकृतियों पर अलग-अलग एनिमेशन लागू कर सकता हूँ?
 हां, आप प्रत्येक आकृति के लिए अलग-अलग अद्वितीय एनीमेशन प्रभाव सेट कर सकते हैं।
@@ -67,10 +69,12 @@ foreach (ISlide slide in pres.Slides)
 ### क्या मैं प्रत्येक एनीमेशन प्रभाव की अवधि और समय को नियंत्रित कर सकता हूँ?
 हां, Aspose.Slides प्रत्येक एनीमेशन की अवधि और समय को अनुकूलित करने के लिए विकल्प प्रदान करता है।
 ### मैं Aspose.Slides के लिए और अधिक उदाहरण और दस्तावेज़ कहां पा सकता हूं?
- पता लगाएं[.NET दस्तावेज़ीकरण के लिए Aspose.Slides](https://reference.aspose.com/slides/net/) विस्तृत जानकारी और उदाहरण के लिए.
+पता लगाएं [.NET दस्तावेज़ीकरण के लिए Aspose.Slides](https://reference.aspose.com/slides/net/) विस्तृत जानकारी और उदाहरण के लिए.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

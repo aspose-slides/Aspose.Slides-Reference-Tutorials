@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में व्यक्तिगत स्लाइड को परिवर्तित करें
-linktitle: जावा स्लाइड्स में व्यक्तिगत स्लाइड को परिवर्तित करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके कोड उदाहरणों के साथ चरण दर चरण व्यक्तिगत PowerPoint स्लाइड्स को HTML में परिवर्तित करना सीखें।
-weight: 12
-url: /hi/java/presentation-conversion/convert-individual-slide-java-slides/
+"description": "Java के लिए Aspose.Slides का उपयोग करके कोड उदाहरणों के साथ चरण दर चरण व्यक्तिगत PowerPoint स्लाइड्स को HTML में परिवर्तित करना सीखें।"
+"linktitle": "जावा स्लाइड्स में व्यक्तिगत स्लाइड को परिवर्तित करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में व्यक्तिगत स्लाइड को परिवर्तित करें"
+"url": "/hi/java/presentation-conversion/convert-individual-slide-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में व्यक्तिगत स्लाइड को परिवर्तित करें
@@ -48,9 +50,9 @@ import com.aspose.slides.ISlide;
 import com.aspose.slides.IShape;
 ```
 
-## चरण 3: मुख्य रूपांतरण विधि निर्धारित करें
+## चरण 3: मुख्य रूपांतरण विधि को परिभाषित करें
 
- अलग-अलग स्लाइड्स का रूपांतरण करने के लिए एक विधि बनाएँ। सुनिश्चित करें कि प्रतिस्थापित करें`"Your Document Directory"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ.
+अलग-अलग स्लाइडों का रूपांतरण करने के लिए एक विधि बनाएँ। सुनिश्चित करें कि प्रतिस्थापित करें `"Your Document Directory"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ.
 
 ```java
 public static void convertIndividualSlides() {
@@ -74,7 +76,7 @@ public static void convertIndividualSlides() {
 
 ## चरण 4: कस्टमफ़ॉर्मेटिंगकंट्रोलर को लागू करें
 
- बनाएं`CustomFormattingController` रूपांतरण के दौरान कस्टम स्वरूपण को संभालने के लिए क्लास।
+बनाएं `CustomFormattingController` रूपांतरण के दौरान कस्टम स्वरूपण को संभालने के लिए क्लास।
 
 ```java
 public static class CustomFormattingController implements IHtmlFormattingController {
@@ -105,7 +107,7 @@ public static class CustomFormattingController implements IHtmlFormattingControl
 
 ## चरण 5: रूपांतरण निष्पादित करें
 
- अंत में, कॉल करें`convertIndividualSlides` रूपांतरण प्रक्रिया को निष्पादित करने की विधि.
+अंत में, कॉल करें `convertIndividualSlides` रूपांतरण प्रक्रिया को निष्पादित करने की विधि.
 
 ```java
 public static void main(String[] args) {
@@ -124,7 +126,7 @@ public static void main(String[] args) {
 		htmlOptions.setHtmlFormatter(HtmlFormatter.createCustomFormatter(new CustomFormattingController()));
 		INotesCommentsLayoutingOptions notesOptions = htmlOptions.getNotesCommentsLayouting();
 		notesOptions.setNotesPosition(NotesPositions.BottomFull);
-		// फ़ाइल सहेजना
+		// फ़ाइल सहेजना              
 		for (int i = 0; i < presentation.getSlides().size(); i++)
 			presentation.save(dataDir + "Individual Slide" + i + 1 + "_out.html", new int[]{i + 1}, SaveFormat.Html, htmlOptions);
 	}
@@ -165,20 +167,22 @@ public static class CustomFormattingController implements IHtmlFormattingControl
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-### मैं HTML आउटपुट को और अधिक अनुकूलित कैसे कर सकता हूं?
+### मैं HTML आउटपुट को और अधिक अनुकूलित कैसे कर सकता हूँ?
 
- आप HTML आउटपुट को संशोधित करके अनुकूलित कर सकते हैं`CustomFormattingController` वर्ग समायोजित करें।`writeSlideStart` और`writeSlideEnd` स्लाइड की HTML संरचना और स्टाइलिंग को बदलने के तरीके।
+आप HTML आउटपुट को संशोधित करके अनुकूलित कर सकते हैं `CustomFormattingController` वर्ग समायोजित करें। `writeSlideStart` और `writeSlideEnd` स्लाइड की HTML संरचना और स्टाइलिंग को बदलने के तरीके।
 
 ### क्या मैं एक बार में कई पावरपॉइंट प्रस्तुतियों को परिवर्तित कर सकता हूँ?
 
- हां, आप एकाधिक प्रस्तुति फ़ाइलों के माध्यम से लूप करने के लिए कोड को संशोधित कर सकते हैं और उन्हें कॉल करके व्यक्तिगत रूप से परिवर्तित कर सकते हैं`convertIndividualSlides` प्रत्येक प्रस्तुति के लिए विधि।
+हां, आप एकाधिक प्रस्तुति फ़ाइलों के माध्यम से लूप करने के लिए कोड को संशोधित कर सकते हैं और उन्हें कॉल करके व्यक्तिगत रूप से परिवर्तित कर सकते हैं `convertIndividualSlides` प्रत्येक प्रस्तुति के लिए विधि।
 
 ### मैं स्लाइडों में आकृतियों और पाठ के लिए अतिरिक्त स्वरूपण कैसे प्रबंधित करूँ?
 
- आप विस्तार कर सकते हैं`CustomFormattingController` वर्ग को कार्यान्वित करके आकार-विशिष्ट स्वरूपण को संभालने के लिए`writeShapeStart` और`writeShapeEnd` विधियों और उनके भीतर कस्टम स्वरूपण तर्क लागू करना।
+आप विस्तार कर सकते हैं `CustomFormattingController` वर्ग को कार्यान्वित करके आकार-विशिष्ट स्वरूपण को संभालने के लिए `writeShapeStart` और `writeShapeEnd` विधियों और उनके भीतर कस्टम स्वरूपण तर्क लागू करना।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

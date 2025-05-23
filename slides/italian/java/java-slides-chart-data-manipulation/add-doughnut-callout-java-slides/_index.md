@@ -1,31 +1,33 @@
 ---
-title: Aggiungi il callout alla ciambella nelle diapositive Java
-linktitle: Aggiungi il callout alla ciambella nelle diapositive Java
-second_title: Aspose.Slides API di elaborazione Java PowerPoint
-description: Impara ad aggiungere callout a ciambella nelle diapositive Java utilizzando Aspose.Slides per Java. Guida passo passo con codice sorgente per presentazioni migliorate.
-weight: 12
-url: /it/java/chart-data-manipulation/add-doughnut-callout-java-slides/
+"description": "Impara ad aggiungere callout a ciambella nelle diapositive Java utilizzando Aspose.Slides per Java. Guida passo passo con codice sorgente per presentazioni ottimizzate."
+"linktitle": "Aggiungi una chiamata a forma di ciambella in Java Slides"
+"second_title": "API di elaborazione Java PowerPoint di Aspose.Slides"
+"title": "Aggiungi una chiamata a forma di ciambella in Java Slides"
+"url": "/it/java/chart-data-manipulation/add-doughnut-callout-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aggiungi il callout alla ciambella nelle diapositive Java
+# Aggiungi una chiamata a forma di ciambella in Java Slides
 
 
-## Introduzione all'aggiunta di un callout a ciambella nelle diapositive Java utilizzando Aspose.Slides per Java
+## Introduzione all'aggiunta di un callout a forma di ciambella in Java Slides utilizzando Aspose.Slides per Java
 
-In questo tutorial, ti guideremo attraverso il processo di aggiunta di un callout ciambella a una diapositiva in Java utilizzando Aspose.Slides per Java. Un callout a ciambella è un elemento del grafico che può essere utilizzato per evidenziare punti dati specifici in un grafico a ciambella. Ti forniremo istruzioni dettagliate e il codice sorgente completo per la tua comodità.
+In questo tutorial, ti guideremo attraverso il processo di aggiunta di un Doughnut Callout a una diapositiva in Java utilizzando Aspose.Slides per Java. Un Doughnut Callout è un elemento grafico che può essere utilizzato per evidenziare punti dati specifici in un grafico ad anello. Ti forniremo istruzioni dettagliate e il codice sorgente completo per la tua comodità.
 
 ## Prerequisiti
 
-Prima di iniziare, assicurati di disporre dei seguenti prerequisiti:
+Prima di iniziare, assicurati di avere i seguenti prerequisiti:
 
 1. Ambiente di sviluppo Java
-2. Aspose.Slides per la libreria Java
+2. Libreria Aspose.Slides per Java
 3. Ambiente di sviluppo integrato (IDE) come Eclipse o IntelliJ IDEA
-4. Una presentazione PowerPoint in cui desideri aggiungere il callout della ciambella
+4. Una presentazione di PowerPoint in cui desideri aggiungere il richiamo della ciambella
 
 ## Passaggio 1: configura il tuo progetto Java
 
@@ -34,7 +36,7 @@ Prima di iniziare, assicurati di disporre dei seguenti prerequisiti:
 
 ## Passaggio 2: inizializzare la presentazione
 
-Per iniziare, dovrai inizializzare una presentazione di PowerPoint e creare una diapositiva in cui desideri aggiungere il callout della ciambella. Ecco il codice per raggiungere questo obiettivo:
+Per iniziare, devi inizializzare una presentazione PowerPoint e creare una diapositiva in cui desideri aggiungere il callout "ciambella". Ecco il codice per farlo:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -42,19 +44,19 @@ Presentation pres = new Presentation(dataDir + "testc.pptx");
 ISlide slide = pres.getSlides().get_Item(0);
 ```
 
- Assicurati di sostituire`"Your Document Directory"` con il percorso effettivo del file di presentazione di PowerPoint.
+Assicurati di sostituire `"Your Document Directory"` con il percorso effettivo del file della presentazione di PowerPoint.
 
-## Passaggio 3: crea un grafico a ciambella
+## Passaggio 3: creare un grafico a ciambella
 
-Successivamente, creerai un grafico a ciambella sulla diapositiva. Puoi personalizzare la posizione e le dimensioni del grafico in base alle tue esigenze. Ecco il codice per aggiungere un grafico a ciambella:
+Successivamente, creerai un grafico ad anello nella diapositiva. Puoi personalizzare la posizione e le dimensioni del grafico in base alle tue esigenze. Ecco il codice per aggiungere un grafico ad anello:
 
 ```java
 IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, false);
 ```
 
-## Passaggio 4: personalizza il grafico a ciambella
+## Passaggio 4: personalizzare il grafico ad anello
 
-Ora è il momento di personalizzare il grafico a ciambella. Imposteremo varie proprietà come la rimozione della legenda, la configurazione della dimensione del foro e la regolazione dell'angolo della prima sezione. Ecco il codice:
+Ora è il momento di personalizzare il grafico ad anello. Imposteremo diverse proprietà, come la rimozione della legenda, la configurazione della dimensione del foro e la regolazione dell'angolo della prima sezione. Ecco il codice:
 
 ```java
 IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
@@ -71,11 +73,11 @@ while (seriesIndex < 15) {
 }
 ```
 
-Questo frammento di codice imposta le proprietà per il grafico ad anello. È possibile regolare i valori per soddisfare le proprie esigenze specifiche.
+Questo frammento di codice imposta le proprietà del grafico ad anello. Puoi modificare i valori in base alle tue esigenze specifiche.
 
-## Passaggio 5: aggiungi dati al grafico a ciambella
+## Passaggio 5: aggiungere dati al grafico ad anello
 
-Ora aggiungiamo i dati al grafico ad anello. Personalizzeremo anche l'aspetto dei punti dati. Ecco il codice per ottenere questo risultato:
+Ora aggiungiamo dati al grafico ad anello. Personalizzeremo anche l'aspetto dei punti dati. Ecco il codice per farlo:
 
 ```java
 int categoryIndex = 0;
@@ -86,28 +88,28 @@ while (categoryIndex < 15) {
         IChartSeries iCS = chart.getChartData().getSeries().get_Item(i);
         IChartDataPoint dataPoint = iCS.getDataPoints().addDataPointForDoughnutSeries(workBook.getCell(0, categoryIndex + 1, i + 1, 1));
         dataPoint.getFormat().getFill().setFillType(FillType.Solid);
-        // Personalizza l'aspetto del punto dati qui
+        // Personalizza qui l'aspetto dei punti dati
         i++;
     }
     categoryIndex++;
 }
 ```
 
-In questo codice aggiungeremo categorie e punti dati al grafico a ciambella. È possibile personalizzare ulteriormente l'aspetto dei punti dati secondo necessità.
+In questo codice, aggiungiamo categorie e punti dati al grafico ad anello. Puoi personalizzare ulteriormente l'aspetto dei punti dati a seconda delle tue esigenze.
 
-## Passaggio 6: salva la presentazione
+## Passaggio 6: Salva la presentazione
 
-Infine, non dimenticare di salvare la presentazione dopo aver aggiunto il callout ciambella. Ecco il codice per salvare la presentazione:
+Infine, non dimenticare di salvare la presentazione dopo aver aggiunto il callout "ciambella". Ecco il codice per salvare la presentazione:
 
 ```java
 pres.save(dataDir + "chart.pptx", SaveFormat.Pptx);
 ```
 
- Assicurati di sostituire`"chart.pptx"` con il nome file desiderato.
+Assicurati di sostituire `"chart.pptx"` con il nome file desiderato.
 
-Congratulazioni! Hai aggiunto con successo un callout ciambella a una diapositiva Java utilizzando Aspose.Slides per Java. Ora puoi eseguire l'applicazione Java per generare la presentazione PowerPoint con il grafico a ciambella e il callout.
+Congratulazioni! Hai aggiunto correttamente un grafico a ciambella a una diapositiva Java utilizzando Aspose.Slides per Java. Ora puoi eseguire l'applicazione Java per generare la presentazione PowerPoint con il grafico a ciambella e il callout.
 
-## Codice sorgente completo per aggiungere il callout della ciambella nelle diapositive Java
+## Codice sorgente completo per aggiungere un richiamo a forma di ciambella in Java Slides
 
 ```java
 String dataDir = "Your Document Directory";
@@ -171,24 +173,26 @@ pres.save(dataDir + "chart.pptx", SaveFormat.Pptx);
 
 ## Conclusione
 
-In questo tutorial, abbiamo trattato il processo di aggiunta di un callout a ciambella a una diapositiva Java utilizzando Aspose.Slides per Java. Hai imparato come creare un grafico ad anello, personalizzarne l'aspetto e aggiungere punti dati. Sentiti libero di migliorare ulteriormente le tue presentazioni con questa potente libreria ed esplorare più opzioni di grafici.
+In questo tutorial, abbiamo illustrato come aggiungere un grafico ad anello a una diapositiva Java utilizzando Aspose.Slides per Java. Hai imparato a creare un grafico ad anello, personalizzarne l'aspetto e aggiungere punti dati. Sentiti libero di migliorare ulteriormente le tue presentazioni con questa potente libreria ed esplorare ulteriori opzioni di creazione di grafici.
 
 ## Domande frequenti
 
-### Come posso modificare l'aspetto del callout della ciambella?
+### Come posso modificare l'aspetto del Doughnut Callout?
 
-È possibile personalizzare l'aspetto del callout a ciambella modificando le proprietà dei punti dati nel grafico. Nel codice fornito puoi vedere come impostare il colore di riempimento, il colore della linea, lo stile del carattere e altri attributi dei punti dati.
+È possibile personalizzare l'aspetto del Callout ad anello modificando le proprietà dei punti dati nel grafico. Nel codice fornito, è possibile vedere come impostare il colore di riempimento, il colore della linea, lo stile del carattere e altri attributi dei punti dati.
 
-### Posso aggiungere più punti dati al grafico ad anello?
+### Posso aggiungere altri punti dati al grafico ad anello?
 
-Sì, puoi aggiungere tutti i punti dati necessari al grafico a ciambella. Estendi semplicemente i loop nel codice in cui vengono aggiunte categorie e punti dati e fornisci i dati e la formattazione appropriati.
+Sì, puoi aggiungere tutti i punti dati necessari al grafico ad anello. È sufficiente estendere i cicli nel codice in cui vengono aggiunte categorie e punti dati e fornire i dati e la formattazione appropriati.
 
-### Come posso regolare la posizione e la dimensione del grafico ad anello sulla diapositiva?
+### Come posso regolare la posizione e le dimensioni del grafico ad ciambella sulla diapositiva?
 
- Puoi cambiare la posizione e la dimensione del grafico ad anello modificando i parametri nel file`addChart` metodo. I quattro numeri in questo metodo corrispondono rispettivamente alle coordinate X e Y dell'angolo in alto a sinistra del grafico e alla sua larghezza e altezza.
+È possibile modificare la posizione e la dimensione del grafico ad anello modificando i parametri nel `addChart` metodo. I quattro numeri in quel metodo corrispondono rispettivamente alle coordinate X e Y dell'angolo in alto a sinistra del grafico e alla sua larghezza e altezza.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

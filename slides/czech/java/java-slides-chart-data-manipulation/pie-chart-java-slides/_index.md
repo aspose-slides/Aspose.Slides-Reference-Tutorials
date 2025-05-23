@@ -1,26 +1,28 @@
 ---
-title: Koláčový graf v Java Slides
-linktitle: Koláčový graf v Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Naučte se vytvářet úžasné koláčové grafy v prezentacích PowerPoint pomocí Aspose.Slides pro Java. Podrobný průvodce se zdrojovým kódem pro vývojáře v jazyce Java.
-weight: 23
-url: /cs/java/chart-data-manipulation/pie-chart-java-slides/
+"description": "Naučte se, jak vytvářet úžasné koláčové grafy v prezentacích v PowerPointu pomocí Aspose.Slides pro Javu. Podrobný návod se zdrojovým kódem pro vývojáře v Javě."
+"linktitle": "Koláčový graf v Javě Slides"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Koláčový graf v Javě Slides"
+"url": "/cs/java/chart-data-manipulation/pie-chart-java-slides/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Koláčový graf v Java Slides
+# Koláčový graf v Javě Slides
 
 
-## Úvod do vytváření výsečového grafu v Java Slides pomocí Aspose.Slides
+## Úvod do vytváření koláčového grafu v Javě Slides pomocí Aspose.Slides
 
-tomto tutoriálu si ukážeme, jak vytvořit výsečový graf v powerpointové prezentaci pomocí Aspose.Slides for Java. Poskytneme vám podrobné pokyny a zdrojový kód Java, které vám pomohou začít. Tato příručka předpokládá, že jste již nastavili své vývojové prostředí s Aspose.Slides for Java.
+V tomto tutoriálu si ukážeme, jak vytvořit koláčový graf v prezentaci v PowerPointu pomocí Aspose.Slides pro Javu. Poskytneme vám podrobné pokyny a zdrojový kód v Javě, které vám pomohou začít. Tato příručka předpokládá, že jste si již nastavili vývojové prostředí s Aspose.Slides pro Javu.
 
 ## Předpoklady
 
- Než začnete, ujistěte se, že máte v projektu nainstalovanou a nakonfigurovanou knihovnu Aspose.Slides for Java. Můžete si jej stáhnout z[tady](https://releases.aspose.com/slides/java/).
+Než začnete, ujistěte se, že máte v projektu nainstalovanou a nakonfigurovanou knihovnu Aspose.Slides pro Javu. Můžete si ji stáhnout z [zde](https://releases.aspose.com/slides/java/).
 
 ## Krok 1: Importujte požadované knihovny
 
@@ -29,63 +31,63 @@ import com.aspose.slides.*;
 import com.aspose.slides.charts.*;
 ```
 
-Ujistěte se, že jste importovali potřebné třídy z knihovny Aspose.Slides.
+Nezapomeňte importovat potřebné třídy z knihovny Aspose.Slides.
 
-## Krok 2: Inicializujte prezentaci
+## Krok 2: Inicializace prezentace
 
 ```java
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 String dataDir = "Your Document Directory";
 
-// Třída okamžité prezentace, která představuje soubor PPTX
+// Vytvoření instance třídy Presentation, která reprezentuje soubor PPTX
 Presentation presentation = new Presentation();
 ```
 
- Vytvořte nový objekt prezentace, který bude reprezentovat váš soubor PowerPoint. Nahradit`"Your Document Directory"` se skutečnou cestou, kam chcete prezentaci uložit.
+Vytvořte nový objekt Presentation, který bude reprezentovat váš soubor PowerPoint. Nahraďte ho. `"Your Document Directory"` se skutečnou cestou, kam chcete prezentaci uložit.
 
-## Krok 3: Přidejte snímek
+## Krok 3: Přidání snímku
 
 ```java
-// Otevřete první snímek
+// Přístup k prvnímu snímku
 ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
-Získejte první snímek prezentace, kam chcete přidat výsečový graf.
+Získejte první snímek prezentace, kam chcete přidat koláčový graf.
 
-## Krok 4: Přidejte výsečový graf
+## Krok 4: Přidání koláčového grafu
 
 ```java
-// Přidejte výsečový graf s výchozími daty
+// Přidání koláčového grafu s výchozími daty
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
-Přidejte na snímek výsečový graf v určené poloze a velikosti.
+Přidat koláčový graf na snímek na zadané pozici a velikosti.
 
-## Krok 5: Nastavte název grafu
+## Krok 5: Nastavení názvu grafu
 
 ```java
-// Nastavte název grafu
+// Nastavit název grafu
 chart.getChartTitle().addTextFrameForOverriding("Sample Title");
 chart.getChartTitle().getTextFrameForOverriding().getTextFrameFormat().setCenterText(NullableBool.True);
 chart.getChartTitle().setHeight(20);
 chart.setTitle(true);
 ```
 
-Nastavte název výsečového grafu. Titul si můžete upravit podle potřeby.
+Nastavte název koláčového grafu. Název si můžete upravit dle potřeby.
 
-## Krok 6: Přizpůsobte data grafu
+## Krok 6: Úprava dat grafu
 
 ```java
-//Nastavte první řadu tak, aby zobrazovala hodnoty
+// Nastavení první série pro zobrazení hodnot
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 
 // Nastavení indexu datového listu grafu
 int defaultWorksheetIndex = 0;
 
-// Získání listu dat grafu
+// Získání pracovního listu s daty grafu
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
-// Smazat výchozí vygenerované série a kategorie
+// Smazat výchozí generované série a kategorie
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 
@@ -94,10 +96,10 @@ chart.getChartData().getCategories().add(workbook.getCell(0, 1, 0, "First Qtr"))
 chart.getChartData().getCategories().add(workbook.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(workbook.getCell(0, 3, 0, "3rd Qtr"));
 
-// Přidávání nové série
+// Přidávání nových sérií
 IChartSeries series = chart.getChartData().getSeries().add(workbook.getCell(0, 0, 1, "Series 1"), chart.getType());
 
-// Vyplňování řad dat
+// Naplňování dat série
 series.getDataPoints().addDataPointForPieSeries(workbook.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(workbook.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(workbook.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -105,110 +107,110 @@ series.getDataPoints().addDataPointForPieSeries(workbook.getCell(defaultWorkshee
 
 Přizpůsobte data grafu přidáním kategorií a řad a nastavením jejich hodnot. V tomto příkladu máme tři kategorie a jednu řadu s odpovídajícími datovými body.
 
-## Krok 7: Přizpůsobte sektory výsečového grafu
+## Krok 7: Přizpůsobení sektorů koláčového grafu
 
 ```java
-// Nastavte barvy sektorů
+// Nastavení barev sektorů
 chart.getChartData().getSeriesGroups().get_Item(0).setColorVaried(true);
 
-// Přizpůsobte vzhled každého sektoru
+// Přizpůsobte si vzhled každého sektoru
 IChartDataPoint point1 = series.getDataPoints().get_Item(0);
 point1.getFormat().getFill().setFillType(FillType.Solid);
 point1.getFormat().getFill().getSolidFillColor().setColor(new Color(PresetColor.Cyan));
-// Přizpůsobte hranici sektoru
+// Přizpůsobení ohraničení sektoru
 point1.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 point1.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.GRAY);
 point1.getFormat().getLine().setWidth(3.0);
 point1.getFormat().getLine().setStyle(LineStyle.ThinThick);
 point1.getFormat().getLine().setDashStyle(LineDashStyle.DashDot);
 
-// Podobným způsobem přizpůsobte další sektory
+// Podobným způsobem upravte i další sektory
 ```
 
-Přizpůsobte vzhled každého sektoru v koláčovém grafu. Můžete změnit barvy, styly ohraničení a další vizuální vlastnosti.
+Přizpůsobte si vzhled každého sektoru v koláčovém grafu. Můžete změnit barvy, styly ohraničení a další vizuální vlastnosti.
 
-## Krok 8: Přizpůsobte štítky dat
+## Krok 8: Úprava popisků dat
 
 ```java
-// Přizpůsobte štítky dat
+// Přizpůsobení popisků dat
 IDataLabel lbl1 = series.getDataPoints().get_Item(0).getLabel();
 lbl1.getDataLabelFormat().setShowValue(true);
 
-// Přizpůsobte štítky dat pro jiné datové body podobným způsobem
+// Podobným způsobem upravte popisky dat pro další datové body
 ```
 
-Přizpůsobte popisky dat pro každý datový bod ve výsečovém grafu. Můžete ovládat, které hodnoty se zobrazí v grafu.
+Upravte popisky dat pro každý datový bod v koláčovém grafu. Můžete ovládat, které hodnoty se v grafu zobrazují.
 
-## Krok 9: Zobrazte vodicí čáry
+## Krok 9: Zobrazení vodicích čar
 
 ```java
 // Zobrazit vodicí čáry pro graf
 series.getLabels().getDefaultDataLabelFormat().setShowLeaderLines(true);
 ```
 
-Povolte odkazové čáry pro připojení datových štítků k jejich odpovídajícím sektorům.
+Povolte odkazové čáry pro propojení popisků dat s odpovídajícími sektory.
 
-## Krok 10: Nastavte úhel otočení koláčového grafu
+## Krok 10: Nastavení úhlu natočení koláčového grafu
 
 ```java
-// Nastavte úhel otočení pro sektory koláčového grafu
+// Nastavení úhlu natočení pro sektory koláčového grafu
 chart.getChartData().getSeriesGroups().get_Item(0).setFirstSliceAngle(180);
 ```
 
-Nastavte úhel otočení pro sektory koláčového grafu. V tomto příkladu jsme jej nastavili na 180 stupňů.
+Nastavte úhel natočení pro sektory koláčového grafu. V tomto příkladu jsme ho nastavili na 180 stupňů.
 
 ## Krok 11: Uložte prezentaci
 
 ```java
-// Uložte prezentaci pomocí výsečového grafu
+// Uložte prezentaci s koláčovým grafem
 presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 ```
 
-Uložte prezentaci s výsečovým grafem do určeného adresáře.
+Uložte prezentaci s koláčovým grafem do zadaného adresáře.
 
-## Kompletní zdrojový kód pro koláčový graf v Java Slides
+## Kompletní zdrojový kód pro koláčový graf v Javě Slides
 
 ```java
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 String dataDir = "Your Document Directory";
-// Třída okamžité prezentace, která představuje soubor PPTX
+// Vytvoření instance třídy Presentation, která reprezentuje soubor PPTX
 Presentation presentation = new Presentation();
 // Přístup k prvnímu snímku
 ISlide slides = presentation.getSlides().get_Item(0);
 // Přidat graf s výchozími daty
 IChart chart = slides.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
-// Nastavení názvu grafu
+// Název grafu nastavení
 chart.getChartTitle().addTextFrameForOverriding("Sample Title");
 chart.getChartTitle().getTextFrameForOverriding().getTextFrameFormat().setCenterText(NullableBool.True);
 chart.getChartTitle().setHeight(20);
 chart.setTitle(true);
-// Nastavte první sérii na Zobrazit hodnoty
+// Nastavit první sérii na Zobrazit hodnoty
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 // Nastavení indexu datového listu grafu
 int defaultWorksheetIndex = 0;
-// Získání listu dat grafu
+// Získání pracovního listu s daty grafu
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
-// Smazat výchozí vygenerované série a kategorie
+// Smazat výchozí generované série a kategorie
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 // Přidávání nových kategorií
 chart.getChartData().getCategories().add(fact.getCell(0, 1, 0, "First Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
-// Přidávání nové série
+// Přidávání nových sérií
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-// Nyní se vyplňují data série
+// Nyní se naplňují data série
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
-// V nové verzi nefunguje
-// Přidávání nových bodů a nastavení barvy sektoru
-// series.IsColorVaried = true;
+// Nefunguje v nové verzi
+// Přidání nových bodů a nastavení barvy sektoru
+// série.JeBarvaRůzná = true;
 chart.getChartData().getSeriesGroups().get_Item(0).setColorVaried(true);
 IChartDataPoint point = series.getDataPoints().get_Item(0);
 point.getFormat().getFill().setFillType(FillType.Solid);
 point.getFormat().getFill().getSolidFillColor().setColor(new Color(PresetColor.Cyan));
-// Nastavení hranice sektoru
+// Stanovení hranice sektoru
 point.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 point.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.GRAY);
 point.getFormat().getLine().setWidth(3.0);
@@ -217,7 +219,7 @@ point.getFormat().getLine().setDashStyle(LineDashStyle.DashDot);
 IChartDataPoint point1 = series.getDataPoints().get_Item(1);
 point1.getFormat().getFill().setFillType(FillType.Solid);
 point1.getFormat().getFill().getSolidFillColor().setColor(new Color(PresetColor.Brown));
-// Nastavení hranice sektoru
+// Stanovení hranice sektoru
 point1.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 point1.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.BLUE);
 point1.getFormat().getLine().setWidth(3.0);
@@ -226,13 +228,13 @@ point1.getFormat().getLine().setDashStyle(LineDashStyle.LargeDashDot);
 IChartDataPoint point2 = series.getDataPoints().get_Item(2);
 point2.getFormat().getFill().setFillType(FillType.Solid);
 point2.getFormat().getFill().getSolidFillColor().setColor(new Color(PresetColor.Coral));
-// Nastavení hranice sektoru
+// Stanovení hranice sektoru
 point2.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 point2.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
 point2.getFormat().getLine().setWidth(2.0);
 point2.getFormat().getLine().setStyle(LineStyle.ThinThin);
 point2.getFormat().getLine().setDashStyle(LineDashStyle.LargeDashDotDot);
-// Vytvořte vlastní štítky pro každou z kategorií pro nové série
+// Vytvořte vlastní štítky pro každou kategorii pro nové série
 IDataLabel lbl1 = series.getDataPoints().get_Item(0).getLabel();
 // lbl.setShowCategoryName(true);
 lbl1.getDataLabelFormat().setShowValue(true);
@@ -243,9 +245,9 @@ lbl2.getDataLabelFormat().setShowPercentage(true);
 IDataLabel lbl3 = series.getDataPoints().get_Item(2).getLabel();
 lbl3.getDataLabelFormat().setShowSeriesName(true);
 lbl3.getDataLabelFormat().setShowPercentage(true);
-// Zobrazení vůdčích čar pro graf
+// Zobrazení odkazových čar pro graf
 series.getLabels().getDefaultDataLabelFormat().setShowLeaderLines(true);
-// Nastavení úhlu rotace pro sektory koláčového grafu
+// Nastavení úhlu natočení pro sektory koláčového grafu
 chart.getChartData().getSeriesGroups().get_Item(0).setFirstSliceAngle(180);
 // Uložit prezentaci s grafem
 presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
@@ -253,45 +255,47 @@ presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 
 ## Závěr
 
-Úspěšně jste vytvořili výsečový graf v prezentaci aplikace PowerPoint pomocí Aspose.Slides for Java. Vzhled grafu a popisky dat můžete přizpůsobit svým konkrétním požadavkům. Tento výukový program poskytuje základní příklad a své grafy můžete dále vylepšovat a přizpůsobovat podle potřeby.
+Úspěšně jste vytvořili koláčový graf v prezentaci PowerPoint pomocí Aspose.Slides pro Javu. Vzhled grafu a popisky dat si můžete přizpůsobit podle svých specifických požadavků. Tento tutoriál poskytuje základní příklad a grafy můžete dále vylepšovat a přizpůsobovat dle potřeby.
 
-## FAQ
+## Často kladené otázky
 
 ### Jak mohu změnit barvy jednotlivých sektorů v koláčovém grafu?
 
- Chcete-li změnit barvy jednotlivých sektorů ve výsečovém grafu, můžete upravit barvu výplně pro každý datový bod. V poskytnutém příkladu kódu jsme ukázali, jak nastavit barvu výplně pro každý sektor pomocí`getSolidFillColor().setColor()` metoda. Hodnoty barev můžete upravit, abyste dosáhli požadovaného vzhledu.
+Chcete-li změnit barvy jednotlivých sektorů v koláčovém grafu, můžete si přizpůsobit barvu výplně pro každý datový bod. V uvedeném příkladu kódu jsme ukázali, jak nastavit barvu výplně pro každý sektor pomocí `getSolidFillColor().setColor()` metoda. Hodnoty barev můžete upravit tak, abyste dosáhli požadovaného vzhledu.
 
-### Mohu do výsečového grafu přidat další kategorie a datové řady?
+### Mohu do koláčového grafu přidat další kategorie a datové řady?
 
- Ano, do výsečového grafu můžete přidat další kategorie a datové řady. Chcete-li to provést, můžete použít`getChartData().getCategories().add()` a`getChartData().getSeries().add()` metody, jak je ukázáno v příkladu. Jednoduše zadejte příslušná data a štítky pro nové kategorie a série, abyste rozšířili svůj graf.
+Ano, do koláčového grafu můžete přidat další kategorie a datové řady. K tomu můžete použít `getChartData().getCategories().add()` a `getChartData().getSeries().add()` metody, jak je znázorněno v příkladu. Jednoduše zadejte příslušná data a popisky pro nové kategorie a řady, abyste rozšířili graf.
 
-### Jak přizpůsobím vzhled datových štítků?
+### Jak si mohu přizpůsobit vzhled popisků dat?
 
- Vzhled datových štítků můžete upravit pomocí`getDataLabelFormat()` metoda na štítku každého datového bodu. V příkladu jsme si ukázali, jak pomocí datových štítků zobrazit hodnotu`getDataLabelFormat().setShowValue(true)`. Popisky dat můžete dále přizpůsobit ovládáním zobrazených hodnot, zobrazením klíčů legend a úpravou dalších možností formátování.
+Vzhled popisků dat si můžete přizpůsobit pomocí `getDataLabelFormat()` metodu na popisku každého datového bodu. V příkladu jsme si ukázali, jak zobrazit hodnotu na popiscích dat pomocí `getDataLabelFormat().setShowValue(true)`Popisky dat si můžete dále přizpůsobit ovládáním zobrazených hodnot, zobrazením legendy a úpravou dalších možností formátování.
 
 ### Mohu změnit název koláčového grafu?
 
- Ano, můžete změnit název koláčového grafu. V poskytnutém kódu nastavíme název grafu pomocí`chart.getChartTitle().addTextFrameForOverriding("Sample Title")` . Můžete vyměnit`"Sample Title"` s požadovaným textem nadpisu.
+Ano, název koláčového grafu můžete změnit. V poskytnutém kódu jsme název grafu nastavili pomocí `chart.getChartTitle().addTextFrameForOverriding("Sample Title")`Můžete nahradit `"Sample Title"` s požadovaným textem titulku.
 
-### Jak uložím vygenerovanou prezentaci pomocí koláčového grafu?
+### Jak uložím vygenerovanou prezentaci s koláčovým grafem?
 
- Chcete-li uložit prezentaci s výsečovým grafem, použijte`presentation.save()` metoda. Zadejte požadovanou cestu k souboru a název spolu s formátem, ve kterém chcete prezentaci uložit. Například:
+Chcete-li uložit prezentaci s koláčovým grafem, použijte `presentation.save()` metoda. Zadejte požadovanou cestu k souboru a jeho název spolu s formátem, ve kterém chcete prezentaci uložit. Například:
 ```java
 presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 ```
 
-Ujistěte se, že jste zadali správnou cestu a formát souboru.
+Ujistěte se, že jste zadali správnou cestu k souboru a jeho formát.
 
-### Mohu pomocí Aspose.Slides for Java vytvářet jiné typy grafů?
+### Mohu pomocí Aspose.Slides pro Javu vytvářet i jiné typy grafů?
 
-Ano, Aspose.Slides for Java podporuje různé typy grafů, včetně sloupcových grafů, spojnicových grafů a dalších. Můžete vytvářet různé typy grafů změnou`ChartType` při přidávání grafu. Další podrobnosti o vytváření různých typů grafů naleznete v dokumentaci Aspose.Slides.
+Ano, Aspose.Slides pro Javu podporuje různé typy grafů, včetně sloupcových grafů, spojnicových grafů a dalších. Různé typy grafů můžete vytvářet změnou `ChartType` při přidávání grafu. Další podrobnosti o vytváření různých typů grafů naleznete v dokumentaci k Aspose.Slides.
 
-### Jak najdu další informace a příklady pro práci s Aspose.Slides for Java?
+### Jak mohu najít více informací a příkladů pro práci s Aspose.Slides pro Javu?
 
- Další informace, podrobnou dokumentaci a další příklady naleznete na adrese[Aspose.Slides pro dokumentaci Java](https://reference.aspose.com/slides/java/). Poskytuje komplexní zdroje, které vám pomohou efektivně využívat knihovnu.
+Pro více informací, podrobnou dokumentaci a další příklady můžete navštívit [Dokumentace k Aspose.Slides pro Javu](https://reference.aspose.com/slides/java/)Poskytuje komplexní zdroje, které vám pomohou efektivně využívat knihovnu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

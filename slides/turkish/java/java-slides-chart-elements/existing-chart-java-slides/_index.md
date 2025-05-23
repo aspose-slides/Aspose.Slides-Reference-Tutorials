@@ -1,69 +1,71 @@
 ---
-title: Java Slaytlarındaki Mevcut Grafik
-linktitle: Java Slaytlarındaki Mevcut Grafik
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides for Java ile PowerPoint sunumlarınızı geliştirin. Mevcut grafikleri programlı olarak değiştirmeyi öğrenin. Grafik özelleştirmesi için kaynak kodlu adım adım kılavuz.
-weight: 12
-url: /tr/java/chart-elements/existing-chart-java-slides/
+"description": "PowerPoint sunumlarınızı Aspose.Slides for Java ile geliştirin. Mevcut grafikleri programatik olarak değiştirmeyi öğrenin. Grafik özelleştirmesi için kaynak kodlu adım adım kılavuz."
+"linktitle": "Java Slaytlarında Mevcut Grafik"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java Slaytlarında Mevcut Grafik"
+"url": "/tr/java/chart-elements/existing-chart-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java Slaytlarındaki Mevcut Grafik
+# Java Slaytlarında Mevcut Grafik
 
 
-## Aspose.Slides for Java kullanarak Java Slaytlarındaki Mevcut Grafiğe Giriş
+## Java Slaytlarında Mevcut Grafiklere Giriş Aspose.Slides for Java kullanılarak
 
-Bu eğitimde, Aspose.Slides for Java kullanarak bir PowerPoint sunumunda mevcut bir grafiğin nasıl değiştirileceğini göstereceğiz. Grafik verilerini, kategori adlarını, seri adlarını değiştirme ve grafiğe yeni bir seri ekleme adımlarını izleyeceğiz. Projenizde Aspose.Slides for Java'nın kurulu olduğundan emin olun.
+Bu eğitimde, Aspose.Slides for Java kullanarak bir PowerPoint sunumunda var olan bir grafiğin nasıl değiştirileceğini göstereceğiz. Grafik verilerini, kategori adlarını, seri adlarını değiştirme ve grafiğe yeni bir seri ekleme adımlarını ele alacağız. Projenizde Aspose.Slides for Java'nın kurulu olduğundan emin olun.
 
-## Önkoşullar
+## Ön koşullar
 
-Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
-1. Aspose.Slides for Java kütüphanesi projenize dahil edilmiştir.
-2. Değiştirmek istediğiniz grafiğin bulunduğu mevcut bir PowerPoint sunumu.
+1. Projenize Aspose.Slides for Java kütüphanesi dahil edildi.
+2. Değiştirmek istediğiniz bir grafik içeren mevcut bir PowerPoint sunumu.
 3. Java geliştirme ortamı kuruldu.
 
-## 1. Adım: Sunuyu Yükleyin
+## Adım 1: Sunumu Yükleyin
 
 ```java
-// Belgeler dizininin yolu.
+// Belgeler dizinine giden yol.
 String dataDir = "Your Document Directory";
 
-// PPTX dosyasını temsil eden Sunum sınıfını somutlaştırın
+// PPTX dosyasını temsil eden Sunum sınıfını örneklendirin
 Presentation pres = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
-## Adım 2: Slayt ve Grafiğe Erişin
+## Adım 2: Slayt ve Tabloya Erişim
 
 ```java
 // İlk slayda erişin
 ISlide sld = pres.getSlides().get_Item(0);
 
-// Slayttaki grafiğe erişin
+// Slayttaki tabloya erişin
 IChart chart = (IChart) sld.getShapes().get_Item(0);
 ```
 
-## 3. Adım: Grafik Verilerini ve Kategori Adlarını Değiştirin
+## Adım 3: Grafik Verilerini ve Kategori Adlarını Değiştirin
 
 ```java
 // Grafik veri sayfasının indeksini ayarlama
 int defaultWorksheetIndex = 0;
 
-// Grafik verileri çalışma sayfasını alma
+// Grafik veri çalışma sayfasını alma
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
-// Grafik kategorisi adlarını değiştirme
+// Grafik kategori adlarını değiştir
 fact.getCell(defaultWorksheetIndex, 1, 0, "Modified Category 1");
 fact.getCell(defaultWorksheetIndex, 2, 0, "Modified Category 2");
 ```
 
-## 4. Adım: İlk Grafik Serisini Güncelleyin
+## Adım 4: İlk Grafik Serisini Güncelleyin
 
 ```java
-// İlk grafik serisini alın
+// İlk grafik serisini ele alalım
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 
 // Seri adını güncelle
@@ -78,7 +80,7 @@ series.getDataPoints().get_Item(2).getValue().setData(44);
 ## Adım 5: İkinci Grafik Serisini Güncelleyin
 
 ```java
-// İkinci grafik serisini alın
+// İkinci grafik serisini ele alalım
 series = chart.getChartData().getSeries().get_Item(1);
 
 // Seri adını güncelle
@@ -93,10 +95,10 @@ series.getDataPoints().get_Item(2).getValue().setData(99);
 ## Adım 6: Grafiğe Yeni Bir Seri Ekleyin
 
 ```java
-// Yeni bir seri ekleme
+// Yeni bir seri ekleniyor
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 3, "Series 3"), chart.getType());
 
-// Üçüncü grafik serisini alın
+// Üçüncü grafik serisini ele alalım
 series = chart.getChartData().getSeries().get_Item(2);
 
 // Seri verilerini doldur
@@ -108,7 +110,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 ## Adım 7: Grafik Türünü Değiştirin
 
 ```java
-//Grafik türünü Kümelenmiş Silindir olarak değiştirin
+// Grafik türünü Kümelenmiş Silindir olarak değiştirin
 chart.setType(ChartType.ClusteredCylinder);
 ```
 
@@ -119,24 +121,24 @@ chart.setType(ChartType.ClusteredCylinder);
 pres.save(dataDir + "AsposeChartModified_out.pptx", SaveFormat.Pptx);
 ```
 
-Tebrikler! Aspose.Slides for Java'yı kullanarak PowerPoint sunumundaki mevcut bir grafiği başarıyla değiştirdiniz. Artık PowerPoint sunumlarınızdaki grafikleri programlı olarak özelleştirmek için bu kodu kullanabilirsiniz.
+Tebrikler! Aspose.Slides for Java kullanarak bir PowerPoint sunumunda var olan bir grafiği başarıyla değiştirdiniz. Artık bu kodu kullanarak PowerPoint sunumlarınızdaki grafikleri programatik olarak özelleştirebilirsiniz.
 
-## Java Slaytlarındaki Mevcut Grafiğin Kaynak Kodunu Tamamlayın
+## Java Slaytlarında Mevcut Grafik İçin Tam Kaynak Kodu
 
 ```java
-// Belgeler dizininin yolu.
+// Belgeler dizinine giden yol.
 String dataDir = "Your Document Directory";
-// PPTX dosyasını temsil eden Örnek Sunum sınıfı// PPTX dosyasını temsil eden Örnek Sunum sınıfı
+// PPTX dosyasını temsil eden Sunum sınıfını örneklendir// PPTX dosyasını temsil eden Sunum sınıfını örneklendir
 Presentation pres = new Presentation(dataDir + "ExistingChart.pptx");
-// İlk SlideMarker'a erişin
+// İlk slideMarker'a erişin
 ISlide sld = pres.getSlides().get_Item(0);
 // Varsayılan verilerle grafik ekle
 IChart chart = (IChart) sld.getShapes().get_Item(0);
 // Grafik veri sayfasının indeksini ayarlama
 int defaultWorksheetIndex = 0;
-// Grafik verileri çalışma sayfasını alma
+// Grafik veri çalışma sayfasını alma
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
-// Grafik Kategori Adını değiştirme
+// Grafik Kategorisi Adını Değiştirme
 fact.getCell(defaultWorksheetIndex, 1, 0, "Modified Category 1");
 fact.getCell(defaultWorksheetIndex, 2, 0, "Modified Category 2");
 // İlk grafik serisini alın
@@ -153,7 +155,7 @@ fact.getCell(defaultWorksheetIndex, 0, 2, "New_Series2");// Seri adını değiş
 series.getDataPoints().get_Item(0).getValue().setData(23);
 series.getDataPoints().get_Item(1).getValue().setData(67);
 series.getDataPoints().get_Item(2).getValue().setData(99);
-// Şimdi yeni bir seri ekliyoruz
+// Şimdi, yeni bir seri ekleniyor
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 3, "Series 3"), chart.getType());
 // 3. grafik serisini alın
 series = chart.getChartData().getSeries().get_Item(2);
@@ -167,32 +169,34 @@ pres.save(dataDir + "AsposeChartModified_out.pptx", SaveFormat.Pptx);
 ```
 ## Çözüm
 
-Bu kapsamlı eğitimde, Aspose.Slides for Java kullanarak bir PowerPoint sunumunda mevcut bir grafiğin nasıl değiştirileceğini öğrendik. Adım adım kılavuzu takip ederek ve kaynak kodu örneklerinden yararlanarak, özel gereksinimlerinizi karşılamak için grafikleri kolayca özelleştirebilir ve güncelleyebilirsiniz. İşte ele aldığımız konuların bir özeti:
+Bu kapsamlı eğitimde, Aspose.Slides for Java kullanarak bir PowerPoint sunumunda mevcut bir grafiği nasıl değiştireceğimizi öğrendik. Adım adım kılavuzu takip ederek ve kaynak kod örneklerini kullanarak, grafikleri özel gereksinimlerinizi karşılayacak şekilde kolayca özelleştirebilir ve güncelleyebilirsiniz. İşte ele aldığımız konuların bir özeti:
 
-## SSS'ler
+## SSS
 
 ### Grafik türünü nasıl değiştirebilirim?
 
- Grafik türünü kullanarak değiştirebilirsiniz.`chart.setType(ChartType.ChartTypeHere)` yöntem. Yer değiştirmek`ChartTypeHere` İstenilen grafik türüyle, örneğin`ChartType.ClusteredCylinder` bizim örneğimizde.
+Grafik türünü değiştirmek için şunu kullanabilirsiniz: `chart.setType(ChartType.ChartTypeHere)` yöntem. Değiştir `ChartTypeHere` İstenilen grafik türüyle, örneğin `ChartType.ClusteredCylinder` Örneğimizde.
 
 ### Bir seriye daha fazla veri noktası ekleyebilir miyim?
 
- Evet, kullanarak bir seriye daha fazla veri noktası ekleyebilirsiniz.`series.getDataPoints().addDataPointForBarSeries(cell)` yöntem. Uygun hücre verilerini sağladığınızdan emin olun.
+Evet, bir seriye daha fazla veri noktası ekleyebilirsiniz. `series.getDataPoints().addDataPointForBarSeries(cell)` yöntem. Uygun hücre verilerini sağladığınızdan emin olun.
 
 ### Kategori adlarını nasıl güncellerim?
 
- Kategori adlarını kullanarak güncelleyebilirsiniz.`fact.getCell(worksheetIndex, columnIndex, rowIndex, newValue)` Yeni kategori adlarını ayarlamak için.
+Kategori adlarını kullanarak güncelleyebilirsiniz. `fact.getCell(worksheetIndex, columnIndex, rowIndex, newValue)` yeni kategori adlarını ayarlamak için.
 
-### Dizi adlarını nasıl değiştiririm?
+### Dizi adlarını nasıl değiştirebilirim?
 
- Seri adlarını değiştirmek için şunu kullanın:`fact.getCell(worksheetIndex, columnIndex, rowIndex, newValue)` Yeni seri adlarını ayarlamak için.
+Seri adlarını değiştirmek için şunu kullanın: `fact.getCell(worksheetIndex, columnIndex, rowIndex, newValue)` yeni seri adlarını belirlemek için.
 
 ### Bir seriyi grafikten kaldırmanın bir yolu var mı?
 
- Evet, kullanarak bir seriyi grafikten kaldırabilirsiniz.`chart.getChartData().getSeries().removeAt(index)` yöntem, nerede`index`kaldırmak istediğiniz serinin indeksidir.
+Evet, bir seriyi grafikten kaldırmak için şunu kullanabilirsiniz: `chart.getChartData().getSeries().removeAt(index)` yöntem, nerede `index` kaldırmak istediğiniz dizinin dizinidir.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

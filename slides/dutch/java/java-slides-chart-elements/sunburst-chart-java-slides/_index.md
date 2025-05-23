@@ -1,30 +1,32 @@
 ---
-title: Sunburst-grafiek in Java-dia's
-linktitle: Sunburst-grafiek in Java-dia's
-second_title: Aspose.Slides Java PowerPoint-verwerkings-API
-description: Maak verbluffende Sunburst-grafieken in Java-dia's met Aspose.Slides. Leer stapsgewijze diagrammen maken en gegevensmanipulatie.
-weight: 16
-url: /nl/java/chart-elements/sunburst-chart-java-slides/
+"description": "Maak verbluffende sunburst-grafieken in Java Slides met Aspose.Slides. Leer stapsgewijs hoe je grafieken maakt en gegevens bewerkt."
+"linktitle": "Zonnestraaldiagram in Java-dia's"
+"second_title": "Aspose.Slides Java PowerPoint-verwerkings-API"
+"title": "Zonnestraaldiagram in Java-dia's"
+"url": "/nl/java/chart-elements/sunburst-chart-java-slides/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Sunburst-grafiek in Java-dia's
+# Zonnestraaldiagram in Java-dia's
 
 
-## Inleiding tot Sunburst Chart in Java-dia's met Aspose.Slides
+## Inleiding tot Sunburst-diagrammen in Java-dia's met Aspose.Slides
 
-In deze zelfstudie leert u hoe u een Sunburst-diagram maakt in een PowerPoint-presentatie met behulp van de Aspose.Slides voor Java API. Een Sunburst-diagram is een radiaaldiagram dat wordt gebruikt om hiërarchische gegevens weer te geven. We bieden stapsgewijze instructies samen met de broncode.
+In deze tutorial leer je hoe je een Sunburst-grafiek maakt in een PowerPoint-presentatie met behulp van de Aspose.Slides voor Java API. Een Sunburst-grafiek is een radiaaldiagram dat wordt gebruikt om hiërarchische gegevens weer te geven. We geven stapsgewijze instructies en broncode.
 
 ## Vereisten
 
- Voordat u begint, moet u ervoor zorgen dat de Aspose.Slides voor Java-bibliotheek in uw Java-project is geïnstalleerd en geconfigureerd. U kunt de bibliotheek downloaden van[hier](https://releases.aspose.com/slides/java/).
+Voordat u begint, moet u ervoor zorgen dat de Aspose.Slides voor Java-bibliotheek is geïnstalleerd en geconfigureerd in uw Java-project. U kunt de bibliotheek downloaden van [hier](https://releases.aspose.com/slides/java/).
 
-## Stap 1: Importeer de vereiste bibliotheken
+## Stap 1: Vereiste bibliotheken importeren
 
-Importeer eerst de benodigde bibliotheken om met Aspose.Slides te werken en maak een Sunburst-diagram in uw Java-toepassing.
+Importeer eerst de benodigde bibliotheken om met Aspose.Slides te werken en maak een Sunburst-grafiek in uw Java-toepassing.
 
 ```java
 import com.aspose.slides.*;
@@ -32,7 +34,7 @@ import com.aspose.slides.*;
 
 ## Stap 2: Initialiseer de presentatie
 
-Initialiseer een PowerPoint-presentatie en geef de map op waar uw presentatiebestand zal worden opgeslagen.
+Initialiseer een PowerPoint-presentatie en geef de map op waar uw presentatiebestand moet worden opgeslagen.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -41,15 +43,15 @@ Presentation pres = new Presentation(dataDir + "test.pptx");
 
 ## Stap 3: Maak de Sunburst-grafiek
 
-Maak een Sunburst-diagram op een dia. We specificeren de positie (X, Y) en afmetingen (breedte, hoogte) van de grafiek.
+Maak een Sunburst-grafiek op een dia. We specificeren de positie (X, Y) en afmetingen (breedte, hoogte) van de grafiek.
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Sunburst, 50, 50, 500, 400);
 ```
 
-## Stap 4: Bereid grafiekgegevens voor
+## Stap 4: Grafiekgegevens voorbereiden
 
-Wis alle bestaande categorieën en reeksgegevens uit het diagram en maak een gegevenswerkmap voor het diagram.
+Verwijder alle bestaande categorieën en reeksgegevens uit de grafiek en maak een gegevenswerkmap voor de grafiek.
 
 ```java
 chart.getChartData().getCategories().clear();
@@ -58,9 +60,9 @@ IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
 wb.clear(0);
 ```
 
-## Stap 5: Definieer de diagramhiërarchie
+## Stap 5: Definieer de grafiekhiërarchie
 
-Definieer de hiërarchische structuur van het Sunburst-diagram. U kunt takken, stengels en bladeren als categorieën toevoegen.
+Definieer de hiërarchische structuur van de Sunburst-grafiek. U kunt takken, stengels en bladeren als categorieën toevoegen.
 
 ```java
 // Tak 1
@@ -82,9 +84,9 @@ leaf.getGroupingLevels().setGroupingItem(1, "Stem4");
 chart.getChartData().getCategories().add(wb.getCell(0, "C8", "Leaf8"));
 ```
 
-## Stap 6: Voeg gegevens toe aan het diagram
+## Stap 6: Gegevens toevoegen aan de grafiek
 
-Voeg gegevenspunten toe aan de Sunburst-diagramreeks.
+Voeg datapunten toe aan de Sunburst-grafiekreeks.
 
 ```java
 IChartSeries series = chart.getChartData().getSeries().add(ChartType.Sunburst);
@@ -101,7 +103,7 @@ series.getDataPoints().addDataPointForSunburstSeries(wb.getCell(0, "D8", 3));
 
 ## Stap 7: Sla de presentatie op
 
-Sla ten slotte de presentatie op met het Sunburst-diagram.
+Sla ten slotte de presentatie met het Sunburst-diagram op.
 
 ```java
 pres.save("Sunburst.pptx", SaveFormat.Pptx);
@@ -155,28 +157,30 @@ finally
 
 ## Conclusie
 
-In deze zelfstudie hebt u geleerd hoe u een Sunburst-grafiek kunt maken in een PowerPoint-presentatie met behulp van de Aspose.Slides voor Java API. U hebt gezien hoe u de presentatie kunt initialiseren, het diagram kunt maken, de diagramhiërarchie kunt definiëren, gegevenspunten kunt toevoegen en de presentatie kunt opslaan. U kunt deze kennis nu gebruiken om interactieve en informatieve Sunburst-grafieken te maken in uw Java-applicaties.
+In deze tutorial heb je geleerd hoe je een Sunburst-grafiek maakt in een PowerPoint-presentatie met behulp van de Aspose.Slides voor Java API. Je hebt gezien hoe je de presentatie initialiseert, de grafiek aanmaakt, de hiërarchie definieert, datapunten toevoegt en de presentatie opslaat. Je kunt deze kennis nu gebruiken om interactieve en informatieve Sunburst-grafieken te maken in je Java-applicaties.
 
 ## Veelgestelde vragen
 
 ### Hoe pas ik het uiterlijk van het Sunburst-diagram aan?
 
-U kunt het uiterlijk van het Sunburst-diagram aanpassen door eigenschappen zoals kleuren, labels en stijlen te wijzigen. Raadpleeg de Aspose.Slides-documentatie voor gedetailleerde aanpassingsopties.
+U kunt het uiterlijk van de Sunburst-grafiek aanpassen door eigenschappen zoals kleuren, labels en stijlen aan te passen. Raadpleeg de Aspose.Slides-documentatie voor gedetailleerde aanpassingsopties.
 
-### Kan ik meer gegevenspunten aan het diagram toevoegen?
+### Kan ik meer datapunten aan de grafiek toevoegen?
 
- Ja, u kunt meer gegevenspunten aan het diagram toevoegen met behulp van de`series.getDataPoints().addDataPointForSunburstSeries()` methode voor elk gegevenspunt dat u wilt opnemen.
+Ja, u kunt meer datapunten aan de grafiek toevoegen met behulp van de `series.getDataPoints().addDataPointForSunburstSeries()` Selecteer een methode voor elk gegevenspunt dat u wilt opnemen.
 
 ### Hoe kan ik tooltips toevoegen aan het Sunburst-diagram?
 
-Als u knopinfo aan het Sunburst-diagram wilt toevoegen, kunt u de indeling van het gegevenslabel zo instellen dat aanvullende informatie, zoals waarden of beschrijvingen, wordt weergegeven wanneer u de muisaanwijzer over diagramsegmenten beweegt.
+Om tooltips aan het Sunburst-diagram toe te voegen, kunt u de indeling van het gegevenslabel zo instellen dat er extra informatie wordt weergegeven, zoals waarden of beschrijvingen, wanneer u de muisaanwijzer op diagramsegmenten plaatst.
 
 ### Is het mogelijk om interactieve Sunburst-grafieken met hyperlinks te maken?
 
-Ja, u kunt interactieve Sunburst-diagrammen met hyperlinks maken door hyperlinks toe te voegen aan specifieke diagramelementen of segmenten. Raadpleeg de Aspose.Slides-documentatie voor meer informatie over het toevoegen van hyperlinks.
+Ja, u kunt interactieve Sunburst-grafieken met hyperlinks maken door hyperlinks toe te voegen aan specifieke grafiekelementen of segmenten. Raadpleeg de Aspose.Slides-documentatie voor meer informatie over het toevoegen van hyperlinks.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

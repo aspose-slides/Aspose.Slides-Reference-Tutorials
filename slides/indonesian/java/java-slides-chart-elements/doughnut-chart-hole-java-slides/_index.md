@@ -1,28 +1,30 @@
 ---
-title: Lubang Bagan Donat di Slide Java
-linktitle: Lubang Bagan Donat di Slide Java
-second_title: Aspose.Slides API Pemrosesan Java PowerPoint
-description: Buat Bagan Donat dengan Ukuran Lubang Khusus di Slide Java menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah dengan kode sumber untuk penyesuaian bagan.
-weight: 11
-url: /id/java/chart-elements/doughnut-chart-hole-java-slides/
+"description": "Buat Bagan Donat dengan Ukuran Lubang Kustom di Java Slides menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah dengan kode sumber untuk kustomisasi bagan."
+"linktitle": "Lubang Bagan Donat di Slide Java"
+"second_title": "API Pemrosesan PowerPoint Java Aspose.Slides"
+"title": "Lubang Bagan Donat di Slide Java"
+"url": "/id/java/chart-elements/doughnut-chart-hole-java-slides/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lubang Bagan Donat di Slide Java
 
 
-## Pengantar Bagan Donat Berlubang di Slide Java
+## Pengenalan Bagan Donat dengan Lubang di Slide Java
 
-Dalam tutorial ini, kami akan memandu Anda dalam membuat bagan donat berlubang menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah ini akan memandu Anda melalui proses dengan contoh kode sumber.
+Dalam tutorial ini, kami akan memandu Anda membuat diagram donat berlubang menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah ini akan memandu Anda melalui proses tersebut dengan contoh kode sumber.
 
 ## Prasyarat
 
- Sebelum memulai, pastikan Anda telah menginstal dan menyiapkan pustaka Aspose.Slides untuk Java di proyek Java Anda. Anda dapat mengunduhnya dari[Aspose.Slides untuk dokumentasi Java](https://reference.aspose.com/slides/java/).
+Sebelum memulai, pastikan Anda telah menginstal dan mengatur pustaka Aspose.Slides for Java di proyek Java Anda. Anda dapat mengunduhnya dari [Dokumentasi Aspose.Slides untuk Java](https://reference.aspose.com/slides/java/).
 
-## Langkah 1: Impor Perpustakaan yang Diperlukan
+## Langkah 1: Impor Pustaka yang Diperlukan
 
 ```java
 import com.aspose.slides.ChartType;
@@ -45,10 +47,10 @@ Presentation presentation = new Presentation();
 
 ```java
 try {
-    // Buat bagan donat di slide pertama
+    // Buat diagram donat pada slide pertama
     IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Doughnut, 50, 50, 400, 400);
     
-    // Atur ukuran lubang pada grafik donat (dalam persentase)
+    // Mengatur ukuran lubang pada diagram donat (dalam persentase)
     chart.getChartData().getSeriesGroups().get_Item(0).setDoughnutHoleSize((byte) 90);
     
     // Simpan presentasi ke disk
@@ -61,9 +63,9 @@ try {
 
 ## Langkah 4: Jalankan Kode
 
- Jalankan kode Java di IDE atau editor teks Anda untuk membuat bagan donat dengan ukuran lubang tertentu. Pastikan untuk mengganti`"Your Document Directory"` dengan jalur sebenarnya tempat Anda ingin menyimpan presentasi.
+Jalankan kode Java di IDE atau editor teks Anda untuk membuat diagram donat dengan ukuran lubang tertentu. Pastikan untuk mengganti `"Your Document Directory"` dengan jalur sebenarnya tempat Anda ingin menyimpan presentasi.
 
-## Kode Sumber Lengkap Untuk Lubang Bagan Donat di Slide Java
+## Source Code Lengkap Untuk Lubang Bagan Donat di Java Slides
 
 ```java
 // Jalur ke direktori dokumen.
@@ -85,24 +87,26 @@ finally
 
 ## Kesimpulan
 
- Dalam tutorial ini, Anda mempelajari cara membuat bagan donat berlubang menggunakan Aspose.Slides untuk Java. Anda dapat menyesuaikan ukuran lubang dengan menyesuaikannya`setDoughnutHoleSize` parameter metode.
+Dalam tutorial ini, Anda mempelajari cara membuat bagan donat berlubang menggunakan Aspose.Slides untuk Java. Anda dapat menyesuaikan ukuran lubang dengan menyesuaikan `setDoughnutHoleSize` parameter metode.
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
 ### Bagaimana cara mengubah warna segmen bagan?
 
- Untuk mengubah warna segmen bagan, Anda dapat menggunakan`setDataPointsInLegend` metode pada`IChart` objek dan atur warna yang diinginkan untuk setiap titik data.
+Untuk mengubah warna segmen grafik, Anda dapat menggunakan `setDataPointsInLegend` metode pada `IChart` objek dan mengatur warna yang diinginkan untuk setiap titik data.
 
-### Bisakah saya menambahkan label ke segmen bagan donat?
+### Dapatkah saya menambahkan label ke segmen diagram donat?
 
- Ya, Anda dapat menambahkan label ke segmen bagan donat menggunakan`setDataPointsLabelValue` metode pada`IChart` obyek.
+Ya, Anda dapat menambahkan label ke segmen diagram donat menggunakan `setDataPointsLabelValue` metode pada `IChart` obyek.
 
-### Apakah mungkin untuk menambahkan judul pada grafik?
+### Apakah mungkin untuk menambahkan judul pada bagan?
 
- Tentu! Anda dapat menambahkan judul ke bagan menggunakan`setTitle` metode pada`IChart` objek dan memberikan judul teks yang diinginkan.
+Tentu saja! Anda dapat menambahkan judul ke grafik menggunakan `setTitle` metode pada `IChart` objek dan memberikan teks judul yang diinginkan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

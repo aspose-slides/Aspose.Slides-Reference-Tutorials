@@ -1,30 +1,32 @@
 ---
-title: Konwertuj prezentacje do formatu HTML za pomocą osadzonych czcionek
-linktitle: Konwertuj prezentacje do formatu HTML za pomocą osadzonych czcionek
-second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Konwertuj prezentacje programu PowerPoint do formatu HTML z osadzonymi czcionkami przy użyciu Aspose.Slides dla .NET. Zachowaj oryginalność bezproblemowo.
-weight: 13
-url: /pl/net/presentation-conversion/convert-presentations-to-html-with-embedded-fonts/
+"description": "Konwertuj prezentacje PowerPoint do HTML z osadzonymi czcionkami za pomocą Aspose.Slides dla .NET. Zachowaj oryginalność bezproblemowo."
+"linktitle": "Konwertuj prezentacje do formatu HTML z osadzonymi czcionkami"
+"second_title": "Aspose.Slides .NET API przetwarzania programu PowerPoint"
+"title": "Konwertuj prezentacje do formatu HTML z osadzonymi czcionkami"
+"url": "/pl/net/presentation-conversion/convert-presentations-to-html-with-embedded-fonts/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Konwertuj prezentacje do formatu HTML za pomocą osadzonych czcionek
+# Konwertuj prezentacje do formatu HTML z osadzonymi czcionkami
 
 
-W dzisiejszej epoce cyfrowej udostępnianie prezentacji i dokumentów online stało się powszechną praktyką. Jednak często pojawiającym się wyzwaniem jest zapewnienie prawidłowego wyświetlania czcionek podczas konwersji prezentacji do formatu HTML. Ten samouczek krok po kroku poprowadzi Cię przez proces używania Aspose.Slides dla .NET do konwersji prezentacji do formatu HTML z osadzonymi czcionkami, zapewniając, że Twoje dokumenty będą wyglądać dokładnie tak, jak zamierzyłeś.
+dzisiejszej erze cyfrowej udostępnianie prezentacji i dokumentów online stało się powszechną praktyką. Jednak często pojawia się wyzwanie, aby upewnić się, że czcionki są poprawnie wyświetlane podczas konwersji prezentacji do HTML. Ten samouczek krok po kroku przeprowadzi Cię przez proces używania Aspose.Slides dla .NET do konwersji prezentacji do HTML z osadzonymi czcionkami, zapewniając, że Twoje dokumenty będą wyglądać dokładnie tak, jak zamierzałeś.
 
 ## Wprowadzenie do Aspose.Slides dla .NET
 
-Zanim zagłębimy się w samouczek, krótko przedstawmy Aspose.Slides dla .NET. Jest to potężna biblioteka, która umożliwia programistom pracę z prezentacjami programu PowerPoint w aplikacjach .NET. Dzięki Aspose.Slides możesz programowo tworzyć, modyfikować i konwertować pliki programu PowerPoint.
+Zanim przejdziemy do samouczka, krótko przedstawimy Aspose.Slides dla .NET. Jest to potężna biblioteka, która pozwala deweloperom pracować z prezentacjami PowerPoint w aplikacjach .NET. Dzięki Aspose.Slides możesz programowo tworzyć, modyfikować i konwertować pliki PowerPoint.
 
-## Warunki wstępne
+## Wymagania wstępne
 
 Zanim zaczniesz, upewnij się, że spełnione są następujące wymagania wstępne:
 
--  Aspose.Slides dla .NET: Powinieneś mieć zainstalowaną bibliotekę Aspose.Slides w swoim projekcie. Można go pobrać z[Tutaj](https://releases.aspose.com/slides/net/).
+- Aspose.Slides dla .NET: Biblioteka Aspose.Slides powinna być zainstalowana w projekcie. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/slides/net/).
 
 ## Krok 1: Skonfiguruj swój projekt
 
@@ -40,19 +42,19 @@ Zanim zaczniesz, upewnij się, że spełnione są następujące wymagania wstęp
 
 ## Krok 2: Załaduj swoją prezentację
 
- Aby rozpocząć, musisz załadować prezentację, którą chcesz przekonwertować do formatu HTML. Zastępować`"Your Document Directory"` z rzeczywistym katalogiem, w którym znajduje się plik prezentacji.
+Na początek musisz załadować prezentację, którą chcesz przekonwertować na HTML. Zastąp `"Your Document Directory"` z faktycznym katalogiem, w którym znajduje się plik prezentacji.
 
 ```csharp
 string dataDir = "Your Document Directory";
 using (Presentation pres = new Presentation(dataDir + "presentation.pptx"))
 {
-    // Twój kod trafia tutaj
+    // Twój kod wpisz tutaj
 }
 ```
 
 ## Krok 3: Wyklucz domyślne czcionki prezentacyjne
 
-W tym kroku możesz określić domyślne czcionki prezentacyjne, które chcesz wykluczyć z osadzania. Może to pomóc zoptymalizować rozmiar wynikowego pliku HTML.
+W tym kroku możesz określić dowolne domyślne czcionki prezentacji, które chcesz wykluczyć z osadzania. Może to pomóc zoptymalizować rozmiar wynikowego pliku HTML.
 
 ```csharp
 string[] fontNameExcludeList = { };
@@ -60,11 +62,11 @@ string[] fontNameExcludeList = { };
 
 ## Krok 4: Wybierz kontroler HTML
 
-Teraz masz dwie możliwości osadzania czcionek w kodzie HTML:
+Teraz masz dwie opcje osadzania czcionek w kodzie HTML:
 
 ### Opcja 1: Osadź wszystkie czcionki
 
- Aby osadzić wszystkie czcionki użyte w prezentacji, użyj metody`EmbedAllFontsHtmlController`.
+Aby osadzić wszystkie czcionki użyte w prezentacji, użyj `EmbedAllFontsHtmlController`.
 
 ```csharp
 EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
@@ -72,7 +74,7 @@ EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlControll
 
 ### Opcja 2: Połącz wszystkie czcionki
 
- Aby utworzyć łącze do wszystkich czcionek użytych w prezentacji, użyj opcji`LinkAllFontsHtmlController`. Powinieneś określić katalog, w którym znajdują się czcionki w twoim systemie.
+Aby połączyć się ze wszystkimi czcionkami użytymi w prezentacji, użyj `LinkAllFontsHtmlController`Powinieneś określić katalog, w którym znajdują się czcionki w twoim systemie.
 
 ```csharp
 LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, @"C:\Windows\Fonts\");
@@ -80,7 +82,7 @@ LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExc
 
 ## Krok 5: Zdefiniuj opcje HTML
 
- Stworzyć`HtmlOptions` obiekt i ustaw formater HTML na ten, który wybrałeś w poprzednim kroku.
+Utwórz `HtmlOptions` obiekt i ustaw formater HTML na ten, który wybrałeś w poprzednim kroku.
 
 ```csharp
 HtmlOptions htmlOptionsEmbed = new HtmlOptions
@@ -91,7 +93,7 @@ HtmlOptions htmlOptionsEmbed = new HtmlOptions
 
 ## Krok 6: Zapisz jako HTML
 
- Na koniec zapisz prezentację jako plik HTML. Możesz wybrać jedno i drugie`SaveFormat.Html` Lub`SaveFormat.Html5` w zależności od Twoich wymagań.
+Na koniec zapisz prezentację jako plik HTML. Możesz wybrać albo `SaveFLubmat.Html` or `SaveFormat.Html5` w zależności od Twoich wymagań.
 
 ```csharp
 pres.Save("pres.html", SaveFormat.Html, htmlOptionsEmbed);
@@ -99,37 +101,39 @@ pres.Save("pres.html", SaveFormat.Html, htmlOptionsEmbed);
 
 ## Wniosek
 
-Gratulacje! Pomyślnie przekonwertowałeś swoją prezentację na HTML z osadzonymi czcionkami przy użyciu Aspose.Slides dla .NET. Gwarantuje to prawidłowe wyświetlanie czcionek podczas udostępniania prezentacji online.
+Gratulacje! Udało Ci się przekonwertować prezentację do HTML z osadzonymi czcionkami przy użyciu Aspose.Slides dla .NET. Dzięki temu czcionki będą wyświetlane poprawnie podczas udostępniania prezentacji online.
 
-Teraz możesz łatwo i pewnie udostępniać pięknie sformatowane prezentacje, wiedząc, że odbiorcy zobaczą je dokładnie tak, jak zamierzałeś.
+Teraz możesz łatwo udostępniać pięknie sformatowane prezentacje, mając pewność, że odbiorcy zobaczą je dokładnie tak, jak zamierzałeś.
 
- Aby uzyskać więcej informacji i szczegółowe odniesienia do API, sprawdź[Aspose.Slides dla dokumentacji .NET](https://reference.aspose.com/slides/net/).
+Aby uzyskać więcej informacji i szczegółowe odniesienia do interfejsu API, zapoznaj się z [Dokumentacja Aspose.Slides dla .NET](https://reference.aspose.com/slides/net/).
 
 ## Często zadawane pytania
 
-### 1. Czy mogę konwertować prezentacje PowerPoint do formatu HTML przy użyciu Aspose.Slides dla .NET w trybie wsadowym?
+### 1. Czy mogę konwertować prezentacje PowerPoint do formatu HTML za pomocą Aspose.Slides dla .NET w trybie wsadowym?
 
-Tak, możesz wsadowo konwertować wiele prezentacji do formatu HTML za pomocą Aspose.Slides dla .NET, przeglądając pliki prezentacji i stosując proces konwersji do każdego z nich.
+Tak, możesz dokonać konwersji wielu prezentacji do formatu HTML za pomocą Aspose.Slides dla .NET, przechodząc przez pliki prezentacji i stosując proces konwersji do każdego z nich.
 
-### 2. Czy istnieje sposób na dostosowanie wyglądu wyników HTML?
+### 2. Czy istnieje sposób na dostosowanie wyglądu wyjścia HTML?
 
-Z pewnością! Aspose.Slides dla .NET zapewnia różne opcje dostosowywania wyglądu i formatowania danych wyjściowych HTML, takie jak dostosowywanie kolorów, czcionek i układu.
+Oczywiście! Aspose.Slides dla .NET oferuje różne opcje dostosowywania wyglądu i formatowania wyjścia HTML, takie jak dostosowywanie kolorów, czcionek i układu.
 
-### 3. Czy są jakieś ograniczenia w osadzaniu czcionek w HTML przy użyciu Aspose.Slides dla .NET?
+### 3. Czy istnieją jakieś ograniczenia w osadzaniu czcionek w kodzie HTML przy użyciu Aspose.Slides dla platformy .NET?
 
-Chociaż Aspose.Slides dla .NET oferuje doskonałe możliwości osadzania czcionek, należy pamiętać, że rozmiar plików HTML może wzrosnąć podczas osadzania czcionek. Pamiętaj, aby zoptymalizować wybór czcionek pod kątem korzystania z Internetu.
+Chociaż Aspose.Slides dla .NET oferuje doskonałe możliwości osadzania czcionek, pamiętaj, że rozmiar plików HTML może się zwiększyć podczas osadzania czcionek. Upewnij się, że optymalizujesz wybór czcionek pod kątem wykorzystania w sieci.
 
 ### 4. Czy mogę konwertować prezentacje PowerPoint do innych formatów za pomocą Aspose.Slides dla .NET?
 
-Tak, Aspose.Slides dla .NET obsługuje szeroką gamę formatów wyjściowych, w tym PDF, obrazy i inne. Możesz łatwo przekonwertować swoje prezentacje do wybranego formatu.
+Tak, Aspose.Slides dla .NET obsługuje szeroki zakres formatów wyjściowych, w tym PDF, obrazy i inne. Możesz łatwo przekonwertować swoje prezentacje do wybranego formatu.
 
-### 5. Gdzie mogę znaleźć dodatkowe zasoby i wsparcie dla Aspose.Slides dla .NET?
+### 5. Gdzie mogę znaleźć dodatkowe zasoby i pomoc dotyczącą Aspose.Slides dla platformy .NET?
 
- Dostęp do wielu zasobów, w tym dokumentacji, można uzyskać na stronie[Aspose.Slides dla .NET API odniesienia](https://reference.aspose.com/slides/net/).
+Na stronie można uzyskać dostęp do wielu zasobów, w tym dokumentacji. [Aspose.Slides dla .NET API Reference](https://reference.aspose.com/slides/net/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

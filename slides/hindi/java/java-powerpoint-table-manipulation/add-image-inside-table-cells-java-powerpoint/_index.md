@@ -1,14 +1,16 @@
 ---
-title: जावा पावरपॉइंट में टेबल सेल के अंदर छवि जोड़ें
-linktitle: जावा पावरपॉइंट में टेबल सेल के अंदर छवि जोड़ें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके इस विस्तृत चरण-दर-चरण मार्गदर्शिका के साथ Java PowerPoint प्रस्तुतियों में तालिका कक्षों के अंदर छवियों को जोड़ने का तरीका जानें।
-weight: 10
-url: /hi/java/java-powerpoint-table-manipulation/add-image-inside-table-cells-java-powerpoint/
+"description": "Java के लिए Aspose.Slides का उपयोग करके इस विस्तृत चरण-दर-चरण मार्गदर्शिका के साथ Java PowerPoint प्रस्तुतियों में तालिका कक्षों के अंदर छवियों को जोड़ने का तरीका जानें।"
+"linktitle": "जावा पावरपॉइंट में टेबल सेल के अंदर छवि जोड़ें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा पावरपॉइंट में टेबल सेल के अंदर छवि जोड़ें"
+"url": "/hi/java/java-powerpoint-table-manipulation/add-image-inside-table-cells-java-powerpoint/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा पावरपॉइंट में टेबल सेल के अंदर छवि जोड़ें
@@ -17,11 +19,11 @@ url: /hi/java/java-powerpoint-table-manipulation/add-image-inside-table-cells-ja
 यदि आप टेबल सेल में इमेज एम्बेड करके अपने Java PowerPoint प्रेजेंटेशन को बेहतर बनाना चाहते हैं, तो आप सही जगह पर आए हैं! आज, हम Aspose.Slides for Java का उपयोग करके विस्तृत, चरण-दर-चरण मार्गदर्शिका में गोता लगाएँगे। यह ट्यूटोरियल आपको पूरी प्रक्रिया से गुजारेगा, यह सुनिश्चित करते हुए कि एक नौसिखिया भी इसका अनुसरण कर सकता है और आश्चर्यजनक परिणाम प्राप्त कर सकता है।
 ## आवश्यक शर्तें
 आरंभ करने से पहले, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
-1.  जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपके मशीन पर JDK इंस्टॉल है। आप इसे यहाँ से डाउनलोड कर सकते हैं[ओरेकल की साइट](https://www.oracle.com/java/technologies/javase-downloads.html).
-2.  Java के लिए Aspose.Slides: Aspose.Slides लाइब्रेरी को यहाँ से डाउनलोड करें[वेबसाइट](https://releases.aspose.com/slides/java/).
+1. जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपके मशीन पर JDK इंस्टॉल है। आप इसे यहाँ से डाउनलोड कर सकते हैं [ओरेकल की साइट](https://www.oracle.com/java/technologies/javase-downloads.html).
+2. Java के लिए Aspose.Slides: Aspose.Slides लाइब्रेरी को यहाँ से डाउनलोड करें [वेबसाइट](https://releases.aspose.com/slides/java/).
 3. एकीकृत विकास वातावरण (IDE): हम जावा विकास के लिए IntelliJ IDEA या Eclipse का उपयोग करने की अनुशंसा करते हैं।
 4. छवि फ़ाइल: एक छवि फ़ाइल तैयार रखें जिसे आप अपने पावरपॉइंट तालिका कक्षों में एम्बेड करना चाहते हैं।
-अब जब आपके पास सभी पूर्वापेक्षित शर्तें हैं, तो चलिए आवश्यक पैकेजों को आयात करने और कोड लिखने की ओर बढ़ते हैं।
+अब जब आपके पास सभी पूर्वापेक्षाएँ हैं, तो चलिए आवश्यक पैकेजों को आयात करने और कोड लिखने की ओर बढ़ते हैं।
 ## पैकेज आयात करें
 सबसे पहले, अपने जावा प्रोजेक्ट में आवश्यक पैकेज आयात करें। ये पैकेज आपको Aspose.Slides और जावा की इमेज हैंडलिंग द्वारा प्रदान की गई कार्यक्षमताओं का उपयोग करने की अनुमति देंगे।
 ```java
@@ -72,13 +74,13 @@ try {
 ## चरण 6: तालिका सेल में छवि जोड़ें
 अब, तालिका के पहले सेल में छवि जोड़ने का समय आ गया है। भरण प्रारूप कॉन्फ़िगर करें और चित्र गुण सेट करें।
 ```java
-    // पहले तालिका सेल में छवि जोड़ें
+    // पहले टेबल सेल में छवि जोड़ें
     table.get_Item(0, 0).getCellFormat().getFillFormat().setFillType(FillType.Picture);
     table.get_Item(0, 0).getCellFormat().getFillFormat().getPictureFillFormat().setPictureFillMode(PictureFillMode.Stretch);
     table.get_Item(0, 0).getCellFormat().getFillFormat().getPictureFillFormat().getPicture().setImage(imgx);
 ```
 ## चरण 7: छवि क्रॉप समायोजित करें
-यदि आवश्यक हो तो सेल के भीतर पूरी तरह से फिट होने के लिए छवि क्रॉपिंग को समायोजित करें। यह चरण सुनिश्चित करता है कि आपकी छवि बिल्कुल सही दिखती है।
+यदि आवश्यक हो तो सेल के भीतर पूरी तरह से फिट होने के लिए छवि क्रॉपिंग को समायोजित करें। यह चरण सुनिश्चित करता है कि आपकी छवि बिल्कुल सही दिखे।
 ```java
     table.get_Item(0, 0).getCellFormat().getFillFormat().getPictureFillFormat().setCropRight(20);
     table.get_Item(0, 0).getCellFormat().getFillFormat().getPictureFillFormat().setCropLeft(20);
@@ -103,16 +105,18 @@ try {
 ### Java के लिए Aspose.Slides क्या है?
 Aspose.Slides for Java, जावा अनुप्रयोगों में पावरपॉइंट प्रस्तुतियों को बनाने, संशोधित करने और प्रबंधित करने के लिए एक शक्तिशाली API है।
 ### क्या Aspose.Slides के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
- हाँ, आप प्राप्त कर सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/) खरीदने से पहले Aspose.Slides आज़माएँ.
+हाँ, आप प्राप्त कर सकते हैं [मुफ्त परीक्षण](https://releases.aspose.com/) खरीदने से पहले Aspose.Slides आज़माएँ.
 ### क्या मैं Aspose.Slides के साथ किसी भी छवि प्रारूप का उपयोग कर सकता हूँ?
 Aspose.Slides JPEG, PNG, BMP, आदि सहित विभिन्न छवि प्रारूपों का समर्थन करता है।
 ### मैं अधिक विस्तृत दस्तावेज कहां पा सकता हूं?
- आप इसका संदर्भ ले सकते हैं[प्रलेखन](https://reference.aspose.com/slides/java/) अधिक विस्तृत जानकारी और उदाहरण के लिए.
+आप इसका संदर्भ ले सकते हैं [प्रलेखन](https://reference.aspose.com/slides/java/) अधिक विस्तृत जानकारी और उदाहरण के लिए.
 ### मैं Java के लिए Aspose.Slides कैसे खरीद सकता हूँ?
- आप इसे यहाँ से खरीद सकते हैं[Aspose वेबसाइट](https://purchase.aspose.com/buy).
+आप इसे यहाँ से खरीद सकते हैं [Aspose वेबसाइट](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

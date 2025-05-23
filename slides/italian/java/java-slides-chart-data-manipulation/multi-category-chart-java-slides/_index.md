@@ -1,37 +1,39 @@
 ---
-title: Grafico multicategoria nelle diapositive Java
-linktitle: Grafico multicategoria nelle diapositive Java
-second_title: Aspose.Slides API di elaborazione Java PowerPoint
-description: Crea grafici multicategoria in diapositive Java utilizzando Aspose.Slides per Java. Guida passo passo con codice sorgente per una straordinaria visualizzazione dei dati nelle presentazioni.
-weight: 20
-url: /it/java/chart-data-manipulation/multi-category-chart-java-slides/
+"description": "Crea grafici multicategoria in Java Slides utilizzando Aspose.Slides per Java. Guida passo passo con codice sorgente per una visualizzazione dei dati efficace nelle presentazioni."
+"linktitle": "Grafico multicategoria in Java Slides"
+"second_title": "API di elaborazione Java PowerPoint di Aspose.Slides"
+"title": "Grafico multicategoria in Java Slides"
+"url": "/it/java/chart-data-manipulation/multi-category-chart-java-slides/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Grafico multicategoria nelle diapositive Java
+# Grafico multicategoria in Java Slides
 
 
-## Introduzione al grafico multicategoria nelle diapositive Java con Aspose.Slides
+## Introduzione ai grafici multicategoria in Java Slides con Aspose.Slides
 
-In questo tutorial impareremo come creare un grafico multicategoria nelle diapositive Java utilizzando l'API Aspose.Slides per Java. Questa guida fornirà istruzioni dettagliate insieme al codice sorgente per aiutarti a creare un istogramma in cluster con più categorie e serie.
+In questo tutorial impareremo a creare un grafico multicategoria in Java Slides utilizzando l'API Aspose.Slides per Java. Questa guida fornirà istruzioni dettagliate e il codice sorgente per aiutarti a creare un grafico a colonne cluster con più categorie e serie.
 
 ## Prerequisiti
-Prima di iniziare, assicurati di avere la libreria Aspose.Slides per Java installata e configurata nel tuo ambiente di sviluppo Java.
+Prima di iniziare, assicurati di aver installato e configurato la libreria Aspose.Slides per Java nel tuo ambiente di sviluppo Java.
 
-## Passaggio 1: impostazione dell'ambiente
-Innanzitutto, importa le classi necessarie e crea un nuovo oggetto Presentazione per lavorare con le diapositive.
+## Fase 1: Impostazione dell'ambiente
+Per prima cosa, importa le classi necessarie e crea un nuovo oggetto Presentazione per lavorare con le diapositive.
 
 ```java
-// Il percorso della directory dei documenti.
+// Percorso verso la directory dei documenti.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 ```
 
 ## Passaggio 2: aggiunta di una diapositiva e di un grafico
-Successivamente, crea una diapositiva e aggiungi un istogramma in cluster.
+Successivamente, crea una diapositiva e aggiungi un grafico a colonne raggruppate.
 
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
@@ -100,12 +102,12 @@ Infine, salva la presentazione con il grafico.
 pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
 
-Questo è tutto! Hai creato con successo un grafico multicategoria in una diapositiva Java utilizzando Aspose.Slides. È possibile personalizzare ulteriormente questo grafico per adattarlo alle proprie esigenze specifiche.
+Ecco fatto! Hai creato con successo un grafico multicategoria in una diapositiva Java utilizzando Aspose.Slides. Puoi personalizzare ulteriormente questo grafico in base alle tue esigenze specifiche.
 
-## Codice sorgente completo per grafico multicategoria in diapositive Java
+## Codice sorgente completo per grafici multicategoria in Java Slides
 
 ```java
-// Il percorso della directory dei documenti.
+// Percorso verso la directory dei documenti.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
@@ -127,7 +129,7 @@ category = ch.getChartData().getCategories().add(fact.getCell(0, "c7", "F"));
 category = ch.getChartData().getCategories().add(fact.getCell(0, "c8", "G"));
 category.getGroupingLevels().setGroupingItem(1, "Group4");
 category = ch.getChartData().getCategories().add(fact.getCell(0, "c9", "H"));
-// Aggiunta di serie
+//            Aggiunta di serie
 IChartSeries series = ch.getChartData().getSeries().add(fact.getCell(0, "D1", "Series 1"),
 		ChartType.ClusteredColumn);
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, "D2", 10));
@@ -144,28 +146,30 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ## Conclusione
 
-In questo tutorial, abbiamo imparato come creare un grafico multicategoria nelle diapositive Java utilizzando l'API Aspose.Slides per Java. Abbiamo seguito una guida passo passo con il codice sorgente per creare un istogramma in cluster con più categorie e serie.
+In questo tutorial abbiamo imparato a creare un grafico multicategoria in Java Slides utilizzando l'API Aspose.Slides per Java. Abbiamo seguito una guida passo passo con codice sorgente per creare un grafico a colonne cluster con più categorie e serie.
 
 ## Domande frequenti
 
 ### Come posso personalizzare l'aspetto del grafico?
 
-È possibile personalizzare l'aspetto del grafico modificando proprietà quali colori, caratteri e stili. Fare riferimento alla documentazione di Aspose.Slides per le opzioni di personalizzazione dettagliate.
+È possibile personalizzare l'aspetto del grafico modificando proprietà come colori, caratteri e stili. Consultare la documentazione di Aspose.Slides per informazioni dettagliate sulle opzioni di personalizzazione.
 
-### Posso aggiungere più serie al grafico?
+### Posso aggiungere altre serie al grafico?
 
-Sì, puoi aggiungere ulteriori serie al grafico seguendo una procedura simile a quella mostrata nel passaggio 5.
+Sì, puoi aggiungere altre serie al grafico seguendo una procedura simile a quella mostrata nel passaggio 5.
 
-### Come posso cambiare il tipo di grafico?
+### Come faccio a cambiare il tipo di grafico?
 
- Per modificare il tipo di grafico, sostituisci`ChartType.ClusteredColumn` con il tipo di grafico desiderato quando si aggiunge il grafico al passaggio 2.
+Per cambiare il tipo di grafico, sostituisci `ChartType.ClusteredColumn` con il tipo di grafico desiderato quando si aggiunge il grafico nel passaggio 2.
 
 ### Come posso aggiungere un titolo al grafico?
 
- Puoi aggiungere un titolo al grafico utilizzando il comando`ch.getChartTitle().getTextFrame().setText("Chart Title");` metodo.
+È possibile aggiungere un titolo al grafico utilizzando `ch.getChartTitle().getTextFrame().setText("Chart Title");` metodo.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

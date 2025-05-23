@@ -1,37 +1,39 @@
 ---
-title: Wykres Uzyskaj zakres w slajdach Java
-linktitle: Wykres Uzyskaj zakres w slajdach Java
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Dowiedz się, jak pobierać zakresy wykresów w Java Slides za pomocą Aspose.Slides for Java API. Przewodnik krok po kroku z kodem źródłowym umożliwiający skuteczny dostęp do danych wykresów.
-weight: 16
-url: /pl/java/data-manipulation/chart-get-range-java-slides/
+"description": "Dowiedz się, jak pobierać zakresy wykresów w Java Slides przy użyciu Aspose.Slides for Java API. Przewodnik krok po kroku z kodem źródłowym dla efektywnego dostępu do danych wykresu."
+"linktitle": "Wykres Pobierz zakres w slajdach Java"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Wykres Pobierz zakres w slajdach Java"
+"url": "/pl/java/data-manipulation/chart-get-range-java-slides/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wykres Uzyskaj zakres w slajdach Java
+# Wykres Pobierz zakres w slajdach Java
 
 
-## Wprowadzenie do zakresu uzyskiwania wykresów w slajdach Java
+## Wprowadzenie do wykresu Pobierz zakres w slajdach Java
 
-W tym przewodniku krok po kroku dowiemy się, jak uzyskać zakres wykresu w aplikacji Java Slides za pomocą interfejsu API Aspose.Slides for Java. Przeprowadzimy Cię przez cały proces, podając szczegółowe przykłady kodu źródłowego. Jeśli chcesz uzyskać dostęp do zakresu wykresu w prezentacji Java Slides, postępuj zgodnie z instrukcjami, aby dowiedzieć się, jak to zrobić.
+W tym przewodniku krok po kroku pokażemy, jak uzyskać zakres wykresu w Java Slides przy użyciu Aspose.Slides for Java API. Przeprowadzimy Cię przez proces za pomocą szczegółowych przykładów kodu źródłowego. Jeśli chcesz uzyskać dostęp do zakresu wykresu w swojej prezentacji Java Slides, postępuj zgodnie z instrukcjami, aby dowiedzieć się, jak to zrobić.
 
-## Warunki wstępne
+## Wymagania wstępne
 
 Zanim zagłębimy się w kod, upewnij się, że spełnione są następujące wymagania wstępne:
 
-- Zestaw Java Development Kit (JDK) zainstalowany w systemie.
--  Aspose.Slides dla biblioteki Java. Można go pobrać z[Tutaj](https://releases.aspose.com/slides/java/).
+- Java Development Kit (JDK) zainstalowany w Twoim systemie.
+- Biblioteka Aspose.Slides dla Java. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/slides/java/).
 
 ## Krok 1: Konfigurowanie środowiska
 
-Zanim zaczniemy pisać kod, upewnij się, że masz bibliotekę Aspose.Slides for Java dodaną do ścieżki klas swojego projektu. Bibliotekę można pobrać za pomocą łącza podanego w sekcji wymagań wstępnych.
+Zanim zaczniemy pisać kod, upewnij się, że biblioteka Aspose.Slides for Java została dodana do ścieżki klas projektu. Możesz pobrać bibliotekę z podanego łącza w sekcji wymagań wstępnych.
 
 ## Krok 2: Tworzenie prezentacji
 
-Na początek utworzymy prezentację za pomocą Aspose.Slides. Oto kod umożliwiający utworzenie obiektu prezentacji:
+Na początek utworzymy prezentację za pomocą Aspose.Slides. Oto kod do utworzenia obiektu prezentacji:
 
 ```java
 // Ścieżka do katalogu dokumentów.
@@ -40,7 +42,7 @@ Presentation pres = new Presentation();
 
 ## Krok 3: Dodawanie wykresu
 
-Następnie dodamy wykres do prezentacji. W tym przykładzie utworzymy grupowany wykres kolumnowy. Oto kod do dodania wykresu:
+Następnie dodamy wykres do prezentacji. W tym przykładzie utworzymy wykres kolumnowy klastrowany. Oto kod dodawania wykresu:
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 400, 300);
@@ -48,7 +50,7 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Clust
 
 ## Krok 4: Uzyskanie zasięgu
 
- Teraz następuje część, w której otrzymujemy zakres wykresu. Skorzystamy z`getChartData().getRange()` sposób, aby to osiągnąć:
+Teraz nadchodzi część, w której otrzymujemy zakres wykresu. Użyjemy `getChartData().getRange()` metoda pozwalająca to osiągnąć:
 
 ```java
 String result = chart.getChartData().getRange();
@@ -62,7 +64,7 @@ Wydrukujmy wynik, aby zobaczyć zakres wykresu:
 System.out.println("GetRange result : " + result);
 ```
 
-## Kompletny kod źródłowy wykresu Uzyskaj zakres w slajdach Java
+## Kompletny kod źródłowy dla wykresu Pobierz zakres w slajdach Java
 
 ```java
 // Ścieżka do katalogu dokumentów.
@@ -81,33 +83,35 @@ finally
 
 ## Wniosek
 
-W tym przewodniku dowiedzieliśmy się, jak uzyskać zakres wykresu w aplikacji Java Slides za pomocą interfejsu API Aspose.Slides for Java. Omówiliśmy konfigurowanie środowiska, tworzenie prezentacji, dodawanie wykresu i uzyskiwanie zakresu. Możesz teraz wykorzystać tę wiedzę w swoich projektach Java Slides, aby efektywnie uzyskać dostęp do zakresów wykresów.
+W tym przewodniku nauczyliśmy się, jak uzyskać zakres wykresu w Java Slides przy użyciu Aspose.Slides for Java API. Omówiliśmy konfigurowanie środowiska, tworzenie prezentacji, dodawanie wykresu i pobieranie zakresu. Teraz możesz wykorzystać tę wiedzę w swoich projektach Java Slides, aby uzyskać efektywny dostęp do zakresów wykresu.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
 ### Jak mogę pobrać Aspose.Slides dla Java?
 
- Możesz pobrać Aspose.Slides dla Java ze strony internetowej Aspose, korzystając z tego linku:[Pobierz Aspose.Slides dla Java](https://releases.aspose.com/slides/java/).
+Możesz pobrać Aspose.Slides dla Java ze strony internetowej Aspose, korzystając z tego łącza: [Pobierz Aspose.Slides dla Java](https://releases.aspose.com/slides/java/).
 
-### Czy mogę używać Aspose.Slides dla Java za darmo?
+### Czy mogę używać Aspose.Slides for Java za darmo?
 
-Aspose.Slides for Java jest biblioteką komercyjną, ale możesz poznać jej funkcje w ramach bezpłatnej wersji próbnej. Jednak do użytku produkcyjnego będziesz musiał kupić licencję.
+Aspose.Slides for Java to komercyjna biblioteka, ale możesz zapoznać się z jej funkcjami dzięki bezpłatnej wersji próbnej. Jednak do użytku produkcyjnego będziesz musiał kupić licencję.
 
-### Czy są jakieś inne typy wykresów obsługiwane przez Aspose.Slides dla Java?
+### Czy Aspose.Slides obsługuje inne typy wykresów dla Java?
 
-Tak, Aspose.Slides for Java obsługuje różne typy wykresów, w tym wykresy słupkowe, wykresy kołowe, wykresy liniowe i inne. Pełną listę obsługiwanych typów wykresów można znaleźć w dokumentacji.
+Tak, Aspose.Slides for Java obsługuje różne typy wykresów, w tym wykresy słupkowe, wykresy kołowe, wykresy liniowe i inne. Możesz przejrzeć dokumentację, aby uzyskać pełną listę obsługiwanych typów wykresów.
 
-### Czy mogę dostosować wygląd wykresu za pomocą Aspose.Slides for Java?
+### Czy mogę dostosować wygląd wykresu, korzystając z Aspose.Slides dla Java?
 
-Tak, możesz dostosować wygląd wykresów, na przykład zmieniając kolory, czcionki i style, korzystając z interfejsu API Aspose.Slides for Java. Sprawdź dokumentację, aby uzyskać szczegółowe informacje na temat opcji dostosowywania.
+Tak, możesz dostosować wygląd wykresów, np. zmieniając kolory, czcionki i style, korzystając z Aspose.Slides for Java API. Zapoznaj się z dokumentacją, aby uzyskać szczegółowe informacje o opcjach dostosowywania.
 
-### Gdzie mogę znaleźć więcej zasobów i dokumentacji dla Aspose.Slides dla Java?
+### Gdzie mogę znaleźć więcej materiałów i dokumentacji dla Aspose.Slides dla Java?
 
- Obszerną dokumentację i zasoby dotyczące Aspose.Slides for Java można znaleźć na stronie:[Aspose.Slides dla dokumentacji Java](https://reference.aspose.com/slides/java/).
+Pełną dokumentację i zasoby dotyczące Aspose.Slides dla języka Java można znaleźć na stronie: [Aspose.Slides dla dokumentacji Java](https://reference.aspose.com/slides/java/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

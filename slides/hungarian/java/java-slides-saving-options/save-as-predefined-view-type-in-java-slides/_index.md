@@ -1,81 +1,83 @@
 ---
-title: Mentés előre meghatározott nézettípusként a Java Slides alkalmazásban
-linktitle: Mentés előre meghatározott nézettípusként a Java Slides alkalmazásban
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan állíthat be előre meghatározott nézettípusokat a Java Slides alkalmazásban az Aspose.Slides for Java segítségével. Lépésről lépésre, kódpéldákkal és GYIK-vel.
-weight: 10
-url: /hu/java/saving-options/save-as-predefined-view-type-in-java-slides/
+"description": "Tanuld meg, hogyan állíthatsz be előre definiált nézettípusokat Java diákban az Aspose.Slides for Java használatával. Lépésről lépésre útmutató kódpéldákkal és GYIK-kel."
+"linktitle": "Mentés előre definiált nézettípusként Java diákban"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Mentés előre definiált nézettípusként Java diákban"
+"url": "/hu/java/saving-options/save-as-predefined-view-type-in-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mentés előre meghatározott nézettípusként a Java Slides alkalmazásban
+# Mentés előre definiált nézettípusként Java diákban
 
 
-## Bevezetés az előre meghatározott nézettípusként történő mentéshez a Java Slides alkalmazásban
+## Bevezetés a Mentés előre definiált nézettípusként funkcióba Java diákban
 
-Ebben a lépésről lépésre bemutatjuk, hogyan menthetünk el egy prezentációt előre meghatározott nézettípussal az Aspose.Slides for Java segítségével. A feladat sikeres végrehajtásához megadjuk a szükséges kódot és magyarázatokat.
+Ebben a lépésről lépésre bemutató útmutatóban megvizsgáljuk, hogyan menthetsz el egy prezentációt előre definiált nézettípussal az Aspose.Slides for Java használatával. Biztosítjuk a szükséges kódot és magyarázatokat a feladat sikeres végrehajtásához.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következőkkel:
+Mielőtt elkezdenénk, győződjünk meg róla, hogy a következőkkel rendelkezünk:
 
 - Java programozási alapismeretek.
-- Aspose.Slides for Java könyvtár telepítve.
-- Ön által választott integrált fejlesztői környezet (IDE).
+- Aspose.Slides Java könyvtárhoz telepítve.
+- Integrált fejlesztői környezet (IDE), amelyet választott.
 
-## Környezetének beállítása
+## A környezet beállítása
 
 A kezdéshez kövesse az alábbi lépéseket a fejlesztői környezet beállításához:
 
-1. Hozzon létre egy új Java-projektet az IDE-ben.
-2. Adja hozzá az Aspose.Slides for Java könyvtárat a projekthez függőségként.
+1. Hozz létre egy új Java projektet az IDE-ben.
+2. Add hozzá az Aspose.Slides for Java könyvtárat a projektedhez függőségként.
 
-Most, hogy a környezet be van állítva, folytassuk a kóddal.
+Most, hogy a környezeted be van állítva, folytassuk a kóddal.
 
 ## 1. lépés: Prezentáció létrehozása
 
-Egy prezentáció előre meghatározott nézettípussal történő mentésének demonstrálásához először létrehozunk egy új bemutatót. Íme a kód a prezentáció létrehozásához:
+Egy előre definiált nézettípussal történő prezentáció mentésének bemutatásához először létrehozunk egy új prezentációt. Íme a prezentáció létrehozásához szükséges kód:
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
 String dataDir = "Your Document Directory";
-// A bemutató fájl megnyitása
+// A prezentációs fájl megnyitása
 Presentation presentation = new Presentation();
 ```
 
- Ebben a kódban létrehozunk egy újat`Presentation` objektum, amely a PowerPoint bemutatónkat képviseli.
+Ebben a kódban létrehozunk egy újat `Presentation` objektum, amely a PowerPoint-bemutatónkat képviseli.
 
 ## 2. lépés: A nézet típusának beállítása
 
-Ezután beállítjuk a bemutatónk nézettípusát. A nézettípusok határozzák meg, hogy a prezentáció hogyan jelenjen meg megnyitáskor. Ebben a példában "Slide Master View"-ra állítjuk. Íme a kód:
+Ezután beállítjuk a prezentációnk nézettípusát. A nézettípusok határozzák meg, hogyan jelenjen meg a prezentáció megnyitáskor. Ebben a példában a „Diaminta nézet” értékre állítjuk. Íme a kód:
 
 ```java
 // Nézettípus beállítása
 presentation.getViewProperties().setLastView(ViewType.SlideMasterView);
 ```
 
- A fenti kódban a`setLastView` módszere a`ViewProperties` osztályban a nézet típusának beállításához`SlideMasterView`. Igény szerint más nézettípusokat is választhat.
+A fenti kódban a következőt használjuk: `setLastView` a módszer `ViewProperties` osztály a nézet típusának beállításához `SlideMasterView`Szükség szerint más nézettípusokat is választhat.
 
 ## 3. lépés: A prezentáció mentése
 
-Most, hogy elkészítettük a bemutatónkat és beállítottuk a nézet típusát, ideje elmenteni a bemutatót. Elmentjük PPTX formátumban. Íme a kód:
+Most, hogy létrehoztuk a prezentációnkat és beállítottuk a nézettípust, itt az ideje menteni a prezentációt. PPTX formátumban fogjuk menteni. Itt a kód:
 
 ```java
 // Prezentáció mentése
 presentation.save(dataDir + "SetViewType_out.pptx", SaveFormat.Pptx);
 ```
 
- Ebben a kódban a`save` módszere a`Presentation` osztályba, hogy elmentse a prezentációt a megadott fájlnévvel és formátummal.
+Ebben a kódban a következőt használjuk: `save` a módszer `Presentation` osztály a prezentáció megadott fájlnévvel és formátumban történő mentéséhez.
 
-## Teljes forráskód az előre meghatározott nézettípusként történő mentéshez a Java Slides-ben
+## Teljes forráskód a Mentés előre definiált nézetként típushoz Java diákban
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
 String dataDir = "Your Document Directory";
-// A bemutató fájl megnyitása
+// A prezentációs fájl megnyitása
 Presentation presentation = new Presentation();
 try
 {
@@ -92,32 +94,34 @@ finally
 
 ## Következtetés
 
-Ebben az oktatóanyagban megtanultuk, hogyan menthetünk el egy prezentációt előre meghatározott nézettípussal Java nyelven az Aspose.Slides for Java segítségével. A megadott kód és lépések követésével könnyedén beállíthatja prezentációinak nézettípusát, és elmentheti azokat a kívánt formátumban.
+Ebben az oktatóanyagban megtanultuk, hogyan menthetünk el egy prezentációt egy előre definiált nézettípussal Java nyelven az Aspose.Slides for Java segítségével. A megadott kód és lépések követésével könnyedén beállíthatod a prezentációid nézettípusát, és a kívánt formátumban mentheted el azokat.
 
 ## GYIK
 
-### Hogyan módosíthatom a nézet típusát a „Slide Master View” helyett?
+### Hogyan módosíthatom a nézettípust a „Diaminta nézet”-től eltérőre?
 
- Ha a nézet típusát a „Slide Master View” helyett másra szeretné módosítani, egyszerűen cserélje ki`ViewType.SlideMasterView` a kívánt nézettípussal, mint pl`ViewType.NormalView` vagy`ViewType.SlideSorterView`, abban a kódban, ahol beállítottuk a nézet típusát.
+Ha a nézettípust a „Diaminta nézet”-től eltérőre szeretné módosítani, egyszerűen cserélje ki a `ViewType.SlideMasterView` a kívánt nézettípussal, például `ViewType.NvagymalView` or `ViewType.SlideSorterView`, a kódban, ahol a nézet típusát állítjuk be.
 
-### Beállíthatom a nézet tulajdonságait a prezentáció egyes diákjaihoz?
+### Beállíthatom a nézet tulajdonságait az egyes diákhoz a prezentációban?
 
-Igen, az Aspose.Slides for Java segítségével beállíthatja az egyes diák nézettulajdonságait. Az egyes diák tulajdonságait külön-külön érheti el és módosíthatja a bemutató diákjai között.
+Igen, az Aspose.Slides for Java segítségével beállíthatja az egyes diák nézettulajdonságait. Az egyes diák tulajdonságait külön-külön is elérheti és módosíthatja a prezentáció diáin végighaladva.
 
-### Milyen más formátumokba menthetem a prezentációmat?
+### Milyen más formátumokban menthetem el a prezentációmat?
 
-Az Aspose.Slides for Java különféle kimeneti formátumokat támogat, beleértve a PPTX, PDF, TIFF, HTML és egyebeket. A megfelelő formátum használatával megadhatja a kívánt formátumot a prezentáció mentésekor`SaveFormat` enum érték.
+Az Aspose.Slides Java-ban számos kimeneti formátumot támogat, beleértve a PPTX, PDF, TIFF, HTML és egyebeket. A kívánt formátumot a prezentáció mentésekor a megfelelő `SaveFormat` felsorolási érték.
 
-### Az Aspose.Slides for Java alkalmas prezentációk kötegelt feldolgozására?
+### Alkalmas az Aspose.Slides Java-ban prezentációk kötegelt feldolgozására?
 
-Igen, az Aspose.Slides for Java kiválóan alkalmas kötegelt feldolgozási feladatokra. Több prezentáció feldolgozását automatizálhatja, módosításokat alkalmazhat, és tömegesen mentheti őket Java kóddal.
+Igen, az Aspose.Slides Java-ban jól használható kötegelt feldolgozási feladatokhoz. Automatizálhatod több prezentáció feldolgozását, alkalmazhatod a módosításokat, és tömegesen mentheted őket Java kód segítségével.
 
-### Hol találok további információt és dokumentációt az Aspose.Slides for Java programhoz?
+### Hol találok további információt és dokumentációt az Aspose.Slides for Java-hoz?
 
- Az Aspose.Slides for Java-hoz kapcsolódó átfogó dokumentációért és hivatkozásokért látogasson el a dokumentációs webhelyre:[Aspose.Slides a Java dokumentációhoz](https://reference.aspose.com/slides/java/).
+Az Aspose.Slides for Java programmal kapcsolatos átfogó dokumentációért és referenciákért kérjük, látogassa meg a dokumentációs weboldalt: [Aspose.Slides Java dokumentációhoz](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

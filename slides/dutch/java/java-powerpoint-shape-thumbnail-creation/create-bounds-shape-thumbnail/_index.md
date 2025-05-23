@@ -1,24 +1,26 @@
 ---
-title: Maak een grensvormminiatuur
-linktitle: Maak een grensvormminiatuur
-second_title: Aspose.Slides Java PowerPoint-verwerkings-API
-description: Leer hoe u vormminiaturen met grenzen kunt maken met Aspose.Slides voor Java. Deze stapsgewijze zelfstudie begeleidt u door het proces.
-weight: 10
-url: /nl/java/java-powerpoint-shape-thumbnail-creation/create-bounds-shape-thumbnail/
+"description": "Leer hoe je vormminiaturen met grenzen maakt met Aspose.Slides voor Java. Deze stapsgewijze tutorial begeleidt je door het proces."
+"linktitle": "Miniatuur voor grensvormen maken"
+"second_title": "Aspose.Slides Java PowerPoint-verwerkings-API"
+"title": "Miniatuur voor grensvormen maken"
+"url": "/nl/java/java-powerpoint-shape-thumbnail-creation/create-bounds-shape-thumbnail/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Maak een grensvormminiatuur
+# Miniatuur voor grensvormen maken
 
 ## Invoering
-Aspose.Slides voor Java is een krachtige bibliotheek waarmee Java-ontwikkelaars PowerPoint-presentaties programmatisch kunnen maken, manipuleren en converteren. In deze zelfstudie leren we hoe u een miniatuurafbeelding van een vorm met grenzen kunt maken met behulp van Aspose.Slides voor Java.
+Aspose.Slides voor Java is een krachtige bibliotheek waarmee Java-ontwikkelaars programmatisch PowerPoint-presentaties kunnen maken, bewerken en converteren. In deze tutorial leren we hoe je een miniatuurafbeelding van een vorm met grenzen maakt met Aspose.Slides voor Java.
 ## Vereisten
-Zorg ervoor dat u over het volgende beschikt voordat u begint:
+Voordat u begint, moet u ervoor zorgen dat u het volgende heeft:
 1. Java Development Kit (JDK) op uw systeem geïnstalleerd.
-2.  Aspose.Slides voor Java-bibliotheek gedownload en toegevoegd aan uw project. Je kunt het downloaden van[hier](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides voor Java-bibliotheek gedownload en toegevoegd aan uw project. U kunt het downloaden van [hier](https://releases.aspose.com/slides/java/).
 
 ## Pakketten importeren
 Zorg ervoor dat u de benodigde pakketten in uw Java-code importeert:
@@ -32,14 +34,14 @@ import java.io.File;
 import java.io.IOException;
 ```
 ## Stap 1: Stel uw project in
-Maak een nieuw Java-project in de IDE van uw voorkeur en voeg de Aspose.Slides voor Java-bibliotheek toe aan de afhankelijkheden van uw project.
-## Stap 2: Instantieer een presentatieobject
- Instantieer een`Presentation` object door het pad naar uw PowerPoint-presentatiebestand op te geven.
+Maak een nieuw Java-project in uw favoriete IDE en voeg de Aspose.Slides voor Java-bibliotheek toe aan de afhankelijkheden van uw project.
+## Stap 2: Een presentatieobject instantiëren
+Instantieer een `Presentation` object door het pad naar uw PowerPoint-presentatiebestand op te geven.
 ```java
 String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "HelloWorld.pptx");
 ```
-## Stap 3: Maak een grensvormminiatuur
+## Stap 3: Miniatuur voor de vorm van de grenzen maken
 Laten we nu een miniatuurafbeelding maken van een vorm met grenzen uit de presentatie.
 ```java
 try {
@@ -51,21 +53,23 @@ try {
 ```
 
 ## Conclusie
-In deze zelfstudie hebben we geleerd hoe u een miniatuurafbeelding van een vorm met grenzen kunt maken met behulp van Aspose.Slides voor Java. Door deze stappen te volgen, kunt u eenvoudig programmatisch miniaturen van vormen in uw PowerPoint-presentaties genereren.
+In deze tutorial hebben we geleerd hoe je een miniatuurafbeelding van een vorm met grenzen maakt met Aspose.Slides voor Java. Door deze stappen te volgen, kun je eenvoudig miniaturen van vormen in je PowerPoint-presentaties genereren via een programma.
 ## Veelgestelde vragen
-### Kan ik miniaturen maken voor specifieke vormen binnen een dia?
-Ja, u hebt toegang tot individuele vormen binnen een dia en kunt er miniaturen voor genereren met behulp van Aspose.Slides voor Java.
+### Kan ik miniaturen maken voor specifieke vormen in een dia?
+Ja, u kunt toegang krijgen tot afzonderlijke vormen binnen een dia en er miniaturen voor genereren met Aspose.Slides voor Java.
 ### Is Aspose.Slides voor Java compatibel met alle versies van PowerPoint-bestanden?
 Aspose.Slides voor Java ondersteunt verschillende PowerPoint-bestandsindelingen, waaronder PPT, PPTX, PPS, PPSX en meer.
 ### Kan ik het uiterlijk van de gegenereerde miniatuurafbeeldingen aanpassen?
-Ja, u kunt de eigenschappen van de miniatuurafbeeldingen, zoals grootte en kwaliteit, aanpassen aan uw wensen.
-### Ondersteunt Aspose.Slides voor Java andere functies naast het genereren van miniaturen?
-Ja, Aspose.Slides voor Java biedt uitgebreide functionaliteit voor het werken met PowerPoint-presentaties, inclusief diamanipulatie, tekstextractie en het genereren van diagrammen.
+Ja, u kunt de eigenschappen van de miniatuurafbeeldingen, zoals grootte en kwaliteit, naar wens aanpassen.
+### Ondersteunt Aspose.Slides voor Java nog andere functies naast het genereren van miniaturen?
+Ja, Aspose.Slides voor Java biedt uitgebreide functionaliteit voor het werken met PowerPoint-presentaties, waaronder het manipuleren van dia's, het extraheren van tekst en het genereren van grafieken.
 ### Is er een proefversie beschikbaar voor Aspose.Slides voor Java?
- Ja, u kunt een gratis proefversie downloaden van[hier](https://releases.aspose.com/).
+Ja, u kunt een gratis proefversie downloaden van [hier](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

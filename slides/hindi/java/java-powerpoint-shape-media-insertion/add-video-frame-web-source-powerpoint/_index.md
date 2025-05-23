@@ -1,14 +1,16 @@
 ---
-title: वेब स्रोत से PowerPoint में वीडियो फ़्रेम जोड़ें
-linktitle: वेब स्रोत से PowerPoint में वीडियो फ़्रेम जोड़ें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: जानें कि Aspose.Slides for Java का उपयोग करके वेब स्रोतों से वीडियो फ़्रेम जोड़कर अपने पावरपॉइंट प्रस्तुतीकरण को कैसे बेहतर बनाया जाए।
-weight: 18
-url: /hi/java/java-powerpoint-shape-media-insertion/add-video-frame-web-source-powerpoint/
+"description": "जानें कि Aspose.Slides for Java का उपयोग करके वेब स्रोतों से वीडियो फ़्रेम जोड़कर अपने पावरपॉइंट प्रस्तुतियों को कैसे बेहतर बनाया जाए।"
+"linktitle": "वेब स्रोत से PowerPoint में वीडियो फ़्रेम जोड़ें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "वेब स्रोत से PowerPoint में वीडियो फ़्रेम जोड़ें"
+"url": "/hi/java/java-powerpoint-shape-media-insertion/add-video-frame-web-source-powerpoint/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # वेब स्रोत से PowerPoint में वीडियो फ़्रेम जोड़ें
@@ -19,7 +21,7 @@ url: /hi/java/java-powerpoint-shape-media-insertion/add-video-frame-web-source-p
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
 - जावा प्रोग्रामिंग का बुनियादी ज्ञान.
 - आपके सिस्टम पर JDK (जावा डेवलपमेंट किट) स्थापित है।
--  Aspose.Slides for Java लाइब्रेरी डाउनलोड की गई और आपके Java प्रोजेक्ट में जोड़ दी गई। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+- Aspose.Slides for Java लाइब्रेरी डाउनलोड की गई और आपके Java प्रोजेक्ट में जोड़ दी गई। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 - वेब स्रोत (जैसे, यूट्यूब) तक पहुंचने के लिए एक सक्रिय इंटरनेट कनेक्शन।
 
 ## पैकेज आयात करें
@@ -89,10 +91,12 @@ pres.save("YOUR_DIRECTORY/AddVideoFrameFromWebSource_out.pptx", SaveFormat.Pptx)
 ### क्या Aspose.Slides PowerPoint के सभी संस्करणों के साथ संगत है?
 Aspose.Slides PowerPoint संस्करणों की एक विस्तृत श्रृंखला का समर्थन करता है, जो विभिन्न प्लेटफार्मों पर संगतता सुनिश्चित करता है।
 ### मैं Aspose.Slides के लिए अधिक संसाधन और समर्थन कहां पा सकता हूं?
- आप यहां जा सकते हैं[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) सहायता, दस्तावेज़ीकरण और सामुदायिक समर्थन के लिए।
+आप यहां जा सकते हैं [Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) सहायता, दस्तावेज़ीकरण और सामुदायिक समर्थन के लिए।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,25 +1,27 @@
 ---
-title: 使用 Java 在 SmartArt 中的特定位置添加节点
-linktitle: 使用 Java 在 SmartArt 中的特定位置添加节点
-second_title: Aspose.Slides Java PowerPoint 处理 API
-description: 了解如何使用 Java 和 Aspose.Slides 在 SmartArt 中的特定位置添加节点。轻松创建动态演示文稿。
-weight: 16
-url: /zh/java/java-powerpoint-smartart-manipulation/add-nodes-specific-position-smartart-java/
+"description": "了解如何使用 Java 和 Aspose.Slides 在 SmartArt 中的特定位置添加节点。轻松创建动态演示文稿。"
+"linktitle": "使用 Java 在 SmartArt 中的特定位置添加节点"
+"second_title": "Aspose.Slides Java PowerPoint 处理 API"
+"title": "使用 Java 在 SmartArt 中的特定位置添加节点"
+"url": "/zh/java/java-powerpoint-smartart-manipulation/add-nodes-specific-position-smartart-java/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 使用 Java 在 SmartArt 中的特定位置添加节点
 
 ## 介绍
-在本教程中，我们将指导您使用 Java 和 Aspose.Slides 在 SmartArt 中的特定位置添加节点的过程。SmartArt 是 PowerPoint 中的一项功能，可让您创建具有视觉吸引力的图表。
+在本教程中，我们将指导您使用 Java 和 Aspose.Slides 在 SmartArt 中的特定位置添加节点。SmartArt 是 PowerPoint 中的一项功能，可让您创建视觉上引人入胜的图表。
 ## 先决条件
-开始之前，请确保您已准备好以下物品：
+开始之前，请确保您已具备以下条件：
 1. 您的系统上安装了 Java 开发工具包 (JDK)。
-2. 下载了 Aspose.Slides for Java 库。您可以从以下位置下载[这里](https://releases.aspose.com/slides/java/).
-3. Java 编程语言的基本知识。
+2. Aspose.Slides for Java 库已下载。您可以从 [这里](https://releases。aspose.com/slides/java/).
+3. Java 编程语言的基础知识。
 
 ## 导入包
 首先，让我们在 Java 代码中导入必要的包：
@@ -53,7 +55,7 @@ ISmartArtNode node = smart.getAllNodes().get_Item(0);
 SmartArtNode chNode = (SmartArtNode) ((SmartArtNodeCollection) node.getChildNodes()).addNodeByPosition(2);
 ```
 ## 步骤 6：向节点添加文本
-设置新添加的节点的文本：
+为新添加的节点设置文本：
 ```java
 chNode.getTextFrame().setText("Sample Text Added");
 ```
@@ -64,21 +66,23 @@ pres.save(dataDir + "AddSmartArtNodeByPosition_out.pptx", SaveFormat.Pptx);
 ```
 
 ## 结论
-在本教程中，您学习了如何使用 Java 和 Aspose.Slides 在 SmartArt 中的特定位置添加节点。通过遵循这些步骤，您可以以编程方式操作 SmartArt 形状以创建动态演示文稿。
+在本教程中，您学习了如何使用 Java 和 Aspose.Slides 在 SmartArt 中的特定位置添加节点。按照以下步骤，您可以以编程方式操作 SmartArt 形状，从而创建动态演示文稿。
 ## 常见问题解答
 ### 我可以一次添加多个节点吗？
 是的，您可以通过迭代所需位置以编程方式添加多个节点。
 ### Aspose.Slides 是否与所有版本的 PowerPoint 兼容？
-Aspose.Slides 支持各种 PowerPoint 格式，确保与大多数版本的兼容性。
+Aspose.Slides 支持各种 PowerPoint 格式，确保与大多数版本兼容。
 ### 我可以自定义 SmartArt 节点的外观吗？
 是的，您可以自定义节点的外观，包括其大小、颜色和样式。
 ### Aspose.Slides 是否支持其他编程语言？
-是的，Aspose.Slides 为多种编程语言提供了库，包括.NET 和 Python。
+是的，Aspose.Slides 为多种编程语言提供了库，包括 .NET 和 Python。
 ### Aspose.Slides 有试用版吗？
-是的，你可以从以下网站下载免费试用版[这里](https://releases.aspose.com/).
+是的，您可以从下载免费试用版 [这里](https://releases。aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

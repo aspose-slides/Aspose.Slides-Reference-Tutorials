@@ -1,27 +1,29 @@
 ---
-title: Hangkeret hozzáadása a PowerPointban
-linktitle: Hangkeret hozzáadása a PowerPointban
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan adhat hangkereteket PowerPoint-prezentációkhoz az Aspose.Slides for Java segítségével. Emelje fel prezentációit lenyűgöző hangelemekkel könnyedén.
-weight: 12
-url: /hu/java/java-powerpoint-shape-media-insertion/add-audio-frame-powerpoint/
+"description": "Tanuld meg, hogyan adhatsz hozzá hangkereteket PowerPoint prezentációkhoz az Aspose.Slides for Java segítségével. Emeld prezentációid színvonalát lebilincselő hangelemekkel könnyedén."
+"linktitle": "Hangkeret hozzáadása a PowerPointban"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Hangkeret hozzáadása a PowerPointban"
+"url": "/hu/java/java-powerpoint-shape-media-insertion/add-audio-frame-powerpoint/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hangkeret hozzáadása a PowerPointban
 
 ## Bevezetés
-A prezentációk hangelemekkel történő javítása jelentősen növelheti hatásukat és elköteleződésüket. Az Aspose.Slides for Java segítségével a hangkeretek PowerPoint-prezentációkba való integrálása zökkenőmentes folyamattá válik. Ez az oktatóanyag lépésről lépésre végigvezeti Önt az Aspose.Slides for Java segítségével hangkockák hozzáadásának folyamatán.
+prezentációk hangelemekkel való kiegészítése jelentősen növelheti azok hatását és lebilincselő jellegét. Az Aspose.Slides Java verziójával a hangkeretek PowerPoint-prezentációkba való integrálása zökkenőmentes folyamattá válik. Ez az oktatóanyag lépésről lépésre végigvezeti Önt azon, hogyan adhat hozzá hangkereteket a prezentációihoz az Aspose.Slides Java verziójával.
 ## Előfeltételek
 Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
-1. Java Development Kit (JDK): Győződjön meg arról, hogy a Java telepítve van a rendszeren.
-2.  Aspose.Slides for Java Library: Töltse le és telepítse az Aspose.Slides for Java könyvtárat. Letöltheti a[Aspose.Slides for Java dokumentáció](https://reference.aspose.com/slides/java/).
-3. Hangfájl: Készítse elő a hangfájlt (pl. WAV formátum), amelyet hozzá szeretne adni a bemutatóhoz.
+1. Java fejlesztőkészlet (JDK): Győződjön meg arról, hogy a Java telepítve van a rendszerén.
+2. Aspose.Slides for Java könyvtár: Töltse le és telepítse az Aspose.Slides for Java könyvtárat. Letöltheti innen: [Aspose.Slides Java dokumentációhoz](https://reference.aspose.com/slides/java/).
+3. Hangfájl: Készítse elő a prezentációjához hozzáadni kívánt hangfájlt (pl. WAV formátumban).
 ## Csomagok importálása
-Importálja a szükséges csomagokat a Java projektbe:
+Importáld a szükséges csomagokat a Java projektedbe:
 ```java
 import com.aspose.slides.*;
 
@@ -29,61 +31,63 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 ```
-## 1. lépés: Állítsa be projektkönyvtárát
-Győződjön meg arról, hogy be van állítva egy könyvtárszerkezet a projekthez. Ha nem, hozzon létre egyet a fájlok hatékony rendszerezéséhez.
+## 1. lépés: A projektkönyvtár beállítása
+Győződjön meg arról, hogy van egy könyvtárszerkezete a projekthez. Ha nem, hozzon létre egyet a fájlok hatékony rendszerezéséhez.
 ```java
 String dataDir = "Your Document Directory";
 boolean isExists = new File(dataDir).exists();
 if (!isExists)
     new File(dataDir).mkdirs();
 ```
-## 2. lépés: Példányos bemutató osztály
- Példányosítsa a`Presentation` osztály képviseli a PowerPoint bemutatót.
+## 2. lépés: Prezentációs osztály példányosítása
+Példányosítsa a `Presentation` osztály a PowerPoint prezentáció képviseletére.
 ```java
 Presentation pres = new Presentation();
 ```
-## 3. lépés: Szerezze be a Dia és töltse be az audiofájlt
-Töltse le az első diát, és töltse be a hangfájlt a könyvtárából.
+## 3. lépés: Szerezd meg a diavetítést és töltsd be a hangfájlt
+Keresd meg az első diát, és töltsd be a hangfájlt a könyvtáradból.
 ```java
 ISlide sld = pres.getSlides().get_Item(0);
 FileInputStream fstr = new FileInputStream(dataDir + "sampleaudio.wav");
 ```
-## 4. lépés: Adjon hozzá audio keretet
+## 4. lépés: Hangkeret hozzáadása
 Adja hozzá a hangkeretet a diához.
 ```java
 IAudioFrame audioFrame = sld.getShapes().addAudioFrameEmbedded(50, 150, 100, 100, fstr);
 ```
-## 5. lépés: Állítsa be az audio tulajdonságait
-Állítson be olyan tulajdonságokat, mint a diák lejátszása, a hang visszatekerése, a lejátszási mód és a hangerő.
+## 5. lépés: Hangtulajdonságok beállítása
+Olyan tulajdonságok beállítása, mint a diák közötti lejátszás, a hang visszatekerése, a lejátszási mód és a hangerő.
 ```java
 audioFrame.setPlayAcrossSlides(true);
 audioFrame.setRewindAudio(true);
 audioFrame.setPlayMode(AudioPlayModePreset.Auto);
 audioFrame.setVolume(AudioVolumeMode.Loud);
 ```
-## 6. lépés: Mentse el a bemutatót
+## 6. lépés: Mentse el a prezentációt
 Mentse el a módosított prezentációt a hozzáadott hangkerettel.
 ```java
 pres.save(dataDir + "AudioFrameEmbed_out.pptx", SaveFormat.Pptx);
 ```
 
 ## Következtetés
-Hangelemek beépítése PowerPoint prezentációiba fokozhatja azok hatékonyságát, és magával ragadhatja a közönséget. Az Aspose.Slides for Java segítségével a hangkockák hozzáadásának folyamata zökkenőmentessé válik, így könnyedén hozhat létre dinamikus és lebilincselő prezentációkat.
+A PowerPoint prezentációkba beillesztett hangelemek növelhetik azok hatékonyságát és lebilincselhetik a közönséget. Az Aspose.Slides Java verziójával a hangkeretek hozzáadása rendkívül egyszerűvé válik, így könnyedén készíthet dinamikus és lebilincselő prezentációkat.
 
 ## GYIK
 ### Hozzáadhatok különböző formátumú hangfájlokat a prezentációmhoz?
 Igen, az Aspose.Slides for Java különféle hangformátumokat támogat, beleértve a WAV-ot, MP3-at és egyebeket.
-### Beállítható a hanglejátszás időzítése a diákban?
-Teljesen. Az Aspose.Slides for Java segítségével szinkronizálhatja a hanglejátszást adott diaátmenetekkel.
-### Az Aspose.Slides for Java támogatja a platformok közötti kompatibilitást?
-Igen, létrehozhat PowerPoint-prezentációkat beágyazott hangkeretekkel, amelyek kompatibilisek a különböző platformokkal.
-### Testreszabhatom az audiolejátszó megjelenését a prezentációban?
-Az Aspose.Slides for Java kiterjedt testreszabási lehetőségeket kínál, amelyek lehetővé teszik az audiolejátszó megjelenésének testreszabását az Ön igényei szerint.
-### Elérhető az Aspose.Slides for Java próbaverziója?
- Igen, hozzáférhet az Aspose.Slides for Java ingyenes próbaverziójához a tőlük[weboldal](https://releases.aspose.com/).
+### Lehetséges a diák hanglejátszásának időzítését beállítani?
+Abszolút. Az Aspose.Slides for Java segítségével szinkronizálhatod a hanglejátszást bizonyos diaátmenetekkel.
+### Az Aspose.Slides for Java támogatja a platformfüggetlen kompatibilitást?
+Igen, létrehozhat PowerPoint-bemutatókat beágyazott hangkeretekkel, amelyek különböző platformokon kompatibilisek.
+### Testreszabhatom a hanglejátszó megjelenését a prezentációban?
+Az Aspose.Slides Java-hoz széleskörű testreszabási lehetőségeket kínál, lehetővé téve az audiolejátszó megjelenésének testreszabását az igényeidnek megfelelően.
+### Van elérhető próbaverzió az Aspose.Slides for Java-hoz?
+Igen, hozzáférhetsz az Aspose.Slides ingyenes próbaverziójához Java-hoz innen: [weboldal](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

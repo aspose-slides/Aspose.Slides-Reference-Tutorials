@@ -1,28 +1,30 @@
 ---
-title: Korzystanie z opcji znaczników wykresu w punkcie danych w Aspose.Slides .NET
-linktitle: Opcje znaczników wykresu w punkcie danych
-second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Dowiedz się, jak ulepszyć wykresy programu PowerPoint za pomocą Aspose.Slides dla .NET. Dostosuj znaczniki punktów danych za pomocą obrazów. Twórz angażujące prezentacje.
-weight: 11
-url: /pl/net/advanced-chart-customization/chart-marker-options-on-data-point/
+"description": "Dowiedz się, jak ulepszyć wykresy PowerPoint za pomocą Aspose.Slides dla .NET. Dostosuj znaczniki punktów danych za pomocą obrazów. Twórz angażujące prezentacje."
+"linktitle": "Opcje znaczników wykresu w punkcie danych"
+"second_title": "Aspose.Slides .NET API przetwarzania programu PowerPoint"
+"title": "Korzystanie z opcji znacznika wykresu w punkcie danych w Aspose.Slides .NET"
+"url": "/pl/net/advanced-chart-customization/chart-marker-options-on-data-point/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Korzystanie z opcji znaczników wykresu w punkcie danych w Aspose.Slides .NET
+# Korzystanie z opcji znacznika wykresu w punkcie danych w Aspose.Slides .NET
 
 
-Podczas pracy z prezentacjami i wizualizacją danych Aspose.Slides dla .NET oferuje szeroką gamę zaawansowanych funkcji do tworzenia, dostosowywania i manipulowania wykresami. W tym samouczku omówimy, jak używać opcji znaczników wykresu na punktach danych w celu ulepszenia prezentacji wykresów. Ten przewodnik krok po kroku przeprowadzi Cię przez proces, począwszy od wymagań wstępnych i importowania przestrzeni nazw, aż po podzielenie każdego przykładu na wiele kroków.
+Podczas pracy z prezentacjami i wizualizacją danych Aspose.Slides for .NET oferuje szeroki zakres zaawansowanych funkcji do tworzenia, dostosowywania i manipulowania wykresami. W tym samouczku przyjrzymy się, jak używać opcji znaczników wykresu w punktach danych, aby ulepszyć prezentacje wykresów. Ten przewodnik krok po kroku przeprowadzi Cię przez proces, zaczynając od wymagań wstępnych i importowania przestrzeni nazw, aż po rozbicie każdego przykładu na wiele kroków.
 
-## Warunki wstępne
+## Wymagania wstępne
 
-Zanim zaczniemy używać opcji znaczników wykresu w punktach danych, upewnij się, że spełnione są następujące wymagania wstępne:
+Zanim przejdziemy do korzystania z opcji znaczników wykresu w punktach danych, upewnij się, że spełnione są następujące wymagania wstępne:
 
--  Aspose.Slides dla .NET: Upewnij się, że masz zainstalowany Aspose.Slides dla .NET. Można go pobrać z[strona internetowa](https://releases.aspose.com/slides/net/).
+- Aspose.Slides dla .NET: Upewnij się, że masz zainstalowany Aspose.Slides dla .NET. Możesz go pobrać ze strony [strona internetowa](https://releases.aspose.com/slides/net/).
 
-- Przykładowa prezentacja: w tym samouczku użyjemy przykładowej prezentacji o nazwie „Test.pptx”. Powinieneś mieć tę prezentację w swoim katalogu dokumentów.
+- Przykładowa prezentacja: W tym samouczku użyjemy przykładowej prezentacji o nazwie „Test.pptx”. Powinieneś mieć tę prezentację w swoim katalogu dokumentów.
 
 Teraz zacznijmy od zaimportowania niezbędnych przestrzeni nazw.
 
@@ -34,7 +36,7 @@ using Aspose.Slides.Charts;
 using Aspose.Slides.Export;
 ```
 
-Zaimportowaliśmy wymagane przestrzenie nazw i zainicjowaliśmy naszą prezentację. Przejdźmy teraz do korzystania z opcji znaczników wykresu na punktach danych.
+Zaimportowaliśmy wymagane przestrzenie nazw i zainicjowaliśmy naszą prezentację. Teraz przejdźmy do użycia opcji znaczników wykresu w punktach danych.
 
 ## Krok 1: Tworzenie domyślnego wykresu
 
@@ -46,20 +48,20 @@ Presentation pres = new Presentation(dataDir + "Test.pptx");
 
 ISlide slide = pres.Slides[0];
 
-//Tworzenie domyślnego wykresu
+// Tworzenie domyślnego wykresu
 IChart chart = slide.Shapes.AddChart(ChartType.LineWithMarkers, 0, 0, 400, 400);
 ```
 
 Tworzymy domyślny wykres typu „LineWithMarkers” na slajdzie w określonym miejscu i rozmiarze.
 
-## Krok 2: Pobieranie domyślnego indeksu arkusza danych wykresu
+## Krok 2: Uzyskanie domyślnego indeksu arkusza danych wykresu
 
 ```csharp
 // Pobieranie domyślnego indeksu arkusza danych wykresu
 int defaultWorksheetIndex = 0;
 ```
 
-Otrzymujemy tutaj indeks domyślnego arkusza danych wykresu.
+Tutaj pobieramy indeks domyślnego arkusza danych wykresu.
 
 ## Krok 3: Pobieranie arkusza danych wykresu
 
@@ -68,7 +70,7 @@ Otrzymujemy tutaj indeks domyślnego arkusza danych wykresu.
 IChartDataWorkbook fact = chart.ChartData.ChartDataWorkbook;
 ```
 
-Pobieramy skoroszyt danych wykresu, aby pracować z danymi wykresu.
+Pobieramy skoroszyt z danymi wykresu, aby pracować z danymi wykresu.
 
 ## Krok 4: Modyfikowanie serii wykresów
 
@@ -80,12 +82,12 @@ chart.ChartData.Series.Clear();
 chart.ChartData.Series.Add(fact.GetCell(defaultWorksheetIndex, 1, 1, "Series 1"), chart.Type);
 ```
 
-Na tym etapie usuwamy wszystkie istniejące serie demonstracyjne i dodajemy do wykresu nową serię o nazwie „Seria 1”.
+Na tym etapie usuniemy wszelkie istniejące serie demonstracyjne i dodamy do wykresu nową serię o nazwie „Seria 1”.
 
 ## Krok 5: Ustawianie wypełnienia obrazem dla punktów danych
 
 ```csharp
-// Ustaw obraz dla znaczników
+// Ustaw obrazek dla znaczników
 System.Drawing.Image img1 = (System.Drawing.Image)new Bitmap(dataDir + "aspose-logo.jpg");
 IPPImage imgx1 = pres.Images.AddImage(img1);
 
@@ -95,7 +97,7 @@ IPPImage imgx2 = pres.Images.AddImage(img2);
 // Weź pierwszą serię wykresów
 IChartSeries series = chart.ChartData.Series[0];
 
-// Dodaj nowe punkty danych z wypełnieniem obrazem
+// Dodaj nowe punkty danych z wypełnieniem obrazkowym
 IChartDataPoint point = series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 1, 1, (double)4.5));
 point.Marker.Format.Fill.FillType = FillType.Picture;
 point.Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx1;
@@ -113,16 +115,16 @@ point.Marker.Format.Fill.FillType = FillType.Picture;
 point.Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx2;
 ```
 
-Ustawiamy znaczniki obrazu dla punktów danych, co pozwala dostosować sposób wyświetlania każdego punktu danych na wykresie.
+Ustawiamy znaczniki graficzne dla punktów danych, co pozwala dostosować sposób wyświetlania każdego punktu danych na wykresie.
 
-## Krok 6: Zmiana rozmiaru znacznika serii wykresów
+## Krok 6: Zmiana rozmiaru znacznika serii wykresu
 
 ```csharp
-// Zmiana rozmiaru znacznika serii wykresów
+// Zmiana rozmiaru znacznika serii wykresu
 series.Marker.Size = 15;
 ```
 
-Tutaj dostosowujemy rozmiar znacznika serii wykresu, aby był atrakcyjny wizualnie.
+Tutaj dostosowujemy rozmiar znacznika serii wykresu, aby był bardziej atrakcyjny wizualnie.
 
 ## Krok 7: Zapisywanie prezentacji
 
@@ -134,9 +136,9 @@ Na koniec zapisujemy prezentację z nowymi ustawieniami wykresu.
 
 ## Wniosek
 
-Aspose.Slides dla .NET umożliwia tworzenie wspaniałych prezentacji wykresów z różnymi opcjami dostosowywania. W tym samouczku skupiliśmy się na użyciu opcji znaczników wykresu na punktach danych w celu ulepszenia wizualnej reprezentacji danych. Dzięki Aspose.Slides dla .NET możesz przenieść swoje prezentacje na wyższy poziom, czyniąc je bardziej wciągającymi i pouczającymi.
+Aspose.Slides for .NET umożliwia tworzenie oszałamiających prezentacji wykresów z różnymi opcjami dostosowywania. W tym samouczku skupiliśmy się na używaniu opcji znaczników wykresu w punktach danych, aby ulepszyć wizualną reprezentację danych. Dzięki Aspose.Slides for .NET możesz przenieść swoje prezentacje na wyższy poziom, czyniąc je bardziej angażującymi i pouczającymi.
 
-Jeśli masz jakieś pytania lub potrzebujesz pomocy z Aspose.Slides dla .NET, zapraszamy do odwiedzenia strony[Dokumentacja Aspose.Slides](https://reference.aspose.com/slides/net/) lub skontaktuj się z[społeczność Aspose](https://forum.aspose.com/) dla wsparcia.
+Jeśli masz jakiekolwiek pytania lub potrzebujesz pomocy w zakresie Aspose.Slides dla .NET, odwiedź stronę [Dokumentacja Aspose.Slides](https://reference.aspose.com/slides/net/) lub skontaktuj się z [Społeczność Aspose](https://forum.aspose.com/) o wsparcie.
 
 ## Często zadawane pytania (FAQ)
 
@@ -144,19 +146,21 @@ Jeśli masz jakieś pytania lub potrzebujesz pomocy z Aspose.Slides dla .NET, za
 Tak, możesz używać niestandardowych obrazów jako znaczników punktów danych w Aspose.Slides dla .NET, jak pokazano w tym samouczku.
 
 ### Jak mogę zmienić typ wykresu w Aspose.Slides dla .NET?
- Typ wykresu można zmienić, określając inny`ChartType` podczas tworzenia wykresu, np. „Słupkowy”, „Kołowy” lub „Obszar”.
+Możesz zmienić typ wykresu, określając inny `ChartType` podczas tworzenia wykresu, takiego jak „Słupkowy”, „Kołowy” lub „Obszarowy”.
 
-### Czy Aspose.Slides for .NET jest kompatybilny z najnowszymi wersjami programu PowerPoint?
-Aspose.Slides dla .NET jest zaprojektowany do pracy z różnymi formatami programu PowerPoint i jest regularnie aktualizowany, aby zachować kompatybilność z najnowszymi wersjami programu PowerPoint.
+### Czy Aspose.Slides dla .NET jest zgodny z najnowszymi wersjami programu PowerPoint?
+Aspose.Slides for .NET został zaprojektowany do współpracy z różnymi formatami programu PowerPoint i jest regularnie aktualizowany w celu zachowania zgodności z najnowszymi wersjami programu PowerPoint.
 
-### Gdzie mogę znaleźć więcej samouczków i zasobów dotyczących Aspose.Slides dla .NET?
- Dodatkowe samouczki i zasoby można znaleźć w witrynie[Dokumentacja Aspose.Slides](https://reference.aspose.com/slides/net/).
+### Gdzie mogę znaleźć więcej samouczków i zasobów dotyczących Aspose.Slides dla platformy .NET?
+Możesz zapoznać się z dodatkowymi samouczkami i zasobami w [Dokumentacja Aspose.Slides](https://reference.aspose.com/slides/net/).
 
-### Czy dostępna jest wersja próbna Aspose.Slides dla .NET?
- Tak, możesz wypróbować Aspose.Slides dla .NET, pobierając bezpłatną wersję próbną ze strony[Tutaj](https://releases.aspose.com/).
+### Czy jest dostępna wersja próbna Aspose.Slides dla platformy .NET?
+Tak, możesz wypróbować Aspose.Slides dla .NET, pobierając bezpłatną wersję próbną ze strony [Tutaj](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,26 +1,28 @@
 ---
-title: Java スライドのサンバースト チャート
-linktitle: Java スライドのサンバースト チャート
-second_title: Aspose.Slides Java PowerPoint 処理 API
-description: Aspose.Slides を使用して、Java スライドで魅力的なサンバースト チャートを作成します。チャートの作成とデータ操作をステップごとに学習します。
-weight: 16
-url: /ja/java/chart-elements/sunburst-chart-java-slides/
+"description": "Aspose.Slides を使って、Java スライドで魅力的なサンバーストチャートを作成します。チャートの作成とデータ操作をステップバイステップで学びます。"
+"linktitle": "Javaスライドのサンバーストチャート"
+"second_title": "Aspose.Slides Java PowerPoint 処理 API"
+"title": "Javaスライドのサンバーストチャート"
+"url": "/ja/java/chart-elements/sunburst-chart-java-slides/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java スライドのサンバースト チャート
+# Javaスライドのサンバーストチャート
 
 
-## Aspose.Slides を使用した Java スライドのサンバースト チャートの紹介
+## Aspose.Slides を使用した Java スライドでのサンバースト チャートの紹介
 
-このチュートリアルでは、Aspose.Slides for Java API を使用して、PowerPoint プレゼンテーションでサンバースト チャートを作成する方法を学習します。サンバースト チャートは、階層データを表すために使用される放射状チャートです。ソース コードとともに、ステップ バイ ステップの手順を説明します。
+このチュートリアルでは、Aspose.Slides for Java API を使用して、PowerPoint プレゼンテーションにサンバースト チャートを作成する方法を学びます。サンバースト チャートは、階層構造のデータを表すために使用される放射状チャートです。ソースコードとともに、ステップバイステップの手順を説明します。
 
 ## 前提条件
 
-始める前に、JavaプロジェクトにAspose.Slides for Javaライブラリがインストールされ、設定されていることを確認してください。ライブラリは以下からダウンロードできます。[ここ](https://releases.aspose.com/slides/java/).
+始める前に、JavaプロジェクトにAspose.Slides for Javaライブラリがインストールされ、設定されていることを確認してください。ライブラリは以下からダウンロードできます。 [ここ](https://releases。aspose.com/slides/java/).
 
 ## ステップ1: 必要なライブラリをインポートする
 
@@ -41,13 +43,13 @@ Presentation pres = new Presentation(dataDir + "test.pptx");
 
 ## ステップ3: サンバーストチャートを作成する
 
-スライド上にサンバースト チャートを作成します。チャートの位置 (X、Y) と寸法 (幅、高さ) を指定します。
+スライド上にサンバーストチャートを作成します。チャートの位置（X、Y）とサイズ（幅、高さ）を指定します。
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Sunburst, 50, 50, 500, 400);
 ```
 
-## ステップ4: チャートデータを準備する
+## ステップ4: チャートデータの準備
 
 グラフから既存のカテゴリと系列データをすべてクリアし、グラフのデータ ワークブックを作成します。
 
@@ -60,10 +62,10 @@ wb.clear(0);
 
 ## ステップ5: チャート階層を定義する
 
-サンバースト チャートの階層構造を定義します。枝、幹、葉をカテゴリとして追加できます。
+サンバーストチャートの階層構造を定義します。枝、幹、葉をカテゴリとして追加できます。
 
 ```java
-//支店1
+// 支店1
 IChartCategory leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C1", "Leaf1"));
 leaf.getGroupingLevels().setGroupingItem(1, "Stem1");
 leaf.getGroupingLevels().setGroupingItem(2, "Branch1");
@@ -72,7 +74,7 @@ leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C3", "Leaf3"));
 leaf.getGroupingLevels().setGroupingItem(1, "Stem2");
 chart.getChartData().getCategories().add(wb.getCell(0, "C4", "Leaf4"));
 
-//支店2
+// 支店2
 leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C5", "Leaf5"));
 leaf.getGroupingLevels().setGroupingItem(1, "Stem3");
 leaf.getGroupingLevels().setGroupingItem(2, "Branch2");
@@ -107,7 +109,7 @@ series.getDataPoints().addDataPointForSunburstSeries(wb.getCell(0, "D8", 3));
 pres.save("Sunburst.pptx", SaveFormat.Pptx);
 ```
 
-## Java スライドのサンバースト チャートの完全なソース コード
+## Javaスライドのサンバーストチャートの完全なソースコード
 
 ```java
 String dataDir = "Your Document Directory";
@@ -119,7 +121,7 @@ try
 	chart.getChartData().getSeries().clear();
 	IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
 	wb.clear(0);
-	//ブランチ 1
+	//ブランチ1
 	IChartCategory leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C1", "Leaf1"));
 	leaf.getGroupingLevels().setGroupingItem(1, "Stem1");
 	leaf.getGroupingLevels().setGroupingItem(2, "Branch1");
@@ -155,28 +157,30 @@ finally
 
 ## 結論
 
-このチュートリアルでは、Aspose.Slides for Java API を使用して PowerPoint プレゼンテーションでサンバースト チャートを作成する方法を学習しました。プレゼンテーションの初期化、チャートの作成、チャート階層の定義、データ ポイントの追加、プレゼンテーションの保存の方法を確認しました。この知識を使用して、Java アプリケーションでインタラクティブで情報豊富なサンバースト チャートを作成できます。
+このチュートリアルでは、Aspose.Slides for Java API を使用して、PowerPoint プレゼンテーションでサンバースト チャートを作成する方法を学習しました。プレゼンテーションの初期化、チャートの作成、チャート階層の定義、データポイントの追加、そしてプレゼンテーションの保存方法を学習しました。この知識を活用して、Java アプリケーションでインタラクティブで情報豊富なサンバースト チャートを作成できるようになります。
 
 ## よくある質問
 
 ### サンバースト チャートの外観をカスタマイズするにはどうすればよいですか?
 
-色、ラベル、スタイルなどのプロパティを変更することで、サンバースト チャートの外観をカスタマイズできます。詳細なカスタマイズ オプションについては、Aspose.Slides のドキュメントを参照してください。
+サンバーストチャートの外観は、色、ラベル、スタイルなどのプロパティを変更することでカスタマイズできます。詳細なカスタマイズオプションについては、Aspose.Slides のドキュメントをご覧ください。
 
 ### グラフにさらにデータポイントを追加できますか?
 
-はい、グラフにデータポイントを追加することができます。`series.getDataPoints().addDataPointForSunburstSeries()`含めるデータ ポイントごとにメソッドを指定します。
+はい、グラフにデータポイントを追加することができます。 `series.getDataPoints().addDataPointForSunburstSeries()` 含めるデータ ポイントごとにメソッドを選択します。
 
 ### サンバースト チャートにツールチップを追加するにはどうすればよいですか?
 
-サンバースト チャートにツールヒントを追加するには、チャートのセグメントにマウスを移動したときに値や説明などの追加情報が表示されるようにデータ ラベルの形式を設定します。
+サンバースト チャートにツールヒントを追加するには、チャートのセグメントにマウスを移動したときに値や説明などの追加情報が表示されるようにデータ ラベル形式を設定できます。
 
-### ハイパーリンクを使用してインタラクティブなサンバースト チャートを作成することは可能ですか?
+### ハイパーリンク付きのインタラクティブなサンバースト チャートを作成することは可能ですか?
 
-はい、特定のグラフ要素またはセグメントにハイパーリンクを追加することで、ハイパーリンク付きのインタラクティブなサンバースト グラフを作成できます。ハイパーリンクの追加の詳細については、Aspose.Slides のドキュメントを参照してください。
+はい、特定のグラフ要素またはセグメントにハイパーリンクを追加することで、インタラクティブなサンバーストグラフを作成できます。ハイパーリンクの追加方法の詳細については、Aspose.Slides のドキュメントをご覧ください。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: अलग प्रस्तुति के अंत में स्लाइड की प्रतिकृति बनाएं
-linktitle: अलग प्रस्तुति के अंत में स्लाइड की प्रतिकृति बनाएं
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: जानें कि Aspose.Slides for .NET का उपयोग करके एक PowerPoint प्रस्तुति से स्लाइड को कैसे दोहराया जाए और उसे दूसरे में कैसे जोड़ा जाए। यह चरण-दर-चरण मार्गदर्शिका सहज स्लाइड हेरफेर के लिए स्रोत कोड और स्पष्ट निर्देश प्रदान करती है।
-weight: 17
-url: /hi/net/slide-access-and-manipulation/clone-slide-end-of-another-presentation/
+"description": "जानें कि Aspose.Slides for .NET का उपयोग करके एक PowerPoint प्रस्तुति से स्लाइड को कैसे दोहराया जाए और उसे दूसरे में कैसे जोड़ा जाए। यह चरण-दर-चरण मार्गदर्शिका सहज स्लाइड हेरफेर के लिए स्रोत कोड और स्पष्ट निर्देश प्रदान करती है।"
+"linktitle": "अलग प्रस्तुति के अंत में स्लाइड की प्रतिकृति बनाएं"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "अलग प्रस्तुति के अंत में स्लाइड की प्रतिकृति बनाएं"
+"url": "/hi/net/slide-access-and-manipulation/clone-slide-end-of-another-presentation/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # अलग प्रस्तुति के अंत में स्लाइड की प्रतिकृति बनाएं
@@ -24,7 +26,7 @@ Aspose.Slides for .NET एक लाइब्रेरी है जो .NET ड
 
 - विजुअल स्टूडियो स्थापित.
 - C# और .NET का बुनियादी ज्ञान.
--  Aspose.Slides for .NET लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/net/).
 
 ## प्रस्तुतियाँ लोड करना और उनमें हेरफेर करना
 
@@ -47,7 +49,7 @@ Aspose.Slides for .NET एक लाइब्रेरी है जो .NET ड
 
 ## स्लाइड की प्रतिकृति बनाना
 
-1. उस स्लाइड को पहचानें जिसे आप उसकी अनुक्रमणिका के आधार पर दोहराना चाहते हैं:
+1. उस स्लाइड को पहचानें जिसे आप उसकी अनुक्रमणिका के आधार पर प्रतिलिपि बनाना चाहते हैं:
 
    ```csharp
    ISlide sourceSlide = sourcePresentation.Slides[index];
@@ -92,7 +94,7 @@ Aspose.Slides for .NET एक लाइब्रेरी है जो .NET ड
 
 ### मैं .NET के लिए Aspose.Slides कैसे स्थापित कर सकता हूँ?
 
- आप .NET लाइब्रेरी के लिए Aspose.Slides डाउनलोड कर सकते हैं[इस लिंक](https://releases.aspose.com/slides/net/)उनके दस्तावेज़ में दिए गए स्थापना निर्देशों का पालन करना सुनिश्चित करें।
+आप .NET लाइब्रेरी के लिए Aspose.Slides डाउनलोड कर सकते हैं [इस लिंक](https://releases.aspose.com/slides/net/)उनके दस्तावेज़ में दिए गए स्थापना निर्देशों का पालन करना सुनिश्चित करें।
 
 ### क्या मैं एक साथ कई स्लाइडों की प्रतिलिपि बना सकता हूँ?
 
@@ -108,10 +110,12 @@ Aspose.Slides for .NET एक लाइब्रेरी है जो .NET ड
 
 ### क्या Aspose.Slides for .NET केवल स्लाइड्स के साथ काम करता है?
 
-नहीं, Aspose.Slides for .NET स्लाइड्स से परे व्यापक क्षमताएं प्रदान करता है। आप आकृतियों, चार्ट, एनिमेशन के साथ काम कर सकते हैं और यहां तक कि प्रस्तुतियों से टेक्स्ट और चित्र भी निकाल सकते हैं।
+नहीं, Aspose.Slides for .NET स्लाइड्स से परे व्यापक क्षमताएं प्रदान करता है। आप आकृतियों, चार्ट, एनिमेशन के साथ काम कर सकते हैं और यहां तक कि प्रस्तुतियों से टेक्स्ट और इमेज भी निकाल सकते हैं।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

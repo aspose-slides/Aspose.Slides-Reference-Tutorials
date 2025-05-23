@@ -1,26 +1,28 @@
 ---
-title: Erstellen Sie atemberaubende skizzierte Formen mit Aspose.Slides
-linktitle: Erstellen skizzierter Formen in Präsentationsfolien mit Aspose.Slides
-second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET kreative skizzierte Formen zu Ihren Präsentationsfolien hinzufügen. Verbessern Sie mühelos die visuelle Attraktivität!
-weight: 13
-url: /de/net/shape-alignment-and-formatting-in-slides/creating-sketched-shapes/
+"description": "Erfahren Sie, wie Sie mit Aspose.Slides für .NET kreative Skizzen zu Ihren Präsentationsfolien hinzufügen. Verbessern Sie mühelos die visuelle Attraktivität!"
+"linktitle": "Erstellen skizzierter Formen in Präsentationsfolien mit Aspose.Slides"
+"second_title": "Aspose.Slides .NET PowerPoint-Verarbeitungs-API"
+"title": "Erstellen Sie atemberaubende skizzierte Formen mit Aspose.Slides"
+"url": "/de/net/shape-alignment-and-formatting-in-slides/creating-sketched-shapes/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Erstellen Sie atemberaubende skizzierte Formen mit Aspose.Slides
 
 ## Einführung
-Willkommen zu unserer Schritt-für-Schritt-Anleitung zum Erstellen skizzierter Formen in Präsentationsfolien mit Aspose.Slides für .NET. Wenn Sie Ihren Präsentationen einen Hauch von Kreativität verleihen möchten, bieten skizzierte Formen eine einzigartige und handgezeichnete Ästhetik. In diesem Tutorial führen wir Sie durch den Prozess und unterteilen ihn in einfache Schritte, um ein reibungsloses Erlebnis zu gewährleisten.
+Willkommen zu unserer Schritt-für-Schritt-Anleitung zum Erstellen skizzierter Formen in Präsentationsfolien mit Aspose.Slides für .NET. Wenn Sie Ihren Präsentationen einen Hauch von Kreativität verleihen möchten, bieten skizzierte Formen eine einzigartige, handgezeichnete Ästhetik. In diesem Tutorial führen wir Sie durch den Prozess und unterteilen ihn in einfache Schritte, um einen reibungslosen Ablauf zu gewährleisten.
 ## Voraussetzungen
 Bevor wir mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
--  Aspose.Slides für .NET: Stellen Sie sicher, dass Sie die Aspose.Slides-Bibliothek für .NET installiert haben. Sie können sie herunterladen[Hier](https://releases.aspose.com/slides/net/).
+- Aspose.Slides für .NET: Stellen Sie sicher, dass die Aspose.Slides-Bibliothek für .NET installiert ist. Sie können sie herunterladen [Hier](https://releases.aspose.com/slides/net/).
 - Entwicklungsumgebung: Richten Sie eine .NET-Entwicklungsumgebung mit Ihrer bevorzugten IDE ein.
 ## Namespaces importieren
-Beginnen Sie mit dem Importieren der erforderlichen Namespaces in Ihr .NET-Projekt. Dieser Schritt stellt sicher, dass Sie Zugriff auf die Klassen und Funktionen haben, die für die Arbeit mit Aspose.Slides erforderlich sind.
+Importieren Sie zunächst die erforderlichen Namespaces in Ihr .NET-Projekt. Dieser Schritt stellt sicher, dass Sie Zugriff auf die Klassen und Funktionen haben, die für die Arbeit mit Aspose.Slides erforderlich sind.
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -36,7 +38,7 @@ using Aspose.Slides.Export;
 using Aspose.Slides.MathText;
 ```
 ## Schritt 1: Einrichten des Projekts
-Beginnen Sie mit der Erstellung eines neuen .NET-Projekts oder dem Öffnen eines vorhandenen. Achten Sie darauf, Aspose.Slides in Ihre Projektreferenzen aufzunehmen.
+Erstellen Sie zunächst ein neues .NET-Projekt oder öffnen Sie ein vorhandenes. Achten Sie darauf, Aspose.Slides in Ihre Projektreferenzen aufzunehmen.
 ## Schritt 2: Aspose.Slides initialisieren
 Initialisieren Sie Aspose.Slides, indem Sie den folgenden Codeausschnitt hinzufügen. Dadurch wird die Präsentation eingerichtet und die Ausgabepfade für die Präsentationsdatei und das Miniaturbild angegeben.
 ```csharp
@@ -66,23 +68,25 @@ Speichern Sie die Präsentationsdatei mit der skizzierten Form.
 ```csharp
 pres.Save(outPptxFile, SaveFormat.Pptx);
 ```
-Das ist es! Sie haben erfolgreich eine Präsentation mit skizzierten Formen mit Aspose.Slides für .NET erstellt.
+Das war's! Sie haben erfolgreich eine Präsentation mit skizzierten Formen mit Aspose.Slides für .NET erstellt.
 ## Abschluss
-Das Hinzufügen skizzierter Formen zu Ihren Präsentationsfolien kann die visuelle Attraktivität steigern und Ihr Publikum fesseln. Mit Aspose.Slides für .NET wird der Prozess unkompliziert und Sie können Ihrer Kreativität mühelos freien Lauf lassen.
+Das Hinzufügen skizzierter Formen zu Ihren Präsentationsfolien kann die visuelle Attraktivität steigern und Ihr Publikum fesseln. Mit Aspose.Slides für .NET wird der Prozess unkompliziert und ermöglicht es Ihnen, Ihrer Kreativität mühelos freien Lauf zu lassen.
 ## FAQs
 ### 1. Kann ich den Skizzeneffekt anpassen?
- Ja, Aspose.Slides für .NET bietet verschiedene Anpassungsoptionen für skizzierte Effekte. Weitere Informationen finden Sie im[Dokumentation](https://reference.aspose.com/slides/net/) für detaillierte Informationen.
+Ja, Aspose.Slides für .NET bietet verschiedene Anpassungsmöglichkeiten für skizzierte Effekte. Weitere Informationen finden Sie im [Dokumentation](https://reference.aspose.com/slides/net/) für detaillierte Informationen.
 ### 2. Gibt es eine kostenlose Testversion?
- Sicher! Sie können eine kostenlose Testversion von Aspose.Slides für .NET ausprobieren[Hier](https://releases.aspose.com/).
+Sicher! Sie können eine kostenlose Testversion von Aspose.Slides für .NET ausprobieren [Hier](https://releases.aspose.com/).
 ### 3. Wo bekomme ich Unterstützung?
- Wenn Sie Hilfe benötigen oder Fragen haben, besuchen Sie die[Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11).
+Wenn Sie Hilfe benötigen oder Fragen haben, besuchen Sie die [Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11).
 ### 4. Wie kann ich Aspose.Slides für .NET kaufen?
- Um Aspose.Slides für .NET zu kaufen, besuchen Sie die[Kaufseite](https://purchase.aspose.com/buy).
+Um Aspose.Slides für .NET zu kaufen, besuchen Sie die [Kaufseite](https://purchase.aspose.com/buy).
 ### 5. Bieten Sie temporäre Lizenzen an?
- Ja, es sind temporäre Lizenzen verfügbar[Hier](https://purchase.aspose.com/temporary-license/).
+Ja, es sind temporäre Lizenzen verfügbar [Hier](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

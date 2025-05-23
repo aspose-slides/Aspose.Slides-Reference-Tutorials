@@ -1,20 +1,22 @@
 ---
-title: मूल फ़ॉन्ट को संरक्षित करना - प्रस्तुति को HTML में परिवर्तित करें
-linktitle: मूल फ़ॉन्ट को संरक्षित करना - प्रस्तुति को HTML में परिवर्तित करें
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: .NET के लिए Aspose.Slides का उपयोग करके प्रेजेंटेशन को HTML में परिवर्तित करते समय मूल फ़ॉन्ट को संरक्षित करने का तरीका जानें। फ़ॉन्ट की एकरूपता और दृश्य प्रभाव को सहजता से सुनिश्चित करें।
-weight: 14
-url: /hi/net/presentation-conversion/preserving-original-fonts-convert-presentation-to-html/
+"description": "Aspose.Slides for .NET का उपयोग करके प्रेजेंटेशन को HTML में परिवर्तित करते समय मूल फ़ॉन्ट को संरक्षित करने का तरीका जानें। फ़ॉन्ट की एकरूपता और दृश्य प्रभाव को सहजता से सुनिश्चित करें।"
+"linktitle": "मूल फ़ॉन्ट को संरक्षित करना - प्रस्तुति को HTML में परिवर्तित करें"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "मूल फ़ॉन्ट को संरक्षित करना - प्रस्तुति को HTML में परिवर्तित करें"
+"url": "/hi/net/presentation-conversion/preserving-original-fonts-convert-presentation-to-html/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # मूल फ़ॉन्ट को संरक्षित करना - प्रस्तुति को HTML में परिवर्तित करें
 
 
-इस व्यापक गाइड में, हम आपको Aspose.Slides for .NET का उपयोग करके HTML में प्रस्तुति को परिवर्तित करते समय मूल फ़ॉन्ट को संरक्षित करने की प्रक्रिया से अवगत कराएँगे। हम आपको आवश्यक C# स्रोत कोड प्रदान करेंगे और प्रत्येक चरण को विस्तार से समझाएँगे। इस ट्यूटोरियल के अंत तक, आप यह सुनिश्चित करने में सक्षम होंगे कि आपके परिवर्तित HTML दस्तावेज़ में फ़ॉन्ट मूल प्रस्तुति के प्रति वफादार रहें।
+इस व्यापक गाइड में, हम आपको Aspose.Slides for .NET का उपयोग करके HTML में प्रस्तुति को परिवर्तित करते समय मूल फ़ॉन्ट को संरक्षित करने की प्रक्रिया से अवगत कराएँगे। हम आपको आवश्यक C# स्रोत कोड प्रदान करेंगे और प्रत्येक चरण को विस्तार से समझाएँगे। इस ट्यूटोरियल के अंत तक, आप यह सुनिश्चित करने में सक्षम होंगे कि आपके परिवर्तित HTML दस्तावेज़ में फ़ॉन्ट मूल प्रस्तुति के प्रति वफादार बने रहें।
 
 ## 1 परिचय
 
@@ -44,7 +46,7 @@ using (Presentation pres = new Presentation("input.pptx"))
 }
 ```
 
- प्रतिस्थापित करें`"Your Document Directory"` अपनी प्रस्तुति फ़ाइल के पथ के साथ.
+प्रतिस्थापित करें `"Your Document Directory"` अपनी प्रस्तुति फ़ाइल के पथ के साथ.
 
 ## 5. डिफ़ॉल्ट फ़ॉन्ट को छोड़कर
 
@@ -77,7 +79,7 @@ HtmlOptions htmlOptionsEmbed = new HtmlOptions
 pres.Save("output.html", SaveFormat.Html, htmlOptionsEmbed);
 ```
 
- प्रतिस्थापित करें`"output.html"` अपने इच्छित आउटपुट फ़ाइल नाम के साथ.
+प्रतिस्थापित करें `"output.html"` अपने इच्छित आउटपुट फ़ाइल नाम के साथ.
 
 ## 8. निष्कर्ष
 
@@ -87,7 +89,7 @@ pres.Save("output.html", SaveFormat.Html, htmlOptionsEmbed);
 
 ### प्रश्न 1: क्या मैं बहिष्कृत फ़ॉन्ट्स की सूची को अनुकूलित कर सकता हूँ?
 
- हाँ, आप कर सकते हैं।`fontNameExcludeList`अपनी आवश्यकताओं के अनुसार विशिष्ट फ़ॉन्ट को शामिल या बाहर करने के लिए सरणी।
+हाँ, आप कर सकते हैं। `fontNameExcludeList` अपनी आवश्यकताओं के अनुसार विशिष्ट फ़ॉन्ट को शामिल या बाहर करने के लिए सरणी।
 
 ### प्रश्न 2: यदि मैं सभी फ़ॉन्ट एम्बेड नहीं करना चाहता तो क्या होगा?
 
@@ -103,11 +105,13 @@ pres.Save("output.html", SaveFormat.Html, htmlOptionsEmbed);
 
 ### प्रश्न 5: मैं अतिरिक्त संसाधन और सहायता कहां से प्राप्त कर सकता हूं?
 
- आप Aspose वेबसाइट पर अधिक दस्तावेज़, ट्यूटोरियल और सहायता पा सकते हैं।[.NET दस्तावेज़ीकरण के लिए Aspose.Slides](https://reference.aspose.com/slides/net/) विस्तृत जानकारी के लिए.
+आप Aspose वेबसाइट पर अधिक दस्तावेज़, ट्यूटोरियल और सहायता पा सकते हैं। [.NET दस्तावेज़ीकरण के लिए Aspose.Slides](https://reference.aspose.com/slides/net/) विस्तृत जानकारी के लिए.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

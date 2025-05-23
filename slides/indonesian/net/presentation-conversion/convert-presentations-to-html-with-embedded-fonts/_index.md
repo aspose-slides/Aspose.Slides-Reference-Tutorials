@@ -1,36 +1,38 @@
 ---
-title: Konversikan Presentasi ke HTML dengan Font Tersemat
-linktitle: Konversikan Presentasi ke HTML dengan Font Tersemat
-second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
-description: Konversikan presentasi PowerPoint ke HTML dengan font tersemat menggunakan Aspose.Slides untuk .NET. Pertahankan orisinalitas dengan mulus.
-weight: 13
-url: /id/net/presentation-conversion/convert-presentations-to-html-with-embedded-fonts/
+"description": "Ubah presentasi PowerPoint menjadi HTML dengan font tertanam menggunakan Aspose.Slides untuk .NET. Pertahankan orisinalitas dengan lancar."
+"linktitle": "Konversi Presentasi ke HTML dengan Font Tertanam"
+"second_title": "API Pemrosesan PowerPoint Aspose.Slides .NET"
+"title": "Konversi Presentasi ke HTML dengan Font Tertanam"
+"url": "/id/net/presentation-conversion/convert-presentations-to-html-with-embedded-fonts/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Konversikan Presentasi ke HTML dengan Font Tersemat
+# Konversi Presentasi ke HTML dengan Font Tertanam
 
 
-Di era digital saat ini, berbagi presentasi dan dokumen secara online telah menjadi praktik umum. Namun, salah satu tantangan yang sering muncul adalah memastikan font Anda ditampilkan dengan benar saat mengonversi presentasi ke HTML. Tutorial langkah demi langkah ini akan memandu Anda melalui proses penggunaan Aspose.Slides untuk .NET untuk mengonversi presentasi ke HTML dengan font tersemat, memastikan dokumen Anda terlihat sesuai keinginan Anda.
+Di era digital saat ini, berbagi presentasi dan dokumen secara daring telah menjadi praktik umum. Namun, satu tantangan yang sering muncul adalah memastikan font Anda ditampilkan dengan benar saat mengonversi presentasi ke HTML. Tutorial langkah demi langkah ini akan memandu Anda melalui proses penggunaan Aspose.Slides for .NET untuk mengonversi presentasi ke HTML dengan font tertanam, memastikan dokumen Anda terlihat seperti yang Anda inginkan.
 
 ## Pengantar Aspose.Slides untuk .NET
 
-Sebelum kita mendalami tutorialnya, mari kita perkenalkan secara singkat Aspose.Slides untuk .NET. Ini adalah perpustakaan canggih yang memungkinkan pengembang untuk bekerja dengan presentasi PowerPoint dalam aplikasi .NET. Dengan Aspose.Slides, Anda dapat membuat, memodifikasi, dan mengonversi file PowerPoint secara terprogram.
+Sebelum kita menyelami tutorialnya, mari kita perkenalkan Aspose.Slides for .NET secara singkat. Ini adalah pustaka canggih yang memungkinkan pengembang untuk bekerja dengan presentasi PowerPoint dalam aplikasi .NET. Dengan Aspose.Slides, Anda dapat membuat, memodifikasi, dan mengonversi file PowerPoint secara terprogram.
 
 ## Prasyarat
 
 Sebelum memulai, pastikan Anda memiliki prasyarat berikut:
 
--  Aspose.Slides untuk .NET: Anda harus menginstal pustaka Aspose.Slides di proyek Anda. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/slides/net/).
+- Aspose.Slides untuk .NET: Anda harus memasang pustaka Aspose.Slides di proyek Anda. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/slides/net/).
 
 ## Langkah 1: Siapkan Proyek Anda
 
 1. Buat proyek baru atau buka proyek yang sudah ada di lingkungan pengembangan .NET pilihan Anda.
 
-2. Tambahkan referensi ke perpustakaan Aspose.Slides di proyek Anda.
+2. Tambahkan referensi ke pustaka Aspose.Slides di proyek Anda.
 
 3. Impor namespace yang diperlukan dalam kode Anda:
 
@@ -40,7 +42,7 @@ Sebelum memulai, pastikan Anda memiliki prasyarat berikut:
 
 ## Langkah 2: Muat Presentasi Anda
 
- Untuk memulai, Anda perlu memuat presentasi yang ingin Anda konversi ke HTML. Mengganti`"Your Document Directory"` dengan direktori sebenarnya tempat file presentasi Anda berada.
+Untuk memulai, Anda perlu memuat presentasi yang ingin Anda ubah ke HTML. Ganti `"Your Document Directory"` dengan direktori sebenarnya tempat file presentasi Anda berada.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -52,7 +54,7 @@ using (Presentation pres = new Presentation(dataDir + "presentation.pptx"))
 
 ## Langkah 3: Kecualikan Font Presentasi Default
 
-Pada langkah ini, Anda bisa menentukan font presentasi default apa pun yang ingin Anda kecualikan dari penyematan. Hal ini dapat membantu mengoptimalkan ukuran file HTML yang dihasilkan.
+Pada langkah ini, Anda dapat menentukan font presentasi default yang ingin Anda kecualikan dari penyematan. Ini dapat membantu mengoptimalkan ukuran file HTML yang dihasilkan.
 
 ```csharp
 string[] fontNameExcludeList = { };
@@ -64,7 +66,7 @@ Sekarang, Anda memiliki dua opsi untuk menyematkan font di HTML:
 
 ### Opsi 1: Sematkan Semua Font
 
- Untuk menyematkan semua font yang digunakan dalam presentasi, gunakan`EmbedAllFontsHtmlController`.
+Untuk menanamkan semua font yang digunakan dalam presentasi, gunakan `EmbedAllFontsHtmlController`.
 
 ```csharp
 EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
@@ -72,7 +74,7 @@ EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlControll
 
 ### Opsi 2: Tautkan Semua Font
 
- Untuk menautkan ke semua font yang digunakan dalam presentasi, gunakan`LinkAllFontsHtmlController`. Anda harus menentukan direktori tempat font berada di sistem Anda.
+Untuk menautkan semua font yang digunakan dalam presentasi, gunakan `LinkAllFontsHtmlController`Anda harus menentukan direktori tempat font berada di sistem Anda.
 
 ```csharp
 LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, @"C:\Windows\Fonts\");
@@ -80,7 +82,7 @@ LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExc
 
 ## Langkah 5: Tentukan Opsi HTML
 
- Buat sebuah`HtmlOptions` objek dan atur formatter HTML ke yang Anda pilih pada langkah sebelumnya.
+Membuat sebuah `HtmlOptions` objek dan atur formater HTML ke yang Anda pilih pada langkah sebelumnya.
 
 ```csharp
 HtmlOptions htmlOptionsEmbed = new HtmlOptions
@@ -91,7 +93,7 @@ HtmlOptions htmlOptionsEmbed = new HtmlOptions
 
 ## Langkah 6: Simpan sebagai HTML
 
- Terakhir, simpan presentasi sebagai file HTML. Anda dapat memilih salah satunya`SaveFormat.Html` atau`SaveFormat.Html5` tergantung pada kebutuhan Anda.
+Terakhir, simpan presentasi sebagai file HTML. Anda dapat memilih salah satu `SaveFataumat.Html` or `SaveFormat.Html5` Tergantung pada kebutuhan Anda.
 
 ```csharp
 pres.Save("pres.html", SaveFormat.Html, htmlOptionsEmbed);
@@ -99,37 +101,39 @@ pres.Save("pres.html", SaveFormat.Html, htmlOptionsEmbed);
 
 ## Kesimpulan
 
-Selamat! Anda telah berhasil mengonversi presentasi Anda ke HTML dengan font yang disematkan menggunakan Aspose.Slides untuk .NET. Ini memastikan bahwa font Anda akan ditampilkan dengan benar saat berbagi presentasi Anda secara online.
+Selamat! Anda telah berhasil mengonversi presentasi Anda ke HTML dengan font tertanam menggunakan Aspose.Slides for .NET. Ini memastikan bahwa font Anda akan ditampilkan dengan benar saat membagikan presentasi Anda secara daring.
 
-Sekarang, Anda dapat dengan mudah berbagi presentasi yang diformat dengan indah dengan percaya diri, mengetahui bahwa audiens Anda akan melihatnya persis seperti yang Anda inginkan.
+Sekarang, Anda dapat dengan mudah membagikan presentasi Anda yang diformat dengan indah dengan percaya diri, karena tahu bahwa audiens Anda akan melihatnya persis seperti yang Anda inginkan.
 
- Untuk informasi lebih lanjut dan referensi API terperinci, lihat[Aspose.Slides untuk dokumentasi .NET](https://reference.aspose.com/slides/net/).
+Untuk informasi lebih lanjut dan referensi API terperinci, lihat [Dokumentasi Aspose.Slides untuk .NET](https://reference.aspose.com/slides/net/).
 
-## FAQ
+## Tanya Jawab Umum
 
-### 1. Bisakah saya mengonversi presentasi PowerPoint ke HTML menggunakan Aspose.Slides untuk .NET dalam mode batch?
+### 1. Dapatkah saya mengonversi presentasi PowerPoint ke HTML menggunakan Aspose.Slides for .NET dalam mode batch?
 
-Ya, Anda dapat mengonversi beberapa presentasi ke HTML secara batch menggunakan Aspose.Slides untuk .NET dengan mengulang file presentasi Anda dan menerapkan proses konversi ke masing-masing presentasi.
+Ya, Anda dapat mengonversi beberapa presentasi ke HTML secara batch menggunakan Aspose.Slides for .NET dengan mengulang seluruh file presentasi Anda dan menerapkan proses konversi ke masing-masing file.
 
 ### 2. Apakah ada cara untuk menyesuaikan tampilan keluaran HTML?
 
-Tentu! Aspose.Slides for .NET menyediakan berbagai opsi untuk menyesuaikan tampilan dan format output HTML, seperti menyesuaikan warna, font, dan tata letak.
+Tentu saja! Aspose.Slides untuk .NET menyediakan berbagai opsi untuk menyesuaikan tampilan dan format keluaran HTML, seperti menyesuaikan warna, font, dan tata letak.
 
-### 3. Apakah ada batasan untuk menyematkan font dalam HTML menggunakan Aspose.Slides untuk .NET?
+### 3. Apakah ada batasan untuk menyematkan font dalam HTML menggunakan Aspose.Slides for .NET?
 
-Meskipun Aspose.Slides untuk .NET menawarkan kemampuan penyematan font yang luar biasa, perlu diingat bahwa ukuran file HTML Anda mungkin bertambah saat menyematkan font. Pastikan untuk mengoptimalkan pilihan font Anda untuk penggunaan web.
+Meskipun Aspose.Slides untuk .NET menawarkan kemampuan penyematan font yang sangat baik, perlu diingat bahwa ukuran file HTML Anda dapat bertambah saat menyematkan font. Pastikan untuk mengoptimalkan pilihan font Anda untuk penggunaan web.
 
-### 4. Bisakah saya mengonversi presentasi PowerPoint ke format lain dengan Aspose.Slides untuk .NET?
+### 4. Dapatkah saya mengonversi presentasi PowerPoint ke format lain dengan Aspose.Slides untuk .NET?
 
-Ya, Aspose.Slides untuk .NET mendukung berbagai format output, termasuk PDF, gambar, dan lainnya. Anda dapat dengan mudah mengonversi presentasi Anda ke format pilihan Anda.
+Ya, Aspose.Slides untuk .NET mendukung berbagai format output, termasuk PDF, gambar, dan banyak lagi. Anda dapat dengan mudah mengonversi presentasi Anda ke format pilihan Anda.
 
-### 5. Di mana saya dapat menemukan sumber daya tambahan dan dukungan untuk Aspose.Slides untuk .NET?
+### 5. Di mana saya dapat menemukan sumber daya dan dukungan tambahan untuk Aspose.Slides for .NET?
 
- Anda dapat mengakses banyak sumber daya, termasuk dokumentasi, di[Aspose.Slides untuk Referensi .NET API](https://reference.aspose.com/slides/net/).
+Anda dapat mengakses banyak sumber daya, termasuk dokumentasi, di [Referensi API Aspose.Slides untuk .NET](https://reference.aspose.com/slides/net/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में कस्टम दस्तावेज़ गुण जोड़ें
-linktitle: जावा स्लाइड्स में कस्टम दस्तावेज़ गुण जोड़ें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: जानें कि Java Slides में कस्टम डॉक्यूमेंट प्रॉपर्टीज़ के साथ PowerPoint प्रेजेंटेशन को कैसे बेहतर बनाया जाए। Java के लिए Aspose.Slides का उपयोग करके कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 13
-url: /hi/java/presentation-properties/add-custom-document-properties-in-java-slides/
+"description": "जानें कि Java Slides में कस्टम डॉक्यूमेंट प्रॉपर्टीज़ के साथ PowerPoint प्रेजेंटेशन को कैसे बेहतर बनाया जाए। Java के लिए Aspose.Slides का उपयोग करके कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "जावा स्लाइड्स में कस्टम दस्तावेज़ गुण जोड़ें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में कस्टम दस्तावेज़ गुण जोड़ें"
+"url": "/hi/java/presentation-properties/add-custom-document-properties-in-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में कस्टम दस्तावेज़ गुण जोड़ें
@@ -51,7 +53,7 @@ IDocumentProperties documentProperties = presentation.getDocumentProperties();
 
 ## चरण 4: कस्टम गुण जोड़ना
 
-अब, प्रेजेंटेशन में कस्टम प्रॉपर्टीज जोड़ते हैं। कस्टम प्रॉपर्टीज में एक नाम और एक मान होता है। आप इनका इस्तेमाल अपनी मनचाही जानकारी स्टोर करने के लिए कर सकते हैं।
+अब, प्रेजेंटेशन में कस्टम प्रॉपर्टीज जोड़ते हैं। कस्टम प्रॉपर्टीज में नाम और मान शामिल होते हैं। आप इनका इस्तेमाल अपनी मनचाही जानकारी स्टोर करने के लिए कर सकते हैं।
 
 ```java
 documentProperties.set_Item("New Custom", 12);
@@ -115,7 +117,7 @@ presentation.save(dataDir + "CustomDocumentProperties_out.pptx", SaveFormat.Pptx
 
 ### मैं कस्टम प्रॉपर्टी का मान कैसे प्राप्त करूं?
 
- किसी कस्टम प्रॉपर्टी का मान प्राप्त करने के लिए, आप इसका उपयोग कर सकते हैं`get_Item` विधि पर`documentProperties` वस्तु. उदाहरण के लिए:
+किसी कस्टम प्रॉपर्टी का मान प्राप्त करने के लिए, आप इसका उपयोग कर सकते हैं `get_Item` विधि पर `documentProperties` वस्तु. उदाहरण के लिए:
 
 ```java
 Object customPropertyValue = documentProperties.get_Item("New Custom");
@@ -123,7 +125,7 @@ Object customPropertyValue = documentProperties.get_Item("New Custom");
 
 ### क्या मैं विभिन्न डेटा प्रकारों के कस्टम गुण जोड़ सकता हूँ?
 
-हां, आप विभिन्न डेटा प्रकारों के कस्टम गुण जोड़ सकते हैं, जिसमें संख्याएं, स्ट्रिंग्स, दिनांक और बहुत कुछ शामिल हैं, जैसा कि उदाहरण में दिखाया गया है। Aspose.Slides for Java विभिन्न डेटा प्रकारों को सहजता से संभालता है।
+हां, आप उदाहरण में दिखाए गए अनुसार संख्याओं, स्ट्रिंग्स, तिथियों और अन्य सहित विभिन्न डेटा प्रकारों के कस्टम गुण जोड़ सकते हैं। Aspose.Slides for Java विभिन्न डेटा प्रकारों को सहजता से संभालता है।
 
 ### क्या मेरे द्वारा जोड़ी जा सकने वाली कस्टम प्रॉपर्टीज़ की संख्या की कोई सीमा है?
 
@@ -143,9 +145,11 @@ for (int i = 0; i < documentProperties.getCustomCount(); i++) {
 ```
 
 यह कोड प्रस्तुति में सभी कस्टम गुणों के नाम और मान प्रदर्शित करेगा।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

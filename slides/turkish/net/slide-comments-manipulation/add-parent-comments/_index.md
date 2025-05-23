@@ -1,50 +1,52 @@
 ---
-title: Aspose.Slides'ı kullanarak Slayta Ana Yorumları Ekleme
-linktitle: Slayta Ebeveyn Yorumları Ekle
-second_title: Aspose.Slides .NET PowerPoint İşleme API'si
-description: Aspose.Slides for .NET'i kullanarak PowerPoint sunumlarınıza nasıl etkileşimli yorum ve yanıt ekleyeceğinizi öğrenin. Katılımı ve işbirliğini geliştirin.
-weight: 12
-url: /tr/net/slide-comments-manipulation/add-parent-comments/
+"description": "Aspose.Slides for .NET kullanarak PowerPoint sunularınıza etkileşimli yorumlar ve yanıtlar eklemeyi öğrenin. Katılımı ve iş birliğini artırın."
+"linktitle": "Slayta Ebeveyn Yorumları Ekle"
+"second_title": "Aspose.Slides .NET PowerPoint İşleme API'si"
+"title": "Aspose.Slides kullanarak Slayta Üst Yorumlar Ekleyin"
+"url": "/tr/net/slide-comments-manipulation/add-parent-comments/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Slides'ı kullanarak Slayta Ana Yorumları Ekleme
+# Aspose.Slides kullanarak Slayta Üst Yorumlar Ekleyin
 
 
-PowerPoint sunumlarınızı etkileşimli özelliklerle geliştirmek mi istiyorsunuz? Aspose.Slides for .NET, yorumları ve yanıtları birleştirerek hedef kitleniz için dinamik ve ilgi çekici bir deneyim oluşturmanıza olanak tanır. Bu adım adım eğitimde, Aspose.Slides for .NET kullanarak slaytlara üst yorumların nasıl ekleneceğini göstereceğiz. Gelin bu heyecan verici özelliği derinlemesine inceleyelim ve keşfedelim.
+PowerPoint sunumlarınızı etkileşimli özelliklerle zenginleştirmek mi istiyorsunuz? Aspose.Slides for .NET yorumları ve yanıtları eklemenize olanak tanır ve izleyicileriniz için dinamik ve ilgi çekici bir deneyim yaratır. Bu adım adım eğitimde, Aspose.Slides for .NET kullanarak slaytlara üst yorumların nasıl ekleneceğini göstereceğiz. Hadi başlayalım ve bu heyecan verici özelliği keşfedelim.
 
-## Önkoşullar
+## Ön koşullar
 
-Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
-1.  Aspose.Slides for .NET: Aspose.Slides for .NET'in kurulu olduğundan emin olun. İndirebilirsin[Burada](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides for .NET: Aspose.Slides for .NET'in yüklü olduğundan emin olun. İndirebilirsiniz [Burada](https://releases.aspose.com/slides/net/).
 
 2. Visual Studio: .NET uygulamanızı oluşturmak ve çalıştırmak için Visual Studio'ya ihtiyacınız olacak.
 
-3. Temel C# Bilgisi: Bu eğitimde, C# programlama konusunda temel bir anlayışa sahip olduğunuz varsayılmaktadır.
+3. Temel C# Bilgisi: Bu eğitimde C# programlama hakkında temel bir anlayışa sahip olduğunuzu varsayıyoruz.
 
-Artık önkoşulları ele aldığımıza göre, gerekli ad alanlarını içe aktarmaya devam edelim.
+Artık ön koşulları sağladığımıza göre, gerekli ad alanlarını içe aktarmaya geçebiliriz.
 
 ## Ad Alanlarını İçe Aktarma
 
-Öncelikle ilgili ad alanlarını projenize aktarmanız gerekir. Bu ad alanları Aspose.Slides for .NET ile çalışmak için gereken sınıfları ve yöntemleri sağlar.
+Öncelikle, ilgili ad alanlarını projenize aktarmanız gerekir. Bu ad alanları, .NET için Aspose.Slides ile çalışmak için gereken sınıfları ve yöntemleri sağlar.
 
 ```csharp
 using Aspose.Slides;
 using Aspose.Slides.SlideComments;
 ```
 
-Önkoşullar ve ad alanları mevcut olduğundan, bir slayda ana yorumlar ekleme sürecini birden çok adıma ayıralım.
+Ön koşullar ve ad alanları hazır olduğunda, bir slayda üst yorum ekleme sürecini birden fazla adıma bölelim.
 
-## 1. Adım: Bir Sunu Oluşturun
+## Adım 1: Bir Sunum Oluşturun
 
-Başlamak için Aspose.Slides for .NET'i kullanarak yeni bir sunum oluşturmanız gerekir. Bu sunum yorumlarınızı ekleyeceğiniz tuval olacaktır.
+Başlamak için, .NET için Aspose.Slides kullanarak yeni bir sunum oluşturmanız gerekir. Bu sunum, yorumlarınızı ekleyeceğiniz tuval olacaktır.
 
 ```csharp
-// Çıkış dizininin yolu.
+// Çıktı dizinine giden yol.
 string outPptxFile = "Output Path";
 
 using (Presentation pres = new Presentation())
@@ -55,52 +57,52 @@ using (Presentation pres = new Presentation())
 }
 ```
 
- Yukarıdaki kodda değiştirin`"Output Path"` çıktı sunumunuz için istediğiniz yolla.
+Yukarıdaki kodda şunu değiştirin: `"Output Path"` Çıktı sunumunuz için istediğiniz yol ile.
 
-## 2. Adım: Yorum Yazarları Ekleme
+## Adım 2: Yorum Yazarlarını Ekleyin
 
-Yorum eklemeden önce bu yorumların yazarlarını tanımlamanız gerekir. Bu örnekte, her biri şu örnekle temsil edilen "Yazar_1" ve "Yazar_2" adında iki yazarımız var:`ICommentAuthor`.
+Yorum eklemeden önce, bu yorumların yazarlarını tanımlamanız gerekir. Bu örnekte, her biri bir örneğiyle temsil edilen "Author_1" ve "Author_2" adlı iki yazarımız var `ICommentAuthor`.
 
 ```csharp
 // Yorum ekle
 ICommentAuthor author1 = pres.CommentAuthors.AddAuthor("Author_1", "A.A.");
 IComment comment1 = author1.Comments.AddComment("comment1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
 
-// Yoruma yanıt ekle1
+// Yorum1 için cevap ekle
 ICommentAuthor author2 = pres.CommentAuthors.AddAuthor("Autror_2", "B.B.");
 IComment reply1 = author2.Comments.AddComment("reply 1 for comment 1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
 reply1.ParentComment = comment1;
 ```
 
-Bu adımda iki yorum yazarı oluşturup ilk yorumu ve yoruma bir yanıt ekliyoruz.
+Bu adımda iki yorum yazarı oluşturuyoruz ve yoruma ilk yorumu ve cevabı ekliyoruz.
 
-## 3. Adım: Daha Fazla Yanıt Ekleyin
+## Adım 3: Daha Fazla Yanıt Ekle
 
-Hiyerarşik bir yorum yapısı oluşturmak için mevcut yorumlara daha fazla yanıt ekleyebilirsiniz. Burada "yorum1"e ikinci bir yanıt ekliyoruz.
+Yorumların hiyerarşik bir yapısını oluşturmak için mevcut yorumlara daha fazla yanıt ekleyebilirsiniz. Burada, "comment1"e ikinci bir yanıt ekliyoruz.
 
 ```csharp
-// Yoruma yanıt ekle1
+// Yorum1 için cevap ekle
 IComment reply2 = author2.Comments.AddComment("reply 2 for comment 1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
 reply2.ParentComment = comment1;
 ```
 
-Bu, sunumunuzda bir konuşma akışı oluşturur.
+Bu, sunumunuz içerisinde bir konuşma akışı oluşturur.
 
-## 4. Adım: İç İçe Yanıtları Ekleyin
+## Adım 4: İç İçe Yanıtlar Ekle
 
-Yorumlarda iç içe yanıtlar da bulunabilir. Bunu göstermek için, "1. yorum için yanıt 2"ye bir yanıt ekleyerek bir alt yanıt oluşturuyoruz.
+Yorumlarda iç içe geçmiş yanıtlar da olabilir. Bunu göstermek için, "yorum 1 için yanıt 2"ye bir yanıt ekleyerek bir alt yanıt oluşturuyoruz.
 
 ```csharp
-// Yanıta yanıt ekle
+// Cevap ekle cevaba cevap ekle
 IComment subReply = author1.Comments.AddComment("subreply 3 for reply 2", pres.Slides[0], new PointF(10, 10), DateTime.Now);
 subReply.ParentComment = reply2;
 ```
 
-Bu adım, Aspose.Slides for .NET'in yorum hiyerarşilerini yönetmedeki çok yönlülüğünü vurguluyor.
+Bu adım, Aspose.Slides for .NET'in yorum hiyerarşilerini yönetmedeki çok yönlülüğünü vurgular.
 
 ## Adım 5: Daha Fazla Yorum ve Yanıt
 
-Gerektiğinde daha fazla yorum ve yanıt eklemeye devam edebilirsiniz. Bu örnekte iki yorum daha ve bunlardan birine bir yanıt ekliyoruz.
+Gerektiğinde daha fazla yorum ve yanıt eklemeye devam edebilirsiniz. Bu örnekte, iki yorum daha ve bunlardan birine bir yanıt ekliyoruz.
 
 ```csharp
 IComment comment2 = author2.Comments.AddComment("comment 2", pres.Slides[0], new PointF(10, 10), DateTime.Now);
@@ -110,11 +112,11 @@ IComment reply3 = author1.Comments.AddComment("reply 4 for comment 3", pres.Slid
 reply3.ParentComment = comment3;
 ```
 
-Bu adım, sunumlarınız için nasıl ilgi çekici ve etkileşimli içerik oluşturabileceğinizi gösterir.
+Bu adım, sunumlarınız için ilgi çekici ve etkileşimli içeriklerin nasıl oluşturulabileceğini göstermektedir.
 
-## Adım 6: Hiyerarşiyi Görüntüleyin
+## Adım 6: Hiyerarşiyi Görüntüle
 
-Yorum hiyerarşisini görselleştirmek için bunu konsolda görüntüleyebilirsiniz. Bu adım isteğe bağlıdır ancak hata ayıklamak ve yapıyı anlamak için yararlı olabilir.
+Yorum hiyerarşisini görselleştirmek için konsolda görüntüleyebilirsiniz. Bu adım isteğe bağlıdır ancak hata ayıklama ve yapıyı anlama açısından faydalı olabilir.
 
 ```csharp
 ISlide slide = pres.Slides[0];
@@ -133,42 +135,44 @@ for (int i = 0; i < comments.Length; i++)
 }
 ```
 
-## 7. Adım: Yorumları Kaldır
+## Adım 7: Yorumları Kaldırın
 
-Bazı durumlarda yorumları ve yanıtlarını kaldırmanız gerekebilir. Aşağıdaki kod parçacığı, "yorum1"in ve tüm yanıtlarının nasıl kaldırılacağını gösterir.
+Bazı durumlarda yorumları ve yanıtlarını kaldırmanız gerekebilir. Aşağıdaki kod parçası "comment1" ve tüm yanıtlarının nasıl kaldırılacağını gösterir.
 
 ```csharp
 comment1.Remove();
 pres.Save(outPptxFile + "remove_comment.pptx", SaveFormat.Pptx);
 ```
 
-Bu adım sunum içeriğinizi yönetmek ve güncellemek için kullanışlıdır.
+Bu adım sunum içeriğinizi yönetmek ve güncellemek için faydalıdır.
 
-Bu adımlarla Aspose.Slides for .NET'i kullanarak etkileşimli yorumlar ve yanıtlar içeren sunumlar oluşturabilirsiniz. Hedef kitlenizin ilgisini çekmek veya ekip üyeleriyle işbirliği yapmak istiyorsanız, bu özellik çok çeşitli olanaklar sunar.
+Bu adımlarla, Aspose.Slides for .NET kullanarak etkileşimli yorumlar ve yanıtlar içeren sunular oluşturabilirsiniz. İster izleyicilerinizle etkileşim kurmak, ister ekip üyeleriyle iş birliği yapmak isteyin, bu özellik çok çeşitli olanaklar sunar.
 
 ## Çözüm
 
-Aspose.Slides for .NET, PowerPoint sunumlarınızı geliştirmek için güçlü bir araç seti sağlar. Yorum ve yanıt ekleme özelliği sayesinde hedef kitlenizi büyüleyen dinamik ve etkileşimli içerikler oluşturabilirsiniz. Bu adım adım kılavuz size slaytlara üst yorumların nasıl ekleneceğini, hiyerarşilerin nasıl oluşturulacağını ve hatta gerektiğinde yorumların nasıl kaldırılacağını göstermiştir. Bu adımları izleyerek ve Aspose.Slides belgelerini inceleyerek[Burada](https://reference.aspose.com/slides/net/)sunumlarınızı bir üst seviyeye taşıyabilirsiniz.
+.NET için Aspose.Slides, PowerPoint sunumlarınızı geliştirmek için güçlü bir araç seti sunar. Yorumlar ve yanıtlar ekleme yeteneğiyle, izleyicilerinizi büyüleyen dinamik ve etkileşimli içerikler oluşturabilirsiniz. Bu adım adım kılavuz, slaytlara üst yorumları nasıl ekleyeceğinizi, hiyerarşiler nasıl kuracağınızı ve hatta gerektiğinde yorumları nasıl kaldıracağınızı göstermiştir. Bu adımları izleyerek ve Aspose.Slides belgelerini inceleyerek [Burada](https://reference.aspose.com/slides/net/), sunumlarınızı bir üst seviyeye taşıyabilirsiniz.
 
 ## SSS
 
 ### Sunumumdaki belirli slaytlara yorum ekleyebilir miyim?
-Evet, yorum oluştururken hedef slaydı belirterek sununuzdaki herhangi bir slayta yorum ekleyebilirsiniz.
+Evet, yorum oluştururken hedef slaydı belirterek sununuzdaki herhangi bir slayda yorum ekleyebilirsiniz.
 
 ### Sunumdaki yorumların görünümünü özelleştirmek mümkün mü?
-Aspose.Slides for .NET, metin, yazar bilgileri ve slayttaki konum dahil olmak üzere yorumların görünümünü özelleştirmenize olanak tanır.
+Aspose.Slides for .NET, yorumların metinleri, yazar bilgileri ve slayttaki konumları dahil olmak üzere görünümünü özelleştirmenize olanak tanır.
 
-### Yorumları ve yanıtları ayrı bir dosyaya aktarabilir miyim?
-Evet, yorumları ve yanıtları 7. adımda gösterildiği gibi ayrı bir sunum dosyasına aktarabilirsiniz.
+### Yorumları ve cevapları ayrı bir dosyaya aktarabilir miyim?
+Evet, 7. adımda gösterildiği gibi yorumları ve yanıtları ayrı bir sunum dosyasına aktarabilirsiniz.
 
-### Aspose.Slides for .NET, PowerPoint'in en son sürümleriyle uyumlu mu?
-Aspose.Slides for .NET, çok çeşitli PowerPoint sürümleriyle çalışacak şekilde tasarlanmıştır ve en son sürümlerle uyumluluk sağlar.
+### Aspose.Slides for .NET, PowerPoint'in en son sürümleriyle uyumlu mudur?
+Aspose.Slides for .NET, en son sürümlerle uyumluluğu garanti altına alarak çok çeşitli PowerPoint sürümleriyle çalışacak şekilde tasarlanmıştır.
 
 ### Aspose.Slides for .NET için herhangi bir lisanslama seçeneği mevcut mu?
- Evet, geçici lisanslar da dahil olmak üzere lisanslama seçeneklerini Aspose web sitesinde keşfedebilirsiniz[Burada](https://purchase.aspose.com/buy) veya ücretsiz denemeyi deneyin[Burada](https://releases.aspose.com/temporary-license/).
+Evet, geçici lisanslar da dahil olmak üzere lisanslama seçeneklerini Aspose web sitesinde inceleyebilirsiniz [Burada](https://purchase.aspose.com/buy) veya ücretsiz denemeyi deneyin [Burada](https://releases.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

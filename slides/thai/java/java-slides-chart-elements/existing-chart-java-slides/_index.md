@@ -1,30 +1,32 @@
 ---
-title: แผนภูมิที่มีอยู่ใน Java Slides
-linktitle: แผนภูมิที่มีอยู่ใน Java Slides
-second_title: Aspose.Slides Java PowerPoint การประมวลผล API
-description: ปรับปรุงงานนำเสนอ PowerPoint ของคุณด้วย Aspose.Slides สำหรับ Java เรียนรู้การแก้ไขแผนภูมิที่มีอยู่โดยทางโปรแกรม คำแนะนำทีละขั้นตอนพร้อมซอร์สโค้ดสำหรับการปรับแต่งแผนภูมิ
-weight: 12
-url: /th/java/chart-elements/existing-chart-java-slides/
+"description": "ปรับปรุงการนำเสนอ PowerPoint ของคุณด้วย Aspose.Slides สำหรับ Java เรียนรู้การแก้ไขแผนภูมิที่มีอยู่ด้วยโปรแกรม คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับสำหรับการปรับแต่งแผนภูมิ"
+"linktitle": "แผนภูมิที่มีอยู่แล้วใน Java Slides"
+"second_title": "API การประมวลผล Java PowerPoint ของ Aspose.Slides"
+"title": "แผนภูมิที่มีอยู่แล้วใน Java Slides"
+"url": "/th/java/chart-elements/existing-chart-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# แผนภูมิที่มีอยู่ใน Java Slides
+# แผนภูมิที่มีอยู่แล้วใน Java Slides
 
 
-## ข้อมูลเบื้องต้นเกี่ยวกับแผนภูมิที่มีอยู่ใน Java Slides โดยใช้ Aspose.Slides สำหรับ Java
+## การแนะนำแผนภูมิที่มีอยู่ใน Java Slides โดยใช้ Aspose.Slides สำหรับ Java
 
-ในบทช่วยสอนนี้ เราจะสาธิตวิธีแก้ไขแผนภูมิที่มีอยู่ในงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java เราจะทำตามขั้นตอนต่างๆ เพื่อเปลี่ยนข้อมูลแผนภูมิ ชื่อหมวดหมู่ ชื่อซีรีส์ และเพิ่มซีรีส์ใหม่ลงในแผนภูมิ ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่า Aspose.Slides สำหรับ Java ในโปรเจ็กต์ของคุณแล้ว
+ในบทช่วยสอนนี้ เราจะสาธิตวิธีการปรับเปลี่ยนแผนภูมิที่มีอยู่ในงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java เราจะอธิบายขั้นตอนต่างๆ ในการเปลี่ยนแปลงข้อมูลแผนภูมิ ชื่อหมวดหมู่ ชื่อชุด และเพิ่มชุดใหม่ลงในแผนภูมิ ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่า Aspose.Slides สำหรับ Java ไว้ในโปรเจ็กต์ของคุณแล้ว
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+ก่อนที่เราจะเริ่ม ให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
-1. Aspose.Slides สำหรับไลบรารี Java ที่รวมอยู่ในโครงการของคุณ
-2. งานนำเสนอ PowerPoint ที่มีอยู่พร้อมแผนภูมิที่คุณต้องการแก้ไข
-3. ตั้งค่าสภาพแวดล้อมการพัฒนา Java
+1. มีไลบรารี Aspose.Slides สำหรับ Java รวมอยู่ในโปรเจ็กต์ของคุณ
+2. การนำเสนอ PowerPoint ที่มีอยู่พร้อมแผนภูมิที่คุณต้องการปรับเปลี่ยน
+3. การตั้งค่าสภาพแวดล้อมการพัฒนา Java
 
 ## ขั้นตอนที่ 1: โหลดงานนำเสนอ
 
@@ -32,7 +34,7 @@ url: /th/java/chart-elements/existing-chart-java-slides/
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
 String dataDir = "Your Document Directory";
 
-// สร้างอินสแตนซ์คลาสการนำเสนอที่แสดงถึงไฟล์ PPTX
+// สร้างอินสแตนซ์คลาสการนำเสนอที่แสดงไฟล์ PPTX
 Presentation pres = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
@@ -52,54 +54,54 @@ IChart chart = (IChart) sld.getShapes().get_Item(0);
 // การตั้งค่าดัชนีของแผ่นข้อมูลแผนภูมิ
 int defaultWorksheetIndex = 0;
 
-// รับแผ่นงานข้อมูลแผนภูมิ
+// การรับแผ่นงานข้อมูลแผนภูมิ
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
-// เปลี่ยนชื่อหมวดหมู่แผนภูมิ
+// เปลี่ยนชื่อหมวดหมู่ของแผนภูมิ
 fact.getCell(defaultWorksheetIndex, 1, 0, "Modified Category 1");
 fact.getCell(defaultWorksheetIndex, 2, 0, "Modified Category 2");
 ```
 
-## ขั้นตอนที่ 4: อัปเดตซีรี่ส์แผนภูมิแรก
+## ขั้นตอนที่ 4: อัปเดตชุดแผนภูมิแรก
 
 ```java
-// ใช้แผนภูมิชุดแรก
+// มาดูแผนภูมิชุดแรกกัน
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 
 // อัพเดทชื่อซีรีย์
 fact.getCell(defaultWorksheetIndex, 0, 1, "New_Series1");
 
-// อัปเดตข้อมูลซีรีส์
+// อัปเดตข้อมูลซีรีย์
 series.getDataPoints().get_Item(0).getValue().setData(90);
 series.getDataPoints().get_Item(1).getValue().setData(123);
 series.getDataPoints().get_Item(2).getValue().setData(44);
 ```
 
-## ขั้นตอนที่ 5: อัปเดตซีรี่ส์แผนภูมิที่สอง
+## ขั้นตอนที่ 5: อัปเดตชุดแผนภูมิที่สอง
 
 ```java
-// ใช้ชุดแผนภูมิที่สอง
+// มาดูแผนภูมิชุดที่ 2 กัน
 series = chart.getChartData().getSeries().get_Item(1);
 
 // อัพเดทชื่อซีรีย์
 fact.getCell(defaultWorksheetIndex, 0, 2, "New_Series2");
 
-// อัปเดตข้อมูลซีรีส์
+// อัปเดตข้อมูลซีรีย์
 series.getDataPoints().get_Item(0).getValue().setData(23);
 series.getDataPoints().get_Item(1).getValue().setData(67);
 series.getDataPoints().get_Item(2).getValue().setData(99);
 ```
 
-## ขั้นตอนที่ 6: เพิ่มซีรี่ส์ใหม่ลงในแผนภูมิ
+## ขั้นตอนที่ 6: เพิ่มซีรีส์ใหม่ลงในแผนภูมิ
 
 ```java
-// การเพิ่มซีรีส์ใหม่
+// เพิ่มซีรีย์ใหม่
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 3, "Series 3"), chart.getType());
 
-// ใช้ชุดแผนภูมิที่สาม
+// มาดูแผนภูมิชุดที่ 3 กัน
 series = chart.getChartData().getSeries().get_Item(2);
 
-// เติมข้อมูลชุดข้อมูล
+// เติมข้อมูลชุด
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 3, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 30));
@@ -108,56 +110,56 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 ## ขั้นตอนที่ 7: เปลี่ยนประเภทแผนภูมิ
 
 ```java
-//เปลี่ยนประเภทแผนภูมิเป็นทรงกระบอกแบบคลัสเตอร์
+// เปลี่ยนประเภทแผนภูมิเป็นทรงกระบอกแบบคลัสเตอร์
 chart.setType(ChartType.ClusteredCylinder);
 ```
 
-## ขั้นตอนที่ 8: บันทึกงานนำเสนอที่แก้ไข
+## ขั้นตอนที่ 8: บันทึกการนำเสนอที่แก้ไขแล้ว
 
 ```java
-// บันทึกงานนำเสนอด้วยแผนภูมิที่ปรับเปลี่ยน
+// บันทึกการนำเสนอด้วยแผนภูมิที่แก้ไขแล้ว
 pres.save(dataDir + "AsposeChartModified_out.pptx", SaveFormat.Pptx);
 ```
 
-ยินดีด้วย! คุณแก้ไขแผนภูมิที่มีอยู่ในงานนำเสนอ PowerPoint ได้สำเร็จโดยใช้ Aspose.Slides สำหรับ Java ตอนนี้คุณสามารถใช้โค้ดนี้เพื่อปรับแต่งแผนภูมิในงานนำเสนอ PowerPoint ของคุณโดยทางโปรแกรมได้
+ขอแสดงความยินดี! คุณได้แก้ไขแผนภูมิที่มีอยู่ในงานนำเสนอ PowerPoint สำเร็จแล้วโดยใช้ Aspose.Slides สำหรับ Java ตอนนี้คุณสามารถใช้โค้ดนี้เพื่อปรับแต่งแผนภูมิในงานนำเสนอ PowerPoint ของคุณผ่านโปรแกรมได้แล้ว
 
-## กรอกซอร์สโค้ดสำหรับแผนภูมิที่มีอยู่ใน Java Slides
+## โค้ดต้นฉบับสมบูรณ์สำหรับแผนภูมิที่มีอยู่ใน Java Slides
 
 ```java
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
 String dataDir = "Your Document Directory";
-// สร้างอินสแตนซ์คลาสการนำเสนอที่แสดงถึงไฟล์ PPTX// สร้างอินสแตนซ์คลาสการนำเสนอที่แสดงถึงไฟล์ PPTX
+// สร้างอินสแตนซ์คลาสการนำเสนอที่แสดงไฟล์ PPTX// สร้างอินสแตนซ์คลาสการนำเสนอที่แสดงไฟล์ PPTX
 Presentation pres = new Presentation(dataDir + "ExistingChart.pptx");
-// เข้าถึง SlideMarker แรก
+// เข้าถึงสไลด์แรกMarker
 ISlide sld = pres.getSlides().get_Item(0);
 // เพิ่มแผนภูมิด้วยข้อมูลเริ่มต้น
 IChart chart = (IChart) sld.getShapes().get_Item(0);
 // การตั้งค่าดัชนีของแผ่นข้อมูลแผนภูมิ
 int defaultWorksheetIndex = 0;
-// รับแผ่นงานข้อมูลแผนภูมิ
+// การรับแผ่นงานข้อมูลแผนภูมิ
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
-// การเปลี่ยนชื่อหมวดหมู่แผนภูมิ
+// การเปลี่ยนแปลงชื่อหมวดหมู่แผนภูมิ
 fact.getCell(defaultWorksheetIndex, 1, 0, "Modified Category 1");
 fact.getCell(defaultWorksheetIndex, 2, 0, "Modified Category 2");
-// ใช้แผนภูมิชุดแรก
+// เริ่มต้นด้วยชุดแผนภูมิแรก
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-// ขณะนี้กำลังอัปเดตข้อมูลซีรีส์
-fact.getCell(defaultWorksheetIndex, 0, 1, "New_Series1");// การแก้ไขชื่อซีรีส์
+// กำลังอัปเดตข้อมูลซีรีย์
+fact.getCell(defaultWorksheetIndex, 0, 1, "New_Series1");// การแก้ไขชื่อซีรีย์
 series.getDataPoints().get_Item(0).getValue().setData(90);
 series.getDataPoints().get_Item(1).getValue().setData(123);
 series.getDataPoints().get_Item(2).getValue().setData(44);
-// ใช้ซีรีส์แผนภูมิที่สอง
+// แผนภูมิชุดที่สอง
 series = chart.getChartData().getSeries().get_Item(1);
-// ขณะนี้กำลังอัปเดตข้อมูลซีรีส์
-fact.getCell(defaultWorksheetIndex, 0, 2, "New_Series2");// การแก้ไขชื่อซีรีส์
+// กำลังอัปเดตข้อมูลซีรีย์
+fact.getCell(defaultWorksheetIndex, 0, 2, "New_Series2");// การแก้ไขชื่อซีรีย์
 series.getDataPoints().get_Item(0).getValue().setData(23);
 series.getDataPoints().get_Item(1).getValue().setData(67);
 series.getDataPoints().get_Item(2).getValue().setData(99);
-// ตอนนี้กำลังเพิ่มซีรี่ส์ใหม่
+// ตอนนี้กำลังเพิ่มซีรีย์ใหม่
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 3, "Series 3"), chart.getType());
-// ใช้แผนภูมิลำดับที่ 3
+// นำแผนภูมิชุดที่ 3 มาใช้
 series = chart.getChartData().getSeries().get_Item(2);
-// กำลังเติมข้อมูลซีรีส์
+// ขณะนี้กำลังเพิ่มข้อมูลซีรีส์
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 3, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 30));
@@ -167,32 +169,34 @@ pres.save(dataDir + "AsposeChartModified_out.pptx", SaveFormat.Pptx);
 ```
 ## บทสรุป
 
-ในบทช่วยสอนที่ครอบคลุมนี้ เราได้เรียนรู้วิธีแก้ไขแผนภูมิที่มีอยู่ในงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java ด้วยการทำตามคำแนะนำทีละขั้นตอนและการใช้ตัวอย่างซอร์สโค้ด คุณสามารถปรับแต่งและอัปเดตแผนภูมิให้ตรงกับความต้องการเฉพาะของคุณได้อย่างง่ายดาย นี่คือบทสรุปของสิ่งที่เรากล่าวถึง:
+ในบทช่วยสอนที่ครอบคลุมนี้ เราได้เรียนรู้วิธีการปรับเปลี่ยนแผนภูมิที่มีอยู่ในงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java โดยปฏิบัติตามคำแนะนำทีละขั้นตอนและใช้ตัวอย่างโค้ดต้นฉบับ คุณสามารถปรับแต่งและอัปเดตแผนภูมิได้อย่างง่ายดายเพื่อตอบสนองความต้องการเฉพาะของคุณ นี่คือบทสรุปของสิ่งที่เราครอบคลุม:
 
 ## คำถามที่พบบ่อย
 
-### ฉันจะเปลี่ยนประเภทแผนภูมิได้อย่างไร?
+### ฉันจะเปลี่ยนประเภทแผนภูมิได้อย่างไร
 
- คุณสามารถเปลี่ยนประเภทแผนภูมิได้โดยใช้`chart.setType(ChartType.ChartTypeHere)` วิธี. แทนที่`ChartTypeHere` ด้วยประเภทกราฟที่ต้องการ เช่น`ChartType.ClusteredCylinder` ในตัวอย่างของเรา
+คุณสามารถเปลี่ยนประเภทแผนภูมิได้โดยใช้ `chart.setType(ChartType.ChartTypeHere)` วิธีการ. แทนที่ `ChartTypeHere` ด้วยประเภทแผนภูมิที่ต้องการ เช่น `ChartType.ClusteredCylinder` ในตัวอย่างของเรา
 
-### ฉันสามารถเพิ่มจุดข้อมูลลงในซีรีส์ได้หรือไม่
+### ฉันสามารถเพิ่มจุดข้อมูลเพิ่มเติมลงในชุดข้อมูลได้หรือไม่
 
- ใช่ คุณสามารถเพิ่มจุดข้อมูลลงในชุดข้อมูลได้โดยใช้`series.getDataPoints().addDataPointForBarSeries(cell)` วิธี. ตรวจสอบให้แน่ใจว่าได้ให้ข้อมูลเซลล์ที่เหมาะสม
+ใช่ คุณสามารถเพิ่มจุดข้อมูลเพิ่มเติมลงในชุดข้อมูลได้โดยใช้ `series.getDataPoints().addDataPointForBarSeries(cell)` วิธีการนี้ โปรดแน่ใจว่าคุณให้ข้อมูลเซลล์ที่เหมาะสม
 
 ### ฉันจะอัพเดตชื่อหมวดหมู่ได้อย่างไร?
 
- คุณสามารถอัพเดตชื่อหมวดหมู่ได้โดยใช้`fact.getCell(worksheetIndex, columnIndex, rowIndex, newValue)` เพื่อตั้งชื่อหมวดหมู่ใหม่
+คุณสามารถอัปเดตชื่อหมวดหมู่ได้โดยใช้ `fact.getCell(worksheetIndex, columnIndex, rowIndex, newValue)` เพื่อตั้งชื่อหมวดหมู่ใหม่
 
-### ฉันจะแก้ไขชื่อซีรีส์ได้อย่างไร
+### ฉันจะแก้ไขชื่อซีรีย์ได้อย่างไร?
 
- หากต้องการแก้ไขชื่อซีรีส์ ให้ใช้`fact.getCell(worksheetIndex, columnIndex, rowIndex, newValue)` เพื่อตั้งชื่อซีรีส์ใหม่
+หากต้องการปรับเปลี่ยนชื่อซีรีย์ ให้ใช้ `fact.getCell(worksheetIndex, columnIndex, rowIndex, newValue)` การตั้งชื่อซีรีย์ใหม่
 
-### มีวิธีลบซีรี่ส์ออกจากแผนภูมิหรือไม่?
+### มีวิธีลบซีรีส์ออกจากแผนภูมิหรือไม่
 
- ใช่ คุณสามารถลบชุดข้อมูลออกจากแผนภูมิได้โดยใช้`chart.getChartData().getSeries().removeAt(index)` วิธีการที่ไหน`index`คือดัชนีของซีรีส์ที่คุณต้องการลบ
+ใช่ คุณสามารถลบซีรีส์ออกจากแผนภูมิได้โดยใช้ `chart.getChartData().getSeries().removeAt(index)` วิธีการที่ `index` เป็นดัชนีของซีรี่ส์ที่คุณต้องการลบ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

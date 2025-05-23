@@ -1,28 +1,30 @@
 ---
-title: Proveďte hromadnou korespondenci v prezentacích
-linktitle: Proveďte hromadnou korespondenci v prezentacích
-second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Naučte se hromadnou korespondenci v prezentacích pomocí Aspose.Slides pro .NET v tomto podrobném průvodci. Vytvářejte dynamické, personalizované prezentace bez námahy.
-weight: 21
-url: /cs/net/presentation-manipulation/perform-mail-merge-in-presentations/
+"description": "Naučte se hromadnou korespondenci v prezentacích pomocí Aspose.Slides pro .NET v tomto podrobném návodu. Vytvářejte dynamické a personalizované prezentace bez námahy."
+"linktitle": "Provádění hromadné korespondence v prezentacích"
+"second_title": "Rozhraní API pro zpracování PowerPointu v .NET od Aspose.Slides"
+"title": "Provádění hromadné korespondence v prezentacích"
+"url": "/cs/net/presentation-manipulation/perform-mail-merge-in-presentations/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Proveďte hromadnou korespondenci v prezentacích
+# Provádění hromadné korespondence v prezentacích
 
-## Úvod
-Ve světě vývoje .NET je vytváření dynamických a personalizovaných prezentací běžným požadavkem. Jedním mocným nástrojem, který tento proces zjednodušuje, je Aspose.Slides for .NET. V tomto tutoriálu se ponoříme do fascinující sféry provádění hromadné korespondence v prezentacích pomocí Aspose.Slides pro .NET.
+## Zavedení
+Ve světě vývoje pro .NET je vytváření dynamických a personalizovaných prezentací běžným požadavkem. Jedním z účinných nástrojů, které tento proces zjednodušují, je Aspose.Slides for .NET. V tomto tutoriálu se ponoříme do fascinující oblasti hromadné korespondence v prezentacích pomocí Aspose.Slides for .NET.
 ## Předpoklady
-Než se vydáme na tuto cestu, ujistěte se, že máte splněny následující předpoklady:
-- Knihovna Aspose.Slides for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Slides for .NET. Můžete si jej stáhnout z[tady](https://releases.aspose.com/slides/net/).
-- Šablona dokumentu: Připravte si šablonu prezentace (např. PresentationTemplate.pptx), která bude sloužit jako základ pro hromadnou korespondenci.
-- Zdroj dat: Pro hromadnou korespondenci potřebujete zdroj dat. V našem příkladu použijeme data XML (TestData.xml), ale Aspose.Slides podporuje různé zdroje dat, jako je RDBMS.
-Nyní se pojďme ponořit do kroků provádění hromadné korespondence v prezentacích pomocí Aspose.Slides pro .NET.
+Než se na tuto cestu vydáme, ujistěte se, že máte splněny následující předpoklady:
+- Knihovna Aspose.Slides pro .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Slides pro .NET. Můžete si ji stáhnout z [zde](https://releases.aspose.com/slides/net/).
+- Šablona dokumentu: Připravte šablonu prezentace (např. PresentationTemplate.pptx), která bude sloužit jako základ pro hromadnou korespondenci.
+- Zdroj dat: Pro hromadnou korespondenci potřebujete zdroj dat. V našem příkladu použijeme data XML (TestData.xml), ale Aspose.Slides podporuje různé zdroje dat, jako například RDBMS.
+Nyní se ponoříme do kroků provádění hromadné korespondence v prezentacích pomocí Aspose.Slides pro .NET.
 ## Importovat jmenné prostory
-Nejprve se ujistěte, že importujete potřebné jmenné prostory, abyste mohli využít funkcí poskytovaných Aspose.Slides:
+Nejprve se ujistěte, že jste importovali potřebné jmenné prostory, abyste mohli využívat funkce poskytované Aspose.Slides:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -38,16 +40,16 @@ using Aspose.Slides.Examples.CSharp;
 using Aspose.Slides.Export;
 using DataTable = System.Data.DataTable;
 ```
-## Krok 1: Nastavte adresář dokumentů
+## Krok 1: Nastavení adresáře dokumentů
 ```csharp
 string dataDir = "Your Document Directory";
 string presTemplatePath = Path.Combine(dataDir, "PresentationTemplate.pptx");
 string resultPath = Path.Combine(RunExamples.OutPath, "MailMergeResult");
-// Zkontrolujte, zda existuje cesta k výsledku
+// Zkontrolujte, zda existuje výsledná cesta
 if (!Directory.Exists(resultPath))
     Directory.CreateDirectory(resultPath);
 ```
-## Krok 2: Vytvořte datovou sadu pomocí dat XML
+## Krok 2: Vytvoření datové sady pomocí dat XML
 ```csharp
 using (DataSet dataSet = new DataSet())
 {
@@ -57,11 +59,11 @@ using (DataSet dataSet = new DataSet())
     DataTable staffListTable = dataTables["StaffList"];
     DataTable planFactTable = dataTables["Plan_Fact"];
 ```
-## Krok 3: Procházení záznamů a vytváření individuálních prezentací
+## Krok 3: Procházení záznamů a vytváření jednotlivých prezentací
 ```csharp
 foreach (DataRow userRow in usersTable.Rows)
 {
-    // vytvořit výsledek (individuální) název prezentace
+    // vytvořit název prezentace výsledku (individuální)
     string presPath = Path.Combine(resultPath, "PresFor_" + userRow["Name"] + ".pptx");
     // Načíst šablonu prezentace
     using (Presentation pres = new Presentation(presTemplatePath))
@@ -71,11 +73,11 @@ foreach (DataRow userRow in usersTable.Rows)
         ((AutoShape)pres.Slides[0].Shapes[4]).TextFrame.Text = userRow["Department"].ToString();
         // Získejte obrázek z databáze
         byte[] bytes = Convert.FromBase64String(userRow["Img"].ToString());
-        //Vložte obrázek do rámečku obrázku prezentace
+        // Vložit obrázek do rámečku prezentace
         IPPImage image = pres.Images.AddImage(bytes);
         IPictureFrame pf = pres.Slides[0].Shapes[1] as PictureFrame;
         pf.PictureFormat.Picture.Image.ReplaceImage(image);
-        // Získejte a připravte textový rámeček pro jeho vyplnění daty
+        // Získání a příprava textového rámečku k naplnění daty
         IAutoShape list = pres.Slides[0].Shapes[2] as IAutoShape;
         ITextFrame textFrame = list.TextFrame;
         textFrame.Paragraphs.Clear();
@@ -84,13 +86,13 @@ foreach (DataRow userRow in usersTable.Rows)
         textFrame.Paragraphs.Add(para);
         // Vyplňte údaje o zaměstnancích
         FillStaffList(textFrame, userRow, staffListTable);
-        // Vyplňte údaje o faktech plánu
+        // Vyplňte fakta plánu
         FillPlanFact(pres, userRow, planFactTable);
         pres.Save(presPath, SaveFormat.Pptx);
     }
 }
 ```
-## Krok 4: Vyplňte textový rámeček daty jako seznam
+## Krok 4: Vyplnění textového rámečku daty jako seznam
 ```csharp
 static void FillStaffList(ITextFrame textFrame, DataRow userRow, DataTable staffListTable)
 {
@@ -111,7 +113,7 @@ static void FillStaffList(ITextFrame textFrame, DataRow userRow, DataTable staff
     }
 }
 ```
-## Krok 5: Vyplňte datový graf ze sekundární tabulky PlanFact
+## Krok 5: Vyplňte datovou tabulku ze sekundární tabulky PlanFact
 ```csharp
 static void FillPlanFact(Presentation pres, DataRow row, DataTable planFactTable)
 {
@@ -122,7 +124,7 @@ static void FillPlanFact(Presentation pres, DataRow row, DataTable planFactTable
     string range = chart.ChartData.GetRange();
     IChartDataWorkbook cellsFactory = chart.ChartData.ChartDataWorkbook;
     int worksheetIndex = 0;
-    // Přidejte datové body pro řadu čar
+    // Přidání datových bodů pro čárové řady
     chart.ChartData.Series[0].DataPoints.AddDataPointForLineSeries
 (cellsFactory.GetCell(worksheetIndex, 1, 1, double.Parse(selRows[0]["PlanData"].ToString())));
     chart.ChartData.Series[1].DataPoints.AddDataPointForLineSeries(
@@ -142,23 +144,25 @@ static void FillPlanFact(Presentation pres, DataRow row, DataTable planFactTable
     chart.ChartData.SetRange(range);
 }
 ```
-Tyto kroky demonstrují komplexního průvodce prováděním hromadné korespondence v prezentacích pomocí Aspose.Slides for .NET. Nyní se podívejme na některé často kladené otázky.
+Tyto kroky představují komplexního průvodce hromadnou korespondencí v prezentacích pomocí Aspose.Slides pro .NET. Nyní se podívejme na některé často kladené otázky.
 ## Často kladené otázky
-### 1. Je Aspose.Slides for .NET kompatibilní s různými zdroji dat?
-Ano, Aspose.Slides for .NET podporuje různé zdroje dat, včetně XML, RDBMS a dalších.
-### 2. Mohu upravit vzhled odrážek ve vygenerované prezentaci?
- Rozhodně! Máte plnou kontrolu nad vzhledem odrážek, jak je ukázáno v`FillStaffList` metoda.
-### 3. Jaké typy grafů mohu vytvořit pomocí Aspose.Slides pro .NET?
-Aspose.Slides for .NET podporuje širokou škálu grafů, včetně spojnicových grafů, jak je ukázáno v našem příkladu, sloupcových grafů, koláčových grafů a dalších.
-### 4. Jak získám podporu nebo pomoc s Aspose.Slides for .NET?
- Pro podporu a pomoc můžete navštívit stránku[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11).
-### 5. Mohu Aspose.Slides for .NET vyzkoušet před nákupem?
- Rozhodně! Můžete využít bezplatnou zkušební verzi Aspose.Slides pro .NET od[tady](https://releases.aspose.com/).
+### 1. Je Aspose.Slides pro .NET kompatibilní s různými zdroji dat?
+Ano, Aspose.Slides pro .NET podporuje různé zdroje dat, včetně XML, RDBMS a dalších.
+### 2. Mohu si přizpůsobit vzhled odrážek ve vygenerované prezentaci?
+Jistě! Máte plnou kontrolu nad vzhledem odrážek, jak je ukázáno v `FillStaffList` metoda.
+### 3. Jaké typy grafů mohu vytvářet pomocí Aspose.Slides pro .NET?
+Aspose.Slides pro .NET podporuje širokou škálu grafů, včetně spojnicových grafů, jak je znázorněno v našem příkladu, sloupcových grafů, koláčových grafů a dalších.
+### 4. Jak získám podporu nebo vyhledám pomoc s Aspose.Slides pro .NET?
+Pro podporu a pomoc můžete navštívit [Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+### 5. Mohu si před zakoupením vyzkoušet Aspose.Slides pro .NET?
+Jistě! Můžete využít bezplatnou zkušební verzi Aspose.Slides pro .NET od [zde](https://releases.aspose.com/).
 ## Závěr
-V tomto tutoriálu jsme prozkoumali vzrušující schopnosti Aspose.Slides pro .NET při provádění hromadné korespondence v prezentacích. Podle tohoto podrobného průvodce můžete bez námahy vytvářet dynamické a personalizované prezentace. Zvyšte své zkušenosti s vývojem .NET pomocí Aspose.Slides pro bezproblémové generování prezentací.
+tomto tutoriálu jsme prozkoumali vzrušující možnosti Aspose.Slides pro .NET při hromadné korespondenci v prezentacích. Dodržováním podrobných pokynů můžete bez námahy vytvářet dynamické a personalizované prezentace. Posuňte své zkušenosti s vývojem v .NET na vyšší úroveň s Aspose.Slides pro bezproblémové generování prezentací.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,36 +1,38 @@
 ---
-title: Konvertera bilder till PDF med Notes i Java Slides
-linktitle: Konvertera bilder till PDF med Notes i Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Lär dig hur du konverterar PowerPoint-bilder till PDF med anteckningar i Java med Aspose.Slides för Java. Steg-för-steg-guide för Java-utvecklare. Förbättra din presentationsdelning.
-weight: 19
-url: /sv/java/presentation-conversion/convert-slides-pdf-notes-java-slides/
+"description": "Lär dig hur du konverterar PowerPoint-bilder till PDF med anteckningar i Java med hjälp av Aspose.Slides för Java. Steg-för-steg-guide för Java-utvecklare. Förbättra din presentationsdelning."
+"linktitle": "Konvertera bilder till PDF med anteckningar i Java-bilder"
+"second_title": "Aspose.Slides Java PowerPoint-bearbetnings-API"
+"title": "Konvertera bilder till PDF med anteckningar i Java-bilder"
+"url": "/sv/java/presentation-conversion/convert-slides-pdf-notes-java-slides/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Konvertera bilder till PDF med Notes i Java Slides
+# Konvertera bilder till PDF med anteckningar i Java-bilder
 
 
-## Introduktion till att konvertera bilder till PDF med Notes i Java
+## Introduktion till att konvertera bilder till PDF med anteckningar i Java
 
-en värld av digitala presentationer är möjligheten att konvertera bilder till PDF med tillhörande anteckningar en värdefull funktion. Java-utvecklare kan uppnå detta med Aspose.Slides for Java-biblioteket, som tillhandahåller en robust uppsättning verktyg för att arbeta med PowerPoint-presentationer programmatiskt. I den här steg-för-steg-guiden kommer vi att utforska hur man konverterar bilder till PDF med anteckningar med Java och Aspose.Slides för Java.
+I den digitala presentationsvärlden är möjligheten att konvertera bilder till PDF med tillhörande anteckningar en värdefull funktion. Java-utvecklare kan uppnå detta med hjälp av biblioteket Aspose.Slides för Java, som tillhandahåller en robust uppsättning verktyg för att arbeta med PowerPoint-presentationer programmatiskt. I den här steg-för-steg-guiden kommer vi att utforska hur man konverterar bilder till PDF med anteckningar med hjälp av Java och Aspose.Slides för Java.
 
-## Förutsättningar
+## Förkunskapskrav
 
-Innan vi dyker in i koden, se till att du har följande förutsättningar på plats:
+Innan vi går in i koden, se till att du har följande förutsättningar på plats:
 
 - Java Development Kit (JDK) installerat på ditt system.
--  Aspose.Slides för Java-bibliotek. Du kan ladda ner den från[här](https://releases.aspose.com/slides/java/).
+- Aspose.Slides för Java-biblioteket. Du kan ladda ner det från [här](https://releases.aspose.com/slides/java/).
 
 Nu när vi har vår disposition, låt oss dyka in i implementeringen steg för steg.
 ## Steg 1: Konfigurera projektet
 
-Skapa först ett Java-projekt och lägg till Aspose.Slides for Java-biblioteket till ditt projekts beroenden.
+Skapa först ett Java-projekt och lägg till Aspose.Slides för Java-biblioteket i projektets beroenden.
 
-## Steg 2: Laddar presentationen
+## Steg 2: Ladda presentationen
 
 ```java
 String dataDir = "Your Document Directory";
@@ -50,7 +52,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 auxPresentation.getSlides().insertClone(0, slide);
 ```
 
-## Steg 5: Justera bildens storlek
+## Steg 5: Justera bildstorlek
 
 ```java
 auxPresentation.getSlideSize().setSize(612F, 792F, SlideSizeScaleType.EnsureFit);
@@ -75,7 +77,7 @@ auxPresentation.save(dataDir + "PDFnotes_out.pdf", SaveFormat.Pdf, pdfOptions);
 ```java
 // Sökvägen till dokumentkatalogen.
 String dataDir = "Your Document Directory";
-// Instantiera ett presentationsobjekt som representerar en presentationsfil
+// Instansiera ett presentationsobjekt som representerar en presentationsfil 
 Presentation presentation = new Presentation(dataDir + "SelectedSlides.pptx");
 try
 {
@@ -105,34 +107,36 @@ finally
 
 ## Slutsats
 
-I den här handledningen lärde vi oss hur man konverterar bilder till PDF med anteckningar i Java med Aspose.Slides för Java. Vi täckte inställningen av projektet, laddade presentationen, skapa en ny presentation, kopiera bilder, justera bildstorleken, konfigurera PDF-alternativ och slutligen spara presentationen som en PDF med anteckningar.
+den här handledningen lärde vi oss hur man konverterar bilder till PDF med anteckningar i Java med hjälp av Aspose.Slides för Java. Vi gick igenom hur man konfigurerar projektet, laddar presentationen, skapar en ny presentation, kopierar bilder, justerar bildstorlek, konfigurerar PDF-alternativ och slutligen sparar presentationen som en PDF med anteckningar.
 
-## FAQ's
+## Vanliga frågor
 
 ### Hur installerar jag Aspose.Slides för Java?
 
 För att installera Aspose.Slides för Java, följ dessa steg:
-1.  Ladda ner biblioteket från[här](https://releases.aspose.com/slides/java/).
+1. Ladda ner biblioteket från [här](https://releases.aspose.com/slides/java/).
 2. Lägg till JAR-filen i ditt Java-projekts klassväg.
 
-### Kan jag anpassa anteckningarnas position i den genererade PDF-filen?
+### Kan jag anpassa anteckningarnas placering i den genererade PDF-filen?
 
- Ja, du kan anpassa anteckningarnas position genom att ändra`NotesPositions` enum i PDF-alternativen. I den här handledningen ställer vi in den på`BottomFull`, men du kan också utforska andra alternativ.
+Ja, du kan anpassa anteckningarnas position genom att ändra `NotesPositions` enum i PDF-alternativen. I den här handledningen ställer vi in den på `BottomFull`, men du kan även utforska andra alternativ.
 
 ### Finns det några licenskrav för att använda Aspose.Slides för Java?
 
-Ja, Aspose.Slides för Java är ett kommersiellt bibliotek, och du kan behöva skaffa en licens för att använda det i produktionen. Besök Asposes webbplats för licensinformation.
+Ja, Aspose.Slides för Java är ett kommersiellt bibliotek, och du kan behöva skaffa en licens för att använda det i produktion. Besök Asposes webbplats för licensinformation.
 
 ### Kan jag konvertera flera bilder samtidigt?
 
-Säkert! Du kan gå igenom bilderna i din presentation och klona dem till den nya presentationen, så att du kan konvertera flera bilder till PDF med anteckningar på en gång.
+Absolut! Du kan loopa igenom bilderna i din presentation och klona dem till den nya presentationen, vilket gör att du kan konvertera flera bilder till PDF med anteckningar på en gång.
 
 ### Var kan jag hitta mer dokumentation för Aspose.Slides för Java?
 
- Du kan hitta detaljerad dokumentation för Aspose.Slides för Java på webbplatsen:[Aspose.Slides för Java API Referens](https://reference.aspose.com/slides/java/).
+Du hittar detaljerad dokumentation för Aspose.Slides för Java på webbplatsen: [Aspose.Slides för Java API-referens](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

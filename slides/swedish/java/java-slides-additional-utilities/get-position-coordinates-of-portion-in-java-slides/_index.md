@@ -1,39 +1,41 @@
 ---
-title: Få positionskoordinater för del i Java Slides
-linktitle: Få positionskoordinater för del i Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Lär dig att hämta textdelkoordinater i Java-bilder med Aspose.Slides för Java API. Få exakt kontroll över textplacering i PowerPoint-presentationer.
-weight: 12
-url: /sv/java/additional-utilities/get-position-coordinates-of-portion-in-java-slides/
+"description": "Lär dig hämta koordinater för textdelar i Java-bilder med hjälp av Aspose.Slides för Java API. Få exakt kontroll över textplacering i PowerPoint-presentationer."
+"linktitle": "Hämta positionskoordinater för en del i Java-bilder"
+"second_title": "Aspose.Slides Java PowerPoint-bearbetnings-API"
+"title": "Hämta positionskoordinater för en del i Java-bilder"
+"url": "/sv/java/additional-utilities/get-position-coordinates-of-portion-in-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Få positionskoordinater för del i Java Slides
+# Hämta positionskoordinater för en del i Java-bilder
 
 
-## Introduktion till att få positionskoordinater för del i Java Slides
+## Introduktion till att hämta positionskoordinater för en del i Java Slides
 
-I den här omfattande guiden kommer vi att utforska hur man hämtar positionskoordinaterna för en del i Java-bilder med Aspose.Slides för Java API. Du lär dig hur du kommer åt och manipulerar textdelarna i en bild och extraherar deras X- och Y-koordinater. Denna steg-för-steg handledning innehåller källkodsexempel och värdefulla insikter som hjälper dig att bemästra den här uppgiften.
+den här omfattande guiden utforskar vi hur man hämtar positionskoordinaterna för en del i Java-bilder med hjälp av Aspose.Slides för Java API. Du lär dig hur du kommer åt och manipulerar textdelarna i en bild och extraherar deras X- och Y-koordinater. Den här steg-för-steg-handledningen innehåller exempel på källkod och värdefulla insikter som hjälper dig att bemästra den här uppgiften.
 
-## Förutsättningar
+## Förkunskapskrav
 
-Innan vi dyker in i implementeringen, se till att du har följande förutsättningar på plats:
+Innan vi går in i implementeringen, se till att du har följande förutsättningar på plats:
 
 - Java Development Kit (JDK) installerat
 - Aspose.Slides för Java-biblioteket har laddats ner och konfigurerats
-- En Java Integrated Development Environment (IDE) efter eget val
+- En Java-integrerad utvecklingsmiljö (IDE) efter eget val
 
-Låt oss nu börja med implementeringen.
+Nu ska vi börja med implementeringen.
 
 ## Steg 1: Konfigurera ditt projekt
 
-Innan vi kan arbeta med Aspose.Slides för Java måste vi konfigurera ett Java-projekt och konfigurera biblioteket. Följ dessa steg för att förbereda ditt projekt:
+Innan vi kan arbeta med Aspose.Slides för Java måste vi skapa ett Java-projekt och konfigurera biblioteket. Följ dessa steg för att förbereda ditt projekt:
 
 1. Skapa ett nytt Java-projekt i din IDE.
-2. Lägg till Aspose.Slides för Java-biblioteket till ditt projekts beroenden.
+2. Lägg till Aspose.Slides för Java-biblioteket i projektets beroenden.
 3. Importera de nödvändiga Aspose.Slides-klasserna i början av din Java-fil.
 
 ```java
@@ -41,18 +43,18 @@ import com.aspose.slides.*;
 import java.awt.geom.Point2D;
 ```
 
-## Steg 2: Laddar presentationen
+## Steg 2: Ladda presentationen
 
- I det här steget kommer vi att ladda PowerPoint-presentationen som innehåller bilden vi vill arbeta med. Byta ut`"Your Document Directory"` med den faktiska sökvägen till din PowerPoint-fil.
+I det här steget laddar vi PowerPoint-presentationen som innehåller den bild vi vill arbeta med. Ersätt `"Your Document Directory"` med den faktiska sökvägen till din PowerPoint-fil.
 
 ```java
 String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "Shapes.pptx");
 ```
 
-## Steg 3: Få åtkomst till textdelar och koordinater
+## Steg 3: Åtkomst till textdelar och koordinater
 
-Nu kommer vi åt textdelarna i bilden och hämtar deras X- och Y-koordinater. Vi går igenom stycken och delar för att uppnå detta. Här är kodavsnittet:
+Nu ska vi komma åt textdelarna i bilden och hämta deras X- och Y-koordinater. Vi kommer att iterera genom stycken och delar för att uppnå detta. Här är kodavsnittet:
 
 ```java
 try
@@ -74,9 +76,9 @@ finally
 }
 ```
 
-Den här koden hämtar X- och Y-koordinaterna för varje del av texten i den angivna bilden. Du kan modifiera den för att passa dina specifika krav.
+Den här koden hämtar X- och Y-koordinaterna för varje textdel i den angivna bilden. Du kan ändra den för att passa dina specifika behov.
 
-## Komplett källkod för att få positionskoordinater för del i Java Slides
+## Komplett källkod för att hämta positionskoordinater för en del i Java Slides
 
 ```java
 // Sökvägen till dokumentkatalogen.
@@ -103,17 +105,17 @@ finally
 
 ## Slutsats
 
-den här handledningen har vi täckt hur man får positionskoordinaterna för textdelar i Java-bilder med Aspose.Slides för Java API. Denna kunskap kan vara särskilt användbar när du behöver exakt kontroll över placeringen av textelement i dina PowerPoint-presentationer.
+den här handledningen har vi gått igenom hur man hämtar positionskoordinaterna för textdelar i Java-bilder med hjälp av Aspose.Slides för Java API. Denna kunskap kan vara särskilt användbar när du behöver exakt kontroll över placeringen av textelement i dina PowerPoint-presentationer.
 
-## FAQ's
+## Vanliga frågor
 
 ### Hur kan jag ladda ner Aspose.Slides för Java?
 
- Du kan ladda ner Aspose.Slides för Java från webbplatsen genom att använda följande länk:[Ladda ner Aspose.Slides för Java](https://releases.aspose.com/slides/java/)
+Du kan ladda ner Aspose.Slides för Java från webbplatsen med följande länk: [Ladda ner Aspose.Slides för Java](https://releases.aspose.com/slides/java/)
 
 ### Var kan jag hitta dokumentationen för Aspose.Slides för Java?
 
- Dokumentationen för Aspose.Slides för Java finns på:[Aspose.Slides för Java-dokumentation](https://reference.aspose.com/slides/java/)
+Dokumentationen för Aspose.Slides för Java finns tillgänglig på: [Aspose.Slides för Java-dokumentation](https://reference.aspose.com/slides/java/)
 
 ### Kan jag använda Aspose.Slides för Java i mina kommersiella projekt?
 
@@ -125,10 +127,12 @@ Ja, Aspose.Slides för Java stöder olika PowerPoint-filformat, inklusive PPTX, 
 
 ### Hur kan jag få ytterligare support eller hjälp med Aspose.Slides för Java?
 
-Du kan komma åt ytterligare support och resurser på Asposes webbplats. De tillhandahåller forum, dokumentation och premiumsupportalternativ för användare.
+Du kan få tillgång till ytterligare support och resurser på Asposes webbplats. De erbjuder forum, dokumentation och premiumsupportalternativ för användare.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

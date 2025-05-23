@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में चार्ट रिकवर वर्कबुक
-linktitle: जावा स्लाइड्स में चार्ट रिकवर वर्कबुक
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides के साथ Java Slides में चार्ट से वर्कबुक को पुनर्प्राप्त करना सीखें। PowerPoint स्वचालन के लिए चरण-दर-चरण मार्गदर्शिका।
-weight: 17
-url: /hi/java/data-manipulation/chart-recover-workbook-java-slides/
+"description": "Aspose.Slides के साथ Java Slides में चार्ट से वर्कबुक को पुनर्प्राप्त करना सीखें। PowerPoint स्वचालन के लिए चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "जावा स्लाइड्स में चार्ट रिकवर वर्कबुक"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में चार्ट रिकवर वर्कबुक"
+"url": "/hi/java/data-manipulation/chart-recover-workbook-java-slides/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में चार्ट रिकवर वर्कबुक
@@ -23,7 +25,7 @@ url: /hi/java/data-manipulation/chart-recover-workbook-java-slides/
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
 - आपके सिस्टम पर जावा डेवलपमेंट किट (JDK) स्थापित है।
--  Aspose.Slides for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+- Aspose.Slides for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 
 ## चरण 1: अपना प्रोजेक्ट सेट अप करना
 
@@ -59,7 +61,7 @@ try
 {
     IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
-    // यहां कार्यपुस्तिका डेटा पर ऑपरेशन निष्पादित करें
+    // कार्यपुस्तिका डेटा पर यहां ऑपरेशन निष्पादित करें
     pres.save(outPptxFile, SaveFormat.Pptx);
 }
 finally
@@ -98,7 +100,7 @@ finally
 
 ### मैं Java के लिए Aspose.Slides कैसे स्थापित करूं?
 
- Aspose.Slides for Java को वेबसाइट से लाइब्रेरी डाउनलोड करके आसानी से स्थापित किया जा सकता है[यहाँ](https://releases.aspose.com/slides/java/)इसे अपने जावा प्रोजेक्ट में एकीकृत करने के लिए दिए गए इंस्टॉलेशन निर्देशों का पालन करें।
+Aspose.Slides for Java को वेबसाइट से लाइब्रेरी डाउनलोड करके आसानी से स्थापित किया जा सकता है [यहाँ](https://releases.aspose.com/slides/java/)इसे अपने जावा प्रोजेक्ट में एकीकृत करने के लिए दिए गए इंस्टॉलेशन निर्देशों का पालन करें।
 
 ### क्या मैं पावरपॉइंट प्रेजेंटेशन में किसी भी चार्ट से कार्यपुस्तिका डेटा पुनर्प्राप्त कर सकता हूं?
 
@@ -114,10 +116,12 @@ finally
 
 ### मैं Aspose.Slides for Java के लिए आगे के दस्तावेज़ों तक कैसे पहुँच सकता हूँ?
 
- Aspose.Slides for Java पर विस्तृत दस्तावेज़ीकरण और संदर्भों के लिए, दस्तावेज़ीकरण पृष्ठ पर जाएँ[यहाँ](https://reference.aspose.com/slides/java/).
+Aspose.Slides for Java पर विस्तृत दस्तावेज़ीकरण और संदर्भों के लिए, दस्तावेज़ीकरण पृष्ठ पर जाएँ [यहाँ](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,64 +1,66 @@
 ---
-title: Frissítse a meglévő táblázatot a PowerPointban Java használatával
-linktitle: Frissítse a meglévő táblázatot a PowerPointban Java használatával
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan frissítheti a meglévő táblázatokat a PowerPointban Java használatával az Aspose.Slides segítségével. Lépésről lépésre, részletes utasítások és GYIK mellékelve.
-weight: 13
-url: /hu/java/java-powerpoint-table-formatting-updates/update-existing-table-powerpoint-java/
+"description": "Tanuld meg, hogyan frissíthetsz meglévő PowerPoint-táblázatokat Java használatával az Aspose.Slides segítségével. Lépésről lépésre útmutató, részletes utasítások és gyakran ismételt kérdések."
+"linktitle": "Meglévő táblázat frissítése PowerPointban Java használatával"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Meglévő táblázat frissítése PowerPointban Java használatával"
+"url": "/hu/java/java-powerpoint-table-formatting-updates/update-existing-table-powerpoint-java/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Frissítse a meglévő táblázatot a PowerPointban Java használatával
+# Meglévő táblázat frissítése PowerPointban Java használatával
 
 ## Bevezetés
-Meglévő táblázat frissítése egy PowerPoint-prezentációban Java használatával ijesztő feladatnak tűnhet, de az Aspose.Slides for Java-val ez egy séta a parkban. Ez a lépésenkénti útmutató végigvezeti Önt a teljes folyamaton, biztosítva, hogy minden részt alaposan megértsen.
+Egy meglévő táblázat frissítése egy PowerPoint prezentációban Java használatával ijesztő feladatnak tűnhet, de az Aspose.Slides Java-alapú verziójával ez gyerekjáték. Ez a lépésről lépésre szóló útmutató végigvezet a teljes folyamaton, biztosítva, hogy minden egyes részt alaposan megérts.
 ## Előfeltételek
-Mielőtt belevágna az oktatóanyagba, rendelkeznie kell a következőkkel:
--  Java Development Kit (JDK): Győződjön meg arról, hogy a JDK telepítve van a rendszeren. Letöltheti a[Oracle JDK letöltési oldal](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
--  Aspose.Slides for Java Library: Töltse le a legújabb verziót a[Aspose.Slides for Java letöltési oldal](https://releases.aspose.com/slides/java/).
-- Integrált fejlesztői környezet (IDE): Olyan IDE, mint az IntelliJ IDEA vagy az Eclipse a Java kód írásához és futtatásához.
-- PowerPoint-fájl: PowerPoint-prezentációs fájl egy meglévő táblázattal, amelyet frissíteni szeretne.
+Mielőtt belevágnál az oktatóanyagba, a következőkre van szükséged:
+- Java fejlesztőkészlet (JDK): Győződjön meg róla, hogy a JDK telepítve van a rendszerén. Letöltheti innen: [Oracle JDK letöltési oldal](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+- Aspose.Slides Java könyvtárhoz: Töltse le a legújabb verziót innen: [Aspose.Slides Java letöltési oldalhoz](https://releases.aspose.com/slides/java/).
+- Integrált fejlesztői környezet (IDE): Egy olyan IDE, mint az IntelliJ IDEA vagy az Eclipse, amely Java kód írására és futtatására szolgál.
+- PowerPoint-fájl: Egy PowerPoint-bemutatófájl, amely egy meglévő, frissíteni kívánt táblázatot tartalmaz.
 
 ## Csomagok importálása
-Az Aspose.Slides for Java használatának megkezdéséhez importálnia kell a szükséges csomagokat a Java projektbe. Alább látható az importálási nyilatkozat, amelyre szüksége lesz.
+Az Aspose.Slides Java-beli használatának megkezdéséhez importálnia kell a szükséges csomagokat a Java-projektjébe. Az alábbiakban látható a szükséges import utasítás.
 ```java
 import com.aspose.slides.*;
 ```
-## 1. lépés: Állítsa be projektjét
-### Hozzon létre egy Java projektet
-Először is létre kell hoznia egy új Java projektet az IDE-ben. Ha például IntelliJ IDEA-t használ, kövesse az alábbi lépéseket:
-1. Nyissa meg az IntelliJ IDEA-t.
-2. Kattintson az "Új projekt létrehozása" gombra.
-3. Válassza a "Java" lehetőséget a listából.
-4. Nevezze el a projektet, és állítsa be a JDK elérési utat.
-### Adja hozzá az Aspose.Slides könyvtárat
- Ezután hozzá kell adnia az Aspose.Slides könyvtárat a projekthez. Ezt úgy teheti meg, hogy letölti a könyvtárat a[Aspose.Slides for Java letöltési oldal](https://releases.aspose.com/slides/java/) és hozzáadja a projekthez.
-1. Töltse le a könyvtárat és bontsa ki.
-2. Az IDE-ben kattintson a jobb gombbal a projektre, és válassza a "Könyvtár hozzáadása" lehetőséget.
-3. Válassza a "Java" lehetőséget, majd kattintson a "Tovább" gombra.
-4. Keresse meg a kibontott Aspose.Slides könyvtárat, és jelölje ki.
-## 2. lépés: Töltse be a PowerPoint-prezentációt
-### Határozza meg a dokumentumkönyvtárat
-Először adja meg a dokumentumkönyvtár elérési útját, ahol a PowerPoint fájl található.
+## 1. lépés: A projekt beállítása
+### Java projekt létrehozása
+Először is létre kell hoznod egy új Java projektet az IDE-dben. Ha például IntelliJ IDEA-t használsz, akkor a következő lépéseket teheted:
+1. Nyisd meg az IntelliJ IDEA-t.
+2. Kattintson az „Új projekt létrehozása” gombra.
+3. Válassza a „Java” lehetőséget a listából.
+4. Nevezd el a projektedet, és állítsd be a JDK elérési útját.
+### Aspose.Slides könyvtár hozzáadása
+Ezután hozzá kell adnod az Aspose.Slides könyvtárat a projektedhez. Ezt úgy teheted meg, hogy letöltöd a könyvtárat a következő helyről: [Aspose.Slides Java letöltési oldalhoz](https://releases.aspose.com/slides/java/) és hozzáadod a projektedhez.
+1. Töltsd le a könyvtárat és csomagold ki.
+2. Az IDE-ben kattints jobb gombbal a projektedre, és válaszd a „Könyvtár hozzáadása” lehetőséget.
+3. Válassza a „Java” lehetőséget, majd kattintson a „Tovább” gombra.
+4. Navigálj a kibontott Aspose.Slides könyvtárhoz, és válaszd ki.
+## 2. lépés: Töltse be a PowerPoint-bemutatóját
+### Dokumentumkönyvtár meghatározása
+Először adja meg a dokumentumkönyvtár elérési útját, ahol a PowerPoint-fájl található.
 ```java
 String dataDir = "Your Document Directory";
 ```
-### Példányosítsa a bemutató osztályt
- Töltse be a PowerPoint fájlt a`Presentation` osztály.
+### Példányosítsa a prezentációs osztályt
+Töltsd be a PowerPoint fájlodat a következő példányosításával: `Presentation` osztály.
 ```java
 Presentation pres = new Presentation(dataDir + "UpdateExistingTable.pptx");
 ```
-## 3. lépés: Nyissa meg a Dia és a táblázatot
-### Nyissa meg az első diát
-Nyissa meg a prezentáció első diáját, ahol a táblázat található.
+## 3. lépés: Hozzáférés a dia és az asztalhoz
+### Hozzáférés az első diához
+Nyissa meg a bemutató első diáját, ahol a táblázat található.
 ```java
 ISlide sld = pres.getSlides().get_Item(0);
 ```
-### Keresse meg a táblázatot
-Ismételje meg a dián lévő alakzatokat, hogy megtalálja a táblázatot.
+### Keresd meg az asztalt
+Keresd meg a táblázatot, és ismételd végig a dián lévő alakzatokat.
 ```java
 ITable tbl = null;
 for (IShape shp : sld.getShapes()) {
@@ -68,8 +70,8 @@ for (IShape shp : sld.getShapes()) {
     }
 }
 ```
-## 4. lépés: Frissítse a táblázatot
-Most frissítse a szöveget a kívánt cellában. Ebben az esetben a második sor első oszlopának szövegét frissítjük.
+## 4. lépés: A táblázat frissítése
+Most frissítsd a kívánt cella szövegét. Ebben az esetben a második sor első oszlopának szövegét frissítjük.
 ```java
 tbl.getRows().get_Item(1).get_Item(0).getTextFrame().setText("New Content");
 ```
@@ -79,28 +81,30 @@ Végül mentse a frissített prezentációt lemezre.
 ```java
 pres.save(dataDir + "table1_out.pptx", SaveFormat.Pptx);
 ```
-### Dobja el a bemutató objektumot
- Mindig gondoskodjon a hulladékkezelésről`Presentation` tiltakozik az erőforrások felszabadítása érdekében.
+### A prezentációs objektum eltávolítása
+Mindig ügyeljen arra, hogy a `Presentation` az erőforrások felszabadítására irányuló tárgy.
 ```java
 if (pres != null) pres.dispose();
 ```
 
 ## Következtetés
-A PowerPoint prezentációban lévő meglévő táblázatok Java használatával történő frissítése egyszerű az Aspose.Slides for Java segítségével. Ennek a lépésenkénti útmutatónak a követésével egyszerűen módosíthatja a táblázat tartalmát és mentheti a változtatásokat. Ez az oktatóanyag a projekt beállításától a frissített prezentáció elmentéséig mindenre kiterjedt, így biztosítva, hogy rendelkezzen a PowerPoint-táblázatok hatékony kezeléséhez szükséges összes tudással.
+Egy meglévő táblázat frissítése egy PowerPoint-bemutatóban Java használatával egyszerűen elvégezhető az Aspose.Slides for Java segítségével. Ezt a lépésről lépésre szóló útmutatót követve könnyedén módosíthatja a táblázat tartalmát és mentheti a módosításokat. Ez az oktatóanyag mindent lefed a projekt beállításától a frissített prezentáció mentéséig, biztosítva, hogy rendelkezzen a PowerPoint-táblázatok hatékony kezeléséhez szükséges összes tudással.
 ## GYIK
 ### Frissíthetek egyszerre több cellát a táblázatban?
-Igen, ismételheti a táblázat sorait és oszlopait, hogy egyszerre több cellát frissítsen.
-### Hogyan formázhatom a szöveget egy táblázatcellában?
- A szöveget a`TextFrame` tulajdonságok és stílusok alkalmazása, például betűméret, szín és félkövér.
-### Lehetséges-e új sorokat vagy oszlopokat hozzáadni a meglévő táblázathoz?
- Igen, az Aspose.Slides lehetővé teszi sorok és oszlopok hozzáadását vagy eltávolítását olyan módszerekkel, mint pl`addRow` és`removeRow`.
+Igen, végiglépkedhet a táblázat sorain és oszlopain, hogy egyszerre több cellát frissítsen.
+### Hogyan formázzam a szöveget egy táblázatcellában?
+szöveg formázásához nyissa meg a `TextFrame` tulajdonságok és stílusok alkalmazása, például betűméret, szín és félkövér.
+### Lehetséges új sorokat vagy oszlopokat hozzáadni a meglévő táblázathoz?
+Igen, az Aspose.Slides lehetővé teszi sorok és oszlopok hozzáadását vagy eltávolítását olyan metódusokkal, mint a `addRow` és `removeRow`.
 ### Használhatom az Aspose.Slides-t más programozási nyelvekkel?
-Igen, az Aspose.Slides számos programozási nyelvet támogat, beleértve a .NET-et, a Python-t és a C-t++.
-### Hogyan szerezhetek ideiglenes licencet az Aspose.Slides számára?
- Ideiglenes engedélyt szerezhet a[Aspose vásárlási oldal](https://purchase.aspose.com/temporary-license/).
+Igen, az Aspose.Slides számos programozási nyelvet támogat, beleértve a .NET-et, a Pythont és a C++-t.
+### Hogyan szerezhetek ideiglenes licencet az Aspose.Slides-hoz?
+Ideiglenes jogosítványt igényelhet a [Aspose vásárlási oldal](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Java Slaytlarında Çalışma Kitabından Grafik Verilerini Ayarlama
-linktitle: Java Slaytlarında Çalışma Kitabından Grafik Verilerini Ayarlama
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides'ı kullanarak Java Slides'ta bir Excel çalışma kitabından grafik verilerini nasıl ayarlayacağınızı öğrenin. Dinamik sunumlar için kod örnekleri içeren adım adım kılavuz.
-weight: 15
-url: /tr/java/data-manipulation/set-chart-data-from-workbook-java-slides/
+"description": "Aspose.Slides kullanarak Java Slides'da bir Excel çalışma kitabından grafik verilerinin nasıl ayarlanacağını öğrenin. Dinamik sunumlar için kod örnekleriyle adım adım kılavuz."
+"linktitle": "Java Slaytlarında Çalışma Kitabından Grafik Verilerini Ayarlama"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java Slaytlarında Çalışma Kitabından Grafik Verilerini Ayarlama"
+"url": "/tr/java/data-manipulation/set-chart-data-from-workbook-java-slides/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java Slaytlarında Çalışma Kitabından Grafik Verilerini Ayarlama
@@ -16,48 +18,48 @@ url: /tr/java/data-manipulation/set-chart-data-from-workbook-java-slides/
 
 ## Java Slaytlarında Çalışma Kitabından Grafik Verilerini Ayarlamaya Giriş
 
-Aspose.Slides for Java, geliştiricilerin PowerPoint sunumlarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir kütüphanedir. PowerPoint slaytlarını oluşturmak, değiştirmek ve yönetmek için kapsamlı özellikler sağlar. Sunularla çalışırken yaygın bir gereksinim, grafik verilerinin Excel çalışma kitabı gibi harici bir veri kaynağından dinamik olarak ayarlanmasıdır. Bu derste Java kullanarak bunu nasıl başaracağımızı göstereceğiz.
+Java için Aspose.Slides, geliştiricilerin PowerPoint sunumlarıyla programatik olarak çalışmasına olanak tanıyan güçlü bir kütüphanedir. PowerPoint slaytlarını oluşturmak, düzenlemek ve yönetmek için kapsamlı özellikler sunar. Sunumlarla çalışırken sık karşılaşılan bir gereklilik, Excel çalışma kitabı gibi harici bir veri kaynağından grafik verilerini dinamik olarak ayarlamak. Bu eğitimde, Java kullanarak bunu nasıl başaracağımızı göstereceğiz.
 
-## Önkoşullar
+## Ön koşullar
 
-Uygulamaya geçmeden önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
+Uygulamaya geçmeden önce aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
 
-- Sisteminizde Java Geliştirme Kiti (JDK) yüklü.
+- Sisteminizde Java Development Kit (JDK) yüklü.
 - Aspose.Slides for Java kütüphanesi projenize eklendi.
-- Grafik için kullanmak istediğiniz verileri içeren bir Excel çalışma kitabı.
+- Grafikte kullanmak istediğiniz verilerin bulunduğu bir Excel çalışma kitabı.
 
-## 1. Adım: Bir Sunu Oluşturun
+## Adım 1: Bir Sunum Oluşturun
 
 ```java
 String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 ```
 
-Aspose.Slides for Java'yı kullanarak yeni bir PowerPoint sunumu oluşturarak başlıyoruz.
+Aspose.Slides for Java kullanarak yeni bir PowerPoint sunumu oluşturarak başlayalım.
 
-## 2. Adım: Grafik Ekleme
+## Adım 2: Bir Grafik Ekleyin
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 500, 400);
 ```
 
-Daha sonra sunumdaki slaytlardan birine bir grafik ekliyoruz. Bu örnekte pasta grafik ekliyoruz ancak siz ihtiyaçlarınıza uygun grafik türünü seçebilirsiniz.
+Daha sonra sunumdaki slaytlardan birine bir grafik ekliyoruz. Bu örnekte bir pasta grafiği ekliyoruz ancak ihtiyaçlarınıza uygun grafik türünü seçebilirsiniz.
 
-## 3. Adım: Grafik Verilerini Temizle
+## Adım 3: Grafik Verilerini Temizle
 
 ```java
 chart.getChartData().getChartDataWorkbook().clear(0);
 ```
 
-Excel çalışma kitabındaki yeni verilere hazırlamak için grafikteki mevcut verileri temizliyoruz.
+Excel çalışma kitabından gelecek yeni veriler için hazırlamak amacıyla, grafikteki mevcut verileri temizliyoruz.
 
-## Adım 4: Excel Çalışma Kitabını Yükleyin
+## Adım 4: Excel Çalışma Kitabını Yükle
 
 ```java
 Workbook workbook = new Workbook("Your Document Directory";
 ```
 
- Grafik için kullanmak istediğimiz verileri içeren Excel çalışma kitabını yüklüyoruz. Yer değiştirmek`"book1.xlsx"` Excel dosyanızın yolu ile birlikte.
+Grafik için kullanmak istediğimiz verileri içeren Excel çalışma kitabını yüklüyoruz. Değiştir `"book1.xlsx"` Excel dosyanızın yolunu belirtin.
 
 ## Adım 5: Çalışma Kitabı Akışını Grafik Verilerine Yazma
 
@@ -68,7 +70,7 @@ mem.flush();
 chart.getChartData().writeWorkbookStream(mem.toByteArray());
 ```
 
-Excel çalışma kitabı verilerini bir akışa dönüştürüp grafik verilerine yazıyoruz.
+Excel çalışma kitabı verilerini akışa dönüştürüp grafik verilerine yazıyoruz.
 
 ## Adım 6: Grafik Veri Aralığını Ayarlayın
 
@@ -76,7 +78,7 @@ Excel çalışma kitabı verilerini bir akışa dönüştürüp grafik verilerin
 chart.getChartData().setRange("Sheet2!$A$1:$B$3");
 ```
 
-Grafik için veri olarak kullanılması gereken Excel çalışma kitabından hücre aralığını belirtiriz. Verileriniz için aralığı gerektiği gibi ayarlayın.
+Excel çalışma kitabından grafik için veri olarak kullanılması gereken hücre aralığını belirtiyoruz. Aralığı verileriniz için gerektiği gibi ayarlayın.
 
 ## Adım 7: Grafik Serisini Özelleştirin
 
@@ -85,17 +87,17 @@ IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 series.getParentSeriesGroup().setColorVaried(true);
 ```
 
-İhtiyaçlarınıza uyacak şekilde grafik serisinin çeşitli özelliklerini özelleştirebilirsiniz. Bu örnekte grafik serisi için çeşitli renkleri etkinleştiriyoruz.
+Grafik serisinin çeşitli özelliklerini gereksinimlerinize uyacak şekilde özelleştirebilirsiniz. Bu örnekte, grafik serisi için çeşitli renkler etkinleştiriyoruz.
 
-## Adım 8: Sunuyu Kaydetme
+## Adım 8: Sunumu Kaydedin
 
 ```java
 pres.save(outPath, SaveFormat.Pptx);
 ```
 
-Son olarak, güncellenmiş grafik verilerinin bulunduğu sunumu belirtilen çıktı yoluna kaydediyoruz.
+Son olarak güncellenen grafik verileriyle sunumu belirtilen çıktı yoluna kaydediyoruz.
 
-## Java Slaytlarındaki Çalışma Kitabından Grafik Verilerini Ayarlamak İçin Tam Kaynak Kodu
+## Java Slaytlarında Çalışma Kitabından Set Grafik Verileri İçin Tam Kaynak Kodu
 
 ```java
 String outPath = "Your Output Directory" + "response2.pptx";
@@ -125,9 +127,9 @@ try {
 
 ## Çözüm
 
-Bu eğitimde, Aspose.Slides for Java kütüphanesini kullanarak Java Slides'da bir Excel çalışma kitabından grafik verilerinin nasıl ayarlanacağını öğrendik. Adım adım kılavuzu takip ederek ve sağlanan kaynak kodu örneklerini kullanarak dinamik grafik verilerini PowerPoint sunumlarınıza kolayca entegre edebilirsiniz.
+Bu eğitimde, Aspose.Slides for Java kütüphanesini kullanarak bir Excel çalışma kitabından Java Slides'ta grafik verilerinin nasıl ayarlanacağını öğrendik. Adım adım kılavuzu izleyerek ve sağlanan kaynak kod örneklerini kullanarak dinamik grafik verilerini PowerPoint sunumlarınıza kolayca entegre edebilirsiniz.
 
-## SSS'ler
+## SSS
 
 ### Sunumumdaki grafiğin görünümünü nasıl özelleştirebilirim?
 
@@ -135,22 +137,24 @@ Renkler, yazı tipleri, etiketler ve daha fazlası gibi özellikleri değiştire
 
 ### Grafik için farklı bir Excel dosyasındaki verileri kullanabilir miyim?
 
-Evet, çalışma kitabını koda yüklerken doğru dosya yolunu belirterek herhangi bir Excel dosyasındaki verileri kullanabilirsiniz.
+Evet, çalışma kitabını kodda yüklerken doğru dosya yolunu belirterek herhangi bir Excel dosyasındaki verileri kullanabilirsiniz.
 
-### Aspose.Slides for Java ile başka ne tür grafikler oluşturabilirim?
+### Aspose.Slides for Java ile başka hangi tür grafikler oluşturabilirim?
 
-Aspose.Slides for Java, çubuk grafikler, çizgi grafikler, dağılım grafikleri ve daha fazlası dahil olmak üzere çeşitli grafik türlerini destekler. Veri temsili ihtiyaçlarınıza en uygun grafik türünü seçebilirsiniz.
+Java için Aspose.Slides, çubuk grafikler, çizgi grafikler, dağılım grafikleri ve daha fazlası dahil olmak üzere çeşitli grafik türlerini destekler. Veri temsili ihtiyaçlarınıza en uygun grafik türünü seçebilirsiniz.
 
 ### Çalışan bir sunumda grafik verilerini dinamik olarak güncellemek mümkün müdür?
 
-Evet, temel çalışma kitabını değiştirerek ve ardından grafik verilerini yenileyerek bir sunumdaki grafik verilerini dinamik olarak güncelleştirebilirsiniz.
+Evet, temel çalışma kitabını değiştirip ardından grafik verilerini yenileyerek bir sunumdaki grafik verilerini dinamik olarak güncelleyebilirsiniz.
 
-### Aspose.Slides for Java ile çalışmak için daha fazla örneği ve kaynağı nerede bulabilirim?
+### Aspose.Slides for Java ile çalışmaya ilişkin daha fazla örnek ve kaynağı nerede bulabilirim?
 
- Ek örnekleri ve kaynakları inceleyebilirsiniz.[Web sitesi](https://www.aspose.com/). Ayrıca Aspose.Slides for Java belgeleri, kütüphaneyle çalışma konusunda kapsamlı rehberlik sağlar.
+Ek örnekleri ve kaynakları şu adreste inceleyebilirsiniz: [Aspose web sitesi](https://www.aspose.com/)Ayrıca, Aspose.Slides for Java belgeleri, kütüphaneyle çalışma konusunda kapsamlı rehberlik sağlar.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

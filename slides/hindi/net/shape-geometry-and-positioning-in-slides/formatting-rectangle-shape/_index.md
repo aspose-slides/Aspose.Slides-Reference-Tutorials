@@ -1,14 +1,16 @@
 ---
-title: प्रस्तुतियों को बेहतर बनाएँ - Aspose.Slides के साथ आयताकार आकृतियों को प्रारूपित करें
-linktitle: Aspose.Slides का उपयोग करके प्रस्तुति स्लाइड में आयत आकार को फ़ॉर्मेट करना
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: .NET के लिए Aspose.Slides का उपयोग करके PowerPoint प्रस्तुतियों में आयताकार आकृतियों को प्रारूपित करना सीखें। गतिशील दृश्य तत्वों के साथ अपनी स्लाइड्स को बेहतर बनाएँ।
-weight: 12
-url: /hi/net/shape-geometry-and-positioning-in-slides/formatting-rectangle-shape/
+"description": ".NET के लिए Aspose.Slides का उपयोग करके PowerPoint प्रस्तुतियों में आयताकार आकृतियों को प्रारूपित करना सीखें। गतिशील दृश्य तत्वों के साथ अपनी स्लाइड्स को बेहतर बनाएँ।"
+"linktitle": "Aspose.Slides का उपयोग करके प्रस्तुति स्लाइड में आयत आकार को प्रारूपित करना"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "प्रस्तुतियों को बेहतर बनाएँ - Aspose.Slides के साथ आयताकार आकृतियों को प्रारूपित करें"
+"url": "/hi/net/shape-geometry-and-positioning-in-slides/formatting-rectangle-shape/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # प्रस्तुतियों को बेहतर बनाएँ - Aspose.Slides के साथ आयताकार आकृतियों को प्रारूपित करें
@@ -29,7 +31,7 @@ using Aspose.Slides;
 using System.Drawing;
 ```
 ## चरण 1: अपनी दस्तावेज़ निर्देशिका सेट करें
- उस डायरेक्टरी को सेट करके शुरू करें जहाँ आप अपनी पावरपॉइंट प्रेजेंटेशन फ़ाइल को सहेजना चाहते हैं।`"Your Document Directory"` आपकी निर्देशिका के वास्तविक पथ के साथ.
+उस डायरेक्टरी को सेट करके शुरू करें जहाँ आप अपनी पावरपॉइंट प्रेजेंटेशन फ़ाइल को सहेजना चाहते हैं। `"Your Document Directory"` आपकी निर्देशिका के वास्तविक पथ के साथ.
 ```csharp
 string dataDir = "Your Document Directory";
 bool IsExists = System.IO.Directory.Exists(dataDir);
@@ -37,7 +39,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 ## चरण 2: एक प्रेजेंटेशन ऑब्जेक्ट बनाएँ
- उदाहरण प्रस्तुत करें`Presentation` PPTX फ़ाइल को दर्शाने के लिए क्लास का उपयोग करें। यह आपके पावरपॉइंट प्रेजेंटेशन का आधार होगा।
+उदाहरण प्रस्तुत करें `Presentation` PPTX फ़ाइल को दर्शाने के लिए क्लास का उपयोग करें। यह आपके पावरपॉइंट प्रेजेंटेशन का आधार होगा।
 ```csharp
 using (Presentation pres = new Presentation())
 {
@@ -50,12 +52,12 @@ using (Presentation pres = new Presentation())
 ISlide sld = pres.Slides[0];
 ```
 ## चरण 4: एक आयताकार आकार जोड़ें
- उपयोग`Shapes`स्लाइड की प्रॉपर्टी का उपयोग करके आयत प्रकार का एक स्वचालित आकार जोड़ें। आयत की स्थिति और आयाम निर्दिष्ट करें।
+उपयोग `Shapes` स्लाइड की प्रॉपर्टी का उपयोग करके आयत प्रकार का एक स्वचालित आकार जोड़ें। आयत की स्थिति और आयाम निर्दिष्ट करें।
 ```csharp
 IShape shp = sld.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 150, 150, 50);
 ```
 ## चरण 5: आयत आकार पर फ़ॉर्मेटिंग लागू करें
-अब, आइए आयताकार आकार पर कुछ फ़ॉर्मेटिंग लागू करें। आकार के स्वरूप को अनुकूलित करने के लिए भरण रंग, रेखा रंग और चौड़ाई सेट करें।
+अब, आइए आयताकार आकृति पर कुछ फ़ॉर्मेटिंग लागू करें। आकृति के स्वरूप को अनुकूलित करने के लिए भरण रंग, रेखा रंग और चौड़ाई सेट करें।
 ```csharp
 shp.FillFormat.FillType = FillType.Solid;
 shp.FillFormat.SolidFillColor.Color = Color.Chocolate;
@@ -63,8 +65,8 @@ shp.LineFormat.FillFormat.FillType = FillType.Solid;
 shp.LineFormat.FillFormat.SolidFillColor.Color = Color.Black;
 shp.LineFormat.Width = 5;
 ```
-## चरण 6: प्रेजेंटेशन सहेजें
- संशोधित प्रस्तुति को डिस्क पर लिखें`Save` विधि, फ़ाइल प्रारूप को PPTX के रूप में निर्दिष्ट करना।
+## चरण 6: प्रस्तुति सहेजें
+संशोधित प्रस्तुति को डिस्क पर लिखें `Save` विधि, फ़ाइल प्रारूप को PPTX के रूप में निर्दिष्ट करना।
 ```csharp
 pres.Save(dataDir + "RectShp2_out.pptx", SaveFormat.Pptx);
 ```
@@ -75,16 +77,18 @@ pres.Save(dataDir + "RectShp2_out.pptx", SaveFormat.Pptx);
 ### प्रश्न 1: क्या मैं अन्य .NET भाषाओं के साथ .NET के लिए Aspose.Slides का उपयोग कर सकता हूँ?
 हां, Aspose.Slides C# के अतिरिक्त VB.NET और F# जैसी अन्य .NET भाषाओं का भी समर्थन करता है।
 ### प्रश्न 2: मैं Aspose.Slides के लिए दस्तावेज़ कहां पा सकता हूं?
- आप दस्तावेज़ देख सकते हैं[यहाँ](https://reference.aspose.com/slides/net/).
+आप दस्तावेज़ देख सकते हैं [यहाँ](https://reference.aspose.com/slides/net/).
 ### प्रश्न 3: मैं Aspose.Slides के लिए समर्थन कैसे प्राप्त कर सकता हूं?
- समर्थन और चर्चा के लिए, यहां जाएं[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11).
+समर्थन और चर्चा के लिए, यहां जाएं [Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11).
 ### प्रश्न 4: क्या कोई निःशुल्क परीक्षण उपलब्ध है?
- हां, आप निःशुल्क परीक्षण का लाभ उठा सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप निःशुल्क परीक्षण का लाभ उठा सकते हैं [यहाँ](https://releases.aspose.com/).
 ### प्रश्न 5: मैं .NET के लिए Aspose.Slides कहां से खरीद सकता हूं?
- आप .NET के लिए Aspose.Slides खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+आप .NET के लिए Aspose.Slides खरीद सकते हैं [यहाँ](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

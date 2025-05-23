@@ -1,25 +1,27 @@
 ---
-title: जावा के साथ पावरपॉइंट में स्मार्टआर्ट आकार शैली बदलें
-linktitle: जावा के साथ पावरपॉइंट में स्मार्टआर्ट आकार शैली बदलें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java के साथ Java का उपयोग करके PowerPoint प्रस्तुतियों में SmartArt शैलियों को बदलने का तरीका जानें। अपनी प्रस्तुतियों को बेहतर बनाएँ।
-weight: 23
-url: /hi/java/java-powerpoint-smartart-manipulation/change-smartart-shape-style-powerpoint-java/
+"description": "Aspose.Slides for Java के साथ Java का उपयोग करके PowerPoint प्रस्तुतियों में SmartArt शैलियों को बदलने का तरीका जानें। अपनी प्रस्तुतियों को बेहतर बनाएँ।"
+"linktitle": "जावा के साथ पावरपॉइंट में स्मार्टआर्ट आकार शैली बदलें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा के साथ पावरपॉइंट में स्मार्टआर्ट आकार शैली बदलें"
+"url": "/hi/java/java-powerpoint-smartart-manipulation/change-smartart-shape-style-powerpoint-java/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा के साथ पावरपॉइंट में स्मार्टआर्ट आकार शैली बदलें
 
 ## परिचय
 जावा विकास की दुनिया में, शक्तिशाली प्रस्तुतियाँ बनाना अक्सर एक आवश्यकता होती है। चाहे वह व्यावसायिक पिचों के लिए हो, शैक्षिक उद्देश्यों के लिए हो, या केवल जानकारी साझा करने के लिए हो, पावरपॉइंट प्रस्तुतियाँ एक सामान्य माध्यम हैं। हालाँकि, कभी-कभी पावरपॉइंट द्वारा प्रदान की जाने वाली डिफ़ॉल्ट शैलियाँ और प्रारूप हमारी ज़रूरतों को पूरी तरह से पूरा नहीं कर सकते हैं। यहीं पर Aspose.Slides for Java काम आता है।
-Aspose.Slides for Java एक मजबूत लाइब्रेरी है जो जावा डेवलपर्स को प्रोग्रामेटिक रूप से PowerPoint प्रस्तुतियों के साथ काम करने की अनुमति देती है। यह कई तरह की सुविधाएँ प्रदान करता है, जिसमें आकृतियों, शैलियों, एनिमेशन और बहुत कुछ में हेरफेर करने की क्षमता शामिल है। इस ट्यूटोरियल में, हम एक विशिष्ट कार्य पर ध्यान केंद्रित करेंगे: जावा का उपयोग करके PowerPoint प्रस्तुतियों में स्मार्टआर्ट आकार शैली को बदलना।
+Aspose.Slides for Java एक मजबूत लाइब्रेरी है जो Java डेवलपर्स को PowerPoint प्रस्तुतियों के साथ प्रोग्रामेटिक रूप से काम करने की अनुमति देती है। यह कई तरह की सुविधाएँ प्रदान करता है, जिसमें आकृतियों, शैलियों, एनिमेशन और बहुत कुछ में हेरफेर करने की क्षमता शामिल है। इस ट्यूटोरियल में, हम एक विशिष्ट कार्य पर ध्यान केंद्रित करेंगे: Java का उपयोग करके PowerPoint प्रस्तुतियों में SmartArt आकार शैली को बदलना।
 ## आवश्यक शर्तें
 ट्यूटोरियल में शामिल होने से पहले, आपके पास कुछ पूर्व-आवश्यकताएं होनी चाहिए:
 1. जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपके सिस्टम पर JDK इंस्टॉल है। आप Oracle वेबसाइट से नवीनतम संस्करण डाउनलोड और इंस्टॉल कर सकते हैं।
-2. Aspose.Slides for Java लाइब्रेरी: आपको अपने प्रोजेक्ट में Aspose.Slides for Java लाइब्रेरी को डाउनलोड करके शामिल करना होगा। आप डाउनलोड लिंक पा सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides for Java लाइब्रेरी: आपको अपने प्रोजेक्ट में Aspose.Slides for Java लाइब्रेरी को डाउनलोड करके शामिल करना होगा। आप डाउनलोड लिंक पा सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 3. एकीकृत विकास वातावरण (IDE): जावा विकास के लिए अपना पसंदीदा IDE चुनें। IntelliJ IDEA, Eclipse, या NetBeans लोकप्रिय विकल्प हैं।
 
 ## पैकेज आयात करें
@@ -44,12 +46,12 @@ for (IShape shape : presentation.getSlides().get_Item(0).getShapes())
 if (shape instanceof ISmartArt)
 ```
 ## चरण 4: स्मार्टआर्ट पर कास्ट करें
- यदि आकृति स्मार्टआर्ट है, तो हम इसे कास्ट करेंगे`ISmartArt` इंटरफेस।
+यदि आकृति स्मार्टआर्ट है, तो हम इसे कास्ट करेंगे `ISmartArt` इंटरफ़ेस.
 ```java
 ISmartArt smart = (ISmartArt) shape;
 ```
 ## चरण 5: शैली जांचें और बदलें
-इसके बाद हम स्मार्टआर्ट की वर्तमान शैली की जांच करेंगे और यदि आवश्यक हुआ तो उसमें बदलाव करेंगे।
+इसके बाद हम स्मार्टआर्ट की वर्तमान शैली की जांच करेंगे और यदि आवश्यक हुआ तो उसमें परिवर्तन करेंगे।
 ```java
 if (smart.getQuickStyle() == SmartArtQuickStyleType.SimpleFill)
 {
@@ -68,16 +70,18 @@ presentation.save(dataDir + "ChangeSmartArtStyle_out.pptx", SaveFormat.Pptx);
 ### क्या मैं अन्य Java लाइब्रेरीज़ के साथ Aspose.Slides for Java का उपयोग कर सकता हूँ?
 हां, आपके अनुप्रयोगों की कार्यक्षमता बढ़ाने के लिए Aspose.Slides for Java को अन्य Java लाइब्रेरीज़ के साथ सहजता से एकीकृत किया जा सकता है।
 ### क्या Aspose.Slides for Java के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
- हां, आप यहां से Aspose.Slides for Java का निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप यहां से Aspose.Slides for Java का निःशुल्क परीक्षण प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/).
 ### मैं Java के लिए Aspose.Slides के लिए समर्थन कैसे प्राप्त कर सकता हूं?
- आप यहाँ जाकर Aspose.Slides for Java के लिए समर्थन प्राप्त कर सकते हैं[मंच](https://forum.aspose.com/c/slides/11).
+आप यहाँ जाकर Aspose.Slides for Java के लिए समर्थन प्राप्त कर सकते हैं [मंच](https://forum.aspose.com/c/slides/11).
 ### क्या मैं Aspose.Slides for Java के लिए अस्थायी लाइसेंस खरीद सकता हूँ?
- हां, आप Aspose.Slides for Java के लिए एक अस्थायी लाइसेंस खरीद सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+हां, आप Aspose.Slides for Java के लिए एक अस्थायी लाइसेंस खरीद सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
 ### मैं Aspose.Slides for Java के लिए विस्तृत दस्तावेज़ कहां पा सकता हूं?
- आप Java के लिए Aspose.Slides के लिए विस्तृत दस्तावेज़ पा सकते हैं[यहाँ](https://reference.aspose.com/slides/java/).
+आप Java के लिए Aspose.Slides के लिए विस्तृत दस्तावेज़ पा सकते हैं [यहाँ](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

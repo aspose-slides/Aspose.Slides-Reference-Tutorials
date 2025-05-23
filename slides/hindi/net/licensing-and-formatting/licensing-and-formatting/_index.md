@@ -1,14 +1,16 @@
 ---
-title: Aspose.Slides में लाइसेंसिंग
-linktitle: Aspose.Slides में लाइसेंसिंग
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: जानें कि .NET के लिए Aspose.Slides का लाइसेंस कैसे प्राप्त करें और अपने .NET अनुप्रयोगों में PowerPoint हेरफेर की शक्ति को कैसे प्राप्त करें।
-weight: 10
-url: /hi/net/licensing-and-formatting/licensing-and-formatting/
+"description": "जानें कि .NET के लिए Aspose.Slides का लाइसेंस कैसे प्राप्त करें और अपने .NET अनुप्रयोगों में PowerPoint हेरफेर की शक्ति को कैसे प्राप्त करें।"
+"linktitle": "Aspose.Slides में लाइसेंसिंग"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "Aspose.Slides में लाइसेंसिंग"
+"url": "/hi/net/licensing-and-formatting/licensing-and-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Slides में लाइसेंसिंग
@@ -20,9 +22,9 @@ url: /hi/net/licensing-and-formatting/licensing-and-formatting/
 
 इससे पहले कि हम लाइसेंसिंग प्रक्रिया में आगे बढ़ें, आपके पास निम्नलिखित पूर्वापेक्षाएँ होनी चाहिए:
 
-1. Aspose.Slides for .NET: सुनिश्चित करें कि आपने अपने विकास परिवेश में Aspose.Slides for .NET स्थापित किया है। आप लाइब्रेरी को यहाँ से डाउनलोड कर सकते हैं[लिंक को डाउनलोड करें](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides for .NET: सुनिश्चित करें कि आपने अपने विकास परिवेश में Aspose.Slides for .NET स्थापित किया है। आप लाइब्रेरी को यहाँ से डाउनलोड कर सकते हैं [लिंक को डाउनलोड करें](https://releases.aspose.com/slides/net/).
 
-2.  लाइसेंस फ़ाइल: एक वैध Aspose.Slides लाइसेंस फ़ाइल प्राप्त करें, जिसे आम तौर पर "Aspose.Slides.lic" नाम दिया जाता है। आप लाइसेंस यहाँ से प्राप्त कर सकते हैं[Aspose वेबसाइट](https://purchase.aspose.com/buy) या अनुरोध करें[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) मूल्यांकन प्रयोजनों के लिए।
+2. लाइसेंस फ़ाइल: एक वैध Aspose.Slides लाइसेंस फ़ाइल प्राप्त करें, जिसे आम तौर पर "Aspose.Slides.lic" नाम दिया जाता है। आप लाइसेंस यहाँ से प्राप्त कर सकते हैं [Aspose वेबसाइट](https://purchase.aspose.com/buy) या अनुरोध करें [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) मूल्यांकन प्रयोजनों के लिए।
 
 ## नामस्थान आयात करें
 
@@ -44,7 +46,7 @@ using Aspose.Slides;
 
 ### चरण 2: लाइसेंस क्लास को इंस्टैंसिएट करें
 
- आपको इसका एक उदाहरण बनाना चाहिए`License` Aspose.Slides द्वारा प्रदान की गई क्लास। यह क्लास आपको अपना लाइसेंस लोड करने और मान्य करने की अनुमति देती है।
+आपको इसका एक उदाहरण बनाना चाहिए `License` Aspose.Slides द्वारा प्रदान की गई क्लास। यह क्लास आपको अपना लाइसेंस लोड करने और मान्य करने की अनुमति देती है।
 
 ```csharp
 Aspose.Slides.License license = new Aspose.Slides.License();
@@ -52,7 +54,7 @@ Aspose.Slides.License license = new Aspose.Slides.License();
 
 ### चरण 3: लाइसेंस फ़ाइल पथ सेट करें
 
- अपने Aspose.Slides लाइसेंस फ़ाइल का पथ निर्दिष्ट करें`SetLicense` विधि। यह विधि Aspose.Slides को बताती है कि आपका लाइसेंस कहां मिलेगा।
+अपने Aspose.Slides लाइसेंस फ़ाइल का पथ निर्दिष्ट करें `SetLicense` विधि। यह विधि Aspose.Slides को बताती है कि आपका लाइसेंस कहां मिलेगा।
 
 ```csharp
 license.SetLicense("Aspose.Slides.lic");
@@ -64,7 +66,7 @@ license.SetLicense("Aspose.Slides.lic");
 
 ### चरण 4: लाइसेंस सत्यापन
 
- यह जांचने के लिए कि आपका लाइसेंस वैध है या नहीं, का उपयोग करें`IsLicensed` विधि। यह एक बूलियन मान लौटाता है जो यह बताता है कि आपका लाइसेंस सक्रिय है या नहीं।
+यह जांचने के लिए कि आपका लाइसेंस वैध है या नहीं, का उपयोग करें `IsLicensed` विधि। यह एक बूलियन मान लौटाता है जो यह बताता है कि आपका लाइसेंस सक्रिय है या नहीं।
 
 ```csharp
 if (license.IsLicensed())
@@ -80,7 +82,7 @@ if (license.IsLicensed())
 
 इस चरण-दर-चरण मार्गदर्शिका में, हमने .NET के लिए Aspose.Slides को लाइसेंस देने की आवश्यक प्रक्रिया को कवर किया है। यह सुनिश्चित करके कि आपके पास सही पूर्वापेक्षाएँ हैं, आवश्यक नामस्थानों को आयात करके, और अपने लाइसेंस को सही ढंग से मान्य करके, आप अपनी PowerPoint-संबंधित विकास आवश्यकताओं के लिए इस लाइब्रेरी की क्षमताओं को पूरी तरह से अनलॉक कर सकते हैं।
 
- याद रखें, एक वैध लाइसेंस न केवल कानूनी आवश्यकताओं के अनुपालन को सुनिश्चित करता है बल्कि आपको प्रीमियम सुविधाओं तक पहुंचने और Aspose समुदाय से सहायता प्राप्त करने की भी अनुमति देता है। सुनिश्चित करें कि आप ऐसा लाइसेंस प्राप्त करें जो आपकी परियोजना की आवश्यकताओं के अनुरूप हो[Aspose खरीदारी](https://purchase.aspose.com/buy) या Aspose का अन्वेषण करें[मुफ्त परीक्षण](https://releases.aspose.com/) इसकी क्षमताओं का स्वाद लेने के लिए।
+याद रखें, एक वैध लाइसेंस न केवल कानूनी आवश्यकताओं के अनुपालन को सुनिश्चित करता है बल्कि आपको प्रीमियम सुविधाओं तक पहुंचने और Aspose समुदाय से सहायता प्राप्त करने की भी अनुमति देता है। सुनिश्चित करें कि आप ऐसा लाइसेंस प्राप्त करें जो आपकी परियोजना की आवश्यकताओं के अनुरूप हो [Aspose खरीदारी](https://purchase.aspose.com/buy) या Aspose का अन्वेषण करें [मुफ्त परीक्षण](https://releases.aspose.com/) इसकी क्षमताओं का स्वाद लेने के लिए।
 
 ## अक्सर पूछे जाने वाले प्रश्नों
 
@@ -88,19 +90,21 @@ if (license.IsLicensed())
 Aspose.Slides for .NET .NET अनुप्रयोगों में Microsoft PowerPoint फ़ाइलों के साथ काम करने के लिए एक शक्तिशाली लाइब्रेरी है। यह आपको प्रोग्रामेटिक रूप से PowerPoint प्रस्तुतियों को बनाने, संशोधित करने और हेरफेर करने की अनुमति देता है।
 
 ### मैं .NET के लिए Aspose.Slides का लाइसेंस कैसे प्राप्त कर सकता हूं?
- आप Aspose वेबसाइट पर जाकर .NET के लिए Aspose.Slides का लाइसेंस प्राप्त कर सकते हैं।[खरीद पृष्ठ](https://purchase.aspose.com/buy).
+आप Aspose वेबसाइट पर जाकर .NET के लिए Aspose.Slides का लाइसेंस प्राप्त कर सकते हैं। [खरीद पृष्ठ](https://purchase.aspose.com/buy).
 
 ### क्या मैं लाइसेंस खरीदने से पहले Aspose.Slides for .NET का मूल्यांकन कर सकता हूँ?
- हां, आप अनुरोध कर सकते हैं[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) अपने विकास परिवेश में Aspose.Slides for .NET का मूल्यांकन करने के लिए।
+हां, आप अनुरोध कर सकते हैं [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) अपने विकास परिवेश में Aspose.Slides for .NET का मूल्यांकन करने के लिए।
 
 ### क्या Aspose.Slides for .NET के लिए कोई निःशुल्क संसाधन या दस्तावेज़ उपलब्ध हैं?
- हां, आप Aspose.Slides for .NET के लिए दस्तावेज़ और संसाधनों तक पहुंच सकते हैं[दस्तावेज़ पृष्ठ](https://reference.aspose.com/slides/net/).
+हां, आप Aspose.Slides for .NET के लिए दस्तावेज़ और संसाधनों तक पहुंच सकते हैं [दस्तावेज़ पृष्ठ](https://reference.aspose.com/slides/net/).
 
 ### .NET उपयोगकर्ताओं के लिए Aspose.Slides हेतु किस प्रकार का समर्थन उपलब्ध है?
- Aspose एक सामुदायिक मंच प्रदान करता है जहाँ आप सहायता प्राप्त कर सकते हैं और अन्य Aspose उपयोगकर्ताओं के साथ बातचीत कर सकते हैं। आप मंच पर पहुँच सकते हैं[https://forum.aspose.com/](https://forum.aspose.com/).
+Aspose एक सामुदायिक मंच प्रदान करता है जहाँ आप सहायता प्राप्त कर सकते हैं और अन्य Aspose उपयोगकर्ताओं के साथ बातचीत कर सकते हैं। आप मंच पर पहुँच सकते हैं [https://forum.aspose.com/](https://forum.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

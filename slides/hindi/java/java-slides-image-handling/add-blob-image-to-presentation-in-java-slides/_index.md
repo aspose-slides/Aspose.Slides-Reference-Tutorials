@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में प्रेजेंटेशन में ब्लॉब इमेज जोड़ें
-linktitle: जावा स्लाइड्स में प्रेजेंटेशन में ब्लॉब इमेज जोड़ें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: जानें कि Java स्लाइड्स प्रेजेंटेशन में ब्लॉब इमेज को आसानी से कैसे जोड़ा जाए। Aspose.Slides for Java का उपयोग करके कोड उदाहरणों के साथ हमारे चरण-दर-चरण गाइड का पालन करें।
-weight: 10
-url: /hi/java/image-handling/add-blob-image-to-presentation-in-java-slides/
+"description": "जानें कि Java स्लाइड्स प्रेजेंटेशन में ब्लॉब इमेज को आसानी से कैसे जोड़ा जाए। Aspose.Slides for Java का उपयोग करके कोड उदाहरणों के साथ हमारे चरण-दर-चरण गाइड का पालन करें।"
+"linktitle": "जावा स्लाइड्स में प्रेजेंटेशन में ब्लॉब इमेज जोड़ें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में प्रेजेंटेशन में ब्लॉब इमेज जोड़ें"
+"url": "/hi/java/image-handling/add-blob-image-to-presentation-in-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में प्रेजेंटेशन में ब्लॉब इमेज जोड़ें
@@ -23,7 +25,7 @@ url: /hi/java/image-handling/add-blob-image-to-presentation-in-java-slides/
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
 - आपके सिस्टम पर जावा डेवलपमेंट किट (JDK) स्थापित है।
--  Aspose.Slides for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+- Aspose.Slides for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 - एक ब्लॉब छवि जिसे आप अपनी प्रस्तुति में जोड़ना चाहते हैं।
 
 ## चरण 1: आवश्यक लाइब्रेरीज़ आयात करें
@@ -37,7 +39,7 @@ import java.io.FileInputStream;
 
 ## चरण 2: पथ सेट करें
 
- अपने दस्तावेज़ निर्देशिका का पथ निर्धारित करें जहाँ आपने ब्लॉब छवि संग्रहीत की है।`"Your Document Directory"` वास्तविक पथ के साथ.
+अपने दस्तावेज़ निर्देशिका का पथ निर्धारित करें जहाँ आपने ब्लॉब छवि संग्रहीत की है। `"Your Document Directory"` वास्तविक पथ के साथ.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -62,14 +64,14 @@ Presentation pres = new Presentation();
 
 ## चरण 5: ब्लॉब छवि जोड़ें
 
- अब, प्रेजेंटेशन में ब्लॉब इमेज जोड़ने का समय आ गया है। हम इसका उपयोग करते हैं`addImage`इसे प्राप्त करने की विधि.
+अब, प्रेजेंटेशन में ब्लॉब इमेज जोड़ने का समय आ गया है। हम इसका उपयोग करते हैं `addImage` इसे प्राप्त करने की विधि.
 
 ```java
 IPPImage img = pres.getImages().addImage(fip, LoadingStreamBehavior.KeepLocked);
 pres.getSlides().get_Item(0).getShapes().addPictureFrame(ShapeType.Rectangle, 0, 0, 300, 200, img);
 ```
 
-## चरण 6: प्रेजेंटेशन सहेजें
+## चरण 6: प्रस्तुति सहेजें
 
 अंत में, जोड़ी गई ब्लॉब छवि के साथ प्रस्तुति को सहेजें।
 
@@ -122,7 +124,7 @@ pres.save(dataDir + "presentationWithBlobImage.pptx", SaveFormat.Pptx);
 
 ### मैं Java के लिए Aspose.Slides कैसे स्थापित करूं?
 
-Aspose.Slides for Java को वेबसाइट से लाइब्रेरी डाउनलोड करके आसानी से स्थापित किया जा सकता है[यहाँ](https://releases.aspose.com/slides/java/)इसे अपने जावा प्रोजेक्ट में एकीकृत करने के लिए दिए गए इंस्टॉलेशन निर्देशों का पालन करें।
+Aspose.Slides for Java को वेबसाइट से लाइब्रेरी डाउनलोड करके आसानी से स्थापित किया जा सकता है [यहाँ](https://releases.aspose.com/slides/java/)इसे अपने जावा प्रोजेक्ट में एकीकृत करने के लिए दिए गए इंस्टॉलेशन निर्देशों का पालन करें।
 
 ### क्या मैं एक ही प्रस्तुति में एकाधिक ब्लॉब छवियाँ जोड़ सकता हूँ?
 
@@ -134,14 +136,16 @@ Aspose.Slides for Java को वेबसाइट से लाइब्रे
 
 ### मैं जोड़े गए ब्लॉब चित्र की स्थिति और आकार को कैसे अनुकूलित कर सकता हूँ?
 
- आप पैरामीटर्स को संशोधित करके जोड़े गए ब्लॉब चित्र की स्थिति और आकार को समायोजित कर सकते हैं`addPictureFrame` विधि। चार मान (x-निर्देशांक, y-निर्देशांक, चौड़ाई और ऊँचाई) छवि फ़्रेम की स्थिति और आयाम निर्धारित करते हैं।
+आप पैरामीटर्स को संशोधित करके जोड़े गए ब्लॉब चित्र की स्थिति और आकार को समायोजित कर सकते हैं `addPictureFrame` विधि। चार मान (x-निर्देशांक, y-निर्देशांक, चौड़ाई और ऊँचाई) छवि फ़्रेम की स्थिति और आयाम निर्धारित करते हैं।
 
 ### क्या Aspose.Slides उन्नत पावरपॉइंट स्वचालन कार्यों के लिए उपयुक्त है?
 
 बिल्कुल! Aspose.Slides PowerPoint स्वचालन के लिए उन्नत क्षमताएँ प्रदान करता है, जिसमें स्लाइड निर्माण, संशोधन और डेटा निष्कर्षण शामिल है। यह आपके PowerPoint-संबंधित कार्यों को सुव्यवस्थित करने के लिए एक शक्तिशाली उपकरण है।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

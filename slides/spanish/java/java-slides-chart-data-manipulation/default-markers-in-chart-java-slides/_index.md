@@ -1,30 +1,32 @@
 ---
-title: Marcadores predeterminados en el gráfico en diapositivas de Java
-linktitle: Marcadores predeterminados en el gráfico en diapositivas de Java
-second_title: Aspose.Slides API de procesamiento de PowerPoint Java
-description: Aprenda a crear diapositivas Java con marcadores predeterminados en gráficos usando Aspose.Slides para Java. Guía paso a paso con código fuente.
-weight: 16
-url: /es/java/chart-data-manipulation/default-markers-in-chart-java-slides/
+"description": "Aprenda a crear diapositivas Java con marcadores predeterminados en gráficos usando Aspose.Slides para Java. Guía paso a paso con código fuente."
+"linktitle": "Marcadores predeterminados en gráficos en diapositivas de Java"
+"second_title": "API de procesamiento de PowerPoint en Java de Aspose.Slides"
+"title": "Marcadores predeterminados en gráficos en diapositivas de Java"
+"url": "/es/java/chart-data-manipulation/default-markers-in-chart-java-slides/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Marcadores predeterminados en el gráfico en diapositivas de Java
+# Marcadores predeterminados en gráficos en diapositivas de Java
 
 
-## Introducción a los marcadores predeterminados en gráficos en diapositivas de Java
+## Introducción a los marcadores predeterminados en gráficos de diapositivas de Java
 
-En este tutorial, exploraremos cómo crear un gráfico con marcadores predeterminados usando Aspose.Slides para Java. Los marcadores predeterminados son símbolos o formas que se agregan a los puntos de datos de un gráfico para resaltarlos. Crearemos un gráfico de líneas con marcadores para visualizar datos.
+En este tutorial, exploraremos cómo crear un gráfico con marcadores predeterminados usando Aspose.Slides para Java. Los marcadores predeterminados son símbolos o formas que se añaden a los puntos de datos de un gráfico para resaltarlos. Crearemos un gráfico de líneas con marcadores para visualizar los datos.
 
-## Requisitos previos
+## Prerrequisitos
 
 Antes de comenzar, asegúrese de tener la biblioteca Aspose.Slides para Java instalada y configurada en su proyecto Java.
 
-## Paso 1: crea una presentación
+## Paso 1: Crear una presentación
 
-Primero, creemos una presentación y agreguemosle una diapositiva. Luego agregaremos un gráfico a la diapositiva.
+Primero, crearemos una presentación y le añadiremos una diapositiva. Luego, le añadiremos un gráfico.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -32,9 +34,9 @@ Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
 ```
 
-## Paso 2: agregue un gráfico de líneas con marcadores
+## Paso 2: Agregar un gráfico de líneas con marcadores
 
-Ahora, agreguemos un gráfico de líneas con marcadores a la diapositiva. También borraremos cualquier dato predeterminado del gráfico.
+Ahora, agreguemos un gráfico de líneas con marcadores a la diapositiva. También borraremos los datos predeterminados del gráfico.
 
 ```java
 IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 10, 10, 400, 400);
@@ -42,7 +44,7 @@ chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 ```
 
-## Paso 3: completar los datos del gráfico
+## Paso 3: Completar los datos del gráfico
 
 Completaremos el gráfico con datos de muestra. En este ejemplo, crearemos dos series con puntos de datos y categorías.
 
@@ -65,14 +67,14 @@ series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 4, 1, null));
 chart.getChartData().getSeries().add(fact.getCell(0, 0, 2, "Series 2"));
 IChartSeries series2 = chart.getChartData().getSeries().get_Item(1);
 
-// Poblar datos de series
+// Población de datos de series
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 1, 2, 30));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 2, 2, 10));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 3, 2, 60));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 4, 2, 40));
 ```
 
-## Paso 4: personaliza el gráfico
+## Paso 4: Personaliza el gráfico
 
 Puede personalizar aún más el gráfico, como agregar una leyenda y ajustar su apariencia.
 
@@ -81,17 +83,17 @@ chart.setLegend(true);
 chart.getLegend().setOverlay(false);
 ```
 
-## Paso 5: guarde la presentación
+## Paso 5: Guardar la presentación
 
-Finalmente, guarde la presentación con el gráfico en la ubicación deseada.
+Por último, guarde la presentación con el gráfico en la ubicación deseada.
 
 ```java
 pres.save(dataDir + "DefaultMarkersInChart.pptx", SaveFormat.Pptx);
 ```
 
-¡Eso es todo! Ha creado un gráfico de líneas con marcadores predeterminados usando Aspose.Slides para Java.
+¡Listo! Has creado un gráfico de líneas con marcadores predeterminados usando Aspose.Slides para Java.
 
-## Código fuente completo para marcadores predeterminados en gráficos en diapositivas de Java
+## Código fuente completo para marcadores predeterminados en gráficos de diapositivas de Java
 
 ```java
         // La ruta al directorio de documentos.
@@ -117,7 +119,7 @@ pres.save(dataDir + "DefaultMarkersInChart.pptx", SaveFormat.Pptx);
             chart.getChartData().getSeries().add(fact.getCell(0, 0, 2, "Series 2"), chart.getType());
             //Tome la segunda serie de gráficos
             IChartSeries series2 = chart.getChartData().getSeries().get_Item(1);
-            //Ahora completando datos de series
+            //Ahora se están rellenando los datos de la serie
             series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 1, 2, 30));
             series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 2, 2, 10));
             series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 3, 2, 60));
@@ -133,24 +135,26 @@ pres.save(dataDir + "DefaultMarkersInChart.pptx", SaveFormat.Pptx);
 ```
 ## Conclusión
 
-En este completo tutorial, ha aprendido cómo crear diapositivas Java con marcadores predeterminados en gráficos utilizando Aspose.Slides para Java. Cubrimos todo el proceso, desde configurar una presentación hasta personalizar la apariencia del gráfico y guardar el resultado.
+En este completo tutorial, aprendiste a crear diapositivas de Java con marcadores predeterminados en gráficos usando Aspose.Slides para Java. Cubrimos todo el proceso, desde la configuración de una presentación hasta la personalización de la apariencia del gráfico y el guardado del resultado.
 
 ## Preguntas frecuentes
 
 ### ¿Cómo puedo cambiar los símbolos del marcador?
 
-Puede personalizar los símbolos del marcador configurando el estilo del marcador para cada punto de datos. Usar`IDataPoint.setMarkerStyle()` para cambiar el símbolo del marcador.
+Puede personalizar los símbolos de los marcadores configurando el estilo de marcador para cada punto de datos. Usar `IDataPoint.setMarkerStyle()` para cambiar el símbolo del marcador.
 
 ### ¿Cómo ajusto los colores del gráfico?
 
- Para modificar los colores del gráfico, puede utilizar el`IChartSeriesFormat` y`IShapeFillFormat` interfaces para establecer propiedades de relleno y línea.
+Para modificar los colores del gráfico, puede utilizar el `IChartSeriesFormat` y `IShapeFillFormat` Interfaces para establecer propiedades de relleno y línea.
 
 ### ¿Puedo agregar etiquetas a los puntos de datos?
 
- Sí, puede agregar etiquetas a puntos de datos usando el`IDataPoint.getLabel()` método y personalizarlos según sea necesario.
+Sí, puede agregar etiquetas a los puntos de datos utilizando el `IDataPoint.getLabel()` método y personalizarlos según sea necesario.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

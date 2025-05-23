@@ -1,14 +1,16 @@
 ---
-title: Java Slaytlarında Salt Okunur Önerilen Özellikler
-linktitle: Java Slaytlarında Salt Okunur Önerilen Özellikler
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides for Java kullanarak Java PowerPoint sunumlarında Salt Okunur Önerilen özellikleri nasıl etkinleştireceğinizi öğrenin. Gelişmiş sunum güvenliği için kaynak kodu örneklerinin yer aldığı adım adım kılavuzumuzu izleyin.
-weight: 17
-url: /tr/java/presentation-properties/read-only-recommended-properties-in-java-slides/
+"description": "Java PowerPoint sunumlarında Aspose.Slides for Java kullanarak Salt Okunur Önerilen özelliklerinin nasıl etkinleştirileceğini öğrenin. Gelişmiş sunum güvenliği için kaynak kod örnekleriyle adım adım kılavuzumuzu izleyin."
+"linktitle": "Java Slaytlarında Salt Okunur Önerilen Özellikler"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java Slaytlarında Salt Okunur Önerilen Özellikler"
+"url": "/tr/java/presentation-properties/read-only-recommended-properties-in-java-slides/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java Slaytlarında Salt Okunur Önerilen Özellikler
@@ -16,15 +18,15 @@ url: /tr/java/presentation-properties/read-only-recommended-properties-in-java-s
 
 ## Java Slaytlarında Salt Okunur Önerilen Özellikleri Etkinleştirmeye Giriş
 
-Bu eğitimde Aspose.Slides for Java kullanarak PowerPoint sunumları için Salt Okunur Önerilen özelliklerin nasıl etkinleştirileceğini inceleyeceğiz. Salt Okunur Önerilen özellikler, kullanıcıları herhangi bir değişiklik yapmadan bir sunuyu görüntülemeye teşvik etmek istediğinizde yararlı olabilir. Bu özellikler sunumun salt okunur modda açılması gerektiğini önerir. Bunu başarmak için size Java kaynak koduyla birlikte adım adım bir kılavuz sunacağız.
+Bu eğitimde, Aspose.Slides for Java kullanarak PowerPoint sunumları için Salt Okunur Önerilen özelliklerinin nasıl etkinleştirileceğini inceleyeceğiz. Salt Okunur Önerilen özellikleri, kullanıcıları herhangi bir değişiklik yapmadan bir sunumu görüntülemeye teşvik etmek istediğinizde yararlı olabilir. Bu özellikler, sunumun salt okunur modunda açılması gerektiğini önerir. Bunu başarmanız için size adım adım bir kılavuz ve Java kaynak kodu sağlayacağız.
 
-## Önkoşullar
+## Ön koşullar
 
- Başlamadan önce projenizde Aspose.Slides for Java kütüphanesinin kurulu olduğundan emin olun. adresinden indirebilirsiniz.[Aspose.Slides for Java web sitesi](https://products.aspose.com/slides/java/).
+Başlamadan önce projenizde Aspose.Slides for Java kütüphanesinin kurulu olduğundan emin olun. Bunu şuradan indirebilirsiniz: [Java web sitesi için Aspose.Slides](https://products.aspose.com/slides/java/).
 
-## 1. Adım: Yeni Bir PowerPoint Sunusu Oluşturun
+## Adım 1: Yeni bir PowerPoint Sunumu Oluşturun
 
-Aspose.Slides for Java'yı kullanarak yeni bir PowerPoint sunumu oluşturarak başlayacağız. Zaten bir sunumunuz varsa bu adımı atlayabilirsiniz.
+Aspose.Slides for Java kullanarak yeni bir PowerPoint sunumu oluşturarak başlayacağız. Zaten bir sunumunuz varsa, bu adımı atlayabilirsiniz.
 
 ```java
 String outPptxPath = "Your Output Directory" + "ReadOnlyRecommended.pptx";
@@ -33,7 +35,7 @@ Presentation pres = new Presentation();
 
 Yukarıdaki kodda, çıktı PowerPoint dosyasının yolunu tanımladık ve yeni bir sunum nesnesi oluşturduk.
 
-## 2. Adım: Salt Okunur Önerilen Özelliği Etkinleştirin
+## Adım 2: Salt Okunur Önerilen Özelliği Etkinleştir
 
 Şimdi sunum için Salt Okunur Önerilen özelliğini etkinleştirelim.
 
@@ -49,11 +51,11 @@ finally
 }
 ```
 
- Bu kod parçacığında şunu kullanıyoruz:`getProtectionManager().setReadOnlyRecommended(true)` Salt Okunur Önerilen özelliğini şu şekilde ayarlama yöntemi:`true`. Bu, birisi sunuyu açtığında, sunuyu salt okunur modda açmasının istenmesini sağlar.
+Bu kod parçacığında şunu kullanıyoruz: `getProtectionManager().setReadOnlyRecommended(true)` Salt Okunur Önerilen özelliğini ayarlamak için yöntem `true`Bu, birisi sunuyu açtığında, salt okunur modunda açması istenmesini sağlar.
 
-## 3. Adım: Sunuyu Kaydetme
+## Adım 3: Sunumu Kaydedin
 
-Son olarak sunumu Salt Okunur Önerilen özelliği etkin olarak kaydediyoruz.
+Son olarak sunumu Salt Okunur Önerilen özelliği etkinleştirilerek kaydediyoruz.
 
 ## Java Slaytlarında Salt Okunur Önerilen Özellikler İçin Tam Kaynak Kodu
 
@@ -73,11 +75,11 @@ finally
 
 ## Çözüm
 
-Bu eğitimde Aspose.Slides for Java kullanarak bir PowerPoint sunumu için Salt Okunur Önerilen özelliğini nasıl etkinleştireceğinizi öğrendiniz. Bu özellik, düzenlemeyi kısıtlamak ve izleyicileri sunuyu salt okunur modda kullanmaya teşvik etmek istediğinizde yararlı olabilir. Sunum için bir parola belirleyerek güvenliği daha da artırabilirsiniz.
+Bu eğitimde, Aspose.Slides for Java kullanarak bir PowerPoint sunumu için Salt Okunur Önerilen özelliğini nasıl etkinleştireceğinizi öğrendiniz. Bu özellik, düzenlemeyi kısıtlamak ve izleyicileri sunumu salt okunur modunda kullanmaya teşvik etmek istediğinizde faydalı olabilir. Sunum için bir parola ayarlayarak güvenliği daha da artırabilirsiniz.
 
-## SSS'ler
+## SSS
 
-### Salt Okunur Önerilen özelliğini nasıl devre dışı bırakırım?
+### Salt Okunur Önerilen özelliğini nasıl devre dışı bırakabilirim?
 
 Salt Okunur Önerilen özelliğini devre dışı bırakmak için aşağıdaki kodu kullanmanız yeterlidir:
 
@@ -85,18 +87,20 @@ Salt Okunur Önerilen özelliğini devre dışı bırakmak için aşağıdaki ko
 pres.getProtectionManager().setReadOnlyRecommended(false);
 ```
 
-### Salt Okunur Önerilen sunum için parola ayarlayabilir miyim?
+### Salt Okunur Önerilen bir sunum için parola ayarlayabilir miyim?
 
-Evet, Aspose.Slides for Java'yı kullanarak Salt Okunur Önerilen sunum için bir şifre belirleyebilirsiniz. Şunu kullanabilirsiniz:`setPassword` sunum için bir şifre belirleme yöntemi. Bir parola ayarlanmışsa, salt okunur modda bile kullanıcıların sunuyu açmak için parolayı girmeleri gerekir.
+Evet, Aspose.Slides for Java kullanarak Salt Okunur Önerilen bir sunum için bir parola ayarlayabilirsiniz. `setPassword` sunum için bir parola belirleme yöntemi. Bir parola belirlenirse, kullanıcıların sunumu açmak için salt okunur modda bile parolayı girmeleri gerekir.
 
 ```java
 pres.getProtectionManager().setPassword("YourPassword");
 ```
 
- Değiştirmeyi unutmayın`"YourPassword"` İstediğiniz şifre ile
+Değiştirmeyi unutmayın `"YourPassword"` İstediğiniz şifreyle.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

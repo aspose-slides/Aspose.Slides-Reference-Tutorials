@@ -1,38 +1,40 @@
 ---
-title: Converteer dia's naar PDF met Notes
-linktitle: Converteer dia's naar PDF met Notes
-second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
-description: Converteer presentatiedia's met sprekernotities moeiteloos naar PDF met Aspose.Slides voor .NET. Bewaar inhoud en context naadloos.
-weight: 18
-url: /nl/net/presentation-conversion/convert-slides-to-pdf-with-notes/
+"description": "Converteer presentatieslides met sprekersnotities moeiteloos naar PDF met Aspose.Slides voor .NET. Inhoud en context blijven naadloos behouden."
+"linktitle": "Dia's converteren naar PDF met notities"
+"second_title": "Aspose.Slides .NET PowerPoint-verwerkings-API"
+"title": "Dia's converteren naar PDF met notities"
+"url": "/nl/net/presentation-conversion/convert-slides-to-pdf-with-notes/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Converteer dia's naar PDF met Notes
+# Dia's converteren naar PDF met notities
 
 
-# Schrijf een stapsgewijze zelfstudie over het converteren van dia's naar PDF met Notes met behulp van Aspose.Slides voor .NET
+# Schrijf een stapsgewijze handleiding voor het converteren van dia's naar PDF met notities met Aspose.Slides voor .NET
 
-Bent u op zoek naar een betrouwbare manier om uw PowerPoint-dia's naar PDF-formaat te converteren met behoud van alle belangrijke notities? Zoek niet verder! In deze uitgebreide zelfstudie begeleiden we u stap voor stap door het gebruik van Aspose.Slides voor .NET om deze taak te volbrengen.
+Bent u op zoek naar een betrouwbare manier om uw PowerPoint-dia's naar PDF-formaat te converteren en daarbij alle belangrijke notities te behouden? Zoek niet verder! In deze uitgebreide tutorial begeleiden we u stap voor stap door het gebruik van Aspose.Slides voor .NET.
 
 ## 1. Inleiding
 
-Het converteren van PowerPoint-dia's naar PDF met notities kan een waardevol hulpmiddel zijn voor het delen van presentaties en tegelijkertijd ervoor zorgen dat belangrijke context en opmerkingen behouden blijven. Aspose.Slides voor .NET biedt een krachtige oplossing voor deze taak.
+Het converteren van PowerPoint-dia's naar PDF met notities kan een waardevolle tool zijn om presentaties te delen en tegelijkertijd te zorgen dat belangrijke context en opmerkingen behouden blijven. Aspose.Slides voor .NET biedt een krachtige oplossing voor deze taak.
 
 ## 2. Uw omgeving instellen
 
-Voordat we in het codeerproces duiken, moet je ervoor zorgen dat je de benodigde omgeving hebt ingesteld. Je hebt nodig:
+Voordat we beginnen met coderen, zorg ervoor dat je de juiste omgeving hebt ingesteld. Je hebt nodig:
 
 - Visual Studio of uw favoriete .NET-ontwikkelomgeving.
 - Aspose.Slides voor .NET-bibliotheek geïnstalleerd.
-- Een PowerPoint-presentatie met aantekeningen die u wilt converteren.
+- Een PowerPoint-presentatie met notities die u wilt converteren.
 
 ## 3. De presentatie laden
 
-In uw C#-code moet u de PowerPoint-presentatie laden die u wilt converteren. Hier ziet u hoe u het kunt doen:
+In je C#-code moet je de PowerPoint-presentatie laden die je wilt converteren. Zo doe je dat:
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -43,7 +45,7 @@ Presentation presentation = new Presentation(dataDir + "SelectedSlides.pptx");
 
 ## 4. De dia klonen
 
-Om ervoor te zorgen dat uw PDF alle benodigde dia's met notities bevat, kunt u deze uit de originele presentatie klonen. Hier is hoe:
+Om ervoor te zorgen dat uw PDF alle benodigde dia's met notities bevat, kunt u ze vanuit de originele presentatie klonen. Zo doet u dat:
 
 ```csharp
 Presentation auxPresentation = new Presentation();
@@ -53,7 +55,7 @@ auxPresentation.Slides.InsertClone(0, slide);
 
 ## 5. Diagrootte aanpassen
 
-Mogelijk wilt u het diaformaat aanpassen aan uw PDF. Met Aspose.Slides voor .NET kunt u dit eenvoudig doen:
+Mogelijk wilt u de diagrootte aanpassen aan uw PDF. Met Aspose.Slides voor .NET kunt u dit eenvoudig doen:
 
 ```csharp
 auxPresentation.SlideSize.SetSize(612F, 792F, SlideSizeScaleType.EnsureFit);
@@ -69,9 +71,9 @@ INotesCommentsLayoutingOptions options = pdfOptions.NotesCommentsLayouting;
 options.NotesPosition = NotesPositions.BottomFull;
 ```
 
-## 7. Opslaan als PDF met Notes
+## 7. Opslaan als PDF met notities
 
-Tenslotte kunt u uw presentatie opslaan als PDF met aantekeningen:
+Ten slotte kunt u uw presentatie opslaan als PDF met notities:
 
 ```csharp
 auxPresentation.Save(outPath + "PDFnotes_out.pdf", SaveFormat.Pdf, pdfOptions);
@@ -79,34 +81,36 @@ auxPresentation.Save(outPath + "PDFnotes_out.pdf", SaveFormat.Pdf, pdfOptions);
 
 ## 8. Conclusie
 
-Gefeliciteerd! U hebt uw PowerPoint-dia's met succes geconverteerd naar een PDF-formaat met behoud van alle belangrijke notities. Aspose.Slides voor .NET maakt dit proces eenvoudig en efficiënt.
+Gefeliciteerd! U hebt uw PowerPoint-dia's succesvol geconverteerd naar PDF-formaat, met behoud van alle belangrijke notities. Aspose.Slides voor .NET maakt dit proces eenvoudig en efficiënt.
 
 ## 9. Veelgestelde vragen
 
-### V1: Kan ik de lay-out van de notities in de PDF aanpassen?
+### V1: Kan ik de lay-out van de notities in het PDF-bestand aanpassen?
 
- Ja, u kunt de lay-out van de notities aanpassen met behulp van de`INotesCommentsLayoutingOptions` in de PDF-opties.
+Ja, u kunt de lay-out van de notities aanpassen met behulp van de `INotesCommentsLayoutingOptions` in de PDF-opties.
 
-### V2: Ondersteunt Aspose.Slides voor .NET naast PDF ook andere uitvoerformaten?
+### V2: Ondersteunt Aspose.Slides voor .NET andere uitvoerformaten dan PDF?
 
 Ja, Aspose.Slides voor .NET ondersteunt verschillende uitvoerformaten, waaronder PPTX, DOCX en meer.
 
 ### V3: Is er een proefversie beschikbaar voor Aspose.Slides voor .NET?
 
- Ja, u kunt een gratis proefversie van Aspose.Slides voor .NET krijgen op[https://releases.aspose.com/](https://releases.aspose.com/).
+Ja, u kunt een gratis proefversie van Aspose.Slides voor .NET krijgen op [https://releases.aspose.com/](https://releases.aspose.com/).
 
 ### V4: Waar kan ik ondersteuning krijgen voor Aspose.Slides voor .NET?
 
- U kunt ondersteuning en communitydiscussies vinden op[https://forum.aspose.com/](https://forum.aspose.com/).
+U kunt ondersteuning en discussies in de community vinden op [https://forum.aspose.com/](https://forum.aspose.com/).
 
-### V5: Kan ik een tijdelijke licentie kopen voor Aspose.Slides voor .NET?
+### V5: Kan ik een tijdelijke licentie voor Aspose.Slides voor .NET kopen?
 
- Ja, u kunt een tijdelijke licentie aanschaffen op[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
+Ja, u kunt een tijdelijke licentie kopen bij [https://purchase.aspose.com/tijdelijke-licentie/](https://purchase.aspose.com/temporary-license/).
 
-Concluderend kunt u met Aspose.Slides voor .NET eenvoudig PowerPoint-dia's naar PDF-formaat converteren, terwijl de aantekeningen intact blijven. Het is een waardevol hulpmiddel voor professionals die presentaties moeten delen met collega's en klanten en er tegelijkertijd voor willen zorgen dat belangrijke context niet verloren gaat.
+Kortom, met Aspose.Slides voor .NET kunt u PowerPoint-dia's eenvoudig converteren naar PDF-formaat, inclusief notities. Het is een waardevolle tool voor professionals die presentaties willen delen met collega's en klanten, zonder dat belangrijke context verloren gaat.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,39 +1,41 @@
 ---
-title: Chart Marker Options on Data Point a Java Slides-ben
-linktitle: Chart Marker Options on Data Point a Java Slides-ben
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Optimalizálja Java diákjait az egyéni diagramjelölő opciókkal. Ismerje meg az adatpontok vizuális javítását az Aspose.Slides for Java segítségével. Fedezze fel a lépésről lépésre szóló útmutatót és a GYIK-et.
-weight: 14
-url: /hu/java/data-manipulation/chart-marker-options-data-point-java-slides/
+"description": "Optimalizáld Java diáidat egyéni diagramjelölő beállításokkal. Tanuld meg, hogyan javíthatod vizuálisan az adatpontokat az Aspose.Slides for Java segítségével. Tekintsd meg a lépésenkénti útmutatót és a GYIK-et."
+"linktitle": "Diagramjelölő beállítások az adatpontokon Java diákban"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Diagramjelölő beállítások az adatpontokon Java diákban"
+"url": "/hu/java/data-manipulation/chart-marker-options-data-point-java-slides/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Chart Marker Options on Data Point a Java Slides-ben
+# Diagramjelölő beállítások az adatpontokon Java diákban
 
 
-## Bevezetés a Chart Marker Options on Data Point a Java Slides
+## Bevezetés a Java diák adatpontjainak diagramjelölő beállításaiba
 
-Ha hatásos prezentációk létrehozásáról van szó, az adatpontokon lévő diagramjelölők testreszabásának és manipulálásának képessége mindent megváltoztathat. Az Aspose.Slides for Java segítségével dinamikus és vizuálisan vonzó elemekké alakíthatja diagramjait.
+Hatásos prezentációk készítéséhez a diagramjelölők adatpontokon való testreszabásának és kezelésének lehetősége döntő lehet. Az Aspose.Slides Java verziójával diagramjait dinamikus és vizuálisan lebilincselő elemekké alakíthatja.
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk a kódolási részbe, győződjön meg arról, hogy a következő előfeltételekkel rendelkezik:
+Mielőtt belevágnánk a kódolás részébe, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
 
 - Java fejlesztői környezet
-- Aspose.Slides for Java Library
+- Aspose.Slides Java könyvtárhoz
 - Java integrált fejlesztői környezet (IDE)
-- Prezentációs dokumentum minta (pl. "Test.pptx")
+- Minta prezentációs dokumentum (pl. "Test.pptx")
 
 ## 1. lépés: A környezet beállítása
 
-Először is győződjön meg arról, hogy a szükséges eszközök telepítve és készen vannak. Hozzon létre egy Java-projektet az IDE-ben, és importálja az Aspose.Slides for Java könyvtárat.
+Először is győződj meg róla, hogy telepítve és készen állnak a szükséges eszközök. Hozz létre egy Java projektet az IDE-ben, és importáld az Aspose.Slides for Java könyvtárat.
 
 ## 2. lépés: A prezentáció betöltése
 
-A kezdéshez töltse be a bemutató dokumentum mintáját. A megadott kódban feltételezzük, hogy a dokumentum neve "Test.pptx".
+Kezdésként töltse be a minta prezentációs dokumentumot. A megadott kódban feltételezzük, hogy a dokumentum neve „Test.pptx”.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -42,16 +44,16 @@ Presentation pres = new Presentation(dataDir + "Test.pptx");
 
 ## 3. lépés: Diagram létrehozása
 
-Most hozzunk létre egy diagramot a bemutatóban. Ebben a példában jelölőkkel ellátott vonaldiagramot fogunk használni.
+Most hozzunk létre egy diagramot a prezentációban. Ebben a példában jelölőkkel ellátott vonaldiagramot fogunk használni.
 
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 0, 0, 400, 400);
 ```
 
-## 4. lépés: A diagramadatok kezelése
+## 4. lépés: Diagramadatokkal való munka
 
-A diagramadatok kezeléséhez hozzá kell férnünk a diagramadatok munkafüzetéhez, és el kell készítenünk az adatsorokat. Töröljük az alapértelmezett sorozatokat, és hozzáadjuk egyéni adatainkat.
+A diagramadatok kezeléséhez hozzá kell férnünk a diagramadatok munkafüzetéhez, és elő kell készítenünk az adatsorokat. Töröljük az alapértelmezett sorozatokat, és hozzáadjuk az egyéni adatainkat.
 
 ```java
 int defaultWorksheetIndex = 0;
@@ -62,7 +64,7 @@ chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 1, 1, "
 
 ## 5. lépés: Egyéni jelölők hozzáadása
 
-Itt jön az izgalmas rész – az adatpontokon lévő markerek testreszabása. Ebben a példában képeket fogunk használni jelölőként.
+És itt jön az izgalmas rész - az adatpontok jelölőinek testreszabása. Ebben a példában képeket fogunk használni jelölőként.
 
 ```java
 BufferedImage img = ImageIO.read(new File(dataDir + "aspose-logo.jpg"));
@@ -73,27 +75,27 @@ IPPImage imgx2 = pres.getImages().addImage(img2);
 
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 
-// Egyéni markerek hozzáadása az adatpontokhoz
+// Egyéni jelölők hozzáadása adatpontokhoz
 IChartDataPoint point = series.getDataPoints().addDataPointForLineSeries(fact.getCell(defaultWorksheetIndex, 1, 1, (double) 4.5));
 point.getMarker().getFormat().getFill().setFillType(FillType.Picture);
 point.getMarker().getFormat().getFill().getPictureFillFormat().getPicture().setImage(imgx1);
 
-// Ismételje meg a többi adatpont esetében is
+// Ismételje meg a többi adatponttal
 // ...
 
-// A diagramsorozat-jelölő méretének módosítása
+// Diagramsorozat-jelölő méretének módosítása
 series.getMarker().setSize(15);
 ```
 
 ## 6. lépés: A prezentáció mentése
 
-Miután személyre szabta a diagramjelölőket, mentse a prezentációt, hogy megtekinthesse a változásokat.
+Miután testreszabtad a diagramjelölőket, mentsd el a prezentációt, hogy lásd a változásokat működés közben.
 
 ```java
 pres.save(dataDir + "CustomizedChart.pptx", SaveFormat.Pptx);
 ```
 
-## A Java Slides adatpontján található diagramjelölő opciók teljes forráskódja
+## Teljes forráskód a diagramjelölő opciókhoz az adatpontokon Java diákban
 
 ```java
 String dataDir = "Your Document Directory";
@@ -101,9 +103,9 @@ Presentation pres = new Presentation(dataDir + "Test.pptx");
 ISlide slide = pres.getSlides().get_Item(0);
 //Az alapértelmezett diagram létrehozása
 IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 0, 0, 400, 400);
-//Az alapértelmezett diagramadat-munkalapindex lekérése
+//Az alapértelmezett diagramadat-munkalap indexének lekérése
 int defaultWorksheetIndex = 0;
-//A diagram adatlap beszerzése
+//A diagramadatok munkalapjának beszerzése
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 //Demósorozat törlése
 chart.getChartData().getSeries().clear();
@@ -115,9 +117,9 @@ IPPImage imgx1 = pres.getImages().addImage(img);
 //Állítsa be a képet
 BufferedImage img2 = ImageIO.read(new File(dataDir + "Tulips.jpg"));
 IPPImage imgx2 = pres.getImages().addImage(img2);
-//Vegyük az első diagramsorozatot
+//Vegye az első diagramsorozatot
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-//Adjon hozzá új pontot (1:3).
+//Adjon hozzá egy új pontot (1:3).
 IChartDataPoint point = series.getDataPoints().addDataPointForLineSeries(fact.getCell(defaultWorksheetIndex, 1, 1, (double) 4.5));
 point.getMarker().getFormat().getFill().setFillType(FillType.Picture);
 point.getMarker().getFormat().getFill().getPictureFillFormat().getPicture().setImage(imgx1);
@@ -137,32 +139,34 @@ pres.save(dataDir + "AsposeScatterChart.pptx", SaveFormat.Pptx);
 
 ## Következtetés
 
-Az Aspose.Slides for Java segítségével az adatpontokon lévő diagramjelölők testreszabásával emelheti prezentációit. Ez lehetővé teszi, hogy vizuálisan lenyűgöző és informatív diákat készítsen, amelyek lenyűgözik a közönséget.
+Az Aspose.Slides Java verziójával magasabb szintre emelheted prezentációidat az adatpontokon elhelyezett diagramjelölők testreszabásával. Ez lehetővé teszi, hogy vizuálisan lenyűgöző és informatív diákat hozz létre, amelyek lenyűgözik a közönségedet.
 
 ## GYIK
 
-### Hogyan változtathatom meg az adatpontok marker méretét?
+### Hogyan tudom megváltoztatni az adatpontok jelölőméretét?
 
- Az adatpontok markerméretének módosításához használja a`series.getMarker().setSize()` módszert, és argumentumként adja meg a kívánt méretet.
+Az adatpontok jelölőméretének módosításához használja a `series.getMarker().setSize()` metódust, és argumentumként adja meg a kívánt méretet.
 
-### Használhatok képeket egyéni markerként?
+### Használhatok képeket egyéni jelölőkként?
 
- Igen, használhat képeket egyéni jelölőkként az adatpontokhoz. Állítsa be a kitöltés típusát`FillType.Picture` és adja meg a használni kívánt képet.
+Igen, képeket használhat egyéni jelölőkként az adatpontokhoz. Állítsa be a kitöltési típust erre: `FillType.Picture` és add meg a használni kívánt képet.
 
-### Az Aspose.Slides for Java alkalmas dinamikus diagramok készítésére?
+### Alkalmas az Aspose.Slides Java-ban dinamikus diagramok létrehozására?
 
-Teljesen! Az Aspose.Slides for Java kiterjedt lehetőségeket kínál dinamikus és interaktív diagramok létrehozásához prezentációiban.
+Abszolút! Az Aspose.Slides Java-ban széleskörű lehetőségeket kínál dinamikus és interaktív diagramok létrehozására a prezentációidban.
 
-### Testreszabhatom a diagram egyéb szempontjait az Aspose.Slides segítségével?
+### Testreszabhatom a diagram más aspektusait az Aspose.Slides segítségével?
 
-Igen, az Aspose.Slides for Java segítségével testreszabhatja a diagram különböző aspektusait, beleértve a címeket, tengelyeket, adatcímkéket és egyebeket.
+Igen, a diagram különböző aspektusait, beleértve a címeket, tengelyeket, adatfeliratokat és egyebeket, testreszabhatja az Aspose.Slides for Java használatával.
 
-### Hol érhetem el az Aspose.Slides for Java dokumentációját és letöltéseit?
+### Hol férhetek hozzá az Aspose.Slides Java dokumentációjához és letöltéseihez?
 
- A dokumentációt megtalálod a címen[itt](https://reference.aspose.com/slides/java/) és töltse le a könyvtárat a címről[itt](https://releases.aspose.com/slides/java/).
+A dokumentációt megtalálod a következő címen: [itt](https://reference.aspose.com/slides/java/) és töltse le a könyvtárat innen [itt](https://releases.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

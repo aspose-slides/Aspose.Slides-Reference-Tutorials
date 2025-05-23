@@ -1,26 +1,28 @@
 ---
-title: Sprawdź układ wykresu dodany w slajdach Java
-linktitle: Sprawdź układ wykresu dodany w slajdach Java
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Sprawdzanie poprawności układu wykresu głównego w programie PowerPoint za pomocą Aspose.Slides dla języka Java. Naucz się programowo manipulować wykresami, aby uzyskać wspaniałe prezentacje.
-weight: 10
-url: /pl/java/data-manipulation/validate-chart-layout-added-java-slides/
+"description": "Opanuj walidację układu wykresu w programie PowerPoint z Aspose.Slides dla Java. Naucz się manipulować wykresami programowo, aby tworzyć oszałamiające prezentacje."
+"linktitle": "Sprawdź układ wykresu dodany w slajdach Java"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Sprawdź układ wykresu dodany w slajdach Java"
+"url": "/pl/java/data-manipulation/validate-chart-layout-added-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sprawdź układ wykresu dodany w slajdach Java
 
 
-## Wprowadzenie do sprawdzania układu wykresu w Aspose.Slides dla Java
+## Wprowadzenie do walidacji układu wykresu w Aspose.Slides dla Java
 
-W tym samouczku przyjrzymy się, jak sprawdzić układ wykresu w prezentacji programu PowerPoint przy użyciu Aspose.Slides dla Java. Ta biblioteka umożliwia programową pracę z prezentacjami programu PowerPoint, ułatwiając manipulowanie i sprawdzanie różnych elementów, w tym wykresów.
+W tym samouczku pokażemy, jak sprawdzić układ wykresu w prezentacji PowerPoint przy użyciu Aspose.Slides dla Java. Ta biblioteka umożliwia programową pracę z prezentacjami PowerPoint, ułatwiając manipulowanie i sprawdzanie poprawności różnych elementów, w tym wykresów.
 
-## Krok 1: Inicjowanie prezentacji
+## Krok 1: Inicjalizacja prezentacji
 
- Najpierw musimy zainicjować obiekt prezentacji i załadować istniejącą prezentację programu PowerPoint. Zastępować`"Your Document Directory"` z rzeczywistą ścieżką do pliku prezentacji (`test.pptx` w tym przykładzie).
+Najpierw musimy zainicjować obiekt prezentacji i załadować istniejącą prezentację PowerPoint. Zastąp `"Your Document Directory"` z rzeczywistą ścieżką do pliku prezentacji (`test.pptx` w tym przykładzie).
 
 ```java
 // Ścieżka do katalogu dokumentów.
@@ -30,15 +32,15 @@ Presentation pres = new Presentation(dataDir + "test.pptx");
 
 ## Krok 2: Dodawanie wykresu
 
- Następnie dodamy wykres do prezentacji. W tym przykładzie dodajemy grupowany wykres kolumnowy, ale możesz zmienić`ChartType` w razie potrzeby.
+Następnie dodamy wykres do prezentacji. W tym przykładzie dodajemy wykres kolumnowy klastrowany, ale możesz zmienić `ChartType` w razie potrzeby.
 
 ```java
 Chart chart = (Chart) pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 100, 100, 500, 350);
 ```
 
-## Krok 3: Sprawdzanie układu wykresu
+## Krok 3: Weryfikacja układu wykresu
 
- Teraz sprawdzimy układ wykresu za pomocą metody`validateChartLayout()` metoda. Dzięki temu wykres będzie prawidłowo ułożony na slajdzie.
+Teraz sprawdzimy układ wykresu za pomocą `validateChartLayout()` Metoda ta zapewnia, że wykres jest prawidłowo rozłożony na slajdzie.
 
 ```java
 chart.validateChartLayout();
@@ -57,13 +59,13 @@ double h = chart.getPlotArea().getActualHeight();
 
 ## Krok 5: Zapisywanie prezentacji
 
- Na koniec nie zapomnij zapisać zmodyfikowanej prezentacji. W tym przykładzie zapisujemy go jako`Result.pptx`, ale w razie potrzeby możesz określić inną nazwę pliku.
+Na koniec nie zapomnij zapisać zmodyfikowanej prezentacji. W tym przykładzie zapisujemy ją jako `Result.pptx`, ale jeśli zajdzie taka potrzeba, możesz podać inną nazwę pliku.
 
 ```java
 pres.save(dataDir + "Result.pptx", SaveFormat.Pptx);
 ```
 
-## Kompletny kod źródłowy do sprawdzania układu wykresu dodany w slajdach Java
+## Pełny kod źródłowy dla układu wykresu walidacyjnego dodany do slajdów Java
 
 ```java
 // Ścieżka do katalogu dokumentów.
@@ -88,25 +90,27 @@ finally
 
 ## Wniosek
 
-W tym samouczku zagłębiliśmy się w świat pracy z wykresami w prezentacjach PowerPoint przy użyciu Aspose.Slides for Java. Omówiliśmy podstawowe kroki, aby sprawdzić układ wykresu, pobrać jego położenie i rozmiar oraz zapisać zmodyfikowaną prezentację. Oto krótkie podsumowanie:
+W tym samouczku zagłębiliśmy się w świat pracy z wykresami w prezentacjach PowerPoint przy użyciu Aspose.Slides for Java. Omówiliśmy podstawowe kroki, aby sprawdzić układ wykresu, pobrać jego pozycję i rozmiar oraz zapisać zmodyfikowaną prezentację. Oto krótkie podsumowanie:
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
 ### Jak zmienić typ wykresu?
 
- Aby zmienić typ wykresu, po prostu zamień`ChartType.ClusteredColumn` żądanym typem wykresu w pliku`addChart()` metoda.
+Aby zmienić typ wykresu, wystarczy go zastąpić `ChartType.ClusteredColumn` żądanym typem wykresu w `addChart()` metoda.
 
-### Czy mogę dostosować dane wykresu?
+### Czy mogę dostosować dane na wykresie?
 
 Tak, możesz dostosować dane wykresu, dodając i modyfikując serie danych, kategorie i wartości. Więcej szczegółów znajdziesz w dokumentacji Aspose.Slides.
 
-### Co się stanie, jeśli chcę zmodyfikować inne właściwości wykresu?
+### Co zrobić, jeśli chcę zmodyfikować inne właściwości wykresu?
 
-Możesz uzyskać dostęp do różnych właściwości wykresów i dostosować je do swoich wymagań. Zapoznaj się z dokumentacją Aspose.Slides, aby uzyskać wyczerpujące informacje na temat manipulacji wykresami.
+Możesz uzyskać dostęp do różnych właściwości wykresu i dostosować je do swoich wymagań. Zapoznaj się z dokumentacją Aspose.Slides, aby uzyskać kompleksowe informacje na temat manipulacji wykresem.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

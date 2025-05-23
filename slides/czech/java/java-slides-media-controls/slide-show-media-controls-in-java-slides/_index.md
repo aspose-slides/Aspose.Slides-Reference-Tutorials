@@ -1,38 +1,40 @@
 ---
-title: Slide Show Media Controls v Java Slides
-linktitle: Slide Show Media Controls v Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Přečtěte si, jak povolit a používat ovládací prvky médií v aplikaci Java Slides pomocí Aspose.Slides for Java. Vylepšete své prezentace pomocí ovládacích prvků médií.
-weight: 11
-url: /cs/java/media-controls/slide-show-media-controls-in-java-slides/
+"description": "Naučte se, jak povolit a používat ovládací prvky médií v Javě Slides s Aspose.Slides pro Javu. Vylepšete své prezentace pomocí ovládacích prvků médií."
+"linktitle": "Ovládací prvky médií pro prezentaci v Javě Slides"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Ovládací prvky médií pro prezentaci v Javě Slides"
+"url": "/cs/java/media-controls/slide-show-media-controls-in-java-slides/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Slide Show Media Controls v Java Slides
+# Ovládací prvky médií pro prezentaci v Javě Slides
 
 
-## Úvod do ovládání médií prezentace v aplikaci Java Slides
+## Úvod do ovládacích prvků médií pro prezentace v Javě Slides
 
-V oblasti dynamických a poutavých prezentací hrají multimediální prvky klíčovou roli při upoutání pozornosti publika. Java Slides, s pomocí Aspose.Slides for Java, umožňuje vývojářům vytvářet podmanivé prezentace, které hladce zahrnují ovládání médií. Ať už navrhujete školicí modul, prodejní prezentaci nebo vzdělávací prezentaci, schopnost ovládat média během prezentace změní hru.
+oblasti dynamických a poutavých prezentací hrají multimediální prvky klíčovou roli v upoutání pozornosti publika. Java Slides s pomocí Aspose.Slides for Java umožňuje vývojářům vytvářet poutavé prezentace, které bezproblémově zahrnují ovládací prvky médií. Ať už navrhujete školicí modul, prodejní prezentaci nebo vzdělávací prezentaci, možnost ovládat média během prezentace je zlomová.
 
 ## Předpoklady
 
 Než se ponoříte do kódu, ujistěte se, že máte splněny následující předpoklady:
 
-- Java Development Kit (JDK) nainstalovaný ve vašem systému.
--  Aspose.Slides pro knihovnu Java. Můžete si jej stáhnout z[tady](https://releases.aspose.com/slides/java/).
-- Integrované vývojové prostředí (IDE) dle vašeho výběru, jako je IntelliJ IDEA nebo Eclipse.
+- Na vašem systému nainstalovaná sada pro vývoj Java (JDK).
+- Knihovna Aspose.Slides pro Javu. Můžete si ji stáhnout z [zde](https://releases.aspose.com/slides/java/).
+- Integrované vývojové prostředí (IDE) dle vašeho výběru, například IntelliJ IDEA nebo Eclipse.
 
 ## Krok 1: Nastavení vývojového prostředí
 
-Než se ponoříme do kódu, ujistěte se, že jste správně nastavili vývojové prostředí. Následuj tyto kroky:
+Než se pustíme do kódu, ujistěte se, že jste správně nastavili vývojové prostředí. Postupujte takto:
 
-- Nainstalujte do systému JDK.
-- Stáhněte si Aspose.Slides for Java z poskytnutého odkazu.
-- Nastavte preferované IDE.
+- Nainstalujte JDK na váš systém.
+- Stáhněte si Aspose.Slides pro Javu z uvedeného odkazu.
+- Nastavte si preferované IDE.
 
 ## Krok 2: Vytvoření nové prezentace
 
@@ -46,26 +48,26 @@ Presentation pres = new Presentation();
 
 V tomto úryvku kódu vytvoříme nový objekt prezentace a určíme cestu, kam bude prezentace uložena.
 
-## Krok 3: Povolení ovládání médií
+## Krok 3: Povolení ovládacích prvků médií
 
-Chcete-li povolit zobrazení ovládání médií v režimu prezentace, použijte následující kód:
+Chcete-li povolit zobrazení ovládacích prvků médií v režimu prezentace, použijte následující kód:
 
 ```java
 pres.getSlideShowSettings().setShowMediaControls(true);
 ```
 
-Tento řádek kódu dává Java Slides pokyn k zobrazení ovládacích prvků médií během prezentace.
+Tento řádek kódu instruuje Java Slides, aby během prezentace zobrazoval ovládací prvky médií.
 
 ## Krok 4: Přidání médií do snímků
 
-Nyní do našich snímků přidáme média. Pomocí rozsáhlých funkcí Java Slides můžete do snímků přidávat audio nebo video soubory.
+Nyní si do našich snímků přidáme média. Pomocí rozsáhlých funkcí Java Slides můžete do snímků přidávat zvukové nebo video soubory.
 
-Přizpůsobte přehrávání médií
-Přehrávání médií můžete dále přizpůsobit, například nastavení času začátku a konce, hlasitosti a dalších, a vytvořit tak multimediální zážitek přizpůsobený vašemu publiku.
+Přizpůsobení přehrávání médií
+Přehrávání médií si můžete dále přizpůsobit, například nastavit čas zahájení a ukončení, hlasitost a další parametry, a vytvořit tak pro své publikum multimediální zážitek na míru.
 
 ## Krok 5: Uložení prezentace
 
-Jakmile přidáte média a přizpůsobíte jejich přehrávání, uložte prezentaci ve formátu PPTX pomocí následujícího kódu:
+Jakmile přidáte média a upravíte jejich přehrávání, uložte prezentaci ve formátu PPTX pomocí následujícího kódu:
 
 ```java
 pres.save(outFilePath, SaveFormat.Pptx);
@@ -73,14 +75,14 @@ pres.save(outFilePath, SaveFormat.Pptx);
 
 Tento kód uloží vaši prezentaci s povolenými ovládacími prvky médií.
 
-## Kompletní zdrojový kód pro ovládání médií prezentace v aplikaci Java Slides
+## Kompletní zdrojový kód pro ovládací prvky médií pro prezentaci v Javě Slides
 
 ```java
 // Cesta k dokumentu PPTX
 String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 try {
-	// ЕPovolit zobrazení ovládání médií v režimu prezentace.
+	// Povolit zobrazení ovládání médií v režimu prezentace.
 	pres.getSlideShowSettings().setShowMediaControls(true);
 	// Uložit prezentaci ve formátu PPTX.
 	pres.save(outFilePath, SaveFormat.Pptx);
@@ -91,32 +93,34 @@ try {
 
 ## Závěr
 
-V tomto tutoriálu jsme prozkoumali, jak povolit a používat ovládací prvky médií v aplikaci Java Slides pomocí Aspose.Slides for Java. Podle těchto kroků můžete vytvořit poutavé prezentace s interaktivními multimediálními prvky, které zaujmou vaše publikum.
+V tomto tutoriálu jsme prozkoumali, jak povolit a používat ovládací prvky médií v Java Slides pomocí Aspose.Slides pro Javu. Dodržováním těchto kroků můžete vytvářet poutavé prezentace s interaktivními multimediálními prvky, které zaujmou vaše publikum.
 
-## FAQ
+## Často kladené otázky
 
-### Jak mohu přidat více mediálních souborů na jeden snímek?
+### Jak mohu přidat více mediálních souborů do jednoho snímku?
 
- Chcete-li přidat více mediálních souborů na jeden snímek, můžete použít`addMediaFrame`metodu na snímku a určete mediální soubor pro každý snímek. Poté můžete upravit nastavení přehrávání pro každý snímek zvlášť.
+Chcete-li do jednoho snímku přidat více mediálních souborů, můžete použít `addMediaFrame` metodu na snímku a pro každý snímek zadejte mediální soubor. Nastavení přehrávání pak můžete pro každý snímek individuálně přizpůsobit.
 
 ### Mohu ovládat hlasitost zvuku v prezentaci?
 
- Ano, můžete ovládat hlasitost zvuku v prezentaci nastavením`Volume` vlastnost pro zvukový rámec. Úroveň hlasitosti můžete upravit na požadovanou úroveň.
+Ano, hlasitost zvuku v prezentaci můžete ovládat nastavením `Volume` vlastnost pro zvukový snímek. Hlasitost můžete upravit na požadovanou úroveň.
 
-### Je možné během prezentace nepřetržitě přehrávat video ve smyčce?
+### Je možné během prezentace přehrávat video nepřetržitě?
 
- Ano, můžete nastavit`Looping` vlastnost pro snímek videa`true` pro nepřetržité přehrávání videa během prezentace.
+Ano, můžete nastavit `Looping` vlastnost pro video snímek `true` aby se video během prezentace nepřetržitě přehrávalo.
 
 ### Jak mohu automaticky přehrát video, když se zobrazí snímek?
 
- Chcete-li, aby se video přehrávalo automaticky při zobrazení snímku, můžete nastavit`PlayMode` vlastnost pro snímek videa`Auto`.
+Chcete-li, aby se video přehrávalo automaticky při zobrazení snímku, můžete nastavit `PlayMode` vlastnost pro snímek videa `Auto`.
 
-### Existuje způsob, jak přidat titulky nebo titulky k videím v Java Slides?
+### Existuje způsob, jak přidat titulky k videím v Java Slides?
 
-Ano, k videím v Java Slides můžete přidat titulky nebo titulky přidáním textových rámečků nebo tvarů do snímku obsahujícího video. Text pak můžete synchronizovat s přehráváním videa pomocí nastavení časování.
+Ano, v Java Slides můžete k videím přidat titulky nebo popisky přidáním textových rámečků nebo tvarů do snímku obsahujícího video. Text pak můžete synchronizovat s přehráváním videa pomocí nastavení časování.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

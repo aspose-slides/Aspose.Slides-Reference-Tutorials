@@ -1,26 +1,28 @@
 ---
-title: Tetapkan Persentase Label Data Masuk di Slide Java
-linktitle: Tetapkan Persentase Label Data Masuk di Slide Java
-second_title: Aspose.Slides API Pemrosesan Java PowerPoint
-description: Pelajari cara mengatur label data dengan tanda persentase dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Buat bagan yang menarik dengan panduan langkah demi langkah dan kode sumber.
-weight: 17
-url: /id/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
+"description": "Pelajari cara mengatur label data dengan tanda persentase dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Buat bagan yang menarik dengan panduan langkah demi langkah dan kode sumber."
+"linktitle": "Mengatur Label Data Persentase Masuk di Java Slides"
+"second_title": "API Pemrosesan PowerPoint Java Aspose.Slides"
+"title": "Mengatur Label Data Persentase Masuk di Java Slides"
+"url": "/id/java/data-manipulation/set-data-labels-percentage-sign-java-slides/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tetapkan Persentase Label Data Masuk di Slide Java
+# Mengatur Label Data Persentase Masuk di Java Slides
 
 
-## Pengantar Menetapkan Masuk Persentase Label Data di Aspose.Slides untuk Java
+## Pengantar untuk Mengatur Label Data Persentase Masuk di Aspose.Slides untuk Java
 
 Dalam panduan ini, kami akan memandu Anda melalui proses pengaturan label data dengan tanda persentase menggunakan Aspose.Slides untuk Java. Kami akan membuat presentasi PowerPoint dengan bagan kolom bertumpuk dan mengonfigurasi label data untuk menampilkan persentase.
 
 ## Prasyarat
 
- Sebelum memulai, pastikan Anda telah menambahkan pustaka Aspose.Slides untuk Java ke proyek Anda. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/slides/java/).
+Sebelum memulai, pastikan Anda telah menambahkan pustaka Aspose.Slides for Java ke proyek Anda. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/slides/java/).
 
 ## Langkah 1: Buat Presentasi Baru
 
@@ -35,7 +37,7 @@ Presentation presentation = new Presentation();
 
 ## Langkah 2: Tambahkan Slide dan Bagan
 
-Selanjutnya, kita menambahkan slide dan bagan kolom bertumpuk ke presentasi.
+Berikutnya, kita menambahkan slide dan bagan kolom bertumpuk ke presentasi.
 
 ```java
 // Dapatkan referensi slide
@@ -45,22 +47,22 @@ ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
 ```
 
-## Langkah 3: Konfigurasikan Format Angka Sumbu
+## Langkah 3: Konfigurasikan Format Nomor Sumbu
 
 Untuk menampilkan persentase, kita perlu mengonfigurasi format angka untuk sumbu vertikal grafik.
 
 ```java
-// Setel NumberFormatLinkedToSource ke salah
+// Atur NumberFormatLinkedToSource menjadi false
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 ```
 
 ## Langkah 4: Tambahkan Data Bagan
 
-Kami menambahkan data ke grafik dengan membuat seri dan titik data. Dalam contoh ini, kami menambahkan dua rangkaian dengan titik datanya masing-masing.
+Kita menambahkan data ke diagram dengan membuat rangkaian dan titik data. Dalam contoh ini, kita menambahkan dua rangkaian dengan titik datanya masing-masing.
 
 ```java
-// Mendapatkan lembar kerja data bagan
+// Mendapatkan lembar kerja data grafik
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // Tambahkan seri baru
@@ -78,7 +80,7 @@ series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorkshe
 series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 4, 2, 0.35));
 ```
 
-## Langkah 5: Sesuaikan Label Data
+## Langkah 5: Kustomisasi Label Data
 
 Sekarang, mari sesuaikan tampilan label data.
 
@@ -102,16 +104,16 @@ series2.getLabels().getDefaultDataLabelFormat().getTextFormat().getPortionFormat
 
 ## Langkah 6: Simpan Presentasi
 
-Terakhir, kami menyimpan presentasi ke file PowerPoint.
+Terakhir, kami menyimpan presentasi ke berkas PowerPoint.
 
 ```java
 // Tulis presentasi ke disk
 presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.Pptx);
 ```
 
-Itu dia! Anda telah berhasil membuat presentasi PowerPoint dengan bagan kolom bertumpuk dan mengonfigurasi label data untuk menampilkan persentase menggunakan Aspose.Slides untuk Java.
+Selesai! Anda telah berhasil membuat presentasi PowerPoint dengan diagram kolom bertumpuk dan mengonfigurasi label data untuk menampilkan persentase menggunakan Aspose.Slides untuk Java.
 
-## Kode Sumber Lengkap Untuk Set Label Data Persentase Masuk di Slide Java
+## Source Code Lengkap Untuk Set Data Label Persentase Masuk di Java Slides
 
 ```java
 // Jalur ke direktori dokumen.
@@ -122,12 +124,12 @@ Presentation presentation = new Presentation();
 ISlide slide = presentation.getSlides().get_Item(0);
 // Tambahkan bagan PercentsStackedColumn pada slide
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
-// Setel NumberFormatLinkedToSource ke salah
+// Atur NumberFormatLinkedToSource menjadi false
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
 int defaultWorksheetIndex = 0;
-// Mendapatkan lembar kerja data bagan
+// Mendapatkan lembar kerja data grafik
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 // Tambahkan seri baru
 IChartSeries series = chart.getChartData().getSeries().add(workbook.getCell(defaultWorksheetIndex, 0, 1, "Reds"), chart.getType());
@@ -135,7 +137,7 @@ series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorkshee
 series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 2, 1, 0.50));
 series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 3, 1, 0.80));
 series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 4, 1, 0.65));
-// Mengatur warna isian rangkaian
+// Mengatur warna isian seri
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 // Mengatur properti LabelFormat
@@ -152,7 +154,7 @@ series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorkshe
 series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 2, 2, 0.50));
 series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 3, 2, 0.20));
 series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 4, 2, 0.35));
-// Mengatur jenis dan warna isian
+// Mengatur Jenis Isi dan Warna
 series2.getFormat().getFill().setFillType(FillType.Solid);
 series2.getFormat().getFill().getSolidFillColor().setColor(Color.BLUE);
 series2.getLabels().getDefaultDataLabelFormat().setShowValue(true);
@@ -167,25 +169,27 @@ presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.P
 
 ## Kesimpulan
 
-Dengan mengikuti panduan ini, Anda telah mempelajari cara membuat presentasi menarik dengan label data berbasis persentase, yang khususnya berguna untuk menyampaikan informasi secara efektif dalam laporan bisnis, materi pendidikan, dan banyak lagi.
+Dengan mengikuti panduan ini, Anda telah mempelajari cara membuat presentasi menarik dengan label data berbasis persentase, yang dapat sangat berguna untuk menyampaikan informasi secara efektif dalam laporan bisnis, materi pendidikan, dan banyak lagi.
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
-### Bagaimana cara mengubah warna rangkaian bagan?
+### Bagaimana cara mengubah warna rangkaian grafik?
 
- Anda dapat mengubah warna isian rangkaian bagan menggunakan`setFill` metode seperti yang ditunjukkan pada contoh.
+Anda dapat mengubah warna isian seri grafik menggunakan `setFill` metode seperti yang ditunjukkan dalam contoh.
 
 ### Bisakah saya menyesuaikan ukuran font label data?
 
-Ya, Anda dapat menyesuaikan ukuran font label data dengan mengatur`setFontHeight` properti seperti yang ditunjukkan dalam kode.
+Ya, Anda dapat menyesuaikan ukuran font label data dengan mengatur `setFontHeight` properti seperti yang ditunjukkan dalam kode.
 
-### Bagaimana cara menambahkan lebih banyak seri ke grafik?
+### Bagaimana cara menambahkan lebih banyak seri ke bagan?
 
- Anda dapat menambahkan rangkaian tambahan ke bagan dengan menggunakan`add` metode pada`IChartSeriesCollection` obyek.
+Anda dapat menambahkan seri tambahan ke bagan dengan menggunakan `add` metode pada `IChartSeriesCollection` obyek.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

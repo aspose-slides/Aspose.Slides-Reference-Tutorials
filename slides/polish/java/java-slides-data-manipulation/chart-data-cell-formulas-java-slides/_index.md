@@ -1,30 +1,32 @@
 ---
-title: Wykresy formuł komórek danych w slajdach Java
-linktitle: Wykresy formuł komórek danych w slajdach Java
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Dowiedz się, jak ustawić formuły komórek danych wykresu w prezentacjach Java PowerPoint przy użyciu Aspose.Slides dla Java. Twórz dynamiczne wykresy za pomocą formuł.
-weight: 11
-url: /pl/java/data-manipulation/chart-data-cell-formulas-java-slides/
+"description": "Dowiedz się, jak ustawić formuły komórek danych wykresu w prezentacjach PowerPoint w języku Java przy użyciu Aspose.Slides dla języka Java. Twórz dynamiczne wykresy za pomocą formuł."
+"linktitle": "Formuły komórek danych wykresu w slajdach Java"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Formuły komórek danych wykresu w slajdach Java"
+"url": "/pl/java/data-manipulation/chart-data-cell-formulas-java-slides/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wykresy formuł komórek danych w slajdach Java
+# Formuły komórek danych wykresu w slajdach Java
 
 
-## Wprowadzenie do formuł komórek danych wykresów w Aspose.Slides dla Java
+## Wprowadzenie do formuł komórek danych wykresu w Aspose.Slides dla Java
 
-W tym samouczku omówimy, jak pracować z formułami komórek danych wykresu za pomocą Aspose.Slides dla Java. Dzięki Aspose.Slides możesz tworzyć wykresy i manipulować nimi w prezentacjach programu PowerPoint, w tym ustawiać formuły dla komórek danych.
+W tym samouczku pokażemy, jak pracować z formułami komórek danych wykresu przy użyciu Aspose.Slides dla Java. Dzięki Aspose.Slides możesz tworzyć i manipulować wykresami w prezentacjach PowerPoint, w tym ustawiać formuły dla komórek danych.
 
-## Warunki wstępne
+## Wymagania wstępne
 
- Zanim zaczniesz, upewnij się, że masz zainstalowaną bibliotekę Aspose.Slides for Java. Można go pobrać z[Tutaj](https://releases.aspose.com/slides/java/).
+Zanim zaczniesz, upewnij się, że masz zainstalowaną bibliotekę Aspose.Slides for Java. Możesz ją pobrać ze strony [Tutaj](https://releases.aspose.com/slides/java/).
 
-## Krok 1: Utwórz prezentację programu PowerPoint
+## Krok 1: Utwórz prezentację PowerPoint
 
-Najpierw utwórzmy nową prezentację PowerPoint i dodajmy do niej wykres.
+Najpierw utwórzmy nową prezentację programu PowerPoint i dodajmy do niej wykres.
 
 ```java
 String outpptxFile = "Your Output Directory" + File.separator + "ChartDataCell_Formulas_out.pptx";
@@ -34,7 +36,7 @@ try
     // Dodaj wykres do pierwszego slajdu
     IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 150, 150, 500, 300);
     
-    // Pobierz skoroszyt zawierający dane wykresu
+    // Pobierz skoroszyt dla danych wykresu
     IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
     
     // Kontynuuj operacje na komórkach danych
@@ -60,26 +62,26 @@ IChartDataCell cell1 = workbook.getCell(0, "B2");
 cell1.setFormula("1 + SUM(F2:H5)");
 ```
 
-W powyższym kodzie ustawiamy formułę dla komórki B2 przy użyciu notacji A1. Formuła oblicza sumę komórek od F2 do H5 i dodaje 1 do wyniku.
+W powyższym kodzie ustawiamy formułę dla komórki B2, używając notacji A1. Formuła oblicza sumę komórek F2 do H5 i dodaje 1 do wyniku.
 
-### Komórka 2: Korzystanie z notacji R1C1
+### Komórka 2: Używanie notacji R1C1
 
 ```java
 IChartDataCell cell2 = workbook.getCell(0, "C2");
 cell2.setR1C1Formula("MAX(R2C6:R5C8) / 3");
 ```
 
-Tutaj ustawiamy formułę dla komórki C2 przy użyciu notacji R1C1. Formuła oblicza maksymalną wartość z zakresu R2C6 do R5C8, a następnie dzieli ją przez 3.
+Tutaj ustawiamy formułę dla komórki C2 przy użyciu notacji R1C1. Formuła oblicza maksymalną wartość w zakresie od R2C6 do R5C8, a następnie dzieli ją przez 3.
 
-## Krok 3: Oblicz formuły
+## Krok 3: Oblicz wzory
 
-Po ustaleniu formuł należy je koniecznie obliczyć za pomocą poniższego kodu:
+Po ustawieniu wzorów należy je obliczyć, korzystając z następującego kodu:
 
 ```java
 workbook.calculateFormulas();
 ```
 
-Ten krok zapewnia, że wykres odzwierciedla zaktualizowane wartości na podstawie formuł.
+Ten krok zapewnia, że wykres odzwierciedla zaktualizowane wartości na podstawie wzorów.
 
 ## Krok 4: Zapisz prezentację
 
@@ -89,7 +91,7 @@ Na koniec zapisz zmodyfikowaną prezentację do pliku.
 presentation.save(outpptxFile, SaveFormat.Pptx);
 ```
 
-## Kompletny kod źródłowy formuł komórek danych wykresów w slajdach Java
+## Kompletny kod źródłowy dla formuł komórek danych wykresu w slajdach Java
 
 ```java
 String outpptxFile = "Your Output Directory" + File.pathSeparator + "ChartDataCell_Formulas_out.pptx";
@@ -113,13 +115,13 @@ finally
 
 ## Wniosek
 
-W tym samouczku omówiliśmy, jak pracować z formułami komórek danych wykresu w Aspose.Slides dla Java. Omówiliśmy tworzenie prezentacji programu PowerPoint, dodawanie wykresu, ustawianie formuł dla komórek danych, obliczanie formuł i zapisywanie prezentacji. Możesz teraz wykorzystać te możliwości do tworzenia dynamicznych wykresów opartych na danych w swoich prezentacjach.
+W tym samouczku przyjrzeliśmy się sposobowi pracy z formułami komórek danych wykresu w Aspose.Slides dla Java. Omówiliśmy tworzenie prezentacji PowerPoint, dodawanie wykresu, ustawianie formuł dla komórek danych, obliczanie formuł i zapisywanie prezentacji. Teraz możesz wykorzystać te możliwości, aby tworzyć dynamiczne i zorientowane na dane wykresy w swoich prezentacjach.
 
 ## Często zadawane pytania
 
 ### Jak dodać wykres do konkretnego slajdu?
 
- Aby dodać wykres do konkretnego slajdu, możesz użyć opcji`getSlides().get_Item(slideIndex)` aby uzyskać dostęp do żądanego slajdu, a następnie użyj przycisku`addChart` metoda dodania wykresu.
+Aby dodać wykres do określonego slajdu, możesz użyć `getSlides().get_Item(slideIndex)` metodę dostępu do żądanego slajdu, a następnie użyj `addChart` metoda dodania wykresu.
 
 ### Czy mogę używać różnych typów formuł w komórkach danych?
 
@@ -127,10 +129,12 @@ Tak, w formułach komórek danych można używać różnych typów formuł, w ty
 
 ### Jak zmienić typ wykresu?
 
- Typ wykresu można zmienić za pomocą opcji`setChartType` metoda na`IChart` obiekt i określenie pożądanego`ChartType`.
+Możesz zmienić typ wykresu, używając `setChartType` metoda na `IChart` obiekt i określenie pożądanego `ChartType`.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

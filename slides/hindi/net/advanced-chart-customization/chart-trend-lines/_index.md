@@ -1,14 +1,16 @@
 ---
-title: .NET के लिए Aspose.Slides में चार्ट ट्रेंड लाइनों का अन्वेषण
-linktitle: चार्ट ट्रेंड लाइन्स
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: इस चरण-दर-चरण मार्गदर्शिका में Aspose.Slides for .NET का उपयोग करके चार्ट में विभिन्न ट्रेंड लाइन जोड़ना सीखें। आसानी से अपने डेटा विज़ुअलाइज़ेशन कौशल को बढ़ाएँ!
-weight: 12
-url: /hi/net/advanced-chart-customization/chart-trend-lines/
+"description": "इस चरण-दर-चरण मार्गदर्शिका में Aspose.Slides for .NET का उपयोग करके चार्ट में विभिन्न ट्रेंड लाइन जोड़ना सीखें। आसानी से अपने डेटा विज़ुअलाइज़ेशन कौशल को बढ़ाएँ!"
+"linktitle": "चार्ट ट्रेंड लाइन्स"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": ".NET के लिए Aspose.Slides में चार्ट ट्रेंड लाइनों का अन्वेषण"
+"url": "/hi/net/advanced-chart-customization/chart-trend-lines/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # .NET के लिए Aspose.Slides में चार्ट ट्रेंड लाइनों का अन्वेषण
@@ -20,13 +22,13 @@ url: /hi/net/advanced-chart-customization/chart-trend-lines/
 
 इससे पहले कि हम .NET के लिए Aspose.Slides के साथ काम करना शुरू करें, आपको यह सुनिश्चित करना होगा कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
-1. Aspose.Slides for .NET: लाइब्रेरी तक पहुँचने और उसका उपयोग करने के लिए, आपके पास Aspose.Slides for .NET इंस्टॉल होना चाहिए। आप लाइब्रेरी यहाँ से प्राप्त कर सकते हैं[डाउनलोड पृष्ठ](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides for .NET: लाइब्रेरी तक पहुँचने और उसका उपयोग करने के लिए, आपके पास Aspose.Slides for .NET इंस्टॉल होना चाहिए। आप लाइब्रेरी यहाँ से प्राप्त कर सकते हैं [डाउनलोड पृष्ठ](https://releases.aspose.com/slides/net/).
 
 2. विकास परिवेश: आपके पास एक विकास परिवेश स्थापित होना चाहिए, अधिमानतः Visual Studio जैसे .NET एकीकृत विकास परिवेश का उपयोग करते हुए।
 
 3. C# का मूलभूत ज्ञान: C# प्रोग्रामिंग की मूलभूत समझ लाभदायक है, क्योंकि हम .NET के लिए Aspose.Slides के साथ काम करने के लिए C# का उपयोग करेंगे।
 
-अब जबकि हमने पूर्वापेक्षाओं को समझ लिया है, तो आइए चार्ट में ट्रेंड लाइन जोड़ने की प्रक्रिया को चरण दर चरण समझें।
+अब जबकि हमने पूर्वापेक्षित शर्तों को समझ लिया है, तो आइए चार्ट में ट्रेंड लाइन जोड़ने की प्रक्रिया को चरण दर चरण समझें।
 
 ## नामस्थान आयात करना
 
@@ -138,22 +140,24 @@ Aspose.Slides for .NET एक बहुमुखी लाइब्रेरी 
 ### पूछे जाने वाले प्रश्न
 
 ### मैं Aspose.Slides for .NET के लिए दस्तावेज़ कहां पा सकता हूं?
- आप दस्तावेज़ तक पहुँच सकते हैं[यहाँ](https://reference.aspose.com/slides/net/).
+आप दस्तावेज़ तक पहुँच सकते हैं [यहाँ](https://reference.aspose.com/slides/net/).
 
 ### मैं .NET के लिए Aspose.Slides कैसे डाउनलोड कर सकता हूँ?
- आप डाउनलोड पृष्ठ से .NET के लिए Aspose.Slides डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/net/).
+आप .NET के लिए Aspose.Slides को डाउनलोड पृष्ठ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/net/).
 
 ### क्या .NET के लिए Aspose.Slides का निःशुल्क परीक्षण उपलब्ध है?
- हां, आप यहां जाकर .NET के लिए Aspose.Slides को निःशुल्क आज़मा सकते हैं[इस लिंक](https://releases.aspose.com/).
+हां, आप यहां जाकर .NET के लिए Aspose.Slides को निःशुल्क आज़मा सकते हैं [इस लिंक](https://releases.aspose.com/).
 
 ### मैं .NET के लिए Aspose.Slides कहां से खरीद सकता हूं?
- .NET के लिए Aspose.Slides खरीदने के लिए, खरीद पृष्ठ पर जाएँ[यहाँ](https://purchase.aspose.com/buy).
+.NET के लिए Aspose.Slides खरीदने के लिए, खरीद पृष्ठ पर जाएँ [यहाँ](https://purchase.aspose.com/buy).
 
 ### क्या मुझे Aspose.Slides for .NET के लिए अस्थायी लाइसेंस की आवश्यकता है?
- आप .NET के लिए Aspose.Slides के लिए अस्थायी लाइसेंस यहाँ से प्राप्त कर सकते हैं[इस लिंक](https://purchase.aspose.com/temporary-license/).
+आप .NET के लिए Aspose.Slides हेतु अस्थायी लाइसेंस यहाँ से प्राप्त कर सकते हैं [इस लिंक](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

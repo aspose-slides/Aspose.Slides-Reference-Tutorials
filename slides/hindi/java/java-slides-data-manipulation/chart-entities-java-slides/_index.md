@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में चार्ट इकाइयाँ
-linktitle: जावा स्लाइड्स में चार्ट इकाइयाँ
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides के साथ Java स्लाइड चार्ट बनाना और उन्हें कस्टमाइज़ करना सीखें। शक्तिशाली चार्ट इकाइयों के साथ अपनी प्रस्तुतियों को बेहतर बनाएँ।
-weight: 13
-url: /hi/java/data-manipulation/chart-entities-java-slides/
+"description": "Aspose.Slides के साथ Java स्लाइड चार्ट बनाना और उन्हें कस्टमाइज़ करना सीखें। शक्तिशाली चार्ट इकाइयों के साथ अपनी प्रस्तुतियों को बेहतर बनाएँ।"
+"linktitle": "जावा स्लाइड्स में चार्ट इकाइयाँ"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में चार्ट इकाइयाँ"
+"url": "/hi/java/data-manipulation/chart-entities-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में चार्ट इकाइयाँ
@@ -116,7 +118,7 @@ valtitle.setText("Primary Axis");
 श्रेणी अक्ष, जो आम तौर पर डेटा श्रेणियों का प्रतिनिधित्व करता है, को भी अनुकूलित किया जा सकता है:
 
 ```java
-// श्रेणी अक्ष के लिए प्रमुख ग्रिड लाइन प्रारूप सेट करना
+// श्रेणी अक्ष के लिए प्रमुख ग्रिड लाइनों का प्रारूप सेट करना
 chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.GREEN);
 chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().setWidth(5);
@@ -129,7 +131,7 @@ chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().setWidth
 
 ## चरण 8: लेजेंड जोड़ना
 
-लेजेंड आपके चार्ट में डेटा सीरीज़ को समझाने में मदद करते हैं। आइए लेजेंड को कस्टमाइज़ करें:
+लेजेंड आपके चार्ट में डेटा श्रृंखला को समझाने में मदद करते हैं। आइए लेजेंड को कस्टमाइज़ करें:
 
 ```java
 // लेजेंड टेक्स्ट गुण सेट करना
@@ -221,9 +223,9 @@ try
 	valtitle.getPortionFormat().setFontItalic(NullableBool.True);
 	// अक्ष रेखा प्रारूप मान सेट करना : अब अप्रचलित
 	// चार्ट.getAxes().getVerticalAxis().aVerticalAxis.l.AxisLine.setWidth(10);
-	// चार्ट.getAxes().getVerticalAxis().AxisLine.getFillFormat().setFillType(FillType.Solid);
-	// चार्ट.getAxes().getVerticalAxis().AxisLine.getFillFormat().getSolidFillColor().रंग = रंग.लाल;
-	// श्रेणी अक्ष के लिए प्रमुख ग्रिड लाइन प्रारूप सेट करना
+	// Chart.getAxes().getVerticalAxis().AxisLine.getFillFormat().setFillType(FillType.Solid);
+	// Chart.getAxes().getVerticalAxis().AxisLine.getFillFormat().getSolidFillColor().Color = Color.Red;
+	// श्रेणी अक्ष के लिए प्रमुख ग्रिड लाइनों का प्रारूप सेट करना
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.GREEN);
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().setWidth(5);
@@ -270,7 +272,7 @@ try
 	chart.getBackWall().getFormat().getFill().getSolidFillColor().setColor(Color.ORANGE);
 	chart.getFloor().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getFloor().getFormat().getFill().getSolidFillColor().getColor();
-	//प्लॉट क्षेत्र का रंग सेट करना
+	// प्लॉट क्षेत्र का रंग सेट करना
 	chart.getPlotArea().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getPlotArea().getFormat().getFill().getSolidFillColor().setColor(new Color(PresetColor.LightCyan));
 	// प्रस्तुति सहेजें
@@ -284,17 +286,17 @@ finally
 
 ## निष्कर्ष
 
-इस लेख में, हमने Aspose.Slides for Java का उपयोग करके Java Slides में चार्ट इकाइयों की दुनिया का पता लगाया है। आपने सीखा है कि अपनी प्रस्तुतियों को बेहतर बनाने के लिए चार्ट कैसे बनाएं, कस्टमाइज़ करें और उनमें हेरफेर करें। चार्ट न केवल आपके डेटा को आकर्षक बनाते हैं बल्कि आपके दर्शकों को जटिल जानकारी को अधिक आसानी से समझने में भी मदद करते हैं।
+इस लेख में, हमने Aspose.Slides for Java का उपयोग करके Java Slides में चार्ट इकाइयों की दुनिया का पता लगाया है। आपने सीखा है कि अपनी प्रस्तुतियों को बेहतर बनाने के लिए चार्ट कैसे बनाएं, कस्टमाइज़ करें और उनमें हेरफेर करें। चार्ट न केवल आपके डेटा को आकर्षक बनाते हैं, बल्कि आपके दर्शकों को जटिल जानकारी को अधिक आसानी से समझने में भी मदद करते हैं।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### मैं चार्ट का प्रकार कैसे बदलूं?
 
- चार्ट प्रकार बदलने के लिए, का उपयोग करें`chart.setType()` विधि का चयन करें और वांछित चार्ट प्रकार निर्दिष्ट करें।
+चार्ट प्रकार बदलने के लिए, का उपयोग करें `chart.setType()` विधि का चयन करें और वांछित चार्ट प्रकार निर्दिष्ट करें।
 
-### क्या मैं एक चार्ट में एकाधिक डेटा श्रृंखलाएं जोड़ सकता हूं?
+### क्या मैं एक चार्ट में एकाधिक डेटा श्रृंखला जोड़ सकता हूँ?
 
- हां, आप इसका उपयोग करके चार्ट में एकाधिक डेटा श्रृंखलाएं जोड़ सकते हैं`chart.getChartData().getSeries().addSeries()` तरीका।
+हां, आप इसका उपयोग करके चार्ट में एकाधिक डेटा श्रृंखलाएं जोड़ सकते हैं `chart.getChartData().getSeries().addSeries()` तरीका।
 
 ### मैं चार्ट के रंगों को कैसे अनुकूलित करूँ?
 
@@ -302,14 +304,16 @@ finally
 
 ### क्या मैं 3D चार्ट बना सकता हूँ?
 
- हां, Aspose.Slides for Java 3D चार्ट के निर्माण का समर्थन करता है। आप सेट कर सकते हैं`ChartType` एक 3D चार्ट प्रकार बनाने के लिए।
+हां, Aspose.Slides for Java 3D चार्ट के निर्माण का समर्थन करता है। आप सेट कर सकते हैं `ChartType` एक 3D चार्ट प्रकार बनाने के लिए।
 
 ### क्या Aspose.Slides for Java नवीनतम Java संस्करणों के साथ संगत है?
 
 हां, Aspose.Slides for Java को नवीनतम Java संस्करणों का समर्थन करने के लिए नियमित रूप से अपडेट किया जाता है और यह Java वातावरण की एक विस्तृत श्रृंखला में संगतता प्रदान करता है।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

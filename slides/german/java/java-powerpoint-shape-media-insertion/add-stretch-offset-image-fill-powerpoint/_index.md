@@ -1,23 +1,25 @@
 ---
-title: Streckungsversatz für Bildfüllung in PowerPoint hinzufügen
-linktitle: Streckungsversatz für Bildfüllung in PowerPoint hinzufügen
-second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie mit Aspose.Slides für Java einen Streckungsoffset für die Bildfüllung in PowerPoint-Präsentationen hinzufügen. Schritt-für-Schritt-Anleitung enthalten.
-weight: 16
-url: /de/java/java-powerpoint-shape-media-insertion/add-stretch-offset-image-fill-powerpoint/
+"description": "Erfahren Sie, wie Sie mit Aspose.Slides für Java einen Streckungsversatz für die Bildfüllung in PowerPoint-Präsentationen hinzufügen. Schritt-für-Schritt-Anleitung inklusive."
+"linktitle": "Dehnungsversatz für Bildfüllung in PowerPoint hinzufügen"
+"second_title": "Aspose.Slides Java PowerPoint-Verarbeitungs-API"
+"title": "Dehnungsversatz für Bildfüllung in PowerPoint hinzufügen"
+"url": "/de/java/java-powerpoint-shape-media-insertion/add-stretch-offset-image-fill-powerpoint/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Streckungsversatz für Bildfüllung in PowerPoint hinzufügen
+# Dehnungsversatz für Bildfüllung in PowerPoint hinzufügen
 
 ## Einführung
-In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Slides für Java einen Streckungsoffset für die Bildfüllung in PowerPoint-Präsentationen hinzufügen. Mit dieser Funktion können Sie Bilder in Ihren Folien bearbeiten und so deren Erscheinungsbild besser steuern.
+In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Slides für Java einen Streckungsversatz für die Bildfüllung in PowerPoint-Präsentationen hinzufügen. Mit dieser Funktion können Sie Bilder in Ihren Folien bearbeiten und so deren Erscheinungsbild besser steuern.
 ## Voraussetzungen
 Bevor Sie beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
-1. Auf Ihrem System ist Java Development Kit (JDK) installiert.
+1. Auf Ihrem System ist das Java Development Kit (JDK) installiert.
 2. Aspose.Slides für die Java-Bibliothek heruntergeladen und in Ihrem Java-Projekt eingerichtet.
 ## Pakete importieren
 Importieren Sie zunächst die erforderlichen Pakete in Ihr Java-Projekt:
@@ -30,7 +32,7 @@ import java.io.File;
 import java.io.IOException;
 ```
 ## Schritt 1: Richten Sie Ihr Dokumentverzeichnis ein
-Legen Sie das Verzeichnis fest, in dem sich Ihr PowerPoint-Dokument befindet:
+Definieren Sie das Verzeichnis, in dem sich Ihr PowerPoint-Dokument befindet:
 ```java
 String dataDir = "Your Document Directory";
 ```
@@ -47,7 +49,7 @@ BufferedImage img = ImageIO.read(new File(dataDir + "aspose-logo.jpg"));
 IPPImage imgx = pres.getImages().addImage(img);
 ```
 ## Schritt 4: Bilderrahmen hinzufügen
-Erstellen Sie einen Bilderrahmen mit den dem Bild entsprechenden Abmessungen:
+Erstellen Sie einen Bilderrahmen mit den Abmessungen, die dem Bild entsprechen:
 ```java
 sld.getShapes().addPictureFrame(ShapeType.Rectangle, 50, 150, imgx.getWidth(), imgx.getHeight(), imgx);
 ```
@@ -58,21 +60,23 @@ pres.save(dataDir + "AddStretchOffsetForImageFill_out.pptx", SaveFormat.Pptx);
 ```
 
 ## Abschluss
-Herzlichen Glückwunsch! Sie haben erfolgreich gelernt, wie Sie mit Aspose.Slides für Java einen Streckungsoffset für die Bildfüllung in PowerPoint hinzufügen. Diese Funktion eröffnet Ihnen eine Welt voller Möglichkeiten, Ihre Präsentationen mit benutzerdefinierten Bildern zu verbessern.
+Herzlichen Glückwunsch! Sie haben erfolgreich gelernt, wie Sie mit Aspose.Slides für Java einen Streckungsversatz für die Bildfüllung in PowerPoint hinzufügen. Diese Funktion eröffnet Ihnen unzählige Möglichkeiten, Ihre Präsentationen mit benutzerdefinierten Bildern zu verbessern.
 ## Häufig gestellte Fragen
 ### Kann ich mit dieser Methode Bilder zu bestimmten Folien einer Präsentation hinzufügen?
 Ja, Sie können beim Abrufen des Folienobjekts den Folienindex angeben, um auf eine bestimmte Folie abzuzielen.
-### Unterstützt Aspose.Slides für Java andere Bildformate außer JPEG?
+### Unterstützt Aspose.Slides für Java neben JPEG auch andere Bildformate?
 Ja, Aspose.Slides für Java unterstützt verschiedene Bildformate, darunter unter anderem PNG, GIF und BMP.
 ### Gibt es eine Größenbeschränkung für die Bilder, die ich mit dieser Methode hinzufügen kann?
 Aspose.Slides für Java kann Bilder verschiedener Größen verarbeiten, es wird jedoch empfohlen, Bilder für eine bessere Leistung in Präsentationen zu optimieren.
 ### Kann ich nach dem Hinzufügen zu den Folien zusätzliche Effekte oder Transformationen auf die Bilder anwenden?
 Ja, Sie können mit der umfangreichen API von Aspose.Slides für Java eine Vielzahl von Effekten und Transformationen auf Bilder anwenden.
 ### Wo finde ich weitere Ressourcen und Support für Aspose.Slides für Java?
- Besuchen Sie die[Aspose.Slides für Java-Dokumentation](https://reference.aspose.com/slides/java/) für detaillierte Anleitungen und erkunden Sie die[Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11) für die Unterstützung der Community.
+Besuchen Sie die [Aspose.Slides für Java-Dokumentation](https://reference.aspose.com/slides/java/) für detaillierte Anleitungen und erkunden Sie die [Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11) für die Unterstützung der Gemeinschaft.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

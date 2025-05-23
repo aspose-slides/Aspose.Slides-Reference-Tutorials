@@ -1,99 +1,103 @@
 ---
-title: Dar formato al texto dentro de la fila de la tabla en PowerPoint con Java
-linktitle: Dar formato al texto dentro de la fila de la tabla en PowerPoint con Java
-second_title: Aspose.Slides API de procesamiento de PowerPoint Java
-description: Aprenda a dar formato al texto dentro de las filas de una tabla en PowerPoint usando Aspose.Slides para Java. Mejore sus presentaciones con nuestra guía paso a paso.
-weight: 12
-url: /es/java/java-powerpoint-table-formatting-updates/format-text-inside-table-row-powerpoint-java/
+"description": "Aprenda a dar formato al texto dentro de las filas de una tabla en PowerPoint con Aspose.Slides para Java. Mejore sus presentaciones con nuestra guía paso a paso."
+"linktitle": "Dar formato al texto dentro de una fila de tabla en PowerPoint con Java"
+"second_title": "API de procesamiento de PowerPoint en Java de Aspose.Slides"
+"title": "Dar formato al texto dentro de una fila de tabla en PowerPoint con Java"
+"url": "/es/java/java-powerpoint-table-formatting-updates/format-text-inside-table-row-powerpoint-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dar formato al texto dentro de la fila de la tabla en PowerPoint con Java
+# Dar formato al texto dentro de una fila de tabla en PowerPoint con Java
 
 ## Introducción
-Cuando se trabaja con presentaciones, crear diapositivas visualmente atractivas es esencial para mantener a la audiencia interesada. Dar formato al texto dentro de las filas de la tabla puede mejorar significativamente la legibilidad y la estética de sus diapositivas. En este tutorial, exploraremos cómo dar formato al texto dentro de una fila de una tabla en PowerPoint usando Aspose.Slides para Java.
-## Requisitos previos
-Antes de sumergirnos en la parte de codificación, asegurémonos de tener todo lo que necesita para comenzar:
--  Kit de desarrollo de Java (JDK): asegúrese de tener JDK instalado en su sistema. Puedes descargarlo desde el[sitio web de oráculo](https://www.oracle.com/java/technologies/javase-downloads.html).
--  Aspose.Slides para Java: descargue e instale la biblioteca Aspose.Slides para Java desde[sitio web](https://releases.aspose.com/slides/java/).
+Al trabajar con presentaciones, crear diapositivas visualmente atractivas es fundamental para mantener la atención del público. Formatear el texto dentro de las filas de una tabla puede mejorar significativamente la legibilidad y la estética de las diapositivas. En este tutorial, exploraremos cómo formatear el texto dentro de una fila de una tabla en PowerPoint con Aspose.Slides para Java.
+## Prerrequisitos
+Antes de sumergirnos en la parte de codificación, asegurémonos de que tienes todo lo que necesitas para comenzar:
+- Kit de desarrollo de Java (JDK): Asegúrese de tener el JDK instalado en su sistema. Puede descargarlo desde [Sitio web de Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Aspose.Slides para Java: Descargue e instale la biblioteca Aspose.Slides para Java desde [sitio web](https://releases.aspose.com/slides/java/).
 - Entorno de desarrollo integrado (IDE): utilice un IDE como IntelliJ IDEA, Eclipse o NetBeans para escribir y ejecutar su código Java.
 
 ## Importar paquetes
-Antes de comenzar a codificar, necesitamos importar los paquetes necesarios. Así es como puedes hacerlo:
+Antes de empezar a programar, necesitamos importar los paquetes necesarios. Así es como se hace:
 ```java
 import com.aspose.slides.*;
 ```
-Dividamos el proceso en varios pasos para una mejor comprensión.
-## Paso 1: Cargue la presentación
-Primero, necesitas cargar tu presentación de PowerPoint. Asegúrese de tener un archivo de presentación con una tabla ya agregada.
+Dividiremos el proceso en varios pasos para comprenderlo mejor.
+## Paso 1: Cargar la presentación
+Primero, debes cargar tu presentación de PowerPoint. Asegúrate de tener un archivo de presentación con una tabla ya agregada.
 ```java
 // La ruta al directorio de documentos.
 String dataDir = "Your Document Directory";
 // Crear una instancia de la clase Presentación
 Presentation presentation = new Presentation(dataDir + "SomePresentationWithTable.pptx");
 ```
-## Paso 2: acceda a la primera diapositiva
-Ahora, accedamos a la primera diapositiva de la presentación. Aquí es donde encontraremos nuestra mesa.
+## Paso 2: Acceda a la primera diapositiva
+Ahora, accedamos a la primera diapositiva de la presentación. Aquí encontraremos nuestra tabla.
 ```java
 ISlide slide = presentation.getSlides().get_Item(0);
 ```
-## Paso 3: ubica la mesa
-A continuación, debemos ubicar la tabla dentro de la diapositiva. Para simplificar, supongamos que la tabla es la primera forma de la diapositiva.
+## Paso 3: Ubica la mesa
+continuación, debemos ubicar la tabla dentro de la diapositiva. Para simplificar, supongamos que la tabla es la primera figura de la diapositiva.
 ```java
 ITable someTable = (ITable) slide.getShapes().get_Item(0);
 ```
-## Paso 4: establecer la altura de la fuente para las celdas de la primera fila
- Para establecer la altura de fuente para las celdas de la primera fila, cree una instancia de`PortionFormat` y establezca la altura de fuente deseada.
+## Paso 4: Establecer la altura de fuente para las celdas de la primera fila
+Para establecer la altura de fuente para las celdas de la primera fila, cree una instancia de `PortionFormat` y configure la altura de fuente deseada.
 ```java
 PortionFormat portionFormat = new PortionFormat();
 portionFormat.setFontHeight(25f);
 someTable.getRows().get_Item(0).setTextFormat(portionFormat);
 ```
-## Paso 5: establecer la alineación y el margen del texto
- Para establecer la alineación del texto y el margen derecho de las celdas de la primera fila, cree una instancia de`ParagraphFormat` y configurar la alineación y el margen.
+## Paso 5: Establecer la alineación y el margen del texto
+Para establecer la alineación del texto y el margen derecho de las celdas de la primera fila, cree una instancia de `ParagraphFormat` y configurar la alineación y el margen.
 ```java
 ParagraphFormat paragraphFormat = new ParagraphFormat();
 paragraphFormat.setAlignment(TextAlignment.Right);
 paragraphFormat.setMarginRight(20);
 someTable.getRows().get_Item(0).setTextFormat(paragraphFormat);
 ```
-## Paso 6: establecer la alineación vertical del texto para las celdas de la segunda fila
- Para establecer la alineación vertical del texto para las celdas de la segunda fila, cree una instancia de`TextFrameFormat` y establezca el tipo de texto vertical.
+## Paso 6: Establecer la alineación vertical del texto para las celdas de la segunda fila
+Para establecer la alineación vertical del texto para las celdas en la segunda fila, cree una instancia de `TextFrameFormat` y establecer el tipo de texto vertical.
 ```java
 TextFrameFormat textFrameFormat = new TextFrameFormat();
 textFrameFormat.setTextVerticalType(TextVerticalType.Vertical);
 someTable.getColumns().get_Item(0).setTextFormat(textFrameFormat);
 ```
-## Paso 7: guarde la presentación
-Finalmente, guarde la presentación modificada en un archivo nuevo.
+## Paso 7: Guardar la presentación
+Por último, guarde la presentación modificada en un nuevo archivo.
 ```java
 presentation.save(dataDir + "result.pptx", SaveFormat.Pptx);
 ```
-## Paso 8: Limpiar recursos
-Deseche siempre el objeto de presentación para liberar recursos.
+## Paso 8: Limpiar los recursos
+Descarte siempre el objeto de presentación para liberar recursos.
 ```java
 if (presentation != null) presentation.dispose();
 ```
 
 ## Conclusión
-Dar formato al texto dentro de las filas de la tabla en PowerPoint usando Aspose.Slides para Java es un proceso sencillo. Si sigue estos pasos, podrá mejorar fácilmente la apariencia de sus presentaciones. Ya sea que esté ajustando tamaños de fuente, alineando texto o configurando tipos de texto vertical, Aspose.Slides proporciona una API poderosa para ayudarlo a crear diapositivas de aspecto profesional.
+Formatear el texto dentro de las filas de una tabla en PowerPoint con Aspose.Slides para Java es un proceso sencillo. Siguiendo estos pasos, podrá mejorar fácilmente la apariencia de sus presentaciones. Ya sea que ajuste el tamaño de fuente, alinee el texto o configure los tipos de texto verticales, Aspose.Slides ofrece una potente API para ayudarle a crear diapositivas con un aspecto profesional.
 ## Preguntas frecuentes
-### ¿Puedo utilizar Aspose.Slides para Java con otros lenguajes de programación?
-Aspose.Slides está disponible para varias plataformas, incluidas .NET y C++. Sin embargo, para Java, debe utilizar la biblioteca Aspose.Slides para Java.
+### ¿Puedo usar Aspose.Slides para Java con otros lenguajes de programación?
+Aspose.Slides está disponible para varias plataformas, incluyendo .NET y C++. Sin embargo, para Java, es necesario usar la biblioteca Aspose.Slides para Java.
 ### ¿Hay una prueba gratuita disponible para Aspose.Slides para Java?
- Sí, puedes descargar una prueba gratuita desde[sitio web](https://releases.aspose.com/).
-### ¿Cómo obtengo soporte si tengo problemas?
- Puede obtener apoyo de la comunidad Aspose visitando su[Foro de soporte](https://forum.aspose.com/c/slides/11).
+Sí, puedes descargar una versión de prueba gratuita desde [sitio web](https://releases.aspose.com/).
+### ¿Cómo puedo obtener ayuda si encuentro problemas?
+Puede obtener ayuda de la comunidad Aspose visitando su [foro de soporte](https://forum.aspose.com/c/slides/11).
 ### ¿Puedo comprar una licencia de Aspose.Slides para Java?
- Sí, puede comprar una licencia en el[pagina de compra](https://purchase.aspose.com/buy).
-### ¿Qué formatos de archivo admite Aspose.Slides para Java?
+Sí, puedes comprar una licencia desde el [página de compra](https://purchase.aspose.com/buy).
+### ¿Qué formatos de archivos admite Aspose.Slides para Java?
 Aspose.Slides para Java admite una variedad de formatos, incluidos PPT, PPTX, ODP y más.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

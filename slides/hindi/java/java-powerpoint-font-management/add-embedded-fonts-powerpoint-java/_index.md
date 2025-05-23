@@ -1,14 +1,16 @@
 ---
-title: जावा का उपयोग करके PowerPoint में एम्बेडेड फ़ॉन्ट जोड़ें
-linktitle: जावा का उपयोग करके PowerPoint में एम्बेडेड फ़ॉन्ट जोड़ें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java के साथ Java का उपयोग करके PowerPoint प्रस्तुतियों में एम्बेडेड फ़ॉन्ट जोड़ना सीखें। सभी डिवाइस पर एक समान प्रदर्शन सुनिश्चित करें।
-weight: 10
-url: /hi/java/java-powerpoint-font-management/add-embedded-fonts-powerpoint-java/
+"description": "Aspose.Slides for Java के साथ Java का उपयोग करके PowerPoint प्रस्तुतियों में एम्बेडेड फ़ॉन्ट जोड़ना सीखें। सभी डिवाइस पर एक समान प्रदर्शन सुनिश्चित करें।"
+"linktitle": "जावा का उपयोग करके PowerPoint में एम्बेडेड फ़ॉन्ट जोड़ें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा का उपयोग करके PowerPoint में एम्बेडेड फ़ॉन्ट जोड़ें"
+"url": "/hi/java/java-powerpoint-font-management/add-embedded-fonts-powerpoint-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा का उपयोग करके PowerPoint में एम्बेडेड फ़ॉन्ट जोड़ें
@@ -18,7 +20,7 @@ url: /hi/java/java-powerpoint-font-management/add-embedded-fonts-powerpoint-java
 ## आवश्यक शर्तें
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 1. जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपके सिस्टम पर जावा स्थापित है।
-2.  Aspose.Slides for Java लाइब्रेरी: Aspose.Slides for Java लाइब्रेरी डाउनलोड करें और इंस्टॉल करें। आप इसे यहाँ से प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides for Java लाइब्रेरी: Aspose.Slides for Java लाइब्रेरी डाउनलोड करें और इंस्टॉल करें। आप इसे यहाँ से प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 
 ## पैकेज आयात करें
 अपने जावा प्रोजेक्ट में आवश्यक पैकेज आयात करें:
@@ -75,9 +77,11 @@ presentation.save(dataDir + "AddEmbeddedFont_out.pptx", SaveFormat.Pptx);
 Aspose.Slides for Java ट्रूटाइप फ़ॉन्ट्स को एम्बेड करने का समर्थन करता है, जो प्रस्तुतियों में आमतौर पर उपयोग किए जाने वाले फ़ॉन्ट्स की एक विस्तृत श्रृंखला को कवर करता है।
 ### क्या मैं Aspose.Slides for Java का उपयोग करके प्रोग्रामेटिक रूप से फ़ॉन्ट एम्बेड कर सकता हूँ?
 हां, जैसा कि इस ट्यूटोरियल में दिखाया गया है, आप Aspose.Slides for Java API का उपयोग करके प्रोग्रामेटिक रूप से फ़ॉन्ट एम्बेड कर सकते हैं।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

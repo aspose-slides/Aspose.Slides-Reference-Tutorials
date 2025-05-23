@@ -1,29 +1,31 @@
 ---
-title: Identyfikuj scalone komórki w tabeli programu PowerPoint przy użyciu języka Java
-linktitle: Identyfikuj scalone komórki w tabeli programu PowerPoint przy użyciu języka Java
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Dowiedz się, jak programowo identyfikować scalone komórki w tabelach programu PowerPoint przy użyciu Aspose.Slides dla Java. Idealny dla programistów Java.
-weight: 15
-url: /pl/java/java-powerpoint-table-manipulation/identify-merged-cells-powerpoint-table-java/
+"description": "Dowiedz się, jak programowo identyfikować scalone komórki w tabelach programu PowerPoint, używając Aspose.Slides dla języka Java. Idealne dla programistów języka Java."
+"linktitle": "Identyfikuj połączone komórki w tabeli programu PowerPoint za pomocą języka Java"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Identyfikuj połączone komórki w tabeli programu PowerPoint za pomocą języka Java"
+"url": "/pl/java/java-powerpoint-table-manipulation/identify-merged-cells-powerpoint-table-java/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Identyfikuj scalone komórki w tabeli programu PowerPoint przy użyciu języka Java
+# Identyfikuj połączone komórki w tabeli programu PowerPoint za pomocą języka Java
 
 ## Wstęp
-środowisku programowania w języku Java programowe manipulowanie prezentacjami programu PowerPoint może być kluczowym zadaniem, szczególnie w przypadku złożonych tabel danych. Aspose.Slides dla Java zapewnia potężny zestaw narzędzi, który umożliwia programistom płynne zarządzanie różnymi aspektami prezentacji PowerPoint. Jednym z częstych wyzwań stojących przed programistami jest identyfikacja scalonych komórek w tabelach osadzonych w prezentacjach. Ten samouczek ma na celu poprowadzić Cię przez proces identyfikowania scalonych komórek przy użyciu Aspose.Slides dla Java.
-## Warunki wstępne
-Przed przystąpieniem do samouczka upewnij się, że spełniasz następujące wymagania wstępne:
-- Podstawowa znajomość programowania w języku Java.
-- JDK zainstalowany w twoim systemie.
--  Aspose.Slides dla biblioteki Java. Jeśli nie jest zainstalowany, możesz go pobrać z[Tutaj](https://releases.aspose.com/slides/java/).
+W dziedzinie rozwoju Javy programowe manipulowanie prezentacjami PowerPoint może być kluczowym zadaniem, zwłaszcza w przypadku złożonych tabel danych. Aspose.Slides for Java zapewnia potężny zestaw narzędzi, który umożliwia programistom bezproblemowe zarządzanie różnymi aspektami prezentacji PowerPoint. Jednym z powszechnych wyzwań, z jakimi mierzą się programiści, jest identyfikacja scalonych komórek w tabelach osadzonych w prezentacjach. Ten samouczek ma na celu przeprowadzenie Cię przez proces identyfikacji scalonych komórek za pomocą Aspose.Slides for Java.
+## Wymagania wstępne
+Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+- Podstawowa znajomość programowania w Javie.
+- JDK zainstalowany w Twoim systemie.
+- Biblioteka Aspose.Slides dla Java. Jeśli nie jest zainstalowana, możesz ją pobrać z [Tutaj](https://releases.aspose.com/slides/java/).
 - Zintegrowane środowisko programistyczne (IDE), takie jak IntelliJ IDEA lub Eclipse.
 
 ## Importuj pakiety
-Na początek pamiętaj o dołączeniu niezbędnego pakietu Aspose.Slides for Java do pliku Java:
+Na początek upewnij się, że w pliku Java znajduje się niezbędny pakiet Aspose.Slides for Java:
 ```java
 import com.aspose.slides.ICell;
 import com.aspose.slides.ITable;
@@ -41,8 +43,8 @@ Zakładając, że tabela znajduje się na pierwszym slajdzie (`Slide#0`) i jest 
 ISlide slide = pres.getSlides().get_Item(0);
 ITable table = (ITable) slide.getShapes().get_Item(0);
 ```
-## Krok 3: Zidentyfikuj połączone komórki
-Wykonaj iterację po każdej komórce tabeli, aby sprawdzić, czy należy ona do scalonej komórki.
+## Krok 3: Identyfikacja połączonych komórek
+Przejrzyj każdą komórkę w tabeli, aby sprawdzić, czy należy ona do scalonej komórki.
 ```java
 try {
     for (int i = 0; i < table.getRows().size(); i++) {
@@ -60,22 +62,24 @@ try {
 ```
 
 ## Wniosek
-Identyfikowanie scalonych komórek w tabelach programu PowerPoint przy użyciu Aspose.Slides dla języka Java jest proste, jeśli zrozumiesz, jak programowo poruszać się po strukturze tabeli. Ta funkcja jest niezbędna w przypadku zadań obejmujących wyodrębnianie, formatowanie lub modyfikację danych w prezentacjach.
+Identyfikowanie scalonych komórek w tabelach programu PowerPoint za pomocą Aspose.Slides for Java jest proste, gdy zrozumiesz, jak programowo poruszać się po strukturze tabeli. Ta możliwość jest niezbędna do zadań obejmujących ekstrakcję danych, formatowanie lub modyfikację w prezentacjach.
 
-## Często zadawane pytania
-### Co to jest Aspose.Slides dla Java?
-Aspose.Slides for Java to potężna biblioteka do programowego manipulowania prezentacjami programu PowerPoint przy użyciu języka Java.
+## Najczęściej zadawane pytania
+### Czym jest Aspose.Slides dla Java?
+Aspose.Slides for Java to potężna biblioteka umożliwiająca programowe modyfikowanie prezentacji PowerPoint przy użyciu języka Java.
 ### Jak pobrać Aspose.Slides dla Java?
- Możesz pobrać Aspose.Slides dla Java z[Tutaj](https://releases.aspose.com/slides/java/).
+Możesz pobrać Aspose.Slides dla Java ze strony [Tutaj](https://releases.aspose.com/slides/java/).
 ### Czy mogę wypróbować Aspose.Slides dla Java przed zakupem?
- Tak, możesz uzyskać bezpłatną wersję próbną od[Tutaj](https://releases.aspose.com/).
+Tak, możesz uzyskać bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/).
 ### Gdzie mogę znaleźć dokumentację Aspose.Slides dla Java?
- Dokumentację można znaleźć[Tutaj](https://reference.aspose.com/slides/java/).
-### Jak mogę uzyskać pomoc dotyczącą Aspose.Slides dla Java?
-Aby uzyskać pomoc, odwiedź forum Aspose.Slides[Tutaj](https://forum.aspose.com/c/slides/11).
+Dokumentację można znaleźć [Tutaj](https://reference.aspose.com/slides/java/).
+### Gdzie mogę uzyskać pomoc techniczną dotyczącą Aspose.Slides dla Java?
+Aby uzyskać pomoc, odwiedź forum Aspose.Slides [Tutaj](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

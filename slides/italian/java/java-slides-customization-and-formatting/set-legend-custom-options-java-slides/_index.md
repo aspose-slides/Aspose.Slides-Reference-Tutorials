@@ -1,57 +1,59 @@
 ---
-title: Imposta le opzioni personalizzate della legenda nelle diapositive Java
-linktitle: Imposta le opzioni personalizzate della legenda nelle diapositive Java
-second_title: Aspose.Slides API di elaborazione Java PowerPoint
-description: Scopri come impostare le opzioni della legenda personalizzata in Diapositive Java utilizzando Aspose.Slides per Java. Personalizza la posizione e le dimensioni della legenda nei grafici PowerPoint.
-weight: 14
-url: /it/java/customization-and-formatting/set-legend-custom-options-java-slides/
+"description": "Scopri come impostare opzioni di legenda personalizzate in Java Slides utilizzando Aspose.Slides per Java. Personalizza posizione e dimensioni della legenda nei grafici di PowerPoint."
+"linktitle": "Imposta le opzioni personalizzate della legenda nelle diapositive Java"
+"second_title": "API di elaborazione Java PowerPoint di Aspose.Slides"
+"title": "Imposta le opzioni personalizzate della legenda nelle diapositive Java"
+"url": "/it/java/customization-and-formatting/set-legend-custom-options-java-slides/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Imposta le opzioni personalizzate della legenda nelle diapositive Java
 
 
-## Introduzione all'impostazione delle opzioni personalizzate della legenda nelle diapositive Java
+## Introduzione alle opzioni personalizzate di impostazione della legenda in Java Slides
 
-In questo tutorial, dimostreremo come personalizzare le proprietà della legenda di un grafico in una presentazione di PowerPoint utilizzando Aspose.Slides per Java. Puoi modificare la posizione, le dimensioni e altri attributi della legenda per adattarli alle tue esigenze di presentazione.
+In questo tutorial, mostreremo come personalizzare le proprietà della legenda di un grafico in una presentazione di PowerPoint utilizzando Aspose.Slides per Java. È possibile modificare la posizione, le dimensioni e altri attributi della legenda in base alle esigenze della presentazione.
 
 ## Prerequisiti
 
 Prima di iniziare, assicurati di avere quanto segue:
 
-- Aspose.Slides per API Java installata.
+- Installata l'API Aspose.Slides per Java.
 - Configurazione dell'ambiente di sviluppo Java.
 
-## Passaggio 1: importa le classi necessarie:
+## Passaggio 1: importare le classi necessarie:
 
 ```java
 // Importa Aspose.Slides per le classi Java
 import com.aspose.slides.*;
 ```
 
-## Passaggio 2: specificare il percorso della directory dei documenti:
+## Passaggio 2: specificare il percorso della directory del documento:
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-##  Passaggio 3: crea un'istanza di`Presentation` class:
+## Passaggio 3: creare un'istanza di `Presentation` classe:
 
 ```java
 Presentation presentation = new Presentation();
 ```
 
-## Passaggio 4: aggiungi una diapositiva alla presentazione:
+## Passaggio 4: aggiungere una diapositiva alla presentazione:
 
 ```java
 try {
     ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
-## Passaggio 5: aggiungi un istogramma a colonne raggruppate alla diapositiva:
+## Passaggio 5: aggiungere un grafico a colonne raggruppate alla diapositiva:
 
 ```java
     IChart chart = slide.getShapes().addChart(ChartType.ClusteredColumn, 50, 50, 500, 500);
@@ -59,31 +61,31 @@ try {
 
 ## Passaggio 6. Imposta le proprietà della legenda:
 
-- Imposta la posizione X della legenda (rispetto alla larghezza del grafico):
+- Imposta la posizione X della legenda (relativa alla larghezza del grafico):
 
 ```java
 chart.getLegend().setX(50 / chart.getWidth());
 ```
 
-- Imposta la posizione Y della legenda (rispetto all'altezza del grafico):
+- Imposta la posizione Y della legenda (relativa all'altezza del grafico):
 
 ```java
 chart.getLegend().setY(50 / chart.getHeight());
 ```
 
-- Imposta la larghezza della legenda (rispetto alla larghezza del grafico):
+- Imposta la larghezza della legenda (relativamente alla larghezza del grafico):
 
 ```java
 chart.getLegend().setWidth(100 / chart.getWidth());
 ```
 
-- Imposta l'altezza della legenda (rispetto all'altezza del grafico):
+- Imposta l'altezza della legenda (relativamente all'altezza del grafico):
 
 ```java
 chart.getLegend().setHeight(100 / chart.getHeight());
 ```
 
-## Passaggio 7: salva la presentazione su disco:
+## Passaggio 7: Salvare la presentazione sul disco:
 
 ```java
     presentation.save(dataDir + "Legend_out.pptx", SaveFormat.Pptx);
@@ -92,22 +94,22 @@ chart.getLegend().setHeight(100 / chart.getHeight());
 }
 ```
 
-Questo è tutto! Hai personalizzato con successo le proprietà della legenda di un grafico in una presentazione di PowerPoint utilizzando Aspose.Slides per Java.
+Ecco fatto! Hai personalizzato con successo le proprietà della legenda di un grafico in una presentazione di PowerPoint utilizzando Aspose.Slides per Java.
 
-## Codice sorgente completo per le opzioni personalizzate della legenda impostata nelle diapositive Java
+## Codice sorgente completo per impostare le opzioni personalizzate della legenda in Java Slides
 
 ```java
-// Il percorso della directory dei documenti.
+// Percorso verso la directory dei documenti.
 String dataDir = "Your Document Directory";
-// Crea un'istanza della classe Presentation
+// Crea un'istanza della classe Presentazione
 Presentation presentation = new Presentation();
 try
 {
 	// Ottieni il riferimento della diapositiva
 	ISlide slide = presentation.getSlides().get_Item(0);
-	// Aggiungi un istogramma in cluster alla diapositiva
+	// Aggiungere un grafico a colonne raggruppate alla diapositiva
 	IChart chart = slide.getShapes().addChart(ChartType.ClusteredColumn, 50, 50, 500, 500);
-	// Imposta le proprietà della legenda
+	// Imposta proprietà legenda
 	chart.getLegend().setX(50 / chart.getWidth());
 	chart.getLegend().setY(50 / chart.getHeight());
 	chart.getLegend().setWidth(100 / chart.getWidth());
@@ -122,24 +124,26 @@ finally
 ```
 ## Conclusione
 
-In questo tutorial, abbiamo imparato come personalizzare le proprietà della legenda di un grafico in una presentazione di PowerPoint utilizzando Aspose.Slides per Java. Puoi modificare la posizione, le dimensioni e altri attributi della legenda per creare presentazioni visivamente accattivanti e informative.
+In questo tutorial, abbiamo imparato a personalizzare le proprietà della legenda di un grafico in una presentazione di PowerPoint utilizzando Aspose.Slides per Java. È possibile modificare la posizione, le dimensioni e altri attributi della legenda per creare presentazioni visivamente accattivanti e informative.
 
 ## Domande frequenti
 
-## Come posso cambiare la posizione della legenda?
+## Come posso modificare la posizione della legenda?
 
- Per modificare la posizione della legenda, utilizzare il file`setX` E`setY` metodi dell'oggetto legenda. I valori vengono specificati in relazione alla larghezza e all'altezza del grafico.
+Per modificare la posizione della legenda, utilizzare `setX` E `setY` metodi dell'oggetto legenda. I valori sono specificati in relazione alla larghezza e all'altezza del grafico.
 
-## Come posso regolare la dimensione della legenda?
+## Come posso regolare le dimensioni della legenda?
 
- Puoi regolare la dimensione della legenda utilizzando il comando`setWidth` E`setHeight` metodi dell'oggetto legenda. Questi valori sono anche relativi alla larghezza e all'altezza del grafico.
+È possibile regolare la dimensione della legenda utilizzando `setWidth` E `setHeight` metodi dell'oggetto legenda. Questi valori sono anche relativi alla larghezza e all'altezza del grafico.
 
 ## Posso personalizzare altri attributi della legenda?
 
-Sì, puoi personalizzare vari attributi della legenda, come lo stile del carattere, il bordo, il colore dello sfondo e altro. Esplora la documentazione di Aspose.Slides per informazioni dettagliate sulla personalizzazione ulteriore delle legende.
+Sì, puoi personalizzare vari attributi della legenda, come lo stile del carattere, il bordo, il colore di sfondo e altro ancora. Consulta la documentazione di Aspose.Slides per informazioni dettagliate sulla personalizzazione delle legende.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

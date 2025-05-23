@@ -1,56 +1,58 @@
 ---
-title: Získejte šířku a výšku z oblasti grafu v aplikaci Java Slides
-linktitle: Získejte šířku a výšku z oblasti grafu v aplikaci Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Naučte se, jak načíst rozměry oblasti grafu v aplikaci Java Slides pomocí Aspose.Slides for Java. Vylepšete své dovednosti v automatizaci aplikace PowerPoint.
-weight: 21
-url: /cs/java/data-manipulation/get-width-height-chart-plot-area-java-slides/
+"description": "Naučte se, jak načíst rozměry plochy grafu v Java Slides pomocí Aspose.Slides pro Javu. Zlepšete si své dovednosti v automatizaci PowerPointu."
+"linktitle": "Získejte šířku a výšku z oblasti grafu v Java Slides"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Získejte šířku a výšku z oblasti grafu v Java Slides"
+"url": "/cs/java/data-manipulation/get-width-height-chart-plot-area-java-slides/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Získejte šířku a výšku z oblasti grafu v aplikaci Java Slides
+# Získejte šířku a výšku z oblasti grafu v Java Slides
 
 
-## Úvod
+## Zavedení
 
-Grafy představují účinný způsob vizualizace dat v prezentacích PowerPoint. Někdy můžete potřebovat znát rozměry vykreslované oblasti grafu z různých důvodů, jako je změna velikosti nebo přemístění prvků v grafu. Tato příručka ukáže, jak získat šířku a výšku plochy pozemku pomocí Java a Aspose.Slides for Java.
+Grafy jsou účinným způsobem vizualizace dat v prezentacích PowerPointu. Někdy můžete potřebovat znát rozměry oblasti grafu z různých důvodů, například pro změnu velikosti nebo umístění prvků v grafu. Tato příručka vám ukáže, jak získat šířku a výšku oblasti grafu pomocí Javy a Aspose.Slides pro Javu.
 
 ## Předpoklady
 
- Než se ponoříme do kódu, ujistěte se, že máte ve svém projektu Java nainstalovanou a nastavenou knihovnu Aspose.Slides for Java. Knihovnu si můžete stáhnout z webu Aspose[tady](https://releases.aspose.com/slides/java/).
+Než se pustíme do kódu, ujistěte se, že máte ve svém projektu v Javě nainstalovanou a nastavenou knihovnu Aspose.Slides for Java. Knihovnu si můžete stáhnout z webových stránek Aspose. [zde](https://releases.aspose.com/slides/java/).
 
 ## Krok 1: Nastavení prostředí
 
-Ujistěte se, že máte knihovnu Aspose.Slides for Java přidanou do vašeho projektu Java. Můžete to udělat zahrnutím knihovny do závislostí vašeho projektu nebo ručním přidáním souboru JAR.
+Ujistěte se, že máte do svého projektu v Javě přidánu knihovnu Aspose.Slides pro Javu. Můžete to provést zahrnutím knihovny do závislostí projektu nebo ručním přidáním souboru JAR.
 
 ## Krok 2: Vytvoření prezentace v PowerPointu
 
-Začněme vytvořením powerpointové prezentace a přidáním snímku do ní. To bude sloužit jako kontejner pro náš graf.
+Začněme vytvořením prezentace v PowerPointu a přidáním snímku do ní. Ten bude sloužit jako kontejner pro náš graf.
 
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.Pptx");
 ```
 
- Nahradit`"Your Document Directory"` s cestou k adresáři s dokumenty.
+Nahradit `"Your Document Directory"` cestou k adresáři s dokumenty.
 
 ## Krok 3: Přidání grafu
 
-Nyní na snímek přidáme seskupený sloupcový graf. Ověříme také rozložení grafu.
+Nyní přidáme na snímek klastrovaný sloupcový graf. Také ověříme rozvržení grafu.
 
 ```java
 Chart chart = (Chart) pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 100, 100, 500, 350);
 chart.validateChartLayout();
 ```
 
-Tento kód vytvoří seskupený sloupcový graf na pozici (100, 100) s rozměry (500, 350).
+Tento kód vytvoří klastrovaný sloupcový graf na pozici (100, 100) s dimenzemi (500, 350).
 
 ## Krok 4: Získání rozměrů plochy grafu
 
-K načtení šířky a výšky oblasti grafu můžeme použít následující kód:
+Pro načtení šířky a výšky vykreslované oblasti grafu můžeme použít následující kód:
 
 ```java
 double x = chart.getPlotArea().getActualX();
@@ -59,22 +61,22 @@ double w = chart.getPlotArea().getActualWidth();
 double h = chart.getPlotArea().getActualHeight();
 ```
 
- A teď ty proměnné`x`, `y`, `w` , a`h` obsahovat příslušné hodnoty pro souřadnici X, souřadnici Y, šířku a výšku oblasti grafu.
+Nyní proměnné `x`, `y`, `w`a `h` obsahují příslušné hodnoty pro souřadnici X, souřadnici Y, šířku a výšku oblasti grafu.
 
 ## Krok 5: Uložení prezentace
 
-Nakonec uložte prezentaci s grafem.
+Nakonec prezentaci s grafem uložte.
 
 ```java
 pres.save(dataDir + "Chart_out.pptx", SaveFormat.Pptx);
 ```
 
- Nezapomeňte vyměnit`"Chart_out.pptx"` s požadovaným názvem výstupního souboru.
+Nezapomeňte vyměnit `"Chart_out.pptx"` s požadovaným názvem výstupního souboru.
 
 ## Kompletní zdrojový kód pro získání šířky a výšky z oblasti grafu v Java Slides
 
 ```java
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.Pptx");
 try
@@ -96,29 +98,31 @@ finally
 
 ## Závěr
 
-tomto článku jsme se zabývali tím, jak získat šířku a výšku oblasti grafu v aplikaci Java Slides pomocí Aspose.Slides for Java API. Tyto informace mohou být cenné, když potřebujete dynamicky upravit rozvržení grafů v prezentacích PowerPoint.
+tomto článku jsme se zabývali tím, jak získat šířku a výšku oblasti grafu v aplikaci Java Slides pomocí rozhraní Aspose.Slides for Java API. Tyto informace mohou být cenné, když potřebujete dynamicky upravovat rozvržení grafů v prezentacích PowerPointu.
 
-## FAQ
+## Často kladené otázky
 
-### Jak mohu změnit typ grafu na něco jiného než seskupené sloupce?
+### Jak mohu změnit typ grafu na jiný než shlukovaný sloupcový graf?
 
- Typ grafu můžete změnit nahrazením`ChartType.ClusteredColumn` s požadovaným výčtem typu grafu, jako je např`ChartType.Line` nebo`ChartType.Pie`.
+Typ grafu můžete změnit nahrazením `ChartType.ClusteredColumn` s požadovaným výčtem typů grafů, například `ChartType.Line` nebo `ChartType.Pie`.
 
 ### Mohu upravit další vlastnosti grafu?
 
-Ano, pomocí rozhraní Aspose.Slides for Java API můžete upravit různé vlastnosti grafu, jako jsou data, štítky a formátování. Další podrobnosti naleznete v dokumentaci.
+Ano, různé vlastnosti grafu, jako jsou data, popisky a formátování, můžete upravit pomocí rozhraní Aspose.Slides pro Java API. Další podrobnosti naleznete v dokumentaci.
 
-### Je Aspose.Slides for Java vhodný pro profesionální automatizaci PowerPointu?
+### Je Aspose.Slides pro Javu vhodný pro profesionální automatizaci PowerPointu?
 
-Ano, Aspose.Slides for Java je výkonná knihovna pro automatizaci úloh aplikace PowerPoint v aplikacích Java. Poskytuje komplexní funkce pro práci s prezentacemi, snímky, tvary, grafy a dalšími.
+Ano, Aspose.Slides pro Javu je výkonná knihovna pro automatizaci úloh PowerPointu v aplikacích Java. Poskytuje komplexní funkce pro práci s prezentacemi, snímky, tvary, grafy a dalšími prvky.
 
-### Jak se mohu dozvědět více o Aspose.Slides pro Java?
+### Jak se mohu dozvědět více o Aspose.Slides pro Javu?
 
- Rozsáhlou dokumentaci a příklady můžete najít na stránce dokumentace Aspose.Slides for Java[tady](https://reference.aspose.com/slides/java/).
+Rozsáhlou dokumentaci a příklady naleznete na stránce s dokumentací k Aspose.Slides pro Javu. [zde](https://reference.aspose.com/slides/java/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

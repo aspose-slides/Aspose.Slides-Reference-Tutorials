@@ -1,20 +1,22 @@
 ---
-title: सभी स्लाइडों से नोट्स हटाएँ
-linktitle: सभी स्लाइडों से नोट्स हटाएँ
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: Aspose.Slides for .NET का उपयोग करके PowerPoint स्लाइड से नोट्स निकालना सीखें। अपनी प्रस्तुतियों को अधिक साफ़ और अधिक पेशेवर बनाएँ।
-weight: 13
-url: /hi/net/notes-slide-manipulation/remove-notes-from-all-slides/
+"description": "Aspose.Slides for .NET का उपयोग करके PowerPoint स्लाइड से नोट्स निकालना सीखें। अपनी प्रस्तुतियों को अधिक साफ़ और अधिक पेशेवर बनाएँ।"
+"linktitle": "सभी स्लाइडों से नोट्स हटाएँ"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "सभी स्लाइडों से नोट्स हटाएँ"
+"url": "/hi/net/notes-slide-manipulation/remove-notes-from-all-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # सभी स्लाइडों से नोट्स हटाएँ
 
 
-यदि आप पावरपॉइंट प्रेजेंटेशन के साथ काम करने वाले .NET डेवलपर हैं, तो आपको अपनी प्रेजेंटेशन में सभी स्लाइड से नोट्स हटाने की आवश्यकता हो सकती है। यह तब उपयोगी हो सकता है जब आप अपनी स्लाइड को साफ करना चाहते हैं और ऐसी कोई भी अतिरिक्त जानकारी हटाना चाहते हैं जो आपके दर्शकों के लिए अभिप्रेत नहीं है। इस चरण-दर-चरण मार्गदर्शिका में, हम आपको इस कार्य को कुशलतापूर्वक पूरा करने के लिए .NET के लिए Aspose.Slides का उपयोग करने की प्रक्रिया के बारे में बताएँगे।
+यदि आप PowerPoint प्रस्तुतियों के साथ काम करने वाले .NET डेवलपर हैं, तो आपको अपनी प्रस्तुति में सभी स्लाइडों से नोट्स हटाने की आवश्यकता हो सकती है। यह तब उपयोगी हो सकता है जब आप अपनी स्लाइडों को साफ करना चाहते हैं और ऐसी कोई भी अतिरिक्त जानकारी हटाना चाहते हैं जो आपके दर्शकों के लिए अभिप्रेत नहीं है। इस चरण-दर-चरण मार्गदर्शिका में, हम आपको इस कार्य को कुशलतापूर्वक पूरा करने के लिए .NET के लिए Aspose.Slides का उपयोग करने की प्रक्रिया के बारे में बताएँगे।
 
 ## आवश्यक शर्तें
 
@@ -22,13 +24,13 @@ url: /hi/net/notes-slide-manipulation/remove-notes-from-all-slides/
 
 1. विजुअल स्टूडियो: आपके विकास मशीन पर विजुअल स्टूडियो स्थापित होना चाहिए।
 
-2.  Aspose.Slides for .NET: आपके पास Aspose.Slides for .NET लाइब्रेरी इंस्टॉल होनी चाहिए। आप इसे यहाँ से डाउनलोड कर सकते हैं[वेबसाइट](https://releases.aspose.com/slides/net/).
+2. Aspose.Slides for .NET: आपके पास Aspose.Slides for .NET लाइब्रेरी इंस्टॉल होनी चाहिए। आप इसे यहाँ से डाउनलोड कर सकते हैं [वेबसाइट](https://releases.aspose.com/slides/net/).
 
 3. पावरपॉइंट प्रेजेंटेशन: आपके पास एक पावरपॉइंट प्रेजेंटेशन (पीपीटीएक्स) होना चाहिए जिसमें स्लाइडों पर नोट्स हों।
 
 ## नामस्थान आयात करें
 
-अपने C# कोड में, आपको Aspose.Slides के साथ काम करने के लिए आवश्यक नेमस्पेस आयात करने की आवश्यकता होगी। आप इसे इस प्रकार कर सकते हैं:
+अपने C# कोड में, आपको Aspose.Slides के साथ काम करने के लिए आवश्यक नेमस्पेस आयात करने की आवश्यकता होगी। यहाँ बताया गया है कि आप यह कैसे कर सकते हैं:
 
 ```csharp
 using Aspose.Slides;
@@ -47,7 +49,7 @@ string dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "YourPresentation.pptx");
 ```
 
- इस चरण में, आपको .NET के लिए Aspose.Slides का उपयोग करके अपनी PowerPoint प्रस्तुति को लोड करना होगा।`"Your Document Directory"` और`"YourPresentation.pptx"` उचित पथ और फ़ाइल नाम के साथ.
+इस चरण में, आपको .NET के लिए Aspose.Slides का उपयोग करके अपनी PowerPoint प्रस्तुति को लोड करना होगा। `"Your Document Directory"` और `"YourPresentation.pptx"` उचित पथ और फ़ाइल नाम के साथ.
 
 ## चरण 2: नोट्स हटाना
 
@@ -72,11 +74,11 @@ for (int i = 0; i < presentation.Slides.Count; i++)
 presentation.Save(dataDir + "PresentationWithoutNotes.pptx", SaveFormat.Pptx);
 ```
 
- यह कोड बिना नोट्स के प्रस्तुतिकरण को एक नई फ़ाइल के रूप में सहेजता है जिसका नाम है`"PresentationWithoutNotes.pptx"`आप फ़ाइल नाम को अपने इच्छित आउटपुट में बदल सकते हैं।
+यह कोड बिना नोट्स के प्रस्तुतिकरण को एक नई फ़ाइल के रूप में सहेजता है जिसका नाम है `"PresentationWithoutNotes.pptx"`आप फ़ाइल नाम को अपने इच्छित आउटपुट में बदल सकते हैं।
 
 और बस! आपने Aspose.Slides for .NET का उपयोग करके अपने PowerPoint प्रेजेंटेशन में सभी स्लाइड्स से नोट्स सफलतापूर्वक हटा दिए हैं।
 
- इस ट्यूटोरियल में, हमने इस कार्य को कुशलतापूर्वक पूरा करने के लिए आवश्यक चरणों को कवर किया है। यदि आपको कोई समस्या आती है या आपके पास और प्रश्न हैं, तो आप .NET के लिए Aspose.Slides का संदर्भ ले सकते हैं।[प्रलेखन](https://reference.aspose.com/slides/net/) या सहायता मांगें[Aspose समर्थन मंच](https://forum.aspose.com/).
+इस ट्यूटोरियल में, हमने इस कार्य को कुशलतापूर्वक पूरा करने के लिए आवश्यक चरणों को कवर किया है। यदि आपको कोई समस्या आती है या आपके पास और प्रश्न हैं, तो आप .NET के लिए Aspose.Slides का संदर्भ ले सकते हैं। [प्रलेखन](https://reference.aspose.com/slides/net/) या सहायता मांगें [Aspose समर्थन मंच](https://forum.aspose.com/).
 
 ## निष्कर्ष
 
@@ -86,26 +88,28 @@ presentation.Save(dataDir + "PresentationWithoutNotes.pptx", SaveFormat.Pptx);
 
 ### 1. क्या मैं अन्य प्रोग्रामिंग भाषाओं के साथ .NET के लिए Aspose.Slides का उपयोग कर सकता हूँ?
 
-हां, Aspose.Slides Java, C के लिए भी उपलब्ध है++ और कई अन्य प्रोग्रामिंग भाषाएँ.
+हां, Aspose.Slides Java, C++ और कई अन्य प्रोग्रामिंग भाषाओं के लिए भी उपलब्ध है।
 
 ### 2. क्या Aspose.Slides for .NET एक निःशुल्क लाइब्रेरी है?
 
- Aspose.Slides for .NET एक निःशुल्क लाइब्रेरी नहीं है। आप मूल्य निर्धारण और लाइसेंसिंग जानकारी यहाँ पा सकते हैं[वेबसाइट](https://purchase.aspose.com/buy).
+Aspose.Slides for .NET एक निःशुल्क लाइब्रेरी नहीं है। आप मूल्य निर्धारण और लाइसेंसिंग जानकारी यहाँ पा सकते हैं [वेबसाइट](https://purchase.aspose.com/buy).
 
 ### 3. क्या मैं खरीदने से पहले Aspose.Slides for .NET आज़मा सकता हूँ?
 
- हां, आप .NET के लिए Aspose.Slides का निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप .NET के लिए Aspose.Slides का निःशुल्क परीक्षण प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### 4. मैं Aspose.Slides for .NET के लिए अस्थायी लाइसेंस कैसे प्राप्त करूं?
 
- आप परीक्षण और विकास उद्देश्यों के लिए अस्थायी लाइसेंस का अनुरोध कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+आप परीक्षण और विकास उद्देश्यों के लिए अस्थायी लाइसेंस का अनुरोध कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
 
 ### 5. क्या Aspose.Slides for .NET नवीनतम PowerPoint प्रारूपों का समर्थन करता है?
 
 हां, Aspose.Slides for .NET, PowerPoint के कई प्रारूपों का समर्थन करता है, जिसमें नवीनतम संस्करण भी शामिल हैं। विवरण के लिए आप दस्तावेज़ देख सकते हैं।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

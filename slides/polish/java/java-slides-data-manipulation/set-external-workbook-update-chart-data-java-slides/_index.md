@@ -1,34 +1,36 @@
 ---
-title: Ustaw zewnętrzny skoroszyt z danymi wykresu aktualizacji w slajdach Java
-linktitle: Ustaw zewnętrzny skoroszyt z danymi wykresu aktualizacji w slajdach Java
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Dowiedz się, jak ustawić zewnętrzne skoroszyty i zaktualizować dane wykresów w Java Slides przy użyciu Aspose.Slides dla Java. Popraw swoje umiejętności automatyzacji programu PowerPoint.
-weight: 20
-url: /pl/java/data-manipulation/set-external-workbook-update-chart-data-java-slides/
+"description": "Dowiedz się, jak ustawić zewnętrzne skoroszyty i zaktualizować dane wykresu w Java Slides przy użyciu Aspose.Slides for Java. Udoskonal swoje umiejętności automatyzacji programu PowerPoint."
+"linktitle": "Ustaw zewnętrzny skoroszyt z danymi wykresu aktualizacji w slajdach Java"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Ustaw zewnętrzny skoroszyt z danymi wykresu aktualizacji w slajdach Java"
+"url": "/pl/java/data-manipulation/set-external-workbook-update-chart-data-java-slides/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw zewnętrzny skoroszyt z danymi wykresu aktualizacji w slajdach Java
 
 
-## Wprowadzenie do ustawiania skoroszytu zewnętrznego z danymi wykresu aktualizacji w slajdach Java
+## Wprowadzenie do ustawiania zewnętrznego skoroszytu z danymi wykresu aktualizacji w slajdach Java
 
-tym obszernym przewodniku przeprowadzimy Cię przez proces konfigurowania zewnętrznego skoroszytu ze zaktualizowanymi danymi wykresów w Java Slides przy użyciu Aspose.Slides for Java API. Ta potężna biblioteka umożliwia programowe manipulowanie prezentacjami programu PowerPoint, co ułatwia automatyzację zadań, takich jak aktualizowanie danych wykresów ze źródła zewnętrznego. Pod koniec tego samouczka będziesz jasno wiedział, jak wykonać to zadanie, korzystając z instrukcji krok po kroku i dołączonego kodu Java.
+tym kompleksowym przewodniku przeprowadzimy Cię przez proces ustawiania zewnętrznego skoroszytu z zaktualizowanymi danymi wykresu w Java Slides przy użyciu Aspose.Slides for Java API. Ta potężna biblioteka umożliwia programowe manipulowanie prezentacjami PowerPoint, ułatwiając automatyzację zadań, takich jak aktualizowanie danych wykresu ze źródła zewnętrznego. Pod koniec tego samouczka będziesz mieć jasne zrozumienie, jak wykonać to zadanie, dzięki instrukcjom krok po kroku i towarzyszącemu kodowi Java.
 
-## Warunki wstępne
+## Wymagania wstępne
 
 Zanim przejdziemy do wdrożenia, upewnij się, że spełnione są następujące wymagania wstępne:
 
-1.  Aspose.Slides for Java: Powinieneś mieć zainstalowaną bibliotekę Aspose.Slides for Java. Można go pobrać z[Tutaj](https://releases.aspose.com/slides/java/).
+1. Aspose.Slides dla Java: Powinieneś mieć zainstalowaną bibliotekę Aspose.Slides dla Java. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/slides/java/).
 
-2. Środowisko programistyczne Java: Upewnij się, że w systemie skonfigurowano środowisko programistyczne Java.
+2. Środowisko programistyczne Java: Upewnij się, że w swoim systemie masz skonfigurowane środowisko programistyczne Java.
 
 ## Krok 1: Utwórz nową prezentację
 
-Na początek utwórzmy nową prezentację programu PowerPoint przy użyciu Aspose.Slides dla Java. Oto kod Java, który to umożliwia:
+Na początek utwórzmy nową prezentację PowerPoint przy użyciu Aspose.Slides dla Java. Oto kod Java, który to umożliwia:
 
 ```java
 // Ścieżka do katalogu dokumentów.
@@ -38,7 +40,7 @@ Presentation pres = new Presentation();
 
 ## Krok 2: Dodaj wykres
 
-Dodajmy teraz wykres do naszej prezentacji. W tym przykładzie utworzymy wykres kołowy:
+Teraz dodajmy wykres do naszej prezentacji. W tym przykładzie utworzymy wykres kołowy:
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 400, 600, true);
@@ -46,22 +48,22 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 
 
 ## Krok 3: Ustaw zewnętrzny skoroszyt
 
-tym miejscu ustawiamy zewnętrzny skoroszyt jako źródło danych dla naszego wykresu. Musisz podać adres URL zewnętrznego skoroszytu, nawet jeśli na razie nie istnieje:
+Tutaj ustawiamy zewnętrzny skoroszyt jako źródło danych dla naszego wykresu. Musisz podać adres URL do zewnętrznego skoroszytu, nawet jeśli na razie nie istnieje:
 
 ```java
 IChartData chartData = chart.getChartData();
-chartData.setExternalWorkbook("http://ścieżka/nie/istnieje”, false);
+chartData.setExternalWorkbook("http://ścieżka/nie/istnieje", false);
 ```
 
 ## Krok 4: Zapisz prezentację
 
-Na koniec zapisz prezentację ze zaktualizowanymi danymi wykresu:
+Na koniec zapisz prezentację z zaktualizowanymi danymi wykresu:
 
 ```java
 pres.save(dataDir + "SetExternalWorkbookWithUpdateChartData.pptx", SaveFormat.Pptx);
 ```
 
-## Kompletny kod źródłowy zestawu zewnętrznego skoroszytu z danymi wykresu aktualizacji w slajdach Java
+## Kompletny kod źródłowy dla zestawu zewnętrznego skoroszytu z danymi wykresu aktualizacji w slajdach Java
 
 ```java
 // Ścieżka do katalogu dokumentów.
@@ -71,7 +73,7 @@ try
 {
 	IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 400, 600, true);
 	IChartData chartData = chart.getChartData();
-	chartData.setExternalWorkbook("http://ścieżka/nie/istnieje”, false);
+	chartData.setExternalWorkbook("http://ścieżka/nie/istnieje", false);
 	pres.save(dataDir + "SetExternalWorkbookWithUpdateChartData.pptx", SaveFormat.Pptx);
 }
 finally
@@ -82,32 +84,34 @@ finally
 
 ## Wniosek
 
-Gratulacje! Nauczyłeś się, jak ustawić zewnętrzny skoroszyt ze zaktualizowanymi danymi wykresów w Java Slides przy użyciu Aspose.Slides dla Java. Może to być niezwykle przydatne do dynamicznego aktualizowania wykresów w prezentacjach programu PowerPoint z zewnętrznych źródeł danych.
+Gratulacje! Nauczyłeś się, jak ustawić zewnętrzny skoroszyt z zaktualizowanymi danymi wykresu w Java Slides przy użyciu Aspose.Slides for Java. Może to być niezwykle przydatne do dynamicznego aktualizowania wykresów w prezentacjach PowerPoint z zewnętrznych źródeł danych.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
 ### Jak mogę zaktualizować dane zewnętrznego skoroszytu dla wykresu?
 
-Aby zaktualizować dane zewnętrznego skoroszytu dla wykresu, wystarczy zmodyfikować dane w zewnętrznym skoroszycie pod określonym adresem URL. Gdy następnym razem otworzysz prezentację, Aspose.Slides for Java pobierze zaktualizowane dane z zewnętrznego skoroszytu i odpowiednio zaktualizuje wykres.
+Aby zaktualizować dane zewnętrznego skoroszytu dla wykresu, wystarczy zmodyfikować dane w zewnętrznym skoroszycie pod określonym adresem URL. Następnym razem, gdy otworzysz prezentację, Aspose.Slides for Java pobierze zaktualizowane dane z zewnętrznego skoroszytu i odpowiednio zaktualizuje wykres.
 
-### Czy mogę użyć pliku lokalnego jako zewnętrznego skoroszytu?
+### Czy mogę użyć pliku lokalnego jako skoroszytu zewnętrznego?
 
-Tak, możesz użyć pliku lokalnego jako zewnętrznego skoroszytu, podając ścieżkę pliku zamiast adresu URL. Upewnij się tylko, że ścieżka pliku jest poprawna i dostępna z poziomu aplikacji Java.
+Tak, możesz użyć pliku lokalnego jako zewnętrznego skoroszytu, podając ścieżkę pliku zamiast adresu URL. Upewnij się tylko, że ścieżka pliku jest poprawna i dostępna z aplikacji Java.
 
-### Czy są jakieś ograniczenia w korzystaniu z zewnętrznych skoroszytów z Aspose.Slides dla Java?
+### Czy istnieją jakieś ograniczenia w korzystaniu z zewnętrznych skoroszytów w Aspose.Slides dla Java?
 
-Chociaż korzystanie z zewnętrznych skoroszytów jest potężną funkcją, należy pamiętać, że dostępność danych zewnętrznego skoroszytu zależy od ich dostępności pod podanym adresem URL lub ścieżką pliku. Upewnij się, że zewnętrzne źródło danych jest dostępne po otwarciu prezentacji, aby uniknąć problemów z pobieraniem danych.
+Chociaż korzystanie z zewnętrznych skoroszytów jest potężną funkcją, pamiętaj, że dostępność danych zewnętrznego skoroszytu zależy od jego dostępności pod podanym adresem URL lub ścieżką pliku. Upewnij się, że zewnętrzne źródło danych jest dostępne po otwarciu prezentacji, aby uniknąć problemów z pobieraniem danych.
 
-### Czy mogę dostosować wygląd wykresu po ustawieniu zewnętrznego skoroszytu?
+### Czy mogę dostosować wygląd wykresu po ustawieniu skoroszytu zewnętrznego?
 
-Tak, możesz dostosować wygląd wykresu, w tym jego tytuł, etykiety, kolory i inne elementy, nawet po ustawieniu zewnętrznego skoroszytu. Aspose.Slides dla Java zapewnia rozbudowane opcje formatowania wykresów, aby spełnić Twoje potrzeby.
+Tak, możesz dostosować wygląd wykresu, w tym jego tytuł, etykiety, kolory i inne, nawet po ustawieniu zewnętrznego skoroszytu. Aspose.Slides for Java oferuje rozbudowane opcje formatowania wykresów, aby spełnić Twoje potrzeby.
 
-### Gdzie mogę znaleźć więcej dokumentacji i zasobów dotyczących Aspose.Slides for Java?
+### Gdzie mogę znaleźć więcej dokumentacji i zasobów dla Aspose.Slides dla Java?
 
- Aby uzyskać szczegółową dokumentację i dodatkowe zasoby, odwiedź dokumentację Aspose.Slides for Java pod adresem[Tutaj](https://reference.aspose.com/slides/java/).
+Aby uzyskać szczegółową dokumentację i dodatkowe zasoby, odwiedź dokumentację Aspose.Slides for Java pod adresem [Tutaj](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

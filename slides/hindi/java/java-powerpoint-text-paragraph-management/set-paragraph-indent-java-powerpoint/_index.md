@@ -1,14 +1,16 @@
 ---
-title: जावा पावरपॉइंट में पैराग्राफ इंडेंट सेट करें
-linktitle: जावा पावरपॉइंट में पैराग्राफ इंडेंट सेट करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके PowerPoint स्लाइड में पैराग्राफ़ इंडेंट को प्रोग्रामेटिक रूप से सेट करना सीखें। अपनी प्रेजेंटेशन फ़ॉर्मेटिंग को आसानी से बेहतर बनाएँ।
-weight: 16
-url: /hi/java/java-powerpoint-text-paragraph-management/set-paragraph-indent-java-powerpoint/
+"description": "Aspose.Slides for Java का उपयोग करके PowerPoint स्लाइड में पैराग्राफ़ इंडेंट को प्रोग्रामेटिक रूप से सेट करना सीखें। अपनी प्रेजेंटेशन फ़ॉर्मेटिंग को आसानी से बेहतर बनाएँ।"
+"linktitle": "जावा पावरपॉइंट में पैराग्राफ इंडेंट सेट करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा पावरपॉइंट में पैराग्राफ इंडेंट सेट करें"
+"url": "/hi/java/java-powerpoint-text-paragraph-management/set-paragraph-indent-java-powerpoint/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा पावरपॉइंट में पैराग्राफ इंडेंट सेट करें
@@ -18,7 +20,7 @@ url: /hi/java/java-powerpoint-text-paragraph-management/set-paragraph-indent-jav
 ## आवश्यक शर्तें
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित सेटअप है:
 - आपकी मशीन पर जावा डेवलपमेंट किट (JDK) स्थापित है।
--  Aspose.Slides for Java लाइब्रेरी डाउनलोड की गई। आप इसे यहाँ से प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+- Aspose.Slides for Java लाइब्रेरी डाउनलोड की गई। आप इसे यहाँ से प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 - जावा प्रोग्रामिंग भाषा की बुनियादी समझ।
 ## पैकेज आयात करें
 सबसे पहले, Aspose.Slides कार्यक्षमता तक पहुंचने के लिए आवश्यक पैकेज आयात करें:
@@ -28,7 +30,7 @@ import java.io.File;
 ```
 आइए Aspose.Slides for Java का उपयोग करके PowerPoint स्लाइड में पैराग्राफ इंडेंट सेट करने की चरण-दर-चरण प्रक्रिया को देखें।
 ## चरण 1: एक प्रेजेंटेशन ऑब्जेक्ट बनाएँ
- उदाहरण प्रस्तुत करें`Presentation` कक्षा में एक नई पावरपॉइंट प्रस्तुति के साथ काम करना शुरू करें।
+उदाहरण प्रस्तुत करें `Presentation` कक्षा में एक नई पावरपॉइंट प्रस्तुति के साथ काम करना शुरू करें।
 ```java
 // प्रेजेंटेशन क्लास को इंस्टेंटिएट करें
 Presentation pres = new Presentation();
@@ -66,11 +68,11 @@ para1.getParagraphFormat().setIndent(30);
 // टेक्स्टफ्रेम में दूसरा पैराग्राफ प्राप्त करें और उसका इंडेंट सेट करें
 IParagraph para2 = textFrame.getParagraphs().get_Item(1);
 para2.getParagraphFormat().setIndent(40);
-//टेक्स्टफ्रेम में तीसरा पैराग्राफ प्राप्त करें और उसका इंडेंट सेट करें
+// टेक्स्टफ्रेम में तीसरा पैराग्राफ प्राप्त करें और उसका इंडेंट सेट करें
 IParagraph para3 = textFrame.getParagraphs().get_Item(2);
 para3.getParagraphFormat().setIndent(50);
 ```
-## चरण 7: प्रेजेंटेशन सहेजें
+## चरण 7: प्रस्तुति सहेजें
 अंत में, संशोधित प्रस्तुति को डिस्क पर सहेजें।
 ```java
 // प्रेजेंटेशन को डिस्क पर लिखें
@@ -84,16 +86,18 @@ pres.save(dataDir + "IndentedPresentation.pptx", SaveFormat.Pptx);
 ### Java के लिए Aspose.Slides क्या है?
 Aspose.Slides for Java, पावरपॉइंट प्रस्तुतियों के साथ प्रोग्रामेटिक रूप से काम करने के लिए एक शक्तिशाली लाइब्रेरी है।
 ### मैं Aspose.Slides for Java के लिए दस्तावेज़ कहां पा सकता हूं?
- आप दस्तावेज़ पा सकते हैं[यहाँ](https://reference.aspose.com/slides/java/).
+आप दस्तावेज़ पा सकते हैं [यहाँ](https://reference.aspose.com/slides/java/).
 ### मैं Java के लिए Aspose.Slides कैसे डाउनलोड कर सकता हूँ?
- आप इसे यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+आप इसे यहां से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 ### क्या Aspose.Slides for Java के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
- हां, आप यहां से निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप यहां से निःशुल्क परीक्षण प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/).
 ### मैं Aspose.Slides for Java के लिए समर्थन कहां से प्राप्त कर सकता हूं?
- आप सामुदायिक मंच से सहायता प्राप्त कर सकते हैं[यहाँ](https://forum.aspose.com/c/slides/11).
+आप सामुदायिक मंच से सहायता प्राप्त कर सकते हैं [यहाँ](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,30 +1,32 @@
 ---
-title: Mengonversi Presentasi ke HTML dengan Sematkan Semua Font di Slide Java
-linktitle: Mengonversi Presentasi ke HTML dengan Sematkan Semua Font di Slide Java
-second_title: Aspose.Slides API Pemrosesan Java PowerPoint
-description: Pelajari cara mengonversi presentasi ke HTML dengan font tersemat menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah ini memastikan pemformatan yang konsisten untuk berbagi tanpa hambatan.
-weight: 13
-url: /id/java/presentation-conversion/convert-presentation-html-embed-fonts-java-slides/
+"description": "Pelajari cara mengonversi presentasi ke HTML dengan font tertanam menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah ini memastikan pemformatan yang konsisten untuk berbagi dengan lancar."
+"linktitle": "Mengubah Presentasi ke HTML dengan Menyisipkan Semua Font di Slide Java"
+"second_title": "API Pemrosesan PowerPoint Java Aspose.Slides"
+"title": "Mengubah Presentasi ke HTML dengan Menyisipkan Semua Font di Slide Java"
+"url": "/id/java/presentation-conversion/convert-presentation-html-embed-fonts-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mengonversi Presentasi ke HTML dengan Sematkan Semua Font di Slide Java
+# Mengubah Presentasi ke HTML dengan Menyisipkan Semua Font di Slide Java
 
 
-## Pengantar Mengonversi Presentasi ke HTML dengan Sematkan Semua Font di Slide Java
+## Pengantar Konversi Presentasi ke HTML dengan Embed All Fonts di Java Slides
 
-Di era digital saat ini, mengubah presentasi ke HTML menjadi hal penting untuk berbagi informasi dengan lancar di berbagai platform. Saat bekerja dengan Java Slides, penting untuk memastikan bahwa semua font yang digunakan dalam presentasi Anda disematkan untuk mempertahankan format yang konsisten. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses mengonversi presentasi ke HTML sambil menyematkan semua font menggunakan Aspose.Slides untuk Java. Mari kita mulai!
+Di era digital saat ini, mengonversi presentasi ke HTML telah menjadi hal penting untuk berbagi informasi dengan lancar di berbagai platform. Saat bekerja dengan Java Slides, sangat penting untuk memastikan bahwa semua font yang digunakan dalam presentasi Anda disematkan untuk mempertahankan format yang konsisten. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses mengonversi presentasi ke HTML sambil menyematkan semua font menggunakan Aspose.Slides untuk Java. Mari kita mulai!
 
 ## Prasyarat
 
-Sebelum kita mendalami kode dan proses konversi, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita masuk ke kode dan proses konversi, pastikan Anda memiliki prasyarat berikut:
 
-- Java Development Kit (JDK) diinstal pada sistem Anda.
--  Aspose.Slides untuk Java API, yang dapat Anda unduh[Di Sini](https://releases.aspose.com/slides/java/).
--  File presentasi (misalnya,`presentation.pptx`) yang ingin Anda konversi ke HTML.
+- Java Development Kit (JDK) terinstal di sistem Anda.
+- Aspose.Slides untuk API Java, yang dapat Anda unduh dari [Di Sini](https://releases.aspose.com/slides/java/).
+- File presentasi (misalnya, `presentation.pptx`) yang ingin Anda ubah ke HTML.
 
 ## Langkah 1: Menyiapkan Lingkungan Java
 
@@ -32,16 +34,16 @@ Pastikan Anda telah menginstal Java dan Aspose.Slides for Java API dengan benar 
 
 ## Langkah 2: Memuat File Presentasi
 
-Dalam kode Java Anda, Anda perlu memuat file presentasi yang ingin Anda konversi. Mengganti`"Your Document Directory"` dengan jalur sebenarnya ke file presentasi Anda.
+Dalam kode Java Anda, Anda perlu memuat file presentasi yang ingin Anda konversi. Ganti `"Your Document Directory"` dengan jalur sebenarnya ke berkas presentasi Anda.
 
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "presentation.pptx");
 ```
 
-## Langkah 3: Menyematkan Semua Font di Presentasi
+## Langkah 3: Menanamkan Semua Font dalam Presentasi
 
-Untuk menyematkan semua font yang digunakan dalam presentasi, Anda dapat menggunakan cuplikan kode berikut. Hal ini memastikan bahwa keluaran HTML akan menyertakan semua font yang diperlukan untuk rendering yang konsisten.
+Untuk menanamkan semua font yang digunakan dalam presentasi, Anda dapat menggunakan potongan kode berikut. Ini memastikan bahwa output HTML akan menyertakan semua font yang diperlukan untuk rendering yang konsisten.
 
 ```java
 try
@@ -59,15 +61,15 @@ finally
 }
 ```
 
-## Langkah 4: Mengonversi Presentasi ke HTML
+## Langkah 4: Mengubah Presentasi ke HTML
 
-Sekarang kita telah menyematkan semua font, saatnya mengonversi presentasi ke HTML. Kode yang diberikan pada Langkah 3 akan menangani konversi ini.
+Setelah kita menyematkan semua font, saatnya mengonversi presentasi ke HTML. Kode yang diberikan pada Langkah 3 akan menangani konversi ini.
 
 ## Langkah 5: Menyimpan File HTML
 
-Langkah terakhir adalah menyimpan file HTML dengan font yang disematkan. File HTML akan disimpan di direktori yang ditentukan, memastikan bahwa semua font disertakan.
+Langkah terakhir adalah menyimpan berkas HTML dengan font yang disematkan. Berkas HTML akan disimpan di direktori yang ditentukan, dengan memastikan bahwa semua font disertakan.
 
-Itu dia! Anda telah berhasil mengonversi presentasi ke HTML sambil menyematkan semua font menggunakan Aspose.Slides untuk Java.
+Selesai! Anda telah berhasil mengonversi presentasi ke HTML sambil menyematkan semua font menggunakan Aspose.Slides untuk Java.
 
 ## Kode Sumber Lengkap
 
@@ -76,7 +78,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "presentation.pptx");
 try
 {
-	// kecualikan font presentasi default
+	// mengecualikan font presentasi default
 	String[] fontNameExcludeList = {  };
 	LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, "C:\\Windows\\Fonts\\");
 	HtmlOptions htmlOptionsEmbed = new HtmlOptions();
@@ -91,32 +93,34 @@ finally
 
 ## Kesimpulan
 
-Mengonversi presentasi ke HTML dengan font yang disematkan sangat penting untuk menjaga konsistensi format di berbagai platform. Dengan Aspose.Slides untuk Java, proses ini menjadi mudah dan efisien. Sekarang Anda dapat membagikan presentasi Anda dalam format HTML tanpa khawatir kehilangan font.
+Mengonversi presentasi ke HTML dengan font yang disematkan sangat penting untuk mempertahankan format yang konsisten di berbagai platform. Dengan Aspose.Slides untuk Java, proses ini menjadi mudah dan efisien. Sekarang Anda dapat berbagi presentasi dalam format HTML tanpa khawatir font hilang.
 
-## FAQ
+## Tanya Jawab Umum
 
-### Bagaimana cara memeriksa apakah semua font tertanam dalam output HTML?
+### Bagaimana saya dapat memeriksa apakah semua font tertanam dalam keluaran HTML?
 
-Anda dapat memeriksa kode sumber file HTML dan mencari referensi font. Semua font yang digunakan dalam presentasi harus direferensikan dalam file HTML.
+Anda dapat memeriksa kode sumber berkas HTML dan mencari referensi fon. Semua fon yang digunakan dalam presentasi harus dirujuk dalam berkas HTML.
 
-### Bisakah saya menyesuaikan keluaran HTML lebih lanjut, seperti gaya dan tata letak?
+### Dapatkah saya menyesuaikan keluaran HTML lebih lanjut, seperti gaya dan tata letak?
 
- Ya, Anda dapat menyesuaikan keluaran HTML dengan memodifikasi`HtmlOptions` dan template HTML yang digunakan untuk pemformatan. Aspose.Slides untuk Java memberikan fleksibilitas dalam hal ini.
+Ya, Anda dapat menyesuaikan output HTML dengan memodifikasi `HtmlOptions` dan templat HTML yang digunakan untuk pemformatan. Aspose.Slides untuk Java memberikan fleksibilitas dalam hal ini.
 
 ### Apakah ada batasan saat menyematkan font dalam HTML?
 
-Meskipun menyematkan font memastikan rendering yang konsisten, perlu diingat bahwa ini dapat meningkatkan ukuran file keluaran HTML. Pastikan untuk mengoptimalkan presentasi untuk menyeimbangkan kualitas dan ukuran file.
+Meskipun penyematan font memastikan rendering yang konsisten, perlu diingat bahwa hal itu dapat meningkatkan ukuran file keluaran HTML. Pastikan untuk mengoptimalkan presentasi guna menyeimbangkan kualitas dan ukuran file.
 
-### Bisakah saya mengonversi presentasi dengan konten kompleks ke HTML menggunakan metode ini?
+### Bisakah saya mengubah presentasi dengan konten yang kompleks ke HTML menggunakan metode ini?
 
-Ya, metode ini berfungsi untuk presentasi dengan konten kompleks, termasuk gambar, animasi, dan elemen multimedia. Aspose.Slides untuk Java menangani konversi secara efektif.
+Ya, metode ini berfungsi untuk presentasi dengan konten yang kompleks, termasuk gambar, animasi, dan elemen multimedia. Aspose.Slides untuk Java menangani konversi secara efektif.
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dokumentasi untuk Aspose.Slides untuk Java?
 
- Anda dapat mengakses dokumentasi dan sumber daya komprehensif untuk Aspose.Slides untuk Java di[Aspose.Slides untuk Referensi API Java](https://reference.aspose.com/slides/java/).
+Anda dapat mengakses dokumentasi dan sumber daya yang komprehensif untuk Aspose.Slides untuk Java di [Referensi API Aspose.Slides untuk Java](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

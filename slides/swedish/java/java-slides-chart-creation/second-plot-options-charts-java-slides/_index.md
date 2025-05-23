@@ -1,24 +1,26 @@
 ---
-title: Andra plotalternativ för diagram i Java Slides
-linktitle: Andra plotalternativ för diagram i Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Lär dig hur du anpassar diagram i Java Slides med Aspose.Slides för Java. Utforska andra plotalternativ och förbättra dina presentationer.
-weight: 12
-url: /sv/java/chart-creation/second-plot-options-charts-java-slides/
+"description": "Lär dig hur du anpassar diagram i Java Slides med Aspose.Slides för Java. Utforska alternativ för andra plottar och förbättra dina presentationer."
+"linktitle": "Andra plottalternativ för diagram i Java Slides"
+"second_title": "Aspose.Slides Java PowerPoint-bearbetnings-API"
+"title": "Andra plottalternativ för diagram i Java Slides"
+"url": "/sv/java/chart-creation/second-plot-options-charts-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Andra plotalternativ för diagram i Java Slides
+# Andra plottalternativ för diagram i Java Slides
 
 
-## Introduktion till andra plotalternativ för diagram i Java Slides
+## Introduktion till andra plottalternativ för diagram i Java Slides
 
-I den här handledningen kommer vi att utforska hur man lägger till andra plotalternativ till diagram med Aspose.Slides för Java. Andra plotalternativ låter dig anpassa utseendet och beteendet hos diagram, särskilt i scenarier som cirkeldiagram. Vi kommer att tillhandahålla steg-för-steg-instruktioner och källkodsexempel för att uppnå detta. 
+den här handledningen ska vi utforska hur man lägger till andra plottalternativ till diagram med hjälp av Aspose.Slides för Java. Med andra plottalternativ kan du anpassa diagrammens utseende och beteende, särskilt i scenarier som Pie of Pie-diagram. Vi kommer att ge steg-för-steg-instruktioner och källkodsexempel för att uppnå detta. 
 
-## Förutsättningar
+## Förkunskapskrav
 Innan vi börjar, se till att du har Aspose.Slides för Java installerat och konfigurerat i ditt Java-projekt.
 
 ## Steg 1: Skapa en presentation
@@ -27,12 +29,12 @@ Låt oss börja med att skapa en ny presentation:
 ```java
 // Sökvägen till dokumentkatalogen.
 String dataDir = "Your Document Directory";
-// Skapa en instans av presentationsklassen
+// Skapa en instans av Presentation-klassen
 Presentation presentation = new Presentation();
 ```
 
-## Steg 2: Lägg till ett diagram till en bild
-Därefter lägger vi till ett diagram till en bild. I det här exemplet skapar vi ett cirkeldiagram:
+## Steg 2: Lägg till ett diagram i en bild
+Härnäst lägger vi till ett diagram i en bild. I det här exemplet skapar vi ett cirkeldiagram:
 
 ```java
 // Lägg till diagram på bilden
@@ -40,36 +42,36 @@ IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartTy
 ```
 
 ## Steg 3: Anpassa diagramegenskaper
-Låt oss nu ställa in olika egenskaper för diagrammet, inklusive andra plotalternativ:
+Nu ska vi ställa in olika egenskaper för diagrammet, inklusive alternativ för andra plott:
 
 ```java
 // Visa dataetiketter för den första serien
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 
-// Ställ in storleken på den andra pajen (i procent)
+// Ange storleken på den andra cirkeln (i procent)
 chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setSecondPieSize(149);
 
-// Dela pajen i procent
+// Dela kakan i procent
 chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setPieSplitBy(PieSplitType.ByPercentage);
 
-// Ställ in läget för splittringen
+// Ställ in delningens position
 chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setPieSplitPosition(53);
 ```
 
 ## Steg 4: Spara presentationen
-Slutligen, spara presentationen med diagrammet och andra plotalternativ:
+Slutligen, spara presentationen med alternativen för diagram och andra plott:
 
 ```java
 // Skriv presentation till disk
 presentation.save(dataDir + "SecondPlotOptionsforCharts_out.pptx", SaveFormat.Pptx);
 ```
 
-## Komplett källkod för andra plotalternativ
+## Komplett källkod för andra plottalternativ
 
 ```java
 // Sökvägen till dokumentkatalogen.
 String dataDir = "Your Document Directory";
-// Skapa en instans av presentationsklassen
+// Skapa en instans av Presentation-klassen
 Presentation presentation = new Presentation();
 // Lägg till diagram på bilden
 IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.PieOfPie, 50, 50, 500, 400);
@@ -84,24 +86,26 @@ presentation.save(dataDir + "SecondPlotOptionsforCharts_out.pptx", SaveFormat.Pp
 
 ## Slutsats
 
-I den här handledningen har vi lärt oss hur man lägger till andra plotalternativ till diagram i Java Slides med Aspose.Slides för Java. Du kan anpassa olika egenskaper för att förbättra utseendet och funktionaliteten på dina diagram, vilket gör dina presentationer mer informativa och visuellt tilltalande.
+I den här handledningen har vi lärt oss hur man lägger till alternativ för andra plottar i diagram i Java Slides med hjälp av Aspose.Slides för Java. Du kan anpassa olika egenskaper för att förbättra utseendet och funktionaliteten hos dina diagram, vilket gör dina presentationer mer informativa och visuellt tilltalande.
 
-## FAQ's
+## Vanliga frågor
 
-### Hur kan jag ändra storleken på den andra cirkeln i ett cirkeldiagram?
+### Hur kan jag ändra storleken på det andra cirkeldiagrammet i ett cirkeldiagram?
 
-För att ändra storleken på den andra cirkeln i ett cirkeldiagram, använd`setSecondPieSize` metod som visas i kodexemplet ovan. Justera värdet för att ange storleken i procent.
+För att ändra storleken på det andra cirkeldiagrammet i ett cirkeldiagram, använd `setSecondPieSize` metoden som visas i kodexemplet ovan. Justera värdet för att ange storleken i procent.
 
-###  Vad gör`PieSplitBy` control in a Pie of Pie chart?
+### Vad gör `PieSplitBy` kontroll i ett cirkeldiagram?
 
- De`PieSplitBy` egenskapen styr hur cirkeldiagrammet delas upp. Du kan ställa in den på antingen`PieSplitType.ByPercentage` eller`PieSplitType.ByValue` för att dela upp diagrammet efter procent eller efter ett specifikt värde.
+De `PieSplitBy` egenskapen styr hur cirkeldiagrammet delas. Du kan ställa in det på antingen `PieSplitType.ByPercentage` eller `PieSplitType.ByValue` för att dela diagrammet efter procentandel respektive efter ett specifikt värde.
 
-### Hur ställer jag in positionen för delingen i ett cirkeldiagram?
+### Hur ställer jag in positionen för delningen i ett cirkeldiagram?
 
- Du kan ställa in positionen för delingen i ett cirkeldiagram med hjälp av`setPieSplitPosition` metod. Justera värdet för att ange önskad position.
+Du kan ange positionen för delningen i ett cirkeldiagram med hjälp av `setPieSplitPosition` metod. Justera värdet för att ange önskad position.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

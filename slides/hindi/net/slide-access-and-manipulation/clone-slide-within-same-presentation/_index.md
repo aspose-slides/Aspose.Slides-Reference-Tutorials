@@ -1,14 +1,16 @@
 ---
-title: एक ही प्रस्तुति के भीतर स्लाइड क्लोन करें
-linktitle: एक ही प्रस्तुति के भीतर स्लाइड क्लोन करें
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: Aspose.Slides for .NET का उपयोग करके एक ही PowerPoint प्रस्तुति में स्लाइड्स को क्लोन करना सीखें। अपनी प्रस्तुतियों को कुशलतापूर्वक संचालित करने के लिए संपूर्ण स्रोत कोड उदाहरणों के साथ इस चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 21
-url: /hi/net/slide-access-and-manipulation/clone-slide-within-same-presentation/
+"description": "Aspose.Slides for .NET का उपयोग करके एक ही PowerPoint प्रस्तुति में स्लाइड्स को क्लोन करना सीखें। अपनी प्रस्तुतियों को कुशलतापूर्वक संचालित करने के लिए संपूर्ण स्रोत कोड उदाहरणों के साथ इस चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "एक ही प्रस्तुति के भीतर स्लाइड क्लोन करें"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "एक ही प्रस्तुति के भीतर स्लाइड क्लोन करें"
+"url": "/hi/net/slide-access-and-manipulation/clone-slide-within-same-presentation/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # एक ही प्रस्तुति के भीतर स्लाइड क्लोन करें
@@ -110,10 +112,12 @@ presentation.Save("ModifiedPresentation.pptx", SaveFormat.Pptx);
 
 ### मैं Aspose.Slides for .NET के बारे में अधिक जानकारी कहां पा सकता हूं?
 
- अधिक विस्तृत दस्तावेज़ीकरण और उदाहरणों के लिए, आप यहां जा सकते हैं[.NET दस्तावेज़ीकरण के लिए Aspose.Slides](https://reference.aspose.com/slides/net/).
+अधिक विस्तृत दस्तावेज़ीकरण और उदाहरणों के लिए, आप यहां जा सकते हैं [.NET दस्तावेज़ीकरण के लिए Aspose.Slides](https://reference.aspose.com/slides/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

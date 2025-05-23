@@ -1,14 +1,16 @@
 ---
-title: ज्यामिति आकृतियों में संयुक्त ऑब्जेक्ट बनाएँ
-linktitle: ज्यामिति आकृतियों में संयुक्त ऑब्जेक्ट बनाएँ
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: इस विस्तृत ट्यूटोरियल के साथ Aspose.Slides for Java का उपयोग करके ज्यामिति आकृतियों में समग्र ऑब्जेक्ट बनाना सीखें। Java डेवलपर्स के लिए बिल्कुल सही।
-weight: 20
-url: /hi/java/java-powerpoint-shape-formatting-geometry/create-composite-objects-geometry-shapes-powerpoint/
+"description": "इस विस्तृत ट्यूटोरियल के साथ Aspose.Slides for Java का उपयोग करके ज्यामिति आकृतियों में समग्र ऑब्जेक्ट बनाना सीखें। Java डेवलपर्स के लिए बिल्कुल सही।"
+"linktitle": "ज्यामिति आकृतियों में संयुक्त ऑब्जेक्ट बनाएँ"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "ज्यामिति आकृतियों में संयुक्त ऑब्जेक्ट बनाएँ"
+"url": "/hi/java/java-powerpoint-shape-formatting-geometry/create-composite-objects-geometry-shapes-powerpoint/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ज्यामिति आकृतियों में संयुक्त ऑब्जेक्ट बनाएँ
@@ -18,8 +20,8 @@ url: /hi/java/java-powerpoint-shape-formatting-geometry/create-composite-objects
 ## आवश्यक शर्तें
 इससे पहले कि हम कोड में प्रवेश करें, आपको कुछ चीजों की आवश्यकता होगी:
 - जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपके मशीन पर JDK 1.8 या उच्चतर संस्करण स्थापित है।
-- एकीकृत विकास वातावरण (आईडीई): इंटेलीज आईडीईए या एक्लिप्स जैसा आईडीई आपके जीवन को आसान बना देगा।
--  Aspose.Slides for Java: आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/) या इसे अपने प्रोजेक्ट में शामिल करने के लिए Maven का उपयोग करें।
+- एकीकृत विकास वातावरण (आईडीई): इंटेलीज आईडिया या एक्लिप्स जैसा आईडीई आपके जीवन को आसान बना देगा।
+- Aspose.Slides for Java: आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/) या इसे अपने प्रोजेक्ट में शामिल करने के लिए Maven का उपयोग करें।
 - जावा का बुनियादी ज्ञान: यह ट्यूटोरियल मानता है कि आपको जावा की बुनियादी समझ है।
 ## पैकेज आयात करें
 सबसे पहले, आइए Aspose.Slides for Java के साथ आरंभ करने के लिए आवश्यक पैकेजों को आयात करें।
@@ -30,9 +32,9 @@ import com.aspose.slides.*;
 
 मिश्रित ऑब्जेक्ट बनाना जटिल लग सकता है, लेकिन इसे प्रबंधनीय चरणों में तोड़कर, आप पाएंगे कि यह जितना आप सोचते हैं उससे कहीं ज़्यादा आसान है। हम एक पावरपॉइंट प्रेजेंटेशन बनाएंगे, एक आकृति जोड़ेंगे, और फिर मिश्रित आकृति बनाने के लिए कई ज्यामिति पथों को परिभाषित और लागू करेंगे।
 ## चरण 1: अपना प्रोजेक्ट सेट करें
- कोई भी कोड लिखने से पहले, अपना जावा प्रोजेक्ट सेट अप करें। अपने IDE में एक नया प्रोजेक्ट बनाएँ और Aspose.Slides for Java को शामिल करें। आप Maven का उपयोग करके लाइब्रेरी जोड़ सकते हैं या JAR फ़ाइल को डाउनलोड कर सकते हैं।[Aspose.Slides डाउनलोड पृष्ठ](https://releases.aspose.com/slides/java/).
+कोई भी कोड लिखने से पहले, अपना जावा प्रोजेक्ट सेट अप करें। अपने IDE में एक नया प्रोजेक्ट बनाएँ और Aspose.Slides for Java को शामिल करें। आप Maven का उपयोग करके लाइब्रेरी जोड़ सकते हैं या JAR फ़ाइल को डाउनलोड कर सकते हैं। [Aspose.Slides डाउनलोड पृष्ठ](https://releases.aspose.com/slides/java/).
 ### Maven का उपयोग करके अपने प्रोजेक्ट में Aspose.Slides जोड़ना
- यदि आप Maven का उपयोग कर रहे हैं, तो अपने में निम्नलिखित निर्भरता जोड़ें`pom.xml` फ़ाइल:
+यदि आप Maven का उपयोग कर रहे हैं, तो अपने में निम्नलिखित निर्भरता जोड़ें `pom.xml` फ़ाइल:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -41,9 +43,9 @@ import com.aspose.slides.*;
 </dependency>
 ```
 ## चरण 2: प्रस्तुति आरंभ करें
-अब, चलिए एक नया पावरपॉइंट प्रेजेंटेशन बनाते हैं। हम इसे इनिशियलाइज़ करके शुरू करेंगे।`Presentation` कक्षा।
+अब, चलिए एक नया पावरपॉइंट प्रेजेंटेशन बनाते हैं। हम इसे इनिशियलाइज़ करके शुरू करेंगे। `Presentation` कक्षा।
 ```java
-// आउटपुट फ़ाइल नाम
+// आउटपुट फ़ाइल का नाम
 String resultPath = "Your Output Directory" +  "GeometryShapeCompositeObjects.pptx";
 Presentation pres = new Presentation();
 ```
@@ -53,7 +55,7 @@ Presentation pres = new Presentation();
 GeometryShape shape = (GeometryShape) pres.getSlides().get_Item(0).getShapes().addAutoShape(ShapeType.Rectangle, 100, 100, 200, 100);
 ```
 ## चरण 4: पहला ज्यामिति पथ परिभाषित करें
- हम अपनी मिश्रित आकृति का पहला भाग एक बनाकर परिभाषित करेंगे`GeometryPath` और उसमें अंक जोड़ना।
+हम अपनी मिश्रित आकृति का पहला भाग एक बनाकर परिभाषित करेंगे `GeometryPath` और उसमें अंक जोड़ना।
 ```java
 GeometryPath geometryPath0 = new GeometryPath();
 geometryPath0.moveTo(0, 0);
@@ -77,7 +79,7 @@ geometryPath1.closeFigure();
 ```java
 shape.setGeometryPaths(new GeometryPath[]{geometryPath0, geometryPath1});
 ```
-## चरण 7: प्रेजेंटेशन सहेजें
+## चरण 7: प्रस्तुति सहेजें
 अंत में, अपनी प्रस्तुति को एक फ़ाइल में सेव करें।
 ```java
 String resultPath = "Your Output Directory" + "GeometryShapeCompositeObjects.pptx";
@@ -94,16 +96,18 @@ if (pres != null) pres.dispose();
 ### Java के लिए Aspose.Slides क्या है?
 Aspose.Slides for Java जावा में पावरपॉइंट प्रस्तुतियों को बनाने, उनमें हेरफेर करने और परिवर्तित करने के लिए एक शक्तिशाली लाइब्रेरी है।
 ### मैं Java के लिए Aspose.Slides कैसे स्थापित करूं?
- आप इसे Maven का उपयोग करके स्थापित कर सकते हैं या JAR फ़ाइल को डाउनलोड कर सकते हैं[वेबसाइट](https://releases.aspose.com/slides/java/).
+आप इसे Maven का उपयोग करके स्थापित कर सकते हैं या JAR फ़ाइल को डाउनलोड कर सकते हैं [वेबसाइट](https://releases.aspose.com/slides/java/).
 ### क्या मैं व्यावसायिक परियोजनाओं में Java के लिए Aspose.Slides का उपयोग कर सकता हूँ?
- हां, लेकिन आपको लाइसेंस खरीदना होगा। आप अधिक जानकारी यहां पा सकते हैं[खरीद पृष्ठ](https://purchase.aspose.com/buy).
+हां, लेकिन आपको लाइसेंस खरीदना होगा। आप अधिक जानकारी यहां पा सकते हैं [खरीद पृष्ठ](https://purchase.aspose.com/buy).
 ### क्या कोई निःशुल्क परीक्षण उपलब्ध है?
- हां, आप यहां से निःशुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप यहां से निःशुल्क परीक्षण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
 ### मुझे अधिक दस्तावेज और सहायता कहां मिल सकती है?
- इसकी जाँच पड़ताल करो[प्रलेखन](https://reference.aspose.com/slides/java/) और[सहयता मंच](https://forum.aspose.com/c/slides/11).
+इसकी जाँच पड़ताल करो [प्रलेखन](https://reference.aspose.com/slides/java/) और [सहयता मंच](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

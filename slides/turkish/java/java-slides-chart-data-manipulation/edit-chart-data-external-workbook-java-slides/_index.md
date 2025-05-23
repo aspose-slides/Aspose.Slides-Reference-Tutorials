@@ -1,58 +1,60 @@
 ---
-title: Java Slaytlarında Harici Çalışma Kitabındaki Grafik Verilerini Düzenleme
-linktitle: Java Slaytlarında Harici Çalışma Kitabındaki Grafik Verilerini Düzenleme
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides for Java'yı kullanarak harici bir çalışma kitabındaki grafik verilerini nasıl düzenleyeceğinizi öğrenin. Kaynak koduyla adım adım kılavuz.
-weight: 17
-url: /tr/java/chart-data-manipulation/edit-chart-data-external-workbook-java-slides/
+"description": "Java için Aspose.Slides'ı kullanarak harici bir çalışma kitabındaki grafik verilerini nasıl düzenleyeceğinizi öğrenin. Kaynak kodlu adım adım kılavuz."
+"linktitle": "Java Slaytlarında Harici Çalışma Kitabındaki Grafik Verilerini Düzenleme"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java Slaytlarında Harici Çalışma Kitabındaki Grafik Verilerini Düzenleme"
+"url": "/tr/java/chart-data-manipulation/edit-chart-data-external-workbook-java-slides/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java Slaytlarında Harici Çalışma Kitabındaki Grafik Verilerini Düzenleme
 
 
-## Java Slaytlarında Harici Çalışma Kitabındaki Grafik Verilerini Düzenlemeye Giriş
+## Java Slaytlarında Harici Çalışma Kitabında Grafik Verilerini Düzenlemeye Giriş
 
-Bu kılavuzda, harici bir çalışma kitabındaki grafik verilerinin Aspose.Slides for Java kullanılarak nasıl düzenleneceğini göstereceğiz. Bir PowerPoint sunumundaki grafik verilerini programlı olarak nasıl değiştireceğinizi öğreneceksiniz. Projenizde Java için Aspose.Slides kütüphanesinin kurulu ve yapılandırılmış olduğundan emin olun.
+Bu kılavuzda, Java için Aspose.Slides kullanarak harici bir çalışma kitabındaki grafik verilerinin nasıl düzenleneceğini göstereceğiz. PowerPoint sunumunda grafik verilerinin programatik olarak nasıl değiştirileceğini öğreneceksiniz. Projenizde Java için Aspose.Slides kitaplığının yüklü ve yapılandırılmış olduğundan emin olun.
 
-## Önkoşullar
+## Ön koşullar
 
 - Java için Aspose.Slides
 - Java geliştirme ortamı
 
-## 1. Adım: Sunuyu Yükleyin
+## Adım 1: Sunumu Yükleyin
 
- Öncelikle verilerini düzenlemek istediğimiz grafiğin bulunduğu PowerPoint sunumunu yüklememiz gerekiyor. Yer değiştirmek`"Your Document Directory"` sunum dosyanızın gerçek yolunu belirtin.
+Öncelikle düzenlemek istediğimiz verinin bulunduğu grafiğin bulunduğu PowerPoint sunumunu yüklememiz gerekiyor. Değiştir `"Your Document Directory"` sunum dosyanızın gerçek yolunu içerir.
 
 ```java
-// Belgeler dizininin yolu.
+// Belgeler dizinine giden yol.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "presentation.pptx");
 ```
 
-## Adım 2: Grafiğe Erişin
+## Adım 2: Tabloya Erişim
 
-Sunum yüklendikten sonra sunum içindeki grafiğe erişmemiz gerekiyor. Bu örnekte grafiğin ilk slaytta olduğunu ve o slayttaki ilk şekil olduğunu varsayıyoruz.
+Sunum yüklendikten sonra, sunum içindeki grafiğe erişmemiz gerekir. Bu örnekte, grafiğin ilk slaytta olduğunu ve o slayttaki ilk şekil olduğunu varsayıyoruz.
 
 ```java
 IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
 ```
 
-## 3. Adım: Grafik Verilerini Değiştirin
+## Adım 3: Grafik Verilerini Değiştirin
 
-Şimdi grafik verilerini değiştirelim. Grafikteki belirli bir veri noktasını değiştirmeye odaklanacağız. Bu örnekte ilk serideki ilk veri noktasının değerini 100 olarak ayarladık. Bu değeri ihtiyacınıza göre ayarlayabilirsiniz.
+Şimdi grafik verilerini değiştirelim. Grafikteki belirli bir veri noktasını değiştirmeye odaklanacağız. Bu örnekte, ilk serideki ilk veri noktasının değerini 100 olarak ayarladık. Bu değeri gerektiği gibi ayarlayabilirsiniz.
 
 ```java
 ChartData chartData = (ChartData) chart.getChartData();
 chartData.getSeries().get_Item(0).getDataPoints().get_Item(0).getValue().getAsCell().setValue(100);
 ```
 
-## 4. Adım: Sunuyu Kaydetme
+## Adım 4: Sunumu Kaydedin
 
-Grafik verilerinde gerekli değişiklikleri yaptıktan sonra değiştirilen sunumu yeni bir dosyaya kaydedin. Gereksinimlerinize göre çıktı dosyası yolunu ve biçimini belirleyebilirsiniz.
+Grafik verilerinde gerekli değişiklikleri yaptıktan sonra, değiştirilen sunumu yeni bir dosyaya kaydedin. Gereksinimlerinize göre çıktı dosyası yolunu ve biçimini belirtebilirsiniz.
 
 ```java
 pres.save("output.pptx", SaveFormat.Pptx);
@@ -60,20 +62,20 @@ pres.save("output.pptx", SaveFormat.Pptx);
 
 ## Adım 5: Temizleme
 
-Kaynakları serbest bırakmak için sunum nesnesini elden çıkarmayı unutmayın.
+Herhangi bir kaynağı serbest bırakmak için sunum nesnesini elden çıkarmayı unutmayın.
 
 ```java
 if (pres != null) pres.dispose();
 ```
 
-Artık Aspose.Slides for Java'yı kullanarak PowerPoint sunumunuzdaki harici çalışma kitabındaki grafik verilerini başarıyla düzenlediniz. Bu kodu özel ihtiyaçlarınıza uyacak şekilde özelleştirebilir ve Java uygulamalarınıza entegre edebilirsiniz.
+Artık PowerPoint sunumunuzdaki harici bir çalışma kitabındaki grafik verilerini Aspose.Slides for Java kullanarak başarıyla düzenlediniz. Bu kodu özel ihtiyaçlarınıza uyacak şekilde özelleştirebilir ve Java uygulamalarınıza entegre edebilirsiniz.
 
-## Kaynak Kodunu Tamamlayın
+## Tam Kaynak Kodu
 
 ```java
-        // Sunumda harici çalışma kitabına giden yolun neredeyse hiç kaydedilmediğine dikkat edin
-        // bu nedenle, örneği çalıştırmadan önce lütfen D:\Aspose.Slides\Aspose.Slides-for-.NET-master\Examples\Data\Charts\'dan externalWorkbook.xlsx dosyasını kopyalayın.
-        // Belgeler dizininin yolu.
+        // Dikkat edin, harici çalışma kitabına giden yol sunumda neredeyse hiç kaydedilmiyor
+        // bu nedenle lütfen örneği çalıştırmadan önce externalWorkbook.xlsx dosyasını Data/Chart dizininden D:\Aspose.Slides\Aspose.Slides-for-.NET-master\Examples\Data\Charts\ kopyalayın
+        // Belgeler dizinine giden yol.
         String dataDir = "Your Document Directory";
         Presentation pres = new Presentation(dataDir + "presentation.pptx");
         try
@@ -90,28 +92,30 @@ Artık Aspose.Slides for Java'yı kullanarak PowerPoint sunumunuzdaki harici ça
 ```
 ## Çözüm
 
-Bu kapsamlı kılavuzda, Aspose.Slides for Java kullanarak PowerPoint sunumlarındaki harici çalışma kitaplarındaki grafik verilerinin nasıl düzenleneceğini araştırdık. Adım adım talimatları ve kaynak kodu örneklerini takip ederek, grafik verilerini programlı olarak kolaylıkla değiştirmek için gereken bilgi ve becerileri kazandınız.
+Bu kapsamlı kılavuzda, Aspose.Slides for Java kullanarak PowerPoint sunumlarındaki harici çalışma kitaplarındaki grafik verilerinin nasıl düzenleneceğini inceledik. Adım adım talimatları ve kaynak kodu örneklerini izleyerek, grafik verilerini kolaylıkla programatik olarak değiştirmek için bilgi ve beceriler kazandınız.
 
-## SSS'ler
+## SSS
 
-### Farklı bir grafiği veya slaytı nasıl belirlerim?
+### Farklı bir grafik veya slayt nasıl belirtebilirim?
 
- Farklı bir grafiğe veya slayda erişmek için uygun dizini değiştirin.`getSlides().get_Item()` Ve`getShapes().get_Item()`yöntemler. İndekslemenin 0'dan başladığını unutmayın.
+Farklı bir grafiğe veya slayta erişmek için, ilgili dizini değiştirin. `getSlides().get_Item()` Ve `getShapes().get_Item()` yöntemler. İndekslemenin 0'dan başladığını unutmayın.
 
-### Aynı sunumda birden fazla grafikteki verileri düzenleyebilir miyim?
+### Aynı sunum içerisinde birden fazla grafikteki verileri düzenleyebilir miyim?
 
-Evet, her grafik için grafik verileri değiştirme adımlarını tekrarlayarak aynı sunumda birden fazla grafikteki verileri düzenleyebilirsiniz.
+Evet, aynı sunum içerisinde birden fazla grafikteki verileri, her grafik için grafik verisi değiştirme adımlarını tekrarlayarak düzenleyebilirsiniz.
 
 ### Harici bir çalışma kitabındaki verileri farklı bir biçimde düzenlemek istersem ne olur?
 
-Kodu, farklı harici çalışma kitabı formatlarını işlemek için uygun Aspose.Cells sınıflarını ve bu formattaki verileri okumak ve yazmak için yöntemleri kullanarak uyarlayabilirsiniz.
+Uygun Aspose.Cells sınıflarını ve bu formattaki verileri okumak ve yazmak için kullanılan yöntemleri kullanarak kodu farklı harici çalışma kitabı formatlarını işleyecek şekilde uyarlayabilirsiniz.
 
-### Birden fazla sunum için bu süreci nasıl otomatikleştirebilirim?
+### Bu süreci birden fazla sunum için nasıl otomatikleştirebilirim?
 
-Birden fazla sunumu işlemek, her birini yüklemek, istediğiniz değişiklikleri yapmak ve değiştirilen sunumları tek tek kaydetmek için bir döngü oluşturabilirsiniz.
+Birden fazla sunumu işlemek için bir döngü oluşturabilir, her birini yükleyebilir, istediğiniz değişiklikleri yapabilir ve değiştirilen sunumları tek tek kaydedebilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

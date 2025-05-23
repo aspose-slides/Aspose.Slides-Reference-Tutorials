@@ -1,60 +1,62 @@
 ---
-title: Gráfico Obtener rango en diapositivas de Java
-linktitle: Gráfico Obtener rango en diapositivas de Java
-second_title: Aspose.Slides API de procesamiento de PowerPoint Java
-description: Aprenda cómo recuperar rangos de gráficos en Java Slides usando Aspose.Slides para la API de Java. Guía paso a paso con código fuente para un acceso eficaz a los datos de los gráficos.
-weight: 16
-url: /es/java/data-manipulation/chart-get-range-java-slides/
+"description": "Aprenda a recuperar rangos de gráficos en Java Slides usando Aspose.Slides para la API de Java. Guía paso a paso con código fuente para acceder eficazmente a los datos de los gráficos."
+"linktitle": "Obtener rango de gráficos en diapositivas de Java"
+"second_title": "API de procesamiento de PowerPoint en Java de Aspose.Slides"
+"title": "Obtener rango de gráficos en diapositivas de Java"
+"url": "/es/java/data-manipulation/chart-get-range-java-slides/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Gráfico Obtener rango en diapositivas de Java
+# Obtener rango de gráficos en diapositivas de Java
 
 
-## Introducción al rango de obtención de gráficos en diapositivas de Java
+## Diapositivas de introducción a la obtención de rangos de gráficos en Java
 
-En esta guía paso a paso, exploraremos cómo obtener el rango de un gráfico en Java Slides utilizando la API Aspose.Slides para Java. Lo guiaremos a través del proceso con ejemplos detallados de código fuente. Si desea acceder al rango de un gráfico en su presentación de Java Slides, siga las instrucciones para aprender cómo hacerlo.
+En esta guía paso a paso, exploraremos cómo obtener el rango de un gráfico en Java Slides usando la API de Aspose.Slides para Java. Le guiaremos a través del proceso con ejemplos detallados de código fuente. Si desea acceder al rango de un gráfico en su presentación de Java Slides, siga las instrucciones para aprender cómo.
 
-## Requisitos previos
+## Prerrequisitos
 
-Antes de profundizar en el código, asegúrese de cumplir con los siguientes requisitos previos:
+Antes de sumergirnos en el código, asegúrese de tener los siguientes requisitos previos:
 
-- Kit de desarrollo de Java (JDK) instalado en su sistema.
--  Aspose.Slides para la biblioteca Java. Puedes descargarlo desde[aquí](https://releases.aspose.com/slides/java/).
+- Java Development Kit (JDK) instalado en su sistema.
+- Biblioteca Aspose.Slides para Java. Puedes descargarla desde [aquí](https://releases.aspose.com/slides/java/).
 
-## Paso 1: configurar el entorno
+## Paso 1: Configuración del entorno
 
-Antes de comenzar a escribir código, asegúrese de tener agregada la biblioteca Aspose.Slides para Java al classpath de su proyecto. Puede descargar la biblioteca desde el enlace proporcionado en la sección de requisitos previos.
+Antes de empezar a escribir código, asegúrese de tener la biblioteca Aspose.Slides para Java añadida a la ruta de clases de su proyecto. Puede descargarla desde el enlace proporcionado en la sección de prerrequisitos.
 
-## Paso 2: crear una presentación
+## Paso 2: Crear una presentación
 
-Para comenzar, crearemos una presentación usando Aspose.Slides. Aquí está el código para crear un objeto de presentación:
+Para empezar, crearemos una presentación con Aspose.Slides. Aquí está el código para crear un objeto de presentación:
 
 ```java
 // La ruta al directorio de documentos.
 Presentation pres = new Presentation();
 ```
 
-## Paso 3: agregar un gráfico
+## Paso 3: Agregar un gráfico
 
-A continuación, agregaremos un gráfico a la presentación. En este ejemplo, crearemos un gráfico de columnas agrupadas. Aquí está el código para agregar el gráfico:
+A continuación, añadiremos un gráfico a la presentación. En este ejemplo, crearemos un gráfico de columnas agrupadas. Aquí está el código para añadir el gráfico:
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 400, 300);
 ```
 
-## Paso 4: obtener el alcance
+## Paso 4: Obtener el alcance
 
- Ahora viene la parte donde obtenemos el rango del gráfico. Usaremos el`getChartData().getRange()` método para lograr esto:
+Ahora viene la parte donde obtenemos el rango del gráfico. Usaremos el `getChartData().getRange()` Método para lograr esto:
 
 ```java
 String result = chart.getChartData().getRange();
 ```
 
-## Paso 5: Mostrar el resultado
+## Paso 5: Visualización del resultado
 
 Imprimamos el resultado para ver el rango del gráfico:
 
@@ -62,7 +64,7 @@ Imprimamos el resultado para ver el rango del gráfico:
 System.out.println("GetRange result : " + result);
 ```
 
-## Código fuente completo para el rango de obtención de gráficos en diapositivas de Java
+## Código fuente completo para obtener rangos de gráficos en diapositivas de Java
 
 ```java
 // La ruta al directorio de documentos.
@@ -81,33 +83,35 @@ finally
 
 ## Conclusión
 
-En esta guía, aprendimos cómo obtener el rango de un gráfico en Java Slides usando la API Aspose.Slides para Java. Cubrimos la configuración del entorno, la creación de una presentación, la adición de un gráfico y la obtención del rango. Ahora puede utilizar este conocimiento en sus proyectos de Java Slides para acceder a rangos de gráficos de manera efectiva.
+En esta guía, aprendimos a obtener el rango de un gráfico en Java Slides mediante la API de Aspose.Slides para Java. Cubrimos la configuración del entorno, la creación de una presentación, la adición de un gráfico y la obtención del rango. Ahora puedes usar estos conocimientos en tus proyectos de Java Slides para acceder a los rangos de los gráficos de forma eficaz.
 
 ## Preguntas frecuentes
 
 ### ¿Cómo puedo descargar Aspose.Slides para Java?
 
- Puede descargar Aspose.Slides para Java desde el sitio web de Aspose utilizando este enlace:[Descargar Aspose.Slides para Java](https://releases.aspose.com/slides/java/).
+Puede descargar Aspose.Slides para Java desde el sitio web de Aspose usando este enlace: [Descargar Aspose.Slides para Java](https://releases.aspose.com/slides/java/).
 
-### ¿Puedo utilizar Aspose.Slides para Java de forma gratuita?
+### ¿Puedo usar Aspose.Slides para Java gratis?
 
-Aspose.Slides para Java es una biblioteca comercial, pero puedes explorar sus funciones con una prueba gratuita. Sin embargo, para uso en producción, deberá adquirir una licencia.
+Aspose.Slides para Java es una biblioteca comercial, pero puedes explorar sus funciones con una prueba gratuita. Sin embargo, para uso en producción, necesitarás adquirir una licencia.
 
-### ¿Existen otros tipos de gráficos compatibles con Aspose.Slides para Java?
+### ¿Hay otros tipos de gráficos compatibles con Aspose.Slides para Java?
 
-Sí, Aspose.Slides para Java admite varios tipos de gráficos, incluidos gráficos de barras, gráficos circulares, gráficos de líneas y más. Puede explorar la documentación para obtener una lista completa de los tipos de gráficos admitidos.
+Sí, Aspose.Slides para Java admite varios tipos de gráficos, como gráficos de barras, circulares y de líneas, entre otros. Puede consultar la documentación para obtener una lista completa de los tipos de gráficos compatibles.
 
 ### ¿Puedo personalizar la apariencia del gráfico usando Aspose.Slides para Java?
 
-Sí, puede personalizar la apariencia de los gráficos, como cambiar colores, fuentes y estilos, utilizando la API Aspose.Slides para Java. Consulte la documentación para conocer las opciones de personalización detalladas.
+Sí, puede personalizar la apariencia de los gráficos, como cambiar colores, fuentes y estilos, mediante la API de Aspose.Slides para Java. Consulte la documentación para obtener información detallada sobre las opciones de personalización.
 
 ### ¿Dónde puedo encontrar más recursos y documentación para Aspose.Slides para Java?
 
- Puede encontrar documentación y recursos completos para Aspose.Slides para Java en el sitio:[Documentación de Aspose.Slides para Java](https://reference.aspose.com/slides/java/).
+Puede encontrar documentación y recursos completos para Aspose.Slides para Java en el sitio: [Documentación de Aspose.Slides para Java](https://reference.aspose.com/slides/java/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,42 +1,44 @@
 ---
-title: Hantera egenskapsdiagram i Java Slides
-linktitle: Hantera egenskapsdiagram i Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Lär dig att skapa fantastiska diagram och hantera egenskaper i Java-bilder med Aspose.Slides. Steg-för-steg-guide med källkod för kraftfulla presentationer.
-weight: 13
-url: /sv/java/data-manipulation/manage-properties-charts-java-slides/
+"description": "Lär dig skapa fantastiska diagram och hantera egenskaper i Java-bilder med Aspose.Slides. Steg-för-steg-guide med källkod för kraftfulla presentationer."
+"linktitle": "Hantera egenskapsdiagram i Java Slides"
+"second_title": "Aspose.Slides Java PowerPoint-bearbetnings-API"
+"title": "Hantera egenskapsdiagram i Java Slides"
+"url": "/sv/java/data-manipulation/manage-properties-charts-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hantera egenskapsdiagram i Java Slides
 
 
-## Introduktion till hantering av egenskaper och diagram i Java Slides med Aspose.Slides
+## Introduktion till hantering av egenskaper och diagram i Java Slides med hjälp av Aspose.Slides
 
-I den här handledningen kommer vi att utforska hur man hanterar egenskaper och skapar diagram i Java-bilder med Aspose.Slides. Aspose.Slides är ett kraftfullt Java API för att arbeta med PowerPoint-presentationer. Vi kommer att gå igenom steg-för-steg-processen, inklusive källkodsexempel.
+I den här handledningen ska vi utforska hur man hanterar egenskaper och skapar diagram i Java-bilder med hjälp av Aspose.Slides. Aspose.Slides är ett kraftfullt Java API för att arbeta med PowerPoint-presentationer. Vi går igenom processen steg för steg, inklusive exempel på källkod.
 
-## Förutsättningar
+## Förkunskapskrav
 
-Innan vi börjar, se till att du har Aspose.Slides-biblioteket för Java installerat och konfigurerat i ditt projekt. Du kan ladda ner den från[här](https://releases.aspose.com/slides/java/).
+Innan vi börjar, se till att du har Aspose.Slides-biblioteket för Java installerat och konfigurerat i ditt projekt. Du kan ladda ner det från [här](https://releases.aspose.com/slides/java/).
 
-## Lägga till ett diagram till en bild
+## Lägga till ett diagram i en bild
 
-För att lägga till ett diagram till en bild, följ dessa steg:
+Så här lägger du till ett diagram i en bild:
 
-1. Importera de nödvändiga klasserna och skapa en instans av klassen Presentation.
+1. Importera de nödvändiga klasserna och skapa en instans av Presentation-klassen.
 
 ```java
-// Skapa en instans av presentationsklassen
+// Skapa en instans av Presentation-klassen
 Presentation presentation = new Presentation();
 ```
 
-2. Öppna bilden där du vill lägga till diagrammet. I det här exemplet kommer vi åt den första bilden.
+2. Gå till den bild där du vill lägga till diagrammet. I det här exemplet går vi till den första bilden.
 
 ```java
-// Få tillgång till första bilden
+// Åtkomst till första bilden
 ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
@@ -47,25 +49,25 @@ ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn3D, 0, 0, 500, 500);
 ```
 
-## Ställa in diagramdata
+## Data för inställningsdiagram
 
-För att ställa in diagramdata måste vi skapa en diagramdataarbetsbok och lägga till serier och kategorier. Följ dessa steg:
+För att ställa in diagramdata måste vi skapa en arbetsbok för diagramdata och lägga till serier och kategorier. Följ dessa steg:
 
-4. Ställ in index för diagramdatabladet.
+4. Ställ in index för diagrammets datablad.
 
 ```java
-// Ställa in index för diagramdatabladet
+// Ställa in index för diagramdatablad
 int defaultWorksheetIndex = 0;
 ```
 
-5. Skaffa arbetsboken för diagramdata.
+5. Hämta arbetsboken för diagramdata.
 
 ```java
-// Hämta arbetsbladet för diagramdata
+// Hämta diagramdataarbetsbladet
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
 
-6. Lägg till serier i diagrammet. I det här exemplet lägger vi till två serier som heter "Serie 1" och "Serie 2".
+6. Lägg till serier i diagrammet. I det här exemplet lägger vi till två serier med namnet "Serie 1" och "Serie 2".
 
 ```java
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
@@ -80,11 +82,11 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Category 3"));
 ```
 
-## Ställa in 3D-rotationsegenskaper
+## Ställa in egenskaper för 3D-rotation
 
-Låt oss nu ställa in 3D-rotationsegenskaper för diagrammet:
+Nu ska vi ställa in 3D-rotationsegenskaper för diagrammet:
 
-8. Ställ in de räta vinkelaxlarna.
+8. Ställ in de rätvinkliga axlarna.
 
 ```java
 chart.getRotation3D().setRightAngleAxes(true);
@@ -103,7 +105,7 @@ chart.getRotation3D().setRotationY(270);
 chart.getRotation3D().setDepthPercents(150);
 ```
 
-## Fylla på seriedata
+## Ifyllning av seriedata
 
 11. Ta den andra diagramserien och fyll den med datapunkter.
 
@@ -121,13 +123,13 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 
 ## Justera överlappning
 
-12. Ställ in överlappningsvärdet för serier. Du kan till exempel ställa in den till 100 för ingen överlappning.
+12. Ställ in överlappningsvärdet för serier. Du kan till exempel ställa in det på 100 för ingen överlappning.
 
 ```java
 series.getParentSeriesGroup().setOverlap((byte) 100);
 ```
 
-## Sparar presentationen
+## Spara presentationen
 
 Slutligen, spara presentationen på disk.
 
@@ -135,45 +137,45 @@ Slutligen, spara presentationen på disk.
 presentation.save(dataDir + "Rotation3D_out.pptx", SaveFormat.Pptx);
 ```
 
-Det är allt! Du har framgångsrikt skapat ett 3D-staplat kolumndiagram med anpassade egenskaper med Aspose.Slides i Java.
+Det var allt! Du har skapat ett staplat 3D-kolumndiagram med anpassade egenskaper med hjälp av Aspose.Slides i Java.
 
-## Komplett källkod för hantering av egenskapsdiagram i Java Slides
+## Komplett källkod för att hantera egenskaper i diagram i Java-presentationer
 
 ```java
 // Sökvägen till dokumentkatalogen.
 String dataDir = "Your Document Directory";
-// Skapa en instans av presentationsklassen
+// Skapa en instans av Presentation-klassen
 Presentation presentation = new Presentation();
-// Få tillgång till första bilden
+// Åtkomst till första bilden
 ISlide slide = presentation.getSlides().get_Item(0);
 // Lägg till diagram med standarddata
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn3D, 0, 0, 500, 500);
-// Ställa in index för diagramdatabladet
+// Ställa in index för diagramdatablad
 int defaultWorksheetIndex = 0;
-// Hämta arbetsbladet för diagramdata
+// Hämta diagramdataarbetsbladet
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
-// Lägg till serier
+// Lägg till serie
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), chart.getType());
-// Lägg till Catrgories
+// Lägg till kategorier
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 1, 0, "Caetegoty 1"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 0, "Caetegoty 2"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
-// Ställ in egenskaper för Rotation3D
+// Ange Rotation3D-egenskaper
 chart.getRotation3D().setRightAngleAxes(true);
 chart.getRotation3D().setRotationX((byte) 40);
 chart.getRotation3D().setRotationY(270);
 chart.getRotation3D().setDepthPercents(150);
-// Ta andra diagramserien
+// Ta den andra diagramserien
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-// Fyller nu på seriedata
+// Nu fyller seriedata
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-// Ställ in överlappningsvärde
+// Ställ in OverLap-värdet
 series.getParentSeriesGroup().setOverlap((byte) 100);
 // Skriv presentation till disk
 presentation.save(dataDir + "Rotation3D_out.pptx", SaveFormat.Pptx);
@@ -181,32 +183,34 @@ presentation.save(dataDir + "Rotation3D_out.pptx", SaveFormat.Pptx);
 
 ## Slutsats
 
-den här handledningen grävde vi in i världen av att hantera egenskaper och skapa diagram i Java-bilder med Aspose.Slides. Aspose.Slides är ett robust Java API som gör det möjligt för utvecklare att arbeta med PowerPoint-presentationer effektivt. Vi täckte de väsentliga stegen och gav källkodsexempel för att guida dig genom processen.
+den här handledningen fördjupade vi oss i hur man hanterar egenskaper och skapar diagram i Java-bilder med hjälp av Aspose.Slides. Aspose.Slides är ett robust Java API som gör det möjligt för utvecklare att arbeta effektivt med PowerPoint-presentationer. Vi har gått igenom de viktigaste stegen och tillhandahållit exempel på källkod som vägleder dig genom processen.
 
-## FAQ's
+## Vanliga frågor
 
 ### Hur kan jag ändra diagramtypen?
 
- Du kan ändra diagramtypen genom att ändra`ChartType` parameter när du lägger till diagrammet. Se Aspose.Slides-dokumentationen för tillgängliga diagramtyper.
+Du kan ändra diagramtypen genom att modifiera `ChartType` parametern när du lägger till diagrammet. Se dokumentationen för Aspose.Slides för tillgängliga diagramtyper.
 
-### Kan jag anpassa diagramfärgerna?
+### Kan jag anpassa diagrammets färger?
 
 Ja, du kan anpassa diagramfärgerna genom att ställa in fyllningsegenskaperna för seriedatapunkter eller kategorier.
 
 ### Hur lägger jag till fler datapunkter i en serie?
 
- Du kan lägga till fler datapunkter till en serie genom att använda`series.getDataPoints().addDataPointForBarSeries()` metod och ange cellen som innehåller datavärdet.
+Du kan lägga till fler datapunkter i en serie genom att använda `series.getDataPoints().addDataPointForBarSeries()` metod och anger cellen som innehåller datavärdet.
 
 ### Hur kan jag ställa in en annan rotationsvinkel?
 
- För att ställa in en annan rotationsvinkel för X- och Y-axlarna, använd`chart.getRotation3D().setRotationX()` och`chart.getRotation3D().setRotationY()` med önskade vinkelvärden.
+För att ställa in en annan rotationsvinkel för X- och Y-axlarna, använd `chart.getRotation3D().setRotationX()` och `chart.getRotation3D().setRotationY()` med önskade vinkelvärden.
 
 ### Vilka andra 3D-egenskaper kan jag anpassa?
 
-Du kan utforska andra 3D-egenskaper i diagrammet, såsom djup, perspektiv och belysning, genom att hänvisa till Aspose.Slides-dokumentationen.
+Du kan utforska andra 3D-egenskaper i diagrammet, såsom djup, perspektiv och ljussättning, genom att läsa dokumentationen för Aspose.Slides.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

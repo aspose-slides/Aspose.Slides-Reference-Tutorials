@@ -1,37 +1,39 @@
 ---
-title: Graf obnovení sešitu v Java Slides
-linktitle: Graf obnovení sešitu v Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Naučte se, jak obnovit sešity z grafů v Java Slides pomocí Aspose.Slides. Podrobný průvodce automatizací PowerPointu.
-weight: 17
-url: /cs/java/data-manipulation/chart-recover-workbook-java-slides/
+"description": "Naučte se, jak obnovit sešity z grafů v Java Slides pomocí Aspose.Slides. Podrobný návod pro automatizaci PowerPointu."
+"linktitle": "Obnova grafů v sešitu Java Slides"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Obnova grafů v sešitu Java Slides"
+"url": "/cs/java/data-manipulation/chart-recover-workbook-java-slides/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Graf obnovení sešitu v Java Slides
+# Obnova grafů v sešitu Java Slides
 
 
-## Úvod do sešitu Chart Recover v Java Slides
+## Úvod do sešitu pro obnovu grafů v Javě Slides
 
-Při práci s PowerPointovými prezentacemi v Javě se můžete setkat se scénáři, kdy potřebujete obnovit data sešitu z grafu. To může být zásadní úkol, zejména při práci s prezentacemi založenými na datech. Aspose.Slides for Java tento proces zjednodušuje a v této příručce vám ukážeme, jak na to.
+Při práci s prezentacemi v PowerPointu v Javě se můžete setkat se situacemi, kdy potřebujete obnovit data sešitu z grafu. To může být klíčový úkol, zejména při práci s prezentacemi založenými na datech. Aspose.Slides pro Javu tento proces zjednodušuje a v této příručce vám ukážeme, jak na to.
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte splněny následující předpoklady:
 
-- Java Development Kit (JDK) nainstalovaný ve vašem systému.
--  Aspose.Slides pro knihovnu Java. Můžete si jej stáhnout z[tady](https://releases.aspose.com/slides/java/).
+- Na vašem systému nainstalovaná sada pro vývoj Java (JDK).
+- Knihovna Aspose.Slides pro Javu. Můžete si ji stáhnout z [zde](https://releases.aspose.com/slides/java/).
 
-## Krok 1: Nastavení vašeho projektu
+## Krok 1: Nastavení projektu
 
-Vytvořte nový projekt Java ve svém oblíbeném integrovaném vývojovém prostředí (IDE) a přidejte knihovnu Aspose.Slides for Java do závislostí svého projektu.
+Vytvořte nový projekt Java ve vašem oblíbeném integrovaném vývojovém prostředí (IDE) a přidejte knihovnu Aspose.Slides for Java do závislostí vašeho projektu.
 
-## Krok 2: Import nezbytných tříd
+## Krok 2: Import potřebných tříd
 
-Ve svém kódu Java importujte požadované třídy z Aspose.Slides for Java:
+Do kódu Java importujte požadované třídy z Aspose.Slides pro Javu:
 
 ```java
 import com.aspose.slides.*;
@@ -39,7 +41,7 @@ import com.aspose.slides.*;
 
 ## Krok 3: Načtení prezentace
 
-Načtěte prezentaci PowerPoint obsahující graf, ze kterého chcete obnovit data sešitu:
+Načtěte prezentaci PowerPointu, která obsahuje graf, ze kterého chcete obnovit data sešitu:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -59,7 +61,7 @@ try
 {
     IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
-    // Zde provádějte operace s daty sešitu
+    // Provádět operace s daty sešitu zde
     pres.save(outPptxFile, SaveFormat.Pptx);
 }
 finally
@@ -68,10 +70,10 @@ finally
 }
 ```
 
-## Kompletní zdrojový kód pro sešit obnovení grafu v Java Slides
+## Kompletní zdrojový kód pro sešit pro obnovu grafů v Javě Slides
 
 ```java
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 String dataDir = "Your Document Directory";
 String pptxFile = dataDir + "ExternalWB.pptx";
 String outPptxFile = RunExamples.OutPath + "ExternalWB_out.pptx";
@@ -92,32 +94,34 @@ finally
 
 ## Závěr
 
-této příručce jsme prošli procesem obnovení sešitu z grafu v aplikaci Java Slides pomocí Aspose.Slides for Java. Tato knihovna zjednodušuje úkol a usnadňuje vývojářům programovou práci s prezentacemi PowerPoint. Nyní můžete s jistotou zpracovávat prezentace založené na datech a podle potřeby extrahovat informace ze sešitu.
+V této příručce jsme si prošli procesem obnovy sešitu z grafu v Java Slides pomocí knihovny Aspose.Slides pro Javu. Tato knihovna zjednodušuje úkol a usnadňuje vývojářům programově pracovat s prezentacemi v PowerPointu. Nyní můžete s jistotou pracovat s prezentacemi založenými na datech a podle potřeby extrahovat informace ze sešitu.
 
-## FAQ
+## Často kladené otázky
 
-### Jak nainstaluji Aspose.Slides for Java?
+### Jak nainstaluji Aspose.Slides pro Javu?
 
- Aspose.Slides for Java lze snadno nainstalovat stažením knihovny z webové stránky na adrese[tady](https://releases.aspose.com/slides/java/). Postupujte podle pokynů k instalaci a integrujte jej do svého projektu Java.
+Knihovnu Aspose.Slides pro Javu lze snadno nainstalovat stažením z webových stránek na adrese [zde](https://releases.aspose.com/slides/java/)Postupujte podle pokynů k instalaci a integrujte jej do svého projektu Java.
 
 ### Mohu obnovit data sešitu z libovolného grafu v prezentaci PowerPoint?
 
-Ano, můžete obnovit data sešitu z libovolného grafu v prezentaci PowerPoint, pokud máte knihovnu Aspose.Slides for Java a graf je přístupný v rámci prezentace. Poskytnutý fragment kódu ukazuje, jak toho dosáhnout.
+Ano, data sešitu můžete obnovit z libovolného grafu v prezentaci PowerPoint, pokud máte knihovnu Aspose.Slides pro Javu a graf je v prezentaci přístupný. Uvedený úryvek kódu ukazuje, jak toho dosáhnout.
 
-### Existují nějaké další možnosti pro práci s daty grafu pomocí Aspose.Slides pro Java?
+### Existují nějaké další možnosti pro práci s grafickými daty pomocí Aspose.Slides pro Javu?
 
-Ano, Aspose.Slides for Java nabízí širokou škálu možností pro práci s daty grafu. Můžete manipulovat s vlastnostmi grafu, načítat datové body a provádět různé operace s grafy, abyste splnili své specifické požadavky.
+Ano, Aspose.Slides pro Javu nabízí širokou škálu možností pro práci s daty grafů. Můžete manipulovat s vlastnostmi grafu, načítat datové body a provádět s grafy různé operace podle vašich specifických požadavků.
 
-### Je Aspose.Slides for Java vhodný pro profesionální automatizaci PowerPointu?
+### Je Aspose.Slides pro Javu vhodný pro profesionální automatizaci PowerPointu?
 
-Absolutně! Aspose.Slides for Java je výkonná knihovna pro automatizaci úloh aplikace PowerPoint, takže je vhodná pro základní i pokročilé případy profesionálního použití. Poskytuje rozsáhlé funkce pro vytváření, úpravy a správu prezentací PowerPoint programově.
+Rozhodně! Aspose.Slides pro Javu je výkonná knihovna pro automatizaci úloh v PowerPointu, takže je vhodná pro základní i pokročilé profesionální použití. Nabízí rozsáhlé funkce pro programovou tvorbu, úpravu a správu prezentací v PowerPointu.
 
-### Jak mohu získat přístup k další dokumentaci k Aspose.Slides for Java?
+### Jak mohu získat další dokumentaci k Aspose.Slides pro Javu?
 
- Pro podrobnou dokumentaci a odkazy na Aspose.Slides for Java navštivte stránku dokumentace na adrese[tady](https://reference.aspose.com/slides/java/).
+Podrobnou dokumentaci a reference k Aspose.Slides pro Javu naleznete na stránce s dokumentací na adrese [zde](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

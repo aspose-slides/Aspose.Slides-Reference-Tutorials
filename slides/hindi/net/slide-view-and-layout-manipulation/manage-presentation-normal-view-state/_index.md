@@ -1,14 +1,16 @@
 ---
-title: सामान्य दृश्य स्थिति में प्रस्तुति प्रबंधित करें
-linktitle: सामान्य दृश्य स्थिति में प्रस्तुति प्रबंधित करें
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: Aspose.Slides for .NET का उपयोग करके सामान्य दृश्य स्थिति में प्रस्तुतियों को प्रबंधित करना सीखें। चरण-दर-चरण मार्गदर्शन और पूर्ण स्रोत कोड के साथ प्रोग्रामेटिक रूप से प्रस्तुतियाँ बनाएँ, संशोधित करें और बढ़ाएँ।
-weight: 11
-url: /hi/net/slide-view-and-layout-manipulation/manage-presentation-normal-view-state/
+"description": ".NET के लिए Aspose.Slides का उपयोग करके सामान्य दृश्य स्थिति में प्रस्तुतियों को प्रबंधित करना सीखें। चरण-दर-चरण मार्गदर्शन और पूर्ण स्रोत कोड के साथ प्रोग्रामेटिक रूप से प्रस्तुतियाँ बनाएँ, संशोधित करें और बढ़ाएँ।"
+"linktitle": "सामान्य दृश्य स्थिति में प्रस्तुति प्रबंधित करें"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "सामान्य दृश्य स्थिति में प्रस्तुति प्रबंधित करें"
+"url": "/hi/net/slide-view-and-layout-manipulation/manage-presentation-normal-view-state/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # सामान्य दृश्य स्थिति में प्रस्तुति प्रबंधित करें
@@ -21,7 +23,7 @@ url: /hi/net/slide-view-and-layout-manipulation/manage-presentation-normal-view-
 
 Aspose.Slides for .NET का उपयोग करके प्रस्तुतियों को प्रबंधित करने की जटिलताओं में गोता लगाने से पहले, आपको अपना विकास वातावरण सेट करना होगा। आपको यह करना होगा:
 
-1.  .NET के लिए Aspose.Slides डाउनलोड करें: यहाँ जाएँ[डाउनलोड पृष्ठ](https://releases.aspose.com/slides/net/).NET के लिए Aspose.Slides का नवीनतम संस्करण प्राप्त करने के लिए।
+1. .NET के लिए Aspose.Slides डाउनलोड करें: यहाँ जाएँ [डाउनलोड पृष्ठ](https://releases.aspose.com/slides/net/) .NET के लिए Aspose.Slides का नवीनतम संस्करण प्राप्त करने के लिए।
 
 2. Aspose.Slides स्थापित करें: लाइब्रेरी डाउनलोड करने के बाद, दस्तावेज़ में दिए गए स्थापना निर्देशों का पालन करें।
 
@@ -64,13 +66,13 @@ ISlide slide = presentation.Slides.AddSlide(presentation.Slides.Count + 1, prese
 
 ## स्लाइड सामग्री संशोधित करना
 
-Aspose.Slides for .NET की असली ताकत स्लाइड कंटेंट में हेरफेर करने की इसकी क्षमता में निहित है। आप स्लाइड के शीर्षक सेट कर सकते हैं, टेक्स्ट जोड़ सकते हैं, चित्र डाल सकते हैं, और बहुत कुछ कर सकते हैं। आइए स्लाइड में शीर्षक और कंटेंट जोड़ें:
+Aspose.Slides for .NET की असली ताकत स्लाइड कंटेंट में हेरफेर करने की इसकी क्षमता में निहित है। आप स्लाइड शीर्षक सेट कर सकते हैं, टेक्स्ट जोड़ सकते हैं, चित्र डाल सकते हैं, और बहुत कुछ कर सकते हैं। आइए स्लाइड में शीर्षक और कंटेंट जोड़ें:
 
 ```csharp
 // स्लाइड शीर्षक सेट करें
 slide.Shapes.Title.TextFrame.Text = "Welcome to Aspose.Slides";
 
-//सामग्री जोड़ें
+// सामग्री जोड़ें
 IAutoShape contentShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 100, 600, 300);
 contentShape.TextFrame.Text = "Create stunning presentations with Aspose.Slides!";
 ```
@@ -107,7 +109,7 @@ presentation.Save("output.pptx", SaveFormat.Pptx);
 
 ### मैं .NET के लिए Aspose.Slides कैसे स्थापित कर सकता हूँ?
 
- आप .NET के लिए Aspose.Slides को यहाँ से डाउनलोड कर सकते हैं।[डाउनलोड पृष्ठ](https://releases.aspose.com/slides/net/).
+आप .NET के लिए Aspose.Slides को यहाँ से डाउनलोड कर सकते हैं। [डाउनलोड पृष्ठ](https://releases.aspose.com/slides/net/).
 
 ### Aspose.Slides कौन सी प्रोग्रामिंग भाषाओं का समर्थन करता है?
 
@@ -117,19 +119,21 @@ Aspose.Slides कई प्रोग्रामिंग भाषाओं क
 
 हां, आप अपनी प्रस्तुतियों के लिए अद्वितीय डिज़ाइन बनाने के लिए Aspose.Slides का उपयोग करके स्लाइड लेआउट को अनुकूलित कर सकते हैं।
 
-### क्या किसी स्लाइड पर अलग-अलग तत्वों में एनिमेशन जोड़ना संभव है?
+### क्या स्लाइड पर अलग-अलग तत्वों में एनिमेशन जोड़ना संभव है?
 
 हां, Aspose.Slides आपको स्लाइड पर अलग-अलग तत्वों में एनिमेशन जोड़ने की अनुमति देता है, जिससे आपकी प्रस्तुतियों का दृश्य आकर्षण बढ़ जाता है।
 
 ### मैं Aspose.Slides for .NET के लिए व्यापक दस्तावेज़ कहां पा सकता हूं?
 
-आप Aspose.Slides for .NET के लिए व्यापक दस्तावेज़ों तक पहुँच सकते हैं[एपीआई संदर्भ](https://reference.aspose.com/slides/net/) पृष्ठ।
+आप Aspose.Slides for .NET के लिए व्यापक दस्तावेज़ों तक पहुँच सकते हैं [एपीआई संदर्भ](https://reference.aspose.com/slides/net/) पृष्ठ.
 
 ## निष्कर्ष
 इस गाइड में, हमने Aspose.Slides for .NET का उपयोग करके सामान्य दृश्य स्थिति में प्रस्तुतियों को प्रबंधित करने का तरीका खोजा है। इसकी मज़बूत विशेषताओं के साथ, आप प्रोग्रामेटिक रूप से प्रस्तुतियाँ बना सकते हैं, संशोधित कर सकते हैं और बढ़ा सकते हैं, यह सुनिश्चित करते हुए कि आपकी सामग्री आपके दर्शकों को प्रभावी ढंग से आकर्षित करती है। चाहे आप एक पेशेवर प्रस्तुतकर्ता हों या प्रस्तुति-संबंधी अनुप्रयोगों पर काम करने वाले डेवलपर हों, Aspose.Slides for .NET आपके लिए सहज प्रस्तुति प्रबंधन का प्रवेश द्वार है।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

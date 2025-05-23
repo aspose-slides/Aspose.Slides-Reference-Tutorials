@@ -1,14 +1,16 @@
 ---
-title: Java Slaytlarında Orijinal Yazı Tiplerini Koruyarak Sunumu HTML'ye Dönüştürme
-linktitle: Java Slaytlarında Orijinal Yazı Tiplerini Koruyarak Sunumu HTML'ye Dönüştürme
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides for Java'yı kullanarak orijinal yazı tiplerini korurken PowerPoint sunumlarınızı HTML'ye dönüştürün.
-weight: 14
-url: /tr/java/presentation-conversion/convert-presentation-html-preserve-fonts-java-slides/
+"description": "Aspose.Slides for Java'yı kullanarak PowerPoint sunumlarınızı orijinal yazı tiplerini koruyarak HTML'e dönüştürün."
+"linktitle": "Java Slaytlarında Orijinal Yazı Tiplerini Koruyarak Sunumu HTML'ye Dönüştürme"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java Slaytlarında Orijinal Yazı Tiplerini Koruyarak Sunumu HTML'ye Dönüştürme"
+"url": "/tr/java/presentation-conversion/convert-presentation-html-preserve-fonts-java-slides/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java Slaytlarında Orijinal Yazı Tiplerini Koruyarak Sunumu HTML'ye Dönüştürme
@@ -16,16 +18,16 @@ url: /tr/java/presentation-conversion/convert-presentation-html-preserve-fonts-j
 
 ## Java Slaytlarında Orijinal Yazı Tiplerini Koruyarak Sunumu HTML'ye Dönüştürmeye Giriş
 
-Bu eğitimde, Aspose.Slides for Java kullanarak orijinal yazı tiplerini koruyarak bir PowerPoint sunumunu (PPTX) HTML'ye nasıl dönüştürebileceğinizi keşfedeceğiz. Bu, ortaya çıkan HTML'nin orijinal sunumun görünümüne çok benzemesini sağlayacaktır.
+Bu eğitimde, Aspose.Slides for Java kullanarak orijinal yazı tiplerini koruyarak bir PowerPoint sunumunu (PPTX) HTML'ye nasıl dönüştüreceğimizi inceleyeceğiz. Bu, ortaya çıkan HTML'nin orijinal sunumun görünümüne yakın olmasını sağlayacaktır.
 
-## Adım 1: Projeyi Ayarlama
+## Adım 1: Projenin Kurulumu
 Koda dalmadan önce gerekli kurulumun yapıldığından emin olalım:
 
-1. Aspose.Slides for Java'yı indirin: Henüz yapmadıysanız Aspose.Slides for Java kütüphanesini indirin ve projenize ekleyin.
+1. Aspose.Slides for Java'yı indirin: Eğer henüz yapmadıysanız, Aspose.Slides for Java kütüphanesini indirin ve projenize ekleyin.
 
-2. Java Projesi Oluşturun: Favori IDE'nizde bir Java projesi oluşturun ve Aspose.Slides JAR dosyasını yerleştirebileceğiniz bir "lib" klasörünüz olduğundan emin olun.
+2. Bir Java Projesi Oluşturun: Favori IDE'nizde bir Java projesi oluşturun ve Aspose.Slides JAR dosyasını yerleştirebileceğiniz bir "lib" klasörünüz olduğundan emin olun.
 
-3. Gerekli Sınıfları İçe Aktar: Java dosyanızın başında gerekli sınıfları içe aktarın:
+3. Gerekli Sınıfları İçe Aktar: Java dosyanızın başına gerekli sınıfları içe aktarın:
 
 ```java
 import com.aspose.slides.EmbedAllFontsHtmlController;
@@ -37,13 +39,13 @@ import com.aspose.slides.SaveFormat;
 
 ## Adım 2: Sunumu Orijinal Yazı Tipleriyle HTML'ye Dönüştürme
 
-Şimdi orijinal yazı tiplerini koruyarak bir PowerPoint sunumunu HTML'ye dönüştürelim:
+Şimdi, orijinal yazı tiplerini koruyarak bir PowerPoint sunumunu HTML'e dönüştürelim:
 
 ```java
-// Belgeler dizininin yolu.
+// Belgeler dizinine giden yol.
 String dataDir = "Your Document Directory";
 
-// Sunuyu yükle
+// Sunumu yükle
 Presentation pres = new Presentation("input.pptx");
 
 try {
@@ -51,34 +53,34 @@ try {
     String[] fontNameExcludeList = {"Calibri", "Arial"};
     EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
     
-    // HTML seçenekleri oluşturun ve özel HTML biçimlendiriciyi ayarlayın
+    // HTML seçenekleri oluşturun ve özel HTML biçimlendiricisini ayarlayın
     HtmlOptions htmlOptionsEmbed = new HtmlOptions();
     htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(embedFontsController));
     
-    // Sunuyu HTML olarak kaydet
+    // Sunumu HTML olarak kaydedin
     pres.save("output.html", SaveFormat.Html, htmlOptionsEmbed);
 } finally {
-    // Sunum nesnesini atın
+    // Sunum nesnesini elden çıkarın
     if (pres != null) pres.dispose();
 }
 ```
 
 Bu kod parçacığında:
 
--  Giriş PowerPoint sunumunu kullanarak yüklüyoruz`Presentation`.
+- Giriş PowerPoint sunumunu kullanarak yüklüyoruz `Presentation`.
 
-- Bir yazı tipi listesi tanımlarız (`fontNameExcludeList`HTML'ye yerleştirilmesinin dışında tutmak istediğimiz. Bu, dosya boyutunu küçültmek amacıyla Calibri ve Arial gibi yaygın yazı tiplerini hariç tutmak için kullanışlıdır.
+- Bir yazı tipleri listesi tanımlıyoruz (`fontNameExcludeList`) HTML'e yerleştirmekten hariç tutmak istediğimiz. Bu, dosya boyutunu azaltmak için Calibri ve Arial gibi yaygın yazı tiplerini hariç tutmak için yararlıdır.
 
--  Bir örneğini oluşturuyoruz`EmbedAllFontsHtmlController` ve yazı tipi hariç tutma listesini ona iletin.
+- Bir örnek oluşturuyoruz `EmbedAllFontsHtmlController` ve font dışlama listesini ona iletin.
 
--  Biz yaratırız`HtmlOptions` ve kullanarak özel bir HTML biçimlendirici ayarlayın.`HtmlFormatter.createCustomFormatter(embedFontsController)`.
+- Biz yaratıyoruz `HtmlOptions` ve kullanarak özel bir HTML biçimlendirici ayarlayın `HtmlFormatter.createCustomFormatter(embedFontsController)`.
 
-- Son olarak belirtilen seçeneklerle sunumu HTML olarak kaydediyoruz.
+- Son olarak sunumu belirtilen seçeneklerle HTML olarak kaydediyoruz.
 
-## Java Slaytlarında Orijinal Yazı Tiplerini Koruyarak Sunumu HTML'ye Dönüştürmek İçin Eksiksiz Kaynak Kodu
+## Java Slaytlarında Orijinal Yazı Tiplerini Koruyarak Sunumu HTML'ye Dönüştürmek İçin Tam Kaynak Kodu
 
 ```java
-// Belgeler dizininin yolu.
+// Belgeler dizinine giden yol.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation("input.pptx");
 try
@@ -98,28 +100,30 @@ finally
 
 ## Çözüm
 
-Bu eğitimde Aspose.Slides for Java kullanarak bir PowerPoint sunumunu orijinal yazı tiplerini koruyarak HTML'ye nasıl dönüştüreceğinizi öğrendiniz. Bu, sunumlarınızı web'de paylaşırken görsel doğruluğunu korumak istediğinizde kullanışlıdır.
+Bu eğitimde, Aspose.Slides for Java kullanarak orijinal yazı tiplerini koruyarak bir PowerPoint sunumunu HTML'ye nasıl dönüştüreceğinizi öğrendiniz. Bu, sunumlarınızı web'de paylaşırken görsel sadakatini korumak istediğinizde faydalıdır.
 
-## SSS'ler
+## SSS
 
 ### Aspose.Slides for Java'yı nasıl indirebilirim?
 
- Aspose.Slides for Java'yı Aspose web sitesinden indirebilirsiniz. Ziyaret etmek[Burada](https://downloads.aspose.com/slides/java/) En son sürümü almak için.
+Aspose.Slides for Java'yı Aspose web sitesinden indirebilirsiniz. Ziyaret edin [Burada](https://downloads.aspose.com/slides/java/) En son sürümü edinmek için.
 
 ### Hariç tutulan yazı tiplerinin listesini özelleştirebilir miyim?
 
- Evet, özelleştirebilirsiniz`fontNameExcludeList` Gereksinimlerinize göre belirli yazı tiplerini dahil etmek veya hariç tutmak için dizi.
+Evet, özelleştirebilirsiniz `fontNameExcludeList` İhtiyaçlarınıza göre belirli yazı tiplerini dahil etmek veya hariç tutmak için dizi.
 
-### Bu yöntem PPT gibi eski PowerPoint formatlarında işe yarar mı?
+### Bu yöntem PPT gibi eski PowerPoint formatlarında işe yarıyor mu?
 
-Bu kod örneği PPTX dosyaları için tasarlanmıştır. Eski PPT dosyalarını dönüştürmeniz gerekiyorsa kodda ayarlamalar yapmanız gerekebilir.
+Bu kod örneği PPTX dosyaları için tasarlanmıştır. Daha eski PPT dosyalarını dönüştürmeniz gerekiyorsa, kodda ayarlamalar yapmanız gerekebilir.
 
-### HTML çıktısını nasıl daha da özelleştirebilirim?
+### HTML çıktısını nasıl daha fazla özelleştirebilirim?
 
- Keşfedebilirsiniz`HtmlOptions` HTML çıktısının slayt boyutu, görüntü kalitesi ve daha fazlası gibi çeşitli yönlerini özelleştirmek için sınıf.
+Keşfedebilirsiniz `HtmlOptions` Slayt boyutu, resim kalitesi ve daha fazlası gibi HTML çıktısının çeşitli yönlerini özelleştirmek için kullanılan sınıf.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

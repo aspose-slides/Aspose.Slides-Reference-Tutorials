@@ -1,44 +1,46 @@
 ---
-title: Ověřit rozvržení grafu Přidáno do Slides Java
-linktitle: Ověřit rozvržení grafu Přidáno do Slides Java
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ověření rozložení hlavního grafu v PowerPointu pomocí Aspose.Slides pro Javu. Naučte se programově manipulovat s grafy pro úžasné prezentace.
-weight: 10
-url: /cs/java/data-manipulation/validate-chart-layout-added-java-slides/
+"description": "Zvládněte validaci rozvržení grafů v PowerPointu s Aspose.Slides pro Javu. Naučte se programově manipulovat s grafy pro úžasné prezentace."
+"linktitle": "Ověření rozvržení grafu přidaného do Java Slides"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Ověření rozvržení grafu přidaného do Java Slides"
+"url": "/cs/java/data-manipulation/validate-chart-layout-added-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ověřit rozvržení grafu Přidáno do Slides Java
+# Ověření rozvržení grafu přidaného do Java Slides
 
 
-## Úvod do ověřování rozložení grafu v Aspose.Slides pro Javu
+## Úvod do ověřování rozvržení grafu v Aspose.Slides pro Javu
 
-V tomto tutoriálu prozkoumáme, jak ověřit rozložení grafu v prezentaci PowerPoint pomocí Aspose.Slides for Java. Tato knihovna umožňuje programově pracovat s prezentacemi PowerPoint, což usnadňuje manipulaci a ověřování různých prvků, včetně grafů.
+V tomto tutoriálu se podíváme na to, jak ověřit rozvržení grafu v prezentaci PowerPoint pomocí knihovny Aspose.Slides pro Javu. Tato knihovna umožňuje programově pracovat s prezentacemi PowerPoint, což usnadňuje manipulaci a ověřování různých prvků, včetně grafů.
 
 ## Krok 1: Inicializace prezentace
 
- Nejprve musíme inicializovat objekt prezentace a načíst existující prezentaci v PowerPointu. Nahradit`"Your Document Directory"` se skutečnou cestou k souboru vaší prezentace (`test.pptx` v tomto příkladu).
+Nejprve musíme inicializovat objekt prezentace a načíst existující prezentaci v PowerPointu. Nahraďte `"Your Document Directory"` se skutečnou cestou k souboru vaší prezentace (`test.pptx` v tomto příkladu).
 
 ```java
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 ```
 
 ## Krok 2: Přidání grafu
 
- Dále do prezentace přidáme graf. V tomto příkladu přidáváme seskupený sloupcový graf, ale můžete změnit`ChartType` podle potřeby.
+Dále do prezentace přidáme graf. V tomto příkladu přidáváme klastrovaný sloupcový graf, ale můžete změnit `ChartType` podle potřeby.
 
 ```java
 Chart chart = (Chart) pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 100, 100, 500, 350);
 ```
 
-## Krok 3: Ověření rozložení grafu
+## Krok 3: Ověření rozvržení grafu
 
- Nyní ověříme rozložení grafu pomocí`validateChartLayout()` metoda. Tím je zajištěno, že je graf na snímku správně rozložen.
+Nyní ověříme rozvržení grafu pomocí `validateChartLayout()` metoda. Tím je zajištěno správné uspořádání grafu na snímku.
 
 ```java
 chart.validateChartLayout();
@@ -46,7 +48,7 @@ chart.validateChartLayout();
 
 ## Krok 4: Načtení pozice a velikosti grafu
 
-Po ověření rozložení grafu možná budete chtít získat informace o jeho poloze a velikosti. Můžeme získat skutečné souřadnice X a Y, stejně jako šířku a výšku oblasti grafu.
+Po ověření rozvržení grafu můžete chtít získat informace o jeho poloze a velikosti. Můžeme získat skutečné souřadnice X a Y, stejně jako šířku a výšku vykreslované oblasti grafu.
 
 ```java
 double x = chart.getPlotArea().getActualX();
@@ -57,7 +59,7 @@ double h = chart.getPlotArea().getActualHeight();
 
 ## Krok 5: Uložení prezentace
 
- Nakonec si upravenou prezentaci nezapomeňte uložit. V tomto příkladu jej ukládáme jako`Result.pptx`, ale v případě potřeby můžete zadat jiný název souboru.
+Nakonec nezapomeňte upravenou prezentaci uložit. V tomto příkladu ji ukládáme jako `Result.pptx`, ale v případě potřeby můžete zadat jiný název souboru.
 
 ```java
 pres.save(dataDir + "Result.pptx", SaveFormat.Pptx);
@@ -66,7 +68,7 @@ pres.save(dataDir + "Result.pptx", SaveFormat.Pptx);
 ## Kompletní zdrojový kód pro ověření rozvržení grafu přidán do Java Slides
 
 ```java
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 try
@@ -88,25 +90,27 @@ finally
 
 ## Závěr
 
-V tomto tutoriálu jsme se ponořili do světa práce s grafy v prezentacích PowerPoint pomocí Aspose.Slides for Java. Probrali jsme základní kroky k ověření rozložení grafu, načtení jeho pozice a velikosti a uložení upravené prezentace. Zde je rychlá rekapitulace:
+V tomto tutoriálu jsme se ponořili do světa práce s grafy v prezentacích PowerPointu pomocí Aspose.Slides pro Javu. Probrali jsme základní kroky pro ověření rozvržení grafu, načtení jeho pozice a velikosti a uložení upravené prezentace. Zde je stručné shrnutí:
 
-## FAQ
+## Často kladené otázky
 
 ### Jak změním typ grafu?
 
- Chcete-li změnit typ grafu, jednoduše jej nahraďte`ChartType.ClusteredColumn` požadovaným typem grafu v`addChart()` metoda.
+Chcete-li změnit typ grafu, jednoduše nahraďte `ChartType.ClusteredColumn` požadovaným typem grafu v `addChart()` metoda.
 
-### Mohu přizpůsobit data grafu?
+### Mohu si přizpůsobit data grafu?
 
-Ano, data grafu můžete přizpůsobit přidáním a úpravou datových řad, kategorií a hodnot. Další podrobnosti naleznete v dokumentaci Aspose.Slides.
+Ano, data grafu si můžete přizpůsobit přidáním a úpravou datových řad, kategorií a hodnot. Další podrobnosti naleznete v dokumentaci k Aspose.Slides.
 
 ### Co když chci upravit další vlastnosti grafu?
 
-Můžete přistupovat k různým vlastnostem grafu a upravovat je podle svých požadavků. Prozkoumejte dokumentaci Aspose.Slides, kde najdete komplexní informace o manipulaci s grafy.
+Můžete přistupovat k různým vlastnostem grafu a přizpůsobovat je podle svých požadavků. Prostudujte si dokumentaci k Aspose.Slides, kde najdete komplexní informace o manipulaci s grafy.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

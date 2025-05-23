@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में चार्ट डेटा लेबल की वास्तविक स्थिति प्राप्त करें
-linktitle: जावा स्लाइड्स में चार्ट डेटा लेबल की वास्तविक स्थिति प्राप्त करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके Java स्लाइड्स में चार्ट डेटा लेबल की वास्तविक स्थिति प्राप्त करना सीखें। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 18
-url: /hi/java/data-manipulation/actual-position-chart-data-label-java-slides/
+"description": "Aspose.Slides for Java का उपयोग करके Java स्लाइड्स में चार्ट डेटा लेबल की वास्तविक स्थिति प्राप्त करना सीखें। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "जावा स्लाइड्स में चार्ट डेटा लेबल की वास्तविक स्थिति प्राप्त करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में चार्ट डेटा लेबल की वास्तविक स्थिति प्राप्त करें"
+"url": "/hi/java/data-manipulation/actual-position-chart-data-label-java-slides/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में चार्ट डेटा लेबल की वास्तविक स्थिति प्राप्त करें
@@ -16,7 +18,7 @@ url: /hi/java/data-manipulation/actual-position-chart-data-label-java-slides/
 
 ## जावा स्लाइड्स में चार्ट डेटा लेबल की वास्तविक स्थिति प्राप्त करने का परिचय
 
-इस ट्यूटोरियल में, आप सीखेंगे कि Aspose.Slides for Java का उपयोग करके चार्ट डेटा लेबल की वास्तविक स्थिति कैसे प्राप्त करें। हम एक जावा प्रोग्राम बनाएंगे जो एक चार्ट के साथ एक पावरपॉइंट प्रेजेंटेशन तैयार करता है, डेटा लेबल को कस्टमाइज़ करता है, और फिर इन डेटा लेबल की स्थिति का प्रतिनिधित्व करने वाले आकार जोड़ता है।
+इस ट्यूटोरियल में, आप सीखेंगे कि Aspose.Slides for Java का उपयोग करके चार्ट डेटा लेबल की वास्तविक स्थिति कैसे प्राप्त करें। हम एक जावा प्रोग्राम बनाएंगे जो एक चार्ट के साथ एक पावरपॉइंट प्रेजेंटेशन तैयार करता है, डेटा लेबल को कस्टमाइज़ करता है, और फिर इन डेटा लेबल की स्थिति का प्रतिनिधित्व करने वाली आकृतियाँ जोड़ता है।
 
 ## आवश्यक शर्तें
 
@@ -132,13 +134,13 @@ finally
 
 ## निष्कर्ष
 
-इस ट्यूटोरियल में, आपने सीखा है कि Aspose.Slides for Java का उपयोग करके Java स्लाइड्स में चार्ट डेटा लेबल की वास्तविक स्थिति को कैसे प्राप्त किया जाए। अब आप इस ज्ञान का उपयोग अपने PowerPoint प्रस्तुतियों को अनुकूलित डेटा लेबल और उनकी स्थिति के दृश्य प्रतिनिधित्व के साथ बढ़ाने के लिए कर सकते हैं।
+इस ट्यूटोरियल में, आपने सीखा है कि Aspose.Slides for Java का उपयोग करके Java स्लाइड्स में चार्ट डेटा लेबल की वास्तविक स्थिति कैसे प्राप्त करें। अब आप इस ज्ञान का उपयोग अपने PowerPoint प्रस्तुतियों को अनुकूलित डेटा लेबल और उनकी स्थिति के दृश्य प्रतिनिधित्व के साथ बढ़ाने के लिए कर सकते हैं।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### मैं चार्ट में डेटा लेबल को कैसे अनुकूलित कर सकता हूँ?
 
- चार्ट में डेटा लेबल को अनुकूलित करने के लिए, आप इसका उपयोग कर सकते हैं`setDefaultDataLabelFormat` चार्ट श्रृंखला पर विधि और स्थिति और दृश्यता जैसे गुण सेट करें। उदाहरण के लिए:
+चार्ट में डेटा लेबल को अनुकूलित करने के लिए, आप इसका उपयोग कर सकते हैं `setDefaultDataLabelFormat` चार्ट श्रृंखला पर विधि और स्थिति और दृश्यता जैसे गुण सेट करें। उदाहरण के लिए:
 ```java
 for (IChartSeries series : chart.getChartData().getSeries()) {
     series.getLabels().getDefaultDataLabelFormat().setPosition(LegendDataLabelPosition.OutsideEnd);
@@ -148,7 +150,7 @@ for (IChartSeries series : chart.getChartData().getSeries()) {
 
 ### मैं डेटा लेबल की स्थिति को दर्शाने के लिए आकृतियाँ कैसे जोड़ सकता हूँ?
 
- आप चार्ट श्रृंखला के डेटा बिंदुओं के माध्यम से पुनरावृत्ति कर सकते हैं और इसका उपयोग कर सकते हैं`getActualX`, `getActualY`, `getActualWidth` , और`getActualHeight`डेटा लेबल की विधियाँ इसकी स्थिति जानने के लिए। फिर, आप इसका उपयोग करके आकृतियाँ जोड़ सकते हैं`addAutoShape` विधि। यहाँ एक उदाहरण है:
+आप चार्ट श्रृंखला के डेटा बिंदुओं के माध्यम से पुनरावृत्ति कर सकते हैं और इसका उपयोग कर सकते हैं `getActualX`, `getActualY`, `getActualWidth`, और `getActualHeight` डेटा लेबल की विधियाँ इसकी स्थिति प्राप्त करने के लिए। फिर, आप इसका उपयोग करके आकृतियाँ जोड़ सकते हैं `addAutoShape` विधि। यहाँ एक उदाहरण है:
 ```java
 float x = point.getLabel().getActualX();
 float y = point.getLabel().getActualY();
@@ -159,13 +161,15 @@ IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Elli
 
 ### मैं तैयार प्रस्तुति को कैसे सहेज सकता हूँ?
 
- आप उत्पन्न प्रस्तुति को सहेज सकते हैं`save` विधि। वांछित फ़ाइल पथ और प्रदान करें`SaveFormat` पैरामीटर के रूप में। उदाहरण के लिए:
+आप उत्पन्न प्रस्तुति को सहेज सकते हैं `save` विधि। वांछित फ़ाइल पथ और प्रदान करें `SaveFormat` पैरामीटर के रूप में। उदाहरण के लिए:
 ```java
 pres.save(dataDir + "GetActualPositionOFChartDatalabel.pptx", SaveFormat.Pptx);
 ```
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

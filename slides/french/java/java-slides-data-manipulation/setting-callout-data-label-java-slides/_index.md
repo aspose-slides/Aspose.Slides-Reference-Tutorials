@@ -1,31 +1,33 @@
 ---
-title: Définition d'une légende pour l'étiquette de données dans les diapositives Java
-linktitle: Définition d'une légende pour l'étiquette de données dans les diapositives Java
-second_title: API de traitement Java PowerPoint d'Aspose.Slides
-description: Découvrez comment configurer des légendes pour les étiquettes de données dans Aspose.Slides pour Java. Guide étape par étape avec le code source.
-weight: 25
-url: /fr/java/data-manipulation/setting-callout-data-label-java-slides/
+"description": "Apprenez à configurer des légendes pour les étiquettes de données dans Aspose.Slides pour Java. Guide étape par étape avec code source."
+"linktitle": "Définition d'une légende pour l'étiquette de données dans les diapositives Java"
+"second_title": "API de traitement Java PowerPoint Aspose.Slides"
+"title": "Définition d'une légende pour l'étiquette de données dans les diapositives Java"
+"url": "/fr/java/data-manipulation/setting-callout-data-label-java-slides/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Définition d'une légende pour l'étiquette de données dans les diapositives Java
 
 
-## Introduction à la définition de la légende pour l'étiquette de données dans Aspose.Slides pour Java
+## Introduction à la définition d'un appel pour une étiquette de données dans Aspose.Slides pour Java
 
-Dans ce didacticiel, nous montrerons comment configurer des légendes pour les étiquettes de données dans un graphique à l'aide d'Aspose.Slides pour Java. Les légendes peuvent être utiles pour mettre en évidence des points de données spécifiques dans votre graphique. Nous allons parcourir le code étape par étape et fournir le code source nécessaire.
+Dans ce tutoriel, nous vous montrerons comment configurer des légendes pour les étiquettes de données d'un graphique avec Aspose.Slides pour Java. Les légendes peuvent être utiles pour mettre en évidence des points de données spécifiques dans votre graphique. Nous vous expliquerons le code étape par étape et fournirons le code source nécessaire.
 
-## Conditions préalables
+## Prérequis
 
-- Aspose.Slides pour Java devrait être installé.
+- Vous devez avoir Aspose.Slides pour Java installé.
 - Créez un projet Java et ajoutez la bibliothèque Aspose.Slides à votre projet.
 
 ## Étape 1 : Créer une présentation et ajouter un graphique
 
- Tout d’abord, nous devons créer une présentation et ajouter un graphique à une diapositive. Assurez-vous de remplacer`"Your Document Directory"` avec le chemin réel vers votre répertoire de documents.
+Tout d'abord, nous devons créer une présentation et ajouter un graphique à une diapositive. Assurez-vous de remplacer `"Your Document Directory"` avec le chemin réel vers votre répertoire de documents.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -34,9 +36,9 @@ ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, false);
 ```
 
-## Étape 2 : configurer le graphique
+## Étape 2 : Configurer le graphique
 
-Ensuite, nous allons configurer le graphique en définissant des propriétés telles que la légende, les séries et les catégories.
+Ensuite, nous allons configurer le graphique en définissant des propriétés telles que la légende, la série et les catégories.
 
 ```java
 IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
@@ -44,7 +46,7 @@ chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 chart.setLegend(false);
 
-// Configurer les séries et les catégories (vous pouvez ajuster le nombre de séries et de catégories)
+// Configurer les séries et les catégories (Vous pouvez ajuster le nombre de séries et de catégories)
 int seriesIndex = 0;
 while (seriesIndex < 15) {
     IChartSeries series = chart.getChartData().getSeries().add(workBook.getCell(0, 0, seriesIndex + 1, "SERIES " + seriesIndex), chart.getType());
@@ -67,9 +69,9 @@ while (categoryIndex < 15) {
 }
 ```
 
-## Étape 3 : Personnaliser les étiquettes de données
+## Étape 3 : Personnaliser les étiquettes de données
 
-Nous allons maintenant personnaliser les étiquettes de données, notamment en définissant des légendes pour la dernière série.
+Nous allons maintenant personnaliser les étiquettes de données, y compris la configuration des légendes pour la dernière série.
 
 ```java
 int i = 0;
@@ -77,16 +79,16 @@ while (i < chart.getChartData().getSeries().size()) {
     IChartSeries iCS = chart.getChartData().getSeries().get_Item(i);
     IChartDataPoint dataPoint = iCS.getDataPoints().addDataPointForDoughnutSeries(workBook.getCell(0, categoryIndex + 1, i + 1, 1));
     dataPoint.getFormat().getFill().setFillType(FillType.Solid);
-    // Personnalisez le formatage des points de données (Remplissage, Ligne, etc.)
+    // Personnaliser le formatage des points de données (remplissage, ligne, etc.)
 
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
-        //Personnalisez le formatage des étiquettes (Police, Remplissage, etc.)
+        // Personnaliser la mise en forme des étiquettes (police, remplissage, etc.)
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
-        // Activer les accroches
+        // Activer les légendes
         lbl.getDataLabelFormat().setShowLabelAsDataCallout(true);
         lbl.getDataLabelFormat().setShowLeaderLines(true);
     }
@@ -94,7 +96,7 @@ while (i < chart.getChartData().getSeries().size()) {
 }
 ```
 
-## Étape 4 : Enregistrez la présentation
+## Étape 4 : Enregistrer la présentation
 
 Enfin, enregistrez la présentation avec le graphique configuré.
 
@@ -102,9 +104,9 @@ Enfin, enregistrez la présentation avec le graphique configuré.
 pres.save("chart.pptx", SaveFormat.Pptx);
 ```
 
-Vous avez désormais configuré avec succès des légendes pour les étiquettes de données dans un graphique à l'aide d'Aspose.Slides pour Java. Personnalisez le code en fonction de vos exigences spécifiques en matière de graphique et de données.
+Vous avez maintenant configuré avec succès les légendes des étiquettes de données d'un graphique avec Aspose.Slides pour Java. Personnalisez le code en fonction de vos besoins spécifiques en matière de graphique et de données.
 
-## Code source complet pour définir la légende de l'étiquette de données dans les diapositives Java
+## Code source complet pour la définition d'un appel pour l'étiquette de données dans les diapositives Java
 
 ```java
 String dataDir = "Your Document Directory";
@@ -168,13 +170,13 @@ pres.save("chart.pptx", SaveFormat.Pptx);
 
 ## Conclusion
 
-Dans ce didacticiel, nous avons expliqué comment configurer des légendes pour les étiquettes de données dans un graphique à l'aide d'Aspose.Slides pour Java. Les légendes sont des outils précieux pour mettre en valeur des points de données spécifiques dans vos graphiques et présentations. Nous avons fourni un guide étape par étape ainsi que le code source pour vous aider à réaliser cette personnalisation.
+Dans ce tutoriel, nous avons découvert comment configurer des légendes pour les étiquettes de données d'un graphique avec Aspose.Slides pour Java. Les légendes sont des outils précieux pour mettre en valeur des points de données spécifiques dans vos graphiques et présentations. Nous avons fourni un guide étape par étape ainsi que le code source pour vous aider à réaliser cette personnalisation.
 
 ## FAQ
 
 ### Comment personnaliser l’apparence des étiquettes de données ?
 
-Pour personnaliser l'apparence des étiquettes de données, vous pouvez modifier des propriétés telles que les styles de police, de remplissage et de ligne. Par exemple:
+Pour personnaliser l'apparence des étiquettes de données, vous pouvez modifier des propriétés telles que la police, le remplissage et les styles de ligne. Par exemple :
 
 ```java
 IDataLabel lbl = dataPoint.getLabel();
@@ -189,16 +191,16 @@ lbl.getDataLabelFormat().getFormat().getLine().getFillFormat().getSolidFillColor
 
 ### Comment puis-je activer ou désactiver les légendes pour les étiquettes de données ?
 
- Pour activer ou désactiver les légendes pour les étiquettes de données, utilisez l'option`setShowLabelAsDataCallout` méthode. Réglez-le sur`true` pour activer les légendes et`false`pour les désactiver.
+Pour activer ou désactiver les légendes pour les étiquettes de données, utilisez le `setShowLabelAsDataCallout` méthode. Définissez-le sur `true` pour activer les appels et `false` pour les désactiver.
 
 ```java
-lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // Activer les accroches
-lbl.getDataLabelFormat().setShowLabelAsDataCallout(false); // Désactiver les accroches
+lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // Activer les légendes
+lbl.getDataLabelFormat().setShowLabelAsDataCallout(false); // Désactiver les légendes
 ```
 
-### Puis-je personnaliser les lignes de repère des étiquettes de données ?
+### Puis-je personnaliser les lignes de repère pour les étiquettes de données ?
 
-Oui, vous pouvez personnaliser les lignes de repère des étiquettes de données à l'aide de propriétés telles que le style de ligne, la couleur et la largeur. Par exemple:
+Oui, vous pouvez personnaliser les lignes de repère des étiquettes de données à l'aide de propriétés telles que le style, la couleur et la largeur des lignes. Par exemple :
 
 ```java
 lbl.getDataLabelFormat().setShowLeaderLines(true); // Activer les lignes de repère
@@ -208,10 +210,12 @@ lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFor
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.BLACK);
 ```
 
-Voici quelques options de personnalisation courantes pour les étiquettes de données et les légendes dans Aspose.Slides pour Java. Vous pouvez adapter davantage l’apparence à vos besoins spécifiques.
+Voici quelques options de personnalisation courantes pour les étiquettes de données et les légendes dans Aspose.Slides pour Java. Vous pouvez personnaliser l'apparence selon vos besoins spécifiques.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

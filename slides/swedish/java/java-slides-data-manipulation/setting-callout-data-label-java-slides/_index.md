@@ -1,31 +1,33 @@
 ---
-title: Ställa in bildtext för dataetikett i Java Slides
-linktitle: Ställa in bildtext för dataetikett i Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Lär dig hur du ställer in bildtexter för dataetiketter i Aspose.Slides för Java. Steg-för-steg guide med källkod.
-weight: 25
-url: /sv/java/data-manipulation/setting-callout-data-label-java-slides/
+"description": "Lär dig hur du konfigurerar anrop för dataetiketter i Aspose.Slides för Java. Steg-för-steg-guide med källkod."
+"linktitle": "Ställa in anrop för dataetikett i Java Slides"
+"second_title": "Aspose.Slides Java PowerPoint-bearbetnings-API"
+"title": "Ställa in anrop för dataetikett i Java Slides"
+"url": "/sv/java/data-manipulation/setting-callout-data-label-java-slides/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ställa in bildtext för dataetikett i Java Slides
+# Ställa in anrop för dataetikett i Java Slides
 
 
-## Introduktion till inställning av bildtext för dataetikett i Aspose.Slides för Java
+## Introduktion till att ställa in callout för dataetikett i Aspose.Slides för Java
 
-den här handledningen kommer vi att visa hur man ställer in bildtexter för dataetiketter i ett diagram med Aspose.Slides för Java. Bildtexter kan vara användbara för att markera specifika datapunkter i ditt diagram. Vi går igenom koden steg för steg och tillhandahåller den nödvändiga källkoden.
+I den här handledningen visar vi hur man konfigurerar callouts för dataetiketter i ett diagram med hjälp av Aspose.Slides för Java. Callouts kan vara användbara för att markera specifika datapunkter i ditt diagram. Vi går igenom koden steg för steg och tillhandahåller den nödvändiga källkoden.
 
-## Förutsättningar
+## Förkunskapskrav
 
 - Du bör ha Aspose.Slides för Java installerat.
 - Skapa ett Java-projekt och lägg till Aspose.Slides-biblioteket i ditt projekt.
 
 ## Steg 1: Skapa en presentation och lägg till ett diagram
 
- Först måste vi skapa en presentation och lägga till ett diagram till en bild. Se till att byta ut`"Your Document Directory"` med den faktiska sökvägen till din dokumentkatalog.
+Först måste vi skapa en presentation och lägga till ett diagram i en bild. Se till att ersätta `"Your Document Directory"` med den faktiska sökvägen till din dokumentkatalog.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -36,7 +38,7 @@ IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, 
 
 ## Steg 2: Konfigurera diagrammet
 
-Därefter konfigurerar vi diagrammet genom att ställa in egenskaper som förklaring, serier och kategorier.
+Nästa steg är att konfigurera diagrammet genom att ange egenskaper som förklaring, serier och kategorier.
 
 ```java
 IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
@@ -69,7 +71,7 @@ while (categoryIndex < 15) {
 
 ## Steg 3: Anpassa dataetiketter
 
-Nu kommer vi att anpassa dataetiketterna, inklusive att ställa in länktexter för den senaste serien.
+Nu ska vi anpassa dataetiketterna, inklusive att konfigurera anrop för den senaste serien.
 
 ```java
 int i = 0;
@@ -77,16 +79,16 @@ while (i < chart.getChartData().getSeries().size()) {
     IChartSeries iCS = chart.getChartData().getSeries().get_Item(i);
     IChartDataPoint dataPoint = iCS.getDataPoints().addDataPointForDoughnutSeries(workBook.getCell(0, categoryIndex + 1, i + 1, 1));
     dataPoint.getFormat().getFill().setFillType(FillType.Solid);
-    // Anpassa datapunktsformatering (Fill, Line, etc.)
+    // Anpassa formateringen av datapunkter (fyllning, linje, etc.)
 
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
-        //Anpassa etikettformatering (teckensnitt, fyllning, etc.)
+        // Anpassa etikettformatering (teckensnitt, fyllning etc.)
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
-        // Aktivera länktexter
+        // Aktivera utrop
         lbl.getDataLabelFormat().setShowLabelAsDataCallout(true);
         lbl.getDataLabelFormat().setShowLeaderLines(true);
     }
@@ -96,15 +98,15 @@ while (i < chart.getChartData().getSeries().size()) {
 
 ## Steg 4: Spara presentationen
 
-Slutligen, spara presentationen med det konfigurerade diagrammet.
+Spara slutligen presentationen med det konfigurerade diagrammet.
 
 ```java
 pres.save("chart.pptx", SaveFormat.Pptx);
 ```
 
-Nu har du framgångsrikt ställt in bildtexter för dataetiketter i ett diagram med Aspose.Slides för Java. Anpassa koden enligt dina specifika diagram och datakrav.
+Nu har du konfigurerat anrop för dataetiketter i ett diagram med Aspose.Slides för Java. Anpassa koden efter dina specifika diagram- och datakrav.
 
-## Komplett källkod för inställning av bildtext för dataetikett i Java Slides
+## Komplett källkod för att ställa in callout för dataetikett i Java Slides
 
 ```java
 String dataDir = "Your Document Directory";
@@ -168,13 +170,13 @@ pres.save("chart.pptx", SaveFormat.Pptx);
 
 ## Slutsats
 
-I den här handledningen har vi utforskat hur man ställer in bildtexter för dataetiketter i ett diagram med Aspose.Slides för Java. Bildtexter är värdefulla verktyg för att betona specifika datapunkter i dina diagram och presentationer. Vi har tillhandahållit en steg-för-steg-guide tillsammans med källkod för att hjälpa dig uppnå denna anpassning.
+I den här handledningen har vi utforskat hur man konfigurerar callouts för dataetiketter i ett diagram med hjälp av Aspose.Slides för Java. Callouts är värdefulla verktyg för att betona specifika datapunkter i dina diagram och presentationer. Vi har tillhandahållit en steg-för-steg-guide tillsammans med källkod för att hjälpa dig att uppnå denna anpassning.
 
-## FAQ's
+## Vanliga frågor
 
 ### Hur anpassar jag utseendet på dataetiketter?
 
-För att anpassa utseendet på dataetiketter kan du ändra egenskaper som typsnitt, fyllning och linjestilar. Till exempel:
+För att anpassa utseendet på dataetiketter kan du ändra egenskaper som teckensnitt, fyllning och linjeformat. Till exempel:
 
 ```java
 IDataLabel lbl = dataPoint.getLabel();
@@ -187,31 +189,33 @@ lbl.getDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat().getS
 lbl.getDataLabelFormat().getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
 ```
 
-### Hur kan jag aktivera eller inaktivera bildtexter för dataetiketter?
+### Hur kan jag aktivera eller inaktivera anrop för dataetiketter?
 
- För att aktivera eller inaktivera bildtexter för dataetiketter, använd`setShowLabelAsDataCallout` metod. Ställ in den på`true` för att aktivera bildtexter och`false`för att inaktivera dem.
+För att aktivera eller inaktivera anrop för dataetiketter, använd `setShowLabelAsDataCallout` metod. Ställ in den på `true` för att aktivera utrop och `false` att inaktivera dem.
 
 ```java
-lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // Aktivera länktexter
-lbl.getDataLabelFormat().setShowLabelAsDataCallout(false); // Inaktivera länktexter
+lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // Aktivera utrop
+lbl.getDataLabelFormat().setShowLabelAsDataCallout(false); // Inaktivera utrop
 ```
 
-### Kan jag anpassa ledarlinjerna för dataetiketter?
+### Kan jag anpassa hänvisningslinjerna för dataetiketter?
 
-Ja, du kan anpassa ledarlinjerna för dataetiketter med hjälp av egenskaper som linjestil, färg och bredd. Till exempel:
+Ja, du kan anpassa hänvisningslinjerna för dataetiketter med hjälp av egenskaper som linjestil, färg och bredd. Till exempel:
 
 ```java
-lbl.getDataLabelFormat().setShowLeaderLines(true); // Aktivera ledarlinjer
+lbl.getDataLabelFormat().setShowLeaderLines(true); // Aktivera riktlinjer
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().setStyle(LineStyle.Single);
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().setWidth(1);
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.BLACK);
 ```
 
-Det här är några vanliga anpassningsalternativ för dataetiketter och bildtexter i Aspose.Slides för Java. Du kan skräddarsy utseendet ytterligare efter dina specifika behov.
+Här är några vanliga anpassningsalternativ för dataetiketter och anrop i Aspose.Slides för Java. Du kan ytterligare skräddarsy utseendet efter dina specifika behov.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,33 +1,35 @@
 ---
-title: Få diagrambild i Java Slides
-linktitle: Få diagrambild i Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Lär dig hur du skaffar diagrambilder i Java Slides med Aspose.Slides för Java. Den här steg-för-steg-guiden ger källkod och tips för sömlös integration.
-weight: 19
-url: /sv/java/data-manipulation/get-chart-image-java-slides/
+"description": "Lär dig hur du hämtar diagrambilder i Java Slides med hjälp av Aspose.Slides för Java. Den här steg-för-steg-guiden innehåller källkod och tips för sömlös integration."
+"linktitle": "Hämta diagrambild i Java Slides"
+"second_title": "Aspose.Slides Java PowerPoint-bearbetnings-API"
+"title": "Hämta diagrambild i Java Slides"
+"url": "/sv/java/data-manipulation/get-chart-image-java-slides/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Få diagrambild i Java Slides
+# Hämta diagrambild i Java Slides
 
 
-## Introduktion till Hämta diagrambild i Java Slides
+## Introduktion till att hämta diagrambild i Java-presentationer
 
-Aspose.Slides för Java är ett kraftfullt bibliotek som låter dig arbeta med PowerPoint-presentationer programmatiskt. Med det här biblioteket kan du skapa, manipulera och extrahera olika element från presentationer, inklusive diagram. Ett vanligt krav är att skaffa diagrambilder från bilder, och vi kommer att visa hur man gör just det i den här guiden.
+Aspose.Slides för Java är ett kraftfullt bibliotek som låter dig arbeta med PowerPoint-presentationer programmatiskt. Med det här biblioteket kan du skapa, manipulera och extrahera olika element från presentationer, inklusive diagram. Ett vanligt krav är att hämta diagrambilder från bilder, och vi visar hur man gör just det i den här guiden.
 
-## Förutsättningar
+## Förkunskapskrav
 
-Innan vi dyker in i koden, se till att du har följande förutsättningar på plats:
+Innan vi går in i koden, se till att du har följande förutsättningar på plats:
 
 - Java Development Kit (JDK) installerat på ditt system.
--  Aspose.Slides för Java-bibliotek nedladdade och konfigurerade i ditt projekt. Du kan ladda ner den från[här](https://releases.aspose.com/slides/java/).
+- Aspose.Slides för Java-biblioteket har laddats ner och konfigurerats i ditt projekt. Du kan ladda ner det från [här](https://releases.aspose.com/slides/java/).
 
 ## Steg 1: Konfigurera ditt projekt
 
-Börja med att skapa ett Java-projekt i din föredragna Integrated Development Environment (IDE). Se till att du har lagt till Aspose.Slides för Java-biblioteket till ditt projekts beroenden.
+Börja med att skapa ett Java-projekt i din föredragna integrerade utvecklingsmiljö (IDE). Se till att du har lagt till Aspose.Slides för Java-biblioteket i projektets beroenden.
 
 ## Steg 2: Initiera presentationen
 
@@ -41,7 +43,7 @@ Presentation pres = new Presentation(dataDir + "test.pptx");
 
 ## Steg 3: Lägg till ett diagram och hämta bilden
 
-Därefter kan du lägga till ett diagram till en bild och få dess bild. I det här exemplet lägger vi till ett klustrat kolumndiagram.
+Nästa steg är att lägga till ett diagram i en bild och hämta dess bild. I det här exemplet lägger vi till ett klustrat stapeldiagram.
 
 ```java
 try {
@@ -53,9 +55,9 @@ try {
 }
 ```
 
-det här kodavsnittet skapar vi ett klustrat kolumndiagram på den första bilden av presentationen och får sedan dess miniatyrbild. Bilden sparas som "image.png" i den angivna katalogen.
+I det här kodavsnittet skapar vi ett klustrat stapeldiagram på den första bilden i presentationen och hämtar sedan dess miniatyrbild. Bilden sparas som "image.png" i den angivna katalogen.
 
-## Komplett källkod för få diagrambild i Java Slides
+## Komplett källkod för att hämta diagrambild i Java Slides
 
 ```java
 // Sökvägen till dokumentkatalogen.
@@ -75,32 +77,34 @@ finally
 
 ## Slutsats
 
-Att skaffa diagrambilder från Java Slides med Aspose.Slides för Java är en enkel process. Med den medföljande koden kan du enkelt integrera den här funktionen i dina Java-applikationer, så att du kan arbeta effektivt med PowerPoint-presentationer.
+Att hämta diagrambilder från Java Slides med hjälp av Aspose.Slides för Java är en enkel process. Med den medföljande koden kan du enkelt integrera den här funktionen i dina Java-applikationer, så att du kan arbeta effektivt med PowerPoint-presentationer.
 
-## FAQ's
+## Vanliga frågor
 
 ### Hur installerar jag Aspose.Slides för Java?
 
- Att installera Aspose.Slides för Java är enkelt. Du kan ladda ner biblioteket från[här](https://releases.aspose.com/slides/java/) och följ installationsinstruktionerna i dokumentationen.
+Det är enkelt att installera Aspose.Slides för Java. Du kan ladda ner biblioteket från [här](https://releases.aspose.com/slides/java/) och följ installationsanvisningarna som finns i dokumentationen.
 
-### Kan jag anpassa diagrammet innan jag får dess bild?
+### Kan jag anpassa diagrammet innan jag får bilden?
 
-Ja, du kan anpassa diagrammets utseende, data och andra egenskaper innan du får dess bild. Aspose.Slides för Java ger omfattande alternativ för diagramanpassning.
+Ja, du kan anpassa diagrammets utseende, data och andra egenskaper innan du hämtar bilden. Aspose.Slides för Java erbjuder omfattande alternativ för anpassning av diagram.
 
 ### Vilka andra funktioner erbjuder Aspose.Slides för Java?
 
-Aspose.Slides för Java erbjuder ett brett utbud av funktioner för att arbeta med PowerPoint-presentationer, inklusive bildskapande, textmanipulering, formredigering och mycket mer. Du kan utforska dokumentationen för detaljerad information.
+Aspose.Slides för Java erbjuder ett brett utbud av funktioner för att arbeta med PowerPoint-presentationer, inklusive att skapa bilder, textmanipulera, redigera former och mycket mer. Du kan utforska dokumentationen för detaljerad information.
 
-### Är Aspose.Slides för Java lämplig för kommersiellt bruk?
+### Är Aspose.Slides för Java lämpligt för kommersiellt bruk?
 
-Ja, Aspose.Slides för Java kan användas för kommersiella ändamål. Det ger licensalternativ som vänder sig till både enskilda utvecklare och företag.
+Ja, Aspose.Slides för Java kan användas för kommersiella ändamål. Det erbjuder licensalternativ som passar både enskilda utvecklare och företag.
 
 ### Kan jag spara diagrambilden i ett annat format?
 
- Säkert! Du kan spara diagrambilden i olika format, till exempel JPEG eller GIF, genom att ange lämplig filtillägg i`ImageIO.write` metod.
+Visst! Du kan spara diagrambilden i olika format, till exempel JPEG eller GIF, genom att ange lämplig filändelse i `ImageIO.write` metod.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Sprawdź ochronę prezentacji w slajdach Java
-linktitle: Sprawdź ochronę prezentacji w slajdach Java
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Dowiedz się, jak sprawdzić ochronę prezentacji na slajdach Java za pomocą Aspose.Slides for Java. Ten przewodnik krok po kroku zawiera przykłady kodu dotyczące kontroli ochrony przed zapisem i otwarciem.
-weight: 15
-url: /pl/java/presentation-properties/check-presentation-protection-in-java-slides/
+"description": "Dowiedz się, jak sprawdzić ochronę prezentacji w slajdach Java przy użyciu Aspose.Slides for Java. Ten przewodnik krok po kroku zawiera przykłady kodu do sprawdzania ochrony przed zapisem i otwarciem."
+"linktitle": "Sprawdź ochronę prezentacji w slajdach Java"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Sprawdź ochronę prezentacji w slajdach Java"
+"url": "/pl/java/presentation-properties/check-presentation-protection-in-java-slides/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sprawdź ochronę prezentacji w slajdach Java
@@ -16,13 +18,13 @@ url: /pl/java/presentation-properties/check-presentation-protection-in-java-slid
 
 ## Wprowadzenie do sprawdzania ochrony prezentacji w slajdach Java
 
-W tym samouczku przyjrzymy się, jak sprawdzić ochronę prezentacji za pomocą Aspose.Slides dla Java. Omówimy dwa scenariusze: sprawdzanie ochrony przed zapisem i sprawdzanie otwartej ochrony prezentacji. Dla każdego scenariusza przedstawimy przykłady kodu krok po kroku.
+W tym samouczku pokażemy, jak sprawdzić ochronę prezentacji za pomocą Aspose.Slides dla Java. Omówimy dwa scenariusze: sprawdzanie ochrony przed zapisem i sprawdzanie ochrony przed otwarciem prezentacji. Przedstawimy przykłady kodu krok po kroku dla każdego scenariusza.
 
-## Warunki wstępne
+## Wymagania wstępne
 
-Zanim zaczniemy, upewnij się, że masz skonfigurowaną bibliotekę Aspose.Slides for Java w swoim projekcie Java. Możesz pobrać go ze strony Aspose i dodać do zależności swojego projektu.
+Zanim zaczniemy, upewnij się, że biblioteka Aspose.Slides for Java jest skonfigurowana w projekcie Java. Możesz ją pobrać ze strony internetowej Aspose i dodać do zależności projektu.
 
-### Zależność od Mavena
+### Zależność Maven
 
 ```xml
 <dependency>
@@ -32,17 +34,17 @@ Zanim zaczniemy, upewnij się, że masz skonfigurowaną bibliotekę Aspose.Slide
 </dependency>
 ```
 
- Zastępować`your_version_here` z wersją Aspose.Slides dla Java, której używasz.
+Zastępować `your_version_here` z wersją Aspose.Slides for Java, której używasz.
 
 ## Krok 1: Sprawdź ochronę przed zapisem
 
- Aby sprawdzić, czy prezentacja jest zabezpieczona hasłem przed zapisem, możesz użyć metody`IPresentationInfo` interfejs. Oto kod, aby to zrobić:
+Aby sprawdzić, czy prezentacja jest chroniona hasłem przed zapisem, możesz użyć `IPresentationInfo` interfejs. Oto kod, który to umożliwia:
 
 ```java
 // Ścieżka do prezentacji źródłowej
 String pptxFile = "path_to_presentation.pptx";
 
-// Sprawdź hasło ochrony przed zapisem za pośrednictwem interfejsu IPresentationInfo
+// Sprawdź hasło zabezpieczające przed zapisem za pomocą interfejsu IPresentationInfo
 IPresentationInfo presentationInfo = PresentationFactory.getInstance().getPresentationInfo(pptxFile);
 boolean isWriteProtectedByPassword = presentationInfo.isWriteProtected() == NullableBool.True
         && presentationInfo.checkWriteProtection("password_here");
@@ -50,36 +52,36 @@ boolean isWriteProtectedByPassword = presentationInfo.isWriteProtected() == Null
 System.out.println("Is presentation write protected by password = " + isWriteProtectedByPassword);
 ```
 
- Zastępować`"path_to_presentation.pptx"` z rzeczywistą ścieżką do pliku prezentacji i`"password_here"` z hasłem zabezpieczającym przed zapisem.
+Zastępować `"path_to_presentation.pptx"` z rzeczywistą ścieżką do pliku prezentacji i `"password_here"` z hasłem zabezpieczającym przed zapisem.
 
-## Krok 2: Sprawdź opcję Otwarta ochrona
+## Krok 2: Sprawdź otwartą ochronę
 
- Aby sprawdzić, czy prezentacja jest zabezpieczona hasłem do otwarcia, możesz skorzystać z metody`IPresentationInfo` interfejs. Oto kod, aby to zrobić:
+Aby sprawdzić, czy prezentacja jest chroniona hasłem do otwierania, możesz skorzystać z `IPresentationInfo` interfejs. Oto kod, który to umożliwia:
 
 ```java
 // Ścieżka do prezentacji źródłowej
 String pptFile = "path_to_presentation.ppt";
 
-// Sprawdź ochronę otwartej prezentacji poprzez interfejs IPresentationInfo
+// Sprawdź ochronę otwarcia prezentacji za pomocą interfejsu IPresentationInfo
 presentationInfo = PresentationFactory.getInstance().getPresentationInfo(pptFile);
 if (presentationInfo.isPasswordProtected()) {
     System.out.println("The presentation is protected by password to open.");
 }
 ```
 
- Zastępować`"path_to_presentation.ppt"` z rzeczywistą ścieżką do pliku prezentacji.
+Zastępować `"path_to_presentation.ppt"` z rzeczywistą ścieżką do pliku prezentacji.
 
 ## Kompletny kod źródłowy do sprawdzania ochrony prezentacji w slajdach Java
 
 ```java
-//Ścieżka prezentacji źródła
+//Ścieżka do prezentacji źródłowej
 String pptxFile = "Your Document Directory";
 String pptFile = "Your Document Directory";
-// Sprawdź hasło ochrony przed zapisem za pośrednictwem interfejsu IPresentationInfo
+// Sprawdź hasło zabezpieczające przed zapisem za pomocą interfejsu IPresentationInfo
 IPresentationInfo presentationInfo = PresentationFactory.getInstance().getPresentationInfo(pptxFile);
 boolean isWriteProtectedByPassword = presentationInfo.isWriteProtected() == NullableBool.True && presentationInfo.checkWriteProtection("pass2");
 System.out.println("Is presentation write protected by password = " + isWriteProtectedByPassword);
-// Sprawdź hasło ochrony przed zapisem za pośrednictwem interfejsu IProtectionManager
+// Sprawdź hasło ochrony przed zapisem za pomocą interfejsu IProtectionManager
 Presentation presentation = new Presentation();
 try
 {
@@ -90,7 +92,7 @@ finally
 {
 	if (presentation != null) presentation.dispose();
 }
-// Sprawdź ochronę otwartej prezentacji poprzez interfejs IPresentationInfo
+// Sprawdź ochronę otwarcia prezentacji za pomocą interfejsu IPresentationInfo
 presentationInfo = PresentationFactory.getInstance().getPresentationInfo(pptFile);
 if (presentationInfo.isPasswordProtected())
 {
@@ -100,28 +102,30 @@ if (presentationInfo.isPasswordProtected())
 
 ## Wniosek
 
-tym samouczku dowiedzieliśmy się, jak sprawdzić ochronę prezentacji na slajdach Java za pomocą Aspose.Slides for Java. Omówiliśmy dwa scenariusze: sprawdzanie ochrony przed zapisem i sprawdzanie ochrony przed otwarciem. Możesz teraz zintegrować te kontrole z aplikacjami Java, aby skutecznie obsługiwać chronione prezentacje.
+W tym samouczku nauczyliśmy się, jak sprawdzać ochronę prezentacji w slajdach Java przy użyciu Aspose.Slides for Java. Omówiliśmy dwa scenariusze: sprawdzanie ochrony przed zapisem i sprawdzanie ochrony przed otwarciem. Teraz możesz zintegrować te sprawdzenia ze swoimi aplikacjami Java, aby skutecznie obsługiwać chronione prezentacje.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
 ### Jak uzyskać Aspose.Slides dla Java?
 
-Możesz pobrać Aspose.Slides dla Java ze strony internetowej Aspose lub dodać go jako zależność Maven w swoim projekcie, jak pokazano w sekcji wymagań wstępnych.
+Możesz pobrać Aspose.Slides dla języka Java ze strony internetowej Aspose lub dodać go jako zależność Maven w swoim projekcie, zgodnie z opisem w sekcji dotyczącej wymagań wstępnych.
 
 ### Czy mogę sprawdzić zarówno ochronę przed zapisem, jak i ochronę przed otwarciem prezentacji?
 
-Tak, możesz sprawdzić zarówno ochronę przed zapisem, jak i ochronę przed otwarciem prezentacji, korzystając z dostarczonych przykładów kodu.
+Tak, możesz sprawdzić zarówno ochronę przed zapisem, jak i ochronę przed otwieraniem prezentacji, korzystając z podanych przykładów kodu.
 
-### Co powinienem zrobić, jeśli zapomnę hasła zabezpieczającego?
+### Co zrobić, jeśli zapomnę hasła zabezpieczającego?
 
-Jeśli zapomnisz hasła zabezpieczającego prezentację, nie ma wbudowanej możliwości jego odzyskania. Aby uniknąć takich sytuacji, pamiętaj o zapisywaniu swoich haseł.
+Jeśli zapomnisz hasła zabezpieczającego do prezentacji, nie ma wbudowanego sposobu na jego odzyskanie. Upewnij się, że zapisujesz swoje hasła, aby uniknąć takich sytuacji.
 
-### Czy Aspose.Slides for Java jest kompatybilny z najnowszymi formatami plików programu PowerPoint?
+### Czy Aspose.Slides for Java jest kompatybilny z najnowszymi formatami plików PowerPoint?
 
-Tak, Aspose.Slides for Java obsługuje najnowsze formaty plików programu PowerPoint, w tym pliki .pptx.
+Tak, Aspose.Slides for Java obsługuje najnowsze formaty plików PowerPoint, w tym pliki .pptx.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

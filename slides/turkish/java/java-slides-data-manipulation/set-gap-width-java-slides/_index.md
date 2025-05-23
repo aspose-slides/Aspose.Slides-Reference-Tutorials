@@ -1,81 +1,83 @@
 ---
-title: Java Slaytlarında Boşluk Genişliğini Ayarlama
-linktitle: Java Slaytlarında Boşluk Genişliğini Ayarlama
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides for Java ile Java Slides'ta Boşluk Genişliğini nasıl ayarlayacağınızı öğrenin. PowerPoint sunumlarınız için grafik görsellerini geliştirin.
-weight: 21
-url: /tr/java/data-manipulation/set-gap-width-java-slides/
+"description": "Java Slaytlarında Aspose.Slides for Java ile Boşluk Genişliğini nasıl ayarlayacağınızı öğrenin. PowerPoint sunumlarınız için grafik görsellerini geliştirin."
+"linktitle": "Java Slaytlarında Boşluk Genişliğini Ayarlama"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java Slaytlarında Boşluk Genişliğini Ayarlama"
+"url": "/tr/java/data-manipulation/set-gap-width-java-slides/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java Slaytlarında Boşluk Genişliğini Ayarlama
 
 
-## Aspose.Slides for Java'da Boşluk Genişliğini Ayarlamaya Giriş
+## Java için Aspose.Slides'ta Boşluk Genişliğini Ayarlamaya Giriş
 
-Bu eğitimde, Aspose.Slides for Java'yı kullanarak PowerPoint sunumundaki bir grafik için Boşluk Genişliğini ayarlama sürecinde size rehberlik edeceğiz. Boşluk Genişliği, bir grafikteki sütunlar veya çubuklar arasındaki boşluğu belirleyerek grafiğin görsel görünümünü kontrol etmenize olanak tanır.
+Bu eğitimde, Aspose.Slides for Java kullanarak bir PowerPoint sunumunda bir grafik için Boşluk Genişliğini ayarlama sürecinde size rehberlik edeceğiz. Boşluk Genişliği, bir grafikteki sütunlar veya çubuklar arasındaki boşluğu belirler ve grafiğin görsel görünümünü kontrol etmenizi sağlar.
 
-## Önkoşullar
+## Ön koşullar
 
- Başlamadan önce Aspose.Slides for Java kütüphanesinin kurulu olduğundan emin olun. Aspose web sitesinden indirebilirsiniz[Burada](https://releases.aspose.com/slides/java/).
+Başlamadan önce, Aspose.Slides for Java kütüphanesinin yüklü olduğundan emin olun. Bunu Aspose web sitesinden indirebilirsiniz [Burada](https://releases.aspose.com/slides/java/).
 
-## Adım adım rehber
+## Adım Adım Kılavuz
 
-Aspose.Slides for Java kullanarak bir grafikte Boşluk Genişliğini ayarlamak için şu adımları izleyin:
+Java için Aspose.Slides'ı kullanarak bir grafikte Boşluk Genişliğini ayarlamak için şu adımları izleyin:
 
 ### 1. Boş Bir Sunum Oluşturun
 
 ```java
-// Belgeler dizininin yolu.
+// Belgeler dizinine giden yol.
 String dataDir = "Your Document Directory";
 
-// Boş bir sunu oluşturma
+// Boş bir sunum oluşturma 
 Presentation presentation = new Presentation();
 ```
 
-### 2. İlk Slayta Erişin
+### 2. İlk Slayda Erişim
 
 ```java
 // İlk slayda erişin
 ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
-### 3. Varsayılan Verilere Sahip Bir Grafik Ekleme
+### 3. Varsayılan Verilerle Bir Grafik Ekleyin
 
 ```java
-// Varsayılan verileri içeren bir grafik ekleme
+// Varsayılan verilerle bir grafik ekleyin
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn, 0, 0, 500, 500);
 ```
 
-### 4. Grafik Veri Sayfası Dizinini Ayarlayın
+### 4. Grafik Veri Sayfasının İndeksini Ayarlayın
 
 ```java
 // Grafik veri sayfasının indeksini ayarlama
 int defaultWorksheetIndex = 0;
 ```
 
-### 5. Grafik Verileri Çalışma Kitabını Alın
+### 5. Grafik Veri Çalışma Kitabını edinin
 
 ```java
-// Grafik verileri çalışma sayfasını alma
+// Grafik veri çalışma sayfasını alma
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
 
-### 6. Grafiğe Seri Ekleyin
+### 6. Grafiğe Seri Ekleme
 
 ```java
-// Grafiğe seri ekle
+// Seriyi grafiğe ekle
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), chart.getType());
 ```
 
-### 7. Grafiğe Kategoriler Ekleyin
+### 7. Tabloya Kategoriler Ekleyin
 
 ```java
-// Grafiğe kategori ekleme
+// Tabloya kategoriler ekleyin
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 1, 0, "Category 1"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 0, "Category 2"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Category 3"));
@@ -103,19 +105,19 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getParentSeriesGroup().setGapWidth(50);
 ```
 
-### 10. Sunumu Kaydet
+### 10. Sunumu Kaydedin
 
 ```java
-// Sunuyu grafikle birlikte kaydedin
+// Sunumu grafikle birlikte kaydedin
 presentation.save(dataDir + "GapWidth_out.pptx", SaveFormat.Pptx);
 ```
 
-## Java Slaytlarında Boşluk Genişliğini Ayarlamak İçin Tam Kaynak Kodu
+## Java Slaytlarında Set Gap Genişliği İçin Tam Kaynak Kodu
 
 ```java
-// Belgeler dizininin yolu.
+// Belgeler dizinine giden yol.
 String dataDir = "Your Document Directory";
-// Boş sunum oluşturma
+// Boş sunum oluşturma 
 Presentation presentation = new Presentation();
 // İlk slayda erişin
 ISlide slide = presentation.getSlides().get_Item(0);
@@ -123,7 +125,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn, 0, 0, 500, 500);
 // Grafik veri sayfasının indeksini ayarlama
 int defaultWorksheetIndex = 0;
-// Grafik verileri çalışma sayfasını alma
+// Grafik veri çalışma sayfasını alma
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Seri ekle
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
@@ -141,7 +143,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-// GapWidth değerini ayarlayın
+// GapWidth değerini ayarla
 series.getParentSeriesGroup().setGapWidth(50);
 // Sunuyu grafikle kaydet
 presentation.save(dataDir + "GapWidth_out.pptx", SaveFormat.Pptx);
@@ -149,24 +151,26 @@ presentation.save(dataDir + "GapWidth_out.pptx", SaveFormat.Pptx);
 
 ## Çözüm
 
-Bu eğitimde Aspose.Slides for Java kullanarak PowerPoint sunumundaki bir grafik için Boşluk Genişliğini nasıl ayarlayacağınızı öğrendiniz. Boşluk Genişliğini ayarlamak, grafiğinizdeki sütunlar veya çubuklar arasındaki boşluğu kontrol etmenize olanak tanıyarak verilerinizin görsel sunumunu geliştirir.
+Bu eğitimde, Aspose.Slides for Java kullanarak bir PowerPoint sunumunda bir grafik için Boşluk Genişliğini nasıl ayarlayacağınızı öğrendiniz. Boşluk Genişliğini ayarlamak, grafiğinizdeki sütunlar veya çubuklar arasındaki boşluğu kontrol etmenizi sağlayarak verilerinizin görsel temsilini geliştirmenize olanak tanır.
 
-## SSS'ler
+## SSS
 
-### Boşluk Genişliği değerini nasıl değiştiririm?
+### Boşluk Genişliği değerini nasıl değiştirebilirim?
 
- Boşluk Genişliğini değiştirmek için`setGapWidth` konusundaki yöntem`ParentSeriesGroup`grafik serisi. Verilen örnekte Gap Width'i 50 olarak ayarladık ama siz bu değeri istediğiniz aralıklara göre ayarlayabilirsiniz.
+Boşluk Genişliğini değiştirmek için şunu kullanın: `setGapWidth` yöntem üzerinde `ParentSeriesGroup` grafik serisinin. Verilen örnekte, Boşluk Genişliğini 50 olarak ayarladık, ancak bu değeri istediğiniz aralığa ayarlayabilirsiniz.
 
 ### Diğer grafik özelliklerini özelleştirebilir miyim?
 
-Evet, Aspose.Slides for Java, grafik özelleştirmesi için kapsamlı yetenekler sağlar. Renkler, etiketler, başlıklar ve daha fazlası gibi çeşitli grafik özelliklerini değiştirebilirsiniz. Grafik özelleştirme seçenekleri hakkında ayrıntılı bilgi için API Referansını kontrol edin.
+Evet, Java için Aspose.Slides grafik özelleştirmesi için kapsamlı yetenekler sunar. Renkler, etiketler, başlıklar ve daha fazlası gibi çeşitli grafik özelliklerini değiştirebilirsiniz. Grafik özelleştirme seçenekleri hakkında ayrıntılı bilgi için API Referansını kontrol edin.
 
 ### Daha fazla kaynak ve belgeyi nerede bulabilirim?
 
- Aspose.Slides for Java'da kapsamlı belgeler ve ek kaynaklar bulabilirsiniz.[Web sitesi](https://reference.aspose.com/slides/java/).
+Java için Aspose.Slides hakkında kapsamlı belgeler ve ek kaynaklar bulabilirsiniz [Aspose web sitesi](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

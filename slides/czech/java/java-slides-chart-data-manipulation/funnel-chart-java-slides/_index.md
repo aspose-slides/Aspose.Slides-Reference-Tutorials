@@ -1,39 +1,41 @@
 ---
-title: Graf trychtýře v Java Slides
-linktitle: Graf trychtýře v Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Naučte se vytvářet trychtýřové grafy v prezentacích PowerPoint pomocí Aspose.Slides pro Java. Podrobný průvodce se zdrojovým kódem pro efektivní vizualizaci dat.
-weight: 18
-url: /cs/java/chart-data-manipulation/funnel-chart-java-slides/
+"description": "Naučte se vytvářet trychtýřové grafy v prezentacích v PowerPointu s Aspose.Slides pro Javu. Podrobný návod se zdrojovým kódem pro efektivní vizualizaci dat."
+"linktitle": "Trychtýřový graf v Javě Slides"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Trychtýřový graf v Javě Slides"
+"url": "/cs/java/chart-data-manipulation/funnel-chart-java-slides/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Graf trychtýře v Java Slides
+# Trychtýřový graf v Javě Slides
 
 
-## Úvod do vytváření diagramu trychtýře v Aspose.Slides pro Java
+## Úvod do vytváření trychtýřového grafu v Aspose.Slides pro Javu
 
-tomto tutoriálu vás provedeme procesem vytváření trychtýřového grafu v prezentaci PowerPoint pomocí Aspose.Slides pro Java. Grafy trychtýřů jsou užitečné pro vizualizaci dat, která se postupně zužují nebo „cestují“ různými fázemi nebo kategoriemi. Poskytneme vám podrobné pokyny spolu se zdrojovým kódem, které vám toho pomohou dosáhnout.
+tomto tutoriálu vás provedeme procesem vytvoření trychtýřového grafu v prezentaci v PowerPointu pomocí Aspose.Slides pro Javu. Trychtýřové grafy jsou užitečné pro vizualizaci dat, která se postupně zužují nebo „procházejí“ různými fázemi nebo kategoriemi. Poskytneme vám podrobné pokyny spolu se zdrojovým kódem, které vám s tím pomohou.
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte následující:
 
-- Knihovna Aspose.Slides for Java nainstalována a nastavena ve vašem projektu.
-- Soubor prezentace PowerPoint (PPTX), do kterého chcete vložit diagram cesty.
+- Knihovna Aspose.Slides pro Javu je nainstalována a nastavena ve vašem projektu.
+- Soubor prezentace PowerPoint (PPTX), kam chcete vložit trychtýřový graf.
 
-## Krok 1: Import Aspose.Slides pro Java
+## Krok 1: Import Aspose.Slides pro Javu
 
-Nejprve musíte do svého projektu Java importovat knihovnu Aspose.Slides for Java. Ujistěte se, že jste do konfigurace sestavení přidali potřebné závislosti.
+Nejprve je třeba importovat knihovnu Aspose.Slides pro Javu do vašeho projektu v Javě. Ujistěte se, že jste do konfigurace sestavení přidali potřebné závislosti.
 
 ```java
 import com.aspose.slides.*;
 ```
 
-## Krok 2: Inicializujte prezentaci a graf
+## Krok 2: Inicializace prezentace a grafu
 
 V tomto kroku inicializujeme prezentaci a přidáme na snímek trychtýřový graf.
 
@@ -42,7 +44,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 try
 {
-    //Přidejte diagram cesty na první snímek na souřadnicích (50, 50) s rozměry (500, 400).
+    // Přidejte trychtýřový graf na první snímek na souřadnicích (50, 50) s rozměry (500, 400).
     IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Funnel, 50, 50, 500, 400);
     chart.getChartData().getCategories().clear();
     chart.getChartData().getSeries().clear();
@@ -54,9 +56,9 @@ finally
 }
 ```
 
-## Krok 3: Definujte data grafu
+## Krok 3: Definování dat grafu
 
-Dále definujeme data pro náš diagram cesty. Kategorie a datové body si můžete přizpůsobit podle svých požadavků.
+Dále definujeme data pro náš trychtýřový graf. Kategorie a datové body si můžete přizpůsobit podle svých požadavků.
 
 ```java
 // Vymazat existující data grafu.
@@ -70,7 +72,7 @@ chart.getChartData().getCategories().add(wb.getCell(0, "A4", "Category 4"));
 chart.getChartData().getCategories().add(wb.getCell(0, "A5", "Category 5"));
 chart.getChartData().getCategories().add(wb.getCell(0, "A6", "Category 6"));
 
-// Přidejte datové body pro řadu grafů cesty.
+// Přidejte datové body pro sérii trychtýřových grafů.
 IChartSeries series = chart.getChartData().getSeries().add(ChartType.Funnel);
 series.getDataPoints().addDataPointForFunnelSeries(wb.getCell(0, "B1", 50));
 series.getDataPoints().addDataPointForFunnelSeries(wb.getCell(0, "B2", 100));
@@ -82,15 +84,15 @@ series.getDataPoints().addDataPointForFunnelSeries(wb.getCell(0, "B6", 500));
 
 ## Krok 4: Uložte prezentaci
 
-Nakonec prezentaci s Funnel Chart uložíme do určeného souboru.
+Nakonec uložíme prezentaci s trychtýřovým grafem do zadaného souboru.
 
 ```java
 pres.save(dataDir + "Funnel.pptx", SaveFormat.Pptx);
 ```
 
-A je to! Úspěšně jste vytvořili trychtýřový graf pomocí Aspose.Slides for Java a vložili jej do prezentace v PowerPointu.
+To je vše! Úspěšně jste vytvořili trychtýřový graf pomocí Aspose.Slides pro Javu a vložili ho do prezentace v PowerPointu.
 
-## Kompletní zdrojový kód pro graf trychtýře v Java Slides
+## Kompletní zdrojový kód pro trychtýřový graf v Javě - Slides
 
 ```java
         String dataDir = "Your Document Directory";
@@ -124,28 +126,30 @@ A je to! Úspěšně jste vytvořili trychtýřový graf pomocí Aspose.Slides f
 ```
 ## Závěr
 
-V tomto podrobném průvodci jsme si ukázali, jak vytvořit trychtýřový graf v prezentaci PowerPoint pomocí Aspose.Slides pro Java. Trychtýřové grafy jsou cenným nástrojem pro vizualizaci dat, která sledují průběh nebo zužování, což usnadňuje efektivní přenos informací. 
+V tomto podrobném návodu jsme si ukázali, jak vytvořit trychtýřový graf v prezentaci v PowerPointu pomocí Aspose.Slides pro Javu. Trychtýřové grafy jsou cenným nástrojem pro vizualizaci dat, která sledují postupný nebo zužující se vzorec, což usnadňuje efektivní sdělování informací. 
 
-## FAQ
+## Často kladené otázky
 
-### Jak mohu přizpůsobit vzhled diagramu cesty?
+### Jak si mohu přizpůsobit vzhled trychtýřového grafu?
 
-Vzhled grafu cesty můžete přizpůsobit úpravou různých vlastností grafu, jako jsou barvy, štítky a styly. Podrobné informace o možnostech přizpůsobení grafu naleznete v dokumentaci Aspose.Slides.
+Vzhled trychtýřového grafu si můžete přizpůsobit úpravou různých vlastností grafu, jako jsou barvy, popisky a styly. Podrobné informace o možnostech přizpůsobení grafu naleznete v dokumentaci k Aspose.Slides.
 
-### Mohu do grafu cesty přidat další datové body nebo kategorie?
+### Mohu do trychtýřového grafu přidat další datové body nebo kategorie?
 
-Ano, do diagramu cesty můžete přidat další datové body a kategorie rozšířením kódu poskytnutého v kroku 3. Jednoduše přidejte další štítky kategorií a datové body podle potřeby.
+Ano, do trychtýřového grafu můžete přidat další datové body a kategorie rozšířením kódu uvedeného v kroku 3. V případě potřeby jednoduše přidejte další popisky kategorií a datové body.
 
-### Jak mohu změnit polohu a velikost diagramu cesty na snímku?
+### Jak mohu změnit umístění a velikost trychtýřového grafu na snímku?
 
-Pozici a velikost grafu cesty můžete upravit úpravou souřadnic a rozměrů poskytnutých při přidávání grafu na snímek v kroku 2. Podle toho aktualizujte hodnoty (50, 50, 500, 400).
+Polohu a velikost trychtýřového grafu můžete upravit úpravou souřadnic a rozměrů zadaných při přidávání grafu na snímek v kroku 2. Hodnoty (50, 50, 500, 400) odpovídajícím způsobem aktualizujte.
 
-### Mohu exportovat graf do různých formátů, jako je PDF nebo obrázek?
+### Mohu exportovat graf do různých formátů, například PDF nebo obrázku?
 
-Ano, Aspose.Slides for Java umožňuje exportovat prezentaci s trychtýřovým grafem do různých formátů, včetně PDF, obrázkových formátů a dalších. Můžete použít`SaveFormat` možnosti určit požadovaný výstupní formát při ukládání prezentace.
+Ano, Aspose.Slides pro Javu umožňuje exportovat prezentaci s trychtýřovým grafem do různých formátů, včetně PDF, obrazových formátů a dalších. Můžete použít `SaveFormat` možnosti pro určení požadovaného výstupního formátu při ukládání prezentace.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

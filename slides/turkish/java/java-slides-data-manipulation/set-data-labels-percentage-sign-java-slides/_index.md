@@ -1,53 +1,55 @@
 ---
-title: Veri Etiketlerini Ayarlama Yüzdesi Java Slaytlarında Oturum Açma
-linktitle: Veri Etiketlerini Ayarlama Yüzdesi Java Slaytlarında Oturum Açma
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides for Java kullanarak PowerPoint sunumlarında yüzde işaretleriyle veri etiketlerini nasıl ayarlayacağınızı öğrenin. Adım adım rehberlik ve kaynak koduyla ilgi çekici grafikler oluşturun.
-weight: 17
-url: /tr/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
+"description": "Aspose.Slides for Java kullanarak PowerPoint sunumlarında yüzde işaretleriyle veri etiketlerinin nasıl ayarlanacağını öğrenin. Adım adım rehberlik ve kaynak koduyla ilgi çekici grafikler oluşturun."
+"linktitle": "Veri Etiketlerini Ayarla Yüzde Oturum Açma Java Slaytları"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Veri Etiketlerini Ayarla Yüzde Oturum Açma Java Slaytları"
+"url": "/tr/java/data-manipulation/set-data-labels-percentage-sign-java-slides/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Veri Etiketlerini Ayarlama Yüzdesi Java Slaytlarında Oturum Açma
+# Veri Etiketlerini Ayarla Yüzde Oturum Açma Java Slaytları
 
 
-## Veri Etiketlerini Ayarlama Yüzdesine Giriş Aspose.Slides for Java'da Oturum Açın
+## Aspose.Slides for Java'da Veri Etiketlerini Ayarlama Yüzde İşaretine Giriş
 
-Bu kılavuzda, Aspose.Slides for Java'yı kullanarak veri etiketlerini yüzde işaretiyle ayarlama sürecinde size yol göstereceğiz. Yığılmış sütun grafiğiyle bir PowerPoint sunumu oluşturacağız ve veri etiketlerini yüzdeleri gösterecek şekilde yapılandıracağız.
+Bu kılavuzda, Aspose.Slides for Java kullanarak yüzde işaretiyle veri etiketleri ayarlama sürecinde size yol göstereceğiz. Yığılmış sütun grafiği içeren bir PowerPoint sunumu oluşturacağız ve veri etiketlerini yüzdeleri gösterecek şekilde yapılandıracağız.
 
-## Önkoşullar
+## Ön koşullar
 
- Başlamadan önce Aspose.Slides for Java kütüphanesinin projenize eklendiğinden emin olun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/java/).
+Başlamadan önce, projenize Aspose.Slides for Java kütüphanesinin eklendiğinden emin olun. Bunu şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/slides/java/).
 
-## 1. Adım: Yeni Bir Sunu Oluşturun
+## Adım 1: Yeni Bir Sunum Oluşturun
 
-Öncelikle Aspose.Slides'ı kullanarak yeni bir PowerPoint sunumu oluşturuyoruz.
+Öncelikle Aspose.Slides kullanarak yeni bir PowerPoint sunumu oluşturuyoruz.
 
 ```java
-// Belgeler dizininin yolu.
+// Belgeler dizinine giden yol.
 String dataDir = "Your Document Directory";
-// Sunum sınıfının bir örneğini oluşturun
+// Bir Presentation sınıfı örneği oluşturun
 Presentation presentation = new Presentation();
 ```
 
-## 2. Adım: Slayt ve Grafik Ekleme
+## Adım 2: Slayt ve Grafik Ekleyin
 
-Daha sonra sunuma bir slayt ve yığılmış sütun grafiği ekliyoruz.
+Daha sonra sunumumuza bir slayt ve yığılmış sütun grafiği ekliyoruz.
 
 ```java
 // Slaytın referansını alın
 ISlide slide = presentation.getSlides().get_Item(0);
 
-// Slayta YüzdelerYığın Sütun grafiği ekleme
+// Bir slaytta PercentsStackedColumn grafiği ekleyin
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
 ```
 
-## 3. Adım: Eksen Numarası Formatını Yapılandırın
+## Adım 3: Eksen Numarası Biçimini Yapılandırın
 
-Yüzdeleri görüntülemek için grafiğin dikey eksenine ilişkin sayı biçimini yapılandırmamız gerekir.
+Yüzdeleri görüntülemek için, grafiğin dikey ekseni için sayı biçimini yapılandırmamız gerekir.
 
 ```java
 // NumberFormatLinkedToSource'u false olarak ayarlayın
@@ -57,10 +59,10 @@ chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 
 ## Adım 4: Grafik Verilerini Ekleyin
 
-Seriler ve veri noktaları oluşturarak grafiğe veri ekliyoruz. Bu örnekte, ilgili veri noktalarıyla birlikte iki seri ekliyoruz.
+Seriler ve veri noktaları oluşturarak grafiğe veri ekliyoruz. Bu örnekte, ilgili veri noktalarıyla iki seri ekliyoruz.
 
 ```java
-// Grafik verileri çalışma sayfasını alma
+// Grafik veri çalışma sayfasını alma
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // Yeni seri ekle
@@ -78,7 +80,7 @@ series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorkshe
 series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 4, 2, 0.35));
 ```
 
-## 5. Adım: Veri Etiketlerini Özelleştirin
+## Adım 5: Veri Etiketlerini Özelleştirin
 
 Şimdi veri etiketlerinin görünümünü özelleştirelim.
 
@@ -100,34 +102,34 @@ series2.getLabels().getDefaultDataLabelFormat().getTextFormat().getPortionFormat
 series2.getLabels().getDefaultDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
 ```
 
-## Adım 6: Sunuyu Kaydetme
+## Adım 6: Sunumu Kaydedin
 
-Son olarak sunumu PowerPoint dosyasına kaydediyoruz.
+Son olarak sunumu bir PowerPoint dosyasına kaydediyoruz.
 
 ```java
 // Sunumu diske yaz
 presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.Pptx);
 ```
 
-Bu kadar! Aspose.Slides for Java'yı kullanarak, yığılmış sütun grafiği ve veri etiketlerini yüzdeleri gösterecek şekilde yapılandırdığınız bir PowerPoint sunumunu başarıyla oluşturdunuz.
+İşte bu kadar! Aspose.Slides for Java kullanarak yığılmış sütun grafiği içeren bir PowerPoint sunumu oluşturdunuz ve veri etiketlerini yüzdeleri görüntüleyecek şekilde yapılandırdınız.
 
-## Java Slaytlarında Veri Etiketlerini Ayarlama Yüzdesi Oturum Açma İçin Tam Kaynak Kodu
+## Set Veri Etiketleri Yüzdesi İçin Tam Kaynak Kodu Java Slaytlarında Oturum Açın
 
 ```java
-// Belgeler dizininin yolu.
+// Belgeler dizinine giden yol.
 String dataDir = "Your Document Directory";
-// Sunum sınıfının bir örneğini oluşturun
+// Bir Presentation sınıfı örneği oluşturun
 Presentation presentation = new Presentation();
 // Slaytın referansını alın
 ISlide slide = presentation.getSlides().get_Item(0);
-// Slayta YüzdelerYığın Sütun grafiği ekleme
+// Bir slaytta PercentsStackedColumn grafiği ekleyin
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
 // NumberFormatLinkedToSource'u false olarak ayarlayın
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
 int defaultWorksheetIndex = 0;
-// Grafik verileri çalışma sayfasını alma
+// Grafik veri çalışma sayfasını alma
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 // Yeni seri ekle
 IChartSeries series = chart.getChartData().getSeries().add(workbook.getCell(defaultWorksheetIndex, 0, 1, "Reds"), chart.getType());
@@ -152,7 +154,7 @@ series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorkshe
 series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 2, 2, 0.50));
 series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 3, 2, 0.20));
 series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 4, 2, 0.35));
-// Dolgu türünü ve rengini ayarlama
+// Dolgu türü ve rengini ayarlama
 series2.getFormat().getFill().setFillType(FillType.Solid);
 series2.getFormat().getFill().getSolidFillColor().setColor(Color.BLUE);
 series2.getLabels().getDefaultDataLabelFormat().setShowValue(true);
@@ -167,25 +169,27 @@ presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.P
 
 ## Çözüm
 
-Bu kılavuzu takip ederek, iş raporlarında, eğitim materyallerinde ve daha fazlasında bilgilerin etkili bir şekilde iletilmesinde özellikle yararlı olabilecek yüzdeye dayalı veri etiketleriyle ilgi çekici sunumların nasıl oluşturulacağını öğrendiniz.
+Bu kılavuzu takip ederek, özellikle iş raporlarında, eğitim materyallerinde ve daha fazlasında bilgileri etkili bir şekilde iletmek için yararlı olabilecek, yüzdeye dayalı veri etiketleriyle ilgi çekici sunumlar oluşturmayı öğrendiniz.
 
-## SSS'ler
+## SSS
 
 ### Grafik serisinin renklerini nasıl değiştirebilirim?
 
- Grafik serisinin dolgu rengini aşağıdaki düğmeyi kullanarak değiştirebilirsiniz:`setFill` örnekte gösterildiği gibi yöntem.
+Grafik serisinin dolgu rengini, şunu kullanarak değiştirebilirsiniz: `setFill` Örnekte gösterildiği gibi bir yöntem.
 
 ### Veri etiketlerinin yazı tipi boyutunu özelleştirebilir miyim?
 
-Evet, veri etiketlerinin yazı tipi boyutunu ayarlayarak özelleştirebilirsiniz.`setFontHeight` özellik kodda gösterildiği gibidir.
+Evet, veri etiketlerinin yazı tipi boyutunu, `setFontHeight` kodda gösterildiği gibi özellik.
 
-### Grafiğe nasıl daha fazla seri ekleyebilirim?
+### Grafiğe daha fazla seri nasıl ekleyebilirim?
 
- Kullanarak grafiğe ek seriler ekleyebilirsiniz.`add` konusundaki yöntem`IChartSeriesCollection` nesne.
+Grafiğe ek seriler eklemek için şunu kullanabilirsiniz: `add` yöntem üzerinde `IChartSeriesCollection` nesne.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

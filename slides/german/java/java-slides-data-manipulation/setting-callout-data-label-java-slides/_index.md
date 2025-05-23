@@ -1,17 +1,19 @@
 ---
-title: Festlegen einer Legende für die Datenbeschriftung in Java-Folien
-linktitle: Festlegen einer Legende für die Datenbeschriftung in Java-Folien
-second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie Callouts für Datenbeschriftungen in Aspose.Slides für Java einrichten. Schritt-für-Schritt-Anleitung mit Quellcode.
-weight: 25
-url: /de/java/data-manipulation/setting-callout-data-label-java-slides/
+"description": "Erfahren Sie, wie Sie Callouts für Datenbeschriftungen in Aspose.Slides für Java einrichten. Schritt-für-Schritt-Anleitung mit Quellcode."
+"linktitle": "Festlegen der Beschriftung für Datenbeschriftungen in Java-Folien"
+"second_title": "Aspose.Slides Java PowerPoint-Verarbeitungs-API"
+"title": "Festlegen der Beschriftung für Datenbeschriftungen in Java-Folien"
+"url": "/de/java/data-manipulation/setting-callout-data-label-java-slides/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Festlegen einer Legende für die Datenbeschriftung in Java-Folien
+# Festlegen der Beschriftung für Datenbeschriftungen in Java-Folien
 
 
 ## Einführung in das Festlegen von Callouts für Datenbeschriftungen in Aspose.Slides für Java
@@ -21,11 +23,11 @@ In diesem Tutorial zeigen wir, wie Sie mit Aspose.Slides für Java Callouts für
 ## Voraussetzungen
 
 - Sie sollten Aspose.Slides für Java installiert haben.
-- Erstellen Sie ein Java-Projekt und fügen Sie Ihrem Projekt die Aspose.Slides-Bibliothek hinzu.
+- Erstellen Sie ein Java-Projekt und fügen Sie Ihrem Projekt die Bibliothek Aspose.Slides hinzu.
 
 ## Schritt 1: Erstellen Sie eine Präsentation und fügen Sie ein Diagramm hinzu
 
- Zuerst müssen wir eine Präsentation erstellen und ein Diagramm zu einer Folie hinzufügen. Stellen Sie sicher, dass Sie`"Your Document Directory"` durch den tatsächlichen Pfad zu Ihrem Dokumentverzeichnis.
+Zuerst müssen wir eine Präsentation erstellen und ein Diagramm zu einer Folie hinzufügen. Stellen Sie sicher, dass Sie `"Your Document Directory"` durch den tatsächlichen Pfad zu Ihrem Dokumentverzeichnis.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -34,7 +36,7 @@ ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, false);
 ```
 
-## Schritt 2: Konfigurieren Sie das Diagramm
+## Schritt 2: Konfigurieren des Diagramms
 
 Als Nächstes konfigurieren wir das Diagramm, indem wir Eigenschaften wie Legende, Reihen und Kategorien festlegen.
 
@@ -44,7 +46,7 @@ chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 chart.setLegend(false);
 
-// Serien und Kategorien konfigurieren (Anzahl der Serien und Kategorien ist anpassbar)
+// Serien und Kategorien konfigurieren (Sie können die Anzahl der Serien und Kategorien anpassen)
 int seriesIndex = 0;
 while (seriesIndex < 15) {
     IChartSeries series = chart.getChartData().getSeries().add(workBook.getCell(0, 0, seriesIndex + 1, "SERIES " + seriesIndex), chart.getType());
@@ -82,11 +84,11 @@ while (i < chart.getChartData().getSeries().size()) {
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
-        //Passen Sie die Etikettenformatierung an (Schriftart, Füllung usw.)
+        // Passen Sie die Etikettenformatierung an (Schriftart, Füllung usw.)
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
-        // Aktivieren von Callouts
+        // Callouts aktivieren
         lbl.getDataLabelFormat().setShowLabelAsDataCallout(true);
         lbl.getDataLabelFormat().setShowLeaderLines(true);
     }
@@ -102,7 +104,7 @@ Abschließend speichern Sie die Präsentation mit dem konfigurierten Diagramm.
 pres.save("chart.pptx", SaveFormat.Pptx);
 ```
 
-Jetzt haben Sie mit Aspose.Slides für Java erfolgreich Callouts für Datenbeschriftungen in einem Diagramm eingerichtet. Passen Sie den Code entsprechend Ihren spezifischen Diagramm- und Datenanforderungen an.
+Sie haben nun erfolgreich Beschriftungen für Datenbeschriftungen in einem Diagramm mit Aspose.Slides für Java eingerichtet. Passen Sie den Code entsprechend Ihren spezifischen Diagramm- und Datenanforderungen an.
 
 ## Vollständiger Quellcode zum Festlegen von Callouts für Datenbeschriftungen in Java-Folien
 
@@ -168,13 +170,13 @@ pres.save("chart.pptx", SaveFormat.Pptx);
 
 ## Abschluss
 
-In diesem Tutorial haben wir untersucht, wie Sie mit Aspose.Slides für Java Beschriftungen für Datenbeschriftungen in einem Diagramm einrichten. Beschriftungen sind wertvolle Tools zum Hervorheben bestimmter Datenpunkte in Ihren Diagrammen und Präsentationen. Wir haben eine Schritt-für-Schritt-Anleitung zusammen mit Quellcode bereitgestellt, um Ihnen bei dieser Anpassung zu helfen.
+In diesem Tutorial haben wir gezeigt, wie Sie mit Aspose.Slides für Java Beschriftungen für Datenbeschriftungen in einem Diagramm einrichten. Beschriftungen sind wertvolle Werkzeuge, um bestimmte Datenpunkte in Ihren Diagrammen und Präsentationen hervorzuheben. Wir haben eine Schritt-für-Schritt-Anleitung mit Quellcode bereitgestellt, um Ihnen diese Anpassung zu erleichtern.
 
 ## Häufig gestellte Fragen
 
 ### Wie passe ich das Erscheinungsbild von Datenbeschriftungen an?
 
-Um das Erscheinungsbild von Datenbeschriftungen anzupassen, können Sie Eigenschaften wie Schriftart, Füllung und Linienstile ändern. Beispiel:
+Um die Darstellung von Datenbeschriftungen anzupassen, können Sie Eigenschaften wie Schriftart, Füllung und Linienart ändern. Beispiel:
 
 ```java
 IDataLabel lbl = dataPoint.getLabel();
@@ -189,10 +191,10 @@ lbl.getDataLabelFormat().getFormat().getLine().getFillFormat().getSolidFillColor
 
 ### Wie kann ich Callouts für Datenbeschriftungen aktivieren oder deaktivieren?
 
- Um Beschriftungen für Datenbeschriftungen zu aktivieren oder zu deaktivieren, verwenden Sie die`setShowLabelAsDataCallout` Methode. Stellen Sie es ein auf`true` zur Aktivierung von Callouts und`false`um sie zu deaktivieren.
+Um Callouts für Datenbeschriftungen zu aktivieren oder zu deaktivieren, verwenden Sie das `setShowLabelAsDataCallout` Methode. Stellen Sie es auf `true` um Callouts zu aktivieren und `false` um sie zu deaktivieren.
 
 ```java
-lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // Aktivieren von Callouts
+lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // Callouts aktivieren
 lbl.getDataLabelFormat().setShowLabelAsDataCallout(false); // Callouts deaktivieren
 ```
 
@@ -208,10 +210,12 @@ lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFor
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.BLACK);
 ```
 
-Dies sind einige allgemeine Anpassungsoptionen für Datenbeschriftungen und Beschriftungen in Aspose.Slides für Java. Sie können das Erscheinungsbild weiter an Ihre spezifischen Anforderungen anpassen.
+Dies sind einige gängige Anpassungsoptionen für Datenbeschriftungen und Beschriftungen in Aspose.Slides für Java. Sie können das Erscheinungsbild weiter an Ihre spezifischen Bedürfnisse anpassen.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

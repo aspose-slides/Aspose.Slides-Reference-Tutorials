@@ -1,14 +1,16 @@
 ---
-title: नए टेम्पलेट के साथ प्रस्तुति गुण अपडेट करें
-linktitle: नए टेम्पलेट के साथ प्रस्तुति गुण अपडेट करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके प्रस्तुतिकरण गुणों को अपडेट करना सीखें। सहज मेटाडेटा संशोधन के साथ अपने Java प्रोजेक्ट को बेहतर बनाएँ।
-weight: 13
-url: /hi/java/java-powerpoint-properties-management/update-presentation-properties-new-template/
+"description": "Aspose.Slides for Java का उपयोग करके प्रस्तुतिकरण गुणों को अपडेट करना सीखें। सहज मेटाडेटा संशोधन के साथ अपने Java प्रोजेक्ट को बेहतर बनाएँ।"
+"linktitle": "नए टेम्पलेट के साथ प्रस्तुति गुण अपडेट करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "नए टेम्पलेट के साथ प्रस्तुति गुण अपडेट करें"
+"url": "/hi/java/java-powerpoint-properties-management/update-presentation-properties-new-template/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # नए टेम्पलेट के साथ प्रस्तुति गुण अपडेट करें
@@ -19,7 +21,7 @@ url: /hi/java/java-powerpoint-properties-management/update-presentation-properti
 इस ट्यूटोरियल में आगे बढ़ने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
 - जावा प्रोग्रामिंग का बुनियादी ज्ञान.
 - आपके सिस्टम पर JDK (जावा डेवलपमेंट किट) स्थापित है।
--  Aspose.Slides for Java लाइब्रेरी डाउनलोड की गई और आपके Java प्रोजेक्ट में जोड़ दी गई। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+- Aspose.Slides for Java लाइब्रेरी डाउनलोड की गई और आपके Java प्रोजेक्ट में जोड़ दी गई। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 
 ## पैकेज आयात करें
 आरंभ करने के लिए, आपको अपने जावा प्रोजेक्ट में आवश्यक पैकेज आयात करने होंगे। यह चरण आपको Aspose.Slides द्वारा प्रदान की गई कार्यक्षमताओं तक पहुँचने की अनुमति देता है। नीचे आवश्यक पैकेज दिए गए हैं:
@@ -51,7 +53,7 @@ template.setContentType("Template Content");
 template.setSubject("Template Subject");
 ```
 ## चरण 3: टेम्पलेट के साथ प्रस्तुतियाँ अपडेट करें
-इसके बाद, प्रत्येक प्रस्तुति को परिभाषित टेम्पलेट के साथ अपडेट करने के लिए एक विधि लागू करें। यह विधि प्रस्तुति फ़ाइल का पथ और टेम्पलेट गुणधर्मों को पैरामीटर के रूप में लेती है।
+इसके बाद, परिभाषित टेम्पलेट के साथ प्रत्येक प्रस्तुति को अपडेट करने के लिए एक विधि लागू करें। यह विधि प्रस्तुति फ़ाइल के पथ और टेम्पलेट गुणों को पैरामीटर के रूप में लेती है।
 ```java
 private static void updateByTemplate(String path, IDocumentProperties template) {
     IPresentationInfo toUpdate = PresentationFactory.getInstance().getPresentationInfo(path);
@@ -60,7 +62,7 @@ private static void updateByTemplate(String path, IDocumentProperties template) 
 }
 ```
 ## चरण 4: प्रस्तुतियाँ अपडेट करें
- आह्वान करें`updateByTemplate`प्रत्येक प्रस्तुति के लिए विधि जिसे आप अपडेट करना चाहते हैं। टेम्पलेट गुणों के साथ प्रत्येक प्रस्तुति फ़ाइल का पथ प्रदान करें।
+आह्वान करें `updateByTemplate` प्रत्येक प्रस्तुति के लिए विधि जिसे आप अपडेट करना चाहते हैं। टेम्पलेट गुणों के साथ प्रत्येक प्रस्तुति फ़ाइल का पथ प्रदान करें।
 ```java
 updateByTemplate(dataDir + "doc1.pptx", template);
 updateByTemplate(dataDir + "doc2.odp", template);
@@ -81,9 +83,11 @@ updateByTemplate(dataDir + "doc3.ppt", template);
 निस्संदेह, Aspose.Slides प्रस्तुति गुणों के लिए व्यापक अनुकूलन विकल्प प्रदान करता है, जिससे आप उन्हें अपनी विशिष्ट आवश्यकताओं के अनुरूप बना सकते हैं।
 ### मैं Aspose.Slides के लिए अतिरिक्त सहायता और संसाधन कहां पा सकता हूं?
 आप Aspose.Slides दस्तावेज़ देख सकते हैं, सामुदायिक फ़ोरम में शामिल हो सकते हैं, या किसी सहायता या पूछताछ के लिए Aspose समर्थन तक पहुँच सकते हैं।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: मास्टर के साथ स्लाइड को दूसरे प्रेजेंटेशन में क्लोन करें
-linktitle: मास्टर के साथ स्लाइड को दूसरे प्रेजेंटेशन में क्लोन करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides का उपयोग करके जावा में प्रस्तुतियों के बीच स्लाइड्स को क्लोन करना सीखें। मास्टर स्लाइड्स को बनाए रखने पर चरण-दर-चरण ट्यूटोरियल।
-weight: 14
-url: /hi/java/java-powerpoint-slide-cloning-techniques/clone-slide-another-presentation-master-powerpoint/
+"description": "Aspose.Slides का उपयोग करके जावा में प्रस्तुतियों के बीच स्लाइड्स को क्लोन करना सीखें। मास्टर स्लाइड्स को बनाए रखने पर चरण-दर-चरण ट्यूटोरियल।"
+"linktitle": "मास्टर के साथ स्लाइड को दूसरे प्रेजेंटेशन में क्लोन करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "मास्टर के साथ स्लाइड को दूसरे प्रेजेंटेशन में क्लोन करें"
+"url": "/hi/java/java-powerpoint-slide-cloning-techniques/clone-slide-another-presentation-master-powerpoint/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # मास्टर के साथ स्लाइड को दूसरे प्रेजेंटेशन में क्लोन करें
@@ -17,8 +19,8 @@ url: /hi/java/java-powerpoint-slide-cloning-techniques/clone-slide-another-prese
 Aspose.Slides for Java एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को प्रोग्रामेटिक रूप से PowerPoint प्रस्तुतियों को बनाने, संशोधित करने और हेरफेर करने की अनुमति देती है। यह लेख Aspose.Slides for Java का उपयोग करके, एक प्रस्तुति से दूसरी प्रस्तुति में स्लाइड को क्लोन करने के तरीके पर एक व्यापक, चरण-दर-चरण ट्यूटोरियल प्रदान करता है, जबकि इसकी मास्टर स्लाइड को बनाए रखा जाता है।
 ## आवश्यक शर्तें
 कोडिंग भाग में उतरने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
-1.  जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपके सिस्टम पर JDK इंस्टॉल है। आप इसे यहाँ से डाउनलोड कर सकते हैं।[वेबसाइट](https://www.oracle.com/java/technologies/javase-downloads.html).
-2.  Aspose.Slides for Java लाइब्रेरी: Aspose.Slides for Java को डाउनलोड करें और इंस्टॉल करें[Aspose रिलीज़ पेज](https://releases.aspose.com/slides/java/).
+1. जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपके सिस्टम पर JDK इंस्टॉल है। आप इसे यहाँ से डाउनलोड कर सकते हैं। [वेबसाइट](https://www.oracle.com/java/technologies/javase-downloads.html).
+2. Aspose.Slides for Java लाइब्रेरी: Aspose.Slides for Java को डाउनलोड करें और इंस्टॉल करें [Aspose रिलीज़ पेज](https://releases.aspose.com/slides/java/).
 3. IDE: अपने जावा कोड को लिखने और निष्पादित करने के लिए IntelliJ IDEA, Eclipse, या NetBeans जैसे एकीकृत विकास वातावरण (IDE) का उपयोग करें।
 4. स्रोत प्रस्तुति फ़ाइल: सुनिश्चित करें कि आपके पास एक स्रोत पावरपॉइंट फ़ाइल है जिससे आप स्लाइड को क्लोन करेंगे।
 ## पैकेज आयात करें
@@ -37,7 +39,7 @@ String dataDir = "path/to/your/documents/directory/";
 Presentation srcPres = new Presentation(dataDir + "CloneToAnotherPresentationWithMaster.pptx");
 ```
 ## चरण 2: गंतव्य प्रस्तुति को तत्काल बनाएं
- इसके बाद, इसका एक उदाहरण बनाएं`Presentation` गंतव्य प्रस्तुति के लिए क्लास जहां स्लाइड को क्लोन किया जाएगा।
+इसके बाद, इसका एक उदाहरण बनाएं `Presentation` गंतव्य प्रस्तुति के लिए क्लास जहां स्लाइड को क्लोन किया जाएगा।
 ```java
 // गंतव्य प्रस्तुति के लिए प्रस्तुतिकरण वर्ग को तत्कालित करें
 Presentation destPres = new Presentation();
@@ -45,7 +47,7 @@ Presentation destPres = new Presentation();
 ## चरण 3: स्रोत स्लाइड और मास्टर स्लाइड प्राप्त करें
 स्रोत प्रस्तुति से स्लाइड और उसकी संगत मास्टर स्लाइड को पुनः प्राप्त करें।
 ```java
-// मास्टर स्लाइड के साथ स्रोत प्रस्तुति में स्लाइडों के संग्रह से ISlide को तत्काल बनाना
+// मास्टर स्लाइड के साथ स्रोत प्रस्तुति में स्लाइडों के संग्रह से ISlide को तत्कालित करें
 ISlide sourceSlide = srcPres.getSlides().get_Item(0);
 IMasterSlide sourceMaster = sourceSlide.getLayoutSlide().getMasterSlide();
 ```
@@ -86,12 +88,14 @@ Aspose.Slides for Java एक शक्तिशाली API है जो Java
 ### क्या Aspose.Slides for Java निःशुल्क है?  
 Aspose.Slides for Java एक निःशुल्क परीक्षण संस्करण प्रदान करता है। पूर्ण कार्यक्षमता के लिए, आपको लाइसेंस खरीदना होगा।
 ### मैं Aspose.Slides for Java के लिए अस्थायी लाइसेंस कैसे प्राप्त करूं?  
- आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[Aspose खरीद पृष्ठ](https://purchase.aspose.com/temporary-license/).
+आप अस्थायी लाइसेंस प्राप्त कर सकते हैं [Aspose खरीद पृष्ठ](https://purchase.aspose.com/temporary-license/).
 ### मैं और अधिक उदाहरण और दस्तावेज कहां पा सकता हूं?  
- दौरा करना[Aspose.Slides for Java दस्तावेज़](https://reference.aspose.com/slides/java/) अधिक उदाहरण और विस्तृत जानकारी के लिए.
+दौरा करना [Aspose.Slides for Java दस्तावेज़](https://reference.aspose.com/slides/java/) अधिक उदाहरण और विस्तृत जानकारी के लिए.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

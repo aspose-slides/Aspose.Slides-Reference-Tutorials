@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में मीडिया फ़ाइलों के साथ संपूर्ण प्रस्तुति को HTML में बदलें
-linktitle: जावा स्लाइड्स में मीडिया फ़ाइलों के साथ संपूर्ण प्रस्तुति को HTML में बदलें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Java Slides का उपयोग करके मीडिया फ़ाइलों के साथ प्रेजेंटेशन को HTML में कैसे बदलें, यह जानें। Aspose.Slides for Java API के साथ हमारे चरण-दर-चरण गाइड का पालन करें।
-weight: 30
-url: /hi/java/presentation-conversion/convert-whole-presentation-html-media-files-java-slides/
+"description": "Java Slides का उपयोग करके मीडिया फ़ाइलों के साथ प्रस्तुतियों को HTML में परिवर्तित करना सीखें। Aspose.Slides for Java API के साथ हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "जावा स्लाइड्स में मीडिया फ़ाइलों के साथ संपूर्ण प्रस्तुति को HTML में बदलें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में मीडिया फ़ाइलों के साथ संपूर्ण प्रस्तुति को HTML में बदलें"
+"url": "/hi/java/presentation-conversion/convert-whole-presentation-html-media-files-java-slides/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में मीडिया फ़ाइलों के साथ संपूर्ण प्रस्तुति को HTML में बदलें
@@ -23,7 +25,7 @@ url: /hi/java/presentation-conversion/convert-whole-presentation-html-media-file
 इससे पहले कि हम कोडिंग पहलू में उतरें, आइए सुनिश्चित करें कि हमने सब कुछ सही ढंग से सेट किया है:
 
 - जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपके सिस्टम पर JDK स्थापित है।
--  Aspose.Slides for Java: आपको Aspose.Slides for Java API इंस्टॉल करना होगा। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+- Aspose.Slides for Java: आपको Aspose.Slides for Java API इंस्टॉल करना होगा। आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 
 ## चरण 1: आवश्यक पैकेज आयात करें
 
@@ -41,7 +43,7 @@ import com.aspose.slides.VideoPlayerHtmlController;
 
 ## चरण 2: दस्तावेज़ निर्देशिका निर्दिष्ट करें
 
- अपनी दस्तावेज़ निर्देशिका का पथ निर्धारित करें जहाँ प्रस्तुति फ़ाइल स्थित है।`"Your Document Directory"` वास्तविक पथ के साथ.
+अपनी दस्तावेज़ निर्देशिका का पथ निर्धारित करें जहाँ प्रस्तुति फ़ाइल स्थित है। `"Your Document Directory"` वास्तविक पथ के साथ.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -49,7 +51,7 @@ String dataDir = "Your Document Directory";
 
 ## चरण 3: प्रस्तुति आरंभ करें
 
- वह प्रेजेंटेशन लोड करें जिसे आप HTML में बदलना चाहते हैं।`"presentationWith.pptx"` अपनी प्रस्तुति के फ़ाइल नाम के साथ.
+वह प्रेजेंटेशन लोड करें जिसे आप HTML में बदलना चाहते हैं। `"presentationWith.pptx"` अपनी प्रस्तुति के फ़ाइल नाम के साथ.
 
 ```java
 Presentation pres = new Presentation("presentationWith.pptx");
@@ -57,7 +59,7 @@ Presentation pres = new Presentation("presentationWith.pptx");
 
 ## चरण 4: HTML नियंत्रक बनाएँ
 
- हम एक बनाएंगे`VideoPlayerHtmlController` रूपांतरण प्रक्रिया को संभालने के लिए। URL को अपने इच्छित वेब पते से बदलें।
+हम एक बनाएंगे `VideoPlayerHtmlController` रूपांतरण प्रक्रिया को संभालने के लिए। URL को अपने इच्छित वेब पते से बदलें।
 
 ```java
 VideoPlayerHtmlController controller = new VideoPlayerHtmlController(
@@ -114,13 +116,13 @@ finally
 
 ### मैं Java के लिए Aspose.Slides कैसे स्थापित कर सकता हूँ?
 
- Java के लिए Aspose.Slides को स्थापित करने के लिए, डाउनलोड पृष्ठ पर जाएँ[यहाँ](https://releases.aspose.com/slides/java/) और दिए गए स्थापना निर्देशों का पालन करें।
+Java के लिए Aspose.Slides को स्थापित करने के लिए, डाउनलोड पृष्ठ पर जाएँ [यहाँ](https://releases.aspose.com/slides/java/) और दिए गए स्थापना निर्देशों का पालन करें।
 
 ### क्या मैं HTML आउटपुट को और अधिक अनुकूलित कर सकता हूँ?
 
- हां, आप अपनी आवश्यकताओं के अनुसार HTML आउटपुट को अनुकूलित कर सकते हैं।`HtmlOptions` क्लास रूपांतरण प्रक्रिया को नियंत्रित करने के लिए विभिन्न सेटिंग्स प्रदान करता है, जिसमें स्वरूपण और लेआउट विकल्प शामिल हैं।
+हां, आप अपनी आवश्यकताओं के अनुसार HTML आउटपुट को अनुकूलित कर सकते हैं। `HtmlOptions` क्लास रूपांतरण प्रक्रिया को नियंत्रित करने के लिए विभिन्न सेटिंग्स प्रदान करता है, जिसमें स्वरूपण और लेआउट विकल्प शामिल हैं।
 
-### क्या Java के लिए Aspose.Slides अन्य आउटपुट प्रारूपों का समर्थन करता है?
+### क्या Aspose.Slides for Java अन्य आउटपुट प्रारूपों का समर्थन करता है?
 
 हां, Aspose.Slides for Java विभिन्न आउटपुट प्रारूपों का समर्थन करता है, जिसमें PDF, PPTX, और बहुत कुछ शामिल है। आप इन विकल्पों को दस्तावेज़ में देख सकते हैं।
 
@@ -130,10 +132,12 @@ finally
 
 ### मैं परिवर्तित HTML प्रस्तुति तक कैसे पहुंच सकता हूं?
 
- एक बार जब आप रूपांतरण पूरा कर लेते हैं, तो आप निर्दिष्ट फ़ाइल का पता लगाकर HTML प्रस्तुति तक पहुँच सकते हैं`htmlDocumentFileName` चर।
+एक बार जब आप रूपांतरण पूरा कर लेते हैं, तो आप निर्दिष्ट फ़ाइल का पता लगाकर HTML प्रस्तुति तक पहुँच सकते हैं `htmlDocumentFileName` चर।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

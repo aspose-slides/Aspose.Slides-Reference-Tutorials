@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में चार्ट में डिफ़ॉल्ट मार्कर
-linktitle: जावा स्लाइड्स में चार्ट में डिफ़ॉल्ट मार्कर
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके चार्ट में डिफ़ॉल्ट मार्कर के साथ Java स्लाइड बनाना सीखें। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 16
-url: /hi/java/chart-data-manipulation/default-markers-in-chart-java-slides/
+"description": "Aspose.Slides for Java का उपयोग करके चार्ट में डिफ़ॉल्ट मार्कर के साथ Java स्लाइड बनाना सीखें। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "जावा स्लाइड्स में चार्ट में डिफ़ॉल्ट मार्कर"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में चार्ट में डिफ़ॉल्ट मार्कर"
+"url": "/hi/java/chart-data-manipulation/default-markers-in-chart-java-slides/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में चार्ट में डिफ़ॉल्ट मार्कर
@@ -139,18 +141,20 @@ pres.save(dataDir + "DefaultMarkersInChart.pptx", SaveFormat.Pptx);
 
 ### मैं मार्कर प्रतीकों को कैसे बदल सकता हूँ?
 
-आप प्रत्येक डेटा बिंदु के लिए मार्कर शैली सेट करके मार्कर प्रतीकों को अनुकूलित कर सकते हैं।`IDataPoint.setMarkerStyle()` मार्कर प्रतीक बदलने के लिए.
+आप प्रत्येक डेटा बिंदु के लिए मार्कर शैली सेट करके मार्कर प्रतीकों को अनुकूलित कर सकते हैं। `IDataPoint.setMarkerStyle()` मार्कर प्रतीक बदलने के लिए.
 
 ### मैं चार्ट के रंग कैसे समायोजित करूं?
 
- चार्ट के रंगों को संशोधित करने के लिए, आप इसका उपयोग कर सकते हैं`IChartSeriesFormat` और`IShapeFillFormat` भरण और पंक्ति गुण सेट करने के लिए इंटरफेस.
+चार्ट के रंगों को संशोधित करने के लिए, आप इसका उपयोग कर सकते हैं `IChartSeriesFormat` और `IShapeFillFormat` भरण और पंक्ति गुण सेट करने के लिए इंटरफेस.
 
 ### क्या मैं डेटा बिंदुओं में लेबल जोड़ सकता हूँ?
 
- हां, आप इसका उपयोग करके डेटा बिंदुओं में लेबल जोड़ सकते हैं`IDataPoint.getLabel()` विधि का चयन करें और आवश्यकतानुसार उन्हें अनुकूलित करें।
+हां, आप इसका उपयोग करके डेटा बिंदुओं में लेबल जोड़ सकते हैं `IDataPoint.getLabel()` विधि का चयन करें और आवश्यकतानुसार उन्हें अनुकूलित करें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

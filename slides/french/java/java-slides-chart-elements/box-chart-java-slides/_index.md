@@ -1,40 +1,42 @@
 ---
-title: Diagramme encadré dans les diapositives Java
-linktitle: Diagramme encadré dans les diapositives Java
-second_title: API de traitement Java PowerPoint d'Aspose.Slides
-description: Apprenez à créer des diagrammes en boîtes dans des présentations Java avec Aspose.Slides. Guide étape par étape et code source inclus pour une visualisation efficace des données.
-weight: 10
-url: /fr/java/chart-elements/box-chart-java-slides/
+"description": "Apprenez à créer des graphiques en boîte dans vos présentations Java avec Aspose.Slides. Guide étape par étape et code source inclus pour une visualisation efficace des données."
+"linktitle": "Diagramme en boîte dans les diapositives Java"
+"second_title": "API de traitement Java PowerPoint Aspose.Slides"
+"title": "Diagramme en boîte dans les diapositives Java"
+"url": "/fr/java/chart-elements/box-chart-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Diagramme encadré dans les diapositives Java
+# Diagramme en boîte dans les diapositives Java
 
 
-## Introduction au diagramme en boîtes dans Aspose.Slides pour Java
+## Introduction aux graphiques en boîte dans Aspose.Slides pour Java
 
-Dans ce didacticiel, nous vous guiderons tout au long du processus de création d'un diagramme en boîtes à l'aide d'Aspose.Slides pour Java. Les diagrammes en boîte sont utiles pour visualiser des données statistiques avec différents quartiles et valeurs aberrantes. Nous fournirons des instructions étape par étape ainsi que le code source pour vous aider à démarrer.
+Dans ce tutoriel, nous vous expliquerons comment créer un graphique en boîte avec Aspose.Slides pour Java. Les graphiques en boîte sont utiles pour visualiser des données statistiques avec différents quartiles et valeurs aberrantes. Nous vous fournirons des instructions étape par étape ainsi que le code source pour vous aider à démarrer.
 
-## Conditions préalables
+## Prérequis
 
-Avant de commencer, assurez-vous d'avoir les éléments suivants :
+Avant de commencer, assurez-vous d’avoir les éléments suivants :
 
 - Bibliothèque Aspose.Slides pour Java installée et configurée.
 - Un environnement de développement Java mis en place.
 
-## Étape 1 : initialiser la présentation
+## Étape 1 : Initialiser la présentation
 
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 ```
 
-Dans cette étape, nous initialisons un objet de présentation en utilisant le chemin d'accès à un fichier PowerPoint existant ("test.pptx" dans cet exemple).
+Dans cette étape, nous initialisons un objet de présentation en utilisant le chemin d'accès à un fichier PowerPoint existant (« test.pptx » dans cet exemple).
 
-## Étape 2 : Créer le graphique en boîtes
+## Étape 2 : Créer le graphique en boîte
 
 ```java
 try {
@@ -43,7 +45,7 @@ try {
     chart.getChartData().getSeries().clear();
 ```
 
-Dans cette étape, nous créons une forme de diagramme en boîte sur la première diapositive de la présentation. Nous effaçons également toutes les catégories et séries existantes du graphique.
+Dans cette étape, nous créons un graphique en boîte sur la première diapositive de la présentation. Nous supprimons également toutes les catégories et séries existantes du graphique.
 
 ## Étape 3 : Définir les catégories
 
@@ -58,7 +60,7 @@ Dans cette étape, nous créons une forme de diagramme en boîte sur la premièr
     chart.getChartData().getCategories().add(wb.getCell(0, "A6", "Category 1"));
 ```
 
- Dans cette étape, nous définissons les catégories du diagramme en boîtes. Nous utilisons le`IChartDataWorkbook` pour ajouter des catégories et les étiqueter en conséquence.
+Dans cette étape, nous définissons les catégories du graphique en boîte. Nous utilisons `IChartDataWorkbook` pour ajouter des catégories et les étiqueter en conséquence.
 
 ## Étape 4 : Créer la série
 
@@ -71,9 +73,9 @@ Dans cette étape, nous créons une forme de diagramme en boîte sur la premièr
     series.setShowOutlierPoints(true);
 ```
 
-Ici, nous créons une série BoxAndWhisker pour le graphique et configurons diverses options telles que la méthode quartile, la ligne moyenne, les marqueurs moyens, les points internes et les points aberrants.
+Ici, nous créons une série BoxAndWhisker pour le graphique et configurons diverses options telles que la méthode des quartiles, la ligne moyenne, les marqueurs moyens, les points intérieurs et les points aberrants.
 
-## Étape 5 : ajouter des points de données
+## Étape 5 : Ajouter des points de données
 
 ```java
     series.getDataPoints().addDataPointForBoxAndWhiskerSeries(wb.getCell(0, "B1", 15));
@@ -86,7 +88,7 @@ Ici, nous créons une série BoxAndWhisker pour le graphique et configurons dive
 
 Dans cette étape, nous ajoutons des points de données à la série BoxAndWhisker. Ces points de données représentent les données statistiques du graphique.
 
-## Étape 6 : Enregistrez la présentation
+## Étape 6 : Enregistrer la présentation
 
 ```java
     pres.save("BoxAndWhisker.pptx", SaveFormat.Pptx);
@@ -95,11 +97,11 @@ Dans cette étape, nous ajoutons des points de données à la série BoxAndWhisk
 }
 ```
 
-Enfin, nous enregistrons la présentation avec le Box Chart dans un nouveau fichier PowerPoint nommé « BoxAndWhisker.pptx ».
+Enfin, nous enregistrons la présentation avec le graphique en boîte dans un nouveau fichier PowerPoint nommé « BoxAndWhisker.pptx ».
 
-Toutes nos félicitations! Vous avez créé avec succès un diagramme en boîtes à l’aide d’Aspose.Slides pour Java. Vous pouvez personnaliser davantage le graphique en ajustant diverses propriétés et en ajoutant davantage de points de données si nécessaire.
+Félicitations ! Vous avez créé un graphique en boîte avec Aspose.Slides pour Java. Vous pouvez personnaliser davantage le graphique en ajustant diverses propriétés et en ajoutant des points de données si nécessaire.
 
-## Code source complet pour le graphique en boîtes dans les diapositives Java
+## Code source complet pour le graphique en boîte dans les diapositives Java
 
 ```java
 String dataDir = "Your Document Directory";
@@ -139,24 +141,26 @@ finally
 
 ## Conclusion
 
-Dans ce didacticiel, nous avons appris à créer un graphique en boîtes à l'aide d'Aspose.Slides pour Java. Les diagrammes en boîte sont des outils précieux pour visualiser les données statistiques, y compris les quartiles et les valeurs aberrantes. Nous avons fourni un guide étape par étape ainsi que le code source pour vous aider à démarrer dans la création de diagrammes en boîtes dans vos applications Java.
+Dans ce tutoriel, nous avons appris à créer un graphique en boîte avec Aspose.Slides pour Java. Les graphiques en boîte sont des outils précieux pour visualiser des données statistiques, notamment les quartiles et les valeurs aberrantes. Nous avons fourni un guide étape par étape ainsi que le code source pour vous aider à démarrer avec la création de graphiques en boîte dans vos applications Java.
 
 ## FAQ
 
-### Comment puis-je modifier l’apparence du diagramme en boîtes ?
+### Comment puis-je modifier l'apparence du graphique en boîte ?
 
-Vous pouvez personnaliser l'apparence du graphique en boîtes en modifiant les propriétés telles que les styles de ligne, les couleurs et les polices. Reportez-vous à la documentation Aspose.Slides pour Java pour plus de détails sur la personnalisation des graphiques.
+Vous pouvez personnaliser l'apparence du graphique en boîte en modifiant des propriétés telles que les styles de ligne, les couleurs et les polices. Consultez la documentation d'Aspose.Slides pour Java pour plus de détails sur la personnalisation des graphiques.
 
-### Puis-je ajouter des séries de données supplémentaires au graphique en boîtes ?
+### Puis-je ajouter des séries de données supplémentaires au graphique en boîte ?
 
- Oui, vous pouvez ajouter plusieurs séries de données au graphique en boîtes en créant des`IChartSeries` objets et en leur ajoutant des points de données.
+Oui, vous pouvez ajouter plusieurs séries de données au graphique en boîte en créant des séries supplémentaires. `IChartSeries` objets et leur ajouter des points de données.
 
-### Que signifie QuartileMethodType.Exclusive ?
+### Que signifie QuartileMethodType.Exclusive ?
 
- Le`QuartileMethodType.Exclusive` Le paramètre spécifie que les calculs de quartile doivent être effectués à l’aide de la méthode exclusive. Vous pouvez choisir différentes méthodes de calcul de quartile en fonction de vos données et de vos besoins.
+Le `QuartileMethodType.Exclusive` Ce paramètre spécifie que les calculs de quartiles doivent être effectués selon la méthode exclusive. Vous pouvez choisir différentes méthodes de calcul de quartiles en fonction de vos données et de vos besoins.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

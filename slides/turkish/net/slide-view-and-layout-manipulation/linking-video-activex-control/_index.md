@@ -1,69 +1,71 @@
 ---
-title: PowerPoint'te ActiveX Denetimi aracılığıyla Videoyu Bağlama
-linktitle: ActiveX Kontrolü Aracılığıyla Videoyu Bağlama
-second_title: Aspose.Slides .NET PowerPoint İşleme API'si
-description: Aspose.Slides for .NET kullanarak videoları PowerPoint slaytlarına nasıl bağlayacağınızı öğrenin. Bu adım adım kılavuz, bağlantılı videolarla etkileşimli ve ilgi çekici sunumlar oluşturmaya yönelik kaynak kodunu ve ipuçlarını içerir.
-weight: 12
-url: /tr/net/slide-view-and-layout-manipulation/linking-video-activex-control/
+"description": "Aspose.Slides for .NET kullanarak videoları PowerPoint slaytlarına nasıl bağlayacağınızı öğrenin. Bu adım adım kılavuz, bağlantılı videolarla etkileşimli ve ilgi çekici sunumlar oluşturmak için kaynak kodu ve ipuçları içerir."
+"linktitle": "ActiveX Denetimi ile Video Bağlantısı"
+"second_title": "Aspose.Slides .NET PowerPoint İşleme API'si"
+"title": "PowerPoint'te ActiveX Denetimi ile Videoyu Bağlama"
+"url": "/tr/net/slide-view-and-layout-manipulation/linking-video-activex-control/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PowerPoint'te ActiveX Denetimi aracılığıyla Videoyu Bağlama
+# PowerPoint'te ActiveX Denetimi ile Videoyu Bağlama
 
-Aspose.Slides for .NET kullanarak bir Sunumda ActiveX Kontrolü aracılığıyla bir Videoyu Bağlama
+Aspose.Slides for .NET kullanarak bir sunumda ActiveX Denetimi aracılığıyla bir Videoyu Bağlama
 
-Aspose.Slides for .NET'te, ActiveX kontrolünü kullanarak bir videoyu programlı olarak bir sunum slaytına bağlayabilirsiniz. Bu, video içeriğinin doğrudan slayt içinde oynatılabileceği etkileşimli sunumlar oluşturmanıza olanak tanır. Bu adım adım kılavuzda, Aspose.Slides for .NET kullanarak bir videoyu sunum slaytına bağlama sürecinde size yol göstereceğiz.
+Aspose.Slides for .NET'te, ActiveX denetimini kullanarak bir videoyu bir sunum slaydına programatik olarak bağlayabilirsiniz. Bu, video içeriğinin doğrudan slayt içinde oynatılabileceği etkileşimli sunumlar oluşturmanızı sağlar. Bu adım adım kılavuzda, Aspose.Slides for .NET'i kullanarak bir videoyu bir sunum slaydına bağlama sürecinde size yol göstereceğiz.
 
-## Önkoşullar:
-- Visual Studio (veya başka herhangi bir .NET geliştirme ortamı)
--  Aspose.Slides for .NET kitaplığı. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/net/).
+## Ön koşullar:
+- Visual Studio (veya herhangi bir diğer .NET geliştirme ortamı)
+- Aspose.Slides for .NET kütüphanesi. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/slides/net/).
 
 ## Adım 1: Yeni Bir Proje Oluşturun
-Tercih ettiğiniz .NET geliştirme ortamında (örn. Visual Studio) yeni bir proje oluşturun ve Aspose.Slides for .NET kütüphanesine referanslar ekleyin.
+Tercih ettiğiniz .NET geliştirme ortamında (örneğin Visual Studio) yeni bir proje oluşturun ve Aspose.Slides for .NET kitaplığına referanslar ekleyin.
 
 ## Adım 2: Gerekli Ad Alanlarını İçe Aktarın
-Aspose.Slides ile çalışmak için gerekli ad alanlarını projenize aktarın:
+Projenizde Aspose.Slides ile çalışmak için gerekli ad alanlarını içe aktarın:
 
 ```csharp
 using Aspose.Slides;
 using Aspose.Slides.ActiveXControls;
 ```
 
-## 3. Adım: Sunumu Yükleyin
-Bağlantılı videoyu eklemek istediğiniz yere PowerPoint sunumunu yükleyin:
+## Adım 3: Sunumu Yükle
+Bağlantılı videoyu eklemek istediğiniz PowerPoint sunumunu yükleyin:
 
 ```csharp
 string presentationPath = "path_to_your_presentation.pptx";
 using (Presentation presentation = new Presentation(presentationPath))
 {
-    // Bağlantılı videoyu ekleme kodunuz buraya gelecek
+    // Bağlantılı videoyu eklemek için kodunuz buraya gelecek
 }
 ```
 
-## 4. Adım: ActiveX Denetimi Ekleme
- Bir örneğini oluşturun`IOleObjectFrame` ActiveX kontrolünü slayta eklemek için arayüz:
+## Adım 4: ActiveX Denetimi Ekle
+Bir örneğini oluşturun `IOleObjectFrame` Slayda ActiveX denetimini eklemek için arayüz:
 
 ```csharp
 ISlide slide = presentation.Slides[0]; // Videoyu eklemek istediğiniz slaydı seçin
 IOleObjectFrame oleObjectFrame = slide.Shapes.AddOleObjectFrame(0, 0, 640, 480, "Video", "ShockwaveFlash.ShockwaveFlash.10");
 ```
 
-Yukarıdaki kodda slayta 640x480 boyutlarında bir ActiveX kontrol çerçevesi ekliyoruz. Videoları gömmek için yaygın olarak kullanılan ShockwaveFlash ActiveX kontrolü için ProgID'yi belirliyoruz.
+Yukarıdaki kodda, slayta 640x480 boyutlarında bir ActiveX denetim çerçevesi ekliyoruz. Genellikle video yerleştirmek için kullanılan ShockwaveFlash ActiveX denetimi için ProgID'yi belirtiyoruz.
 
 ## Adım 5: ActiveX Denetiminin Özelliklerini Ayarlayın
-Bağlantılı video kaynağını belirtmek için ActiveX denetiminin özelliklerini ayarlayın:
+Bağlı video kaynağını belirtmek için ActiveX denetiminin özelliklerini ayarlayın:
 
 ```csharp
-oleObjectFrame.ObjectData = Encoding.UTF8.GetBytes("YourVideoPathHere"); // Gerçek video dosyası yolu ile değiştirin
+oleObjectFrame.ObjectData = Encoding.UTF8.GetBytes("YourVideoPathHere"); // Gerçek video dosya yolu ile değiştirin
 oleObjectFrame.AlternativeText = "Linked Video";
 ```
 
- Yer değiştirmek`"YourVideoPathHere"` video dosyanızın gerçek yolunu içerir.`AlternativeText` özelliği, bağlantılı video için bir açıklama sağlar.
+Yer değiştirmek `"YourVideoPathHere"` video dosyanızın gerçek yolu ile. `AlternativeText` özellik, bağlantılı video için bir açıklama sağlar.
 
-## Adım 6: Sunuyu Kaydet
+## Adım 6: Sunumu Kaydedin
 Değiştirilen sunumu kaydedin:
 
 ```csharp
@@ -71,24 +73,26 @@ string outputPresentationPath = "output_presentation.pptx";
 presentation.Save(outputPresentationPath, SaveFormat.Pptx);
 ```
 
-## SSS:
+## Sıkça Sorulan Sorular:
 
 ### Bağlantılı videonun slayttaki boyutunu ve konumunu nasıl belirleyebilirim?
-ActiveX kontrol çerçevesinin boyutlarını ve konumunu, ActiveX kontrol çerçevesinin parametrelerini kullanarak ayarlayabilirsiniz.`AddOleObjectFrame` yöntem. Dört sayısal argüman sırasıyla sol üst köşenin X ve Y koordinatlarını ve çerçevenin genişliğini ve yüksekliğini temsil eder.
+ActiveX denetim çerçevesinin boyutlarını ve konumunu, parametrelerini kullanarak ayarlayabilirsiniz. `AddOleObjectFrame` yöntem. Dört sayısal argüman, sırasıyla sol üst köşenin X ve Y koordinatlarını ve çerçevenin genişliğini ve yüksekliğini temsil eder.
 
 ### Bu yaklaşımı kullanarak farklı formatlardaki videoları birbirine bağlayabilir miyim?
-Evet, çeşitli formatlardaki videoları, söz konusu format için uygun ActiveX kontrolü mevcut olduğu sürece bağlayabilirsiniz. Örneğin, bu kılavuzda kullanılan ShockwaveFlash ActiveX kontrolü Flash videoları (SWF) için uygundur. Diğer formatlar için farklı ProgID'ler kullanmanız gerekebilir.
+Evet, uygun ActiveX denetimi o biçim için mevcut olduğu sürece çeşitli biçimlerdeki videoları bağlayabilirsiniz. Örneğin, bu kılavuzda kullanılan ShockwaveFlash ActiveX denetimi Flash videoları (SWF) için uygundur. Diğer biçimler için farklı ProgID'ler kullanmanız gerekebilir.
 
 ### Bağlantılı videonun boyutunda bir sınır var mı?
-Bağlantılı videonun boyutu sununuzun genel boyutunu ve performansını etkileyebilir. Videolarınızı sunuma bağlamadan önce web'de oynatılmak üzere optimize etmeniz önerilir.
+Bağlantılı videonun boyutu, sunumunuzun genel boyutunu ve performansını etkileyebilir. Videolarınızı sunuma bağlamadan önce web oynatma için optimize etmeniz önerilir.
 
 ### Çözüm:
-Bu kılavuzda özetlenen adımları takip ederek Aspose.Slides for .NET kullanarak bir sunumdaki ActiveX kontrolü aracılığıyla bir videoyu kolayca bağlayabilirsiniz. Bu özellik, multimedya içeriğini sorunsuz bir şekilde birleştiren ilgi çekici ve etkileşimli sunumlar oluşturmanıza olanak tanır.
+Bu kılavuzda özetlenen adımları izleyerek, Aspose.Slides for .NET kullanarak bir sunumda ActiveX denetimi aracılığıyla bir videoyu kolayca bağlayabilirsiniz. Bu özellik, multimedya içeriğini sorunsuz bir şekilde birleştiren ilgi çekici ve etkileşimli sunumlar oluşturmanızı sağlar.
 
- Daha fazla ayrıntı ve gelişmiş seçenekler için şu adrese başvurabilirsiniz:[Aspose.Slides for .NET belgeleri](https://reference.aspose.com/slides/net/).
+Daha fazla ayrıntı ve gelişmiş seçenekler için şuraya başvurabilirsiniz: [Aspose.Slides for .NET belgeleri](https://reference.aspose.com/slides/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

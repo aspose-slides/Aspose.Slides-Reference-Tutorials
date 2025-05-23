@@ -1,28 +1,30 @@
 ---
-title: Utför sammankoppling av brev i presentationer
-linktitle: Utför sammankoppling av brev i presentationer
-second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Lär dig sammanslagning i presentationer med Aspose.Slides för .NET i den här steg-för-steg-guiden. Skapa dynamiska, personliga presentationer utan ansträngning.
-weight: 21
-url: /sv/net/presentation-manipulation/perform-mail-merge-in-presentations/
+"description": "Lär dig dokumentkoppling i presentationer med Aspose.Slides för .NET i den här steg-för-steg-guiden. Skapa dynamiska, personliga presentationer utan ansträngning."
+"linktitle": "Utför dokumentkoppling i presentationer"
+"second_title": "Aspose.Slides .NET PowerPoint-bearbetnings-API"
+"title": "Utför dokumentkoppling i presentationer"
+"url": "/sv/net/presentation-manipulation/perform-mail-merge-in-presentations/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Utför sammankoppling av brev i presentationer
+# Utför dokumentkoppling i presentationer
 
 ## Introduktion
-I en värld av .NET-utveckling är det ett vanligt krav att skapa dynamiska och personliga presentationer. Ett kraftfullt verktyg som förenklar denna process är Aspose.Slides för .NET. I den här självstudien kommer vi att fördjupa oss i den fascinerande sfären av att utföra sammanslagning i presentationer med Aspose.Slides för .NET.
-## Förutsättningar
+.NET-utvecklingens värld är det vanligt att skapa dynamiska och personliga presentationer. Ett kraftfullt verktyg som förenklar denna process är Aspose.Slides för .NET. I den här handledningen ska vi fördjupa oss i den fascinerande världen av att utföra dokumentkoppling i presentationer med Aspose.Slides för .NET.
+## Förkunskapskrav
 Innan vi ger oss ut på denna resa, se till att du har följande förutsättningar på plats:
-- Aspose.Slides for .NET Library: Se till att du har Aspose.Slides for .NET-biblioteket installerat. Du kan ladda ner den från[här](https://releases.aspose.com/slides/net/).
-- Dokumentmall: Förbered en presentationsmall (t.ex. PresentationTemplate.pptx) som kommer att fungera som bas för sammanslagning.
-- Datakälla: Du behöver en datakälla för sammanslagning. I vårt exempel kommer vi att använda XML-data (TestData.xml), men Aspose.Slides stöder olika datakällor som RDBMS.
-Låt oss nu dyka in i stegen för att utföra sammanslagning i presentationer med Aspose.Slides för .NET.
-## Importera namnområden
-Se först till att du importerar de nödvändiga namnområdena för att utnyttja funktionerna som tillhandahålls av Aspose.Slides:
+- Aspose.Slides för .NET-biblioteket: Se till att du har Aspose.Slides för .NET-biblioteket installerat. Du kan ladda ner det från [här](https://releases.aspose.com/slides/net/).
+- Dokumentmall: Förbered en presentationsmall (t.ex. PresentationTemplate.pptx) som ska fungera som bas för dokumentkoppling.
+- Datakälla: Du behöver en datakälla för dokumentkoppling. I vårt exempel använder vi XML-data (TestData.xml), men Aspose.Slides stöder olika datakällor som RDBMS.
+Nu ska vi gå in på stegen för att utföra dokumentkoppling i presentationer med Aspose.Slides för .NET.
+## Importera namnrymder
+Först, se till att du importerar de namnrymder som behövs för att utnyttja funktionerna i Aspose.Slides:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -43,11 +45,11 @@ using DataTable = System.Data.DataTable;
 string dataDir = "Your Document Directory";
 string presTemplatePath = Path.Combine(dataDir, "PresentationTemplate.pptx");
 string resultPath = Path.Combine(RunExamples.OutPath, "MailMergeResult");
-// Kontrollera om resultatsökvägen finns
+// Kontrollera om sökvägen för resultat finns
 if (!Directory.Exists(resultPath))
     Directory.CreateDirectory(resultPath);
 ```
-## Steg 2: Skapa en datauppsättning med XML-data
+## Steg 2: Skapa en datamängd med XML-data
 ```csharp
 using (DataSet dataSet = new DataSet())
 {
@@ -61,7 +63,7 @@ using (DataSet dataSet = new DataSet())
 ```csharp
 foreach (DataRow userRow in usersTable.Rows)
 {
-    // skapa resultat (individuellt) presentationsnamn
+    // skapa resultat (individuell) presentationsnamn
     string presPath = Path.Combine(resultPath, "PresFor_" + userRow["Name"] + ".pptx");
     // Ladda presentationsmall
     using (Presentation pres = new Presentation(presTemplatePath))
@@ -71,26 +73,26 @@ foreach (DataRow userRow in usersTable.Rows)
         ((AutoShape)pres.Slides[0].Shapes[4]).TextFrame.Text = userRow["Department"].ToString();
         // Hämta bild från databasen
         byte[] bytes = Convert.FromBase64String(userRow["Img"].ToString());
-        //Infoga bild i bildramen för presentationen
+        // Infoga bild i presentationens bildram
         IPPImage image = pres.Images.AddImage(bytes);
         IPictureFrame pf = pres.Slides[0].Shapes[1] as PictureFrame;
         pf.PictureFormat.Picture.Image.ReplaceImage(image);
-        // Skaffa och förbered textramen för att fylla den med data
+        // Hämta och förbered textramen för att fylla den med data
         IAutoShape list = pres.Slides[0].Shapes[2] as IAutoShape;
         ITextFrame textFrame = list.TextFrame;
         textFrame.Paragraphs.Clear();
         Paragraph para = new Paragraph();
         para.Text = "Department Staff:";
         textFrame.Paragraphs.Add(para);
-        // Fyll i personaluppgifter
+        // Fyll i personaldata
         FillStaffList(textFrame, userRow, staffListTable);
-        // Fyll i planfakta
+        // Fyll i planfaktadata
         FillPlanFact(pres, userRow, planFactTable);
         pres.Save(presPath, SaveFormat.Pptx);
     }
 }
 ```
-## Steg 4: Fyll textram med data som en lista
+## Steg 4: Fyll textramen med data som en lista
 ```csharp
 static void FillStaffList(ITextFrame textFrame, DataRow userRow, DataTable staffListTable)
 {
@@ -111,7 +113,7 @@ static void FillStaffList(ITextFrame textFrame, DataRow userRow, DataTable staff
     }
 }
 ```
-## Steg 5: Fyll i datadiagram från den sekundära PlanFact-tabellen
+## Steg 5: Fyll i datadiagrammet från den sekundära PlanFact-tabellen
 ```csharp
 static void FillPlanFact(Presentation pres, DataRow row, DataTable planFactTable)
 {
@@ -142,23 +144,25 @@ static void FillPlanFact(Presentation pres, DataRow row, DataTable planFactTable
     chart.ChartData.SetRange(range);
 }
 ```
-De här stegen visar en omfattande guide om hur du utför sammanslagning i presentationer med Aspose.Slides för .NET. Låt oss nu ta upp några vanliga frågor.
+Dessa steg visar en omfattande guide för hur man utför dokumentkoppling i presentationer med Aspose.Slides för .NET. Nu ska vi ta upp några vanliga frågor.
 ## Vanliga frågor
 ### 1. Är Aspose.Slides för .NET kompatibelt med olika datakällor?
 Ja, Aspose.Slides för .NET stöder olika datakällor, inklusive XML, RDBMS och mer.
-### 2. Kan jag anpassa utseendet på punktpunkter i den genererade presentationen?
- Säkert! Du har full kontroll över utseendet på kulpunkter, som visas i`FillStaffList` metod.
+### 2. Kan jag anpassa utseendet på punktlistor i den genererade presentationen?
+Absolut! Du har full kontroll över utseendet på punktlistor, vilket visas i `FillStaffList` metod.
 ### 3. Vilka typer av diagram kan jag skapa med Aspose.Slides för .NET?
 Aspose.Slides för .NET stöder ett brett utbud av diagram, inklusive linjediagram som visas i vårt exempel, stapeldiagram, cirkeldiagram och mer.
 ### 4. Hur får jag support eller söker hjälp med Aspose.Slides för .NET?
- För support och hjälp kan du besöka[Aspose.Slides forum](https://forum.aspose.com/c/slides/11).
+För stöd och hjälp kan du besöka [Aspose.Slides-forum](https://forum.aspose.com/c/slides/11).
 ### 5. Kan jag prova Aspose.Slides för .NET innan jag köper?
- Säkert! Du kan använda en gratis provversion av Aspose.Slides för .NET från[här](https://releases.aspose.com/).
+Absolut! Du kan prova Aspose.Slides för .NET gratis från [här](https://releases.aspose.com/).
 ## Slutsats
-I den här självstudien utforskade vi de spännande funktionerna hos Aspose.Slides för .NET för att utföra sammanslagning i presentationer. Genom att följa steg-för-steg-guiden kan du skapa dynamiska och personliga presentationer utan ansträngning. Förhöj din .NET-utvecklingsupplevelse med Aspose.Slides för sömlös presentationsgenerering.
+den här handledningen utforskade vi de spännande möjligheterna med Aspose.Slides för .NET för att utföra dokumentkoppling i presentationer. Genom att följa steg-för-steg-guiden kan du enkelt skapa dynamiska och personliga presentationer. Förbättra din .NET-utvecklingsupplevelse med Aspose.Slides för sömlös presentationsgenerering.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

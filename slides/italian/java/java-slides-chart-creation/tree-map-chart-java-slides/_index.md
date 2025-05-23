@@ -1,41 +1,43 @@
 ---
-title: Grafico della mappa ad albero nelle diapositive Java
-linktitle: Grafico della mappa ad albero nelle diapositive Java
-second_title: Aspose.Slides API di elaborazione Java PowerPoint
-description: Crea grafici a mappa ad albero nelle diapositive Java utilizzando Aspose.Slides per Java. Guida passo passo con codice sorgente per la visualizzazione dei dati gerarchici.
-weight: 13
-url: /it/java/chart-creation/tree-map-chart-java-slides/
+"description": "Crea grafici ad albero in Java Slides utilizzando Aspose.Slides per Java. Guida passo passo con codice sorgente per la visualizzazione di dati gerarchici."
+"linktitle": "Grafico ad albero in Java Slides"
+"second_title": "API di elaborazione Java PowerPoint di Aspose.Slides"
+"title": "Grafico ad albero in Java Slides"
+"url": "/it/java/chart-creation/tree-map-chart-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Grafico della mappa ad albero nelle diapositive Java
+# Grafico ad albero in Java Slides
 
 
-## Introduzione al grafico della mappa ad albero nelle diapositive Java
+## Introduzione al grafico ad albero in Java Slides
 
-In questo tutorial, dimostreremo come creare un grafico della mappa ad albero in una presentazione di PowerPoint utilizzando la libreria Aspose.Slides per Java. I grafici con mappa ad albero rappresentano un modo efficace per visualizzare i dati gerarchici.
+In questo tutorial, mostreremo come creare un grafico ad albero in una presentazione PowerPoint utilizzando la libreria Aspose.Slides per Java. I grafici ad albero sono un modo efficace per visualizzare dati gerarchici.
 
 ## Prerequisiti
 
-Prima di iniziare, assicurati di avere la libreria Aspose.Slides per Java impostata nel tuo progetto Java.
+Prima di iniziare, assicurati di aver configurato la libreria Aspose.Slides per Java nel tuo progetto Java.
 
-## Passaggio 1: importa le librerie richieste
+## Passaggio 1: importare le librerie richieste
 
 ```java
 import com.aspose.slides.*;
 ```
 
-## Passaggio 2: carica la presentazione
+## Passaggio 2: caricare la presentazione
 
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 ```
 
-## Passaggio 3: crea un grafico con mappa ad albero
+## Passaggio 3: creare un grafico ad albero
 
 ```java
 try {
@@ -91,7 +93,7 @@ try {
 }
 ```
 
-## Codice sorgente completo per il grafico della mappa ad albero nelle diapositive Java
+## Codice sorgente completo per il grafico ad albero in Java Slides
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
@@ -139,28 +141,30 @@ finally
 
 ## Conclusione
 
-In questo tutorial, hai imparato come creare un grafico della mappa ad albero in una presentazione di PowerPoint utilizzando la libreria Aspose.Slides per Java. I grafici a mappa ad albero sono uno strumento prezioso per visualizzare i dati gerarchici, rendendo le tue presentazioni più informative e coinvolgenti.
+In questo tutorial, hai imparato a creare un grafico ad albero in una presentazione PowerPoint utilizzando la libreria Aspose.Slides per Java. I grafici ad albero sono uno strumento prezioso per visualizzare dati gerarchici, rendendo le tue presentazioni più informative e coinvolgenti.
 
 ## Domande frequenti
 
-### Come faccio ad aggiungere dati al grafico della mappa ad albero?
+### Come posso aggiungere dati al grafico Tree Map?
 
- Per aggiungere dati al grafico della mappa ad albero, utilizzare il file`series.getDataPoints().addDataPointForTreemapSeries()` metodo, passando i valori dei dati come parametri.
+Per aggiungere dati al grafico Tree Map, utilizzare `series.getDataPoints().addDataPointForTreemapSeries()` metodo, passando i valori dei dati come parametri.
 
-### Come posso personalizzare l'aspetto del grafico della mappa ad albero?
+### Come posso personalizzare l'aspetto del grafico Tree Map?
 
- È possibile personalizzare l'aspetto del grafico della mappa ad albero modificando varie proprietà del grafico`chart` E`series`oggetti, come colori, etichette e layout.
+È possibile personalizzare l'aspetto del grafico Tree Map modificando varie proprietà del `chart` E `series` oggetti, come colori, etichette e layout.
 
 ### Posso creare più grafici ad albero in un'unica presentazione?
 
-Sì, puoi creare più grafici ad albero in un'unica presentazione seguendo gli stessi passaggi e specificando diverse posizioni delle diapositive.
+Sì, è possibile creare più grafici ad albero in un'unica presentazione seguendo gli stessi passaggi e specificando posizioni diverse nelle diapositive.
 
-### Come faccio a salvare la presentazione con il grafico della mappa ad albero?
+### Come posso salvare la presentazione con il grafico Tree Map?
 
- Usa il`pres.save()` metodo per salvare la presentazione con il grafico della Mappa ad Albero nel formato desiderato (es. PPTX).
+Utilizzare il `pres.save()` Metodo per salvare la presentazione con il grafico Tree Map nel formato desiderato (ad esempio, PPTX).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

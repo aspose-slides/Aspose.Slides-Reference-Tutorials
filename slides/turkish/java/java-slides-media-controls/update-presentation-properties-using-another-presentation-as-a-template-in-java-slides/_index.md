@@ -1,34 +1,36 @@
 ---
-title: Java Slaytlarında Başka Bir Sunumu Şablon Olarak Kullanarak Sunum Özelliklerini Güncelleme
-linktitle: Java Slaytlarında Başka Bir Sunumu Şablon Olarak Kullanarak Sunum Özelliklerini Güncelleme
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides for Java'yı kullanarak PowerPoint sunumlarınızı güncellenmiş meta verilerle geliştirin. Java Slaytlar'daki şablonları kullanarak yazar, başlık ve anahtar kelimeler gibi özellikleri güncellemeyi öğrenin.
-weight: 14
-url: /tr/java/media-controls/update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/
+"description": "Aspose.Slides for Java kullanarak PowerPoint sunumlarını güncellenmiş meta verilerle geliştirin. Java Slides'daki şablonları kullanarak yazar, başlık ve anahtar sözcükler gibi özellikleri güncellemeyi öğrenin."
+"linktitle": "Java Slaytlarında Şablon Olarak Başka Bir Sunuyu Kullanarak Sunu Özelliklerini Güncelleme"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java Slaytlarında Şablon Olarak Başka Bir Sunuyu Kullanarak Sunu Özelliklerini Güncelleme"
+"url": "/tr/java/media-controls/update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java Slaytlarında Başka Bir Sunumu Şablon Olarak Kullanarak Sunum Özelliklerini Güncelleme
+# Java Slaytlarında Şablon Olarak Başka Bir Sunuyu Kullanarak Sunu Özelliklerini Güncelleme
 
 
-## Java Slaytlarında Başka Bir Sunumu Şablon Olarak Kullanarak Sunum Özelliklerini Güncellemeye Giriş
+## Java Slaytlarında Şablon Olarak Başka Bir Sunuyu Kullanarak Sunu Özelliklerini Güncellemeye Giriş
 
-Bu eğitimde, Aspose.Slides for Java kullanarak PowerPoint sunumlarının sunum özelliklerini (meta veriler) güncelleme sürecinde size yol göstereceğiz. Yazar, başlık, anahtar sözcükler ve daha fazlası gibi özellikleri güncellemek için başka bir sunuyu şablon olarak kullanabilirsiniz. Size adım adım talimatlar ve kaynak kodu örnekleri sunacağız.
+Bu eğitimde, Aspose.Slides for Java kullanarak PowerPoint sunumları için sunum özelliklerini (meta verileri) güncelleme sürecini adım adım anlatacağız. Yazar, başlık, anahtar sözcükler ve daha fazlası gibi özellikleri güncellemek için başka bir sunumu şablon olarak kullanabilirsiniz. Size adım adım talimatlar ve kaynak kodu örnekleri sunacağız.
 
-## Önkoşullar
+## Ön koşullar
 
- Başlamadan önce Aspose.Slides for Java kütüphanesinin Java projenize entegre olduğundan emin olun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/java/).
+Başlamadan önce, Java projenize Aspose.Slides for Java kütüphanesinin entegre olduğundan emin olun. Bunu şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/slides/java/).
 
-## 1. Adım: Projenizi Kurun
+## Adım 1: Projenizi Kurun
 
 Bir Java projesi oluşturduğunuzdan ve Aspose.Slides for Java kütüphanesini projenizin bağımlılıklarına eklediğinizden emin olun.
 
 ## Adım 2: Gerekli Paketleri İçe Aktarın
 
-Sunum özellikleriyle çalışmak için gerekli Aspose.Slides paketlerini içe aktarmanız gerekecektir. Java sınıfınızın başına aşağıdaki import ifadelerini ekleyin:
+Sunum özellikleriyle çalışmak için gerekli Aspose.Slides paketlerini içe aktarmanız gerekecektir. Java sınıfınızın başına aşağıdaki içe aktarma ifadelerini ekleyin:
 
 ```java
 import com.aspose.slides.DocumentProperties;
@@ -37,15 +39,15 @@ import com.aspose.slides.IPresentationInfo;
 import com.aspose.slides.PresentationFactory;
 ```
 
-## 3. Adım: Sunum Özelliklerini Güncelleyin
+## Adım 3: Sunum Özelliklerini Güncelle
 
-Şimdi başka bir sunumu şablon olarak kullanarak sunum özelliklerini güncelleyelim. Bu örnekte, birden çok sunumun özelliklerini güncelleyeceğiz ancak bu kodu kendi özel kullanım durumunuza uyarlayabilirsiniz.
+Şimdi, şablon olarak başka bir sunumu kullanarak sunum özelliklerini güncelleyelim. Bu örnekte, birden fazla sunumun özelliklerini güncelleyeceğiz, ancak bu kodu kendi özel kullanım durumunuza uyarlayabilirsiniz.
 
 ```java
-// Belgeler dizininin yolu.
+// Belgeler dizinine giden yol.
 String dataDir = "Your Document Directory";
 
-// Özellikleri kopyalamak istediğiniz şablon sunumunu yükleyin
+// Özelliklerini kopyalamak istediğiniz şablon sunumunu yükleyin
 DocumentProperties template;
 IPresentationInfo info = PresentationFactory.getInstance().getPresentationInfo(dataDir + "template.pptx");
 template = (DocumentProperties) info.readDocumentProperties();
@@ -60,34 +62,34 @@ template.setComments("Created from template");
 template.setContentType("Template Content");
 template.setSubject("Template Subject");
 
-// Aynı şablonu kullanarak birden fazla sunumu güncelleme
+// Aynı şablonu kullanarak birden fazla sunumu güncelleyin
 updateByTemplate(dataDir + "doc1.pptx", template);
 updateByTemplate(dataDir + "doc2.odp", template);
 updateByTemplate(dataDir + "doc3.ppt", template);
 ```
 
-##  Adım 4: Tanımlayın`updateByTemplate` Method
+## Adım 4: Tanımlayın `updateByTemplate` Yöntem
 
-Şablonu kullanarak bireysel sunumların özelliklerini güncellemek için bir yöntem tanımlayalım. Bu yöntem, güncellenecek sunumun yolunu ve şablon özelliklerini parametre olarak alacaktır.
+Şablonu kullanarak bireysel sunumların özelliklerini güncellemek için bir yöntem tanımlayalım. Bu yöntem güncellenecek sunumun yolunu ve şablon özelliklerini parametre olarak alacaktır.
 
 ```java
 private static void updateByTemplate(String path, IDocumentProperties template)
 {
-    // Güncellenecek sunuyu yükleyin
+    // Güncellenecek sunumu yükleyin
     IPresentationInfo toUpdate = PresentationFactory.getInstance().getPresentationInfo(path);
     
-    // Şablonu kullanarak belge özelliklerini güncelleme
+    // Şablonu kullanarak belge özelliklerini güncelleyin
     toUpdate.updateDocumentProperties(template);
     
-    // Güncellenen sunuyu kaydet
+    // Güncellenen sunumu kaydedin
     toUpdate.writeBindedPresentation(path);
 }
 ```
 
-## Java Slaytlarında Başka Bir Sunumun Şablon Olarak Kullanılması Sunum Özelliklerini Güncellemek İçin Tam Kaynak Kodu
+## Java Slaytlarında Şablon Olarak Başka Bir Sunuyu Kullanarak Sunum Özelliklerini Güncellemek İçin Tam Kaynak Kodu
 
 ```java
-	// Belgeler dizininin yolu.
+	// Belgeler dizinine giden yol.
 	String dataDir = "Your Document Directory";
 	DocumentProperties template;
 	IPresentationInfo info = PresentationFactory.getInstance().getPresentationInfo(dataDir + "template.pptx");
@@ -113,24 +115,26 @@ private static void updateByTemplate(String path, IDocumentProperties template)
 
 ## Çözüm
 
-Bu kapsamlı eğitimde, Aspose.Slides for Java kullanarak PowerPoint sunumlarındaki sunum özelliklerinin nasıl güncelleneceğini araştırdık. Yazar adları, başlıklar, anahtar kelimeler ve daha fazlası gibi meta verileri verimli bir şekilde güncellemek için şablon olarak başka bir sunumu kullanmaya özellikle odaklandık.
+Bu kapsamlı eğitimde, Aspose.Slides for Java kullanarak PowerPoint sunumlarındaki sunum özelliklerinin nasıl güncelleneceğini inceledik. Özellikle yazar adları, başlıklar, anahtar sözcükler ve daha fazlası gibi meta verileri verimli bir şekilde güncellemek için şablon olarak başka bir sunum kullanmaya odaklandık.
 
-## SSS'ler
+## SSS
 
 ### Daha fazla sunum için özellikleri nasıl güncelleyebilirim?
 
- Birden fazla sunumun özelliklerini çağırarak güncelleştirebilirsiniz.`updateByTemplate` İstenilen yolla her sunum için yöntem.
+Birden fazla sunumun özelliklerini, çağırarak güncelleyebilirsiniz. `updateByTemplate` Her sunum için istenilen yol ile yöntem.
 
-### Bu kodu farklı özellikler için özelleştirebilir miyim?
+### Bu kodu farklı mülkler için özelleştirebilir miyim?
 
-Evet, gereksinimlerinize göre belirli özellikleri güncellemek için kodu özelleştirebilirsiniz. Basitçe değiştirin`template` İstenilen özellik değerlerine sahip nesne.
+Evet, gereksinimlerinize göre belirli özellikleri güncellemek için kodu özelleştirebilirsiniz. Basitçe `template` İstenilen özellik değerlerine sahip nesne.
 
-### Güncellenebilecek sunum türlerinde herhangi bir sınırlama var mı?
+### Güncellenebilecek sunumların türü konusunda herhangi bir sınırlama var mı?
 
 Hayır, PPTX, ODP ve PPT dahil olmak üzere çeşitli formatlardaki sunumların özelliklerini güncelleyebilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,43 +1,45 @@
 ---
-title: Java Slaytlarında Grafik Çizim Alanından Genişlik ve Yükseklik Alma
-linktitle: Java Slaytlarında Grafik Çizim Alanından Genişlik ve Yükseklik Alma
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides for Java'yı kullanarak Java Slides'ta grafik çizim alanı boyutlarını nasıl alacağınızı öğrenin. PowerPoint otomasyon becerilerinizi geliştirin.
-weight: 21
-url: /tr/java/data-manipulation/get-width-height-chart-plot-area-java-slides/
+"description": "Java Slaytlarında Aspose.Slides for Java'yı kullanarak grafik çizim alanı boyutlarının nasıl alınacağını öğrenin. PowerPoint otomasyon becerilerinizi geliştirin."
+"linktitle": "Java Slaytlarında Grafik Çizim Alanından Genişlik ve Yükseklik Alın"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java Slaytlarında Grafik Çizim Alanından Genişlik ve Yükseklik Alın"
+"url": "/tr/java/data-manipulation/get-width-height-chart-plot-area-java-slides/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java Slaytlarında Grafik Çizim Alanından Genişlik ve Yükseklik Alma
+# Java Slaytlarında Grafik Çizim Alanından Genişlik ve Yükseklik Alın
 
 
 ## giriiş
 
-Grafikler, PowerPoint sunumlarındaki verileri görselleştirmenin güçlü bir yoludur. Bazen, grafik içindeki öğeleri yeniden boyutlandırmak veya yeniden konumlandırmak gibi çeşitli nedenlerle grafiğin çizim alanının boyutlarını bilmeniz gerekebilir. Bu kılavuz, Java ve Aspose.Slides for Java kullanılarak çizim alanının genişliğinin ve yüksekliğinin nasıl elde edileceğini gösterecektir.
+Grafikler, PowerPoint sunumlarında verileri görselleştirmenin güçlü bir yoludur. Bazen, grafik içindeki öğeleri yeniden boyutlandırma veya yeniden konumlandırma gibi çeşitli nedenlerle bir grafiğin çizim alanının boyutlarını bilmeniz gerekebilir. Bu kılavuz, Java ve Java için Aspose.Slides kullanarak çizim alanının genişliğinin ve yüksekliğinin nasıl elde edileceğini gösterecektir.
 
-## Önkoşullar
+## Ön koşullar
 
- Kodun ayrıntılarına girmeden önce, Java projenizde Aspose.Slides for Java kütüphanesinin kurulu olduğundan ve kurulduğundan emin olun. Kütüphaneyi Aspose web sitesinden indirebilirsiniz.[Burada](https://releases.aspose.com/slides/java/).
+Koda dalmadan önce, Java projenizde Aspose.Slides for Java kütüphanesinin yüklü ve ayarlanmış olduğundan emin olun. Kütüphaneyi Aspose web sitesinden indirebilirsiniz [Burada](https://releases.aspose.com/slides/java/).
 
-## 1. Adım: Ortamı Ayarlama
+## Adım 1: Ortamı Kurma
 
-Aspose.Slides for Java kütüphanesinin Java projenize eklendiğinden emin olun. Bunu, kütüphaneyi projenizin bağımlılıklarına dahil ederek veya JAR dosyasını manuel olarak ekleyerek yapabilirsiniz.
+Java projenize Aspose.Slides for Java kütüphanesinin eklendiğinden emin olun. Bunu, kütüphaneyi projenizin bağımlılıklarına ekleyerek veya JAR dosyasını elle ekleyerek yapabilirsiniz.
 
-## Adım 2: PowerPoint Sunusu Oluşturma
+## Adım 2: Bir PowerPoint Sunumu Oluşturma
 
-Bir PowerPoint sunusu oluşturup ona bir slayt ekleyerek başlayalım. Bu, grafiğimiz için kap görevi görecek.
+Bir PowerPoint sunumu oluşturarak ve ona bir slayt ekleyerek başlayalım. Bu, grafiğimiz için bir kapsayıcı görevi görecektir.
 
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.Pptx");
 ```
 
- Yer değiştirmek`"Your Document Directory"` belge dizininizin yolu ile.
+Yer değiştirmek `"Your Document Directory"` belge dizininize giden yol ile.
 
-## 3. Adım: Grafik Ekleme
+## Adım 3: Grafik Ekleme
 
 Şimdi slayta kümelenmiş bir sütun grafiği ekleyelim. Ayrıca grafik düzenini de doğrulayacağız.
 
@@ -46,9 +48,9 @@ Chart chart = (Chart) pres.getSlides().get_Item(0).getShapes().addChart(ChartTyp
 chart.validateChartLayout();
 ```
 
-Bu kod, (100, 100) konumunda ve boyutları (500, 350) olan kümelenmiş bir sütun grafiği oluşturur.
+Bu kod, (100, 100) konumunda (500, 350) boyutlarında kümelenmiş bir sütun grafiği oluşturur.
 
-## Adım 4: Çizim Alanı Boyutlarını Alma
+## Adım 4: Arsa Alanı Boyutlarını Elde Etme
 
 Grafiğin çizim alanının genişliğini ve yüksekliğini almak için aşağıdaki kodu kullanabiliriz:
 
@@ -59,7 +61,7 @@ double w = chart.getPlotArea().getActualWidth();
 double h = chart.getPlotArea().getActualHeight();
 ```
 
- Şimdi değişkenler`x`, `y`, `w` , Ve`h` çizim alanının X koordinatı, Y koordinatı, genişliği ve yüksekliği için ilgili değerleri içerir.
+Şimdi değişkenler `x`, `y`, `w`, Ve `h` arsa alanının X-koordinatı, Y-koordinatı, genişliği ve yüksekliği için ilgili değerleri içerir.
 
 ## Adım 5: Sunumu Kaydetme
 
@@ -69,12 +71,12 @@ Son olarak sunumu grafikle birlikte kaydedin.
 pres.save(dataDir + "Chart_out.pptx", SaveFormat.Pptx);
 ```
 
- Değiştirdiğinizden emin olun`"Chart_out.pptx"` İstediğiniz çıktı dosyası adı ile.
+Değiştirdiğinizden emin olun `"Chart_out.pptx"` İstediğiniz çıktı dosya adı ile.
 
 ## Java Slaytlarında Grafik Çizim Alanından Genişlik ve Yükseklik Almak İçin Tam Kaynak Kodu
 
 ```java
-// Belgeler dizininin yolu.
+// Belgeler dizinine giden yol.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.Pptx");
 try
@@ -96,29 +98,31 @@ finally
 
 ## Çözüm
 
-Bu makalede, Aspose.Slides for Java API'sini kullanarak Java Slides'ta bir grafiğin çizim alanının genişliğini ve yüksekliğini nasıl elde edeceğimizi ele aldık. Bu bilgiler, PowerPoint sunumlarındaki grafiklerinizin düzenini dinamik olarak ayarlamanız gerektiğinde değerli olabilir.
+Bu makalede, Java Slaytları'nda Aspose.Slides for Java API'sini kullanarak bir grafiğin çizim alanının genişliğini ve yüksekliğini nasıl elde edeceğinizi ele aldık. Bu bilgi, PowerPoint sunumları içindeki grafiklerinizin düzenini dinamik olarak ayarlamanız gerektiğinde değerli olabilir.
 
-## SSS'ler
+## SSS
 
-### Grafik türünü kümelenmiş sütunlardan başka bir şeye nasıl değiştirebilirim?
+### Grafik türünü kümelenmiş sütunlardan farklı bir şeye nasıl değiştirebilirim?
 
- Grafik türünü değiştirerek değiştirebilirsiniz.`ChartType.ClusteredColumn` istenen grafik türü numaralandırmasıyla, örneğin`ChartType.Line` veya`ChartType.Pie`.
+Grafik türünü değiştirerek değiştirebilirsiniz. `ChartType.ClusteredColumn` İstenilen grafik türü numaralandırmasıyla, örneğin `ChartType.Line` veya `ChartType.Pie`.
 
 ### Grafiğin diğer özelliklerini değiştirebilir miyim?
 
-Evet, Aspose.Slides for Java API'sini kullanarak grafiğin veriler, etiketler ve formatlama gibi çeşitli özelliklerini değiştirebilirsiniz. Daha fazla ayrıntı için belgelere bakın.
+Evet, Aspose.Slides for Java API'sini kullanarak veriler, etiketler ve biçimlendirme gibi grafiğin çeşitli özelliklerini değiştirebilirsiniz. Daha fazla ayrıntı için belgelere bakın.
 
-### Aspose.Slides for Java profesyonel PowerPoint otomasyonuna uygun mu?
+### Aspose.Slides for Java profesyonel PowerPoint otomasyonu için uygun mudur?
 
-Evet, Aspose.Slides for Java, Java uygulamalarındaki PowerPoint görevlerini otomatikleştirmek için kullanılan güçlü bir kütüphanedir. Sunumlar, slaytlar, şekiller, grafikler ve daha fazlasıyla çalışmak için kapsamlı özellikler sağlar.
+Evet, Aspose.Slides for Java, Java uygulamalarında PowerPoint görevlerini otomatikleştirmek için güçlü bir kütüphanedir. Sunumlar, slaytlar, şekiller, grafikler ve daha fazlasıyla çalışmak için kapsamlı özellikler sunar.
 
-### Aspose.Slides for Java hakkında nasıl daha fazla bilgi edinebilirim?
+### Aspose.Slides for Java hakkında daha fazla bilgi nasıl edinebilirim?
 
- Aspose.Slides for Java dokümantasyon sayfasında kapsamlı dokümantasyon ve örnekler bulabilirsiniz.[Burada](https://reference.aspose.com/slides/java/).
+Aspose.Slides for Java dokümantasyon sayfasında kapsamlı dokümanlar ve örnekler bulabilirsiniz [Burada](https://reference.aspose.com/slides/java/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,56 +1,58 @@
 ---
-title: Upravte úhly spojnice v PowerPointu pomocí Aspose.Slides
-linktitle: Úprava úhlů spojnic v prezentačních snímcích pomocí Aspose.Slides
-second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Naučte se, jak upravit úhly spojnice ve snímcích aplikace PowerPoint pomocí Aspose.Slides for .NET. Vylepšete své prezentace s přesností a lehkostí.
-weight: 28
-url: /cs/net/shape-effects-and-manipulation-in-slides/adjusting-connector-line-angles/
+"description": "Naučte se, jak upravit úhly spojovací čáry v PowerPointových slidech pomocí Aspose.Slides pro .NET. Vylepšete své prezentace s přesností a snadností."
+"linktitle": "Úprava úhlů spojovací čáry v prezentačních slidech pomocí Aspose.Slides"
+"second_title": "Rozhraní API pro zpracování PowerPointu v .NET od Aspose.Slides"
+"title": "Úprava úhlů spojovací čáry v PowerPointu pomocí Aspose.Slides"
+"url": "/cs/net/shape-effects-and-manipulation-in-slides/adjusting-connector-line-angles/"
+"weight": 28
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Upravte úhly spojnice v PowerPointu pomocí Aspose.Slides
+# Úprava úhlů spojovací čáry v PowerPointu pomocí Aspose.Slides
 
-## Úvod
-Vytváření vizuálně atraktivních snímků prezentace často vyžaduje přesné úpravy spojnic. V tomto tutoriálu prozkoumáme, jak upravit úhly spojnice na snímcích prezentace pomocí Aspose.Slides pro .NET. Aspose.Slides je výkonná knihovna, která umožňuje vývojářům pracovat se soubory PowerPoint programově a poskytuje rozsáhlé možnosti pro vytváření, úpravy a manipulaci s prezentacemi.
+## Zavedení
+Vytváření vizuálně atraktivních snímků prezentací často zahrnuje přesné úpravy spojovacích čar. V tomto tutoriálu se podíváme na to, jak upravit úhly spojovacích čar ve slidech prezentací pomocí knihovny Aspose.Slides pro .NET. Aspose.Slides je výkonná knihovna, která umožňuje vývojářům programově pracovat se soubory PowerPoint a poskytuje rozsáhlé možnosti pro vytváření, úpravy a manipulaci s prezentacemi.
 ## Předpoklady
-Než se pustíme do výukového programu, ujistěte se, že máte následující:
+Než se pustíme do tutoriálu, ujistěte se, že máte následující:
 - Základní znalost programovacího jazyka C#.
 - Nainstalované Visual Studio nebo jakékoli jiné vývojové prostředí C#.
--  Aspose.Slides pro knihovnu .NET. Můžete si jej stáhnout[tady](https://releases.aspose.com/slides/net/).
-- Soubor prezentace PowerPoint se spojovacími čarami, které chcete upravit.
+- Knihovna Aspose.Slides pro .NET. Můžete si ji stáhnout. [zde](https://releases.aspose.com/slides/net/).
+- Soubor prezentace aplikace PowerPoint se spojovacími čarami, které chcete upravit.
 ## Importovat jmenné prostory
-Chcete-li začít, nezapomeňte do kódu C# zahrnout potřebné jmenné prostory:
+Pro začátek nezapomeňte do kódu C# zahrnout potřebné jmenné prostory:
 ```csharp
 using System.IO;
 using Aspose.Slides;
 using System;
 ```
-## Krok 1: Nastavte svůj projekt
-Vytvořte nový projekt C# ve Visual Studiu a nainstalujte balíček Aspose.Slides NuGet. Nastavte strukturu projektu s odkazem na knihovnu Aspose.Slides.
-## Krok 2: Načtěte prezentaci
+## Krok 1: Nastavení projektu
+Vytvořte nový projekt C# ve Visual Studiu a nainstalujte balíček NuGet Aspose.Slides. Nastavte strukturu projektu s odkazem na knihovnu Aspose.Slides.
+## Krok 2: Načtení prezentace
 ```csharp
 string dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "ConnectorLineAngle.pptx");
 ```
- Načtěte soubor prezentace PowerPoint do`Presentation`objekt. Nahraďte "Your Document Directory" skutečnou cestou k vašemu souboru.
-## Krok 3: Otevřete Slide and Shapes
+Načtěte soubor s prezentací v PowerPointu do `Presentation` objekt. Nahraďte „Adresář dokumentů“ skutečnou cestou k souboru.
+## Krok 3: Přístup ke snímku a tvarům
 ```csharp
 Slide slide = (Slide)pres.Slides[0];
 Shape shape;
 ```
-Otevřete první snímek v prezentaci a inicializujte proměnnou, která bude reprezentovat obrazce na snímku.
-## Krok 4: Opakujte tvary
+Otevřete první snímek v prezentaci a inicializujte proměnnou, která bude reprezentovat tvary na snímku.
+## Krok 4: Iterace tvarů
 ```csharp
 for (int i = 0; i < slide.Shapes.Count; i++)
 {
-    // Kód pro manipulaci s konektorovými linkami
+    // Kód pro manipulaci s konektory
 }
 ```
-Procházejte každý tvar na snímku, abyste identifikovali a zpracovali spojnice.
-## Krok 5: Upravte úhly spojnice
+Procházejte každý tvar na snímku, abyste identifikovali a zpracovali spojovací čáry.
+## Krok 5: Úprava úhlů spojovacích čar
 ```csharp
 double dir = 0.0;
 shape = (Shape)slide.Shapes[i];
@@ -60,12 +62,12 @@ if (shape is AutoShape)
 }
 else if (shape is Connector)
 {
-    // Kód pro manipulaci s konektory
+    // Kód pro práci s konektory
 }
 Console.WriteLine(dir);
 ```
- Zjistěte, zda je obrazec automatickým tvarem nebo spojnicí, a upravte úhly spojnice pomocí poskytnutých`getDirection` metoda.
-##  Krok 6: Definujte`getDirection` Method
+Určete, zda se jedná o automatický tvar nebo spojnici, a upravte úhly spojnice pomocí poskytnutých prvků. `getDirection` metoda.
+## Krok 6: Definujte `getDirection` Metoda
 ```csharp
 public static double getDirection(float w, float h, bool flipH, bool flipV)
 {
@@ -79,23 +81,25 @@ public static double getDirection(float w, float h, bool flipH, bool flipV)
     return angle * 180.0 / Math.PI;
 }
 ```
- Implementujte`getDirection` metoda pro výpočet úhlu spojnice na základě jejích rozměrů a orientace.
+Implementovat `getDirection` metoda pro výpočet úhlu spojovací čáry na základě jejích rozměrů a orientace.
 ## Závěr
-Pomocí těchto kroků můžete pomocí programu Aspose.Slides for .NET programově upravit úhly spojnic v prezentaci PowerPoint. Tento tutoriál poskytuje základ pro zvýšení vizuální přitažlivosti vašich snímků.
-## Nejčastější dotazy
+Pomocí těchto kroků můžete programově upravit úhly spojovacích čar ve vaší prezentaci v PowerPointu pomocí Aspose.Slides pro .NET. Tento tutoriál poskytuje základ pro vylepšení vizuální atraktivity vašich snímků.
+## Často kladené otázky
 ### Je Aspose.Slides vhodný pro Windows i webové aplikace?
-Ano, Aspose.Slides lze používat ve Windows i ve webových aplikacích.
-### Mohu si před nákupem stáhnout bezplatnou zkušební verzi Aspose.Slides?
- Ano, můžete si stáhnout bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
+Ano, Aspose.Slides lze použít jak ve Windows, tak ve webových aplikacích.
+### Mohu si před zakoupením stáhnout bezplatnou zkušební verzi Aspose.Slides?
+Ano, můžete si stáhnout bezplatnou zkušební verzi [zde](https://releases.aspose.com/).
 ### Kde najdu komplexní dokumentaci k Aspose.Slides pro .NET?
- Dokumentace je k dispozici[tady](https://reference.aspose.com/slides/net/).
+Dokumentace je k dispozici [zde](https://reference.aspose.com/slides/net/).
 ### Jak mohu získat dočasnou licenci pro Aspose.Slides?
- Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+Můžete získat dočasnou licenci [zde](https://purchase.aspose.com/temporary-license/).
 ### Existuje fórum podpory pro Aspose.Slides?
- Ano, můžete navštívit fórum podpory[tady](https://forum.aspose.com/c/slides/11).
+Ano, můžete navštívit fórum podpory [zde](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

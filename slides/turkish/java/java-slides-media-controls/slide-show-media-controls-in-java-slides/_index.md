@@ -1,88 +1,90 @@
 ---
-title: Java Slaytlarında Slayt Gösterisi Medya Denetimleri
-linktitle: Java Slaytlarında Slayt Gösterisi Medya Denetimleri
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides for Java ile Java Slides'ta Medya Kontrollerini Nasıl Etkinleştireceğinizi ve Kullanacağınızı Öğrenin. Sunumlarınızı Medya Kontrolleriyle Geliştirin.
-weight: 11
-url: /tr/java/media-controls/slide-show-media-controls-in-java-slides/
+"description": "Java Slaytlarında Medya Kontrollerini Aspose.Slides for Java ile Etkinleştirmeyi ve Kullanmayı Öğrenin. Medya Kontrolleriyle Sunumlarınızı Geliştirin."
+"linktitle": "Java Slaytlarında Slayt Gösterisi Medya Kontrolleri"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java Slaytlarında Slayt Gösterisi Medya Kontrolleri"
+"url": "/tr/java/media-controls/slide-show-media-controls-in-java-slides/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java Slaytlarında Slayt Gösterisi Medya Denetimleri
+# Java Slaytlarında Slayt Gösterisi Medya Kontrolleri
 
 
-## Java Slaytlarındaki Slayt Gösterisi Medya Kontrollerine Giriş
+## Java Slaytlarında Slayt Gösterisi Medya Kontrollerine Giriş
 
-Dinamik ve ilgi çekici sunumlar alanında multimedya öğeleri izleyicinin dikkatini çekmede çok önemli bir rol oynar. Java Slides, Aspose.Slides for Java'nın yardımıyla geliştiricilerin medya kontrollerini sorunsuz bir şekilde birleştiren büyüleyici slayt gösterileri oluşturmasına olanak tanır. İster bir eğitim modülü, ister bir satış konuşması veya eğitimsel bir sunum tasarlıyor olun, slayt gösterisi sırasında medyayı kontrol etme yeteneği oyunun kurallarını değiştirir.
+Dinamik ve ilgi çekici sunumlar alanında, multimedya öğeleri izleyicinin dikkatini çekmede önemli bir rol oynar. Java Slides, Aspose.Slides for Java'nın yardımıyla geliştiricilerin medya kontrollerini sorunsuz bir şekilde içeren büyüleyici slayt gösterileri oluşturmasını sağlar. İster bir eğitim modülü, ister bir satış konuşması veya bir eğitim sunumu tasarlıyor olun, slayt gösterisi sırasında medyayı kontrol etme yeteneği oyunun kurallarını değiştirir.
 
-## Önkoşullar
+## Ön koşullar
 
-Koda dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+Koda dalmadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
-- Sisteminizde Java Geliştirme Kiti (JDK) yüklü.
--  Aspose.Slides for Java kütüphanesi. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/java/).
-- IntelliJ IDEA veya Eclipse gibi sizin seçeceğiniz bir entegre geliştirme ortamı (IDE).
+- Sisteminizde Java Development Kit (JDK) yüklü.
+- Java kütüphanesi için Aspose.Slides. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/slides/java/).
+- IntelliJ IDEA veya Eclipse gibi tercih ettiğiniz bir entegre geliştirme ortamı (IDE).
 
-## 1. Adım: Geliştirme Ortamınızı Kurma
+## Adım 1: Geliştirme Ortamınızı Kurma
 
-Koda dalmadan önce geliştirme ortamınızı doğru şekilde kurduğunuzdan emin olun. Bu adımları takip et:
+Koda dalmadan önce, geliştirme ortamınızı doğru bir şekilde kurduğunuzdan emin olun. Şu adımları izleyin:
 
-- JDK'yı sisteminize yükleyin.
-- Sağlanan bağlantıdan Aspose.Slides for Java'yı indirin.
-- Tercih ettiğiniz IDE'yi ayarlayın.
+- Sisteminize JDK'yı kurun.
+- Verilen bağlantıdan Aspose.Slides for Java'yı indirin.
+- Tercih ettiğiniz IDE'yi kurun.
 
-## Adım 2: Yeni Bir Sunu Oluşturma
+## Adım 2: Yeni Bir Sunum Oluşturma
 
-Yeni bir sunum oluşturarak başlayalım. Java Slaytlarında bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
+Yeni bir sunum oluşturarak başlayalım. Bunu Java Slides'ta nasıl yapabileceğinizi burada bulabilirsiniz:
 
 ```java
-// PPTX belgesinin yolu
+// PPTX belgesine giden yol
 String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 ```
 
-Bu kod parçasında yeni bir sunum nesnesi oluşturup sunumun kaydedileceği yolu belirtiyoruz.
+Bu kod parçacığında yeni bir sunum nesnesi oluşturuyoruz ve sunumun kaydedileceği yolu belirtiyoruz.
 
-## 3. Adım: Medya Kontrollerini Etkinleştirme
+## Adım 3: Medya Kontrollerini Etkinleştirme
 
-Slayt gösterisi modunda medya kontrolü ekranını etkinleştirmek için aşağıdaki kodu kullanın:
+Slayt gösterisi modunda medya denetimi görüntüsünü etkinleştirmek için aşağıdaki kodu kullanın:
 
 ```java
 pres.getSlideShowSettings().setShowMediaControls(true);
 ```
 
-Bu kod satırı, Java Slaytlar'a slayt gösterisi sırasında medya kontrollerini görüntüleme talimatını verir.
+Bu kod satırı, Java Slides'a slayt gösterisi sırasında medya denetimlerini görüntülemesini söyler.
 
-## 4. Adım: Slaytlara Medya Ekleme
+## Adım 4: Slaytlara Medya Ekleme
 
 Şimdi slaytlarımıza medya ekleyelim. Java Slides'ın kapsamlı özelliklerini kullanarak slaytlara ses veya video dosyaları ekleyebilirsiniz.
 
-Medya Oynatmayı Özelleştirin
-Hedef kitlenize özel bir multimedya deneyimi oluşturmak için başlangıç ve bitiş saatini, ses seviyesini ve daha fazlasını ayarlamak gibi medya oynatmayı daha da özelleştirebilirsiniz.
+Medya Oynatmayı Özelleştir
+İzleyicileriniz için kişiselleştirilmiş bir multimedya deneyimi yaratmak amacıyla başlangıç ve bitiş zamanını, ses seviyesini ve daha fazlasını ayarlayarak medya oynatmayı daha da özelleştirebilirsiniz.
 
 ## Adım 5: Sunumu Kaydetme
 
-Medyayı ekledikten ve oynatımlarını özelleştirdikten sonra, aşağıdaki kodu kullanarak sunuyu PPTX formatında kaydedin:
+Medyayı ekledikten ve bunların oynatımını özelleştirdikten sonra, aşağıdaki kodu kullanarak sunumu PPTX formatında kaydedin:
 
 ```java
 pres.save(outFilePath, SaveFormat.Pptx);
 ```
 
-Bu kod, sunumunuzu medya kontrolleri etkinken kaydeder.
+Bu kod sunumunuzu medya kontrolleri etkinleştirilmiş şekilde kaydeder.
 
-## Java Slaytlarındaki Slayt Gösterisi Medya Kontrolleri İçin Tam Kaynak Kodu
+## Java Slaytlarında Slayt Gösterisi Medya Kontrolleri İçin Tam Kaynak Kodu
 
 ```java
-// PPTX belgesinin yolu
+// PPTX belgesine giden yol
 String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 try {
-	// Slayt gösterisi modunda medya kontrol ekranını etkinleştirin.
+	// Slayt gösterisi modunda medya kontrol gösterimini etkinleştirin.
 	pres.getSlideShowSettings().setShowMediaControls(true);
-	// Sunuyu PPTX formatında kaydedin.
+	// Sunumu PPTX formatında kaydedin.
 	pres.save(outFilePath, SaveFormat.Pptx);
 } finally {
 	if (pres != null) pres.dispose();
@@ -91,32 +93,34 @@ try {
 
 ## Çözüm
 
-Bu eğitimde Aspose.Slides for Java kullanarak Java Slides'ta medya kontrollerinin nasıl etkinleştirileceğini ve kullanılacağını araştırdık. Bu adımları izleyerek izleyicilerinizi büyüleyen etkileşimli multimedya öğeleriyle ilgi çekici sunumlar oluşturabilirsiniz.
+Bu eğitimde, Java Slides'ta Aspose.Slides for Java kullanarak medya kontrollerinin nasıl etkinleştirileceğini ve kullanılacağını inceledik. Bu adımları izleyerek, izleyicilerinizi büyüleyen etkileşimli multimedya öğeleriyle ilgi çekici sunumlar oluşturabilirsiniz.
 
-## SSS'ler
+## SSS
 
-### Tek bir slayda birden fazla medya dosyasını nasıl ekleyebilirim?
+### Tek bir slayda birden fazla medya dosyası nasıl ekleyebilirim?
 
- Tek bir slayda birden fazla medya dosyası eklemek için`addMediaFrame`Slayttaki yöntemi seçin ve her kare için medya dosyasını belirtin. Daha sonra her kare için oynatma ayarlarını ayrı ayrı özelleştirebilirsiniz.
+Tek bir slayda birden fazla medya dosyası eklemek için şunu kullanabilirsiniz: `addMediaFrame` Bir slaytta yöntemi seçin ve her kare için medya dosyasını belirtin. Daha sonra her kare için oynatma ayarlarını ayrı ayrı özelleştirebilirsiniz.
 
-### Sunumumdaki ses düzeyini kontrol edebilir miyim?
+### Sunumumdaki ses seviyesini kontrol edebilir miyim?
 
- Evet, sununuzun ses düzeyini ayarlayarak kontrol edebilirsiniz.`Volume` ses çerçevesi özelliği. Ses seviyesini istediğiniz seviyeye ayarlayabilirsiniz.
+Evet, sunumunuzdaki ses seviyesini, `Volume` ses çerçevesi için özellik. Ses seviyesini istediğiniz seviyeye ayarlayabilirsiniz.
 
-### Slayt gösterisi sırasında bir videoyu sürekli olarak döngüye almak mümkün müdür?
+### Slayt gösterisi sırasında videoyu sürekli olarak tekrar oynatmak mümkün müdür?
 
- Evet, ayarlayabilirsiniz`Looping` bir video çerçevesinin özelliği`true` Slayt gösterisi sırasında videonun sürekli olarak dönmesini sağlamak için.
+Evet, ayarlayabilirsiniz `Looping` bir video karesi için özellik `true` Slayt gösterisi sırasında videonun sürekli dönmesini sağlamak.
 
-### Bir slayt göründüğünde videoyu otomatik olarak nasıl oynatabilirim?
+### Slayt görüntülendiğinde videoyu otomatik olarak nasıl oynatabilirim?
 
- Bir slayt görüntülendiğinde videonun otomatik olarak oynatılmasını sağlamak için,`PlayMode` video çerçevesinin özelliği`Auto`.
+Bir slayt görüntülendiğinde bir videonun otomatik olarak oynatılmasını sağlamak için, `PlayMode` video karesi için özellik `Auto`.
 
-### Java Slaytlar'daki videolara alt yazı veya resim yazıları eklemenin bir yolu var mı?
+### Java Slaytlar'da videolara altyazı eklemenin bir yolu var mı?
 
-Evet, videoyu içeren slayda metin çerçeveleri veya şekiller ekleyerek Java Slaytlar'daki videolara altyazı veya resim yazıları ekleyebilirsiniz. Daha sonra zamanlama ayarlarını kullanarak metni video oynatımıyla senkronize edebilirsiniz.
+Evet, Java Slaytlar'da videolara altyazı veya açıklama ekleyebilirsiniz; bunun için videoyu içeren slayda metin çerçeveleri veya şekiller ekleyebilirsiniz. Daha sonra zamanlama ayarlarını kullanarak metni video oynatmayla senkronize edebilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

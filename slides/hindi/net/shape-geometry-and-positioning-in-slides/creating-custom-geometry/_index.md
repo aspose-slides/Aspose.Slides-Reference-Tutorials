@@ -1,14 +1,16 @@
 ---
-title: .NET के लिए Aspose.Slides के साथ C# में कस्टम ज्यामिति बनाना
-linktitle: Aspose.Slides का उपयोग करके ज्यामिति आकार में कस्टम ज्यामिति बनाना
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: .NET के लिए Aspose.Slides में कस्टम ज्यामिति बनाना सीखें। अपनी प्रस्तुतियों को अद्वितीय आकृतियों के साथ बेहतर बनाएँ। C# डेवलपर्स के लिए चरण-दर-चरण मार्गदर्शिका।
-weight: 15
-url: /hi/net/shape-geometry-and-positioning-in-slides/creating-custom-geometry/
+"description": ".NET के लिए Aspose.Slides में कस्टम ज्यामिति बनाना सीखें। अपनी प्रस्तुतियों को अद्वितीय आकृतियों के साथ बेहतर बनाएँ। C# डेवलपर्स के लिए चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "Aspose.Slides का उपयोग करके ज्यामिति आकार में कस्टम ज्यामिति बनाना"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": ".NET के लिए Aspose.Slides के साथ C# में कस्टम ज्यामिति बनाना"
+"url": "/hi/net/shape-geometry-and-positioning-in-slides/creating-custom-geometry/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # .NET के लिए Aspose.Slides के साथ C# में कस्टम ज्यामिति बनाना
@@ -93,16 +95,18 @@ private static GeometryPath CreateStarGeometry(float outerRadius, float innerRad
 ### 1. क्या मैं अन्य प्रोग्रामिंग भाषाओं के साथ .NET के लिए Aspose.Slides का उपयोग कर सकता हूँ?
 हां, Aspose.Slides विभिन्न प्रोग्रामिंग भाषाओं का समर्थन करता है, लेकिन यह ट्यूटोरियल C# पर केंद्रित है।
 ### 2. मैं Aspose.Slides for .NET के लिए दस्तावेज़ कहां पा सकता हूं?
- दौरा करना[प्रलेखन](https://reference.aspose.com/slides/net/) विस्तृत जानकारी के लिए.
+दौरा करना [प्रलेखन](https://reference.aspose.com/slides/net/) विस्तृत जानकारी के लिए.
 ### 3. क्या Aspose.Slides for .NET के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
- हां, आप खोज कर सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/) सुविधाओं का अनुभव करने के लिए.
+हां, आप खोज कर सकते हैं [मुफ्त परीक्षण](https://releases.aspose.com/) सुविधाओं का अनुभव करने के लिए.
 ### 4. मैं .NET के लिए Aspose.Slides का समर्थन कैसे प्राप्त कर सकता हूं?
- सहायता प्राप्त करें और समुदाय के साथ जुड़ें[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11).
+सहायता प्राप्त करें और समुदाय के साथ जुड़ें [Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11).
 ### 5. मैं .NET के लिए Aspose.Slides कहां से खरीद सकता हूं?
- आप .NET के लिए Aspose.Slides खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+आप .NET के लिए Aspose.Slides खरीद सकते हैं [यहाँ](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

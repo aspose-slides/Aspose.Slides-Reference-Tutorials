@@ -1,30 +1,32 @@
 ---
-title: Standaardmarkeringen in diagram in Java-dia's
-linktitle: Standaardmarkeringen in diagram in Java-dia's
-second_title: Aspose.Slides Java PowerPoint-verwerkings-API
-description: Leer hoe u Java-dia's maakt met standaardmarkeringen in diagrammen met behulp van Aspose.Slides voor Java. Stap-voor-stap handleiding met broncode.
-weight: 16
-url: /nl/java/chart-data-manipulation/default-markers-in-chart-java-slides/
+"description": "Leer hoe je Java-dia's maakt met standaardmarkeringen in diagrammen met Aspose.Slides voor Java. Stapsgewijze handleiding met broncode."
+"linktitle": "Standaardmarkeringen in diagrammen in Java-dia's"
+"second_title": "Aspose.Slides Java PowerPoint-verwerkings-API"
+"title": "Standaardmarkeringen in diagrammen in Java-dia's"
+"url": "/nl/java/chart-data-manipulation/default-markers-in-chart-java-slides/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Standaardmarkeringen in diagram in Java-dia's
+# Standaardmarkeringen in diagrammen in Java-dia's
 
 
-## Inleiding tot standaardmarkeringen in diagrammen in Java-dia's
+## Inleiding tot standaardmarkeringen in grafieken in Java-dia's
 
-In deze zelfstudie onderzoeken we hoe u een diagram met standaardmarkeringen kunt maken met behulp van Aspose.Slides voor Java. Standaardmarkeringen zijn symbolen of vormen die aan gegevenspunten in een diagram worden toegevoegd om deze te markeren. We maken een lijndiagram met markeringen om gegevens te visualiseren.
+In deze tutorial laten we zien hoe je een grafiek met standaardmarkeringen maakt met Aspose.Slides voor Java. Standaardmarkeringen zijn symbolen of vormen die aan datapunten in een grafiek worden toegevoegd om ze te markeren. We maken een lijndiagram met markeringen om gegevens te visualiseren.
 
 ## Vereisten
 
-Voordat u begint, moet u ervoor zorgen dat de Aspose.Slides voor Java-bibliotheek is geïnstalleerd en ingesteld in uw Java-project.
+Voordat u begint, moet u ervoor zorgen dat u de Aspose.Slides voor Java-bibliotheek hebt geïnstalleerd en ingesteld in uw Java-project.
 
-## Stap 1: Maak een presentatie
+## Stap 1: Een presentatie maken
 
-Laten we eerst een presentatie maken en er een dia aan toevoegen. Vervolgens voegen we een diagram aan de dia toe.
+Laten we eerst een presentatie maken en er een dia aan toevoegen. Vervolgens voegen we een grafiek toe aan de dia.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -34,7 +36,7 @@ ISlide slide = pres.getSlides().get_Item(0);
 
 ## Stap 2: Voeg een lijndiagram met markeringen toe
 
-Laten we nu een lijndiagram met markeringen aan de dia toevoegen. We verwijderen ook alle standaardgegevens uit het diagram.
+Laten we nu een lijndiagram met markeringen aan de dia toevoegen. We wissen ook alle standaardgegevens uit het diagram.
 
 ```java
 IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 10, 10, 400, 400);
@@ -44,7 +46,7 @@ chart.getChartData().getCategories().clear();
 
 ## Stap 3: Grafiekgegevens invullen
 
-We vullen het diagram met voorbeeldgegevens. In dit voorbeeld maken we twee reeksen met gegevenspunten en categorieën.
+We vullen de grafiek met voorbeeldgegevens. In dit voorbeeld maken we twee reeksen met datapunten en categorieën.
 
 ```java
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
@@ -65,7 +67,7 @@ series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 4, 1, null));
 chart.getChartData().getSeries().add(fact.getCell(0, 0, 2, "Series 2"));
 IChartSeries series2 = chart.getChartData().getSeries().get_Item(1);
 
-// Reeksgegevens invullen
+// Het vullen van reeksgegevens
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 1, 2, 30));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 2, 2, 10));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 3, 2, 60));
@@ -74,7 +76,7 @@ series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 4, 2, 40));
 
 ## Stap 4: Pas de grafiek aan
 
-U kunt het diagram verder aanpassen, zoals het toevoegen van een legenda en het uiterlijk ervan aanpassen.
+U kunt de grafiek verder aanpassen, bijvoorbeeld door een legenda toe te voegen en het uiterlijk aan te passen.
 
 ```java
 chart.setLegend(true);
@@ -83,15 +85,15 @@ chart.getLegend().setOverlay(false);
 
 ## Stap 5: Sla de presentatie op
 
-Sla ten slotte de presentatie met het diagram op de gewenste locatie op.
+Sla ten slotte de presentatie met de grafiek op de gewenste locatie op.
 
 ```java
 pres.save(dataDir + "DefaultMarkersInChart.pptx", SaveFormat.Pptx);
 ```
 
-Dat is het! U hebt een lijndiagram met standaardmarkeringen gemaakt met Aspose.Slides voor Java.
+Dat is alles! Je hebt een lijndiagram met standaardmarkeringen gemaakt met Aspose.Slides voor Java.
 
-## Volledige broncode voor standaardmarkeringen in diagram in Java-dia's
+## Volledige broncode voor standaardmarkeringen in grafieken in Java-dia's
 
 ```java
         // Het pad naar de documentenmap.
@@ -115,9 +117,9 @@ Dat is het! U hebt een lijndiagram met standaardmarkeringen gemaakt met Aspose.S
             chart.getChartData().getCategories().add(fact.getCell(0, 4, 0, "C4"));
             series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 4, 1, null));
             chart.getChartData().getSeries().add(fact.getCell(0, 0, 2, "Series 2"), chart.getType());
-            //Neem de tweede kaartenserie
+            //Neem de tweede grafiekserie
             IChartSeries series2 = chart.getChartData().getSeries().get_Item(1);
-            //Vult nu seriegegevens in
+            //Nu worden reeksgegevens ingevuld
             series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 1, 2, 30));
             series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 2, 2, 10));
             series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 3, 2, 60));
@@ -133,24 +135,26 @@ Dat is het! U hebt een lijndiagram met standaardmarkeringen gemaakt met Aspose.S
 ```
 ## Conclusie
 
-In deze uitgebreide zelfstudie hebt u geleerd hoe u Java-dia's kunt maken met standaardmarkeringen in diagrammen met behulp van Aspose.Slides voor Java. We hebben het hele proces behandeld, van het opzetten van een presentatie tot het aanpassen van het uiterlijk van de grafiek en het opslaan van het resultaat.
+In deze uitgebreide tutorial heb je geleerd hoe je Java Slides met standaardmarkeringen in grafieken maakt met Aspose.Slides voor Java. We hebben het hele proces behandeld, van het opzetten van een presentatie tot het aanpassen van de weergave van de grafiek en het opslaan van het resultaat.
 
 ## Veelgestelde vragen
 
 ### Hoe kan ik de markeringssymbolen wijzigen?
 
- kunt de markeringssymbolen aanpassen door de markeringsstijl voor elk gegevenspunt in te stellen. Gebruik`IDataPoint.setMarkerStyle()` om het markeringssymbool te wijzigen.
+U kunt de markeringssymbolen aanpassen door de markeringsstijl voor elk gegevenspunt in te stellen. Gebruik `IDataPoint.setMarkerStyle()` om het markeringssymbool te wijzigen.
 
 ### Hoe pas ik de kleuren van het diagram aan?
 
- Om de kleuren van het diagram te wijzigen, kunt u de`IChartSeriesFormat` En`IShapeFillFormat` interfaces om vul- en lijneigenschappen in te stellen.
+Om de kleuren van het diagram te wijzigen, kunt u de `IChartSeriesFormat` En `IShapeFillFormat` interfaces om vulling- en lijneigenschappen in te stellen.
 
-### Kan ik labels aan de gegevenspunten toevoegen?
+### Kan ik labels aan de datapunten toevoegen?
 
- Ja, u kunt labels aan gegevenspunten toevoegen met behulp van de`IDataPoint.getLabel()` methode en pas deze indien nodig aan.
+Ja, u kunt labels toevoegen aan datapunten met behulp van de `IDataPoint.getLabel()` en pas ze indien nodig aan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

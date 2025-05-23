@@ -1,47 +1,49 @@
 ---
-title: Megjegyzések hozzáadása a diához
-linktitle: Megjegyzések hozzáadása a diához
-second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Adjon mélységet és interakciót prezentációihoz az Aspose.Slides API-val. Tanulja meg, hogyan illesztheti be a megjegyzéseket egyszerűen a diákba a .NET használatával. Fokozza az elkötelezettséget, és ragadja meg közönségét.
-weight: 13
-url: /hu/net/slide-comments-manipulation/add-slide-comments/
+"description": "Adj mélységet és interaktivitást prezentációidhoz az Aspose.Slides API segítségével. Tanuld meg, hogyan integrálhatsz egyszerűen megjegyzéseket a diákba a .NET használatával. Fokozd a közönséged elköteleződését és ragadd meg a figyelmedet."
+"linktitle": "Hozzászólások hozzáadása a diához"
+"second_title": "Aspose.Slides .NET PowerPoint feldolgozási API"
+"title": "Hozzászólások hozzáadása a diához"
+"url": "/hu/net/slide-comments-manipulation/add-slide-comments/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Megjegyzések hozzáadása a diához
+# Hozzászólások hozzáadása a diához
 
 
-prezentációkezelés világában az a lehetőség, hogy megjegyzéseket fűzzünk a diákhoz, változást hozhat. A megjegyzések nemcsak az együttműködést erősítik, hanem a diatartalom megértésében és átdolgozásában is segítenek. Az Aspose.Slides for .NET segítségével, amely egy hatékony és sokoldalú könyvtár, könnyedén beillesztheti a megjegyzéseket a bemutató diákjaiba. Ebben a lépésenkénti útmutatóban végigvezetjük a diához való megjegyzések hozzáadásának folyamatán az Aspose.Slides for .NET segítségével. Akár tapasztalt fejlesztő, akár újonc a .NET-fejlesztés világában, ez az oktatóanyag minden szükséges információt megad.
+A prezentációkezelés világában a diákhoz fűzött megjegyzések lehetősége gyökeresen megváltoztathatja a játékszabályokat. A megjegyzések nemcsak az együttműködést javítják, hanem a diák tartalmának megértését és felülvizsgálatát is segítik. Az Aspose.Slides for .NET hatékony és sokoldalú könyvtárával könnyedén beilleszthet megjegyzéseket a prezentációs diáiba. Ebben a lépésről lépésre bemutatjuk, hogyan adhat hozzá megjegyzéseket egy diákhoz az Aspose.Slides for .NET használatával. Akár tapasztalt fejlesztő, akár újonc a .NET fejlesztés világában, ez az oktatóanyag minden szükséges információt biztosít.
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk a lépésről lépésre szóló útmutatóba, győződjünk meg arról, hogy mindennel rendelkezik, amire szüksége van az induláshoz:
+Mielőtt belemerülnénk a lépésről lépésre szóló útmutatóba, győződjünk meg róla, hogy minden a rendelkezésünkre áll, amire a kezdéshez szüksége van:
 
-1.  Aspose.Slides for .NET: Az Aspose.Slides for .NET-nek telepítve kell lennie. Ha még nem tette meg, letöltheti a[Aspose.Slides .NET webhelyhez](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides .NET-hez: Telepítenie kell az Aspose.Slides .NET-hez készült verzióját. Ha még nem tette meg, letöltheti innen: [Aspose.Slides for .NET weboldal](https://releases.aspose.com/slides/net/).
 
-2. Fejlesztői környezet: A rendszeren be kell állítani egy .NET fejlesztői környezetet.
+2. Fejlesztői környezet: A rendszeren telepíteni kell egy .NET fejlesztői környezetet.
 
-3. Alapvető C# ismeretek: A C# programozás ismerete előnyös, mivel a megvalósítás bemutatására C#-t fogunk használni.
+3. C# alapismeretek: A C# programozásban való jártasság előnyös, mivel a megvalósítást C#-ban fogjuk bemutatni.
 
-Ha megvannak ezek az előfeltételek, merüljünk el a prezentáció diáihoz való megjegyzések hozzáadásának folyamatában.
+Miután ezeket az előfeltételeket teljesítettük, nézzük meg, hogyan adhatunk megjegyzéseket a bemutató diáihoz.
 
 ## Névterek importálása
 
-Először állítsuk be fejlesztői környezetünket a szükséges névterek importálásával.
+Először is állítsuk be a fejlesztői környezetünket a szükséges névterek importálásával.
 
 ```csharp
 using Aspose.Slides;
 using Aspose.Slides.Export;
 ```
 
-Most, hogy az előfeltételeket és a névtereket rendeztük, továbbléphetünk a lépésről lépésre szóló útmutatóra.
+Most, hogy az előfeltételeket és a névtereket rendeztük, továbbléphetünk a lépésenkénti útmutatóra.
 
-## 1. lépés: Hozzon létre egy új prezentációt
+## 1. lépés: Új prezentáció létrehozása
 
-Kezdjük egy új prezentáció létrehozásával, amelyben megjegyzéseket fűzhetünk egy diához. Ehhez kövesse az alábbi kódot:
+Először is létrehozunk egy új prezentációt, ahol megjegyzéseket fűzhetünk a diákhoz. Ehhez kövesd az alábbi kódot:
 
 ```csharp
 string FilePath = @"..\..\..\..\Sample Files\";
@@ -55,64 +57,66 @@ using (Presentation pres = new Presentation())
     // Szerző hozzáadása
     ICommentAuthor author = pres.CommentAuthors.AddAuthor("Zeeshan", "MZ");
 
-    // A megjegyzések álláspontja
+    // A megjegyzések helyzete
     PointF point = new PointF();
     point.X = 1;
     point.Y = 1;
 
-    // Diára vonatkozó megjegyzés hozzáadása egy szerzőhöz a dián
+    // Diamegjegyzés hozzáadása egy szerzőhöz a dián
     author.Comments.AddComment("Hello Zeeshan, this is a slide comment", pres.Slides[0], point, DateTime.Now);
     
-    // Mentse el a bemutatót
+    // Mentse el a prezentációt
     pres.Save(FileName, SaveFormat.Pptx);
 }
 ```
 
-Nézzük meg, mi történik ebben a kódban:
+Nézzük meg részletesebben, mi történik ebben a kódban:
 
--  Kezdjük egy új prezentáció létrehozásával`Presentation()`.
-- Ezután hozzáadunk egy üres diát a bemutatóhoz.
--  Hozzáadunk egy szerzőt a megjegyzéshez`ICommentAuthor`.
--  A segítségével határozzuk meg a megjegyzés pozícióját a dián`PointF`.
-- Megjegyzést adunk a diához a szerző számára`author.Comments.AddComment()`.
-- Végül elmentjük a prezentációt a megjegyzésekkel együtt.
+- Kezdjük egy új prezentáció létrehozásával, amelyhez a `Presentation()`.
+- Ezután hozzáadunk egy üres diát a prezentációhoz.
+- Hozzáadunk egy szerzőt a hozzászóláshoz a következő használatával: `ICommentAuthor`.
+- A megjegyzés pozícióját a dián a következőképpen definiáljuk: `PointF`.
+- Hozzáadunk egy megjegyzést a diához a szerző számára a következő használatával: `author.Comments.AddComment()`.
+- Végül a prezentációt a hozzáadott megjegyzésekkel együtt mentjük.
 
-Ez a kód egy PowerPoint-prezentációt hoz létre az első dián megjegyzéssel. Igényeinek megfelelően testreszabhatja a szerző nevét, megjegyzés szövegét és egyéb paramétereit.
+Ez a kód egy PowerPoint bemutatót hoz létre, amelynek első diáján egy megjegyzés szerepel. A szerző nevét, a megjegyzés szövegét és egyéb paramétereket az igényeid szerint testreszabhatod.
 
-Ezekkel a lépésekkel sikeresen hozzáadott egy megjegyzést egy diához az Aspose.Slides for .NET használatával. Mostantól a prezentációkezelést a következő szintre emelheti azáltal, hogy javítja az együttműködést és a kommunikációt csapatával vagy közönségével.
+Ezekkel a lépésekkel sikeresen hozzáadtál egy megjegyzést egy diához az Aspose.Slides for .NET használatával. Mostantól a prezentációkezelést a következő szintre emelheted az együttműködés és a kommunikáció javításával a csapatoddal vagy a közönségeddel.
 
 ## Következtetés
 
-A diákhoz való megjegyzések hozzáadása értékes szolgáltatás azok számára, akik prezentációkkal dolgoznak, legyen szó akár együttműködési projektekről, akár oktatási célokról. Az Aspose.Slides for .NET leegyszerűsíti ezt a folyamatot, lehetővé téve a megjegyzések egyszerű létrehozását, szerkesztését és kezelését. Az ebben az útmutatóban ismertetett lépések követésével kihasználhatja az Aspose.Slides for .NET erejét a prezentációk tökéletesítésére.
+diákhoz fűzött megjegyzések értékes funkció a prezentációkkal dolgozók számára, legyen szó akár együttműködési projektekről, akár oktatási célokról. Az Aspose.Slides for .NET leegyszerűsíti ezt a folyamatot, lehetővé téve a megjegyzések egyszerű létrehozását, szerkesztését és kezelését. Az útmutatóban ismertetett lépéseket követve kihasználhatja az Aspose.Slides for .NET erejét prezentációi fejlesztéséhez.
 
- Ha bármilyen problémája van, vagy kérdése van, ne habozzon kérni segítséget a[Aspose.Slides fórum](https://forum.aspose.com/).
+Ha bármilyen problémába ütközik, vagy kérdése van, ne habozzon segítséget kérni a [Aspose.Slides fórum](https://forum.aspose.com/).
 
 ---
 
 ## GYIK
 
-### 1. Hogyan szabhatom testre a megjegyzések megjelenését az Aspose.Slides for .NET-ben?
+### 1. Hogyan szabhatom testre a megjegyzések megjelenését az Aspose.Slides for .NET programban?
 
-Az Aspose.Slides könyvtár használatával testreszabhatja a megjegyzések megjelenését különféle tulajdonságok, például szín, méret és betűtípus módosításával. A részletes útmutatásért tekintse meg a dokumentációt.
+A megjegyzések megjelenését testreszabhatod különböző tulajdonságok, például a szín, a méret és a betűtípus módosításával az Aspose.Slides könyvtár használatával. Részletes útmutatásért tekintsd meg a dokumentációt.
 
-### 2. Hozzáfűzhetek megjegyzéseket a dián belüli egyes elemekhez, például alakzatokhoz vagy képekhez?
+### 2. Hozzáadhatok megjegyzéseket egy dián belüli egyes elemekhez, például alakzatokhoz vagy képekhez?
 
-Igen, az Aspose.Slides for .NET lehetővé teszi, hogy megjegyzéseket fűzzön nemcsak a teljes diákhoz, hanem a dián belüli egyes elemekhez is, például alakzatokhoz vagy képekhez.
+Igen, az Aspose.Slides for .NET lehetővé teszi, hogy ne csak teljes diákhoz, hanem a dia egyes elemeihez, például alakzatokhoz vagy képekhez is megjegyzéseket fűzzünk hozzá.
 
-### 3. Az Aspose.Slides for .NET kompatibilis a PowerPoint-fájlok különböző verzióival?
+### 3. Az Aspose.Slides for .NET kompatibilis a PowerPoint fájlok különböző verzióival?
 
-Igen, az Aspose.Slides for .NET támogatja a különböző PowerPoint fájlformátumokat, beleértve a PPTX, PPT és egyebeket.
+Igen, az Aspose.Slides for .NET számos PowerPoint fájlformátumot támogat, beleértve a PPTX-et, PPT-t és egyebeket.
 
-### 4. Hogyan integrálhatom az Aspose.Slides for .NET fájlt a .NET-alkalmazásomba?
+### 4. Hogyan integrálhatom az Aspose.Slides for .NET-et a .NET alkalmazásomba?
 
-Az Aspose.Slides for .NET .NET-alkalmazásba való integrálásához tekintse meg a dokumentációt, amely részletes információkat tartalmaz a telepítésről és a használatról.
+Az Aspose.Slides for .NET integrálásához a .NET alkalmazásodba, tekintsd meg a dokumentációt, amely részletes információkat tartalmaz a telepítésről és a használatról.
 
 ### 5. Kipróbálhatom az Aspose.Slides for .NET-et a vásárlás előtt?
 
-Igen, az Aspose.Slides for .NET ingyenes próbaverzióval felfedezhető. Meglátogatni a[Aspose.Slides ingyenes próbaoldal](https://releases.aspose.com/) kezdeni.
+Igen, kipróbálhatja az Aspose.Slides for .NET programot egy ingyenes próbaverzió segítségével. Látogassa meg a [Aspose.Slides ingyenes próbaverzió oldal](https://releases.aspose.com/) hogy elkezdhessük.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

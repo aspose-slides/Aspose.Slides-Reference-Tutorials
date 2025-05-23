@@ -1,28 +1,30 @@
 ---
-title: Fatérkép diagram a Java Slides-ben
-linktitle: Fatérkép diagram a Java Slides-ben
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Hozzon létre fatérkép-diagramokat a Java Slides alkalmazásban az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskóddal a hierarchikus adatok megjelenítéséhez.
-weight: 13
-url: /hu/java/chart-creation/tree-map-chart-java-slides/
+"description": "Fatérképes diagramok létrehozása Java diákban az Aspose.Slides for Java használatával. Lépésről lépésre útmutató forráskóddal a hierarchikus adatok vizualizálásához."
+"linktitle": "Fa térképdiagram Java diákban"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Fa térképdiagram Java diákban"
+"url": "/hu/java/chart-creation/tree-map-chart-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Fatérkép diagram a Java Slides-ben
+# Fa térképdiagram Java diákban
 
 
-## A Java Slides fatérkép-diagramjának bemutatása
+## Bevezetés a Java fatérképes diavetítésbe
 
-Ebben az oktatóanyagban bemutatjuk, hogyan hozhat létre fatérkép-diagramot egy PowerPoint-prezentációban az Aspose.Slides for Java könyvtár használatával. A fatérkép diagramok hatékony módja a hierarchikus adatok megjelenítésének.
+Ebben az oktatóanyagban bemutatjuk, hogyan hozhat létre fatérképet egy PowerPoint bemutatóban az Aspose.Slides for Java könyvtár használatával. A fatérképek hatékony módjai a hierarchikus adatok vizualizálásának.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy az Aspose.Slides for Java könyvtár be van állítva a Java projektben.
+Mielőtt elkezdenéd, győződj meg róla, hogy az Aspose.Slides for Java könyvtár be van állítva a Java projektedben.
 
-## 1. lépés: Importálja a szükséges könyvtárakat
+## 1. lépés: Szükséges könyvtárak importálása
 
 ```java
 import com.aspose.slides.*;
@@ -35,7 +37,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 ```
 
-## 3. lépés: Hozzon létre egy fatérkép-diagramot
+## 3. lépés: Faszerkezetű térkép létrehozása
 
 ```java
 try {
@@ -69,7 +71,7 @@ try {
 
     chart.getChartData().getCategories().add(wb.getCell(0, "C8", "Leaf8"));
 
-    // Adjon hozzá adatpontokat
+    // Adatpontok hozzáadása
     IChartSeries series = chart.getChartData().getSeries().add(ChartType.Treemap);
     series.getLabels().getDefaultDataLabelFormat().setShowCategoryName(true);
 
@@ -84,14 +86,14 @@ try {
 
     series.setParentLabelLayout(ParentLabelLayoutType.Overlapping);
 
-    // Mentse el a bemutatót a Fatérkép diagrammal
+    // A fatérképes diagrammal ellátott prezentáció mentése
     pres.save("Treemap.pptx", SaveFormat.Pptx);
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
 
-## A Java Slides fatérkép-diagramjának teljes forráskódja
+## Teljes forráskód a Java diák fatérképéhez
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
@@ -102,7 +104,7 @@ try
 	chart.getChartData().getSeries().clear();
 	IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
 	wb.clear(0);
-	//ág 1
+	//1. ág
 	IChartCategory leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C1", "Leaf1"));
 	leaf.getGroupingLevels().setGroupingItem(1, "Stem1");
 	leaf.getGroupingLevels().setGroupingItem(2, "Branch1");
@@ -139,28 +141,30 @@ finally
 
 ## Következtetés
 
-Ebben az oktatóanyagban megtanulta, hogyan hozhat létre fatérkép-diagramot egy PowerPoint-prezentációban az Aspose.Slides for Java könyvtár használatával. A Tree Map diagramok értékes eszközt jelentenek a hierarchikus adatok megjelenítéséhez, így a prezentációk informatívabbak és vonzóbbak.
+Ebben az oktatóanyagban megtanultad, hogyan hozhatsz létre fatérképet egy PowerPoint bemutatóban az Aspose.Slides for Java könyvtár segítségével. A fatérképek értékes eszközök a hierarchikus adatok vizualizálására, így a bemutatóid informatívabbá és lebilincselőbbé válnak.
 
 ## GYIK
 
-### Hogyan adhatok hozzá adatokat a fatérkép diagramhoz?
+### Hogyan adhatok hozzá adatokat a fatérképhez?
 
- Adatok hozzáadásához a fatérkép diagramhoz használja a`series.getDataPoints().addDataPointForTreemapSeries()` módszerrel, az adatértékeket paraméterként adja át.
+Adatok hozzáadásához a fatérképhez használja a `series.getDataPoints().addDataPointForTreemapSeries()` metódus, amely paraméterként adja át az adatértékeket.
 
-### Hogyan szabhatom testre a fatérkép-diagram megjelenését?
+### Hogyan szabhatom testre a fatérkép megjelenését?
 
- Testreszabhatja a fatérkép diagram megjelenését a különböző tulajdonságok módosításával`chart` és`series`objektumok, például színek, címkék és elrendezések.
+fatérkép megjelenését testreszabhatja a fatérkép különböző tulajdonságainak módosításával. `chart` és `series` objektumok, például színek, címkék és elrendezések.
 
 ### Létrehozhatok több fatérkép-diagramot egyetlen prezentációban?
 
-Igen, több fatérkép-diagramot is létrehozhat egyetlen prezentációban, ha ugyanazokat a lépéseket követi, és különböző diapozíciókat ad meg.
+Igen, több fatérkép-diagramot is létrehozhat egyetlen bemutatón belül ugyanazon lépések követésével és különböző diapozíciók megadásával.
 
-### Hogyan menthetem el a prezentációt a fatérkép diagrammal?
+### Hogyan menthetem el a fatérképes diagrammal ellátott prezentációt?
 
- Használja a`pres.save()` módszerrel mentheti a prezentációt a fatérkép diagrammal a kívánt formátumban (pl. PPTX).
+Használd a `pres.save()` metódus a fatérképes prezentáció kívánt formátumban (pl. PPTX) történő mentéséhez.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

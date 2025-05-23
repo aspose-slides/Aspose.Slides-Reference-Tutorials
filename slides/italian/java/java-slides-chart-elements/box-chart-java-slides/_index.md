@@ -1,29 +1,31 @@
 ---
-title: Grafico a scatola nelle diapositive Java
-linktitle: Grafico a scatola nelle diapositive Java
-second_title: Aspose.Slides API di elaborazione Java PowerPoint
-description: Scopri come creare grafici a scatola nelle presentazioni Java con Aspose.Slides. Guida passo passo e codice sorgente inclusi per una visualizzazione efficace dei dati.
-weight: 10
-url: /it/java/chart-elements/box-chart-java-slides/
+"description": "Scopri come creare grafici a scatola nelle presentazioni Java con Aspose.Slides. Guida dettagliata e codice sorgente inclusi per una visualizzazione efficace dei dati."
+"linktitle": "Grafico a scatola in Java Slides"
+"second_title": "API di elaborazione Java PowerPoint di Aspose.Slides"
+"title": "Grafico a scatola in Java Slides"
+"url": "/it/java/chart-elements/box-chart-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Grafico a scatola nelle diapositive Java
+# Grafico a scatola in Java Slides
 
 
 ## Introduzione al grafico a scatola in Aspose.Slides per Java
 
-In questo tutorial ti guideremo attraverso il processo di creazione di un grafico a scatola utilizzando Aspose.Slides per Java. I grafici a scatola sono utili per visualizzare i dati statistici con vari quartili e valori anomali. Forniremo istruzioni dettagliate insieme al codice sorgente per aiutarti a iniziare.
+In questo tutorial, ti guideremo attraverso il processo di creazione di un grafico a scatola utilizzando Aspose.Slides per Java. I grafici a scatola sono utili per visualizzare dati statistici con diversi quartili e valori anomali. Forniremo istruzioni dettagliate e il codice sorgente per aiutarti a iniziare.
 
 ## Prerequisiti
 
 Prima di iniziare, assicurati di avere quanto segue:
 
-- Aspose.Slides per la libreria Java installata e configurata.
-- Predisposizione di un ambiente di sviluppo Java.
+- Libreria Aspose.Slides per Java installata e configurata.
+- È stato configurato un ambiente di sviluppo Java.
 
 ## Passaggio 1: inizializzare la presentazione
 
@@ -32,9 +34,9 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 ```
 
-In questo passaggio inizializziamo un oggetto di presentazione utilizzando il percorso di un file PowerPoint esistente ("test.pptx" in questo esempio).
+In questo passaggio inizializziamo un oggetto presentazione utilizzando il percorso verso un file PowerPoint esistente ("test.pptx" in questo esempio).
 
-## Passaggio 2: crea il grafico a scatola
+## Passaggio 2: creare il grafico a scatola
 
 ```java
 try {
@@ -43,7 +45,7 @@ try {
     chart.getChartData().getSeries().clear();
 ```
 
-In questo passaggio creiamo una forma di diagramma a scatola nella prima diapositiva della presentazione. Cancelliamo anche tutte le categorie e le serie esistenti dal grafico.
+In questa fase, creiamo un grafico a scatola nella prima diapositiva della presentazione. Eliminiamo anche eventuali categorie e serie esistenti dal grafico.
 
 ## Passaggio 3: definire le categorie
 
@@ -58,9 +60,9 @@ In questo passaggio creiamo una forma di diagramma a scatola nella prima diaposi
     chart.getChartData().getCategories().add(wb.getCell(0, "A6", "Category 1"));
 ```
 
- In questo passaggio definiamo le categorie per il Box Chart. Noi usiamo il`IChartDataWorkbook` per aggiungere categorie ed etichettarle di conseguenza.
+In questo passaggio, definiamo le categorie per il grafico a scatola. Utilizziamo il `IChartDataWorkbook` per aggiungere categorie ed etichettarle di conseguenza.
 
-## Passaggio 4: crea la serie
+## Passaggio 4: creare la serie
 
 ```java
     IChartSeries series = chart.getChartData().getSeries().add(ChartType.BoxAndWhisker);
@@ -71,9 +73,9 @@ In questo passaggio creiamo una forma di diagramma a scatola nella prima diaposi
     series.setShowOutlierPoints(true);
 ```
 
-Qui creiamo una serie BoxAndWhisker per il grafico e configuriamo varie opzioni come il metodo quartile, la linea media, gli indicatori medi, i punti interni e i punti anomali.
+Qui creiamo una serie BoxAndWhisker per il grafico e configuriamo varie opzioni, come il metodo dei quartili, la linea media, i marcatori della media, i punti interni e i punti anomali.
 
-## Passaggio 5: aggiungi punti dati
+## Passaggio 5: aggiungere punti dati
 
 ```java
     series.getDataPoints().addDataPointForBoxAndWhiskerSeries(wb.getCell(0, "B1", 15));
@@ -84,9 +86,9 @@ Qui creiamo una serie BoxAndWhisker per il grafico e configuriamo varie opzioni 
     series.getDataPoints().addDataPointForBoxAndWhiskerSeries(wb.getCell(0, "B6", 16));
 ```
 
-In questo passaggio aggiungiamo punti dati alla serie BoxAndWhisker. Questi punti dati rappresentano i dati statistici per il grafico.
+In questa fase, aggiungiamo punti dati alla serie BoxAndWhisker. Questi punti dati rappresentano i dati statistici per il grafico.
 
-## Passaggio 6: salva la presentazione
+## Passaggio 6: Salva la presentazione
 
 ```java
     pres.save("BoxAndWhisker.pptx", SaveFormat.Pptx);
@@ -95,11 +97,11 @@ In questo passaggio aggiungiamo punti dati alla serie BoxAndWhisker. Questi punt
 }
 ```
 
-Infine, salviamo la presentazione con il Box Chart in un nuovo file PowerPoint denominato "BoxAndWhisker.pptx".
+Infine, salviamo la presentazione con il grafico a scatola in un nuovo file PowerPoint denominato "BoxAndWhisker.pptx".
 
-Congratulazioni! Hai creato con successo un grafico a scatola utilizzando Aspose.Slides per Java. Puoi personalizzare ulteriormente il grafico regolando varie proprietà e aggiungendo più punti dati secondo necessità.
+Congratulazioni! Hai creato con successo un grafico a scatola utilizzando Aspose.Slides per Java. Puoi personalizzare ulteriormente il grafico modificando diverse proprietà e aggiungendo altri punti dati, se necessario.
 
-## Codice sorgente completo per il grafico a scatola nelle diapositive Java
+## Codice sorgente completo per il grafico a scatola in Java Slides
 
 ```java
 String dataDir = "Your Document Directory";
@@ -139,24 +141,26 @@ finally
 
 ## Conclusione
 
-In questo tutorial, abbiamo imparato come creare un grafico a scatola utilizzando Aspose.Slides per Java. I box chart sono strumenti preziosi per visualizzare i dati statistici, inclusi quartili e valori anomali. Abbiamo fornito una guida passo passo insieme al codice sorgente per aiutarti a iniziare a creare grafici a scatola nelle tue applicazioni Java.
+In questo tutorial abbiamo imparato a creare un grafico a scatola utilizzando Aspose.Slides per Java. I grafici a scatola sono strumenti preziosi per visualizzare dati statistici, inclusi quartili e valori anomali. Abbiamo fornito una guida passo passo e il codice sorgente per aiutarti a iniziare a creare grafici a scatola nelle tue applicazioni Java.
 
 ## Domande frequenti
 
 ### Come posso modificare l'aspetto del grafico a scatola?
 
-È possibile personalizzare l'aspetto del grafico a scatola modificando proprietà quali stili di linea, colori e caratteri. Fare riferimento alla documentazione Aspose.Slides per Java per i dettagli sulla personalizzazione del grafico.
+È possibile personalizzare l'aspetto del grafico a scatola modificando proprietà come stili di linea, colori e font. Per informazioni dettagliate sulla personalizzazione dei grafici, consultare la documentazione di Aspose.Slides per Java.
 
-### Posso aggiungere ulteriori serie di dati al Box Chart?
+### Posso aggiungere ulteriori serie di dati al grafico a scatola?
 
- Sì, puoi aggiungere più serie di dati al grafico a scatola creandone altre`IChartSeries` oggetti e aggiungendovi punti dati.
+Sì, puoi aggiungere più serie di dati al grafico a scatola creandone altre `IChartSeries` oggetti e aggiungendovi punti dati.
 
 ### Cosa significa QuartileMethodType.Exclusive?
 
- IL`QuartileMethodType.Exclusive` L'impostazione specifica che i calcoli del quartile devono essere eseguiti utilizzando il metodo esclusivo. Puoi scegliere diversi metodi di calcolo del quartile a seconda dei tuoi dati e requisiti.
+IL `QuartileMethodType.Exclusive` L'impostazione specifica che i calcoli dei quartili devono essere eseguiti utilizzando il metodo esclusivo. È possibile scegliere diversi metodi di calcolo dei quartili a seconda dei dati e delle esigenze.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

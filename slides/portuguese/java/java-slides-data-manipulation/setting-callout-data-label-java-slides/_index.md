@@ -1,31 +1,33 @@
 ---
-title: Configurando texto explicativo para rótulo de dados em slides Java
-linktitle: Configurando texto explicativo para rótulo de dados em slides Java
-second_title: API de processamento Aspose.Slides Java PowerPoint
-description: Aprenda como configurar chamadas para rótulos de dados em Aspose.Slides para Java. Guia passo a passo com código-fonte.
-weight: 25
-url: /pt/java/data-manipulation/setting-callout-data-label-java-slides/
+"description": "Aprenda a configurar chamadas para rótulos de dados no Aspose.Slides para Java. Guia passo a passo com código-fonte."
+"linktitle": "Configurando Chamada para Rótulo de Dados em Slides Java"
+"second_title": "API de processamento Java PowerPoint Aspose.Slides"
+"title": "Configurando Chamada para Rótulo de Dados em Slides Java"
+"url": "/pt/java/data-manipulation/setting-callout-data-label-java-slides/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Configurando texto explicativo para rótulo de dados em slides Java
+# Configurando Chamada para Rótulo de Dados em Slides Java
 
 
-## Introdução à configuração de chamada para rótulo de dados em Aspose.Slides para Java
+## Introdução à configuração de chamada para rótulo de dados no Aspose.Slides para Java
 
-Neste tutorial, demonstraremos como configurar chamadas para rótulos de dados em um gráfico usando Aspose.Slides para Java. As frases de destaque podem ser úteis para destacar pontos de dados específicos em seu gráfico. Percorreremos o código passo a passo e forneceremos o código-fonte necessário.
+Neste tutorial, demonstraremos como configurar chamadas para rótulos de dados em um gráfico usando o Aspose.Slides para Java. Chamadas podem ser úteis para destacar pontos de dados específicos no seu gráfico. Analisaremos o código passo a passo e forneceremos o código-fonte necessário.
 
 ## Pré-requisitos
 
 - Você deve ter o Aspose.Slides para Java instalado.
 - Crie um projeto Java e adicione a biblioteca Aspose.Slides ao seu projeto.
 
-## Etapa 1: crie uma apresentação e adicione um gráfico
+## Etapa 1: Crie uma apresentação e adicione um gráfico
 
- Primeiro, precisamos criar uma apresentação e adicionar um gráfico a um slide. Certifique-se de substituir`"Your Document Directory"` com o caminho real para o diretório do seu documento.
+Primeiro, precisamos criar uma apresentação e adicionar um gráfico a um slide. Certifique-se de substituir `"Your Document Directory"` com o caminho real para o diretório do seu documento.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -34,9 +36,9 @@ ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, false);
 ```
 
-## Etapa 2: configurar o gráfico
+## Etapa 2: Configurar o gráfico
 
-A seguir, configuraremos o gráfico definindo propriedades como legenda, série e categorias.
+Em seguida, configuraremos o gráfico definindo propriedades como legenda, série e categorias.
 
 ```java
 IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
@@ -44,7 +46,7 @@ chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 chart.setLegend(false);
 
-// Configurar séries e categorias (você pode ajustar o número de séries e categorias)
+// Configurar séries e categorias (Você pode ajustar o número de séries e categorias)
 int seriesIndex = 0;
 while (seriesIndex < 15) {
     IChartSeries series = chart.getChartData().getSeries().add(workBook.getCell(0, 0, seriesIndex + 1, "SERIES " + seriesIndex), chart.getType());
@@ -69,7 +71,7 @@ while (categoryIndex < 15) {
 
 ## Etapa 3: personalizar rótulos de dados
 
-Agora, personalizaremos os rótulos de dados, incluindo a configuração de textos explicativos para a última série.
+Agora, personalizaremos os rótulos de dados, incluindo a configuração de chamadas para a última série.
 
 ```java
 int i = 0;
@@ -77,16 +79,16 @@ while (i < chart.getChartData().getSeries().size()) {
     IChartSeries iCS = chart.getChartData().getSeries().get_Item(i);
     IChartDataPoint dataPoint = iCS.getDataPoints().addDataPointForDoughnutSeries(workBook.getCell(0, categoryIndex + 1, i + 1, 1));
     dataPoint.getFormat().getFill().setFillType(FillType.Solid);
-    // Personalize a formatação do ponto de dados (preenchimento, linha, etc.)
+    // Personalize a formatação dos pontos de dados (Preenchimento, Linha, etc.)
 
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
-        //Personalize a formatação da etiqueta (fonte, preenchimento, etc.)
+        // Personalize a formatação do rótulo (fonte, preenchimento, etc.)
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
-        // Ativar frases de destaque
+        // Habilitar chamadas
         lbl.getDataLabelFormat().setShowLabelAsDataCallout(true);
         lbl.getDataLabelFormat().setShowLeaderLines(true);
     }
@@ -94,7 +96,7 @@ while (i < chart.getChartData().getSeries().size()) {
 }
 ```
 
-## Etapa 4: salve a apresentação
+## Etapa 4: Salve a apresentação
 
 Por fim, salve a apresentação com o gráfico configurado.
 
@@ -102,7 +104,7 @@ Por fim, salve a apresentação com o gráfico configurado.
 pres.save("chart.pptx", SaveFormat.Pptx);
 ```
 
-Agora, você configurou com êxito chamadas para rótulos de dados em um gráfico usando Aspose.Slides para Java. Personalize o código de acordo com seu gráfico específico e requisitos de dados.
+Agora, você configurou com sucesso chamadas para rótulos de dados em um gráfico usando o Aspose.Slides para Java. Personalize o código de acordo com seus requisitos específicos de gráfico e dados.
 
 ## Código-fonte completo para definir chamada para rótulo de dados em slides Java
 
@@ -152,7 +154,7 @@ while (categoryIndex < 15)
 			lbl.getDataLabelFormat().setShowValue(false);
 			lbl.getDataLabelFormat().setShowCategoryName(true);
 			lbl.getDataLabelFormat().setShowSeriesName(false);
-			//lbl.getDataLabelFormat().setShowLabelAsDataCallout(true);
+			//lbl.getDataLabelFormat().setShowLabelAsDataCallout(verdadeiro);
 			lbl.getDataLabelFormat().setShowLeaderLines(true);
 			lbl.getDataLabelFormat().setShowLabelAsDataCallout(false);
 			chart.validateChartLayout();
@@ -168,7 +170,7 @@ pres.save("chart.pptx", SaveFormat.Pptx);
 
 ## Conclusão
 
-Neste tutorial, exploramos como configurar chamadas para rótulos de dados em um gráfico usando Aspose.Slides para Java. As frases de destaque são ferramentas valiosas para enfatizar pontos de dados específicos em seus gráficos e apresentações. Fornecemos um guia passo a passo junto com o código-fonte para ajudá-lo a obter essa personalização.
+Neste tutorial, exploramos como configurar chamadas para rótulos de dados em um gráfico usando o Aspose.Slides para Java. Chamadas são ferramentas valiosas para enfatizar pontos de dados específicos em seus gráficos e apresentações. Fornecemos um guia passo a passo, juntamente com o código-fonte, para ajudar você a realizar essa personalização.
 
 ## Perguntas frequentes
 
@@ -187,31 +189,33 @@ lbl.getDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat().getS
 lbl.getDataLabelFormat().getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
 ```
 
-### Como posso ativar ou desativar chamadas para rótulos de dados?
+### Como posso habilitar ou desabilitar chamadas para rótulos de dados?
 
- Para ativar ou desativar chamadas para rótulos de dados, use o`setShowLabelAsDataCallout` método. Defina-o para`true` para ativar chamadas e`false`para desativá-los.
+Para habilitar ou desabilitar chamadas para rótulos de dados, use o `setShowLabelAsDataCallout` método. Defina-o para `true` para habilitar chamadas e `false` para desativá-los.
 
 ```java
-lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // Ativar frases de destaque
-lbl.getDataLabelFormat().setShowLabelAsDataCallout(false); // Desativar frases de destaque
+lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // Habilitar chamadas
+lbl.getDataLabelFormat().setShowLabelAsDataCallout(false); // Desativar chamadas
 ```
 
-### Posso personalizar as linhas de chamada para rótulos de dados?
+### Posso personalizar as linhas de liderança para rótulos de dados?
 
-Sim, você pode personalizar as linhas líderes para rótulos de dados usando propriedades como estilo de linha, cor e largura. Por exemplo:
+Sim, você pode personalizar as linhas de chamada para rótulos de dados usando propriedades como estilo de linha, cor e largura. Por exemplo:
 
 ```java
-lbl.getDataLabelFormat().setShowLeaderLines(true); // Habilitar linhas líderes
+lbl.getDataLabelFormat().setShowLeaderLines(true); // Habilitar linhas de liderança
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().setStyle(LineStyle.Single);
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().setWidth(1);
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.BLACK);
 ```
 
-Estas são algumas opções comuns de personalização para rótulos de dados e textos explicativos em Aspose.Slides para Java. Você pode adaptar ainda mais a aparência às suas necessidades específicas.
+Estas são algumas opções comuns de personalização para rótulos de dados e chamadas no Aspose.Slides para Java. Você pode personalizar ainda mais a aparência de acordo com suas necessidades específicas.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

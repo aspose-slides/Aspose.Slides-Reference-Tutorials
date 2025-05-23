@@ -1,14 +1,16 @@
 ---
-title: जावा के साथ प्रोग्रामेटिक रूप से स्लाइड पर टेक्स्ट बॉक्स जोड़ें
-linktitle: जावा के साथ प्रोग्रामेटिक रूप से स्लाइड पर टेक्स्ट बॉक्स जोड़ें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके PowerPoint स्लाइड में प्रोग्रामेटिक रूप से टेक्स्ट बॉक्स जोड़ना सीखें। इस चरण-दर-चरण मार्गदर्शिका के साथ अपनी उत्पादकता में सुधार करें।
-weight: 24
-url: /hi/java/java-powerpoint-text-font-customization/add-text-box-slide-programmatically-java/
+"description": "Aspose.Slides for Java का उपयोग करके PowerPoint स्लाइड में प्रोग्रामेटिक रूप से टेक्स्ट बॉक्स जोड़ना सीखें। इस चरण-दर-चरण मार्गदर्शिका के साथ अपनी उत्पादकता में सुधार करें।"
+"linktitle": "जावा के साथ प्रोग्रामेटिक रूप से स्लाइड पर टेक्स्ट बॉक्स जोड़ें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा के साथ प्रोग्रामेटिक रूप से स्लाइड पर टेक्स्ट बॉक्स जोड़ें"
+"url": "/hi/java/java-powerpoint-text-font-customization/add-text-box-slide-programmatically-java/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा के साथ प्रोग्रामेटिक रूप से स्लाइड पर टेक्स्ट बॉक्स जोड़ें
@@ -19,7 +21,7 @@ url: /hi/java/java-powerpoint-text-font-customization/add-text-box-slide-program
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 - जावा डेवलपमेंट किट (JDK) स्थापित
 - IDE (एकीकृत विकास वातावरण) जैसे कि IntelliJ IDEA या Eclipse
--  Aspose.Slides for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/)
+- Aspose.Slides for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/)
 - जावा प्रोग्रामिंग का बुनियादी ज्ञान
 ## पैकेज आयात करें
 सबसे पहले, कोडिंग शुरू करने के लिए Aspose.Slides और Java कोर लाइब्रेरीज़ से आवश्यक पैकेज आयात करें।
@@ -28,9 +30,9 @@ import com.aspose.slides.*;
 import java.io.File;
 ```
 ## चरण 1: अपना प्रोजेक्ट सेट करें
-अपने IDE में एक नया Java प्रोजेक्ट बनाएं और अपने प्रोजेक्ट के बिल्ड पथ में Aspose.Slides for Java लाइब्रेरी जोड़ें। अगर आपने इसे अभी तक डाउनलोड नहीं किया है, तो इसे यहाँ से डाउनलोड करें[यहाँ](https://releases.aspose.com/slides/java/).
+अपने IDE में एक नया Java प्रोजेक्ट बनाएं और अपने प्रोजेक्ट के बिल्ड पथ में Aspose.Slides for Java लाइब्रेरी जोड़ें। अगर आपने इसे अभी तक डाउनलोड नहीं किया है, तो इसे यहाँ से डाउनलोड करें [यहाँ](https://releases.aspose.com/slides/java/).
 ## चरण 2: प्रेजेंटेशन ऑब्जेक्ट को आरंभ करें
- आरंभ करें`Presentation` ऑब्जेक्ट, जो पावरपॉइंट फ़ाइल का प्रतिनिधित्व करता है.
+आरंभ करें `Presentation` ऑब्जेक्ट, जो पावरपॉइंट फ़ाइल का प्रतिनिधित्व करता है.
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
@@ -61,21 +63,23 @@ pres.save(dataDir + "TextBox_out.pptx", SaveFormat.Pptx);
 ```
 
 ## निष्कर्ष
-इस ट्यूटोरियल में, हमने जावा के लिए Aspose.Slides का उपयोग करके किसी स्लाइड में प्रोग्रामेटिक रूप से टेक्स्ट बॉक्स जोड़ने का तरीका खोजा है। यह क्षमता डेवलपर्स को पावरपॉइंट प्रस्तुतियों के निर्माण और अनुकूलन को स्वचालित करने की अनुमति देती है, जिससे विभिन्न अनुप्रयोगों में उत्पादकता और दक्षता बढ़ती है।
+इस ट्यूटोरियल में, हमने Aspose.Slides for Java का उपयोग करके किसी स्लाइड में प्रोग्रामेटिक रूप से टेक्स्ट बॉक्स जोड़ने का तरीका खोजा है। यह क्षमता डेवलपर्स को PowerPoint प्रस्तुतियों के निर्माण और अनुकूलन को स्वचालित करने की अनुमति देती है, जिससे विभिन्न अनुप्रयोगों में उत्पादकता और दक्षता बढ़ती है।
 ## अक्सर पूछे जाने वाले प्रश्न
 ### क्या Java के लिए Aspose.Slides आयतों के अलावा अन्य आकृतियों को भी संभाल सकता है?
 हां, Aspose.Slides विभिन्न आकृतियों जैसे वृत्त, रेखाएं आदि का समर्थन करता है।
 ### क्या Aspose.Slides for Java बड़े पैमाने के उद्यम अनुप्रयोगों के लिए उपयुक्त है?
 बिल्कुल, इसे जटिल कार्यों को कुशलतापूर्वक निपटाने के लिए डिज़ाइन किया गया है।
 ### मैं Aspose.Slides के लिए और अधिक उदाहरण और दस्तावेज़ कहां पा सकता हूं?
- दौरा करना[Aspose.Slides दस्तावेज़ीकरण](https://reference.aspose.com/slides/java/) विस्तृत मार्गदर्शिका और उदाहरण के लिए.
+दौरा करना [Aspose.Slides दस्तावेज़ीकरण](https://reference.aspose.com/slides/java/) विस्तृत मार्गदर्शिका और उदाहरण के लिए.
 ### मैं परीक्षण के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूँ?
- आप प्राप्त कर सकते हैं[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) Aspose से.
+आप प्राप्त कर सकते हैं [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) Aspose से.
 ### क्या Aspose.Slides प्रस्तुतियों को अन्य प्रारूपों में परिवर्तित करने का समर्थन करता है?
 हां, यह पीडीएफ और छवियों सहित विभिन्न प्रारूपों का समर्थन करता है।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

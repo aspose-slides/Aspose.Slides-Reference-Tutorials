@@ -1,49 +1,51 @@
 ---
-title: Java Slaytlarında Belirli Grafik Serisi Veri Noktaları Verilerini Temizleme
-linktitle: Java Slaytlarında Belirli Grafik Serisi Veri Noktaları Verilerini Temizleme
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides for Java ile Java Slides'ta bir grafik serisinden belirli veri noktalarını nasıl temizleyeceğinizi öğrenin. Etkili veri görselleştirme yönetimi için kaynak kodlu adım adım kılavuz.
-weight: 15
-url: /tr/java/chart-data-manipulation/clear-specific-chart-series-data-points-java-slides/
+"description": "Java Slaytları'nda Aspose.Slides for Java ile bir grafik serisinden belirli veri noktalarını nasıl temizleyeceğinizi öğrenin. Etkili veri görselleştirme yönetimi için kaynak kodlu adım adım kılavuz."
+"linktitle": "Java Slaytlarında Belirli Grafik Serisi Veri Noktalarını Temizle"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java Slaytlarında Belirli Grafik Serisi Veri Noktalarını Temizle"
+"url": "/tr/java/chart-data-manipulation/clear-specific-chart-series-data-points-java-slides/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java Slaytlarında Belirli Grafik Serisi Veri Noktaları Verilerini Temizleme
+# Java Slaytlarında Belirli Grafik Serisi Veri Noktalarını Temizle
 
 
-## Java Slaytlarında Belirli Grafik Serisi Veri Noktası Verilerini Temizlemeye Giriş
+## Java Slaytlarında Net Belirli Grafik Serisi Veri Noktalarına Giriş
 
-Bu eğitimde, Aspose.Slides for Java'yı kullanarak bir PowerPoint sunumundaki grafik serisindeki belirli veri noktalarını temizleme sürecinde size yol göstereceğiz. Veri görselleştirmenizi güncellemek veya değiştirmek için grafikten belirli veri noktalarını kaldırmak istediğinizde bu yararlı olabilir.
+Bu eğitimde, Aspose.Slides for Java kullanarak bir PowerPoint sunumundaki bir grafik serisinden belirli veri noktalarını temizleme sürecini adım adım anlatacağız. Bu, veri görselleştirmenizi güncellemek veya değiştirmek için bir grafikten belirli veri noktalarını kaldırmak istediğinizde yararlı olabilir.
 
-## Önkoşullar
+## Ön koşullar
 
- Başlamadan önce Aspose.Slides for Java kütüphanesinin projenize entegre olduğundan emin olun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/java/).
+Başlamadan önce, projenize Aspose.Slides for Java kütüphanesinin entegre olduğundan emin olun. Bunu şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/slides/java/).
 
-## 1. Adım: Sunuyu Yükleyin
+## Adım 1: Sunumu Yükleyin
 
- Öncelikle değiştirmek istediğiniz grafiği içeren PowerPoint sunumunu yüklememiz gerekiyor. Yer değiştirmek`"Your Document Directory"` sunum dosyanızın gerçek yolunu belirtin.
+Öncelikle, değiştirmek istediğiniz grafiği içeren PowerPoint sunumunu yüklememiz gerekiyor. Değiştir `"Your Document Directory"` sunum dosyanızın gerçek yolunu içerir.
 
 ```java
-// Belgeler dizininin yolu.
+// Belgeler dizinine giden yol.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "TestChart.pptx");
 ```
 
-## Adım 2: Grafiğe Erişin
+## Adım 2: Tabloya Erişim
 
-Daha sonra slayttan grafiğe erişeceğiz. Bu örnekte grafiğin ilk slaytta olduğunu varsayıyoruz (0 indeksindeki slayt). Slayt indeksini gerektiği gibi ayarlayabilirsiniz.
+Sonra, slayttan grafiğe erişeceğiz. Bu örnekte, grafiğin ilk slaytta (slayt 0 dizininde) olduğunu varsayıyoruz. Slayt dizinini gerektiği gibi ayarlayabilirsiniz.
 
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = (IChart) slide.getShapes().get_Item(0);
 ```
 
-## 3. Adım: Belirli Veri Noktalarını Temizleyin
+## Adım 3: Belirli Veri Noktalarını Temizle
 
-Şimdi grafiğin ilk serisinin veri noktalarını yineleyip X ve Y değerlerini temizleyeceğiz.
+Şimdi, grafiğin ilk serisinin veri noktaları arasında dolaşacağız ve bunların X ve Y değerlerini temizleyeceğiz.
 
 ```java
 for (IChartDataPoint dataPoint : chart.getChartData().getSeries().get_Item(0).getDataPoints()) {
@@ -52,30 +54,30 @@ for (IChartDataPoint dataPoint : chart.getChartData().getSeries().get_Item(0).ge
 }
 ```
 
- Bu kod, ilk serideki (indeks 0) her veri noktası boyunca döngü yapar ve hem X hem de Y değerlerini`null`veri noktalarını etkili bir şekilde temizliyor.
+Bu kod, ilk serideki (indeks 0) her veri noktasında döngüye girer ve hem X hem de Y değerlerini ayarlar `null`, veri noktalarını etkili bir şekilde temizler.
 
-## 4. Adım: Temizlenmiş Veri Noktalarını Kaldırma
+## Adım 4: Temizlenen Veri Noktalarını Kaldırın
 
-Temizlenen veri noktalarının seriden kaldırıldığından emin olmak için serinin tamamını temizleyeceğiz.
+Temizlenen veri noktalarının seriden kaldırıldığından emin olmak için tüm seriyi temizleyeceğiz.
 
 ```java
 chart.getChartData().getSeries().get_Item(0).getDataPoints().clear();
 ```
 
-Bu kod, ilk serideki tüm veri noktalarını temizler.
+Bu kod ilk seriden tüm veri noktalarını temizler.
 
-## Adım 5: Değiştirilen Sunuyu Kaydetme
+## Adım 5: Değiştirilen Sunumu Kaydedin
 
-Son olarak değiştirilen sunumu yeni bir dosyaya kaydedeceğiz.
+Son olarak, değiştirdiğimiz sunumu yeni bir dosyaya kaydedeceğiz.
 
 ```java
 pres.save(dataDir + "ClearSpecificChartSeriesDataPointsData.pptx", SaveFormat.Pptx);
 ```
 
-## Java Slaytlarındaki Belirli Grafik Serisi Veri Noktaları Verilerini Temizlemek İçin Tam Kaynak Kodu
+## Java Slaytlarında Net Belirli Grafik Serisi Veri Noktaları Verileri İçin Tam Kaynak Kodu
 
 ```java
-// Belgeler dizininin yolu.
+// Belgeler dizinine giden yol.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "TestChart.pptx");
 try
@@ -98,38 +100,40 @@ finally
 
 ## Çözüm
 
- Bu kılavuzda Aspose.Slides for Java kullanarak bir PowerPoint sunumundaki grafik serisindeki belirli veri noktalarını nasıl temizleyeceğinizi öğrendiniz. Bu, Java uygulamalarınızda grafik verilerini dinamik olarak güncellemeniz veya değiştirmeniz gerektiğinde yararlı olabilir. Başka sorularınız varsa veya ek yardıma ihtiyacınız varsa lütfen şu adrese bakın:[Aspose.Slides for Java belgeleri](https://reference.aspose.com/slides/java/).
+Bu kılavuzda, Aspose.Slides for Java kullanarak bir PowerPoint sunumundaki bir grafik serisinden belirli veri noktalarını nasıl temizleyeceğinizi öğrendiniz. Bu, grafik verilerini Java uygulamalarınızda dinamik olarak güncellemeniz veya değiştirmeniz gerektiğinde yararlı olabilir. Başka sorularınız varsa veya ek yardıma ihtiyacınız varsa lütfen şuraya bakın: [Java belgeleri için Aspose.Slides](https://reference.aspose.com/slides/java/).
 
-## SSS'ler
+## SSS
 
-### Aspose.Slides for Java'daki bir grafik serisinden belirli veri noktalarını nasıl kaldırabilirim?
+### Aspose.Slides for Java'da bir grafik serisinden belirli veri noktalarını nasıl kaldırabilirim?
 
-Aspose.Slides for Java'daki bir grafik serisinden belirli veri noktalarını kaldırmak için şu adımları izleyin:
+Java için Aspose.Slides'ta bir grafik serisinden belirli veri noktalarını kaldırmak için şu adımları izleyin:
 
-1. Sunuyu yükleyin.
-2. Slayttaki grafiğe erişin.
-3. İstenilen serinin veri noktalarını yineleyin ve X ve Y değerlerini temizleyin.
+1. Sunumu yükleyin.
+2. Slayttaki tabloya erişin.
+3. İstenilen serinin veri noktaları arasında dolaşın ve X ve Y değerlerini temizleyin.
 4. Temizlenen veri noktalarını kaldırmak için tüm seriyi temizleyin.
 5. Değiştirilen sunuyu kaydedin.
 
-### Aynı grafikteki birden fazla serideki veri noktalarını temizleyebilir miyim?
+### Aynı grafikte birden fazla seriden veri noktalarını temizleyebilir miyim?
 
-Evet, her serinin veri noktalarını yineleyerek ve bunları tek tek temizleyerek aynı grafikteki birden fazla serideki veri noktalarını temizleyebilirsiniz.
+Evet, aynı grafikteki birden fazla serideki veri noktalarını, her serinin veri noktaları arasında dolaşıp tek tek temizleyerek temizleyebilirsiniz.
 
-### Bir koşula veya kritere göre veri noktalarını temizlemenin bir yolu var mı?
+### Bir koşul veya kritere bağlı olarak veri noktalarını temizlemenin bir yolu var mı?
 
-Evet, veri noktaları boyunca yinelenen döngü içine koşullu mantık ekleyerek, bir koşula dayalı olarak veri noktalarını temizleyebilirsiniz. Veri noktalarının değerlerini kontrol edebilir ve kriterlerinize göre bunları temizleyip temizleyeceğinize karar verebilirsiniz.
+Evet, döngü içinde veri noktaları arasında yineleme yapan koşullu mantık ekleyerek bir koşula bağlı olarak veri noktalarını temizleyebilirsiniz. Veri noktalarının değerlerini kontrol edebilir ve ölçütlerinize göre bunları temizleyip temizlememeye karar verebilirsiniz.
 
-### Aspose.Slides for Java'yı kullanarak bir grafik serisine nasıl yeni veri noktaları ekleyebilirim?
+### Aspose.Slides for Java kullanarak bir grafik serisine yeni veri noktaları nasıl ekleyebilirim?
 
- Bir grafik serisine yeni veri noktaları eklemek için`addDataPoint` serinin yöntemi. Basitçe yeni veri noktaları oluşturun ve bu yöntemi kullanarak bunları seriye ekleyin.
+Bir grafik serisine yeni veri noktaları eklemek için şunu kullanabilirsiniz: `addDataPoint` Serinin yöntemi. Basitçe yeni veri noktaları oluşturun ve bu yöntemi kullanarak bunları seriye ekleyin.
 
 ### Aspose.Slides for Java hakkında daha fazla bilgiyi nerede bulabilirim?
 
- Kapsamlı belgeleri ve örnekleri şurada bulabilirsiniz:[Aspose.Slides for Java belgeleri](https://reference.aspose.com/slides/java/).
+Kapsamlı dokümanları ve örnekleri şu adreste bulabilirsiniz: [Java belgeleri için Aspose.Slides](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,42 +1,44 @@
 ---
-title: Genereer miniatuurweergaven in dia's met aangepaste afmetingen
-linktitle: Genereer een miniatuur met aangepaste afmetingen
-second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
-description: Leer hoe u aangepaste miniatuurafbeeldingen kunt genereren uit PowerPoint-presentaties met Aspose.Slides voor .NET. Verbeter de gebruikerservaring en functionaliteit.
-weight: 13
-url: /nl/net/slide-thumbnail-generation/generate-thumbnail-with-custom-dimensions/
+"description": "Leer hoe u aangepaste miniatuurafbeeldingen van PowerPoint-presentaties kunt genereren met Aspose.Slides voor .NET. Verbeter de gebruikerservaring en functionaliteit."
+"linktitle": "Genereer een miniatuur met aangepaste afmetingen"
+"second_title": "Aspose.Slides .NET PowerPoint-verwerkings-API"
+"title": "Genereer miniaturen in dia's met aangepaste afmetingen"
+"url": "/nl/net/slide-thumbnail-generation/generate-thumbnail-with-custom-dimensions/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Genereer miniatuurweergaven in dia's met aangepaste afmetingen
+# Genereer miniaturen in dia's met aangepaste afmetingen
 
 
-Het maken van aangepaste miniatuurafbeeldingen van uw PowerPoint-presentaties kan een waardevol bezit zijn, of u nu een interactieve toepassing bouwt, de gebruikerservaring verbetert of inhoud voor verschillende platforms optimaliseert. In deze zelfstudie begeleiden we u bij het genereren van aangepaste miniatuurafbeeldingen uit PowerPoint-presentaties met behulp van de Aspose.Slides voor .NET-bibliotheek. Met deze krachtige bibliotheek kunt u PowerPoint-bestanden programmatisch manipuleren, converteren en verbeteren in .NET-toepassingen.
+Het maken van aangepaste miniatuurafbeeldingen van uw PowerPoint-presentaties kan een waardevolle toevoeging zijn, of u nu een interactieve applicatie bouwt, de gebruikerservaring verbetert of content optimaliseert voor verschillende platforms. In deze tutorial begeleiden we u bij het genereren van aangepaste miniatuurafbeeldingen van PowerPoint-presentaties met behulp van de Aspose.Slides voor .NET-bibliotheek. Met deze krachtige bibliotheek kunt u PowerPoint-bestanden programmatisch bewerken, converteren en verbeteren in .NET-applicaties.
 
 ## Vereisten
 
-Voordat we ingaan op het genereren van aangepaste miniatuurafbeeldingen, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+Voordat we beginnen met het genereren van aangepaste miniatuurafbeeldingen, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 
 ### 1. Aspose.Slides voor .NET
 
- U moet de Aspose.Slides voor .NET-bibliotheek in uw project hebben geïnstalleerd. Als u dat nog niet heeft gedaan, kunt u hier de benodigde documentatie en downloadlinks vinden[hier](https://reference.aspose.com/slides/net/).
+De Aspose.Slides voor .NET-bibliotheek moet in uw project geïnstalleerd zijn. Als u dat nog niet gedaan hebt, vindt u hier de benodigde documentatie en downloadlinks. [hier](https://reference.aspose.com/slides/net/).
 
 ### 2. Een PowerPoint-presentatie
 
-Zorg ervoor dat u de PowerPoint-presentatie hebt waarvan u een aangepaste miniatuurafbeelding wilt genereren. Deze presentatie zou toegankelijk moeten zijn binnen uw projectmap.
+Zorg ervoor dat u de PowerPoint-presentatie hebt waarvan u een aangepaste miniatuurafbeelding wilt genereren. Deze presentatie moet toegankelijk zijn in uw projectmap.
 
 ### 3. Ontwikkelomgeving
 
-Om deze zelfstudie te volgen, moet u praktische kennis hebben van .NET-programmeren met C# en een ontwikkelomgeving hebben, zoals Visual Studio.
+Om deze tutorial te kunnen volgen, hebt u een praktische kennis van .NET-programmering met C# nodig en moet u over een ontwikkelomgeving beschikken, zoals Visual Studio.
 
-Nu we de vereisten hebben besproken, gaan we het proces van het genereren van aangepaste miniaturen opsplitsen in stapsgewijze instructies.
+Nu we de vereisten hebben besproken, gaan we het proces voor het genereren van aangepaste miniaturen opsplitsen in stapsgewijze instructies.
 
 ## Naamruimten importeren
 
-Eerst moet u de vereiste naamruimten in uw C#-code opnemen. Met deze naamruimten kunt u met Aspose.Slides werken en PowerPoint-presentaties manipuleren.
+Ten eerste moet je de vereiste naamruimten in je C#-code opnemen. Deze naamruimten stellen je in staat om met Aspose.Slides te werken en PowerPoint-presentaties te bewerken.
 
 ```csharp
 using Aspose.Slides;
@@ -45,22 +47,22 @@ using System.Drawing;
 
 ## Stap 1: Laad de presentatie
 
-Laad om te beginnen de PowerPoint-presentatie waaruit u een aangepaste miniatuurafbeelding wilt genereren. Dit wordt bereikt met behulp van de Aspose.Slides-bibliotheek.
+Om te beginnen laadt u de PowerPoint-presentatie waarvan u een aangepaste miniatuurafbeelding wilt genereren. Dit doet u met behulp van de Aspose.Slides-bibliotheek.
 
 ```csharp
 string FilePath = @"..\..\..\Sample Files\";
 string srcFileName = FilePath + "User Defined Thumbnail.pptx";
 
-// Instantieer een Presentation-klasse die het presentatiebestand vertegenwoordigt
+// Instantieer een presentatieklasse die het presentatiebestand vertegenwoordigt
 using (Presentation pres = new Presentation(srcFileName))
 {
-    // Uw code voor het genereren van miniaturen komt hier terecht
+    // Hier komt uw code voor het genereren van miniaturen
 }
 ```
 
 ## Stap 2: Toegang tot de dia
 
-Binnen de geladen presentatie moet u toegang krijgen tot de specifieke dia waarvan u de aangepaste miniatuurafbeelding wilt genereren. U kunt de dia kiezen op basis van de index.
+Binnen de geladen presentatie moet u de specifieke dia openen waarvan u de aangepaste miniatuurafbeelding wilt genereren. U kunt de dia selecteren op basis van de index.
 
 ```csharp
 // Toegang tot de eerste dia (u kunt de index indien nodig wijzigen)
@@ -69,14 +71,14 @@ ISlide sld = pres.Slides[0];
 
 ## Stap 3: Definieer aangepaste miniatuurafmetingen
 
-Geef de gewenste afmetingen op voor uw aangepaste miniatuurafbeelding. U kunt de breedte en hoogte in pixels definiëren, afhankelijk van de vereisten van uw toepassing.
+Geef de gewenste afmetingen op voor uw aangepaste miniatuurafbeelding. U kunt de breedte en hoogte in pixels definiëren op basis van de vereisten van uw toepassing.
 
 ```csharp
 int desiredX = 1200; // Breedte
 int desiredY = 800;  // Hoogte
 ```
 
-## Stap 4: Bereken schaalfactoren
+## Stap 4: Schaalfactoren berekenen
 
 Om de beeldverhouding van de dia te behouden, berekent u de schaalfactoren voor de X- en Y-afmetingen op basis van de grootte van de dia en de gewenste afmetingen.
 
@@ -87,43 +89,45 @@ float ScaleY = (float)(1.0 / pres.SlideSize.Size.Height) * desiredY;
 
 ## Stap 5: Genereer de miniatuurafbeelding
 
-Maak een afbeelding op volledige schaal van de dia met de opgegeven aangepaste afmetingen en sla deze op schijf op in JPEG-indeling.
+Maak een afbeelding op ware grootte van de dia met de opgegeven afmetingen en sla deze op schijf op in JPEG-formaat.
 
 ```csharp
-// Maak een afbeelding op volledige schaal
+// Maak een afbeelding op ware grootte
 Bitmap bmp = sld.GetThumbnail(ScaleX, ScaleY);
 
 // Sla de afbeelding op schijf op in JPEG-formaat
 bmp.Save(destFileName, System.Drawing.Imaging.ImageFormat.Jpeg);
 ```
 
-Nu u deze stappen heeft gevolgd, zou u met succes een aangepaste miniatuurafbeelding uit uw PowerPoint-presentatie moeten hebben gegenereerd.
+Nu u deze stappen hebt gevolgd, zou u met succes een aangepaste miniatuurafbeelding van uw PowerPoint-presentatie moeten hebben gegenereerd.
 
 ## Conclusie
 
-Het genereren van aangepaste miniatuurafbeeldingen uit PowerPoint-presentaties met Aspose.Slides voor .NET is een waardevolle vaardigheid die de gebruikerservaring en functionaliteit van uw toepassingen kan verbeteren. Door de stappen in deze zelfstudie te volgen, kunt u eenvoudig aangepaste miniaturen maken die aan uw specifieke vereisten voldoen.
+Het genereren van aangepaste miniatuurafbeeldingen van PowerPoint-presentaties met Aspose.Slides voor .NET is een waardevolle vaardigheid die de gebruikerservaring en functionaliteit van uw applicaties kan verbeteren. Door de stappen in deze tutorial te volgen, kunt u eenvoudig aangepaste miniaturen maken die aan uw specifieke eisen voldoen.
 
 ---
 
-## Veelgestelde vragen (veelgestelde vragen)
+## Veelgestelde vragen (FAQ)
 
 ### Wat is Aspose.Slides voor .NET?
 Aspose.Slides voor .NET is een krachtige bibliotheek waarmee ontwikkelaars programmatisch met PowerPoint-presentaties kunnen werken in .NET-toepassingen.
 
 ### Waar kan ik de documentatie voor Aspose.Slides voor .NET vinden?
- U kunt de documentatie vinden[hier](https://reference.aspose.com/slides/net/).
+De documentatie vindt u hier [hier](https://reference.aspose.com/slides/net/).
 
 ### Is Aspose.Slides voor .NET gratis te gebruiken?
- Aspose.Slides voor .NET is een commerciële bibliotheek. U kunt informatie over prijzen en licenties vinden[hier](https://purchase.aspose.com/buy).
+Aspose.Slides voor .NET is een commerciële bibliotheek. U kunt hier informatie vinden over prijzen en licenties. [hier](https://purchase.aspose.com/buy).
 
 ### Heb ik geavanceerde programmeervaardigheden nodig om Aspose.Slides voor .NET te gebruiken?
-Hoewel enige kennis van .NET-programmering nuttig is, biedt Aspose.Slides voor .NET een gebruiksvriendelijke API die het werken met PowerPoint-presentaties vereenvoudigt.
+Hoewel enige kennis van .NET-programmering nuttig is, biedt Aspose.Slides voor .NET een gebruiksvriendelijke API waarmee u eenvoudiger met PowerPoint-presentaties kunt werken.
 
 ### Is er technische ondersteuning beschikbaar voor Aspose.Slides voor .NET?
- Ja, u heeft toegang tot technische ondersteuning en communityforums[hier](https://forum.aspose.com/).
+Ja, u hebt toegang tot technische ondersteuning en communityforums [hier](https://forum.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

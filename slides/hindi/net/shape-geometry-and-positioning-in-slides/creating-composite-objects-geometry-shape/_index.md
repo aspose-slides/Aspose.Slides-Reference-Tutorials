@@ -1,14 +1,16 @@
 ---
-title: प्रस्तुतियों में समग्र ज्यामिति आकृतियों में निपुणता प्राप्त करना
-linktitle: Aspose.Slides के साथ ज्यामिति आकार में मिश्रित ऑब्जेक्ट बनाना
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: Aspose.Slides for .NET का उपयोग करके कंपोजिट ज्यामिति आकृतियों के साथ शानदार प्रस्तुतिकरण बनाना सीखें। प्रभावशाली परिणामों के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 14
-url: /hi/net/shape-geometry-and-positioning-in-slides/creating-composite-objects-geometry-shape/
+"description": "Aspose.Slides for .NET का उपयोग करके कंपोजिट ज्यामिति आकृतियों के साथ शानदार प्रस्तुतियाँ बनाना सीखें। प्रभावशाली परिणामों के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "Aspose.Slides के साथ ज्यामिति आकार में समग्र ऑब्जेक्ट बनाना"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "प्रस्तुतियों में समग्र ज्यामिति आकृतियों में निपुणता प्राप्त करना"
+"url": "/hi/net/shape-geometry-and-positioning-in-slides/creating-composite-objects-geometry-shape/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # प्रस्तुतियों में समग्र ज्यामिति आकृतियों में निपुणता प्राप्त करना
@@ -18,7 +20,7 @@ url: /hi/net/shape-geometry-and-positioning-in-slides/creating-composite-objects
 ## आवश्यक शर्तें
 इससे पहले कि हम ट्यूटोरियल में आगे बढ़ें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 - C# प्रोग्रामिंग भाषा की बुनियादी समझ।
--  Aspose.Slides for .NET लाइब्रेरी स्थापित की गई। आप इसे यहाँ से डाउनलोड कर सकते हैं[Aspose.Slides दस्तावेज़ीकरण](https://reference.aspose.com/slides/net/).
+- Aspose.Slides for .NET लाइब्रेरी स्थापित की गई। आप इसे यहाँ से डाउनलोड कर सकते हैं [Aspose.Slides दस्तावेज़ीकरण](https://reference.aspose.com/slides/net/).
 - विजुअल स्टूडियो या किसी अन्य C# विकास उपकरण के साथ स्थापित विकास वातावरण।
 ## नामस्थान आयात करें
 सुनिश्चित करें कि आप Aspose.Slides कार्यक्षमताओं का उपयोग करने के लिए अपने C# कोड में आवश्यक नामस्थान आयात करें। अपने कोड की शुरुआत में निम्नलिखित नामस्थान शामिल करें:
@@ -83,16 +85,18 @@ pres.Save(resultPath, SaveFormat.Pptx);
 ### प्रश्न: क्या मैं Aspose.Slides को अन्य प्रोग्रामिंग भाषाओं के साथ उपयोग कर सकता हूँ?
 Aspose.Slides जावा और पायथन सहित विभिन्न प्रोग्रामिंग भाषाओं का समर्थन करता है। हालाँकि, यह ट्यूटोरियल C# पर केंद्रित है।
 ### प्रश्न: मैं और अधिक उदाहरण एवं दस्तावेज कहां पा सकता हूं?
- पता लगाएं[Aspose.Slides दस्तावेज़ीकरण](https://reference.aspose.com/slides/net/) विस्तृत जानकारी और उदाहरण के लिए.
+पता लगाएं [Aspose.Slides दस्तावेज़ीकरण](https://reference.aspose.com/slides/net/) विस्तृत जानकारी और उदाहरण के लिए.
 ### प्रश्न: क्या कोई निःशुल्क परीक्षण उपलब्ध है?
- हाँ, आप .NET के लिए Aspose.Slides आज़मा सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/).
+हाँ, आप .NET के लिए Aspose.Slides आज़मा सकते हैं [मुफ्त परीक्षण](https://releases.aspose.com/).
 ### प्रश्न: मैं सहायता कैसे प्राप्त कर सकता हूं या प्रश्न कैसे पूछ सकता हूं?
- दौरा करना[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) सामुदायिक समर्थन और सहायता के लिए।
+दौरा करना [Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) सामुदायिक समर्थन और सहायता के लिए।
 ### प्रश्न: क्या मैं अस्थायी लाइसेंस खरीद सकता हूँ?
- हां, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+हां, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

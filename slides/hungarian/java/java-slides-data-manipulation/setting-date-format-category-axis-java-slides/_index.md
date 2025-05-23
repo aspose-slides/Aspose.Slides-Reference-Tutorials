@@ -1,33 +1,35 @@
 ---
-title: Dátumformátum beállítása a Java Slides kategóriatengelyéhez
-linktitle: Dátumformátum beállítása a Java Slides kategóriatengelyéhez
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan állíthat be dátumformátumot a kategóriatengelyhez egy PowerPoint diagramon az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskóddal.
-weight: 26
-url: /hu/java/data-manipulation/setting-date-format-category-axis-java-slides/
+"description": "Tanuld meg, hogyan állíthatsz be dátumformátumot a kategóriatengelyhez egy PowerPoint-diagramban az Aspose.Slides for Java használatával. Lépésről lépésre útmutató forráskóddal."
+"linktitle": "Dátumformátum beállítása a kategóriatengelyhez Java diákban"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Dátumformátum beállítása a kategóriatengelyhez Java diákban"
+"url": "/hu/java/data-manipulation/setting-date-format-category-axis-java-slides/"
+"weight": 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dátumformátum beállítása a Java Slides kategóriatengelyéhez
+# Dátumformátum beállítása a kategóriatengelyhez Java diákban
 
 
-## Bevezetés a Java Slides kategóriatengely dátumformátumának beállításába
+## Bevezetés a kategóriatengely dátumformátumának beállításába Java diákban
 
-Ebben az oktatóanyagban megtanuljuk, hogyan állíthat be dátumformátumot a kategóriatengelyhez egy PowerPoint diagramban az Aspose.Slides for Java segítségével. Az Aspose.Slides for Java egy hatékony könyvtár, amely lehetővé teszi PowerPoint prezentációk programozott létrehozását, kezelését és kezelését.
+Ebben az oktatóanyagban megtanuljuk, hogyan állíthatunk be dátumformátumot a kategóriatengelyhez egy PowerPoint-diagramban az Aspose.Slides for Java használatával. Az Aspose.Slides for Java egy hatékony könyvtár, amely lehetővé teszi PowerPoint-bemutatók programozott létrehozását, kezelését és manipulálását.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következőkkel:
+Mielőtt elkezdené, győződjön meg arról, hogy a következőkkel rendelkezik:
 
-1. Aspose.Slides for Java könyvtár (letöltheti a[itt](https://releases.aspose.com/slides/java/).
+1. Aspose.Slides Java könyvtárhoz (letöltheti innen: [itt](https://releases.aspose.com/slides/java/).
 2. Java fejlesztői környezet beállítása.
 
-## 1. lépés: Hozzon létre egy PowerPoint-bemutatót
+## 1. lépés: PowerPoint-bemutató létrehozása
 
-Először is létre kell hoznunk egy PowerPoint prezentációt, amelyhez hozzáadunk egy diagramot. Győződjön meg arról, hogy importálta a szükséges Aspose.Slides osztályokat.
+Először is létre kell hoznunk egy PowerPoint bemutatót, amelyhez diagramot fogunk hozzáadni. Győződj meg róla, hogy importáltad a szükséges Aspose.Slides osztályokat.
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
@@ -35,7 +37,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 ```
 
-## 2. lépés: Adjon hozzá egy diagramot a diához
+## 2. lépés: Diagram hozzáadása a diához
 
 Most adjunk hozzá egy diagramot a PowerPoint diához. Ebben a példában egy területdiagramot fogunk használni.
 
@@ -43,7 +45,7 @@ Most adjunk hozzá egy diagramot a PowerPoint diához. Ebben a példában egy te
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Area, 50, 50, 450, 300);
 ```
 
-## 3. lépés: Készítse elő a diagramadatokat
+## 3. lépés: Diagramadatok előkészítése
 
 Beállítjuk a diagram adatait és kategóriáit. Ebben a példában dátumkategóriákat fogunk használni.
 
@@ -69,7 +71,7 @@ series.getDataPoints().addDataPointForLineSeries(wb.getCell(0, "B5", 4));
 ```
 
 ## 4. lépés: A kategóriatengely testreszabása
-Most pedig szabjuk testre a kategóriatengelyt úgy, hogy a dátumokat meghatározott formátumban jelenítse meg (pl. éééé).
+Most szabjuk testre a kategóriatengelyt, hogy a dátumokat egy adott formátumban jelenítse meg (pl. éééé).
 
 ```java
 chart.getAxes().getHorizontalAxis().setCategoryAxisType(CategoryAxisType.Date);
@@ -78,15 +80,15 @@ chart.getAxes().getHorizontalAxis().setNumberFormat("yyyy");
 ```
 
 ## 5. lépés: Mentse el a prezentációt
-Végül mentse a PowerPoint bemutatót.
+Végül mentse el a PowerPoint bemutatót.
 
 ```java
 pres.save(dataDir + "test.pptx", SaveFormat.Pptx);
 ```
 
-Ez az! Sikeresen beállította a dátumformátumot a kategóriatengelyhez egy PowerPoint diagramban az Aspose.Slides for Java segítségével.
+Ennyi! Sikeresen beállítottál egy dátumformátumot a kategóriatengelyhez egy PowerPoint-diagramban az Aspose.Slides for Java használatával.
 
-## Teljes forráskód a Java Slides kategóriatengelyének dátumformátumának beállításához
+## Teljes forráskód a dátumformátum beállításához a kategóriatengelyhez Java diákban
 
 ```java
 	// A dokumentumok könyvtárának elérési útja.
@@ -130,24 +132,26 @@ public static String convertToOADate(GregorianCalendar date) throws ParseExcepti
 
 ##Következtetés
 
-Sikeresen testreszabta a dátumformátumot a kategóriatengelyhez a Java Slides diagramban az Aspose.Slides for Java segítségével. Ez lehetővé teszi, hogy a dátumértékeket a kívánt formátumban jelenítse meg a diagramokon. Nyugodtan fedezze fel a további testreszabási lehetőségeket sajátos igényei alapján.
+Sikeresen testre szabtad a kategóriatengely dátumformátumát egy Java Slides diagramban az Aspose.Slides for Java használatával. Ez lehetővé teszi, hogy a dátumértékeket a kívánt formátumban jelenítsd meg a diagramokon. Nyugodtan fedezd fel a további testreszabási lehetőségeket az igényeid alapján.
 
 ## GYIK
 
-### Hogyan változtathatom meg a kategóriatengely dátumformátumát?
+### Hogyan tudom megváltoztatni a kategóriatengely dátumformátumát?
 
- A kategóriatengely dátumformátumának módosításához használja a`setNumberFormat` módszert a kategóriatengelyen, és adja meg a kívánt dátumformátum-mintát, például „éééé-hh-nn” vagy “hh/éééé”. Ügyeljen a beállításra`setNumberFormatLinkedToSource(false)` az alapértelmezett formátum felülbírálásához.
+A kategóriatengely dátumformátumának módosításához használja a `setNumberFormat` metódust a kategóriatengelyen, és adja meg a kívánt dátumformátum mintát, például „éééé-HH-nn” vagy „HH/éééé”. Győződjön meg róla, hogy beállította a `setNumberFormatLinkedToSource(false)` az alapértelmezett formátum felülbírálásához.
 
-### Használhatok különböző dátumformátumokat a különböző diagramokhoz ugyanabban a prezentációban?
+### Használhatok különböző dátumformátumokat ugyanazon prezentáció különböző diagramjaihoz?
 
-Igen, beállíthat különböző dátumformátumokat a kategóriatengelyekhez ugyanazon a bemutatón belül a különböző diagramokon. Egyszerűen szabja testre a kategóriatengelyt az egyes diagramokhoz, ha szükséges.
+Igen, ugyanazon prezentáción belül különböző diagramokban különböző dátumformátumokat állíthat be a kategóriatengelyekhez. Egyszerűen szabja testre a kategóriatengelyt az egyes diagramok igényei szerint.
 
-### Hogyan adhatok hozzá további adatpontokat a diagramhoz?
+### Hogyan adhatok hozzá több adatpontot a diagramhoz?
 
- Ha további adatpontokat szeretne hozzáadni a diagramhoz, használja a`getDataPoints().addDataPointForLineSeries`módszert az adatsoron, és adja meg az adatértékeket.
+További adatpontok hozzáadásához a diagramhoz használja a `getDataPoints().addDataPointForLineSeries` metódust az adatsorokon, és adja meg az adatértékeket.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

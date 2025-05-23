@@ -1,40 +1,42 @@
 ---
-title: Lägg till Donut Callout i Java Slides
-linktitle: Lägg till Donut Callout i Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Lär dig att lägga till ringtexter i Java Slides med Aspose.Slides för Java. Steg-för-steg-guide med källkod för förbättrade presentationer.
-weight: 12
-url: /sv/java/chart-data-manipulation/add-doughnut-callout-java-slides/
+"description": "Lär dig lägga till ringformulär i Java Slides med Aspose.Slides för Java. Steg-för-steg-guide med källkod för förbättrade presentationer."
+"linktitle": "Lägg till ringformulär i Java Slides"
+"second_title": "Aspose.Slides Java PowerPoint-bearbetnings-API"
+"title": "Lägg till ringformulär i Java Slides"
+"url": "/sv/java/chart-data-manipulation/add-doughnut-callout-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lägg till Donut Callout i Java Slides
+# Lägg till ringformulär i Java Slides
 
 
-## Introduktion till att lägga till en munktext i Java Slides med Aspose.Slides för Java
+## Introduktion till att lägga till en ringformad callout i Java Slides med Aspose.Slides för Java
 
-I den här handledningen kommer vi att gå igenom processen att lägga till en Donut Callout till en bild i Java med Aspose.Slides för Java. En Donut Callout är ett diagramelement som kan användas för att markera specifika datapunkter i ett Donut-diagram. Vi kommer att förse dig med steg-för-steg-instruktioner och fullständig källkod för din bekvämlighet.
+I den här handledningen går vi igenom processen för att lägga till en Doughnut Callout till en bild i Java med hjälp av Aspose.Slides för Java. En Doughnut Callout är ett diagramelement som kan användas för att markera specifika datapunkter i ett Doughnut-diagram. Vi kommer att förse dig med steg-för-steg-instruktioner och fullständig källkod för din bekvämlighet.
 
-## Förutsättningar
+## Förkunskapskrav
 
 Innan du börjar, se till att du har följande förutsättningar på plats:
 
-1. Java utvecklingsmiljö
-2. Aspose.Slides för Java-bibliotek
-3. Integrated Development Environment (IDE) som Eclipse eller IntelliJ IDEA
-4. En PowerPoint-presentation där du vill lägga till Donut-bildtexten
+1. Java-utvecklingsmiljö
+2. Aspose.Slides för Java-biblioteket
+3. Integrerad utvecklingsmiljö (IDE) som Eclipse eller IntelliJ IDEA
+4. En PowerPoint-presentation där du vill lägga till ringtexten
 
 ## Steg 1: Konfigurera ditt Java-projekt
 
 1. Skapa ett nytt Java-projekt i din valda IDE.
-2. Lägg till Aspose.Slides för Java-biblioteket till ditt projekt som ett beroende.
+2. Lägg till Aspose.Slides för Java-biblioteket i ditt projekt som ett beroende.
 
 ## Steg 2: Initiera presentationen
 
-För att komma igång måste du initiera en PowerPoint-presentation och skapa en bild där du vill lägga till Donut-bildtexten. Här är koden för att uppnå detta:
+För att komma igång måste du initiera en PowerPoint-presentation och skapa en bild där du vill lägga till ringformuläret. Här är koden för att uppnå detta:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -42,19 +44,19 @@ Presentation pres = new Presentation(dataDir + "testc.pptx");
 ISlide slide = pres.getSlides().get_Item(0);
 ```
 
- Se till att byta ut`"Your Document Directory"` med den faktiska sökvägen till din PowerPoint-presentationsfil.
+Se till att byta ut `"Your Document Directory"` med den faktiska sökvägen till din PowerPoint-presentationsfil.
 
-## Steg 3: Skapa ett munkdiagram
+## Steg 3: Skapa ett ringdiagram
 
-Därefter skapar du ett Donut-diagram på bilden. Du kan anpassa diagrammets position och storlek enligt dina krav. Här är koden för att lägga till ett Donut-diagram:
+Nästa steg är att skapa ett ringdiagram på bilden. Du kan anpassa diagrammets position och storlek efter dina behov. Här är koden för att lägga till ett ringdiagram:
 
 ```java
 IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, false);
 ```
 
-## Steg 4: Anpassa munkdiagrammet
+## Steg 4: Anpassa ringdiagrammet
 
-Nu är det dags att anpassa Donut-diagrammet. Vi kommer att ställa in olika egenskaper som att ta bort förklaringen, konfigurera hålstorleken och justera den första skivans vinkel. Här är koden:
+Nu är det dags att anpassa ringdiagrammet. Vi kommer att ställa in olika egenskaper, som att ta bort förklaringen, konfigurera hålstorleken och justera den första skivans vinkel. Här är koden:
 
 ```java
 IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
@@ -71,11 +73,11 @@ while (seriesIndex < 15) {
 }
 ```
 
-Det här kodavsnittet anger egenskaperna för Donut-diagrammet. Du kan justera värdena för att möta dina specifika behov.
+Det här kodavsnittet anger egenskaperna för ringdiagrammet. Du kan justera värdena efter dina specifika behov.
 
-## Steg 5: Lägg till data till munkdiagrammet
+## Steg 5: Lägg till data i ringdiagrammet
 
-Låt oss nu lägga till data till Donut-diagrammet. Vi kommer också att anpassa utseendet på datapunkterna. Här är koden för att åstadkomma detta:
+Nu ska vi lägga till data i ringdiagrammet. Vi kommer också att anpassa datapunkternas utseende. Här är koden för att åstadkomma detta:
 
 ```java
 int categoryIndex = 0;
@@ -93,21 +95,21 @@ while (categoryIndex < 15) {
 }
 ```
 
-I den här koden lägger vi till kategorier och datapunkter till Donut-diagrammet. Du kan ytterligare anpassa utseendet på datapunkter efter behov.
+I den här koden lägger vi till kategorier och datapunkter i ringdiagrammet. Du kan ytterligare anpassa utseendet på datapunkterna efter behov.
 
 ## Steg 6: Spara presentationen
 
-Slutligen, glöm inte att spara din presentation efter att du har lagt till Donut Callout. Här är koden för att spara presentationen:
+Slutligen, glöm inte att spara din presentation efter att du har lagt till Doughnut Callout. Här är koden för att spara presentationen:
 
 ```java
 pres.save(dataDir + "chart.pptx", SaveFormat.Pptx);
 ```
 
- Se till att byta ut`"chart.pptx"` med önskat filnamn.
+Se till att byta ut `"chart.pptx"` med ditt önskade filnamn.
 
-Grattis! Du har framgångsrikt lagt till en Donut Callout till en Java-bild med Aspose.Slides för Java. Du kan nu köra din Java-applikation för att skapa PowerPoint-presentationen med Donut-diagrammet och bildtexten.
+Grattis! Du har lagt till en ringdiagram-callout till en Java-bild med hjälp av Aspose.Slides för Java. Du kan nu köra ditt Java-program för att generera PowerPoint-presentationen med ringdiagrammet och callouten.
 
-## Komplett källkod för Lägg till Donut Callout i Java Slides
+## Komplett källkod för Lägg till munk-callout i Java Slides
 
 ```java
 String dataDir = "Your Document Directory";
@@ -171,24 +173,26 @@ pres.save(dataDir + "chart.pptx", SaveFormat.Pptx);
 
 ## Slutsats
 
-I den här handledningen har vi täckt processen att lägga till en Donut Callout till en Java-bild med Aspose.Slides för Java. Du har lärt dig hur du skapar ett Donut-diagram, anpassar dess utseende och lägger till datapunkter. Förbättra gärna dina presentationer ytterligare med detta kraftfulla bibliotek och utforska fler kartalternativ.
+I den här handledningen har vi gått igenom processen att lägga till en ringdiagram-callout till en Java-bild med hjälp av Aspose.Slides för Java. Du har lärt dig hur du skapar ett ringdiagram, anpassar dess utseende och lägger till datapunkter. Känn dig fri att ytterligare förbättra dina presentationer med detta kraftfulla bibliotek och utforska fler diagramalternativ.
 
-## FAQ's
+## Vanliga frågor
 
-### Hur kan jag ändra utseendet på munkförklaringen?
+### Hur kan jag ändra utseendet på munkbilden?
 
-Du kan anpassa utseendet på munkförklaringen genom att ändra egenskaperna för datapunkter i diagrammet. I koden som tillhandahålls kan du se hur du ställer in fyllningsfärg, linjefärg, teckensnittsstil och andra attribut för datapunkter.
+Du kan anpassa utseendet på ringformuläret genom att ändra egenskaperna för datapunkterna i diagrammet. I den medföljande koden kan du se hur du ställer in fyllningsfärg, linjefärg, teckensnitt och andra attribut för datapunkter.
 
-### Kan jag lägga till fler datapunkter i Donut-diagrammet?
+### Kan jag lägga till fler datapunkter i ringdiagrammet?
 
-Ja, du kan lägga till så många datapunkter som behövs i Donut-diagrammet. Förläng helt enkelt slingorna i koden där kategorier och datapunkter läggs till, och tillhandahåll lämplig data och formatering.
+Ja, du kan lägga till så många datapunkter som behövs i ringdiagrammet. Förläng helt enkelt looparna i koden där kategorier och datapunkter läggs till och ange lämplig data och formatering.
 
-### Hur kan jag justera positionen och storleken på Donut-diagrammet på bilden?
+### Hur kan jag justera positionen och storleken på ringdiagrammet på bilden?
 
- Du kan ändra positionen och storleken på Donut-diagrammet genom att ändra parametrarna i`addChart` metod. De fyra siffrorna i den metoden motsvarar X- och Y-koordinaterna för diagrammets övre vänstra hörn och dess bredd respektive höjd.
+Du kan ändra position och storlek på ringdiagrammet genom att modifiera parametrarna i `addChart` metod. De fyra siffrorna i den metoden motsvarar X- och Y-koordinaterna för diagrammets övre vänstra hörn respektive dess bredd och höjd.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

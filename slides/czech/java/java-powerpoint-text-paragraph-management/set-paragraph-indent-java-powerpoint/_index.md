@@ -1,64 +1,66 @@
 ---
-title: Nastavte odsazení odstavce v Java PowerPointu
-linktitle: Nastavte odsazení odstavce v Java PowerPointu
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Naučte se, jak programově nastavit odsazení odstavců ve snímcích aplikace PowerPoint pomocí Aspose.Slides for Java. Vylepšete formátování své prezentace bez námahy.
-weight: 16
-url: /cs/java/java-powerpoint-text-paragraph-management/set-paragraph-indent-java-powerpoint/
+"description": "Naučte se, jak programově nastavit odsazení odstavců v PowerPointových slidech pomocí Aspose.Slides pro Javu. Vylepšete formátování prezentací bez námahy."
+"linktitle": "Nastavení odsazení odstavce v PowerPointu v Javě"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Nastavení odsazení odstavce v PowerPointu v Javě"
+"url": "/cs/java/java-powerpoint-text-paragraph-management/set-paragraph-indent-java-powerpoint/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nastavte odsazení odstavce v Java PowerPointu
+# Nastavení odsazení odstavce v PowerPointu v Javě
 
-## Úvod
-V tomto tutoriálu se naučíte, jak programově manipulovat s prezentacemi PowerPoint pomocí Aspose.Slides for Java. Konkrétně se zaměříme na nastavení odsazení odstavců v rámci snímků. Aspose.Slides for Java poskytuje výkonnou sadu rozhraní API, která umožňují vývojářům vytvářet, upravovat, převádět a spravovat prezentace v PowerPointu, aniž by se spoléhali na Microsoft Office Automation.
+## Zavedení
+V tomto tutoriálu se naučíte, jak programově manipulovat s prezentacemi v PowerPointu pomocí nástroje Aspose.Slides pro Javu. Konkrétně se zaměříme na nastavení odsazení odstavců v rámci snímků. Aspose.Slides pro Javu poskytuje výkonnou sadu API, která vývojářům umožňují vytvářet, upravovat, převádět a spravovat prezentace v PowerPointu bez nutnosti spoléhat se na automatizaci Microsoft Office.
 ## Předpoklady
 Než začneme, ujistěte se, že máte následující nastavení:
-- Java Development Kit (JDK) nainstalovaný na vašem počítači.
--  Stažena knihovna Aspose.Slides pro Java. Můžete jej získat z[tady](https://releases.aspose.com/slides/java/).
+- Na vašem počítači nainstalovaná sada pro vývojáře Java (JDK).
+- Knihovna Aspose.Slides pro Javu byla stažena. Můžete ji získat z [zde](https://releases.aspose.com/slides/java/).
 - Základní znalost programovacího jazyka Java.
-## Importujte balíčky
+## Importovat balíčky
 Nejprve importujte potřebné balíčky pro přístup k funkcím Aspose.Slides:
 ```java
 import com.aspose.slides.*;
 import java.io.File;
 ```
-Pojďme se ponořit do podrobného procesu nastavení odsazení odstavců na snímku aplikace PowerPoint pomocí Aspose.Slides for Java.
-## Krok 1: Vytvořte objekt prezentace
- Vytvořte instanci`Presentation` třídy začít pracovat s novou prezentací PowerPoint.
+Pojďme se ponořit do podrobného procesu nastavení odsazení odstavců na snímku v PowerPointu pomocí Aspose.Slides pro Javu.
+## Krok 1: Vytvořte prezentační objekt
+Vytvořte instanci `Presentation` třída začne pracovat s novou prezentací v PowerPointu.
 ```java
-// Třída okamžitých prezentací
+// Vytvoření instance třídy prezentací
 Presentation pres = new Presentation();
 ```
-## Krok 2: Otevřete snímek
-Načtěte první snímek z prezentace. Podle potřeby můžete manipulovat s různými snímky podle indexu.
+## Krok 2: Přístup ke snímku
+Načte první snímek z prezentace. S různými snímky můžete podle potřeby manipulovat pomocí indexu.
 ```java
 // Získejte první snímek
 ISlide slide = pres.getSlides().get_Item(0);
 ```
-## Krok 3: Přidejte tvar obdélníku
-Přidejte na snímek tvar obdélníku, který bude obsahovat text s odsazenými odstavci.
+## Krok 3: Přidání obdélníkového tvaru
+Přidejte na snímek obdélníkový tvar, který bude obsahovat text s odsazenými odstavci.
 ```java
-// Přidejte tvar obdélníku
+// Přidat obdélníkový tvar
 IAutoShape rect = slide.getShapes().addAutoShape(ShapeType.Rectangle, 100, 100, 500, 150);
 ```
-## Krok 4: Přidejte text do obdélníku
-Vytvořte textový rámeček v obdélníkovém tvaru a nastavte obsah textu.
+## Krok 4: Přidání textu do obdélníku
+Vytvořte textový rámeček uvnitř obdélníkového tvaru a nastavte textový obsah.
 ```java
-// Přidejte TextFrame do obdélníku
+// Přidat textový rámec do obdélníku
 ITextFrame textFrame = rect.addTextFrame("This is first line \rThis is second line \rThis is third line");
 ```
-## Krok 5: Nastavte automatické přizpůsobení textu
+## Krok 5: Nastavení automatického přizpůsobení textu
 Nastavte automatické přizpůsobení textu tak, aby se vešel do hranic tvaru.
 ```java
 // Nastavte text tak, aby odpovídal tvaru
 textFrame.getTextFrameFormat().setAutofitType(TextAutofitType.Shape);
 ```
-## Krok 6: Upravte odsazení odstavce
-Přístup ke každému odstavci v rámci textového rámečku a nastavení jejich odsazení.
+## Krok 6: Úprava odsazení odstavců
+Přístup ke každému odstavci v textovém rámečku a nastavení jeho odsazení.
 ```java
 // Získejte první odstavec v TextFrame a nastavte jeho odsazení
 IParagraph para1 = textFrame.getParagraphs().get_Item(0);
@@ -66,7 +68,7 @@ para1.getParagraphFormat().setIndent(30);
 // Získejte druhý odstavec v TextFrame a nastavte jeho odsazení
 IParagraph para2 = textFrame.getParagraphs().get_Item(1);
 para2.getParagraphFormat().setIndent(40);
-//Získejte třetí odstavec v TextFrame a nastavte jeho odsazení
+// Získejte třetí odstavec v TextFrame a nastavte jeho odsazení
 IParagraph para3 = textFrame.getParagraphs().get_Item(2);
 para3.getParagraphFormat().setIndent(50);
 ```
@@ -78,22 +80,24 @@ String dataDir = "Your_Document_Directory_Path/";
 pres.save(dataDir + "IndentedPresentation.pptx", SaveFormat.Pptx);
 ```
 ## Závěr
-Pomocí těchto kroků můžete snadno nastavit odsazení odstavců na snímku aplikace PowerPoint pomocí Aspose.Slides for Java. Tato funkce umožňuje programově přesnou kontrolu nad formátováním a prezentací textu ve snímcích.
+Pomocí těchto kroků můžete snadno nastavit odsazení odstavců na snímku aplikace PowerPoint pomocí nástroje Aspose.Slides pro Javu. Tato funkce umožňuje přesnou kontrolu nad formátováním a prezentací textu na snímcích programově.
 
-## FAQ
-### Co je Aspose.Slides for Java?
-Aspose.Slides for Java je výkonná knihovna pro programovou práci s prezentacemi PowerPoint.
+## Často kladené otázky
+### Co je Aspose.Slides pro Javu?
+Aspose.Slides pro Javu je výkonná knihovna pro programovou práci s prezentacemi v PowerPointu.
 ### Kde najdu dokumentaci k Aspose.Slides pro Javu?
- Dokumentaci najdete[tady](https://reference.aspose.com/slides/java/).
-### Jak si mohu stáhnout Aspose.Slides pro Java?
- Můžete si jej stáhnout z[tady](https://releases.aspose.com/slides/java/).
-### Je k dispozici bezplatná zkušební verze pro Aspose.Slides pro Java?
- Ano, můžete získat bezplatnou zkušební verzi od[tady](https://releases.aspose.com/).
-### Kde mohu získat podporu pro Aspose.Slides pro Java?
- Podporu můžete získat na komunitním fóru[tady](https://forum.aspose.com/c/slides/11).
+Dokumentaci najdete [zde](https://reference.aspose.com/slides/java/).
+### Jak si mohu stáhnout Aspose.Slides pro Javu?
+Můžete si ho stáhnout z [zde](https://releases.aspose.com/slides/java/).
+### Je k dispozici bezplatná zkušební verze Aspose.Slides pro Javu?
+Ano, můžete získat bezplatnou zkušební verzi od [zde](https://releases.aspose.com/).
+### Kde mohu získat podporu pro Aspose.Slides pro Javu?
+Podporu můžete získat na komunitním fóru [zde](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

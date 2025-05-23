@@ -1,28 +1,30 @@
 ---
-title: Usando opções de marcador de gráfico em pontos de dados em Aspose.Slides .NET
-linktitle: Opções de marcador de gráfico em ponto de dados
-second_title: API de processamento de PowerPoint Aspose.Slides .NET
-description: Aprenda como aprimorar seus gráficos do PowerPoint usando Aspose.Slides for .NET. Personalize marcadores de pontos de dados com imagens. Crie apresentações envolventes.
-weight: 11
-url: /pt/net/advanced-chart-customization/chart-marker-options-on-data-point/
+"description": "Aprenda a aprimorar seus gráficos do PowerPoint usando o Aspose.Slides para .NET. Personalize marcadores de pontos de dados com imagens. Crie apresentações envolventes."
+"linktitle": "Opções de marcadores de gráfico no ponto de dados"
+"second_title": "API de processamento de PowerPoint Aspose.Slides .NET"
+"title": "Usando opções de marcadores de gráfico em pontos de dados no Aspose.Slides .NET"
+"url": "/pt/net/advanced-chart-customization/chart-marker-options-on-data-point/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Usando opções de marcador de gráfico em pontos de dados em Aspose.Slides .NET
+# Usando opções de marcadores de gráfico em pontos de dados no Aspose.Slides .NET
 
 
-Ao trabalhar com apresentações e visualização de dados, Aspose.Slides for .NET oferece uma ampla gama de recursos poderosos para criar, personalizar e manipular gráficos. Neste tutorial, exploraremos como usar opções de marcadores de gráfico em pontos de dados para aprimorar suas apresentações de gráficos. Este guia passo a passo orientará você durante o processo, começando pelos pré-requisitos e importando namespaces, até dividir cada exemplo em várias etapas.
+Ao trabalhar com apresentações e visualização de dados, o Aspose.Slides para .NET oferece uma ampla gama de recursos poderosos para criar, personalizar e manipular gráficos. Neste tutorial, exploraremos como usar opções de marcadores de gráfico em pontos de dados para aprimorar suas apresentações de gráficos. Este guia passo a passo guiará você pelo processo, desde os pré-requisitos e a importação de namespaces até a divisão de cada exemplo em várias etapas.
 
 ## Pré-requisitos
 
-Antes de começarmos a usar opções de marcadores de gráfico em pontos de dados, certifique-se de ter os seguintes pré-requisitos em vigor:
+Antes de começarmos a usar as opções de marcadores de gráfico em pontos de dados, certifique-se de ter os seguintes pré-requisitos em vigor:
 
--  Aspose.Slides for .NET: Certifique-se de ter o Aspose.Slides for .NET instalado. Você pode baixá-lo no[local na rede Internet](https://releases.aspose.com/slides/net/).
+- Aspose.Slides para .NET: Certifique-se de ter o Aspose.Slides para .NET instalado. Você pode baixá-lo do site [site](https://releases.aspose.com/slides/net/).
 
-- Exemplo de apresentação: Para este tutorial, usaremos um exemplo de apresentação chamado "Test.pptx". Você deve ter esta apresentação em seu diretório de documentos.
+- Apresentação de exemplo: para este tutorial, usaremos uma apresentação de exemplo chamada "Test.pptx". Você deve ter essa apresentação no seu diretório de documentos.
 
 Agora, vamos começar importando os namespaces necessários.
 
@@ -34,7 +36,7 @@ using Aspose.Slides.Charts;
 using Aspose.Slides.Export;
 ```
 
-Importamos os namespaces necessários e inicializamos nossa apresentação. Agora, vamos usar as opções de marcador de gráfico em pontos de dados.
+Importamos os namespaces necessários e inicializamos nossa apresentação. Agora, vamos usar as opções de marcadores de gráfico em pontos de dados.
 
 ## Etapa 1: Criando o gráfico padrão
 
@@ -46,7 +48,7 @@ Presentation pres = new Presentation(dataDir + "Test.pptx");
 
 ISlide slide = pres.Slides[0];
 
-//Criando o gráfico padrão
+// Criando o gráfico padrão
 IChart chart = slide.Shapes.AddChart(ChartType.LineWithMarkers, 0, 0, 400, 400);
 ```
 
@@ -68,9 +70,9 @@ Aqui, obtemos o índice da planilha de dados do gráfico padrão.
 IChartDataWorkbook fact = chart.ChartData.ChartDataWorkbook;
 ```
 
-Buscamos a pasta de trabalho de dados do gráfico para trabalhar com os dados do gráfico.
+Buscamos a pasta de trabalho de dados do gráfico para trabalhar com dados do gráfico.
 
-## Etapa 4: modificando a série de gráficos
+## Etapa 4: Modificando a série de gráficos
 
 ```csharp
 // Excluir série de demonstração
@@ -80,9 +82,9 @@ chart.ChartData.Series.Clear();
 chart.ChartData.Series.Add(fact.GetCell(defaultWorksheetIndex, 1, 1, "Series 1"), chart.Type);
 ```
 
-Nesta etapa, removemos qualquer série de demonstração existente e adicionamos uma nova série chamada “Série 1” ao gráfico.
+Nesta etapa, removemos qualquer série de demonstração existente e adicionamos uma nova série chamada "Série 1" ao gráfico.
 
-## Etapa 5: configuração do preenchimento de imagem para pontos de dados
+## Etapa 5: Definindo o preenchimento da imagem para pontos de dados
 
 ```csharp
 // Defina a imagem para os marcadores
@@ -92,10 +94,10 @@ IPPImage imgx1 = pres.Images.AddImage(img1);
 System.Drawing.Image img2 = (System.Drawing.Image)new Bitmap(dataDir + "Tulips.jpg");
 IPPImage imgx2 = pres.Images.AddImage(img2);
 
-// Veja a primeira série de gráficos
+// Pegue a primeira série de gráficos
 IChartSeries series = chart.ChartData.Series[0];
 
-// Adicione novos pontos de dados com preenchimento de imagem
+// Adicionar novos pontos de dados com preenchimento de imagem
 IChartDataPoint point = series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 1, 1, (double)4.5));
 point.Marker.Format.Fill.FillType = FillType.Picture;
 point.Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx1;
@@ -113,9 +115,9 @@ point.Marker.Format.Fill.FillType = FillType.Picture;
 point.Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx2;
 ```
 
-Definimos marcadores de imagem para pontos de dados, permitindo personalizar como cada ponto de dados aparece no gráfico.
+Definimos marcadores de imagem para pontos de dados, permitindo que você personalize como cada ponto de dados aparece no gráfico.
 
-## Etapa 6: alterar o tamanho do marcador da série do gráfico
+## Etapa 6: Alterando o tamanho do marcador da série do gráfico
 
 ```csharp
 // Alterando o tamanho do marcador da série do gráfico
@@ -124,7 +126,7 @@ series.Marker.Size = 15;
 
 Aqui, ajustamos o tamanho do marcador da série do gráfico para torná-lo visualmente atraente.
 
-## Etapa 7: salvando a apresentação
+## Etapa 7: Salvando a apresentação
 
 ```csharp
 pres.Save(dataDir + "AsposeScatterChart.pptx", SaveFormat.Pptx);
@@ -134,29 +136,31 @@ Por fim, salvamos a apresentação com as novas configurações do gráfico.
 
 ## Conclusão
 
-Aspose.Slides for .NET permite que você crie apresentações de gráficos impressionantes com várias opções de personalização. Neste tutorial, nos concentramos no uso de opções de marcadores de gráfico em pontos de dados para aprimorar a representação visual de seus dados. Com Aspose.Slides for .NET, você pode levar suas apresentações para o próximo nível, tornando-as mais envolventes e informativas.
+O Aspose.Slides para .NET permite que você crie apresentações gráficas impressionantes com diversas opções de personalização. Neste tutorial, focamos no uso de opções de marcadores de gráfico em pontos de dados para aprimorar a representação visual dos seus dados. Com o Aspose.Slides para .NET, você pode levar suas apresentações a um novo patamar, tornando-as mais envolventes e informativas.
 
-Se você tiver alguma dúvida ou precisar de ajuda com Aspose.Slides for .NET, sinta-se à vontade para visitar o[Documentação do Aspose.Slides](https://reference.aspose.com/slides/net/) ou entre em contato com[Aspor comunidade](https://forum.aspose.com/) para suporte.
+Se você tiver alguma dúvida ou precisar de ajuda com o Aspose.Slides para .NET, sinta-se à vontade para visitar o [Documentação do Aspose.Slides](https://reference.aspose.com/slides/net/) ou entre em contato com o [Comunidade Aspose](https://forum.aspose.com/) para suporte.
 
-## Perguntas frequentes (FAQ)
+## Perguntas Frequentes (FAQs)
 
-### Posso usar imagens personalizadas como marcadores para pontos de dados no Aspose.Slides for .NET?
-Sim, você pode usar imagens personalizadas como marcadores para pontos de dados no Aspose.Slides for .NET, conforme demonstrado neste tutorial.
+### Posso usar imagens personalizadas como marcadores para pontos de dados no Aspose.Slides para .NET?
+Sim, você pode usar imagens personalizadas como marcadores para pontos de dados no Aspose.Slides para .NET, conforme demonstrado neste tutorial.
 
-### Como posso alterar o tipo de gráfico no Aspose.Slides for .NET?
- Você pode alterar o tipo de gráfico especificando um diferente`ChartType` ao criar o gráfico, como "Barra", "Pizza" ou "Área".
+### Como posso alterar o tipo de gráfico no Aspose.Slides para .NET?
+Você pode alterar o tipo de gráfico especificando um diferente `ChartType` ao criar o gráfico, como "Barra", "Pizza" ou "Área".
 
-### O Aspose.Slides for .NET é compatível com as versões mais recentes do PowerPoint?
-Aspose.Slides for .NET foi projetado para funcionar com vários formatos de PowerPoint e é atualizado regularmente para manter a compatibilidade com as versões mais recentes do PowerPoint.
+### O Aspose.Slides para .NET é compatível com as versões mais recentes do PowerPoint?
+O Aspose.Slides para .NET foi projetado para funcionar com vários formatos do PowerPoint e é atualizado regularmente para manter a compatibilidade com as versões mais recentes do PowerPoint.
 
-### Onde posso encontrar mais tutoriais e recursos para Aspose.Slides for .NET?
- Você pode explorar tutoriais e recursos adicionais no[Documentação do Aspose.Slides](https://reference.aspose.com/slides/net/).
+### Onde posso encontrar mais tutoriais e recursos para o Aspose.Slides para .NET?
+Você pode explorar tutoriais e recursos adicionais no [Documentação do Aspose.Slides](https://reference.aspose.com/slides/net/).
 
-### Existe uma versão de teste do Aspose.Slides for .NET disponível?
- Sim, você pode experimentar o Aspose.Slides for .NET baixando uma versão de teste gratuita em[aqui](https://releases.aspose.com/).
+### Existe uma versão de teste do Aspose.Slides para .NET disponível?
+Sim, você pode experimentar o Aspose.Slides para .NET baixando uma versão de teste gratuita em [aqui](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

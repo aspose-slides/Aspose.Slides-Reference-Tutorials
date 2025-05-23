@@ -1,14 +1,16 @@
 ---
-title: पावरपॉइंट में तीर के आकार की लाइन जोड़ें
-linktitle: पावरपॉइंट में तीर के आकार की लाइन जोड़ें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में तीर के आकार की रेखाएँ जोड़ना सीखें। दृश्य अपील को सहजता से बढ़ाएँ।
-weight: 10
-url: /hi/java/java-powerpoint-shape-media-insertion/add-arrow-shaped-line-powerpoint/
+"description": "Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में तीर के आकार की रेखाएँ जोड़ना सीखें। दृश्य अपील को सहजता से बढ़ाएँ।"
+"linktitle": "पावरपॉइंट में तीर के आकार की लाइन जोड़ें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "पावरपॉइंट में तीर के आकार की लाइन जोड़ें"
+"url": "/hi/java/java-powerpoint-shape-media-insertion/add-arrow-shaped-line-powerpoint/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पावरपॉइंट में तीर के आकार की लाइन जोड़ें
@@ -69,22 +71,24 @@ pres.save(dataDir + "LineShape2_out.pptx", SaveFormat.Pptx);
 ## निष्कर्ष
 बधाई हो! आपने Aspose.Slides for Java का उपयोग करके अपने PowerPoint प्रेजेंटेशन में सफलतापूर्वक एक तीर के आकार की रेखा जोड़ दी है। अपनी रेखाओं के स्वरूप को अनुकूलित करने और आकर्षक स्लाइड बनाने के लिए विभिन्न फ़ॉर्मेटिंग विकल्पों के साथ प्रयोग करें।
 ## अक्सर पूछे जाने वाले प्रश्न
-### क्या मैं एक ही स्लाइड में अनेक तीर आकार की रेखाएं जोड़ सकता हूं?
+### क्या मैं एक ही स्लाइड में अनेक तीर आकार की लाइनें जोड़ सकता हूँ?
 हां, आप प्रत्येक पंक्ति के लिए इस ट्यूटोरियल में बताई गई प्रक्रिया को दोहराकर एक स्लाइड में कई तीर के आकार की लाइनें जोड़ सकते हैं।
 ### क्या Aspose.Slides for Java PowerPoint के नवीनतम संस्करणों के साथ संगत है?
-Aspose.Slides for Java, PowerPoint के विभिन्न संस्करणों के साथ संगतता का समर्थन करता है, जो आपकी प्रस्तुतियों के साथ सहज एकीकरण सुनिश्चित करता है।
+Aspose.Slides for Java, PowerPoint के विभिन्न संस्करणों के साथ संगतता का समर्थन करता है, जिससे आपकी प्रस्तुतियों के साथ सहज एकीकरण सुनिश्चित होता है।
 ### क्या मैं तीर के आकार की रेखा का रंग अनुकूलित कर सकता हूँ?
-हां, आप तीर के आकार की रेखा के रंग को समायोजित करके अनुकूलित कर सकते हैं`SolidFillColor` कोड में संपत्ति.
+हां, आप तीर के आकार की रेखा के रंग को समायोजित करके अनुकूलित कर सकते हैं `SolidFillColor` कोड में संपत्ति.
 ### क्या Aspose.Slides for Java लाइनों के अलावा अन्य आकृतियों का समर्थन करता है?
 हां, Java के लिए Aspose.Slides PowerPoint स्लाइडों में आयतों, वृत्तों और बहुभुजों सहित विभिन्न आकृतियों को जोड़ने के लिए व्यापक समर्थन प्रदान करता है।
 ### मैं Aspose.Slides for Java के लिए और अधिक संसाधन और समर्थन कहां पा सकता हूं?
 आप निम्नलिखित लिंक के माध्यम से दस्तावेज़ देख सकते हैं, लाइब्रेरी डाउनलोड कर सकते हैं, और सहायता फ़ोरम तक पहुँच सकते हैं:
- दस्तावेज़ीकरण:[Aspose.Slides for Java दस्तावेज़ीकरण](https://reference.aspose.com/slides/java/)
- डाउनलोड करना:[Aspose.Slides for Java डाउनलोड](https://releases.aspose.com/slides/java/)
- सहायता:[Aspose.Slides for Java समर्थन फ़ोरम](https://forum.aspose.com/c/slides/11)
+दस्तावेज़ीकरण: [Aspose.Slides for Java दस्तावेज़ीकरण](https://reference.aspose.com/slides/java/)
+डाउनलोड करना: [Aspose.Slides for Java डाउनलोड](https://releases.aspose.com/slides/java/)
+सहायता: [Aspose.Slides for Java समर्थन फ़ोरम](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

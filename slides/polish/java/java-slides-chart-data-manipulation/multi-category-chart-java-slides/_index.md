@@ -1,28 +1,30 @@
 ---
-title: Wykres wielu kategorii w slajdach Java
-linktitle: Wykres wielu kategorii w slajdach Java
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Twórz wykresy z wieloma kategoriami w slajdach Java za pomocą Aspose.Slides dla Java. Przewodnik krok po kroku z kodem źródłowym umożliwiający imponującą wizualizację danych w prezentacjach.
-weight: 20
-url: /pl/java/chart-data-manipulation/multi-category-chart-java-slides/
+"description": "Twórz wykresy wielokategoriowe w slajdach Java przy użyciu Aspose.Slides dla Java. Przewodnik krok po kroku z kodem źródłowym do imponującej wizualizacji danych w prezentacjach."
+"linktitle": "Wykres wielokategoriowy w slajdach Java"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Wykres wielokategoriowy w slajdach Java"
+"url": "/pl/java/chart-data-manipulation/multi-category-chart-java-slides/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wykres wielu kategorii w slajdach Java
+# Wykres wielokategoriowy w slajdach Java
 
 
-## Wprowadzenie do wykresu wielu kategorii w slajdach Java z Aspose.Slides
+## Wprowadzenie do wykresu wielokategoriowego w Java Slides z Aspose.Slides
 
-W tym samouczku dowiemy się, jak utworzyć wykres z wieloma kategoriami na slajdach Java za pomocą interfejsu API Aspose.Slides for Java. Ten przewodnik zawiera instrukcje krok po kroku wraz z kodem źródłowym, które pomogą Ci utworzyć grupowany wykres kolumnowy z wieloma kategoriami i seriami.
+W tym samouczku nauczymy się, jak utworzyć wykres wielokategorialny w slajdach Java przy użyciu Aspose.Slides for Java API. Ten przewodnik zawiera instrukcje krok po kroku wraz z kodem źródłowym, które pomogą Ci utworzyć wykres kolumnowy klastrowany z wieloma kategoriami i seriami.
 
-## Warunki wstępne
-Zanim zaczniemy, upewnij się, że masz zainstalowaną i skonfigurowaną bibliotekę Aspose.Slides for Java w swoim środowisku programistycznym Java.
+## Wymagania wstępne
+Zanim zaczniemy, upewnij się, że biblioteka Aspose.Slides for Java jest zainstalowana i skonfigurowana w środowisku programistycznym Java.
 
 ## Krok 1: Konfigurowanie środowiska
-Najpierw zaimportuj niezbędne klasy i utwórz nowy obiekt Prezentacja do pracy ze slajdami.
+Najpierw zaimportuj niezbędne klasy i utwórz nowy obiekt Presentation, aby pracować ze slajdami.
 
 ```java
 // Ścieżka do katalogu dokumentów.
@@ -31,15 +33,15 @@ Presentation pres = new Presentation();
 ```
 
 ## Krok 2: Dodawanie slajdu i wykresu
-Następnie utwórz slajd i dodaj do niego grupowany wykres kolumnowy.
+Następnie utwórz slajd i dodaj do niego wykres kolumnowy.
 
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
 IChart ch = slide.getShapes().addChart(ChartType.ClusteredColumn, 100, 100, 600, 450);
 ```
 
-## Krok 3: Usuwanie istniejących danych
-Usuń wszelkie istniejące dane z wykresu.
+## Krok 3: Czyszczenie istniejących danych
+Wyczyść wszystkie istniejące dane na wykresie.
 
 ```java
 ch.getChartData().getSeries().clear();
@@ -47,7 +49,7 @@ ch.getChartData().getCategories().clear();
 ```
 
 ## Krok 4: Konfigurowanie kategorii danych
-Teraz skonfigurujmy kategorie danych dla wykresu. Stworzymy wiele kategorii i pogrupujemy je.
+Teraz skonfigurujmy kategorie danych dla wykresu. Utworzymy wiele kategorii i je pogrupujemy.
 
 ```java
 IChartDataWorkbook fact = ch.getChartData().getChartDataWorkbook();
@@ -55,7 +57,7 @@ fact.clear(0);
 
 int defaultWorksheetIndex = 0;
 
-// Dodaj kategorie i pogrupuj je
+// Dodaj kategorie i je grupuj
 IChartCategory category = ch.getChartData().getCategories().add(fact.getCell(0, "c2", "A"));
 category.getGroupingLevels().setGroupingItem(1, "Group1");
 
@@ -78,7 +80,7 @@ category = ch.getChartData().getCategories().add(fact.getCell(0, "c9", "H"));
 ```
 
 ## Krok 5: Dodawanie serii
-Dodajmy teraz do wykresu serię wraz z punktami danych.
+Teraz dodajmy serię do wykresu i punkty danych.
 
 ```java
 IChartSeries series = ch.getChartData().getSeries().add(fact.getCell(0, "D1", "Series 1"), ChartType.ClusteredColumn);
@@ -100,9 +102,9 @@ Na koniec zapisz prezentację z wykresem.
 pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
 
-Otóż to! Pomyślnie utworzyłeś wykres z wieloma kategoriami na slajdzie Java za pomocą Aspose.Slides. Możesz dodatkowo dostosować ten wykres, aby odpowiadał Twoim konkretnym wymaganiom.
+To wszystko! Udało Ci się utworzyć wykres wielokategoriowy w slajdzie Java przy użyciu Aspose.Slides. Możesz dostosować ten wykres dalej, aby odpowiadał Twoim konkretnym wymaganiom.
 
-## Kompletny kod źródłowy wykresu z wieloma kategoriami w slajdach Java
+## Kompletny kod źródłowy dla wykresu wielokategorialnego w slajdach Java
 
 ```java
 // Ścieżka do katalogu dokumentów.
@@ -127,7 +129,7 @@ category = ch.getChartData().getCategories().add(fact.getCell(0, "c7", "F"));
 category = ch.getChartData().getCategories().add(fact.getCell(0, "c8", "G"));
 category.getGroupingLevels().setGroupingItem(1, "Group4");
 category = ch.getChartData().getCategories().add(fact.getCell(0, "c9", "H"));
-// Dodawanie serii
+//            Dodawanie serii
 IChartSeries series = ch.getChartData().getSeries().add(fact.getCell(0, "D1", "Series 1"),
 		ChartType.ClusteredColumn);
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, "D2", 10));
@@ -144,28 +146,30 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ## Wniosek
 
-W tym samouczku nauczyliśmy się tworzyć wykresy z wieloma kategoriami na slajdach Java przy użyciu interfejsu API Aspose.Slides for Java. Przeszliśmy przez przewodnik krok po kroku z kodem źródłowym, aby utworzyć grupowany wykres kolumnowy z wieloma kategoriami i seriami.
+tym samouczku nauczyliśmy się, jak utworzyć wykres wielokategorialny w slajdach Java przy użyciu Aspose.Slides for Java API. Przeszliśmy przez przewodnik krok po kroku z kodem źródłowym, aby utworzyć wykres kolumnowy klastrowany z wieloma kategoriami i seriami.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
 ### Jak mogę dostosować wygląd wykresu?
 
-Można dostosować wygląd wykresu, modyfikując właściwości, takie jak kolory, czcionki i style. Szczegółowe opcje dostosowywania można znaleźć w dokumentacji Aspose.Slides.
+Możesz dostosować wygląd wykresu, modyfikując właściwości, takie jak kolory, czcionki i style. Zapoznaj się z dokumentacją Aspose.Slides, aby uzyskać szczegółowe informacje o opcjach dostosowywania.
 
 ### Czy mogę dodać więcej serii do wykresu?
 
-Tak, możesz dodać dodatkowe serie do wykresu, wykonując podobny proces, jak pokazano w kroku 5.
+Tak, możesz dodać dodatkowe serie do wykresu, wykonując podobną procedurę, jak pokazano w kroku 5.
 
 ### Jak zmienić typ wykresu?
 
- Aby zmienić typ wykresu, zamień`ChartType.ClusteredColumn` z żądanym typem wykresu podczas dodawania wykresu w kroku 2.
+Aby zmienić typ wykresu, zamień `ChartType.ClusteredColumn` z żądanym typem wykresu podczas dodawania wykresu w kroku 2.
 
-### Jak dodać tytuł do wykresu?
+### Jak mogę dodać tytuł do wykresu?
 
- Możesz dodać tytuł do wykresu, używając opcji`ch.getChartTitle().getTextFrame().setText("Chart Title");` metoda.
+Możesz dodać tytuł do wykresu, używając `ch.getChartTitle().getTextFrame().setText("Chart Title");` metoda.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

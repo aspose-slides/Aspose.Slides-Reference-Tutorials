@@ -1,31 +1,33 @@
 ---
-title: Nastavení popisku pro štítek dat v Java Slides
-linktitle: Nastavení popisku pro štítek dat v Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Přečtěte si, jak nastavit popisky pro datové štítky v Aspose.Slides pro Java. Průvodce krok za krokem se zdrojovým kódem.
-weight: 25
-url: /cs/java/data-manipulation/setting-callout-data-label-java-slides/
+"description": "Naučte se, jak nastavit popisky dat v Aspose.Slides pro Javu. Podrobný návod se zdrojovým kódem."
+"linktitle": "Nastavení popisku pro datový štítek v Java Slides"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Nastavení popisku pro datový štítek v Java Slides"
+"url": "/cs/java/data-manipulation/setting-callout-data-label-java-slides/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nastavení popisku pro štítek dat v Java Slides
+# Nastavení popisku pro datový štítek v Java Slides
 
 
-## Úvod do nastavení popisku pro štítek dat v Aspose.Slides pro Javu
+## Úvod do nastavení popisku pro datový štítek v Aspose.Slides pro Javu
 
-tomto tutoriálu si ukážeme, jak nastavit popisky pro popisky dat v grafu pomocí Aspose.Slides for Java. Popisky mohou být užitečné ke zvýraznění konkrétních datových bodů v grafu. Projdeme si kód krok za krokem a poskytneme potřebný zdrojový kód.
+V tomto tutoriálu si ukážeme, jak nastavit popisky dat v grafu pomocí Aspose.Slides pro Javu. Popisky mohou být užitečné pro zvýraznění konkrétních datových bodů v grafu. Projdeme si kód krok za krokem a poskytneme potřebný zdrojový kód.
 
 ## Předpoklady
 
-- Měli byste mít nainstalovaný Aspose.Slides for Java.
-- Vytvořte projekt Java a přidejte do svého projektu knihovnu Aspose.Slides.
+- Měli byste mít nainstalovaný Aspose.Slides pro Javu.
+- Vytvořte projekt v Javě a přidejte do něj knihovnu Aspose.Slides.
 
 ## Krok 1: Vytvořte prezentaci a přidejte graf
 
- Nejprve musíme vytvořit prezentaci a přidat graf na snímek. Nezapomeňte vyměnit`"Your Document Directory"` se skutečnou cestou k vašemu adresáři dokumentů.
+Nejprve musíme vytvořit prezentaci a přidat graf na snímek. Nezapomeňte nahradit `"Your Document Directory"` se skutečnou cestou k adresáři dokumentů.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -34,7 +36,7 @@ ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, false);
 ```
 
-## Krok 2: Nakonfigurujte graf
+## Krok 2: Konfigurace grafu
 
 Dále nakonfigurujeme graf nastavením vlastností, jako je legenda, série a kategorie.
 
@@ -59,7 +61,7 @@ while (categoryIndex < 15) {
     chart.getChartData().getCategories().add(workBook.getCell(0, categoryIndex + 1, 0, "CATEGORY " + categoryIndex));
     int i = 0;
     while (i < chart.getChartData().getSeries().size()) {
-        // Zde přidejte datové body
+        // Přidejte sem datové body
         // ...
         i++;
     }
@@ -67,9 +69,9 @@ while (categoryIndex < 15) {
 }
 ```
 
-## Krok 3: Přizpůsobte štítky dat
+## Krok 3: Úprava popisků dat
 
-Nyní přizpůsobíme štítky dat, včetně nastavení popisků pro poslední sérii.
+Nyní si upravíme popisky dat, včetně nastavení popisků pro poslední sérii.
 
 ```java
 int i = 0;
@@ -77,16 +79,16 @@ while (i < chart.getChartData().getSeries().size()) {
     IChartSeries iCS = chart.getChartData().getSeries().get_Item(i);
     IChartDataPoint dataPoint = iCS.getDataPoints().addDataPointForDoughnutSeries(workBook.getCell(0, categoryIndex + 1, i + 1, 1));
     dataPoint.getFormat().getFill().setFillType(FillType.Solid);
-    // Přizpůsobte formátování datových bodů (výplň, čára atd.)
+    // Přizpůsobení formátování datových bodů (Výplň, Čára atd.)
 
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
-        //Přizpůsobte formátování štítků (Písmo, Výplň atd.)
+        // Přizpůsobení formátování štítků (písmo, výplň atd.)
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
-        // Povolit popisky
+        // Povolit volání
         lbl.getDataLabelFormat().setShowLabelAsDataCallout(true);
         lbl.getDataLabelFormat().setShowLeaderLines(true);
     }
@@ -102,9 +104,9 @@ Nakonec uložte prezentaci s nakonfigurovaným grafem.
 pres.save("chart.pptx", SaveFormat.Pptx);
 ```
 
-Nyní jste úspěšně nastavili popisky pro popisky dat v grafu pomocí Aspose.Slides for Java. Přizpůsobte kód podle vašich specifických požadavků na graf a data.
+Nyní jste úspěšně nastavili popisky dat v grafu pomocí Aspose.Slides pro Javu. Upravte kód podle vašich specifických požadavků na graf a data.
 
-## Kompletní zdrojový kód pro nastavení popisku pro datový štítek v Java Slides
+## Kompletní zdrojový kód pro nastavení popisku dat v Java Slides
 
 ```java
 String dataDir = "Your Document Directory";
@@ -168,13 +170,13 @@ pres.save("chart.pptx", SaveFormat.Pptx);
 
 ## Závěr
 
-V tomto tutoriálu jsme prozkoumali, jak nastavit popisky pro štítky dat v grafu pomocí Aspose.Slides pro Java. Popisky jsou cennými nástroji pro zdůraznění konkrétních datových bodů ve vašich grafech a prezentacích. Poskytli jsme podrobného průvodce spolu se zdrojovým kódem, který vám pomůže dosáhnout tohoto přizpůsobení.
+V tomto tutoriálu jsme se podívali na to, jak nastavit popisky dat v grafu pomocí Aspose.Slides pro Javu. Popisky jsou cenné nástroje pro zdůraznění konkrétních datových bodů v grafech a prezentacích. Poskytli jsme podrobný návod spolu se zdrojovým kódem, který vám s tímto přizpůsobením pomůže.
 
-## FAQ
+## Často kladené otázky
 
-### Jak přizpůsobím vzhled datových štítků?
+### Jak si mohu přizpůsobit vzhled popisků dat?
 
-Chcete-li upravit vzhled štítků dat, můžete upravit vlastnosti, jako je písmo, výplň a styly čar. Například:
+Chcete-li přizpůsobit vzhled popisků dat, můžete upravit vlastnosti, jako je písmo, výplň a styly čar. Například:
 
 ```java
 IDataLabel lbl = dataPoint.getLabel();
@@ -187,31 +189,33 @@ lbl.getDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat().getS
 lbl.getDataLabelFormat().getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
 ```
 
-### Jak mohu povolit nebo zakázat popisky pro datové štítky?
+### Jak mohu povolit nebo zakázat popisky dat?
 
- Chcete-li povolit nebo zakázat popisky pro datové štítky, použijte`setShowLabelAsDataCallout` metoda. Nastavte na`true` pro povolení popisků a`false`zakázat je.
+Chcete-li povolit nebo zakázat popisky dat, použijte `setShowLabelAsDataCallout` metoda. Nastavte ji na `true` povolit volání a `false` aby je deaktivovali.
 
 ```java
-lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // Povolit popisky
-lbl.getDataLabelFormat().setShowLabelAsDataCallout(false); // Zakázat popisky
+lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // Povolit volání
+lbl.getDataLabelFormat().setShowLabelAsDataCallout(false); // Zakázat výzvy
 ```
 
-### Mohu přizpůsobit vodicí čáry pro datové štítky?
+### Mohu si přizpůsobit vodicí čáry pro popisky dat?
 
-Ano, vodicí čáry pro popisky dat můžete přizpůsobit pomocí vlastností, jako je styl čáry, barva a šířka. Například:
+Ano, odkazové čáry pro popisky dat můžete přizpůsobit pomocí vlastností, jako je styl čáry, barva a šířka. Například:
 
 ```java
-lbl.getDataLabelFormat().setShowLeaderLines(true); // Povolit odkazové čáry
+lbl.getDataLabelFormat().setShowLeaderLines(true); // Povolit vodicí čáry
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().setStyle(LineStyle.Single);
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().setWidth(1);
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.BLACK);
 ```
 
-Toto jsou některé běžné možnosti přizpůsobení štítků dat a popisků v Aspose.Slides pro Java. Vzhled můžete dále přizpůsobit svým konkrétním potřebám.
+Zde jsou některé běžné možnosti přizpůsobení pro popisky dat a popisky v Aspose.Slides pro Javu. Vzhled si můžete dále přizpůsobit svým specifickým potřebám.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

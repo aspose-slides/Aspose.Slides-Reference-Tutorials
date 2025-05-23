@@ -1,54 +1,56 @@
 ---
-title: Bemutató diavetítés beállítása Java Slides-ben
-linktitle: Bemutató diavetítés beállítása Java Slides-ben
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Optimalizálja Java diavetítését az Aspose.Slides segítségével. Hozzon létre lenyűgöző prezentációkat testreszabott beállításokkal. Fedezze fel a lépésenkénti útmutatókat és a GYIK-et.
-weight: 16
-url: /hu/java/presentation-properties/presentation-slide-show-setup-in-java-slides/
+"description": "Optimalizáld Java diavetítéseidet az Aspose.Slides segítségével. Készíts lebilincselő prezentációkat testreszabott beállításokkal. Böngéssz a lépésenkénti útmutatók és a GYIK között."
+"linktitle": "Prezentáció diavetítés beállítása Java Slides-ben"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Prezentáció diavetítés beállítása Java Slides-ben"
+"url": "/hu/java/presentation-properties/presentation-slide-show-setup-in-java-slides/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Bemutató diavetítés beállítása Java Slides-ben
+# Prezentáció diavetítés beállítása Java Slides-ben
 
 
-## Bevezetés a Java Slides bemutató diavetítés beállításába
+## Bevezetés a Java Slides prezentációs diavetítés beállításába
 
-Ebben az oktatóanyagban megvizsgáljuk, hogyan állíthat be bemutató diavetítést az Aspose.Slides for Java használatával. Lépésről lépésre végigjárjuk a PowerPoint prezentáció létrehozásának és a különböző diavetítés-beállítások konfigurálásának folyamatát.
+Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan állíthatunk be egy prezentációhoz tartozó diavetítést az Aspose.Slides for Java használatával. Lépésről lépésre végigvezetjük a PowerPoint-prezentáció létrehozásának folyamatán és a diavetítés különböző beállításainak konfigurálásán.
 
 ## Előfeltételek
 
- Mielőtt elkezdené, győződjön meg arról, hogy az Aspose.Slides for Java könyvtár hozzáadva van a projekthez. Letöltheti a[Aspose honlapja](https://releases.aspose.com/slides/java/).
+Mielőtt elkezdenéd, győződj meg róla, hogy az Aspose.Slides for Java könyvtár hozzá van adva a projektedhez. Letöltheted innen: [Aspose weboldal](https://releases.aspose.com/slides/java/).
 
-## 1. lépés: Hozzon létre egy PowerPoint-bemutatót
+## 1. lépés: PowerPoint-bemutató létrehozása
 
-Először is létre kell hoznunk egy új PowerPoint bemutatót. Java-ban a következőképpen teheti meg:
+Először is létre kell hoznunk egy új PowerPoint prezentációt. Így teheted meg Java-ban:
 
 ```java
 String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 ```
 
- A fenti kódban megadjuk prezentációnk kimeneti fájljának elérési útját, és létrehozunk egy újat`Presentation` tárgy.
+A fenti kódban megadjuk a prezentációnk kimeneti fájljának elérési útját, és létrehozunk egy újat `Presentation` objektum.
 
-## 2. lépés: Konfigurálja a diavetítés beállításait
+## 2. lépés: Diavetítés beállításainak konfigurálása
 
-Ezután különféle diavetítés-beállításokat konfigurálunk a bemutatónkhoz. 
+Ezután a prezentációnkhoz tartozó diavetítési beállításokat fogjuk konfigurálni. 
 
 ### Időzítési paraméter használata
 
-Az "Időzítés használata" paraméterrel szabályozhatjuk, hogy a diavetítés során automatikusan vagy manuálisan haladjanak-e a diak.
+Az „Időzítés használata” paraméterrel szabályozhatjuk, hogy a diák automatikusan vagy manuálisan váltsanak-e a diavetítés során.
 
 ```java
 SlideShowSettings slideShow = pres.getSlideShowSettings();
-slideShow.setUseTimings(false); // Állítsa be hamisra a kézi előrelépéshez
+slideShow.setUseTimings(false); // Manuális léptetéshez állítsa hamisra
 ```
 
- Ebben a példában azt állítottuk be`false` hogy lehetővé tegye a diák kézi mozgatását.
+Ebben a példában ezt állítottuk be: `false` a diák manuális lapozgatásának lehetővé tételéhez.
 
-### Állítsa be a toll színét
+### Toll színének beállítása
 
 A diavetítés során használt tollszínt is testreszabhatja. Ebben a példában a toll színét zöldre állítjuk.
 
@@ -59,7 +61,7 @@ penColor.setColor(Color.GREEN);
 
 ### Diák hozzáadása
 
-Adjunk hozzá néhány diát bemutatónkhoz. A dolgok egyszerűsége érdekében klónozunk egy meglévő diát.
+Adjunk hozzá néhány diát a prezentációnkhoz. Klónozunk egy meglévő diát az egyszerűség kedvéért.
 
 ```java
 pres.getSlides().addClone(pres.getSlides().get_Item(0));
@@ -68,11 +70,11 @@ pres.getSlides().addClone(pres.getSlides().get_Item(0));
 pres.getSlides().addClone(pres.getSlides().get_Item(0));
 ```
 
-Ebben a kódban négyszer klónozzuk az első diát. Ezt a részt módosíthatja saját tartalom hozzáadásához.
+Ebben a kódban négyszer klónozzuk az első diát. Módosíthatod ezt a részt, hogy saját tartalmat adj hozzá.
 
-## 3. lépés: Adja meg a diatartományt a diavetítéshez
+## 3. lépés: Diavetítés diatartományának meghatározása
 
-Megadhatja, hogy mely diák szerepeljenek a diavetítésben. Ebben a példában egy diatartományt állítunk be a második diától az ötödik diáig.
+Megadhatja, hogy mely diák szerepeljenek a diavetítésben. Ebben a példában a második diától az ötödik diáig fogunk diák tartományát beállítani.
 
 ```java
 SlidesRange slidesRange = new SlidesRange();
@@ -81,32 +83,32 @@ slidesRange.setEnd(5);
 slideShow.setSlides(slidesRange);
 ```
 
-kezdő és záró diaszámok beállításával szabályozhatja, hogy mely diák legyenek a diavetítés részei.
+A kezdő és záró diaszámok beállításával szabályozhatja, hogy mely diák legyenek a diavetítés részei.
 
-## 4. lépés: Mentse el a bemutatót
+## 4. lépés: Mentse el a prezentációt
 
-Végül a beállított prezentációt elmentjük egy fájlba.
+Végül a beállított prezentációt egy fájlba mentjük.
 
 ```java
 pres.save(outPptxPath, SaveFormat.Pptx);
 ```
 
-Ügyeljen arra, hogy megadja a kívánt kimeneti fájl elérési utat.
+Győződjön meg róla, hogy megadta a kívánt kimeneti fájl elérési útját.
 
-## Teljes forráskód a bemutató diavetítés beállításához a Java Slides-ben
+## Teljes forráskód a Java Slides prezentációs diavetítés beállításához
 
 ```java
 String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 try {
-	// Lekéri a diavetítés beállításait
+	// Diavetítés-beállítások lekérése
 	SlideShowSettings slideShow = pres.getSlideShowSettings();
 	// Beállítja az „Időzítés használata” paramétert
 	slideShow.setUseTimings(false);
-	// Beállítja a toll színét
+	// Toll színének beállítása
 	IColorFormat penColor = (ColorFormat)slideShow.getPenColor();
 	penColor.setColor(Color.GREEN);
-	// Diák hozzáadása ehhez
+	// Diákat ad hozzá ehhez:
 	pres.getSlides().addClone(pres.getSlides().get_Item(0));
 	pres.getSlides().addClone(pres.getSlides().get_Item(0));
 	pres.getSlides().addClone(pres.getSlides().get_Item(0));
@@ -125,36 +127,38 @@ try {
 
 ## Következtetés
 
-Ebben az oktatóanyagban megtanultuk, hogyan állíthat be bemutató diavetítést Java nyelven az Aspose.Slides for Java használatával. A különböző diavetítés-beállításokat testreszabhatja, beleértve az időzítést, a toll színét és a diatartományt, hogy interaktív és lebilincselő prezentációkat készítsen.
+Ebben az oktatóanyagban megtanultuk, hogyan állíthatunk be egy prezentációs diavetítést Java nyelven az Aspose.Slides for Java segítségével. Testreszabhatja a diavetítés különböző beállításait, beleértve az időzítést, a toll színét és a diatartományt, hogy interaktív és lebilincselő prezentációkat készítsen.
 
 ## GYIK
 
 ### Hogyan módosíthatom a diaátmenetek időzítését?
 
- A diaátmenetek időzítésének módosításához módosíthatja az „Időzítés használata” paramétert a diavetítés beállításainál. Állítsa be`true` automatikus előrelépéshez előre meghatározott időzítésekkel ill`false`kézi előrelépéshez diavetítés közben.
+A diaátmenetek időzítésének módosításához módosíthatja az „Időzítés használata” paramétert a diavetítés beállításaiban. Állítsa be a következőre: `true` automatikus előrehaladáshoz előre meghatározott időzítésekkel, vagy `false` a diavetítés közbeni manuális előretekeréshez.
 
-### Hogyan szabhatom testre a diavetítés során használt toll színét?
+### Hogyan tudom testreszabni a diavetítés során használt toll színét?
 
- Testreszabhatja a toll színét a diavetítés beállításaiban található tollszínbeállítások elérésével. Használja a`setColor` módszerrel állíthatja be a kívánt színt. Például a toll színének zöldre állításához használja a`penColor.setColor(Color.GREEN)`.
+A toll színét a diavetítés beállításaiban található tollszín-beállítások között szabhatja testre. Használja a `setColor` metódust a kívánt szín beállításához. Például a toll színének zöldre állításához használja a `penColor.setColor(Color.GREEN)`.
 
 ### Hogyan adhatok hozzá adott diákat a diavetítéshez?
 
- Ha konkrét diákat szeretne bevonni a diavetítésbe, hozzon létre a`SlidesRange` objektumot, és állítsa be a dia kezdő és záró számát a segítségével`setStart` és`setEnd` mód. Ezután rendelje hozzá ezt a tartományt a diavetítés beállításaihoz a segítségével`slideShow.setSlides(slidesRange)`.
+Ha meghatározott diákat szeretne a diavetítésbe foglalni, hozzon létre egy `SlidesRange` objektumot, és állítsa be a kezdő és a záró diaszámokat a `setStart` és `setEnd` metódusok. Ezután rendelje hozzá ezt a tartományt a diavetítés beállításaihoz a következővel: `slideShow.setSlides(slidesRange)`.
 
-### Hozzáadhatok több diát a prezentációhoz?
+### Hozzáadhatok több diákat a prezentációhoz?
 
- Igen, további diákat is hozzáadhat a prezentációhoz. Használja a`pres.getSlides().addClone()` módszer a meglévő diák klónozására vagy szükség szerint új diák létrehozására. Ügyeljen arra, hogy igényei szerint szabja testre ezeknek a diáknak a tartalmát.
+Igen, további diákat adhatsz hozzá a prezentációdhoz. Használd a `pres.getSlides().addClone()` módszer meglévő diák klónozására vagy új diák létrehozására szükség szerint. Ügyeljen arra, hogy a diák tartalmát az igényeinek megfelelően testreszabja.
 
-### Hogyan menthetem el a beállított prezentációt fájlba?
+### Hogyan menthetem el a beállított prezentációt egy fájlba?
 
- A konfigurált bemutató fájlba mentéséhez használja a`pres.save()`módszert, és adja meg a kimeneti fájl elérési útját, valamint a kívánt formátumot. Például elmentheti PPTX formátumban a használatával`pres.save(outPptxPath, SaveFormat.Pptx)`.
+A beállított prezentáció fájlba mentéséhez használja a `pres.save()` metódust, és adja meg a kimeneti fájl elérési útját, valamint a kívánt formátumot. Például PPTX formátumban mentheti el a következővel: `pres.save(outPptxPath, SaveFormat.Pptx)`.
 
-### Hogyan szabhatom tovább a diavetítés beállításait?
+### Hogyan tudom testreszabni a diavetítés beállításait?
 
- Fedezze fel az Aspose.Slides for Java által biztosított további diavetítés-beállításokat, hogy a diavetítés élményét az Ön igényeihez igazítsa. Tekintse meg a dokumentációt a címen[itt](https://reference.aspose.com/slides/java/) az elérhető opciókkal és konfigurációkkal kapcsolatos részletes információkért.
+Az Aspose.Slides for Java által biztosított további diavetítési beállításokat is felfedezheti, hogy a diavetítés élményét az igényeihez igazítsa. További információ a dokumentációban található: [itt](https://reference.aspose.com/slides/java/) a rendelkezésre álló opciókkal és konfigurációkkal kapcsolatos részletes információkért.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

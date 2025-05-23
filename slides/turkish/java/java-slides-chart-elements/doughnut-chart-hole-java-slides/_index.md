@@ -1,28 +1,30 @@
 ---
-title: Java Slaytlarında Halka Grafik Deliği
-linktitle: Java Slaytlarında Halka Grafik Deliği
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides for Java'yı kullanarak Java Slaytlarında Özel Delik Boyutlarına sahip Halka Grafikleri oluşturun. Grafik özelleştirmesi için kaynak kodlu adım adım kılavuz.
-weight: 11
-url: /tr/java/chart-elements/doughnut-chart-hole-java-slides/
+"description": "Java Slaytlarında Aspose.Slides for Java kullanarak Özel Delik Boyutlarına Sahip Halka Grafikleri Oluşturun. Grafik özelleştirmesi için kaynak kodlu adım adım kılavuz."
+"linktitle": "Java Slaytlarında Çörek Grafiği Deliği"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java Slaytlarında Çörek Grafiği Deliği"
+"url": "/tr/java/chart-elements/doughnut-chart-hole-java-slides/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java Slaytlarında Halka Grafik Deliği
+# Java Slaytlarında Çörek Grafiği Deliği
 
 
 ## Java Slaytlarında Delikli Halka Grafiğine Giriş
 
-Bu eğitimde Aspose.Slides for Java'yı kullanarak delikli bir halka grafiği oluşturma konusunda size rehberlik edeceğiz. Bu adım adım kılavuz, kaynak kodu örnekleriyle süreç boyunca size yol gösterecektir.
+Bu eğitimde, Aspose.Slides for Java kullanarak delikli bir halka grafiği oluşturmanıza rehberlik edeceğiz. Bu adım adım kılavuz, kaynak kod örnekleriyle sizi süreçte yönlendirecektir.
 
-## Önkoşullar
+## Ön koşullar
 
- Başlamadan önce Java projenizde Aspose.Slides for Java kitaplığının kurulu olduğundan ve kurulduğundan emin olun. adresinden indirebilirsiniz.[Aspose.Slides for Java belgeleri](https://reference.aspose.com/slides/java/).
+Başlamadan önce, Java projenizde Aspose.Slides for Java kütüphanesinin yüklü ve ayarlanmış olduğundan emin olun. Bunu şuradan indirebilirsiniz: [Java belgeleri için Aspose.Slides](https://reference.aspose.com/slides/java/).
 
-## 1. Adım: Gerekli Kitaplıkları İçe Aktarın
+## Adım 1: Gerekli Kitaplıkları İçeri Aktarın
 
 ```java
 import com.aspose.slides.ChartType;
@@ -34,41 +36,41 @@ import com.aspose.slides.SaveFormat;
 ## Adım 2: Sunumu Başlatın
 
 ```java
-// Belgeler dizininin yolu.
+// Belgeler dizinine giden yol.
 String dataDir = "Your Document Directory";
 
-// Sunum sınıfının bir örneğini oluşturun
+// Bir Presentation sınıfı örneği oluşturun
 Presentation presentation = new Presentation();
 ```
 
-## Adım 3: Halka Tablosunu Oluşturun
+## Adım 3: Çörek Grafiğini Oluşturun
 
 ```java
 try {
-    // İlk slaytta halka grafiği oluşturun
+    // İlk slaytta bir halka grafiği oluşturun
     IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Doughnut, 50, 50, 400, 400);
     
     // Halka grafiğindeki deliğin boyutunu ayarlayın (yüzde olarak)
     chart.getChartData().getSeriesGroups().get_Item(0).setDoughnutHoleSize((byte) 90);
     
-    // Sunuyu diske kaydet
+    // Sunumu diske kaydet
     presentation.save(dataDir + "DoughnutHoleSize_out.pptx", SaveFormat.Pptx);
 } finally {
-    // Sunum nesnesini atın
+    // Sunum nesnesini elden çıkarın
     if (presentation != null) presentation.dispose();
 }
 ```
 
-## 4. Adım: Kodu Çalıştırın
+## Adım 4: Kodu Çalıştırın
 
- Belirtilen delik boyutuna sahip bir halka grafiği oluşturmak için IDE'nizde veya metin düzenleyicinizde Java kodunu çalıştırın. Değiştirdiğinizden emin olun`"Your Document Directory"` sunuyu kaydetmek istediğiniz asıl yolla.
+Belirtilen delik boyutuna sahip bir halka grafiği oluşturmak için Java kodunu IDE'nizde veya metin düzenleyicinizde çalıştırın. Değiştirdiğinizden emin olun `"Your Document Directory"` Sunumu kaydetmek istediğiniz gerçek yol ile.
 
-## Java Slaytlarındaki Halka Grafik Deliği İçin Kaynak Kodunu Tamamlayın
+## Java Slaytlarında Donut Grafik Deliği İçin Tam Kaynak Kodu
 
 ```java
-// Belgeler dizininin yolu.
+// Belgeler dizinine giden yol.
 String dataDir = "Your Document Directory";
-// Sunum sınıfının bir örneğini oluşturun
+// Bir Presentation sınıfı örneği oluşturun
 Presentation presentation = new Presentation();
 try
 {
@@ -85,24 +87,26 @@ finally
 
 ## Çözüm
 
- Bu eğitimde Aspose.Slides for Java'yı kullanarak delikli bir halka grafiğinin nasıl oluşturulacağını öğrendiniz. Ayarlayarak deliğin boyutunu kişiselleştirebilirsiniz.`setDoughnutHoleSize` yöntem parametresi.
+Bu eğitimde, Java için Aspose.Slides kullanarak delikli bir halka grafiği oluşturmayı öğrendiniz. Deliğin boyutunu, `setDoughnutHoleSize` yöntem parametresi.
 
-## SSS'ler
+## SSS
 
-### Grafik bölümlerinin rengini nasıl değiştirebilirim?
+### Grafik segmentlerinin rengini nasıl değiştirebilirim?
 
- Grafik segmentlerinin rengini değiştirmek için`setDataPointsInLegend` konusundaki yöntem`IChart` nesneyi seçin ve her veri noktası için istediğiniz rengi ayarlayın.
+Grafik bölümlerinin rengini değiştirmek için şunu kullanabilirsiniz: `setDataPointsInLegend` yöntem üzerinde `IChart` nesneyi seçin ve her veri noktası için istediğiniz rengi ayarlayın.
 
 ### Halka grafik segmentlerine etiket ekleyebilir miyim?
 
- Evet, halka grafiği segmentlerine aşağıdaki düğmeyi kullanarak etiket ekleyebilirsiniz:`setDataPointsLabelValue` konusundaki yöntem`IChart` nesne.
+Evet, halka grafik bölümlerine etiket ekleyebilirsiniz. `setDataPointsLabelValue` yöntem üzerinde `IChart` nesne.
 
-### Grafiğe başlık eklemek mümkün mü?
+### Tabloya bir başlık eklemek mümkün mü?
 
- Kesinlikle! kullanarak grafiğe bir başlık ekleyebilirsiniz.`setTitle` konusundaki yöntem`IChart` nesne ve istenen başlık metninin sağlanması.
+Elbette! Grafiğe bir başlık ekleyebilirsiniz. `setTitle` yöntem üzerinde `IChart` nesne ve istenilen başlık metnini sağlamak.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

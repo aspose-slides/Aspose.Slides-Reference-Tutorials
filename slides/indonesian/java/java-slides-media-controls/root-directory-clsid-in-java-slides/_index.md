@@ -1,69 +1,71 @@
 ---
-title: ClsId Direktori Root di Slide Java
-linktitle: ClsId Direktori Root di Slide Java
-second_title: Aspose.Slides API Pemrosesan Java PowerPoint
-description: Pelajari cara mengatur ClsId Direktori Root di Aspose.Slides untuk presentasi Java. Sesuaikan perilaku hyperlink dengan CLSID.
-weight: 10
-url: /id/java/media-controls/root-directory-clsid-in-java-slides/
+"description": "Pelajari cara mengatur Root Directory ClsId di Aspose.Slides untuk presentasi Java. Sesuaikan perilaku hyperlink dengan CLSID."
+"linktitle": "Direktori Root ClsId di Java Slides"
+"second_title": "API Pemrosesan PowerPoint Java Aspose.Slides"
+"title": "Direktori Root ClsId di Java Slides"
+"url": "/id/java/media-controls/root-directory-clsid-in-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ClsId Direktori Root di Slide Java
+# Direktori Root ClsId di Java Slides
 
 
-## Pengantar Pengaturan ClsId Direktori Root di Aspose.Slides untuk Java
+## Pengantar Pengaturan Direktori Root ClsId di Aspose.Slides untuk Java
 
-Di Aspose.Slides for Java, Anda dapat mengatur ClsId Direktori Root, yaitu CLSID (Pengidentifikasi Kelas) yang digunakan untuk menentukan aplikasi yang akan digunakan sebagai direktori root ketika hyperlink dalam presentasi Anda diaktifkan. Dalam panduan ini, kami akan memandu Anda melakukan hal ini langkah demi langkah.
+Di Aspose.Slides untuk Java, Anda dapat mengatur Root Directory ClsId, yang merupakan CLSID (Class Identifier) yang digunakan untuk menentukan aplikasi yang akan digunakan sebagai direktori root saat hyperlink dalam presentasi Anda diaktifkan. Dalam panduan ini, kami akan memandu Anda untuk melakukan ini langkah demi langkah.
 
 ## Prasyarat
 
 Sebelum memulai, pastikan Anda memiliki prasyarat berikut:
 
-- Java Development Kit (JDK) diinstal pada sistem Anda.
--  Aspose.Slides untuk perpustakaan Java ditambahkan ke proyek Anda. Anda dapat mengunduhnya dari[Aspose.Slide untuk Dokumentasi Java](https://reference.aspose.com/slides/java/).
+- Java Development Kit (JDK) terinstal di sistem Anda.
+- Pustaka Aspose.Slides untuk Java telah ditambahkan ke proyek Anda. Anda dapat mengunduhnya dari [Dokumentasi Aspose.Slides untuk Java](https://reference.aspose.com/slides/java/).
 - Editor kode atau Lingkungan Pengembangan Terpadu (IDE) yang disiapkan untuk pengembangan Java.
 
 ## Langkah 1: Buat Presentasi Baru
 
-Pertama, mari buat presentasi baru menggunakan Aspose.Slides for Java. Dalam contoh ini, kita akan membuat presentasi kosong.
+Pertama, mari kita buat presentasi baru menggunakan Aspose.Slides untuk Java. Dalam contoh ini, kita akan membuat presentasi kosong.
 
 ```java
-// Nama file keluaran
+// Nama berkas keluaran
 String resultPath = "your_output_path/pres.ppt"; // Ganti "your_output_path" dengan direktori keluaran yang Anda inginkan.
 Presentation pres = new Presentation();
 ```
 
-Dalam kode di atas, kita menentukan jalur untuk file presentasi keluaran dan membuat yang baru`Presentation` obyek.
+Pada kode di atas, kita mendefinisikan jalur untuk file presentasi keluaran dan membuat yang baru `Presentation` obyek.
 
 ## Langkah 2: Tetapkan ClsId Direktori Root
 
- Untuk mengatur ClsId Direktori Root, Anda perlu membuat sebuah instance dari`PptOptions` dan atur CLSID yang diinginkan. CLSID mewakili aplikasi yang akan digunakan sebagai direktori root ketika hyperlink diaktifkan.
+Untuk mengatur ClsId Direktori Root, Anda perlu membuat instance `PptOptions` dan tetapkan CLSID yang diinginkan. CLSID mewakili aplikasi yang akan digunakan sebagai direktori root saat hyperlink diaktifkan.
 
 ```java
 PptOptions pptOptions = new PptOptions();
-// Setel CLSID ke 'Microsoft Powerpoint.Show.8'
+// Tetapkan CLSID ke 'Microsoft Powerpoint.Show.8'
 pptOptions.setRootDirectoryClsid(UUID.fromString("64818D10-4F9B-11CF-86EA-00AA00B929E8"));
 ```
 
- Pada kode di atas, kita membuat a`PptOptions` objek dan atur CLSID ke 'Microsoft Powerpoint.Show.8'. Anda bisa menggantinya dengan CLSID aplikasi yang ingin Anda gunakan sebagai direktori root.
+Pada kode di atas, kita membuat `PptOptions` objek dan tetapkan CLSID ke 'Microsoft Powerpoint.Show.8'. Anda dapat menggantinya dengan CLSID aplikasi yang ingin Anda gunakan sebagai direktori root.
 
 ## Langkah 3: Simpan Presentasi
 
-Sekarang, mari simpan presentasi dengan kumpulan ClsId Direktori Root.
+Sekarang, mari simpan presentasi dengan set Root Directory ClsId.
 
 ```java
 // Simpan presentasi
 pres.save(resultPath, SaveFormat.Ppt, pptOptions);
 ```
 
- Pada langkah ini, kita menyimpan presentasi ke tempat yang ditentukan`resultPath` dengan`PptOptions` kami buat sebelumnya.
+Pada langkah ini, kita menyimpan presentasi ke format yang ditentukan `resultPath` dengan `PptOptions` kita buat sebelumnya.
 
 ## Langkah 4: Pembersihan
 
- Jangan lupa untuk membuangnya`Presentation` keberatan untuk melepaskan sumber daya yang dialokasikan.
+Jangan lupa untuk membuangnya `Presentation` keberatan untuk melepaskan sumber daya yang dialokasikan.
 
 ```java
 if (pres != null) {
@@ -71,15 +73,15 @@ if (pres != null) {
 }
 ```
 
-## Kode Sumber Lengkap Untuk Direktori Root ClsId di Slide Java
+## Source Code Lengkap Untuk Root Directory ClsId di Java Slides
 
 ```java
-// Nama file keluaran
+// Nama berkas keluaran
 String resultPath = "Your Output Directory" + "pres.ppt";
 Presentation pres = new Presentation();
 try {
 	PptOptions pptOptions = new PptOptions();
-	//atur CLSID ke 'Microsoft Powerpoint.Show.8'
+	// tetapkan CLSID ke 'Microsoft Powerpoint.Show.8'
 	pptOptions.setRootDirectoryClsid(UUID.fromString("64818D10-4F9B-11CF-86EA-00AA00B929E8"));
 	// Simpan presentasi
 	pres.save(resultPath, SaveFormat.Ppt, pptOptions);
@@ -90,32 +92,34 @@ try {
 
 ## Kesimpulan
 
-Anda telah berhasil mengatur ClsId Direktori Root di Aspose.Slides untuk Java. Ini memungkinkan Anda menentukan aplikasi yang akan digunakan sebagai direktori akar ketika hyperlink diaktifkan di presentasi Anda. Anda dapat menyesuaikan CLSID sesuai dengan kebutuhan spesifik Anda.
+Anda telah berhasil menetapkan ClsId Direktori Root di Aspose.Slides untuk Java. Ini memungkinkan Anda untuk menentukan aplikasi yang akan digunakan sebagai direktori root saat hyperlink diaktifkan dalam presentasi Anda. Anda dapat menyesuaikan CLSID sesuai dengan kebutuhan spesifik Anda.
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
 ### Bagaimana cara menemukan CLSID untuk aplikasi tertentu?
 
-Untuk menemukan CLSID untuk aplikasi tertentu, Anda dapat merujuk ke dokumentasi atau sumber daya yang disediakan oleh pengembang aplikasi. CLSID adalah pengidentifikasi unik yang ditetapkan ke objek COM dan biasanya spesifik untuk setiap aplikasi.
+Untuk menemukan CLSID untuk aplikasi tertentu, Anda dapat merujuk ke dokumentasi atau sumber daya yang disediakan oleh pengembang aplikasi. CLSID adalah pengenal unik yang ditetapkan untuk objek COM dan biasanya khusus untuk setiap aplikasi.
 
 ### Bisakah saya menetapkan CLSID khusus untuk direktori root?
 
- Ya, Anda dapat mengatur CLSID khusus untuk direktori root dengan menentukan nilai CLSID yang diinginkan menggunakan`setRootDirectoryClsid` metode, seperti yang ditunjukkan dalam contoh kode. Hal ini memungkinkan Anda untuk menggunakan aplikasi tertentu sebagai direktori akar ketika hyperlink diaktifkan dalam presentasi Anda.
+Ya, Anda dapat mengatur CLSID khusus untuk direktori root dengan menentukan nilai CLSID yang diinginkan menggunakan `setRootDirectoryClsid` metode, seperti yang ditunjukkan dalam contoh kode. Ini memungkinkan Anda untuk menggunakan aplikasi tertentu sebagai direktori root saat hyperlink diaktifkan dalam presentasi Anda.
 
-### Apa yang terjadi jika saya tidak mengatur ClsId Direktori Root?
+### Apa yang terjadi jika saya tidak menetapkan ClsId Direktori Root?
 
-Jika Anda tidak mengatur ClsId Direktori Root, perilaku default akan bergantung pada penampil atau aplikasi yang digunakan untuk membuka presentasi. Ia mungkin menggunakan aplikasi defaultnya sendiri sebagai direktori root ketika hyperlink diaktifkan.
+Jika Anda tidak menyetel Root Directory ClsId, perilaku default akan bergantung pada penampil atau aplikasi yang digunakan untuk membuka presentasi. Aplikasi tersebut dapat menggunakan aplikasi default-nya sendiri sebagai direktori root saat hyperlink diaktifkan.
 
-### Bisakah saya mengubah ClsId Direktori Root untuk masing-masing hyperlink?
+### Bisakah saya mengubah Root Directory ClsId untuk hyperlink individual?
 
-Tidak, ClsId Direktori Root biasanya diatur pada tingkat presentasi dan berlaku untuk semua hyperlink dalam presentasi. Jika Anda perlu menentukan aplikasi berbeda untuk masing-masing hyperlink, Anda mungkin perlu menangani hyperlink tersebut secara terpisah dalam kode Anda.
+Tidak, Root Directory ClsId biasanya ditetapkan pada tingkat presentasi dan berlaku untuk semua hyperlink dalam presentasi. Jika Anda perlu menentukan aplikasi yang berbeda untuk hyperlink individual, Anda mungkin perlu menangani hyperlink tersebut secara terpisah dalam kode Anda.
 
 ### Apakah ada batasan pada CLSID yang dapat saya gunakan?
 
-CLSID yang dapat Anda gunakan biasanya ditentukan oleh aplikasi yang diinstal pada sistem. Anda harus menggunakan CLSID yang sesuai dengan aplikasi valid yang mampu menangani hyperlink. Perlu diketahui bahwa penggunaan CLSID yang tidak valid dapat mengakibatkan perilaku yang tidak diharapkan.
+CLSID yang dapat Anda gunakan biasanya ditentukan oleh aplikasi yang terinstal pada sistem. Anda harus menggunakan CLSID yang sesuai dengan aplikasi valid yang mampu menangani hyperlink. Ketahuilah bahwa penggunaan CLSID yang tidak valid dapat mengakibatkan perilaku yang tidak diharapkan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

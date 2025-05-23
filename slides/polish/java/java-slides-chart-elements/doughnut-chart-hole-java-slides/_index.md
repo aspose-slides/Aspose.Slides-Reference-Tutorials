@@ -1,14 +1,16 @@
 ---
-title: Dziura w wykresie pierścieniowym w slajdach Java
-linktitle: Dziura w wykresie pierścieniowym w slajdach Java
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Twórz wykresy pierścieniowe z niestandardowymi rozmiarami otworów w slajdach Java za pomocą Aspose.Slides dla Java. Przewodnik krok po kroku z kodem źródłowym umożliwiającym dostosowanie wykresu.
-weight: 11
-url: /pl/java/chart-elements/doughnut-chart-hole-java-slides/
+"description": "Twórz wykresy pierścieniowe z niestandardowymi rozmiarami otworów w slajdach Java przy użyciu Aspose.Slides dla Java. Przewodnik krok po kroku z kodem źródłowym do dostosowywania wykresów."
+"linktitle": "Dziura w wykresie pierścieniowym w slajdach Java"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Dziura w wykresie pierścieniowym w slajdach Java"
+"url": "/pl/java/chart-elements/doughnut-chart-hole-java-slides/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dziura w wykresie pierścieniowym w slajdach Java
@@ -16,13 +18,13 @@ url: /pl/java/chart-elements/doughnut-chart-hole-java-slides/
 
 ## Wprowadzenie do wykresu pierścieniowego z dziurą w slajdach Java
 
-W tym samouczku poprowadzimy Cię przez proces tworzenia wykresu pierścieniowego z dziurą przy użyciu Aspose.Slides dla Java. Ten przewodnik krok po kroku przeprowadzi Cię przez proces z przykładami kodu źródłowego.
+W tym samouczku przeprowadzimy Cię przez proces tworzenia wykresu pierścieniowego z otworem przy użyciu Aspose.Slides dla Java. Ten przewodnik krok po kroku przeprowadzi Cię przez proces z przykładami kodu źródłowego.
 
-## Warunki wstępne
+## Wymagania wstępne
 
- Zanim zaczniesz, upewnij się, że masz zainstalowaną i skonfigurowaną bibliotekę Aspose.Slides for Java w swoim projekcie Java. Można go pobrać z[Aspose.Slides dla dokumentacji Java](https://reference.aspose.com/slides/java/).
+Zanim zaczniesz, upewnij się, że biblioteka Aspose.Slides for Java jest zainstalowana i skonfigurowana w Twoim projekcie Java. Możesz ją pobrać ze strony [Aspose.Slides dla dokumentacji Java](https://reference.aspose.com/slides/java/).
 
-## Krok 1: Zaimportuj wymagane biblioteki
+## Krok 1: Importowanie wymaganych bibliotek
 
 ```java
 import com.aspose.slides.ChartType;
@@ -37,7 +39,7 @@ import com.aspose.slides.SaveFormat;
 // Ścieżka do katalogu dokumentów.
 String dataDir = "Your Document Directory";
 
-// Utwórz instancję klasy Prezentacja
+// Utwórz instancję klasy Presentation
 Presentation presentation = new Presentation();
 ```
 
@@ -45,30 +47,30 @@ Presentation presentation = new Presentation();
 
 ```java
 try {
-    // Utwórz wykres pierścieniowy na pierwszym slajdzie
+    // Utwórz wykres kołowy na pierwszym slajdzie
     IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Doughnut, 50, 50, 400, 400);
     
-    // Ustaw rozmiar dziury na wykresie pierścieniowym (w procentach)
+    // Ustaw rozmiar otworu na wykresie pierścieniowym (w procentach)
     chart.getChartData().getSeriesGroups().get_Item(0).setDoughnutHoleSize((byte) 90);
     
     // Zapisz prezentację na dysku
     presentation.save(dataDir + "DoughnutHoleSize_out.pptx", SaveFormat.Pptx);
 } finally {
-    // Pozbądź się przedmiotu prezentacji
+    // Usuń obiekt prezentacji
     if (presentation != null) presentation.dispose();
 }
 ```
 
 ## Krok 4: Uruchom kod
 
- Uruchom kod Java w swoim IDE lub edytorze tekstu, aby utworzyć wykres pierścieniowy z określonym rozmiarem dziury. Pamiętaj o wymianie`"Your Document Directory"` z rzeczywistą ścieżką, w której chcesz zapisać prezentację.
+Uruchom kod Java w swoim IDE lub edytorze tekstu, aby utworzyć wykres pierścieniowy z określonym rozmiarem otworu. Pamiętaj o zastąpieniu `"Your Document Directory"` z rzeczywistą ścieżką, pod którą chcesz zapisać prezentację.
 
-## Kompletny kod źródłowy dziury w wykresie pierścieniowym w slajdach Java
+## Kompletny kod źródłowy dla dziury w wykresie pierścieniowym w slajdach Java
 
 ```java
 // Ścieżka do katalogu dokumentów.
 String dataDir = "Your Document Directory";
-// Utwórz instancję klasy Prezentacja
+// Utwórz instancję klasy Presentation
 Presentation presentation = new Presentation();
 try
 {
@@ -85,24 +87,26 @@ finally
 
 ## Wniosek
 
- W tym samouczku nauczyłeś się tworzyć wykres pierścieniowy z dziurą za pomocą Aspose.Slides dla Java. Rozmiar otworu można dostosować, regulując`setDoughnutHoleSize` parametr metody.
+W tym samouczku nauczyłeś się, jak utworzyć wykres pierścieniowy z otworem za pomocą Aspose.Slides dla Java. Możesz dostosować rozmiar otworu, dostosowując `setDoughnutHoleSize` parametr metody.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
 ### Jak mogę zmienić kolor segmentów wykresu?
 
- Aby zmienić kolor segmentów wykresu, możesz użyć opcji`setDataPointsInLegend` metoda na`IChart` obiektu i ustaw żądany kolor dla każdego punktu danych.
+Aby zmienić kolor segmentów wykresu, możesz użyć `setDataPointsInLegend` metoda na `IChart` obiekt i ustaw żądany kolor dla każdego punktu danych.
 
-### Czy mogę dodać etykiety do segmentów wykresu pierścieniowego?
+### Czy mogę dodawać etykiety do segmentów wykresu pierścieniowego?
 
- Tak, możesz dodawać etykiety do segmentów wykresu pierścieniowego za pomocą`setDataPointsLabelValue` metoda na`IChart` obiekt.
+Tak, możesz dodawać etykiety do segmentów wykresu pierścieniowego za pomocą `setDataPointsLabelValue` metoda na `IChart` obiekt.
 
-### Czy jest możliwość dodania tytułu do wykresu?
+### Czy można dodać tytuł do wykresu?
 
- Z pewnością! Możesz dodać tytuł do wykresu za pomocą`setTitle` metoda na`IChart` obiekt i podając żądany tekst tytułu.
+Oczywiście! Możesz dodać tytuł do wykresu za pomocą `setTitle` metoda na `IChart` obiekt i podając żądany tekst tytułu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,32 +1,34 @@
 ---
-title: Přidejte komentáře rodiče ke snímku pomocí Aspose.Slides
-linktitle: Přidejte ke snímku komentáře rodičů
-second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Naučte se přidávat interaktivní komentáře a odpovědi do prezentací PowerPoint pomocí Aspose.Slides for .NET. Zvyšte zapojení a spolupráci.
-weight: 12
-url: /cs/net/slide-comments-manipulation/add-parent-comments/
+"description": "Naučte se, jak přidávat interaktivní komentáře a odpovědi do vašich prezentací v PowerPointu pomocí Aspose.Slides pro .NET. Zvyšte zapojení a spolupráci."
+"linktitle": "Přidat nadřazené komentáře k snímku"
+"second_title": "Rozhraní API pro zpracování PowerPointu v .NET od Aspose.Slides"
+"title": "Přidání nadřazených komentářů ke snímku pomocí Aspose.Slides"
+"url": "/cs/net/slide-comments-manipulation/add-parent-comments/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidejte komentáře rodiče ke snímku pomocí Aspose.Slides
+# Přidání nadřazených komentářů ke snímku pomocí Aspose.Slides
 
 
-Chcete vylepšit své prezentace v PowerPointu interaktivními funkcemi? Aspose.Slides for .NET vám umožňuje začlenit komentáře a odpovědi a vytvořit tak pro vaše publikum dynamický a poutavý zážitek. V tomto podrobném tutoriálu vám ukážeme, jak přidat nadřazené komentáře ke snímkům pomocí Aspose.Slides for .NET. Pojďme se ponořit a prozkoumat tuto vzrušující funkci.
+Hledáte způsob, jak vylepšit své prezentace v PowerPointu interaktivními funkcemi? Aspose.Slides pro .NET vám umožňuje vkládat komentáře a odpovědi, čímž vytváříte dynamický a poutavý zážitek pro vaše publikum. V tomto podrobném tutoriálu vám ukážeme, jak přidat nadřazené komentáře k snímkům pomocí Aspose.Slides pro .NET. Pojďme se do toho pustit a prozkoumat tuto skvělou funkci.
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte splněny následující předpoklady:
 
-1.  Aspose.Slides for .NET: Ujistěte se, že máte nainstalovaný Aspose.Slides for .NET. Můžete si jej stáhnout[tady](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides pro .NET: Ujistěte se, že máte nainstalovaný Aspose.Slides pro .NET. Můžete si ho stáhnout [zde](https://releases.aspose.com/slides/net/).
 
 2. Visual Studio: K vytvoření a spuštění aplikace .NET budete potřebovat Visual Studio.
 
-3. Základní znalost C#: Tento tutoriál předpokládá, že máte základní znalosti o programování v C#.
+3. Základní znalost C#: Tento tutoriál předpokládá, že máte základní znalosti programování v C#.
 
-Nyní, když máme pokryty předpoklady, přistoupíme k importu potřebných jmenných prostorů.
+Nyní, když máme splněny všechny předpoklady, pojďme importovat potřebné jmenné prostory.
 
 ## Import jmenných prostorů
 
@@ -37,11 +39,11 @@ using Aspose.Slides;
 using Aspose.Slides.SlideComments;
 ```
 
-S předpoklady a jmennými prostory na místě rozdělme proces do několika kroků pro přidávání nadřazených komentářů na snímek.
+S připravenými předpoklady a jmennými prostory si rozdělme proces přidání nadřazených komentářů k snímku do několika kroků.
 
 ## Krok 1: Vytvořte prezentaci
 
-Chcete-li začít, musíte vytvořit novou prezentaci pomocí Aspose.Slides for .NET. Tato prezentace bude plátnem, na které budete přidávat své komentáře.
+Chcete-li začít, musíte vytvořit novou prezentaci pomocí Aspose.Slides pro .NET. Tato prezentace bude sloužit jako plátno, na které budete přidávat své komentáře.
 
 ```csharp
 // Cesta k výstupnímu adresáři.
@@ -49,46 +51,46 @@ string outPptxFile = "Output Path";
 
 using (Presentation pres = new Presentation())
 {
-    // Sem bude umístěn váš kód pro přidávání komentářů.
+    // Sem bude vložen váš kód pro přidávání komentářů.
     
     pres.Save(outPptxFile + "parent_comment.pptx", SaveFormat.Pptx);
 }
 ```
 
- Ve výše uvedeném kódu nahraďte`"Output Path"` s požadovanou cestou pro vaši výstupní prezentaci.
+Ve výše uvedeném kódu nahraďte `"Output Path"` s požadovanou cestou pro vaši výstupní prezentaci.
 
-## Krok 2: Přidejte autory komentáře
+## Krok 2: Přidání autorů komentářů
 
-Před přidáním komentářů je třeba definovat autory těchto komentářů. V tomto příkladu máme dva autory, „Author_1“ a „Author_2“, z nichž každý je reprezentován instancí`ICommentAuthor`.
+Před přidáním komentářů je nutné definovat autory těchto komentářů. V tomto příkladu máme dva autory, „Autor_1“ a „Autor_2“, přičemž každý z nich je reprezentován instancí třídy `ICommentAuthor`.
 
 ```csharp
 // Přidat komentář
 ICommentAuthor author1 = pres.CommentAuthors.AddAuthor("Author_1", "A.A.");
 IComment comment1 = author1.Comments.AddComment("comment1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
 
-// Přidat odpověď na komentář 1
+// Přidat odpověď na komentář1
 ICommentAuthor author2 = pres.CommentAuthors.AddAuthor("Autror_2", "B.B.");
 IComment reply1 = author2.Comments.AddComment("reply 1 for comment 1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
 reply1.ParentComment = comment1;
 ```
 
-V tomto kroku vytvoříme dva autory komentáře a přidáme počáteční komentář a odpověď na komentář.
+V tomto kroku vytvoříme dva autory komentářů a přidáme počáteční komentář a odpověď na komentář.
 
 ## Krok 3: Přidejte další odpovědi
 
-Chcete-li vytvořit hierarchickou strukturu komentářů, můžete k existujícím komentářům přidat další odpovědi. Zde přidáme druhou odpověď na "komentář1."
+Chcete-li vytvořit hierarchickou strukturu komentářů, můžete k existujícím komentářům přidat další odpovědi. Zde přidáme druhou odpověď k „komentář1“.
 
 ```csharp
-// Přidat odpověď na komentář 1
+// Přidat odpověď na komentář1
 IComment reply2 = author2.Comments.AddComment("reply 2 for comment 1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
 reply2.ParentComment = comment1;
 ```
 
-Tím se vytvoří tok konverzace ve vaší prezentaci.
+Tím se v rámci vaší prezentace nastaví tok konverzace.
 
-## Krok 4: Přidejte vnořené odpovědi
+## Krok 4: Přidání vnořených odpovědí
 
-Komentáře mohou mít také vnořené odpovědi. Abychom to demonstrovali, přidáme odpověď na „odpověď 2 na komentář 1“, čímž vytvoříme dílčí odpověď.
+Komentáře mohou mít také vnořené odpovědi. Abychom to demonstrovali, přidáme odpověď k „odpovědi 2 pro komentář 1“, čímž vytvoříme pododpověď.
 
 ```csharp
 // Přidat odpověď k odpovědi
@@ -100,7 +102,7 @@ Tento krok zdůrazňuje všestrannost Aspose.Slides pro .NET při správě hiera
 
 ## Krok 5: Další komentáře a odpovědi
 
-Podle potřeby můžete i nadále přidávat další komentáře a odpovědi. V tomto příkladu přidáme další dva komentáře a odpověď na jeden z nich.
+V případě potřeby můžete přidávat další komentáře a odpovědi. V tomto příkladu přidáme další dva komentáře a odpověď na jeden z nich.
 
 ```csharp
 IComment comment2 = author2.Comments.AddComment("comment 2", pres.Slides[0], new PointF(10, 10), DateTime.Now);
@@ -110,11 +112,11 @@ IComment reply3 = author1.Comments.AddComment("reply 4 for comment 3", pres.Slid
 reply3.ParentComment = comment3;
 ```
 
-Tento krok ukazuje, jak můžete vytvořit poutavý a interaktivní obsah pro vaše prezentace.
+Tento krok ukazuje, jak můžete pro své prezentace vytvářet poutavý a interaktivní obsah.
 
-## Krok 6: Zobrazte hierarchii
+## Krok 6: Zobrazení hierarchie
 
-Chcete-li vizualizovat hierarchii komentářů, můžete ji zobrazit na konzole. Tento krok je volitelný, ale může být užitečný pro ladění a pochopení struktury.
+Pro vizualizaci hierarchie komentářů si ji můžete zobrazit v konzoli. Tento krok je volitelný, ale může být užitečný pro ladění a pochopení struktury.
 
 ```csharp
 ISlide slide = pres.Slides[0];
@@ -133,9 +135,9 @@ for (int i = 0; i < comments.Length; i++)
 }
 ```
 
-## Krok 7: Odstraňte komentáře
+## Krok 7: Odstranění komentářů
 
-V některých případech může být nutné odstranit komentáře a jejich odpovědi. Níže uvedený fragment kódu ukazuje, jak odstranit „comment1“ a všechny jeho odpovědi.
+V některých případech může být nutné odstranit komentáře a jejich odpovědi. Následující úryvek kódu ukazuje, jak odstranit „comment1“ a všechny jeho odpovědi.
 
 ```csharp
 comment1.Remove();
@@ -144,31 +146,33 @@ pres.Save(outPptxFile + "remove_comment.pptx", SaveFormat.Pptx);
 
 Tento krok je užitečný pro správu a aktualizaci obsahu prezentace.
 
-Pomocí těchto kroků můžete pomocí Aspose.Slides for .NET vytvářet prezentace s interaktivními komentáři a odpověďmi. Ať už chcete zaujmout své publikum nebo spolupracovat se členy týmu, tato funkce nabízí širokou škálu možností.
+Pomocí těchto kroků můžete vytvářet prezentace s interaktivními komentáři a odpověďmi pomocí Aspose.Slides pro .NET. Ať už chcete zaujmout své publikum nebo spolupracovat s členy týmu, tato funkce nabízí širokou škálu možností.
 
 ## Závěr
 
-Aspose.Slides for .NET poskytuje výkonnou sadu nástrojů pro vylepšení vašich prezentací v PowerPointu. Díky možnosti přidávat komentáře a odpovědi můžete vytvářet dynamický a interaktivní obsah, který zaujme vaše publikum. Tento podrobný průvodce vám ukázal, jak přidat nadřazené komentáře ke snímkům, vytvořit hierarchii a dokonce v případě potřeby komentáře odstranit. Postupujte podle těchto kroků a prozkoumejte dokumentaci Aspose.Slides[tady](https://reference.aspose.com/slides/net/), můžete posunout své prezentace na další úroveň.
+Aspose.Slides pro .NET nabízí výkonnou sadu nástrojů pro vylepšení vašich prezentací v PowerPointu. Díky možnosti přidávat komentáře a odpovědi můžete vytvářet dynamický a interaktivní obsah, který zaujme vaše publikum. Tato podrobná příručka vám ukázala, jak přidávat nadřazené komentáře k snímkům, vytvářet hierarchie a v případě potřeby i odebírat komentáře. Dodržováním těchto kroků a prozkoumáním dokumentace k Aspose.Slides [zde](https://reference.aspose.com/slides/net/), můžete své prezentace posunout na další úroveň.
 
-## Nejčastější dotazy
+## Často kladené otázky
 
-### Mohu přidávat komentáře ke konkrétním snímkům v rámci mé prezentace?
-Ano, můžete přidávat komentáře k libovolnému snímku prezentace zadáním cílového snímku při vytváření komentáře.
+### Mohu přidávat komentáře ke konkrétním snímkům v rámci prezentace?
+Ano, komentáře můžete přidat k libovolnému snímku v prezentaci tak, že při vytváření komentáře zadáte cílový snímek.
 
-### Je možné upravit vzhled komentářů v prezentaci?
-Aspose.Slides for .NET umožňuje přizpůsobit vzhled komentářů, včetně jejich textu, informací o autorovi a umístění na snímku.
+### Je možné si přizpůsobit vzhled komentářů v prezentaci?
+Aspose.Slides pro .NET umožňuje přizpůsobit vzhled komentářů, včetně jejich textu, informací o autorovi a pozice na snímku.
 
 ### Mohu exportovat komentáře a odpovědi do samostatného souboru?
-Ano, můžete exportovat komentáře a odpovědi do samostatného souboru prezentace, jak je ukázáno v kroku 7.
+Ano, komentáře a odpovědi můžete exportovat do samostatného souboru prezentace, jak je znázorněno v kroku 7.
 
-### Je Aspose.Slides for .NET kompatibilní s nejnovějšími verzemi PowerPointu?
-Aspose.Slides for .NET je navržen pro práci s širokou škálou verzí aplikace PowerPoint a zajišťuje kompatibilitu s nejnovějšími verzemi.
+### Je Aspose.Slides pro .NET kompatibilní s nejnovějšími verzemi PowerPointu?
+Aspose.Slides pro .NET je navržen pro práci s širokou škálou verzí PowerPointu a zajišťuje kompatibilitu s nejnovějšími verzemi.
 
-### Jsou pro Aspose.Slides pro .NET k dispozici nějaké možnosti licencování?
- Ano, na webu Aspose můžete prozkoumat možnosti licencování, včetně dočasných licencí[tady](https://purchase.aspose.com/buy) nebo vyzkoušejte bezplatnou zkušební verzi[tady](https://releases.aspose.com/temporary-license/).
+### Existují nějaké možnosti licencování pro Aspose.Slides pro .NET?
+Ano, možnosti licencování, včetně dočasných licencí, si můžete prohlédnout na webových stránkách Aspose. [zde](https://purchase.aspose.com/buy) nebo vyzkoušejte bezplatnou zkušební verzi [zde](https://releases.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

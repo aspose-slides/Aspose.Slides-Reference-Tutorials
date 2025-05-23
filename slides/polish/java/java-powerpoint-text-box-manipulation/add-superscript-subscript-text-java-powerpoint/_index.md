@@ -1,26 +1,28 @@
 ---
-title: Dodaj tekst indeksu górnego i dolnego w programie Java PowerPoint
-linktitle: Dodaj tekst indeksu górnego i dolnego w programie Java PowerPoint
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Dowiedz się, jak dodać tekst indeksu górnego i dolnego w prezentacjach Java PowerPoint przy użyciu Aspose.Slides dla Java. Idealny do ulepszania slajdów.
-weight: 13
-url: /pl/java/java-powerpoint-text-box-manipulation/add-superscript-subscript-text-java-powerpoint/
+"description": "Dowiedz się, jak dodawać tekst w indeksie górnym i dolnym w prezentacjach PowerPoint w Javie przy użyciu Aspose.Slides dla Javy. Idealne do ulepszania slajdów."
+"linktitle": "Dodawanie tekstu indeksu górnego i dolnego w programie Java PowerPoint"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Dodawanie tekstu indeksu górnego i dolnego w programie Java PowerPoint"
+"url": "/pl/java/java-powerpoint-text-box-manipulation/add-superscript-subscript-text-java-powerpoint/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dodaj tekst indeksu górnego i dolnego w programie Java PowerPoint
+# Dodawanie tekstu indeksu górnego i dolnego w programie Java PowerPoint
 
 ## Wstęp
-Tworzenie angażujących i pouczających prezentacji programu PowerPoint często wymaga użycia funkcji formatowania, takich jak indeks górny i dolny. Ten samouczek poprowadzi Cię przez proces włączania indeksu górnego i dolnego do prezentacji Java PowerPoint przy użyciu Aspose.Slides for Java.
-## Warunki wstępne
-Zanim zaczniesz, upewnij się, że masz następujące elementy:
-- Zestaw Java Development Kit (JDK) zainstalowany w systemie.
--  Aspose.Slides dla biblioteki Java. Można go pobrać z[Tutaj](https://releases.aspose.com/slides/java/).
-- Zintegrowane środowisko programistyczne (IDE), takie jak IntelliJ IDEA lub Eclipse, skonfigurowane do programowania w języku Java.
-- Podstawowa znajomość programowania w języku Java i prezentacji PowerPoint.
+Tworzenie angażujących i pouczających prezentacji PowerPoint często wymaga użycia funkcji formatowania, takich jak tekst w indeksie górnym i dolnym. Ten samouczek przeprowadzi Cię przez proces włączania tekstu w indeksie górnym i dolnym do prezentacji PowerPoint w języku Java przy użyciu Aspose.Slides for Java.
+## Wymagania wstępne
+Zanim zaczniesz, upewnij się, że masz następujące rzeczy:
+- Java Development Kit (JDK) zainstalowany w Twoim systemie.
+- Biblioteka Aspose.Slides dla Java. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/slides/java/).
+- Zintegrowane środowisko programistyczne (IDE), takie jak IntelliJ IDEA lub Eclipse, przeznaczone do programowania w języku Java.
+- Podstawowa znajomość programowania w Javie i prezentacji PowerPoint.
 
 ## Importuj pakiety
 Najpierw zaimportuj niezbędne pakiety z Aspose.Slides dla Java:
@@ -33,41 +35,41 @@ import com.aspose.slides.*;
 String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation();
 ```
-## Krok 2: Uzyskaj dostęp do slajdu
+## Krok 2: Dostęp do slajdu
 ```java
-// Zdobądź pierwszy slajd
+// Zobacz pierwszy slajd
 ISlide slide = presentation.getSlides().get_Item(0);
 ```
 ## Krok 3: Utwórz pole tekstowe
 ```java
-// Utwórz autokształt, który będzie służył jako pole tekstowe
+// Utwórz Autokształt, który będzie służył jako pole tekstowe
 IAutoShape shape = slide.getShapes().addAutoShape(ShapeType.Rectangle, 100, 100, 200, 100);
 ITextFrame textFrame = shape.getTextFrame();
 textFrame.getParagraphs().clear();
 ```
-## Krok 4: Dodaj tekst indeksu górnego
+## Krok 4: Dodaj tekst w indeksie górnym
 ```java
 // Utwórz akapit dla tekstu głównego
 IParagraph mainParagraph = new Paragraph();
 IPortion mainPortion = new Portion();
 mainPortion.setText("SlideTitle");
 mainParagraph.getPortions().add(mainPortion);
-// Utwórz część tekstu indeksu górnego
+// Utwórz część dla tekstu w indeksie górnym
 IPortion superPortion = new Portion();
 superPortion.getPortionFormat().setEscapement(30); // Ustaw wychwyt dla indeksu górnego
 superPortion.setText("TM");
 mainParagraph.getPortions().add(superPortion);
-//Dodaj główny akapit z indeksem górnym do pola tekstowego
+// Dodaj akapit główny z indeksem górnym do pola tekstowego
 textFrame.getParagraphs().add(mainParagraph);
 ```
-## Krok 5: Dodaj tekst indeksu dolnego
+## Krok 5: Dodaj tekst w indeksie dolnym
 ```java
-// Utwórz kolejny akapit dla tekstu indeksu dolnego
+// Utwórz kolejny akapit dla tekstu w indeksie dolnym
 IParagraph subscriptParagraph = new Paragraph();
 IPortion subscriptPortion = new Portion();
 subscriptPortion.setText("a");
 subscriptParagraph.getPortions().add(subscriptPortion);
-// Utwórz część tekstu indeksu dolnego
+// Utwórz część dla tekstu indeksu dolnego
 IPortion subPortion = new Portion();
 subPortion.getPortionFormat().setEscapement(-25); // Ustaw wychwyt dla indeksu dolnego
 subPortion.setText("i");
@@ -82,22 +84,24 @@ presentation.save(dataDir + "TestOut.pptx", SaveFormat.Pptx);
 ```
 
 ## Wniosek
-W tym samouczku omówiliśmy, jak ulepszyć prezentacje Java PowerPoint za pomocą indeksu górnego i dolnego za pomocą Aspose.Slides dla Java. Wykonując poniższe kroki, możesz utworzyć bardziej atrakcyjne wizualnie i pouczające slajdy, które skutecznie przekazują treść.
+W tym samouczku przyjrzeliśmy się, jak ulepszyć prezentacje Java PowerPoint za pomocą tekstu w indeksie górnym i dolnym przy użyciu Aspose.Slides for Java. Postępując zgodnie z tymi krokami, możesz tworzyć bardziej atrakcyjne wizualnie i informacyjne slajdy, które skutecznie przekazują Twoją treść.
 
-## Często zadawane pytania
-### Co to jest Aspose.Slides dla Java?
-Aspose.Slides dla Java to solidna biblioteka, która umożliwia programistom programowe tworzenie, manipulowanie i konwertowanie prezentacji programu PowerPoint.
+## Najczęściej zadawane pytania
+### Czym jest Aspose.Slides dla Java?
+Aspose.Slides for Java to rozbudowana biblioteka umożliwiająca programistom programistyczne tworzenie, edytowanie i konwertowanie prezentacji PowerPoint.
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Slides dla Java?
- Można znaleźć szczegółową dokumentację[Tutaj](https://reference.aspose.com/slides/java/).
-### Jak mogę uzyskać tymczasową licencję na Aspose.Slides dla Java?
- Możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
-### Czy mogę bezpłatnie wypróbować Aspose.Slides dla Java?
- Tak, możesz pobrać bezpłatną wersję próbną ze strony[Tutaj](https://releases.aspose.com/).
+Szczegółową dokumentację można znaleźć [Tutaj](https://reference.aspose.com/slides/java/).
+### W jaki sposób mogę uzyskać tymczasową licencję na Aspose.Slides dla Java?
+Możesz uzyskać tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
+### Czy mogę wypróbować Aspose.Slides for Java za darmo?
+Tak, możesz pobrać bezpłatną wersję próbną ze strony [Tutaj](https://releases.aspose.com/).
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Slides dla Java?
- Aby uzyskać wsparcie i dyskusje, odwiedź stronę[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+Aby uzyskać wsparcie i wziąć udział w dyskusjach, odwiedź stronę [Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

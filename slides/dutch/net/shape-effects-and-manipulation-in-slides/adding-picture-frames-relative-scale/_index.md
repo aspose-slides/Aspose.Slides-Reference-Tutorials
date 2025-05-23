@@ -1,78 +1,82 @@
 ---
-title: Zelfstudie fotolijsten toevoegen met Aspose.Slides .NET
-linktitle: Afbeeldingsframes met relatieve schaalhoogte toevoegen in Aspose.Slides
-second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
-description: Leer hoe u afbeeldingsframes met relatieve schaalhoogte toevoegt in Aspose.Slides voor .NET. Volg deze stapsgewijze handleiding voor naadloze presentaties.
-weight: 17
-url: /nl/net/shape-effects-and-manipulation-in-slides/adding-picture-frames-relative-scale/
+"description": "Leer hoe je fotolijsten met relatieve schaalhoogte toevoegt in Aspose.Slides voor .NET. Volg deze stapsgewijze handleiding voor naadloze presentaties."
+"linktitle": "Fotolijsten toevoegen met relatieve schaalhoogte in Aspose.Slides"
+"second_title": "Aspose.Slides .NET PowerPoint-verwerkings-API"
+"title": "Tutorial voor het toevoegen van fotolijsten met Aspose.Slides .NET"
+"url": "/nl/net/shape-effects-and-manipulation-in-slides/adding-picture-frames-relative-scale/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zelfstudie fotolijsten toevoegen met Aspose.Slides .NET
+# Tutorial voor het toevoegen van fotolijsten met Aspose.Slides .NET
 
 ## Invoering
-Aspose.Slides voor .NET is een krachtige bibliotheek waarmee ontwikkelaars moeiteloos PowerPoint-presentaties in hun .NET-toepassingen kunnen maken, manipuleren en converteren. In deze zelfstudie duiken we in het proces van het toevoegen van afbeeldingsframes met relatieve schaalhoogte met behulp van Aspose.Slides voor .NET. Volg deze stapsgewijze handleiding om uw vaardigheden op het gebied van presentatieopbouw te verbeteren.
+Aspose.Slides voor .NET is een krachtige bibliotheek waarmee ontwikkelaars moeiteloos PowerPoint-presentaties kunnen maken, bewerken en converteren in hun .NET-applicaties. In deze tutorial duiken we in het proces van het toevoegen van afbeeldingskaders met relatieve schaalhoogte met behulp van Aspose.Slides voor .NET. Volg deze stapsgewijze handleiding om je presentatievaardigheden te verbeteren.
 ## Vereisten
-Voordat we beginnen, zorg ervoor dat u over het volgende beschikt:
+Voordat we beginnen, zorg ervoor dat u het volgende heeft:
 - Basiskennis van de programmeertaal C#.
-- Visual Studio of een andere C#-ontwikkelomgeving van uw voorkeur geïnstalleerd.
+- Visual Studio of een andere gewenste C#-ontwikkelomgeving geïnstalleerd.
 - Aspose.Slides voor .NET-bibliotheek toegevoegd aan uw project.
 ## Naamruimten importeren
-Begin met het importeren van de benodigde naamruimten in uw C#-code. Deze stap zorgt ervoor dat u toegang heeft tot de klassen en functionaliteiten van de Aspose.Slides-bibliotheek.
+Begin met het importeren van de benodigde naamruimten in je C#-code. Deze stap zorgt ervoor dat je toegang hebt tot de klassen en functionaliteiten van de Aspose.Slides-bibliotheek.
 ```csharp
 using System.Drawing;
 using Aspose.Slides.Export;
 using Aspose.Slides;
 ```
 ## Stap 1: Stel uw project in
-Begin met het maken van een nieuw C#-project in de ontwikkelomgeving van uw voorkeur. Zorg ervoor dat u de Aspose.Slides voor .NET-bibliotheek aan uw project toevoegt door ernaar te verwijzen.
+Begin met het aanmaken van een nieuw C#-project in je favoriete ontwikkelomgeving. Zorg ervoor dat je de Aspose.Slides voor .NET-bibliotheek aan je project toevoegt door ernaar te verwijzen.
 ## Stap 2: Presentatie en afbeelding laden
 ```csharp
 string dataDir = "Your Document Directory";
 using (Presentation presentation = new Presentation())
 {
-    //Laad de afbeelding die moet worden toegevoegd aan de presentatieafbeeldingscollectie
+    // Afbeelding laden die moet worden toegevoegd aan de presentatieafbeeldingenverzameling
     Image img = new Bitmap(dataDir + "aspose-logo.jpg");
     IPPImage image = presentation.Images.AddImage(img);
     // ...
 }
 ```
-In deze stap maken we een nieuw presentatieobject aan en laden we de afbeelding die we aan de presentatie willen toevoegen.
+In deze stap maken we een nieuw presentatieobject en laden we de afbeelding die we aan de presentatie willen toevoegen.
 ## Stap 3: Voeg een fotolijst toe aan de dia
 ```csharp
 IPictureFrame pf = presentation.Slides[0].Shapes.AddPictureFrame(ShapeType.Rectangle, 50, 50, 100, 100, image);
 ```
-Voeg nu een fotolijst toe aan de eerste dia van de presentatie. Pas de parameters zoals vormtype, positie en afmetingen aan volgens uw vereisten.
+Voeg nu een fotokader toe aan de eerste dia van de presentatie. Pas parameters zoals vormtype, positie en afmetingen naar wens aan.
 ## Stap 4: Stel de relatieve schaalbreedte en -hoogte in
 ```csharp
 pf.RelativeScaleHeight = 0.8f;
 pf.RelativeScaleWidth = 1.35f;
 ```
-Stel de relatieve schaalhoogte en -breedte voor de fotolijst in om het gewenste schaaleffect te bereiken.
+Stel de relatieve schaalhoogte en -breedte van het fotolijstje in om het gewenste schaaleffect te bereiken.
 ## Stap 5: Presentatie opslaan
 ```csharp
 presentation.Save(dataDir + "Adding Picture Frame with Relative Scale_out.pptx", SaveFormat.Pptx);
 ```
-Sla ten slotte de presentatie op met het toegevoegde fotolijstje in het opgegeven uitvoerformaat.
+Sla ten slotte de presentatie met het toegevoegde fotokader op in het opgegeven uitvoerformaat.
 ## Conclusie
-Gefeliciteerd! U hebt met succes geleerd hoe u afbeeldingsframes met relatieve schaalhoogte kunt toevoegen met behulp van Aspose.Slides voor .NET. Experimenteer met verschillende afbeeldingen, posities en schalen om visueel aantrekkelijke presentaties te creëren die zijn afgestemd op uw behoeften.
-## Veel Gestelde Vragen
+Gefeliciteerd! Je hebt succesvol geleerd hoe je fotolijsten met relatieve schaalhoogte kunt toevoegen met Aspose.Slides voor .NET. Experimenteer met verschillende afbeeldingen, posities en schalen om visueel aantrekkelijke presentaties te maken die zijn afgestemd op jouw behoeften.
+## Veelgestelde vragen
 ### Kan ik Aspose.Slides voor .NET gebruiken met andere programmeertalen?
-Aspose.Slides ondersteunt voornamelijk .NET-talen, maar u kunt andere Aspose-producten verkennen op compatibiliteit met verschillende platforms.
+Aspose.Slides ondersteunt voornamelijk .NET-talen, maar u kunt ook andere Aspose-producten bekijken om te zien of deze compatibel zijn met andere platforms.
 ### Waar kan ik gedetailleerde documentatie vinden voor Aspose.Slides voor .NET?
- Verwijs naar de[documentatie](https://reference.aspose.com/slides/net/) voor uitgebreide informatie en voorbeelden.
+Raadpleeg de [documentatie](https://reference.aspose.com/slides/net/) voor uitgebreide informatie en voorbeelden.
 ### Is er een gratis proefversie beschikbaar voor Aspose.Slides voor .NET?
- Ja, je kunt een[gratis proefperiode](https://releases.aspose.com/) om de mogelijkheden van de bibliotheek te evalueren.
+Ja, je kunt een [gratis proefperiode](https://releases.aspose.com/) om de mogelijkheden van de bibliotheek te evalueren.
 ### Hoe kan ik ondersteuning krijgen voor Aspose.Slides voor .NET?
- Bezoek de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11) om hulp te zoeken bij de gemeenschap en Aspose-experts.
+Bezoek de [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) om hulp te vragen aan de community en Aspose-experts.
 ### Waar kan ik Aspose.Slides voor .NET kopen?
- U kunt Aspose.Slides voor .NET kopen bij de[aankooppagina](https://purchase.aspose.com/buy).
+U kunt Aspose.Slides voor .NET kopen bij de [aankooppagina](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

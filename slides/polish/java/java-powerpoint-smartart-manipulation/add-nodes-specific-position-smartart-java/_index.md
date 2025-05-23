@@ -1,24 +1,26 @@
 ---
-title: Dodaj węzły w określonej pozycji w SmartArt przy użyciu języka Java
-linktitle: Dodaj węzły w określonej pozycji w SmartArt przy użyciu języka Java
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Dowiedz się, jak dodawać węzły w określonych pozycjach w SmartArt przy użyciu Java z Aspose.Slides. Twórz dynamiczne prezentacje bez wysiłku.
-weight: 16
-url: /pl/java/java-powerpoint-smartart-manipulation/add-nodes-specific-position-smartart-java/
+"description": "Dowiedz się, jak dodawać węzły w określonych pozycjach w SmartArt przy użyciu Java z Aspose.Slides. Twórz dynamiczne prezentacje bez wysiłku."
+"linktitle": "Dodawanie węzłów w określonej pozycji w SmartArt za pomocą Java"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Dodawanie węzłów w określonej pozycji w SmartArt za pomocą Java"
+"url": "/pl/java/java-powerpoint-smartart-manipulation/add-nodes-specific-position-smartart-java/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dodaj węzły w określonej pozycji w SmartArt przy użyciu języka Java
+# Dodawanie węzłów w określonej pozycji w SmartArt za pomocą Java
 
 ## Wstęp
-W tym samouczku przeprowadzimy Cię przez proces dodawania węzłów w określonych pozycjach w SmartArt przy użyciu języka Java z Aspose.Slides. SmartArt to funkcja programu PowerPoint umożliwiająca tworzenie atrakcyjnych wizualnie diagramów i wykresów.
-## Warunki wstępne
-Zanim zaczniesz, upewnij się, że masz następujące elementy:
-1. Zestaw Java Development Kit (JDK) zainstalowany w systemie.
-2.  Pobrano bibliotekę Aspose.Slides dla Java. Można go pobrać z[Tutaj](https://releases.aspose.com/slides/java/).
+W tym samouczku przeprowadzimy Cię przez proces dodawania węzłów w określonych pozycjach w SmartArt przy użyciu Java z Aspose.Slides. SmartArt to funkcja w programie PowerPoint, która umożliwia tworzenie atrakcyjnych wizualnie diagramów i wykresów.
+## Wymagania wstępne
+Zanim zaczniesz, upewnij się, że masz następujące rzeczy:
+1. Java Development Kit (JDK) zainstalowany w Twoim systemie.
+2. Pobrano bibliotekę Aspose.Slides for Java. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/slides/java/).
 3. Podstawowa znajomość języka programowania Java.
 
 ## Importuj pakiety
@@ -28,7 +30,7 @@ import com.aspose.slides.*;
 import java.io.File;
 ```
 ## Krok 1: Utwórz instancję prezentacji
-Zacznij od utworzenia instancji klasy Prezentacja:
+Zacznij od utworzenia instancji klasy Presentation:
 ```java
 Presentation pres = new Presentation();
 ```
@@ -48,7 +50,7 @@ Uzyskaj dostęp do węzła SmartArt pod żądanym indeksem:
 ISmartArtNode node = smart.getAllNodes().get_Item(0);
 ```
 ## Krok 5: Dodaj węzeł podrzędny w określonej pozycji
-Dodaj nowy węzeł podrzędny w określonym miejscu węzła nadrzędnego:
+Dodaj nowy węzeł podrzędny w określonym miejscu w węźle nadrzędnym:
 ```java
 SmartArtNode chNode = (SmartArtNode) ((SmartArtNodeCollection) node.getChildNodes()).addNodeByPosition(2);
 ```
@@ -64,21 +66,23 @@ pres.save(dataDir + "AddSmartArtNodeByPosition_out.pptx", SaveFormat.Pptx);
 ```
 
 ## Wniosek
-W tym samouczku nauczyłeś się dodawać węzły w określonych pozycjach w SmartArt przy użyciu języka Java i Aspose.Slides. Wykonując poniższe kroki, możesz programowo manipulować kształtami SmartArt w celu tworzenia dynamicznych prezentacji.
-## Często zadawane pytania
+W tym samouczku nauczyłeś się, jak dodawać węzły w określonych pozycjach w SmartArt przy użyciu Java z Aspose.Slides. Wykonując te kroki, możesz programowo manipulować kształtami SmartArt, aby tworzyć dynamiczne prezentacje.
+## Najczęściej zadawane pytania
 ### Czy mogę dodać wiele węzłów jednocześnie?
-Tak, możesz programowo dodać wiele węzłów, iterując po żądanych pozycjach.
+Tak, możesz dodać wiele węzłów programowo, iterując po żądanych pozycjach.
 ### Czy Aspose.Slides jest kompatybilny ze wszystkimi wersjami programu PowerPoint?
 Aspose.Slides obsługuje różne formaty programu PowerPoint, zapewniając kompatybilność z większością wersji.
 ### Czy mogę dostosować wygląd węzłów SmartArt?
-Tak, możesz dostosować wygląd węzłów, w tym ich rozmiar, kolor i styl.
-### Czy Aspose.Slides oferuje obsługę innych języków programowania?
+Tak, możesz dostosować wygląd węzłów, łącznie z ich rozmiarem, kolorem i stylem.
+### Czy Aspose.Slides oferuje wsparcie dla innych języków programowania?
 Tak, Aspose.Slides udostępnia biblioteki dla wielu języków programowania, w tym .NET i Python.
-### Czy dostępna jest wersja próbna Aspose.Slides?
- Tak, możesz pobrać bezpłatną wersję próbną ze strony[Tutaj](https://releases.aspose.com/).
+### Czy jest dostępna wersja próbna Aspose.Slides?
+Tak, możesz pobrać bezpłatną wersję próbną ze strony [Tutaj](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,24 +1,26 @@
 ---
-title: जावा पावरपॉइंट में स्मार्टआर्ट नोड से टेक्स्ट प्राप्त करें
-linktitle: जावा पावरपॉइंट में स्मार्टआर्ट नोड से टेक्स्ट प्राप्त करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides का उपयोग करके Java PowerPoint प्रस्तुतियों में SmartArt नोड्स से टेक्स्ट निकालने का तरीका जानें। डेवलपर्स के लिए आसान, चरण-दर-चरण मार्गदर्शिका।
-weight: 14
-url: /hi/java/java-powerpoint-text-alignment-formatting/get-text-from-smartart-node-java-powerpoint/
+"description": "Aspose.Slides का उपयोग करके Java PowerPoint प्रस्तुतियों में SmartArt नोड्स से टेक्स्ट निकालना सीखें। डेवलपर्स के लिए आसान, चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "जावा पावरपॉइंट में स्मार्टआर्ट नोड से टेक्स्ट प्राप्त करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा पावरपॉइंट में स्मार्टआर्ट नोड से टेक्स्ट प्राप्त करें"
+"url": "/hi/java/java-powerpoint-text-alignment-formatting/get-text-from-smartart-node-java-powerpoint/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा पावरपॉइंट में स्मार्टआर्ट नोड से टेक्स्ट प्राप्त करें
 
 ## परिचय
-इस ट्यूटोरियल में, हम Aspose.Slides का उपयोग करके Java PowerPoint प्रस्तुतियों में SmartArt नोड्स से टेक्स्ट निकालने का तरीका जानेंगे। Aspose.Slides एक शक्तिशाली Java लाइब्रेरी है जो डेवलपर्स को प्रोग्रामेटिक रूप से PowerPoint प्रस्तुतियों को बनाने, हेरफेर करने और परिवर्तित करने की अनुमति देती है। SmartArt नोड्स से टेक्स्ट निकालना विभिन्न अनुप्रयोगों जैसे डेटा निष्कर्षण, सामग्री विश्लेषण और बहुत कुछ के लिए उपयोगी हो सकता है। इस गाइड के अंत तक, आपको Java में Aspose.Slides का उपयोग करके SmartArt नोड्स से कुशलतापूर्वक टेक्स्ट प्राप्त करने के तरीके के बारे में स्पष्ट समझ हो जाएगी।
+इस ट्यूटोरियल में, हम Aspose.Slides का उपयोग करके Java PowerPoint प्रस्तुतियों में SmartArt नोड्स से टेक्स्ट निकालने का तरीका जानेंगे। Aspose.Slides एक शक्तिशाली Java लाइब्रेरी है जो डेवलपर्स को प्रोग्रामेटिक रूप से PowerPoint प्रस्तुतियों को बनाने, हेरफेर करने और परिवर्तित करने की अनुमति देती है। SmartArt नोड्स से टेक्स्ट निकालना डेटा निष्कर्षण, सामग्री विश्लेषण और बहुत कुछ जैसे विभिन्न अनुप्रयोगों के लिए उपयोगी हो सकता है। इस गाइड के अंत तक, आपको Java में Aspose.Slides का उपयोग करके SmartArt नोड्स से कुशलतापूर्वक टेक्स्ट प्राप्त करने के तरीके के बारे में स्पष्ट समझ हो जाएगी।
 ## आवश्यक शर्तें
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 1. जावा डेवलपमेंट किट (JDK): Java के लिए Aspose.Slides को JDK 8 या उच्चतर की आवश्यकता होती है।
-2.  Aspose.Slides for Java लाइब्रेरी: आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides for Java लाइब्रेरी: आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 3. एकीकृत विकास वातावरण (IDE): IntelliJ IDEA, Eclipse, या जावा समर्थन के साथ अपनी पसंद के किसी भी IDE का उपयोग करें।
 4. प्रस्तुति फ़ाइल: आपके पास स्मार्टआर्ट के साथ एक पावरपॉइंट फ़ाइल (.pptx) है जिससे आप पाठ निकालना चाहते हैं।
 ## पैकेज आयात करें
@@ -59,22 +61,24 @@ finally {
 }
 ```
 ## निष्कर्ष
-इस ट्यूटोरियल में, हमने बताया है कि Aspose.Slides का उपयोग करके Java PowerPoint प्रस्तुतियों में SmartArt नोड्स से टेक्स्ट कैसे निकाला जाता है। इन चरणों का पालन करके, आप प्रोग्रामेटिक रूप से SmartArt ऑब्जेक्ट से टेक्स्ट सामग्री को प्रभावी ढंग से प्राप्त कर सकते हैं, जिससे आपके Java अनुप्रयोगों में विभिन्न दस्तावेज़ प्रसंस्करण कार्यों को सुविधाजनक बनाया जा सकता है।
+इस ट्यूटोरियल में, हमने बताया है कि Aspose.Slides का उपयोग करके Java PowerPoint प्रस्तुतियों में SmartArt नोड्स से टेक्स्ट कैसे निकाला जाता है। इन चरणों का पालन करके, आप अपने Java अनुप्रयोगों में विभिन्न दस्तावेज़ प्रसंस्करण कार्यों को सुविधाजनक बनाते हुए, SmartArt ऑब्जेक्ट्स से टेक्स्ट सामग्री को प्रोग्रामेटिक रूप से प्रभावी ढंग से प्राप्त कर सकते हैं।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 ### Java के लिए Aspose.Slides क्या है?
 Aspose.Slides for Java एक मजबूत API है जो डेवलपर्स को Java का उपयोग करके प्रोग्रामेटिक रूप से PowerPoint प्रस्तुतियों को बनाने, हेरफेर करने और परिवर्तित करने में सक्षम बनाता है।
 ### मैं Java के लिए Aspose.Slides कैसे डाउनलोड कर सकता हूँ?
- आप Java के लिए Aspose.Slides को यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+आप Java के लिए Aspose.Slides को यहां से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 ### क्या Aspose.Slides for Java व्यावसायिक उपयोग के लिए उपयुक्त है?
- हां, Aspose.Slides for Java का व्यावसायिक उपयोग किया जा सकता है। आप लाइसेंस खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+हां, Aspose.Slides for Java का व्यावसायिक उपयोग किया जा सकता है। आप लाइसेंस खरीद सकते हैं [यहाँ](https://purchase.aspose.com/buy).
 ### क्या Aspose.Slides for Java निःशुल्क परीक्षण प्रदान करता है?
- हां, आप Java के लिए Aspose.Slides का निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
-### मैं Aspose.Slides for Java के लिए समर्थन कहां पा सकता हूं?
- तकनीकी सहायता और सामुदायिक समर्थन के लिए, यहां जाएं[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11).
+हां, आप Java के लिए Aspose.Slides का निःशुल्क परीक्षण प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/).
+### मैं Java के लिए Aspose.Slides का समर्थन कहां पा सकता हूं?
+तकनीकी सहायता और सामुदायिक समर्थन के लिए, यहां जाएं [Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

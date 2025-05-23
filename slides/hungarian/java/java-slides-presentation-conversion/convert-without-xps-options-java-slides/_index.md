@@ -1,57 +1,59 @@
 ---
-title: Konvertálás XPS-beállítások nélkül a Java Slides-ben
-linktitle: Konvertálás XPS-beállítások nélkül a Java Slides-ben
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan konvertálhat PowerPoint prezentációkat XPS formátumba az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskóddal.
-weight: 33
-url: /hu/java/presentation-conversion/convert-without-xps-options-java-slides/
+"description": "Tanuld meg, hogyan konvertálhatsz PowerPoint prezentációkat XPS formátumba az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskóddal."
+"linktitle": "XPS-beállítások nélküli konvertálás Java Slides-ben"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "XPS-beállítások nélküli konvertálás Java Slides-ben"
+"url": "/hu/java/presentation-conversion/convert-without-xps-options-java-slides/"
+"weight": 33
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Konvertálás XPS-beállítások nélkül a Java Slides-ben
+# XPS-beállítások nélküli konvertálás Java Slides-ben
 
 
-## Bevezetés A PowerPoint konvertálása XPS-re XPS-beállítások nélkül az Aspose.Slides for Java-ban
+## Bevezetés PowerPoint konvertálása XPS-be XPS-beállítások nélkül az Aspose.Slides for Java programban
 
-Ebben az oktatóanyagban végigvezetjük a PowerPoint-prezentáció XPS-dokumentummá (XML Paper Specification) való konvertálásának folyamatán az Aspose.Slides for Java használatával XPS-beállítások megadása nélkül. Lépésről lépésre útmutatást és Java forráskódot adunk a feladat elvégzéséhez.
+Ebben az oktatóanyagban végigvezetünk egy PowerPoint-bemutató XPS (XML Paper Specification) dokumentummá konvertálásának folyamatán az Aspose.Slides for Java használatával, XPS-beállítások megadása nélkül. Lépésről lépésre bemutatjuk a feladat végrehajtásához szükséges utasításokat és Java forráskódot.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételeket teljesítette:
+Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 
-1.  Aspose.Slides for Java: Győződjön meg arról, hogy az Aspose.Slides for Java könyvtár telepítve van és be van állítva a Java projektben. Letöltheti a[Aspose.Slides for Java webhely](https://downloads.aspose.com/slides/java).
+1. Aspose.Slides Java-hoz: Győződjön meg arról, hogy az Aspose.Slides Java-hoz könyvtár telepítve és konfigurálva van a Java projektjében. Letöltheti innen: [Aspose.Slides Java-hoz weboldal](https://downloads.aspose.com/slides/java).
 
-2. Java fejlesztői környezet: Java fejlesztői környezetet kell beállítani a számítógépén.
+2. Java fejlesztői környezet: A számítógépén telepíteni kell egy Java fejlesztői környezetet.
 
-## 1. lépés: Importálja az Aspose.Slides-t Java-hoz
+## 1. lépés: Importálja az Aspose.Slides fájlt Java-ba
 
-Java projektjében importálja a Java osztályokhoz szükséges Aspose.Slides fájlt a Java fájl elejére:
+A Java projektedben importáld a szükséges Aspose.Slides fájlokat a Java osztályokhoz a Java fájlod elejére:
 
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 ```
 
-## 2. lépés: Töltse be a PowerPoint-prezentációt
+## 2. lépés: Töltse be a PowerPoint-bemutatót
 
-Most betöltjük azt a PowerPoint prezentációt, amelyet XPS-re szeretne konvertálni. Cserélje ki`"Your Document Directory"` a PowerPoint bemutatófájl tényleges elérési útjával:
+Most betöltjük azt a PowerPoint bemutatót, amelyet XPS formátumba szeretne konvertálni. Csere `"Your Document Directory"` PowerPoint prezentációs fájl tényleges elérési útjával:
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
 String dataDir = "Your Document Directory";
 
-// Példányosítson egy bemutató objektumot, amely egy prezentációs fájlt képvisel
+// Prezentációs fájlt reprezentáló Presentation objektum példányosítása
 Presentation pres = new Presentation(dataDir + "Convert_XPS.pptx");
 ```
 
- Győződjön meg róla, hogy cseréli`"Convert_XPS.pptx"` a PowerPoint-fájl tényleges nevével.
+Győződjön meg róla, hogy kicseréli `"Convert_XPS.pptx"` a PowerPoint-fájl tényleges nevével.
 
 ## 3. lépés: Mentés XPS-ként XPS-beállítások nélkül
 
-Az Aspose.Slides for Java segítségével egyszerűen mentheti a betöltött prezentációt XPS-dokumentumként anélkül, hogy bármilyen XPS-beállítást megadna. A következőképpen teheti meg:
+Az Aspose.Slides Java-ban található eszközével könnyedén mentheti a betöltött prezentációt XPS-dokumentumként XPS-beállítások megadása nélkül. Így teheti meg:
 
 ```java
 try {
@@ -62,14 +64,14 @@ try {
 }
 ```
 
- Ez a kódblokk XPS dokumentumként menti a prezentációt a névvel`"XPS_Output_Without_XPSOption_out.xps"`. A kimeneti fájl nevét szükség szerint módosíthatja.
+Ez a kódblokk XPS dokumentumként menti el a prezentációt a következő néven: `"XPS_Output_Without_XPSOption_out.xps"`A kimeneti fájl nevét szükség szerint módosíthatja.
 
-## Teljes forráskód az XPS-beállítások nélküli konvertáláshoz a Java Slides-ben
+## Teljes forráskód a konvertáláshoz XPS opciók nélkül Java Slides-ben
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
 String dataDir = "Your Document Directory";
-// Példányosítson egy bemutató objektumot, amely egy prezentációs fájlt képvisel
+// Prezentációs fájlt reprezentáló Presentation objektum példányosítása
 Presentation pres = new Presentation(dataDir + "Convert_XPS.pptx");
 try
 {
@@ -84,24 +86,26 @@ finally
 
 ## Következtetés
 
- Ebből az oktatóanyagból megtanulta, hogyan alakíthat át PowerPoint-prezentációt XPS-dokumentummá anélkül, hogy XPS-beállításokat kellene megadnia az Aspose.Slides for Java használatával. Tovább testreszabhatja az átalakítási folyamatot az Aspose.Slides for Java által biztosított lehetőségek felfedezésével. A fejlettebb funkciókért és a részletes dokumentációért látogassa meg a[Aspose.Slides for Java dokumentáció](https://docs.aspose.com/slides/java/).
+Ebben az oktatóanyagban megtanultad, hogyan konvertálhatsz egy PowerPoint bemutatót XPS dokumentummá XPS beállítások megadása nélkül az Aspose.Slides for Java segítségével. A konvertálási folyamatot tovább testreszabhatod az Aspose.Slides for Java által biztosított beállítások megismerésével. További speciális funkciókért és részletes dokumentációért látogass el a következő oldalra: [Aspose.Slides Java dokumentációhoz](https://docs.aspose.com/slides/java/).
 
 ## GYIK
 
 ### Hogyan adhatok meg XPS-beállításokat konvertálás közben?
 
- Az XPS-beállítások megadásához PowerPoint-prezentáció konvertálása közben használhatja a`XpsOptions` osztályt, és állítson be különféle tulajdonságokat, például képtömörítést és betűtípus-beágyazást. Ha speciális követelményei vannak az XPS-konverzióval kapcsolatban, tekintse meg a[Aspose.Slides for Java dokumentáció](https://docs.aspose.com/slides/java/) további részletekért.
+XPS-beállítások megadásához PowerPoint-bemutató konvertálása közben használhatja a `XpsOptions` osztályt, és különféle tulajdonságokat állíthat be, például a képtömörítést és a betűtípus-beágyazást. Ha az XPS-konverzióval kapcsolatban speciális igényei vannak, tekintse meg a következőt: [Aspose.Slides Java dokumentációhoz](https://docs.aspose.com/slides/java/) további részletekért.
 
-### Vannak további lehetőségek más formátumban történő mentéshez?
+### Vannak további lehetőségek más formátumokban történő mentésre?
 
- Igen, az Aspose.Slides for Java különféle kimeneti formátumokat biztosít az XPS mellett, például PDF, TIFF és HTML. Megadhatja a kívánt kimeneti formátumot a`SaveFormat` paraméter hívásakor a`save` módszer. A támogatott formátumok teljes listáját a dokumentációban találja.
+Igen, az Aspose.Slides for Java az XPS mellett számos kimeneti formátumot is kínál, például PDF-et, TIFF-et és HTML-t. A kívánt kimeneti formátumot a `SaveFormat` paraméter meghívásakor `save` módszer. A támogatott formátumok teljes listáját a dokumentációban találja.
 
 ### Hogyan kezelhetem a kivételeket az átalakítási folyamat során?
 
- A kivételkezelést megvalósíthatja az átalakítási folyamat során esetlegesen előforduló hibák kecses kezelése érdekében. Ahogy a kódban látható, a`try` és`finally` blokkot használják az erőforrások megfelelő selejtezésének biztosítására, még akkor is, ha kivétel történik.
+Kivételkezelést valósíthat meg a konverziós folyamat során előforduló hibák szabályos kezeléséhez. Ahogy a kódban látható, egy `try` és `finally` A blokkokat arra használják, hogy biztosítsák az erőforrások megfelelő eltávolítását, még kivétel esetén is.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

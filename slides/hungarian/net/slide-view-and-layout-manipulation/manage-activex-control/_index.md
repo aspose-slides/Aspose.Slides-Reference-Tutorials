@@ -1,51 +1,53 @@
 ---
-title: ActiveX-vezérlők kezelése a PowerPointban
-linktitle: ActiveX-vezérlők kezelése a PowerPointban
-second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Ismerje meg, hogyan javíthatja a PowerPoint bemutatókat ActiveX-vezérlőkkel az Aspose.Slides for .NET segítségével. Lépésről lépésre szóló útmutatónk kiterjed a beillesztésre, a manipulációra, a testreszabásra, az eseménykezelésre és még sok másra.
-weight: 13
-url: /hu/net/slide-view-and-layout-manipulation/manage-activex-control/
+"description": "Ismerje meg, hogyan teheti teljessé PowerPoint-bemutatóit ActiveX-vezérlőkkel az Aspose.Slides for .NET segítségével. Lépésről lépésre útmutatónk bemutatja a beszúrást, a manipulációt, a testreszabást, az eseménykezelést és egyebeket."
+"linktitle": "ActiveX-vezérlő kezelése a PowerPointban"
+"second_title": "Aspose.Slides .NET PowerPoint feldolgozási API"
+"title": "ActiveX-vezérlő kezelése a PowerPointban"
+"url": "/hu/net/slide-view-and-layout-manipulation/manage-activex-control/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ActiveX-vezérlők kezelése a PowerPointban
+# ActiveX-vezérlő kezelése a PowerPointban
 
-Az ActiveX-vezérlők hatékony elemek, amelyek javíthatják a PowerPoint-prezentációk funkcionalitását és interaktivitását. Ezekkel a vezérlőkkel közvetlenül a diákba ágyazhat be és kezelhet olyan objektumokat, mint a multimédiás lejátszók, adatbeviteli űrlapok és még sok más. Ebben a cikkben megvizsgáljuk, hogyan kezelheti az ActiveX-vezérlőket a PowerPointban az Aspose.Slides for .NET használatával, amely egy sokoldalú könyvtár, amely lehetővé teszi a PowerPoint-fájlok zökkenőmentes integrációját és kezelését a .NET-alkalmazásokban.
+Az ActiveX-vezérlők hatékony elemek, amelyek javíthatják a PowerPoint-bemutatók funkcionalitását és interaktivitását. Ezek a vezérlők lehetővé teszik objektumok, például multimédia-lejátszók, adatbeviteli űrlapok és más elemek beágyazását és közvetlen kezelését a diákon belül. Ebben a cikkben azt vizsgáljuk meg, hogyan kezelhetjük az ActiveX-vezérlőket a PowerPointban az Aspose.Slides for .NET segítségével, amely egy sokoldalú könyvtár, amely lehetővé teszi a PowerPoint-fájlok zökkenőmentes integrációját és kezelését a .NET-alkalmazásokban.
 
-## ActiveX-vezérlők hozzáadása a PowerPoint diákhoz
+## ActiveX-vezérlők hozzáadása PowerPoint diákhoz
 
-Az ActiveX-vezérlők PowerPoint-prezentációiba való beépítéséhez kövesse az alábbi lépéseket:
+Az ActiveX-vezérlők PowerPoint-bemutatókba való beépítésének megkezdéséhez kövesse az alábbi lépéseket:
 
-1.  Új PowerPoint-bemutató létrehozása: Először is hozzon létre egy új PowerPoint-prezentációt az Aspose.Slides for .NET segítségével. Hivatkozhat a[Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/) útmutatásért a prezentációk kezeléséhez.
+1. Új PowerPoint-bemutató létrehozása: Először hozzon létre egy új PowerPoint-bemutatót az Aspose.Slides for .NET használatával. További információért tekintse meg a következőt: [Aspose.Slides .NET API-referencia](https://reference.aspose.com/slides/net/) útmutatást a prezentációkkal való munkához.
 
-2. Dia hozzáadása: A könyvtár segítségével új diát adhat a bemutatóhoz. Ez lesz az a dia, ahová be szeretné illeszteni az ActiveX-vezérlőt.
+2. Dia hozzáadása: A könyvtár segítségével új diát adhat hozzá a bemutatóhoz. Ez lesz az a dia, ahová be szeretné szúrni az ActiveX-vezérlőt.
 
-3. Az ActiveX-vezérlő beillesztése: Itt az ideje beilleszteni az ActiveX-vezérlőt a diára. Ezt az alábbi mintakód követésével érheti el:
+3. ActiveX-vezérlő beszúrása: Most itt az ideje, hogy beszúrja az ActiveX-vezérlőt a diára. Ezt az alábbi mintakód követésével teheti meg:
 
 ```csharp
-// Töltse be a prezentációt
+// Töltsd be a prezentációt
 Presentation presentation = new Presentation("path_to_your_presentation.pptx");
 
-// Szerezze be azt a diát, ahová be szeretné szúrni az ActiveX-vezérlőt
+// Jelöld ki azt a diát, ahová be szeretnéd szúrni az ActiveX-vezérlőt.
 ISlide slide = presentation.Slides[0];
 
-// Határozza meg az ActiveX-vezérlő tulajdonságait
-int left = 100; // Adja meg a bal pozíciót
-int top = 100; // Adja meg a felső pozíciót
+// Az ActiveX-vezérlő tulajdonságainak meghatározása
+int left = 100; // Adja meg a bal oldali pozíciót
+int top = 100; // Adja meg a legfelső pozíciót
 int width = 200; // Adja meg a szélességet
 int height = 100; // Adja meg a magasságot
-string progId = "YourActiveXControl.ProgID"; // Adja meg az ActiveX-vezérlő ProgID-jét
+string progId = "YourActiveXControl.ProgID"; // Adja meg az ActiveX-vezérlő ProgID-ját
 
-// Adja hozzá az ActiveX-vezérlőt a diához
+// ActiveX-vezérlő hozzáadása a diához
 IOleObjectFrame oleObjectFrame = slide.Shapes.AddOleObjectFrame(left, top, width, height, progId);
 ```
 
- Mindenképpen cserélje ki`"YourActiveXControl.ProgID"` a beilleszteni kívánt ActiveX-vezérlő tényleges ProgID-jével.
+Mindenképpen cserélje ki `"YourActiveXControl.ProgID"` a beszúrni kívánt ActiveX-vezérlő tényleges ProgID-jával.
 
-4. Prezentáció mentése: Az ActiveX-vezérlő beillesztése után mentse el a bemutatót a következő kóddal:
+4. A prezentáció mentése: Az ActiveX-vezérlő beszúrása után mentse el a prezentációt a következő kóddal:
 
 ```csharp
 presentation.Save("output.pptx", SaveFormat.Pptx);
@@ -53,33 +55,33 @@ presentation.Save("output.pptx", SaveFormat.Pptx);
 
 ## ActiveX-vezérlők programozott kezelése
 
-Miután hozzáadta az ActiveX-vezérlőt a diához, érdemes lehet programozottan módosítani. A következőképpen teheti meg:
+Miután hozzáadta az ActiveX-vezérlőt a diához, érdemes lehet programozottan módosítani. Így teheti meg:
 
-1. Az ActiveX-vezérlő elérése: Az ActiveX-vezérlő tulajdonságainak és metódusainak eléréséhez be kell szereznie egy hivatkozást. Használja a következő kódot a diáról való vezérléshez:
+1. Az ActiveX-vezérlő elérése: Az ActiveX-vezérlő tulajdonságainak és metódusainak eléréséhez hivatkozást kell beszereznie rá. Használja a következő kódot a vezérlő diáról való kinyeréséhez:
 
 ```csharp
 IOleObjectFrame oleObjectFrame = slide.Shapes[0] as IOleObjectFrame;
 ```
 
-2. Módszerek meghívása: A kapott hivatkozás segítségével meghívhatja az ActiveX-vezérlő metódusait. Például, ha az ActiveX-vezérlőnek van egy "Play" nevű metódusa, akkor ezt így hívhatja:
+2. Metódusok meghívása: Az ActiveX-vezérlő metódusait a beszerzett hivatkozás segítségével hívhatja meg. Például, ha az ActiveX-vezérlőnek van egy „Lejátszás” nevű metódusa, akkor azt így hívhatja meg:
 
 ```csharp
 oleObjectFrame.InvokeMethod("Play");
 ```
 
-3. Tulajdonságok beállítása: Az ActiveX-vezérlő tulajdonságait programozottan is beállíthatja. Például, ha a vezérlőnek van egy "Hangerő" nevű tulajdonsága, a következőképpen állíthatja be:
+3. Tulajdonságok beállítása: Az ActiveX-vezérlő tulajdonságait programozottan is beállíthatja. Például, ha a vezérlő rendelkezik egy „Hangerő” nevű tulajdonsággal, akkor azt a következőképpen állíthatja be:
 
 ```csharp
 oleObjectFrame.SetProperty("Volume", 50);
 ```
 
-## Az ActiveX-vezérlő tulajdonságainak testreszabása
+## ActiveX-vezérlő tulajdonságainak testreszabása
 
-Az ActiveX-vezérlő tulajdonságainak testreszabása nagyban javíthatja a bemutató felhasználói élményét. A következőképpen szabhatja testre ezeket a tulajdonságokat:
+Az ActiveX-vezérlő tulajdonságainak testreszabása nagymértékben javíthatja a bemutató felhasználói élményét. Így szabhatja testre ezeket a tulajdonságokat:
 
-1.  Hozzáférés tulajdonságai: Mint korábban említettük, az ActiveX-vezérlő tulajdonságait a következővel érheti el`IOleObjectFrame` referencia.
+1. Tulajdonságok elérése: Ahogy korábban említettük, az ActiveX-vezérlő tulajdonságait a következővel érheti el: `IOleObjectFrame` referencia.
 
-2.  Tulajdonságok beállítása: Használja a`SetProperty`módszer az ActiveX-vezérlő különféle tulajdonságainak beállítására. Például a háttérszínt így módosíthatja:
+2. Tulajdonságok beállítása: Használja a `SetProperty` metódus az ActiveX-vezérlő különböző tulajdonságainak beállításához. Például a háttérszínt így módosíthatja:
 
 ```csharp
 oleObjectFrame.SetProperty("BackColor", Color.Red);
@@ -87,24 +89,24 @@ oleObjectFrame.SetProperty("BackColor", Color.Red);
 
 ## ActiveX-vezérlőkkel kapcsolatos események kezelése
 
-Az ActiveX-vezérlők gyakran olyan eseményeket tartalmaznak, amelyek a felhasználói interakciókon alapuló műveleteket indíthatnak el. A következőképpen kezelheti ezeket az eseményeket:
+Az ActiveX-vezérlőkhöz gyakran kapcsolódnak olyan események, amelyek felhasználói interakciók alapján műveleteket indíthatnak el. Így kezelheti ezeket az eseményeket:
 
-1. Feliratkozás az eseményekre: Először iratkozzon fel az ActiveX-vezérlő kívánt eseményére. Például, ha a vezérlőnek van egy "Kattintott" eseménye, akkor a következőképpen iratkozhat fel rá:
+1. Eseményekre feliratkozás: Először iratkozzon fel az ActiveX-vezérlő kívánt eseményére. Például, ha a vezérlőhöz tartozik egy „Kattintott” esemény, akkor a következőképpen iratkozhat fel rá:
 
 ```csharp
 oleObjectFrame.EventClick += (sender, args) =>
 {
-    // Az eseménykezelési kódod itt
+    // Az eseménykezelő kódod itt van
 };
 ```
 
-## ActiveX-vezérlők törlése a Diákból
+## ActiveX-vezérlők törlése a diákról
 
 Ha el szeretne távolítani egy ActiveX-vezérlőt egy diáról, kövesse az alábbi lépéseket:
 
-1.  A vezérlő elérése: Szerezzen hivatkozást az ActiveX-vezérlőre a következővel:`IOleObjectFrame` hivatkozás a korábban látható módon.
+1. Hozzáférés a vezérlőhöz: ActiveX-vezérlőre mutató hivatkozás beszerzése a következő használatával: `IOleObjectFrame` hivatkozás, ahogy azt korábban láthattuk.
 
-2. Távolítsa el a vezérlőt: Használja a következő kódot a vezérlő eltávolításához a diáról:
+2. A vezérlő eltávolítása: A következő kóddal távolítsa el a vezérlőt a diáról:
 
 ```csharp
 slide.Shapes.Remove(oleObjectFrame);
@@ -112,52 +114,54 @@ slide.Shapes.Remove(oleObjectFrame);
 
 ## A módosított prezentáció mentése és exportálása
 
-Miután minden szükséges módosítást végrehajtott a prezentáción, a következő kóddal mentheti és exportálhatja azt:
+Miután elvégezte a szükséges módosításokat a prezentáción, mentheti és exportálhatja azt a következő kóddal:
 
 ```csharp
 presentation.Save("modified.pptx", SaveFormat.Pptx);
 ```
 
-## Az Aspose.Slides .NET-hez használatának előnyei
+## Az Aspose.Slides .NET használatának előnyei
 
-Az Aspose.Slides for .NET leegyszerűsíti az ActiveX-vezérlőkkel való munkát a PowerPoint-prezentációkban azáltal, hogy felhasználóbarát API-t biztosít, amely lehetővé teszi ezen vezérlők zökkenőmentes integrálását és kezelését. Az Aspose.Slides for .NET használatának néhány előnye a következők:
+Az Aspose.Slides for .NET leegyszerűsíti az ActiveX-vezérlők PowerPoint-bemutatókban való használatát egy felhasználóbarát API biztosításával, amely lehetővé teszi ezen vezérlők zökkenőmentes integrálását és kezelését. Az Aspose.Slides for .NET használatának néhány előnye:
 
-- Az ActiveX-vezérlők egyszerű beillesztése a diákba.
+- ActiveX vezérlők egyszerű beillesztése a diákra.
 - Átfogó módszerek a vezérlőkkel való programozott interakcióhoz.
-- A vezérlés tulajdonságainak egyszerűsített testreszabása.
+- A vezérlőelemek tulajdonságainak egyszerűsített testreszabása.
 - Hatékony eseménykezelés interaktív prezentációkhoz.
-- A vezérlőelemek egyszerű eltávolítása a diákról.
+- A vezérlők egyszerűsített eltávolítása a diákról.
 
 ## Következtetés
 
-Az ActiveX-vezérlők beépítése a PowerPoint-prezentációkba növelheti a közönség interaktivitását és elkötelezettségét. Az Aspose.Slides for .NET segítségével hatékony eszköz áll rendelkezésére az ActiveX-vezérlők zökkenőmentes kezeléséhez, lehetővé téve dinamikus és lebilincselő prezentációk készítését, amelyek maradandó benyomást keltenek.
+Az ActiveX-vezérlők PowerPoint-bemutatókba való beépítése növelheti a közönség interaktivitását és elköteleződését. Az Aspose.Slides for .NET segítségével egy hatékony eszköz áll rendelkezésére az ActiveX-vezérlők zökkenőmentes kezeléséhez, lehetővé téve dinamikus és lebilincselő bemutatók készítését, amelyek maradandó benyomást keltenek.
 
 ## GYIK
 
 ### Hogyan adhatok hozzá ActiveX-vezérlőt egy adott diához?
 
- Ha ActiveX-vezérlőt szeretne hozzáadni egy adott diához, használja a`AddOleObjectFrame` Az Aspose.Slides által biztosított módszer a .NET számára. Ezzel a módszerrel megadhatja a beszúrni kívánt ActiveX-vezérlő pozícióját, méretét és ProgID-jét.
+Ha ActiveX-vezérlőt szeretne hozzáadni egy adott diához, használhatja a `AddOleObjectFrame` Az Aspose.Slides által for .NET biztosított metódus. Ez a metódus lehetővé teszi a beszúrni kívánt ActiveX-vezérlő pozíciójának, méretének és ProgID-jának megadását.
 
-### Módosíthatom az ActiveX-vezérlőket programozottan?
+### Lehet programozottan ActiveX vezérlőket manipulálni?
 
- Igen, az ActiveX-vezérlőket programozottan is módosíthatja az Aspose.Slides for .NET használatával. Hivatkozás megszerzésével a`IOleObjectFrame` A vezérlőelemet reprezentáló metódusokat hívhat meg, és tulajdonságokat állíthat be a vezérlővel való dinamikus interakcióhoz.
+Igen, az ActiveX-vezérlőket programozottan is lehet manipulálni az Aspose.Slides for .NET segítségével. A hivatkozás beszerzésével `IOleObjectFrame` A vezérlőt reprezentálva metódusokat hívhat meg és tulajdonságokat állíthat be a vezérlővel való dinamikus interakcióhoz.
 
 ### Hogyan kezeljem az eseményeket
 
- ActiveX-vezérlők váltják ki?
+ ActiveX vezérlők által aktiválva?
 
-Az ActiveX-vezérlők által kiváltott eseményeket úgy kezelheti, hogy előfizet a megfelelő eseményekre a következővel`EventClick` (vagy hasonló) eseménykezelő. Ez lehetővé teszi bizonyos műveletek végrehajtását a vezérlővel való felhasználói interakciók hatására.
+Az ActiveX-vezérlők által kiváltott eseményeket úgy kezelheti, hogy feliratkozik a megfelelő eseményekre a `EventClick` (vagy hasonló) eseménykezelő. Ez lehetővé teszi adott műveletek végrehajtását a felhasználói interakciókra válaszul a vezérlővel.
 
-### Testreszabható az ActiveX-vezérlők megjelenése?
+### Lehetséges az ActiveX vezérlők megjelenésének testreszabása?
 
- Természetesen testreszabhatja az ActiveX-vezérlők megjelenését a`SetProperty` Az Aspose.Slides által biztosított módszer a .NET számára. Ez a módszer lehetővé teszi különböző tulajdonságok, például háttérszín, betűstílus és egyebek módosítását.
+Természetesen testreszabhatja az ActiveX-vezérlők megjelenését a `SetProperty` Az Aspose.Slides által for .NET biztosított metódus. Ez a metódus lehetővé teszi különféle tulajdonságok, például a háttérszín, a betűstílus és egyebek módosítását.
 
-### Eltávolíthatok egy ActiveX-vezérlőt a diáról?
+### Eltávolíthatok egy ActiveX-vezérlőt egy diáról?
 
- Igen, eltávolíthat egy ActiveX-vezérlőt a diákról a`Remove` módszere a`Shapes` Gyűjtemény. Adja át a hivatkozást a`IOleObjectFrame` a vezérlést argumentumként ábrázolva a`Remove` módszert, és a vezérlő eltávolítódik a diáról.
+Igen, eltávolíthat egy ActiveX-vezérlőt egy diáról a következővel: `Remove` a módszer `Shapes` gyűjtemény. Adja át a hivatkozást a `IOleObjectFrame` a kontroll argumentumként való ábrázolása a `Remove` metódust, és a vezérlőelem eltávolításra kerül a diáról.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,55 +1,57 @@
 ---
-title: Odebrat segment z geometrického tvaru v PowerPointu
-linktitle: Odebrat segment z geometrického tvaru v PowerPointu
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Naučte se, jak odstranit segmenty z geometrických tvarů v PowerPointu pomocí Aspose.Slides for Java, s naším podrobným průvodcem krok za krokem.
-weight: 22
-url: /cs/java/java-powerpoint-shape-formatting-geometry/remove-segment-geometry-shape-powerpoint/
+"description": "Naučte se, jak odstranit segmenty z geometrických tvarů v PowerPointu pomocí Aspose.Slides pro Javu s naším podrobným návodem krok za krokem."
+"linktitle": "Odebrání segmentu z geometrického tvaru v PowerPointu"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Odebrání segmentu z geometrického tvaru v PowerPointu"
+"url": "/cs/java/java-powerpoint-shape-formatting-geometry/remove-segment-geometry-shape-powerpoint/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Odebrat segment z geometrického tvaru v PowerPointu
+# Odebrání segmentu z geometrického tvaru v PowerPointu
 
-## Úvod
-Chcete manipulovat s tvary v prezentacích PowerPoint pomocí Javy? Jste na správném místě! Aspose.Slides for Java je robustní API, které vám umožňuje snadno vytvářet, upravovat a spravovat snímky v prezentacích. V tomto kurzu vás provedeme procesem odebrání segmentu z geometrického tvaru v PowerPointu. Ať už jste zkušený vývojář nebo teprve začínáte, tento průvodce vám krok za krokem poskytne postup, jak tento úkol zvládnout. Jste připraveni se ponořit? Začněme!
+## Zavedení
+Hledáte způsoby, jak manipulovat s tvary ve svých prezentacích v PowerPointu pomocí Javy? Jste na správném místě! Aspose.Slides pro Javu je robustní API, které vám umožňuje bez námahy vytvářet, upravovat a spravovat snímky ve vašich prezentacích. V tomto tutoriálu vás provedeme procesem odebrání segmentu z geometrického tvaru v PowerPointu. Ať už jste zkušený vývojář, nebo teprve začínáte, tato příručka vám poskytne podrobný návod, jak tento úkol zvládnout. Jste připraveni se do toho pustit? Pojďme na to!
 ## Předpoklady
 Než začneme, ujistěte se, že máte následující:
-1.  Java Development Kit (JDK): Ujistěte se, že máte v systému nainstalovaný JDK. Můžete si jej stáhnout z[Web společnosti Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
-2.  Aspose.Slides for Java: Stáhněte si knihovnu Aspose.Slides pro Java z[tady](https://releases.aspose.com/slides/java/).
+1. Vývojářská sada Java (JDK): Ujistěte se, že máte v systému nainstalovanou JDK. Můžete si ji stáhnout z [Webové stránky společnosti Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+2. Aspose.Slides pro Javu: Stáhněte si knihovnu Aspose.Slides pro Javu z [zde](https://releases.aspose.com/slides/java/).
 3. Integrované vývojové prostředí (IDE): Pro psaní a spouštění kódu Java použijte IDE, jako je IntelliJ IDEA nebo Eclipse.
-4. Základní znalost Javy: Základní znalost programování v Javě vám pomůže pokračovat v tomto tutoriálu.
-## Importujte balíčky
-Pro začátek musíme naimportovat potřebné balíčky z knihovny Aspose.Slides. Postup je následující:
+4. Základní znalost Javy: Základní znalost programování v Javě vám pomůže s tímto tutoriálem.
+## Importovat balíčky
+Pro začátek musíme importovat potřebné balíčky z knihovny Aspose.Slides. Postupujte takto:
 ```java
 import com.aspose.slides.*;
 
 ```
-Rozdělme proces odebrání segmentu z geometrického tvaru na snímku aplikace PowerPoint do několika kroků.
+Pojďme si rozebrat proces odebrání segmentu z geometrického tvaru na snímku aplikace PowerPoint do několika kroků.
 ## Krok 1: Vytvořte novou prezentaci
-Nejprve musíme vytvořit nový objekt prezentace. Tento objekt bude sloužit jako schránka pro naše diapozitivy a tvary.
+Nejprve musíme vytvořit nový objekt prezentace. Tento objekt bude sloužit jako kontejner pro naše snímky a tvary.
 ```java
 Presentation pres = new Presentation();
 ```
-## Krok 2: Přidejte geometrický tvar do snímku
-Dále přidejte na snímek tvar geometrie. Pro tento příklad použijeme tvar srdce.
+## Krok 2: Přidání geometrického tvaru na snímek
+Dále přidejte na snímek geometrický tvar. V tomto příkladu použijeme tvar srdce.
 ```java
 GeometryShape shape = (GeometryShape) pres.getSlides().get_Item(0).getShapes().addAutoShape(ShapeType.Heart, 100, 100, 300, 300);
 ```
-## Krok 3: Načtěte geometrickou cestu tvaru
-Jakmile je tvar přidán, musíme načíst jeho geometrickou cestu. Geometrická dráha obsahuje segmenty, které definují tvar.
+## Krok 3: Načtení geometrické cesty tvaru
+Jakmile je tvar přidán, musíme načíst jeho geometrickou cestu. Geometrická cesta obsahuje segmenty, které definují tvar.
 ```java
 IGeometryPath path = shape.getGeometryPaths()[0];
 ```
-## Krok 4: Odstraňte segment z geometrické cesty
-Nyní odstraníme konkrétní segment z geometrické dráhy. V tomto příkladu odstraníme segment na indexu 2.
+## Krok 4: Odebrání segmentu z geometrické cesty
+Nyní odstraníme konkrétní segment z geometrické cesty. V tomto příkladu odstraníme segment na indexu 2.
 ```java
 path.removeAt(2);
 ```
-## Krok 5: Nastavte novou geometrickou cestu
-Po odstranění segmentu nastavte upravenou geometrickou cestu zpět na tvar.
+## Krok 5: Nastavení nové geometrické cesty
+Po odstranění segmentu vraťte upravenou geometrickou cestu zpět do tvaru.
 ```java
 shape.setGeometryPath(path);
 ```
@@ -59,27 +61,29 @@ Nakonec upravenou prezentaci uložte do souboru.
 String resultPath = "Your Output Directory" + "GeometryShapeRemoveSegment.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
-## Krok 7: Vyčistěte zdroje
-Vždy zajistěte vyčištění prostředků, abyste zabránili úniku paměti.
+## Krok 7: Vyčištění zdrojů
+Vždy se ujistěte, že jste vyčistili zdroje, abyste zabránili úniku paměti.
 ```java
 if (pres != null) pres.dispose();
 ```
 ## Závěr
-tady to máte! S Aspose.Slides pro Java je manipulace s tvary v prezentacích PowerPoint přímočará a efektivní. Podle kroků uvedených v tomto kurzu můžete snadno odstranit segmenty z geometrických tvarů, což vám poskytne větší kontrolu nad návrhem a funkčností vašich snímků. Šťastné kódování!
-## FAQ
-### Co je Aspose.Slides for Java?
-Aspose.Slides for Java je výkonné API pro vytváření, úpravy a správu prezentací v PowerPointu programově.
-### Mohu použít Aspose.Slides pro Java s jinými tvary kromě tvaru srdce?
-Absolutně! Aspose.Slides for Java podporuje širokou škálu tvarů, se kterými můžete manipulovat.
-### Je k dispozici bezplatná zkušební verze pro Aspose.Slides pro Java?
- Ano, můžete si stáhnout bezplatnou zkušební verzi z[tady](https://releases.aspose.com/).
-### Potřebuji licenci k používání Aspose.Slides for Java?
- Ano, pro plnou funkčnost potřebujete licenci. Můžete si jeden zakoupit[tady](https://purchase.aspose.com/buy) nebo získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
-### Kde najdu další dokumentaci k Aspose.Slides for Java?
- K dispozici je obsáhlá dokumentace[tady](https://reference.aspose.com/slides/java/).
+A tady to máte! S Aspose.Slides pro Javu je manipulace s tvary ve vašich prezentacích v PowerPointu jednoduchá a efektivní. Dodržováním kroků popsaných v tomto tutoriálu můžete snadno odebrat segmenty z geometrických tvarů, což vám poskytne větší kontrolu nad designem a funkčností vašich slajdů. Šťastné programování!
+## Často kladené otázky
+### Co je Aspose.Slides pro Javu?
+Aspose.Slides pro Javu je výkonné API pro programovou tvorbu, úpravu a správu prezentací v PowerPointu.
+### Mohu použít Aspose.Slides pro Javu s jinými tvary než tvarem srdce?
+Rozhodně! Aspose.Slides pro Javu podporuje širokou škálu tvarů, se kterými můžete manipulovat.
+### Je k dispozici bezplatná zkušební verze Aspose.Slides pro Javu?
+Ano, můžete si stáhnout bezplatnou zkušební verzi z [zde](https://releases.aspose.com/).
+### Potřebuji licenci k používání Aspose.Slides pro Javu?
+Ano, pro plnou funkčnost potřebujete licenci. Můžete si ji zakoupit. [zde](https://purchase.aspose.com/buy) nebo si pořídit dočasný řidičský průkaz [zde](https://purchase.aspose.com/temporary-license/).
+### Kde najdu další dokumentaci k Aspose.Slides pro Javu?
+K dispozici je komplexní dokumentace [zde](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

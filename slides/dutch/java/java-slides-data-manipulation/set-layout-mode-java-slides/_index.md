@@ -1,28 +1,30 @@
 ---
-title: Stel de lay-outmodus in Java-dia's in
-linktitle: Stel de lay-outmodus in Java-dia's in
-second_title: Aspose.Slides Java PowerPoint-verwerkings-API
-description: Leer hoe u de lay-outmodi voor Java-dia's instelt met Aspose.Slides. Pas de positionering en grootte van diagrammen aan in deze stapsgewijze handleiding met broncode.
-weight: 23
-url: /nl/java/data-manipulation/set-layout-mode-java-slides/
+"description": "Leer hoe u lay-outmodi voor Java-dia's instelt met Aspose.Slides. Pas de positie en grootte van diagrammen aan in deze stapsgewijze handleiding met broncode."
+"linktitle": "Lay-outmodus instellen in Java-dia's"
+"second_title": "Aspose.Slides Java PowerPoint-verwerkings-API"
+"title": "Lay-outmodus instellen in Java-dia's"
+"url": "/nl/java/data-manipulation/set-layout-mode-java-slides/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Stel de lay-outmodus in Java-dia's in
+# Lay-outmodus instellen in Java-dia's
 
 
-## Inleiding tot het instellen van de lay-outmodus in Java-dia's
+## Inleiding tot de lay-outmodus in Java-dia's
 
-In deze zelfstudie leren we hoe u de lay-outmodus voor een diagram in Java-dia's kunt instellen met behulp van Aspose.Slides voor Java. De lay-outmodus bepaalt de positionering en grootte van het diagram binnen de dia.
+In deze tutorial leren we hoe je de lay-outmodus voor een grafiek in Java-dia's instelt met Aspose.Slides voor Java. De lay-outmodus bepaalt de positie en grootte van de grafiek in de dia.
 
 ## Vereisten
 
- Voordat we beginnen, moet u ervoor zorgen dat de Aspose.Slides voor Java-bibliotheek is geïnstalleerd en ingesteld in uw Java-project. U kunt de bibliotheek downloaden van[hier](https://releases.aspose.com/slides/java/).
+Voordat we beginnen, zorg ervoor dat je de Aspose.Slides voor Java-bibliotheek hebt geïnstalleerd en ingesteld in je Java-project. Je kunt de bibliotheek downloaden van [hier](https://releases.aspose.com/slides/java/).
 
-## Stap 1: Maak een presentatie
+## Stap 1: Een presentatie maken
 
 Eerst moeten we een nieuwe presentatie maken.
 
@@ -33,16 +35,16 @@ Presentation presentation = new Presentation();
 
 ## Stap 2: Voeg een dia en grafiek toe
 
-Vervolgens voegen we er een dia en een diagram aan toe. In dit voorbeeld maken we een geclusterd kolomdiagram.
+Vervolgens voegen we er een dia en een grafiek aan toe. In dit voorbeeld maken we een geclusterde kolomgrafiek.
 
 ```java
 ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.ClusteredColumn, 20, 100, 600, 400);
 ```
 
-## Stap 3: Stel de diagramindeling in
+## Stap 3: Stel de grafiekindeling in
 
- Laten we nu de lay-out voor het diagram instellen. We passen de positie en grootte van het diagram binnen de dia aan met behulp van de`setX`, `setY`, `setWidth`, `setHeight` methoden. Daarnaast stellen we de`LayoutTargetType` om de lay-outmodus te bepalen.
+Laten we nu de lay-out van de grafiek instellen. We passen de positie en grootte van de grafiek binnen de dia aan met behulp van de `setX`, `setY`, `setWidth`, `setHeight` methoden. Daarnaast zullen we de `LayoutTargetType` om de lay-outmodus te bepalen.
 
 ```java
 chart.getPlotArea().setX(0.2f);
@@ -52,17 +54,17 @@ chart.getPlotArea().setHeight(0.7f);
 chart.getPlotArea().setLayoutTargetType(LayoutTargetType.Inner);
 ```
 
-In dit voorbeeld hebben we het lay-outdoeltype van het diagram ingesteld op 'Binnen', wat betekent dat het wordt gepositioneerd en gedimensioneerd ten opzichte van het binnengebied van de dia.
+In dit voorbeeld hebben we het diagram ingesteld op het lay-outdoeltype 'Inner'. Dit betekent dat de positie en grootte van het diagram worden aangepast ten opzichte van het binnenste gebied van de dia.
 
 ## Stap 4: Sla de presentatie op
 
-Laten we ten slotte de presentatie opslaan met de instellingen voor de diagramindeling.
+Ten slotte slaan we de presentatie op met de instellingen voor de grafiekindeling.
 
 ```java
 presentation.save(dataDir + "SetLayoutMode_outer.pptx", SaveFormat.Pptx);
 ```
 
-## Volledige broncode voor de lay-outmodus instellen in Java-dia's
+## Volledige broncode voor de set-layoutmodus in Java-dia's
 
 ```java
 String dataDir = "Your Document Directory";
@@ -86,24 +88,26 @@ finally
 
 ## Conclusie
 
- In deze zelfstudie hebben we geleerd hoe u de lay-outmodus voor een diagram in Java-dia's kunt instellen met behulp van Aspose.Slides voor Java. U kunt de positie en grootte van het diagram aanpassen aan uw specifieke vereisten door de waarden in het diagram aan te passen`setX`, `setY`, `setWidth`, `setHeight` , En`setLayoutTargetType`methoden. Dit geeft u controle over de plaatsing van diagrammen in uw dia's.
+In deze tutorial hebben we geleerd hoe je de lay-outmodus voor een grafiek in Java-dia's instelt met Aspose.Slides voor Java. Je kunt de positie en grootte van de grafiek aanpassen aan je specifieke wensen door de waarden in de `setX`, `setY`, `setWidth`, `setHeight`, En `setLayoutTargetType` methoden. Hiermee hebt u controle over de plaatsing van grafieken in uw dia's.
 
 ## Veelgestelde vragen
 
-### Hoe wijzig ik de lay-outmodus voor een diagram in Aspose.Slides voor Java?
+### Hoe wijzig ik de lay-outmodus voor een grafiek in Aspose.Slides voor Java?
 
- Om de lay-outmodus voor een diagram in Aspose.Slides voor Java te wijzigen, kunt u de`setLayoutTargetType` methode op het plotgebied van de kaart. Je kunt het op beide instellen`LayoutTargetType.Inner` of`LayoutTargetType.Outer` afhankelijk van uw gewenste indeling.
+Om de lay-outmodus voor een grafiek in Aspose.Slides voor Java te wijzigen, kunt u de `setLayoutTargetType` methode op het tekengebied van de grafiek. U kunt het instellen op `LayoutTargetType.Inner` of `LayoutTargetType.Outer` afhankelijk van de door u gewenste indeling.
 
-### Kan ik de positie en grootte van het diagram binnen de dia aanpassen?
+### Kan ik de positie en de grootte van het diagram in de dia aanpassen?
 
- Ja, u kunt de positie en grootte van het diagram binnen de dia aanpassen met behulp van de`setX`, `setY`, `setWidth` , En`setHeight` methoden in het plotgebied van de kaart. Pas deze waarden aan om de grafiek volgens uw vereisten te positioneren en te vergroten.
+Ja, u kunt de positie en de grootte van het diagram binnen de dia aanpassen met behulp van de `setX`, `setY`, `setWidth`, En `setHeight` Methoden op het tekengebied van de grafiek. Pas deze waarden aan om de grafiek naar wens te positioneren en te formatteren.
 
 ### Waar kan ik meer informatie vinden over Aspose.Slides voor Java?
 
- Meer informatie over Aspose.Slides voor Java vindt u in de[documentatie](https://reference.aspose.com/slides/java/). Het bevat gedetailleerde API-referenties en voorbeelden om u te helpen effectief met dia's en grafieken te werken in Java.
+Meer informatie over Aspose.Slides voor Java vindt u in de [documentatie](https://reference.aspose.com/slides/java/)Het bevat gedetailleerde API-referenties en voorbeelden waarmee u effectief met dia's en grafieken in Java kunt werken.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

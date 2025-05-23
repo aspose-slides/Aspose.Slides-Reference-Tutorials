@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में स्वचालित श्रृंखला भरण रंग सेट करें
-linktitle: जावा स्लाइड्स में स्वचालित श्रृंखला भरण रंग सेट करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके Java स्लाइड्स में स्वचालित श्रृंखला भरण रंग सेट करना सीखें। गतिशील प्रस्तुतियों के लिए कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 14
-url: /hi/java/data-manipulation/set-automatic-series-fill-color-java-slides/
+"description": "Aspose.Slides for Java का उपयोग करके Java स्लाइड्स में स्वचालित श्रृंखला भरण रंग सेट करना सीखें। गतिशील प्रस्तुतियों के लिए कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "जावा स्लाइड्स में स्वचालित श्रृंखला भरण रंग सेट करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में स्वचालित श्रृंखला भरण रंग सेट करें"
+"url": "/hi/java/data-manipulation/set-automatic-series-fill-color-java-slides/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में स्वचालित श्रृंखला भरण रंग सेट करें
@@ -23,7 +25,7 @@ url: /hi/java/data-manipulation/set-automatic-series-fill-color-java-slides/
 इससे पहले कि हम कोड में उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
 - आपके सिस्टम पर जावा डेवलपमेंट किट (JDK) स्थापित है।
--  Aspose.Slides for Java लाइब्रेरी आपके प्रोजेक्ट में जोड़ दी गई है। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+- Aspose.Slides for Java लाइब्रेरी आपके प्रोजेक्ट में जोड़ दी गई है। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 
 अब जबकि हमारी रूपरेखा तैयार हो गई है, तो आइए चरण-दर-चरण मार्गदर्शिका से शुरुआत करें।
 
@@ -45,7 +47,7 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation();
 ```
 
- प्रतिस्थापित करें`"Your Document Directory"` उस पथ के साथ जहाँ आप प्रस्तुति को सहेजना चाहते हैं.
+प्रतिस्थापित करें `"Your Document Directory"` उस पथ के साथ जहाँ आप प्रस्तुति को सहेजना चाहते हैं.
 
 ## चरण 4: प्रस्तुति में चार्ट जोड़ना
 
@@ -81,7 +83,7 @@ for (int i = 0; i < chart.getChartData().getSeries().size(); i++)
 presentation.save(dataDir + "AutoFillSeries_out.pptx", SaveFormat.Pptx);
 ```
 
- प्रतिस्थापित करें`"AutoFillSeries_out.pptx"` इच्छित फ़ाइल नाम के साथ.
+प्रतिस्थापित करें `"AutoFillSeries_out.pptx"` इच्छित फ़ाइल नाम के साथ.
 
 ## जावा स्लाइड्स में स्वचालित श्रृंखला भरण रंग सेट करने के लिए पूर्ण स्रोत कोड
 
@@ -115,7 +117,7 @@ finally
 
 ### मैं चार्ट प्रकार को भिन्न शैली में कैसे बदल सकता हूँ?
 
- आप चार्ट प्रकार को बदलकर बदल सकते हैं`ChartType.ClusteredColumn` वांछित चार्ट प्रकार के साथ, जैसे`ChartType.Line` या`ChartType.Pie`.
+आप चार्ट प्रकार को प्रतिस्थापित करके बदल सकते हैं `ChartType.ClusteredColumn` वांछित चार्ट प्रकार के साथ, जैसे `ChartType.Line` या `ChartType.Pie`.
 
 ### क्या मैं चार्ट के स्वरूप को और अधिक अनुकूलित कर सकता हूँ?
 
@@ -131,10 +133,12 @@ finally
 
 ### मैं अधिक संसाधन और दस्तावेज कहां पा सकता हूं?
 
- आप Aspose.Slides for Java के लिए विस्तृत दस्तावेज़ यहां से प्राप्त कर सकते हैं[यहाँ](https://reference.aspose.com/slides/java/).
+आप Aspose.Slides for Java के लिए विस्तृत दस्तावेज़ यहां से प्राप्त कर सकते हैं [यहाँ](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

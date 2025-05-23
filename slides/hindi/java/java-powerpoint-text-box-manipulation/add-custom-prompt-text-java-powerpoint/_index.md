@@ -1,14 +1,16 @@
 ---
-title: जावा पावरपॉइंट में कस्टम प्रॉम्प्ट टेक्स्ट जोड़ें
-linktitle: जावा पावरपॉइंट में कस्टम प्रॉम्प्ट टेक्स्ट जोड़ें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides का उपयोग करके Java PowerPoint में कस्टम प्रॉम्प्ट टेक्स्ट जोड़ना सीखें। इस ट्यूटोरियल के साथ आसानी से उपयोगकर्ता इंटरैक्शन को बढ़ाएँ।
-weight: 12
-url: /hi/java/java-powerpoint-text-box-manipulation/add-custom-prompt-text-java-powerpoint/
+"description": "Aspose.Slides का उपयोग करके Java PowerPoint में कस्टम प्रॉम्प्ट टेक्स्ट जोड़ना सीखें। इस ट्यूटोरियल के साथ आसानी से उपयोगकर्ता इंटरैक्शन को बढ़ाएँ।"
+"linktitle": "जावा पावरपॉइंट में कस्टम प्रॉम्प्ट टेक्स्ट जोड़ें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा पावरपॉइंट में कस्टम प्रॉम्प्ट टेक्स्ट जोड़ें"
+"url": "/hi/java/java-powerpoint-text-box-manipulation/add-custom-prompt-text-java-powerpoint/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा पावरपॉइंट में कस्टम प्रॉम्प्ट टेक्स्ट जोड़ें
@@ -19,7 +21,7 @@ url: /hi/java/java-powerpoint-text-box-manipulation/add-custom-prompt-text-java-
 इस ट्यूटोरियल में आगे बढ़ने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 - जावा प्रोग्रामिंग का बुनियादी ज्ञान.
 - आपके सिस्टम पर JDK (जावा डेवलपमेंट किट) स्थापित है।
--  Aspose.Slides for Java इंस्टॉल किया गया है। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+- Aspose.Slides for Java इंस्टॉल किया गया है। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 - इंटेलीज आईडिया या एक्लिप्स जैसा एक एकीकृत विकास वातावरण (आईडीई) स्थापित करना।
 
 ## पैकेज आयात करें
@@ -57,7 +59,7 @@ try {
         }
     }
     
-    //संशोधित प्रस्तुति सहेजें
+    // संशोधित प्रस्तुति सहेजें
     pres.save(dataDir + "Placeholders_PromptText.pptx", SaveFormat.Pptx);
 } finally {
     if (pres != null) pres.dispose();
@@ -72,14 +74,16 @@ try {
 ### क्या Aspose.Slides for Java PowerPoint के सभी संस्करणों के साथ संगत है?
 Aspose.Slides PowerPoint संस्करणों की एक विस्तृत श्रृंखला का समर्थन करता है, जो संगतता और विश्वसनीयता सुनिश्चित करता है।
 ### मैं Aspose.Slides for Java के लिए और अधिक उदाहरण और दस्तावेज़ कहां पा सकता हूं?
- दौरा करना[Aspose.Slides for Java दस्तावेज़](https://reference.aspose.com/slides/java/) विस्तृत मार्गदर्शिका और उदाहरण के लिए.
+दौरा करना [Aspose.Slides for Java दस्तावेज़](https://reference.aspose.com/slides/java/) विस्तृत मार्गदर्शिका और उदाहरण के लिए.
 ### मैं Aspose.Slides for Java के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
- आप प्राप्त कर सकते हैं[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) Aspose.Slides की सम्पूर्ण विशेषताओं का मूल्यांकन करने के लिए.
+आप प्राप्त कर सकते हैं [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) Aspose.Slides की सम्पूर्ण विशेषताओं का मूल्यांकन करने के लिए.
 ### क्या Aspose.Slides for Java स्लाइडों में कस्टम एनिमेशन जोड़ने का समर्थन करता है?
 हां, Aspose.Slides स्लाइड एनिमेशन को प्रोग्रामेटिक रूप से प्रबंधित करने के लिए API प्रदान करता है।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: जावा का उपयोग करके स्मार्टआर्ट में बुलेट फिल फॉर्मेट सेट करें
-linktitle: जावा का उपयोग करके स्मार्टआर्ट में बुलेट फिल फॉर्मेट सेट करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides के साथ Java का उपयोग करके SmartArt में बुलेट फ़िल फ़ॉर्मेट सेट करना सीखें। कुशल प्रस्तुतिकरण हेरफेर के लिए चरण-दर-चरण मार्गदर्शिका।
-weight: 18
-url: /hi/java/java-powerpoint-smartart-manipulation/set-bullet-fill-format-smartart-java/
+"description": "Aspose.Slides के साथ Java का उपयोग करके SmartArt में बुलेट फ़िल फ़ॉर्मेट सेट करना सीखें। कुशल प्रस्तुतिकरण हेरफेर के लिए चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "जावा का उपयोग करके स्मार्टआर्ट में बुलेट फिल फॉर्मेट सेट करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा का उपयोग करके स्मार्टआर्ट में बुलेट फिल फॉर्मेट सेट करें"
+"url": "/hi/java/java-powerpoint-smartart-manipulation/set-bullet-fill-format-smartart-java/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा का उपयोग करके स्मार्टआर्ट में बुलेट फिल फॉर्मेट सेट करें
@@ -18,9 +20,9 @@ url: /hi/java/java-powerpoint-smartart-manipulation/set-bullet-fill-format-smart
 ## आवश्यक शर्तें
 इससे पहले कि हम इस ट्यूटोरियल को शुरू करें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 ### जावा डेवलपमेंट किट (JDK)
- आपके सिस्टम पर JDK इंस्टॉल होना चाहिए। आप इसे यहाँ से डाउनलोड कर सकते हैं[वेबसाइट](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) और स्थापना निर्देशों का पालन करें.
+आपके सिस्टम पर JDK इंस्टॉल होना चाहिए। आप इसे यहाँ से डाउनलोड कर सकते हैं [वेबसाइट](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) और स्थापना निर्देशों का पालन करें.
 ### जावा के लिए Aspose.Slides
- Aspose.Slides for Java को डाउनलोड करें और इंस्टॉल करें[लिंक को डाउनलोड करें](https://releases.aspose.com/slides/java/)अपने विशिष्ट ऑपरेटिंग सिस्टम के लिए दस्तावेज़ में दिए गए इंस्टॉलेशन निर्देशों का पालन करें।
+Aspose.Slides for Java को डाउनलोड करें और इंस्टॉल करें [लिंक को डाउनलोड करें](https://releases.aspose.com/slides/java/)अपने विशिष्ट ऑपरेटिंग सिस्टम के लिए दस्तावेज़ में दिए गए इंस्टॉलेशन निर्देशों का पालन करें।
 
 ## पैकेज आयात करें
 आरंभ करने के लिए, अपने जावा प्रोजेक्ट में आवश्यक पैकेज आयात करें:
@@ -74,12 +76,14 @@ presentation.save(dataDir + "out.pptx", SaveFormat.Pptx);
 ### क्या मैं स्मार्टआर्ट तत्वों को बुलेट भरण प्रारूप से परे अनुकूलित कर सकता हूँ?
 दरअसल, Aspose.Slides आपको स्मार्टआर्ट आकृतियों के हर पहलू को अनुकूलित करने की शक्ति देता है, जिसमें लेआउट, शैली, सामग्री और बहुत कुछ शामिल है।
 ### क्या Java के लिए Aspose.Slides का कोई परीक्षण संस्करण उपलब्ध है?
- हां, आप एक निःशुल्क परीक्षण के साथ Aspose.Slides की विशेषताओं का पता लगा सकते हैं। बस इसे यहाँ से डाउनलोड करें[वेबसाइट](https://releases.aspose.com/slides/java/) और अन्वेषण शुरू करें.
-### मैं Aspose.Slides for Java के लिए समर्थन कहां पा सकता हूं?
- किसी भी प्रश्न या सहायता के लिए, आप Aspose.Slides फोरम पर जा सकते हैं[इस लिंक](https://forum.aspose.com/c/slides/11).
+हां, आप एक निःशुल्क परीक्षण के साथ Aspose.Slides की विशेषताओं का पता लगा सकते हैं। बस इसे यहाँ से डाउनलोड करें [वेबसाइट](https://releases.aspose.com/slides/java/) और अन्वेषण शुरू करें.
+### मैं Java के लिए Aspose.Slides का समर्थन कहां पा सकता हूं?
+किसी भी प्रश्न या सहायता के लिए, आप Aspose.Slides फोरम पर जा सकते हैं [इस लिंक](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

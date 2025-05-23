@@ -1,14 +1,16 @@
 ---
-title: Aspose.Slides में स्लाइड टिप्पणियाँ प्रस्तुत करना
-linktitle: Aspose.Slides में स्लाइड टिप्पणियाँ प्रस्तुत करना
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: हमारे चरण-दर-चरण ट्यूटोरियल के साथ Aspose.Slides for .NET में स्लाइड टिप्पणियाँ प्रस्तुत करने का तरीका जानें। टिप्पणी की उपस्थिति को अनुकूलित करें और अपने PowerPoint स्वचालन को उन्नत करें।
-weight: 12
-url: /hi/net/printing-and-rendering-in-slides/rendering-slide-comments/
+"description": "हमारे चरण-दर-चरण ट्यूटोरियल के साथ Aspose.Slides for .NET में स्लाइड टिप्पणियाँ प्रस्तुत करने का तरीका जानें। टिप्पणी की उपस्थिति को अनुकूलित करें और अपने PowerPoint स्वचालन को उन्नत करें।"
+"linktitle": "Aspose.Slides में स्लाइड टिप्पणियाँ प्रस्तुत करना"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "Aspose.Slides में स्लाइड टिप्पणियाँ प्रस्तुत करना"
+"url": "/hi/net/printing-and-rendering-in-slides/rendering-slide-comments/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Slides में स्लाइड टिप्पणियाँ प्रस्तुत करना
@@ -17,7 +19,7 @@ url: /hi/net/printing-and-rendering-in-slides/rendering-slide-comments/
 .NET के लिए Aspose.Slides का उपयोग करके स्लाइड टिप्पणियाँ प्रस्तुत करने पर हमारे व्यापक ट्यूटोरियल में आपका स्वागत है! Aspose.Slides एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को उनके .NET अनुप्रयोगों में PowerPoint प्रस्तुतियों के साथ सहजता से काम करने में सक्षम बनाती है। इस गाइड में, हम एक विशिष्ट कार्य पर ध्यान केंद्रित करेंगे - स्लाइड टिप्पणियाँ प्रस्तुत करना - और आपको चरण दर चरण प्रक्रिया के माध्यम से चलना होगा।
 ## आवश्यक शर्तें
 इससे पहले कि हम ट्यूटोरियल में आगे बढ़ें, सुनिश्चित करें कि आपके पास निम्नलिखित चीजें मौजूद हैं:
--  Aspose.Slides for .NET लाइब्रेरी: सुनिश्चित करें कि आपके विकास परिवेश में Aspose.Slides लाइब्रेरी for .NET स्थापित है। यदि आपने पहले से ऐसा नहीं किया है, तो आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/net/).
+- .NET लाइब्रेरी के लिए Aspose.Slides: सुनिश्चित करें कि आपके विकास परिवेश में .NET के लिए Aspose.Slides लाइब्रेरी स्थापित है। यदि आपने पहले से ऐसा नहीं किया है, तो आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/net/).
 - विकास परिवेश: एक कार्यशील .NET विकास परिवेश स्थापित करें, तथा C# की बुनियादी समझ रखें।
 अब, आइए ट्यूटोरियल शुरू करें!
 ## नामस्थान आयात करें
@@ -87,14 +89,16 @@ System.Diagnostics.Process.Start(resultPath);
 ### प्रश्न: क्या मैं प्रस्तुत टिप्पणियों के स्वरूप को अनुकूलित कर सकता हूँ?
 उत्तर: बिल्कुल! ट्यूटोरियल में टिप्पणी क्षेत्र का रंग, चौड़ाई और स्थिति अनुकूलित करने के विकल्प शामिल हैं।
 ### प्रश्न: मैं .NET के लिए Aspose.Slides पर अधिक दस्तावेज़ कहां पा सकता हूं?
- उत्तर: दस्तावेज़ देखें[यहाँ](https://reference.aspose.com/slides/net/).
-### प्रश्न: मैं Aspose.Slides के लिए अस्थायी लाइसेंस कैसे प्राप्त करूं?
- उत्तर: आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+उत्तर: दस्तावेज़ देखें [यहाँ](https://reference.aspose.com/slides/net/).
+### प्रश्न: मैं Aspose.Slides के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूँ?
+उत्तर: आप अस्थायी लाइसेंस प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
 ### प्रश्न: मैं Aspose.Slides के लिए सहायता और समर्थन कहां से प्राप्त कर सकता हूं?
- उत्तर: यहाँ जाएँ[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) सामुदायिक समर्थन के लिए.
+उत्तर: यहाँ जाएँ [Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) सामुदायिक समर्थन के लिए.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

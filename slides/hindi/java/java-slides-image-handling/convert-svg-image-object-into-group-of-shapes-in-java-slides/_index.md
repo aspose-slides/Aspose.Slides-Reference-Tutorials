@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में SVG इमेज ऑब्जेक्ट को आकृतियों के समूह में बदलें
-linktitle: जावा स्लाइड्स में SVG इमेज ऑब्जेक्ट को आकृतियों के समूह में बदलें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके Java Slides में SVG छवियों को आकृतियों के समूह में परिवर्तित करना सीखें। कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 13
-url: /hi/java/image-handling/convert-svg-image-object-into-group-of-shapes-in-java-slides/
+"description": "Aspose.Slides for Java का उपयोग करके Java Slides में SVG छवियों को आकृतियों के समूह में परिवर्तित करना सीखें। कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "जावा स्लाइड्स में SVG इमेज ऑब्जेक्ट को आकृतियों के समूह में बदलें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में SVG इमेज ऑब्जेक्ट को आकृतियों के समूह में बदलें"
+"url": "/hi/java/image-handling/convert-svg-image-object-into-group-of-shapes-in-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में SVG इमेज ऑब्जेक्ट को आकृतियों के समूह में बदलें
@@ -23,7 +25,7 @@ url: /hi/java/image-handling/convert-svg-image-object-into-group-of-shapes-in-ja
 इससे पहले कि हम कोड और चरण-दर-चरण निर्देशों में उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
 - आपके सिस्टम पर जावा डेवलपमेंट किट (JDK) स्थापित है।
--  Aspose.Slides for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+- Aspose.Slides for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 
 अब जब हमने सब कुछ सेट कर लिया है, तो चलिए शुरू करते हैं।
 
@@ -37,7 +39,7 @@ import com.aspose.slides.*;
 
 ## चरण 2: प्रस्तुति लोड करें
 
- इसके बाद, आपको SVG इमेज ऑब्जेक्ट वाली पावरपॉइंट प्रेजेंटेशन लोड करनी होगी।`"Your Document Directory"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ.
+इसके बाद, आपको SVG इमेज ऑब्जेक्ट वाली पावरपॉइंट प्रेजेंटेशन को लोड करना होगा। `"Your Document Directory"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -134,10 +136,12 @@ finally
 
 ### क्या मैं परिवर्तित आकृतियों के स्वरूप को अनुकूलित कर सकता हूँ?
 
-ज़रूर! आप अपनी आवश्यकताओं के अनुसार परिवर्तित आकृतियों की उपस्थिति, आकार और स्थिति को अनुकूलित कर सकते हैं। Aspose.Slides आकार हेरफेर के लिए व्यापक API प्रदान करता है।
+ज़रूर! आप अपनी आवश्यकताओं के अनुसार परिवर्तित आकृतियों की उपस्थिति, आकार और स्थिति को अनुकूलित कर सकते हैं। Aspose.Slides आकृति हेरफेर के लिए व्यापक API प्रदान करता है।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

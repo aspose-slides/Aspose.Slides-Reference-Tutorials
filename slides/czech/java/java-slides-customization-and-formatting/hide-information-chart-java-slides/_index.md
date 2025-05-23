@@ -1,26 +1,28 @@
 ---
-title: Skrýt informace z grafu v Java Slides
-linktitle: Skrýt informace z grafu v Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Naučte se skrýt prvky grafu v Java Slides pomocí Aspose.Slides pro Java. Přizpůsobte si prezentace tak, aby byly přehledné a estetické, pomocí podrobných pokynů a zdrojového kódu.
-weight: 13
-url: /cs/java/customization-and-formatting/hide-information-chart-java-slides/
+"description": "Naučte se, jak skrýt prvky grafu v Java Slides pomocí Aspose.Slides pro Javu. Přizpůsobte si prezentace pro přehlednost a estetiku pomocí podrobných pokynů a zdrojového kódu."
+"linktitle": "Skrýt informace z grafu v Javě Slides"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Skrýt informace z grafu v Javě Slides"
+"url": "/cs/java/customization-and-formatting/hide-information-chart-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Skrýt informace z grafu v Java Slides
+# Skrýt informace z grafu v Javě Slides
 
 
-## Úvod ke skrytí informací z grafu v Java Slides
+## Úvod do skrytí informací z grafu v Javě Slides
 
-V tomto tutoriálu prozkoumáme, jak skrýt různé prvky z grafu v Java Slides pomocí Aspose.Slides for Java API. Tento kód můžete použít k přizpůsobení grafů podle potřeby pro vaše prezentace.
+tomto tutoriálu se podíváme na to, jak skrýt různé prvky z grafu v Java Slides pomocí Aspose.Slides for Java API. Tento kód můžete použít k přizpůsobení grafů podle potřeby pro vaše prezentace.
 
 ## Krok 1: Nastavení prostředí
 
- Než začneme, ujistěte se, že máte do projektu přidánu knihovnu Aspose.Slides for Java. Můžete si jej stáhnout z[tady](https://releases.aspose.com/slides/java/).
+Než začneme, ujistěte se, že máte do projektu přidánu knihovnu Aspose.Slides pro Javu. Můžete si ji stáhnout z [zde](https://releases.aspose.com/slides/java/).
 
 ## Krok 2: Vytvořte novou prezentaci
 
@@ -29,7 +31,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 ```
 
-## Krok 3: Přidání grafu do snímku
+## Krok 3: Přidání grafu na snímek
 
 Na snímek přidáme spojnicový graf se značkami a poté skryjeme různé prvky grafu.
 
@@ -38,9 +40,9 @@ ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 140, 118, 320, 370);
 ```
 
-## Krok 4: Skryjte nadpis grafu
+## Krok 4: Skrýt název grafu
 
-Název grafu můžete skrýt následovně:
+Název grafu můžete skrýt takto:
 
 ```java
 chart.setTitle(false);
@@ -54,15 +56,15 @@ Chcete-li skrýt osu hodnot (svislou osu), použijte následující kód:
 chart.getAxes().getVerticalAxis().setVisible(false);
 ```
 
-## Krok 6: Skryjte osu kategorie
+## Krok 6: Skrýt osu kategorií
 
-Chcete-li skrýt osu kategorie (horizontální osu), použijte tento kód:
+Chcete-li skrýt osu kategorií (vodorovnou osu), použijte tento kód:
 
 ```java
 chart.getAxes().getHorizontalAxis().setVisible(false);
 ```
 
-## Krok 7: Skryjte legendu
+## Krok 7: Skrýt legendu
 
 Legendu grafu můžete skrýt takto:
 
@@ -70,7 +72,7 @@ Legendu grafu můžete skrýt takto:
 chart.setLegend(false);
 ```
 
-## Krok 8: Skryjte hlavní čáry mřížky
+## Krok 8: Skrýt hlavní čáry mřížky
 
 Chcete-li skrýt hlavní čáry mřížky vodorovné osy, můžete použít následující kód:
 
@@ -78,9 +80,9 @@ Chcete-li skrýt hlavní čáry mřížky vodorovné osy, můžete použít nás
 chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.NoFill);
 ```
 
-## Krok 9: Odeberte sérii
+## Krok 9: Odebrání série
 
-Pokud chcete z grafu odstranit všechny řady, můžete použít smyčku takto:
+Pokud chcete z grafu odstranit všechny série, můžete použít smyčku podobnou této:
 
 ```java
 for (int i = 0; i < chart.getChartData().getSeries().size(); i++) {
@@ -88,9 +90,9 @@ for (int i = 0; i < chart.getChartData().getSeries().size(); i++) {
 }
 ```
 
-## Krok 10: Přizpůsobte řadu grafů
+## Krok 10: Úprava série grafů
 
-Řady grafů můžete přizpůsobit podle potřeby. V tomto příkladu změníme styl značky, polohu popisku dat, velikost značky, barvu čáry a styl čárky:
+Sérii grafů si můžete dle potřeby přizpůsobit. V tomto příkladu změníme styl značky, umístění popisku dat, velikost značky, barvu čáry a styl čárkování:
 
 ```java
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
@@ -105,18 +107,18 @@ series.getFormat().getLine().setDashStyle(LineDashStyle.Solid);
 
 ## Krok 11: Uložte prezentaci
 
-Nakonec prezentaci uložte do souboru:
+Nakonec uložte prezentaci do souboru:
 
 ```java
 pres.save(dataDir + "HideInformationFromChart.pptx", SaveFormat.Pptx);
 ```
 
-A je to! Úspěšně jste skryli různé prvky z grafu v Java Slides pomocí Aspose.Slides for Java. Své grafy a prezentace můžete dále upravovat podle svých specifických požadavků.
+To je vše! Pomocí Aspose.Slides pro Javu jste úspěšně skryli různé prvky z grafu v Java Slides. Grafy a prezentace si můžete dále přizpůsobit podle svých specifických požadavků.
 
 ## Kompletní zdrojový kód pro skrytí informací z grafu v Java Slides
 
 ```java
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 try
@@ -125,13 +127,13 @@ try
 	IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 140, 118, 320, 370);
 	//Skrytí názvu grafu
 	chart.setTitle(false);
-	///Hiding Hodnoty osy
+	///Skrytí osy hodnot
 	chart.getAxes().getVerticalAxis().setVisible(false);
-	//Kategorie Viditelnost osy
+	//Viditelnost osy kategorie
 	chart.getAxes().getHorizontalAxis().setVisible(false);
 	//Skrytí legendy
 	chart.setLegend(false);
-	//Skrytí MajorGridLines
+	//Skrytí hlavních čar mřížky
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.NoFill);
 	for (int i = 0; i < chart.getChartData().getSeries().size(); i++)
 	{
@@ -142,7 +144,7 @@ try
 	series.getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	series.getLabels().getDefaultDataLabelFormat().setPosition(LegendDataLabelPosition.Top);
 	series.getMarker().setSize(15);
-	//Nastavení barvy čáry řady
+	//Nastavení barvy čáry série
 	series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(new Color(PresetColor.Purple));
 	series.getFormat().getLine().setDashStyle(LineDashStyle.Solid);
@@ -155,32 +157,34 @@ finally
 ```
 ## Závěr
 
-V tomto podrobném průvodci jsme prozkoumali, jak skrýt různé prvky z grafu v Java Slides pomocí Aspose.Slides for Java API. To může být neuvěřitelně užitečné, když potřebujete upravit své grafy pro prezentace a učinit je vizuálně přitažlivějšími nebo přizpůsobenými vašim konkrétním potřebám.
+tomto podrobném návodu jsme prozkoumali, jak skrýt různé prvky z grafu v aplikaci Java Slides pomocí rozhraní Aspose.Slides for Java API. To může být neuvěřitelně užitečné, když potřebujete přizpůsobit grafy pro prezentace a učinit je vizuálně přitažlivějšími nebo přizpůsobenými vašim specifickým potřebám.
 
-## FAQ
+## Často kladené otázky
 
-### Jak dále přizpůsobím vzhled prvků grafu?
+### Jak mohu dále přizpůsobit vzhled prvků grafu?
 
-Můžete přizpůsobit různé vlastnosti prvků grafu, jako je barva čáry, barva výplně, styl značek a další, přístupem k odpovídajícím vlastnostem řady grafů, značek, štítků a formátu.
+Různé vlastnosti prvků grafu, jako je barva čáry, barva výplně, styl značky a další, můžete přizpůsobit přístupem k odpovídajícím vlastnostem řady grafů, značek, popisků a formátu.
 
-### Mohu skrýt konkrétní datové body v grafu?
+### Mohu v grafu skrýt konkrétní datové body?
 
-Ano, konkrétní datové body můžete skrýt manipulací s daty v řadě grafů. Datové body můžete odebrat nebo nastavit jejich hodnoty na null, abyste je skryli.
+Ano, konkrétní datové body můžete skrýt manipulací s daty v grafu. Datové body můžete odebrat nebo nastavit jejich hodnotu na null, abyste je skryli.
 
-### Jak mohu do grafu přidat další řady?
+### Jak mohu do grafu přidat další série?
 
- Další řady můžete do grafu přidat pomocí`IChartData.getSeries().add` a specifikaci datových bodů pro novou řadu.
+Do grafu můžete přidat další série pomocí `IChartData.getSeries().add` metodu a určení datových bodů pro novou řadu.
 
-### Je možné dynamicky změnit typ grafu?
+### Je možné dynamicky měnit typ grafu?
 
 Ano, typ grafu můžete dynamicky změnit vytvořením nového grafu požadovaného typu a zkopírováním dat ze starého grafu do nového.
 
-### Jak mohu programově změnit název grafu a popisky osy?
+### Jak mohu programově změnit název a popisky os grafu?
 
-Můžete nastavit nadpis a popisky grafu a os přístupem k jejich příslušným vlastnostem a nastavením požadovaného textu a formátování.
+Název a popisky grafu a os můžete nastavit tak, že otevřete jejich příslušné vlastnosti a nastavíte požadovaný text a formátování.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

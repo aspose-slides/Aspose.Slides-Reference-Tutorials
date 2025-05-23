@@ -1,24 +1,26 @@
 ---
-title: जावा के साथ पावरपॉइंट में भाग आयत प्राप्त करें
-linktitle: जावा के साथ पावरपॉइंट में भाग आयत प्राप्त करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: इस विस्तृत, चरण-दर-चरण ट्यूटोरियल के साथ जानें कि Aspose.Slides for Java का उपयोग करके PowerPoint में भाग आयत कैसे प्राप्त करें। Java डेवलपर्स के लिए बिल्कुल सही।
-weight: 12
-url: /hi/java/java-powerpoint-advanced-paragraph-font-properties/get-portion-rectangle-powerpoint-java/
+"description": "इस विस्तृत, चरण-दर-चरण ट्यूटोरियल के साथ Aspose.Slides for Java का उपयोग करके PowerPoint में भाग आयत प्राप्त करना सीखें। Java डेवलपर्स के लिए बिल्कुल सही।"
+"linktitle": "जावा के साथ पावरपॉइंट में भाग आयत प्राप्त करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा के साथ पावरपॉइंट में भाग आयत प्राप्त करें"
+"url": "/hi/java/java-powerpoint-advanced-paragraph-font-properties/get-portion-rectangle-powerpoint-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा के साथ पावरपॉइंट में भाग आयत प्राप्त करें
 
 ## परिचय
-Aspose.Slides for Java के साथ Java में गतिशील प्रस्तुतियाँ बनाना बहुत आसान है। इस ट्यूटोरियल में, हम Aspose.Slides का उपयोग करके PowerPoint में भाग आयत प्राप्त करने की बारीकियों में गोता लगाएँगे। हम आपके परिवेश को सेट करने से लेकर कोड को चरण-दर-चरण तोड़ने तक सब कुछ कवर करेंगे। तो, चलिए शुरू करते हैं!
+जावा में गतिशील प्रस्तुतियाँ बनाना Aspose.Slides for Java के साथ बहुत आसान है। इस ट्यूटोरियल में, हम Aspose.Slides का उपयोग करके PowerPoint में भाग आयत प्राप्त करने की बारीकियों में गोता लगाएँगे। हम आपके परिवेश को सेट करने से लेकर कोड को चरण-दर-चरण तोड़ने तक सब कुछ कवर करेंगे। तो, चलिए शुरू करते हैं!
 ## आवश्यक शर्तें
 इससे पहले कि हम कोड में प्रवेश करें, आइए सुनिश्चित करें कि आपके पास सुचारू रूप से अनुसरण करने के लिए आवश्यक सभी चीजें मौजूद हैं:
 1. जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपके मशीन पर JDK 8 या उससे ऊपर का संस्करण स्थापित है।
-2.  Aspose.Slides for Java: यहां से नवीनतम संस्करण डाउनलोड करें[यहाँ](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides for Java: यहां से नवीनतम संस्करण डाउनलोड करें [यहाँ](https://releases.aspose.com/slides/java/).
 3. एकीकृत विकास वातावरण (IDE): एक्लिप्स, इंटेलीज आईडिया, या आपकी पसंद का कोई अन्य जावा IDE.
 4. जावा का बुनियादी ज्ञान: जावा प्रोग्रामिंग की समझ आवश्यक है।
 ## पैकेज आयात करें
@@ -29,7 +31,7 @@ import com.aspose.slides.examples.RunExamples;
 import java.awt.*;
 import java.awt.geom.Rectangle2D;
 ```
-## चरण 1: प्रस्तुतिकरण सेट करना
+## चरण 1: प्रस्तुति सेट करना
 पहला कदम एक नया प्रेजेंटेशन बनाना है। यह हमारे काम का कैनवास होगा।
 ```java
 Presentation pres = new Presentation();
@@ -73,7 +75,7 @@ double x = tbl.getX() + cell.getOffsetX();
 double y = tbl.getY() + cell.getOffsetY();
 ```
 ## चरण 6: पैराग्राफ़ और भागों में फ़्रेम जोड़ना
- का उपयोग`IParagraph.getRect()` और`IPortion.getRect()`तरीकों से, हम अपने पैराग्राफ और भागों में फ्रेम जोड़ सकते हैं। इसमें पैराग्राफ और भागों के माध्यम से पुनरावृत्ति करना, उनके चारों ओर आकृतियाँ बनाना और उनकी उपस्थिति को अनुकूलित करना शामिल है।
+का उपयोग `IParagraph.getRect()` और `IPortion.getRect()` तरीकों से, हम अपने पैराग्राफ और भागों में फ्रेम जोड़ सकते हैं। इसमें पैराग्राफ और भागों के माध्यम से पुनरावृत्ति करना, उनके चारों ओर आकृतियाँ बनाना और उनकी उपस्थिति को अनुकूलित करना शामिल है।
 ```java
 for (IParagraph para : cell.getTextFrame().getParagraphs()) {
     if ("".equals(para.getText())) continue;
@@ -137,16 +139,18 @@ if (pres != null) pres.dispose();
 ### Java के लिए Aspose.Slides क्या है?
 Aspose.Slides for Java एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को प्रोग्रामेटिक रूप से पावरपॉइंट प्रस्तुतियों को बनाने, संशोधित करने और हेरफेर करने की अनुमति देती है।
 ### क्या मैं व्यावसायिक परियोजनाओं में Java के लिए Aspose.Slides का उपयोग कर सकता हूँ?
- हां, Aspose.Slides for Java का उपयोग व्यावसायिक परियोजनाओं में किया जा सकता है। आप यहां से लाइसेंस खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+हां, Aspose.Slides for Java का इस्तेमाल व्यावसायिक परियोजनाओं में किया जा सकता है। आप यहां से लाइसेंस खरीद सकते हैं [यहाँ](https://purchase.aspose.com/buy).
 ### क्या Aspose.Slides for Java के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
- हां, आप यहां से निःशुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप यहां से निःशुल्क परीक्षण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
 ### मैं Aspose.Slides for Java के लिए दस्तावेज़ कहां पा सकता हूं?
- दस्तावेज़ उपलब्ध है[यहाँ](https://reference.aspose.com/slides/java/).
+दस्तावेज़ उपलब्ध है [यहाँ](https://reference.aspose.com/slides/java/).
 ### मैं Java के लिए Aspose.Slides के लिए समर्थन कैसे प्राप्त कर सकता हूं?
- आप Aspose फ़ोरम से सहायता प्राप्त कर सकते हैं[यहाँ](https://forum.aspose.com/c/slides/11).
+आप Aspose फ़ोरम से सहायता प्राप्त कर सकते हैं [यहाँ](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

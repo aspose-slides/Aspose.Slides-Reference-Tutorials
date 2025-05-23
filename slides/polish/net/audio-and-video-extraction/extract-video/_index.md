@@ -1,39 +1,41 @@
 ---
-title: Jak wyodrębnić wideo ze slajdu za pomocą Aspose.Slides dla .NET
-linktitle: Wyodrębnij wideo ze slajdu
-second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Dowiedz się, jak wyodrębniać filmy ze slajdów programu PowerPoint za pomocą Aspose.Slides dla .NET. Ten przewodnik krok po kroku uprości Ci ten proces.
-weight: 14
-url: /pl/net/audio-and-video-extraction/extract-video/
+"description": "Dowiedz się, jak wyodrębnić filmy ze slajdów programu PowerPoint za pomocą Aspose.Slides dla .NET. Ten przewodnik krok po kroku uprości Ci ten proces."
+"linktitle": "Wyodrębnij wideo ze slajdu"
+"second_title": "Aspose.Slides .NET API przetwarzania programu PowerPoint"
+"title": "Jak wyodrębnić wideo ze slajdu za pomocą Aspose.Slides dla .NET"
+"url": "/pl/net/audio-and-video-extraction/extract-video/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Jak wyodrębnić wideo ze slajdu za pomocą Aspose.Slides dla .NET
 
 
-Aspose.Slides dla .NET to potężna biblioteka, która umożliwia pracę z prezentacjami programu PowerPoint w środowisku .NET. Jedną z przydatnych funkcji, jakie zapewnia, jest możliwość wyodrębniania filmów ze slajdów. W tym przewodniku krok po kroku pokażemy, jak wyodrębnić wideo ze slajdu programu PowerPoint za pomocą Aspose.Slides dla .NET.
+Aspose.Slides for .NET to potężna biblioteka, która umożliwia pracę z prezentacjami PowerPoint w środowisku .NET. Jedną z przydatnych funkcji, jakie oferuje, jest możliwość wyodrębniania filmów ze slajdów. W tym przewodniku krok po kroku pokażemy, jak wyodrębnić film ze slajdu PowerPoint za pomocą Aspose.Slides for .NET.
 
-## Warunki wstępne
+## Wymagania wstępne
 
 Zanim zaczniesz, upewnij się, że spełnione są następujące wymagania wstępne:
 
--  Aspose.Slides dla .NET: Musisz mieć zainstalowany Aspose.Slides dla .NET. Można go uzyskać od[strona internetowa](https://purchase.aspose.com/buy).
+- Aspose.Slides dla .NET: Musisz mieć zainstalowany Aspose.Slides dla .NET. Możesz go pobrać ze strony [strona internetowa](https://purchase.aspose.com/buy).
 
-- Prezentacja programu PowerPoint: Przygotuj prezentację programu PowerPoint (np. Video.pptx) zawierającą wideo, które chcesz wyodrębnić.
+- Prezentacja programu PowerPoint: Przygotuj prezentację programu PowerPoint (np. Video.pptx) zawierającą film, który chcesz wyodrębnić.
 
 ## Importuj przestrzenie nazw
 
-Aby pracować z Aspose.Slides dla .NET, musisz zaimportować niezbędne przestrzenie nazw. Oto jak możesz to zrobić:
+Musisz zaimportować niezbędne przestrzenie nazw, aby pracować z Aspose.Slides dla .NET. Oto, jak możesz to zrobić:
 
 ```csharp
 using Aspose.Slides;
 using Aspose.Slides.Video;
 ```
 
-Podzielmy teraz proces wyodrębniania wideo ze slajdu na kilka etapów.
+Teraz podzielimy proces wyodrębniania filmu ze slajdu na kilka kroków.
 
 ## Krok 1: Ustaw katalog dokumentów
 
@@ -41,7 +43,7 @@ Podzielmy teraz proces wyodrębniania wideo ze slajdu na kilka etapów.
 string dataDir = "Your Document Directory";
 ```
 
- Zastępować`"Your Document Directory"` ze ścieżką do katalogu, w którym znajduje się prezentacja programu PowerPoint.
+Zastępować `"Your Document Directory"` ze ścieżką do katalogu, w którym znajduje się prezentacja PowerPoint.
 
 ## Krok 2: Załaduj prezentację
 
@@ -49,9 +51,9 @@ string dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "Video.pptx");
 ```
 
-Ten kod inicjuje obiekt Prezentacja reprezentujący plik prezentacji programu PowerPoint.
+Ten kod inicjuje obiekt Presentation, reprezentujący plik prezentacji programu PowerPoint.
 
-## Krok 3: Przeglądaj slajdy i kształty
+## Krok 3: Przejrzyj slajdy i kształty
 
 ```csharp
 foreach (ISlide slide in presentation.Slides)
@@ -60,7 +62,7 @@ foreach (ISlide slide in presentation.Slides)
     {
 ```
 
-tym miejscu przeglądamy każdy slajd prezentacji, a następnie przeglądamy kształty na pierwszym slajdzie (w razie potrzeby modyfikujemy).
+Tutaj przechodzimy przez każdy slajd prezentacji, a następnie powtarzamy kształty na pierwszym slajdzie (modyfikujemy w razie potrzeby).
 
 ## Krok 4: Sprawdź, czy kształt jest klatką wideo
 
@@ -81,7 +83,7 @@ type = type.Remove(0, type.LastIndexOf('/') + 1);
 Byte[] buffer = vf.EmbeddedVideo.BinaryData;
 ```
 
-Ten kod wyodrębnia informacje o filmie, w tym jego typ zawartości i dane binarne.
+Kod ten wyodrębnia informacje o filmie, w tym jego typ zawartości i dane binarne.
 
 ## Krok 6: Zapisz wideo
 
@@ -92,33 +94,35 @@ using (FileStream stream = new FileStream(dataDir + "NewVideo_out." + type, File
 }
 ```
 
-Na koniec ten krok zapisuje wideo w nowym pliku w określonym katalogu.
+Na koniec ten krok powoduje zapisanie filmu w nowym pliku w określonym katalogu.
 
-Po wykonaniu tych kroków pomyślnie wyodrębnisz wideo ze slajdu programu PowerPoint za pomocą Aspose.Slides dla .NET.
+Po wykonaniu tych kroków uda Ci się wyodrębnić wideo ze slajdu programu PowerPoint za pomocą Aspose.Slides dla platformy .NET.
 
 ## Wniosek
 
-Aspose.Slides dla .NET upraszcza proces pracy z prezentacjami programu PowerPoint, umożliwiając łatwe wykonywanie takich zadań, jak wyodrębnianie filmów ze slajdów. Postępując zgodnie z tym przewodnikiem krok po kroku i korzystając z biblioteki Aspose.Slides, możesz ulepszyć swoje aplikacje .NET za pomocą potężnych funkcji programu PowerPoint.
+Aspose.Slides for .NET upraszcza proces pracy z prezentacjami PowerPoint, umożliwiając łatwe wykonywanie zadań, takich jak wyodrębnianie filmów ze slajdów. Postępując zgodnie z tym przewodnikiem krok po kroku i korzystając z biblioteki Aspose.Slides, możesz ulepszyć swoje aplikacje .NET o potężne funkcje PowerPoint.
 
 ## Często zadawane pytania (FAQ)
 
-### Co to jest Aspose.Slides dla .NET?
-Aspose.Slides dla .NET to biblioteka, która umożliwia aplikacjom .NET współpracę z prezentacjami programu PowerPoint, w tym tworzenie, edytowanie i wyodrębnianie zawartości.
+### Czym jest Aspose.Slides dla .NET?
+Aspose.Slides for .NET to biblioteka umożliwiająca aplikacjom .NET pracę z prezentacjami PowerPoint, w tym tworzenie, edycję i wyodrębnianie treści.
 
 ### Gdzie mogę znaleźć dokumentację Aspose.Slides dla .NET?
- Można znaleźć dokumentację[Tutaj](https://reference.aspose.com/slides/net/).
+Dokumentację można znaleźć [Tutaj](https://reference.aspose.com/slides/net/).
 
-### Czy Aspose.Slides dla .NET jest dostępny w bezpłatnej wersji próbnej?
- Tak, możesz pobrać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+### Czy Aspose.Slides dla platformy .NET jest dostępny w ramach bezpłatnej wersji próbnej?
+Tak, możesz otrzymać bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/).
 
-### Jak mogę uzyskać tymczasową licencję na Aspose.Slides dla .NET?
- Możesz poprosić o licencję tymczasową od[ten link](https://purchase.aspose.com/temporary-license/).
+### W jaki sposób mogę uzyskać tymczasową licencję na Aspose.Slides dla platformy .NET?
+Możesz poprosić o tymczasową licencję [ten link](https://purchase.aspose.com/temporary-license/).
 
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Slides dla .NET?
- Wsparcie znajdziesz na stronie[Forum Aspose.Slides](https://forum.aspose.com/).
+Wsparcie znajdziesz na [Forum Aspose.Slides](https://forum.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

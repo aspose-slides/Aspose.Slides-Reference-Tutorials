@@ -1,31 +1,33 @@
 ---
-title: Bijschrift voor gegevenslabel instellen in Java-dia's
-linktitle: Bijschrift voor gegevenslabel instellen in Java-dia's
-second_title: Aspose.Slides Java PowerPoint-verwerkings-API
-description: Leer hoe u toelichtingen voor gegevenslabels in Aspose.Slides voor Java instelt. Stap-voor-stap handleiding met broncode.
-weight: 25
-url: /nl/java/data-manipulation/setting-callout-data-label-java-slides/
+"description": "Leer hoe u callouts voor gegevenslabels instelt in Aspose.Slides voor Java. Stapsgewijze handleiding met broncode."
+"linktitle": "Een callout instellen voor een gegevenslabel in Java-dia's"
+"second_title": "Aspose.Slides Java PowerPoint-verwerkings-API"
+"title": "Een callout instellen voor een gegevenslabel in Java-dia's"
+"url": "/nl/java/data-manipulation/setting-callout-data-label-java-slides/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Bijschrift voor gegevenslabel instellen in Java-dia's
+# Een callout instellen voor een gegevenslabel in Java-dia's
 
 
-## Inleiding tot het instellen van bijschrift voor gegevenslabel in Aspose.Slides voor Java
+## Inleiding tot het instellen van een callout voor een gegevenslabel in Aspose.Slides voor Java
 
-In deze zelfstudie laten we zien hoe u callouts voor gegevenslabels in een diagram instelt met behulp van Aspose.Slides voor Java. Toelichtingen kunnen handig zijn om specifieke gegevenspunten in uw diagram te markeren. We lopen stap voor stap door de code en zorgen voor de benodigde broncode.
+In deze tutorial laten we zien hoe je callouts voor gegevenslabels in een grafiek instelt met Aspose.Slides voor Java. Callouts kunnen handig zijn om specifieke datapunten in je grafiek te markeren. We doorlopen de code stap voor stap en bieden de benodigde broncode.
 
 ## Vereisten
 
-- Aspose.Slides voor Java zou geïnstalleerd moeten zijn.
+- U moet Aspose.Slides voor Java geïnstalleerd hebben.
 - Maak een Java-project en voeg de Aspose.Slides-bibliotheek toe aan uw project.
 
-## Stap 1: Maak een presentatie en voeg een diagram toe
+## Stap 1: Maak een presentatie en voeg een grafiek toe
 
- Eerst moeten we een presentatie maken en een diagram aan een dia toevoegen. Zorg ervoor dat u vervangt`"Your Document Directory"` met het daadwerkelijke pad naar uw documentmap.
+Eerst moeten we een presentatie maken en een grafiek aan een dia toevoegen. Zorg ervoor dat je `"Your Document Directory"` met het werkelijke pad naar uw documentenmap.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -36,7 +38,7 @@ IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, 
 
 ## Stap 2: Configureer de grafiek
 
-Vervolgens configureren we het diagram door eigenschappen in te stellen, zoals legenda, reeksen en categorieën.
+Vervolgens configureren we de grafiek door eigenschappen als legenda, reeksen en categorieën in te stellen.
 
 ```java
 IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
@@ -59,7 +61,7 @@ while (categoryIndex < 15) {
     chart.getChartData().getCategories().add(workBook.getCell(0, categoryIndex + 1, 0, "CATEGORY " + categoryIndex));
     int i = 0;
     while (i < chart.getChartData().getSeries().size()) {
-        // Voeg hier gegevenspunten toe
+        // Voeg hier datapunten toe
         // ...
         i++;
     }
@@ -69,7 +71,7 @@ while (categoryIndex < 15) {
 
 ## Stap 3: Gegevenslabels aanpassen
 
-Nu gaan we de gegevenslabels aanpassen, inclusief het instellen van highlights voor de laatste serie.
+Nu gaan we de gegevenslabels aanpassen, waarbij we onder andere de callouts voor de laatste reeks instellen.
 
 ```java
 int i = 0;
@@ -77,16 +79,16 @@ while (i < chart.getChartData().getSeries().size()) {
     IChartSeries iCS = chart.getChartData().getSeries().get_Item(i);
     IChartDataPoint dataPoint = iCS.getDataPoints().addDataPointForDoughnutSeries(workBook.getCell(0, categoryIndex + 1, i + 1, 1));
     dataPoint.getFormat().getFill().setFillType(FillType.Solid);
-    // Pas de opmaak van gegevenspunten aan (opvulling, lijn, enz.)
+    // Pas de opmaak van gegevenspunten aan (opvullen, lijn, enz.)
 
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
-        //Pas de labelopmaak aan (lettertype, vulling, etc.)
+        // Pas de opmaak van labels aan (lettertype, opvulling, enz.)
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
-        // Schakel highlights in
+        // Callouts inschakelen
         lbl.getDataLabelFormat().setShowLabelAsDataCallout(true);
         lbl.getDataLabelFormat().setShowLeaderLines(true);
     }
@@ -96,15 +98,15 @@ while (i < chart.getChartData().getSeries().size()) {
 
 ## Stap 4: Sla de presentatie op
 
-Sla ten slotte de presentatie op met het geconfigureerde diagram.
+Sla ten slotte de presentatie met de geconfigureerde grafiek op.
 
 ```java
 pres.save("chart.pptx", SaveFormat.Pptx);
 ```
 
-Nu hebt u met succes highlights voor gegevenslabels in een diagram ingesteld met behulp van Aspose.Slides voor Java. Pas de code aan volgens uw specifieke diagram- en gegevensvereisten.
+Je hebt nu succesvol callouts voor gegevenslabels in een grafiek ingesteld met Aspose.Slides voor Java. Pas de code aan op basis van je specifieke grafiek- en gegevensvereisten.
 
-## Volledige broncode voor het instellen van toelichting voor gegevenslabel in Java-dia's
+## Volledige broncode voor het instellen van een callout voor een gegevenslabel in Java-dia's
 
 ```java
 String dataDir = "Your Document Directory";
@@ -168,13 +170,13 @@ pres.save("chart.pptx", SaveFormat.Pptx);
 
 ## Conclusie
 
-In deze zelfstudie hebben we onderzocht hoe u highlights voor gegevenslabels in een diagram kunt instellen met behulp van Aspose.Slides voor Java. Toelichtingen zijn waardevolle hulpmiddelen om specifieke gegevenspunten in uw diagrammen en presentaties te benadrukken. We hebben samen met de broncode een stapsgewijze handleiding verstrekt om u te helpen deze aanpassing te realiseren.
+In deze tutorial hebben we onderzocht hoe je callouts voor gegevenslabels in een grafiek kunt instellen met Aspose.Slides voor Java. Callouts zijn waardevolle tools om specifieke datapunten in je grafieken en presentaties te benadrukken. We hebben een stapsgewijze handleiding en broncode toegevoegd om je te helpen bij deze aanpassing.
 
 ## Veelgestelde vragen
 
 ### Hoe pas ik het uiterlijk van gegevenslabels aan?
 
-Om het uiterlijk van gegevenslabels aan te passen, kunt u eigenschappen zoals lettertype, vulling en lijnstijlen wijzigen. Bijvoorbeeld:
+Om de weergave van gegevenslabels aan te passen, kunt u eigenschappen zoals lettertype, opvulling en lijnstijlen wijzigen. Bijvoorbeeld:
 
 ```java
 IDataLabel lbl = dataPoint.getLabel();
@@ -187,31 +189,33 @@ lbl.getDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat().getS
 lbl.getDataLabelFormat().getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
 ```
 
-### Hoe kan ik highlights voor gegevenslabels in- of uitschakelen?
+### Hoe kan ik callouts voor gegevenslabels in- of uitschakelen?
 
- Om bijschriften voor gegevenslabels in of uit te schakelen, gebruikt u de`setShowLabelAsDataCallout` methode. Stel het in`true` om toelichtingen in te schakelen en`false`om ze uit te schakelen.
+Om callouts voor gegevenslabels in of uit te schakelen, gebruikt u de `setShowLabelAsDataCallout` methode. Stel het in op `true` om callouts in te schakelen en `false` om ze uit te schakelen.
 
 ```java
-lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // Schakel highlights in
-lbl.getDataLabelFormat().setShowLabelAsDataCallout(false); // Schakel highlights uit
+lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // Callouts inschakelen
+lbl.getDataLabelFormat().setShowLabelAsDataCallout(false); // Callouts uitschakelen
 ```
 
-### Kan ik de aanhaallijnen voor gegevenslabels aanpassen?
+### Kan ik de leiderlijnen voor gegevenslabels aanpassen?
 
-Ja, u kunt de aanhaallijnen voor gegevenslabels aanpassen met eigenschappen als lijnstijl, kleur en breedte. Bijvoorbeeld:
+Ja, u kunt de aanlooplijnen voor gegevenslabels aanpassen met eigenschappen zoals lijnstijl, kleur en breedte. Bijvoorbeeld:
 
 ```java
-lbl.getDataLabelFormat().setShowLeaderLines(true); // Schakel aanhaallijnen in
+lbl.getDataLabelFormat().setShowLeaderLines(true); // Leidlijnen inschakelen
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().setStyle(LineStyle.Single);
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().setWidth(1);
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.BLACK);
 ```
 
-Dit zijn enkele veelgebruikte aanpassingsopties voor gegevenslabels en bijschriften in Aspose.Slides voor Java. U kunt de uitstraling verder afstemmen op uw specifieke wensen.
+Dit zijn enkele veelvoorkomende aanpassingsopties voor gegevenslabels en callouts in Aspose.Slides voor Java. U kunt het uiterlijk verder aanpassen aan uw specifieke behoeften.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

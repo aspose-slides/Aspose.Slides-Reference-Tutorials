@@ -1,14 +1,16 @@
 ---
-title: Aspose.Slides for .NET - OLE ऑब्जेक्ट डेटा निकालना ट्यूटोरियल
-linktitle: Aspose.Slides में OLE ऑब्जेक्ट से एम्बेडेड फ़ाइल डेटा निकालना
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: OLE ऑब्जेक्ट से एम्बेडेड फ़ाइल डेटा निकालने पर हमारे चरण-दर-चरण गाइड के साथ .NET के लिए Aspose.Slides की पूरी क्षमता को अनलॉक करें। अपनी PowerPoint प्रोसेसिंग क्षमताओं को बढ़ाएँ!
-weight: 20
-url: /hi/net/image-and-video-manipulation-in-slides/extracting-embedded-file-data-ole-object/
+"description": "OLE ऑब्जेक्ट से एम्बेडेड फ़ाइल डेटा निकालने पर हमारे चरण-दर-चरण गाइड के साथ .NET के लिए Aspose.Slides की पूरी क्षमता को अनलॉक करें। अपनी PowerPoint प्रोसेसिंग क्षमताओं को बढ़ाएँ!"
+"linktitle": "Aspose.Slides में OLE ऑब्जेक्ट से एम्बेडेड फ़ाइल डेटा निकालना"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "Aspose.Slides for .NET - OLE ऑब्जेक्ट डेटा निकालना ट्यूटोरियल"
+"url": "/hi/net/image-and-video-manipulation-in-slides/extracting-embedded-file-data-ole-object/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Slides for .NET - OLE ऑब्जेक्ट डेटा निकालना ट्यूटोरियल
@@ -17,7 +19,7 @@ url: /hi/net/image-and-video-manipulation-in-slides/extracting-embedded-file-dat
 यदि आप .NET के लिए Aspose.Slides की दुनिया में प्रवेश कर रहे हैं, तो आप अपनी PowerPoint प्रोसेसिंग क्षमताओं को बढ़ाने के लिए सही रास्ते पर हैं। इस व्यापक गाइड में, हम आपको Aspose.Slides का उपयोग करके OLE ऑब्जेक्ट से एम्बेडेड फ़ाइल डेटा निकालने की प्रक्रिया से परिचित कराएँगे। चाहे आप एक अनुभवी डेवलपर हों या Aspose.Slides के लिए नए हों, यह ट्यूटोरियल आपको इस शक्तिशाली .NET लाइब्रेरी की पूरी क्षमता का दोहन करने के लिए एक स्पष्ट और विस्तृत रोडमैप प्रदान करेगा।
 ## आवश्यक शर्तें
 इससे पहले कि हम ट्यूटोरियल में आगे बढ़ें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
--  .NET के लिए Aspose.Slides: सुनिश्चित करें कि आपके विकास परिवेश में Aspose.Slides लाइब्रेरी स्थापित है। आप दस्तावेज़ पा सकते हैं[यहाँ](https://reference.aspose.com/slides/net/).
+- .NET के लिए Aspose.Slides: सुनिश्चित करें कि आपके विकास परिवेश में Aspose.Slides लाइब्रेरी स्थापित है। आप दस्तावेज़ पा सकते हैं [यहाँ](https://reference.aspose.com/slides/net/).
 - विकास परिवेश: अपने पसंदीदा IDE, जैसे Visual Studio, के साथ .NET विकास परिवेश सेट अप करें।
 - सैंपल पावरपॉइंट प्रेजेंटेशन: एम्बेडेड OLE ऑब्जेक्ट के साथ एक सैंपल पावरपॉइंट प्रेजेंटेशन फ़ाइल तैयार करें। आप अपनी खुद की फ़ाइल का उपयोग कर सकते हैं या इंटरनेट से सैंपल डाउनलोड कर सकते हैं।
 ## नामस्थान आयात करें
@@ -82,14 +84,16 @@ using (FileStream fs = new FileStream(extractedPath, FileMode.Create))
 ### क्या मैं एक ही प्रस्तुति में एकाधिक OLE ऑब्जेक्ट्स से डेटा निकाल सकता हूँ?
 बिल्कुल! प्रदान किया गया कोड प्रस्तुति के भीतर कई OLE ऑब्जेक्ट्स को संभालने के लिए डिज़ाइन किया गया है।
 ### मैं Aspose.Slides के लिए और अधिक ट्यूटोरियल और उदाहरण कहां पा सकता हूं?
- Aspose.Slides दस्तावेज़ देखें[यहाँ](https://reference.aspose.com/slides/net/) ट्यूटोरियल और उदाहरणों के लिए यहां क्लिक करें।
+Aspose.Slides दस्तावेज़ देखें [यहाँ](https://reference.aspose.com/slides/net/) ट्यूटोरियल और उदाहरणों के लिए यहां क्लिक करें।
 ### क्या Aspose.Slides के लिए कोई निःशुल्क परीक्षण संस्करण उपलब्ध है?
- हां, आप निःशुल्क परीक्षण संस्करण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप निःशुल्क परीक्षण संस्करण प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/).
 ### मैं Aspose.Slides-संबंधित प्रश्नों के लिए समर्थन कैसे प्राप्त कर सकता हूं?
- Aspose.Slides समर्थन फ़ोरम पर जाएँ[यहाँ](https://forum.aspose.com/c/slides/11) सहायता के लिए।
+Aspose.Slides समर्थन फ़ोरम पर जाएँ [यहाँ](https://forum.aspose.com/c/slides/11) सहायता के लिए.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: प्रगति अद्यतन के साथ प्रस्तुति को पीडीएफ में बदलें
-linktitle: प्रगति अद्यतन के साथ प्रस्तुति को पीडीएफ में बदलें
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: .NET के लिए Aspose.Slides का उपयोग करके प्रगति अपडेट के साथ प्रस्तुतियों को PDF में परिवर्तित करना सीखें। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका शामिल है।
-weight: 29
-url: /hi/net/presentation-conversion/convert-presentation-to-pdf-with-progress-update/
+"description": ".NET के लिए Aspose.Slides का उपयोग करके प्रगति अपडेट के साथ प्रस्तुतियों को PDF में परिवर्तित करना सीखें। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका शामिल है।"
+"linktitle": "प्रगति अद्यतन के साथ प्रस्तुति को पीडीएफ में बदलें"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "प्रगति अद्यतन के साथ प्रस्तुति को पीडीएफ में बदलें"
+"url": "/hi/net/presentation-conversion/convert-presentation-to-pdf-with-progress-update/"
+"weight": 29
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # प्रगति अद्यतन के साथ प्रस्तुति को पीडीएफ में बदलें
@@ -45,11 +47,11 @@ using (Presentation presentation = new Presentation(dataDir + "ConvertToPDF.pptx
 }
 ```
 
- इस कोड स्निपेट में, हम Aspose.Slides का उपयोग करके PowerPoint प्रेजेंटेशन खोलते हैं और सहेजने के लिए PDF प्रारूप निर्दिष्ट करते हैं।`ProgressCallback` संपत्ति का एक उदाहरण`ExportProgressHandler` कक्षा।
+इस कोड स्निपेट में, हम Aspose.Slides का उपयोग करके PowerPoint प्रेजेंटेशन खोलते हैं और सहेजने के लिए PDF प्रारूप निर्दिष्ट करते हैं। `ProgressCallback` संपत्ति का एक उदाहरण `ExportProgressHandler` कक्षा।
 
 ## चरण 3: प्रगति कॉलबैक को क्रियान्वित करना
 
- अब हमें इसे लागू करने की जरूरत है`ExportProgressHandler` रूपांतरण प्रक्रिया के दौरान प्रगति अपडेट को संभालने के लिए क्लास। यहाँ कोड है`ExportProgressHandler` कक्षा:
+अब हमें इसे लागू करने की जरूरत है `ExportProgressHandler` रूपांतरण प्रक्रिया के दौरान प्रगति अपडेट को संभालने के लिए क्लास। यहाँ इसके लिए कोड है `ExportProgressHandler` कक्षा:
 
 ```csharp
 class ExportProgressHandler : IProgressCallback
@@ -63,7 +65,7 @@ class ExportProgressHandler : IProgressCallback
 }
 ```
 
- यह वर्ग कार्यान्वित करता है`IProgressCallback` इंटरफ़ेस और परिभाषित करता है`Reporting` प्रगति अद्यतनों को संभालने के लिए विधि। यह कंसोल पर वर्तमान प्रगति प्रतिशत प्रिंट करता है।
+यह वर्ग कार्यान्वित करता है `IProgressCallback` इंटरफ़ेस और परिभाषित करता है `Reporting` प्रगति अद्यतनों को संभालने के लिए विधि। यह कंसोल पर वर्तमान प्रगति प्रतिशत प्रिंट करता है।
 
 ## चरण 4: कोड चलाना
 
@@ -73,7 +75,7 @@ class ExportProgressHandler : IProgressCallback
 
 बधाई हो! आपने .NET के लिए Aspose.Slides का उपयोग करके प्रगति अपडेट के साथ प्रस्तुति को PDF में बदलने के लिए सफलतापूर्वक एक चरण-दर-चरण ट्यूटोरियल बनाया है। यह कौशल विभिन्न परिदृश्यों में अमूल्य हो सकता है, जैसे रिपोर्ट तैयार करना या प्रस्तुतियों को संग्रहित करना।
 
- आगे के अनुकूलन और उन्नत सुविधाओं के लिए, .NET दस्तावेज़ के लिए Aspose.Slides देखें[https://reference.aspose.com/slides/net/](https://reference.aspose.com/slides/net/).
+आगे के अनुकूलन और उन्नत सुविधाओं के लिए, .NET दस्तावेज़ के लिए Aspose.Slides देखें [https://reference.aspose.com/slides/net/](https://reference.aspose.com/slides/net/).
 
 ## पूछे जाने वाले प्रश्न
 
@@ -87,13 +89,15 @@ class ExportProgressHandler : IProgressCallback
 उत्तर: आप किसी भी रूपांतरण त्रुटि को सुचारू रूप से प्रबंधित करने के लिए अपने कोड में त्रुटि प्रबंधन तंत्र को क्रियान्वित कर सकते हैं।
 
 ### प्रश्न: क्या .NET के लिए Aspose.Slides का निःशुल्क परीक्षण उपलब्ध है?
- उत्तर: हां, आप यहां निःशुल्क परीक्षण का लाभ उठा सकते हैं[https://releases.aspose.com/](https://releases.aspose.com/).
+उत्तर: हां, आप यहां निःशुल्क परीक्षण का लाभ उठा सकते हैं [https://releases.aspose.com/](https://releases.aspose.com/).
 
 ### प्रश्न: मुझे .NET के लिए Aspose.Slides का समर्थन कहां मिल सकता है?
- उत्तर: आप सहायता और सामुदायिक चर्चा यहां पा सकते हैं[https://forum.aspose.com/](https://forum.aspose.com/).
+उत्तर: आप सहायता और सामुदायिक चर्चा यहां पा सकते हैं [https://forum.aspose.com/](https://forum.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

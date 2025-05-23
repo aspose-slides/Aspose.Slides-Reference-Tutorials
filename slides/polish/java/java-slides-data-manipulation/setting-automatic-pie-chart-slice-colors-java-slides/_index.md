@@ -1,14 +1,16 @@
 ---
-title: Ustawianie automatycznych kolorów wycinków wykresu kołowego w slajdach Java
-linktitle: Ustawianie automatycznych kolorów wycinków wykresu kołowego w slajdach Java
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Dowiedz się, jak tworzyć dynamiczne wykresy kołowe z automatycznymi kolorami plasterków w prezentacjach Java PowerPoint przy użyciu Aspose.Slides dla Java. Przewodnik krok po kroku z kodem źródłowym.
-weight: 24
-url: /pl/java/data-manipulation/setting-automatic-pie-chart-slice-colors-java-slides/
+"description": "Dowiedz się, jak tworzyć dynamiczne wykresy kołowe z automatycznymi kolorami wycinków w prezentacjach PowerPoint w języku Java przy użyciu Aspose.Slides dla języka Java. Przewodnik krok po kroku z kodem źródłowym."
+"linktitle": "Ustawianie automatycznych kolorów wycinków wykresu kołowego w slajdach Java"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Ustawianie automatycznych kolorów wycinków wykresu kołowego w slajdach Java"
+"url": "/pl/java/data-manipulation/setting-automatic-pie-chart-slice-colors-java-slides/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustawianie automatycznych kolorów wycinków wykresu kołowego w slajdach Java
@@ -16,13 +18,13 @@ url: /pl/java/data-manipulation/setting-automatic-pie-chart-slice-colors-java-sl
 
 ## Wprowadzenie do ustawiania automatycznych kolorów wycinków wykresu kołowego w slajdach Java
 
-W tym samouczku dowiemy się, jak utworzyć wykres kołowy w prezentacji programu PowerPoint przy użyciu Aspose.Slides dla Java i ustawić automatyczne kolory plasterków dla wykresu. Zapewnimy wskazówki krok po kroku wraz z kodem źródłowym.
+W tym samouczku pokażemy, jak utworzyć wykres kołowy w prezentacji PowerPoint przy użyciu Aspose.Slides dla Java i ustawić automatyczne kolory wycinków dla wykresu. Zapewnimy wskazówki krok po kroku wraz z kodem źródłowym.
 
-## Warunki wstępne
+## Wymagania wstępne
 
- Zanim zaczniesz, upewnij się, że masz zainstalowaną i skonfigurowaną bibliotekę Aspose.Slides for Java w swoim projekcie Java. Bibliotekę można pobrać ze strony internetowej Aspose:[Pobierz Aspose.Slides dla Java](https://releases.aspose.com/slides/java/).
+Zanim zaczniesz, upewnij się, że masz zainstalowaną i skonfigurowaną bibliotekę Aspose.Slides for Java w swoim projekcie Java. Możesz pobrać bibliotekę ze strony internetowej Aspose: [Pobierz Aspose.Slides dla Java](https://releases.aspose.com/slides/java/).
 
-## Krok 1: Zaimportuj wymagane pakiety
+## Krok 1: Importuj wymagane pakiety
 
 Najpierw musisz zaimportować niezbędne pakiety z Aspose.Slides dla Java:
 
@@ -37,9 +39,9 @@ import com.aspose.slides.NullableBool;
 import com.aspose.slides.charts.IChartDataWorkbook;
 ```
 
-## Krok 2: Utwórz prezentację programu PowerPoint
+## Krok 2: Utwórz prezentację PowerPoint
 
- Utwórz instancję`Presentation` klasę, aby utworzyć nową prezentację programu PowerPoint:
+Utwórz instancję `Presentation` klasa, aby utworzyć nową prezentację PowerPoint:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -48,7 +50,7 @@ Presentation presentation = new Presentation();
 
 ## Krok 3: Dodaj slajd
 
-Przejdź do pierwszego slajdu prezentacji i dodaj do niego wykres z domyślnymi danymi:
+Otwórz pierwszy slajd prezentacji i dodaj do niego wykres z domyślnymi danymi:
 
 ```java
 ISlide slide = presentation.getSlides().get_Item(0);
@@ -66,7 +68,7 @@ chart.getChartTitle().setHeight(20);
 chart.setTitle(true);
 ```
 
-## Krok 5: Skonfiguruj dane wykresu
+## Krok 5: Konfigurowanie danych wykresu
 
 Ustaw wykres tak, aby pokazywał wartości dla pierwszej serii i skonfiguruj dane wykresu:
 
@@ -103,7 +105,7 @@ series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetInd
 
 ## Krok 8: Włącz różne kolory plasterków
 
-Włącz różne kolory plasterków dla wykresu kołowego:
+Włącz różne kolory wycinków dla wykresu kołowego:
 
 ```java
 series.getParentSeriesGroup().setColorVaried(true);
@@ -111,26 +113,26 @@ series.getParentSeriesGroup().setColorVaried(true);
 
 ## Krok 9: Zapisz prezentację
 
-Na koniec zapisz prezentację w pliku programu PowerPoint:
+Na koniec zapisz prezentację w pliku PowerPoint:
 
 ```java
 presentation.save(dataDir + "Pie.pptx", SaveFormat.Pptx);
 ```
 
-## Kompletny kod źródłowy do ustawiania kolorów automatycznego wycinka wykresu kołowego w slajdach Java
+## Kompletny kod źródłowy do ustawiania automatycznych kolorów wycinków wykresu kołowego w slajdach Java
 
 ```java
 // Ścieżka do katalogu dokumentów.
 String dataDir = "Your Document Directory";
-// Klasa prezentacji instancji reprezentująca plik PPTX
+// Utwórz klasę prezentacji reprezentującą plik PPTX
 Presentation presentation = new Presentation();
 try
 {
-	// Uzyskaj dostęp do pierwszego slajdu
+	// Dostęp do pierwszego slajdu
 	ISlide slides = presentation.getSlides().get_Item(0);
-	// Dodaj wykres z danymi domyślnymi
+	// Dodaj wykres z domyślnymi danymi
 	IChart chart = slides.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
-	// Tytuł tabeli ustawień
+	// Ustawienie tytułu wykresu
 	chart.getChartTitle().addTextFrameForOverriding("Sample Title");
 	chart.getChartTitle().getTextFrameForOverriding().getTextFrameFormat().setCenterText(NullableBool.True);
 	chart.getChartTitle().setHeight(20);
@@ -150,7 +152,7 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 	// Dodawanie nowej serii
 	IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-	// Teraz wypełniam dane serii
+	// Teraz wypełniamy dane serii
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -165,27 +167,27 @@ finally
 
 ## Wniosek
 
-Pomyślnie utworzyłeś wykres kołowy w prezentacji programu PowerPoint przy użyciu Aspose.Slides for Java i skonfigurowałeś go tak, aby miał automatyczne kolory plasterków. W tym przewodniku krok po kroku znajdziesz kod źródłowy niezbędny do osiągnięcia tego celu. W razie potrzeby możesz dodatkowo dostosować wykres i prezentację.
+Udało Ci się utworzyć wykres kołowy w prezentacji PowerPoint przy użyciu Aspose.Slides for Java i skonfigurować go tak, aby miał automatyczne kolory wycinków. Ten przewodnik krok po kroku dostarcza Ci niezbędnego kodu źródłowego, aby to osiągnąć. Możesz dalej dostosowywać wykres i prezentację według potrzeb.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### Jak mogę dostosować kolory poszczególnych wycinków na wykresie kołowym?
+### Jak mogę dostosować kolory poszczególnych wycinków wykresu kołowego?
 
- Aby dostosować kolory poszczególnych wycinków na wykresie kołowym, możesz użyć opcji`getAutomaticSeriesColors` metodę pobierania domyślnego schematu kolorów, a następnie modyfikowania kolorów w razie potrzeby. Oto przykład:
+Aby dostosować kolory poszczególnych wycinków na wykresie kołowym, możesz użyć `getAutomaticSeriesColors` metoda pobierania domyślnego schematu kolorów, a następnie modyfikowania kolorów w razie potrzeby. Oto przykład:
 
 ```java
-//Uzyskaj domyślny schemat kolorów
+// Pobierz domyślny schemat kolorów
 IColorFormatCollection colors = chart.getChartData().getSeries().get_Item(0).getAutomaticSeriesColors();
 
-// W razie potrzeby zmodyfikuj kolory
-colors.get_Item(0).setColor(Color.RED); // Ustaw kolor pierwszego plasterka na czerwony
-colors.get_Item(1).setColor(Color.BLUE); // Ustaw kolor drugiego plasterka na niebieski
+// Zmień kolory według potrzeb
+colors.get_Item(0).setColor(Color.RED); // Ustaw kolor pierwszego wycinka na czerwony
+colors.get_Item(1).setColor(Color.BLUE); // Ustaw kolor drugiego wycinka na niebieski
 // W razie potrzeby dodaj więcej modyfikacji kolorów
 ```
 
 ### Jak dodać legendę do wykresu kołowego?
 
- Aby dodać legendę do wykresu kołowego, możesz użyć opcji`getLegend` metodę i skonfiguruj ją w następujący sposób:
+Aby dodać legendę do wykresu kołowego, możesz użyć `getLegend` metodę i skonfiguruj ją w następujący sposób:
 
 ```java
 ILegend legend = chart.getLegend();
@@ -195,18 +197,20 @@ legend.setOverlay(true); // Wyświetl legendę nad wykresem
 
 ### Czy mogę zmienić czcionkę i styl tytułu?
 
-Tak, możesz zmienić czcionkę i styl tytułu. Użyj poniższego kodu, aby ustawić czcionkę i styl tytułu:
+Tak, możesz zmienić czcionkę i styl tytułu. Użyj następującego kodu, aby ustawić czcionkę i styl tytułu:
 
 ```java
 chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().setFontHeight(20); // Ustaw rozmiar czcionki
-chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().setFontBold(NullableBool.True); // Pogrubienie tytułu
-chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().setFontItalic(NullableBool.True); // Ustaw tytuł kursywą
+chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().setFontBold(NullableBool.True); // Pogrub tytuł
+chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().setFontItalic(NullableBool.True); // Tytuł należy pisać kursywą
 ```
 
-W razie potrzeby możesz dostosować rozmiar czcionki, pogrubienie i styl kursywy.
+W razie potrzeby możesz dostosować rozmiar czcionki, pogrubienie i kursywę.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

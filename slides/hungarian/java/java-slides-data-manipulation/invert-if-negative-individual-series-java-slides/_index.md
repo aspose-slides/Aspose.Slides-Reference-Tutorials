@@ -1,62 +1,64 @@
 ---
-title: Invert, ha negatív a Java Slides egyes sorozatainál
-linktitle: Invert, ha negatív a Java Slides egyes sorozatainál
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan használhatja az Aspose.Slides for Java programban az Invert If Negative funkciót a diagramok megjelenítésének javítására a PowerPoint-prezentációkban.
-weight: 11
-url: /hu/java/data-manipulation/invert-if-negative-individual-series-java-slides/
+"description": "Ismerd meg, hogyan használhatod az Aspose.Slides Java-verziójának Negatív érték invertálása funkcióját a PowerPoint-bemutatók diagramvizualizációinak javításához."
+"linktitle": "Negatív esetek megfordítása Java diákban"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Negatív esetek megfordítása Java diákban"
+"url": "/hu/java/data-manipulation/invert-if-negative-individual-series-java-slides/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Invert, ha negatív a Java Slides egyes sorozatainál
+# Negatív esetek megfordítása Java diákban
 
 
-## Bevezetés az Invert If Negative használatához a Java Slides egyes sorozataihoz
+## Bevezetés a negatív inverzió használatába egyedi sorozatok esetén Java diákban
 
-Az Aspose.Slides for Java hatékony eszközöket biztosít a prezentációkhoz, és az egyik érdekes funkció az adatsorok diagramokon való megjelenítésének szabályozása. Ebben a cikkben megvizsgáljuk, hogyan használhatjuk a „Negatív megfordítása, ha negatív” funkciót a Java Slides egyes sorozataihoz. Ez a funkció lehetővé teszi a negatív adatpontok vizuális megkülönböztetését a diagramon, így a prezentáció informatívabb és vonzóbb.
+Az Aspose.Slides Java-ban hatékony eszközöket biztosít a prezentációk kezeléséhez, és az egyik érdekes funkció az adatsorok diagramokon való megjelenítésének szabályozásának lehetősége. Ebben a cikkben megvizsgáljuk, hogyan használható a „Negatív érték invertálása” funkció az egyes adatsorokhoz Java Slides-ben. Ez a funkció lehetővé teszi a negatív adatpontok vizuális megkülönböztetését egy diagramban, így a prezentációk informatívabbak és lebilincselőbbek.
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk a kódba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+Mielőtt belemerülnénk a kódba, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
 
-- Java Development Kit (JDK) telepítve a rendszerére.
--  Aspose.Slides for Java könyvtár. Letöltheti innen[itt](https://releases.aspose.com/slides/java/).
+- Java fejlesztőkészlet (JDK) telepítve van a rendszerére.
+- Aspose.Slides Java könyvtárhoz. Letöltheted innen: [itt](https://releases.aspose.com/slides/java/).
 
 ## A projekt beállítása
 
-A kezdéshez hozzon létre egy új Java-projektet a kívánt integrált fejlesztési környezetben (IDE). A projekt beállítása után kövesse az alábbi lépéseket az „Invert If Negative” funkció megvalósításához a Java Slides egyes sorozataihoz.
+Első lépésként hozzon létre egy új Java projektet a kívánt integrált fejlesztői környezetben (IDE). Miután a projekt be van állítva, kövesse az alábbi lépéseket a „Negatív érték invertálása” funkció megvalósításához az egyes Java diák sorozataihoz.
 
-## 1. lépés: Vegye fel az Aspose.Slides könyvtárat
+## 1. lépés: Az Aspose.Slides könyvtár beillesztése
 
-Először is bele kell foglalnia az Aspose.Slides könyvtárat a projektbe. Ezt úgy teheti meg, hogy hozzáadja a könyvtár JAR fájlját a projekt osztályútvonalához. Ez a lépés biztosítja, hogy elérje az összes szükséges osztályt és módszert a PowerPoint-prezentációk használatához.
+Először is, be kell illesztened az Aspose.Slides könyvtárat a projektedbe. Ezt úgy teheted meg, hogy hozzáadod a könyvtár JAR fájlját a projekted osztályútvonalához. Ez a lépés biztosítja, hogy hozzáférhess az összes szükséges osztályhoz és metódushoz a PowerPoint-bemutatókkal való munkához.
 
 ```java
 import com.aspose.slides.*;
 ```
 
-## 2. lépés: Hozzon létre egy prezentációt
+## 2. lépés: Prezentáció létrehozása
 
- Most hozzunk létre egy új PowerPoint-prezentációt az Aspose.Slides segítségével. A segítségével megadhatja azt a könyvtárat, ahová a bemutatót menteni szeretné`dataDir` változó.
+Most hozzunk létre egy új PowerPoint bemutatót az Aspose.Slides segítségével. A prezentáció mentési mappáját a következőképpen adhatjuk meg: `dataDir` változó.
 
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 ```
 
-## 3. lépés: Adjon hozzá egy diagramot
+## 3. lépés: Diagram hozzáadása
 
-Ebben a lépésben diagramot adunk a bemutatóhoz. Példaként egy fürtözött oszlopdiagramot fogunk használni. Igényei alapján különböző diagramtípusokat választhat.
+Ebben a lépésben egy diagramot fogunk hozzáadni a prezentációhoz. Példaként egy csoportos oszlopdiagramot fogunk használni. Az igényeidnek megfelelően különböző diagramtípusokat választhatsz.
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 50, 50, 600, 400, true);
 ```
 
-## 4. lépés: Konfigurálja a diagram adatsort
+## 4. lépés: A diagram adatsorainak konfigurálása
 
-Ezután konfiguráljuk a diagram adatsorait. A „Negatív megfordítása” funkció bemutatásához létrehozunk egy mintaadatkészletet pozitív és negatív értékekkel.
+Ezután konfiguráljuk a diagram adatsorait. A „Negatív érték invertálása” funkció bemutatásához létrehozunk egy minta adathalmazt, amely pozitív és negatív értékeket is tartalmaz.
 
 ```java
 IChartSeriesCollection series = chart.getChartData().getSeries();
@@ -70,24 +72,24 @@ series.get_Item(0).getDataPoints().addDataPointForBarSeries(chart.getChartData()
 series.get_Item(0).getDataPoints().addDataPointForBarSeries(chart.getChartData().getChartDataWorkbook().getCell(0, "B5", 1));
 ```
 
-## 5. lépés: Alkalmazza a „Fordítsa meg, ha negatív”
+## 5. lépés: Alkalmazza az „Invertálja, ha negatív” funkciót
 
-Most alkalmazzuk az „Invert If Negative” funkciót az egyik adatpontra. Ez vizuálisan megfordítja az adott adatpont színét, ha az negatív.
+Most az „Invertálás, ha negatív” funkciót fogjuk alkalmazni az egyik adatpontra. Ez vizuálisan invertálja az adott adatpont színét, amikor az negatív.
 
 ```java
-series.get_Item(0).setInvertIfNegative(false); // Alapértelmezés szerint ne fordítsa meg
-series.get_Item(0).getDataPoints().get_Item(2).setInvertIfNegative(true); // Fordítsa meg a harmadik adatpont színét
+series.get_Item(0).setInvertIfNegative(false); // Ne invertálja alapértelmezés szerint
+series.get_Item(0).getDataPoints().get_Item(2).setInvertIfNegative(true); // A harmadik adatpont színének invertálása
 ```
 
-## 6. lépés: Mentse el a bemutatót
+## 6. lépés: Mentse el a prezentációt
 
-Végül mentse a prezentációt a megadott könyvtárba.
+Végül mentse el a prezentációt a megadott könyvtárba.
 
 ```java
 pres.save(dataDir + "InvertIfNegativeForIndividualSeries.pptx", SaveFormat.Pptx);
 ```
 
-## A Java Slides egyes sorozatainak megfordításának teljes forráskódja, ha negatív
+## Teljes forráskód az Invert If Negative (Negatív Ha Megfordítása) funkcióhoz Java diákban
 
 ```java
 String dataDir = "Your Document Directory";
@@ -114,32 +116,34 @@ finally
 
 ## Következtetés
 
-Ebben az oktatóanyagban megtanultuk, hogyan kell használni a „Negatív megfordítása, ha negatív” funkciót a Java Slides egyes sorozataihoz az Aspose.Slides for Java használatával. Ez a funkció lehetővé teszi a negatív adatpontok kiemelését a diagramokon, így a prezentációk látványosabbak és informatívabbak.
+Ebben az oktatóanyagban megtanultuk, hogyan használhatjuk az „Invertálja a negatív értéket” funkciót egyedi sorozatokhoz Java diákban az Aspose.Slides for Java használatával. Ez a funkció lehetővé teszi a negatív adatpontok kiemelését a diagramokban, így a prezentációk vizuálisan vonzóbbak és informatívabbak lesznek.
 
 ## GYIK
 
-### Mi a célja az Aspose.Slides for Java "Invert If Negative" funkciójának?
+### Mi a célja az Aspose.Slides Java-ban található „Invert If Negative” funkciónak?
 
-Az Aspose.Slides for Java "Invert If Negative" funkciója lehetővé teszi a negatív adatpontok vizuális megkülönböztetését a diagramokon. A konkrét adatpontok kiemelésével segít a prezentációk informatívabbá és vonzóbbá tenni.
+Az Aspose.Slides Java-ban található „Negatív érték invertálása” funkció lehetővé teszi a negatív adatpontok vizuális megkülönböztetését a diagramokban. Segítségével a prezentációid informatívabbá és lebilincselőbbé válnak azáltal, hogy kiemelik a konkrét adatpontokat.
 
-### Hogyan vehetem fel az Aspose.Slides könyvtárat a Java projektembe?
+### Hogyan tudom az Aspose.Slides könyvtárat beilleszteni a Java projektembe?
 
-Az Aspose.Slides könyvtár Java-projektbe való felvételéhez hozzá kell adnia a könyvtár JAR fájlját a projekt osztályútvonalához. Ez lehetővé teszi a PowerPoint-prezentációk használatához szükséges összes osztályhoz és módszerhez való hozzáférést.
+Ahhoz, hogy az Aspose.Slides könyvtárat belefoglald a Java projektedbe, hozzá kell adnod a könyvtár JAR fájlját a projekted osztályútvonalához. Ez lehetővé teszi a PowerPoint-bemutatókkal való munkához szükséges összes osztály és metódus elérését.
 
-### Használhatok különböző diagramtípusokat a „Negatív megfordítása” funkcióval?
+### Használhatok különböző diagramtípusokat az „Invertálás, ha negatív” funkcióval?
 
-Igen, különböző diagramtípusokat használhat a „Negatív megfordítása” funkcióval. Ebben az oktatóanyagban egy fürtözött oszlopdiagramot használtunk példaként, de a funkciót különféle diagramtípusokra alkalmazhatja az igényeinek megfelelően.
+Igen, a „Negatív érték invertálása” funkcióval különböző diagramtípusokat használhat. Ebben az oktatóanyagban egy fürtözött oszlopdiagramot használtunk példaként, de a funkciót az igényeidnek megfelelően különböző diagramtípusokra is alkalmazhatod.
 
-### Testreszabható az invertált adatpontok megjelenése?
+### Lehetséges az invertált adatpontok megjelenésének testreszabása?
 
-Igen, testreszabhatja az invertált adatpontok megjelenését. Az Aspose.Slides for Java opciókat biztosít az adatpontok színének és stílusának szabályozására, amikor azokat az "Invert If Negative" beállítás miatt megfordítják.
+Igen, testreszabhatja az invertált adatpontok megjelenését. Az Aspose.Slides Java verziójában az „Invertálás negatív esetén” beállításnak köszönhetően lehetőség van az adatpontok színének és stílusának szabályozására invertálás esetén.
 
-### Hol érhetem el az Aspose.Slides for Java dokumentációját?
+### Hol férhetek hozzá az Aspose.Slides Java dokumentációjához?
 
-Az Aspose.Slides for Java dokumentációját a következő címen érheti el[itt](https://reference.aspose.com/slides/java/).
+Az Aspose.Slides for Java dokumentációját a következő címen érheted el: [itt](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

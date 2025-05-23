@@ -1,40 +1,42 @@
 ---
-title: Szerezze meg a rész pozíciókoordinátáit a Java Slides-ben
-linktitle: Szerezze meg a rész pozíciókoordinátáit a Java Slides-ben
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg a szövegrész koordinátáinak lekérését Java diákban az Aspose.Slides for Java API segítségével. Pontosan szabályozhatja a szöveg elhelyezését a PowerPoint-prezentációkban.
-weight: 12
-url: /hu/java/additional-utilities/get-position-coordinates-of-portion-in-java-slides/
+"description": "Tanuld meg, hogyan kinyerheted a szövegrészek koordinátáit Java diákon az Aspose.Slides for Java API használatával. Pontosan szabályozhatod a szöveg elhelyezését a PowerPoint-bemutatókban."
+"linktitle": "Rész pozíciókoordinátáinak lekérése Java diákban"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Rész pozíciókoordinátáinak lekérése Java diákban"
+"url": "/hu/java/additional-utilities/get-position-coordinates-of-portion-in-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Szerezze meg a rész pozíciókoordinátáit a Java Slides-ben
+# Rész pozíciókoordinátáinak lekérése Java diákban
 
 
-## Bevezetés a rész pozíciókoordinátáinak lekéréséhez Java Slides-ben
+## Bevezetés a Java diák pozíciókoordinátáinak lekéréséhez
 
-Ebben az átfogó útmutatóban megvizsgáljuk, hogyan lehet lekérni a Java diákon belüli rész pozíciókoordinátáit az Aspose.Slides for Java API használatával. Megtanulja, hogyan érheti el és kezelheti a szövegrészeket egy diában, és hogyan bonthatja ki azok X és Y koordinátáit. Ez a lépésenkénti oktatóanyag forráskód-példákat és értékes információkat tartalmaz, amelyek segítenek elsajátítani ezt a feladatot.
+Ebben az átfogó útmutatóban azt vizsgáljuk meg, hogyan lehet lekérdezni egy Java diákon belüli rész pozíciókoordinátáit az Aspose.Slides for Java API segítségével. Megtanulod, hogyan férhetsz hozzá és manipulálhatod a diák szövegrészeit, valamint hogyan kinyerheted azok X és Y koordinátáit. Ez a lépésről lépésre haladó útmutató forráskód-példákat és értékes információkat tartalmaz, amelyek segítenek a feladat elsajátításában.
 
 ## Előfeltételek
 
-Mielőtt belevágnánk a megvalósításba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+Mielőtt belevágnánk a megvalósításba, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
 
-- Java Development Kit (JDK) telepítve
-- Aspose.Slides for Java könyvtár letöltve és konfigurálva
-- Az Ön által választott Java Integrated Development Environment (IDE).
+- Telepített Java fejlesztőkészlet (JDK)
+- Aspose.Slides Java könyvtárhoz letöltve és konfigurálva
+- Egy általad választott Java integrált fejlesztői környezet (IDE)
 
 Most pedig kezdjük a megvalósítással.
 
 ## 1. lépés: A projekt beállítása
 
-Mielőtt az Aspose.Slides for Java-val dolgozhatnánk, be kell állítanunk egy Java projektet, és konfigurálnunk kell a könyvtárat. Kövesse az alábbi lépéseket a projekt elkészítéséhez:
+Mielőtt elkezdhetnénk használni az Aspose.Slides for Java programot, létre kell hoznunk egy Java projektet és konfigurálnunk kell a könyvtárat. A projekt előkészítéséhez kövesd az alábbi lépéseket:
 
-1. Hozzon létre egy új Java-projektet az IDE-ben.
-2. Adja hozzá az Aspose.Slides for Java könyvtárat projektje függőségeihez.
-3. Importálja a szükséges Aspose.Slides osztályokat a Java fájl elejére.
+1. Hozz létre egy új Java projektet az IDE-ben.
+2. Add hozzá az Aspose.Slides for Java könyvtárat a projekted függőségeihez.
+3. Importáld a szükséges Aspose.Slides osztályokat a Java fájlod elejére.
 
 ```java
 import com.aspose.slides.*;
@@ -43,7 +45,7 @@ import java.awt.geom.Point2D;
 
 ## 2. lépés: A prezentáció betöltése
 
- Ebben a lépésben betöltjük azt a PowerPoint prezentációt, amely azt a diát tartalmazza, amellyel dolgozni szeretnénk. Cserélje ki`"Your Document Directory"` a PowerPoint-fájl tényleges elérési útjával.
+Ebben a lépésben betöltjük azt a PowerPoint bemutatót, amelyik a használni kívánt diát tartalmazza. Csere `"Your Document Directory"` a PowerPoint-fájl tényleges elérési útjával.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -52,7 +54,7 @@ Presentation presentation = new Presentation(dataDir + "Shapes.pptx");
 
 ## 3. lépés: Szövegrészek és koordináták elérése
 
-Most elérjük a dián belüli szövegrészeket, és lekérjük azok X és Y koordinátáit. Ennek elérése érdekében a bekezdéseken és részeken keresztül ismételgetjük. Íme a kódrészlet:
+Most hozzáférünk a dián belüli szövegrészekhez, és lekérdezzük azok X és Y koordinátáit. Ehhez bekezdéseken és szövegrészeken keresztül fogunk haladni. Íme a kódrészlet:
 
 ```java
 try
@@ -74,9 +76,9 @@ finally
 }
 ```
 
-Ez a kód lekéri az X és Y koordinátákat a megadott dián lévő minden egyes szövegrészhez. Módosíthatja saját igényei szerint.
+Ez a kód lekéri a megadott dia minden egyes szövegrészének X és Y koordinátáit. A kódot a saját igényeidnek megfelelően módosíthatod.
 
-## Teljes forráskód a rész pozíciókoordinátáinak lekéréséhez a Java Slides-ben
+## Teljes forráskód a Java diákban található rész pozíciókoordinátáinak lekéréséhez
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
@@ -103,32 +105,34 @@ finally
 
 ## Következtetés
 
-Ebben az oktatóanyagban bemutattuk, hogyan szerezheti meg a Java diákon belüli szövegrészek pozíciókoordinátáit az Aspose.Slides for Java API használatával. Ez a tudás különösen akkor lehet hasznos, ha pontos szabályozásra van szüksége a szöveges elemek elhelyezése felett a PowerPoint-prezentációkban.
+Ebben az oktatóanyagban azt tárgyaltuk, hogyan lehet lekérni a szövegrészek pozíciókoordinátáit Java diákon belül az Aspose.Slides for Java API használatával. Ez a tudás különösen hasznos lehet, ha pontosan szeretnéd szabályozni a szövegelemek elhelyezését a PowerPoint-bemutatóidban.
 
 ## GYIK
 
-### Hogyan tölthetem le az Aspose.Slides for Java programot?
+### Hogyan tudom letölteni az Aspose.Slides-t Java-hoz?
 
- Az Aspose.Slides for Java letölthető a webhelyről a következő hivatkozás segítségével:[Az Aspose.Slides letöltése Java-hoz](https://releases.aspose.com/slides/java/)
+Az Aspose.Slides Java-alapú verzióját a weboldalról töltheti le a következő link segítségével: [Aspose.Slides letöltése Java-hoz](https://releases.aspose.com/slides/java/)
 
-### Hol találom az Aspose.Slides for Java dokumentációját?
+### Hol találom az Aspose.Slides Java-hoz készült dokumentációját?
 
- Az Aspose.Slides for Java dokumentációja a következő címen érhető el:[Aspose.Slides a Java dokumentációhoz](https://reference.aspose.com/slides/java/)
+Az Aspose.Slides Java-hoz készült dokumentációja itt érhető el: [Aspose.Slides Java dokumentációhoz](https://reference.aspose.com/slides/java/)
 
-### Használhatom az Aspose.Slides for Java programot kereskedelmi projektjeimben?
+### Használhatom az Aspose.Slides for Java-t a kereskedelmi projektjeimben?
 
-Igen, az Aspose.Slides for Java használható kereskedelmi projektekben. Azonban feltétlenül tekintse át az Aspose által biztosított licencfeltételeket.
+Igen, az Aspose.Slides Java-ban használható kereskedelmi projektekben. Azonban mindenképpen tekintse át az Aspose által biztosított licencfeltételeket.
 
-### Az Aspose.Slides for Java kompatibilis a különböző PowerPoint fájlformátumokkal?
+### Kompatibilis az Aspose.Slides Java-hoz készült verziója a különböző PowerPoint fájlformátumokkal?
 
-Igen, az Aspose.Slides for Java különféle PowerPoint fájlformátumokat támogat, beleértve a PPTX, PPT és egyebeket.
+Igen, az Aspose.Slides for Java számos PowerPoint fájlformátumot támogat, beleértve a PPTX-et, PPT-t és egyebeket.
 
-### Hogyan kaphatok további támogatást vagy segítséget az Aspose.Slides for Java-hoz?
+### Hogyan kaphatok további támogatást vagy segítséget az Aspose.Slides for Java-val kapcsolatban?
 
-További támogatást és forrásokat érhet el az Aspose webhelyén. Fórumokat, dokumentációt és prémium támogatási lehetőségeket biztosítanak a felhasználók számára.
+További támogatást és forrásokat az Aspose weboldalán érhet el. Fórumokat, dokumentációt és prémium támogatási lehetőségeket kínálnak a felhasználók számára.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

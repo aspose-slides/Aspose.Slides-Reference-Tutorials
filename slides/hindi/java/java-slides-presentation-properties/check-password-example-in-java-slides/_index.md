@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में पासवर्ड जाँचने का उदाहरण
-linktitle: जावा स्लाइड्स में पासवर्ड जाँचने का उदाहरण
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके Java Slides में पासवर्ड सत्यापित करना सीखें। चरण-दर-चरण मार्गदर्शन के साथ प्रस्तुति सुरक्षा को बेहतर बनाएँ।
-weight: 14
-url: /hi/java/presentation-properties/check-password-example-in-java-slides/
+"description": "Aspose.Slides for Java का उपयोग करके Java Slides में पासवर्ड सत्यापित करना सीखें। चरण-दर-चरण मार्गदर्शन के साथ प्रस्तुति सुरक्षा को बेहतर बनाएँ।"
+"linktitle": "जावा स्लाइड्स में पासवर्ड जाँचने का उदाहरण"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में पासवर्ड जाँचने का उदाहरण"
+"url": "/hi/java/presentation-properties/check-password-example-in-java-slides/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में पासवर्ड जाँचने का उदाहरण
@@ -16,7 +18,7 @@ url: /hi/java/presentation-properties/check-password-example-in-java-slides/
 
 ## जावा स्लाइड्स में पासवर्ड जाँचने के उदाहरण का परिचय
 
-इस लेख में, हम Aspose.Slides for Java API का उपयोग करके Java Slides में पासवर्ड की जाँच करने का तरीका जानेंगे। हम प्रेजेंटेशन फ़ाइल के लिए पासवर्ड सत्यापित करने के लिए आवश्यक चरणों के बारे में जानेंगे। चाहे आप शुरुआती हों या अनुभवी डेवलपर, यह मार्गदर्शिका आपको अपने Java Slides प्रोजेक्ट में पासवर्ड सत्यापन को लागू करने के तरीके के बारे में स्पष्ट समझ प्रदान करेगी।
+इस लेख में, हम Aspose.Slides for Java API का उपयोग करके Java Slides में पासवर्ड की जाँच करने का तरीका जानेंगे। हम प्रेजेंटेशन फ़ाइल के लिए पासवर्ड सत्यापित करने के लिए आवश्यक चरणों के बारे में बताएँगे। चाहे आप शुरुआती हों या अनुभवी डेवलपर, यह मार्गदर्शिका आपको अपने Java Slides प्रोजेक्ट में पासवर्ड सत्यापन को लागू करने के तरीके के बारे में स्पष्ट समझ प्रदान करेगी।
 
 ## आवश्यक शर्तें
 
@@ -29,7 +31,7 @@ url: /hi/java/presentation-properties/check-password-example-in-java-slides/
 
 ## चरण 1: Aspose.Slides लाइब्रेरी आयात करें
 
- सबसे पहले, आपको अपने जावा प्रोजेक्ट में Aspose.Slides लाइब्रेरी को आयात करना होगा। आप इसे Aspose वेबसाइट से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+सबसे पहले, आपको अपने जावा प्रोजेक्ट में Aspose.Slides लाइब्रेरी को आयात करना होगा। आप इसे Aspose वेबसाइट से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 
 ## चरण 2: प्रस्तुति लोड करें
 
@@ -41,18 +43,18 @@ String pptFile = "path_to_your_presentation.ppt";
 IPresentationInfo presentationInfo = PresentationFactory.getInstance().getPresentationInfo(pptFile);
 ```
 
- प्रतिस्थापित करें`"path_to_your_presentation.ppt"` अपनी प्रस्तुति फ़ाइल के वास्तविक पथ के साथ.
+प्रतिस्थापित करें `"path_to_your_presentation.ppt"` अपनी प्रस्तुति फ़ाइल के वास्तविक पथ के साथ.
 
 ## चरण 3: पासवर्ड सत्यापित करें
 
- अब, आइए जाँचें कि पासवर्ड सही है या नहीं। हम इसका उपयोग करेंगे`checkPassword` की विधि`IPresentationInfo` इंटरफेस।
+अब, आइए जाँचें कि पासवर्ड सही है या नहीं। हम इसका उपयोग करेंगे `checkPassword` की विधि `IPresentationInfo` इंटरफ़ेस.
 
 ```java
 boolean isPasswordCorrect = presentationInfo.checkPassword("your_password");
 System.out.println("Is the password correct? " + isPasswordCorrect);
 ```
 
- प्रतिस्थापित करें`"your_password"` उस वास्तविक पासवर्ड से जिसे आप सत्यापित करना चाहते हैं।
+प्रतिस्थापित करें `"your_password"` उस वास्तविक पासवर्ड से जिसे आप सत्यापित करना चाहते हैं।
 
 ## जावा स्लाइड्स में पासवर्ड जाँचने के उदाहरण के लिए पूर्ण स्रोत कोड
 
@@ -69,13 +71,13 @@ System.out.println("The password \"pass1\" for the presentation is " + isPasswor
 
 ## निष्कर्ष
 
-इस ट्यूटोरियल में, हमने Aspose.Slides for Java API का उपयोग करके Java स्लाइड में पासवर्ड की जाँच करना सीखा। अब आप पासवर्ड सत्यापन लागू करके अपनी प्रस्तुति फ़ाइलों में सुरक्षा की एक अतिरिक्त परत जोड़ सकते हैं।
+इस ट्यूटोरियल में, हमने Aspose.Slides for Java API का उपयोग करके Java स्लाइड्स में पासवर्ड की जाँच करना सीखा। अब आप पासवर्ड सत्यापन लागू करके अपनी प्रस्तुति फ़ाइलों में सुरक्षा की एक अतिरिक्त परत जोड़ सकते हैं।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### मैं Aspose.Slides for Java में किसी प्रेजेंटेशन के लिए पासवर्ड कैसे सेट कर सकता हूँ?
 
- Aspose.Slides for Java में किसी प्रेजेंटेशन के लिए पासवर्ड सेट करने के लिए, आप इसका उपयोग कर सकते हैं`Presentation` वर्ग और`protect` विधि। यहाँ एक उदाहरण है:
+Aspose.Slides for Java में किसी प्रेजेंटेशन के लिए पासवर्ड सेट करने के लिए, आप इसका उपयोग कर सकते हैं `Presentation` वर्ग और `protect` विधि। यहाँ एक उदाहरण है:
 
 ```java
 Presentation presentation = new Presentation();
@@ -88,7 +90,7 @@ presentation.protect("your_password");
 
 ### क्या मैं संरक्षित प्रस्तुति का पासवर्ड बदल सकता हूँ?
 
- हां, आप सुरक्षित प्रस्तुतिकरण का पासवर्ड बदल सकते हैं`changePassword` की विधि`IPresentationInfo` इंटरफ़ेस. यहाँ एक उदाहरण है:
+हां, आप सुरक्षित प्रस्तुतिकरण का पासवर्ड बदल सकते हैं `changePassword` की विधि `IPresentationInfo` इंटरफ़ेस. यहाँ एक उदाहरण है:
 
 ```java
 presentationInfo.changePassword("old_password", "new_password");
@@ -96,7 +98,7 @@ presentationInfo.changePassword("old_password", "new_password");
 
 ### क्या किसी प्रेजेंटेशन से पासवर्ड हटाना संभव है?
 
- हां, आप इसका उपयोग करके किसी प्रेजेंटेशन से पासवर्ड हटा सकते हैं`removePassword` की विधि`IPresentationInfo` इंटरफ़ेस. यहाँ एक उदाहरण है:
+हां, आप इसका उपयोग करके किसी प्रेजेंटेशन से पासवर्ड हटा सकते हैं `removePassword` की विधि `IPresentationInfo` इंटरफ़ेस. यहाँ एक उदाहरण है:
 
 ```java
 presentationInfo.removePassword("current_password");
@@ -104,10 +106,12 @@ presentationInfo.removePassword("current_password");
 
 ### मैं Aspose.Slides for Java के लिए और अधिक दस्तावेज़ कहां पा सकता हूं?
 
- आप Aspose.Slides for Java के लिए व्यापक दस्तावेज़ Aspose वेबसाइट पर पा सकते हैं[यहाँ](https://reference.aspose.com/slides/java/).
+आप Aspose.Slides for Java के लिए व्यापक दस्तावेज़ Aspose वेबसाइट पर पा सकते हैं [यहाँ](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,33 +1,35 @@
 ---
-title: Mengatur Format Tanggal Untuk Sumbu Kategori di Slide Java
-linktitle: Mengatur Format Tanggal Untuk Sumbu Kategori di Slide Java
-second_title: Aspose.Slides API Pemrosesan Java PowerPoint
-description: Pelajari cara mengatur format tanggal untuk sumbu kategori dalam bagan PowerPoint menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah dengan kode sumber.
-weight: 26
-url: /id/java/data-manipulation/setting-date-format-category-axis-java-slides/
+"description": "Pelajari cara mengatur format tanggal untuk sumbu kategori dalam bagan PowerPoint menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah dengan kode sumber."
+"linktitle": "Mengatur Format Tanggal Untuk Sumbu Kategori di Java Slides"
+"second_title": "API Pemrosesan PowerPoint Java Aspose.Slides"
+"title": "Mengatur Format Tanggal Untuk Sumbu Kategori di Java Slides"
+"url": "/id/java/data-manipulation/setting-date-format-category-axis-java-slides/"
+"weight": 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mengatur Format Tanggal Untuk Sumbu Kategori di Slide Java
+# Mengatur Format Tanggal Untuk Sumbu Kategori di Java Slides
 
 
-## Pengantar Pengaturan Format Tanggal Untuk Sumbu Kategori di Slide Java
+## Pengantar Pengaturan Format Tanggal Untuk Sumbu Kategori di Java Slides
 
-Dalam tutorial ini, kita akan mempelajari cara mengatur format tanggal untuk sumbu kategori dalam bagan PowerPoint menggunakan Aspose.Slides untuk Java. Aspose.Slides untuk Java adalah perpustakaan canggih yang memungkinkan Anda membuat, memanipulasi, dan mengelola presentasi PowerPoint secara terprogram.
+Dalam tutorial ini, kita akan mempelajari cara mengatur format tanggal untuk sumbu kategori dalam bagan PowerPoint menggunakan Aspose.Slides untuk Java. Aspose.Slides untuk Java adalah pustaka canggih yang memungkinkan Anda membuat, memanipulasi, dan mengelola presentasi PowerPoint secara terprogram.
 
 ## Prasyarat
 
 Sebelum memulai, pastikan Anda memiliki hal berikut:
 
-1. Aspose.Slides untuk perpustakaan Java (Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/slides/java/).
-2. Lingkungan pengembangan Java disiapkan.
+1. Aspose.Slides untuk pustaka Java (Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/slides/java/).
+2. Lingkungan pengembangan Java telah disiapkan.
 
 ## Langkah 1: Buat Presentasi PowerPoint
 
-Pertama, kita perlu membuat presentasi PowerPoint dimana kita akan menambahkan grafik. Pastikan Anda telah mengimpor kelas Aspose.Slides yang diperlukan.
+Pertama, kita perlu membuat presentasi PowerPoint tempat kita akan menambahkan diagram. Pastikan Anda telah mengimpor kelas Aspose.Slides yang diperlukan.
 
 ```java
 // Jalur ke direktori dokumen.
@@ -37,7 +39,7 @@ Presentation pres = new Presentation();
 
 ## Langkah 2: Tambahkan Bagan ke Slide
 
-Sekarang, mari tambahkan grafik ke slide PowerPoint. Kami akan menggunakan bagan Area dalam contoh ini.
+Sekarang, mari tambahkan diagram ke slide PowerPoint. Kita akan menggunakan diagram Area dalam contoh ini.
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Area, 50, 50, 450, 300);
@@ -45,7 +47,7 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Area,
 
 ## Langkah 3: Siapkan Data Bagan
 
-Kami akan menyiapkan data grafik dan kategori. Dalam contoh ini, kita akan menggunakan kategori tanggal.
+Kita akan mengatur data dan kategori grafik. Dalam contoh ini, kita akan menggunakan kategori tanggal.
 
 ```java
 IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
@@ -84,9 +86,9 @@ Terakhir, simpan presentasi PowerPoint.
 pres.save(dataDir + "test.pptx", SaveFormat.Pptx);
 ```
 
-Itu dia! Anda telah berhasil menetapkan format tanggal untuk sumbu kategori dalam bagan PowerPoint menggunakan Aspose.Slides untuk Java.
+Selesai! Anda telah berhasil menetapkan format tanggal untuk sumbu kategori dalam bagan PowerPoint menggunakan Aspose.Slides untuk Java.
 
-## Kode Sumber Lengkap Untuk Mengatur Format Tanggal Untuk Sumbu Kategori di Slide Java
+## Source Code Lengkap Untuk Setting Format Tanggal Untuk Kategori Axis di Java Slides
 
 ```java
 	// Jalur ke direktori dokumen.
@@ -130,24 +132,26 @@ public static String convertToOADate(GregorianCalendar date) throws ParseExcepti
 
 ##Kesimpulan
 
-Anda telah berhasil mengkustomisasi format tanggal untuk sumbu kategori dalam bagan Slide Java menggunakan Aspose.Slides untuk Java. Hal ini memungkinkan Anda menyajikan nilai tanggal dalam format yang diinginkan pada grafik Anda. Jangan ragu untuk menjelajahi opsi penyesuaian lebih lanjut berdasarkan kebutuhan spesifik Anda.
+Anda telah berhasil menyesuaikan format tanggal untuk sumbu kategori dalam bagan Java Slides menggunakan Aspose.Slides untuk Java. Ini memungkinkan Anda untuk menyajikan nilai tanggal dalam format yang diinginkan pada bagan Anda. Jangan ragu untuk menjelajahi opsi penyesuaian lebih lanjut berdasarkan persyaratan khusus Anda.
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
 ### Bagaimana cara mengubah format tanggal untuk sumbu kategori?
 
- Untuk mengubah format tanggal sumbu kategori, gunakan`setNumberFormat` metode pada sumbu kategori dan berikan pola format tanggal yang diinginkan, seperti "yyyy-MM-dd" atau "MM/yyyy". Pastikan untuk mengatur`setNumberFormatLinkedToSource(false)` untuk mengganti format default.
+Untuk mengubah format tanggal untuk sumbu kategori, gunakan `setNumberFormat` metode pada sumbu kategori dan memberikan pola format tanggal yang diinginkan, seperti "yyyy-MM-dd" atau "MM/yyyy". Pastikan untuk mengatur `setNumberFormatLinkedToSource(false)` untuk mengesampingkan format default.
 
-### Bisakah saya menggunakan format tanggal berbeda untuk bagan berbeda dalam presentasi yang sama?
+### Dapatkah saya menggunakan format tanggal yang berbeda untuk bagan yang berbeda dalam presentasi yang sama?
 
-Ya, Anda dapat mengatur format tanggal berbeda untuk sumbu kategori di bagan berbeda dalam presentasi yang sama. Cukup sesuaikan sumbu kategori untuk setiap bagan sesuai kebutuhan.
+Ya, Anda dapat mengatur format tanggal yang berbeda untuk sumbu kategori dalam bagan yang berbeda dalam presentasi yang sama. Cukup sesuaikan sumbu kategori untuk setiap bagan sesuai kebutuhan.
 
 ### Bagaimana cara menambahkan lebih banyak titik data ke bagan?
 
- Untuk menambahkan lebih banyak titik data ke bagan, gunakan`getDataPoints().addDataPointForLineSeries`metode pada seri data dan memberikan nilai data.
+Untuk menambahkan lebih banyak titik data ke grafik, gunakan `getDataPoints().addDataPointForLineSeries` metode pada rangkaian data dan memberikan nilai data.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

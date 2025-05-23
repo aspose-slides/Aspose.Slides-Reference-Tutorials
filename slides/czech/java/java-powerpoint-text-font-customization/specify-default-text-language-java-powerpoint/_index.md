@@ -1,58 +1,60 @@
 ---
-title: Zadejte výchozí jazyk textu v Java PowerPoint
-linktitle: Zadejte výchozí jazyk textu v Java PowerPoint
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Naučte se, jak určit výchozí jazyk textu v Java PowerPoint pomocí Aspose.Slides for Java. Ideální pro vývojáře, kteří chtějí lokalizovat text programově.
-weight: 21
-url: /cs/java/java-powerpoint-text-font-customization/specify-default-text-language-java-powerpoint/
+"description": "Naučte se, jak v aplikaci Java PowerPoint zadat výchozí jazyk textu pomocí nástroje Aspose.Slides pro Javu. Ideální pro vývojáře, kteří chtějí lokalizovat text programově."
+"linktitle": "Určete výchozí jazyk textu v aplikaci Java PowerPoint"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Určete výchozí jazyk textu v aplikaci Java PowerPoint"
+"url": "/cs/java/java-powerpoint-text-font-customization/specify-default-text-language-java-powerpoint/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zadejte výchozí jazyk textu v Java PowerPoint
+# Určete výchozí jazyk textu v aplikaci Java PowerPoint
 
-## Úvod
-V oblasti vývoje aplikací Java je programová správa a manipulace s prezentacemi v PowerPointu běžným požadavkem. Aspose.Slides for Java nabízí robustní sadu funkcí, které umožňují vývojářům vytvářet, upravovat a vylepšovat prezentace v PowerPointu pomocí kódu Java. Tento výukový program vás provede základními kroky určení výchozího jazyka textu v prezentaci Java PowerPoint pomocí Aspose.Slides.
+## Zavedení
+V oblasti vývoje aplikací v Javě je programová správa a manipulace s prezentacemi v PowerPointu běžným požadavkem. Aspose.Slides pro Javu nabízí robustní sadu funkcí, které vývojářům umožňují bezproblémově vytvářet, upravovat a vylepšovat prezentace v PowerPointu pomocí kódu Java. Tento tutoriál si klade za cíl provést vás základními kroky pro určení výchozího jazyka textu v prezentaci v PowerPointu v Javě pomocí Aspose.Slides.
 ## Předpoklady
 Než se pustíte do tohoto tutoriálu, ujistěte se, že máte následující předpoklady:
 - Základní znalost programovacího jazyka Java.
-- Java Development Kit (JDK) nainstalovaný ve vašem systému.
+- Na vašem systému nainstalovaná sada pro vývoj Java (JDK).
 - Nastavení integrovaného vývojového prostředí (IDE), jako je IntelliJ IDEA nebo Eclipse.
--  Nainstalovaná knihovna Aspose.Slides for Java. Můžete si jej stáhnout z[tady](https://releases.aspose.com/slides/java/).
--  Přístup k dokumentaci Aspose.Slides for Java, kterou lze nalézt[tady](https://reference.aspose.com/slides/java/).
+- Je nainstalována knihovna Aspose.Slides pro Javu. Můžete si ji stáhnout z [zde](https://releases.aspose.com/slides/java/).
+- Přístup k dokumentaci k Aspose.Slides pro Javu, kterou lze nalézt [zde](https://reference.aspose.com/slides/java/).
 
-## Importujte balíčky
-Než začnete kódovat, nezapomeňte importovat potřebné třídy Aspose.Slides do souboru Java:
+## Importovat balíčky
+Než začnete s kódováním, nezapomeňte do souboru Java importovat potřebné třídy Aspose.Slides:
 ```java
 import com.aspose.slides.*;
 ```
-## Krok 1: Nastavte možnosti načítání
-Nejprve nakonfigurujte možnosti načtení prezentace a určete výchozí jazyk textu (`en-US` v tomto případě).
+## Krok 1: Nastavení možností načítání
+Nejprve nakonfigurujte možnosti načítání prezentace a zadejte výchozí jazyk textu (`en-US` v tomto případě).
 ```java
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.setDefaultTextLanguage("en-US");
 ```
-## Krok 2: Načtěte prezentaci
- Instantovat a`Presentation` objekt pomocí nakonfigurovaných možností načtení k načtení existující prezentace PowerPoint nebo vytvoření nové.
+## Krok 2: Načtení prezentace
+Vytvořte instanci `Presentation` objekt pomocí nakonfigurovaných možností načtení pro načtení existující prezentace aplikace PowerPoint nebo vytvoření nové.
 ```java
 Presentation pres = new Presentation(loadOptions);
 ```
-## Krok 3: Přidejte tvar s textem
-Přidejte obdélníkový tvar na první snímek prezentace a nastavte jeho textový obsah.
+## Krok 3: Přidání tvaru s textem
+Přidejte na první snímek prezentace obdélníkový tvar a nastavte jeho textový obsah.
 ```java
 IAutoShape shp = pres.getSlides().get_Item(0).getShapes().addAutoShape(ShapeType.Rectangle, 50, 50, 150, 50);
 shp.getTextFrame().setText("New Text");
 ```
-## Krok 4: Zkontrolujte jazyk částí textu
+## Krok 4: Zkontrolujte jazyk textových částí
 Načtěte a ověřte nastavení jazyka textových částí v přidaném tvaru.
 ```java
 PortionFormat portionFormat = shp.getTextFrame().getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat();
 System.out.println(portionFormat.getLanguageId());
 ```
-## Krok 5: Zlikvidujte objekt prezentace
- Zajistěte správnou likvidaci`Presentation` protest proti uvolnění zdrojů po použití.
+## Krok 5: Zlikvidujte prezentační objekt
+Zajistěte řádnou likvidaci `Presentation` objekt k uvolnění zdrojů po jejich použití.
 ```java
 finally {
     if (pres != null) pres.dispose();
@@ -60,21 +62,23 @@ finally {
 ```
 
 ## Závěr
-V tomto tutoriálu jste se naučili, jak využít Aspose.Slides pro Java k programovému určení výchozího jazyka textu v prezentaci PowerPoint. Tato schopnost je zásadní pro zajištění konzistentního jazykového nastavení napříč textovými prvky ve vašich prezentacích, zlepšuje čitelnost a úsilí o lokalizaci.
-## FAQ
+V tomto tutoriálu jste se naučili, jak využít Aspose.Slides pro Javu k programovému určení výchozího jazyka textu v prezentaci PowerPoint. Tato funkce je klíčová pro zajištění konzistentního nastavení jazyka napříč textovými prvky ve vašich prezentacích, což zlepšuje čitelnost a lokalizaci.
+## Často kladené otázky
 ### Mohu změnit výchozí jazyk textu na jiný jazyk, například francouzštinu nebo španělštinu?
-Ano, při nastavování výchozího jazyka textu pomocí Aspose.Slides for Java můžete zadat libovolný podporovaný kód jazyka.
-### Je Aspose.Slides for Java vhodný pro aplikace na podnikové úrovni?
-Absolutně. Aspose.Slides for Java je navržen pro škálovatelnost a výkon, takže je ideální pro podniková prostředí.
-### Kde najdu další příklady a zdroje pro Aspose.Slides pro Java?
- Obsáhlou dokumentaci a další příklady můžete prozkoumat na[Dokumentační stránka Aspose.Slides pro Java](https://reference.aspose.com/slides/java/).
-### Podporuje Aspose.Slides for Java integraci s cloudovými službami?
-Ano, Aspose.Slides for Java poskytuje rozhraní API, která podporují integraci s oblíbenými cloudovými platformami.
-### Mohu vyhodnotit Aspose.Slides pro Java před nákupem?
- Ano, můžete získat bezplatnou zkušební verzi Aspose.Slides for Java od[tady](https://releases.aspose.com/).
+Ano, při nastavování výchozího jazyka textu pomocí Aspose.Slides pro Javu můžete zadat libovolný podporovaný jazykový kód.
+### Je Aspose.Slides pro Javu vhodný pro podnikové aplikace?
+Rozhodně. Aspose.Slides pro Javu je navržen pro škálovatelnost a výkon, takže je ideální pro podniková prostředí.
+### Kde najdu další příklady a zdroje pro Aspose.Slides pro Javu?
+Můžete si prohlédnout komplexní dokumentaci a další příklady na [Dokumentace k Aspose.Slides pro Javu](https://reference.aspose.com/slides/java/).
+### Podporuje Aspose.Slides pro Javu integraci s cloudovými službami?
+Ano, Aspose.Slides pro Javu poskytuje API, která podporují integraci s oblíbenými cloudovými platformami.
+### Mohu si před zakoupením vyzkoušet Aspose.Slides pro Javu?
+Ano, bezplatnou zkušební verzi Aspose.Slides pro Javu můžete získat od [zde](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

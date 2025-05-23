@@ -1,14 +1,16 @@
 ---
-title: Dodawanie niestandardowych linii w slajdach Java
-linktitle: Dodawanie niestandardowych linii w slajdach Java
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Ulepsz swoje slajdy Java za pomocą niestandardowych linii. Przewodnik krok po kroku dotyczący korzystania z Aspose.Slides dla Java. Dowiedz się, jak dodawać i dostosowywać linie w prezentacjach, aby uzyskać efektowne efekty wizualne.
-weight: 10
-url: /pl/java/customization-and-formatting/adding-custom-lines-java-slides/
+"description": "Ulepsz swoje slajdy Java za pomocą niestandardowych linii. Przewodnik krok po kroku dotyczący korzystania z Aspose.Slides dla Java. Naucz się dodawać i dostosowywać linie w prezentacjach, aby uzyskać efektowne wizualizacje."
+"linktitle": "Dodawanie niestandardowych linii w slajdach Java"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Dodawanie niestandardowych linii w slajdach Java"
+"url": "/pl/java/customization-and-formatting/adding-custom-lines-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodawanie niestandardowych linii w slajdach Java
@@ -16,11 +18,11 @@ url: /pl/java/customization-and-formatting/adding-custom-lines-java-slides/
 
 ## Wprowadzenie do dodawania niestandardowych linii w slajdach Java
 
-tym samouczku dowiesz się, jak dodawać niestandardowe linie do slajdów Java za pomocą Aspose.Slides for Java. Niestandardowych linii można użyć w celu ulepszenia wizualnej reprezentacji slajdów i wyróżnienia określonej treści. Dostarczymy Ci instrukcje krok po kroku wraz z kodem źródłowym, jak to osiągnąć. Zacznijmy!
+W tym samouczku dowiesz się, jak dodawać niestandardowe linie do slajdów Java za pomocą Aspose.Slides for Java. Niestandardowe linie mogą być używane do ulepszania wizualnej reprezentacji slajdów i wyróżniania określonych treści. Udostępnimy Ci instrukcje krok po kroku wraz z kodem źródłowym, aby to osiągnąć. Zaczynajmy!
 
-## Warunki wstępne
+## Wymagania wstępne
 
- Zanim zaczniesz, upewnij się, że w projekcie Java masz skonfigurowaną bibliotekę Aspose.Slides dla Java. Bibliotekę można pobrać ze strony:[Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
+Zanim zaczniesz, upewnij się, że biblioteka Aspose.Slides for Java jest skonfigurowana w Twoim projekcie Java. Możesz pobrać bibliotekę ze strony internetowej: [Aspose.Slides dla Java](https://releases.aspose.com/slides/java/)
 
 ## Krok 1: Zainicjuj prezentację
 
@@ -34,7 +36,7 @@ Presentation pres = new Presentation();
 
 ## Krok 2: Dodaj wykres
 
-Następnie dodamy wykres do slajdu. W tym przykładzie dodajemy grupowany wykres kolumnowy. Możesz wybrać typ wykresu odpowiadający Twoim potrzebom.
+Następnie dodamy wykres do slajdu. W tym przykładzie dodajemy wykres kolumnowy klastrowany. Możesz wybrać typ wykresu, który odpowiada Twoim potrzebom.
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 100, 100, 500, 400);
@@ -42,7 +44,7 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Clust
 
 ## Krok 3: Dodaj linię niestandardową
 
- Dodajmy teraz niestandardową linię do wykresu. Stworzymy`IAutoShape` typu`ShapeType.Line` i umieść go na wykresie.
+Teraz dodajmy niestandardową linię do wykresu. Utworzymy `IAutoShape` typu `ShapeType.Line` i umieść go na wykresie.
 
 ```java
 IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Line, 0, chart.getHeight() / 2, chart.getWidth(), 0);
@@ -87,9 +89,9 @@ finally
 
 ## Wniosek
 
-Gratulacje! Pomyślnie dodałeś niestandardową linię do slajdu Java za pomocą Aspose.Slides for Java. Możesz dodatkowo dostosować właściwości linii, aby uzyskać pożądane efekty wizualne.
+Gratulacje! Udało Ci się dodać niestandardową linię do slajdu Java przy użyciu Aspose.Slides for Java. Możesz dalej dostosowywać właściwości linii, aby uzyskać pożądane efekty wizualne.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
 ### Jak zmienić kolor linii?
 
@@ -98,25 +100,27 @@ Aby zmienić kolor linii, użyj następującego kodu:
 shape.getLineFormat().getFillFormat().getSolidFillColor().setColor(Color.YOUR_COLOR);
 ```
 
- Zastępować`YOUR_COLOR` z żądanym kolorem.
+Zastępować `YOUR_COLOR` w wybranym kolorze.
 
-### Czy mogę dodać niestandardowe linie do innych kształtów?
+### Czy mogę dodawać niestandardowe linie do innych kształtów?
 
- Tak, możesz dodawać niestandardowe linie do różnych kształtów, a nie tylko do wykresów. Po prostu utwórz`IAutoShape` i dostosuj go do swoich potrzeb.
+Tak, możesz dodawać niestandardowe linie do różnych kształtów, nie tylko wykresów. Po prostu utwórz `IAutoShape` i dostosuj go do swoich potrzeb.
 
 ### Jak mogę zmienić grubość linii?
 
- Grubość linii można zmienić, ustawiając opcję`Width` właściwość formatu linii. Na przykład:
+Możesz zmienić grubość linii, ustawiając `Width` właściwość formatu linii. Na przykład:
 ```java
 shape.getLineFormat().setWidth(2); // Ustaw grubość linii na 2 punkty
 ```
 
-### Czy można dodać wiele linii do slajdu?
+### Czy można dodać wiele wierszy do slajdu?
 
-Tak, możesz dodać wiele linii do slajdu, powtarzając kroki opisane w tym samouczku. Każdą linię można dostosować niezależnie.
+Tak, możesz dodać wiele wierszy do slajdu, powtarzając kroki wymienione w tym samouczku. Każdy wiersz można dostosować niezależnie.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

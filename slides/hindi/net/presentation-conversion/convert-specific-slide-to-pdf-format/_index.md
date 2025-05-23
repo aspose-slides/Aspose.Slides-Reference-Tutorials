@@ -1,14 +1,16 @@
 ---
-title: विशिष्ट स्लाइड को पीडीएफ प्रारूप में बदलें
-linktitle: विशिष्ट स्लाइड को पीडीएफ प्रारूप में बदलें
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: जानें कि .NET के लिए Aspose.Slides का उपयोग करके विशिष्ट PowerPoint स्लाइड्स को PDF प्रारूप में कैसे परिवर्तित किया जाए। कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 19
-url: /hi/net/presentation-conversion/convert-specific-slide-to-pdf-format/
+"description": "जानें कि .NET के लिए Aspose.Slides का उपयोग करके विशिष्ट PowerPoint स्लाइड्स को PDF प्रारूप में कैसे परिवर्तित किया जाए। कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "विशिष्ट स्लाइड को पीडीएफ प्रारूप में बदलें"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "विशिष्ट स्लाइड को पीडीएफ प्रारूप में बदलें"
+"url": "/hi/net/presentation-conversion/convert-specific-slide-to-pdf-format/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # विशिष्ट स्लाइड को पीडीएफ प्रारूप में बदलें
@@ -54,8 +56,8 @@ using (Presentation presentation = new Presentation(dataDir + "SelectedSlides.pp
 
 इस कोड में:
 
--  प्रतिस्थापित करें`"Your Document Directory"`उस निर्देशिका पथ के साथ जहां आपकी पावरपॉइंट प्रस्तुति फ़ाइल स्थित है।
--  प्रतिस्थापित करें`"Your Output Directory"` उस निर्देशिका के साथ जहां आप परिवर्तित पीडीएफ को सहेजना चाहते हैं।
+- प्रतिस्थापित करें `"Your Document Directory"` उस निर्देशिका पथ के साथ जहां आपकी पावरपॉइंट प्रस्तुति फ़ाइल स्थित है।
+- प्रतिस्थापित करें `"Your Output Directory"` उस निर्देशिका के साथ जहां आप परिवर्तित पीडीएफ को सहेजना चाहते हैं।
 
 ## चरण 3: कोड चलाना
 
@@ -71,7 +73,7 @@ using (Presentation presentation = new Presentation(dataDir + "SelectedSlides.pp
 
 हां, Aspose.Slides for .NET विभिन्न PowerPoint प्रारूपों का समर्थन करता है, जिसमें PPT और नवीनतम PPTX जैसे पुराने संस्करण शामिल हैं।
 
-### 2. क्या मैं स्लाइडों को पीडीएफ के अलावा अन्य प्रारूपों में परिवर्तित कर सकता हूं?
+### 2. क्या मैं स्लाइड्स को पीडीएफ के अलावा अन्य प्रारूपों में परिवर्तित कर सकता हूं?
 
 बिल्कुल! Aspose.Slides for .NET छवियों, HTML, और अधिक सहित प्रारूपों की एक विस्तृत श्रृंखला में रूपांतरण का समर्थन करता है।
 
@@ -88,9 +90,11 @@ using (Presentation presentation = new Presentation(dataDir + "SelectedSlides.pp
 अतिरिक्त संसाधनों और दस्तावेज़ीकरण के लिए[API संदर्भ के लिए Aspose.Slides](https://reference.aspose.com/slides/net/).
 
 अब जब आपने .NET के लिए Aspose.Slides के साथ विशिष्ट स्लाइड्स को PDF में बदलने की कला में महारत हासिल कर ली है, तो आप अपने PowerPoint स्वचालन कार्यों को सुव्यवस्थित करने के लिए तैयार हैं। हैप्पी कोडिंग!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,47 +1,49 @@
 ---
-title: Seri Animasi dalam Slide Java
-linktitle: Seri Animasi dalam Slide Java
-second_title: Aspose.Slides API Pemrosesan Java PowerPoint
-description: Optimalkan presentasi Anda dengan animasi seri di Aspose.Slides untuk Java. Ikuti panduan langkah demi langkah kami dengan contoh kode sumber untuk membuat animasi PowerPoint yang menarik.
-weight: 11
-url: /id/java/animation-and-layout/animating-series-java-slides/
+"description": "Optimalkan presentasi Anda dengan animasi seri di Aspose.Slides untuk Java. Ikuti panduan langkah demi langkah kami dengan contoh kode sumber untuk membuat animasi PowerPoint yang menarik."
+"linktitle": "Animasi Seri di Slide Java"
+"second_title": "API Pemrosesan PowerPoint Java Aspose.Slides"
+"title": "Animasi Seri di Slide Java"
+"url": "/id/java/animation-and-layout/animating-series-java-slides/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Seri Animasi dalam Slide Java
+# Animasi Seri di Slide Java
 
 
-## Pengantar Seri Animasi di Aspose.Slide untuk Java
+## Pengantar Animasi Seri di Aspose.Slides untuk Java
 
-Dalam panduan ini, kami akan memandu Anda melalui proses menganimasikan rangkaian di slide Java menggunakan Aspose.Slides untuk Java API. Pustaka ini memungkinkan Anda bekerja dengan presentasi PowerPoint secara terprogram.
+Dalam panduan ini, kami akan memandu Anda melalui proses menganimasikan rangkaian slide Java menggunakan Aspose.Slides for Java API. Pustaka ini memungkinkan Anda untuk bekerja dengan presentasi PowerPoint secara terprogram.
 
 ## Prasyarat
 
-Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 
-- Aspose.Slide untuk perpustakaan Java.
-- Lingkungan pengembangan Java disiapkan.
+- Aspose.Slides untuk pustaka Java.
+- Lingkungan pengembangan Java telah disiapkan.
 
 ## Langkah 1: Muat Presentasi
 
- Pertama, kita perlu memuat presentasi PowerPoint yang sudah ada yang berisi bagan. Mengganti`"Your Document Directory"` dengan jalur sebenarnya ke file presentasi Anda.
+Pertama, kita perlu memuat presentasi PowerPoint yang sudah ada yang berisi bagan. Ganti `"Your Document Directory"` dengan jalur sebenarnya ke berkas presentasi Anda.
 
 ```java
 // Jalur ke direktori dokumen.
 String dataDir = "Your Document Directory";
-// Buat instance kelas Presentasi yang mewakili file presentasi
+// Membuat instance kelas Presentasi yang mewakili file presentasi 
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
 ## Langkah 2: Akses Bagan
 
-Selanjutnya, kita akan mengakses grafik dalam presentasi. Dalam contoh ini, kita asumsikan grafik ada pada slide pertama dan merupakan bentuk pertama pada slide tersebut.
+Selanjutnya, kita akan mengakses diagram dalam presentasi. Dalam contoh ini, kita asumsikan diagram ada di slide pertama dan merupakan bentuk pertama pada slide tersebut.
 
 ```java
-// Dapatkan referensi ke objek grafik
+// Dapatkan referensi ke objek bagan
 ISlide slide = presentation.getSlides().get_Item(0);
 IShapeCollection shapes = slide.getShapes();
 IChart chart = (IChart) shapes.get_Item(0);
@@ -49,7 +51,7 @@ IChart chart = (IChart) shapes.get_Item(0);
 
 ## Langkah 3: Tambahkan Animasi
 
-Sekarang, mari tambahkan animasi ke rangkaian di dalam bagan. Kami akan menggunakan efek fade-in dan membuat setiap rangkaian muncul satu demi satu.
+Sekarang, mari tambahkan animasi ke rangkaian di dalam diagram. Kita akan menggunakan efek fade-in dan membuat setiap rangkaian muncul satu demi satu.
 
 ```java
 // Animasikan seluruh bagan
@@ -63,7 +65,7 @@ for (int i = 0; i < 4; i++) {
 }
 ```
 
-Dalam kode di atas, kita menggunakan efek fade-in untuk keseluruhan grafik dan kemudian menggunakan loop untuk menambahkan efek "Muncul" ke setiap rangkaian satu demi satu.
+Pada kode di atas, kita menggunakan efek fade-in untuk keseluruhan grafik, lalu menggunakan loop untuk menambahkan efek "Muncul" ke setiap rangkaian satu demi satu.
 
 ## Langkah 4: Simpan Presentasi
 
@@ -73,12 +75,12 @@ Terakhir, simpan presentasi yang dimodifikasi ke disk.
 presentation.save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```
 
-## Kode Sumber Lengkap Untuk Serial Animasi di Aspose.Slide untuk Java
+## Kode Sumber Lengkap Untuk Animasi Seri di Aspose.Slides untuk Java
 
 ```java
 // Jalur ke direktori dokumen.
 String dataDir = "Your Document Directory";
-// Buat instance kelas Presentasi yang mewakili file presentasi
+// Membuat instance kelas Presentasi yang mewakili file presentasi 
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 try
 {
@@ -86,7 +88,7 @@ try
 	ISlide slide = presentation.getSlides().get_Item(0);
 	IShapeCollection shapes = slide.getShapes();
 	IChart chart = (IChart) shapes.get_Item(0);
-	// Animasikan serial tersebut
+	// Animasikan seri
 	slide.getTimeline().getMainSequence().addEffect(chart, EffectType.Fade, EffectSubtype.None,
 			EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart,
@@ -101,7 +103,7 @@ try
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart,
 			EffectChartMajorGroupingType.BySeries, 3,
 			EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
-	// Tulis presentasi yang dimodifikasi ke disk
+	// Tulis presentasi yang dimodifikasi ke disk 
 	presentation.save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 }
 finally
@@ -112,28 +114,30 @@ finally
 
 ## Kesimpulan
 
-Anda telah berhasil menganimasikan serial dalam bagan PowerPoint menggunakan Aspose.Slides untuk Java. Hal ini dapat membuat presentasi Anda lebih menarik dan menarik secara visual. Jelajahi opsi animasi lainnya dan sempurnakan presentasi Anda sesuai kebutuhan.
+Anda telah berhasil menganimasikan rangkaian dalam diagram PowerPoint menggunakan Aspose.Slides untuk Java. Ini dapat membuat presentasi Anda lebih menarik dan memikat secara visual. Jelajahi lebih banyak pilihan animasi dan sempurnakan presentasi Anda sesuai kebutuhan.
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
-### Bagaimana cara mengontrol urutan animasi serial?
+### Bagaimana cara mengontrol urutan animasi seri?
 
- Untuk mengontrol urutan animasi rangkaian, gunakan`EffectTriggerType.AfterPrevious` parameter saat menambahkan efek. Ini akan membuat setiap seri animasi dimulai setelah yang sebelumnya selesai.
+Untuk mengontrol urutan animasi seri, gunakan `EffectTriggerType.AfterPrevious` parameter saat menambahkan efek. Ini akan membuat setiap animasi seri dimulai setelah seri sebelumnya selesai.
 
-### Bisakah saya menerapkan animasi berbeda pada setiap seri?
+### Bisakah saya menerapkan animasi yang berbeda untuk setiap seri?
 
- Ya, Anda dapat menerapkan animasi berbeda ke setiap seri dengan menentukan berbeda`EffectType` Dan`EffectSubtype` nilai saat menambahkan efek.
+Ya, Anda dapat menerapkan animasi yang berbeda ke setiap seri dengan menentukan `EffectType` Dan `EffectSubtype` nilai saat menambahkan efek.
 
 ### Bagaimana jika presentasi saya memiliki lebih dari empat seri?
 
-Anda dapat memperluas perulangan di Langkah 3 untuk menambahkan animasi untuk semua rangkaian di bagan Anda. Sesuaikan saja kondisi loopnya.
+Anda dapat memperpanjang loop pada Langkah 3 untuk menambahkan animasi untuk semua seri dalam diagram Anda. Sesuaikan saja kondisi loop sebagaimana mestinya.
 
-### Bagaimana cara menyesuaikan durasi dan penundaan animasi?
+### Bagaimana saya dapat menyesuaikan durasi dan penundaan animasi?
 
 Anda dapat menyesuaikan durasi dan penundaan animasi dengan mengatur properti pada efek animasi. Periksa dokumentasi Aspose.Slides untuk Java untuk detail tentang opsi penyesuaian yang tersedia.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

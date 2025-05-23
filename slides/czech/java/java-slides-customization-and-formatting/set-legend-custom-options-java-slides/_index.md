@@ -1,29 +1,31 @@
 ---
-title: Nastavte vlastní možnosti legendy v aplikaci Java Slides
-linktitle: Nastavte vlastní možnosti legendy v aplikaci Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Naučte se, jak nastavit vlastní možnosti legendy v Java Slides pomocí Aspose.Slides for Java. Přizpůsobte umístění a velikost legendy v grafech PowerPoint.
-weight: 14
-url: /cs/java/customization-and-formatting/set-legend-custom-options-java-slides/
+"description": "Naučte se, jak nastavit vlastní možnosti legendy v Java Slides pomocí Aspose.Slides pro Javu. Přizpůsobte si umístění a velikost legendy v grafech PowerPoint."
+"linktitle": "Nastavení vlastních možností legendy v prezentaci Java"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Nastavení vlastních možností legendy v prezentaci Java"
+"url": "/cs/java/customization-and-formatting/set-legend-custom-options-java-slides/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nastavte vlastní možnosti legendy v aplikaci Java Slides
+# Nastavení vlastních možností legendy v prezentaci Java
 
 
-## Úvod k nastavení vlastních možností legendy v Java Slides
+## Úvod do nastavení vlastních možností legendy v Javě Slides
 
-V tomto tutoriálu si ukážeme, jak upravit vlastnosti legendy grafu v prezentaci PowerPoint pomocí Aspose.Slides for Java. Pozici, velikost a další atributy legendy můžete upravit tak, aby vyhovovaly vašim potřebám prezentace.
+tomto tutoriálu si ukážeme, jak přizpůsobit vlastnosti legendy grafu v prezentaci PowerPoint pomocí Aspose.Slides pro Javu. Můžete upravit pozici, velikost a další atributy legendy tak, aby vyhovovaly potřebám vaší prezentace.
 
 ## Předpoklady
 
 Než začnete, ujistěte se, že máte následující:
 
-- Aspose.Slides for Java API nainstalováno.
-- Nastavení vývojového prostředí Java.
+- Nainstalováno rozhraní Aspose.Slides pro Java API.
+- Nastavení vývojového prostředí v Javě.
 
 ## Krok 1: Importujte potřebné třídy:
 
@@ -32,40 +34,40 @@ Než začnete, ujistěte se, že máte následující:
 import com.aspose.slides.*;
 ```
 
-## Krok 2: Zadejte cestu k adresáři dokumentů:
+## Krok 2: Zadejte cestu k adresáři s dokumenty:
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-##  Krok 3: Vytvořte instanci souboru`Presentation` class:
+## Krok 3: Vytvořte instanci `Presentation` třída:
 
 ```java
 Presentation presentation = new Presentation();
 ```
 
-## Krok 4: Přidejte snímek do prezentace:
+## Krok 4: Přidání snímku do prezentace:
 
 ```java
 try {
     ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
-## Krok 5: Přidejte na snímek seskupený sloupcový graf:
+## Krok 5: Přidání shlukového sloupcového grafu na snímek:
 
 ```java
     IChart chart = slide.getShapes().addChart(ChartType.ClusteredColumn, 50, 50, 500, 500);
 ```
 
-## Krok 6. Nastavte vlastnosti legendy:
+## Krok 6. Nastavení vlastností legendy:
 
-- Nastavte polohu X legendy (vzhledem k šířce grafu):
+- Nastavte pozici legendy na ose X (vzhledem k šířce grafu):
 
 ```java
 chart.getLegend().setX(50 / chart.getWidth());
 ```
 
-- Nastavte polohu Y legendy (vzhledem k výšce grafu):
+- Nastavte pozici legendy na ose Y (vzhledem k výšce grafu):
 
 ```java
 chart.getLegend().setY(50 / chart.getHeight());
@@ -83,7 +85,7 @@ chart.getLegend().setWidth(100 / chart.getWidth());
 chart.getLegend().setHeight(100 / chart.getHeight());
 ```
 
-## Krok 7: Uložte prezentaci na disk:
+## Krok 7: Uložení prezentace na disk:
 
 ```java
     presentation.save(dataDir + "Legend_out.pptx", SaveFormat.Pptx);
@@ -92,27 +94,27 @@ chart.getLegend().setHeight(100 / chart.getHeight());
 }
 ```
 
-je to! Úspěšně jste přizpůsobili vlastnosti legendy grafu v prezentaci PowerPoint pomocí Aspose.Slides for Java.
+To je vše! Úspěšně jste upravili vlastnosti legendy grafu v prezentaci PowerPoint pomocí Aspose.Slides pro Javu.
 
 ## Kompletní zdrojový kód pro nastavení vlastních možností legendy v Java Slides
 
 ```java
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 String dataDir = "Your Document Directory";
-// Vytvořte instanci třídy Presentation
+// Vytvoření instance třídy Presentation
 Presentation presentation = new Presentation();
 try
 {
-	// Získejte referenci na snímek
+	// Získat odkaz na snímek
 	ISlide slide = presentation.getSlides().get_Item(0);
-	// Přidejte na snímek seskupený sloupcový graf
+	// Přidání seskupeného sloupcového grafu na snímek
 	IChart chart = slide.getShapes().addChart(ChartType.ClusteredColumn, 50, 50, 500, 500);
-	// Nastavte vlastnosti legendy
+	// Nastavení vlastností legendy
 	chart.getLegend().setX(50 / chart.getWidth());
 	chart.getLegend().setY(50 / chart.getHeight());
 	chart.getLegend().setWidth(100 / chart.getWidth());
 	chart.getLegend().setHeight(100 / chart.getHeight());
-	// Zápis prezentace na disk
+	// Zapsat prezentaci na disk
 	presentation.save(dataDir + "Legend_out.pptx", SaveFormat.Pptx);
 }
 finally
@@ -122,24 +124,26 @@ finally
 ```
 ## Závěr
 
-V tomto tutoriálu jsme se naučili, jak upravit vlastnosti legendy grafu v prezentaci PowerPoint pomocí Aspose.Slides pro Java. Můžete upravit polohu, velikost a další atributy legendy, abyste vytvořili vizuálně přitažlivé a informativní prezentace.
+V tomto tutoriálu jsme se naučili, jak přizpůsobit vlastnosti legendy grafu v prezentaci PowerPoint pomocí Aspose.Slides pro Javu. Můžete upravit pozici, velikost a další atributy legendy a vytvořit tak vizuálně přitažlivé a informativní prezentace.
 
-## FAQ
+## Často kladené otázky
 
-## Jak mohu změnit polohu legendy?
+## Jak mohu změnit pozici legendy?
 
- Chcete-li změnit polohu legendy, použijte`setX` a`setY` metody objektu legendy. Hodnoty jsou určeny relativně k šířce a výšce grafu.
+Chcete-li změnit polohu legendy, použijte `setX` a `setY` metody objektu legendy. Hodnoty jsou zadány vzhledem k šířce a výšce grafu.
 
 ## Jak mohu upravit velikost legendy?
 
- Velikost legendy můžete upravit pomocí`setWidth` a`setHeight` metody objektu legendy. Tyto hodnoty jsou také relativní k šířce a výšce grafu.
+Velikost legendy můžete upravit pomocí `setWidth` a `setHeight` metody objektu legendy. Tyto hodnoty jsou také relativní vzhledem k šířce a výšce grafu.
 
-## Mohu upravit další atributy legend?
+## Mohu si přizpůsobit další atributy legendy?
 
-Ano, můžete přizpůsobit různé atributy legendy, jako je styl písma, ohraničení, barva pozadí a další. Prozkoumejte dokumentaci Aspose.Slides, kde najdete podrobné informace o dalším přizpůsobení legend.
+Ano, můžete si přizpůsobit různé atributy legendy, jako je styl písma, ohraničení, barva pozadí a další. Pro podrobnější informace o dalším přizpůsobení legend si prohlédněte dokumentaci k Aspose.Slides.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

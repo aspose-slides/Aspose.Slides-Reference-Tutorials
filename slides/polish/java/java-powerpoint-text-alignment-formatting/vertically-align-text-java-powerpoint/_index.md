@@ -1,54 +1,56 @@
 ---
-title: Wyrównaj tekst w pionie w programie Java PowerPoint
-linktitle: Wyrównaj tekst w pionie w programie Java PowerPoint
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Dowiedz się, jak wyrównywać tekst w pionie w prezentacjach Java PowerPoint przy użyciu Aspose.Slides w celu płynnego formatowania slajdów.
-weight: 10
-url: /pl/java/java-powerpoint-text-alignment-formatting/vertically-align-text-java-powerpoint/
+"description": "Dowiedz się, jak wyrównać tekst w pionie w prezentacjach PowerPoint w języku Java przy użyciu Aspose.Slides, aby zapewnić płynne formatowanie slajdów."
+"linktitle": "Wyrównanie tekstu w pionie w programie Java PowerPoint"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Wyrównanie tekstu w pionie w programie Java PowerPoint"
+"url": "/pl/java/java-powerpoint-text-alignment-formatting/vertically-align-text-java-powerpoint/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wyrównaj tekst w pionie w programie Java PowerPoint
+# Wyrównanie tekstu w pionie w programie Java PowerPoint
 
 ## Wstęp
-tym samouczku dowiesz się, jak wyrównywać w pionie tekst w komórkach tabeli w prezentacji programu PowerPoint przy użyciu Aspose.Slides dla Java. Wyrównanie tekstu w pionie to kluczowy aspekt projektowania slajdów, zapewniający schludną i profesjonalną prezentację treści. Aspose.Slides zapewnia zaawansowane funkcje do programowego manipulowania i formatowania prezentacji, zapewniając pełną kontrolę nad każdym aspektem slajdów.
-## Warunki wstępne
-Zanim zagłębisz się w ten samouczek, upewnij się, że spełniasz następujące wymagania wstępne:
-- Podstawowa znajomość programowania w języku Java.
-- JDK (Java Development Kit) zainstalowany na twoim komputerze.
--  Aspose.Slides dla biblioteki Java. Można go pobrać z[Tutaj](https://releases.aspose.com/slides/java/).
-- Zainstalowane środowisko IDE (Integrated Development Environment), takie jak IntelliJ IDEA lub Eclipse.
+W tym samouczku dowiesz się, jak wyrównać pionowo tekst w komórkach tabeli w prezentacji PowerPoint przy użyciu Aspose.Slides dla Java. Pionowe wyrównanie tekstu jest kluczowym aspektem projektowania slajdów, zapewniającym, że Twoja treść jest prezentowana schludnie i profesjonalnie. Aspose.Slides oferuje potężne funkcje do manipulowania i formatowania prezentacji programowo, dając Ci pełną kontrolę nad każdym aspektem Twoich slajdów.
+## Wymagania wstępne
+Zanim przejdziesz do tego samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+- Podstawowa znajomość programowania w Javie.
+- JDK (Java Development Kit) zainstalowany na Twoim komputerze.
+- Biblioteka Aspose.Slides dla Java. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/slides/java/).
+- Zainstalowane środowisko IDE (zintegrowane środowisko programistyczne), np. IntelliJ IDEA lub Eclipse.
 
 ## Importuj pakiety
-Przed kontynuowaniem samouczka pamiętaj o zaimportowaniu niezbędnych pakietów Aspose.Slides do pliku Java:
+Przed kontynuowaniem pracy z samouczkiem upewnij się, że zaimportowałeś niezbędne pakiety Aspose.Slides do pliku Java:
 ```java
 import com.aspose.slides.*;
 import java.awt.*;
 ```
-## Krok 1: Skonfiguruj projekt Java
-Upewnij się, że skonfigurowałeś nowy projekt Java w preferowanym środowisku IDE i dodałeś bibliotekę Aspose.Slides do ścieżki kompilacji projektu.
-## Krok 2: Zainicjuj obiekt Prezentacja
- Utwórz instancję`Presentation` klasę, aby rozpocząć pracę z nową prezentacją programu PowerPoint:
+## Krok 1: Skonfiguruj swój projekt Java
+Upewnij się, że utworzyłeś nowy projekt Java w preferowanym środowisku IDE i dodałeś bibliotekę Aspose.Slides do ścieżki kompilacji projektu.
+## Krok 2: Zainicjuj obiekt prezentacji
+Utwórz instancję `Presentation` klasa rozpoczyna pracę nad nową prezentacją PowerPoint:
 ```java
 Presentation presentation = new Presentation();
 ```
 ## Krok 3: Uzyskaj dostęp do pierwszego slajdu
-Pobierz pierwszy slajd z prezentacji, aby dodać do niego treść:
+Pobierz pierwszy slajd prezentacji, aby dodać do niego treść:
 ```java
 ISlide slide = presentation.getSlides().get_Item(0);
 ```
 ## Krok 4: Zdefiniuj wymiary tabeli i dodaj tabelę
-Zdefiniuj szerokość kolumn i wysokość wierszy tabeli, a następnie dodaj kształt tabeli do slajdu:
+Zdefiniuj szerokości kolumn i wysokości wierszy tabeli, a następnie dodaj kształt tabeli do slajdu:
 ```java
 double[] dblCols = {120, 120, 120, 120};
 double[] dblRows = {100, 100, 100, 100};
 ITable tbl = slide.getShapes().addTable(100, 50, dblCols, dblRows);
 ```
 ## Krok 5: Ustaw zawartość tekstową w komórkach tabeli
-Ustaw zawartość tekstową dla określonych wierszy tabeli:
+Ustaw zawartość tekstową dla konkretnych wierszy w tabeli:
 ```java
 tbl.getRows().get_Item(1).get_Item(0).getTextFrame().setText("10");
 tbl.getRows().get_Item(2).get_Item(0).getTextFrame().setText("20");
@@ -65,7 +67,7 @@ portion.getPortionFormat().getFillFormat().setFillType(FillType.Solid);
 portion.getPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.BLACK);
 ```
 ## Krok 7: Wyrównaj tekst w pionie
-Ustaw wyrównanie w pionie tekstu w komórce:
+Ustaw wyrównanie pionowe tekstu w komórce:
 ```java
 ICell cell = tbl.get_Item(0, 0);
 cell.setTextAnchorType(TextAnchorType.Center);
@@ -78,28 +80,30 @@ String dataDir = "Your Document Directory";
 presentation.save(dataDir + "Vertical_Align_Text_out.pptx", SaveFormat.Pptx);
 ```
 ## Krok 9: Oczyść zasoby
- Pozbądź się`Presentation` sprzeciw do zwolnienia zasobów:
+Pozbądź się `Presentation` obiekt do zwolnienia zasobów:
 ```java
 if (presentation != null) presentation.dispose();
 ```
 
 ## Wniosek
-Wykonując poniższe kroki, możesz skutecznie wyrównywać w pionie tekst w komórkach tabeli w prezentacjach Java PowerPoint za pomocą Aspose.Slides. Ta funkcja zwiększa atrakcyjność wizualną i przejrzystość slajdów, zapewniając profesjonalną prezentację treści.
+Wykonując te kroki, możesz skutecznie wyrównać tekst w pionie w komórkach tabeli w prezentacjach Java PowerPoint przy użyciu Aspose.Slides. Ta możliwość zwiększa atrakcyjność wizualną i przejrzystość slajdów, zapewniając profesjonalną prezentację treści.
 
-## Często zadawane pytania
-### Czy mogę wyrównać w pionie tekst w innych kształtach oprócz tabel?
-Tak, Aspose.Slides udostępnia metody wyrównywania tekstu w pionie w różnych kształtach, w tym w polach tekstowych i obiektach zastępczych.
+## Najczęściej zadawane pytania
+### Czy mogę wyrównać tekst w pionie również w innych kształtach oprócz tabel?
+Tak, Aspose.Slides udostępnia metody umożliwiające pionowe wyrównywanie tekstu o różnych kształtach, w tym pól tekstowych i symboli zastępczych.
 ### Czy Aspose.Slides obsługuje również wyrównywanie tekstu w poziomie?
-Tak, możesz wyrównywać tekst w poziomie, korzystając z różnych opcji wyrównywania dostępnych w Aspose.Slides.
+Tak, możesz wyrównać tekst w poziomie, korzystając z różnych opcji wyrównania udostępnionych przez Aspose.Slides.
 ### Czy Aspose.Slides jest kompatybilny ze wszystkimi wersjami programu PowerPoint?
-Aspose.Slides obsługuje generowanie prezentacji kompatybilnych ze wszystkimi głównymi wersjami programu Microsoft PowerPoint.
+Aspose.Slides umożliwia generowanie prezentacji zgodnych ze wszystkimi głównymi wersjami programu Microsoft PowerPoint.
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji dla Aspose.Slides?
- Odwiedzić[Dokumentacja Aspose.Slides](https://reference.aspose.com/slides/java/) obszerne przewodniki, odniesienia do API i próbki kodu.
-### Jak mogę uzyskać pomoc dotyczącą Aspose.Slides?
- Aby uzyskać pomoc techniczną i wsparcie społeczności, odwiedź stronę[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+Odwiedź [Dokumentacja Aspose.Slides](https://reference.aspose.com/slides/java/) gdzie znajdziesz kompleksowe przewodniki, odniesienia do interfejsów API i przykłady kodu.
+### Gdzie mogę uzyskać pomoc techniczną dotyczącą Aspose.Slides?
+Aby uzyskać pomoc techniczną i wsparcie społeczności, odwiedź stronę [Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

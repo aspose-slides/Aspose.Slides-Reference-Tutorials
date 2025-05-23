@@ -1,14 +1,16 @@
 ---
-title: जावा पावरपॉइंट में बहुस्तरीय बुलेट बनाएं
-linktitle: जावा पावरपॉइंट में बहुस्तरीय बुलेट बनाएं
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके PowerPoint में मल्टीलेवल बुलेट बनाना सीखें। कोड उदाहरणों और FAQ के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 14
-url: /hi/java/java-powerpoint-text-paragraph-management/create-multilevel-bullets-java-powerpoint/
+"description": "Aspose.Slides for Java का उपयोग करके PowerPoint में मल्टीलेवल बुलेट बनाना सीखें। कोड उदाहरणों और FAQ के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "जावा पावरपॉइंट में बहुस्तरीय बुलेट बनाएं"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा पावरपॉइंट में बहुस्तरीय बुलेट बनाएं"
+"url": "/hi/java/java-powerpoint-text-paragraph-management/create-multilevel-bullets-java-powerpoint/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा पावरपॉइंट में बहुस्तरीय बुलेट बनाएं
@@ -18,7 +20,7 @@ url: /hi/java/java-powerpoint-text-paragraph-management/create-multilevel-bullet
 ## आवश्यक शर्तें
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित सेटअप है:
 - जावा डेवलपमेंट एनवायरनमेंट: सुनिश्चित करें कि आपके सिस्टम पर जावा डेवलपमेंट किट (JDK) स्थापित है।
--  Aspose.Slides for Java लाइब्रेरी: Aspose.Slides for Java को यहां से डाउनलोड और इंस्टॉल करें[यहाँ](https://releases.aspose.com/slides/java/).
+- Aspose.Slides for Java लाइब्रेरी: Aspose.Slides for Java को यहां से डाउनलोड और इंस्टॉल करें [यहाँ](https://releases.aspose.com/slides/java/).
 - IDE: अपने पसंदीदा जावा इंटीग्रेटेड डेवलपमेंट एनवायरनमेंट (IDE) का उपयोग करें जैसे कि IntelliJ IDEA, Eclipse, या अन्य।
 - बुनियादी ज्ञान: जावा प्रोग्रामिंग और बुनियादी पावरपॉइंट अवधारणाओं से परिचित होना उपयोगी होगा।
 
@@ -54,7 +56,7 @@ IAutoShape aShp = slide.getShapes().addAutoShape(ShapeType.Rectangle, 200, 200, 
 ऑटोशेप के भीतर टेक्स्ट फ़्रेम तक पहुंचें जहां आप बुलेट पॉइंट के साथ पैराग्राफ जोड़ेंगे।
 ```java
 ITextFrame text = aShp.addTextFrame("");
-text.getParagraphs().clear(); //डिफ़ॉल्ट पैराग्राफ़ साफ़ करें
+text.getParagraphs().clear(); // डिफ़ॉल्ट पैराग्राफ़ साफ़ करें
 ```
 ## चरण 6: बुलेट के साथ पैराग्राफ़ जोड़ें
 अलग-अलग लेवल के बुलेट वाले पैराग्राफ जोड़ें। यहां बताया गया है कि आप मल्टीलेवल बुलेट कैसे जोड़ सकते हैं:
@@ -96,7 +98,7 @@ para4.getParagraphFormat().getDefaultPortionFormat().getFillFormat().getSolidFil
 para4.getParagraphFormat().setDepth((short) 3);
 text.getParagraphs().add(para4);
 ```
-## चरण 7: प्रेजेंटेशन सहेजें
+## चरण 7: प्रस्तुति सहेजें
 अंत में, प्रस्तुति को अपनी इच्छित निर्देशिका में PPTX फ़ाइल के रूप में सहेजें।
 ```java
 pres.save(dataDir + "MultilevelBullet.pptx", SaveFormat.Pptx);
@@ -114,10 +116,12 @@ Aspose.Slides ऐसी प्रस्तुतियाँ तैयार क
 ### क्या मैं Aspose.Slides का उपयोग करके स्लाइडों के निर्माण को स्वचालित कर सकता हूँ?
 हां, Aspose.Slides पावरपॉइंट प्रस्तुतियों के निर्माण, संशोधन और हेरफेर को स्वचालित करने के लिए API प्रदान करता है।
 ### मैं Aspose.Slides for Java के लिए समर्थन कहां से प्राप्त कर सकता हूं?
- आप Aspose.Slides समुदाय और विशेषज्ञों से सहायता प्राप्त कर सकते हैं[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11).
+आप Aspose.Slides समुदाय और विशेषज्ञों से सहायता प्राप्त कर सकते हैं [Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

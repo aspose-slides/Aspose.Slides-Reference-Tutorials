@@ -1,46 +1,48 @@
 ---
-title: Převést na SWF v Java Slides
-linktitle: Převést na SWF v Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Převeďte PowerPointové prezentace do formátu SWF v Javě pomocí Aspose.Slides. Postupujte podle našeho podrobného průvodce se zdrojovým kódem pro bezproblémový převod.
-weight: 35
-url: /cs/java/presentation-conversion/convert-to-swf-java-slides/
+"description": "Převeďte prezentace PowerPointu do formátu SWF v Javě pomocí Aspose.Slides. Pro bezproblémovou konverzi postupujte podle našeho podrobného návodu se zdrojovým kódem."
+"linktitle": "Převod do SWF v Javě Slides"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Převod do SWF v Javě Slides"
+"url": "/cs/java/presentation-conversion/convert-to-swf-java-slides/"
+"weight": 35
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Převést na SWF v Java Slides
+# Převod do SWF v Javě Slides
 
 
-## Úvod do převodu PowerPointové prezentace na SWF v Javě pomocí Aspose.Slides
+## Úvod do převodu prezentací PowerPoint do formátu SWF v Javě pomocí Aspose.Slides
 
-V tomto tutoriálu se naučíte, jak převést prezentaci v PowerPointu (PPTX) do formátu SWF (Shockwave Flash) pomocí Aspose.Slides for Java. Aspose.Slides je výkonná knihovna, která umožňuje programově pracovat s prezentacemi PowerPoint.
+V tomto tutoriálu se naučíte, jak převést prezentaci PowerPoint (PPTX) do formátu SWF (Shockwave Flash) pomocí knihovny Aspose.Slides pro Javu. Aspose.Slides je výkonná knihovna, která umožňuje programově pracovat s prezentacemi PowerPoint.
 
 ## Předpoklady
 
 Než začnete, ujistěte se, že máte následující:
 
-- Java Development Kit (JDK) nainstalován.
--  Aspose.Slides pro knihovnu Java. Můžete si jej stáhnout z[tady](https://downloads.aspose.com/slides/java).
+- Nainstalovaná vývojová sada Java (JDK).
+- Knihovna Aspose.Slides pro Javu. Můžete si ji stáhnout z [zde](https://downloads.aspose.com/slides/java).
 
 ## Krok 1: Import knihovny Aspose.Slides
 
-Nejprve musíte do svého projektu Java importovat knihovnu Aspose.Slides. Soubor JAR můžete přidat do cesty třídy svého projektu.
+Nejprve je potřeba importovat knihovnu Aspose.Slides do vašeho projektu v Javě. Soubor JAR můžete přidat do cesty tříd vašeho projektu.
 
-## Krok 2: Inicializujte objekt prezentace Aspose.Slides
+## Krok 2: Inicializace prezentačního objektu Aspose.Slides
 
- tomto kroku vytvoříte a`Presentation` objekt k načtení prezentace PowerPoint. Nahradit`"Your Document Directory"` se skutečnou cestou k souboru PowerPoint.
+V tomto kroku vytvoříte `Presentation` objekt pro načtení vaší prezentace v PowerPointu. Nahraďte `"Your Document Directory"` se skutečnou cestou k vašemu souboru PowerPointu.
 
 ```java
 String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "HelloWorld.pptx");
 ```
 
-## Krok 3: Nastavte možnosti převodu SWF
+## Krok 3: Nastavení možností převodu SWF
 
- Nyní nastavíte možnosti převodu SWF pomocí`SwfOptions` třída. Proces převodu můžete přizpůsobit zadáním různých možností. V tomto příkladu nastavíme`viewerIncluded` možnost`false`, což znamená, že prohlížeč nezahrneme do souboru SWF.
+Nyní nastavíte možnosti převodu SWF pomocí `SwfOptions` třída. Proces převodu si můžete přizpůsobit zadáním různých možností. V tomto příkladu nastavíme `viewerIncluded` možnost `false`, což znamená, že prohlížeč do souboru SWF nezahrneme.
 
 ```java
 SwfOptions swfOptions = new SwfOptions();
@@ -54,39 +56,39 @@ INotesCommentsLayoutingOptions notesOptions = swfOptions.getNotesCommentsLayouti
 notesOptions.setNotesPosition(NotesPositions.BottomFull);
 ```
 
-## Krok 4: Převeďte na SWF
+## Krok 4: Převod do formátu SWF
 
- Nyní můžete prezentaci PowerPoint převést do formátu SWF pomocí`save` metoda`Presentation` objekt.
+Nyní můžete převést prezentaci PowerPoint do formátu SWF pomocí `save` metoda `Presentation` objekt.
 
 ```java
 presentation.save(dataDir + "SaveAsSwf_out.swf", SaveFormat.Swf, swfOptions);
 ```
 
-Tento řádek kódu uloží prezentaci jako soubor SWF se zadanými volbami.
+Tento řádek kódu uloží prezentaci jako soubor SWF se zadanými možnostmi.
 
-## Krok 5: Zahrnout prohlížeč (volitelné)
+## Krok 5: Zahrnutí prohlížeče (volitelné)
 
- Pokud chcete prohlížeč zahrnout do souboru SWF, můžete změnit`viewerIncluded` možnost`true` a prezentaci znovu uložte.
+Pokud chcete prohlížeč zahrnout do souboru SWF, můžete změnit `viewerIncluded` možnost `true` a znovu uložte prezentaci.
 
 ```java
 swfOptions.setViewerIncluded(true);
 presentation.save(dataDir + "SaveNotes_out.swf", SaveFormat.Swf, swfOptions);
 ```
 
-## Krok 6: Vyčistěte
+## Krok 6: Úklid
 
- Nakonec se ujistěte, že jste je zlikvidovali`Presentation`vznést námitku proti uvolnění jakýchkoli zdrojů.
+Nakonec se ujistěte, že jste zlikvidovali `Presentation` namítat proti uvolnění jakýchkoli zdrojů.
 
 ```java
 if (presentation != null) presentation.dispose();
 ```
 
-## Kompletní zdrojový kód pro převod do SWF v Java Slides
+## Kompletní zdrojový kód pro převod do SWF v Javě Slides
 
 ```java
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 String dataDir = "Your Document Directory";
-// Vytvořte instanci objektu Presentation, který představuje soubor prezentace
+// Vytvoření instance objektu Presentation, který představuje soubor prezentace.
 Presentation presentation = new Presentation(dataDir + "HelloWorld.pptx");
 try
 {
@@ -94,7 +96,7 @@ try
 	swfOptions.setViewerIncluded(false);
 	INotesCommentsLayoutingOptions notesOptions = swfOptions.getNotesCommentsLayouting();
 	notesOptions.setNotesPosition(NotesPositions.BottomFull);
-	// Ukládání stránek prezentace a poznámek
+	// Ukládání prezentací a stránek s poznámkami
 	presentation.save(dataDir + "SaveAsSwf_out.swf", SaveFormat.Swf, swfOptions);
 	swfOptions.setViewerIncluded(true);
 	presentation.save(dataDir + "SaveNotes_out.swf", SaveFormat.Swf, swfOptions);
@@ -107,32 +109,34 @@ finally
 
 ## Závěr
 
-Úspěšně jste převedli prezentaci PowerPoint do formátu SWF pomocí Aspose.Slides for Java. Proces převodu můžete dále přizpůsobit prozkoumáním různých možností, které poskytuje Aspose.Slides.
+Úspěšně jste převedli prezentaci PowerPoint do formátu SWF pomocí nástroje Aspose.Slides pro Javu. Proces převodu si můžete dále přizpůsobit prozkoumáním různých možností, které Aspose.Slides nabízí.
 
-## FAQ
+## Často kladené otázky
 
 ### Jak nastavím různé možnosti převodu SWF?
 
- Možnosti převodu SWF můžete přizpůsobit úpravou souboru`SwfOptions` objekt. Seznam dostupných možností naleznete v dokumentaci Aspose.Slides.
+Možnosti převodu SWF můžete přizpůsobit úpravou `SwfOptions` objekt. Seznam dostupných možností naleznete v dokumentaci k Aspose.Slides.
 
 ### Mohu do souboru SWF zahrnout poznámky a komentáře?
 
- Ano, do souboru SWF můžete zahrnout poznámky a komentáře konfigurací`SwfOptions` podle toho. Použijte`setViewerIncluded` způsob kontroly, zda jsou zahrnuty poznámky a komentáře.
+Ano, do souboru SWF můžete přidat poznámky a komentáře konfigurací `SwfOptions` odpovídajícím způsobem. Použijte `setViewerIncluded` metoda pro kontrolu, zda jsou zahrnuty poznámky a komentáře.
 
 ### Jaká je výchozí pozice poznámek v souboru SWF?
 
-Výchozí pozice poznámek v souboru SWF je „Žádné“. Podle potřeby jej můžete změnit na „BottomFull“ nebo jiné pozice.
+Výchozí pozice poznámek v souboru SWF je „Žádná“. V případě potřeby ji můžete změnit na „Plná dole“ nebo na jinou pozici.
 
-### Existují nějaké další výstupní formáty podporované Aspose.Slides?
+### Podporuje Aspose.Slides nějaké další výstupní formáty?
 
-Ano, Aspose.Slides podporuje různé výstupní formáty, včetně PDF, HTML, obrázků a dalších. Tyto možnosti můžete prozkoumat v dokumentaci.
+Ano, Aspose.Slides podporuje různé výstupní formáty, včetně PDF, HTML, obrázků a dalších. Tyto možnosti si můžete prohlédnout v dokumentaci.
 
-### Jak mohu řešit chyby během převodu?
+### Jak mohu ošetřit chyby během konverze?
 
-Bloky try-catch můžete použít ke zpracování výjimek, které mohou nastat během procesu převodu. Ujistěte se, že najdete v dokumentaci Aspose.Slides konkrétní doporučení pro řešení chyb.
+Bloky try-catch můžete použít k ošetření výjimek, které mohou nastat během procesu převodu. Nezapomeňte si prostudovat dokumentaci k Aspose.Slides, kde najdete konkrétní doporučení pro ošetření chyb.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,34 +1,36 @@
 ---
-title: คำนวณสูตรใน Java Slides
-linktitle: คำนวณสูตรใน Java Slides
-second_title: Aspose.Slides Java PowerPoint การประมวลผล API
-description: เรียนรู้วิธีการคำนวณสูตรใน Java Slides โดยใช้ Aspose.Slides สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมซอร์สโค้ดสำหรับการนำเสนอ PowerPoint แบบไดนามิก
-weight: 10
-url: /th/java/data-manipulation/calculate-formulas-java-slides/
+"description": "เรียนรู้วิธีคำนวณสูตรใน Java Slides โดยใช้ Aspose.Slides สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับสำหรับการนำเสนอ PowerPoint แบบไดนามิก"
+"linktitle": "คำนวณสูตรในสไลด์ Java"
+"second_title": "API การประมวลผล Java PowerPoint ของ Aspose.Slides"
+"title": "คำนวณสูตรในสไลด์ Java"
+"url": "/th/java/data-manipulation/calculate-formulas-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# คำนวณสูตรใน Java Slides
+# คำนวณสูตรในสไลด์ Java
 
 
-## ข้อมูลเบื้องต้นเกี่ยวกับการคำนวณสูตรใน Java Slides โดยใช้ Aspose.Slides
+## บทนำเกี่ยวกับการคำนวณสูตรในสไลด์ Java โดยใช้ Aspose.Slides
 
-ในคู่มือนี้ เราจะสาธิตวิธีคำนวณสูตรใน Java Slides โดยใช้ Aspose.Slides สำหรับ Java API Aspose.Slides เป็นไลบรารีที่มีประสิทธิภาพสำหรับการทำงานกับงานนำเสนอ PowerPoint และมีคุณสมบัติในการจัดการแผนภูมิและคำนวณสูตรภายในสไลด์
+ในคู่มือนี้ เราจะสาธิตวิธีการคำนวณสูตรใน Java Slides โดยใช้ Aspose.Slides for Java API Aspose.Slides เป็นไลบรารีที่มีประสิทธิภาพสำหรับการทำงานกับการนำเสนอ PowerPoint และมีคุณสมบัติในการจัดการแผนภูมิและคำนวณสูตรภายในสไลด์
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่คุณจะเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
+ก่อนที่คุณจะเริ่มต้น โปรดตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
-- สภาพแวดล้อมการพัฒนาจาวา
--  Aspose.Slides สำหรับไลบรารี Java (คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/slides/java/)
-- ความรู้พื้นฐานเกี่ยวกับการเขียนโปรแกรม Java
+- สภาพแวดล้อมการพัฒนา Java
+- Aspose.Slides สำหรับไลบรารี Java (สามารถดาวน์โหลดได้จาก [ที่นี่](https://releases.aspose.com/slides/java/)
+- ความรู้พื้นฐานเกี่ยวกับการเขียนโปรแกรมภาษา Java
 
 ## ขั้นตอนที่ 1: สร้างงานนำเสนอใหม่
 
-ขั้นแรก มาสร้างงานนำเสนอ PowerPoint ใหม่และเพิ่มสไลด์ลงไป เราจะทำงานกับสไลด์เดียวในตัวอย่างนี้
+ขั้นแรก ให้สร้างงานนำเสนอ PowerPoint ใหม่และเพิ่มสไลด์เข้าไป เราจะใช้สไลด์เดียวในตัวอย่างนี้
 
 ```java
 String resultPath = "Your Output Directory" + "CalculateFormulas_out.pptx";
@@ -37,7 +39,7 @@ Presentation presentation = new Presentation();
 
 ## ขั้นตอนที่ 2: เพิ่มแผนภูมิลงในสไลด์
 
-ตอนนี้ เรามาเพิ่มแผนภูมิคอลัมน์แบบกลุ่มลงในสไลด์ เราจะใช้แผนภูมินี้เพื่อแสดงการคำนวณตามสูตร
+ตอนนี้เรามาเพิ่มแผนภูมิคอลัมน์แบบคลัสเตอร์ลงในสไลด์กัน เราจะใช้แผนภูมินี้เพื่อแสดงการคำนวณสูตร
 
 ```java
 IChart s_chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);
@@ -45,7 +47,7 @@ IChart s_chart = presentation.getSlides().get_Item(0).getShapes().addChart(Chart
 
 ## ขั้นตอนที่ 3: ตั้งค่าสูตรและค่า
 
-ต่อไป เราจะตั้งค่าสูตรและค่าสำหรับเซลล์ข้อมูลแผนภูมิโดยใช้ Aspose.Slides API เราจะคำนวณสูตรสำหรับเซลล์เหล่านี้
+ต่อไปเราจะกำหนดสูตรและค่าสำหรับเซลล์ข้อมูลแผนภูมิโดยใช้ Aspose.Slides API เราจะคำนวณสูตรสำหรับเซลล์เหล่านี้
 
 ```java
 IChartDataWorkbook workbook = s_chart.getChartData().getChartDataWorkbook();
@@ -73,13 +75,13 @@ workbook.calculateFormulas();
 
 ## ขั้นตอนที่ 4: บันทึกการนำเสนอ
 
-สุดท้าย ให้บันทึกงานนำเสนอที่แก้ไขแล้วด้วยสูตรจากการคำนวณ
+สุดท้ายนี้ ให้บันทึกการนำเสนอที่แก้ไขแล้วโดยใช้สูตรที่คำนวณแล้ว
 
 ```java
 presentation.save(resultPath, SaveFormat.Pptx);
 ```
 
-## กรอกซอร์สโค้ดสำหรับการคำนวณสูตรใน Java Slides
+## โค้ดต้นฉบับสมบูรณ์สำหรับการคำนวณสูตรในสไลด์ Java
 
 ```java
 String resultPath = "Your Output Directory" + "CalculateFormulas_out.pptx";
@@ -105,25 +107,27 @@ try {
 
 ## บทสรุป
 
-ในคู่มือนี้ เราได้เรียนรู้วิธีการคำนวณสูตรใน Java Slides โดยใช้ Aspose.Slides สำหรับ Java เราสร้างงานนำเสนอใหม่ เพิ่มแผนภูมิลงไป ตั้งค่าสูตรและค่าสำหรับเซลล์ข้อมูลแผนภูมิ และบันทึกงานนำเสนอด้วยสูตรจากการคำนวณ
+ในคู่มือนี้ เราได้เรียนรู้วิธีการคำนวณสูตรใน Java Slides โดยใช้ Aspose.Slides สำหรับ Java เราสร้างงานนำเสนอใหม่ เพิ่มแผนภูมิ ตั้งค่าสูตรและค่าสำหรับเซลล์ข้อมูลแผนภูมิ และบันทึกงานนำเสนอด้วยสูตรที่คำนวณแล้ว
 
 ## คำถามที่พบบ่อย
 
-### ฉันจะตั้งค่าสูตรสำหรับเซลล์ข้อมูลแผนภูมิได้อย่างไร
+### ฉันจะตั้งค่าสูตรให้กับเซลล์ข้อมูลแผนภูมิได้อย่างไร
 
- คุณสามารถตั้งค่าสูตรสำหรับเซลล์ข้อมูลแผนภูมิได้โดยใช้`setFormula` วิธีการของ`IChartDataCell` ใน Aspose.Slides
+คุณสามารถตั้งค่าสูตรสำหรับเซลล์ข้อมูลแผนภูมิได้โดยใช้ `setFormula` วิธีการของ `IChartDataCell` ใน Aspose.Slides
 
-### ฉันจะตั้งค่าสำหรับเซลล์ข้อมูลแผนภูมิได้อย่างไร
+### ฉันจะตั้งค่าให้กับเซลล์ข้อมูลแผนภูมิได้อย่างไร
 
- คุณสามารถตั้งค่าสำหรับเซลล์ข้อมูลแผนภูมิได้โดยใช้`setValue` วิธีการของ`IChartDataCell` ใน Aspose.Slides
+คุณสามารถตั้งค่าค่าสำหรับเซลล์ข้อมูลแผนภูมิได้โดยใช้ `setValue` วิธีการของ `IChartDataCell` ใน Aspose.Slides
 
-### ฉันจะคำนวณสูตรในเวิร์กบุ๊กได้อย่างไร
+### ฉันจะคำนวณสูตรในสมุดงานได้อย่างไร?
 
- คุณสามารถคำนวณสูตรในเวิร์กบุ๊กได้โดยใช้`calculateFormulas` วิธีการของ`IChartDataWorkbook` ใน Aspose.Slides
+คุณสามารถคำนวณสูตรในสมุดงานได้โดยใช้ `calculateFormulas` วิธีการของ `IChartDataWorkbook` ใน Aspose.Slides
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

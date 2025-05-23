@@ -1,37 +1,39 @@
 ---
-title: Tworzenie wykresów radarowych w slajdach Java
-linktitle: Tworzenie wykresów radarowych w slajdach Java
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Dowiedz się, jak tworzyć wykresy radarowe w prezentacjach Java PowerPoint przy użyciu Aspose.Slides for Java API.
-weight: 10
-url: /pl/java/chart-creation/radar-chart-creating-java-slides/
+"description": "Dowiedz się, jak tworzyć wykresy radarowe w prezentacjach PowerPoint w języku Java, korzystając z interfejsu API Aspose.Slides for Java."
+"linktitle": "Tworzenie wykresu radarowego w slajdach Java"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Tworzenie wykresu radarowego w slajdach Java"
+"url": "/pl/java/chart-creation/radar-chart-creating-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tworzenie wykresów radarowych w slajdach Java
+# Tworzenie wykresu radarowego w slajdach Java
 
 
-## Wprowadzenie do tworzenia wykresu radarowego w Java Slides
+## Wprowadzenie do tworzenia wykresu radarowego w slajdach Java
 
-tym samouczku przeprowadzimy Cię przez proces tworzenia wykresu radarowego przy użyciu interfejsu API Aspose.Slides for Java. Wykresy radarowe są przydatne do wizualizacji danych w formie kołowej, co ułatwia porównywanie wielu serii danych. Dostarczymy instrukcje krok po kroku wraz z kodem źródłowym Java.
+tym samouczku przeprowadzimy Cię przez proces tworzenia Radar Chart przy użyciu Aspose.Slides for Java API. Radar charts są przydatne do wizualizacji danych w formie kołowej, ułatwiając porównywanie wielu serii danych. Podamy instrukcje krok po kroku wraz z kodem źródłowym Java.
 
-## Warunki wstępne
+## Wymagania wstępne
 
- Zanim zaczniemy, upewnij się, że masz zintegrowaną bibliotekę Aspose.Slides for Java ze swoim projektem. Bibliotekę możesz pobrać ze strony[Tutaj](https://releases.aspose.com/slides/java/).
+Zanim zaczniemy, upewnij się, że biblioteka Aspose.Slides for Java jest zintegrowana z Twoim projektem. Możesz pobrać bibliotekę z [Tutaj](https://releases.aspose.com/slides/java/).
 
-## Krok 1: Konfiguracja prezentacji
+## Krok 1: Konfigurowanie prezentacji
 
-Zacznijmy od skonfigurowania nowej prezentacji PowerPoint i dodania do niej slajdu.
+Zacznijmy od utworzenia nowej prezentacji programu PowerPoint i dodania do niej slajdu.
 
 ```java
 String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 ```
 
-## Krok 2: Dodawanie mapy radarowej
+## Krok 2: Dodawanie wykresu radarowego
 
 Następnie dodamy do slajdu wykres radarowy. Określimy położenie i wymiary wykresu.
 
@@ -42,7 +44,7 @@ IChart ichart = sld.getShapes().addChart(ChartType.Radar, 0, 0, 400, 400);
 
 ## Krok 3: Ustawianie danych wykresu
 
-Teraz ustawimy dane wykresu. Obejmuje to utworzenie skoroszytu danych, dodanie kategorii i dodanie serii.
+Teraz ustawimy dane wykresu. Wiąże się to z utworzeniem skoroszytu danych, dodaniem kategorii i dodaniem serii.
 
 ```java
 int defaultWorksheetIndex = 0;
@@ -102,7 +104,7 @@ series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.
 
 ## Krok 5: Dostosowywanie osi i legend
 
-Dostosujmy oś i legendy naszego wykresu radarowego.
+Dostosujmy oś i legendę naszego wykresu radarowego.
 
 ```java
 // Ustaw pozycję legendy
@@ -116,7 +118,7 @@ txtCat.getFillFormat().setFillType(FillType.Solid);
 txtCat.getFillFormat().getSolidFillColor().setColor(new Color(PresetColor.DimGray));
 txtCat.setLatinFont(new FontData("Calibri"));
 
-// Ustawianie właściwości tekstu legendy
+// Ustawianie właściwości tekstu legend
 IChartPortionFormat txtleg = ichart.getLegend().getTextFormat().getPortionFormat();
 txtleg.setFontBold(NullableBool.True);
 txtleg.setFontHeight(10);
@@ -132,11 +134,11 @@ txtVal.getFillFormat().setFillType(FillType.Solid);
 txtVal.getFillFormat().getSolidFillColor().setColor(new Color(PresetColor.DimGray));
 txtVal.setLatinFont(new FontData("Calibri"));
 
-// Ustawianie formatu numeru osi wartości
+// Ustawianie formatu liczby osi wartości
 ichart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 ichart.getAxes().getVerticalAxis().setNumberFormat("\"$\"#,##0.00");
 
-// Ustawianie wartości jednostki głównej wykresu
+// Ustawienie wartości głównej jednostki wykresu
 ichart.getAxes().getVerticalAxis().setAutomaticMajorUnit(false);
 ichart.getAxes().getVerticalAxis().setMajorUnit(1.25f);
 ```
@@ -151,22 +153,22 @@ Na koniec zapisz wygenerowaną prezentację z wykresem radarowym
 pres.save(outPath, SaveFormat.Pptx);
 ```
 
-Otóż to! Pomyślnie utworzyłeś wykres radarowy w prezentacji programu PowerPoint przy użyciu Aspose.Slides for Java. Możesz teraz dostosować ten przykład do swoich konkretnych potrzeb.
+To wszystko! Udało Ci się utworzyć wykres radarowy w prezentacji PowerPoint przy użyciu Aspose.Slides dla Java. Teraz możesz dostosować ten przykład dalej, aby odpowiadał Twoim konkretnym potrzebom.
 
-## Kompletny kod źródłowy do tworzenia wykresów radarowych w slajdach Java
+## Kompletny kod źródłowy do tworzenia wykresu radarowego w slajdach Java
 
 ```java
 String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 try
 {
-	// Uzyskaj dostęp do pierwszego slajdu
+	// Dostęp do pierwszego slajdu
 	ISlide sld = pres.getSlides().get_Item(0);
 	// Dodaj wykres radarowy
 	IChart ichart = sld.getShapes().addChart(ChartType.Radar, 0, 0, 400, 400);
 	// Ustawianie indeksu arkusza danych wykresu
 	int defaultWorksheetIndex = 0;
-	// Pobieranie danych wykresu Arkusz roboczy
+	// Pobieranie arkusza roboczego danych wykresu
 	IChartDataWorkbook fact = ichart.getChartData().getChartDataWorkbook();
 	// Ustaw tytuł wykresu
 	ichart.getChartTitle().addTextFrameForOverriding("Radar Chart");
@@ -183,7 +185,7 @@ try
 	// Dodawanie nowej serii
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), ichart.getType());
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), ichart.getType());
-	// Teraz wypełniam dane serii
+	// Teraz wypełniamy dane serii
 	IChartSeries series = ichart.getChartData().getSeries().get_Item(0);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 2.7));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 2.4));
@@ -194,7 +196,7 @@ try
 	// Ustaw kolor serii
 	series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
-	//Teraz wypełniam dane z kolejnej serii
+	// Teraz wypełniamy dane innej serii
 	series = ichart.getChartData().getSeries().get_Item(1);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 2.5));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 2.4));
@@ -214,7 +216,7 @@ try
 	txtCat.getFillFormat().setFillType(FillType.Solid);
 	txtCat.getFillFormat().getSolidFillColor().setColor(new Color(PresetColor.DimGray));
 	txtCat.setLatinFont(new FontData("Calibri"));
-	// Ustawianie właściwości tekstu legendy
+	// Ustawianie właściwości tekstu legend
 	IChartPortionFormat txtleg = ichart.getLegend().getTextFormat().getPortionFormat();
 	txtleg.setFontBold(NullableBool.True);
 	txtleg.setFontHeight(10);
@@ -228,10 +230,10 @@ try
 	txtVal.getFillFormat().setFillType(FillType.Solid);
 	txtVal.getFillFormat().getSolidFillColor().setColor(new Color(PresetColor.DimGray));
 	txtVal.setLatinFont(new FontData("Calibri"));
-	// Ustawianie formatu numeru osi wartości
+	// Ustawianie formatu liczby osi wartości
 	ichart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 	ichart.getAxes().getVerticalAxis().setNumberFormat("\"$\"#,##0.00");
-	// Ustawianie wartości jednostki głównej wykresu
+	// Ustawienie wartości głównej jednostki wykresu
 	ichart.getAxes().getVerticalAxis().setAutomaticMajorUnit(false);
 	ichart.getAxes().getVerticalAxis().setMajorUnit(1.25f);
 	// Zapisz wygenerowaną prezentację
@@ -245,9 +247,9 @@ finally
 
 ## Wniosek
 
-W tym samouczku nauczyłeś się tworzyć wykres radarowy w prezentacji programu PowerPoint przy użyciu Aspose.Slides dla Java. Możesz zastosować te koncepcje, aby skutecznie wizualizować i prezentować dane w aplikacjach Java.
+W tym samouczku nauczyłeś się, jak utworzyć wykres radarowy w prezentacji PowerPoint przy użyciu Aspose.Slides dla Java. Możesz zastosować te koncepcje, aby skutecznie wizualizować i prezentować dane w aplikacjach Java.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
 ### Jak mogę zmienić tytuł wykresu?
 
@@ -262,21 +264,23 @@ Tak, możesz dodać więcej serii danych, wykonując czynności opisane w „Kro
 
 ### Jak dostosować kolory wykresu?
 
- Kolory serii można dostosować, modyfikując linie określające`SolidFillColor` własności każdego szeregu. Na przykład:
+Możesz dostosować kolory serii, modyfikując linie, które je ustawiają `SolidFillColor` właściwość dla każdej serii. Na przykład:
 ```java
 series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
 ```
 
-### Jak mogę zmienić etykiety osi i formatowanie?
+### Jak mogę zmienić etykiety i formatowanie osi?
 
-Aby dostosować etykiety osi i formatowanie, w tym rozmiar i kolor czcionki, zobacz „Krok 5”.
+Aby dostosować etykiety osi i formatowanie, w tym rozmiar i kolor czcionki, zapoznaj się z „Krokiem 5”.
 
 ### Jak zapisać wykres w innym formacie pliku?
 
-Możesz zmienić format wyjściowy, modyfikując rozszerzenie pliku w formacie`outPath` zmiennej i używając odpowiedniego`SaveFormat` . Na przykład, aby zapisać jako plik PDF, użyj`SaveFormat.Pdf`.
+Możesz zmienić format wyjściowy, modyfikując rozszerzenie pliku w `outPath` zmienna i używająca odpowiedniej `SaveFormat`Na przykład, aby zapisać jako PDF, użyj `SaveFormat.Pdf`.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

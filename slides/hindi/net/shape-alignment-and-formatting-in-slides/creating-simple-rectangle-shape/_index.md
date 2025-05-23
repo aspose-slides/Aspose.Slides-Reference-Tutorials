@@ -1,14 +1,16 @@
 ---
-title: .NET के लिए Aspose.Slides के साथ आयताकार आकृतियाँ बनाना
-linktitle: Aspose.Slides का उपयोग करके प्रेजेंटेशन स्लाइड में सरल आयत आकार बनाना
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: Aspose.Slides for .NET के साथ गतिशील PowerPoint प्रस्तुतियों की दुनिया का अन्वेषण करें। इस चरण-दर-चरण मार्गदर्शिका के साथ स्लाइड में आकर्षक आयताकार आकृतियाँ बनाना सीखें।
-weight: 12
-url: /hi/net/shape-alignment-and-formatting-in-slides/creating-simple-rectangle-shape/
+"description": "Aspose.Slides for .NET के साथ गतिशील PowerPoint प्रस्तुतियों की दुनिया का अन्वेषण करें। इस चरण-दर-चरण मार्गदर्शिका के साथ स्लाइड में आकर्षक आयताकार आकृतियाँ बनाना सीखें।"
+"linktitle": "Aspose.Slides का उपयोग करके प्रेजेंटेशन स्लाइड में सरल आयत आकार बनाना"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": ".NET के लिए Aspose.Slides के साथ आयताकार आकृतियाँ बनाना"
+"url": "/hi/net/shape-alignment-and-formatting-in-slides/creating-simple-rectangle-shape/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # .NET के लिए Aspose.Slides के साथ आयताकार आकृतियाँ बनाना
@@ -18,7 +20,7 @@ url: /hi/net/shape-alignment-and-formatting-in-slides/creating-simple-rectangle-
 ## आवश्यक शर्तें
 ट्यूटोरियल में शामिल होने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
 - विज़ुअल स्टूडियो: सुनिश्चित करें कि आपके विकास मशीन पर विज़ुअल स्टूडियो स्थापित है।
--  Aspose.Slides for .NET: Aspose.Slides for .NET लाइब्रेरी को यहां से डाउनलोड और इंस्टॉल करें[यहाँ](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET: Aspose.Slides for .NET लाइब्रेरी को यहां से डाउनलोड और इंस्टॉल करें [यहाँ](https://releases.aspose.com/slides/net/).
 - बुनियादी C# ज्ञान: C# प्रोग्रामिंग भाषा से परिचित होना आवश्यक है।
 ## नामस्थान आयात करें
 अपने C# प्रोजेक्ट में, Aspose.Slides कार्यक्षमताओं तक पहुंचने के लिए आवश्यक नामस्थानों को आयात करके प्रारंभ करें:
@@ -60,16 +62,18 @@ pres.Save(dataDir + "RectShp1_out.pptx", SaveFormat.Pptx);
 ### क्या मैं Windows और Linux दोनों वातावरणों में .NET के लिए Aspose.Slides का उपयोग कर सकता हूँ?
 हां, .NET के लिए Aspose.Slides प्लेटफ़ॉर्म-स्वतंत्र है और इसका उपयोग विंडोज और लिनक्स दोनों वातावरणों में किया जा सकता है।
 ### क्या .NET के लिए Aspose.Slides का निःशुल्क परीक्षण उपलब्ध है?
- हां, आप निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप निःशुल्क परीक्षण प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/).
 ### मैं .NET के लिए Aspose.Slides का समर्थन कैसे प्राप्त कर सकता हूं?
- दौरा करना[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) सामुदायिक समर्थन के लिए.
+दौरा करना [Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) सामुदायिक समर्थन के लिए.
 ### क्या मैं Aspose.Slides for .NET के लिए अस्थायी लाइसेंस खरीद सकता हूँ?
- हां, आप एक अस्थायी लाइसेंस खरीद सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+हां, आप एक अस्थायी लाइसेंस खरीद सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
 ### मैं Aspose.Slides for .NET के लिए दस्तावेज़ कहां पा सकता हूं?
- दस्तावेज़ देखें[यहाँ](https://reference.aspose.com/slides/net/).
+दस्तावेज़ देखें [यहाँ](https://reference.aspose.com/slides/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

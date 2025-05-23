@@ -1,14 +1,16 @@
 ---
-title: पावरपॉइंट में निर्दिष्ट अनुभाग में स्लाइड क्लोन करें
-linktitle: पावरपॉइंट में निर्दिष्ट अनुभाग में स्लाइड क्लोन करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके PowerPoint में स्लाइड को विशिष्ट अनुभागों में आसानी से क्लोन करें। इस चरण-दर-चरण मार्गदर्शिका के साथ अपनी प्रस्तुतियों को बेहतर बनाएँ।
-weight: 13
-url: /hi/java/java-powerpoint-slide-cloning-techniques/clone-slide-specified-section-powerpoint/
+"description": "Aspose.Slides for Java का उपयोग करके PowerPoint में स्लाइड को विशिष्ट अनुभागों में आसानी से क्लोन करें। इस चरण-दर-चरण मार्गदर्शिका के साथ अपनी प्रस्तुतियों को बेहतर बनाएँ।"
+"linktitle": "पावरपॉइंट में निर्दिष्ट अनुभाग में स्लाइड क्लोन करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "पावरपॉइंट में निर्दिष्ट अनुभाग में स्लाइड क्लोन करें"
+"url": "/hi/java/java-powerpoint-slide-cloning-techniques/clone-slide-specified-section-powerpoint/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पावरपॉइंट में निर्दिष्ट अनुभाग में स्लाइड क्लोन करें
@@ -18,15 +20,15 @@ url: /hi/java/java-powerpoint-slide-cloning-techniques/clone-slide-specified-sec
 ## आवश्यक शर्तें
 ट्यूटोरियल में आगे बढ़ने से पहले, आइए आवश्यक शर्तों को कवर करें। यह सुनिश्चित करना कि आपके पास सब कुछ सही जगह पर है, प्रक्रिया को आसान और अधिक कुशल बना देगा।
 ### जावा विकास पर्यावरण
-सबसे पहले, सुनिश्चित करें कि आपके पास जावा डेवलपमेंट एनवायरनमेंट सेट अप है। आपको अपनी मशीन पर JDK (जावा डेवलपमेंट किट) इंस्टॉल करना होगा। आप इसे यहाँ से डाउनलोड कर सकते हैं[ओरेकल की वेबसाइट](https://www.oracle.com/java/technologies/javase-downloads.html).
+सबसे पहले, सुनिश्चित करें कि आपके पास जावा डेवलपमेंट एनवायरनमेंट सेट अप है। आपको अपनी मशीन पर JDK (जावा डेवलपमेंट किट) इंस्टॉल करना होगा। आप इसे यहाँ से डाउनलोड कर सकते हैं [ओरेकल की वेबसाइट](https://www.oracle.com/java/technologies/javase-downloads.html).
 ### Aspose.Slides for Java लाइब्रेरी
- इसके बाद, Aspose.Slides for Java लाइब्रेरी डाउनलोड करें। आप इसे यहाँ से प्राप्त कर सकते हैं[Aspose.Slides डाउनलोड पृष्ठ](https://releases.aspose.com/slides/java/)यह लाइब्रेरी पावरपॉइंट प्रस्तुतियों को प्रोग्रामेटिक रूप से संचालित करने के लिए सभी आवश्यक उपकरण प्रदान करेगी।
+इसके बाद, Aspose.Slides for Java लाइब्रेरी डाउनलोड करें। आप इसे यहाँ से प्राप्त कर सकते हैं [Aspose.Slides डाउनलोड पृष्ठ](https://releases.aspose.com/slides/java/)यह लाइब्रेरी पावरपॉइंट प्रस्तुतियों को प्रोग्रामेटिक रूप से संचालित करने के लिए सभी आवश्यक उपकरण प्रदान करेगी।
 ### विकास आईडीई
 IntelliJ IDEA, Eclipse, या NetBeans जैसे एकीकृत विकास वातावरण (IDE) का उपयोग करने से आपकी विकास प्रक्रिया अधिक सरल हो जाएगी। सुनिश्चित करें कि आपका IDE जावा के साथ काम करने के लिए कॉन्फ़िगर किया गया है।
 ### Aspose लाइसेंस
- पूर्ण कार्यक्षमता के लिए, आपको Aspose.Slides के लिए लाइसेंस प्राप्त करना चाहिए। आप इसे खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy) वैकल्पिक रूप से, आप के लिए आवेदन कर सकते हैं[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) प्रतिबद्ध होने से पहले सुविधाओं को आज़माएं।
+पूर्ण कार्यक्षमता के लिए, आपको Aspose.Slides के लिए लाइसेंस प्राप्त करना चाहिए। आप इसे खरीद सकते हैं [यहाँ](https://purchase.aspose.com/buy)वैकल्पिक रूप से, आप के लिए आवेदन कर सकते हैं [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) प्रतिबद्ध होने से पहले सुविधाओं को आज़माएं।
 ## पैकेज आयात करें
-कोड लिखने से पहले, आपको Aspose.Slides से ज़रूरी पैकेज आयात करने होंगे। आप यह कैसे कर सकते हैं, यहाँ बताया गया है:
+कोड लिखने से पहले, आपको Aspose.Slides से आवश्यक पैकेज आयात करने होंगे। आप यह कैसे कर सकते हैं, यहाँ बताया गया है:
 ```java
 import com.aspose.slides.*;
 
@@ -38,7 +40,7 @@ import com.aspose.slides.*;
 String dataDir = "path_to_your_directory/";
 ```
 ## चरण 2: एक प्रेजेंटेशन ऑब्जेक्ट बनाएँ
- इसके बाद, आपको एक बनाना होगा`Presentation` ऑब्जेक्ट. यह ऑब्जेक्ट आपके पावरपॉइंट प्रेजेंटेशन का प्रतिनिधित्व करता है और स्लाइड्स, आकृतियों और अनुभागों में हेरफेर करने के तरीके प्रदान करता है।
+इसके बाद, आपको एक बनाना होगा `Presentation` ऑब्जेक्ट. यह ऑब्जेक्ट आपके पावरपॉइंट प्रेजेंटेशन का प्रतिनिधित्व करता है और स्लाइड्स, आकृतियों और अनुभागों में हेरफेर करने के तरीके प्रदान करता है।
 ```java
 IPresentation presentation = new Presentation();
 ```
@@ -54,17 +56,17 @@ presentation.getSections().addSection("Section 1", presentation.getSlides().get_
 ISection section2 = presentation.getSections().appendEmptySection("Section 2");
 ```
 ## चरण 5: स्लाइड को निर्दिष्ट अनुभाग में क्लोन करें
- इस ट्यूटोरियल का मुख्य भाग स्लाइड को निर्दिष्ट अनुभाग में क्लोन करना है।`addClone` पहली स्लाइड को दूसरे खंड में क्लोन करने की विधि।
+इस ट्यूटोरियल का मुख्य भाग स्लाइड को निर्दिष्ट अनुभाग में क्लोन करना है। `addClone` पहली स्लाइड को दूसरे खंड में क्लोन करने की विधि।
 ```java
 presentation.getSlides().addClone(presentation.getSlides().get_Item(0), section2);
 ```
-## चरण 6: प्रेजेंटेशन सहेजें
+## चरण 6: प्रस्तुति सहेजें
 अंत में, प्रस्तुति को इच्छित प्रारूप में निर्दिष्ट निर्देशिका में सहेजें।
 ```java
 presentation.save(dataDir + "CloneSlideIntoSpecifiedSection.pptx", SaveFormat.Pptx);
 ```
 ## चरण 7: प्रेजेंटेशन ऑब्जेक्ट को हटाएँ
- संसाधनों को मुक्त करने के लिए, हमेशा निपटान करें`Presentation` उपयोग के बाद वस्तु को न हटाएं।
+संसाधनों को मुक्त करने के लिए, हमेशा निपटान करें `Presentation` उपयोग के बाद वस्तु को न हटाएं।
 ```java
 if (presentation != null) presentation.dispose();
 ```
@@ -77,14 +79,16 @@ if (presentation != null) presentation.dispose();
 ### क्या एक साथ कई स्लाइडों का क्लोन बनाना संभव है?
 बिल्कुल! आप स्लाइडों के संग्रह के माध्यम से पुनरावृति कर सकते हैं और आवश्यकतानुसार प्रत्येक का क्लोन बना सकते हैं।
 ### मैं Java के लिए Aspose.Slides का निःशुल्क परीक्षण कैसे प्राप्त कर सकता हूँ?
- आप यहां से निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं[Aspose.Slides निःशुल्क परीक्षण पृष्ठ](https://releases.aspose.com/).
+आप यहां से निःशुल्क परीक्षण डाउनलोड कर सकते हैं [Aspose.Slides निःशुल्क परीक्षण पृष्ठ](https://releases.aspose.com/).
 ### क्या परीक्षण संस्करण में कोई सीमाएं हैं?
- परीक्षण संस्करण में कुछ सीमाएँ हैं। पूर्ण सुविधाओं के लिए, एक प्राप्त करने पर विचार करें[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/).
+परीक्षण संस्करण में कुछ सीमाएँ हैं। पूर्ण सुविधाओं के लिए, एक प्राप्त करने पर विचार करें [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/).
 ### मैं अधिक विस्तृत दस्तावेज कहां पा सकता हूं?
- विस्तृत दस्तावेज यहां उपलब्ध है[Aspose.Slides दस्तावेज़ीकरण पृष्ठ](https://reference.aspose.com/slides/java/).
+विस्तृत दस्तावेज यहां उपलब्ध है [Aspose.Slides दस्तावेज़ीकरण पृष्ठ](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,22 +1,24 @@
 ---
-title: Ρύθμιση Callout For Data Label σε Java Slides
-linktitle: Ρύθμιση Callout For Data Label σε Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Μάθετε πώς να ρυθμίζετε μηνύματα προώθησης για ετικέτες δεδομένων στο Aspose.Slides για Java. Οδηγός βήμα προς βήμα με τον πηγαίο κώδικα.
-weight: 25
-url: /el/java/data-manipulation/setting-callout-data-label-java-slides/
+"description": "Μάθετε πώς να ρυθμίζετε επεξηγήσεις για ετικέτες δεδομένων στο Aspose.Slides για Java. Οδηγός βήμα προς βήμα με πηγαίο κώδικα."
+"linktitle": "Ορισμός επεξήγησης για ετικέτα δεδομένων σε διαφάνειες Java"
+"second_title": "Aspose.Slides API επεξεργασίας Java PowerPoint"
+"title": "Ορισμός επεξήγησης για ετικέτα δεδομένων σε διαφάνειες Java"
+"url": "/el/java/data-manipulation/setting-callout-data-label-java-slides/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ρύθμιση Callout For Data Label σε Java Slides
+# Ορισμός επεξήγησης για ετικέτα δεδομένων σε διαφάνειες Java
 
 
-## Εισαγωγή στη ρύθμιση Callout για ετικέτα δεδομένων στο Aspose.Slides για Java
+## Εισαγωγή στον ορισμό επεξήγησης για την ετικέτα δεδομένων στο Aspose.Slides για Java
 
-Σε αυτό το σεμινάριο, θα δείξουμε πώς να ρυθμίσετε μηνύματα προώθησης για ετικέτες δεδομένων σε ένα γράφημα χρησιμοποιώντας το Aspose.Slides για Java. Τα μηνύματα προώθησης μπορεί να είναι χρήσιμα για την επισήμανση συγκεκριμένων σημείων δεδομένων στο γράφημά σας. Θα περιηγηθούμε στον κώδικα βήμα προς βήμα και θα παρέχουμε τον απαραίτητο πηγαίο κώδικα.
+Σε αυτό το σεμινάριο, θα δείξουμε πώς να ρυθμίσετε επεξηγήσεις για ετικέτες δεδομένων σε ένα γράφημα χρησιμοποιώντας το Aspose.Slides για Java. Οι επεξηγήσεις μπορούν να είναι χρήσιμες για την επισήμανση συγκεκριμένων σημείων δεδομένων στο γράφημά σας. Θα αναλύσουμε τον κώδικα βήμα προς βήμα και θα παρέχουμε τον απαραίτητο πηγαίο κώδικα.
 
 ## Προαπαιτούμενα
 
@@ -25,7 +27,7 @@ url: /el/java/data-manipulation/setting-callout-data-label-java-slides/
 
 ## Βήμα 1: Δημιουργήστε μια παρουσίαση και προσθέστε ένα γράφημα
 
- Αρχικά, πρέπει να δημιουργήσουμε μια παρουσίαση και να προσθέσουμε ένα γράφημα σε μια διαφάνεια. Φροντίστε να αντικαταστήσετε`"Your Document Directory"` με την πραγματική διαδρομή προς τον κατάλογο εγγράφων σας.
+Αρχικά, πρέπει να δημιουργήσουμε μια παρουσίαση και να προσθέσουμε ένα γράφημα σε μια διαφάνεια. Βεβαιωθείτε ότι έχετε αντικαταστήσει `"Your Document Directory"` με την πραγματική διαδρομή προς τον κατάλογο εγγράφων σας.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -36,7 +38,7 @@ IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, 
 
 ## Βήμα 2: Διαμόρφωση του γραφήματος
 
-Στη συνέχεια, θα διαμορφώσουμε το γράφημα ορίζοντας ιδιότητες όπως το υπόμνημα, τη σειρά και τις κατηγορίες.
+Στη συνέχεια, θα διαμορφώσουμε το γράφημα ορίζοντας ιδιότητες όπως υπόμνημα, σειρές και κατηγορίες.
 
 ```java
 IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
@@ -69,7 +71,7 @@ while (categoryIndex < 15) {
 
 ## Βήμα 3: Προσαρμογή ετικετών δεδομένων
 
-Τώρα, θα προσαρμόσουμε τις ετικέτες δεδομένων, συμπεριλαμβανομένης της ρύθμισης μηνυμάτων για την τελευταία σειρά.
+Τώρα, θα προσαρμόσουμε τις ετικέτες δεδομένων, συμπεριλαμβανομένης της ρύθμισης επεξηγήσεων για την τελευταία σειρά.
 
 ```java
 int i = 0;
@@ -77,16 +79,16 @@ while (i < chart.getChartData().getSeries().size()) {
     IChartSeries iCS = chart.getChartData().getSeries().get_Item(i);
     IChartDataPoint dataPoint = iCS.getDataPoints().addDataPointForDoughnutSeries(workBook.getCell(0, categoryIndex + 1, i + 1, 1));
     dataPoint.getFormat().getFill().setFillType(FillType.Solid);
-    // Προσαρμογή μορφοποίησης σημείου δεδομένων (Γέμισμα, Γραμμή, κ.λπ.)
+    // Προσαρμόστε τη μορφοποίηση σημείων δεδομένων (Γέμισμα, Γραμμή, κ.λπ.)
 
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
-        //Προσαρμογή μορφοποίησης ετικετών (Γραμματοσειρά, Γέμισμα, κ.λπ.)
+        // Προσαρμόστε τη μορφοποίηση ετικετών (Γραμματοσειρά, Γέμισμα, κ.λπ.)
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
-        // Ενεργοποίηση μηνυμάτων
+        // Ενεργοποίηση επεξηγήσεων
         lbl.getDataLabelFormat().setShowLabelAsDataCallout(true);
         lbl.getDataLabelFormat().setShowLeaderLines(true);
     }
@@ -94,7 +96,7 @@ while (i < chart.getChartData().getSeries().size()) {
 }
 ```
 
-## Βήμα 4: Αποθηκεύστε την Παρουσίαση
+## Βήμα 4: Αποθήκευση της παρουσίασης
 
 Τέλος, αποθηκεύστε την παρουσίαση με το διαμορφωμένο γράφημα.
 
@@ -102,9 +104,9 @@ while (i < chart.getChartData().getSeries().size()) {
 pres.save("chart.pptx", SaveFormat.Pptx);
 ```
 
-Τώρα, έχετε ρυθμίσει με επιτυχία μηνύματα προώθησης για ετικέτες δεδομένων σε ένα γράφημα χρησιμοποιώντας το Aspose.Slides για Java. Προσαρμόστε τον κώδικα σύμφωνα με το συγκεκριμένο γράφημα και τις απαιτήσεις δεδομένων σας.
+Τώρα, έχετε ρυθμίσει με επιτυχία τις επεξηγήσεις για τις ετικέτες δεδομένων σε ένα γράφημα χρησιμοποιώντας το Aspose.Slides για Java. Προσαρμόστε τον κώδικα σύμφωνα με τις συγκεκριμένες απαιτήσεις σας για γράφημα και δεδομένα.
 
-## Ολοκληρώστε τον πηγαίο κώδικα για τη ρύθμιση του Callout For Data Label σε Java Slides
+## Πλήρης πηγαίος κώδικας για τον ορισμό επεξήγησης για την ετικέτα δεδομένων σε διαφάνειες Java
 
 ```java
 String dataDir = "Your Document Directory";
@@ -166,9 +168,9 @@ while (categoryIndex < 15)
 pres.save("chart.pptx", SaveFormat.Pptx);
 ```
 
-## συμπέρασμα
+## Σύναψη
 
-Σε αυτό το σεμινάριο, έχουμε εξερευνήσει πώς να ρυθμίσετε μηνύματα προώθησης για ετικέτες δεδομένων σε ένα γράφημα χρησιμοποιώντας το Aspose.Slides για Java. Τα μηνύματα προώθησης είναι πολύτιμα εργαλεία για την έμφαση σε συγκεκριμένα σημεία δεδομένων στα γραφήματα και τις παρουσιάσεις σας. Παρέχουμε έναν οδηγό βήμα προς βήμα μαζί με τον πηγαίο κώδικα για να σας βοηθήσουμε να επιτύχετε αυτήν την προσαρμογή.
+Σε αυτό το σεμινάριο, εξερευνήσαμε πώς να ρυθμίσετε επεξηγήσεις για ετικέτες δεδομένων σε ένα γράφημα χρησιμοποιώντας το Aspose.Slides για Java. Οι επεξηγήσεις είναι πολύτιμα εργαλεία για την έμφαση σε συγκεκριμένα σημεία δεδομένων στα γραφήματα και τις παρουσιάσεις σας. Παρέχουμε έναν οδηγό βήμα προς βήμα μαζί με πηγαίο κώδικα για να σας βοηθήσουμε να επιτύχετε αυτήν την προσαρμογή.
 
 ## Συχνές ερωτήσεις
 
@@ -187,18 +189,18 @@ lbl.getDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat().getS
 lbl.getDataLabelFormat().getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
 ```
 
-### Πώς μπορώ να ενεργοποιήσω ή να απενεργοποιήσω τα μηνύματα προώθησης για ετικέτες δεδομένων;
+### Πώς μπορώ να ενεργοποιήσω ή να απενεργοποιήσω τις επεξηγήσεις για ετικέτες δεδομένων;
 
- Για να ενεργοποιήσετε ή να απενεργοποιήσετε τα μηνύματα προώθησης για ετικέτες δεδομένων, χρησιμοποιήστε το`setShowLabelAsDataCallout` μέθοδος. Ρυθμίστε το σε`true` για ενεργοποίηση μηνυμάτων και`false`για να τα απενεργοποιήσετε.
+Για να ενεργοποιήσετε ή να απενεργοποιήσετε τις επεξηγήσεις για ετικέτες δεδομένων, χρησιμοποιήστε το `setShowLabelAsDataCallout` μέθοδος. Ορίστε την σε `true` για να ενεργοποιήσετε τις κλήσεις και `false` για να τα απενεργοποιήσετε.
 
 ```java
-lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // Ενεργοποίηση μηνυμάτων
-lbl.getDataLabelFormat().setShowLabelAsDataCallout(false); // Απενεργοποίηση μηνυμάτων
+lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // Ενεργοποίηση επεξηγήσεων
+lbl.getDataLabelFormat().setShowLabelAsDataCallout(false); // Απενεργοποίηση επεξηγήσεων
 ```
 
 ### Μπορώ να προσαρμόσω τις γραμμές οδηγού για ετικέτες δεδομένων;
 
-Ναι, μπορείτε να προσαρμόσετε τις γραμμές οδηγού για ετικέτες δεδομένων χρησιμοποιώντας ιδιότητες όπως το στυλ γραμμής, το χρώμα και το πλάτος. Για παράδειγμα:
+Ναι, μπορείτε να προσαρμόσετε τις γραμμές-οδηγούς για τις ετικέτες δεδομένων χρησιμοποιώντας ιδιότητες όπως το στυλ γραμμής, το χρώμα και το πλάτος. Για παράδειγμα:
 
 ```java
 lbl.getDataLabelFormat().setShowLeaderLines(true); // Ενεργοποίηση γραμμών ηγέτη
@@ -208,10 +210,12 @@ lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFor
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.BLACK);
 ```
 
-Αυτές είναι μερικές κοινές επιλογές προσαρμογής για ετικέτες δεδομένων και μηνύματα προώθησης στο Aspose.Slides για Java. Μπορείτε να προσαρμόσετε περαιτέρω την εμφάνιση στις συγκεκριμένες ανάγκες σας.
+Αυτές είναι μερικές συνήθεις επιλογές προσαρμογής για ετικέτες δεδομένων και επεξηγήσεις στο Aspose.Slides για Java. Μπορείτε να προσαρμόσετε περαιτέρω την εμφάνιση στις συγκεκριμένες ανάγκες σας.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,36 +1,38 @@
 ---
-title: Diagram színezése Aspose.Slides segítségével .NET-hez
-linktitle: Szín hozzáadása a diagram adatpontjaihoz
-second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Ismerje meg, hogyan adhat színt a diagram adatpontjaihoz az Aspose.Slides for .NET segítségével. Fokozza vizuálisan prezentációit, és hatékonyan vonja be a közönségét.
-weight: 12
-url: /hu/net/licensing-and-formatting/add-color-to-data-points/
+"description": "Tanuld meg, hogyan adhatsz színt a diagramok adatpontjaihoz az Aspose.Slides for .NET segítségével. Dobd fel vizuálisan a prezentációidat, és vond be hatékonyan a közönségedet."
+"linktitle": "Szín hozzáadása az adatpontokhoz a diagramban"
+"second_title": "Aspose.Slides .NET PowerPoint feldolgozási API"
+"title": "Diagram színezése az Aspose.Slides for .NET segítségével"
+"url": "/hu/net/licensing-and-formatting/add-color-to-data-points/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Diagram színezése Aspose.Slides segítségével .NET-hez
+# Diagram színezése az Aspose.Slides for .NET segítségével
 
 
-Ebben a lépésenkénti útmutatóban végigvezetjük a diagram adatpontjainak színezésének folyamatán az Aspose.Slides for .NET segítségével. Az Aspose.Slides egy hatékony könyvtár a PowerPoint prezentációkkal való munkavégzéshez .NET alkalmazásokban. A diagram adatpontjainak színezése vizuálisan vonzóbbá és könnyebben érthetőbbé teheti a prezentációkat.
+Ebben a lépésről lépésre haladó útmutatóban végigvezetjük Önt azon, hogyan adhat színt az adatpontokhoz egy diagramban az Aspose.Slides for .NET használatával. Az Aspose.Slides egy hatékony könyvtár, amely PowerPoint-bemutatókkal való munkához használható .NET-alkalmazásokban. A diagram adatpontjainak színezése vizuálisan vonzóbbá és könnyebben érthetővé teheti a bemutatóit.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételeket teljesítette:
+Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 
-1. Visual Studio: A Visual Studiot telepítenie kell a számítógépére.
+1. Visual Studio: A Visual Studio alkalmazásnak telepítve kell lennie a számítógépén.
 
-2.  Aspose.Slides for .NET: Töltse le és telepítse az Aspose.Slides for .NET webhelyről[letöltési link](https://releases.aspose.com/slides/net/).
+2. Aspose.Slides .NET-hez: Töltse le és telepítse az Aspose.Slides .NET-hez készült verzióját a következő helyről: [letöltési link](https://releases.aspose.com/slides/net/).
 
-3. C# alapvető ismerete: Alapvető ismeretekkel kell rendelkeznie a C# programozásról.
+3. C# alapismeretek: Alapvető C# programozási ismeretekkel kell rendelkezned.
 
-4. Az Ön dokumentumkönyvtára: Cserélje le a kódban a "Saját dokumentumkönyvtárat" a dokumentumkönyvtár tényleges elérési útjával.
+4. Dokumentumkönyvtár: Cserélje ki a kódban a „Dokumentumkönyvtár” részt a dokumentumkönyvtár tényleges elérési útjára.
 
 ## Névterek importálása
 
-Mielőtt az Aspose.Slides for .NET programmal dolgozhatna, importálnia kell a szükséges névtereket. 
+Mielőtt elkezdhetnéd használni az Aspose.Slides for .NET programot, importálnod kell a szükséges névtereket. 
 
 ```csharp
 ﻿using Aspose.Slides.Charts;
@@ -39,7 +41,7 @@ using Aspose.Slides;
 ```
 
 
-Ebben a példában színt adunk a diagram adatpontjaihoz a Sunburst diagramtípus használatával.
+Ebben a példában a Sunburst diagramtípus használatával színt adunk a diagram adatpontjaihoz.
 
 ```csharp
 using (Presentation pres = new Presentation())
@@ -49,13 +51,13 @@ using (Presentation pres = new Presentation())
 
     IChart chart = pres.Slides[0].Shapes.AddChart(ChartType.Sunburst, 100, 100, 450, 400);
     
-    // A kód többi része a következő lépésekben kerül hozzáadásra.
+    // A kód többi részét a következő lépésekben adjuk hozzá.
 }
 ```
 
 ## 1. lépés: Adatpontok elérése
 
-Ahhoz, hogy színt adjon a diagram adott adatpontjaihoz, hozzá kell férnie azokhoz az adatpontokhoz. Ebben a példában a 3. adatpontot célozzuk meg.
+Ha egy diagram adott adatpontjaihoz színt szeretne hozzáadni, hozzá kell férnie ezekhez az adatpontokhoz. Ebben a példában a 3. adatpontot fogjuk célba venni.
 
 ```csharp
 IChartDataPointCollection dataPoints = chart.ChartData.Series[0].DataPoints;
@@ -64,7 +66,7 @@ dataPoints[3].DataPointLevels[0].Label.DataLabelFormat.ShowValue = true;
 
 ## 2. lépés: Adatcímkék testreszabása
 
-Most szabjuk testre a 0. adatpont adatcímkéit. Elrejtjük a kategória nevét, és megjelenítjük a sorozat nevét.
+Most szabjuk testre a 0. adatpont adatcímkéit. Elrejtjük a kategória nevét, és megjelenítjük az adatsor nevét.
 
 ```csharp
 IDataLabel branch1Label = dataPoints[0].DataPointLevels[2].Label;
@@ -72,18 +74,18 @@ branch1Label.DataLabelFormat.ShowCategoryName = false;
 branch1Label.DataLabelFormat.ShowSeriesName = true;
 ```
 
-## 3. lépés: A szövegformátum és a kitöltési szín beállítása
+## 3. lépés: Szövegformátum és kitöltési szín beállítása
 
-szövegformátum és a kitöltési szín beállításával tovább javíthatjuk az adatcímkék megjelenését. Ebben a lépésben a szöveg színét sárgára állítjuk a 0. adatponthoz.
+Az adatfeliratok megjelenését tovább javíthatjuk a szövegformátum és a kitöltési szín beállításával. Ebben a lépésben a 0. adatpont szövegszínét sárgára állítjuk.
 
 ```csharp
 branch1Label.DataLabelFormat.TextFormat.PortionFormat.FillFormat.FillType = FillType.Solid;
 branch1Label.DataLabelFormat.TextFormat.PortionFormat.FillFormat.SolidFillColor.Color = Color.Yellow;
 ```
 
-## 4. lépés: Az adatpont kitöltési színének testreszabása
+## 4. lépés: Adatpont kitöltési színének testreszabása
 
-Most változtassuk meg a 9. adatpont kitöltési színét. Beállítjuk egy adott színre.
+Most változtassuk meg a 9. adatpont kitöltőszínét. Beállítjuk egy adott színre.
 
 ```csharp
 IFormat steam4Format = dataPoints[9].Format;
@@ -93,37 +95,39 @@ steam4Format.Fill.SolidFillColor.Color = Color.FromArgb(0, 176, 240, 255);
 
 ## 5. lépés: A prezentáció mentése
 
-A diagram testreszabása után elmentheti a prezentációt a változtatásokkal.
+diagram testreszabása után mentheti a prezentációt a módosításokkal.
 
 ```csharp
 pres.Save(dataDir + "AddColorToDataPoints.pptx", SaveFormat.Pptx);
 ```
 
-Gratulálunk! Sikeresen színt adott a diagram adatpontjaihoz az Aspose.Slides for .NET segítségével. Ez nagyban javíthatja prezentációinak vizuális vonzerejét és tisztaságát.
+Gratulálunk! Sikeresen színezted az adatpontokat egy diagramban az Aspose.Slides for .NET használatával. Ez nagyban javíthatja a prezentációid vizuális vonzerejét és érthetőségét.
 
 ## Következtetés
 
-A diagram adatpontjainak színezése hatékony módja annak, hogy prezentációit vonzóbbá és informatívabbá tegye. Az Aspose.Slides for .NET segítségével olyan eszközökkel rendelkezik, amelyek segítségével tetszetős diagramokat hozhat létre, amelyek hatékonyan továbbítják adatait.
+A diagramok adatpontjainak színezése hatékony módja annak, hogy a prezentációid lebilincselőbbek és informatívabbak legyenek. Az Aspose.Slides for .NET segítségével olyan eszközöket használhatsz, amelyekkel vizuálisan vonzó diagramokat hozhatsz létre, amelyek hatékonyan mutatják be az adataidat.
 
 ## Gyakran Ismételt Kérdések (GYIK)
 
-### Mi az Aspose.Slides for .NET?
-   Az Aspose.Slides for .NET egy olyan könyvtár, amely lehetővé teszi a .NET-fejlesztők számára, hogy programozottan dolgozzanak PowerPoint-bemutatókkal.
+### Mi az Aspose.Slides .NET-hez?
+   Az Aspose.Slides for .NET egy olyan könyvtár, amely lehetővé teszi a .NET fejlesztők számára, hogy programozottan dolgozzanak PowerPoint prezentációkkal.
 
-### Testreszabhatok más diagramtulajdonságokat az Aspose.Slides segítségével?
-   Igen, az Aspose.Slides for .NET segítségével testreszabhatja a diagramok különféle aspektusait, például adatcímkéket, betűtípusokat, színeket és egyebeket.
+### Testreszabhatom a diagram más tulajdonságait az Aspose.Slides segítségével?
+   Igen, az Aspose.Slides for .NET használatával testreszabhatja a diagramok különböző aspektusait, például az adatcímkéket, betűtípusokat, színeket és egyebeket.
 
-### Hol találom az Aspose.Slides for .NET dokumentációját?
-    A részletes dokumentációt megtalálja a[dokumentációs link](https://reference.aspose.com/slides/net/).
+### Hol találok dokumentációt az Aspose.Slides for .NET-hez?
+   Részletes dokumentációt találhat a következő címen: [dokumentációs link](https://reference.aspose.com/slides/net/).
 
-### Létezik ingyenes próbaverzió az Aspose.Slides for .NET számára?
-    Igen, letölthet egy ingyenes próbaverziót a webhelyről[itt](https://releases.aspose.com/).
+### Van ingyenes próbaverzió az Aspose.Slides for .NET-hez?
+   Igen, letölthetsz egy ingyenes próbaverziót innen [itt](https://releases.aspose.com/).
 
 ### Hogyan kaphatok támogatást az Aspose.Slides for .NET-hez?
-    Támogatásért és megbeszélésekért keresse fel a[Aspose.Slides fórum](https://forum.aspose.com/).
+   Támogatásért és beszélgetésekért látogassa meg a [Aspose.Slides fórum](https://forum.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

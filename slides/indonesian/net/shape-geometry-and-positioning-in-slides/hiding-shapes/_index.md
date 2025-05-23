@@ -1,37 +1,39 @@
 ---
-title: Sembunyikan Bentuk di PowerPoint dengan Tutorial Aspose.Slides .NET
-linktitle: Menyembunyikan Bentuk di Slide Presentasi dengan Aspose.Slides
-second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
-description: Pelajari cara menyembunyikan bentuk di slide PowerPoint menggunakan Aspose.Slides untuk .NET. Sesuaikan presentasi secara terprogram dengan panduan langkah demi langkah ini.
-weight: 21
-url: /id/net/shape-geometry-and-positioning-in-slides/hiding-shapes/
+"description": "Pelajari cara menyembunyikan bentuk di slide PowerPoint menggunakan Aspose.Slides for .NET. Sesuaikan presentasi secara terprogram dengan panduan langkah demi langkah ini."
+"linktitle": "Menyembunyikan Bentuk dalam Slide Presentasi dengan Aspose.Slides"
+"second_title": "API Pemrosesan PowerPoint Aspose.Slides .NET"
+"title": "Menyembunyikan Bentuk di PowerPoint dengan Tutorial Aspose.Slides .NET"
+"url": "/id/net/shape-geometry-and-positioning-in-slides/hiding-shapes/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Sembunyikan Bentuk di PowerPoint dengan Tutorial Aspose.Slides .NET
+# Menyembunyikan Bentuk di PowerPoint dengan Tutorial Aspose.Slides .NET
 
 ## Perkenalan
-Dalam dunia presentasi yang dinamis, penyesuaian adalah kuncinya. Aspose.Slides untuk .NET memberikan solusi ampuh untuk memanipulasi presentasi PowerPoint secara terprogram. Salah satu persyaratan umum adalah kemampuan untuk menyembunyikan bentuk tertentu dalam slide. Tutorial ini akan memandu Anda melalui proses menyembunyikan bentuk di slide presentasi menggunakan Aspose.Slides untuk .NET.
+Dalam dunia presentasi yang dinamis, kustomisasi adalah kuncinya. Aspose.Slides for .NET menyediakan solusi yang hebat untuk memanipulasi presentasi PowerPoint secara terprogram. Salah satu persyaratan umum adalah kemampuan untuk menyembunyikan bentuk tertentu dalam slide. Tutorial ini akan memandu Anda melalui proses menyembunyikan bentuk dalam slide presentasi menggunakan Aspose.Slides for .NET.
 ## Prasyarat
-Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
--  Aspose.Slides untuk .NET: Pastikan Anda telah menginstal perpustakaan Aspose.Slides. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/slides/net/).
+Sebelum memulai tutorial, pastikan Anda memiliki prasyarat berikut:
+- Aspose.Slides untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Slides. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/slides/net/).
 - Lingkungan Pengembangan: Siapkan lingkungan pengembangan pilihan Anda untuk .NET.
-- Pengetahuan Dasar C#: Biasakan diri Anda dengan C# karena contoh kode yang diberikan dalam bahasa ini.
-## Impor Namespace
+- Pengetahuan Dasar C#: Biasakan diri Anda dengan C# karena contoh kode yang disediakan dalam bahasa ini.
+## Mengimpor Ruang Nama
 Untuk mulai bekerja dengan Aspose.Slides, impor namespace yang diperlukan dalam proyek C# Anda. Ini memastikan bahwa Anda memiliki akses ke kelas dan metode yang diperlukan.
 ```csharp
 using System;
 using Aspose.Slides.Export;
 using Aspose.Slides;
 ```
-Sekarang, mari kita pecahkan kode contoh menjadi beberapa langkah untuk pemahaman yang jelas dan ringkas.
+Sekarang, mari kita uraikan kode contoh tersebut menjadi beberapa langkah agar pemahamannya jelas dan ringkas.
 ## Langkah 1: Siapkan Proyek Anda
-Buat proyek C# baru dan pastikan untuk menyertakan perpustakaan Aspose.Slides.
+Buat proyek C# baru dan pastikan untuk menyertakan pustaka Aspose.Slides.
 ## Langkah 2: Buat Presentasi
- Buat instance`Presentation` kelas, mewakili file PowerPoint. Tambahkan slide dan dapatkan referensi ke sana.
+Membuat contoh `Presentation` kelas, yang mewakili berkas PowerPoint. Tambahkan slide dan dapatkan referensinya.
 ```csharp
 string dataDir = "Your Document Directory";
 bool IsExists = System.IO.Directory.Exists(dataDir);
@@ -66,22 +68,24 @@ Simpan presentasi yang dimodifikasi ke disk dalam format PPTX.
 pres.Save(dataDir + "Hiding_Shapes_out.pptx", SaveFormat.Pptx);
 ```
 ## Kesimpulan
-Congratulations! You've successfully hidden shapes in your presentation using Aspose.Slides for .NET. This opens up a world of possibilities for creating dynamic and customized slides programmatically.
+Selamat! Anda telah berhasil menyembunyikan bentuk dalam presentasi Anda menggunakan Aspose.Slides for .NET. Ini membuka banyak kemungkinan untuk membuat slide yang dinamis dan disesuaikan secara terprogram.
 ---
-## FAQ
+## Tanya Jawab Umum
 ### Apakah Aspose.Slides kompatibel dengan .NET Core?
 Ya, Aspose.Slides mendukung .NET Core, memberikan fleksibilitas dalam lingkungan pengembangan Anda.
 ### Bisakah saya menyembunyikan bentuk berdasarkan kondisi selain teks alternatif?
-Sangat! Anda dapat menyesuaikan logika persembunyian berdasarkan berbagai atribut seperti tipe bentuk, warna, atau posisi.
+Tentu saja! Anda dapat menyesuaikan logika penyembunyian berdasarkan berbagai atribut seperti jenis bentuk, warna, atau posisi.
 ### Di mana saya dapat menemukan dokumentasi Aspose.Slides tambahan?
- Jelajahi dokumentasinya[Di Sini](https://reference.aspose.com/slides/net/)untuk informasi mendalam dan contoh.
+Jelajahi dokumentasi [Di Sini](https://reference.aspose.com/slides/net/) untuk informasi dan contoh yang mendalam.
 ### Apakah lisensi sementara tersedia untuk Aspose.Slides?
- Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/)untuk tujuan pengujian.
+Ya, Anda bisa mendapatkan lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/) untuk tujuan pengujian.
 ### Bagaimana saya bisa mendapatkan dukungan komunitas untuk Aspose.Slides?
- Bergabunglah dengan komunitas Aspose.Slides di[forum](https://forum.aspose.com/c/slides/11) untuk diskusi dan bantuan.
+Bergabunglah dengan komunitas Aspose.Slides di [forum](https://forum.aspose.com/c/slides/11) untuk diskusi dan bantuan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

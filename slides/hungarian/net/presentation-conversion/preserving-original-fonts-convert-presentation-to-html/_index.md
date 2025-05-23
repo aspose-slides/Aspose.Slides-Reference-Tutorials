@@ -1,50 +1,52 @@
 ---
-title: Eredeti betűtípusok megőrzése – A prezentáció konvertálása HTML-be
-linktitle: Eredeti betűtípusok megőrzése – A prezentáció konvertálása HTML-be
-second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Ismerje meg, hogyan őrizheti meg az eredeti betűtípusokat, miközben a prezentációkat HTML-formátumba konvertálja az Aspose.Slides for .NET segítségével. Gondoskodjon a betűtípus konzisztenciájáról és a vizuális hatásról.
-weight: 14
-url: /hu/net/presentation-conversion/preserving-original-fonts-convert-presentation-to-html/
+"description": "Tanuld meg, hogyan őrizheted meg az eredeti betűtípusokat, miközben prezentációkat HTML-be konvertálsz az Aspose.Slides for .NET segítségével. Gondoskodj a betűtípusok egységességéről és a vizuális hatásról erőfeszítés nélkül."
+"linktitle": "Eredeti betűtípusok megőrzése - Prezentáció konvertálása HTML-be"
+"second_title": "Aspose.Slides .NET PowerPoint feldolgozási API"
+"title": "Eredeti betűtípusok megőrzése - Prezentáció konvertálása HTML-be"
+"url": "/hu/net/presentation-conversion/preserving-original-fonts-convert-presentation-to-html/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Eredeti betűtípusok megőrzése – A prezentáció konvertálása HTML-be
+# Eredeti betűtípusok megőrzése - Prezentáció konvertálása HTML-be
 
 
-Ebben az átfogó útmutatóban végigvezetjük az eredeti betűtípusok megőrzésének folyamatán, amikor egy prezentációt HTML formátumba konvertál az Aspose.Slides for .NET használatával. Biztosítjuk Önnek a szükséges C# forráskódot, és minden lépést részletesen elmagyarázunk. Ennek az oktatóanyagnak a végére biztosítani tudja, hogy a konvertált HTML-dokumentumban lévő betűtípusok hűek maradjanak az eredeti megjelenítéshez.
+Ebben az átfogó útmutatóban végigvezetünk az eredeti betűtípusok megőrzésének folyamatán, amikor egy prezentációt HTML-be konvertálsz az Aspose.Slides for .NET segítségével. Biztosítjuk a szükséges C# forráskódot, és részletesen elmagyarázzuk az egyes lépéseket. A bemutató végére biztosítani fogod, hogy a konvertált HTML dokumentumban lévő betűtípusok hűek maradjanak az eredeti prezentációhoz.
 
-## 1. Bemutatkozás
+## 1. Bevezetés
 
-A PowerPoint-prezentációk HTML-formátumba konvertálásakor kulcsfontosságú az eredeti betűtípusok megőrzése a tartalom vizuális egységességének biztosítása érdekében. Az Aspose.Slides for .NET hatékony megoldást kínál ennek elérésére. Ebben az oktatóanyagban végigvezetjük azokon a lépéseken, amelyek szükségesek az eredeti betűtípusok megőrzéséhez az átalakítási folyamat során.
+PowerPoint prezentációk HTML-be konvertálásakor kulcsfontosságú az eredeti betűtípusok megőrzése a tartalom vizuális konzisztenciájának biztosítása érdekében. Az Aspose.Slides for .NET hatékony megoldást kínál ennek elérésére. Ebben az oktatóanyagban végigvezetjük az eredeti betűtípusok megőrzéséhez szükséges lépéseken a konvertálási folyamat során.
 
 ## 2. Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
 
-- A Visual Studio telepítve van a gépedre.
-- Aspose.Slides for .NET könyvtár hozzáadva a projekthez.
+- Visual Studio telepítve a gépedre.
+- Az Aspose.Slides for .NET könyvtár hozzáadva a projektedhez.
 
 ## 3. A projekt beállítása
 
-kezdéshez hozzon létre egy új projektet a Visual Studióban, és adja hozzá az Aspose.Slides for .NET könyvtárat referenciaként.
+Első lépésként hozz létre egy új projektet a Visual Studioban, és add hozzá az Aspose.Slides for .NET könyvtárat referenciaként.
 
 ## 4. A prezentáció betöltése
 
-Használja a következő kódot a PowerPoint bemutató betöltéséhez:
+A PowerPoint prezentáció betöltéséhez használd a következő kódot:
 
 ```csharp
 string dataDir = "Your Document Directory";
 
 using (Presentation pres = new Presentation("input.pptx"))
 {
-    // Itt a kódod
+    // A kódod itt
 }
 ```
 
- Cserélje ki`"Your Document Directory"` a prezentációs fájl elérési útjával.
+Csere `"Your Document Directory"` a prezentációs fájl elérési útjával.
 
 ## 5. Az alapértelmezett betűtípusok kizárása
 
@@ -54,11 +56,11 @@ Az alapértelmezett betűtípusok, például a Calibri és az Arial kizárásáh
 string[] fontNameExcludeList = { "Calibri", "Arial" };
 ```
 
-Ezt a listát igény szerint személyre szabhatja.
+Szükség szerint testreszabhatja ezt a listát.
 
-## 6. Minden betűtípus beágyazása
+## 6. Az összes betűtípus beágyazása
 
-Ezután az összes betűtípust beágyazzuk a HTML dokumentumba. Ez biztosítja az eredeti betűtípusok megőrzését. Használja a következő kódot:
+Ezután beágyazzuk az összes betűtípust a HTML dokumentumba. Ez biztosítja az eredeti betűtípusok megőrzését. Használd a következő kódot:
 
 ```csharp
 EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
@@ -71,43 +73,45 @@ HtmlOptions htmlOptionsEmbed = new HtmlOptions
 
 ## 7. Mentés HTML-ként
 
-Most mentse a prezentációt HTML-dokumentumként beágyazott betűtípusokkal:
+Most mentse el a prezentációt HTML dokumentumként beágyazott betűtípusokkal:
 
 ```csharp
 pres.Save("output.html", SaveFormat.Html, htmlOptionsEmbed);
 ```
 
- Cserélje ki`"output.html"` a kívánt kimeneti fájlnévvel.
+Csere `"output.html"` a kívánt kimeneti fájlnévvel.
 
 ## 8. Következtetés
 
-Ebben az oktatóanyagban bemutattuk, hogyan őrizheti meg az eredeti betűtípusokat, amikor egy PowerPoint-prezentációt HTML-be konvertál az Aspose.Slides for .NET használatával. Az alábbi lépések követésével biztosíthatja, hogy a konvertált HTML-dokumentum megőrizze az eredeti prezentáció vizuális integritását.
+Ebben az oktatóanyagban bemutattuk, hogyan őrizhetjük meg az eredeti betűtípusokat egy PowerPoint-bemutató HTML-be konvertálásakor az Aspose.Slides for .NET segítségével. A következő lépések követésével biztosíthatjuk, hogy a konvertált HTML-dokumentum megőrizze az eredeti bemutató vizuális integritását.
 
 ## 9. GYIK
 
 ### 1. kérdés: Testreszabhatom a kizárt betűtípusok listáját?
 
- Igen tudsz. Módosítsa a`fontNameExcludeList`tömbben, hogy az Ön igényei szerint bizonyos betűtípusokat vegyen fel vagy zárjon ki.
+Igen, módosíthatja. `fontNameExcludeList` tömböt, hogy az igényeidnek megfelelően bizonyos betűtípusokat tartalmazzon vagy kizárjon.
 
 ### 2. kérdés: Mi van, ha nem akarok minden betűtípust beágyazni?
 
-Ha csak meghatározott betűtípusokat szeretne beágyazni, akkor ennek megfelelően módosíthatja a kódot. További részletekért tekintse meg az Aspose.Slides for .NET dokumentációját.
+Ha csak bizonyos betűtípusokat szeretne beágyazni, ennek megfelelően módosíthatja a kódot. További részletekért tekintse meg az Aspose.Slides for .NET dokumentációját.
 
-### 3. kérdés: Vannak-e licenckövetelmények az Aspose.Slides for .NET használatához?
+### 3. kérdés: Vannak-e licenckövetelmények az Aspose.Slides .NET-hez való használatához?
 
-Igen, lehet, hogy érvényes licencre van szüksége az Aspose.Slides for .NET használatához projektjeiben. Az Aspose webhelyén találhat licencinformációkat.
+Igen, érvényes licencre lehet szüksége az Aspose.Slides for .NET használatához a projektjeiben. A licencelési információkért látogasson el az Aspose weboldalára.
 
-### 4. kérdés: Átalakíthatok más fájlformátumokat HTML-re az Aspose.Slides for .NET használatával?
+### 4. kérdés: Konvertálhatok más fájlformátumokat HTML-re az Aspose.Slides for .NET segítségével?
 
-Az Aspose.Slides for .NET elsősorban a PowerPoint-bemutatókra összpontosít. Más fájlformátumok HTML-re konvertálásához szükség lehet más, az adott formátumra szabott Aspose-termékek felfedezésére.
+Az Aspose.Slides for .NET elsősorban PowerPoint prezentációkra összpontosít. Más fájlformátumok HTML-re konvertálásához érdemes lehet más, az adott formátumokhoz igazított Aspose termékeket is megvizsgálni.
 
 ### 5. kérdés: Hol férhetek hozzá további forrásokhoz és támogatáshoz?
 
- További dokumentációt, oktatóanyagokat és támogatást találhat az Aspose webhelyén. Látogatás[Aspose.Slides a .NET-dokumentációhoz](https://reference.aspose.com/slides/net/) részletes információkért.
+További dokumentációt, oktatóanyagokat és támogatást az Aspose weboldalán talál. Látogasson el ide: [Aspose.Slides .NET dokumentációhoz](https://reference.aspose.com/slides/net/) részletes információkért.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

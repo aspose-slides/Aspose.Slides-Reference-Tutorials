@@ -1,14 +1,16 @@
 ---
-title: जावा के साथ पावरपॉइंट टेबल में पहली पंक्ति को हेडर के रूप में सेट करें
-linktitle: जावा के साथ पावरपॉइंट टेबल में पहली पंक्ति को हेडर के रूप में सेट करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके PowerPoint तालिकाओं में पहली पंक्ति को हेडर के रूप में सेट करना सीखें। प्रस्तुति की स्पष्टता और संगठन को सहजता से सुधारें।
-weight: 19
-url: /hi/java/java-powerpoint-table-manipulation/set-first-row-header-powerpoint-table-java/
+"description": "Aspose.Slides for Java का उपयोग करके PowerPoint तालिकाओं में पहली पंक्ति को हेडर के रूप में सेट करना सीखें। प्रस्तुति की स्पष्टता और संगठन को सहजता से सुधारें।"
+"linktitle": "जावा के साथ पावरपॉइंट टेबल में पहली पंक्ति को हेडर के रूप में सेट करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा के साथ पावरपॉइंट टेबल में पहली पंक्ति को हेडर के रूप में सेट करें"
+"url": "/hi/java/java-powerpoint-table-manipulation/set-first-row-header-powerpoint-table-java/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा के साथ पावरपॉइंट टेबल में पहली पंक्ति को हेडर के रूप में सेट करें
@@ -19,7 +21,7 @@ url: /hi/java/java-powerpoint-table-manipulation/set-first-row-header-powerpoint
 ट्यूटोरियल में आगे बढ़ने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 - जावा प्रोग्रामिंग का बुनियादी ज्ञान.
 - आपकी मशीन पर JDK (जावा डेवलपमेंट किट) स्थापित है।
--  Aspose.Slides for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+- Aspose.Slides for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 
 ## पैकेज आयात करें
 सबसे पहले, सुनिश्चित करें कि आपने अपने जावा प्रोजेक्ट में आवश्यक पैकेज आयात कर लिए हैं:
@@ -54,7 +56,7 @@ for (IShape shape : slide.getShapes()) {
 ## चरण 3: पहली पंक्ति को हेडर के रूप में सेट करें
 एक बार तालिका की पहचान हो जाने पर, पहली पंक्ति को शीर्षक के रूप में सेट करें।
 ```java
-//जाँचें कि क्या तालिका मिली है
+// जाँचें कि क्या तालिका मिली है
 if (table != null) {
     // पहली पंक्ति को हेडर के रूप में सेट करें
     table.setFirstRow(true);
@@ -75,16 +77,18 @@ pres.dispose();
 ### Java के लिए Aspose.Slides क्या है?
 Aspose.Slides for Java, PowerPoint फ़ाइलों के साथ प्रोग्रामेटिक रूप से काम करने के लिए एक मजबूत लाइब्रेरी है।
 ### मैं Java के लिए Aspose.Slides कैसे डाउनलोड कर सकता हूँ?
- आप इसे यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+आप इसे यहां से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 ### क्या मैं खरीदने से पहले Aspose.Slides for Java आज़मा सकता हूँ?
- हां, आप निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप निःशुल्क परीक्षण प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/).
 ### मैं Aspose.Slides for Java के लिए दस्तावेज़ कहां पा सकता हूं?
- विस्तृत दस्तावेज उपलब्ध है[यहाँ](https://reference.aspose.com/slides/java/).
+विस्तृत दस्तावेज उपलब्ध है [यहाँ](https://reference.aspose.com/slides/java/).
 ### मैं Java के लिए Aspose.Slides के लिए समर्थन कैसे प्राप्त कर सकता हूं?
- आप समुदाय का समर्थन प्राप्त कर सकते हैं[यहाँ](https://forum.aspose.com/c/slides/11).
+आप समुदाय का समर्थन प्राप्त कर सकते हैं [यहाँ](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

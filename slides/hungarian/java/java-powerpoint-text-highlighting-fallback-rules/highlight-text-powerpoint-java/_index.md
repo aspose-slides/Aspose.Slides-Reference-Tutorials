@@ -1,76 +1,80 @@
 ---
-title: Jelölje ki a szöveget a PowerPointban Java-val
-linktitle: Jelölje ki a szöveget a PowerPointban Java-val
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan lehet szöveget kiemelni a PowerPointban az Aspose.Slides for Java segítségével. Részletes útmutatónkkal könnyedén automatizálhatja és javíthatja a prezentációkat.
-weight: 10
-url: /hu/java/java-powerpoint-text-highlighting-fallback-rules/highlight-text-powerpoint-java/
+"description": "Tanuld meg, hogyan emelhetsz ki szöveget PowerPointban az Aspose.Slides for Java segítségével. Automatizáld és javítsd a prezentációidat könnyedén részletes útmutatónkkal."
+"linktitle": "Szöveg kiemelése PowerPointban Java segítségével"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Szöveg kiemelése PowerPointban Java segítségével"
+"url": "/hu/java/java-powerpoint-text-highlighting-fallback-rules/highlight-text-powerpoint-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jelölje ki a szöveget a PowerPointban Java-val
+# Szöveg kiemelése PowerPointban Java segítségével
 
 ## Bevezetés
-mai digitális korban, ahol a vizuális kommunikáció kulcsszerepet játszik az üzleti prezentációkban és oktatási anyagokban, jelentős előnyt jelent a PowerPoint-prezentációk programozott kezelésének és fejlesztésének képessége. Az Aspose.Slides for Java robusztus eszközkészlettel ruházza fel a fejlesztőket a PowerPoint diák zökkenőmentes integrálására és manipulálására a Java programozási nyelv használatával. Függetlenül attól, hogy automatizálja a prezentációk létrehozását, módosítja a meglévőket, vagy adatokat nyer ki a diákból, az Aspose.Slides for Java biztosítja a szükséges funkciókat e feladatok hatékony végrehajtásához.
+A mai digitális korban, ahol a vizuális kommunikáció kulcsszerepet játszik az üzleti prezentációkban és az oktatási anyagokban, a PowerPoint prezentációk programozott manipulálásának és fejlesztésének képessége jelentős előnyt jelent. Az Aspose.Slides for Java robusztus eszközkészletet biztosít a fejlesztők számára, hogy zökkenőmentesen integrálhassák és manipulálhassák a PowerPoint diákat Java programozási nyelv használatával. Akár prezentációk létrehozását automatizálja, akár meglévőket módosít, akár adatokat nyer ki diákból, az Aspose.Slides for Java biztosítja a szükséges funkciókat ezen feladatok hatékony elvégzéséhez.
 ## Előfeltételek
-Mielőtt belevágna az Aspose.Slides for Java használatába a szöveg kiemelésére a PowerPoint-prezentációkban, győződjön meg arról, hogy beállította a következő előfeltételeket:
--  Java Development Kit (JDK): Győződjön meg arról, hogy a Java telepítve van a rendszeren. Letöltheti innen[Java SE fejlesztőkészlet letöltések](https://www.oracle.com/java/technologies/javase-downloads.html).
--  Aspose.Slides for Java Library: Szerezze be az Aspose.Slides for Java könyvtárat a[letöltési oldal](https://releases.aspose.com/slides/java/)Kövesse a telepítési utasításokat a könyvtár beállításához a fejlesztői környezetben.
-- Integrált fejlesztői környezet (IDE): Válasszon egy olyan IDE-t, amely támogatja a Java fejlesztést, például IntelliJ IDEA, Eclipse vagy NetBeans.
+Mielőtt belemerülnél az Aspose.Slides Java-alapú használatába szövegkiemelés céljából PowerPoint-bemutatókban, győződj meg arról, hogy a következő előfeltételek teljesülnek:
+- Java fejlesztőkészlet (JDK): Győződjön meg róla, hogy a Java telepítve van a rendszerén. Letöltheti innen: [Java SE fejlesztőkészlet letöltések](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Aspose.Slides for Java könyvtár: Szerezze be az Aspose.Slides for Java könyvtárat a következő helyről: [letöltési oldal](https://releases.aspose.com/slides/java/)Kövesse a telepítési utasításokat a könyvtár fejlesztői környezetében történő beállításához.
+- Integrált fejlesztői környezet (IDE): Válasszon egy Önnek megfelelő IDE-t, amely támogatja a Java fejlesztést, például IntelliJ IDEA, Eclipse vagy NetBeans.
 
 ## Csomagok importálása
-Az Aspose.Slides for Java használatával PowerPoint-prezentációkban a szöveg kiemelésének megkezdéséhez importálnia kell a szükséges csomagokat:
+Ahhoz, hogy elkezdhesd a szöveg kiemelését a PowerPoint prezentációkban az Aspose.Slides for Java használatával, importálnod kell a szükséges csomagokat:
 ```java
 import com.aspose.slides.*;
 import java.awt.*;
 ```
 ## 1. lépés: Töltse be a prezentációt
-Először töltse be a PowerPoint prezentációt arra a helyre, ahol ki szeretné jelölni a szöveget.
+Először töltse be a PowerPoint bemutatót oda, ahová a szöveget ki szeretné emelni.
 ```java
 String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "SomePresentation.pptx");
 ```
- Cserélje ki`"Your Document Directory"` a tényleges könyvtár elérési útjával, ahol a PowerPoint bemutató (`SomePresentation.pptx`) található.
-## 2. lépés: Jelölje ki a szöveget
-Jelöljön ki egy adott szöveget egy alakzaton belül a dián. Itt kiemeljük a "title" és a "to" szó előfordulásait különböző színekkel.
+Csere `"Your Document Directory"` PowerPoint-bemutató tényleges könyvtárútvonalával (`SomePresentation.pptx`) található.
+## 2. lépés: Szöveg kiemelése
+Jelöljön ki egy adott szöveget egy alakzaton belül a dián. Itt a „cím” és a „címzett” szavak előfordulásait különböző színekkel emeljük ki.
 ```java
 // A „cím” szó kiemelése világoskék színnel
 ((AutoShape) presentation.getSlides().get_Item(0).getShapes().get_Item(0))
     .getTextFrame().highlightText("title", new Color(PresetColor.LightBlue));
-// A „hoz” szó kiemelése lila színnel, csak egész szavak
+// A 'to' szó kiemelése lila színnel, csak egész szavak esetén
 TextHighlightingOptions options = new TextHighlightingOptions();
 options.setWholeWordsOnly(true);
 ((AutoShape) presentation.getSlides().get_Item(0).getShapes().get_Item(0))
     .getTextFrame().highlightText("to", new Color(PresetColor.Violet), options);
 ```
-Ez a kódrészlet bemutatja, hogyan lehet szöveget kiemelni egy megadott alakzaton belül (`AutoShape`) az első dián (`get_Item(0)`).
+Ez a kódrészlet bemutatja, hogyan lehet szöveget kiemelni egy adott alakzaton belül (`AutoShape`) az első dián (`get_Item(0)`).
 ## 3. lépés: Mentse el a módosított prezentációt
 Mentse el a módosított prezentációt a kiemelt szöveggel egy új fájlba.
 ```java
 presentation.save(dataDir + "SomePresentation-out.pptx", SaveFormat.Pptx);
 ```
- Cserélje ki`"SomePresentation-out.pptx"` a kimeneti fájl kívánt nevével.
+Csere `"SomePresentation-out.pptx"` a kimeneti fájl kívánt nevével.
 
 ## Következtetés
-Összefoglalva, az Aspose.Slides for Java használata leegyszerűsíti a PowerPoint-prezentációk programozott kezelését. Átfogó API-jával a fejlesztők hatékonyan kiemelhetik a szöveget, testreszabhatják a diákat, és automatizálhatják a prezentációs feladatokat a termelékenység fokozása érdekében.
+Összefoglalva, az Aspose.Slides Java-ban való használata leegyszerűsíti a PowerPoint-prezentációk programozott kezelését. Átfogó API-jának köszönhetően a fejlesztők hatékonyan emelhetik ki a szöveget, testreszabhatják a diákat és automatizálhatják a prezentációs feladatokat a termelékenység növelése érdekében.
 
 ## GYIK
-### Mi az Aspose.Slides for Java?
-Az Aspose.Slides for Java egy Java API, amely lehetővé teszi a fejlesztők számára, hogy Microsoft Office vagy PowerPoint telepítése nélkül hozzanak létre, módosítsanak és kezeljenek PowerPoint bemutatókat.
-### Hol találom az Aspose.Slides for Java dokumentációját?
- A dokumentációt megtalálod[itt](https://reference.aspose.com/slides/java/).
-### Hogyan szerezhetek ideiglenes licencet az Aspose.Slides for Java számára?
- Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
-### Milyen formátumokba mentheti az Aspose.Slides for Java prezentációit?
-Az Aspose.Slides for Java támogatja a prezentációk mentését különféle formátumokban, beleértve a PPTX, PPT, PDF és egyebeket.
-### Az Aspose.Slides for Java kompatibilis a Java SE fejlesztőkészlettel?
-Igen, az Aspose.Slides for Java kompatibilis a Java SE fejlesztőkészlettel.
+### Mi az Aspose.Slides Java-hoz?
+Az Aspose.Slides for Java egy Java API, amely lehetővé teszi a fejlesztők számára PowerPoint-bemutatók létrehozását, módosítását és kezelését Microsoft Office vagy PowerPoint telepítése nélkül.
+### Hol találok dokumentációt az Aspose.Slides Java-hoz?
+A dokumentációt megtalálod [itt](https://reference.aspose.com/slides/java/).
+### Hogyan szerezhetek ideiglenes licencet az Aspose.Slides for Java-hoz?
+Ideiglenes jogosítványt szerezhet [itt](https://purchase.aspose.com/temporary-license/).
+### Milyen formátumokban tud az Aspose.Slides for Java prezentációkat menteni?
+Az Aspose.Slides Java-ban különféle formátumokban támogatja a prezentációk mentését, beleértve a PPTX, PPT, PDF és egyebeket.
+### Kompatibilis az Aspose.Slides Java-hoz készült verziója a Java SE Development Kittel?
+Igen, az Aspose.Slides for Java kompatibilis a Java SE Development Kittel.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

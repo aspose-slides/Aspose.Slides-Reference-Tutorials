@@ -1,70 +1,72 @@
 ---
-title: Állítsa be a hézag szélességét a Java Slides-ben
-linktitle: Állítsa be a hézag szélességét a Java Slides-ben
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan állíthatja be a hézagszélességet a Java Slides programban az Aspose.Slides for Java segítségével. Növelje PowerPoint-prezentációi diagramképét.
-weight: 21
-url: /hu/java/data-manipulation/set-gap-width-java-slides/
+"description": "Tanuld meg, hogyan állíthatod be a rés szélességét Java diákban az Aspose.Slides for Java segítségével. Javítsd a PowerPoint-bemutatóid diagramvizualizációit."
+"linktitle": "A rés szélességének beállítása Java diákban"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "A rés szélességének beállítása Java diákban"
+"url": "/hu/java/data-manipulation/set-gap-width-java-slides/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Állítsa be a hézag szélességét a Java Slides-ben
+# A rés szélességének beállítása Java diákban
 
 
-## Bevezetés a hézagszélesség beállításába az Aspose.Slides for Java programban
+## Bevezetés a rés szélességének beállításába az Aspose.Slides Java-ban
 
-Ebben az oktatóanyagban végigvezetjük az Aspose.Slides for Java segítségével a PowerPoint-prezentáció diagramjának hézagszélességének beállításán. A résszélesség meghatározza a diagram oszlopai vagy sávjai közötti távolságot, lehetővé téve a diagram vizuális megjelenésének szabályozását.
+Ebben az oktatóanyagban végigvezetünk egy PowerPoint-bemutató diagramjainak résszélességének beállításán az Aspose.Slides for Java használatával. A résszélesség határozza meg az oszlopok vagy sávok közötti távolságot a diagramban, lehetővé téve a diagram vizuális megjelenésének szabályozását.
 
 ## Előfeltételek
 
- Mielőtt elkezdené, ellenőrizze, hogy telepítve van-e az Aspose.Slides for Java könyvtár. Letöltheti az Aspose webhelyéről[itt](https://releases.aspose.com/slides/java/).
+Mielőtt elkezdenéd, győződj meg róla, hogy telepítve van az Aspose.Slides for Java könyvtár. Letöltheted az Aspose weboldaláról. [itt](https://releases.aspose.com/slides/java/).
 
-## Útmutató lépésről lépésre
+## Lépésről lépésre útmutató
 
-Kövesse az alábbi lépéseket a résszélesség beállításához egy diagramon az Aspose.Slides for Java segítségével:
+Kövesse az alábbi lépéseket a diagramok résszélességének beállításához az Aspose.Slides for Java használatával:
 
-### 1. Hozzon létre egy üres prezentációt
+### 1. Hozz létre egy üres prezentációt
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
 String dataDir = "Your Document Directory";
 
-// Üres prezentáció létrehozása
+// Üres prezentáció létrehozása 
 Presentation presentation = new Presentation();
 ```
 
-### 2. Nyissa meg az első diát
+### 2. Az első diához való hozzáférés
 
 ```java
-// Nyissa meg az első diát
+// Az első dia elérése
 ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
-### 3. Adjon hozzá egy diagramot az alapértelmezett adatokkal
+### 3. Alapértelmezett adatokat tartalmazó diagram hozzáadása
 
 ```java
-// Adjon hozzá egy diagramot alapértelmezett adatokkal
+// Alapértelmezett adatokat tartalmazó diagram hozzáadása
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn, 0, 0, 500, 500);
 ```
 
-### 4. Állítsa be a diagram adatlap indexét
+### 4. Állítsa be a diagram adatlapjának indexét
 
 ```java
 // Diagram adatlap indexének beállítása
 int defaultWorksheetIndex = 0;
 ```
 
-### 5. Szerezze be a diagramadatok munkafüzetet
+### 5. Szerezd meg a Diagramadatok munkafüzetet
 
 ```java
-// A diagram adatlapjának lekérése
+// A diagramadatok munkalapjának beszerzése
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
 
-### 6. Sorozat hozzáadása a diagramhoz
+### 6. Sorozatok hozzáadása a diagramhoz
 
 ```java
 // Sorozat hozzáadása a diagramhoz
@@ -72,10 +74,10 @@ chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), chart.getType());
 ```
 
-### 7. Adjon hozzá kategóriákat a diagramhoz
+### 7. Kategóriák hozzáadása a diagramhoz
 
 ```java
-// Adjon hozzá kategóriákat a diagramhoz
+// Kategóriák hozzáadása a diagramhoz
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 1, 0, "Category 1"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 0, "Category 2"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Category 3"));
@@ -87,7 +89,7 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 
 // Sorozatadatok feltöltése
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
 
-// Sorozat adatpontok feltöltése
+// Sorozat adatpontjainak feltöltése
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -96,52 +98,52 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
 ```
 
-### 9. Állítsa be a hézag szélességét
+### 9. Állítsa be a rés szélességét
 
 ```java
-// Állítsa be a Gap Width értéket
+// Állítsa be a rés szélességét
 series.getParentSeriesGroup().setGapWidth(50);
 ```
 
-### 10. Mentse el a bemutatót
+### 10. Mentse el a prezentációt
 
 ```java
-// Mentse el a bemutatót a diagrammal
+// Mentse el a prezentációt a diagrammal együtt
 presentation.save(dataDir + "GapWidth_out.pptx", SaveFormat.Pptx);
 ```
 
-## Teljes forráskód a Java Slides résszélesség beállításához
+## Teljes forráskód a Java diákban található rés szélességének beállításához
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
 String dataDir = "Your Document Directory";
-// Üres prezentáció létrehozása
+// Üres prezentáció létrehozása 
 Presentation presentation = new Presentation();
-// Hozzáférés az első diához
+// Első dia elérése
 ISlide slide = presentation.getSlides().get_Item(0);
 // Diagram hozzáadása alapértelmezett adatokkal
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn, 0, 0, 500, 500);
 // Diagram adatlap indexének beállítása
 int defaultWorksheetIndex = 0;
-// A diagram adatlapjának lekérése
+// A diagramadatok munkalapjának beszerzése
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Sorozat hozzáadása
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), chart.getType());
-// Catgories hozzáadása
+// Kategóriák hozzáadása
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 1, 0, "Caetegoty 1"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 0, "Caetegoty 2"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 // Vegyük a második diagramsorozatot
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-// Most a sorozatadatok feltöltése
+// Most feltöltjük a sorozat adatait
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-// Állítsa be a GapWidth értéket
+// GapWidth értékének beállítása
 series.getParentSeriesGroup().setGapWidth(50);
 // Prezentáció mentése diagrammal
 presentation.save(dataDir + "GapWidth_out.pptx", SaveFormat.Pptx);
@@ -149,24 +151,26 @@ presentation.save(dataDir + "GapWidth_out.pptx", SaveFormat.Pptx);
 
 ## Következtetés
 
-Ebből az oktatóanyagból megtanulta, hogyan állíthatja be a hézagszélességet egy PowerPoint-prezentációban lévő diagramhoz az Aspose.Slides for Java használatával. A résszélesség beállításával szabályozhatja a diagram oszlopai vagy sávjai közötti távolságot, javítva az adatok vizuális megjelenítését.
+Ebben az oktatóanyagban megtanultad, hogyan állíthatod be a rés szélességét egy PowerPoint-bemutatóban lévő diagramhoz az Aspose.Slides for Java segítségével. A rés szélességének módosításával szabályozhatod az oszlopok vagy sávok közötti távolságot a diagramban, javítva az adatok vizuális ábrázolását.
 
 ## GYIK
 
-### Hogyan változtathatom meg a Gap Width értéket?
+### Hogyan módosíthatom a rés szélességének értékét?
 
- A résszélesség módosításához használja a`setGapWidth` módszer a`ParentSeriesGroup` diagramsorozatból. A megadott példában a Gap Width értéket 50-re állítottuk, de ezt az értéket a kívánt távolságra állíthatja.
+A rés szélességének módosításához használja a `setGapWidth` módszer a `ParentSeriesGroup` a diagramsorozatból. A bemutatott példában a rés szélességét 50-re állítottuk be, de ezt az értéket a kívánt térközre állíthatja.
 
-### Testreszabhatok más diagramtulajdonságokat?
+### Testreszabhatom a diagram más tulajdonságait?
 
-Igen, az Aspose.Slides for Java kiterjedt lehetőségeket kínál a diagramok testreszabásához. Módosíthatja a diagram különféle tulajdonságait, például színeket, címkéket, címeket és egyebeket. A diagram testreszabási lehetőségeivel kapcsolatos részletes információkért tekintse meg az API-referenciát.
+Igen, az Aspose.Slides Java-ban elérhető, széleskörű diagram-testreszabási lehetőségeket kínál. Módosíthatja a diagram különböző tulajdonságait, például a színeket, címkéket, címeket és egyebeket. A diagram testreszabási lehetőségeiről részletes információkat az API-referenciában talál.
 
 ### Hol találok további forrásokat és dokumentációt?
 
- Az Aspose.Slides for Java webhelyen átfogó dokumentációt és további forrásokat találhat[Aspose honlapja](https://reference.aspose.com/slides/java/).
+Átfogó dokumentációt és további forrásokat talál az Aspose.Slides for Java oldalon a következő címen: [Aspose weboldal](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,29 +1,31 @@
 ---
-title: Lägg till anpassat fel i Java Slides
-linktitle: Lägg till anpassat fel i Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Lär dig hur du lägger till anpassade felstaplar till PowerPoint-diagram i Java Slides med Aspose.Slides. Steg-för-steg guide med källkod för exakt datavisualisering.
-weight: 11
-url: /sv/java/chart-data-manipulation/add-custom-error-java-slides/
+"description": "Lär dig hur du lägger till anpassade felstaplar i PowerPoint-diagram i Java Slides med hjälp av Aspose.Slides. Steg-för-steg-guide med källkod för exakt datavisualisering."
+"linktitle": "Lägg till anpassat fel i Java-bilder"
+"second_title": "Aspose.Slides Java PowerPoint-bearbetnings-API"
+"title": "Lägg till anpassat fel i Java-bilder"
+"url": "/sv/java/chart-data-manipulation/add-custom-error-java-slides/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lägg till anpassat fel i Java Slides
+# Lägg till anpassat fel i Java-bilder
 
 
-## Introduktion till att lägga till anpassade felfält i Java Slides med Aspose.Slides
+## Introduktion till att lägga till anpassade felstaplar i Java Slides med hjälp av Aspose.Slides
 
-I den här handledningen kommer du att lära dig hur du lägger till anpassade felstaplar till ett diagram i en PowerPoint-presentation med Aspose.Slides för Java. Felstaplar är användbara för att visa variabilitet eller osäkerhet i datapunkter i ett diagram.
+I den här handledningen lär du dig hur du lägger till anpassade felstaplar i ett diagram i en PowerPoint-presentation med hjälp av Aspose.Slides för Java. Felstaplar är användbara för att visa variation eller osäkerhet i datapunkter i ett diagram.
 
-## Förutsättningar
+## Förkunskapskrav
 
 Innan du börjar, se till att du har följande:
 
-- Aspose.Slides för Java-bibliotek installerat och konfigurerat i ditt projekt.
-- En Java-utvecklingsmiljö inrättad.
+- Aspose.Slides för Java-biblioteket är installerat och konfigurerat i ditt projekt.
+- En Java-utvecklingsmiljö konfigurerad.
 
 ## Steg 1: Skapa en tom presentation
 
@@ -32,25 +34,25 @@ Skapa först en tom PowerPoint-presentation.
 ```java
 // Sökvägen till dokumentkatalogen.
 String dataDir = "Your Document Directory";
-// Skapar tom presentation
+// Skapar en tom presentation
 Presentation presentation = new Presentation();
 ```
 
 ## Steg 2: Lägg till ett bubbeldiagram
 
-Därefter lägger vi till ett bubbeldiagram till presentationen.
+Nästa steg är att lägga till ett bubbeldiagram i presentationen.
 
 ```java
 // Skapa ett bubbeldiagram
 IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Bubble, 50, 50, 400, 300, true);
 ```
 
-## Steg 3: Lägg till anpassade felfält
+## Steg 3: Lägg till anpassade felstaplar
 
-Låt oss nu lägga till anpassade felstaplar till diagramserien.
+Nu ska vi lägga till anpassade felstaplar i diagramserien.
 
 ```java
-// Lägga till anpassade felfält och ställa in deras format
+// Lägga till anpassade felstaplar och ställa in deras format
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 IErrorBarsFormat errBarX = series.getErrorBarsXFormat();
 IErrorBarsFormat errBarY = series.getErrorBarsYFormat();
@@ -60,19 +62,19 @@ errBarX.setValueType(ErrorBarValueType.Custom);
 errBarY.setValueType(ErrorBarValueType.Custom);
 ```
 
-## Steg 4: Ställ in felfältsdata
+## Steg 4: Ställ in felstapeldata
 
-I det här steget kommer vi åt diagramseriens datapunkter och ställer in de anpassade felstaplarnas värden för varje punkt.
+det här steget kommer vi åt diagramseriens datapunkter och anger anpassade felstaplarsvärden för varje punkt.
 
 ```java
-// Åtkomst till diagramseriedatapunkter och inställning av felstapelvärden för enskilda punkter
+// Åtkomst till datapunkter i diagramserier och inställning av felstaplar för enskilda punkter
 IChartDataPointCollection points = series.getDataPoints();
 points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForXPlusValues(DataSourceType.DoubleLiterals);
 points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForXMinusValues(DataSourceType.DoubleLiterals);
 points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForYPlusValues(DataSourceType.DoubleLiterals);
 points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForYMinusValues(DataSourceType.DoubleLiterals);
 
-// Inställning av felstaplar för diagramseriepunkter
+// Ställa in felstaplar för punkter i diagramserien
 for (int i = 0; i < points.size(); i++)
 {
     points.get_Item(i).getErrorBarsCustomValues().getXMinus().setAsLiteralDouble(i + 1);
@@ -84,27 +86,27 @@ for (int i = 0; i < points.size(); i++)
 
 ## Steg 5: Spara presentationen
 
-Slutligen sparar du presentationen med de anpassade felfälten.
+Spara slutligen presentationen med de anpassade felstaplarna.
 
 ```java
-// Sparar presentationen
+// Sparar presentation
 presentation.save(dataDir + "ErrorBarsCustomValues_out.pptx", SaveFormat.Pptx);
 ```
 
-Det är allt! Du har framgångsrikt lagt till anpassade felstaplar till ett diagram i en PowerPoint-presentation med Aspose.Slides för Java.
+Det var allt! Du har lagt till anpassade felstaplar i ett diagram i en PowerPoint-presentation med Aspose.Slides för Java.
 
-## Komplett källkod för Lägg till anpassat fel i Java Slides
+## Komplett källkod för att lägga till anpassat fel i Java Slides
 
 ```java
 // Sökvägen till dokumentkatalogen.
 String dataDir = "Your Document Directory";
-// Skapar tom presentation
+// Skapar en tom presentation
 Presentation presentation = new Presentation();
 try
 {
 	// Skapa ett bubbeldiagram
 	IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Bubble, 50, 50, 400, 300, true);
-	// Lägger till anpassade felfält och ställer in dess format
+	// Lägga till anpassade felstaplar och ställa in deras format
 	IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 	IErrorBarsFormat errBarX = series.getErrorBarsXFormat();
 	IErrorBarsFormat errBarY = series.getErrorBarsYFormat();
@@ -112,13 +114,13 @@ try
 	errBarY.setVisible(true);
 	errBarX.setValueType(ErrorBarValueType.Custom);
 	errBarY.setValueType(ErrorBarValueType.Custom);
-	// Åtkomst till diagramseriedatapunkt och inställning av felstapelvärden för individuell punkt
+	// Åtkomst till datapunkter i diagramserier och inställning av felstaplar för enskilda punkter
 	IChartDataPointCollection points = series.getDataPoints();
 	points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForXPlusValues(DataSourceType.DoubleLiterals);
 	points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForXMinusValues(DataSourceType.DoubleLiterals);
 	points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForYPlusValues(DataSourceType.DoubleLiterals);
 	points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForYMinusValues(DataSourceType.DoubleLiterals);
-	// Inställning av felstaplar för diagramseriepunkter
+	// Ställa in felstaplar för punkter i diagramserien
 	for (int i = 0; i < points.size(); i++)
 	{
 		points.get_Item(i).getErrorBarsCustomValues().getXMinus().setAsLiteralDouble(i + 1);
@@ -126,7 +128,7 @@ try
 		points.get_Item(i).getErrorBarsCustomValues().getYMinus().setAsLiteralDouble(i + 1);
 		points.get_Item(i).getErrorBarsCustomValues().getYPlus().setAsLiteralDouble(i + 1);
 	}
-	// Sparar presentationen
+	// Sparar presentation
 	presentation.save(dataDir + "ErrorBarsCustomValues_out.pptx", SaveFormat.Pptx);
 }
 finally
@@ -137,28 +139,30 @@ finally
 
 ## Slutsats
 
-I den här omfattande handledningen har du lärt dig hur du förbättrar dina PowerPoint-presentationer genom att lägga till anpassade felstaplar till diagram med Aspose.Slides för Java. Felstaplar ger värdefulla insikter om datavariabilitet och osäkerhet, vilket gör dina diagram mer informativa och visuellt tilltalande.
+den här omfattande handledningen har du lärt dig hur du förbättrar dina PowerPoint-presentationer genom att lägga till anpassade felstaplar i diagram med hjälp av Aspose.Slides för Java. Felstaplar ger värdefulla insikter i datavariabilitet och osäkerhet, vilket gör dina diagram mer informativa och visuellt tilltalande.
 
-## FAQ's
+## Vanliga frågor
 
-### Hur anpassar jag utseendet på felfält?
+### Hur anpassar jag utseendet på felstaplar?
 
- Du kan anpassa utseendet på felstaplar genom att ändra egenskaperna för`IErrorBarsFormat` objekt, som linjestil, linjefärg och felfältets bredd.
+Du kan anpassa utseendet på felstaplar genom att ändra egenskaperna för `IErrorBarsFormat` objekt, såsom linjestil, linjefärg och felstapelbredd.
 
-### Kan jag lägga till felstaplar till andra diagramtyper?
+### Kan jag lägga till felstaplar i andra diagramtyper?
 
 Ja, du kan lägga till felstaplar till olika diagramtyper som stöds av Aspose.Slides för Java, inklusive stapeldiagram, linjediagram och punktdiagram.
 
 ### Hur ställer jag in olika felstapelvärden för varje datapunkt?
 
-Du kan gå igenom datapunkterna och ställa in anpassade felstapelvärden för varje punkt, som visas i koden ovan.
+Du kan loopa igenom datapunkterna och ange anpassade felstapelvärden för varje punkt, som visas i koden ovan.
 
 ### Är det möjligt att dölja felstaplar för specifika datapunkter?
 
- Ja, du kan kontrollera synligheten för felstaplar för enskilda datapunkter genom att ställa in`setVisible` egendom av`IErrorBarsFormat` objekt.
+Ja, du kan styra synligheten av felstaplar för enskilda datapunkter genom att ställa in `setVisible` egendomen tillhörande `IErrorBarsFormat` objekt.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

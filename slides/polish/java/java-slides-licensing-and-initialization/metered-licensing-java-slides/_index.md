@@ -1,41 +1,43 @@
 ---
-title: Licencjonowanie odmierzone w slajdach Java
-linktitle: Licencjonowanie odmierzone w slajdach Java
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Zoptymalizuj swój Aspose.Slides pod kątem wykorzystania Java dzięki licencjonowaniu odmierzanemu. Dowiedz się, jak to skonfigurować i monitorować wykorzystanie interfejsu API.
-weight: 10
-url: /pl/java/licensing-and-initialization/metered-licensing-java-slides/
+"description": "Zoptymalizuj Aspose.Slides pod kątem wykorzystania Java dzięki licencjonowaniu licznikowemu. Dowiedz się, jak je skonfigurować i monitorować zużycie API."
+"linktitle": "Licencjonowanie licznikowe w Java Slajdy"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Licencjonowanie licznikowe w Java Slajdy"
+"url": "/pl/java/licensing-and-initialization/metered-licensing-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Licencjonowanie odmierzone w slajdach Java
+# Licencjonowanie licznikowe w Java Slajdy
 
 
 ## Wprowadzenie do licencjonowania licznikowego w Aspose.Slides dla Java
 
-Licencjonowanie odmierzone pozwala monitorować i kontrolować wykorzystanie Aspose.Slides for Java API. Ten przewodnik przeprowadzi Cię przez proces wdrażania licencjonowania odmierzonego w projekcie Java przy użyciu Aspose.Slides. 
+Licencjonowanie licznikowe pozwala monitorować i kontrolować korzystanie z Aspose.Slides dla API Java. Ten przewodnik przeprowadzi Cię przez proces implementacji licencjonowania licznikowego w Twoim projekcie Java przy użyciu Aspose.Slides. 
 
-## Warunki wstępne
+## Wymagania wstępne
 
-Zanim zaczniesz, upewnij się, że masz następujące elementy:
+Zanim zaczniesz, upewnij się, że masz następujące rzeczy:
 
-- Aspose.Slides dla plików Java JAR zintegrowanych z Twoim projektem.
+- Pliki Aspose.Slides dla Java JAR zintegrowane z Twoim projektem.
 - Klucze publiczne i prywatne do licencjonowania licznikowego, które można uzyskać od Aspose.
 
-## Wdrażanie licencjonowania odmierzonego
+## Wdrażanie licencjonowania licznikowego
 
-Aby skorzystać z licencjonowania odmierzonego w Aspose.Slides dla Java, wykonaj następujące kroki:
+Aby skorzystać z licencjonowania licznikowego w Aspose.Slides for Java, wykonaj następujące kroki:
 
-###  Krok 1: Utwórz instancję`Metered` class:
+### Krok 1: Utwórz instancję `Metered` klasa:
 
 ```java
 Metered metered = new Metered();
 ```
 
-### Krok 2: Ustaw klucz mierzony przy użyciu kluczy publicznych i prywatnych:
+### Krok 2: Ustaw klucz pomiarowy za pomocą kluczy publicznego i prywatnego:
 
 ```java
 try
@@ -48,21 +50,21 @@ catch (Exception ex)
 }
 ```
 
-### Krok 3: Uzyskaj zmierzoną ilość danych przed i po wywołaniu interfejsu API:
+### Krok 3: Pobierz ilość zmierzonych danych przed i po wywołaniu API:
 
 ```java
-// Uzyskaj zmierzoną ilość danych przed wywołaniem interfejsu API
+// Pobierz zmierzoną ilość danych przed wywołaniem API
 double amountBefore = Metered.getConsumptionQuantity();
 
-// Wyświetlanie informacji
+// Wyświetl informacje
 System.out.println("Amount Consumed Before: " + amountBefore);
 
 // Wywołaj tutaj metody API Aspose.Slides
 
-// Uzyskaj zmierzoną ilość danych po wywołaniu interfejsu API
+// Uzyskaj zmierzoną ilość danych po wywołaniu API
 double amountAfter = Metered.getConsumptionQuantity();
 
-// Wyświetlanie informacji
+// Wyświetl informacje
 System.out.println("Amount Consumed After: " + amountAfter);
 ```
 ## Kompletny kod źródłowy
@@ -73,13 +75,13 @@ try
 {
 	// Uzyskaj dostęp do właściwości setMeteredKey i przekaż klucze publiczne i prywatne jako parametry
 	metered.setMeteredKey("*****", "*****");
-	// Uzyskaj zmierzoną ilość danych przed wywołaniem interfejsu API
+	// Pobierz zmierzoną ilość danych przed wywołaniem API
 	double amountbefore = Metered.getConsumptionQuantity();
-	// Wyświetlanie informacji
+	// Wyświetl informacje
 	System.out.println("Amount Consumed Before: " + amountbefore);
-	//Uzyskaj zmierzoną ilość danych Po wywołaniu interfejsu API
+	// Uzyskaj zmierzoną ilość danych po wywołaniu API
 	double amountafter = Metered.getConsumptionQuantity();
-	// Wyświetlanie informacji
+	// Wyświetl informacje
 	System.out.println("Amount Consumed After: " + amountafter);
 }
 catch (Exception ex)
@@ -90,33 +92,35 @@ catch (Exception ex)
 
 ## Wniosek
 
-Wdrożenie licencjonowania odmierzonego w Aspose.Slides dla Java pozwala efektywnie monitorować wykorzystanie interfejsu API. Może to być szczególnie przydatne, gdy chcesz zarządzać kosztami i nie przekraczać przyznanych limitów.
+Wdrożenie licencjonowania mierzonego w Aspose.Slides dla Java pozwala na wydajne monitorowanie wykorzystania API. Może to być szczególnie przydatne, gdy chcesz zarządzać kosztami i pozostać w ramach przydzielonych limitów.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### Jak uzyskać klucze licencjonowania licznikowego?
+### Jak uzyskać klucze licencyjne z licznikiem?
 
-Klucze licencyjne licznikowe można uzyskać od Aspose. Aby uzyskać więcej informacji, skontaktuj się z ich pomocą techniczną lub odwiedź ich witrynę internetową.
+Klucze licencyjne z licznikiem można uzyskać od Aspose. Skontaktuj się z ich pomocą techniczną lub odwiedź ich stronę internetową, aby uzyskać więcej informacji.
 
-### Czy do korzystania z Aspose.Slides for Java wymagana jest licencja licznikowa?
+### Czy do korzystania z Aspose.Slides for Java wymagane jest licencjonowanie licznikowe?
 
-Licencjonowanie licznikowe jest opcjonalne, ale może pomóc w śledzeniu wykorzystania interfejsu API i efektywnym zarządzaniu kosztami.
+Licencjonowanie licznikowe jest opcjonalne, ale może pomóc Ci śledzić wykorzystanie interfejsu API i skutecznie zarządzać kosztami.
 
-### Czy mogę używać licencji odmierzanych z innymi produktami Aspose?
+### Czy mogę korzystać z licencji licznikowych w połączeniu z innymi produktami Aspose?
 
-Tak, dostępne jest licencjonowanie odmierzone dla różnych produktów Aspose, w tym Aspose.Slides dla Java.
+Tak, licencjonowanie licznikowe jest dostępne dla różnych produktów Aspose, w tym Aspose.Slides for Java.
 
 ### Co się stanie, jeśli przekroczę limit licznika?
 
-Jeśli przekroczysz limit licznika, może być konieczne uaktualnienie licencji lub skontaktowanie się z Aspose w celu uzyskania pomocy.
+Jeśli przekroczysz limit, może być konieczne uaktualnienie licencji lub skontaktowanie się z Aspose w celu uzyskania pomocy.
 
-### Czy do licencjonowania licznikowego potrzebne jest połączenie internetowe?
+### Czy do zakupu licencji licznikowej potrzebuję połączenia internetowego?
 
-Tak, do ustawienia i sprawdzenia licencji licznikowych wymagane jest połączenie internetowe.
+Tak, do ustawienia i zatwierdzenia licencji licznikowej wymagane jest połączenie internetowe.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,41 +1,43 @@
 ---
-title: Java スライドの読み取り専用推奨プロパティ
-linktitle: Java スライドの読み取り専用推奨プロパティ
-second_title: Aspose.Slides Java PowerPoint 処理 API
-description: Aspose.Slides for Java を使用して、Java PowerPoint プレゼンテーションで読み取り専用の推奨プロパティを有効にする方法を学びます。プレゼンテーションのセキュリティを強化するには、ソース コードの例を含むステップ バイ ステップ ガイドに従ってください。
-weight: 17
-url: /ja/java/presentation-properties/read-only-recommended-properties-in-java-slides/
+"description": "Aspose.Slides for Java を使用して、Java PowerPoint プレゼンテーションで読み取り専用推奨プロパティを有効にする方法を学びます。プレゼンテーションのセキュリティを強化するには、ソースコード例を含むステップバイステップのガイドに従ってください。"
+"linktitle": "Javaスライドの読み取り専用推奨プロパティ"
+"second_title": "Aspose.Slides Java PowerPoint 処理 API"
+"title": "Javaスライドの読み取り専用推奨プロパティ"
+"url": "/ja/java/presentation-properties/read-only-recommended-properties-in-java-slides/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java スライドの読み取り専用推奨プロパティ
+# Javaスライドの読み取り専用推奨プロパティ
 
 
-## Java スライドで読み取り専用の推奨プロパティを有効にする方法の紹介
+## Javaスライドで読み取り専用の推奨プロパティを有効にする方法の紹介
 
-このチュートリアルでは、Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションの読み取り専用推奨プロパティを有効にする方法について説明します。読み取り専用推奨プロパティは、ユーザーがプレゼンテーションを変更せずに表示するように促す場合に便利です。これらのプロパティは、プレゼンテーションを読み取り専用モードで開く必要があることを示しています。これを実現するためのステップ バイ ステップ ガイドと Java ソース コードを提供します。
+このチュートリアルでは、Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションの読み取り専用推奨プロパティを有効にする方法を説明します。読み取り専用推奨プロパティは、ユーザーにプレゼンテーションを変更せずに閲覧するよう促したい場合に便利です。これらのプロパティは、プレゼンテーションを読み取り専用モードで開くことを推奨します。この設定を実現するための手順を Java ソースコードとともにご説明します。
 
 ## 前提条件
 
-始める前に、プロジェクトにAspose.Slides for Javaライブラリがセットアップされていることを確認してください。[Aspose.Slides for Java の Web サイト](https://products.aspose.com/slides/java/).
+始める前に、プロジェクトにAspose.Slides for Javaライブラリがセットアップされていることを確認してください。ダウンロードは以下から行えます。 [Aspose.Slides for Java ウェブサイト](https://products。aspose.com/slides/java/).
 
 ## ステップ1: 新しいPowerPointプレゼンテーションを作成する
 
-まず、Aspose.Slides for Java を使用して新しい PowerPoint プレゼンテーションを作成します。既にプレゼンテーションがある場合は、この手順をスキップできます。
+まず、Aspose.Slides for Java を使って新しい PowerPoint プレゼンテーションを作成します。既にプレゼンテーションをお持ちの場合は、この手順をスキップしてください。
 
 ```java
 String outPptxPath = "Your Output Directory" + "ReadOnlyRecommended.pptx";
 Presentation pres = new Presentation();
 ```
 
-上記のコードでは、出力 PowerPoint ファイルのパスを定義し、新しいプレゼンテーション オブジェクトを作成しました。
+上記のコードでは、出力 PowerPoint ファイルへのパスを定義し、新しいプレゼンテーション オブジェクトを作成しました。
 
 ## ステップ2: 読み取り専用の推奨プロパティを有効にする
 
-ここで、プレゼンテーションの「読み取り専用推奨」プロパティを有効にしましょう。
+ここで、プレゼンテーションの読み取り専用推奨プロパティを有効にしましょう。
 
 ```java
 try
@@ -49,13 +51,13 @@ finally
 }
 ```
 
-このコードスニペットでは、`getProtectionManager().setReadOnlyRecommended(true)`読み取り専用推奨プロパティを設定する方法`true`これにより、誰かがプレゼンテーションを開いたときに、読み取り専用モードで開くように求めるメッセージが表示されます。
+このコードスニペットでは、 `getProtectionManager().setReadOnlyRecommended(true)` 読み取り専用推奨プロパティを設定する方法 `true`これにより、誰かがプレゼンテーションを開いたときに、読み取り専用モードで開くように求めるメッセージが表示されます。
 
 ## ステップ3: プレゼンテーションを保存する
 
 最後に、読み取り専用推奨プロパティを有効にしてプレゼンテーションを保存します。
 
-## Java スライドの読み取り専用推奨プロパティの完全なソース コード
+## Javaスライドの読み取り専用推奨プロパティの完全なソースコード
 
 ```java
 String outPptxPath = "Your Output Directory" + "ReadOnlyRecommended.pptx";
@@ -73,7 +75,7 @@ finally
 
 ## 結論
 
-このチュートリアルでは、Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションの読み取り専用推奨プロパティを有効にする方法を学習しました。この機能は、編集を制限し、閲覧者にプレゼンテーションを読み取り専用モードで使用するよう促す場合に役立ちます。プレゼンテーションにパスワードを設定することで、セキュリティをさらに強化できます。
+このチュートリアルでは、Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションの「読み取り専用推奨」プロパティを有効にする方法を学習しました。この機能は、編集権限を制限し、閲覧者にプレゼンテーションを読み取り専用モードで使用してもらいたい場合に役立ちます。プレゼンテーションにパスワードを設定することで、セキュリティをさらに強化できます。
 
 ## よくある質問
 
@@ -85,18 +87,20 @@ finally
 pres.getProtectionManager().setReadOnlyRecommended(false);
 ```
 
-### 読み取り専用の推奨プレゼンテーションにパスワードを設定できますか?
+### 読み取り専用推奨プレゼンテーションにパスワードを設定できますか?
 
-はい、Aspose.Slides for Javaを使用して読み取り専用の推奨プレゼンテーションにパスワードを設定できます。`setPassword`プレゼンテーションのパスワードを設定する方法。パスワードが設定されている場合、読み取り専用モードであっても、ユーザーはプレゼンテーションを開くためにパスワードを入力する必要があります。
+はい、Aspose.Slides for Javaを使用して、読み取り専用の推奨プレゼンテーションにパスワードを設定できます。 `setPassword` プレゼンテーションにパスワードを設定する方法。パスワードが設定されている場合、読み取り専用モードであっても、ユーザーはプレゼンテーションを開くためにパスワードを入力する必要があります。
 
 ```java
 pres.getProtectionManager().setPassword("YourPassword");
 ```
 
-交換を忘れないでください`"YourPassword"`ご希望のパスワードを入力してください。
+交換を忘れずに `"YourPassword"` ご希望のパスワードを入力してください。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

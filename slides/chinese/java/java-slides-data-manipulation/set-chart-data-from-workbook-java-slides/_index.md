@@ -1,22 +1,24 @@
 ---
-title: 在 Java Slides 中从工作簿设置图表数据
-linktitle: 在 Java Slides 中从工作簿设置图表数据
-second_title: Aspose.Slides Java PowerPoint 处理 API
-description: 了解如何使用 Aspose.Slides 在 Java Slides 中从 Excel 工作簿设置图表数据。带有动态演示代码示例的分步指南。
-weight: 15
-url: /zh/java/data-manipulation/set-chart-data-from-workbook-java-slides/
+"description": "学习如何使用 Aspose.Slides 在 Java Slides 中设置 Excel 工作簿中的图表数据。本指南包含动态演示文稿的代码示例，循序渐进。"
+"linktitle": "在 Java Slides 中从工作簿设置图表数据"
+"second_title": "Aspose.Slides Java PowerPoint 处理 API"
+"title": "在 Java Slides 中从工作簿设置图表数据"
+"url": "/zh/java/data-manipulation/set-chart-data-from-workbook-java-slides/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 在 Java Slides 中从工作簿设置图表数据
 
 
-## Java 幻灯片中从工作簿设置图表数据的简介
+## Java 幻灯片中从工作簿设置图表数据的介绍
 
-Aspose.Slides for Java 是一个功能强大的库，允许开发人员以编程方式处理 PowerPoint 演示文稿。它提供了用于创建、操作和管理 PowerPoint 幻灯片的广泛功能。处理演示文稿时的一个常见要求是从外部数据源（例如 Excel 工作簿）动态设置图表数据。在本教程中，我们将演示如何使用 Java 实现这一点。
+Aspose.Slides for Java 是一个功能强大的库，允许开发人员以编程方式处理 PowerPoint 演示文稿。它提供了丰富的功能，用于创建、操作和管理 PowerPoint 幻灯片。处理演示文稿时的一个常见需求是从外部数据源（例如 Excel 工作簿）动态设置图表数据。在本教程中，我们将演示如何使用 Java 实现此目的。
 
 ## 先决条件
 
@@ -35,15 +37,15 @@ Presentation pres = new Presentation();
 
 我们首先使用 Aspose.Slides for Java 创建一个新的 PowerPoint 演示文稿。
 
-## 步骤 2：添加图表
+## 第 2 步：添加图表
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 500, 400);
 ```
 
-接下来，我们在演示文稿的其中一张幻灯片中添加图表。在此示例中，我们添加的是饼图，但您可以选择适合您需求的图表类型。
+接下来，我们将在演示文稿的其中一张幻灯片中添加一个图表。在本例中，我们添加的是饼图，但您可以根据需要选择其他图表类型。
 
-## 步骤 3：清除图表数据
+## 步骤3：清除图表数据
 
 ```java
 chart.getChartData().getChartDataWorkbook().clear(0);
@@ -57,9 +59,9 @@ chart.getChartData().getChartDataWorkbook().clear(0);
 Workbook workbook = new Workbook("Your Document Directory";
 ```
 
-我们加载包含要用于图表的数据的 Excel 工作簿。替换`"book1.xlsx"`使用您的 Excel 文件的路径。
+我们加载包含要用于图表的数据的 Excel 工作簿。替换 `"book1.xlsx"` 以及您的 Excel 文件的路径。
 
-## 步骤 5：将工作簿流写入图表数据
+## 步骤5：将工作簿流写入图表数据
 
 ```java
 ByteArrayOutputStream mem = new ByteArrayOutputStream();
@@ -76,7 +78,7 @@ chart.getChartData().writeWorkbookStream(mem.toByteArray());
 chart.getChartData().setRange("Sheet2!$A$1:$B$3");
 ```
 
-我们从 Excel 工作簿中指定应用于图表数据的单元格范围。根据需要调整数据的范围。
+我们从 Excel 工作簿中指定要用作图表数据的单元格范围。请根据数据需要调整范围。
 
 ## 步骤 7：自定义图表系列
 
@@ -125,7 +127,7 @@ try {
 
 ## 结论
 
-在本教程中，我们学习了如何使用 Aspose.Slides for Java 库在 Java Slides 中从 Excel 工作簿设置图表数据。通过遵循分步指南并使用提供的源代码示例，您可以轻松地将动态图表数据集成到 PowerPoint 演示文稿中。
+在本教程中，我们学习了如何使用 Aspose.Slides for Java 库在 Java Slides 中设置 Excel 工作簿中的图表数据。通过遵循分步指南并使用提供的源代码示例，您可以轻松地将动态图表数据集成到 PowerPoint 演示文稿中。
 
 ## 常见问题解答
 
@@ -135,22 +137,24 @@ try {
 
 ### 我可以使用来自不同 Excel 文件的数据来制作图表吗？
 
-是的，您可以在代码中加载工作簿时指定正确的文件路径来使用任何 Excel 文件的数据。
+是的，您可以通过在代码中加载工作簿时指定正确的文件路径来使用任何 Excel 文件中的数据。
 
 ### 我可以使用 Aspose.Slides for Java 创建哪些其他类型的图表？
 
-Aspose.Slides for Java 支持多种图表类型，包括条形图、折线图、散点图等。您可以选择最适合您数据表示需求的图表类型。
+Aspose.Slides for Java 支持多种图表类型，包括条形图、折线图、散点图等。您可以选择最适合您数据呈现需求的图表类型。
 
 ### 是否可以在正在运行的演示文稿中动态更新图表数据？
 
-是的，您可以通过修改基础工作簿然后刷新图表数据来在演示文稿中动态更新图表数据。
+是的，您可以通过修改底层工作簿然后刷新图表数据来动态更新演示文稿中的图表数据。
 
 ### 在哪里可以找到更多使用 Aspose.Slides for Java 的示例和资源？
 
-您可以在[Aspose 网站](https://www.aspose.com/)。此外，Aspose.Slides for Java 文档提供了有关使用该库的全面指导。
+您可以在 [Aspose 网站](https://www.aspose.com/)。此外，Aspose.Slides for Java 文档提供了有关使用该库的全面指导。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

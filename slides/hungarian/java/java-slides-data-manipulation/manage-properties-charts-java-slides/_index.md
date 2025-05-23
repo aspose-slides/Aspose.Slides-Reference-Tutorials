@@ -1,78 +1,80 @@
 ---
-title: Tulajdonságdiagramok kezelése a Java Slides alkalmazásban
-linktitle: Tulajdonságdiagramok kezelése a Java Slides alkalmazásban
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Tanuljon meg lenyűgöző diagramokat készíteni és tulajdonságait kezelni a Java diákon az Aspose.Slides segítségével. Lépésről lépésre útmutató forráskóddal a hatékony prezentációkhoz.
-weight: 13
-url: /hu/java/data-manipulation/manage-properties-charts-java-slides/
+"description": "Tanulj meg lenyűgöző diagramokat készíteni és tulajdonságokat kezelni Java diákon az Aspose.Slides segítségével. Lépésről lépésre útmutató forráskóddal a hatékony prezentációkhoz."
+"linktitle": "Tulajdonságdiagramok kezelése Java diákban"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Tulajdonságdiagramok kezelése Java diákban"
+"url": "/hu/java/data-manipulation/manage-properties-charts-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tulajdonságdiagramok kezelése a Java Slides alkalmazásban
+# Tulajdonságdiagramok kezelése Java diákban
 
 
-## Bevezetés a Java Slides tulajdonságainak és diagramjainak kezelésébe az Aspose.Slides segítségével
+## Bevezetés a Java diák tulajdonságainak és diagramjainak kezelésébe az Aspose.Slides használatával
 
-Ebben az oktatóanyagban megvizsgáljuk, hogyan kezelhetünk tulajdonságokat és hozhatunk létre diagramokat Java diákon az Aspose.Slides segítségével. Az Aspose.Slides egy hatékony Java API a PowerPoint prezentációkkal való munkavégzéshez. Lépésről lépésre végigjárjuk a folyamatot, beleértve a forráskód példákat is.
+Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan kezelhetjük a tulajdonságokat és hozhatunk létre diagramokat Java diákon az Aspose.Slides használatával. Az Aspose.Slides egy hatékony Java API PowerPoint-bemutatókkal való munkához. Lépésről lépésre végigvezetjük a folyamaton, beleértve a forráskód példákat is.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy a Java Aspose.Slides könyvtára telepítve van és be van állítva a projektben. Letöltheti innen[itt](https://releases.aspose.com/slides/java/).
+Mielőtt elkezdenénk, győződjünk meg róla, hogy telepítve és beállítva van a projektedben az Aspose.Slides Java könyvtár. Letöltheted innen: [itt](https://releases.aspose.com/slides/java/).
 
-## Diagram hozzáadása a diához
+## Diagram hozzáadása diához
 
-Ha diagramot szeretne hozzáadni egy diához, kövesse az alábbi lépéseket:
+Diagram diához való hozzáadásához kövesse az alábbi lépéseket:
 
 1. Importálja a szükséges osztályokat, és hozzon létre egy példányt a Presentation osztályból.
 
 ```java
-// Hozzon létre egy példányt a Prezentáció osztályból
+// Hozz létre egy példányt a Presentation osztályból
 Presentation presentation = new Presentation();
 ```
 
-2. Nyissa meg azt a diát, amelyhez hozzá szeretné adni a diagramot. Ebben a példában elérjük az első diát.
+2. Nyissa meg azt a diát, amelyhez a diagramot hozzá szeretné adni. Ebben a példában az első diát tesszük közzé.
 
 ```java
-// Hozzáférés az első diához
+// Első dia elérése
 ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
-3. Adjon hozzá egy diagramot alapértelmezett adatokkal. Ebben az esetben egy StackedColumn3D diagramot adunk hozzá.
+3. Alapértelmezett adatokat tartalmazó diagram hozzáadása. Ebben az esetben egy StackedColumn3D diagramot adunk hozzá.
 
 ```java
 // Diagram hozzáadása alapértelmezett adatokkal
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn3D, 0, 0, 500, 500);
 ```
 
-## Diagramadatok beállítása
+## Táblázatadatok beállítása
 
-A diagramadatok beállításához létre kell hoznunk egy diagramadat-munkafüzetet, és hozzá kell adni sorozatokat és kategóriákat. Kovesd ezeket a lepeseket:
+A diagramadatok beállításához létre kell hoznunk egy diagramadatokkal foglalkozó munkafüzetet, és hozzá kell adnunk sorozatokat és kategóriákat. Kövesse az alábbi lépéseket:
 
-4. Állítsa be a diagram adatlap indexét.
+4. Állítsa be a diagram adatlapjának indexét.
 
 ```java
 // Diagram adatlap indexének beállítása
 int defaultWorksheetIndex = 0;
 ```
 
-5. Szerezze be a diagramadatok munkafüzetét.
+5. Szerezd meg a diagramadatokkal foglalkozó munkafüzetet.
 
 ```java
-// A diagram adatlapjának lekérése
+// A diagramadatok munkalapjának beszerzése
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
 
-6. Sorozat hozzáadása a diagramhoz. Ebben a példában két sorozatot adunk hozzá: „1. sorozat” és „2. sorozat”.
+6. Adatsorok hozzáadása a diagramhoz. Ebben a példában két adatsort adunk hozzá, „1. adatsor” és „2. adatsor” néven.
 
 ```java
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), chart.getType());
 ```
 
-7. Adjon hozzá kategóriákat a diagramhoz. Itt három kategóriát adunk hozzá.
+7. Kategóriák hozzáadása a diagramhoz. Itt három kategóriát adunk hozzá.
 
 ```java
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 1, 0, "Category 1"));
@@ -80,9 +82,9 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Category 3"));
 ```
 
-## A 3D elforgatás tulajdonságainak beállítása
+## 3D forgatási tulajdonságok beállítása
 
-Most állítsuk be a diagram 3D elforgatási tulajdonságait:
+Most állítsuk be a diagram 3D forgatási tulajdonságait:
 
 8. Állítsa be a derékszögű tengelyeket.
 
@@ -90,14 +92,14 @@ Most állítsuk be a diagram 3D elforgatási tulajdonságait:
 chart.getRotation3D().setRightAngleAxes(true);
 ```
 
-9. Állítsa be az X és Y tengely elforgatási szögeit. Ebben a példában X-et 40 fokkal, Y-t 270 fokkal elforgatjuk.
+9. Állítsa be az X és Y tengelyek elforgatási szögeit. Ebben a példában az X tengelyt 40 fokkal, az Y tengelyt pedig 270 fokkal forgatjuk el.
 
 ```java
 chart.getRotation3D().setRotationX((byte) 40);
 chart.getRotation3D().setRotationY(270);
 ```
 
-10. Állítsa a mélység százalékát 150-re.
+10. Állítsd a mélység százalékos értékét 150-re.
 
 ```java
 chart.getRotation3D().setDepthPercents(150);
@@ -105,7 +107,7 @@ chart.getRotation3D().setDepthPercents(150);
 
 ## Sorozatadatok feltöltése
 
-11. Vegyük a második diagramsorozatot, és töltsük fel adatpontokkal.
+11. Vegye a második diagramsorozatot, és töltse fel adatpontokkal.
 
 ```java
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
@@ -121,7 +123,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 
 ## Átfedés beállítása
 
-12. Állítsa be a sorozatok átfedési értékét. Például beállíthatja 100-ra, hogy ne legyen átfedés.
+12. Állítsa be az átfedés értékét a sorozatokhoz. Például 100-ra állíthatja, ha nincs átfedés.
 
 ```java
 series.getParentSeriesGroup().setOverlap((byte) 100);
@@ -129,51 +131,51 @@ series.getParentSeriesGroup().setOverlap((byte) 100);
 
 ## A prezentáció mentése
 
-Végül mentse a prezentációt lemezre.
+Végül mentse el a prezentációt lemezre.
 
 ```java
 presentation.save(dataDir + "Rotation3D_out.pptx", SaveFormat.Pptx);
 ```
 
-Ez az! Sikeresen létrehozott egy 3D halmozott oszlopdiagramot egyéni tulajdonságokkal a Java Aspose.Slides segítségével.
+Ez minden! Sikeresen létrehoztál egy 3D-s halmozott oszlopdiagramot egyéni tulajdonságokkal az Aspose.Slides használatával Java-ban.
 
-## A Java Slides tulajdonságai diagramjainak teljes forráskódja
+## Teljes forráskód a Java diákban található tulajdonságdiagramok kezeléséhez
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
 String dataDir = "Your Document Directory";
-// Hozzon létre egy példányt a Prezentáció osztályból
+// Hozz létre egy példányt a Presentation osztályból
 Presentation presentation = new Presentation();
-// Hozzáférés az első diához
+// Első dia elérése
 ISlide slide = presentation.getSlides().get_Item(0);
 // Diagram hozzáadása alapértelmezett adatokkal
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn3D, 0, 0, 500, 500);
 // Diagram adatlap indexének beállítása
 int defaultWorksheetIndex = 0;
-// A diagram adatlapjának lekérése
+// A diagramadatok munkalapjának beszerzése
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Sorozat hozzáadása
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), chart.getType());
-// Catgories hozzáadása
+// Kategóriák hozzáadása
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 1, 0, "Caetegoty 1"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 0, "Caetegoty 2"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
-// Állítsa be a Rotation3D tulajdonságait
+// Rotation3D tulajdonságok beállítása
 chart.getRotation3D().setRightAngleAxes(true);
 chart.getRotation3D().setRotationX((byte) 40);
 chart.getRotation3D().setRotationY(270);
 chart.getRotation3D().setDepthPercents(150);
 // Vegyük a második diagramsorozatot
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-// Most a sorozatadatok feltöltése
+// Most feltöltjük a sorozat adatait
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-// Állítsa be az OverLap értékét
+// Átfedés értékének beállítása
 series.getParentSeriesGroup().setOverlap((byte) 100);
 // Prezentáció írása lemezre
 presentation.save(dataDir + "Rotation3D_out.pptx", SaveFormat.Pptx);
@@ -181,32 +183,34 @@ presentation.save(dataDir + "Rotation3D_out.pptx", SaveFormat.Pptx);
 
 ## Következtetés
 
-Ebben az oktatóanyagban az Aspose.Slides segítségével elmélyültünk a tulajdonságok kezelésének és a Java diákon lévő diagramok létrehozásának világában. Az Aspose.Slides egy robusztus Java API, amely képessé teszi a fejlesztőket arra, hogy hatékonyan dolgozzanak PowerPoint prezentációkkal. Leírtuk az alapvető lépéseket, és forráskód-példákat mutattunk be, amelyek végigvezetik Önt a folyamaton.
+Ebben az oktatóanyagban elmélyedtünk a Java diák tulajdonságainak kezelésében és diagramok létrehozásában az Aspose.Slides használatával. Az Aspose.Slides egy robusztus Java API, amely lehetővé teszi a fejlesztők számára, hogy hatékonyan dolgozzanak PowerPoint prezentációkkal. Áttekintettük a lényeges lépéseket, és forráskódpéldákat is megadtunk, amelyek végigvezetnek a folyamaton.
 
 ## GYIK
 
 ### Hogyan tudom megváltoztatni a diagram típusát?
 
- A diagram típusát módosíthatja a`ChartType` paramétert a diagram hozzáadásakor. Az elérhető diagramtípusokat az Aspose.Slides dokumentációjában találja.
+A diagram típusát a következő módosításával módosíthatja: `ChartType` paramétert a diagram hozzáadásakor. Az elérhető diagramtípusokat lásd az Aspose.Slides dokumentációjában.
 
 ### Testreszabhatom a diagram színeit?
 
-Igen, testreszabhatja a diagram színeit a sorozat adatpontjainak vagy kategóriáinak kitöltési tulajdonságainak beállításával.
+Igen, testreszabhatja a diagram színeit az adatsorok adatpontjainak vagy kategóriáinak kitöltési tulajdonságainak beállításával.
 
-### Hogyan adhatok több adatpontot egy sorozathoz?
+### Hogyan adhatok hozzá több adatpontot egy sorozathoz?
 
- A sorozathoz további adatpontokat adhat hozzá a`series.getDataPoints().addDataPointForBarSeries()` metódussal és az adatértéket tartalmazó cella megadásával.
+További adatpontokat adhatsz hozzá egy sorozathoz a használatával `series.getDataPoints().addDataPointForBarSeries()` metódust, és megadja az adatértéket tartalmazó cellát.
 
-### Hogyan állíthatok be más elforgatási szöget?
+### Hogyan tudok más forgatási szöget beállítani?
 
- Az X és Y tengely eltérő elforgatási szögének beállításához használja a`chart.getRotation3D().setRotationX()` és`chart.getRotation3D().setRotationY()` a kívánt szögértékekkel.
+Az X és Y tengelyek eltérő forgatási szögének beállításához használja a `chart.getRotation3D().setRotationX()` és `chart.getRotation3D().setRotationY()` kívánt szögértékekkel.
 
-### Milyen további 3D tulajdonságokat szabhatok testre?
+### Milyen egyéb 3D tulajdonságokat testreszabhatok?
 
-Az Aspose.Slides dokumentációjában megtekintheti a diagram egyéb 3D tulajdonságait, például a mélységet, a perspektívát és a megvilágítást.
+A diagram egyéb 3D tulajdonságait, például a mélységet, a perspektívát és a megvilágítást az Aspose.Slides dokumentációjában tekintheti meg.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Wykres kołowy w slajdach Java
-linktitle: Wykres kołowy w slajdach Java
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Dowiedz się, jak tworzyć wspaniałe wykresy kołowe w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java. Przewodnik krok po kroku z kodem źródłowym dla programistów Java.
-weight: 23
-url: /pl/java/chart-data-manipulation/pie-chart-java-slides/
+"description": "Dowiedz się, jak tworzyć oszałamiające wykresy kołowe w prezentacjach PowerPoint przy użyciu Aspose.Slides dla Java. Przewodnik krok po kroku z kodem źródłowym dla programistów Java."
+"linktitle": "Wykres kołowy w slajdach Java"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Wykres kołowy w slajdach Java"
+"url": "/pl/java/chart-data-manipulation/pie-chart-java-slides/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wykres kołowy w slajdach Java
@@ -16,20 +18,20 @@ url: /pl/java/chart-data-manipulation/pie-chart-java-slides/
 
 ## Wprowadzenie do tworzenia wykresu kołowego w slajdach Java przy użyciu Aspose.Slides
 
-tym samouczku pokażemy, jak utworzyć wykres kołowy w prezentacji programu PowerPoint przy użyciu Aspose.Slides dla Java. Udostępnimy Ci instrukcje krok po kroku i kod źródłowy Java, które pomogą Ci rozpocząć. W tym przewodniku założono, że masz już skonfigurowane środowisko programistyczne z Aspose.Slides dla Java.
+W tym samouczku pokażemy, jak utworzyć wykres kołowy w prezentacji PowerPoint przy użyciu Aspose.Slides for Java. Udostępnimy instrukcje krok po kroku i kod źródłowy Java, aby pomóc Ci zacząć. Ten przewodnik zakłada, że skonfigurowałeś już środowisko programistyczne przy użyciu Aspose.Slides for Java.
 
-## Warunki wstępne
+## Wymagania wstępne
 
- Zanim zaczniesz, upewnij się, że masz zainstalowaną i skonfigurowaną bibliotekę Aspose.Slides for Java w swoim projekcie. Można go pobrać z[Tutaj](https://releases.aspose.com/slides/java/).
+Zanim zaczniesz, upewnij się, że biblioteka Aspose.Slides for Java jest zainstalowana i skonfigurowana w Twoim projekcie. Możesz ją pobrać ze strony [Tutaj](https://releases.aspose.com/slides/java/).
 
-## Krok 1: Zaimportuj wymagane biblioteki
+## Krok 1: Importuj wymagane biblioteki
 
 ```java
 import com.aspose.slides.*;
 import com.aspose.slides.charts.*;
 ```
 
-Pamiętaj, aby zaimportować niezbędne klasy z biblioteki Aspose.Slides.
+Pamiętaj o zaimportowaniu niezbędnych klas z biblioteki Aspose.Slides.
 
 ## Krok 2: Zainicjuj prezentację
 
@@ -37,11 +39,11 @@ Pamiętaj, aby zaimportować niezbędne klasy z biblioteki Aspose.Slides.
 // Ścieżka do katalogu dokumentów.
 String dataDir = "Your Document Directory";
 
-// Klasa prezentacji instancji reprezentująca plik PPTX
+// Utwórz klasę prezentacji reprezentującą plik PPTX
 Presentation presentation = new Presentation();
 ```
 
- Utwórz nowy obiekt prezentacji, który będzie reprezentował plik programu PowerPoint. Zastępować`"Your Document Directory"` z rzeczywistą ścieżką, w której chcesz zapisać prezentację.
+Utwórz nowy obiekt Prezentacja, aby reprezentować plik PowerPoint. Zastąp `"Your Document Directory"` z rzeczywistą ścieżką, pod którą chcesz zapisać prezentację.
 
 ## Krok 3: Dodaj slajd
 
@@ -50,16 +52,16 @@ Presentation presentation = new Presentation();
 ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
-Pobierz pierwszy slajd prezentacji, do którego chcesz dodać wykres kołowy.
+Wybierz pierwszy slajd prezentacji, do którego chcesz dodać wykres kołowy.
 
 ## Krok 4: Dodaj wykres kołowy
 
 ```java
-// Dodaj wykres kołowy z danymi domyślnymi
+// Dodaj wykres kołowy z domyślnymi danymi
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
-Dodaj wykres kołowy do slajdu w określonej pozycji i rozmiarze.
+Dodaj wykres kołowy do slajdu w określonym miejscu i rozmiarze.
 
 ## Krok 5: Ustaw tytuł wykresu
 
@@ -71,12 +73,12 @@ chart.getChartTitle().setHeight(20);
 chart.setTitle(true);
 ```
 
-Ustaw tytuł wykresu kołowego. Możesz dostosować tytuł według potrzeb.
+Ustaw tytuł dla wykresu kołowego. Możesz dostosować tytuł według potrzeb.
 
 ## Krok 6: Dostosuj dane wykresu
 
 ```java
-//Ustaw pierwszą serię tak, aby pokazywała wartości
+// Ustaw pierwszą serię tak, aby pokazywała wartości
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 
 // Ustawianie indeksu arkusza danych wykresu
@@ -103,7 +105,7 @@ series.getDataPoints().addDataPointForPieSeries(workbook.getCell(defaultWorkshee
 series.getDataPoints().addDataPointForPieSeries(workbook.getCell(defaultWorksheetIndex, 3, 1, 30));
 ```
 
-Dostosuj dane wykresu, dodając kategorie i serie oraz ustawiając ich wartości. W tym przykładzie mamy trzy kategorie i jedną serię z odpowiednimi punktami danych.
+Dostosuj dane wykresu, dodając kategorie i serie oraz ustawiając ich wartości. W tym przykładzie mamy trzy kategorie i jedną serię z odpowiadającymi im punktami danych.
 
 ## Krok 7: Dostosuj sektory wykresu kołowego
 
@@ -125,7 +127,7 @@ point1.getFormat().getLine().setDashStyle(LineDashStyle.DashDot);
 // Dostosuj inne sektory w podobny sposób
 ```
 
-Dostosuj wygląd każdego sektora na wykresie kołowym. Można zmieniać kolory, style obramowań i inne właściwości wizualne.
+Dostosuj wygląd każdego sektora na wykresie kołowym. Możesz zmienić kolory, style obramowania i inne właściwości wizualne.
 
 ## Krok 8: Dostosuj etykiety danych
 
@@ -142,7 +144,7 @@ Dostosuj etykiety danych dla każdego punktu danych na wykresie kołowym. Możes
 ## Krok 9: Pokaż linie odniesienia
 
 ```java
-// Pokaż linie odniesienia na wykresie
+// Pokaż linie odniesienia dla wykresu
 series.getLabels().getDefaultDataLabelFormat().setShowLeaderLines(true);
 ```
 
@@ -151,33 +153,33 @@ Włącz linie odniesienia, aby połączyć etykiety danych z odpowiadającymi im
 ## Krok 10: Ustaw kąt obrotu wykresu kołowego
 
 ```java
-// Ustaw kąt obrotu sektorów wykresu kołowego
+// Ustaw kąt obrotu dla sektorów wykresu kołowego
 chart.getChartData().getSeriesGroups().get_Item(0).setFirstSliceAngle(180);
 ```
 
-Ustaw kąt obrotu sektorów wykresu kołowego. W tym przykładzie ustawiliśmy go na 180 stopni.
+Ustaw kąt obrotu dla sektorów wykresu kołowego. W tym przykładzie ustawiliśmy go na 180 stopni.
 
 ## Krok 11: Zapisz prezentację
 
 ```java
-// Zapisz prezentację za pomocą wykresu kołowego
+// Zapisz prezentację z wykresem kołowym
 presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 ```
 
-Zapisz prezentację z wykresem kołowym we wskazanym katalogu.
+Zapisz prezentację z wykresem kołowym w określonym katalogu.
 
-## Kompletny kod źródłowy wykresu kołowego w slajdach Java
+## Kompletny kod źródłowy dla wykresu kołowego w slajdach Java
 
 ```java
 // Ścieżka do katalogu dokumentów.
 String dataDir = "Your Document Directory";
-// Klasa prezentacji instancji reprezentująca plik PPTX
+// Utwórz klasę prezentacji reprezentującą plik PPTX
 Presentation presentation = new Presentation();
-// Uzyskaj dostęp do pierwszego slajdu
+// Dostęp do pierwszego slajdu
 ISlide slides = presentation.getSlides().get_Item(0);
-// Dodaj wykres z danymi domyślnymi
+// Dodaj wykres z domyślnymi danymi
 IChart chart = slides.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
-// Tytuł tabeli ustawień
+// Ustawienie tytułu wykresu
 chart.getChartTitle().addTextFrameForOverriding("Sample Title");
 chart.getChartTitle().getTextFrameForOverriding().getTextFrameFormat().setCenterText(NullableBool.True);
 chart.getChartTitle().setHeight(20);
@@ -197,13 +199,13 @@ chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 // Dodawanie nowej serii
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-// Teraz wypełniam dane serii
+// Teraz wypełniamy dane serii
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 // Nie działa w nowej wersji
 // Dodawanie nowych punktów i ustawianie koloru sektora
-// seria.IsColorVaried = true;
+// series.IsColorVaried = prawda;
 chart.getChartData().getSeriesGroups().get_Item(0).setColorVaried(true);
 IChartDataPoint point = series.getDataPoints().get_Item(0);
 point.getFormat().getFill().setFillType(FillType.Solid);
@@ -232,7 +234,7 @@ point2.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.
 point2.getFormat().getLine().setWidth(2.0);
 point2.getFormat().getLine().setStyle(LineStyle.ThinThin);
 point2.getFormat().getLine().setDashStyle(LineDashStyle.LargeDashDotDot);
-// Twórz niestandardowe etykiety dla każdej kategorii dla nowej serii
+// Utwórz niestandardowe etykiety dla każdej kategorii dla nowych serii
 IDataLabel lbl1 = series.getDataPoints().get_Item(0).getLabel();
 // lbl.setShowCategoryName(true);
 lbl1.getDataLabelFormat().setShowValue(true);
@@ -243,7 +245,7 @@ lbl2.getDataLabelFormat().setShowPercentage(true);
 IDataLabel lbl3 = series.getDataPoints().get_Item(2).getLabel();
 lbl3.getDataLabelFormat().setShowSeriesName(true);
 lbl3.getDataLabelFormat().setShowPercentage(true);
-// Pokazywanie linii odniesienia dla wykresu
+// Wyświetlanie linii wiodących dla wykresu
 series.getLabels().getDefaultDataLabelFormat().setShowLeaderLines(true);
 // Ustawianie kąta obrotu dla sektorów wykresu kołowego
 chart.getChartData().getSeriesGroups().get_Item(0).setFirstSliceAngle(180);
@@ -253,45 +255,47 @@ presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 
 ## Wniosek
 
-Pomyślnie utworzyłeś wykres kołowy w prezentacji programu PowerPoint przy użyciu Aspose.Slides for Java. Możesz dostosować wygląd wykresu i etykiety danych zgodnie ze swoimi konkretnymi wymaganiami. W tym samouczku przedstawiono podstawowy przykład, dzięki któremu możesz w razie potrzeby ulepszyć i dostosować swoje wykresy.
+Udało Ci się utworzyć wykres kołowy w prezentacji PowerPoint przy użyciu Aspose.Slides for Java. Możesz dostosować wygląd wykresu i etykiety danych zgodnie ze swoimi konkretnymi wymaganiami. Ten samouczek zawiera podstawowy przykład, a Ty możesz dalej ulepszać i dostosowywać swoje wykresy według potrzeb.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
 ### Jak mogę zmienić kolory poszczególnych sektorów na wykresie kołowym?
 
- Aby zmienić kolory poszczególnych sektorów na wykresie kołowym, możesz dostosować kolor wypełnienia każdego punktu danych. W podanym przykładzie kodu zademonstrowaliśmy, jak ustawić kolor wypełnienia dla każdego sektora za pomocą`getSolidFillColor().setColor()` metoda. Możesz modyfikować wartości kolorów, aby uzyskać pożądany wygląd.
+Aby zmienić kolory poszczególnych sektorów na wykresie kołowym, możesz dostosować kolor wypełnienia dla każdego punktu danych. W podanym przykładzie kodu pokazaliśmy, jak ustawić kolor wypełnienia dla każdego sektora za pomocą `getSolidFillColor().setColor()` metoda. Możesz modyfikować wartości kolorów, aby uzyskać pożądany wygląd.
 
 ### Czy mogę dodać więcej kategorii i serii danych do wykresu kołowego?
 
- Tak, możesz dodać dodatkowe kategorie i serie danych do wykresu kołowego. Aby to zrobić, możesz użyć`getChartData().getCategories().add()` I`getChartData().getSeries().add()` metody, jak pokazano w przykładzie. Aby rozwinąć wykres, wystarczy podać odpowiednie dane i etykiety dla nowych kategorii i serii.
+Tak, możesz dodać dodatkowe kategorie i serie danych do wykresu kołowego. Aby to zrobić, możesz użyć `getChartData().getCategories().add()` I `getChartData().getSeries().add()` metody, jak pokazano w przykładzie. Po prostu podaj odpowiednie dane i etykiety dla nowych kategorii i serii, aby rozszerzyć wykres.
 
 ### Jak dostosować wygląd etykiet danych?
 
- Możesz dostosować wygląd etykiet danych za pomocą`getDataLabelFormat()` metodę na etykiecie każdego punktu danych. W przykładzie pokazaliśmy, jak wyświetlić wartość na etykietach danych za pomocą`getDataLabelFormat().setShowValue(true)`. Możesz dodatkowo dostosować etykiety danych, kontrolując wyświetlane wartości, wyświetlając klucze legendy i dostosowując inne opcje formatowania.
+Możesz dostosować wygląd etykiet danych za pomocą `getDataLabelFormat()` metoda na etykiecie każdego punktu danych. W tym przykładzie pokazaliśmy, jak pokazać wartość na etykietach danych, używając `getDataLabelFormat().setShowValue(true)`Możesz dodatkowo dostosować etykiety danych, kontrolując, które wartości są wyświetlane, pokazując klucze legendy i dostosowując inne opcje formatowania.
 
 ### Czy mogę zmienić tytuł wykresu kołowego?
 
- Tak, możesz zmienić tytuł wykresu kołowego. W dostarczonym kodzie tytuł wykresu ustalamy za pomocą`chart.getChartTitle().addTextFrameForOverriding("Sample Title")` . Możesz wymienić`"Sample Title"` z wybranym tekstem tytułu.
+Tak, możesz zmienić tytuł wykresu kołowego. W podanym kodzie ustawiliśmy tytuł wykresu za pomocą `chart.getChartTitle().addTextFrameForOverriding("Sample Title")`. Możesz zastąpić `"Sample Title"` z wybranym przez Ciebie tytułem.
 
 ### Jak zapisać wygenerowaną prezentację z wykresem kołowym?
 
- Aby zapisać prezentację z wykresem kołowym, użyj opcji`presentation.save()` metoda. Podaj żądaną ścieżkę i nazwę pliku wraz z formatem, w jakim chcesz zapisać prezentację. Na przykład:
+Aby zapisać prezentację z wykresem kołowym, użyj `presentation.save()` metoda. Podaj żądaną ścieżkę i nazwę pliku wraz z formatem, w którym chcesz zapisać prezentację. Na przykład:
 ```java
 presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 ```
 
-Upewnij się, że podałeś poprawną ścieżkę i format pliku.
+Upewnij się, że podałeś prawidłową ścieżkę do pliku i format.
 
-### Czy mogę tworzyć inne typy wykresów za pomocą Aspose.Slides for Java?
+### Czy mogę tworzyć inne typy wykresów za pomocą Aspose.Slides dla Java?
 
-Tak, Aspose.Slides for Java obsługuje różne typy wykresów, w tym wykresy słupkowe, wykresy liniowe i inne. Można tworzyć różne typy wykresów, zmieniając`ChartType` podczas dodawania wykresu. Więcej szczegółów na temat tworzenia różnych typów wykresów można znaleźć w dokumentacji Aspose.Slides.
+Tak, Aspose.Slides dla Java obsługuje różne typy wykresów, w tym wykresy słupkowe, wykresy liniowe i inne. Możesz tworzyć różne typy wykresów, zmieniając `ChartType` podczas dodawania wykresu. Zapoznaj się z dokumentacją Aspose.Slides, aby uzyskać więcej szczegółów na temat tworzenia różnych typów wykresów.
 
-### Jak mogę znaleźć więcej informacji i przykładów pracy z Aspose.Slides dla Java?
+### Gdzie mogę znaleźć więcej informacji i przykładów dotyczących pracy z Aspose.Slides dla Java?
 
- Więcej informacji, szczegółową dokumentację i dodatkowe przykłady można znaleźć na stronie[Aspose.Slides dla dokumentacji Java](https://reference.aspose.com/slides/java/). Zawiera wszechstronne zasoby ułatwiające efektywne korzystanie z biblioteki.
+Aby uzyskać więcej informacji, szczegółową dokumentację i dodatkowe przykłady, odwiedź stronę [Aspose.Slides dla dokumentacji Java](https://reference.aspose.com/slides/java/). Zawiera kompleksowe zasoby, które pomogą Ci efektywnie korzystać z biblioteki.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

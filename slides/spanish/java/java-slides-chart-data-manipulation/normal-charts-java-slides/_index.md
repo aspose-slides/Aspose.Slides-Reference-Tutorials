@@ -1,45 +1,47 @@
 ---
-title: Gráficos normales en diapositivas de Java
-linktitle: Gráficos normales en diapositivas de Java
-second_title: Aspose.Slides API de procesamiento de PowerPoint Java
-description: Cree gráficos normales en diapositivas de Java con Aspose.Slides para Java. Guía paso a paso y código fuente para crear, personalizar y guardar gráficos en presentaciones de PowerPoint.
-weight: 21
-url: /es/java/chart-data-manipulation/normal-charts-java-slides/
+"description": "Cree gráficos normales en presentaciones de Java con Aspose.Slides para Java. Guía paso a paso y código fuente para crear, personalizar y guardar gráficos en presentaciones de PowerPoint."
+"linktitle": "Diapositivas sobre gráficos normales en Java"
+"second_title": "API de procesamiento de PowerPoint en Java de Aspose.Slides"
+"title": "Diapositivas sobre gráficos normales en Java"
+"url": "/es/java/chart-data-manipulation/normal-charts-java-slides/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Gráficos normales en diapositivas de Java
+# Diapositivas sobre gráficos normales en Java
 
 
-## Introducción a los gráficos normales en diapositivas de Java
+## Diapositivas de introducción a los gráficos normales en Java
 
-En este tutorial, recorreremos el proceso de creación de gráficos normales en Java Slides utilizando la API Aspose.Slides para Java. Usaremos instrucciones paso a paso junto con el código fuente para demostrar cómo crear un gráfico de columnas agrupadas en una presentación de PowerPoint.
+En este tutorial, explicaremos el proceso de creación de gráficos normales en Java Slides mediante la API de Aspose.Slides para Java. Utilizaremos instrucciones paso a paso y el código fuente para demostrar cómo crear un gráfico de columnas agrupadas en una presentación de PowerPoint.
 
-## Requisitos previos
+## Prerrequisitos
 
-Antes de comenzar, asegúrese de cumplir con los siguientes requisitos previos:
+Antes de comenzar, asegúrese de tener los siguientes requisitos previos:
 
-1. Aspose.Slides para la API de Java instalada.
+1. Aspose.Slides para API de Java instalada.
 2. Un entorno de desarrollo Java configurado.
 3. Conocimientos básicos de programación Java.
 
-## Paso 1: configurar el proyecto
+## Paso 1: Configuración del proyecto
 
-Asegúrese de tener un directorio para su proyecto. Llamémoslo "Su directorio de documentos" como se menciona en el código. Puede reemplazar esto con la ruta real al directorio de su proyecto.
+Asegúrate de tener un directorio para tu proyecto. Lo llamaremos "Tu directorio de documentos", como se menciona en el código. Puedes reemplazarlo con la ruta real del directorio de tu proyecto.
 
 ```java
 // La ruta al directorio de documentos.
 String dataDir = "Your Document Directory";
-// Cree un directorio si aún no está presente.
+// Crear directorio si aún no está presente.
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
     new File(dataDir).mkdirs();
 ```
 
-## Paso 2: crear una presentación
+## Paso 2: Crear una presentación
 
 Ahora, creemos una presentación de PowerPoint y accedamos a su primera diapositiva.
 
@@ -50,7 +52,7 @@ Presentation pres = new Presentation();
 ISlide sld = pres.getSlides().get_Item(0);
 ```
 
-## Paso 3: agregar un gráfico
+## Paso 3: Agregar un gráfico
 
 Agregaremos un gráfico de columnas agrupadas a la diapositiva y estableceremos su título.
 
@@ -64,12 +66,12 @@ chart.getChartTitle().setHeight(20);
 chart.setTitle(true);
 ```
 
-## Paso 4: configurar los datos del gráfico
+## Paso 4: Configuración de los datos del gráfico
 
 A continuación, configuraremos los datos del gráfico definiendo series y categorías.
 
 ```java
-// Establecer la primera serie para Mostrar valores
+// Establecer la primera serie en Mostrar valores
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 
 // Configuración del índice de la hoja de datos del gráfico
@@ -86,43 +88,43 @@ chart.getChartData().getCategories().clear();
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), chart.getType());
 
-// Agregar nuevas categorías
+// Añadiendo nuevas categorías
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 1, 0, "Category 1"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 0, "Category 2"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Category 3"));
 ```
 
-## Paso 5: completar los datos de la serie
+## Paso 5: Rellenar los datos de la serie
 
-Ahora, completemos los puntos de datos de la serie para el gráfico.
+Ahora, vamos a completar los puntos de datos de la serie para el gráfico.
 
 ```java
 // Tome la primera serie de gráficos
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 
-// Poblar datos de series
+// Población de datos de series
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
-// Configurar el color de relleno para la serie
+// Configuración del color de relleno para la serie
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 
 // Tome la segunda serie de gráficos
 series = chart.getChartData().getSeries().get_Item(1);
 
-// Poblar datos de series
+// Población de datos de series
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
 
-// Configurar el color de relleno para la serie
+// Configuración del color de relleno para la serie
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 ```
 
-## Paso 6: Personalizar etiquetas
+## Paso 6: Personalización de etiquetas
 
 Personalicemos las etiquetas de datos para la serie de gráficos.
 
@@ -134,29 +136,29 @@ lbl.getDataLabelFormat().setShowCategoryName(true);
 lbl = series.getDataPoints().get_Item(1).getLabel();
 lbl.getDataLabelFormat().setShowSeriesName(true);
 
-// Mostrar valor para la tercera etiqueta con nombre de serie y separador
+// Mostrar el valor de la tercera etiqueta con el nombre de la serie y el separador
 lbl = series.getDataPoints().get_Item(2).getLabel();
 lbl.getDataLabelFormat().setShowValue(true);
 lbl.getDataLabelFormat().setShowSeriesName(true);
 lbl.getDataLabelFormat().setSeparator("/");
 ```
 
-## Paso 7: guardar la presentación
+## Paso 7: Guardar la presentación
 
-Finalmente, guarde la presentación con el gráfico en el directorio de su proyecto.
+Por último, guarde la presentación con el gráfico en el directorio de su proyecto.
 
 ```java
 pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
 
-¡Eso es todo! Ha creado con éxito un gráfico de columnas agrupadas en una presentación de PowerPoint utilizando Aspose.Slides para Java. Puede personalizar aún más este gráfico según sus requisitos.
+¡Listo! Has creado correctamente un gráfico de columnas agrupadas en una presentación de PowerPoint con Aspose.Slides para Java. Puedes personalizarlo aún más según tus necesidades.
 
 ## Código fuente completo para gráficos normales en diapositivas de Java
 
 ```java
 // La ruta al directorio de documentos.
 String dataDir = "Your Document Directory";
-// Cree un directorio si aún no está presente.
+// Crear directorio si aún no está presente.
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
 	new File(dataDir).mkdirs();
@@ -172,7 +174,7 @@ chart.getChartTitle().addTextFrameForOverriding("Sample Title");
 chart.getChartTitle().getTextFrameForOverriding().getTextFrameFormat().setCenterText(NullableBool.True);
 chart.getChartTitle().setHeight(20);
 chart.setTitle(true);
-// Establecer la primera serie para Mostrar valores
+// Establecer la primera serie en Mostrar valores
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 // Configuración del índice de la hoja de datos del gráfico
 int defaultWorksheetIndex = 0;
@@ -186,26 +188,26 @@ s = chart.getChartData().getCategories().size();
 // Añadiendo nueva serie
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), chart.getType());
-// Agregar nuevas categorías
+// Añadiendo nuevas categorías
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 1, 0, "Caetegoty 1"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 0, "Caetegoty 2"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 // Tome la primera serie de gráficos
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-// Ahora completando datos de series
+// Ahora se están rellenando los datos de la serie
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
-// Configurar el color de relleno para la serie
+// Configuración del color de relleno para la serie
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 // Tome la segunda serie de gráficos
 series = chart.getChartData().getSeries().get_Item(1);
-// Ahora completando datos de series
+// Ahora se están rellenando los datos de la serie
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-// Configurar el color de relleno para la serie
+// Configuración del color de relleno para la serie
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 // La primera etiqueta mostrará el nombre de la categoría.
@@ -223,32 +225,34 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
 # Conclusión
 
-En este tutorial, hemos aprendido cómo crear gráficos normales en Java Slides usando la API Aspose.Slides para Java. Recorrimos una guía paso a paso con código fuente para crear un gráfico de columnas agrupadas en una presentación de PowerPoint.
+En este tutorial, aprendimos a crear gráficos normales en Java Slides usando la API de Aspose.Slides para Java. Recorrimos una guía paso a paso con código fuente para crear un gráfico de columnas agrupadas en una presentación de PowerPoint.
 
 ## Preguntas frecuentes
 
 ### ¿Cómo puedo cambiar el tipo de gráfico?
 
- Para cambiar el tipo de gráfico, modifique el`ChartType`parámetro al agregar el gráfico usando`sld.getShapes().addChart()`. Puede elegir entre varios tipos de gráficos disponibles en Aspose.Slides.
+Para cambiar el tipo de gráfico, modifique el `ChartType` parámetro al agregar el gráfico usando `sld.getShapes().addChart()`Puede elegir entre varios tipos de gráficos disponibles en Aspose.Slides.
 
 ### ¿Puedo cambiar los colores de la serie de gráficos?
 
- Sí, puede cambiar los colores de la serie de gráficos configurando el color de relleno para cada serie usando`series.getFormat().getFill().getSolidFillColor().setColor(Color.YOUR_COLOR)`.
+Sí, puede cambiar los colores de las series de gráficos configurando el color de relleno para cada serie usando `series.getFormat().getFill().getSolidFillColor().setColor(Color.YOUR_COLOR)`.
 
-### ¿Cómo agrego más categorías o series al gráfico?
+### ¿Cómo puedo agregar más categorías o series al gráfico?
 
- Puede agregar más categorías o series al gráfico agregando nuevos puntos de datos y etiquetas usando el`chart.getChartData().getCategories().add()` y`chart.getChartData().getSeries().add()` métodos.
+Puede agregar más categorías o series al gráfico agregando nuevos puntos de datos y etiquetas mediante el `chart.getChartData().getCategories().add()` y `chart.getChartData().getSeries().add()` métodos.
 
 ### ¿Cómo puedo personalizar aún más el título del gráfico?
 
- Puede personalizar aún más el título del gráfico modificando las propiedades de`chart.getChartTitle()` como la alineación del texto, el tamaño de fuente y el color.
+Puede personalizar aún más el título del gráfico modificando las propiedades de `chart.getChartTitle()` como la alineación del texto, el tamaño de fuente y el color.
 
 ### ¿Cómo guardo el gráfico en un formato de archivo diferente?
 
- Para guardar el gráfico en un formato de archivo diferente, cambie el`SaveFormat` parámetro en el`pres.save()` método al formato deseado (por ejemplo, PDF, PNG, JPEG).
+Para guardar el gráfico en un formato de archivo diferente, cambie el `SaveFormat` parámetro en el `pres.save()` método al formato deseado (por ejemplo, PDF, PNG, JPEG).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

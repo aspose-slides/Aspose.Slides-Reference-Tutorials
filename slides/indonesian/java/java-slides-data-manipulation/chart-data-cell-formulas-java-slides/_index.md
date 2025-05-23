@@ -1,26 +1,28 @@
 ---
-title: Bagan Rumus Sel Data di Slide Java
-linktitle: Bagan Rumus Sel Data di Slide Java
-second_title: Aspose.Slides API Pemrosesan Java PowerPoint
-description: Pelajari cara mengatur rumus sel data bagan dalam presentasi Java PowerPoint menggunakan Aspose.Slides untuk Java. Buat bagan dinamis dengan rumus.
-weight: 11
-url: /id/java/data-manipulation/chart-data-cell-formulas-java-slides/
+"description": "Pelajari cara mengatur rumus sel data bagan dalam presentasi PowerPoint Java menggunakan Aspose.Slides untuk Java. Buat bagan dinamis dengan rumus."
+"linktitle": "Rumus Sel Data Bagan di Slide Java"
+"second_title": "API Pemrosesan PowerPoint Java Aspose.Slides"
+"title": "Rumus Sel Data Bagan di Slide Java"
+"url": "/id/java/data-manipulation/chart-data-cell-formulas-java-slides/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Bagan Rumus Sel Data di Slide Java
+# Rumus Sel Data Bagan di Slide Java
 
 
-## Pengantar Rumus Sel Data Bagan di Aspose.Slide untuk Java
+## Pengenalan Rumus Sel Data Bagan di Aspose.Slides untuk Java
 
-Dalam tutorial ini, kita akan mempelajari cara bekerja dengan rumus sel data bagan menggunakan Aspose.Slides untuk Java. Dengan Aspose.Slides, Anda bisa membuat dan memanipulasi bagan dalam presentasi PowerPoint, termasuk mengatur rumus untuk sel data.
+Dalam tutorial ini, kita akan mempelajari cara bekerja dengan rumus sel data bagan menggunakan Aspose.Slides untuk Java. Dengan Aspose.Slides, Anda dapat membuat dan memanipulasi bagan dalam presentasi PowerPoint, termasuk pengaturan rumus untuk sel data.
 
 ## Prasyarat
 
- Sebelum memulai, pastikan Anda telah menginstal pustaka Aspose.Slides untuk Java. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/slides/java/).
+Sebelum memulai, pastikan Anda telah menginstal pustaka Aspose.Slides for Java. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/slides/java/).
 
 ## Langkah 1: Buat Presentasi PowerPoint
 
@@ -49,9 +51,9 @@ finally
 }
 ```
 
-## Langkah 2: Tetapkan Rumus untuk Sel Data
+## Langkah 2: Mengatur Rumus untuk Sel Data
 
-Sekarang, mari kita tetapkan rumus untuk sel data tertentu di bagan. Dalam contoh ini, kita akan menetapkan rumus untuk dua sel berbeda.
+Sekarang, mari kita tetapkan rumus untuk sel data tertentu dalam bagan. Dalam contoh ini, kita akan menetapkan rumus untuk dua sel yang berbeda.
 
 ### Sel 1: Menggunakan Notasi A1
 
@@ -60,7 +62,7 @@ IChartDataCell cell1 = workbook.getCell(0, "B2");
 cell1.setFormula("1 + SUM(F2:H5)");
 ```
 
-Pada kode di atas, kita menetapkan rumus untuk sel B2 menggunakan notasi A1. Rumusnya menghitung jumlah sel F2 hingga H5 dan menambahkan 1 pada hasilnya.
+Pada kode di atas, kami menetapkan rumus untuk sel B2 menggunakan notasi A1. Rumus tersebut menghitung jumlah sel F2 hingga H5 dan menambahkan 1 ke hasilnya.
 
 ### Sel 2: Menggunakan Notasi R1C1
 
@@ -69,11 +71,11 @@ IChartDataCell cell2 = workbook.getCell(0, "C2");
 cell2.setR1C1Formula("MAX(R2C6:R5C8) / 3");
 ```
 
-Di sini, kita menetapkan rumus untuk sel C2 menggunakan notasi R1C1. Rumusnya menghitung nilai maksimum dalam rentang R2C6 hingga R5C8 lalu membaginya dengan 3.
+Di sini, kami menetapkan rumus untuk sel C2 menggunakan notasi R1C1. Rumus tersebut menghitung nilai maksimum dalam rentang R2C6 hingga R5C8, lalu membaginya dengan 3.
 
 ## Langkah 3: Hitung Rumus
 
-Setelah mengatur rumus, penting untuk menghitungnya menggunakan kode berikut:
+Setelah menetapkan rumus, penting untuk menghitungnya menggunakan kode berikut:
 
 ```java
 workbook.calculateFormulas();
@@ -83,13 +85,13 @@ Langkah ini memastikan bahwa bagan mencerminkan nilai yang diperbarui berdasarka
 
 ## Langkah 4: Simpan Presentasi
 
-Terakhir, simpan presentasi yang dimodifikasi ke file.
+Terakhir, simpan presentasi yang sudah dimodifikasi ke sebuah berkas.
 
 ```java
 presentation.save(outpptxFile, SaveFormat.Pptx);
 ```
 
-## Kode Sumber Lengkap Untuk Rumus Sel Data Bagan di Slide Java
+## Source Code Lengkap Rumus Sel Data Grafik di Java Slides
 
 ```java
 String outpptxFile = "Your Output Directory" + File.pathSeparator + "ChartDataCell_Formulas_out.pptx";
@@ -113,24 +115,26 @@ finally
 
 ## Kesimpulan
 
-Dalam tutorial ini, kita telah menjelajahi cara bekerja dengan rumus sel data bagan di Aspose.Slides untuk Java. Kita telah membahas pembuatan presentasi PowerPoint, menambahkan bagan, mengatur rumus untuk sel data, menghitung rumus, dan menyimpan presentasi. Anda sekarang dapat memanfaatkan kemampuan ini untuk membuat bagan dinamis dan berdasarkan data dalam presentasi Anda.
+Dalam tutorial ini, kami telah mempelajari cara bekerja dengan rumus sel data bagan di Aspose.Slides untuk Java. Kami telah membahas cara membuat presentasi PowerPoint, menambahkan bagan, menetapkan rumus untuk sel data, menghitung rumus, dan menyimpan presentasi. Kini Anda dapat memanfaatkan kemampuan ini untuk membuat bagan yang dinamis dan berbasis data dalam presentasi Anda.
 
-## FAQ
+## Tanya Jawab Umum
 
 ### Bagaimana cara menambahkan bagan ke slide tertentu?
 
- Untuk menambahkan bagan ke slide tertentu, Anda dapat menggunakan`getSlides().get_Item(slideIndex)` metode untuk mengakses slide yang diinginkan, lalu gunakan`addChart` metode untuk menambahkan grafik.
+Untuk menambahkan grafik ke slide tertentu, Anda dapat menggunakan `getSlides().get_Item(slideIndex)` metode untuk mengakses slide yang diinginkan, lalu gunakan `addChart` metode untuk menambahkan bagan.
 
-### Bisakah saya menggunakan tipe rumus berbeda di sel data?
+### Dapatkah saya menggunakan berbagai jenis rumus dalam sel data?
 
-Ya, Anda bisa menggunakan berbagai tipe rumus, termasuk operasi matematika, fungsi, dan referensi ke sel lain, dalam rumus sel data.
+Ya, Anda dapat menggunakan berbagai jenis rumus, termasuk operasi matematika, fungsi, dan referensi ke sel lain, dalam rumus sel data.
 
 ### Bagaimana cara mengubah jenis grafik?
 
- Anda dapat mengubah jenis bagan dengan menggunakan`setChartType` metode pada`IChart` objek dan menentukan yang diinginkan`ChartType`.
+Anda dapat mengubah jenis grafik dengan menggunakan `setChartType` metode pada `IChart` objek dan menentukan yang diinginkan `ChartType`.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

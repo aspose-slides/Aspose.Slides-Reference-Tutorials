@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में मानचित्र चार्ट
-linktitle: जावा स्लाइड्स में मानचित्र चार्ट
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java के साथ PowerPoint प्रस्तुतियों में शानदार मानचित्र चार्ट बनाएँ। Java डेवलपर्स के लिए चरण-दर-चरण मार्गदर्शिका और स्रोत कोड।
-weight: 15
-url: /hi/java/chart-elements/map-chart-java-slides/
+"description": "Aspose.Slides for Java के साथ PowerPoint प्रस्तुतियों में शानदार मानचित्र चार्ट बनाएँ। Java डेवलपर्स के लिए चरण-दर-चरण मार्गदर्शिका और स्रोत कोड।"
+"linktitle": "जावा स्लाइड्स में मानचित्र चार्ट"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में मानचित्र चार्ट"
+"url": "/hi/java/chart-elements/map-chart-java-slides/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में मानचित्र चार्ट
@@ -20,7 +22,7 @@ url: /hi/java/chart-elements/map-chart-java-slides/
 
 ## आवश्यक शर्तें
 
- शुरू करने से पहले, सुनिश्चित करें कि आपके पास Aspose.Slides for Java लाइब्रेरी आपके Java प्रोजेक्ट में एकीकृत है। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+शुरू करने से पहले, सुनिश्चित करें कि आपके पास Aspose.Slides for Java लाइब्रेरी आपके Java प्रोजेक्ट में एकीकृत है। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 
 ## चरण 1: अपना प्रोजेक्ट सेट करें
 
@@ -76,7 +78,7 @@ dataPoint.getFormat().getFill().setFillType(FillType.Solid);
 dataPoint.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 ```
 
-## चरण 7: प्रेजेंटेशन सहेजें
+## चरण 7: प्रस्तुति सहेजें
 
 अंत में, मानचित्र चार्ट के साथ प्रस्तुति को सहेजें।
 
@@ -124,22 +126,24 @@ try {
 
 ### मैं मानचित्र चार्ट प्रकार कैसे बदल सकता हूँ?
 
- आप चार्ट प्रकार को बदलकर बदल सकते हैं`ChartType.Map` चरण 3 में चार्ट बनाते समय इच्छित चार्ट प्रकार का चयन करें।
+आप चार्ट प्रकार को प्रतिस्थापित करके बदल सकते हैं `ChartType.Map` चरण 3 में चार्ट बनाते समय इच्छित चार्ट प्रकार का चयन करें।
 
 ### मैं मानचित्र चार्ट के स्वरूप को कैसे अनुकूलित कर सकता हूँ?
 
- आप चार्ट के गुणों को संशोधित करके उसके स्वरूप को अनुकूलित कर सकते हैं`dataPoint` चरण 6 में ऑब्जेक्ट बदलें। आप रंग, मान और बहुत कुछ बदल सकते हैं।
+आप चार्ट के गुणों को संशोधित करके उसके स्वरूप को अनुकूलित कर सकते हैं `dataPoint` चरण 6 में ऑब्जेक्ट बदलें। आप रंग, मान और बहुत कुछ बदल सकते हैं।
 
 ### क्या मैं अधिक डेटा बिंदु और श्रेणियां जोड़ सकता हूं?
 
- हां, आप आवश्यकतानुसार जितने चाहें उतने डेटा पॉइंट और श्रेणियां जोड़ सकते हैं। बस का उपयोग करें`series.getDataPoints().addDataPointForMapSeries()` और`chart.getChartData().getCategories().add()` उन्हें जोड़ने के तरीके.
+हां, आप आवश्यकतानुसार जितने चाहें उतने डेटा पॉइंट और श्रेणियां जोड़ सकते हैं। बस का उपयोग करें `series.getDataPoints().addDataPointForMapSeries()` और `chart.getChartData().getCategories().add()` उन्हें जोड़ने के तरीके.
 
 ### मैं अपने प्रोजेक्ट में Aspose.Slides for Java को कैसे एकीकृत करूं?
 
- लाइब्रेरी को यहां से डाउनलोड करें[यहाँ](https://releases.aspose.com/slides/java/) और इसे अपने प्रोजेक्ट के क्लासपाथ में जोड़ें।
+लाइब्रेरी को यहां से डाउनलोड करें [यहाँ](https://releases.aspose.com/slides/java/) और इसे अपने प्रोजेक्ट के क्लासपाथ में जोड़ें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

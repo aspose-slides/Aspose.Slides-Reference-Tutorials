@@ -1,14 +1,16 @@
 ---
-title: एम्बेडेड फ़ॉन्ट्स के साथ प्रस्तुतियों को HTML में बदलें
-linktitle: एम्बेडेड फ़ॉन्ट्स के साथ प्रस्तुतियों को HTML में बदलें
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: .NET के लिए Aspose.Slides का उपयोग करके एम्बेडेड फ़ॉन्ट के साथ PowerPoint प्रस्तुतियों को HTML में बदलें। मौलिकता को सहजता से बनाए रखें।
-weight: 13
-url: /hi/net/presentation-conversion/convert-presentations-to-html-with-embedded-fonts/
+"description": ".NET के लिए Aspose.Slides का उपयोग करके एम्बेडेड फ़ॉन्ट के साथ PowerPoint प्रस्तुतियों को HTML में बदलें। मौलिकता को सहजता से बनाए रखें।"
+"linktitle": "एम्बेडेड फ़ॉन्ट्स के साथ प्रस्तुतियों को HTML में बदलें"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "एम्बेडेड फ़ॉन्ट्स के साथ प्रस्तुतियों को HTML में बदलें"
+"url": "/hi/net/presentation-conversion/convert-presentations-to-html-with-embedded-fonts/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # एम्बेडेड फ़ॉन्ट्स के साथ प्रस्तुतियों को HTML में बदलें
@@ -24,7 +26,7 @@ url: /hi/net/presentation-conversion/convert-presentations-to-html-with-embedded
 
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
--  .NET के लिए Aspose.Slides: आपके प्रोजेक्ट में Aspose.Slides लाइब्रेरी स्थापित होनी चाहिए। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/net/).
+- .NET के लिए Aspose.Slides: आपके प्रोजेक्ट में Aspose.Slides लाइब्रेरी स्थापित होनी चाहिए। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/net/).
 
 ## चरण 1: अपना प्रोजेक्ट सेट करें
 
@@ -40,7 +42,7 @@ url: /hi/net/presentation-conversion/convert-presentations-to-html-with-embedded
 
 ## चरण 2: अपना प्रेजेंटेशन लोड करें
 
- आरंभ करने के लिए, आपको उस प्रेजेंटेशन को लोड करना होगा जिसे आप HTML में बदलना चाहते हैं।`"Your Document Directory"` वास्तविक निर्देशिका के साथ जहां आपकी प्रस्तुति फ़ाइल स्थित है।
+आरंभ करने के लिए, आपको उस प्रस्तुति को लोड करना होगा जिसे आप HTML में बदलना चाहते हैं। `"Your Document Directory"` वास्तविक निर्देशिका के साथ जहां आपकी प्रस्तुति फ़ाइल स्थित है।
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -64,7 +66,7 @@ string[] fontNameExcludeList = { };
 
 ### विकल्प 1: सभी फ़ॉन्ट एम्बेड करें
 
- प्रस्तुति में प्रयुक्त सभी फ़ॉन्ट्स को एम्बेड करने के लिए, का उपयोग करें`EmbedAllFontsHtmlController`.
+प्रस्तुति में प्रयुक्त सभी फ़ॉन्ट्स को एम्बेड करने के लिए, का उपयोग करें `EmbedAllFontsHtmlController`.
 
 ```csharp
 EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
@@ -72,7 +74,7 @@ EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlControll
 
 ### विकल्प 2: सभी फ़ॉन्ट लिंक करें
 
- प्रस्तुति में प्रयुक्त सभी फ़ॉन्ट्स को लिंक करने के लिए, का उपयोग करें`LinkAllFontsHtmlController`आपको वह निर्देशिका निर्दिष्ट करनी चाहिए जहां आपके सिस्टम पर फ़ॉन्ट स्थित हैं।
+प्रस्तुति में प्रयुक्त सभी फ़ॉन्ट्स को लिंक करने के लिए, का उपयोग करें `LinkAllFontsHtmlController`आपको वह निर्देशिका निर्दिष्ट करनी चाहिए जहां आपके सिस्टम पर फ़ॉन्ट स्थित हैं।
 
 ```csharp
 LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, @"C:\Windows\Fonts\");
@@ -80,7 +82,7 @@ LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExc
 
 ## चरण 5: HTML विकल्प परिभाषित करें
 
- एक बनाएं`HtmlOptions` ऑब्जेक्ट पर क्लिक करें और HTML फ़ॉर्मेटर को उसी पर सेट करें जिसे आपने पिछले चरण में चुना था।
+एक बनाएं `HtmlOptions` ऑब्जेक्ट पर क्लिक करें और HTML फ़ॉर्मेटर को उसी पर सेट करें जिसे आपने पिछले चरण में चुना था।
 
 ```csharp
 HtmlOptions htmlOptionsEmbed = new HtmlOptions
@@ -91,7 +93,7 @@ HtmlOptions htmlOptionsEmbed = new HtmlOptions
 
 ## चरण 6: HTML के रूप में सहेजें
 
- अंत में, प्रेजेंटेशन को HTML फ़ाइल के रूप में सेव करें। आप इनमें से कोई भी चुन सकते हैं`SaveFormat.Html` या`SaveFormat.Html5` आपकी आवश्यकताओं के आधार पर.
+अंत में, प्रेजेंटेशन को HTML फ़ाइल के रूप में सेव करें। आप इनमें से कोई भी चुन सकते हैं `SaveFयाmat.Html` or `SaveFormat.Html5` आपकी आवश्यकताओं के आधार पर.
 
 ```csharp
 pres.Save("pres.html", SaveFormat.Html, htmlOptionsEmbed);
@@ -103,7 +105,7 @@ pres.Save("pres.html", SaveFormat.Html, htmlOptionsEmbed);
 
 अब, आप अपनी सुंदर स्वरूपित प्रस्तुतियों को आसानी से पूरे विश्वास के साथ साझा कर सकते हैं, यह जानते हुए कि आपके दर्शक उन्हें ठीक वैसे ही देखेंगे जैसा आप चाहते हैं।
 
- अधिक जानकारी और विस्तृत API संदर्भों के लिए, देखें[.NET दस्तावेज़ीकरण के लिए Aspose.Slides](https://reference.aspose.com/slides/net/).
+अधिक जानकारी और विस्तृत API संदर्भों के लिए, देखें [.NET दस्तावेज़ीकरण के लिए Aspose.Slides](https://reference.aspose.com/slides/net/).
 
 ## पूछे जाने वाले प्रश्न
 
@@ -125,11 +127,13 @@ pres.Save("pres.html", SaveFormat.Html, htmlOptionsEmbed);
 
 ### 5. मैं Aspose.Slides for .NET के लिए अतिरिक्त संसाधन और समर्थन कहां पा सकता हूं?
 
- आप दस्तावेज़ों सहित संसाधनों के भंडार तक पहुँच सकते हैं[.NET API संदर्भ के लिए Aspose.Slides](https://reference.aspose.com/slides/net/).
+आप दस्तावेज़ों सहित संसाधनों के भंडार तक पहुँच सकते हैं [.NET API संदर्भ के लिए Aspose.Slides](https://reference.aspose.com/slides/net/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

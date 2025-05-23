@@ -1,42 +1,44 @@
 ---
-title: Voeg aangepaste documenteigenschappen toe in Java-dia's
-linktitle: Voeg aangepaste documenteigenschappen toe in Java-dia's
-second_title: Aspose.Slides Java PowerPoint-verwerkings-API
-description: Leer hoe u PowerPoint-presentaties kunt verbeteren met aangepaste documenteigenschappen in Java Slides. Stapsgewijze handleiding met codevoorbeelden met Aspose.Slides voor Java.
-weight: 13
-url: /nl/java/presentation-properties/add-custom-document-properties-in-java-slides/
+"description": "Leer hoe u PowerPoint-presentaties kunt verbeteren met aangepaste documenteigenschappen in Java Slides. Stapsgewijze handleiding met codevoorbeelden met Aspose.Slides voor Java."
+"linktitle": "Aangepaste documenteigenschappen toevoegen in Java-dia's"
+"second_title": "Aspose.Slides Java PowerPoint-verwerkings-API"
+"title": "Aangepaste documenteigenschappen toevoegen in Java-dia's"
+"url": "/nl/java/presentation-properties/add-custom-document-properties-in-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Voeg aangepaste documenteigenschappen toe in Java-dia's
+# Aangepaste documenteigenschappen toevoegen in Java-dia's
 
 
 ## Inleiding tot het toevoegen van aangepaste documenteigenschappen in Java-dia's
 
-In deze zelfstudie leiden we u door het proces van het toevoegen van aangepaste documenteigenschappen aan een PowerPoint-presentatie met behulp van Aspose.Slides voor Java. Met aangepaste documenteigenschappen kunt u aanvullende informatie over de presentatie opslaan ter referentie of voor categorisering.
+In deze tutorial laten we je zien hoe je aangepaste documenteigenschappen aan een PowerPoint-presentatie toevoegt met Aspose.Slides voor Java. Met aangepaste documenteigenschappen kun je extra informatie over de presentatie opslaan ter referentie of voor categorisatie.
 
 ## Vereisten
 
-Voordat u begint, moet u ervoor zorgen dat de Aspose.Slides voor Java-bibliotheek is geïnstalleerd en ingesteld in uw Java-project.
+Voordat u begint, moet u ervoor zorgen dat u de Aspose.Slides voor Java-bibliotheek hebt geïnstalleerd en ingesteld in uw Java-project.
 
-## Stap 1: Importeer de vereiste pakketten
+## Stap 1: Importeer vereiste pakketten
 
 ```java
 import com.aspose.slides.*;
 ```
 
-## Stap 2: Maak een nieuwe presentatie
+## Stap 2: Een nieuwe presentatie maken
 
-Eerst moet u een nieuw presentatieobject maken. U kunt dit als volgt doen:
+Eerst moet u een nieuw presentatieobject aanmaken. Dit doet u als volgt:
 
 ```java
 // Het pad naar de documentenmap.
 String dataDir = "Your Document Directory";
 
-// Instantieer de klasse Presentation
+// Instantieer de presentatieklasse
 Presentation presentation = new Presentation();
 ```
 
@@ -51,7 +53,7 @@ IDocumentProperties documentProperties = presentation.getDocumentProperties();
 
 ## Stap 4: Aangepaste eigenschappen toevoegen
 
-Laten we nu aangepaste eigenschappen aan de presentatie toevoegen. Aangepaste eigenschappen bestaan uit een naam en een waarde. U kunt ze gebruiken om alle gewenste informatie op te slaan.
+Laten we nu aangepaste eigenschappen aan de presentatie toevoegen. Aangepaste eigenschappen bestaan uit een naam en een waarde. Je kunt ze gebruiken om alle gewenste informatie op te slaan.
 
 ```java
 documentProperties.set_Item("New Custom", 12);
@@ -59,18 +61,18 @@ documentProperties.set_Item("My Name", "Mudassir");
 documentProperties.set_Item("Custom", 124);
 ```
 
-## Stap 5: Een eigendomsnaam verkrijgen bij een bepaalde index
+## Stap 5: Een eigenschapsnaam op een bepaalde index verkrijgen
 
-U kunt ook de naam van een aangepaste eigenschap ophalen bij een specifieke index. Dit kan handig zijn als u met specifieke eigenschappen moet werken.
+U kunt ook de naam van een aangepaste eigenschap op een specifieke index ophalen. Dit kan handig zijn als u met specifieke eigenschappen moet werken.
 
 ```java
-// Eigenschapsnaam ophalen bij een bepaalde index
+// Eigenschapsnaam ophalen op een bepaalde index
 String getPropertyName = documentProperties.getCustomPropertyName(2);
 ```
 
 ## Stap 6: Een geselecteerde eigenschap verwijderen
 
-Als u een aangepaste eigenschap wilt verwijderen, kunt u dit doen door de naam ervan op te geven. Hier verwijderen we het eigendom dat we in stap 5 hebben verkregen.
+Als u een aangepaste eigenschap wilt verwijderen, kunt u dit doen door de naam ervan op te geven. Hier verwijderen we de eigenschap die we in stap 5 hebben verkregen.
 
 ```java
 // Geselecteerde eigenschap verwijderen
@@ -91,7 +93,7 @@ presentation.save(dataDir + "CustomDocumentProperties_out.pptx", SaveFormat.Pptx
 ```java
 // Het pad naar de documentenmap.
 String dataDir = "Your Document Directory";
-// Instantieer de klasse Presentation
+// Instantieer de presentatieklasse
 Presentation presentation = new Presentation();
 // Documenteigenschappen ophalen
 IDocumentProperties documentProperties = presentation.getDocumentProperties();
@@ -99,7 +101,7 @@ IDocumentProperties documentProperties = presentation.getDocumentProperties();
 documentProperties.set_Item("New Custom", 12);
 documentProperties.set_Item("My Name", "Mudassir");
 documentProperties.set_Item("Custom", 124);
-// Eigenschapsnaam ophalen bij een bepaalde index
+// Eigenschapsnaam ophalen op een bepaalde index
 String getPropertyName = documentProperties.getCustomPropertyName(2);
 // Geselecteerde eigenschap verwijderen
 documentProperties.removeCustomProperty(getPropertyName);
@@ -109,13 +111,13 @@ presentation.save(dataDir + "CustomDocumentProperties_out.pptx", SaveFormat.Pptx
 
 ## Conclusie
 
-U hebt geleerd hoe u aangepaste documenteigenschappen kunt toevoegen aan een PowerPoint-presentatie in Java met behulp van Aspose.Slides. Aangepaste eigenschappen kunnen waardevol zijn voor het opslaan van aanvullende informatie met betrekking tot uw presentaties. U kunt deze kennis uitbreiden met meer aangepaste eigenschappen als dat nodig is voor uw specifieke gebruikssituatie.
+Je hebt geleerd hoe je aangepaste documenteigenschappen toevoegt aan een PowerPoint-presentatie in Java met behulp van Aspose.Slides. Aangepaste eigenschappen kunnen nuttig zijn voor het opslaan van aanvullende informatie met betrekking tot je presentaties. Je kunt deze kennis uitbreiden met meer aangepaste eigenschappen, indien nodig voor jouw specifieke toepassing.
 
 ## Veelgestelde vragen
 
-### Hoe haal ik de waarde van een aangepaste eigenschap op?
+### Hoe kan ik de waarde van een aangepaste eigenschap ophalen?
 
- Om de waarde van een aangepaste eigenschap op te halen, kunt u de`get_Item` methode op de`documentProperties` voorwerp. Bijvoorbeeld:
+Om de waarde van een aangepaste eigenschap op te halen, kunt u de `get_Item` methode op de `documentProperties` voorwerp. Bijvoorbeeld:
 
 ```java
 Object customPropertyValue = documentProperties.get_Item("New Custom");
@@ -123,15 +125,15 @@ Object customPropertyValue = documentProperties.get_Item("New Custom");
 
 ### Kan ik aangepaste eigenschappen van verschillende gegevenstypen toevoegen?
 
-Ja, u kunt aangepaste eigenschappen van verschillende gegevenstypen toevoegen, waaronder getallen, tekenreeksen, datums en meer, zoals weergegeven in het voorbeeld. Aspose.Slides voor Java verwerkt naadloos verschillende gegevenstypen.
+Ja, u kunt aangepaste eigenschappen van verschillende gegevenstypen toevoegen, waaronder getallen, tekenreeksen, datums en meer, zoals in het voorbeeld wordt getoond. Aspose.Slides voor Java verwerkt verschillende gegevenstypen naadloos.
 
-### Is er een limiet aan het aantal aangepaste eigenschappen dat ik kan toevoegen?
+### Zit er een limiet aan het aantal aangepaste eigenschappen dat ik kan toevoegen?
 
-Er is geen strikte limiet voor het aantal aangepaste eigenschappen dat u kunt toevoegen. Houd er echter rekening mee dat het toevoegen van een overmatig aantal eigenschappen de prestaties en de grootte van uw presentatiebestand kan beïnvloeden.
+Er is geen strikte limiet aan het aantal aangepaste eigenschappen dat u kunt toevoegen. Houd er echter rekening mee dat het toevoegen van een te groot aantal eigenschappen de prestaties en de grootte van uw presentatiebestand kan beïnvloeden.
 
 ### Hoe kan ik alle aangepaste eigenschappen in een presentatie weergeven?
 
-U kunt alle aangepaste eigenschappen doorlopen om ze weer te geven. Hier is een voorbeeld van hoe u dit kunt doen:
+Je kunt alle aangepaste eigenschappen doorlopen om ze weer te geven. Hier is een voorbeeld van hoe je dit doet:
 
 ```java
 for (int i = 0; i < documentProperties.getCustomCount(); i++) {
@@ -143,9 +145,11 @@ for (int i = 0; i < documentProperties.getCustomCount(); i++) {
 ```
 
 Deze code geeft de namen en waarden van alle aangepaste eigenschappen in de presentatie weer.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

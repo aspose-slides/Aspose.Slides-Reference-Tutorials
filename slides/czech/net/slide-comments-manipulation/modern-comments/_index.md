@@ -1,38 +1,40 @@
 ---
-title: Moderní správa komentářů pomocí Aspose.Slides
-linktitle: Moderní správa komentářů
-second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Naučte se spravovat moderní komentáře v prezentacích PowerPoint pomocí Aspose.Slides for .NET. Spolupracujte bez námahy!
-weight: 14
-url: /cs/net/slide-comments-manipulation/modern-comments/
+"description": "Naučte se, jak spravovat moderní komentáře v prezentacích PowerPointu pomocí Aspose.Slides pro .NET. Spolupracujte bez námahy!"
+"linktitle": "Moderní správa komentářů"
+"second_title": "Rozhraní API pro zpracování PowerPointu v .NET od Aspose.Slides"
+"title": "Moderní správa komentářů pomocí Aspose.Slides"
+"url": "/cs/net/slide-comments-manipulation/modern-comments/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Moderní správa komentářů pomocí Aspose.Slides
 
 
-Aspose.Slides for .NET je výkonná knihovna, která vývojářům umožňuje programově pracovat s prezentacemi PowerPoint. Jednou z funkcí, které nabízí, je moderní správa komentářů, která umožňuje plynule přidávat, upravovat a pracovat s komentáři ve vašich prezentacích. V tomto podrobném průvodci vás provedeme procesem správy moderních komentářů pomocí Aspose.Slides pro .NET.
+Aspose.Slides pro .NET je výkonná knihovna, která umožňuje vývojářům programově pracovat s prezentacemi v PowerPointu. Jednou z funkcí, které nabízí, je moderní správa komentářů, která vám umožňuje bezproblémově přidávat, upravovat a interagovat s komentáři ve vašich prezentacích. V tomto podrobném návodu vás provedeme procesem správy moderních komentářů pomocí Aspose.Slides pro .NET.
 
 ## Předpoklady
 
-Než se pustíte do správy moderních komentářů v prezentacích PowerPoint pomocí Aspose.Slides pro .NET, ujistěte se, že máte splněny následující předpoklady:
+Než se pustíte do správy moderních komentářů v prezentacích PowerPointu pomocí Aspose.Slides pro .NET, ujistěte se, že máte splněny následující předpoklady:
 
-1.  Aspose.Slides for .NET: Musíte mít nainstalovaný Aspose.Slides for .NET. Pokud jste tak ještě neučinili, můžete si jej stáhnout z[odkaz ke stažení](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides pro .NET: Musíte mít nainstalovaný Aspose.Slides pro .NET. Pokud ho ještě nemáte, můžete si ho stáhnout z [odkaz ke stažení](https://releases.aspose.com/slides/net/).
 
-2. Vývojové prostředí: Ujistěte se, že máte funkční vývojové prostředí, jako je Visual Studio nebo jakékoli jiné kompatibilní IDE pro vývoj .NET.
+2. Vývojové prostředí: Ujistěte se, že máte funkční vývojové prostředí, jako je Visual Studio nebo jakékoli jiné kompatibilní IDE pro vývoj v .NET.
 
-3. Základní znalost C#: Znalost programovacího jazyka C# bude užitečná, protože budeme psát kód C# pro interakci s Aspose.Slides.
+3. Základní znalost C#: Znalost programovacího jazyka C# bude užitečná, protože budeme psát kód v C# pro interakci s Aspose.Slides.
 
-Nyní, když máte všechny předpoklady na místě, začněme s moderní správou komentářů pomocí Aspose.Slides pro .NET.
+Nyní, když máte splněny všechny předpoklady, pojďme začít s moderní správou komentářů pomocí Aspose.Slides pro .NET.
 
 ## Importovat jmenné prostory
 
-Nejprve musíte importovat potřebné jmenné prostory z Aspose.Slides do vašeho C# kódu. Tento krok vám umožní přístup ke třídám a metodám potřebným pro moderní správu komentářů.
+Nejprve je třeba importovat potřebné jmenné prostory z Aspose.Slides do kódu C#. Tento krok vám umožní přístup ke třídám a metodám potřebným pro moderní správu komentářů.
 
-### Krok 1: Importujte jmenné prostory Aspose.Slides
+### Krok 1: Import jmenných prostorů Aspose.Slides
 
 ```csharp
 using Aspose.Slides;
@@ -41,11 +43,11 @@ using Aspose.Slides.Comments;
 
 ## Přidávání moderních komentářů
 
-V této části rozdělíme proces přidávání moderních komentářů do PowerPointové prezentace do několika kroků.
+V této části si rozdělíme proces přidávání moderních komentářů do prezentace v PowerPointu do několika kroků.
 
 ### Krok 2: Vytvořte novou prezentaci
 
-Chcete-li začít, vytvořte novou prezentaci pomocí Aspose.Slides. To bude sloužit jako základ pro přidávání moderních komentářů.
+Pro začátek vytvořte novou prezentaci pomocí Aspose.Slides. Ta bude sloužit jako základ pro přidávání moderních komentářů.
 
 ```csharp
 // Cesta k výstupnímu souboru.
@@ -57,9 +59,9 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Krok 3: Přidejte autora
+### Krok 3: Přidání autora
 
-Moderní komentáře jsou spojeny s autory. Než budete moci přidávat komentáře, musíte do prezentace přidat autora.
+Moderní komentáře jsou spojeny s autory. Před přidáním komentářů je nutné do prezentace přidat autora.
 
 ```csharp
 // Přidat autora
@@ -68,7 +70,7 @@ ICommentAuthor newAuthor = pres.CommentAuthors.AddAuthor("Some Author", "SA");
 
 ### Krok 4: Přidejte komentář
 
-Nyní přidáme moderní komentář ke konkrétnímu snímku v prezentaci. Text komentáře, pozici a časové razítko si můžete přizpůsobit.
+Nyní přidejme moderní komentář k určitému snímku v prezentaci. Můžete si přizpůsobit text komentáře, jeho pozici a časové razítko.
 
 ```csharp
 // Přidat komentář
@@ -84,40 +86,42 @@ Nakonec uložte prezentaci s přidaným moderním komentářem na požadované m
 pres.Save(outPptxFile, SaveFormat.Pptx);
 ```
 
-Gratulujeme! Úspěšně jste přidali moderní komentář do prezentace PowerPoint pomocí Aspose.Slides pro .NET.
+Gratulujeme! Úspěšně jste přidali moderní komentář do prezentace v PowerPointu pomocí Aspose.Slides pro .NET.
 
 ## Závěr
 
-Aspose.Slides for .NET poskytuje robustní řešení pro moderní správu komentářů v prezentacích PowerPoint. Pomocí kroků uvedených v této příručce můžete tuto funkci hladce integrovat do svých aplikací .NET. Ať už vytváříte nástroje pro spolupráci nebo vylepšujete automatizaci prezentací, Aspose.Slides vám poskytne nástroje, které potřebujete.
+Aspose.Slides pro .NET poskytuje robustní řešení pro moderní správu komentářů v prezentacích PowerPointu. Pomocí kroků popsaných v této příručce můžete tuto funkci bezproblémově integrovat do svých aplikací .NET. Ať už vytváříte nástroje pro spolupráci nebo vylepšujete automatizaci prezentací, Aspose.Slides vám poskytne nástroje, které potřebujete.
 
- Pokud máte nějaké dotazy nebo potřebujete další pomoc, neváhejte se obrátit na komunitu Aspose.Slides na jejich[Fórum podpory](https://forum.aspose.com/). Jsou vždy připraveni pomoci.
+Pokud máte jakékoli dotazy nebo potřebujete další pomoc, neváhejte se obrátit na komunitu Aspose.Slides na jejich [fórum podpory](https://forum.aspose.com/)Jsou vždy připraveni pomoci.
 
-Nyní pokračujte a prozkoumejte svět moderní správy komentářů pomocí Aspose.Slides pro .NET a odemkněte nové možnosti pro vaše prezentace v PowerPointu!
+A nyní se pusťte do objevování světa moderní správy komentářů s Aspose.Slides pro .NET a odemkněte nové možnosti pro vaše prezentace v PowerPointu!
 
-## Nejčastější dotazy
+## Často kladené otázky
 
-### 1. K čemu slouží moderní komentáře v powerpointových prezentacích?
+### 1. Jaký je účel moderních komentářů v prezentacích PowerPointu?
 
-Moderní komentáře v prezentacích v PowerPointu umožňují spolupracovníkům poskytovat zpětnou vazbu, návrhy a anotace přímo v prezentaci, což usnadňuje kolektivní práci na projektech.
+Moderní komentáře v prezentacích PowerPointu umožňují spolupracovníkům poskytovat zpětnou vazbu, návrhy a poznámky přímo v prezentaci, což usnadňuje společnou práci na projektech.
 
-### 2. Mohu upravit vzhled moderních komentářů v Aspose.Slides?
+### 2. Mohu si přizpůsobit vzhled moderních komentářů v Aspose.Slides?
 
-Ano, vzhled, včetně barvy a stylu, moderních komentářů v Aspose.Slides můžete přizpůsobit svým konkrétním požadavkům.
+Ano, vzhled moderních komentářů v Aspose.Slides, včetně barvy a stylu, si můžete přizpůsobit tak, aby odpovídaly vašim specifickým požadavkům.
 
-### 3. Je Aspose.Slides for .NET vhodný pro Windows i webové aplikace?
+### 3. Je Aspose.Slides pro .NET vhodný pro Windows i webové aplikace?
 
-Ano, Aspose.Slides for .NET je všestranný a lze jej použít jak v desktopových aplikacích Windows, tak ve webových aplikacích.
+Ano, Aspose.Slides pro .NET je všestranný a lze jej použít jak v desktopových aplikacích pro Windows, tak i ve webových aplikacích.
 
-### 4. Jak mohu aktualizovat nebo odstranit moderní komentáře v prezentaci PowerPoint pomocí Aspose.Slides?
+### 4. Jak aktualizuji nebo smažu moderní komentáře v prezentaci PowerPoint pomocí Aspose.Slides?
 
-Moderní komentáře můžete aktualizovat nebo odstraňovat programově přístupem k objektům komentářů a pomocí poskytnutých metod v Aspose.Slides.
+Moderní komentáře můžete programově aktualizovat nebo mazat přístupem k objektům komentářů a použitím poskytnutých metod v Aspose.Slides.
 
-### 5. Mohu Aspose.Slides for .NET vyzkoušet před jeho zakoupením?
+### 5. Mohu si Aspose.Slides pro .NET vyzkoušet před zakoupením?
 
- Rozhodně! Můžete přistupovat k bezplatné zkušební verzi Aspose.Slides pro .NET z[odkaz na bezplatnou zkušební verzi](https://releases.aspose.com/).
+Jistě! Bezplatnou zkušební verzi Aspose.Slides pro .NET si můžete stáhnout z [odkaz na bezplatnou zkušební verzi](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

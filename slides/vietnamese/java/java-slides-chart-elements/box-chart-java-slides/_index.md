@@ -1,14 +1,16 @@
 ---
-title: Biểu đồ hộp trong Java Slides
-linktitle: Biểu đồ hộp trong Java Slides
-second_title: Aspose.Slides API xử lý PowerPoint Java
-description: Tìm hiểu cách tạo Biểu đồ hộp trong bản trình bày Java bằng Aspose.Slides. Hướng dẫn từng bước và mã nguồn được bao gồm để hiển thị dữ liệu hiệu quả.
-weight: 10
-url: /vi/java/chart-elements/box-chart-java-slides/
+"description": "Tìm hiểu cách tạo Biểu đồ hộp trong bài thuyết trình Java với Aspose.Slides. Hướng dẫn từng bước và mã nguồn kèm theo để trực quan hóa dữ liệu hiệu quả."
+"linktitle": "Biểu đồ hộp trong Java Slides"
+"second_title": "API xử lý PowerPoint Java của Aspose.Slides"
+"title": "Biểu đồ hộp trong Java Slides"
+"url": "/vi/java/chart-elements/box-chart-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Biểu đồ hộp trong Java Slides
@@ -16,23 +18,23 @@ url: /vi/java/chart-elements/box-chart-java-slides/
 
 ## Giới thiệu về Biểu đồ hộp trong Aspose.Slides cho Java
 
-Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo Biểu đồ hộp bằng Aspose.Slides cho Java. Biểu đồ hộp rất hữu ích để hiển thị dữ liệu thống kê với nhiều phần tư và các giá trị ngoại lệ khác nhau. Chúng tôi sẽ cung cấp hướng dẫn từng bước cùng với mã nguồn để giúp bạn bắt đầu.
+Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo Biểu đồ hộp bằng Aspose.Slides for Java. Biểu đồ hộp hữu ích để trực quan hóa dữ liệu thống kê với nhiều tứ phân vị và giá trị ngoại lai. Chúng tôi sẽ cung cấp hướng dẫn từng bước cùng với mã nguồn để giúp bạn bắt đầu.
 
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
-- Thư viện Aspose.Slides cho Java đã được cài đặt và định cấu hình.
-- Một môi trường phát triển Java được thiết lập.
+- Thư viện Aspose.Slides cho Java đã được cài đặt và cấu hình.
+- Thiết lập môi trường phát triển Java.
 
-## Bước 1: Khởi tạo bản trình bày
+## Bước 1: Khởi tạo bài thuyết trình
 
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 ```
 
-Trong bước này, chúng tôi khởi tạo một đối tượng bản trình bày bằng cách sử dụng đường dẫn đến tệp PowerPoint hiện có ("test.pptx" trong ví dụ này).
+Ở bước này, chúng ta khởi tạo một đối tượng trình bày bằng cách sử dụng đường dẫn đến tệp PowerPoint hiện có ("test.pptx" trong ví dụ này).
 
 ## Bước 2: Tạo biểu đồ hộp
 
@@ -43,7 +45,7 @@ try {
     chart.getChartData().getSeries().clear();
 ```
 
-Trong bước này, chúng ta tạo hình Biểu đồ Hộp trên slide đầu tiên của bản trình bày. Chúng tôi cũng xóa mọi danh mục và chuỗi hiện có khỏi biểu đồ.
+Trong bước này, chúng ta tạo một hình dạng Biểu đồ hộp trên trang chiếu đầu tiên của bài thuyết trình. Chúng ta cũng xóa mọi danh mục và chuỗi hiện có khỏi biểu đồ.
 
 ## Bước 3: Xác định danh mục
 
@@ -58,9 +60,9 @@ Trong bước này, chúng ta tạo hình Biểu đồ Hộp trên slide đầu 
     chart.getChartData().getCategories().add(wb.getCell(0, "A6", "Category 1"));
 ```
 
- Trong bước này, chúng tôi xác định các danh mục cho Biểu đồ hộp. Chúng tôi sử dụng`IChartDataWorkbook` để thêm danh mục và gắn nhãn cho chúng cho phù hợp.
+Trong bước này, chúng tôi xác định các danh mục cho Biểu đồ hộp. Chúng tôi sử dụng `IChartDataWorkbook` để thêm danh mục và dán nhãn cho phù hợp.
 
-## Bước 4: Tạo chuỗi
+## Bước 4: Tạo Series
 
 ```java
     IChartSeries series = chart.getChartData().getSeries().add(ChartType.BoxAndWhisker);
@@ -71,9 +73,9 @@ Trong bước này, chúng ta tạo hình Biểu đồ Hộp trên slide đầu 
     series.setShowOutlierPoints(true);
 ```
 
-Tại đây, chúng tôi tạo một chuỗi BoxAndWhisker cho biểu đồ và định cấu hình các tùy chọn khác nhau như phương pháp tứ phân vị, đường trung bình, điểm đánh dấu trung bình, điểm bên trong và điểm ngoại lệ.
+Tại đây, chúng ta tạo một chuỗi BoxAndWhisker cho biểu đồ và cấu hình nhiều tùy chọn khác nhau như phương pháp tứ phân vị, đường trung bình, điểm đánh dấu trung bình, điểm bên trong và điểm ngoại lai.
 
-## Bước 5: Thêm điểm dữ liệu
+## Bước 5: Thêm Điểm Dữ Liệu
 
 ```java
     series.getDataPoints().addDataPointForBoxAndWhiskerSeries(wb.getCell(0, "B1", 15));
@@ -84,7 +86,7 @@ Tại đây, chúng tôi tạo một chuỗi BoxAndWhisker cho biểu đồ và 
     series.getDataPoints().addDataPointForBoxAndWhiskerSeries(wb.getCell(0, "B6", 16));
 ```
 
-Trong bước này, chúng tôi thêm điểm dữ liệu vào chuỗi BoxAndWhisker. Những điểm dữ liệu này đại diện cho dữ liệu thống kê cho biểu đồ.
+Trong bước này, chúng tôi thêm các điểm dữ liệu vào chuỗi BoxAndWhisker. Các điểm dữ liệu này biểu diễn dữ liệu thống kê cho biểu đồ.
 
 ## Bước 6: Lưu bài thuyết trình
 
@@ -95,11 +97,11 @@ Trong bước này, chúng tôi thêm điểm dữ liệu vào chuỗi BoxAndWhi
 }
 ```
 
-Cuối cùng, chúng ta lưu bản trình bày có Biểu đồ Hộp vào một tệp PowerPoint mới có tên "BoxAndWhisker.pptx."
+Cuối cùng, chúng ta lưu bản trình bày có Biểu đồ hộp vào một tệp PowerPoint mới có tên "BoxAndWhisker.pptx".
 
-Chúc mừng! Bạn đã tạo thành công Biểu đồ hộp bằng Aspose.Slides cho Java. Bạn có thể tùy chỉnh biểu đồ hơn nữa bằng cách điều chỉnh các thuộc tính khác nhau và thêm nhiều điểm dữ liệu hơn nếu cần.
+Xin chúc mừng! Bạn đã tạo thành công Biểu đồ hộp bằng Aspose.Slides for Java. Bạn có thể tùy chỉnh biểu đồ thêm bằng cách điều chỉnh các thuộc tính khác nhau và thêm nhiều điểm dữ liệu hơn khi cần.
 
-## Mã nguồn hoàn chỉnh cho biểu đồ hộp trong Java Slides
+## Mã nguồn đầy đủ cho biểu đồ hộp trong Java Slides
 
 ```java
 String dataDir = "Your Document Directory";
@@ -139,24 +141,26 @@ finally
 
 ## Phần kết luận
 
-Trong hướng dẫn này, chúng ta đã học cách tạo Biểu đồ hộp bằng Aspose.Slides cho Java. Biểu đồ hộp là công cụ có giá trị để trực quan hóa dữ liệu thống kê, bao gồm các phần tư và các giá trị ngoại lệ. Chúng tôi đã cung cấp hướng dẫn từng bước cùng với mã nguồn để giúp bạn bắt đầu tạo Biểu đồ hộp trong các ứng dụng Java của mình.
+Trong hướng dẫn này, chúng ta đã học cách tạo Biểu đồ hộp bằng Aspose.Slides for Java. Biểu đồ hộp là công cụ hữu ích để trực quan hóa dữ liệu thống kê, bao gồm tứ phân vị và giá trị ngoại lai. Chúng tôi cung cấp hướng dẫn từng bước cùng với mã nguồn để giúp bạn bắt đầu tạo Biểu đồ hộp trong các ứng dụng Java của mình.
 
 ## Câu hỏi thường gặp
 
-### Làm cách nào để thay đổi giao diện của Biểu đồ Hộp?
+### Làm thế nào để tôi có thể thay đổi giao diện của Biểu đồ hộp?
 
-Bạn có thể tùy chỉnh giao diện của Biểu đồ hộp bằng cách sửa đổi các thuộc tính như kiểu đường, màu sắc và phông chữ. Tham khảo tài liệu Aspose.Slides for Java để biết chi tiết về cách tùy chỉnh biểu đồ.
+Bạn có thể tùy chỉnh giao diện của Biểu đồ hộp bằng cách sửa đổi các thuộc tính như kiểu đường, màu sắc và phông chữ. Tham khảo tài liệu Aspose.Slides for Java để biết chi tiết về tùy chỉnh biểu đồ.
 
 ### Tôi có thể thêm chuỗi dữ liệu bổ sung vào Biểu đồ hộp không?
 
- Có, bạn có thể thêm nhiều chuỗi dữ liệu vào Biểu đồ hộp bằng cách tạo thêm`IChartSeries` các đối tượng và thêm các điểm dữ liệu vào chúng.
+Có, bạn có thể thêm nhiều chuỗi dữ liệu vào Biểu đồ hộp bằng cách tạo thêm `IChartSeries` các đối tượng và thêm điểm dữ liệu vào chúng.
 
 ### QuartileMethodType.Exclusive có nghĩa là gì?
 
- Các`QuartileMethodType.Exclusive` cài đặt chỉ định rằng việc tính toán tứ phân vị phải được thực hiện bằng phương pháp độc quyền. Bạn có thể chọn các phương pháp tính toán tứ phân vị khác nhau tùy thuộc vào dữ liệu và yêu cầu của bạn.
+Các `QuartileMethodType.Exclusive` thiết lập chỉ định rằng các phép tính tứ phân vị phải được thực hiện bằng phương pháp loại trừ. Bạn có thể chọn các phương pháp tính tứ phân vị khác nhau tùy thuộc vào dữ liệu và yêu cầu của mình.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

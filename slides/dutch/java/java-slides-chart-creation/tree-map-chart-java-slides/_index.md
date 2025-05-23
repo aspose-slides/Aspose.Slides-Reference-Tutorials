@@ -1,28 +1,30 @@
 ---
-title: Boomkaartdiagram in Java-dia's
-linktitle: Boomkaartdiagram in Java-dia's
-second_title: Aspose.Slides Java PowerPoint-verwerkings-API
-description: Maak boomkaartgrafieken in Java-dia's met Aspose.Slides voor Java. Stap-voor-stap handleiding met broncode voor het visualiseren van hiërarchische gegevens.
-weight: 13
-url: /nl/java/chart-creation/tree-map-chart-java-slides/
+"description": "Maak boomdiagrammen in Java Slides met Aspose.Slides voor Java. Stapsgewijze handleiding met broncode voor het visualiseren van hiërarchische gegevens."
+"linktitle": "Boomdiagram in Java-dia's"
+"second_title": "Aspose.Slides Java PowerPoint-verwerkings-API"
+"title": "Boomdiagram in Java-dia's"
+"url": "/nl/java/chart-creation/tree-map-chart-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Boomkaartdiagram in Java-dia's
+# Boomdiagram in Java-dia's
 
 
-## Inleiding tot het boomkaartdiagram in Java-dia's
+## Inleiding tot Tree Map Chart in Java-dia's
 
-In deze zelfstudie laten we zien hoe u een boomkaartdiagram maakt in een PowerPoint-presentatie met behulp van de Aspose.Slides voor Java-bibliotheek. Boomkaartdiagrammen zijn een effectieve manier om hiërarchische gegevens te visualiseren.
+In deze tutorial laten we zien hoe je een tree map-diagram maakt in een PowerPoint-presentatie met behulp van de Aspose.Slides for Java-bibliotheek. Tree map-diagrammen zijn een effectieve manier om hiërarchische gegevens te visualiseren.
 
 ## Vereisten
 
-Voordat u begint, moet u ervoor zorgen dat de Aspose.Slides voor Java-bibliotheek in uw Java-project is ingesteld.
+Voordat u begint, moet u ervoor zorgen dat u de Aspose.Slides voor Java-bibliotheek in uw Java-project hebt ingesteld.
 
-## Stap 1: Importeer de vereiste bibliotheken
+## Stap 1: Vereiste bibliotheken importeren
 
 ```java
 import com.aspose.slides.*;
@@ -35,7 +37,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 ```
 
-## Stap 3: Maak een boomkaartdiagram
+## Stap 3: Maak een boomkaartgrafiek
 
 ```java
 try {
@@ -45,7 +47,7 @@ try {
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
     wb.clear(0);
 
-    // Maak filiaal 1 aan
+    // Maak tak 1
     IChartCategory leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C1", "Leaf1"));
     leaf.getGroupingLevels().setGroupingItem(1, "Stem1");
     leaf.getGroupingLevels().setGroupingItem(2, "Branch1");
@@ -57,7 +59,7 @@ try {
 
     chart.getChartData().getCategories().add(wb.getCell(0, "C4", "Leaf4"));
 
-    // Maak tak 2 aan
+    // Maak tak 2
     leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C5", "Leaf5"));
     leaf.getGroupingLevels().setGroupingItem(1, "Stem3");
     leaf.getGroupingLevels().setGroupingItem(2, "Branch2");
@@ -69,7 +71,7 @@ try {
 
     chart.getChartData().getCategories().add(wb.getCell(0, "C8", "Leaf8"));
 
-    // Voeg datapunten toe
+    // Gegevenspunten toevoegen
     IChartSeries series = chart.getChartData().getSeries().add(ChartType.Treemap);
     series.getLabels().getDefaultDataLabelFormat().setShowCategoryName(true);
 
@@ -84,14 +86,14 @@ try {
 
     series.setParentLabelLayout(ParentLabelLayoutType.Overlapping);
 
-    // Sla de presentatie op met het boomkaartdiagram
+    // Sla de presentatie op met de Tree Map-grafiek
     pres.save("Treemap.pptx", SaveFormat.Pptx);
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
 
-## Volledige broncode voor boomkaartdiagram in Java-dia's
+## Volledige broncode voor boomdiagram in Java-dia's
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
@@ -139,28 +141,30 @@ finally
 
 ## Conclusie
 
-In deze zelfstudie hebt u geleerd hoe u een boomkaartdiagram maakt in een PowerPoint-presentatie met behulp van de Aspose.Slides voor Java-bibliotheek. Boomkaartdiagrammen zijn een waardevol hulpmiddel voor het visualiseren van hiërarchische gegevens, waardoor uw presentaties informatiever en boeiender worden.
+In deze tutorial heb je geleerd hoe je een tree map-diagram maakt in een PowerPoint-presentatie met behulp van de Aspose.Slides for Java-bibliotheek. Tree map-diagrammen zijn een waardevol hulpmiddel voor het visualiseren van hiërarchische gegevens, waardoor je presentaties informatiever en boeiender worden.
 
 ## Veelgestelde vragen
 
-### Hoe voeg ik gegevens toe aan het boomkaartdiagram?
+### Hoe voeg ik gegevens toe aan de Tree Map-grafiek?
 
- Om gegevens aan het boomkaartdiagram toe te voegen, gebruikt u de`series.getDataPoints().addDataPointForTreemapSeries()` methode, waarbij de gegevenswaarden als parameters worden doorgegeven.
+Om gegevens aan de Tree Map-grafiek toe te voegen, gebruikt u de `series.getDataPoints().addDataPointForTreemapSeries()` methode, waarbij de datawaarden als parameters worden doorgegeven.
 
-### Hoe kan ik het uiterlijk van het boomkaartdiagram aanpassen?
+### Hoe kan ik het uiterlijk van de Tree Map-grafiek aanpassen?
 
- U kunt het uiterlijk van het structuurkaartdiagram aanpassen door verschillende eigenschappen van het`chart` En`series`objecten, zoals kleuren, labels en lay-outs.
+kunt het uiterlijk van de Tree Map-grafiek aanpassen door verschillende eigenschappen van de `chart` En `series` objecten, zoals kleuren, labels en lay-outs.
 
-### Kan ik meerdere boomkaartdiagrammen in één presentatie maken?
+### Kan ik meerdere Tree Map-grafieken in één presentatie maken?
 
-Ja, u kunt meerdere boomkaartdiagrammen in één presentatie maken door dezelfde stappen te volgen en verschillende diaposities op te geven.
+Ja, u kunt meerdere Tree Map-grafieken in één presentatie maken door dezelfde stappen te volgen en verschillende diaposities op te geven.
 
-### Hoe sla ik de presentatie op met het boomkaartdiagram?
+### Hoe sla ik de presentatie met de Tree Map-grafiek op?
 
- Gebruik de`pres.save()` methode om de presentatie met het boomkaartdiagram op te slaan in het gewenste formaat (bijvoorbeeld PPTX).
+Gebruik de `pres.save()` Methode om de presentatie met de Tree Map-grafiek op te slaan in het gewenste formaat (bijvoorbeeld PPTX).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

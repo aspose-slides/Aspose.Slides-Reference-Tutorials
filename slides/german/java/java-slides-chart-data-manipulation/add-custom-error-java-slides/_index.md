@@ -1,14 +1,16 @@
 ---
-title: Benutzerdefinierten Fehler in Java-Folien hinzufügen
-linktitle: Benutzerdefinierten Fehler in Java-Folien hinzufügen
-second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie mit Aspose.Slides benutzerdefinierte Fehlerbalken zu PowerPoint-Diagrammen in Java Slides hinzufügen. Schritt-für-Schritt-Anleitung mit Quellcode zur präzisen Datenvisualisierung.
-weight: 11
-url: /de/java/chart-data-manipulation/add-custom-error-java-slides/
+"description": "Erfahren Sie, wie Sie mit Aspose.Slides benutzerdefinierte Fehlerbalken zu PowerPoint-Diagrammen in Java Slides hinzufügen. Schritt-für-Schritt-Anleitung mit Quellcode für präzise Datenvisualisierung."
+"linktitle": "Benutzerdefinierten Fehler in Java-Folien hinzufügen"
+"second_title": "Aspose.Slides Java PowerPoint-Verarbeitungs-API"
+"title": "Benutzerdefinierten Fehler in Java-Folien hinzufügen"
+"url": "/de/java/chart-data-manipulation/add-custom-error-java-slides/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Benutzerdefinierten Fehler in Java-Folien hinzufügen
@@ -16,27 +18,27 @@ url: /de/java/chart-data-manipulation/add-custom-error-java-slides/
 
 ## Einführung in das Hinzufügen benutzerdefinierter Fehlerbalken in Java-Folien mit Aspose.Slides
 
-In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Slides für Java benutzerdefinierte Fehlerbalken zu einem Diagramm in einer PowerPoint-Präsentation hinzufügen. Fehlerbalken sind nützlich, um Variabilität oder Unsicherheit in Datenpunkten in einem Diagramm anzuzeigen.
+In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Slides für Java benutzerdefinierte Fehlerbalken zu einem Diagramm in einer PowerPoint-Präsentation hinzufügen. Fehlerbalken eignen sich zur Darstellung von Variabilität oder Unsicherheit von Datenpunkten in einem Diagramm.
 
 ## Voraussetzungen
 
 Bevor Sie beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
 
 - Aspose.Slides für die Java-Bibliothek, die in Ihrem Projekt installiert und konfiguriert ist.
-- Eine Java-Entwicklungsumgebung wurde eingerichtet.
+- Eine Java-Entwicklungsumgebung ist eingerichtet.
 
 ## Schritt 1: Erstellen Sie eine leere Präsentation
 
 Erstellen Sie zunächst eine leere PowerPoint-Präsentation.
 
 ```java
-// Der Pfad zum Dokumentverzeichnis.
+// Der Pfad zum Dokumentenverzeichnis.
 String dataDir = "Your Document Directory";
 // Leere Präsentation erstellen
 Presentation presentation = new Presentation();
 ```
 
-## Schritt 2: Ein Blasendiagramm hinzufügen
+## Schritt 2: Fügen Sie ein Blasendiagramm hinzu
 
 Als Nächstes fügen wir der Präsentation ein Blasendiagramm hinzu.
 
@@ -65,7 +67,7 @@ errBarY.setValueType(ErrorBarValueType.Custom);
 In diesem Schritt greifen wir auf die Datenpunkte der Diagrammreihe zu und legen die benutzerdefinierten Fehlerbalkenwerte für jeden Punkt fest.
 
 ```java
-// Auf Datenpunkte von Diagrammreihen zugreifen und Fehlerbalkenwerte für einzelne Punkte festlegen
+// Zugriff auf Datenpunkte von Diagrammreihen und Festlegen von Fehlerbalkenwerten für einzelne Punkte
 IChartDataPointCollection points = series.getDataPoints();
 points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForXPlusValues(DataSourceType.DoubleLiterals);
 points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForXMinusValues(DataSourceType.DoubleLiterals);
@@ -91,12 +93,12 @@ Speichern Sie abschließend die Präsentation mit den benutzerdefinierten Fehler
 presentation.save(dataDir + "ErrorBarsCustomValues_out.pptx", SaveFormat.Pptx);
 ```
 
-Das ist es! Sie haben mit Aspose.Slides für Java erfolgreich benutzerdefinierte Fehlerbalken zu einem Diagramm in einer PowerPoint-Präsentation hinzugefügt.
+Das war's! Sie haben mit Aspose.Slides für Java erfolgreich benutzerdefinierte Fehlerbalken zu einem Diagramm in einer PowerPoint-Präsentation hinzugefügt.
 
 ## Vollständiger Quellcode zum Hinzufügen benutzerdefinierter Fehler in Java-Folien
 
 ```java
-// Der Pfad zum Dokumentverzeichnis.
+// Der Pfad zum Dokumentenverzeichnis.
 String dataDir = "Your Document Directory";
 // Leere Präsentation erstellen
 Presentation presentation = new Presentation();
@@ -112,7 +114,7 @@ try
 	errBarY.setVisible(true);
 	errBarX.setValueType(ErrorBarValueType.Custom);
 	errBarY.setValueType(ErrorBarValueType.Custom);
-	// Auf Datenpunkte von Diagrammreihen zugreifen und Fehlerbalkenwerte für einzelne Punkte festlegen
+	// Zugriff auf Datenpunkte von Diagrammreihen und Festlegen von Fehlerbalkenwerten für einzelne Punkte
 	IChartDataPointCollection points = series.getDataPoints();
 	points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForXPlusValues(DataSourceType.DoubleLiterals);
 	points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForXMinusValues(DataSourceType.DoubleLiterals);
@@ -137,13 +139,13 @@ finally
 
 ## Abschluss
 
-In diesem umfassenden Tutorial haben Sie gelernt, wie Sie Ihre PowerPoint-Präsentationen verbessern können, indem Sie mit Aspose.Slides für Java benutzerdefinierte Fehlerbalken zu Diagrammen hinzufügen. Fehlerbalken bieten wertvolle Einblicke in die Variabilität und Unsicherheit von Daten und machen Ihre Diagramme informativer und optisch ansprechender.
+In diesem umfassenden Tutorial haben Sie gelernt, wie Sie Ihre PowerPoint-Präsentationen verbessern, indem Sie mit Aspose.Slides für Java benutzerdefinierte Fehlerbalken zu Diagrammen hinzufügen. Fehlerbalken liefern wertvolle Einblicke in Datenvariabilität und -unsicherheit und machen Ihre Diagramme informativer und optisch ansprechender.
 
 ## Häufig gestellte Fragen
 
 ### Wie passe ich die Darstellung von Fehlerbalken an?
 
- Sie können das Erscheinungsbild der Fehlerbalken anpassen, indem Sie die Eigenschaften des`IErrorBarsFormat` Objekt, wie etwa Linienstil, Linienfarbe und Fehlerbalkenbreite.
+Sie können die Darstellung der Fehlerbalken anpassen, indem Sie die Eigenschaften des `IErrorBarsFormat` Objekt, wie Linienstil, Linienfarbe und Fehlerbalkenbreite.
 
 ### Kann ich anderen Diagrammtypen Fehlerbalken hinzufügen?
 
@@ -155,10 +157,12 @@ Sie können die Datenpunkte durchlaufen und für jeden Punkt benutzerdefinierte 
 
 ### Ist es möglich, Fehlerbalken für bestimmte Datenpunkte auszublenden?
 
- Ja, Sie können die Sichtbarkeit von Fehlerbalken für einzelne Datenpunkte steuern, indem Sie die`setVisible` Eigentum der`IErrorBarsFormat` Objekt.
+Ja, Sie können die Sichtbarkeit von Fehlerbalken für einzelne Datenpunkte steuern, indem Sie die `setVisible` Eigentum der `IErrorBarsFormat` Objekt.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

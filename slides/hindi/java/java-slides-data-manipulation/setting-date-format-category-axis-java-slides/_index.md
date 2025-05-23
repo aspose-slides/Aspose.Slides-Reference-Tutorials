@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में श्रेणी अक्ष के लिए दिनांक प्रारूप सेट करना
-linktitle: जावा स्लाइड्स में श्रेणी अक्ष के लिए दिनांक प्रारूप सेट करना
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके PowerPoint चार्ट में श्रेणी अक्ष के लिए दिनांक प्रारूप सेट करना सीखें। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 26
-url: /hi/java/data-manipulation/setting-date-format-category-axis-java-slides/
+"description": "Aspose.Slides for Java का उपयोग करके PowerPoint चार्ट में श्रेणी अक्ष के लिए दिनांक प्रारूप सेट करना सीखें। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "जावा स्लाइड्स में श्रेणी अक्ष के लिए दिनांक प्रारूप सेट करना"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में श्रेणी अक्ष के लिए दिनांक प्रारूप सेट करना"
+"url": "/hi/java/data-manipulation/setting-date-format-category-axis-java-slides/"
+"weight": 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में श्रेणी अक्ष के लिए दिनांक प्रारूप सेट करना
@@ -16,18 +18,18 @@ url: /hi/java/data-manipulation/setting-date-format-category-axis-java-slides/
 
 ## जावा स्लाइड्स में श्रेणी अक्ष के लिए दिनांक प्रारूप सेट करने का परिचय
 
-इस ट्यूटोरियल में, हम सीखेंगे कि Aspose.Slides for Java का उपयोग करके PowerPoint चार्ट में श्रेणी अक्ष के लिए दिनांक प्रारूप कैसे सेट करें। Aspose.Slides for Java एक शक्तिशाली लाइब्रेरी है जो आपको प्रोग्रामेटिक रूप से PowerPoint प्रस्तुतियाँ बनाने, हेरफेर करने और प्रबंधित करने की अनुमति देती है।
+इस ट्यूटोरियल में, हम सीखेंगे कि Aspose.Slides for Java का उपयोग करके PowerPoint चार्ट में श्रेणी अक्ष के लिए दिनांक प्रारूप कैसे सेट करें। Aspose.Slides for Java एक शक्तिशाली लाइब्रेरी है जो आपको प्रोग्रामेटिक रूप से PowerPoint प्रस्तुतियों को बनाने, हेरफेर करने और प्रबंधित करने की अनुमति देती है।
 
 ## आवश्यक शर्तें
 
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
-1. Aspose.Slides for Java लाइब्रेरी (आप इसे यहां से डाउनलोड कर सकते हैं)[यहाँ](https://releases.aspose.com/slides/java/).
+1. Aspose.Slides for Java लाइब्रेरी (आप इसे यहां से डाउनलोड कर सकते हैं) [यहाँ](https://releases.aspose.com/slides/java/).
 2. जावा विकास वातावरण की स्थापना.
 
 ## चरण 1: पावरपॉइंट प्रेजेंटेशन बनाएं
 
-सबसे पहले, हमें एक पावरपॉइंट प्रेजेंटेशन बनाना होगा, जहाँ हम एक चार्ट जोड़ेंगे। सुनिश्चित करें कि आपने आवश्यक Aspose.Slides क्लासेस आयात कर ली हैं।
+सबसे पहले, हमें एक पावरपॉइंट प्रेजेंटेशन बनाना होगा, जहाँ हम एक चार्ट जोड़ेंगे। सुनिश्चित करें कि आपने आवश्यक Aspose.Slides क्लासेस को आयात किया है।
 
 ```java
 // दस्तावेज़ निर्देशिका का पथ.
@@ -37,7 +39,7 @@ Presentation pres = new Presentation();
 
 ## चरण 2: स्लाइड में चार्ट जोड़ें
 
-अब, आइए PowerPoint स्लाइड में एक चार्ट जोड़ें। हम इस उदाहरण में एक एरिया चार्ट का उपयोग करेंगे।
+अब, आइए PowerPoint स्लाइड में एक चार्ट जोड़ें। इस उदाहरण में हम एरिया चार्ट का उपयोग करेंगे।
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Area, 50, 50, 450, 300);
@@ -69,7 +71,7 @@ series.getDataPoints().addDataPointForLineSeries(wb.getCell(0, "B5", 4));
 ```
 
 ## चरण 4: श्रेणी अक्ष को अनुकूलित करें
-अब, दिनांकों को एक विशिष्ट प्रारूप (जैसे, yyyy) में प्रदर्शित करने के लिए श्रेणी अक्ष को अनुकूलित करें।
+अब, आइए श्रेणी अक्ष को दिनांकों को एक विशिष्ट प्रारूप (जैसे, yyyy) में प्रदर्शित करने के लिए अनुकूलित करें।
 
 ```java
 chart.getAxes().getHorizontalAxis().setCategoryAxisType(CategoryAxisType.Date);
@@ -136,7 +138,7 @@ public static String convertToOADate(GregorianCalendar date) throws ParseExcepti
 
 ### मैं श्रेणी अक्ष के लिए दिनांक प्रारूप कैसे बदलूं?
 
- श्रेणी अक्ष के लिए दिनांक प्रारूप बदलने के लिए, का उपयोग करें`setNumberFormat` श्रेणी अक्ष पर विधि और वांछित दिनांक प्रारूप पैटर्न प्रदान करें, जैसे "yyyy-MM-dd" या "MM/yyyy"। सेट करना सुनिश्चित करें`setNumberFormatLinkedToSource(false)` डिफ़ॉल्ट प्रारूप को ओवरराइड करने के लिए.
+श्रेणी अक्ष के लिए दिनांक प्रारूप बदलने के लिए, का उपयोग करें `setNumberFormat` श्रेणी अक्ष पर विधि और वांछित दिनांक प्रारूप पैटर्न प्रदान करें, जैसे "yyyy-MM-dd" या "MM/yyyy"। सेट करना सुनिश्चित करें `setNumberFormatLinkedToSource(false)` डिफ़ॉल्ट प्रारूप को ओवरराइड करने के लिए.
 
 ### क्या मैं एक ही प्रस्तुति में अलग-अलग चार्ट के लिए अलग-अलग दिनांक प्रारूप का उपयोग कर सकता हूँ?
 
@@ -144,10 +146,12 @@ public static String convertToOADate(GregorianCalendar date) throws ParseExcepti
 
 ### मैं चार्ट में अधिक डेटा बिंदु कैसे जोड़ूं?
 
- चार्ट में अधिक डेटा बिंदु जोड़ने के लिए, का उपयोग करें`getDataPoints().addDataPointForLineSeries`डेटा श्रृंखला पर विधि और डेटा मान प्रदान करें।
+चार्ट में अधिक डेटा बिंदु जोड़ने के लिए, का उपयोग करें `getDataPoints().addDataPointForLineSeries` डेटा श्रृंखला पर विधि और डेटा मान प्रदान करें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

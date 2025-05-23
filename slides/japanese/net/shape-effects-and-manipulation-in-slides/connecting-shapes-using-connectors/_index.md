@@ -1,25 +1,27 @@
 ---
-title: Aspose.Slides - .NET でシームレスに図形を接続する
-linktitle: プレゼンテーションでコネクタを使用して図形を接続する
-second_title: Aspose.Slides .NET PowerPoint 処理 API
-description: Aspose.Slides for .NET のパワーを活用して、プレゼンテーションで図形を簡単に接続します。ダイナミック コネクタを使用してスライドのレベルを高めます。
-weight: 29
-url: /ja/net/shape-effects-and-manipulation-in-slides/connecting-shapes-using-connectors/
+"description": "Aspose.Slides for .NET のパワーを体験して、プレゼンテーション内の図形を簡単に接続しましょう。ダイナミックコネクタでスライドをさらに魅力的に演出できます。"
+"linktitle": "プレゼンテーションでコネクタを使用して図形を接続する"
+"second_title": "Aspose.Slides .NET PowerPoint 処理 API"
+"title": "Aspose.Slides - .NET でシームレスに図形を接続する"
+"url": "/ja/net/shape-effects-and-manipulation-in-slides/connecting-shapes-using-connectors/"
+"weight": 29
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Slides - .NET でシームレスに図形を接続する
 
 ## 導入
-プレゼンテーションの動的な世界では、コネクタを使用して図形を接続する機能により、スライドに洗練されたレイヤーが追加されます。Aspose.Slides for .NET を使用すると、開発者はこれをシームレスに実現できます。このチュートリアルでは、各ステップを分解してプロセスをガイドし、明確に理解できるようにします。
+プレゼンテーションのダイナミックな世界では、コネクタを使って図形を繋げることで、スライドに洗練された印象を与えることができます。Aspose.Slides for .NET を使えば、開発者はシームレスにこれを実現できます。このチュートリアルでは、各ステップを分かりやすく解説し、理解を深めていただけるように解説します。
 ## 前提条件
 チュートリアルに進む前に、次のものを用意してください。
 - C# および .NET フレームワークに関する基本的な知識。
--  Aspose.Slides for .NET がインストールされています。インストールされていない場合はダウンロードしてください。[ここ](https://releases.aspose.com/slides/net/).
-- 開発環境がセットアップされました。
+- Aspose.Slides for .NET がインストールされています。まだインストールされていない場合はダウンロードしてください。 [ここ](https://releases。aspose.com/slides/net/).
+- 開発環境をセットアップしました。
 ## 名前空間のインポート
 C# コードでは、まず必要な名前空間をインポートします。
 ```csharp
@@ -40,7 +42,7 @@ PPTX ファイルを表す Presentation クラスのインスタンスを作成�
 ```csharp
 using (Presentation input = new Presentation())
 {
-    //選択したスライドの図形コレクションにアクセスする
+    // 選択したスライドの図形コレクションにアクセスする
     IShapeCollection shapes = input.Slides[0].Shapes;
 ```
 ## 3. スライドに図形を追加する
@@ -49,7 +51,7 @@ using (Presentation input = new Presentation())
 IAutoShape ellipse = shapes.AddAutoShape(ShapeType.Ellipse, 0, 100, 100, 100);
 IAutoShape rectangle = shapes.AddAutoShape(ShapeType.Rectangle, 100, 300, 100, 100);
 ```
-## 4. コネクタシェイプを追加する
+## 4. コネクタ図形を追加する
 スライドの図形コレクションにコネクタ図形を含めます。
 ```csharp
 IConnector connector = shapes.AddConnector(ShapeType.BentConnector2, 0, 0, 10, 10);
@@ -60,32 +62,34 @@ IConnector connector = shapes.AddConnector(ShapeType.BentConnector2, 0, 0, 10, 1
 connector.StartShapeConnectedTo = ellipse;
 connector.EndShapeConnectedTo = rectangle;
 ```
-## 6. コネクタの再ルーティング
+## 6. コネクタの再配線
 図形間の最短パスを自動的に設定するには、reroute メソッドを呼び出します。
 ```csharp
 connector.Reroute();
 ```
-## 7. プレゼンテーションを保存する
+## 7. プレゼンテーションを保存
 プレゼンテーションを保存して、接続された図形を表示します。
 ```csharp
 input.Save(dataDir + "Connecting shapes using connectors_out.pptx", SaveFormat.Pptx);
 ```
 ## 結論
-おめでとうございます! Aspose.Slides for .NET を使用して、プレゼンテーション スライド内のコネクタを使用して図形を正常に接続しました。この高度な機能を使用してプレゼンテーションを強化し、視聴者を魅了しましょう。
+おめでとうございます！Aspose.Slides for .NET を使用して、プレゼンテーションスライド内のコネクタを使って図形を接続することができました。この高度な機能でプレゼンテーションを強化し、聴衆を魅了しましょう。
 ## よくある質問
 ### Aspose.Slides for .NET は最新の .NET フレームワークと互換性がありますか?
 はい、Aspose.Slides for .NET は、最新の .NET フレームワーク バージョンとの互換性を確保するために定期的に更新されます。
-### 1 つのコネクタを使用して 2 つ以上の図形を接続できますか?
-もちろん、コード内のコネクタ ロジックを拡張することで、複数の図形を接続できます。
-### 接続できる形状に制限はありますか?
+### 1 つのコネクタを使用して 3 つ以上の図形を接続できますか?
+はい、コード内のコネクタ ロジックを拡張することで、複数の図形を接続できます。
+### 接続できる図形に制限はありますか?
 Aspose.Slides for .NET は、基本図形、スマート アート、カスタム図形など、さまざまな図形の接続をサポートしています。
 ### コネクタの外観をカスタマイズするにはどうすればよいですか?
 線のスタイルや色など、コネクタの外観をカスタマイズする方法については、Aspose.Slides のドキュメントを参照してください。
 ### Aspose.Slides サポートのコミュニティ フォーラムはありますか?
-はい、サポートを見つけたり、経験を共有したりできます。[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11).
+はい、サポートを見つけたり、経験を共有したりできます。 [Aspose.Slides フォーラム](https://forum。aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,55 +1,57 @@
 ---
-title: Imposta i dati del grafico dalla cartella di lavoro nelle diapositive Java
-linktitle: Imposta i dati del grafico dalla cartella di lavoro nelle diapositive Java
-second_title: Aspose.Slides API di elaborazione Java PowerPoint
-description: Scopri come impostare i dati del grafico da una cartella di lavoro di Excel in Diapositive Java utilizzando Aspose.Slides. Guida passo passo con esempi di codice per presentazioni dinamiche.
-weight: 15
-url: /it/java/data-manipulation/set-chart-data-from-workbook-java-slides/
+"description": "Scopri come impostare i dati di un grafico da una cartella di lavoro Excel in Java Slides utilizzando Aspose.Slides. Guida dettagliata con esempi di codice per presentazioni dinamiche."
+"linktitle": "Imposta i dati del grafico dalla cartella di lavoro in Java Slides"
+"second_title": "API di elaborazione Java PowerPoint di Aspose.Slides"
+"title": "Imposta i dati del grafico dalla cartella di lavoro in Java Slides"
+"url": "/it/java/data-manipulation/set-chart-data-from-workbook-java-slides/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Imposta i dati del grafico dalla cartella di lavoro nelle diapositive Java
+# Imposta i dati del grafico dalla cartella di lavoro in Java Slides
 
 
-## Introduzione all'impostazione dei dati del grafico dalla cartella di lavoro nelle diapositive Java
+## Introduzione all'impostazione dei dati del grafico dalla cartella di lavoro in Java Slides
 
-Aspose.Slides per Java è una potente libreria che consente agli sviluppatori di lavorare con presentazioni PowerPoint a livello di codice. Fornisce funzionalità estese per la creazione, la manipolazione e la gestione delle diapositive di PowerPoint. Un requisito comune quando si lavora con le presentazioni è impostare dinamicamente i dati del grafico da un'origine dati esterna, ad esempio una cartella di lavoro di Excel. In questo tutorial, dimostreremo come ottenere questo risultato utilizzando Java.
+Aspose.Slides per Java è una potente libreria che consente agli sviluppatori di lavorare con le presentazioni di PowerPoint a livello di codice. Offre funzionalità complete per la creazione, la manipolazione e la gestione delle diapositive di PowerPoint. Un'esigenza comune quando si lavora con le presentazioni è quella di impostare dinamicamente i dati dei grafici da un'origine dati esterna, come una cartella di lavoro di Excel. In questo tutorial, mostreremo come ottenere questo risultato utilizzando Java.
 
 ## Prerequisiti
 
-Prima di approfondire l'implementazione, assicurati di disporre dei seguenti prerequisiti:
+Prima di addentrarci nell'implementazione, assicurati di disporre dei seguenti prerequisiti:
 
-- Java Development Kit (JDK) installato sul tuo sistema.
+- Java Development Kit (JDK) installato sul sistema.
 - Libreria Aspose.Slides per Java aggiunta al tuo progetto.
-- Una cartella di lavoro di Excel con i dati che desideri utilizzare per il grafico.
+- Una cartella di lavoro Excel con i dati che vuoi utilizzare per il grafico.
 
-## Passaggio 1: crea una presentazione
+## Passaggio 1: creare una presentazione
 
 ```java
 String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 ```
 
-Iniziamo creando una nuova presentazione di PowerPoint utilizzando Aspose.Slides per Java.
+Iniziamo creando una nuova presentazione PowerPoint utilizzando Aspose.Slides per Java.
 
-## Passaggio 2: aggiungi un grafico
+## Passaggio 2: aggiungere un grafico
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 500, 400);
 ```
 
-Successivamente, aggiungiamo un grafico a una delle diapositive della presentazione. In questo esempio stiamo aggiungendo un grafico a torta, ma puoi scegliere il tipo di grafico più adatto alle tue esigenze.
+Successivamente, aggiungiamo un grafico a una delle diapositive della presentazione. In questo esempio, stiamo aggiungendo un grafico a torta, ma puoi scegliere il tipo di grafico più adatto alle tue esigenze.
 
-## Passaggio 3: cancella i dati del grafico
+## Passaggio 3: cancellare i dati del grafico
 
 ```java
 chart.getChartData().getChartDataWorkbook().clear(0);
 ```
 
-Cancelliamo tutti i dati esistenti dal grafico per prepararlo per i nuovi dati dalla cartella di lavoro di Excel.
+Cancelliamo tutti i dati esistenti dal grafico per prepararlo ai nuovi dati provenienti dalla cartella di lavoro di Excel.
 
 ## Passaggio 4: caricare la cartella di lavoro di Excel
 
@@ -57,7 +59,7 @@ Cancelliamo tutti i dati esistenti dal grafico per prepararlo per i nuovi dati d
 Workbook workbook = new Workbook("Your Document Directory";
 ```
 
- Carichiamo la cartella di lavoro Excel che contiene i dati che vogliamo utilizzare per il grafico. Sostituire`"book1.xlsx"` con il percorso del file Excel.
+Carichiamo la cartella di lavoro di Excel che contiene i dati che vogliamo utilizzare per il grafico. Sostituisci `"book1.xlsx"` con il percorso del file Excel.
 
 ## Passaggio 5: scrivere il flusso della cartella di lavoro nei dati del grafico
 
@@ -70,13 +72,13 @@ chart.getChartData().writeWorkbookStream(mem.toByteArray());
 
 Convertiamo i dati della cartella di lavoro di Excel in un flusso e li scriviamo nei dati del grafico.
 
-## Passaggio 6: imposta l'intervallo dati del grafico
+## Passaggio 6: imposta l'intervallo dei dati del grafico
 
 ```java
 chart.getChartData().setRange("Sheet2!$A$1:$B$3");
 ```
 
-Specifichiamo l'intervallo di celle della cartella di lavoro di Excel che devono essere utilizzate come dati per il grafico. Regola l'intervallo secondo necessità per i tuoi dati.
+Specifichiamo l'intervallo di celle della cartella di lavoro di Excel da utilizzare come dati per il grafico. Adatta l'intervallo in base alle tue esigenze.
 
 ## Passaggio 7: personalizzare la serie di grafici
 
@@ -85,9 +87,9 @@ IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 series.getParentSeriesGroup().setColorVaried(true);
 ```
 
-È possibile personalizzare varie proprietà delle serie di grafici in base alle proprie esigenze. In questo esempio, abilitiamo colori diversi per le serie di grafici.
+Puoi personalizzare diverse proprietà della serie di grafici in base alle tue esigenze. In questo esempio, abilitiamo diversi colori per la serie di grafici.
 
-## Passaggio 8: salva la presentazione
+## Passaggio 8: Salva la presentazione
 
 ```java
 pres.save(outPath, SaveFormat.Pptx);
@@ -95,7 +97,7 @@ pres.save(outPath, SaveFormat.Pptx);
 
 Infine, salviamo la presentazione con i dati del grafico aggiornati nel percorso di output specificato.
 
-## Codice sorgente completo per impostare i dati del grafico dalla cartella di lavoro nelle diapositive Java
+## Codice sorgente completo per impostare i dati del grafico dalla cartella di lavoro in Java Slides
 
 ```java
 String outPath = "Your Output Directory" + "response2.pptx";
@@ -125,32 +127,34 @@ try {
 
 ## Conclusione
 
-In questo tutorial, abbiamo imparato come impostare i dati del grafico da una cartella di lavoro di Excel in Java Slides utilizzando la libreria Aspose.Slides per Java. Seguendo la guida passo passo e utilizzando gli esempi di codice sorgente forniti, puoi integrare facilmente i dati dei grafici dinamici nelle tue presentazioni PowerPoint.
+In questo tutorial, abbiamo imparato come impostare i dati di un grafico da una cartella di lavoro di Excel in Java Slides utilizzando la libreria Aspose.Slides per Java. Seguendo la guida passo passo e utilizzando gli esempi di codice sorgente forniti, è possibile integrare facilmente i dati di un grafico dinamico nelle presentazioni PowerPoint.
 
 ## Domande frequenti
 
 ### Come posso personalizzare l'aspetto del grafico nella mia presentazione?
 
-Puoi personalizzare l'aspetto del grafico modificando proprietà come colori, caratteri, etichette e altro. Fare riferimento alla documentazione Aspose.Slides per Java per informazioni dettagliate sulle opzioni di personalizzazione del grafico.
+È possibile personalizzare l'aspetto del grafico modificando proprietà come colori, font, etichette e altro ancora. Consultare la documentazione di Aspose.Slides per Java per informazioni dettagliate sulle opzioni di personalizzazione dei grafici.
 
-### Posso utilizzare i dati di un file Excel diverso per il grafico?
+### Posso usare i dati di un file Excel diverso per il grafico?
 
-Sì, puoi utilizzare i dati di qualsiasi file Excel specificando il percorso file corretto durante il caricamento della cartella di lavoro nel codice.
+Sì, puoi utilizzare i dati di qualsiasi file Excel specificando il percorso corretto del file quando carichi la cartella di lavoro nel codice.
 
 ### Quali altri tipi di grafici posso creare con Aspose.Slides per Java?
 
-Aspose.Slides per Java supporta vari tipi di grafici, inclusi grafici a barre, grafici a linee, grafici a dispersione e altro. Puoi scegliere il tipo di grafico che meglio si adatta alle tue esigenze di rappresentazione dei dati.
+Aspose.Slides per Java supporta diversi tipi di grafici, tra cui grafici a barre, grafici a linee, grafici a dispersione e altro ancora. Puoi scegliere il tipo di grafico più adatto alle tue esigenze di rappresentazione dei dati.
 
-### È possibile aggiornare dinamicamente i dati del grafico in una presentazione in corso?
+### È possibile aggiornare dinamicamente i dati del grafico in una presentazione in esecuzione?
 
-Sì, puoi aggiornare dinamicamente i dati del grafico in una presentazione modificando la cartella di lavoro sottostante e quindi aggiornando i dati del grafico.
+Sì, è possibile aggiornare dinamicamente i dati del grafico in una presentazione modificando la cartella di lavoro sottostante e quindi aggiornando i dati del grafico.
 
 ### Dove posso trovare altri esempi e risorse per lavorare con Aspose.Slides per Java?
 
- Puoi esplorare ulteriori esempi e risorse su[Sito web Aspose](https://www.aspose.com/). Inoltre, la documentazione Aspose.Slides per Java fornisce indicazioni complete su come lavorare con la libreria.
+Puoi esplorare ulteriori esempi e risorse su [Sito web di Aspose](https://www.aspose.com/)Inoltre, la documentazione di Aspose.Slides per Java fornisce una guida completa su come lavorare con la libreria.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: जावा पावरपॉइंट में एम्बेडेड फ़ॉन्ट प्रबंधित करें
-linktitle: जावा पावरपॉइंट में एम्बेडेड फ़ॉन्ट प्रबंधित करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides के साथ Java PowerPoint प्रस्तुतियों में एम्बेडेड फ़ॉन्ट को आसानी से प्रबंधित करें। अपनी स्लाइड्स को सुसंगत बनाने के लिए चरण-दर-चरण मार्गदर्शिका।
-weight: 11
-url: /hi/java/java-powerpoint-font-management-text-replacement/manage-embedded-fonts-java-powerpoint/
+"description": "Aspose.Slides के साथ Java PowerPoint प्रस्तुतियों में एम्बेडेड फ़ॉन्ट को आसानी से प्रबंधित करें। अपनी स्लाइड्स को सुसंगत बनाने के लिए चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "जावा पावरपॉइंट में एम्बेडेड फ़ॉन्ट प्रबंधित करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा पावरपॉइंट में एम्बेडेड फ़ॉन्ट प्रबंधित करें"
+"url": "/hi/java/java-powerpoint-font-management-text-replacement/manage-embedded-fonts-java-powerpoint/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा पावरपॉइंट में एम्बेडेड फ़ॉन्ट प्रबंधित करें
@@ -18,7 +20,7 @@ url: /hi/java/java-powerpoint-font-management-text-replacement/manage-embedded-f
 ## आवश्यक शर्तें
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित सेटअप है:
 - जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपके मशीन पर JDK 8 या बाद का संस्करण स्थापित है।
--  जावा के लिए Aspose.Slides: लाइब्रेरी को यहां से डाउनलोड करें[Aspose.Slides for Java](https://releases.aspose.com/slides/java/).
+- Aspose.Slides for Java: लाइब्रेरी को यहां से डाउनलोड करें [जावा के लिए Aspose.Slides](https://releases.aspose.com/slides/java/).
 - IDE: एक एकीकृत विकास वातावरण जैसे IntelliJ IDEA या Eclipse.
 - प्रस्तुति फ़ाइल: एम्बेडेड फ़ॉन्ट वाली एक नमूना PowerPoint फ़ाइल। आप इस ट्यूटोरियल के लिए "EmbeddedFonts.pptx" का उपयोग कर सकते हैं।
 - निर्भरताएँ: Aspose.Slides for Java को अपनी परियोजना निर्भरताओं में जोड़ें।
@@ -43,7 +45,7 @@ import java.io.IOException;
 String dataDir = "Your Document Directory";
 ```
 ## चरण 2: प्रस्तुति लोड करें
- एक उदाहरण बनाना`Presentation` अपनी पावरपॉइंट फ़ाइल का प्रतिनिधित्व करने के लिए ऑब्जेक्ट का चयन करें।
+एक उदाहरण बनाना `Presentation` अपनी पावरपॉइंट फ़ाइल का प्रतिनिधित्व करने के लिए ऑब्जेक्ट का चयन करें।
 ```java
 Presentation presentation = new Presentation(dataDir + "EmbeddedFonts.pptx");
 ```
@@ -56,7 +58,7 @@ try {
     ImageIO.write(image1, ".png", new File(dataDir + "picture1_out.png"));
 ```
 ## चरण 4: फ़ॉन्ट्स प्रबंधक तक पहुंचें
- लाओ`IFontsManager` फ़ॉन्ट्स को प्रबंधित करने के लिए प्रस्तुति से उदाहरण लें।
+लाओ `IFontsManager` फ़ॉन्ट्स को प्रबंधित करने के लिए प्रस्तुति से उदाहरण लें।
 ```java
     IFontsManager fontsManager = presentation.getFontsManager();
 ```
@@ -69,7 +71,7 @@ try {
 ## चरण 6: विशिष्ट एम्बेडेड फ़ॉन्ट ढूंढें और निकालें
 प्रस्तुतिकरण में किसी विशिष्ट एम्बेडेड फ़ॉन्ट (जैसे, "कैलिब्री") को पहचानें और हटाएँ।
 ```java
-    //"कैलिब्री" फ़ॉन्ट ढूंढें
+    // "कैलिब्री" फ़ॉन्ट ढूंढें
     IFontData funSizedEmbeddedFont = null;
     for (IFontData embeddedFont : embeddedFonts) {
         if ("Calibri".equals(embeddedFont.getFontName())) {
@@ -98,21 +100,23 @@ finally {
 }
 ```
 ## निष्कर्ष
-अपने PowerPoint प्रस्तुतियों में एम्बेडेड फ़ॉन्ट्स का प्रबंधन विभिन्न डिवाइस और प्लेटफ़ॉर्म पर स्थिरता और अनुकूलता बनाए रखने के लिए महत्वपूर्ण है। Aspose.Slides for Java के साथ, यह प्रक्रिया सरल और कुशल हो जाती है। इस गाइड में बताए गए चरणों का पालन करके, आप अपनी प्रस्तुतियों में एम्बेडेड फ़ॉन्ट्स को आसानी से हटा या प्रबंधित कर सकते हैं, यह सुनिश्चित करते हुए कि वे बिल्कुल वैसे ही दिखें जैसे आप उन्हें चाहते हैं, चाहे वे कहीं भी देखे जाएं।
+अपने PowerPoint प्रस्तुतियों में एम्बेडेड फ़ॉन्ट्स का प्रबंधन विभिन्न डिवाइस और प्लेटफ़ॉर्म पर स्थिरता और संगतता बनाए रखने के लिए महत्वपूर्ण है। Aspose.Slides for Java के साथ, यह प्रक्रिया सरल और कुशल हो जाती है। इस गाइड में बताए गए चरणों का पालन करके, आप अपनी प्रस्तुतियों में एम्बेडेड फ़ॉन्ट्स को आसानी से हटा या प्रबंधित कर सकते हैं, यह सुनिश्चित करते हुए कि वे बिल्कुल वैसे ही दिखें जैसे आप उन्हें चाहते हैं, चाहे वे कहीं भी देखे जाएं।
 ## अक्सर पूछे जाने वाले प्रश्न
 ### Java के लिए Aspose.Slides क्या है?
 Aspose.Slides for Java जावा में PowerPoint प्रस्तुतियों के साथ काम करने के लिए एक शक्तिशाली लाइब्रेरी है। यह आपको प्रोग्रामेटिक रूप से प्रस्तुतियाँ बनाने, संशोधित करने और प्रबंधित करने की अनुमति देता है।
 ### मैं अपने प्रोजेक्ट में Aspose.Slides कैसे जोड़ूं?
- आप Aspose.Slides को अपने प्रोजेक्ट में यहाँ से डाउनलोड करके जोड़ सकते हैं।[वेबसाइट](https://releases.aspose.com/slides/java/) और इसे अपनी परियोजना निर्भरताओं में शामिल करें।
+आप Aspose.Slides को यहां से डाउनलोड करके अपने प्रोजेक्ट में जोड़ सकते हैं। [वेबसाइट](https://releases.aspose.com/slides/java/) और इसे अपनी परियोजना निर्भरताओं में शामिल करें।
 ### क्या मैं Java के किसी भी संस्करण के साथ Aspose.Slides for Java का उपयोग कर सकता हूँ?
 Aspose.Slides for Java JDK 8 और बाद के संस्करणों के साथ संगत है।
 ### प्रस्तुतियों में एम्बेडेड फ़ॉन्ट्स को प्रबंधित करने के क्या लाभ हैं?
 एम्बेडेड फ़ॉन्ट्स का प्रबंधन यह सुनिश्चित करता है कि आपकी प्रस्तुतियाँ विभिन्न डिवाइसों और प्लेटफ़ॉर्म पर एक समान दिखाई दें, और अनावश्यक फ़ॉन्ट्स को हटाकर फ़ाइल आकार को कम करने में मदद मिलती है।
 ### मैं Aspose.Slides for Java के लिए समर्थन कहां से प्राप्त कर सकता हूं?
- आप यहाँ से सहायता प्राप्त कर सकते हैं[Aspose.Slides समर्थन मंच](https://forum.aspose.com/c/slides/11).
+आप यहाँ से सहायता प्राप्त कर सकते हैं [Aspose.Slides समर्थन मंच](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

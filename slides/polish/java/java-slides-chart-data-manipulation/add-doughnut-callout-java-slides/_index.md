@@ -1,40 +1,42 @@
 ---
-title: Dodaj objaśnienie pączka w slajdach Java
-linktitle: Dodaj objaśnienie pączka w slajdach Java
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Dowiedz się, jak dodawać objaśnienia pączków w slajdach Java za pomocą Aspose.Slides dla Java. Przewodnik krok po kroku z kodem źródłowym dla ulepszonych prezentacji.
-weight: 12
-url: /pl/java/chart-data-manipulation/add-doughnut-callout-java-slides/
+"description": "Naucz się dodawać wywołania pierścieniowe w slajdach Java przy użyciu Aspose.Slides dla Java. Przewodnik krok po kroku z kodem źródłowym dla ulepszonych prezentacji."
+"linktitle": "Dodaj wywołanie pierścieniowe w slajdach Java"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Dodaj wywołanie pierścieniowe w slajdach Java"
+"url": "/pl/java/chart-data-manipulation/add-doughnut-callout-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dodaj objaśnienie pączka w slajdach Java
+# Dodaj wywołanie pierścieniowe w slajdach Java
 
 
-## Wprowadzenie do dodawania objaśnienia pączka w slajdach Java przy użyciu Aspose.Slides dla Java
+## Wprowadzenie do dodawania wywołania pierścieniowego w slajdach Java przy użyciu Aspose.Slides dla Java
 
-W tym samouczku przeprowadzimy Cię przez proces dodawania objaśnienia Donut do slajdu w Javie przy użyciu Aspose.Slides dla Java. Objaśnienie pierścieniowe to element wykresu, którego można użyć do wyróżnienia określonych punktów danych na wykresie pierścieniowym. Dla Twojej wygody udostępnimy instrukcje krok po kroku i pełny kod źródłowy.
+W tym samouczku przeprowadzimy Cię przez proces dodawania Doughnut Callout do slajdu w Javie przy użyciu Aspose.Slides for Java. Doughnut Callout to element wykresu, który może być używany do wyróżniania określonych punktów danych na wykresie Doughnut. Dla Twojej wygody udostępnimy Ci instrukcje krok po kroku i kompletny kod źródłowy.
 
-## Warunki wstępne
+## Wymagania wstępne
 
 Zanim zaczniesz, upewnij się, że spełnione są następujące wymagania wstępne:
 
 1. Środowisko programistyczne Java
-2. Aspose.Slides dla biblioteki Java
+2. Biblioteka Aspose.Slides dla Java
 3. Zintegrowane środowisko programistyczne (IDE), takie jak Eclipse lub IntelliJ IDEA
-4. Prezentacja programu PowerPoint, do której chcesz dodać objaśnienie pączka
+4. Prezentacja programu PowerPoint, do której chcesz dodać wyróżnienie w kształcie pączka
 
 ## Krok 1: Skonfiguruj swój projekt Java
 
-1. Utwórz nowy projekt Java w wybranym IDE.
+1. Utwórz nowy projekt Java w wybranym środowisku IDE.
 2. Dodaj bibliotekę Aspose.Slides for Java do swojego projektu jako zależność.
 
 ## Krok 2: Zainicjuj prezentację
 
-Aby rozpocząć, musisz zainicjować prezentację programu PowerPoint i utworzyć slajd, na którym chcesz dodać objaśnienie pączka. Oto kod, aby to osiągnąć:
+Aby zacząć, musisz zainicjować prezentację PowerPoint i utworzyć slajd, na którym chcesz dodać Doughnut Callout. Oto kod, który to umożliwia:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -42,11 +44,11 @@ Presentation pres = new Presentation(dataDir + "testc.pptx");
 ISlide slide = pres.getSlides().get_Item(0);
 ```
 
- Pamiętaj o wymianie`"Your Document Directory"` z rzeczywistą ścieżką do pliku prezentacji programu PowerPoint.
+Pamiętaj o wymianie `"Your Document Directory"` z rzeczywistą ścieżką do pliku prezentacji PowerPoint.
 
 ## Krok 3: Utwórz wykres pierścieniowy
 
-Następnie utworzysz na slajdzie wykres pierścieniowy. Możesz dostosować położenie i rozmiar wykresu zgodnie ze swoimi wymaganiami. Oto kod umożliwiający dodanie wykresu pierścieniowego:
+Następnie utworzysz wykres pierścieniowy na slajdzie. Możesz dostosować położenie i rozmiar wykresu zgodnie ze swoimi wymaganiami. Oto kod do dodania wykresu pierścieniowego:
 
 ```java
 IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, false);
@@ -54,7 +56,7 @@ IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, 
 
 ## Krok 4: Dostosuj wykres pierścieniowy
 
-Teraz nadszedł czas, aby dostosować wykres pierścieniowy. Ustawimy różne właściwości, takie jak usunięcie legendy, skonfigurowanie rozmiaru otworu i dostosowanie kąta pierwszego przekroju. Oto kod:
+Teraz czas dostosować wykres pierścieniowy. Ustawimy różne właściwości, takie jak usuwanie legendy, konfigurowanie rozmiaru otworu i dostosowywanie pierwszego kąta wycinka. Oto kod:
 
 ```java
 IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
@@ -71,11 +73,11 @@ while (seriesIndex < 15) {
 }
 ```
 
-Ten fragment kodu ustawia właściwości wykresu pierścieniowego. Możesz dostosować wartości do swoich konkretnych potrzeb.
+Ten fragment kodu ustawia właściwości dla wykresu pierścieniowego. Możesz dostosować wartości, aby spełnić swoje konkretne potrzeby.
 
 ## Krok 5: Dodaj dane do wykresu pierścieniowego
 
-Dodajmy teraz dane do wykresu pierścieniowego. Dostosujemy także wygląd punktów danych. Oto kod, aby to osiągnąć:
+Teraz dodajmy dane do wykresu pierścieniowego. Dostosujemy również wygląd punktów danych. Oto kod, który to umożliwia:
 
 ```java
 int categoryIndex = 0;
@@ -86,28 +88,28 @@ while (categoryIndex < 15) {
         IChartSeries iCS = chart.getChartData().getSeries().get_Item(i);
         IChartDataPoint dataPoint = iCS.getDataPoints().addDataPointForDoughnutSeries(workBook.getCell(0, categoryIndex + 1, i + 1, 1));
         dataPoint.getFormat().getFill().setFillType(FillType.Solid);
-        // Dostosuj tutaj wygląd punktu danych
+        // Tutaj możesz dostosować wygląd punktu danych
         i++;
     }
     categoryIndex++;
 }
 ```
 
-W tym kodzie dodajemy kategorie i punkty danych do wykresu pierścieniowego. W razie potrzeby możesz dodatkowo dostosować wygląd punktów danych.
+W tym kodzie dodajemy kategorie i punkty danych do wykresu pierścieniowego. Możesz dalej dostosowywać wygląd punktów danych według potrzeb.
 
 ## Krok 6: Zapisz prezentację
 
-Na koniec nie zapomnij zapisać prezentacji po dodaniu objaśnienia pączka. Oto kod umożliwiający zapisanie prezentacji:
+Na koniec nie zapomnij zapisać prezentacji po dodaniu Doughnut Callout. Oto kod do zapisania prezentacji:
 
 ```java
 pres.save(dataDir + "chart.pptx", SaveFormat.Pptx);
 ```
 
- Pamiętaj o wymianie`"chart.pptx"` z żądaną nazwą pliku.
+Pamiętaj o wymianie `"chart.pptx"` z wybraną przez Ciebie nazwą pliku.
 
-Gratulacje! Pomyślnie dodałeś objaśnienie pączka do slajdu Java przy użyciu Aspose.Slides for Java. Możesz teraz uruchomić aplikację Java, aby wygenerować prezentację programu PowerPoint z wykresem pierścieniowym i objaśnieniem.
+Gratulacje! Udało Ci się dodać Doughnut Callout do slajdu Java przy użyciu Aspose.Slides for Java. Teraz możesz uruchomić aplikację Java, aby wygenerować prezentację PowerPoint z wykresem Doughnut i Callout.
 
-## Kompletny kod źródłowy dla dodawania objaśnienia pączka w slajdach Java
+## Kompletny kod źródłowy dla funkcji Dodaj wywołanie pierścieniowe w slajdach Java
 
 ```java
 String dataDir = "Your Document Directory";
@@ -171,24 +173,26 @@ pres.save(dataDir + "chart.pptx", SaveFormat.Pptx);
 
 ## Wniosek
 
-W tym samouczku omówiliśmy proces dodawania objaśnienia Donut do slajdu Java za pomocą Aspose.Slides dla Java. Wiesz już, jak utworzyć wykres pierścieniowy, dostosować jego wygląd i dodać punkty danych. Możesz dalej ulepszać swoje prezentacje dzięki tej potężnej bibliotece i odkrywać więcej opcji wykresów.
+W tym samouczku omówiliśmy proces dodawania Doughnut Callout do slajdu Java przy użyciu Aspose.Slides for Java. Nauczyłeś się, jak utworzyć wykres Doughnut, dostosować jego wygląd i dodać punkty danych. Możesz dalej ulepszać swoje prezentacje za pomocą tej potężnej biblioteki i odkrywać więcej opcji wykresów.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### Jak mogę zmienić wygląd objaśnienia pączka?
+### Jak mogę zmienić wygląd symbolu pierścienia?
 
-Możesz dostosować wygląd objaśnienia pierścieniowego, modyfikując właściwości punktów danych na wykresie. W dostarczonym kodzie można zobaczyć, jak ustawić kolor wypełnienia, kolor linii, styl czcionki i inne atrybuty punktów danych.
+Możesz dostosować wygląd Doughnut Callout, modyfikując właściwości punktów danych na wykresie. W podanym kodzie możesz zobaczyć, jak ustawić kolor wypełnienia, kolor linii, styl czcionki i inne atrybuty punktów danych.
 
 ### Czy mogę dodać więcej punktów danych do wykresu pierścieniowego?
 
-Tak, możesz dodać dowolną liczbę punktów danych do wykresu pierścieniowego. Po prostu rozszerz pętle w kodzie, w których dodawane są kategorie i punkty danych, a następnie podaj odpowiednie dane i formatowanie.
+Tak, możesz dodać tyle punktów danych, ile potrzebujesz do wykresu pierścieniowego. Po prostu rozszerz pętle w kodzie, w których dodawane są kategorie i punkty danych, i podaj odpowiednie dane i formatowanie.
 
-### Jak dostosować położenie i rozmiar wykresu pierścieniowego na slajdzie?
+### Jak mogę dostosować położenie i rozmiar wykresu pierścieniowego na slajdzie?
 
- Możesz zmienić położenie i rozmiar wykresu pierścieniowego, modyfikując parametry w pliku`addChart` metoda. Cztery liczby w tej metodzie odpowiadają współrzędnym X i Y lewego górnego rogu wykresu oraz odpowiednio jego szerokości i wysokości.
+Możesz zmienić położenie i rozmiar wykresu pierścieniowego, modyfikując parametry w `addChart` metoda. Cztery liczby w tej metodzie odpowiadają współrzędnym X i Y lewego górnego rogu wykresu oraz jego szerokości i wysokości.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

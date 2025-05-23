@@ -1,47 +1,49 @@
 ---
-title: Získejte text z uzlu SmartArt v Java PowerPointu
-linktitle: Získejte text z uzlu SmartArt v Java PowerPointu
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Naučte se extrahovat text z uzlů SmartArt v prezentacích Java PowerPoint pomocí Aspose.Slides. Jednoduchý průvodce pro vývojáře krok za krokem.
-weight: 14
-url: /cs/java/java-powerpoint-text-alignment-formatting/get-text-from-smartart-node-java-powerpoint/
+"description": "Naučte se, jak extrahovat text z uzlů SmartArt v prezentacích v PowerPointu v Javě pomocí Aspose.Slides. Snadný podrobný návod pro vývojáře."
+"linktitle": "Získání textu z uzlu SmartArt v aplikaci Java PowerPoint"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Získání textu z uzlu SmartArt v aplikaci Java PowerPoint"
+"url": "/cs/java/java-powerpoint-text-alignment-formatting/get-text-from-smartart-node-java-powerpoint/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Získejte text z uzlu SmartArt v Java PowerPointu
+# Získání textu z uzlu SmartArt v aplikaci Java PowerPoint
 
-## Úvod
-tomto tutoriálu prozkoumáme, jak extrahovat text z uzlů SmartArt v prezentacích Java PowerPoint pomocí Aspose.Slides. Aspose.Slides je výkonná Java knihovna, která umožňuje vývojářům vytvářet, manipulovat a převádět PowerPointové prezentace programově. Extrahování textu z uzlů SmartArt může být užitečné pro různé aplikace, jako je extrakce dat, analýza obsahu a další. Na konci této příručky budete mít jasno v tom, jak efektivně načítat text z uzlů SmartArt pomocí Aspose.Slides v Javě.
+## Zavedení
+tomto tutoriálu se podíváme na to, jak extrahovat text z uzlů SmartArt v prezentacích PowerPointu v Javě pomocí Aspose.Slides. Aspose.Slides je výkonná knihovna Java, která umožňuje vývojářům programově vytvářet, manipulovat a převádět prezentace PowerPointu. Extrakce textu z uzlů SmartArt může být užitečná pro různé aplikace, jako je extrakce dat, analýza obsahu a další. Po přečtení této příručky budete mít jasnou představu o tom, jak efektivně načítat text z uzlů SmartArt pomocí Aspose.Slides v Javě.
 ## Předpoklady
 Než začneme, ujistěte se, že máte splněny následující předpoklady:
-1. Java Development Kit (JDK): Aspose.Slides for Java vyžaduje JDK 8 nebo vyšší.
-2.  Aspose.Slides for Java Library: Můžete si ji stáhnout z[tady](https://releases.aspose.com/slides/java/).
-3. Integrované vývojové prostředí (IDE): Použijte IntelliJ IDEA, Eclipse nebo jakékoli IDE dle vašeho výběru s podporou Java.
-4. Soubor prezentace: Vytvořte soubor PowerPoint (.pptx) s obrázky SmartArt, ze kterého chcete extrahovat text.
-## Importujte balíčky
+1. Vývojová sada pro Javu (JDK): Aspose.Slides pro Javu vyžaduje JDK 8 nebo vyšší.
+2. Knihovna Aspose.Slides pro Java: Můžete si ji stáhnout z [zde](https://releases.aspose.com/slides/java/).
+3. Integrované vývojové prostředí (IDE): Použijte IntelliJ IDEA, Eclipse nebo jakékoli IDE dle vašeho výběru s podporou Javy.
+4. Soubor prezentace: Mějte soubor PowerPointu (.pptx) se SmartArt, ze kterého chcete extrahovat text.
+## Importovat balíčky
 Chcete-li začít, importujte potřebné třídy Aspose.Slides do souboru Java:
 ```java
 import com.aspose.slides.*;
 ```
-## Krok 1: Nastavte svůj projekt
-Začněte nastavením svého projektu Java a zahrnutím Aspose.Slides for Java do závislostí vašeho projektu. Ujistěte se, že jste přidali soubor JAR Aspose.Slides do cesty k sestavení nebo do závislostí Maven/Gradle.
-## Krok 2: Načtěte prezentaci
+## Krok 1: Nastavení projektu
+Začněte nastavením projektu Java a zahrnutím Aspose.Slides pro Javu do závislostí projektu. Ujistěte se, že jste přidali soubor JAR Aspose.Slides do cesty sestavení nebo do závislostí Maven/Gradle.
+## Krok 2: Načtení prezentace
 Načtěte soubor prezentace PowerPoint pomocí Aspose.Slides.
 ```java
 String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "Presentation.pptx");
 ```
-## Krok 3: Přístup k obrázku SmartArt na snímku
+## Krok 3: Přístup k grafice SmartArt na snímku
 Načtěte první snímek z prezentace a získejte přístup k objektu SmartArt.
 ```java
 ISlide slide = presentation.getSlides().get_Item(0);
 ISmartArt smartArt = (ISmartArt) slide.getShapes().get_Item(0);
 ```
-## Krok 4: Načtěte uzly SmartArt
-Získejte přístup ke všem uzlům v rámci SmartArt a procházejte tvary každého uzlu.
+## Krok 4: Načtení uzlů SmartArt
+Zpřístupněte všechny uzly v rámci prvku SmartArt a projděte si tvary každého uzlu.
 ```java
 ISmartArtNodeCollection smartArtNodes = smartArt.getAllNodes();
 for (ISmartArtNode smartArtNode : (Iterable<ISmartArtNode>) smartArtNodes) {
@@ -51,30 +53,32 @@ for (ISmartArtNode smartArtNode : (Iterable<ISmartArtNode>) smartArtNodes) {
     }
 }
 ```
-## Krok 5: Zlikvidujte objekt prezentace
-Je dobrým zvykem zlikvidovat objekt prezentace, jakmile jej dokončíte.
+## Krok 5: Zlikvidujte prezentační objekt
+Je dobrým zvykem zlikvidovat prezentační objekt, jakmile ho skončíte používat.
 ```java
 finally {
     if (presentation != null) presentation.dispose();
 }
 ```
 ## Závěr
-V tomto tutoriálu jsme se zabývali tím, jak extrahovat text z uzlů SmartArt v prezentacích Java PowerPoint pomocí Aspose.Slides. Pomocí těchto kroků můžete efektivně načítat textový obsah z objektů SmartArt programově, což usnadňuje různé úlohy zpracování dokumentů ve vašich aplikacích Java.
+tomto tutoriálu jsme se zabývali tím, jak extrahovat text z uzlů SmartArt v prezentacích v PowerPointu v Javě pomocí Aspose.Slides. Dodržením těchto kroků můžete efektivně programově načíst textový obsah z objektů SmartArt, což usnadní různé úlohy zpracování dokumentů ve vašich aplikacích Java.
 
-## FAQ
-### Co je Aspose.Slides for Java?
-Aspose.Slides for Java je robustní API, které umožňuje vývojářům vytvářet, manipulovat a převádět PowerPointové prezentace programově pomocí Javy.
-### Jak si mohu stáhnout Aspose.Slides pro Java?
- Aspose.Slides pro Java si můžete stáhnout z[tady](https://releases.aspose.com/slides/java/).
-### Je Aspose.Slides for Java vhodný pro komerční použití?
- Ano, Aspose.Slides for Java lze komerčně používat. Můžete si zakoupit licence[tady](https://purchase.aspose.com/buy).
-### Nabízí Aspose.Slides for Java bezplatnou zkušební verzi?
- Ano, můžete získat bezplatnou zkušební verzi Aspose.Slides pro Java[tady](https://releases.aspose.com/).
-### Kde najdu podporu pro Aspose.Slides pro Java?
- Pro technickou pomoc a podporu komunity navštivte stránku[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+## Často kladené otázky
+### Co je Aspose.Slides pro Javu?
+Aspose.Slides pro Javu je robustní API, které umožňuje vývojářům programově vytvářet, manipulovat a převádět prezentace v PowerPointu pomocí Javy.
+### Jak si mohu stáhnout Aspose.Slides pro Javu?
+Aspose.Slides pro Javu si můžete stáhnout z [zde](https://releases.aspose.com/slides/java/).
+### Je Aspose.Slides pro Javu vhodný pro komerční použití?
+Ano, Aspose.Slides pro Javu lze používat komerčně. Můžete si zakoupit licence. [zde](https://purchase.aspose.com/buy).
+### Nabízí Aspose.Slides pro Javu bezplatnou zkušební verzi?
+Ano, můžete získat bezplatnou zkušební verzi Aspose.Slides pro Javu. [zde](https://releases.aspose.com/).
+### Kde najdu podporu pro Aspose.Slides pro Javu?
+Pro technickou pomoc a podporu komunity navštivte [Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

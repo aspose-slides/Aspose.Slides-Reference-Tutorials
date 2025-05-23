@@ -1,14 +1,16 @@
 ---
-title: पावरपॉइंट में 3D रेंडरिंग
-linktitle: पावरपॉइंट में 3D रेंडरिंग
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके PowerPoint में शानदार 3D रेंडरिंग बनाना सीखें। अपनी प्रस्तुतियों को बेहतर बनाएँ।
-weight: 11
-url: /hi/java/java-powerpoint-rendering-techniques/3d-rendering-powerpoint/
+"description": "Aspose.Slides for Java का उपयोग करके PowerPoint में शानदार 3D रेंडरिंग बनाना सीखें। अपनी प्रस्तुतियों को बेहतर बनाएँ।"
+"linktitle": "पावरपॉइंट में 3D रेंडरिंग"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "पावरपॉइंट में 3D रेंडरिंग"
+"url": "/hi/java/java-powerpoint-rendering-techniques/3d-rendering-powerpoint/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पावरपॉइंट में 3D रेंडरिंग
@@ -17,8 +19,8 @@ url: /hi/java/java-powerpoint-rendering-techniques/3d-rendering-powerpoint/
 इस ट्यूटोरियल में, हम सीखेंगे कि Aspose.Slides for Java का उपयोग करके अपने PowerPoint प्रेजेंटेशन में शानदार 3D रेंडरिंग कैसे शामिल करें। इन चरण-दर-चरण निर्देशों का पालन करके, आप ऐसे आकर्षक दृश्य प्रभाव बना पाएँगे जो आपके दर्शकों को प्रभावित करेंगे।
 ## आवश्यक शर्तें
 इससे पहले कि हम ट्यूटोरियल में आगे बढ़ें, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
-1.  जावा डेवलपमेंट एनवायरनमेंट: सुनिश्चित करें कि आपके सिस्टम पर जावा इंस्टॉल है। आप जावा को यहाँ से डाउनलोड और इंस्टॉल कर सकते हैं[यहाँ](https://www.java.com/download/).
-2.  Aspose.Slides for Java लाइब्रेरी: Aspose.Slides for Java लाइब्रेरी को यहाँ से डाउनलोड करें[वेबसाइट](https://releases.aspose.com/slides/java/)अपने प्रोजेक्ट में लाइब्रेरी स्थापित करने के लिए दस्तावेज़ में दिए गए इंस्टॉलेशन निर्देशों का पालन करें।
+1. जावा डेवलपमेंट एनवायरनमेंट: सुनिश्चित करें कि आपके सिस्टम पर जावा इंस्टॉल है। आप जावा को यहाँ से डाउनलोड और इंस्टॉल कर सकते हैं [यहाँ](https://www.java.com/download/).
+2. Aspose.Slides for Java लाइब्रेरी: Aspose.Slides for Java लाइब्रेरी को यहाँ से डाउनलोड करें [वेबसाइट](https://releases.aspose.com/slides/java/)अपने प्रोजेक्ट में लाइब्रेरी स्थापित करने के लिए दस्तावेज़ में दिए गए इंस्टॉलेशन निर्देशों का पालन करें।
 ## पैकेज आयात करें
 आरंभ करने के लिए, अपने जावा प्रोजेक्ट में आवश्यक पैकेज आयात करें:
 ```java
@@ -35,7 +37,7 @@ import java.io.IOException;
 Presentation pres = new Presentation();
 ```
 ## चरण 2: 3D आकार जोड़ें
-अब, स्लाइड में 3D आकार जोड़ें:
+अब, आइए स्लाइड में एक 3D आकार जोड़ें:
 ```java
 IAutoShape shape = pres.getSlides().get_Item(0).getShapes().addAutoShape(ShapeType.Rectangle, 200, 150, 200, 200);
 shape.getTextFrame().setText("3D");
@@ -77,10 +79,12 @@ try {
 ### क्या 3D रेंडरिंग क्षमताओं की कोई सीमाएं हैं?
 जबकि Aspose.Slides उन्नत 3D रेंडरिंग सुविधाएं प्रदान करता है, प्रदर्शन संबंधी निहितार्थों पर विचार करना आवश्यक है, विशेष रूप से जटिल दृश्यों या बड़ी प्रस्तुतियों के साथ काम करते समय।
 ### मैं Aspose.Slides के लिए अतिरिक्त संसाधन और समर्थन कहां पा सकता हूं?
- आप यहां जा सकते हैं[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) सहायता, दस्तावेज़ीकरण और सामुदायिक समर्थन के लिए।
+आप यहां जा सकते हैं [Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) सहायता, दस्तावेज़ीकरण और सामुदायिक समर्थन के लिए।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

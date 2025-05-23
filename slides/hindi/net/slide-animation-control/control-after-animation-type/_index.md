@@ -1,14 +1,16 @@
 ---
-title: Aspose.Slides के साथ PowerPoint में एनीमेशन के बाद के प्रभावों में महारत हासिल करें
-linktitle: स्लाइड में एनीमेशन टाइप के बाद नियंत्रण
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: Aspose.Slides for .NET का उपयोग करके PowerPoint स्लाइड में एनीमेशन के बाद के प्रभावों को नियंत्रित करना सीखें। गतिशील दृश्य तत्वों के साथ अपनी प्रस्तुतियों को बेहतर बनाएँ।
-weight: 11
-url: /hi/net/slide-animation-control/control-after-animation-type/
+"description": "Aspose.Slides for .NET का उपयोग करके PowerPoint स्लाइड में एनीमेशन के बाद के प्रभावों को नियंत्रित करना सीखें। गतिशील दृश्य तत्वों के साथ अपनी प्रस्तुतियों को बेहतर बनाएँ।"
+"linktitle": "स्लाइड में एनीमेशन टाइप के बाद नियंत्रण"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "Aspose.Slides के साथ PowerPoint में एनीमेशन के बाद के प्रभावों में महारत हासिल करें"
+"url": "/hi/net/slide-animation-control/control-after-animation-type/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Slides के साथ PowerPoint में एनीमेशन के बाद के प्रभावों में महारत हासिल करें
@@ -18,7 +20,7 @@ url: /hi/net/slide-animation-control/control-after-animation-type/
 ## आवश्यक शर्तें
 इससे पहले कि हम ट्यूटोरियल में आगे बढ़ें, सुनिश्चित करें कि आपके पास निम्नलिखित चीजें मौजूद हैं:
 - C# और .NET प्रोग्रामिंग का बुनियादी ज्ञान।
--  Aspose.Slides for .NET लाइब्रेरी स्थापित है। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET लाइब्रेरी स्थापित है। आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/net/).
 - एक एकीकृत विकास वातावरण (IDE) जैसे कि विजुअल स्टूडियो.
 ## नामस्थान आयात करें
 Aspose.Slides कार्यक्षमताओं तक पहुँचने के लिए आवश्यक नामस्थानों को आयात करके शुरू करें। अपने कोड में निम्न पंक्तियाँ जोड़ें:
@@ -88,14 +90,16 @@ pres.Save(outPath, SaveFormat.Pptx);
 ### क्या Aspose.Slides .NET के नवीनतम संस्करणों के साथ संगत है?
 हां, नवीनतम .NET फ्रेमवर्क संस्करणों के साथ संगतता सुनिश्चित करने के लिए Aspose.Slides को नियमित रूप से अपडेट किया जाता है।
 ### मैं Aspose.Slides का उपयोग करके स्लाइड्स में कस्टम एनिमेशन कैसे जोड़ सकता हूँ?
- दस्तावेज़ देखें[यहाँ](https://reference.aspose.com/slides/net/) कस्टम एनिमेशन जोड़ने के बारे में विस्तृत जानकारी के लिए.
+दस्तावेज़ देखें [यहाँ](https://reference.aspose.com/slides/net/) कस्टम एनिमेशन जोड़ने के बारे में विस्तृत जानकारी के लिए.
 ### प्रस्तुतियों को सहेजने के लिए Aspose.Slides किस फ़ाइल स्वरूप का समर्थन करता है?
 Aspose.Slides विभिन्न प्रारूपों का समर्थन करता है, जिसमें PPTX, PPT, PDF, और बहुत कुछ शामिल है। पूरी सूची के लिए दस्तावेज़ देखें।
 ### मैं Aspose.Slides से संबंधित सहायता कहां से प्राप्त कर सकता हूं या प्रश्न कहां पूछ सकता हूं?
- दौरा करना[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) समर्थन और सामुदायिक संपर्क के लिए।
+दौरा करना [Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) समर्थन और सामुदायिक संपर्क के लिए।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

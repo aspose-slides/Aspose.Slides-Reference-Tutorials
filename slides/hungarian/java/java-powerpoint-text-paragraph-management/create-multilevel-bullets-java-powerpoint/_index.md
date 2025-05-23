@@ -1,63 +1,65 @@
 ---
-title: Többszintű felsorolásjelek létrehozása a Java PowerPointban
-linktitle: Többszintű felsorolásjelek létrehozása a Java PowerPointban
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan hozhat létre többszintű felsorolásjeleket a PowerPointban az Aspose.Slides for Java használatával. Lépésről lépésre, kódpéldákkal és GYIK-vel.
-weight: 14
-url: /hu/java/java-powerpoint-text-paragraph-management/create-multilevel-bullets-java-powerpoint/
+"description": "Tanuld meg, hogyan hozhatsz létre többszintű felsorolásjeleket PowerPointban az Aspose.Slides for Java használatával. Lépésről lépésre útmutató kódpéldákkal és GYIK-kel."
+"linktitle": "Többszintű felsorolásjelek létrehozása Java PowerPointban"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Többszintű felsorolásjelek létrehozása Java PowerPointban"
+"url": "/hu/java/java-powerpoint-text-paragraph-management/create-multilevel-bullets-java-powerpoint/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Többszintű felsorolásjelek létrehozása a Java PowerPointban
+# Többszintű felsorolásjelek létrehozása Java PowerPointban
 
 ## Bevezetés
-Ebben az oktatóanyagban megvizsgáljuk, hogyan hozhat létre többszintű felsorolásjeleket PowerPoint-prezentációkban az Aspose.Slides for Java használatával. A felsorolásjelek hozzáadása általános követelmény a rendezett és tetszetős tartalom létrehozásához a prezentációkban. Lépésről lépésre végig fogjuk menni a folyamaton, biztosítva, hogy ennek az útmutatónak a végére készen álljon arra, hogy prezentációit több szinten strukturált felsoroláspontokkal bővítse.
+Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan hozhatsz létre többszintű felsorolásjeleket PowerPoint prezentációkban az Aspose.Slides for Java használatával. A felsorolásjelek hozzáadása gyakori követelmény a prezentációkban szervezett és vizuálisan vonzó tartalom létrehozásához. Lépésről lépésre végigvezetjük a folyamaton, biztosítva, hogy az útmutató végére felkészült legyél arra, hogy több szinten strukturált felsorolásjelekkel gazdagítsd prezentációidat.
 ## Előfeltételek
-Mielőtt elkezdené, győződjön meg arról, hogy beállította a következőket:
-- Java fejlesztői környezet: Győződjön meg arról, hogy a Java Development Kit (JDK) telepítve van a rendszeren.
--  Aspose.Slides for Java Library: Töltse le és telepítse az Aspose.Slides for Java-t innen[itt](https://releases.aspose.com/slides/java/).
-- IDE: Használja az előnyben részesített Java integrált fejlesztőkörnyezetet (IDE), például az IntelliJ IDEA-t, az Eclipse-t vagy másokat.
-- Alapvető ismeretek: Hasznos lesz a Java programozás és az alapvető PowerPoint fogalmak ismerete.
+Mielőtt elkezdenénk, győződjünk meg róla, hogy a következőket beállítottuk:
+- Java fejlesztői környezet: Győződjön meg arról, hogy a Java Development Kit (JDK) telepítve van a rendszerén.
+- Aspose.Slides Java-hoz könyvtár: Töltse le és telepítse az Aspose.Slides Java-hoz fájlt innen: [itt](https://releases.aspose.com/slides/java/).
+- IDE: Használja a kívánt Java integrált fejlesztői környezetet (IDE), például az IntelliJ IDEA-t, az Eclipse-t vagy másokat.
+- Alapismeretek: A Java programozásban és az alapvető PowerPoint-fogalmakban való jártasság előnyt jelent.
 
 ## Csomagok importálása
-Mielőtt belemerülnénk az oktatóanyagba, importáljuk a szükséges csomagokat az Aspose.Slides for Java-ból, amelyeket az oktatóanyagban végig fogunk használni.
+Mielőtt belevágnánk az oktatóanyagba, importáljuk a szükséges csomagokat az Aspose.Slides for Java-ból, amelyeket a bemutató során használni fogunk.
 ```java
 import com.aspose.slides.*;
 import java.awt.*;
 import java.io.File;
 ```
-## 1. lépés: Állítsa be projektjét
-Először hozzon létre egy új Java-projektet az IDE-ben, és adja hozzá az Aspose.Slides for Java-t a projekt függőségeihez. Győződjön meg arról, hogy a szükséges Aspose.Slides JAR fájl szerepel a projekt összeállítási útvonalában.
+## 1. lépés: A projekt beállítása
+Először hozz létre egy új Java projektet az IDE-ben, és add hozzá az Aspose.Slides for Java fájlt a projekt függőségeihez. Győződj meg róla, hogy a szükséges Aspose.Slides JAR fájl szerepel a projekt build útvonalában.
 ```java
 // A dokumentumok könyvtárának elérési útja.
 String dataDir = "Your Document Directory";
 ```
-## 2. lépés: Inicializálja a bemutató objektumot
-Kezdje egy új bemutatópéldány létrehozásával. Ez PowerPoint-dokumentumként fog szolgálni, ahol diákat és tartalmat adhat hozzá.
+## 2. lépés: A prezentációs objektum inicializálása
+Kezdj egy új prezentációs példány létrehozásával. Ez lesz a PowerPoint dokumentumod, ahová diákat és tartalmat adhatsz hozzá.
 ```java
 Presentation pres = new Presentation();
 ```
-## 3. lépés: Nyissa meg a diát
-Ezután nyissa meg azt a diát, amelyhez a többszintű felsorolásjeleket hozzá szeretné adni. Ebben a példában az első diával (`Slide(0)`).
+## 3. lépés: Hozzáférés a diavetítéshez
+Ezután lépjen arra a diára, amelyhez hozzá szeretné adni a többszintű felsorolásjeleket. Ebben a példában az első diával fogunk dolgozni (`Slide(0)`).
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
 ```
-## 4. lépés: Adjon hozzá AutoShape-t szövegkerettel
-Adjon hozzá egy AutoShape-t a diához, ahol többszintű felsorolásjelekkel fogja elhelyezni a szöveget.
+## 4. lépés: Automatikus alakzat hozzáadása szövegkerettel
+Adjon hozzá egy alakzatot a diához, ahová a többszintű felsorolásjelekkel el szeretné helyezni a szöveget.
 ```java
 IAutoShape aShp = slide.getShapes().addAutoShape(ShapeType.Rectangle, 200, 200, 400, 200);
 ```
-## 5. lépés: Szövegkeret elérése
-Hozzáférés a szövegkerethez az AutoShape-on belül, ahol felsoroláspontokat tartalmazó bekezdéseket adhat hozzá.
+## 5. lépés: Hozzáférés a szövegkerethez
+Nyissa meg a szövegkeretet az alakzaton belül, ahová felsorolásjelekkel ellátott bekezdéseket szeretne hozzáadni.
 ```java
 ITextFrame text = aShp.addTextFrame("");
-text.getParagraphs().clear(); //Alapértelmezett bekezdések törlése
+text.getParagraphs().clear(); // Alapértelmezett bekezdések törlése
 ```
 ## 6. lépés: Bekezdések hozzáadása felsorolásjelekkel
-Adjon hozzá bekezdéseket különböző szintű felsorolásokkal. Többszintű felsorolásjeleket a következőképpen adhat hozzá:
+Különböző szintű felsorolásjelekkel ellátott bekezdések hozzáadása. Így adhatsz hozzá többszintű felsorolásjeleket:
 ```java
 // Első szint
 IParagraph para1 = new Paragraph();
@@ -96,28 +98,30 @@ para4.getParagraphFormat().getDefaultPortionFormat().getFillFormat().getSolidFil
 para4.getParagraphFormat().setDepth((short) 3);
 text.getParagraphs().add(para4);
 ```
-## 7. lépés: Mentse el a bemutatót
-Végül mentse a prezentációt PPTX fájlként a kívánt könyvtárba.
+## 7. lépés: Mentse el a prezentációt
+Végül mentse el a prezentációt PPTX fájlként a kívánt könyvtárba.
 ```java
 pres.save(dataDir + "MultilevelBullet.pptx", SaveFormat.Pptx);
 ```
 
 ## Következtetés
-Ebben az oktatóanyagban bemutattuk, hogyan hozhat létre többszintű felsorolásjeleket PowerPoint-prezentációkban az Aspose.Slides for Java használatával. Ha követi ezeket a lépéseket, hatékonyan strukturálhatja tartalmát különböző szinteken rendezett felsoroláspontokkal, javítva prezentációinak tisztaságát és vizuális vonzerejét.
+Ebben az oktatóanyagban azt tárgyaltuk, hogyan hozhatsz létre többszintű felsorolásjeleket PowerPoint-prezentációkban az Aspose.Slides for Java használatával. Ezeket a lépéseket követve hatékonyan strukturálhatod a tartalmaidat különböző szinteken elhelyezett, rendezett felsorolásjelekkel, ami javítja a prezentációid érthetőségét és vizuális vonzerejét.
 ## GYIK
-### Testreszabhatom a felsorolásjeleket?
-Igen, személyre szabhatja a felsorolásjeleket a Unicode karakterek beállításával vagy különböző alakzatok használatával.
-### Az Aspose.Slides támogat más golyótípusokat?
-Igen, az Aspose.Slides számos felsorolástípust támogat, beleértve a szimbólumokat, számokat és egyéni képeket.
+### Testreszabhatom a felsorolásjeleket tovább?
+Igen, testreszabhatja a felsorolásjeleket az Unicode karakterek módosításával vagy különböző alakzatok használatával.
+### Az Aspose.Slides támogat más felsorolásjeleket is?
+Igen, az Aspose.Slides számos felsorolásjel-típust támogat, beleértve a szimbólumokat, számokat és egyéni képeket.
 ### Az Aspose.Slides kompatibilis a PowerPoint összes verziójával?
-Az Aspose.Slides a Microsoft PowerPoint 2007 és újabb verzióival kompatibilis prezentációkat hoz létre.
-### Automatizálhatom a diák létrehozását az Aspose.Slides segítségével?
-Igen, az Aspose.Slides API-kat biztosít a PowerPoint-prezentációk létrehozásának, módosításának és kezelésének automatizálásához.
-### Hol kaphatok támogatást az Aspose.Slides for Java számára?
- Támogatást kaphat az Aspose.Slides közösségtől és szakértőktől a címen[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11).
+Az Aspose.Slides olyan prezentációkat generál, amelyek kompatibilisek a Microsoft PowerPoint 2007-es és újabb verzióival.
+### Automatizálhatom a diák generálását az Aspose.Slides használatával?
+Igen, az Aspose.Slides API-kat biztosít a PowerPoint-bemutatók létrehozásának, módosításának és kezelésének automatizálásához.
+### Hol kaphatok támogatást az Aspose.Slides for Java-hoz?
+Az Aspose.Slides közösségétől és szakértőitől támogatást kaphatsz a következő címen: [Aspose.Slides fórum](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

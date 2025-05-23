@@ -1,14 +1,16 @@
 ---
-title: जावा का उपयोग करके छाया में पाठ की पारदर्शिता सेट करें
-linktitle: जावा का उपयोग करके छाया में पाठ की पारदर्शिता सेट करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Java के लिए Aspose.Slides का उपयोग करके PowerPoint में टेक्स्ट छाया पारदर्शिता को समायोजित करना सीखें। अपने प्रस्तुतीकरण को प्रोग्रामेटिक रूप से बेहतर बनाएँ।
-weight: 20
-url: /hi/java/java-powerpoint-text-font-customization/set-transparency-text-shadow-java/
+"description": "Java के लिए Aspose.Slides का उपयोग करके PowerPoint में टेक्स्ट छाया पारदर्शिता को समायोजित करना सीखें। अपने प्रस्तुतीकरण को प्रोग्रामेटिक रूप से बेहतर बनाएँ।"
+"linktitle": "जावा का उपयोग करके छाया में पाठ की पारदर्शिता सेट करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा का उपयोग करके छाया में पाठ की पारदर्शिता सेट करें"
+"url": "/hi/java/java-powerpoint-text-font-customization/set-transparency-text-shadow-java/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा का उपयोग करके छाया में पाठ की पारदर्शिता सेट करें
@@ -18,7 +20,7 @@ url: /hi/java/java-powerpoint-text-font-customization/set-transparency-text-shad
 ## आवश्यक शर्तें
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 1. जावा डेवलपमेंट किट (JDK): Java के लिए Aspose.Slides को JDK 1.8 या बाद के संस्करण की आवश्यकता है।
-2. Aspose.Slides for Java JAR: यहाँ से नवीनतम Aspose.Slides for Java लाइब्रेरी डाउनलोड करें[यहाँ](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides for Java JAR: यहाँ से नवीनतम Aspose.Slides for Java लाइब्रेरी डाउनलोड करें [यहाँ](https://releases.aspose.com/slides/java/).
 3. एकीकृत विकास वातावरण (IDE): जावा विकास के लिए अपनी पसंद का IDE, जैसे IntelliJ IDEA या Eclipse, का उपयोग करें।
 4. जावा प्रोग्रामिंग की बुनियादी समझ: जावा सिंटैक्स और ऑब्जेक्ट-ओरिएंटेड प्रोग्रामिंग अवधारणाओं से परिचित होना।
 
@@ -35,7 +37,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "transparency.pptx");
 ```
 ## चरण 2: आकृति और टेक्स्ट फ़्रेम तक पहुँचें
-उस विशिष्ट आकृति (जैसे, ऑटोशेप) को पहचानें जिसमें वह छाया वाला पाठ शामिल है जिसे आप संशोधित करना चाहते हैं।
+उस विशिष्ट आकृति (जैसे, ऑटोशेप) को पहचानें जिसमें वह छाया वाला पाठ है जिसे आप संशोधित करना चाहते हैं।
 ```java
 IAutoShape shape = (IAutoShape) pres.getSlides().get_Item(0).getShapes().get_Item(0);
 ```
@@ -69,16 +71,18 @@ pres.save(dataDir + "transparency-2.pptx", SaveFormat.Pptx);
 ### Java के लिए Aspose.Slides क्या है?
 Aspose.Slides for Java एक मजबूत Java API है जो डेवलपर्स को प्रोग्रामेटिक रूप से PowerPoint प्रस्तुतियों को बनाने, हेरफेर करने और परिवर्तित करने की अनुमति देता है।
 ### मैं Java के लिए Aspose.Slides कैसे डाउनलोड कर सकता हूँ?
- आप Java के लिए Aspose.Slides को यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+आप Java के लिए Aspose.Slides को यहां से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 ### क्या Aspose.Slides for Java के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
- हां, आप यहां से निःशुल्क परीक्षण संस्करण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप यहां से निःशुल्क परीक्षण संस्करण प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/).
 ### मैं Aspose.Slides for Java के लिए दस्तावेज़ कहां पा सकता हूं?
- Aspose.Slides for Java का दस्तावेज़ यहां पाया जा सकता है[यहाँ](https://reference.aspose.com/slides/java/).
+Aspose.Slides for Java का दस्तावेज़ यहां पाया जा सकता है [यहाँ](https://reference.aspose.com/slides/java/).
 ### मैं Java के लिए Aspose.Slides के लिए समर्थन कैसे प्राप्त कर सकता हूं?
- समर्थन और सामुदायिक संपर्क के लिए, Aspose.Slides फ़ोरम पर जाएँ[यहाँ](https://forum.aspose.com/c/slides/11).
+समर्थन और सामुदायिक संपर्क के लिए, Aspose.Slides फ़ोरम पर जाएँ [यहाँ](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

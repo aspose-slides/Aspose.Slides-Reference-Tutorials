@@ -1,30 +1,32 @@
 ---
-title: Điểm đánh dấu mặc định trong biểu đồ trong Java Slides
-linktitle: Điểm đánh dấu mặc định trong biểu đồ trong Java Slides
-second_title: Aspose.Slides API xử lý PowerPoint Java
-description: Tìm hiểu cách tạo Trang trình bày Java với các điểm đánh dấu mặc định trong biểu đồ bằng Aspose.Slides cho Java. Hướng dẫn từng bước với mã nguồn.
-weight: 16
-url: /vi/java/chart-data-manipulation/default-markers-in-chart-java-slides/
+"description": "Tìm hiểu cách tạo Java Slides với các điểm đánh dấu mặc định trong biểu đồ bằng Aspose.Slides for Java. Hướng dẫn từng bước có mã nguồn."
+"linktitle": "Các điểm đánh dấu mặc định trong biểu đồ trong Java Slides"
+"second_title": "API xử lý PowerPoint Java của Aspose.Slides"
+"title": "Các điểm đánh dấu mặc định trong biểu đồ trong Java Slides"
+"url": "/vi/java/chart-data-manipulation/default-markers-in-chart-java-slides/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Điểm đánh dấu mặc định trong biểu đồ trong Java Slides
+# Các điểm đánh dấu mặc định trong biểu đồ trong Java Slides
 
 
-## Giới thiệu về Điểm đánh dấu mặc định trong biểu đồ trong Java Slides
+## Giới thiệu về các điểm đánh dấu mặc định trong biểu đồ trong Java Slides
 
-Trong hướng dẫn này, chúng ta sẽ khám phá cách tạo biểu đồ với các điểm đánh dấu mặc định bằng Aspose.Slides cho Java. Điểm đánh dấu mặc định là các ký hiệu hoặc hình dạng được thêm vào các điểm dữ liệu trong biểu đồ để làm nổi bật chúng. Chúng ta sẽ tạo một biểu đồ đường có các điểm đánh dấu để trực quan hóa dữ liệu.
+Trong hướng dẫn này, chúng ta sẽ khám phá cách tạo biểu đồ với các điểm đánh dấu mặc định bằng Aspose.Slides for Java. Các điểm đánh dấu mặc định là các ký hiệu hoặc hình dạng được thêm vào các điểm dữ liệu trong biểu đồ để làm nổi bật chúng. Chúng ta sẽ tạo biểu đồ đường với các điểm đánh dấu để trực quan hóa dữ liệu.
 
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu, hãy đảm bảo bạn đã cài đặt và thiết lập thư viện Aspose.Slides for Java trong dự án Java của mình.
 
-## Bước 1: Tạo bản trình bày
+## Bước 1: Tạo bài thuyết trình
 
-Đầu tiên, hãy tạo một bài thuyết trình và thêm một slide vào đó. Sau đó chúng ta sẽ thêm biểu đồ vào slide.
+Trước tiên, hãy tạo một bài thuyết trình và thêm một slide vào đó. Sau đó, chúng ta sẽ thêm một biểu đồ vào slide.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -32,9 +34,9 @@ Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
 ```
 
-## Bước 2: Thêm biểu đồ đường bằng điểm đánh dấu
+## Bước 2: Thêm biểu đồ đường có đánh dấu
 
-Bây giờ, hãy thêm biểu đồ đường có điểm đánh dấu vào trang chiếu. Chúng tôi cũng sẽ xóa mọi dữ liệu mặc định khỏi biểu đồ.
+Bây giờ, hãy thêm biểu đồ đường có đánh dấu vào slide. Chúng ta cũng sẽ xóa mọi dữ liệu mặc định khỏi biểu đồ.
 
 ```java
 IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 10, 10, 400, 400);
@@ -44,12 +46,12 @@ chart.getChartData().getCategories().clear();
 
 ## Bước 3: Điền dữ liệu biểu đồ
 
-Chúng tôi sẽ điền vào biểu đồ dữ liệu mẫu. Trong ví dụ này, chúng tôi sẽ tạo hai chuỗi có điểm dữ liệu và danh mục.
+Chúng tôi sẽ điền dữ liệu mẫu vào biểu đồ. Trong ví dụ này, chúng tôi sẽ tạo hai chuỗi với các điểm dữ liệu và danh mục.
 
 ```java
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
-// Loạt 1
+// Phần 1
 chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"));
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 chart.getChartData().getCategories().add(fact.getCell(0, 1, 0, "C1"));
@@ -61,11 +63,11 @@ series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 3, 1, -10));
 chart.getChartData().getCategories().add(fact.getCell(0, 4, 0, "C4"));
 series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 4, 1, null));
 
-// Loạt 2
+// Phần 2
 chart.getChartData().getSeries().add(fact.getCell(0, 0, 2, "Series 2"));
 IChartSeries series2 = chart.getChartData().getSeries().get_Item(1);
 
-// Đang điền dữ liệu chuỗi
+// Điền dữ liệu chuỗi
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 1, 2, 30));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 2, 2, 10));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 3, 2, 60));
@@ -74,7 +76,7 @@ series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 4, 2, 40));
 
 ## Bước 4: Tùy chỉnh biểu đồ
 
-Bạn có thể tùy chỉnh thêm biểu đồ, chẳng hạn như thêm chú giải và điều chỉnh hình thức của nó.
+Bạn có thể tùy chỉnh biểu đồ thêm nữa, chẳng hạn như thêm chú giải và điều chỉnh giao diện của biểu đồ.
 
 ```java
 chart.setLegend(true);
@@ -83,15 +85,15 @@ chart.getLegend().setOverlay(false);
 
 ## Bước 5: Lưu bài thuyết trình
 
-Cuối cùng, lưu bài thuyết trình cùng biểu đồ vào vị trí mà bạn mong muốn.
+Cuối cùng, lưu bản trình bày có biểu đồ vào vị trí bạn mong muốn.
 
 ```java
 pres.save(dataDir + "DefaultMarkersInChart.pptx", SaveFormat.Pptx);
 ```
 
-Đó là nó! Bạn đã tạo biểu đồ dạng đường với các điểm đánh dấu mặc định bằng Aspose.Slides cho Java.
+Vậy là xong! Bạn đã tạo xong biểu đồ đường với các điểm đánh dấu mặc định bằng Aspose.Slides for Java.
 
-## Mã nguồn hoàn chỉnh cho các điểm đánh dấu mặc định trong biểu đồ trong Java Slides
+## Mã nguồn đầy đủ cho các điểm đánh dấu mặc định trong biểu đồ trong Java Slides
 
 ```java
         // Đường dẫn đến thư mục tài liệu.
@@ -115,9 +117,9 @@ pres.save(dataDir + "DefaultMarkersInChart.pptx", SaveFormat.Pptx);
             chart.getChartData().getCategories().add(fact.getCell(0, 4, 0, "C4"));
             series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 4, 1, null));
             chart.getChartData().getSeries().add(fact.getCell(0, 0, 2, "Series 2"), chart.getType());
-            //Lấy loạt biểu đồ thứ hai
+            //Lấy chuỗi biểu đồ thứ hai
             IChartSeries series2 = chart.getChartData().getSeries().get_Item(1);
-            //Hiện đang điền dữ liệu chuỗi
+            //Đang điền dữ liệu chuỗi
             series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 1, 2, 30));
             series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 2, 2, 10));
             series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 3, 2, 60));
@@ -133,24 +135,26 @@ pres.save(dataDir + "DefaultMarkersInChart.pptx", SaveFormat.Pptx);
 ```
 ## Phần kết luận
 
-Trong hướng dẫn toàn diện này, bạn đã học cách tạo Java Slides với các điểm đánh dấu mặc định trong biểu đồ bằng Aspose.Slides cho Java. Chúng tôi đã thực hiện toàn bộ quá trình, từ thiết lập bản trình bày đến tùy chỉnh giao diện của biểu đồ và lưu kết quả.
+Trong hướng dẫn toàn diện này, bạn đã học cách tạo Java Slides với các điểm đánh dấu mặc định trong biểu đồ bằng Aspose.Slides for Java. Chúng tôi đã đề cập đến toàn bộ quá trình, từ thiết lập bản trình bày đến tùy chỉnh giao diện của biểu đồ và lưu kết quả.
 
 ## Câu hỏi thường gặp
 
-### Làm cách nào để thay đổi các ký hiệu đánh dấu?
+### Làm thế nào để tôi có thể thay đổi ký hiệu đánh dấu?
 
-Bạn có thể tùy chỉnh các ký hiệu điểm đánh dấu bằng cách đặt kiểu điểm đánh dấu cho từng điểm dữ liệu. Sử dụng`IDataPoint.setMarkerStyle()` để thay đổi biểu tượng đánh dấu.
+Bạn có thể tùy chỉnh các ký hiệu đánh dấu bằng cách thiết lập kiểu đánh dấu cho từng điểm dữ liệu. Sử dụng `IDataPoint.setMarkerStyle()` để thay đổi ký hiệu đánh dấu.
 
-### Làm cách nào để điều chỉnh màu sắc của biểu đồ?
+### Làm thế nào để điều chỉnh màu sắc của biểu đồ?
 
- Để sửa đổi màu sắc của biểu đồ, bạn có thể sử dụng`IChartSeriesFormat` Và`IShapeFillFormat` giao diện để thiết lập thuộc tính điền và dòng.
+Để sửa đổi màu sắc của biểu đồ, bạn có thể sử dụng `IChartSeriesFormat` Và `IShapeFillFormat` giao diện để thiết lập các thuộc tính tô và đường kẻ.
 
 ### Tôi có thể thêm nhãn vào điểm dữ liệu không?
 
- Có, bạn có thể thêm nhãn vào điểm dữ liệu bằng cách sử dụng`IDataPoint.getLabel()` phương pháp và tùy chỉnh chúng khi cần thiết.
+Có, bạn có thể thêm nhãn vào các điểm dữ liệu bằng cách sử dụng `IDataPoint.getLabel()` phương pháp và tùy chỉnh chúng khi cần thiết.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

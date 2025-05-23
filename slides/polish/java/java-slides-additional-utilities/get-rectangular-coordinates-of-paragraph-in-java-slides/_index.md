@@ -1,28 +1,30 @@
 ---
-title: Uzyskaj prostokątne współrzędne akapitu w slajdach Java
-linktitle: Uzyskaj prostokątne współrzędne akapitu w slajdach Java
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Dowiedz się, jak odzyskać współrzędne akapitu w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku z kodem źródłowym, aby uzyskać dokładne pozycjonowanie.
-weight: 13
-url: /pl/java/additional-utilities/get-rectangular-coordinates-of-paragraph-in-java-slides/
+"description": "Dowiedz się, jak pobierać współrzędne akapitu w prezentacjach PowerPoint za pomocą Aspose.Slides for Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku z kodem źródłowym, aby uzyskać dokładne pozycjonowanie."
+"linktitle": "Pobierz prostokątne współrzędne akapitu w slajdach Java"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Pobierz prostokątne współrzędne akapitu w slajdach Java"
+"url": "/pl/java/additional-utilities/get-rectangular-coordinates-of-paragraph-in-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Uzyskaj prostokątne współrzędne akapitu w slajdach Java
+# Pobierz prostokątne współrzędne akapitu w slajdach Java
 
 
-## Wprowadzenie do pobierania współrzędnych prostokątnych akapitu w Aspose.Slides dla Java
+## Wprowadzenie do pobierania prostokątnych współrzędnych akapitu w Aspose.Slides dla Java
 
-W tym samouczku pokażemy, jak pobrać prostokątne współrzędne akapitu w prezentacji programu PowerPoint przy użyciu interfejsu API Aspose.Slides for Java. Wykonując poniższe kroki, możesz programowo uzyskać położenie i wymiary akapitu na slajdzie.
+tym samouczku pokażemy, jak pobrać prostokątne współrzędne akapitu w prezentacji PowerPoint za pomocą interfejsu API Aspose.Slides for Java. Wykonując poniższe kroki, możesz programowo uzyskać pozycję i wymiary akapitu w slajdzie.
 
-## Warunki wstępne
+## Wymagania wstępne
 
- Zanim zaczniemy, upewnij się, że masz zainstalowaną i skonfigurowaną bibliotekę Aspose.Slides for Java w swoim środowisku programistycznym Java. Można go pobrać z[Tutaj](https://downloads.aspose.com/slides/java).
+Zanim zaczniemy, upewnij się, że biblioteka Aspose.Slides for Java jest zainstalowana i skonfigurowana w środowisku programistycznym Java. Możesz ją pobrać ze strony [Tutaj](https://downloads.aspose.com/slides/java).
 
-## Krok 1: Zaimportuj niezbędne biblioteki
+## Krok 1: Importuj niezbędne biblioteki
 
 Aby rozpocząć, zaimportuj wymagane biblioteki do pracy z Aspose.Slides w swoim projekcie Java:
 
@@ -36,18 +38,18 @@ import java.awt.geom.Rectangle2D;
 W tym kroku załadujemy prezentację programu PowerPoint zawierającą akapit, którego współrzędne chcemy pobrać.
 
 ```java
-// Ścieżka do pliku prezentacji programu PowerPoint
+// Ścieżka do pliku prezentacji PowerPoint
 String presentationPath = "YourPresentation.pptx";
 
 // Załaduj prezentację
 Presentation presentation = new Presentation(presentationPath);
 ```
 
- Pamiętaj o wymianie`"YourPresentation.pptx"` z rzeczywistą ścieżką do pliku programu PowerPoint.
+Pamiętaj o wymianie `"YourPresentation.pptx"` z rzeczywistą ścieżką do pliku PowerPoint.
 
 ## Krok 3: Pobierz współrzędne akapitu
 
-Teraz uzyskamy dostęp do określonego akapitu na slajdzie, wyodrębnimy jego prostokątne współrzędne i wydrukujemy wyniki.
+Teraz uzyskamy dostęp do konkretnego akapitu na slajdzie, wyodrębnimy jego prostokątne współrzędne i wydrukujemy wyniki.
 
 ```java
 try {
@@ -63,12 +65,12 @@ finally
 }
 ```
 
-## Kompletny kod źródłowy umożliwiający uzyskanie prostokątnych współrzędnych akapitu w slajdach Java
+## Kompletny kod źródłowy do uzyskania prostokątnych współrzędnych akapitu w slajdach Java
 
 ```java
 // Ścieżka do katalogu dokumentów.
 String dataDir = "Your Document Directory";
-// Utwórz instancję obiektu Prezentacja reprezentującego plik prezentacji
+// Utwórz obiekt Prezentacja reprezentujący plik prezentacji
 Presentation presentation = new Presentation(dataDir + "Shapes.pptx");
 try
 {
@@ -82,45 +84,47 @@ finally
 }
 ```
 
-Ten fragment kodu pobiera współrzędne prostokątne (X, Y, szerokość i wysokość) pierwszego akapitu w pierwszym kształcie pierwszego slajdu. W razie potrzeby możesz modyfikować indeksy, aby uzyskać dostęp do akapitów w różnych kształtach lub na slajdach.
+Ten fragment kodu pobiera prostokątne współrzędne (X, Y, szerokość i wysokość) pierwszego akapitu w pierwszym kształcie pierwszego slajdu. Możesz modyfikować indeksy, aby uzyskać dostęp do akapitów w różnych kształtach lub slajdach, jeśli to konieczne.
 
 ## Wniosek
 
-tym samouczku nauczyłeś się używać Aspose.Slides for Java do pobierania współrzędnych prostokątnych akapitu w prezentacji programu PowerPoint. Może to być przydatne, gdy trzeba programowo analizować położenie i wymiary tekstu na slajdach lub manipulować nim.
+W tym samouczku nauczyłeś się, jak używać Aspose.Slides dla Java do pobierania prostokątnych współrzędnych akapitu w prezentacji PowerPoint. Może to być przydatne, gdy musisz programowo analizować lub manipulować pozycją i wymiarami tekstu w slajdach.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### Jak uzyskać dostęp do akapitów na slajdzie programu PowerPoint?
+### Jak mogę uzyskać dostęp do akapitów w slajdzie programu PowerPoint?
 
-Aby uzyskać dostęp do akapitów slajdu programu PowerPoint za pomocą Aspose.Slides for Java, wykonaj następujące kroki:
-1. Załaduj prezentację programu PowerPoint.
-2.  Uzyskaj żądany slajd za pomocą`presentation.getSlides().get_Item(slideIndex)`.
-3.  Uzyskaj dostęp do kształtu zawierającego tekst za pomocą`slide.getShapes().get_Item(shapeIndex)`.
-4.  Pobierz ramkę tekstową kształtu za pomocą`shape.getTextFrame()`.
-5.  Uzyskaj dostęp do akapitów w ramce tekstowej za pomocą`textFrame.getParagraphs().get_Item(paragraphIndex)`.
+Aby uzyskać dostęp do akapitów w slajdzie programu PowerPoint za pomocą pakietu Aspose.Slides for Java, wykonaj następujące kroki:
+1. Załaduj prezentację PowerPoint.
+2. Uzyskaj pożądany slajd za pomocą `presentation.getSlides().get_Item(slideIndex)`.
+3. Uzyskaj dostęp do kształtu zawierającego tekst za pomocą `slide.getShapes().get_Item(shapeIndex)`.
+4. Pobierz ramkę tekstową kształtu za pomocą `shape.getTextFrame()`.
+5. Dostęp do akapitów w ramce tekstowej za pomocą `textFrame.getParagraphs().get_Item(paragraphIndex)`.
 
 ### Czy mogę pobrać współrzędne akapitów na wielu slajdach?
 
-Tak, możesz pobrać współrzędne akapitów na wielu slajdach, przeglądając slajdy i kształty, jeśli zajdzie taka potrzeba. Po prostu powtórz proces uzyskiwania dostępu do akapitów w kształcie każdego slajdu, aby uzyskać ich współrzędne.
+Tak, możesz pobrać współrzędne akapitów w wielu slajdach, iterując slajdy i kształty w razie potrzeby. Po prostu powtórz proces uzyskiwania dostępu do akapitów w obrębie kształtu każdego slajdu, aby uzyskać ich współrzędne.
 
 ### Jak programowo manipulować współrzędnymi akapitu?
 
-Po pobraniu współrzędnych akapitu możesz użyć tych informacji do programowego manipulowania położeniem i wymiarami akapitu. Można na przykład zmienić położenie akapitu, dostosować jego szerokość lub wysokość albo wykonać obliczenia w oparciu o jego współrzędne.
+Po pobraniu współrzędnych akapitu możesz użyć tych informacji do programowego manipulowania pozycją i wymiarami akapitu. Na przykład możesz zmienić położenie akapitu, dostosować jego szerokość lub wysokość lub wykonać obliczenia na podstawie jego współrzędnych.
 
 ### Czy Aspose.Slides nadaje się do przetwarzania wsadowego plików PowerPoint?
 
-Tak, Aspose.Slides for Java doskonale nadaje się do przetwarzania wsadowego plików programu PowerPoint. Możesz zautomatyzować zadania, takie jak wyodrębnianie danych, modyfikowanie treści lub wydajne generowanie raportów z wielu prezentacji PowerPoint.
+Tak, Aspose.Slides for Java jest dobrze przystosowany do przetwarzania wsadowego plików PowerPoint. Możesz automatyzować zadania, takie jak wyodrębnianie danych, modyfikowanie treści lub generowanie raportów z wielu prezentacji PowerPoint w wydajny sposób.
 
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji?
 
- Więcej przykładów kodu i szczegółową dokumentację Aspose.Slides for Java można znaleźć na stronie[Dokumentacja Aspose.Slides](https://reference.aspose.com/slides/java/) strona internetowa. Dodatkowo możesz eksplorować[Fora Aspose.Slides](https://forum.aspose.com/c/slides) za wsparcie społeczności i dyskusje.
+Więcej przykładów kodu i szczegółową dokumentację Aspose.Slides dla języka Java można znaleźć na stronie [Dokumentacja Aspose.Slides](https://reference.aspose.com/slides/java/) witryna internetowa. Dodatkowo możesz eksplorować [Fora Aspose.Slides](https://forum.aspose.com/c/slides) w celu uzyskania wsparcia społeczności i dyskusji.
 
 ### Czy potrzebuję licencji, aby używać Aspose.Slides dla Java?
 
-Tak, zazwyczaj potrzebujesz ważnej licencji, aby używać Aspose.Slides for Java w środowisku produkcyjnym. Licencję można uzyskać ze strony internetowej Aspose. Mogą jednak oferować wersję próbną do celów testowania i oceny.
+Tak, zazwyczaj potrzebujesz ważnej licencji, aby używać Aspose.Slides for Java w środowisku produkcyjnym. Licencję możesz uzyskać na stronie internetowej Aspose. Mogą jednak oferować wersję próbną do celów testowych i ewaluacyjnych.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

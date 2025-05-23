@@ -1,79 +1,81 @@
 ---
-title: Uložit jako předdefinovaný typ zobrazení v Java Slides
-linktitle: Uložit jako předdefinovaný typ zobrazení v Java Slides
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Naučte se, jak nastavit předdefinované typy zobrazení v Java Slides pomocí Aspose.Slides for Java. Podrobný průvodce s příklady kódu a často kladenými dotazy.
-weight: 10
-url: /cs/java/saving-options/save-as-predefined-view-type-in-java-slides/
+"description": "Naučte se, jak nastavit předdefinované typy zobrazení v Java Slides pomocí Aspose.Slides pro Javu. Podrobný návod s příklady kódu a častými dotazy."
+"linktitle": "Uložit jako předdefinovaný typ zobrazení v Java Slides"
+"second_title": "API pro zpracování PowerPointu v Javě Aspose.Slides"
+"title": "Uložit jako předdefinovaný typ zobrazení v Java Slides"
+"url": "/cs/java/saving-options/save-as-predefined-view-type-in-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Uložit jako předdefinovaný typ zobrazení v Java Slides
 
 
-## Úvod do Uložit jako předdefinovaný typ zobrazení v Java Slides
+## Úvod do předdefinovaného typu zobrazení Uložit jako v Java Slides
 
-V tomto podrobném průvodci prozkoumáme, jak uložit prezentaci s předdefinovaným typem zobrazení pomocí Aspose.Slides for Java. Poskytneme vám nezbytný kód a vysvětlení k úspěšnému provedení tohoto úkolu.
+V tomto podrobném návodu se podíváme na to, jak uložit prezentaci s předdefinovaným typem zobrazení pomocí Aspose.Slides pro Javu. Poskytneme vám potřebný kód a vysvětlení pro úspěšné provedení tohoto úkolu.
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte následující:
 
 - Základní znalost programování v Javě.
-- Nainstalovaná knihovna Aspose.Slides for Java.
+- Nainstalována knihovna Aspose.Slides pro Javu.
 - Integrované vývojové prostředí (IDE) dle vašeho výběru.
 
-## Nastavení vašeho prostředí
+## Nastavení prostředí
 
-Chcete-li začít, postupujte podle následujících kroků a nastavte vývojové prostředí:
+Chcete-li začít, nastavte si vývojové prostředí podle těchto kroků:
 
-1. Vytvořte nový Java projekt ve vašem IDE.
-2. Přidejte knihovnu Aspose.Slides for Java do svého projektu jako závislost.
+1. Vytvořte nový projekt Java ve vašem IDE.
+2. Přidejte do projektu knihovnu Aspose.Slides pro Javu jako závislost.
 
-Nyní, když je vaše prostředí nastaveno, pojďme pokračovat s kódem.
+Nyní, když je vaše prostředí nastavené, pojďme pokračovat s kódem.
 
 ## Krok 1: Vytvoření prezentace
 
-Abychom předvedli uložení prezentace s předdefinovaným typem pohledu, nejprve vytvoříme novou prezentaci. Zde je kód pro vytvoření prezentace:
+Abychom demonstrovali uložení prezentace s předdefinovaným typem zobrazení, nejprve vytvoříme novou prezentaci. Zde je kód pro vytvoření prezentace:
 
 ```java
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 String dataDir = "Your Document Directory";
 // Otevření souboru prezentace
 Presentation presentation = new Presentation();
 ```
 
- V tomto kódu vytvoříme nový`Presentation` objekt, který představuje naši prezentaci v PowerPointu.
+V tomto kódu vytvoříme nový `Presentation` objekt, který představuje naši prezentaci v PowerPointu.
 
 ## Krok 2: Nastavení typu zobrazení
 
-Dále nastavíme typ zobrazení pro naši prezentaci. Typy zobrazení definují, jak se prezentace zobrazí při otevření. V tomto příkladu jej nastavíme na "Slide Master View". Zde je kód:
+Dále nastavíme typ zobrazení pro naši prezentaci. Typy zobrazení definují, jak se prezentace zobrazí po otevření. V tomto příkladu ji nastavíme na „Zobrazení předlohy snímků“. Zde je kód:
 
 ```java
 // Nastavení typu zobrazení
 presentation.getViewProperties().setLastView(ViewType.SlideMasterView);
 ```
 
- Ve výše uvedeném kódu používáme`setLastView` metoda`ViewProperties` třída pro nastavení typu zobrazení`SlideMasterView`. Podle potřeby můžete zvolit jiné typy zobrazení.
+Ve výše uvedeném kódu používáme `setLastView` metoda `ViewProperties` třída pro nastavení typu zobrazení `SlideMasterView`V případě potřeby si můžete zvolit i jiné typy zobrazení.
 
 ## Krok 3: Uložení prezentace
 
-Nyní, když jsme vytvořili naši prezentaci a nastavili typ zobrazení, je čas prezentaci uložit. Uložíme jej ve formátu PPTX. Zde je kód:
+Nyní, když jsme si vytvořili prezentaci a nastavili typ zobrazení, je čas ji uložit. Uložíme ji ve formátu PPTX. Zde je kód:
 
 ```java
 // Ukládání prezentace
 presentation.save(dataDir + "SetViewType_out.pptx", SaveFormat.Pptx);
 ```
 
- V tomto kódu používáme`save` metoda`Presentation` třídy k uložení prezentace se zadaným názvem souboru a formátem.
+V tomto kódu používáme `save` metoda `Presentation` třída pro uložení prezentace se zadaným názvem souboru a formátem.
 
 ## Kompletní zdrojový kód pro uložení jako předdefinovaný typ zobrazení v Java Slides
 
 ```java
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 String dataDir = "Your Document Directory";
 // Otevření souboru prezentace
 Presentation presentation = new Presentation();
@@ -92,32 +94,34 @@ finally
 
 ## Závěr
 
-V tomto tutoriálu jsme se naučili, jak uložit prezentaci s předdefinovaným typem zobrazení v Javě pomocí Aspose.Slides for Java. Podle poskytnutého kódu a kroků můžete snadno nastavit typ zobrazení vašich prezentací a uložit je v požadovaném formátu.
+tomto tutoriálu jsme se naučili, jak uložit prezentaci s předdefinovaným typem zobrazení v Javě pomocí Aspose.Slides pro Javu. Dodržením poskytnutého kódu a kroků můžete snadno nastavit typ zobrazení vašich prezentací a uložit je v požadovaném formátu.
 
-## FAQ
+## Často kladené otázky
 
-### Jak změním typ zobrazení na něco jiného než "Předlohové zobrazení snímku"?
+### Jak změním typ zobrazení na jiný než „Zobrazení předlohy snímků“?
 
- Chcete-li změnit typ zobrazení na něco jiného než "Předlohové zobrazení snímku", jednoduše nahraďte`ViewType.SlideMasterView` s požadovaným typem pohledu, jako je např`ViewType.NormalView` nebo`ViewType.SlideSorterView`, v kódu, kde nastavujeme typ pohledu.
+Chcete-li změnit typ zobrazení na jiný než „Zobrazení předlohy snímků“, jednoduše nahraďte `ViewType.SlideMasterView` s požadovaným typem zobrazení, například `ViewType.NnebomalView` or `ViewType.SlideSorterView`, v kódu, kde nastavujeme typ zobrazení.
 
 ### Mohu nastavit vlastnosti zobrazení pro jednotlivé snímky v prezentaci?
 
-Ano, můžete nastavit vlastnosti zobrazení pro jednotlivé snímky pomocí Aspose.Slides for Java. Můžete přistupovat a manipulovat s vlastnostmi pro každý snímek samostatně procházením snímků v prezentaci.
+Ano, vlastnosti zobrazení pro jednotlivé snímky můžete nastavit pomocí Aspose.Slides pro Javu. Vlastnosti každého snímku můžete procházet a upravovat je samostatně iterací mezi snímky v prezentaci.
 
-### V jakých dalších formátech mohu svou prezentaci uložit?
+### V jakých dalších formátech mohu uložit svou prezentaci?
 
-Aspose.Slides for Java podporuje různé výstupní formáty, včetně PPTX, PDF, TIFF, HTML a dalších. Požadovaný formát můžete určit při ukládání prezentace pomocí příslušného`SaveFormat` hodnotu enum.
+Aspose.Slides pro Javu podporuje různé výstupní formáty, včetně PPTX, PDF, TIFF, HTML a dalších. Požadovaný formát můžete při ukládání prezentace určit pomocí příslušných `SaveFormat` hodnota výčtu.
 
-### Je Aspose.Slides for Java vhodný pro dávkové zpracování prezentací?
+### Je Aspose.Slides pro Javu vhodný pro dávkové zpracování prezentací?
 
-Ano, Aspose.Slides for Java se dobře hodí pro úlohy dávkového zpracování. Pomocí kódu Java můžete automatizovat zpracování více prezentací, aplikovat změny a hromadně je uložit.
+Ano, Aspose.Slides pro Javu je vhodný pro dávkové zpracování. Můžete automatizovat zpracování více prezentací, aplikovat změny a hromadně je ukládat pomocí kódu Java.
 
-### Kde najdu další informace a dokumentaci k Aspose.Slides for Java?
+### Kde najdu více informací a dokumentaci k Aspose.Slides pro Javu?
 
- Pro komplexní dokumentaci a reference související s Aspose.Slides for Java navštivte prosím webovou stránku s dokumentací:[Aspose.Slides pro dokumentaci Java](https://reference.aspose.com/slides/java/).
+Úplnou dokumentaci a reference týkající se Aspose.Slides pro Javu naleznete na webových stránkách s dokumentací: [Dokumentace k Aspose.Slides pro Javu](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

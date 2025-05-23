@@ -1,14 +1,16 @@
 ---
-title: जावा पावरपॉइंट में एकाधिक पैराग्राफ
-linktitle: जावा पावरपॉइंट में एकाधिक पैराग्राफ
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके Java PowerPoint प्रस्तुतियों में एकाधिक पैराग्राफ़ बनाना सीखें। कोड उदाहरणों के साथ संपूर्ण मार्गदर्शिका।
-weight: 13
-url: /hi/java/java-powerpoint-text-paragraph-management/multiple-paragraphs-java-powerpoint/
+"description": "Aspose.Slides for Java का उपयोग करके Java PowerPoint प्रस्तुतियों में कई पैराग्राफ़ बनाना सीखें। कोड उदाहरणों के साथ संपूर्ण मार्गदर्शिका।"
+"linktitle": "जावा पावरपॉइंट में एकाधिक पैराग्राफ"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा पावरपॉइंट में एकाधिक पैराग्राफ"
+"url": "/hi/java/java-powerpoint-text-paragraph-management/multiple-paragraphs-java-powerpoint/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा पावरपॉइंट में एकाधिक पैराग्राफ
@@ -20,7 +22,7 @@ url: /hi/java/java-powerpoint-text-paragraph-management/multiple-paragraphs-java
 - जावा प्रोग्रामिंग का बुनियादी ज्ञान.
 - JDK (जावा डेवलपमेंट किट) स्थापित.
 - IDE (एकीकृत विकास वातावरण) जैसे कि IntelliJ IDEA या Eclipse स्थापित होना चाहिए।
--  Aspose.Slides for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+- Aspose.Slides for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 ## पैकेज आयात करें
 अपनी जावा फ़ाइल में आवश्यक Aspose.Slides क्लासेस आयात करके प्रारंभ करें:
 ```java
@@ -31,7 +33,7 @@ import java.io.File;
 ## चरण 1: अपना प्रोजेक्ट सेट करें
 सबसे पहले, अपने पसंदीदा IDE में एक नया Java प्रोजेक्ट बनाएं और अपने प्रोजेक्ट के बिल्ड पथ में Aspose.Slides for Java लाइब्रेरी जोड़ें।
 ## चरण 2: प्रस्तुति आरंभ करें
- एक उदाहरण बनाना`Presentation` ऑब्जेक्ट जो एक PowerPoint फ़ाइल का प्रतिनिधित्व करता है:
+एक उदाहरण बनाना `Presentation` ऑब्जेक्ट जो एक PowerPoint फ़ाइल का प्रतिनिधित्व करता है:
 ```java
 // उस निर्देशिका का पथ जहाँ आप प्रस्तुति को सहेजना चाहते हैं
 String dataDir = "Your_Document_Directory/";
@@ -47,7 +49,7 @@ ISlide slide = pres.getSlides().get_Item(0);
 IAutoShape ashp = slide.getShapes().addAutoShape(ShapeType.Rectangle, 50, 150, 300, 150);
 ```
 ## चरण 4: टेक्स्टफ्रेम तक पहुंचें और पैराग्राफ बनाएं
- तक पहुंच`TextFrame` की`AutoShape` और कई पैराग्राफ बनाएं (`IParagraph`) इसके अंदर:
+तक पहुंच `TextFrame` की `AutoShape` और कई पैराग्राफ बनाएं (`IParagraph`) इसके अंदर:
 ```java
 // ऑटोशेप के टेक्स्टफ्रेम तक पहुंचें
 ITextFrame tf = ashp.getTextFrame();
@@ -112,16 +114,18 @@ pres.save(dataDir + "multiParaPort_out.pptx", SaveFormat.Pptx);
 ### क्या मैं बाद में और पैराग्राफ जोड़ सकता हूँ या फ़ॉर्मेटिंग बदल सकता हूँ?
 हां, आप Aspose.Slides की API विधियों का उपयोग करके अधिक से अधिक पैराग्राफ जोड़ सकते हैं और फ़ॉर्मेटिंग को अनुकूलित कर सकते हैं।
 ### मैं और अधिक उदाहरण और दस्तावेज कहां पा सकता हूं?
-आप अधिक उदाहरण और विस्तृत दस्तावेज़ देख सकते हैं[यहाँ](https://reference.aspose.com/slides/java/).
+आप अधिक उदाहरण और विस्तृत दस्तावेज़ देख सकते हैं [यहाँ](https://reference.aspose.com/slides/java/).
 ### क्या Aspose.Slides PowerPoint के सभी संस्करणों के साथ संगत है?
 Aspose.Slides विभिन्न PowerPoint प्रारूपों का समर्थन करता है, जो विभिन्न संस्करणों में संगतता सुनिश्चित करता है।
 ### क्या मैं खरीदने से पहले Aspose.Slides को निःशुल्क आज़मा सकता हूँ?
- हां, आप निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
 ### यदि आवश्यकता पड़े तो मैं तकनीकी सहायता कैसे प्राप्त कर सकता हूँ?
- आप Aspose.Slides समुदाय से सहायता प्राप्त कर सकते हैं[यहाँ](https://forum.aspose.com/c/slides/11).
+आप Aspose.Slides समुदाय से सहायता प्राप्त कर सकते हैं [यहाँ](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

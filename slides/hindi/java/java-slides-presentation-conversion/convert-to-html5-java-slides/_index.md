@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स को HTML5 में बदलें
-linktitle: जावा स्लाइड्स को HTML5 में बदलें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides का उपयोग करके जावा में PowerPoint प्रस्तुतियों को HTML5 में बदलें। चरण-दर-चरण कोड उदाहरणों के साथ रूपांतरण प्रक्रिया को स्वचालित करना सीखें।
-weight: 23
-url: /hi/java/presentation-conversion/convert-to-html5-java-slides/
+"description": "Aspose.Slides का उपयोग करके जावा में PowerPoint प्रस्तुतियों को HTML5 में बदलें। चरण-दर-चरण कोड उदाहरणों के साथ रूपांतरण प्रक्रिया को स्वचालित करना सीखें।"
+"linktitle": "जावा स्लाइड्स को HTML5 में बदलें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स को HTML5 में बदलें"
+"url": "/hi/java/presentation-conversion/convert-to-html5-java-slides/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स को HTML5 में बदलें
@@ -22,7 +24,7 @@ url: /hi/java/presentation-conversion/convert-to-html5-java-slides/
 
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
-1.  Aspose.Slides for Java लाइब्रेरी: आपके प्रोजेक्ट में Aspose.Slides for Java लाइब्रेरी स्थापित होनी चाहिए। आप इसे यहाँ से डाउनलोड कर सकते हैं[Aspose वेबसाइट](https://products.aspose.com/slides/java/).
+1. Aspose.Slides for Java लाइब्रेरी: आपके प्रोजेक्ट में Aspose.Slides for Java लाइब्रेरी स्थापित होनी चाहिए। आप इसे यहाँ से डाउनलोड कर सकते हैं [Aspose वेबसाइट](https://products.aspose.com/slides/java/).
 
 2. जावा विकास वातावरण: सुनिश्चित करें कि आपके सिस्टम पर जावा विकास वातावरण स्थापित है।
 
@@ -38,7 +40,7 @@ import com.aspose.slides.SaveFormat;
 
 ## चरण 2: पावरपॉइंट प्रेजेंटेशन लोड करें
 
- इसके बाद, आपको उस PowerPoint प्रेजेंटेशन को लोड करना होगा जिसे आप HTML5 में बदलना चाहते हैं।`"Your Document Directory"` और`"Demo.pptx"` आपकी प्रस्तुति फ़ाइल का वास्तविक पथ:
+इसके बाद, आपको उस PowerPoint प्रेजेंटेशन को लोड करना होगा जिसे आप HTML5 में बदलना चाहते हैं। `"Your Document Directory"` और `"Demo.pptx"` अपनी प्रस्तुति फ़ाइल के वास्तविक पथ के साथ:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -50,7 +52,7 @@ Presentation pres = new Presentation(dataDir + "Demo.pptx");
 
 ## चरण 3: HTML5 रूपांतरण विकल्प कॉन्फ़िगर करें
 
- आप HTML5 रूपांतरण के लिए विभिन्न विकल्पों को कॉन्फ़िगर कर सकते हैं`Html5Options`क्लास। उदाहरण के लिए, आप आकृति एनिमेशन और स्लाइड ट्रांज़िशन को सक्षम या अक्षम कर सकते हैं। इस उदाहरण में, हम दोनों एनिमेशन सक्षम करेंगे:
+आप HTML5 रूपांतरण के लिए विभिन्न विकल्पों को कॉन्फ़िगर कर सकते हैं `Html5Options` क्लास। उदाहरण के लिए, आप आकृति एनिमेशन और स्लाइड ट्रांज़िशन को सक्षम या अक्षम कर सकते हैं। इस उदाहरण में, हम दोनों एनिमेशन सक्षम करेंगे:
 
 ```java
 Html5Options options = new Html5Options();
@@ -100,20 +102,22 @@ try {
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-### मैं HTML5 आउटपुट को और अधिक कैसे अनुकूलित कर सकता हूँ?
+### मैं HTML5 आउटपुट को और अधिक अनुकूलित कैसे कर सकता हूँ?
 
-आप विकल्पों को समायोजित करके HTML5 आउटपुट को और अधिक अनुकूलित कर सकते हैं`Html5Options` उदाहरण के लिए, आप छवियों की गुणवत्ता नियंत्रित कर सकते हैं, स्लाइड का आकार सेट कर सकते हैं, और बहुत कुछ कर सकते हैं।
+आप विकल्पों को समायोजित करके HTML5 आउटपुट को और अधिक अनुकूलित कर सकते हैं `Html5Options` उदाहरण के लिए, आप छवियों की गुणवत्ता नियंत्रित कर सकते हैं, स्लाइड का आकार सेट कर सकते हैं, और बहुत कुछ कर सकते हैं।
 
 ### क्या मैं Aspose.Slides का उपयोग करके अन्य PowerPoint प्रारूपों, जैसे PPT या PPTM को HTML5 में परिवर्तित कर सकता हूँ?
 
- हां, आप Aspose.Slides का उपयोग करके अन्य PowerPoint प्रारूपों को HTML5 में बदल सकते हैं। बस प्रस्तुति को उचित प्रारूप (जैसे, PPT या PPTM) में लोड करें`Presentation` कक्षा।
+हां, आप Aspose.Slides का उपयोग करके अन्य PowerPoint प्रारूपों को HTML5 में बदल सकते हैं। बस प्रस्तुति को उचित प्रारूप (जैसे, PPT या PPTM) में लोड करें `Presentation` कक्षा।
 
 ### क्या Aspose.Slides नवीनतम Java संस्करणों के साथ संगत है?
 
 Aspose.Slides को नवीनतम जावा संस्करणों का समर्थन करने के लिए नियमित रूप से अपडेट किया जाता है, इसलिए सुनिश्चित करें कि आप लाइब्रेरी के संगत संस्करण का उपयोग कर रहे हैं।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

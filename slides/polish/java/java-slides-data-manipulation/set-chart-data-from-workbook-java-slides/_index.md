@@ -1,30 +1,32 @@
 ---
-title: Ustaw dane wykresu ze skoroszytu w slajdach Java
-linktitle: Ustaw dane wykresu ze skoroszytu w slajdach Java
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Dowiedz się, jak ustawić dane wykresu ze skoroszytu programu Excel w aplikacji Java Slides za pomocą Aspose.Slides. Przewodnik krok po kroku z przykładami kodu do prezentacji dynamicznych.
-weight: 15
-url: /pl/java/data-manipulation/set-chart-data-from-workbook-java-slides/
+"description": "Dowiedz się, jak ustawić dane wykresu z skoroszytu programu Excel w Java Slides przy użyciu Aspose.Slides. Przewodnik krok po kroku z przykładami kodu dla dynamicznych prezentacji."
+"linktitle": "Ustaw dane wykresu z skoroszytu w slajdach Java"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Ustaw dane wykresu z skoroszytu w slajdach Java"
+"url": "/pl/java/data-manipulation/set-chart-data-from-workbook-java-slides/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ustaw dane wykresu ze skoroszytu w slajdach Java
+# Ustaw dane wykresu z skoroszytu w slajdach Java
 
 
-## Wprowadzenie do ustawiania danych wykresu ze skoroszytu w slajdach Java
+## Wprowadzenie do ustawiania danych wykresu z skoroszytu w slajdach Java
 
-Aspose.Slides for Java to potężna biblioteka, która umożliwia programistom programową pracę z prezentacjami programu PowerPoint. Zapewnia rozbudowane funkcje do tworzenia, manipulowania i zarządzania slajdami programu PowerPoint. Jednym z typowych wymagań podczas pracy z prezentacjami jest dynamiczne ustawianie danych wykresu z zewnętrznego źródła danych, takiego jak skoroszyt programu Excel. W tym samouczku pokażemy, jak to osiągnąć za pomocą języka Java.
+Aspose.Slides for Java to potężna biblioteka, która umożliwia programistom programową pracę z prezentacjami PowerPoint. Oferuje ona rozbudowane funkcje tworzenia, manipulowania i zarządzania slajdami PowerPoint. Jednym z powszechnych wymagań podczas pracy z prezentacjami jest dynamiczne ustawianie danych wykresu z zewnętrznego źródła danych, takiego jak skoroszyt programu Excel. W tym samouczku pokażemy, jak to osiągnąć za pomocą języka Java.
 
-## Warunki wstępne
+## Wymagania wstępne
 
-Zanim przejdziemy do wdrożenia, upewnij się, że spełniasz następujące wymagania wstępne:
+Zanim przejdziemy do wdrożenia, upewnij się, że spełnione są następujące wymagania wstępne:
 
-- Zestaw Java Development Kit (JDK) zainstalowany w systemie.
-- Do Twojego projektu dodano bibliotekę Aspose.Slides for Java.
-- Skoroszyt programu Excel zawierający dane, których chcesz użyć na wykresie.
+- Java Development Kit (JDK) zainstalowany w Twoim systemie.
+- Biblioteka Aspose.Slides for Java została dodana do projektu.
+- Skoroszyt programu Excel zawierający dane, których chcesz użyć w wykresie.
 
 ## Krok 1: Utwórz prezentację
 
@@ -33,7 +35,7 @@ String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 ```
 
-Zaczynamy od stworzenia nowej prezentacji PowerPoint przy użyciu Aspose.Slides for Java.
+Zacznijmy od utworzenia nowej prezentacji PowerPoint za pomocą Aspose.Slides dla Java.
 
 ## Krok 2: Dodaj wykres
 
@@ -41,7 +43,7 @@ Zaczynamy od stworzenia nowej prezentacji PowerPoint przy użyciu Aspose.Slides 
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 500, 400);
 ```
 
-Następnie dodajemy wykres do jednego ze slajdów w prezentacji. W tym przykładzie dodajemy wykres kołowy, ale możesz wybrać typ wykresu odpowiadający Twoim potrzebom.
+Następnie dodajemy wykres do jednego ze slajdów prezentacji. W tym przykładzie dodajemy wykres kołowy, ale możesz wybrać typ wykresu, który odpowiada Twoim potrzebom.
 
 ## Krok 3: Wyczyść dane wykresu
 
@@ -49,7 +51,7 @@ Następnie dodajemy wykres do jednego ze slajdów w prezentacji. W tym przykład
 chart.getChartData().getChartDataWorkbook().clear(0);
 ```
 
-Usuwamy z wykresu wszelkie istniejące dane, aby przygotować je na nowe dane ze skoroszytu programu Excel.
+Usuwamy wszelkie istniejące dane z wykresu, aby przygotować go na nowe dane z arkusza kalkulacyjnego programu Excel.
 
 ## Krok 4: Załaduj skoroszyt programu Excel
 
@@ -57,9 +59,9 @@ Usuwamy z wykresu wszelkie istniejące dane, aby przygotować je na nowe dane ze
 Workbook workbook = new Workbook("Your Document Directory";
 ```
 
- Ładujemy skoroszyt Excela, który zawiera dane, które chcemy wykorzystać na wykresie. Zastępować`"book1.xlsx"` ze ścieżką do pliku Excel.
+Ładujemy skoroszyt programu Excel zawierający dane, których chcemy użyć do wykresu. Zastąp `"book1.xlsx"` ze ścieżką do pliku Excel.
 
-## Krok 5: Zapisz strumień skoroszytu do danych wykresu
+## Krok 5: Zapisz strumień skoroszytu na dane wykresu
 
 ```java
 ByteArrayOutputStream mem = new ByteArrayOutputStream();
@@ -68,7 +70,7 @@ mem.flush();
 chart.getChartData().writeWorkbookStream(mem.toByteArray());
 ```
 
-Konwertujemy dane ze skoroszytu programu Excel na strumień i zapisujemy je do danych wykresu.
+Konwertujemy dane z arkusza kalkulacyjnego Excel na strumień i zapisujemy go w danych wykresu.
 
 ## Krok 6: Ustaw zakres danych wykresu
 
@@ -76,7 +78,7 @@ Konwertujemy dane ze skoroszytu programu Excel na strumień i zapisujemy je do d
 chart.getChartData().setRange("Sheet2!$A$1:$B$3");
 ```
 
-Określamy zakres komórek ze skoroszytu Excela, które mają zostać wykorzystane jako dane do wykresu. Dostosuj zakres zgodnie z potrzebami danych.
+Określamy zakres komórek z skoroszytu programu Excel, które powinny być użyte jako dane dla wykresu. Dostosuj zakres zgodnie z potrzebami swoich danych.
 
 ## Krok 7: Dostosuj serię wykresów
 
@@ -85,7 +87,7 @@ IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 series.getParentSeriesGroup().setColorVaried(true);
 ```
 
-Możesz dostosować różne właściwości serii wykresów, aby dopasować je do swoich wymagań. W tym przykładzie umożliwiamy różne kolory serii wykresów.
+Możesz dostosować różne właściwości serii wykresów, aby dopasować je do swoich wymagań. W tym przykładzie włączamy różne kolory dla serii wykresów.
 
 ## Krok 8: Zapisz prezentację
 
@@ -93,9 +95,9 @@ Możesz dostosować różne właściwości serii wykresów, aby dopasować je do
 pres.save(outPath, SaveFormat.Pptx);
 ```
 
-Na koniec zapisujemy prezentację ze zaktualizowanymi danymi wykresu do określonej ścieżki wyjściowej.
+Na koniec zapisujemy prezentację ze zaktualizowanymi danymi wykresu w określonej ścieżce wyjściowej.
 
-## Kompletny kod źródłowy dla zestawu danych wykresu ze skoroszytu w slajdach Java
+## Kompletny kod źródłowy dla zestawu danych wykresu z skoroszytu w slajdach Java
 
 ```java
 String outPath = "Your Output Directory" + "response2.pptx";
@@ -125,32 +127,34 @@ try {
 
 ## Wniosek
 
-tym samouczku nauczyliśmy się, jak ustawiać dane wykresu ze skoroszytu programu Excel w aplikacji Java Slides przy użyciu biblioteki Aspose.Slides for Java. Postępując zgodnie z przewodnikiem krok po kroku i korzystając z dostarczonych przykładów kodu źródłowego, możesz łatwo zintegrować dane wykresów dynamicznych z prezentacjami programu PowerPoint.
+W tym samouczku nauczyliśmy się, jak ustawić dane wykresu z skoroszytu programu Excel w Java Slides przy użyciu biblioteki Aspose.Slides for Java. Postępując zgodnie z przewodnikiem krok po kroku i korzystając z podanych przykładów kodu źródłowego, możesz łatwo zintegrować dynamiczne dane wykresu z prezentacjami PowerPoint.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
 ### Jak mogę dostosować wygląd wykresu w mojej prezentacji?
 
-Możesz dostosować wygląd wykresu, modyfikując właściwości, takie jak kolory, czcionki, etykiety i inne. Szczegółowe informacje na temat opcji dostosowywania wykresów można znaleźć w dokumentacji Aspose.Slides for Java.
+Możesz dostosować wygląd wykresu, modyfikując właściwości, takie jak kolory, czcionki, etykiety i inne. Zapoznaj się z dokumentacją Aspose.Slides for Java, aby uzyskać szczegółowe informacje na temat opcji dostosowywania wykresu.
 
-### Czy do wykresu mogę użyć danych z innego pliku Excel?
+### Czy mogę wykorzystać dane z innego pliku Excela do wykresu?
 
-Tak, możesz wykorzystać dane z dowolnego pliku Excel podając poprawną ścieżkę pliku podczas ładowania skoroszytu w kodzie.
+Tak, możesz wykorzystać dane z dowolnego pliku Excel, podając prawidłową ścieżkę pliku podczas ładowania skoroszytu w kodzie.
 
 ### Jakie inne typy wykresów mogę tworzyć za pomocą Aspose.Slides dla Java?
 
 Aspose.Slides for Java obsługuje różne typy wykresów, w tym wykresy słupkowe, wykresy liniowe, wykresy punktowe i inne. Możesz wybrać typ wykresu, który najlepiej odpowiada Twoim potrzebom w zakresie reprezentacji danych.
 
-### Czy można dynamicznie aktualizować dane wykresu w działającej prezentacji?
+### Czy można dynamicznie aktualizować dane na wykresie w trwającej prezentacji?
 
-Tak, możesz dynamicznie aktualizować dane wykresu w prezentacji, modyfikując bazowy skoroszyt, a następnie odświeżając dane wykresu.
+Tak, możesz dynamicznie aktualizować dane na wykresie w prezentacji, modyfikując skoroszyt, a następnie odświeżając dane na wykresie.
 
-### Gdzie mogę znaleźć więcej przykładów i zasobów dotyczących pracy z Aspose.Slides dla Java?
+### Gdzie mogę znaleźć więcej przykładów i materiałów dotyczących pracy z Aspose.Slides dla Java?
 
- Dodatkowe przykłady i zasoby można znaleźć na stronie[Strona Aspose](https://www.aspose.com/). Dodatkowo dokumentacja Aspose.Slides for Java zawiera kompleksowe wskazówki dotyczące pracy z biblioteką.
+Możesz zapoznać się z dodatkowymi przykładami i zasobami na stronie [Strona internetowa Aspose](https://www.aspose.com/). Ponadto dokumentacja Aspose.Slides for Java zapewnia kompleksowe wskazówki dotyczące pracy z tą biblioteką.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

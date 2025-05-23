@@ -1,43 +1,45 @@
 ---
-title: Atur Warna Isi Seri Otomatis di Slide Java
-linktitle: Atur Warna Isi Seri Otomatis di Slide Java
-second_title: Aspose.Slides API Pemrosesan Java PowerPoint
-description: Pelajari cara mengatur warna isian rangkaian otomatis di Java Slides menggunakan Aspose.Slides for Java. Panduan langkah demi langkah dengan contoh kode untuk presentasi dinamis.
-weight: 14
-url: /id/java/data-manipulation/set-automatic-series-fill-color-java-slides/
+"description": "Pelajari cara mengatur warna isian seri otomatis di Java Slides menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah dengan contoh kode untuk presentasi dinamis."
+"linktitle": "Mengatur Warna Isi Seri Otomatis di Java Slide"
+"second_title": "API Pemrosesan PowerPoint Java Aspose.Slides"
+"title": "Mengatur Warna Isi Seri Otomatis di Java Slide"
+"url": "/id/java/data-manipulation/set-automatic-series-fill-color-java-slides/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Atur Warna Isi Seri Otomatis di Slide Java
+# Mengatur Warna Isi Seri Otomatis di Java Slide
 
 
-## Pengantar Mengatur Warna Isi Seri Otomatis di Slide Java
+## Pengantar untuk Mengatur Warna Isi Seri Otomatis di Java Slides
 
-Dalam tutorial ini, kita akan mempelajari cara mengatur warna isian rangkaian otomatis di Java Slides menggunakan Aspose.Slides for Java API. Aspose.Slides untuk Java adalah perpustakaan canggih yang memungkinkan Anda membuat, memanipulasi, dan mengelola presentasi PowerPoint secara terprogram. Di akhir panduan ini, Anda akan dapat membuat bagan dan mengatur warna isian rangkaian otomatis dengan mudah.
+Dalam tutorial ini, kita akan menjelajahi cara mengatur warna isian seri otomatis di Java Slides menggunakan API Aspose.Slides for Java. Aspose.Slides for Java adalah pustaka canggih yang memungkinkan Anda membuat, memanipulasi, dan mengelola presentasi PowerPoint secara terprogram. Di akhir panduan ini, Anda akan dapat membuat bagan dan mengatur warna isian seri otomatis dengan mudah.
 
 ## Prasyarat
 
-Sebelum kita mendalami kodenya, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita masuk ke kode, pastikan Anda memiliki prasyarat berikut:
 
-- Java Development Kit (JDK) diinstal pada sistem Anda.
--  Aspose.Slides untuk perpustakaan Java ditambahkan ke proyek Anda. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/slides/java/).
+- Java Development Kit (JDK) terinstal di sistem Anda.
+- Pustaka Aspose.Slides untuk Java telah ditambahkan ke proyek Anda. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/slides/java/).
 
-Sekarang kita sudah memiliki garis besarnya, mari kita mulai dengan panduan langkah demi langkah.
+Sekarang setelah kita memiliki garis besarnya, mari kita mulai dengan panduan langkah demi langkah.
 
 ## Langkah 1: Pengenalan Aspose.Slides untuk Java
 
-Aspose.Slides for Java adalah Java API yang memungkinkan pengembang bekerja dengan presentasi PowerPoint. Ini menyediakan berbagai fitur, termasuk membuat, mengedit, dan memanipulasi slide, bagan, bentuk, dan banyak lagi.
+Aspose.Slides untuk Java adalah API Java yang memungkinkan pengembang untuk bekerja dengan presentasi PowerPoint. API ini menyediakan berbagai fitur, termasuk membuat, mengedit, dan memanipulasi slide, bagan, bentuk, dan banyak lagi.
 
 ## Langkah 2: Menyiapkan Proyek Java Anda
 
-Sebelum kita memulai pengkodean, pastikan Anda telah menyiapkan proyek Java di Lingkungan Pengembangan Terpadu (IDE) pilihan Anda. Pastikan untuk menambahkan perpustakaan Aspose.Slides untuk Java ke proyek Anda.
+Sebelum memulai pengodean, pastikan Anda telah menyiapkan proyek Java di Lingkungan Pengembangan Terpadu (IDE) pilihan Anda. Pastikan untuk menambahkan pustaka Aspose.Slides for Java ke proyek Anda.
 
 ## Langkah 3: Membuat Presentasi PowerPoint
 
-Untuk memulai, buat presentasi PowerPoint baru menggunakan cuplikan kode berikut:
+Untuk memulai, buat presentasi PowerPoint baru menggunakan potongan kode berikut:
 
 ```java
 // Jalur ke direktori dokumen.
@@ -45,22 +47,22 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation();
 ```
 
- Mengganti`"Your Document Directory"` dengan jalur tempat Anda ingin menyimpan presentasi.
+Mengganti `"Your Document Directory"` dengan jalur tempat Anda ingin menyimpan presentasi.
 
 ## Langkah 4: Menambahkan Bagan ke Presentasi
 
-Selanjutnya, mari tambahkan bagan kolom berkerumun ke presentasi. Kami akan menggunakan kode berikut untuk mencapai hal ini:
+Selanjutnya, mari tambahkan bagan kolom berkelompok ke presentasi. Kita akan menggunakan kode berikut untuk melakukannya:
 
 ```java
-// Membuat bagan kolom berkerumun
+// Membuat bagan kolom berkelompok
 IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 100, 50, 600, 400);
 ```
 
-Kode ini membuat bagan kolom berkerumun pada slide pertama presentasi.
+Kode ini membuat bagan kolom berkelompok pada slide pertama presentasi.
 
 ## Langkah 5: Mengatur Warna Isi Seri Otomatis
 
-Sekarang sampai pada bagian kuncinya—mengatur warna isian rangkaian otomatis. Kami akan mengulangi rangkaian bagan dan mengatur format pengisiannya ke otomatis:
+Sekarang tibalah bagian penting—mengatur warna isian seri otomatis. Kita akan mengulangi rangkaian diagram dan mengatur format isiannya menjadi otomatis:
 
 ```java
 // Mengatur format pengisian seri ke otomatis
@@ -70,7 +72,7 @@ for (int i = 0; i < chart.getChartData().getSeries().size(); i++)
 }
 ```
 
-Kode ini memastikan bahwa warna isian rangkaian diatur ke otomatis.
+Kode ini memastikan bahwa warna isian seri diatur ke otomatis.
 
 ## Langkah 6: Menyimpan Presentasi
 
@@ -81,9 +83,9 @@ Untuk menyimpan presentasi, gunakan kode berikut:
 presentation.save(dataDir + "AutoFillSeries_out.pptx", SaveFormat.Pptx);
 ```
 
- Mengganti`"AutoFillSeries_out.pptx"` dengan nama file yang diinginkan.
+Mengganti `"AutoFillSeries_out.pptx"` dengan nama berkas yang diinginkan.
 
-## Kode Sumber Lengkap Untuk Mengatur Warna Isi Seri Otomatis di Slide Java
+## Source Code Lengkap Untuk Set Automatic Series Fill Color di Java Slides
 
 ```java
 // Jalur ke direktori dokumen.
@@ -91,7 +93,7 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation();
 try
 {
-	// Membuat bagan kolom berkerumun
+	// Membuat bagan kolom berkelompok
 	IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 100, 50, 600, 400);
 	// Mengatur format pengisian seri ke otomatis
 	for (int i = 0; i < chart.getChartData().getSeries().size(); i++)
@@ -109,13 +111,13 @@ finally
 
 ## Kesimpulan
 
-Selamat! Anda telah berhasil mengatur warna isian rangkaian otomatis di Slide Java menggunakan Aspose.Slides untuk Java. Anda sekarang dapat menggunakan pengetahuan ini untuk membuat presentasi PowerPoint yang dinamis dan menarik secara visual di aplikasi Java Anda.
+Selamat! Anda telah berhasil mengatur warna isian seri otomatis dalam Slide Java menggunakan Aspose.Slides untuk Java. Anda sekarang dapat menggunakan pengetahuan ini untuk membuat presentasi PowerPoint yang dinamis dan menarik secara visual dalam aplikasi Java Anda.
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
-### Bagaimana cara mengubah tipe bagan ke gaya lain?
+### Bagaimana cara mengubah jenis grafik ke gaya yang berbeda?
 
- Anda dapat mengubah jenis grafik dengan menggantinya`ChartType.ClusteredColumn` dengan tipe grafik yang diinginkan, seperti`ChartType.Line` atau`ChartType.Pie`.
+Anda dapat mengubah jenis grafik dengan mengganti `ChartType.ClusteredColumn` dengan jenis grafik yang diinginkan, seperti `ChartType.Line` atau `ChartType.Pie`.
 
 ### Bisakah saya menyesuaikan tampilan grafik lebih lanjut?
 
@@ -123,18 +125,20 @@ Ya, Anda dapat menyesuaikan tampilan bagan dengan memodifikasi berbagai properti
 
 ### Apakah Aspose.Slides untuk Java cocok untuk penggunaan komersial?
 
-Ya, Aspose.Slides for Java dapat digunakan untuk proyek pribadi dan komersial. Anda dapat merujuk pada persyaratan lisensi mereka untuk lebih jelasnya.
+Ya, Aspose.Slides untuk Java dapat digunakan untuk proyek pribadi dan komersial. Anda dapat merujuk ke ketentuan lisensi mereka untuk keterangan lebih rinci.
 
 ### Apakah ada fitur lain yang disediakan oleh Aspose.Slides untuk Java?
 
-Ya, Aspose.Slides for Java menawarkan berbagai fitur, termasuk manipulasi slide, pemformatan teks, dan dukungan animasi.
+Ya, Aspose.Slides untuk Java menawarkan berbagai fitur, termasuk manipulasi slide, pemformatan teks, dan dukungan animasi.
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dokumentasi?
 
- Anda dapat mengakses dokumentasi komprehensif untuk Aspose.Slides untuk Java di[Di Sini](https://reference.aspose.com/slides/java/).
+Anda dapat mengakses dokumentasi lengkap untuk Aspose.Slides untuk Java di [Di Sini](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

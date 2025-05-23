@@ -1,14 +1,16 @@
 ---
-title: जावा पावरपॉइंट में पैराग्राफ फ़ॉन्ट गुण प्रबंधित करें
-linktitle: जावा पावरपॉइंट में पैराग्राफ फ़ॉन्ट गुण प्रबंधित करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: इस आसान-से-अनुसरण, चरण-दर-चरण मार्गदर्शिका के साथ Aspose.Slides का उपयोग करके Java PowerPoint प्रस्तुतियों में पैराग्राफ फ़ॉन्ट गुणों को प्रबंधित और अनुकूलित करना सीखें।
-weight: 10
-url: /hi/java/java-powerpoint-advanced-paragraph-font-properties/manage-paragraph-font-properties-java-powerpoint/
+"description": "इस आसान-से-अनुसरण, चरण-दर-चरण मार्गदर्शिका के साथ Aspose.Slides का उपयोग करके Java PowerPoint प्रस्तुतियों में पैराग्राफ फ़ॉन्ट गुणों को प्रबंधित और अनुकूलित करना सीखें।"
+"linktitle": "जावा पावरपॉइंट में पैराग्राफ फ़ॉन्ट गुण प्रबंधित करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा पावरपॉइंट में पैराग्राफ फ़ॉन्ट गुण प्रबंधित करें"
+"url": "/hi/java/java-powerpoint-advanced-paragraph-font-properties/manage-paragraph-font-properties-java-powerpoint/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा पावरपॉइंट में पैराग्राफ फ़ॉन्ट गुण प्रबंधित करें
@@ -18,8 +20,8 @@ url: /hi/java/java-powerpoint-advanced-paragraph-font-properties/manage-paragrap
 ## आवश्यक शर्तें
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित सेटअप है:
 1. जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपके सिस्टम पर JDK 8 या उससे ऊपर का संस्करण स्थापित है।
-2.  जावा के लिए Aspose.Slides: डाउनलोड करें और इंस्टॉल करें[Aspose.Slides for Java](https://releases.aspose.com/slides/java/) पुस्तकालय।
-3. एकीकृत विकास वातावरण (आईडीई): बेहतर कोड प्रबंधन के लिए इक्लिप्स या इंटेलीज आईडीईए जैसे आईडीई का उपयोग करें।
+2. Aspose.Slides for Java: डाउनलोड करें और इंस्टॉल करें [जावा के लिए Aspose.Slides](https://releases.aspose.com/slides/java/) पुस्तकालय।
+3. एकीकृत विकास वातावरण (IDE): बेहतर कोड प्रबंधन के लिए इक्लिप्स या इंटेलीज आईडिया जैसे IDE का उपयोग करें।
 4. प्रस्तुति फ़ाइल: फ़ॉन्ट परिवर्तन लागू करने के लिए एक पावरपॉइंट फ़ाइल (PPTX)। यदि आपके पास यह नहीं है, तो एक नमूना फ़ाइल बनाएँ।
 
 ## पैकेज आयात करें
@@ -34,7 +36,7 @@ import java.awt.*;
 ```java
 // दस्तावेज़ निर्देशिका का पथ.
 String dataDir = "Your Document Directory";
-// प्रस्तुति का तात्कालिकीकरण करें
+// प्रस्तुति को तत्कालित करें
 Presentation presentation = new Presentation(dataDir + "DefaultFonts.pptx");
 ```
 ## चरण 2: स्लाइड और आकृतियों तक पहुँचें
@@ -72,7 +74,7 @@ FontData fd2 = new FontData("Castellar");
 ## चरण 6: भागों को फ़ॉन्ट असाइन करें
 भागों पर नये फ़ॉन्ट लागू करें।
 ```java
-//भाग को नए फ़ॉन्ट असाइन करें
+// भाग को नए फ़ॉन्ट असाइन करें
 port1.getPortionFormat().setLatinFont(fd1);
 port2.getPortionFormat().setLatinFont(fd2);
 ```
@@ -95,10 +97,10 @@ port1.getPortionFormat().getFillFormat().getSolidFillColor().setColor(new Color(
 port2.getPortionFormat().getFillFormat().setFillType(FillType.Solid);
 port2.getPortionFormat().getFillFormat().getSolidFillColor().setColor(new Color(PresetColor.Peru));
 ```
-## चरण 9: प्रेजेंटेशन सहेजें
+## चरण 9: प्रस्तुति सहेजें
 एक बार सभी परिवर्तन कर लेने के बाद, अपनी प्रस्तुति को सेव कर लें।
 ```java
-// PPTX को डिस्क पर लिखें
+// PPTX को डिस्क पर लिखें 
 presentation.save(dataDir + "ManagParagraphFontProperties_out.pptx", SaveFormat.Pptx);
 ```
 ## चरण 10: सफ़ाई करें
@@ -112,16 +114,18 @@ if (presentation != null) presentation.dispose();
 ### क्या मैं Aspose.Slides for Java के साथ कस्टम फ़ॉन्ट का उपयोग कर सकता हूँ?
 हां, आप अपने कोड में फ़ॉन्ट डेटा निर्दिष्ट करके कस्टम फ़ॉन्ट का उपयोग कर सकते हैं।
 ### मैं पैराग्राफ का फ़ॉन्ट आकार कैसे बदलूं?
-आप फ़ॉन्ट आकार सेट कर सकते हैं`setFontHeight` भाग के प्रारूप पर विधि।
+आप फ़ॉन्ट आकार सेट कर सकते हैं `setFontHeight` भाग के प्रारूप पर विधि।
 ### क्या एक ही पैराग्राफ के विभिन्न भागों पर अलग-अलग फ़ॉन्ट लगाना संभव है?
 हां, पैराग्राफ के प्रत्येक भाग के अपने फ़ॉन्ट गुण हो सकते हैं।
 ### क्या मैं पाठ पर ग्रेडिएंट रंग लागू कर सकता हूँ?
 हां, Java के लिए Aspose.Slides पाठ के लिए ग्रेडिएंट भरण का समर्थन करता है।
 ### यदि मैं परिवर्तनों को पूर्ववत करना चाहूं तो क्या होगा?
 परिवर्तन करने से पहले मूल प्रस्तुति को पुनः लोड करें या उसका बैकअप रखें.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

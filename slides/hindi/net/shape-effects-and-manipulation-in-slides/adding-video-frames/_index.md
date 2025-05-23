@@ -1,14 +1,16 @@
 ---
-title: .NET के लिए Aspose.Slides के साथ वीडियो फ्रेम्स जोड़ना ट्यूटोरियल
-linktitle: Aspose.Slides का उपयोग करके प्रेजेंटेशन स्लाइड्स में वीडियो फ्रेम जोड़ना
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: Aspose.Slides for .NET का उपयोग करके गतिशील वीडियो फ़्रेम के साथ प्रस्तुतियों को पुनर्जीवित करें। सहज एकीकरण के लिए हमारी मार्गदर्शिका का पालन करें और आकर्षक बनाएँ।
-weight: 19
-url: /hi/net/shape-effects-and-manipulation-in-slides/adding-video-frames/
+"description": "Aspose.Slides for .NET का उपयोग करके गतिशील वीडियो फ़्रेम के साथ प्रस्तुतियों को पुनर्जीवित करें। सहज एकीकरण के लिए हमारी मार्गदर्शिका का पालन करें और आकर्षक बनाएँ।"
+"linktitle": "Aspose.Slides का उपयोग करके प्रेजेंटेशन स्लाइड्स में वीडियो फ्रेम जोड़ना"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": ".NET के लिए Aspose.Slides के साथ वीडियो फ्रेम्स जोड़ना ट्यूटोरियल"
+"url": "/hi/net/shape-effects-and-manipulation-in-slides/adding-video-frames/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # .NET के लिए Aspose.Slides के साथ वीडियो फ्रेम्स जोड़ना ट्यूटोरियल
@@ -18,8 +20,8 @@ url: /hi/net/shape-effects-and-manipulation-in-slides/adding-video-frames/
 ## आवश्यक शर्तें
 ट्यूटोरियल में आगे बढ़ने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 - C# और .NET प्रोग्रामिंग की बुनियादी समझ।
--  Aspose.Slides for .NET लाइब्रेरी स्थापित है। यदि नहीं, तो आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/net/).
-- एक उपयुक्त विकास वातावरण की स्थापना।
+- Aspose.Slides for .NET लाइब्रेरी स्थापित है। यदि नहीं, तो आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/net/).
+- एक उपयुक्त विकास वातावरण स्थापित किया गया।
 ## नामस्थान आयात करें
 आरंभ करने के लिए, सुनिश्चित करें कि आपने अपने प्रोजेक्ट में आवश्यक नामस्थान आयात कर लिए हैं:
 ```csharp
@@ -28,7 +30,7 @@ using Aspose.Slides;
 using Aspose.Slides.Export;
 ```
 ## चरण 1: प्रेजेंटेशन ऑब्जेक्ट बनाएँ
- इसका एक उदाहरण बनाकर शुरू करें`Presentation` क्लास, जो PPTX फ़ाइल का प्रतिनिधित्व करता है:
+इसका एक उदाहरण बनाकर शुरू करें `Presentation` क्लास, जो PPTX फ़ाइल का प्रतिनिधित्व करता है:
 ```csharp
 string dataDir = "Your Document Directory";
 using (Presentation pres = new Presentation())
@@ -68,14 +70,16 @@ Aspose.Slides for .NET का उपयोग करके प्रेजें
 ### प्रश्न 2: Aspose.Slides for .NET द्वारा कौन से वीडियो प्रारूप समर्थित हैं?
 .NET के लिए Aspose.Slides विभिन्न वीडियो प्रारूपों का समर्थन करता है, जिसमें AVI, WMV और MP4 शामिल हैं।
 ### प्रश्न 3: क्या मैं डाले गए वीडियो के लिए प्लेबैक विकल्पों को नियंत्रित कर सकता हूँ?
-बिल्कुल! आपके पास प्लेबैक विकल्पों, जैसे कि प्ले मोड और वॉल्यूम पर पूर्ण नियंत्रण है, जैसा कि ट्यूटोरियल में दिखाया गया है।
+बिल्कुल! आपके पास प्लेबैक विकल्पों पर पूरा नियंत्रण है, जैसे कि प्ले मोड और वॉल्यूम, जैसा कि ट्यूटोरियल में दिखाया गया है।
 ### प्रश्न 4: क्या .NET के लिए Aspose.Slides का कोई परीक्षण संस्करण उपलब्ध है?
- हां, आप परीक्षण संस्करण डाउनलोड करके .NET के लिए Aspose.Slides की क्षमताओं का पता लगा सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप परीक्षण संस्करण डाउनलोड करके .NET के लिए Aspose.Slides की क्षमताओं का पता लगा सकते हैं [यहाँ](https://releases.aspose.com/).
 ### प्रश्न 5: मैं .NET के लिए Aspose.Slides का समर्थन कहां पा सकता हूं?
- किसी भी प्रश्न या सहायता के लिए, कृपया यहां जाएं[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11).
+किसी भी प्रश्न या सहायता के लिए, कृपया यहां जाएं [Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

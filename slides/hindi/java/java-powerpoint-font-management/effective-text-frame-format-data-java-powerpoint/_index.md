@@ -1,14 +1,16 @@
 ---
-title: जावा पावरपॉइंट में प्रभावी टेक्स्ट फ़्रेम फ़ॉर्मेट डेटा
-linktitle: जावा पावरपॉइंट में प्रभावी टेक्स्ट फ़्रेम फ़ॉर्मेट डेटा
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java के साथ Java PowerPoint प्रेजेंटेशन में टेक्स्ट फ़्रेम को फ़ॉर्मेट करना सीखें। अपनी स्लाइड्स की विज़ुअल अपील को सहजता से बढ़ाएँ।
-weight: 15
-url: /hi/java/java-powerpoint-font-management/effective-text-frame-format-data-java-powerpoint/
+"description": "Aspose.Slides for Java के साथ Java PowerPoint प्रेजेंटेशन में टेक्स्ट फ़्रेम को फ़ॉर्मेट करना सीखें। अपनी स्लाइड्स की विज़ुअल अपील को सहजता से बढ़ाएँ।"
+"linktitle": "जावा पावरपॉइंट में प्रभावी टेक्स्ट फ़्रेम फ़ॉर्मेट डेटा"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा पावरपॉइंट में प्रभावी टेक्स्ट फ़्रेम फ़ॉर्मेट डेटा"
+"url": "/hi/java/java-powerpoint-font-management/effective-text-frame-format-data-java-powerpoint/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा पावरपॉइंट में प्रभावी टेक्स्ट फ़्रेम फ़ॉर्मेट डेटा
@@ -18,7 +20,7 @@ url: /hi/java/java-powerpoint-font-management/effective-text-frame-format-data-j
 ## आवश्यक शर्तें
 इस ट्यूटोरियल यात्रा पर निकलने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 1. जावा डेवलपमेंट एनवायरनमेंट: अपने सिस्टम पर जावा डेवलपमेंट किट (JDK) का नवीनतम संस्करण स्थापित करें।
-2. Aspose.Slides for Java लाइब्रेरी: Aspose.Slides for Java लाइब्रेरी को अपने Java प्रोजेक्ट में डाउनलोड और एकीकृत करें। आप लाइब्रेरी को यहाँ से प्राप्त कर सकते हैं[वेबसाइट](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides for Java लाइब्रेरी: Aspose.Slides for Java लाइब्रेरी को अपने Java प्रोजेक्ट में डाउनलोड और एकीकृत करें। आप लाइब्रेरी को यहाँ से प्राप्त कर सकते हैं [वेबसाइट](https://releases.aspose.com/slides/java/).
 3. जावा की बुनियादी समझ: कक्षाएं, ऑब्जेक्ट्स और विधि इनवोकेशन सहित जावा प्रोग्रामिंग अवधारणाओं से खुद को परिचित कराएं।
 
 ## पैकेज आयात करें
@@ -69,7 +71,7 @@ System.out.println("   Bottom: " + effectiveTextFrameFormat.getMarginBottom());
 जावा पावरपॉइंट प्रेजेंटेशन में टेक्स्ट फ्रेम फ़ॉर्मेटिंग में महारत हासिल करना, दिखने में आकर्षक स्लाइडशो बनाने के लिए महत्वपूर्ण है। Aspose.Slides for Java के साथ, डेवलपर्स वांछित सौंदर्य और पठनीयता प्राप्त करने के लिए टेक्स्ट फ़्रेम विशेषताओं में सहजता से हेरफेर कर सकते हैं।
 ## अक्सर पूछे जाने वाले प्रश्न
 ### क्या Aspose.Slides for Java विभिन्न ऑपरेटिंग सिस्टम के साथ संगत है?
-हां, Aspose.Slides for Java विभिन्न ऑपरेटिंग सिस्टम के साथ संगत है, जिसमें विंडोज, मैकओएस और लिनक्स शामिल हैं।
+हां, Aspose.Slides for Java विंडोज, macOS और Linux सहित विभिन्न ऑपरेटिंग सिस्टम के साथ संगत है।
 ### क्या मैं Aspose.Slides for Java का उपयोग करके टेक्स्ट फ़ॉन्ट और आकार को अनुकूलित कर सकता हूँ?
 बिल्कुल! Aspose.Slides for Java आपके प्रस्तुतिकरण की आवश्यकताओं के अनुरूप टेक्स्ट फ़ॉन्ट, आकार, रंग और संरेखण को अनुकूलित करने के लिए व्यापक विकल्प प्रदान करता है।
 ### क्या Aspose.Slides for Java प्रस्तुतियों को विभिन्न प्रारूपों में निर्यात करने का समर्थन करता है?
@@ -77,10 +79,12 @@ System.out.println("   Bottom: " + effectiveTextFrameFormat.getMarginBottom());
 ### क्या मैं Java के लिए Aspose.Slides का उपयोग करके टेक्स्ट फ़्रेम में एनिमेशन जोड़ सकता हूँ?
 हां, आप Aspose.Slides for Java का उपयोग करके अपने PowerPoint प्रस्तुतियों में टेक्स्ट फ़्रेम और अन्य तत्वों पर एनिमेशन लागू कर सकते हैं।
 ### क्या Aspose.Slides for Java के लिए तकनीकी सहायता उपलब्ध है?
- हां, Aspose.Slides for Java के लिए तकनीकी सहायता उपलब्ध है[मंच](https://forum.aspose.com/c/slides/11).
+हां, Aspose.Slides for Java के लिए तकनीकी सहायता उपलब्ध है [मंच](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

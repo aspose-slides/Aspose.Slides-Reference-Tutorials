@@ -1,14 +1,16 @@
 ---
-title: Stammverzeichnis ClsId in Java-Folien
-linktitle: Stammverzeichnis ClsId in Java-Folien
-second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie die ClsId des Stammverzeichnisses in Aspose.Slides für Java-Präsentationen festlegen. Passen Sie das Hyperlink-Verhalten mit CLSID an.
-weight: 10
-url: /de/java/media-controls/root-directory-clsid-in-java-slides/
+"description": "Erfahren Sie, wie Sie die Stammverzeichnis-ClsId in Aspose.Slides für Java-Präsentationen festlegen. Passen Sie das Hyperlink-Verhalten mit CLSID an."
+"linktitle": "Stammverzeichnis ClsId in Java-Folien"
+"second_title": "Aspose.Slides Java PowerPoint-Verarbeitungs-API"
+"title": "Stammverzeichnis ClsId in Java-Folien"
+"url": "/de/java/media-controls/root-directory-clsid-in-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Stammverzeichnis ClsId in Java-Folien
@@ -16,19 +18,19 @@ url: /de/java/media-controls/root-directory-clsid-in-java-slides/
 
 ## Einführung in das Festlegen der ClsId des Stammverzeichnisses in Aspose.Slides für Java
 
-In Aspose.Slides für Java können Sie die ClsId des Stammverzeichnisses festlegen. Dabei handelt es sich um die CLSID (Class Identifier), mit der die Anwendung angegeben wird, die als Stammverzeichnis verwendet werden soll, wenn ein Hyperlink in Ihrer Präsentation aktiviert wird. In dieser Anleitung führen wir Sie Schritt für Schritt durch die Vorgehensweise.
+In Aspose.Slides für Java können Sie die ClsId des Stammverzeichnisses festlegen. Diese CLSID (Class Identifier) gibt an, welche Anwendung als Stammverzeichnis verwendet werden soll, wenn ein Hyperlink in Ihrer Präsentation aktiviert wird. In dieser Anleitung erklären wir Ihnen Schritt für Schritt, wie Sie dies tun.
 
 ## Voraussetzungen
 
-Stellen Sie zunächst sicher, dass die folgenden Voraussetzungen erfüllt sind:
+Bevor Sie beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 
-- Auf Ihrem System ist Java Development Kit (JDK) installiert.
--  Aspose.Slides für Java-Bibliothek zu Ihrem Projekt hinzugefügt. Sie können es herunterladen von[Aspose.Slides für Java-Dokumentation](https://reference.aspose.com/slides/java/).
-- Ein für die Java-Entwicklung eingerichteter Code-Editor oder eine integrierte Entwicklungsumgebung (IDE).
+- Auf Ihrem System ist das Java Development Kit (JDK) installiert.
+- Aspose.Slides für Java-Bibliothek zu Ihrem Projekt hinzugefügt. Sie können es herunterladen von [Aspose.Slides für Java-Dokumentation](https://reference.aspose.com/slides/java/).
+- Ein Code-Editor oder eine integrierte Entwicklungsumgebung (IDE), die für die Java-Entwicklung eingerichtet wurde.
 
 ## Schritt 1: Erstellen Sie eine neue Präsentation
 
-Lassen Sie uns zunächst eine neue Präsentation mit Aspose.Slides für Java erstellen. In diesem Beispiel erstellen wir eine leere Präsentation.
+Erstellen wir zunächst eine neue Präsentation mit Aspose.Slides für Java. In diesem Beispiel erstellen wir eine leere Präsentation.
 
 ```java
 // Name der Ausgabedatei
@@ -36,19 +38,19 @@ String resultPath = "your_output_path/pres.ppt"; // Ersetzen Sie „Ihr_Ausgabep
 Presentation pres = new Presentation();
 ```
 
-Im obigen Code definieren wir den Pfad für die Ausgabe-Präsentationsdatei und erstellen eine neue`Presentation` Objekt.
+Im obigen Code definieren wir den Pfad für die Ausgabe-Präsentationsdatei und erstellen eine neue `Presentation` Objekt.
 
-## Schritt 2: ClsId des Stammverzeichnisses festlegen
+## Schritt 2: Stammverzeichnis-ClsId festlegen
 
- Um die ClsId des Stammverzeichnisses festzulegen, müssen Sie eine Instanz von`PptOptions` und legen Sie die gewünschte CLSID fest. Die CLSID stellt die Anwendung dar, die als Stammverzeichnis verwendet wird, wenn ein Hyperlink aktiviert wird.
+Um die ClsId des Stammverzeichnisses festzulegen, müssen Sie eine Instanz von `PptOptions` und legen Sie die gewünschte CLSID fest. Die CLSID stellt die Anwendung dar, die bei Aktivierung eines Hyperlinks als Stammverzeichnis verwendet wird.
 
 ```java
 PptOptions pptOptions = new PptOptions();
-// Setzen Sie CLSID auf „Microsoft Powerpoint.Show.8“.
+// Setzen Sie die CLSID auf „Microsoft Powerpoint.Show.8“.
 pptOptions.setRootDirectoryClsid(UUID.fromString("64818D10-4F9B-11CF-86EA-00AA00B929E8"));
 ```
 
- Im obigen Code erstellen wir eine`PptOptions` Objekt und setzen Sie die CLSID auf „Microsoft Powerpoint.Show.8“. Sie können es durch die CLSID der Anwendung ersetzen, die Sie als Stammverzeichnis verwenden möchten.
+Im obigen Code erstellen wir eine `PptOptions` Objekt und setzen Sie die CLSID auf „Microsoft Powerpoint.Show.8“. Sie können sie durch die CLSID der Anwendung ersetzen, die Sie als Stammverzeichnis verwenden möchten.
 
 ## Schritt 3: Speichern Sie die Präsentation
 
@@ -59,11 +61,11 @@ Speichern wir nun die Präsentation mit der festgelegten ClsId des Stammverzeich
 pres.save(resultPath, SaveFormat.Ppt, pptOptions);
 ```
 
- In diesem Schritt speichern wir die Präsentation im angegebenen`resultPath` mit dem`PptOptions` wir haben früher erstellt.
+In diesem Schritt speichern wir die Präsentation auf dem angegebenen `resultPath` mit dem `PptOptions` wir zuvor erstellt haben.
 
-## Schritt 4: Bereinigen
+## Schritt 4: Aufräumen
 
- Vergessen Sie nicht, den`Presentation` Objekt, um alle zugewiesenen Ressourcen freizugeben.
+Vergessen Sie nicht, die `Presentation` Objekt, um alle zugewiesenen Ressourcen freizugeben.
 
 ```java
 if (pres != null) {
@@ -79,7 +81,7 @@ String resultPath = "Your Output Directory" + "pres.ppt";
 Presentation pres = new Presentation();
 try {
 	PptOptions pptOptions = new PptOptions();
-	//Setzen Sie CLSID auf „Microsoft Powerpoint.Show.8“.
+	// Setzen Sie CLSID auf „Microsoft Powerpoint.Show.8“.
 	pptOptions.setRootDirectoryClsid(UUID.fromString("64818D10-4F9B-11CF-86EA-00AA00B929E8"));
 	// Präsentation speichern
 	pres.save(resultPath, SaveFormat.Ppt, pptOptions);
@@ -90,21 +92,21 @@ try {
 
 ## Abschluss
 
-Sie haben die ClsId des Stammverzeichnisses in Aspose.Slides für Java erfolgreich festgelegt. Dadurch können Sie die Anwendung angeben, die als Stammverzeichnis verwendet wird, wenn Hyperlinks in Ihrer Präsentation aktiviert werden. Sie können die CLSID entsprechend Ihren spezifischen Anforderungen anpassen.
+Sie haben die Stammverzeichnis-ClsId in Aspose.Slides für Java erfolgreich festgelegt. Dadurch können Sie die Anwendung festlegen, die als Stammverzeichnis verwendet wird, wenn Hyperlinks in Ihrer Präsentation aktiviert werden. Sie können die CLSID Ihren spezifischen Anforderungen entsprechend anpassen.
 
 ## Häufig gestellte Fragen
 
 ### Wie finde ich die CLSID für eine bestimmte Anwendung?
 
-Um die CLSID für eine bestimmte Anwendung zu finden, können Sie die Dokumentation oder die Ressourcen des Anwendungsentwicklers zu Rate ziehen. CLSIDs sind eindeutige Bezeichner, die COM-Objekten zugewiesen werden und normalerweise für jede Anwendung spezifisch sind.
+Die CLSID einer bestimmten Anwendung finden Sie in der Dokumentation oder den Ressourcen des Anwendungsentwicklers. CLSIDs sind eindeutige Bezeichner, die COM-Objekten zugewiesen werden und in der Regel anwendungsspezifisch sind.
 
 ### Kann ich eine benutzerdefinierte CLSID für das Stammverzeichnis festlegen?
 
- Ja, Sie können eine benutzerdefinierte CLSID für das Stammverzeichnis festlegen, indem Sie den gewünschten CLSID-Wert mit dem`setRootDirectoryClsid` -Methode, wie im Codebeispiel gezeigt. Dadurch können Sie eine bestimmte Anwendung als Stammverzeichnis verwenden, wenn in Ihrer Präsentation Hyperlinks aktiviert werden.
+Ja, Sie können eine benutzerdefinierte CLSID für das Stammverzeichnis festlegen, indem Sie den gewünschten CLSID-Wert mit dem `setRootDirectoryClsid` -Methode, wie im Codebeispiel gezeigt. Dadurch können Sie eine bestimmte Anwendung als Stammverzeichnis verwenden, wenn Hyperlinks in Ihrer Präsentation aktiviert werden.
 
 ### Was passiert, wenn ich die ClsId des Stammverzeichnisses nicht festlege?
 
-Wenn Sie die ClsId des Stammverzeichnisses nicht festlegen, hängt das Standardverhalten vom Viewer oder der Anwendung ab, mit der die Präsentation geöffnet wird. Beim Aktivieren von Hyperlinks kann die eigene Standardanwendung als Stammverzeichnis verwendet werden.
+Wenn Sie die ClsId des Stammverzeichnisses nicht festlegen, hängt das Standardverhalten vom Viewer oder der Anwendung ab, mit der die Präsentation geöffnet wird. Bei aktivierten Hyperlinks kann die eigene Standardanwendung als Stammverzeichnis verwendet werden.
 
 ### Kann ich die ClsId des Stammverzeichnisses für einzelne Hyperlinks ändern?
 
@@ -112,10 +114,12 @@ Nein, die ClsId des Stammverzeichnisses wird normalerweise auf Präsentationsebe
 
 ### Gibt es Einschränkungen hinsichtlich der CLSIDs, die ich verwenden kann?
 
-Die verwendbaren CLSIDs werden normalerweise durch die auf dem System installierten Anwendungen bestimmt. Sie sollten CLSIDs verwenden, die gültigen Anwendungen entsprechen, die Hyperlinks verarbeiten können. Beachten Sie, dass die Verwendung einer ungültigen CLSID zu unerwartetem Verhalten führen kann.
+Die verwendbaren CLSIDs werden in der Regel durch die auf dem System installierten Anwendungen bestimmt. Verwenden Sie CLSIDs gültiger Anwendungen, die Hyperlinks verarbeiten können. Beachten Sie, dass die Verwendung einer ungültigen CLSID zu unerwartetem Verhalten führen kann.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,26 +1,28 @@
 ---
-title: Atur Lebar Celah di Slide Java
-linktitle: Atur Lebar Celah di Slide Java
-second_title: Aspose.Slides API Pemrosesan Java PowerPoint
-description: Pelajari cara mengatur Lebar Celah di Slide Java dengan Aspose.Slides untuk Java. Sempurnakan visual bagan untuk presentasi PowerPoint Anda.
-weight: 21
-url: /id/java/data-manipulation/set-gap-width-java-slides/
+"description": "Pelajari cara mengatur Gap Width di Java Slides dengan Aspose.Slides untuk Java. Sempurnakan visual bagan untuk presentasi PowerPoint Anda."
+"linktitle": "Mengatur Lebar Celah di Java Slides"
+"second_title": "API Pemrosesan PowerPoint Java Aspose.Slides"
+"title": "Mengatur Lebar Celah di Java Slides"
+"url": "/id/java/data-manipulation/set-gap-width-java-slides/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Atur Lebar Celah di Slide Java
+# Mengatur Lebar Celah di Java Slides
 
 
-## Pengantar Mengatur Lebar Celah di Aspose.Slides untuk Java
+## Pengantar Pengaturan Lebar Celah di Aspose.Slides untuk Java
 
-Dalam tutorial ini, kami akan memandu Anda melalui proses pengaturan Lebar Celah untuk bagan dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Lebar Celah menentukan jarak antara kolom atau batang dalam bagan, memungkinkan Anda mengontrol tampilan visual bagan.
+Dalam tutorial ini, kami akan memandu Anda melalui proses pengaturan Gap Width untuk bagan dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Gap Width menentukan jarak antara kolom atau batang dalam bagan, yang memungkinkan Anda untuk mengontrol tampilan visual bagan.
 
 ## Prasyarat
 
- Sebelum memulai, pastikan Anda telah menginstal pustaka Aspose.Slides untuk Java. Anda dapat mengunduhnya dari situs web Aspose[Di Sini](https://releases.aspose.com/slides/java/).
+Sebelum memulai, pastikan Anda telah menginstal pustaka Aspose.Slides for Java. Anda dapat mengunduhnya dari situs web Aspose [Di Sini](https://releases.aspose.com/slides/java/).
 
 ## Panduan Langkah demi Langkah
 
@@ -32,7 +34,7 @@ Ikuti langkah-langkah berikut untuk mengatur Lebar Celah dalam bagan menggunakan
 // Jalur ke direktori dokumen.
 String dataDir = "Your Document Directory";
 
-// Membuat presentasi kosong
+// Membuat presentasi kosong 
 Presentation presentation = new Presentation();
 ```
 
@@ -50,7 +52,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn, 0, 0, 500, 500);
 ```
 
-### 4. Atur Indeks Lembar Data Grafik
+### 4. Mengatur Indeks Lembar Data Grafik
 
 ```java
 // Mengatur indeks lembar data grafik
@@ -60,7 +62,7 @@ int defaultWorksheetIndex = 0;
 ### 5. Dapatkan Buku Kerja Data Bagan
 
 ```java
-// Mendapatkan lembar kerja data bagan
+// Mendapatkan lembar kerja data grafik
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
 
@@ -81,10 +83,10 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Category 3"));
 ```
 
-### 8. Isi Data Seri
+### 8. Mengisi Data Seri
 
 ```java
-// Isi data seri
+// Mengisi data seri
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
 
 // Mengisi titik data seri
@@ -96,10 +98,10 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
 ```
 
-### 9. Atur Lebar Celah
+### 9. Mengatur Lebar Celah
 
 ```java
-// Tetapkan nilai Lebar Celah
+// Atur nilai Lebar Celah
 series.getParentSeriesGroup().setGapWidth(50);
 ```
 
@@ -110,12 +112,12 @@ series.getParentSeriesGroup().setGapWidth(50);
 presentation.save(dataDir + "GapWidth_out.pptx", SaveFormat.Pptx);
 ```
 
-## Kode Sumber Lengkap Untuk Mengatur Lebar Celah di Slide Java
+## Source Code Lengkap Untuk Set Gap Width di Java Slides
 
 ```java
 // Jalur ke direktori dokumen.
 String dataDir = "Your Document Directory";
-// Membuat presentasi kosong
+// Membuat presentasi kosong 
 Presentation presentation = new Presentation();
 // Akses slide pertama
 ISlide slide = presentation.getSlides().get_Item(0);
@@ -123,7 +125,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn, 0, 0, 500, 500);
 // Mengatur indeks lembar data grafik
 int defaultWorksheetIndex = 0;
-// Mendapatkan lembar kerja data bagan
+// Mendapatkan lembar kerja data grafik
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Tambahkan seri
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
@@ -149,24 +151,26 @@ presentation.save(dataDir + "GapWidth_out.pptx", SaveFormat.Pptx);
 
 ## Kesimpulan
 
-Dalam tutorial ini, Anda telah mempelajari cara mengatur Lebar Celah untuk bagan dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Menyesuaikan Lebar Celah memungkinkan Anda mengontrol jarak antar kolom atau batang pada bagan, sehingga meningkatkan representasi visual data Anda.
+Dalam tutorial ini, Anda telah mempelajari cara mengatur Gap Width untuk bagan dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Menyesuaikan Gap Width memungkinkan Anda untuk mengontrol jarak antara kolom atau batang dalam bagan, sehingga meningkatkan representasi visual data Anda.
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
 ### Bagaimana cara mengubah nilai Lebar Celah?
 
- Untuk mengubah Lebar Celah, gunakan`setGapWidth` metode pada`ParentSeriesGroup`dari seri grafik. Dalam contoh yang diberikan, kami mengatur Lebar Celah menjadi 50, namun Anda dapat menyesuaikan nilai ini dengan jarak yang Anda inginkan.
+Untuk mengubah Lebar Celah, gunakan `setGapWidth` metode pada `ParentSeriesGroup` dari rangkaian grafik. Dalam contoh yang diberikan, kami menetapkan Lebar Celah menjadi 50, tetapi Anda dapat menyesuaikan nilai ini dengan jarak yang diinginkan.
 
 ### Bisakah saya menyesuaikan properti bagan lainnya?
 
-Ya, Aspose.Slides untuk Java menyediakan kemampuan luas untuk penyesuaian bagan. Anda dapat memodifikasi berbagai properti bagan, seperti warna, label, judul, dan lainnya. Periksa Referensi API untuk informasi mendetail tentang opsi penyesuaian bagan.
+Ya, Aspose.Slides untuk Java menyediakan kemampuan yang luas untuk kustomisasi bagan. Anda dapat mengubah berbagai properti bagan, seperti warna, label, judul, dan lainnya. Periksa Referensi API untuk informasi terperinci tentang opsi kustomisasi bagan.
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dokumentasi?
 
- Anda dapat menemukan dokumentasi komprehensif dan sumber daya tambahan di Aspose.Slides untuk Java di[Asumsikan situs web](https://reference.aspose.com/slides/java/).
+Anda dapat menemukan dokumentasi lengkap dan sumber daya tambahan di Aspose.Slides untuk Java di [Situs web Aspose](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

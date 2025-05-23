@@ -1,30 +1,32 @@
 ---
-title: Ustaw skoroszyt zewnętrzny w slajdach Java
-linktitle: Ustaw skoroszyt zewnętrzny w slajdach Java
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Dowiedz się, jak ustawić zewnętrzne skoroszyty w Java Slides przy użyciu Aspose.Slides dla Java. Twórz dynamiczne prezentacje dzięki integracji danych Excel.
-weight: 19
-url: /pl/java/data-manipulation/set-external-workbook-java-slides/
+"description": "Dowiedz się, jak ustawić zewnętrzne skoroszyty w Java Slides przy użyciu Aspose.Slides for Java. Twórz dynamiczne prezentacje z integracją danych Excel."
+"linktitle": "Ustaw zewnętrzny skoroszyt w slajdach Java"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Ustaw zewnętrzny skoroszyt w slajdach Java"
+"url": "/pl/java/data-manipulation/set-external-workbook-java-slides/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ustaw skoroszyt zewnętrzny w slajdach Java
+# Ustaw zewnętrzny skoroszyt w slajdach Java
 
 
-## Wprowadzenie do ustawiania skoroszytu zewnętrznego w slajdach Java
+## Wprowadzenie do ustawiania zewnętrznego skoroszytu w slajdach Java
 
-tym samouczku przyjrzymy się, jak ustawić zewnętrzny skoroszyt w Java Slides za pomocą Aspose.Slides. Dowiesz się jak stworzyć prezentację PowerPoint zawierającą wykres odwołujący się do danych z zewnętrznego skoroszytu Excela. Po przeczytaniu tego przewodnika będziesz już jasno wiedział, jak integrować dane zewnętrzne z prezentacjami Java Slides.
+tym samouczku pokażemy, jak ustawić zewnętrzny skoroszyt w Java Slides przy użyciu Aspose.Slides. Dowiesz się, jak utworzyć prezentację PowerPoint z wykresem, który odwołuje się do danych z zewnętrznego skoroszytu Excel. Pod koniec tego przewodnika będziesz mieć jasne zrozumienie, jak zintegrować dane zewnętrzne z prezentacjami Java Slides.
 
-## Warunki wstępne
+## Wymagania wstępne
 
-Zanim przejdziemy do wdrożenia, upewnij się, że spełniasz następujące wymagania wstępne:
+Zanim przejdziemy do wdrożenia, upewnij się, że spełnione są następujące wymagania wstępne:
 
-- Zestaw Java Development Kit (JDK) zainstalowany w systemie.
-- Do Twojego projektu dodano bibliotekę Aspose.Slides for Java.
-- Skoroszyt programu Excel zawierający dane, do których chcesz się odwołać w prezentacji.
+- Java Development Kit (JDK) zainstalowany w Twoim systemie.
+- Biblioteka Aspose.Slides for Java została dodana do projektu.
+- Skoroszyt programu Excel zawierający dane, do których chcesz odwołać się w prezentacji.
 
 ## Krok 1: Utwórz nową prezentację
 
@@ -33,7 +35,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 ```
 
-Zaczynamy od stworzenia nowej prezentacji PowerPoint przy użyciu Aspose.Slides.
+Zacznijmy od utworzenia nowej prezentacji PowerPoint za pomocą Aspose.Slides.
 
 ## Krok 2: Dodaj wykres
 
@@ -41,16 +43,16 @@ Zaczynamy od stworzenia nowej prezentacji PowerPoint przy użyciu Aspose.Slides.
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 400, 600, false);
 ```
 
-Następnie wstawiamy do prezentacji wykres kołowy. W razie potrzeby możesz dostosować typ i położenie wykresu.
+Następnie wstawiamy wykres kołowy do prezentacji. Możesz dostosować typ wykresu i jego położenie według potrzeb.
 
-## Krok 3: Uzyskaj dostęp do zewnętrznego skoroszytu
+## Krok 3: Dostęp do skoroszytu zewnętrznego
 
 ```java
 IChartData chartData = chart.getChartData();
 chartData.setExternalWorkbook(dataDir + "externalWorkbook.xlsx");
 ```
 
- Aby uzyskać dostęp do zewnętrznego skoroszytu, używamy metody`setExternalWorkbook` metodę i podaj ścieżkę do skoroszytu programu Excel zawierającego dane.
+Aby uzyskać dostęp do skoroszytu zewnętrznego, używamy `setExternalWorkbook` metodę i podaj ścieżkę do skoroszytu programu Excel zawierającego dane.
 
 ## Krok 4: Powiąż dane wykresu
 
@@ -72,9 +74,9 @@ chartData.getCategories().add(chartData.getChartDataWorkbook().getCell(0, "A4"))
 pres.save(dataDir + "Presentation_with_externalWorkbook.pptx", SaveFormat.Pptx);
 ```
 
-Na koniec zapisujemy prezentację z odnośnikiem do zewnętrznego skoroszytu jako plik programu PowerPoint.
+Na koniec zapisujemy prezentację z odniesieniem do skoroszytu zewnętrznego jako plik programu PowerPoint.
 
-## Kompletny kod źródłowy zestawu zewnętrznego skoroszytu w slajdach Java
+## Kompletny kod źródłowy dla zestawu zewnętrznych skoroszytów w slajdach Java
 
 ```java
 // Ścieżka do katalogu dokumentów.
@@ -102,32 +104,34 @@ finally
 
 ## Wniosek
 
-W tym samouczku nauczyliśmy się, jak ustawić zewnętrzny skoroszyt w Java Slides za pomocą Aspose.Slides. Możesz teraz tworzyć prezentacje, które dynamicznie odwołują się do danych ze skoroszytów programu Excel, zwiększając elastyczność i interaktywność slajdów.
+W tym samouczku nauczyliśmy się, jak ustawić zewnętrzny skoroszyt w Java Slides przy użyciu Aspose.Slides. Teraz możesz tworzyć prezentacje, które dynamicznie odwołują się do danych z skoroszytów programu Excel, zwiększając elastyczność i interaktywność slajdów.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
 ### Jak zainstalować Aspose.Slides dla Java?
 
-Aspose.Slides for Java można zainstalować, dodając bibliotekę do projektu Java. Możesz pobrać bibliotekę ze strony Aspose i postępować zgodnie z instrukcjami instalacji podanymi w dokumentacji.
+Aspose.Slides for Java można zainstalować, dodając bibliotekę do projektu Java. Możesz pobrać bibliotekę ze strony internetowej Aspose i postępować zgodnie z instrukcjami instalacji podanymi w dokumentacji.
 
-### Czy mogę używać różnych typów wykresów w zewnętrznych skoroszytach?
+### Czy mogę używać różnych typów wykresów w skoroszytach zewnętrznych?
 
 Tak, możesz używać różnych typów wykresów obsługiwanych przez Aspose.Slides i wiązać je z danymi z zewnętrznych skoroszytów. Proces może się nieznacznie różnić w zależności od wybranego typu wykresu.
 
-### Co się stanie, jeśli zmieni się struktura danych mojego zewnętrznego skoroszytu?
+### Co się stanie, jeśli struktura danych mojego zewnętrznego skoroszytu ulegnie zmianie?
 
-Jeśli struktura danych zewnętrznego skoroszytu ulegnie zmianie, może zaistnieć potrzeba zaktualizowania odwołań do komórek w kodzie Java, aby zapewnić dokładność danych wykresu.
+Jeśli struktura danych zewnętrznego skoroszytu ulegnie zmianie, może zaistnieć konieczność zaktualizowania odwołań do komórek w kodzie Java, aby mieć pewność, że dane wykresu pozostaną dokładne.
 
 ### Czy Aspose.Slides jest kompatybilny z najnowszymi wersjami Java?
 
-Aspose.Slides dla Java jest regularnie aktualizowany, aby zapewnić kompatybilność z najnowszymi wersjami Java. Pamiętaj, aby sprawdzić dostępność aktualizacji i skorzystać z najnowszej wersji biblioteki, aby uzyskać optymalną wydajność i kompatybilność.
+Aspose.Slides for Java jest regularnie aktualizowany, aby zapewnić zgodność z najnowszymi wersjami Java. Pamiętaj, aby sprawdzać aktualizacje i używać najnowszej wersji biblioteki, aby uzyskać optymalną wydajność i zgodność.
 
-### Czy mogę dodać wiele wykresów odwołujących się do tego samego zewnętrznego skoroszytu?
+### Czy mogę dodać wiele wykresów odwołujących się do tego samego skoroszytu zewnętrznego?
 
-Tak, możesz dodać do prezentacji wiele wykresów, a wszystkie odwołują się do tego samego zewnętrznego skoroszytu. Po prostu powtórz kroki opisane w tym samouczku dla każdego wykresu, który chcesz utworzyć.
+Tak, możesz dodać wiele wykresów do swojej prezentacji, wszystkie odwołujące się do tego samego zewnętrznego skoroszytu. Po prostu powtórz kroki opisane w tym samouczku dla każdego wykresu, który chcesz utworzyć.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

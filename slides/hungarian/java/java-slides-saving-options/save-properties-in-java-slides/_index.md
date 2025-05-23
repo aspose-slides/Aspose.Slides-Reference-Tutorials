@@ -1,108 +1,110 @@
 ---
-title: Mentse el a tulajdonságokat a Java Slides-be
-linktitle: Mentse el a tulajdonságokat a Java Slides-be
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Optimalizálja PowerPoint-prezentációit az Aspose.Slides for Java segítségével. Ismerje meg a tulajdonságok beállítását, a titkosítás letiltását, a jelszavas védelem hozzáadását és a könnyed mentést.
-weight: 12
-url: /hu/java/saving-options/save-properties-in-java-slides/
+"description": "Optimalizáld PowerPoint prezentációidat az Aspose.Slides Java verziójával. Tanuld meg, hogyan állíts be tulajdonságokat, hogyan tiltsd le a titkosítást, hogyan adj hozzá jelszóvédelmet, és hogyan ments könnyedén."
+"linktitle": "Tulajdonságok mentése Java diákban"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Tulajdonságok mentése Java diákban"
+"url": "/hu/java/saving-options/save-properties-in-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mentse el a tulajdonságokat a Java Slides-be
+# Tulajdonságok mentése Java diákban
 
 
-## Bevezetés a Java Slides tulajdonságainak mentésébe
+## Bevezetés a tulajdonságok mentéséhez Java diákban
 
-Ebben az oktatóanyagban végigvezetjük a tulajdonságok PowerPoint-prezentációba való mentésének folyamatán az Aspose.Slides for Java használatával. Megtanulja, hogyan állíthatja be a dokumentum tulajdonságait, hogyan kapcsolhatja ki a dokumentumtulajdonságok titkosítását, hogyan állíthat be jelszót a prezentáció védelméhez, és hogyan mentheti el fájlba. Lépésről lépésre bemutatjuk az utasításokat és a forráskód példákat.
+Ebben az oktatóanyagban végigvezetünk a PowerPoint-bemutatók tulajdonságainak mentési folyamatán az Aspose.Slides for Java használatával. Megtanulod, hogyan állíthatod be a dokumentum tulajdonságait, hogyan tilthatod le a dokumentum tulajdonságainak titkosítását, hogyan állíthatsz be jelszót a bemutató védelméhez, és hogyan mentheted el fájlba. Lépésről lépésre bemutatjuk a részleteket, és forráskód példákat is adunk.
 
 ## Előfeltételek
 
- Mielőtt elkezdené, győződjön meg arról, hogy az Aspose.Slides for Java könyvtár integrálva van a Java projektbe. A könyvtár letölthető az Aspose webhelyéről[itt](https://downloads.aspose.com/slides/java).
+Mielőtt elkezdenéd, győződj meg róla, hogy az Aspose.Slides for Java könyvtár integrálva van a Java projektedbe. A könyvtárat letöltheted az Aspose weboldaláról. [itt](https://downloads.aspose.com/slides/java).
 
-## 1. lépés: Importálja a szükséges könyvtárakat
+## 1. lépés: Szükséges könyvtárak importálása
 
-A kezdéshez importálja a szükséges osztályokat és könyvtárakat:
+Első lépésként importáld a szükséges osztályokat és könyvtárakat:
 
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 ```
 
-## 2. lépés: Hozzon létre egy prezentációs objektumot
+## 2. lépés: Bemutató objektum létrehozása
 
-Példányosítson egy bemutatóobjektumot a PowerPoint-bemutató megjelenítéséhez. Létrehozhat új prezentációt, vagy betölthet egy meglévőt. Ebben a példában új prezentációt hozunk létre.
+Hozz létre egy Presentation objektumot a PowerPoint prezentációd reprezentálásához. Létrehozhatsz egy új prezentációt, vagy betölthetsz egy meglévőt. Ebben a példában egy új prezentációt fogunk létrehozni.
 
 ```java
-// Annak a könyvtárnak az elérési útja, ahová a bemutatót menteni szeretné
+// prezentáció mentési mappájának elérési útja
 String dataDir = "Your Document Directory";
 
-// Példányosítson egy bemutató objektumot
+// Presentation objektum példányosítása
 Presentation presentation = new Presentation();
 ```
 
-## 3. lépés: Állítsa be a dokumentum tulajdonságait
+## 3. lépés: Dokumentumtulajdonságok beállítása
 
-Különféle dokumentumtulajdonságokat állíthat be, például címet, szerzőt, kulcsszavakat stb. Itt beállítunk néhány gyakori tulajdonságot:
+Különböző dokumentumtulajdonságokat állíthat be, például címet, szerzőt, kulcsszavakat és egyebeket. Itt néhány gyakori tulajdonságot fogunk beállítani:
 
 ```java
-// Állítsa be az előadás címét
+// prezentáció címének beállítása
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-//Állítsa be a prezentáció szerzőjét
+// A prezentáció szerzőjének beállítása
 presentation.getDocumentProperties().setAuthor("John Doe");
 
-// Állítson be kulcsszavakat a prezentációhoz
+// Kulcsszavak beállítása a prezentációhoz
 presentation.getDocumentProperties().setKeywords("Aspose, Slides, Java, Tutorial");
 ```
 
-## 4. lépés: Tiltsa le a titkosítást a dokumentum tulajdonságainál
+## 4. lépés: A dokumentumtulajdonságok titkosításának letiltása
 
-Alapértelmezés szerint az Aspose.Slides titkosítja a dokumentum tulajdonságait. Ha le szeretné tiltani a titkosítást a dokumentum tulajdonságainál, használja a következő kódot:
+Alapértelmezés szerint az Aspose.Slides titkosítja a dokumentumtulajdonságokat. Ha le szeretné tiltani a dokumentumtulajdonságok titkosítását, használja a következő kódot:
 
 ```java
 presentation.getProtectionManager().setEncryptDocumentProperties(false);
 ```
 
-## 5. lépés: Állítson be jelszót a prezentáció védelméhez
+## 5. lépés: Jelszó beállítása a prezentáció védelméhez
 
- A prezentációt jelszóval védheti a hozzáférés korlátozása érdekében. Használja a`encrypt` jelszó beállításának módja:
+A prezentációt jelszóval védheti a hozzáférés korlátozása érdekében. Használja a `encrypt` jelszó beállításának módja:
 
 ```java
-// Állítson be jelszót a prezentáció védelméhez
+// Jelszó beállítása a prezentáció védelméhez
 presentation.getProtectionManager().encrypt("your_password");
 ```
 
- Cserélje ki`"your_password"` a kívánt jelszóval.
+Csere `"your_password"` a kívánt jelszóval.
 
-## 6. lépés: Mentse el a bemutatót
+## 6. lépés: Mentse el a prezentációt
 
-Végül mentse a prezentációt fájlba. Ebben a példában PPTX fájlként mentjük el:
+Végül mentse el a prezentációt egy fájlba. Ebben a példában PPTX fájlként fogjuk menteni:
 
 ```java
-// Mentse a prezentációt fájlba
+// Mentse el a prezentációt egy fájlba
 presentation.save(dataDir + "Password_Protected_Presentation_out.pptx", SaveFormat.Pptx);
 ```
 
- Cserélje ki`"Password_Protected_Presentation_out.pptx"` a kívánt fájlnévvel és elérési úttal.
+Csere `"Password_Protected_Presentation_out.pptx"` a kívánt fájlnévvel és elérési úttal.
 
-## Teljes forráskód a Java Slides tulajdonságainak mentéséhez
+## Teljes forráskód a Java Slides mentési tulajdonságaihoz
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
 String dataDir = "Your Document Directory";
-// Példányosítson egy PPT-fájlt képviselő prezentációs objektumot
+// PPT fájlt reprezentáló Presentation objektum példányosítása
 Presentation presentation = new Presentation();
 try
 {
-	//...dolgozz itt egy kicsit.....
-	// A dokumentum tulajdonságaihoz való hozzáférés beállítása jelszóval védett módban
+	//...dolgozz itt egy kicsit...
+	// Dokumentumtulajdonságokhoz való hozzáférés beállítása jelszóval védett módban
 	presentation.getProtectionManager().setEncryptDocumentProperties(false);
 	// Jelszó beállítása
 	presentation.getProtectionManager().encrypt("pass");
-	// Mentse el a bemutatót egy fájlba
+	// Mentse el a prezentációt egy fájlba
 	presentation.save(dataDir + "Password Protected Presentation_out.pptx", SaveFormat.Pptx);
 }
 finally
@@ -113,57 +115,57 @@ finally
 
 ## Következtetés
 
-Ebben az oktatóanyagban megtanulta, hogyan mentheti el a dokumentum tulajdonságait egy PowerPoint-prezentációban az Aspose.Slides for Java segítségével. Különféle tulajdonságokat állíthat be, letilthatja a dokumentumtulajdonságok titkosítását, jelszót állíthat be a védelemhez, és elmentheti a prezentációt a kívánt formátumban.
+Ebben az oktatóanyagban megtanultad, hogyan mentheted el a dokumentum tulajdonságait egy PowerPoint-bemutatóban az Aspose.Slides for Java használatával. Beállíthatsz különféle tulajdonságokat, letilthatod a dokumentumtulajdonságok titkosítását, jelszót állíthatsz be a védelemhez, és mentheted a bemutatót a kívánt formátumban.
 
 ## GYIK
 
-### Hogyan állíthatom be a dokumentum tulajdonságait az Aspose.Slides for Java programban?
+### Hogyan tudom beállítani a dokumentum tulajdonságait az Aspose.Slides for Java programban?
 
- Az Aspose.Slides for Java dokumentum tulajdonságainak beállításához használhatja a`DocumentProperties` osztály. Íme egy példa az olyan tulajdonságok beállítására, mint a cím, szerző és kulcsszavak:
+A dokumentum tulajdonságainak beállításához az Aspose.Slides for Java programban használhatja a következőt: `DocumentProperties` osztály. Íme egy példa olyan tulajdonságok beállítására, mint a cím, a szerző és a kulcsszavak:
 
 ```java
-// Állítsa be az előadás címét
+// prezentáció címének beállítása
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-//Állítsa be a prezentáció szerzőjét
+// A prezentáció szerzőjének beállítása
 presentation.getDocumentProperties().setAuthor("John Doe");
 
-// Állítson be kulcsszavakat a prezentációhoz
+// Kulcsszavak beállítása a prezentációhoz
 presentation.getDocumentProperties().setKeywords("Aspose, Slides, Java, Tutorial");
 ```
 
 ### Mi a célja a dokumentumtulajdonságok titkosításának letiltásának?
 
-A dokumentumtulajdonságok titkosításának letiltása lehetővé teszi a dokumentumok metaadatainak titkosítás nélküli tárolását. Ez akkor lehet hasznos, ha azt szeretné, hogy a dokumentum tulajdonságai (például cím, szerző stb.) láthatóak és elérhetők legyenek jelszó megadása nélkül.
+A dokumentumtulajdonságok titkosításának letiltása lehetővé teszi a dokumentum metaadatainak titkosítás nélküli tárolását. Ez akkor lehet hasznos, ha azt szeretné, hogy a dokumentum tulajdonságai (például cím, szerző stb.) jelszó megadása nélkül láthatóak és elérhetőek legyenek.
 
-A titkosítást a következő kóddal kapcsolhatja ki:
+A titkosítást a következő kóddal tilthatod le:
 
 ```java
 presentation.getProtectionManager().setEncryptDocumentProperties(false);
 ```
 
-### Hogyan védhetem meg PowerPoint bemutatómat jelszóval az Aspose.Slides for Java segítségével?
+### Hogyan védhetem jelszóval a PowerPoint prezentációmat az Aspose.Slides for Java használatával?
 
-PowerPoint prezentációjának jelszóval történő védelméhez használhatja a`encrypt` által biztosított módszer`ProtectionManager` osztály. A jelszó beállításának módja:
+A PowerPoint-bemutató jelszóval való védelméhez használhatja a `encrypt` által biztosított módszer `ProtectionManager` osztály. Így állíthat be jelszót:
 
 ```java
-// Állítson be jelszót a prezentáció védelméhez
+// Jelszó beállítása a prezentáció védelméhez
 presentation.getProtectionManager().encrypt("your_password");
 ```
 
- Cserélje ki`"your_password"` a kívánt jelszóval.
+Csere `"your_password"` a kívánt jelszóval.
 
-### Elmenthetem a prezentációt a PPTX-től eltérő formátumban?
+### Elmenthetem a prezentációt PPTX-től eltérő formátumban?
 
- Igen, elmentheti a prezentációt az Aspose.Slides for Java által támogatott különféle formátumokban, például PPT, PDF stb. Más formátumban való mentéshez módosítsa a`SaveFormat` paraméter a`presentation.save` módszer. Például PDF formátumban történő mentéshez:
+Igen, a prezentációt az Aspose.Slides for Java által támogatott különféle formátumokban mentheti, például PPT, PDF és egyebekben. Más formátumban való mentéshez módosítsa a `SaveFormat` paraméter a `presentation.save` metódus. Például PDF-ként való mentéshez:
 
 ```java
 presentation.save(dataDir + "Presentation.pdf", SaveFormat.Pdf);
 ```
 
-### Mentés után szükséges a Prezentáció objektum megsemmisítése?
+### Szükséges a Presentation objektumot a mentés után megsemmisíteni?
 
- Jó gyakorlat a Prezentáció objektum megsemmisítése a rendszererőforrások felszabadítása érdekében. Használhatja a`finally` blokkolja a megfelelő ártalmatlanítás biztosítását, ahogy az a kódpéldában látható:
+Jó gyakorlat a Presentation objektum eltávolítása a rendszer erőforrásainak felszabadításához. Használhatsz egy `finally` blokk a megfelelő megsemmisítés biztosítása érdekében, ahogy a kódpéldában is látható:
 
 ```java
 finally {
@@ -171,14 +173,16 @@ finally {
 }
 ```
 
-Ez segít megelőzni a memóriaszivárgást az alkalmazásban.
+Ez segít megelőzni a memóriaszivárgásokat az alkalmazásban.
 
-### Hogyan tudhatok meg többet az Aspose.Slides for Java-ról és szolgáltatásairól?
+### Hogyan tudhatok meg többet az Aspose.Slides Java-beli verziójáról és annak funkcióiról?
 
- Az Aspose.Slides for Java dokumentációt a következő címen tekintheti meg[itt](https://docs.aspose.com/slides/java/) részletes információkért, oktatóanyagokért és példákért a könyvtár használatával kapcsolatban.
+Az Aspose.Slides Java dokumentációját itt tekintheti meg: [itt](https://docs.aspose.com/slides/java/) részletes információkért, oktatóanyagokért és példákért a könyvtár használatáról.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

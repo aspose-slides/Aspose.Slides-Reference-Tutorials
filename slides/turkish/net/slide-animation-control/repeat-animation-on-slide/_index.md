@@ -1,33 +1,35 @@
 ---
-title: Aspose.Slides .NET ile PowerPoint Animasyonlarında Uzmanlaşmak
-linktitle: Slaytta Animasyonu Tekrarla
-second_title: Aspose.Slides .NET PowerPoint İşleme API'si
-description: Aspose.Slides for .NET'i kullanarak PowerPoint sunumlarını geliştirin. Animasyonları zahmetsizce kontrol edin, izleyicilerinizi büyüleyin ve kalıcı bir izlenim bırakın.
-weight: 12
-url: /tr/net/slide-animation-control/repeat-animation-on-slide/
+"description": "Aspose.Slides for .NET kullanarak PowerPoint sunumlarınızı geliştirin. Animasyonları zahmetsizce kontrol edin, izleyicilerinizi büyüleyin ve kalıcı bir izlenim bırakın."
+"linktitle": "Slaytta Animasyonu Tekrarla"
+"second_title": "Aspose.Slides .NET PowerPoint İşleme API'si"
+"title": "Aspose.Slides .NET ile PowerPoint Animasyonlarında Ustalaşma"
+"url": "/tr/net/slide-animation-control/repeat-animation-on-slide/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Slides .NET ile PowerPoint Animasyonlarında Uzmanlaşmak
+# Aspose.Slides .NET ile PowerPoint Animasyonlarında Ustalaşma
 
 ## giriiş
-Sunumların dinamik dünyasında, animasyonları kontrol etme yeteneği izleyicinin dikkatini çekmede ve çekmede çok önemli bir rol oynar. Aspose.Slides for .NET, geliştiricilerin slaytlardaki animasyon türlerinin sorumluluğunu üstlenmelerini sağlayarak daha etkileşimli ve görsel olarak çekici bir sunuma olanak tanır. Bu eğitimde Aspose.Slides for .NET kullanarak bir slayttaki animasyon türlerinin nasıl kontrol edileceğini adım adım inceleyeceğiz.
-## Önkoşullar
-Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
-1.  Aspose.Slides for .NET Library: Kütüphaneyi şu adresten indirip yükleyin:[Burada](https://releases.aspose.com/slides/net/).
-2. .NET Geliştirme Ortamı: Makinenizde bir .NET geliştirme ortamı kurun.
+Sunumların dinamik dünyasında, animasyonları kontrol etme yeteneği izleyicinin dikkatini çekmek ve yakalamak için önemli bir rol oynar. Aspose.Slides for .NET, geliştiricilerin slaytlardaki animasyon türlerini kontrol etmelerini sağlayarak daha etkileşimli ve görsel olarak çekici bir sunuma olanak tanır. Bu eğitimde, Aspose.Slides for .NET kullanarak bir slayttaki animasyon türlerini adım adım nasıl kontrol edeceğinizi keşfedeceğiz.
+## Ön koşullar
+Eğitime başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
+1. Aspose.Slides for .NET Kütüphanesi: Kütüphaneyi şu adresten indirin ve yükleyin: [Burada](https://releases.aspose.com/slides/net/).
+2. .NET Geliştirme Ortamı: Makinenize bir .NET geliştirme ortamı kurun.
 ## Ad Alanlarını İçe Aktar
-.NET projenize Aspose.Slides tarafından sağlanan işlevlerden yararlanmak için gerekli ad alanlarını içe aktararak başlayın:
+.NET projenizde, Aspose.Slides tarafından sağlanan işlevlerden yararlanmak için gerekli ad alanlarını içe aktararak başlayın:
 ```csharp
 using Aspose.Slides.Animation;
 using Aspose.Slides.SlideShow;
 using Aspose.Slides.Export;
 ```
 ## Adım 1: Projeyi Kurun
-Projeniz için yeni bir dizin oluşturun ve sunum dosyasını temsil edecek Sunum sınıfını başlatın.
+Projeniz için yeni bir dizin oluşturun ve sunum dosyasını temsil edecek Sunum sınıfını örneklendirin.
 ```csharp
 string dataDir = "Your Document Directory";
 bool IsExists = System.IO.Directory.Exists(dataDir);
@@ -38,43 +40,45 @@ using (Presentation pres = new Presentation(dataDir + "AnimationOnSlide.pptx"))
     // Kodunuz buraya gelecek
 }
 ```
-## Adım 2: Efekt Sırasına Erişim
-MainSequence özelliğini kullanarak ilk slaydın efekt sırasını alın.
+## Adım 2: Erişim Etkileri Dizisi
+MainSequence özelliğini kullanarak ilk slayt için efekt sırasını alın.
 ```csharp
 ISequence effectsSequence = pres.Slides[0].Timeline.MainSequence;
 ```
-## 3. Adım: İlk Efekte Erişin
-Özelliklerini değiştirmek için ana dizinin ilk efektini elde edin.
+## Adım 3: İlk Etkiye Erişim
+Ana dizinin özelliklerini değiştirmek için ilk efekti elde edin.
 ```csharp
 IEffect effect = effectsSequence[0];
 ```
-## Adım 4: Tekrarlama Ayarlarını Değiştirin
-Efektin Zamanlama/Tekrar özelliğini "Slaydın Sonuna Kadar" olarak değiştirin.
+## Adım 4: Tekrar Ayarlarını Değiştirin
+Efektin Zamanlama/Tekrarlama özelliğini "Slayt Sonuna Kadar" olarak değiştirin.
 ```csharp
 effect.Timing.RepeatUntilEndSlide = true;
 ```
-## Adım 5: Sunuyu Kaydetme
-Değişiklikleri görselleştirmek için değiştirilen sunuyu kaydedin.
+## Adım 5: Sunumu Kaydedin
+Değişiklikleri görselleştirmek için değiştirilen sunumu kaydedin.
 ```csharp
 pres.Save(RunExamples.OutPath + "AnimationOnSlide-out.pptx", Aspose.Slides.Export.SaveFormat.Pptx);
 ```
-Ek efektler için bu adımları tekrarlayın veya bunları sunum gereksinimlerinize göre özelleştirin.
+Ek efektler için bu adımları tekrarlayın veya sunum gereksinimlerinize göre özelleştirin.
 ## Çözüm
-Aspose.Slides for .NET ile PowerPoint sunumlarınıza dinamik animasyonlar eklemek hiç bu kadar kolay olmamıştı. Bu adım adım kılavuz, sizi animasyon türlerini kontrol etme bilgisiyle donatarak slaytlarınızın hedef kitleniz üzerinde kalıcı bir izlenim bırakmasını sağlar.
+PowerPoint sunumlarınıza dinamik animasyonlar eklemek Aspose.Slides for .NET ile hiç bu kadar kolay olmamıştı. Bu adım adım kılavuz, animasyon türlerini kontrol etme bilgisini size sağlayarak slaytlarınızın izleyicilerinizde kalıcı bir izlenim bırakmasını sağlar.
 ## Sıkça Sorulan Sorular
 ### Bu animasyonları slayttaki belirli nesnelere uygulayabilir miyim?
-Evet, belirli nesneleri, sıra içindeki bireysel efektlerine erişerek hedefleyebilirsiniz.
+Evet, dizi içindeki bireysel efektlerine erişerek belirli nesneleri hedefleyebilirsiniz.
 ### Aspose.Slides en son PowerPoint sürümleriyle uyumlu mu?
-Aspose.Slides, çok çeşitli PowerPoint sürümleri için destek sağlayarak hem eski hem de yeni sürümlerle uyumluluk sağlar.
+Aspose.Slides, PowerPoint'in çok çeşitli sürümleri için destek sunarak hem eski hem de yeni sürümlerle uyumluluğu garanti altına alır.
 ### Ek örnekleri ve kaynakları nerede bulabilirim?
- Keşfedin[dokümantasyon](https://reference.aspose.com/slides/net/) Kapsamlı örnekler ve ayrıntılı açıklamalar için.
-### Aspose.Slides için nasıl geçici lisans alabilirim?
- Ziyaret etmek[Burada](https://purchase.aspose.com/temporary-license/) Geçici lisans alma konusunda bilgi için.
+Keşfedin [belgeleme](https://reference.aspose.com/slides/net/) Kapsamlı örnekler ve detaylı açıklamalar için.
+### Aspose.Slides için geçici lisansı nasıl alabilirim?
+Ziyaret etmek [Burada](https://purchase.aspose.com/temporary-license/) Geçici lisans alma hakkında bilgi için.
 ### Yardıma mı ihtiyacınız var veya daha fazla sorunuz mu var?
- Aspose.Slides topluluğuyla etkileşime geçin[destek Forumu](https://forum.aspose.com/c/slides/11).
+Aspose.Slides topluluğuyla etkileşim kurun [destek forumu](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में लोड किए बिना प्रेजेंटेशन सत्यापित करें
-linktitle: जावा स्लाइड्स में लोड किए बिना प्रेजेंटेशन सत्यापित करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके Java स्लाइड में लोड किए बिना प्रेजेंटेशन को सत्यापित करना सीखें। इस चरण-दर-चरण मार्गदर्शिका के साथ फ़ाइल अखंडता को कुशलतापूर्वक सुनिश्चित करें।
-weight: 18
-url: /hi/java/additional-utilities/verify-presentation-without-loading-in-java-slides/
+"description": "Aspose.Slides for Java का उपयोग करके Java स्लाइड में लोड किए बिना प्रेजेंटेशन को सत्यापित करना सीखें। इस चरण-दर-चरण मार्गदर्शिका के साथ फ़ाइल अखंडता को कुशलतापूर्वक सुनिश्चित करें।"
+"linktitle": "जावा स्लाइड्स में लोड किए बिना प्रेजेंटेशन सत्यापित करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में लोड किए बिना प्रेजेंटेशन सत्यापित करें"
+"url": "/hi/java/additional-utilities/verify-presentation-without-loading-in-java-slides/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में लोड किए बिना प्रेजेंटेशन सत्यापित करें
@@ -16,14 +18,14 @@ url: /hi/java/additional-utilities/verify-presentation-without-loading-in-java-s
 
 ## जावा स्लाइड्स में लोड किए बिना प्रेजेंटेशन सत्यापित करने का परिचय
 
-जावा स्लाइड्स के क्षेत्र में, किसी प्रेजेंटेशन को वास्तव में लोड किए बिना उसे सत्यापित करने की क्षमता गेम-चेंजर हो सकती है। कल्पना करें कि सिस्टम संसाधनों को लोड करने से पहले प्रेजेंटेशन फ़ाइल के प्रारूप की जांच करने में सक्षम होना। इस व्यापक गाइड में, हम जावा के लिए Aspose.Slides की दुनिया में गहराई से उतरेंगे और सीखेंगे कि इस उल्लेखनीय उपलब्धि को कैसे हासिल किया जाए।
+जावा स्लाइड्स के क्षेत्र में, किसी प्रेजेंटेशन को वास्तव में लोड किए बिना उसे सत्यापित करने की क्षमता गेम-चेंजर हो सकती है। कल्पना करें कि सिस्टम संसाधनों को लोड करने से पहले प्रेजेंटेशन फ़ाइल के प्रारूप की जांच करने में सक्षम होना। इस व्यापक गाइड में, हम जावा के लिए Aspose.Slides की दुनिया में गहराई से जाएंगे और सीखेंगे कि इस उल्लेखनीय उपलब्धि को कैसे हासिल किया जाए।
 
 ## आवश्यक शर्तें
 
 इससे पहले कि हम कोड में उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
 - आपके सिस्टम पर जावा डेवलपमेंट किट (JDK) स्थापित है।
--  Aspose.Slides for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+- Aspose.Slides for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 
 ## चरण-दर-चरण मार्गदर्शिका
 
@@ -47,10 +49,10 @@ import com.aspose.slides.PresentationFactory;
 // दस्तावेज़ निर्देशिका का पथ.
 String dataDir = "Your Document Directory";
 int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "HelloWorld.pptx").getLoadFormat();
-//यदि फ़ाइल प्रस्तुतिकरण प्रारूप के अलावा अन्य है तो यह "LoadFormat.Unknown" लौटाएगा
+// यदि फ़ाइल प्रस्तुतिकरण प्रारूप के अलावा अन्य है तो यह "LoadFormat.Unknown" लौटाएगा
 ```
 
- इस कोड में, हम उपयोग करते हैं`PresentationFactory` प्रस्तुति फ़ाइल के बारे में जानकारी प्राप्त करने के लिए, इसके प्रारूप सहित। यदि फ़ाइल मान्य प्रस्तुति प्रारूप नहीं है, तो यह "LoadFormat.Unknown" लौटाएगा।
+इस कोड में, हम उपयोग करते हैं `PresentationFactory` प्रस्तुति फ़ाइल के बारे में जानकारी प्राप्त करने के लिए, इसके प्रारूप सहित। यदि फ़ाइल मान्य प्रस्तुति प्रारूप नहीं है, तो यह "LoadFormat.Unknown" लौटाएगा।
 
 ## जावा स्लाइड्स में लोड किए बिना प्रेजेंटेशन को सत्यापित करने के लिए पूर्ण स्रोत कोड
 
@@ -58,7 +60,7 @@ int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "He
         // दस्तावेज़ निर्देशिका का पथ.
         String dataDir = "Your Document Directory";
         int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "HelloWorld.pptx").getLoadFormat();
-        //यदि फ़ाइल प्रस्तुतिकरण प्रारूप के अलावा अन्य है तो यह "LoadFormat.Unknown" लौटाएगा
+        // यदि फ़ाइल प्रस्तुतिकरण प्रारूप के अलावा अन्य है तो यह "LoadFormat.Unknown" लौटाएगा
 ```
 
 ## निष्कर्ष
@@ -69,7 +71,7 @@ int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "He
 
 ### मैं Java के लिए Aspose.Slides कैसे स्थापित कर सकता हूँ?
 
- आप वेबसाइट से Java के लिए Aspose.Slides डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/)इसे अपने जावा प्रोजेक्ट में एकीकृत करने के लिए वेबसाइट पर दिए गए इंस्टॉलेशन निर्देशों का पालन करें।
+आप वेबसाइट से Java के लिए Aspose.Slides डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/)इसे अपने जावा प्रोजेक्ट में एकीकृत करने के लिए वेबसाइट पर दिए गए इंस्टॉलेशन निर्देशों का पालन करें।
 
 ### क्या Aspose.Slides for Java विभिन्न प्रस्तुति प्रारूपों के साथ संगत है?
 
@@ -85,10 +87,12 @@ int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "He
 
 ### मैं Aspose.Slides for Java के लिए और अधिक संसाधन और दस्तावेज़ कहां पा सकता हूं?
 
- आप Aspose.Slides for Java के लिए व्यापक दस्तावेज़ और संसाधनों तक पहुँच सकते हैं[यहाँ](https://reference.aspose.com/slides/java/)यह दस्तावेज़ आपको API और इसकी कार्यक्षमताओं में निपुणता प्राप्त करने में सहायता करेगा।
+आप Aspose.Slides for Java के लिए व्यापक दस्तावेज़ और संसाधनों तक पहुँच सकते हैं [यहाँ](https://reference.aspose.com/slides/java/)यह दस्तावेज़ आपको API और इसकी कार्यक्षमताओं में निपुणता प्राप्त करने में सहायता करेगा।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

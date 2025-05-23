@@ -1,14 +1,16 @@
 ---
-title: Aspose.Slides के साथ प्रस्तुति में OLE ऑब्जेक्ट फ़्रेम जोड़ना
-linktitle: Aspose.Slides के साथ प्रस्तुति में OLE ऑब्जेक्ट फ़्रेम जोड़ना
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: जानें कि पावरपॉइंट प्रेजेंटेशन को गतिशील सामग्री के साथ कैसे बेहतर बनाया जाए! .NET के लिए Aspose.Slides का उपयोग करके हमारे चरण-दर-चरण गाइड का पालन करें। अभी जुड़ाव बढ़ाएँ!
-weight: 15
-url: /hi/net/shape-effects-and-manipulation-in-slides/adding-ole-object-frames/
+"description": "जानें कि पावरपॉइंट प्रेजेंटेशन को गतिशील सामग्री के साथ कैसे बेहतर बनाया जाए! .NET के लिए Aspose.Slides का उपयोग करके हमारे चरण-दर-चरण गाइड का पालन करें। अभी जुड़ाव बढ़ाएँ!"
+"linktitle": "Aspose.Slides के साथ प्रस्तुति में OLE ऑब्जेक्ट फ़्रेम जोड़ना"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "Aspose.Slides के साथ प्रस्तुति में OLE ऑब्जेक्ट फ़्रेम जोड़ना"
+"url": "/hi/net/shape-effects-and-manipulation-in-slides/adding-ole-object-frames/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Slides के साथ प्रस्तुति में OLE ऑब्जेक्ट फ़्रेम जोड़ना
@@ -17,7 +19,7 @@ url: /hi/net/shape-effects-and-manipulation-in-slides/adding-ole-object-frames/
 इस ट्यूटोरियल में, हम .NET के लिए Aspose.Slides का उपयोग करके प्रेजेंटेशन स्लाइड में OLE (ऑब्जेक्ट लिंकिंग और एम्बेडिंग) ऑब्जेक्ट फ़्रेम जोड़ने की प्रक्रिया में गहराई से जाएंगे। Aspose.Slides एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को प्रोग्रामेटिक रूप से PowerPoint फ़ाइलों के साथ काम करने में सक्षम बनाती है। अपनी प्रेजेंटेशन स्लाइड में OLE ऑब्जेक्ट को सहजता से एम्बेड करने के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें, अपनी PowerPoint फ़ाइलों को गतिशील और इंटरैक्टिव सामग्री के साथ बेहतर बनाएँ।
 ## आवश्यक शर्तें
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
-1.  Aspose.Slides for .NET लाइब्रेरी: सुनिश्चित करें कि आपके पास Aspose.Slides लाइब्रेरी for .NET स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं[.NET दस्तावेज़ीकरण के लिए Aspose.Slides](https://reference.aspose.com/slides/net/).
+1. Aspose.Slides for .NET लाइब्रेरी: सुनिश्चित करें कि आपके पास Aspose.Slides लाइब्रेरी for .NET स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं [.NET दस्तावेज़ीकरण के लिए Aspose.Slides](https://reference.aspose.com/slides/net/).
 2. दस्तावेज़ निर्देशिका: आवश्यक फ़ाइलों को संग्रहीत करने के लिए अपने सिस्टम पर एक निर्देशिका बनाएँ। आप दिए गए कोड स्निपेट में इस निर्देशिका का पथ सेट कर सकते हैं।
 ## नामस्थान आयात करें
 आरंभ करने के लिए, अपने प्रोजेक्ट में आवश्यक नामस्थान आयात करें:
@@ -35,7 +37,7 @@ string dataDir = "Your Document Directory";
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
-// PPTX का प्रतिनिधित्व करने वाले प्रेजेंटेशन क्लास को इंस्टेंटिएट करें
+// PPTX का प्रतिनिधित्व करने वाला इन्स्टेन्शियेट प्रेजेंटेशन क्लास
 using (Presentation pres = new Presentation())
 {
     // पहली स्लाइड पर पहुँचें
@@ -67,7 +69,7 @@ IOleEmbeddedDataInfo dataInfo = new OleEmbeddedDataInfo(mstream.ToArray(), "xlsx
 ```
 ## चरण 4: OLE ऑब्जेक्ट फ़्रेम आकार जोड़ें
 ```csharp
-//OLE ऑब्जेक्ट फ़्रेम आकार जोड़ें
+// OLE ऑब्जेक्ट फ़्रेम आकार जोड़ें
 IOleObjectFrame oleObjectFrame = sld.Shapes.AddOleObjectFrame(0, 0, pres.SlideSize.Size.Width,
     pres.SlideSize.Size.Height, dataInfo);
 ```
@@ -89,10 +91,12 @@ pres.Save(dataDir + "OleEmbed_out.pptx", SaveFormat.Pptx);
 ### प्रश्न: क्या मैं एम्बेडेड OLE ऑब्जेक्ट फ़्रेम के स्वरूप को अनुकूलित कर सकता हूँ?
 उत्तर: बिल्कुल, आप अपनी पसंद के अनुसार OLE ऑब्जेक्ट फ़्रेम के आकार, स्थिति और अन्य गुणों को समायोजित कर सकते हैं।
 ### प्रश्न: यदि कार्यान्वयन के दौरान मुझे चुनौतियों का सामना करना पड़े तो मैं सहायता कहां से प्राप्त कर सकता हूं?
- उत्तर: यहाँ जाएँ[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) सामुदायिक सहायता और मार्गदर्शन के लिए।
+उत्तर: यहाँ जाएँ [Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) सामुदायिक सहायता और मार्गदर्शन के लिए।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

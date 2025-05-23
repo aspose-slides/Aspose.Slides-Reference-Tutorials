@@ -1,14 +1,16 @@
 ---
-title: जावा का उपयोग करके PowerPoint में टेक्स्ट बॉक्स में हाइपरलिंक जोड़ें
-linktitle: जावा का उपयोग करके PowerPoint में टेक्स्ट बॉक्स में हाइपरलिंक जोड़ें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके PowerPoint टेक्स्ट बॉक्स में हाइपरलिंक जोड़ना सीखें। Java डेवलपर्स के लिए उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 23
-url: /hi/java/java-powerpoint-text-font-customization/add-hyperlink-text-box-powerpoint-java/
+"description": "Aspose.Slides for Java का उपयोग करके PowerPoint टेक्स्ट बॉक्स में हाइपरलिंक जोड़ना सीखें। Java डेवलपर्स के लिए उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "जावा का उपयोग करके PowerPoint में टेक्स्ट बॉक्स में हाइपरलिंक जोड़ें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा का उपयोग करके PowerPoint में टेक्स्ट बॉक्स में हाइपरलिंक जोड़ें"
+"url": "/hi/java/java-powerpoint-text-font-customization/add-hyperlink-text-box-powerpoint-java/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा का उपयोग करके PowerPoint में टेक्स्ट बॉक्स में हाइपरलिंक जोड़ें
@@ -19,7 +21,7 @@ url: /hi/java/java-powerpoint-text-font-customization/add-hyperlink-text-box-pow
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
 - जावा प्रोग्रामिंग भाषा का बुनियादी ज्ञान।
 - आपके सिस्टम पर JDK (जावा डेवलपमेंट किट) स्थापित है।
--  Aspose.Slides for Java लाइब्रेरी डाउनलोड और सेट अप की गई। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+- Aspose.Slides for Java लाइब्रेरी डाउनलोड और सेट अप करें। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 - एकीकृत विकास वातावरण (IDE) जैसे कि IntelliJ IDEA या Eclipse स्थापित होना चाहिए।
 
 ## पैकेज आयात करें
@@ -63,7 +65,7 @@ IPortion portion = textFrame.getParagraphs().get_Item(0).getPortions().get_Item(
 IHyperlinkManager hyperlinkManager = portion.getPortionFormat().getHyperlinkManager();
 hyperlinkManager.setExternalHyperlinkClick("http://www.aspose.com");
 ```
-## चरण 7: प्रेजेंटेशन सहेजें
+## चरण 7: प्रस्तुति सहेजें
 संशोधित प्रस्तुति को निर्दिष्ट स्थान पर सहेजें.
 ```java
 pptxPresentation.save(dataDir + "hLinkPPTX_out.pptx", SaveFormat.Pptx);
@@ -73,18 +75,20 @@ pptxPresentation.save(dataDir + "hLinkPPTX_out.pptx", SaveFormat.Pptx);
 इन चरणों का पालन करके, आपने सफलतापूर्वक सीखा है कि Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में टेक्स्ट बॉक्स में हाइपरलिंक कैसे जोड़ें। यह क्षमता आपको अपने Java अनुप्रयोगों के भीतर गतिशील और इंटरैक्टिव सामग्री बनाने की अनुमति देती है, जिससे उपयोगकर्ता जुड़ाव और अन्तरक्रियाशीलता बढ़ती है।
 ## अक्सर पूछे जाने वाले प्रश्न
 ### क्या मैं Java के लिए Aspose.Slides का निःशुल्क उपयोग कर सकता हूँ?
- हां, आप निःशुल्क परीक्षण के साथ शुरुआत कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप निःशुल्क परीक्षण के साथ शुरुआत कर सकते हैं [यहाँ](https://releases.aspose.com/).
 ### मैं Aspose.Slides for Java के लिए दस्तावेज़ कहां पा सकता हूं?
- विस्तृत दस्तावेज उपलब्ध है[यहाँ](https://reference.aspose.com/slides/java/).
+विस्तृत दस्तावेज उपलब्ध है [यहाँ](https://reference.aspose.com/slides/java/).
 ### यदि मुझे कोई समस्या आती है तो मैं सहायता कैसे प्राप्त कर सकता हूँ?
- आप Aspose समुदाय से सहायता प्राप्त कर सकते हैं[यहाँ](https://forum.aspose.com/c/slides/11).
+आप Aspose समुदाय से सहायता प्राप्त कर सकते हैं [यहाँ](https://forum.aspose.com/c/slides/11).
 ### क्या मैं Aspose.Slides for Java के लिए अस्थायी लाइसेंस खरीद सकता हूँ?
- हां, अस्थायी लाइसेंस खरीदने के लिए उपलब्ध हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+हां, अस्थायी लाइसेंस खरीदने के लिए उपलब्ध हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
 ### क्या Aspose.Slides अन्य जावा लाइब्रेरीज़ के साथ संगत है?
 Aspose.Slides व्यापक पावरपॉइंट हेरफेर के लिए विभिन्न जावा पुस्तकालयों के साथ अच्छी तरह से एकीकृत होता है।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

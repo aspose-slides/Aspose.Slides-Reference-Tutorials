@@ -1,14 +1,16 @@
 ---
-title: प्रेजेंटेशन स्लाइड्स को GIF प्रारूप में बदलें
-linktitle: प्रेजेंटेशन स्लाइड्स को GIF प्रारूप में बदलें
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: इस चरण-दर-चरण मार्गदर्शिका के साथ जानें कि PowerPoint स्लाइडों को गतिशील GIF में परिवर्तित करने के लिए Aspose.Slides for .NET का उपयोग कैसे करें।
-weight: 21
-url: /hi/net/presentation-conversion/convert-presentation-slides-to-gif-format/
+"description": "इस चरण-दर-चरण मार्गदर्शिका के साथ जानें कि PowerPoint स्लाइडों को गतिशील GIF में परिवर्तित करने के लिए Aspose.Slides for .NET का उपयोग कैसे करें।"
+"linktitle": "प्रेजेंटेशन स्लाइड्स को GIF प्रारूप में बदलें"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "प्रेजेंटेशन स्लाइड्स को GIF प्रारूप में बदलें"
+"url": "/hi/net/presentation-conversion/convert-presentation-slides-to-gif-format/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # प्रेजेंटेशन स्लाइड्स को GIF प्रारूप में बदलें
@@ -82,7 +84,7 @@ catch (Exception ex)
 }
 ```
 
-## यह सब एक साथ डालें
+## सब कुछ एक साथ रखना
 
 आइए सभी कोड स्निपेट को एक साथ रखकर Aspose.Slides for .NET का उपयोग करके प्रस्तुति स्लाइडों को GIF प्रारूप में परिवर्तित करने का एक पूर्ण उदाहरण बनाएं:
 
@@ -126,7 +128,7 @@ class Program
 
 ### क्या मैं GIF में स्लाइड की अवधि समायोजित कर सकता हूँ?
 
- हां, आप GIF में स्लाइड अवधि को सेट करके अनुकूलित कर सकते हैं`TimeResolution` संपत्ति में`GifOptions` कक्षा।
+हां, आप GIF में स्लाइड अवधि को सेट करके अनुकूलित कर सकते हैं `TimeResolution` संपत्ति में `GifOptions` कक्षा।
 
 ### क्या Aspose.Slides अन्य PowerPoint-संबंधित कार्यों के लिए उपयुक्त है?
 
@@ -138,10 +140,12 @@ class Program
 
 ### मैं और अधिक कोड उदाहरण और दस्तावेज़ कहां पा सकता हूं?
 
- आप .NET के लिए Aspose.Slides का उपयोग करने पर अधिक कोड उदाहरण और विस्तृत दस्तावेज़ पा सकते हैं।[प्रलेखन](https://reference.aspose.com).
+आप .NET के लिए Aspose.Slides का उपयोग करने पर अधिक कोड उदाहरण और विस्तृत दस्तावेज़ पा सकते हैं। [प्रलेखन](https://reference.aspose.com).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

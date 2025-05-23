@@ -1,14 +1,16 @@
 ---
-title: Aspose.Slides के साथ प्रेजेंटेशन में OLE ऑब्जेक्ट डेटा बदलना
-linktitle: Aspose.Slides के साथ प्रेजेंटेशन में OLE ऑब्जेक्ट डेटा बदलना
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: OLE ऑब्जेक्ट डेटा को आसानी से बदलने में Aspose.Slides for .NET की शक्ति का अन्वेषण करें। गतिशील सामग्री के साथ अपनी प्रस्तुतियों को बेहतर बनाएँ।
-weight: 25
-url: /hi/net/shape-effects-and-manipulation-in-slides/changing-ole-object-data/
+"description": "OLE ऑब्जेक्ट डेटा को आसानी से बदलने में Aspose.Slides for .NET की शक्ति का अन्वेषण करें। गतिशील सामग्री के साथ अपनी प्रस्तुतियों को बेहतर बनाएँ।"
+"linktitle": "Aspose.Slides के साथ प्रेजेंटेशन में OLE ऑब्जेक्ट डेटा बदलना"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": "Aspose.Slides के साथ प्रेजेंटेशन में OLE ऑब्जेक्ट डेटा बदलना"
+"url": "/hi/net/shape-effects-and-manipulation-in-slides/changing-ole-object-data/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Slides के साथ प्रेजेंटेशन में OLE ऑब्जेक्ट डेटा बदलना
@@ -18,7 +20,7 @@ url: /hi/net/shape-effects-and-manipulation-in-slides/changing-ole-object-data/
 ## आवश्यक शर्तें
 इससे पहले कि आप .NET के लिए Aspose.Slides के साथ काम करना शुरू करें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 1. विकास परिवेश: .NET स्थापित करके विकास परिवेश स्थापित करें।
-2.  Aspose.Slides लाइब्रेरी: .NET लाइब्रेरी के लिए Aspose.Slides डाउनलोड करें और इंस्टॉल करें। आप लाइब्रेरी पा सकते हैं[यहाँ](https://releases.aspose.com/slides/net/).
+2. Aspose.Slides लाइब्रेरी: .NET लाइब्रेरी के लिए Aspose.Slides डाउनलोड करें और इंस्टॉल करें। आप लाइब्रेरी पा सकते हैं [यहाँ](https://releases.aspose.com/slides/net/).
 3. बुनियादी समझ: C# प्रोग्रामिंग और पावरपॉइंट प्रस्तुतियों की बुनियादी अवधारणाओं से खुद को परिचित कराएं।
 ## नामस्थान आयात करें
 अपने C# प्रोजेक्ट में, Aspose.Slides कार्यक्षमताओं का उपयोग करने के लिए आवश्यक नामस्थान आयात करें:
@@ -87,16 +89,18 @@ pres.Save(dataDir + "OleEdit_out.pptx", SaveFormat.Pptx);
 ### .NET के लिए Aspose.Slides क्या है?
 Aspose.Slides for .NET एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को पावरपॉइंट प्रस्तुतियों के साथ प्रोग्रामेटिक रूप से काम करने में सक्षम बनाती है, जिससे आसान हेरफेर और संवर्द्धन की अनुमति मिलती है।
 ### मैं Aspose.Slides दस्तावेज़ कहां पा सकता हूं?
- .NET के लिए Aspose.Slides का दस्तावेज़ यहां पाया जा सकता है[यहाँ](https://reference.aspose.com/slides/net/).
+.NET के लिए Aspose.Slides का दस्तावेज़ यहां पाया जा सकता है [यहाँ](https://reference.aspose.com/slides/net/).
 ### मैं .NET के लिए Aspose.Slides कैसे डाउनलोड करूं?
- आप रिलीज़ पेज से लाइब्रेरी डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/net/).
+आप रिलीज़ पेज से लाइब्रेरी डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/net/).
 ### क्या Aspose.Slides के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
- हां, आप निःशुल्क परीक्षण का लाभ उठा सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप निःशुल्क परीक्षण का लाभ उठा सकते हैं [यहाँ](https://releases.aspose.com/).
 ### मुझे Aspose.Slides for .NET के लिए समर्थन कहां मिल सकता है?
- समर्थन और चर्चा के लिए, यहां जाएं[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11).
+समर्थन और चर्चा के लिए, यहां जाएं [Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

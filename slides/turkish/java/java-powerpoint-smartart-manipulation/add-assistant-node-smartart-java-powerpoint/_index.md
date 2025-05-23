@@ -1,84 +1,88 @@
 ---
-title: Java PowerPoint'te SmartArt'a Yardımcı Düğüm Ekleme
-linktitle: Java PowerPoint'te SmartArt'a Yardımcı Düğüm Ekleme
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides kullanarak Java PowerPoint sunumlarında SmartArt'a nasıl asistan düğüm ekleyeceğinizi öğrenin. PowerPoint düzenleme becerilerinizi geliştirin.
-weight: 17
-url: /tr/java/java-powerpoint-smartart-manipulation/add-assistant-node-smartart-java-powerpoint/
+"description": "Aspose.Slides kullanarak Java PowerPoint sunumlarındaki SmartArt'a yardımcı düğüm eklemeyi öğrenin. PowerPoint düzenleme becerilerinizi geliştirin."
+"linktitle": "Java PowerPoint'te SmartArt'a Yardımcı Düğüm Ekleme"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java PowerPoint'te SmartArt'a Yardımcı Düğüm Ekleme"
+"url": "/tr/java/java-powerpoint-smartart-manipulation/add-assistant-node-smartart-java-powerpoint/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java PowerPoint'te SmartArt'a Yardımcı Düğüm Ekleme
 
 ## giriiş
-Bu eğitimde, Aspose.Slides'ı kullanarak Java PowerPoint sunumlarında SmartArt'a asistan düğüm ekleme sürecinde size rehberlik edeceğiz.
-## Önkoşullar
-Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
-1.  Java Geliştirme Kiti (JDK): Sisteminizde Java'nın kurulu olduğundan emin olun. En son JDK'yı şuradan indirip yükleyebilirsiniz:[Burada](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
-2.  Aspose.Slides for Java: Aspose.Slides for Java kütüphanesini şu adresten indirip yükleyin:[bu bağlantı](https://releases.aspose.com/slides/java/).
+Bu eğitimde, Aspose.Slides kullanarak Java PowerPoint sunumlarındaki SmartArt'a yardımcı düğüm ekleme sürecini adım adım anlatacağız.
+## Ön koşullar
+Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
+1. Java Geliştirme Kiti (JDK): Sisteminizde Java'nın yüklü olduğundan emin olun. En son JDK'yi şu adresten indirip yükleyebilirsiniz: [Burada](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+2. Java için Aspose.Slides: Java için Aspose.Slides kitaplığını indirin ve yükleyin [bu bağlantı](https://releases.aspose.com/slides/java/).
 
 ## Paketleri İçe Aktar
-Başlangıç olarak gerekli paketleri Java kodunuza aktarın:
+Öncelikle gerekli paketleri Java kodunuza aktarın:
 ```java
 import com.aspose.slides.*;
 ```
-## 1. Adım: Sunumu Hazırlayın
+## Adım 1: Sunumu Ayarlayın
 PowerPoint dosyanızın yolunu kullanarak bir Sunum örneği oluşturarak başlayın:
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "AssistantNode.pptx");
 ```
-## Adım 2: Şekiller Arasında Geçiş Yapın
-Sunumun ilk slaydındaki her şeklin üzerinden geçin:
+## Adım 2: Şekiller Arasında Gezinme
+Sunumun ilk slaydındaki her şeklin üzerinde gezinin:
 ```java
 for (IShape shape : pres.getSlides().get_Item(0).getShapes())
 ```
-## 3. Adım: SmartArt Şekillerini kontrol edin
+## Adım 3: SmartArt Şekillerini Kontrol Edin
 Şeklin SmartArt türünde olup olmadığını kontrol edin:
 ```java
 if (shape instanceof ISmartArt)
 ```
-## Adım 4: SmartArt Düğümleri Üzerinden Geçiş Yapın
-SmartArt şeklinin tüm düğümleri arasında geçiş yapın:
+## Adım 4: SmartArt Düğümleri Arasında Gezinme
+SmartArt şeklinin tüm düğümlerini dolaş:
 ```java
 for (ISmartArtNode node : smart.getAllNodes())
 ```
-## 5. Adım: Yardımcı Düğümü kontrol edin
+## Adım 5: Yardımcı Düğüm Kontrolü
 Düğümün yardımcı düğüm olup olmadığını kontrol edin:
 ```java
 if (node.isAssistant())
 ```
-## Adım 6: Asistan Düğümünü Normal Olarak Ayarlayın
-Düğüm bir yardımcı düğüm ise onu normal bir düğüme ayarlayın:
+## Adım 6: Yardımcı Düğümü Normal Olarak Ayarlayın
+Düğüm yardımcı düğüm ise, onu normal düğüme ayarlayın:
 ```java
 node.setAssistant(false);
 ```
-## Adım 7: Sunumu Kaydet
+## Adım 7: Sunumu Kaydedin
 Değiştirilen sunumu kaydedin:
 ```java
 pres.save(dataDir + "ChangeAssistantNode_out.pptx", SaveFormat.Pptx);
 ```
 
 ## Çözüm
-Tebrikler! Aspose.Slides'ı kullanarak Java PowerPoint sunumunuza SmartArt'a başarıyla bir asistan düğümü eklediniz.
+Tebrikler! Java PowerPoint sununuzdaki SmartArt'a Aspose.Slides kullanarak başarıyla bir yardımcı düğüm eklediniz.
 
-## SSS'ler
-### Sunumdaki bir SmartArt'a birden çok yardımcı düğüm ekleyebilir miyim?
+## SSS
+### Sunumdaki bir SmartArt'a birden fazla yardımcı düğüm ekleyebilir miyim?
 Evet, her düğüm için işlemi tekrarlayarak birden fazla yardımcı düğüm ekleyebilirsiniz.
-### Bu eğitim hem PowerPoint hem de PowerPoint şablonlarında çalışıyor mu?
-Evet, bu eğitimi hem PowerPoint sunumlarına hem de şablonlara uygulayabilirsiniz.
-### Aspose.Slides PowerPoint'in tüm sürümleriyle uyumlu mu?
-Aspose.Slides, 97-2003 arası PowerPoint sürümlerini en son sürüme kadar destekler.
+### Bu eğitim hem PowerPoint hem de PowerPoint şablonları için geçerli mi?
+Evet, bu eğitimi hem PowerPoint sunumlarınıza hem de şablonlarınıza uygulayabilirsiniz.
+### Aspose.Slides PowerPoint'in tüm sürümleriyle uyumlu mudur?
+Aspose.Slides, PowerPoint'in 97-2003 sürümlerinden son sürüme kadar olan tüm sürümleri destekler.
 ### Yardımcı düğümün görünümünü özelleştirebilir miyim?
-Evet, Aspose.Slides tarafından sağlanan çeşitli özellik ve yöntemleri kullanarak görünümü özelleştirebilirsiniz.
-### SmartArt'taki düğüm sayısında herhangi bir sınırlama var mı?
-PowerPoint'teki SmartArt çok sayıda düğümü destekler ancak daha iyi okunabilirlik için bunun makul düzeyde tutulması önerilir.
+Evet, Aspose.Slides tarafından sağlanan çeşitli özellikleri ve yöntemleri kullanarak görünümü özelleştirebilirsiniz.
+### SmartArt'ta düğüm sayısının bir sınırı var mıdır?
+PowerPoint'teki SmartArt çok sayıda düğümü destekler, ancak daha iyi okunabilirlik için bunu makul düzeyde tutmanız önerilir.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

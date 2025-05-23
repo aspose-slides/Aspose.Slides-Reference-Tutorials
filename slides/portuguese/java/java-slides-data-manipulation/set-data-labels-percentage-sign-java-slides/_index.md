@@ -1,30 +1,32 @@
 ---
-title: Definir sinal de porcentagem de rótulos de dados em slides Java
-linktitle: Definir sinal de porcentagem de rótulos de dados em slides Java
-second_title: API de processamento Aspose.Slides Java PowerPoint
-description: Aprenda como definir rótulos de dados com sinais de porcentagem em apresentações do PowerPoint usando Aspose.Slides para Java. Crie gráficos envolventes com orientação passo a passo e código-fonte.
-weight: 17
-url: /pt/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
+"description": "Aprenda a definir rótulos de dados com sinais de porcentagem em apresentações do PowerPoint usando o Aspose.Slides para Java. Crie gráficos envolventes com instruções passo a passo e código-fonte."
+"linktitle": "Definir rótulos de dados e sinal de porcentagem em slides Java"
+"second_title": "API de processamento Java PowerPoint Aspose.Slides"
+"title": "Definir rótulos de dados e sinal de porcentagem em slides Java"
+"url": "/pt/java/data-manipulation/set-data-labels-percentage-sign-java-slides/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Definir sinal de porcentagem de rótulos de dados em slides Java
+# Definir rótulos de dados e sinal de porcentagem em slides Java
 
 
-## Introdução ao conjunto de sinal de porcentagem de rótulos de dados em Aspose.Slides para Java
+## Introdução ao Conjunto de Rótulos de Dados e Sinal de Porcentagem no Aspose.Slides para Java
 
-Neste guia, orientaremos você no processo de configuração de rótulos de dados com um sinal de porcentagem usando Aspose.Slides para Java. Criaremos uma apresentação em PowerPoint com um gráfico de colunas empilhadas e configuraremos rótulos de dados para exibir porcentagens.
+Neste guia, mostraremos o processo de configuração de rótulos de dados com um sinal de porcentagem usando o Aspose.Slides para Java. Criaremos uma apresentação do PowerPoint com um gráfico de colunas empilhadas e configuraremos rótulos de dados para exibir porcentagens.
 
 ## Pré-requisitos
 
- Antes de começar, certifique-se de ter a biblioteca Aspose.Slides para Java adicionada ao seu projeto. Você pode baixá-lo em[aqui](https://releases.aspose.com/slides/java/).
+Antes de começar, certifique-se de ter a biblioteca Aspose.Slides para Java adicionada ao seu projeto. Você pode baixá-la em [aqui](https://releases.aspose.com/slides/java/).
 
-## Etapa 1: crie uma nova apresentação
+## Etapa 1: Crie uma nova apresentação
 
-Primeiro, criamos uma nova apresentação em PowerPoint usando Aspose.Slides.
+Primeiro, criamos uma nova apresentação do PowerPoint usando o Aspose.Slides.
 
 ```java
 // O caminho para o diretório de documentos.
@@ -35,19 +37,19 @@ Presentation presentation = new Presentation();
 
 ## Etapa 2: adicionar um slide e um gráfico
 
-A seguir, adicionamos um slide e um gráfico de colunas empilhadas à apresentação.
+Em seguida, adicionamos um slide e um gráfico de colunas empilhadas à apresentação.
 
 ```java
-// Obtenha referência do slide
+// Obter referência do slide
 ISlide slide = presentation.getSlides().get_Item(0);
 
 // Adicionar gráfico PercentsStackedColumn em um slide
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
 ```
 
-## Etapa 3: configurar o formato do número do eixo
+## Etapa 3: Configurar o formato do número do eixo
 
-Para exibir porcentagens, precisamos configurar o formato numérico do eixo vertical do gráfico.
+Para exibir porcentagens, precisamos configurar o formato numérico para o eixo vertical do gráfico.
 
 ```java
 // Defina NumberFormatLinkedToSource como falso
@@ -83,7 +85,7 @@ series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorkshe
 Agora, vamos personalizar a aparência dos rótulos de dados.
 
 ```java
-// Configurando propriedades LabelFormat
+// Configurando propriedades do LabelFormat
 series.getLabels().getDefaultDataLabelFormat().setShowValue(true);
 series.getLabels().getDefaultDataLabelFormat().setNumberFormatLinkedToSource(false);
 series.getLabels().getDefaultDataLabelFormat().setNumberFormat("0.0%");
@@ -100,25 +102,25 @@ series2.getLabels().getDefaultDataLabelFormat().getTextFormat().getPortionFormat
 series2.getLabels().getDefaultDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
 ```
 
-## Etapa 6: salve a apresentação
+## Etapa 6: Salve a apresentação
 
-Finalmente, salvamos a apresentação em um arquivo PowerPoint.
+Por fim, salvamos a apresentação em um arquivo do PowerPoint.
 
 ```java
-// Gravar apresentação em disco
+// Gravar apresentação no disco
 presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.Pptx);
 ```
 
-É isso! Você criou com sucesso uma apresentação do PowerPoint com um gráfico de colunas empilhadas e configurou rótulos de dados para exibir porcentagens usando Aspose.Slides para Java.
+Pronto! Você criou com sucesso uma apresentação do PowerPoint com um gráfico de colunas empilhadas e configurou rótulos de dados para exibir porcentagens usando o Aspose.Slides para Java.
 
-## Código-fonte completo para definir sinal de porcentagem de rótulos de dados em slides Java
+## Código-fonte completo para rótulos de dados definidos e sinal de porcentagem em slides Java
 
 ```java
 // O caminho para o diretório de documentos.
 String dataDir = "Your Document Directory";
 // Crie uma instância da classe Presentation
 Presentation presentation = new Presentation();
-// Obtenha referência do slide
+// Obter referência do slide
 ISlide slide = presentation.getSlides().get_Item(0);
 // Adicionar gráfico PercentsStackedColumn em um slide
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
@@ -135,10 +137,10 @@ series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorkshee
 series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 2, 1, 0.50));
 series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 3, 1, 0.80));
 series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 4, 1, 0.65));
-// Configurando a cor de preenchimento da série
+// Definindo a cor de preenchimento da série
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
-// Configurando propriedades LabelFormat
+// Configurando propriedades do LabelFormat
 series.getLabels().getDefaultDataLabelFormat().setShowValue(true);
 series.getLabels().getDefaultDataLabelFormat().setNumberFormatLinkedToSource(false);
 series.getLabels().getDefaultDataLabelFormat().setNumberFormat("0.0%");
@@ -152,7 +154,7 @@ series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorkshe
 series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 2, 2, 0.50));
 series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 3, 2, 0.20));
 series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 4, 2, 0.35));
-// Configurando tipo e cor de preenchimento
+// Definindo o tipo e a cor do preenchimento
 series2.getFormat().getFill().setFillType(FillType.Solid);
 series2.getFormat().getFill().getSolidFillColor().setColor(Color.BLUE);
 series2.getLabels().getDefaultDataLabelFormat().setShowValue(true);
@@ -161,31 +163,33 @@ series2.getLabels().getDefaultDataLabelFormat().setNumberFormat("0.0%");
 series2.getLabels().getDefaultDataLabelFormat().getTextFormat().getPortionFormat().setFontHeight(10);
 series2.getLabels().getDefaultDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat().setFillType(FillType.Solid);
 series2.getLabels().getDefaultDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
-// Gravar apresentação em disco
+// Gravar apresentação no disco
 presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.Pptx);
 ```
 
 ## Conclusão
 
-Seguindo este guia, você aprendeu como criar apresentações envolventes com rótulos de dados baseados em porcentagem, que podem ser particularmente úteis para transmitir informações de maneira eficaz em relatórios de negócios, materiais educacionais e muito mais.
+Seguindo este guia, você aprendeu a criar apresentações envolventes com rótulos de dados baseados em porcentagem, o que pode ser particularmente útil para transmitir informações de forma eficaz em relatórios comerciais, materiais educacionais e muito mais.
 
 ## Perguntas frequentes
 
-### Como posso alterar as cores da série do gráfico?
+### Como posso alterar as cores das séries do gráfico?
 
- Você pode alterar a cor de preenchimento da série do gráfico usando o`setFill` método como mostrado no exemplo.
+Você pode alterar a cor de preenchimento da série do gráfico usando o `setFill` método conforme mostrado no exemplo.
 
 ### Posso personalizar o tamanho da fonte dos rótulos de dados?
 
-Sim, você pode personalizar o tamanho da fonte dos rótulos de dados definindo o`setFontHeight` propriedade conforme demonstrado no código.
+Sim, você pode personalizar o tamanho da fonte dos rótulos de dados definindo o `setFontHeight` propriedade conforme demonstrado no código.
 
 ### Como posso adicionar mais séries ao gráfico?
 
- Você pode adicionar séries adicionais ao gráfico usando o`add` método no`IChartSeriesCollection` objeto.
+Você pode adicionar séries adicionais ao gráfico usando o `add` método sobre o `IChartSeriesCollection` objeto.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

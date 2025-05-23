@@ -1,45 +1,47 @@
 ---
-title: Java Slaytlarında Çok Kategorili Grafik
-linktitle: Java Slaytlarında Çok Kategorili Grafik
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides for Java'yı kullanarak Java Slaytlarında Çok Kategorili Grafikler oluşturun. Sunumlarda etkileyici veri görselleştirmesi için kaynak kodlu adım adım kılavuz.
-weight: 20
-url: /tr/java/chart-data-manipulation/multi-category-chart-java-slides/
+"description": "Java için Aspose.Slides'ı kullanarak Java Slaytlarında Çok Kategorili Grafikler Oluşturun. Sunumlarda etkileyici veri görselleştirmesi için kaynak kodlu adım adım kılavuz."
+"linktitle": "Java Slaytlarında Çok Kategorili Tablo"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java Slaytlarında Çok Kategorili Tablo"
+"url": "/tr/java/chart-data-manipulation/multi-category-chart-java-slides/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java Slaytlarında Çok Kategorili Grafik
+# Java Slaytlarında Çok Kategorili Tablo
 
 
-## Aspose.Slides ile Java Slaytlarında Çok Kategorili Grafiğe Giriş
+## Java Slaytlarında Aspose.Slides ile Çok Kategorili Tabloya Giriş
 
-Bu eğitimde Aspose.Slides for Java API'sini kullanarak Java slaytlarında çok kategorili bir grafiğin nasıl oluşturulacağını öğreneceğiz. Bu kılavuz, birden fazla kategori ve seriden oluşan kümelenmiş bir sütun grafiği oluşturmanıza yardımcı olacak kaynak koduyla birlikte adım adım talimatlar sağlayacaktır.
+Bu eğitimde, Aspose.Slides for Java API'sini kullanarak Java slaytlarında çok kategorili bir grafik oluşturmayı öğreneceğiz. Bu kılavuz, birden fazla kategori ve seriye sahip kümelenmiş bir sütun grafiği oluşturmanıza yardımcı olmak için kaynak koduyla birlikte adım adım talimatlar sağlayacaktır.
 
-## Önkoşullar
-Başlamadan önce, Java geliştirme ortamınızda Aspose.Slides for Java kütüphanesinin kurulu olduğundan ve kurulduğundan emin olun.
+## Ön koşullar
+Başlamadan önce, Java geliştirme ortamınızda Aspose.Slides for Java kütüphanesinin yüklü ve ayarlanmış olduğundan emin olun.
 
-## 1. Adım: Ortamı Ayarlama
-Öncelikle gerekli sınıfları içe aktarın ve slaytlarla çalışmak için yeni bir Sunum nesnesi oluşturun.
+## Adım 1: Ortamı Kurma
+Öncelikle gerekli sınıfları içe aktaralım ve slaytlarla çalışmak için yeni bir Sunum nesnesi oluşturalım.
 
 ```java
-// Belgeler dizininin yolu.
+// Belgeler dizinine giden yol.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 ```
 
 ## Adım 2: Slayt ve Grafik Ekleme
-Daha sonra bir slayt oluşturun ve buna kümelenmiş bir sütun grafiği ekleyin.
+Daha sonra bir slayt oluşturun ve ona kümelenmiş sütun grafiği ekleyin.
 
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
 IChart ch = slide.getShapes().addChart(ChartType.ClusteredColumn, 100, 100, 600, 450);
 ```
 
-## 3. Adım: Mevcut Verileri Temizleme
-Grafikteki mevcut verileri temizleyin.
+## Adım 3: Mevcut Verileri Temizleme
+Grafikte mevcut olan tüm verileri temizleyin.
 
 ```java
 ch.getChartData().getSeries().clear();
@@ -47,7 +49,7 @@ ch.getChartData().getCategories().clear();
 ```
 
 ## Adım 4: Veri Kategorilerini Ayarlama
-Şimdi grafik için veri kategorilerini ayarlayalım. Birden fazla kategori oluşturup bunları gruplandıracağız.
+Şimdi grafik için veri kategorileri ayarlayalım. Birden fazla kategori oluşturacağız ve bunları gruplayacağız.
 
 ```java
 IChartDataWorkbook fact = ch.getChartData().getChartDataWorkbook();
@@ -78,7 +80,7 @@ category = ch.getChartData().getCategories().add(fact.getCell(0, "c9", "H"));
 ```
 
 ## Adım 5: Seri Ekleme
-Şimdi grafiğe veri noktalarıyla birlikte bir seri ekleyelim.
+Şimdi, veri noktalarıyla birlikte grafiğe bir seri ekleyelim.
 
 ```java
 IChartSeries series = ch.getChartData().getSeries().add(fact.getCell(0, "D1", "Series 1"), ChartType.ClusteredColumn);
@@ -100,12 +102,12 @@ Son olarak sunumu grafikle birlikte kaydedin.
 pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
 
-Bu kadar! Aspose.Slides'ı kullanarak bir Java slaytında başarıyla çok kategorili bir grafik oluşturdunuz. Bu grafiği özel gereksinimlerinize uyacak şekilde daha da özelleştirebilirsiniz.
+İşte bu kadar! Aspose.Slides kullanarak bir Java slaydında çok kategorili bir grafik başarıyla oluşturdunuz. Bu grafiği özel gereksinimlerinize uyacak şekilde daha da özelleştirebilirsiniz.
 
-## Java Slaytlarında Çok Kategorili Grafik İçin Tam Kaynak Kodu
+## Java Slaytlarında Çok Kategorili Tablo İçin Tam Kaynak Kodu
 
 ```java
-// Belgeler dizininin yolu.
+// Belgeler dizinine giden yol.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
@@ -127,7 +129,7 @@ category = ch.getChartData().getCategories().add(fact.getCell(0, "c7", "F"));
 category = ch.getChartData().getCategories().add(fact.getCell(0, "c8", "G"));
 category.getGroupingLevels().setGroupingItem(1, "Group4");
 category = ch.getChartData().getCategories().add(fact.getCell(0, "c9", "H"));
-// Seri Ekleme
+//            Seri Ekleme
 IChartSeries series = ch.getChartData().getSeries().add(fact.getCell(0, "D1", "Series 1"),
 		ChartType.ClusteredColumn);
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, "D2", 10));
@@ -144,28 +146,30 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ## Çözüm
 
-Bu eğitimde Aspose.Slides for Java API'sini kullanarak Java slaytlarında çok kategorili bir grafiğin nasıl oluşturulacağını öğrendik. Birden fazla kategori ve seriye sahip kümelenmiş bir sütun grafiği oluşturmak için kaynak kodlu adım adım kılavuzu inceledik.
+Bu eğitimde, Java slaytlarında Aspose.Slides for Java API'sini kullanarak çok kategorili bir grafik oluşturmayı öğrendik. Birden fazla kategori ve seriye sahip kümelenmiş bir sütun grafiği oluşturmak için kaynak kodlu adım adım bir kılavuzdan geçtik.
 
-## SSS'ler
+## SSS
 
-### Grafiğin görünümünü nasıl özelleştirebilirim?
+### Grafik görünümünü nasıl özelleştirebilirim?
 
-Renkler, yazı tipleri ve stiller gibi özellikleri değiştirerek grafiğin görünümünü özelleştirebilirsiniz. Ayrıntılı özelleştirme seçenekleri için Aspose.Slides belgelerine bakın.
+Renkler, yazı tipleri ve stiller gibi özellikleri değiştirerek grafik görünümünü özelleştirebilirsiniz. Ayrıntılı özelleştirme seçenekleri için Aspose.Slides belgelerine bakın.
 
-### Grafiğe daha fazla seri ekleyebilir miyim?
+### Tabloya daha fazla seri ekleyebilir miyim?
 
-Evet, 5. Adımda gösterilene benzer bir işlemi izleyerek grafiğe ek seriler ekleyebilirsiniz.
+Evet, 5. Adımda gösterilen benzer bir işlemi izleyerek grafiğe ek seriler ekleyebilirsiniz.
 
-### Grafik türünü nasıl değiştiririm?
+### Grafik türünü nasıl değiştirebilirim?
 
- Grafik türünü değiştirmek için değiştirin`ChartType.ClusteredColumn` 2. Adımda grafiği eklerken istediğiniz grafik türüyle.
+Grafik türünü değiştirmek için şunu değiştirin: `ChartType.ClusteredColumn` Adım 2'de grafik eklerken istenilen grafik türüyle.
 
-### Grafiğe nasıl başlık ekleyebilirim?
+### Tabloya nasıl başlık ekleyebilirim?
 
- Kullanarak grafiğe bir başlık ekleyebilirsiniz.`ch.getChartTitle().getTextFrame().setText("Chart Title");` yöntem.
+Grafiğe bir başlık eklemek için şunu kullanabilirsiniz: `ch.getChartTitle().getTextFrame().setText("Chart Title");` yöntem.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

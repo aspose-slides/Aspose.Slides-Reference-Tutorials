@@ -1,35 +1,37 @@
 ---
-title: Java スライドでのチャートシリーズの自動色付け
-linktitle: Java スライドでのチャートシリーズの自動色付け
-second_title: Aspose.Slides Java PowerPoint 処理 API
-description: Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションでシリーズの色を自動的に変更する動的なグラフを作成する方法を学びます。データの視覚化を簡単に強化できます。
-weight: 14
-url: /ja/java/chart-data-manipulation/automatic-chart-series-color-java-slides/
+"description": "Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションでシリーズの色を自動的に調整する動的なグラフを作成する方法を学びましょう。データの視覚化を簡単に強化できます。"
+"linktitle": "Javaスライドのチャートシリーズの自動色付け"
+"second_title": "Aspose.Slides Java PowerPoint 処理 API"
+"title": "Javaスライドのチャートシリーズの自動色付け"
+"url": "/ja/java/chart-data-manipulation/automatic-chart-series-color-java-slides/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java スライドでのチャートシリーズの自動色付け
+# Javaスライドのチャートシリーズの自動色付け
 
 
-## Aspose.Slides for Java での自動チャート シリーズ カラーの概要
+## Aspose.Slides for Java の自動チャートシリーズカラーの紹介
 
-このチュートリアルでは、Aspose.Slides for Java を使用してグラフ付きの PowerPoint プレゼンテーションを作成し、グラフ シリーズの自動塗りつぶし色を設定する方法について説明します。自動塗りつぶし色を使用すると、グラフの視覚的な魅力が増し、ライブラリで色を選択できるため、時間の節約にもなります。
+このチュートリアルでは、Aspose.Slides for Java を使用してグラフ付きのPowerPointプレゼンテーションを作成し、グラフ系列に自動で色を設定する方法を説明します。自動で色を設定すると、グラフの見栄えが良くなり、ライブラリが自動的に色を選択するため、作業時間を節約できます。
 
 ## 前提条件
 
-始める前に、プロジェクトにAspose.Slides for Javaライブラリがインストールされていることを確認してください。ダウンロードはこちらからできます。[ここ](https://releases.aspose.com/slides/java/).
+始める前に、Aspose.Slides for Javaライブラリがプロジェクトにインストールされていることを確認してください。ダウンロードはこちらから可能です。 [ここ](https://releases。aspose.com/slides/java/).
 
 ## ステップ1: 新しいプレゼンテーションを作成する
 
 まず、新しい PowerPoint プレゼンテーションを作成し、それにスライドを追加します。
 
 ```java
-//ドキュメント ディレクトリへのパス。
+// ドキュメント ディレクトリへのパス。
 String dataDir = "Your Document Directory";
-//プレゼンテーションクラスのインスタンスを作成する
+// プレゼンテーションクラスのインスタンスを作成する
 Presentation presentation = new Presentation();
 ```
 
@@ -38,32 +40,32 @@ Presentation presentation = new Presentation();
 次に、スライドに集合縦棒グラフを追加します。また、最初の系列に値を表示するように設定します。
 
 ```java
-//最初のスライドにアクセス
+// 最初のスライドにアクセス
 ISlide slide = presentation.getSlides().get_Item(0);
-//デフォルトデータでグラフを追加
+// デフォルトデータでグラフを追加する
 IChart chart = slide.getShapes().addChart(ChartType.ClusteredColumn, 0, 0, 500, 500);
-//最初のシリーズを値を表示に設定
+// 最初の系列を値を表示に設定する
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 ```
 
 ## ステップ3: チャートデータを入力する
 
-次に、グラフにデータを入力します。まず、デフォルトで生成されたシリーズとカテゴリを削除し、次に新しいシリーズとカテゴリを追加します。
+それでは、チャートにデータを入力していきましょう。まず、デフォルトで生成された系列とカテゴリを削除し、新しい系列とカテゴリを追加します。
 
 ```java
-//チャートデータシートのインデックスの設定
+// チャートデータシートのインデックスの設定
 int defaultWorksheetIndex = 0;
-//チャートデータワークシートの取得
+// チャートデータワークシートの取得
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
-//デフォルトで生成されたシリーズとカテゴリを削除する
+// デフォルトで生成されたシリーズとカテゴリを削除する
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 
-//新しいシリーズの追加
+// 新しいシリーズの追加
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), chart.getType());
 
-//新しいカテゴリーの追加
+// 新しいカテゴリの追加
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 1, 0, "Category 1"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 0, "Category 2"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Category 3"));
@@ -74,16 +76,16 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 
 シリーズ 1 とシリーズ 2 の両方のシリーズ データを入力します。
 
 ```java
-//最初のチャートシリーズ
+// 最初のチャートシリーズ
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-//シリーズデータを入力中
+// シリーズデータを入力中
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
-//第2チャートシリーズ
+// 第2チャートシリーズ
 series = chart.getChartData().getSeries().get_Item(1);
-//シリーズデータを入力中
+// シリーズデータを入力中
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
@@ -91,10 +93,10 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 
 ## ステップ5: シリーズの自動塗りつぶし色を設定する
 
-次に、チャート シリーズの自動塗りつぶし色を設定しましょう。これにより、ライブラリが自動的に色を選択するようになります。
+それでは、チャート系列の自動塗りつぶし色を設定しましょう。これにより、ライブラリが自動的に色を選択するようになります。
 
 ```java
-//シリーズの自動塗りつぶし色の設定
+// シリーズの自動塗りつぶし色の設定
 series.getFormat().getFill().setFillType(FillType.NotDefined);
 ```
 
@@ -103,59 +105,59 @@ series.getFormat().getFill().setFillType(FillType.NotDefined);
 最後に、グラフを含むプレゼンテーションを PowerPoint ファイルに保存します。
 
 ```java
-//グラフ付きのプレゼンテーションを保存する
+// グラフ付きのプレゼンテーションを保存する
 presentation.save(dataDir + "AutomaticColor_out.pptx", SaveFormat.Pptx);
 ```
 
-## Java スライドの自動チャート シリーズ カラーの完全なソース コード
+## Javaスライドでチャートシリーズの色を自動調整するための完全なソースコード
 
 ```java
-//ドキュメント ディレクトリへのパス。
+// ドキュメント ディレクトリへのパス。
 String dataDir = "Your Document Directory";
-//プレゼンテーションクラスのインスタンスを作成する
+// プレゼンテーションクラスのインスタンスを作成する
 Presentation presentation = new Presentation();
 try
 {
-	//最初のスライドにアクセス
+	// 最初のスライドにアクセス
 	ISlide slide = presentation.getSlides().get_Item(0);
-	//デフォルトデータでグラフを追加
+	// デフォルトデータでグラフを追加する
 	IChart chart = slide.getShapes().addChart(ChartType.ClusteredColumn, 0, 0, 500, 500);
-	//最初のシリーズを値を表示に設定
+	// 最初の系列を値を表示に設定する
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
-	//チャートデータシートのインデックスの設定
+	// チャートデータシートのインデックスの設定
 	int defaultWorksheetIndex = 0;
-	//チャートデータワークシートの取得
+	// チャートデータワークシートの取得
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
-	//デフォルトで生成されたシリーズとカテゴリを削除する
+	// デフォルトで生成されたシリーズとカテゴリを削除する
 	chart.getChartData().getSeries().clear();
 	chart.getChartData().getCategories().clear();
 	int s = chart.getChartData().getSeries().size();
 	s = chart.getChartData().getCategories().size();
-	//新しいシリーズの追加
+	// 新しいシリーズの追加
 	chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
 	chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), chart.getType());
-	//新しいカテゴリーの追加
+	// 新しいカテゴリの追加
 	chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 1, 0, "Caetegoty 1"));
 	chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 0, "Caetegoty 2"));
 	chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
-	//最初のチャートシリーズ
+	// 最初のチャートシリーズ
 	IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-	//シリーズデータを入力中
+	// シリーズデータを入力中
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
-	//シリーズの自動塗りつぶし色の設定
+	// シリーズの自動塗りつぶし色の設定
 	series.getFormat().getFill().setFillType(FillType.NotDefined);
-	//第2チャートシリーズ
+	// 第2チャートシリーズ
 	series = chart.getChartData().getSeries().get_Item(1);
-	//シリーズデータを入力中
+	// シリーズデータを入力中
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-	//シリーズの塗りつぶし色の設定
+	// シリーズの塗りつぶし色の設定
 	series.getFormat().getFill().setFillType(FillType.Solid);
 	series.getFormat().getFill().getSolidFillColor().setColor(Color.GRAY);
-	//グラフ付きのプレゼンテーションを保存する
+	// グラフ付きのプレゼンテーションを保存する
 	presentation.save(dataDir + "AutomaticColor_out.pptx", SaveFormat.Pptx);
 }
 finally
@@ -166,7 +168,7 @@ finally
 
 ## 結論
 
-このチュートリアルでは、Aspose.Slides for Java を使用してチャート付きの PowerPoint プレゼンテーションを作成し、チャート シリーズの自動塗りつぶし色を設定する方法を学習しました。自動色設定により、チャートの視覚的な魅力が高まり、プレゼンテーションがより魅力的になります。必要に応じて、特定の要件に合わせてチャートをさらにカスタマイズできます。
+このチュートリアルでは、Aspose.Slides for Java を使用してグラフ付きのPowerPointプレゼンテーションを作成し、グラフ系列に自動で色を塗りつぶす方法を学びました。自動色設定により、グラフの視覚的な魅力が向上し、プレゼンテーションがより魅力的になります。必要に応じて、グラフをさらにカスタマイズすることもできます。
 
 ## よくある質問
 
@@ -175,30 +177,32 @@ finally
 Aspose.Slides for Java でグラフ シリーズの自動塗りつぶし色を設定するには、次のコードを使用します。
 
 ```java
-//シリーズの自動塗りつぶし色の設定
+// シリーズの自動塗りつぶし色の設定
 series.getFormat().getFill().setFillType(FillType.NotDefined);
 ```
 
-このコードにより、ライブラリはチャートシリーズの色を自動的に選択できるようになります。
+このコードにより、ライブラリはチャートのシリーズの色を自動的に選択できるようになります。
 
 ### 必要に応じてグラフの色をカスタマイズできますか?
 
-はい、必要に応じてグラフの色をカスタマイズできます。提供された例では自動塗りつぶし色を使用しましたが、`FillType`そして`SolidFillColor`シリーズの形式のプロパティ。
+はい、必要に応じてグラフの色をカスタマイズできます。例では自動塗りつぶしの色を使用していますが、 `FillType` そして `SolidFillColor` シリーズの形式のプロパティ。
 
-### グラフにシリーズやカテゴリを追加するにはどうすればよいですか?
+### グラフにさらにシリーズやカテゴリを追加するにはどうすればよいですか?
 
-チャートにシリーズやカテゴリを追加するには、`getSeries()`そして`getCategories()`チャートの手法`ChartData`オブジェクト。データとラベルを指定して、新しいシリーズとカテゴリを追加できます。
+チャートに系列やカテゴリを追加するには、 `getSeries()` そして `getCategories()` チャートの手法 `ChartData` オブジェクト。データとラベルを指定して、新しいシリーズとカテゴリを追加できます。
 
 ### グラフとラベルをさらにフォーマットすることは可能ですか?
 
-はい、必要に応じてグラフ、シリーズ、ラベルをさらに書式設定できます。Aspose.Slides for Java には、フォント、色、スタイルなど、グラフの広範な書式設定オプションが用意されています。書式設定オプションの詳細については、ドキュメントを参照してください。
+はい、必要に応じてグラフ、系列、ラベルの書式をさらに細かく設定できます。Aspose.Slides for Java は、フォント、色、スタイルなど、グラフの書式設定オプションを幅広く提供しています。書式設定オプションの詳細については、ドキュメントをご覧ください。
 
-### Aspose.Slides for Java の使用に関する詳細情報はどこで入手できますか?
+### Aspose.Slides for Java の使用方法に関する詳細情報はどこで入手できますか?
 
- Aspose.Slides for Javaの詳細情報と詳細なドキュメントについては、リファレンスドキュメントをご覧ください。[ここ](https://reference.aspose.com/slides/java/).
+Aspose.Slides for Java の詳細情報と詳細なドキュメントについては、リファレンスドキュメントをご覧ください。 [ここ](https://reference。aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

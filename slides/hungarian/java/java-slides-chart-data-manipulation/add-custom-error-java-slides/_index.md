@@ -1,33 +1,35 @@
 ---
-title: Egyéni hiba hozzáadása a Java Slides-hez
-linktitle: Egyéni hiba hozzáadása a Java Slides-hez
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan adhat egyéni hibasávokat a PowerPoint diagramokhoz a Java Slides programban az Aspose.Slides segítségével. Lépésről lépésre útmutató forráskóddal az adatok pontos megjelenítéséhez.
-weight: 11
-url: /hu/java/chart-data-manipulation/add-custom-error-java-slides/
+"description": "Tanuld meg, hogyan adhatsz hozzá egyéni hibasávokat PowerPoint-diagramokhoz Java Slides-ben az Aspose.Slides használatával. Lépésről lépésre útmutató forráskóddal a precíz adatvizualizációhoz."
+"linktitle": "Egyéni hiba hozzáadása Java diákban"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Egyéni hiba hozzáadása Java diákban"
+"url": "/hu/java/chart-data-manipulation/add-custom-error-java-slides/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Egyéni hiba hozzáadása a Java Slides-hez
+# Egyéni hiba hozzáadása Java diákban
 
 
-## Bevezetés az egyéni hibasávok hozzáadásához Java Slides-ben az Aspose.Slides használatával
+## Bevezetés az egyéni hibasávok hozzáadásához Java diákban az Aspose.Slides használatával
 
-Ebből az oktatóanyagból megtudhatja, hogyan adhat egyéni hibasávokat egy PowerPoint-prezentáció diagramjához az Aspose.Slides for Java segítségével. A hibasávok hasznosak a diagram adatpontjaiban lévő változékonyság vagy bizonytalanság megjelenítéséhez.
+Ebben az oktatóanyagban megtanulod, hogyan adhatsz hozzá egyéni hibasávokat egy PowerPoint-bemutató diagramjához az Aspose.Slides for Java segítségével. A hibasávok hasznosak az adatpontok változékonyságának vagy bizonytalanságának megjelenítésére egy diagramon.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következőkkel:
+Mielőtt elkezdené, győződjön meg arról, hogy a következőkkel rendelkezik:
 
-- Aspose.Slides for Java könyvtár telepítve és konfigurálva a projektben.
-- Java fejlesztői környezet beállítva.
+- Az Aspose.Slides for Java könyvtár telepítve és konfigurálva van a projektedben.
+- Java fejlesztői környezet beállítása.
 
-## 1. lépés: Hozzon létre egy üres prezentációt
+## 1. lépés: Hozz létre egy üres prezentációt
 
-Először hozzon létre egy üres PowerPoint-prezentációt.
+Először hozz létre egy üres PowerPoint bemutatót.
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
@@ -38,16 +40,16 @@ Presentation presentation = new Presentation();
 
 ## 2. lépés: Buborékdiagram hozzáadása
 
-Ezután egy buborékdiagramot adunk a bemutatóhoz.
+Ezután hozzáadunk egy buborékdiagramot a prezentációhoz.
 
 ```java
-// Buborékdiagram készítése
+// Buborékdiagram létrehozása
 IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Bubble, 50, 50, 400, 300, true);
 ```
 
-## 3. lépés: Adjon hozzá egyéni hibasávokat
+## 3. lépés: Egyéni hibasávok hozzáadása
 
-Most adjunk egyéni hibasávokat a diagramsorozathoz.
+Most adjunk hozzá egyéni hibasávokat a diagramsorozathoz.
 
 ```java
 // Egyéni hibasávok hozzáadása és formátumuk beállítása
@@ -60,19 +62,19 @@ errBarX.setValueType(ErrorBarValueType.Custom);
 errBarY.setValueType(ErrorBarValueType.Custom);
 ```
 
-## 4. lépés: Állítsa be a hibasávok adatait
+## 4. lépés: Hibasáv-adatok beállítása
 
-Ebben a lépésben hozzáférünk a diagramsorozat adatpontjaihoz, és minden ponthoz beállítjuk az egyéni hibasávok értékeit.
+Ebben a lépésben hozzáférünk a diagramsorozat adatpontjaihoz, és beállítjuk az egyéni hibasávok értékeit minden ponthoz.
 
 ```java
-// Diagramsorozat adatpontjainak elérése és hibasávok értékeinek beállítása az egyes pontokhoz
+// Diagramsorozat adatpontjainak elérése és az egyes pontok hibasávjainak értékeinek beállítása
 IChartDataPointCollection points = series.getDataPoints();
 points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForXPlusValues(DataSourceType.DoubleLiterals);
 points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForXMinusValues(DataSourceType.DoubleLiterals);
 points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForYPlusValues(DataSourceType.DoubleLiterals);
 points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForYMinusValues(DataSourceType.DoubleLiterals);
 
-// Hibasávok beállítása diagramsorozat-pontokhoz
+// Diagramsorozat pontjainak hibasávjainak beállítása
 for (int i = 0; i < points.size(); i++)
 {
     points.get_Item(i).getErrorBarsCustomValues().getXMinus().setAsLiteralDouble(i + 1);
@@ -91,9 +93,9 @@ Végül mentse el a prezentációt az egyéni hibasávokkal.
 presentation.save(dataDir + "ErrorBarsCustomValues_out.pptx", SaveFormat.Pptx);
 ```
 
-Ez az! Sikeresen hozzáadott egyéni hibasávokat egy PowerPoint-prezentáció diagramjához az Aspose.Slides for Java segítségével.
+Ez minden! Sikeresen hozzáadtál egyéni hibasávokat egy PowerPoint-bemutató diagramjához az Aspose.Slides for Java használatával.
 
-## Java Slides egyéni hibájának hozzáadása teljes forráskódja
+## Teljes forráskód az egyéni hiba hozzáadásához Java diákban
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
@@ -102,9 +104,9 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation();
 try
 {
-	// Buborékdiagram készítése
+	// Buborékdiagram létrehozása
 	IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Bubble, 50, 50, 400, 300, true);
-	// Egyéni hibasávok hozzáadása és formátumának beállítása
+	// Egyéni hibasávok hozzáadása és formátumuk beállítása
 	IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 	IErrorBarsFormat errBarX = series.getErrorBarsXFormat();
 	IErrorBarsFormat errBarY = series.getErrorBarsYFormat();
@@ -112,13 +114,13 @@ try
 	errBarY.setVisible(true);
 	errBarX.setValueType(ErrorBarValueType.Custom);
 	errBarY.setValueType(ErrorBarValueType.Custom);
-	// Diagramsorozat adatpont elérése és hibasávok értékeinek beállítása az egyes pontokhoz
+	// Diagramsorozat adatpontjainak elérése és az egyes pontok hibasávjainak értékeinek beállítása
 	IChartDataPointCollection points = series.getDataPoints();
 	points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForXPlusValues(DataSourceType.DoubleLiterals);
 	points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForXMinusValues(DataSourceType.DoubleLiterals);
 	points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForYPlusValues(DataSourceType.DoubleLiterals);
 	points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForYMinusValues(DataSourceType.DoubleLiterals);
-	// Hibasávok beállítása diagramsorozat-pontokhoz
+	// Diagramsorozat pontjainak hibasávjainak beállítása
 	for (int i = 0; i < points.size(); i++)
 	{
 		points.get_Item(i).getErrorBarsCustomValues().getXMinus().setAsLiteralDouble(i + 1);
@@ -137,28 +139,30 @@ finally
 
 ## Következtetés
 
-Ebben az átfogó oktatóanyagban megtanulta, hogyan javíthatja PowerPoint-prezentációit egyéni hibasávok hozzáadásával a diagramokhoz az Aspose.Slides for Java segítségével. A hibasávok értékes betekintést nyújtanak az adatok változékonyságába és bizonytalanságába, így a diagramok informatívabbak és látványosabbak.
+Ebben az átfogó oktatóanyagban megtanultad, hogyan teheted jobbá PowerPoint-bemutatóidat egyéni hibasávok hozzáadásával a diagramokhoz az Aspose.Slides for Java segítségével. A hibasávok értékes betekintést nyújtanak az adatok változékonyságába és bizonytalanságába, így a diagramok informatívabbá és vizuálisan vonzóbbá válnak.
 
 ## GYIK
 
 ### Hogyan szabhatom testre a hibasávok megjelenését?
 
- Testreszabhatja a hibasávok megjelenését a tulajdonságok módosításával`IErrorBarsFormat` objektum, például vonalstílus, vonalszín és hibasáv szélessége.
+A hibasávok megjelenését testreszabhatja a tulajdonságaik módosításával. `IErrorBarsFormat` objektum, például vonalstílus, vonalszín és hibasáv szélessége.
 
 ### Hozzáadhatok hibasávokat más diagramtípusokhoz?
 
-Igen, felvehet hibasávokat az Aspose.Slides for Java által támogatott különféle diagramtípusokhoz, beleértve a sávdiagramokat, vonaldiagramokat és szóródiagramokat.
+Igen, hibasávokat adhatsz hozzá az Aspose.Slides for Java által támogatott különféle diagramtípusokhoz, beleértve az oszlopdiagramokat, vonaldiagramokat és szóródási diagramokat.
 
-### Hogyan állíthatok be különböző hibasáv-értékeket az egyes adatpontokhoz?
+### Hogyan állíthatok be különböző hibasáv értékeket az egyes adatpontokhoz?
 
-Az adatpontok között hurkolhat, és minden ponthoz egyéni hibasáv-értékeket állíthat be, a fenti kód szerint.
+Végigjárhatja az adatpontokat, és egyéni hibasáv-értékeket állíthat be minden ponthoz, a fenti kódban látható módon.
 
-### Lehetséges-e elrejteni a hibasávokat bizonyos adatpontokhoz?
+### Lehetséges elrejteni a hibasávokat bizonyos adatpontoknál?
 
- Igen, szabályozhatja az egyes adatpontok hibasávjainak láthatóságát a`setVisible` tulajdona a`IErrorBarsFormat` tárgy.
+Igen, az egyes adatpontok hibasávjainak láthatóságát a következő beállítással szabályozhatja: `setVisible` a tulajdona `IErrorBarsFormat` objektum.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

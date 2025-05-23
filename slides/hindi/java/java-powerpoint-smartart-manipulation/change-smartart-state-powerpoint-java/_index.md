@@ -1,14 +1,16 @@
 ---
-title: जावा के साथ PowerPoint में स्मार्टआर्ट स्थिति बदलें
-linktitle: जावा के साथ PowerPoint में स्मार्टआर्ट स्थिति बदलें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: जावा और Aspose.Slides का उपयोग करके PowerPoint प्रस्तुतियों में SmartArt की स्थिति को बदलना सीखें। अपनी प्रस्तुति स्वचालन कौशल को बढ़ाएँ।
-weight: 21
-url: /hi/java/java-powerpoint-smartart-manipulation/change-smartart-state-powerpoint-java/
+"description": "जावा और Aspose.Slides का उपयोग करके PowerPoint प्रस्तुतियों में SmartArt की स्थिति को बदलना सीखें। अपनी प्रस्तुति स्वचालन कौशल को बढ़ाएँ।"
+"linktitle": "जावा के साथ PowerPoint में स्मार्टआर्ट स्थिति बदलें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा के साथ PowerPoint में स्मार्टआर्ट स्थिति बदलें"
+"url": "/hi/java/java-powerpoint-smartart-manipulation/change-smartart-state-powerpoint-java/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा के साथ PowerPoint में स्मार्टआर्ट स्थिति बदलें
@@ -17,8 +19,8 @@ url: /hi/java/java-powerpoint-smartart-manipulation/change-smartart-state-powerp
 इस ट्यूटोरियल में, आप सीखेंगे कि Aspose.Slides लाइब्रेरी के साथ Java का उपयोग करके PowerPoint प्रस्तुतियों में SmartArt ऑब्जेक्ट्स को कैसे मैनिपुलेट किया जाए। SmartArt PowerPoint में एक शक्तिशाली सुविधा है जो आपको आकर्षक आरेख और ग्राफ़िक्स बनाने की अनुमति देती है।
 ## आवश्यक शर्तें
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
-1.  जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपके सिस्टम पर जावा इंस्टॉल है। आप इसे यहाँ से डाउनलोड कर सकते हैं।[ओरेकल वेबसाइट](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.Slides for Java: Aspose.Slides for Java लाइब्रेरी को डाउनलोड करें और इंस्टॉल करें[वेबसाइट](https://releases.aspose.com/slides/java/).
+1. जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपके सिस्टम पर जावा इंस्टॉल है। आप इसे यहाँ से डाउनलोड कर सकते हैं। [ओरेकल वेबसाइट](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+2. Aspose.Slides for Java: Aspose.Slides for Java लाइब्रेरी को डाउनलोड करें और इंस्टॉल करें [वेबसाइट](https://releases.aspose.com/slides/java/).
 
 ## पैकेज आयात करें
 अपने जावा प्रोजेक्ट में Aspose.Slides के साथ काम करना शुरू करने के लिए, आवश्यक पैकेज आयात करें:
@@ -33,12 +35,12 @@ import com.aspose.slides.SmartArtLayoutType;
 ```java
 Presentation presentation = new Presentation();
 ```
- यहाँ, हम एक नया निर्माण करते हैं`Presentation` ऑब्जेक्ट, जो एक पावरपॉइंट प्रस्तुति का प्रतिनिधित्व करता है।
+यहाँ, हम एक नया निर्माण करते हैं `Presentation` ऑब्जेक्ट, जो एक पावरपॉइंट प्रस्तुति का प्रतिनिधित्व करता है।
 ## चरण 2: स्मार्टआर्ट ऑब्जेक्ट जोड़ें
 ```java
 ISmartArt smart = presentation.getSlides().get_Item(0).getShapes().addSmartArt(10, 10, 400, 300, SmartArtLayoutType.BasicProcess);
 ```
- यह चरण प्रस्तुति की पहली स्लाइड में एक स्मार्टआर्ट ऑब्जेक्ट जोड़ता है। हम स्मार्टआर्ट ऑब्जेक्ट की स्थिति और आयाम, साथ ही लेआउट प्रकार (इस मामले में,) निर्दिष्ट करते हैं।`BasicProcess`).
+यह चरण प्रस्तुति की पहली स्लाइड में एक स्मार्टआर्ट ऑब्जेक्ट जोड़ता है। हम स्मार्टआर्ट ऑब्जेक्ट की स्थिति और आयाम, साथ ही लेआउट प्रकार (इस मामले में,) निर्दिष्ट करते हैं। `BasicProcess`).
 ## चरण 3: स्मार्टआर्ट स्थिति सेट करें
 ```java
 smart.setReversed(true);
@@ -48,7 +50,7 @@ smart.setReversed(true);
 ```java
 boolean flag = smart.isReversed();
 ```
- हम स्मार्टआर्ट ऑब्जेक्ट की वर्तमान स्थिति भी जाँच सकते हैं। यह लाइन यह पता लगाती है कि स्मार्टआर्ट उल्टा है या नहीं और इसे स्टोर करती है`flag` चर।
+हम स्मार्टआर्ट ऑब्जेक्ट की वर्तमान स्थिति भी जाँच सकते हैं। यह लाइन यह पता लगाती है कि स्मार्टआर्ट उल्टा है या नहीं और इसे स्टोर करती है `flag` चर।
 ## चरण 5: प्रस्तुति सहेजें
 ```java
 presentation.save(dataDir + "ChangeSmartArtState_out.pptx", SaveFormat.Pptx);
@@ -67,10 +69,12 @@ presentation.save(dataDir + "ChangeSmartArtState_out.pptx", SaveFormat.Pptx);
 ### क्या Aspose.Slides PowerPoint के अलावा अन्य फ़ाइल स्वरूपों के लिए समर्थन प्रदान करता है?
 हां, Aspose.Slides फ़ाइल स्वरूपों की एक विस्तृत श्रृंखला का समर्थन करता है, जिसमें PPTX, PPT, PDF, और बहुत कुछ शामिल है।
 ### क्या कोई सामुदायिक मंच है जहां मैं Aspose.Slides से संबंधित प्रश्नों में सहायता प्राप्त कर सकता हूं?
- हां, आप Aspose.Slides फोरम पर जा सकते हैं[यहाँ](https://forum.aspose.com/c/slides/11) सहायता और चर्चा के लिए।
+हां, आप Aspose.Slides फोरम पर जा सकते हैं [यहाँ](https://forum.aspose.com/c/slides/11) सहायता और चर्चा के लिए।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

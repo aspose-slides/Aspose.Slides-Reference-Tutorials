@@ -1,14 +1,16 @@
 ---
-title: Festlegen automatischer Kreisdiagrammsegmentfarben in Java-Folien
-linktitle: Festlegen automatischer Kreisdiagrammsegmentfarben in Java-Folien
-second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie mit Aspose.Slides für Java dynamische Kreisdiagramme mit automatischen Segmentfarben in Java PowerPoint-Präsentationen erstellen. Schritt-für-Schritt-Anleitung mit Quellcode.
-weight: 24
-url: /de/java/data-manipulation/setting-automatic-pie-chart-slice-colors-java-slides/
+"description": "Erfahren Sie, wie Sie mit Aspose.Slides für Java dynamische Kreisdiagramme mit automatischer Segmentfarbe in Java-PowerPoint-Präsentationen erstellen. Schritt-für-Schritt-Anleitung mit Quellcode."
+"linktitle": "Festlegen automatischer Kreisdiagrammsegmentfarben in Java-Folien"
+"second_title": "Aspose.Slides Java PowerPoint-Verarbeitungs-API"
+"title": "Festlegen automatischer Kreisdiagrammsegmentfarben in Java-Folien"
+"url": "/de/java/data-manipulation/setting-automatic-pie-chart-slice-colors-java-slides/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Festlegen automatischer Kreisdiagrammsegmentfarben in Java-Folien
@@ -16,11 +18,11 @@ url: /de/java/data-manipulation/setting-automatic-pie-chart-slice-colors-java-sl
 
 ## Einführung in das Festlegen automatischer Kreisdiagrammsegmentfarben in Java-Folien
 
-In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Slides für Java ein Kreisdiagramm in einer PowerPoint-Präsentation erstellen und automatische Segmentfarben für das Diagramm festlegen. Wir stellen Ihnen eine Schritt-für-Schritt-Anleitung zusammen mit dem Quellcode zur Verfügung.
+In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Slides für Java ein Kreisdiagramm in einer PowerPoint-Präsentation erstellen und die Segmentfarben automatisch festlegen. Wir stellen Ihnen eine Schritt-für-Schritt-Anleitung mit Quellcode zur Verfügung.
 
 ## Voraussetzungen
 
- Bevor Sie beginnen, stellen Sie sicher, dass Sie die Bibliothek Aspose.Slides für Java in Ihrem Java-Projekt installiert und eingerichtet haben. Sie können die Bibliothek von der Aspose-Website herunterladen:[Laden Sie Aspose.Slides für Java herunter](https://releases.aspose.com/slides/java/).
+Stellen Sie zunächst sicher, dass die Bibliothek Aspose.Slides für Java in Ihrem Java-Projekt installiert und eingerichtet ist. Sie können die Bibliothek von der Aspose-Website herunterladen: [Laden Sie Aspose.Slides für Java herunter](https://releases.aspose.com/slides/java/).
 
 ## Schritt 1: Erforderliche Pakete importieren
 
@@ -39,7 +41,7 @@ import com.aspose.slides.charts.IChartDataWorkbook;
 
 ## Schritt 2: Erstellen Sie eine PowerPoint-Präsentation
 
- Instanziieren Sie den`Presentation` Klasse zum Erstellen einer neuen PowerPoint-Präsentation:
+Instanziieren Sie die `Presentation` Klasse zum Erstellen einer neuen PowerPoint-Präsentation:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -48,7 +50,7 @@ Presentation presentation = new Presentation();
 
 ## Schritt 3: Eine Folie hinzufügen
 
-Rufen Sie die erste Folie der Präsentation auf und fügen Sie ihr ein Diagramm mit Standarddaten hinzu:
+Greifen Sie auf die erste Folie der Präsentation zu und fügen Sie ihr ein Diagramm mit Standarddaten hinzu:
 
 ```java
 ISlide slide = presentation.getSlides().get_Item(0);
@@ -68,7 +70,7 @@ chart.setTitle(true);
 
 ## Schritt 5: Diagrammdaten konfigurieren
 
-Legen Sie im Diagramm fest, ob die Werte für die erste Reihe angezeigt werden sollen, und konfigurieren Sie die Diagrammdaten:
+Legen Sie das Diagramm so fest, dass die Werte für die erste Reihe angezeigt werden, und konfigurieren Sie die Diagrammdaten:
 
 ```java
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
@@ -91,9 +93,9 @@ chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
 ```
 
-## Schritt 7: Datenreihe auffüllen
+## Schritt 7: Seriendaten auffüllen
 
-Füllen Sie die Reihendaten für das Kreisdiagramm auf:
+Füllen Sie die Reihendaten für das Kreisdiagramm aus:
 
 ```java
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
@@ -101,7 +103,7 @@ series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 ```
 
-## Schritt 8: Verschiedene Slice-Farben aktivieren
+## Schritt 8: Aktivieren Sie verschiedene Slice-Farben
 
 Aktivieren Sie verschiedene Segmentfarben für das Kreisdiagramm:
 
@@ -111,7 +113,7 @@ series.getParentSeriesGroup().setColorVaried(true);
 
 ## Schritt 9: Speichern Sie die Präsentation
 
-Speichern Sie die Präsentation abschließend als PowerPoint-Datei:
+Speichern Sie die Präsentation abschließend in einer PowerPoint-Datei:
 
 ```java
 presentation.save(dataDir + "Pie.pptx", SaveFormat.Pptx);
@@ -120,24 +122,24 @@ presentation.save(dataDir + "Pie.pptx", SaveFormat.Pptx);
 ## Vollständiger Quellcode zum Festlegen automatischer Kreisdiagrammsegmentfarben in Java-Folien
 
 ```java
-// Der Pfad zum Dokumentverzeichnis.
+// Der Pfad zum Dokumentenverzeichnis.
 String dataDir = "Your Document Directory";
 // Instanziieren Sie die Präsentationsklasse, die die PPTX-Datei darstellt
 Presentation presentation = new Presentation();
 try
 {
-	// Zur ersten Folie
+	// Zugriff auf die erste Folie
 	ISlide slides = presentation.getSlides().get_Item(0);
 	// Diagramm mit Standarddaten hinzufügen
 	IChart chart = slides.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
-	// Diagrammtitel festlegen
+	// Einstellungsdiagrammtitel
 	chart.getChartTitle().addTextFrameForOverriding("Sample Title");
 	chart.getChartTitle().getTextFrameForOverriding().getTextFrameFormat().setCenterText(NullableBool.True);
 	chart.getChartTitle().setHeight(20);
 	chart.setTitle(true);
-	// Stellen Sie die erste Serie auf „Werte anzeigen“ ein.
+	// Stellen Sie die erste Serie auf „Werte anzeigen“ ein
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
-	// Festlegen des Indexes des Diagrammdatenblattes
+	// Festlegen des Index des Diagrammdatenblatts
 	int defaultWorksheetIndex = 0;
 	// Abrufen des Arbeitsblatts mit den Diagrammdaten
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
@@ -165,27 +167,27 @@ finally
 
 ## Abschluss
 
-Sie haben erfolgreich ein Kreisdiagramm in einer PowerPoint-Präsentation mit Aspose.Slides für Java erstellt und es so konfiguriert, dass die Segmentfarben automatisch angezeigt werden. Diese Schritt-für-Schritt-Anleitung liefert Ihnen den dafür erforderlichen Quellcode. Sie können das Diagramm und die Präsentation nach Bedarf weiter anpassen.
+Sie haben erfolgreich ein Kreisdiagramm in einer PowerPoint-Präsentation mit Aspose.Slides für Java erstellt und die automatische Segmentfarbe konfiguriert. Diese Schritt-für-Schritt-Anleitung liefert Ihnen den dafür notwendigen Quellcode. Sie können das Diagramm und die Präsentation nach Bedarf weiter anpassen.
 
 ## Häufig gestellte Fragen
 
 ### Wie kann ich die Farben einzelner Segmente im Kreisdiagramm anpassen?
 
- Um die Farben einzelner Segmente im Kreisdiagramm anzupassen, können Sie die`getAutomaticSeriesColors` Methode, um das Standardfarbschema abzurufen und die Farben dann nach Bedarf zu ändern. Hier ist ein Beispiel:
+Um die Farben einzelner Segmente im Kreisdiagramm anzupassen, können Sie die `getAutomaticSeriesColors` Methode, um das Standardfarbschema abzurufen und die Farben anschließend nach Bedarf zu ändern. Hier ein Beispiel:
 
 ```java
-//Abrufen des Standardfarbschemas
+// Holen Sie sich das Standardfarbschema
 IColorFormatCollection colors = chart.getChartData().getSeries().get_Item(0).getAutomaticSeriesColors();
 
 // Ändern Sie die Farben nach Bedarf
-colors.get_Item(0).setColor(Color.RED); // Stellen Sie die Farbe des ersten Segments auf Rot ein.
-colors.get_Item(1).setColor(Color.BLUE); // Stellen Sie die Farbe des zweiten Slices auf Blau ein
+colors.get_Item(0).setColor(Color.RED); // Stellen Sie die Farbe der ersten Scheibe auf Rot ein
+colors.get_Item(1).setColor(Color.BLUE); // Stellen Sie die Farbe der zweiten Scheibe auf Blau ein
 // Fügen Sie bei Bedarf weitere Farbänderungen hinzu
 ```
 
 ### Wie kann ich dem Kreisdiagramm eine Legende hinzufügen?
 
- Um dem Kreisdiagramm eine Legende hinzuzufügen, können Sie das`getLegend` Methode und konfigurieren Sie sie wie folgt:
+Um dem Kreisdiagramm eine Legende hinzuzufügen, können Sie das `getLegend` Methode und konfigurieren Sie sie wie folgt:
 
 ```java
 ILegend legend = chart.getLegend();
@@ -204,9 +206,11 @@ chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).ge
 ```
 
 Sie können die Schriftgröße, Fettschrift und Kursivschrift nach Bedarf anpassen.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

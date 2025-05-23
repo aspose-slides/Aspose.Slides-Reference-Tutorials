@@ -1,14 +1,16 @@
 ---
-title: पावरपॉइंट में सापेक्ष स्केल ऊंचाई चित्र फ़्रेम जोड़ें
-linktitle: पावरपॉइंट में सापेक्ष स्केल ऊंचाई चित्र फ़्रेम जोड़ें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: जानें कि Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में सापेक्ष स्केल ऊंचाई चित्र फ़्रेम कैसे जोड़ें, जिससे आपकी दृश्य सामग्री में वृद्धि हो।
-weight: 15
-url: /hi/java/java-powerpoint-shape-media-insertion/add-relative-scale-height-picture-frame-powerpoint/
+"description": "जानें कि Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में सापेक्ष स्केल ऊंचाई चित्र फ़्रेम कैसे जोड़ें, जिससे आपकी दृश्य सामग्री में वृद्धि हो।"
+"linktitle": "पावरपॉइंट में सापेक्ष स्केल ऊंचाई चित्र फ़्रेम जोड़ें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "पावरपॉइंट में सापेक्ष स्केल ऊंचाई चित्र फ़्रेम जोड़ें"
+"url": "/hi/java/java-powerpoint-shape-media-insertion/add-relative-scale-height-picture-frame-powerpoint/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पावरपॉइंट में सापेक्ष स्केल ऊंचाई चित्र फ़्रेम जोड़ें
@@ -67,16 +69,18 @@ presentation.save(dataDir + "Adding Picture Frame with Relative Scale_out.pptx",
 ### क्या मैं इस विधि का उपयोग करके एक ही स्लाइड में एकाधिक चित्र फ़्रेम जोड़ सकता हूँ?
 हां, आप प्रत्येक चित्र के लिए प्रक्रिया को दोहराकर एक स्लाइड में एकाधिक चित्र फ़्रेम जोड़ सकते हैं।
 ### क्या Aspose.Slides for Java PowerPoint के सभी संस्करणों के साथ संगत है?
-जावा के लिए Aspose.Slides पावरपॉइंट के विभिन्न संस्करणों के साथ संगत है, जिससे प्रस्तुतियाँ बनाने में लचीलापन सुनिश्चित होता है।
+जावा के लिए Aspose.Slides पावरपॉइंट के विभिन्न संस्करणों के साथ संगत है, जो प्रस्तुतियाँ बनाने में लचीलापन सुनिश्चित करता है।
 ### क्या मैं चित्र फ़्रेम की स्थिति और आकार को अनुकूलित कर सकता हूँ?
- बिल्कुल, आप स्थिति और आकार मापदंडों को समायोजित कर सकते हैं`addPictureFrame` अपनी आवश्यकताओं के अनुरूप विधि का चयन करें।
+बिल्कुल, आप स्थिति और आकार मापदंडों को समायोजित कर सकते हैं `addPictureFrame` अपनी आवश्यकताओं के अनुरूप विधि का चयन करें।
 ### क्या Java के लिए Aspose.Slides JPEG के अलावा अन्य छवि प्रारूपों का समर्थन करता है?
 हां, Aspose.Slides for Java विभिन्न छवि प्रारूपों का समर्थन करता है, जिनमें PNG, GIF, BMP, आदि शामिल हैं।
 ### क्या Aspose.Slides उपयोगकर्ताओं के लिए कोई सामुदायिक मंच या सहायता चैनल उपलब्ध है?
 हां, आप लाइब्रेरी से संबंधित किसी भी प्रश्न, चर्चा या सहायता के लिए Aspose.Slides फोरम पर जा सकते हैं।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

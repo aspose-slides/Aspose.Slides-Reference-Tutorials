@@ -1,14 +1,16 @@
 ---
-title: जावा का उपयोग करके स्मार्टआर्ट आकार रंग शैली बदलें
-linktitle: जावा का उपयोग करके स्मार्टआर्ट आकार रंग शैली बदलें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Java और Aspose.Slides के साथ PowerPoint में SmartArt आकार के रंगों को गतिशील रूप से बदलना सीखें। दृश्य अपील को सहजता से बढ़ाएँ।
-weight: 20
-url: /hi/java/java-powerpoint-smartart-manipulation/change-smartart-shape-color-style-java/
+"description": "Java और Aspose.Slides के साथ PowerPoint में SmartArt आकार के रंगों को गतिशील रूप से बदलना सीखें। दृश्य अपील को सहजता से बढ़ाएँ।"
+"linktitle": "जावा का उपयोग करके स्मार्टआर्ट आकार रंग शैली बदलें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा का उपयोग करके स्मार्टआर्ट आकार रंग शैली बदलें"
+"url": "/hi/java/java-powerpoint-smartart-manipulation/change-smartart-shape-color-style-java/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा का उपयोग करके स्मार्टआर्ट आकार रंग शैली बदलें
@@ -18,7 +20,7 @@ url: /hi/java/java-powerpoint-smartart-manipulation/change-smartart-shape-color-
 ## आवश्यक शर्तें
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 1. जावा डेवलपमेंट एनवायरनमेंट: सुनिश्चित करें कि आपके सिस्टम पर जावा डेवलपमेंट किट (JDK) स्थापित है।
-2.  Aspose.Slides for Java: Aspose.Slides for Java को डाउनलोड करें और इंस्टॉल करें[वेबसाइट](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides for Java: Aspose.Slides for Java को डाउनलोड करें और इंस्टॉल करें [वेबसाइट](https://releases.aspose.com/slides/java/).
 3. जावा का बुनियादी ज्ञान: जावा प्रोग्रामिंग भाषा की अवधारणाओं से परिचित होना उपयोगी होगा।
 ## पैकेज आयात करें
 कोड में आगे बढ़ने से पहले, आइए आवश्यक पैकेज आयात करें:
@@ -68,10 +70,12 @@ presentation.save(dataDir + "ChangeSmartArtColorStyle_out.pptx", SaveFormat.Pptx
 ### क्या Aspose.Slides PowerPoint के विभिन्न संस्करणों के साथ संगत है?
 हां, Aspose.Slides PowerPoint संस्करणों की एक विस्तृत श्रृंखला का समर्थन करता है, जो अधिकांश प्रस्तुति फ़ाइलों के साथ संगतता सुनिश्चित करता है।
 ### मैं Aspose.Slides-संबंधित प्रश्नों के लिए समर्थन कहां से प्राप्त कर सकता हूं?
- आप यहां जा सकते हैं[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) समुदाय और Aspose समर्थन कर्मचारियों से सहायता के लिए।
+आप यहां जा सकते हैं [Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) समुदाय और Aspose समर्थन कर्मचारियों से सहायता के लिए।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

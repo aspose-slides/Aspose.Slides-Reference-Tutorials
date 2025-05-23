@@ -1,14 +1,16 @@
 ---
-title: PowerPoint में कनेक्टर्स का उपयोग करके आकृतियाँ कनेक्ट करें
-linktitle: PowerPoint में कनेक्टर्स का उपयोग करके आकृतियाँ कनेक्ट करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java के साथ PowerPoint प्रस्तुतियों में कनेक्टर का उपयोग करके आकृतियों को कनेक्ट करना सीखें। शुरुआती लोगों के लिए चरण-दर-चरण ट्यूटोरियल।
-weight: 18
-url: /hi/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-connectors-powerpoint/
+"description": "Aspose.Slides for Java के साथ PowerPoint प्रस्तुतियों में कनेक्टर का उपयोग करके आकृतियों को कनेक्ट करना सीखें। शुरुआती लोगों के लिए चरण-दर-चरण ट्यूटोरियल।"
+"linktitle": "PowerPoint में कनेक्टर्स का उपयोग करके आकृतियाँ कनेक्ट करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "PowerPoint में कनेक्टर्स का उपयोग करके आकृतियाँ कनेक्ट करें"
+"url": "/hi/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-connectors-powerpoint/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PowerPoint में कनेक्टर्स का उपयोग करके आकृतियाँ कनेक्ट करें
@@ -19,7 +21,7 @@ url: /hi/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
 - जावा प्रोग्रामिंग भाषा का बुनियादी ज्ञान।
 - आपके सिस्टम पर जावा डेवलपमेंट किट (JDK) स्थापित है।
--  Aspose.Slides for Java डाउनलोड करके सेट अप करें। अगर आपने इसे अभी तक इंस्टॉल नहीं किया है, तो आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+- Aspose.Slides for Java डाउनलोड करके सेट अप करें। अगर आपने इसे अभी तक इंस्टॉल नहीं किया है, तो आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/slides/java/).
 - एक कोड संपादक जैसे कि एक्लिप्स या इंटेलीज आईडिया।
 
 ## पैकेज आयात करें
@@ -29,9 +31,9 @@ import com.aspose.slides.*;
 
 ```
 ## चरण 1: प्रेजेंटेशन क्लास को इंस्टैंशिएट करें
- उदाहरण प्रस्तुत करें`Presentation`क्लास, जो उस PPTX फ़ाइल का प्रतिनिधित्व करता है जिस पर आप काम कर रहे हैं।
+उदाहरण प्रस्तुत करें `Presentation` क्लास, जो उस PPTX फ़ाइल का प्रतिनिधित्व करता है जिस पर आप काम कर रहे हैं।
 ```java
-// दस्तावेज़ निर्देशिका का पथ.
+// दस्तावेज़ निर्देशिका का पथ.                    
 String dataDir = "Your Document Directory";
 Presentation input = new Presentation();
 ```
@@ -81,16 +83,18 @@ if (input != null) input.dispose();
 ### क्या मैं Aspose.Slides for Java में कनेक्टर्स की उपस्थिति को अनुकूलित कर सकता हूं?
 हां, आप अपनी प्रस्तुति आवश्यकताओं के अनुरूप कनेक्टर के विभिन्न गुणों जैसे रंग, रेखा शैली और मोटाई को अनुकूलित कर सकते हैं।
 ### क्या Aspose.Slides for Java PowerPoint के सभी संस्करणों के साथ संगत है?
-Aspose.Slides for Java विभिन्न PowerPoint प्रारूपों का समर्थन करता है, जिनमें PPTX, PPT, और ODP शामिल हैं।
+Aspose.Slides for Java विभिन्न पावरपॉइंट प्रारूपों का समर्थन करता है, जिनमें PPTX, PPT, और ODP शामिल हैं।
 ### क्या मैं एक ही कनेक्टर से दो से अधिक आकृतियों को जोड़ सकता हूँ?
 हां, आप Aspose.Slides for Java द्वारा प्रदान किए गए जटिल कनेक्टर का उपयोग करके एकाधिक आकृतियों को जोड़ सकते हैं।
 ### क्या Java के लिए Aspose.Slides आकृतियों में पाठ जोड़ने के लिए समर्थन प्रदान करता है?
 बिल्कुल, आप आसानी से जावा के लिए Aspose.Slides का उपयोग करके आकृतियों और कनेक्टर्स में प्रोग्रामेटिक रूप से पाठ जोड़ सकते हैं।
 ### क्या जावा उपयोगकर्ताओं के लिए Aspose.Slides हेतु कोई सामुदायिक फोरम या सहायता चैनल उपलब्ध है?
- हां, आप Aspose.Slides फ़ोरम पर सहायक संसाधन पा सकते हैं, प्रश्न पूछ सकते हैं और अन्य उपयोगकर्ताओं के साथ जुड़ सकते हैं[यहाँ](https://forum.aspose.com/c/slides/11).
+हां, आप Aspose.Slides फ़ोरम पर सहायक संसाधन पा सकते हैं, प्रश्न पूछ सकते हैं और अन्य उपयोगकर्ताओं के साथ जुड़ सकते हैं [यहाँ](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Gerenciar gráficos de propriedades em slides Java
-linktitle: Gerenciar gráficos de propriedades em slides Java
-second_title: API de processamento Aspose.Slides Java PowerPoint
-description: Aprenda a criar gráficos impressionantes e gerenciar propriedades em slides Java com Aspose.Slides. Guia passo a passo com código-fonte para apresentações poderosas.
-weight: 13
-url: /pt/java/data-manipulation/manage-properties-charts-java-slides/
+"description": "Aprenda a criar gráficos impressionantes e gerenciar propriedades em slides Java com o Aspose.Slides. Guia passo a passo com código-fonte para apresentações poderosas."
+"linktitle": "Gerenciar gráficos de propriedades em slides Java"
+"second_title": "API de processamento Java PowerPoint Aspose.Slides"
+"title": "Gerenciar gráficos de propriedades em slides Java"
+"url": "/pt/java/data-manipulation/manage-properties-charts-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gerenciar gráficos de propriedades em slides Java
@@ -16,13 +18,13 @@ url: /pt/java/data-manipulation/manage-properties-charts-java-slides/
 
 ## Introdução ao gerenciamento de propriedades e gráficos em slides Java usando Aspose.Slides
 
-Neste tutorial, exploraremos como gerenciar propriedades e criar gráficos em slides Java usando Aspose.Slides. Aspose.Slides é uma API Java poderosa para trabalhar com apresentações em PowerPoint. Percorreremos o processo passo a passo, incluindo exemplos de código-fonte.
+Neste tutorial, exploraremos como gerenciar propriedades e criar gráficos em slides Java usando o Aspose.Slides. O Aspose.Slides é uma API Java poderosa para trabalhar com apresentações do PowerPoint. Explicaremos o processo passo a passo, incluindo exemplos de código-fonte.
 
 ## Pré-requisitos
 
-Antes de começarmos, certifique-se de ter a biblioteca Aspose.Slides para Java instalada e configurada em seu projeto. Você pode baixá-lo em[aqui](https://releases.aspose.com/slides/java/).
+Antes de começar, certifique-se de ter a biblioteca Aspose.Slides para Java instalada e configurada em seu projeto. Você pode baixá-la em [aqui](https://releases.aspose.com/slides/java/).
 
-## Adicionando um gráfico a um slide
+## Adicionar um gráfico a um slide
 
 Para adicionar um gráfico a um slide, siga estas etapas:
 
@@ -47,14 +49,14 @@ ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn3D, 0, 0, 500, 500);
 ```
 
-## Configurando dados do gráfico
+## Definindo dados do gráfico
 
-Para definir os dados do gráfico, precisamos criar uma pasta de trabalho de dados do gráfico e adicionar séries e categorias. Siga esses passos:
+Para definir os dados do gráfico, precisamos criar uma pasta de trabalho de dados do gráfico e adicionar séries e categorias. Siga estes passos:
 
 4. Defina o índice da planilha de dados do gráfico.
 
 ```java
-// Configurando o índice da planilha de dados do gráfico
+// Definindo o índice da planilha de dados do gráfico
 int defaultWorksheetIndex = 0;
 ```
 
@@ -65,7 +67,7 @@ int defaultWorksheetIndex = 0;
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
 
-6. Adicione séries ao gráfico. Neste exemplo, adicionamos duas séries denominadas “Série 1” e “Série 2”.
+6. Adicione séries ao gráfico. Neste exemplo, adicionamos duas séries denominadas "Série 1" e "Série 2".
 
 ```java
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
@@ -80,9 +82,9 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Category 3"));
 ```
 
-## Configurando propriedades de rotação 3D
+## Definindo propriedades de rotação 3D
 
-Agora, vamos definir as propriedades de rotação 3D do gráfico:
+Agora, vamos definir as propriedades de rotação 3D para o gráfico:
 
 8. Defina os eixos de ângulo reto.
 
@@ -90,14 +92,14 @@ Agora, vamos definir as propriedades de rotação 3D do gráfico:
 chart.getRotation3D().setRightAngleAxes(true);
 ```
 
-9. Defina os ângulos de rotação para os eixos X e Y. Neste exemplo, giramos X 40 graus e Y 270 graus.
+9. Defina os ângulos de rotação para os eixos X e Y. Neste exemplo, giramos X em 40 graus e Y em 270 graus.
 
 ```java
 chart.getRotation3D().setRotationX((byte) 40);
 chart.getRotation3D().setRotationY(270);
 ```
 
-10. Defina a porcentagem de profundidade para 150.
+10. Defina a porcentagem de profundidade como 150.
 
 ```java
 chart.getRotation3D().setDepthPercents(150);
@@ -121,7 +123,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 
 ## Ajustando a sobreposição
 
-12. Defina o valor de sobreposição para séries. Por exemplo, você pode definir como 100 para não haver sobreposição.
+12. Defina o valor de sobreposição para séries. Por exemplo, você pode defini-lo como 100 para nenhuma sobreposição.
 
 ```java
 series.getParentSeriesGroup().setOverlap((byte) 100);
@@ -129,13 +131,13 @@ series.getParentSeriesGroup().setOverlap((byte) 100);
 
 ## Salvando a apresentação
 
-Por fim, salve a apresentação em disco.
+Por fim, salve a apresentação no disco.
 
 ```java
 presentation.save(dataDir + "Rotation3D_out.pptx", SaveFormat.Pptx);
 ```
 
-É isso! Você criou com sucesso um gráfico de colunas empilhadas 3D com propriedades personalizadas usando Aspose.Slides em Java.
+Pronto! Você criou com sucesso um gráfico de colunas empilhadas 3D com propriedades personalizadas usando Aspose.Slides em Java.
 
 ## Código-fonte completo para gerenciar gráficos de propriedades em slides Java
 
@@ -148,7 +150,7 @@ Presentation presentation = new Presentation();
 ISlide slide = presentation.getSlides().get_Item(0);
 // Adicionar gráfico com dados padrão
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn3D, 0, 0, 500, 500);
-// Configurando o índice da planilha de dados do gráfico
+// Definindo o índice da planilha de dados do gráfico
 int defaultWorksheetIndex = 0;
 // Obtendo a planilha de dados do gráfico
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
@@ -164,7 +166,7 @@ chart.getRotation3D().setRightAngleAxes(true);
 chart.getRotation3D().setRotationX((byte) 40);
 chart.getRotation3D().setRotationY(270);
 chart.getRotation3D().setDepthPercents(150);
-// Veja a segunda série de gráficos
+// Pegue a segunda série de gráficos
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
 // Agora preenchendo dados de série
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
@@ -175,38 +177,40 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
 // Definir valor de sobreposição
 series.getParentSeriesGroup().setOverlap((byte) 100);
-// Gravar apresentação em disco
+// Gravar apresentação no disco
 presentation.save(dataDir + "Rotation3D_out.pptx", SaveFormat.Pptx);
 ```
 
 ## Conclusão
 
-Neste tutorial, mergulhamos no mundo do gerenciamento de propriedades e da criação de gráficos em slides Java usando Aspose.Slides. Aspose.Slides é uma API Java robusta que permite aos desenvolvedores trabalhar com apresentações do PowerPoint de forma eficiente. Abordamos as etapas essenciais e fornecemos exemplos de código-fonte para orientá-lo durante o processo.
+Neste tutorial, nos aprofundamos no mundo do gerenciamento de propriedades e da criação de gráficos em slides Java usando o Aspose.Slides. O Aspose.Slides é uma API Java robusta que capacita desenvolvedores a trabalhar com apresentações do PowerPoint de forma eficiente. Abordamos as etapas essenciais e fornecemos exemplos de código-fonte para orientar você durante o processo.
 
 ## Perguntas frequentes
 
 ### Como posso alterar o tipo de gráfico?
 
- Você pode alterar o tipo de gráfico modificando o`ChartType` parâmetro ao adicionar o gráfico. Consulte a documentação do Aspose.Slides para os tipos de gráficos disponíveis.
+Você pode alterar o tipo de gráfico modificando o `ChartType` parâmetro ao adicionar o gráfico. Consulte a documentação do Aspose.Slides para ver os tipos de gráfico disponíveis.
 
 ### Posso personalizar as cores do gráfico?
 
-Sim, você pode personalizar as cores do gráfico definindo as propriedades de preenchimento de categorias ou pontos de dados de série.
+Sim, você pode personalizar as cores do gráfico definindo as propriedades de preenchimento dos pontos de dados da série ou categorias.
 
 ### Como adiciono mais pontos de dados a uma série?
 
- Você pode adicionar mais pontos de dados a uma série usando o`series.getDataPoints().addDataPointForBarSeries()` método e especificando a célula que contém o valor dos dados.
+Você pode adicionar mais pontos de dados a uma série usando o `series.getDataPoints().addDataPointForBarSeries()` método e especificando a célula que contém o valor dos dados.
 
 ### Como posso definir um ângulo de rotação diferente?
 
- Para definir um ângulo de rotação diferente para os eixos X e Y, use`chart.getRotation3D().setRotationX()` e`chart.getRotation3D().setRotationY()` com os valores de ângulo desejados.
+Para definir um ângulo de rotação diferente para os eixos X e Y, use `chart.getRotation3D().setRotationX()` e `chart.getRotation3D().setRotationY()` com os valores de ângulo desejados.
 
 ### Que outras propriedades 3D posso personalizar?
 
 Você pode explorar outras propriedades 3D do gráfico, como profundidade, perspectiva e iluminação, consultando a documentação do Aspose.Slides.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

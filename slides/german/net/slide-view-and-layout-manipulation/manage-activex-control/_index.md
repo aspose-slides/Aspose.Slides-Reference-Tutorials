@@ -1,29 +1,31 @@
 ---
-title: Verwalten von ActiveX-Steuerelementen in PowerPoint
-linktitle: Verwalten von ActiveX-Steuerelementen in PowerPoint
-second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie PowerPoint-Präsentationen mit ActiveX-Steuerelementen mithilfe von Aspose.Slides für .NET verbessern können. Unsere Schritt-für-Schritt-Anleitung behandelt Einfügung, Bearbeitung, Anpassung, Ereignisbehandlung und mehr.
-weight: 13
-url: /de/net/slide-view-and-layout-manipulation/manage-activex-control/
+"description": "Erfahren Sie, wie Sie PowerPoint-Präsentationen mit ActiveX-Steuerelementen mithilfe von Aspose.Slides für .NET optimieren. Unsere Schritt-für-Schritt-Anleitung behandelt Einfügen, Bearbeiten, Anpassen, Ereignisbehandlung und mehr."
+"linktitle": "Verwalten von ActiveX-Steuerelementen in PowerPoint"
+"second_title": "Aspose.Slides .NET PowerPoint-Verarbeitungs-API"
+"title": "Verwalten von ActiveX-Steuerelementen in PowerPoint"
+"url": "/de/net/slide-view-and-layout-manipulation/manage-activex-control/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Verwalten von ActiveX-Steuerelementen in PowerPoint
 
-ActiveX-Steuerelemente sind leistungsstarke Elemente, die die Funktionalität und Interaktivität Ihrer PowerPoint-Präsentationen verbessern können. Mit diesen Steuerelementen können Sie Objekte wie Multimedia-Player, Dateneingabeformulare und mehr direkt in Ihre Folien einbetten und bearbeiten. In diesem Artikel erfahren Sie, wie Sie ActiveX-Steuerelemente in PowerPoint mit Aspose.Slides für .NET verwalten, einer vielseitigen Bibliothek, die eine nahtlose Integration und Bearbeitung von PowerPoint-Dateien in Ihren .NET-Anwendungen ermöglicht.
+ActiveX-Steuerelemente sind leistungsstarke Elemente, die die Funktionalität und Interaktivität Ihrer PowerPoint-Präsentationen verbessern. Mit diesen Steuerelementen können Sie Objekte wie Multimedia-Player, Dateneingabeformulare und mehr direkt in Ihre Folien einbetten und bearbeiten. In diesem Artikel erfahren Sie, wie Sie ActiveX-Steuerelemente in PowerPoint mit Aspose.Slides für .NET verwalten, einer vielseitigen Bibliothek, die die nahtlose Integration und Bearbeitung von PowerPoint-Dateien in Ihre .NET-Anwendungen ermöglicht.
 
 ## Hinzufügen von ActiveX-Steuerelementen zu PowerPoint-Folien
 
 Um mit der Einbindung von ActiveX-Steuerelementen in Ihre PowerPoint-Präsentationen zu beginnen, führen Sie die folgenden Schritte aus:
 
-1.  Erstellen Sie eine neue PowerPoint-Präsentation: Erstellen Sie zunächst eine neue PowerPoint-Präsentation mit Aspose.Slides für .NET. Weitere Informationen finden Sie im[Aspose.Slides für .NET API-Referenz](https://reference.aspose.com/slides/net/) Anleitungen zum Arbeiten mit Präsentationen.
+1. Erstellen Sie eine neue PowerPoint-Präsentation: Erstellen Sie zunächst eine neue PowerPoint-Präsentation mit Aspose.Slides für .NET. Sie können sich auf die [Aspose.Slides für .NET API-Referenz](https://reference.aspose.com/slides/net/) Anleitungen zum Arbeiten mit Präsentationen.
 
-2. Folie hinzufügen: Verwenden Sie die Bibliothek, um Ihrer Präsentation eine neue Folie hinzuzufügen. Dies ist die Folie, auf der Sie das ActiveX-Steuerelement einfügen möchten.
+2. Folie hinzufügen: Verwenden Sie die Bibliothek, um Ihrer Präsentation eine neue Folie hinzuzufügen. Auf dieser Folie möchten Sie das ActiveX-Steuerelement einfügen.
 
-3. Einfügen des ActiveX-Steuerelements: Jetzt ist es an der Zeit, das ActiveX-Steuerelement in die Folie einzufügen. Sie können dies erreichen, indem Sie dem folgenden Beispielcode folgen:
+3. Einfügen des ActiveX-Steuerelements: Nun fügen Sie das ActiveX-Steuerelement in die Folie ein. Folgen Sie dazu dem folgenden Beispielcode:
 
 ```csharp
 // Laden Sie die Präsentation
@@ -43,9 +45,9 @@ string progId = "YourActiveXControl.ProgID"; // Geben Sie die ProgID des ActiveX
 IOleObjectFrame oleObjectFrame = slide.Shapes.AddOleObjectFrame(left, top, width, height, progId);
 ```
 
- Ersetzen Sie unbedingt`"YourActiveXControl.ProgID"` durch die tatsächliche ProgID des ActiveX-Steuerelements, das Sie einfügen möchten.
+Stellen Sie sicher, dass Sie `"YourActiveXControl.ProgID"` durch die tatsächliche ProgID des ActiveX-Steuerelements, das Sie einfügen möchten.
 
-4. Speichern der Präsentation: Nachdem Sie das ActiveX-Steuerelement eingefügt haben, speichern Sie die Präsentation mit dem folgenden Code:
+4. Speichern Sie die Präsentation: Speichern Sie die Präsentation nach dem Einfügen des ActiveX-Steuerelements mit dem folgenden Code:
 
 ```csharp
 presentation.Save("output.pptx", SaveFormat.Pptx);
@@ -53,21 +55,21 @@ presentation.Save("output.pptx", SaveFormat.Pptx);
 
 ## Programmgesteuertes Bearbeiten von ActiveX-Steuerelementen
 
-Nachdem Sie das ActiveX-Steuerelement zu Ihrer Folie hinzugefügt haben, möchten Sie es möglicherweise programmgesteuert bearbeiten. So können Sie das tun:
+Nachdem Sie das ActiveX-Steuerelement zu Ihrer Folie hinzugefügt haben, möchten Sie es möglicherweise programmgesteuert bearbeiten. So geht's:
 
-1. Zugriff auf das ActiveX-Steuerelement: Um auf die Eigenschaften und Methoden des ActiveX-Steuerelements zuzugreifen, müssen Sie einen Verweis darauf erhalten. Verwenden Sie den folgenden Code, um das Steuerelement von der Folie abzurufen:
+1. Zugriff auf das ActiveX-Steuerelement: Um auf die Eigenschaften und Methoden des ActiveX-Steuerelements zuzugreifen, benötigen Sie eine Referenz darauf. Verwenden Sie den folgenden Code, um das Steuerelement von der Folie abzurufen:
 
 ```csharp
 IOleObjectFrame oleObjectFrame = slide.Shapes[0] as IOleObjectFrame;
 ```
 
-2. Methoden aufrufen: Sie können Methoden des ActiveX-Steuerelements mithilfe der erhaltenen Referenz aufrufen. Wenn das ActiveX-Steuerelement beispielsweise eine Methode namens „Play“ hat, können Sie sie folgendermaßen aufrufen:
+2. Methoden aufrufen: Sie können Methoden des ActiveX-Steuerelements mithilfe der erhaltenen Referenz aufrufen. Wenn das ActiveX-Steuerelement beispielsweise eine Methode namens „Play“ enthält, können Sie diese wie folgt aufrufen:
 
 ```csharp
 oleObjectFrame.InvokeMethod("Play");
 ```
 
-3. Eigenschaften festlegen: Sie können Eigenschaften des ActiveX-Steuerelements auch programmgesteuert festlegen. Wenn das Steuerelement beispielsweise eine Eigenschaft namens „Lautstärke“ hat, können Sie diese folgendermaßen festlegen:
+3. Eigenschaften festlegen: Sie können die Eigenschaften des ActiveX-Steuerelements auch programmgesteuert festlegen. Wenn das Steuerelement beispielsweise die Eigenschaft „Lautstärke“ hat, können Sie diese wie folgt festlegen:
 
 ```csharp
 oleObjectFrame.SetProperty("Volume", 50);
@@ -75,11 +77,11 @@ oleObjectFrame.SetProperty("Volume", 50);
 
 ## Anpassen der Eigenschaften von ActiveX-Steuerelementen
 
-Durch Anpassen der Eigenschaften Ihres ActiveX-Steuerelements können Sie die Benutzerfreundlichkeit Ihrer Präsentation erheblich verbessern. So können Sie diese Eigenschaften anpassen:
+Durch Anpassen der Eigenschaften Ihres ActiveX-Steuerelements können Sie die Benutzerfreundlichkeit Ihrer Präsentation erheblich verbessern. So passen Sie diese Eigenschaften an:
 
-1.  Zugriff auf Eigenschaften: Wie bereits erwähnt, können Sie auf die Eigenschaften des ActiveX-Steuerelements zugreifen, indem Sie`IOleObjectFrame` Referenz.
+1. Zugriff auf Eigenschaften: Wie bereits erwähnt, können Sie auf die Eigenschaften des ActiveX-Steuerelements zugreifen, indem Sie `IOleObjectFrame` Referenz.
 
-2.  Eigenschaften festlegen: Verwenden Sie die`SetProperty`Methode, um verschiedene Eigenschaften des ActiveX-Steuerelements festzulegen. Sie können beispielsweise die Hintergrundfarbe folgendermaßen ändern:
+2. Eigenschaften festlegen: Verwenden Sie die `SetProperty` Mit dieser Methode können Sie verschiedene Eigenschaften des ActiveX-Steuerelements festlegen. Beispielsweise können Sie die Hintergrundfarbe wie folgt ändern:
 
 ```csharp
 oleObjectFrame.SetProperty("BackColor", Color.Red);
@@ -87,9 +89,9 @@ oleObjectFrame.SetProperty("BackColor", Color.Red);
 
 ## Behandeln von Ereignissen im Zusammenhang mit ActiveX-Steuerelementen
 
-ActiveX-Steuerelemente verfügen häufig über zugehörige Ereignisse, die Aktionen basierend auf Benutzerinteraktionen auslösen können. So können Sie diese Ereignisse handhaben:
+ActiveX-Steuerelemente verfügen häufig über zugehörige Ereignisse, die Aktionen basierend auf Benutzerinteraktionen auslösen können. So können Sie diese Ereignisse verarbeiten:
 
-1. Ereignisse abonnieren: Abonnieren Sie zunächst das gewünschte Ereignis des ActiveX-Steuerelements. Wenn das Steuerelement beispielsweise ein „Klick“-Ereignis hat, können Sie es folgendermaßen abonnieren:
+1. Ereignisse abonnieren: Abonnieren Sie zunächst das gewünschte Ereignis des ActiveX-Steuerelements. Wenn das Steuerelement beispielsweise ein „Klick“-Ereignis hat, können Sie es wie folgt abonnieren:
 
 ```csharp
 oleObjectFrame.EventClick += (sender, args) =>
@@ -100,9 +102,9 @@ oleObjectFrame.EventClick += (sender, args) =>
 
 ## Löschen von ActiveX-Steuerelementen aus Folien
 
-Wenn Sie ein ActiveX-Steuerelement aus einer Folie entfernen möchten, führen Sie die folgenden Schritte aus:
+Wenn Sie ein ActiveX-Steuerelement von einer Folie entfernen möchten, gehen Sie folgendermaßen vor:
 
-1.  Zugriff auf das Steuerelement: Erhalten Sie einen Verweis auf das ActiveX-Steuerelement mit dem`IOleObjectFrame` Referenz wie zuvor gezeigt.
+1. Zugriff auf das Steuerelement: Rufen Sie einen Verweis auf das ActiveX-Steuerelement ab, indem Sie `IOleObjectFrame` Referenz wie zuvor gezeigt.
 
 2. Entfernen des Steuerelements: Verwenden Sie den folgenden Code, um das Steuerelement von der Folie zu entfernen:
 
@@ -120,44 +122,46 @@ presentation.Save("modified.pptx", SaveFormat.Pptx);
 
 ## Vorteile der Verwendung von Aspose.Slides für .NET
 
-Aspose.Slides für .NET vereinfacht die Arbeit mit ActiveX-Steuerelementen in PowerPoint-Präsentationen, indem es eine benutzerfreundliche API bereitstellt, mit der Sie diese Steuerelemente nahtlos integrieren und bearbeiten können. Einige Vorteile der Verwendung von Aspose.Slides für .NET sind:
+Aspose.Slides für .NET vereinfacht die Arbeit mit ActiveX-Steuerelementen in PowerPoint-Präsentationen durch eine benutzerfreundliche API, die die nahtlose Integration und Bearbeitung dieser Steuerelemente ermöglicht. Einige Vorteile von Aspose.Slides für .NET:
 
 - Einfaches Einfügen von ActiveX-Steuerelementen in Folien.
 - Umfassende Methoden zur programmgesteuerten Interaktion mit Steuerelementen.
 - Vereinfachte Anpassung der Steuerelementeigenschaften.
-- Effizientes Eventhandling für interaktive Präsentationen.
+- Effizientes Event-Handling für interaktive Präsentationen.
 - Optimiertes Entfernen von Steuerelementen aus Folien.
 
 ## Abschluss
 
-Durch die Einbindung von ActiveX-Steuerelementen in Ihre PowerPoint-Präsentationen können Sie die Interaktivität und das Engagement Ihres Publikums steigern. Mit Aspose.Slides für .NET steht Ihnen ein leistungsstarkes Tool zur nahtlosen Verwaltung von ActiveX-Steuerelementen zur Verfügung, mit dem Sie dynamische und fesselnde Präsentationen erstellen können, die einen bleibenden Eindruck hinterlassen.
+Die Integration von ActiveX-Steuerelementen in Ihre PowerPoint-Präsentationen steigert die Interaktivität und das Engagement Ihres Publikums. Mit Aspose.Slides für .NET steht Ihnen ein leistungsstarkes Tool zur nahtlosen Verwaltung von ActiveX-Steuerelementen zur Verfügung. So erstellen Sie dynamische und fesselnde Präsentationen, die einen bleibenden Eindruck hinterlassen.
 
 ## FAQs
 
 ### Wie kann ich einer bestimmten Folie ein ActiveX-Steuerelement hinzufügen?
 
- Um ein ActiveX-Steuerelement zu einer bestimmten Folie hinzuzufügen, können Sie das`AddOleObjectFrame` Methode bereitgestellt von Aspose.Slides für .NET. Mit dieser Methode können Sie die Position, Größe und ProgID des ActiveX-Steuerelements angeben, das Sie einfügen möchten.
+Um ein ActiveX-Steuerelement zu einer bestimmten Folie hinzuzufügen, können Sie die `AddOleObjectFrame` Methode von Aspose.Slides für .NET. Mit dieser Methode können Sie die Position, Größe und ProgID des einzufügenden ActiveX-Steuerelements angeben.
 
 ### Kann ich ActiveX-Steuerelemente programmgesteuert bearbeiten?
 
- Ja, Sie können ActiveX-Steuerelemente programmgesteuert mit Aspose.Slides für .NET bearbeiten. Indem Sie einen Verweis auf die`IOleObjectFrame` Bei der Darstellung des Steuerelements können Sie Methoden aufrufen und Eigenschaften festlegen, um dynamisch mit dem Steuerelement zu interagieren.
+Ja, Sie können ActiveX-Steuerelemente programmgesteuert mit Aspose.Slides für .NET bearbeiten. Indem Sie einen Verweis auf die `IOleObjectFrame` Indem Sie das Steuerelement darstellen, können Sie Methoden aufrufen und Eigenschaften festlegen, um dynamisch mit dem Steuerelement zu interagieren.
 
 ### Wie gehe ich mit Ereignissen um?
 
  durch ActiveX-Steuerelemente ausgelöst?
 
-Sie können Ereignisse, die von ActiveX-Steuerelementen ausgelöst werden, behandeln, indem Sie die entsprechenden Ereignisse abonnieren. Dazu verwenden Sie den`EventClick` (oder ähnlicher) Ereignishandler. Damit können Sie bestimmte Aktionen als Reaktion auf Benutzerinteraktionen mit dem Steuerelement ausführen.
+Sie können Ereignisse, die durch ActiveX-Steuerelemente ausgelöst werden, verarbeiten, indem Sie die entsprechenden Ereignisse abonnieren. Verwenden Sie dazu `EventClick` (oder ähnlicher) Ereignishandler. Dadurch können Sie bestimmte Aktionen als Reaktion auf Benutzerinteraktionen mit dem Steuerelement ausführen.
 
 ### Ist es möglich, das Erscheinungsbild von ActiveX-Steuerelementen anzupassen?
 
- Natürlich können Sie das Erscheinungsbild von ActiveX-Steuerelementen anpassen, indem Sie`SetProperty` Methode bereitgestellt von Aspose.Slides für .NET. Mit dieser Methode können Sie verschiedene Eigenschaften ändern, wie z. B. Hintergrundfarbe, Schriftstil und mehr.
+Natürlich können Sie das Erscheinungsbild von ActiveX-Steuerelementen anpassen, indem Sie `SetProperty` Methode von Aspose.Slides für .NET. Mit dieser Methode können Sie verschiedene Eigenschaften wie Hintergrundfarbe, Schriftart und mehr ändern.
 
 ### Kann ich ein ActiveX-Steuerelement aus einer Folie entfernen?
 
- Ja, Sie können ein ActiveX-Steuerelement von einer Folie entfernen, indem Sie`Remove` Methode der`Shapes` Sammlung. Übergeben Sie den Verweis an die`IOleObjectFrame` Darstellung des Steuerelements als Argument für den`Remove` Methode, und das Steuerelement wird von der Folie entfernt.
+Ja, Sie können ein ActiveX-Steuerelement von einer Folie entfernen, indem Sie `Remove` Methode der `Shapes` Sammlung. Übergeben Sie den Verweis an die `IOleObjectFrame` Darstellung des Steuerelements als Argument für das `Remove` -Methode, und das Steuerelement wird von der Folie entfernt.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,28 +1,30 @@
 ---
-title: Grafik Normal di Slide Java
-linktitle: Grafik Normal di Slide Java
-second_title: Aspose.Slides API Pemrosesan Java PowerPoint
-description: Buat Bagan Normal di Slide Java dengan Aspose.Slides untuk Java. Panduan langkah demi langkah dan kode sumber untuk membuat, menyesuaikan, dan menyimpan bagan dalam presentasi PowerPoint.
-weight: 21
-url: /id/java/chart-data-manipulation/normal-charts-java-slides/
+"description": "Buat Bagan Normal di Slide Java dengan Aspose.Slides untuk Java. Panduan langkah demi langkah dan kode sumber untuk membuat, menyesuaikan, dan menyimpan bagan dalam presentasi PowerPoint."
+"linktitle": "Grafik Normal dalam Slide Java"
+"second_title": "API Pemrosesan PowerPoint Java Aspose.Slides"
+"title": "Grafik Normal dalam Slide Java"
+"url": "/id/java/chart-data-manipulation/normal-charts-java-slides/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Grafik Normal di Slide Java
+# Grafik Normal dalam Slide Java
 
 
-## Pengantar Grafik Normal di Slide Java
+## Pengenalan Grafik Normal di Slide Java
 
-Dalam tutorial ini, kita akan memandu proses pembuatan bagan normal di Java Slides menggunakan Aspose.Slides for Java API. Kami akan menggunakan petunjuk langkah demi langkah bersama dengan kode sumber untuk menunjukkan cara membuat bagan kolom berkerumun dalam presentasi PowerPoint.
+Dalam tutorial ini, kita akan membahas proses pembuatan bagan normal di Java Slides menggunakan Aspose.Slides for Java API. Kita akan menggunakan petunjuk langkah demi langkah beserta kode sumber untuk menunjukkan cara membuat bagan kolom berkelompok dalam presentasi PowerPoint.
 
 ## Prasyarat
 
 Sebelum memulai, pastikan Anda memiliki prasyarat berikut:
 
-1. Aspose.Slides untuk Java API diinstal.
+1. Aspose.Slides untuk API Java terinstal.
 2. Lingkungan pengembangan Java telah disiapkan.
 3. Pengetahuan dasar tentang pemrograman Java.
 
@@ -41,10 +43,10 @@ if (!IsExists)
 
 ## Langkah 2: Membuat Presentasi
 
-Sekarang, mari buat presentasi PowerPoint dan akses slide pertamanya.
+Sekarang, mari membuat presentasi PowerPoint dan mengakses slide pertamanya.
 
 ```java
-// Buat instance kelas Presentasi yang mewakili file PPTX
+// Membuat instance kelas Presentasi yang merepresentasikan file PPTX
 Presentation pres = new Presentation();
 // Akses slide pertama
 ISlide sld = pres.getSlides().get_Item(0);
@@ -52,12 +54,12 @@ ISlide sld = pres.getSlides().get_Item(0);
 
 ## Langkah 3: Menambahkan Bagan
 
-Kami akan menambahkan bagan kolom berkerumun ke slide dan menetapkan judulnya.
+Kita akan menambahkan bagan kolom berkelompok ke slide dan menetapkan judulnya.
 
 ```java
 // Tambahkan bagan dengan data default
 IChart chart = sld.getShapes().addChart(ChartType.ClusteredColumn, 0, 0, 500, 500);
-// Judul bagan pengaturan
+// Mengatur Judul Bagan
 chart.getChartTitle().addTextFrameForOverriding("Sample Title");
 chart.getChartTitle().getTextFrameForOverriding().getTextFrameFormat().setCenterText(NullableBool.True);
 chart.getChartTitle().setHeight(20);
@@ -66,16 +68,16 @@ chart.setTitle(true);
 
 ## Langkah 4: Mengatur Data Bagan
 
-Selanjutnya, kita akan mengatur data grafik dengan menentukan seri dan kategori.
+Berikutnya, kita akan mengatur data grafik dengan mendefinisikan seri dan kategori.
 
 ```java
-// Setel seri pertama ke Tampilkan Nilai
+// Tetapkan seri pertama untuk Menampilkan Nilai
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 
 // Mengatur indeks lembar data grafik
 int defaultWorksheetIndex = 0;
 
-// Mendapatkan lembar kerja data bagan
+// Mendapatkan lembar kerja data grafik
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
 // Hapus seri dan kategori yang dihasilkan secara default
@@ -94,7 +96,7 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 
 
 ## Langkah 5: Mengisi Data Seri
 
-Sekarang, mari kita isi titik data seri untuk bagan tersebut.
+Sekarang, mari isi titik data seri untuk bagan.
 
 ```java
 // Ambil seri grafik pertama
@@ -127,7 +129,7 @@ series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 Mari sesuaikan label data untuk rangkaian bagan.
 
 ```java
-// Label pertama akan menampilkan nama Kategori
+// Label pertama akan menunjukkan nama Kategori
 IDataLabel lbl = series.getDataPoints().get_Item(0).getLabel();
 lbl.getDataLabelFormat().setShowCategoryName(true);
 
@@ -149,9 +151,9 @@ Terakhir, simpan presentasi dengan bagan ke direktori proyek Anda.
 pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
 
-Itu dia! Anda telah berhasil membuat bagan kolom berkerumun dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Anda dapat menyesuaikan bagan ini lebih lanjut sesuai dengan kebutuhan Anda.
+Selesai! Anda telah berhasil membuat bagan kolom berkelompok dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Anda dapat menyesuaikan bagan ini lebih lanjut sesuai dengan kebutuhan Anda.
 
-## Kode Sumber Lengkap Untuk Grafik Normal di Slide Java
+## Source Code Lengkap Untuk Grafik Normal di Java Slides
 
 ```java
 // Jalur ke direktori dokumen.
@@ -160,23 +162,23 @@ String dataDir = "Your Document Directory";
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
 	new File(dataDir).mkdirs();
-// Buat instance kelas Presentasi yang mewakili file PPTX
+// Membuat instance kelas Presentasi yang merepresentasikan file PPTX
 Presentation pres = new Presentation();
 // Akses slide pertama
 ISlide sld = pres.getSlides().get_Item(0);
 // Tambahkan bagan dengan data default
 IChart chart = sld.getShapes().addChart(ChartType.ClusteredColumn, 0, 0, 500, 500);
-// Judul bagan pengaturan
-// Chart.getChartTitle().getTextFrameForOverriding().setText("Contoh Judul");
+// Mengatur Judul Bagan
+// Chart.getChartTitle().getTextFrameForOverriding().setText("Judul Contoh");
 chart.getChartTitle().addTextFrameForOverriding("Sample Title");
 chart.getChartTitle().getTextFrameForOverriding().getTextFrameFormat().setCenterText(NullableBool.True);
 chart.getChartTitle().setHeight(20);
 chart.setTitle(true);
-// Setel seri pertama ke Tampilkan Nilai
+// Tetapkan seri pertama untuk Menampilkan Nilai
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 // Mengatur indeks lembar data grafik
 int defaultWorksheetIndex = 0;
-// Mendapatkan lembar kerja data bagan
+// Mendapatkan lembar kerja data grafik
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Hapus seri dan kategori yang dihasilkan secara default
 chart.getChartData().getSeries().clear();
@@ -208,7 +210,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 // Mengatur warna isian untuk seri
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
-// Label pertama akan menampilkan nama Kategori
+// Label pertama akan menunjukkan nama Kategori
 IDataLabel lbl = series.getDataPoints().get_Item(0).getLabel();
 lbl.getDataLabelFormat().setShowCategoryName(true);
 lbl = series.getDataPoints().get_Item(1).getLabel();
@@ -223,32 +225,34 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
 # Kesimpulan
 
-Dalam tutorial ini, kita telah mempelajari cara membuat grafik normal di Java Slides menggunakan Aspose.Slides for Java API. Kami mempelajari panduan langkah demi langkah dengan kode sumber untuk membuat bagan kolom berkerumun dalam presentasi PowerPoint.
+Dalam tutorial ini, kita telah mempelajari cara membuat bagan normal di Java Slides menggunakan Aspose.Slides for Java API. Kami membahas panduan langkah demi langkah dengan kode sumber untuk membuat bagan kolom berkelompok dalam presentasi PowerPoint.
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
 ### Bagaimana cara mengubah jenis grafik?
 
- Untuk mengubah tipe bagan, ubah`ChartType`parameter saat menambahkan grafik menggunakan`sld.getShapes().addChart()`. Anda dapat memilih dari berbagai jenis bagan yang tersedia di Aspose.Slides.
+Untuk mengubah jenis grafik, ubah `ChartType` parameter saat menambahkan grafik menggunakan `sld.getShapes().addChart()`Anda dapat memilih dari berbagai jenis bagan yang tersedia di Aspose.Slides.
 
-### Bisakah saya mengubah warna rangkaian bagan?
+### Bisakah saya mengubah warna rangkaian grafik?
 
- Ya, Anda dapat mengubah warna rangkaian bagan dengan mengatur warna isian untuk setiap rangkaian menggunakan`series.getFormat().getFill().getSolidFillColor().setColor(Color.YOUR_COLOR)`.
+Ya, Anda dapat mengubah warna seri grafik dengan mengatur warna isian untuk setiap seri menggunakan `series.getFormat().getFill().getSolidFillColor().setColor(Color.YOUR_COLOR)`.
 
-### Bagaimana cara menambahkan lebih banyak kategori atau rangkaian ke bagan?
+### Bagaimana cara menambahkan lebih banyak kategori atau seri ke bagan?
 
- Anda dapat menambahkan lebih banyak kategori atau rangkaian ke bagan dengan menambahkan titik data dan label baru menggunakan`chart.getChartData().getCategories().add()` Dan`chart.getChartData().getSeries().add()` metode.
+Anda dapat menambahkan lebih banyak kategori atau seri ke bagan dengan menambahkan titik data dan label baru menggunakan `chart.getChartData().getCategories().add()` Dan `chart.getChartData().getSeries().add()` metode.
 
-### Bagaimana cara menyesuaikan judul grafik lebih lanjut?
+### Bagaimana saya dapat menyesuaikan judul grafik lebih lanjut?
 
- Anda dapat menyesuaikan judul bagan lebih lanjut dengan memodifikasi properti`chart.getChartTitle()` seperti perataan teks, ukuran font, dan warna.
+Anda dapat menyesuaikan judul grafik lebih lanjut dengan memodifikasi properti `chart.getChartTitle()` seperti perataan teks, ukuran font, dan warna.
 
-### Bagaimana cara menyimpan grafik ke format file lain?
+### Bagaimana cara menyimpan grafik ke format file yang berbeda?
 
- Untuk menyimpan bagan ke format file lain, ubah`SaveFormat` parameter di`pres.save()` metode ke format yang diinginkan (misalnya, PDF, PNG, JPEG).
+Untuk menyimpan grafik ke format file yang berbeda, ubah `SaveFormat` parameternya di dalam `pres.save()` metode ke format yang diinginkan (misalnya, PDF, PNG, JPEG).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

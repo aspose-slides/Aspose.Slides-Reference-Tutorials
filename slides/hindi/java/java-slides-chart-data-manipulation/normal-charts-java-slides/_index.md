@@ -1,14 +1,16 @@
 ---
-title: जावा स्लाइड्स में सामान्य चार्ट
-linktitle: जावा स्लाइड्स में सामान्य चार्ट
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java के साथ Java स्लाइड्स में सामान्य चार्ट बनाएँ। PowerPoint प्रस्तुतियों में चार्ट बनाने, अनुकूलित करने और सहेजने के लिए चरण-दर-चरण मार्गदर्शिका और स्रोत कोड।
-weight: 21
-url: /hi/java/chart-data-manipulation/normal-charts-java-slides/
+"description": "Aspose.Slides for Java के साथ Java स्लाइड्स में सामान्य चार्ट बनाएँ। PowerPoint प्रस्तुतियों में चार्ट बनाने, अनुकूलित करने और सहेजने के लिए चरण-दर-चरण मार्गदर्शिका और स्रोत कोड।"
+"linktitle": "जावा स्लाइड्स में सामान्य चार्ट"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में सामान्य चार्ट"
+"url": "/hi/java/chart-data-manipulation/normal-charts-java-slides/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में सामान्य चार्ट
@@ -229,26 +231,28 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ### मैं चार्ट का प्रकार कैसे बदल सकता हूँ?
 
- चार्ट प्रकार बदलने के लिए, संशोधित करें`ChartType`चार्ट जोड़ते समय पैरामीटर का उपयोग करें`sld.getShapes().addChart()`आप Aspose.Slides में उपलब्ध विभिन्न चार्ट प्रकारों में से चुन सकते हैं।
+चार्ट प्रकार बदलने के लिए, संशोधित करें `ChartType` चार्ट जोड़ते समय पैरामीटर का उपयोग करें `sld.getShapes().addChart()`आप Aspose.Slides में उपलब्ध विभिन्न चार्ट प्रकारों में से चुन सकते हैं।
 
 ### क्या मैं चार्ट श्रृंखला का रंग बदल सकता हूँ?
 
- हां, आप प्रत्येक श्रृंखला के लिए भरण रंग सेट करके चार्ट श्रृंखला के रंग बदल सकते हैं`series.getFormat().getFill().getSolidFillColor().setColor(Color.YOUR_COLOR)`.
+हां, आप प्रत्येक श्रृंखला के लिए भरण रंग सेट करके चार्ट श्रृंखला के रंग बदल सकते हैं `series.getFormat().getFill().getSolidFillColor().setColor(Color.YOUR_COLOR)`.
 
 ### मैं चार्ट में और अधिक श्रेणियाँ या श्रृंखलाएँ कैसे जोड़ूँ?
 
- आप नए डेटा बिंदु और लेबल जोड़कर चार्ट में अधिक श्रेणियाँ या श्रृंखलाएँ जोड़ सकते हैं`chart.getChartData().getCategories().add()` और`chart.getChartData().getSeries().add()` तरीके.
+आप नए डेटा बिंदु और लेबल जोड़कर चार्ट में अधिक श्रेणियाँ या श्रृंखलाएँ जोड़ सकते हैं `chart.getChartData().getCategories().add()` और `chart.getChartData().getSeries().add()` तरीके.
 
 ### मैं चार्ट शीर्षक को और अधिक अनुकूलित कैसे कर सकता हूं?
 
- आप चार्ट शीर्षक के गुणों को संशोधित करके इसे और भी अनुकूलित कर सकते हैं`chart.getChartTitle()` जैसे पाठ संरेखण, फ़ॉन्ट आकार और रंग।
+आप चार्ट शीर्षक के गुणों को संशोधित करके इसे और भी अनुकूलित कर सकते हैं `chart.getChartTitle()` जैसे पाठ संरेखण, फ़ॉन्ट आकार और रंग।
 
 ### मैं चार्ट को भिन्न फ़ाइल प्रारूप में कैसे सहेजूँ?
 
- चार्ट को किसी भिन्न फ़ाइल प्रारूप में सहेजने के लिए, बदलें`SaveFormat` पैरामीटर में`pres.save()` विधि को वांछित प्रारूप में परिवर्तित करें (जैसे, पीडीएफ, पीएनजी, जेपीईजी)।
+चार्ट को किसी भिन्न फ़ाइल प्रारूप में सहेजने के लिए, बदलें `SaveFormat` पैरामीटर में `pres.save()` विधि को वांछित प्रारूप में परिवर्तित करें (जैसे, पीडीएफ, पीएनजी, जेपीईजी)।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,56 +1,58 @@
 ---
-title: Thêm lỗi tùy chỉnh trong Java Slides
-linktitle: Thêm lỗi tùy chỉnh trong Java Slides
-second_title: Aspose.Slides API xử lý PowerPoint Java
-description: Tìm hiểu cách thêm các thanh lỗi tùy chỉnh vào biểu đồ PowerPoint trong Java Slides bằng Aspose.Slides. Hướng dẫn từng bước với mã nguồn để hiển thị dữ liệu chính xác.
-weight: 11
-url: /vi/java/chart-data-manipulation/add-custom-error-java-slides/
+"description": "Tìm hiểu cách thêm thanh lỗi tùy chỉnh vào biểu đồ PowerPoint trong Java Slides bằng Aspose.Slides. Hướng dẫn từng bước với mã nguồn để trực quan hóa dữ liệu chính xác."
+"linktitle": "Thêm lỗi tùy chỉnh vào Java Slides"
+"second_title": "API xử lý PowerPoint Java của Aspose.Slides"
+"title": "Thêm lỗi tùy chỉnh vào Java Slides"
+"url": "/vi/java/chart-data-manipulation/add-custom-error-java-slides/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Thêm lỗi tùy chỉnh trong Java Slides
+# Thêm lỗi tùy chỉnh vào Java Slides
 
 
-## Giới thiệu về Thêm thanh lỗi tùy chỉnh trong Java Slide bằng Aspose.Slides
+## Giới thiệu về cách thêm thanh lỗi tùy chỉnh vào Java Slides bằng Aspose.Slides
 
-Trong hướng dẫn này, bạn sẽ tìm hiểu cách thêm các thanh lỗi tùy chỉnh vào biểu đồ trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Thanh lỗi rất hữu ích để hiển thị tính biến đổi hoặc độ không chắc chắn của các điểm dữ liệu trên biểu đồ.
+Trong hướng dẫn này, bạn sẽ học cách thêm thanh lỗi tùy chỉnh vào biểu đồ trong bản trình bày PowerPoint bằng Aspose.Slides for Java. Thanh lỗi hữu ích để hiển thị độ biến thiên hoặc độ không chắc chắn trong các điểm dữ liệu trên biểu đồ.
 
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
-- Thư viện Aspose.Slides cho Java được cài đặt và định cấu hình trong dự án của bạn.
-- Một môi trường phát triển Java được thiết lập.
+- Thư viện Aspose.Slides for Java được cài đặt và cấu hình trong dự án của bạn.
+- Thiết lập môi trường phát triển Java.
 
 ## Bước 1: Tạo một bài thuyết trình trống
 
-Đầu tiên, tạo một bản trình bày PowerPoint trống.
+Đầu tiên, hãy tạo một bài thuyết trình PowerPoint trống.
 
 ```java
 // Đường dẫn đến thư mục tài liệu.
 String dataDir = "Your Document Directory";
-// Tạo bản trình bày trống
+// Tạo bài thuyết trình trống
 Presentation presentation = new Presentation();
 ```
 
 ## Bước 2: Thêm biểu đồ bong bóng
 
-Tiếp theo, chúng ta sẽ thêm biểu đồ bong bóng vào bản trình bày.
+Tiếp theo, chúng ta sẽ thêm biểu đồ bong bóng vào bài thuyết trình.
 
 ```java
 // Tạo biểu đồ bong bóng
 IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Bubble, 50, 50, 400, 300, true);
 ```
 
-## Bước 3: Thêm thanh lỗi tùy chỉnh
+## Bước 3: Thêm Thanh Lỗi Tùy Chỉnh
 
-Bây giờ, hãy thêm các thanh lỗi tùy chỉnh vào chuỗi biểu đồ.
+Bây giờ, chúng ta hãy thêm các thanh lỗi tùy chỉnh vào chuỗi biểu đồ.
 
 ```java
-// Thêm thanh Lỗi tùy chỉnh và đặt định dạng của chúng
+// Thêm thanh Lỗi tùy chỉnh và thiết lập định dạng của chúng
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 IErrorBarsFormat errBarX = series.getErrorBarsXFormat();
 IErrorBarsFormat errBarY = series.getErrorBarsYFormat();
@@ -60,19 +62,19 @@ errBarX.setValueType(ErrorBarValueType.Custom);
 errBarY.setValueType(ErrorBarValueType.Custom);
 ```
 
-## Bước 4: Đặt dữ liệu thanh lỗi
+## Bước 4: Thiết lập dữ liệu thanh lỗi
 
-Trong bước này, chúng ta sẽ truy cập vào các điểm dữ liệu của chuỗi biểu đồ và đặt giá trị thanh lỗi tùy chỉnh cho từng điểm.
+Ở bước này, chúng ta sẽ truy cập các điểm dữ liệu của chuỗi biểu đồ và thiết lập các giá trị thanh lỗi tùy chỉnh cho từng điểm.
 
 ```java
-// Truy cập các điểm dữ liệu của chuỗi biểu đồ và đặt giá trị thanh lỗi cho từng điểm
+// Truy cập các điểm dữ liệu chuỗi biểu đồ và thiết lập giá trị thanh lỗi cho từng điểm
 IChartDataPointCollection points = series.getDataPoints();
 points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForXPlusValues(DataSourceType.DoubleLiterals);
 points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForXMinusValues(DataSourceType.DoubleLiterals);
 points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForYPlusValues(DataSourceType.DoubleLiterals);
 points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForYMinusValues(DataSourceType.DoubleLiterals);
 
-// Đặt thanh lỗi cho các điểm chuỗi biểu đồ
+// Thiết lập thanh lỗi cho các điểm chuỗi biểu đồ
 for (int i = 0; i < points.size(); i++)
 {
     points.get_Item(i).getErrorBarsCustomValues().getXMinus().setAsLiteralDouble(i + 1);
@@ -84,27 +86,27 @@ for (int i = 0; i < points.size(); i++)
 
 ## Bước 5: Lưu bài thuyết trình
 
-Cuối cùng, lưu bản trình bày với các thanh lỗi tùy chỉnh.
+Cuối cùng, lưu bản trình bày với thanh lỗi tùy chỉnh.
 
 ```java
-// Đang lưu bản trình bày
+// Lưu bài thuyết trình
 presentation.save(dataDir + "ErrorBarsCustomValues_out.pptx", SaveFormat.Pptx);
 ```
 
-Đó là nó! Bạn đã thêm thành công các thanh lỗi tùy chỉnh vào biểu đồ trong bản trình bày PowerPoint bằng Aspose.Slides cho Java.
+Vậy là xong! Bạn đã thêm thành công thanh lỗi tùy chỉnh vào biểu đồ trong bản trình bày PowerPoint bằng Aspose.Slides for Java.
 
-## Mã nguồn hoàn chỉnh để thêm lỗi tùy chỉnh trong các trang trình bày Java
+## Mã nguồn đầy đủ để thêm lỗi tùy chỉnh vào Java Slides
 
 ```java
 // Đường dẫn đến thư mục tài liệu.
 String dataDir = "Your Document Directory";
-// Tạo bản trình bày trống
+// Tạo bài thuyết trình trống
 Presentation presentation = new Presentation();
 try
 {
 	// Tạo biểu đồ bong bóng
 	IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Bubble, 50, 50, 400, 300, true);
-	// Thêm thanh Lỗi tùy chỉnh và đặt định dạng của nó
+	// Thêm thanh Lỗi tùy chỉnh và thiết lập định dạng của nó
 	IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 	IErrorBarsFormat errBarX = series.getErrorBarsXFormat();
 	IErrorBarsFormat errBarY = series.getErrorBarsYFormat();
@@ -112,13 +114,13 @@ try
 	errBarY.setVisible(true);
 	errBarX.setValueType(ErrorBarValueType.Custom);
 	errBarY.setValueType(ErrorBarValueType.Custom);
-	// Truy cập điểm dữ liệu chuỗi biểu đồ và đặt giá trị thanh lỗi cho từng điểm
+	// Truy cập điểm dữ liệu chuỗi biểu đồ và thiết lập giá trị thanh lỗi cho từng điểm
 	IChartDataPointCollection points = series.getDataPoints();
 	points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForXPlusValues(DataSourceType.DoubleLiterals);
 	points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForXMinusValues(DataSourceType.DoubleLiterals);
 	points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForYPlusValues(DataSourceType.DoubleLiterals);
 	points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForYMinusValues(DataSourceType.DoubleLiterals);
-	// Đặt thanh lỗi cho các điểm chuỗi biểu đồ
+	// Thiết lập thanh lỗi cho các điểm chuỗi biểu đồ
 	for (int i = 0; i < points.size(); i++)
 	{
 		points.get_Item(i).getErrorBarsCustomValues().getXMinus().setAsLiteralDouble(i + 1);
@@ -126,7 +128,7 @@ try
 		points.get_Item(i).getErrorBarsCustomValues().getYMinus().setAsLiteralDouble(i + 1);
 		points.get_Item(i).getErrorBarsCustomValues().getYPlus().setAsLiteralDouble(i + 1);
 	}
-	// Đang lưu bản trình bày
+	// Lưu bài thuyết trình
 	presentation.save(dataDir + "ErrorBarsCustomValues_out.pptx", SaveFormat.Pptx);
 }
 finally
@@ -137,28 +139,30 @@ finally
 
 ## Phần kết luận
 
-Trong hướng dẫn toàn diện này, bạn đã học cách cải thiện bản trình bày PowerPoint của mình bằng cách thêm các thanh lỗi tùy chỉnh vào biểu đồ bằng Aspose.Slides cho Java. Thanh lỗi cung cấp thông tin chi tiết có giá trị về tính biến đổi và độ không chắc chắn của dữ liệu, làm cho biểu đồ của bạn có nhiều thông tin hơn và hấp dẫn trực quan hơn.
+Trong hướng dẫn toàn diện này, bạn đã học cách cải thiện bài thuyết trình PowerPoint của mình bằng cách thêm thanh lỗi tùy chỉnh vào biểu đồ bằng Aspose.Slides for Java. Thanh lỗi cung cấp thông tin chi tiết có giá trị về tính biến động và sự không chắc chắn của dữ liệu, giúp biểu đồ của bạn có nhiều thông tin hơn và hấp dẫn hơn về mặt trực quan.
 
 ## Câu hỏi thường gặp
 
-### Làm cách nào để tùy chỉnh giao diện của thanh lỗi?
+### Làm thế nào để tùy chỉnh giao diện của thanh lỗi?
 
- Bạn có thể tùy chỉnh sự xuất hiện của các thanh lỗi bằng cách sửa đổi các thuộc tính của`IErrorBarsFormat` đối tượng, chẳng hạn như kiểu đường, màu đường và chiều rộng thanh lỗi.
+Bạn có thể tùy chỉnh giao diện của thanh lỗi bằng cách sửa đổi các thuộc tính của `IErrorBarsFormat` đối tượng, chẳng hạn như kiểu đường kẻ, màu đường kẻ và chiều rộng thanh lỗi.
 
 ### Tôi có thể thêm thanh lỗi vào các loại biểu đồ khác không?
 
-Có, bạn có thể thêm các thanh lỗi vào các loại biểu đồ khác nhau được Aspose.Slides cho Java hỗ trợ, bao gồm biểu đồ thanh, biểu đồ đường và biểu đồ phân tán.
+Có, bạn có thể thêm thanh lỗi vào nhiều loại biểu đồ khác nhau được Aspose.Slides for Java hỗ trợ, bao gồm biểu đồ thanh, biểu đồ đường và biểu đồ phân tán.
 
-### Làm cách nào để đặt các giá trị thanh lỗi khác nhau cho từng điểm dữ liệu?
+### Làm thế nào để thiết lập các giá trị thanh lỗi khác nhau cho mỗi điểm dữ liệu?
 
-Bạn có thể lặp qua các điểm dữ liệu và đặt giá trị thanh lỗi tùy chỉnh cho từng điểm, như minh họa trong đoạn mã trên.
+Bạn có thể lặp qua các điểm dữ liệu và đặt giá trị thanh lỗi tùy chỉnh cho từng điểm, như được hiển thị trong đoạn mã trên.
 
-### Có thể ẩn các thanh lỗi cho các điểm dữ liệu cụ thể không?
+### Có thể ẩn thanh lỗi cho các điểm dữ liệu cụ thể không?
 
- Có, bạn có thể kiểm soát khả năng hiển thị của các thanh lỗi cho từng điểm dữ liệu bằng cách đặt`setVisible` tài sản của`IErrorBarsFormat` sự vật.
+Có, bạn có thể kiểm soát khả năng hiển thị của các thanh lỗi cho từng điểm dữ liệu bằng cách thiết lập `setVisible` tài sản của `IErrorBarsFormat` sự vật.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

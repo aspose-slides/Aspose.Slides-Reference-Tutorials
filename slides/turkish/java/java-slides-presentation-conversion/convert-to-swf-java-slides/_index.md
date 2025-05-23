@@ -1,72 +1,74 @@
 ---
-title: Java Slaytlarında SWF'ye Dönüştürme
-linktitle: Java Slaytlarında SWF'ye Dönüştürme
-second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides'ı kullanarak PowerPoint sunumlarını Java'da SWF formatına dönüştürün. Sorunsuz dönüşüm için kaynak kodlu adım adım kılavuzumuzu izleyin.
-weight: 35
-url: /tr/java/presentation-conversion/convert-to-swf-java-slides/
+"description": "Aspose.Slides kullanarak PowerPoint sunumlarını Java'da SWF formatına dönüştürün. Sorunsuz dönüşüm için kaynak kodlu adım adım kılavuzumuzu izleyin."
+"linktitle": "Java Slaytlarında SWF'ye Dönüştürme"
+"second_title": "Aspose.Slides Java PowerPoint İşleme API'si"
+"title": "Java Slaytlarında SWF'ye Dönüştürme"
+"url": "/tr/java/presentation-conversion/convert-to-swf-java-slides/"
+"weight": 35
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java Slaytlarında SWF'ye Dönüştürme
 
 
-## Aspose.Slides kullanarak PowerPoint Sunumunu Java'da SWF'ye Dönüştürmeye Giriş
+## Aspose.Slides kullanarak Java'da PowerPoint Sunumunu SWF'ye Dönüştürmeye Giriş
 
-Bu eğitimde Aspose.Slides for Java'yı kullanarak bir PowerPoint sunumunu (PPTX) SWF (Shockwave Flash) formatına nasıl dönüştüreceğinizi öğreneceksiniz. Aspose.Slides, PowerPoint sunumlarıyla programlı olarak çalışmanıza olanak tanıyan güçlü bir kütüphanedir.
+Bu eğitimde, Aspose.Slides for Java kullanarak bir PowerPoint sunumunu (PPTX) SWF (Shockwave Flash) formatına nasıl dönüştüreceğinizi öğreneceksiniz. Aspose.Slides, PowerPoint sunumlarıyla programlı olarak çalışmanıza olanak tanıyan güçlü bir kütüphanedir.
 
-## Önkoşullar
+## Ön koşullar
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-- Java Geliştirme Kiti (JDK) yüklü.
--  Aspose.Slides for Java kütüphanesi. Şuradan indirebilirsiniz[Burada](https://downloads.aspose.com/slides/java).
+- Java Geliştirme Kiti (JDK) kuruldu.
+- Java kütüphanesi için Aspose.Slides. Buradan indirebilirsiniz [Burada](https://downloads.aspose.com/slides/java).
 
-## 1. Adım: Aspose.Slides Kitaplığını İçe Aktarın
+## Adım 1: Aspose.Slides Kitaplığını İçe Aktar
 
 Öncelikle Aspose.Slides kütüphanesini Java projenize aktarmanız gerekiyor. JAR dosyasını projenizin sınıf yoluna ekleyebilirsiniz.
 
 ## Adım 2: Aspose.Slides Sunum Nesnesini Başlatın
 
-Bu adımda, bir oluşturacaksınız`Presentation` PowerPoint sunumunuzu yüklemek için nesneyi seçin. Yer değiştirmek`"Your Document Directory"` PowerPoint dosyanızın gerçek yolunu belirtin.
+Bu adımda bir tane oluşturacaksınız `Presentation` PowerPoint sununuzu yüklemek için nesne. Değiştir `"Your Document Directory"` PowerPoint dosyanızın gerçek yolunu belirtin.
 
 ```java
 String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "HelloWorld.pptx");
 ```
 
-## 3. Adım: SWF Dönüştürme Seçeneklerini Ayarlayın
+## Adım 3: SWF Dönüştürme Seçeneklerini Ayarlayın
 
- Şimdi, SWF dönüştürme seçeneklerini kullanarak ayarlayacaksınız.`SwfOptions` sınıf. Çeşitli seçenekleri belirterek dönüştürme işlemini özelleştirebilirsiniz. Bu örnekte,`viewerIncluded` seçeneği`false`bu, görüntüleyiciyi SWF dosyasına dahil etmeyeceğimiz anlamına gelir.
+Şimdi, SWF dönüştürme seçeneklerini kullanarak ayarlayacaksınız `SwfOptions` sınıf. Çeşitli seçenekleri belirterek dönüştürme sürecini özelleştirebilirsiniz. Bu örnekte, `viewerIncluded` seçeneği `false`Bu, görüntüleyiciyi SWF dosyasına dahil etmeyeceğimiz anlamına geliyor.
 
 ```java
 SwfOptions swfOptions = new SwfOptions();
 swfOptions.setViewerIncluded(false);
 ```
 
-Gerekirse notların ve yorumların düzeniyle ilgili seçenekleri de yapılandırabilirsiniz. Bu örnekte notların konumunu "BottomFull" olarak ayarlayacağız.
+Gerekirse notlar ve yorumlar düzeniyle ilgili seçenekleri de yapılandırabilirsiniz. Bu örnekte, notlar konumunu "BottomFull" olarak ayarlayacağız.
 
 ```java
 INotesCommentsLayoutingOptions notesOptions = swfOptions.getNotesCommentsLayouting();
 notesOptions.setNotesPosition(NotesPositions.BottomFull);
 ```
 
-## 4. Adım: SWF'ye dönüştürün
+## Adım 4: SWF'ye dönüştürün
 
- Artık PowerPoint sunumunu kullanarak SWF formatına dönüştürebilirsiniz.`save` yöntemi`Presentation` nesne.
+Artık PowerPoint sunumunu SWF formatına dönüştürmek için şunu kullanabilirsiniz: `save` yöntemi `Presentation` nesne.
 
 ```java
 presentation.save(dataDir + "SaveAsSwf_out.swf", SaveFormat.Swf, swfOptions);
 ```
 
-Bu kod satırı, sunuyu belirtilen seçeneklerle birlikte bir SWF dosyası olarak kaydeder.
+Bu kod satırı sunumu belirtilen seçeneklerle bir SWF dosyası olarak kaydeder.
 
-## 5. Adım: Görüntüleyiciyi Dahil Edin (İsteğe bağlı)
+## Adım 5: Görüntüleyiciyi Dahil Et (İsteğe Bağlı)
 
- Görüntüleyiciyi SWF dosyasına dahil etmek istiyorsanız`viewerIncluded` seçeneği`true` ve sunuyu tekrar kaydedin.
+Görüntüleyiciyi SWF dosyasına dahil etmek istiyorsanız, şunu değiştirebilirsiniz: `viewerIncluded` seçeneği `true` ve sunumu tekrar kaydedin.
 
 ```java
 swfOptions.setViewerIncluded(true);
@@ -75,18 +77,18 @@ presentation.save(dataDir + "SaveNotes_out.swf", SaveFormat.Swf, swfOptions);
 
 ## Adım 6: Temizleme
 
- Son olarak, çöpe attığınızdan emin olun.`Presentation`herhangi bir kaynağın serbest bırakılmasına itiraz edin.
+Son olarak, şunları attığınızdan emin olun: `Presentation` herhangi bir kaynağı serbest bırakmayı amaçlamıyor.
 
 ```java
 if (presentation != null) presentation.dispose();
 ```
 
-## Java Slaytlarında SWF'ye Dönüştürmek İçin Kaynak Kodunu Tamamlayın
+## Java Slaytlarında SWF'ye Dönüştürmek İçin Tam Kaynak Kodu
 
 ```java
-// Belgeler dizininin yolu.
+// Belgeler dizinine giden yol.
 String dataDir = "Your Document Directory";
-// Bir sunum dosyasını temsil eden bir Sunum nesnesinin örneğini oluşturun
+// Bir sunum dosyasını temsil eden bir Sunum nesnesi örneği oluşturun
 Presentation presentation = new Presentation(dataDir + "HelloWorld.pptx");
 try
 {
@@ -107,32 +109,34 @@ finally
 
 ## Çözüm
 
-Aspose.Slides for Java'yı kullanarak bir PowerPoint sunumunu başarıyla SWF formatına dönüştürdünüz. Aspose.Slides tarafından sağlanan çeşitli seçenekleri keşfederek dönüştürme sürecini daha da özelleştirebilirsiniz.
+Aspose.Slides for Java kullanarak bir PowerPoint sunumunu SWF formatına başarıyla dönüştürdünüz. Aspose.Slides tarafından sağlanan çeşitli seçenekleri inceleyerek dönüştürme sürecini daha da özelleştirebilirsiniz.
 
-## SSS'ler
+## SSS
 
 ### Farklı SWF dönüştürme seçeneklerini nasıl ayarlarım?
 
- SWF dönüştürme seçeneklerini değiştirerek özelleştirebilirsiniz.`SwfOptions` nesne. Mevcut seçeneklerin listesi için Aspose.Slides belgelerine bakın.
+SWF dönüştürme seçeneklerini değiştirerek özelleştirebilirsiniz. `SwfOptions` nesne. Kullanılabilir seçeneklerin listesi için Aspose.Slides belgelerine bakın.
 
 ### SWF dosyasına notlar ve yorumlar ekleyebilir miyim?
 
- Evet, SWF dosyasına notları ve yorumları yapılandırarak ekleyebilirsiniz.`SwfOptions` buna göre. Kullan`setViewerIncluded` Notların ve yorumların dahil edilip edilmediğini kontrol etme yöntemi.
+Evet, SWF dosyasına notlar ve yorumlar ekleyebilirsiniz. `SwfOptions` Buna göre. Kullanın `setViewerIncluded` Notların ve yorumların dahil edilip edilmeyeceğini kontrol etme yöntemi.
 
-### SWF dosyasındaki varsayılan notların konumu nedir?
+### SWF dosyasında varsayılan not konumu nedir?
 
-SWF dosyasındaki varsayılan not konumu "Yok"tur. Gerektiğinde bunu "BottomFull" veya diğer konumlara değiştirebilirsiniz.
+SWF dosyasındaki varsayılan not konumu "Hiçbiri"dir. Gerektiğinde bunu "AltTam" veya diğer konumlara değiştirebilirsiniz.
 
-### Aspose.Slides tarafından desteklenen başka çıktı formatları var mı?
+### Aspose.Slides tarafından desteklenen başka çıktı biçimleri var mı?
 
-Evet, Aspose.Slides PDF, HTML, görseller ve daha fazlası dahil olmak üzere çeşitli çıktı formatlarını destekler. Bu seçenekleri belgelerde keşfedebilirsiniz.
+Evet, Aspose.Slides PDF, HTML, resimler ve daha fazlası dahil olmak üzere çeşitli çıktı biçimlerini destekler. Bu seçenekleri belgelerde inceleyebilirsiniz.
 
-### Dönüştürme sırasındaki hataları nasıl halledebilirim?
+### Dönüştürme sırasında oluşan hataları nasıl düzeltebilirim?
 
-Dönüştürme işlemi sırasında oluşabilecek istisnaları ele almak için try-catch bloklarını kullanabilirsiniz. Belirli hata işleme önerileri için Aspose.Slides belgelerini kontrol ettiğinizden emin olun.
+Dönüştürme işlemi sırasında oluşabilecek istisnaları işlemek için try-catch bloklarını kullanabilirsiniz. Belirli hata işleme önerileri için Aspose.Slides belgelerini kontrol ettiğinizden emin olun.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

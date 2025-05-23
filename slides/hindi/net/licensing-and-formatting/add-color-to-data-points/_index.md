@@ -1,14 +1,16 @@
 ---
-title: .NET के लिए Aspose.Slides के साथ चार्ट रंगीकरण
-linktitle: चार्ट में डेटा बिंदुओं में रंग जोड़ें
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: Aspose.Slides for .NET के साथ चार्ट में डेटा पॉइंट्स में रंग जोड़ने का तरीका जानें। अपनी प्रस्तुतियों को विज़ुअल रूप से बेहतर बनाएँ और अपने दर्शकों को प्रभावी ढंग से आकर्षित करें।
-weight: 12
-url: /hi/net/licensing-and-formatting/add-color-to-data-points/
+"description": "Aspose.Slides for .NET के साथ चार्ट में डेटा पॉइंट्स में रंग जोड़ने का तरीका जानें। अपनी प्रस्तुतियों को विज़ुअल रूप से बेहतर बनाएँ और अपने दर्शकों को प्रभावी ढंग से आकर्षित करें।"
+"linktitle": "चार्ट में डेटा बिंदुओं में रंग जोड़ें"
+"second_title": "Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API"
+"title": ".NET के लिए Aspose.Slides के साथ चार्ट रंगीकरण"
+"url": "/hi/net/licensing-and-formatting/add-color-to-data-points/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # .NET के लिए Aspose.Slides के साथ चार्ट रंगीकरण
@@ -22,7 +24,7 @@ url: /hi/net/licensing-and-formatting/add-color-to-data-points/
 
 1. विज़ुअल स्टूडियो: आपके कंप्यूटर पर विज़ुअल स्टूडियो स्थापित होना चाहिए।
 
-2.  Aspose.Slides for .NET: Aspose.Slides for .NET को डाउनलोड करें और इंस्टॉल करें[लिंक को डाउनलोड करें](https://releases.aspose.com/slides/net/).
+2. Aspose.Slides for .NET: Aspose.Slides for .NET को डाउनलोड करें और इंस्टॉल करें [लिंक को डाउनलोड करें](https://releases.aspose.com/slides/net/).
 
 3. C# की बुनियादी समझ: आपको C# प्रोग्रामिंग का बुनियादी ज्ञान होना चाहिए।
 
@@ -114,16 +116,18 @@ pres.Save(dataDir + "AddColorToDataPoints.pptx", SaveFormat.Pptx);
    हां, आप .NET के लिए Aspose.Slides का उपयोग करके चार्ट के विभिन्न पहलुओं, जैसे डेटा लेबल, फ़ॉन्ट, रंग आदि को अनुकूलित कर सकते हैं।
 
 ### मैं Aspose.Slides for .NET के लिए दस्तावेज़ कहां पा सकता हूं?
-    आप विस्तृत दस्तावेज यहां पा सकते हैं[दस्तावेज़ लिंक](https://reference.aspose.com/slides/net/).
+   आप विस्तृत दस्तावेज यहां पा सकते हैं [दस्तावेज़ लिंक](https://reference.aspose.com/slides/net/).
 
 ### क्या .NET के लिए Aspose.Slides का निःशुल्क परीक्षण उपलब्ध है?
-    हां, आप यहां से निःशुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+   हां, आप यहां से निःशुल्क परीक्षण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### मैं .NET के लिए Aspose.Slides का समर्थन कैसे प्राप्त करूं?
-    समर्थन और चर्चा के लिए, यहां जाएं[Aspose.Slides फ़ोरम](https://forum.aspose.com/).
+   समर्थन और चर्चा के लिए, यहां जाएं [Aspose.Slides फ़ोरम](https://forum.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

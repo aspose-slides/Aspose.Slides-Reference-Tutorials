@@ -1,28 +1,30 @@
 ---
-title: Выполнение слияния почты в презентациях
-linktitle: Выполнение слияния почты в презентациях
-second_title: Aspose.Slides .NET API обработки PowerPoint
-description: Изучите слияние почты в презентациях с помощью Aspose.Slides для .NET в этом пошаговом руководстве. Создавайте динамичные персонализированные презентации без особых усилий.
-weight: 21
-url: /ru/net/presentation-manipulation/perform-mail-merge-in-presentations/
+"description": "Изучите слияние писем в презентациях с помощью Aspose.Slides для .NET в этом пошаговом руководстве. Создавайте динамичные, персонализированные презентации без усилий."
+"linktitle": "Выполнение слияния писем в презентациях"
+"second_title": "API обработки PowerPoint Aspose.Slides .NET"
+"title": "Выполнение слияния писем в презентациях"
+"url": "/ru/net/presentation-manipulation/perform-mail-merge-in-presentations/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Выполнение слияния почты в презентациях
+# Выполнение слияния писем в презентациях
 
 ## Введение
-В мире .NET-разработки создание динамических и персонализированных презентаций является обычным требованием. Одним из мощных инструментов, упрощающих этот процесс, является Aspose.Slides для .NET. В этом уроке мы углубимся в увлекательную область выполнения слияния почты в презентациях с использованием Aspose.Slides для .NET.
-## Предварительные условия
-Прежде чем мы отправимся в это путешествие, убедитесь, что у вас есть следующие предпосылки:
-- Библиотека Aspose.Slides для .NET: убедитесь, что у вас установлена библиотека Aspose.Slides для .NET. Вы можете скачать его с[здесь](https://releases.aspose.com/slides/net/).
-- Шаблон документа: подготовьте шаблон презентации (например, PresentationTemplate.pptx), который будет служить основой для слияния почты.
-- Источник данных: вам нужен источник данных для слияния почты. В нашем примере мы будем использовать данные XML (TestData.xml), но Aspose.Slides поддерживает различные источники данных, такие как СУБД.
-Теперь давайте углубимся в этапы выполнения слияния почты в презентациях с использованием Aspose.Slides для .NET.
-## Импортировать пространства имен
-Во-первых, убедитесь, что вы импортировали необходимые пространства имен для использования функций, предоставляемых Aspose.Slides:
+В мире разработки .NET создание динамических и персонализированных презентаций является общим требованием. Одним из мощных инструментов, упрощающих этот процесс, является Aspose.Slides для .NET. В этом руководстве мы погрузимся в увлекательную сферу выполнения слияния почты в презентациях с использованием Aspose.Slides для .NET.
+## Предпосылки
+Прежде чем отправиться в это путешествие, убедитесь, что у вас выполнены следующие предварительные условия:
+- Библиотека Aspose.Slides for .NET: Убедитесь, что у вас установлена библиотека Aspose.Slides for .NET. Вы можете загрузить ее с [здесь](https://releases.aspose.com/slides/net/).
+- Шаблон документа: подготовьте шаблон презентации (например, PresentationTemplate.pptx), который послужит основой для слияния писем.
+- Источник данных: Вам нужен источник данных для слияния почты. В нашем примере мы будем использовать данные XML (TestData.xml), но Aspose.Slides поддерживает различные источники данных, такие как RDBMS.
+Теперь давайте рассмотрим этапы выполнения слияния писем в презентациях с использованием Aspose.Slides для .NET.
+## Импорт пространств имен
+Во-первых, убедитесь, что вы импортируете необходимые пространства имен для использования функций, предоставляемых Aspose.Slides:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -38,7 +40,7 @@ using Aspose.Slides.Examples.CSharp;
 using Aspose.Slides.Export;
 using DataTable = System.Data.DataTable;
 ```
-## Шаг 1. Настройте каталог документов
+## Шаг 1: Настройте каталог документов
 ```csharp
 string dataDir = "Your Document Directory";
 string presTemplatePath = Path.Combine(dataDir, "PresentationTemplate.pptx");
@@ -47,7 +49,7 @@ string resultPath = Path.Combine(RunExamples.OutPath, "MailMergeResult");
 if (!Directory.Exists(resultPath))
     Directory.CreateDirectory(resultPath);
 ```
-## Шаг 2. Создайте набор данных с использованием данных XML
+## Шаг 2: Создание набора данных с использованием XML-данных
 ```csharp
 using (DataSet dataSet = new DataSet())
 {
@@ -57,40 +59,40 @@ using (DataSet dataSet = new DataSet())
     DataTable staffListTable = dataTables["StaffList"];
     DataTable planFactTable = dataTables["Plan_Fact"];
 ```
-## Шаг 3. Перебор записей и создание индивидуальных презентаций
+## Шаг 3: Просмотрите записи и создайте отдельные презентации
 ```csharp
 foreach (DataRow userRow in usersTable.Rows)
 {
-    // создать название результата (индивидуального) представления
+    // создать результат (индивидуальный) название презентации
     string presPath = Path.Combine(resultPath, "PresFor_" + userRow["Name"] + ".pptx");
     // Загрузить шаблон презентации
     using (Presentation pres = new Presentation(presTemplatePath))
     {
-        // Заполните текстовые поля данными из основной таблицы
+        // Заполните текстовые поля данными из основной таблицы.
         ((AutoShape)pres.Slides[0].Shapes[0]).TextFrame.Text = "Chief of the department - " + userRow["Name"];
         ((AutoShape)pres.Slides[0].Shapes[4]).TextFrame.Text = userRow["Department"].ToString();
         // Получить изображение из базы данных
         byte[] bytes = Convert.FromBase64String(userRow["Img"].ToString());
-        //Вставьте изображение в рамку презентации.
+        // Вставьте изображение в рамку презентации
         IPPImage image = pres.Images.AddImage(bytes);
         IPictureFrame pf = pres.Slides[0].Shapes[1] as PictureFrame;
         pf.PictureFormat.Picture.Image.ReplaceImage(image);
-        // Получите и подготовьте текстовый фрейм для заполнения его данными
+        // Получить и подготовить текстовую рамку для заполнения ее данными
         IAutoShape list = pres.Slides[0].Shapes[2] as IAutoShape;
         ITextFrame textFrame = list.TextFrame;
         textFrame.Paragraphs.Clear();
         Paragraph para = new Paragraph();
         para.Text = "Department Staff:";
         textFrame.Paragraphs.Add(para);
-        // Заполните данные о персонале
+        // Заполнить данные о персонале
         FillStaffList(textFrame, userRow, staffListTable);
-        // Заполнение фактических данных плана
+        // Заполнить план фактических данных
         FillPlanFact(pres, userRow, planFactTable);
         pres.Save(presPath, SaveFormat.Pptx);
     }
 }
 ```
-## Шаг 4. Заполните текстовый фрейм данными в виде списка
+## Шаг 4: Заполните текстовый фрейм данными в виде списка
 ```csharp
 static void FillStaffList(ITextFrame textFrame, DataRow userRow, DataTable staffListTable)
 {
@@ -111,7 +113,7 @@ static void FillStaffList(ITextFrame textFrame, DataRow userRow, DataTable staff
     }
 }
 ```
-## Шаг 5. Заполните диаграмму данных из вторичной таблицы PlanFact.
+## Шаг 5: Заполните диаграмму данных из вторичной таблицы PlanFact
 ```csharp
 static void FillPlanFact(Presentation pres, DataRow row, DataTable planFactTable)
 {
@@ -122,7 +124,7 @@ static void FillPlanFact(Presentation pres, DataRow row, DataTable planFactTable
     string range = chart.ChartData.GetRange();
     IChartDataWorkbook cellsFactory = chart.ChartData.ChartDataWorkbook;
     int worksheetIndex = 0;
-    // Добавьте точки данных для серии линий
+    // Добавить точки данных для линейного ряда
     chart.ChartData.Series[0].DataPoints.AddDataPointForLineSeries
 (cellsFactory.GetCell(worksheetIndex, 1, 1, double.Parse(selRows[0]["PlanData"].ToString())));
     chart.ChartData.Series[1].DataPoints.AddDataPointForLineSeries(
@@ -142,23 +144,25 @@ static void FillPlanFact(Presentation pres, DataRow row, DataTable planFactTable
     chart.ChartData.SetRange(range);
 }
 ```
-Эти шаги демонстрируют подробное руководство по выполнению слияния почты в презентациях с использованием Aspose.Slides для .NET. Теперь давайте ответим на некоторые часто задаваемые вопросы.
+Эти шаги демонстрируют всеобъемлющее руководство по выполнению слияния почты в презентациях с использованием Aspose.Slides для .NET. Теперь давайте рассмотрим некоторые часто задаваемые вопросы.
 ## Часто задаваемые вопросы
 ### 1. Совместим ли Aspose.Slides для .NET с различными источниками данных?
-Да, Aspose.Slides for .NET поддерживает различные источники данных, включая XML, СУБД и другие.
-### 2. Могу ли я настроить внешний вид пунктов списка в созданной презентации?
- Конечно! Вы имеете полный контроль над внешним видом пунктов списка, как показано в`FillStaffList` метод.
-### 3. Какие типы диаграмм я могу создавать с помощью Aspose.Slides для .NET?
-Aspose.Slides for .NET поддерживает широкий спектр диаграмм, включая линейные диаграммы, как показано в нашем примере, гистограммы, круговые диаграммы и многое другое.
-### 4. Как мне получить поддержку или обратиться за помощью по Aspose.Slides для .NET?
- Для поддержки и помощи вы можете посетить[Форум Aspose.Slides](https://forum.aspose.com/c/slides/11).
+Да, Aspose.Slides для .NET поддерживает различные источники данных, включая XML, СУБД и другие.
+### 2. Могу ли я настроить внешний вид маркированных списков в созданной презентации?
+Конечно! У вас есть полный контроль над внешним видом пунктов списка, как показано в `FillStaffList` метод.
+### 3. Какие типы диаграмм можно создавать с помощью Aspose.Slides для .NET?
+Aspose.Slides для .NET поддерживает широкий спектр диаграмм, включая линейные диаграммы, как показано в нашем примере, столбчатые диаграммы, круговые диаграммы и многое другое.
+### 4. Как получить поддержку или обратиться за помощью по Aspose.Slides для .NET?
+Для поддержки и помощи вы можете посетить [Форум Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### 5. Могу ли я попробовать Aspose.Slides для .NET перед покупкой?
- Конечно! Вы можете воспользоваться бесплатной пробной версией Aspose.Slides для .NET на сайте[здесь](https://releases.aspose.com/).
+Конечно! Вы можете воспользоваться бесплатной пробной версией Aspose.Slides для .NET от [здесь](https://releases.aspose.com/).
 ## Заключение
-В этом руководстве мы рассмотрели потрясающие возможности Aspose.Slides для .NET при выполнении слияния почты в презентациях. Следуя пошаговому руководству, вы сможете легко создавать динамичные и персонализированные презентации. Повысьте свой опыт разработки .NET с помощью Aspose.Slides для беспрепятственного создания презентаций.
+В этом руководстве мы изучили захватывающие возможности Aspose.Slides для .NET в выполнении слияния писем в презентациях. Следуя пошаговому руководству, вы сможете создавать динамичные и персонализированные презентации без усилий. Повысьте свой опыт разработки .NET с помощью Aspose.Slides для бесшовной генерации презентаций.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

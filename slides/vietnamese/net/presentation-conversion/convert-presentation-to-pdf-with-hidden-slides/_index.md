@@ -1,48 +1,50 @@
 ---
-title: Chuyển đổi bản trình bày sang PDF với các trang trình bày ẩn
-linktitle: Chuyển đổi bản trình bày sang PDF với các trang trình bày ẩn
-second_title: API xử lý Aspose.Slides .NET PowerPoint
-description: Tìm hiểu cách sử dụng Aspose.Slides cho .NET để chuyển đổi bản trình bày sang PDF với các trang trình bày ẩn một cách liền mạch.
-weight: 26
-url: /vi/net/presentation-conversion/convert-presentation-to-pdf-with-hidden-slides/
+"description": "Tìm hiểu cách sử dụng Aspose.Slides cho .NET để chuyển đổi bài thuyết trình sang PDF có các slide ẩn một cách liền mạch."
+"linktitle": "Chuyển đổi bài thuyết trình sang PDF với Slide ẩn"
+"second_title": "API xử lý PowerPoint Aspose.Slides .NET"
+"title": "Chuyển đổi bài thuyết trình sang PDF với Slide ẩn"
+"url": "/vi/net/presentation-conversion/convert-presentation-to-pdf-with-hidden-slides/"
+"weight": 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Chuyển đổi bản trình bày sang PDF với các trang trình bày ẩn
+# Chuyển đổi bài thuyết trình sang PDF với Slide ẩn
 
 
 ## Giới thiệu về Aspose.Slides cho .NET
 
-Aspose.Slides for .NET là một thư viện mạnh mẽ cung cấp các tính năng toàn diện để làm việc với các bản trình bày trong các ứng dụng .NET. Nó cho phép các nhà phát triển tạo, chỉnh sửa, thao tác và chuyển đổi bản trình bày sang nhiều định dạng khác nhau, bao gồm cả PDF.
+Aspose.Slides for .NET là một thư viện mạnh mẽ cung cấp các tính năng toàn diện để làm việc với các bài thuyết trình trong các ứng dụng .NET. Nó cho phép các nhà phát triển tạo, chỉnh sửa, thao tác và chuyển đổi các bài thuyết trình sang nhiều định dạng khác nhau, bao gồm cả PDF.
 
-## Tìm hiểu các slide ẩn trong bài thuyết trình
+## Hiểu về các slide ẩn trong bài thuyết trình
 
-Các slide ẩn là các slide trong bản trình bày không hiển thị trong trình chiếu thông thường. Chúng có thể chứa thông tin bổ sung, nội dung dự phòng hoặc nội dung dành cho đối tượng cụ thể. Khi chuyển đổi bản trình bày sang PDF, điều cần thiết là phải đảm bảo rằng các trang trình bày ẩn này cũng được đưa vào để duy trì tính toàn vẹn của bản trình bày.
+Slide ẩn là các slide trong bài thuyết trình không hiển thị trong trình chiếu thông thường. Chúng có thể chứa thông tin bổ sung, nội dung sao lưu hoặc nội dung dành cho đối tượng cụ thể. Khi chuyển đổi bài thuyết trình sang PDF, điều cần thiết là phải đảm bảo rằng các slide ẩn này cũng được đưa vào để duy trì tính toàn vẹn của bài thuyết trình.
 
 ## Thiết lập môi trường phát triển
 
-Trước khi chúng ta bắt đầu, hãy đảm bảo bạn có những điều sau:
+Trước khi bắt đầu, hãy đảm bảo bạn đã chuẩn bị những thứ sau:
 
-- Visual Studio hoặc bất kỳ môi trường phát triển .NET nào được cài đặt.
--  Aspose.Slides cho thư viện .NET. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/slides/net).
+- Đã cài đặt Visual Studio hoặc bất kỳ môi trường phát triển .NET nào.
+- Aspose.Slides cho thư viện .NET. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/slides/net).
 
-## Đang tải một tập tin trình bày
+## Tải một tập tin trình bày
 
-Để bắt đầu, hãy tải tệp bản trình bày bằng Aspose.Slides cho .NET:
+Để bắt đầu, hãy tải tệp trình bày bằng Aspose.Slides cho .NET:
 
 ```csharp
 using Aspose.Slides;
 
-// Tải bản trình bày
+// Tải bài thuyết trình
 using var presentation = new Presentation("sample.pptx");
 ```
 
-## Chuyển đổi bản trình bày sang PDF với các trang trình bày ẩn
+## Chuyển đổi bài thuyết trình sang PDF với Slide ẩn
 
-Bây giờ chúng ta có thể xác định các slide ẩn, hãy tiến hành chuyển đổi bản trình bày sang PDF trong khi vẫn đảm bảo bao gồm các slide ẩn:
+Bây giờ chúng ta có thể xác định các slide ẩn, hãy tiến hành chuyển đổi bản trình bày sang PDF đồng thời đảm bảo rằng các slide ẩn được bao gồm:
 
 ```csharp
 var pdfOptions = new PdfOptions();
@@ -51,13 +53,13 @@ pdfOptions.ShowHiddenSlides = true; // Bao gồm các slide ẩn trong PDF
 presentation.Save("output.pdf", SaveFormat.Pdf, pdfOptions);
 ```
 
-## Tùy chọn và tùy chỉnh bổ sung
+## Các tùy chọn và tùy chỉnh bổ sung
 
-Aspose.Slides for .NET cung cấp nhiều tùy chọn và tùy chỉnh khác nhau cho quá trình chuyển đổi. Bạn có thể đặt các tùy chọn dành riêng cho PDF, chẳng hạn như kích thước trang, hướng và chất lượng, để tối ưu hóa tệp PDF đầu ra.
+Aspose.Slides for .NET cung cấp nhiều tùy chọn và tùy chỉnh cho quá trình chuyển đổi. Bạn có thể thiết lập các tùy chọn dành riêng cho PDF, chẳng hạn như kích thước trang, hướng và chất lượng, để tối ưu hóa PDF đầu ra.
 
-## Ví dụ về mã: Chuyển đổi bản trình bày thành PDF với các trang trình bày ẩn
+## Ví dụ về mã: Chuyển đổi bài thuyết trình sang PDF với Slide ẩn
 
-Đây là ví dụ hoàn chỉnh về cách chuyển đổi bản trình bày sang PDF với các trang trình bày ẩn bằng Aspose.Slides for .NET:
+Sau đây là ví dụ đầy đủ về cách chuyển đổi bản trình bày sang PDF có các slide ẩn bằng Aspose.Slides cho .NET:
 
 ```csharp
 using Aspose.Slides;
@@ -78,32 +80,34 @@ class Program
 
 ## Phần kết luận
 
-Chuyển đổi bản trình bày sang PDF là một tác vụ phổ biến nhưng khi xử lý các trang chiếu ẩn, điều quan trọng là phải sử dụng thư viện đáng tin cậy như Aspose.Slides cho .NET. Bằng cách làm theo các bước được nêu trong hướng dẫn này, bạn có thể chuyển đổi bản trình bày sang PDF một cách liền mạch trong khi vẫn đảm bảo bao gồm các trang trình bày ẩn, duy trì chất lượng và ngữ cảnh tổng thể của bản trình bày.
+Chuyển đổi bài thuyết trình sang PDF là một nhiệm vụ phổ biến, nhưng khi xử lý các slide ẩn, điều quan trọng là phải sử dụng một thư viện đáng tin cậy như Aspose.Slides cho .NET. Bằng cách làm theo các bước được nêu trong hướng dẫn này, bạn có thể chuyển đổi bài thuyết trình sang PDF một cách liền mạch trong khi vẫn đảm bảo các slide ẩn được đưa vào, duy trì chất lượng và ngữ cảnh chung của bài thuyết trình.
 
 ## Câu hỏi thường gặp
 
-### Làm cách nào để đưa các trang trình bày ẩn vào tệp PDF bằng Aspose.Slides cho .NET?
+### Làm thế nào để đưa các slide ẩn vào PDF bằng Aspose.Slides cho .NET?
 
- Để bao gồm các slide ẩn trong quá trình chuyển đổi PDF, bạn có thể đặt`ShowHiddenSlides` tài sản để`true` trong các tùy chọn PDF trước khi lưu bản trình bày dưới dạng PDF.
+Để bao gồm các slide ẩn trong quá trình chuyển đổi PDF, bạn có thể thiết lập `ShowHiddenSlides` tài sản để `true` trong tùy chọn PDF trước khi lưu bản trình bày dưới dạng PDF.
 
 ### Tôi có thể tùy chỉnh cài đặt đầu ra PDF bằng Aspose.Slides không?
 
-Có, Aspose.Slides for .NET cung cấp nhiều tùy chọn khác nhau để tùy chỉnh cài đặt đầu ra PDF, chẳng hạn như kích thước trang, hướng và chất lượng hình ảnh.
+Có, Aspose.Slides for .NET cung cấp nhiều tùy chọn để tùy chỉnh cài đặt đầu ra PDF, chẳng hạn như kích thước trang, hướng và chất lượng hình ảnh.
 
-### Aspose.Slides for .NET có phù hợp cho cả bản trình bày đơn giản và phức tạp không?
+### Aspose.Slides for .NET có phù hợp cho cả bài thuyết trình đơn giản và phức tạp không?
 
-Hoàn toàn có thể, Aspose.Slides for .NET được thiết kế để xử lý các bản trình bày có độ phức tạp khác nhau. Nó phù hợp cho cả tác vụ chuyển đổi bản trình bày đơn giản và phức tạp.
+Hoàn toàn đúng, Aspose.Slides for .NET được thiết kế để xử lý các bài thuyết trình có độ phức tạp khác nhau. Nó phù hợp cho cả các tác vụ chuyển đổi bài thuyết trình đơn giản và phức tạp.
 
 ### Tôi có thể tải xuống thư viện Aspose.Slides cho .NET ở đâu?
 
- Bạn có thể tải xuống thư viện Aspose.Slides cho .NET từ[đây](https://releases.aspose.com/slides/net).
+Bạn có thể tải xuống thư viện Aspose.Slides cho .NET từ [đây](https://releases.aspose.com/slides/net).
 
 ### Có tài liệu nào về Aspose.Slides cho .NET không?
 
- Có, bạn có thể tìm tài liệu và ví dụ sử dụng Aspose.Slides for .NET tại[đây](https://reference.aspose.com/slides/net).
+Có, bạn có thể tìm thấy tài liệu và ví dụ sử dụng cho Aspose.Slides cho .NET tại [đây](https://reference.aspose.com/slides/net).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

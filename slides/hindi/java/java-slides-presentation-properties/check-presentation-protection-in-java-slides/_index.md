@@ -1,20 +1,22 @@
 ---
-title: जावा स्लाइड्स में प्रेजेंटेशन प्रोटेक्शन की जाँच करें
-linktitle: जावा स्लाइड्स में प्रेजेंटेशन प्रोटेक्शन की जाँच करें
-second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके Java स्लाइड में प्रेजेंटेशन सुरक्षा की जाँच करना सीखें। यह चरण-दर-चरण मार्गदर्शिका लेखन और खुली सुरक्षा जाँच के लिए कोड उदाहरण प्रदान करती है।
-weight: 15
-url: /hi/java/presentation-properties/check-presentation-protection-in-java-slides/
+"description": "Aspose.Slides for Java का उपयोग करके Java स्लाइड में प्रेजेंटेशन सुरक्षा की जाँच करना सीखें। यह चरण-दर-चरण मार्गदर्शिका लेखन और खुली सुरक्षा जाँच के लिए कोड उदाहरण प्रदान करती है।"
+"linktitle": "जावा स्लाइड्स में प्रेजेंटेशन प्रोटेक्शन की जाँच करें"
+"second_title": "Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई"
+"title": "जावा स्लाइड्स में प्रेजेंटेशन प्रोटेक्शन की जाँच करें"
+"url": "/hi/java/presentation-properties/check-presentation-protection-in-java-slides/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा स्लाइड्स में प्रेजेंटेशन प्रोटेक्शन की जाँच करें
 
 
-## जावा स्लाइड्स में प्रेजेंटेशन प्रोटेक्शन की जाँच का परिचय
+## जावा स्लाइड्स में प्रेजेंटेशन प्रोटेक्शन की जांच का परिचय
 
 इस ट्यूटोरियल में, हम जावा के लिए Aspose.Slides का उपयोग करके प्रेजेंटेशन सुरक्षा की जांच करने का तरीका जानेंगे। हम दो परिदृश्यों को कवर करेंगे: प्रेजेंटेशन के लिए लेखन सुरक्षा की जांच करना और ओपन सुरक्षा की जांच करना। हम प्रत्येक परिदृश्य के लिए चरण-दर-चरण कोड उदाहरण प्रदान करेंगे।
 
@@ -32,11 +34,11 @@ url: /hi/java/presentation-properties/check-presentation-protection-in-java-slid
 </dependency>
 ```
 
- प्रतिस्थापित करें`your_version_here` Aspose.Slides for Java के जिस संस्करण का आप उपयोग कर रहे हैं।
+प्रतिस्थापित करें `your_version_here` Aspose.Slides for Java के जिस संस्करण का आप उपयोग कर रहे हैं।
 
 ## चरण 1: लेखन सुरक्षा की जाँच करें
 
- यह जाँचने के लिए कि कोई प्रस्तुति पासवर्ड द्वारा सुरक्षित है या नहीं, आप इसका उपयोग कर सकते हैं`IPresentationInfo` इंटरफ़ेस। ऐसा करने के लिए कोड यहां दिया गया है:
+यह जाँचने के लिए कि कोई प्रस्तुति पासवर्ड द्वारा सुरक्षित है या नहीं, आप इसका उपयोग कर सकते हैं `IPresentationInfo` इंटरफ़ेस। ऐसा करने के लिए कोड यहां दिया गया है:
 
 ```java
 // स्रोत प्रस्तुति के लिए पथ
@@ -50,11 +52,11 @@ boolean isWriteProtectedByPassword = presentationInfo.isWriteProtected() == Null
 System.out.println("Is presentation write protected by password = " + isWriteProtectedByPassword);
 ```
 
- प्रतिस्थापित करें`"path_to_presentation.pptx"` आपकी प्रस्तुति फ़ाइल के वास्तविक पथ के साथ और`"password_here"` लेखन सुरक्षा पासवर्ड के साथ.
+प्रतिस्थापित करें `"path_to_presentation.pptx"` आपकी प्रस्तुति फ़ाइल के वास्तविक पथ के साथ और `"password_here"` लेखन सुरक्षा पासवर्ड के साथ.
 
 ## चरण 2: खुली सुरक्षा की जाँच करें
 
- यह जांचने के लिए कि क्या कोई प्रस्तुति खोलने के लिए पासवर्ड द्वारा सुरक्षित है, आप इसका उपयोग कर सकते हैं`IPresentationInfo` इंटरफ़ेस। ऐसा करने के लिए कोड यहां दिया गया है:
+यह जांचने के लिए कि क्या कोई प्रस्तुति खोलने के लिए पासवर्ड द्वारा सुरक्षित है, आप इसका उपयोग कर सकते हैं `IPresentationInfo` इंटरफ़ेस। ऐसा करने के लिए कोड यहां दिया गया है:
 
 ```java
 // स्रोत प्रस्तुति के लिए पथ
@@ -67,7 +69,7 @@ if (presentationInfo.isPasswordProtected()) {
 }
 ```
 
- प्रतिस्थापित करें`"path_to_presentation.ppt"` अपनी प्रस्तुति फ़ाइल के वास्तविक पथ के साथ.
+प्रतिस्थापित करें `"path_to_presentation.ppt"` अपनी प्रस्तुति फ़ाइल के वास्तविक पथ के साथ.
 
 ## जावा स्लाइड्स में प्रेजेंटेशन प्रोटेक्शन की जांच के लिए पूरा सोर्स कोड
 
@@ -119,9 +121,11 @@ if (presentationInfo.isPasswordProtected())
 ### क्या Aspose.Slides for Java नवीनतम PowerPoint फ़ाइल स्वरूपों के साथ संगत है?
 
 हां, Java के लिए Aspose.Slides नवीनतम PowerPoint फ़ाइल स्वरूपों का समर्थन करता है, जिसमें .pptx फ़ाइलें भी शामिल हैं।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,37 +1,39 @@
 ---
-title: Opzioni di seconda trama per i grafici nelle diapositive Java
-linktitle: Opzioni di seconda trama per i grafici nelle diapositive Java
-second_title: Aspose.Slides API di elaborazione Java PowerPoint
-description: Scopri come personalizzare i grafici in Diapositive Java utilizzando Aspose.Slides per Java. Esplora le opzioni della seconda trama e migliora le tue presentazioni.
-weight: 12
-url: /it/java/chart-creation/second-plot-options-charts-java-slides/
+"description": "Scopri come personalizzare i grafici in Java Slides utilizzando Aspose.Slides per Java. Esplora le opzioni del secondo grafico e migliora le tue presentazioni."
+"linktitle": "Opzioni del secondo grafico per i grafici in Java Slides"
+"second_title": "API di elaborazione Java PowerPoint di Aspose.Slides"
+"title": "Opzioni del secondo grafico per i grafici in Java Slides"
+"url": "/it/java/chart-creation/second-plot-options-charts-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Opzioni di seconda trama per i grafici nelle diapositive Java
+# Opzioni del secondo grafico per i grafici in Java Slides
 
 
-## Introduzione alle opzioni del secondo grafico per i grafici nelle diapositive Java
+## Introduzione alle opzioni del secondo grafico per i grafici in Java Slides
 
-In questo tutorial, esploreremo come aggiungere le opzioni del secondo grafico ai grafici utilizzando Aspose.Slides per Java. Le opzioni del secondo grafico consentono di personalizzare l'aspetto e il comportamento dei grafici, in particolare in scenari come i grafici a torta. Forniremo istruzioni dettagliate ed esempi di codice sorgente per raggiungere questo obiettivo. 
+In questo tutorial, esploreremo come aggiungere opzioni di secondo grafico ai grafici utilizzando Aspose.Slides per Java. Le opzioni di secondo grafico consentono di personalizzare l'aspetto e il comportamento dei grafici, in particolare in scenari come i grafici a torta. Forniremo istruzioni dettagliate ed esempi di codice sorgente per raggiungere questo obiettivo. 
 
 ## Prerequisiti
-Prima di iniziare, assicurati di avere Aspose.Slides per Java installato e configurato nel tuo progetto Java.
+Prima di iniziare, assicurati di aver installato e configurato Aspose.Slides per Java nel tuo progetto Java.
 
-## Passaggio 1: crea una presentazione
+## Passaggio 1: creare una presentazione
 Iniziamo creando una nuova presentazione:
 
 ```java
-// Il percorso della directory dei documenti.
+// Percorso verso la directory dei documenti.
 String dataDir = "Your Document Directory";
-// Crea un'istanza della classe Presentation
+// Crea un'istanza della classe Presentazione
 Presentation presentation = new Presentation();
 ```
 
-## Passaggio 2: aggiungi un grafico a una diapositiva
+## Passaggio 2: aggiungere un grafico a una diapositiva
 Successivamente, aggiungeremo un grafico a una diapositiva. In questo esempio, creeremo un grafico a torta:
 
 ```java
@@ -43,7 +45,7 @@ IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartTy
 Ora impostiamo diverse proprietà per il grafico, incluse le opzioni del secondo grafico:
 
 ```java
-// Mostra le etichette dati per la prima serie
+// Mostra le etichette dei dati per la prima serie
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 
 // Imposta la dimensione della seconda torta (in percentuale)
@@ -64,12 +66,12 @@ Infine, salva la presentazione con le opzioni del grafico e del secondo grafico:
 presentation.save(dataDir + "SecondPlotOptionsforCharts_out.pptx", SaveFormat.Pptx);
 ```
 
-## Codice sorgente completo per le opzioni della seconda trama
+## Codice sorgente completo per le opzioni del secondo grafico
 
 ```java
-// Il percorso della directory dei documenti.
+// Percorso verso la directory dei documenti.
 String dataDir = "Your Document Directory";
-// Crea un'istanza della classe Presentation
+// Crea un'istanza della classe Presentazione
 Presentation presentation = new Presentation();
 // Aggiungi grafico alla diapositiva
 IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.PieOfPie, 50, 50, 500, 400);
@@ -84,24 +86,26 @@ presentation.save(dataDir + "SecondPlotOptionsforCharts_out.pptx", SaveFormat.Pp
 
 ## Conclusione
 
-In questo tutorial, abbiamo imparato come aggiungere opzioni di secondo grafico ai grafici in Java Slides utilizzando Aspose.Slides per Java. Puoi personalizzare varie proprietà per migliorare l'aspetto e la funzionalità dei tuoi grafici, rendendo le tue presentazioni più informative e visivamente accattivanti.
+In questo tutorial, abbiamo imparato come aggiungere opzioni di secondo grafico ai grafici in Java Slides utilizzando Aspose.Slides per Java. Puoi personalizzare diverse proprietà per migliorare l'aspetto e la funzionalità dei tuoi grafici, rendendo le tue presentazioni più informative e visivamente accattivanti.
 
 ## Domande frequenti
 
 ### Come posso modificare la dimensione della seconda torta in un grafico a torta?
 
-Per modificare la dimensione della seconda torta in un grafico a torta, utilizzare il comando`setSecondPieSize` metodo come mostrato nell'esempio di codice precedente. Regola il valore per specificare la dimensione in percentuale.
+Per modificare la dimensione della seconda torta in un grafico a torta, utilizzare `setSecondPieSize` metodo come mostrato nell'esempio di codice sopra. Modifica il valore per specificare la dimensione in percentuale.
 
-###  Cosa fa`PieSplitBy` control in a Pie of Pie chart?
+### Cosa fa? `PieSplitBy` controllo in un grafico a torta?
 
- IL`PieSplitBy` La proprietà controlla il modo in cui viene suddiviso il grafico a torta. Puoi impostarlo su entrambi`PieSplitType.ByPercentage` O`PieSplitType.ByValue` per dividere il grafico rispettivamente in percentuale o in base a un valore specifico.
+IL `PieSplitBy` La proprietà controlla come viene suddiviso il grafico a torta. Puoi impostarla su `PieSplitType.ByPercentage` O `PieSplitType.ByValue` per dividere il grafico rispettivamente in base alla percentuale o a un valore specifico.
 
-### Come posso impostare la posizione della divisione in un grafico a torta?
+### Come si imposta la posizione della divisione in un grafico a torta?
 
- È possibile impostare la posizione della suddivisione in un grafico a torta utilizzando il comando`setPieSplitPosition` metodo. Regolare il valore per specificare la posizione desiderata.
+È possibile impostare la posizione della divisione in un grafico a torta utilizzando `setPieSplitPosition` metodo. Regola il valore per specificare la posizione desiderata.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

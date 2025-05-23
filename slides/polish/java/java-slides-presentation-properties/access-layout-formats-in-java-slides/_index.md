@@ -1,38 +1,40 @@
 ---
-title: Uzyskaj dostęp do formatów układu w slajdach Java
-linktitle: Uzyskaj dostęp do formatów układu w slajdach Java
-second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Dowiedz się, jak uzyskać dostęp do formatów układu i manipulować nimi w Java Slides za pomocą Aspose.Slides dla Java. Dostosuj style kształtów i linii bez wysiłku w prezentacjach programu PowerPoint.
-weight: 10
-url: /pl/java/presentation-properties/access-layout-formats-in-java-slides/
+"description": "Dowiedz się, jak uzyskać dostęp i manipulować formatami układu w Java Slides za pomocą Aspose.Slides for Java. Bezproblemowo dostosuj style kształtów i linii w prezentacjach PowerPoint."
+"linktitle": "Dostęp do formatów układu w slajdach Java"
+"second_title": "Aspose.Slides Java PowerPoint Processing API"
+"title": "Dostęp do formatów układu w slajdach Java"
+"url": "/pl/java/presentation-properties/access-layout-formats-in-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Uzyskaj dostęp do formatów układu w slajdach Java
+# Dostęp do formatów układu w slajdach Java
 
 
-## Wprowadzenie do formatów układu dostępu w slajdach Java
+## Wprowadzenie do formatów układu Access w slajdach Java
 
-W tym samouczku przyjrzymy się, jak uzyskać dostęp do formatów układu w Java Slides i pracować z nimi, korzystając z interfejsu API Aspose.Slides for Java. Formaty układu umożliwiają kontrolowanie wyglądu kształtów i linii na slajdach układu prezentacji. Omówimy sposób pobierania formatów wypełnienia i formatów linii dla kształtów na slajdach układu.
+tym samouczku pokażemy, jak uzyskać dostęp i pracować z formatami układu w Java Slides przy użyciu Aspose.Slides for Java API. Formaty układu pozwalają kontrolować wygląd kształtów i linii w slajdach układu prezentacji. Omówimy, jak pobierać formaty wypełnienia i formaty linii dla kształtów na slajdach układu.
 
-## Warunki wstępne
+## Wymagania wstępne
 
-1. Aspose.Slides dla biblioteki Java.
-2. Prezentacja programu PowerPoint (format PPTX) ze slajdami układu.
+1. Biblioteka Aspose.Slides dla Java.
+2. Prezentacja w programie PowerPoint (format PPTX) ze slajdami układu.
 
 ## Krok 1: Załaduj prezentację
 
- Najpierw musimy załadować prezentację programu PowerPoint zawierającą slajdy układu. Zastępować`"Your Document Directory"` z rzeczywistą ścieżką do katalogu dokumentów.
+Najpierw musimy załadować prezentację PowerPoint, która zawiera slajdy układu. Zastąp `"Your Document Directory"` z rzeczywistą ścieżką do katalogu dokumentów.
 
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "pres.pptx");
 ```
 
-## Krok 2: Uzyskaj dostęp do formatów układu
+## Krok 2: Dostęp do formatów układu
 
 Teraz przejrzyjmy slajdy układu w prezentacji i uzyskajmy dostęp do formatów wypełnienia i formatów linii kształtów na każdym slajdzie układu.
 
@@ -41,7 +43,7 @@ try
 {
     for (ILayoutSlide layoutSlide : pres.getLayoutSlides())
     {
-        // Dostęp do formatów wypełniania kształtów
+        // Uzyskaj dostęp do formatów wypełniania kształtów
         IFillFormat[] fillFormats = new IFillFormat[layoutSlide.getShapes().size()];
         int i = 0;
         for (IShape shape : layoutSlide.getShapes())
@@ -50,7 +52,7 @@ try
             i++;
         }
         
-        // Dostęp do formatów kształtów
+        // Dostęp do formatów linii kształtów
         ILineFormat[] lineFormats = new ILineFormat[layoutSlide.getShapes().size()];
         int j = 0;
         for (IShape shape : layoutSlide.getShapes())
@@ -68,15 +70,15 @@ finally
 
 W powyższym kodzie:
 
-- Wykonujemy iterację po każdym slajdzie układu za pomocą a`for` pętla.
-- Dla każdego slajdu układu tworzymy tablice do przechowywania formatów wypełnienia i formatów linii dla kształtów na tym slajdzie.
--  Używamy zagnieżdżonych`for` pętle umożliwiające przeglądanie kształtów na slajdzie układu i pobieranie ich formatów wypełnienia i linii.
+- Powtarzamy każdy slajd układu, używając `for` pętla.
+- Dla każdego slajdu układu tworzymy tablice, w których przechowujemy formaty wypełnień i formaty linii dla kształtów na danym slajdzie.
+- Używamy zagnieżdżonych `for` pętle umożliwiające iteracyjne przeglądanie kształtów na slajdzie układu i pobieranie ich formatów wypełnienia i linii.
 
-## Krok 3: Pracuj z formatami układu
+## Krok 3: Praca z formatami układu
 
-Teraz, gdy mamy już dostęp do formatów wypełnienia i formatów linii kształtów na slajdach układu, możesz w razie potrzeby wykonywać na nich różne operacje. Można na przykład zmienić kolor wypełnienia, styl linii lub inne właściwości kształtów.
+Teraz, gdy uzyskaliśmy dostęp do formatów wypełnienia i formatów linii dla kształtów na slajdach układu, możesz wykonać na nich różne operacje według potrzeb. Na przykład możesz zmienić kolor wypełnienia, styl linii lub inne właściwości kształtów.
 
-## Kompletny kod źródłowy formatów układu dostępu w slajdach Java
+## Kompletny kod źródłowy dla formatów układu dostępu w slajdach Java
 
 ```java
 // Ścieżka do katalogu dokumentów.
@@ -110,13 +112,13 @@ finally
 
 ## Wniosek
 
-W tym samouczku omówiliśmy, jak uzyskać dostęp do formatów układu w slajdach Java i manipulować nimi przy użyciu interfejsu API Aspose.Slides for Java. Formaty układów są niezbędne do kontrolowania wyglądu kształtów i linii na slajdach układu w prezentacjach programu PowerPoint.
+W tym samouczku zbadaliśmy, jak uzyskać dostęp i manipulować formatami układu w Java Slides przy użyciu Aspose.Slides for Java API. Formaty układu są niezbędne do kontrolowania wyglądu kształtów i linii w slajdach układu w prezentacjach PowerPoint.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
 ### Jak zmienić kolor wypełnienia kształtu?
 
- Aby zmienić kolor wypełnienia kształtu, możesz użyć opcji`IFillFormat`metody obiektu. Oto przykład:
+Aby zmienić kolor wypełnienia kształtu, możesz użyć `IFillFormat` metody obiektu. Oto przykład:
 
 ```java
 IFillFormat fillFormat = shape.getFillFormat();
@@ -126,27 +128,29 @@ fillFormat.getSolidFillColor().setColor(Color.RED); // Ustaw kolor wypełnienia 
 
 ### Jak zmienić styl linii kształtu?
 
- Aby zmienić styl linii kształtu, możesz użyć opcji`ILineFormat`metody obiektu. Oto przykład:
+Aby zmienić styl linii kształtu, możesz użyć `ILineFormat` metody obiektu. Oto przykład:
 
 ```java
 ILineFormat lineFormat = shape.getLineFormat();
 lineFormat.setStyle(LineStyle.Single); // Ustaw styl linii na pojedynczy
-lineFormat.setWidth(2.0); // Ustaw szerokość linii na 2,0 punkty
+lineFormat.setWidth(2.0); // Ustaw szerokość linii na 2,0 punktów
 lineFormat.getSolidFillColor().setColor(Color.BLUE); // Ustaw kolor linii na niebieski
 ```
 
 ### Jak zastosować te zmiany do kształtu na slajdzie układu?
 
-Aby zastosować te zmiany do określonego kształtu na slajdzie układu, możesz uzyskać dostęp do kształtu, korzystając z jego indeksu w kolekcji kształtów slajdu układu. Na przykład:
+Aby zastosować te zmiany do określonego kształtu na slajdzie układu, możesz uzyskać dostęp do kształtu, używając jego indeksu w kolekcji kształtów slajdu układu. Na przykład:
 
 ```java
 IShape shape = layoutSlide.getShapes().get_Item(0); // Uzyskaj dostęp do pierwszego kształtu na slajdzie układu
 ```
 
- Następnie możesz użyć`IFillFormat` I`ILineFormat` metody pokazane w poprzednich odpowiedziach, aby zmodyfikować formaty wypełnienia i linii kształtu.
+Następnie możesz użyć `IFillFormat` I `ILineFormat` metody pokazane w poprzednich odpowiedziach, służące do modyfikacji formatu wypełnienia i linii kształtu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

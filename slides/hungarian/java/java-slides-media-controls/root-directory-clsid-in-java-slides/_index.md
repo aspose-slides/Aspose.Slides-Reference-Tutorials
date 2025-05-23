@@ -1,69 +1,71 @@
 ---
-title: Root Directory ClsId a Java Slides-ben
-linktitle: Root Directory ClsId a Java Slides-ben
-second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan állíthatja be a ClsId gyökérkönyvtárat az Aspose.Slides programban Java prezentációkhoz. Testreszabhatja a hiperhivatkozás viselkedését a CLSID segítségével.
-weight: 10
-url: /hu/java/media-controls/root-directory-clsid-in-java-slides/
+"description": "Tanuld meg, hogyan állíthatod be a gyökérkönyvtár ClsId-jét az Aspose.Slides-ban Java prezentációkhoz. Testreszabhatod a hiperhivatkozások viselkedését CLSID-vel."
+"linktitle": "Gyökérkönyvtár ClsId Java diákban"
+"second_title": "Aspose.Slides Java PowerPoint feldolgozó API"
+"title": "Gyökérkönyvtár ClsId Java diákban"
+"url": "/hu/java/media-controls/root-directory-clsid-in-java-slides/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Root Directory ClsId a Java Slides-ben
+# Gyökérkönyvtár ClsId Java diákban
 
 
-## Bevezetés a ClsId gyökérkönyvtár beállításába az Aspose.Slides for Java programban
+## Bevezetés a gyökérkönyvtár ClsId beállításába az Aspose.Slides Java-ban
 
-Az Aspose.Slides for Java programban beállíthatja a gyökérkönyvtár ClsId azonosítóját, amely a CLSID (osztályazonosító), amely az alkalmazás megadására szolgál, amelyet a prezentációban található hiperhivatkozások aktiválásakor gyökérkönyvtárként használnak. Ebben az útmutatóban lépésről lépésre végigvezetjük, hogyan kell ezt megtenni.
+Az Aspose.Slides Java verziójában beállíthatod a gyökérkönyvtár ClsId értékét, ami az az osztályazonosító (CLSID), amely meghatározza azt az alkalmazást, amelyet gyökérkönyvtárként kell használni, amikor egy hiperhivatkozás aktiválódik a prezentációdban. Ebben az útmutatóban lépésről lépésre végigvezetünk, hogyan teheted ezt meg.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
+Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 
-- Java Development Kit (JDK) telepítve a rendszerére.
--  Aspose.Slides for Java könyvtár hozzáadva a projekthez. Letöltheti innen[Aspose.Slides a Java dokumentációhoz](https://reference.aspose.com/slides/java/).
-- Java fejlesztéshez beállított kódszerkesztő vagy integrált fejlesztési környezet (IDE).
+- Java fejlesztőkészlet (JDK) telepítve van a rendszerére.
+- Az Aspose.Slides for Java könyvtár hozzáadva a projektedhez. Letöltheted innen: [Aspose.Slides Java dokumentációhoz](https://reference.aspose.com/slides/java/).
+- Egy Java fejlesztéshez beállított kódszerkesztő vagy integrált fejlesztői környezet (IDE).
 
-## 1. lépés: Hozzon létre egy új prezentációt
+## 1. lépés: Új prezentáció létrehozása
 
-Először is hozzunk létre egy új bemutatót az Aspose.Slides for Java segítségével. Ebben a példában egy üres prezentációt fogunk létrehozni.
+Először is, hozzunk létre egy új prezentációt az Aspose.Slides for Java használatával. Ebben a példában egy üres prezentációt fogunk létrehozni.
 
 ```java
-// Kimeneti fájl név
-String resultPath = "your_output_path/pres.ppt"; // Cserélje ki a "saját_kimeneti_útvonal" értéket a kívánt kimeneti könyvtárra.
+// Kimeneti fájl neve
+String resultPath = "your_output_path/pres.ppt"; // Cserélje le a „your_output_path” részt a kívánt kimeneti könyvtárra.
 Presentation pres = new Presentation();
 ```
 
- fenti kódban meghatározzuk a kimeneti prezentációs fájl elérési útját, és létrehozunk egy újat`Presentation` tárgy.
+fenti kódban definiáljuk a kimeneti prezentációs fájl elérési útját, és létrehozunk egy újat `Presentation` objektum.
 
-## 2. lépés: Állítsa be a Root Directory ClsId
+## 2. lépés: Gyökérkönyvtár ClsId beállítása
 
- A gyökérkönyvtár ClsId beállításához létre kell hoznia egy példányt`PptOptions` és állítsa be a kívánt CLSID-t. A CLSID azt az alkalmazást jelöli, amely a hiperhivatkozás aktiválásakor gyökérkönyvtárként lesz használva.
+A gyökérkönyvtár ClsId beállításához létre kell hoznia egy példányt a következőből: `PptOptions` és állítsa be a kívánt CLSID-t. A CLSID azt az alkalmazást jelöli, amelyet gyökérkönyvtárként fog használni a hiperhivatkozás aktiválásakor.
 
 ```java
 PptOptions pptOptions = new PptOptions();
-// Állítsa a CLSID-t "Microsoft Powerpoint.Show.8"-ra
+// Állítsa a CLSID-t „Microsoft Powerpoint.Show.8”-ra
 pptOptions.setRootDirectoryClsid(UUID.fromString("64818D10-4F9B-11CF-86EA-00AA00B929E8"));
 ```
 
- A fenti kódban létrehozunk egy`PptOptions` objektumot, és állítsa be a CLSID-t a „Microsoft Powerpoint.Show.8” értékre. Lecserélheti a gyökérkönyvtárként használni kívánt alkalmazás CLSID azonosítójára.
+A fenti kódban létrehozunk egy `PptOptions` objektumot, és állítsa a CLSID-t „Microsoft Powerpoint.Show.8” értékre. Lecserélheti annak az alkalmazásnak a CLSID-jére, amelyet gyökérkönyvtárként szeretne használni.
 
 ## 3. lépés: Mentse el a prezentációt
 
-Most mentsük el a prezentációt a Root Directory ClsId készlettel.
+Most mentsük el a prezentációt a Root Directory ClsId beállításával.
 
 ```java
 // Prezentáció mentése
 pres.save(resultPath, SaveFormat.Ppt, pptOptions);
 ```
 
- Ebben a lépésben elmentjük a prezentációt a megadottra`resultPath` a ... val`PptOptions` korábban hoztuk létre.
+Ebben a lépésben a prezentációt a megadott helyre mentjük. `resultPath` a `PptOptions` korábban hoztuk létre.
 
 ## 4. lépés: Tisztítás
 
- Ne felejtse el megsemmisíteni a`Presentation` tiltakozik az allokált erőforrások felszabadítása ellen.
+Ne felejtsd el eldobni a `Presentation` tiltakozik a lefoglalt erőforrások felszabadítása ellen.
 
 ```java
 if (pres != null) {
@@ -71,15 +73,15 @@ if (pres != null) {
 }
 ```
 
-## A Java Slides gyökérkönyvtárának ClsIdjének teljes forráskódja
+## Teljes forráskód a gyökérkönyvtár ClsId-jéhez Java diákban
 
 ```java
-// Kimeneti fájl név
+// Kimeneti fájl neve
 String resultPath = "Your Output Directory" + "pres.ppt";
 Presentation pres = new Presentation();
 try {
 	PptOptions pptOptions = new PptOptions();
-	//állítsa be a CLSID-t "Microsoft Powerpoint.Show.8"-ra
+	// állítsd be a CLSID-t 'Microsoft Powerpoint.Show.8'-ra
 	pptOptions.setRootDirectoryClsid(UUID.fromString("64818D10-4F9B-11CF-86EA-00AA00B929E8"));
 	// Prezentáció mentése
 	pres.save(resultPath, SaveFormat.Ppt, pptOptions);
@@ -90,32 +92,34 @@ try {
 
 ## Következtetés
 
-Sikeresen beállította a ClsId gyökérkönyvtárat az Aspose.Slides for Java fájlban. Ez lehetővé teszi, hogy megadja azt az alkalmazást, amely gyökérkönyvtárként lesz használva, amikor a hiperhivatkozásokat aktiválják a prezentációban. A CLSID-t egyedi igényei szerint testreszabhatja.
+Sikeresen beállítottad a gyökérkönyvtár ClsId-jét az Aspose.Slides for Java fájlban. Ez lehetővé teszi annak az alkalmazásnak a megadását, amelyet gyökérkönyvtárként kell használni, amikor a hiperhivatkozások aktiválódnak a prezentációdban. A CLSID-t testreszabhatod az igényeidnek megfelelően.
 
 ## GYIK
 
-### Hogyan találhatom meg a CLSID-t egy adott alkalmazáshoz?
+### Hogyan találom meg egy adott alkalmazás CLSID-jét?
 
-Egy adott alkalmazás CLSID-jének megkereséséhez tekintse meg az alkalmazás fejlesztője által biztosított dokumentációt vagy forrásokat. A CLSID-k a COM-objektumokhoz rendelt egyedi azonosítók, és jellemzően az egyes alkalmazásokra jellemzőek.
+Egy adott alkalmazás CLSID-jének megkereséséhez tekintse meg az alkalmazás fejlesztője által biztosított dokumentációt vagy forrásokat. A CLSID-k a COM-objektumokhoz rendelt egyedi azonosítók, és jellemzően az adott alkalmazásra jellemzőek.
 
 ### Beállíthatok egyéni CLSID-t a gyökérkönyvtárhoz?
 
- Igen, beállíthat egyéni CLSID-t a gyökérkönyvtárhoz, ha megadja a kívánt CLSID-értéket a segítségével`setRootDirectoryClsid` módszert, ahogy a kódpéldában is látható. Ez lehetővé teszi, hogy egy adott alkalmazást használjon gyökérkönyvtárként, amikor a hiperhivatkozások aktiválva vannak a prezentációban.
+Igen, beállíthat egyéni CLSID-t a gyökérkönyvtárhoz a kívánt CLSID érték megadásával a `setRootDirectoryClsid` metódus, ahogy a kódpéldában is látható. Ez lehetővé teszi, hogy egy adott alkalmazást gyökérkönyvtárként használjunk, amikor a hiperhivatkozások aktiválva vannak a prezentációban.
 
 ### Mi történik, ha nem állítom be a gyökérkönyvtár ClsId-jét?
 
-Ha nem állítja be a Root Directory ClsId értéket, az alapértelmezett viselkedés a bemutató megnyitásához használt megjelenítőtől vagy alkalmazástól függ. A hiperhivatkozások aktiválásakor saját alapértelmezett alkalmazását használhatja gyökérkönyvtárként.
+Ha nem állítja be a gyökérkönyvtár ClsId értékét, az alapértelmezett viselkedés a prezentáció megnyitásához használt megjelenítőtől vagy alkalmazástól függ. Előfordulhat, hogy a hiperhivatkozások aktiválásakor a rendszer a saját alapértelmezett alkalmazását használja gyökérkönyvtárként.
 
-### Módosíthatom az egyes hiperhivatkozások gyökérkönyvtárának ClsIdjét?
+### Módosíthatom az egyes hiperhivatkozások gyökérkönyvtárának ClsId-jét?
 
-Nem, a Root Directory ClsId jellemzően a prezentáció szintjén van beállítva, és a prezentáción belüli összes hivatkozásra vonatkozik. Ha különböző alkalmazásokat kell megadnia az egyes hiperhivatkozásokhoz, előfordulhat, hogy ezeket a hivatkozásokat külön kell kezelnie a kódban.
+Nem, a gyökérkönyvtár ClsId azonosítóját általában a prezentáció szintjén állítják be, és a prezentáción belüli összes hiperhivatkozásra vonatkozik. Ha az egyes hiperhivatkozásokhoz különböző alkalmazásokat kell megadnia, akkor előfordulhat, hogy ezeket a hiperhivatkozásokat külön kell kezelnie a kódban.
 
-### Vannak-e korlátozások a használható CLSID-ekre vonatkozóan?
+### Vannak-e korlátozások a használható CLSID-kkel kapcsolatban?
 
-A használható CLSID-eket általában a rendszerre telepített alkalmazások határozzák meg. Olyan CLSID-eket kell használnia, amelyek megfelelnek a hiperhivatkozások kezelésére alkalmas érvényes alkalmazásoknak. Ne feledje, hogy érvénytelen CLSID használata váratlan viselkedést eredményezhet.
+használható CLSID-ket általában a rendszerre telepített alkalmazások határozzák meg. Olyan CLSID-ket használjon, amelyek érvényes, hiperhivatkozásokat kezelni képes alkalmazásoknak felelnek meg. Vegye figyelembe, hogy az érvénytelen CLSID használata váratlan viselkedést eredményezhet.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
