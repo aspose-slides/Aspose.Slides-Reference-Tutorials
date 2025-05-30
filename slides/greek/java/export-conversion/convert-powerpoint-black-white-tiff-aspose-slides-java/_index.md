@@ -126,7 +126,8 @@ options.setBwConversionMode(BlackWhiteConversionMode.Dithering);
 
 #### Βήμα 7: Αποθήκευση της παρουσίασης ως TIFF
 Τέλος, αποθηκεύστε τη/τις διαφάνεια/διαφάνειες σας ως ασπρόμαυρη εικόνα TIFF. Εδώ, αποθηκεύεται μόνο η διαφάνεια με αριθμό 2:
-```java\presentation.save(outFilePath, new int[]{2}, SaveFormat.Tiff, options);
+```java
+presentation.save(outFilePath, new int[]{2}, SaveFormat.Tiff, options);
 } finally {
     if (presentation != null) presentation.dispose();
 }

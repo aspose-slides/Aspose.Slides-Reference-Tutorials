@@ -126,7 +126,8 @@ options.setBwConversionMode(BlackWhiteConversionMode.Dithering);
 
 #### 7. lépés: Mentse el a prezentációt TIFF formátumban
 Végül mentse el a diát (diákat) fekete-fehér TIFF képként. Itt csak a 2. dia kerül mentésre:
-```java\presentation.save(outFilePath, new int[]{2}, SaveFormat.Tiff, options);
+```java
+presentation.save(outFilePath, new int[]{2}, SaveFormat.Tiff, options);
 } finally {
     if (presentation != null) presentation.dispose();
 }

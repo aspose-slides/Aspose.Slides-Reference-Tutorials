@@ -126,7 +126,8 @@ options.setBwConversionMode(BlackWhiteConversionMode.Dithering);
 
 #### Krok 7: Uložte prezentaci jako TIFF
 Nakonec uložte snímek (snímky) jako černobílý obrázek TIFF. Zde se uloží pouze snímek číslo 2:
-```java\presentation.save(outFilePath, new int[]{2}, SaveFormat.Tiff, options);
+```java
+presentation.save(outFilePath, new int[]{2}, SaveFormat.Tiff, options);
 } finally {
     if (presentation != null) presentation.dispose();
 }

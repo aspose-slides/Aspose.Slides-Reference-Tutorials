@@ -126,7 +126,8 @@ options.setBwConversionMode(BlackWhiteConversionMode.Dithering);
 
 #### Étape 7 : Enregistrer la présentation au format TIFF
 Enfin, enregistrez vos diapositives au format TIFF noir et blanc. Seule la diapositive numéro 2 est enregistrée :
-```java\presentation.save(outFilePath, new int[]{2}, SaveFormat.Tiff, options);
+```java
+presentation.save(outFilePath, new int[]{2}, SaveFormat.Tiff, options);
 } finally {
     if (presentation != null) presentation.dispose();
 }

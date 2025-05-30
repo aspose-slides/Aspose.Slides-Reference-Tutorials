@@ -126,7 +126,8 @@ options.setBwConversionMode(BlackWhiteConversionMode.Dithering);
 
 #### 7단계: 프레젠테이션을 TIFF로 저장
 마지막으로 슬라이드를 흑백 TIFF 이미지로 저장합니다. 여기서는 슬라이드 번호 2만 저장됩니다.
-```java\presentation.save(outFilePath, new int[]{2}, SaveFormat.Tiff, options);
+```java
+presentation.save(outFilePath, new int[]{2}, SaveFormat.Tiff, options);
 } finally {
     if (presentation != null) presentation.dispose();
 }

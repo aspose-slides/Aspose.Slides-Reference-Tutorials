@@ -126,7 +126,8 @@ options.setBwConversionMode(BlackWhiteConversionMode.Dithering);
 
 #### Bước 7: Lưu bài thuyết trình dưới dạng TIFF
 Cuối cùng, lưu slide của bạn dưới dạng ảnh TIFF đen trắng. Ở đây, chỉ lưu slide số 2:
-```java\presentation.save(outFilePath, new int[]{2}, SaveFormat.Tiff, options);
+```java
+presentation.save(outFilePath, new int[]{2}, SaveFormat.Tiff, options);
 } finally {
     if (presentation != null) presentation.dispose();
 }

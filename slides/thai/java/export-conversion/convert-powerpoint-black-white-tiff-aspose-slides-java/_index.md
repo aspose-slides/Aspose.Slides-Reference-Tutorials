@@ -126,7 +126,8 @@ options.setBwConversionMode(BlackWhiteConversionMode.Dithering);
 
 #### ขั้นตอนที่ 7: บันทึกการนำเสนอเป็น TIFF
 สุดท้าย ให้บันทึกสไลด์ของคุณเป็นภาพ TIFF ขาวดำ ในที่นี้จะบันทึกเฉพาะสไลด์หมายเลข 2 เท่านั้น:
-```java\presentation.save(outFilePath, new int[]{2}, SaveFormat.Tiff, options);
+```java
+presentation.save(outFilePath, new int[]{2}, SaveFormat.Tiff, options);
 } finally {
     if (presentation != null) presentation.dispose();
 }

@@ -126,7 +126,8 @@ options.setBwConversionMode(BlackWhiteConversionMode.Dithering);
 
 #### Paso 7: Guardar la presentación como TIFF
 Finalmente, guarde sus diapositivas como imagen TIFF en blanco y negro. Aquí solo se guarda la diapositiva número 2:
-```java\presentation.save(outFilePath, new int[]{2}, SaveFormat.Tiff, options);
+```java
+presentation.save(outFilePath, new int[]{2}, SaveFormat.Tiff, options);
 } finally {
     if (presentation != null) presentation.dispose();
 }

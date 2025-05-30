@@ -126,7 +126,8 @@ options.setBwConversionMode(BlackWhiteConversionMode.Dithering);
 
 #### الخطوة 7: حفظ العرض التقديمي بصيغة TIFF
 أخيرًا، احفظ الشريحة/الشرائح كصورة TIFF بالأبيض والأسود. هنا، سيتم حفظ الشريحة رقم ٢ فقط.
-```java\presentation.save(outFilePath, new int[]{2}, SaveFormat.Tiff, options);
+```java
+presentation.save(outFilePath, new int[]{2}, SaveFormat.Tiff, options);
 } finally {
     if (presentation != null) presentation.dispose();
 }

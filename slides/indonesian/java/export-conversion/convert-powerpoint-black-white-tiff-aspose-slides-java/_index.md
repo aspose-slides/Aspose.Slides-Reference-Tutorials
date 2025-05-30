@@ -126,7 +126,8 @@ options.setBwConversionMode(BlackWhiteConversionMode.Dithering);
 
 #### Langkah 7: Simpan Presentasi sebagai TIFF
 Terakhir, simpan slide Anda sebagai gambar TIFF hitam putih. Di sini, hanya slide nomor 2 yang disimpan:
-```java\presentation.save(outFilePath, new int[]{2}, SaveFormat.Tiff, options);
+```java
+presentation.save(outFilePath, new int[]{2}, SaveFormat.Tiff, options);
 } finally {
     if (presentation != null) presentation.dispose();
 }

@@ -126,7 +126,8 @@ options.setBwConversionMode(BlackWhiteConversionMode.Dithering);
 
 #### Schritt 7: Speichern Sie die Präsentation als TIFF
 Speichern Sie abschließend Ihre Folie(n) als Schwarzweiß-TIFF-Bild. Hier wird nur Folie Nummer 2 gespeichert:
-```java\presentation.save(outFilePath, new int[]{2}, SaveFormat.Tiff, options);
+```java
+presentation.save(outFilePath, new int[]{2}, SaveFormat.Tiff, options);
 } finally {
     if (presentation != null) presentation.dispose();
 }

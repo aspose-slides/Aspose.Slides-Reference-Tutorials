@@ -126,7 +126,8 @@ options.setBwConversionMode(BlackWhiteConversionMode.Dithering);
 
 #### Krok 7: Zapisz prezentację jako TIFF
 Na koniec zapisz slajd(y) jako czarno-biały obraz TIFF. Tutaj zapisany jest tylko slajd numer 2:
-```java\presentation.save(outFilePath, new int[]{2}, SaveFormat.Tiff, options);
+```java
+presentation.save(outFilePath, new int[]{2}, SaveFormat.Tiff, options);
 } finally {
     if (presentation != null) presentation.dispose();
 }

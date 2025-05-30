@@ -126,7 +126,8 @@ options.setBwConversionMode(BlackWhiteConversionMode.Dithering);
 
 #### Adım 7: Sunumu TIFF olarak kaydedin
 Son olarak, slaytlarınızı siyah beyaz bir TIFF resmi olarak kaydedin. Burada, yalnızca 2 numaralı slayt kaydedilir:
-```java\presentation.save(outFilePath, new int[]{2}, SaveFormat.Tiff, options);
+```java
+presentation.save(outFilePath, new int[]{2}, SaveFormat.Tiff, options);
 } finally {
     if (presentation != null) presentation.dispose();
 }

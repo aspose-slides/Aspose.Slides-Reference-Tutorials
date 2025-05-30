@@ -126,7 +126,8 @@ options.setBwConversionMode(BlackWhiteConversionMode.Dithering);
 
 #### Etapa 7: Salve a apresentação como TIFF
 Por fim, salve seu(s) slide(s) como uma imagem TIFF em preto e branco. Aqui, apenas o slide número 2 é salvo:
-```java\presentation.save(outFilePath, new int[]{2}, SaveFormat.Tiff, options);
+```java
+presentation.save(outFilePath, new int[]{2}, SaveFormat.Tiff, options);
 } finally {
     if (presentation != null) presentation.dispose();
 }

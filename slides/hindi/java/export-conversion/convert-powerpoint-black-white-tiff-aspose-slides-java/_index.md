@@ -126,7 +126,8 @@ options.setBwConversionMode(BlackWhiteConversionMode.Dithering);
 
 #### चरण 7: प्रस्तुति को TIFF के रूप में सहेजें
 अंत में, अपनी स्लाइड को ब्लैक एंड व्हाइट TIFF इमेज के रूप में सेव करें। यहाँ, केवल स्लाइड नंबर 2 सेव की गई है:
-```java\presentation.save(outFilePath, new int[]{2}, SaveFormat.Tiff, options);
+```java
+presentation.save(outFilePath, new int[]{2}, SaveFormat.Tiff, options);
 } finally {
     if (presentation != null) presentation.dispose();
 }

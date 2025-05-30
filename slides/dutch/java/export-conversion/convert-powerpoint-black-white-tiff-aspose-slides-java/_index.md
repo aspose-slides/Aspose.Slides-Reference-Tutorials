@@ -126,7 +126,8 @@ options.setBwConversionMode(BlackWhiteConversionMode.Dithering);
 
 #### Stap 7: Sla de presentatie op als TIFF
 Sla ten slotte je dia('s) op als een zwart-wit TIFF-afbeelding. Hier wordt alleen dia nummer 2 opgeslagen:
-```java\presentation.save(outFilePath, new int[]{2}, SaveFormat.Tiff, options);
+```java
+presentation.save(outFilePath, new int[]{2}, SaveFormat.Tiff, options);
 } finally {
     if (presentation != null) presentation.dispose();
 }
