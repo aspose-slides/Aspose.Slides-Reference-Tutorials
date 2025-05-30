@@ -10,11 +10,8 @@ keywords:
 - Aspose.Slides for Java
 
 ---
-
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Convert a PowerPoint Presentation to Black and White TIFF Using Aspose.Slides for Java
 
@@ -131,7 +128,9 @@ options.setBwConversionMode(BlackWhiteConversionMode.Dithering);
 
 #### Step 7: Save the Presentation as TIFF
 Finally, save your slide(s) as a black and white TIFF image. Here, only slide number 2 is saved:
-```java\presentation.save(outFilePath, new int[]{2}, SaveFormat.Tiff, options);
+```java
+
+presentation.save(outFilePath, new int[]{2}, SaveFormat.Tiff, options);
 } finally {
     if (presentation != null) presentation.dispose();
 }
@@ -184,9 +183,6 @@ Ready to try it out? Implement this solution in your projects today!
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
