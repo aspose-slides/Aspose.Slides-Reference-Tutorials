@@ -185,6 +185,12 @@ Sau khi hoàn thành hướng dẫn này, bạn đã biết cách **tạo PowerP
 - [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
 - [Download Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
 
+---
+
+**Cập nhật lần cuối:** 2025-12-01  
+**Kiểm tra với:** Aspose.Slides 25.4 for Java  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -192,9 +198,3 @@ Sau khi hoàn thành hướng dẫn này, bạn đã biết cách **tạo PowerP
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2025-12-01  
-**Kiểm tra với:** Aspose.Slides 25.4 for Java  
-**Tác giả:** Aspose

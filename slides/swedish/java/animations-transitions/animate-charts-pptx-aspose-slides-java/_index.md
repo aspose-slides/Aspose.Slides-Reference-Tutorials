@@ -227,6 +227,12 @@ Du har nu bemästrat **hur du animera diagram**-serier i PowerPoint med Aspose.S
 
 Redo att ge dina data liv? Dyka ner och se vilken inverkan animerade diagram i PowerPoint kan ha på din nästa presentation!
 
+---
+
+**Last Updated:** 2025-12-01  
+**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -234,9 +240,3 @@ Redo att ge dina data liv? Dyka ner och se vilken inverkan animerade diagram i P
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-01  
-**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Author:** Aspose

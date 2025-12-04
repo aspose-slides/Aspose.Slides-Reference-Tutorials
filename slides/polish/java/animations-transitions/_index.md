@@ -104,6 +104,12 @@ Dowiedz się, jak ładować, uzyskiwać dostęp i animować prezentacje PowerPoi
 - [Bezpłatne wsparcie](https://forum.aspose.com/)
 - [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Ostatnia aktualizacja:** 2025-12-01  
+**Testowano z:** Aspose.Slides for Java 24.11  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -111,9 +117,3 @@ Dowiedz się, jak ładować, uzyskiwać dostęp i animować prezentacje PowerPoi
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2025-12-01  
-**Testowano z:** Aspose.Slides for Java 24.11  
-**Autor:** Aspose

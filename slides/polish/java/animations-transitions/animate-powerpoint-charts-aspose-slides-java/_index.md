@@ -186,6 +186,12 @@ Postępując zgodnie z tym przewodnikiem, teraz wiesz, jak **create animated Pow
 - [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
 - [Download Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
 
+---
+
+**Ostatnia aktualizacja:** 2025-12-01  
+**Testowano z:** Aspose.Slides 25.4 for Java  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -193,9 +199,3 @@ Postępując zgodnie z tym przewodnikiem, teraz wiesz, jak **create animated Pow
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2025-12-01  
-**Testowano z:** Aspose.Slides 25.4 for Java  
-**Autor:** Aspose

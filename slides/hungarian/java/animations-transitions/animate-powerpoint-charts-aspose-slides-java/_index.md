@@ -186,6 +186,12 @@ Ezzel az útmutatóval most már tudja, hogyan **készítsen animált PowerPoint
 - [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
 - [Download Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
 
+---
+
+**Utolsó frissítés:** 2025-12-01  
+**Tesztelve:** Aspose.Slides 25.4 for Java  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -193,9 +199,3 @@ Ezzel az útmutatóval most már tudja, hogyan **készítsen animált PowerPoint
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2025-12-01  
-**Tesztelve:** Aspose.Slides 25.4 for Java  
-**Szerző:** Aspose

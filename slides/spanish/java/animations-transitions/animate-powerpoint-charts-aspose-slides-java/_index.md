@@ -183,6 +183,12 @@ Sig cómo **crear archivos PowerPoint animados con Java** que dan vida a los gr�
 - [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
 - [Download Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
 
+---
+
+**Última actualización:** 2025-12-01  
+**Probado con:** Aspose.Slides 25.4 for Java  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -190,9 +196,3 @@ Sig cómo **crear archivos PowerPoint animados con Java** que dan vida a los gr�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2025-12-01  
-**Probado con:** Aspose.Slides 25.4 for Java  
-**Autor:** Aspose

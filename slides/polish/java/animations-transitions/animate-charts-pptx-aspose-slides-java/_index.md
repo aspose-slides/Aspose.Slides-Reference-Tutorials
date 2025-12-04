@@ -230,6 +230,12 @@ Teraz opanowałeś **sposób animowania serii wykresu** w PowerPoint przy użyci
 
 Gotowy, aby ożywić swoje dane? Zanurz się i zobacz, jaki wpływ mogą mieć animowane wykresy w PowerPoint na Twoją następną prezentację!
 
+---
+
+**Ostatnia aktualizacja:** 2025-12-01  
+**Testowano z:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -237,9 +243,3 @@ Gotowy, aby ożywić swoje dane? Zanurz się i zobacz, jaki wpływ mogą mieć a
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2025-12-01  
-**Testowano z:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Autor:** Aspose

@@ -61,6 +61,12 @@ weight: 9
 - [دعم مجاني](https://forum.aspose.com/)
 - [رخصة مؤقتة](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**آخر تحديث:** 2025-12-01  
+**تم الاختبار مع:** Aspose.Slides for Java 24.11  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -68,9 +74,3 @@ weight: 9
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-01  
-**تم الاختبار مع:** Aspose.Slides for Java 24.11  
-**المؤلف:** Aspose

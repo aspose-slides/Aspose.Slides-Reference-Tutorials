@@ -85,6 +85,12 @@ weight: 9
 - [免费支持](https://forum.aspose.com/)
 - [临时许可证](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**最后更新：** 2025-12-01  
+**测试环境：** Aspose.Slides for Java 24.11  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -92,9 +98,3 @@ weight: 9
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2025-12-01  
-**测试环境：** Aspose.Slides for Java 24.11  
-**作者：** Aspose

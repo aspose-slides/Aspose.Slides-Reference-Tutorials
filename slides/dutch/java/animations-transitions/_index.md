@@ -104,6 +104,12 @@ Leer hoe je PowerPoint‑presentaties laadt, benadert en animeert met Aspose.Sli
 - [Gratis ondersteuning](https://forum.aspose.com/)
 - [Tijdelijke licentie](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Laatst bijgewerkt:** 2025-12-01  
+**Getest met:** Aspose.Slides for Java 24.11  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -111,9 +117,3 @@ Leer hoe je PowerPoint‑presentaties laadt, benadert en animeert met Aspose.Sli
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2025-12-01  
-**Getest met:** Aspose.Slides for Java 24.11  
-**Auteur:** Aspose

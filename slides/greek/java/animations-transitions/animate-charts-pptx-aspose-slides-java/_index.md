@@ -230,6 +230,12 @@ try {
 
 Έτοιμοι να ζωντανέψετε τα δεδομένα σας; Βυθιστείτε και δείτε την επίδραση που μπορούν να έχουν τα κινούμενα διαγράμματα PowerPoint στην επόμενη παρουσίασή σας!
 
+---
+
+**Τελευταία ενημέρωση:** 2025-12-01  
+**Δοκιμή με:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -237,9 +243,3 @@ try {
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία ενημέρωση:** 2025-12-01  
-**Δοκιμή με:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Συγγραφέας:** Aspose

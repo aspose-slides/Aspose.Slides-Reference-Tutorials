@@ -230,6 +230,12 @@ Bạn đã nắm vững **cách tạo hoạt ảnh cho biểu đồ** theo chu�
 
 Bạn đã sẵn sàng đưa dữ liệu của mình vào cuộc sống? Hãy bắt đầu và xem tác động của các biểu đồ hoạt ảnh PowerPoint có thể mang lại cho bài thuyết trình tiếp theo của bạn!
 
+---
+
+**Last Updated:** 2025-12-01  
+**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -237,9 +243,3 @@ Bạn đã sẵn sàng đưa dữ liệu của mình vào cuộc sống? Hãy b�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-01  
-**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Author:** Aspose

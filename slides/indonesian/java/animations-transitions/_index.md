@@ -61,6 +61,12 @@ Otomatisasi sangat penting ketika Anda menghasilkan ratusan deck. Temukan cara m
 - [Dukungan Gratis](https://forum.aspose.com/)
 - [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Terakhir Diperbarui:** 2025-12-01  
+**Diuji Dengan:** Aspose.Slides for Java 24.11  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -68,9 +74,3 @@ Otomatisasi sangat penting ketika Anda menghasilkan ratusan deck. Temukan cara m
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2025-12-01  
-**Diuji Dengan:** Aspose.Slides for Java 24.11  
-**Penulis:** Aspose

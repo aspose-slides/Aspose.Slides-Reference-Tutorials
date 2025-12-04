@@ -229,6 +229,12 @@ try {
 
 هل أنت مستعد لإحياء بياناتك؟ انطلق وشاهد الأثر الذي يمكن أن تُحدثه المخططات المتحركة في PowerPoint على عرضك التالي!
 
+---
+
+**آخر تحديث:** 2025-12-01  
+**تم الاختبار مع:** Aspose.Slides للغة Java 25.4 (JDK 16)  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -236,9 +242,3 @@ try {
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-01  
-**تم الاختبار مع:** Aspose.Slides للغة Java 25.4 (JDK 16)  
-**المؤلف:** Aspose

@@ -186,6 +186,12 @@ Bu kılavuzu izleyerek artık **animated PowerPoint Java** dosyaları oluşturup
 - [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
 - [Download Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
 
+---
+
+**Son Güncelleme:** 2025-12-01  
+**Test Edilen Versiyon:** Aspose.Slides 25.4 for Java  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -193,9 +199,3 @@ Bu kılavuzu izleyerek artık **animated PowerPoint Java** dosyaları oluşturup
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-01  
-**Test Edilen Versiyon:** Aspose.Slides 25.4 for Java  
-**Yazar:** Aspose

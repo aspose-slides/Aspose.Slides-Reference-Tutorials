@@ -229,6 +229,12 @@ Ora hai padroneggiato **come animare le serie di un grafico** in PowerPoint usan
 
 Pronto a dare vita ai tuoi dati? Immergiti e scopri l'impatto che le animazioni dei grafici PowerPoint possono avere sulla tua prossima presentazione!
 
+---
+
+**Last Updated:** 2025-12-01  
+**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -236,9 +242,3 @@ Pronto a dare vita ai tuoi dati? Immergiti e scopri l'impatto che le animazioni 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-01  
-**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Author:** Aspose

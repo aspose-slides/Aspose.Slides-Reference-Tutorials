@@ -185,6 +185,12 @@ Door deze gids te volgen, weet je nu hoe je **geanimeerde PowerPoint Java**‑be
 - [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
 - [Download Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
 
+---
+
+**Last Updated:** 2025-12-01  
+**Tested With:** Aspose.Slides 25.4 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -192,9 +198,3 @@ Door deze gids te volgen, weet je nu hoe je **geanimeerde PowerPoint Java**‑be
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-01  
-**Tested With:** Aspose.Slides 25.4 for Java  
-**Author:** Aspose

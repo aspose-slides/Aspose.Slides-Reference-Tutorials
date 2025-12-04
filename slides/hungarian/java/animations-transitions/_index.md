@@ -61,6 +61,12 @@ Az automatizálás kulcsfontosságú, ha több száz prezentációt generál. Fe
 - [Ingyenes támogatás](https://forum.aspose.com/)
 - [Ideiglenes licenc](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Legutóbb frissítve:** 2025-12-01  
+**Tesztelt verzió:** Aspose.Slides for Java 24.11  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -68,9 +74,3 @@ Az automatizálás kulcsfontosságú, ha több száz prezentációt generál. Fe
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Legutóbb frissítve:** 2025-12-01  
-**Tesztelt verzió:** Aspose.Slides for Java 24.11  
-**Szerző:** Aspose

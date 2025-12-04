@@ -230,6 +230,12 @@ Vous avez maintenant maîtrisé **comment animer les séries de graphiques** dan
 
 Prêt à donner vie à vos données ? Lancez‑vous et constatez l’impact que les graphiques animés PowerPoint peuvent avoir sur votre prochaine présentation !
 
+---
+
+**Dernière mise à jour :** 2025-12-01  
+**Testé avec :** Aspose.Slides for Java 25.4 (JDK 16)  
+**Auteur :** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -237,9 +243,3 @@ Prêt à donner vie à vos données ? Lancez‑vous et constatez l’impact qu
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2025-12-01  
-**Testé avec :** Aspose.Slides for Java 25.4 (JDK 16)  
-**Auteur :** Aspose

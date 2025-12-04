@@ -61,6 +61,12 @@ Tự động hoá là chìa khóa khi bạn tạo ra hàng trăm bộ slide. Kh�
 - [Hỗ trợ miễn phí](https://forum.aspose.com/)
 - [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Cập nhật lần cuối:** 2025-12-01  
+**Kiểm tra với:** Aspose.Slides for Java 24.11  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -68,9 +74,3 @@ Tự động hoá là chìa khóa khi bạn tạo ra hàng trăm bộ slide. Kh�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2025-12-01  
-**Kiểm tra với:** Aspose.Slides for Java 24.11  
-**Tác giả:** Aspose

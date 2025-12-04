@@ -61,6 +61,12 @@ weight: 9
 - [การสนับสนุนฟรี](https://forum.aspose.com/)
 - [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**อัปเดตล่าสุด:** 2025-12-01  
+**ทดสอบด้วย:** Aspose.Slides for Java 24.11  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -68,9 +74,3 @@ weight: 9
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2025-12-01  
-**ทดสอบด้วย:** Aspose.Slides for Java 24.11  
-**ผู้เขียน:** Aspose

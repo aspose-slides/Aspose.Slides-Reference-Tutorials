@@ -229,6 +229,12 @@ try {
 
 Готовы вдохнуть жизнь в ваши данные? Приступайте и оцените, какое влияние анимированные диаграммы PowerPoint могут оказать на вашу следующую презентацию!
 
+---
+
+**Последнее обновление:** 2025-12-01  
+**Тестировано с:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Автор:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -236,9 +242,3 @@ try {
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2025-12-01  
-**Тестировано с:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Автор:** Aspose

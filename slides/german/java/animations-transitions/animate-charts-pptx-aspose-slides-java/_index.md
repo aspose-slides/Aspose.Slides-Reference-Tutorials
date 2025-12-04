@@ -227,6 +227,12 @@ Sie haben nun **wie man chart series** in PowerPoint mit Aspose.Slides für Java
 
 Bereit, Ihre Daten zum Leben zu erwecken? Tauchen Sie ein und sehen Sie, welchen Einfluss animierte Diagramme in PowerPoint auf Ihre nächste Präsentation haben können!
 
+---
+
+**Zuletzt aktualisiert:** 2025-12-01  
+**Getestet mit:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -234,9 +240,3 @@ Bereit, Ihre Daten zum Leben zu erwecken? Tauchen Sie ein und sehen Sie, welchen
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2025-12-01  
-**Getestet mit:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Autor:** Aspose

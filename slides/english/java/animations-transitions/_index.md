@@ -101,6 +101,12 @@ Learn how to load, access, and animate PowerPoint presentations using Aspose.Sli
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Last Updated:** 2025-12-01  
+**Tested With:** Aspose.Slides for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -108,9 +114,3 @@ Learn how to load, access, and animate PowerPoint presentations using Aspose.Sli
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-01  
-**Tested With:** Aspose.Slides for Java 24.11  
-**Author:** Aspose

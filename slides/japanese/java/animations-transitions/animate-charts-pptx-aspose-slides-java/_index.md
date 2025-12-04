@@ -225,6 +225,12 @@ A: 返された `IEffect` オブジェクトの `Timing` プロパティを設�
 
 データに命を吹き込みたいですか？ぜひ試してみて、次のプレゼンテーションでアニメーション化されたチャート PowerPoint がもたらすインパクトをご体感ください！
 
+---
+
+**最終更新日:** 2025-12-01  
+**テスト環境:** Aspose.Slides for Java 25.4 (JDK 16)  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -232,9 +238,3 @@ A: 返された `IEffect` オブジェクトの `Timing` プロパティを設�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2025-12-01  
-**テスト環境:** Aspose.Slides for Java 25.4 (JDK 16)  
-**作者:** Aspose

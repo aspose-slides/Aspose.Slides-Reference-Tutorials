@@ -186,6 +186,12 @@ Durch Befolgen dieser Anleitung wissen Sie jetzt, wie Sie **animierte PowerPoint
 - [Aspose.Slides Dokumentation](https://reference.aspose.com/slides/java/)
 - [Aspose.Slides für Java herunterladen](https://releases.aspose.com/slides/java/)
 
+---
+
+**Last Updated:** 2025-12-01  
+**Tested With:** Aspose.Slides 25.4 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -193,9 +199,3 @@ Durch Befolgen dieser Anleitung wissen Sie jetzt, wie Sie **animierte PowerPoint
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-01  
-**Tested With:** Aspose.Slides 25.4 for Java  
-**Author:** Aspose

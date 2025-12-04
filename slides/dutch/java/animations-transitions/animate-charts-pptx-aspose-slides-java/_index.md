@@ -230,6 +230,12 @@ Je hebt nu geleerd **hoe je een grafiek** series in PowerPoint te animeren met A
 
 Klaar om je gegevens tot leven te brengen? Duik erin en zie de impact van geanimeerde grafieken in PowerPoint op je volgende presentatie!
 
+---
+
+**Laatst bijgewerkt:** 2025-12-01  
+**Getest met:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -237,9 +243,3 @@ Klaar om je gegevens tot leven te brengen? Duik erin en zie de impact van geanim
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2025-12-01  
-**Getest met:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Auteur:** Aspose

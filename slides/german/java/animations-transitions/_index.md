@@ -103,6 +103,11 @@ Lernen Sie, wie Sie PowerPoint‑Präsentationen mit Aspose.Slides für Java lad
 - [Aspose.Slides für Java herunterladen](https://releases.aspose.com/slides/java/)
 - [Kostenloser Support](https://forum.aspose.com/)
 - [Temporäre Lizenz](https://purchase.aspose.com/temporary-license/)
+---
+
+**Last Updated:** 2025-12-01  
+**Tested With:** Aspose.Slides for Java 24.
+**Aspose:** Author
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -112,7 +117,3 @@ Lernen Sie, wie Sie PowerPoint‑Präsentationen mit Aspose.Slides für Java lad
 
 {{< blocks/products/products-backtop-button >}}
 
----
-
-**Last Updated:** 2025-12-01  
-**Tested With:** Aspose.Slides for Java 24.Author:** Aspose

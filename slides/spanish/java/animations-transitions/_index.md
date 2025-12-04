@@ -104,6 +104,12 @@ Aprende a cargar, acceder y animar presentaciones PowerPoint usando Aspose.Slide
 - [Soporte gratuito](https://forum.aspose.com/)
 - [Licencia temporal](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Última actualización:** 2025-12-01  
+**Probado con:** Aspose.Slides para Java 24.11  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -111,9 +117,3 @@ Aprende a cargar, acceder y animar presentaciones PowerPoint usando Aspose.Slide
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2025-12-01  
-**Probado con:** Aspose.Slides para Java 24.11  
-**Autor:** Aspose

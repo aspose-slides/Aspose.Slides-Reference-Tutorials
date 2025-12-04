@@ -224,6 +224,12 @@ Most már elsajátította, **hogyan animálja a diagram sorozatokat** PowerPoint
 
 Készen áll, hogy életre keltse adatait? Merüljön el, és lássa, milyen hatást érhet el az animált diagramok PowerPointban a következő prezentációjában!
 
+---
+
+**Utoljára frissítve:** 2025-12-01  
+**Tesztelve a következővel:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -231,9 +237,3 @@ Készen áll, hogy életre keltse adatait? Merüljön el, és lássa, milyen hat
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utoljára frissítve:** 2025-12-01  
-**Tesztelve a következővel:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Szerző:** Aspose

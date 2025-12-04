@@ -228,6 +228,12 @@ You’ve now mastered **how to animate chart** series in PowerPoint using Aspose
 
 Ready to bring your data to life? Dive in and see the impact of animated charts PowerPoint can make on your next presentation!
 
+---
+
+**Last Updated:** 2025-12-01  
+**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -235,9 +241,3 @@ Ready to bring your data to life? Dive in and see the impact of animated charts 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-01  
-**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Author:** Aspose

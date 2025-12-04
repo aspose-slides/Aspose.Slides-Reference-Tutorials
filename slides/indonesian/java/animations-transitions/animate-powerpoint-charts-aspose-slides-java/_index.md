@@ -185,6 +185,12 @@ Dengan mengikuti panduan ini, Anda kini tahu cara **membuat PowerPoint Java anim
 - [Dokumentasi Aspose.Slides](https://reference.aspose.com/slides/java/)
 - [Unduh Aspose.Slides untuk Java](https://releases.aspose.com/slides/java/)
 
+---
+
+**Terakhir Diperbarui:** 2025-12-01  
+**Diuji Dengan:** Aspose.Slides 25.4 untuk Java  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -192,9 +198,3 @@ Dengan mengikuti panduan ini, Anda kini tahu cara **membuat PowerPoint Java anim
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2025-12-01  
-**Diuji Dengan:** Aspose.Slides 25.4 untuk Java  
-**Penulis:** Aspose

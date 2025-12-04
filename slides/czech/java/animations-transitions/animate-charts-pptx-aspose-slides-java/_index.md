@@ -230,6 +230,12 @@ Nyní ovládáte **animaci sérií grafu** v PowerPointu pomocí Aspose.Slides p
 
 Jste připraveni oživit svá data? Ponořte se do toho a uvidíte, jaký dopad mohou animované grafy v PowerPointu mít na vaši další prezentaci!
 
+---
+
+**Poslední aktualizace:** 2025-12-01  
+**Testováno s:** Aspose.Slides pro Java 25.4 (JDK 16)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -237,9 +243,3 @@ Jste připraveni oživit svá data? Ponořte se do toho a uvidíte, jaký dopad 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2025-12-01  
-**Testováno s:** Aspose.Slides pro Java 25.4 (JDK 16)  
-**Autor:** Aspose

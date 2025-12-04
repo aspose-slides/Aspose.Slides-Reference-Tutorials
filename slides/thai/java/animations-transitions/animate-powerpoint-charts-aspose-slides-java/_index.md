@@ -186,6 +186,12 @@ presentation.dispose();
 - [เอกสาร Aspose.Slides](https://reference.aspose.com/slides/java/)
 - [ดาวน์โหลด Aspose.Slides สำหรับ Java](https://releases.aspose.com/slides/java/)
 
+---
+
+**อัปเดตล่าสุด:** 2025-12-01  
+**ทดสอบด้วย:** Aspose.Slides 25.4 for Java  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -193,9 +199,3 @@ presentation.dispose();
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2025-12-01  
-**ทดสอบด้วย:** Aspose.Slides 25.4 for Java  
-**ผู้เขียน:** Aspose

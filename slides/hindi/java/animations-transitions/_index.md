@@ -104,6 +104,12 @@ Aspose.Slides for Java का उपयोग करके PowerPoint प्र�
 - [नि:शुल्क समर्थन](https://forum.aspose.com/)
 - [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**अंतिम अपडेट:** 2025-12-01  
+**परीक्षण किया गया:** Aspose.Slides for Java 24.11  
+**लेखक:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -111,9 +117,3 @@ Aspose.Slides for Java का उपयोग करके PowerPoint प्र�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**अंतिम अपडेट:** 2025-12-01  
-**परीक्षण किया गया:** Aspose.Slides for Java 24.11  
-**लेखक:** Aspose

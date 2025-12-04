@@ -61,6 +61,12 @@ L’automatisation est essentielle lorsque vous générez des centaines de prés
 - [Support gratuit](https://forum.aspose.com/)
 - [Licence temporaire](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Dernière mise à jour :** 2025-12-01  
+**Testé avec :** Aspose.Slides for Java 24.11  
+**Auteur :** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -68,9 +74,3 @@ L’automatisation est essentielle lorsque vous générez des centaines de prés
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2025-12-01  
-**Testé avec :** Aspose.Slides for Java 24.11  
-**Auteur :** Aspose

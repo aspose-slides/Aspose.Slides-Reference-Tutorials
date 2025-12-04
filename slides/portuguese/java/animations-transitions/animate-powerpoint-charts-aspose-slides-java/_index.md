@@ -183,6 +183,12 @@ Seguindo este guia, você agora sabe como **criar arquivos PowerPoint Java anima
 - [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
 - [Download Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
 
+---
+
+**Última atualização:** 2025-12-01  
+**Testado com:** Aspose.Slides 25.4 for Java  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -190,9 +196,3 @@ Seguindo este guia, você agora sabe como **criar arquivos PowerPoint Java anima
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2025-12-01  
-**Testado com:** Aspose.Slides 25.4 for Java  
-**Autor:** Aspose

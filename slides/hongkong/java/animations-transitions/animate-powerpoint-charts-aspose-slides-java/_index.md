@@ -184,6 +184,12 @@ presentation.dispose();
 - [Aspose.Slides 文件](https://reference.aspose.com/slides/java/)
 - [下載 Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
 
+---
+
+**最後更新：** 2025-12-01  
+**測試環境：** Aspose.Slides 25.4 for Java  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -191,9 +197,3 @@ presentation.dispose();
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-01  
-**測試環境：** Aspose.Slides 25.4 for Java  
-**作者：** Aspose

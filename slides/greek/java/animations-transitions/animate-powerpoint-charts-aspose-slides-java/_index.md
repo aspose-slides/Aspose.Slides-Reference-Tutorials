@@ -186,6 +186,12 @@ presentation.dispose();
 - [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
 - [Download Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
 
+---
+
+**Τελευταία ενημέρωση:** 2025-12-01  
+**Δοκιμή με:** Aspose.Slides 25.4 for Java  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -193,9 +199,3 @@ presentation.dispose();
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία ενημέρωση:** 2025-12-01  
-**Δοκιμή με:** Aspose.Slides 25.4 for Java  
-**Συγγραφέας:** Aspose

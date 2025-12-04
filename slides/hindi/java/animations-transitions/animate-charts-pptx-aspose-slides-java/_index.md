@@ -230,6 +230,12 @@ A: रिटर्न किए गए `IEffect` ऑब्जेक्ट पर
 
 क्या आप अपने डेटा को जीवंत बनाना चाहते हैं? आगे बढ़ें और देखें कि एनीमेटेड चार्ट PowerPoint आपके अगले प्रेज़ेंटेशन पर क्या प्रभाव डाल सकते हैं!
 
+---
+
+**अंतिम अपडेट:** 2025-12-01  
+**परीक्षण किया गया:** Aspose.Slides for Java 25.4 (JDK 16)  
+**लेखक:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -237,9 +243,3 @@ A: रिटर्न किए गए `IEffect` ऑब्जेक्ट पर
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**अंतिम अपडेट:** 2025-12-01  
-**परीक्षण किया गया:** Aspose.Slides for Java 25.4 (JDK 16)  
-**लेखक:** Aspose

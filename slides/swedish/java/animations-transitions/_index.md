@@ -104,6 +104,12 @@ Lär dig ladda, komma åt och animera PowerPoint‑presentationer med Aspose.Sli
 - [Gratis support](https://forum.aspose.com/)
 - [Tillfällig licens](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Senast uppdaterad:** 2025-12-01  
+**Testat med:** Aspose.Slides for Java 24.11  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -111,9 +117,3 @@ Lär dig ladda, komma åt och animera PowerPoint‑presentationer med Aspose.Sli
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2025-12-01  
-**Testat med:** Aspose.Slides for Java 24.11  
-**Författare:** Aspose

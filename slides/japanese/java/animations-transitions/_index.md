@@ -103,6 +103,12 @@ Aspose.Slides for Java を使用して PowerPoint プレゼンテーションを
 - [無料サポート](https://forum.aspose.com/)
 - [一時ライセンス](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**最終更新日:** 2025-12-01  
+**テスト対象:** Aspose.Slides for Java 24.11  
+**作成者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -110,9 +116,3 @@ Aspose.Slides for Java を使用して PowerPoint プレゼンテーションを
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2025-12-01  
-**テスト対象:** Aspose.Slides for Java 24.11  
-**作成者:** Aspose

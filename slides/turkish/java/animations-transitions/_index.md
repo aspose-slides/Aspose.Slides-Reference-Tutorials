@@ -61,6 +61,12 @@ Yüzlerce sunum oluştururken otomasyon çok önemlidir. Animasyon dizilerini to
 - [Ücretsiz Destek](https://forum.aspose.com/)
 - [Geçici Lisans](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Son Güncelleme:** 2025-12-01  
+**Test Edilen Versiyon:** Aspose.Slides for Java 24.11  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -68,9 +74,3 @@ Yüzlerce sunum oluştururken otomasyon çok önemlidir. Animasyon dizilerini to
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-01  
-**Test Edilen Versiyon:** Aspose.Slides for Java 24.11  
-**Yazar:** Aspose

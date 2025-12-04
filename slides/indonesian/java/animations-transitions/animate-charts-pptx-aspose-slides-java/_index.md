@@ -230,6 +230,12 @@ Anda kini telah menguasai **cara menganimasi seri grafik** di PowerPoint menggun
 
 Siap menghidupkan data Anda? Mulailah dan lihat dampak animasi grafik PowerPoint pada presentasi Anda berikutnya!
 
+---
+
+**Last Updated:** 2025-12-01  
+**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -237,9 +243,3 @@ Siap menghidupkan data Anda? Mulailah dan lihat dampak animasi grafik PowerPoint
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-01  
-**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Author:** Aspose

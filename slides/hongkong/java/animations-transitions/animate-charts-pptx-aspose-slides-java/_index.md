@@ -227,6 +227,12 @@ A: 設定回傳的 `IEffect` 物件的 `Timing` 屬性，例如 `effect.getTimin
 
 準備好讓您的資料活起來了嗎？立即動手，體驗動畫圖表在下一場簡報中帶來的衝擊力！
 
+---
+
+**Last Updated:** 2025-12-01  
+**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -234,9 +240,3 @@ A: 設定回傳的 `IEffect` 物件的 `Timing` 屬性，例如 `effect.getTimin
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-01  
-**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Author:** Aspose

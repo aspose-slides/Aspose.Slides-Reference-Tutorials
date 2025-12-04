@@ -230,6 +230,12 @@ Artık Aspose.Slides for Java kullanarak PowerPoint'te **grafik serilerini nası
 
 Verilerinizi hayata geçirmek için hazırsınız? İçeri dalın ve animasyonlu grafiklerin PowerPoint'te bir sonraki sunumunuzda yaratacağı etkiyi görün!
 
+---
+
+**Son Güncelleme:** 2025-12-01  
+**Test Edilen:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -237,9 +243,3 @@ Verilerinizi hayata geçirmek için hazırsınız? İçeri dalın ve animasyonlu
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-01  
-**Test Edilen:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Yazar:** Aspose

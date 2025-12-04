@@ -227,6 +227,12 @@ try {
 
 准备好让您的数据栩栩如生了吗？立即动手，感受动画图表在下一个演示中的强大冲击力！
 
+---
+
+**最后更新：** 2025-12-01  
+**测试环境：** Aspose.Slides for Java 25.4 (JDK 16)  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -234,9 +240,3 @@ try {
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2025-12-01  
-**测试环境：** Aspose.Slides for Java 25.4 (JDK 16)  
-**作者：** Aspose

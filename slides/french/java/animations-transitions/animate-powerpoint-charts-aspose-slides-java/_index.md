@@ -185,6 +185,12 @@ En suivant ce guide, vous savez maintenant comment **créer des fichiers PowerPo
 - [Documentation Aspose.Slides](https://reference.aspose.com/slides/java/)
 - [Télécharger Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
 
+---
+
+**Dernière mise à jour :** 2025-12-01  
+**Testé avec :** Aspose.Slides 25.4 for Java  
+**Auteur :** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -192,9 +198,3 @@ En suivant ce guide, vous savez maintenant comment **créer des fichiers PowerPo
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2025-12-01  
-**Testé avec :** Aspose.Slides 25.4 for Java  
-**Auteur :** Aspose
