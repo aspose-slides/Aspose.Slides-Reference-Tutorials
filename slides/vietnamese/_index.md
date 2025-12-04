@@ -1,10 +1,12 @@
 ---
-"additionalTitle": "Aspose API References"
-"description": "Hướng dẫn đầy đủ về Aspose.Slides để tạo, chỉnh sửa và chuyển đổi bài thuyết trình PowerPoint bằng Java và .NET. Hướng dẫn từng bước để phát triển bài thuyết trình chuyên nghiệp."
-"linktitle": "Hướng dẫn Aspose.Slides"
-"title": "Hướng dẫn toàn diện về Aspose.Slides để tự động hóa PowerPoint"
-"url": "/vi/"
-"weight": 10
+additionalTitle: Aspose API References
+description: Tìm hiểu cách tạo bảng, chèn hình ảnh vào ô và chuyển đổi PowerPoint
+  sang PDF với Aspose.Slides. Các hướng dẫn chi tiết từng bước cho Java, .NET và Python.
+language: vi
+linktitle: Aspose.Slides Tutorials
+title: Cách tạo bảng với Aspose.Slides – Hướng dẫn PowerPoint
+url: /
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,291 +15,299 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hướng dẫn toàn diện về Aspose.Slides để phát triển PowerPoint
+# Cách Tạo Bảng với Aspose.Slides – Hướng Dẫn PowerPoint
 
-Khám phá bộ sưu tập hướng dẫn Aspose.Slides phong phú của chúng tôi được thiết kế cho các nhà phát triển làm việc với các bài thuyết trình PowerPoint. Các hướng dẫn từng bước thực tế này bao gồm mọi thứ từ việc tạo slide cơ bản đến tự động hóa bài thuyết trình nâng cao. Tìm hiểu cách lập trình tạo các slide tuyệt đẹp, áp dụng định dạng chuyên nghiệp, tích hợp biểu đồ động và triển khai các thành phần đa phương tiện. Cho dù bạn đang xây dựng các giải pháp thuyết trình doanh nghiệp hay tự động hóa quy trình làm việc của tài liệu, các hướng dẫn này sẽ giúp bạn tận dụng toàn bộ sức mạnh của Aspose.Slides trên nhiều ngôn ngữ lập trình.
+Nếu bạn đang tìm **cách tạo bảng** một cách lập trình trong PowerPoint, bạn đã đến đúng nơi. Trung tâm này tập hợp bộ sưu tập đầy đủ nhất các hướng dẫn Aspose.Slides cho các nhà phát triển làm việc với bản trình bày trên Java, .NET và Python. Dù bạn cần **thêm hình ảnh vào ô**, áp dụng **gradient fill shape**, tùy chỉnh **custom chart colors**, tạo hình ảnh **create pie chart**, hoặc **convert PowerPoint PDF**, chúng tôi có các hướng dẫn chi tiết từng bước giúp bạn nắm bắt mọi chi tiết.
 
-## [Aspose.Slides cho .NET: API tự động hóa PowerPoint hoàn chỉnh](./net/)
+## [Aspose.Slides cho .NET: API Tự Động PowerPoint Hoàn Chỉnh](./net/)
 
 {{% alert color="primary" %}}
 
-Khám phá hướng dẫn toàn diện về Aspose.Slides cho .NET và phát triển PowerPoint thành thạo bằng C#. Những hướng dẫn chi tiết này sẽ hướng dẫn bạn thực hiện các tác vụ thiết yếu như tạo bản trình bày chuyên nghiệp, thao tác slide và nội dung, triển khai biểu đồ phức tạp và chuyển đổi giữa nhiều định dạng. Với các ví dụ mã rõ ràng và giải thích thực tế, bạn sẽ nhanh chóng học cách tự động hóa quy trình trình bày, tạo báo cáo và xây dựng các ứng dụng PowerPoint động. Hoàn hảo cho các nhà phát triển ở mọi cấp độ kỹ năng, các hướng dẫn này sẽ giúp bạn khai thác toàn bộ tiềm năng của Aspose.Slides trong các dự án .NET của mình.
+Khám phá các hướng dẫn toàn diện về Aspose.Slides cho .NET và làm chủ phát triển PowerPoint trong C#. Những hướng dẫn chi tiết này sẽ dẫn bạn qua các nhiệm vụ quan trọng như tạo bản trình bày chuyên nghiệp, thao tác các slide và nội dung, triển khai các biểu đồ phức tạp, và chuyển đổi giữa nhiều định dạng. Với các ví dụ mã rõ ràng và giải thích thực tế, bạn sẽ nhanh chóng học cách tự động hoá quy trình làm việc với bản trình bày, tạo báo cáo, và xây dựng các ứng dụng PowerPoint động. Phù hợp cho các nhà phát triển ở mọi trình độ, những hướng dẫn này sẽ giúp bạn khai thác tối đa tiềm năng của Aspose.Slides trong các dự án .NET của mình.
 
 {{% /alert %}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Làm chủ bảng trong PowerPoint với Aspose.Slides cho .NET](./net/tables/)
-Tìm hiểu cách tạo, định dạng và quản lý bảng trong PowerPoint với hướng dẫn chi tiết của chúng tôi. Cải thiện bài thuyết trình của bạn bằng dữ liệu và hình ảnh có tổ chức.
+## [Làm Chủ Bảng trong PowerPoint với Aspose.Slides cho .NET](./net/tables/)
 
-{{< tutorial-card link="./net/tables/add-image-inside-table-cell/" title="Thêm hình ảnh vào ô bảng trong PowerPoint bằng Aspose.Slides" imgSrc="./net/tables/add-image-inside-table-cell/images/thumb.png" >}}
+Tìm hiểu cách **tạo, định dạng và quản lý bảng** trong PowerPoint với hướng dẫn chi tiết của chúng tôi. Nâng cao bản trình bày của bạn với dữ liệu có tổ chức, hình ảnh trong các ô, và kiểu dáng tùy chỉnh.
 
-{{< tutorial-card link="./net/tables/merge-cell/" title="Tạo và định dạng bảng trong PowerPoint với Aspose.Slides" imgSrc="./net/tables/merge-cell/images/thumb.png" >}}
+{{< tutorial-card link="./net/tables/add-image-inside-table-cell/" title="Adding Images to Table Cells in PowerPoint with Aspose.Slides" imgSrc="./net/tables/add-image-inside-table-cell/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/tables/standard-tables/" title="Tạo bảng chuẩn trong PowerPoint với Aspose.Slides" imgSrc="./net/tables/standard-tables/images/thumb.png" >}}
+{{< tutorial-card link="./net/tables/merge-cell/" title="Create and Format Tables in PowerPoint with Aspose.Slides" imgSrc="./net/tables/merge-cell/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/tables/table-transparency/" title="Thiết lập độ trong suốt của bảng trong PowerPoint với Aspose.Slides" imgSrc="./net/tables/table-transparency/images/thumb.png" >}}
+{{< tutorial-card link="./net/tables/standard-tables/" title="Create Standardized Tables in PowerPoint with Aspose.Slides" imgSrc="./net/tables/standard-tables/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/tables/table-with-cell-borders/" title="Tạo bảng không có đường viền trong bài thuyết trình PowerPoint" imgSrc="./net/tables/table-with-cell-borders/images/thumb.png" >}}
+{{< tutorial-card link="./net/tables/table-transparency/" title="Set Table Transparency in PowerPoint with Aspose.Slides" imgSrc="./net/tables/table-transparency/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/tables/vertically-align-text/" title="Tạo bảng có văn bản dọc trong bài thuyết trình PowerPoint" imgSrc="./net/tables/vertically-align-text/images/thumb.png" >}}
+{{< tutorial-card link="./net/tables/table-with-cell-borders/" title="Creating Tables with No Borders in PowerPoint Presentations" imgSrc="./net/tables/table-with-cell-borders/images/thumb.png" >}}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-## [Hướng dẫn chỉnh sửa hình dạng PowerPoint chuyên nghiệp](./net/shapes/)
-Tìm hiểu cách tạo, tùy chỉnh và tạo hiệu ứng hoạt hình cho các hình dạng trong bản trình bày PowerPoint bằng Aspose.Slides cho .NET. Làm chủ định dạng hình dạng, nhóm và hiệu ứng đặc biệt.
-
-{{< tutorial-card link="./net/shapes/add-arrow-shaped-line/" title="Tạo hình dạng đường tùy chỉnh trong PowerPoint với Aspose.Slides" imgSrc="./net/shapes/add-arrow-shaped-line/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/shapes/add-stretch-offset-for-image-fill/" title="Thêm hình ảnh vào slide PowerPoint bằng Aspose.Slides" imgSrc="./net/shapes/add-stretch-offset-for-image-fill/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/shapes/animations-on-shapes/" title="Tạo hiệu ứng văn bản động trong PowerPoint với Aspose.Slides" imgSrc="./net/shapes/animations-on-shapes/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/shapes/create-group-shape/" title="Tạo hình nhóm trong PowerPoint với Aspose.Slides cho .NET" imgSrc="./net/shapes/create-group-shape/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/shapes/create-zoom-frame/" title="Tạo khung thu phóng trong PowerPoint bằng Aspose.Slides" imgSrc="./net/shapes/create-zoom-frame/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/shapes/fill-shapes-gradient/" title="Tạo hình elip tô màu gradient trong PowerPoint với Aspose.Slides" imgSrc="./net/shapes/fill-shapes-gradient/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/shapes/fill-shapes-picture/" title="Tạo hình dạng với hình ảnh được tô theo ô trong PowerPoint bằng Aspose.Slides" imgSrc="./net/shapes/fill-shapes-picture/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/shapes/format-lines/" title="Tạo hình chữ nhật với định dạng đường tùy chỉnh trong PowerPoint" imgSrc="./net/shapes/format-lines/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/shapes/formatted-ellipse/" title="Tạo hình elip trong PowerPoint với Aspose.Slides" imgSrc="./net/shapes/formatted-ellipse/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/shapes/geometry-shape-add-segment/" title="Thêm các phân đoạn vào GeometryShape trong bài thuyết trình PowerPoint" imgSrc="./net/shapes/geometry-shape-add-segment/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/shapes/geometry-shape-remove-segment/" title="Sửa đổi Đường dẫn Hình học trong Hình dạng PowerPoint bằng Aspose.Slides" imgSrc="./net/shapes/geometry-shape-remove-segment/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/shapes/rotating-shapes/" title="Tạo và xoay hình chữ nhật trong PowerPoint" imgSrc="./net/shapes/rotating-shapes/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/shapes/shapes-alignment/" title="Căn chỉnh và nhóm các hình dạng trong bài thuyết trình PowerPoint" imgSrc="./net/shapes/shapes-alignment/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/shapes/tile-picture-fill-format/" title="Tạo hình nền ảnh dạng ô vuông trong PowerPoint với Aspose.Slides" imgSrc="./net/shapes/tile-picture-fill-format/images/thumb.png" >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-
-{{< blocks/products/pf/tutorial-page-section >}}
-## [Hướng dẫn tạo biểu đồ nâng cao cho PowerPoint](./net/charts/)
-Tìm hiểu cách tạo hình ảnh dữ liệu chuyên nghiệp trong PowerPoint với Aspose.Slides cho .NET. Hướng dẫn từng bước cho biểu đồ hình tròn, cột, đường và tùy chỉnh.
-
-{{< tutorial-card link="./net/charts/change-color-of-categories/" title="Tùy chỉnh màu điểm dữ liệu biểu đồ trong PowerPoint với Aspose.Slides" imgSrc="./net/charts/change-color-of-categories/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/charts/chart-marker-options-on-data-point/" title="Đánh dấu hình ảnh tùy chỉnh trong biểu đồ đường PowerPoint với Aspose.Slides" imgSrc="./net/charts/chart-marker-options-on-data-point/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/charts/chart-trend-lines/" title="Thêm Đường Xu hướng vào Biểu đồ PowerPoint Sử dụng Aspose.Slides" imgSrc="./net/charts/chart-trend-lines/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/charts/existing-chart/" title="Sửa đổi biểu đồ trong PowerPoint bằng Aspose.Slides" imgSrc="./net/charts/existing-chart/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/charts/multi-category-chart/" title="Tạo biểu đồ cột nhóm với Aspose.Slides" imgSrc="./net/charts/multi-category-chart/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/charts/normal-charts/" title="Tạo biểu đồ cột tùy chỉnh với Aspose.Slides cho .NET" imgSrc="./net/charts/normal-charts/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/charts/pie-chart/" title="Tạo biểu đồ hình tròn trong PowerPoint bằng Aspose.Slides" imgSrc="./net/charts/pie-chart/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/charts/tree-map-chart/" title="Tạo biểu đồ Treemap trong PowerPoint bằng Aspose.Slides" imgSrc="./net/charts/tree-map-chart/images/thumb.png" >}}
+{{< tutorial-card link="./net/tables/vertically-align-text/" title="Creating Tables with Vertical Text in PowerPoint Presentations" imgSrc="./net/tables/vertically-align-text/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Định dạng văn bản chuyên nghiệp trong bài thuyết trình PowerPoint](./net/text/)
-Nắm vững định dạng văn bản và kiểu chữ trong PowerPoint với hướng dẫn toàn diện về hiệu ứng văn bản, căn chỉnh, đổ bóng, cột và dấu đầu dòng bằng Aspose.Slides.
+## [Các Bài Hướng Dẫn Chuyên Nghiệp về Thao Tác Hình Dạng PowerPoint](./net/shapes/)
 
-{{< tutorial-card link="./net/text/add-columns-in-text-frame/" title="Tạo Cột Văn Bản trong PowerPoint với Aspose.Slides cho .NET" imgSrc="./net/text/add-columns-in-text-frame/images/thumb.png" >}}
+Tìm hiểu cách tạo, tùy chỉnh và tạo hoạt ảnh cho các hình dạng trong bản trình bày PowerPoint bằng Aspose.Slides cho .NET. Thành thạo định dạng hình dạng, nhóm, hiệu ứng đặc biệt, và các kỹ thuật **gradient fill shape**.
 
-{{< tutorial-card link="./net/text/animate-text-type/" title="Làm động văn bản theo chữ cái trong PowerPoint với Aspose.Slides" imgSrc="./net/text/animate-text-type/images/thumb.png" >}}
+{{< tutorial-card link="./net/shapes/add-arrow-shaped-line/" title="Creating Custom Line Shapes in PowerPoint with Aspose.Slides" imgSrc="./net/shapes/add-arrow-shaped-line/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/text/apply-inner-shadow/" title="Tạo bài thuyết trình PowerPoint với TextBox trong Aspose.Slides" imgSrc="./net/text/apply-inner-shadow/images/thumb.png" >}}
+{{< tutorial-card link="./net/shapes/add-stretch-offset-for-image-fill/" title="Adding Images to PowerPoint Slides with Aspose.Slides" imgSrc="./net/shapes/add-stretch-offset-for-image-fill/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/text/apply-outer-shadow/" title="Tạo văn bản có hiệu ứng đổ bóng bên trong trong PowerPoint trong Aspose.Slides" imgSrc="./net/text/apply-outer-shadow/images/thumb.png" >}}
+{{< tutorial-card link="./net/shapes/animations-on-shapes/" title="Creating Animated Text Effects in PowerPoint with Aspose.Slides" imgSrc="./net/shapes/animations-on-shapes/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/text/custom-rotation-angle-text-frame/" title="Xoay tiêu đề và nhãn biểu đồ trong PowerPoint với Aspose.Slides" imgSrc="./net/text/custom-rotation-angle-text-frame/images/thumb.png" >}}
+{{< tutorial-card link="./net/shapes/create-group-shape/" title="Create Group Shapes in PowerPoint with Aspose.Slides for .NET" imgSrc="./net/shapes/create-group-shape/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/text/end-para-graph-properties/" title="Tạo bài thuyết trình PowerPoint với văn bản được định dạng" imgSrc="./net/text/end-para-graph-properties/images/thumb.png" >}}
+{{< tutorial-card link="./net/shapes/create-zoom-frame/" title="Creating Zoom Frames in PowerPoint with Aspose.Slides" imgSrc="./net/shapes/create-zoom-frame/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/text/font-family/" title="Tạo hộp văn bản định dạng trong PowerPoint với Aspose.Slides" imgSrc="./net/text/font-family/images/thumb.png" >}}
+{{< tutorial-card link="./net/shapes/fill-shapes-gradient/" title="Creating Gradient Filled Ellipse Shapes in PowerPoint with Aspose.Slides" imgSrc="./net/shapes/fill-shapes-gradient/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/text/mutilevel-bullets/" title="Tạo các điểm đầu dòng nhiều cấp trong PowerPoint với Aspose.Slides" imgSrc="./net/text/mutilevel-bullets/images/thumb.png" >}}
+{{< tutorial-card link="./net/shapes/fill-shapes-picture/" title="Creating Shapes with Tiled Image Fill in PowerPoint using Aspose.Slides" imgSrc="./net/shapes/fill-shapes-picture/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/text/paragraph-bullets/" title="Tạo các điểm đầu dòng tùy chỉnh trong bài thuyết trình PowerPoint" imgSrc="./net/text/paragraph-bullets/images/thumb.png" >}}
+{{< tutorial-card link="./net/shapes/format-lines/" title="Creating a Rectangle Shape with Custom Line Formatting in PowerPoint" imgSrc="./net/shapes/format-lines/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/text/paragraphs-alignment/" title="Căn giữa văn bản trong slide PowerPoint với Aspose.Slides" imgSrc="./net/text/paragraphs-alignment/images/thumb.png" >}}
+{{< tutorial-card link="./net/shapes/formatted-ellipse/" title="Creating Elliptical Shapes in PowerPoint with Aspose.Slides" imgSrc="./net/shapes/formatted-ellipse/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/text/rotating-text/" title="Tạo văn bản dọc trong PowerPoint bằng Aspose.Slides" imgSrc="./net/text/rotating-text/images/thumb.png" >}}
+{{< tutorial-card link="./net/shapes/geometry-shape-add-segment/" title="Adding Segments to GeometryShape in PowerPoint Presentations" imgSrc="./net/shapes/geometry-shape-add-segment/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/text/shadow-effects/" title="Thêm văn bản có hiệu ứng đổ bóng trong PowerPoint bằng Aspose.Slides" imgSrc="./net/text/shadow-effects/images/thumb.png" >}}
+{{< tutorial-card link="./net/shapes/geometry-shape-remove-segment/" title="Modify Geometry Paths in PowerPoint Shapes with Aspose.Slides" imgSrc="./net/shapes/geometry-shape-remove-segment/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/shapes/rotating-shapes/" title="Creating and Rotating Rectangle Shapes in PowerPoint" imgSrc="./net/shapes/rotating-shapes/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/shapes/shapes-alignment/" title="Aligning and Grouping Shapes in PowerPoint Presentations" imgSrc="./net/shapes/shapes-alignment/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/shapes/tile-picture-fill-format/" title="Create Tiled Image Backgrounds in PowerPoint with Aspose.Slides" imgSrc="./net/shapes/tile-picture-fill-format/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## Tài nguyên phát triển PowerPoint nổi bật
+## [Các Bài Hướng Dẫn Nâng Cao về Tạo Biểu Đồ cho PowerPoint](./net/charts/)
 
-### Cơ bản về .NET
-- [Bắt đầu](./net/getting-started/)
-- [Chuyển đổi trình bày](./net/presentation-conversion/)
-- [Thao tác trình bày](./net/presentation-manipulation/)
-- [Truy cập và thao tác Slide](./net/slide-access-and-manipulation/)
-- [Thao tác nền slide](./net/slide-background-manipulation/)
-- [Thao tác bình luận slide](./net/slide-comments-manipulation/)
-- [Thao tác siêu liên kết](./net/hyperlink-manipulation/)
+Tìm hiểu cách tạo các hình ảnh dữ liệu chuyên nghiệp trong PowerPoint với Aspose.Slides cho .NET. Các hướng dẫn chi tiết từng bước cho biểu đồ tròn, cột, đường và biểu đồ tùy chỉnh, bao gồm các ví dụ **custom chart colors** và **create pie chart**.
 
-### Biểu đồ & Phương tiện truyền thông
-- [Tạo và tùy chỉnh biểu đồ](./net/chart-creation-and-customization/)
-- [Định dạng biểu đồ và hoạt hình](./net/chart-formatting-and-animation/)
-- [Tùy chỉnh biểu đồ nâng cao](./net/advanced-chart-customization/)
-- [Các tính năng biểu đồ bổ sung](./net/additional-chart-features/)
-- [Trích xuất âm thanh và video](./net/audio-and-video-extraction/)
-- [Chỉnh sửa hình ảnh và video trong Slide](./net/image-and-video-manipulation-in-slides/)
+{{< tutorial-card link="./net/charts/change-color-of-categories/" title="Customize Chart Data Point Colors in PowerPoint with Aspose.Slides" imgSrc="./net/charts/change-color-of-categories/images/thumb.png" >}}
 
-### Các thành phần của Slide
-- [Ghi chú Thao tác Slide](./net/notes-slide-manipulation/)
-- [Tạo hình thu nhỏ của Slide](./net/slide-thumbnail-generation/)
-- [Kiểm soát hoạt ảnh Slide](./net/slide-animation-control/)
-- [Hiệu ứng chuyển tiếp slide](./net/slide-transition-effects/)
-- [Chế độ xem Slide và thao tác bố cục](./net/slide-view-and-layout-manipulation/)
-- [Cấp phép và Định dạng](./net/licensing-and-formatting/)
+{{< tutorial-card link="./net/charts/chart-marker-options-on-data-point/" title="Custom Image Markers in PowerPoint Line Charts with Aspose.Slides" imgSrc="./net/charts/chart-marker-options-on-data-point/images/thumb.png" >}}
 
-### Hình dạng & Định dạng
-- [In và Kết xuất trong Slides](./net/printing-and-rendering-in-slides/)
-- [Hiệu ứng hình dạng và thao tác trong Slide](./net/shape-effects-and-manipulation-in-slides/)
-- [Hình dạng hình học và vị trí trong slide](./net/shape-geometry-and-positioning-in-slides/)
-- [Căn chỉnh và định dạng hình dạng trong Slide](./net/shape-alignment-and-formatting-in-slides/)
-- [Hình dạng & Khung văn bản](./net/shapes-text-frames/)
+{{< tutorial-card link="./net/charts/chart-trend-lines/" title="Add Trend Lines to PowerPoint Charts Using Aspose.Slides" imgSrc="./net/charts/chart-trend-lines/images/thumb.png" >}}
 
-### Nội dung & Tích hợp
-- [Biểu đồ & Đồ thị](./net/charts-graphs/)
-- [Hình ảnh & Đa phương tiện](./net/images-multimedia/)
-- [Nghệ thuật thông minh & Sơ đồ](./net/smart-art-diagrams/)
-- [Hoạt hình & Chuyển tiếp](./net/animations-transitions/)
-- [Định dạng & Kiểu](./net/formatting-styles/)
-- [Tích hợp dữ liệu](./net/data-integration/)
-- [Đối tượng OLE & Nhúng](./net/ole-objects-embedding/)
+{{< tutorial-card link="./net/charts/existing-chart/" title="Modifying Charts in PowerPoint with Aspose.Slides" imgSrc="./net/charts/existing-chart/images/thumb.png" >}}
 
-### Tính năng nâng cao
-- [Slide chính & Mẫu](./net/master-slides-templates/)
-- [Bình luận & Đánh giá](./net/comments-reviewing/)
-- [Bảo mật & Bảo vệ](./net/security-protection/)
-- [Tiêu đề, Chân trang & Ghi chú](./net/headers-footers-notes/)
-- [In ấn & Kết xuất](./net/printing-rendering/)
-- [Tối ưu hóa hiệu suất](./net/performance-optimization/)
-- [Xuất khẩu & Chuyển đổi](./net/export-conversion/)
+{{< tutorial-card link="./net/charts/multi-category-chart/" title="Creating Clustered Column Charts with Aspose.Slides" imgSrc="./net/charts/multi-category-chart/images/thumb.png" >}}
 
-### Hoạt động & Tự động hóa
-- [Hoạt động trình bày](./net/presentation-operations/)
-- [Quản lý Slide](./net/slide-management/)
-- [Macro VBA & Tự động hóa](./net/vba-macros-automation/)
-- [Thuộc tính tùy chỉnh & Siêu dữ liệu](./net/custom-properties-metadata/)
-- [Xử lý hàng loạt](./net/batch-processing/)
+{{< tutorial-card link="./net/charts/normal-charts/" title="Creating Custom Column Charts with Aspose.Slides for .NET" imgSrc="./net/charts/normal-charts/images/thumb.png" >}}
 
-## Aspose.Slides For Java: API trình bày chuyên nghiệp dành cho nhà phát triển Java
+{{< tutorial-card link="./net/charts/pie-chart/" title="Create a Pie Chart in PowerPoint Using Aspose.Slides" imgSrc="./net/charts/pie-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/charts/tree-map-chart/" title="Create a Treemap Chart in PowerPoint using Aspose.Slides" imgSrc="./net/charts/tree-map-chart/images/thumb.png" >}}
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+## [Định Dạng Văn Bản Chuyên Nghiệp trong Bản Trình Bày PowerPoint](./net/text/)
+
+Thành thạo định dạng văn bản và kiểu chữ trong PowerPoint với các hướng dẫn toàn diện về hiệu ứng văn bản, căn chỉnh, bóng, cột và dấu đầu dòng sử dụng Aspose.Slides.
+
+{{< tutorial-card link="./net/text/add-columns-in-text-frame/" title="Creating Text Columns in PowerPoint with Aspose.Slides for .NET" imgSrc="./net/text/add-columns-in-text-frame/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/text/animate-text-type/" title="Animate Text by Letter in PowerPoint with Aspose.Slides" imgSrc="./net/text/animate-text-type/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/text/apply-inner-shadow/" title="Create PowerPoint Presentations with TextBox in Aspose.Slides" imgSrc="./net/text/apply-inner-shadow/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/text/apply-outer-shadow/" title="Create Text with Inner Shadow Effects in PowerPoint in Aspose.Slides" imgSrc="./net/text/apply-outer-shadow/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/text/custom-rotation-angle-text-frame/" title="Rotating Chart Titles and Labels in PowerPoint with Aspose.Slides" imgSrc="./net/text/custom-rotation-angle-text-frame/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/text/end-para-graph-properties/" title="Creating PowerPoint Presentations with Formatted Text" imgSrc="./net/text/end-para-graph-properties/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/text/font-family/" title="Creating Formatted Text Boxes in PowerPoint with Aspose.Slides" imgSrc="./net/text/font-family/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/text/mutilevel-bullets/" title="Creating Multi-level Bullet Points in PowerPoint with Aspose.Slides" imgSrc="./net/text/mutilevel-bullets/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/text/paragraph-bullets/" title="Creating Custom Bullet Points in PowerPoint Presentations" imgSrc="./net/text/paragraph-bullets/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/text/paragraphs-alignment/" title="Centering Text in PowerPoint Slides with Aspose.Slides" imgSrc="./net/text/paragraphs-alignment/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/text/rotating-text/" title="Creating Vertical Text in PowerPoint Using Aspose.Slides" imgSrc="./net/text/rotating-text/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/text/shadow-effects/" title="Adding Text with Shadow Effects in PowerPoint with Aspose.Slides" imgSrc="./net/text/shadow-effects/images/thumb.png" >}}
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+## Tài Nguyên Phát Triển PowerPoint Nổi Bật
+
+### .NET Cơ Bản
+- [Bắt Đầu](./net/getting-started/)
+- [Chuyển Đổi Bản Trình Bày](./net/presentation-conversion/)
+- [Thao Tác Bản Trình Bày](./net/presentation-manipulation/)
+- [Truy Cập và Thao Tác Slide](./net/slide-access-and-manipulation/)
+- [Thao Tác Nền Slide](./net/slide-background-manipulation/)
+- [Thao Tác Bình Luận Slide](./net/slide-comments-manipulation/)
+- [Thao Tác Liên Kết](./net/hyperlink-manipulation/)
+
+### Biểu Đồ & Phương Tiện
+- [Tạo và Tùy Chỉnh Biểu Đồ](./net/chart-creation-and-customization/)
+- [Định Dạng và Hoạt Ảnh Biểu Đồ](./net/chart-formatting-and-animation/)
+- [Tùy Chỉnh Biểu Đồ Nâng Cao](./net/advanced-chart-customization/)
+- [Các Tính Năng Bổ Sung cho Biểu Đồ](./net/additional-chart-features/)
+- [Trích Xuất Âm Thanh và Video](./net/audio-and-video-extraction/)
+- [Thao Tác Hình Ảnh và Video trong Slide](./net/image-and-video-manipulation-in-slides/)
+
+### Các Thành Phần Slide
+- [Thao Tác Slide G Chú](./net/notes-slide-manipulation/)
+- [Tạo Thu Nhỏ Slide](./net/slide-thumbnail-generation/)
+- [Kiểm Soát Hoạt Ảnh Slide](./net/slide-animation-control/)
+- [Hiệu Ứng Chuyển Đổi Slide](./net/slide-transition-effects/)
+- [Thao Tác Giao Diện và Bố Cục Slide](./net/slide-view-and-layout-manipulation/)
+- [Cấp Phép và Định Dạng](./net/licensing-and-formatting/)
+
+### Hình Dạng & Định Dạng
+- [In và Kết Xuất trong Slide](./net/printing-and-rendering-in-slides/)
+- [Hiệu Ứng và Thao Tác Hình Dạng trong Slide](./net/shape-effects-and-manipulation-in-slides/)
+- [Hình Học và Định Vị Hình Dạng trong Slide](./net/shape-geometry-and-positioning-in-slides/)
+- [Căn Chỉnh và Định Dạng Hình Dạng trong Slide](./net/shape-alignment-and-formatting-in-slides/)
+- [Hình Dạng & Khung Văn Bản](./net/shapes-text-frames/)
+
+### Nội Dung & Tích Hợp
+- [Biểu Đồ & Đồ Thị](./net/charts-graphs/)
+- [Hình Ảnh & Đa Phương Tiện](./net/images-multimedia/)
+- [Smart Art & Sơ Đồ](./net/smart-art-diagrams/)
+- [Hoạt Ảnh & Chuyển Đổi](./net/animations-transitions/)
+- [Định Dạng & Kiểu](./net/formatting-styles/)
+- [Tích Hợp Dữ Liệu](./net/data-integration/)
+- [Đối Tượng OLE & Nhúng](./net/ole-objects-embedding/)
+
+### Tính Năng Nâng Cao
+- [Slide Chủ Đề & Mẫu](./net/master-slides-templates/)
+- [Bình Luận & Đánh Giá](./net/comments-reviewing/)
+- [Bảo Mật & Bảo Vệ](./net/security-protection/)
+- [Đầu Trang, Chân Trang & Ghi Chú](./net/headers-footers-notes/)
+- [In & Kết Xuất](./net/printing-rendering/)
+- [Tối Ưu Hóa Hiệu Suất](./net/performance-optimization/)
+- [Xuất & Chuyển Đổi](./net/export-conversion/)
+
+### Hoạt Động & Tự Động Hóa
+- [Các Hoạt Động Bản Trình Bày](./net/presentation-operations/)
+- [Quản Lý Slide](./net/slide-management/)
+- [Macro VBA & Tự Động Hóa](./net/vba-macros-automation/)
+- [Thuộc Tính Tùy Chỉnh & Siêu Dữ Liệu](./net/custom-properties-metadata/)
+- [Xử Lý Hàng Loạt](./net/batch-processing/)
+
+## Aspose.Slides cho Java: API Trình Bày Chuyên Nghiệp cho Các Nhà Phát Triển Java
 
 {{% alert color="primary" %}}
 
-Khám phá sức mạnh của Aspose.Slides for Java—một API tự động hóa PowerPoint toàn diện được thiết kế dành riêng cho các nhà phát triển Java. Các hướng dẫn được thiết kế cẩn thận của chúng tôi cung cấp hướng dẫn rõ ràng, từng bước để tạo, sửa đổi và chuyển đổi các bài thuyết trình trong các ứng dụng Java. Từ thao tác slide cơ bản đến các tính năng nâng cao như biểu đồ, hoạt ảnh và tích hợp dữ liệu, các hướng dẫn này giúp bạn xây dựng các giải pháp thuyết trình tinh vi. Bắt đầu triển khai chức năng PowerPoint chuyên nghiệp trong các dự án Java của bạn ngay hôm nay với các hướng dẫn thực tế, tập trung vào mã này.
+Khám phá sức mạnh của Aspose.Slides cho Java — một API tự động PowerPoint toàn diện được thiết kế đặc biệt cho các nhà phát triển Java. Các hướng dẫn được chúng tôi chăm chút kỹ lưỡng cung cấp hướng dẫn rõ ràng, từng bước để tạo, sửa đổi và chuyển đổi bản trình bày trong các ứng dụng Java. Từ thao tác slide cơ bản các tính năng nâng cao như biểu đồ, hoạt ảnh và tích hợp dữ liệu, các hướng dẫn này giúp bạn xây dựng các giải pháp trình bày tinh vi. Bắt đầu triển khai chức năng PowerPoint chuyên nghiệp trong các dự án Java của bạn ngay hôm nay với những hướng dẫn thực tế, tập trung vào mã.
 
 {{% /alert %}}
 
-## Tài nguyên phát triển PowerPoint Java thiết yếu
+## Các Tài Nguyên Phát Triển PowerPoint Java Cần Thiết
 
-### Bắt đầu
-- [Bắt đầu với Aspose.Slides](./java/getting-started/)
-- [Cấp phép và khởi tạo Java Slides](./java/licensing-and-initialization)
-- [Tiện ích bổ sung của Java Slides](./java/additional-utilities/)
-- [Thuộc tính trình bày của Java Slides](./java/presentation-properties/)
-- [Tùy chọn lưu Java Slides](./java/saving-options/)
+### Bắt Đầu
+- [Bắt Đầu với Aspose.Slides](./java/getting-started/)
+- [Cấp Phép và Khởi Tạo Aspose.Slides cho Java](./java/licensing-and-initialization)
+- [Tiện Ích Bổ Sung cho Aspose.Slides Java](./java/additional-utilities/)
+- [Thuộc Tính Bản Trình Bày Aspose.Slides Java](./java/presentation-properties/)
+- [Tùy Chọn Lưu Trữ Aspose.Slides Java](./java/saving-options/)
 
-### Biểu đồ & Dữ liệu
-- [Thao tác dữ liệu biểu đồ Java Slides](./java/chart-data-manipulation)
-- [Các thành phần biểu đồ Java Slides](./java/chart-elements)
-- [Tạo biểu đồ Java Slides](./java/chart-creation)
-- [Thao tác dữ liệu Java Slides](./java/data-manipulation)
-- [Biểu đồ và trực quan hóa dữ liệu](./java/charts-graphs/)
+### Biểu Đồ & Dữ Liệu
+- [Thao Tác Dữ Liệu Biểu Đồ Aspose.Slides Java](./java/chart-data-manipulation)
+- [Các Thành Phần Biểu Đồ Aspose.Slides Java](./java/chart-elements)
+- [Tạo Biểu Đồ Aspose.Slides Java](./java/chart-creation)
+- [Thao Tác Dữ Liệu Aspose.Slides Java](./java/data-manipulation)
+- [Biểu Đồ và Trực Quan Dữ Liệu](./java/charts-graphs/)
 
-### Nội dung & Phương tiện truyền thông
-- [Tùy chỉnh và định dạng Java Slides](./java/customization-and-formatting)
-- [Hoạt ảnh và bố cục của Java Slides](./java/animation-and-layout)
-- [Điều khiển phương tiện Java Slides](./java/media-controls/)
-- [Xử lý hình ảnh Java Slides](./java/image-handling/)
-- [Làm việc với hình ảnh và đa phương tiện](./java/images-multimedia/)
+### Nội Dung & Phương Tiện
+- [Tùy Chỉnh và Định Dạng Aspose.Slides Java](./java/customization-and-formatting)
+- [Hoạt Ảnh và Bố Cục Aspose.Slides Java](./java/animation-and-layout)
+- [Điều Khiển Phương Tiện Aspose.Slides Java](./java/media-controls/)
+- [Xử Lý Hình Ảnh Aspose.Slides Java](./java/image-handling/)
+- [Làm Việc với Hình Ảnh và Đa Phương Tiện](./java/images-multimedia/)
 
-### Chức năng cốt lõi
-- [Thao tác tập tin trình bày](./java/presentation-operations/)
-- [Quản lý và thao tác Slide](./java/slide-management/)
-- [Xử lý hình dạng và khung văn bản](./java/shapes-text-frames/)
+### Chức Năng Cốt Lõi
+- [Các Hoạt Động Tập Tin Bản Trình Bày](./java/presentation-operations/)
+- [Quản Lý và Thao Tác Slide](./java/slide-management/)
+- [Xử Lý Hình Dạng và Khung Văn Bản](./java/shapes-text-frames/)
 - [Bảng PowerPoint trong Java](./java/tables/)
-- [Chuyển đổi trình bày Java Slides](./java/presentation-conversion)
+- [Chuyển Đổi Bản Trình Bày Aspose.Slides Java](./java/presentation-conversion)
 
-### Tính năng nâng cao
-- [SmartArt và Tạo sơ đồ](./java/smart-art-diagrams/)
-- [Hiệu ứng hoạt hình và chuyển tiếp](./java/animations-transitions/)
-- [Định dạng và thiết kế Slide](./java/formatting-styles/)
-- [Slide chính và mẫu](./java/master-slides-templates/)
-- [Tính năng bình luận và đánh giá](./java/comments-reviewing/)
+### Tính Năng Nâng Cao
+- [Tạo SmartArt và Sơ Đồ](./java/smart-art-diagrams/)
+- [Hiệu Ứng Hoạt Ảnh và Chuyển Đổi](./java/animations-transitions/)
+- [Định Dạng và Thiết Kế Slide](./java/formatting-styles/)
+- [Slide Chủ Đề và Mẫu](./java/master-slides-templates/)
+- [Bình Luận và Tính Năng Đánh Giá](./java/comments-reviewing/)
 
-### Bảo mật & Đầu ra
-- [Bảo vệ tài liệu Java Slides](./java/document-protection/)
-- [Tùy chọn bảo mật trình bày](./java/security-protection/)
-- [Tiêu đề, Chân trang và Ghi chú](./java/headers-footers-notes/)
-- [Kết xuất và in slide](./java/printing-rendering/)
-- [Xuất và chuyển đổi định dạng](./java/export-conversion/)
+### Bảo Mật & Đầu Ra
+- [Bảo Vệ Tài Liệu Aspose.Slides Java](./java/document-protection/)
+- [Tùy Chọn Bảo Mật Bản Trình Bày](./java/security-protection/)
+- [Đầu Trang, Chân Trang và Ghi Chú](./java/headers-footers-notes/)
+- [Kết Xuất và In Slide](./java/printing-rendering/)
+- [Xuất và Chuyển Đổi Định Dạng](./java/export-conversion/)
 
-### Tích hợp & Xử lý
-- [Bài thuyết trình dựa trên dữ liệu](./java/data-integration/)
-- [Đối tượng OLE và Nội dung nhúng](./java/ole-objects-embedding/)
-- [Tối ưu hóa hiệu suất PowerPoint](./java/performance-optimization/)
-- [Tự động hóa và viết kịch bản PowerPoint](./java/vba-macros-automation/)
-- [Quản lý Thuộc tính Tài liệu](./java/custom-properties-metadata/)
-- [Xử lý hàng loạt tệp PowerPoint](./java/batch-processing/)
+### Tích Hợp & Xử Lý
+- [Bản Trình Bày Dựa Trên Dữ Liệu](./java/data-integration/)
+- [Đối Tượng OLE và Nội Dung Nhúng](./java/ole-objects-embedding/)
+- [Tối Ưu Hóa Hiệu Suất PowerPoint](./java/performance-optimization/)
+- [Tự Động Hóa và Kịch Bản PowerPoint](./java/vba-macros-automation/)
+- [Quản Lý Thuộc Tính Tài Liệu](./java/custom-properties-metadata/)
+- [Xử Lý Hàng Loạt Tệp PowerPoint](./java/batch-processing/)
 
-## Aspose.Slides cho Python qua .NET: Thư viện PowerPoint chuyên nghiệp dành cho nhà phát triển Python
+## Aspose.Slides cho Python qua .NET: Thư Viện PowerPoint Chuyên Nghiệp cho Các Nhà Phát Triển Python
 
 {{% alert color="primary" %}}
 
-Khám phá Aspose.Slides cho Python qua .NET—một thư viện tự động hóa PowerPoint mạnh mẽ mang đến toàn bộ khả năng của Aspose.Slides cho các nhà phát triển Python. Các hướng dẫn toàn diện của chúng tôi hướng dẫn bạn cách tạo, sửa đổi và chuyển đổi các bài thuyết trình PowerPoint bằng cú pháp Python quen thuộc. Học cách triển khai các slide, biểu đồ, hoạt ảnh và nội dung đa phương tiện chuyên nghiệp với các ví dụ dễ làm theo. Các hướng dẫn từng bước này giúp bạn tận dụng chức năng PowerPoint nâng cao trong các ứng dụng Python của mình mà không cần cài đặt Microsoft Office. Bắt đầu xây dựng các giải pháp thuyết trình tinh vi bằng Python ngay hôm nay.
+Khám phá Aspose.Slides cho Python qua .NET — một thư viện tự động PowerPoint mạnh mẽ mang toàn bộ khả năng của Aspose.Slides đến các nhà phát triển Python. Các hướng dẫn toàn diện của chúng tôi hướng dẫn bạn qua việc tạo, sửa đổi và chuyển đổi bản trình bày PowerPoint bằng cú pháp Python quen thuộc. Học cách triển khai các slide, biểu đồ, hoạt ảnh và nội dung đa phương tiện chuyên nghiệp với các ví dụ dễ hiểu. Những hướng dẫn từng bước này giúp bạn tận dụng các chức năng PowerPoint nâng cao trong các ứng dụng Python mà không cần cài đặt Microsoft Office. Bắt đầu xây dựng các giải pháp trình bày tinh vi trong Python ngay hôm nay.
 
 {{% /alert %}}
 
-## Tài nguyên phát triển PowerPoint Python thiết yếu
+## Các Tài Nguyên Phát Triển PowerPoint Python Cần Thiết
 
-### Bắt đầu
-- [Bắt đầu](./python-net/getting-started/)
-- [Quản lý trình bày](./python-net/presentation-management/)
-- [Hoạt động trượt](./python-net/slide-operations/)
-- [Hình dạng & Văn bản](./python-net/shapes-text/)
+### Bắt Đầu
+- [Bắt Đầu](./python-net/getting-started/)
+- [Quản Lý Bản Trình Bày](./python-net/presentation-management/)
+- [Các Hoạt Động Slide](./python-net/slide-operations/)
+- [Hình Dạng & Văn Bản](./python-net/shapes-text/)
 - [Bảng](./python-net/tables/)
 
-### Biểu đồ & Phương tiện truyền thông
-- [Biểu đồ & Đồ thị](./python-net/charts-graphs/)
-- [Hình ảnh & Đa phương tiện](./python-net/images-multimedia/)
-- [Nghệ thuật thông minh & Sơ đồ](./python-net/smart-art-diagrams/)
-- [Hoạt hình & Chuyển tiếp](./python-net/animations-transitions/)
-- [Định dạng & Kiểu](./python-net/formatting-styles/)
+### Biểu Đồ & Phương Tiện
+- [Biểu Đồ & Đồ Thị](./python-net/charts-graphs/)
+- [Hình Ảnh & Đa Phương Tiện](./python-net/images-multimedia/)
+- [Smart Art & Sơ Đồ](./python-net/smart-art-diagrams/)
+- [Hoạt Ảnh & Chuyển Đổi](./python-net/animations-transitions/)
+- [Định Dạng & Kiểu](./python-net/formatting-styles/)
 
-### Tính năng nâng cao
-- [Tiêu đề & Chân trang](./python-net/headers-footers/)
-- [Bình luận & Ghi chú](./python-net/comments-notes/)
-- [Bảo mật & Bảo vệ](./python-net/security-protection/)
-- [Thuộc tính tùy chỉnh](./python-net/custom-properties/)
-- [Xử lý văn bản nâng cao](./python-net/advanced-text-processing/)
+### Tính Năng Nâng Cao
+- [Đầu Trang & Chân Trang](./python-net/headers-footers/)
+- [Bình Luận & Ghi Chú](./python-net/comments-notes/)
+- [Bảo Mật & Bảo Vệ](./python-net/security-protection/)
+- [Thuộc Tính Tùy Chỉnh](./python-net/custom-properties/)
+- [Xử Lý Văn Bản Nâng Cao](./python/advanced-text-processing/)
 
-### Tích hợp & Xử lý
-- [Đối tượng OLE & Nhúng](./python-net/ole-objects-embedding/)
-- [Nhập khẩu & Xuất khẩu](./python-net/import-export/)
-- [Mẫu & Báo cáo](./python-net/templates-reporting/)
-- [Tối ưu hóa hiệu suất](./python-net/performance-optimization/)
+### Tích Hợp & Xử Lý
+- [Đối Tượng OLE & Nhúng](./python-net/ole-objects-embedding/)
+- [Nhập & Xuất](./python-net/import-export/)
+- [Mẫu & Báo Cáo](./python-net/templates-reporting/)
+- [Tối Ưu Hóa Hiệu Suất](./python-net/performance-optimization/)
 - [Macro VBA](./python-net/vba-macros/)
-- [Xử lý hàng loạt](./python-net/batch-processing/)
-- [Phương trình toán học](./python-net/math-equations/)
-- [Tích hợp thế hệ và AI](./python-net/generation-ai-integration/)
+- [Xử Lý Hàng Loạt](./python-net/batch-processing/)
+- [Phương Trình Toán Học](./python-net/math-equations/)
+- [Tạo Nội Dung & Tích Hợp AI](./python-net/generation-ai-integration/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-04  
+**Tested With:** Aspose.Slides latest stable release (2025)  
+**Author:** Aspose
