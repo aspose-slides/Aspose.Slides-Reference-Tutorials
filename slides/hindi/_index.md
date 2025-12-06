@@ -1,10 +1,14 @@
 ---
-"additionalTitle": "Aspose API References"
-"description": "जावा और .NET में पावरपॉइंट प्रेजेंटेशन बनाने, संपादित करने और परिवर्तित करने के लिए संपूर्ण Aspose.Slides ट्यूटोरियल। व्यावसायिक प्रेजेंटेशन विकास के लिए चरण-दर-चरण मार्गदर्शिकाएँ।"
-"linktitle": "Aspose.Slides ट्यूटोरियल"
-"title": "पावरपॉइंट ऑटोमेशन के लिए व्यापक Aspose.Slides ट्यूटोरियल"
-"url": "/hi/"
-"weight": 10
+additionalTitle: Aspose API References
+date: 2025-12-06
+description: Aspose.Slides के साथ पाई चार्ट PowerPoint प्रस्तुतियों को बनाना सीखें।
+  .NET, Java और Python में तालिकाओं, चार्ट, आकार और अधिक के लिए चरण‑दर‑चरण मार्गदर्शिकाएँ
+  देखें।
+language: hi
+linktitle: Aspose.Slides Tutorials
+title: PowerPoint में पाई चार्ट कैसे बनाएं – व्यापक Aspose.Slides ट्यूटोरियल्स
+url: /
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,288 +17,299 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# पावरपॉइंट विकास के लिए व्यापक Aspose.Slides ट्यूटोरियल
+# PowerPoint विकास के लिए व्यापक Aspose.Slides ट्यूटोरियल्स
 
-PowerPoint प्रस्तुतियों के साथ काम करने वाले डेवलपर्स के लिए डिज़ाइन किए गए Aspose.Slides ट्यूटोरियल के हमारे व्यापक संग्रह का अन्वेषण करें। ये व्यावहारिक चरण-दर-चरण मार्गदर्शिकाएँ बुनियादी स्लाइड निर्माण से लेकर उन्नत प्रस्तुति स्वचालन तक सब कुछ कवर करती हैं। प्रोग्रामेटिक रूप से शानदार स्लाइड बनाने, पेशेवर स्वरूपण लागू करने, गतिशील चार्ट एकीकृत करने और मल्टीमीडिया तत्वों को लागू करने का तरीका जानें। चाहे आप एंटरप्राइज़ प्रेजेंटेशन समाधान बना रहे हों या दस्तावेज़ वर्कफ़्लो को स्वचालित कर रहे हों, ये ट्यूटोरियल आपको कई प्रोग्रामिंग भाषाओं में Aspose.Slides की पूरी शक्ति का लाभ उठाने में मदद करेंगे।
+Aspose.Slides के साथ **pie chart PowerPoint** समाधान बनाने के लिए अंतिम केंद्र में आपका स्वागत है। चाहे आप स्वचालित रिपोर्टिंग टूल, गतिशील स्लाइड डेक, या कस्टम प्रेजेंटेशन जेनरेटर बना रहे हों, यह संग्रह आपको सभी आवश्यक चीज़ें प्रदान करता है—बुनियादी स्लाइड निर्माण से लेकर उन्नत चार्टिंग, टेबल मैनिपुलेशन, और मल्टीमीडिया इंटीग्रेशन तक। चलिए देखते हैं कि आप .NET, Java, और Python में Aspose.Slides की पूरी शक्ति का कैसे उपयोग कर सकते हैं।
 
-## [Aspose.Slides .NET के लिए: पूर्ण पावरपॉइंट ऑटोमेशन API](./net/)
+## Aspose.Slides का उपयोग करके pie chart PowerPoint कैसे बनाएं
+Aspose.Slides एक सरल, कोड‑फ़र्स्ट API प्रदान करता है जो आपको Microsoft PowerPoint को कभी खोले बिना **pie chart PowerPoint** फ़ाइलें बनाने देता है। कुछ ही कोड लाइनों में आप डेटा पॉइंट्स परिभाषित कर सकते हैं, रंगों को कस्टमाइज़ कर सकते हैं, लेजेंड जोड़ सकते हैं, और PPTX, PDF, या इमेजेज़ में एक्सपोर्ट कर सकते हैं। यह क्षमता स्वचालित रिपोर्ट जनरेशन, डैशबोर्ड, और किसी भी ऐसे परिदृश्य के लिए आदर्श है जहाँ विज़ुअल डेटा को जल्दी और भरोसेमंद तरीके से साझा करने की आवश्यकता होती है।
+
+## आप क्या पाएंगे इसका त्वरित अवलोकन
+- **Merge table cells PowerPoint** – साफ़ लेआउट के लिए सेल्स को मिलाना सीखें।  
+- **Add images to table cells** – टेबल संरचनाओं के भीतर सीधे चित्र डालें।  
+- **Create tables without borders** – आधुनिक डिज़ाइनों के लिए चिकनी, बिना बॉर्डर वाली टेबल बनाएं।  
+- **Animate text by letter** – आकर्षक अक्षर‑दर‑अक्षर टेक्स्ट एनीमेशन जोड़ें।  
+- **Add trend lines to chart** – अपने चार्ट्स को विश्लेषणात्मक ट्रेंड लाइन्स के साथ बेहतर बनाएं।  
+
+नीचे आप प्रत्येक प्रमुख फीचर क्षेत्र के लिए तैयार किए गए सेक्शन पाएंगे, जिसमें ट्यूटोरियल कार्ड शामिल हैं जो विस्तृत, चरण‑दर‑चरण गाइड्स से लिंक करते हैं।
+
+## [Aspose.Slides For .NET: पूर्ण PowerPoint ऑटोमेशन API](./net/)
 
 {{% alert color="primary" %}}
 
-.NET के लिए हमारे व्यापक Aspose.Slides ट्यूटोरियल में गोता लगाएँ और C# में PowerPoint डेवलपमेंट में महारत हासिल करें। ये विस्तृत गाइड आपको पेशेवर प्रस्तुतियाँ बनाने, स्लाइड और सामग्री में हेरफेर करने, जटिल चार्ट लागू करने और कई प्रारूपों के बीच रूपांतरण जैसे आवश्यक कार्यों से परिचित कराते हैं। स्पष्ट कोड उदाहरणों और व्यावहारिक स्पष्टीकरणों के साथ, आप जल्दी से सीखेंगे कि प्रस्तुति वर्कफ़्लो को कैसे स्वचालित किया जाए, रिपोर्ट तैयार की जाए और गतिशील PowerPoint एप्लिकेशन कैसे बनाए जाएँ। सभी कौशल स्तरों के डेवलपर्स के लिए बिल्कुल सही, ये ट्यूटोरियल आपको अपने .NET प्रोजेक्ट्स में Aspose.Slides की पूरी क्षमता का दोहन करने में मदद करेंगे।
+हमारे व्यापक Aspose.Slides for .NET ट्यूटोरियल्स में डुबकी लगाएँ और C# में PowerPoint विकास में महारत हासिल करें। ये विस्तृत गाइड आपको पेशेवर प्रेजेंटेशन बनाना, स्लाइड्स और कंटेंट को मैनिपुलेट करना, जटिल चार्ट्स को लागू करना, और कई फॉर्मैट्स के बीच कन्वर्ट करना जैसे आवश्यक कार्यों से परिचित कराते हैं। स्पष्ट कोड उदाहरणों और व्यावहारिक व्याख्याओं के साथ, आप जल्दी सीखेंगे कि कैसे प्रेजेंटेशन वर्कफ़्लो को ऑटोमेट करें, रिपोर्ट जनरेट करें, और डायनेमिक PowerPoint एप्लिकेशन बनाएं। सभी स्तर के डेवलपर्स के लिए उपयुक्त, ये ट्यूटोरियल्स आपको आपके .NET प्रोजेक्ट्स में Aspose.Slides की पूरी क्षमता का उपयोग करने में मदद करेंगे।
 
 {{% /alert %}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [.NET के लिए Aspose.Slides के साथ PowerPoint में तालिकाओं पर महारत हासिल करें](./net/tables/)
-हमारे विस्तृत गाइड से PowerPoint में टेबल बनाने, फ़ॉर्मेट करने और प्रबंधित करने का तरीका जानें। व्यवस्थित डेटा और विज़ुअल के साथ अपनी प्रस्तुतियों को बेहतर बनाएँ।
+## [PowerPoint में टेबल्स में महारत हासिल करना Aspose.Slides for .NET](./net/tables/)
+हमारे विस्तृत गाइड के साथ सीखें कि PowerPoint में टेबल्स कैसे बनाएं, फॉर्मेट करें, और प्रबंधित करें। व्यवस्थित डेटा और विज़ुअल्स के साथ अपने प्रेजेंटेशन को बेहतर बनाएं।
 
-{{< tutorial-card link="./net/tables/add-image-inside-table-cell/" title="Aspose.Slides के साथ PowerPoint में तालिका कक्षों में छवियाँ जोड़ना" imgSrc="./net/tables/add-image-inside-table-cell/images/thumb.png" >}}
+{{< tutorial-card link="./net/tables/add-image-inside-table-cell/" title="Adding Images to Table Cells in PowerPoint with Aspose.Slides" imgSrc="./net/tables/add-image-inside-table-cell/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/tables/merge-cell/" title="Aspose.Slides के साथ PowerPoint में तालिकाएँ बनाएँ और प्रारूपित करें" imgSrc="./net/tables/merge-cell/images/thumb.png" >}}
+{{< tutorial-card link="./net/tables/merge-cell/" title="Create and Format Tables in PowerPoint with Aspose.Slides" imgSrc="./net/tables/merge-cell/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/tables/standard-tables/" title="Aspose.Slides के साथ PowerPoint में मानकीकृत तालिकाएँ बनाएँ" imgSrc="./net/tables/standard-tables/images/thumb.png" >}}
+{{< tutorial-card link="./net/tables/standard-tables/" title="Create Standardized Tables in PowerPoint with Aspose.Slides" imgSrc="./net/tables/standard-tables/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/tables/table-transparency/" title="Aspose.Slides के साथ PowerPoint में तालिका पारदर्शिता सेट करें" imgSrc="./net/tables/table-transparency/images/thumb.png" >}}
+{{< tutorial-card link="./net/tables/table-transparency/" title="Set Table Transparency in PowerPoint with Aspose.Slides" imgSrc="./net/tables/table-transparency/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/tables/table-with-cell-borders/" title="पावरपॉइंट प्रेजेंटेशन में बिना बॉर्डर वाली टेबल बनाना" imgSrc="./net/tables/table-with-cell-borders/images/thumb.png" >}}
+{{< tutorial-card link="./net/tables/table-with-cell-borders/" title="Creating Tables with No Borders in PowerPoint Presentations" imgSrc="./net/tables/table-with-cell-borders/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/tables/vertically-align-text/" title="पावरपॉइंट प्रेजेंटेशन में वर्टिकल टेक्स्ट के साथ टेबल बनाना" imgSrc="./net/tables/vertically-align-text/images/thumb.png" >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-## [व्यावसायिक पावरपॉइंट आकार हेरफेर ट्यूटोरियल](./net/shapes/)
-Aspose.Slides for .NET का उपयोग करके PowerPoint प्रस्तुतियों में आकृतियाँ बनाना, अनुकूलित करना और एनिमेट करना सीखें। आकृति स्वरूपण, समूहीकरण और विशेष प्रभावों में महारत हासिल करें।
-
-{{< tutorial-card link="./net/shapes/add-arrow-shaped-line/" title="Aspose.Slides के साथ PowerPoint में कस्टम लाइन आकृतियाँ बनाना" imgSrc="./net/shapes/add-arrow-shaped-line/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/shapes/add-stretch-offset-for-image-fill/" title="Aspose.Slides के साथ PowerPoint स्लाइड में छवियाँ जोड़ना" imgSrc="./net/shapes/add-stretch-offset-for-image-fill/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/shapes/animations-on-shapes/" title="Aspose.Slides के साथ PowerPoint में एनिमेटेड टेक्स्ट प्रभाव बनाना" imgSrc="./net/shapes/animations-on-shapes/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/shapes/create-group-shape/" title=".NET के लिए Aspose.Slides के साथ PowerPoint में समूह आकृतियाँ बनाएँ" imgSrc="./net/shapes/create-group-shape/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/shapes/create-zoom-frame/" title="Aspose.Slides के साथ PowerPoint में ज़ूम फ़्रेम बनाना" imgSrc="./net/shapes/create-zoom-frame/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/shapes/fill-shapes-gradient/" title="Aspose.Slides के साथ PowerPoint में ग्रेडिएंट से भरी दीर्घवृत्ताकार आकृतियाँ बनाना" imgSrc="./net/shapes/fill-shapes-gradient/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/shapes/fill-shapes-picture/" title="Aspose.Slides का उपयोग करके PowerPoint में टाइल्ड इमेज फ़िल के साथ आकृतियाँ बनाना" imgSrc="./net/shapes/fill-shapes-picture/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/shapes/format-lines/" title="पावरपॉइंट में कस्टम लाइन फ़ॉर्मेटिंग के साथ आयताकार आकार बनाना" imgSrc="./net/shapes/format-lines/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/shapes/formatted-ellipse/" title="Aspose.Slides के साथ PowerPoint में अण्डाकार आकृतियाँ बनाना" imgSrc="./net/shapes/formatted-ellipse/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/shapes/geometry-shape-add-segment/" title="पावरपॉइंट प्रेजेंटेशन में जियोमेट्रीशेप में सेगमेंट जोड़ना" imgSrc="./net/shapes/geometry-shape-add-segment/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/shapes/geometry-shape-remove-segment/" title="Aspose.Slides के साथ PowerPoint आकृतियों में ज्यामिति पथ संशोधित करें" imgSrc="./net/shapes/geometry-shape-remove-segment/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/shapes/rotating-shapes/" title="पावरपॉइंट में आयताकार आकृतियाँ बनाना और घुमाना" imgSrc="./net/shapes/rotating-shapes/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/shapes/shapes-alignment/" title="पावरपॉइंट प्रस्तुतियों में आकृतियों को संरेखित और समूहीकृत करना" imgSrc="./net/shapes/shapes-alignment/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/shapes/tile-picture-fill-format/" title="Aspose.Slides के साथ PowerPoint में टाइल वाली छवि पृष्ठभूमि बनाएं" imgSrc="./net/shapes/tile-picture-fill-format/images/thumb.png" >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-
-{{< blocks/products/pf/tutorial-page-section >}}
-## [पावरपॉइंट के लिए उन्नत चार्ट निर्माण ट्यूटोरियल](./net/charts/)
-Aspose.Slides for .NET के साथ PowerPoint में पेशेवर डेटा विज़ुअलाइज़ेशन बनाने का तरीका जानें। पाई, कॉलम, लाइन और कस्टम चार्ट के लिए चरण-दर-चरण मार्गदर्शिकाएँ।
-
-{{< tutorial-card link="./net/charts/change-color-of-categories/" title="Aspose.Slides के साथ PowerPoint में चार्ट डेटा बिंदु रंग अनुकूलित करें" imgSrc="./net/charts/change-color-of-categories/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/charts/chart-marker-options-on-data-point/" title="Aspose.Slides के साथ PowerPoint लाइन चार्ट में कस्टम छवि मार्कर" imgSrc="./net/charts/chart-marker-options-on-data-point/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/charts/chart-trend-lines/" title="Aspose.Slides का उपयोग करके PowerPoint चार्ट में ट्रेंड लाइन्स जोड़ें" imgSrc="./net/charts/chart-trend-lines/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/charts/existing-chart/" title="Aspose.Slides के साथ PowerPoint में चार्ट संशोधित करना" imgSrc="./net/charts/existing-chart/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/charts/multi-category-chart/" title="Aspose.Slides के साथ क्लस्टर्ड कॉलम चार्ट बनाना" imgSrc="./net/charts/multi-category-chart/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/charts/normal-charts/" title=".NET के लिए Aspose.Slides के साथ कस्टम कॉलम चार्ट बनाना" imgSrc="./net/charts/normal-charts/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/charts/pie-chart/" title="Aspose.Slides का उपयोग करके PowerPoint में पाई चार्ट बनाएं" imgSrc="./net/charts/pie-chart/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/charts/tree-map-chart/" title="Aspose.Slides का उपयोग करके PowerPoint में ट्रीमैप चार्ट बनाएं" imgSrc="./net/charts/tree-map-chart/images/thumb.png" >}}
+{{< tutorial-card link="./net/tables/vertically-align-text/" title="Creating Tables with Vertical Text in PowerPoint Presentations" imgSrc="./net/tables/vertically-align-text/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [पावरपॉइंट प्रस्तुतियों में व्यावसायिक पाठ स्वरूपण](./net/text/)
-Aspose.Slides का उपयोग करके टेक्स्ट प्रभाव, संरेखण, छाया, कॉलम और बुलेट पॉइंट पर व्यापक ट्यूटोरियल के साथ पावरपॉइंट में टेक्स्ट फ़ॉर्मेटिंग और टाइपोग्राफी में महारत हासिल करें।
+## [प्रोफेशनल PowerPoint शेप मैनिपुलेशन ट्यूटोरियल्स](./net/shapes/)
+Aspose.Slides for .NET का उपयोग करके PowerPoint प्रेजेंटेशन में शेप्स को बनाना, कस्टमाइज़ करना और एनीमेट करना सीखें। शेप फॉर्मेटिंग, ग्रुपिंग, और स्पेशल इफ़ेक्ट्स में महारत हासिल करें।
 
-{{< tutorial-card link="./net/text/add-columns-in-text-frame/" title=".NET के लिए Aspose.Slides के साथ PowerPoint में टेक्स्ट कॉलम बनाना" imgSrc="./net/text/add-columns-in-text-frame/images/thumb.png" >}}
+{{< tutorial-card link="./net/shapes/add-arrow-shaped-line/" title="Creating Custom Line Shapes in PowerPoint with Aspose.Slides" imgSrc="./net/shapes/add-arrow-shaped-line/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/text/animate-text-type/" title="Aspose.Slides के साथ PowerPoint में अक्षर द्वारा टेक्स्ट एनिमेट करें" imgSrc="./net/text/animate-text-type/images/thumb.png" >}}
+{{< tutorial-card link="./net/shapes/add-stretch-offset-for-image-fill/" title="Adding Images to PowerPoint Slides with Aspose.Slides" imgSrc="./net/shapes/add-stretch-offset-for-image-fill/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/text/apply-inner-shadow/" title="Aspose.Slides में टेक्स्टबॉक्स के साथ पावरपॉइंट प्रेजेंटेशन बनाएं" imgSrc="./net/text/apply-inner-shadow/images/thumb.png" >}}
+{{< tutorial-card link="./net/shapes/animations-on-shapes/" title="Creating Animated Text Effects in PowerPoint with Aspose.Slides" imgSrc="./net/shapes/animations-on-shapes/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/text/apply-outer-shadow/" title="Aspose.Slides में PowerPoint में आंतरिक छाया प्रभाव के साथ टेक्स्ट बनाएं" imgSrc="./net/text/apply-outer-shadow/images/thumb.png" >}}
+{{< tutorial-card link="./net/shapes/create-group-shape/" title="Create Group Shapes in PowerPoint with Aspose.Slides for .NET" imgSrc="./net/shapes/create-group-shape/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/text/custom-rotation-angle-text-frame/" title="Aspose.Slides के साथ PowerPoint में चार्ट शीर्षक और लेबल घुमाना" imgSrc="./net/text/custom-rotation-angle-text-frame/images/thumb.png" >}}
+{{< tutorial-card link="./net/shapes/create-zoom-frame/" title="Creating Zoom Frames in PowerPoint with Aspose.Slides" imgSrc="./net/shapes/create-zoom-frame/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/text/end-para-graph-properties/" title="स्वरूपित पाठ के साथ पावरपॉइंट प्रस्तुतियाँ बनाना" imgSrc="./net/text/end-para-graph-properties/images/thumb.png" >}}
+{{< tutorial-card link="./net/shapes/fill-shapes-gradient/" title="Creating Gradient Filled Ellipse Shapes in PowerPoint with Aspose.Slides" imgSrc="./net/shapes/fill-shapes-gradient/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/text/font-family/" title="Aspose.Slides के साथ PowerPoint में फ़ॉर्मेटेड टेक्स्ट बॉक्स बनाना" imgSrc="./net/text/font-family/images/thumb.png" >}}
+{{< tutorial-card link="./net/shapes/fill-shapes-picture/" title="Creating Shapes with Tiled Image Fill in PowerPoint using Aspose.Slides" imgSrc="./net/shapes/fill-shapes-picture/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/text/mutilevel-bullets/" title="Aspose.Slides के साथ PowerPoint में बहु-स्तरीय बुलेट पॉइंट बनाना" imgSrc="./net/text/mutilevel-bullets/images/thumb.png" >}}
+{{< tutorial-card link="./net/shapes/format-lines/" title="Creating a Rectangle Shape with Custom Line Formatting in PowerPoint" imgSrc="./net/shapes/format-lines/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/text/paragraph-bullets/" title="पावरपॉइंट प्रस्तुतियों में कस्टम बुलेट पॉइंट बनाना" imgSrc="./net/text/paragraph-bullets/images/thumb.png" >}}
+{{< tutorial-card link="./net/shapes/formatted-ellipse/" title="Creating Elliptical Shapes in PowerPoint with Aspose.Slides" imgSrc="./net/shapes/formatted-ellipse/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/text/paragraphs-alignment/" title="Aspose.Slides के साथ PowerPoint स्लाइड में टेक्स्ट को केन्द्रित करना" imgSrc="./net/text/paragraphs-alignment/images/thumb.png" >}}
+{{< tutorial-card link="./net/shapes/geometry-shape-add-segment/" title="Adding Segments to GeometryShape in PowerPoint Presentations" imgSrc="./net/shapes/geometry-shape-add-segment/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/text/rotating-text/" title="Aspose.Slides का उपयोग करके PowerPoint में वर्टिकल टेक्स्ट बनाना" imgSrc="./net/text/rotating-text/images/thumb.png" >}}
+{{< tutorial-card link="./net/shapes/geometry-shape-remove-segment/" title="Modify Geometry Paths in PowerPoint Shapes with Aspose.Slides" imgSrc="./net/shapes/geometry-shape-remove-segment/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/text/shadow-effects/" title="Aspose.Slides के साथ PowerPoint में छाया प्रभाव के साथ टेक्स्ट जोड़ना" imgSrc="./net/text/shadow-effects/images/thumb.png" >}}
+{{< tutorial-card link="./net/shapes/rotating-shapes/" title="Creating and Rotating Rectangle Shapes in PowerPoint" imgSrc="./net/shapes/rotating-shapes/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/shapes/shapes-alignment/" title="Aligning and Grouping Shapes in PowerPoint Presentations" imgSrc="./net/shapes/shapes-alignment/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/shapes/tile-picture-fill-format/" title="Create Tiled Image Backgrounds in PowerPoint with Aspose.Slides" imgSrc="./net/shapes/tile-picture-fill-format/images/thumb.png" >}}
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+
+{{< blocks/products/pf/tutorial-page-section >}}
+## [PowerPoint के लिए उन्नत चार्ट निर्माण ट्यूटोरियल्स](./net/charts/)
+Aspose.Slides for .NET के साथ PowerPoint में प्रोफेशनल डेटा विज़ुअलाइज़ेशन बनाना सीखें। पाई, कॉलम, लाइन, और कस्टम चार्ट्स के लिए चरण‑दर‑चरण गाइड्स।
+
+{{< tutorial-card link="./net/charts/change-color-of-categories/" title="Customize Chart Data Point Colors in PowerPoint with Aspose.Slides" imgSrc="./net/charts/change-color-of-categories/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/charts/chart-marker-options-on-data-point/" title="Custom Image Markers in PowerPoint Line Charts with Aspose.Slides" imgSrc="./net/charts/chart-marker-options-on-data-point/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/charts/chart-trend-lines/" title="Add Trend Lines to PowerPoint Charts Using Aspose.Slides" imgSrc="./net/charts/chart-trend-lines/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/charts/existing-chart/" title="Modifying Charts in PowerPoint with Aspose.Slides" imgSrc="./net/charts/existing-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/charts/multi-category-chart/" title="Creating Clustered Column Charts with Aspose.Slides" imgSrc="./net/charts/multi-category-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/charts/normal-charts/" title="Creating Custom Column Charts with Aspose.Slides for .NET" imgSrc="./net/charts/normal-charts/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/charts/pie-chart/" title="Create a Pie Chart in PowerPoint Using Aspose.Slides" imgSrc="./net/charts/pie-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/charts/tree-map-chart/" title="Create a Treemap Chart in PowerPoint using Aspose.Slides" imgSrc="./net/charts/tree-map-chart/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## चुनिंदा पावरपॉइंट विकास संसाधन
+## [PowerPoint प्रेजेंटेशन में प्रोफेशनल टेक्स्ट फॉर्मेटिंग](./net/text/)
+Aspose.Slides का उपयोग करके टेक्स्ट इफ़ेक्ट्स, एलाइनमेंट, शैडो, कॉलम, और बुलेट पॉइंट्स पर व्यापक ट्यूटोरियल्स के साथ PowerPoint में टेक्स्ट फॉर्मेटिंग और टाइपोग्राफी में महारत हासिल करें।
 
-### .NET मूल बातें
-- [शुरू करना](./net/getting-started/)
-- [प्रस्तुति रूपांतरण](./net/presentation-conversion/)
-- [प्रस्तुति हेरफेर](./net/presentation-manipulation/)
+{{< tutorial-card link="./net/text/add-columns-in-text-frame/" title="Creating Text Columns in PowerPoint with Aspose.Slides for .NET" imgSrc="./net/text/add-columns-in-text-frame/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/text/animate-text-type/" title="Animate Text by Letter in PowerPoint with Aspose.Slides" imgSrc="./net/text/animate-text-type/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/text/apply-inner-shadow/" title="Create PowerPoint Presentations with TextBox in Aspose.Slides" imgSrc="./net/text/apply-inner-shadow/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/text/apply-outer-shadow/" title="Create Text with Inner Shadow Effects in PowerPoint in Aspose.Slides" imgSrc="./net/text/apply-outer-shadow/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/text/custom-rotation-angle-text-frame/" title="Rotating Chart Titles and Labels in PowerPoint with Aspose.Slides" imgSrc="./net/text/custom-rotation-angle-text-frame/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/text/end-para-graph-properties/" title="Creating PowerPoint Presentations with Formatted Text" imgSrc="./net/text/end-para-graph-properties/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/text/font-family/" title="Creating Formatted Text Boxes in PowerPoint with Aspose.Slides" imgSrc="./net/text/font-family/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/text/mutilevel-bullets/" title="Creating Multi-level Bullet Points in PowerPoint with Aspose.Slides" imgSrc="./net/text/mutilevel-bullets/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/text/paragraph-bullets/" title="Creating Custom Bullet Points in PowerPoint Presentations" imgSrc="./net/text/paragraph-bullets/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/text/paragraphs-alignment/" title="Centering Text in PowerPoint Slides with Aspose.Slides" imgSrc="./net/text/paragraphs-alignment/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/text/rotating-text/" title="Creating Vertical Text in PowerPoint Using Aspose.Slides" imgSrc="./net/text/rotating-text/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/text/shadow-effects/" title="Adding Text with Shadow Effects in PowerPoint with Aspose.Slides" imgSrc="./net/text/shadow-effects/images/thumb.png" >}}
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+## प्रमुख PowerPoint विकास संसाधन
+
+### .NET मूलभूत
+- [शुरूआत](./net/getting-started/)
+- [प्रेजेंटेशन रूपांतरण](./net/presentation-conversion/)
+- [प्रेजेंटेशन मैनिपुलेशन](./net/presentation-manipulation/)
 - [स्लाइड एक्सेस और मैनिपुलेशन](./net/slide-access-and-manipulation/)
-- [स्लाइड पृष्ठभूमि हेरफेर](./net/slide-background-manipulation/)
-- [स्लाइड टिप्पणियाँ हेरफेर](./net/slide-comments-manipulation/)
-- [हाइपरलिंक हेरफेर](./net/hyperlink-manipulation/)
+- [स्लाइड बैकग्राउंड मैनिपुलेशन](./net/slide-background-manipulation/)
+- [स्लाइड कमेंट्स मैनिपुलेशन](./net/slide-comments-manipulation/)
+- [हाइपरलिंक मैनिपुलेशन](./net/hyperlink-manipulation/)
 
-### चार्ट और मीडिया
-- [चार्ट निर्माण और अनुकूलन](./net/chart-creation-and-customization/)
-- [चार्ट स्वरूपण और एनीमेशन](./net/chart-formatting-and-animation/)
-- [उन्नत चार्ट अनुकूलन](./net/advanced-chart-customization/)
-- [अतिरिक्त चार्ट सुविधाएँ](./net/additional-chart-features/)
-- [ऑडियो और वीडियो निष्कर्षण](./net/audio-and-video-extraction/)
-- [स्लाइडों में छवि और वीडियो हेरफेर](./net/image-and-video-manipulation-in-slides/)
+### चार्ट्स और मीडिया
+- [चार्ट निर्माण और कस्टमाइज़ेशन](./net/chart-creation-and-customization/)
+- [चार्ट फॉर्मेटिंग और एनीमेशन](./net/chart-formatting-and-animation/)
+- [उन्नत चार्ट कस्टमाइज़ेशन](./net/advanced-chart-customization/)
+- [अतिरिक्त चार्ट फीचर्स](./net/additional-chart-features/)
+- [ऑडियो और वीडियो एक्सट्रैक्शन](./net/audio-and-video-extraction/)
+- [स्लाइड्स में इमेज और वीडियो मैनिपुलेशन](./net/image-and-video-manipulation-in-slides/)
 
-### स्लाइड तत्व
-- [नोट्स स्लाइड हेरफेर](./net/notes-slide-manipulation/)
-- [स्लाइड थंबनेल जनरेशन](./net/slide-thumbnail-generation/)
-- [स्लाइड एनीमेशन नियंत्रण](./net/slide-animation-control/)
-- [स्लाइड संक्रमण प्रभाव](./net/slide-transition-effects/)
-- [स्लाइड दृश्य और लेआउट हेरफेर](./net/slide-view-and-layout-manipulation/)
-- [लाइसेंसिंग और स्वरूपण](./net/licensing-and-formatting/)
+### स्लाइड एलिमेंट्स
+- [नोट्स स्लाइड मैनिपुलेशन](./net/notes-slide-manipulation/)
+- [स्लाइड थंबनेल जेनरेशन](./net/slide-thumbnail-generation/)
+- [स्लाइड एनीमेशन कंट्रोल](./net/slide-animation-control/)
+- [स्लाइड ट्रांज़िशन इफ़ेक्ट्स](./net/slide-transition-effects/)
+- [स्लाइड व्यू और लेआउट मैनिपुलेशन](./net/slide-view-and-layout-manipulation/)
+- [लाइसेंसिंग और फॉर्मेटिंग](./net/licensing-and-formatting/)
 
-### आकृतियाँ और स्वरूपण
-- [स्लाइडों में मुद्रण और रेंडरिंग](./net/printing-and-rendering-in-slides/)
-- [स्लाइडों में आकार प्रभाव और हेरफेर](./net/shape-effects-and-manipulation-in-slides/)
-- [स्लाइड में आकृति ज्यामिति और स्थिति निर्धारण](./net/shape-geometry-and-positioning-in-slides/)
-- [स्लाइड्स में आकार संरेखण और स्वरूपण](./net/shape-alignment-and-formatting-in-slides/)
-- [आकृतियाँ और पाठ फ़्रेम](./net/shapes-text-frames/)
+### शेप्स और फॉर्मेटिंग
+- [स्लाइड्स में प्रिंटिंग और रेंडरिंग](./net/printing-and-rendering-in-slides/)
+- [स्लाइड्स में शेप इफ़ेक्ट्स और मैनिपुलेशन](./net/shape-effects-and-manipulation-in-slides/)
+- [स्लाइड्स में शेप जियोमेट्री और पोजिशनिंग](./net/shape-geometry-and-positioning-in-slides/)
+- [स्लाइड्स में शेप एलाइनमेंट और फॉर्मेटिंग](./net/shape-alignment-and-formatting-in-slides/)
+- [शेप्स और टेक्स्ट फ्रेम्स](./net/shapes-text-frames/)
 
-### सामग्री और एकीकरण
-- [चार्ट और ग्राफ़](./net/charts-graphs/)
-- [छवियाँ और मल्टीमीडिया](./net/images-multimedia/)
-- [स्मार्ट आर्ट और आरेख](./net/smart-art-diagrams/)
-- [एनिमेशन और संक्रमण](./net/animations-transitions/)
-- [स्वरूपण और शैलियाँ](./net/formatting-styles/)
-- [डेटा एकीकरण](./net/data-integration/)
+### कंटेंट और इंटीग्रेशन
+- [चार्ट्स और ग्राफ़्स](./net/charts-graphs/)
+- [इमेजेज़ और मल्टीमीडिया](./net/images-multimedia/)
+- [स्मार्ट आर्ट और डायग्राम्स](./net/smart-art-diagrams/)
+- [एनीमेशन्स और ट्रांज़िशन्स](./net/animations-transitions/)
+- [फ़ॉर्मेटिंग और स्टाइल्स](./net/formatting-styles/)
+- [डेटा इंटीग्रेशन](./net/data-integration/)
 - [OLE ऑब्जेक्ट्स और एम्बेडिंग](./net/ole-objects-embedding/)
 
-### उन्नत विशेषताएँ
-- [मास्टर स्लाइड और टेम्पलेट्स](./net/master-slides-templates/)
-- [टिप्पणियाँ और समीक्षा](./net/comments-reviewing/)
-- [सुरक्षा एवं संरक्षण](./net/security-protection/)
-- [शीर्षलेख, पादलेख और नोट्स](./net/headers-footers-notes/)
-- [मुद्रण और रेंडरिंग](./net/printing-rendering/)
-- [प्रदर्शन अनुकूलन](./net/performance-optimization/)
-- [निर्यात और रूपांतरण](./net/export-conversion/)
+### उन्नत फीचर्स
+- [मास्टर स्लाइड्स और टेम्प्लेट्स](./net/master-slides-templates/)
+- [कमेंट्स और रिव्यूइंग](./net/comments-reviewing/)
+- [सिक्योरिटी और प्रोटेक्शन](./net/security-protection/)
+- [हेडर्स, फुटर्स और नोट्स](./net/headers-footers-notes/)
+- [प्रिंटिंग और रेंडरिंग](./net/printing-rendering/)
+- [परफ़ॉर्मेंस ऑप्टिमाइज़ेशन](./net/performance-optimization/)
+- [एक्सपोर्ट और कन्वर्ज़न](./net/export-conversion/)
 
-### संचालन एवं स्वचालन
-- [प्रस्तुति संचालन](./net/presentation-operations/)
-- [स्लाइड प्रबंधन](./net/slide-management/)
-- [VBA मैक्रोज़ और स्वचालन](./net/vba-macros-automation/)
-- [कस्टम गुण और मेटाडेटा](./net/custom-properties-metadata/)
-- [प्रचय संसाधन](./net/batch-processing/)
+### ऑपरेशन्स और ऑटोमेशन
+- [प्रेजेंटेशन ऑपरेशन्स](./net/presentation-operations/)
+- [स्लाइड मैनेजमेंट](./net/slide-management/)
+- [VBA मैक्रोज़ और ऑटोमेशन](./net/vba-macros-automation/)
+- [कस्टम प्रॉपर्टीज़ और मेटाडाटा](./net/custom-properties-metadata/)
+- [बैच प्रोसेसिंग](./net/batch-processing/)
 
 ## Aspose.Slides For Java: जावा डेवलपर्स के लिए प्रोफेशनल प्रेजेंटेशन API
 
 {{% alert color="primary" %}}
 
-Aspose.Slides for Java की शक्ति का पता लगाएं—एक व्यापक PowerPoint स्वचालन API जिसे खास तौर पर Java डेवलपर्स के लिए डिज़ाइन किया गया है। हमारे सावधानीपूर्वक तैयार किए गए ट्यूटोरियल Java अनुप्रयोगों में प्रस्तुतियों को बनाने, संशोधित करने और परिवर्तित करने के लिए स्पष्ट, चरण-दर-चरण मार्गदर्शन प्रदान करते हैं। बुनियादी स्लाइड हेरफेर से लेकर चार्ट, एनिमेशन और डेटा एकीकरण जैसी उन्नत सुविधाओं तक, ये ट्यूटोरियल आपको परिष्कृत प्रस्तुति समाधान बनाने में सक्षम बनाते हैं। इन व्यावहारिक, कोड-केंद्रित गाइड के साथ आज ही अपने Java प्रोजेक्ट में पेशेवर PowerPoint कार्यक्षमता को लागू करना शुरू करें।
+Aspose.Slides for Java की शक्ति की खोज करें—एक व्यापक PowerPoint ऑटोमेशन API जो विशेष रूप से जावा डेवलपर्स के लिए डिज़ाइन किया गया है। हमारे सावधानीपूर्वक तैयार किए गए ट्यूटोरियल्स स्पष्ट, चरण‑दर‑चरण मार्गदर्शन प्रदान करते हैं जो जावा एप्लिकेशन्स में प्रेजेंटेशन बनाने, संशोधित करने, और कन्वर्ट करने में मदद करते हैं। बुनियादी स्लाइड मैनिपुलेशन से लेकर उन्नत फीचर्स जैसे चार्ट्स, एनीमेशन्स, और डेटा इंटीग्रेशन तक, ये ट्यूटोरियल्स आपको परिष्कृत प्रेजेंटेशन समाधान बनाने में सक्षम बनाते हैं। आज ही इन व्यावहारिक, कोड‑फ़ोकस्ड गाइड्स के साथ अपने जावा प्रोजेक्ट्स में प्रोफेशनल PowerPoint फ़ंक्शनैलिटी लागू करना शुरू करें।
 
 {{% /alert %}}
 
-## आवश्यक जावा पावरपॉइंट विकास संसाधन
+## आवश्यक जावा PowerPoint विकास संसाधन
 
-### शुरू करना
-- [Aspose.Slides के साथ आरंभ करना](./java/getting-started/)
-- [जावा स्लाइड लाइसेंसिंग और आरंभीकरण](./java/licensing-and-initialization)
-- [जावा स्लाइड्स अतिरिक्त उपयोगिताएँ](./java/additional-utilities/)
-- [जावा स्लाइड प्रस्तुति गुण](./java/presentation-properties/)
-- [जावा स्लाइड्स सेविंग विकल्प](./java/saving-options/)
+### शुरूआत
+- [Aspose.Slides के साथ शुरूआत](./java/getting-started/)
+- [जावा स्लाइड्स लाइसेंसिंग और इनिशियलाइज़ेशन](./java/licensing-and-initialization)
+- [जावा स्लाइड्स अतिरिक्त यूटिलिटीज़](./java/additional-utilities/)
+- [जावा स्लाइड्स प्रेजेंटेशन प्रॉपर्टीज़](./java/presentation-properties/)
+- [जावा स्लाइड्स सेविंग ऑप्शन्स](./java/saving-options/)
 
-### चार्ट और डेटा
-- [जावा स्लाइड्स चार्ट डेटा हेरफेर](./java/chart-data-manipulation)
-- [जावा स्लाइड चार्ट तत्व](./java/chart-elements)
-- [जावा स्लाइड चार्ट निर्माण](./java/chart-creation)
-- [जावा स्लाइड्स डेटा हेरफेर](./java/data-manipulation)
-- [चार्ट और डेटा विज़ुअलाइज़ेशन](./java/charts-graphs/)
+### चार्ट्स और डेटा
+- [जावा स्लाइड्स चार्ट डेटा मैनिपुलेशन](./java/chart-data-manipulation)
+- [जावा स्लाइड्स चार्ट एलिमेंट्स](./java/chart-elements)
+- [जावा स्लाइड्स चार्ट क्रिएशन](./java/chart-creation)
+- [जावा स्लाइड्स डेटा मैनिपुलेशन](./java/data-manipulation)
+- [चार्ट्स और डेटा विज़ुअलाइज़ेशन](./java/charts-graphs/)
 
-### सामग्री और मीडिया
-- [जावा स्लाइड अनुकूलन और स्वरूपण](./java/customization-and-formatting)
+### कंटेंट और मीडिया
+- [जावा स्लाइड्स कस्टमाइज़ेशन और फॉर्मेटिंग](./java/customization-and-formatting)
 - [जावा स्लाइड्स एनीमेशन और लेआउट](./java/animation-and-layout)
-- [जावा स्लाइड्स मीडिया नियंत्रण](./java/media-controls/)
+- [जावा स्लाइड्स मीडिया कंट्रोल्स](./java/media-controls/)
 - [जावा स्लाइड्स इमेज हैंडलिंग](./java/image-handling/)
-- [छवियों और मल्टीमीडिया के साथ कार्य करना](./java/images-multimedia/)
+- [इमेजेज़ और मल्टीमीडिया के साथ काम करना](./java/images-multimedia/)
 
-### मूलभूत प्रकार्य
-- [प्रस्तुति फ़ाइल संचालन](./java/presentation-operations/)
-- [स्लाइड प्रबंधन और हेरफेर](./java/slide-management/)
-- [आकृतियाँ और पाठ फ़्रेम प्रबंधन](./java/shapes-text-frames/)
-- [जावा में पावरपॉइंट टेबल्स](./java/tables/)
-- [जावा स्लाइड प्रस्तुति रूपांतरण](./java/presentation-conversion)
+### कोर फ़ंक्शन्स
+- [प्रेजेंटेशन फ़ाइल ऑपरेशन्स](./java/presentation-operations/)
+- [स्लाइड मैनेजमेंट और मैनिपुलेशन](./java/slide-management/)
+- [शेप्स और टेक्स्ट फ्रेम हैंडलिंग](./java/shapes-text-frames/)
+- [जावा में PowerPoint टेबल्स](./java/tables/)
+- [जावा स्लाइड्स प्रेजेंटेशन कन्वर्ज़न](./java/presentation-conversion)
 
-### उन्नत विशेषताएँ
-- [स्मार्टआर्ट और आरेख निर्माण](./java/smart-art-diagrams/)
-- [एनीमेशन और संक्रमण प्रभाव](./java/animations-transitions/)
-- [स्लाइड स्वरूपण और डिजाइन](./java/formatting-styles/)
-- [मास्टर स्लाइड और टेम्पलेट्स](./java/master-slides-templates/)
-- [टिप्पणियाँ और समीक्षा सुविधाएँ](./java/comments-reviewing/)
+### उन्नत फीचर्स
+- [स्मार्टआर्ट और डायग्राम निर्माण](./java/smart-art-diagrams/)
+- [एनीमेशन और ट्रांज़िशन इफ़ेक्ट्स](./java/animations-transitions/)
+- [स्लाइड फॉर्मेटिंग और डिज़ाइन](./java/formatting-styles/)
+- [मास्टर स्लाइड्स और टेम्प्लेट्स](./java/master-slides-templates/)
+- [कमेंट्स और रिव्यू फीचर्स](./java/comments-reviewing/)
 
 ### सुरक्षा और आउटपुट
-- [जावा स्लाइड दस्तावेज़ सुरक्षा](./java/document-protection/)
-- [प्रस्तुति सुरक्षा विकल्प](./java/security-protection/)
-- [शीर्षलेख, पादलेख और नोट्स](./java/headers-footers-notes/)
+- [जावा स्लाइड्स डॉक्यूमेंट प्रोटेक्शन](./java/document-protection/)
+- [प्रेजेंटेशन सिक्योरिटी ऑप्शन्स](./java/security-protection/)
+- [हेडर्स, फुटर्स और नोट्स](./java/headers-footers-notes/)
 - [स्लाइड रेंडरिंग और प्रिंटिंग](./java/printing-rendering/)
-- [निर्यात और प्रारूप रूपांतरण](./java/export-conversion/)
+- [एक्सपोर्ट और फ़ॉर्मेट कन्वर्ज़न](./java/export-conversion/)
 
-### एकीकरण और प्रसंस्करण
-- [डेटा-संचालित प्रस्तुतियाँ](./java/data-integration/)
-- [OLE ऑब्जेक्ट्स और एम्बेडेड सामग्री](./java/ole-objects-embedding/)
-- [पावरपॉइंट प्रदर्शन अनुकूलन](./java/performance-optimization/)
-- [पावरपॉइंट स्वचालन और स्क्रिप्टिंग](./java/vba-macros-automation/)
-- [दस्तावेज़ गुण प्रबंधित करना](./java/custom-properties-metadata/)
-- [बैच प्रोसेसिंग पावरपॉइंट फ़ाइलें](./java/batch-processing/)
+### इंटीग्रेशन और प्रोसेसिंग
+- [डेटा-ड्रिवेन प्रेजेंटेशन](./java/data-integration/)
+- [OLE ऑब्जेक्ट्स और एम्बेडेड कंटेंट](./java/ole-objects-embedding/)
+- [PowerPoint परफ़ॉर्मेंस ऑप्टिमाइज़ेशन](./java/performance-optimization/)
+- [PowerPoint ऑटोमेशन और स्क्रिप्टिंग](./java/vba-macros-automation/)
+- [डॉक्यूमेंट प्रॉपर्टीज़ मैनेजमेंट](./java/custom-properties-metadata/)
+- [बैच प्रोसेसिंग PowerPoint फ़ाइल्स](./java/batch-processing/)
 
-## Aspose.Slides For Python via .NET: Python डेवलपर्स के लिए प्रोफेशनल पावरपॉइंट लाइब्रेरी
+## Aspose.Slides For Python via .NET: पायथन डेवलपर्स के लिए प्रोफेशनल PowerPoint लाइब्रेरी
 
 {{% alert color="primary" %}}
 
-.NET के माध्यम से Python के लिए Aspose.Slides का अन्वेषण करें—एक शक्तिशाली PowerPoint ऑटोमेशन लाइब्रेरी जो Python डेवलपर्स के लिए Aspose.Slides की पूरी क्षमताएँ लाती है। हमारे व्यापक ट्यूटोरियल आपको परिचित Python सिंटैक्स का उपयोग करके PowerPoint प्रस्तुतियाँ बनाने, संशोधित करने और परिवर्तित करने में मार्गदर्शन करते हैं। आसानी से अनुसरण करने वाले उदाहरणों के साथ पेशेवर स्लाइड, चार्ट, एनिमेशन और मल्टीमीडिया सामग्री को लागू करना सीखें। ये चरण-दर-चरण मार्गदर्शिकाएँ आपको Microsoft Office इंस्टॉलेशन की आवश्यकता के बिना अपने Python अनुप्रयोगों में उन्नत PowerPoint कार्यक्षमता का लाभ उठाने में मदद करती हैं। आज ही Python में परिष्कृत प्रस्तुति समाधान बनाना शुरू करें।
+Aspose.Slides for Python via .NET का अन्वेषण करें—एक शक्तिशाली PowerPoint ऑटोमेशन लाइब्रेरी जो Aspose.Slides की पूरी क्षमताओं को पायथन डेवलपर्स तक पहुंचाती है। हमारे व्यापक ट्यूटोरियल्स आपको परिचित पायथन सिंटैक्स का उपयोग करके PowerPoint प्रेजेंटेशन बनाने, संशोधित करने, और कन्वर्ट करने में मार्गदर्शन करते हैं। आसान‑से‑फ़ॉलो उदाहरणों के साथ प्रोफेशनल स्लाइड्स, चार्ट्स, एनीमेशन्स, और मल्टीमीडिया कंटेंट को लागू करना सीखें। ये चरण‑दर‑चरण गाइड्स आपको अपने पायथन एप्लिकेशन्स में उन्नत PowerPoint फ़ंक्शनैलिटी का उपयोग करने में मदद करते हैं, बिना Microsoft Office इंस्टॉल किए। आज ही पायथन में परिष्कृत प्रेजेंटेशन समाधान बनाना शुरू करें।
 
 {{% /alert %}}
 
-## आवश्यक पायथन पावरपॉइंट विकास संसाधन
+## आवश्यक पायथन PowerPoint विकास संसाधन
 
-### शुरू करना
-- [शुरू करना](./python-net/getting-started/)
-- [प्रस्तुति प्रबंधन](./python-net/presentation-management/)
-- [स्लाइड संचालन](./python-net/slide-operations/)
-- [आकृतियाँ और पाठ](./python-net/shapes-text/)
-- [टेबल](./python-net/tables/)
+### शुरूआत
+- [शुरूआत](./python-net/getting-started/)
+- [प्रेजेंटेशन मैनेजमेंट](./python-net/presentation-management/)
+- [स्लाइड ऑपरेशन्स](./python-net/slide-operations/)
+- [शेप्स और टेक्स्ट](./python-net/shapes-text/)
+- [टेबल्स](./python-net/tables/)
 
-### चार्ट और मीडिया
-- [चार्ट और ग्राफ़](./python-net/charts-graphs/)
-- [छवियाँ और मल्टीमीडिया](./python-net/images-multimedia/)
-- [स्मार्ट आर्ट और आरेख](./python-net/smart-art-diagrams/)
-- [एनिमेशन और संक्रमण](./python-net/animations-transitions/)
-- [स्वरूपण और शैलियाँ](./python-net/formatting-styles/)
+### चार्ट्स और मीडिया
+- [चार्ट्स और ग्राफ़्स](./python-net/charts-graphs/)
+- [इमेजेज़ और मल्टीमीडिया](./python-net/images-multimedia/)
+- [स्मार्ट आर्ट और डायग्राम्स](./python-net/smart-art-diagrams/)
+- [एनीमेशन्स और ट्रांज़िशन्स](./python-net/animations-transitions/)
+- [फ़ॉर्मेटिंग और स्टाइल्स](./python-net/formatting-styles/)
 
-### उन्नत विशेषताएँ
-- [शीर्षलेख और पादलेख](./python-net/headers-footers/)
-- [टिप्पणियाँ और नोट्स](./python-net/comments-notes/)
-- [सुरक्षा एवं संरक्षण](./python-net/security-protection/)
-- [कस्टम गुण](./python-net/custom-properties/)
-- [उन्नत पाठ प्रसंस्करण](./python-net/advanced-text-processing/)
+### उन्नत फीचर्स
+- [हेडर्स और फुटर्स](./python-net/headers-footers/)
+- [कमेंट्स और नोट्स](./python-net/comments-notes/)
+- [सिक्योरिटी और प्रोटेक्शन](./python-net/security-protection/)
+- [कस्टम प्रॉपर्टीज़](./python-net/custom-properties/)
+- [उन्नत टेक्स्ट प्रोसेसिंग](./python-net/advanced-text-processing/)
 
-### एकीकरण और प्रसंस्करण
+### इंटीग्रेशन और प्रोसेसिंग
 - [OLE ऑब्जेक्ट्स और एम्बेडिंग](./python-net/ole-objects-embedding/)
-- [आयात और निर्यात](./python-net/import-export/)
-- [टेम्पलेट्स और रिपोर्टिंग](./python-net/templates-reporting/)
-- [प्रदर्शन अनुकूलन](./python-net/performance-optimization/)
+- [इम्पोर्ट और एक्सपोर्ट](./python-net/import-export/)
+- [टेम्प्लेट्स और रिपोर्टिंग](./python-net/templates-reporting/)
+- [परफ़ॉर्मेंस ऑप्टिमाइज़ेशन](./python-net/performance-optimization/)
 - [VBA मैक्रोज़](./python-net/vba-macros/)
-- [प्रचय संसाधन](./python-net/batch-processing/)
-- [गणित समीकरण](./python-net/math-equations/)
-- [पीढ़ी और एआई एकीकरण](./python-net/generation-ai-integration/)
+- [बैच प्रोसेसिंग](./python-net/batch-processing/)
+- [मैथ इक्वेशन्स](./python-net/math-equations/)
+- [जनरेशन और AI इंटीग्रेशन](./python-net/generation-ai-integration/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
