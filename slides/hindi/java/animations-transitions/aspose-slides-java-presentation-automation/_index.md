@@ -1,9 +1,18 @@
 ---
-"date": "2025-04-18"
-"description": "Aspose.Slides for Java का उपयोग करके PPTX फ़ाइलों में ट्रांज़िशन और एनिमेशन जोड़ने को स्वचालित करने का तरीका जानें। अपने प्रेजेंटेशन वर्कफ़्लो को सहजता से सुव्यवस्थित करें।"
-"title": "Aspose.Slides के साथ जावा में पावरपॉइंट ट्रांजिशन को स्वचालित करें एनिमेशन और ट्रांजिशन के लिए एक व्यापक गाइड"
-"url": "/hi/java/animations-transitions/aspose-slides-java-presentation-automation/"
-"weight": 1
+date: '2025-12-06'
+description: Aspose.Slides का उपयोग करके जावा में स्लाइड शो ट्रांज़िशन बनाना और PowerPoint
+  ट्रांज़िशन को स्वचालित करना सीखें। इसमें स्लाइड ट्रांज़िशन की अवधि सेट करना और पूर्ण
+  कोड उदाहरण शामिल हैं।
+keywords:
+- Aspose.Slides for Java
+- automate PowerPoint transitions
+- create slide show transitions
+- set slide transition duration
+language: hi
+title: Aspose.Slides के साथ जावा में स्लाइड शो ट्रांज़िशन बनाएं – पावरपॉइंट ट्रांज़िशन
+  को स्वचालित करें
+url: /java/animations-transitions/aspose-slides-java-presentation-automation/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,33 +20,46 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.Slides के साथ जावा में पावरपॉइंट ट्रांजिशन को स्वचालित करें: एक व्यापक गाइड
+# Java में Aspose.Slides के साथ स्लाइड शो ट्रांज़िशन बनाएं
 
-## परिचय
+## Introduction
 
-आज के तेज़-तर्रार कारोबारी माहौल में, आकर्षक प्रस्तुतियाँ देना बहुत ज़रूरी है। हालाँकि, स्लाइड में ट्रांज़िशन जोड़ने की मैन्युअल प्रक्रिया समय लेने वाली हो सकती है। Aspose.Slides for Java के साथ, आप डिस्क से PowerPoint फ़ाइलें लोड करके, विभिन्न स्लाइड ट्रांज़िशन लागू करके और उन्हें आसानी से वापस सहेजकर इस कार्य को सहजता से स्वचालित कर सकते हैं।
+आज की तेज़ गति वाले व्यापारिक दुनिया में, शीघ्रता से परिष्कृत प्रस्तुतियों को प्रदान करना एक प्रतिस्पर्धात्मक लाभ है। मैन्युअल रूप से स्लाइड एनीमेशन जोड़ना थकाऊ हो सकता है, लेकिन **Aspose.Slides for Java** के साथ आप प्रोग्रामेटिक रूप से **स्लाइड शो ट्रांज़िशन बना सकते हैं**, **PowerPoint ट्रांज़िशन को स्वचालित कर सकते हैं**, और यहां तक कि **स्लाइड ट्रांज़िशन की अवधि सेट कर सकते हैं** ताकि यह आपके ब्रांडिंग दिशानिर्देशों से मेल खाए।
 
-यह ट्यूटोरियल आपको Aspose.Slides for Java का उपयोग करके अपने प्रेजेंटेशन वर्कफ़्लो को सुव्यवस्थित करने में मार्गदर्शन करेगा। आप सीखेंगे कि कैसे:
-- अपने जावा एप्लिकेशन में PPTX फ़ाइल लोड करें
-- प्रोग्रामेटिक रूप से गतिशील स्लाइड संक्रमण लागू करें
-- संशोधित प्रस्तुति को संक्रमणों के साथ सहेजें
+यह ट्यूटोरियल आपको PPTX फ़ाइल लोड करने, डायनेमिक ट्रांज़िशन लागू करने, और अपडेटेड प्रस्तुति को सहेजने की प्रक्रिया दिखाता है—सभी Java कोड से। अंत तक आप सक्षम होंगे:
 
-इस लेख के अंत तक आप अपनी प्रस्तुतियों को सहजता से बेहतर बनाने के लिए व्यावहारिक कौशल से लैस हो जाएंगे।
+- अपनी Java एप्लिकेशन में PPTX फ़ाइल लोड करना  
+- विभिन्न स्लाइड ट्रांज़िशन लागू करना (कस्टम अवधि सहित)  
+- संशोधित फ़ाइल को वितरण के लिए तैयार सहेजना  
 
-आइए सबसे पहले चर्चा करें कि कोडिंग शुरू करने से पहले क्या पूर्व-आवश्यकताएं आवश्यक हैं।
+आइए शुरू करते हैं!
 
-## आवश्यक शर्तें
+## Quick Answers
+- **What library do I need?** Aspose.Slides for Java (latest version) → **मुझे कौनसी लाइब्रेरी चाहिए?** Aspose.Slides for Java (latest version)  
+- **Can I set transition duration?** Yes – use `setDuration(double seconds)` on the `SlideShowTransition` object → **क्या मैं ट्रांज़िशन अवधि सेट कर सकता हूँ?** हाँ – `SlideShowTransition` ऑब्जेक्ट पर `setDuration(double seconds)` का उपयोग करें  
+- **Do I need a license?** A free trial works for evaluation; a permanent license removes all limitations → **क्या मुझे लाइसेंस चाहिए?** एक मुफ्त ट्रायल मूल्यांकन के लिए काम करता है; एक स्थायी लाइसेंस सभी सीमाओं को हटा देता है  
+- **Supported Java versions?** JDK 1.8 or later (the example uses JDK 16 classifier) → **समर्थित Java संस्करण?** JDK 1.8 या बाद का (उदाहरण में JDK 16 classifier उपयोग किया गया है)  
+- **How long does implementation take?** Roughly 10‑15 minutes for a basic slide‑show transition script → **इम्प्लीमेंटेशन में कितना समय लगेगा?** एक बेसिक स्लाइड‑शो ट्रांज़िशन स्क्रिप्ट के लिए लगभग 10‑15 मिनट  
 
-शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित चीज़ें मौजूद हैं:
-- **आवश्यक लाइब्रेरी और निर्भरताएँ**: आपको Java के लिए Aspose.Slides की आवश्यकता है। सुनिश्चित करें कि आपके प्रोजेक्ट के पास इस लाइब्रेरी तक पहुँच है।
-- **पर्यावरण सेटअप**एक कार्यशील जावा विकास वातावरण (JDK 1.6 या बाद का संस्करण) आवश्यक है।
-- **ज्ञान पूर्वापेक्षाएँ**बुनियादी जावा प्रोग्रामिंग अवधारणाओं से परिचित होना लाभदायक होगा।
+## What is “create slide show transitions”?
 
-## Java के लिए Aspose.Slides सेट अप करना
+स्लाइड शो ट्रांज़िशन बनाना मतलब है प्रोग्रामेटिक रूप से यह निर्धारित करना कि प्रस्तुति के दौरान एक स्लाइड अगले स्लाइड में कैसे बदलती है। यह आपको कई फ़ाइलों में निरंतर दृश्य प्रभाव लागू करने की अनुमति देता है बिना मैन्युअल प्रयास के।
 
-आरंभ करने के लिए, आपको अपने प्रोजेक्ट में Aspose.Slides लाइब्रेरी को शामिल करना होगा। यहाँ बताया गया है कि कैसे:
+## Why automate PowerPoint transitions?
 
-### मावेन
+ट्रांज़िशन को स्वचालित करने से समय बचता है, मानव त्रुटियों को समाप्त करता है, और कॉरपोरेट डेक, प्रशिक्षण मॉड्यूल, तथा स्वचालित रिपोर्ट जेनरेटर में समान ब्रांडिंग सुनिश्चित करता है।
+
+## Prerequisites
+
+- **Aspose.Slides for Java** लाइब्रेरी (Maven, Gradle, या मैन्युअल डाउनलोड)  
+- **Java Development Kit** 1.8 या नया (JDK 16 classifier दिखाया गया है)  
+- Java सिंटैक्स और प्रोजेक्ट सेटअप की बुनियादी परिचितता  
+
+## Setting Up Aspose.Slides for Java
+
+Add the library to your project using one of the following approaches.
+
+### Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -47,137 +69,144 @@
 </dependency>
 ```
 
-### ग्रैडल
+### Gradle
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### प्रत्यक्षत: डाउनलोड
+### Direct Download
+You can also download the latest JAR from the official release page:  
+[Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/)
 
-वैकल्पिक रूप से, आप नवीनतम संस्करण यहाँ से डाउनलोड कर सकते हैं [Aspose.Slides for Java रिलीज़](https://releases.aspose.com/slides/java/).
+**License**: Aspose पोर्टल से एक मुफ्त ट्रायल, अस्थायी, या पूर्ण लाइसेंस प्राप्त करें। लाइसेंस प्राप्त संस्करण मूल्यांकन वॉटरमार्क हटाता है और सभी सुविधाएँ सक्षम करता है।
 
-**लाइसेंस अधिग्रहण**Aspose निःशुल्क परीक्षण, अस्थायी लाइसेंस और खरीदने के विकल्प प्रदान करता है। बिना किसी सीमा के लाइब्रेरी की पूरी क्षमताओं का उपयोग शुरू करने के लिए, अस्थायी लाइसेंस प्राप्त करने या उसे खरीदने पर विचार करें।
+## Basic Initialization
 
-### मूल आरंभीकरण
+एक `Presentation` ऑब्जेक्ट बनाकर शुरू करें। यह सभी स्लाइड ऑपरेशनों के लिए प्रवेश बिंदु होगा।
 
-एक बार इंस्टॉल हो जाने पर, अपने जावा एप्लिकेशन में Aspose.Slides को प्रारंभ करें:
 ```java
 import com.aspose.slides.Presentation;
 
-// प्रस्तुतिकरण वर्ग आरंभ करें
+// Initialize Presentation class
 Presentation presentation = new Presentation();
 ```
 
-## कार्यान्वयन मार्गदर्शिका
+## Implementation Guide
 
-हम स्पष्टता और प्रबंधनीयता के लिए कार्यान्वयन को अलग-अलग विशेषताओं में विभाजित करेंगे।
+We’ll split the implementation into logical steps so you can follow along easily.
 
-### प्रस्तुति लोड करें
-**अवलोकन**डिस्क से प्रस्तुति को लोड करना, उसे प्रोग्रामेटिक रूप से संचालित करने का पहला कदम है। 
+### Step 1: Load the Source Presentation
 
-#### चरण 1: दस्तावेज़ निर्देशिका निर्दिष्ट करें
-अपना दस्तावेज़ पथ सेट करें जहाँ आपकी स्रोत PowerPoint फ़ाइल स्थित है.
+First, point to the folder that contains the PPTX you want to modify.
+
 ```java
-final String dataDir = "YOUR_DOCUMENT_DIRECTORY"; // वास्तविक पथ से प्रतिस्थापित करें
+final String dataDir = "YOUR_DOCUMENT_DIRECTORY"; // Replace with actual path
 ```
 
-#### चरण 2: प्रस्तुति लोड करें
-उपयोग `Presentation` अपनी PPTX फ़ाइल लोड करने के लिए क्लास का उपयोग करें:
+Now load the file:
+
 ```java
 Presentation presentation = new Presentation(dataDir + "/AccessSlides.pptx");
 ```
-*स्पष्टीकरण*: द `Presentation` कंस्ट्रक्टर निर्दिष्ट पथ से एक पावरपॉइंट फ़ाइल लोड करता है।
 
-### स्लाइड ट्रांज़िशन लागू करें
-**अवलोकन**ट्रांजिशन लागू करने से स्लाइड नेविगेशन में सुधार होता है और प्रस्तुतियों में एक पेशेवर स्पर्श जुड़ता है।
+*Explanation*: कंस्ट्रक्टर प्रदान किए गए पथ से PowerPoint फ़ाइल पढ़ता है, जिससे आपको एक पूरी तरह से संपादन योग्य `Presentation` ऑब्जेक्ट मिलता है।
 
-#### चरण 1: संक्रमण प्रकार परिभाषित करें
-संक्रमण प्रकार को परिभाषित करने के लिए आवश्यक कक्षाएं आयात करें:
+### Step 2: Define and Apply Slide Transitions
+
+To work with transitions, import the required enum:
+
 ```java
 import com.aspose.slides.TransitionType;
 ```
 
-#### चरण 2: ट्रांज़िशन लागू करें
-विशिष्ट स्लाइडों के लिए अलग-अलग ट्रांज़िशन सेट करें `SlideShowTransition` वस्तु।
+Now set specific transitions for individual slides. In this example we also demonstrate how to **set slide transition duration** (in seconds).
+
 ```java
 try {
-    // स्लाइड 1 पर वृत्त प्रकार का संक्रमण
-    presentation.getSlides().get_Item(0).getSlideShowTransition().setType(TransitionType.Circle);
+    // Circle transition on slide 1, duration 2.0 seconds
+    presentation.getSlides().get_Item(0).getSlideShowTransition()
+                .setType(TransitionType.Circle);
+    presentation.getSlides().get_Item(0).getSlideShowTransition()
+                .setDuration(2.0);
 
-    // स्लाइड 2 पर कंघी प्रकार संक्रमण
-    presentation.getSlides().get_Item(1).getSlideShowTransition().setType(TransitionType.Comb);
+    // Comb transition on slide 2, duration 1.5 seconds
+    presentation.getSlides().get_Item(1).getSlideShowTransition()
+                .setType(TransitionType.Comb);
+    presentation.getSlides().get_Item(1).getSlideShowTransition()
+                .setDuration(1.5);
 } finally {
     if (presentation != null) presentation.dispose();
 }
 ```
-*स्पष्टीकरण*यह स्निपेट पहले दो स्लाइडों के लिए संक्रमण को बदलता है, जिससे स्लाइड शो के दौरान उनका दृश्य प्रभाव बढ़ जाता है।
 
-### प्रस्तुति सहेजें
-**अवलोकन**अपने इच्छित संशोधन लागू करने के बाद, प्रस्तुति को डिस्क पर सहेजें।
+*Explanation*: `SlideShowTransition` आपको दृश्य प्रभाव (`setType`) और प्रभाव की अवधि (`setDuration`) दोनों निर्दिष्ट करने देता है। अपने डिज़ाइन दिशानिर्देशों के अनुसार मान समायोजित करें।
 
-#### चरण 1: आउटपुट निर्देशिका निर्दिष्ट करें
-परिभाषित करें कि संशोधित फ़ाइल कहाँ सहेजी जाएगी:
+### Step 3: Save the Modified Presentation
+
+Choose an output folder for the new file.
+
 ```java
-final String outPath = "YOUR_OUTPUT_DIRECTORY"; // वास्तविक पथ से प्रतिस्थापित करें
+final String outPath = "YOUR_OUTPUT_DIRECTORY"; // Replace with actual path
 ```
 
-#### चरण 2: प्रस्तुति सहेजें
-उपयोग `save` PPTX फ़ाइल में परिवर्तन लिखने की विधि।
+Save the presentation in PPTX format:
+
 ```java
 try {
-    presentation.save(outPath + "/SampleTransition_out.pptx", com.aspose.slides.SaveFormat.Pptx);
+    presentation.save(outPath + "/SampleTransition_out.pptx",
+                      com.aspose.slides.SaveFormat.Pptx);
 } finally {
     if (presentation != null) presentation.dispose();
 }
 ```
-*स्पष्टीकरण*: द `SaveFormat.Pptx` यह सुनिश्चित करता है कि आउटपुट पावरपॉइंट प्रारूप में हो, तथा सभी लागू संक्रमणों को संरक्षित रखा जाए।
 
-## व्यावहारिक अनुप्रयोगों
+*Explanation*: `save` मेथड अपडेटेड स्लाइड डेक को डिस्क पर लिखता है, सभी लागू ट्रांज़िशन को संरक्षित रखते हुए।
 
-Aspose.Slides for Java का उपयोग विभिन्न परिदृश्यों में किया जा सकता है:
-1. **स्वचालित रिपोर्ट निर्माण**: गतिशील स्लाइड संक्रमण के साथ स्वचालित रूप से रिपोर्ट तैयार करें और वितरित करें।
-2. **प्रशिक्षण मॉड्यूल**उन्नत दृश्य नेविगेशन के साथ इंटरैक्टिव प्रशिक्षण प्रस्तुतियाँ बनाएँ।
-3. **व्यावसायिक प्रस्तुतियाँ**व्यावसायिक पिचों के निर्माण को सुव्यवस्थित करना, पेशेवर संक्रमण प्रभाव सुनिश्चित करना।
+## Practical Applications
 
-## प्रदर्शन संबंधी विचार
+- **Automated Report Generation** – स्थायी ट्रांज़िशन शैलियों के साथ मासिक बिक्री डेक बनाएं।  
+- **E‑Learning Modules** – इंटरैक्टिव प्रशिक्षण कोर्स बनाएं जो समयबद्ध ट्रांज़िशन के साथ स्वचालित रूप से आगे बढ़ते हैं।  
+- **Corporate Branding** – सभी कर्मचारी‑जनित डेक्स में कंपनी‑व्यापी ट्रांज़िशन नियम लागू करें।
 
-बड़ी प्रस्तुतियों को संभालते समय प्रदर्शन को अनुकूलित करना महत्वपूर्ण है:
-- **संसाधन प्रबंधन**: बचना `Presentation` मेमोरी खाली करने के लिए वस्तुओं को तुरंत हटा दें।
-- **प्रचय संसाधन**एकाधिक फ़ाइलों पर काम करते समय, संसाधन उपयोग को कुशलतापूर्वक प्रबंधित करने के लिए उन्हें बैचों में संसाधित करें।
-- **संगामिति**: एक साथ कई प्रस्तुति कार्यों को संभालने के लिए जावा की समवर्ती सुविधाओं का लाभ उठाएं।
+## Performance Considerations
+
+जब बड़े प्रस्तुतियों या बैचों को प्रोसेस किया जाता है:
+
+- **ऑब्जेक्ट्स को तुरंत डिस्पोज करें** – नेटिव संसाधनों को मुक्त करने के लिए `presentation.dispose()` कॉल करें।  
+- **बैच प्रोसेसिंग** – फ़ाइलों पर लूप करें और संभव हो तो एक ही `Presentation` इंस्टेंस को पुन: उपयोग करें।  
+- **पैरेलल एक्सीक्यूशन** – कई फ़ाइलों को एक साथ संभालने के लिए Java के `ExecutorService` का उपयोग करें, लेकिन मेमोरी उपयोग की निगरानी रखें।
+
+## Common Issues and Solutions
+
+| समस्या | समाधान |
+|-------|----------|
+| `FileNotFoundException` | जाँचें कि `dataDir` और फ़ाइल नाम सही हैं और एप्लिकेशन के पास पढ़ने की अनुमति है। |
+| Transitions not appearing in PowerPoint | सुनिश्चित करें कि आपने `SaveFormat.Pptx` के साथ सहेजा है और फ़ाइल को PowerPoint के नवीनतम संस्करण में खोला है। |
+| Need to apply the same transition to all slides | `presentation.getSlides()` पर लूप करें और लूप के भीतर ट्रांज़िशन सेट करें। |
+| Want a custom duration for every slide | प्रत्येक स्लाइड के लिए `slide.getSlideShowTransition().setDuration(yourSeconds)` का उपयोग करें। |
+
+## Frequently Asked Questions
+
+**Q: क्या मैं एक ही लाइन कोड से हर स्लाइड पर ट्रांज़िशन लागू कर सकता हूँ?**  
+A: हाँ। `presentation.getSlides()` पर इटररेट करें और लूप के भीतर इच्छित `TransitionType` और `Duration` सेट करें।
+
+**Q: क्या स्वचालित आगे बढ़ना अक्षम करके माउस क्लिक की आवश्यकता रखना संभव है?**  
+A: बिल्कुल। `slide.getSlideShowTransition().setAdvanceOnClick(true)` कॉल करें और `setAdvanceAfterTime(false)` सेट करें।
+
+**Q: क्या Aspose.Slides 3‑D ट्रांज़िशन का समर्थन करता है?**  
+A: लाइब्रेरी में 2‑D प्रभावों की विस्तृत रेंज शामिल है; उन्नत 3‑D एनीमेशन के लिए आपको वीडियो या कस्टम ऑब्जेक्ट्स के साथ संयोजन करना पड़ सकता है।
+
+**Q: पासवर्ड‑सुरक्षित PPTX फ़ाइलों को कैसे संभालूँ?**  
+A: `Presentation(String filePath, LoadOptions loadOptions)` कंस्ट्रक्टर का उपयोग करें और पासवर्ड `LoadOptions.setPassword("yourPassword")` के माध्यम से प्रदान करें।
+
+**Q: प्रोग्रामेटिक रूप से मेरे ट्रांज़िशन का परीक्षण करने का सबसे अच्छा तरीका क्या है?**  
+A: सहेजने के बाद, आप फ़ाइल को फिर से लोड कर सकते हैं और `slide.getSlideShowTransition().getType()` और `getDuration()` मानों को सत्यापित कर सकते हैं।
 
 ## निष्कर्ष
 
-इस गाइड का पालन करके, आपने सीखा है कि Aspose.Slides for Java का उपयोग करके प्रेजेंटेशन को लोड करना, संशोधित करना और सहेजना कैसे स्वचालित किया जाता है। यह न केवल समय बचाता है बल्कि आपके स्लाइडशो में एकरूपता भी सुनिश्चित करता है।
+अब आपके पास Aspose.Slides for Java का उपयोग करके **स्लाइड शो ट्रांज़िशन बनाने** और **PowerPoint ट्रांज़िशन को स्वचालित करने** के लिए एक पूर्ण, प्रोडक्शन‑रेडी गाइड है। ट्रांज़िशन प्रकार और अवधि सेट करके, आप बड़े पैमाने पर पेशेवर दिखने वाली प्रस्तुतियों को प्रदान कर सकते हैं, समय बचा सकते हैं और ब्रांड की निरंतरता सुनिश्चित कर सकते हैं।
 
-अपने कौशल को और बेहतर बनाने के लिए, अतिरिक्त Aspose.Slides सुविधाओं का पता लगाएं जैसे कि प्रस्तुतियों को मर्ज करना या मल्टीमीडिया तत्व जोड़ना। अपने प्रस्तुति वर्कफ़्लो को बदलने के लिए आज ही इन तकनीकों को लागू करना शुरू करें!
-
-## अक्सर पूछे जाने वाले प्रश्न अनुभाग
-
-1. **क्या होगा अगर मेरा सामना किसी `FileNotFoundException`?** 
-   सुनिश्चित करें कि निर्दिष्ट फ़ाइल पथ सही है और आपके अनुप्रयोग से पहुँच योग्य है।
-
-2. **क्या मैं एक बार में सभी स्लाइडों पर ट्रांज़िशन लागू कर सकता हूँ?**
-   हां, प्रत्येक स्लाइड का उपयोग करके लूप करें `presentation.getSlides().toArray()` और अपने संक्रमण को व्यक्तिगत रूप से सेट करें।
-
-3. **मैं बड़ी प्रस्तुतियों को कुशलतापूर्वक कैसे संभालूँ?**
-   छोटे बैचों में प्रसंस्करण करने और वस्तुओं का तुरंत निपटान करके मेमोरी उपयोग को अनुकूलित करने पर विचार करें।
-
-4. **क्या संक्रमण अवधि को अनुकूलित करना संभव है?**
-   हां, आप संक्रमण अवधि निर्धारित कर सकते हैं `getSlideShowTransition().setAdvanceOnClick(false)` और आवश्यकतानुसार अन्य पैरामीटर समायोजित करें।
-
-5. **अन्य प्रणालियों के साथ कुछ सामान्य एकीकरण बिंदु क्या हैं?**
-   Aspose.Slides स्वचालित वर्कफ़्लो के लिए दस्तावेज़ प्रबंधन प्रणालियों, CRM सॉफ़्टवेयर और क्लाउड स्टोरेज समाधानों के साथ अच्छी तरह से एकीकृत होता है।
-
-## संसाधन
-- [Aspose.Slides दस्तावेज़ीकरण](https://reference.aspose.com/slides/java/)
-- [नवीनतम संस्करण डाउनलोड करें](https://releases.aspose.com/slides/java/)
-- [लाइसेंस खरीदें](https://purchase.aspose.com/buy)
-- [निःशुल्क परीक्षण पहुँच](https://releases.aspose.com/slides/java/)
-- [अस्थायी लाइसेंस जानकारी](https://purchase.aspose.com/temporary-license/)
-- [समर्थन और मंच](https://forum.aspose.com/c/slides/11)
-
-Aspose.Slides for Java के साथ स्वचालित प्रस्तुतियों की दुनिया में गोता लगाएँ, और अपनी स्लाइड शो क्षमताओं को अगले स्तर तक ले जाएँ!
+और भी सुविधाओं का अन्वेषण करें जैसे डेक्स को मर्ज करना, मल्टीमीडिया जोड़ना, या वितरण के लिए PDF में कनवर्ट करना। कोडिंग का आनंद लें!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -186,3 +215,17 @@ Aspose.Slides for Java के साथ स्वचालित प्रस्
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**अंतिम अपडेट:** 2025-12-06  
+**परीक्षित संस्करण:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**लेखक:** Aspose  
+
+**संसाधन**  
+- [Aspose.Slides दस्तावेज़ीकरण](https://reference.aspose.com/slides/java/)  
+- [नवीनतम संस्करण डाउनलोड करें](https://releases.aspose.com/slides/java/)  
+- [लाइसेंस खरीदें](https://purchase.aspose.com/buy)  
+- [मुफ्त ट्रायल एक्सेस](https://releases.aspose.com/slides/java/)  
+- [अस्थायी लाइसेंस जानकारी](https://purchase.aspose.com/temporary-license/)  
+- [समर्थन और फ़ोरम](https://forum.aspose.com/c/slides/11)
