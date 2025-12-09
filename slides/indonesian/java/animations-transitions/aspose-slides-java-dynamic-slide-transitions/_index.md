@@ -7,9 +7,8 @@ keywords:
 - dynamic slide transitions
 - Aspose.Slides Java
 - Java presentation enhancements
-language: id
 title: Cara membuat transisi presentasi di Java dengan Aspose.Slides
-url: /java/animations-transitions/aspose-slides-java-dynamic-slide-transitions/
+url: /id/java/animations-transitions/aspose-slides-java-dynamic-slide-transitions/
 weight: 1
 ---
 

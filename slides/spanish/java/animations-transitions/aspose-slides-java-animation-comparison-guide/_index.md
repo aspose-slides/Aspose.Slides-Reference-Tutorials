@@ -7,9 +7,8 @@ keywords:
 - Aspose.Slides Java
 - Java presentation animations
 - Aspose.Slides animation comparison
-language: es
 title: Crear PowerPoint dinámico en Java – Guía de tipos de animación de Aspose.Slides
-url: /java/animations-transitions/aspose-slides-java-animation-comparison-guide/
+url: /es/java/animations-transitions/aspose-slides-java-animation-comparison-guide/
 weight: 1
 ---
 

@@ -5,9 +5,8 @@ keywords:
 - dynamic slide transitions
 - Aspose.Slides Java
 - Java presentation enhancements
-language: zh
 title: 如何在 Java 中使用 Aspose.Slides 创建演示文稿过渡效果
-url: /java/animations-transitions/aspose-slides-java-dynamic-slide-transitions/
+url: /zh/java/animations-transitions/aspose-slides-java-dynamic-slide-transitions/
 weight: 1
 ---
 

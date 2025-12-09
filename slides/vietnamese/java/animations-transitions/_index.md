@@ -3,9 +3,8 @@ date: 2025-12-01
 description: Học cách thêm chuyển đổi slide, hoạt ảnh bay trong PowerPoint, thiết
   lập mức thu phóng, tự động hoá các hoạt ảnh PowerPoint và sử dụng chuyển đổi morph
   Java với Aspose.Slides cho Java.
-language: vi
 title: Thêm chuyển tiếp slide – Hướng dẫn Aspose.Slides cho Java
-url: /java/animations-transitions/
+url: /vi/java/animations-transitions/
 weight: 9
 ---
 

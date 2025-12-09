@@ -6,9 +6,8 @@ keywords:
 - Aspose.Slides Java
 - Java presentation animations
 - Aspose.Slides animation comparison
-language: ko
 title: 동적 파워포인트 Java 만들기 – Aspose.Slides 애니메이션 유형 가이드
-url: /java/animations-transitions/aspose-slides-java-animation-comparison-guide/
+url: /ko/java/animations-transitions/aspose-slides-java-animation-comparison-guide/
 weight: 1
 ---
 

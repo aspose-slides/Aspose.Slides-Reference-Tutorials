@@ -3,9 +3,8 @@ date: 2025-12-01
 description: Tanulja meg, hogyan adjon hozzá diaközti átmeneteket, repülő animációkat
   PowerPointban, állítson be nagyítási szinteket, automatizálja a PowerPoint animációkat,
   és használja a morph átmeneteket Java-val az Aspose.Slides for Java segítségével.
-language: hu
 title: Diaátmenetek hozzáadása – Aspose.Slides for Java oktatóanyagok
-url: /java/animations-transitions/
+url: /hu/java/animations-transitions/
 weight: 9
 ---
 

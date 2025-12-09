@@ -7,9 +7,8 @@ keywords:
 - dynamic slide transitions
 - Aspose.Slides Java
 - Java presentation enhancements
-language: vi
 title: Cách tạo chuyển đổi trình chiếu trong Java với Aspose.Slides
-url: /java/animations-transitions/aspose-slides-java-dynamic-slide-transitions/
+url: /vi/java/animations-transitions/aspose-slides-java-dynamic-slide-transitions/
 weight: 1
 ---
 

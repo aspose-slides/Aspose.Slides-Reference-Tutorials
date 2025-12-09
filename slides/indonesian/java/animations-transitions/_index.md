@@ -3,9 +3,8 @@ date: 2025-12-01
 description: Pelajari cara menambahkan transisi slide, animasi terbang di PowerPoint,
   mengatur tingkat zoom, mengotomatisasi animasi PowerPoint, dan menggunakan transisi
   morph Java dengan Aspose.Slides untuk Java.
-language: id
 title: Menambahkan Transisi Slide – Tutorial Aspose.Slides untuk Java
-url: /java/animations-transitions/
+url: /id/java/animations-transitions/
 weight: 9
 ---
 

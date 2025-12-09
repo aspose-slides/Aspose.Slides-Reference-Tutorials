@@ -6,9 +6,8 @@ keywords:
 - Aspose.Slides Java
 - Java presentation animations
 - Aspose.Slides animation comparison
-language: ar
 title: إنشاء PowerPoint ديناميكي باستخدام Java – دليل أنواع الرسوم المتحركة في Aspose.Slides
-url: /java/animations-transitions/aspose-slides-java-animation-comparison-guide/
+url: /ar/java/animations-transitions/aspose-slides-java-animation-comparison-guide/
 weight: 1
 ---
 

@@ -3,9 +3,8 @@ date: 2025-12-01
 description: Научитесь добавлять переходы между слайдами, анимацию «полёт» в PowerPoint,
   устанавливать уровни масштабирования, автоматизировать анимацию PowerPoint и использовать
   морф‑переходы Java с Aspose.Slides for Java.
-language: ru
 title: Добавить переходы слайдов – учебники Aspose.Slides для Java
-url: /java/animations-transitions/
+url: /ru/java/animations-transitions/
 weight: 9
 ---
 

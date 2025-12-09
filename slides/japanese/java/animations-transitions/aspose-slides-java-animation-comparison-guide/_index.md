@@ -6,9 +6,8 @@ keywords:
 - Aspose.Slides Java
 - Java presentation animations
 - Aspose.Slides animation comparison
-language: ja
 title: Javaで動的PowerPointを作成 – Aspose.Slides アニメーションタイプガイド
-url: /java/animations-transitions/aspose-slides-java-animation-comparison-guide/
+url: /ja/java/animations-transitions/aspose-slides-java-animation-comparison-guide/
 weight: 1
 ---
 

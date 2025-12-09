@@ -2,9 +2,8 @@
 date: 2025-12-01
 description: 슬라이드 전환 추가, 파워포인트 플라이 애니메이션 적용, 줌 레벨 설정, 파워포인트 애니메이션 자동화, 그리고 Aspose.Slides
   for Java를 사용한 모프 전환 Java 사용 방법을 배우세요.
-language: ko
 title: 슬라이드 전환 추가 – Aspose.Slides for Java 튜토리얼
-url: /java/animations-transitions/
+url: /ko/java/animations-transitions/
 weight: 9
 ---
 

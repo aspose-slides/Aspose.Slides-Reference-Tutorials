@@ -6,9 +6,8 @@ keywords:
 - Aspose.Slides Java
 - Java presentation animations
 - Aspose.Slides animation comparison
-language: zh
 title: 使用 Java 创建动态 PowerPoint – Aspose.Slides 动画类型指南
-url: /java/animations-transitions/aspose-slides-java-animation-comparison-guide/
+url: /zh/java/animations-transitions/aspose-slides-java-animation-comparison-guide/
 weight: 1
 ---
 

@@ -6,9 +6,8 @@ keywords:
 - Aspose.Slides Java
 - Java presentation animations
 - Aspose.Slides animation comparison
-language: vi
 title: Tạo PowerPoint Động trong Java – Hướng Dẫn Các Loại Hoạt Ảnh Aspose.Slides
-url: /java/animations-transitions/aspose-slides-java-animation-comparison-guide/
+url: /vi/java/animations-transitions/aspose-slides-java-animation-comparison-guide/
 weight: 1
 ---
 

@@ -2,9 +2,8 @@
 date: 2025-12-01
 description: スライド トランジションの追加、PowerPoint のフライ アニメーション、ズーム レベルの設定、PowerPoint アニメーションの自動化、そして
   Aspose.Slides for Java を使用したモーフ トランジションの利用方法を学びましょう。
-language: ja
 title: スライドトランジションを追加 – Aspose.Slides for Java チュートリアル
-url: /java/animations-transitions/
+url: /ja/java/animations-transitions/
 weight: 9
 ---
 

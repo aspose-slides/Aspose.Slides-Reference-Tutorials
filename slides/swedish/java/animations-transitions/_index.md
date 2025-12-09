@@ -3,9 +3,8 @@ date: 2025-12-01
 description: Lär dig att lägga till bildövergångar, flyganimation i PowerPoint, ställa
   in zoomnivåer, automatisera PowerPoint‑animationer och använda morph‑övergångar
   i Java med Aspose.Slides för Java.
-language: sv
 title: Lägg till bildövergångar – Aspose.Slides för Java-handledning
-url: /java/animations-transitions/
+url: /sv/java/animations-transitions/
 weight: 9
 ---
 

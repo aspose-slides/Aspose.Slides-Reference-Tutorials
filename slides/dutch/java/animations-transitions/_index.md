@@ -3,9 +3,8 @@ date: 2025-12-01
 description: Leer hoe je diaovergangen toevoegt, fly‑animaties in PowerPoint, zoomniveaus
   instelt, PowerPoint‑animaties automatiseert en morph‑overgangen gebruikt met Java
   en Aspose.Slides voor Java.
-language: nl
 title: Diaovergangen toevoegen – Aspose.Slides voor Java‑tutorials
-url: /java/animations-transitions/
+url: /nl/java/animations-transitions/
 weight: 9
 ---
 

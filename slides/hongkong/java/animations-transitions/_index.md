@@ -2,9 +2,8 @@
 date: 2025-12-01
 description: 學習如何在 PowerPoint 中加入投影片過渡效果、飛行動畫、設定縮放層級、自動化 PowerPoint 動畫，以及使用 Java 的
   Morph 過渡，搭配 Aspose.Slides for Java。
-language: zh-hant
 title: 新增投影片轉場 – Aspose.Slides for Java 教學
-url: /java/animations-transitions/
+url: /zh-hant/java/animations-transitions/
 weight: 9
 ---
 

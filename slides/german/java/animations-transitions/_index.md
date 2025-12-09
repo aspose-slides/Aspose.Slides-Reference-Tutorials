@@ -3,9 +3,8 @@ date: 2025-12-01
 description: Lernen Sie, Folienübergänge hinzuzufügen, Fluganimationen in PowerPoint
   zu erstellen, Zoomstufen festzulegen, PowerPoint-Animationen zu automatisieren und
   Morph‑Übergänge in Java mit Aspose.Slides für Java zu verwenden.
-language: de
 title: Folienübergänge hinzufügen – Aspose.Slides für Java‑Tutorials
-url: /java/animations-transitions/
+url: /de/java/animations-transitions/
 weight: 9
 ---
 
@@ -116,4 +115,3 @@ Lernen Sie, wie Sie PowerPoint‑Präsentationen mit Aspose.Slides für Java lad
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

@@ -3,9 +3,8 @@ date: 2025-12-01
 description: Naucz się dodawać przejścia slajdów, animację przelotu w PowerPoint,
   ustawiać poziomy powiększenia, automatyzować animacje w PowerPoint oraz używać przejść
   morph w Javie z Aspose.Slides for Java.
-language: pl
 title: Dodaj przejścia slajdów – Samouczki Aspose.Slides dla Javy
-url: /java/animations-transitions/
+url: /pl/java/animations-transitions/
 weight: 9
 ---
 

@@ -7,9 +7,8 @@ keywords:
 - dynamic slide transitions
 - Aspose.Slides Java
 - Java presentation enhancements
-language: ar
 title: كيفية إنشاء انتقالات العروض التقديمية في جافا باستخدام Aspose.Slides
-url: /java/animations-transitions/aspose-slides-java-dynamic-slide-transitions/
+url: /ar/java/animations-transitions/aspose-slides-java-dynamic-slide-transitions/
 weight: 1
 ---
 

@@ -7,10 +7,9 @@ keywords:
 - animate PowerPoint charts
 - add animation PowerPoint chart
 - Aspose.Slides for Java
-language: hi
 title: ऐनिमेटेड पावरपॉइंट जावा बनाएं – Aspose.Slides के साथ पावरपॉइंट चार्ट्स को एनीमेट
   करें
-url: /java/animations-transitions/animate-powerpoint-charts-aspose-slides-java/
+url: /hi/java/animations-transitions/animate-powerpoint-charts-aspose-slides-java/
 weight: 1
 ---
 

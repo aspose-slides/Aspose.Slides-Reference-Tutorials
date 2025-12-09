@@ -7,9 +7,8 @@ keywords:
 - dynamic slide transitions
 - Aspose.Slides Java
 - Java presentation enhancements
-language: tr
 title: Java ile Aspose.Slides kullanarak sunum geçişleri nasıl oluşturulur
-url: /java/animations-transitions/aspose-slides-java-dynamic-slide-transitions/
+url: /tr/java/animations-transitions/aspose-slides-java-dynamic-slide-transitions/
 weight: 1
 ---
 

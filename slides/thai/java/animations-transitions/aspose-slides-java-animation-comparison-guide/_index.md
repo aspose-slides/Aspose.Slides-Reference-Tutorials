@@ -6,9 +6,8 @@ keywords:
 - Aspose.Slides Java
 - Java presentation animations
 - Aspose.Slides animation comparison
-language: th
 title: สร้าง PowerPoint แบบไดนามิกด้วย Java – คู่มือประเภทการเคลื่อนไหวของ Aspose.Slides
-url: /java/animations-transitions/aspose-slides-java-animation-comparison-guide/
+url: /th/java/animations-transitions/aspose-slides-java-animation-comparison-guide/
 weight: 1
 ---
 

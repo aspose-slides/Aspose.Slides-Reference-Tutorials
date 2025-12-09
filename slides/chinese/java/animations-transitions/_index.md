@@ -2,9 +2,8 @@
 date: 2025-12-01
 description: 学习在 PowerPoint 中添加幻灯片切换、飞行动画、设置缩放级别、自动化 PowerPoint 动画，并使用 Aspose.Slides
   for Java 的形变切换。
-language: zh
 title: 添加幻灯片过渡 – Aspose.Slides for Java 教程
-url: /java/animations-transitions/
+url: /zh/java/animations-transitions/
 weight: 9
 ---
 

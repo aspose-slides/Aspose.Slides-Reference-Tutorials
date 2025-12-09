@@ -7,9 +7,8 @@ keywords:
 - animate PowerPoint charts
 - add animation PowerPoint chart
 - Aspose.Slides for Java
-language: ja
 title: JavaでアニメーションPowerPointを作成 – Aspose.SlidesでPowerPointチャートにアニメーションを付ける
-url: /java/animations-transitions/animate-powerpoint-charts-aspose-slides-java/
+url: /ja/java/animations-transitions/animate-powerpoint-charts-aspose-slides-java/
 weight: 1
 ---
 

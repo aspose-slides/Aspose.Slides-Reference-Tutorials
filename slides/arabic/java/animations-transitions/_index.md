@@ -3,9 +3,8 @@ date: 2025-12-01
 description: تعلم إضافة انتقالات الشرائح، ورسوم تحريك الطيران في PowerPoint، وتحديد
   مستويات التكبير، وأتمتة رسوم تحريك PowerPoint، واستخدام انتقالات Morph في Java مع
   Aspose.Slides for Java.
-language: ar
 title: إضافة انتقالات الشرائح – دروس Aspose.Slides للـ Java
-url: /java/animations-transitions/
+url: /ar/java/animations-transitions/
 weight: 9
 ---
 

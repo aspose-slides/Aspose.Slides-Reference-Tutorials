@@ -3,9 +3,8 @@ date: 2025-12-01
 description: Μάθετε να προσθέτετε μεταβάσεις διαφανειών, animation πτήσης στο PowerPoint,
   να ορίζετε επίπεδα ζουμ, να αυτοματοποιείτε τις κινήσεις του PowerPoint και να χρησιμοποιείτε
   μεταβάσεις morph με Java στο Aspose.Slides for Java.
-language: el
 title: Προσθήκη μεταβάσεων διαφανειών – Μαθήματα Aspose.Slides για Java
-url: /java/animations-transitions/
+url: /el/java/animations-transitions/
 weight: 9
 ---
 

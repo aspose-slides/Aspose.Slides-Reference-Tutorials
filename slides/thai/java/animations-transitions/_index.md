@@ -3,9 +3,8 @@ date: 2025-12-01
 description: เรียนรู้วิธีเพิ่มการเปลี่ยนสไลด์, การทำแอนิเมชันแบบบินใน PowerPoint,
   ตั้งค่าระดับการซูม, ทำให้การแอนิเมชัน PowerPoint ทำงานอัตโนมัติ, และใช้การเปลี่ยนแบบ
   Morph ใน Java ด้วย Aspose.Slides for Java.
-language: th
 title: เพิ่มการเปลี่ยนสไลด์ – บทเรียน Aspose.Slides สำหรับ Java
-url: /java/animations-transitions/
+url: /th/java/animations-transitions/
 weight: 9
 ---
 

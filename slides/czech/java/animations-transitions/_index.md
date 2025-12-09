@@ -3,9 +3,8 @@ date: 2025-12-01
 description: Naučte se přidávat přechody snímků, animaci letu v PowerPointu, nastavovat
   úrovně přiblížení, automatizovat animace v PowerPointu a používat morph přechody
   v Javě s Aspose.Slides pro Javu.
-language: cs
 title: Přidat přechody snímků – Tutoriály Aspose.Slides pro Javu
-url: /java/animations-transitions/
+url: /cs/java/animations-transitions/
 weight: 9
 ---
 

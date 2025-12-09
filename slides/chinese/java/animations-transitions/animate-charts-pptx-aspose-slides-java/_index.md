@@ -5,9 +5,8 @@ keywords:
 - animate charts PowerPoint
 - Aspose.Slides Java chart animations
 - Java PowerPoint presentation enhancements
-language: zh
 title: 使用 Aspose.Slides for Java 为 PowerPoint 图表添加动画 – 步骤指南
-url: /java/animations-transitions/animate-charts-pptx-aspose-slides-java/
+url: /zh/java/animations-transitions/animate-charts-pptx-aspose-slides-java/
 weight: 1
 ---
 

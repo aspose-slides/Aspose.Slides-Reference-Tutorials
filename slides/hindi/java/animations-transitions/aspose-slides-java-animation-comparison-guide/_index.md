@@ -7,9 +7,8 @@ keywords:
 - Aspose.Slides Java
 - Java presentation animations
 - Aspose.Slides animation comparison
-language: hi
 title: डायनेमिक पावरपॉइंट जावा बनाएं – Aspose.Slides एनीमेशन प्रकारों की गाइड
-url: /java/animations-transitions/aspose-slides-java-animation-comparison-guide/
+url: /hi/java/animations-transitions/aspose-slides-java-animation-comparison-guide/
 weight: 1
 ---
 

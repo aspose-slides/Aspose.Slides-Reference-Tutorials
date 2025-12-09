@@ -3,9 +3,8 @@ date: 2025-12-01
 description: स्लाइड ट्रांज़िशन जोड़ना, पावरपॉइंट में फ़्लाई एनीमेशन, ज़ूम लेवल सेट
   करना, पावरपॉइंट एनीमेशन को स्वचालित करना, और Aspose.Slides for Java के साथ जावा
   में मोर्फ़ ट्रांज़िशन का उपयोग करना सीखें।
-language: hi
 title: स्लाइड ट्रांज़िशन जोड़ें – Aspose.Slides for Java ट्यूटोरियल्स
-url: /java/animations-transitions/
+url: /hi/java/animations-transitions/
 weight: 9
 ---
 

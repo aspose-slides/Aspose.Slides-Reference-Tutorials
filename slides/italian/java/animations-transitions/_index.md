@@ -3,9 +3,8 @@ date: 2025-12-01
 description: Impara ad aggiungere transizioni tra le diapositive, animazioni di volo
   in PowerPoint, impostare i livelli di zoom, automatizzare le animazioni di PowerPoint
   e utilizzare le transizioni morph in Java con Aspose.Slides per Java.
-language: it
 title: Aggiungi transizioni alle diapositive – Tutorial di Aspose.Slides per Java
-url: /java/animations-transitions/
+url: /it/java/animations-transitions/
 weight: 9
 ---
 

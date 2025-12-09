@@ -7,9 +7,8 @@ keywords:
 - Aspose.Slides Java
 - Java presentation animations
 - Aspose.Slides animation comparison
-language: el
 title: Δημιουργία Δυναμικού PowerPoint Java – Οδηγός Τύπων Κίνησης Aspose.Slides
-url: /java/animations-transitions/aspose-slides-java-animation-comparison-guide/
+url: /el/java/animations-transitions/aspose-slides-java-animation-comparison-guide/
 weight: 1
 ---
 

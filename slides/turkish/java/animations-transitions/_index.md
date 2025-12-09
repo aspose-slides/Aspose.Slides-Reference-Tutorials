@@ -3,9 +3,8 @@ date: 2025-12-01
 description: Slayt geçişleri eklemeyi, PowerPoint'te uçuş animasyonu eklemeyi, yakınlaştırma
   seviyelerini ayarlamayı, PowerPoint animasyonlarını otomatikleştirmeyi ve Aspose.Slides
   for Java ile Java'da morf geçişlerini kullanmayı öğrenin.
-language: tr
 title: Slayt Geçişleri Ekle – Aspose.Slides for Java Eğitimleri
-url: /java/animations-transitions/
+url: /tr/java/animations-transitions/
 weight: 9
 ---
 
