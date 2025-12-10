@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-18"
-"description": "Dowiedz się, jak ulepszyć swoje prezentacje, opanowując manipulację tabelami i ramkami za pomocą Aspose.Slides dla Java. Ten przewodnik obejmuje tworzenie tabel, dodawanie ramek tekstowych i rysowanie ramek wokół określonej treści."
-"title": "Aspose.Slides dla Java – opanowanie manipulacji tabelami i ramkami w prezentacjach"
-"url": "/pl/java/animations-transitions/aspose-slides-java-enhance-presentations/"
-"weight": 1
+date: '2025-12-10'
+description: Dowiedz się, jak dodać tekst do tabeli i narysować ramki wokół tekstu
+  w PowerPoint przy użyciu Aspose.Slides for Java. Ten przewodnik obejmuje tworzenie
+  tabel, ustawianie wyrównania tekstu oraz otaczanie treści ramkami.
+keywords:
+- Aspose.Slides for Java
+- table manipulation in presentations
+- frame drawing in PowerPoint
+title: Aspose.Slides for Java – dodawanie tekstu do tabeli i manipulacja ramką
+url: /pl/java/animations-transitions/aspose-slides-java-enhance-presentations/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,26 +17,27 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Opanowanie manipulacji tabelami i ramkami w prezentacjach za pomocą Aspose.Slides dla Java
+# Opanowanie manipulacji tabelami i ramkami w prezentacjach z Aspose.Slides dla Javy
 
-## Wstęp
+## Introduction
 
-Skuteczne prezentowanie danych w programie PowerPoint może być trudne. Niezależnie od tego, czy jesteś programistą, czy projektantem prezentacji, używanie atrakcyjnych wizualnie tabel i dodawanie ramek tekstowych może sprawić, że Twoje slajdy będą bardziej angażujące. Ten samouczek pokazuje, jak używać Aspose.Slides for Java do dodawania tekstu do komórek tabeli i rysowania ramek wokół akapitów i fragmentów zawierających określone znaki, takie jak „0”. Opanowując te techniki, ulepszysz swoje prezentacje pod względem precyzji i stylu.
-
-### Czego się nauczysz:
-- Tworzenie tabel na slajdach i wypełnianie ich tekstem.
-- Wyrównywanie tekstu w obrębie kształtów automatycznych w celu lepszej prezentacji.
-- Rysowanie ramek wokół akapitów i fragmentów w celu podkreślenia treści.
-- Praktyczne zastosowania tych funkcji w scenariuszach z życia wziętych.
+Prezentowanie danych w sposób efektywny może być wyzwaniem w PowerPoint. Niezależnie od tego, czy jesteś programistą, czy projektantem prezentacji, **add text to table** komórki i rysowanie ramek wokół kluczowych akapitów sprawią, że Twoje slajdy będą przyciągać uwagę. W tym samouczku zobaczysz dokładnie, jak dodać tekst do tabeli, wyrównać go i narysować ramki wokół tekstu — wszystko przy użyciu Aspose.Slides dla Javy. Po zakończeniu będziesz w stanie tworzyć dopracowane prezentacje, które podkreślą właściwe informacje w odpowiednim momencie.
 
 Gotowy, aby przekształcić swoje prezentacje? Zaczynajmy!
 
-## Wymagania wstępne
+## Quick Answers
+- **What does “add text to table” mean?** Oznacza to wstawianie lub aktualizowanie treści tekstowej poszczególnych komórek tabeli programowo.  
+- **Which method saves the file?** `pres.save("output.pptx", SaveFormat.Pptx)` – ten krok **save presentation as pptx** finalizuje Twoje zmiany.  
+- **How can I align text inside a shape?** Użyj `TextAlignment.Left` (lub Center/Right) poprzez `autoShape.getTextFrame().getParagraphs().get_Item(0).getParagraphFormat().setAlignment(...)`.  
+- **Can I draw a rectangle around a paragraph?** Tak – iteruj po akapitach, pobierz ich prostokąt ograniczający i dodaj `IAutoShape` bez wypełnienia oraz z czarną linią.  
+- **Do I need a license?** Tymczasowa licencja działa w trybie ewaluacyjnym; pełna licencja jest wymagana w środowisku produkcyjnym.
 
-Zanim zagłębisz się w kod, upewnij się, że masz następujące elementy:
+## Prerequisites
 
-### Wymagane biblioteki
-Będziesz potrzebować Aspose.Slides dla Javy. Oto jak dołączyć go za pomocą Maven lub Gradle:
+Before diving into the code, ensure you have the following:
+
+### Required Libraries
+Będziesz potrzebować Aspose.Slides for Java. Oto jak go dodać używając Maven lub Gradle:
 
 **Maven:**
 ```xml
@@ -42,62 +49,66 @@ Będziesz potrzebować Aspose.Slides dla Javy. Oto jak dołączyć go za pomocą
 </dependency>
 ```
 
-**Stopień:**
+**Gradle:**
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Konfiguracja środowiska
-Upewnij się, że masz zainstalowany pakiet Java Development Kit (JDK), najlepiej JDK 16 lub nowszy, ponieważ w tym przykładzie użyto `jdk16` klasyfikator.
+### Environment Setup
+Upewnij się, że masz zainstalowany Java Development Kit (JDK), najlepiej JDK 16 lub nowszy, ponieważ ten przykład używa klasyfikatora `jdk16`.
 
-### Wymagania wstępne dotyczące wiedzy
-- Podstawowa znajomość programowania w Javie.
-- Znajomość oprogramowania do tworzenia prezentacji, np. PowerPoint.
+### Knowledge Prerequisites
+- Podstawowa znajomość programowania w Javie.  
+- Znajomość oprogramowania do prezentacji, takiego jak PowerPoint.  
 - Doświadczenie w korzystaniu ze zintegrowanego środowiska programistycznego (IDE), takiego jak IntelliJ IDEA lub Eclipse.
 
-## Konfigurowanie Aspose.Slides dla Java
+## Setting Up Aspose.Slides for Java
 
 Aby rozpocząć korzystanie z Aspose.Slides, wykonaj następujące kroki:
 
-1. **Zainstaluj bibliotekę**: Użyj Maven lub Gradle do zarządzania zależnościami lub pobierz je bezpośrednio z [Aspose.Slides dla wydań Java](https://releases.aspose.com/slides/java/).
+1. **Install the Library**: Użyj Maven lub Gradle do zarządzania zależnościami lub pobierz bibliotekę bezpośrednio z [Wydania Aspose.Slides dla Javy](https://releases.aspose.com/slides/java/).
 
-2. **Nabycie licencji**:
-   - Rozpocznij bezpłatny okres próbny, pobierając tymczasową licencję ze strony [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
-   - Aby uzyskać pełny dostęp, rozważ zakup licencji na stronie [Kup Aspose.Slides](https://purchase.aspose.com/buy).
+2. **License Acquisition**:
+   - Rozpocznij od darmowej wersji próbnej, pobierając tymczasową licencję z [Temporary License](https://purchase.aspose.com/temporary-license/).
+   - Aby uzyskać pełny dostęp, rozważ zakup licencji pod adresem [Purchase Aspose.Slides](https://purchase.aspose.com/buy).
 
-3. **Podstawowa inicjalizacja**:
-Zainicjuj środowisko prezentacji za pomocą następującego fragmentu kodu:
+3. **Basic Initialization**:
+Zainicjalizuj środowisko prezentacji przy użyciu poniższego fragmentu kodu:
 ```java
 import com.aspose.slides.*;
 
 Presentation pres = new Presentation();
 try {
-    // Twój kod tutaj
+    // Your code here
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
 
-## Przewodnik wdrażania
+## Why add text to table and draw frames?
 
-W tej sekcji opisano różne funkcje, które można zaimplementować przy użyciu Aspose.Slides dla Java.
+Dodawanie tekstu do tabeli pozwala jasno przedstawić dane strukturalne, a rysowanie ramek wokół akapitów lub konkretnych fragmentów (np. zawierających znak **'0'**) przyciąga uwagę widza do ważnych wartości. To połączenie jest idealne w raportach finansowych, dashboardach lub każdej prezentacji, w której trzeba wyróżnić kluczowe liczby bez zbędnego bałaganu.
 
-### Funkcja 1: Utwórz tabelę i dodaj tekst do komórek
+## How to add text to table in Aspose.Slides for Java
 
-#### Przegląd
-W tej funkcji pokazano, jak utworzyć tabelę na pierwszym slajdzie i wypełnić określone komórki tekstem. 
+### Feature 1: Create Table and Add Text to Cells
 
-##### Kroki:
-**1. Utwórz tabelę**
-Najpierw zainicjuj prezentację i dodaj tabelę na pozycji (50, 50) z określonymi szerokościami kolumn i wysokościami wierszy.
+#### Overview
+Ta funkcja demonstruje, jak **how to create table**, a następnie **add text to table** komórki i później **save presentation as pptx**.
+
+#### Steps
+
+**1. Create a Table**  
+Najpierw zainicjalizuj prezentację i dodaj tabelę w pozycji (50, 50) o określonych szerokościach kolumn i wysokościach wierszy.
 ```java
 Presentation pres = new Presentation();
 try {
     ITable tbl = pres.getSlides().get_Item(0).getShapes().addTable(
         50, 50, new double[]{50, 70}, new double[]{50, 50, 50});
 ```
-**2. Dodaj tekst do komórek**
-Utwórz akapity z fragmentami tekstu i dodaj je do określonej komórki.
+
+**2. Add Text to Cells**  
+Utwórz akapity z fragmentami tekstu i dodaj je do wybranej komórki.
 ```java
     IParagraph paragraph0 = new Paragraph();
     paragraph0.getPortions().add(new Portion("Text "));
@@ -115,7 +126,8 @@ Utwórz akapity z fragmentami tekstu i dodaj je do określonej komórki.
     cell.getTextFrame().getParagraphs().clear();
     cell.getTextFrame().getParagraphs().addAll(Arrays.asList(paragraph0, paragraph1, paragraph2));
 ```
-**3. Zapisz prezentację**
+
+**3. Save the Presentation**  
 ```java
     pres.save("YOUR_OUTPUT_DIRECTORY/GetRect_Out.pptx", SaveFormat.Pptx);
 } finally {
@@ -123,27 +135,30 @@ Utwórz akapity z fragmentami tekstu i dodaj je do określonej komórki.
 }
 ```
 
-### Funkcja 2: Dodaj ramkę tekstową do kształtu automatycznego i ustaw wyrównanie
+### Feature 2: Add TextFrame to AutoShape and Set Alignment
 
-#### Przegląd
-Dowiedz się, jak dodać ramkę tekstową z określonym wyrównaniem do kształtu automatycznego.
+#### Overview
+Naucz się, jak dodać ramkę tekstową z określonym wyrównaniem do AutoShape — przykład **set text alignment java**.
 
-##### Kroki:
-**1. Dodaj Autokształt**
-Dodaj prostokąt jako autokształt w pozycji (400, 100) o określonych wymiarach.
+#### Steps
+
+**1. Add an AutoShape**  
+Dodaj prostokąt jako AutoShape w pozycji (400, 100) o określonych wymiarach.
 ```java
 Presentation pres = new Presentation();
 try {
     IAutoShape autoShape = pres.getSlides().get_Item(0).getShapes().addAutoShape(
         ShapeType.Rectangle, 400, 100, 60, 120);
 ```
-**2. Ustaw wyrównanie tekstu**
-Ustaw tekst na „Tekst w kształcie” i wyrównaj go do lewej.
+
+**2. Set Text Alignment**  
+Ustaw tekst na „Text in shape” i wyrównaj go do lewej.
 ```java
     autoShape.getTextFrame().setText("Text in shape");
     autoShape.getTextFrame().getParagraphs().get_Item(0).getParagraphFormat().setAlignment(TextAlignment.Left);
 ```
-**3. Zapisz prezentację**
+
+**3. Save the Presentation**  
 ```java
     pres.save("YOUR_OUTPUT_DIRECTORY/GetRect_Out.pptx", SaveFormat.Pptx);
 } finally {
@@ -151,22 +166,24 @@ Ustaw tekst na „Tekst w kształcie” i wyrównaj go do lewej.
 }
 ```
 
-### Funkcja 3: Rysuj ramki wokół akapitów i części w komórkach tabeli
+### Feature 3: Draw Frames around Paragraphs and Portions in Table Cells
 
-#### Przegląd
-Funkcja ta koncentruje się na rysowaniu ramek wokół akapitów i fragmentów zawierających „0” w komórkach tabeli.
+#### Overview
+Ta funkcja koncentruje się na **draw frames around text** i nawet **draw rectangle around paragraph** dla fragmentów zawierających znak ‘0’.
 
-##### Kroki:
-**1. Utwórz tabelę**
-Ponownie wykorzystaj kod z sekcji „Utwórz tabelę i dodaj tekst do komórek” w celu wstępnej konfiguracji.
+#### Steps
+
+**1. Create a Table**  
+Ponownie użyj kodu z „Create Table and Add Text to Cells” do początkowej konfiguracji.
 ```java
 Presentation pres = new Presentation();
 try {
     ITable tbl = pres.getSlides().get_Item(0).getShapes().addTable(
         50, 50, new double[]{50, 70}, new double[]{50, 50, 50});
 ```
-**2. Dodaj akapity**
-Ponownie wykorzystaj kod tworzenia akapitów z poprzedniej funkcji.
+
+**2. Add Paragraphs**  
+Ponownie użyj kodu tworzenia akapitów z poprzedniej funkcji.
 ```java
     IParagraph paragraph0 = new Paragraph();
     paragraph0.getPortions().add(new Portion("Text "));
@@ -184,8 +201,9 @@ Ponownie wykorzystaj kod tworzenia akapitów z poprzedniej funkcji.
     cell.getTextFrame().getParagraphs().clear();
     cell.getTextFrame().getParagraphs().addAll(Arrays.asList(paragraph0, paragraph1, paragraph2));
 ```
-**3. Narysuj ramki**
-Powtarzaj akapity i fragmenty, aby narysować wokół nich ramki.
+
+**3. Draw Frames**  
+Iteruj po akapitach i fragmentach, aby narysować ramki wokół nich.
 ```java
     double x = tbl.getX() + cell.getOffsetX();
     double y = tbl.getY() + cell.getOffsetY();
@@ -202,7 +220,8 @@ Powtarzaj akapity i fragmenty, aby narysować wokół nich ramki.
         shape.getLineFormat().getFillFormat().setSolidFillColor(Color.BLACK);
     }
 ```
-**4. Zapisz prezentację**
+
+**4. Save the Presentation**  
 ```java
     pres.save("YOUR_OUTPUT_DIRECTORY/GetRect_Out.pptx", SaveFormat.Pptx);
 } finally {
@@ -210,13 +229,34 @@ Powtarzaj akapity i fragmenty, aby narysować wokół nich ramki.
 }
 ```
 
-## Wniosek
-Postępując zgodnie z tym przewodnikiem, możesz skutecznie ulepszyć swoje prezentacje, korzystając z Aspose.Slides for Java. Opanowanie manipulacji tabelami i ramkami pozwala tworzyć bardziej angażujące i atrakcyjne wizualnie slajdy. Aby uzyskać dalsze informacje, rozważ zanurzenie się w dodatkowych funkcjach Aspose.Slides lub zintegrowanie go z innymi aplikacjami Java.
+## Conclusion
+Postępując zgodnie z tym przewodnikiem, możesz **add text to table**, wyrównać tekst wewnątrz kształtów oraz **draw frames around text**, aby podkreślić istotne informacje. Opanowanie tych technik pozwala tworzyć wysoce dopracowane, oparte na danych prezentacje z Aspose.Slides dla Javy. Aby dalej eksplorować możliwości, spróbuj połączyć te funkcje z wykresami, animacjami lub eksportem do PDF.
+
+## Frequently Asked Questions
+
+**Q: Can I use these APIs with older JDK versions?**  
+A: Biblioteka obsługuje JDK 8 i nowsze, ale klasyfikator `jdk16` zapewnia najlepszą wydajność na nowszych środowiskach uruchomieniowych.
+
+**Q: How do I change the frame color?**  
+A: Zmodyfikuj kolor wypełnienia formatu linii, np. `shape.getLineFormat().getFillFormat().setSolidFillColor(Color.BLUE);`.
+
+**Q: Is it possible to export the final slide as an image?**  
+A: Tak — użyj `pres.getSlides().get_Item(0).getImage(Export.ImageFormat.Png)` i następnie zapisz tablicę bajtów.
+
+**Q: What if I need to highlight only the word “Total” inside a cell?**  
+A: Iteruj przez `cell.getTextFrame().getParagraphs()`, znajdź fragment zawierający „Total” i narysuj prostokąt wokół ramki ograniczającej tego fragmentu.
+
+**Q: Does Aspose.Slides handle large presentations efficiently?**  
+A: API strumieniuje dane i zwalnia zasoby po wywołaniu `pres.dispose()`, co pomaga w zarządzaniu pamięcią przy dużych plikach.
+
+{{< blocks/products/products-backtop-button >}}
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

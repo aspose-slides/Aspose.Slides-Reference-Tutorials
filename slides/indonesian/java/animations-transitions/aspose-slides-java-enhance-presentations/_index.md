@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-18"
-"description": "Pelajari cara menyempurnakan presentasi Anda dengan menguasai manipulasi tabel dan bingkai dengan Aspose.Slides untuk Java. Panduan ini mencakup pembuatan tabel, penambahan bingkai teks, dan menggambar bingkai di sekitar konten tertentu."
-"title": "Aspose.Slides untuk Java; Menguasai Manipulasi Tabel dan Frame dalam Presentasi"
-"url": "/id/java/animations-transitions/aspose-slides-java-enhance-presentations/"
-"weight": 1
+date: '2025-12-10'
+description: Pelajari cara menambahkan teks ke tabel dan menggambar bingkai di sekitar
+  teks di PowerPoint menggunakan Aspose.Slides untuk Java. Panduan ini mencakup pembuatan
+  tabel, pengaturan perataan teks, dan membingkai konten.
+keywords:
+- Aspose.Slides for Java
+- table manipulation in presentations
+- frame drawing in PowerPoint
+title: Aspose.Slides untuk Java – menambahkan teks ke tabel & manipulasi bingkai
+url: /id/java/animations-transitions/aspose-slides-java-enhance-presentations/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,28 +17,29 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Menguasai Manipulasi Tabel dan Frame dalam Presentasi dengan Aspose.Slides untuk Java
+# Menguasai Manipulasi Tabel dan Bingkai dalam Presentasi dengan Aspose.Slides untuk Java
 
-## Perkenalan
+## Pendahuluan
 
-Menyajikan data secara efektif dapat menjadi tantangan di PowerPoint. Baik Anda pengembang perangkat lunak atau desainer presentasi, menggunakan tabel yang menarik secara visual dan menambahkan bingkai teks dapat membuat slide Anda lebih menarik. Tutorial ini membahas cara menggunakan Aspose.Slides untuk Java untuk menambahkan teks ke sel tabel dan menggambar bingkai di sekitar paragraf dan bagian yang berisi karakter tertentu seperti '0'. Dengan menguasai teknik ini, Anda akan menyempurnakan presentasi Anda dengan presisi dan gaya.
-
-### Apa yang Akan Anda Pelajari:
-- Membuat tabel dalam slide dan mengisinya dengan teks.
-- Menyelaraskan teks dalam bentuk otomatis untuk presentasi yang lebih baik.
-- Menggambar bingkai di sekitar paragraf dan bagian untuk menekankan konten.
-- Aplikasi praktis dari fitur-fitur ini dalam skenario dunia nyata.
+Menyajikan data secara efektif dapat menjadi tantangan di PowerPoint. Baik Anda seorang pengembang perangkat lunak maupun desainer presentasi, **add text to table** sel dan menggambar bingkai di sekitar paragraf penting untuk membuat slide Anda menonjol. Dalam tutorial ini Anda akan melihat secara tepat cara menambahkan teks ke tabel, menyelaraskannya, dan menggambar bingkai di sekitar teks — semua dengan Aspose.Slides untuk Java. Pada akhir tutorial, Anda akan dapat membuat deck yang halus yang menyoroti informasi yang tepat pada waktu yang tepat.
 
 Siap mengubah presentasi Anda? Mari kita mulai!
+
+## Jawaban Cepat
+- **Apa arti “add text to table”?** Itu berarti menyisipkan atau memperbarui konten teks dari sel tabel individu secara programatis.  
+- **Metode mana yang menyimpan file?** `pres.save("output.pptx", SaveFormat.Pptx)` – langkah **save presentation as pptx** ini menyelesaikan perubahan Anda.  
+- **Bagaimana saya dapat menyelaraskan teks di dalam shape?** Gunakan `TextAlignment.Left` (atau Center/Right) melalui `autoShape.getTextFrame().getParagraphs().get_Item(0).getParagraphFormat().setAlignment(...)`.  
+- **Bisakah saya menggambar persegi panjang di sekitar paragraf?** Ya – iterasi melalui paragraf, dapatkan persegi pembatasnya, dan tambahkan `IAutoShape` tanpa isi dan dengan garis hitam.  
+- **Apakah saya memerlukan lisensi?** Lisensi sementara berfungsi untuk evaluasi; lisensi penuh diperlukan untuk penggunaan produksi.
 
 ## Prasyarat
 
 Sebelum menyelami kode, pastikan Anda memiliki hal berikut:
 
 ### Perpustakaan yang Diperlukan
-Anda memerlukan Aspose.Slides untuk Java. Berikut cara memasukkannya menggunakan Maven atau Gradle:
+Anda memerlukan Aspose.Slides untuk Java. Berikut cara menyertakannya menggunakan Maven atau Gradle:
 
-**Pakar:**
+**Maven:**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -42,28 +49,28 @@ Anda memerlukan Aspose.Slides untuk Java. Berikut cara memasukkannya menggunakan
 </dependency>
 ```
 
-**Gradasi:**
+**Gradle:**
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
 ### Pengaturan Lingkungan
-Pastikan Anda telah menginstal Java Development Kit (JDK), sebaiknya JDK 16 atau yang lebih baru, karena contoh ini menggunakan `jdk16` penggolong.
+Pastikan Anda memiliki Java Development Kit (JDK) terinstal, sebaiknya JDK 16 atau lebih baru, karena contoh ini menggunakan classifier `jdk16`.
 
 ### Prasyarat Pengetahuan
-- Pemahaman dasar tentang pemrograman Java.
-- Keakraban dengan perangkat lunak presentasi seperti PowerPoint.
-- Pengalaman menggunakan Lingkungan Pengembangan Terpadu (IDE) seperti IntelliJ IDEA atau Eclipse.
+- Pemahaman dasar tentang pemrograman Java.  
+- Keterbiasaan dengan perangkat lunak presentasi seperti PowerPoint.  
+- Pengalaman menggunakan Integrated Development Environment (IDE) seperti IntelliJ IDEA atau Eclipse.
 
 ## Menyiapkan Aspose.Slides untuk Java
 
 Untuk mulai menggunakan Aspose.Slides, ikuti langkah-langkah berikut:
 
-1. **Instal Perpustakaan**: Gunakan Maven atau Gradle untuk mengelola dependensi, atau unduh langsung dari [Aspose.Slides untuk rilis Java](https://releases.aspose.com/slides/java/).
+1. **Instal Perpustakaan**: Gunakan Maven atau Gradle untuk mengelola dependensi, atau unduh langsung dari [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-2. **Akuisisi Lisensi**:
-   - Mulailah dengan uji coba gratis dengan mengunduh lisensi sementara dari [Lisensi Sementara](https://purchase.aspose.com/temporary-license/).
-   - Untuk akses penuh, pertimbangkan untuk membeli lisensi di [Beli Aspose.Slides](https://purchase.aspose.com/buy).
+2. **Perolehan Lisensi**:
+   - Mulailah dengan percobaan gratis dengan mengunduh lisensi sementara dari [Temporary License](https://purchase.aspose.com/temporary-license/).
+   - Untuk akses penuh, pertimbangkan membeli lisensi di [Purchase Aspose.Slides](https://purchase.aspose.com/buy).
 
 3. **Inisialisasi Dasar**:
 Inisialisasi lingkungan presentasi Anda dengan potongan kode berikut:
@@ -72,31 +79,35 @@ import com.aspose.slides.*;
 
 Presentation pres = new Presentation();
 try {
-    // Kode Anda di sini
+    // Your code here
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
 
-## Panduan Implementasi
+## Mengapa menambahkan teks ke tabel dan menggambar bingkai?
 
-Bagian ini membahas berbagai fitur yang dapat Anda terapkan menggunakan Aspose.Slides untuk Java.
+Menambahkan teks ke tabel memungkinkan Anda menyajikan data terstruktur dengan jelas, sementara menggambar bingkai di sekitar paragraf atau bagian tertentu (misalnya, yang berisi karakter **'0'**) menarik perhatian audiens ke nilai penting. Kombinasi ini sempurna untuk laporan keuangan, dasbor, atau slide apa pun yang memerlukan penekanan pada angka kunci tanpa kekacauan.
+
+## Cara menambahkan teks ke tabel dalam Aspose.Slides untuk Java
 
 ### Fitur 1: Buat Tabel dan Tambahkan Teks ke Sel
 
-#### Ringkasan
-Fitur ini menunjukkan cara membuat tabel pada slide pertama dan mengisi sel tertentu dengan teks. 
+#### Gambaran Umum
+Fitur ini menunjukkan cara **how to create table**, kemudian **add text to table** sel dan selanjutnya **save presentation as pptx**.
 
-##### Tangga:
-**1. Buat Tabel**
-Pertama, inisialisasi presentasi Anda dan tambahkan tabel pada posisi (50, 50) dengan lebar kolom dan tinggi baris yang ditentukan.
+#### Langkah-langkah
+
+**1. Buat Tabel**  
+Pertama, inisialisasi presentasi Anda dan tambahkan tabel pada posisi (50, 50) dengan lebar kolom dan tinggi baris yang ditentukan.
 ```java
 Presentation pres = new Presentation();
 try {
     ITable tbl = pres.getSlides().get_Item(0).getShapes().addTable(
         50, 50, new double[]{50, 70}, new double[]{50, 50, 50});
 ```
-**2. Menambahkan Teks ke Sel**
+
+**2. Tambahkan Teks ke Sel**  
 Buat paragraf dengan bagian teks dan tambahkan ke sel tertentu.
 ```java
     IParagraph paragraph0 = new Paragraph();
@@ -115,7 +126,8 @@ Buat paragraf dengan bagian teks dan tambahkan ke sel tertentu.
     cell.getTextFrame().getParagraphs().clear();
     cell.getTextFrame().getParagraphs().addAll(Arrays.asList(paragraph0, paragraph1, paragraph2));
 ```
-**3. Simpan Presentasi**
+
+**3. Simpan Presentasi**  
 ```java
     pres.save("YOUR_OUTPUT_DIRECTORY/GetRect_Out.pptx", SaveFormat.Pptx);
 } finally {
@@ -123,27 +135,30 @@ Buat paragraf dengan bagian teks dan tambahkan ke sel tertentu.
 }
 ```
 
-### Fitur 2: Tambahkan TextFrame ke AutoShape dan Atur Alignment
+### Fitur 2: Tambahkan TextFrame ke AutoShape dan Atur Penjajaran
 
-#### Ringkasan
-Pelajari cara menambahkan bingkai teks dengan perataan tertentu ke bentuk otomatis.
+#### Gambaran Umum
+Pelajari cara menambahkan bingkai teks dengan penjajaran tertentu ke auto shape—contoh dari **set text alignment java**.
 
-##### Tangga:
-**1. Tambahkan BentukOtomatis**
-Tambahkan persegi panjang sebagai BentukOtomatis pada posisi (400, 100) dengan dimensi yang ditentukan.
+#### Langkah-langkah
+
+**1. Tambahkan AutoShape**  
+Tambahkan persegi panjang sebagai AutoShape pada posisi (400, 100) dengan dimensi yang ditentukan.
 ```java
 Presentation pres = new Presentation();
 try {
     IAutoShape autoShape = pres.getSlides().get_Item(0).getShapes().addAutoShape(
         ShapeType.Rectangle, 400, 100, 60, 120);
 ```
-**2. Mengatur Perataan Teks**
-Atur teks menjadi "Teks dalam bentuk" dan ratakan ke kiri.
+
+**2. Atur Penjajaran Teks**  
+Setel teks menjadi “Text in shape” dan sejajarkan ke kiri.
 ```java
     autoShape.getTextFrame().setText("Text in shape");
     autoShape.getTextFrame().getParagraphs().get_Item(0).getParagraphFormat().setAlignment(TextAlignment.Left);
 ```
-**3. Simpan Presentasi**
+
+**3. Simpan Presentasi**  
 ```java
     pres.save("YOUR_OUTPUT_DIRECTORY/GetRect_Out.pptx", SaveFormat.Pptx);
 } finally {
@@ -151,21 +166,23 @@ Atur teks menjadi "Teks dalam bentuk" dan ratakan ke kiri.
 }
 ```
 
-### Fitur 3: Menggambar Bingkai di Sekitar Paragraf dan Bagian dalam Sel Tabel
+### Fitur 3: Gambar Bingkai di sekitar Paragraf dan Bagian dalam Sel Tabel
 
-#### Ringkasan
-Fitur ini berfokus pada penggambaran bingkai di sekitar paragraf dan bagian yang berisi '0' dalam sel tabel.
+#### Gambaran Umum
+Fitur ini berfokus pada **draw frames around text** dan bahkan **draw rectangle around paragraph** untuk bagian yang berisi karakter ‘0’.
 
-##### Tangga:
-**1. Buat Tabel**
-Gunakan kembali kode dari "Buat Tabel dan Tambahkan Teks ke Sel" untuk pengaturan awal.
+#### Langkah-langkah
+
+**1. Buat Tabel**  
+Gunakan kembali kode dari “Create Table and Add Text to Cells” untuk pengaturan awal.
 ```java
 Presentation pres = new Presentation();
 try {
     ITable tbl = pres.getSlides().get_Item(0).getShapes().addTable(
         50, 50, new double[]{50, 70}, new double[]{50, 50, 50});
 ```
-**2. Tambahkan Paragraf**
+
+**2. Tambahkan Paragraf**  
 Gunakan kembali kode pembuatan paragraf dari fitur sebelumnya.
 ```java
     IParagraph paragraph0 = new Paragraph();
@@ -184,8 +201,9 @@ Gunakan kembali kode pembuatan paragraf dari fitur sebelumnya.
     cell.getTextFrame().getParagraphs().clear();
     cell.getTextFrame().getParagraphs().addAll(Arrays.asList(paragraph0, paragraph1, paragraph2));
 ```
-**3. Bingkai Gambar**
-Ulangi paragraf dan bagian untuk menggambar bingkai di sekitarnya.
+
+**3. Gambar Bingkai**  
+Iterasi melalui paragraf dan bagian untuk menggambar bingkai di sekitarnya.
 ```java
     double x = tbl.getX() + cell.getOffsetX();
     double y = tbl.getY() + cell.getOffsetY();
@@ -202,7 +220,8 @@ Ulangi paragraf dan bagian untuk menggambar bingkai di sekitarnya.
         shape.getLineFormat().getFillFormat().setSolidFillColor(Color.BLACK);
     }
 ```
-**4. Simpan Presentasi**
+
+**4. Simpan Presentasi**  
 ```java
     pres.save("YOUR_OUTPUT_DIRECTORY/GetRect_Out.pptx", SaveFormat.Pptx);
 } finally {
@@ -211,12 +230,35 @@ Ulangi paragraf dan bagian untuk menggambar bingkai di sekitarnya.
 ```
 
 ## Kesimpulan
-Dengan mengikuti panduan ini, Anda dapat menyempurnakan presentasi Anda secara efektif menggunakan Aspose.Slides untuk Java. Menguasai manipulasi tabel dan bingkai memungkinkan Anda membuat slide yang lebih menarik dan memikat secara visual. Untuk eksplorasi lebih lanjut, pertimbangkan untuk mempelajari fitur-fitur tambahan Aspose.Slides atau mengintegrasikannya dengan aplikasi Java lainnya.
+Dengan mengikuti panduan ini, Anda dapat **add text to table**, menyelaraskan teks di dalam shape, dan **draw frames around text** untuk menekankan informasi penting. Menguasai teknik ini memungkinkan Anda membuat presentasi yang sangat halus dan berbasis data dengan Aspose.Slides untuk Java. Untuk eksplorasi lebih lanjut, coba gabungkan fitur-fitur ini dengan diagram, animasi, atau men ke PDF.
+
+## Pertanyaan yang Sering Diajukan
+
+**Q: Bisakah saya menggunakan API ini dengan versi JDK yang lebih lama?**  
+A: Perpustakaan mendukung JDK 8 ke atas, tetapi classifier `jdk16` memberikan kinerja terbaik pada runtime yang lebih baru.
+
+**Q: Bagaimana cara mengubah warna bingkai?**  
+A: Modifikasi warna isi format garis, misalnya `shape.getLineFormat().getFillFormat().setSolidFillColor(Color.BLUE);`.
+
+**Q: Apakah memungkinkan mengekspor slide akhir sebagai gambar?**  
+A: Ya—gunakan `pres.getSlides().get_Item(0).getImage(Export.ImageFormat.Png)` dan kemudian simpan array byte.
+
+**Q: Bagaimana jika saya perlu menyorot hanya kata “Total” di dalam sel?**  
+A: Iterasi melalui `cell.getTextFrame().getParagraphs()`, temukan bagian yang berisi “Total”, dan gambar persegi panjang di sekitar kotak pembatas bagian tersebut.
+
+**Q: Apakah Aspose.Slides menangani presentasi besar secara efisien?**  
+A: API mengalirkan data dan melepaskan sumber daya ketika `pres.dispose()` dipanggil, yang membantu manajemen memori untuk file besar.
+
+---
+
+{{< blocks/products/products-backtop-button >}}
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

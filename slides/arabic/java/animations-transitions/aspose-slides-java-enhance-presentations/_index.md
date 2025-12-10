@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-18"
-"description": "تعلّم كيفية تحسين عروضك التقديمية بإتقان التعامل مع الجداول والإطارات باستخدام Aspose.Slides لجافا. يغطي هذا الدليل إنشاء الجداول، وإضافة إطارات النصوص، ورسم الإطارات حول محتوى محدد."
-"title": "Aspose.Slides لجافا - إتقان التعامل مع الجداول والإطارات في العروض التقديمية"
-"url": "/ar/java/animations-transitions/aspose-slides-java-enhance-presentations/"
-"weight": 1
+date: '2025-12-10'
+description: تعرّف على كيفية إضافة النص إلى جدول ورسم إطارات حول النص في PowerPoint
+  باستخدام Aspose.Slides للغة Java. يغطي هذا الدليل إنشاء الجداول، وضبط محاذاة النص،
+  وإطار المحتوى.
+keywords:
+- Aspose.Slides for Java
+- table manipulation in presentations
+- frame drawing in PowerPoint
+title: Aspose.Slides for Java – إضافة نص إلى الجدول وتعديل الإطار
+url: /ar/java/animations-transitions/aspose-slides-java-enhance-presentations/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,28 +17,29 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# إتقان التعامل مع الجداول والإطارات في العروض التقديمية باستخدام Aspose.Slides لـ Java
+# إتقان معالجة الجداول والإطارات في العروض التقديمية باستخدام Aspose.Slides for Java
 
-## مقدمة
+## المقدمة
 
-قد يكون عرض البيانات بفعالية في PowerPoint أمرًا صعبًا. سواء كنت مطور برامج أو مصمم عروض تقديمية، فإن استخدام جداول جذابة بصريًا وإضافة إطارات نصية يجعل شرائحك أكثر جاذبية. يستكشف هذا البرنامج التعليمي كيفية استخدام Aspose.Slides لجافا لإضافة نص إلى خلايا الجدول ورسم إطارات حول الفقرات والأجزاء التي تحتوي على أحرف معينة مثل "0". بإتقان هذه التقنيات، ستُحسّن عروضك التقديمية بدقة وأناقة.
+قد يكون عرض البيانات بفعالية تحديًا في PowerPoint. سواء كنت مطور برمجيات أو مصمم عروض تقديمية، **add text to table** الخلايا وارسم إطارات حول الفقرات الرئيسية لجعل الشرائح أكثر بروزًا. في هذا الدرس ستتعرف بالضبط على كيفية إضافة نص إلى جدول، محاذاته، ورسم إطارات حول النص — كل ذلك باستخدام Aspose.Slides for Java. في النهاية، ستكون قادرًا على إنشاء عروض مصقولة تُبرز المعلومات الصحيحة في الوقت المناسب.
 
-### ما سوف تتعلمه:
-- إنشاء الجداول في الشرائح وملئها بالنص.
-- محاذاة النص داخل الأشكال التلقائية لتقديم أفضل.
-- رسم إطارات حول الفقرات والأجزاء للتأكيد على المحتوى.
-- التطبيقات العملية لهذه الميزات في سيناريوهات العالم الحقيقي.
+هل أنت مستعد لتحويل عروضك التقديمية؟ هيا نبدأ!
 
-هل أنت مستعد لتحويل عروضك التقديمية؟ هيا بنا!
+## إجابات سريعة
+- **What does “add text to table” mean?** يعني ذلك إدراج أو تحديث المحتوى النصي لخلايا الجدول الفردية برمجيًا.  
+- **Which method saves the file?** `pres.save("output.pptx", SaveFormat.Pptx)` – هذه خطوة **save presentation as pptx** التي تُنهي تغييراتك.  
+- **How can I align text inside a shape?** استخدم `TextAlignment.Left` (أو Center/Right) عبر `autoShape.getTextFrame().getParagraphs().get_Item(0).getParagraphFormat().setAlignment(...)`.  
+- **Can I draw a rectangle around a paragraph?** نعم – قم بالتكرار عبر الفقرات، احصل على المستطيل المحيط بها، وأضف `IAutoShape` بدون تعبئة وخط أسود.  
+- **Do I need a license?** الترخيص المؤقت يكفي للتقييم؛ الترخيص الكامل مطلوب للاستخدام في الإنتاج.
 
-## المتطلبات الأساسية
+## المتطلبات المسبقة
 
-قبل الغوص في الكود، تأكد من أن لديك ما يلي:
+قبل الغوص في الكود، تأكد من وجود ما يلي:
 
 ### المكتبات المطلوبة
-ستحتاج إلى Aspose.Slides لجافا. إليك كيفية تضمينه باستخدام Maven أو Gradle:
+ستحتاج إلى Aspose.Slides for Java. إليك كيفية تضمينه باستخدام Maven أو Gradle:
 
-**مافن:**
+**Maven:**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -42,62 +49,65 @@
 </dependency>
 ```
 
-**جرادل:**
+**Gradle:**
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
 ### إعداد البيئة
-تأكد من تثبيت Java Development Kit (JDK)، ويفضل JDK 16 أو إصدار أحدث، حيث يستخدم هذا المثال `jdk16` مصنف.
+تأكد من تثبيت مجموعة تطوير جافا (JDK)، ويفضل أن تكون JDK 16 أو أحدث، لأن هذا المثال يستخدم المصنف `jdk16`.
 
-### متطلبات المعرفة
-- فهم أساسيات برمجة جافا.
-- -الإلمام ببرامج العروض التقديمية مثل PowerPoint.
-- خبرة في استخدام بيئة التطوير المتكاملة (IDE) مثل IntelliJ IDEA أو Eclipse.
+### المتطلبات المعرفية
+- فهم أساسي لبرمجة Java.  
+- الإلمام ببرامج العروض التقديمية مثل PowerPoint.  
+- خبرة في استخدام بيئة تطوير متكاملة (IDE) مثل IntelliJ IDEA أو Eclipse.
 
-## إعداد Aspose.Slides لـ Java
+## إعداد Aspose.Slides for Java
 
 لبدء استخدام Aspose.Slides، اتبع الخطوات التالية:
 
-1. **تثبيت المكتبة**:استخدم Maven أو Gradle لإدارة التبعيات، أو قم بتنزيله مباشرة من [إصدارات Aspose.Slides لـ Java](https://releases.aspose.com/slides/java/).
+1. **Install the Library**: استخدم Maven أو Gradle لإدارة التبعيات، أو قم بتنزيله مباشرة من [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-2. **الحصول على الترخيص**:
-   - ابدأ بفترة تجريبية مجانية عن طريق تنزيل ترخيص مؤقت من [رخصة مؤقتة](https://purchase.aspose.com/temporary-license/).
-   - للحصول على إمكانية الوصول الكاملة، فكر في شراء ترخيص من [شراء Aspose.Slides](https://purchase.aspose.com/buy).
+2. **License Acquisition**:
+   - ابدأ بتجربة مجانية عن طريق تنزيل ترخيص مؤقت من [Temporary License](https://purchase.aspose.com/temporary-license/).
+   - للوصول الكامل، فكر في شراء ترخيص من [Purchase Aspose.Slides](https://purchase.aspose.com/buy).
 
-3. **التهيئة الأساسية**:
-قم بتهيئة بيئة العرض التقديمي الخاصة بك باستخدام مقتطف التعليمات البرمجية التالي:
+3. **Basic Initialization**: قم بتهيئة بيئة العرض الخاصة بك باستخدام مقتطف الكود التالي:
 ```java
 import com.aspose.slides.*;
 
 Presentation pres = new Presentation();
 try {
-    // الكود الخاص بك هنا
+    // Your code here
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
 
-## دليل التنفيذ
+## لماذا إضافة نص إلى جدول ورسم إطارات؟
 
-يغطي هذا القسم الميزات المختلفة التي يمكنك تنفيذها باستخدام Aspose.Slides لـ Java.
+إضافة نص إلى جدول يتيح لك عرض البيانات المهيكلة بوضوح، بينما رسم إطارات حول الفقرات أو أجزاء محددة (مثل تلك التي تحتوي على الحرف **'0'**) يجذب انتباه الجمهور إلى القيم المهمة. هذا الجمع مثالي للتقارير المالية، لوحات التحكم، أو أي شريحة تحتاج إلى إبراز أرقام رئيسية دون فوضى.
+
+## كيفية إضافة نص إلى جدول في Aspose.Slides for Java
 
 ### الميزة 1: إنشاء جدول وإضافة نص إلى الخلايا
 
-#### ملخص
-توضح هذه الميزة كيفية إنشاء جدول في الشريحة الأولى وملء خلايا محددة بالنص. 
+#### نظرة عامة
+توضح هذه الميزة كيفية **how to create table**، ثم **add text to table** الخلايا وبعد ذلك **save presentation as pptx**.
 
-##### خطوات:
-**1. إنشاء جدول**
-أولاً، قم بتهيئة العرض التقديمي الخاص بك وأضف جدولاً في الموضع (50، 50) بعرض أعمدة محدد وارتفاع صفوف محددين.
+#### الخطوات
+
+**1. Create a Table**  
+أولاً، قم بتهيئة العرض الخاص بك وأضف جدولًا في الموضع (50, 50) مع تحديد عرض الأعمدة وارتفاع الصفوف.
 ```java
 Presentation pres = new Presentation();
 try {
     ITable tbl = pres.getSlides().get_Item(0).getShapes().addTable(
         50, 50, new double[]{50, 70}, new double[]{50, 50, 50});
 ```
-**2. إضافة نص إلى الخلايا**
-إنشاء فقرات تحتوي على أجزاء من النص وإضافتها إلى خلية محددة.
+
+**2. Add Text to Cells**  
+أنشئ فقرات تحتوي على أجزاء من النص وأضفها إلى خلية محددة.
 ```java
     IParagraph paragraph0 = new Paragraph();
     paragraph0.getPortions().add(new Portion("Text "));
@@ -115,7 +125,8 @@ try {
     cell.getTextFrame().getParagraphs().clear();
     cell.getTextFrame().getParagraphs().addAll(Arrays.asList(paragraph0, paragraph1, paragraph2));
 ```
-**3. احفظ العرض التقديمي**
+
+**3. Save the Presentation**  
 ```java
     pres.save("YOUR_OUTPUT_DIRECTORY/GetRect_Out.pptx", SaveFormat.Pptx);
 } finally {
@@ -123,27 +134,30 @@ try {
 }
 ```
 
-### الميزة 2: إضافة إطار نصي إلى الشكل التلقائي وتعيين المحاذاة
+### الميزة 2: إضافة TextFrame إلى AutoShape وتعيين المحاذاة
 
-#### ملخص
-تعرف على كيفية إضافة إطار نص بمحاذاة محددة إلى شكل تلقائي.
+#### نظرة عامة
+تعلم كيفية إضافة إطار نص مع محاذاة محددة إلى شكل تلقائي—مثال على **set text alignment java**.
 
-##### خطوات:
-**1. إضافة شكل تلقائي**
-أضف مستطيلاً كشكل تلقائي في الموضع (400، 100) بأبعاد محددة.
+#### الخطوات
+
+**1. Add an AutoShape**  
+أضف مستطيلًا كـ AutoShape في الموضع (400, 100) مع الأبعاد المحددة.
 ```java
 Presentation pres = new Presentation();
 try {
     IAutoShape autoShape = pres.getSlides().get_Item(0).getShapes().addAutoShape(
         ShapeType.Rectangle, 400, 100, 60, 120);
 ```
-**2. ضبط محاذاة النص**
-اضبط النص على "نص في الشكل" وقم بمحاذاته إلى اليسار.
+
+**2. Set Text Alignment**  
+عيّن النص إلى “Text in shape” وقم بمحاذاته إلى اليسار.
 ```java
     autoShape.getTextFrame().setText("Text in shape");
     autoShape.getTextFrame().getParagraphs().get_Item(0).getParagraphFormat().setAlignment(TextAlignment.Left);
 ```
-**3. احفظ العرض التقديمي**
+
+**3. Save the Presentation**  
 ```java
     pres.save("YOUR_OUTPUT_DIRECTORY/GetRect_Out.pptx", SaveFormat.Pptx);
 } finally {
@@ -153,20 +167,22 @@ try {
 
 ### الميزة 3: رسم إطارات حول الفقرات والأجزاء في خلايا الجدول
 
-#### ملخص
-ترتكز هذه الميزة على رسم الإطارات حول الفقرات والأجزاء التي تحتوي على "0" داخل خلايا الجدول.
+#### نظرة عامة
+تركز هذه الميزة على **draw frames around text** وحتى **draw rectangle around paragraph** للأجزاء التي تحتوي على الحرف ‘0’.
 
-##### خطوات:
-**1. إنشاء جدول**
-أعد استخدام الكود من "إنشاء جدول وإضافة نص إلى الخلايا" للإعداد الأولي.
+#### الخطوات
+
+**1. Create a Table**  
+أعد استخدام الكود من “Create Table and Add Text to Cells” للإعداد الأولي.
 ```java
 Presentation pres = new Presentation();
 try {
     ITable tbl = pres.getSlides().get_Item(0).getShapes().addTable(
         50, 50, new double[]{50, 70}, new double[]{50, 50, 50});
 ```
-**2. إضافة فقرات**
-إعادة استخدام كود إنشاء الفقرات من الميزة السابقة.
+
+**2. Add Paragraphs**  
+أعد استخدام كود إنشاء الفقرات من الميزة السابقة.
 ```java
     IParagraph paragraph0 = new Paragraph();
     paragraph0.getPortions().add(new Portion("Text "));
@@ -184,8 +200,9 @@ try {
     cell.getTextFrame().getParagraphs().clear();
     cell.getTextFrame().getParagraphs().addAll(Arrays.asList(paragraph0, paragraph1, paragraph2));
 ```
-**3. ارسم الإطارات**
-قم بالتكرار على الفقرات والأجزاء لرسم إطارات حولها.
+
+**3. Draw Frames**  
+قم بالتكرار عبر الفقرات والأجزاء لرسم إطارات حولها.
 ```java
     double x = tbl.getX() + cell.getOffsetX();
     double y = tbl.getY() + cell.getOffsetY();
@@ -202,7 +219,8 @@ try {
         shape.getLineFormat().getFillFormat().setSolidFillColor(Color.BLACK);
     }
 ```
-**4. احفظ العرض التقديمي**
+
+**4. Save the Presentation**  
 ```java
     pres.save("YOUR_OUTPUT_DIRECTORY/GetRect_Out.pptx", SaveFormat.Pptx);
 } finally {
@@ -210,13 +228,34 @@ try {
 }
 ```
 
-## خاتمة
-باتباع هذا الدليل، يمكنك تحسين عروضك التقديمية بفعالية باستخدام Aspose.Slides لجافا. إتقان التعامل مع الجداول والإطارات يتيح لك إنشاء شرائح أكثر جاذبية وجمالاً. لمزيد من الاستكشاف، فكّر في التعمق في ميزات Aspose.Slides الإضافية أو دمجها مع تطبيقات جافا أخرى.
+## الخلاصة
+باتباع هذا الدليل، يمكنك **add text to table**، محاذاة النص داخل الأشكال، و**draw frames around text** لتسليط الضوء على المعلومات الهامة. إتقان هذه التقنيات يتيح لك إنشاء عروض تقديمية عالية الجودة، مدفوعة بالبيانات، باستخدام Aspose.Slides for Java. لاستكشاف المزيد، جرّب دمج هذه الميزات مع المخططات، الرسوم المتحركة، أو التصدير إلى PDF.
+
+## الأسئلة المتكررة
+
+**س: هل يمكنني استخدام هذه الـ APIs مع إصدارات JDK أقدم؟**  
+ج: المكتبة تدعم JDK 8 وما فوق، لكن المصنف `jdk16` يقدم أفضل أداء على بيئات التشغيل الأحدث.
+
+**س: كيف يمكنني تغيير لون الإطار؟**  
+ج: عدّل لون تعبئة تنسيق الخط، مثال: `shape.getLineFormat().getFillFormat().setSolidFillColor(Color.BLUE);`.
+
+**س: هل يمكن تصدير الشريحة النهائية كصورة؟**  
+ج: نعم—استخدم `pres.getSlides().get_Item(0).getImage(Export.ImageFormat.Png)` ثم احفظ مصفوفة البايتات.
+
+**س: ماذا لو أردت تمييز كلمة “Total” فقط داخل خلية؟**  
+ج: قم بالتكرار عبر `cell.getTextFrame().getParagraphs()`، ابحث عن الجزء الذي يحتوي على “Total”، وارسم مستطيلًا حول صندوق حد ذلك الجزء.
+
+**س: هل يتعامل Aspose.Slides بفعالية مع العروض الكبيرة؟**  
+ج: الـ API يبث البيانات ويحرّر الموارد عند استدعاء `pres.dispose()`، مما يساعد في إدارة الذاكرة للملفات الكبيرة.
+
+{{< blocks/products/products-backtop-button >}}
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
