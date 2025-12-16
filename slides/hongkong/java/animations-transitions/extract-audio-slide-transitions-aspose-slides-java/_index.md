@@ -160,6 +160,12 @@ A: 確認 PPTX 檔案未損毀、過渡確實包含音訊，且使用正確版�
 - **臨時授權**： [申請臨時授權](https://purchase.aspose.com/temporary-license/)  
 - **支援**： [Aspose 論壇](https://forum.aspose.com/c/slides/11)
 
+---
+
+**最後更新：** 2025-12-10  
+**測試環境：** Aspose.Slides 25.4 for Java  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -167,9 +173,3 @@ A: 確認 PPTX 檔案未損毀、過渡確實包含音訊，且使用正確版�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-10  
-**測試環境：** Aspose.Slides 25.4 for Java  
-**作者：** Aspose

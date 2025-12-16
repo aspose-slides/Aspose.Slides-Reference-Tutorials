@@ -162,6 +162,12 @@ A: Ujistěte se, že soubor PPTX není poškozený, přechod skutečně obsahuje
 - **Temporary License**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Podpora**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Poslední aktualizace:** 2025-12-10  
+**Testováno s:** Aspose.Slides 25.4 for Java  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -169,9 +175,3 @@ A: Ujistěte se, že soubor PPTX není poškozený, přechod skutečně obsahuje
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2025-12-10  
-**Testováno s:** Aspose.Slides 25.4 for Java  
-**Autor:** Aspose

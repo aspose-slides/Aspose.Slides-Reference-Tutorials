@@ -7,7 +7,7 @@ keywords:
 - animate text by letter Java Aspose.Slides
 - Aspose.Slides for Java animation guide
 - Java PowerPoint animation with Aspose
-title: 'Cách Tạo Hoạt Ảnh Văn Bản trong Java: Tạo Hoạt Ảnh Văn Bản Theo Chữ Sử Dụng
+title: 'Cách Tạo Hoạt Ảnh Văn Bản trong Java - Tạo Hoạt Ảnh Văn Bản Theo Chữ Sử Dụng
   Aspose.Slides – Hướng Dẫn Đầy Đủ'
 url: /vi/java/animations-transitions/animate-text-by-letter-aspose-slides-java/
 weight: 1
@@ -198,6 +198,12 @@ A: Giấy phép hợp lệ là bắt buộc cho các triển khai thương mại
 - **Free Trial**: [Start Free Trial](https://releases.aspose.com/slides/java/)  
 - **Temporary License**: [Get Temporary License](https://purchase.aspose.com/)
 
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.Slides 25.4 (JDK 16 classifier)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -205,9 +211,3 @@ A: Giấy phép hợp lệ là bắt buộc cho các triển khai thương mại
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.Slides 25.4 (JDK 16 classifier)  
-**Author:** Aspose

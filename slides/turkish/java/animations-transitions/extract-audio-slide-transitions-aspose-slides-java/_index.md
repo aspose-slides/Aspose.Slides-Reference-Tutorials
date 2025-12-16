@@ -162,6 +162,12 @@ C: PPTX dosyasının bozuk olmadığını, geçişin gerçekten ses içerdiğini
 - **Geçici Lisans**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Destek**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Son Güncelleme:** 2025-12-10  
+**Test Edilen Versiyon:** Aspose.Slides 25.4 for Java  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -169,9 +175,3 @@ C: PPTX dosyasının bozuk olmadığını, geçişin gerçekten ses içerdiğini
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-10  
-**Test Edilen Versiyon:** Aspose.Slides 25.4 for Java  
-**Yazar:** Aspose

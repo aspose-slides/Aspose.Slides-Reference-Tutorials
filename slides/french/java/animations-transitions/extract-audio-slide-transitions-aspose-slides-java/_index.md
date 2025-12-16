@@ -162,6 +162,12 @@ R : Assurez‑vous que le fichier PPTX n’est pas corrompu, que la transition
 - **Licence temporaire** : [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support** : [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Dernière mise à jour :** 2025-12-10  
+**Testé avec :** Aspose.Slides 25.4 for Java  
+**Auteur :** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -169,9 +175,3 @@ R : Assurez‑vous que le fichier PPTX n’est pas corrompu, que la transition
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2025-12-10  
-**Testé avec :** Aspose.Slides 25.4 for Java  
-**Auteur :** Aspose

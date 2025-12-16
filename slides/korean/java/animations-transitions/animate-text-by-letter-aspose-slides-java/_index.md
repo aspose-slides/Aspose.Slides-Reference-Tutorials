@@ -6,7 +6,7 @@ keywords:
 - animate text by letter Java Aspose.Slides
 - Aspose.Slides for Java animation guide
 - Java PowerPoint animation with Aspose
-title: 'Java에서 텍스트 애니메이션 만드는 방법: Aspose.Slides를 사용한 글자별 텍스트 애니메이션 – 완전 가이드'
+title: 'Java에서 텍스트 애니메이션 만드는 방법 - Aspose.Slides를 사용한 글자별 텍스트 애니메이션 – 완전 가이드'
 url: /ko/java/animations-transitions/animate-text-by-letter-aspose-slides-java/
 weight: 1
 ---
@@ -196,6 +196,12 @@ A: A valid license is required for commercial deployments; a free trial is suffi
 - **Free Trial**: [Start Free Trial](https://releases.aspose.com/slides/java/)  
 - **Temporary License**: [Get Temporary License](https://purchase.aspose.com/)
 
+---
+
+**마지막 업데이트:** 2025-12-10  
+**테스트 환경:** Aspose.Slides 25.4 (JDK 16 classifier)  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -203,9 +209,3 @@ A: A valid license is required for commercial deployments; a free trial is suffi
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2025-12-10  
-**테스트 환경:** Aspose.Slides 25.4 (JDK 16 classifier)  
-**작성자:** Aspose

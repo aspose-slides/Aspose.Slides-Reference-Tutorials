@@ -7,7 +7,7 @@ keywords:
 - animate text by letter Java Aspose.Slides
 - Aspose.Slides for Java animation guide
 - Java PowerPoint animation with Aspose
-title: 'Πώς να δημιουργήσετε κίνηση κειμένου σε Java: Κίνηση κειμένου ανά γράμμα με
+title: 'Πώς να δημιουργήσετε κίνηση κειμένου σε Java - Κίνηση κειμένου ανά γράμμα με
   το Aspose.Slides – Ένας πλήρης οδηγός'
 url: /el/java/animations-transitions/animate-text-by-letter-aspose-slides-java/
 weight: 1
@@ -198,6 +198,12 @@ presentation.save(outFilePath, SaveFormat.Pptx);
 - **Δωρεάν Δοκιμή**: [Start Free Trial](https://releases.aspose.com/slides/java/)  
 - **Προσωρινή Άδεια**: [Get Temporary License](https://purchase.aspose.com/)
 
+---
+
+**Τελευταία Ενημέρωση:** 2025-12-10  
+**Δοκιμή Με:** Aspose.Slides 25.4 (JDK 16 classifier)  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -205,9 +211,3 @@ presentation.save(outFilePath, SaveFormat.Pptx);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2025-12-10  
-**Δοκιμή Με:** Aspose.Slides 25.4 (JDK 16 classifier)  
-**Συγγραφέας:** Aspose

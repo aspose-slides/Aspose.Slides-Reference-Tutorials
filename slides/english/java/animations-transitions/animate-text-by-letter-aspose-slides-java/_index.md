@@ -1,5 +1,5 @@
 ---
-title: "How to Animate Text Java: Animate Text by Letter Using Aspose.Slides – A Complete Guide"
+title: "How to Animate Text Java - Animate Text by Letter Using Aspose.Slides – A Complete Guide"
 description: "Learn how to animate text java using Aspose.Slides for Java. This guide walks through setup, adding oval shape java, and configuring text animation timing."
 date: "2025-12-10"
 weight: 1
@@ -195,6 +195,12 @@ A: A valid license is required for commercial deployments; a free trial is suffi
 - **Free Trial**: [Start Free Trial](https://releases.aspose.com/slides/java/)  
 - **Temporary License**: [Get Temporary License](https://purchase.aspose.com/)
 
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.Slides 25.4 (JDK 16 classifier)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -202,9 +208,3 @@ A: A valid license is required for commercial deployments; a free trial is suffi
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.Slides 25.4 (JDK 16 classifier)  
-**Author:** Aspose

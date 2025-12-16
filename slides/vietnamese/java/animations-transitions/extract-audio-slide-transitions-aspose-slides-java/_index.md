@@ -162,6 +162,12 @@ Trích xuất âm thanh từ transition của slide mở ra một số khả nă
 - **Giấy phép tạm thời**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Hỗ trợ**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Cập nhật lần cuối:** 2025-12-10  
+**Kiểm tra với:** Aspose.Slides 25.4 for Java  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -169,9 +175,3 @@ Trích xuất âm thanh từ transition của slide mở ra một số khả nă
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2025-12-10  
-**Kiểm tra với:** Aspose.Slides 25.4 for Java  
-**Tác giả:** Aspose

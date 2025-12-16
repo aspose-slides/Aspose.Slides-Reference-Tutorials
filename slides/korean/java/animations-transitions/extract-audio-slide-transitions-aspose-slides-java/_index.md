@@ -161,6 +161,12 @@ A: PPTX 파일이 손상되지 않았는지, 전환에 실제로 오디오가 �
 - **임시 라이선스**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **지원**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
+---
+
+**마지막 업데이트:** 2025-12-10  
+**테스트 환경:** Aspose.Slides 25.4 for Java  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -168,9 +174,3 @@ A: PPTX 파일이 손상되지 않았는지, 전환에 실제로 오디오가 �
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2025-12-10  
-**테스트 환경:** Aspose.Slides 25.4 for Java  
-**작성자:** Aspose

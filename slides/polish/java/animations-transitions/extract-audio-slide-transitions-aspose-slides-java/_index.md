@@ -162,6 +162,12 @@ O: Upewnij się, że plik PPTX nie jest uszkodzony, przejście rzeczywiście zaw
 - **Licencja tymczasowa**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Wsparcie**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Ostatnia aktualizacja:** 2025-12-10  
+**Testowano z:** Aspose.Slides 25.4 for Java  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -169,9 +175,3 @@ O: Upewnij się, że plik PPTX nie jest uszkodzony, przejście rzeczywiście zaw
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2025-12-10  
-**Testowano z:** Aspose.Slides 25.4 for Java  
-**Autor:** Aspose

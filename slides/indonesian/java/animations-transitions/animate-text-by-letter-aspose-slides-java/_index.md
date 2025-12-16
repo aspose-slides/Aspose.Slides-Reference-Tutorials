@@ -7,7 +7,7 @@ keywords:
 - animate text by letter Java Aspose.Slides
 - Aspose.Slides for Java animation guide
 - Java PowerPoint animation with Aspose
-title: 'Cara Menganimasikan Teks di Java: Menganimasikan Teks per Huruf Menggunakan
+title: 'Cara Menganimasikan Teks di Java - Menganimasikan Teks per Huruf Menggunakan
   Aspose.Slides – Panduan Lengkap'
 url: /id/java/animations-transitions/animate-text-by-letter-aspose-slides-java/
 weight: 1
@@ -198,6 +198,12 @@ A: Lisensi yang valid diperlukan untuk penerapan komersial; percobaan gratis cuk
 - **Free Trial**: [Start Free Trial](https://releases.aspose.com/slides/java/)  
 - **Temporary License**: [Get Temporary License](https://purchase.aspose.com/)
 
+---
+
+**Terakhir Diperbarui:** 2025-12-10  
+**Diuji Dengan:** Aspose.Slides 25.4 (JDK 16 classifier)  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -205,9 +211,3 @@ A: Lisensi yang valid diperlukan untuk penerapan komersial; percobaan gratis cuk
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2025-12-10  
-**Diuji Dengan:** Aspose.Slides 25.4 (JDK 16 classifier)  
-**Penulis:** Aspose

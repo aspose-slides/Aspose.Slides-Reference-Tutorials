@@ -7,7 +7,7 @@ keywords:
 - animate text by letter Java Aspose.Slides
 - Aspose.Slides for Java animation guide
 - Java PowerPoint animation with Aspose
-title: 'Java’da Metni Nasıl Canlandırılır: Aspose.Slides Kullanarak Harf Harf Metin
+title: 'Java’da Metni Nasıl Canlandırılır - Aspose.Slides Kullanarak Harf Harf Metin
   Canlandırma – Tam Kılavuz'
 url: /tr/java/animations-transitions/animate-text-by-letter-aspose-slides-java/
 weight: 1
@@ -198,6 +198,12 @@ A: Ticari dağıtımlar için geçerli bir lisans gerekir; geliştirme ve test i
 - **Ücretsiz Deneme**: [Start Free Trial](https://releases.aspose.com/slides/java/)  
 - **Geçici Lisans**: [Get Temporary License](https://purchase.aspose.com/)
 
+---
+
+**Son Güncelleme:** 2025-12-10  
+**Test Edilen:** Aspose.Slides 25.4 (JDK 16 classifier)  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -205,9 +211,3 @@ A: Ticari dağıtımlar için geçerli bir lisans gerekir; geliştirme ve test i
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-10  
-**Test Edilen:** Aspose.Slides 25.4 (JDK 16 classifier)  
-**Yazar:** Aspose

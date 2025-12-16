@@ -159,6 +159,12 @@ A: 确保 PPTX 文件未损坏，转场实际包含音频，并且使用了正�
 - **临时许可证**: [申请临时许可证](https://purchase.aspose.com/temporary-license/)
 - **支持**: [Aspose 论坛](https://forum.aspose.com/c/slides/11)
 
+---
+
+**最后更新：** 2025-12-10  
+**测试环境：** Aspose.Slides 25.4 for Java  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -166,9 +172,3 @@ A: 确保 PPTX 文件未损坏，转场实际包含音频，并且使用了正�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2025-12-10  
-**测试环境：** Aspose.Slides 25.4 for Java  
-**作者：** Aspose

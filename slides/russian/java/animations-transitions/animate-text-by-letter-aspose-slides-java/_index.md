@@ -7,7 +7,7 @@ keywords:
 - animate text by letter Java Aspose.Slides
 - Aspose.Slides for Java animation guide
 - Java PowerPoint animation with Aspose
-title: 'Как анимировать текст в Java: анимация текста по буквам с помощью Aspose.Slides
+title: 'Как анимировать текст в Java - анимация текста по буквам с помощью Aspose.Slides
   – Полное руководство'
 url: /ru/java/animations-transitions/animate-text-by-letter-aspose-slides-java/
 weight: 1
@@ -198,6 +198,12 @@ presentation.save(outFilePath, SaveFormat.Pptx);
 - **Бесплатная пробная версия**: [Start Free Trial](https://releases.aspose.com/slides/java/)  
 - **Временная лицензия**: [Get Temporary License](https://purchase.aspose.com/)
 
+---
+
+**Последнее обновление:** 2025-12-10  
+**Тестировано с:** Aspose.Slides 25.4 (JDK 16 classifier)  
+**Автор:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -205,9 +211,3 @@ presentation.save(outFilePath, SaveFormat.Pptx);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2025-12-10  
-**Тестировано с:** Aspose.Slides 25.4 (JDK 16 classifier)  
-**Автор:** Aspose

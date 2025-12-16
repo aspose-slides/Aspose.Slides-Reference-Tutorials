@@ -162,6 +162,11 @@ A: Verifica che il file PPTX non sia corrotto, che la transizione contenga effet
 - **Licenza Temporanea**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Supporto**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Ultimo Aggiornamento:** 2025-12-Testato Con:** Aspose.Slides 25.4 for Java  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -169,8 +174,3 @@ A: Verifica che il file PPTX non sia corrotto, che la transizione contenga effet
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo Aggiornamento:** 2025-12-Testato Con:** Aspose.Slides 25.4 for Java  
-**Autore:** Aspose

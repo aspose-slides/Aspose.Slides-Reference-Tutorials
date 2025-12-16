@@ -162,6 +162,12 @@ A: Säkerställ att PPTX‑filen inte är korrupt, att övergången faktiskt inn
 - **Temporary License**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Senast uppdaterad:** 2025-12-10  
+**Testat med:** Aspose.Slides 25.4 for Java  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -169,9 +175,3 @@ A: Säkerställ att PPTX‑filen inte är korrupt, att övergången faktiskt inn
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2025-12-10  
-**Testat med:** Aspose.Slides 25.4 for Java  
-**Författare:** Aspose

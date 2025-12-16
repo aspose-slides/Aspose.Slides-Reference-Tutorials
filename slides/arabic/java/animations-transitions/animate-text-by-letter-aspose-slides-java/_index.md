@@ -6,7 +6,7 @@ keywords:
 - animate text by letter Java Aspose.Slides
 - Aspose.Slides for Java animation guide
 - Java PowerPoint animation with Aspose
-title: 'كيفية تحريك النص في جافا: تحريك النص حرفًا بحرف باستخدام Aspose.Slides – دليل
+title: 'كيفية تحريك النص في جافا - تحريك النص حرفًا بحرف باستخدام Aspose.Slides – دليل
   كامل'
 url: /ar/java/animations-transitions/animate-text-by-letter-aspose-slides-java/
 weight: 1
@@ -197,6 +197,12 @@ presentation.save(outFilePath, SaveFormat.Pptx);
 - **النسخة التجريبية المجانية**: [Start Free Trial](https://releases.aspose.com/slides/java/)  
 - **الترخيص المؤقت**: [Get Temporary License](https://purchase.aspose.com/)
 
+---
+
+**آخر تحديث:** 2025-12-10  
+**تم الاختبار مع:** Aspose.Slides 25.4 (مصنف JDK 16)  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -204,9 +210,3 @@ presentation.save(outFilePath, SaveFormat.Pptx);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-10  
-**تم الاختبار مع:** Aspose.Slides 25.4 (مصنف JDK 16)  
-**المؤلف:** Aspose

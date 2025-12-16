@@ -162,6 +162,12 @@ A: Stellen Sie sicher, dass die PPTX‑Datei nicht beschädigt ist, der Übergan
 - **Temporäre Lizenz**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Zuletzt aktualisiert:** 2025-12-10  
+**Getestet mit:** Aspose.Slides 25.4 für Java  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -169,9 +175,3 @@ A: Stellen Sie sicher, dass die PPTX‑Datei nicht beschädigt ist, der Übergan
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2025-12-10  
-**Getestet mit:** Aspose.Slides 25.4 für Java  
-**Autor:** Aspose

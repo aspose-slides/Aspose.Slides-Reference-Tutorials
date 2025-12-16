@@ -160,6 +160,12 @@ A: PPTX ファイルが破損していないか、トランジションに実際
 - **Temporary License**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.Slides 25.4 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -167,9 +173,3 @@ A: PPTX ファイルが破損していないか、トランジションに実際
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.Slides 25.4 for Java  
-**Author:** Aspose

@@ -162,6 +162,12 @@ Extraer audio de transiciones de diapositivas abre varias posibilidades del mund
 - **Temporary License**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Última actualización:** 2025-12-10  
+**Probado con:** Aspose.Slides 25.4 for Java  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -169,9 +175,3 @@ Extraer audio de transiciones de diapositivas abre varias posibilidades del mund
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2025-12-10  
-**Probado con:** Aspose.Slides 25.4 for Java  
-**Autor:** Aspose

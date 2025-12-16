@@ -162,6 +162,12 @@ byte[] audio = transition.getSound().getBinaryData();
 - **Προσωρινή Άδεια**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Υποστήριξη**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Τελευταία Ενημέρωση:** 2025-12-10  
+**Δοκιμή Με:** Aspose.Slides 25.4 for Java  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -169,9 +175,3 @@ byte[] audio = transition.getSound().getBinaryData();
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2025-12-10  
-**Δοκιμή Με:** Aspose.Slides 25.4 for Java  
-**Συγγραφέας:** Aspose
