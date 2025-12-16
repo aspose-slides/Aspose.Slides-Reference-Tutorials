@@ -8,7 +8,7 @@ keywords:
 - Loading PowerPoint Files
 - Java Presentation Manipulation
 - Animating Shapes in Java
-title: 'วิธีสร้างพาวเวอร์พอยท์แบบเคลื่อนไหวด้วย Aspose.Slides ใน Java: โหลดและทำให้การนำเสนอเคลื่อนไหวได้อย่างง่ายดาย'
+title: 'วิธีสร้างพาวเวอร์พอยท์แบบเคลื่อนไหวด้วย Aspose.Slides ใน Java - โหลดและทำให้การนำเสนอเคลื่อนไหวได้อย่างง่ายดาย'
 url: /th/java/animations-transitions/master-aspose-slides-java-powerpoint-animations/
 weight: 1
 ---
@@ -235,14 +235,6 @@ try {
 1. **Automate PowerPoint Reporting:** ผสานข้อมูลจากฐานข้อมูลหรือ API เพื่อสร้างชุดสไลด์แบบเรียลไทม์, **automate powerpoint reporting** สำหรับสรุปผู้บริหารประจำวัน.  
 2. **Customize Presentations Dynamically:** ปรับเปลี่ยนเนื้อหาการนำเสนอโดยโปรแกรมตามข้อมูลผู้ใช้, ภูมิภาค, หรือความต้องการของแบรนด์ เพื่อให้แต่ละชุดสไลด์มีความเฉพาะตัว.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## คำถามที่พบบ่อย
 
 **Q: Can I add new animations to a shape that already has effects?**  
@@ -265,3 +257,11 @@ A: Purchase a commercial license from Aspose to remove evaluation limitations an
 **Last Updated:** 2025-12-14  
 **Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

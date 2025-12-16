@@ -8,7 +8,7 @@ keywords:
 - Loading PowerPoint Files
 - Java Presentation Manipulation
 - Animating Shapes in Java
-title: JavaでAspose.Slidesを使用してアニメーション付きPowerPointを作成する方法：プレゼンテーションを簡単に読み込み、アニメーション化する
+title: JavaでAspose.Slidesを使用してアニメーション付きPowerPointを作成する方法 - プレゼンテーションを簡単に読み込み、アニメーション化する
 url: /ja/java/animations-transitions/master-aspose-slides-java-powerpoint-animations/
 weight: 1
 ---
@@ -232,14 +232,6 @@ Aspose.Slides for Java を使用すると、次のことが可能です：
 1. **PowerPoint レポートの自動化:** データベースや API のデータを組み合わせ、スライドデッキをリアルタイムで生成し、日次のエグゼクティブサマリー向けに **PowerPoint レポートを自動化** します。  
 2. **プレゼンテーションの動的カスタマイズ:** ユーザー入力、ロケール、ブランディング要件に基づき、プログラムでプレゼンテーション内容を変更し、各デッキをユニークに調整します。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q: 既にエフェクトがあるシェイプに新しいアニメーションを追加できますか？**  
@@ -262,3 +254,11 @@ A: 評価制限を解除しサポートを受けるために、Aspose から商�
 **最終更新日:** 2025-12-14  
 **テスト環境:** Aspose.Slides for Java 25.4 (jdk16)  
 **作者:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

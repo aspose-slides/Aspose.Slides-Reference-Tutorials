@@ -8,7 +8,7 @@ keywords:
 - Loading PowerPoint Files
 - Java Presentation Manipulation
 - Animating Shapes in Java
-title: 'Aspose.Slides for Java를 사용하여 애니메이션 파워포인트 만들기: 프레젠테이션을 손쉽게 로드하고 애니메이션 적용'
+title: 'Aspose.Slides for Java를 사용하여 애니메이션 파워포인트 만들기 - 프레젠테이션을 손쉽게 로드하고 애니메이션 적용'
 url: /ko/java/animations-transitions/master-aspose-slides-java-powerpoint-animations/
 weight: 1
 ---
@@ -234,14 +234,6 @@ Aspose.Slides for Java를 활용하면 다음과 같은 작업을 수행할 수 
 1. **Automate PowerPoint Reporting:** 데이터베이스 또는 API에서 데이터를 가져와 실시간으로 슬라이드 덱을 생성하고, **일일 경영 요약** 등 자동화된 PowerPoint 보고서를 만들 수 있습니다.  
 2. **Customize Presentations Dynamically:** 사용자 입력, 지역 설정, 브랜드 요구사항 등에 따라 프레젠테이션 내용을 프로그래밍 방식으로 수정하여 각 덱을 고유하게 맞춤화합니다.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q: 이미 효과가 적용된 도형에 새로운 애니메이션을 추가할 수 있나요?**  
@@ -264,3 +256,11 @@ A: 평가 제한을 해제하고 지원을 받으려면 Aspose에서 제공하�
 **Last Updated:** 2025-12-14  
 **Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

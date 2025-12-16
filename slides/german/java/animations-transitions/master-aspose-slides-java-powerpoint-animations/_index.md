@@ -9,8 +9,7 @@ keywords:
 - Loading PowerPoint Files
 - Java Presentation Manipulation
 - Animating Shapes in Java
-title: 'Wie man animierte PowerPoint‑Präsentationen mit Aspose.Slides in Java erstellt:
-  Präsentationen mühelos laden und animieren'
+title: 'Wie man animierte PowerPoint‑Präsentationen mit Aspose.Slides in Java erstellt - Präsentationen mühelos laden und animieren'
 url: /de/java/animations-transitions/master-aspose-slides-java-powerpoint-animations/
 weight: 1
 ---
@@ -234,14 +233,6 @@ Mit Aspose.Slides für Java können Sie:
 1. **PowerPoint‑Reporting automatisieren:** Kombinieren Sie Daten aus Datenbanken oder APIs, um Decks on‑the‑fly zu erzeugen, **PowerPoint‑Reporting automatisieren** für tägliche Executive‑Summaries.  
 2. **Präsentationen dynamisch anpassen:** Ändern Sie Präsentationsinhalte programmatisch basierend auf Benutzereingaben, Locale oder Branding‑Anforderungen, sodass jedes Deck individuell zugeschnitten ist.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Häufig gestellte Fragen
 
 **F: Kann ich neue Animationen zu einem Shape hinzufügen, das bereits Effekte hat?**  
@@ -264,3 +255,11 @@ A: Kaufen Sie eine kommerzielle Lizenz von Aspose, um Evaluierungsbeschränkunge
 **Zuletzt aktualisiert:** 2025-12-14  
 **Getestet mit:** Aspose.Slides für Java 25.4 (jdk16)  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

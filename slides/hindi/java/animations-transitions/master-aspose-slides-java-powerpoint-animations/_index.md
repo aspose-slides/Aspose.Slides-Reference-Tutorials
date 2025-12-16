@@ -234,14 +234,6 @@ Aspose.Slides for Java के साथ आप:
 1. **PowerPoint रिपोर्टिंग को स्वचालित करें:** डेटाबेस या API से डेटा को मिलाकर स्लाइड डेक्स को तुरंत जेनरेट करें, **दैनिक कार्यकारी सारांशों के लिए PowerPoint रिपोर्टिंग स्वचालित करें**।  
 2. **प्रस्तुति को गतिशील रूप से कस्टमाइज़ करें:** उपयोगकर्ता इनपुट, लोकेल या ब्रांडिंग आवश्यकताओं के आधार पर प्रोग्रामेटिक रूप से सामग्री संशोधित करें, जिससे प्रत्येक डेक अनूठा बन सके।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **प्रश्न: क्या मैं किसी शैप में पहले से मौजूद इफ़ेक्ट्स के साथ नई एनीमेशन जोड़ सकता हूँ?**  
@@ -264,3 +256,11 @@ Aspose.Slides for Java के साथ आप:
 **अंतिम अपडेट:** 2025-12-14  
 **परीक्षित संस्करण:** Aspose.Slides for Java 25.4 (jdk16)  
 **लेखक:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

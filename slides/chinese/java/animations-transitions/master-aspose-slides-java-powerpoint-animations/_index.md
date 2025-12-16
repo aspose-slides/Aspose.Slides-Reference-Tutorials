@@ -7,7 +7,7 @@ keywords:
 - Loading PowerPoint Files
 - Java Presentation Manipulation
 - Animating Shapes in Java
-title: 如何使用 Aspose.Slides 在 Java 中创建动画 PowerPoint：轻松加载并为演示文稿添加动画
+title: 如何使用 Aspose.Slides 在 Java 中创建动画 PowerPoint - 轻松加载并为演示文稿添加动画
 url: /zh/java/animations-transitions/master-aspose-slides-java-powerpoint-animations/
 weight: 1
 ---
@@ -233,14 +233,6 @@ try {
 1. **Automate PowerPoint Reporting:** 将数据库或 API 中的数据实时组合生成幻灯片，**automate powerpoint reporting** 用于每日高管摘要。  
 2. **Customize Presentations Dynamically:** 根据用户输入、地区或品牌需求以编程方式修改演示文稿内容，确保每个幻灯片都具备独特的定制化。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q: Can I add new animations to a shape that already has effects?**  
@@ -263,3 +255,11 @@ A: Purchase a commercial license from Aspose to remove evaluation limitations an
 **Last Updated:** 2025-12-14  
 **Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

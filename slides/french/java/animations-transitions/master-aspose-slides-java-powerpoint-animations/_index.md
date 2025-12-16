@@ -10,7 +10,7 @@ keywords:
 - Java Presentation Manipulation
 - Animating Shapes in Java
 title: 'Comment créer une présentation PowerPoint animée avec Aspose.Slides en Java
-  : charger et animer les présentations sans effort'
+  - charger et animer les présentations sans effort'
 url: /fr/java/animations-transitions/master-aspose-slides-java-powerpoint-animations/
 weight: 1
 ---
@@ -236,14 +236,6 @@ Avec Aspose.Slides for Java, vous pouvez :
 1. **Automatiser les rapports PowerPoint :** Combinez des données provenant de bases de données ou d’API pour générer des présentations à la volée, **automatiser les rapports PowerPoint** pour les résumés exécutifs quotidiens.  
 2. **Personnaliser les présentations dynamiquement :** Modifiez le contenu de la présentation programmatiquement en fonction des entrées utilisateur, de la localisation ou des exigences de marque, garantissant que chaque diaporama soit unique.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q : Puis‑je ajouter de nouvelles animations à une forme qui possède déjà des effets ?**  
@@ -266,3 +258,11 @@ R : Achetez une licence commerciale auprès d’Aspose pour supprimer les limi
 **Dernière mise à jour :** 2025-12-14  
 **Testé avec :** Aspose.Slides for Java 25.4 (jdk16)  
 **Auteur :** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

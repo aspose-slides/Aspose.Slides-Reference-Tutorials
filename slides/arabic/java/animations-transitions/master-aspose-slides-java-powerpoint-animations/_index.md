@@ -9,7 +9,7 @@ keywords:
 - Loading PowerPoint Files
 - Java Presentation Manipulation
 - Animating Shapes in Java
-title: 'كيفية إنشاء عرض باوربوينت متحرك باستخدام Aspose.Slides في جافا: تحميل العروض
+title: 'كيفية إنشاء عرض باوربوينت متحرك باستخدام Aspose.Slides في جافا - تحميل العروض
   وتطبيق الرسوم المتحركة بسهولة'
 url: /ar/java/animations-transitions/master-aspose-slides-java-powerpoint-animations/
 weight: 1
@@ -236,14 +236,6 @@ try {
 1. **أتمتة تقارير PowerPoint:** دمج البيانات من قواعد البيانات أو APIs لإنشاء مجموعات شرائح مباشرة، **أتمتة تقارير PowerPoint** للملخصات التنفيذية اليومية.  
 2. **تخصيص العروض ديناميكياً:** تعديل محتوى العرض برمجياً بناءً على مدخلات المستخدم أو اللغة أو متطلبات العلامة التجارية، لضمان أن كل مجموعة شرائح مخصصة بشكل فريد.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **س: هل يمكنني إضافة تحريكات جديدة إلى شكل يحتوي بالفعل على تأثيرات؟**  
@@ -266,3 +258,11 @@ try {
 **Last Updated:** 2025-12-14  
 **Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

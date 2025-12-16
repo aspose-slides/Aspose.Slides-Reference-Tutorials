@@ -9,7 +9,7 @@ keywords:
 - Loading PowerPoint Files
 - Java Presentation Manipulation
 - Animating Shapes in Java
-title: 'Cách tạo PowerPoint hoạt hình với Aspose.Slides trong Java: Tải và Tạo hoạt
+title: 'Cách tạo PowerPoint hoạt hình với Aspose.Slides trong Java - Tải và Tạo hoạt
   ảnh cho Bài thuyết trình một cách dễ dàng'
 url: /vi/java/animations-transitions/master-aspose-slides-java-powerpoint-animations/
 weight: 1
@@ -234,14 +234,6 @@ Với Aspose.Slides cho Java, bạn có thể:
 1. **Tự động hoá báo cáo PowerPoint:** Kết hợp dữ liệu từ cơ sở dữ liệu hoặc API để tạo các bộ slide ngay lập tức, **tự động hoá báo cáo PowerPoint** cho các bản tóm tắt hàng ngày cho lãnh đạo.  
 2. **Tùy chỉnh bài thuyết trình một cách động:** Chỉnh sửa nội dung bài thuyết trình bằng lập trình dựa trên đầu vào của người dùng, ngôn ngữ, hoặc yêu cầu thương hiệu, đảm bảo mỗi bộ slide được cá nhân hoá độc đáo.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Câu hỏi thường gặp
 
 **Q: Tôi có thể thêm hoạt ảnh mới vào một hình dạng đã có hiệu ứng không?**  
@@ -264,3 +256,11 @@ A: Mua giấy phép thương mại từ Aspose để loại bỏ các hạn ch�
 **Cập nhật lần cuối:** 2025-12-14  
 **Được kiểm tra với:** Aspose.Slides for Java 25.4 (jdk16)  
 **Tác giả:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
