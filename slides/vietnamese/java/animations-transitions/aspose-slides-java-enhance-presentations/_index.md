@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-18"
-"description": "Tìm hiểu cách nâng cao bài thuyết trình của bạn bằng cách thành thạo thao tác bảng và khung với Aspose.Slides for Java. Hướng dẫn này bao gồm cách tạo bảng, thêm khung văn bản và vẽ khung xung quanh nội dung cụ thể."
-"title": "Aspose.Slides for Java&#58; Làm chủ việc thao tác bảng và khung trong bài thuyết trình"
-"url": "/vi/java/animations-transitions/aspose-slides-java-enhance-presentations/"
-"weight": 1
+date: '2025-12-10'
+description: Tìm hiểu cách thêm văn bản vào bảng và vẽ khung quanh văn bản trong PowerPoint
+  bằng Aspose.Slides cho Java. Hướng dẫn này bao gồm việc tạo bảng, thiết lập căn
+  chỉnh văn bản và tạo khung cho nội dung.
+keywords:
+- Aspose.Slides for Java
+- table manipulation in presentations
+- frame drawing in PowerPoint
+title: Aspose.Slides cho Java – thêm văn bản vào bảng & thao tác khung
+url: /vi/java/animations-transitions/aspose-slides-java-enhance-presentations/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,28 +17,29 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Làm chủ thao tác bảng và khung trong bài thuyết trình với Aspose.Slides cho Java
+# Thành thạo việc thao tác Bảng và Khung trong Bài thuyết trình với Aspose.Slides cho Java
 
 ## Giới thiệu
 
-Trình bày dữ liệu hiệu quả có thể là một thách thức trong PowerPoint. Cho dù bạn là nhà phát triển phần mềm hay nhà thiết kế bài thuyết trình, việc sử dụng các bảng hấp dẫn về mặt thị giác và thêm khung văn bản có thể khiến các slide của bạn hấp dẫn hơn. Hướng dẫn này khám phá cách sử dụng Aspose.Slides for Java để thêm văn bản vào các ô bảng và vẽ khung xung quanh các đoạn văn và phần chứa các ký tự cụ thể như '0'. Bằng cách thành thạo các kỹ thuật này, bạn sẽ nâng cao bài thuyết trình của mình với độ chính xác và phong cách.
+Trình bày dữ liệu một cách hiệu quả có thể là thách thức trong PowerPoint. Dù bạn là nhà phát triển phần mềm hay nhà thiết kế bài thuyết trình, **add text to table** các ô và vẽ khung quanh các đoạn văn quan trọng để làm cho slide của bạn nổi bật. Trong hướng dẫn này, bạn sẽ thấy chính xác cách thêm văn bản vào bảng, căn chỉnh nó, và vẽ khung quanh văn bản — tất cả đều với Aspose.Slides cho Java. Khi hoàn thành, bạn sẽ có thể tạo ra những bộ slide được chỉnh chu, làm nổi bật thông tin đúng lúc, đúng chỗ.
 
-### Những gì bạn sẽ học được:
-- Tạo bảng trong slide và điền văn bản vào đó.
-- Căn chỉnh văn bản trong hình dạng tự động để trình bày tốt hơn.
-- Vẽ khung xung quanh đoạn văn và các phần để nhấn mạnh nội dung.
-- Ứng dụng thực tế của những tính năng này trong các tình huống thực tế.
+Sẵn sàng biến đổi các bài thuyết trình của bạn? Hãy bắt đầu!
 
-Bạn đã sẵn sàng để thay đổi bài thuyết trình của mình chưa? Hãy bắt đầu thôi!
+## Câu trả lời nhanh
+- **What does “add text to table” mean?** Điều này có nghĩa là chèn hoặc cập nhật nội dung văn bản của các ô bảng riêng lẻ một cách lập trình.  
+- **Which method saves the file?** `pres.save("output.pptx", SaveFormat.Pptx)` – bước **save presentation as pptx** này hoàn thiện các thay đổi của bạn.  
+- **How can I align text inside a shape?** Sử dụng `TextAlignment.Left` (hoặc Center/Right) thông qua `autoShape.getTextFrame().getParagraphs().get_Item(0).getParagraphFormat().setAlignment(...)`.  
+- **Can I draw a rectangle around a paragraph?** Có – lặp qua các đoạn văn, lấy hình chữ nhật bao quanh chúng, và thêm một `IAutoShape` không nền và đường viền màu đen.  
+- **Do I need a license?** Giấy phép tạm thời hoạt động cho mục đích đánh giá; giấy phép đầy đủ là cần thiết cho việc sử dụng trong môi trường sản xuất.
 
-## Điều kiện tiên quyết
+## Yêu cầu trước
 
-Trước khi tìm hiểu mã, hãy đảm bảo bạn có những điều sau:
+Trước khi bắt đầu viết mã, hãy chắc chắn rằng bạn đã có những thứ sau:
 
-### Thư viện bắt buộc
-Bạn sẽ cần Aspose.Slides for Java. Sau đây là cách đưa nó vào bằng Maven hoặc Gradle:
+### Thư viện cần thiết
+Bạn sẽ cần Aspose.Slides cho Java. Dưới đây là cách đưa nó vào dự án bằng Maven hoặc Gradle:
 
-**Chuyên gia:**
+**Maven:**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -42,62 +49,66 @@ Bạn sẽ cần Aspose.Slides for Java. Sau đây là cách đưa nó vào bằ
 </dependency>
 ```
 
-**Cấp độ:**
+**Gradle:**
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Thiết lập môi trường
-Đảm bảo bạn đã cài đặt Java Development Kit (JDK), tốt nhất là JDK 16 trở lên, vì ví dụ này sử dụng `jdk16` bộ phân loại.
+### Cấu hình môi trường
+Đảm bảo bạn đã cài đặt Java Development Kit (JDK), ưu tiên JDK 16 hoặc mới hơn, vì ví dụ này sử dụng bộ phân loại `jdk16`.
 
-### Điều kiện tiên quyết về kiến thức
-- Hiểu biết cơ bản về lập trình Java.
-- Quen thuộc với phần mềm trình bày như PowerPoint.
-- Kinh nghiệm sử dụng Môi trường phát triển tích hợp (IDE) như IntelliJ IDEA hoặc Eclipse.
+### Kiến thức yêu cầu
+- Hiểu biết cơ bản về lập trình Java.  
+- Quen thuộc với phần mềm trình chiếu như PowerPoint.  
+- Kinh nghiệm sử dụng môi trường phát triển tích hợp (IDE) như IntelliJ IDEA hoặc Eclipse.
 
-## Thiết lập Aspose.Slides cho Java
+## Cài đặt Aspose.Slides cho Java
 
-Để bắt đầu sử dụng Aspose.Slides, hãy làm theo các bước sau:
+Để bắt đầu sử dụng Aspose.Slides, hãy thực hiện các bước sau:
 
-1. **Cài đặt Thư viện**: Sử dụng Maven hoặc Gradle để quản lý các phụ thuộc hoặc tải xuống trực tiếp từ [Aspose.Slides cho bản phát hành Java](https://releases.aspose.com/slides/java/).
+1. **Install the Library**: Sử dụng Maven hoặc Gradle để quản lý các phụ thuộc, hoặc tải trực tiếp từ [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-2. **Mua lại giấy phép**:
-   - Bắt đầu với bản dùng thử miễn phí bằng cách tải xuống giấy phép tạm thời từ [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
-   - Để có quyền truy cập đầy đủ, hãy cân nhắc mua giấy phép tại [Mua Aspose.Slides](https://purchase.aspose.com/buy).
+2. **License Acquisition**:
+   - Bắt đầu với bản dùng thử miễn phí bằng cách tải giấy phép tạm thời từ [Temporary License](https://purchase.aspose.com/temporary-license/).
+   - Để có quyền truy cập đầy đủ, hãy cân nhắc mua giấy phép tại [Purchase Aspose.Slides](https://purchase.aspose.com/buy).
 
-3. **Khởi tạo cơ bản**:
-Khởi tạo môi trường trình bày của bạn bằng đoạn mã sau:
+3. **Basic Initialization**:
+Khởi tạo môi trường bài thuyết trình của bạn với đoạn mã sau:
 ```java
 import com.aspose.slides.*;
 
 Presentation pres = new Presentation();
 try {
-    // Mã của bạn ở đây
+    // Your code here
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
 
-## Hướng dẫn thực hiện
+## Tại sao cần thêm văn bản vào bảng và vẽ khung?
 
-Phần này đề cập đến các tính năng khác nhau mà bạn có thể triển khai bằng Aspose.Slides cho Java.
+Thêm văn bản vào bảng cho phép bạn trình bày dữ liệu có cấu trúc một cách rõ ràng, trong khi vẽ khung quanh các đoạn văn hoặc các phần cụ thể (ví dụ: những phần chứa ký tự **'0'**) sẽ thu hút ánh mắt người xem tới các giá trị quan trọng. Sự kết hợp này hoàn hảo cho báo cáo tài chính, bảng điều khiển, hoặc bất kỳ slide nào mà bạn cần làm nổi bật các con số then chốt mà không gây rối mắt.
 
-### Tính năng 1: Tạo bảng và thêm văn bản vào ô
+## Cách thêm văn bản vào bảng trong Aspose.Slides cho Java
+
+### Tính năng 1: Tạo bảng và thêm văn bản vào các ô
 
 #### Tổng quan
-Tính năng này hướng dẫn cách tạo bảng trên trang chiếu đầu tiên và điền văn bản vào các ô cụ thể. 
+Tính năng này minh họa cách **how to create table**, sau đó **add text to table** các ô và cuối cùng **save presentation as pptx**.
 
-##### Các bước thực hiện:
-**1. Tạo một bảng**
-Đầu tiên, hãy khởi tạo bản trình bày của bạn và thêm một bảng ở vị trí (50, 50) với chiều rộng cột và chiều cao hàng được chỉ định.
+#### Các bước
+
+**1. Create a Table**  
+Đầu tiên, khởi tạo bài thuyết trình và thêm một bảng tại vị trí (50, 50) với độ rộng cột và chiều cao hàng được chỉ định.
 ```java
 Presentation pres = new Presentation();
 try {
     ITable tbl = pres.getSlides().get_Item(0).getShapes().addTable(
         50, 50, new double[]{50, 70}, new double[]{50, 50, 50});
 ```
-**2. Thêm văn bản vào ô**
-Tạo đoạn văn có các phần văn bản và thêm chúng vào một ô cụ thể.
+
+**2. Add Text to Cells**  
+Tạo các đoạn văn với các phần văn bản và thêm chúng vào một ô cụ thể.
 ```java
     IParagraph paragraph0 = new Paragraph();
     paragraph0.getPortions().add(new Portion("Text "));
@@ -115,7 +126,8 @@ Tạo đoạn văn có các phần văn bản và thêm chúng vào một ô c�
     cell.getTextFrame().getParagraphs().clear();
     cell.getTextFrame().getParagraphs().addAll(Arrays.asList(paragraph0, paragraph1, paragraph2));
 ```
-**3. Lưu bài thuyết trình**
+
+**3. Save the Presentation**  
 ```java
     pres.save("YOUR_OUTPUT_DIRECTORY/GetRect_Out.pptx", SaveFormat.Pptx);
 } finally {
@@ -123,27 +135,30 @@ Tạo đoạn văn có các phần văn bản và thêm chúng vào một ô c�
 }
 ```
 
-### Tính năng 2: Thêm TextFrame vào AutoShape và Thiết lập Căn chỉnh
+### Tính năng 2: Thêm TextFrame vào AutoShape và thiết lập căn chỉnh
 
 #### Tổng quan
-Tìm hiểu cách thêm khung văn bản có căn chỉnh cụ thể vào hình dạng tự động.
+Học cách thêm một khung văn bản với căn chỉnh cụ thể vào một auto shape—ví dụ của **set text alignment java**.
 
-##### Các bước thực hiện:
-**1. Thêm một AutoShape**
-Thêm một hình chữ nhật dưới dạng AutoShape tại vị trí (400, 100) với các kích thước được chỉ định.
+#### Các bước
+
+**1. Add an AutoShape**  
+Thêm một hình chữ nhật làm AutoShape tại vị trí (400, 100) với kích thước được chỉ định.
 ```java
 Presentation pres = new Presentation();
 try {
     IAutoShape autoShape = pres.getSlides().get_Item(0).getShapes().addAutoShape(
         ShapeType.Rectangle, 400, 100, 60, 120);
 ```
-**2. Thiết lập căn chỉnh văn bản**
-Đặt văn bản thành "Văn bản trong hình dạng" và căn chỉnh sang bên trái.
+
+**2. Set Text Alignment**  
+Đặt văn bản thành “Text in shape” và căn chỉnh nó sang trái.
 ```java
     autoShape.getTextFrame().setText("Text in shape");
     autoShape.getTextFrame().getParagraphs().get_Item(0).getParagraphFormat().setAlignment(TextAlignment.Left);
 ```
-**3. Lưu bài thuyết trình**
+
+**3. Save the Presentation**  
 ```java
     pres.save("YOUR_OUTPUT_DIRECTORY/GetRect_Out.pptx", SaveFormat.Pptx);
 } finally {
@@ -151,22 +166,24 @@ try {
 }
 ```
 
-### Tính năng 3: Vẽ Khung xung quanh Đoạn văn và Phần trong Ô Bảng
+### Tính năng 3: Vẽ khung quanh các đoạn văn và phần trong các ô bảng
 
 #### Tổng quan
-Tính năng này tập trung vào việc vẽ khung xung quanh các đoạn văn và phần chứa số '0' trong các ô của bảng.
+Tính năng này tập trung vào **draw frames around text** và thậm chí **draw rectangle around paragraph** cho các phần chứa ký tự ‘0’.
 
-##### Các bước thực hiện:
-**1. Tạo một bảng**
-Sử dụng lại mã từ "Tạo bảng và thêm văn bản vào ô" cho thiết lập ban đầu.
+#### Các bước
+
+**1. Create a Table**  
+Tái sử dụng mã từ “Create Table and Add Text to Cells” để thiết lập ban đầu.
 ```java
 Presentation pres = new Presentation();
 try {
     ITable tbl = pres.getSlides().get_Item(0).getShapes().addTable(
         50, 50, new double[]{50, 70}, new double[]{50, 50, 50});
 ```
-**2. Thêm đoạn văn**
-Sử dụng lại mã tạo đoạn văn từ tính năng trước.
+
+**2. Add Paragraphs**  
+Tái sử dụng mã tạo đoạn văn từ tính năng trước.
 ```java
     IParagraph paragraph0 = new Paragraph();
     paragraph0.getPortions().add(new Portion("Text "));
@@ -184,8 +201,9 @@ Sử dụng lại mã tạo đoạn văn từ tính năng trước.
     cell.getTextFrame().getParagraphs().clear();
     cell.getTextFrame().getParagraphs().addAll(Arrays.asList(paragraph0, paragraph1, paragraph2));
 ```
-**3. Vẽ khung**
-Lặp lại các đoạn văn và các phần để vẽ khung xung quanh chúng.
+
+**3. Draw Frames**  
+Lặp qua các đoạn văn và các phần để vẽ khung quanh chúng.
 ```java
     double x = tbl.getX() + cell.getOffsetX();
     double y = tbl.getY() + cell.getOffsetY();
@@ -202,7 +220,8 @@ Lặp lại các đoạn văn và các phần để vẽ khung xung quanh chúng
         shape.getLineFormat().getFillFormat().setSolidFillColor(Color.BLACK);
     }
 ```
-**4. Lưu bài thuyết trình**
+
+**4. Save the Presentation**  
 ```java
     pres.save("YOUR_OUTPUT_DIRECTORY/GetRect_Out.pptx", SaveFormat.Pptx);
 } finally {
@@ -210,13 +229,36 @@ Lặp lại các đoạn văn và các phần để vẽ khung xung quanh chúng
 }
 ```
 
-## Phần kết luận
-Bằng cách làm theo hướng dẫn này, bạn có thể cải thiện hiệu quả bài thuyết trình của mình bằng Aspose.Slides for Java. Việc thành thạo thao tác bảng và khung cho phép bạn tạo các slide hấp dẫn và bắt mắt hơn. Để khám phá thêm, hãy cân nhắc tìm hiểu thêm các tính năng bổ sung của Aspose.Slides hoặc tích hợp nó với các ứng dụng Java khác.
+## Kết luận
+Bằng cách làm theo hướng dẫn này, bạn có thể **add text to table**, căn chỉnh văn bản bên trong các shape, và **draw frames around text** để nhấn mạnh thông tin quan trọng. Thành thạo những kỹ thuật này cho phép bạn tạo ra các bài thuyết trình dữ liệu‑được‑điều khiển rất chuyên nghiệp với Aspose.Slides cho Java. Để khám phá sâu hơn, hãy thử kết hợp các tính năng này với biểu đồ, hoạt ảnh, hoặc xuất ra PDF.
+
+## Câu hỏi thường gặp
+
+**Q: Can I use these APIs with older JDK versions?**  
+A: Thư viện hỗ trợ JDK 8 trở lên, nhưng bộ phân loại `jdk16` mang lại hiệu năng tốt nhất trên các runtime mới hơn.
+
+**Q: How do I change the frame color?**  
+A: Thay đổi màu nền của định dạng đường viền, ví dụ, `shape.getLineFormat().getFillFormat().setSolidFillColor(Color.BLUE);`.
+
+**Q: Is it possible to export the final slide as an image?**  
+A: Có—sử dụng `pres.getSlides().get_Item(0).getImage(Export.ImageFormat.Png)` và sau đó lưu mảng byte.
+
+**Q: What if I need to highlight only the word “Total” inside a cell?**  
+A: Lặp qua `cell.getTextFrame().getParagraphs()`, tìm phần chứa “Total”, và vẽ một hình chữ nhật quanh hộp bao của phần đó.
+
+**Q: Does Aspose.Slides handle large presentations efficiently?**  
+A: API truyền dữ liệu theo luồng và giải phóng tài nguyên khi gọi `pres.dispose()`, giúp quản lý bộ nhớ tốt hơn cho các tệp lớn.
+
+---
+
+{{< blocks/products/products-backtop-button >}}
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

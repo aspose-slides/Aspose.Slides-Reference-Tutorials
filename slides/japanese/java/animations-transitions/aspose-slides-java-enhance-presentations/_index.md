@@ -1,9 +1,13 @@
 ---
-"date": "2025-04-18"
-"description": "Aspose.Slides for Java を使って表とフレームの操作をマスターし、プレゼンテーションの質を高める方法を学びましょう。このガイドでは、表の作成、テキストフレームの追加、特定のコンテンツの周囲にフレームを描く方法などを解説します。"
-"title": "Aspose.Slides for Java プレゼンテーションにおけるテーブルとフレームの操作をマスターする"
-"url": "/ja/java/animations-transitions/aspose-slides-java-enhance-presentations/"
-"weight": 1
+date: '2025-12-10'
+description: PowerPointでAspose.Slides for Javaを使用してテーブルにテキストを追加し、テキストの周囲に枠線を描く方法を学びます。このガイドでは、テーブルの作成、テキストの配置設定、コンテンツの枠取りについて説明します。
+keywords:
+- Aspose.Slides for Java
+- table manipulation in presentations
+- frame drawing in PowerPoint
+title: Aspose.Slides for Java – テーブルへのテキスト追加とフレーム操作
+url: /ja/java/animations-transitions/aspose-slides-java-enhance-presentations/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,28 +15,29 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.Slides for Java を使用したプレゼンテーションのテーブルとフレームの操作をマスターする
+# Aspose.Slides for Java を使用したプレゼンテーションにおけるテーブルとフレーム操作のマスター
 
-## 導入
+## Introduction
 
-PowerPointでデータを効果的にプレゼンテーションするのは難しい場合があります。ソフトウェア開発者でもプレゼンテーションデザイナーでも、視覚的に魅力的な表やテキストフレームを追加することで、スライドをより魅力的にすることができます。このチュートリアルでは、Aspose.Slides for Javaを使用して、表のセルにテキストを追加したり、段落や「0」などの特定の文字を含む部分をフレームで囲んだりする方法を説明します。これらのテクニックを習得することで、プレゼンテーションをより正確かつスタイリッシュに仕上げることができます。
+PowerPointでデータを効果的に提示するのは難しいことがあります。ソフトウェア開発者でもプレゼンテーションデザイナーでも、テーブルセルにテキストを追加し、重要な段落の周りにフレームを描くことでスライドを際立たせることができます。このチュートリアルでは、テーブルにテキストを追加し、配置し、テキストの周りにフレームを描く方法を Aspose.Slides for Java ですべて実演します。最後まで読めば、適切なタイミングで適切な情報を強調した洗練されたデッキを作成できるようになります。
 
-### 学習内容:
-- スライドに表を作成し、そこにテキストを入力します。
-- 自動シェイプ内のテキストを整列させて、より見栄えを良くします。
-- 段落や部分の周囲に枠を描いて内容を強調します。
-- 実際のシナリオにおけるこれらの機能の実際的な応用。
+プレゼンテーションを変革する準備はできましたか？さっそく始めましょう！
 
-プレゼンテーションを変革する準備はできましたか? さあ、始めましょう!
+## Quick Answers
+- **“add text to table” は何を意味しますか？** これは、個々のテーブルセルのテキスト内容をプログラムで挿入または更新することを意味します。  
+- **どのメソッドがファイルを保存しますか？** `pres.save("output.pptx", SaveFormat.Pptx)` – この **save presentation as pptx** 手順で変更が確定します。  
+- **シェイプ内のテキストをどのように配置できますか？** `autoShape.getTextFrame().getParagraphs().get_Item(0).getParagraphFormat().setAlignment(...)` で `TextAlignment.Left`（または Center/Right）を使用します。  
+- **段落の周りに矩形を描くことはできますか？** はい。段落を反復処理し、バウンディング矩形を取得して、塗りつぶしなし・黒線の `IAutoShape` を追加します。  
+- **ライセンスは必要ですか？** 評価には一時ライセンスで動作しますが、本番環境では正式ライセンスが必要です。
 
-## 前提条件
+## Prerequisites
 
-コードに進む前に、次のものを用意してください。
+コードに取り掛かる前に、以下が揃っていることを確認してください。
 
-### 必要なライブラリ
-Aspose.Slides for Javaが必要です。MavenまたはGradleを使ってAspose.Slidesを組み込む方法は以下の通りです。
+### Required Libraries
+Aspose.Slides for Java が必要です。Maven または Gradle を使用して追加する方法は以下の通りです。
 
-**メイヴン:**
+**Maven:**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -42,62 +47,66 @@ Aspose.Slides for Javaが必要です。MavenまたはGradleを使ってAspose.S
 </dependency>
 ```
 
-**グレード:**
+**Gradle:**
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### 環境設定
-この例では、Java Development Kit (JDK) 16以降が使用されているため、JDK 16以降がインストールされていることを確認してください。 `jdk16` 分類器。
+### Environment Setup
+Java Development Kit (JDK) がインストールされていることを確認してください。できれば JDK 16 以降を使用してください（この例では `jdk16` クラスifier を使用しています）。
 
-### 知識の前提条件
-- Java プログラミングに関する基本的な理解。
-- PowerPoint などのプレゼンテーション ソフトウェアに精通していること。
-- IntelliJ IDEA や Eclipse などの統合開発環境 (IDE) の使用経験。
+### Knowledge Prerequisites
+- Java プログラミングの基本的な理解  
+- PowerPoint などのプレゼンテーションソフトウェアに慣れていること  
+- IntelliJ IDEA や Eclipse などの統合開発環境 (IDE) の使用経験  
 
-## Aspose.Slides for Java のセットアップ
+## Setting Up Aspose.Slides for Java
 
-Aspose.Slides の使用を開始するには、次の手順に従います。
+Aspose.Slides の使用を開始するには、以下の手順に従ってください。
 
-1. **ライブラリをインストールする**依存関係を管理するにはMavenまたはGradleを使用するか、直接ダウンロードしてください。 [Aspose.Slides for Java リリース](https://releases。aspose.com/slides/java/).
+1. **ライブラリのインストール**: Maven または Gradle で依存関係を管理するか、[Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) から直接ダウンロードしてください。
 
-2. **ライセンス取得**：
-   - まずは無料トライアルで一時ライセンスをダウンロードしてください。 [一時ライセンス](https://purchase。aspose.com/temporary-license/).
-   - フルアクセスをご希望の場合は、ライセンスの購入をご検討ください。 [Aspose.Slides を購入](https://purchase。aspose.com/buy).
+2. **ライセンス取得**:
+   - 無料トライアルとして、[Temporary License](https://purchase.aspose.com/temporary-license/) から一時ライセンスをダウンロードして開始できます。
+   - フルアクセスが必要な場合は、[Purchase Aspose.Slides](https://purchase.aspose.com/buy) でライセンス購入をご検討ください。
 
-3. **基本的な初期化**：
-次のコード スニペットを使用してプレゼンテーション環境を初期化します。
+3. **基本的な初期化**:
+以下のコードスニペットでプレゼンテーション環境を初期化します。
 ```java
 import com.aspose.slides.*;
 
 Presentation pres = new Presentation();
 try {
-    // ここにあなたのコード
+    // Your code here
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
 
-## 実装ガイド
+## Why add text to table and draw frames?
 
-このセクションでは、Aspose.Slides for Java を使用して実装できるさまざまな機能について説明します。
+テーブルにテキストを追加すると構造化されたデータを明確に提示でき、段落や特定の部分（例: 文字 **'0'** を含む部分）にフレームを描くことで、観客の目を重要な数値に引き付けます。この組み合わせは財務レポート、ダッシュボード、または余計な情報を排除して重要な数値を強調したいスライドに最適です。
 
-### 機能1: 表を作成し、セルにテキストを追加する
+## How to add text to table in Aspose.Slides for Java
 
-#### 概要
-この機能は、最初のスライドに表を作成し、特定のセルにテキストを入力する方法を示します。 
+### Feature 1: Create Table and Add Text to Cells
 
-##### 手順:
-**1. テーブルを作成する**
-まず、プレゼンテーションを初期化し、指定された列幅と行の高さで位置 (50, 50) にテーブルを追加します。
+#### Overview
+この機能では、**テーブルの作成方法** を示し、続いて **テーブルにテキストを追加** し、最後に **プレゼンテーションを pptx として保存** します。
+
+#### Steps
+
+**1. Create a Table**  
+まずプレゼンテーションを初期化し、位置 (50, 50) に指定した列幅と行高さでテーブルを追加します。
 ```java
 Presentation pres = new Presentation();
 try {
     ITable tbl = pres.getSlides().get_Item(0).getShapes().addTable(
         50, 50, new double[]{50, 70}, new double[]{50, 50, 50});
 ```
-**2. セルにテキストを追加する**
-テキストの一部を使用して段落を作成し、特定のセルに追加します。
+
+**2. Add Text to Cells**  
+テキストの部分を含む段落を作成し、特定のセルに追加します。
 ```java
     IParagraph paragraph0 = new Paragraph();
     paragraph0.getPortions().add(new Portion("Text "));
@@ -115,7 +124,8 @@ try {
     cell.getTextFrame().getParagraphs().clear();
     cell.getTextFrame().getParagraphs().addAll(Arrays.asList(paragraph0, paragraph1, paragraph2));
 ```
-**3. プレゼンテーションを保存する**
+
+**3. Save the Presentation**  
 ```java
     pres.save("YOUR_OUTPUT_DIRECTORY/GetRect_Out.pptx", SaveFormat.Pptx);
 } finally {
@@ -123,27 +133,30 @@ try {
 }
 ```
 
-### 機能2: オートシェイプにテキストフレームを追加して配置を設定する
+### Feature 2: Add TextFrame to AutoShape and Set Alignment
 
-#### 概要
-特定の配置を持つテキスト フレームを自動シェイプに追加する方法を説明します。
+#### Overview
+テキストフレームを特定の配置で AutoShape に追加する方法を学びます — **set text alignment java** の例です。
 
-##### 手順:
-**1. オートシェイプを追加する**
-指定された寸法で、位置 (400, 100) に四角形をオートシェイプとして追加します。
+#### Steps
+
+**1. Add an AutoShape**  
+位置 (400, 100) に指定サイズの矩形を AutoShape として追加します。
 ```java
 Presentation pres = new Presentation();
 try {
     IAutoShape autoShape = pres.getSlides().get_Item(0).getShapes().addAutoShape(
         ShapeType.Rectangle, 400, 100, 60, 120);
 ```
-**2. テキストの配置を設定する**
-テキストを「図形内のテキスト」に設定し、左揃えにします。
+
+**2. Set Text Alignment**  
+テキストを “Text in shape” に設定し、左揃えにします。
 ```java
     autoShape.getTextFrame().setText("Text in shape");
     autoShape.getTextFrame().getParagraphs().get_Item(0).getParagraphFormat().setAlignment(TextAlignment.Left);
 ```
-**3. プレゼンテーションを保存する**
+
+**3. Save the Presentation**  
 ```java
     pres.save("YOUR_OUTPUT_DIRECTORY/GetRect_Out.pptx", SaveFormat.Pptx);
 } finally {
@@ -151,22 +164,24 @@ try {
 }
 ```
 
-### 機能3: 表のセル内の段落や部分に枠を描く
+### Feature 3: Draw Frames around Paragraphs and Portions in Table Cells
 
-#### 概要
-この機能は、表のセル内に「0」を含む段落や部分の周囲にフレームを描画することに重点を置いています。
+#### Overview
+この機能は **draw frames around text** に焦点を当て、文字 ‘0’ を含む部分に対して **draw rectangle around paragraph** も行います。
 
-##### 手順:
-**1. テーブルを作成する**
-初期設定では、「表を作成してセルにテキストを追加する」のコードを再利用します。
+#### Steps
+
+**1. Create a Table**  
+“Create Table and Add Text to Cells” のコードを再利用して初期設定を行います。
 ```java
 Presentation pres = new Presentation();
 try {
     ITable tbl = pres.getSlides().get_Item(0).getShapes().addTable(
         50, 50, new double[]{50, 70}, new double[]{50, 50, 50});
 ```
-**2. 段落を追加する**
-以前の機能の段落作成コードを再利用します。
+
+**2. Add Paragraphs**  
+前の機能で作成した段落作成コードを再利用します。
 ```java
     IParagraph paragraph0 = new Paragraph();
     paragraph0.getPortions().add(new Portion("Text "));
@@ -184,8 +199,9 @@ try {
     cell.getTextFrame().getParagraphs().clear();
     cell.getTextFrame().getParagraphs().addAll(Arrays.asList(paragraph0, paragraph1, paragraph2));
 ```
-**3. フレームを描く**
-段落と部分を反復処理して、その周りにフレームを描画します。
+
+**3. Draw Frames**  
+段落とテキスト部分を反復処理し、それらの周りにフレームを描画します。
 ```java
     double x = tbl.getX() + cell.getOffsetX();
     double y = tbl.getY() + cell.getOffsetY();
@@ -202,7 +218,8 @@ try {
         shape.getLineFormat().getFillFormat().setSolidFillColor(Color.BLACK);
     }
 ```
-**4. プレゼンテーションを保存する**
+
+**4. Save the Presentation**  
 ```java
     pres.save("YOUR_OUTPUT_DIRECTORY/GetRect_Out.pptx", SaveFormat.Pptx);
 } finally {
@@ -210,13 +227,34 @@ try {
 }
 ```
 
-## 結論
-このガイドに従うことで、Aspose.Slides for Java を使ってプレゼンテーションを効果的に強化できます。表とフレームの操作をマスターすることで、より魅力的で視覚的に魅力的なスライドを作成できるようになります。さらに詳しく知りたい場合は、Aspose.Slides の追加機能について学んだり、他の Java アプリケーションと統合したりすることを検討してください。
+## Conclusion
+このガイドに従うことで、**テーブルにテキストを追加** し、シェイプ内のテキストを配置し、**テキストの周りにフレームを描く** ことで重要情報を強調できます。これらのテクニックをマスターすれば、Aspose.Slides for Java を使った高度に洗練されたデータ駆動型プレゼンテーションを作成できます。さらに踏み込むには、これらの機能をチャート、アニメーション、PDF へのエクスポートと組み合わせてみてください。
+
+## Frequently Asked Questions
+
+**Q: 古い JDK バージョンでもこれらの API を使用できますか？**  
+A: ライブラリは JDK 8 以降をサポートしていますが、`jdk16` クラスifier を使用すると新しいランタイムで最高のパフォーマンスが得られます。
+
+**Q: フレームの色はどう変更しますか？**  
+A: ラインフォーマットの塗りつぶし色を変更します。例: `shape.getLineFormat().getFillFormat().setSolidFillColor(Color.BLUE);`。
+
+**Q: 最終スライドを画像としてエクスポートできますか？**  
+A: はい。`pres.getSlides().get_Item(0).getImage(Export.ImageFormat.Png)` を使用し、取得したバイト配列を保存します。
+
+**Q: セル内の単語 “Total” のみをハイライトしたい場合は？**  
+A: `cell.getTextFrame().getParagraphs()` を反復し、“Total” を含む部分を特定し、その部分のバウンディングボックスの周りに矩形を描画します。
+
+**Q: Aspose.Slides は大規模なプレゼンテーションを効率的に処理しますか？**  
+A: API はデータをストリーム処理し、`pres.dispose()` が呼び出されたときにリソースを解放するため、大容量ファイルでもメモリ管理が容易です。
+
+{{< blocks/products/products-backtop-button >}}
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
