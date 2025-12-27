@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-18"
-"description": "เรียนรู้วิธีการจัดการ PowerPoint อัตโนมัติใน Java โดยใช้ Aspose.Slides บทช่วยสอนนี้ครอบคลุมถึงการโหลดงานนำเสนอ การเข้าถึงองค์ประกอบสไลด์ และการจัดการรูปแบบหัวข้อย่อยอย่างมีประสิทธิภาพ"
-"title": "บทช่วยสอน Java ของ Aspose.Slides - สร้างการนำเสนอ PowerPoint อัตโนมัติอย่างง่ายดาย"
-"url": "/th/java/batch-processing/aspose-slides-java-powerpoint-automation/"
-"weight": 1
+date: '2025-12-27'
+description: เรียนรู้วิธีสร้าง PowerPoint อย่างโปรแกรมโดยใช้ Aspose.Slides for Java,
+  สร้างสไลด์ PowerPoint และอัตโนมัติการจัดการการนำเสนอ.
+keywords:
+- Aspose.Slides Java
+- PowerPoint automation in Java
+- Java PowerPoint management
+title: สร้าง PowerPoint อย่างอัตโนมัติด้วย Aspose Slides สำหรับ Java
+url: /th/java/batch-processing/aspose-slides-java-powerpoint-automation/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,32 +16,44 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# บทช่วยสอน Java ของ Aspose.Slides: สร้างการนำเสนอ PowerPoint อัตโนมัติอย่างง่ายดาย
+# สร้าง PowerPoint ด้วยโปรแกรมโดยอัตโนมัติด้วย Aspose Slides for Java
 
-## การแนะนำ
+## บทนำ
 
-คุณกำลังมองหาวิธีจัดการการนำเสนอ PowerPoint ในแอปพลิเคชัน Java ของคุณโดยอัตโนมัติหรือไม่ การโหลด การเข้าถึง และการจัดรูปแบบสไลด์อย่างมีประสิทธิภาพอาจเป็นเรื่องท้าทาย **Aspose.Slides สำหรับ Java**งานนี้จะราบรื่นขึ้น ช่วยให้นักพัฒนาสามารถโต้ตอบกับไฟล์ PowerPoint ได้ด้วยโปรแกรม บทช่วยสอนนี้จะแนะนำคุณเกี่ยวกับการใช้งาน Aspose.Slides Java ในทางปฏิบัติ โดยเน้นที่การโหลดงานนำเสนอ การเข้าถึงองค์ประกอบสไลด์ และการจัดการรูปแบบรายการหัวข้อย่อย
+คุณกำลังมองหา **การสร้าง PowerPoint ด้วยโปรแกรมโดยอัตโนมัติ** ในแอปพลิเคชัน Java ของคุณหรือไม่? การโหลด, เข้าถึง, และจัดรูปแบบสไลด์อย่างมีประสิทธิภาพอาจเป็นเรื่องท้าทาย, แต่ด้วย **Aspose.Slides for Java** กระบวนการจะง่ายขึ้นอย่างมาก. บทเรียนนี้จะพาคุณผ่านการโหลดงานนำเสนอ, การเข้าถึงองค์ประกอบของสไลด์, และการดึงข้อมูลการจัดรูปแบบหัวข้อย่อยอย่างละเอียด—เหมาะสำหรับผู้ที่ต้องการ **สร้างสไลด์ PowerPoint** โดยอัตโนมัติ
 
-**สิ่งที่คุณจะได้เรียนรู้:**
-- วิธีการโหลดและจัดการการนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java
-- เทคนิคการเข้าถึงสไลด์และส่วนประกอบในแอปพลิเคชัน Java
-- วิธีการวนซ้ำผ่านย่อหน้าและรับข้อมูลการจัดรูปแบบหัวข้อย่อยโดยละเอียด
-- แนวทางปฏิบัติที่ดีที่สุดในการจัดการทรัพยากรการนำเสนออย่างมีประสิทธิภาพ
+**สิ่งที่คุณจะได้เรียนรู้**
+- วิธีโหลดและจัดการงานนำเสนอ PowerPoint ด้วย Aspose.Slides for Java.  
+- เทคนิคการเข้าถึงสไลด์และส่วนประกอบของมันในแอปพลิเคชัน Java.  
+- วิธีการวนลูปผ่านย่อหน้าและดึงรายละเอียดการจัดรูปแบบหัวข้อย่อย.  
+- แนวปฏิบัติที่ดีที่สุดสำหรับการปล่อยทรัพยากรของงานนำเสนออย่างมีประสิทธิภาพ.  
 
-ก่อนที่จะเริ่มใช้งาน ให้แน่ใจว่าทุกอย่างตั้งค่าอย่างถูกต้องก่อน
+ก่อนที่เราจะลงลึก, โปรดตรวจสอบให้แน่ใจว่ากล่องพัฒนา (development environment) ของคุณตรงตามข้อกำหนดเบื้องต้นด้านล่าง
+
+## คำตอบอย่างรวดเร็ว
+- **ฉันสามารถสร้าง PowerPoint ด้วยโปรแกรมโดยอัตโนมัติด้วย Aspose.Slides ได้หรือไม่?** ใช่, ไลบรารีนี้มี API ครบสำหรับการสร้าง PowerPoint.  
+- **ต้องการเวอร์ชัน Java ใด?** JDK 16 หรือสูงกว่า.  
+- **ต้องการลิขสิทธิ์สำหรับการใช้งานในผลิตภัณฑ์หรือไม่?** จำเป็นต้องมีลิขสิทธิ์หรือใบอนุญาตชั่วคราวเพื่อใช้งานเต็มรูปแบบ.  
+- **ฉันสามารถแปลง PPTX เป็น PDF ด้วยไลบรารีเดียวกันได้หรือไม่?** แน่นอน—Aspose.Slides ยังรองรับการแปลงเป็น PDF.  
+- **มีรุ่นทดลองใช้ฟรีหรือไม่?** มี, คุณสามารถดาวน์โหลดรุ่นทดลองจาก Aspose Releases.
+
+## “การสร้าง PowerPoint ด้วยโปรแกรมโดยอัตโนมัติ” คืออะไร?
+การสร้าง PowerPoint ด้วยโปรแกรมโดยอัตโนมัติหมายถึงการสร้างหรือแก้ไขไฟล์ *.pptx* ผ่านโค้ดแทนการแก้ไขด้วยมือ วิธีนี้ช่วยให้สามารถสร้างรายงานอัตโนมัติ, อัปเดตเป็นชุด, และรวมเข้ากับระบบอื่น ๆ ได้
+
+## ทำไมต้องใช้ Aspose.Slides for Java?
+- **ไม่มีการพึ่งพา Microsoft Office** – ทำงานบนทุกแพลตฟอร์ม.  
+- **ชุดคุณสมบัติครบครัน** – รองรับรูปทรง, ตาราง, แผนภูมิ, แอนิเมชัน, และการแปลงเป็น PDF/HTML.  
+- **ประสิทธิภาพสูง** – ปรับให้เหมาะกับงานนำเสนอขนาดใหญ่และการประมวลผลเป็นกลุ่ม.  
 
 ## ข้อกำหนดเบื้องต้น
 
-หากต้องการทำตามบทช่วยสอนนี้ คุณจะต้องมี:
-- **Aspose.Slides สำหรับ Java** ไลบรารีเวอร์ชัน 25.4 ขึ้นไป
-- Java Development Kit (JDK) เวอร์ชัน 16 หรือสูงกว่า
-- ความรู้พื้นฐานเกี่ยวกับการเขียนโปรแกรม Java และความคุ้นเคยกับระบบสร้าง Maven หรือ Gradle
+- **Aspose.Slides for Java** เวอร์ชัน 25.4 หรือใหม่กว่า.  
+- **JDK 16+** ติดตั้งบนเครื่องของคุณ.  
+- ความคุ้นเคยกับ Maven หรือ Gradle สำหรับการจัดการ dependencies.  
 
-## การตั้งค่า Aspose.Slides สำหรับ Java
+## การตั้งค่า Aspose.Slides for Java
 
 ### การติดตั้งด้วย Maven
-
-เพิ่มการอ้างอิงต่อไปนี้ให้กับของคุณ `pom.xml`-
 
 ```xml
 <dependency>
@@ -49,46 +66,44 @@
 
 ### การติดตั้งด้วย Gradle
 
-รวมสิ่งนี้ไว้ในของคุณ `build.gradle`-
-
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
 ### ดาวน์โหลดโดยตรง
 
-หรือดาวน์โหลด Aspose.Slides ล่าสุดสำหรับ Java จาก [การเปิดตัว Aspose](https://releases-aspose.com/slides/java/).
+หรือคุณสามารถดาวน์โหลด Aspose.Slides for Java เวอร์ชันล่าสุดจาก [Aspose Releases](https://releases.aspose.com/slides/java/)
 
-### การขอใบอนุญาต
+### การรับลิขสิทธิ์
 
-เริ่มต้นด้วยการทดลองใช้ฟรีเพื่อสำรวจฟีเจอร์ของ Aspose.Slides หากต้องการใช้งานแบบขยายเวลา คุณสามารถซื้อใบอนุญาตหรือรับใบอนุญาตชั่วคราวเพื่อใช้ฟังก์ชันเต็มรูปแบบได้ที่ [การซื้อ Aspose](https://purchase.aspose.com/buy) และ [ใบอนุญาตชั่วคราว](https://purchase-aspose.com/temporary-license/).
+เริ่มต้นด้วยรุ่นทดลองฟรีเพื่อสำรวจคุณสมบัติของ Aspose.Slides. สำหรับการใช้งานต่อเนื่อง, คุณสามารถซื้อใบอนุญาตหรือรับใบอนุญาตชั่วคราวเพื่อใช้งานเต็มรูปแบบได้ที่ [Aspose Purchase](https://purchase.aspose.com/buy) และ [Temporary License](https://purchase.aspose.com/temporary-license/)
 
 ## คู่มือการใช้งาน
 
-### คุณสมบัติ 1: โหลดการนำเสนอและเข้าถึงสไลด์
+### ฟีเจอร์ 1: โหลดงานนำเสนอและเข้าถึงสไลด์
 
 #### ภาพรวม
-การโหลดไฟล์งานนำเสนอและการเข้าถึงสไลด์เป็นขั้นตอนพื้นฐานในการจัดการการนำเสนอ PowerPoint ด้วย Aspose.Slides
+การโหลดไฟล์งานนำเสนอและเข้าถึงสไลด์เป็นขั้นตอนพื้นฐานเมื่อคุณ **สร้าง PowerPoint ด้วยโปรแกรมโดยอัตโนมัติ**.
 
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.AutoShape;
 
-String pptxFile = "YOUR_DOCUMENT_DIRECTORY/BulletData.pptx"; // ตัวแทนสำหรับไดเรกทอรีเอกสาร
-Presentation pres = new Presentation(pptxFile); // โหลดงานนำเสนอ
+String pptxFile = "YOUR_DOCUMENT_DIRECTORY/BulletData.pptx"; // Placeholder for document directory
+Presentation pres = new Presentation(pptxFile); // Load the presentation
 
-// เข้าถึงรูปร่างแรกในสไลด์แรก
+// Access the first shape on the first slide
 AutoShape autoShape = (AutoShape) pres.getSlides().get_Item(0).getShapes().get_Item(0);
 ```
 
-**คำอธิบาย:**
-- การ `Presentation` คลาสนี้ใช้เพื่อโหลดไฟล์ PowerPoint
-- สามารถเข้าถึงรูปร่างภายในสไลด์ได้โดยใช้ดัชนี
+**คำอธิบาย:**  
+- `Presentation` class โหลดไฟล์ *.pptx*.  
+- รูปทรงเข้าถึงโดยใช้ดัชนีภายในสไลด์.
 
-### คุณสมบัติที่ 2: ทำซ้ำย่อหน้าและรับข้อมูลหัวข้อย่อย
+### ฟีเจอร์ 2: วนลูปย่อหน้าและดึงข้อมูลหัวข้อย่อย
 
 #### ภาพรวม
-การวนซ้ำผ่านย่อหน้าต่างๆ ในกรอบข้อความช่วยให้คุณแยกรายละเอียดการจัดรูปแบบหัวข้อย่อยได้อย่างมีประสิทธิภาพ
+การวนลูปผ่านย่อหน้าใน text frame ทำให้คุณสามารถดึงรายละเอียดการจัดรูปแบบหัวข้อย่อย—มีประโยชน์เมื่อคุณต้อง **สร้างสไลด์ PowerPoint** ด้วยสไตล์หัวข้อย่อยที่กำหนดเอง.
 
 ```java
 import com.aspose.slides.IBulletFormatEffectiveData;
@@ -97,19 +112,19 @@ import com.aspose.slides.BulletType;
 for (IParagraph para : autoShape.getTextFrame().getParagraphs()) {
     IBulletFormatEffectiveData bulletFormatEffective = para.getParagraphFormat().getBullet().getEffective();
     
-    // ตรวจสอบชนิดของกระสุน
+    // Check the type of bullet
     if (bulletFormatEffective.getType() != BulletType.None) {
         switch (bulletFormatEffective.getFillFormat().getFillType()) {
-            case FillType.Solid: // จัดการกับกระสุนบรรจุแข็ง
+            case FillType.Solid: // Handle solid fill bullets
                 System.out.println(bulletFormatEffective.getFillFormat().getSolidFillColor());
                 break;
-            case FillType.Gradient: // จัดการกระสุนเติมแบบไล่ระดับ
+            case FillType.Gradient: // Handle gradient fill bullets
                 for (IGradientStopEffectiveData gradStop : bulletFormatEffective.getFillFormat()
                         .getGradientFormat().getGradientStops()) {
                     System.out.println(gradStop.getPosition() + ": " + gradStop.getColor());
                 }
                 break;
-            case FillType.Pattern: // จัดการรูปแบบการเติมกระสุน
+            case FillType.Pattern: // Handle pattern fill bullets
                 System.out.println(bulletFormatEffective.getFillFormat().getPatternFormat().getPatternStyle());
                 System.out.println(bulletFormatEffective.getFillFormat().getPatternFormat().getForeColor());
                 System.out.println(bulletFormatEffective.getFillFormat().getPatternFormat().getBackColor());
@@ -119,14 +134,14 @@ for (IParagraph para : autoShape.getTextFrame().getParagraphs()) {
 }
 ```
 
-**คำอธิบาย:**
-- ลูปจะวนซ้ำผ่านแต่ละย่อหน้าในกรอบข้อความ
-- การจัดรูปแบบกระสุนจะถูกเข้าถึงและแยกความแตกต่างตามประเภท (ทึบ, ไล่ระดับ, ลวดลาย)
+**คำอธิบาย:**  
+- ลูปประมวลผลแต่ละย่อหน้าใน text frame ของรูปทรง.  
+- การจัดรูปแบบหัวข้อย่อยจะถูกตรวจสอบและจัดการตามประเภทการเติม (solid, gradient, pattern).
 
-### คุณสมบัติที่ 3: กำจัดการนำเสนอ
+### ฟีเจอร์ 3: ปล่อยงานนำเสนอ
 
 #### ภาพรวม
-การกำจัดวัตถุการนำเสนออย่างถูกต้องจะช่วยเพิ่มทรัพยากรและทำให้การจัดการหน่วยความจำมีประสิทธิภาพ
+การปล่อยอ็อบเจ็กต์ `Presentation` อย่างถูกต้องจะช่วยประหยัดทรัพยากร, ซึ่งเป็นสิ่งสำคัญเมื่อคุณ **สร้าง PowerPoint ด้วยโปรแกรมโดยอัตโนมัติ** ในสถานการณ์แบบแบตช์.
 
 ```java
 import com.aspose.slides.IDisposable;
@@ -134,58 +149,57 @@ import com.aspose.slides.IDisposable;
 if (pres != null) pres.dispose();
 ```
 
-**คำอธิบาย:**
-- การ `dispose` วิธีการปล่อยทรัพยากรทั้งหมดที่ใช้โดย `Presentation` วัตถุ.
+**คำอธิบาย:**  
+- การเรียก `dispose()` จะปล่อยทรัพยากรเนทีฟทั้งหมดที่ใช้โดยงานนำเสนอ.
 
 ## การประยุกต์ใช้งานจริง
 
-Aspose.Slides สำหรับ Java สามารถรวมเข้ากับสถานการณ์ต่างๆ ได้:
-1. **การสร้างงานนำเสนอแบบอัตโนมัติ**:ทำให้การสร้างรายงานหรือสไลด์โชว์มาตรฐานเป็นแบบอัตโนมัติ
-2. **ระบบจัดการเนื้อหา**:ปรับปรุง CMS ด้วยความสามารถในการสร้างและจัดการการนำเสนอ
-3. **เครื่องมือทางการศึกษา**:พัฒนาเครื่องมือที่จัดรูปแบบบันทึกการบรรยายเป็นงานนำเสนอ PowerPoint โดยอัตโนมัติ
+1. **การสร้างงานนำเสนออัตโนมัติ** – สร้างรายงานมาตรฐาน, สไลด์การขาย, หรือบันทึกการประชุมโดยอัตโนมัติ.  
+2. **ระบบจัดการเนื้อหา** – ทำให้แพลตฟอร์ม CMS สามารถสร้างหรือแก้ไขสไลด์ได้ทันที.  
+3. **เครื่องมือการศึกษา** – แปลงบันทึกการบรรยายเป็นสไลด์ PowerPoint ที่สวยงามพร้อมสไตล์หัวข้อย่อยที่กำหนดเอง.  
+4. **กระบวนการแปลง** – แปลงไฟล์ PPTX เป็น PDF หรือภาพเป็นส่วนหนึ่งของ pipeline การประมวลผลเอกสาร (เช่น **convert pptx to pdf**).
 
 ## การพิจารณาประสิทธิภาพ
 
-เมื่อทำงานกับ Aspose.Slides ใน Java:
-- ปรับปรุงประสิทธิภาพการทำงานด้วยการจัดการทรัพยากรอย่างมีประสิทธิภาพ โดยเฉพาะอย่างยิ่งเมื่อต้องจัดการกับการนำเสนอจำนวนมาก
-- ใช้ `dispose` วิธีการปล่อยหน่วยความจำหลังจากประมวลผลการนำเสนอ
-- ปฏิบัติตามแนวทางปฏิบัติที่ดีที่สุดสำหรับการจัดการหน่วยความจำ Java เพื่อหลีกเลี่ยงการรั่วไหลและให้แน่ใจว่าการทำงานจะราบรื่น
+- **การจัดการทรัพยากร:** ควรเรียก `dispose()` หลังจากประมวลผลงานนำเสนอขนาดใหญ่หรือหลายไฟล์.  
+- **การใช้หน่วยความจำ:** สำหรับไฟล์ขนาดใหญ่มาก, พิจารณาประมวลผลสไลด์เป็นชิ้นเพื่อหลีกเลี่ยงการใช้หน่วยความจำสูง.  
+- **ประสิทธิภาพการแปลง:** เมื่อแปลงเป็น PDF, ใช้วิธี `save` ที่มีอยู่พร้อม `SaveFormat.Pdf` เพื่อผลลัพธ์ที่ดีที่สุด.
 
-## บทสรุป
+## สรุป
 
-คุณได้เรียนรู้วิธีใช้ประโยชน์จาก Aspose.Slides สำหรับ Java เพื่อโหลดงานนำเสนอ เข้าถึงองค์ประกอบของสไลด์ ดึงข้อมูลรูปแบบรายการหัวข้อย่อย และจัดการทรัพยากรอย่างมีประสิทธิภาพ ไลบรารีอันทรงพลังนี้ช่วยลดความซับซ้อนในการจัดการไฟล์ PowerPoint ในแอปพลิเคชัน Java
+คุณได้มีพื้นฐานที่มั่นคงสำหรับการ **สร้าง PowerPoint ด้วยโปรแกรมโดยอัตโนมัติ** ด้วย Aspose.Slides for Java. คุณได้เรียนรู้วิธีโหลดงานนำเสนอ, เข้าถึงรูปทรง, ดึงข้อมูลการจัดรูปแบบหัวข้อย่อย, และจัดการทรัพยากรอย่างมีประสิทธิภาพ.
 
-**ขั้นตอนต่อไป:**
-- สำรวจคุณสมบัติเพิ่มเติมของ Aspose.Slides
-- ทดลองกับสถานการณ์การนำเสนอที่แตกต่างกันเพื่อพัฒนาทักษะของคุณ
+**ขั้นตอนต่อไป**
+- สำรวจ API เพิ่มเติมเช่นการสร้างแผนภูมิ, การเปลี่ยนสไลด์, และการแปลงเป็น PDF.  
+- ทดลองสไตล์หัวข้อย่อยต่าง ๆ เพื่อปรับแต่งสไลด์ที่สร้างขึ้นอย่างเต็มที่.  
 
-พร้อมที่จะเจาะลึกยิ่งขึ้นหรือยัง ลองนำเทคนิคเหล่านี้ไปใช้ในโครงการของคุณวันนี้!
+พร้อมที่จะนำเทคนิคเหล่านี้ไปใช้จริงหรือยัง? เริ่มสร้างโซลูชัน PowerPoint อัตโนมัติของคุณวันนี้!
 
-## ส่วนคำถามที่พบบ่อย
+## คำถามที่พบบ่อย
 
-1. **Aspose.Slides สำหรับ Java ใช้สำหรับอะไร?**
-   - Aspose.Slides สำหรับ Java ช่วยให้นักพัฒนาสามารถสร้าง แก้ไข และแปลงการนำเสนอ PowerPoint ได้ด้วยโปรแกรม
+**ถาม: Aspose.Slides for Java ใช้ทำอะไร?**  
+ตอบ: มันช่วยให้นักพัฒนาสามารถสร้าง, แก้ไข, และแปลงงานนำเสนอ PowerPoint ด้วยโปรแกรมได้.
 
-2. **ฉันจะติดตั้ง Aspose.Slides โดยใช้ Maven ได้อย่างไร?**
-   - เพิ่มการพึ่งพาในของคุณ `pom.xml` ตามที่แสดงไว้ข้างต้น
+**ถาม: ฉันจะติดตั้ง Aspose.Slides ด้วย Maven อย่างไร?**  
+ตอบ: เพิ่ม dependency ของ Maven ที่แสดงไว้ก่อนหน้านี้ในไฟล์ `pom.xml` ของคุณ.
 
-3. **ฉันสามารถควบคุมการเปลี่ยนสไลด์ด้วย Aspose.Slides ได้หรือไม่**
-   - ใช่ Aspose.Slides รองรับการจัดการสไลด์ในด้านต่างๆ รวมถึงการเปลี่ยนฉากด้วย
+**ถาม: ฉันสามารถจัดการการเปลี่ยนสไลด์ด้วย Aspose.Slides ได้หรือไม่?**  
+ตอบ: ได้, ไลบรารีนี้รองรับการเปลี่ยนสไลด์, แอนิเมชัน, และคุณลักษณะสไลด์อื่น ๆ มากมาย.
 
-4. **ใบอนุญาตชั่วคราวสำหรับ Aspose.Slides คืออะไร**
-   - ใบอนุญาตชั่วคราวช่วยให้คุณสามารถใช้คุณลักษณะทั้งหมดของ Aspose.Slides ได้โดยไม่มีข้อจำกัดในการประเมิน
+**ถาม: ใบอนุญาตชั่วคราวสำหรับ Aspose.Slides คืออะไร?**  
+ตอบ: ใบอนุญาตชั่วคราวให้ฟังก์ชันเต็มในช่วงเวลาจำกัด, มีประโยชน์สำหรับการทดสอบ.
 
-5. **ฉันจะกำจัดทรัพยากรใน Aspose.Slides ได้อย่างไร**
-   - ใช้ `dispose` วิธีการบนวัตถุการนำเสนอของคุณเมื่อการประมวลผลเสร็จสมบูรณ์
+**ถาม: ฉันจะปล่อยทรัพยากรใน Aspose.Slides อย่างไร?**  
+ตอบ: เรียกเมธอด `dispose()` บนอินสแตนซ์ `Presentation` ของคุณเมื่อการประมวลผลเสร็จสิ้น.
 
-## ทรัพยากร
+## แหล่งข้อมูล
 
-- **เอกสารประกอบ**- [เอกสาร Aspose.Slides สำหรับ Java](https://reference.aspose.com/slides/java/)
-- **ดาวน์โหลด**- [ข่าวล่าสุด](https://releases.aspose.com/slides/java/)
-- **ซื้อ**- [ซื้อ Aspose.Slides](https://purchase.aspose.com/buy)
-- **ทดลองใช้งานฟรี**- [การเปิดตัว Aspose](https://releases.aspose.com/slides/java/)
-- **ใบอนุญาตชั่วคราว**- [การขอใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
-- **สนับสนุน**- [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/slides/11)
+- **เอกสาร:** [Aspose.Slides for Java Documentation](https://reference.aspose.com/slides/java/)  
+- **ดาวน์โหลด:** [Latest Releases](https://releases.aspose.com/slides/java/)  
+- **ซื้อ:** [Buy Aspose.Slides](https://purchase.aspose.com/buy)  
+- **รุ่นทดลองฟรี:** [Free Trial](https://releases.aspose.com/slides/java/)  
+- **ใบอนุญาตชั่วคราว:** [Obtain a Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **สนับสนุน:** [Aspose Support Forum](https://forum.aspose.com/c/slides/11)  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -194,3 +208,9 @@ Aspose.Slides สำหรับ Java สามารถรวมเข้าก
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-27  
+**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Author:** Aspose
