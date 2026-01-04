@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-18"
-"description": "เรียนรู้วิธีการจัดการงาน PowerPoint โดยอัตโนมัติโดยใช้ Aspose.Slides สำหรับ Java คู่มือนี้ครอบคลุมถึงการโหลด การแก้ไข และการบันทึกไฟล์ PPTX อย่างมีประสิทธิภาพ"
-"title": "สร้างงาน PowerPoint อัตโนมัติด้วย Aspose.Slides สำหรับ Java และคู่มือฉบับสมบูรณ์ในการประมวลผลไฟล์ PPTX แบบแบตช์"
-"url": "/th/java/batch-processing/aspose-slides-java-automation-guide/"
-"weight": 1
+date: '2026-01-04'
+description: เรียนรู้วิธีการแทนที่ข้อความใน PowerPoint ด้วย Aspose.Slides for Java
+  รวมถึงฟีเจอร์ค้นหาและแทนที่ของ PowerPoint สำหรับการประมวลผลเป็นชุดไฟล์ PPTX.
+keywords:
+- Automate PowerPoint Tasks
+- Java PowerPoint Automation
+- Batch Processing PPTX Files
+title: แทนที่ข้อความใน PowerPoint ด้วย Aspose.Slides สำหรับ Java
+url: /th/java/batch-processing/aspose-slides-java-automation-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,41 +16,50 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# สร้างงาน PowerPoint อัตโนมัติด้วย Aspose.Slides สำหรับ Java: คู่มือฉบับสมบูรณ์ในการประมวลผลไฟล์ PPTX แบบแบตช์
+# แทนที่ข้อความใน PowerPoint ด้วย Aspose.Slides for Java: คู่มือครบวงจรสำหรับการประมวลผลไฟล์ PPTX เป็นชุด
 
-## การแนะนำ
+## บทนำ
 
-คุณเบื่อกับงานซ้ำซากเมื่อแก้ไขงานนำเสนอ PowerPoint หรือไม่ ไม่ว่าจะเป็นการอัปเดตข้อความในสไลด์ต่างๆ หรือการจัดรูปแบบส่วนต่างๆ ให้เหมือนกัน งานเหล่านี้อาจใช้เวลานาน **Aspose.Slides สำหรับ Java** เป็นไลบรารีที่มีประสิทธิภาพที่ช่วยลดความซับซ้อนของงานแก้ไขงานนำเสนอแบบอัตโนมัติ บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการโหลด แก้ไข และบันทึกไฟล์ PPTX โดยใช้ Aspose.Slides เพื่อเพิ่มประสิทธิภาพเวิร์กโฟลว์ของคุณ
+หากคุณต้องการ **replace text in PowerPoint** พรีเซนเทชันอย่างรวดเร็วและเชื่อถือได้ คุณมาถูกที่แล้ว ไม่ว่าคุณจะกำลังอัปเดตโลโก้ของบริษัท, แก้ไขข้อผิดพลาดทางการพิมพ์ในหลายสิบสไลด์, หรือใช้สไตล์แบรนด์ใหม่ การทำด้วยตนเองนั้นน่าเบื่อและเสี่ยงต่อข้อผิดพลาด ในบทเรียนนี้เราจะแสดงให้คุณเห็นว่า Aspose.Slides for Java ทำให้การ **find and replace PowerPoint** เนื้อหา, จัดรูปแบบข้อความในสไลด์, และบันทึกผลลัพธ์เป็นชุดเป็นเรื่องง่าย เมื่อจบคุณจะสามารถอัตโนมัติการแก้ไขที่ทำซ้ำและรักษาความสอดคล้องของพรีเซนเทชันของคุณได้
 
-**สิ่งที่คุณจะได้เรียนรู้:**
-- การโหลดไฟล์ PowerPoint ในภาษา Java
-- เทคนิคการจัดรูปแบบข้อความในงานนำเสนอ
-- การนำฟังก์ชันค้นหาและแทนที่ไปใช้งานในสไลด์ต่างๆ
-- บันทึกการนำเสนอที่อัปเดตได้อย่างง่ายดาย
+**สิ่งที่คุณจะได้เรียนรู้**
+- โหลดไฟล์ PowerPoint ด้วย Java.
+- ใช้ Aspose.Slides เพื่อ **find and replace PowerPoint** ข้อความ.
+- **Formatting text in slides** ขณะทำการแทนที่.
+- บันทึกพรีเซนเทชันที่อัปเดตอย่างมีประสิทธิภาพ.
 
-ก่อนที่จะเริ่มใช้งาน มาดูข้อกำหนดเบื้องต้นกันก่อน
+ก่อนที่เราจะดำดิ่งเข้าไป, ให้แน่ใจว่าคุณมีทุกอย่างที่ต้องการแล้ว
 
-## ข้อกำหนดเบื้องต้น
+## คำตอบอย่างรวดเร็ว
+- **ไลบรารีที่ใช้คืออะไร?** Aspose.Slides for Java.  
+- **ภารกิจหลักคืออะไร?** Replace text in PowerPoint presentations.  
+- **รูปแบบที่รองรับคืออะไร?** PPTX, PPT, and many others.  
+- **ฉันต้องการไลเซนส์หรือไม่?** A free trial works for evaluation; a license is required for production.  
+- **ฉันสามารถประมวลผลหลายไฟล์พร้อมกันได้หรือไม่?** Yes – the API is designed for batch processing.
 
-ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าสิ่งต่อไปนี้:
+## “replace text in PowerPoint” คืออะไร?
+การแทนที่ข้อความใน PowerPoint หมายถึงการค้นหาแบบโปรแกรมสำหรับสตริง (หรือแพทเทิร์น) เฉพาะภายในพรีเซนเทชันและแทนที่ด้วยเนื้อหาใหม่, พร้อมกับอาจนำสไตล์ใหม่มาใช้ด้วย วิธีนี้ช่วยขจัดการแก้ไขด้วยมือและรับประกันความสอดคล้องทั่วทั้งเด็คสไลด์ขนาดใหญ่
 
-### ห้องสมุดที่จำเป็น
-- **Aspose.Slides สำหรับ Java:** ขอแนะนำเวอร์ชัน 25.4 ขึ้นไป
+## ทำไมต้องใช้ Aspose.Slides for Java?
+Aspose.Slides ให้ API ที่ครบครันและจัดการได้เต็มรูปแบบโดยไม่ต้องติดตั้ง Microsoft Office รองรับคุณลักษณะขั้นสูงเช่นการโคลนสไลด์, การควบคุมแอนิเมชัน, และการจัดรูปแบบข้อความอย่างแม่นยำ ทำให้เหมาะสำหรับการอัตโนมัติระดับองค์กร
 
-### การตั้งค่าสภาพแวดล้อม
-- เวอร์ชัน JDK ที่เข้ากันได้ (Java Development Kit) ตรวจสอบว่าสภาพแวดล้อมของคุณรองรับ JDK16 ตามที่ระบุโดยตัวจำแนกประเภท
+## Prerequisites
 
-### ข้อกำหนดเบื้องต้นของความรู้
-- ความเข้าใจพื้นฐานเกี่ยวกับแนวคิดการเขียนโปรแกรมภาษา Java
-- ความคุ้นเคยกับเครื่องมือสร้างเช่น Maven หรือ Gradle สำหรับการจัดการการอ้างอิง
+### Required Libraries
+- **Aspose.Slides for Java:** เวอร์ชัน 25.4 หรือใหม่กว่าแนะนำให้ใช้
 
-## การตั้งค่า Aspose.Slides สำหรับ Java
+### Environment Setup
+- JDK ที่เข้ากันได้ – JDK 16 หรือใหม่กว่า
 
-การเริ่มต้นนั้นง่ายมาก คุณสามารถเพิ่ม Aspose.Slides ลงในโปรเจ็กต์ของคุณได้โดยใช้ Maven, Gradle หรือดาวน์โหลดไลบรารีโดยตรงจากเพจการเผยแพร่
+### Knowledge Prerequisites
+- การเขียนโปรแกรม Java เบื้องต้น
+- ความคุ้นเคยกับ Maven หรือ Gradle สำหรับการจัดการ dependencies
 
-**การตั้งค่า Maven:**
+## Setting Up Aspose.Slides for Java
 
-เพิ่มการอ้างอิงนี้ให้กับคุณ `pom.xml` ไฟล์:
+การเริ่มต้นใช้งานง่ายมาก เพิ่ม Aspose.Slides ไปยังโปรเจกต์ของคุณด้วย Maven, Gradle, หรือดาวน์โหลด JAR โดยตรง
+
+**Maven Setup:**
 
 ```xml
 <dependency>
@@ -56,77 +70,54 @@
 </dependency>
 ```
 
-**การตั้งค่า Gradle:**
-
-รวมสิ่งนี้ไว้ในของคุณ `build.gradle` ไฟล์:
+**Gradle Setup:**
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**ดาวน์โหลดโดยตรง:**
-- เยี่ยมชม [หน้าเผยแพร่ Aspose.Slides สำหรับ Java](https://releases.aspose.com/slides/java/) เพื่อดาวน์โหลดห้องสมุดได้โดยตรง
+**Direct Download:**  
+- เยี่ยมชม [Aspose.Slides for Java releases page](https://releases.aspose.com/slides/java/) เพื่อดาวน์โหลดไลบรารีโดยตรง
 
-### การขอใบอนุญาต
-หากต้องการใช้ Aspose.Slides ได้อย่างเต็มประสิทธิภาพ โปรดพิจารณาขอรับใบอนุญาต:
-- **ทดลองใช้งานฟรี:** สำรวจคุณสมบัติที่มีฟังก์ชันที่จำกัด
-- **ใบอนุญาตชั่วคราว:** ทดสอบความสามารถเต็มรูปแบบได้นานถึง 30 วัน
-- **ซื้อ:** รับใบอนุญาตถาวรเพื่อใช้งานได้ไม่จำกัด
+### License Acquisition
+เพื่อเปิดใช้งานคุณสมบัติเต็มรูปแบบคุณจะต้องมีไลเซนส์:
+- **Free Trial:** ฟังก์ชันจำกัดสำหรับการประเมินอย่างรวดเร็ว.  
+- **Temporary License:** ความสามารถเต็มรูปแบบสูงสุด 30 วัน.  
+- **Permanent License:** การใช้งานไม่จำกัดในสภาพแวดล้อมการผลิต.
 
-เริ่มต้นและกำหนดค่าสภาพแวดล้อมของคุณโดยตรวจสอบให้แน่ใจว่ามีการอ้างอิงไลบรารีอย่างถูกต้องในการตั้งค่าโครงการของคุณ วิธีนี้จะช่วยให้คุณใช้ประโยชน์จากฟังก์ชันการทำงานของ Aspose.Slides ได้อย่างราบรื่น
+## How to replace text in PowerPoint presentations
 
-## คู่มือการใช้งาน
+เราจะเดินผ่านขั้นตอนหลัก: โหลดไฟล์, กำหนดรูปแบบการแทนที่, ทำการค้นหาและแทนที่, และบันทึกผลลัพธ์
 
-เราจะแบ่งกระบวนการออกเป็นคุณสมบัติที่แตกต่างกันเพื่อความชัดเจน
+### Presentation Loading and Saving
 
-### การโหลดและการบันทึกการนำเสนอ
-
-คุณสมบัตินี้มุ่งเน้นไปที่การโหลดไฟล์งานนำเสนอ การปรับเปลี่ยน และการบันทึกเวอร์ชันที่อัปเดต
-
-#### โหลดงานนำเสนอ
-เริ่มต้นด้วยการสร้างอินสแตนซ์ของ `Presentation` พร้อมเส้นทางไปยังไฟล์ PPTX ของคุณ:
-
+#### Load the Presentation
 ```java
 String presentationName = "YOUR_DOCUMENT_DIRECTORY/TextReplaceExample.pptx";
 Presentation pres = new Presentation(presentationName);
 ```
 
-การดำเนินการนี้จะโหลดไฟล์ PowerPoint ที่คุณระบุลงในหน่วยความจำ ทำให้คุณสามารถดำเนินการอื่นๆ เพิ่มเติมได้
-
-#### บันทึกการนำเสนอที่แก้ไขแล้ว
-
-หลังจากทำการเปลี่ยนแปลงแล้ว ให้บันทึกการนำเสนอที่แก้ไขโดยใช้ `save` วิธี:
-
+#### Save the Modified Presentation
 ```java
 String outPath = "YOUR_OUTPUT_DIRECTORY/TextReplaceExample-out.pptx";
 pres.save(outPath, SaveFormat.Pptx);
 ```
 
-การดำเนินการนี้จะบันทึกการแก้ไขของคุณลงในไฟล์ใหม่ ตรวจสอบให้แน่ใจว่าคุณจัดการทรัพยากรอย่างถูกต้องโดยโทรติดต่อ `dispose()` บน `Presentation` วัตถุเพื่อปลดปล่อยหน่วยความจำ
+> **เคล็ดลับ:** ควรเรียก `pres.dispose();` หลังจากเสร็จเพื่อปล่อยทรัพยากรเนทีฟ
 
-### การจัดรูปแบบข้อความสำหรับการแทนที่
-
-ปรับแต่งลักษณะข้อความโดยใช้ `PortionFormat`-
-
-#### กำหนดคุณสมบัติของข้อความ
-สร้างอินสแตนซ์ของ `PortionFormat` และตั้งค่าคุณสมบัติที่ต้องการ:
+### Text Formatting for Replacement
+หากคุณต้องการให้ข้อความใหม่โดดเด่น ให้กำหนด `PortionFormat` ก่อนทำการแทนที่
 
 ```java
 PortionFormat format = new PortionFormat();
-format.setFontHeight(24f); // ตั้งค่าความสูงของตัวอักษรเป็น 24 จุด
-format.setFontItalic(NullableBool.True); // ทำให้ตัวอักษรเป็นตัวเอียง
+format.setFontHeight(24f); // Set font height to 24 points
+format.setFontItalic(NullableBool.True); // Make the font italic
 format.getFillFormat().setFillType(FillType.Solid);
-format.getFillFormat().getSolidFillColor().setColor(Color.RED); // ตั้งค่าสีข้อความเป็นสีแดง
+format.getFillFormat().getSolidFillColor().setColor(Color.RED); // Set text color to red
 ```
 
-สไนปเป็ตนี้จะกำหนดการจัดรูปแบบข้อความ รวมถึงขนาด สไตล์ และสี
-
-### ค้นหาและแทนที่ข้อความในงานนำเสนอ
-
-ทำการแทนที่ข้อความอัตโนมัติในทุกสไลด์โดยใช้ `SlideUtil`-
-
-#### ดำเนินการค้นหาและแทนที่
-ใช้ `findAndReplaceText` วิธีการแทนที่ข้อความที่ระบุด้วยเนื้อหาที่จัดรูปแบบใหม่:
+### Find and Replace Text in Presentation
+ตอนนี้ใช้คลาสยูทิลิตี้เพื่อแทนที่ทุกตำแหน่งของตัวแปร
 
 ```java
 String searchText = "[this block] ";
@@ -134,58 +125,60 @@ String replacementText = "my text";
 SlideUtil.findAndReplaceText(pres, true, searchText, replacementText, format);
 ```
 
-การอัปเดตการเกิดขึ้นทั้งหมดอย่างมีประสิทธิภาพ `searchText` กับ `replacementText`, ใช้การจัดรูปแบบตามที่กำหนดไว้
+เมธอด `findAndReplaceText` จะสแกนสไลด์ทั้งหมด, แทนที่สตริงเป้าหมาย, และใช้ `PortionFormat` ที่คุณกำหนด, ทำให้คุณได้ **formatted text in slides** โดยอัตโนมัติ
 
-## การประยุกต์ใช้งานจริง
+## Practical Applications
 
-ต่อไปนี้คือสถานการณ์จริงบางสถานการณ์ที่ Aspose.Slides สามารถมีประโยชน์อย่างยิ่ง:
-1. **การรายงานอัตโนมัติ:** อัปเดตรายงานทางการเงินโดยอัตโนมัติด้วยข้อมูลล่าสุด
-2. **การปรับแต่งเทมเพลต:** ปรับเปลี่ยนองค์ประกอบการสร้างแบรนด์ในเทมเพลตการนำเสนอต่าง ๆ
-3. **การส่งข้อความที่สอดคล้องกัน:** ให้แน่ใจว่าภาษาและรูปแบบมีความสอดคล้องกันในการนำเสนอต่อลูกค้า
-4. **การประมวลผลแบบแบตช์:** ประมวลผลการนำเสนอปริมาณมากสำหรับงานขององค์กรหรือโมดูลการฝึกอบรม
-5. **การบูรณาการกับระบบ CRM:** เติมข้อมูลเฉพาะไคลเอนต์ลงในงานนำเสนอโดยอัตโนมัติ
+ต่อไปนี้เป็นสถานการณ์ทั่วไปที่ **replace text in PowerPoint** มีประโยชน์มาก:
 
-## การพิจารณาประสิทธิภาพ
+1. **Automated Reporting:** แทรกตัวเลขการเงินล่าสุดลงในเทมเพลตทุกเดือน.  
+2. **Brand Refresh:** อัปเดตชื่อบริษัท, ข้อความโลโก้, หรือโทนสีในหลายสิบชุดสไลด์.  
+3. **Training Material Updates:** เปลี่ยนคำศัพท์หรือการอ้างอิงนโยบายโดยไม่ต้องเปิดไฟล์แต่ละไฟล์.  
+4. **Batch Processing for Events:** สร้างเด็คผู้พูดส่วนบุคคลโดยการแทนที่ตัวแปรกับชื่อผู้พูด.  
+5. **CRM Integration:** ดึงข้อมูลเฉพาะลูกค้าและเติมตัวแปรในพรีเซนเทชันแบบเรียลไทม์.
 
-เมื่อทำงานกับ Aspose.Slides โปรดพิจารณาสิ่งต่อไปนี้เพื่อเพิ่มประสิทธิภาพการทำงาน:
-- **การจัดการทรัพยากรอย่างมีประสิทธิภาพ:** โทรมาได้ตลอดเวลา `dispose()` บน `Presentation` วัตถุหลังการใช้งาน
-- **การใช้หน่วยความจำ:** ใช้ API การสตรีมมิ่งสำหรับการนำเสนอขนาดใหญ่เพื่อลดการใช้หน่วยความจำ
-- **การประมวลผลแบบแบตช์:** จัดการไฟล์หลายไฟล์เป็นชุดแทนที่จะจัดการครั้งละหนึ่งไฟล์เพื่อลดค่าใช้จ่าย
+## Performance Considerations
+- **Dispose objects:** เรียก `dispose()` บนอินสแตนซ์ `Presentation` เพื่อหลีกเลี่ยงการรั่วไหลของหน่วยความจำ.  
+- **Streaming API:** สำหรับเด็คขนาดใหญ่มาก ใช้ `PresentationLoader` พร้อมสตรีมมิ่งเพื่อลดการใช้หน่วยความจำ.  
+- **Batch Mode:** ประมวลผลไฟล์เป็นกลุ่มแทนการทำทีละไฟล์เพื่อ ลดภาระของ JVM.
 
-## บทสรุป
+## Conclusion
+คุณมีวิธีที่ครบถ้วนและพร้อมใช้งานในระดับผลิตเพื่อ **replace text in PowerPoint** ด้วย Aspose.Slides for Java ตั้งแต่การโหลดพรีเซนเทชันจนถึงการใช้รูปแบบกำหนดเองและบันทึกผลลัพธ์ วิธีนี้ช่วยประหยัดเวลานับชั่วโมงและรับประกันความสอดคล้อง
 
-ตอนนี้คุณได้เสริมทักษะที่จำเป็นในการทำงานนำเสนอ PowerPoint โดยอัตโนมัติโดยใช้ Aspose.Slides สำหรับ Java แล้ว ไม่ว่าจะเป็นการอัปเดตข้อความ การใช้รูปแบบที่สม่ำเสมอ หรือการบันทึกการแก้ไขของคุณ ไลบรารีอันทรงพลังนี้จะช่วยเพิ่มประสิทธิภาพเวิร์กโฟลว์ของคุณได้อย่างมาก
+ขั้นตอนต่อไป? ลองขยายสคริปต์เพื่อ:
+- คัดลอกสไลด์ก่อนการแทนที่เพื่อการเวอร์ชัน  
+- เพิ่มตัวแปรรูปภาพและแทนที่ด้วยกราฟิกแบบไดนามิก  
+- ผสานรวมกับ CI/CD pipeline เพื่อสร้างเด็คอัตโนมัติจากแหล่งข้อมูล
 
-ขั้นตอนต่อไปคืออะไร ทดลองเพิ่มเติมโดยสำรวจฟีเจอร์เพิ่มเติม เช่น การโคลนสไลด์และการควบคุมแอนิเมชัน ลองพิจารณาผสานรวม Aspose.Slides เข้ากับระบบขนาดใหญ่เพื่อเพิ่มประสิทธิภาพการทำงานในโครงการต่างๆ ของคุณ
+## Frequently Asked Questions
 
-## ส่วนคำถามที่พบบ่อย
+**Q1: What are the system requirements for running Aspose.Slides for Java?**  
+A: ต้องใช้ JDK 16 หรือใหม่กว่า พร้อมหน่วยความจำ heap เพียงพอสำหรับขนาดของพรีเซนเทชันที่คุณประมวลผล
 
-**คำถามที่ 1: ข้อกำหนดของระบบสำหรับการรัน Aspose.Slides สำหรับ Java คืออะไร**
-A1: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง JDK 16 หรือใหม่กว่าบนเครื่องของคุณ
+**Q2: Can I use Aspose.Slides with older PowerPoint formats like PPT?**  
+A: ใช่, ไลบรารีรองรับทั้ง PPT และ PPTX รวมถึง ODP และรูปแบบพรีเซนเทชันอื่น ๆ
 
-**คำถามที่ 2: ฉันสามารถใช้ Aspose.Slides กับไฟล์ PowerPoint เวอร์ชันเก่าๆ เช่น PPT ได้หรือไม่**
-A2: ใช่ Aspose.Slides รองรับรูปแบบต่างๆ รวมถึง PPT และ PPTX
+**Q3: How do I obtain a temporary license for Aspose.Slides?**  
+A: เยี่ยมชม [Aspose purchase page](https://purchase.aspose.com/temporary-license/) เพื่อขอไลเซนส์ทดลองฟรี 30 วัน
 
-**คำถามที่ 3: ฉันจะขอใบอนุญาตชั่วคราวสำหรับ Aspose.Slides ได้อย่างไร**
-A3: เยี่ยมชม [หน้าสั่งซื้อ Aspose](https://purchase.aspose.com/temporary-license/) เพื่อขอใบอนุญาตทดลองใช้งานฟรี 30 วัน
+**Q4: What are common pitfalls when using find and replace?**  
+A: ตรวจสอบให้แน่ใจว่าสตริงค้นหามีความเฉพาะพอที่จะหลีกเลี่ยงการแทนที่ที่ไม่ต้องการ และควรทดสอบบนสำเนาไฟล์ก่อนเสมอ
 
-**คำถามที่ 4: ปัญหาทั่วไปบางประการเมื่อใช้ Aspose.Slides มีอะไรบ้าง และฉันจะแก้ไขปัญหาเหล่านั้นได้อย่างไร**
-A4: ปัญหาทั่วไป ได้แก่ ข้อผิดพลาดไม่พบไฟล์หรือการรั่วไหลของหน่วยความจำ ตรวจสอบว่าเส้นทางถูกต้องและเรียกใช้เสมอ `dispose()` เกี่ยวกับวัตถุการนำเสนอ
+**Q5: Can Aspose.Slides be used with cloud storage services?**  
+A: แน่นอน – คุณสามารถโหลดและบันทึกพรีเซนเทชันโดยตรงจาก AWS S3, Azure Blob, หรือ Google Cloud Storage ด้วยสตรีม I/O ของ Java มาตรฐาน
 
-**คำถามที่ 5: Aspose.Slides สามารถบูรณาการกับบริการคลาวด์สำหรับการนำเสนอได้หรือไม่**
-A5: ใช่ สามารถบูรณาการกับบริการจัดเก็บข้อมูลบนคลาวด์ต่างๆ เพื่อจัดการการนำเสนอแบบออนไลน์ได้
+**Last Updated:** 2026-01-04  
+**Tested With:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Author:** Aspose  
 
-## ทรัพยากร
+**Resources**
 
-สำหรับข้อมูลเพิ่มเติมและการสนับสนุน:
-- **เอกสารประกอบ:** [เอกสาร Java ของ Aspose.Slides](https://reference.aspose.com/slides/java/)
-- **ดาวน์โหลด:** [Aspose.Slides สำหรับการเปิดตัว Java](https://releases.aspose.com/slides/java/)
-- **ซื้อ:** [ซื้อ Aspose.Slides](https://purchase.aspose.com/buy)
-- **ทดลองใช้งานฟรี:** [ทดลองใช้ Aspose.Slides ฟรี](https://releases.aspose.com/slides/java/)
-- **ใบอนุญาตชั่วคราว:** [รับใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
-- **ฟอรั่มการสนับสนุน:** [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/slides/11)
-
-ตอนนี้คุณได้เข้าใจพื้นฐานอย่างถ่องแท้แล้ว ถึงเวลาเริ่มต้นสร้างการนำเสนออัตโนมัติด้วย Aspose.Slides Java!
+- **Documentation:** [Aspose.Slides Java Documentation](https://reference.aspose.com/slides/java/)  
+- **Download:** [Aspose.Slides for Java Releases](https://releases.aspose.com/slides/java/)  
+- **Purchase:** [Buy Aspose.Slides](https://purchase.aspose.com/buy)  
+- **Free Trial:** [Try Aspose.Slides Free](https://releases.aspose.com/slides/java/)  
+- **Temporary License:** [Get a Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Support Forum:** [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
