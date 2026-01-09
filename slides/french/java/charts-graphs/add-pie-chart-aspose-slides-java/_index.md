@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Apprenez à ajouter et personnaliser des graphiques à secteurs dans vos présentations avec Aspose.Slides pour Java. Ce guide couvre la configuration, la mise en œuvre et les applications pratiques."
-"title": "Ajouter un graphique à secteurs à votre présentation avec Aspose.Slides Java | Guide étape par étape"
-"url": "/fr/java/charts-graphs/add-pie-chart-aspose-slides-java/"
-"weight": 1
+date: '2026-01-09'
+description: Découvrez comment utiliser Aspose Slides Maven pour ajouter un graphique
+  à une diapositive et personnaliser un diagramme circulaire dans des présentations
+  Java. Configuration étape par étape, code et exemples concrets.
+keywords:
+- add pie chart with Aspose.Slides Java
+- Aspose.Slides for Java tutorial
+- Java presentation automation
+title: 'aspose slides maven : Ajouter un diagramme circulaire à une présentation'
+url: /fr/java/charts-graphs/add-pie-chart-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,36 +17,43 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Comment ajouter un graphique à secteurs à une présentation avec Aspose.Slides Java
+# Comment ajouter un diagramme circulaire à une présentation en utilisant Aspose.Slides Java
 
 ## Introduction
-Créer des présentations visuellement attrayantes est essentiel pour transmettre efficacement l'information, notamment lorsque la visualisation des données joue un rôle clé. Mais comment automatiser ce processus avec Java ? Ce tutoriel vous guidera pour ajouter facilement un diagramme circulaire à votre présentation. **Aspose.Slides pour Java**.
+Créer des présentations visuellement attrayantes est essentiel pour transmettre efficacement l'information, surtout lorsque la visualisation des données joue un rôle clé. Si vous cherchez à automatiser ce processus avec **aspose slides maven**, vous êtes au bon endroit. Dans ce tutoriel, vous apprendrez comment **add chart to slide** — plus précisément un diagramme circulaire — en utilisant Aspose.Slides pour Java, et vous verrez comment le personnaliser pour des scénarios réels.
 
-### Ce que vous apprendrez :
-- Comment initialiser un objet de présentation en Java.
-- Étapes pour ajouter et personnaliser un graphique à secteurs sur la première diapositive d’une présentation.
-- Accéder aux classeurs de données graphiques et répertorier les feuilles de calcul qu'ils contiennent.
+### Ce que vous allez apprendre
+- Comment initialiser un objet présentation en Java.  
+- Étapes pour **add a pie chart java** sur la première diapositive d’une présentation.  
+- Accéder aux classeurs de données du diagramme et lister les feuilles de calcul qui s’y trouvent.  
 
-Plongeons dans la façon dont vous pouvez exploiter Aspose.Slides Java pour améliorer vos présentations avec des graphiques dynamiques !
+Plongeons dans la façon dont vous pouvez exploiter Aspose.Slides Java pour enrichir vos présentations avec des diagrammes dynamiques !
+
+## Réponses rapides
+- **Quelle bibliothèque ajoute des diagrammes via Maven ?** aspose slides maven  
+- **Quel type de diagramme est démontré ?** Diagramme circulaire (add chart to slide)  
+- **Version minimale de Java requise ?** JDK 16 ou supérieur  
+- **Ai‑je besoin d’une licence pour les tests ?** Un essai gratuit fonctionne ; la production nécessite une licence  
+- **Où trouver la dépendance Maven ?** Dans la section d’installation ci‑dessous  
+
+## Qu’est‑ce qu’Aspose Slides Maven ?
+Aspose.Slides pour Java est une API puissante qui permet aux développeurs de créer, modifier et rendre des fichiers PowerPoint de façon programmatique. Le package Maven (`aspose‑slides`) simplifie la gestion des dépendances, vous permettant de vous concentrer sur la construction et la personnalisation des diapositives—comme l’ajout d’un diagramme circulaire—sans vous soucier de la manipulation bas‑niveau des fichiers.
+
+## Pourquoi utiliser Aspose.Slides Maven pour ajouter un diagramme à une diapositive ?
+- **Automatisation :** Générer des rapports et tableaux de bord automatiquement.  
+- **Précision :** Contrôle total sur les types de diagrammes, les données et le style.  
+- **Multi‑plateforme :** Fonctionne sur tout environnement compatible Java.  
 
 ## Prérequis
-Avant de commencer, assurez-vous de disposer des éléments suivants :
+- **Aspose.Slides pour Java** version 25.4 ou ultérieure (Maven/Gradle).  
+- JDK 16+ installé.  
+- Un IDE (IntelliJ IDEA, Eclipse, etc.).  
+- Connaissances de base en Java et familiarité avec Maven ou Gradle.
 
-### Bibliothèques requises :
-- **Aspose.Slides pour Java** version 25.4 ou ultérieure.
-  
-### Configuration de l'environnement :
-- JDK 16 ou version ultérieure installé sur votre système.
-- Un IDE comme IntelliJ IDEA, Eclipse ou tout autre environnement de développement préféré.
+## Installation d’Aspose.Slides pour Java
+Tout d’abord, incluez Aspose.Slides dans votre projet via Maven ou Gradle.
 
-### Prérequis en matière de connaissances :
-- Compréhension de base de la programmation Java.
-- Familiarité avec les systèmes de build Maven ou Gradle pour la gestion des dépendances.
-
-## Configuration d'Aspose.Slides pour Java
-Tout d'abord, vous devez inclure Aspose.Slides dans votre projet. Vous pouvez le faire via Maven ou Gradle :
-
-**Expert :**
+**Maven :**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -50,31 +63,32 @@ Tout d'abord, vous devez inclure Aspose.Slides dans votre projet. Vous pouvez le
 </dependency>
 ```
 
-**Gradle :**
+**Gradle :**  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Alternativement, vous pouvez [télécharger la dernière version](https://releases.aspose.com/slides/java/) directement depuis le site d'Aspose.
+Vous pouvez également [télécharger la dernière version](https://releases.aspose.com/slides/java/) directement depuis le site d’Aspose.
 
 ### Acquisition de licence
-Aspose.Slides pour Java propose un essai gratuit incluant des options de licence temporaire à des fins de test. Pour un accès illimité et une utilisation complète des fonctionnalités en production, pensez à acheter une licence via le [page d'achat](https://purchase.aspose.com/buy).
+Aspose.Slides pour Java propose un essai gratuit avec une licence temporaire pour les tests. Pour une utilisation en production sans restriction, achetez une licence via la [page d’achat](https://purchase.aspose.com/buy).
 
-## Guide de mise en œuvre
-Décomposons l'implémentation en deux fonctionnalités principales : l'ajout d'un graphique à secteurs à une présentation et l'accès aux données du graphique.
+## Guide d’implémentation
+Nous décomposons la solution en deux fonctionnalités : ajouter un diagramme circulaire et accéder à son classeur de données.
 
-### Fonctionnalité 1 : Créer une présentation et ajouter un graphique
-#### Aperçu
-Cette section montre comment initialiser un nouvel objet de présentation et ajouter un graphique à secteurs à la première diapositive.
+### Fonctionnalité 1 : Créer une présentation et ajouter un diagramme
+#### Vue d’ensemble
+Cette partie montre comment créer une nouvelle présentation et **add a pie chart** à la première diapositive.
 
-#### Guide étape par étape :
-**Étape 1 : Initialiser un nouvel objet de présentation**
+#### Étape par étape
+
+**Étape 1 : Initialiser un nouvel objet Presentation**  
 ```java
 Presentation pres = new Presentation();
 ```
-*Ici, nous créons une instance de `Presentation`, qui sert de conteneur principal de documents.*
+*Crée l’instance `Presentation` qui contiendra toutes les diapositives.*
 
-**Étape 2 : ajouter un graphique à secteurs**
+**Étape 2 : Ajouter un diagramme circulaire**  
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
     ChartType.Pie,
@@ -84,88 +98,89 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
     500
 );
 ```
-*Nous ajoutons un graphique à secteurs à la première diapositive aux coordonnées spécifiées (50, 50) avec des dimensions de largeur 400 et de hauteur 500. `ChartType.Pie` spécifie le type de graphique.*
+*Place un diagramme circulaire aux coordonnées (50, 50) avec une largeur de 400 et une hauteur de 500. L’énumération `ChartType.Pie` indique à Aspose de rendre un diagramme circulaire.*
 
-**Étape 3 : Éliminer les ressources**
+**Étape 3 : Libérer les ressources**  
 ```java
 if (pres != null) pres.dispose();
 ```
-*Il est important de libérer des ressources en supprimant l'objet de présentation une fois les opérations terminées.*
+*Libère les ressources natives ; appelez toujours `dispose()` lorsque vous avez terminé.*
 
-### Fonctionnalité 2 : Accès aux données graphiques, classeur et feuilles de calcul
-#### Aperçu
-Découvrez comment accéder au classeur de données sous-jacent associé à votre graphique et parcourir ses feuilles de calcul.
+### Fonctionnalité 2 : Accéder au classeur de données du diagramme et aux feuilles de calcul
+#### Vue d’ensemble
+Apprenez comment atteindre le classeur sous‑jacent qui stocke les données du diagramme et parcourir ses feuilles de calcul.
 
-#### Guide étape par étape :
-**Étape 1 : Initialiser un nouvel objet de présentation**
-*Réutilisez l’étape d’initialisation de la fonctionnalité précédente.*
+#### Étape par étape
 
-**Étape 2 : ajouter un graphique à secteurs**
-*Comme précédemment, ajoutez un graphique à secteurs pour commencer à travailler avec des classeurs de données.*
+**Étape 1 : (Réutiliser) Initialiser un nouvel objet Presentation**  
+*Identique à la Fonctionnalité 1, Étape 1.*
 
-**Étape 3 : Obtenir le classeur de données graphiques**
+**Étape 2 : (Réutiliser) Ajouter un diagramme circulaire**  
+*Identique à la Fonctionnalité 1, Étape 2.*
+
+**Étape 3 : Obtenir le classeur de données du diagramme**  
 ```java
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 ```
-*Cela récupère le `IChartDataWorkbook` objet associé à notre graphique, permettant l'accès à ses données.*
+*Récupère le `IChartDataWorkbook` lié au diagramme.*
 
-**Étape 4 : parcourir les feuilles de travail**
+**Étape 4 : Parcourir les feuilles de calcul**  
 ```java
 for (int i = 0; i < workbook.getWorksheets().size(); i++) {
     System.out.println(workbook.getWorksheets().get_Item(i).getName());
 }
 ```
-*Ici, nous parcourons chaque feuille de calcul du classeur et imprimons son nom.*
+*Affiche le nom de chaque feuille de calcul, vous permettant de vérifier la structure des données.*
 
-**Étape 5 : Éliminer les ressources**
-*Supprimez l’objet de présentation comme décrit précédemment pour libérer des ressources.*
+**Étape 5 : Libérer les ressources**  
+*Identique à la Fonctionnalité 1, Étape 3.*
 
 ## Applications pratiques
-- **Rapports de données :** Générez automatiquement des présentations avec des graphiques de données mis à jour pour les rapports commerciaux.
-- **Présentations académiques :** Créez des diaporamas visuellement attrayants illustrant les résultats de recherche ou les analyses statistiques.
-- **Matériel de marketing :** Développer des supports marketing attrayants présentant les indicateurs de performance des produits.
+- **Rapports de données :** Générer automatiquement des présentations avec des indicateurs à jour pour l’intelligence d’affaires.  
+- **Présentations académiques :** Visualiser les résultats de recherche sans création manuelle de diagrammes.  
+- **Matériel marketing :** Présenter instantanément les performances d’un produit ou les résultats d’enquêtes.
 
-Ces cas d'utilisation mettent en évidence la flexibilité et la puissance de l'intégration d'Aspose.Slides dans vos applications Java, fournissant des présentations dynamiques adaptées à des besoins spécifiques.
-
-## Considérations relatives aux performances
-Pour optimiser les performances lors de l'utilisation d'Aspose.Slides pour Java :
-- Limitez le nombre de diapositives et de graphiques si ce n’est pas nécessaire, car chacun consomme de la mémoire.
-- Utiliser `dispose()` méthode pour libérer les ressources rapidement après utilisation.
-- Mettez en œuvre des pratiques efficaces de gestion des données dans le classeur de votre graphique pour minimiser le temps de traitement.
-
-En suivant ces directives, vous pouvez garantir des performances fluides même dans les applications gourmandes en ressources.
+## Considérations de performance
+- Gardez le nombre de diapositives et de diagrammes raisonnable ; chacun consomme de la mémoire.  
+- Appelez toujours `dispose()` pour libérer les ressources natives.  
+- Optimisez la gestion des données du classeur — évitez de charger des jeux de données massifs dans un seul diagramme.
 
 ## Conclusion
-Dans ce tutoriel, nous avons exploré comment Aspose.Slides pour Java permet d'ajouter facilement des graphiques à secteurs à des présentations. En comprenant les processus d'initialisation et de manipulation des graphiques, vous êtes désormais équipé pour améliorer vos présentations par programmation. 
+Nous avons vu comment **aspose slides maven** vous permet de **add chart to slide** de façon programmatique et comment travailler avec le classeur de données du diagramme. Avec ces blocs de construction, vous pouvez automatiser tout flux de travail de reporting nécessitant une sortie PowerPoint soignée.
 
 ### Prochaines étapes
-Envisagez d’explorer des fonctionnalités supplémentaires telles que la personnalisation des styles de graphiques ou l’intégration avec d’autres sources de données.
+- Explorer les options de style du diagramme (couleurs, légendes, étiquettes de données).  
+- Se connecter à des sources de données externes (CSV, bases de données) pour alimenter les diagrammes dynamiquement.  
+- Combiner plusieurs types de diagrammes dans une même présentation pour un storytelling plus riche.
 
-Essayez d’implémenter ces solutions dans vos projets !
+## Foire aux questions
 
-## Section FAQ
-1. **Comment installer Aspose.Slides pour Java ?**
-   - Utilisez les configurations de dépendances Maven ou Gradle, ou téléchargez directement depuis la page des versions.
-   
-2. **Quelle est la configuration système requise pour exécuter Aspose.Slides ?**
-   - JDK 16 ou version ultérieure est requis.
+**Q : Comment installer Aspose.Slides pour Java ?**  
+R : Utilisez la dépendance Maven ou Gradle présentée ci‑dessus, ou téléchargez la bibliothèque depuis la page des releases.
 
-3. **Puis-je ajouter d’autres types de graphiques en plus des graphiques à secteurs ?**
-   - Oui, Aspose.Slides prend en charge différents types de graphiques tels que les graphiques à barres, les graphiques linéaires et les graphiques en nuage de points.
+**Q : Quelles sont les exigences système pour Aspose.Slides ?**  
+R : JDK 16 ou supérieur ; la bibliothèque est indépendante de la plateforme.
 
-4. **Comment gérer efficacement de grandes présentations ?**
-   - Optimisez en éliminant rapidement les objets et en gérant soigneusement les ressources.
-   
-5. **Où puis-je trouver plus d'informations sur les fonctionnalités d'Aspose.Slides ?**
-   - Visitez le [Documentation Aspose](https://reference.aspose.com/slides/java/) pour des guides complets.
+**Q : Puis‑je ajouter d’autres types de diagrammes que les circulaires ?**  
+R : Oui, Aspose.Slides prend en charge les diagrammes à barres, lignes, nuages de points et bien d’autres.
 
-## Ressources
-- Documentation: [Référence de l'API Java Aspose.Slides](https://reference.aspose.com/slides/java/)
-- Télécharger: [Dernières sorties](https://releases.aspose.com/slides/java/)
-- Achat et essai : [Page d'achat](https://purchase.aspose.com/buy)
-- Essai gratuit : [Téléchargements d'essai](https://releases.aspose.com/slides/java/)
-- Licence temporaire : [Demander une licence temporaire](https://purchase.aspose.com/temporary-license/)
-- Forum d'assistance : [Forum communautaire Aspose](https://forum.aspose.com/c/slides/11)
+**Q : Comment gérer efficacement de grandes présentations ?**  
+R : Libérez les objets rapidement, limitez le nombre d’images haute résolution et réutilisez les modèles de diagrammes lorsque possible.
+
+**Q : Où trouver plus de détails sur les fonctionnalités d’Aspose.Slides ?**  
+R : Consultez la [documentation Aspose](https://reference.aspose.com/slides/java/) pour une référence API complète.
+
+**Q : Une licence est‑elle requise pour une utilisation commerciale ?**  
+R : Une licence valide est nécessaire en production ; un essai gratuit est disponible pour l’évaluation.
+
+**Q : Le package Maven inclut‑il toutes les capacités de diagrammes ?**  
+R : Oui, l’artifact Maven `aspose‑slides` contient le moteur complet de création de diagrammes.
+
+---  
+
+**Dernière mise à jour :** 2026-01-09  
+**Testé avec :** Aspose.Slides 25.4 pour Java (jdk16)  
+**Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -174,3 +189,11 @@ Essayez d’implémenter ces solutions dans vos projets !
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## Ressources
+- Documentation : [Référence API Aspose.Slides Java](https://reference.aspose.com/slides/java/)
+- Téléchargement : [Dernières releases](https://releases.aspose.com/slides/java/)
+- Achat et essai : [Page d’achat](https://purchase.aspose.com/buy)
+- Essai gratuit : [Téléchargements d’essai](https://releases.aspose.com/slides/java/)
+- Licence temporaire : [Demander une licence temporaire](https://purchase.aspose.com/temporary-license/)
+- Forum d’assistance : [Forum communautaire Aspose](https://forum.aspose.com/c/slides/11)

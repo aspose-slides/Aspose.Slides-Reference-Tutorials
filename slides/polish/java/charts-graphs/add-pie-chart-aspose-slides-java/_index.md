@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Dowiedz się, jak dodawać i dostosowywać wykresy kołowe w prezentacjach przy użyciu Aspose.Slides for Java. Ten przewodnik obejmuje konfigurację, implementację i praktyczne zastosowania."
-"title": "Dodaj wykres kołowy do swojej prezentacji za pomocą Aspose.Slides Java | Przewodnik krok po kroku"
-"url": "/pl/java/charts-graphs/add-pie-chart-aspose-slides-java/"
-"weight": 1
+date: '2026-01-09'
+description: Odkryj, jak używać Aspose.Slides Maven, aby dodać wykres do slajdu i
+  dostosować wykres kołowy w prezentacjach Java. Krok po kroku konfiguracja, kod i
+  przykłady z rzeczywistego świata.
+keywords:
+- add pie chart with Aspose.Slides Java
+- Aspose.Slides for Java tutorial
+- Java presentation automation
+title: 'aspose slides maven: Dodaj wykres kołowy do prezentacji'
+url: /pl/java/charts-graphs/add-pie-chart-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,34 +17,41 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Jak dodać wykres kołowy do prezentacji za pomocą Aspose.Slides Java
+# Jak dodać wykres kołowy do prezentacji przy użyciu Aspose.Slides Java
 
-## Wstęp
-Tworzenie atrakcyjnych wizualnie prezentacji jest kluczowe dla skutecznego przekazywania informacji, zwłaszcza gdy wizualizacja danych odgrywa kluczową rolę. Ale co, jeśli chcesz zautomatyzować ten proces za pomocą Javy? Ten samouczek przeprowadzi Cię przez proces dodawania wykresu kołowego do prezentacji bez wysiłku dzięki **Aspose.Slides dla Java**.
+## Introduction
+Tworzenie wizualnie atrakcyjnych prezentacji jest kluczowe dla skutecznego przekazywania informacji, szczególnie gdy wizualizacja danych odgrywa istotną rolę. Jeśli chcesz zautomatyzować ten proces przy użyciu **aspose slides maven**, trafiłeś we właściwe miejsce. W tym samouczku dowiesz się, jak **add chart to slide** — konkretnie wykres kołowy — przy użyciu Aspose.Slides for Java oraz jak go dostosować do rzeczywistych scenariuszy.
 
-### Czego się nauczysz:
-- Jak zainicjować obiekt prezentacji w Javie.
-- Instrukcje dodawania i dostosowywania wykresu kołowego na pierwszym slajdzie prezentacji.
-- Uzyskiwanie dostępu do skoroszytów danych wykresów i wyświetlanie w nich arkuszy kalkulacyjnych.
+### What You'll Learn
+- Jak zainicjować obiekt prezentacji w Javie.  
+- Kroki do **add a pie chart java** na pierwszym slajdzie prezentacji.  
+- Dostęp do skoroszytów danych wykresu i wyświetlanie listy arkuszy w nich.  
 
-Przyjrzyjmy się bliżej, jak wykorzystać Aspose.Slides Java do wzbogacenia prezentacji o dynamiczne wykresy!
+Zanurzmy się w to, jak możesz wykorzystać Aspose.Slides Java, aby wzbogacić swoje prezentacje o dynamiczne wykresy!
 
-## Wymagania wstępne
-Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
+## Quick Answers
+- **Jaka biblioteka dodaje wykresy przez Maven?** aspose slides maven  
+- **Jaki typ wykresu jest pokazany?** Pie chart (add chart to slide)  
+- **Minimalna wymagana wersja Javy?** JDK 16 lub nowsza  
+- **Czy potrzebna jest licencja do testów?** A free trial works; production needs a license  
+- **Gdzie mogę znaleźć zależność Maven?** In the setup section below  
 
-### Wymagane biblioteki:
-- **Aspose.Slides dla Java** wersja 25.4 lub nowsza.
-  
-### Konfiguracja środowiska:
-- W systemie zainstalowany jest JDK 16 lub nowszy.
-- Środowisko IDE, takie jak IntelliJ IDEA, Eclipse lub inne preferowane środowisko programistyczne.
+## What is Aspose Slides Maven?
+Aspose.Slides for Java jest potężnym API, które pozwala programistom tworzyć, modyfikować i renderować pliki PowerPoint programowo. Pakiet Maven (`aspose-slides`) upraszcza zarządzanie zależnościami, umożliwiając skupienie się na budowaniu i dostosowywaniu slajdów — takich jak dodanie wykresu kołowego — bez konieczności zajmowania się niskopoziomową obsługą plików.
 
-### Wymagania wstępne dotyczące wiedzy:
-- Podstawowa znajomość programowania w Javie.
-- Znajomość systemów budowania Maven lub Gradle do zarządzania zależnościami.
+## Why Use Aspose.Slides Maven to Add a Chart to a Slide?
+- **Automatyzacja:** Automatyczne generowanie raportów i pulpitów nawigacyjnych.  
+- **Precyzja:** Pełna kontrola nad typami wykresów, danymi i stylizacją.  
+- **Cross‑Platform:** Działa w każdym środowisku kompatybilnym z Javą.  
 
-## Konfigurowanie Aspose.Slides dla Java
-Najpierw musisz uwzględnić Aspose.Slides w swoim projekcie. Możesz to zrobić za pomocą Maven lub Gradle:
+## Prerequisites
+- **Aspose.Slides for Java** wersja 25.4 lub nowsza (Maven/Gradle).  
+- Zainstalowany JDK 16+.  
+- IDE (IntelliJ IDEA, Eclipse, itp.).  
+- Podstawowa znajomość Javy oraz Maven lub Gradle.
+
+## Setting Up Aspose.Slides for Java
+Najpierw dołącz Aspose.Slides do swojego projektu za pomocą Maven lub Gradle.
 
 **Maven:**
 ```xml
@@ -50,31 +63,32 @@ Najpierw musisz uwzględnić Aspose.Slides w swoim projekcie. Możesz to zrobić
 </dependency>
 ```
 
-**Stopień:**
+**Gradle:**
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Alternatywnie możesz [pobierz najnowszą wersję](https://releases.aspose.com/slides/java/) bezpośrednio ze strony internetowej Aspose.
+Alternatywnie możesz [download the latest release](https://releases.aspose.com/slides/java/) bezpośrednio ze strony Aspose.
 
-### Nabycie licencji
-Aspose.Slides for Java oferuje bezpłatną wersję próbną, która obejmuje tymczasowe opcje licencji do celów testowych. Aby uzyskać nieograniczony dostęp i pełne wykorzystanie funkcji w środowiskach produkcyjnych, rozważ zakup licencji za pośrednictwem [strona zakupu](https://purchase.aspose.com/buy).
+### License Acquisition
+Aspose.Slides for Java offers a free trial with a temporary license for testing. For unrestricted production use, purchase a license through the [purchase page](https://purchase.aspose.com/buy).
 
-## Przewodnik wdrażania
-Podzielmy implementację na dwie główne funkcje: dodawanie wykresu kołowego do prezentacji i dostęp do danych wykresu.
+## Implementation Guide
+Poniżej dzielimy rozwiązanie na dwie funkcje: dodanie wykresu kołowego oraz dostęp do jego skoroszytu danych.
 
-### Funkcja 1: Tworzenie prezentacji i dodawanie wykresu
-#### Przegląd
-W tej sekcji pokazano, jak zainicjować nowy obiekt prezentacji i dodać wykres kołowy do pierwszego slajdu.
+### Feature 1: Creating a Presentation and Adding a Chart
+#### Overview
+Ta część pokazuje, jak stworzyć nową prezentację i **add a pie chart** na pierwszym slajdzie.
 
-#### Przewodnik krok po kroku:
-**Krok 1: Zainicjuj nowy obiekt prezentacji**
+#### Step‑by‑Step
+
+**Step 1: Initialize a New Presentation Object**  
 ```java
 Presentation pres = new Presentation();
 ```
-*Tutaj tworzymy instancję `Presentation`, który służy jako nasz główny kontener na dokumenty.*
+*Tworzy instancję `Presentation`, która będzie przechowywać wszystkie slajdy.*
 
-**Krok 2: Dodaj wykres kołowy**
+**Step 2: Add a Pie Chart**  
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
     ChartType.Pie,
@@ -84,88 +98,89 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
     500
 );
 ```
-*Do pierwszego slajdu dodajemy wykres kołowy o określonych współrzędnych (50, 50) i wymiarach szerokości 400 i wysokości 500. `ChartType.Pie` określa typ wykresu.*
+*Umieszcza wykres kołowy w współrzędnych (50, 50) o szerokości 400 i wysokości 500. Enum `ChartType.Pie` informuje Aspose, aby renderował wykres kołowy.*
 
-**Krok 3: Zutylizuj zasoby**
+**Step 3: Dispose of Resources**  
 ```java
 if (pres != null) pres.dispose();
 ```
-*Ważne jest, aby po zakończeniu operacji zwolnić zasoby poprzez usunięcie obiektu prezentacji.*
+*Zwalnia zasoby natywne; zawsze wywołuj `dispose()`, gdy skończysz.*
 
-### Funkcja 2: Dostęp do skoroszytu i arkuszy danych wykresu
-#### Przegląd
-Dowiedz się, jak uzyskać dostęp do skoroszytu danych bazowych powiązanego z wykresem i przeglądać jego arkusze kalkulacyjne.
+### Feature 2: Accessing Chart Data Workbook and Worksheets
+#### Overview
+Naucz się, jak dotrzeć do podstawowego skoroszytu przechowującego dane wykresu i iterować po jego arkuszach.
 
-#### Przewodnik krok po kroku:
-**Krok 1: Zainicjuj nowy obiekt prezentacji**
-*Ponownie wykorzystaj krok inicjalizacji z poprzedniej funkcji.*
+#### Step‑by‑Step
 
-**Krok 2: Dodaj wykres kołowy**
-*Podobnie jak poprzednio, aby rozpocząć pracę z arkuszami danych, dodaj wykres kołowy.*
+**Step 1: (Reuse) Initialize a New Presentation Object**  
+*Tak jak w Funkcji 1, Krok 1.*
 
-**Krok 3: Pobierz skoroszyt z danymi wykresu**
+**Step 2: (Reuse) Add a Pie Chart**  
+*Tak jak w Funkcji 1, Krok 2.*
+
+**Step 3: Get the Chart Data Workbook**  
 ```java
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 ```
-*To pobiera `IChartDataWorkbook` obiekt powiązany z naszym wykresem, umożliwiający dostęp do jego danych.*
+*Pobiera `IChartDataWorkbook` powiązany z wykresem.*
 
-**Krok 4: Iteruj po arkuszach kalkulacyjnych**
+**Step 4: Iterate Through Worksheets**  
 ```java
 for (int i = 0; i < workbook.getWorksheets().size(); i++) {
     System.out.println(workbook.getWorksheets().get_Item(i).getName());
 }
 ```
-*Tutaj przechodzimy przez każdy arkusz w skoroszycie i drukujemy jego nazwę.*
+*Wypisuje nazwę każdego arkusza, umożliwiając weryfikację struktury danych.*
 
-**Krok 5: Zutylizuj zasoby**
-*Usuń obiekt prezentacji w sposób opisany wcześniej, aby zwolnić zasoby.*
+**Step 5: Dispose of Resources**  
+*Tak jak w Funkcji 1, Krok 3.*
 
-## Zastosowania praktyczne
-- **Raportowanie danych:** Automatyczne generowanie prezentacji z aktualnymi wykresami danych na potrzeby raportów biznesowych.
-- **Prezentacje akademickie:** Twórz atrakcyjne wizualnie pokazy slajdów ilustrujące wyniki badań lub analizy statystyczne.
-- **Materiały marketingowe:** Opracuj angażujące materiały marketingowe prezentujące wskaźniki wydajności produktu.
+## Practical Applications
+- **Data Reporting:** Automatyczne generowanie zestawów slajdów z aktualnymi metrykami dla Business Intelligence.  
+- **Academic Presentations:** Wizualizacja wyników badań bez ręcznego tworzenia wykresów.  
+- **Marketing Material:** Prezentacja wydajności produktu lub wyników ankiet natychmiastowo.
 
-Przypadki użycia podkreślają elastyczność i możliwości integracji Aspose.Slides z aplikacjami Java, zapewniając dynamiczne prezentacje dostosowane do konkretnych potrzeb.
+## Performance Considerations
+- Keep the slide and chart count reasonable; each consumes memory.  
+- Always call `dispose()` to free native resources.  
+- Optimize workbook data handling—avoid loading massive datasets into a single chart.
 
-## Rozważania dotyczące wydajności
-Aby zoptymalizować wydajność podczas korzystania z Aspose.Slides dla Java:
-- Ogranicz liczbę slajdów i wykresów, jeśli nie jest to konieczne, ponieważ każdy z nich zajmuje pamięć.
-- Używać `dispose()` metodę starannie, aby szybko zwolnić zasoby po ich wykorzystaniu.
-- Wdróż efektywne praktyki przetwarzania danych w skoroszycie wykresu, aby zminimalizować czas przetwarzania.
+## Conclusion
+Omówiliśmy, jak **aspose slides maven** umożliwia **add chart to slide** programowo oraz jak pracować ze skoroszytem danych wykresu. Dzięki tym elementom możesz zautomatyzować każdy proces raportowania wymagający eleganckiego wyjścia w formacie PowerPoint.
 
-Stosując się do tych wytycznych, możesz zapewnić płynną pracę nawet w aplikacjach wymagających dużej ilości zasobów.
+### Next Steps
+- Explore chart styling options (colors, legends, data labels).  
+- Connect to external data sources (CSV, databases) to populate charts dynamically.  
+- Combine multiple chart types in a single presentation for richer storytelling.
 
-## Wniosek
-W tym samouczku zbadaliśmy, jak Aspose.Slides for Java umożliwia bezproblemowe dodawanie wykresów kołowych do prezentacji. Dzięki zrozumieniu procesów inicjalizacji i manipulacji wykresami jesteś teraz wyposażony, aby ulepszyć swoje prezentacje programowo. 
+## Frequently Asked Questions
 
-### Następne kroki
-Rozważ zapoznanie się z dodatkowymi funkcjami, takimi jak dostosowywanie stylów wykresów lub integracja z innymi źródłami danych.
+**Q: How do I install Aspose.Slides for Java?**  
+A: Use the Maven or Gradle dependency shown above, or download the library from the releases page.
 
-Spróbuj wdrożyć te rozwiązania w swoich projektach!
+**Q: What are the system requirements for Aspose.Slides?**  
+A: JDK 16 or later; the library is platform‑independent.
 
-## Sekcja FAQ
-1. **Jak zainstalować Aspose.Slides dla Java?**
-   - Użyj konfiguracji zależności Maven lub Gradle albo pobierz ją bezpośrednio ze strony z wersjami.
-   
-2. **Jakie są wymagania systemowe do uruchomienia Aspose.Slides?**
-   - Wymagany jest JDK 16 lub nowszy.
+**Q: Can I add other chart types besides pie charts?**  
+A: Yes, Aspose.Slides supports bar, line, scatter, and many more chart types.
 
-3. **Czy mogę dodać inne typy wykresów oprócz wykresów kołowych?**
-   - Tak, Aspose.Slides obsługuje różne typy wykresów, takie jak wykresy słupkowe, liniowe i punktowe.
+**Q: How should I handle large presentations efficiently?**  
+A: Dispose of objects promptly, limit the number of high‑resolution images, and reuse chart templates when possible.
 
-4. **Jak skutecznie prowadzić duże prezentacje?**
-   - Optymalizuj poprzez szybką utylizację przedmiotów i ostrożne zarządzanie zasobami.
-   
-5. **Gdzie mogę znaleźć więcej informacji o funkcjach Aspose.Slides?**
-   - Odwiedź [Dokumentacja Aspose](https://reference.aspose.com/slides/java/) aby uzyskać kompleksowe przewodniki.
+**Q: Where can I find more details about Aspose.Slides features?**  
+A: Visit the [Aspose documentation](https://reference.aspose.com/slides/java/) for a complete API reference.
 
-## Zasoby
-- Dokumentacja: [Aspose.Slides Dokumentacja API Java](https://reference.aspose.com/slides/java/)
-- Pobierać: [Najnowsze wydania](https://releases.aspose.com/slides/java/)
-- Zakup i wersja próbna: [Strona zakupu](https://purchase.aspose.com/buy)
-- Bezpłatna wersja próbna: [Pobieranie wersji próbnych](https://releases.aspose.com/slides/java/)
-- Licencja tymczasowa: [Poproś o licencję tymczasową](https://purchase.aspose.com/temporary-license/)
-- Forum wsparcia: [Forum społeczności Aspose](https://forum.aspose.com/c/slides/11)
+**Q: Is a license required for commercial use?**  
+A: A valid license is required for production; a free trial is available for evaluation.
+
+**Q: Does the Maven package include all chart capabilities?**  
+A: Yes, the `aspose-slides` Maven artifact contains the full charting engine.
+
+---  
+
+**Last Updated:** 2026-01-09  
+**Tested With:** Aspose.Slides 25.4 for Java (jdk16)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -174,3 +189,11 @@ Spróbuj wdrożyć te rozwiązania w swoich projektach!
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## Resources
+- Documentation: [Aspose.Slides Java API Reference](https://reference.aspose.com/slides/java/)
+- Download: [Latest Releases](https://releases.aspose.com/slides/java/)
+- Purchase and Trial: [Purchase Page](https://purchase.aspose.com/buy)
+- Free trial: [Trial Downloads](https://releases.aspose.com/slides/java/)
+- Temporary License: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
+- Support Forum: [Aspose Community Forum](https://forum.aspose.com/c/slides/11)
