@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Scopri come aggiungere e personalizzare grafici a torta nelle presentazioni utilizzando Aspose.Slides per Java. Questa guida illustra la configurazione, l'implementazione e le applicazioni pratiche."
-"title": "Aggiungi un grafico a torta alla tua presentazione utilizzando Aspose.Slides Java | Guida passo passo"
-"url": "/it/java/charts-graphs/add-pie-chart-aspose-slides-java/"
-"weight": 1
+date: '2026-01-09'
+description: Scopri come utilizzare Aspose Slides Maven per aggiungere un grafico
+  a una diapositiva e personalizzare un grafico a torta nelle presentazioni Java.
+  Configurazione passo‑passo, codice ed esempi reali.
+keywords:
+- add pie chart with Aspose.Slides Java
+- Aspose.Slides for Java tutorial
+- Java presentation automation
+title: 'aspose slides maven: Aggiungi un grafico a torta a una presentazione'
+url: /it/java/charts-graphs/add-pie-chart-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,36 +17,43 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Come aggiungere un grafico a torta a una presentazione utilizzando Aspose.Slides Java
+# Come aggiungere un grafico a torta a una presentazione usando Aspose.Slides Java
 
 ## Introduzione
-Creare presentazioni visivamente accattivanti è fondamentale per trasmettere informazioni in modo efficace, soprattutto quando la visualizzazione dei dati gioca un ruolo chiave. Ma cosa succede se si desidera automatizzare questo processo utilizzando Java? Questo tutorial vi guiderà nell'aggiunta di un grafico a torta alla vostra presentazione senza sforzo, utilizzando **Aspose.Slides per Java**.
+Creare presentazioni visivamente accattivanti è fondamentale per trasmettere informazioni in modo efficace, soprattutto quando la visualizzazione dei dati svolge un ruolo chiave. Se desideri automatizzare questo processo con **aspose slides maven**, sei nel posto giusto. In questo tutorial imparerai a **add chart to slide** — in particolare un grafico a torta — usando Aspose.Slides per Java, e vedrai come personalizzarlo per scenari reali.
 
-### Cosa imparerai:
-- Come inizializzare un oggetto di presentazione in Java.
-- Passaggi per aggiungere e personalizzare un grafico a torta nella prima diapositiva di una presentazione.
-- Accedere alle cartelle di lavoro dei dati dei grafici ed elencare i fogli di lavoro in esse contenuti.
+### Cosa imparerai
+- Come inizializzare un oggetto presentation in Java.  
+- Passaggi per **add a pie chart java** sulla prima diapositiva di una presentazione.  
+- Accesso ai workbook dei dati del grafico e elencazione dei fogli di lavoro al loro interno.  
 
-Scopriamo insieme come sfruttare Aspose.Slides Java per migliorare le tue presentazioni con grafici dinamici!
+Immergiamoci in come sfruttare Aspose.Slides Java per migliorare le tue presentazioni con grafici dinamici!
+
+## Risposte rapide
+- **Quale libreria aggiunge grafici via Maven?** aspose slides maven  
+- **Quale tipo di grafico è dimostrato?** Pie chart (add chart to slide)  
+- **Versione minima di Java richiesta?** JDK 16 o successiva  
+- **È necessaria una licenza per i test?** Una prova gratuita funziona; per la produzione serve una licenza  
+- **Dove posso trovare la dipendenza Maven?** Nella sezione di configurazione qui sotto  
+
+## Che cos’è Aspose Slides Maven?
+Aspose.Slides per Java è un’API potente che consente agli sviluppatori di creare, modificare e rendere file PowerPoint in modo programmatico. Il pacchetto Maven (`aspose-slides`) semplifica la gestione delle dipendenze, permettendoti di concentrarti sulla costruzione e personalizzazione delle diapositive—come aggiungere un grafico a torta—senza occuparti della gestione a basso livello dei file.
+
+## Perché usare Aspose.Slides Maven per aggiungere un grafico a una diapositiva?
+- **Automazione:** Genera report e dashboard automaticamente.  
+- **Precisione:** Controllo completo su tipi di grafico, dati e stile.  
+- **Cross‑Platform:** Funziona su qualsiasi ambiente compatibile con Java.  
 
 ## Prerequisiti
-Prima di iniziare, assicurati di avere quanto segue:
+- **Aspose.Slides for Java** versione 25.4 o successiva (Maven/Gradle).  
+- JDK 16+ installato.  
+- Un IDE (IntelliJ IDEA, Eclipse, ecc.).  
+- Conoscenze di base di Java e familiarità con Maven o Gradle.
 
-### Librerie richieste:
-- **Aspose.Slides per Java** versione 25.4 o successiva.
-  
-### Configurazione dell'ambiente:
-- JDK 16 o versione successiva installato sul sistema.
-- Un IDE come IntelliJ IDEA, Eclipse o qualsiasi altro ambiente di sviluppo preferito.
+## Configurazione di Aspose.Slides per Java
+Per prima cosa, includi Aspose.Slides nel tuo progetto tramite Maven o Gradle.
 
-### Prerequisiti di conoscenza:
-- Conoscenza di base della programmazione Java.
-- Familiarità con i sistemi di build Maven o Gradle per la gestione delle dipendenze.
-
-## Impostazione di Aspose.Slides per Java
-Per prima cosa, devi includere Aspose.Slides nel tuo progetto. Puoi farlo tramite Maven o Gradle:
-
-**Esperto:**
+**Maven:**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -55,26 +68,27 @@ Per prima cosa, devi includere Aspose.Slides nel tuo progetto. Puoi farlo tramit
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-In alternativa, puoi [scarica l'ultima versione](https://releases.aspose.com/slides/java/) direttamente dal sito web di Aspose.
+In alternativa, puoi [download the latest release](https://releases.aspose.com/slides/java/) direttamente dal sito di Aspose.
 
 ### Acquisizione della licenza
-Aspose.Slides per Java offre una prova gratuita che include opzioni di licenza temporanea a scopo di test. Per un accesso illimitato e l'utilizzo completo delle funzionalità in ambienti di produzione, si consiglia di acquistare una licenza tramite [pagina di acquisto](https://purchase.aspose.com/buy).
+Aspose.Slides for Java offre una prova gratuita con una licenza temporanea per i test. Per un uso illimitato in produzione, acquista una licenza tramite la [purchase page](https://purchase.aspose.com/buy).
 
 ## Guida all'implementazione
-Analizziamo l'implementazione in due funzionalità principali: l'aggiunta di un grafico a torta a una presentazione e l'accesso ai dati del grafico.
+Di seguito suddividiamo la soluzione in due funzionalità: aggiungere un grafico a torta e accedere al suo workbook dei dati.
 
-### Funzionalità 1: creazione di una presentazione e aggiunta di un grafico
+### Funzionalità 1: Creare una presentazione e aggiungere un grafico
 #### Panoramica
-Questa sezione illustra come inizializzare un nuovo oggetto di presentazione e aggiungere un grafico a torta alla prima diapositiva.
+Questa parte mostra come creare una nuova presentazione e **add a pie chart** alla prima diapositiva.
 
-#### Guida passo passo:
-**Passaggio 1: inizializzare un nuovo oggetto di presentazione**
+#### Passo‑per‑passo
+
+**Step 1: Initialize a New Presentation Object**  
 ```java
 Presentation pres = new Presentation();
 ```
-*Qui creiamo un'istanza di `Presentation`, che funge da contenitore principale dei documenti.*
+*Creates the `Presentation` instance that will hold all slides.*
 
-**Passaggio 2: aggiungere un grafico a torta**
+**Step 2: Add a Pie Chart**  
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
     ChartType.Pie,
@@ -84,88 +98,89 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
     500
 );
 ```
-*Aggiungiamo un grafico a torta alla prima diapositiva alle coordinate specificate (50, 50) con dimensioni di larghezza 400 e altezza 500. `ChartType.Pie` specifica il tipo di grafico.*
+*Places a pie chart at coordinates (50, 50) with a width of 400 and height of 500. The `ChartType.Pie` enum tells Aspose to render a pie chart.*
 
-**Fase 3: Smaltimento delle risorse**
+**Step 3: Dispose of Resources**  
 ```java
 if (pres != null) pres.dispose();
 ```
-*È importante liberare risorse eliminando l'oggetto presentazione una volta completate le operazioni.*
+*Releases native resources; always call `dispose()` when you’re done.*
 
-### Funzionalità 2: Accesso ai dati del grafico, alla cartella di lavoro e ai fogli di lavoro
+### Funzionalità 2: Accesso al workbook dei dati del grafico e ai fogli di lavoro
 #### Panoramica
-Scopri come accedere alla cartella di lavoro dei dati sottostanti associata al tuo grafico e come scorrere i suoi fogli di lavoro.
+Impara come raggiungere il workbook sottostante che memorizza i dati del grafico e iterare attraverso i suoi fogli di lavoro.
 
-#### Guida passo passo:
-**Passaggio 1: inizializzare un nuovo oggetto di presentazione**
-*Riutilizzare il passaggio di inizializzazione della funzionalità precedente.*
+#### Passo‑per‑passo
 
-**Passaggio 2: aggiungere un grafico a torta**
-*Come prima, aggiungi un grafico a torta per iniziare a lavorare con le cartelle di lavoro dati.*
+**Step 1: (Reuse) Initialize a New Presentation Object**  
+*Same as Feature 1, Step 1.*
 
-**Passaggio 3: ottenere la cartella di lavoro dei dati del grafico**
+**Step 2: (Reuse) Add a Pie Chart**  
+*Same as Feature 1, Step 2.*
+
+**Step 3: Get the Chart Data Workbook**  
 ```java
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 ```
-*Questo recupera il `IChartDataWorkbook` oggetto associato al nostro grafico, consentendo l'accesso ai suoi dati.*
+*Retrieves the `IChartDataWorkbook` linked to the chart.*
 
-**Fase 4: scorrere i fogli di lavoro**
+**Step 4: Iterate Through Worksheets**  
 ```java
 for (int i = 0; i < workbook.getWorksheets().size(); i++) {
     System.out.println(workbook.getWorksheets().get_Item(i).getName());
 }
 ```
-*Qui eseguiamo un ciclo su ogni foglio di lavoro nella cartella di lavoro e ne stampiamo il nome.*
+*Prints each worksheet’s name, letting you verify the data structure.*
 
-**Fase 5: Smaltimento delle risorse**
-*Per liberare risorse, eliminare l'oggetto presentazione come descritto in precedenza.*
+**Step 5: Dispose of Resources**  
+*Same as Feature 1, Step 3.*
 
 ## Applicazioni pratiche
-- **Segnalazione dei dati:** Genera automaticamente presentazioni con grafici di dati aggiornati per report aziendali.
-- **Presentazioni accademiche:** Crea presentazioni visivamente accattivanti che illustrino i risultati della ricerca o le analisi statistiche.
-- **Materiale di marketing:** Sviluppa materiali di marketing accattivanti che mettano in mostra le metriche delle prestazioni del prodotto.
-
-Questi casi d'uso evidenziano la flessibilità e la potenza dell'integrazione di Aspose.Slides nelle applicazioni Java, offrendo presentazioni dinamiche su misura per esigenze specifiche.
+- **Data Reporting:** Auto‑generate slide decks with up‑to‑date metrics for business intelligence.  
+- **Academic Presentations:** Visualize research results without manual chart creation.  
+- **Marketing Material:** Showcase product performance or survey results instantly.
 
 ## Considerazioni sulle prestazioni
-Per ottimizzare le prestazioni quando si utilizza Aspose.Slides per Java:
-- Limitare il numero di diapositive e grafici se non necessario, poiché ciascuno di essi consuma memoria.
-- Utilizzo `dispose()` metodo con diligenza per liberare risorse tempestivamente dopo l'uso.
-- Implementa pratiche efficienti di gestione dei dati all'interno della cartella di lavoro del tuo grafico per ridurre al minimo i tempi di elaborazione.
-
-Seguendo queste linee guida, è possibile garantire prestazioni fluide anche nelle applicazioni che richiedono molte risorse.
+- Keep the slide and chart count reasonable; each consumes memory.  
+- Always call `dispose()` to free native resources.  
+- Optimize workbook data handling—avoid loading massive datasets into a single chart.
 
 ## Conclusione
-In questo tutorial, abbiamo esplorato come Aspose.Slides per Java consenta di aggiungere grafici a torta alle presentazioni in modo semplice. Comprendendo i processi di inizializzazione e manipolazione dei grafici, ora sei pronto a migliorare le tue presentazioni a livello di programmazione. 
+Abbiamo coperto come **aspose slides maven** ti consente di **add chart to slide** in modo programmatico e come lavorare con il workbook dei dati del grafico. Con questi blocchi di costruzione puoi automatizzare qualsiasi flusso di lavoro di reporting che richieda un output PowerPoint curato.
 
 ### Prossimi passi
-Si consiglia di valutare funzionalità aggiuntive, come la personalizzazione degli stili dei grafici o l'integrazione con altre fonti dati.
+- Explore chart styling options (colors, legends, data labels).  
+- Connect to external data sources (CSV, databases) to populate charts dynamically.  
+- Combine multiple chart types in a single presentation for richer storytelling.
 
-Prova ad implementare queste soluzioni nei tuoi progetti!
+## Domande frequenti
 
-## Sezione FAQ
-1. **Come faccio a installare Aspose.Slides per Java?**
-   - Utilizza le configurazioni delle dipendenze Maven o Gradle oppure scaricale direttamente dalla pagina delle release.
-   
-2. **Quali sono i requisiti di sistema per eseguire Aspose.Slides?**
-   - È richiesto JDK 16 o versione successiva.
+**Q: How do I install Aspose.Slides for Java?**  
+A: Use the Maven or Gradle dependency shown above, or download the library from the releases page.
 
-3. **Posso aggiungere altri tipi di grafici oltre ai grafici a torta?**
-   - Sì, Aspose.Slides supporta vari tipi di grafici, come grafici a barre, a linee e a dispersione.
+**Q: What are the system requirements for Aspose.Slides?**  
+A: JDK 16 or later; the library is platform‑independent.
 
-4. **Come posso gestire in modo efficiente le presentazioni di grandi dimensioni?**
-   - Ottimizzare smaltire tempestivamente gli oggetti e gestire con attenzione le risorse.
-   
-5. **Dove posso trovare maggiori informazioni sulle funzionalità di Aspose.Slides?**
-   - Visita il [Documentazione di Aspose](https://reference.aspose.com/slides/java/) per guide complete.
+**Q: Can I add other chart types besides pie charts?**  
+A: Yes, Aspose.Slides supports bar, line, scatter, and many more chart types.
 
-## Risorse
-- Documentazione: [Riferimento API Java Aspose.Slides](https://reference.aspose.com/slides/java/)
-- Scaricamento: [Ultime uscite](https://releases.aspose.com/slides/java/)
-- Acquisto e prova: [Pagina di acquisto](https://purchase.aspose.com/buy)
-- Prova gratuita: [Download di prova](https://releases.aspose.com/slides/java/)
-- Licenza temporanea: [Richiedi una licenza temporanea](https://purchase.aspose.com/temporary-license/)
-- Forum di supporto: [Forum della comunità Aspose](https://forum.aspose.com/c/slides/11)
+**Q: How should I handle large presentations efficiently?**  
+A: Dispose of objects promptly, limit the number of high‑resolution images, and reuse chart templates when possible.
+
+**Q: Where can I find more details about Aspose.Slides features?**  
+A: Visit the [Aspose documentation](https://reference.aspose.com/slides/java/) for a complete API reference.
+
+**Q: Is a license required for commercial use?**  
+A: A valid license is required for production; a free trial is available for evaluation.
+
+**Q: Does the Maven package include all chart capabilities?**  
+A: Yes, the `aspose-slides` Maven artifact contains the full charting engine.
+
+---  
+
+**Last Updated:** 2026-01-09  
+**Tested With:** Aspose.Slides 25.4 for Java (jdk16)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -174,3 +189,11 @@ Prova ad implementare queste soluzioni nei tuoi progetti!
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## Risorse
+- Documentation: [Aspose.Slides Java API Reference](https://reference.aspose.com/slides/java/)
+- Download: [Latest Releases](https://releases.aspose.com/slides/java/)
+- Purchase and Trial: [Purchase Page](https://purchase.aspose.com/buy)
+- Free trial: [Trial Downloads](https://releases.aspose.com/slides/java/)
+- Temporary License: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
+- Support Forum: [Aspose Community Forum](https://forum.aspose.com/c/slides/11)
