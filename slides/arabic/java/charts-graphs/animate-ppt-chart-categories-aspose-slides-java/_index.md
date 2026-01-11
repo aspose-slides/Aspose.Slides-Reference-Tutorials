@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-17"
-"description": "تعرّف على كيفية تحريك فئات المخططات في عروض PowerPoint التقديمية باستخدام Aspose.Slides لجافا. حسّن شرائحك الغنية بالبيانات برسوم متحركة ديناميكية."
-"title": "تحريك فئات مخططات PowerPoint باستخدام Aspose.Slides لجافا | دليل خطوة بخطوة"
-"url": "/ar/java/charts-graphs/animate-ppt-chart-categories-aspose-slides-java/"
-"weight": 1
+date: '2026-01-11'
+description: تعلم كيفية تحريك فئات مخطط PowerPoint في PowerPoint باستخدام Aspose.Slides
+  للغة Java. عزّز شرائحك المملوءة بالبيانات باستخدام الرسوم المتحركة الديناميكية.
+keywords:
+- Animate PowerPoint Chart Categories
+- PowerPoint Chart Animation with Java
+- Aspose.Slides Java Animations
+title: تحريك فئات مخطط PowerPoint باستخدام Aspose.Slides للغة Java | دليل خطوة بخطوة
+url: /ar/java/charts-graphs/animate-ppt-chart-categories-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,31 +16,38 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# كيفية تحريك فئات المخططات في PowerPoint باستخدام Aspose.Slides لـ Java
+# كيف تحرك فئات المخطط في PowerPoint باستخدام Aspose.Slides for Java
 
-## مقدمة
-يُعدّ إنشاء عروض تقديمية جذابة وديناميكية أمرًا أساسيًا لجذب انتباه جمهورك، خاصةً عند التعامل مع شرائح غنية بالبيانات. بمساعدة Aspose.Slides لجافا، يمكنك الارتقاء بمخططات PowerPoint الخاصة بك عن طريق إضافة رسوم متحركة لعناصر فئات المخطط. سيرشدك هذا الدليل التفصيلي خطوة بخطوة إلى كيفية تحريك فئات المخططات في عرض تقديمي لـ PowerPoint باستخدام Aspose.Slides لجافا.
+## المقدمة
+إنشاء عروض تقديمية جذابة وديناميكية هو المفتاح لجذب انتباه الجمهور، خاصةً عند التعامل مع شرائح مليئة بالبيانات. في هذا البرنامج التعليمي ستتعلم **كيفية تحريك فئات مخطط PowerPoint** برمجياً باستخدام Aspose.Slides for Java، وتحويل الرسوم الثابتة إلى أدوات سرد قصصية حية.
 
-**ما سوف تتعلمه:**
-- إعداد Aspose.Slides لـ Java.
-- إضافة تأثيرات الرسوم المتحركة إلى فئات الرسم البياني.
-- حفظ العرض التقديمي المعدّل مع الرسوم البيانية المتحركة.
+**ما ستتعلمه:**
+- إعداد Aspose.Slides for Java.
+- إضافة تأثيرات تحريك إلى فئات المخطط.
+- حفظ العرض المعدل مع المخططات المتحركة.
 
-دعونا نستكشف كيفية جعل عروض PowerPoint التقديمية أكثر جاذبية. قبل أن نبدأ، دعونا نراجع المتطلبات الأساسية لهذا البرنامج التعليمي.
+دعنا نستكشف كيف يمكنك جعل عروض PowerPoint أكثر إقناعاً. قبل أن نبدأ، دعنا نراجع المتطلبات المسبقة لهذا البرنامج التعليمي.
 
-## المتطلبات الأساسية
-للمتابعة، تأكد من أن لديك:
-- **مجموعة تطوير Java (JDK) 16 أو أحدث** تم تثبيته على جهازك.
-- فهم أساسيات برمجة جافا.
-- محرر نصوص أو بيئة تطوير متكاملة (IDE) مثل IntelliJ IDEA أو Eclipse.
+## إجابات سريعة
+- **ماذا يعني “تحريك مخطط PowerPoint”؟** إضافة تأثيرات حركة (تلاشي، ظهور، إلخ) إلى عناصر المخطط بحيث تُعرض أثناء عرض الشرائح.  
+- **أي مكتبة مطلوبة؟** Aspose.Slides for Java (الإصدار 25.4 أو أحدث).  
+- **هل أحتاج إلى ترخيص؟** النسخة التجريبية المجانية تكفي للتطوير؛ الترخيص الكامل مطلوب للإنتاج.  
+- **هل يمكن استهداف فئات محددة؟** نعم – يمكنك تحريك كل عنصر فئة على حدة.  
+- **ما نسخة Java المدعومة؟** JDK 16 أو أحدث.
 
-### المكتبات والتبعيات المطلوبة
-ستحتاج إلى إعداد Aspose.Slides لجافا. يمكنك القيام بذلك باستخدام Maven أو Gradle أو بالتنزيل المباشر.
+## كيفية تحريك فئات مخطط PowerPoint
+فيما يلي دليل شامل خطوة بخطوة يغطي كل شيء من إعداد المشروع إلى حفظ الملف المتحرك النهائي.
 
-## إعداد Aspose.Slides لـ Java
+### المتطلبات المسبقة
+- **مجموعة تطوير Java (JDK) 16 أو أحدث** مثبتة على جهازك.  
+- فهم أساسي لبرمجة Java.  
+- بيئة تطوير متكاملة مثل IntelliJ IDEA أو Eclipse (أو أي محرر نصوص تفضله).  
 
-### تثبيت Maven
-قم بتضمين التبعية التالية في ملفك `pom.xml` ملف:
+### المكتبات والاعتمادات المطلوبة
+ستحتاج إلى Aspose.Slides for Java. اختر مدير الحزم الذي يناسب عملية البناء لديك.
+
+#### تثبيت Maven
+أدرج الاعتماد التالي في ملف `pom.xml` الخاص بك:
 
 ```xml
 <dependency>
@@ -46,21 +58,21 @@
 </dependency>
 ```
 
-### تثبيت Gradle
-أضف هذا إلى `build.gradle` ملف:
+#### تثبيت Gradle
+أضف هذا إلى ملف `build.gradle` الخاص بك:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### التحميل المباشر
-قم بتنزيل أحدث إصدار من [إصدارات Aspose.Slides لـ Java](https://releases.aspose.com/slides/java/).
+#### التحميل المباشر
+حمّل أحدث نسخة من [إصدارات Aspose.Slides for Java](https://releases.aspose.com/slides/java/).
 
-#### الحصول على الترخيص
-للاستفادة الكاملة من Aspose.Slides، يمكنك البدء بفترة تجريبية مجانية أو طلب ترخيص مؤقت. للاستخدام المستمر، يُنصح بشراء ترخيص كامل.
+##### الحصول على الترخيص
+لاستفادة كاملة من Aspose.Slides، يمكنك البدء بنسخة تجريبية مجانية أو طلب ترخيص مؤقت. للاستخدام المستمر، يُنصح بشراء ترخيص كامل.
 
-### التهيئة والإعداد الأساسي
-قم بتهيئة مشروعك عن طريق إنشاء مثيل لـ `Presentation` الفئة التي تمثل عرض تقديمي لبرنامج PowerPoint:
+### التهيئة الأساسية والإعداد
+أنشئ كائن `Presentation` جديد – يمثل ملف PowerPoint الذي ستعمل عليه:
 
 ```java
 import com.aspose.slides.Presentation;
@@ -68,8 +80,8 @@ import com.aspose.slides.Presentation;
 public class Main {
     public static void main(String[] args) {
         Presentation pres = new Presentation();
-        // إجراء العمليات على العرض التقديمي...
-        pres.dispose();  // تذكر التخلص منها عند الانتهاء
+        // Perform operations on the presentation...
+        pres.dispose();  // Remember to dispose when done
     }
 }
 ```
@@ -77,105 +89,122 @@ public class Main {
 ## دليل التنفيذ
 
 ### تحريك عناصر فئات المخطط
-يُمكن أن يُحسّن تحريك فئات المخططات بشكل ملحوظ من طريقة عرض البيانات في عروضك التقديمية. لنستكشف كيفية تطبيق هذه الميزة.
+يمكن أن يحسن تحريك فئات المخطط بشكل كبير من طريقة إدراك البيانات في عروضك. دعنا نستعرض كيفية تنفيذ هذه الميزة.
 
-#### التنفيذ خطوة بخطوة
-1. **تحميل العرض التقديمي**
-   أولاً، قم بتحميل عرض تقديمي موجود يحتوي على مخطط:
-    
-    ```java
-    import com.aspose.slides.Presentation;
-    import com.aspose.slides.ISlide;
-    
-    String dataDir = "YOUR_DOCUMENT_DIRECTORY";
-    Presentation presentation = new Presentation(dataDir + "/ExistingChart.pptx");
-    ```
+#### تنفيذ خطوة بخطوة
+1. **تحميل العرض**  
+   أولاً، حمّل عرضاً موجوداً يحتوي على مخطط:
 
-2. **استرداد الرسم البياني**
-   يمكنك الوصول إلى الرسم البياني من أشكال الشريحة الأولى:
-    
-    ```java
-    ISlide slide = presentation.getSlides().get_Item(0);
-    IShapeCollection shapes = slide.getShapes();
-    IChart chart = (IChart) shapes.get_Item(0); // يفترض أن الشكل الأول هو مخطط
-    ```
+```java
+import com.aspose.slides.Presentation;
+import com.aspose.slides.ISlide;
 
-3. **تحريك عناصر الرسم البياني**
-   استخدم تسلسلات الرسوم المتحركة لإضافة تأثيرات مثل التلاشي والمظهر:
-    
-    ```java
-    import com.aspose.slides.Sequence;
-    import com.aspose.slides.EffectType;
-    import com.aspose.slides.EffectSubtype;
-    import com.aspose.slides.EffectTriggerType;
+String dataDir = "YOUR_DOCUMENT_DIRECTORY";
+Presentation presentation = new Presentation(dataDir + "/ExistingChart.pptx");
+```
 
-    Sequence mainSequence = (Sequence) slide.getTimeline().getMainSequence();
-    
-    // إضافة تأثير التلاشي إلى الرسم البياني بأكمله
-    mainSequence.addEffect(chart, EffectType.Fade, EffectSubtype.None, EffectTriggerType.AfterPrevious);
-    
-    // تحريك كل عنصر من عناصر الفئة في الرسم البياني
-    for (int i = 0; i < 3; i++) {
-        for (int j = 0; j < 4; j++) {
-            mainSequence.addEffect(chart,
-                EffectChartMinorGroupingType.ByElementInCategory, 
-                i, j,
-                EffectType.Appear, 
-                EffectSubtype.None, 
-                EffectTriggerType.AfterPrevious);
-        }
+2. **استخراج المخطط**  
+   احصل على المخطط من مجموعة الأشكال في الشريحة الأولى:
+
+```java
+ISlide slide = presentation.getSlides().get_Item(0);
+IShapeCollection shapes = slide.getShapes();
+IChart chart = (IChart) shapes.get_Item(0); // Assumes the first shape is a chart
+```
+
+3. **تسلسل التحريك في PowerPoint – بناء المخطط الزمني**  
+   استخدم المخطط الزمني للشريحة لإضافة تأثيرات التلاشي والظهور. هذا هو جوهر منطق **تسلسل التحريك في PowerPoint**:
+
+```java
+import com.aspose.slides.Sequence;
+import com.aspose.slides.EffectType;
+import com.aspose.slides.EffectSubtype;
+import com.aspose.slides.EffectTriggerType;
+
+Sequence mainSequence = (Sequence) slide.getTimeline().getMainSequence();
+
+// Add fade effect to the entire chart
+mainSequence.addEffect(chart, EffectType.Fade, EffectSubtype.None, EffectTriggerType.AfterPrevious);
+
+// Animate each category element in the chart
+for (int i = 0; i < 3; i++) {
+    for (int j = 0; j < 4; j++) {
+        mainSequence.addEffect(chart,
+            EffectChartMinorGroupingType.ByElementInCategory,
+            i, j,
+            EffectType.Appear,
+            EffectSubtype.None,
+            EffectTriggerType.AfterPrevious);
     }
-    ```
-   هنا، `EffectType` يحدد نوع الرسوم المتحركة (على سبيل المثال، التلاشي، الظهور)، و `EffectTriggerType` يحدد متى يجب أن يحدث التأثير.
+}
+```
 
-4. **حفظ العرض التقديمي**
-   وأخيرًا، احفظ عرضك التقديمي باستخدام الرسوم المتحركة:
-    
-    ```java
-    String outputDir = "YOUR_OUTPUT_DIRECTORY";
-    presentation.save(outputDir + "/AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
-    ```
+   هنا، يحدد `EffectType` نمط التحريك (مثل Fade, Appear) ويحدد `EffectTriggerType` متى يجب حدوث التأثير.
+
+4. **إضافة تحريك مخطط PowerPoint – حفظ الملف**  
+   أخيراً، اكتب العرض المعدل إلى القرص:
+
+```java
+String outputDir = "YOUR_OUTPUT_DIRECTORY";
+presentation.save(outputDir + "/AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
+```
 
 ### نصائح استكشاف الأخطاء وإصلاحها
-- تأكد من فهرسة الرسم البياني بشكل صحيح في مجموعة الأشكال الخاصة بك.
-- تأكد من معلمات الرسوم المتحركة لتجنب استثناءات وقت التشغيل.
+- تأكد من أن المخطط هو الشكل الأول في المجموعة؛ وإلا عدّل الفهرس.  
+- راجع معلمات التحريك لتجنب `IllegalArgumentException`.  
+- حرّر كائن `Presentation` لتحرير الموارد الأصلية.
 
-## التطبيقات العملية
-1. **العروض التقديمية للأعمال:** قم بتعزيز التقارير الفصلية باستخدام الرسوم البيانية المتحركة لتحسين التفاعل.
-2. **المواد التعليمية:** استخدم الرسوم المتحركة لإظهار نقاط البيانات بشكل متسلسل أثناء المحاضرات.
-3. **إطلاق المنتجات:** تسليط الضوء على الميزات الرئيسية للمنتج الجديد باستخدام عروض الرسوم البيانية الديناميكية.
-
-يمكن أن يؤدي دمج Aspose.Slides مع أنظمة أخرى أيضًا إلى أتمتة عمليات إنشاء التقارير وتخصيص العرض التقديمي.
+## تطبيقات عملية
+1. **العروض التجارية:** تحسين التقارير الفصلية بمخططات متحركة لزيادة تفاعل أصحاب المصلحة.  
+2. **المواد التعليمية:** كشف نقاط البيانات خطوة بخطوة أثناء المحاضرات، مما يحافظ على تركيز الطلاب.  
+3. **إطلاق المنتجات:** إبراز المقاييس الرئيسية لمنتج جديد باستخدام سرد بصري ديناميكي.
 
 ## اعتبارات الأداء
-- **إدارة الذاكرة:** التخلص منها بشكل صحيح `Presentation` الاعتراض على الموارد المجانية.
-- **نصائح التحسين:** قم بتقليل الرسوم المتحركة في مجموعات البيانات الكبيرة للحفاظ على الأداء السلس.
-- **أفضل الممارسات:** قم بتحديث Aspose.Slides بانتظام للاستفادة من تحسينات الأداء.
+- **إدارة الذاكرة:** استدعِ دائمًا `presentation.dispose()` بعد الانتهاء.  
+- **نصائح تحسين:** قلل عدد التحريكات في الشرائح التي تحتوي على مجموعات بيانات كبيرة للحفاظ على سلاسة التشغيل.  
+- **أفضل الممارسات:** حافظ على تحديث Aspose.Slides للاستفادة من تحسينات الأداء والميزات الجديدة للتحريك.
 
-## خاتمة
-يُمكنك تحريك فئات المخططات في PowerPoint باستخدام Aspose.Slides for Java من تحويل عروض البيانات الثابتة إلى أدوات سرد قصصي ديناميكية. باتباع هذا البرنامج التعليمي، ستتعلم كيفية إعداد الرسوم المتحركة وتنفيذها بفعالية. لتحسين مهاراتك بشكل أكبر، استكشف ميزات Aspose.Slides الإضافية أو ادمجها مع تقنيات أخرى.
+## الخاتمة
+يمكن لتحريك فئات المخطط في PowerPoint باستخدام Aspose.Slides for Java تحويل العروض الثابتة إلى أدوات سرد قصصية ديناميكية. باتباعك لهذا الدليل، تعلمت كيفية إعداد المكتبة، بناء تسلسل التحريك، وتصدير مجموعة شرائح متحركة بالكامل.
 
-**الخطوات التالية:** تجربة تأثيرات الرسوم المتحركة المختلفة وتطبيقها في سيناريوهات العرض المختلفة.
+**الخطوات التالية:** جرّب قيم `EffectType` مختلفة (مثل FlyIn, Zoom) ودمجها مع انتقالات الشرائح للحصول على تجربة أغنى.
 
-## قسم الأسئلة الشائعة
-1. **ما هو Aspose.Slides لـ Java؟**
-   - إنها مكتبة قوية لإدارة عروض PowerPoint برمجيًا.
-2. **هل يمكنني تحريك الرسوم البيانية في Excel باستخدام Aspose.Slides؟**
-   - لا، يستهدف Aspose.Slides ملفات PowerPoint على وجه التحديد؛ استخدم Aspose.Cells لـ Excel.
-3. **ما هي بعض تأثيرات الرسوم المتحركة الشائعة المتوفرة؟**
-   - التلاشي والظهور والطيران والمزيد، كل منها يوفر تحسينات بصرية فريدة.
-4. **كيف أتعامل مع الاستثناءات أثناء تنفيذ الرسوم المتحركة؟**
-   - استخدم كتل try-catch لإدارة أخطاء وقت التشغيل بشكل فعال.
-5. **هل هناك حد لعدد الرسوم المتحركة لكل شريحة؟**
-   - على الرغم من عدم وجود قيود صريحة، فإن الرسوم المتحركة المفرطة قد تؤثر على الأداء.
+## قسم الأسئلة المتكررة
+1. **ما هو Aspose.Slides for Java؟**  
+   - إنها مكتبة قوية لإدارة عروض PowerPoint برمجياً.  
+2. **هل يمكنني تحريك المخططات في Excel باستخدام Aspose.Slides؟**  
+   - لا، Aspose.Slides تستهدف ملفات PowerPoint؛ استخدم Aspose.Cells لـ Excel.  
+3. **ما هي بعض تأثيرات التحريك الشائعة المتاحة؟**  
+   - تلاشي، ظهور، طيران داخل، تكبير، والعديد غيرها.  
+4. **كيف أتعامل مع الاستثناءات أثناء تنفيذ التحريك؟**  
+   - غلف الشيفرة بكتل try‑catch وسجّل تفاصيل `Exception`.  
+5. **هل هناك حد لعدد التحريكات في الشريحة؟**  
+   - لا يوجد حد صريح، لكن التحريكات المفرطة قد تؤثر على الأداء.
+
+## الأسئلة المتكررة
+
+**س: هل أحتاج إلى ترخيص مدفوع لاستخدام ميزات التحريك؟**  
+ج: النسخة التجريبية مجانية للتطوير والاختبار، لكن الترخيص الكامل مطلوب للنشر في بيئات الإنتاج.
+
+**س: ما إصدارات Java المدعومة؟**  
+ج: Aspose.Slides for Java يدعم JDK 16 وما فوق (بما في ذلك JDK 17، 19، إلخ).
+
+**س: هل يمكنني تحريك سلسلة واحدة فقط بدلاً من جميع الفئات؟**  
+ج: نعم – عن طريق تعديل مؤشرات الحلقة أو استخدام `EffectChartMinorGroupingType.BySeries` يمكنك استهداف سلسلة محددة.
+
+**س: كيف يمكنني معاينة التحريكات دون فتح PowerPoint؟**  
+ج: استخدم API `SlideShow` في Aspose.Slides لإنشاء معاينة فيديو أو GIF لمجموعة الشرائح.
+
+**س: هل سيعمل المخطط المتحرك على جميع عارضات PowerPoint؟**  
+ج: تُخزن التحريكات في تنسيق ملف PPTX وتُدعمها إصدارات Microsoft PowerPoint الحديثة، PowerPoint Online، ومعظم عارضات الهواتف المحمولة.
 
 ## موارد
-- [التوثيق](https://reference.aspose.com/slides/java/)
-- [تنزيل Aspose.Slides لـ Java](https://releases.aspose.com/slides/java/)
-- [شراء ترخيص](https://purchase.aspose.com/buy)
-- [نسخة تجريبية مجانية](https://releases.aspose.com/slides/java/)
-- [طلب ترخيص مؤقت](https://purchase.aspose.com/temporary-license/)
-- [منتدى دعم Aspose](https://forum.aspose.com/c/slides/11)
+- [Documentation](https://reference.aspose.com/slides/java/)
+- [Download Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
+- [Purchase a License](https://purchase.aspose.com/buy)
+- [Free Trial](https://releases.aspose.com/slides/java/)
+- [Request Temporary License](https://purchase.aspose.com/temporary-license/)
+- [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -184,3 +213,11 @@ public class Main {
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**آخر تحديث:** 2026-01-11  
+**تم الاختبار مع:** Aspose.Slides for Java 25.4 (مصنف JDK 16)  
+**المؤلف:** Aspose  
+
+---
