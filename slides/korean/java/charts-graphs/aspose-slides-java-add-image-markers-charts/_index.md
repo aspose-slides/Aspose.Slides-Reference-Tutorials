@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-17"
-"description": "Aspose.Slides for Java에서 사용자 정의 이미지 마커를 추가하여 차트를 개선하는 방법을 알아보세요. 시각적으로 차별화된 프레젠테이션으로 참여도를 높여보세요."
-"title": "Aspose.Slides Java를 마스터하여 차트에 이미지 마커 추가"
-"url": "/ko/java/charts-graphs/aspose-slides-java-add-image-markers-charts/"
-"weight": 1
+date: '2026-01-11'
+description: Aspose Slides for Java 사용 방법을 배우고, 차트에 이미지 마커를 추가하며, 맞춤형 차트 시각화를 위해 Aspose
+  Slides Maven 종속성을 구성합니다.
+keywords:
+- Aspose.Slides for Java
+- image markers in charts
+- Java presentation enhancements
+title: 'Aspose Slides Java 사용 방법: 차트에 이미지 마커 추가'
+url: /ko/java/charts-graphs/aspose-slides-java-add-image-markers-charts/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,32 +16,39 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.Slides Java 마스터하기: 차트에 이미지 마커 추가하기
+# Aspose Slides Java 사용 방법: 차트에 이미지 마커 추가
 
 ## 소개
-시각적으로 매력적인 프레젠테이션을 만드는 것은 효과적인 소통의 핵심이며, 차트는 복잡한 데이터를 간결하게 전달하는 강력한 도구입니다. 표준 차트 마커는 데이터를 돋보이게 하는 데 부족할 수 있습니다. Aspose.Slides for Java를 사용하면 사용자 지정 이미지를 마커로 추가하여 차트를 더욱 매력적이고 유익하게 만들 수 있습니다.
+시각적으로 매력적인 프레젠테이션을 만드는 것은 효과적인 커뮤니케이션의 핵심이며, 차트는 복잡한 데이터를 간결하게 전달하는 강력한 도구입니다. **Aspose**를 사용해 차트를 돋보이게 하고 싶을 때, 맞춤형 이미지 마커가 정답입니다. 기본 마커는 일반적으로 보이지만, Aspose.Slides for Java를 사용하면 원하는 사진으로 교체하여 각 데이터 포인트를 즉시 인식할 수 있습니다.
 
-이 튜토리얼에서는 Java에서 Aspose.Slides 라이브러리를 사용하여 차트에 이미지 마커를 통합하는 방법을 살펴보겠습니다. 이러한 기법을 숙달하면 독특한 시각적 요소로 시선을 사로잡는 프레젠테이션을 만들 수 있습니다.
+이 튜토리얼에서는 **Aspose Slides Maven 의존성** 설정부터 이미지 로드 및 데이터 포인트에 적용하는 전체 과정을 단계별로 안내합니다. 끝까지 따라오면 **마커 추가 방법**, **차트 시리즈에 이미지 추가 방법**을 익히고 바로 실행 가능한 코드 샘플을 얻게 됩니다.
 
-**배울 내용:**
-- Java용 Aspose.Slides 설정 방법
+**배우게 될 내용**
+- Aspose.Slides for Java 설정 방법 (Maven/Gradle 포함)
 - 기본 프레젠테이션 및 차트 만들기
 - 차트 데이터 포인트에 이미지 마커 추가
-- 최적의 시각화를 위한 마커 설정 구성
+- 최적 시각화를 위한 마커 크기 및 스타일 구성
 
-차트를 한 단계 업그레이드할 준비가 되셨나요? 시작하기 전에 필수 조건을 자세히 살펴보겠습니다!
+차트를 한 단계 끌어올릴 준비가 되셨나요? 시작하기 전에 필수 사항을 확인해 보세요!
 
-### 필수 조건
-이 튜토리얼을 따르려면 다음이 필요합니다.
-1. **Java용 Aspose.Slides 라이브러리**: Maven이나 Gradle 종속성을 통해 얻거나 Aspose에서 직접 다운로드하여 얻을 수 있습니다.
-2. **자바 개발 환경**: 컴퓨터에 JDK 16이 설치되어 있는지 확인하세요.
-3. **기본 자바 프로그래밍 지식**: Java 구문과 개념에 익숙해지면 도움이 됩니다.
+### 빠른 답변
+- **주된 목적은?** 차트 데이터 포인트에 맞춤형 이미지 마커를 추가합니다.  
+- **필요한 라이브러리는?** Aspose.Slides for Java (Maven/Gradle).  
+- **라이선스가 필요합니까?** 평가용 임시 라이선스로도 사용 가능하지만, 프로덕션에서는 정식 라이선스가 필요합니다.  
+- **지원되는 Java 버전은?** JDK 16 이상.  
+- **이미지 포맷 제한이 있나요?** 네—PNG, JPEG, BMP 등 파일에 접근할 수만 하면 모두 사용 가능합니다.
 
-## Java용 Aspose.Slides 설정
-코드를 살펴보기 전에 필요한 라이브러리로 개발 환경을 설정해 보겠습니다.
+### 전제 조건
+이 튜토리얼을 따라하려면 다음이 필요합니다:
+1. **Aspose.Slides for Java 라이브러리** – Maven, Gradle 또는 직접 다운로드 방식 중 하나로 획득.  
+2. **Java 개발 환경** – JDK 16 이상이 설치되어 있어야 합니다.  
+3. **기본 Java 프로그래밍 지식** – Java 문법 및 개념에 익숙하면 도움이 됩니다.
+
+## Aspose Slides Maven 의존성이란?
+Maven 의존성은 사용 중인 Java 버전에 맞는 바이너리를 자동으로 가져옵니다. `pom.xml`에 추가하면 컴파일 및 실행 시 라이브러리를 사용할 수 있게 됩니다.
 
 ### Maven 설치
-다음 종속성을 추가하세요. `pom.xml` 파일:
+`pom.xml` 파일에 다음 의존성을 추가하세요:
 
 ```xml
 <dependency>
@@ -48,22 +60,22 @@
 ```
 
 ### Gradle 설치
-이것을 당신의 것에 포함시키세요 `build.gradle` 파일:
+`build.gradle` 파일에 다음 라인을 포함하세요:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
 ### 직접 다운로드
-또는 다음에서 최신 릴리스를 다운로드하세요. [Java용 Aspose.Slides 릴리스](https://releases.aspose.com/slides/java/).
+또는 [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/)에서 최신 릴리스를 다운로드합니다.
 
-#### 라이센스 취득 단계
-- **무료 체험**: Aspose.Slides 기능을 탐색하기 위한 임시 라이선스로 시작합니다.
-- **임시 면허**: 임시 라이선스를 얻어 고급 기능에 액세스하세요.
-- **구입**: 장기간 사용하려면 정식 라이선스 구매를 고려하세요.
+#### 라이선스 획득 단계
+- **무료 체험** – 임시 라이선스로 기능을 탐색합니다.  
+- **임시 라이선스** – 테스트 중 고급 기능을 사용할 수 있습니다.  
+- **구매** – 상업 프로젝트에 필요한 정식 라이선스를 얻습니다.
 
-### 기본 초기화 및 설정
-초기화 `Presentation` 슬라이드 만들기를 시작하려면 다음을 수행합니다.
+## 기본 초기화 및 설정
+먼저 `Presentation` 객체를 생성합니다. 이 객체는 전체 PowerPoint 파일을 나타내며 차트를 포함하게 됩니다.
 
 ```java
 import com.aspose.slides.*;
@@ -71,29 +83,29 @@ import com.aspose.slides.*;
 public class InitializeAspose {
     public static void main(String[] args) {
         Presentation presentation = new Presentation();
-        // 슬라이드와 차트를 추가하는 코드는 여기에 입력하세요.
+        // Your code for adding slides and charts goes here.
     }
 }
 ```
 
 ## 구현 가이드
-이제 차트 시리즈에 이미지 마커를 추가하는 과정을 살펴보겠습니다.
+아래는 차트에 이미지 마커를 추가하는 단계별 예제입니다. 각 코드 블록마다 설명을 달아 **왜** 해당 코드를 사용하는지 이해할 수 있도록 했습니다.
 
-### 차트를 사용하여 새 프레젠테이션 만들기
-첫째, 차트를 추가할 수 있는 슬라이드가 필요합니다.
+### 단계 1: 차트가 포함된 새 프레젠테이션 만들기
+첫 번째 슬라이드에 기본 마커가 있는 라인 차트를 추가합니다.
 
 ```java
 import com.aspose.slides.*;
 
 public class CreatePresentation {
     public static void main(String[] args) {
-        // Presentation 객체를 초기화합니다
+        // Initialize the Presentation object
         Presentation presentation = new Presentation();
 
-        // 컬렉션에서 첫 번째 슬라이드를 받으세요
+        // Get the first slide from the collection
         ISlide slide = presentation.getSlides().get_Item(0);
 
-        // 슬라이드에 마커가 있는 기본 선형 차트 추가
+        // Add a default line chart with markers to the slide
         IChart chart = slide.getShapes().addChart(
             ChartType.LineWithMarkers, 0, 0, 400, 400
         );
@@ -101,8 +113,8 @@ public class CreatePresentation {
 }
 ```
 
-### 차트 데이터 액세스 및 구성
-다음으로, 차트의 데이터 워크시트에 접근하여 시리즈를 관리해 보겠습니다.
+### 단계 2: 차트 데이터에 접근하고 구성하기
+기본 시리즈를 모두 제거하고 사용자 정의 시리즈를 추가해 워크시트를 맞춤 데이터 포인트용으로 준비합니다.
 
 ```java
 import com.aspose.slides.*;
@@ -119,7 +131,7 @@ public class ManageChartData {
         int defaultWorksheetIndex = 0;
         IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
-        // 기존 시리즈를 지우고 새 시리즈를 추가합니다.
+        // Clear existing series and add a new one
         chart.getChartData().getSeries().clear();
         chart.getChartData().getSeries().add(
             fact.getCell(defaultWorksheetIndex, 1, 1, "Series 1"), 
@@ -129,8 +141,8 @@ public class ManageChartData {
 }
 ```
 
-### 차트 데이터 포인트에 이미지 마커 추가
-이제 흥미로운 부분인 이미지를 마커로 추가하는 방법에 대해 알아보겠습니다.
+### 단계 3: 차트 데이터 포인트에 이미지 마커 추가  
+여기서는 **이미지를 사용해 마커를 추가하는 방법**을 보여줍니다. 플레이스홀더 경로를 실제 이미지 위치로 바꾸세요.
 
 ```java
 import com.aspose.slides.*;
@@ -152,14 +164,14 @@ public class AddImageMarkers {
             chart.getType()
         );
 
-        // 이미지를 마커로 로드하고 추가합니다.
+        // Load and add images as markers
         IImage image1 = presentation.getImages().addImage(Files.readAllBytes(Paths.get("YOUR_DOCUMENT_DIRECTORY/aspose-logo.jpg")));
         IPPImage imgx1 = presentation.getImages().get_Item(presentation.getImages().size() - 1);
 
         IImage image2 = presentation.getImages().addImage(Files.readAllBytes(Paths.get("YOUR_DOCUMENT_DIRECTORY/Tulips.jpg")));
         IPPImage imgx2 = presentation.getImages().get_Item(presentation.getImages().size() - 1);
 
-        // 이미지를 마커로 사용하여 데이터 포인트 추가
+        // Add data points with images as markers
         IChartSeries series = chart.getChartData().getSeries().get_Item(0);
         
         series.getDataPoints().addDataPointForLineSeries(fact.getCell(defaultWorksheetIndex, 1, 1, (double) 4.5))
@@ -181,8 +193,8 @@ public class AddImageMarkers {
 }
 ```
 
-### 차트 시리즈 마커 구성 및 프레젠테이션 저장
-마지막으로, 가시성을 높이기 위해 마커 크기를 조정하고 프레젠테이션을 저장해 보겠습니다.
+### 단계 4: 마커 크기 구성 및 프레젠테이션 저장  
+가시성을 높이기 위해 마커 스타일을 조정하고 최종 PPTX 파일을 저장합니다.
 
 ```java
 import com.aspose.slides.*;
@@ -204,7 +216,7 @@ public class ConfigureAndSavePresentation {
             chart.getType()
         );
 
-        // 이미지를 마커로 로드하고 추가합니다(플레이스홀더 경로 사용 예)
+        // Load and add images as markers (example using placeholder paths)
         IImage image1 = presentation.getImages().addImage(Files.readAllBytes(Paths.get("YOUR_DOCUMENT_DIRECTORY/aspose-logo.jpg")));
         IPPImage imgx1 = presentation.getImages().get_Item(presentation.getImages().size() - 1);
 
@@ -214,16 +226,46 @@ public class ConfigureAndSavePresentation {
             .getMarker().getFormat().getFill().setFillType(FillType.Picture)
             .getPictureFillFormat().getPicture().setImage(imgx1);
 
-        series.getMarkerStyleType() = MarkerStyleType.Circle;
-        series.getMarkerSize() = 10;
+        // Adjust marker style for the whole series
+        series.setMarkerStyleType(MarkerStyleType.Circle);
+        series.setMarkerSize(10);
 
+        // Save the presentation
         presentation.save("Output.pptx", SaveFormat.Pptx);
     }
 }
 ```
 
+## 일반적인 문제와 해결 방법
+- **FileNotFoundException** – 이미지 경로(`YOUR_DOCUMENT_DIRECTORY/...`)가 정확하고 파일이 존재하는지 확인하세요.  
+- **LicenseException** – 프로덕션 환경에서는 API 호출 전에 유효한 Aspose 라이선스를 설정해야 합니다.  
+- **마커가 보이지 않음** – `setMarkerSize` 값을 늘리거나 고해상도 이미지를 사용해 보세요.
+
+## 자주 묻는 질문
+
+**Q: 마커에 JPEG 대신 PNG 이미지를 사용할 수 있나요?**  
+A: 네, Aspose.Slides에서 지원하는 모든 이미지 포맷(PNG, JPEG, BMP, GIF)으로 마커를 지정할 수 있습니다.
+
+**Q: Maven/Gradle 패키지에 라이선스가 필요합니까?**  
+A: 개발 및 테스트 단계에서는 임시 라이선스로 충분하지만, 상업 배포 시에는 정식 라이선스가 필요합니다.
+
+**Q: 동일 시리즈 내의 각 데이터 포인트에 서로 다른 이미지를 지정할 수 있나요?**  
+A: 가능합니다. `AddImageMarkers` 예제에서는 두 개의 이미지를 번갈아 사용했지만, 포인트마다 고유 이미지를 로드할 수 있습니다.
+
+**Q: `aspose slides maven dependency`가 프로젝트 크기에 미치는 영향은?**  
+A: Maven 패키지는 선택한 JDK 버전에 맞는 필수 바이너리만 포함하므로 크기가 적당합니다. 크기가 중요한 경우 **no‑dependencies** 버전을 사용할 수도 있습니다.
+
+**Q: 지원되는 Java 버전은 무엇인가요?**  
+A: Aspose.Slides for Java는 JDK 8부터 JDK 21까지 지원합니다. 예제는 JDK 16을 기준으로 작성했으며, 필요에 따라 classifier를 조정하면 됩니다.
+
 ## 결론
-이 가이드를 따라 Aspose.Slides for Java에서 사용자 정의 이미지 마커를 추가하여 차트를 개선하는 방법을 알아보았습니다. 이 방법을 사용하면 프레젠테이션의 참여도와 명확성을 크게 높일 수 있습니다.
+이 가이드를 따라 하면 **Aspose**를 활용해 차트에 맞춤형 이미지 마커를 추가하고, **Aspose Slides Maven 의존성**을 설정하며, **차트 시리즈에 이미지 추가**하는 방법을 숙달하게 됩니다. 다양한 아이콘, 크기, 차트 유형을 실험해 보면서 프레젠테이션을 한층 더 돋보이게 만들어 보세요.
+
+---
+
+**최종 업데이트:** 2026-01-11  
+**테스트 환경:** Aspose.Slides for Java 25.4 (jdk16)  
+**작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

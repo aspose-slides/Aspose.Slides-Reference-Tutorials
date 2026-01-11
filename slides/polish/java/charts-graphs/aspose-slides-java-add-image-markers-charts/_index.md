@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Dowiedz się, jak ulepszyć swoje wykresy w Aspose.Slides for Java, dodając niestandardowe znaczniki obrazów. Zwiększ zaangażowanie dzięki wizualnie odrębnym prezentacjom."
-"title": "Master Aspose.Slides Java&#58; Dodawanie znaczników obrazu do wykresów"
-"url": "/pl/java/charts-graphs/aspose-slides-java-add-image-markers-charts/"
-"weight": 1
+date: '2026-01-11'
+description: Dowiedz się, jak korzystać z Aspose Slides for Java, dodawać znaczniki
+  obrazu do wykresów oraz konfigurować zależność Maven Aspose Slides dla niestandardowych
+  wizualizacji wykresów.
+keywords:
+- Aspose.Slides for Java
+- image markers in charts
+- Java presentation enhancements
+title: 'Jak używać Aspose Slides Java: Dodawanie znaczników obrazu do wykresów'
+url: /pl/java/charts-graphs/aspose-slides-java-add-image-markers-charts/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,32 +17,39 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Opanowanie Aspose.Slides Java: Dodawanie znaczników obrazu do wykresów
+# Jak używać Aspose Slides Java: Dodawanie znaczników obrazu do wykresów
 
-## Wstęp
-Tworzenie atrakcyjnych wizualnie prezentacji jest kluczem do skutecznej komunikacji, a wykresy są potężnym narzędziem do przekazywania złożonych danych w zwięzły sposób. Standardowe znaczniki wykresów czasami nie wystarczają, aby wyróżnić dane. Dzięki Aspose.Slides for Java możesz ulepszyć swoje wykresy, dodając niestandardowe obrazy jako znaczniki, dzięki czemu będą bardziej angażujące i informacyjne.
+## Wprowadzenie
+Tworzenie atrakcyjnych wizualnie prezentacji jest kluczem do skutecznej komunikacji, a wykresy są potężnym narzędziem do zwięzłego przekazywania złożonych danych. Gdy zastanawiasz się **jak używać Aspose**, aby Twoje wykresy wyróżniały się, odpowiedzią są niestandardowe znaczniki obrazu. Standardowe znaczniki mogą wyglądać generically, ale dzięki Aspose.Slides for Java możesz zamienić je na dowolny obraz — sprawiając, że każdy punkt danych jest od razu rozpoznawalny.
 
-W tym samouczku pokażemy, jak zintegrować znaczniki obrazów z wykresami, korzystając z biblioteki Aspose.Slides w Javie. Opanowując te techniki, będziesz w stanie tworzyć prezentacje, które przyciągają uwagę dzięki unikalnym elementom wizualnym.
+W tym samouczku przeprowadzimy Cię przez cały proces dodawania znaczników obrazu do wykresu liniowego, od skonfigurowania **Aspose Slides Maven dependency** po wczytanie obrazów i zastosowanie ich do punktów danych. Po zakończeniu będziesz pewny **jak dodać znaczniki**, jak **dodać obrazy do serii wykresu** oraz będziesz mieć gotowy do uruchomienia przykład kodu.
 
-**Czego się nauczysz:**
-- Jak skonfigurować Aspose.Slides dla Java
+**Czego się nauczysz**
+- Jak skonfigurować Aspose.Slides for Java (w tym Maven/Gradle)
 - Tworzenie podstawowej prezentacji i wykresu
 - Dodawanie znaczników obrazu do punktów danych wykresu
-- Konfigurowanie ustawień znaczników w celu uzyskania optymalnej wizualizacji
+- Konfigurowanie rozmiaru i stylu znacznika dla optymalnej wizualizacji
 
-Gotowy, aby podnieść swoje wykresy? Zanurzmy się w wymaganiach wstępnych, zanim zaczniemy!
+Gotowy, aby podnieść jakość swoich wykresów? Przejdźmy do wymagań wstępnych, zanim zaczniemy!
+
+### Szybkie odpowiedzi
+- **Jaki jest główny cel?** Dodanie niestandardowych znaczników obrazu do punktów danych wykresu.  
+- **Jakiej biblioteki potrzebujesz?** Aspose.Slides for Java (Maven/Gradle).  
+- **Czy potrzebna jest licencja?** Tymczasowa licencja wystarczy do oceny; pełna licencja jest wymagana w produkcji.  
+- **Jaką wersję Javy obsługuje?** JDK 16 lub nowszą.  
+- **Czy mogę używać dowolnego formatu obrazu?** Tak — PNG, JPEG, BMP itp., pod warunkiem, że plik jest dostępny.
 
 ### Wymagania wstępne
-Aby skorzystać z tego samouczka, będziesz potrzebować:
-1. **Aspose.Slides dla biblioteki Java**: Można go pobrać za pośrednictwem zależności Maven lub Gradle albo bezpośrednio ze strony Aspose.
-2. **Środowisko programistyczne Java**: Upewnij się, że na Twoim komputerze jest zainstalowany JDK 16.
-3. **Podstawowa wiedza z zakresu programowania w Javie**:Znajomość składni i pojęć języka Java będzie przydatna.
+Aby podążać za tym samouczkiem, potrzebujesz:
+1. **Aspose.Slides for Java Library** — pobierz przez Maven, Gradle lub bezpośrednio.  
+2. **Środowisko programistyczne Java** — zainstalowany JDK 16 lub nowszy.  
+3. **Podstawowa znajomość programowania w Javie** — znajomość składni i koncepcji Javy będzie pomocna.
 
-## Konfigurowanie Aspose.Slides dla Java
-Zanim zagłębimy się w kod, skonfigurujmy środowisko programistyczne, zawierające niezbędne biblioteki.
+## Co to jest Aspose Slides Maven Dependency?
+Zależność Maven pobiera właściwe pliki binarne dla Twojej wersji Javy. Dodanie jej do `pom.xml` zapewnia dostępność biblioteki w czasie kompilacji i uruchomienia.
 
 ### Instalacja Maven
-Dodaj następującą zależność do swojego `pom.xml` plik:
+Dodaj następującą zależność do pliku `pom.xml`:
 
 ```xml
 <dependency>
@@ -48,22 +61,22 @@ Dodaj następującą zależność do swojego `pom.xml` plik:
 ```
 
 ### Instalacja Gradle
-Uwzględnij to w swoim `build.gradle` plik:
+Umieść tę linię w pliku `build.gradle`:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Bezpośrednie pobieranie
-Alternatywnie, pobierz najnowszą wersję z [Aspose.Slides dla wydań Java](https://releases.aspose.com/slides/java/).
+### Bezpośrednie pobranie
+Alternatywnie, pobierz najnowsze wydanie z [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-#### Etapy uzyskania licencji
-- **Bezpłatna wersja próbna**: Zacznij od tymczasowej licencji, aby poznać funkcje Aspose.Slides.
-- **Licencja tymczasowa**:Uzyskaj dostęp do zaawansowanych funkcji, uzyskując tymczasową licencję.
-- **Zakup**:W przypadku długoterminowego użytkowania należy rozważyć zakup pełnej licencji.
+#### Kroki uzyskania licencji
+- **Bezpłatna wersja próbna** — rozpocznij od tymczasowej licencji, aby wypróbować funkcje.  
+- **Licencja tymczasowa** — odblokowuje zaawansowane możliwości podczas testów.  
+- **Zakup** — uzyskaj pełną licencję do projektów komercyjnych.
 
-### Podstawowa inicjalizacja i konfiguracja
-Zainicjuj `Presentation` obiekt, aby rozpocząć tworzenie slajdów:
+## Podstawowa inicjalizacja i konfiguracja
+Najpierw utwórz obiekt `Presentation`. Obiekt ten reprezentuje cały plik PowerPoint i będzie przechowywał nasz wykres.
 
 ```java
 import com.aspose.slides.*;
@@ -71,29 +84,29 @@ import com.aspose.slides.*;
 public class InitializeAspose {
     public static void main(String[] args) {
         Presentation presentation = new Presentation();
-        // Tutaj wpisz kod umożliwiający dodawanie slajdów i wykresów.
+        // Your code for adding slides and charts goes here.
     }
 }
 ```
 
-## Przewodnik wdrażania
-Teraz przeanalizujemy szczegółowo proces dodawania znaczników graficznych do serii wykresów.
+## Przewodnik implementacji
+Poniżej znajduje się krok‑po‑kroku opis dodawania znaczników obrazu do wykresu. Każdy blok kodu jest opatrzony wyjaśnieniem, abyś rozumiał **dlaczego** dana linia jest istotna.
 
-### Utwórz nową prezentację z wykresem
-Po pierwsze, potrzebujemy slajdu, do którego możemy dodać nasz wykres:
+### Krok 1: Utwórz nową prezentację z wykresem
+Dodajemy wykres liniowy z domyślnymi znacznikami do pierwszego slajdu.
 
 ```java
 import com.aspose.slides.*;
 
 public class CreatePresentation {
     public static void main(String[] args) {
-        // Zainicjuj obiekt prezentacji
+        // Initialize the Presentation object
         Presentation presentation = new Presentation();
 
-        // Pobierz pierwszy slajd z kolekcji
+        // Get the first slide from the collection
         ISlide slide = presentation.getSlides().get_Item(0);
 
-        // Dodaj do slajdu domyślny wykres liniowy ze znacznikami
+        // Add a default line chart with markers to the slide
         IChart chart = slide.getShapes().addChart(
             ChartType.LineWithMarkers, 0, 0, 400, 400
         );
@@ -101,8 +114,8 @@ public class CreatePresentation {
 }
 ```
 
-### Dostęp i konfiguracja danych wykresu
-Następnie uzyskamy dostęp do arkusza danych naszego wykresu, aby zarządzać seriami:
+### Krok 2: Uzyskaj dostęp i skonfiguruj dane wykresu
+Usuwamy domyślne serie i dodajemy własne, przygotowując arkusz kalkulacyjny do niestandardowych punktów danych.
 
 ```java
 import com.aspose.slides.*;
@@ -119,7 +132,7 @@ public class ManageChartData {
         int defaultWorksheetIndex = 0;
         IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
-        // Wyczyść istniejącą serię i dodaj nową
+        // Clear existing series and add a new one
         chart.getChartData().getSeries().clear();
         chart.getChartData().getSeries().add(
             fact.getCell(defaultWorksheetIndex, 1, 1, "Series 1"), 
@@ -129,8 +142,8 @@ public class ManageChartData {
 }
 ```
 
-### Dodaj znaczniki obrazu do punktów danych wykresu
-A teraz czas na ekscytującą część — dodawanie obrazów jako znaczników:
+### Krok 3: Dodaj znaczniki obrazu do punktów danych wykresu  
+Tutaj demonstrujemy **jak dodać znaczniki** przy użyciu obrazów. Zamień ścieżki zastępcze na rzeczywiste lokalizacje swoich obrazów.
 
 ```java
 import com.aspose.slides.*;
@@ -152,14 +165,14 @@ public class AddImageMarkers {
             chart.getType()
         );
 
-        // Załaduj i dodaj obrazy jako znaczniki
+        // Load and add images as markers
         IImage image1 = presentation.getImages().addImage(Files.readAllBytes(Paths.get("YOUR_DOCUMENT_DIRECTORY/aspose-logo.jpg")));
         IPPImage imgx1 = presentation.getImages().get_Item(presentation.getImages().size() - 1);
 
         IImage image2 = presentation.getImages().addImage(Files.readAllBytes(Paths.get("YOUR_DOCUMENT_DIRECTORY/Tulips.jpg")));
         IPPImage imgx2 = presentation.getImages().get_Item(presentation.getImages().size() - 1);
 
-        // Dodaj punkty danych z obrazami jako znacznikami
+        // Add data points with images as markers
         IChartSeries series = chart.getChartData().getSeries().get_Item(0);
         
         series.getDataPoints().addDataPointForLineSeries(fact.getCell(defaultWorksheetIndex, 1, 1, (double) 4.5))
@@ -181,8 +194,8 @@ public class AddImageMarkers {
 }
 ```
 
-### Skonfiguruj znacznik serii wykresów i zapisz prezentację
-Na koniec dostosujmy rozmiar znacznika, aby był lepiej widoczny i zapiszmy naszą prezentację:
+### Krok 4: Skonfiguruj rozmiar znacznika i zapisz prezentację  
+Dostosowujemy styl znacznika dla lepszej widoczności i zapisujemy finalny plik PPTX.
 
 ```java
 import com.aspose.slides.*;
@@ -204,7 +217,7 @@ public class ConfigureAndSavePresentation {
             chart.getType()
         );
 
-        // Załaduj i dodaj obrazy jako znaczniki (przykład z użyciem ścieżek zastępczych)
+        // Load and add images as markers (example using placeholder paths)
         IImage image1 = presentation.getImages().addImage(Files.readAllBytes(Paths.get("YOUR_DOCUMENT_DIRECTORY/aspose-logo.jpg")));
         IPPImage imgx1 = presentation.getImages().get_Item(presentation.getImages().size() - 1);
 
@@ -214,16 +227,46 @@ public class ConfigureAndSavePresentation {
             .getMarker().getFormat().getFill().setFillType(FillType.Picture)
             .getPictureFillFormat().getPicture().setImage(imgx1);
 
-        series.getMarkerStyleType() = MarkerStyleType.Circle;
-        series.getMarkerSize() = 10;
+        // Adjust marker style for the whole series
+        series.setMarkerStyleType(MarkerStyleType.Circle);
+        series.setMarkerSize(10);
 
+        // Save the presentation
         presentation.save("Output.pptx", SaveFormat.Pptx);
     }
 }
 ```
 
-## Wniosek
-Dzięki temu przewodnikowi dowiedziałeś się, jak ulepszyć swoje wykresy w Aspose.Slides for Java, dodając niestandardowe znaczniki obrazów. Takie podejście może znacznie zwiększyć zaangażowanie i przejrzystość Twoich prezentacji.
+## Typowe problemy i rozwiązywanie
+- **FileNotFoundException** – Sprawdź, czy ścieżki do obrazów (`YOUR_DOCUMENT_DIRECTORY/...`) są poprawne i czy pliki istnieją.  
+- **LicenseException** – Upewnij się, że przed wywołaniem jakiegokolwiek API w produkcji ustawiłeś ważną licencję Aspose.  
+- **Znacznik niewidoczny** – Zwiększ `setMarkerSize` lub użyj obrazów o wyższej rozdzielczości, aby uzyskać wyraźniejszy efekt.
+
+## Najczęściej zadawane pytania
+
+**P: Czy mogę używać obrazów PNG zamiast JPEG jako znaczników?**  
+O: Tak, każdy format obrazu obsługiwany przez Aspose.Slides (PNG, JPEG, BMP, GIF) działa jako znacznik.
+
+**P: Czy potrzebuję licencji na pakiety Maven/Gradle?**  
+O: Tymczasowa licencja wystarczy do rozwoju i testów; pełna licencja jest wymagana przy dystrybucji komercyjnej.
+
+**P: Czy można dodać różne obrazy do każdego punktu danych w tej samej serii?**  
+O: Oczywiście. W przykładzie `AddImageMarkers` naprzemiennie używamy dwóch obrazów, ale możesz wczytać unikalny obraz dla każdego punktu.
+
+**P: Jak `aspose slides maven dependency` wpływa na rozmiar projektu?**  
+O: Pakiet Maven zawiera tylko niezbędne binaria dla wybranej wersji JDK, co utrzymuje rozmiar w rozsądnych granicach. Możesz także użyć wersji **no‑dependencies**, jeśli rozmiar jest krytyczny.
+
+**P: Jakie wersje Javy są obsługiwane?**  
+O: Aspose.Slides for Java obsługuje JDK 8‑21. Przykład używa JDK 16, ale możesz dostosować klasyfikator odpowiednio.
+
+## Zakończenie
+Postępując zgodnie z tym przewodnikiem, wiesz już **jak używać Aspose**, aby wzbogacić wykresy o niestandardowe znaczniki obrazu, jak skonfigurować **Aspose Slides Maven dependency** oraz jak **dodać obrazy do serii wykresu** dla profesjonalnego wyglądu. Eksperymentuj z różnymi ikonami, rozmiarami i typami wykresów, aby tworzyć prezentacje, które naprawdę się wyróżniają.
+
+---
+
+**Ostatnia aktualizacja:** 2026-01-11  
+**Testowane z:** Aspose.Slides for Java 25.4 (jdk16)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
