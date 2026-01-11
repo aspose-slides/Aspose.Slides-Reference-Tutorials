@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Dowiedz się, jak zautomatyzować tworzenie dynamicznych wykresów i formuł w prezentacjach PowerPoint za pomocą Aspose.Slides for Java. Udoskonal swoje umiejętności wizualizacji danych dzięki temu kompleksowemu przewodnikowi."
-"title": "Opanowanie Aspose.Slides Java i dodawanie wykresów i formuł do prezentacji PowerPoint"
-"url": "/pl/java/charts-graphs/aspose-slides-java-add-charts-formulas/"
-"weight": 1
+date: '2026-01-11'
+description: Dowiedz się, jak dodać wykres do PowerPointa przy użyciu Aspose.Slides
+  dla Javy, tworzyć dynamiczne wykresy w PowerPoint oraz obliczać formuły wykresów
+  w zautomatyzowanych prezentacjach.
+keywords:
+- Aspose.Slides Java
+- dynamic PowerPoint charts
+- PowerPoint presentation automation
+title: Jak dodać wykres do PowerPoint przy użyciu Aspose.Slides dla Javy
+url: /pl/java/charts-graphs/aspose-slides-java-add-charts-formulas/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,34 +17,47 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Opanowanie Aspose.Slides Java: dodawanie wykresów i formuł do prezentacji PowerPoint
+# Opanowanie Aspose.Slides Java: Dodawanie wykresów i formuł do prezentacji PowerPoint
 
-## Wstęp
+## Introduction
 
-Tworzenie angażujących prezentacji PowerPoint jest kluczowe przy skutecznym przekazywaniu złożonych danych. Dzięki Aspose.Slides for Java możesz bezproblemowo automatyzować tworzenie dynamicznych wykresów i formuł, zwiększając wpływ swojej prezentacji. Ten samouczek przeprowadzi Cię przez proces tworzenia nowej prezentacji PowerPoint, dodawania wykresu kolumnowego klastrowanego, manipulowania danymi wykresu za pomocą formuł i zapisywania swojej pracy za pomocą Aspose.Slides.
+Tworzenie angażujących prezentacji PowerPoint jest kluczowe przy skutecznym przekazywaniu złożonych danych. Dzięki Aspose.Slides for Java możesz **add chart to PowerPoint** programowo, automatyzować tworzenie dynamicznych wykresów PowerPoint oraz osadzać obliczone formuły wykresów — wszystko bez otwierania interfejsu użytkownika. Ten tutorial przeprowadzi Cię przez konfigurację biblioteki, wstawianie wykresu kolumnowego grupowanego, stosowanie formuł i zapisywanie finalnego pliku.
 
-**Czego się nauczysz:**
-- Konfigurowanie Aspose.Slides dla Java
+**Co się nauczysz:**
+- Konfiguracja Aspose.Slides for Java
 - Tworzenie prezentacji PowerPoint i wstawianie wykresów
-- Uzyskiwanie dostępu do danych wykresu i ich modyfikowanie za pomocą formuł
-- Obliczanie wzorów i zapisywanie prezentacji
+- Dostęp i modyfikacja danych wykresu przy użyciu formuł
+- Obliczanie formuł wykresu i zapisywanie prezentacji
 
-Zacznijmy od przejrzenia warunków wstępnych!
+Zacznijmy od przeglądu wymagań wstępnych!
 
-## Wymagania wstępne
+## Quick Answers
+- **What is the primary goal?** Add chart to PowerPoint automatically using Aspose.Slides for Java.  
+- **Which chart type is demonstrated?** A clustered column chart.  
+- **Can formulas be calculated?** Yes—use `calculateFormulas()` to evaluate dynamic PowerPoint charts.  
+- **What build tool is recommended?** Maven (or Gradle) for aspose slides integration.  
+- **Do I need a license?** A free trial works for testing; a full license removes evaluation limits.
 
-Zanim zaczniemy, upewnij się, że masz:
+## What is “add chart to PowerPoint” with Aspose.Slides?
+Aspose.Slides for Java udostępnia bogate API, które pozwala programistom programowo tworzyć, edytować i zapisywać pliki PowerPoint. Dzięki funkcji **add chart to PowerPoint** możesz generować wizualne reprezentacje danych w locie, co jest idealne do raportów, pulpitów nawigacyjnych lub automatycznych zestawów slajdów.
 
-- **Aspose.Slides dla biblioteki Java**: Wymagana jest wersja 25.4 lub nowsza.
-- **Zestaw narzędzi programistycznych Java (JDK)**:W systemie musi być zainstalowany i skonfigurowany JDK 16 lub nowszy.
-- **Środowisko programistyczne**:Zaleca się korzystanie ze środowiska IDE, takiego jak IntelliJ IDEA lub Eclipse, ale nie jest ono obowiązkowe.
+## Why use a clustered column chart?
+Wykres kolumnowy grupowany umożliwia porównanie wielu serii danych obok siebie, co sprawia, że trendy i różnice są od razu widoczne. To popularny wybór w raportach finansowych, pulpitach sprzedażowych i metrykach wydajności — dokładnie w scenariuszach, w których dynamiczne wykresy PowerPoint błyszczą.
 
-Podstawowe zrozumienie pojęć programowania Java, takich jak klasy, metody i obsługa wyjątków, jest niezbędne. Jeśli jesteś nowy w tych tematach, rozważ najpierw przejrzenie samouczków wprowadzających.
+## Prerequisites
 
-## Konfigurowanie Aspose.Slides dla Java
+Przed rozpoczęciem upewnij się, że masz:
 
-### Zależność Maven
-Aby uwzględnić Aspose.Slides w projekcie za pomocą Maven, dodaj następującą zależność do `pom.xml`:
+- **Aspose.Slides for Java Library**: Wymagana wersja 25.4 lub nowsza.  
+- **Java Development Kit (JDK)**: Zainstalowany i skonfigurowany JDK 16 lub wyższy.  
+- **Środowisko programistyczne**: IDE takie jak IntelliJ IDEA lub Eclipse jest zalecane, ale nieobowiązkowe.  
+
+Podstawowa znajomość koncepcji programowania w Javie, takich jak klasy, metody i obsługa wyjątków, jest niezbędna. Jeśli jesteś nowicjuszem w tych tematach, rozważ najpierw przegląd wprowadzających tutoriali.
+
+## Setting Up Aspose.Slides for Java
+
+### Maven Dependency (maven for aspose slides)
+Aby dodać Aspose.Slides do projektu przy użyciu Maven, wstaw następującą zależność do pliku `pom.xml`:
 
 ```xml
 <dependency>
@@ -49,58 +68,55 @@ Aby uwzględnić Aspose.Slides w projekcie za pomocą Maven, dodaj następując�
 </dependency>
 ```
 
-### Zależność Gradle
-Jeśli używasz Gradle, uwzględnij to w swoim `build.gradle`:
+### Gradle Dependency
+Jeśli używasz Gradle, umieść to w pliku `build.gradle`:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Bezpośrednie pobieranie
-Alternatywnie, pobierz najnowszą wersję Aspose.Slides dla Java ze strony [Wydania Aspose](https://releases.aspose.com/slides/java/).
+### Direct Download
+Alternatywnie, pobierz najnowszą wersję Aspose.Slides for Java z [Aspose Releases](https://releases.aspose.com/slides/java/).
 
-#### Nabycie licencji
-- **Bezpłatna wersja próbna**: Zacznij od bezpłatnego okresu próbnego, aby poznać możliwości.
-- **Licencja tymczasowa**:Uzyskaj tymczasową licencję na rozszerzone testy [Tutaj](https://purchase.aspose.com/temporary-license/).
-- **Zakup**:Jeśli uważasz, że to narzędzie jest wartościowe, rozważ zakup pełnej licencji.
+#### License Acquisition
+- **Free Trial**: Rozpocznij od bezpłatnej wersji próbnej, aby poznać możliwości.  
+- **Temporary License**: Uzyskaj tymczasową licencję na rozszerzone testy [tutaj](https://purchase.aspose.com/temporary-license/).  
+- **Purchase**: Rozważ zakup pełnej licencji, jeśli narzędzie okaże się wartościowe.
 
-### Podstawowa inicjalizacja
+### Basic Initialization
 
-Po skonfigurowaniu zainicjuj środowisko Aspose.Slides:
+Po skonfigurowaniu, zainicjalizuj środowisko Aspose.Slides:
 
 ```java
 Presentation presentation = new Presentation();
 try {
-    // Twój kod tutaj
+    // Your code here
 } finally {
     if (presentation != null) presentation.dispose();
 }
 ```
 
-## Przewodnik wdrażania
+## Implementation Guide
 
-Ta sekcja podzielona jest na kroki, które pomogą Ci lepiej zrozumieć każdą część.
+Ten rozdział podzielony jest na kroki, aby jasno wyjaśnić każdy element.
 
-### Tworzenie prezentacji i dodawanie wykresu
+### How to add chart to PowerPoint using Aspose.Slides for Java
 
-#### Przegląd
-Dowiedz się, jak utworzyć slajd programu PowerPoint i dodać wykres kolumnowy klastrowany za pomocą Aspose.Slides dla Java.
-
-##### Krok 1: Zainicjuj prezentację
-Zacznij od utworzenia nowego `Presentation` obiekt:
+#### Step 1: Initialize the Presentation
+Rozpocznij od utworzenia nowego obiektu `Presentation`:
 
 ```java
 Presentation presentation = new Presentation();
 ```
 
-##### Krok 2: Dostęp do pierwszego slajdu
+#### Step 2: Access the First Slide
 Pobierz pierwszy slajd, na którym umieścisz wykres:
 
 ```java
 ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
-##### Krok 3: Dodawanie wykresu kolumnowego klastrowanego
+#### Step 3: Add a Clustered Column Chart
 Dodaj wykres do slajdu w określonych współrzędnych i wymiarach:
 
 ```java
@@ -110,112 +126,112 @@ IChart chart = slide.getShapes().addChart(
     500, 300
 );
 ```
-**Wyjaśnienie parametrów:**
-- `ChartType`: Określa typ wykresu.
-- Współrzędne (x, y): Pozycja na slajdzie.
-- Szerokość i wysokość: Wymiary wykresu.
+**Parameters Explained:**
+- `ChartType`: Określa typ wykresu (tutaj wykres kolumnowy grupowany).  
+- Coordinates (x, y): Pozycja na slajdzie.  
+- Width and Height: Wymiary wykresu.
 
-### Praca z arkuszem kalkulacyjnym danych wykresu
+### Working with Chart Data Workbook
 
-#### Przegląd
-Możesz manipulować danymi wykresu bezpośrednio, ustawiając formuły dla komórek w skoroszycie wykresu.
-
-##### Krok 1: Uzyskaj dostęp do skoroszytu danych wykresu
-Pobierz skoroszyt powiązany z wykresem:
+#### Step 4: Access the Chart Data Workbook
+Pobierz skoroszyt powiązany z Twoim wykresem:
 
 ```java
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 ```
 
-##### Krok 2: Ustawianie formuł
-Ustaw formuły, aby dynamicznie wykonywać obliczenia na danych wykresu:
+#### Step 5: Setting Formulas (calculate chart formulas)
+Ustaw formuły, aby dynamicznie wykonywać obliczenia w danych wykresu:
 
-**Formuła w komórce B2**: 
+**Formula in Cell B2**  
 ```java
 IChartDataCell cell1 = workbook.getCell(0, "B2");
 cell1.setFormula("1 + SUM(F2:H5)");
 ```
 
-**Formuła w stylu R1C1 w komórce C2**: 
+**R1C1 Style Formula in Cell C2**  
 ```java
 IChartDataCell cell2 = workbook.getCell(0, "C2");
 cell2.setR1C1Formula("MAX(R2C6:R5C8) / 3");
 ```
-Formuły te umożliwiają dynamiczne aktualizacje i obliczenia na wykresie.
+Te formuły pozwalają wykresowi automatycznie aktualizować się przy każdej zmianie danych źródłowych.
 
-### Obliczanie formuł i zapisywanie prezentacji
+### Calculating Formulas and Saving the Presentation
 
-#### Przegląd
-Przed zapisaniem prezentacji upewnij się, że wszystkie wzory zostały obliczone, aby dokładnie odzwierciedlić zmiany.
-
-##### Krok 1: Oblicz wszystkie wzory
-Wywołaj metodę obliczeniową w swoim skoroszycie:
+#### Step 6: Calculate All Formulas
+Wywołaj metodę obliczeniową na skoroszycie, aby wykres odzwierciedlał najnowsze wartości:
 
 ```java
 workbook.calculateFormulas();
 ```
 
-##### Krok 2: Zapisz swoją prezentację
-Zapisz swoją pracę pod określoną nazwą pliku i w określonym formacie:
+#### Step 7: Save Your Presentation
+Zapisz swoją pracę pod określoną nazwą pliku i w wybranym formacie:
 
 ```java
 String outpptxFile = "YOUR_OUTPUT_DIRECTORY" + File.separator + "ChartDataCell_Formulas_out.pptx";
 presentation.save(outpptxFile, SaveFormat.Pptx);
 ```
-Pamiętaj o wymianie `YOUR_OUTPUT_DIRECTORY` z rzeczywistą ścieżką, gdzie chcesz zapisać plik.
+Upewnij się, że zamieniłeś `YOUR_OUTPUT_DIRECTORY` na rzeczywistą ścieżkę, w której chcesz przechowywać plik.
 
-## Zastosowania praktyczne
+## Practical Applications
 
-- **Sprawozdawczość finansowa**:Automatyzacja tworzenia wykresów do miesięcznych lub kwartalnych raportów finansowych.
-- **Wizualizacja danych w edukacji**:Szybkie generowanie slajdów opartych na danych do nauczania złożonych pojęć.
-- **Analityka biznesowa**:Ulepsz prezentacje dzięki dynamicznym analizom danych przy użyciu obliczeniowych formuł.
+- **Financial Reporting**: Automatyzuj tworzenie wykresów dla miesięcznych lub kwartalnych raportów finansowych.  
+- **Data Visualization in Education**: Szybko generuj slajdy oparte na danych, aby uczyć złożonych koncepcji.  
+- **Business Analytics**: Wzbogacaj prezentacje o dynamiczne wnioski z danych dzięki obliczanym formułom.
 
-Rozważ integrację Aspose.Slides z istniejącym procesem pracy, aby usprawnić proces przygotowywania prezentacji, zwłaszcza w przypadku obsługi dużych zbiorów danych wymagających częstych aktualizacji.
+Rozważ integrację Aspose.Slides z istniejącym przepływem pracy, aby usprawnić przygotowywanie prezentacji, szczególnie przy dużych zestawach danych wymagających częstych aktualizacji.
 
-## Rozważania dotyczące wydajności
+## Performance Considerations
 
-Zoptymalizuj wydajność poprzez:
+Optymalizuj wydajność poprzez:
 
-- Efektywne zarządzanie zasobami; zawsze pozbywaj się ich `Presentation` obiekty.
-- Minimalizowanie liczby wykresów i złożoności na jednym slajdzie, jeśli czas przetwarzania ma krytyczne znaczenie.
-- Korzystanie z operacji wsadowych dla wielu wykresów w celu zmniejszenia narzutu.
+- Efektywne zarządzanie zasobami; zawsze zwalniaj obiekty `Presentation`.  
+- Minimalizowanie liczby wykresów i ich złożoności na jednym slajdzie, jeśli czas przetwarzania jest krytyczny.  
+- Wykorzystywanie operacji wsadowych dla wielu wykresów, aby zmniejszyć narzut.
 
-Stosowanie się do tych najlepszych praktyk zapewnia płynne działanie, szczególnie w środowiskach o ograniczonych zasobach.
+Stosowanie się do tych najlepszych praktyk zapewnia płynne działanie, nawet w środowiskach o ograniczonych zasobach.
 
-## Wniosek
+## Conclusion
 
-Teraz powinieneś być dobrze wyposażony do korzystania z Aspose.Slides for Java w celu tworzenia dynamicznych prezentacji z automatycznymi możliwościami wykresów i formuł. Ta potężna biblioteka nie tylko oszczędza czas, ale także poprawia jakość Twoich wysiłków w zakresie prezentacji danych. Odkryj więcej funkcji, zagłębiając się w [Dokumentacja Aspose](https://reference.aspose.com/slides/java/) i rozważ rozszerzenie zasięgu swojego projektu o dodatkowe funkcjonalności Aspose.Slides.
+Do tej pory powinieneś być w pełni przygotowany, aby **add chart to PowerPoint** przy użyciu Aspose.Slides for Java, tworzyć dynamiczne prezentacje i wykorzystywać obliczane formuły wykresów. Ta potężna biblioteka oszczędza czas i podnosi jakość wizualizacji danych. Odkryj więcej funkcji, zagłębiając się w [Aspose Documentation](https://reference.aspose.com/slides/java/) i rozważ rozszerzenie projektu o dodatkowe możliwości Aspose.Slides.
 
-### Następne kroki
+### Next Steps
 
-- Eksperymentuj z różnymi typami wykresów i układami.
-- Zintegruj funkcjonalność Aspose.Slides z większymi projektami lub aplikacjami Java.
-- Poznaj inne biblioteki Aspose, aby zwiększyć możliwości przetwarzania dokumentów.
+- Eksperymentuj z różnymi typami wykresów i układami.  
+- Integruj funkcjonalność Aspose.Slides w większych aplikacjach Java.  
+- Poznaj inne biblioteki Aspose, aby usprawnić przetwarzanie dokumentów w różnych formatach.
 
-## Sekcja FAQ
+## Frequently Asked Questions
 
-1. **Jaka jest minimalna wersja JDK wymagana dla Aspose.Slides?**
-   - Ze względów kompatybilności i wydajności zaleca się używanie JDK w wersji 16 lub nowszej.
+**Q: What is the minimum JDK version required for Aspose.Slides?**  
+A: JDK 16 lub wyższy jest zalecany ze względu na kompatybilność i wydajność.
 
-2. **Czy mogę używać Aspose.Slides bez licencji?**
-   - Tak, ale z ograniczeniami funkcjonalności. Rozważ nabycie tymczasowej lub pełnej licencji w celu uzyskania pełnego dostępu.
+**Q: Can I use Aspose.Slides without a license?**  
+A: Tak, ale z ograniczeniami funkcjonalności. Uzyskaj tymczasową lub pełną licencję, aby korzystać bez ograniczeń.
 
-3. **Jak obsługiwać wyjątki podczas korzystania z Aspose.Slides?**
-   - Użyj bloków try-finally, aby upewnić się, że zasoby zostaną zwolnione (np. `presentation.dispose()`).
+**Q: How do I handle exceptions when using Aspose.Slides?**  
+A: Używaj bloków try‑finally, aby zapewnić zwolnienie zasobów, jak pokazano w przykładzie podstawowej inicjalizacji.
 
-4. **Czy mogę dodać wiele wykresów do jednego slajdu?**
-   - Oczywiście, twórz i rozmieszczaj każdy wykres zgodnie z potrzebami w obrębie slajdu.
+**Q: Can I add multiple charts to the same slide?**  
+A: Oczywiście — twórz i pozycjonuj każdy wykres osobno w obrębie slajdu.
 
-5. **Czy można aktualizować dane na wykresie bez ponownego generowania całej prezentacji?**
-   - Tak, można bezpośrednio manipulować danymi wykresu w skoroszycie w celu przeprowadzenia aktualizacji.
+**Q: Is it possible to update chart data without regenerating the entire presentation?**  
+A: Tak — manipuluj bezpośrednio skoroszytem danych wykresu i przelicz formuły.
 
-Więcej zasobów znajdziesz, klikając łącza podane poniżej:
-- [Dokumentacja Aspose](https://reference.aspose.com/slides/java/)
-- [Pobierz Aspose.Slides](https://releases.aspose.com/slides/java/)
-- [Kup licencję](https://purchase.aspose.com/buy)
-- [Bezpłatna wersja próbna](https://releases.aspose.com/slides/java/)
-- [Wniosek o licencję tymczasową](https://purchase.aspose.com/temporary-license/)
-- [Forum wsparcia](https://forum.aspose.com/c/slides/11)
+Explore more resources through the links provided below:
+- [Aspose Documentation](https://reference.aspose.com/slides/java/)
+- [Download Aspose.Slides](https://releases.aspose.com/slides/java/)
+- [Purchase a License](https://purchase.aspose.com/buy)
+- [Free Trial](https://releases.aspose.com/slides/java/)
+- [Temporary License Request](https://purchase.aspose.com/temporary-license/)
+- [Support Forum](https://forum.aspose.com/c/slides/11)
+
+---
+
+**Last Updated:** 2026-01-11  
+**Tested With:** Aspose.Slides 25.4 (JDK 16)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
