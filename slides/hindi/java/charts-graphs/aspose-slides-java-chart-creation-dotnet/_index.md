@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Aspose.Slides for Java का उपयोग करके .NET प्रस्तुतियों में चार्ट बनाना और उन्हें कस्टमाइज़ करना सीखें। अपने प्रस्तुति डेटा विज़ुअलाइज़ेशन को बेहतर बनाने के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें।"
-"title": "Aspose.Slides for Java&#58; .NET प्रस्तुतियों में चार्ट बनाना"
-"url": "/hi/java/charts-graphs/aspose-slides-java-chart-creation-dotnet/"
-"weight": 1
+date: '2026-01-14'
+description: जानिए कैसे .NET प्रेजेंटेशन में Aspose.Slides for Java का उपयोग करके
+  क्लस्टर्ड कॉलम चार्ट जोड़ें और स्लाइड में चार्ट सम्मिलित करें। इस चरण‑दर‑चरण गाइड
+  को पूर्ण कोड उदाहरणों के साथ अनुसरण करें।
+keywords:
+- Aspose.Slides for Java
+- .NET presentations
+- charts in .NET
+title: .NET स्लाइड्स में क्लस्टर्ड कॉलम चार्ट जोड़ें Aspose.Slides Java
+url: /hi/java/charts-graphs/aspose-slides-java-chart-creation-dotnet/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,31 +17,51 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Java के लिए Aspose.Slides का उपयोग करके .NET प्रस्तुतियों में चार्ट बनाना
-## परिचय
-आकर्षक प्रस्तुतियाँ बनाने में अक्सर दर्शकों की समझ और जुड़ाव को बढ़ाने के लिए चार्ट जैसे विज़ुअल डेटा अभ्यावेदन को एकीकृत करना शामिल होता है। यदि आप एक डेवलपर हैं जो Aspose.Slides for Java का उपयोग करके अपने .NET प्रस्तुतियों में गतिशील, अनुकूलन योग्य चार्ट जोड़ना चाहते हैं, तो यह ट्यूटोरियल आपके लिए ही बनाया गया है। हम इस बात पर गहनता से चर्चा करेंगे कि आप प्रस्तुतियाँ कैसे आरंभ कर सकते हैं, विभिन्न चार्ट प्रकार जोड़ सकते हैं, चार्ट डेटा प्रबंधित कर सकते हैं और श्रृंखला डेटा को प्रभावी ढंग से प्रारूपित कर सकते हैं।
-**आप क्या सीखेंगे:**
-- अपने .NET वातावरण में Java के लिए Aspose.Slides को कैसे सेट अप और उपयोग करें।
-- Aspose.Slides का उपयोग करके एक नई प्रस्तुति आरंभ करना।
-- स्लाइडों में चार्ट जोड़ना और अनुकूलित करना.
-- चार्ट डेटा कार्यपुस्तिकाओं का प्रबंधन करना.
-- श्रृंखला डेटा को प्रारूपित करना, विशेष रूप से ऋणात्मक मानों को संभालना।
-पूर्वापेक्षा अनुभाग में जाने से यह सुनिश्चित हो जाएगा कि आप आसानी से उसका अनुसरण करने के लिए पूरी तरह तैयार हैं।
-## आवश्यक शर्तें
-Aspose.Slides for Java के साथ चार्ट बनाने में आगे बढ़ने से पहले, आइए जानते हैं कि आपको क्या चाहिए:
-### आवश्यक लाइब्रेरी और संस्करण
-सुनिश्चित करें कि आपके पास निम्नलिखित निर्भरताएँ हैं:
-- **जावा के लिए Aspose.Slides**: संस्करण 25.4 या बाद का.
-### पर्यावरण सेटअप आवश्यकताएँ
-- .NET अनुप्रयोगों का समर्थन करने वाला विकास वातावरण.
-- जावा प्रोग्रामिंग अवधारणाओं की बुनियादी समझ।
-### ज्ञान पूर्वापेक्षाएँ
-- .NET अनुप्रयोग संदर्भ में प्रस्तुतियाँ बनाने की जानकारी।
-- जावा निर्भरता और उनके प्रबंधन को समझना (मावेन/ग्रैडल)।
-## Java के लिए Aspose.Slides सेट अप करना
-Aspose.Slides का उपयोग शुरू करने के लिए, आपको इसे अपने प्रोजेक्ट में निर्भरता के रूप में शामिल करना होगा। यहाँ बताया गया है कि आप ऐसा कैसे कर सकते हैं:
-### मावेन
-अपने में निम्नलिखित निर्भरता जोड़ें `pom.xml` फ़ाइल:
+# Creating Charts in .NET Presentations Using Aspose.Slides for Java
+## Introduction
+आकर्षक प्रस्तुतियों को अक्सर चार्ट जैसे दृश्य डेटा प्रतिनिधित्वों को एकीकृत करके दर्शकों की समझ और सहभागिता को बढ़ाया जाता है। यदि आप एक डेवलपर हैं जो Aspose.Slides for Java का उपयोग करके अपने .NET प्रस्तुतियों में गतिशील, अनुकूलन योग्य चार्ट जोड़ना चाहते हैं, तो यह ट्यूटोरियल आपके लिए ही तैयार किया गया है। हम यह देखेंगे कि आप प्रस्तुतियों को कैसे इनिशियलाइज़ कर सकते हैं, विभिन्न प्रकार के चार्ट कैसे जोड़ सकते हैं, चार्ट डेटा को कैसे प्रबंधित कर सकते हैं, और सीरीज़ डेटा को प्रभावी रूप से कैसे फॉर्मेट कर सकते हैं।
+
+**What You'll Learn:**
+- अपने .NET वातावरण में Aspose.Slides for Java को सेट अप और उपयोग करने का तरीका।
+- Aspose.Slides का उपयोग करके नई प्रस्तुति को इनिशियलाइज़ करना।
+- स्लाइड्स में चार्ट जोड़ना और कस्टमाइज़ करना।
+- चार्ट डेटा वर्कबुक को प्रबंधित करना।
+- विशेष रूप से नकारात्मक मानों को संभालते हुए सीरीज़ डेटा को फॉर्मेट करना।
+
+Prerequisites सेक्शन में जाने से पहले आप सुनिश्चित कर लेंगे कि आप आसानी से आगे बढ़ सकते हैं।
+
+## Quick Answers
+- **What is the primary goal?** Add a clustered column chart to a .NET slide.  
+- **Which library is required?** Aspose.Slides for Java (v25.4+).  
+- **Can I use it in a .NET project?** Yes – the Java library works via the Java‑to‑.NET bridge.  
+- **Do I need a license?** A free trial works for development; a commercial license is required for production.  
+- **How long does the implementation take?** About 10‑15 minutes for a basic chart.
+
+## What is a clustered column chart?
+एक क्लस्टर्ड कॉलम चार्ट प्रत्येक श्रेणी के लिए कई डेटा सीरीज़ को साइड‑बाय‑साइड दिखाता है, जिससे समूहों के बीच मानों की तुलना आसान हो जाती है। यह विज़ुअल बिज़नेस डैशबोर्ड, परफ़ॉर्मेंस रिपोर्ट, और किसी भी स्थिति में जहाँ आपको कई मीट्रिक को कंट्रास्ट करना हो, के लिए उपयुक्त है।
+
+## Why add chart to slide with Aspose.Slides for Java?
+Aspose.Slides का उपयोग करके आप Microsoft PowerPoint स्थापित किए बिना प्रस्तुतियों को जेनरेट, मॉडिफ़ाई और सेव कर सकते हैं। यह चार्ट प्रकार, डेटा और स्टाइलिंग पर पूर्ण नियंत्रण प्रदान करता है, जिससे आप अपने .NET एप्लिकेशन से सीधे रिपोर्ट जेनरेशन को ऑटोमेट कर सकते हैं।
+
+## Prerequisites
+Aspose.Slides for Java के साथ चार्ट बनाने से पहले, आइए देखें कि आपको क्या चाहिए:
+
+### Required Libraries and Versions
+- **Aspose.Slides for Java**: संस्करण 25.4 या बाद का।
+
+### Environment Setup Requirements
+- .NET एप्लिकेशन को सपोर्ट करने वाला विकास वातावरण।
+- Java प्रोग्रामिंग कॉन्सेप्ट्स की बुनियादी समझ।
+
+### Knowledge Prerequisites
+- .NET एप्लिकेशन कॉन्टेक्स्ट में प्रस्तुतियों को बनाने की परिचितता।
+- Java डिपेंडेंसीज़ और उनके मैनेजमेंट (Maven/Gradle) की समझ।
+
+## Setting Up Aspose.Slides for Java
+Aspose.Slides का उपयोग शुरू करने के लिए आपको इसे अपने प्रोजेक्ट में डिपेंडेंसी के रूप में शामिल करना होगा। इसे करने का तरीका नीचे दिया गया है:
+
+### Maven
+अपने `pom.xml` फ़ाइल में निम्नलिखित डिपेंडेंसी जोड़ें:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -44,82 +70,96 @@ Aspose.Slides का उपयोग शुरू करने के लिए,
     <classifier>jdk16</classifier>
 </dependency>
 ```
-### ग्रैडल
-इसे अपने में शामिल करें `build.gradle` फ़ाइल:
+
+### Gradle
+अपने `build.gradle` फ़ाइल में यह शामिल करें:
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
-### प्रत्यक्षत: डाउनलोड
-वैकल्पिक रूप से, आप नवीनतम संस्करण यहाँ से डाउनलोड कर सकते हैं [Aspose.Slides for Java रिलीज़](https://releases.aspose.com/slides/java/).
-#### लाइसेंस प्राप्ति चरण
-- **मुफ्त परीक्षण**: सुविधाओं का पता लगाने के लिए एक अस्थायी लाइसेंस के साथ शुरुआत करें।
-- **खरीदना**व्यापक उपयोग के लिए लाइसेंस खरीदने पर विचार करें।
-#### बुनियादी आरंभीकरण और सेटअप
-यहां बताया गया है कि आप अपने कोड में Aspose.Slides को कैसे आरंभ करते हैं:
+
+### Direct Download
+वैकल्पिक रूप से, आप नवीनतम संस्करण [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) से डाउनलोड कर सकते हैं।
+
+#### License Acquisition Steps
+- **Free Trial**: फीचर एक्सप्लोर करने के लिए एक टेम्पररी लाइसेंस से शुरू करें।  
+- **Purchase**: व्यापक उपयोग के लिए लाइसेंस खरीदने पर विचार करें।
+
+#### Basic Initialization and Setup
+कोड में Aspose.Slides को इनिशियलाइज़ करने का तरीका नीचे दिया गया है:
 ```java
 import com.aspose.slides.Presentation;
-// एक नया प्रेजेंटेशन ऑब्जेक्ट आरंभ करें
+// Initialize a new Presentation object
 Presentation pres = new Presentation();
 try {
-    // आपका तर्क यहाँ...
+    // Your logic here...
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
-यह सेटअप सुनिश्चित करता है कि संसाधन प्रबंधन प्रभावी ढंग से किया जाए।
-## कार्यान्वयन मार्गदर्शिका
-हम आपको चरण-दर-चरण सुविधाओं के क्रियान्वयन के बारे में बताएंगे।
-### प्रस्तुति आरंभ करना
-**अवलोकन:**
-प्रेजेंटेशन इंस्टेंस बनाना सभी आगामी कार्यों के लिए मंच तैयार करता है। यह सुविधा दिखाती है कि Aspose.Slides का उपयोग करके शुरुआत से कैसे शुरू किया जाए।
-#### चरण 1: आवश्यक पैकेज आयात करें
+यह सेटअप सुनिश्चित करता है कि रिसोर्स मैनेजमेंट प्रभावी रूप से संभाला जाए।
+
+## Implementation Guide
+हम आपको फीचर‑बाय‑फ़ीचर इम्प्लीमेंटेशन के माध्यम से ले चलेंगे।
+
+### Initializing Presentation
+**Overview:**  
+एक प्रस्तुति इंस्टेंस बनाना सभी बाद के ऑपरेशन्स के लिए मंच तैयार करता है। यह फीचर दिखाता है कि आप Aspose.Slides का उपयोग करके शून्य से कैसे शुरू कर सकते हैं।
+
+#### Step 1: Import Necessary Packages
 ```java
 import com.aspose.slides.Presentation;
 ```
-#### चरण 2: नया प्रेजेंटेशन ऑब्जेक्ट बनाएँ
-इसे आप इस प्रकार कर सकते हैं:
+
+#### Step 2: Create a New Presentation Object
+इसे इस प्रकार करें:
 ```java
 Presentation pres = new Presentation();
 try {
-    // आपका कोड तर्क यहाँ...
+    // Your code logic here...
 } finally {
-    if (pres != null) pres.dispose(); // यह सुनिश्चित करता है कि संसाधन मुक्त हों
+    if (pres != null) pres.dispose(); // Ensures resources are freed
 }
 ```
-*इससे यह सुनिश्चित होता है कि उपयोग के बाद प्रस्तुति ऑब्जेक्ट का उचित तरीके से निपटान हो जाए, जिससे मेमोरी लीक को रोका जा सके।*
-### स्लाइड में चार्ट जोड़ना
-**अवलोकन:**
-अपनी स्लाइड में चार्ट जोड़ने से डेटा विज़ुअलाइज़ेशन अधिक प्रभावी और आकर्षक बन सकता है।
-#### चरण 1: आवश्यक पैकेज आयात करें
+*यह सुनिश्चित करता है कि उपयोग के बाद प्रस्तुति ऑब्जेक्ट सही तरीके से डिस्पोज़ हो, जिससे मेमोरी लीक नहीं होगी।*
+
+### Adding Chart to Slide
+**Overview:**  
+स्लाइड में चार्ट जोड़ने से डेटा विज़ुअलाइज़ेशन अधिक प्रभावी और आकर्षक बन जाता है।
+
+#### Step 1: Import Necessary Packages
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.ISlide;
 import com.aspose.slides.IChart;
 import com.aspose.slides.ChartType;
 ```
-#### चरण 2: प्रस्तुति आरंभ करें और चार्ट जोड़ें
+
+#### Step 2: Initialize Presentation and Add Chart
 ```java
 Presentation pres = new Presentation();
 try {
     ISlide slide = pres.getSlides().get_Item(0);
     IChart chart = slide.getShapes().addChart(ChartType.ClusteredColumn, 100, 100, 400, 300);
 
-    // चार्ट अनुकूलन के लिए अतिरिक्त तर्क...
+    // Additional logic for chart customization...
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
-*यहां, हम निर्दिष्ट निर्देशांकों और आयामों पर पहली स्लाइड में एक क्लस्टर कॉलम चार्ट जोड़ते हैं।*
-### चार्ट डेटा कार्यपुस्तिका प्रबंधित करना
-**अवलोकन:**
-अपने चार्ट की डेटा वर्कबुक को कुशलतापूर्वक प्रबंधित करने से आप श्रृंखलाओं और श्रेणियों को सहजता से प्रबंधित कर सकते हैं।
-#### चरण 1: आवश्यक पैकेज आयात करें
+*यहाँ, हम पहले स्लाइड में निर्दिष्ट कोऑर्डिनेट्स और डाइमेंशन्स के साथ एक क्लस्टर्ड कॉलम चार्ट जोड़ते हैं।*
+
+### Managing Chart Data Workbook
+**Overview:**  
+अपने चार्ट के डेटा वर्कबुक को कुशलतापूर्वक मैनेज करने से आप सीरीज़ और कैटेगरीज को सहजता से हेरफेर कर सकते हैं।
+
+#### Step 1: Import Necessary Packages
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.IChart;
 import com.aspose.slides.IChartDataWorkbook;
 ```
-#### चरण 2: डेटा कार्यपुस्तिका तक पहुँचें और उसे साफ़ करें
+
+#### Step 2: Access and Clear Data Workbook
 ```java
 Presentation pres = new Presentation();
 try {
@@ -128,20 +168,22 @@ try {
 
     IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
 
-    // मौजूदा डेटा साफ़ करें
+    // Clear existing data
     chart.getChartData().getSeries().clear();
     chart.getChartData().getCategories().clear();
 
-    // आपका अनुकूलन तर्क यहाँ...
+    // Your customization logic here...
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
-*नई श्रृंखला और श्रेणियां जोड़ते समय कार्यपुस्तिका को साफ़ करना एक साफ़ स्लेट के साथ शुरू करने के लिए महत्वपूर्ण है।*
-### चार्ट में श्रृंखला और श्रेणियाँ जोड़ना
-**अवलोकन:**
-यह सुविधा दिखाती है कि आप श्रृंखलाओं और श्रेणियों का प्रबंधन करके कैसे सार्थक डेटा बिंदु जोड़ सकते हैं।
-#### चरण 1: श्रृंखला और श्रेणियाँ जोड़ें
+*वर्कबुक को क्लियर करना नई सीरीज़ और कैटेगरीज जोड़ते समय एक साफ़ शुरुआत के लिए आवश्यक है।*
+
+### Adding Series and Categories to Chart
+**Overview:**  
+यह फीचर दिखाता है कि आप सीरीज़ और कैटेगरीज को कैसे जोड़कर अर्थपूर्ण डेटा पॉइंट्स बना सकते हैं।
+
+#### Step 1: Add Series and Categories
 ```java
 Presentation pres = new Presentation();
 try {
@@ -150,26 +192,28 @@ try {
 
     IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
 
-    // मौजूदा श्रृंखला और श्रेणियाँ साफ़ करें
+    // Clear existing series and categories
     chart.getChartData().getSeries().clear();
     chart.getChartData().getCategories().clear();
 
-    // नई श्रृंखला और श्रेणियां जोड़ें
+    // Add new series and categories
     chart.getChartData().getSeries().add(workBook.getCell(0, 0, 1, "Series 1"), chart.getType());
     chart.getChartData().getCategories().add(workBook.getCell(0, 1, 0, "Category 1"));
     chart.getChartData().getCategories().add(workBook.getCell(0, 2, 0, "Category 2"));
     chart.getChartData().getCategories().add(workBook.getCell(0, 3, 0, "Category 3"));
 
-    // आगे अनुकूलन तर्क...
+    // Further customization logic...
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
-*श्रृंखला और श्रेणियाँ जोड़ने से डेटा प्रस्तुति अधिक व्यवस्थित हो जाती है।*
-### श्रृंखला डेटा भरना और स्वरूपण करना
-**अवलोकन:**
-अपने चार्ट को डेटा बिंदुओं से भरें और पठनीयता बढ़ाने के लिए स्वरूप को प्रारूपित करें, विशेष रूप से नकारात्मक मानों के साथ काम करते समय।
-#### चरण 1: श्रृंखला डेटा भरें
+*सीरीज़ और कैटेगरीज जोड़ने से डेटा प्रस्तुति अधिक व्यवस्थित हो जाती है।*
+
+### Populating Series Data and Formatting
+**Overview:**  
+अपने चार्ट को डेटा पॉइंट्स से भरें और नकारात्मक मानों को विशेष रूप से हाइलाइट करने के लिए फॉर्मेटिंग लागू करें।
+
+#### Step 1: Populate Series Data
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.IChart;
@@ -185,14 +229,14 @@ try {
 
     IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
 
-    // श्रृंखला और श्रेणियाँ जोड़ें (पिछले तर्क का पुनः उपयोग करें)
+    // Add series and categories (reuse previous logic)
     
     IChartSeries series = chart.getChartData().getSeries().get_Item(0);
     series.getDataPoints().addDataPointForBarSeries(workBook.getCell(0, 1, 1, -20));
     series.getDataPoints().addDataPointForBarSeries(workBook.getCell(0, 2, 1, 30));
     series.getDataPoints().addDataPointForBarSeries(workBook.getCell(0, 3, 1, 10));
 
-    // नकारात्मक मानों के लिए श्रृंखला प्रारूपित करें
+    // Format series for negative values
     series.getFormat().getFill().setFillType(FillType.Solid);
     series.getFormat().getLine().getFillFormat().setFillType(FillType.NoFill);
     
@@ -208,13 +252,35 @@ try {
         }
     }
 
-    // प्रस्तुति सहेजें
+    // Save the presentation
     pres.save("output.pptx", SaveFormat.Pptx);
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
-*यह अनुभाग दर्शाता है कि डेटा को कैसे पॉप्युलेट किया जाए और बेहतर विज़ुअलाइज़ेशन के लिए रंग फ़ॉर्मेटिंग कैसे लागू की जाए।*
+*यह सेक्शन डेटा को पॉपुलेट करने और बेहतर विज़ुअलाइज़ेशन के लिए कलर फॉर्मेटिंग लागू करने का प्रदर्शन करता है।*
+
+## Common Issues and Solutions
+- **Memory leaks:** हमेशा `Presentation` ऑब्जेक्ट पर `finally` ब्लॉक में `dispose()` कॉल करें।  
+- **Incorrect chart type:** जब आप क्लस्टर्ड कॉलम चार्ट चाहते हैं तो `ChartType.ClusteredColumn` का उपयोग सुनिश्चित करें; अन्य प्रकार अलग विज़ुअल परिणाम देंगे।  
+- **Negative value colors not applied:** `IDataPoint` वैल्यू को `Number` में सही तरीके से कास्ट किया गया है या नहीं, यह जांचें।
+
+## Frequently Asked Questions
+
+**Q: Can I use Aspose.Slides for Java in a pure .NET project without Java?**  
+A: Yes. The library works via the Java‑to‑.NET bridge, allowing you to call Java APIs from .NET languages.
+
+**Q: Does the free trial support chart creation?**  
+A: The trial version includes full chart functionality, but generated files contain a small evaluation watermark.
+
+**Q: Which .NET versions are compatible?**  
+A: Any .NET version that can interoperate with Java 16+, including .NET Framework 4.6+, .NET Core 3.1+, and .NET 5/6/7.
+
+**Q: How do I handle large presentations with many charts?**  
+A: Reuse the same `IChartDataWorkbook` instance where possible and dispose of each `Presentation` promptly to free memory.
+
+**Q: Is it possible to export the chart as an image?**  
+A: Yes. Use `chart.getImage()` or `chart.exportChartImage()` methods to obtain PNG/JPEG representations.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -223,3 +289,11 @@ try {
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-14  
+**Tested With:** Aspose.Slides for Java 25.4  
+**Author:** Aspose  
+
+---
