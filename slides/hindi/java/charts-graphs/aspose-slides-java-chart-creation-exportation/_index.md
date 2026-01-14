@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-17"
-"description": "जावा में Aspose.Slides का उपयोग करके चार्ट बनाना और निर्यात करना सीखें। चरण-दर-चरण मार्गदर्शिकाओं और कोड उदाहरणों के साथ डेटा विज़ुअलाइज़ेशन तकनीकों में महारत हासिल करें।"
-"title": "Aspose.Slides Java&#58; डेटा विज़ुअलाइज़ेशन के लिए चार्ट बनाना और निर्यात करना"
-"url": "/hi/java/charts-graphs/aspose-slides-java-chart-creation-exportation/"
-"weight": 1
+date: '2026-01-14'
+description: Aspose.Slides for Java का उपयोग करके चार्ट को Excel में निर्यात करना
+  और प्रस्तुतियों में पाई चार्ट स्लाइड जोड़ना सीखें। कोड के साथ चरण‑दर‑चरण मार्गदर्शिका।
+keywords:
+- Aspose.Slides Java
+- creating charts in Java
+- exporting chart data with Aspose
+title: Aspose.Slides Java के साथ चार्ट को Excel में निर्यात करें
+url: /hi/java/charts-graphs/aspose-slides-java-chart-creation-exportation/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,38 +16,48 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.Slides Java का उपयोग करके चार्ट बनाना और निर्यात करना
+# Export Chart to Excel Using Aspose.Slides for Java
 
 **Aspose.Slides for Java के साथ डेटा विज़ुअलाइज़ेशन तकनीकों में महारत हासिल करें**
 
-आज के डेटा-संचालित परिदृश्य में, सूचित निर्णय लेने के लिए प्रभावी डेटा विज़ुअलाइज़ेशन आवश्यक है। अपने जावा अनुप्रयोगों में चार्ट कार्यक्षमताओं को एकीकृत करने से कच्चे डेटा को आकर्षक दृश्य कहानियों में बदला जा सकता है। यह ट्यूटोरियल आपको Aspose.Slides for Java का उपयोग करके चार्ट बनाने और निर्यात करने के बारे में मार्गदर्शन करेगा, यह सुनिश्चित करते हुए कि आपकी प्रस्तुतियाँ जानकारीपूर्ण और दृश्य रूप से आकर्षक दोनों हैं।
+आज के डेटा‑ड्रिवेन परिदृश्य में, अपने Java एप्लिकेशन से **export chart to excel** सीधे करने की क्षमता स्थिर PowerPoint विज़ुअल्स को पुन: उपयोग योग्य, विश्लेषण योग्य डेटा सेट में बदल सकती है। चाहे आपको रिपोर्ट बनानी हो, एनालिटिक्स पाइपलाइन को फ़ीड करना हो, या बस बिज़नेस यूज़र्स को Excel में चार्ट डेटा एडिट करने देना हो, Aspose.Slides इसे सरल बनाता है। यह ट्यूटोरियल आपको एक चार्ट बनाने, पाई चार्ट स्लाइड जोड़ने, और उस चार्ट डेटा को Excel वर्कबुक में एक्सपोर्ट करने की प्रक्रिया दिखाता है।
 
 **आप क्या सीखेंगे:**
-- प्रस्तुति फ़ाइलों को आसानी से लोड और संचालित करें
-- अपनी स्लाइड्स में विभिन्न प्रकार के चार्ट जोड़ें
-- चार्ट डेटा को बाहरी कार्यपुस्तिकाओं में सहजता से निर्यात करें
-- कुशल डेटा प्रबंधन के लिए बाह्य कार्यपुस्तिका पथ सेट करें
+- प्रेजेंटेशन फ़ाइलों को आसानी से लोड और मैनीपुलेट करना
+- **Add pie chart slide** और अन्य चार्ट प्रकारों को स्लाइड्स में जोड़ना
+- **Export chart to excel** (चार्ट से Excel जेनरेट करना) के लिए डाउनस्ट्रीम एनालिसिस
+- एक एक्सटर्नल वर्कबुक पाथ सेट करके **embed chart in presentation** और डेटा को सिंक्रनाइज़ रखना
 
-आएँ शुरू करें!
+चलिए शुरू करते हैं!
 
-## आवश्यक शर्तें
-शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित सेटअप तैयार है:
+## Quick Answers
+- **What is the primary purpose?** PowerPoint स्लाइड से Excel फ़ाइल में चार्ट डेटा एक्सपोर्ट करना।  
+- **Which library version is required?** Aspose.Slides for Java 25.4 या बाद का संस्करण।  
+- **Do I need a license?** मूल्यांकन के लिए फ्री ट्रायल काम करता है; प्रोडक्शन के लिए कमर्शियल लाइसेंस आवश्यक है।  
+- **Can I add a pie chart slide?** हाँ – ट्यूटोरियल में दिखाया गया है कि कैसे Pie chart जोड़ें।  
+- **Is Java 16 minimum?** हाँ, JDK 16 या उससे ऊपर की सलाह दी जाती है।
 
-### आवश्यक लाइब्रेरी और संस्करण
-- **जावा के लिए Aspose.Slides** संस्करण 25.4 या बाद का
+## How to export chart to excel using Aspose.Slides?
+चार्ट डेटा को Excel में एक्सपोर्ट करना इतना सरल है जितना कि प्रेजेंटेशन लोड करना, एक चार्ट बनाना, और फिर चार्ट की वर्कबुक स्ट्रीम को फ़ाइल में लिखना। नीचे दिए गए चरण पूरे प्रोसेस को कवर करते हैं, प्रोजेक्ट सेटअप से लेकर अंतिम वेरिफिकेशन तक।
 
-### पर्यावरण सेटअप आवश्यकताएँ
-- जावा डेवलपमेंट किट (JDK) 16 या उससे अधिक
-- एक कोड संपादक या IDE जैसे IntelliJ IDEA या Eclipse
+## Prerequisites
+शुरू करने से पहले सुनिश्चित करें कि आपके पास निम्नलिखित तैयार हैं:
 
-### ज्ञान पूर्वापेक्षाएँ
-- जावा प्रोग्रामिंग की बुनियादी समझ
-- मावेन या ग्रेडेल बिल्ड सिस्टम से परिचित होना
+### Required Libraries and Versions
+- **Aspose.Slides for Java** संस्करण 25.4 या बाद का
 
-## Java के लिए Aspose.Slides सेट अप करना
-Aspose.Slides का उपयोग शुरू करने के लिए, आपको इसे अपने प्रोजेक्ट में शामिल करना होगा। यहाँ बताया गया है कि कैसे:
+### Environment Setup Requirements
+- Java Development Kit (JDK) 16 या उससे ऊपर
+- IntelliJ IDEA या Eclipse जैसे कोड एडिटर या IDE
 
-**मावेन**
+### Knowledge Prerequisites
+- बेसिक Java प्रोग्रामिंग स्किल्स
+- Maven या Gradle बिल्ड सिस्टम की परिचितता
+
+## Setting Up Aspose.Slides for Java
+Aspose.Slides का उपयोग शुरू करने के लिए इसे Maven या Gradle के माध्यम से अपने प्रोजेक्ट में शामिल करें।
+
+**Maven**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -52,62 +67,63 @@ Aspose.Slides का उपयोग शुरू करने के लिए,
 </dependency>
 ```
 
-**ग्रैडल**
+**Gradle**
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-वैकल्पिक रूप से, आप [नवीनतम संस्करण सीधे डाउनलोड करें](https://releases.aspose.com/slides/java/).
+वैकल्पिक रूप से, आप सीधे [latest version को डाउनलोड कर सकते हैं](https://releases.aspose.com/slides/java/)।
 
-### लाइसेंस प्राप्ति चरण
-Aspose.Slides अपनी पूरी क्षमताओं का पता लगाने के लिए एक निःशुल्क परीक्षण लाइसेंस प्रदान करता है। आप एक अस्थायी लाइसेंस के लिए भी आवेदन कर सकते हैं या विस्तारित उपयोग के लिए एक खरीद सकते हैं। इन चरणों का पालन करें:
-1. दौरा करना [Aspose खरीद पृष्ठ](https://purchase.aspose.com/buy) अपना लाइसेंस प्राप्त करने के लिए.
-2. निःशुल्क परीक्षण के लिए, यहां से डाउनलोड करें [विज्ञप्ति](https://releases.aspose.com/slides/java/).
-3. अस्थायी लाइसेंस के लिए आवेदन करें [यहाँ](https://purchase.aspose.com/temporary-license/).
+### License Acquisition Steps
+Aspose.Slides अपनी पूरी क्षमताओं को एक्सप्लोर करने के लिए एक फ्री ट्रायल लाइसेंस प्रदान करता है। आप एक टेम्पररी लाइसेंस के लिए अप्लाई कर सकते हैं या विस्तारित उपयोग के लिए खरीद सकते हैं। नीचे दिए गए चरणों का पालन करें:
+1. अपना लाइसेंस प्राप्त करने के लिए [Aspose Purchase page](https://purchase.aspose.com/buy) पर जाएँ।  
+2. फ्री ट्रायल के लिए, [Releases](https://releases.aspose.com/slides/java/) से डाउनलोड करें।  
+3. टेम्पररी लाइसेंस के लिए [here](https://purchase.aspose.com/temporary-license/) अप्लाई करें।
 
-एक बार जब आपके पास लाइसेंस फ़ाइल आ जाए, तो उसे अपने जावा अनुप्रयोग में आरंभ करें:
+लाइसेंस फ़ाइल मिलने के बाद, इसे अपने Java एप्लिकेशन में इनिशियलाइज़ करें:
 ```java
 com.aspose.slides.License license = new com.aspose.slides.License();
 license.setLicense("path/to/your/license/file.lic");
 ```
 
-## कार्यान्वयन मार्गदर्शिका
-### फ़ीचर 1: प्रेजेंटेशन लोड करें
-किसी भी मैनीपुलेशन कार्य के लिए प्रेजेंटेशन लोड करना पहला कदम है।
+## Implementation Guide
 
-#### अवलोकन
-यह सुविधा दर्शाती है कि Aspose.Slides for Java का उपयोग करके किसी मौजूदा PowerPoint फ़ाइल को कैसे लोड किया जाए।
+### Feature 1: Load Presentation
+प्रेजेंटेशन लोड करना किसी भी मैनीपुलेशन टास्क की पहली स्टेप है।
 
-#### चरण-दर-चरण कार्यान्वयन
-**स्लाइड में चार्ट जोड़ें**
+#### Overview
+यह फीचर दिखाता है कि Aspose.Slides for Java का उपयोग करके मौजूदा PowerPoint फ़ाइल को कैसे लोड किया जाए।
+
+#### Step‑by‑Step Implementation
+**Load Presentation**
 ```java
 import com.aspose.slides.Presentation;
 
 public class Feature1 {
     public static void main(String[] args) {
-        // अपने दस्तावेज़ निर्देशिका का पथ सेट करें
+        // Set the path to your document directory
         String dataDir = "YOUR_DOCUMENT_DIRECTORY";
         
-        // मौजूदा प्रस्तुति लोड करें
+        // Load an existing presentation
         Presentation pres = new Presentation(dataDir + "/presentation.pptx");
         
-        // संसाधनों को साफ करें
+        // Clean up resources
         if (pres != null) pres.dispose();
     }
 }
 ```
-**स्पष्टीकरण:**
-- `Presentation` आपके पथ के साथ आरंभ किया गया है `.pptx` फ़ाइल।
-- हमेशा इसका निपटान करें `Presentation` निःशुल्क संसाधनों पर आपत्ति।
+**Explanation:**  
+- `Presentation` को आपके `.pptx` फ़ाइल पाथ के साथ इनिशियलाइज़ किया गया है।  
+- नेटीव रिसोर्सेज़ को फ्री करने के लिए हमेशा `Presentation` ऑब्जेक्ट को डिस्पोज़ करें।
 
-### फ़ीचर 2: स्लाइड में चार्ट जोड़ें
-चार्ट जोड़ने से डेटा प्रस्तुति में काफी सुधार हो सकता है।
+### Feature 2: Add Pie Chart Slide
+चार्ट जोड़ने से डेटा प्रस्तुति में काफी सुधार हो सकता है, और कई डेवलपर्स पूछते हैं **how to add chart slide** in Java।
 
-#### अवलोकन
-यह सुविधा दिखाती है कि किसी प्रस्तुति की पहली स्लाइड में पाई चार्ट कैसे जोड़ा जाए।
+#### Overview
+यह फीचर दिखाता है कि कैसे **pie chart slide** (क्लासिक “add pie chart slide” परिदृश्य) को प्रेजेंटेशन की पहली स्लाइड में जोड़ा जाए।
 
-#### चरण-दर-चरण कार्यान्वयन
-**स्लाइड में चार्ट जोड़ें**
+#### Step‑by‑Step Implementation
+**Add Pie Chart**
 ```java
 import com.aspose.slides.ChartType;
 import com.aspose.slides.IChart;
@@ -115,12 +131,12 @@ import com.aspose.slides.Presentation;
 
 public class Feature2 {
     public static void main(String[] args) {
-        // अपने दस्तावेज़ निर्देशिका का पथ सेट करें
+        // Set the path to your document directory
         String dataDir = "YOUR_DOCUMENT_DIRECTORY";
         
         Presentation pres = new Presentation(dataDir + "/presentation.pptx");
         try {
-            // स्थिति (50, 50) पर 400 चौड़ाई और 600 ऊंचाई वाला पाई चार्ट जोड़ें
+            // Add a Pie chart at position (50, 50) with width 400 and height 600
             IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
                 ChartType.Pie, 50, 50, 400, 600);
         } finally {
@@ -129,18 +145,18 @@ public class Feature2 {
     }
 }
 ```
-**स्पष्टीकरण:**
-- `addChart` इस विधि का उपयोग पाई चार्ट सम्मिलित करने के लिए किया जाता है।
-- पैरामीटर में चार्ट का प्रकार और स्लाइड पर उसकी स्थिति/आकार शामिल होते हैं।
+**Explanation:**  
+- `addChart` एक Pie chart इंसर्ट करता है।  
+- पैरामीटर्स चार्ट टाइप और स्लाइड पर उसकी पोज़िशन/साइज़ को परिभाषित करते हैं।
 
-### सुविधा 3: चार्ट डेटा को बाहरी कार्यपुस्तिका में निर्यात करें
-डेटा निर्यात करने से पावरपॉइंट के बाहर भी आगे का विश्लेषण संभव हो जाता है।
+### Feature 3: Generate Excel from Chart
+चार्ट डेटा को एक्सपोर्ट करने से आप **generate excel from chart** करके गहरी एनालिसिस कर सकते हैं।
 
-#### अवलोकन
-यह सुविधा किसी प्रस्तुति से चार्ट डेटा को बाहरी Excel कार्यपुस्तिका में निर्यात करने का प्रदर्शन करती है।
+#### Overview
+यह फीचर प्रेजेंटेशन से चार्ट डेटा को एक एक्सटर्नल Excel वर्कबुक में एक्सपोर्ट करने को दर्शाता है।
 
-#### चरण-दर-चरण कार्यान्वयन
-**डेटा निर्यात करें**
+#### Step‑by‑Step Implementation
+**Export Data**
 ```java
 import com.aspose.slides.IChart;
 import java.io.File;
@@ -151,21 +167,21 @@ import com.aspose.slides.Presentation;
 
 public class Feature3 {
     public static void main(String[] args) {
-        // अपने दस्तावेज़ निर्देशिका और आउटपुट निर्देशिका का पथ सेट करें
+        // Set the path to your document directory and output directory
         String dataDir = "YOUR_DOCUMENT_DIRECTORY";
         
         Presentation pres = new Presentation(dataDir + "/presentation.pptx");
         try {
-            // पहली स्लाइड के चार्ट तक पहुंचें
+            // Access the first slide's chart
             IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
                 com.aspose.slides.ChartType.Pie, 50, 50, 400, 600);
             
-            // बाह्य कार्यपुस्तिका के लिए पथ परिभाषित करें
+            // Define the path for the external workbook
             String externalWbPath = dataDir + "/externalWorkbook1.xlsx";
             File file = new File(externalWbPath);
             if (file.exists()) file.delete();
             
-            // चार्ट डेटा को Excel स्ट्रीम में निर्यात करें
+            // Export chart data to an Excel stream
             byte[] workbookData = chart.getChartData().readWorkbookStream();
             FileOutputStream outputStream = new FileOutputStream(file);
             outputStream.write(workbookData);
@@ -180,34 +196,34 @@ public class Feature3 {
     }
 }
 ```
-**स्पष्टीकरण:**
-- `readWorkbookStream` चार्ट डेटा निकालता है.
-- डेटा को एक्सेल फ़ाइल में लिखा जाता है `FileOutputStream`.
+**Explanation:**  
+- `readWorkbookStream` चार्ट की वर्कबुक डेटा को एक्सट्रैक्ट करता है।  
+- बाइट एरे को `FileOutputStream` का उपयोग करके `.xlsx` फ़ाइल में लिखा जाता है।
 
-### फ़ीचर 4: चार्ट डेटा के लिए बाहरी कार्यपुस्तिका सेट करें
-चार्ट को बाहरी कार्यपुस्तिकाओं से जोड़ने से डेटा प्रबंधन को सुव्यवस्थित किया जा सकता है।
+### Feature 4: Embed Chart in Presentation with External Workbook
+एक चार्ट को एक्सटर्नल वर्कबुक से लिंक करने से आप **embed chart in presentation** कर सकते हैं और डेटा को सिंक्रनाइज़ रख सकते हैं।
 
-#### अवलोकन
-यह सुविधा चार्ट डेटा संग्रहीत करने के लिए बाह्य कार्यपुस्तिका पथ सेट करना प्रदर्शित करती है।
+#### Overview
+यह फीचर दिखाता है कि कैसे एक एक्सटर्नल वर्कबुक पाथ सेट किया जाए ताकि चार्ट सीधे Excel फ़ाइल से पढ़/लिख सके।
 
-#### चरण-दर-चरण कार्यान्वयन
-**बाह्य कार्यपुस्तिका पथ सेट करें**
+#### Step‑by‑Step Implementation
+**Set External Workbook Path**
 ```java
 import com.aspose.slides.IChart;
 import com.aspose.slides.Presentation;
 
 public class Feature4 {
     public static void main(String[] args) {
-        // अपने दस्तावेज़ निर्देशिका का पथ सेट करें
+        // Set the path to your document directory
         String dataDir = "YOUR_DOCUMENT_DIRECTORY";
         
         Presentation pres = new Presentation(dataDir + "/presentation.pptx");
         try {
-            // पहली स्लाइड के चार्ट तक पहुंचें
+            // Access the first slide's chart
             IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
                 com.aspose.slides.ChartType.Pie, 50, 50, 400, 600);
             
-            // बाह्य कार्यपुस्तिका के लिए पथ परिभाषित और सेट करें
+            // Define and set the path for the external workbook
             String externalWbPath = dataDir + "/externalWorkbook1.xlsx";
             chart.getChartData().setExternalWorkbook(externalWbPath);
         } finally {
@@ -216,16 +232,39 @@ public class Feature4 {
     }
 }
 ```
-**स्पष्टीकरण:**
-- `setExternalWorkbook` चार्ट को एक्सेल फ़ाइल से जोड़ता है, जिससे गतिशील डेटा अपडेट की सुविधा मिलती है।
+**Explanation:**  
+- `setExternalWorkbook` चार्ट को एक Excel फ़ाइल से लिंक करता है, जिससे स्लाइड को रीबिल्ड किए बिना डायनामिक अपडेट संभव होते हैं।
 
-## व्यावहारिक अनुप्रयोगों
+## Practical Applications
 Aspose.Slides विभिन्न परिदृश्यों के लिए बहुमुखी समाधान प्रदान करता है:
 
-1. **व्यावसायिक रिपोर्ट:** जावा अनुप्रयोगों से सीधे चार्ट के साथ विस्तृत रिपोर्ट बनाएं।
-2. **शैक्षणिक प्रस्तुतियाँ:** इंटरैक्टिव चार्ट के साथ शैक्षिक सामग्री को बढ़ाएँ।
-3. **वित्तीय विश्लेषण:** गहन विश्लेषण के लिए वित्तीय डेटा को एक्सेल में निर्यात करें।
-4. **विपणन विश्लेषण:** गतिशील चार्ट का उपयोग करके अभियान प्रदर्शन को विज़ुअलाइज़ करें.
+1. **Business Reports:** Java एप्लिकेशन से सीधे चार्ट के साथ विस्तृत रिपोर्ट बनाएं।  
+2. **Academic Presentations:** इंटरैक्टिव पाई चार्ट स्लाइड्स के साथ लेक्चर को बेहतर बनाएं।  
+3. **Financial Analysis:** **Export chart to excel** करके गहन वित्तीय मॉडलिंग करें।  
+4. **Marketing Analytics:** कैंपेन परफ़ॉर्मेंस को विज़ुअलाइज़ करें और **generate excel from chart** करके एनालिटिक्स टीम को प्रदान करें।
+
+## Frequently Asked Questions
+
+**Q: Can I use this approach with other chart types (e.g., Bar, Line)?**  
+A: बिल्कुल। `ChartType.Pie` को किसी भी अन्य `ChartType` enum वैल्यू से बदल दें।
+
+**Q: Do I need a separate Excel library to read the exported file?**  
+A: नहीं। एक्सपोर्ट किया गया `.xlsx` फ़ाइल एक स्टैंडर्ड Excel वर्कबुक है जिसे किसी भी स्प्रेडशीट एप्लिकेशन से खोला जा सकता है।
+
+**Q: How does the external workbook affect slide size?**  
+A: एक्सटर्नल वर्कबुक को लिंक करने से PPTX फ़ाइल साइज में उल्लेखनीय वृद्धि नहीं होती; चार्ट रनटाइम पर वर्कबुक को रेफ़र करता है।
+
+**Q: Is it possible to update the Excel data and have the slide reflect changes automatically?**  
+A: हाँ। `setExternalWorkbook` कॉल करने के बाद वर्कबुक में किए गए कोई भी बदलाव अगली बार प्रेजेंटेशन खोलने पर स्लाइड में परिलक्षित होंगे।
+
+**Q: What if I need to export multiple charts from the same presentation?**  
+A: प्रत्येक स्लाइड के चार्ट कलेक्शन पर इटरेट करें, प्रत्येक के लिए `readWorkbookStream()` कॉल करें, और अलग-अलग वर्कबुक फ़ाइलों में लिखें।
+
+---
+
+**Last Updated:** 2026-01-14  
+**Tested With:** Aspose.Slides 25.4 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

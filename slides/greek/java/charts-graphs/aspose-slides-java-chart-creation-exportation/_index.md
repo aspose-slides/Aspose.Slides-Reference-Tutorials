@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Μάθετε να δημιουργείτε και να εξάγετε γραφήματα χρησιμοποιώντας το Aspose.Slides σε Java. Εξασκηθείτε στις τεχνικές οπτικοποίησης δεδομένων με αναλυτικούς οδηγούς και παραδείγματα κώδικα."
-"title": "Aspose.Slides Java - Δημιουργία και εξαγωγή γραφημάτων για οπτικοποίηση δεδομένων"
-"url": "/el/java/charts-graphs/aspose-slides-java-chart-creation-exportation/"
-"weight": 1
+date: '2026-01-14'
+description: Μάθετε πώς να εξάγετε διάγραμμα σε Excel χρησιμοποιώντας το Aspose.Slides
+  for Java και να προσθέσετε διαφάνεια με πίτα σε παρουσιάσεις. Οδηγός βήμα‑βήμα με
+  κώδικα.
+keywords:
+- Aspose.Slides Java
+- creating charts in Java
+- exporting chart data with Aspose
+title: Εξαγωγή διαγράμματος σε Excel με το Aspose.Slides Java
+url: /el/java/charts-graphs/aspose-slides-java-chart-creation-exportation/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,36 +17,46 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Δημιουργία και εξαγωγή γραφημάτων χρησιμοποιώντας το Aspose.Slides Java
+# Εξαγωγή Διαγράμματος σε Excel Χρησιμοποιώντας το Aspose.Slides για Java
 
-**Τεχνικές Οπτικοποίησης Κύριων Δεδομένων με το Aspose.Slides για Java**
+**Κατακτήστε τις Τεχνικές Οπτικοποίησης Δεδομένων με το Aspose.Slides για Java**
 
-Στο σημερινό τοπίο που βασίζεται στα δεδομένα, η αποτελεσματική οπτικοποίηση δεδομένων είναι απαραίτητη για τη λήψη τεκμηριωμένων αποφάσεων. Η ενσωμάτωση λειτουργιών γραφημάτων στις εφαρμογές Java σας μπορεί να μετατρέψει τα ακατέργαστα δεδομένα σε συναρπαστικές οπτικές ιστορίες. Αυτό το σεμινάριο θα σας καθοδηγήσει στη δημιουργία και εξαγωγή γραφημάτων χρησιμοποιώντας το Aspose.Slides για Java, διασφαλίζοντας ότι οι παρουσιάσεις σας είναι τόσο ενημερωτικές όσο και οπτικά ελκυστικές.
+Στο σημερινό δεδομενο‑προσανατολισμένο τοπίο, η δυνατότητα **export chart to excel** απευθείας από την εφαρμογή Java σας μπορεί να μετατρέψει στατικά οπτικά στοιχεία PowerPoint σε επαναχρησιμοποιήσιμα, αναλύσιμα σύνολα δεδομένων. Είτε χρειάζεστε να δημιουργήσετε αναφορές, να τροφοδοτήσετε pipelines ανάλυσης, είτε απλώς να επιτρέψετε στους επιχειρηματικούς χρήστες να επεξεργαστούν τα δεδομένα του διαγράμματος στο Excel, το Aspose.Slides το κάνει απλό. Αυτό το tutorial σας καθοδηγεί στη δημιουργία ενός διαγράμματος, στην προσθήκη μιας διαφάνειας με **pie chart** και στην εξαγωγή των δεδομένων του διαγράμματος σε ένα βιβλίο εργασίας Excel.
 
-**Τι θα μάθετε:**
-- Φορτώστε και διαχειριστείτε αρχεία παρουσίασης χωρίς κόπο
-- Προσθέστε διάφορους τύπους γραφημάτων στις διαφάνειές σας
-- Εξαγωγή δεδομένων γραφήματος σε εξωτερικά βιβλία εργασίας απρόσκοπτα
-- Ορίστε μια διαδρομή εξωτερικού βιβλίου εργασίας για αποτελεσματική διαχείριση δεδομένων
+**What You'll Learn:**
+- Φορτώστε και διαχειριστείτε αρχεία παρουσίασης με ευκολία
+- **Add pie chart slide** και άλλους τύπους διαγραμμάτων στις διαφάνειές σας
+- **Export chart to excel** (generate excel from chart) για ανάλυση downstream
+- Ορίστε διαδρομή εξωτερικού βιβλίου εργασίας για **embed chart in presentation** και διατηρήστε τα δεδομένα συγχρονισμένα
 
 Ας ξεκινήσουμε!
 
-## Προαπαιτούμενα
-Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε έτοιμες τις ακόλουθες ρυθμίσεις:
+## Γρήγορες Απαντήσεις
+- **Ποιος είναι ο κύριος σκοπός;** Export chart data from a PowerPoint slide to an Excel file.  
+- **Ποια έκδοση της βιβλιοθήκης απαιτείται;** Aspose.Slides for Java 25.4 or later.  
+- **Χρειάζομαι άδεια;** A free trial works for evaluation; a commercial license is required for production.  
+- **Μπορώ να προσθέσω μια διαφάνεια με pie chart;** Yes – the tutorial shows how to add a Pie chart.  
+- **Είναι η Java 16 ελάχιστη;** Yes, JDK 16 or higher is recommended.
 
-### Απαιτούμενες βιβλιοθήκες και εκδόσεις
-- **Aspose.Slides για Java** έκδοση 25.4 ή νεότερη
+## Πώς να εξάγετε chart to excel χρησιμοποιώντας το Aspose.Slides;
+Η εξαγωγή δεδομένων διαγράμματος σε Excel είναι τόσο απλή όσο το φόρτωμα μιας παρουσίασης, η δημιουργία ενός διαγράμματος και στη συνέχεια η εγγραφή του ρεύματος του βιβλίου εργασίας του διαγράμματος σε αρχείο. Τα παρακάτω βήματα σας καθοδηγούν σε όλη τη διαδικασία, από τη ρύθμιση του έργου μέχρι την τελική επαλήθευση.
 
-### Απαιτήσεις Ρύθμισης Περιβάλλοντος
-- Κιτ ανάπτυξης Java (JDK) 16 ή νεότερη έκδοση
-- Ένα πρόγραμμα επεξεργασίας κώδικα ή IDE όπως το IntelliJ IDEA ή το Eclipse
+## Prerequisites
+Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε τα παρακάτω έτοιμα:
 
-### Προαπαιτούμενα Γνώσεων
-- Βασική κατανόηση του προγραμματισμού Java
+### Required Libraries and Versions
+- **Aspose.Slides for Java** version 25.4 or later
+
+### Environment Setup Requirements
+- Java Development Kit (JDK) 16 or higher
+- Ένας κώδικας επεξεργαστής ή IDE όπως IntelliJ IDEA ή Eclipse
+
+### Knowledge Prerequisites
+- Βασικές γνώσεις προγραμματισμού Java
 - Εξοικείωση με συστήματα κατασκευής Maven ή Gradle
 
-## Ρύθμιση του Aspose.Slides για Java
-Για να ξεκινήσετε να χρησιμοποιείτε το Aspose.Slides, πρέπει να το συμπεριλάβετε στο έργο σας. Δείτε πώς:
+## Setting Up Aspose.Slides for Java
+Για να αρχίσετε να χρησιμοποιείτε το Aspose.Slides, συμπεριλάβετε το στο έργο σας χρησιμοποιώντας Maven ή Gradle.
 
 **Maven**
 ```xml
@@ -52,62 +68,63 @@
 </dependency>
 ```
 
-**Γκράντλ**
+**Gradle**
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Εναλλακτικά, μπορείτε [κατεβάστε απευθείας την τελευταία έκδοση](https://releases.aspose.com/slides/java/).
+Εναλλακτικά, μπορείτε να [κατεβάσετε την πιο πρόσφατη έκδοση απευθείας](https://releases.aspose.com/slides/java/).
 
-### Βήματα απόκτησης άδειας χρήσης
-Το Aspose.Slides προσφέρει μια δωρεάν δοκιμαστική άδεια χρήσης για να εξερευνήσετε όλες τις δυνατότητές του. Μπορείτε επίσης να υποβάλετε αίτηση για μια προσωρινή άδεια χρήσης ή να αγοράσετε μία για εκτεταμένη χρήση. Ακολουθήστε τα παρακάτω βήματα:
-1. Επισκεφθείτε το [Σελίδα αγοράς Aspose](https://purchase.aspose.com/buy) για να πάρετε την άδειά σας.
-2. Για δωρεάν δοκιμή, κατεβάστε το από [Κυκλοφορίες](https://releases.aspose.com/slides/java/).
+### License Acquisition Steps
+Το Aspose.Slides προσφέρει δωρεάν άδεια δοκιμής για να εξερευνήσετε όλες τις δυνατότητές του. Μπορείτε επίσης να υποβάλετε αίτηση για προσωρινή άδεια ή να αγοράσετε μία για παρατεταμένη χρήση. Ακολουθήστε τα παρακάτω βήματα:
+1. Επισκεφθείτε τη σελίδα [Aspose Purchase page](https://purchase.aspose.com/buy) για να αποκτήσετε την άδειά σας.  
+2. Για δωρεάν δοκιμή, κατεβάστε από το [Releases](https://releases.aspose.com/slides/java/).  
 3. Υποβάλετε αίτηση για προσωρινή άδεια [εδώ](https://purchase.aspose.com/temporary-license/).
 
-Μόλις έχετε το αρχείο άδειας χρήσης, αρχικοποιήστε το στην εφαρμογή Java:
+Μόλις έχετε το αρχείο άδειας, αρχικοποιήστε το στην εφαρμογή Java:
 ```java
 com.aspose.slides.License license = new com.aspose.slides.License();
 license.setLicense("path/to/your/license/file.lic");
 ```
 
-## Οδηγός Εφαρμογής
-### Χαρακτηριστικό 1: Φόρτωση παρουσίασης
-Η φόρτωση μιας παρουσίασης είναι το πρώτο βήμα για οποιαδήποτε εργασία χειρισμού.
+## Implementation Guide
 
-#### Επισκόπηση
-Αυτή η λειτουργία δείχνει πώς να φορτώσετε ένα υπάρχον αρχείο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java.
+### Feature 1: Load Presentation
+Φορτώντας μια παρουσίαση είναι το πρώτο βήμα για οποιαδήποτε εργασία επεξεργασίας.
 
-#### Βήμα προς βήμα εφαρμογή
-**Προσθήκη γραφήματος σε διαφάνεια**
+#### Overview
+Αυτή η δυνατότητα δείχνει πώς να φορτώσετε ένα υπάρχον αρχείο PowerPoint χρησιμοποιώντας το Aspose.Slides for Java.
+
+#### Step‑by‑Step Implementation
+**Load Presentation**
 ```java
 import com.aspose.slides.Presentation;
 
 public class Feature1 {
     public static void main(String[] args) {
-        // Ορίστε τη διαδρομή προς τον κατάλογο εγγράφων σας
+        // Set the path to your document directory
         String dataDir = "YOUR_DOCUMENT_DIRECTORY";
         
-        // Φόρτωση υπάρχουσας παρουσίασης
+        // Load an existing presentation
         Presentation pres = new Presentation(dataDir + "/presentation.pptx");
         
-        // Καθαρίστε τους πόρους
+        // Clean up resources
         if (pres != null) pres.dispose();
     }
 }
 ```
-**Εξήγηση:**
-- `Presentation` αρχικοποιείται με τη διαδρομή προς το `.pptx` αρχείο.
-- Πάντα να απορρίπτετε το `Presentation` αντίρρηση για τους δωρεάν πόρους.
+**Explanation:**  
+- `Presentation` is initialized with the path to your `.pptx` file.  
+- Always dispose of the `Presentation` object to free native resources.
 
-### Λειτουργία 2: Προσθήκη γραφήματος σε διαφάνεια
-Η προσθήκη ενός γραφήματος μπορεί να βελτιώσει σημαντικά την παρουσίαση δεδομένων.
+### Feature 2: Add Pie Chart Slide
+Η προσθήκη ενός διαγράμματος μπορεί να ενισχύσει σημαντικά την παρουσίαση δεδομένων, και πολλοί προγραμματιστές ρωτούν **how to add chart slide** σε Java.
 
-#### Επισκόπηση
-Αυτή η λειτουργία δείχνει πώς να προσθέσετε ένα γράφημα πίτας στην πρώτη διαφάνεια μιας παρουσίασης.
+#### Overview
+Αυτή η δυνατότητα δείχνει πώς να προσθέσετε μια **pie chart slide** (το κλασικό σενάριο “add pie chart slide”) στην πρώτη διαφάνεια μιας παρουσίασης.
 
-#### Βήμα προς βήμα εφαρμογή
-**Προσθήκη γραφήματος σε διαφάνεια**
+#### Step‑by‑Step Implementation
+**Add Pie Chart**
 ```java
 import com.aspose.slides.ChartType;
 import com.aspose.slides.IChart;
@@ -115,12 +132,12 @@ import com.aspose.slides.Presentation;
 
 public class Feature2 {
     public static void main(String[] args) {
-        // Ορίστε τη διαδρομή προς τον κατάλογο εγγράφων σας
+        // Set the path to your document directory
         String dataDir = "YOUR_DOCUMENT_DIRECTORY";
         
         Presentation pres = new Presentation(dataDir + "/presentation.pptx");
         try {
-            // Προσθήκη κυκλικού διαγράμματος στη θέση (50, 50) με πλάτος 400 και ύψος 600
+            // Add a Pie chart at position (50, 50) with width 400 and height 600
             IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
                 ChartType.Pie, 50, 50, 400, 600);
         } finally {
@@ -129,18 +146,18 @@ public class Feature2 {
     }
 }
 ```
-**Εξήγηση:**
-- `addChart` Η μέθοδος χρησιμοποιείται για την εισαγωγή ενός κυκλικού διαγράμματος.
-- Οι παράμετροι περιλαμβάνουν τον τύπο του γραφήματος και τη θέση/μέγεθος του στη διαφάνεια.
+**Explanation:**  
+- `addChart` inserts a Pie chart.  
+- The parameters define the chart type and its position/size on the slide.
 
-### Λειτουργία 3: Εξαγωγή δεδομένων γραφήματος σε εξωτερικό βιβλίο εργασίας
-Η εξαγωγή δεδομένων επιτρέπει περαιτέρω ανάλυση εκτός του PowerPoint.
+### Feature 3: Generate Excel from Chart
+Η εξαγωγή των δεδομένων του διαγράμματος σας επιτρέπει να **generate excel from chart** για πιο βαθιά ανάλυση.
 
-#### Επισκόπηση
-Αυτή η λειτουργία επιδεικνύει την εξαγωγή δεδομένων γραφήματος από μια παρουσίαση σε ένα εξωτερικό βιβλίο εργασίας του Excel.
+#### Overview
+Αυτή η δυνατότητα δείχνει πώς να εξάγετε δεδομένα διαγράμματος από μια παρουσίαση σε εξωτερικό βιβλίο εργασίας Excel.
 
-#### Βήμα προς βήμα εφαρμογή
-**Εξαγωγή δεδομένων**
+#### Step‑by‑Step Implementation
+**Export Data**
 ```java
 import com.aspose.slides.IChart;
 import java.io.File;
@@ -151,21 +168,21 @@ import com.aspose.slides.Presentation;
 
 public class Feature3 {
     public static void main(String[] args) {
-        // Ορίστε τη διαδρομή προς τον κατάλογο εγγράφων και τον κατάλογο εξόδου
+        // Set the path to your document directory and output directory
         String dataDir = "YOUR_DOCUMENT_DIRECTORY";
         
         Presentation pres = new Presentation(dataDir + "/presentation.pptx");
         try {
-            // Πρόσβαση στο γράφημα της πρώτης διαφάνειας
+            // Access the first slide's chart
             IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
                 com.aspose.slides.ChartType.Pie, 50, 50, 400, 600);
             
-            // Ορίστε τη διαδρομή για το εξωτερικό βιβλίο εργασίας
+            // Define the path for the external workbook
             String externalWbPath = dataDir + "/externalWorkbook1.xlsx";
             File file = new File(externalWbPath);
             if (file.exists()) file.delete();
             
-            // Εξαγωγή δεδομένων γραφήματος σε ροή Excel
+            // Export chart data to an Excel stream
             byte[] workbookData = chart.getChartData().readWorkbookStream();
             FileOutputStream outputStream = new FileOutputStream(file);
             outputStream.write(workbookData);
@@ -180,34 +197,34 @@ public class Feature3 {
     }
 }
 ```
-**Εξήγηση:**
-- `readWorkbookStream` εξάγει τα δεδομένα του γραφήματος.
-- Τα δεδομένα εγγράφονται σε ένα αρχείο Excel χρησιμοποιώντας `FileOutputStream`.
+**Explanation:**  
+- `readWorkbookStream` extracts the chart’s workbook data.  
+- The byte array is written to an `.xlsx` file using `FileOutputStream`.
 
-### Λειτουργία 4: Ορισμός εξωτερικού βιβλίου εργασίας για δεδομένα γραφήματος
-Η σύνδεση γραφημάτων με εξωτερικά βιβλία εργασίας μπορεί να βελτιστοποιήσει τη διαχείριση δεδομένων.
+### Feature 4: Embed Chart in Presentation with External Workbook
+Η σύνδεση ενός διαγράμματος με εξωτερικό βιβλίο εργασίας σας βοηθά να **embed chart in presentation** και να διατηρείτε τα δεδομένα συγχρονισμένα.
 
-#### Επισκόπηση
-Αυτή η λειτουργία δείχνει τον ορισμό μιας διαδρομής εξωτερικού βιβλίου εργασίας για την αποθήκευση δεδομένων γραφήματος.
+#### Overview
+Αυτή η δυνατότητα δείχνει πώς να ορίσετε μια διαδρομή εξωτερικού βιβλίου εργασίας ώστε το διάγραμμα να μπορεί να διαβάζει/γράφει δεδομένα απευθείας από το Excel.
 
-#### Βήμα προς βήμα εφαρμογή
-**Ορισμός διαδρομής εξωτερικού βιβλίου εργασίας**
+#### Step‑by‑Step Implementation
+**Set External Workbook Path**
 ```java
 import com.aspose.slides.IChart;
 import com.aspose.slides.Presentation;
 
 public class Feature4 {
     public static void main(String[] args) {
-        // Ορίστε τη διαδρομή προς τον κατάλογο εγγράφων σας
+        // Set the path to your document directory
         String dataDir = "YOUR_DOCUMENT_DIRECTORY";
         
         Presentation pres = new Presentation(dataDir + "/presentation.pptx");
         try {
-            // Πρόσβαση στο γράφημα της πρώτης διαφάνειας
+            // Access the first slide's chart
             IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
                 com.aspose.slides.ChartType.Pie, 50, 50, 400, 600);
             
-            // Ορισμός και ορισμός της διαδρομής για το εξωτερικό βιβλίο εργασίας
+            // Define and set the path for the external workbook
             String externalWbPath = dataDir + "/externalWorkbook1.xlsx";
             chart.getChartData().setExternalWorkbook(externalWbPath);
         } finally {
@@ -216,16 +233,39 @@ public class Feature4 {
     }
 }
 ```
-**Εξήγηση:**
-- `setExternalWorkbook` συνδέει το γράφημα με ένα αρχείο Excel, επιτρέποντας δυναμικές ενημερώσεις δεδομένων.
+**Explanation:**  
+- `setExternalWorkbook` links the chart to an Excel file, allowing dynamic updates without rebuilding the slide.
 
-## Πρακτικές Εφαρμογές
+## Practical Applications
 Το Aspose.Slides προσφέρει ευέλικτες λύσεις για διάφορα σενάρια:
 
-1. **Επιχειρηματικές Αναφορές:** Δημιουργήστε λεπτομερείς αναφορές με γραφήματα απευθείας από εφαρμογές Java.
-2. **Ακαδημαϊκές Παρουσιάσεις:** Βελτιώστε το εκπαιδευτικό περιεχόμενο με διαδραστικά γραφήματα.
-3. **Οικονομική Ανάλυση:** Εξαγωγή οικονομικών δεδομένων σε Excel για εις βάθος ανάλυση.
-4. **Ανάλυση Μάρκετινγκ:** Οπτικοποιήστε την απόδοση της καμπάνιας χρησιμοποιώντας δυναμικά γραφήματα.
+1. **Business Reports:** Create detailed reports with charts directly from Java applications.  
+2. **Academic Presentations:** Enhance lectures with interactive pie chart slides.  
+3. **Financial Analysis:** **Export chart to excel** for in‑depth financial modeling.  
+4. **Marketing Analytics:** Visualize campaign performance and **generate excel from chart** for the analytics team.
+
+## Frequently Asked Questions
+
+**Q: Μπορώ να χρησιμοποιήσω αυτήν την προσέγγιση με άλλους τύπους διαγραμμάτων (π.χ., Bar, Line);**  
+A: Absolutely. Replace `ChartType.Pie` with any other `ChartType` enum value.
+
+**Q: Χρειάζομαι ξεχωριστή βιβλιοθήκη Excel για να διαβάσω το εξαγόμενο αρχείο;**  
+A: No. The exported `.xlsx` file is a standard Excel workbook that can be opened with any spreadsheet application.
+
+**Q: Πώς επηρεάζει το εξωτερικό βιβλίο εργασίας το μέγεθος της διαφάνειας;**  
+A: Linking to an external workbook does not increase the PPTX file size significantly; the chart references the workbook at runtime.
+
+**Q: Είναι δυνατόν να ενημερώσω τα δεδομένα στο Excel και η διαφάνεια να αντανακλά τις αλλαγές αυτόματα;**  
+A: Yes. After calling `setExternalWorkbook`, any changes saved to the workbook will be reflected the next time the presentation is opened.
+
+**Q: Τι γίνεται αν χρειαστεί να εξάγω πολλαπλά διαγράμματα από την ίδια παρουσίαση;**  
+A: Iterate over each slide’s chart collection, call `readWorkbookStream()` for each, and write to separate workbook files.
+
+---
+
+**Last Updated:** 2026-01-14  
+**Tested With:** Aspose.Slides 25.4 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

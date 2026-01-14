@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Pelajari cara membuat dan mengekspor diagram menggunakan Aspose.Slides di Java. Kuasai teknik visualisasi data dengan panduan langkah demi langkah dan contoh kode."
-"title": "Aspose.Slides Java&#58; Membuat dan Mengekspor Bagan untuk Visualisasi Data"
-"url": "/id/java/charts-graphs/aspose-slides-java-chart-creation-exportation/"
-"weight": 1
+date: '2026-01-14'
+description: Pelajari cara mengekspor diagram ke Excel menggunakan Aspose.Slides untuk
+  Java dan menambahkan slide diagram pai ke presentasi. Panduan langkah demi langkah
+  dengan kode.
+keywords:
+- Aspose.Slides Java
+- creating charts in Java
+- exporting chart data with Aspose
+title: Ekspor Grafik ke Excel dengan Aspose.Slides Java
+url: /id/java/charts-graphs/aspose-slides-java-chart-creation-exportation/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,38 +17,48 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Membuat dan Mengekspor Grafik Menggunakan Aspose.Slides Java
+# Ekspor Diagram ke Excel Menggunakan Aspose.Slides untuk Java
 
-**Teknik Visualisasi Data Master dengan Aspose.Slides untuk Java**
+**Kuasai Teknik Visualisasi Data dengan Aspose.Slides untuk Java**
 
-Dalam lanskap yang digerakkan oleh data saat ini, visualisasi data yang efektif sangat penting untuk membuat keputusan yang tepat. Mengintegrasikan fungsi bagan ke dalam aplikasi Java Anda dapat mengubah data mentah menjadi cerita visual yang menarik. Tutorial ini akan memandu Anda membuat dan mengekspor bagan menggunakan Aspose.Slides untuk Java, memastikan presentasi Anda informatif dan menarik secara visual.
+Di era data‑driven saat ini, kemampuan untuk **export chart to excel** langsung dari aplikasi Java Anda dapat mengubah visual PowerPoint statis menjadi set data yang dapat digunakan kembali dan dianalisis. Baik Anda perlu menghasilkan laporan, mengalirkan data ke pipeline analitik, atau sekadar membiarkan pengguna bisnis mengedit data diagram di Excel, Aspose.Slides mempermudah prosesnya. Tutorial ini memandu Anda membuat diagram, menambahkan slide diagram pai, dan mengekspor data diagram tersebut ke workbook Excel.
 
 **Apa yang Akan Anda Pelajari:**
 - Memuat dan memanipulasi file presentasi dengan mudah
-- Tambahkan berbagai jenis grafik ke slide Anda
-- Ekspor data bagan ke buku kerja eksternal dengan mudah
-- Tetapkan jalur buku kerja eksternal untuk manajemen data yang efisien
+- **Add pie chart slide** dan tipe diagram lainnya ke slide Anda
+- **Export chart to excel** (generate excel from chart) untuk analisis lanjutan
+- Menetapkan jalur workbook eksternal untuk **embed chart in presentation** dan menjaga sinkronisasi data
 
 Mari kita mulai!
 
-## Prasyarat
-Sebelum memulai, pastikan Anda telah menyiapkan pengaturan berikut:
+## Quick Answers
+- **What is the primary purpose?** Export chart data from a PowerPoint slide to an Excel file.  
+- **Which library version is required?** Aspose.Slides for Java 25.4 or later.  
+- **Do I need a license?** A free trial works for evaluation; a commercial license is required for production.  
+- **Can I add a pie chart slide?** Yes – the tutorial shows how to add a Pie chart.  
+- **Is Java 16 minimum?** Yes, JDK 16 or higher is recommended.
 
-### Pustaka dan Versi yang Diperlukan
-- **Aspose.Slides untuk Java** versi 25.4 atau lebih baru
+## How to export chart to excel using Aspose.Slides?
+Exporting chart data to Excel is as simple as loading a presentation, creating a chart, and then writing the chart’s workbook stream to a file. The steps below walk you through the entire process, from project setup to final verification.
 
-### Persyaratan Pengaturan Lingkungan
-- Java Development Kit (JDK) 16 atau lebih tinggi
-- Editor kode atau IDE seperti IntelliJ IDEA atau Eclipse
+## Prerequisites
+Before we begin, ensure you have the following ready:
 
-### Prasyarat Pengetahuan
-- Pemahaman dasar tentang pemrograman Java
-- Keakraban dengan sistem build Maven atau Gradle
+### Required Libraries and Versions
+- **Aspose.Slides for Java** version 25.4 or later
 
-## Menyiapkan Aspose.Slides untuk Java
-Untuk mulai menggunakan Aspose.Slides, Anda perlu menyertakannya dalam proyek Anda. Berikut caranya:
+### Environment Setup Requirements
+- Java Development Kit (JDK) 16 or higher
+- A code editor or IDE such as IntelliJ IDEA or Eclipse
 
-**Pakar**
+### Knowledge Prerequisites
+- Basic Java programming skills
+- Familiarity with Maven or Gradle build systems
+
+## Setting Up Aspose.Slides for Java
+To start using Aspose.Slides, include it in your project using Maven or Gradle.
+
+**Maven**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -52,62 +68,63 @@ Untuk mulai menggunakan Aspose.Slides, Anda perlu menyertakannya dalam proyek An
 </dependency>
 ```
 
-**Bahasa Inggris Gradle**
+**Gradle**
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Atau, Anda bisa [unduh versi terbaru secara langsung](https://releases.aspose.com/slides/java/).
+Alternatively, you can [download the latest version directly](https://releases.aspose.com/slides/java/).
 
-### Langkah-langkah Memperoleh Lisensi
-Aspose.Slides menawarkan lisensi uji coba gratis untuk menjelajahi semua kemampuannya. Anda juga dapat mengajukan lisensi sementara atau membeli lisensi untuk penggunaan jangka panjang. Ikuti langkah-langkah berikut:
-1. Kunjungi [Halaman Pembelian Aspose](https://purchase.aspose.com/buy) untuk mendapatkan lisensi Anda.
-2. Untuk uji coba gratis, unduh dari [Rilis](https://releases.aspose.com/slides/java/).
-3. Ajukan permohonan lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/).
+### License Acquisition Steps
+Aspose.Slides offers a free trial license to explore its full capabilities. You can also apply for a temporary license or purchase one for extended use. Follow these steps:
+1. Visit the [Aspose Purchase page](https://purchase.aspose.com/buy) to get your license.  
+2. For a free trial, download from [Releases](https://releases.aspose.com/slides/java/).  
+3. Apply for a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
-Setelah Anda memiliki file lisensi, inisialisasikan dalam aplikasi Java Anda:
+Once you have the license file, initialize it in your Java application:
 ```java
 com.aspose.slides.License license = new com.aspose.slides.License();
 license.setLicense("path/to/your/license/file.lic");
 ```
 
-## Panduan Implementasi
-### Fitur 1: Memuat Presentasi
-Memuat presentasi adalah langkah pertama untuk tugas manipulasi apa pun.
+## Implementation Guide
 
-#### Ringkasan
-Fitur ini menunjukkan cara memuat berkas PowerPoint yang ada menggunakan Aspose.Slides untuk Java.
+### Feature 1: Load Presentation
+Loading a presentation is the first step to any manipulation task.
 
-#### Implementasi Langkah demi Langkah
-**Tambahkan Bagan ke Slide**
+#### Overview
+This feature demonstrates how to load an existing PowerPoint file using Aspose.Slides for Java.
+
+#### Step‑by‑Step Implementation
+**Load Presentation**
 ```java
 import com.aspose.slides.Presentation;
 
 public class Feature1 {
     public static void main(String[] args) {
-        // Tetapkan jalur ke direktori dokumen Anda
+        // Set the path to your document directory
         String dataDir = "YOUR_DOCUMENT_DIRECTORY";
         
-        // Memuat presentasi yang ada
+        // Load an existing presentation
         Presentation pres = new Presentation(dataDir + "/presentation.pptx");
         
-        // Bersihkan sumber daya
+        // Clean up resources
         if (pres != null) pres.dispose();
     }
 }
 ```
-**Penjelasan:**
-- `Presentation` diinisialisasi dengan jalur ke Anda `.pptx` mengajukan.
-- Selalu buang `Presentation` keberatan terhadap sumber daya gratis.
+**Explanation:**  
+- `Presentation` is initialized with the path to your `.pptx` file.  
+- Always dispose of the `Presentation` object to free native resources.
 
-### Fitur 2: Tambahkan Bagan ke Slide
-Menambahkan bagan dapat meningkatkan penyajian data secara signifikan.
+### Feature 2: Add Pie Chart Slide
+Adding a chart can significantly enhance data presentation, and many developers ask **how to add chart slide** in Java.
 
-#### Ringkasan
-Fitur ini menunjukkan cara menambahkan diagram Pai ke slide pertama presentasi.
+#### Overview
+This feature shows how to add a **pie chart slide** (the classic “add pie chart slide” scenario) to the first slide of a presentation.
 
-#### Implementasi Langkah demi Langkah
-**Tambahkan Bagan ke Slide**
+#### Step‑by‑Step Implementation
+**Add Pie Chart**
 ```java
 import com.aspose.slides.ChartType;
 import com.aspose.slides.IChart;
@@ -115,12 +132,12 @@ import com.aspose.slides.Presentation;
 
 public class Feature2 {
     public static void main(String[] args) {
-        // Tetapkan jalur ke direktori dokumen Anda
+        // Set the path to your document directory
         String dataDir = "YOUR_DOCUMENT_DIRECTORY";
         
         Presentation pres = new Presentation(dataDir + "/presentation.pptx");
         try {
-            // Tambahkan diagram Pai pada posisi (50, 50) dengan lebar 400 dan tinggi 600
+            // Add a Pie chart at position (50, 50) with width 400 and height 600
             IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
                 ChartType.Pie, 50, 50, 400, 600);
         } finally {
@@ -129,18 +146,18 @@ public class Feature2 {
     }
 }
 ```
-**Penjelasan:**
-- `addChart` Metode ini digunakan untuk menyisipkan diagram Pai.
-- Parameternya meliputi jenis bagan dan posisi/ukurannya pada slide.
+**Explanation:**  
+- `addChart` inserts a Pie chart.  
+- The parameters define the chart type and its position/size on the slide.
 
-### Fitur 3: Ekspor Data Bagan ke Buku Kerja Eksternal
-Mengekspor data memungkinkan analisis lebih lanjut di luar PowerPoint.
+### Feature 3: Generate Excel from Chart
+Exporting the chart data lets you **generate excel from chart** for deeper analysis.
 
-#### Ringkasan
-Fitur ini menunjukkan cara mengekspor data bagan dari presentasi ke buku kerja Excel eksternal.
+#### Overview
+This feature demonstrates exporting chart data from a presentation to an external Excel workbook.
 
-#### Implementasi Langkah demi Langkah
-**Ekspor Data**
+#### Step‑by‑Step Implementation
+**Export Data**
 ```java
 import com.aspose.slides.IChart;
 import java.io.File;
@@ -151,21 +168,21 @@ import com.aspose.slides.Presentation;
 
 public class Feature3 {
     public static void main(String[] args) {
-        // Atur jalur ke direktori dokumen dan direktori keluaran Anda
+        // Set the path to your document directory and output directory
         String dataDir = "YOUR_DOCUMENT_DIRECTORY";
         
         Presentation pres = new Presentation(dataDir + "/presentation.pptx");
         try {
-            // Akses bagan slide pertama
+            // Access the first slide's chart
             IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
                 com.aspose.slides.ChartType.Pie, 50, 50, 400, 600);
             
-            // Tentukan jalur untuk buku kerja eksternal
+            // Define the path for the external workbook
             String externalWbPath = dataDir + "/externalWorkbook1.xlsx";
             File file = new File(externalWbPath);
             if (file.exists()) file.delete();
             
-            // Ekspor data grafik ke aliran Excel
+            // Export chart data to an Excel stream
             byte[] workbookData = chart.getChartData().readWorkbookStream();
             FileOutputStream outputStream = new FileOutputStream(file);
             outputStream.write(workbookData);
@@ -180,34 +197,34 @@ public class Feature3 {
     }
 }
 ```
-**Penjelasan:**
-- `readWorkbookStream` mengekstrak data grafik.
-- Data ditulis ke file Excel menggunakan `FileOutputStream`.
+**Explanation:**  
+- `readWorkbookStream` extracts the chart’s workbook data.  
+- The byte array is written to an `.xlsx` file using `FileOutputStream`.
 
-### Fitur 4: Mengatur Buku Kerja Eksternal untuk Data Bagan
-Menghubungkan bagan ke buku kerja eksternal dapat memperlancar pengelolaan data.
+### Feature 4: Embed Chart in Presentation with External Workbook
+Linking a chart to an external workbook helps you **embed chart in presentation** and keep data synchronized.
 
-#### Ringkasan
-Fitur ini menunjukkan pengaturan jalur buku kerja eksternal untuk menyimpan data bagan.
+#### Overview
+This feature demonstrates setting an external workbook path so the chart can read/write data directly from Excel.
 
-#### Implementasi Langkah demi Langkah
-**Tetapkan Jalur Buku Kerja Eksternal**
+#### Step‑by‑Step Implementation
+**Set External Workbook Path**
 ```java
 import com.aspose.slides.IChart;
 import com.aspose.slides.Presentation;
 
 public class Feature4 {
     public static void main(String[] args) {
-        // Tetapkan jalur ke direktori dokumen Anda
+        // Set the path to your document directory
         String dataDir = "YOUR_DOCUMENT_DIRECTORY";
         
         Presentation pres = new Presentation(dataDir + "/presentation.pptx");
         try {
-            // Akses bagan slide pertama
+            // Access the first slide's chart
             IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
                 com.aspose.slides.ChartType.Pie, 50, 50, 400, 600);
             
-            // Tentukan dan atur jalur untuk buku kerja eksternal
+            // Define and set the path for the external workbook
             String externalWbPath = dataDir + "/externalWorkbook1.xlsx";
             chart.getChartData().setExternalWorkbook(externalWbPath);
         } finally {
@@ -216,16 +233,39 @@ public class Feature4 {
     }
 }
 ```
-**Penjelasan:**
-- `setExternalWorkbook` menghubungkan bagan ke berkas Excel, yang memungkinkan pembaruan data yang dinamis.
+**Explanation:**  
+- `setExternalWorkbook` links the chart to an Excel file, allowing dynamic updates without rebuilding the slide.
 
-## Aplikasi Praktis
-Aspose.Slides menawarkan solusi serbaguna untuk berbagai skenario:
+## Practical Applications
+Aspose.Slides offers versatile solutions for various scenarios:
 
-1. **Laporan Bisnis:** Buat laporan terperinci dengan bagan langsung dari aplikasi Java.
-2. **Presentasi Akademis:** Tingkatkan konten pendidikan dengan bagan interaktif.
-3. **Analisis Keuangan:** Ekspor data keuangan ke Excel untuk analisis mendalam.
-4. **Analisis Pemasaran:** Visualisasikan kinerja kampanye menggunakan bagan dinamis.
+1. **Business Reports:** Create detailed reports with charts directly from Java applications.  
+2. **Academic Presentations:** Enhance lectures with interactive pie chart slides.  
+3. **Financial Analysis:** **Export chart to excel** for in‑depth financial modeling.  
+4. **Marketing Analytics:** Visualize campaign performance and **generate excel from chart** for the analytics team.
+
+## Frequently Asked Questions
+
+**Q: Can I use this approach with other chart types (e.g., Bar, Line)?**  
+A: Absolutely. Replace `ChartType.Pie` with any other `ChartType` enum value.
+
+**Q: Do I need a separate Excel library to read the exported file?**  
+A: No. The exported `.xlsx` file is a standard Excel workbook that can be opened with any spreadsheet application.
+
+**Q: How does the external workbook affect slide size?**  
+A: Linking to an external workbook does not increase the PPTX file size significantly; the chart references the workbook at runtime.
+
+**Q: Is it possible to update the Excel data and have the slide reflect changes automatically?**  
+A: Yes. After calling `setExternalWorkbook`, any changes saved to the workbook will be reflected the next time the presentation is opened.
+
+**Q: What if I need to export multiple charts from the same presentation?**  
+A: Iterate over each slide’s chart collection, call `readWorkbookStream()` for each, and write to separate workbook files.
+
+---
+
+**Last Updated:** 2026-01-14  
+**Tested With:** Aspose.Slides 25.4 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
