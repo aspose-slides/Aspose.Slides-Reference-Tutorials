@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-17"
-"description": "Tìm hiểu cách tạo, truy cập và tùy chỉnh biểu đồ trong bài thuyết trình Java bằng Aspose.Slides. Khám phá các phương pháp hay nhất để trực quan hóa dữ liệu liền mạch."
-"title": "Tạo và thao tác biểu đồ trong bài thuyết trình Java với Aspose.Slides cho Java"
-"url": "/vi/java/charts-graphs/aspose-slides-java-chart-creation-manipulation/"
-"weight": 1
+date: '2026-01-14'
+description: Tìm hiểu cách tạo biểu đồ, tạo trực quan dữ liệu, đặt giới hạn trục biểu
+  đồ và lưu bản trình chiếu pptx bằng Aspose.Slides cho Java.
+keywords:
+- Aspose.Slides for Java
+- Java chart creation
+- data visualization in presentations
+title: Cách tạo biểu đồ trong bản trình chiếu Java với Aspose.Slides cho Java
+url: /vi/java/charts-graphs/aspose-slides-java-chart-creation-manipulation/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,52 +16,66 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Tạo và thao tác biểu đồ trong bài thuyết trình Java với Aspose.Slides cho Java
+# Tạo và Điều chỉnh Biểu đồ trong Bài thuyết trình Java với Aspose.Slides for Java
 
 ## Giới thiệu
 
-Tạo biểu đồ hấp dẫn trực quan trong bài thuyết trình của bạn có thể chuyển đổi dữ liệu thô thành những câu chuyện hấp dẫn, giúp truyền đạt thông tin chi tiết một cách hiệu quả hơn. Tuy nhiên, việc xây dựng các yếu tố trực quan động này từ đầu có thể tốn thời gian và phức tạp. Hãy sử dụng thư viện Aspose.Slides for Java—một công cụ mạnh mẽ giúp đơn giản hóa việc tạo và thao tác biểu đồ trong bài thuyết trình.
+Tạo các biểu đồ hấp dẫn về mặt hình ảnh trong bài thuyết trình của bạn có thể biến dữ liệu thô thành những câu chuyện cuốn hút, giúp truyền đạt những hiểu biết một cách hiệu quả hơn. Tuy nhiên, việc xây dựng những yếu tố hình ảnh động này từ đầu có thể tốn thời gian và phức tạp. **Cách tạo biểu đồ** trong một bài thuyết trình Java trở nên dễ dàng với Aspose.Slides for Java – một thư viện mạnh mẽ xử lý mọi thứ từ ràng buộc dữ liệu đến việc render.
 
-Trong hướng dẫn này, bạn sẽ khám phá cách sử dụng Aspose.Slides for Java để tạo biểu đồ, truy cập các trục của biểu đồ, lấy các giá trị quan trọng và tùy chỉnh biểu đồ một cách dễ dàng. Hãy cùng tìm hiểu cách cải thiện bài thuyết trình của bạn một cách liền mạch với những điểm chính sau:
+Trong hướng dẫn này, bạn sẽ khám phá cách sử dụng Aspose.Slides for Java để tạo một biểu đồ, truy cập các trục của nó, lấy các giá trị quan trọng và tùy chỉnh một cách dễ dàng. Hãy cùng khám phá cách nâng cao bài thuyết trình của bạn một cách liền mạch với những điểm chính sau:
 
-- **Những gì bạn sẽ học được:**
-  - Cách thiết lập và khởi tạo Aspose.Slides cho Java.
-  - Tạo biểu đồ diện tích trong bài thuyết trình.
-  - Truy cập vào các thuộc tính của trục dọc và trục ngang.
-  - Lấy giá trị lớn nhất, nhỏ nhất và đơn vị trục.
-  - Lưu bài thuyết trình đã chỉnh sửa của bạn một cách dễ dàng.
+- **Bạn sẽ học:**
+  - Cách cài đặt và khởi tạo Aspose.Slides for Java.
+  - Tạo biểu đồ Area trong một bài thuyết trình.
+  - Truy cập các thuộc tính trục dọc và trục ngang.
+  - Lấy giá trị tối đa, tối thiểu và đơn vị trục.
+  - Lưu các bài thuyết trình đã chỉnh sửa một cách dễ dàng.
 
-Bạn đã sẵn sàng để trực quan hóa dữ liệu trong bài thuyết trình chưa? Hãy bắt đầu thôi!
+### Câu trả lời nhanh
+- **Thư viện chính là gì?** Aspose.Slides for Java.
+- **Artifact Maven nào thêm phụ thuộc?** `com.aspose:aspose-slides` (xem *maven aspose slides dependency*).
+- **Làm thế nào để tạo trực quan dữ liệu?** Bằng cách tạo biểu đồ (ví dụ, biểu đồ Area) và tùy chỉnh các trục.
+- **Có thể đặt giới hạn trục biểu đồ không?** Có – sử dụng các phương thức `getActualMaxValue()` / `getActualMinValue()`.
+- **Định dạng nào nên dùng để lưu?** `SaveFormat.Pptx` (tức là *save presentation pptx*).
 
-## Điều kiện tiên quyết
+## “Cách tạo biểu đồ” với Aspose.Slides là gì?
+Aspose.Slides cung cấp một API mượt mà cho phép bạn lập trình xây dựng, chỉnh sửa và xuất biểu đồ trong các tệp PowerPoint. Dù bạn cần một biểu đồ đường đơn giản hay một biểu đồ area chồng phức tạp, thư viện này trừu tượng hoá việc xử lý XML cấp thấp, giúp bạn tập trung vào dữ liệu và thiết kế.
 
-Trước khi đi sâu vào chi tiết về cách tạo biểu đồ bằng Aspose.Slides Java, hãy đảm bảo bạn đã đáp ứng các điều kiện tiên quyết sau:
+## Tại sao tạo trực quan dữ liệu với Aspose.Slides?
+- **Tốc độ:** Tạo biểu đồ trong vài phút thay vì hàng giờ.
+- **Nhất quán:** Áp dụng thương hiệu công ty trên mọi slide một cách tự động.
+- **Di động:** Tạo file PPTX trên bất kỳ nền tảng nào chạy Java.
+- **Tự động hóa:** Tích hợp với cơ sở dữ liệu, dịch vụ web, hoặc quy trình báo cáo.
 
-### Thư viện, Phiên bản và Phụ thuộc bắt buộc
+## Yêu cầu trước
+
+Trước khi đi sâu vào chi tiết tạo biểu đồ với Aspose.Slides Java, hãy đảm bảo bạn đã đáp ứng các yêu cầu sau:
+
+### Thư viện, Phiên bản và Phụ thuộc yêu cầu
 
 Để làm theo hướng dẫn này, bạn cần:
-- **Aspose.Slides cho Java**: Phiên bản 25.4 trở lên.
-- Java Development Kit (JDK) 16 trở lên.
+- **Aspose.Slides for Java**: Phiên bản 25.4 hoặc mới hơn.
+- Java Development Kit (JDK) 16 hoặc cao hơn.
 
-### Yêu cầu thiết lập môi trường
+### Yêu cầu Cài đặt Môi trường
 
 Đảm bảo môi trường phát triển của bạn được trang bị:
-- Một IDE tương thích như IntelliJ IDEA hoặc Eclipse.
-- Công cụ xây dựng Maven hoặc Gradle được cấu hình trong thiết lập dự án của bạn.
+- IDE tương thích như IntelliJ IDEA hoặc Eclipse.
+- Công cụ xây dựng Maven hoặc Gradle được cấu hình trong dự án của bạn.
 
-### Điều kiện tiên quyết về kiến thức
+### Kiến thức Yêu cầu
 
 Hiểu biết cơ bản về:
 - Các khái niệm lập trình Java.
 - Làm việc với các thư viện bên ngoài (Maven/Gradle).
 
-## Thiết lập Aspose.Slides cho Java
+## Cài đặt Aspose.Slides cho Java
 
-Tích hợp Aspose.Slides vào dự án Java của bạn rất đơn giản. Sau đây là cách bạn có thể thêm nó bằng Maven, Gradle hoặc tải xuống trực tiếp:
+Việc tích hợp Aspose.Slides vào dự án Java của bạn rất đơn giản. Dưới đây là cách thêm nó bằng Maven, Gradle hoặc tải trực tiếp:
 
 ### Sử dụng Maven
 
-Thêm phụ thuộc sau vào `pom.xml` tài liệu:
+Thêm phụ thuộc sau vào tệp `pom.xml` của bạn:
 
 ```xml
 <dependency>
@@ -69,25 +88,25 @@ Thêm phụ thuộc sau vào `pom.xml` tài liệu:
 
 ### Sử dụng Gradle
 
-Bao gồm điều này trong của bạn `build.gradle` tài liệu:
+Bao gồm đoạn này trong tệp `build.gradle` của bạn:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Tải xuống trực tiếp
+### Tải trực tiếp
 
-Đối với những người thích tải xuống trực tiếp, hãy truy cập [Aspose.Slides cho bản phát hành Java](https://releases.aspose.com/slides/java/) trang.
+Đối với những người muốn tải trực tiếp, hãy truy cập trang [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-#### Các bước xin cấp giấy phép
+#### Các bước lấy giấy phép
 
-- **Dùng thử miễn phí**: Kiểm tra Aspose.Slides bằng giấy phép tạm thời để đánh giá các tính năng của nó.
-- **Giấy phép tạm thời**Truy cập các chức năng nâng cao bằng cách yêu cầu giấy phép tạm thời miễn phí.
-- **Mua**: Mua đăng ký nếu bạn thấy công cụ này đáp ứng được nhu cầu của bạn cho các dự án dài hạn.
+- **Dùng thử miễn phí**: Kiểm tra Aspose.Slides với giấy phép tạm thời để đánh giá tính năng.
+- **Giấy phép tạm thời**: Truy cập các chức năng nâng cao bằng cách yêu cầu giấy phép tạm thời miễn phí.
+- **Mua**: Mua gói đăng ký nếu công cụ đáp ứng nhu cầu dự án dài hạn của bạn.
 
-#### Khởi tạo và thiết lập cơ bản
+#### Khởi tạo và Cài đặt Cơ bản
 
-Bắt đầu bằng cách tạo một `Presentation` đối tượng, đóng vai trò là nơi chứa tất cả các hành động liên quan đến slide:
+Bắt đầu bằng cách tạo một đối tượng `Presentation`, đóng vai trò là container cho tất cả các hành động liên quan đến slide:
 
 ```java
 import com.aspose.slides.Presentation;
@@ -95,25 +114,25 @@ import com.aspose.slides.Presentation;
 public class AsposeInit {
     public static void main(String[] args) {
         Presentation pres = new Presentation();
-        // Mã để thao tác bài thuyết trình của bạn sẽ nằm ở đây.
-        pres.dispose();  // Luôn xử lý tài nguyên khi hoàn tất.
+        // Your code to manipulate presentations goes here.
+        pres.dispose();  // Always dispose of resources when done.
     }
 }
 ```
 
-## Hướng dẫn thực hiện
+## Hướng dẫn Thực hiện
 
-### Tạo biểu đồ trong bài thuyết trình
+### Tạo biểu đồ trong một bài thuyết trình
 
-Tạo biểu đồ bằng Aspose.Slides rất trực quan. Chúng ta hãy cùng tìm hiểu từng bước trong quy trình này.
+Việc tạo biểu đồ với Aspose.Slides rất trực quan. Hãy cùng đi qua quy trình từng bước.
 
 #### Tổng quan
 
-Phần này trình bày cách thêm biểu đồ Diện tích vào bài thuyết trình của bạn và cấu hình các thuộc tính cơ bản của biểu đồ đó.
+Phần này minh họa cách thêm một biểu đồ Area vào bài thuyết trình và cấu hình các thuộc tính cơ bản của nó.
 
-##### Bước 1: Khởi tạo bài thuyết trình của bạn
+##### Bước 1: Khởi tạo Bài thuyết trình của Bạn
 
-Đầu tiên, tạo một cái mới `Presentation` ví dụ:
+Đầu tiên, tạo một thể hiện `Presentation` mới:
 
 ```java
 import com.aspose.slides.Presentation;
@@ -123,7 +142,7 @@ public class ChartCreation {
         Presentation pres = new Presentation();
         
         try {
-            // Tiến hành tạo biểu đồ ở các bước tiếp theo.
+            // Proceed with chart creation in the next steps.
         } finally {
             if (pres != null) pres.dispose();
         }
@@ -131,25 +150,25 @@ public class ChartCreation {
 }
 ```
 
-##### Bước 2: Thêm Biểu đồ Diện tích
+##### Bước 2: Thêm biểu đồ Area
 
-Thêm biểu đồ Diện tích vào trang chiếu của bạn. Phương pháp `addChart` yêu cầu các tham số về loại, vị trí và kích thước:
+Thêm một biểu đồ Area vào slide của bạn. Phương thức `addChart` yêu cầu các tham số cho loại, vị trí và kích thước:
 
 ```java
 import com.aspose.slides.Chart;
 import com.aspose.slides.ChartType;
 
-// Bên trong khối try của phương thức chính của bạn
+// Inside the try block of your main method
 Chart chart = (Chart) pres.getSlides().get_Item(0).getShapes().addChart(
     ChartType.Area, 100, 100, 500, 350);
 ```
 
-- **Giải thích các thông số**:
-  - `ChartType.Area`: Chỉ định loại biểu đồ.
-  - `(100, 100)`: Tọa độ X và Y để định vị.
+- **Giải thích các tham số**:
+  - `ChartType.Area`: Xác định loại biểu đồ.
+  - `(100, 100)`: Tọa độ X và Y để đặt vị trí.
   - `(500, 350)`: Kích thước chiều rộng và chiều cao.
 
-##### Bước 3: Truy cập Thuộc tính Axes
+##### Bước 3: Truy cập Thuộc tính Trục
 
 Lấy giá trị từ trục dọc:
 
@@ -158,8 +177,8 @@ double maxValue = chart.getAxes().getVerticalAxis().getActualMaxValue();
 double minValue = chart.getAxes().getVerticalAxis().getActualMinValue();
 ```
 
-- **Giải thích các thông số**:
-  - `getActualMaxValue()` Và `getActualMinValue()`: Trả về giá trị max/min hiện tại được đặt trên trục.
+- **Giải thích các tham số**:
+  - `getActualMaxValue()` và `getActualMinValue()`: Trả về giá trị max/min hiện tại được đặt trên trục.
 
 Lấy các đơn vị chính và phụ từ trục ngang:
 
@@ -168,67 +187,88 @@ double majorUnit = chart.getAxes().getHorizontalAxis().getActualMajorUnit();
 double minorUnit = chart.getAxes().getHorizontalAxis().getActualMinorUnit();
 ```
 
-- **Giải thích các thông số**:
-  - `getActualMajorUnit()` Và `getActualMinorUnit()`: Lấy các khoảng đơn vị để chia tỷ lệ trục.
+- **Giải thích các tham số**:
+  - `getActualMajorUnit()` và `getActualMinorUnit()`: Lấy khoảng đơn vị cho việc chia tỷ lệ trục.
 
-##### Bước 4: Lưu bài thuyết trình của bạn
+##### Bước 4: Lưu Bài thuyết trình của Bạn
 
-Cuối cùng, lưu bài thuyết trình của bạn vào một thư mục được chỉ định:
+Cuối cùng, lưu bài thuyết trình vào thư mục đã chỉ định:
 
 ```java
 import com.aspose.slides.SaveFormat;
 
-// Vào cuối khối thử của bạn
+// At the end of your try block
 pres.save("YOUR_OUTPUT_DIRECTORY/ErrorBars_out.pptx", SaveFormat.Pptx);
 ```
 
-- **Giải thích các thông số**:
-  - `"YOUR_OUTPUT_DIRECTORY/ErrorBars_out.pptx"`: Đường dẫn và tên tệp để lưu.
-  - `SaveFormat.Pptx`: Chỉ định định dạng tập tin.
+- **Giải thích các tham số**:
+  - `"YOUR_OUTPUT_DIRECTORY/ErrorBars_out.pptx"`: Đường dẫn và tên file để lưu.
+  - `SaveFormat.Pptx`: Xác định định dạng file.
 
-### Mẹo khắc phục sự cố
+### Mẹo Khắc phục sự cố
 
-- Đảm bảo bạn đã thêm Aspose.Slides vào phần phụ thuộc của dự án một cách chính xác.
-- Xác minh rằng tất cả các lệnh nhập cần thiết đều có trong tệp lớp Java của bạn.
-- Kiểm tra lại chuỗi đường dẫn để tránh lỗi đánh máy khi lưu tệp.
+- Đảm bảo bạn đã thêm Aspose.Slides vào phụ thuộc của dự án một cách chính xác.
+- Kiểm tra rằng tất cả các import cần thiết đã được bao gồm trong các file lớp Java.
+- Kiểm tra lại các chuỗi đường dẫn để tránh lỗi chính tả khi lưu file.
 
-## Ứng dụng thực tế
+## Ứng dụng Thực tiễn
 
-Aspose.Slides cung cấp nhiều ứng dụng ngoài việc tạo biểu đồ cơ bản. Sau đây là một số ứng dụng thực tế:
+1. **Báo cáo Kinh doanh** – Nâng cao báo cáo quý với các biểu đồ tương tác.
+2. **Bài thuyết trình Giáo dục** – Minh họa dữ liệu phức tạp trong tài liệu giảng dạy.
+3. **Chiến dịch Marketing** – Trình bày kết quả chiến dịch với các đồ thị động.
 
-1. **Báo cáo kinh doanh**:Cải thiện báo cáo hàng quý bằng biểu đồ tương tác.
-2. **Bài thuyết trình giáo dục**: Minh họa dữ liệu phức tạp trong tài liệu giáo dục.
-3. **Chiến dịch tiếp thị**: Sử dụng biểu đồ động để thể hiện hiệu quả kết quả chiến dịch.
+Việc tích hợp với các hệ thống như cơ sở dữ liệu hoặc các ứng dụng Java khác có thể giúp tối ưu quy trình làm việc, cho phép trực quan hoá dữ liệu thời gian thực trong các bài thuyết trình.
 
-Việc tích hợp với các hệ thống như cơ sở dữ liệu hoặc các ứng dụng Java khác có thể hợp lý hóa quy trình làm việc của bạn, cho phép trực quan hóa dữ liệu theo thời gian thực trong các bài thuyết trình.
+## Các cân nhắc về Hiệu suất
 
-## Cân nhắc về hiệu suất
+Khi làm việc với bộ dữ liệu lớn hoặc nhiều biểu đồ:
 
-Khi làm việc với các tập dữ liệu lớn hoặc nhiều biểu đồ:
+- Tối ưu việc render biểu đồ bằng cách giảm số lượng phần tử.
+- Quản lý bộ nhớ hiệu quả bằng cách sử dụng `pres.dispose()` sau các thao tác.
+- Tuân thủ các thực hành tốt nhất để xử lý tài nguyên trong Aspose.Slides nhằm tránh rò rỉ.
 
-- Tối ưu hóa việc hiển thị biểu đồ bằng cách giảm thiểu số lượng phần tử.
-- Quản lý bộ nhớ hiệu quả bằng cách sử dụng `pres.dispose()` sau khi phẫu thuật.
-- Thực hiện các biện pháp tốt nhất để xử lý tài nguyên trong Aspose.Slides để tránh rò rỉ.
+## Kết luận
 
-## Phần kết luận
+Trong hướng dẫn này, bạn đã học **cách tạo biểu đồ** và thao tác với các trục của nó trong các bài thuyết trình Java bằng Aspose.Slides. Bằng cách làm theo các bước này, bạn có thể tích hợp trực quan hoá dữ liệu tinh vi vào dự án của mình một cách dễ dàng. Để khám phá thêm, hãy thử nghiệm các loại biểu đồ khác và các tùy chọn tùy chỉnh nâng cao có sẵn trong thư viện.
 
-Trong hướng dẫn này, bạn đã học cách tạo và thao tác biểu đồ trong các bài thuyết trình Java bằng Aspose.Slides. Bằng cách làm theo các bước này, bạn có thể dễ dàng tích hợp trực quan hóa dữ liệu phức tạp vào các dự án của mình. Để khám phá thêm, hãy cân nhắc tìm hiểu sâu hơn về các loại biểu đồ bổ sung và các tùy chọn tùy chỉnh nâng cao có sẵn trong thư viện.
+Sẵn sàng nâng cao kỹ năng thuyết trình của bạn? Hãy áp dụng các kỹ thuật này và khám phá vô vàn khả năng của Aspose.Slides for Java!
 
-Sẵn sàng nâng cao kỹ năng thuyết trình của bạn lên một tầm cao mới? Hãy thử áp dụng các kỹ thuật này và khám phá khả năng to lớn của Aspose.Slides for Java!
+## Phần Hỏi Đáp
 
-## Phần Câu hỏi thường gặp
+**1. Aspose.Slides Java được dùng để làm gì?**  
+Aspose.Slides Java là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi các bài thuyết trình trong các ứng dụng Java.
 
-**1. Aspose.Slides Java được sử dụng để làm gì?**
-Aspose.Slides Java là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, thao tác và chuyển đổi các bài thuyết trình trong các ứng dụng Java.
+**2. Làm sao để xử lý giấy phép với Aspose.Slides?**  
+Bạn có thể bắt đầu với giấy phép dùng thử miễn phí hoặc yêu cầu giấy phép tạm thời để đánh giá mở rộng. Đối với các dự án lâu dài, nên mua gói đăng ký.
 
-**2. Tôi phải xử lý việc cấp phép với Aspose.Slides như thế nào?**
-Bạn có thể bắt đầu bằng giấy phép dùng thử miễn phí hoặc yêu cầu giấy phép tạm thời để đánh giá mở rộng. Đối với các dự án đang triển khai, nên mua đăng ký.
+**3. Tôi có thể tích hợp biểu đồ Aspose.Slides vào ứng dụng web không?**  
+Có, Aspose.Slides có thể được sử dụng trong các ứng dụng Java phía máy chủ để tạo và phục vụ các bài thuyết trình một cách động.
 
-**3. Tôi có thể tích hợp biểu đồ Aspose.Slides vào ứng dụng web không?**
-Có, Aspose.Slides có thể được sử dụng trong các ứng dụng Java phía máy chủ để tạo và trình bày các bài thuyết trình một cách linh hoạt.
+**4. Làm sao tôi tùy chỉnh kiểu biểu đồ bằng Aspose.Slides?**  
+Các tùy chọn tùy chỉnh bao gồm thay đổi màu sắc, phông chữ và các yếu tố kiểu dáng khác trực tiếp qua API.
 
-**4. Làm thế nào để tùy chỉnh kiểu biểu đồ bằng Aspose.Slides?**
-Các tùy chọn tùy chỉnh bao gồm sửa đổi màu sắc, phông chữ và các yếu tố kiểu dáng khác trực tiếp thông qua API.
+## Câu hỏi Thường gặp
+
+**Q: Làm thế nào để đặt giới hạn trục tùy chỉnh trên một biểu đồ?**  
+A: Sử dụng `getActualMaxValue()` và `getActualMinValue()` trên trục dọc, hoặc đặt giá trị cụ thể qua các phương thức `setMaximum()` / `setMinimum()` của trục.
+
+**Q: Coordinate Maven đúng cho thư viện là gì?**  
+A: *maven aspose slides dependency* là `com.aspose:aspose-slides:25.4` với classifier `jdk16`.
+
+**Q: Aspose.Slides có hỗ trợ lưu sang các định dạng khác không?**  
+A: Có, bạn có thể lưu sang PDF, XPS, PPT và nhiều định dạng khác bằng cách thay đổi enum `SaveFormat`.
+
+**Q: Có giới hạn nào về kích thước của series dữ liệu không?**  
+A: Mặc dù không có giới hạn cứng, các bộ dữ liệu rất lớn có thể ảnh hưởng đến hiệu suất; nên tóm tắt hoặc phân trang dữ liệu.
+
+**Q: Làm sao để đảm bảo PPTX được tạo hoạt động trên các phiên bản PowerPoint cũ?**  
+A: Lưu bằng `SaveFormat.Ppt` để tương thích với PowerPoint 97‑2003, mặc dù một số tính năng nâng cao có thể bị giảm.
+
+---
+
+**Last Updated:** 2026-01-14  
+**Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

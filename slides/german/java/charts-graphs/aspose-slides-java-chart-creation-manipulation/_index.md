@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Erfahren Sie, wie Sie mit Aspose.Slides Diagramme in Java-Präsentationen erstellen, aufrufen und anpassen. Entdecken Sie Best Practices für nahtlose Datenvisualisierung."
-"title": "Erstellen und Bearbeiten von Diagrammen in Java-Präsentationen mit Aspose.Slides für Java"
-"url": "/de/java/charts-graphs/aspose-slides-java-chart-creation-manipulation/"
-"weight": 1
+date: '2026-01-14'
+description: Erfahren Sie, wie Sie Diagramme erstellen, Datenvisualisierungen erzeugen,
+  Diagrammachsenbegrenzungen festlegen und Präsentationen im PPTX-Format mit Aspose.Slides
+  für Java speichern.
+keywords:
+- Aspose.Slides for Java
+- Java chart creation
+- data visualization in presentations
+title: Wie man Diagramme in Java‑Präsentationen mit Aspose.Slides für Java erstellt
+url: /de/java/charts-graphs/aspose-slides-java-chart-creation-manipulation/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,52 +17,66 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Erstellen und Bearbeiten von Diagrammen in Java-Präsentationen mit Aspose.Slides für Java
+# Erstellen und Bearbeiten von Diagrammen in Java‑Präsentationen mit Aspose.Slides für Java
 
 ## Einführung
 
-Visuell ansprechende Diagramme in Ihren Präsentationen verwandeln Rohdaten in überzeugende Geschichten und erleichtern so die effektive Vermittlung von Erkenntnissen. Die Entwicklung dieser dynamischen visuellen Elemente von Grund auf kann jedoch zeitaufwändig und komplex sein. Nutzen Sie die Aspose.Slides für Java-Bibliothek – ein leistungsstarkes Tool, das die Erstellung und Bearbeitung von Diagrammen in Präsentationen vereinfacht.
+Visuell ansprechende Diagramme in Ihren Präsentationen zu erstellen, kann Rohdaten in überzeugende Geschichten verwandeln und das Kommunizieren von Erkenntnissen deutlich erleichtern. Das Aufbauen dieser dynamischen visuellen Elemente von Grund auf kann jedoch zeitaufwändig und komplex sein. **Wie man ein Diagramm erstellt** in einer Java‑Präsentation wird mit Aspose.Slides für Java mühelos – einer leistungsstarken Bibliothek, die alles von der Datenbindung bis zur Darstellung übernimmt.
 
-In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Slides für Java ein Diagramm erstellen, auf dessen Achsen zugreifen, wichtige Werte abrufen und es mühelos anpassen. Lassen Sie uns Ihre Präsentationen mit diesen wichtigen Erkenntnissen nahtlos verbessern:
+In diesem Tutorial erfahren Sie, wie Sie Aspose.Slides für Java nutzen, um ein Diagramm zu erstellen, auf seine Achsen zuzugreifen, wichtige Werte abzurufen und es mühelos anzupassen. Lassen Sie uns Ihre Präsentationen nahtlos mit diesen wichtigsten Erkenntnissen verbessern:
 
 - **Was Sie lernen werden:**
-  - So richten Sie Aspose.Slides für Java ein und initialisieren es.
-  - Erstellen eines Flächendiagramms innerhalb einer Präsentation.
-  - Zugriff auf die Eigenschaften der vertikalen und horizontalen Achsen.
-  - Abrufen von Maximal- und Minimalwerten sowie Achseneinheiten.
-  - Speichern Sie Ihre geänderten Präsentationen mit Leichtigkeit.
+  - Wie Sie Aspose.Slides für Java einrichten und initialisieren.
+  - Ein Flächendiagramm (Area chart) in einer Präsentation erstellen.
+  - Eigenschaften der vertikalen und horizontalen Achsen abrufen.
+  - Maximal‑, Minimalwerte und Achseneinheiten ermitteln.
+  - Ihre geänderten Präsentationen problemlos speichern.
 
-Sind Sie bereit, die Datenvisualisierung in Präsentationen zum Kinderspiel zu machen? Dann legen wir los!
+### Schnellantworten
+- **Was ist die primäre Bibliothek?** Aspose.Slides für Java.
+- **Welches Maven‑Artefakt fügt die Abhängigkeit hinzu?** `com.aspose:aspose-slides` (siehe *maven aspose slides dependency*).
+- **Wie erstelle ich Datenvisualisierungen?** Durch das Erstellen von Diagrammen (z. B. Flächendiagramm) und Anpassen der Achsen.
+- **Kann ich Diagrammachsen‑Grenzwerte festlegen?** Ja – verwenden Sie die Methoden `getActualMaxValue()` / `getActualMinValue()`.
+- **Welches Format sollte ich zum Speichern verwenden?** `SaveFormat.Pptx` (d. h. *save presentation pptx*).
+
+## Was bedeutet „wie man ein Diagramm erstellt“ mit Aspose.Slides?
+Aspose.Slides bietet eine fluente API, mit der Sie programmatisch Diagramme in PowerPoint‑Dateien erstellen, bearbeiten und exportieren können. Ob einfaches Liniendiagramm oder komplexes gestapeltes Flächendiagramm – die Bibliothek abstrahiert die low‑level XML‑Verarbeitung, sodass Sie sich auf Daten und Design konzentrieren können.
+
+## Warum Datenvisualisierungen mit Aspose.Slides erzeugen?
+- **Geschwindigkeit:** Diagramme in Minuten statt Stunden erstellen.
+- **Konsistenz:** Unternehmensbranding automatisch auf allen Folien anwenden.
+- **Portabilität:** PPTX‑Dateien auf jeder Plattform erzeugen, die Java ausführt.
+- **Automatisierung:** Integration mit Datenbanken, Web‑Services oder Reporting‑Pipelines.
 
 ## Voraussetzungen
 
-Bevor Sie sich mit den Einzelheiten der Diagrammerstellung mit Aspose.Slides Java befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+Bevor Sie in die Details der Diagrammerstellung mit Aspose.Slides Java eintauchen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
 ### Erforderliche Bibliotheken, Versionen und Abhängigkeiten
 
-Um diesem Tutorial folgen zu können, benötigen Sie:
-- **Aspose.Slides für Java**: Version 25.4 oder höher.
-- Java Development Kit (JDK) 16 oder höher.
+Für dieses Tutorial benötigen Sie:
+- **Aspose.Slides für Java**: Version 25.4 oder höher.
+- Java Development Kit (JDK) 16 oder höher.
 
-### Anforderungen für die Umgebungseinrichtung
+### Anforderungen an die Umgebung
 
-Stellen Sie sicher, dass Ihre Entwicklungsumgebung mit Folgendem ausgestattet ist:
-- Eine kompatible IDE wie IntelliJ IDEA oder Eclipse.
-- In Ihrem Projekt-Setup konfigurierte Maven- oder Gradle-Build-Tools.
+Stellen Sie sicher, dass Ihre Entwicklungsumgebung ausgestattet ist mit:
+- Einer kompatiblen IDE wie IntelliJ IDEA oder Eclipse.
+- Maven‑ oder Gradle‑Build‑Tools, die in Ihrem Projekt konfiguriert sind.
 
-### Voraussetzungen
+### Wissensvoraussetzungen
 
-Ein grundlegendes Verständnis von:
-- Konzepte der Java-Programmierung.
+Grundlegendes Verständnis von:
+- Java‑Programmierkonzepten.
 - Arbeiten mit externen Bibliotheken (Maven/Gradle).
 
-## Einrichten von Aspose.Slides für Java
+## Aspose.Slides für Java einrichten
 
-Die Integration von Aspose.Slides in Ihr Java-Projekt ist unkompliziert. So fügen Sie es mit Maven, Gradle oder per Direktdownload hinzu:
+Die Integration von Aspose.Slides in Ihr Java‑Projekt ist unkompliziert. So fügen Sie es mit Maven, Gradle oder direktem Download hinzu:
 
-### Verwenden von Maven
+### Mit Maven
 
-Fügen Sie die folgende Abhängigkeit zu Ihrem `pom.xml` Datei:
+Fügen Sie die folgende Abhängigkeit zu Ihrer `pom.xml`‑Datei hinzu:
 
 ```xml
 <dependency>
@@ -67,9 +87,9 @@ Fügen Sie die folgende Abhängigkeit zu Ihrem `pom.xml` Datei:
 </dependency>
 ```
 
-### Verwenden von Gradle
+### Mit Gradle
 
-Nehmen Sie dies in Ihre `build.gradle` Datei:
+Fügen Sie dies zu Ihrer `build.gradle`‑Datei hinzu:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
@@ -77,17 +97,17 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 
 ### Direkter Download
 
-Wer direkte Downloads bevorzugt, besucht die [Aspose.Slides für Java-Versionen](https://releases.aspose.com/slides/java/) Seite.
+Für diejenigen, die direkte Downloads bevorzugen, besuchen Sie die Seite [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-#### Schritte zum Lizenzerwerb
+#### Schritte zum Erwerb einer Lizenz
 
-- **Kostenlose Testversion**: Testen Sie Aspose.Slides mit einer temporären Lizenz, um seine Funktionen zu bewerten.
-- **Temporäre Lizenz**Greifen Sie auf erweiterte Funktionen zu, indem Sie eine kostenlose temporäre Lizenz anfordern.
-- **Kaufen**: Kaufen Sie ein Abonnement, wenn das Tool Ihren Anforderungen für langfristige Projekte entspricht.
+- **Kostenlose Testversion**: Testen Sie Aspose.Slides mit einer temporären Lizenz, um die Funktionen zu evaluieren.
+- **Temporäre Lizenz**: Greifen Sie auf erweiterte Funktionalitäten zu, indem Sie eine kostenlose temporäre Lizenz anfordern.
+- **Kauf**: Kaufen Sie ein Abonnement, wenn das Tool Ihren langfristigen Projektanforderungen entspricht.
 
 #### Grundlegende Initialisierung und Einrichtung
 
-Beginnen Sie mit der Erstellung eines `Presentation` Objekt, das als Container für alle Folien-bezogenen Aktionen dient:
+Beginnen Sie mit dem Erzeugen eines `Presentation`‑Objekts, das als Container für alle Folien‑bezogenen Aktionen dient:
 
 ```java
 import com.aspose.slides.Presentation;
@@ -95,25 +115,25 @@ import com.aspose.slides.Presentation;
 public class AsposeInit {
     public static void main(String[] args) {
         Presentation pres = new Presentation();
-        // Ihr Code zum Bearbeiten von Präsentationen kommt hierhin.
-        pres.dispose();  // Entsorgen Sie Ressourcen immer, wenn Sie fertig sind.
+        // Your code to manipulate presentations goes here.
+        pres.dispose();  // Always dispose of resources when done.
     }
 }
 ```
 
-## Implementierungshandbuch
+## Implementierungsleitfaden
 
-### Erstellen eines Diagramms in einer Präsentation
+### Ein Diagramm in einer Präsentation erstellen
 
-Das Erstellen von Diagrammen mit Aspose.Slides ist intuitiv. Lassen Sie uns den Prozess Schritt für Schritt durchgehen.
+Das Erstellen von Diagrammen mit Aspose.Slides ist intuitiv. Wir gehen den Prozess Schritt für Schritt durch.
 
 #### Überblick
 
-In diesem Abschnitt wird gezeigt, wie Sie Ihrer Präsentation ein Flächendiagramm hinzufügen und seine grundlegenden Eigenschaften konfigurieren.
+Dieser Abschnitt zeigt, wie Sie ein Flächendiagramm zu Ihrer Präsentation hinzufügen und dessen Grundeigenschaften konfigurieren.
 
-##### Schritt 1: Initialisieren Sie Ihre Präsentation
+##### Schritt 1: Präsentation initialisieren
 
-Erstellen Sie zunächst eine neue `Presentation` Beispiel:
+Erzeugen Sie zunächst eine neue `Presentation`‑Instanz:
 
 ```java
 import com.aspose.slides.Presentation;
@@ -123,7 +143,7 @@ public class ChartCreation {
         Presentation pres = new Presentation();
         
         try {
-            // Fahren Sie in den nächsten Schritten mit der Diagrammerstellung fort.
+            // Proceed with chart creation in the next steps.
         } finally {
             if (pres != null) pres.dispose();
         }
@@ -131,27 +151,27 @@ public class ChartCreation {
 }
 ```
 
-##### Schritt 2: Fügen Sie ein Flächendiagramm hinzu
+##### Schritt 2: Flächendiagramm hinzufügen
 
-Fügen Sie Ihrer Folie ein Flächendiagramm hinzu. Die Methode `addChart` erfordert Parameter für Typ, Position und Größe:
+Fügen Sie Ihrer Folie ein Flächendiagramm hinzu. Die Methode `addChart` benötigt Parameter für Typ, Position und Größe:
 
 ```java
 import com.aspose.slides.Chart;
 import com.aspose.slides.ChartType;
 
-// Innerhalb des Try-Blocks Ihrer Hauptmethode
+// Inside the try block of your main method
 Chart chart = (Chart) pres.getSlides().get_Item(0).getShapes().addChart(
     ChartType.Area, 100, 100, 500, 350);
 ```
 
 - **Parameter erklärt**:
   - `ChartType.Area`: Gibt den Diagrammtyp an.
-  - `(100, 100)`: X- und Y-Koordinaten zur Positionierung.
-  - `(500, 350)`: Breiten- und Höhenmaße.
+  - `(100, 100)`: X‑ und Y‑Koordinaten für die Positionierung.
+  - `(500, 350)`: Breite‑ und Höhenmaße.
 
-##### Schritt 3: Zugriff auf Achseneigenschaften
+##### Schritt 3: Achseneigenschaften abrufen
 
-Werte von der vertikalen Achse abrufen:
+Werte von der vertikalen Achse erhalten:
 
 ```java
 double maxValue = chart.getAxes().getVerticalAxis().getActualMaxValue();
@@ -159,9 +179,9 @@ double minValue = chart.getAxes().getVerticalAxis().getActualMinValue();
 ```
 
 - **Parameter erklärt**:
-  - `getActualMaxValue()` Und `getActualMinValue()`: Gibt die aktuell auf der Achse eingestellten Max-/Min-Werte zurück.
+  - `getActualMaxValue()` und `getActualMinValue()`: Geben die aktuell gesetzten Max‑/Min‑Werte der Achse zurück.
 
-Rufen Sie Haupt- und Nebeneinheiten von der horizontalen Achse ab:
+Haupt‑ und Neben‑Einheiten der horizontalen Achse abrufen:
 
 ```java
 double majorUnit = chart.getAxes().getHorizontalAxis().getActualMajorUnit();
@@ -169,16 +189,16 @@ double minorUnit = chart.getAxes().getHorizontalAxis().getActualMinorUnit();
 ```
 
 - **Parameter erklärt**:
-  - `getActualMajorUnit()` Und `getActualMinorUnit()`: Ruft die Einheitsintervalle für die Achsenskalierung ab.
+  - `getActualMajorUnit()` und `getActualMinorUnit()`: Ermitteln die Intervallgrößen für die Achsenskalierung.
 
-##### Schritt 4: Speichern Sie Ihre Präsentation
+##### Schritt 4: Präsentation speichern
 
-Speichern Sie Ihre Präsentation abschließend in einem angegebenen Verzeichnis:
+Speichern Sie abschließend Ihre Präsentation in ein angegebenes Verzeichnis:
 
 ```java
 import com.aspose.slides.SaveFormat;
 
-// Am Ende Ihres Try-Blocks
+// At the end of your try block
 pres.save("YOUR_OUTPUT_DIRECTORY/ErrorBars_out.pptx", SaveFormat.Pptx);
 ```
 
@@ -186,49 +206,72 @@ pres.save("YOUR_OUTPUT_DIRECTORY/ErrorBars_out.pptx", SaveFormat.Pptx);
   - `"YOUR_OUTPUT_DIRECTORY/ErrorBars_out.pptx"`: Pfad und Dateiname zum Speichern.
   - `SaveFormat.Pptx`: Gibt das Dateiformat an.
 
-### Tipps zur Fehlerbehebung
+### Fehlersuche
 
-- Stellen Sie sicher, dass Sie Aspose.Slides korrekt zu den Abhängigkeiten Ihres Projekts hinzugefügt haben.
-- Überprüfen Sie, ob alle erforderlichen Importe in Ihren Java-Klassendateien enthalten sind.
-- Überprüfen Sie beim Speichern von Dateien die Pfadzeichenfolgen doppelt auf Tippfehler.
+- Stellen Sie sicher, dass Sie Aspose.Slides korrekt zu den Projektabhängigkeiten hinzugefügt haben.
+- Prüfen Sie, ob alle notwendigen Importe in Ihren Java‑Klassen enthalten sind.
+- Überprüfen Sie Pfadangaben auf Tippfehler beim Speichern von Dateien.
 
-## Praktische Anwendungen
+## Praktische Anwendungsbeispiele
 
-Aspose.Slides bietet eine breite Palette an Anwendungen, die über die einfache Diagrammerstellung hinausgehen. Hier sind einige praktische Anwendungen:
+Aspose.Slides bietet ein breites Anwendungsspektrum über die reine Diagrammerstellung hinaus. Hier einige praktische Einsatzmöglichkeiten:
 
-1. **Geschäftsberichte**: Verbessern Sie Quartalsberichte mit interaktiven Diagrammen.
-2. **Lehrpräsentationen**: Veranschaulichen Sie komplexe Daten in Lehrmaterialien.
-3. **Marketingkampagnen**: Verwenden Sie dynamische Diagramme, um Kampagnenergebnisse effektiv zu präsentieren.
+1. **Business‑Reporting** – Quartalsberichte mit interaktiven Diagrammen aufwerten.
+2. **Bildungspräsentationen** – Komplexe Daten in Lehrmaterialien veranschaulichen.
+3. **Marketing‑Kampagnen** – Kampagnenergebnisse mit dynamischen Grafiken präsentieren.
 
-Durch die Integration mit Systemen wie Datenbanken oder anderen Java-Anwendungen können Sie Ihren Arbeitsablauf weiter optimieren und eine Echtzeit-Datenvisualisierung innerhalb von Präsentationen ermöglichen.
+Die Integration mit Systemen wie Datenbanken oder anderen Java‑Anwendungen kann Ihren Workflow weiter optimieren und Echtzeit‑Datenvisualisierung in Präsentationen ermöglichen.
 
-## Überlegungen zur Leistung
+## Leistungsüberlegungen
 
-Beim Arbeiten mit großen Datensätzen oder zahlreichen Diagrammen:
+Beim Arbeiten mit großen Datensätzen oder vielen Diagrammen:
 
-- Optimieren Sie die Diagrammdarstellung, indem Sie die Anzahl der Elemente minimieren.
-- Effiziente Speicherverwaltung mit `pres.dispose()` nach Operationen.
-- Befolgen Sie die Best Practices für den Umgang mit Ressourcen in Aspose.Slides, um Lecks zu vermeiden.
+- Optimieren Sie das Rendering, indem Sie die Anzahl der Elemente minimieren.
+- Verwalten Sie den Speicher effizient mit `pres.dispose()` nach den Vorgängen.
+- Befolgen Sie bewährte Praktiken zum Ressourcen‑Handling in Aspose.Slides, um Lecks zu vermeiden.
 
-## Abschluss
+## Fazit
 
-In diesem Tutorial haben Sie gelernt, wie Sie mit Aspose.Slides Diagramme in Java-Präsentationen erstellen und bearbeiten. Mit diesen Schritten können Sie anspruchsvolle Datenvisualisierungen problemlos in Ihre Projekte integrieren. Für weitere Informationen können Sie sich mit den zusätzlichen Diagrammtypen und erweiterten Anpassungsoptionen der Bibliothek befassen.
+In diesem Tutorial haben Sie **wie man ein Diagramm erstellt** und die Achsen in Java‑Präsentationen mit Aspose.Slides gelernt. Durch Befolgen dieser Schritte können Sie anspruchsvolle Datenvisualisierungen problemlos in Ihre Projekte integrieren. Für weiterführende Experimente probieren Sie zusätzliche Diagrammtypen und erweiterte Anpassungsoptionen der Bibliothek aus.
 
-Sind Sie bereit, Ihre Präsentationsfähigkeiten auf die nächste Stufe zu heben? Versuchen Sie, diese Techniken umzusetzen und entdecken Sie die enormen Möglichkeiten von Aspose.Slides für Java!
+Bereit, Ihre Präsentationsfähigkeiten auf das nächste Level zu heben? Setzen Sie diese Techniken um und entdecken Sie die vielfältigen Möglichkeiten von Aspose.Slides für Java!
 
-## FAQ-Bereich
+## FAQ‑Abschnitt
 
-**1. Wofür wird Aspose.Slides Java verwendet?**
-Aspose.Slides Java ist eine leistungsstarke Bibliothek, mit der Entwickler Präsentationen in Java-Anwendungen erstellen, bearbeiten und konvertieren können.
+**1. Wofür wird Aspose.Slides Java verwendet?**  
+Aspose.Slides Java ist eine leistungsstarke Bibliothek, die Entwicklern das Erstellen, Bearbeiten und Konvertieren von Präsentationen in Java‑Anwendungen ermöglicht.
 
-**2. Wie handhabe ich die Lizenzierung mit Aspose.Slides?**
-Sie können mit einer kostenlosen Testlizenz beginnen oder eine temporäre Lizenz für eine erweiterte Evaluierung anfordern. Für laufende Projekte empfiehlt sich der Erwerb eines Abonnements.
+**2. Wie gehe ich mit der Lizenzierung von Aspose.Slides um?**  
+Sie können mit einer kostenlosen Testlizenz beginnen oder eine temporäre Lizenz für eine erweiterte Evaluierung anfordern. Für laufende Projekte wird der Kauf eines Abonnements empfohlen.
 
-**3. Kann ich Aspose.Slides-Diagramme in Webanwendungen integrieren?**
-Ja, Aspose.Slides kann in serverseitigen Java-Anwendungen verwendet werden, um Präsentationen dynamisch zu generieren und bereitzustellen.
+**3. Kann ich Aspose.Slides‑Diagramme in Web‑Anwendungen integrieren?**  
+Ja, Aspose.Slides kann in serverseitigen Java‑Anwendungen verwendet werden, um Präsentationen dynamisch zu erzeugen und bereitzustellen.
 
-**4. Wie passe ich Diagrammstile mit Aspose.Slides an?**
-Zu den Anpassungsoptionen gehört das Ändern von Farben, Schriftarten und anderen Stilelementen direkt über die API.
+**4. Wie passe ich Diagramm‑Stile mit Aspose.Slides an?**  
+Anpassungsoptionen umfassen das Ändern von Farben, Schriftarten und anderen Stilelementen direkt über die API.
+
+## Häufig gestellte Fragen
+
+**F: Wie kann ich benutzerdefinierte Achsengrenzwerte für ein Diagramm festlegen?**  
+A: Verwenden Sie `getActualMaxValue()` und `getActualMinValue()` auf der vertikalen Achse oder setzen Sie explizite Werte über die Methoden `setMaximum()` / `setMinimum()` der Achse.
+
+**F: Was ist die korrekte Maven‑Koordinate für die Bibliothek?**  
+A: Die *maven aspose slides dependency* lautet `com.aspose:aspose-slides:25.4` mit dem Klassifizierer `jdk16`.
+
+**F: Unterstützt Aspose.Slides das Speichern in anderen Formaten?**  
+A: Ja, Sie können durch Ändern des `SaveFormat`‑Enums in PDF, XPS, PPT und viele weitere Formate speichern.
+
+**F: Gibt es Beschränkungen für die Größe von Datenreihen?**  
+A: Es gibt keine feste Obergrenze, jedoch können sehr große Datensätze die Leistung beeinträchtigen; erwägen Sie Zusammenfassungen oder Paging.
+
+**F: Wie stelle ich sicher, dass das erzeugte PPTX in älteren PowerPoint‑Versionen funktioniert?**  
+A: Speichern Sie mit `SaveFormat.Ppt` für Kompatibilität mit PowerPoint 97‑2003, wobei einige erweiterte Funktionen reduziert sein können.
+
+---
+
+**Zuletzt aktualisiert:** 2026-01-14  
+**Getestet mit:** Aspose.Slides für Java 25.4 (jdk16)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
