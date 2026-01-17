@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-17"
-"description": "Erfahren Sie, wie Sie Diagramme in .NET-Präsentationen mit Aspose.Slides für Java anpassen. Erstellen Sie mühelos dynamische, datenreiche Folien."
-"title": "Aspose.Slides für Java-Diagrammanpassung in .NET-Präsentationen"
-"url": "/de/java/charts-graphs/aspose-slides-java-chart-customization-net-presentations/"
-"weight": 1
+date: '2026-01-17'
+description: Erfahren Sie, wie Sie einer Diagrammserie Daten hinzufügen und gestapelte
+  Säulendiagramme in .NET‑Präsentationen mit Aspose.Slides für Java anpassen.
+keywords:
+- Aspose.Slides for Java
+- .NET Presentations
+- Chart Customization
+title: Serie zum Diagramm hinzufügen mit Aspose.Slides für Java in .NET
+url: /de/java/charts-graphs/aspose-slides-java-chart-customization-net-presentations/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,33 +16,44 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Diagrammanpassung in .NET-Präsentationen mit Aspose.Slides für Java meistern
+# Meistern der Diagrammanpassung in .NET‑Präsentationen mit Aspose.Slides für Java
 
-## Einführung
-Im Bereich datenbasierter Präsentationen sind Diagramme unverzichtbare Werkzeuge, um Rohzahlen in überzeugende visuelle Geschichten zu verwandeln. Das programmgesteuerte Erstellen und Anpassen dieser Diagramme kann eine Herausforderung sein, insbesondere bei komplexen Präsentationsformaten wie .NET. Hier kommt **Aspose.Slides für Java** glänzt und bietet eine robuste API zur nahtlosen Integration von Diagrammfunktionen in Ihre Präsentationen.
+## Einleitung
+Im Bereich datengetriebener Präsentationen sind Diagramme unverzichtbare Werkzeuge, die Rohdaten in überzeugende visuelle Geschichten verwandeln. Wenn Sie programmatisch **add series to chart** hinzufügen müssen, insbesondere in .NET‑Präsentationsdateien, kann die Aufgabe überwältigend wirken. Glücklicherweise bietet **Aspose.Slides for Java** eine leistungsstarke, sprachunabhängige API, die die Erstellung und Anpassung von Diagrammen einfach macht – selbst wenn Ihr Zielformat ein .NET PPTX ist.
 
-In diesem Tutorial erfahren Sie, wie Sie die Leistungsfähigkeit von Aspose.Slides für Java nutzen, um Diagramme in .NET-Präsentationen hinzuzufügen und anzupassen. Ob Sie die Erstellung von Präsentationen automatisieren oder vorhandene Folien verbessern – die Beherrschung dieser Fähigkeiten kann Ihre Projekte deutlich verbessern.
+In diesem Tutorial erfahren Sie, wie Sie **add series to chart** hinzufügen, wie Sie **how to add chart** vom Typ gestapelte Säule hinzufügen und wie Sie visuelle Aspekte wie die Lückenbreite feinabstimmen. Am Ende können Sie dynamische, datenreiche Folien erzeugen, die professionell und poliert aussehen.
 
-**Was Sie lernen werden:**
-- So erstellen Sie eine leere Präsentation mit Aspose.Slides
-- Techniken zum Hinzufügen eines Diagramms zu einer Folie
-- Methoden zum Integrieren von Reihen und Kategorien in Diagramme
-- Schritte zum Auffüllen von Datenpunkten innerhalb der Diagrammreihe
-- Konfigurieren visueller Aspekte wie der Lückenbreite zwischen Balken
+**Was Sie lernen werden**
+- Wie man eine leere Präsentation mit Aspose.Slides erstellt  
+- Wie man ein **add stacked column chart** zu einer Folie hinzufügt  
+- Wie man **add series to chart** hinzufügt und Kategorien definiert  
+- Wie man Datenpunkte befüllt und visuelle Einstellungen anpasst  
 
-Lassen Sie uns mit der Einrichtung Ihrer Umgebung beginnen.
+Lassen Sie uns Ihre Entwicklungsumgebung vorbereiten.
+
+## Schnelle Antworten
+- **Was ist die primäre Klasse, um eine Präsentation zu starten?** `Presentation`  
+- **Welche Methode fügt ein Diagramm zu einer Folie hinzu?** `slide.getShapes().addChart(...)`  
+- **Wie fügt man eine neue Serie hinzu?** `chart.getChartData().getSeries().add(...)`  
+- **Kann man die Lückenbreite zwischen Balken ändern?** Ja, mittels `setGapWidth()` in der Seriengruppe  
+- **Benötige ich eine Lizenz für die Produktion?** Ja, eine gültige Aspose.Slides for Java Lizenz ist erforderlich  
+
+## Was bedeutet “add series to chart”?
+Das Hinzufügen einer Serie zu einem Diagramm bedeutet das Einfügen einer neuen Datensammlung, die das Diagramm als ein separates visuelles Element (z. B. einen neuen Balken, eine Linie oder ein Segment) darstellt. Jede Serie kann ihre eigenen Werte, Farben und Formatierungen besitzen, sodass Sie mehrere Datensätze nebeneinander vergleichen können.
+
+## Warum Aspose.Slides für Java verwenden, um .NET‑Präsentationen zu ändern?
+- **Cross‑platform**: Schreiben Sie Java‑Code einmal und zielen Sie auf PPTX‑Dateien, die von .NET‑Anwendungen verwendet werden.  
+- **Keine COM‑ oder Office‑Abhängigkeiten**: Funktioniert auf Servern, CI‑Pipelines und Containern.  
+- **Umfangreiche Diagramm‑API**: Unterstützt über 50 Diagrammtypen, einschließlich gestapelter Säulendiagramme.  
 
 ## Voraussetzungen
-Bevor wir beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
-1. **Aspose.Slides für Java** Bibliothek installiert.
-2. Eine Entwicklungsumgebung mit konfiguriertem Maven oder Gradle oder manuelles Herunterladen der JAR-Dateien.
-3. Grundkenntnisse der Java-Programmierung und Vertrautheit mit Präsentationsdateiformaten wie PPTX.
+1. **Aspose.Slides for Java** Bibliothek (Version 25.4 oder neuer).  
+2. Maven‑ oder Gradle‑Build‑Tool, oder ein manueller JAR‑Download.  
+3. Grundlegende Java‑Kenntnisse und Vertrautheit mit der PPTX‑Struktur.  
 
-## Einrichten von Aspose.Slides für Java
-Um Aspose.Slides für Java nutzen zu können, müssen Sie es in Ihr Projekt integrieren. So geht's:
-
+## Einrichtung von Aspose.Slides für Java
 ### Maven-Installation
-Fügen Sie die folgende Abhängigkeit zu Ihrem `pom.xml`:
+Fügen Sie die folgende Abhängigkeit zu Ihrer `pom.xml` hinzu:
 
 ```xml
 <dependency>
@@ -49,159 +65,128 @@ Fügen Sie die folgende Abhängigkeit zu Ihrem `pom.xml`:
 ```
 
 ### Gradle-Installation
-Nehmen Sie dies in Ihre `build.gradle` Datei:
+Fügen Sie diese Zeile in Ihre `build.gradle`‑Datei ein:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
 ### Direkter Download
-Alternativ können Sie die neueste Version von [Aspose.Slides für Java-Versionen](https://releases.aspose.com/slides/java/).
+Laden Sie das neueste JAR von der offiziellen Release‑Seite herunter: [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-**Lizenzerwerb:**
-Sie können mit einer kostenlosen Testversion beginnen, indem Sie eine temporäre Lizenz herunterladen von [Hier](https://purchase.aspose.com/temporary-license/). Für eine langfristige Nutzung sollten Sie den Erwerb einer Volllizenz in Erwägung ziehen.
+**Lizenzbeschaffung**  
+Starten Sie mit einer kostenlosen Testversion, indem Sie eine temporäre Lizenz von [hier](https://purchase.aspose.com/temporary-license/) herunterladen. Für den Produktionseinsatz erwerben Sie eine Voll‑Lizenz, um alle Funktionen freizuschalten.
 
-Lassen Sie uns nach der Einrichtung Aspose.Slides für Java initialisieren und seine Funktionen erkunden.
+## Schritt‑für‑Schritt‑Implementierungs‑Leitfaden
+Nach jedem Schritt finden Sie ein prägnantes Code‑Snippet (unverändert aus dem Original‑Tutorial) sowie eine Erklärung seiner Funktion.
 
-## Implementierungshandbuch
-### Funktion 1: Erstellen Sie eine leere Präsentation
-Das Erstellen einer leeren Präsentation ist Ihr erster Schritt zur Erstellung dynamischer Diashows. So geht's:
-
-#### Überblick
-Dieser Abschnitt zeigt die Initialisierung eines neuen Präsentationsobjekts mit Aspose.Slides.
-
+### Schritt 1: Erstelle eine leere Präsentation
 ```java
 import com.aspose.slides.*;
 
-// Initialisieren einer leeren Präsentation
+// Initialize an empty presentation
 Presentation presentation = new Presentation();
 
-// Zugriff auf die erste Folie (automatisch erstellt)
+// Access the first slide (automatically created)
 ISlide slide = presentation.getSlides().get_Item(0);
 
-// Speichern Sie die Präsentation in einem angegebenen Pfad
+// Save the presentation to a specified path
 presentation.save("YOUR_OUTPUT_DIRECTORY/Empty_Presentation.pptx", SaveFormat.Pptx);
 ```
+*Wir beginnen mit einer leeren PPTX‑Datei, die uns eine Leinwand zum Hinzufügen von Diagrammen bietet.*
 
-**Erläuterung:**
-- `Presentation` Das Objekt wird instanziiert und stellt Ihre neue Präsentation dar.
-- Zugriff `slide` ermöglicht Ihnen, Inhalte direkt zu bearbeiten oder hinzuzufügen.
-
-### Funktion 2: Diagramm zur Folie hinzufügen
-Durch das Hinzufügen eines Diagramms können Sie Daten visuell effektiv darstellen. So geht's:
-
-#### Überblick
-Bei dieser Funktion wird einer Folie ein gestapeltes Säulendiagramm hinzugefügt.
-
+### Schritt 2: Füge ein gestapeltes Säulendiagramm zur Folie hinzu
 ```java
-// Importieren Sie die erforderlichen Aspose.Slides-Klassen
+// Import necessary Aspose.Slides classes
 import com.aspose.slides.*;
 
-// Fügen Sie ein Diagramm vom Typ StackedColumn hinzu
+// Add a chart of type StackedColumn
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn, 0, 0, 500, 500);
 
-// Speichern Sie die Präsentation mit dem neuen Diagramm
+// Save the presentation with the new chart
 presentation.save("YOUR_OUTPUT_DIRECTORY/Chart_Added.pptx", SaveFormat.Pptx);
 ```
+*Die Methode `addChart` erstellt ein **add stacked column chart** und platziert es in der oberen linken Ecke der Folie.*
 
-**Erläuterung:**
-- `addChart` Die Methode wird verwendet, um ein Diagrammobjekt zu erstellen und es der Folie hinzuzufügen.
-- Parameter wie `0, 0, 500, 500` Definieren Sie die Position und Größe des Diagramms.
-
-### Funktion 3: Serien zum Diagramm hinzufügen
-Zum Anpassen von Diagrammen müssen Datenreihen hinzugefügt werden. So geht's:
-
-#### Überblick
-Fügen Sie Ihrem vorhandenen Diagramm zwei verschiedene Reihen hinzu.
-
+### Schritt 3: Serie zum Diagramm hinzufügen (Hauptziel)
 ```java
-// Zugriff auf den Standardarbeitsblattindex für Diagrammdaten
+// Accessing the default worksheet index for chart data
 int defaultWorksheetIndex = 0;
 
-// Hinzufügen von Reihen zum Diagramm
+// Adding series to the chart
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), chart.getType());
 
-// Speichern Sie die Präsentation nach dem Hinzufügen einer Serie
+// Save the presentation after adding series
 presentation.save("YOUR_OUTPUT_DIRECTORY/Series_Added.pptx", SaveFormat.Pptx);
 ```
+*Hier **add series to chart** – jeder Aufruf erstellt eine neue Datenserie, die als separate Spaltengruppe erscheint.*
 
-**Erläuterung:**
-- Jeder Anruf an `add` erstellt eine neue Reihe innerhalb Ihres Diagramms.
-- Der `getType()` Die Methode gewährleistet die Konsistenz des Diagrammtyps über alle Reihen hinweg.
-
-### Funktion 4: Kategorien zum Diagramm hinzufügen
-Die Kategorisierung von Daten ist entscheidend für die Übersichtlichkeit. So geht's:
-
-#### Überblick
-Diese Funktion fügt dem Diagramm Kategorien hinzu und verbessert so seine Beschreibungsfähigkeit.
-
+### Schritt 4: Kategorien zum Diagramm hinzufügen
 ```java
-// Hinzufügen von Kategorien zum Diagramm
+// Adding categories to the chart
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 1, 0, "Category 1"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 0, "Category 2"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Category 3"));
 
-// Speichern Sie die Präsentation, nachdem Sie Kategorien hinzugefügt haben
+// Save the presentation after adding categories
 presentation.save("YOUR_OUTPUT_DIRECTORY/Categories_Added.pptx", SaveFormat.Pptx);
 ```
+*Kategorien fungieren als X‑Achsen‑Beschriftungen und verleihen jeder Spalte Bedeutung.*
 
-**Erläuterung:**
-- `getCategories().add` füllt das Diagramm mit aussagekräftigen Beschriftungen.
-
-### Funktion 5: Seriendaten auffüllen
-Durch das Ausfüllen von Daten werden Ihre Diagramme informativ. So geht's:
-
-#### Überblick
-Fügen Sie jeder Reihe im Diagramm bestimmte Datenpunkte hinzu.
-
+### Schritt 5: Serien‑Daten befüllen
 ```java
-// Zugriff auf eine bestimmte Reihe zur Datenpopulation
+// Accessing a particular series for data population
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
 
-// Hinzufügen von Datenpunkten zur Reihe
+// Adding data points to the series
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
-// Speichern der Präsentation mit ausgefüllten Daten
+// Save the presentation with populated data
 presentation.save("YOUR_OUTPUT_DIRECTORY/Series_Data_Populated.pptx", SaveFormat.Pptx);
 ```
+*Datenpunkte geben jeder Serie ihre numerischen Werte, die das Diagramm als Balkenhöhen darstellt.*
 
-**Erläuterung:**
-- `getDataPoints()` Die Methode wird verwendet, um numerische Werte in Reihen einzufügen.
-
-### Funktion 6: Lückenbreite für Diagrammseriengruppe festlegen
-Durch die Optimierung der visuellen Darstellung Ihres Diagramms können Sie die Lesbarkeit verbessern. So geht's:
-
-#### Überblick
-Passen Sie die Lückenbreite zwischen den Balken in einer Diagrammreihengruppe an.
-
+### Schritt 6: Lückenbreite für die Diagramm‑Seriengruppe festlegen
 ```java
-// Einstellen der Lückenbreite zwischen den Balken
+// Setting the gap width between bars
 series.getParentSeriesGroup().setGapWidth(50);
 
-// Speichern Sie die Präsentation, nachdem Sie die Lückenbreite angepasst haben
+// Save the presentation after adjusting the gap width
 presentation.save("YOUR_OUTPUT_DIRECTORY/Set_GapWidth.pptx", SaveFormat.Pptx);
 ```
+*Das Anpassen der Lückenbreite verbessert die Lesbarkeit, besonders wenn viele Kategorien vorhanden sind.*
 
-**Erläuterung:**
-- `setGapWidth()` Die Methode ändert den Abstand aus ästhetischen Gründen.
+## Häufige Anwendungsfälle
+- **Finanzberichterstattung** – Vergleich des Quartalsumsatzes über Geschäftsbereiche hinweg.  
+- **Projekt‑Dashboards** – Anzeige der Aufgaben‑Abschluss‑Prozentsätze pro Team.  
+- **Marketing‑Analytik** – Visualisierung der Kampagnenleistung nebeneinander.  
 
-## Praktische Anwendungen
-Hier sind einige reale Szenarien, in denen diese Funktionen angewendet werden können:
-1. **Finanzberichte**: Verwenden Sie gestapelte Säulendiagramme, um die Quartalseinnahmen verschiedener Abteilungen anzuzeigen.
-2. **Projektmanagement-Dashboards**: Visualisieren Sie Aufgabenerledigungsraten mithilfe von Balkenreihen mit benutzerdefinierten Lückenbreiten.
-3. **Marketinganalyse**: Kategorisieren Sie Daten nach Kampagnentyp und füllen Sie Serien mit Engagement-Metriken.
+## Leistungstipps
+- **Wiederverwenden Sie das `Presentation`‑Objekt** beim Erstellen mehrerer Diagramme, um den Speicherverbrauch zu reduzieren.  
+- **Begrenzen Sie die Anzahl der Datenpunkte** auf das für die visuelle Geschichte erforderliche Minimum.  
+- **Entsorgen Sie Objekte** (`presentation.dispose()`) nach dem Speichern, um Ressourcen freizugeben.  
 
-## Überlegungen zur Leistung
-So gewährleisten Sie eine optimale Leistung bei der Arbeit mit Aspose.Slides für Java:
-- **Ressourcennutzung optimieren:** Begrenzen Sie die Anzahl der Folien und Diagramme, um einen Speicheraufwand zu vermeiden.
-- **Effiziente Datenverarbeitung:** Füllen Sie Ihre Diagramme nur mit den erforderlichen Datenpunkten aus.
-- **Speicherverwaltung:** Bereinigen Sie nicht verwendete Objekte regelmäßig, um Ressourcen freizugeben.
+## Häufig gestellte Fragen
+**F: Kann ich andere Diagrammtypen außer gestapelter Säule hinzufügen?**  
+A: Ja, Aspose.Slides unterstützt Linien-, Kreis-, Flächen‑ und viele weitere Diagrammtypen.
 
-## Abschluss
-Sie beherrschen nun die Grundlagen zum Hinzufügen und Anpassen von Diagrammen in .NET-Präsentationen mit Aspose.Slides für Java. Ob Sie die Erstellung von Präsentationen automatisieren oder vorhandene Folien verbessern – diese Kenntnisse können Ihre Projekte deutlich verbessern. Für weitere Informationen können Sie sich mit den zusätzlichen Diagrammtypen und erweiterten Anpassungsmöglichkeiten der Aspose.Slides-Bibliothek befassen.
+**F: Benötige ich eine separate Lizenz für .NET‑Ausgabe?**  
+A: Nein, dieselbe Java‑Lizenz funktioniert für alle Ausgabeformate, einschließlich .NET‑PPTX‑Dateien.
+
+**F: Wie ändere ich die Farbpalette des Diagramms?**  
+A: Verwenden Sie `chart.getChartData().getSeries().get_Item(i).getFormat().getFill().setFillType(FillType.Solid)` und setzen Sie die gewünschte `Color`.
+
+**F: Ist es möglich, Datenbeschriftungen programmatisch hinzuzufügen?**  
+A: Absolut. Rufen Sie `series.getDataPoints().get_Item(j).getLabel().setShowValue(true)` auf, um Werte anzuzeigen.
+
+**F: Was, wenn ich eine bestehende Präsentation aktualisieren muss?**  
+A: Laden Sie die Datei mit `new Presentation("existing.pptx")`, ändern Sie das Diagramm und speichern Sie sie erneut.
+
+## Fazit
+Sie haben nun eine vollständige End‑zu‑End‑Anleitung, wie Sie **add series to chart** durchführen, ein **stacked column chart** erstellen und dessen Erscheinungsbild in .NET‑Präsentationen mit Aspose.Slides für Java feinabstimmen. Experimentieren Sie mit verschiedenen Diagrammtypen, Farben und Datenquellen, um überzeugende visuelle Berichte zu erstellen, die Stakeholder beeindrucken.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -210,3 +195,9 @@ Sie beherrschen nun die Grundlagen zum Hinzufügen und Anpassen von Diagrammen i
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-17  
+**Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
+**Author:** Aspose

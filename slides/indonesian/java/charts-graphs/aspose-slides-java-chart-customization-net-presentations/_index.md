@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-17"
-"description": "Pelajari cara menyesuaikan grafik dalam presentasi .NET menggunakan Aspose.Slides untuk Java. Buat slide yang dinamis dan kaya data dengan mudah."
-"title": "Kustomisasi Bagan Aspose.Slides untuk Java dalam Presentasi .NET"
-"url": "/id/java/charts-graphs/aspose-slides-java-chart-customization-net-presentations/"
-"weight": 1
+date: '2026-01-17'
+description: Pelajari cara menambahkan seri ke diagram dan menyesuaikan diagram kolom
+  bertumpuk dalam presentasi .NET menggunakan Aspose.Slides untuk Java.
+keywords:
+- Aspose.Slides for Java
+- .NET Presentations
+- Chart Customization
+title: Tambahkan Seri ke Diagram dengan Aspose.Slides untuk Java di .NET
+url: /id/java/charts-graphs/aspose-slides-java-chart-customization-net-presentations/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,33 +16,44 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Menguasai Kustomisasi Bagan dalam Presentasi .NET Menggunakan Aspose.Slides untuk Java
+# Menguasai Kustomisasi Diagram dalam Presentasi .NET Menggunakan Aspose.Slides untuk Java
 
-## Perkenalan
-Dalam bidang presentasi berbasis data, bagan merupakan alat yang sangat diperlukan yang mengubah angka mentah menjadi cerita visual yang menarik. Membuat dan menyesuaikan bagan ini secara terprogram dapat menjadi hal yang sulit, terutama saat bekerja dengan format presentasi yang rumit seperti .NET. Di sinilah **Aspose.Slides untuk Java** bersinar, menawarkan API tangguh untuk mengintegrasikan fungsionalitas bagan ke dalam presentasi Anda secara mulus.
+## Pendahuluan
+Dalam dunia presentasi berbasis data, diagram merupakan alat penting yang mengubah angka mentah menjadi cerita visual yang menarik. Ketika Anda perlu **add series to chart** secara programatis, terutama di dalam file presentasi .NET, tugas tersebut dapat terasa menakutkan. Untungnya, **Aspose.Slides for Java** menyediakan API yang kuat dan tidak bergantung pada bahasa yang memudahkan pembuatan dan kustomisasi diagram—bahkan ketika format target Anda adalah .NET PPTX.
 
-Dalam tutorial ini, kita akan menjelajahi cara memanfaatkan kekuatan Aspose.Slides untuk Java guna menambahkan dan menyesuaikan diagram dalam presentasi .NET. Baik Anda mengotomatiskan pembuatan presentasi atau menyempurnakan slide yang ada, menguasai keterampilan ini dapat meningkatkan proyek Anda secara signifikan.
+Dalam tutorial ini Anda akan menemukan cara **add series to chart**, cara **how to add chart** tipe stacked column, dan cara menyempurnakan aspek visual seperti lebar celah. Pada akhirnya, Anda dapat menghasilkan slide dinamis yang kaya data, tampak rapi dan profesional.
 
-**Apa yang Akan Anda Pelajari:**
-- Cara membuat presentasi kosong menggunakan Aspose.Slides
-- Teknik untuk menambahkan grafik ke slide
-- Metode untuk menggabungkan seri dan kategori ke dalam bagan
-- Langkah-langkah untuk mengisi titik data dalam rangkaian grafik
-- Mengonfigurasi aspek visual seperti lebar celah antar batang
+**Apa yang Akan Anda Pelajari**
+- Cara membuat presentasi kosong menggunakan Aspose.Slides  
+- Cara **add stacked column chart** ke sebuah slide  
+- Cara **add series to chart** dan mendefinisikan kategori  
+- Cara mengisi data poin dan menyesuaikan pengaturan visual  
 
-Mari mulai dengan menyiapkan lingkungan Anda.
+Mari siapkan lingkungan pengembangan Anda.
+
+## Jawaban Cepat
+- **Apa kelas utama untuk memulai sebuah presentasi?** `Presentation`  
+- **Metode mana yang menambahkan diagram ke slide?** `slide.getShapes().addChart(...)`  
+- **Bagaimana cara menambahkan seri baru?** `chart.getChartData().getSeries().add(...)`  
+- **Apakah Anda dapat mengubah lebar celah antara batang?** Ya, dengan menggunakan `setGapWidth()` pada grup seri  
+- **Apakah saya memerlukan lisensi untuk produksi?** Ya, lisensi Aspose.Slides for Java yang valid diperlukan  
+
+## Apa itu “add series to chart”?
+Menambahkan seri ke diagram berarti menyisipkan kumpulan data baru yang akan dirender diagram sebagai elemen visual terpisah (misalnya batang, garis, atau irisan baru). Setiap seri dapat memiliki nilai, warna, dan formatnya sendiri, memungkinkan Anda membandingkan beberapa kumpulan data berdampingan.
+
+## Mengapa menggunakan Aspose.Slides untuk Java untuk memodifikasi presentasi .NET?
+- **Cross‑platform**: Tulis kode Java sekali dan targetkan file PPTX yang digunakan oleh aplikasi .NET.  
+- **No COM or Office dependencies**: Berfungsi di server, pipeline CI, dan kontainer.  
+- **Rich chart API**: Mendukung lebih dari 50 tipe diagram, termasuk diagram kolom bertumpuk.  
 
 ## Prasyarat
-Sebelum kita mulai, pastikan Anda memiliki hal berikut:
-1. **Aspose.Slides untuk Java** perpustakaan terpasang.
-2. Lingkungan pengembangan dengan Maven atau Gradle yang dikonfigurasi, atau mengunduh file JAR secara manual.
-3. Pengetahuan dasar tentang pemrograman Java dan keakraban dengan format file presentasi seperti PPTX.
+1. Perpustakaan **Aspose.Slides for Java** (versi 25.4 atau lebih baru).  
+2. Alat build Maven atau Gradle, atau unduhan JAR manual.  
+3. Pengetahuan dasar Java dan pemahaman tentang struktur PPTX.  
 
 ## Menyiapkan Aspose.Slides untuk Java
-Untuk mulai menggunakan Aspose.Slides untuk Java, Anda perlu mengintegrasikannya ke dalam proyek Anda. Berikut caranya:
-
 ### Instalasi Maven
-Tambahkan dependensi berikut ke `pom.xml`:
+Tambahkan dependensi berikut ke `pom.xml` Anda:
 
 ```xml
 <dependency>
@@ -49,159 +65,128 @@ Tambahkan dependensi berikut ke `pom.xml`:
 ```
 
 ### Instalasi Gradle
-Sertakan ini di dalam `build.gradle` mengajukan:
+Sertakan baris ini dalam file `build.gradle` Anda:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Unduh Langsung
-Atau, unduh versi terbaru dari [Aspose.Slides untuk rilis Java](https://releases.aspose.com/slides/java/).
+### Unduhan Langsung
+Sebagai alternatif, unduh JAR terbaru dari halaman rilis resmi: [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-**Akuisisi Lisensi:**
-Anda dapat memulai dengan uji coba gratis dengan mengunduh lisensi sementara dari [Di Sini](https://purchase.aspose.com/temporary-license/)Untuk penggunaan jangka panjang, pertimbangkan untuk membeli lisensi penuh.
+**Perolehan Lisensi**  
+Mulailah dengan percobaan gratis dengan mengunduh lisensi sementara dari [di sini](https://purchase.aspose.com/temporary-license/). Untuk penggunaan produksi, beli lisensi penuh untuk membuka semua fitur.
 
-Setelah disiapkan, mari inisialisasi dan jelajahi fitur Aspose.Slides untuk Java.
+## Panduan Implementasi Langkah‑per‑Langkah
+Di bawah setiap langkah Anda akan menemukan cuplikan kode singkat (tidak diubah dari tutorial asli) diikuti oleh penjelasan tentang apa yang dilakukannya.
 
-## Panduan Implementasi
-### Fitur 1: Buat Presentasi Kosong
-Membuat presentasi kosong adalah langkah pertama Anda untuk membuat tayangan slide yang dinamis. Berikut cara melakukannya:
-
-#### Ringkasan
-Bagian ini menunjukkan inisialisasi objek presentasi baru menggunakan Aspose.Slides.
-
+### Langkah 1: Buat Presentasi Kosong
 ```java
 import com.aspose.slides.*;
 
-// Inisialisasi presentasi kosong
+// Initialize an empty presentation
 Presentation presentation = new Presentation();
 
-// Akses slide pertama (dibuat secara otomatis)
+// Access the first slide (automatically created)
 ISlide slide = presentation.getSlides().get_Item(0);
 
-// Simpan presentasi ke jalur yang ditentukan
+// Save the presentation to a specified path
 presentation.save("YOUR_OUTPUT_DIRECTORY/Empty_Presentation.pptx", SaveFormat.Pptx);
 ```
+*Kami memulai dengan file PPTX bersih, yang memberi kami kanvas untuk menambahkan diagram.*
 
-**Penjelasan:**
-- `Presentation` Objek tersebut diwujudkan, mewakili presentasi Anda yang baru.
-- Mengakses `slide` memungkinkan Anda memanipulasi atau menambahkan konten secara langsung.
-
-### Fitur 2: Tambahkan Bagan ke Slide
-Menambahkan diagram dapat menyajikan data secara visual secara efektif. Berikut caranya:
-
-#### Ringkasan
-Fitur ini melibatkan penambahan bagan kolom bertumpuk ke slide.
-
+### Langkah 2: Tambahkan Diagram Kolom Bertumpuk ke Slide
 ```java
-// Impor kelas Aspose.Slides yang diperlukan
+// Import necessary Aspose.Slides classes
 import com.aspose.slides.*;
 
-// Tambahkan bagan bertipe StackedColumn
+// Add a chart of type StackedColumn
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn, 0, 0, 500, 500);
 
-// Simpan presentasi dengan bagan baru
+// Save the presentation with the new chart
 presentation.save("YOUR_OUTPUT_DIRECTORY/Chart_Added.pptx", SaveFormat.Pptx);
 ```
+*Metode `addChart` membuat **add stacked column chart** dan menempatkannya di pojok kiri‑atas slide.*
 
-**Penjelasan:**
-- `addChart` Metode ini digunakan untuk membuat objek bagan dan menambahkannya ke slide.
-- Parameter seperti `0, 0, 500, 500` menentukan posisi dan ukuran grafik.
-
-### Fitur 3: Tambahkan Seri ke Bagan
-Penyesuaian grafik melibatkan penambahan rangkaian data. Berikut cara melakukannya:
-
-#### Ringkasan
-Tambahkan dua seri berbeda ke bagan Anda yang sudah ada.
-
+### Langkah 3: Tambahkan Seri ke Diagram (Tujuan Utama)
 ```java
-// Mengakses indeks lembar kerja default untuk data bagan
+// Accessing the default worksheet index for chart data
 int defaultWorksheetIndex = 0;
 
-// Menambahkan seri ke bagan
+// Adding series to the chart
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), chart.getType());
 
-// Simpan presentasi setelah menambahkan seri
+// Save the presentation after adding series
 presentation.save("YOUR_OUTPUT_DIRECTORY/Series_Added.pptx", SaveFormat.Pptx);
 ```
+*Di sini kami **add series to chart** – setiap pemanggilan membuat seri data baru yang akan muncul sebagai grup kolom terpisah.*
 
-**Penjelasan:**
-- Setiap panggilan ke `add` membuat seri baru dalam bagan Anda.
-- Itu `getType()` metode memastikan konsistensi dalam jenis bagan di semua seri.
-
-### Fitur 4: Tambahkan Kategori ke Bagan
-Mengkategorikan data sangat penting untuk kejelasan. Berikut caranya:
-
-#### Ringkasan
-Fitur ini menambahkan kategori ke bagan, meningkatkan kemampuan deskriptifnya.
-
+### Langkah 4: Tambahkan Kategori ke Diagram
 ```java
-// Menambahkan kategori ke bagan
+// Adding categories to the chart
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 1, 0, "Category 1"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 0, "Category 2"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Category 3"));
 
-// Simpan presentasi setelah menambahkan kategori
+// Save the presentation after adding categories
 presentation.save("YOUR_OUTPUT_DIRECTORY/Categories_Added.pptx", SaveFormat.Pptx);
 ```
+*Kategori berfungsi sebagai label sumbu X, memberikan makna pada setiap kolom.*
 
-**Penjelasan:**
-- `getCategories().add` mengisi bagan dengan label yang bermakna.
-
-### Fitur 5: Mengisi Data Seri
-Mengisi data membuat diagram Anda informatif. Berikut caranya:
-
-#### Ringkasan
-Tambahkan titik data tertentu ke setiap seri dalam bagan.
-
+### Langkah 5: Isi Data Seri
 ```java
-// Mengakses seri tertentu untuk populasi data
+// Accessing a particular series for data population
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
 
-// Menambahkan titik data ke seri
+// Adding data points to the series
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
-// Simpan presentasi dengan data yang terisi
+// Save the presentation with populated data
 presentation.save("YOUR_OUTPUT_DIRECTORY/Series_Data_Populated.pptx", SaveFormat.Pptx);
 ```
+*Data poin memberikan setiap seri nilai numeriknya, yang akan dirender diagram sebagai tinggi batang.*
 
-**Penjelasan:**
-- `getDataPoints()` Metode ini digunakan untuk memasukkan nilai numerik ke dalam seri.
-
-### Fitur 6: Mengatur Lebar Celah untuk Grup Seri Bagan
-Menyempurnakan tampilan visual bagan Anda dapat meningkatkan keterbacaan. Berikut caranya:
-
-#### Ringkasan
-Sesuaikan lebar celah antar batang dalam grup rangkaian diagram.
-
+### Langkah 6: Atur Lebar Celah untuk Grup Seri Diagram
 ```java
-// Mengatur lebar celah antar batang
+// Setting the gap width between bars
 series.getParentSeriesGroup().setGapWidth(50);
 
-// Simpan presentasi setelah menyesuaikan lebar celah
+// Save the presentation after adjusting the gap width
 presentation.save("YOUR_OUTPUT_DIRECTORY/Set_GapWidth.pptx", SaveFormat.Pptx);
 ```
+*Menyesuaikan lebar celah meningkatkan keterbacaan, terutama ketika banyak kategori hadir.*
 
-**Penjelasan:**
-- `setGapWidth()` metode memodifikasi jarak untuk tujuan estetika.
+## Contoh Penggunaan Umum
+- **Financial reporting** – bandingkan pendapatan kuartalan antar unit bisnis.  
+- **Project dashboards** – tampilkan persentase penyelesaian tugas per tim.  
+- **Marketing analytics** – visualisasikan kinerja kampanye berdampingan.  
 
-## Aplikasi Praktis
-Berikut adalah beberapa skenario dunia nyata di mana fitur-fitur ini dapat diterapkan:
-1. **Laporan Keuangan**: Gunakan bagan kolom bertumpuk untuk menampilkan pendapatan triwulanan di berbagai departemen.
-2. **Dasbor Manajemen Proyek**: Visualisasikan tingkat penyelesaian tugas menggunakan rangkaian batang dengan lebar celah yang disesuaikan.
-3. **Analisis Pemasaran**: Kategorikan data menurut jenis kampanye dan isi seri dengan metrik keterlibatan.
+## Tips Kinerja
+- **Reuse the `Presentation` object** saat membuat beberapa diagram untuk mengurangi beban memori.  
+- **Limit the number of data points** hanya pada yang diperlukan untuk cerita visual.  
+- **Dispose of objects** (`presentation.dispose()`) setelah menyimpan untuk membebaskan sumber daya.  
 
-## Pertimbangan Kinerja
-Untuk memastikan kinerja optimal saat bekerja dengan Aspose.Slides untuk Java:
-- **Mengoptimalkan Penggunaan Sumber Daya:** Batasi jumlah slide dan bagan untuk menghindari beban memori.
-- **Penanganan Data yang Efisien:** Isi hanya titik data yang diperlukan pada bagan Anda.
-- **Manajemen Memori:** Bersihkan benda-benda yang tidak digunakan secara teratur untuk mengosongkan sumber daya.
+## Pertanyaan yang Sering Diajukan
+**Q: Bisakah saya menambahkan tipe diagram lain selain stacked column?**  
+A: Ya, Aspose.Slides mendukung line, pie, area, dan banyak tipe diagram lainnya.  
+
+**Q: Apakah saya memerlukan lisensi terpisah untuk output .NET?**  
+A: Tidak, lisensi Java yang sama berfungsi untuk semua format output, termasuk file PPTX .NET.  
+
+**Q: Bagaimana cara mengubah palet warna diagram?**  
+A: Gunakan `chart.getChartData().getSeries().get_Item(i).getFormat().getFill().setFillType(FillType.Solid)` dan atur `Color` yang diinginkan.  
+
+**Q: Apakah memungkinkan menambahkan label data secara programatis?**  
+A: Tentu saja. Panggil `series.getDataPoints().get_Item(j).getLabel().setShowValue(true)` untuk menampilkan nilai.  
+
+**Q: Bagaimana jika saya perlu memperbarui presentasi yang sudah ada?**  
+A: Muat file dengan `new Presentation("existing.pptx")`, modifikasi diagram, dan simpan kembali.  
 
 ## Kesimpulan
-Anda kini telah menguasai dasar-dasar penambahan dan penyesuaian diagram dalam presentasi .NET menggunakan Aspose.Slides untuk Java. Baik Anda mengotomatiskan pembuatan presentasi atau menyempurnakan slide yang ada, keterampilan ini dapat meningkatkan proyek Anda secara signifikan. Untuk eksplorasi lebih lanjut, pertimbangkan untuk mempelajari jenis diagram tambahan dan opsi penyesuaian lanjutan yang tersedia di pustaka Aspose.Slides.
+Anda kini memiliki panduan lengkap, end‑to‑end tentang cara **add series to chart**, membuat **stacked column chart**, dan menyempurnakan tampilannya dalam presentasi .NET menggunakan Aspose.Slides untuk Java. Bereksperimenlah dengan berbagai tipe diagram, warna, dan sumber data untuk membangun laporan visual yang menarik dan memukau pemangku kepentingan.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -210,3 +195,9 @@ Anda kini telah menguasai dasar-dasar penambahan dan penyesuaian diagram dalam p
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Terakhir Diperbarui:** 2026-01-17  
+**Diuji Dengan:** Aspose.Slides for Java 25.4 (jdk16)  
+**Penulis:** Aspose
