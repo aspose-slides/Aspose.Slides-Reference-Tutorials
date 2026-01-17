@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-17"
-"description": "เรียนรู้วิธีสร้างและปรับแต่งแผนภูมิในงานนำเสนอด้วย Aspose.Slides สำหรับ Java บทช่วยสอนนี้ครอบคลุมทุกอย่างตั้งแต่การตั้งค่าสภาพแวดล้อมจนถึงการบันทึกงานนำเสนอ"
-"title": "การจัดการแผนภูมิหลักในงานนำเสนอโดยใช้ Aspose.Slides สำหรับ Java"
-"url": "/th/java/charts-graphs/aspose-slides-java-chart-manipulation/"
-"weight": 1
+date: '2026-01-17'
+description: เรียนรู้วิธีสร้างแผนภูมิใน Java ด้วย Aspose.Slides, เพิ่มแผนภูมิคอลัมน์แบบกลุ่ม,
+  และบันทึกงานนำเสนอเป็นไฟล์ pptx. คู่มือขั้นตอนต่อขั้นตอนสำหรับนักพัฒนา Java.
+keywords:
+- Aspose.Slides for Java
+- chart manipulation in presentations
+- Java presentation library
+title: วิธีสร้างแผนภูมิใน Java ด้วย Aspose.Slides สำหรับ Java
+url: /th/java/charts-graphs/aspose-slides-java-chart-manipulation/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,28 +16,41 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# การจัดการแผนภูมิหลักในงานนำเสนอโดยใช้ Aspose.Slides สำหรับ Java
+# วิธีสร้างแผนภูมิใน Java ด้วย Aspose.Slides for Java
 
-## การแนะนำ
-การสร้างงานนำเสนอที่มีชีวิตชีวาและดึงดูดสายตาถือเป็นสิ่งสำคัญสำหรับการดึงดูดผู้ฟังอย่างมีประสิทธิภาพ อย่างไรก็ตาม การตั้งค่าและปรับแต่งแผนภูมิภายในสไลด์อาจเป็นงานที่ซับซ้อนหากคุณไม่ใช้เครื่องมือที่เหมาะสม **Aspose.Slides สำหรับ Java**นักพัฒนาซอฟต์แวร์มีไลบรารีอันทรงพลังในมือเพื่อสร้างและจัดการองค์ประกอบการนำเสนอ เช่น แผนภูมิได้อย่างราบรื่น บทช่วยสอนนี้จะแนะนำคุณเกี่ยวกับการเริ่มต้นการนำเสนอ การเพิ่มแผนภูมิคอลัมน์แบบคลัสเตอร์ การกำหนดค่าพื้นที่พล็อต และการบันทึกงานของคุณ ทั้งหมดนี้โดยใช้ Aspose.Slides สำหรับ Java
+## Introduction
+การสร้างประสบการณ์ **create chart in java** ที่ดูเป็นมืออาชีพไม่จำเป็นต้องเป็นเรื่องยุ่งยาก ด้วย **Aspose.Slides for Java** คุณสามารถเพิ่ม ปรับสไตล์ และบันทึกแผนภูมิ—เช่นแผนภูมิคอลัมน์แบบกลุ่ม—โดยโปรแกรมโดยตรงในไฟล์ PowerPoint ในบทเรียนนี้เราจะอธิบายขั้นตอนการตั้งค่าห้องสมุด การเริ่มต้นพรีเซนเทชัน การแทรกแผนภูมิคอลัมน์แบบกลุ่ม การปรับพื้นที่พล็อต และสุดท้ายการบันทึกไฟล์เป็น PPTX เมื่อเสร็จสิ้นคุณจะได้โค้ดสแนปช็อตที่สามารถนำไปใช้ในโปรเจกต์ Java ใดก็ได้
 
-**สิ่งที่คุณจะได้เรียนรู้:**
-- วิธีการเริ่มต้นการนำเสนอใหม่ใน Java
-- เทคนิคการเพิ่มและปรับแต่งแผนภูมิคอลัมน์แบบคลัสเตอร์บนสไลด์
-- การกำหนดค่าพื้นที่พล็อตของแผนภูมิ รวมถึงตำแหน่ง ขนาด และประเภทเค้าโครง
-- การบันทึกการนำเสนอด้วยรูปแบบเฉพาะ
-พร้อมที่จะเปลี่ยนแปลงทักษะการนำเสนอของคุณหรือยัง มาเริ่มตั้งค่า Aspose.Slides สำหรับ Java กันเลย!
+**What You’ll Learn**
+- วิธีตั้งค่า Aspose.Slides ด้วย Maven หรือ Gradle  
+- วิธี **create chart in java** และเพิ่มแผนภูมิคอลัมน์แบบกลุ่ม  
+- วิธีกำหนดค่าพื้นที่พล็อต (ตำแหน่ง, ขนาด, การจัดวาง)  
+- วิธี **save presentation as pptx** พร้อมการจัดการทรัพยากรอย่างเหมาะสม  
 
-## ข้อกำหนดเบื้องต้น
-ก่อนที่เราจะเริ่ม ให้แน่ใจว่าคุณมีการตั้งค่าที่จำเป็น:
+พร้อมที่จะทำให้ข้อมูลของคุณพูดด้วยภาพหรือยัง? เริ่มกันเลย!
 
-- **ห้องสมุดที่จำเป็น**:คุณต้องมีไลบรารี Aspose.Slides สำหรับ Java เวอร์ชัน 25.4
-- **การตั้งค่าสภาพแวดล้อม**:ติดตั้ง IDE ที่เหมาะสม (เช่น IntelliJ IDEA หรือ Eclipse) และ JDK 16 บนเครื่องของคุณ
-- **ข้อกำหนดเบื้องต้นของความรู้**: ความคุ้นเคยกับแนวคิดการเขียนโปรแกรมภาษา Java
+## Quick Answers
+- **What library do I need?** Aspose.Slides for Java (Maven/Gradle).  
+- **Which chart type is demonstrated?** Clustered column chart.  
+- **How do I save the file?** Use `presentation.save(..., SaveFormat.Pptx)`.  
+- **Do I need a license?** A free trial works for development; a full license is required for production.  
+- **Can I change the plot area?** Yes, you can set X, Y, width, height and layout target type.
 
-## การตั้งค่า Aspose.Slides สำหรับ Java
-### เมเวน
-หากต้องการรวม Aspose.Slides โดยใช้ Maven ให้เพิ่มการอ้างอิงต่อไปนี้ให้กับของคุณ `pom.xml` ไฟล์:
+## What is create chart in java?
+การสร้างแผนภูมิใน Java หมายถึงการใช้ห้องสมุดเพื่อสร้างอ็อบเจ็กต์แผนภูมิ เติมข้อมูลลงไป และฝังลงในเอกสาร—ในที่นี้คือสไลด์ PowerPoint Aspose.Slides จะจัดการรายละเอียดระดับต่ำของ Office Open XML ให้คุณโฟกัสที่ผลลัพธ์ภาพได้เลย
+
+## Why add clustered column chart with Aspose.Slides?
+แผนภูมิคอลัมน์แบบกลุ่มเหมาะอย่างยิ่งสำหรับการเปรียบเทียบหลายชุดข้อมูลเคียงข้างกัน ใช้กันอย่างแพร่หลายในรายงานธุรกิจ, แดชบอร์ด, และการนำเสนอ Aspose.Slides ให้คุณควบคุมสี, มาร์คเกอร์, แกน, และการจัดวางได้เต็มที่โดยไม่ต้องเปิด PowerPoint ด้วยตนเอง
+
+## Prerequisites
+- ห้องสมุด **Aspose.Slides for Java** (เวอร์ชัน 25.4 หรือใหม่กว่า)  
+- **JDK 16** (หรือใหม่กว่า) ที่ติดตั้งแล้ว  
+- IDE เช่น IntelliJ IDEA หรือ Eclipse  
+- ความคุ้นเคยพื้นฐานกับไวยากรณ์ Java
+
+## Setting Up Aspose.Slides for Java
+### Maven
+เพิ่ม dependency ลงในไฟล์ `pom.xml` ของคุณ:
 
 ```xml
 <dependency>
@@ -42,57 +60,59 @@
     <classifier>jdk16</classifier>
 </dependency>
 ```
-### แกรเดิล
-สำหรับผู้ที่ใช้ Gradle ให้รวมสิ่งนี้ไว้ใน `build.gradle` ไฟล์:
+
+### Gradle
+ใส่ห้องสมุดในไฟล์ `build.gradle`:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
-### ดาวน์โหลดโดยตรง
-หรือดาวน์โหลด Aspose.Slides สำหรับ Java เวอร์ชันล่าสุดได้จาก [เว็บไซต์อย่างเป็นทางการของ Aspose](https://releases-aspose.com/slides/java/).
 
-#### การขอใบอนุญาต
-หากต้องการทดลองใช้ Aspose.Slides คุณสามารถขอรับสิทธิ์ใช้งานแบบทดลองใช้งานฟรีหรือสิทธิ์ใช้งานชั่วคราวได้ สำหรับการใช้งานจริง ขอแนะนำให้ซื้อสิทธิ์ใช้งานแบบเต็ม
+### Direct Download
+หรือคุณสามารถดาวน์โหลดเวอร์ชันล่าสุดได้จาก [Aspose's official site](https://releases.aspose.com/slides/java/)
 
-### การเริ่มต้นและการตั้งค่าเบื้องต้น
-เริ่มต้นด้วยการสร้างคลาส Java ใหม่และนำเข้าคลาส Aspose.Slides ที่จำเป็น:
+#### License Acquisition
+ใช้ไลเซนส์ทดลองฟรีหรือไลเซนส์ชั่วคราวสำหรับการทดสอบ ซื้อไลเซนส์เต็มรูปแบบสำหรับการใช้งานในสภาพแวดล้อมการผลิต
+
+### Basic Initialization and Setup
+สร้างคลาส Java ใหม่และนำเข้าคลาสหลัก:
 
 ```java
 import com.aspose.slides.Presentation;
 ```
-เริ่มต้นวัตถุการนำเสนอเพื่อเริ่มทำงานกับสไลด์และแผนภูมิ
 
-## คู่มือการใช้งาน
-เราจะแบ่งการใช้งานออกเป็นคุณสมบัติหลักเพื่อความชัดเจน
+## Implementation Guide
+เราจะเดินผ่านแต่ละขั้นตอนพร้อมคำอธิบายที่ชัดเจน
 
-### การเริ่มต้นการนำเสนอและการจัดการสไลด์
-#### ภาพรวม
-การเริ่มต้นการนำเสนอและการเข้าถึงหรือแก้ไขสไลด์ถือเป็นพื้นฐานเมื่อใช้ Aspose.Slides หัวข้อนี้จะแสดงวิธีการสร้างการนำเสนอใหม่และเพิ่มแผนภูมิคอลัมน์แบบคลัสเตอร์ลงในสไลด์แรก
-**1. สร้างและเริ่มต้นการนำเสนอ**
-ขั้นแรกให้เริ่มต้น `Presentation` วัตถุ:
+### Presentation Initialization and Slide Manipulation
+#### Overview
+ขั้นแรกสร้างพรีเซนเทชันใหม่และดึงสไลด์แรกที่แผนภูมิจะถูกวางไว้
+
+**1. Create and Initialize a Presentation**
 
 ```java
 Presentation presentation = new Presentation();
 ```
-#### 2. การเข้าถึงสไลด์แรก
-ดึงข้อมูลสไลด์แรกจากการนำเสนอของคุณ:
+
+**2. Access the First Slide**
 
 ```java
 ISlide slide = presentation.getSlides().get_Item(0);
 ```
-#### 3. การเพิ่มแผนภูมิคอลัมน์แบบกลุ่ม
-เพิ่มแผนภูมิคอลัมน์แบบกลุ่มลงในสไลด์ตามพิกัดและมิติที่ระบุ:
+
+**3. Add a Clustered Column Chart**
 
 ```java
 IChart chart = slide.getShapes().addChart(ChartType.ClusteredColumn, 20, 100, 600, 400);
 ```
-ให้แน่ใจว่าทรัพยากรได้รับการปลดปล่อยโดยการกำจัดการนำเสนอใน `finally` ปิดกั้น.
 
-### การกำหนดค่าพื้นที่แปลง
-#### ภาพรวม
-การปรับแต่งพื้นที่พล็อตเกี่ยวข้องกับการตั้งค่าแอตทริบิวต์เฉพาะ เช่น ตำแหน่งและขนาด ต่อไปนี้เป็นวิธีการกำหนดค่าการตั้งค่าเหล่านี้โดยใช้ Aspose.Slides Java
-**1. กำหนดตำแหน่งและขนาด**
-ปรับพิกัด X, Y พร้อมกับความกว้างและความสูงของพื้นที่พล็อต:
+> **Pro tip:** Always wrap the presentation usage in a `try‑finally` block and call `presentation.dispose()` in the `finally` to free native resources.
+
+### Plot Area Configuration
+#### Overview
+ปรับแต่งพื้นที่พล็อตของแผนภูมิเพื่อควบคุมตำแหน่งการแสดงผลข้อมูลภายในสไลด์
+
+**1. Set Position and Size**
 
 ```java
 chart.getPlotArea().setX(0.2f);
@@ -100,60 +120,63 @@ chart.getPlotArea().setY(0.2f);
 chart.getPlotArea().setWidth(0.7f);
 chart.getPlotArea().setHeight(0.7f);
 ```
-#### 2. กำหนดประเภทเป้าหมายของเค้าโครง
-ระบุประเภทเป้าหมายเค้าโครงเพื่อการควบคุมการนำเสนอแผนภูมิที่ดีขึ้น:
+
+**2. Define Layout Target Type**
 
 ```java
 chart.getPlotArea().setLayoutTargetType(LayoutTargetType.Inner);
 ```
-### การบันทึกการนำเสนอ
-#### ภาพรวม
-เมื่อการนำเสนอของคุณพร้อมแล้ว การบันทึกในรูปแบบที่กำหนดจะช่วยให้สามารถพกพาได้และเข้ากันได้กับแพลตฟอร์มต่างๆ
-**1. บันทึกลงในไฟล์**
-ระบุไดเรกทอรีและรูปแบบการบันทึกเมื่อจัดเก็บไฟล์การนำเสนอของคุณ:
+
+### Presentation Saving
+#### Overview
+หลังจากปรับแต่งแผนภูมิแล้ว ให้บันทึกพรีเซนเทชันเป็นไฟล์ PPTX
+
+**1. Save to File**
 
 ```java
 presentation.save(YOUR_OUTPUT_DIRECTORY + "SetLayoutMode_outer.pptx", SaveFormat.Pptx);
 ```
-อย่าลืมรวมการจัดการข้อผิดพลาด เช่น `try-finally` บล็อคเพื่อการบริหารจัดการทรัพยากรอย่างเหมาะสม
 
-## การประยุกต์ใช้งานจริง
-1. **รายงานทางธุรกิจ**:สร้างรายงานธุรกิจโดยละเอียดพร้อมแผนภูมิแบบบูรณาการ
-2. **สื่อการเรียนรู้**:พัฒนาการนำเสนอทางการศึกษาด้วยสื่อช่วยสอนข้อมูลภาพ
-3. **ข้อเสนอโครงการ**:ปรับปรุงข้อเสนอโครงการด้วยข้อมูลภาพที่น่าสนใจ
-4. **การขายและการตลาด**:ออกแบบสื่อการตลาดที่มีแผนภูมิการขายแบบไดนามิก
-5. **การวางแผนกิจกรรม**:ใช้แผนภูมิเพื่อวางแผนและนำเสนอข้อมูลด้านโลจิสติกส์ของกิจกรรมอย่างมีประสิทธิภาพ
+> **Warning:** Ensure the output directory exists and the application has write permissions; otherwise, the save operation will fail.
 
-## การพิจารณาประสิทธิภาพ
-- ปรับปรุงประสิทธิภาพการทำงานด้วยการจัดการทรัพยากรอย่างมีประสิทธิภาพ เช่น การจัดการงานนำเสนออย่างถูกต้อง
-- ใช้เทคนิคการจัดการหน่วยความจำ Java เพื่อจัดการชุดข้อมูลขนาดใหญ่ในแผนภูมิโดยไม่กระทบต่อความเร็วของแอปพลิเคชัน
+## Common Use Cases
+- **Business Reports:** ฝังแนวโน้มการขายและ KPI ทางการเงิน  
+- **Educational Slides:** แสดงผลการทดลองหรือข้อมูลสถิติ  
+- **Project Proposals:** เน้นไทม์ไลน์และการจัดสรรทรัพยากร  
+- **Marketing Decks:** แสดงผลการทำแคมเปญด้วยแผนภูมิสีสันสดใส  
+- **Event Planning:** แสดงข้อมูลประชากรผู้เข้าร่วมหรือการแบ่งตารางเวลา
 
-## บทสรุป
-ตอนนี้คุณได้เรียนรู้วิธีใช้ Aspose.Slides สำหรับ Java เพื่อสร้าง ปรับแต่ง และบันทึกงานนำเสนออันทรงพลังด้วยการจัดการแผนภูมิที่ซับซ้อนแล้ว หากต้องการพัฒนาทักษะของคุณเพิ่มเติม ให้สำรวจฟีเจอร์เพิ่มเติม เช่น แอนิเมชันและการเปลี่ยนฉากที่มีในไลบรารี
+## Performance Considerations
+- Dispose of `Presentation` objects promptly to avoid memory leaks.  
+- For large data sets, populate chart series incrementally rather than loading everything at once.  
+- Use Java’s built‑in profiling tools to monitor heap usage during chart generation.
 
-**ขั้นตอนต่อไป**:ทดลองใช้ประเภทแผนภูมิและการกำหนดค่าที่แตกต่างกันเพื่อค้นพบความเป็นไปได้ใหม่ๆ!
+## Frequently Asked Questions
 
-## ส่วนคำถามที่พบบ่อย
-1. **ฉันจะเพิ่มประเภทแผนภูมิอื่น ๆ ได้อย่างไร**
-   - ใช้ `ChartType` ค่า enums ที่ Aspose.Slides จัดเตรียมไว้สำหรับตัวเลือกแผนภูมิต่างๆ
-2. **ฉันสามารถปรับแต่งสีแผนภูมิได้หรือไม่**
-   - ใช่ คุณสามารถปรับเปลี่ยนจานสีได้โดยใช้วิธีการบนวัตถุแผนภูมิ
-3. **จะเกิดอะไรขึ้นถ้าไฟล์การนำเสนอของฉันไม่สามารถบันทึกได้?**
-   - ตรวจสอบให้แน่ใจว่าเส้นทางไดเร็กทอรีถูกต้องและมีสิทธิ์การเขียนที่จำเป็น
-4. **จะจัดการกับการนำเสนอขนาดใหญ่ได้อย่างมีประสิทธิภาพได้อย่างไร?**
-   - ใช้เทคนิคการจัดการหน่วยความจำที่มีประสิทธิภาพและกำจัดวัตถุอย่างถูกต้อง
-5. **Aspose.Slides เป็น Java ฟรีหรือเปล่า?**
-   - มีการทดลองใช้ฟรีพร้อมฟีเจอร์จำกัด ซื้อเพื่อใช้งานแบบเต็มความสามารถ
+**Q: How do I add other chart types?**  
+A: Use the `ChartType` enum (e.g., `ChartType.Pie`, `ChartType.Line`) when calling `addChart`.
 
-## ทรัพยากร
-- [เอกสารประกอบ](https://reference.aspose.com/slides/java/)
-- [ดาวน์โหลด Aspose.Slides](https://releases.aspose.com/slides/java/)
-- [ซื้อใบอนุญาต](https://purchase.aspose.com/buy)
-- [ทดลองใช้งานฟรี](https://releases.aspose.com/slides/java/)
-- [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
-- [ฟอรั่มสนับสนุน](https://forum.aspose.com/c/slides/11)
+**Q: Can I customize chart colors?**  
+A: Yes, modify the series’ fill format or the chart’s palette via the `IChart` API.
 
-เริ่มต้นสร้างงานนำเสนอที่สวยงามสะดุดตาด้วย Aspose.Slides สำหรับ Java วันนี้!
+**Q: My presentation won’t save—what’s wrong?**  
+A: Verify that `YOUR_OUTPUT_DIRECTORY` is correct, exists, and is writable. Also check for any lingering file locks.
+
+**Q: How can I handle very large presentations efficiently?**  
+A: Process slides in batches, dispose of each `Presentation` after use, and consider increasing the JVM heap size if needed.
+
+**Q: Is Aspose.Slides free for commercial projects?**  
+A: A free trial is available for evaluation, but a purchased license is required for commercial deployment.
+
+## Resources
+- [Documentation](https://reference.aspose.com/slides/java/)
+- [Download Aspose.Slides](https://releases.aspose.com/slides/java/)
+- [Purchase License](https://purchase.aspose.com/buy)
+- [Free Trial](https://releases.aspose.com/slides/java/)
+- [Temporary License](https://purchase.aspose.com/temporary-license/)
+- [Support Forum](https://forum.aspose.com/c/slides/11)
+
+Embark on creating visually stunning presentations with Aspose.Slides for Java today!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -162,3 +185,11 @@ presentation.save(YOUR_OUTPUT_DIRECTORY + "SetLayoutMode_outer.pptx", SaveFormat
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**อัปเดตล่าสุด:** 2026-01-17  
+**ทดสอบกับ:** Aspose.Slides for Java 25.4 (JDK 16)  
+**ผู้เขียน:** Aspose  
+
+---
