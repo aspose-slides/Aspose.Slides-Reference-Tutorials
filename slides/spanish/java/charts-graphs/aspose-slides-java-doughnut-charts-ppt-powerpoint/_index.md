@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-17"
-"description": "Aprenda a usar Aspose.Slides para Java para crear gráficos de anillos dinámicos en PowerPoint. Mejore sus presentaciones con pasos fáciles de seguir y ejemplos de código."
-"title": "Cree gráficos de anillos dinámicos en PowerPoint con Aspose.Slides para Java"
-"url": "/es/java/charts-graphs/aspose-slides-java-doughnut-charts-ppt-powerpoint/"
-"weight": 1
+date: '2026-01-19'
+description: Aprende cómo agregar una leyenda a un gráfico de PowerPoint y crear gráficos
+  de rosquilla dinámicos en PowerPoint usando Aspose.Slides para Java. Guía paso a
+  paso con ejemplos de código.
+keywords:
+- Aspose.Slides for Java
+- dynamic doughnut charts PowerPoint
+- Java PowerPoint chart creation
+title: Agregar leyenda al gráfico de PowerPoint – Crear gráficos de rosquilla dinámicos
+  con Aspose.Slides para Java
+url: /es/java/charts-graphs/aspose-slides-java-doughnut-charts-ppt-powerpoint/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,30 +18,36 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Cree gráficos de anillos dinámicos en PowerPoint con Aspose.Slides para Java
+# Crear gráficos de dona dinámicos en PowerPoint usando Aspose.Slides para Java
 
 ## Introducción
-Crear presentaciones atractivas a menudo requiere más que solo texto e imágenes; los gráficos pueden mejorar significativamente la narrativa al visualizar los datos eficazmente. Sin embargo, muchos desarrolladores tienen dificultades para integrar funciones de gráficos dinámicos en archivos de PowerPoint mediante programación. Este tutorial muestra cómo usar Aspose.Slides para Java para crear un gráfico de anillos en PowerPoint: una potente herramienta que combina flexibilidad y facilidad de uso.
+Añadir una leyenda a un gráfico de PowerPoint puede convertir una visualización sencilla en una obra maestra narrativa. En este tutorial aprenderás **cómo añadir elementos de leyenda a un gráfico de PowerPoint** mientras construyes un gráfico de dona dinámico con Aspose.Slides para final funcional datos pulidas.
 
 **Lo que aprenderás:**
-- Cómo inicializar una presentación usando Aspose.Slides para Java
-- Una guía paso a paso para agregar un gráfico de anillos a sus diapositivas
-- Configuración de puntos de datos y personalización de propiedades de etiquetas
-- Guardar la presentación modificada con alta fidelidad
+- Cómo inicializar una presentación usando Aspose.Slides para Java  
+- Una guía paso a paso para añadir un gráfico de dona a tus diapositivas  
+ de datos, **add data labels chart**, y personalización de propiedades de la leyenda  
+- Guardar la presentación modificada con alta fidelidad  
 
-Exploremos cómo puedes aprovechar estas funciones para mejorar tus presentaciones. Antes de empezar, asegúrate de familiarizarte con los conceptos básicos de programación en Java.
+Exploremos cómo puedes aprovechar estas funciones para mejorar tus presentaciones. Antes de comenzar, asegúrate de estar cómodo con la sintaxis básica de Java.
 
-## Prerrequisitos
-Para seguir este tutorial de manera efectiva, asegúrese de tener:
-- Conocimientos básicos de programación Java.
-- Un entorno de desarrollo integrado (IDE) como IntelliJ IDEA o Eclipse.
-- Maven o Gradle instalado para la gestión de dependencias.
-- Una licencia válida de Aspose.Slides para Java. Puede obtener una prueba gratuita para probar sus funciones.
+## Respuestas rápidas
+- **¿Cuál es la biblioteca principal?** Aspose.Slides para Java  
+- **¿Puedo añadir una leyenda a un gráfico de dona?** Sí – usa la leyenda del gráfico y la configuración de series  
+- **¿Necesito una licencia?** Una versión de prueba funciona para desarrollo; se requiere una licencia comercial para producción  
+- **¿Qué versión de Java es compatible?** El ejemplo usa JDK 16 (clasificador jdk16)  
+- **¿Cuántas series de datos puedo crear?** El ejemplo recorre hasta 15 series, pero puedes ajustarlo según necesites  
 
-## Configuración de Aspose.Slides para Java
-Empieza por incorporar Aspose.Slides a tu proyecto. Elige entre Maven y Gradle, según lo que prefieras:
+## ¿Qué es un gráfico de dona y por qué añadir una leyenda?
+Un gráfico de dona es una variante del gráfico de pastel con un centro hueco, ideal para mostrar relaciones parte‑todo mientras deja espacio para información adicional. Añadir una leyenda ayuda a los espectadores a mapear rápidamente los colores a las categorías, mejorando la legibilidad—especialmente cuando tienes muchas series.
 
-**Experto**
+## Requisitos previos
+- Conocimientos básicos de programación en Java.  
+- Un IDE como IntelliJ IDEA o Eclipse.  
+- Maven o Gradle para la gestión de dependencias.  
+- Una licencia válida deides para Java (prElija el formato de dependencia que coincida con su herramienta de compilación.
+
+**Maven**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -49,16 +62,16 @@ Empieza por incorporar Aspose.Slides a tu proyecto. Elige entre Maven y Gradle, 
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Si prefieres descargar directamente, visita el [Lanzamientos de Aspose.Slides para Java](https://releases.aspose.com/slides/java/) página.
+Si prefieres descargar el JAR directamente, visita la página de [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### Adquisición de licencias
-Puedes empezar con una prueba gratuita para explorar las funciones de Aspose.Slides. Para un uso prolongado, compra una licencia o solicita una temporal a [El sitio web de Aspose](https://purchase.aspose.com/temporary-license/)Siga las instrucciones proporcionadas para configurar su entorno e inicializar Aspose.Slides en su aplicación.
+### Adquisición de licencia
+Puedes comenzar con una prueba gratuita para explorar las funciones de Aspose.Slides. Para uso prolongado, compra una licencia o solicita una temporal en el [sitio web de Aspose](https://purchase.aspose.com/temporary-license/). Sigue las instrucciones proporcionadas para configurar tu entorno e inicializar Aspose.Slides en tu aplicación.
 
 ## Guía de implementación
-Analicemos los pasos necesarios para crear un gráfico de anillos en PowerPoint con Aspose.Slides para Java. Cada sección está dedicada a una función específica, lo que garantiza claridad y enfoque.
+A continuación tienes un recorrido completo. Cada bloque de código se explica antes de aparecer, para que sepas exactamente qué está ocurriendo.
 
 ### Inicializar presentación
-Comience cargando o creando un nuevo archivo de PowerPoint. Este paso configura el entorno de presentación.
+Primero, carga un PPTX existente o crea uno nuevo. Este paso configura el objeto de presentación que contendrá el gráfico.
 
 ```java
 import com.aspose.slides.*;
@@ -67,12 +80,12 @@ String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Presentation pres = new Presentation(dataDir + "/testc.pptx");
 ISlide slide = pres.getSlides().get_Item(0);
 
-// Verifique la carga exitosa guardando la presentación inicial
+// Verify successful loading by saving the initial presentation
 pres.save(dataDir + "/initialized_chart.pptx", SaveFormat.Pptx);
 ```
 
-### Agregar gráfico de anillos
-Agregue un gráfico de anillos a su diapositiva, personalizando sus dimensiones y apariencia.
+### Añadir gráfico de dona
+Ahora añadimos un gráfico de dona a la diapositiva. `ChartType.Doughnut` crea la visualización adecuada, y también desactivamos la leyenda predeterminada porque la personalizaremos más adelante.
 
 ```java
 import com.aspose.slides.*;
@@ -85,7 +98,7 @@ chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 chart.setLegend(false);
 
-// Configurar las propiedades de la serie
+// Configure the series properties
 int seriesIndex = 0;
 while (seriesIndex < 15) {
     IChartSeries series = chart.getChartData().getSeries().add(workBook.getCell(0, 0, seriesIndex + 1, "SERIES " + seriesIndex), chart.getType());
@@ -97,7 +110,7 @@ while (seriesIndex < 15) {
 ```
 
 ### Configurar puntos de datos y etiquetas
-Personalice la apariencia de cada punto de datos y configure las etiquetas para una mejor legibilidad.
+A continuación poblamos las categorías, añadimos puntos de datos para cada serie y **add data labels chart**. La personalización de etiquetas también muestra cómo posicionar una descripción tipo leyenda junto a la última serie en cada categoría.
 
 ```java
 import com.aspose.slides.*;
@@ -111,7 +124,7 @@ while (categoryIndex < 15) {
         IChartSeries iCS = chart.getChartData().getSeries().get_Item(i);
         IChartDataPoint dataPoint = iCS.getDataPoints().addDataPointForDoughnutSeries(workBook.getCell(0, categoryIndex + 1, i + 1, 1));
         
-        // Formatear el punto de datos
+        // Format the data point
         dataPoint.getFormat().getFill().setFillType(FillType.Solid);
         dataPoint.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
         dataPoint.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
@@ -119,7 +132,7 @@ while (categoryIndex < 15) {
         dataPoint.getFormat().getLine().setStyle(LineStyle.Single);
         dataPoint.getFormat().getLine().setDashStyle(LineDashStyle.Solid);
 
-        // Personalizar las propiedades de las etiquetas para la última serie de cada categoría
+        // Customize label properties for the last series in each category
         if (i == chart.getChartData().getSeries().size() - 1) {
             IDataLabel lbl = dataPoint.getLabel();
             lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
@@ -143,7 +156,7 @@ while (categoryIndex < 15) {
 ```
 
 ### Guardar la presentación
-Después de configurar su gráfico, guarde la presentación para conservar los cambios.
+Finalmente, persiste los cambios en un nuevo archivo PPTX.
 
 ```java
 import com.aspose.slides.*;
@@ -151,30 +164,40 @@ import com.aspose.slides.*;
 pres.save(dataDir + "/chart.pptx", SaveFormat.Pptx);
 ```
 
+## ¿Por qué añadir una leyenda al gráfico de PowerPoint en un gráfico de dona?
+- **Claridad:** Las leyendas asignan colores a categorías sin saturar el área del gráfico.  
+- **Escalabilidad:** Cuando tienes muchas series (como en el bucle anterior), una leyenda mantiene la diapositiva legible.  
+- **Aspecto profesional:** Una leyenda pulida combinada con etiquetas de datos personalizadas brinda una presentación de nivel corporativo.
+
 ## Aplicaciones prácticas
-Los gráficos de anillos se pueden utilizar en varios escenarios:
-- **Informes financieros:** Visualizar asignaciones presupuestarias o métricas financieras.
-- **Análisis de mercado:** Mostrar la distribución de la cuota de mercado entre los competidores.
-- **Resultados de la encuesta:** Presentar datos categóricos de las respuestas de la encuesta de manera eficaz.
+Los gráficos de dona con leyendas son perfectos para:
+- **Informes financieros:** Mostrar la desagregación de gastos junto a una leyenda para cada departamento.  
+- **Análisis de mercado:** Visualizar la cuota de mercado mientras la leyenda identifica a cada competidor.  
+- **Resultados de encuestas:** Presentar respuestas de opción múlt de series serie datos grandes.
 
-La integración con otros sistemas, como bases de datos y aplicaciones web, permite la generación de gráficos dinámicos basados en datos en tiempo real.
+## Problemas comunes y soluciones
+| Problema | Razón | Solución |
+|----------|-------|----------|
+| La leyenda no es visible | `chart.setLegend(false)` la desactiva. | Establece `chart.setLegend(true)` y personaliza la posición. |
+| Las etiquetas se superponen | La ubicación predeterminada de las etiquetas puede chocar con el agujero de la dona. | Ajusta `lbl.setX()` / `lbl.setY()` o incrementa `DoughnutHoleSize`. |
+| El color no se aplica | El tipo de relleno no está configurado a `Solid`. | Asegúrate de que `dataPoint.getFormat().getFill().setFillType(FillType.Solid)`. |
 
-## Consideraciones de rendimiento
-Para un rendimiento óptimo:
-- Administre el uso de la memoria eliminando recursos rápidamente.
-- Limite el número de gráficos o diapositivas si no es necesario para conservar potencia de procesamiento.
-- Utilice estructuras de datos eficientes para gestionar grandes conjuntos de datos.
+## Preguntas frecuentes
 
-Seguir las mejores prácticas garantiza que su aplicación funcione sin problemas, especialmente cuando se trata de presentaciones complejas.
+**Q: ¿Puedo usar Aspose.Slides para Java en aplicaciones comerciales?**  
+A: Sí, pero necesitas una licencia comercial válida. Hay una prueba gratuita disponible para evaluación.
 
-## Conclusión
-Crear gráficos de anillos dinámicos en PowerPoint con Aspose.Slides para Java es un proceso sencillo una vez que comprende los pasos clave. Con esta guía, podrá mejorar sus presentaciones integrando gráficos visualmente atractivos que comuniquen eficazmente la información.
+**Q: ¿Cómo habilito la leyenda después de haberla desactivado?**  
+A: Llama a `chart.setLegend(true);` y opcionalmente establece su posición con `chart.getLegend().setPosition(LegendPosition.Right);`.
 
-Para explorar más a fondo las funcionalidades de Aspose.Slides y profundizar en sus capacidades, considere experimentar con diferentes tipos de gráficos o funciones avanzadas como animaciones y transiciones.
+**Q `chart.getLegend workbook dentro gráfico además de la dona?**  
+A: Soporta una gama completa de tipos de gráficos—pie, bar, line, scatter y más. Simplemente reemplaza `ChartType.Doughnut` por el enum deseado.
 
-## Sección de preguntas frecuentes
-**P: ¿Puedo utilizar Aspose.Slides para Java en aplicaciones comerciales?**
-R: Sí, pero necesitarás adquirir una licencia. Puedes empezar con una prueba gratuita para evaluar sus funciones.
+---
+
+**Última actualización:** 2026-01-19  
+**Probado con:** Aspose.Slides 25.4 (JDK 16)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
