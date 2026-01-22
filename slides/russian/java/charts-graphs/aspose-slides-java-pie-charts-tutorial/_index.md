@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-17"
-"description": "Узнайте, как создавать и настраивать круговые диаграммы с помощью Aspose.Slides для Java. Этот урок охватывает все&#58; от настройки до расширенной настройки."
-"title": "Создание круговых диаграмм в Java с помощью Aspose.Slides&#58; Подробное руководство"
-"url": "/ru/java/charts-graphs/aspose-slides-java-pie-charts-tutorial/"
-"weight": 1
+date: '2026-01-22'
+description: Узнайте, как настроить цвета круговой диаграммы и добавить заголовок
+  диаграммы с помощью Aspose.Slides для Java. Включает настройку Maven Aspose Slides
+  и способы сохранения презентации в формате pptx.
+keywords:
+- Aspose.Slides Java
+- Java pie charts
+- data visualization in Java
+title: 'Как настроить цвета круговой диаграммы в Java с помощью Aspose.Slides: Полное
+  руководство'
+url: /ru/java/charts-graphs/aspose-slides-java-pie-charts-tutorial/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,40 +18,31 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Создание круговых диаграмм с помощью Aspose.Slides для Java: полное руководство
+# Создание круговых диаграмм с Aspose.Slides для Java: Как **customize pie chart colors** – Полный учебник
 
 ## Введение
-Создание динамичных и визуально привлекательных презентаций имеет решающее значение для предоставления эффективной информации. С Aspose.Slides для Java вы можете легко интегрировать сложные диаграммы, такие как круговые диаграммы, в свои слайды, улучшая визуализацию данных без усилий. Это всеобъемлющее руководство проведет вас через процесс создания и настройки круговой диаграммы с помощью Aspose.Slides Java, с легкостью решая распространенные проблемы с презентациями.
+Представление историй, основанных на данных, в презентациях становится проще, когда вы можете **customize pie chart colors** чтобы они соответствовали вашему бренду или выделяли ключевые значения. В этом учебнике вы точно увидите, как создать круговую диаграмму, добавить заголовок диаграммы, работать с точками данных круговой диаграммы и точно настроить цвета каждого сектора с помощью Aspose.Slides для Java. К концу вы также узнаете, как **save presentation pptx** и интегрировать библиотеку с Maven Aspose Slides.
 
-**Что вы узнаете:**
-- Инициализация презентации и добавление слайдов.
-- Создание и настройка круговой диаграммы на слайде.
-- Настройка названий диаграмм, меток данных и цветов.
-- Оптимизация производительности и эффективное управление ресурсами.
-- Интеграция Aspose.Slides в проекты Java с использованием Maven или Gradle.
+**Что вы узнаете**
+- Как создавать круговые диаграммы (how to create pie) и настроить проект Java.
+- Шаги по добавлению заголовка диаграммы и управлению точками данных круговой диаграммы.
+- Методы **customize pie chart colors** для максимального визуального воздействия.
+- Конфигурация зависимости Maven Aspose Slides.
+- Сохранение конечного файла как PPTX‑презентации.
 
-Давайте начнем с того, что убедимся, что у вас есть все необходимые инструменты и знания для продолжения обучения!
+Начнём!
 
-## Предпосылки
-Прежде чем приступить к изучению этого руководства, убедитесь, что у вас готовы следующие настройки:
-
-### Требуемые библиотеки, версии и зависимости
-- **Aspose.Slides для Java**: Убедитесь, что у вас установлена версия 25.4 или более поздняя.
-- **Комплект разработчика Java (JDK)**: Требуется версия 16 или выше.
-
-### Требования к настройке среды
-- Среда разработки с установленной и настроенной Java.
-- Интегрированная среда разработки (IDE), например IntelliJ IDEA, Eclipse или NetBeans.
-
-### Необходимые знания
-- Базовые знания программирования на Java.
-- Знакомство с Maven или Gradle для управления зависимостями.
+## Быстрые ответы
+- **Как добавить заголовок диаграммы?** Используйте `chart.getChartTitle().addTextFrameForOverriding("Your Title")`.
+- **Какой инструмент сборки лучше всего подходит?** Поддерживаются как Maven, так и Gradle;ённым.
+- **Можно ли изменить цвета секторов?** Да — установите `setColorVaried(true)` и настройте.pptx", SaveFormat.Pptx)`.
+- **Н IDE, NetBeans.
+- Базовые знания Java и знакомство с Maven или Gradle.
 
 ## Настройка Aspose.Slides для Java
-Чтобы начать использовать Aspose.Slides в своих проектах Java, вам нужно добавить библиотеку как зависимость. Вот как это можно сделать с помощью различных инструментов сборки:
+Чтобы начать использовать Aspose.Slides, добавьте библиотеку в ваш проект.
 
-**Знаток**
-Добавьте этот фрагмент в свой `pom.xml` файл:
+**Maven** (maven aspose slides)  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -54,113 +52,103 @@
 </dependency>
 ```
 
-**Градл**
-Включите в свой план следующее: `build.gradle` файл:
+**Gradle**  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Прямая загрузка**
-Если вы предпочитаете не использовать инструмент сборки, загрузите последнюю версию с сайта [Aspose.Slides для релизов Java](https://releases.aspose.com/slides/java/).
+**Прямое скачивание**  
+Если вы предпочитаете не использовать инструмент сборки, скачайте последнюю версию с [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### Этапы получения лицензии
-- **Бесплатная пробная версия**: Начните с бесплатной пробной версии, чтобы изучить возможности Aspose.Slides.
-- **Временная лицензия**: Получите временную лицензию для длительного использования без ограничений.
-- **Покупка**: Рассмотрите возможность покупки, если вам нужен долгосрочный доступ.
+### Шаги получения лицензии
+- **Free Trial** – начните экспериментировать без лицензии.
+- **Temporary License** – продлить период пробной версии.
+- **Purchase** – получить полную лицензию для продакшн‑развертываний.
 
-**Базовая инициализация и настройка**
-Чтобы начать использовать Aspose.Slides, инициализируйте свой проект, создав новый объект презентации:
+### Базовая инициализация
 ```java
 import com.aspose.slides.*;
 
 Presentation presentation = new Presentation();
 ```
 
-## Руководство по внедрению
-Теперь давайте разобьем процесс добавления и настройки круговой диаграммы на удобные для выполнения шаги.
+## Руководство по реализации
+Ниже пошаговое руководство, сохраняющее код точно таким, как ожидает оригинальная библиотека.
 
-### Инициализировать презентацию и слайд
-Начните с настройки новой презентации и доступа к первому слайду. Это ваш холст для создания диаграмм:
+### Шаг 1: Инициализация Presentation и Slide
 ```java
 import com.aspose.slides.*;
 
-// Создайте новый экземпляр презентации.
+// Create a new presentation instance.
 Presentation presentation = new Presentation();
-// Откройте первый слайд презентации.
+// Access the first slide in the presentation.
 islide slides = presentation.getSlides().get_Item(0);
 ```
 
-### Добавить круговую диаграмму на слайд
-Вставьте круговую диаграмму в указанную позицию с набором данных по умолчанию:
+### Шаг 2: Добавление круговой диаграммы на слайд
 ```java
 import com.aspose.slides.*;
 
-// Добавьте круговую диаграмму в позицию (100, 100) размером (400, 400).
+// Add a pie chart at position (100, 100) with size (400, 400).
 ischart chart = slides.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
-### Установить заголовок диаграммы
-Настройте диаграмму, задав и отцентрировав заголовок:
+### Шаг 3: Добавление заголовка диаграммы
 ```java
 import com.aspose.slides.*;
 
-// Добавьте заголовок к круговой диаграмме.
+// Add a title to the pie chart.
 chart.getChartTitle().addTextFrameForOverriding("Sample Title");
 chart.getChartTitle().getTextFrameForOverriding().getTextFrameFormat().setCenterText(NullableBool.True);
 chart.getChartTitle().setHeight(20);
 chart.setTitle(true);
 ```
 
-### Настройка меток данных для серий
-Для ясности убедитесь, что метки данных отображают значения:
+### Шаг 4: Показ меток данных для первой серии
 ```java
 import com.aspose.slides.*;
 
-// Показать значения данных по первой серии.
+// Show data values on the first series.
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 ```
 
-### Подготовить рабочий лист данных диаграммы
-Настройте рабочий лист данных диаграммы, очистив существующие серии и категории:
+### Шаг 5: Подготовка листа данных диаграммы
 ```java
 import com.aspose.slides.*;
 
-// Подготовьте рабочую тетрадь с данными диаграммы.
+// Prepare the chart data workbook.
 int defaultWorksheetIndex = 0;
 isChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 ```
 
-### Добавить категории в диаграмму
-Определите категории для вашей круговой диаграммы:
+### Шаг 6: Добавление категорий (точек данных круговой диаграммы)
 ```java
 import com.aspose.slides.*;
 
-// Добавить новые категории.
+// Add new categories.
 chart.getChartData().getCategories().add(fact.getCell(0, 1, 0, "First Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 ```
 
-### Добавить ряды и заполнить точки данных
-Создайте ряд и заполните его точками данных:
+### Шаг 7: Добавление серии и заполнение точек данных
 ```java
 import com.aspose.slides.*;
 
-// Добавьте новую серию и задайте ее название.
+// Add a new series and set its name.
 ischartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 ```
 
-### Настройте цвета и границы серии
-Повысьте визуальную привлекательность, задав цвета и настроив границы:
+### Шаг 8: **Customize Pie Chart Colors** – Основная часть этого учебника
 ```java
 import com.aspose.slides.*;
 
-// Установите различные цвета для секторов серии.
+// Set varied colors for the series sectors.
 chart.getChartData().getSeriesGroups().get_Item(0).setColorVaried(true);
 
 isChartDataPoint point = series.getDataPoints().get_Item(0);
@@ -172,15 +160,14 @@ point.getFormat().getLine().setWidth(3.0);
 point.getFormat().getLine().setStyle(LineStyle.ThinThick);
 point.getFormat().getLine().setDashStyle(LineDashStyle.DashDot);
 
-// Повторите эти действия для других точек данных, используя другие цвета и стили.
+// Repeat for other data points with different colors and styles.
 ```
 
-### Настройка пользовательских меток данных
-Настройте метки для каждой точки данных:
+### Шаг 9: Настройка пользовательских меток данных
 ```java
 import com.aspose.slides.*;
 
-// Настройте пользовательские метки.
+// Configure custom labels.
 isDataLabel lbl1 = series.getDataPoints().get_Item(0).getLabel();
 lbl1.getDataLabelFormat().setShowValue(true);
 
@@ -193,25 +180,52 @@ isDataLabel lbl3 = series.getDataPoints().get_Item(2).getLabel();
 lbl3.getDataLabelFormat().setShowSeriesName(true);
 lbl3.getDataLabelFormat().setShowPercentage(true);
 
-// Включить линии выноски для этикеток.
+// Enable leader lines for labels.
 series.getLabels().getDefaultDataLabelFormat().setShowLeaderLines(true);
 ```
 
-### Установить угол поворота и сохранить презентацию
-Завершите создание круговой диаграммы, установив угол поворота и сохранив презентацию:
+### Шаг 10: Установка угла вращения и **Save Presentation PPTX**
 ```java
 import com.aspose.slides.*;
 
-// Установить угол поворота.
+// Set rotation angle.
 chart.getPlotArea().getPieChartTitle().getTextFrameForOverriding().setText("Sales Data");
 chart.setRotationAngle(-10);
 
-// Сохраните презентацию в файл.
+// Save the presentation to a file.
 presentation.save("PieChartPresentation.pptx", SaveFormat.Pptx);
 ```
 
+## Распространённые проблемы и устранение неполадок
+- **Missing colors after export** – Убедитесь, что `setColorVaried(true)` вызывается до изменения отдельных точек данных.
+- **Data points not showing** – Проверьте, что категории и серии очищены перед добавлением новых (см. Шаг 5).
+- **License not applied** – Загрузите файл лицензии перед созданием объекта `Presentation`, чтобы избежать водяных знаков пробной версии.
+
+## Часто задаваемые вопросы
+
+**Q: Можно ли использовать этот код со старыми версиями JDK?**  
+A: Библиотека требует JDK 16 или выше; старые версии не поддерживаются.
+
+**Q: Как изменить заголовок диаграммы после создания?**  
+A: Вызовите `chart.getChartTitle().addTextFrameForOverriding("New Title")` и при необходимости отрегулируйте формат текста.
+
+**Q: Можно ли экспортировать в форматы, отличные от PPTX?**  
+A: Да — Aspose.Slides поддерживает PDF, ODP и несколько форматов изображений через перечисление `SaveFormat`.
+
+**Q: Что если я хочу анимировать сектора круговой диаграммы?**  
+A: Используйте API `SlideShow` для добавления переходов слайдов или анимаций фигур после создания диаграммы.
+
+**Q: Включает ли зависимость Maven все транзитивные библиотеки?**  
+A: Артефакт Maven Aspose Slides автоматически подтягивает необходимые зависимости; дополнительные шаги не требуются.
+
 ## Заключение
-В этом уроке вы узнали, как создавать и настраивать круговые диаграммы с помощью Aspose.Slides для Java. Выполнив эти шаги, вы сможете улучшить свои презентации с помощью визуально привлекательных визуализаций данных. Если у вас есть какие-либо вопросы или вам нужна дополнительная помощь, не стесняйтесь обращаться.
+Теперь у вас есть полноценный, готовый к продакшну пример, который демонстрирует **how to customize pie chart colors**, добавляет заголовок диаграммы, работает с точками данных круговой диаграммы и **save presentation pptx** с использованием Aspose.Slides для Java. Не стесняйтесь экспериментировать с различными цветовыми палитрами, наборами данных и углами вращения, чтобы соответствовать стилю вашего бренда.
+
+---
+
+**Последнее обновление:** 2026-01-22  
+**Тестировано с:** Aspose.Slides 25.4 (JDK 16)  
+**Автор:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

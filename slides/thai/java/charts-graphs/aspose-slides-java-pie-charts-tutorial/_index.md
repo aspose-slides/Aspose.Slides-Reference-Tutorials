@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-17"
-"description": "เรียนรู้วิธีสร้างและปรับแต่งแผนภูมิวงกลมโดยใช้ Aspose.Slides สำหรับ Java บทช่วยสอนนี้ครอบคลุมทุกอย่างตั้งแต่การตั้งค่าจนถึงการปรับแต่งขั้นสูง"
-"title": "การสร้างแผนภูมิวงกลมใน Java ด้วย Aspose.Slides คู่มือที่ครอบคลุม"
-"url": "/th/java/charts-graphs/aspose-slides-java-pie-charts-tutorial/"
-"weight": 1
+date: '2026-01-22'
+description: เรียนรู้วิธีปรับแต่งสีของแผนภูมิวงกลมและเพิ่มชื่อแผนภูมิด้วย Aspose.Slides
+  for Java รวมการตั้งค่า Maven Aspose Slides และวิธีบันทึกไฟล์พรีเซนเทชัน pptx.
+keywords:
+- Aspose.Slides Java
+- Java pie charts
+- data visualization in Java
+title: 'วิธีปรับแต่งสีของแผนภูมิวงกลมใน Java ด้วย Aspose.Slides: คู่มือฉบับสมบูรณ์'
+url: /th/java/charts-graphs/aspose-slides-java-pie-charts-tutorial/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,40 +16,31 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# การสร้างแผนภูมิวงกลมด้วย Aspose.Slides สำหรับ Java: บทช่วยสอนแบบสมบูรณ์
+# สร้างแผนภูมิวงกลมด้วย Aspose.Slides for Java: วิธี **ปรับแต่งสีของแผนภูมิวงกลม** – การสอนแบบครบถ้วน
 
-## การแนะนำ
-การสร้างงานนำเสนอที่น่าดึงดูดและมีชีวิตชีวาถือเป็นสิ่งสำคัญสำหรับการนำเสนอข้อมูลที่มีประสิทธิภาพ ด้วย Aspose.Slides สำหรับ Java คุณสามารถผสานแผนภูมิที่ซับซ้อน เช่น แผนภูมิวงกลม เข้ากับสไลด์ของคุณได้อย่างราบรื่น ช่วยเพิ่มการแสดงข้อมูลได้อย่างง่ายดาย คู่มือที่ครอบคลุมนี้จะแนะนำคุณตลอดกระบวนการสร้างและปรับแต่งแผนภูมิวงกลมโดยใช้ Aspose.Slides Java และแก้ไขปัญหาการนำเสนอทั่วไปได้อย่างง่ายดาย
+## Introduction
+การนำเสนอเรื่องราวที่ขับเคลื่อนด้วยข้อมูลในงานพรีเซนเทชันจะง่ายขึ้นเมื่อคุณสามารถ **ปรับแต่งสีของแผนภูมิวงกลม** ให้ตรงกับแบรนด์หรือเน้นค่าที่สำคัญได้ ในบทเรียนนี้คุณจะได้เห็นขั้นตอนการสร้างแผนภูมิวงกลม, เพิ่มหัวข้อแผนภูมิ, ทำงานกับจุดข้อมูลของแผนภูมิวงกลม, และปรับสีของแต่ละส่วนอย่างละเอียดโดยใช้ Aspose.Slides for Java. เมื่อจบคุณจะรู้วิธี **บันทึกพรีเซนเทชันเป็นไฟล์ pptx** และรวมไลบรารีกับ Maven Aspose Slides.
 
-**สิ่งที่คุณจะได้เรียนรู้:**
-- การเริ่มต้นการนำเสนอและการเพิ่มสไลด์
-- การสร้างและการกำหนดค่าแผนภูมิวงกลมบนสไลด์ของคุณ
-- การตั้งค่าชื่อแผนภูมิ ป้ายข้อมูล และสี
-- เพิ่มประสิทธิภาพการทำงานและบริหารจัดการทรัพยากรอย่างมีประสิทธิผล
-- การรวม Aspose.Slides เข้ากับโปรเจ็กต์ Java โดยใช้ Maven หรือ Gradle
+**สิ่งที่คุณจะได้เรียนรู้**
+- วิธีสร้างแผนภูมิวงกลม (how to create pie) และตั้งค่าโครงการ Java
+- ขั้นตอนการเพิ่มหัวข้อแผนภูมิและจัดการจุดข้อมูลของแ- เทคนิคการ **ปรับแต่งสีของแผนภูมิose Slides
+- การบันทึกไฟล์สุดท้ายเป็นพรีเซนเทชัน PPTX
 
-เริ่มต้นด้วยการตรวจสอบให้แน่ใจว่าคุณมีเครื่องมือและความรู้ทั้งหมดที่จำเป็นในการปฏิบัติตาม!
+มาเริ่มกันเลย!
 
-## ข้อกำหนดเบื้องต้น
-ก่อนจะเข้าสู่บทช่วยสอนนี้ ให้แน่ใจว่าคุณมีการตั้งค่าต่อไปนี้พร้อมแล้ว:
+## Quick Answers
+- **จะเพิ่มหัวข้อแผนภูมิอย่างไร?** ใช้ `chart.getChartTitle().addTextFrameForOverriding("Your Title")`.
+- **เครื่องมือสร้างใดทำงานดีที่สุด?** ทั้ง Maven และ Gradle รองรับ; Maven Aspose Slides เป็นที่นิยมที่สุด.
+- **สามารถเปลี่ยนสีของส่วนได้หรือไม่?** ได้ — ตั้งค่า `setColorVaried(true)` แล้วปรับสี fill ของแต่ละ `DataPointึกเป็นรูปแบบใด?** ใช้ `presentation.save("MyChart.pptx", SaveFormat.Pptx)`.
+- **ต้องมีลิขสิทธิ์หรือไม่?** เวอร์ชันทดลองฟรีใช้ได้สำหรับการพัฒนา; ต้องมีลิขสิทธิ์ถาวรสำหรับ4 (แนะนำให้ใช้เวอร์ชันล่าสุด)
+- **JDK 16+** ติดตั้งและตั้งค่าแล้ว
+- IDE เช่น IntelliJ IDEA, Eclipse หรือ NetBeans
+- ความรู้พื้นฐาน Java และความคุ้นเคยกับ Maven หรือ Gradle
 
-### ไลบรารี เวอร์ชัน และการอ้างอิงที่จำเป็น
-- **Aspose.Slides สำหรับ Java**: ให้แน่ใจว่าคุณมีเวอร์ชัน 25.4 ขึ้นไป
-- **ชุดพัฒนา Java (JDK)**: ต้องมีเวอร์ชัน 16 ขึ้นไป
+## Setting Up Aspose.Slides for Java
+เพื่อเริ่มใช้ Aspose.Slides ให้เพิ่มไลบรารีลงในโครงการของคุณ
 
-### ข้อกำหนดการตั้งค่าสภาพแวดล้อม
-- สภาพแวดล้อมการพัฒนาที่มีการติดตั้งและกำหนดค่า Java
-- สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE) เช่น IntelliJ IDEA, Eclipse หรือ NetBeans
-
-### ข้อกำหนดเบื้องต้นของความรู้
-- ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรมภาษา Java
-- ความคุ้นเคยกับ Maven หรือ Gradle สำหรับการจัดการการอ้างอิง
-
-## การตั้งค่า Aspose.Slides สำหรับ Java
-หากต้องการเริ่มใช้ Aspose.Slides ในโปรเจ็กต์ Java ของคุณ คุณต้องเพิ่มไลบรารีเป็นส่วนที่ต้องพึ่งพา คุณสามารถทำได้โดยใช้เครื่องมือสร้างต่างๆ ดังต่อไปนี้:
-
-**เมเวน**
-เพิ่มส่วนนี้ลงในของคุณ `pom.xml` ไฟล์:
+**Maven** (maven aspose slides)  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -54,113 +50,103 @@
 </dependency>
 ```
 
-**แกรเดิล**
-รวมสิ่งต่อไปนี้ไว้ในของคุณ `build.gradle` ไฟล์:
+**Gradle**  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**ดาวน์โหลดโดยตรง**
-หากคุณไม่ต้องการใช้เครื่องมือสร้าง โปรดดาวน์โหลดเวอร์ชันล่าสุดจาก [Aspose.Slides สำหรับการเปิดตัว Java](https://releases-aspose.com/slides/java/).
+**Direct Download**  
+หากคุณไม่ต้องการใช้เครื่องมือสร้าง ให้ดาวน์โหลดเวอร์ชันล่าสุดจาก [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### ขั้นตอนการรับใบอนุญาต
-- **ทดลองใช้งานฟรี**:เริ่มต้นด้วยการทดลองใช้ฟรีเพื่อสำรวจฟีเจอร์ Aspose.Slides
-- **ใบอนุญาตชั่วคราว**:ขอใบอนุญาตชั่วคราวเพื่อใช้งานต่อเนื่องโดยไม่มีข้อจำกัด
-- **ซื้อ**:โปรดพิจารณาซื้อหากคุณต้องการการเข้าถึงในระยะยาว
+### License Acquisition Steps
+- **Free Trial** – เริ่มทดลองใช้โดยไม่ต้องมีลิขสิทธิ์
+- **Temporary License** – ขยายระยะเวลาการทดลอง
+- **Purchase** – ซื้อลิขสิทธิ์เต็มรูปแบบสำหรับการใช้งานจริง
 
-**การเริ่มต้นและการตั้งค่าเบื้องต้น**
-ในการเริ่มใช้ Aspose.Slides ให้เริ่มต้นโครงการของคุณด้วยการสร้างวัตถุการนำเสนอใหม่:
+### Basic Initialization
 ```java
 import com.aspose.slides.*;
 
 Presentation presentation = new Presentation();
 ```
 
-## คู่มือการใช้งาน
-ตอนนี้มาแบ่งกระบวนการการเพิ่มและปรับแต่งแผนภูมิวงกลมออกเป็นขั้นตอนต่างๆ ที่จัดการได้
+## Implementation Guide
+ด้านล่างเป็นขั้นตอนแบบละเอียดที่รักษาโค้ดให้ตรงกับที่ไลบรารีกำหนด
 
-### เริ่มต้นการนำเสนอและสไลด์
-เริ่มต้นด้วยการตั้งค่าการนำเสนอใหม่และเข้าถึงสไลด์แรก นี่คือพื้นที่สำหรับสร้างแผนภูมิ:
+### Step 1: Initialize Presentation and Slide
 ```java
 import com.aspose.slides.*;
 
-// สร้างอินสแตนซ์การนำเสนอใหม่
+// Create a new presentation instance.
 Presentation presentation = new Presentation();
-// เข้าถึงสไลด์แรกในการนำเสนอ
+// Access the first slide in the presentation.
 islide slides = presentation.getSlides().get_Item(0);
 ```
 
-### เพิ่มแผนภูมิวงกลมลงในสไลด์
-แทรกแผนภูมิวงกลมลงในตำแหน่งที่ระบุโดยใช้ชุดข้อมูลเริ่มต้น:
+### Step 2: Add a Pie Chart to the Slide
 ```java
 import com.aspose.slides.*;
 
-// เพิ่มแผนภูมิวงกลมที่ตำแหน่ง (100, 100) และมีขนาด (400, 400)
+// Add a pie chart at position (100, 100) with size (400, 400).
 ischart chart = slides.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
-### ตั้งค่าชื่อแผนภูมิ
-ปรับแต่งแผนภูมิของคุณโดยการตั้งค่าและจัดตำแหน่งชื่อเรื่องให้ตรงกลาง:
+### Step 3: Add Chart Title
 ```java
 import com.aspose.slides.*;
 
-// เพิ่มชื่อให้กับแผนภูมิวงกลม
+// Add a title to the pie chart.
 chart.getChartTitle().addTextFrameForOverriding("Sample Title");
 chart.getChartTitle().getTextFrameForOverriding().getTextFrameFormat().setCenterText(NullableBool.True);
 chart.getChartTitle().setHeight(20);
 chart.setTitle(true);
 ```
 
-### กำหนดค่าป้ายข้อมูลสำหรับชุดข้อมูล
-ตรวจสอบให้แน่ใจว่าป้ายข้อมูลแสดงค่าเพื่อความชัดเจน:
+### Step 4: Show Data Labels for the First Series
 ```java
 import com.aspose.slides.*;
 
-// แสดงค่าข้อมูลในซีรีส์แรก
+// Show data values on the first series.
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 ```
 
-### เตรียมแผ่นงานข้อมูลแผนภูมิ
-ตั้งค่าแผ่นงานข้อมูลแผนภูมิของคุณโดยการล้างชุดข้อมูลและหมวดหมู่ที่มีอยู่:
+### Step 5: Prepare the Chart Data Worksheet
 ```java
 import com.aspose.slides.*;
 
-// เตรียมสมุดงานข้อมูลแผนภูมิ
+// Prepare the chart data workbook.
 int defaultWorksheetIndex = 0;
 isChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 ```
 
-### เพิ่มหมวดหมู่ลงในแผนภูมิ
-กำหนดหมวดหมู่สำหรับแผนภูมิวงกลมของคุณ:
+### Step 6: Add Categories (pie chart data points)
 ```java
 import com.aspose.slides.*;
 
-// เพิ่มหมวดหมู่ใหม่
+// Add new categories.
 chart.getChartData().getCategories().add(fact.getCell(0, 1, 0, "First Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 ```
 
-### เพิ่มซีรีส์และเติมจุดข้อมูล
-สร้างซีรีส์และเติมจุดข้อมูล:
+### Step 7: Add Series and Populate Data Points
 ```java
 import com.aspose.slides.*;
 
-// เพิ่มซีรีย์ใหม่และตั้งชื่อ
+// Add a new series and set its name.
 ischartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 ```
 
-### ปรับแต่งสีและขอบของซีรีย์
-เพิ่มความน่าสนใจทางสายตาด้วยการตั้งค่าสีและปรับแต่งขอบ:
+### Step 8: **Customize Pie Chart Colors** – The Core of This Tutorial
 ```java
 import com.aspose.slides.*;
 
-// ตั้งค่าสีต่างๆ ให้กับแต่ละภาคส่วน
+// Set varied colors for the series sectors.
 chart.getChartData().getSeriesGroups().get_Item(0).setColorVaried(true);
 
 isChartDataPoint point = series.getDataPoints().get_Item(0);
@@ -172,15 +158,14 @@ point.getFormat().getLine().setWidth(3.0);
 point.getFormat().getLine().setStyle(LineStyle.ThinThick);
 point.getFormat().getLine().setDashStyle(LineDashStyle.DashDot);
 
-// ทำซ้ำสำหรับจุดข้อมูลอื่นด้วยสีและรูปแบบที่แตกต่างกัน
+// Repeat for other data points with different colors and styles.
 ```
 
-### กำหนดค่าป้ายข้อมูลที่กำหนดเอง
-ปรับแต่งป้ายกำกับสำหรับจุดข้อมูลแต่ละจุด:
+### Step 9: Configure Custom Data Labels
 ```java
 import com.aspose.slides.*;
 
-// กำหนดค่าฉลากที่กำหนดเอง
+// Configure custom labels.
 isDataLabel lbl1 = series.getDataPoints().get_Item(0).getLabel();
 lbl1.getDataLabelFormat().setShowValue(true);
 
@@ -193,25 +178,45 @@ isDataLabel lbl3 = series.getDataPoints().get_Item(2).getLabel();
 lbl3.getDataLabelFormat().setShowSeriesName(true);
 lbl3.getDataLabelFormat().setShowPercentage(true);
 
-// เปิดใช้งานเส้นผู้นำสำหรับป้ายกำกับ
+// Enable leader lines for labels.
 series.getLabels().getDefaultDataLabelFormat().setShowLeaderLines(true);
 ```
 
-### ตั้งค่ามุมการหมุนและบันทึกการนำเสนอ
-ทำให้แผนภูมิวงกลมของคุณเสร็จสิ้นโดยการตั้งค่ามุมการหมุนและบันทึกการนำเสนอ:
+### Step 10: Set Rotation Angle and **Save Presentation PPTX**
 ```java
 import com.aspose.slides.*;
 
-// ตั้งค่ามุมการหมุน
+// Set rotation angle.
 chart.getPlotArea().getPieChartTitle().getTextFrameForOverriding().setText("Sales Data");
 chart.setRotationAngle(-10);
 
-// บันทึกการนำเสนอลงในไฟล์
+// Save the presentation to a file.
 presentation.save("PieChartPresentation.pptx", SaveFormat.Pptx);
 ```
 
-## บทสรุป
-ในบทช่วยสอนนี้ คุณจะได้เรียนรู้วิธีสร้างและปรับแต่งแผนภูมิวงกลมโดยใช้ Aspose.Slides สำหรับ Java เมื่อทำตามขั้นตอนเหล่านี้แล้ว คุณจะสามารถปรับปรุงการนำเสนอของคุณด้วยการแสดงข้อมูลที่น่าสนใจ หากคุณมีคำถามหรือต้องการความช่วยเหลือเพิ่มเติม โปรดติดต่อเรา
+## Common Issues & Troubleshooting
+- **สีหายหลังการส่งออก** – ตรวจสอบว่าได้เรียก `setColorVaried(true)` ก่อนแก้ไขจุดข้อมูลแต่ละรายการ
+- **จุดข้อมูลไม่แสดง** – ยืนยันว่าหมวดหมู่และซีรีส์ถูกล้างก่อนเพิ่มใหม่ (ดูขั้นตอน 5)
+- **ลิขสิทธิ์ไม่ทำงาน** – โหลดไฟล์ลิขสิทธิ์ก่อนสร้างอ็อบเจกต์ `Presentation` เพื่อหลีกเลี่ยงลายน้ำเวอร์ชันทดลอง
+
+## Frequently Asked Questions
+
+**Q: สามารถใช้โค้ดนี้กับ JDK เวอร์ชันเก่าได้หรือไม่?**  
+A: ไลบTitle().addTextFrameForOverr สามารถส่งออกเป็นรูปแบบอื่นนอกจาก PPTX ได้หรือไม่?**  
+A: ได้ — Aspose, ODP และหลายรูปแบบภาพผ่าน enum `SaveFormat`
+
+**Q: ถ้าต้องการทำแอนิเมชันให้ส่วนของแผนภูมิวงกลมทำอย่างไร?**  
+A: ใช้ API `SlideShow` เพื่อเพิ่มการเปลี่ยนสไลด์หรือแอนิเมชันรูปทรงหลังจากสร้างแผนภูมิ
+
+**Q: Dependency ของ Maven Asp ที่จำเป็นโดยอัตโนมัติ; ไม่ต้องทำขั้นตอนเพิ่มเติม
+
+## Conclusion
+ตอนนี้คุณมีตัวอย่างเต็มรูปแบบพร้อมใช้งานในระดับ production ที่แสดง **วิธีปรับแต่งสีของแผนภูมิวงกลม**, เพิ่มหัวข้อแผนภูมิ, ทำงานกับจุด และให้สอดคล้องกับสไตล์แบรนด์ของคุณได้ตามต้องการ
+
+---
+
+**อัปเดตล่าสุด:** 2024 (JDK 16)  
+**ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

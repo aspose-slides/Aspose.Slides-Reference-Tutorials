@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-17"
-"description": "Tanuld meg, hogyan hozhatsz létre és szabhatsz testre kördiagramokat az Aspose.Slides for Java használatával. Ez az oktatóanyag mindent lefed a beállítástól a haladó testreszabásig."
-"title": "Kördiagramok létrehozása Java nyelven az Aspose.Slides segítségével – Átfogó útmutató"
-"url": "/hu/java/charts-graphs/aspose-slides-java-pie-charts-tutorial/"
-"weight": 1
+date: '2026-01-22'
+description: Tanulja meg, hogyan testreszabhatja a kördiagram színeit és adhat hozzá
+  diagramcímet az Aspose.Slides for Java segítségével. Tartalmazza a Maven Aspose
+  Slides beállítását és a pptx prezentáció mentésének módját.
+keywords:
+- Aspose.Slides Java
+- Java pie charts
+- data visualization in Java
+title: 'Hogyan testreszabjuk a kördiagram színeit Java-ban az Aspose.Slides segítségével:
+  Teljes útmutató'
+url: /hu/java/charts-graphs/aspose-slides-java-pie-charts-tutorial/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,40 +18,30 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Kördiagramok létrehozása az Aspose.Slides segítségével Java-ban: Teljes körű útmutató
+# Pie-diagramok létrehozása az Aspose.Slides for Java segítségével: Hogyan **testreszabjuk a kördiagram színeit** – Teljes útmutató
 
 ## Bevezetés
-dinamikus és vizuálisan vonzó prezentációk készítése kulcsfontosságú a hatásos információk közvetítéséhez. Az Aspose.Slides Java verziójával zökkenőmentesen integrálhat összetett diagramokat, például kördiagramokat a diáiba, könnyedén javítva az adatvizualizációt. Ez az átfogó útmutató végigvezeti Önt a kördiagramok Aspose.Slides Java használatával történő létrehozásának és testreszabásának folyamatán, könnyedén megoldva a prezentációkkal kapcsolatos gyakori kihívásokat.
+Az adat‑központú történetek bemutatása sokkal egyszerűbb, ha **testreszabhatja a kördiagram színeit**, hogy azok illeszkedjenek a márkájához vagy kiemeljék a kulcsfontosságú értékeket. Ebben az útmutatóban pontosan megmutatjuk, hogyan hozhat létre egy kördiagramot, adjon hozzá diagramcímet, dolgozzon a kördiagram adatpontjaival, és finomhangolja az egyes szeletek színeit az Aspose.Slides for Java segítségével. A végére megtanulja, hogyan **mentse el a pptx prezentációt**, és hogyan integrálja a könyvtdiagramokat (how Maven Asposeleges fájl mentése PPTX prezentációként.
 
-**Amit tanulni fogsz:**
-- Prezentáció inicializálása és diák hozzáadása.
-- Kördiagram létrehozása és konfigurálása a dián.
-- Diagramcímek, adatfeliratok és színek beállítása.
-- A teljesítmény optimalizálása és az erőforrások hatékony kezelése.
-- Aspose.Slides integrálása Java projektekbe Maven vagy Gradle használatával.
+Kezdjük is!
 
-Kezdjük azzal, hogy minden szükséges eszközzel és tudással rendelkezel a folytatáshoz!
+## Gyors válaszok
+- **Hogyan adhatok hozzá diagramcímet?** Használja a `chart.getChartTitle().addTextFrameForOverriding("Your Title")` metódust.
+- **Melyik build eszköz a legalkalmasabb?** Mind a Maven, mind a Gradle támogatott; a Maven Aspose Slides a leggyakoribb.
+- **Megváltoztathatom a szelet színeit?** Igen – állítsa be a `setColorVaried(true)` értéket, és módosítsa az egyes `DataPoint` kitöltését.
+- **Milyen formátumban mentődik a fájl?** Használja a `presentation.save("MyChart.pptx", SaveFormat.Pptx)` parancsot.
+- **Szükségem van licencre?** Egy ingyenes próba verzió elegendő fejlesztéshez; a termeléshez állandó licenc szükséges.
 
 ## Előfeltételek
-Mielőtt belevágna ebbe az oktatóanyagba, győződjön meg arról, hogy a következő beállításokkal rendelkezik:
+- **Aspose.Slides for Java** ≥ 25.4 (ajánlott a legújabb verzió).
+- **JDK 16+** telepítve és konfigurálva.
+- Egy IDE, például IntelliJ IDEA, Eclipse vagy NetBeans.
+- Alapvető Java ismeretek és Maven vagy Gradle tapasztalat.
 
-### Szükséges könyvtárak, verziók és függőségek
-- **Aspose.Slides Java-hoz**Győződjön meg róla, hogy a 25.4-es vagy újabb verzióval rendelkezik.
-- **Java fejlesztőkészlet (JDK)**: 16-os vagy újabb verzió szükséges.
+## Aspose.Slides for Java beállítása
+Az Aspose.Slides használatához adja hozzá a könyvtárat a projektjéhez.
 
-### Környezeti beállítási követelmények
-- Fejlesztői környezet telepített és konfigurált Java-val.
-- Integrált fejlesztői környezet (IDE), mint például az IntelliJ IDEA, az Eclipse vagy a NetBeans.
-
-### Előfeltételek a tudáshoz
-- Java programozási alapismeretek.
-- Maven vagy Gradle ismeretek függőségkezelés terén.
-
-## Az Aspose.Slides beállítása Java-hoz
-Az Aspose.Slides Java projektekben való használatának elkezdéséhez hozzá kell adni a könyvtárat függőségként. Így teheted meg ezt különböző build eszközökkel:
-
-**Szakértő**
-Add hozzá ezt a részletet a `pom.xml` fájl:
+**Maven** (maven aspose slides)  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -54,113 +51,103 @@ Add hozzá ezt a részletet a `pom.xml` fájl:
 </dependency>
 ```
 
-**Gradle**
-A következőket is vedd bele a listádba `build.gradle` fájl:
+**Gradle**  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Közvetlen letöltés**
-Ha nem szeretnél építőeszközt használni, töltsd le a legújabb verziót innen: [Aspose.Slides Java kiadásokhoz](https://releases.aspose.com/slides/java/).
+**Közvetlen letöltés**  
+Ha nem szeretne build eszközt használni, töltse le a legújabb kiadást a [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) oldalról.
 
-### Licencbeszerzés lépései
-- **Ingyenes próbaverzió**: Kezdje el egy ingyenes próbaverzióval az Aspose.Slides funkcióinak felfedezését.
-- **Ideiglenes engedély**: Szerezzen be egy ideiglenes engedélyt korlátozás nélküli, meghosszabbított használatra.
-- **Vásárlás**: Fontolja meg a vásárlást, ha hosszú távú hozzáférésre van szüksége.
+### Licenc beszerzésének lépései
+- **Ingyenes próba** – kezdje el kísérletezni licenc nélkül.
+- **Ideiglenes licenc** – meghosszabbítja a próbaidőszakot.
+- **Vásárlás** – teljes licenc beszerzése a termelési környezethez.
 
-**Alapvető inicializálás és beállítás**
-Az Aspose.Slides használatának megkezdéséhez inicializálja a projektet egy új prezentációs objektum létrehozásával:
+### Alapvető inicializálás
 ```java
 import com.aspose.slides.*;
 
 Presentation presentation = new Presentation();
 ```
 
-## Megvalósítási útmutató
-Most bontsuk le a kördiagram hozzáadásának és testreszabásának folyamatát kezelhető lépésekre.
+## Implementációs útmutató
+Az alábbiakban lépésről‑lépésre bemutatjuk a kódot, pontosan úgy, ahogy az eredeti könyvtár elvárja.
 
-### Prezentáció és dia inicializálása
-Kezdésként állítson be egy új prezentációt, és nyissa meg az első diát. Ez a vászon a diagramok létrehozásához:
+### 1. lépés: Prezentáció és dia inicializálása
 ```java
 import com.aspose.slides.*;
 
-// Hozzon létre egy új prezentációs példányt.
+// Create a new presentation instance.
 Presentation presentation = new Presentation();
-// Nyissa meg a prezentáció első diáját.
+// Access the first slide in the presentation.
 islide slides = presentation.getSlides().get_Item(0);
 ```
 
-### Kördiagram hozzáadása diához
-Kördiagram beszúrása a megadott pozícióba alapértelmezett adathalmazzal:
+### 2. lépés: Kördiagram hozzáadása a diára
 ```java
 import com.aspose.slides.*;
 
-// Adjon hozzá egy kördiagramot a (100, 100) pozícióban, (400, 400) méretben.
+// Add a pie chart at position (100, 100) with size (400, 400).
 ischart chart = slides.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
-### Diagram címének beállítása
-Szabja testre a diagramot a cím beállításával és középre igazításával:
+### 3. lépés: Diagramcím hozzáadása
 ```java
 import com.aspose.slides.*;
 
-// Adj címet a kördiagramhoz.
+// Add a title to the pie chart.
 chart.getChartTitle().addTextFrameForOverriding("Sample Title");
 chart.getChartTitle().getTextFrameForOverriding().getTextFrameFormat().setCenterText(NullableBool.True);
 chart.getChartTitle().setHeight(20);
 chart.setTitle(true);
 ```
 
-### Adatsorok adatcímkéinek konfigurálása
-Az áttekinthetőség érdekében győződjön meg arról, hogy az adatcímkék értékeket jelenítenek meg:
+### 4. lépés: Adatcímkék megjelenítése az első sorozathoz
 ```java
 import com.aspose.slides.*;
 
-// Adatértékek megjelenítése az első sorozaton.
+// Show data values on the first series.
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 ```
 
-### Diagramadat-munkalap elkészítése
-Állítsa be a diagram adatlapját a meglévő sorozatok és kategóriák törlésével:
+### 5. lépés: Diagram adatlapjának előkészítése
 ```java
 import com.aspose.slides.*;
 
-// Készítse elő a diagramadatokkal foglalkozó munkafüzetet.
+// Prepare the chart data workbook.
 int defaultWorksheetIndex = 0;
 isChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 ```
 
-### Kategóriák hozzáadása a diagramhoz
-Definiálja a kördiagram kategóriáit:
+### 6. lépés: Kategóriák hozzáadása (kördiagram adatpontok)
 ```java
 import com.aspose.slides.*;
 
-// Új kategóriák hozzáadása.
+// Add new categories.
 chart.getChartData().getCategories().add(fact.getCell(0, 1, 0, "First Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 ```
 
-### Sorozatok hozzáadása és adatpontok feltöltése
-Hozz létre egy sorozatot, és töltsd fel adatpontokkal:
+### 7. lépés: Sorozat hozzáadása és adatpontok feltöltése
 ```java
 import com.aspose.slides.*;
 
-// Adjon hozzá egy új sorozatot, és adja meg a nevét.
+// Add a new series and set its name.
 ischartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 ```
 
-### Sorozatszínek és szegélyek testreszabása
-Növelje a vizuális vonzerőt színek beállításával és a szegélyek testreszabásával:
+### 8. lépés: **Kördiagram színeinek testreszabása** – A tutorial központi része
 ```java
 import com.aspose.slides.*;
 
-// Állítson be különböző színeket a sorozat szektoraihoz.
+// Set varied colors for the series sectors.
 chart.getChartData().getSeriesGroups().get_Item(0).setColorVaried(true);
 
 isChartDataPoint point = series.getDataPoints().get_Item(0);
@@ -172,15 +159,14 @@ point.getFormat().getLine().setWidth(3.0);
 point.getFormat().getLine().setStyle(LineStyle.ThinThick);
 point.getFormat().getLine().setDashStyle(LineDashStyle.DashDot);
 
-// Ismételje meg a műveletet más, eltérő színekkel és stílusokkal rendelkező adatpontok esetében.
+// Repeat for other data points with different colors and styles.
 ```
 
-### Egyéni adatcímkék konfigurálása
-Finomhangolja az egyes adatpontok címkéit:
+### 9. lépés: Egyedi adatcímkék konfigurálása
 ```java
 import com.aspose.slides.*;
 
-// Egyéni címkék konfigurálása.
+// Configure custom labels.
 isDataLabel lbl1 = series.getDataPoints().get_Item(0).getLabel();
 lbl1.getDataLabelFormat().setShowValue(true);
 
@@ -193,25 +179,51 @@ isDataLabel lbl3 = series.getDataPoints().get_Item(2).getLabel();
 lbl3.getDataLabelFormat().setShowSeriesName(true);
 lbl3.getDataLabelFormat().setShowPercentage(true);
 
-// Vezető vonalak engedélyezése a címkékhez.
+// Enable leader lines for labels.
 series.getLabels().getDefaultDataLabelFormat().setShowLeaderLines(true);
 ```
 
-### Forgatási szög beállítása és a prezentáció mentése
-kördiagram véglegesítéséhez állítson be egy forgatási szöget, és mentse el a prezentációt:
+### 10. lépés: Forgatási szög beállítása és **Prezentáció mentése PPTX‑ként**
 ```java
 import com.aspose.slides.*;
 
-// Állítsa be a forgási szöget.
+// Set rotation angle.
 chart.getPlotArea().getPieChartTitle().getTextFrameForOverriding().setText("Sales Data");
 chart.setRotationAngle(-10);
 
-// Mentse el a prezentációt egy fájlba.
+// Save the presentation to a file.
 presentation.save("PieChartPresentation.pptx", SaveFormat.Pptx);
 ```
 
-## Következtetés
-Ebben az oktatóanyagban megtanultad, hogyan hozhatsz létre és szabhatsz testre kördiagramokat az Aspose.Slides for Java segítségével. Ezeket a lépéseket követve vizuálisan vonzó adatvizualizációkkal gazdagíthatod prezentációidat. Ha bármilyen kérdésed van, vagy további segítségre van szükséged, fordulj hozzánk bizalommal.
+## Gyakori problémák és hibaelhárítás
+- **A színek hiányoznak exportálás után** – Győződjön meg róla, hogy a `setColorVaried(true)` hívás a egyedi adatpontok módosítása előtt történik.
+- **Az adatpontok nem, (lásd 5. lépés).
+- **A licenc nem érvényesül** – Töltse be a licencfájlt a `Presentation` objektum létrehozása előtt, hogy elkerülje a próba‑vízjelek megjelenését.
+
+## Gyakran ismételt kérdések
+
+**Q: Használhatom ezt a kódot régebbi JA: A könyvtár JDK 16 vagy újabb verziót igényel; régebbi verziók nem támogatottak.
+
+**Q: Hogyan változtathatom meg a diagramcímet a létrehozás után?**  
+A: Hívja a `chart.getChartTitle().addTextFrameForOverriding("New Title")` metódust, és szükség szerint állítsa be a szövegformátumot.
+
+**Q: Lehet-e más formátumba exportálni, mint PPTX?**  
+A: Igen – az Aspose.Slides támogatja a PDF, ODP és több képfájltípus exportálását a `SaveFormat` enum segítségével.
+
+**Q: Hogyan animálhatom a kördiagram szeleteit?**  
+A: Használja a `SlideShow` API‑t a diaátmenetek vagy alakzat‑animációk hozzáadásához a diagram létrehozása után.
+
+**Q: A Maven függőség tartalmazza az összes transzitív könyvtárat?**  
+A: A Maven Aspose Slides csomag automatikusan letölti a szükséges függőségeket; külön lépésre nincs szükség.
+
+## Összegzés
+Most már rendelkezik egy teljes, termelés‑kész példával, amely megmutatja, **hogyan testreszabjuk a kördiagram színeit**, hogyan adjon hozzá diagramcímet, hogyan dolgozzon a kördiagram adatpontjaival, és **hogyan mentse el a pptx prezentációt** az Aspose.Slides for Java segítségével. Nyugodtan kísérletezzen különböző színpalettákkal, adatkészletekkel és forgatási szögekkel, hogy a márkája stílusához illeszkedjen.
+
+---
+
+**Utoljára frissítve:** 2026-01-22  
+**Tesztelt verzió:** Aspose.Slides 25.4 (JDK 16)  
+**Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

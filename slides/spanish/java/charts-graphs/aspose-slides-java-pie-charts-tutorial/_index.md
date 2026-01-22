@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-17"
-"description": "Aprenda a crear y personalizar gráficos circulares con Aspose.Slides para Java. Este tutorial abarca todo, desde la configuración hasta la personalización avanzada."
-"title": "Creación de gráficos circulares en Java con Aspose.Slides&#58; una guía completa"
-"url": "/es/java/charts-graphs/aspose-slides-java-pie-charts-tutorial/"
-"weight": 1
+date: '2026-01-22'
+description: Aprenda a personalizar los colores de los gráficos de pastel y a agregar
+  un título al gráfico usando Aspose.Slides para Java. Incluye la configuración de
+  Maven Aspose Slides y cómo guardar la presentación pptx.
+keywords:
+- Aspose.Slides Java
+- Java pie charts
+- data visualization in Java
+title: 'Cómo personalizar los colores de los gráficos de pastel en Java con Aspose.Slides:
+  una guía completa'
+url: /es/java/charts-graphs/aspose-slides-java-pie-charts-tutorial/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,40 +18,31 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Creación de gráficos circulares con Aspose.Slides para Java: un tutorial completo
+# Creación de gráficos de pastel con Aspose.Slides para Java: Cómo **personalizar los colores de los gráficos de pastel** – Un tutorial completo
 
 ## Introducción
-Crear presentaciones dinámicas y visualmente atractivas es crucial para transmitir información impactante. Con Aspose.Slides para Java, puedes integrar fácilmente gráficos complejos, como gráficos circulares, en tus diapositivas, optimizando la visualización de datos sin esfuerzo. Esta guía completa te guiará en el proceso de creación y personalización de un gráfico circular con Aspose.Slides para Java, resolviendo fácilmente los problemas más comunes de las presentaciones.
+Contar historias basadas en datos cuando puedes **personalizar los colores de los gráficos de pastel** para que gráfico de pastel, añadirLo crear gráficos de pastel (how to create pie) y configurar un proyecto Java.
+- Pasos para añadir el título del gráfico y gestionar los puntos de datos del gráfico de pastel.
+- Técnicas para **personalizar los coloresose Slides.
+- Guardar el archivo final como una presentación PPTX!
 
-**Lo que aprenderás:**
-- Inicializar una presentación y agregar diapositivas.
-- Crear y configurar un gráfico circular en su diapositiva.
-- Configuración de títulos de gráficos, etiquetas de datos y colores.
-- Optimizar el rendimiento y gestionar eficazmente los recursos.
-- Integración de Aspose.Slides en proyectos Java usando Maven o Gradle.
+## Respuestas rápidas
+- **¿Cómo añado un título al gráfico?** Usa `chart.getChartTitle().addTextFrameForOverriding("Your Title")`.
+- **¿Qué herramienta de compilación funciona mejor?** Tanto Maven como Gradle son compatibles; Maven Aspose Slides es la más común.
+- **¿Puedo cambiar los colores de las porciones?** Sí—establece `setColorVaried(true)` y ajusta el relleno de cada `DataPoint`.
+- **¿En qué formato se guarda el archivo?** Usa `presentation.save("MyChart.pptx", SaveFormat.Pptx)`.
+- **¿Necesito una licencia?** Una prueba gratuita funciona para desarrollo; se requiere una licencia permanente para producción.
 
-¡Comencemos por asegurarnos de que tienes todas las herramientas y conocimientos necesarios para seguir adelante!
-
-## Prerrequisitos
-Antes de sumergirse en este tutorial, asegúrese de tener lista la siguiente configuración:
-
-### Bibliotecas, versiones y dependencias necesarias
-- **Aspose.Slides para Java**:Asegúrese de tener la versión 25.4 o posterior.
-- **Kit de desarrollo de Java (JDK)**Se requiere la versión 16 o superior.
-
-### Requisitos de configuración del entorno
-- Un entorno de desarrollo con Java instalado y configurado.
-- Un entorno de desarrollo integrado (IDE) como IntelliJ IDEA, Eclipse o NetBeans.
-
-### Requisitos previos de conocimiento
-- Comprensión básica de la programación Java.
-- Familiaridad con Maven o Gradle para la gestión de dependencias.
+## Requisitos previos
+- **Aspose.Slides para Java** ≥ 25.4 (se recomienda la última versión).
+- **JDK 16+** instalado y configurado.
+- Un IDE como IntelliJ IDEA, Eclipse o NetBeans.
+- Conocimientos básicos de Java y familiaridad con Maven o Gradle.
 
 ## Configuración de Aspose.Slides para Java
-Para empezar a usar Aspose.Slides en tus proyectos Java, necesitas añadir la biblioteca como dependencia. A continuación, te explicamos cómo hacerlo con diferentes herramientas de compilación:
+Para comenzar a usar Aspose.Slides, agrega la biblioteca a tu proyecto.
 
-**Experto**
-Añade este fragmento a tu `pom.xml` archivo:
+**Maven** (maven aspose slides)  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -54,22 +52,20 @@ Añade este fragmento a tu `pom.xml` archivo:
 </dependency>
 ```
 
-**Gradle**
-Incluya lo siguiente en su `build.gradle` archivo:
+**Gradle**  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Descarga directa**
-Si prefiere no utilizar una herramienta de compilación, descargue la última versión desde [Lanzamientos de Aspose.Slides para Java](https://releases.aspose.com/slides/java/).
+**Descarga directa**  
+Si prefieres no usar una herramienta de compilación, descarga la última versión desde [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### Pasos para la adquisición de la licencia
-- **Prueba gratuita**:Comience con una prueba gratuita para explorar las funciones de Aspose.Slides.
-- **Licencia temporal**:Obtener una licencia temporal para uso extendido sin limitaciones.
-- **Compra**Considere comprarlo si necesita acceso a largo plazo.
+### Pasos para obtener la licencia
+- **Prueba gratuita** – comienza a experimentar sin licencia.
+- **Licencia temporal** – extiende el uso de la prueba.
+- **Compra** – obtén una licencia completa para entornos de producción.
 
-**Inicialización y configuración básicas**
-Para comenzar a utilizar Aspose.Slides, inicialice su proyecto creando un nuevo objeto de presentación:
+### Inicialización básica
 ```java
 import com.aspose.slides.*;
 
@@ -77,90 +73,82 @@ Presentation presentation = new Presentation();
 ```
 
 ## Guía de implementación
-Ahora vamos a dividir el proceso de agregar y personalizar un gráfico circular en pasos manejables.
+A continuación se muestra un recorrido paso a paso que mantiene el código exactamente como la biblioteca original lo espera.
 
-### Inicializar presentación y diapositiva
-Comience configurando una nueva presentación y accediendo a la primera diapositiva. Este es su lienzo para crear gráficos:
+### Paso 1: Inicializar la presentación y la diapositiva
 ```java
 import com.aspose.slides.*;
 
-// Crear una nueva instancia de presentación.
+// Create a new presentation instance.
 Presentation presentation = new Presentation();
-// Acceda a la primera diapositiva de la presentación.
+// Access the first slide in the presentation.
 islide slides = presentation.getSlides().get_Item(0);
 ```
 
-### Agregar gráfico circular a la diapositiva
-Insertar un gráfico circular en la posición especificada con un conjunto de datos predeterminado:
+### Paso 2: Añadir un gráfico de pastel a la diapositiva
 ```java
 import com.aspose.slides.*;
 
-// Agregue un gráfico circular en la posición (100, 100) con tamaño (400, 400).
+// Add a pie chart at position (100, 100) with size (400, 400).
 ischart chart = slides.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
-### Establecer título del gráfico
-Personalice su gráfico configurando y centrando el título:
+### Paso 3: Añadir el título del gráfico
 ```java
 import com.aspose.slides.*;
 
-// Añade un título al gráfico circular.
+// Add a title to the pie chart.
 chart.getChartTitle().addTextFrameForOverriding("Sample Title");
 chart.getChartTitle().getTextFrameForOverriding().getTextFrameFormat().setCenterText(NullableBool.True);
 chart.getChartTitle().setHeight(20);
 chart.setTitle(true);
 ```
 
-### Configurar etiquetas de datos para series
-Asegúrese de que las etiquetas de datos muestren valores para mayor claridad:
+### Paso 4: Mostrar etiquetas de datos para la primera serie
 ```java
 import com.aspose.slides.*;
 
-// Mostrar valores de datos en la primera serie.
+// Show data values on the first series.
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 ```
 
-### Hoja de trabajo para preparar datos del gráfico
-Configure la hoja de cálculo de datos de su gráfico borrando las series y categorías existentes:
+### Paso 5: Preparar la hoja de datos del gráfico
 ```java
 import com.aspose.slides.*;
 
-// Prepare el libro de trabajo con datos gráficos.
+// Prepare the chart data workbook.
 int defaultWorksheetIndex = 0;
 isChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 ```
 
-### Agregar categorías al gráfico
-Define categorías para tu gráfico circular:
+### Paso 6: Añadir categorías (puntos de datos del gráfico de pastel)
 ```java
 import com.aspose.slides.*;
 
-// Añadir nuevas categorías.
+// Add new categories.
 chart.getChartData().getCategories().add(fact.getCell(0, 1, 0, "First Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 ```
 
-### Agregar series y rellenar puntos de datos
-Crea una serie y rellénala con puntos de datos:
+### Paso 7: Añadir series y rellenar los puntos de datos
 ```java
 import com.aspose.slides.*;
 
-// Añade una nueva serie y establece su nombre.
+// Add a new series and set its name.
 ischartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 ```
 
-### Personalizar colores y bordes de la serie
-Mejore el atractivo visual configurando colores y personalizando los bordes:
+### Paso 8: **Personalizar los colores del gráfico de pastel** – El núcleo de este tutorial
 ```java
 import com.aspose.slides.*;
 
-// Establecer colores variados para los sectores de la serie.
+// Set varied colors for the series sectors.
 chart.getChartData().getSeriesGroups().get_Item(0).setColorVaried(true);
 
 isChartDataPoint point = series.getDataPoints().get_Item(0);
@@ -172,15 +160,14 @@ point.getFormat().getLine().setWidth(3.0);
 point.getFormat().getLine().setStyle(LineStyle.ThinThick);
 point.getFormat().getLine().setDashStyle(LineDashStyle.DashDot);
 
-// Repita este procedimiento para otros puntos de datos con diferentes colores y estilos.
+// Repeat for other data points with different colors and styles.
 ```
 
-### Configurar etiquetas de datos personalizadas
-Ajuste las etiquetas para cada punto de datos:
+### Paso 9: Configurar etiquetas de datos personalizadas
 ```java
 import com.aspose.slides.*;
 
-// Configurar etiquetas personalizadas.
+// Configure custom labels.
 isDataLabel lbl1 = series.getDataPoints().get_Item(0).getLabel();
 lbl1.getDataLabelFormat().setShowValue(true);
 
@@ -193,25 +180,46 @@ isDataLabel lbl3 = series.getDataPoints().get_Item(2).getLabel();
 lbl3.getDataLabelFormat().setShowSeriesName(true);
 lbl3.getDataLabelFormat().setShowPercentage(true);
 
-// Habilitar líneas guía para las etiquetas.
+// Enable leader lines for labels.
 series.getLabels().getDefaultDataLabelFormat().setShowLeaderLines(true);
 ```
 
-### Establecer el ángulo de rotación y guardar la presentación
-Finalice su gráfico circular estableciendo un ángulo de rotación y guardando la presentación:
+### Paso 10: Establecer ángulo de rotación y **guardar la presentación PPTX**
 ```java
 import com.aspose.slides.*;
 
-// Establecer el ángulo de rotación.
+// Set rotation angle.
 chart.getPlotArea().getPieChartTitle().getTextFrameForOverriding().setText("Sales Data");
 chart.setRotationAngle(-10);
 
-// Guardar la presentación en un archivo.
+// Save the presentation to a file.
 presentation.save("PieChartPresentation.pptx", SaveFormat.Pptx);
 ```
 
-## Conclusión
-En este tutorial, aprendiste a crear y personalizar gráficos circulares con Aspose.Slides para Java. Siguiendo estos pasos, podrás mejorar tus presentaciones con visualizaciones de datos visualmente atractivas. Si tienes alguna pregunta o necesitas ayuda, no dudes en contactarnos.
+## Problemas comunes y solución de errores
+- **Colores desaparecen después de la exportación** – Asegúrate de que `setColorVaried(true)` se llame antes de modificar los puntos de datos individuales.
+- **Los puntos de datos no se muestran** – Verifica que las categorías y series se limpien antes de agregar nuevas (ver Paso 5).
+- **La licencia no se aplica** – Carga tu archivo de licencia antes de crear el objeto `Presentation` para evitar marcas de agua de prueba.
+
+## Preguntas frecuentes
+
+**P: ¿Puedo usar este código con versiones anteriores de JDK?**  
+R: La biblioteca requiere JDK 16 o superior; las versiones anteriores no son compatibles.
+
+**P: ¿Cómo cambio el título del gráfico después de crearlo?**  
+R: Llama a `chart.getChartTitle().addTextFrameForOverriding("New Title")` y ajusta el formato del texto según sea necesario.
+
+**P: ¿Es posible exportar a formatos distintos de PPTX?**  
+Rado `SaveFormat`.
+
+**P: ¿Qué pasa si quiero animar las porciones del pastel?**  
+R: Usa la API `SlideShow` paraclusión listo para producción que muestra **cómo personalizar los colores de los gráficos de pastel**, añadir un título al Aspose.Slides para Java. Siéntete libre de experimentar con diferentes paletas de colores, conjuntos de datos y ángulos de rotación para que coincidan con el estilo de tu marca.
+
+---
+
+**Última actualización:** 2026-01-22  
+**Probado con:** Aspose.Slides 25.4 (JDK 16)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

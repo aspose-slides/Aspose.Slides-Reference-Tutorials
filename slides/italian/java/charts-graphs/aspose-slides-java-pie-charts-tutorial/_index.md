@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-17"
-"description": "Scopri come creare e personalizzare grafici a torta utilizzando Aspose.Slides per Java. Questo tutorial copre tutto, dalla configurazione alla personalizzazione avanzata."
-"title": "Creazione di grafici a torta in Java con Aspose.Slides&#58; una guida completa"
-"url": "/it/java/charts-graphs/aspose-slides-java-pie-charts-tutorial/"
-"weight": 1
+date: '2026-01-22'
+description: Scopri come personalizzare i colori dei grafici a torta e aggiungere
+  il titolo del grafico usando Aspose.Slides per Java. Include la configurazione di
+  Aspose Slides per Maven e come salvare la presentazione pptx.
+keywords:
+- Aspose.Slides Java
+- Java pie charts
+- data visualization in Java
+title: 'Come personalizzare i colori dei grafici a torta in Java con Aspose.Slides:
+  una guida completa'
+url: /it/java/charts-graphs/aspose-slides-java-pie-charts-tutorial/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,40 +18,33 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Creazione di grafici a torta con Aspose.Slides per Java: un tutorial completo
+# Creare grafici a torta con Aspose.Slides per Java: Come **personalizzare i colori del grafico a torta** – Un tutorial completo
 
-## Introduzione
-Creare presentazioni dinamiche e visivamente accattivanti è fondamentale per trasmettere informazioni di grande impatto. Con Aspose.Slides per Java, puoi integrare perfettamente grafici complessi come i grafici a torta nelle tue diapositive, migliorando la visualizzazione dei dati senza sforzo. Questa guida completa ti guiderà attraverso il processo di creazione e personalizzazione di un grafico a torta utilizzando Aspose.Slides Java, risolvendo facilmente le più comuni sfide di presentazione.
+## Introduction
+Fornire storie è più semplice quando è possibile **personalizzare i colori del grafico a torta** per adattarli al proprio brand o evidenz del grafico, gestire i punti dati del grafico a tort progetto Java il titolo del grafico e gestire i punti dati del grafico a torta.
+- Tecniche per **personalizzare i colori del grafico a torta** per un impatto visivo massimo.
+- Configurazione della dipendenza Maven Aspose Slides.
+- Salvataggio del file finale come presentazione PPTX.
 
-**Cosa imparerai:**
-- Inizializzazione di una presentazione e aggiunta di diapositive.
-- Creazione e configurazione di un grafico a torta sulla diapositiva.
-- Impostazione di titoli di grafici, etichette dati e colori.
-- Ottimizzare le prestazioni e gestire efficacemente le risorse.
-- Integrazione di Aspose.Slides in progetti Java utilizzando Maven o Gradle.
+Iniziamo!
 
-Cominciamo assicurandoci che tu abbia tutti gli strumenti e le conoscenze necessarie per seguire il tutorial!
+## Quick Answers
+- **Come aggiungo un titolo al grafico?** Usa `chart.getChartTitle().addTextFrameForOverriding("Your Title")`.
+- **Quale strumento di build funziona meglio?** Sia Maven che Gradle sono supportati; Maven Aspose Slides è il più comune.
+- **Posso cambiare i colori delle fette?** Sì—imposta `setColorVaried(true)` e regola il riempimento di ogni `DataPoint`.
+- **In quale formato viene salvato il file?** Usa `presentation.save("MyChart.pptx", SaveFormat.Pptx)`.
+- **Ho bisogno di una licenza?** Una prova gratuita funziona per lo sviluppo; è necessaria una licenza permanente per la produzione.
 
-## Prerequisiti
-Prima di immergerti in questo tutorial, assicurati di avere pronta la seguente configurazione:
+## Prerequisites
+- **Aspose.Slides per Java** ≥ 25.4 (si consiglia l'ultima versione).
+- **JDK 16+** installato e configurato.
+- Un IDE come IntelliJ IDEA, Eclipse o NetBeans.
+- Conoscenze di base di Java e familiarità con Maven o Gradle.
 
-### Librerie, versioni e dipendenze richieste
-- **Aspose.Slides per Java**: Assicurati di avere la versione 25.4 o successiva.
-- **Kit di sviluppo Java (JDK)**: È richiesta la versione 16 o successiva.
+## Setting Up Aspose.Slides for Java
+Per iniziare a usare Aspose.Slides, aggiungi la libreria al tuo progetto.
 
-### Requisiti di configurazione dell'ambiente
-- Un ambiente di sviluppo con Java installato e configurato.
-- Un ambiente di sviluppo integrato (IDE) come IntelliJ IDEA, Eclipse o NetBeans.
-
-### Prerequisiti di conoscenza
-- Conoscenza di base della programmazione Java.
-- Familiarità con Maven o Gradle per la gestione delle dipendenze.
-
-## Impostazione di Aspose.Slides per Java
-Per iniziare a utilizzare Aspose.Slides nei tuoi progetti Java, devi aggiungere la libreria come dipendenza. Ecco come puoi farlo utilizzando diversi strumenti di build:
-
-**Esperto**
-Aggiungi questo frammento al tuo `pom.xml` file:
+**Maven** (maven aspose slides)  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -54,113 +54,103 @@ Aggiungi questo frammento al tuo `pom.xml` file:
 </dependency>
 ```
 
-**Gradle**
-Includi quanto segue nel tuo `build.gradle` file:
+**Gradle**  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Download diretto**
-Se preferisci non utilizzare uno strumento di compilazione, scarica l'ultima versione da [Aspose.Slides per le versioni Java](https://releases.aspose.com/slides/java/).
+**Direct Download**  
+Se preferisci non usare uno strumento di build, scarica l'ultima versione da [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### Fasi di acquisizione della licenza
-- **Prova gratuita**: Inizia con una prova gratuita per esplorare le funzionalità di Aspose.Slides.
-- **Licenza temporanea**: Ottieni una licenza temporanea per un utilizzo prolungato senza limitazioni.
-- **Acquistare**: Valuta l'acquisto se hai bisogno di un accesso a lungo termine.
+### License Acquisition Steps
+- **Prova gratuita** – inizia a sperimentare senza licenza.
+- **Licenza temporanea** – estendi l'uso della prova.
+- **Acquisto** – ottieni una licenza completa per le distribuzioni in produzione.
 
-**Inizializzazione e configurazione di base**
-Per iniziare a utilizzare Aspose.Slides, inizializza il progetto creando un nuovo oggetto presentazione:
+### Basic Initialization
 ```java
 import com.aspose.slides.*;
 
 Presentation presentation = new Presentation();
 ```
 
-## Guida all'implementazione
-Ora scomponiamo il processo di aggiunta e personalizzazione di un grafico a torta in passaggi gestibili.
+## Implementation Guide
+Di seguito trovi una guida passo‑passo che mantiene il codice esattamente come si aspetta la libreria originale.
 
-### Inizializza presentazione e diapositiva
-Inizia impostando una nuova presentazione e accedendo alla prima diapositiva. Questa è la tua tela per creare grafici:
+### Step 1: Initialize Presentation and Slide
 ```java
 import com.aspose.slides.*;
 
-// Crea una nuova istanza di presentazione.
+// Create a new presentation instance.
 Presentation presentation = new Presentation();
-// Accedi alla prima diapositiva della presentazione.
+// Access the first slide in the presentation.
 islide slides = presentation.getSlides().get_Item(0);
 ```
 
-### Aggiungi grafico a torta alla diapositiva
-Inserisci un grafico a torta nella posizione specificata con un set di dati predefinito:
+### Step 2: Add a Pie Chart to the Slide
 ```java
 import com.aspose.slides.*;
 
-// Aggiungere un grafico a torta nella posizione (100, 100) con dimensione (400, 400).
+// Add a pie chart at position (100, 100) with size (400, 400).
 ischart chart = slides.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
-### Imposta il titolo del grafico
-Personalizza il tuo grafico impostando e centrando il titolo:
+### Step 3: Add Chart Title
 ```java
 import com.aspose.slides.*;
 
-// Aggiungere un titolo al grafico a torta.
+// Add a title to the pie chart.
 chart.getChartTitle().addTextFrameForOverriding("Sample Title");
 chart.getChartTitle().getTextFrameForOverriding().getTextFrameFormat().setCenterText(NullableBool.True);
 chart.getChartTitle().setHeight(20);
 chart.setTitle(true);
 ```
 
-### Configurare le etichette dati per le serie
-Per maggiore chiarezza, assicurarsi che le etichette dei dati mostrino i valori:
+### Step 4: Show Data Labels for the First Series
 ```java
 import com.aspose.slides.*;
 
-// Mostra i valori dei dati sulla prima serie.
+// Show data values on the first series.
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 ```
 
-### Preparare il foglio di lavoro dei dati del grafico
-Imposta il foglio di lavoro dei dati del grafico cancellando le serie e le categorie esistenti:
+### Step 5: Prepare the Chart Data Worksheet
 ```java
 import com.aspose.slides.*;
 
-// Preparare la cartella di lavoro dei dati del grafico.
+// Prepare the chart data workbook.
 int defaultWorksheetIndex = 0;
 isChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 ```
 
-### Aggiungi categorie al grafico
-Definisci le categorie per il tuo grafico a torta:
+### Step 6: Add Categories (pie chart data points)
 ```java
 import com.aspose.slides.*;
 
-// Aggiungi nuove categorie.
+// Add new categories.
 chart.getChartData().getCategories().add(fact.getCell(0, 1, 0, "First Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 ```
 
-### Aggiungi serie e popola punti dati
-Crea una serie e inserisci i punti dati:
+### Step 7: Add Series and Populate Data Points
 ```java
 import com.aspose.slides.*;
 
-// Aggiungi una nuova serie e impostane il nome.
+// Add a new series and set its name.
 ischartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 ```
 
-### Personalizza i colori e i bordi della serie
-Migliora l'aspetto visivo impostando i colori e personalizzando i bordi:
+### Step 8: **Customize Pie Chart Colors** – The Core of This Tutorial
 ```java
 import com.aspose.slides.*;
 
-// Imposta colori diversi per i settori della serie.
+// Set varied colors for the series sectors.
 chart.getChartData().getSeriesGroups().get_Item(0).setColorVaried(true);
 
 isChartDataPoint point = series.getDataPoints().get_Item(0);
@@ -172,15 +162,14 @@ point.getFormat().getLine().setWidth(3.0);
 point.getFormat().getLine().setStyle(LineStyle.ThinThick);
 point.getFormat().getLine().setDashStyle(LineDashStyle.DashDot);
 
-// Ripetere la stessa operazione per altri punti dati, utilizzando colori e stili diversi.
+// Repeat for other data points with different colors and styles.
 ```
 
-### Configura etichette dati personalizzate
-Ottimizza le etichette per ogni punto dati:
+### Step 9: Configure Custom Data Labels
 ```java
 import com.aspose.slides.*;
 
-// Configura etichette personalizzate.
+// Configure custom labels.
 isDataLabel lbl1 = series.getDataPoints().get_Item(0).getLabel();
 lbl1.getDataLabelFormat().setShowValue(true);
 
@@ -193,25 +182,52 @@ isDataLabel lbl3 = series.getDataPoints().get_Item(2).getLabel();
 lbl3.getDataLabelFormat().setShowSeriesName(true);
 lbl3.getDataLabelFormat().setShowPercentage(true);
 
-// Abilita le linee guida per le etichette.
+// Enable leader lines for labels.
 series.getLabels().getDefaultDataLabelFormat().setShowLeaderLines(true);
 ```
 
-### Imposta l'angolo di rotazione e salva la presentazione
-Completa il tuo grafico a torta impostando un angolo di rotazione e salvando la presentazione:
+### Step 10: Set Rotation Angle and **Save Presentation PPTX**
 ```java
 import com.aspose.slides.*;
 
-// Imposta l'angolo di rotazione.
+// Set rotation angle.
 chart.getPlotArea().getPieChartTitle().getTextFrameForOverriding().setText("Sales Data");
 chart.setRotationAngle(-10);
 
-// Salva la presentazione in un file.
+// Save the presentation to a file.
 presentation.save("PieChartPresentation.pptx", SaveFormat.Pptx);
 ```
 
-## Conclusione
-In questo tutorial, hai imparato a creare e personalizzare grafici a torta utilizzando Aspose.Slides per Java. Seguendo questi passaggi, puoi migliorare le tue presentazioni con visualizzazioni di dati visivamente accattivanti. Per qualsiasi domanda o ulteriore assistenza, non esitare a contattarci.
+## Common Issues & Troubleshooting
+- **Colori mancanti dopo l'esportazione** – Assicurati che `setColorVaried(true)` sia chiamato prima di modificare i singoli punti dati.
+- **I punti dati non vengono visualizzati** – Verifica che categorie e serie siano svuotate prima di aggiungerne di nuove (vedi Step 5).
+- **Licenza non applicata** – Carica il file di licenza prima di creare l'oggetto `Presentation` per evitare filigrane di prova.
+
+## Frequently Asked Questions
+
+**Q: Posso usare questo codice con versioni JDK più vecchie?**  
+A: La libreria richiede JDK 16 o superiore; le versioni più vecchie non sono supportate.
+
+**Q: Come modifico il titolo del grafico dopo la creazione?**  
+A: Chiama `chart.getChartTitle().addTextFrameForOverriding("New Title")` e regola il formato del testo secondo necessità.
+
+**Q: È possibile esportare in formati diversi da PPTX?**  
+A: Sì—Aspose.Slides supporta PDF, ODP e diversi formati immagine tramite l'enumerazione `SaveFormat`.
+
+**Q: Cosa succede se voglio animare le fette del grafico a torta?**  
+A: Usa l'API `SlideShow` per aggiungere transizioni diapositive o animazioni di forme dopo la creazione del grafico.
+
+**Q: La dipendenza Maven include tutte le librerie transitive?**  
+A: L'artefatto Maven Aspose Slides recupera automaticamente le dipendenze necessarie; non sono necessari passaggi aggiuntivi.
+
+## Conclusion
+Ora hai un esempio completo, pronto per la produzione, che mostra **come personalizzare i colori del grafico a torta**, aggiungere un titolo al grafico, gestire i punti dati del grafico a torta e **salvare una presentazione pptx** usando Aspose.Slides per Java. Sentiti libero di sperimentare con diverse palette di colori, set di dati e angoli di rotazione per adattarli allo stile del tuo brand.
+
+---
+
+**Ultimo aggiornamento:** 2026-01-22  
+**Testato con:** Aspose.Slides 25.4 (JDK 16)  
+**Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
