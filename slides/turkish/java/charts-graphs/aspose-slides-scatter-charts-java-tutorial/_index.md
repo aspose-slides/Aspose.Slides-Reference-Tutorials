@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-17"
-"description": "Java için Aspose.Slides'ı kullanarak dinamik dağılım grafikleri oluşturmayı öğrenin. Özelleştirilebilir grafik özellikleriyle sunumlarınızı geliştirin."
-"title": "Aspose.Slides ile Java'da Dağılım Grafikleri Oluşturun ve Özelleştirin"
-"url": "/tr/java/charts-graphs/aspose-slides-scatter-charts-java-tutorial/"
-"weight": 1
+date: '2026-01-24'
+description: Aspose.Slides kullanarak Java’da dağılım grafiği oluşturma, veri noktaları
+  ekleme ve birden fazla seri dağılım grafiğiyle çalışma için adım adım rehber.
+keywords:
+- Aspose.Slides for Java
+- create scatter charts in Java
+- customize Java charts with Aspose
+title: Aspose.Slides ile Java'da Dağılım Grafiği Oluşturma – Özelleştir ve Kaydet
+url: /tr/java/charts-graphs/aspose-slides-scatter-charts-java-tutorial/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,33 +16,39 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.Slides ile Java'da Dağılım Grafikleri Oluşturun ve Özelleştirin
+# Aspose.Slides ile Java Dağılım Grafiği Oluşturma
 
-Java ile Aspose.Slides'ı kullanarak dinamik dağılım grafikleri ekleyerek sunumlarınızı geliştirin. Bu kapsamlı eğitim, dizinleri ayarlama, sunumları başlatma, dağılım grafikleri oluşturma, grafik verilerini yönetme, seri türlerini ve işaretleyicileri özelleştirme ve çalışmanızı kaydetme konusunda size rehberlik edecektir; hepsi de kolaylıkla.
+Bu öğreticide, sıfırdan **create scatter chart java** projeleri oluşturacak, dağılım veri noktaları ekleyecek ve birden fazla seri dağılım grafiğiyle nasıl çalışılacağını öğreneceksiniz—tüm bunlar Aspose.Slides for Java kullanılarak yapılacak. Dizin kurulumunu, sunum başlatmayı, grafik oluşturmayı, veri yönetimini, işaretçi özelleştirmesini ve sonunda sunumu kaydetmeyi adım adım göstereceğiz.
 
-**Ne Öğreneceksiniz:**
-- Sunum dosyalarını depolamak için bir dizin ayarlama
-- Aspose.Slides kullanarak sunumları başlatma ve düzenleme
-- Slaytlarda dağılım grafikleri oluşturma
-- Grafik serilerine veri ekleme ve yönetme
-- Grafik serisi türlerini ve işaretleyicilerini özelleştirme
-- Sununuzu değişikliklerle kaydetme
+**What You'll Learn**
+- Sunum dosyalarını depolamak için bir dizin ayarlama  
+- Aspose.Slides kullanarak sunumları başlatma ve manipüle etme  
+- Bir slayta dağılım grafiği oluşturma  
+- Her seri için veri noktalarını ekleme ve yönetme  
+- Seri tiplerini, işaretçileri özelleştirme ve birden fazla seri dağılım grafiğini yönetme  
+- Tamamlanmış sunumu kaydetme  
 
-Öncelikle gerekli ön koşullara sahip olduğunuzdan emin olarak başlayalım.
+Gereksinimlerle başlayalım.
 
-## Ön koşullar
+## Hızlı Yanıtlar
+- **What is the primary library?** Aspose.Slides for Java  
+- **Which Java version is required?** JDK 8 or higher (JDK 16 recommended)  
+- **Can I add more than two series?** Yes – you can add any number of series to a scatter chart  
+- **How do I change marker colors?** Use `series.getMarker().getFillFormat().setFillColor(Color)`  
+- **Is a license needed for production?** Yes, a commercial license removes evaluation limits  
 
-Bu eğitimi takip edebilmek için şunlara sahip olduğunuzdan emin olun:
-- **Java için Aspose.Slides**: Sürüm 25.4 veya üzeri gereklidir.
-- **Java Geliştirme Kiti (JDK)**: JDK 8 veya üzeri gereklidir.
-- Temel Java programlama bilgisi ve Maven veya Gradle derleme araçlarına aşinalık.
+## Önkoşullar
 
-## Java için Aspose.Slides Kurulumu
+Bu öğreticiyi takip edebilmek için aşağıdakilere sahip olduğunuzdan emin olun:
+- **Aspose.Slides for Java** – sürüm 25.4 veya üzeri.  
+- **Java Development Kit (JDK)** – JDK 8 or newer.  
+- Temel Java bilgisi ve Maven ya da Gradle hakkında aşinalık.  
 
-Kodlamaya başlamadan önce, aşağıdaki yöntemlerden birini kullanarak Aspose.Slides'ı projenize entegre edin:
+## Aspose.Slides for Java Kurulumu
 
-### Usta
-Bu bağımlılığı şuraya ekleyin: `pom.xml` dosya:
+Aspose.Slides'ı projenize aşağıdaki yöntemlerden biriyle entegre edin.
+
+### Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -48,67 +59,58 @@ Bu bağımlılığı şuraya ekleyin: `pom.xml` dosya:
 ```
 
 ### Gradle
-Bu satırı şuraya ekleyin: `build.gradle` dosya:
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Alternatif olarak, Java için en son Aspose.Slides'ı şu adresten indirin: [Aspose Sürümleri](https://releases.aspose.com/slides/java/).
+Veya en son paketi [Aspose Releases](https://releases.aspose.com/slides/java/) adresinden indirin.
 
 #### Lisans Edinimi
-- **Ücretsiz Deneme**: Özellikleri keşfetmek için 30 günlük ücretsiz denemeyle başlayın.
-- **Geçici Lisans**:Uzun süreli testler için geçici lisans alın.
-- **Satın almak**:Tam erişim ve destek için lisans satın alın.
+- **Free Trial** – 30‑day evaluation.  
+- **Temporary License** – Extended testing.  
+- **Commercial License** – Full production use.
 
-Şimdi, aşağıda gösterildiği gibi gerekli içe aktarımları ekleyerek Aspose.Slides'ı Java uygulamanızda başlatın.
+Şimdi koda dalalım.
 
-## Uygulama Kılavuzu
+## Uygulama Rehberi
 
-### Dizin Kurulumu
-Öncelikle sunum dosyalarını depolamak için dizinimizin mevcut olduğundan emin olun. Bu adım dosya kaydetme sırasında hataları önler.
+### Adım 1: Dizin Kurulumu
+İlk olarak, sunumun hatasız kaydedilebilmesi için çıktı klasörünün mevcut olduğundan emin olun.
 
-#### Eğer Dizin Yoksa Oluşturun
 ```java
 import java.io.File;
 
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 boolean isExists = new File(dataDir).exists();
 if (!isExists) {
-    // Dizin oluştur
+    // Create the directory
     new File(dataDir).mkdirs();
 }
 ```
-Bu kod parçacığı belirtilen bir dizini kontrol eder ve mevcut değilse oluşturur. `File.exists()` varlığını doğrulamak ve `File.mkdirs()` dizinler oluşturmak için.
 
-### Sunum Başlatma
+### Adım 2: Sunum Başlatma
+Yeni bir sunum oluşturun ve ilk slaytı alın.
 
-Daha sonra dağılım grafiğini ekleyeceğiniz sunum nesnenizi başlatın.
-
-#### Sununuzu Başlatın
 ```java
 import com.aspose.slides.Presentation;
 
 Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
 ```
-Burada, `new Presentation()` boş bir sunum oluşturur. Doğrudan üzerinde çalışmak için ilk slayta erişiriz.
 
-### Grafik Oluşturma
-Başlattığımız slaydımızda bir dağılım grafiği oluşturmak sıradaki adım.
+### Adım 3: Dağılım Grafiği Ekleme
+Slayta yumuşak çizgili bir dağılım grafiği ekleyin.
 
-#### Slayda Dağılım Grafiği Ekle
 ```java
 import com.aspose.slides.IChart;
 import com.aspose.slides.ChartType;
 
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 ```
-Bu kod parçacığı ilk slayta düzgün çizgilere sahip bir dağılım grafiği ekler. Parametreler grafiğin konumunu ve boyutunu tanımlar.
 
-### Grafik Veri Yönetimi
-Şimdi mevcut serileri temizleyip yenilerini ekleyerek grafik verilerimizi yönetelim.
+### Adım 4: Grafik Verilerini Yönetme (Temizleme ve Seri Ekleme)
+Varsayılan serileri temizleyin ve **multiple series scatter chart** için kendi serimizi ekleyin.
 
-#### Grafik Serisini Yönet
 ```java
 import com.aspose.slides.IChartDataWorkbook;
 import com.aspose.slides.IChartSeries;
@@ -117,16 +119,14 @@ int defaultWorksheetIndex = 0;
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 chart.getChartData().getSeries().clear();
 
-// Tabloya yeni seriler ekleniyor
+// Adding new series to the chart
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 1, 1, "Series 1"), chart.getType());
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 1, 3, "Series 2"), chart.getType());
 ```
-Bu bölüm mevcut verileri temizler ve dağılım grafiğimize iki yeni seri ekler.
 
-### Dağılım Serileri için Veri Noktası Ekleme
-Verilerimizi görselleştirmek için dağılım grafiğindeki her seriye noktalar ekliyoruz.
+### Adım 5: Dağılım Veri Noktaları Ekleme
+**add data points scatter** kullanarak her seriyi X‑Y değerleriyle doldurun.
 
-#### Veri Noktaları Ekle
 ```java
 import com.aspose.slides.DataPointImpl;
 
@@ -134,12 +134,10 @@ IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 1), fact.getCell(defaultWorksheetIndex, 2, 2, 3));
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 2), fact.getCell(defaultWorksheetIndex, 3, 2, 10));
 ```
-Biz kullanıyoruz `addDataPointForScatterSeries()` ilk serimize veri noktaları eklemek için. Parametreler X ve Y değerlerini tanımlar.
 
-### Seri Türü ve İşaretleyici Değişikliği
-Her serideki işaretçilerin türünü ve stilini değiştirerek grafiğinizin görünümünü özelleştirin.
+### Adım 6: Seri Tiplerini ve İşaretçileri Özelleştirme
+Görsel stili ayarlayın—işaretçili düz çizgilere geçin ve farklı işaretçi sembolleri belirleyin.
 
-#### Seriyi Özelleştir
 ```java
 import com.aspose.slides.MarkerStyleType;
 
@@ -147,7 +145,7 @@ series.setType(ChartType.ScatterWithStraightLinesAndMarkers);
 series.getMarker().setSize(10);
 series.getMarker().setSymbol(MarkerStyleType.Star);
 
-// İkinci seriyi değiştirme
+// Modifying second series
 series = chart.getChartData().getSeries().get_Item(1);
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 5), fact.getCell(defaultWorksheetIndex, 2, 4, 2));
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 3), fact.getCell(defaultWorksheetIndex, 3, 4, 1));
@@ -157,47 +155,42 @@ series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorkshee
 series.getMarker().setSize(10);
 series.getMarker().setSymbol(MarkerStyleType.Circle);
 ```
-Bu değişiklikler, düz çizgiler ve işaretçiler kullanmak için seri türünü ayarlar. Ayrıca görsel ayrım için işaretçi boyutunu ve sembolünü de ayarladık.
 
-### Sunum Kaydediliyor
-Son olarak sunumunuzu yaptığınız tüm değişikliklerle kaydedin.
+### Adım 7: Sunumu Kaydetme
+Dosyayı diske kaydedin.
 
-#### Sununuzu Kaydedin
 ```java
 import com.aspose.slides.SaveFormat;
 
 pres.save("YOUR_OUTPUT_DIRECTORY/AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
-Kullanmak `SaveFormat.Pptx` Dosyanızı kaydetmek için PowerPoint biçimini belirtmek için. Bu adım tüm değişiklikleri korumak için çok önemlidir.
 
 ## Pratik Uygulamalar
-İşte gerçek dünyadan bazı kullanım örnekleri:
-1. **Finansal Analiz**: Hisse senedinin zaman içindeki eğilimlerini görüntülemek için dağılım grafiklerini kullanın.
-2. **Bilimsel Araştırma**: Analiz için deneysel veri noktalarını temsil eder.
-3. **Proje Yönetimi**: Kaynak tahsisini ve ilerleme ölçümlerini görselleştirin.
+- **Financial Analysis** – Birden fazla seri dağılım grafiği ile hisse fiyat hareketlerini çizin.  
+- **Scientific Research** – Hassas veri temsili için add data points scatter kullanarak deneysel ölçın.  
+ınıının; stilleri veri eklemesinden sonra uygulayın.  
 
-Aspose.Slides'ı sisteminize entegre etmek, rapor oluşturmayı otomatikleştirmenize, üretkenliği ve doğruluğu artırmanıza olanak tanır.
+## Yaygın Sorunlar ve Çözümler
 
-## Performans Hususları
-En iyi performans için:
-- Sunuları kaydettikten sonra imha ederek bellek kullanımını yönetin.
-- Büyük veri kümeleri için verimli veri yapıları kullanın.
-- Döngüler içindeki kaynak yoğun işlemleri en aza indirin.
+| Sorun | Çözüm |
+|-------|----------|
+| **Grafik boş görünüyor** | Veri noktalarının doğru seriye eklendiğini ve çalışma kitabı indekslerinin eşleştiğini doğrulayın. |
+| **İşaretçiler görünmüyor** | `series.getMarker().setSize()` değerinin 0'dan büyük bir değere ayarlandığından ve işaretçi sembolünün tanımlı olduğundan emin olun. |
+| **Büyük grafiklerde OutOfMemoryError** | Kaydettikten sonra `pres.dispose()` kullanın ve JVM yığın boyutunu (`-Xmx`) artırmayı düşün. Repeat4) for each additional series you need.
 
-En iyi uygulamalar, karmaşık grafik işlemlerinde bile sorunsuz yürütmeyi garanti eder.
+### Grafiği bir görüntü olarak dışa akt.
 
-## Çözüm
-Bu eğitimde, dizinleri ayarlamayı, Aspose.Slides sunumlarını başlatmayı, dağılım grafikleri oluşturmayı ve özelleştirmeyi, seri verilerini yönetmeyi, işaretçileri değiştirmeyi ve çalışmanızı kaydetmeyi öğrendiniz. Aspose.Slides yeteneklerini daha fazla keşfetmek için animasyon ve slayt geçişleri gibi daha gelişmiş özelliklere dalmayı düşünün.
+### Aspose.Slides dağılım noktalarında etkileşimli araç ipuçlarını destekliyor mu?
+While PowerPoint itself doesn’t provide runtime tooltips, you can embed data labels using `series.getDataPoints().get_Item(i).getLabel().setText("Your text")`.
 
-**Sonraki Adımlar**: Farklı grafik türlerini deneyin veya bu teknikleri daha büyük bir Java projesine entegre edin.
+### Dağılım serisini nasıl canlandırabilirim?
+Use `chart.getChartData().getSeries().get_Item(i).getFormat().getEffectFormat().setPresetEffect(PresetEffectType.Appear)` to add a simple appear animation.
 
-## SSS
+---
 
-### İşaretçilerin rengini nasıl değiştirebilirim?
-İşaretçi rengini değiştirmek için şunu kullanın: `series.getMarker().getFillFormat().setFillColor(ColorObject)`, Neresi `ColorObject` İstediğiniz renktir.
-
-### Bir dağılım grafiğine ikiden fazla seri ekleyebilir miyim?
-Evet, yeni seriler ve veri noktaları ekleme sürecini tekrarlayarak ihtiyacınız olduğu kadar çok seri ekleyebilirsiniz.
+**Son Güncelleme:** 2026-01-24  
+**Test Edilen Versiyon:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-17"
-"description": "تعرّف على كيفية إنشاء مخططات تشتت ديناميكية باستخدام Aspose.Slides لجافا. حسّن عروضك التقديمية بميزات مخططات قابلة للتخصيص."
-"title": "إنشاء وتخصيص مخططات التشتت في Java باستخدام Aspose.Slides"
-"url": "/ar/java/charts-graphs/aspose-slides-scatter-charts-java-tutorial/"
-"weight": 1
+date: '2026-01-24'
+description: دليل خطوة بخطوة لإنشاء مخطط مبعثر بلغة Java باستخدام Aspose.Slides، إضافة
+  نقاط البيانات للمبعثر والعمل مع مخطط مبعثر متعدد السلاسل.
+keywords:
+- Aspose.Slides for Java
+- create scatter charts in Java
+- customize Java charts with Aspose
+title: إنشاء مخطط مبعثر Java باستخدام Aspose.Slides – تخصيص وحفظ
+url: /ar/java/charts-graphs/aspose-slides-scatter-charts-java-tutorial/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,33 +16,16 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# إنشاء وتخصيص مخططات التشتت في Java باستخدام Aspose.Slides
+# إنشاء مخطط مبعثر Java باستخدام Aspose.Slides
 
-حسّن عروضك التقديمية بإضافة مخططات تشتت ديناميكية باستخدام جافا مع Aspose.Slides. سيرشدك هذا البرنامج التعليمي الشامل خلال إعداد الأدلة، وتهيئة العروض التقديمية، وإنشاء مخططات تشتت، وإدارة بيانات المخططات، وتخصيص أنواع السلاسل والعلامات، وحفظ عملك - كل ذلك بسهولة.
+في هذا الدرس ستقوم **بإنشاء مخطط مبعثر Java** منعثر متعدد السلاسل — كل ذلك باستخدام Aspose.Slides for Java. سنستعرض إعداد الدليل، تهيئة العرض التقديمي، إنشاء المخطط، إدارة البيانات، تخصيص العلامات، وأخيرًا حفظ العرض التقديمي نقاط البيانات لكل سلسلة  
+- تخص تحتاج تر الم- معرفة أساسية بـ Java وإلمام بـ Maven أو Gradle.  
 
-**ما سوف تتعلمه:**
-- إعداد دليل لتخزين ملفات العرض التقديمي
-- تهيئة العروض التقديمية ومعالجتها باستخدام Aspose.Slides
-- إنشاء مخططات التشتت على الشرائح
-- إدارة البيانات وإضافتها إلى سلسلة المخططات
-- تخصيص أنواع وعلامات سلسلة المخططات
-- حفظ العرض التقديمي الخاص بك مع التعديلات
+## إعداد Aspose.Slides for Java
 
-دعونا نبدأ بالتأكد من أن لديك المتطلبات الأساسية اللازمة.
+دمج Aspose.Slides في مشروعك باستخدام إحدى الطرق التالية.
 
-## المتطلبات الأساسية
-
-لمتابعة هذا البرنامج التعليمي، تأكد من أن لديك:
-- **Aspose.Slides لـ Java**:يجب أن يكون الإصدار 25.4 أو أحدث.
-- **مجموعة تطوير جافا (JDK)**:مطلوب JDK 8 أو أعلى.
-- المعرفة الأساسية ببرمجة Java والتعرف على أدوات بناء Maven أو Gradle.
-
-## إعداد Aspose.Slides لـ Java
-
-قبل أن نبدأ في الترميز، قم بدمج Aspose.Slides في مشروعك باستخدام إحدى الطرق التالية:
-
-### مافن
-قم بتضمين هذه التبعية في `pom.xml` ملف:
+### Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -47,68 +35,59 @@
 </dependency>
 ```
 
-### جرادل
-أضف هذا السطر إلى `build.gradle` ملف:
+### Gradle
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-بدلاً من ذلك، قم بتنزيل أحدث إصدار من Aspose.Slides لـ Java من [إصدارات Aspose](https://releases.aspose.com/slides/java/).
+أو قم بتحميل أحدث حزمة من [Aspose Releases](https://releases.aspose.com/slides/java/).
 
 #### الحصول على الترخيص
-- **نسخة تجريبية مجانية**:ابدأ بفترة تجريبية مجانية لمدة 30 يومًا لاستكشاف الميزات.
-- **رخصة مؤقتة**:الحصول على ترخيص مؤقت للاختبار الموسع.
-- **شراء**:قم بشراء ترخيص للحصول على الوصول الكامل والدعم.
+- تجربة مجانية – تقييم لمدة 30 يومًا.  
+- ترخيص مؤقت – اختبار ممتد.  
+- ترخيص تجاري – للاستخدام الكامل في الإنتاج.
 
-الآن، قم بتهيئة Aspose.Slides في تطبيق Java الخاص بك عن طريق إضافة الواردات الضرورية كما هو موضح أدناه.
+الآن دعنا نتعمق في الكود.
 
 ## دليل التنفيذ
 
-### إعداد الدليل
-أولاً، تأكد من وجود دليلنا لتخزين ملفات العروض التقديمية. هذه الخطوة تمنع حدوث أخطاء أثناء حفظ الملف.
+### الخطوة 1: إعداد الدليل
+أولاً، تأكد من وجود مجلد الإخراج حتى يمكن حفظ العرض التقديمي دون أخطاء.
 
-#### إنشاء الدليل إذا لم يكن موجودًا
 ```java
 import java.io.File;
 
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 boolean isExists = new File(dataDir).exists();
 if (!isExists) {
-    // إنشاء الدليل
+    // Create the directory
     new File(dataDir).mkdirs();
 }
 ```
-يتحقق هذا المقطع من وجود دليل محدد ويُنشئه إذا لم يكن موجودًا. ويستخدم `File.exists()` للتحقق من الوجود و `File.mkdirs()` لإنشاء الدلائل.
 
-### تهيئة العرض التقديمي
+### الخطوة 2: تهيئة العرض التقديمي
+إنشاء عرض تقديمي جديد والحصول على الشريحة الأولى.
 
-بعد ذلك، قم بتهيئة كائن العرض التقديمي الخاص بك حيث ستضيف مخطط التشتت.
-
-#### تهيئة العرض التقديمي الخاص بك
 ```java
 import com.aspose.slides.Presentation;
 
 Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
 ```
-هنا، `new Presentation()` يُنشئ عرضًا تقديميًا فارغًا. نصل إلى الشريحة الأولى للعمل عليها مباشرةً.
 
-### إنشاء المخطط
-الخطوة التالية هي إنشاء مخطط تشتت على الشريحة الأولية لدينا.
+### الخطوة 3: إضافة مخطط مبعثر
+إدراج مخطط مبعثر بخطوط ناعمة على الشريحة.
 
-#### إضافة مخطط التشتت إلى الشريحة
 ```java
 import com.aspose.slides.IChart;
 import com.aspose.slides.ChartType;
 
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 ```
-يُضيف هذا المقتطف من الكود مخططًا تشتتًا بخطوط ناعمة إلى الشريحة الأولى. تُحدد المعلمات موضع المخطط وحجمه.
 
-### إدارة بيانات المخططات
-الآن دعنا ندير بيانات الرسم البياني لدينا عن طريق مسح أي سلسلة موجودة وإضافة سلاسل جديدة.
+### الخطوة 4: إدارة بيانات المخطط (مسح وإضافة سلاسل)
+مسح أي سلاسل افتراضية وإضافة سلاسلنا الخاصة لمخطط **multiple series scatter chart**.
 
-#### إدارة سلسلة الرسوم البيانية
 ```java
 import com.aspose.slides.IChartDataWorkbook;
 import com.aspose.slides.IChartSeries;
@@ -117,16 +96,14 @@ int defaultWorksheetIndex = 0;
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 chart.getChartData().getSeries().clear();
 
-// إضافة سلسلة جديدة إلى الرسم البياني
+// Adding new series to the chart
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 1, 1, "Series 1"), chart.getType());
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 1, 3, "Series 2"), chart.getType());
 ```
-يقوم هذا القسم بمسح البيانات الموجودة وإضافة سلسلتين جديدتين إلى مخطط التشتت الخاص بنا.
 
-### إضافة نقاط البيانات لسلسلة التشتت
-لتصور بياناتنا، نضيف نقاطًا إلى كل سلسلة في مخطط التشتت.
+### الخطوة 5: إضافة نقاط البيانات المبعثرة
+ملء كل سلسلة بقيم X‑Y باستخدام **add data points scatter**.
 
-#### إضافة نقاط البيانات
 ```java
 import com.aspose.slides.DataPointImpl;
 
@@ -134,12 +111,10 @@ IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 1), fact.getCell(defaultWorksheetIndex, 2, 2, 3));
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 2), fact.getCell(defaultWorksheetIndex, 3, 2, 10));
 ```
-نحن نستخدم `addDataPointForScatterSeries()` لإضافة نقاط بيانات إلى سلسلتنا الأولى. تُعرّف المعلمات قيمتي X وY.
 
-### تعديل نوع السلسلة والعلامة
-قم بتخصيص مظهر الرسم البياني الخاص بك عن طريق تغيير نوع ونمط العلامات في كل سلسلة.
+### الخطوة 6: تخصيص أنواع السلاسل والعلامات
+ضبط النمط البصري — التحويل إلى خطوط مستقيمة مع علامات وتعيين رموز علامات مميزة.
 
-#### تخصيص السلسلة
 ```java
 import com.aspose.slides.MarkerStyleType;
 
@@ -147,7 +122,7 @@ series.setType(ChartType.ScatterWithStraightLinesAndMarkers);
 series.getMarker().setSize(10);
 series.getMarker().setSymbol(MarkerStyleType.Star);
 
-// تعديل السلسلة الثانية
+// Modifying second series
 series = chart.getChartData().getSeries().get_Item(1);
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 5), fact.getCell(defaultWorksheetIndex, 2, 4, 2));
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 3), fact.getCell(defaultWorksheetIndex, 3, 4, 1));
@@ -157,47 +132,40 @@ series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorkshee
 series.getMarker().setSize(10);
 series.getMarker().setSymbol(MarkerStyleType.Circle);
 ```
-تُعدّل هذه التغييرات نوع السلسلة لاستخدام الخطوط المستقيمة والعلامات. كما نحدد حجم العلامة ورمزها للتمييز البصري.
 
-### حفظ العرض التقديمي
-وأخيرًا، احفظ العرض التقديمي الخاص بك مع جميع التعديلات التي أجريتها.
+### الخطوة 7: حفظ العرض التقديمي
+حفظ الملف على القرص.
 
-#### احفظ عرضك التقديمي
 ```java
 import com.aspose.slides.SaveFormat;
 
 pres.save("YOUR_OUTPUT_DIRECTORY/AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
-يستخدم `SaveFormat.Pptx` لتحديد تنسيق PowerPoint لحفظ ملفك. هذه الخطوة ضرورية لحفظ جميع التغييرات.
 
 ## التطبيقات العملية
-وفيما يلي بعض حالات الاستخدام في العالم الحقيقي:
-1. **التحليل المالي**:استخدم مخططات التشتت لعرض اتجاهات الأسهم بمرور الوقت.
-2. **البحث العلمي**:تمثل نقاط البيانات التجريبية للتحليل.
-3. **إدارة المشاريع**:تصور تخصيص الموارد ومقاييس التقدم.
-
-يتيح لك دمج Aspose.Slides في نظامك أتمتة إنشاء التقارير، مما يعزز الإنتاجية والدقة.
+- **التحليل المالي** – رسم تحركات أسعار الأسهم باستخدام مخطط مبعثر متعدد السلاسل.  
+- **البحث العلمي** – تصور القياسات التجريبية باستخدام add data points scatter لتمثيل بيانات دقيقة.  
+- **إدارة المشاريع** – إظهار اتجاهات تخصيص الموارد عبر عدة مشاريع على مخطط مبعثر واحد.  
 
 ## اعتبارات الأداء
-للحصول على الأداء الأمثل:
-- إدارة استخدام الذاكرة عن طريق التخلص من العروض التقديمية بعد الحفظ.
-- استخدم هياكل بيانات فعالة لمجموعات البيانات الكبيرة.
-- تقليل العمليات التي تتطلب موارد كثيفة داخل الحلقات.
+- تخلص من كائن `Presentation` بعد الحفظ لتحرير الذاكرة.  
+- للمجموعات الكبيرة من البيانات، املأ دفتر العمل على دفعات بدلاً من إدخال كل عنصر على حدة.  
+- تجنب التنسيق المفرط داخل الحلقات الضيقة؛ قم بتطبيق الأنماط بعد إدخال البيانات.  
 
-تضمن أفضل الممارسات التنفيذ السلس حتى مع عمليات التلاعب المعقدة بالمخططات.
+## المشكلات الشائعة والحلول
 
-## خاتمة
-في هذا البرنامج التعليمي، تعلمت كيفية إعداد المجلدات، وتهيئة عروض Aspose.Slides التقديمية، وإنشاء مخططات التشتت وتخصيصها، وإدارة بيانات السلسلة، وتعديل العلامات، وحفظ عملك. لمزيد من الاستكشاف حول إمكانيات Aspose.Slides، ننصحك بالتعمق في ميزات أكثر تقدمًا مثل الرسوم المتحركة وانتقالات الشرائح.
+| المشكلة | الحل |
+|-------|----------|
+| **المخطط يظهر فارغًا** | تحقق من أن نقاط البيانات قد أضيفت إلى السلسلة الصحيحة وأن مؤشرات دفتر العمل متطابقة. |
+| **العلامات غير مرئية** | تأكد من أن `series.getMarker().setSize()` تم تعيينه إلى قيمة أكبر من 0 وأن رمز العلامة محدد. |
+| **خطأ OutOf وفكر في زيادة حجم اللمي ت")`.
 
-**الخطوات التالية**:جرب أنواعًا مختلفة من المخططات أو قم بدمج هذه التقنيات في مشروع Java أكبر.
+### كيف يمكنني تحريك سلسلة المخطط المبعثر؟
+استخدم_Item(i).getFormat().getEffectFormat().setPresetEffect(PresetEffectType.Appear)` لإضافة تأثير ظهور بسيط.
 
-## التعليمات
-
-### كيف يمكنني تغيير لون العلامات؟
-لتغيير لون العلامة، استخدم `series.getMarker().getFillFormat().setFillColor(ColorObject)`، أين `ColorObject` هو اللون الذي تريده.
-
-### هل يمكنني إضافة أكثر من سلسلتين إلى مخطط التشتت؟
-نعم، يمكنك إضافة عدد كبير من السلاسل حسب الحاجة عن طريق تكرار عملية إضافة سلاسل ونقاط بيانات جديدة.
+**آخر تحديث:** 2026-01-24  
+**تم الاختبار مع:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-17"
-"description": "Tanuld meg, hogyan hozhatsz létre dinamikus szóródási diagramokat az Aspose.Slides for Java segítségével. Dobd fel prezentációidat testreszabható diagramfunkciókkal."
-"title": "Hozzon létre és szabjon testre szóródási diagramokat Java nyelven az Aspose.Slides segítségével"
-"url": "/hu/java/charts-graphs/aspose-slides-scatter-charts-java-tutorial/"
-"weight": 1
+date: '2026-01-24'
+description: Lépésről lépésre útmutató a szórásdiagram Java-ban történő létrehozásához
+  az Aspose.Slides használatával, adatpontok hozzáadása a szóráshoz és több sorozatos
+  szórásdiagram kezelése.
+keywords:
+- Aspose.Slides for Java
+- create scatter charts in Java
+- customize Java charts with Aspose
+title: Szórásdiagram létrehozása Java-ban az Aspose.Slides használatával – Testreszabás
+  és mentés
+url: /hu/java/charts-graphs/aspose-slides-scatter-charts-java-tutorial/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,33 +18,38 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Hozzon létre és szabjon testre szóródási diagramokat Java nyelven az Aspose.Slides segítségével
+# Szórt diagram létrehozása Java-val az Aspose.Slides segítségével
 
-Dobd fel prezentációidat dinamikus szóródási diagramok hozzáadásával Java használatával az Aspose.Slides segítségével. Ez az átfogó oktatóanyag végigvezet a könyvtárak beállításán, a prezentációk inicializálásán, a szóródási diagramok létrehozásán, a diagramadatok kezelésén, a sorozattípusok és jelölők testreszabásán, valamint a munkád mentésén – mindezt könnyedén.
+Ebben az útmutatóban **create scatter chart java** projekteket hozunk létre a semmiből, hozzáadunk adatpontokat a szórt diagramhoz, és megtanuljuk, hogyan dolgozzunk több sorozatos szórt diagrammal – mindezt az Aspose.Slides for Java használatával. Végigvezetünk a könyvtár beállításán, a prezentáció inicializálásán, a diagram létrehozásán, az adatok kezelésén, a jelölők testreszabásán, és végül a prezentáció mentésén.
 
-**Amit tanulni fogsz:**
-- Könyvtár beállítása prezentációs fájlok tárolására
-- Prezentációk inicializálása és kezelése az Aspose.Slides használatával
-- Pontdiagramok létrehozása diákon
-- Adatok kezelése és hozzáadása diagramsorozatokhoz
-- Diagramsorozat-típusok és -jelölők testreszabása
-- A prezentáció mentése módosításokkal
+**Mit fogsz megtanulni**
+- Könyvtár beállítása a prezentáció fájlok tárolásához  
+- Prezentációk inicializálása és manipulálása az Aspose.Slides segítségével  
+- Szórt diagram létrehozása egy dián  
+- Adatpontok hozzáadása és kezelése minden sorozathoz  
+- Sorozattípusok, jelölők testreszabása és több sorozatos szórt diagram kezelése  
+- A kész prezentáció mentése  
 
-Kezdjük azzal, hogy megbizonyosodunk arról, hogy rendelkezel a szükséges előfeltételekkel.
+Kezdjük a szükséges előfeltételekkel.
+
+## Gyors válaszok
+- **Mi a fő könyvtár?** Aspose.Slides for Java  
+- **Melyik Java verzió szükséges?** JDK 8 vagy újabb (JDK 16 ajánlott)  
+- **Hozzáadhatok több mint két sorozatot?** Igen – bármennyi sorozatot hozzáadhatsz egy szórt diagramhoz  
+- **Hogyan változtathatom meg a jelölő színeit?** Használd a `series.getMarker().getFillFormat().setFillColor(Color)` metódust  
+- **Szükséges licenc a termeléshez?** Igen, egy kereskedelmi licenc eltávolítja a kiértékelési korlátokat  
 
 ## Előfeltételek
 
-A bemutató követéséhez győződjön meg arról, hogy rendelkezik a következőkkel:
-- **Aspose.Slides Java-hoz**: 25.4-es vagy újabb verzió szükséges.
-- **Java fejlesztőkészlet (JDK)**JDK 8 vagy újabb verzió szükséges.
-- Alapvető Java programozási ismeretek és jártasság a Maven vagy Gradle build eszközök használatában.
+- **Aspose.Slides for Java** – verzió 25.4 vagy újabb.  
+- **Java Development Kit (JDK)** – JDK 8 vagy újabb.  
+- Alap Java ismeretek és Maven vagy Gradle ismerete.  
 
-## Az Aspose.Slides beállítása Java-hoz
+## Az Aspose.Slides for Java beállítása
 
-Mielőtt elkezdenénk a kódolást, integráljuk az Aspose.Slides-t a projektbe az alábbi módszerek egyikével:
+Integrálja az Aspose.Slides-et a projektjébe az alábbi módszerek egyikével.
 
-### Szakértő
-Vegye fel ezt a függőséget a `pom.xml` fájl:
+### Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -48,67 +60,58 @@ Vegye fel ezt a függőséget a `pom.xml` fájl:
 ```
 
 ### Gradle
-Add hozzá ezt a sort a `build.gradle` fájl:
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Vagy töltse le a legújabb Aspose.Slides for Java verziót innen: [Aspose kiadások](https://releases.aspose.com/slides/java/).
+Vagy töltse le a legújabb csomagot a [Aspose Releases](https://releases.aspose.com/slides/java/) oldalról.
 
-#### Licencszerzés
-- **Ingyenes próbaverzió**: Kezdje egy 30 napos ingyenes próbaidőszakkal, hogy felfedezhesse a funkciókat.
-- **Ideiglenes engedély**: Szerezzen be ideiglenes engedélyt meghosszabbított tesztelésre.
-- **Vásárlás**: Vásároljon licencet a teljes hozzáférésért és támogatásért.
+#### Licenc beszerzése
+- **Ingyenes próba** – 30‑napos értékelés.  
+- **Ideiglenes licenc** – Kiterjesztett tesztelés.  
+- **Kereskedelmi licenc** – Teljes termelési használat.
 
-Most inicializáld az Aspose.Slides-t a Java alkalmazásodban a szükséges importálások hozzáadásával, az alábbiak szerint.
+Most merüljünk el a kódban.
 
 ## Megvalósítási útmutató
 
-### Könyvtár beállítása
-Először is győződjön meg arról, hogy létezik a könyvtárunk a prezentációs fájlok tárolására. Ez a lépés megakadályozza a fájlok mentése során fellépő hibákat.
+### 1. lépés: Könyvtár beállítása
+Először győződjön meg arról, hogy a kimeneti mappa létezik, hogy a prezentáció hibamentesen menthető legyen.
 
-#### Hozza létre a könyvtárat, ha nem létezik
 ```java
 import java.io.File;
 
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 boolean isExists = new File(dataDir).exists();
 if (!isExists) {
-    // Hozza létre a könyvtárat
+    // Create the directory
     new File(dataDir).mkdirs();
 }
 ```
-Ez a kódrészlet egy megadott könyvtárat keres, és létrehozza, ha az nem létezik. A következőt használja: `File.exists()` jelenlétének ellenőrzésére és `File.mkdirs()` könyvtárak létrehozásához.
 
-### Prezentáció inicializálása
+### 2. lépés: Prezentáció inicializálása
+Hozzon létre egy új prezentációt, és vegye fel az első diát.
 
-Ezután inicializáld a prezentációs objektumot, ahová a szóródási diagramot szeretnéd hozzáadni.
-
-#### Inicializálja a prezentációját
 ```java
 import com.aspose.slides.Presentation;
 
 Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
 ```
-Itt, `new Presentation()` üres prezentációt hoz létre. Az első diához férünk hozzá, hogy közvetlenül azzal dolgozhassunk.
 
-### Diagram létrehozása
-A következő lépés egy pontdiagram létrehozása az inicializált dián.
+### 3. lépés: Szórt diagram hozzáadása
+Helyezzen be egy szórt diagramot sima vonalakkal a diára.
 
-#### Pontdiagram hozzáadása a diához
 ```java
 import com.aspose.slides.IChart;
 import com.aspose.slides.ChartType;
 
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 ```
-Ez a kódrészlet egy simított vonalakkal rendelkező pontdiagramot ad hozzá az első diához. A paraméterek határozzák meg a diagram pozícióját és méretét.
 
-### Diagramadat-kezelés
-Most pedig kezeljük a diagram adatait a meglévő sorozatok törlésével és újak hozzáadásával.
+### 4. lépés: Diagram adatok kezelése (törlés és sorozatok hozzáadása)
+Törölje az alapértelmezett sorozatokat, és adja hozzá a saját sorozatainkat a **multiple series scatter chart**-hez.
 
-#### Diagramsorozat kezelése
 ```java
 import com.aspose.slides.IChartDataWorkbook;
 import com.aspose.slides.IChartSeries;
@@ -117,16 +120,14 @@ int defaultWorksheetIndex = 0;
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 chart.getChartData().getSeries().clear();
 
-// Új sorozatok hozzáadása a diagramhoz
+// Adding new series to the chart
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 1, 1, "Series 1"), chart.getType());
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 1, 3, "Series 2"), chart.getType());
 ```
-Ez a szakasz törli a meglévő adatokat, és két új adatsort ad hozzá a szóródási diagramhoz.
 
-### Adatpontok összeadása szóródási sorozatokhoz
-Az adataink vizualizálásához pontokat adunk hozzá a szóródási diagram minden sorozatához.
+### 5. lépés: Adatpontok hozzáadása a szórt diagramhoz
+Töltse fel minden sorozatot X‑Y értékekkel a **add data points scatter** használatával.
 
-#### Adatpontok hozzáadása
 ```java
 import com.aspose.slides.DataPointImpl;
 
@@ -134,12 +135,10 @@ IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 1), fact.getCell(defaultWorksheetIndex, 2, 2, 3));
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 2), fact.getCell(defaultWorksheetIndex, 3, 2, 10));
 ```
-Használjuk `addDataPointForScatterSeries()` hogy adatpontokat fűzzünk az első sorozatunkhoz. A paraméterek határozzák meg az X és Y értékeket.
 
-### Sorozattípus és jelölő módosítása
-Szabja testre diagramja megjelenését az egyes sorozatokban található jelölők típusának és stílusának módosításával.
+### 6. lépés: Sorozattípusok és jelölők testreszabása
+Állítsa be a vizuális stílust – váltson egyenes vonalakra jelölőkkel, és állítson be különböző jelölő szimbólumokat.
 
-#### Sorozat testreszabása
 ```java
 import com.aspose.slides.MarkerStyleType;
 
@@ -147,7 +146,7 @@ series.setType(ChartType.ScatterWithStraightLinesAndMarkers);
 series.getMarker().setSize(10);
 series.getMarker().setSymbol(MarkerStyleType.Star);
 
-// A második sorozat módosítása
+// Modifying second series
 series = chart.getChartData().getSeries().get_Item(1);
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 5), fact.getCell(defaultWorksheetIndex, 2, 4, 2));
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 3), fact.getCell(defaultWorksheetIndex, 3, 4, 1));
@@ -157,47 +156,56 @@ series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorkshee
 series.getMarker().setSize(10);
 series.getMarker().setSymbol(MarkerStyleType.Circle);
 ```
-Ezek a változtatások a sorozat típusát úgy módosítják, hogy egyenes vonalakat és jelölőket használjon. A vizuális megkülönböztetés érdekében beállítottuk a jelölő méretét és szimbólumát is.
 
-### Prezentáció mentése
-Végül mentsd el a prezentációt az összes módosítással együtt.
+### 7. lépés: Prezentáció mentése
+Mentse a fájlt a lemezre.
 
-#### Mentse el a prezentációját
 ```java
 import com.aspose.slides.SaveFormat;
 
 pres.save("YOUR_OUTPUT_DIRECTORY/AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
-Használat `SaveFormat.Pptx` a fájl mentésének PowerPoint-formátumának megadásához. Ez a lépés elengedhetetlen az összes módosítás megőrzéséhez.
 
 ## Gyakorlati alkalmazások
-Íme néhány valós felhasználási eset:
-1. **Pénzügyi elemzés**: Használjon szóródási diagramokat a részvények trendjeinek időbeli megjelenítéséhez.
-2. **Tudományos kutatás**: Kísérleti adatpontokat jelölnek elemzés céljából.
-3. **Projektmenedzsment**: Erőforrás-elosztás és haladásmérőszámok vizualizálása.
+- **Pénzügyi elemzés** – Részvényármozgások ábrázolása több sorozatos szórt diagrammal.  
+- **Tudományos kutatás** – Kísérleti mérések vizualizálása a add data points scatter használatával a pontos adatmegjelenítéshez.  
+- **Projektmenedzsment** – Erőforrás-elosztási trendek megjelenítése több projektben egyetlen szórt diagramon.  
 
-Az Aspose.Slides integrálása a rendszerébe lehetővé teszi a jelentéskészítés automatizálását, növelve a termelékenységet és a pontosságot.
+## Teljesítmény szempontok
+- A `Presentation` objektum eldobása a mentés után a memória felszabadításához.  
+- Nagy adathalmazok esetén töltse fel a munkafüzetet kötegben, ne egyenként.  
+- Kerülje a túlzott stílus alkalmazását szoros ciklusokban; alkalmazza a stílusokat az adatok beszúrása után.  
 
-## Teljesítménybeli szempontok
-Az optimális teljesítmény érdekében:
-- A memóriahasználat kezelése a prezentációk mentés utáni törlésével.
-- Használjon hatékony adatszerkezeteket nagy adathalmazok esetén.
-- Minimalizálja az erőforrás-igényes műveleteket a ciklusokon belül.
+## Gyakori problémák és megoldások
 
-A legjobb gyakorlatok biztosítják a zökkenőmentes végrehajtást még összetett diagrammanipulációk esetén is.
+| Probléma | Megoldás |
+|----------|----------|
+| **A diagram üresnek jelenik meg** | Ellenőrizze, hogy az adatpontok a megfelelő sorozathoz lettek-e hozzáadva, és hogy a munkafüzet indexek egyeznek-e. |
+| **A jelölők nem láthatók** | Győződjön meg arról, hogy a `series.getMarker().setSize()` értéke nagyobb, mint 0, és hogy a jelölő szimbólum definiálva van. |
+| **OutOfMemoryError nagy diagramok esetén** | Használja a `pres.dispose()`-t a mentés után, és fontolja meg a JVM heap méretének növelését (`-Xmx`). |
 
-## Következtetés
-Ebben az oktatóanyagban megtanultad, hogyan állíthatsz be könyvtárakat, hogyan inicializálhatsz Aspose.Slides prezentációkat, hogyan hozhatsz létre és szabhatsz testre szóródási diagramokat, hogyan kezelheted a sorozatadatokat, hogyan módosíthatod a jelölőket, és hogyan mentheted el a munkádat. Az Aspose.Slides képességeinek további felfedezéséhez érdemes lehet belemerülnöd a haladóbb funkciókba, mint például az animáció és a diaátmenetek.
+## Gyakran Ismételt Kérdések
 
-**Következő lépések**Kísérletezzen különböző diagramtípusokkal, vagy integrálja ezeket a technikákat egy nagyobb Java projektbe.
+### Hogyan változtathatom meg a jelölők színét?
+Használja a `series.getMarker().getFillFormat().setFillColor(Color)`-t, ahol a `Color` a `java.awt.Color` egy példánya.
 
-## GYIK
+### Hozzáadhatok több mint két sorozatot egy szórt diagramhoz?
+Természetesen. Ismételje meg a sorozat‑létrehozó blokkot (4. lépés) minden további sorozathoz, amelyre szüksége van.
 
-### Hogyan tudom megváltoztatni a jelölők színét?
-A jelölő színének megváltoztatásához használja a `series.getMarker().getFillFormat().setFillColor(ColorObject)`, ahol `ColorObject` a kívánt szín.
+### Lehetséges a diagramot képként exportálni?
+Igen. Hívja meg a `chart.exportChartImage("chart.png", ImageFormat.Png)`-t az összes adat hozzáadása után.
 
-### Hozzáadhatok kettőnél több adatsort egy szóródási diagramhoz?
-Igen, annyi sorozatot adhat hozzá, amennyire szüksége van, az új sorozatok és adatpontok hozzáadásának folyamatának megismétlésével.
+### Támogatja az Aspose.Slides az interaktív tooltip-eket a szórt pontokon?
+Bár a PowerPoint önmagában nem biztosít futásidejű tooltip-eket, beágyazhat adatcímkéket a `series.getDataPoints().get_Item(i).getLabel().setText("Your text")` használatával.
+
+### Hogyan animálhatom a szórt sorozatot?
+Használja a `chart.getChartData().getSeries().get_Item(i).getFormat().getEffectFormat().setPresetEffect(PresetEffectType.Appear)`-t egy egyszerű megjelenő animáció hozzáadásához.
+
+---
+
+**Last Updated:** 2026-01-24  
+**Tested With:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Scopri come creare grafici a dispersione dinamici utilizzando Aspose.Slides per Java. Migliora le tue presentazioni con funzionalità personalizzabili."
-"title": "Crea e personalizza grafici a dispersione in Java con Aspose.Slides"
-"url": "/it/java/charts-graphs/aspose-slides-scatter-charts-java-tutorial/"
-"weight": 1
+date: '2026-01-24'
+description: Guida passo‑passo per creare un grafico a dispersione in Java usando
+  Aspose.Slides, aggiungere punti dati a dispersione e lavorare con grafici a dispersione
+  a più serie.
+keywords:
+- Aspose.Slides for Java
+- create scatter charts in Java
+- customize Java charts with Aspose
+title: Crea un grafico a dispersione Java con Aspose.Slides – Personalizza e salva
+url: /it/java/charts-graphs/aspose-slides-scatter-charts-java-tutorial/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,33 +17,35 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Crea e personalizza grafici a dispersione in Java con Aspose.Slides
+# Crea un grafico a dispersione Java con Aspose.Slides
 
-Migliora le tue presentazioni aggiungendo grafici a dispersione dinamici utilizzando Java con Aspose.Slides. Questo tutorial completo ti guiderà nella configurazione delle directory, nell'inizializzazione delle presentazioni, nella creazione di grafici a dispersione, nella gestione dei dati dei grafici, nella personalizzazione di tipi di serie e marcatori e nel salvataggio del tuo lavoro, il tutto con semplicità.
+In questo tutorial **creerai un grafico a dispersione Java** da zero, aggiungerai punti dati scatter e imparerai a lavorare con grafici a dispersione a più serie, il tutto utilizzando Aspose.Slides per Java. Ti guideremo attraverso la configurazione della directory, l'inizializzazione della presentazione, la creazione del grafico, la gestione dei dati, la personalizzazione dei marcatori e, infine, il salvataggio della presentazioni usando Aspose.Slides  
+- Creare un grafico a dispersione su una diapositiva  
+ serie  
+- Personalizzare i tipi di serie, i marcatori e gestire grafici a dispersione a più serie  
+- Salvare la presentazione finale  
 
-**Cosa imparerai:**
-- Impostazione di una directory per l'archiviazione dei file di presentazione
-- Inizializzazione e manipolazione di presentazioni utilizzando Aspose.Slides
-- Creazione di grafici a dispersione nelle diapositive
-- Gestione e aggiunta di dati alle serie di grafici
-- Personalizzazione dei tipi di serie di grafici e dei marcatori
-- Salvataggio della presentazione con modifiche
+Iniziamo con i prerequisiti.
 
-Cominciamo col verificare che tu abbia i prerequisiti necessari.
+## Risposte rapide
+- **Qual è la libreria principale?** Aspose.Slides for Java  
+- **Quale versione di Java è richiesta?** JDK 8 or higher (JDK 16 recommended)  
+- **Posso aggiungere più di due serie?** Yes – you can add any number of series to a scatter chart  
+- **Come cambiare i colori dei marcatori?** Use `series.getMarker().getFillFormat().setFillColor(Color)`  
+- **È necessaria una licenza per la produzione?** Yes, a commercial license removes evaluation limits  
 
 ## Prerequisiti
 
 Per seguire questo tutorial, assicurati di avere:
-- **Aspose.Slides per Java**: È richiesta la versione 25.4 o successiva.
-- **Kit di sviluppo Java (JDK)**: È necessario JDK 8 o versione successiva.
-- Conoscenza di base della programmazione Java e familiarità con gli strumenti di compilazione Maven o Gradle.
+- **Aspose.Slides for Java** – versione 25.4 o successiva.  
+- **Java Development Kit (JDK)** – JDK 8 o più recente.  
+- Conoscenze di base di Java e familiarità con Maven o Gradle.  
 
-## Impostazione di Aspose.Slides per Java
+## Configurare Aspose.Slides per Java
 
-Prima di iniziare a scrivere il codice, integra Aspose.Slides nel tuo progetto utilizzando uno dei seguenti metodi:
+Integra Aspose.Slides nel tuo progetto con uno dei seguenti metodi.
 
-### Esperto
-Includi questa dipendenza nel tuo `pom.xml` file:
+### Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -48,67 +56,58 @@ Includi questa dipendenza nel tuo `pom.xml` file:
 ```
 
 ### Gradle
-Aggiungi questa riga al tuo `build.gradle` file:
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-In alternativa, scarica l'ultima versione di Aspose.Slides per Java da [Rilasci di Aspose](https://releases.aspose.com/slides/java/).
+Oppure scarica il pacchetto più recente da [Aspose Releases](https://releases.aspose.com/slides/java/).
 
 #### Acquisizione della licenza
-- **Prova gratuita**: Inizia con una prova gratuita di 30 giorni per esplorare le funzionalità.
-- **Licenza temporanea**: Ottieni una licenza temporanea per test più lunghi.
-- **Acquistare**: Acquista una licenza per ottenere accesso e supporto completi.
+- **Free Trial** – valutazione di 30 giorni.  
+- **Temporary License** – test esteso.  
+- **Commercial License** – utilizzo in produzione completo.
 
-Ora inizializza Aspose.Slides nella tua applicazione Java aggiungendo le importazioni necessarie come mostrato di seguito.
+Ora immergiamoci nel codice.
 
 ## Guida all'implementazione
 
-### Impostazione della directory
-Innanzitutto, assicurati che la nostra directory esista per archiviare i file di presentazione. Questo passaggio evita errori durante il salvataggio dei file.
+### Passo 1: Configurazione della directory
+Prima, assicurati che la cartella di output esista in modo che la presentazione possa essere salvata senza errori.
 
-#### Crea la directory se non esiste
 ```java
 import java.io.File;
 
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 boolean isExists = new File(dataDir).exists();
 if (!isExists) {
-    // Crea la directory
+    // Create the directory
     new File(dataDir).mkdirs();
 }
 ```
-Questo frammento controlla una directory specificata e la crea se non esiste. Utilizza `File.exists()` per verificare la presenza e `File.mkdirs()` per creare directory.
 
-### Inizializzazione della presentazione
+### Passo 2: Inizializzazione della presentazione
+Crea una nuova presentazione e ottieni la prima diapositiva.
 
-Successivamente, inizializza l'oggetto presentazione in cui aggiungerai il grafico a dispersione.
-
-#### Inizializza la tua presentazione
 ```java
 import com.aspose.slides.Presentation;
 
 Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
 ```
-Qui, `new Presentation()` Crea una presentazione vuota. Accediamo direttamente alla prima diapositiva per lavorarci.
 
-### Creazione di grafici
-Il passo successivo è creare un grafico a dispersione sulla nostra diapositiva inizializzata.
+### Passo 3: Aggiungi un grafico a dispersione
+Inserisci un grafico a dispersione con linee fluide nella diapositiva.
 
-#### Aggiungi grafico a dispersione alla diapositiva
 ```java
 import com.aspose.slides.IChart;
 import com.aspose.slides.ChartType;
 
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 ```
-Questo frammento di codice aggiunge un grafico a dispersione con linee morbide alla prima diapositiva. I parametri definiscono la posizione e le dimensioni del grafico.
 
-### Gestione dei dati del grafico
-Ora gestiamo i dati del nostro grafico cancellando tutte le serie esistenti e aggiungendone di nuove.
+### Passo 4: Gestire i dati del grafico (cancellare e aggiungere serie)
+Rimuovi eventuali serie predefinite e aggiungi le nostre serie per il **grafico a dispersione a più serie**.
 
-#### Gestisci serie di grafici
 ```java
 import com.aspose.slides.IChartDataWorkbook;
 import com.aspose.slides.IChartSeries;
@@ -117,16 +116,14 @@ int defaultWorksheetIndex = 0;
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 chart.getChartData().getSeries().clear();
 
-// Aggiungere una nuova serie al grafico
+// Adding new series to the chart
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 1, 1, "Series 1"), chart.getType());
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 1, 3, "Series 2"), chart.getType());
 ```
-Questa sezione cancella i dati esistenti e aggiunge due nuove serie al nostro grafico a dispersione.
 
-### Aggiunta di punti dati per serie di dispersione
-Per visualizzare i nostri dati, aggiungiamo punti a ciascuna serie nel grafico a dispersione.
+### Passo 5: Aggiungi punti dati scatter
+Popola ogni serie con valori X‑Y usando **add data points scatter**.
 
-#### Aggiungi punti dati
 ```java
 import com.aspose.slides.DataPointImpl;
 
@@ -134,12 +131,10 @@ IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 1), fact.getCell(defaultWorksheetIndex, 2, 2, 3));
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 2), fact.getCell(defaultWorksheetIndex, 3, 2, 10));
 ```
-Noi usiamo `addDataPointForScatterSeries()` Per aggiungere punti dati alla nostra prima serie. I parametri definiscono i valori X e Y.
 
-### Tipo di serie e modifica del marcatore
-Personalizza l'aspetto del tuo grafico modificando il tipo e lo stile dei marcatori in ogni serie.
+### Passo 6: Personalizzare i tipi di serie e i marcatori
+Regola lo stile visivo—passa a linee rette con marcatori e imposta simboli di marcatore distinti.
 
-#### Serie personalizzata
 ```java
 import com.aspose.slides.MarkerStyleType;
 
@@ -147,7 +142,7 @@ series.setType(ChartType.ScatterWithStraightLinesAndMarkers);
 series.getMarker().setSize(10);
 series.getMarker().setSymbol(MarkerStyleType.Star);
 
-// Modifica della seconda serie
+// Modifying second series
 series = chart.getChartData().getSeries().get_Item(1);
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 5), fact.getCell(defaultWorksheetIndex, 2, 4, 2));
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 3), fact.getCell(defaultWorksheetIndex, 3, 4, 1));
@@ -157,47 +152,47 @@ series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorkshee
 series.getMarker().setSize(10);
 series.getMarker().setSymbol(MarkerStyleType.Circle);
 ```
-Queste modifiche modificano il tipo di serie per utilizzare linee rette e marcatori. Abbiamo anche impostato la dimensione e il simbolo del marcatore per una distinzione visiva.
 
-### Salvataggio della presentazione
-Infine, salva la presentazione con tutte le modifiche apportate.
+### Passo 7: Salva la presentazione
+Salva il file su disco.
 
-#### Salva la tua presentazione
 ```java
 import com.aspose.slides.SaveFormat;
 
 pres.save("YOUR_OUTPUT_DIRECTORY/AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
-Utilizzo `SaveFormat.Pptx` per specificare il formato PowerPoint in cui salvare il file. Questo passaggio è fondamentale per preservare tutte le modifiche.
 
 ## Applicazioni pratiche
-Ecco alcuni casi d'uso concreti:
-1. **Analisi finanziaria**: Utilizza i grafici a dispersione per visualizzare l'andamento dei titoli azionari nel tempo.
-2. **Ricerca scientifica**: Rappresenta i punti dati sperimentali per l'analisi.
-3. **Gestione del progetto**: Visualizza l'allocazione delle risorse e le metriche di progresso.
-
-L'integrazione di Aspose.Slides nel tuo sistema ti consente di automatizzare la generazione di report, migliorando la produttività e la precisione.
+- **Financial Analysis** – Traccia i movimenti dei prezzi delle azioni con un grafico a dispersione a più serie.  
+- **Scientific Research** – Visualizza le misurazioni sperimentali usando **add data points scatter** per una rappresentazione dati precisa.  
+- **Project Management** – Mostra le tendenze di allocazione delle risorse attraverso diversi progetti su un unico grafico a dispersione.
 
 ## Considerazioni sulle prestazioni
-Per prestazioni ottimali:
-- Gestisci l'utilizzo della memoria eliminando le presentazioni dopo averle salvate.
-- Utilizzare strutture dati efficienti per set di dati di grandi dimensioni.
-- Ridurre al minimo le operazioni che richiedono molte risorse all'interno dei cicli.
+- Disporre dell'oggetto `Presentation` dopo il sal- Per grandi set di dati, popola il workbook in batch anziché uno per uno.  
+- Evita stilizzazioni eccessive all'interno di loop stretti; applica gli stili dopo l'inserimento dei dati.
 
-Le migliori pratiche garantiscono un'esecuzione fluida anche in caso di manipolazioni complesse dei grafici.
+## Problemi comuni e soluzioni
 
-## Conclusione
-In questo tutorial, hai imparato a configurare directory, inizializzare presentazioni Aspose.Slides, creare e personalizzare grafici a dispersione, gestire i dati delle serie, modificare i marcatori e salvare il tuo lavoro. Per esplorare ulteriormente le funzionalità di Aspose.Slides, prendi in considerazione l'idea di approfondire funzionalità più avanzate come animazioni e transizioni tra diapositive.
+| Problema | Soluzione |
+|----------|-----------|
+| **Il grafico appare vuoto** | Verifica che i punti dati siano aggiunti alla serie corretta e che gli indici del workbook corrispondano. |
+| **I marcatori non sono visibili** | il simbolo del marcat **OutOfMemoryError su grafici grandi** | Usa `pres.dispose()` Posso aggiungere più di due serie a un grafico a dispersione?
+Assolutamente. Ripeti il blocco di creazione della serie (Passo 4) per ogni serie aggiuntiva necessaria.
 
-**Prossimi passi**: Sperimenta diversi tipi di grafici o integra queste tecniche in un progetto Java più ampio.
+### È possibile esportare il grafico come immagine?
+S dati.
 
-## Domande frequenti
+### Aspattivi sui punti di dispersione?
+Sebbene PowerPoint non fornisca tooltip in fase di esecuzione, è possibile incorporare etichette dati usando `series.getDataPoints().get_Item(i).getLabel().setText("Your text")`.
 
-### Come faccio a cambiare il colore dei pennarelli?
-Per cambiare il colore del marcatore, utilizzare `series.getMarker().getFillFormat().setFillColor(ColorObject)`, Dove `ColorObject` è il colore desiderato.
+### Come posso animare le serie a dispersione?
+Usa `chart.getChartData().getSeries().get_Item(i).getFormat().getEffectFormat().setPresetEffect(PresetEffectType.Appear)` per aggiungere una semplice animazione di apparizione.
 
-### Posso aggiungere più di due serie a un grafico a dispersione?
-Sì, puoi aggiungere tutte le serie che desideri ripetendo il processo di aggiunta di nuove serie e punti dati.
+---
+
+**Ultimo aggiornamento:** 2026-01-24  
+**Testato con:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

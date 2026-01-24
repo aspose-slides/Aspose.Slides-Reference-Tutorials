@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Dowiedz się, jak tworzyć dynamiczne wykresy punktowe za pomocą Aspose.Slides dla Java. Ulepsz swoje prezentacje dzięki konfigurowalnym funkcjom wykresów."
-"title": "Tworzenie i dostosowywanie wykresów punktowych w języku Java za pomocą Aspose.Slides"
-"url": "/pl/java/charts-graphs/aspose-slides-scatter-charts-java-tutorial/"
-"weight": 1
+date: '2026-01-24'
+description: Przewodnik krok po kroku, jak stworzyć wykres punktowy w Javie przy użyciu
+  Aspose.Slides, dodać punkty danych do wykresu punktowego i pracować z wykresem punktowym
+  zawierającym wiele serii.
+keywords:
+- Aspose.Slides for Java
+- create scatter charts in Java
+- customize Java charts with Aspose
+title: Tworzenie wykresu punktowego w Javie z Aspose.Slides – Dostosuj i zapisz
+url: /pl/java/charts-graphs/aspose-slides-scatter-charts-java-tutorial/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,33 +17,39 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Tworzenie i dostosowywanie wykresów punktowych w języku Java za pomocą Aspose.Slides
+# Utwórz wykres punktowy w Javie z Aspose.Slides
 
-Ulepsz swoje prezentacje, dodając dynamiczne wykresy punktowe za pomocą Java z Aspose.Slides. Ten kompleksowy samouczek przeprowadzi Cię przez proces konfigurowania katalogów, inicjowania prezentacji, tworzenia wykresów punktowych, zarządzania danymi wykresu, dostosowywania typów serii i znaczników oraz zapisywania swojej pracy — wszystko z łatwością.
+W tym samouczku **utworzysz projekty wykresu punktowego w Javie** od podstaw, dodasz punkty danych do wykresu punktowego i nauczysz się pracować z wykresem punktowym z wieloma seriami — wszystko przy użyciu Aspose.Slides for Java. Przejdziemy przez konfigurację katalogu, inicjalizację prezentacji, tworzenie wykresu, zarządzanie danymi, dostosowywanie znaczników oraz ostateczne zapisanie prezentacji.
 
-**Czego się nauczysz:**
-- Konfigurowanie katalogu do przechowywania plików prezentacji
-- Inicjowanie i manipulowanie prezentacjami za pomocą Aspose.Slides
-- Tworzenie wykresów punktowych na slajdach
-- Zarządzanie danymi i dodawanie ich do serii wykresów
-- Dostosowywanie typów i znaczników serii wykresów
-- Zapisywanie prezentacji ze zmianami
+**Co się nauczysz**
+- Konfigurowanie katalogu do przechowywania plików prezentacji  
+- Inicjalizowanie i manipulowanie prezentacjami przy użyciu Aspose.Slides  
+- Tworzenie wykresu punktowego na slajdzie  
+- Dodawanie i zarządzanie punktami danych dla każdej serii  
+- Dostosowywanie typów serii, znaczników oraz obsługa wykresu punktowego z wieloma seriami  
+- Zapisywanie gotowej prezentacji  
 
-Zacznijmy od upewnienia się, czy spełniasz niezbędne wymagania wstępne.
+Zacznijmy od wymagań wstępnych.
+
+## Szybkie odpowiedzi
+- **Jaka jest podstawowa biblioteka?** Aspose.Slides for Java  
+- **Jaka wersja Javy jest wymagana?** JDK 8 lub wyższa (zalecany JDK 16)  
+- **Czy mogę dodać więcej niż dwie serie?** Tak – możesz dodać dowolną liczbę serii do wykresu punktowego  
+- **Jak zmienić kolory znaczników?** Użyj `series.getMarker().getFillFormat().setFillColor(Color)`  
+- **Czy potrzebna jest licencja do produkcji?** Tak, licencja komercyjna usuwa ograniczenia wersji próbnej  
 
 ## Wymagania wstępne
 
-Aby skorzystać z tego samouczka, upewnij się, że posiadasz:
-- **Aspose.Slides dla Java**: Wymagana jest wersja 25.4 lub nowsza.
-- **Zestaw narzędzi programistycznych Java (JDK)**:Wymagany jest JDK 8 lub nowszy.
-- Podstawowa znajomość programowania w Javie i znajomość narzędzi do budowania Maven lub Gradle.
+Aby podążać za tym samouczkiem, upewnij się, że masz:
+- **Aspose.Slides for Java** – wersja 25.4 lub nowsza.  
+- **Java Development Kit (JDK)** – JDK 8 lub nowszy.  
+- Podstawową znajomość Javy oraz doświadczenie z Maven lub Gradle.  
 
-## Konfigurowanie Aspose.Slides dla Java
+## Konfiguracja Aspose.Slides for Java
 
-Zanim zaczniesz kodować, zintegruj Aspose.Slides ze swoim projektem, korzystając z jednej z następujących metod:
+Zintegruj Aspose.Slides z projektem, korzystając z jednej z poniższych metod.
 
 ### Maven
-Uwzględnij tę zależność w swoim `pom.xml` plik:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -48,67 +60,58 @@ Uwzględnij tę zależność w swoim `pom.xml` plik:
 ```
 
 ### Gradle
-Dodaj tę linię do swojego `build.gradle` plik:
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Alternatywnie, pobierz najnowszą wersję Aspose.Slides dla Java ze strony [Wydania Aspose](https://releases.aspose.com/slides/java/).
+Lub pobierz najnowszy pakiet z [Aspose Releases](https://releases.aspose.com/slides/java/).
 
-#### Nabycie licencji
-- **Bezpłatna wersja próbna**: Rozpocznij od 30-dniowego bezpłatnego okresu próbnego, aby poznać funkcje.
-- **Licencja tymczasowa**:Uzyskaj tymczasową licencję na rozszerzone testy.
-- **Zakup**:Kup licencję, aby uzyskać pełny dostęp i wsparcie.
+#### Pozyskanie licencji
+- **Bezpłatna wersja próbna** – 30‑dniowa ocena.  
+- **Licencja tymczasowa** – rozszerzone testowanie.  
+- **Licencja komercyjna** – pełne użycie produkcyjne.
 
-Teraz zainicjuj Aspose.Slides w swojej aplikacji Java, dodając niezbędne importy, jak pokazano poniżej.
+Teraz przejdźmy do kodu.
 
-## Przewodnik wdrażania
+## Przewodnik implementacji
 
-### Konfiguracja katalogu
-Najpierw upewnij się, że nasz katalog istnieje do przechowywania plików prezentacji. Ten krok zapobiega błędom podczas zapisywania pliku.
+### Krok 1: Konfiguracja katalogu
+Najpierw upewnij się, że folder wyjściowy istnieje, aby prezentacja mogła zostać zapisana bez błędów.
 
-#### Utwórz katalog, jeśli nie istnieje
 ```java
 import java.io.File;
 
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 boolean isExists = new File(dataDir).exists();
 if (!isExists) {
-    // Utwórz katalog
+    // Create the directory
     new File(dataDir).mkdirs();
 }
 ```
-Ten fragment kodu sprawdza określony katalog i tworzy go, jeśli nie istnieje. Używa `File.exists()` w celu sprawdzenia obecności i `File.mkdirs()` aby tworzyć katalogi.
 
-### Inicjalizacja prezentacji
+### Krok 2: Inicjalizacja prezentacji
+Utwórz nową prezentację i pobierz pierwszy slajd.
 
-Następnie zainicjuj obiekt prezentacji, do którego chcesz dodać wykres punktowy.
-
-#### Zainicjuj swoją prezentację
 ```java
 import com.aspose.slides.Presentation;
 
 Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
 ```
-Tutaj, `new Presentation()` tworzy pustą prezentację. Uzyskujemy dostęp do pierwszego slajdu, aby pracować z nim bezpośrednio.
 
-### Tworzenie wykresu
-Następnym krokiem jest utworzenie wykresu punktowego na naszym zainicjowanym slajdzie.
+### Krok 3: Dodaj wykres punktowy
+Wstaw wykres punktowy z gładkimi liniami na slajd.
 
-#### Dodaj wykres punktowy do slajdu
 ```java
 import com.aspose.slides.IChart;
 import com.aspose.slides.ChartType;
 
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 ```
-Ten fragment kodu dodaje wykres punktowy z gładkimi liniami do pierwszego slajdu. Parametry definiują pozycję i rozmiar wykresu.
 
-### Zarządzanie danymi wykresu
-Teraz możemy zarządzać danymi na wykresie poprzez wyczyszczenie istniejących serii i dodanie nowych.
+### Krok 4: Zarządzanie danymi wykresu (czyszczenie i dodawanie serii)
+Wyczyść domyślne serie i dodaj własne serie dla **wykresu punktowego z wieloma seriami**.
 
-#### Zarządzaj serią wykresów
 ```java
 import com.aspose.slides.IChartDataWorkbook;
 import com.aspose.slides.IChartSeries;
@@ -117,16 +120,14 @@ int defaultWorksheetIndex = 0;
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 chart.getChartData().getSeries().clear();
 
-// Dodawanie nowej serii do wykresu
+// Adding new series to the chart
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 1, 1, "Series 1"), chart.getType());
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 1, 3, "Series 2"), chart.getType());
 ```
-Ta sekcja usuwa istniejące dane i dodaje dwie nowe serie do naszego wykresu punktowego.
 
-### Dodawanie punktów danych dla serii rozrzutu
-Aby zwizualizować nasze dane, dodajemy punkty do każdej serii na wykresie punktowym.
+### Krok 5: Dodaj punkty danych do wykresu punktowego
+Wypełnij każdą serię wartościami X‑Y przy użyciu **add data points scatter**.
 
-#### Dodaj punkty danych
 ```java
 import com.aspose.slides.DataPointImpl;
 
@@ -134,12 +135,10 @@ IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 1), fact.getCell(defaultWorksheetIndex, 2, 2, 3));
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 2), fact.getCell(defaultWorksheetIndex, 3, 2, 10));
 ```
-Używamy `addDataPointForScatterSeries()` aby dodać punkty danych do naszej pierwszej serii. Parametry definiują wartości X i Y.
 
-### Typ serii i modyfikacja znacznika
-Dostosuj wygląd wykresu, zmieniając rodzaj i styl znaczników w każdej serii.
+### Krok 6: Dostosuj typy serii i znaczniki
+Dostosuj styl wizualny — przełącz na proste linie ze znacznikami i ustaw odrębne symbole znaczników.
 
-#### Dostosuj serię
 ```java
 import com.aspose.slides.MarkerStyleType;
 
@@ -147,7 +146,7 @@ series.setType(ChartType.ScatterWithStraightLinesAndMarkers);
 series.getMarker().setSize(10);
 series.getMarker().setSymbol(MarkerStyleType.Star);
 
-// Modyfikacja drugiej serii
+// Modifying second series
 series = chart.getChartData().getSeries().get_Item(1);
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 5), fact.getCell(defaultWorksheetIndex, 2, 4, 2));
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 3), fact.getCell(defaultWorksheetIndex, 3, 4, 1));
@@ -157,47 +156,50 @@ series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorkshee
 series.getMarker().setSize(10);
 series.getMarker().setSymbol(MarkerStyleType.Circle);
 ```
-Te zmiany dostosowują typ serii do używania linii prostych i znaczników. Ustawiamy również rozmiar znacznika i symbol dla rozróżnienia wizualnego.
 
-### Zapisywanie prezentacji
-Na koniec zapisz prezentację ze wszystkimi wprowadzonymi modyfikacjami.
+### Krok 7: Zapisz prezentację
+Zapisz plik na dysku.
 
-#### Zapisz swoją prezentację
 ```java
 import com.aspose.slides.SaveFormat;
 
 pres.save("YOUR_OUTPUT_DIRECTORY/AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
-Używać `SaveFormat.Pptx` aby określić format PowerPoint do zapisania pliku. Ten krok jest kluczowy dla zachowania wszystkich zmian.
 
-## Zastosowania praktyczne
-Oto kilka przykładów zastosowań w świecie rzeczywistym:
-1. **Analiza finansowa**:Użyj wykresów punktowych, aby wyświetlić trendy giełdowe na przestrzeni czasu.
-2. **Badania naukowe**:Przedstaw punkty danych eksperymentalnych do analizy.
-3. **Zarządzanie projektami**:Wizualizacja alokacji zasobów i wskaźników postępu.
+## Praktyczne zastosowania
+- **Analiza finansowa** – wykreśl ruchy cen akcji przy użyciu wykresu punktowego z wieloma seriami.  
+- **Badania naukowe** – wizualizuj pomiary eksperymentalne, używając add data points scatter dla precyzyjnej reprezentacji danych.  
+- **Zarządzanie projektami** – pokaż trendy alokacji zasobów w kilku projektach na jednym wykresie punktowym.
 
-Zintegrowanie Aspose.Slides z systemem umożliwia automatyzację generowania raportów, co przekłada się na zwiększenie produktywności i dokładności.
+## Wskazówki dotyczące wydajności
+- Zwolnij obiekt `Presentation` po zapisaniu, aby zwolnić pamięć.  
+- Przy dużych zestawach danych wprowadzaj dane do skoroszytu partiami, a nie pojedynczo.  
+- Unikaj nadmiernego stylizowania wewnątrzuj style po wstawieniu danych.
 
-## Rozważania dotyczące wydajności
-Aby uzyskać optymalną wydajność:
-- Zarządzaj wykorzystaniem pamięci poprzez usuwanie prezentacji po ich zapisaniu.
-- Używaj wydajnych struktur danych w przypadku dużych zbiorów danych.
-- Minimalizuj operacje intensywnie wykorzystujące zasoby w pętlach.
+## Typowe problemy i rozwiązania
+| Problem | Rozwiązanie |
+|-------|----------|
+| **Wykres jest pusty** | Sprawdź, czy punkty danych zostały dodane do właściwej serii i czy indeksy skoroszytu są prawidłowe. |
+| **Znaczniki nie są widoczne** | Upewnij się, że `series.getMarker().setSize()` ma wartość większą niż 0 oraz że symbol znacznika został określony. |
+| **OutOfMemoryError przy dużych wykresach** | Użyj `pres.dispose()` po zapisaniu i rozważ zwiększenie rozmiaru sterty JVM (`-Xmx`). |
 
-Najlepsze praktyki gwarantują płynną realizację nawet w przypadku skomplikowanych manipulacji wykresami.
+## Najczęściej zadawane pytania
 
-## Wniosek
-W tym samouczku nauczyłeś się konfigurować katalogi, inicjować prezentacje Aspose.Slides, tworzyć i dostosowywać wykresy punktowe, zarządzać danymi serii, modyfikować znaczniki i zapisywać swoją pracę. Aby lepiej poznać możliwości Aspose.Slides, rozważ zanurzenie się w bardziej zaawansowanych funkcjach, takich jak animacja i przejścia slajdów.
+### Jak zm gdzie `.Color`.
 
-**Następne kroki**:Eksperymentuj z różnymi typami wykresów lub zintegruj te techniki w większym projekcie Java.
+### Czy mogę dodać dodaniu wszystkich danych.
 
-## Często zadawane pytania
+### Czy Aspose.Slides obsługuje interaktywne podpowiedzi na punktach wykresu?
+PowerPoint nie zapew możesz osadzić etykiety danych używając `series.getDataPoints().get_Item(i).getLabel().setText("Twój tekst")`.
 
-### Jak zmienić kolor znaczników?
-Aby zmienić kolor znacznika, użyj `series.getMarker().getFillFormat().setFillColor(ColorObject)`, Gdzie `ColorObject` to jest Twój pożądany kolor.
+### Jak mogę animować serie punktowe?
+Użyjć prostą animację pojawiania się.
 
-### Czy mogę dodać do wykresu punktowego więcej niż dwie serie?
-Tak, możesz dodać tyle serii, ile potrzebujesz, powtarzając proces dodawania nowych serii i punktów danych.
+---
+
+**Ostatnia aktualizacja:** 2026-01-24  
+**Testowano z:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
