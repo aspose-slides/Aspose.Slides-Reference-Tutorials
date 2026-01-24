@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-17"
-"description": "Lär dig skapa professionella presentationer med Aspose.Slides för Java. Den här guiden beskriver hur du konfigurerar din miljö, lägger till staplade kolumndiagram och anpassar dem för tydlighetens skull."
-"title": "Bemästra staplade kolumndiagram i Java med Aspose.Slides – En omfattande guide"
-"url": "/sv/java/charts-graphs/aspose-slides-java-stacked-column-charts/"
-"weight": 1
+date: '2026-01-24'
+description: Lär dig hur du skapar diagram med Aspose.Slides för Java, inklusive inställning
+  av procentuell staplad kolumn, axelformatering och anpassning av datamärkning.
+keywords:
+- Aspose.Slides
+- stacked column chart
+- Java presentation
+title: 'Hur man skapar diagram: Staplad kolumn med Aspose.Slides Java'
+url: /sv/java/charts-graphs/aspose-slides-java-stacked-column-charts/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,32 +16,42 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Bemästra staplade kolumndiagram i Java med Aspose.Slides: En omfattande guide
+# Mästra staplade stapeldiagram i Java med Aspose.Slides: En omfattande guide
 
 ## Introduktion
 
-Förbättra dina presentationer genom att integrera insiktsfulla datavisualiseringar med kraften i Aspose.Slides för Java. Att skapa professionella bilder med staplade kolumndiagram är enkelt, oavsett om du förbereder affärsrapporter eller visar upp projektstatistik.
+Höj dina presentationer genom att integrera insiktsfulla datavisualiseringar med kraften i Aspose.Slides för Java. I den här handledningen lär du dig **hur du skapar diagram‑drivna bilder** som förvandlar råa siffror till tydliga berättelser – oavsett om du förbereder affärsrapporter, projekt‑dashboards eller marknadsföringspresentationer.  
 
-I den här handledningen utforskar vi hur man använder Aspose.Slides för Java för att skapa dynamiska presentationer och lägga till visuellt tilltalande staplade kolumndiagram. I slutet av den här guiden kommer du att vara utrustad med de färdigheter som behövs för att:
-- Konfigurera din miljö för att använda Aspose.Slides
-- Skapa en presentation från grunden
-- Lägg till och anpassa procentuellt staplade kolumndiagram
-- Formatera diagramaxlar och dataetiketter för tydlighetens skull
+Vi går igenom hur du ställer in din miljö, lägger till ett **procentuellt staplat stapeldiagram**, och anpassar axlar, serier och datamärkningar så att den färdiga presentationen ser polerad och professionell ut.
 
 Låt oss dyka ner i att skapa presentationer som fängslar din publik.
 
-## Förkunskapskrav
-Innan vi börjar, se till att du har följande:
-- **Java-utvecklingspaket (JDK):** Version 8 eller senare.
-- **ID:** Valfri integrerad utvecklingsmiljö som IntelliJ IDEA eller Eclipse.
-- **Maven/Gradle:** För hantering av beroenden (valfritt men rekommenderas).
-- **Grundläggande Java-kunskaper:** Bekantskap med Java-programmeringskoncept.
+## Snabba svar
+- **Vad är huvudbiblioteket?** Aspose.Slides för Java
+- **Vilken Maven‑artefakt lägger till biblioteket?** `com.aspose:aspose-slides` (se avsnittet *aspose slides maven*)
+- **Hur lägger man till ett procentuellt staplat stapeldiagram?** Använd `ChartType.PercentsStackedColumn` när du anropar `addChart`
+- **Kan jag formatera diagramaxelns siffror?** Ja – sätt `verticalAxis.setNumberFormat("0.00%")`
+- **Hur anpassar jag texten i datamärkningarna?** Åsidosätt varje punkts `ITextFrame` via `point.getLabel().getTextFrameForOverriding()`
 
-## Konfigurera Aspose.Slides för Java
-För att komma igång måste du inkludera Aspose.Slides-biblioteket i ditt projekt. Så här gör du:
+## Vad är ett staplat stapeldiagram?
+Ett staplat stapeldiagram grupperar flera dataserier i en enda stapel, vilket låter dig jämföra den totala storleken samtidigt som du ser varje komponents bidrag. Varianten **procentuellt staplat stapeldiagram** normaliserar varje stapel till 100 %, vilket gör den idealisk för att visa proportionella data över kategorier.
 
-**Maven:**
-Lägg till detta beroende till din `pom.xml` fil:
+## Varför använda Aspose.Slides för Java?
+- **Ingen Office‑installation krävs** – generera PPTX‑filer på vilken server som helst.
+- **Fullt utrustat diagram‑API** – stödjer alla diagramtyper, inklusive procentuellt staplat stapeldiagram.
+- **Plattformsoberoende** – fungerar på Windows, Linux och macOS.
+- **Enkel Maven/Gradle‑integration** – se kodsnutten *aspose slides maven* nedan.
+
+## Förutsättningar
+- **Java Development Kit (JDK):** 8 eller högre.
+- **IDE:** IntelliJ IDEA, Eclipse eller någon annan Java‑kompatibel editor.
+- **Byggverktyg (valfritt):** Maven eller Gradle för beroendehantering.
+- **Grundläggande Java‑kunskaper** – du bör vara bekväm med klasser, metoder och samlingar.
+
+## Installera Aspose.Slides för Java
+För att komma igång måste du inkludera Aspose.Slides‑biblioteket i ditt projekt.
+
+**Maven:**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -46,54 +61,53 @@ Lägg till detta beroende till din `pom.xml` fil:
 </dependency>
 ```
 
-**Gradle:**
-Inkludera detta i din `build.gradle` fil:
+**Gradle:**  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Direkt nedladdning:**
-Alternativt kan du ladda ner den senaste JAR-filen från [Aspose.Slides för Java-versioner](https://releases.aspose.com/slides/java/).
+**Direkt nedladdning:**  
+Alternativt kan du ladda ner den senaste JAR‑filen från [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### Licensförvärv
-Du kan börja med en gratis provperiod för att utforska funktionerna i Aspose.Slides. För att ta bort begränsningar i utvärderingen kan du överväga att skaffa en tillfällig eller köpt licens.
-- **Gratis provperiod:** Få tillgång till begränsade funktioner utan omedelbara kostnader.
-- **Tillfällig licens:** Begäran via [Asposes webbplats](https://purchase.aspose.com/temporary-license/).
-- **Köpa:** Besök köpsidan för fullständig åtkomst.
+### Licensanskaffning
+Du kan börja med en gratis provversion för att utforska Aspose.Slides‑funktionerna. För att ta bort utvärderingsbegränsningar, överväg att skaffa en temporär eller köpt licens.
 
-### Grundläggande initialisering
-Så här initierar du Aspose.Slides i ditt Java-program:
+- **Gratis prov:** Tillgång till begränsade funktioner utan omedelbara kostnader.  
+- **Temporär licens:** Begär via [Aspose’s site](https://purchase.aspose.com/temporary-license/).  
+- **Köp:** Besök köpsidan för full åtkomst.
+
+### Grundläggande initiering
+Så här initierar du Aspose.Slides i din Java‑applikation:
 ```java
 import com.aspose.slides.Presentation;
 
 public class InitializeAspose {
     public static void main(String[] args) {
-        // Skapa en instans av Presentation-klassen
+        // Create an instance of Presentation class
         Presentation presentation = new Presentation();
         
-        // Utför operationer på presentationsobjektet
+        // Perform operations on the presentation object
         System.out.println("Aspose.Slides initialized successfully.");
     }
 }
 ```
 
-## Implementeringsguide
+## Så skapar du ett diagram: Steg‑för‑steg‑guide
 
-### Skapa en presentation och lägga till en bild
-**Översikt:**
-Börja med att skapa en enkel presentation med en inledande bild. Detta är din grund för ytterligare förbättringar.
+### Skapa en presentation och lägg till en bild
+**Översikt:** Börja med att skapa en enkel presentation med en initial bild. Detta blir din grund för vidare förbättringar.
 
-#### Steg 1: Initiera presentationsobjektet
+#### Steg 1: Initiera Presentation‑objekt
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 
 public class CreatePresentation {
     public static void main(String[] args) throws Exception {
-        // Skapa en ny presentationsinstans
+        // Create a new presentation instance
         Presentation presentation = new Presentation();
         
-        // Referens till den första bilden (automatiskt skapad)
+        // Reference to the first slide (auto-created)
         System.out.println("Slide count: " + presentation.getSlides().size());
     }
 }
@@ -101,15 +115,14 @@ public class CreatePresentation {
 
 #### Steg 2: Spara presentationen
 ```java
-// Spara presentationen till en fil
+// Save the presentation to a file
 presentation.save("YOUR_OUTPUT_DIRECTORY/CreatePresentation_out.pptx", SaveFormat.Pptx);
 ```
 
-### Lägga till procentuellt staplat kolumndiagram till en bild
-**Översikt:**
-Förbättra din bild genom att lägga till ett procentuellt stapeldiagram, vilket möjliggör enkel datajämförelse.
+### Lägg till procentuellt staplat stapeldiagram på en bild
+**Översikt:** Förbättra din bild genom att lägga till ett **procentuellt staplat stapeldiagram**, vilket underlättar datakomparering.
 
-#### Steg 1: Initiera och öppna bilden
+#### Steg 1: Initiera och få åtkomst till bilden
 ```java
 import com.aspose.slides.ISlide;
 import com.aspose.slides.ChartType;
@@ -119,12 +132,12 @@ public class AddChartToSlide {
         Presentation presentation = new Presentation();
         ISlide slide = presentation.getSlides().get_Item(0);
         
-        // Fortsätt med att lägga till diagrammet i nästa steg
+        // Proceed to add chart in the next step
     }
 }
 ```
 
-#### Steg 2: Lägg till diagram till bild
+#### Steg 2: Lägg till diagram på bilden
 ```java
 import com.aspose.slides.IChart;
 
@@ -132,11 +145,10 @@ IChart chart = slide.getShapes().addChart(
     ChartType.PercentsStackedColumn, 20, 20, 500, 400);
 ```
 
-### Anpassa diagramaxelns nummerformat
-**Översikt:**
-Anpassa talformatet för diagrammets vertikala axel för förbättrad läsbarhet.
+### Anpassa diagramaxelns talformat
+**Översikt:** Anpassa talformatet för diagrammets vertikala axel för bättre läsbarhet.
 
-#### Steg 1: Lägg till och få åtkomst till diagram
+#### Steg 1: Lägg till och få åtkomst till diagrammet
 ```java
 public class CustomizeChartAxis {
     public static void main(String[] args) throws Exception {
@@ -149,7 +161,7 @@ public class CustomizeChartAxis {
 }
 ```
 
-#### Steg 2: Ställ in anpassat talformat
+#### Steg 2: Ställ in eget talformat
 ```java
 import com.aspose.slides.IAxis;
 
@@ -158,9 +170,8 @@ verticalAxis.setNumberFormatLinkedToSource(false);
 verticalAxis.setNumberFormat("0.00%");
 ```
 
-### Lägga till serier och datapunkter i diagrammet
-**Översikt:**
-Fyll ditt diagram med dataserier, vilket gör det informativt och visuellt tilltalande.
+### Lägg till serier och datapunkter i diagrammet
+**Översikt:** Fyll ditt diagram med **lägg till seriedata** så att det blir informativt och visuellt tilltalande.
 
 #### Steg 1: Initiera presentation och diagram
 ```java
@@ -183,18 +194,17 @@ public class AddSeriesToChart {
 
 #### Steg 2: Lägg till dataserier
 ```java
-// Rensa befintliga serier och lägg till nya
+// Clear existing series and add new ones
 chart.getChartData().getSeries().clear();
 
 IChartSeries series1 = chart.getChartData().getSeries().add(
     workbook.getCell(defaultWorksheetIndex, 0, 1, "Reds"), chart.getType());
 series1.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 1, 1, 0.30));
-// Lägg till fler datapunkter efter behov
+// Add more data points as needed
 ```
 
-### Formateringsseriefyllningsfärg
-**Översikt:**
-Förbättra ditt diagrams estetik genom att formatera fyllningsfärgen för varje serie.
+### Formatera seriernas fyllningsfärg
+**Översikt:** Förbättra diagrammets estetik genom att formatera fyllningsfärgen för varje serie.
 
 #### Steg 1: Initiera och få åtkomst till diagrammet
 ```java
@@ -220,12 +230,11 @@ IChartSeries series1 = chart.getChartData().getSeries().get_Item(0);
 series1.getFormat().getFill().setFillType(FillType.Solid);
 series1.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 
-// Upprepa för andra serier med andra färger
+// Repeat for other series with different colors
 ```
 
-### Formatera dataetiketter
-**Översikt:**
-Gör dina dataetiketter mer läsbara genom att anpassa deras format.
+### Formatera datamärkningar
+**Översikt:** Gör datamärkningarna mer läsbara genom att **formatera diagramdatamärkningar** för att visa anpassad text.
 
 #### Steg 1: Få åtkomst till diagramserier och datapunkter
 ```java
@@ -243,7 +252,7 @@ public class FormatDataLabels {
 }
 ```
 
-#### Steg 2: Anpassa dataetiketter
+#### Steg 2: Anpassa datamärkningarna
 ```java
 import com.aspose.slides.ITextFrame;
 import com.aspose.slides.IChartDataPoint;
@@ -258,10 +267,36 @@ for (IChartSeries series : chart.getChartData().getSeries()) {
 }
 ```
 
-## Slutsats
-Genom att följa den här guiden har du lärt dig hur du konfigurerar Aspose.Slides för Java och skapar dynamiska presentationer med procentuellt staplade kolumndiagram. Anpassa dina diagram ytterligare genom att justera färger och etiketter efter dina behov.
+## Vanliga användningsområden
+- **Kvartalsvisa försäljnings‑dashboards** – visualisera produktlinjers bidrag som procent av total omsättning.  
+- **Projektresursallokering** – visa hur teammedlemmar fördelas över uppgifter i en enda stapel.  
+- **Undersökningsresultat** – jämför svarsfördelningar över flera frågor.
 
-Lycka till med kodningen!
+## Vanliga frågor
+
+**Q: Behöver jag en betald licens för att generera staplade stapeldiagram?**  
+A: En gratis provversion låter dig skapa diagram, men en permanent licens tar bort vattenmärken och låser upp full funktionalitet.
+
+**Q: Kan jag ändra diagramtypen efter att den skapats?**  
+A: Ja, du kan ersätta diagrammet genom att ta bort den befintliga formen och lägga till en ny med en annan `ChartType`.
+
+**Q: Hur exporterar jag presentationen till PDF?**  
+A: Använd `presentation.save("output.pdf", SaveFormat.Pdf);` efter att du har slutfört redigeringen av bilderna.
+
+**Q: Är API‑et kompatibelt med Java 11 och nyare?**  
+A: Absolut. Biblioteket fungerar med JDK 8 upp till JDK 21; välj bara rätt classifier (t.ex. `jdk16`).
+
+**Q: Vad händer om jag behöver lägga till fler än tre serier?**  
+A: Upprepa helt enkelt blocket för att lägga till serier och justera kalkylbladsreferenserna för varje ny serie.
+
+## Slutsats
+Genom att följa den här guiden vet du nu **hur du skapar diagram**‑visualiseringar med Aspose.Slides för Java, från att sätta upp Maven/Gradle‑beroendet till att anpassa ett procentuellt staplat stapeldiagrams axlar, seriefärger och datamärkningar. Experimentera med olika datamängder, applicera dina egna varumärkesfärger och integrera dessa bilder i automatiserade rapporterings‑pipelines.
+
+---
+
+**Senast uppdaterad:** 2026-01-24  
+**Testat med:** Aspose.Slides 25.4 (jdk16 classifier)  
+**Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
