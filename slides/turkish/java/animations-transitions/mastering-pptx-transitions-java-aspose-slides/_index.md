@@ -208,6 +208,12 @@ Artık **modify pptx transitions java** sürecini uçtan uca gördünüz: bir do
 - [Temporary License Application](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Son Güncelleme:** 2025-12-20  
+**Test Edilen Versiyon:** Aspose.Slides 25.4 (jdk16)  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -215,9 +221,3 @@ Artık **modify pptx transitions java** sürecini uçtan uca gördünüz: bir do
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-20  
-**Test Edilen Versiyon:** Aspose.Slides 25.4 (jdk16)  
-**Yazar:** Aspose

@@ -207,6 +207,12 @@ effect.getTiming().setRepeatUntilNextClick(true);
 - [Temporary License Application](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
+---
+
+**마지막 업데이트:** 2025-12-20  
+**테스트 환경:** Aspose.Slides 25.4 (jdk16)  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -214,9 +220,3 @@ effect.getTiming().setRepeatUntilNextClick(true);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2025-12-20  
-**테스트 환경:** Aspose.Slides 25.4 (jdk16)  
-**작성자:** Aspose

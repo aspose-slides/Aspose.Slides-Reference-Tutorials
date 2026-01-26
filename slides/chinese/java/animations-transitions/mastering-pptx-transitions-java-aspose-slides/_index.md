@@ -207,6 +207,12 @@ effect.getTiming().setRepeatUntilNextClick(true);
 - [临时许可证申请](https://purchase.aspose.com/temporary-license/)
 - [Aspose 支持论坛](https://forum.aspose.com/c/slides/11)
 
+---
+
+**最后更新：** 2025-12-20  
+**测试环境：** Aspose.Slides 25.4 (jdk16)  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -214,9 +220,3 @@ effect.getTiming().setRepeatUntilNextClick(true);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2025-12-20  
-**测试环境：** Aspose.Slides 25.4 (jdk16)  
-**作者：** Aspose

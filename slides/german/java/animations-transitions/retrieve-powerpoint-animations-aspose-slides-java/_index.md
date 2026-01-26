@@ -7,7 +7,7 @@ keywords:
 - retrieve PowerPoint animations using Aspose.Slides for Java
 - programmatically access PowerPoint animation effects
 - Aspose.Slides animation retrieval guide
-title: 'Wie man ein Animationsanalyse‑Tool erstellt: PowerPoint‑Animationseffekte
+title: 'Wie man ein Animationsanalyse‑Tool erstellt - PowerPoint‑Animationseffekte
   mit Aspose.Slides für Java abrufen'
 url: /de/java/animations-transitions/retrieve-powerpoint-animations-aspose-slides-java/
 weight: 1
@@ -202,6 +202,12 @@ A: Prüfen Sie die Bibliotheks‑Versionen, stellen Sie sicher, dass der Pfad zu
 
 Machen Sie den nächsten Schritt zur Beherrschung der Präsentations‑Manipulation mit Aspose.Slides für Java. Viel Spaß beim Coden!
 
+---
+
+**Zuletzt aktualisiert:** 2025-12-20  
+**Getestet mit:** Aspose.Slides für Java 25.4 (jdk16)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -209,9 +215,3 @@ Machen Sie den nächsten Schritt zur Beherrschung der Präsentations‑Manipulat
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2025-12-20  
-**Getestet mit:** Aspose.Slides für Java 25.4 (jdk16)  
-**Autor:** Aspose

@@ -206,6 +206,12 @@ Du har nu sett hur du **modify pptx transitions java** från början till slut: 
 - [Temporary License Application](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Senast uppdaterad:** 2025-12-20  
+**Testad med:** Aspose.Slides 25.4 (jdk16)  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -213,9 +219,3 @@ Du har nu sett hur du **modify pptx transitions java** från början till slut: 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2025-12-20  
-**Testad med:** Aspose.Slides 25.4 (jdk16)  
-**Författare:** Aspose

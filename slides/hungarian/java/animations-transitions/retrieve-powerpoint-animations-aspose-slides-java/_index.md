@@ -8,7 +8,7 @@ keywords:
 - retrieve PowerPoint animations using Aspose.Slides for Java
 - programmatically access PowerPoint animation effects
 - Aspose.Slides animation retrieval guide
-title: 'Hogyan készítsünk animációelemző eszközt: PowerPoint animációs hatások lekérése
+title: 'Hogyan készítsünk animációelemző eszközt - PowerPoint animációs hatások lekérése
   az Aspose.Slides for Java segítségével'
 url: /hu/java/animations-transitions/retrieve-powerpoint-animations-aspose-slides-java/
 weight: 1
@@ -203,6 +203,12 @@ A: Ellenőrizze a könyvtár verziókat, győződjön meg a prezentáció útvon
 
 Tegye meg a következő lépést a prezentációkezelés mesterségében az Aspose.Slides for Java segítségével. Boldog kódolást!
 
+---
+
+**Utoljára frissítve:** 2025-12-20  
+**Tesztelt verzió:** Aspose.Slides for Java 25.4 (jdk16)  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -210,9 +216,3 @@ Tegye meg a következő lépést a prezentációkezelés mesterségében az Aspo
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utoljára frissítve:** 2025-12-20  
-**Tesztelt verzió:** Aspose.Slides for Java 25.4 (jdk16)  
-**Szerző:** Aspose

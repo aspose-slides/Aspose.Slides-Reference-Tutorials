@@ -208,6 +208,12 @@ Nyní jste viděli, jak **modify pptx transitions java** provést od začátku d
 - [Temporary License Application](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Poslední aktualizace:** 2025-12-20  
+**Testováno s:** Aspose.Slides 25.4 (jdk16)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -215,9 +221,3 @@ Nyní jste viděli, jak **modify pptx transitions java** provést od začátku d
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2025-12-20  
-**Testováno s:** Aspose.Slides 25.4 (jdk16)  
-**Autor:** Aspose

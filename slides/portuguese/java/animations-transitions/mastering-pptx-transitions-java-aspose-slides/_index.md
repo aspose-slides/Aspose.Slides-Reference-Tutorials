@@ -208,6 +208,12 @@ Agora você viu como **modificar transições pptx java** de ponta a ponta: carr
 - [Temporary License Application](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Última atualização:** 2025-12-20  
+**Testado com:** Aspose.Slides 25.4 (jdk16)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -215,9 +221,3 @@ Agora você viu como **modificar transições pptx java** de ponta a ponta: carr
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2025-12-20  
-**Testado com:** Aspose.Slides 25.4 (jdk16)  
-**Autor:** Aspose

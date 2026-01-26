@@ -8,7 +8,7 @@ keywords:
 - retrieve PowerPoint animations using Aspose.Slides for Java
 - programmatically access PowerPoint animation effects
 - Aspose.Slides animation retrieval guide
-title: 'Πώς να δημιουργήσετε ένα εργαλείο ανάλυσης κινούμενων εικόνων: Ανάκτηση εφέ
+title: 'Πώς να δημιουργήσετε ένα εργαλείο ανάλυσης κινούμενων εικόνων - Ανάκτηση εφέ
   κινούμενων διαφανειών PowerPoint με τη χρήση του Aspose.Slides για Java'
 url: /el/java/animations-transitions/retrieve-powerpoint-animations-aspose-slides-java/
 weight: 1
@@ -203,6 +203,12 @@ try {
 
 Κάντε το επόμενο βήμα στην εξοικείωση με τη διαχείριση παρουσιάσεων με το Aspose.Slides για Java. Καλή προγραμματιστική!
 
+---
+
+**Τελευταία ενημέρωση:** 2025-12-20  
+**Δοκιμή με:** Aspose.Slides για Java 25.4 (jdk16)  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -210,9 +216,3 @@ try {
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία ενημέρωση:** 2025-12-20  
-**Δοκιμή με:** Aspose.Slides για Java 25.4 (jdk16)  
-**Συγγραφέας:** Aspose

@@ -208,6 +208,12 @@ effect.getTiming().setRepeatUntilNextClick(true);
 - [Temporary License Application](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Τελευταία Ενημέρωση:** 2025-12-20  
+**Δοκιμή Με:** Aspose.Slides 25.4 (jdk16)  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -215,9 +221,3 @@ effect.getTiming().setRepeatUntilNextClick(true);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2025-12-20  
-**Δοκιμή Με:** Aspose.Slides 25.4 (jdk16)  
-**Συγγραφέας:** Aspose

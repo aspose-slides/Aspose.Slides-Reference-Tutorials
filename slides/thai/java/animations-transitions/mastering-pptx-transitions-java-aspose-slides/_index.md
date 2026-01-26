@@ -201,6 +201,12 @@ effect.getTiming().setRepeatUntilNextClick(true);
 - [สมัครไลเซนส์ชั่วคราว](https://purchase.aspose.com/temporary-license/)
 - [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/slides/11)
 
+---
+
+**อัปเดตล่าสุด:** 2025-12-20  
+**ทดสอบด้วย:** Aspose.Slides 25.4 (jdk16)  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -208,9 +214,3 @@ effect.getTiming().setRepeatUntilNextClick(true);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2025-12-20  
-**ทดสอบด้วย:** Aspose.Slides 25.4 (jdk16)  
-**ผู้เขียน:** Aspose

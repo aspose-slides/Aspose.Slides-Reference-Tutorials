@@ -1,5 +1,5 @@
 ---
-title: "How to Create an Animation Analysis Tool: Retrieve PowerPoint Animation Effects Using Aspose.Slides for Java"
+title: "How to Create an Animation Analysis Tool - Retrieve PowerPoint Animation Effects Using Aspose.Slides for Java"
 description: "Learn how to create an animation analysis tool that retrieves and displays PowerPoint animation effects using Aspose.Slides for Java. This guide covers setup, code implementation, and practical applications."
 date: "2025-12-20"
 weight: 1
@@ -199,6 +199,12 @@ A: Verify library versions, ensure the presentation path is correct, and consult
 
 Take the next step in mastering presentation manipulation with Aspose.Slides for Java. Happy coding!
 
+---
+
+**Last Updated:** 2025-12-20  
+**Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -206,9 +212,3 @@ Take the next step in mastering presentation manipulation with Aspose.Slides for
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
-**Author:** Aspose

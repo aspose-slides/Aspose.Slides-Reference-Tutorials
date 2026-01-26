@@ -206,6 +206,12 @@ These calls configure the effect to repeat either until the slide ends or until 
 - [Temporary License Application](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Последнее обновление:** 2025-12-20  
+**Тестировано с:** Aspose.Slides 25.4 (jdk16)  
+**Автор:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -213,9 +219,3 @@ These calls configure the effect to repeat either until the slide ends or until 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2025-12-20  
-**Тестировано с:** Aspose.Slides 25.4 (jdk16)  
-**Автор:** Aspose

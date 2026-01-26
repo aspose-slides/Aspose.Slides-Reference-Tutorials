@@ -7,7 +7,7 @@ keywords:
 - retrieve PowerPoint animations using Aspose.Slides for Java
 - programmatically access PowerPoint animation effects
 - Aspose.Slides animation retrieval guide
-title: 'Comment créer un outil d’analyse d’animation : récupérer les effets d’animation
+title: 'Comment créer un outil d’analyse d’animation - récupérer les effets d’animation
   PowerPoint avec Aspose.Slides pour Java'
 url: /fr/java/animations-transitions/retrieve-powerpoint-animations-aspose-slides-java/
 weight: 1
@@ -25,41 +25,41 @@ weight: 1
 Naviguer dans les paramètres d'animation complexes de PowerPoint peut être difficile. Dans ce tutoriel, vous apprendrez à **créer un outil d'analyse d'animation** qui récupère et affiche programmatiquement les effets d'animation à l'aide d'Aspose.Slides pour Java. Que vous analysiez des présentations pour la conformité, génériez des rapports ou compreniez simplement comment les animations sont construites, ce guide vous accompagne à chaque étape.
 
 **Ce que vous allez apprendre**
-- Configurer votre environnement avec Aspose.Slides pour Java  
-- Récupérer programmatiquement les détails des diapositives et des effets  
-- Afficher les effets d'animation à l'aide de code Java  
+- Configurer votre environnement avec Aspose.Slides pour Java
+- Récupérer par programmation les détails des diapositives et des effets
+- Afficher les effets d'animation à l'aide de code Java
 
-Avant de commencer, assurez‑vous d’être à l’aise avec les bases de Java et d’avoir Maven ou Gradle installés sur votre machine.
+Avant de commencer, assurez-vous d’être à l’aise avec les bases de Java et d’avoir Maven ou Gradle installé sur votre machine.
 
-## Quick Answers
-- **Qu'enseigne ce tutoriel ?** Comment créer un outil qui extrait les détails d'animation des fichiers PowerPoint.  
-- **Quelle bibliothèque est requise ?** Aspose.Slides pour Java (dernière version).  
-- **Quelle version de Java est nécessaire ?** JDK 16 ou supérieur.  
-- **Puis‑je l’utiliser pour de grandes présentations ?** Oui, avec une gestion appropriée des ressources et de la mémoire.  
-- **Une licence est‑elle requise ?** Une version d’essai suffit pour l’évaluation ; une licence complète est nécessaire en production.
+## Réponses rapides
+- **Qu'enseigne ce tutoriel ?** Comment créer un outil qui extrait les détails d'animation des fichiers PowerPoint.
+- **Quelle bibliothèque est requise ?** Aspose.Slides pour Java (dernière version).
+- **Quelle version de Java est nécessaire ?** JDK16 ou supérieur.
+- **Puis‑je l’utiliser pour de grandes présentations ?** Oui, avec une gestion appropriée des ressources et de la mémoire.
+- **Une licence est‑elle requise ?** Une version d’essai suffit pour l’évaluation ; une licence complète est nécessaire en production.
 
-## Qu’est‑ce qu’un outil d’analyse d’animation ?
-Un outil d’analyse d’animation examine la séquence d’animation de chaque diapositive, identifie les types d’effet et les associe aux formes ciblées. Cette visibilité vous aide à auditer, rapporter ou modifier automatiquement les présentations.
+## Qu’est‑ce qu’un outil d’analyse d’animation ?
+Un outil d'analyse d'animation examine la séquence d'animation de chaque diapositive, identifie les types d'effet et les associe aux formes ciblées. Cette visibilité vous aide à auditer, rapporter ou modifier automatiquement les présentations.
 
-## Pourquoi créer cet outil avec Aspose.Slides ?
-- **API complète :** Accès total aux objets timeline et effect.  
-- **Multiplateforme :** Fonctionne sur tout OS supportant Java.  
-- **Pas d’installation d’Office :** Aucun besoin de PowerPoint sur le serveur.  
+## Pourquoi créer cet outil avec Aspose.Slides ?
+- **API complète:** Accès total aux objets timeline et effect.
+- **Multiplateforme :** Fonctionne sur tout OS supportant Java.
+- **Pas d'installation d'Office:** Aucun besoin de PowerPoint sur le serveur.
 
 ## Prérequis
 
 ### Bibliothèques et dépendances requises
-- **Aspose.Slides pour Java** (dernière version)  
-- Maven ou Gradle installés  
+- **Aspose.Slides pour Java** (dernière version)
+- Maven ou Gradle installé
 
 ### Exigences de configuration de l’environnement
-- JDK 16 ou ultérieur  
+- JDK16 ou ultérieurement
 
 ### Prérequis de connaissances
-- Programmation Java de base  
-- Familiarité avec les outils de construction Maven ou Gradle  
+- Programmation Java de base
+- Familiarité avec les outils de construction Maven ou Gradle
 
-## Installation d’Aspose.Slides pour Java
+## Installation d'Aspose.Slides pour Java
 
 Ajouter Aspose.Slides à votre projet est simple. Choisissez le gestionnaire de paquets qui correspond à votre flux de travail.
 
@@ -202,6 +202,12 @@ R : Vérifiez les versions des bibliothèques, assurez‑vous que le chemin de
 
 Passez à l’étape suivante pour maîtriser la manipulation de présentations avec Aspose.Slides pour Java. Bon codage !
 
+---
+
+**Dernière mise à jour :** 2025-12-20  
+**Testé avec :** Aspose.Slides for Java 25.4 (jdk16)  
+**Auteur :** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -209,9 +215,3 @@ Passez à l’étape suivante pour maîtriser la manipulation de présentations 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2025-12-20  
-**Testé avec :** Aspose.Slides for Java 25.4 (jdk16)  
-**Auteur :** Aspose

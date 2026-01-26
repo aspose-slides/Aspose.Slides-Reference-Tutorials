@@ -206,6 +206,12 @@ Ahora has visto cómo **modify pptx transitions java** de extremo a extremo: car
 - [Temporary License Application](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Última actualización:** 2025-12-20  
+**Probado con:** Aspose.Slides 25.4 (jdk16)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -213,9 +219,3 @@ Ahora has visto cómo **modify pptx transitions java** de extremo a extremo: car
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2025-12-20  
-**Probado con:** Aspose.Slides 25.4 (jdk16)  
-**Autor:** Aspose

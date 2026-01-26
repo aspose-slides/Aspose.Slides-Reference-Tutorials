@@ -7,7 +7,7 @@ keywords:
 - retrieve PowerPoint animations using Aspose.Slides for Java
 - programmatically access PowerPoint animation effects
 - Aspose.Slides animation retrieval guide
-title: 'Cách tạo công cụ phân tích hoạt ảnh: Truy xuất hiệu ứng hoạt ảnh PowerPoint
+title: 'Cách tạo công cụ phân tích hoạt ảnh - Truy xuất hiệu ứng hoạt ảnh PowerPoint
   bằng Aspose.Slides cho Java'
 url: /vi/java/animations-transitions/retrieve-powerpoint-animations-aspose-slides-java/
 weight: 1
@@ -202,6 +202,12 @@ A: Kiểm tra phiên bản thư viện, xác nhận đường dẫn tệp đúng
 
 Tiến tới bước tiếp theo trong việc làm chủ việc thao tác bài thuyết trình với Aspose.Slides cho Java. Chúc bạn lập trình vui vẻ!
 
+---
+
+**Last Updated:** 2025-12-20  
+**Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -209,9 +215,3 @@ Tiến tới bước tiếp theo trong việc làm chủ việc thao tác bài t
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
-**Author:** Aspose

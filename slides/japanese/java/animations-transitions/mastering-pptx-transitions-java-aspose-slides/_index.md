@@ -88,14 +88,14 @@ import com.aspose.slides.Presentation;
 
 ここでは、プレゼンテーションの読み込みと保存、スライド効果シーケンスへのアクセス、効果のタイミングと繰り返しオプションの調整という 3 つのコア機能を順に解説します。
 
-### Feature 1: Loading and Saving a Presentation
+### 機能 1: プレゼンテーションの読み込みと保存
 
-#### Overview
+#### 概要
 PPTX ファイルを読み込むと、変更可能な `Presentation` オブジェクトが取得でき、変更後に保存できます。
 
-#### Step‑by‑Step Implementation
+#### ステップバイステップの実装
 
-**Step 1 – Load the Presentation**
+**ステップ 1 – プレゼンテーションの読み込み**
 
 ```java
 import com.aspose.slides.Presentation;
@@ -105,7 +105,7 @@ String dataDir = "YOUR_DOCUMENT_DIRECTORY/AnimationOnSlide.pptx";
 Presentation pres = new Presentation(dataDir);
 ```
 
-**Step 2 – Save the Modified Presentation**
+**ステップ 2 – 変更したプレゼンテーションの保存**
 
 ```java
 try {
@@ -118,20 +118,20 @@ try {
 
 `try‑finally` ブロックによりリソースが確実に解放され、メモリリークを防止します。
 
-### Feature 2: Accessing Slide Effects Sequence
+### 機能 2: スライド効果シーケンスへのアクセス
 
-#### Overview
+#### 概要
 各スライドはメインシーケンスを持つタイムラインを保持しています。このシーケンスを取得することで、個々のトランジションを読み取ったり変更したりできます。
 
-#### Step‑by‑Step Implementation
+#### ステップバイステップの実装
 
-**Step 1 – Load the Presentation (re‑use the same file)**
+**ステップ 1 – プレゼンテーションの読み込み (同じファイルを再利用)**
 
 ```java
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/AnimationOnSlide.pptx");
 ```
 
-**Step 2 – Retrieve the Effects Sequence**
+**ステップ 2 – 効果シーケンスの取得**
 
 ```java
 import com.aspose.slides.IEffect;
@@ -147,12 +147,12 @@ try {
 
 ここでは、最初のスライドのメインシーケンスから最初のエフェクトを取得しています。
 
-### Feature 3: Modifying Effect Timing and Repeat Options
+### 機能3: エフェクトのタイミングと繰り返しオプションの変更
 
-#### Overview
+#### 概要
 タイミングと繰り返し動作を変更することで、アニメーションの再生時間や再開タイミングを細かく制御できます。
 
-#### Step‑by‑Step Implementation
+#### ステップバイステップの実装
 
 ```java
 // Assume 'effect' is the IEffect instance obtained earlier
@@ -163,42 +163,47 @@ effect.getTiming().setRepeatUntilNextClick(true);
 
 これらの呼び出しにより、スライドが終了するまで、またはプレゼンターがクリックするまでエフェクトを繰り返すよう設定します。
 
-## Practical Applications
+## 実践的な応用
 
-- **Automating Presentation Updates** – 1 つのスクリプトで数百のデッキに新しいトランジションスタイルを適用。  
-- **Custom Event Slides** – 観客の反応に応じてトランジション速度を動的に変更。  
-- **Brand‑Aligned Decks** – 手作業なしで企業のトランジションガイドラインを徹底。
+- **プレゼンテーション更新の自動化** – 1 つのスクリプトで数百のデッキに新しいトランジションスタイルを適用。  
+- **カスタムイベントスライド** – 観客の反応に応じてトランジション速度を動的に変更。  
+- **ブランドに合わせたプレゼンテーション資料** 手作業なしで企業のトランジションガイドラインを徹底。
 
-## Performance Considerations
+## パフォーマンスに関する考慮事項
 
-- **Dispose Promptly** – `Presentation` オブジェクトは必ず `dispose()` を呼び出してネイティブメモリを解放。  
-- **Batch Changes** – 複数の変更をまとめて保存し、I/O オーバーヘッドを削減。  
-- **Simple Effects for Low‑End Devices** – 複雑なアニメーションは古いハードウェアでのパフォーマンス低下につながります。
+- **速やかに廃棄する** – `Presentation` オブジェクトは必ず `dispose()` を呼び出してネイティブメモリを解放。  
+- **一括変更** – 複数の変更をまとめて保存し、I/O オーバーヘッドを削減。  
+- **ローエンドデバイス向けのシンプルなエフェクト** – 複雑なアニメーションは古いハードウェアでのパフォーマンス低下につながります。
 
-## Conclusion
+## まとめ
 
 これで **modify pptx transitions java** をエンドツーエンドで実行する方法—ファイルの読み込み、エフェクトタイムラインへのアクセス、タイミングや繰り返し設定の調整—が分かりました。Aspose.Slides を使えば、面倒なスライドデッキの更新を自動化し、ビジュアルの一貫性を確保し、あらゆるシナリオに適応する動的なプレゼンテーションを作成できます。
 
 **Next Steps**: フォルダー内のすべてのスライドを処理するループを追加したり、`EffectType` や `Trigger` など他のアニメーションプロパティを試してみてください。可能性は無限です！
 
-## FAQ Section
+## FAQセクション
 
-1. **Can I modify PPTX files without saving them to disk?**  
+1. **PPTXファイルをディスクに保存せずに変更することはできますか？**
+ 
    はい—`Presentation` オブジェクトをメモリ上に保持し、後で書き出すか、Web アプリでレスポンスに直接ストリームできます。
 
-2. **What are common errors when loading presentations?**  
+2. **プレゼンテーションの読み込み時によくあるエラーは何ですか？**
+
    ファイルパスの誤り、読み取り権限の欠如、または破損したファイルが例外の主な原因です。常にパスを検証し、`IOException` を捕捉してください。
 
-3. **How do I handle multiple slides with different transitions?**  
+3. **トランジションが異なる複数のスライドを処理するにはどうすればよいですか？**
+
    `pres.getSlides()` をイテレートし、各スライドの `Timeline` に目的のエフェクトを適用します。
 
-4. **Is Aspose.Slides free for commercial projects?**  
+4. **Aspose.Slidesは商用プロジェクトでも無料で使用できますか？**
+  
    試用版は利用可能ですが、本番環境で使用するには購入したライセンスが必要です。
 
-5. **Can Aspose.Slides process large presentations efficiently?**  
+5. **Aspose.Slidesは大規模なプレゼンテーションを効率的に処理できますか？**
+
    はい。ただし、オブジェクトを速やかに破棄し、不要なファイル I/O を避けるベストプラクティスに従ってください。
 
-## Resources
+## リソース
 
 - [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
 - [Download Aspose.Slides](https://releases.aspose.com/slides/java/)
@@ -207,6 +212,12 @@ effect.getTiming().setRepeatUntilNextClick(true);
 - [Temporary License Application](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Last Updated:** 2025-12-20  
+**Tested With:** Aspose.Slides 25.4 (jdk16)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -214,9 +225,3 @@ effect.getTiming().setRepeatUntilNextClick(true);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.Slides 25.4 (jdk16)  
-**Author:** Aspose
