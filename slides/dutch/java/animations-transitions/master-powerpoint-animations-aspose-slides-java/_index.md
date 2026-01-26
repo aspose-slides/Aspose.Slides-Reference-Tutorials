@@ -177,18 +177,6 @@ Bij het werken met grote presentaties, overweeg:
 | Animatiewijzigingen niet opgeslagen | Geen `save`‑aanroep of verkeerd formaat gebruikt | Roep `presentation.save(..., SaveFormat.Pptx)` aan |
 | Licentie niet toegepast | Licentiebestand niet geladen vóór gebruik van de API | Laad de licentie via `License license = new License(); license.setLicense("Aspose.Slides.lic");` |
 
-## FAQ‑sectie
-1. **Hoe stel ik Aspose.Slides in mijn project in?**  
-   Gebruik Maven‑ of Gradle‑afhankelijkheden, of download de JAR rechtstreeks.
-2. **Kan ik meerdere animaties tegelijk wijzigen?**  
-   Ja, itereren door `ISequence` om elk effect te benaderen en te wijzigen.
-3. **Wat als ik een null‑pointer‑exception krijg bij het benaderen van dia's?**  
-   Zorg dat het pad naar uw presentatiebestand correct is en dat de dia‑index die u benadert bestaat.
-4. **Is er een manier om animatie‑instellingen over meerdere presentaties te automatiseren?**  
-   Ja, door gemeenschappelijke wijzigingen te script met behulp van Aspose.Slides‑API‑functies.
-5. **Wat zijn enkele andere functies van Aspose.Slides voor Java?**  
-   Naast animaties ondersteunt het dia‑klonen, formaatconversie, bewerken van dia‑master en meer.
-
 ## Veelgestelde vragen
 
 **V: Kan ik dit gebruiken in een commerciële applicatie?**  
@@ -210,6 +198,14 @@ A: Geen inherente limiet; de prestaties hangen af van de grootte van de presenta
 
 Door deze gids te volgen, heeft u geleerd hoe u **geanimeerde PPTX‑Java**‑bestanden maakt en PowerPoint‑animaties programmatisch kunt manipuleren met Aspose.Slides. Deze vaardigheden stellen u in staat om interactieve, merk‑consistente presentaties op schaal te bouwen. Verken extra animatie‑eigenschappen, combineer ze met andere Aspose‑API's en integreer de workflow in uw bedrijfsapplicaties voor maximale impact.
 
+## Bronnen
+- [Aspose.Slides Documentatie](https://reference.aspose.com/slides/java/)
+- [Download Aspose.Slides](https://releases.aspose.com/slides/java/)
+- [Koop een licentie](https://purchase.aspose.com/buy)
+- [Gratis proefversie](https://releases.aspose.com/slides/java/)
+- [Tijdelijke licentie](https://purchase.aspose.com/temporary-license/)
+- [Ondersteuningsforum](https://forum.aspose.com/c/slides/11)
+
 ---
 
 **Last Updated:** 2025-12-17  
@@ -223,11 +219,3 @@ Door deze gids te volgen, heeft u geleerd hoe u **geanimeerde PPTX‑Java**‑be
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Bronnen
-- [Aspose.Slides Documentatie](https://reference.aspose.com/slides/java/)
-- [Download Aspose.Slides](https://releases.aspose.com/slides/java/)
-- [Koop een licentie](https://purchase.aspose.com/buy)
-- [Gratis proefversie](https://releases.aspose.com/slides/java/)
-- [Tijdelijke licentie](https://purchase.aspose.com/temporary-license/)
-- [Ondersteuningsforum](https://forum.aspose.com/c/slides/11)

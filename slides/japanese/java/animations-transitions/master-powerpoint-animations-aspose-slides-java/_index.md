@@ -180,19 +180,6 @@ System.out.println("Rewind Enabled: " + rewindEnabled);
 | Animation changes not saved | `save` を呼び出していない、または形式が間違っている | `presentation.save(..., SaveFormat.Pptx)` を呼び出す |
 | License not applied | API を使用する前にライセンスファイルがロードされていない | `License license = new License(); license.setLicense("Aspose.Slides.lic");` でライセンスをロードする |
 
-## FAQ セクション
-
-1. **Aspose.Slides をプロジェクトに設定する方法は？**  
-   Maven または Gradle の依存関係を使用するか、JAR を直接ダウンロードして追加します。  
-2. **複数のアニメーションを同時に変更できますか？**  
-   はい、`ISequence` をイテレートして各効果にアクセスし、変更できます。  
-3. **スライドにアクセスするときに NullPointerException が発生した場合の対処は？**  
-   プレゼンテーションのファイルパスが正しいか、アクセスしようとしているスライドインデックスが存在するかを確認してください。  
-4. **複数のプレゼンテーションに対してアニメーション設定を自動化できますか？**  
-   はい、Aspose.Slides の API 関数を使用して共通の変更をスクリプト化できます。  
-5. **Aspose.Slides for Java のその他の機能は？**  
-   アニメーション以外にも、スライドのクローン作成、フォーマット変換、マスタースライドの編集など多数の機能があります。  
-
 ## よくある質問
 
 **Q: 商用アプリケーションで使用できますか？**  
@@ -214,6 +201,14 @@ A: 固有の制限はありません。パフォーマンスはプレゼンテ�
 
 本ガイドに従うことで、**create animated PPTX Java** ファイルを作成し、Aspose.Slides を使用して PowerPoint アニメーションをプログラムで操作する方法を習得しました。これにより、スケールに応じたインタラクティブでブランド一貫性のあるプレゼンテーションを構築できます。さらにアニメーションプロパティを探求し、他の Aspose API と組み合わせて、エンタープライズ アプリケーションに統合すれば、最大の効果を発揮できます。
 
+## リソース
+- [Aspose.Slides ドキュメント](https://reference.aspose.com/slides/java/)
+- [Aspose.Slides のダウンロード](https://releases.aspose.com/slides/java/)
+- [ライセンスの購入](https://purchase.aspose.com/buy)
+- [無料トライアル](https://releases.aspose.com/slides/java/)
+- [一時ライセンス](https://purchase.aspose.com/temporary-license/)
+- [サポートフォーラム](https://forum.aspose.com/c/slides/11)
+
 ---
 
 **最終更新日:** 2025-12-17  
@@ -227,11 +222,3 @@ A: 固有の制限はありません。パフォーマンスはプレゼンテ�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## リソース
-- [Aspose.Slides ドキュメント](https://reference.aspose.com/slides/java/)
-- [Aspose.Slides のダウンロード](https://releases.aspose.com/slides/java/)
-- [ライセンスの購入](https://purchase.aspose.com/buy)
-- [無料トライアル](https://releases.aspose.com/slides/java/)
-- [一時ライセンス](https://purchase.aspose.com/temporary-license/)
-- [サポートフォーラム](https://forum.aspose.com/c/slides/11)

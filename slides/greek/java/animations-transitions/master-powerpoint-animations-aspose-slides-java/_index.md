@@ -182,23 +182,6 @@ System.out.println("Rewind Enabled: " + rewindEnabled);
 | Οι αλλαγές κίνησης δεν αποθηκεύτηκαν | Δεν καλείται η μέθοδος `save` ή χρησιμοποιείται λάθος μορφή | Καλέστε `presentation.save(..., SaveFormat.Pptx)` |
 | Η άδεια δεν εφαρμόστηκε | Το αρχείο άδειας δεν φορτώθηκε πριν τη χρήση του API | Φορτώστε την άδεια μέσω `License license = new License(); license.setLicense("Aspose.Slides.lic");` |
 
-## Ενότητα Συχνών Ερωτήσεων
-
-1. **Πώς να ρυθμίσω το Aspose.Slides στο έργο μου;**  
-   Χρησιμοποιήστε εξαρτήσεις Maven ή Gradle, ή κατεβάστε το JAR απευθείας.
-
-2. **Μπορώ να τροποποιήσω πολλαπλές κινήσεις ταυτόχρονα;**  
-   Ναι, επαναλάβετε μέσω του `ISequence` για πρόσβαση και τροποποίηση κάθε εφέ.
-
-3. **Τι κάνω αν αντιμετωπίσω `NullPointerException` κατά την πρόσβαση σε διαφάνειες;**  
-   Βεβαιωθείτε ότι η διαδρομή του αρχείου παρουσίασης είναι σωστή και ότι ο δείκτης της διαφάνειας που προσπελάζετε υπάρχει.
-
-4. **Υπάρχει τρόπος να αυτοματοποιήσω τις ρυθμίσεις κίνησης σε πολλαπλές παρουσιάσεις;**  
-   Ναι, με σενάριο κοινών τροποποιήσεων χρησιμοποιώντας τις λειτουργίες του API του Aspose.Slides.
-
-5. **Ποιες είναι άλλες δυνατότητες του Aspose.Slides για Java;**  
-   Εκτός από κινήσεις, υποστηρίζει κλωνοποίηση διαφανειών, μετατροπή μορφών, επεξεργασία master διαφανειών και άλλα.
-
 ## Συχνές Ερωτήσεις
 
 **Ε: Μπορώ να το χρησιμοποιήσω σε εμπορική εφαρμογή;**  
@@ -220,6 +203,14 @@ System.out.println("Rewind Enabled: " + rewindEnabled);
 
 Ακολουθώντας αυτόν τον οδηγό, έχετε μάθει πώς να **δημιουργήσετε animated PPTX Java** αρχεία και να χειριστείτε τις κινήσεις PowerPoint προγραμματιστικά με το Aspose.Slides. Αυτές οι δεξιότητες σας επιτρέπουν να δημιουργήσετε διαδραστικές, συνεπείς με τη μάρκα παρουσιάσεις σε μεγάλη κλίμακα. Εξερευνήστε πρόσθετες ιδιότητες κίνησης, συνδυάστε τες με άλλα APIs του Aspose, και ενσωματώστε τη ροή εργασίας στις επιχειρησιακές σας εφαρμογές για μέγιστο αντίκτυπο.
 
+## Resources
+- [Τεκμηρίωση Aspose.Slides](https://reference.aspose.com/slides/java/)
+- [Λήψη Aspose.Slides](https://releases.aspose.com/slides/java/)
+- [Αγορά Άδειας](https://purchase.aspose.com/buy)
+- [Δωρεάν Δοκιμή](https://releases.aspose.com/slides/java/)
+- [Προσωρινή Άδεια](https://purchase.aspose.com/temporary-license/)
+- [Φόρουμ Υποστήριξης](https://forum.aspose.com/c/slides/11)
+
 ---
 
 **Last Updated:** 2025-12-17  
@@ -233,11 +224,3 @@ System.out.println("Rewind Enabled: " + rewindEnabled);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Resources
-- [Τεκμηρίωση Aspose.Slides](https://reference.aspose.com/slides/java/)
-- [Λήψη Aspose.Slides](https://releases.aspose.com/slides/java/)
-- [Αγορά Άδειας](https://purchase.aspose.com/buy)
-- [Δωρεάν Δοκιμή](https://releases.aspose.com/slides/java/)
-- [Προσωρινή Άδεια](https://purchase.aspose.com/temporary-license/)
-- [Φόρουμ Υποστήριξης](https://forum.aspose.com/c/slides/11)

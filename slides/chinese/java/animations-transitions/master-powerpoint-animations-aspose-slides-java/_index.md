@@ -181,19 +181,6 @@ System.out.println("Rewind Enabled: " + rewindEnabled);
 | 动画更改未保存 | 未调用 `save` 或使用了错误的格式 | 调用 `presentation.save(..., SaveFormat.Pptx)` |
 | 许可证未生效 | 在使用 API 前未加载许可证文件 | 通过 `License license = new License(); license.setLicense("Aspose.Slides.lic");` 加载许可证 |
 
-## FAQ 部分
-
-1. **如何在项目中设置 Aspose.Slides？**  
-   使用 Maven 或 Gradle 依赖，或直接下载 JAR 包。
-2. **可以一次性修改多个动画吗？**  
-   可以，遍历 `ISequence` 以访问并修改每个效果。
-3. **访问幻灯片时出现空指针异常怎么办？**  
-   确认演示文稿文件路径正确且所访问的幻灯片索引存在。
-4. **是否可以跨多个演示文稿自动化动画设置？**  
-   可以，通过脚本使用 Aspose.Slides API 对常见修改进行批量处理。
-5. **Aspose.Slides for Java 还有哪些其他功能？**  
-   除动画外，还支持幻灯片克隆、格式转换、母版编辑等。
-
 ## 常见问答
 
 **问：我可以在商业应用中使用它吗？**  
@@ -215,6 +202,14 @@ System.out.println("Rewind Enabled: " + rewindEnabled);
 
 通过本指南，您已学会如何 **create animated PPTX Java** 并使用 Aspose.Slides 以编程方式操作 PowerPoint 动画。这些技能使您能够在规模化环境中构建交互式、品牌一致的演示文稿。探索更多动画属性，将其与其他 Aspose API 结合，并将工作流集成到企业应用中，以实现最大价值。
 
+## 资源
+- [Aspose.Slides 文档](https://reference.aspose.com/slides/java/)
+- [下载 Aspose.Slides](https://releases.aspose.com/slides/java/)
+- [购买许可证](https://purchase.aspose.com/buy)
+- [免费试用](https://releases.aspose.com/slides/java/)
+- [临时许可证](https://purchase.aspose.com/temporary-license/)
+- [支持论坛](https://forum.aspose.com/c/slides/11)
+
 ---
 
 **最后更新：** 2025-12-17  
@@ -228,11 +223,3 @@ System.out.println("Rewind Enabled: " + rewindEnabled);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## 资源
-- [Aspose.Slides 文档](https://reference.aspose.com/slides/java/)
-- [下载 Aspose.Slides](https://releases.aspose.com/slides/java/)
-- [购买许可证](https://purchase.aspose.com/buy)
-- [免费试用](https://releases.aspose.com/slides/java/)
-- [临时许可证](https://purchase.aspose.com/temporary-license/)
-- [支持论坛](https://forum.aspose.com/c/slides/11)

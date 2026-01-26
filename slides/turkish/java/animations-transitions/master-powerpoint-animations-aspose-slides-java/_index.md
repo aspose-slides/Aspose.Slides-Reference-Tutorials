@@ -181,18 +181,6 @@ Büyük sunumlarla çalışırken şunları göz önünde bulundurun:
 | Animation changes not saved | `save` çağrılmadı veya yanlış format kullanıldı | `presentation.save(..., SaveFormat.Pptx)` çağırın |
 | License not applied | API kullanılmadan önce lisans dosyası yüklenmedi | Lisansı şu şekilde yükleyin: `License license = new License(); license.setLicense("Aspose.Slides.lic");` |
 
-## SSS Bölümü
-1. **Aspose.Slides'ı projemde nasıl kurarım?**  
-   Maven veya Gradle bağımlılıklarını kullanın, ya da JAR'ı doğrudan indirin.  
-2. **Birden fazla animasyonu aynı anda değiştirebilir miyim?**  
-   Evet, `ISequence` üzerinden döngü yaparak her efekti erişip değiştirebilirsiniz.  
-3. **Slaytlara erişirken null pointer exception alırsam ne yapmalıyım?**  
-   Sunum dosya yolunun doğru olduğundan ve eriştiğiniz slayt indeksinin mevcut olduğundan emin olun.  
-4. **Birden fazla sunumda animasyon ayarlarını otomatikleştirmenin bir yolu var mı?**  
-   Evet, Aspose.Slides API fonksiyonlarıyla ortak değişiklikleri betikleyerek yapabilirsiniz.  
-5. **Aspose.Slides for Java'nın diğer özellikleri nelerdir?**  
-   Animasyonların yanı sıra slayt klonlama, format dönüştürme, slayt master düzenleme ve daha fazlasını destekler.
-
 ## Sıkça Sorulan Sorular
 
 **S: Bunu ticari bir uygulamada kullanabilir miyim?**  
@@ -214,6 +202,14 @@ C: İçsel bir sınırlama yok; performans sunumun boyutu ve mevcut bellek mikta
 
 Bu rehberi izleyerek **animasyonlu PPTX Java** dosyalarını nasıl oluşturacağınızı ve Aspose.Slides ile PowerPoint animasyonlarını programlı bir şekilde nasıl manipüle edeceğinizi öğrendiniz. Bu beceriler, ölçekli olarak etkileşimli ve marka tutarlı sunumlar oluşturmanızı sağlar. Ek animasyon özelliklerini keşfedin, diğer Aspose API'leriyle birleştirin ve iş akışını kurumsal uygulamalarınıza entegre ederek maksimum etki elde edin.
 
+## Kaynaklar
+- [Aspose.Slides Dokümantasyonu](https://reference.aspose.com/slides/java/)
+- [Aspose.Slides'ı İndir](https://releases.aspose.com/slides/java/)
+- [Lisans Satın Al](https://purchase.aspose.com/buy)
+- [Ücretsiz Deneme](https://releases.aspose.com/slides/java/)
+- [Geçici Lisans](https://purchase.aspose.com/temporary-license/)
+- [Destek Forumu](https://forum.aspose.com/c/slides/11)
+
 ---
 
 **Last Updated:** 2025-12-17  
@@ -227,11 +223,3 @@ Bu rehberi izleyerek **animasyonlu PPTX Java** dosyalarını nasıl oluşturaca�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Kaynaklar
-- [Aspose.Slides Dokümantasyonu](https://reference.aspose.com/slides/java/)
-- [Aspose.Slides'ı İndir](https://releases.aspose.com/slides/java/)
-- [Lisans Satın Al](https://purchase.aspose.com/buy)
-- [Ücretsiz Deneme](https://releases.aspose.com/slides/java/)
-- [Geçici Lisans](https://purchase.aspose.com/temporary-license/)
-- [Destek Forumu](https://forum.aspose.com/c/slides/11)

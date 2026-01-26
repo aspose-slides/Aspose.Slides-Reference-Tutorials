@@ -183,19 +183,6 @@ Saat bekerja dengan presentasi berukuran besar, pertimbangkan:
 | Perubahan animasi tidak tersimpan | Tidak memanggil `save` atau menggunakan format yang salah | Panggil `presentation.save(..., SaveFormat.Pptx)` |
 | Lisensi tidak diterapkan | File lisensi tidak dimuat sebelum menggunakan API | Muat lisensi via `License license = new License(); license.setLicense("Aspose.Slides.lic");` |
 
-## Bagian FAQ
-
-1. **Bagaimana cara menyiapkan Aspose.Slides di proyek saya?**  
-   Gunakan dependensi Maven atau Gradle, atau unduh JAR secara langsung.
-2. **Bisakah saya memodifikasi beberapa animasi sekaligus?**  
-   Ya, iterasi melalui `ISequence` untuk mengakses dan memodifikasi setiap efek.
-3. **Bagaimana jika saya menemukan NullPointerException saat mengakses slide?**  
-   Pastikan jalur file presentasi Anda benar dan indeks slide yang diakses memang ada.
-4. **Apakah ada cara mengotomatisasi pengaturan animasi di banyak presentasi?**  
-   Ya, dengan menuliskan skrip modifikasi umum menggunakan fungsi API Aspose.Slides.
-5. **Fitur apa saja lain yang dimiliki Aspose.Slides untuk Java?**  
-   Selain animasi, ia mendukung kloning slide, konversi format, pengeditan master slide, dan lainnya.
-
 ## Pertanyaan yang Sering Diajukan
 
 **T: Bisakah saya menggunakan ini dalam aplikasi komersial?**  
@@ -217,6 +204,14 @@ J: Tidak ada batasan inheren; kinerja tergantung pada ukuran presentasi dan memo
 
 Dengan mengikuti panduan ini, Anda telah belajar cara **membuat PPTX Java beranimasi** dan memanipulasi animasi PowerPoint secara programatis menggunakan Aspose.Slides. Keterampilan ini memungkinkan Anda membangun presentasi interaktif, konsisten dengan merek, dalam skala besar. Jelajahi properti animasi tambahan, kombinasikan dengan API Aspose lainnya, dan integrasikan alur kerja ke dalam aplikasi perusahaan Anda untuk dampak maksimal.
 
+## Resources
+- [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
+- [Download Aspose.Slides](https://releases.aspose.com/slides/java/)
+- [Purchase a License](https://purchase.aspose.com/buy)
+- [Free Trial](https://releases.aspose.com/slides/java/)
+- [Temporary License](https://purchase.aspose.com/temporary-license/)
+- [Support Forum](https://forum.aspose.com/c/slides/11)
+
 ---
 
 **Terakhir Diperbarui:** 2025-12-17  
@@ -230,11 +225,3 @@ Dengan mengikuti panduan ini, Anda telah belajar cara **membuat PPTX Java berani
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Resources
-- [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
-- [Download Aspose.Slides](https://releases.aspose.com/slides/java/)
-- [Purchase a License](https://purchase.aspose.com/buy)
-- [Free Trial](https://releases.aspose.com/slides/java/)
-- [Temporary License](https://purchase.aspose.com/temporary-license/)
-- [Support Forum](https://forum.aspose.com/c/slides/11)

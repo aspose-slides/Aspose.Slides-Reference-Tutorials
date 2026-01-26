@@ -183,19 +183,6 @@ Khi làm việc với các bài thuyết trình lớn, hãy cân nhắc:
 | Thay đổi hoạt ảnh không được lưu | Không gọi `save` hoặc dùng định dạng sai | Gọi `presentation.save(..., SaveFormat.Pptx)` |
 | Giấy phép không được áp dụng | File giấy phép chưa được tải trước khi dùng API | Tải giấy phép bằng `License license = new License(); license.setLicense("Aspose.Slides.lic");` |
 
-## Phần FAQ
-
-1. **Làm sao thiết lập Aspose.Slides trong dự án?**  
-   Dùng phụ thuộc Maven hoặc Gradle, hoặc tải JAR trực tiếp.
-2. **Có thể chỉnh sửa nhiều hoạt ảnh cùng lúc không?**  
-   Có, lặp qua `ISequence` để truy cập và chỉnh sửa từng hiệu ứng.
-3. **Nếu gặp lỗi null pointer khi truy cập slide thì sao?**  
-   Đảm bảo đường dẫn tệp đúng và chỉ số slide bạn đang truy cập tồn tại.
-4. **Có cách nào tự động hóa cài đặt hoạt ảnh cho nhiều bài thuyết trình không?**  
-   Có, bằng cách viết script thực hiện các sửa đổi chung qua API Aspose.Slides.
-5. **Các tính năng khác của Aspose.Slides for Java là gì?**  
-   Ngoài hoạt ảnh, nó hỗ trợ sao chép slide, chuyển đổi định dạng, chỉnh sửa slide master và nhiều hơn nữa.
-
 ## Câu hỏi thường gặp
 
 **H: Tôi có thể sử dụng điều này trong ứng dụng thương mại không?**  
@@ -217,6 +204,14 @@ Khi làm việc với các bài thuyết trình lớn, hãy cân nhắc:
 
 Bằng cách làm theo hướng dẫn này, bạn đã học cách **tạo animated PPTX Java** và thao tác các hoạt ảnh PowerPoint một cách lập trình với Aspose.Slides. Những kỹ năng này cho phép bạn xây dựng các bài thuyết trình tương tác, đồng nhất thương hiệu ở quy mô lớn. Khám phá thêm các thuộc tính hoạt ảnh, kết hợp chúng với các API Aspose khác, và tích hợp quy trình vào các ứng dụng doanh nghiệp của bạn để đạt hiệu tối đa.
 
+## Tài nguyên
+- [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
+- [Download Aspose.Slides](https://releases.aspose.com/slides/java/)
+- [Purchase a License](https://purchase.aspose.com/buy)
+- [Free Trial](https://releases.aspose.com/slides/java/)
+- [Temporary License](https://purchase.aspose.com/temporary-license/)
+- [Support Forum](https://forum.aspose.com/c/slides/11)
+
 ---
 
 **Cập nhật lần cuối:** 2025-12-17  
@@ -230,11 +225,3 @@ Bằng cách làm theo hướng dẫn này, bạn đã học cách **tạo anima
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Tài nguyên
-- [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
-- [Download Aspose.Slides](https://releases.aspose.com/slides/java/)
-- [Purchase a License](https://purchase.aspose.com/buy)
-- [Free Trial](https://releases.aspose.com/slides/java/)
-- [Temporary License](https://purchase.aspose.com/temporary-license/)
-- [Support Forum](https://forum.aspose.com/c/slides/11)

@@ -183,19 +183,6 @@ Nagy prezentációk kezelésekor vegye figyelembe:
 | Az animációs változtatások nem kerülnek mentésre | Nem hívja meg a `save`‑t, vagy rossz formátumot használ | Hívja meg a `presentation.save(..., SaveFormat.Pptx)`‑t |
 | Licenc nincs alkalmazva | Licencfájl nincs betöltve az API használata előtt | Töltse be a licencet a `License license = new License(); license.setLicense("Aspose.Slides.lic");` kóddal |
 
-## Gyakran ismételt kérdések
-
-1. **Hogyan állítsam be az Aspose.Slides‑t a projektemben?**  
-   Használjon Maven vagy Gradle függőséget, vagy töltse le közvetlenül a JAR‑t.
-2. **Módosíthatok több animációt egyszerre?**  
-   Igen, iteráljon az `ISequence`‑en, hogy minden hatást elérje és módosítsa.
-3. **Mi a teendő, ha null pointer kivételt kapok a diák elérésekor?**  
-   Győződjön meg róla, hogy a prezentáció fájl útvonala helyes, és a kért diaindex létezik.
-4. **Lehet-e automatizálni az animációs beállításokat több prezentáción?**  
-   Igen, közös módosításokat szkriptelhet az Aspose.Slides API‑funkciókkal.
-5. **Milyen egyéb funkciói vannak az Aspose.Slides for Java‑nak?**  
-   Az animációkon túl támogatja a dia klónozást, formátumkonverziót, mesterdia szerkesztést és még sok mást.
-
 ## Gyakran feltett kérdések
 
 **K: Használhatom ezt kereskedelmi alkalmazásban?**  
@@ -217,6 +204,14 @@ V: Nincs beépített korlátozás; a teljesítmény a prezentáció méretétől
 
 Ezzel az útmutatóval megtanulta, hogyan **hozzon létre animált PPTX Java** fájlokat, és hogyan manipulálja a PowerPoint animációkat programozottan az Aspose.Slides‑sel. Ezek a képességek lehetővé teszik interaktív, márkakövető prezentációk nagy léptékű előállítását. Fedezze fel a további animációs tulajdonságokat, kombinálja őket más Aspose API‑kkal, és integrálja a munkafolyamatot vállalati alkalmazásaiba a maximális hatás érdekében.
 
+## Források
+- [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
+- [Download Aspose.Slides](https://releases.aspose.com/slides/java/)
+- [Purchase a License](https://purchase.aspose.com/buy)
+- [Free Trial](https://releases.aspose.com/slides/java/)
+- [Temporary License](https://purchase.aspose.com/temporary-license/)
+- [Support Forum](https://forum.aspose.com/c/slides/11)
+
 ---
 
 **Last Updated:** 2025-12-17  
@@ -230,11 +225,3 @@ Ezzel az útmutatóval megtanulta, hogyan **hozzon létre animált PPTX Java** f
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Források
-- [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
-- [Download Aspose.Slides](https://releases.aspose.com/slides/java/)
-- [Purchase a License](https://purchase.aspose.com/buy)
-- [Free Trial](https://releases.aspose.com/slides/java/)
-- [Temporary License](https://purchase.aspose.com/temporary-license/)
-- [Support Forum](https://forum.aspose.com/c/slides/11)

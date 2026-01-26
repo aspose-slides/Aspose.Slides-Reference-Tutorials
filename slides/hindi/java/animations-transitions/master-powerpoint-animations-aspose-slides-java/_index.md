@@ -178,23 +178,6 @@ System.out.println("Rewind Enabled: " + rewindEnabled);
 | एनीमेशन परिवर्तन सेव नहीं हुए | `save` नहीं कॉल किया या गलत फॉर्मेट उपयोग किया | `presentation.save(..., SaveFormat.Pptx)` कॉल करें |
 | लाइसेंस लागू नहीं हुआ | API उपयोग करने से पहले लाइसेंस फ़ाइल लोड नहीं की गई | `License license = new License(); license.setLicense("Aspose.Slides.lic");` के माध्यम से लाइसेंस लोड करें |
 
-## FAQ अनुभाग
-
-1. **मैं अपने प्रोजेक्ट में Aspose.Slides कैसे सेटअप करूँ?**  
-   Maven या Gradle डिपेंडेंसीज़ का उपयोग करें, या JAR को सीधे डाउनलोड करें।
-
-2. **क्या मैं एक साथ कई एनीमेशन संशोधित कर सकता हूँ?**  
-   हाँ, `ISequence` पर इटरेट करके प्रत्येक इफ़ेक्ट तक पहुँचें और संशोधित करें।
-
-3. **यदि स्लाइड्स एक्सेस करते समय मुझे null pointer exception मिलता है तो क्या करें?**  
-   सुनिश्चित करें कि आपकी प्रस्तुति फ़ाइल पाथ सही है और जिस स्लाइड इंडेक्स को आप एक्सेस कर रहे हैं वह मौजूद है।
-
-4. **क्या कई प्रस्तुतियों में एनीमेशन सेटिंग्स को स्वचालित करने का कोई तरीका है?**  
-   हाँ, Aspose.Slides API फ़ंक्शन्स का उपयोग करके सामान्य संशोधनों को स्क्रिप्ट करके।
-
-5. **Aspose.Slides for Java की अन्य कौन सी सुविधाएँ हैं?**  
-   एनीमेशन के अलावा, यह स्लाइड क्लोनिंग, फॉर्मेट कन्वर्ज़न, स्लाइड मास्टर एडिटिंग आदि का समर्थन करता है।
-
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **प्रश्न: क्या मैं इसे व्यावसायिक एप्लिकेशन में उपयोग कर सकता हूँ?**  
@@ -216,6 +199,14 @@ System.out.println("Rewind Enabled: " + rewindEnabled);
 
 इस गाइड का पालन करके, आपने **create animated PPTX Java** फ़ाइलें बनाना और Aspose.Slides के साथ प्रोग्रामेटिकली PowerPoint एनीमेशन को नियंत्रित करना सीख लिया है। ये कौशल आपको बड़े पैमाने पर इंटरैक्टिव, ब्रांड‑संगत प्रस्तुतियों को बनाने में सक्षम बनाते हैं। अतिरिक्त एनीमेशन प्रॉपर्टीज़ का अन्वेषण करें, उन्हें अन्य Aspose APIs के साथ मिलाएँ, और अधिकतम प्रभाव के लिए इस वर्कफ़्लो को अपने एंटरप्राइज़ एप्लिकेशन्स में इंटीग्रेट करें।
 
+## संसाधन
+- [Aspose.Slides दस्तावेज़ीकरण](https://reference.aspose.com/slides/java/)
+- [Aspose.Slides डाउनलोड करें](https://releases.aspose.com/slides/java/)
+- [लाइसेंस खरीदें](https://purchase.aspose.com/buy)
+- [फ्री ट्रायल](https://releases.aspose.com/slides/java/)
+- [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/)
+- [सपोर्ट फ़ोरम](https://forum.aspose.com/c/slides/11)
+
 ---
 
 **Last Updated:** 2025-12-17  
@@ -229,11 +220,3 @@ System.out.println("Rewind Enabled: " + rewindEnabled);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## संसाधन
-- [Aspose.Slides दस्तावेज़ीकरण](https://reference.aspose.com/slides/java/)
-- [Aspose.Slides डाउनलोड करें](https://releases.aspose.com/slides/java/)
-- [लाइसेंस खरीदें](https://purchase.aspose.com/buy)
-- [फ्री ट्रायल](https://releases.aspose.com/slides/java/)
-- [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/)
-- [सपोर्ट फ़ोरम](https://forum.aspose.com/c/slides/11)

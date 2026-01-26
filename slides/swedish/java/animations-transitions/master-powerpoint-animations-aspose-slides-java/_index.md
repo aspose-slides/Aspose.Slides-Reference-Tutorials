@@ -185,23 +185,6 @@ När du arbetar med stora presentationer, överväg:
 
 ## Vanliga frågor
 
-1. **Hur ställer jag in Aspose.Slides i mitt projekt?**  
-   Använd Maven‑ eller Gradle‑beroenden, eller ladda ner JAR‑filen direkt.
-
-2. **Kan jag modifiera flera animationer samtidigt?**  
-   Ja, iterera genom `ISequence` för att komma åt och modifiera varje effekt.
-
-3. **Vad händer om jag får ett null‑pointer‑undantag när jag försöker komma åt bilder?**  
-   Säkerställ att filvägen till presentationen är korrekt och att bildindexet du försöker nå finns.
-
-4. **Finns det något sätt att automatisera animationsinställningar över flera presentationer?**  
-   Ja, genom att skriptmässigt göra vanliga modifieringar med Aspose.Slides‑API‑funktioner.
-
-5. **Vilka andra funktioner har Aspose.Slides för Java?**  
-   Förutom animationer stödjer det bildkloning, formatkonvertering, redigering av bildmaster och mer.
-
-## Vanliga frågor
-
 **Q: Kan jag använda detta i en kommersiell applikation?**  
 A: Ja, med en giltig Aspose‑licens. En gratis provperiod finns tillgänglig för utvärdering.
 
@@ -221,6 +204,14 @@ A: Ingen inneboende begränsning; prestandan beror på presentationens storlek o
 
 Genom att följa den här guiden har du lärt dig hur du **skapar animerade PPTX‑Java**‑filer och manipulerar PowerPoint‑animationer programatiskt med Aspose.Slides. Dessa färdigheter gör det möjligt att bygga interaktiva, varumärkes‑konsekventa presentationer i stor skala. Utforska ytterligare animationsegenskaper, kombinera dem med andra Aspose‑API:er och integrera arbetsflödet i dina företagsapplikationer för maximal effekt.
 
+## Resources
+- [Aspose.Slides-dokumentation](https://reference.aspose.com/slides/java/)
+- [Ladda ner Aspose.Slides](https://releases.aspose.com/slides/java/)
+- [Köp en licens](https://purchase.aspose.com/buy)
+- [Gratis provperiod](https://releases.aspose.com/slides/java/)
+- [Tillfällig licens](https://purchase.aspose.com/temporary-license/)
+- [Supportforum](https://forum.aspose.com/c/slides/11)
+
 ---
 
 **Last Updated:** 2025-12-17  
@@ -234,11 +225,3 @@ Genom att följa den här guiden har du lärt dig hur du **skapar animerade PPTX
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Resources
-- [Aspose.Slides-dokumentation](https://reference.aspose.com/slides/java/)
-- [Ladda ner Aspose.Slides](https://releases.aspose.com/slides/java/)
-- [Köp en licens](https://purchase.aspose.com/buy)
-- [Gratis provperiod](https://releases.aspose.com/slides/java/)
-- [Tillfällig licens](https://purchase.aspose.com/temporary-license/)
-- [Supportforum](https://forum.aspose.com/c/slides/11)

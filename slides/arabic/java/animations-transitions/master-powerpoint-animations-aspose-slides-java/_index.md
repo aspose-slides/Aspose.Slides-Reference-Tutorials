@@ -180,19 +180,6 @@ System.out.println("Rewind Enabled: " + rewindEnabled);
 | لم يتم حفظ تغييرات الرسوم المتحركة | عدم استدعاء `save` أو استخدام تنسيق غير صحيح | استدعِ `presentation.save(..., SaveFormat.Pptx)` |
 | لم يتم تطبيق الترخيص | ملف الترخيص لم يتم تحميله قبل استخدام API | حمّل الترخيص عبر `License license = new License(); license.setLicense("Aspose.Slides.lic");` |
 
-## قسم الأسئلة المتكررة
-
-1. **كيف أقوم بإعداد Aspose.Slides في مشروعي؟**  
-   استخدم تبعيات Maven أو Gradle، أو قم بتحميل JAR مباشرة.
-2. **هل يمكنني تعديل عدة رسوم متحركة في آن واحد؟**  
-   نعم، قم بالتكرار عبر `ISequence` للوصول إلى كل تأثير وتعديله.
-3. **ماذا أفعل إذا واجهت استثناء مؤشر فارغ أثناء الوصول إلى الشرائح؟**  
-   تأكد من صحة مسار ملف العرض وأن فهرس الشريحة الذي تصل إليه موجود.
-4. **هل هناك طريقة لأتمتة إعدادات الرسوم المتحركة عبر عروض متعددة؟**  
-   نعم، عبر كتابة سكريبت لتعديلات مشتركة باستخدام وظائف Aspose.Slides API.
-5. **ما هي بعض الميزات الأخرى لـ Aspose.Slides for Java؟**  
-   بالإضافة إلى الرسوم المتحركة، يدعم استنساخ الشرائح، تحويل الصيغ، تحرير القالب الرئيسي للشرائح، والمزيد.
-
 ## الأسئلة المتكررة
 
 **س: هل يمكنني استخدام هذا في تطبيق تجاري؟**  
@@ -214,6 +201,14 @@ System.out.println("Rewind Enabled: " + rewindEnabled);
 
 باتباعك هذا الدليل، تعلمت كيفية **إنشاء ملفات PPTX Java متحركة** وتعديل رسوم المتحركة في PowerPoint برمجياً باستخدام Aspose.Slides. تمكنك هذه المهارات من بناء عروض تفاعلية ومتسقة مع العلامة التجارية على نطاق واسع. استكشف خصائص رسوم متحركة إضافية، ودمجها مع واجهات برمجة تطبيقات Aspose الأخرى، ودمج سير العمل في تطبيقات مؤسستك لتحقيق أقصى تأثير.
 
+## الموارد
+- [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
+- [Download Aspose.Slides](https://releases.aspose.com/slides/java/)
+- [Purchase a License](https://purchase.aspose.com/buy)
+- [Free Trial](https://releases.aspose.com/slides/java/)
+- [Temporary License](https://purchase.aspose.com/temporary-license/)
+- [Support Forum](https://forum.aspose.com/c/slides/11)
+
 ---
 
 **Last Updated:** 2025-12-17  
@@ -227,11 +222,3 @@ System.out.println("Rewind Enabled: " + rewindEnabled);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## الموارد
-- [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
-- [Download Aspose.Slides](https://releases.aspose.com/slides/java/)
-- [Purchase a License](https://purchase.aspose.com/buy)
-- [Free Trial](https://releases.aspose.com/slides/java/)
-- [Temporary License](https://purchase.aspose.com/temporary-license/)
-- [Support Forum](https://forum.aspose.com/c/slides/11)
