@@ -6,7 +6,7 @@ description: Aspose.Slides का उपयोग करके जावा क�
 keywords: java powerpoint api, java slides tutorial, aspose slides java, java presentation
   library, powerpoint java programming, java ppt tutorial
 linktitle: 'Aspose.Slides for Java Tutorials: Step-by-Step Programming Guide'
-title: 'पावरपॉइंट जावा ट्यूटोरियल बनाएं: Aspose.Slides for Java में महारत हासिल करें
+title: 'पावरपॉइंट जावा ट्यूटोरियल बनाएं - Aspose.Slides for Java में महारत हासिल करें
   (2025 गाइड)'
 url: /hi/java/
 weight: 10
@@ -223,6 +223,12 @@ pres.save("output.pptx", SaveFormat.Pptx);
 
 आज ही Aspose.Slides for Java के साथ अपनी यात्रा शुरू करें और प्रोग्रामेटिक रूप से PowerPoint प्रेजेंटेशन बनाने और मैनेज करने के तरीके को बदल दें!
 
+---
+
+**Last Updated:** 2025-12-18  
+**Tested With:** Aspose.Slides for Java latest version  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -230,9 +236,3 @@ pres.save("output.pptx", SaveFormat.Pptx);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-18  
-**Tested With:** Aspose.Slides for Java latest version  
-**Author:** Aspose

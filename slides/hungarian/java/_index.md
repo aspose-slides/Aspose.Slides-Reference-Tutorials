@@ -6,7 +6,7 @@ description: Tanulja meg, hogyan készítsen PowerPoint‑prezentációkat Java�
 keywords: java powerpoint api, java slides tutorial, aspose slides java, java presentation
   library, powerpoint java programming, java ppt tutorial
 linktitle: 'Aspose.Slides for Java Tutorials: Step-by-Step Programming Guide'
-title: 'PowerPoint Java oktató: Mesteri útmutató az Aspose.Slides for Java-hoz (2025-es
+title: 'PowerPoint Java oktató - Mesteri útmutató az Aspose.Slides for Java-hoz (2025-es
   útmutató)'
 url: /hu/java/
 weight: 10
@@ -223,14 +223,6 @@ Az Aspose.Slides for Java használatakor soha nem egyedül van a fejlesztési ú
 
 Kezdje el ma az Aspose.Slides for Java‑val való utazását, és alakítsa át a PowerPoint prezentációk programozott létrehozását és kezelését!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-18  
@@ -238,3 +230,11 @@ Kezdje el ma az Aspose.Slides for Java‑val való utazását, és alakítsa át
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

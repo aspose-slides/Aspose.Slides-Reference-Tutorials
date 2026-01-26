@@ -4,7 +4,7 @@ description: 學習如何使用 Java 及 Aspose.Slides 建立 PowerPoint 簡報�
 keywords: java powerpoint api, java slides tutorial, aspose slides java, java presentation
   library, powerpoint java programming, java ppt tutorial
 linktitle: 'Aspose.Slides for Java Tutorials: Step-by-Step Programming Guide'
-title: 製作 PowerPoint Java 教學：精通 Aspose.Slides for Java（2025 指南）
+title: 製作 PowerPoint Java 教學 - 精通 Aspose.Slides for Java（2025 指南）
 url: /zh-hant/java/
 weight: 10
 ---
@@ -220,6 +220,12 @@ A: 注意記憶體使用量；盡可能重複使用投影片物件，處理完�
 
 立即開始使用 Aspose.Slides for Java，徹底改變您以程式方式建立與管理 PowerPoint 簡報的方式！
 
+---
+
+**最後更新：** 2025-12-18  
+**測試環境：** Aspose.Slides for Java 最新版本  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -227,9 +233,3 @@ A: 注意記憶體使用量；盡可能重複使用投影片物件，處理完�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-18  
-**測試環境：** Aspose.Slides for Java 最新版本  
-**作者：** Aspose

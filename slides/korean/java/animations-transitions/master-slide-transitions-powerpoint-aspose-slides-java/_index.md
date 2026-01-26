@@ -173,6 +173,12 @@ A: 슬라이드 인덱스가 존재하는지 확인하세요 (예: 슬라이드�
 - **무료 트라이얼 & 임시 라이선스**: 트라이얼을 시작하거나 임시 라이선스를 얻으려면 각각 [free trial](https://releases.aspose.com/slides/java/)와 [temporary license](https://purchase.aspose.com/temporary-license/)를 방문하세요.  
 - **지원**: 도움이 필요하면 [Aspose Forum](https://forum.aspose.com/c/slides/11) 커뮤니티 포럼에 참여하세요.
 
+---
+
+**마지막 업데이트:** 2025-12-18  
+**테스트 환경:** Aspose.Slides for Java 25.4 (JDK 16)  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -180,9 +186,3 @@ A: 슬라이드 인덱스가 존재하는지 확인하세요 (예: 슬라이드�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2025-12-18  
-**테스트 환경:** Aspose.Slides for Java 25.4 (JDK 16)  
-**작성자:** Aspose

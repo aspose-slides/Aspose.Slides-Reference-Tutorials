@@ -5,7 +5,7 @@ description: เรียนรู้วิธีสร้างงานนำ�
 keywords: java powerpoint api, java slides tutorial, aspose slides java, java presentation
   library, powerpoint java programming, java ppt tutorial
 linktitle: 'Aspose.Slides for Java Tutorials: Step-by-Step Programming Guide'
-title: 'สร้างบทเรียน PowerPoint Java: เชี่ยวชาญ Aspose.Slides สำหรับ Java (คู่มือปี
+title: 'สร้างบทเรียน PowerPoint Java - เชี่ยวชาญ Aspose.Slides สำหรับ Java (คู่มือปี
   2025)'
 url: /th/java/
 weight: 10
@@ -222,6 +222,12 @@ A: ควรตรวจสอบการใช้หน่วยความ�
 
 เริ่มต้นการเดินทางกับ Aspose.Slides for Java วันนี้และเปลี่ยนวิธีการสร้างและจัดการงานนำเสนอ PowerPoint ด้วยโปรแกรม!
 
+---
+
+**Last Updated:** 2025-12-18  
+**Tested With:** Aspose.Slides for Java latest version  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -229,9 +235,3 @@ A: ควรตรวจสอบการใช้หน่วยความ�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-18  
-**Tested With:** Aspose.Slides for Java latest version  
-**Author:** Aspose

@@ -175,6 +175,12 @@ A: सुनिश्चित करें कि स्लाइड इंड�
 - **Free Trial & Temporary License**: ट्रायल से शुरू करें या टेम्पररी लाइसेंस प्राप्त करें: [free trial](https://releases.aspose.com/slides/java/) और [temporary license](https://purchase.aspose.com/temporary-license/)।  
 - **Support**: सहायता के लिए कम्युनिटी फ़ोरम में शामिल हों: [Aspose Forum](https://forum.aspose.com/c/slides/11)।
 
+---
+
+**Last Updated:** 2025-12-18  
+**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -182,9 +188,3 @@ A: सुनिश्चित करें कि स्लाइड इंड�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-18  
-**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Author:** Aspose

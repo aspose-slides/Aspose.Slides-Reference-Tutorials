@@ -175,6 +175,12 @@ J: Pastikan indeks slide memang ada (misalnya, hindari mengakses indeks 2 keti
 - **Free Trial & Temporary License**: Mulai dengan percobaan atau dapatkan lisensi sementara di [free trial](https://releases.aspose.com/slides/java/) dan [temporary license](https://purchase.aspose.com/temporary-license/).  
 - **Support**: Bergabunglah dengan forum komunitas untuk bantuan di [Aspose Forum](https://forum.aspose.com/c/slides/11).
 
+---
+
+**Last Updated:** 2025-12-18  
+**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -182,9 +188,3 @@ J: Pastikan indeks slide memang ada (misalnya, hindari mengakses indeks 2 keti
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-18  
-**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Author:** Aspose

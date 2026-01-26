@@ -6,7 +6,7 @@ description: Μάθετε πώς να δημιουργείτε παρουσιά�
 keywords: java powerpoint api, java slides tutorial, aspose slides java, java presentation
   library, powerpoint java programming, java ppt tutorial
 linktitle: 'Aspose.Slides for Java Tutorials: Step-by-Step Programming Guide'
-title: 'Δημιουργία σεμιναρίου PowerPoint Java: Κατακτήστε το Aspose.Slides για Java
+title: 'Δημιουργία σεμιναρίου PowerPoint Java - Κατακτήστε το Aspose.Slides για Java
   (Οδηγός 2025)'
 url: /el/java/
 weight: 10
@@ -223,6 +223,12 @@ pres.save("output.pptx", SaveFormat.Pptx);
 
 Ξεκινήστε το ταξίδι σας με το Aspose.Slides for Java σήμερα και μεταμορφώστε τον τρόπο δημιουργίας και διαχείρισης παρουσιάσεων PowerPoint προγραμματιστικά!
 
+---
+
+**Τελευταία Ενημέρωση:** 2025-12-18  
+**Δοκιμασμένο με:** Aspose.Slides for Java τελευταία έκδοση  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -230,9 +236,3 @@ pres.save("output.pptx", SaveFormat.Pptx);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2025-12-18  
-**Δοκιμασμένο με:** Aspose.Slides for Java τελευταία έκδοση  
-**Συγγραφέας:** Aspose

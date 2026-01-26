@@ -5,7 +5,7 @@ description: تعلم كيفية إنشاء عروض PowerPoint باستخدام
 keywords: java powerpoint api, java slides tutorial, aspose slides java, java presentation
   library, powerpoint java programming, java ppt tutorial
 linktitle: 'Aspose.Slides for Java Tutorials: Step-by-Step Programming Guide'
-title: 'إنشاء برنامج تعليمي لباوربوينت جافا: إتقان Aspose.Slides للجافا (دليل 2025)'
+title: 'إنشاء برنامج تعليمي لباوربوينت جافا - إتقان Aspose.Slides للجافا (دليل 2025)'
 url: /ar/java/
 weight: 10
 ---
@@ -221,6 +221,12 @@ pres.save("output.pptx", SaveFormat.Pptx);
 
 ابدأ رحلتك مع Aspose.Slides لـ Java اليوم وحوّل طريقة إنشاء وإدارة عروض PowerPoint برمجيًا!
 
+---
+
+**آخر تحديث:** 2025-12-18  
+**تم الاختبار مع:** أحدث نسخة من Aspose.Slides لـ Java  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -228,9 +234,3 @@ pres.save("output.pptx", SaveFormat.Pptx);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-18  
-**تم الاختبار مع:** أحدث نسخة من Aspose.Slides لـ Java  
-**المؤلف:** Aspose

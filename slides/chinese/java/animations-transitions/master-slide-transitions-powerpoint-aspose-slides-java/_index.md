@@ -172,6 +172,12 @@ presentation.save(dataDir + "/BetterTransitions_out.pptx", SaveFormat.Pptx);
 - **免费试用 & 临时许可证**：在 [free trial](https://releases.aspose.com/slides/java/) 开始试用，或在 [temporary license](https://purchase.aspose.com/temporary-license/) 获取临时许可证。  
 - **支持**：加入社区论坛获取帮助，访问 [Aspose Forum](https://forum.aspose.com/c/slides/11)。
 
+---
+
+**Last Updated:** 2025-12-18  
+**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -179,9 +185,3 @@ presentation.save(dataDir + "/BetterTransitions_out.pptx", SaveFormat.Pptx);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-18  
-**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Author:** Aspose

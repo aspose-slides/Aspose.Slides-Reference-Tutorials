@@ -1,5 +1,5 @@
 ---
-title: "Create Powerpoint Java Tutorial: Master Aspose.Slides for Java (2025 Guide)"
+title: "Create Powerpoint Java Tutorial - Master Aspose.Slides for Java (2025 Guide)"
 linktitle: "Aspose.Slides for Java Tutorials: Step-by-Step Programming Guide"
 weight: 10
 url: /java/
@@ -219,14 +219,6 @@ When you use Aspose.Slides for Java, you're never alone in your development jour
 
 Start your journey with Aspose.Slides for Java today and transform how you create and manage PowerPoint presentations programmatically!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-18  
@@ -234,3 +226,11 @@ Start your journey with Aspose.Slides for Java today and transform how you creat
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

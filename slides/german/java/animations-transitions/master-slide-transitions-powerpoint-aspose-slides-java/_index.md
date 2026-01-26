@@ -174,6 +174,12 @@ A: Stellen Sie sicher, dass der Folien‑Index existiert (z. B. nicht Index 
 - **Kostenlose Testversion & Temporäre Lizenz**: Starten Sie mit einer Testversion oder erhalten Sie eine temporäre Lizenz unter [free trial](https://releases.aspose.com/slides/java/) und [temporary license](https://purchase.aspose.com/temporary-license/).  
 - **Support**: Treten Sie dem Community‑Forum für Unterstützung bei [Aspose Forum](https://forum.aspose.com/c/slides/11) bei.
 
+---
+
+**Zuletzt aktualisiert:** 2025-12-18  
+**Getestet mit:** Aspose.Slides für Java 25.4 (JDK 16)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -181,9 +187,3 @@ A: Stellen Sie sicher, dass der Folien‑Index existiert (z. B. nicht Index 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2025-12-18  
-**Getestet mit:** Aspose.Slides für Java 25.4 (JDK 16)  
-**Autor:** Aspose

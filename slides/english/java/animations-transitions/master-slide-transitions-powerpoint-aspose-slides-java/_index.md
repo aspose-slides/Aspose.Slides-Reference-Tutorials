@@ -172,6 +172,12 @@ A: Ensure the slide index exists (e.g., avoid accessing index 2 when only two 
 - **Free Trial & Temporary License**: Start with a trial or obtain a temporary license at [free trial](https://releases.aspose.com/slides/java/) and [temporary license](https://purchase.aspose.com/temporary-license/).  
 - **Support**: Join the community forum for assistance at [Aspose Forum](https://forum.aspose.com/c/slides/11).
 
+---
+
+**Last Updated:** 2025-12-18  
+**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -179,9 +185,3 @@ A: Ensure the slide index exists (e.g., avoid accessing index 2 when only two 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-18  
-**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Author:** Aspose

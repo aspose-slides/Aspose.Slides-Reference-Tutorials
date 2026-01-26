@@ -171,6 +171,12 @@ A: Säkerställ att bildindexet finns (t.ex. undvik att komma åt index 2 när
 - **Gratis provversion & tillfällig licens**: Börja med en provversion eller skaffa en tillfällig licens på [free trial](https://releases.aspose.com/slides/java/) och [temporary license](https://purchase.aspose.com/temporary-license/).  
 - **Support**: Gå med i community‑forumet för hjälp på [Aspose Forum](https://forum.aspose.com/c/slides/11).
 
+---
+
+**Last Updated:** 2025-12-18  
+**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -178,9 +184,3 @@ A: Säkerställ att bildindexet finns (t.ex. undvik att komma åt index 2 när
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-18  
-**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Author:** Aspose

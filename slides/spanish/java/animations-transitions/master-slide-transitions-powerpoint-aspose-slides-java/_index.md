@@ -175,6 +175,12 @@ R: Asegúrate de que el índice de la diapositiva exista (p. ej., evita acceder 
 - **Prueba gratuita y licencia temporal**: Comienza con una prueba o obtén una licencia temporal en [free trial](https://releases.aspose.com/slides/java/) y [temporary license](https://purchase.aspose.com/temporary-license/).  
 - **Soporte**: Únete al foro de la comunidad para asistencia en el [Aspose Forum](https://forum.aspose.com/c/slides/11).
 
+---
+
+**Última actualización:** 2025-12-18  
+**Probado con:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -182,9 +188,3 @@ R: Asegúrate de que el índice de la diapositiva exista (p. ej., evita acceder 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2025-12-18  
-**Probado con:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Autor:** Aspose

@@ -172,6 +172,12 @@ C: Slayt indeksinin mevcut olduğundan emin olun (ör. sadece iki slayt varsa in
 - **Ücretsiz Deneme & Geçici Lisans**: [free trial](https://releases.aspose.com/slides/java/) ve [temporary license](https://purchase.aspose.com/temporary-license/) adreslerinden deneme sürümüyle başlayın veya geçici lisans edinin.  
 - **Destek**: Yardım için topluluk forumuna [Aspose Forum](https://forum.aspose.com/c/slides/11) adresinden katılın.
 
+---
+
+**Son Güncelleme:** 2025-12-18  
+**Test Edilen:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -179,9 +185,3 @@ C: Slayt indeksinin mevcut olduğundan emin olun (ör. sadece iki slayt varsa in
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-18  
-**Test Edilen:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Yazar:** Aspose

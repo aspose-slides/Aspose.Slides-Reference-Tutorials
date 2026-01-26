@@ -175,6 +175,12 @@ A: Upewnij się, że indeks slajdu istnieje (np. nie odwołuj się do indeksu 
 - **Bezpłatna wersja próbna i licencja tymczasowa**: Rozpocznij od wersji próbnej lub uzyskaj licencję tymczasową pod adresem [free trial](https://releases.aspose.com/slides/java/) i [temporary license](https://purchase.aspose.com/temporary-license/).  
 - **Wsparcie**: Dołącz do forum społeczności, aby uzyskać pomoc pod adresem [Aspose Forum](https://forum.aspose.com/c/slides/11).
 
+---
+
+**Last Updated:** 2025-12-18  
+**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -182,9 +188,3 @@ A: Upewnij się, że indeks slajdu istnieje (np. nie odwołuj się do indeksu 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-18  
-**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Author:** Aspose

@@ -175,6 +175,12 @@ presentation.save(dataDir + "/BetterTransitions_out.pptx", SaveFormat.Pptx);
 - **Δωρεάν Δοκιμή & Προσωρινή Άδεια**: Ξεκινήστε με δοκιμαστική έκδοση ή αποκτήστε προσωρινή άδεια στο [free trial](https://releases.aspose.com/slides/java/) και [temporary license](https://purchase.aspose.com/temporary-license/).  
 - **Υποστήριξη**: Συμμετέχετε στο φόρουμ κοινότητας για βοήθεια στο [Aspose Forum](https://forum.aspose.com/c/slides/11).
 
+---
+
+**Τελευταία ενημέρωση:** 2025-12-18  
+**Δοκιμάστηκε με:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -182,9 +188,3 @@ presentation.save(dataDir + "/BetterTransitions_out.pptx", SaveFormat.Pptx);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία ενημέρωση:** 2025-12-18  
-**Δοκιμάστηκε με:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Συγγραφέας:** Aspose

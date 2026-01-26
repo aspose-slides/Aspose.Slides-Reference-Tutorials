@@ -6,7 +6,7 @@ description: Aprenda a crear presentaciones de PowerPoint con Java usando Aspose
 keywords: java powerpoint api, java slides tutorial, aspose slides java, java presentation
   library, powerpoint java programming, java ppt tutorial
 linktitle: 'Aspose.Slides for Java Tutorials: Step-by-Step Programming Guide'
-title: 'Crea un tutorial de PowerPoint en Java: Domina Aspose.Slides para Java (Guía
+title: 'Crea un tutorial de PowerPoint en Java - Domina Aspose.Slides para Java (Guía
   2025)'
 url: /es/java/
 weight: 10
@@ -223,14 +223,6 @@ Cuando utilizas Aspose.Slides para Java, nunca estás solo en tu viaje de desarr
 
 ¡Comienza tu viaje con Aspose.Slides para Java hoy y transforma la forma en que creas y gestionas presentaciones PowerPoint programáticamente!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última actualización:** 2025-12-18  
@@ -238,3 +230,11 @@ Cuando utilizas Aspose.Slides para Java, nunca estás solo en tu viaje de desarr
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

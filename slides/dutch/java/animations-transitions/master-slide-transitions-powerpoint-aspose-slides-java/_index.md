@@ -171,6 +171,12 @@ A: Zorg ervoor dat de dia‑index bestaat (bijv. vermijd toegang tot index 2 w
 - **Gratis proefversie & tijdelijke licentie**: Begin met een proefversie of verkrijg een tijdelijke licentie op [free trial](https://releases.aspose.com/slides/java/) en [temporary license](https://purchase.aspose.com/temporary-license/).  
 - **Ondersteuning**: Word lid van het community‑forum voor hulp op [Aspose Forum](https://forum.aspose.com/c/slides/11).
 
+---
+
+**Laatst bijgewerkt:** 2025-12-18  
+**Getest met:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -178,9 +184,3 @@ A: Zorg ervoor dat de dia‑index bestaat (bijv. vermijd toegang tot index 2 w
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2025-12-18  
-**Getest met:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Auteur:** Aspose

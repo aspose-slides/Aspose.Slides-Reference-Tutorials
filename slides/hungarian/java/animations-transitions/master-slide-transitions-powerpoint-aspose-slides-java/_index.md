@@ -175,6 +175,12 @@ V: Győződj meg arról, hogy a dia index létezik (pl. ne próbáld meg elérni
 - **Ingyenes próba & Ideiglenes licenc**: Kezdj egy próba verzióval vagy szerezd be az ideiglenes licencet a [free trial](https://releases.aspose.com/slides/java/) és a [temporary license](https://purchase.aspose.com/temporary-license/) oldalakon.  
 - **Támogatás**: Csatlakozz a közösségi fórumhoz segítségért a [Aspose Forum](https://forum.aspose.com/c/slides/11) címen.
 
+---
+
+**Utolsó frissítés:** 2025-12-18  
+**Tesztelve:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -182,9 +188,3 @@ V: Győződj meg arról, hogy a dia index létezik (pl. ne próbáld meg elérni
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2025-12-18  
-**Tesztelve:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Szerző:** Aspose

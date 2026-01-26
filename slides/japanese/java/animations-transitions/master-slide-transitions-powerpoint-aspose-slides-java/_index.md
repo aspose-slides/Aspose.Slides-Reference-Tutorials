@@ -172,6 +172,12 @@ A: スライドインデックスが存在することを確認してくださ�
 - **無料トライアル & 一時ライセンス**: 試用開始や一時ライセンス取得は [free trial](https://releases.aspose.com/slides/java/) と [temporary license](https://purchase.aspose.com/temporary-license/) で行えます。  
 - **サポート**: 支援が必要な場合は [Aspose Forum](https://forum.aspose.com/c/slides/11) のコミュニティフォーラムに参加してください。  
 
+---
+
+**最終更新日:** 2025-12-18  
+**テスト環境:** Aspose.Slides for Java 25.4 (JDK 16)  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -179,9 +185,3 @@ A: スライドインデックスが存在することを確認してくださ�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2025-12-18  
-**テスト環境:** Aspose.Slides for Java 25.4 (JDK 16)  
-**作者:** Aspose

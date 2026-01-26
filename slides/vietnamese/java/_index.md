@@ -6,7 +6,7 @@ description: Học cách tạo bài thuyết trình PowerPoint bằng Java sử 
 keywords: java powerpoint api, java slides tutorial, aspose slides java, java presentation
   library, powerpoint java programming, java ppt tutorial
 linktitle: 'Aspose.Slides for Java Tutorials: Step-by-Step Programming Guide'
-title: 'Tạo Hướng Dẫn Powerpoint Java: Thành Thạo Aspose.Slides cho Java (Hướng Dẫn
+title: 'Tạo Hướng Dẫn Powerpoint Java - Thành Thạo Aspose.Slides cho Java (Hướng Dẫn
   2025)'
 url: /vi/java/
 weight: 10
@@ -223,14 +223,6 @@ Khi bạn sử dụng Aspose.Slides cho Java, bạn sẽ không bao giờ cô đ
 
 Bắt đầu hành trình với Aspose.Slides cho Java ngay hôm nay và biến đổi cách bạn tạo và quản lý các bản trình chiếu PowerPoint một cách lập trình!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Cập nhật lần cuối:** 2025-12-18  
@@ -238,3 +230,11 @@ Bắt đầu hành trình với Aspose.Slides cho Java ngay hôm nay và biến 
 **Tác giả:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

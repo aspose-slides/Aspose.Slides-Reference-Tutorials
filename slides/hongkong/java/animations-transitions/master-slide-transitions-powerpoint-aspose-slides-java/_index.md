@@ -172,6 +172,12 @@ A: 確認投影片索引正確（例如，避免在只有兩張投影片時存�
 - **免費試用與暫時授權**：先使用試用版，或於 [free trial](https://releases.aspose.com/slides/java/) 及 [temporary license](https://purchase.aspose.com/temporary-license/) 取得暫時授權。  
 - **支援**：加入 [Aspose Forum](https://forum.aspose.com/c/slides/11) 社群論壇取得協助。
 
+---
+
+**最後更新：** 2025-12-18  
+**測試環境：** Aspose.Slides for Java 25.4 (JDK 16)  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -179,9 +185,3 @@ A: 確認投影片索引正確（例如，避免在只有兩張投影片時存�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-18  
-**測試環境：** Aspose.Slides for Java 25.4 (JDK 16)  
-**作者：** Aspose

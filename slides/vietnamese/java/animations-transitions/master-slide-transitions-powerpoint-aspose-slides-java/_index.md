@@ -172,6 +172,12 @@ A: Đảm bảo chỉ số slide tồn tại (ví dụ, tránh truy cập chỉ 
 - **Bản dùng thử & Giấy phép tạm thời**: Bắt đầu với bản dùng thử hoặc nhận giấy phép tạm thời tại [bản dùng thử](https://releases.aspose.com/slides/java/) và [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).  
 - **Hỗ trợ**: Tham gia diễn đàn cộng đồng để được trợ giúp tại [Aspose Forum](https://forum.aspose.com/c/slides/11).
 
+---
+
+**Cập nhật lần cuối:** 2025-12-18  
+**Kiểm tra với:** Aspose.Slides cho Java 25.4 (JDK 16)  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -179,9 +185,3 @@ A: Đảm bảo chỉ số slide tồn tại (ví dụ, tránh truy cập chỉ 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2025-12-18  
-**Kiểm tra với:** Aspose.Slides cho Java 25.4 (JDK 16)  
-**Tác giả:** Aspose

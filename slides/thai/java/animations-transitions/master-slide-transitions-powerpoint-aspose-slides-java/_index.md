@@ -169,6 +169,12 @@ A: ตรวจสอบว่าดัชนีสไลด์มีอยู�
 - **ทดลองใช้ฟรีและไลเซนส์ชั่วคราว**: Start with a trial or obtain a temporary license at [free trial](https://releases.aspose.com/slides/java/) and [temporary license](https://purchase.aspose.com/temporary-license/).  
 - **สนับสนุน**: Join the community forum for assistance at [Aspose Forum](https://forum.aspose.com/c/slides/11).
 
+---
+
+**อัปเดตล่าสุด:** 2025-12-18  
+**ทดสอบด้วย:** Aspose.Slides for Java 25.4 (JDK 16)  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -176,9 +182,3 @@ A: ตรวจสอบว่าดัชนีสไลด์มีอยู�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2025-12-18  
-**ทดสอบด้วย:** Aspose.Slides for Java 25.4 (JDK 16)  
-**ผู้เขียน:** Aspose
