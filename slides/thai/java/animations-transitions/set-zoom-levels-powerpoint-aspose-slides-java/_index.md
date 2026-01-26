@@ -182,6 +182,12 @@ A: ได้, ให้ใส่โค้ดในลูปที่โหลด
 
 สำรวจแหล่งข้อมูลเหล่านี้เพื่อเพิ่มความเข้าใจและพัฒนาการนำเสนอ PowerPoint ของคุณด้วย Aspose.Slides for Java. ขอให้การนำเสนอของคุณสนุก!  
 
+---
+
+**อัปเดตล่าสุด:** 2025-12-22  
+**ทดสอบด้วย:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -189,9 +195,3 @@ A: ได้, ให้ใส่โค้ดในลูปที่โหลด
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2025-12-22  
-**ทดสอบด้วย:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
-**ผู้เขียน:** Aspose

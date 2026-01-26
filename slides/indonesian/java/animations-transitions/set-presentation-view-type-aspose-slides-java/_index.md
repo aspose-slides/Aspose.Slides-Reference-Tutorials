@@ -176,19 +176,6 @@ Anda kini telah mempelajari **cara mengubah tipe tampilan** presentasi PowerPoin
 
 Bereksperimenlah dengan berbagai tipe tampilan dan integrasikan fungsionalitas ini ke dalam proyek Anda untuk melihat bagaimana hal itu meningkatkan alur kerja otomatisasi presentasi Anda.
 
-## Bagian FAQ
-
-1. **Bagaimana cara mengatur tipe tampilan khusus untuk presentasi saya?**  
-   - Gunakan `setLastView(ViewType.Custom)` setelah menentukan pengaturan tampilan khusus Anda.  
-2. **Tipe tampilan lain apa yang tersedia di Aspose.Slides?**  
-   - Selain `SlideMasterView`, Anda dapat menggunakan `NotesMasterView`, `HandoutView`, dan lainnya.  
-3. **Bisakah saya menerapkan fitur ini pada file presentasi yang ada?**  
-   - Ya, inisialisasi objek `Presentation` dengan jalur file yang ada.  
-4. **Bagaimana cara menangani pengecualian saat mengatur tipe tampilan?**  
-   - Bungkus kode Anda dalam blok try‑catch dan catat semua pengecualian untuk debugging.  
-5. **Apakah ada dampak kinerja saat sering mengubah tipe tampilan?**  
-   - Perubahan yang sering dapat memengaruhi kinerja, jadi lakukan operasi batch bila memungkinkan.
-
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Apakah saya memerlukan lisensi untuk menggunakan fitur ini dalam produksi?**  

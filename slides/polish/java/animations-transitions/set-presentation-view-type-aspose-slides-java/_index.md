@@ -174,18 +174,6 @@ Nauczyłeś się **jak zmienić typ widoku** prezentacji PowerPoint przy użyciu
 ### Wypróbuj to!
 Eksperymentuj z różnymi typami widoków i włącz tę funkcjonalność do swoich projektów, aby zobaczyć, jak poprawia ona automatyzację przepływu pracy prezentacji.
 
-## Sekcja FAQ
-1. **Jak ustawić niestandardowy typ widoku dla mojej prezentacji?**  
-   - Użyj `setLastView(ViewType.Custom)` po określeniu własnych ustawień widoku.  
-2. **Jakie inne typy widoków są dostępne w Aspose.Slides?**  
-   - Oprócz `SlideMasterView` możesz używać `NotesMasterView`, `HandoutView` i innych.  
-3. **Czy mogę zastosować tę funkcję do istniejącego pliku prezentacji?**  
-   - Tak, zainicjalizuj obiekt `Presentation` przy użyciu ścieżki istniejącego pliku.  
-4. **Jak obsłużyć wyjątki przy ustawianiu typów widoku?**  
-   - Umieść kod w bloku try‑catch i loguj wszelkie wyjątki w celu debugowania.  
-5. **Czy częste zmiany typów widoku wpływają na wydajność?**  
-   - Częste zmiany mogą wpływać na wydajność, więc wykonuj operacje grupowo, gdy to możliwe.
-
 ## Najczęściej zadawane pytania
 **Q: Czy potrzebna jest licencja, aby używać tej funkcji w produkcji?**  
 A: Tak, wymagana jest ważna licencja Aspose.Slides do użytku produkcyjnego; darmowa wersja próbna działa wyłącznie w celach oceny.

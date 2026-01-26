@@ -185,6 +185,12 @@ R: Sì, avvolgi il codice in un ciclo che carica ogni presentazione, imposta la 
 
 Esplora queste risorse per approfondire la tua comprensione e migliorare le tue presentazioni PowerPoint usando Aspose.Slides per Java. Buona presentazione!
 
+---
+
+**Last Updated:** 2025-12-22  
+**Tested With:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -192,9 +198,3 @@ Esplora queste risorse per approfondire la tua comprensione e migliorare le tue 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-22  
-**Tested With:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
-**Author:** Aspose

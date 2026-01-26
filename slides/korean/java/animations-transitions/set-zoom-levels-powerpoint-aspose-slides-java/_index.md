@@ -182,6 +182,12 @@ A: 예, 각 프레젠테이션을 로드하고, 스케일을 설정한 뒤 파�
 
 이러한 리소스를 탐색하여 이해를 깊게 하고 Aspose.Slides for Java를 사용한 PowerPoint 프레젠테이션을 향상시키세요. 즐거운 발표 되세요!
 
+---
+
+**Last Updated:** 2025-12-22  
+**Tested With:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -189,9 +195,3 @@ A: 예, 각 프레젠테이션을 로드하고, 스케일을 설정한 뒤 파�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-22  
-**Tested With:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
-**Author:** Aspose

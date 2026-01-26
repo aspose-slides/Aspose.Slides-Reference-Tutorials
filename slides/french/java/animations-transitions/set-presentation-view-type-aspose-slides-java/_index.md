@@ -177,19 +177,6 @@ Vous avez maintenant appris **comment changer le type d’affichage** d’une pr
 
 Expérimentez différents types d’affichage et intégrez cette fonctionnalité dans vos projets pour voir comment elle améliore votre flux de travail d’automatisation des présentations.
 
-## Section FAQ
-
-1. **Comment définir un type d’affichage personnalisé pour ma présentation ?**  
-   - Utilisez `setLastView(ViewType.Custom)` après avoir spécifié vos paramètres d’affichage personnalisés.  
-2. **Quels autres types d’affichage sont disponibles dans Aspose.Slides ?**  
-   - En plus de `SlideMasterView`, vous pouvez utiliser `NotesMasterView`, `HandoutView`, et d’autres.  
-3. **Puis‑je appliquer cette fonctionnalité à un fichier de présentation existant ?**  
-   - Oui, initialisez l’objet `Presentation` avec le chemin du fichier existant.  
-4. **Comment gérer les exceptions lors de la définition des types d’affichage ?**  
-   - Encapsulez votre code dans un bloc try‑catch et consignez les exceptions pour le débogage.  
-5. **Y a‑t‑il un impact sur les performances lorsqu’on change fréquemment les types d’affichage ?**  
-   - Les changements fréquents peuvent affecter les performances, il est donc préférable de regrouper les opérations.
-
 ## Questions fréquemment posées
 
 **Q : Ai‑je besoin d’une licence pour utiliser cette fonctionnalité en production ?**  

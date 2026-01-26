@@ -186,6 +186,12 @@ O: Tak, otocz kod pętlą, która wczytuje każdą prezentację, ustawia skalę 
 
 Zapoznaj się z tymi zasobami, aby pogłębić swoją wiedzę i ulepszyć prezentacje PowerPoint przy użyciu Aspose.Slides for Java. Życzymy udanych prezentacji!
 
+---
+
+**Ostatnia aktualizacja:** 2025-12-22  
+**Testowano z:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -193,9 +199,3 @@ Zapoznaj się z tymi zasobami, aby pogłębić swoją wiedzę i ulepszyć prezen
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2025-12-22  
-**Testowano z:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
-**Autor:** Aspose

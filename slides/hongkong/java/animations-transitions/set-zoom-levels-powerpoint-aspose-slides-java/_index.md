@@ -183,6 +183,12 @@ A: 可以，將程式碼包在迴圈中，依序載入每個簡報、設定比�
 
 探索上述資源，以加深對 Aspose.Slides for Java 的了解，並提升您的 PowerPoint 簡報品質。祝您簡報順利！
 
+---
+
+**最後更新日期：** 2025-12-22  
+**測試環境：** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -190,9 +196,3 @@ A: 可以，將程式碼包在迴圈中，依序載入每個簡報、設定比�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新日期：** 2025-12-22  
-**測試環境：** Aspose.Slides for Java 25.4 (jdk16 classifier)  
-**作者：** Aspose

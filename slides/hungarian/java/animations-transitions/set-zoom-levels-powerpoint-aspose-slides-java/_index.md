@@ -187,6 +187,12 @@ V: Igen, csomagolja a kódot egy ciklusba, amely betölti az egyes prezentáció
 
 Fedezze fel ezeket az erőforrásokat, hogy mélyebb megértést szerezzen és továbbfejlessze PowerPoint-prezentációit az Aspose.Slides for Java segítségével. Boldog prezentálást!
 
+---
+
+**Last Updated:** 2025-12-22  
+**Tested With:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -194,9 +200,3 @@ Fedezze fel ezeket az erőforrásokat, hogy mélyebb megértést szerezzen és t
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-22  
-**Tested With:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
-**Author:** Aspose

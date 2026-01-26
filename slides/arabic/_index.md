@@ -310,14 +310,6 @@ weight: 10
 - [معادلات رياضية](./python-net/math-equations/)
 - [التوليد وتكامل الذكاء الاصطناعي](./python-net/generation-ai-integration/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الأسئلة المتكررة
 
 **س: هل أحتاج إلى تثبيت Microsoft PowerPoint لاستخدام Aspose.Slides؟**  
@@ -340,3 +332,11 @@ weight: 10
 **آخر تحديث:** 2025-12-22  
 **تم الاختبار مع:** Aspose.Slides 24.12 لـ .NET، Java، وPython  
 **المؤلف:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

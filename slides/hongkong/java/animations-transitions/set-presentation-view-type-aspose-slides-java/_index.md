@@ -80,15 +80,15 @@ Presentation presentation = new Presentation();
 
 上述程式碼讓您的專案可以使用 Aspose.Slides 操作 PowerPoint 簡報。
 
-## Implementation Guide: Setting the View Type
 
 ## 實作指南：設定檢視類型
 
-### Overview
+### 概述
 
 在本節中，我們將重點說明如何變更簡報的最後檢視類型。具體來說，我們會將其設定為 `SlideMasterView`，讓使用者直接看到並編輯母片投影片。
 
-#### Step 1: Define Directories
+
+#### 步驟 1：定義目錄
 
 設定文件與輸出目錄：
 
@@ -99,7 +99,7 @@ String outputDir = "YOUR_OUTPUT_DIRECTORY";
 
 上述變數分別保存輸入檔案與輸出檔案的路徑。
 
-#### Step 2: Initialize Presentation Object
+#### 步驟 2：初始化演示對象
 
 建立新的 `Presentation` 實例。此物件代表您正在處理的 PowerPoint 檔案：
 
@@ -112,7 +112,7 @@ try {
 }
 ```
 
-#### Step 3: Set Last View Type
+#### 步驟 3：設定上次檢視類型
 
 使用 `getViewProperties().setLastView` 方法指定欲使用的檢視：
 
@@ -123,7 +123,7 @@ presentation.getViewProperties().setLastView(ViewType.SlideMasterView);
 
 此程式碼會將簡報的預設開啟檢視設定為母片投影片檢視。
 
-#### Step 4: Save the Presentation
+#### 步驟 4：儲存簡報
 
 最後，將變更儲存回 PowerPoint 檔案：
 
@@ -135,17 +135,17 @@ presentation.save(outputPath, SaveFormat.Pptx);
 
 此步驟會將已設定檢視的簡報寫入檔案，完成設定。
 
-### Troubleshooting Tips
+### 故障排除技巧
 
 - 確認已正確安裝並授權 Aspose.Slides。  
 - 檢查目錄路徑，避免出現 *file not found* 錯誤。  
 - 在處理大型簡報時，務必釋放 `Presentation` 物件以釋放記憶體。
 
-## How to Change View Type in a Presentation
+## 如何變更簡報中的檢視類型
 
 變更檢視類型是一項輕量操作，但在使用者開啟 PowerPoint 時，能顯著提升使用體驗。透過設定 **最後檢視**，您可以控制預設顯示的畫面，讓設計師直接進入所需的編輯模式。
 
-## Practical Applications
+## 實際應用
 
 以下是一些實務情境，您可能會想要程式化 **變更檢視**：
 
@@ -153,7 +153,7 @@ presentation.save(outputPath, SaveFormat.Pptx);
 2. **批次編輯** – 使用 `NotesMasterView` 一次編輯多張投影片的講者備註。  
 3. **範本建立** – 事先設定範本的檢視，讓最終使用者一開啟即進入最適合的模式。
 
-## Performance Considerations
+## 效能注意事項
 
 處理大型簡報時，請留意以下建議：
 
@@ -161,34 +161,21 @@ presentation.save(outputPath, SaveFormat.Pptx);
 - 僅處理必要的投影片或區段，以降低記憶體使用。  
 - 避免在緊密迴圈中頻繁變更檢視，盡量批次執行變更。
 
-## Conclusion
+## 結論
 
 您現在已掌握 **如何使用 Aspose.Slides for Java 變更 PowerPoint 簡報的檢視類型**。此功能可協助您自動化設計工作流程、建立一致的範本，並簡化批次編輯任務。
 
-### Next Steps
+### 後續步驟
 
 - 探索其他檢視類型，如 `NotesMasterView`、`HandoutView` 或 `SlideSorterView`。  
 - 結合檢視變更與投影片操作（新增、複製或重新排序投影片）。  
 - 將此邏輯整合至更大的文件產生管線中。
 
-### Try It Out!
+### 立即體驗！
 
 嘗試不同的檢視類型，並將此功能整合至您的專案，觀察它如何提升簡報自動化工作流程的效率。
 
-## FAQ Section
-
-1. **如何為簡報設定自訂檢視類型？**  
-   - 在指定自訂檢視設定後，使用 `setLastView(ViewType.Custom)`。  
-2. **Aspose.Slides 提供哪些其他檢視類型？**  
-   - 除了 `SlideMasterView`，還有 `NotesMasterView`、`HandoutView` 等。  
-3. **可以將此功能套用到既有的簡報檔案嗎？**  
-   - 可以，使用既有檔案路徑初始化 `Presentation` 物件即可。  
-4. **設定檢視類型時如何處理例外狀況？**  
-   - 將程式碼包在 try‑catch 區塊中，並記錄例外以便除錯。  
-5. **頻繁變更檢視類型會影響效能嗎？**  
-   - 會有一定影響，建議盡可能批次執行變更。
-
-## Frequently Asked Questions
+## 常見問題解答
 
 **Q: 正式環境使用此功能需要授權嗎？**  
 A: 需要，有效的 Aspose.Slides 授權是正式環境的前提；免費試用版僅供評估使用。
@@ -205,7 +192,7 @@ A: `setLastView` 會更新簡報內部屬性，儲存檔案即會永久寫入。
 **Q: 若簡報未以預期的檢視開啟，該怎麼辦？**  
 A: 請確認使用的檢視常數正確，且在儲存前沒有其他程式碼覆寫此設定。
 
-## Resources
+## 資源
 - **文件**: [Aspose.Slides Java Documentation](https://reference.aspose.com/slides/java/)
 - **下載**: [Latest Aspose.Slides Releases](https://releases.aspose.com/slides/java/)
 - **購買**: [Buy a License](https://purchase.aspose.com/buy)

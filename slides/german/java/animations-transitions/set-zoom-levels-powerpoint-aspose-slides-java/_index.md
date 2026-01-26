@@ -183,6 +183,12 @@ A: Ja, wickeln Sie den Code in eine Schleife, die jede Präsentation lädt, den 
 
 Explore these resources to deepen your understanding and enhance your PowerPoint presentations using Aspose.Slides for Java. Happy presenting!
 
+---
+
+**Last Updated:** 2025-12-22  
+**Tested With:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -190,9 +196,3 @@ Explore these resources to deepen your understanding and enhance your PowerPoint
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-22  
-**Tested With:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
-**Author:** Aspose

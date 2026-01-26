@@ -173,19 +173,6 @@ Artık Aspose.Slides for Java kullanarak bir PowerPoint sunumunun **görünüm t
 
 Farklı görünüm türleriyle deney yapın ve bu işlevi projelerinize entegre edin; böylece sunum otomasyon iş akışınızı nasıl geliştirdiğini görebilirsiniz.
 
-## SSS Bölümü
-
-1. **Sunumum için özel bir görünüm türü nasıl ayarlarım?**  
-   - Özel görünüm ayarlarınızı belirttikten sonra `setLastView(ViewType.Custom)` kullanın.  
-2. **Aspose.Slides'ta başka hangi görünüm türleri mevcuttur?**  
-   - `SlideMasterView` dışında `NotesMasterView`, `HandoutView` ve daha fazlasını kullanabilirsiniz.  
-3. **Bu özelliği mevcut bir sunum dosyasına uygulayabilir miyim?**  
-   - Evet, `Presentation` nesnesini mevcut dosya yolu ile başlatın.  
-4. **Görünüm türlerini ayarlarken istisnaları nasıl ele alırım?**  
-   - Kodunuzu bir try‑catch bloğuna alın ve hata ayıklama için istisnaları kaydedin.  
-5. **Görünüm türlerini sık sık değiştirmek performansı etkiler mi?**  
-   - Sık değişiklikler performansı etkileyebilir; mümkün olduğunca toplu işlemler yapın.
-
 ## Sıkça Sorulan Sorular
 
 **S: Bu özelliği üretimde kullanmak için lisansa ihtiyacım var mı?**  

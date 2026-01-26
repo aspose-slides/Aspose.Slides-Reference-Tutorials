@@ -305,14 +305,6 @@ weight: 10
 - [Математические уравнения](./python-net/math-equations/)
 - [Генерация и интеграция ИИ](./python-net/generation-ai-integration/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Часто задаваемые вопросы
 
 **В: Нужно ли устанавливать Microsoft PowerPoint для использования Aspose.Slides?**  
@@ -335,3 +327,11 @@ weight: 10
 **Последнее обновление:** 2025-12-22  
 **Тестировано с:** Aspose.Slides 24.12 для .NET, Java и Python  
 **Автор:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

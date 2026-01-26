@@ -309,14 +309,6 @@ Explore Aspose.Slides for Python via .NET—a powerful PowerPoint automation lib
 - [Math Equations](./python-net/math-equations/)
 - [Generation & AI Integration](./python-net/generation-ai-integration/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q: Do I need to install Microsoft PowerPoint to use Aspose.Slides?**  
@@ -339,3 +331,11 @@ A: Use streaming APIs and the `PresentationOptimizer` class to reduce memory con
 **Last Updated:** 2025-12-22  
 **Tested With:** Aspose.Slides 24.12 for .NET, Java, and Python  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

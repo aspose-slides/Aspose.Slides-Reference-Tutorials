@@ -310,14 +310,6 @@ Aspose.Slides PowerPoint automation tutorial คือชุดทรัพย�
 - [สมการคณิตศาสตร์](./python-net/math-equations/)
 - [การสร้างและการบูรณาการ AI](./python-net/generation-ai-integration/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## คำถามที่พบบ่อย
 
 **Q: ฉันต้องติดตั้ง Microsoft PowerPoint เพื่อใช้ Aspose.Slides หรือไม่?**  
@@ -340,3 +332,11 @@ A: ใช้ Streaming API และคลาส `PresentationOptimizer` เพ�
 **อัปเดตล่าสุด:** 2025-12-22  
 **ทดสอบด้วย:** Aspose.Slides 24.12 for .NET, Java, and Python  
 **ผู้เขียน:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

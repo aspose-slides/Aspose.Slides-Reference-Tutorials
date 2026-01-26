@@ -184,6 +184,12 @@ A: हाँ, कोड को लूप में रखें जो प्र
 
 इन संसाधनों का अन्वेषण करें ताकि आप अपनी समझ को गहरा कर सकें और Aspose.Slides for Java का उपयोग करके अपनी PowerPoint प्रस्तुतियों को बेहतर बना सकें। शुभ प्रस्तुति!
 
+---
+
+**Last Updated:** 2025-12-22  
+**Tested With:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -191,9 +197,3 @@ A: हाँ, कोड को लूप में रखें जो प्र
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-22  
-**Tested With:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
-**Author:** Aspose

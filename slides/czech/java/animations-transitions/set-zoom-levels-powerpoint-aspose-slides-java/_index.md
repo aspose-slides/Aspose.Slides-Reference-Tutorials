@@ -184,6 +184,12 @@ A: Ano, obalte kód smyčkou, která načte každou prezentaci, nastaví měří
 
 Prozkoumejte tyto zdroje, abyste prohloubili své znalosti a vylepšili své PowerPoint prezentace pomocí Aspose.Slides pro Java. Šťastné prezentování!
 
+---
+
+**Poslední aktualizace:** 2025-12-22  
+**Testováno s:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -191,9 +197,3 @@ Prozkoumejte tyto zdroje, abyste prohloubili své znalosti a vylepšili své Pow
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2025-12-22  
-**Testováno s:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
-**Autor:** Aspose

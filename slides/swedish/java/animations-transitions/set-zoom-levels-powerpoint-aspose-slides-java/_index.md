@@ -180,6 +180,12 @@ A: Ja, omslut koden i en loop som laddar varje presentation, ställer in skalan 
 
 Utforska dessa resurser för att fördjupa din förståelse och förbättra dina PowerPoint-presentationer med Aspose.Slides för Java. Lycka till med presentationerna!
 
+---
+
+**Last Updated:** 2025-12-22  
+**Tested With:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -187,9 +193,3 @@ Utforska dessa resurser för att fördjupa din förståelse och förbättra dina
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-22  
-**Tested With:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
-**Author:** Aspose

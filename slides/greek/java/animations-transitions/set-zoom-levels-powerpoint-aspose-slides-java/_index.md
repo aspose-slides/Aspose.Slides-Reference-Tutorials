@@ -185,6 +185,12 @@ presentation.getViewProperties().getNotesViewProperties().setScale(100);
 
 Εξερευνήστε αυτούς τους πόρους για να εμβαθύνετε την κατανόησή σας και να βελτιώσετε τις παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides for Java. Καλή παρουσίαση!
 
+---
+
+**Τελευταία Ενημέρωση:** 2025-12-22  
+**Δοκιμή Με:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -192,9 +198,3 @@ presentation.getViewProperties().getNotesViewProperties().setScale(100);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2025-12-22  
-**Δοκιμή Με:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
-**Συγγραφέας:** Aspose

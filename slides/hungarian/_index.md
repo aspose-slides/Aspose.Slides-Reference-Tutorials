@@ -311,14 +311,6 @@ Fedezze fel az Aspose.Slides for Python via .NET‑et – egy erőteljes PowerPo
 - [Matematikai Egyenletek](./python-net/math-equations/)
 - [Generálás & AI Integráció](./python-net/generation-ai-integration/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran Ismételt Kérdések
 
 **Q: Szükséges-e a Microsoft PowerPoint telepítése az Aspose.Slides használatához?**  
@@ -341,3 +333,11 @@ A: Használjon streaming API‑kat és a `PresentationOptimizer` osztályt a mem
 **Utolsó frissítés:** 2025-12-22  
 **Tesztelve:** Aspose.Slides 24.12 .NET, Java és Python verziókkal  
 **Szerző:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

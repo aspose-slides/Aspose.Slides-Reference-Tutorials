@@ -308,14 +308,6 @@ Aspose.Slides for Python via .NET — Python geliştiricileri için tam özellik
 - [Matematiksel Denklemler](./python-net/math-equations/)
 - [Üretim ve AI Entegrasyonu](./python-net/generation-ai-integration/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
 ## Frequently Asked Questions
 
 **Q: Microsoft PowerPoint'i Aspose.Slides kullanmak için kurmam gerekiyor mu?**  
@@ -336,3 +328,11 @@ A: Akış API'lerini ve `PresentationOptimizer` sınıfını kullanarak bellek t
 **Son Güncelleme:** 2025-12-22  
 **Tested With:** Aspose.Slides 24.12 for .NET, Java, and Python  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}

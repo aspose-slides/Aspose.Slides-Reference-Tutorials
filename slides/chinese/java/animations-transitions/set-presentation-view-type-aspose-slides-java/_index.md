@@ -173,19 +173,6 @@ presentation.save(outputPath, SaveFormat.Pptx);
 
 尝试不同的视图类型，并将此功能集成到您的项目中，体验它如何提升演示文稿自动化工作流。
 
-## FAQ Section
-
-1. **如何为演示文稿设置自定义视图类型？**  
-   - 在指定自定义视图设置后，使用 `setLastView(ViewType.Custom)`。  
-2. **Aspose.Slides 提供哪些其他视图类型？**  
-   - 除了 `SlideMasterView`，还可以使用 `NotesMasterView`、`HandoutView` 等。  
-3. **我可以将此功能应用于已有的演示文稿文件吗？**  
-   - 可以，使用现有文件路径初始化 `Presentation` 对象即可。  
-4. **设置视图类型时如何处理异常？**  
-   - 将代码放在 try‑catch 块中，并记录异常以便调试。  
-5. **频繁更改视图类型会影响性能吗？**  
-   - 频繁更改可能影响性能，建议尽可能批量操作。
-
 ## Frequently Asked Questions
 
 **问：在生产环境中使用此功能是否需要许可证？**  

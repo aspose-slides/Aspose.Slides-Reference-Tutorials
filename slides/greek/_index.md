@@ -312,14 +312,6 @@ weight: 10
 - [Math Equations](./python-net/math-equations/)
 - [Generation & AI Integration](./python-net/generation-ai-integration/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Συχνές Ερωτήσεις
 
 **Q: Χρειάζεται να εγκαταστήσω το Microsoft PowerPoint για να χρησιμοποιήσω το Aspose.Slides;**  
@@ -342,3 +334,11 @@ A: Χρησιμοποιήστε τις streaming APIs και την κλάση `
 **Last Updated:** 2025-12-22  
 **Tested With:** Aspose.Slides 24.12 for .NET, Java, and Python  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

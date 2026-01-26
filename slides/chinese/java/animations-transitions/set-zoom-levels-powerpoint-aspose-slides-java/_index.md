@@ -183,6 +183,12 @@ A: 可以，将代码包装在循环中，依次加载每个演示文稿、设�
 
 探索这些资源，以加深对 Aspose.Slides for Java 的理解并提升您的 PowerPoint 演示文稿。祝您演示顺利！
 
+---
+
+**Last Updated:** 2025-12-22  
+**Tested With:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -190,9 +196,3 @@ A: 可以，将代码包装在循环中，依次加载每个演示文稿、设�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-22  
-**Tested With:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
-**Author:** Aspose

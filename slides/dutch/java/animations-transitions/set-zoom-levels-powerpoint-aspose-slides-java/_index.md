@@ -181,6 +181,12 @@ A: Ja, plaats de code in een lus die elke presentatie laadt, de schaal instelt e
 
 Verken deze bronnen om je kennis te verdiepen en je PowerPoint‑presentaties te verbeteren met Aspose.Slides voor Java. Veel succes met presenteren!
 
+---
+
+**Laatst bijgewerkt:** 2025-12-22  
+**Getest met:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -188,9 +194,3 @@ Verken deze bronnen om je kennis te verdiepen en je PowerPoint‑presentaties te
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2025-12-22  
-**Getest met:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
-**Auteur:** Aspose

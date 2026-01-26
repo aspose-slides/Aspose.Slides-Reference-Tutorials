@@ -325,14 +325,6 @@ Aspose.Slides for Python via .NET을 탐색하세요—Python 개발자를 위�
 - [수학 방정식](./python-net/math-equations/)
 - [생성 및 AI 통합](./python-net/generation-ai-integration/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 자주 묻는 질문
 
 **Q: Aspose.Slides를 사용하려면 Microsoft PowerPoint를 설치해야 하나요?**  
@@ -353,3 +345,11 @@ A: 스트리밍 API와 `PresentationOptimizer` 클래스를 사용하여 메모�
 **마지막 업데이트:** 2025-12-22  
 **테스트 환경:** Aspose.Slides 24.12 for .NET, Java, and Python  
 **작성자:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

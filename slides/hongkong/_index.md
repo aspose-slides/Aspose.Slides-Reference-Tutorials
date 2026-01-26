@@ -311,14 +311,6 @@ Aspose.Slides PowerPoint 自動化教學是一套精選資源，示範如何以�
 - [數學方程式](./python-net/math-equations/)
 - [生成與 AI 整合](./python-net/generation-ai-integration/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常見問題
 
 **Q: 使用 Aspose.Slides 是否需要安裝 Microsoft PowerPoint？**  
@@ -339,3 +331,11 @@ A: 使用串流 API 以及 `PresentationOptimizer` 類別，以降低記憶體�
 **最後更新：** 2025-12-22  
 **測試環境：** Aspose.Slides 24.12 for .NET、Java 與 Python  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

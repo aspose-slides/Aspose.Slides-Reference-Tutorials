@@ -169,19 +169,6 @@ Bạn đã học **cách thay đổi loại chế độ xem** của một bản 
 
 Hãy thử nghiệm các loại chế độ xem khác nhau và tích hợp chức năng này vào dự án của bạn để thấy cách nó cải thiện quy trình tự động hoá bản trình bày.
 
-## Phần Câu Hỏi Thường Gặp
-
-1. **Làm sao để đặt loại chế độ xem tùy chỉnh cho bản trình bày?**  
-   - Sử dụng `setLastView(ViewType.Custom)` sau khi đã xác định các cài đặt chế độ xem tùy chỉnh của bạn.  
-2. **Có những loại chế độ xem nào khác có sẵn trong Aspose.Slides?**  
-   - Ngoài `SlideMasterView`, bạn có thể dùng `NotesMasterView`, `HandoutView` và các loại khác.  
-3. **Có thể áp dụng tính năng này cho tệp bản trình bày hiện có không?**  
-   - Có, chỉ cần khởi tạo đối tượng `Presentation` với đường dẫn tệp hiện có.  
-4. **Làm sao xử lý ngoại lệ khi đặt loại chế độ xem?**  
-   - Đặt mã của bạn trong khối try‑catch và ghi lại bất kỳ ngoại lệ nào để gỡ lỗi.  
-5. **Việc thay đổi chế độ xem thường xuyên có ảnh hưởng đến hiệu năng không?**  
-   - Thay đổi thường xuyên có thể ảnh hưởng tới hiệu năng, vì vậy hãy thực hiện theo lô khi có thể.
-
 ## Các Câu Hỏi Thường Gặp
 
 **Q: Tôi có cần giấy phép để sử dụng tính năng này trong môi trường sản xuất không?**  

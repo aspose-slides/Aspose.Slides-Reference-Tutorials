@@ -186,6 +186,12 @@ Dưới đây là một số trường hợp sử dụng thực tế:
 
 Khám phá các tài nguyên này để nâng cao hiểu biết và cải thiện các bản trình bày PowerPoint của bạn bằng Aspose.Slides cho Java. Chúc bạn thuyết trình vui vẻ!
 
+---
+
+**Cập nhật lần cuối:** 2025-12-22  
+**Được kiểm tra với:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -193,9 +199,3 @@ Khám phá các tài nguyên này để nâng cao hiểu biết và cải thiệ
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2025-12-22  
-**Được kiểm tra với:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
-**Tác giả:** Aspose

@@ -175,19 +175,6 @@ Ahora sabes **cómo cambiar el tipo de vista** de una presentación de PowerPoin
 
 Experimenta con diferentes tipos de vista e integra esta funcionalidad en tus proyectos para ver cómo mejora tu flujo de automatización de presentaciones.
 
-## Sección de preguntas frecuentes
-
-1. **¿Cómo establezco un tipo de vista personalizado para mi presentación?**  
-   - Usa `setLastView(ViewType.Custom)` después de especificar la configuración de vista personalizada.  
-2. **¿Qué otros tipos de vista están disponibles en Aspose.Slides?**  
-   - Además de `SlideMasterView`, puedes usar `NotesMasterView`, `HandoutView` y más.  
-3. **¿Puedo aplicar esta función a un archivo de presentación existente?**  
-   - Sí, inicializa el objeto `Presentation` con la ruta del archivo existente.  
-4. **¿Cómo manejo excepciones al establecer tipos de vista?**  
-   - Envuelve tu código en un bloque try‑catch y registra cualquier excepción para depuración.  
-5. **¿Hay un impacto de rendimiento al cambiar tipos de vista con frecuencia?**  
-   - Los cambios frecuentes pueden afectar el rendimiento, por lo que es recomendable agrupar las operaciones cuando sea posible.
-
 ## Preguntas frecuentes
 
 **P: ¿Necesito una licencia para usar esta función en producción?**  

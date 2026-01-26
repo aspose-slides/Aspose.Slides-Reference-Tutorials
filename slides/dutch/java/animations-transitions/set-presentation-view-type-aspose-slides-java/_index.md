@@ -173,19 +173,6 @@ Je hebt nu geleerd **hoe je het weergavetype** van een PowerPoint‑presentatie 
 ### Probeer het uit!
 Experimenteer met verschillende weergavetypes en integreer deze functionaliteit in je projecten om te zien hoe het je presentatie‑automatiseringsworkflow verbetert.
 
-## FAQ‑sectie
-
-1. **Hoe stel ik een aangepast weergavetype in voor mijn presentatie?**  
-   - Gebruik `setLastView(ViewType.Custom)` na het specificeren van je aangepaste weergave‑instellingen.  
-2. **Welke andere weergavetypes zijn beschikbaar in Aspose.Slides?**  
-   - Naast `SlideMasterView` kun je `NotesMasterView`, `HandoutView` en meer gebruiken.  
-3. **Kan ik deze functie toepassen op een bestaand presentatiebestand?**  
-   - Ja, initialiseert het `Presentation`‑object met het bestaande bestandspad.  
-4. **Hoe ga ik om met uitzonderingen bij het instellen van weergavetypes?**  
-   - Plaats je code in een try‑catch‑blok en log eventuele uitzonderingen voor debugging.  
-5. **Heeft het vaak wijzigen van weergavetypes invloed op de prestaties?**  
-   - Veelvuldige wijzigingen kunnen de prestaties beïnvloeden, dus batch bewerkingen waar mogelijk.
-
 ## Veelgestelde vragen
 
 **Q: Heb ik een licentie nodig om deze functie in productie te gebruiken?**  

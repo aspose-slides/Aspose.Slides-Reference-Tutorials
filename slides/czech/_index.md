@@ -310,14 +310,6 @@ Prozkoumejte Aspose.Slides pro Python přes .NET — výkonnou knihovnu pro 
 - [Matematické rovnice](./python-net/math-equations/)
 - [Generování a integrace AI](./python-net/generation-ai-integration/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Často kladené otázky
 
 **Q: Potřebuji nainstalovat Microsoft PowerPoint pro použití Aspose.Slides?**  
@@ -340,3 +332,11 @@ A: Použijte streamingové API a třídu `PresentationOptimizer` ke snížení s
 **Poslední aktualizace:** 2025-12-22  
 **Testováno s:** Aspose.Slides 24.12 for .NET, Java, and Python  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

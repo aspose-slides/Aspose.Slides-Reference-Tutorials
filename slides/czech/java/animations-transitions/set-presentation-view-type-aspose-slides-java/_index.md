@@ -159,19 +159,6 @@ Experimentujte s různými typy zobrazení a integrujte tuto funkci do svých pr
 
 ## Často kladené otázky
 
-1. **Jak nastavit vlastní typ zobrazení pro moji prezentaci?**  
-   - Použijte `setLastView(ViewType.Custom)` po specifikaci vlastních nastavení zobrazení.  
-2. **Jaké další typy zobrazení jsou v Aspose.Slides k dispozici?**  
-   - Kromě `SlideMasterView` můžete použít `NotesMasterView`, `HandoutView` a další.  
-3. **Mohu tuto funkci použít na existující soubor prezentace?**  
-   - Ano, inicializujte objekt `Presentation` s cestou k existujícímu souboru.  
-4. **Jak zacházet s výjimkami při nastavování typů zobrazení?**  
-   - Obalte kód do bloku try‑catch a zaznamenejte případné výjimky pro ladění.  
-5. **Má časté měnění typů zobrazení dopad na výkon?**  
-   - Časté změny mohou ovlivnit výkon, proto je provádějte hromadně, pokud je to možné.
-
-## Často kladené otázky
-
 **Q: Potřebuji licenci k použití této funkce v produkci?**  
 A: Ano, pro produkční použití je vyžadována platná licence Aspose.Slides; bezplatná zkušební verze slouží pouze pro hodnocení.
 

@@ -310,14 +310,6 @@ Khám phá Aspose.Slides cho Python qua .NET—một thư viện tự động ho
 - [Phương trình Toán học](./python-net/math-equations/)
 - [Tạo nội dung & Tích hợp AI](./python-net/generation-ai-integration/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Câu hỏi thường gặp
 
 **Q: Tôi có cần cài đặt Microsoft PowerPoint để sử dụng Aspose.Slides không?**  
@@ -340,3 +332,11 @@ A: Sử dụng API streaming và lớp `PresentationOptimizer` để giảm tiê
 **Cập nhật lần cuối:** 2025-12-22  
 **Kiểm tra với:** Aspose.Slides 24.12 cho .NET, Java và Python  
 **Tác giả:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

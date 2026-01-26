@@ -183,6 +183,12 @@ A: Ya, bungkus kode dalam loop yang memuat setiap presentasi, mengatur skala, da
 
 Jelajahi sumber daya ini untuk memperdalam pemahaman Anda dan meningkatkan presentasi PowerPoint Anda menggunakan Aspose.Slides untuk Java. Selamat menyajikan!
 
+---
+
+**Terakhir Diperbarui:** 2025-12-22  
+**Diuji Dengan:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -190,9 +196,3 @@ Jelajahi sumber daya ini untuk memperdalam pemahaman Anda dan meningkatkan prese
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2025-12-22  
-**Diuji Dengan:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
-**Penulis:** Aspose

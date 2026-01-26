@@ -173,19 +173,6 @@ Agora você aprendeu **como alterar o tipo de visualização** de uma apresenta�
 
 Experimente diferentes tipos de visualização e integre essa funcionalidade em seus projetos para ver como ela melhora seu fluxo de trabalho de automação de apresentações.
 
-## Seção de Perguntas Frequentes
-
-1. **Como defino um tipo de visualização personalizado para minha apresentação?**  
-   - Use `setLastView(ViewType.Custom)` após especificar as configurações da visualização personalizada.  
-2. **Quais outros tipos de visualização estão disponíveis no Aspose.Slides?**  
-   - Além de `SlideMasterView`, você pode usar `NotesMasterView`, `HandoutView` e outros.  
-3. **Posso aplicar esse recurso a um arquivo de apresentação existente?**  
-   - Sim, inicialize o objeto `Presentation` com o caminho do arquivo existente.  
-4. **Como trato exceções ao definir tipos de visualização?**  
-   - Envolva seu código em um bloco try‑catch e registre quaisquer exceções para depuração.  
-5. **Há impacto de desempenho ao mudar tipos de visualização com frequência?**  
-   - Mudanças frequentes podem afetar o desempenho, portanto, faça operações em lote quando possível.
-
 ## Perguntas Frequentes
 
 **Q: Preciso de uma licença para usar este recurso em produção?**  

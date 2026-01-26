@@ -311,14 +311,6 @@ Utforska Aspose.Slides för Python via .NET – ett kraftfullt PowerPoint‑auto
 - [Matematiska ekvationer](./python-net/math-equations/)
 - [Generering & AI‑integration](./python-net/generation-ai-integration/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Vanliga frågor
 
 **Q: Måste jag installera Microsoft PowerPoint för att använda Aspose.Slides?**  
@@ -341,3 +333,11 @@ A: Använd streaming‑API:er och `PresentationOptimizer`‑klassen för att min
 **Senast uppdaterad:** 2025-12-22  
 **Testad med:** Aspose.Slides 24.12 för .NET, Java och Python  
 **Författare:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
