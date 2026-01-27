@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Tìm hiểu cách thêm và tùy chỉnh biểu đồ hình tròn trong bài thuyết trình bằng Aspose.Slides for Java. Hướng dẫn này bao gồm thiết lập, triển khai và ứng dụng thực tế."
-"title": "Thêm biểu đồ hình tròn vào bài thuyết trình của bạn bằng Aspose.Slides Java | Hướng dẫn từng bước"
-"url": "/vi/java/charts-graphs/add-pie-chart-aspose-slides-java/"
-"weight": 1
+date: '2026-01-09'
+description: Khám phá cách sử dụng Aspose.Slides Maven để thêm biểu đồ vào slide và
+  tùy chỉnh biểu đồ tròn trong các bài thuyết trình Java. Hướng dẫn cài đặt từng bước,
+  mã nguồn và các ví dụ thực tế.
+keywords:
+- add pie chart with Aspose.Slides Java
+- Aspose.Slides for Java tutorial
+- Java presentation automation
+title: 'aspose slides maven - Thêm biểu đồ tròn vào bản trình chiếu'
+url: /vi/java/charts-graphs/add-pie-chart-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,36 +17,43 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Cách thêm biểu đồ hình tròn vào bài thuyết trình bằng Aspose.Slides Java
+# Cách Thêm Biểu Đồ Tròn Vào Bản Trình Chiếu Sử Dụng Aspose.Slides Java
 
 ## Giới thiệu
-Tạo các bài thuyết trình hấp dẫn về mặt thị giác là rất quan trọng để truyền tải thông tin hiệu quả, đặc biệt là khi trực quan hóa dữ liệu đóng vai trò chính. Nhưng nếu bạn muốn tự động hóa quy trình này bằng Java thì sao? Hướng dẫn này sẽ hướng dẫn bạn cách thêm biểu đồ hình tròn vào bài thuyết trình của mình một cách dễ dàng với **Aspose.Slides cho Java**.
+Việc tạo các bản trình chiếu hấp dẫn về mặt hình ảnh là rất quan trọng để truyền đạt thông tin một cách hiệu quả, đặc biệt khi việc trực quan hoá dữ liệu đóng vai trò then chốt. Nếu bạn muốn tự động hoá quy trình này bằng **aspose slides maven**, bạn đã đến đúng nơi. Trong hướng dẫn này, bạn sẽ học cách **add chart to slide** — cụ thể là biểu đồ tròn — sử dụng Aspose.Slides cho Java, và xem cách tùy chỉnh nó cho các kịch bản thực tế!
 
-### Những gì bạn sẽ học được:
-- Cách khởi tạo đối tượng trình bày trong Java.
-- Các bước để thêm và tùy chỉnh biểu đồ hình tròn trên trang chiếu đầu tiên của bài thuyết trình.
-- Truy cập vào sổ làm việc dữ liệu biểu đồ và liệt kê các bảng tính trong đó.
+### Những Điều Bạn Sẽ Học
+- Cách khởi tạo một đối tượng presentation trong Java.  
+- Các bước **add a pie chart java** trên slide đầu tiên của bản trình chiếu.  
+- Truy cập workbook dữ liệu biểu đồ và liệt kê các worksheet bên trong.  
 
-Hãy cùng tìm hiểu cách bạn có thể khai thác Aspose.Slides Java để nâng cao bài thuyết trình của mình bằng biểu đồ động!
+Hãy cùng khám phá cách bạn có thể tận dụng Aspose.Slides Java để nâng cao bản trình chiếu của mình với các biểu đồ động!
 
-## Điều kiện tiên quyết
-Trước khi bắt đầu, hãy đảm bảo rằng bạn có những điều sau:
+## Câu Trả Lời Nhanh
+- **What library adds charts via Maven?** aspose slides maven  
+- **Which chart type is demonstrated?** Pie chart (add chart to slide)  
+- **Minimum Java version required?** JDK 16 or later  
+- **Do I need a license for testing?** Bạn có cần giấy phép để thử nghiệm không? Một bản dùng thử miễn phí hoạt động; sản xuất cần giấy phép  
+- **Where can I find the Maven dependency?** Trong phần thiết lập bên dưới  
 
-### Thư viện bắt buộc:
-- **Aspose.Slides cho Java** phiên bản 25.4 trở lên.
-  
-### Thiết lập môi trường:
-- Hệ thống của bạn phải được cài đặt JDK 16 trở lên.
-- Một IDE như IntelliJ IDEA, Eclipse hoặc bất kỳ môi trường phát triển nào khác được ưa thích.
+## Aspose Slides Maven là gì?
+Aspose.Slides for Java là một API mạnh mẽ cho phép các nhà phát triển tạo, sửa đổi và render các tệp PowerPoint một cách lập trình. Gói Maven (`aspose-slides`) đơn giản hoá việc quản lý phụ thuộc, cho phép bạn tập trung vào việc xây dựng và tùy chỉnh slide—như thêm biểu đồ tròn—mà không phải lo lắng về việc xử lý tệp ở mức thấp.
 
-### Điều kiện tiên quyết về kiến thức:
-- Hiểu biết cơ bản về lập trình Java.
-- Quen thuộc với hệ thống xây dựng Maven hoặc Gradle để quản lý các phụ thuộc.
+## Tại sao nên sử dụng Aspose.Slides Maven để thêm biểu đồ vào slide?
+- **Tự động hoá:** Tự động tạo báo cáo và bảng điều khiển.  
+- **Độ chính xác:** Kiểm soát đầy đủ các loại biểu đồ, dữ liệu và kiểu dáng.  
+- **Đa nền tảng:** Hoạt động trên bất kỳ môi trường Java nào.  
 
-## Thiết lập Aspose.Slides cho Java
-Đầu tiên, bạn cần phải đưa Aspose.Slides vào dự án của mình. Bạn có thể thực hiện việc này thông qua Maven hoặc Gradle:
+## Yêu cầu trước
+- **Aspose.Slides for Java** version 25.4 hoặc mới hơn (Maven/Gradle).  
+- JDK 16+ đã được cài đặt.  
+- Một IDE (IntelliJ IDEA, Eclipse, v.v.).  
+- Kiến thức cơ bản về Java và quen thuộc với Maven hoặc Gradle.  
 
-**Chuyên gia:**
+## Cài đặt Aspose.Slides cho Java
+Đầu tiên, bao gồm Aspose.Slides vào dự án của bạn qua Maven hoặc Gradle.
+
+**Maven:**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -50,31 +63,33 @@ Trước khi bắt đầu, hãy đảm bảo rằng bạn có những điều sa
 </dependency>
 ```
 
-**Cấp độ:**
+**Gradle:**
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Ngoài ra, bạn có thể [tải xuống bản phát hành mới nhất](https://releases.aspose.com/slides/java/) trực tiếp từ trang web của Aspose.
+Ngoài ra, bạn có thể [download the latest release](https://releases.aspose.com/slides/java/) trực tiếp từ trang web của Aspose.
 
-### Mua lại giấy phép
-Aspose.Slides for Java cung cấp bản dùng thử miễn phí bao gồm các tùy chọn cấp phép tạm thời cho mục đích thử nghiệm. Để có quyền truy cập không hạn chế và sử dụng đầy đủ tính năng trong môi trường sản xuất, hãy cân nhắc mua giấy phép thông qua [trang mua hàng](https://purchase.aspose.com/buy).
+### Cấp phép
+Aspose.Slides for Java cung cấp bản dùng thử miễn phí với giấy phép tạm thời để thử nghiệm. Đối với việc sử dụng sản xuất không giới hạn, hãy mua giấy phép qua [purchase page](https://purchase.aspose.com/buy).
 
-## Hướng dẫn thực hiện
-Chúng ta hãy chia nhỏ quá trình triển khai thành hai tính năng chính: thêm biểu đồ hình tròn vào bản trình bày và truy cập dữ liệu biểu đồ.
+## Hướng Dẫn Triển Khai
+Dưới đây chúng tôi chia giải pháp thành hai tính năng: thêm biểu đồ tròn và truy cập workbook dữ liệu của biểu đồ.
 
-### Tính năng 1: Tạo bài thuyết trình và thêm biểu đồ
+### Tính năng 1: Tạo Presentation và Thêm Biểu Đồ
 #### Tổng quan
-Phần này trình bày cách khởi tạo đối tượng trình bày mới và thêm biểu đồ hình tròn vào trang chiếu đầu tiên.
+Phần này cho thấy cách tạo một presentation mới và **add a pie chart** vào slide đầu tiên.
 
-#### Hướng dẫn từng bước:
-**Bước 1: Khởi tạo một đối tượng trình bày mới**
+#### Các bước thực hiện
+
+**Step 1: Initialize a New Presentation Object**  
 ```java
 Presentation pres = new Presentation();
 ```
-*Ở đây, chúng ta tạo một thể hiện của `Presentation`, đóng vai trò là nơi chứa tài liệu chính của chúng tôi.*
+*Creates the `Presentation` instance that will hold all slides.*  
+*Tạo instance `Presentation` sẽ chứa tất cả các slide.*
 
-**Bước 2: Thêm biểu đồ hình tròn**
+**Step 2: Add a Pie Chart**  
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
     ChartType.Pie,
@@ -84,88 +99,98 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
     500
 );
 ```
-*Chúng tôi thêm biểu đồ hình tròn vào slide đầu tiên tại tọa độ đã chỉ định (50, 50) với kích thước chiều rộng 400 và chiều cao 500. `ChartType.Pie` chỉ rõ loại biểu đồ.*
+*Places a pie chart at coordinates (50, 50) with a width of 400 and height of 500. The `ChartType.Pie` enum tells Aspose to render a pie chart.*  
+*Đặt một biểu đồ tròn tại tọa độ (50, 50) với chiều rộng 400 và chiều cao 500. Enum `ChartType.Pie` cho Aspose biết phải render một biểu đồ tròn.*
 
-**Bước 3: Xử lý tài nguyên**
+**Step 3: Dispose of Resources**  
 ```java
 if (pres != null) pres.dispose();
 ```
-*Điều quan trọng là phải giải phóng tài nguyên bằng cách loại bỏ đối tượng trình bày sau khi các hoạt động hoàn tất.*
+*Releases native resources; always call `dispose()` when you’re done.*  
+*Giải phóng tài nguyên gốc; luôn gọi `dispose()` khi hoàn thành.*
 
-### Tính năng 2: Truy cập vào bảng tính và bảng tính dữ liệu biểu đồ
+### Tính năng 2: Truy cập Workbook Dữ liệu Biểu Đồ và Các Worksheet
 #### Tổng quan
-Tìm hiểu cách truy cập sổ làm việc dữ liệu cơ bản được liên kết với biểu đồ của bạn và lặp lại các trang tính trong đó.
+Học cách tiếp cận workbook nền tảng lưu trữ dữ liệu biểu đồ và lặp qua các worksheet của nó.
 
-#### Hướng dẫn từng bước:
-**Bước 1: Khởi tạo một đối tượng trình bày mới**
-*Sử dụng lại bước khởi tạo từ tính năng trước đó.*
+#### Các bước thực hiện
 
-**Bước 2: Thêm biểu đồ hình tròn**
-*Tương tự như trước, thêm biểu đồ hình tròn để bắt đầu làm việc với sổ làm việc dữ liệu.*
+**Step 1: (Reuse) Initialize a New Presentation Object**  
+*Same as Feature 1, Step 1.*  
+*Giống như Tính năng 1, Bước 1.*
 
-**Bước 3: Lấy Sổ làm việc Dữ liệu Biểu đồ**
+**Step 2: (Reuse) Add a Pie Chart**  
+*Same as Feature 1, Step 2.*  
+*Giống như Tính năng 1, Bước 2.*
+
+**Step 3: Get the Chart Data Workbook**  
 ```java
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 ```
-*Điều này lấy lại `IChartDataWorkbook` đối tượng liên kết với biểu đồ của chúng tôi, cho phép truy cập vào dữ liệu của biểu đồ đó.*
+*Retrieves the `IChartDataWorkbook` linked to the chart.*  
+*Lấy `IChartDataWorkbook` liên kết với biểu đồ.*
 
-**Bước 4: Lặp lại qua các trang tính**
+**Step 4: Iterate Through Worksheets**  
 ```java
 for (int i = 0; i < workbook.getWorksheets().size(); i++) {
     System.out.println(workbook.getWorksheets().get_Item(i).getName());
 }
 ```
-*Ở đây, chúng ta lặp qua từng trang tính trong sổ làm việc và in tên của trang tính đó.*
+*Prints each worksheet’s name, letting you verify the data structure.*  
+*In ra tên của mỗi worksheet, giúp bạn xác nhận cấu trúc dữ liệu.*
 
-**Bước 5: Xử lý tài nguyên**
-*Hủy bỏ đối tượng trình bày như đã mô tả trước đó để giải phóng tài nguyên.*
+**Step 5: Dispose of Resources**  
+*Same as Feature 1, Step 3.*  
+*Giống như Tính năng 1, Bước 3.*
 
-## Ứng dụng thực tế
-- **Báo cáo dữ liệu:** Tự động tạo bản trình bày có biểu đồ dữ liệu cập nhật cho báo cáo kinh doanh.
-- **Bài thuyết trình học thuật:** Tạo các trình chiếu hấp dẫn về mặt hình ảnh để minh họa các phát hiện nghiên cứu hoặc phân tích thống kê.
-- **Tài liệu tiếp thị:** Phát triển các tài liệu tiếp thị hấp dẫn giới thiệu số liệu hiệu suất sản phẩm.
+## Ứng dụng thực tiễn
+- **Báo cáo dữ liệu:** Tự động tạo bộ slide với các chỉ số cập nhật cho trí tuệ kinh doanh.  
+- **Bài thuyết trình học thuật:** Trực quan hoá kết quả nghiên cứu mà không cần tạo biểu đồ thủ công.  
+- **Tài liệu marketing:** Trình bày hiệu suất sản phẩm hoặc kết quả khảo sát ngay lập tức.  
 
-Các trường hợp sử dụng này làm nổi bật tính linh hoạt và sức mạnh của việc tích hợp Aspose.Slides vào các ứng dụng Java của bạn, cung cấp các bài thuyết trình năng động phù hợp với nhu cầu cụ thể.
+## Các lưu ý về hiệu năng
+- Giữ số lượng slide và biểu đồ ở mức hợp lý; mỗi cái tiêu tốn bộ nhớ.  
+- Luôn gọi `dispose()` để giải phóng tài nguyên gốc.  
+- Tối ưu hoá việc xử lý dữ liệu workbook—tránh tải các tập dữ liệu khổng lồ vào một biểu đồ duy nhất.  
 
-## Cân nhắc về hiệu suất
-Để tối ưu hóa hiệu suất khi sử dụng Aspose.Slides cho Java:
-- Hạn chế số lượng slide và biểu đồ nếu không cần thiết vì mỗi thứ đều tốn bộ nhớ.
-- Sử dụng `dispose()` phương pháp siêng năng để giải phóng tài nguyên kịp thời sau khi sử dụng.
-- Áp dụng các biện pháp xử lý dữ liệu hiệu quả trong bảng tính biểu đồ của bạn để giảm thiểu thời gian xử lý.
-
-Bằng cách tuân theo các hướng dẫn này, bạn có thể đảm bảo hiệu suất mượt mà ngay cả trong các ứng dụng sử dụng nhiều tài nguyên.
-
-## Phần kết luận
-Trong hướng dẫn này, chúng tôi đã khám phá cách Aspose.Slides for Java cho phép thêm biểu đồ hình tròn vào bài thuyết trình một cách liền mạch. Bằng cách hiểu các quy trình khởi tạo và thao tác biểu đồ, giờ đây bạn đã được trang bị để nâng cao bài thuyết trình của mình theo chương trình. 
+## Kết luận
+Chúng tôi đã trình bày cách **aspose slides maven** cho phép bạn **add chart to slide** một cách lập trình và cách làm việc với workbook dữ liệu của biểu đồ. Với những khối xây dựng này, bạn có thể tự động hoá bất kỳ quy trình báo cáo nào cần đầu ra PowerPoint chuyên nghiệp.
 
 ### Các bước tiếp theo
-Hãy cân nhắc khám phá các tính năng bổ sung như tùy chỉnh kiểu biểu đồ hoặc tích hợp với các nguồn dữ liệu khác.
+- Khám phá các tùy chọn định dạng biểu đồ (màu sắc, chú giải, nhãn dữ liệu).  
+- Kết nối tới nguồn dữ liệu bên ngoài (CSV, cơ sở dữ liệu) để điền dữ liệu biểu đồ một cách động.  
+- Kết hợp nhiều loại biểu đồ trong một bản trình chiếu để kể chuyện phong phú hơn.  
 
-Hãy thử áp dụng những giải pháp này vào dự án của bạn!
+## Câu hỏi thường gặp
 
-## Phần Câu hỏi thường gặp
-1. **Làm thế nào để cài đặt Aspose.Slides cho Java?**
-   - Sử dụng cấu hình phụ thuộc Maven hoặc Gradle hoặc tải xuống trực tiếp từ trang phát hành.
-   
-2. **Yêu cầu hệ thống để chạy Aspose.Slides là gì?**
-   - Yêu cầu phải có JDK 16 trở lên.
-
-3. **Tôi có thể thêm các loại biểu đồ khác ngoài biểu đồ hình tròn không?**
-   - Có, Aspose.Slides hỗ trợ nhiều loại biểu đồ như biểu đồ thanh, biểu đồ đường và biểu đồ phân tán.
-
-4. **Làm thế nào để xử lý các bài thuyết trình lớn một cách hiệu quả?**
-   - Tối ưu hóa bằng cách loại bỏ các đối tượng kịp thời và quản lý tài nguyên một cách cẩn thận.
-   
-5. **Tôi có thể tìm thêm thông tin về các tính năng của Aspose.Slides ở đâu?**
-   - Ghé thăm [Tài liệu Aspose](https://reference.aspose.com/slides/java/) để có hướng dẫn toàn diện.
+**Q: How do I install Aspose.Slides for Java?**  
+A: Use the Maven or Gradle dependency shown above, or download the library from the releases page.  
+**Q: What are the system requirements for Aspose.Slides?**  
+A: JDK 16 or later; the library is platform‑independent.  
+**Q: Can I add other chart types besides pie charts?**  
+A: Yes, Aspose.Slides supports bar, line, scatter, and many more chart types.  
+**Q: How should I handle large presentations efficiently?**  
+A: Dispose of objects promptly, limit the number of high‑resolution images, and reuse chart templates when possible.  
+**Q: Where can I find more details about Aspose.Slides features?**  
+A: Visit the [Aspose documentation](https://reference.aspose.com/slides/java/) for a complete API reference.  
+**Q: Is a license required for commercial use?**  
+A: A valid license is required for production; a free trial is available for evaluation.  
+**Q: Does the Maven package include all chart capabilities?**  
+A: Yes, the `aspose-slides` Maven artifact contains the full charting engine.  
 
 ## Tài nguyên
-- Tài liệu: [Tài liệu tham khảo Java API Aspose.Slides](https://reference.aspose.com/slides/java/)
-- Tải xuống: [Bản phát hành mới nhất](https://releases.aspose.com/slides/java/)
-- Mua và dùng thử: [Trang mua hàng](https://purchase.aspose.com/buy)
-- Dùng thử miễn phí: [Tải xuống bản dùng thử](https://releases.aspose.com/slides/java/)
-- Giấy phép tạm thời: [Yêu cầu Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
-- Diễn đàn hỗ trợ: [Diễn đàn cộng đồng Aspose](https://forum.aspose.com/c/slides/11)
+- Documentation: [Aspose.Slides Java API Reference](https://reference.aspose.com/slides/java/)
+- Download: [Latest Releases](https://releases.aspose.com/slides/java/)
+- Purchase and Trial: [Purchase Page](https://purchase.aspose.com/buy)
+- Free trial: [Trial Downloads](https://releases.aspose.com/slides/java/)
+- Temporary License: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
+- Support Forum: [Aspose Community Forum](https://forum.aspose.com/c/slides/11)
+
+---  
+
+**Last Updated:** 2026-01-09  
+**Tested With:** Aspose.Slides 25.4 for Java (jdk16)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
