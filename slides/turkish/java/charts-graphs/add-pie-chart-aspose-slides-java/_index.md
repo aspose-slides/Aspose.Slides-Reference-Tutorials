@@ -7,7 +7,7 @@ keywords:
 - add pie chart with Aspose.Slides Java
 - Aspose.Slides for Java tutorial
 - Java presentation automation
-title: 'aspose slides maven: Bir Sunuma Pasta Grafiği Ekle'
+title: 'aspose slides maven - Bir Sunuma Pasta Grafiği Ekle'
 url: /tr/java/charts-graphs/add-pie-chart-aspose-slides-java/
 weight: 1
 ---
@@ -176,6 +176,14 @@ C: Üretim ortamı için geçerli bir lisans gerekir; değerlendirme için ücre
 **S: Maven paketi tüm grafik yeteneklerini içeriyor mu?**  
 C: Evet, `aspose-slides` Maven artefaktı tam grafik motorunu barındırır.
 
+## Kaynaklar
+- Dokümantasyon: [Aspose.Slides Java API Reference](https://reference.aspose.com/slides/java/)
+- İndirme: [Latest Releases](https://releases.aspose.com/slides/java/)
+- Satın Alma ve Deneme: [Purchase Page](https://purchase.aspose.com/buy)
+- Ücretsiz deneme: [Trial Downloads](https://releases.aspose.com/slides/java/)
+- Geçici Lisans: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
+- Destek Forumu: [Aspose Community Forum](https://forum.aspose.com/c/slides/11)
+
 ---  
 
 **Son Güncelleme:** 2026-01-09  
@@ -189,11 +197,3 @@ C: Evet, `aspose-slides` Maven artefaktı tam grafik motorunu barındırır.
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Kaynaklar
-- Dokümantasyon: [Aspose.Slides Java API Reference](https://reference.aspose.com/slides/java/)
-- İndirme: [Latest Releases](https://releases.aspose.com/slides/java/)
-- Satın Alma ve Deneme: [Purchase Page](https://purchase.aspose.com/buy)
-- Ücretsiz deneme: [Trial Downloads](https://releases.aspose.com/slides/java/)
-- Geçici Lisans: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
-- Destek Forumu: [Aspose Community Forum](https://forum.aspose.com/c/slides/11)

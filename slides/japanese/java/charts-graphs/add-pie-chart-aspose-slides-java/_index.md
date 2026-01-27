@@ -5,7 +5,7 @@ keywords:
 - add pie chart with Aspose.Slides Java
 - Aspose.Slides for Java tutorial
 - Java presentation automation
-title: 'Aspose Slides Maven: プレゼンテーションに円グラフを追加'
+title: 'Aspose Slides Maven - プレゼンテーションに円グラフを追加'
 url: /ja/java/charts-graphs/add-pie-chart-aspose-slides-java/
 weight: 1
 ---
@@ -174,6 +174,14 @@ A: 本番環境での使用には有効なライセンスが必要です。評�
 **Q: Maven パッケージにはすべてのチャート機能が含まれていますか？**  
 A: はい、`aspose-slides` Maven アーティファクトにはフルチャートエンジンが含まれています。
 
+## リソース
+- ドキュメント: [Aspose.Slides Java API Reference](https://reference.aspose.com/slides/java/)
+- ダウンロード: [Latest Releases](https://releases.aspose.com/slides/java/)
+- 購入とトライアル: [Purchase Page](https://purchase.aspose.com/buy)
+- 無料トライアル: [Trial Downloads](https://releases.aspose.com/slides/java/)
+- 一時ライセンス: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
+- サポートフォーラム: [Aspose Community Forum](https://forum.aspose.com/c/slides/11)
+
 ---  
 
 **最終更新日:** 2026-01-09  
@@ -187,11 +195,3 @@ A: はい、`aspose-slides` Maven アーティファクトにはフルチャー�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## リソース
-- ドキュメント: [Aspose.Slides Java API Reference](https://reference.aspose.com/slides/java/)
-- ダウンロード: [Latest Releases](https://releases.aspose.com/slides/java/)
-- 購入とトライアル: [Purchase Page](https://purchase.aspose.com/buy)
-- 無料トライアル: [Trial Downloads](https://releases.aspose.com/slides/java/)
-- 一時ライセンス: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
-- サポートフォーラム: [Aspose Community Forum](https://forum.aspose.com/c/slides/11)

@@ -7,7 +7,7 @@ keywords:
 - add pie chart with Aspose.Slides Java
 - Aspose.Slides for Java tutorial
 - Java presentation automation
-title: 'aspose slides maven: Añadir un gráfico de pastel a una presentación'
+title: 'aspose slides maven - Añadir un gráfico de pastel a una presentación'
 url: /es/java/charts-graphs/add-pie-chart-aspose-slides-java/
 weight: 1
 ---
@@ -176,6 +176,14 @@ R: Se necesita una licencia válida para producción; una prueba gratuita está 
 **P: ¿El paquete Maven incluye todas las capacidades de gráficos?**  
 R: Sí, el artefacto Maven `aspose-slides` contiene todo el motor de gráficos.
 
+## Recursos
+- Documentación: [Aspose.Slides Java API Reference](https://reference.aspose.com/slides/java/)
+- Descarga: [Latest Releases](https://releases.aspose.com/slides/java/)
+- Compra y prueba: [Purchase Page](https://purchase.aspose.com/buy)
+- Prueba gratuita: [Trial Downloads](https://releases.aspose.com/slides/java/)
+- Licencia temporal: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
+- Foro de soporte: [Aspose Community Forum](https://forum.aspose.com/c/slides/11)
+
 ---  
 
 **Última actualización:** 2026-01-09  
@@ -189,11 +197,3 @@ R: Sí, el artefacto Maven `aspose-slides` contiene todo el motor de gráficos.
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Recursos
-- Documentación: [Aspose.Slides Java API Reference](https://reference.aspose.com/slides/java/)
-- Descarga: [Latest Releases](https://releases.aspose.com/slides/java/)
-- Compra y prueba: [Purchase Page](https://purchase.aspose.com/buy)
-- Prueba gratuita: [Trial Downloads](https://releases.aspose.com/slides/java/)
-- Licencia temporal: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
-- Foro de soporte: [Aspose Community Forum](https://forum.aspose.com/c/slides/11)

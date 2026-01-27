@@ -7,7 +7,7 @@ keywords:
 - add pie chart with Aspose.Slides Java
 - Aspose.Slides for Java tutorial
 - Java presentation automation
-title: 'aspose slides maven: Tambahkan Diagram Lingkaran ke Presentasi'
+title: 'aspose slides maven - Tambahkan Diagram Lingkaran ke Presentasi'
 url: /id/java/charts-graphs/add-pie-chart-aspose-slides-java/
 weight: 1
 ---
@@ -176,6 +176,14 @@ A: Lisensi yang valid diperlukan untuk produksi; percobaan gratis tersedia untuk
 **Q: Apakah paket Maven mencakup semua kemampuan diagram?**  
 A: Ya, artefak Maven `aspose-slides` berisi mesin diagram lengkap.
 
+## Sumber Daya
+- Dokumentasi: [Aspose.Slides Java API Reference](https://reference.aspose.com/slides/java/)
+- Unduhan: [Latest Releases](https://releases.aspose.com/slides/java/)
+- Pembelian dan Percobaan: [Purchase Page](https://purchase.aspose.com/buy)
+- Percobaan Gratis: [Trial Downloads](https://releases.aspose.com/slides/java/)
+- Lisensi Sementara: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
+- Forum Dukungan: [Aspose Community Forum](https://forum.aspose.com/c/slides/11)
+
 ---  
 
 **Terakhir Diperbarui:** 2026-01-09  
@@ -189,11 +197,3 @@ A: Ya, artefak Maven `aspose-slides` berisi mesin diagram lengkap.
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Sumber Daya
-- Dokumentasi: [Aspose.Slides Java API Reference](https://reference.aspose.com/slides/java/)
-- Unduhan: [Latest Releases](https://releases.aspose.com/slides/java/)
-- Pembelian dan Percobaan: [Purchase Page](https://purchase.aspose.com/buy)
-- Percobaan Gratis: [Trial Downloads](https://releases.aspose.com/slides/java/)
-- Lisensi Sementara: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
-- Forum Dukungan: [Aspose Community Forum](https://forum.aspose.com/c/slides/11)

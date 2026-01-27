@@ -6,7 +6,7 @@ keywords:
 - add pie chart with Aspose.Slides Java
 - Aspose.Slides for Java tutorial
 - Java presentation automation
-title: 'aspose slides maven: เพิ่มแผนภูมิวงกลมลงในงานนำเสนอ'
+title: 'aspose slides maven - เพิ่มแผนภูมิวงกลมลงในงานนำเสนอ'
 url: /th/java/charts-graphs/add-pie-chart-aspose-slides-java/
 weight: 1
 ---
@@ -174,6 +174,14 @@ A: ต้องมีใบอนุญาตที่ถูกต้องส�
 
 **Q: แพคเกจ Maven มีความสามารถของแผนภูมิทั้งหมดหรือไม่?**  
 A: มี, artifact `aspose-slides` ของ Maven มีเครื่องมือสร้างแผนภูมิครบชุด
+
+## แหล่งข้อมูล
+- Documentation: [Aspose.Slides Java API Reference](https://reference.aspose.com/slides/java/)
+- Download: [Latest Releases](https://releases.aspose.com/slides/java/)
+- Purchase and Trial: [Purchase Page](https://purchase.aspose.com/buy)
+- Free trial: [Trial Downloads](https://releases.aspose.com/slides/java/)
+- Temporary License: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
+- Support Forum: [Aspose Community Forum](https://forum.aspose.com/c/slides/11)
 
 ---  
 

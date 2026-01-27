@@ -7,7 +7,7 @@ keywords:
 - add pie chart with Aspose.Slides Java
 - Aspose.Slides for Java tutorial
 - Java presentation automation
-title: 'aspose slides maven: Добавить круговую диаграмму в презентацию'
+title: 'aspose slides maven - Добавить круговую диаграмму в презентацию'
 url: /ru/java/charts-graphs/add-pie-chart-aspose-slides-java/
 weight: 1
 ---
@@ -176,6 +176,14 @@ for (int i = 0; i < workbook.getWorksheets().size(); i++) {
 **В: Включает ли пакет Maven все возможности построения диаграмм?**  
 О: Да, артефакт `aspose-slides` Maven содержит полностью реализованный движок построения диаграмм.
 
+## Ресурсы
+- Документация: [Aspose.Slides Java API Reference](https://reference.aspose.com/slides/java/)
+- Скачать: [Latest Releases](https://releases.aspose.com/slides/java/)
+- Приобрести и пробная версия: [Purchase Page](https://purchase.aspose.com/buy)
+- Бесплатная пробная версия: [Trial Downloads](https://releases.aspose.com/slides/java/)
+- Временная лицензия: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
+- Форум поддержки: [Aspose Community Forum](https://forum.aspose.com/c/slides/11)
+
 ---  
 
 **Последнее обновление:** 2026-01-09  
@@ -189,11 +197,3 @@ for (int i = 0; i < workbook.getWorksheets().size(); i++) {
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Ресурсы
-- Документация: [Aspose.Slides Java API Reference](https://reference.aspose.com/slides/java/)
-- Скачать: [Latest Releases](https://releases.aspose.com/slides/java/)
-- Приобрести и пробная версия: [Purchase Page](https://purchase.aspose.com/buy)
-- Бесплатная пробная версия: [Trial Downloads](https://releases.aspose.com/slides/java/)
-- Временная лицензия: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
-- Форум поддержки: [Aspose Community Forum](https://forum.aspose.com/c/slides/11)

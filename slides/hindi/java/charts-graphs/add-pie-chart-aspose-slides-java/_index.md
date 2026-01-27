@@ -7,7 +7,7 @@ keywords:
 - add pie chart with Aspose.Slides Java
 - Aspose.Slides for Java tutorial
 - Java presentation automation
-title: 'aspose slides maven: प्रस्तुति में पाई चार्ट जोड़ें'
+title: 'aspose slides maven - प्रस्तुति में पाई चार्ट जोड़ें'
 url: /hi/java/charts-graphs/add-pie-chart-aspose-slides-java/
 weight: 1
 ---
@@ -176,6 +176,14 @@ for (int i = 0; i < workbook.getWorksheets().size(); i++) {
 **प्रश्न: Maven पैकेज में सभी चार्ट क्षमताएँ शामिल हैं?**  
 उत्तर: हाँ, `aspose-slides` Maven आर्टिफैक्ट में पूर्ण चार्टिंग इंजन शामिल है।
 
+## संसाधन
+- डॉक्यूमेंटेशन: [Aspose.Slides Java API Reference](https://reference.aspose.com/slides/java/)
+- डाउनलोड: [Latest Releases](https://releases.aspose.com/slides/java/)
+- खरीद और ट्रायल: [Purchase Page](https://purchase.aspose.com/buy)
+- फ्री ट्रायल: [Trial Downloads](https://releases.aspose.com/slides/java/)
+- अस्थायी लाइसेंस: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
+- सपोर्ट फ़ोरम: [Aspose Community Forum](https://forum.aspose.com/c/slides/11)
+
 ---  
 
 **अंतिम अपडेट:** 2026-01-09  
@@ -189,11 +197,3 @@ for (int i = 0; i < workbook.getWorksheets().size(); i++) {
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## संसाधन
-- डॉक्यूमेंटेशन: [Aspose.Slides Java API Reference](https://reference.aspose.com/slides/java/)
-- डाउनलोड: [Latest Releases](https://releases.aspose.com/slides/java/)
-- खरीद और ट्रायल: [Purchase Page](https://purchase.aspose.com/buy)
-- फ्री ट्रायल: [Trial Downloads](https://releases.aspose.com/slides/java/)
-- अस्थायी लाइसेंस: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
-- सपोर्ट फ़ोरम: [Aspose Community Forum](https://forum.aspose.com/c/slides/11)

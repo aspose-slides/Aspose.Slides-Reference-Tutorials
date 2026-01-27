@@ -7,7 +7,7 @@ keywords:
 - add pie chart with Aspose.Slides Java
 - Aspose.Slides for Java tutorial
 - Java presentation automation
-title: 'aspose slides maven: Voeg een cirkeldiagram toe aan een presentatie'
+title: 'aspose slides maven - Voeg een cirkeldiagram toe aan een presentatie'
 url: /nl/java/charts-graphs/add-pie-chart-aspose-slides-java/
 weight: 1
 ---
@@ -176,6 +176,14 @@ A: Een geldige licentie is vereist voor productie; een gratis proefversie is bes
 **Q: Bevat het Maven‑pakket alle diagramfunctionaliteiten?**  
 A: Ja, het `aspose-slides` Maven‑artifact bevat de volledige diagramengine.
 
+## Resources
+- Documentation: [Aspose.Slides Java API Reference](https://reference.aspose.com/slides/java/)
+- Download: [Latest Releases](https://releases.aspose.com/slides/java/)
+- Purchase and Trial: [Purchase Page](https://purchase.aspose.com/buy)
+- Free trial: [Trial Downloads](https://releases.aspose.com/slides/java/)
+- Temporary License: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
+- Support Forum: [Aspose Community Forum](https://forum.aspose.com/c/slides/11)
+
 ---  
 
 **Laatst bijgewerkt:** 2026-01-09  
@@ -189,11 +197,3 @@ A: Ja, het `aspose-slides` Maven‑artifact bevat de volledige diagramengine.
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Resources
-- Documentation: [Aspose.Slides Java API Reference](https://reference.aspose.com/slides/java/)
-- Download: [Latest Releases](https://releases.aspose.com/slides/java/)
-- Purchase and Trial: [Purchase Page](https://purchase.aspose.com/buy)
-- Free trial: [Trial Downloads](https://releases.aspose.com/slides/java/)
-- Temporary License: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
-- Support Forum: [Aspose Community Forum](https://forum.aspose.com/c/slides/11)

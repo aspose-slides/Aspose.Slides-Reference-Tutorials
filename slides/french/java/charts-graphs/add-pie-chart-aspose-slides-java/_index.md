@@ -7,7 +7,7 @@ keywords:
 - add pie chart with Aspose.Slides Java
 - Aspose.Slides for Java tutorial
 - Java presentation automation
-title: 'aspose slides maven : Ajouter un diagramme circulaire à une présentation'
+title: 'aspose slides maven - Ajouter un diagramme circulaire à une présentation'
 url: /fr/java/charts-graphs/add-pie-chart-aspose-slides-java/
 weight: 1
 ---
@@ -176,6 +176,14 @@ R : Une licence valide est nécessaire en production ; un essai gratuit est 
 **Q : Le package Maven inclut‑il toutes les capacités de diagrammes ?**  
 R : Oui, l’artifact Maven `aspose‑slides` contient le moteur complet de création de diagrammes.
 
+## Ressources
+- Documentation : [Référence API Aspose.Slides Java](https://reference.aspose.com/slides/java/)
+- Téléchargement : [Dernières releases](https://releases.aspose.com/slides/java/)
+- Achat et essai : [Page d’achat](https://purchase.aspose.com/buy)
+- Essai gratuit : [Téléchargements d’essai](https://releases.aspose.com/slides/java/)
+- Licence temporaire : [Demander une licence temporaire](https://purchase.aspose.com/temporary-license/)
+- Forum d’assistance : [Forum communautaire Aspose](https://forum.aspose.com/c/slides/11)
+
 ---  
 
 **Dernière mise à jour :** 2026-01-09  
@@ -189,11 +197,3 @@ R : Oui, l’artifact Maven `aspose‑slides` contient le moteur complet de cr
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Ressources
-- Documentation : [Référence API Aspose.Slides Java](https://reference.aspose.com/slides/java/)
-- Téléchargement : [Dernières releases](https://releases.aspose.com/slides/java/)
-- Achat et essai : [Page d’achat](https://purchase.aspose.com/buy)
-- Essai gratuit : [Téléchargements d’essai](https://releases.aspose.com/slides/java/)
-- Licence temporaire : [Demander une licence temporaire](https://purchase.aspose.com/temporary-license/)
-- Forum d’assistance : [Forum communautaire Aspose](https://forum.aspose.com/c/slides/11)

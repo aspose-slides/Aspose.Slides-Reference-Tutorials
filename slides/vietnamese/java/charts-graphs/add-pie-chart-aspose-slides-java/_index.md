@@ -7,7 +7,7 @@ keywords:
 - add pie chart with Aspose.Slides Java
 - Aspose.Slides for Java tutorial
 - Java presentation automation
-title: 'aspose slides maven: Thêm biểu đồ tròn vào bản trình chiếu'
+title: 'aspose slides maven - Thêm biểu đồ tròn vào bản trình chiếu'
 url: /vi/java/charts-graphs/add-pie-chart-aspose-slides-java/
 weight: 1
 ---
@@ -178,6 +178,14 @@ A: A valid license is required for production; a free trial is available for eva
 **Q: Does the Maven package include all chart capabilities?**  
 A: Yes, the `aspose-slides` Maven artifact contains the full charting engine.  
 
+## Tài nguyên
+- Documentation: [Aspose.Slides Java API Reference](https://reference.aspose.com/slides/java/)
+- Download: [Latest Releases](https://releases.aspose.com/slides/java/)
+- Purchase and Trial: [Purchase Page](https://purchase.aspose.com/buy)
+- Free trial: [Trial Downloads](https://releases.aspose.com/slides/java/)
+- Temporary License: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
+- Support Forum: [Aspose Community Forum](https://forum.aspose.com/c/slides/11)
+
 ---  
 
 **Last Updated:** 2026-01-09  
@@ -191,11 +199,3 @@ A: Yes, the `aspose-slides` Maven artifact contains the full charting engine.
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Tài nguyên
-- Documentation: [Aspose.Slides Java API Reference](https://reference.aspose.com/slides/java/)
-- Download: [Latest Releases](https://releases.aspose.com/slides/java/)
-- Purchase and Trial: [Purchase Page](https://purchase.aspose.com/buy)
-- Free trial: [Trial Downloads](https://releases.aspose.com/slides/java/)
-- Temporary License: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
-- Support Forum: [Aspose Community Forum](https://forum.aspose.com/c/slides/11)

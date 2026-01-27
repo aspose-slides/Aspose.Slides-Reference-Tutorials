@@ -6,7 +6,7 @@ keywords:
 - add pie chart with Aspose.Slides Java
 - Aspose.Slides for Java tutorial
 - Java presentation automation
-title: 'aspose slides maven: Přidat koláčový graf do prezentace'
+title: 'aspose slides maven - Přidat koláčový graf do prezentace'
 url: /cs/java/charts-graphs/add-pie-chart-aspose-slides-java/
 weight: 1
 ---
@@ -175,6 +175,14 @@ A: Platná licence je nutná pro produkci; pro hodnocení je k dispozici bezplat
 **Q: Obsahuje Maven balíček všechny možnosti grafů?**  
 A: Ano, artefakt `aspose-slides` Maven obsahuje kompletní grafický engine.
 
+## Zdroje
+- Dokumentace: [Aspose.Slides Java API Reference](https://reference.aspose.com/slides/java/)
+- Stažení: [Latest Releases](https://releases.aspose.com/slides/java/)
+- Nákup a zkušební verze: [Purchase Page](https://purchase.aspose.com/buy)
+- Bezplatná zkušební verze: [Trial Downloads](https://releases.aspose.com/slides/java/)
+- Dočasná licence: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
+- Fórum podpory: [Aspose Community Forum](https://forum.aspose.com/c/slides/11)
+
 ---  
 
 **Poslední aktualizace:** 2026-01-09  
@@ -188,11 +196,3 @@ A: Ano, artefakt `aspose-slides` Maven obsahuje kompletní grafický engine.
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Zdroje
-- Dokumentace: [Aspose.Slides Java API Reference](https://reference.aspose.com/slides/java/)
-- Stažení: [Latest Releases](https://releases.aspose.com/slides/java/)
-- Nákup a zkušební verze: [Purchase Page](https://purchase.aspose.com/buy)
-- Bezplatná zkušební verze: [Trial Downloads](https://releases.aspose.com/slides/java/)
-- Dočasná licence: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
-- Fórum podpory: [Aspose Community Forum](https://forum.aspose.com/c/slides/11)

@@ -6,7 +6,7 @@ keywords:
 - add pie chart with Aspose.Slides Java
 - Aspose.Slides for Java tutorial
 - Java presentation automation
-title: 'aspose slides maven: إضافة مخطط دائري إلى عرض تقديمي'
+title: 'aspose slides maven - إضافة مخطط دائري إلى عرض تقديمي'
 url: /ar/java/charts-graphs/add-pie-chart-aspose-slides-java/
 weight: 1
 ---
@@ -175,6 +175,14 @@ for (int i = 0; i < workbook.getWorksheets().size(); i++) {
 **س: هل حزمة Maven تشمل جميع قدرات المخططات؟**  
 ج: نعم، حزمة `aspose-slides` Maven تحتوي على محرك المخططات الكامل.
 
+## الموارد
+- الوثائق: [Aspose.Slides Java API Reference](https://reference.aspose.com/slides/java/)
+- التحميل: [Latest Releases](https://releases.aspose.com/slides/java/)
+- الشراء والتجربة: [Purchase Page](https://purchase.aspose.com/buy)
+- نسخة تجريبية مجانية: [Trial Downloads](https://releases.aspose.com/slides/java/)
+- ترخيص مؤقت: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
+- منتدى الدعم: [Aspose Community Forum](https://forum.aspose.com/c/slides/11)
+
 ---  
 
 **آخر تحديث:** 2026-01-09  
@@ -188,11 +196,3 @@ for (int i = 0; i < workbook.getWorksheets().size(); i++) {
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## الموارد
-- الوثائق: [Aspose.Slides Java API Reference](https://reference.aspose.com/slides/java/)
-- التحميل: [Latest Releases](https://releases.aspose.com/slides/java/)
-- الشراء والتجربة: [Purchase Page](https://purchase.aspose.com/buy)
-- نسخة تجريبية مجانية: [Trial Downloads](https://releases.aspose.com/slides/java/)
-- ترخيص مؤقت: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
-- منتدى الدعم: [Aspose Community Forum](https://forum.aspose.com/c/slides/11)

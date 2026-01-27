@@ -7,7 +7,7 @@ keywords:
 - add pie chart with Aspose.Slides Java
 - Aspose.Slides for Java tutorial
 - Java presentation automation
-title: 'aspose slides maven: Kördiagram hozzáadása egy prezentációhoz'
+title: 'aspose slides maven - Kördiagram hozzáadása egy prezentációhoz'
 url: /hu/java/charts-graphs/add-pie-chart-aspose-slides-java/
 weight: 1
 ---
@@ -176,6 +176,14 @@ V: Érvényes licenc szükséges a termeléshez; ingyenes próba elérhető ért
 **K: Tartalmazza a Maven csomag az összes diagramfunkciót?**  
 V: Igen, az `aspose-slides` Maven artefaktum a teljes diagrammotorral rendelkezik.
 
+## Erőforrások
+- Dokumentáció: [Aspose.Slides Java API Reference](https://reference.aspose.com/slides/java/)  
+- Letöltés: [Legújabb kiadások](https://releases.aspose.com/slides/java/)  
+- Vásárlás és próba: [Purchase Page](https://purchase.aspose.com/buy)  
+- Ingyenes próba: [Trial Downloads](https://releases.aspose.com/slides/java/)  
+- Ideiglenes licenc: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
+- Támogatási fórum: [Aspose Community Forum](https://forum.aspose.com/c/slides/11)
+
 ---  
 
 **Utolsó frissítés:** 2026-01-09  
@@ -189,11 +197,3 @@ V: Igen, az `aspose-slides` Maven artefaktum a teljes diagrammotorral rendelkezi
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Erőforrások
-- Dokumentáció: [Aspose.Slides Java API Reference](https://reference.aspose.com/slides/java/)  
-- Letöltés: [Legújabb kiadások](https://releases.aspose.com/slides/java/)  
-- Vásárlás és próba: [Purchase Page](https://purchase.aspose.com/buy)  
-- Ingyenes próba: [Trial Downloads](https://releases.aspose.com/slides/java/)  
-- Ideiglenes licenc: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
-- Támogatási fórum: [Aspose Community Forum](https://forum.aspose.com/c/slides/11)

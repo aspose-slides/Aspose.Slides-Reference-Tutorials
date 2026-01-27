@@ -7,7 +7,7 @@ keywords:
 - add pie chart with Aspose.Slides Java
 - Aspose.Slides for Java tutorial
 - Java presentation automation
-title: 'aspose slides maven: Lägg till ett cirkeldiagram i en presentation'
+title: 'aspose slides maven - Lägg till ett cirkeldiagram i en presentation'
 url: /sv/java/charts-graphs/add-pie-chart-aspose-slides-java/
 weight: 1
 ---
@@ -176,6 +176,14 @@ A: En giltig licens krävs för produktion; en gratis provversion finns för utv
 **Q: Inkluderar Maven‑paketet alla diagramfunktioner?**  
 A: Ja, `aspose-slides`‑Maven‑artefakten innehåller hela diagrammotorn.
 
+## Resurser
+- Dokumentation: [Aspose.Slides Java API Reference](https://reference.aspose.com/slides/java/)
+- Nedladdning: [Latest Releases](https://releases.aspose.com/slides/java/)
+- Köp och prov: [Purchase Page](https://purchase.aspose.com/buy)
+- Gratis prov: [Trial Downloads](https://releases.aspose.com/slides/java/)
+- Tillfällig licens: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
+- Supportforum: [Aspose Community Forum](https://forum.aspose.com/c/slides/11)
+
 ---  
 
 **Senast uppdaterad:** 2026-01-09  
@@ -189,11 +197,3 @@ A: Ja, `aspose-slides`‑Maven‑artefakten innehåller hela diagrammotorn.
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Resurser
-- Dokumentation: [Aspose.Slides Java API Reference](https://reference.aspose.com/slides/java/)
-- Nedladdning: [Latest Releases](https://releases.aspose.com/slides/java/)
-- Köp och prov: [Purchase Page](https://purchase.aspose.com/buy)
-- Gratis prov: [Trial Downloads](https://releases.aspose.com/slides/java/)
-- Tillfällig licens: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
-- Supportforum: [Aspose Community Forum](https://forum.aspose.com/c/slides/11)

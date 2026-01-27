@@ -7,7 +7,7 @@ keywords:
 - add pie chart with Aspose.Slides Java
 - Aspose.Slides for Java tutorial
 - Java presentation automation
-title: 'aspose slides maven: Προσθήκη διαγράμματος πίτας σε παρουσίαση'
+title: 'aspose slides maven - Προσθήκη διαγράμματος πίτας σε παρουσίαση'
 url: /el/java/charts-graphs/add-pie-chart-aspose-slides-java/
 weight: 1
 ---
@@ -176,6 +176,14 @@ for (int i = 0; i < workbook.getWorksheets().size(); i++) {
 **Ε: Περιλαμβάνει το πακέτο Maven όλες τις δυνατότητες διαγραμμάτων;**  
 Α: Ναι, το Maven artifact `aspose-slides` περιέχει ολόκληρη τη μηχανή διαγραμμάτων.
 
+## Πόροι
+- Τεκμηρίωση: [Aspose.Slides Java API Reference](https://reference.aspose.com/slides/java/)
+- Λήψη: [Latest Releases](https://releases.aspose.com/slides/java/)
+- Αγορά και Δοκιμή: [Purchase Page](https://purchase.aspose.com/buy)
+- Δωρεάν δοκιμή: [Trial Downloads](https://releases.aspose.com/slides/java/)
+- Προσωρινή Άδεια: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
+- Φόρουμ Υποστήριξης: [Aspose Community Forum](https://forum.aspose.com/c/slides/11)
+
 ---  
 
 **Τελευταία Ενημέρωση:** 2026-01-09  
@@ -189,11 +197,3 @@ for (int i = 0; i < workbook.getWorksheets().size(); i++) {
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Πόροι
-- Τεκμηρίωση: [Aspose.Slides Java API Reference](https://reference.aspose.com/slides/java/)
-- Λήψη: [Latest Releases](https://releases.aspose.com/slides/java/)
-- Αγορά και Δοκιμή: [Purchase Page](https://purchase.aspose.com/buy)
-- Δωρεάν δοκιμή: [Trial Downloads](https://releases.aspose.com/slides/java/)
-- Προσωρινή Άδεια: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
-- Φόρουμ Υποστήριξης: [Aspose Community Forum](https://forum.aspose.com/c/slides/11)

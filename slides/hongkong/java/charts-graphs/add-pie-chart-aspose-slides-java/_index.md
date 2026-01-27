@@ -5,7 +5,7 @@ keywords:
 - add pie chart with Aspose.Slides Java
 - Aspose.Slides for Java tutorial
 - Java presentation automation
-title: aspose slides maven：在簡報中加入圓餅圖
+title: aspose slides maven - 在簡報中加入圓餅圖
 url: /zh-hant/java/charts-graphs/add-pie-chart-aspose-slides-java/
 weight: 1
 ---
@@ -174,6 +174,14 @@ A: 正式環境必須使用有效授權；可使用免費試用版進行評估�
 **Q: Maven 套件是否包含所有圖表功能？**  
 A: 是的，`aspose-slides` Maven 套件內含完整的圖表引擎。
 
+## 資源
+- 文件： [Aspose.Slides Java API 參考](https://reference.aspose.com/slides/java/)
+- 下載： [最新發行版](https://releases.aspose.com/slides/java/)
+- 購買與試用： [購買頁面](https://purchase.aspose.com/buy)
+- 免費試用： [試用下載](https://releases.aspose.com/slides/java/)
+- 臨時授權： [申請臨時授權](https://purchase.aspose.com/temporary-license/)
+- 支援論壇： [Aspose 社群論壇](https://forum.aspose.com/c/slides/11)
+
 ---  
 
 **最後更新：** 2026-01-09  
@@ -187,11 +195,3 @@ A: 是的，`aspose-slides` Maven 套件內含完整的圖表引擎。
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## 資源
-- 文件： [Aspose.Slides Java API 參考](https://reference.aspose.com/slides/java/)
-- 下載： [最新發行版](https://releases.aspose.com/slides/java/)
-- 購買與試用： [購買頁面](https://purchase.aspose.com/buy)
-- 免費試用： [試用下載](https://releases.aspose.com/slides/java/)
-- 臨時授權： [申請臨時授權](https://purchase.aspose.com/temporary-license/)
-- 支援論壇： [Aspose 社群論壇](https://forum.aspose.com/c/slides/11)
