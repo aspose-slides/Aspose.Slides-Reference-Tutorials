@@ -1,7 +1,7 @@
 ---
 date: 2025-12-24
 description: 學習如何使用 Aspose.Slides 批量處理 PowerPoint Java 檔案。一步一步的指南涵蓋批量轉換、自動化工作流程和排程任務。
-title: 批次處理 PowerPoint Java：Aspose.Slides 教學
+title: 批次處理 PowerPoint Java - Aspose.Slides 教學
 url: /zh-hant/java/batch-processing/
 weight: 22
 ---
@@ -93,6 +93,12 @@ weight: 22
 - [免費支援](https://forum.aspose.com/)
 - [臨時授權](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**最後更新：** 2025-12-24  
+**測試環境：** Aspose.Slides for Java 24.12  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -100,9 +106,3 @@ weight: 22
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-24  
-**測試環境：** Aspose.Slides for Java 24.12  
-**作者：** Aspose

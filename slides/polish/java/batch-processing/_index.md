@@ -3,7 +3,7 @@ date: 2025-12-24
 description: Dowiedz się, jak wsadowo przetwarzać pliki PowerPoint Java przy użyciu
   Aspose.Slides. Przewodniki krok po kroku obejmują masową konwersję, automatyzację
   procesów i zadania zaplanowane.
-title: 'Przetwarzanie wsadowe PowerPoint w Javie: Samouczki dla Aspose.Slides'
+title: 'Przetwarzanie wsadowe PowerPoint w Javie - Samouczki dla Aspose.Slides'
 url: /pl/java/batch-processing/
 weight: 22
 ---
@@ -40,52 +40,52 @@ Przetwarzanie wsadowe oznacza obsługę wielu plików PowerPoint w jednej zautom
 
 ## Przewodnik krok po kroku
 
-### Step 1: Set up the project and add the Aspose.Slides dependency
-Utwórz nowy projekt Maven/Gradle i dołącz artefakt Aspose.Slides. Dzięki temu uzyskasz dostęp do klasy `Presentation` używanej w całych samouczkach.
+### Krok 1: Skonfiguruj projekt i dodaj zależność Aspose.Slides
+Utwórz nowy projekt Maven/Gradle i dołącz artefakt Aspose.Slides. Dzięki temu uzyskasz dostęp do klasy `Prezentacja` używanej w całych samouczkach.
 
-### Step 2: Load presentations in a loop
-Iteruj po katalogu z plikami PPTX, ładując każdy za pomocą `new Presentation(path)`. Pamiętaj, aby po przetworzeniu wywołać `presentation.dispose()`, aby zwolnić zasoby natywne.
+### Krok 2: Załaduj prezentacje w pętli
+Przejdź do katalogu z plikami PPTX, ładując każdy za pomocą `nowej prezentacji(ścieżki)`. Pamiętaj, aby po przetworzeniu wywołać `presentation.dispose()`, aby zwolnić zasoby natywne.
 
-### Step 3: Apply the desired operation
+### Krok 3: Zastosuj żądaną operację
 Typowe zadania wsadowe obejmują:
-- Konwertowanie PPTX → PDF lub obrazy.  
-- Aktualizowanie tytułów slajdów, stopki lub identyfikacji firmowej.  
-- Wydobywanie tekstu do indeksowania lub wyszukiwania.  
-- Kadrowanie lub zmiana rozmiaru osadzonych obrazów.
+- Konwertowanie PPTX → PDF lub obrazy.
+- Aktualizowanie tytułów slajdów, stopki lub pozyskiwania firmowej.
+- Wydobywanie tekstu do indeksowania lub wyszukiwania.
+- Kadrowanie lub zmiana podstawowych osadzonych obrazów.
 
-### Step 4: Save the result and move to the next file
-Zapisz zmodyfikowaną prezentację (lub skonwertowany wynik) do docelowego folderu, a następnie kontynuuj pętlę, aż wszystkie pliki zostaną przetworzone.
+### Krok 4: Zapisz wynik i przejdź do następnego pliku
+Następnie wyodrębniono prezentację (lub skonwertowany wynik) do docelowego folderu, a następnie pozostałości, aż do wszystkich plików przetworzonych.
 
-### Step 5: (Optional) Schedule the job
-Opakuj logikę wsadową w zadanie Quartz lub krok Spring Batch, aby uruchamiać automatycznie w określonych odstępach czasu (np. co noc).
+### Krok 5: (Opcjonalnie) Zaplanuj zadanie
+Opakuj logikę wsadową w zadaniu Quartz lub krok Spring Batch, aby uruchomić automatycznie w odstępach czasu (np. co noc).
 
 ## Typowe problemy i rozwiązania
-- **OutOfMemoryError:** Przetwarzaj pliki pojedynczo i wywołuj `dispose()` po każdej iteracji.  
-- **Brakujące czcionki:** Osadź wymagane czcionki w źródłowym PPTX lub podaj folder czcionek za pomocą `Presentation.Fonts`.  
-- **Licencja nie została zastosowana:** Upewnij się, że plik licencji jest załadowany przed jakimkolwiek wywołaniem Aspose.Slides.
+- **OutOfMemoryError:** Przetwarzaj pliki pojedynczo i wywołuj `dispose()` po każdej iteracji.
+- **Brakujące:** Osadź wymagane w źródlewym PPTX lub poddaj folder czcionek za pomocą `Presentation.Fonts`.
+- **Licencja nie została zastosowana:** zastosowanie, że plik licencji jest dostępny przed jakimkolwiek wywołaniem Aspose.Slides.
 
 ## Dostępne samouczki
 
-### [Samouczek Aspose.Slides Java: Automatyzacja prezentacji PowerPoint z łatwością](./aspose-slides-java-powerpoint-automation/)
-Learn how to automate PowerPoint management in Java using Aspose.Slides. This tutorial covers loading presentations, accessing slide elements, and managing bullet formats effectively.
+### [Samouczek Aspose.Slides Java: Automatyzacja prezentacji PowerPoint z wykorzystaniem](./aspose-slides-java-powerpoint-automation/)
+Dowiedz się, jak zautomatyzować zarządzanie prezentacją PowerPoint w Javie za pomocą Aspose.Slides. Ten samouczek obejmuje ładowanie prezentacji, dostęp do elementów slajdów i efektywne zarządzanie formatami wypunktowań.
 
-### [Aspose.Slides for Java: Usprawnij automatyzację i zarządzanie prezentacjami](./aspose-slides-java-automate-presentation-management/)
-Learn how to automate presentation creation, editing, and management with Aspose.Slides for Java. Enhance your workflow by integrating this powerful library into your Java projects.
+### [Aspose.Slides dla Java: Automatyzacja i zarządzanie prezentacjami](./aspose-slides-java-automate-presentation-management/)
+Dowiedz się, jak zautomatyzować tworzenie, edycję i zarządzanie prezentacjami za pomocą Aspose.Slides dla Java. Usprawnij swój przepływ pracy, integrując tę ​​potężną bibliotekę z projektami Java.
 
 ### [Automatyzacja tworzenia katalogów w Javie przy użyciu Aspose.Slides: Kompletny przewodnik](./automate-directory-creation-java-aspose-slides-tutorial/)
-Learn how to automate directory creation in Java with Aspose.Slides. This guide covers checking and creating directories, optimizing performance, and integrating directory management with presentation processing.
+Dowiedz się, jak zautomatyzować tworzenie katalogów w Javie za pomocą Aspose.Slides. W tym przewodniku opisano sprawdzanie i tworzenie katalogów, optymalizację wydajności oraz integrowanie zarządzania katalogami z przetwarzaniem prezentacji.
 
 ### [Automatyzacja manipulacji PowerPoint PPTX przy użyciu Aspose.Slides Java do przetwarzania wsadowego](./automate-pptx-manipulation-aspose-slides-java/)
-Learn how to automate PowerPoint presentation manipulation using Aspose.Slides Java. Streamline your workflow with efficient loading, shape access, and text formatting techniques.
+Dowiedz się, jak zautomatyzować manipulację prezentacjami programu PowerPoint za pomocą Aspose.Slides Java. Usprawnij przepływ pracy dzięki wydajnemu ładowaniu, dostępowi do kształtów i technikom formatowania tekstu.
 
 ### [Automatyzacja prezentacji PowerPoint przy użyciu Aspose.Slides for Java: Kompletny przewodnik po przetwarzaniu wsadowym](./automate-powerpoint-aspose-slides-java/)
-Learn how to automate and manipulate PowerPoint presentations with Aspose.Slides for Java. Master slide handling, image cropping, and batch processing in your Java applications.
+Dowiedz się, jak automatyzować i manipulować prezentacjami programu PowerPoint za pomocą Aspose.Slides dla Java. Opanuj obsługę slajdów, kadrowanie obrazów i przetwarzanie wsadowe w aplikacjach Java.
 
-### [Automatyzacja zadań PowerPoint przy użyciu Aspose.Slides for Java: Kompletny przewodnik po przetwarzaniu wsadowym plików PPTX](./aspose-slides-java-automation-guide/)
-Learn how to automate PowerPoint tasks using Aspose.Slides for Java. This guide covers loading, editing, and saving PPTX files efficiently.
+### [Automatyzacja zadań programu PowerPoint przy użyciu Aspose.Slides for Java: Kompletny przewodnik po przetwarzaniu wsadowym plików PPTX](./aspose-slides-java-automation-guide/)
+Dowiedz się, jak zautomatyzować zadania programu PowerPoint za pomocą Aspose.Slides dla Java. W tym przewodniku opisano efektywne ładowanie, edycję i zapisywanie plików PPTX.
 
 ### [Mistrzowska automatyzacja slajdów PowerPoint z Aspose.Slides Java: Kompletny przewodnik po przetwarzaniu wsadowym](./automate-powerpoint-slides-aspose-slides-java/)
-Learn to automate PowerPoint slide creation and modification using Aspose.Slides for Java. This guide covers everything from setup to advanced management techniques.
+Dowiedz się, jak zautomatyzować tworzenie i modyfikowanie slajdów programu PowerPoint za pomocą Aspose.Slides dla Java. W tym przewodniku opisano wszystko, od konfiguracji po zaawansowane techniki zarządzania.
 
 ## Dodatkowe zasoby
 
@@ -95,6 +95,12 @@ Learn to automate PowerPoint slide creation and modification using Aspose.Slides
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Last Updated:** 2025-12-24  
+**Tested With:** Aspose.Slides for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -102,9 +108,3 @@ Learn to automate PowerPoint slide creation and modification using Aspose.Slides
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-24  
-**Tested With:** Aspose.Slides for Java 24.12  
-**Author:** Aspose

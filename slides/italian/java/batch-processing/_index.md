@@ -3,7 +3,7 @@ date: 2025-12-24
 description: Scopri come elaborare in batch i file PowerPoint Java con Aspose.Slides.
   Guide passo‑passo coprono la conversione di massa, i flussi di lavoro automatizzati
   e le attività programmate.
-title: 'Processo batch PowerPoint Java: Tutorial per Aspose.Slides'
+title: 'Processo batch PowerPoint Java - Tutorial per Aspose.Slides'
 url: /it/java/batch-processing/
 weight: 22
 ---
@@ -95,6 +95,12 @@ Impara a automatizzare la creazione e la modifica delle diapositive PowerPoint c
 - [Supporto gratuito](https://forum.aspose.com/)
 - [Licenza temporanea](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Ultimo aggiornamento:** 2025-12-24  
+**Testato con:** Aspose.Slides per Java 24.12  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -102,9 +108,3 @@ Impara a automatizzare la creazione e la modifica delle diapositive PowerPoint c
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2025-12-24  
-**Testato con:** Aspose.Slides per Java 24.12  
-**Autore:** Aspose

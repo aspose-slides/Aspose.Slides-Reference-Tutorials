@@ -3,7 +3,7 @@ date: 2025-12-24
 description: Ismerje meg, hogyan lehet kötegelt feldolgozást végezni PowerPoint Java
   fájlokon az Aspose.Slides segítségével. Lépésről‑lépésre útmutatók a tömeges konverziót,
   az automatizálási munkafolyamatokat és az ütemezett feladatokat fedik le.
-title: 'Kötegelt PowerPoint feldolgozás Java: Oktatóanyagok az Aspose.Slides-hez'
+title: 'Kötegelt PowerPoint feldolgozás Java - Oktatóanyagok az Aspose.Slides-hez'
 url: /hu/java/batch-processing/
 weight: 22
 ---
@@ -95,14 +95,6 @@ Tanulja meg, hogyan automatizálhatja a PowerPoint diák létrehozását és mó
 - [Ingyenes támogatás](https://forum.aspose.com/)
 - [Ideiglenes licenc](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-24  
@@ -110,3 +102,11 @@ Tanulja meg, hogyan automatizálhatja a PowerPoint diák létrehozását és mó
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,7 +3,7 @@ date: 2025-12-24
 description: Aprende a procesar por lotes archivos Java de PowerPoint con Aspose.Slides.
   Guías paso a paso cubren la conversión masiva, flujos de trabajo de automatización
   y tareas programadas.
-title: 'Procesamiento por lotes de PowerPoint en Java: Tutoriales para Aspose.Slides'
+title: 'Procesamiento por lotes de PowerPoint en Java - Tutoriales para Aspose.Slides'
 url: /es/java/batch-processing/
 weight: 22
 ---
@@ -17,7 +17,7 @@ weight: 22
 
 Si necesitas **procesar por lotes PowerPoint Java** a gran escala, has llegado al lugar correcto. Este hub reúne tutoriales prácticos que te muestran cómo automatizar conversiones masivas, manipular diapositivas programáticamente y programar tareas repetitivas, todo usando Aspose.Slides for Java. Ya sea que estés construyendo un servicio del lado del servidor, una utilidad de escritorio o un flujo de trabajo empresarial, estas guías te proporcionan el código necesario para comenzar rápida y confiablemente.
 
-## Quick Answers
+## Respuestas rápidas
 - **¿Qué puedo automatizar?** Cargar, editar, convertir y guardar varios archivos PPTX en una sola ejecución.  
 - **¿Necesito una licencia?** Una licencia temporal funciona para pruebas; se requiere una licencia comercial para producción.  
 - **¿Qué versión de Java es compatible?** Java 8 y versiones posteriores (se recomienda Java 11).  
@@ -40,31 +40,31 @@ El procesamiento por lotes significa manejar muchos archivos de PowerPoint en un
 
 ## Guía paso a paso
 
-### Step 1: Set up the project and add the Aspose.Slides dependency
+### Paso 1: configurar el proyecto y agregar la dependencia Aspose.Slides
 Crea un nuevo proyecto Maven/Gradle e incluye el artefacto Aspose.Slides. Esto te brinda acceso a la clase `Presentation` utilizada a lo largo de los tutoriales.
 
-### Step 2: Load presentations in a loop
-Itera sobre un directorio de archivos PPTX, cargando cada uno con `new Presentation(path)`. Recuerda llamar a `presentation.dispose()` después del procesamiento para liberar recursos nativos.
+### Paso 2: cargar presentaciones en un bucle
+Itera sobre un directorio de archivos PPTX, cargando cada uno con `new Presentation(path)`. Recuerde llamar a `presentation.dispose()` después del procesamiento para liberar recursos nativos.
 
-### Step 3: Apply the desired operation
+### Paso 3: Aplicar la operación deseada
 Las tareas típicas por lotes incluyen:
-- Convertir PPTX → PDF o imágenes.  
-- Actualizar títulos de diapositivas, pies de página o la marca corporativa.  
-- Extraer texto para indexación o búsqueda.  
-- Recortar o redimensionar imágenes incrustadas.  
+- Convertir PPTX → PDF o imágenes.
+- Actualizar títulos de diapositivas, pies de página o la marca corporativa.
+- Texto adicional para indexación o búsqueda.
+- Recortar o redimensionar imágenes incrustadas.
 
-### Step 4: Save the result and move to the next file
-Guarda la presentación modificada (o la salida convertida) en una carpeta de destino, luego continúa el bucle hasta que todos los archivos hayan sido procesados.
+### Paso 4: Guarde el resultado y pase al siguiente archivo
+Guarde la presentación modificada (o la salida convertida) en una carpeta de destino, luego continúa el bucle hasta que todos los archivos hayan sido procesados.
 
-### Step 5: (Optional) Schedule the job
+### Paso 5: (Opcional) Programe el trabajo
 Envuelve la lógica por lotes en un trabajo de Quartz o un paso de Spring Batch para ejecutarlo automáticamente a intervalos definidos (por ejemplo, cada noche).
 
-## Common Issues and Solutions
-- **OutOfMemoryError:** Procesa los archivos uno a la vez y llama a `dispose()` después de cada iteración.  
-- **Fuentes faltantes:** Incrusta las fuentes requeridas en el PPTX de origen o proporciona una carpeta de fuentes mediante `Presentation.Fonts`.  
-- **Licencia no aplicada:** Asegúrate de que el archivo de licencia se cargue antes de cualquier llamada a Aspose.Slides.
+## Problemas comunes y soluciones
+- **OutOfMemoryError:** Procesa los archivos uno a la vez y llama a `dispose()` después de cada iteración.
+- **Fuentes faltantes:** Incrusta las fuentes requeridas en el PPTX de origen o proporciona una carpeta de fuentes mediante `Presentation.Fonts`.
+- **Licencia no aplicada:** Asegúrese de que el archivo de licencia se cargue antes de cualquier llamada a Aspose.Slides.
 
-## Available Tutorials
+## Tutoriales disponibles
 
 ### [Aspose.Slides Java Tutorial&#58; Automatizar presentaciones de PowerPoint con facilidad](./aspose-slides-java-powerpoint-automation/)
 Aprende a automatizar la gestión de PowerPoint en Java usando Aspose.Slides. Este tutorial cubre la carga de presentaciones, el acceso a elementos de diapositivas y la gestión eficaz de formatos de viñetas.
@@ -87,21 +87,13 @@ Aprende a automatizar tareas de PowerPoint usando Aspose.Slides for Java. Esta g
 ### [Dominar la automatización de diapositivas de PowerPoint con Aspose.Slides Java&#58; Guía completa para procesamiento por lotes](./automate-powerpoint-slides-aspose-slides-java/)
 Aprende a automatizar la creación y modificación de diapositivas de PowerPoint usando Aspose.Slides for Java. Esta guía cubre todo, desde la configuración hasta técnicas avanzadas de gestión.
 
-## Additional Resources
+## Recursos adicionales
 
 - [Documentación de Aspose.Slides for Java](https://docs.aspose.com/slides/java/)
 - [Referencia de API de Aspose.Slides for Java](https://reference.aspose.com/slides/java/)
 - [Descargar Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
 - [Soporte gratuito](https://forum.aspose.com/)
 - [Licencia temporal](https://purchase.aspose.com/temporary-license/)
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
@@ -110,3 +102,11 @@ Aprende a automatizar la creación y modificación de diapositivas de PowerPoint
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

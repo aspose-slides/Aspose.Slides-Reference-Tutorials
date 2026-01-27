@@ -3,7 +3,7 @@ date: 2025-12-24
 description: Naučte se, jak hromadně zpracovávat soubory PowerPoint v Javě pomocí
   Aspose.Slides. Průvodci krok za krokem pokrývají hromadnou konverzi, automatizační
   pracovní postupy a naplánované úlohy.
-title: 'Dávkové zpracování PowerPoint v Javě: Tutoriály pro Aspose.Slides'
+title: 'Dávkové zpracování PowerPoint v Javě - Tutoriály pro Aspose.Slides'
 url: /cs/java/batch-processing/
 weight: 22
 ---
@@ -88,14 +88,6 @@ Zabalte dávkovou logiku do úlohy Quartz nebo kroku Spring Batch, aby se spouš
 - [Bezplatná podpora](https://forum.aspose.com/)
 - [Dočasná licence](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Poslední aktualizace:** 2025-12-24  
@@ -103,3 +95,11 @@ Zabalte dávkovou logiku do úlohy Quartz nebo kroku Spring Batch, aby se spouš
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

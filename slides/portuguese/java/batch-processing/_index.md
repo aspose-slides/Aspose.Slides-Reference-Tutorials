@@ -3,7 +3,7 @@ date: 2025-12-24
 description: Aprenda a processar em lote arquivos Java do PowerPoint com Aspose.Slides.
   Guias passo a passo cobrem conversão em massa, fluxos de trabalho de automação e
   tarefas agendadas.
-title: 'Processamento em lote de PowerPoint Java: Tutoriais para Aspose.Slides'
+title: 'Processamento em lote de PowerPoint Java - Tutoriais para Aspose.Slides'
 url: /pt/java/batch-processing/
 weight: 22
 ---
@@ -95,14 +95,6 @@ Aprenda a automatizar a criação e modificação de slides PowerPoint usando As
 - [Suporte Gratuito](https://forum.aspose.com/)
 - [Licença Temporária](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última Atualização:** 2025-12-24  
@@ -110,3 +102,11 @@ Aprenda a automatizar a criação e modificação de slides PowerPoint usando As
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

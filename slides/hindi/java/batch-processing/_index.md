@@ -3,7 +3,7 @@ date: 2025-12-24
 description: Aspose.Slides के साथ PowerPoint Java फ़ाइलों को बैच प्रोसेस करना सीखें।
   चरण‑दर‑चरण गाइड में बड़े पैमाने पर रूपांतरण, स्वचालन कार्यप्रवाह और नियोजित कार्य
   शामिल हैं।
-title: 'बैच प्रोसेस पावरपॉइंट जावा: Aspose.Slides के लिए ट्यूटोरियल्स'
+title: 'बैच प्रोसेस पावरपॉइंट जावा - Aspose.Slides के लिए ट्यूटोरियल्स'
 url: /hi/java/batch-processing/
 weight: 22
 ---
@@ -95,14 +95,6 @@ Typical batch tasks include:
 - [नि:शुल्क समर्थन](https://forum.aspose.com/)
 - [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-24  
@@ -110,3 +102,11 @@ Typical batch tasks include:
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

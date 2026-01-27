@@ -3,7 +3,7 @@ date: 2025-12-24
 description: Apprenez à traiter par lots les fichiers PowerPoint Java avec Aspose.Slides.
   Des guides étape par étape couvrent la conversion en masse, les flux de travail
   d’automatisation et les tâches planifiées.
-title: 'Traitement par lots PowerPoint Java : Tutoriels pour Aspose.Slides'
+title: 'Traitement par lots PowerPoint Java - Tutoriels pour Aspose.Slides'
 url: /fr/java/batch-processing/
 weight: 22
 ---
@@ -95,14 +95,6 @@ Apprenez à automatiser la création et la modification de diapositives PowerPoi
 - [Support gratuit](https://forum.aspose.com/)
 - [Licence temporaire](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Dernière mise à jour :** 2025-12-24  
@@ -110,3 +102,11 @@ Apprenez à automatiser la création et la modification de diapositives PowerPoi
 **Auteur :** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

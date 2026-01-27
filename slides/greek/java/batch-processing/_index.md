@@ -3,7 +3,7 @@ date: 2025-12-24
 description: Μάθετε πώς να επεξεργάζεστε μαζικά αρχεία PowerPoint Java με το Aspose.Slides.
   Οδηγοί βήμα‑προς‑βήμα καλύπτουν τη μαζική μετατροπή, τις ροές αυτοματοποίησης και
   τις προγραμματισμένες εργασίες.
-title: 'Μαζική Επεξεργασία PowerPoint Java: Μαθήματα για το Aspose.Slides'
+title: 'Μαζική Επεξεργασία PowerPoint Java - Μαθήματα για το Aspose.Slides'
 url: /el/java/batch-processing/
 weight: 22
 ---
@@ -82,14 +82,6 @@ weight: 22
 - [Δωρεάν Υποστήριξη](https://forum.aspose.com/)
 - [Προσωρινή Άδεια](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Τελευταία Ενημέρωση:** 2025-12-24  
@@ -97,3 +89,11 @@ weight: 22
 **Συγγραφέας:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,7 +3,7 @@ date: 2025-12-24
 description: Pelajari cara memproses batch file Java PowerPoint dengan Aspose.Slides.
   Panduan langkah demi langkah mencakup konversi massal, alur kerja otomatisasi, dan
   tugas terjadwal.
-title: 'Pemrosesan Batch PowerPoint Java: Tutorial untuk Aspose.Slides'
+title: 'Pemrosesan Batch PowerPoint Java - Tutorial untuk Aspose.Slides'
 url: /id/java/batch-processing/
 weight: 22
 ---
@@ -95,14 +95,6 @@ Pelajari cara mengotomatisasi pembuatan dan modifikasi slide PowerPoint mengguna
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-24  
@@ -110,3 +102,11 @@ Pelajari cara mengotomatisasi pembuatan dan modifikasi slide PowerPoint mengguna
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

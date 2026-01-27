@@ -2,7 +2,7 @@
 date: 2025-12-24
 description: تعلم كيفية معالجة ملفات PowerPoint Java دفعيًا باستخدام Aspose.Slides.
   تغطي الأدلة خطوة بخطوة التحويل الجماعي، وتدفقات العمل الآلية، والمهام المجدولة.
-title: 'معالجة دفعية لبرنامج PowerPoint باستخدام Java: دروس Aspose.Slides'
+title: 'معالجة دفعية لبرنامج PowerPoint باستخدام Java - دروس Aspose.Slides'
 url: /ar/java/batch-processing/
 weight: 22
 ---
@@ -94,14 +94,6 @@ weight: 22
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **آخر تحديث:** 2025-12-24  
@@ -109,3 +101,11 @@ weight: 22
 **المؤلف:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

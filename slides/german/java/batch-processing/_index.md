@@ -3,7 +3,7 @@ date: 2025-12-24
 description: Erfahren Sie, wie Sie PowerPoint‑Java‑Dateien stapelweise mit Aspose.Slides
   verarbeiten. Schritt‑für‑Schritt‑Anleitungen behandeln Massenkonvertierung, Automatisierungs‑Workflows
   und geplante Aufgaben.
-title: 'Batch‑Verarbeitung von PowerPoint Java: Tutorials für Aspose.Slides'
+title: 'Batch‑Verarbeitung von PowerPoint Java - Tutorials für Aspose.Slides'
 url: /de/java/batch-processing/
 weight: 22
 ---
@@ -95,6 +95,12 @@ Erfahren Sie, wie Sie die Erstellung und Modifizierung von PowerPoint‑Folien m
 - [Kostenloser Support](https://forum.aspose.com/)
 - [Temporäre Lizenz](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Last Updated:** 2025-12-24  
+**Tested With:** Aspose.Slides for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -102,9 +108,3 @@ Erfahren Sie, wie Sie die Erstellung und Modifizierung von PowerPoint‑Folien m
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-24  
-**Tested With:** Aspose.Slides for Java 24.12  
-**Author:** Aspose

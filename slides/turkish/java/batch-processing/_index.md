@@ -3,7 +3,7 @@ date: 2025-12-24
 description: Aspose.Slides ile PowerPoint Java dosyalarını toplu işleme nasıl yapılacağını
   öğrenin. Adım adım rehberler, toplu dönüşüm, otomasyon iş akışları ve zamanlanmış
   görevleri kapsar.
-title: 'PowerPoint Java Toplu İşlem: Aspose.Slides Eğitimleri'
+title: 'PowerPoint Java Toplu İşlem - Aspose.Slides Eğitimleri'
 url: /tr/java/batch-processing/
 weight: 22
 ---
@@ -95,14 +95,6 @@ Aspose.Slides for Java ile PowerPoint slayt oluşturma ve değiştirmeyi otomati
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Son Güncelleme:** 2025-12-24  
@@ -110,3 +102,11 @@ Aspose.Slides for Java ile PowerPoint slayt oluşturma ve değiştirmeyi otomati
 **Yazar:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

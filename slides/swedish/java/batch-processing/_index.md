@@ -3,7 +3,7 @@ date: 2025-12-24
 description: Lär dig hur du batchbearbetar PowerPoint Java‑filer med Aspose.Slides.
   Steg‑för‑steg‑guider täcker masskonvertering, automatiseringsarbetsflöden och schemalagda
   uppgifter.
-title: 'Batchprocess PowerPoint Java: Handledning för Aspose.Slides'
+title: 'Batchprocess PowerPoint Java - Handledning för Aspose.Slides'
 url: /sv/java/batch-processing/
 weight: 22
 ---
@@ -95,6 +95,12 @@ Lär dig att automatisera skapande och modifiering av PowerPoint‑bilder med As
 - [Gratis support](https://forum.aspose.com/)
 - [Tillfällig licens](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Senast uppdaterad:** 2025-12-24  
+**Testad med:** Aspose.Slides för Java 24.12  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -102,9 +108,3 @@ Lär dig att automatisera skapande och modifiering av PowerPoint‑bilder med As
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2025-12-24  
-**Testad med:** Aspose.Slides för Java 24.12  
-**Författare:** Aspose

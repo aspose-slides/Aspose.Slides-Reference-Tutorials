@@ -2,7 +2,7 @@
 date: 2025-12-24
 description: เรียนรู้วิธีประมวลผลไฟล์ PowerPoint Java เป็นชุดด้วย Aspose.Slides คู่มือแบบขั้นตอนครอบคลุมการแปลงจำนวนมาก
   กระบวนการอัตโนมัติ และงานที่กำหนดเวลา
-title: 'การประมวลผลชุด PowerPoint ด้วย Java: บทเรียนสำหรับ Aspose.Slides'
+title: 'การประมวลผลชุด PowerPoint ด้วย Java - บทเรียนสำหรับ Aspose.Slides'
 url: /th/java/batch-processing/
 weight: 22
 ---
@@ -94,14 +94,6 @@ weight: 22
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-24  
@@ -109,3 +101,11 @@ weight: 22
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
