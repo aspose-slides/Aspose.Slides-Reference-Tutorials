@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Erfahren Sie, wie Sie Ihre Diagramme in Aspose.Slides für Java durch Hinzufügen benutzerdefinierter Bildmarkierungen optimieren. Steigern Sie das Engagement mit optisch ansprechenden Präsentationen."
-"title": "Master Aspose.Slides Java&#58; Hinzufügen von Bildmarkierungen zu Diagrammen"
-"url": "/de/java/charts-graphs/aspose-slides-java-add-image-markers-charts/"
-"weight": 1
+date: '2026-01-11'
+description: Erfahren Sie, wie Sie Aspose Slides für Java verwenden, Bildmarkierungen
+  zu Diagrammen hinzufügen und die Aspose Slides Maven‑Abhängigkeit für benutzerdefinierte
+  Diagrammvisualisierungen konfigurieren.
+keywords:
+- Aspose.Slides for Java
+- image markers in charts
+- Java presentation enhancements
+title: 'Wie man Aspose Slides Java verwendet - Bildmarkierungen zu Diagrammen hinzufügen'
+url: /de/java/charts-graphs/aspose-slides-java-add-image-markers-charts/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,32 +17,39 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.Slides Java meistern: Bildmarkierungen zu Diagrammen hinzufügen
+# Wie man Aspose Slides Java verwendet: Bildmarkierungen zu Diagrammen hinzufügen
 
 ## Einführung
-Visuell ansprechende Präsentationen sind der Schlüssel zu effektiver Kommunikation. Diagramme sind ein leistungsstarkes Werkzeug, um komplexe Daten prägnant darzustellen. Standard-Diagrammmarkierungen reichen manchmal nicht aus, um Ihre Daten hervorzuheben. Mit Aspose.Slides für Java können Sie Ihre Diagramme durch Hinzufügen benutzerdefinierter Bilder als Markierungen optimieren und sie so ansprechender und informativer gestalten.
+Visuell ansprechende Präsentationen zu erstellen ist entscheidend für eine effektive Kommunikation, und Diagramme sind ein leistungsstarkes Werkzeug, um komplexe Daten prägnant zu vermitteln. Wenn Sie sich fragen **wie man Aspose** nutzt, um Ihre Diagramme hervorzuheben, sind benutzerdefinierte Bildmarkierungen die Lösung. Standard‑Markierungen können generisch wirken, aber mit Aspose.Slides for Java können Sie sie durch beliebige Bilder ersetzen – sodass jeder Datenpunkt sofort erkennbar ist.
 
-In diesem Tutorial erfahren Sie, wie Sie Bildmarkierungen mithilfe der Aspose.Slides-Bibliothek in Java in Ihre Diagramme integrieren. Mit diesen Techniken können Sie Präsentationen erstellen, die mit ihren einzigartigen visuellen Elementen die Aufmerksamkeit auf sich ziehen.
+In diesem Tutorial führen wir Sie durch den gesamten Prozess, Bildmarkierungen zu einem Liniendiagramm hinzuzufügen, von der Einrichtung der **Aspose Slides Maven‑Abhängigkeit** über das Laden von Bildern bis hin zur Anwendung auf Datenpunkte. Am Ende sind Sie vertraut damit, **wie man Markierungen hinzufügt**, wie man **Bilder zu Diagramm‑Serien** hinzufügt, und Sie haben ein sofort ausführbares Code‑Beispiel.
 
-**Was Sie lernen werden:**
-- So richten Sie Aspose.Slides für Java ein
-- Erstellen einer grundlegenden Präsentation und eines Diagramms
+**Was Sie lernen werden**
+- Wie man Aspose.Slides for Java einrichtet (inkl. Maven/Gradle)
+- Erstellen einer einfachen Präsentation und eines Diagramms
 - Hinzufügen von Bildmarkierungen zu Diagrammdatenpunkten
-- Konfigurieren der Markierungseinstellungen für eine optimale Visualisierung
+- Konfigurieren von Markierungsgröße und -stil für optimale Visualisierung
 
-Bereit, Ihre Diagramme zu verbessern? Lassen Sie uns zunächst die Voraussetzungen besprechen!
+Bereit, Ihre Diagramme zu verbessern? Lassen Sie uns in die Voraussetzungen eintauchen, bevor wir beginnen!
+
+### Schnelle Antworten
+- **Was ist der Hauptzweck?** Benutzerdefinierte Bildmarkierungen zu Diagrammdatenpunkten hinzufügen.  
+- **Welche Bibliothek wird benötigt?** Aspose.Slides for Java (Maven/Gradle).  
+- **Benötige ich eine Lizenz?** Eine temporäre Lizenz reicht für die Evaluierung; eine Voll‑Lizenz ist für die Produktion erforderlich.  
+- **Welche Java‑Version wird unterstützt?** JDK 16 oder höher.  
+- **Kann ich jedes Bildformat verwenden?** Ja – PNG, JPEG, BMP usw., solange die Datei zugänglich ist.
 
 ### Voraussetzungen
-Um diesem Tutorial folgen zu können, benötigen Sie:
-1. **Aspose.Slides für die Java-Bibliothek**: Erhalten Sie es über Maven- oder Gradle-Abhängigkeiten oder durch direkten Download von Aspose.
-2. **Java-Entwicklungsumgebung**: Stellen Sie sicher, dass JDK 16 auf Ihrem Computer installiert ist.
-3. **Grundlegende Java-Programmierkenntnisse**: Kenntnisse der Java-Syntax und -Konzepte sind von Vorteil.
+Um diesem Tutorial zu folgen, benötigen Sie:
+1. **Aspose.Slides for Java Bibliothek** – über Maven, Gradle oder Direktdownload beziehen.  
+2. **Java‑Entwicklungsumgebung** – JDK 16 oder neuer installiert.  
+3. **Grundlegende Java‑Programmierkenntnisse** – Vertrautheit mit Java‑Syntax und -Konzepten ist hilfreich.
 
-## Einrichten von Aspose.Slides für Java
-Bevor wir uns in den Code stürzen, richten wir unsere Entwicklungsumgebung mit den erforderlichen Bibliotheken ein.
+## Was ist die Aspose Slides Maven‑Abhängigkeit?
+Die Maven‑Abhängigkeit zieht die passenden Binärdateien für Ihre Java‑Version. Das Hinzufügen zu Ihrer `pom.xml` stellt sicher, dass die Bibliothek zur Compile‑Zeit und zur Laufzeit verfügbar ist.
 
-### Maven-Installation
-Fügen Sie die folgende Abhängigkeit zu Ihrem `pom.xml` Datei:
+### Maven‑Installation
+Fügen Sie die folgende Abhängigkeit zu Ihrer `pom.xml`‑Datei hinzu:
 
 ```xml
 <dependency>
@@ -47,23 +60,23 @@ Fügen Sie die folgende Abhängigkeit zu Ihrem `pom.xml` Datei:
 </dependency>
 ```
 
-### Gradle-Installation
-Nehmen Sie dies in Ihre `build.gradle` Datei:
+### Gradle‑Installation
+Fügen Sie diese Zeile in Ihre `build.gradle`‑Datei ein:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
 ### Direkter Download
-Alternativ können Sie die neueste Version von [Aspose.Slides für Java-Versionen](https://releases.aspose.com/slides/java/).
+Alternativ können Sie das neueste Release von [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) herunterladen.
 
-#### Schritte zum Lizenzerwerb
-- **Kostenlose Testversion**: Beginnen Sie mit einer temporären Lizenz, um die Funktionen von Aspose.Slides zu erkunden.
-- **Temporäre Lizenz**: Greifen Sie auf erweiterte Funktionen zu, indem Sie eine temporäre Lizenz erwerben.
-- **Kaufen**: Für eine langfristige Nutzung sollten Sie den Erwerb einer Volllizenz in Erwägung ziehen.
+#### Schritte zum Erwerb einer Lizenz
+- **Kostenlose Testversion** – beginnen Sie mit einer temporären Lizenz, um Funktionen zu erkunden.  
+- **Temporäre Lizenz** – schalten Sie erweiterte Funktionen während des Testens frei.  
+- **Kauf** – erhalten Sie eine Voll‑Lizenz für kommerzielle Projekte.
 
-### Grundlegende Initialisierung und Einrichtung
-Initialisieren Sie den `Presentation` Objekt, um mit der Erstellung von Folien zu beginnen:
+## Grundlegende Initialisierung und Einrichtung
+Zuerst erstellen Sie ein `Presentation`‑Objekt. Dieses Objekt repräsentiert die gesamte PowerPoint‑Datei und wird unser Diagramm enthalten.
 
 ```java
 import com.aspose.slides.*;
@@ -71,29 +84,29 @@ import com.aspose.slides.*;
 public class InitializeAspose {
     public static void main(String[] args) {
         Presentation presentation = new Presentation();
-        // Ihr Code zum Hinzufügen von Folien und Diagrammen kommt hier hin.
+        // Your code for adding slides and charts goes here.
     }
 }
 ```
 
-## Implementierungshandbuch
-Lassen Sie uns nun den Vorgang zum Hinzufügen von Bildmarkierungen zu Ihrer Diagrammreihe aufschlüsseln.
+## Implementierungs‑Leitfaden
+Im Folgenden finden Sie eine Schritt‑für‑Schritt‑Anleitung zum Hinzufügen von Bildmarkierungen zu einem Diagramm. Jeder Code‑Block wird von einer Erklärung begleitet, damit Sie **warum** jede Zeile wichtig ist, verstehen.
 
-### Erstellen einer neuen Präsentation mit einem Diagramm
-Zuerst benötigen wir eine Folie, auf der wir unser Diagramm einfügen können:
+### Schritt 1: Erstellen einer neuen Präsentation mit einem Diagramm
+Wir fügen dem ersten Folie ein Liniendiagramm mit Standard‑Markierungen hinzu.
 
 ```java
 import com.aspose.slides.*;
 
 public class CreatePresentation {
     public static void main(String[] args) {
-        // Initialisieren Sie das Präsentationsobjekt
+        // Initialize the Presentation object
         Presentation presentation = new Presentation();
 
-        // Holen Sie sich die erste Folie aus der Sammlung
+        // Get the first slide from the collection
         ISlide slide = presentation.getSlides().get_Item(0);
 
-        // Fügen Sie der Folie ein Standardliniendiagramm mit Markierungen hinzu
+        // Add a default line chart with markers to the slide
         IChart chart = slide.getShapes().addChart(
             ChartType.LineWithMarkers, 0, 0, 400, 400
         );
@@ -101,8 +114,8 @@ public class CreatePresentation {
 }
 ```
 
-### Zugreifen auf und Konfigurieren von Diagrammdaten
-Als Nächstes greifen wir auf das Datenarbeitsblatt unseres Diagramms zu, um Reihen zu verwalten:
+### Schritt 2: Zugriff auf Diagrammdaten und Konfiguration
+Wir entfernen alle Standard‑Serien und fügen unsere eigene Serie hinzu, um das Arbeitsblatt für benutzerdefinierte Datenpunkte vorzubereiten.
 
 ```java
 import com.aspose.slides.*;
@@ -119,7 +132,7 @@ public class ManageChartData {
         int defaultWorksheetIndex = 0;
         IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
-        // Vorhandene Serie löschen und eine neue hinzufügen
+        // Clear existing series and add a new one
         chart.getChartData().getSeries().clear();
         chart.getChartData().getSeries().add(
             fact.getCell(defaultWorksheetIndex, 1, 1, "Series 1"), 
@@ -129,8 +142,8 @@ public class ManageChartData {
 }
 ```
 
-### Bildmarkierungen zu Diagrammdatenpunkten hinzufügen
-Jetzt kommt der spannende Teil – das Hinzufügen von Bildern als Markierungen:
+### Schritt 3: Bildmarkierungen zu Diagrammdatenpunkten hinzufügen
+Hier zeigen wir **wie man Markierungen** mit Bildern hinzufügt. Ersetzen Sie die Platzhalter‑Pfade durch den tatsächlichen Speicherort Ihrer Bilder.
 
 ```java
 import com.aspose.slides.*;
@@ -152,14 +165,14 @@ public class AddImageMarkers {
             chart.getType()
         );
 
-        // Bilder laden und als Markierungen hinzufügen
+        // Load and add images as markers
         IImage image1 = presentation.getImages().addImage(Files.readAllBytes(Paths.get("YOUR_DOCUMENT_DIRECTORY/aspose-logo.jpg")));
         IPPImage imgx1 = presentation.getImages().get_Item(presentation.getImages().size() - 1);
 
         IImage image2 = presentation.getImages().addImage(Files.readAllBytes(Paths.get("YOUR_DOCUMENT_DIRECTORY/Tulips.jpg")));
         IPPImage imgx2 = presentation.getImages().get_Item(presentation.getImages().size() - 1);
 
-        // Fügen Sie Datenpunkte mit Bildern als Markierungen hinzu
+        // Add data points with images as markers
         IChartSeries series = chart.getChartData().getSeries().get_Item(0);
         
         series.getDataPoints().addDataPointForLineSeries(fact.getCell(defaultWorksheetIndex, 1, 1, (double) 4.5))
@@ -181,8 +194,8 @@ public class AddImageMarkers {
 }
 ```
 
-### Diagrammreihenmarkierung konfigurieren und Präsentation speichern
-Zum Schluss passen wir die Markierungsgröße für eine bessere Sichtbarkeit an und speichern unsere Präsentation:
+### Schritt 4: Markierungsgröße konfigurieren und die Präsentation speichern
+Wir passen den Markierungsstil für bessere Sichtbarkeit an und schreiben die endgültige PPTX‑Datei.
 
 ```java
 import com.aspose.slides.*;
@@ -204,7 +217,7 @@ public class ConfigureAndSavePresentation {
             chart.getType()
         );
 
-        // Bilder laden und als Markierungen hinzufügen (Beispiel mit Platzhalterpfaden)
+        // Load and add images as markers (example using placeholder paths)
         IImage image1 = presentation.getImages().addImage(Files.readAllBytes(Paths.get("YOUR_DOCUMENT_DIRECTORY/aspose-logo.jpg")));
         IPPImage imgx1 = presentation.getImages().get_Item(presentation.getImages().size() - 1);
 
@@ -214,16 +227,46 @@ public class ConfigureAndSavePresentation {
             .getMarker().getFormat().getFill().setFillType(FillType.Picture)
             .getPictureFillFormat().getPicture().setImage(imgx1);
 
-        series.getMarkerStyleType() = MarkerStyleType.Circle;
-        series.getMarkerSize() = 10;
+        // Adjust marker style for the whole series
+        series.setMarkerStyleType(MarkerStyleType.Circle);
+        series.setMarkerSize(10);
 
+        // Save the presentation
         presentation.save("Output.pptx", SaveFormat.Pptx);
     }
 }
 ```
 
-## Abschluss
-In dieser Anleitung erfahren Sie, wie Sie Ihre Diagramme in Aspose.Slides für Java durch Hinzufügen benutzerdefinierter Bildmarkierungen verbessern. Dieser Ansatz kann die Attraktivität und Übersichtlichkeit Ihrer Präsentationen deutlich steigern.
+## Häufige Probleme und Fehlersuche
+- **FileNotFoundException** – Stellen Sie sicher, dass die Bildpfade (`YOUR_DOCUMENT_DIRECTORY/...`) korrekt sind und die Dateien existieren.  
+- **LicenseException** – Stellen Sie sicher, dass Sie eine gültige Aspose‑Lizenz gesetzt haben, bevor Sie in der Produktion eine API aufrufen.  
+- **Markierung nicht sichtbar** – Erhöhen Sie `setMarkerSize` oder verwenden Sie hochauflösendere Bilder für eine klarere Darstellung.
+
+## Häufig gestellte Fragen
+
+**F: Kann ich PNG‑Bilder anstelle von JPEG für Markierungen verwenden?**  
+A: Ja, jedes von Aspose.Slides unterstützte Bildformat (PNG, JPEG, BMP, GIF) funktioniert als Markierung.
+
+**F: Benötige ich eine Lizenz für die Maven/Gradle‑Pakete?**  
+A: Eine temporäre Lizenz reicht für Entwicklung und Tests aus; für die kommerzielle Verteilung ist eine Voll‑Lizenz erforderlich.
+
+**F: Ist es möglich, jedem Datenpunkt in derselben Serie ein unterschiedliches Bild zuzuweisen?**  
+A: Absolut. Im Beispiel `AddImageMarkers` wechseln wir zwischen zwei Bildern, aber Sie können für jeden Punkt ein einzigartiges Bild laden.
+
+**F: Wie wirkt sich die `aspose slides maven dependency` auf die Projektgröße aus?**  
+A: Das Maven‑Paket enthält nur die notwendigen Binärdateien für die ausgewählte JDK‑Version, wodurch der Footprint angemessen bleibt. Sie können auch die **no‑dependencies**‑Version verwenden, wenn die Größe ein Problem darstellt.
+
+**F: Welche Java‑Versionen werden unterstützt?**  
+A: Aspose.Slides for Java unterstützt JDK 8 bis JDK 21. Das Beispiel verwendet JDK 16, Sie können den Klassifizierer jedoch entsprechend anpassen.
+
+## Fazit
+Durch Befolgen dieser Anleitung wissen Sie nun, **wie man Aspose** verwendet, um Diagramme mit benutzerdefinierten Bildmarkierungen zu bereichern, wie man die **Aspose Slides Maven‑Abhängigkeit** konfiguriert und wie man **Bilder zu Diagramm‑Serien** hinzufügt, um ein poliertes, professionelles Aussehen zu erzielen. Experimentieren Sie mit verschiedenen Symbolen, Größen und Diagrammtypen, um Präsentationen zu erstellen, die wirklich herausstechen.
+
+---
+
+**Zuletzt aktualisiert:** 2026-01-11  
+**Getestet mit:** Aspose.Slides for Java 25.4 (jdk16)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

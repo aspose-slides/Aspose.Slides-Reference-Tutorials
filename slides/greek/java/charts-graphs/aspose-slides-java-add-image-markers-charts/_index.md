@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-17"
-"description": "Μάθετε πώς να βελτιώσετε τα γραφήματά σας στο Aspose.Slides για Java προσθέτοντας προσαρμοσμένους δείκτες εικόνας. Ενισχύστε την αλληλεπίδραση με οπτικά ξεχωριστές παρουσιάσεις."
-"title": "Master Aspose.Slides Java&#58; Προσθήκη δεικτών εικόνας σε γραφήματα"
-"url": "/el/java/charts-graphs/aspose-slides-java-add-image-markers-charts/"
-"weight": 1
+date: '2026-01-11'
+description: Μάθετε πώς να χρησιμοποιείτε το Aspose Slides για Java, προσθέστε δείκτες
+  εικόνας σε γραφήματα και διαμορφώστε την εξάρτηση Maven του Aspose Slides για προσαρμοσμένα
+  οπτικά στοιχεία γραφημάτων.
+keywords:
+- Aspose.Slides for Java
+- image markers in charts
+- Java presentation enhancements
+title: 'Πώς να χρησιμοποιήσετε το Aspose Slides Java - Προσθήκη δεικτών εικόνας σε
+  διαγράμματα'
+url: /el/java/charts-graphs/aspose-slides-java-add-image-markers-charts/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,32 +18,39 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Εξοικείωση με το Aspose.Slides Java: Προσθήκη Δεικτών Εικόνας σε Γραφήματα
+# Πώς να χρησιμοποιήσετε το Aspose Slides Java: Προσθήκη Δεικτών Εικόνας σε Διαγράμματα
 
-## Εισαγωγή
-Η δημιουργία οπτικά ελκυστικών παρουσιάσεων είναι το κλειδί για την αποτελεσματική επικοινωνία και τα γραφήματα αποτελούν ένα ισχυρό εργαλείο για την περιεκτική μεταφορά σύνθετων δεδομένων. Οι τυπικοί δείκτες γραφημάτων μπορεί μερικές φορές να μην είναι σε θέση να κάνουν τα δεδομένα σας να ξεχωρίζουν. Με το Aspose.Slides για Java, μπορείτε να βελτιώσετε τα γραφήματά σας προσθέτοντας προσαρμοσμένες εικόνες ως δείκτες, καθιστώντας τα πιο ελκυστικά και ενημερωτικά.
+## Bevezetés
+Δημιουργία οπτικά ελκυστικών παρουσιάσεων είναι δκλι αποτελεσματική επικοινωνία, και τα διαγράμματα είν ισχυρό εργαλείο για τη μετάδοση σύνθετων δεδομένων συνοπτικά. Όταν αναρωτιέστε **πώς να χρησιμοποιήσετε το Aspose** γιακετν διαγράμματα σας να ξεχωρίζουν, οι προσαρμοσμένοί δεει εικόνας είναι η απάντηση. Οι τυπικοί δείκτες μπορεί να φαίνονται γενικοί, αεμικοί, αελάκοί, αλλάκοί μπορείτε να τους αντικαταστήσετε με οποιαδήποτε εικόνα—κάνοντας κάθε σημείο δεδομένων άμεσα αναγνωρίσιμο.
 
-Σε αυτό το σεμινάριο, θα εξερευνήσουμε πώς να ενσωματώσετε δείκτες εικόνας στα γραφήματά σας χρησιμοποιώντας τη βιβλιοθήκη Aspose.Slides σε Java. Κατακτώντας αυτές τις τεχνικές, θα είστε σε θέση να δημιουργήσετε παρουσιάσεις που τραβούν την προσοχή με τα μοναδικά οπτικά τους στοιχεία.
+Σε αυτό το bemutató, θα περάσουμε από όλη τη διαδικασία πρήοσθρήοσ δεικτών εικόνας σε ένα γράφημα γραμμής, από**Aτη ρύθμη τη ρύθμμ függőség** μέχρι τη φόρτωση εικόνων και την εφαρμογή τους σε σημεία δεδομένων. További információ να **προσθέσετε εικόνες σε σειρά διαγράμματος**, και θαι θα έτοιμο προς εκτέλεση δείγμα κώδικα.
 
-**Τι θα μάθετε:**
-- Πώς να ρυθμίσετε το Aspose.Slides για Java
-- Δημιουργία μιας βασικής παρουσίασης και ενός γραφήματος
-- Προσθήκη δεικτών εικόνας σε σημεία δεδομένων γραφήματος
-- Ρύθμιση παραμέτρων δεικτών για βέλτιστη οπτικοποίηση
+**Τι Θα Μάθετε**
+- Πώς να ρυθμίσετε το Aspose.Slides for Java (συμπεριλαμβανομένων Maven/Gradle)
+- Δημιουργία μιας βασικής παρουσίασης και διαγράμμας
+- Προσθήκη δεικτών εικόνας σε σημεία δεδομένων του διαγράμματος
+- Διαμόρφωση μεγέθους και στυλ δείκτη για βέλτιστη αππστη
 
-Είστε έτοιμοι να ανεβάσετε τα γραφήματά σας; Ας εμβαθύνουμε στις προϋποθέσεις πριν ξεκινήσουμε!
+Έτοιμοι να βελτιώσετε τα διαγράμματά σας; Ας εμβαθύνουμε στις προαπαιτήσεις πριν ξεκινήσουμε!
 
-### Προαπαιτούμενα
-Για να ακολουθήσετε αυτό το σεμινάριο, θα χρειαστείτε:
-1. **Aspose.Slides για τη βιβλιοθήκη Java**Αποκτήστε το μέσω των εξαρτήσεων Maven ή Gradle ή κατεβάζοντάς το απευθείας από το Aspose.
-2. **Περιβάλλον Ανάπτυξης Java**Βεβαιωθείτε ότι το JDK 16 είναι εγκατεστημένο στον υπολογιστή σας.
-3. **Βασικές γνώσεις προγραμματισμού Java**Η εξοικείωση με τη σύνταξη και τις έννοιες της Java θα είναι ωφέλιμη.
+### Gyors válaszok
+- **Ποιος είναι ο κύριος σκοπός;** Προσθήκη προσνωμοσμΎαρμοσμέα εικόνας σε σημεία δεδομένων διαγράμματος.
+- **Ποια βιβλιοθήκη απαιτείται;** Aspose.Slides for Java (Maven/Gradle).
+- **Χρειάζομαι άδεια;** Μια προσωρινή άδεια λειτουργεί α αξιολόγηση· απαιτείται πλήρης άδεια για παραγωγή.
+- **Ποια έκδοση Java υποστηρίζεται;** JDK16 ή νεότερη.
+- **Μπορώ να χρησιμοποιήσω οποιαδήποτε μορφή εικόναας,**P,PEGΝα΂;** κ.λπ., εφόσον το αρχείο είναι προσβάσιμο.
 
-## Ρύθμιση του Aspose.Slides για Java
-Πριν εμβαθύνουμε στον κώδικα, ας ρυθμίσουμε το περιβάλλον ανάπτυξής μας με τις απαραίτητες βιβλιοθήκες.
+### Előfeltételek
+Az oktatóanyag követéséhez a következőkre lesz szüksége:
+1. **Aspose.Slides for Java Library** – αποκτήστε μέσω Maven, Gradle ή άμεσης λήψης.
+2. **Java fejlesztői környezet** – εγκατεστημένο JDK16 ή νεότερο.
+3. **Βασικές Γνώσεις Προγραμματισμού Java** – η εξοικείωση ξείωση και τις έννοιες της Java θα είναι χρήσιμη.
 
-### Εγκατάσταση Maven
-Προσθέστε την ακόλουθη εξάρτηση στο `pom.xml` αρχείο:
+## Τι είναι η εξάρτηση Aspose Slides Maven;
+Η εξάρτηση Maven αντλεί τα σωστά binárisok για την έκδοση Java σας. Η προσθήκη της στο `pom.xml` εξασφαλίζει ότι η βιβλιοθαήκη διαθέσιμη κατά τη διάρκεια της μεταγλώττισης και σης και της και της μεταγλώττισης και της
+
+### Maven telepítés
+Προσθέστε την ακόλουθη εξάρτηση στο αρχείο `pom.xml` σας:
 
 ```xml
 <dependency>
@@ -47,23 +61,23 @@
 </dependency>
 ```
 
-### Εγκατάσταση Gradle
-Συμπεριλάβετε αυτό στο δικό σας `build.gradle` αρχείο:
+### Gradle telepítés
+Συμπεριλάβετε αυτή τη γραμμή στο αρχείο `build.gradle` σας:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Άμεση Λήψη
-Εναλλακτικά, κατεβάστε την τελευταία έκδοση από [Aspose.Slides για εκδόσεις Java](https://releases.aspose.com/slides/java/).
+### Közvetlen letöltés
+Εναλλακτικά, κατεβάστε την τελευταία έκδοση από τκο [Asdes for Java. kiadások](https://releases.aspose.com/slides/java/).
 
-#### Βήματα απόκτησης άδειας χρήσης
-- **Δωρεάν δοκιμή**Ξεκινήστε με μια προσωρινή άδεια χρήσης για να εξερευνήσετε τις λειτουργίες του Aspose.Slides.
-- **Προσωρινή Άδεια**: Αποκτήστε πρόσβαση σε προηγμένες λειτουργίες αποκτώντας μια προσωρινή άδεια χρήσης.
-- **Αγορά**Για μακροχρόνια χρήση, σκεφτείτε να αγοράσετε μια πλήρη άδεια χρήσης.
+#### Licencbeszerzés lépései
+- **Δωρεάν Δοκιμή** – ξεκινήστε με μια προσωρινή άδεια γμή** εξερευνήσετε τις δυνατότητες.
+- **Προσωρινή Άδεια** – ξεκλειδώστε προηγμένες δυνατετηττΌτη δοκιμή.
+- **Αγορά** – αποκτήστε πλήρη άδεια για εμπορικά έργα.
 
-### Βασική Αρχικοποίηση και Ρύθμιση
-Αρχικοποίηση του `Presentation` αντικείμενο για να ξεκινήσει η δημιουργία διαφανειών:
+## Alapvető inicializálás és beállítás
+Πρώτα, δημιουργήστε ένα αντικείμενο `Presentation`. Αυτό το αντικείμενο αντιπροσωπεύει ολόκληρο το αρχείο PowerPoint και θα κρατήσει το διάγραμμά μας.
 
 ```java
 import com.aspose.slides.*;
@@ -71,29 +85,29 @@ import com.aspose.slides.*;
 public class InitializeAspose {
     public static void main(String[] args) {
         Presentation presentation = new Presentation();
-        // Ο κώδικά σας για την προσθήκη διαφανειών και γραφημάτων βρίσκεται εδώ.
+        // Your code for adding slides and charts goes here.
     }
 }
 ```
 
-## Οδηγός Εφαρμογής
-Τώρα, ας αναλύσουμε τη διαδικασία προσθήκης δεικτών εικόνας στη σειρά γραφημάτων σας.
+## Megvalósítási útmutató
+Παρακάτω είναι ένας βήμα‑βήμα οδηγός για την προσΎδήιτοσθήή εικόνας σε ένα διάγραμμα. Κάθε μπλοκ κώδικα συνοδεύεται από εξήγηση ώστε να κκιε να κοδεύεται από εξήγηση **γιατί** κάθε γραμμή είναι σημαντική.
 
-### Δημιουργία νέας παρουσίασης με γράφημα
-Αρχικά, χρειαζόμαστε μια διαφάνεια όπου μπορούμε να προσθέσουμε το γράφημά μας:
+### 1. lépés: Hozzon létre egy új prezentációt diagrammal
+Προσθέτουμε ένα διάγραμμα γραμμής με προεπιλεγμεπιλεγμένος στην πρώτη διαφάνεια.
 
 ```java
 import com.aspose.slides.*;
 
 public class CreatePresentation {
     public static void main(String[] args) {
-        // Αρχικοποίηση του αντικειμένου παρουσίασης
+        // Initialize the Presentation object
         Presentation presentation = new Presentation();
 
-        // Αποκτήστε την πρώτη διαφάνεια από τη συλλογή
+        // Get the first slide from the collection
         ISlide slide = presentation.getSlides().get_Item(0);
 
-        // Προσθήκη προεπιλεγμένου γραφήματος γραμμών με δείκτες στη διαφάνεια
+        // Add a default line chart with markers to the slide
         IChart chart = slide.getShapes().addChart(
             ChartType.LineWithMarkers, 0, 0, 400, 400
         );
@@ -101,8 +115,8 @@ public class CreatePresentation {
 }
 ```
 
-### Πρόσβαση και ρύθμιση παραμέτρων δεδομένων γραφήματος
-Στη συνέχεια, θα έχουμε πρόσβαση στο φύλλο εργασίας δεδομένων του γραφήματός μας για να διαχειριστούμε σειρές:
+### 2. lépés: A diagramadatok elérése és konfigurálása
+Καθαρίζουμε τυχόν προεπιλεγμένες σειρές και προσθι προσθι δικές μας, προετοιμάζοντας το φύλλο εργασμοοσ γι΁παρς σημεία δεδομένων.
 
 ```java
 import com.aspose.slides.*;
@@ -119,7 +133,7 @@ public class ManageChartData {
         int defaultWorksheetIndex = 0;
         IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
-        // Διαγραφή υπάρχουσας σειράς και προσθήκη νέας
+        // Clear existing series and add a new one
         chart.getChartData().getSeries().clear();
         chart.getChartData().getSeries().add(
             fact.getCell(defaultWorksheetIndex, 1, 1, "Series 1"), 
@@ -129,8 +143,8 @@ public class ManageChartData {
 }
 ```
 
-### Προσθήκη δεικτών εικόνας σε σημεία δεδομένων γραφήματος
-Τώρα για το συναρπαστικό κομμάτι—προσθήκη εικόνων ως δείκτες:
+### 3. lépés: Képjelzők hozzáadása a diagram adatpontjaihoz
+Εδώ δείχνουμε **πώς να προσθέσετε δείκτες** χρησιμοΎμοε εικόνες. Αντικαταστήστε τις διαδρομές helyőrző με την πραγματική θέσ εικόνων σας.
 
 ```java
 import com.aspose.slides.*;
@@ -152,14 +166,14 @@ public class AddImageMarkers {
             chart.getType()
         );
 
-        // Φόρτωση και προσθήκη εικόνων ως δείκτες
+        // Load and add images as markers
         IImage image1 = presentation.getImages().addImage(Files.readAllBytes(Paths.get("YOUR_DOCUMENT_DIRECTORY/aspose-logo.jpg")));
         IPPImage imgx1 = presentation.getImages().get_Item(presentation.getImages().size() - 1);
 
         IImage image2 = presentation.getImages().addImage(Files.readAllBytes(Paths.get("YOUR_DOCUMENT_DIRECTORY/Tulips.jpg")));
         IPPImage imgx2 = presentation.getImages().get_Item(presentation.getImages().size() - 1);
 
-        // Προσθήκη σημείων δεδομένων με εικόνες ως δείκτες
+        // Add data points with images as markers
         IChartSeries series = chart.getChartData().getSeries().get_Item(0);
         
         series.getDataPoints().addDataPointForLineSeries(fact.getCell(defaultWorksheetIndex, 1, 1, (double) 4.5))
@@ -181,8 +195,8 @@ public class AddImageMarkers {
 }
 ```
 
-### Ρύθμιση παραμέτρων δείκτη σειράς γραφημάτων και αποθήκευση παρουσίασης
-Τέλος, ας προσαρμόσουμε το μέγεθος του δείκτη για καλύτερη ορατότητα και ας αποθηκεύσουμε την παρουσίασή μας:
+### 4. lépés: Jelölő méretének konfigurálása és a prezentáció mentése 
+Ρυθμίζουμε το στυλ του δείκτη για καλύτερη ορατότητα και γράφουμε το τελικό αρχείο PPTX.
 
 ```java
 import com.aspose.slides.*;
@@ -204,7 +218,7 @@ public class ConfigureAndSavePresentation {
             chart.getType()
         );
 
-        // Φόρτωση και προσθήκη εικόνων ως δείκτες (παράδειγμα χρησιμοποιώντας διαδρομές κράτησης θέσης)
+        // Load and add images as markers (example using placeholder paths)
         IImage image1 = presentation.getImages().addImage(Files.readAllBytes(Paths.get("YOUR_DOCUMENT_DIRECTORY/aspose-logo.jpg")));
         IPPImage imgx1 = presentation.getImages().get_Item(presentation.getImages().size() - 1);
 
@@ -214,16 +228,46 @@ public class ConfigureAndSavePresentation {
             .getMarker().getFormat().getFill().setFillType(FillType.Picture)
             .getPictureFillFormat().getPicture().setImage(imgx1);
 
-        series.getMarkerStyleType() = MarkerStyleType.Circle;
-        series.getMarkerSize() = 10;
+        // Adjust marker style for the whole series
+        series.setMarkerStyleType(MarkerStyleType.Circle);
+        series.setMarkerSize(10);
 
+        // Save the presentation
         presentation.save("Output.pptx", SaveFormat.Pptx);
     }
 }
 ```
 
-## Σύναψη
-Ακολουθώντας αυτόν τον οδηγό, μάθατε πώς να βελτιώσετε τα γραφήματά σας στο Aspose.Slides για Java προσθέτοντας προσαρμοσμένους δείκτες εικόνας. Αυτή η προσέγγιση μπορεί να ενισχύσει σημαντικά την αλληλεπίδραση και τη σαφήνεια των παρουσιάσεών σας.
+## Gyakori problémák és hibaelhárítás
+- **FileNotFoundException** – Επαληθεύστε ότι οι διαδρομές εικόνας (`YOUR_DOCUMENT_DIRECTORY/...ίνα)ε σωστές και τα αρχεία υπάρχουν.
+- **LicenseException** – Βεβαιωθείτε ότι έχετε ορίσει μια έγκυρη άδεposeινρη άδεposeια A καλέσετε οποιοδήποτε API στην παραγωγή.
+- **A jelölő nem látható** – Αυξήστε το `setMarkerSize` ή χρησιμοποιήστε εικόνες υψηεόες υψηλό ανάλυσης για πιο καθαρή εμφάνιση.
+
+## Gyakran Ismételt Kérdések
+
+**Ε: Μπορώ να χρησιμοποιήσω εικόνες PNG αντί για**α JPEG γιε δε;
+Α: Ναι, οποιαδήποτε μορφή εικόνας υποστηρίζεται αβ. BMP, GIF) λειτουργεί ως δείκτης.
+
+**Ε: Χρειάζομαι άδεια για τα πακέτα Maven/Gradle;**
+Α: Μια προσωρινή άδεια είναι επαρκής για αμάπτυξι δ΂τυξη κα απαιτείται πλήρης άδεια για εμπορική διανομή.
+
+**Ε: Είναι δυνατόν να προσθέσω διαφορετικές εικόνεάκ΃ες σημείο δεδομένων στην ίδια σειρά;**
+Α: Απόλυτα. Στο παράδειγμα "AddImageMarkers" να φορτώσετε μια μοναδική εικόνα για κάθε σημείο.
+
+**Ε: Πώς η "aspose slides maven dependency" επηρεάζει το μέγεθος του έργου;**
+Α: Το πακέτο Maven περιλαμβάνει μόνο τα απαραίτητα binárisok γιν για επιλεγμένη έκδοση JDK, διατηρώντας το αποτύπωμα λογικό. Μπορείτε επίσης να χρησιμοποιήσετε την έκδοση **no-dependencies** ναν μέγεθος είναι πρόβλημα.
+
+**Ε: Ποιες εκδόσεις Java υποστηρίζονται;**
+Α: Το Aspose.Slides for Java υποστηρίζει JDK8 έως JDK21. αλλά μπορείτε να προσαρμόσετε τον ταξινομητή αναλόγως.
+
+## Következtetés
+Ακολουθώντας αυτόν τον οδηγό, τώρα γνωρίζετε **πώς να χρησιμοποιήσετε το Aspose** για να εμπλουτίσετε τα μιαγγρά προσαρμοσμένους δείκτες εικόνας, πώς να διαμορφώσετε την **Aspose Slides Maven függőség**, και πώς να **προσθέσετε ενικσετε ενικσετε σειρά διαγράμματος** για μια επαγγελματική εμφάνιση. Πειραματιστείτε με διαφορετικά εικονίδια, μεγέθη κ΅τε διαγραμμάτων για να δημιουργήσετε παρουσιμμεις πγμάσεις πον ξεχωρίζουν.
+
+---
+
+**Utolsó frissítés:** 2026-01-11
+**Tesztelve:** Aspose.Slides for Java 25.4 (jdk16)
+**Szerző:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
