@@ -166,18 +166,6 @@ presentation.save(outputDir + "/AnimatingCategoriesElements_out.pptx", SaveForma
 
 **下一步：** 试验不同的 `EffectType` 值（例如 FlyIn、Zoom），并将其与幻灯片切换效果结合，以获得更丰富的体验。
 
-## 常见问题
-1. **Aspose.Slides for Java 是什么？**  
-   - 它是一个强大的库，可用于以编程方式管理 PowerPoint 演示文稿。  
-2. **我可以使用 Aspose.Slides 为 Excel 中的图表添加动画吗？**  
-   - 不能，Aspose.Slides 只针对 PowerPoint 文件；Excel 请使用 Aspose.Cells。  
-3. **有哪些常见的动画效果可用？**  
-   - Fade、Appear、FlyIn、Zoom 等等。  
-4. **在实现动画时如何处理异常？**  
-   - 将代码放在 try‑catch 块中，并记录 `Exception` 详细信息。  
-5. **每张幻灯片的动画数量是否有限制？**  
-   - 没有硬性限制，但过多动画可能影响性能。
-
 ## 常见问答
 
 **问：使用动画功能是否需要付费许可证？**  
@@ -203,14 +191,6 @@ presentation.save(outputDir + "/AnimatingCategoriesElements_out.pptx", SaveForma
 - [申请临时许可证](https://purchase.aspose.com/temporary-license/)
 - [Aspose 支持论坛](https://forum.aspose.com/c/slides/11)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最后更新：** 2026-01-11  
@@ -218,3 +198,11 @@ presentation.save(outputDir + "/AnimatingCategoriesElements_out.pptx", SaveForma
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

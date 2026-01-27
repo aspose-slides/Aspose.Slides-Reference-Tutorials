@@ -169,18 +169,6 @@ presentation.save(outputDir + "/AnimatingCategoriesElements_out.pptx", SaveForma
 
 **الخطوات التالية:** جرّب قيم `EffectType` مختلفة (مثل FlyIn, Zoom) ودمجها مع انتقالات الشرائح للحصول على تجربة أغنى.
 
-## قسم الأسئلة المتكررة
-1. **ما هو Aspose.Slides for Java؟**  
-   - إنها مكتبة قوية لإدارة عروض PowerPoint برمجياً.  
-2. **هل يمكنني تحريك المخططات في Excel باستخدام Aspose.Slides؟**  
-   - لا، Aspose.Slides تستهدف ملفات PowerPoint؛ استخدم Aspose.Cells لـ Excel.  
-3. **ما هي بعض تأثيرات التحريك الشائعة المتاحة؟**  
-   - تلاشي، ظهور، طيران داخل، تكبير، والعديد غيرها.  
-4. **كيف أتعامل مع الاستثناءات أثناء تنفيذ التحريك؟**  
-   - غلف الشيفرة بكتل try‑catch وسجّل تفاصيل `Exception`.  
-5. **هل هناك حد لعدد التحريكات في الشريحة؟**  
-   - لا يوجد حد صريح، لكن التحريكات المفرطة قد تؤثر على الأداء.
-
 ## الأسئلة المتكررة
 
 **س: هل أحتاج إلى ترخيص مدفوع لاستخدام ميزات التحريك؟**  
@@ -206,14 +194,6 @@ presentation.save(outputDir + "/AnimatingCategoriesElements_out.pptx", SaveForma
 - [Request Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **آخر تحديث:** 2026-01-11  
@@ -221,3 +201,11 @@ presentation.save(outputDir + "/AnimatingCategoriesElements_out.pptx", SaveForma
 **المؤلف:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

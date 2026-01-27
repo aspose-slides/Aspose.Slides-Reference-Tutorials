@@ -170,18 +170,6 @@ Animar las categorías de los gráficos en PowerPoint usando Aspose.Slides para 
 
 **Próximos pasos:** Experimenta con diferentes valores de `EffectType` (p. ej., FlyIn, Zoom) y combínalos con transiciones de diapositivas para una experiencia aún más rica.
 
-## Sección de preguntas frecuentes
-1. **¿Qué es Aspose.Slides para Java?**  
-   - Es una biblioteca potente para gestionar presentaciones de PowerPoint de forma programática.  
-2. **¿Puedo animar gráficos en Excel usando Aspose.Slides?**  
-   - No, Aspose.Slides se dirige a archivos de PowerPoint; usa Aspose.Cells para Excel.  
-3. **¿Cuáles son algunos efectos de animación comunes disponibles?**  
-   - Fade, Appear, FlyIn, Zoom y muchos más.  
-4. **¿Cómo manejo excepciones durante la implementación de animaciones?**  
-   - Envuelve tu código en bloques try‑catch y registra los detalles de `Exception`.  
-5. **¿Existe un límite en la cantidad de animaciones por diapositiva?**  
-   - No hay un límite estricto, pero demasiadas animaciones pueden afectar el rendimiento.  
-
 ## Preguntas frecuentes
 
 **P: ¿Necesito una licencia de pago para usar las funciones de animación?**  
@@ -207,14 +195,6 @@ Animar las categorías de los gráficos en PowerPoint usando Aspose.Slides para 
 - [Request Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última actualización:** 2026-01-11  
@@ -222,3 +202,11 @@ Animar las categorías de los gráficos en PowerPoint usando Aspose.Slides para 
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

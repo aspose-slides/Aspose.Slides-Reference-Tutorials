@@ -7,7 +7,7 @@ keywords:
 - Aspose.Slides for Java
 - image markers in charts
 - Java presentation enhancements
-title: 'Como usar Aspose Slides Java: adicionar marcadores de imagem aos gráficos'
+title: 'Como usar Aspose Slides Java - adicionar marcadores de imagem aos gráficos'
 url: /pt/java/charts-graphs/aspose-slides-java-add-image-markers-charts/
 weight: 1
 ---
@@ -19,36 +19,36 @@ weight: 1
 {{< blocks/products/pf/tutorial-page-section >}}
 # Como Usar Aspose Slides Java: Adicionar Marcadores de Imagem a Gráficos
 
-## Introduction
-Criar apresentações visualmente atraentes é fundamental para uma comunicação eficaz, e os gráficos são uma ferramenta poderosa para transmitir dados complexos de forma concisa. Quando você se pergunta **como usar Aspose** para fazer seus gráficos se destacarem, os marcadores de imagem personalizados são a resposta. Marcadores padrão podem parecer genéricos, mas com Aspose.Slides for Java você pode substituí‑los por qualquer imagem — tornando cada ponto de dados instantaneamente reconhecível.
+## Introdução
+Criar apresentações visualmente visíveis é fundamental para uma comunicação eficaz, e os gráficos são uma ferramenta poderosa para transmitir dados complexos de forma concisa. Quando você se pergunta **como usar Aspose** para fazer seus gráficos se destacarem, os marcadores de imagem personalizados são uma resposta. Marcadores padrão podem parecer genéricos, mas com Aspose.Slides for Java você pode substituí-los por qualquer imagem — tornando cada ponto de dados instantaneamente reconhecível.
 
-Neste tutorial, percorreremos todo o processo de adição de marcadores de imagem a um gráfico de linhas, desde a configuração da **Aspose Slides Maven dependency** até o carregamento das imagens e sua aplicação aos pontos de dados. Ao final, você estará confortável com **como adicionar marcadores**, como **adicionar imagens a séries de gráficos**, e terá um exemplo de código pronto‑para‑executar.
+Neste tutorial, percorreremos todo o processo de adição de marcadores de imagem a um gráfico de linhas, desde a configuração da **Aspose Slides Maven dependency** até o carregamento das imagens e sua aplicação aos pontos de dados. Ao final, você ficará confortável com **como adicionar marcadores**, como **adicionar imagens a séries de gráficos**, e terá um exemplo de código pronto‑para‑executar.
 
 **O que você aprenderá**
-- Como configurar Aspose.Slides for Java (incluindo Maven/Gradle)
+- Como configurar Aspose.Slides para Java (incluindo Maven/Gradle)
 - Criar uma apresentação básica e um gráfico
 - Adicionar marcadores de imagem aos pontos de dados do gráfico
-- Configurar o tamanho e o estilo dos marcadores para visualização ideal
+- Configure o tamanho e o estilo dos marcadores para visualização ideal
 
 Pronto para elevar seus gráficos? Vamos mergulhar nos pré‑requisitos antes de começar!
 
-### Quick Answers
-- **Qual é o objetivo principal?** Adicionar marcadores de imagem personalizados aos pontos de dados do gráfico.  
-- **Qual biblioteca é necessária?** Aspose.Slides for Java (Maven/Gradle).  
-- **Preciso de uma licença?** Uma licença temporária funciona para avaliação; uma licença completa é necessária para produção.  
-- **Qual versão do Java é suportada?** JDK 16 ou superior.  
+### Respostas rápidas
+- **Qual é o objetivo principal?** Adicionar marcadores de imagem personalizados aos pontos de dados do gráfico.
+- **Qual biblioteca é necessária?** Aspose.Slides para Java (Maven/Gradle).
+- **Preciso de uma licença?** Uma licença temporária funciona para avaliação; uma licença completa é necessária para produção.
+- **Qual versão do Java é suportada?** JDK16 ou superior.
 - **Posso usar qualquer formato de imagem?** Sim — PNG, JPEG, BMP, etc., desde que o arquivo esteja acessível.
 
-### Prerequisites
-Para seguir este tutorial, você precisará:
-1. **Aspose.Slides for Java Library** – obtenha via Maven, Gradle ou download direto.  
-2. **Ambiente de Desenvolvimento Java** – JDK 16 ou mais recente instalado.  
+### Pré-requisitos
+Para seguir este tutorial, você precisa:
+1. **Aspose.Slides for Java Library** – seguido via Maven, Gradle ou download direto.
+2. **Ambiente de Desenvolvimento Java** – JDK16 ou mais recente instalado.
 3. **Conhecimento Básico de Programação Java** – familiaridade com a sintaxe e conceitos do Java será útil.
 
-## What is the Aspose Slides Maven Dependency?
-A dependência Maven traz os binários corretos para sua versão do Java. Adicioná‑la ao seu `pom.xml` garante que a biblioteca esteja disponível em tempo de compilação e execução.
+## O que é a dependência do Aspose Slides Maven?
+A dependência do Maven traz os binários corretos para sua versão do Java. A adição ao seu `pom.xml` garante que a biblioteca esteja disponível em tempo de construção e execução.
 
-### Maven Installation
+### Instalação do Maven
 Adicione a seguinte dependência ao seu arquivo `pom.xml`:
 
 ```xml
@@ -60,22 +60,22 @@ Adicione a seguinte dependência ao seu arquivo `pom.xml`:
 </dependency>
 ```
 
-### Gradle Installation
-Inclua esta linha no seu arquivo `build.gradle`:
+### Instalação do Gradle
+Inclua esta linha em seu arquivo `build.gradle`:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Direct Download
+### Download direto
 Alternativamente, faça o download da versão mais recente em [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-#### License Acquisition Steps
-- **Free Trial** – comece com uma licença temporária para explorar os recursos.  
-- **Temporary License** – desbloqueie funcionalidades avançadas durante os testes.  
-- **Purchase** – obtenha uma licença completa para projetos comerciais.
+#### Etapas de aquisição de licença
+- **Teste Gratuito** – comece com uma licença temporária para explorar os recursos.
+- **Licença Temporária** – desbloqueie funcionalidades avançadas durante os testes.
+- **Compra** – Obtenha uma licença completa para projetos comerciais.
 
-## Basic Initialization and Setup
+## Inicialização e configuração básicas
 Primeiro, crie um objeto `Presentation`. Este objeto representa o arquivo PowerPoint completo e conterá nosso gráfico.
 
 ```java
@@ -89,10 +89,10 @@ public class InitializeAspose {
 }
 ```
 
-## Implementation Guide
+## Guia de implementação
 A seguir, um passo‑a‑passo de como adicionar marcadores de imagem a um gráfico. Cada bloco de código é acompanhado por uma explicação para que você entenda **por que** cada linha é importante.
 
-### Step 1: Create a New Presentation with a Chart
+### Etapa 1: Crie uma nova apresentação com um gráfico
 Adicionamos um gráfico de linhas com marcadores padrão ao primeiro slide.
 
 ```java
@@ -114,8 +114,9 @@ public class CreatePresentation {
 }
 ```
 
-### Step 2: Access and Configure Chart Data
-Limpamos qualquer série padrão e adicionamos nossa própria série, preparando a planilha para pontos de dados personalizados.
+
+### Etapa 2: acessar e configurar dados do gráfico
+Limpamos qualquer série padrão e adicionamos nossa própria série, preparando uma planilha para pontos de dados personalizados.
 
 ```java
 import com.aspose.slides.*;
@@ -142,8 +143,8 @@ public class ManageChartData {
 }
 ```
 
-### Step 3: Add Image Markers to Chart Data Points  
-Aqui demonstramos **como adicionar marcadores** usando imagens. Substitua os caminhos de espaço reservado pela localização real de suas imagens.
+### Etapa 3: adicionar marcadores de imagem aos pontos de dados do gráfico
+Aqui demonstramos **como adicionar marcadores** usando imagens. Substitua os caminhos do espaço reservado pela localização real de suas imagens.
 
 ```java
 import com.aspose.slides.*;
@@ -194,7 +195,7 @@ public class AddImageMarkers {
 }
 ```
 
-### Step 4: Configure Marker Size and Save the Presentation  
+### Etapa 4: Configurar o tamanho do marcador e salvar a apresentação 
 Ajustamos o estilo do marcador para melhor visibilidade e gravamos o arquivo PPTX final.
 
 ```java
@@ -237,36 +238,36 @@ public class ConfigureAndSavePresentation {
 }
 ```
 
-## Common Issues and Troubleshooting
-- **FileNotFoundException** – Verifique se os caminhos das imagens (`YOUR_DOCUMENT_DIRECTORY/...`) estão corretos e os arquivos existem.  
-- **LicenseException** – Certifique‑se de ter definido uma licença Aspose válida antes de chamar qualquer API em produção.  
+## Problemas comuns e solução de problemas
+- **FileNotFoundException** – Verifique se os caminhos das imagens (`YOUR_DOCUMENT_DIRECTORY/...`) estão corretos e os arquivos existem.
+- **LicenseException** – Certifique-se de ter definido uma licença Aspose válida antes de chamar qualquer API em produção.
 - **Marker Not Visible** – Aumente `setMarkerSize` ou use imagens de maior resolução para exibição mais clara.
 
-## Frequently Asked Questions
+## Perguntas frequentes
 
-**Q: Posso usar imagens PNG em vez de JPEG para os marcadores?**  
-A: Sim, qualquer formato de imagem suportado pelo Aspose.Slides (PNG, JPEG, BMP, GIF) funciona como marcador.
+**P: Posso usar imagens PNG em vez de JPEG para os marcadores?**
+R: Sim, qualquer formato de imagem suportado pelo Aspose.Slides (PNG, JPEG, BMP, GIF) funciona como marcador.
 
-**Q: Preciso de uma licença para os pacotes Maven/Gradle?**  
-A: Uma licença temporária é suficiente para desenvolvimento e testes; uma licença completa é necessária para distribuição comercial.
+**P: Preciso de uma licença para os pacotes Maven/Gradle?**
+R: Uma licença temporária é suficiente para desenvolvimento e testes; uma licença completa é necessária para distribuição comercial.
 
-**Q: É possível adicionar imagens diferentes a cada ponto de dados na mesma série?**  
-A: Absolutamente. No exemplo `AddImageMarkers` alternamos entre duas imagens, mas você pode carregar uma imagem única para cada ponto.
+**P: É possível adicionar imagens diferentes a cada ponto de dados na mesma série?**
+R: Absolutamente. No exemplo `AddImageMarkers` alternamos entre duas imagens, mas você pode carregar uma imagem única para cada ponto.
 
-**Q: Como a `aspose slides maven dependency` afeta o tamanho do projeto?**  
-A: O pacote Maven inclui apenas os binários necessários para a versão do JDK selecionada, mantendo a pegada razoável. Você também pode usar a versão **no‑dependencies** se o tamanho for uma preocupação.
+**P: Como a `aspose slides maven dependency` afeta o tamanho do projeto?**
+R: O pacote Maven inclui apenas os binários necessários para a versão do JDK selecionada, mantendo uma pegada razoável. Você também pode usar a versão **no‑dependencies** se o tamanho para uma preocupação.
 
-**Q: Quais versões do Java são suportadas?**  
-A: Aspose.Slides for Java suporta JDK 8 até JDK 21. O exemplo usa JDK 16, mas você pode ajustar o classificador conforme necessário.
+**P: Quais versões do Java são suportadas?**
+R: Aspose.Slides for Java suporta JDK8 até JDK21. O exemplo usa JDK16, mas você pode ajustar ou classificar conforme necessário.
 
-## Conclusion
-Seguindo este guia, você agora sabe **como usar Aspose** para enriquecer gráficos com marcadores de imagem personalizados, como configurar a **Aspose Slides Maven dependency**, e como **adicionar imagens a séries de gráficos** para um visual polido e profissional. Experimente diferentes ícones, tamanhos e tipos de gráfico para criar apresentações que realmente se destaquem.
+## Conclusão
+Seguindo este guia, você agora sabe **como usar Aspose** para enriquecer gráficos com marcadores de imagem personalizados, como configurar a **Aspose Slides Maven dependency**, e como **adicionar imagens a séries de gráficos** para um visual polido e profissional. Experimente diferentes ícones, tamanhos e tipos de gráficos para criar apresentações que realmente se destaquem.
 
 ---
 
-**Last Updated:** 2026-01-11  
-**Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
-**Author:** Aspose  
+**Última atualização:** 11/01/2026
+**Testado com:** Aspose.Slides para Java 25.4 (jdk16)
+**Autor:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

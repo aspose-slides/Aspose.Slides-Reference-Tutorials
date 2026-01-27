@@ -191,23 +191,6 @@ Aspose.Slides を使用した **チャートの作成方法** の実際のユー
 
 さらに詳しく知りたいですか？公式の [Aspose.Slides ドキュメント](https://reference.aspose.com/slides/java/) で高度なスタイリング、データバインディング、エクスポートオプションをご確認ください。
 
-## FAQ セクション
-
-**Q1: Aspose.Slides で異なる種類のチャートを作成できますか？**  
-A1: はい、Aspose.Slides は円グラフ、棒グラフ、折れ線グラフ、エリアグラフ、散布図など多数のチャートタイプをサポートしています。`addChart` を呼び出す際にタイプを指定します。
-
-**Q2: 大規模データセットをチャートで扱うにはどうすればよいですか？**  
-A2: 大規模データセットの場合、データをページングするか、実行時に外部ソース（例：データベース）からロードしてメモリ使用量を抑えることを検討してください。
-
-**Q3: チャートのレイアウトが期待と異なる場合はどうすればよいですか？**  
-A3: レンダリング前に `validateChartLayout()` メソッドを使用してください。スライドのレイアウトに基づいて位置とサイズを修正します。
-
-**Q4: Aspose.Slides でチャートのスタイルをカスタマイズできますか？**  
-A4: もちろんです！チャートのシリーズや書式設定 API を使用して、色、フォント、マーカー、凡例などを変更できます。
-
-**Q5: 既存の Java アプリケーションに Aspose.Slides を統合するには？**  
-A5: Maven/Gradle の依存関係を追加し、前述のようにライブラリを初期化し、プレゼンテーションの生成や変更が必要な場所で API を呼び出すだけです。
-
 ## よくある質問
 
 **Q: Aspose.Slides はすべての OS で動作しますか？**  
@@ -230,6 +213,12 @@ A: スライドインデックスが存在すること（`pres.getSlides().get_I
 - **ドキュメント**: [Aspose.Slides for Java Documentation](https://reference.aspose.com/slides/java/)  
 - **ダウンロード**: [Aspose.Slides for Java Releases](https://releases.aspose.com/slides/java/)
 
+---
+
+**最終更新日:** 2026-01-11  
+**テスト環境:** Aspose.Slides for Java 25.4 (JDK 16)  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -237,9 +226,3 @@ A: スライドインデックスが存在すること（`pres.getSlides().get_I
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2026-01-11  
-**テスト環境:** Aspose.Slides for Java 25.4 (JDK 16)  
-**作者:** Aspose

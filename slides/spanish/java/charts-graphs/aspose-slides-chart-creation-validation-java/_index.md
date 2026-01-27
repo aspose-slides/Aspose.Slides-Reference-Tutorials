@@ -194,23 +194,6 @@ En esta guía cubrimos **cómo crear un gráfico** objetos, agregar un gráfico 
 
 ¿Listo para profundizar? Consulte la documentación oficial de [Aspose.Slides documentation](https://reference.aspose.com/slides/java/) para estilos avanzados, enlace de datos y opciones de exportación.
 
-## Sección de preguntas frecuentes
-
-**Q1: ¿Puedo crear diferentes tipos de gráficos usando Aspose.Slides?**  
-A1: Sí, Aspose.Slides admite gráficos de pastel, barra, línea, área, dispersión y muchos más tipos de gráficos. Especifica el tipo al llamar a `addChart`.
-
-**Q2: ¿Cómo manejo conjuntos de datos grandes en mis gráficos?**  
-A2: Para conjuntos de datos grandes, considere paginar los datos o cargarlos desde una fuente externa (p. ej., una base de datos) en tiempo de ejecución para mantener bajo el uso de memoria.
-
-**Q3: ¿Qué pasa si el diseño de mi gráfico se ve diferente de lo esperado?**  
-A3: Use el método `validateChartLayout()` antes de renderizar; corrige la posición y el tamaño según el diseño de la diapositiva.
-
-**Q4: ¿Es posible personalizar los estilos de los gráficos en Aspose.Slides?**  
-A4: ¡Absolutamente! Puede modificar colores, fuentes, marcadores y leyendas a través de las series del gráfico y las API de formato.
-
-**Q5: ¿Cómo integro Aspose.Slides con mis aplicaciones Java existentes?**  
-A5: Simplemente añada la dependencia Maven/Gradle, inicialice la biblioteca como se mostró anteriormente y llame a la API donde necesite generar o modificar presentaciones.
-
 ## Preguntas frecuentes
 
 **Q: ¿Aspose.Slides funciona en todos los sistemas operativos?**  
@@ -233,6 +216,12 @@ A: Asegúrese de que el índice de diapositiva exista (`pres.getSlides().get_Ite
 - **Documentación**: [Aspose.Slides for Java Documentation](https://reference.aspose.com/slides/java/)  
 - **Descarga**: [Aspose.Slides for Java Releases](https://releases.aspose.com/slides/java/)
 
+---
+
+**Last Updated:** 2026-01-11  
+**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -240,9 +229,3 @@ A: Asegúrese de que el índice de diapositiva exista (`pres.getSlides().get_Ite
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-11  
-**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Author:** Aspose

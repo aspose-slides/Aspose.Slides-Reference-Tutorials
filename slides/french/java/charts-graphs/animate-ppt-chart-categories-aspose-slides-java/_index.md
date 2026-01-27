@@ -171,18 +171,6 @@ L'animation des catégories de graphiques dans PowerPoint à l'aide d'Aspose.Sli
 
 **Prochaines étapes :** Expérimentez avec différentes valeurs `EffectType` (par ex., FlyIn, Zoom) et combinez-les avec des transitions de diapositives pour une expérience encore plus riche.
 
-## Section FAQ
-1. **Qu'est‑ce qu'Aspose.Slides pour Java ?**  
-   - C'est une bibliothèque puissante pour gérer les présentations PowerPoint de manière programmatique.  
-2. **Puis‑je animer des graphiques dans Excel avec Aspose.Slides ?**  
-   - Non, Aspose.Slides cible les fichiers PowerPoint ; utilisez Aspose.Cells pour Excel.  
-3. **Quels sont les effets d'animation courants disponibles ?**  
-   - Fade, Appear, FlyIn, Zoom, et bien d'autres.  
-4. **Comment gérer les exceptions lors de l'implémentation de l'animation ?**  
-   - Enveloppez votre code dans des blocs try‑catch et consignez les détails de `Exception`.  
-5. **Existe‑t‑il une limite au nombre d'animations par diapositive ?**  
-   - Il n'y a pas de limite stricte, mais un excès d'animations peut affecter les performances.
-
 ## Questions fréquemment posées
 
 **Q : Ai‑je besoin d'une licence payante pour utiliser les fonctionnalités d'animation ?**  
@@ -208,14 +196,6 @@ R : Les animations sont stockées dans le format de fichier PPTX et sont prises 
 - [Request Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Dernière mise à jour :** 2026-01-11  
@@ -223,3 +203,11 @@ R : Les animations sont stockées dans le format de fichier PPTX et sont prises 
 **Auteur :** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

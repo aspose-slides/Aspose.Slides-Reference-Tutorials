@@ -171,18 +171,6 @@ Animace kategorií grafu v PowerPointu pomocí Aspose.Slides pro Java může pro
 **Další kroky:** Experimentujte s různými hodnotami `EffectType` (např. FlyIn, Zoom) a kombinujte je s přechody snímků pro ještě bohatší zážitek.
 
 ## Často kladené otázky
-1. **Co je Aspose.Slides pro Java?**  
-   - Jedná se o výkonnou knihovnu pro programovou správu PowerPoint prezentací.  
-2. **Mohu animovat grafy v Excelu pomocí Aspose.Slides?**  
-   - Ne, Aspose.Slides cílí na soubory PowerPoint; pro Excel použijte Aspose.Cells.  
-3. **Jaké jsou některé běžné animační efekty?**  
-   - Fade, Appear, FlyIn, Zoom a mnoho dalších.  
-4. **Jak zacházet s výjimkami během implementace animace?**  
-   - Zabalte kód do bloků try‑catch a logujte podrobnosti `Exception`.  
-5. **Existuje limit na počet animací na snímek?**  
-   - Neexistuje pevný limit, ale nadměrné množství animací může ovlivnit výkon.  
-
-## Často kladené otázky
 
 **Q: Potřebuji placenou licenci pro použití animačních funkcí?**  
 A: Bezplatná zkušební verze vám umožní vývoj a testování, ale pro produkční nasazení je vyžadována plná licence.
@@ -207,14 +195,6 @@ A: Animace jsou uloženy ve formátu PPTX a jsou podporovány moderními verzemi
 - [Request Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-11  
@@ -222,3 +202,11 @@ A: Animace jsou uloženy ve formátu PPTX a jsou podporovány moderními verzemi
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

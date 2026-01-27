@@ -7,7 +7,7 @@ keywords:
 - Aspose.Slides for Java
 - image markers in charts
 - Java presentation enhancements
-title: 'Come utilizzare Aspose Slides Java: aggiungere marcatori immagine ai grafici'
+title: 'Come utilizzare Aspose Slides Java - aggiungere marcatori immagine ai grafici'
 url: /it/java/charts-graphs/aspose-slides-java-add-image-markers-charts/
 weight: 1
 ---

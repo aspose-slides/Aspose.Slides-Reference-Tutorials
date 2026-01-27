@@ -7,7 +7,7 @@ keywords:
 - Aspose.Slides for Java
 - image markers in charts
 - Java presentation enhancements
-title: 'Aspose Slides Java का उपयोग कैसे करें: चार्ट में इमेज मार्कर जोड़ें'
+title: 'Aspose Slides Java का उपयोग कैसे करें - चार्ट में इमेज मार्कर जोड़ें'
 url: /hi/java/charts-graphs/aspose-slides-java-add-image-markers-charts/
 weight: 1
 ---

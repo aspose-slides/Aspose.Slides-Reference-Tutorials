@@ -194,23 +194,6 @@ Neste guia abordamos **como criar objetos de gráfico**, adicionar um gráfico d
 
 Pronto para aprofundar? Consulte a documentação oficial do [Aspose.Slides](https://reference.aspose.com/slides/java/) para estilos avançados, vinculação de dados e opções de exportação.
 
-## Seção de Perguntas Frequentes
-
-**Q1: Posso criar diferentes tipos de gráficos usando Aspose.Slides?**  
-A1: Sim, Aspose.Slides suporta gráficos de pizza, barra, linha, área, dispersão e muitos outros tipos. Você especifica o tipo ao chamar `addChart`.
-
-**Q2: Como lido com grandes volumes de dados nos meus gráficos?**  
-A2: Para conjuntos de dados extensos, considere paginar os dados ou carregá‑los de uma fonte externa (por exemplo, um banco de dados) em tempo de execução para manter o uso de memória baixo.
-
-**Q3: E se o layout do meu gráfico ficar diferente do esperado?**  
-A3: Use o método `validateChartLayout()` antes de renderizar; ele corrige posicionamento e tamanho com base no layout do slide.
-
-**Q4: É possível personalizar estilos de gráfico no Aspose.Slides?**  
-A4: Absolutamente! Você pode modificar cores, fontes, marcadores e legendas via as APIs de séries e formatação do gráfico.
-
-**Q5: Como integro o Aspose.Slides nas minhas aplicações Java existentes?**  
-A5: Basta adicionar a dependência Maven/Gradle, inicializar a biblioteca conforme mostrado anteriormente e chamar a API onde precisar gerar ou modificar apresentações.
-
 ## Perguntas Frequentes
 
 **Q: O Aspose.Slides funciona em todos os sistemas operacionais?**  
@@ -233,6 +216,12 @@ A: Verifique se o índice do slide existe (`pres.getSlides().get_Item(0)`) e se 
 - **Documentação**: [Aspose.Slides for Java Documentation](https://reference.aspose.com/slides/java/)  
 - **Download**: [Aspose.Slides for Java Releases](https://releases.aspose.com/slides/java/)
 
+---
+
+**Última atualização:** 2026-01-11  
+**Testado com:** Aspose.Slides para Java 25.4 (JDK 16)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -240,9 +229,3 @@ A: Verifique se o índice do slide existe (`pres.getSlides().get_Item(0)`) e se 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2026-01-11  
-**Testado com:** Aspose.Slides para Java 25.4 (JDK 16)  
-**Autor:** Aspose

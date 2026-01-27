@@ -170,18 +170,6 @@ Animar categorias de gráficos no PowerPoint usando Aspose.Slides para Java pode
 
 **Próximos Passos:** Experimente diferentes valores de `EffectType` (por exemplo, FlyIn, Zoom) e combine-os com transições de slide para uma experiência ainda mais rica.
 
-## Seção de Perguntas Frequentes
-1. **O que é Aspose.Slides para Java?**  
-   - É uma biblioteca poderosa para gerenciar apresentações PowerPoint programaticamente.  
-2. **Posso animar gráficos no Excel usando Aspose.Slides?**  
-   - Não, o Aspose.Slides tem como alvo arquivos PowerPoint; use Aspose.Cells para Excel.  
-3. **Quais são alguns efeitos de animação comuns disponíveis?**  
-   - Fade, Appear, FlyIn, Zoom e muitos outros.  
-4. **Como trato exceções durante a implementação da animação?**  
-   - Envolva seu código em blocos try‑catch e registre os detalhes da `Exception`.  
-5. **Existe um limite para o número de animações por slide?**  
-   - Não há um limite rígido, mas animações excessivas podem afetar o desempenho.
-
 ## Perguntas Frequentes
 
 **Q: Preciso de uma licença paga para usar os recursos de animação?**  
@@ -207,14 +195,6 @@ A: As animações são armazenadas no formato PPTX e são suportadas pelas vers�
 - [Request Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última atualização:** 2026-01-11  
@@ -222,3 +202,11 @@ A: As animações são armazenadas no formato PPTX e são suportadas pelas vers�
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

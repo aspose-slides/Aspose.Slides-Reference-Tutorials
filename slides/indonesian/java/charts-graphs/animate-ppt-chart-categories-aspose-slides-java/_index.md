@@ -171,18 +171,6 @@ Menganimasikan kategori grafik di PowerPoint menggunakan Aspose.Slides for Java 
 
 **Langkah Selanjutnya:** Bereksperimenlah dengan nilai `EffectType` yang berbeda (misalnya FlyIn, Zoom) dan gabungkan dengan transisi slide untuk pengalaman yang lebih kaya.
 
-## Bagian FAQ
-1. **Apa itu Aspose.Slides for Java?**
-   - Merupakan perpustakaan kuat untuk mengelola presentasi PowerPoint secara programatis.
-2. **Apakah saya dapat menganimasikan grafik di Excel menggunakan Aspose.Slides?**
-   - Tidak, Aspose.Slides ditujukan untuk file PowerPoint; gunakan Aspose.Cells untuk Excel.
-3. **Apa saja efek animasi umum yang tersedia?**
-   - Fade, Appear, FlyIn, Zoom, dan banyak lagi.
-4. **Bagaimana cara menangani pengecualian selama implementasi animasi?**
-   - Bungkus kode Anda dalam blok try‑catch dan log detail `Exception`.
-5. **Apakah ada batasan jumlah animasi per slide?**
-   - Tidak ada batas keras, tetapi animasi berlebihan dapat memengaruhi kinerja.
-
 ## Pertanyaan yang Sering Diajukan
 
 **T: Apakah saya memerlukan lisensi berbayar untuk menggunakan fitur animasi?**  
@@ -208,14 +196,6 @@ J: Animasi disimpan dalam format file PPTX dan didukung oleh versi modern Micros
 - [Request Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Terakhir Diperbarui:** 2026-01-11  
@@ -223,3 +203,11 @@ J: Animasi disimpan dalam format file PPTX dan didukung oleh versi modern Micros
 **Penulis:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -195,23 +195,6 @@ Ebben az útmutatóban áttekintettük, **hogyan hozzunk létre diagramot**, cso
 
 Készen állsz a mélyebb merülésre? Tekintsd meg a hivatalos [Aspose.Slides dokumentációt](https://reference.aspose.com/slides/java/) a fejlett stílusok, adatkapcsolatok és exportálási lehetőségek megismeréséhez.
 
-## FAQ szekció
-
-**Q1: Készíthetek különböző típusú diagramokat az Aspose.Slides‑szel?**  
-A1: Igen, az Aspose.Slides támogatja a kör, oszlop, vonal, terület, szórt és sok más diagramtípust. A típust a `addChart` hívásakor adod meg.
-
-**Q2: Hogyan kezelem a nagy adatkészleteket a diagramjaimban?**  
-A2: Nagy adatkészletek esetén fontold meg az adatok lapozását, vagy töltsd be őket egy külső forrásból (pl. adatbázis) futásidőben, hogy alacsony maradjon a memóriahasználat.
-
-**Q3: Mi van, ha a diagram elrendezése eltér attól, amit vártam?**  
-A3: Használd a `validateChartLayout()` metódust a renderelés előtt; ez korrigálja a pozíciót és a méretet a dia elrendezése alapján.
-
-**Q4: Lehetőség van a diagram stílusának testreszabására az Aspose.Slides‑ben?**  
-A4: Teljesen! Módosíthatod a színeket, betűtípusokat, jelölőket és a jelmagyarázatot a diagram sorozatai és formázási API‑i segítségével.
-
-**Q5: Hogyan integráljam az Aspose.Slides‑t a meglévő Java alkalmazásaimba?**  
-A5: Egyszerűen add hozzá a Maven/Gradle függőséget, inicializáld a könyvtárat a korábban bemutatott módon, és hívd meg az API‑t bárhol, ahol prezentációkat kell generálnod vagy módosítanod.
-
 ## Gyakran feltett kérdések
 
 **Q: Az Aspose.Slides minden operációs rendszeren működik?**  
@@ -234,6 +217,12 @@ A: Győződj meg róla, hogy a dia index létezik (`pres.getSlides().get_Item(0)
 - **Dokumentáció**: [Aspose.Slides for Java Documentation](https://reference.aspose.com/slides/java/)  
 - **Letöltés**: [Aspose.Slides for Java Releases](https://releases.aspose.com/slides/java/)
 
+---
+
+**Utolsó frissítés:** 2026-01-11  
+**Tesztelt verzió:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -241,9 +230,3 @@ A: Győződj meg róla, hogy a dia index létezik (`pres.getSlides().get_Item(0)
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2026-01-11  
-**Tesztelt verzió:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Szerző:** Aspose

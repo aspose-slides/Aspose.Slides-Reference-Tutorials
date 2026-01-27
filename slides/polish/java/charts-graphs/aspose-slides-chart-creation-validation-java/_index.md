@@ -194,23 +194,6 @@ W tym przewodniku omówiliśmy **jak tworzyć obiekty wykresów**, dodać wykres
 
 Gotowy na dalsze kroki? Zapoznaj się z oficjalną [dokumentacją Aspose.Slides](https://reference.aspose.com/slides/java/) dotyczącą zaawansowanego formatowania, powiązań danych i opcji eksportu.
 
-## Sekcja FAQ
-
-**P1: Czy mogę tworzyć różne typy wykresów przy użyciu Aspose.Slides?**  
-O1: Tak, Aspose.Slides obsługuje wykresy kołowe, słupkowe, liniowe, powierzchniowe, punktowe i wiele innych. Typ określasz przy wywołaniu `addChart`.
-
-**P2: Jak radzić sobie z dużymi zestawami danych w wykresach?**  
-O2: Przy dużych zestawach danych rozważ stronicowanie danych lub ładowanie ich z zewnętrznego źródła (np. bazy) w czasie wykonywania, aby ograniczyć zużycie pamięci.
-
-**P3: Co zrobić, gdy układ wykresu różni się od oczekiwanego?**  
-O3: Użyj metody `validateChartLayout()` przed renderowaniem; koryguje ona pozycję i rozmiar zgodnie z układem slajdu.
-
-**P4: Czy można dostosować style wykresu w Aspose.Slides?**  
-O4: Oczywiście! Możesz modyfikować kolory, czcionki, znaczniki i legendy poprzez API serii i formatowania wykresu.
-
-**P5: Jak zintegrować Aspose.Slides z istniejącymi aplikacjami Java?**  
-O5: Wystarczy dodać zależność Maven/Gradle, zainicjować bibliotekę jak pokazano wcześniej i wywołać API w miejscu, gdzie potrzebujesz generować lub modyfikować prezentacje.
-
 ## Najczęściej zadawane pytania
 
 **P: Czy Aspose.Slides działa na wszystkich systemach operacyjnych?**  
@@ -233,6 +216,12 @@ O: Upewnij się, że indeks slajdu istnieje (`pres.getSlides().get_Item(0)`) ora
 - **Dokumentacja**: [Aspose.Slides for Java Documentation](https://reference.aspose.com/slides/java/)  
 - **Pobranie**: [Aspose.Slides for Java Releases](https://releases.aspose.com/slides/java/)
 
+---
+
+**Ostatnia aktualizacja:** 2026-01-11  
+**Testowano z:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -240,9 +229,3 @@ O: Upewnij się, że indeks slajdu istnieje (`pres.getSlides().get_Item(0)`) ora
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2026-01-11  
-**Testowano z:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Autor:** Aspose

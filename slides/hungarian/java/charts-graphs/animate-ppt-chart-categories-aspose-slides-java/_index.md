@@ -170,18 +170,6 @@ A diagram kategóriák PowerPointban történő animálása az Aspose.Slides for
 
 **Következő lépések:** Kísérletezzen különböző `EffectType` értékekkel (pl. FlyIn, Zoom) és kombinálja őket diaváltásokkal a még gazdagabb élményért.
 
-## GYIK szekció
-1. **Mi az Aspose.Slides for Java?**  
-   - Ez egy hatékony könyvtár a PowerPoint prezentációk programozott kezelésére.  
-2. **Animálhatok diagramokat Excelben az Aspose.Slides segítségével?**  
-   - Nem, az Aspose.Slides a PowerPoint fájlokra irányul; Excelhez használja az Aspose.Cells-t.  
-3. **Melyek a leggyakoribb elérhető animációs hatások?**  
-   - Fade, Appear, FlyIn, Zoom és még sok más.  
-4. **Hogyan kezeljem a kivételeket az animáció megvalósítása során?**  
-   - Tegye a kódot try‑catch blokkokba, és naplózza az `Exception` részleteit.  
-5. **Van korlát a diánkénti animációk számában?**  
-   - Nincs szigorú korlát, de a túl sok animáció befolyásolhatja a teljesítményt.
-
 ## Gyakran Ismételt Kérdések
 **Q: Szükségem van fizetett licencre az animációs funkciók használatához?**  
 A: Egy ingyenes próba verzió lehetővé teszi a fejlesztést és tesztelést, de a termeléshez teljes licenc szükséges.
@@ -206,14 +194,6 @@ A: Az animációk a PPTX fájlformátumban tárolódnak, és támogatottak a mod
 - [Request Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Utolsó frissítés:** 2026-01-11  
@@ -221,3 +201,11 @@ A: Az animációk a PPTX fájlformátumban tárolódnak, és támogatottak a mod
 **Szerző:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,7 @@ keywords:
 - Aspose.Slides for Java
 - image markers in charts
 - Java presentation enhancements
-title: 'Hogyan használjuk az Aspose Slides Java-t: Képmarkerek hozzáadása diagramokhoz'
+title: 'Hogyan használjuk az Aspose Slides Java-t - Képmarkerek hozzáadása diagramokhoz'
 url: /hu/java/charts-graphs/aspose-slides-java-add-image-markers-charts/
 weight: 1
 ---
@@ -19,37 +19,37 @@ weight: 1
 {{< blocks/products/pf/tutorial-page-section >}}
 # Hogyan használjuk az Aspose Slides Java-t: Képmarkerek hozzáadása diagramokhoz
 
-## Introduction
-A vizuálisan vonzó prezentációk létrehozása kulcsfontosságú a hatékony kommunikációhoz, és a diagramok erőteljes eszközök a komplex adatok tömören történő közvetítésére. Amikor azon tűnődsz, **hogyan használjuk az Aspose**-t, hogy diagramjaid kitűnjenek, a testreszabott képmarkerek a megoldás. A szabványos markerek általánosak lehetnek, de az Aspose.Slides for Java-val bármilyen képpel helyettesítheted őket – így minden adatpont azonnal felismerhető.
+## Bevezetés
+A vizuálisan vonzó prezentációk létrehozása kulcsfontosságú a hatékony kommunikációhoz, és a diagramok rendelkezésre álló eszközök komplex adatok tömören közvetítésére. Amikor azon tűnődsz, **hogyan használjuk az Aspose**-t, hogy diagramjaid kitűnjenek, a testreszabott képmarkerek a megoldást. A szabványos markerek általánosak lehetnek, de az Aspose.Slides for Java-val bármilyen képpel helyettesítheti őket – így minden adatpont azonnal felismerhető.
 
 Ebben az útmutatóban végigvezetünk a teljes folyamaton, hogyan adhatunk képmarkereket egy vonaldiagramhoz, a **Aspose Slides Maven dependency** beállításától a képek betöltéséig és azok adatpontokra alkalmazásáig. A végére magabiztosan fogod tudni, **hogyan adjunk hozzá markereket**, hogyan **adjunk képeket a diagram** sorozataihoz, és kapsz egy azonnal futtatható kódmintát.
 
-**What You'll Learn**
+**Amit meg fogsz tanulni**
 - Hogyan állítsuk be az Aspose.Slides for Java-t (beleértve a Maven/Gradle-t)
 - Alapvető prezentáció és diagram létrehozása
-- Képmarkerek hozzáadása a diagram adatpontjaihoz
-- A marker méretének és stílusának beállítása az optimális megjelenítéshez
+- Képmarkerek a diagram adatpontjaihoz
+- A marker és stílusának beállítása az optimális mérethez
 
-Készen állsz a diagramjaid fejlesztésére? Merüljünk el a követelményekben, mielőtt elkezdenénk!
+Készen állsz a diagramjaid fejlesztésére? Merüljünk el a követelményekben, nagyon sokat tanulnánk!
 
-### Quick Answers
-- **Mi a fő cél?** Egyedi képmarkerek hozzáadása a diagram adatpontjaihoz.  
-- **Melyik könyvtár szükséges?** Aspose.Slides for Java (Maven/Gradle).  
-- **Szükségem van licencre?** Ideiglenes licenc elegendő értékeléshez; teljes licenc szükséges a termeléshez.  
-- **Melyik Java verzió támogatott?** JDK 16 vagy újabb.  
+### Gyors válaszok
+- **Mi a fő cél?** Egyedi képmarkerek szükséges a diagram adatpontjaihoz.
+- **Melyik könyvtár szükséges?** Aspose.Slides for Java (Maven/Gradle).
+- **Szükségem van licencre?** Ideiglenes licenc értékeléshez; teljes licenc szükséges a termeléshez.
+- **Melyik Java verzió támogatott?** JDK16 vagy újabb.
 - **Használhatok bármilyen képfájlt?** Igen – PNG, JPEG, BMP stb., amíg a fájl elérhető.
 
-### Prerequisites
-To follow this tutorial, you'll need:
-1. **Aspose.Slides for Java Library** – obtain via Maven, Gradle, or direct download.  
-2. **Java Development Environment** – JDK 16 or newer installed.  
-3. **Basic Java Programming Knowledge** – familiarity with Java syntax and concepts will be helpful.
+### Előfeltételek
+Az oktatóanyag követéséhez a következőkre lesz szüksége:
+1. **Aspose.Slides for Java Library** – beszerezhető a Mavenen, a Gradle-en vagy közvetlenül letölthető.
+2. **Java fejlesztői környezet** – JDK16 vagy újabb telepítve.
+3. **Alapszintű Java programozási ismeretek** – a Java szintaxis és fogalmak ismerete hasznos lesz.
 
-## What is the Aspose Slides Maven Dependency?
-A Maven függőség a megfelelő binárisokat húzza le a Java verziódhoz. A `pom.xml`-hez való hozzáadása biztosítja, hogy a könyvtár fordítási és futási időben is elérhető legyen.
+## Mi az Aspose Slides Maven-függősége?
+A Maven függőség a megfelelő binárisokat húzza le a Java verziódhoz. A `pom.xml`-hez valós biztosítása, hogy a könyvtár fordítási és futási időben elérhető legyen.
 
-### Maven Installation
-Add the following dependency to your `pom.xml` file:
+### Maven telepítés
+Add hozzá a következő függőséget a `pom.xml` fájlodhoz:
 
 ```xml
 <dependency>
@@ -60,22 +60,22 @@ Add the following dependency to your `pom.xml` file:
 </dependency>
 ```
 
-### Gradle Installation
-Include this line in your `build.gradle` file:
+### Gradle telepítése
+Írd be ezt a sort a `build.gradle` fájlodba:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Direct Download
-Alternatív megoldásként töltsd le a legújabb kiadást a [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+### Közvetlen letöltés
+Alternatív megoldásként töltsd le a legújabb kiadást a [Aspose.Slides for Java]-hoz kiadások](https://releases.aspose.com/slides/java/).
 
-#### License Acquisition Steps
-- **Free Trial** – kezd egy ideiglenes licenccel a funkciók felfedezéséhez.  
-- **Temporary License** – fejlett képességek feloldása tesztelés közben.  
-- **Purchase** – teljes licenc beszerzése kereskedelmi projektekhez.
+#### Licencbeszerzés lépései
+- **Free Trial** – kezd egy ideiglenes licenccel a funkciók felfedezéséhez.
+- **Temporary License** – fejlett képességek feloldása tesztelés közben.
+- **Vásárlás** – teljes licenc beszerzése kereskedelmi projektekhez.
 
-## Basic Initialization and Setup
+## Alapvető inicializálás és beállítás
 Először hozz létre egy `Presentation` objektumot. Ez az objektum képviseli a teljes PowerPoint fájlt, és tartalmazni fogja a diagramunkat.
 
 ```java
@@ -89,10 +89,10 @@ public class InitializeAspose {
 }
 ```
 
-## Implementation Guide
-Below is a step‑by‑step walkthrough of adding image markers to a chart. Each code block is accompanied by an explanation so you understand **why** each line matters.
+## Megvalósítási útmutató
+Az alábbiakban lépésről lépésre bemutatjuk a képjelölők diagramhoz való hozzáadását. Minden kódblokkot magyarázat kísér, hogy megértse, **miért** minden sor számít.
 
-### Step 1: Create a New Presentation with a Chart
+### 1. lépés: Hozzon létre egy új prezentációt diagrammal
 Egy vonaldiagramot adunk hozzá alapértelmezett markerekkel az első diára.
 
 ```java
@@ -114,8 +114,8 @@ public class CreatePresentation {
 }
 ```
 
-### Step 2: Access and Configure Chart Data
-Töröljük az esetleges alapértelmezett sorozatokat, és hozzáadjuk a saját sorozatainkat, előkészítve a munkalapot az egyedi adatpontokhoz.
+### 2. lépés: A diagramadatok elérése és konfigurálása
+Töröljük az előre elkészített sorozatokat, és adjuk hozzá a saját sorozatainkat, a munkalapot az egyedi adatpontokhoz.
 
 ```java
 import com.aspose.slides.*;
@@ -142,8 +142,8 @@ public class ManageChartData {
 }
 ```
 
-### Step 3: Add Image Markers to Chart Data Points  
-Itt bemutatjuk, **hogyan adjunk hozzá markereket** képek segítségével. Cseréld ki a helyőrző útvonalakat a képek tényleges helyére.
+### 3. lépés: Képjelzők hozzáadása a diagram adatpontjaihoz
+Itt bemutatjuk, **hogyan adjunk hozzá markereket** képek segítségével. Cseréld ki a helyőrző útvonalakat a tényleges helyére.
 
 ```java
 import com.aspose.slides.*;
@@ -194,7 +194,7 @@ public class AddImageMarkers {
 }
 ```
 
-### Step 4: Configure Marker Size and Save the Presentation  
+### 4. lépés: A jelölő méretének konfigurálása és a prezentáció mentése
 A marker stílusát a jobb láthatóság érdekében állítjuk be, majd elmentjük a végleges PPTX fájlt.
 
 ```java
@@ -237,36 +237,36 @@ public class ConfigureAndSavePresentation {
 }
 ```
 
-## Common Issues and Troubleshooting
-- **FileNotFoundException** – Ellenőrizd, hogy a kép útvonalak (`YOUR_DOCUMENT_DIRECTORY/...`) helyesek-e, és a fájlok léteznek.  
-- **LicenseException** – Győződj meg róla, hogy érvényes Aspose licencet állítottál be, mielőtt bármilyen API-t hívnál termelésben.  
-- **Marker Not Visible** – Növeld a `setMarkerSize` értékét, vagy használj nagyobb felbontású képeket a tisztább megjelenítéshez.
+## Gyakori problémák és hibaelhárítás
+- **FileNotFoundException** – Ellenőrizd, hogy a kép útvonalak (`YOUR_DOCUMENT_DIRECTORY/...`) helyesek-e, és a fájlok léteznek.
+- **LicenseException** – Gyződj meg róla, hogy érvényes Aspose licencet állítottál be, bármilyen API-t hívnál termelésben.
+- **Marker Not Visible** – Növeld a `setMarkerSize` értékét, vagy használj nagyobb felbontású képeket a tisztábbhoz.
 
-## Frequently Asked Questions
+## Gyakran Ismételt Kérdések
 
-**Q: Can I use PNG images instead of JPEG for markers?**  
-A: Igen, bármely, az Aspose.Slides által támogatott képformátum (PNG, JPEG, BMP, GIF) használható markerként.
+**K: Használhatok PNG képeket JPEG helyett jelölőként?**
+A: Igen, bármilyen, az Aspose.Slides által támogatott képformátum (PNG, JPEG, BMP, GIF) használható markerként.
 
-**Q: Do I need a license for the Maven/Gradle packages?**  
-A: Ideiglenes licenc elegendő fejlesztéshez és teszteléshez; teljes licenc szükséges a kereskedelmi terjesztéshez.
+**K: Szükségem van licencre a Maven/Gradle csomagokhoz?**
+A: Ideiglenes licenc fejlesztéshez és teszteléshez; teljes licenc szükséges a kereskedelmi terjesztéshez.
 
-**Q: Is it possible to add different images to each data point in the same series?**  
-A: Teljesen lehetséges. Az `AddImageMarkers` példában két képet váltogatunk, de betölthetsz egyedi képet minden egyes ponthoz is.
+**K: Lehetséges-e különböző képeket hozzáadni ugyanabban a sorozatban lévő adatpontokhoz?**
+A: Teljesen lehetséges. Az `AddImageMarkers` példában két képet váltogatunk, de betölthetsz egyedi képet minden egyes ponthoz.
 
-**Q: How does the `aspose slides maven dependency` affect project size?**  
-A: A Maven csomag csak a kiválasztott JDK verzióhoz szükséges binárisokat tartalmazza, így a lábnyoma mérsékelt. Használhatod a **no‑dependencies** verziót is, ha a méret kritikus.
+**K: Hogyan befolyásolja az "aspose slides maven dependency" a projekt méretét?**
+A: A Maven csomag csak a kiválasztott JDK verzióhoz szükséges binárisokat tartalmazza, így a lábnyoma mérsékelt. Használhatod a **no-dependencies** verziót is, ha a méret kritikus.
 
-**Q: What Java versions are supported?**  
-A: Az Aspose.Slides for Java támogatja a JDK 8-tól a JDK 21-ig terjedő verziókat. A példában JDK 16 van használva, de a klasszifikátort ennek megfelelően módosíthatod.
+**K: Milyen Java-verziók támogatottak?**
+A: Az Aspose.Slides for Java támogatja a JDK8-tól a JDK21-ig terjedő verziókat. A példában JDK16 van használva, de a klasszifikátort ennek megfelelően módosíthatja.
 
-## Conclusion
+## Következtetés
 A következő útmutató segítségével most már tudod, **hogyan használjuk az Aspose**-t a diagramok testreszabásához egyedi képmarkerekkel, hogyan konfiguráld a **Aspose Slides Maven dependency**-t, és hogyan **adjunk képeket a diagram** sorozataihoz egy kifinomult, professzionális megjelenés érdekében. Kísérletezz különböző ikonokkal, méretekkel és diagramtípusokkal, hogy olyan prezentációkat hozz létre, amelyek valóban kiemelkednek.
 
 ---
 
-**Last Updated:** 2026-01-11  
-**Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
-**Author:** Aspose  
+**Utolsó frissítés:** 2026-01-11
+**Tesztelve:** Aspose.Slides for Java 25.4 (jdk16)
+**Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

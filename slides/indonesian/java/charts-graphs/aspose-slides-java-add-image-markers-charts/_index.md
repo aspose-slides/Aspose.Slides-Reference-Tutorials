@@ -7,7 +7,7 @@ keywords:
 - Aspose.Slides for Java
 - image markers in charts
 - Java presentation enhancements
-title: 'Cara Menggunakan Aspose Slides Java: Menambahkan Penanda Gambar ke Grafik'
+title: 'Cara Menggunakan Aspose Slides Java - Menambahkan Penanda Gambar ke Grafik'
 url: /id/java/charts-graphs/aspose-slides-java-add-image-markers-charts/
 weight: 1
 ---

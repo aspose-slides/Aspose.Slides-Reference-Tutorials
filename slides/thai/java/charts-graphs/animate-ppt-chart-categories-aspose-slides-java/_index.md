@@ -169,18 +169,6 @@ presentation.save(outputDir + "/AnimatingCategoriesElements_out.pptx", SaveForma
 
 **ขั้นตอนต่อไป:** ทดลองใช้ค่า `EffectType` ต่าง ๆ (เช่น FlyIn, Zoom) และผสานกับการเปลี่ยนสไลด์เพื่อประสบการณ์ที่สมบูรณ์ยิ่งขึ้น  
 
-## ส่วนคำถามที่พบบ่อย
-1. **Aspose.Slides for Java คืออะไร?**  
-   - เป็นไลบรารีที่ทรงพลังสำหรับจัดการไฟล์ PowerPoint แบบโปรแกรมเมติก  
-2. **ฉันสามารถทำให้แผนภูมิใน Excel เคลื่อนไหวด้วย Aspose.Slides ได้หรือไม่?**  
-   - ไม่ได้, Aspose.Slides ทำงานกับไฟล์ PowerPoint; ใช้ Aspose.Cells สำหรับ Excel  
-3. **เอฟเฟกต์การเคลื่อนไหวที่พบได้บ่อยมีอะไรบ้าง?**  
-   - Fade, Appear, FlyIn, Zoom และอื่น ๆ อีกมากมาย  
-4. **ฉันจะจัดการกับข้อยกเว้นระหว่างการทำให้แผนภูมิเคลื่อนไหวอย่างไร?**  
-   - ห่อโค้ดด้วยบล็อก try‑catch และบันทึกรายละเอียดของ `Exception`  
-5. **มีขีดจำกัดจำนวนการเคลื่อนไหวต่อสไลด์หรือไม่?**  
-   - ไม่มีขีดจำกัดที่แน่นอน แต่การเคลื่อนไหวมากเกินไปอาจส่งผลต่อประสิทธิภาพ  
-
 ## คำถามที่พบบ่อยเพิ่มเติม
 
 **ถาม:** ฉันต้องใช้ไลเซนส์แบบชำระเงินเพื่อใช้คุณสมบัติการเคลื่อนไหวหรือไม่?  
@@ -206,14 +194,6 @@ presentation.save(outputDir + "/AnimatingCategoriesElements_out.pptx", SaveForma
 - [ขอไลเซนส์ชั่วคราว](https://purchase.aspose.com/temporary-license/)
 - [ฟอรั่มสนับสนุนของ Aspose](https://forum.aspose.com/c/slides/11)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **อัปเดตล่าสุด:** 2026-01-11  
@@ -221,3 +201,11 @@ presentation.save(outputDir + "/AnimatingCategoriesElements_out.pptx", SaveForma
 **ผู้เขียน:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

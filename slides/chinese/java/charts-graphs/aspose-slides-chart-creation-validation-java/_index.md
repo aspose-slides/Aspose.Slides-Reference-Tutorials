@@ -191,23 +191,6 @@ class GetChartDimensions {
 
 想进一步深入？请查阅官方 [Aspose.Slides 文档](https://reference.aspose.com/slides/java/) 了解高级样式、数据绑定和导出选项。
 
-## FAQ 部分
-
-**Q1：我可以使用 Aspose.Slides 创建不同类型的图表吗？**  
-A1：可以，Aspose.Slides 支持饼图、条形图、折线图、面积图、散点图等多种图表类型。调用 `addChart` 时指定相应类型即可。
-
-**Q2：如何在图表中处理大数据集？**  
-A2：对于大数据集，建议分页加载数据或在运行时从外部源（如数据库）读取，以降低内存占用。
-
-**Q3：如果图表布局与预期不符怎么办？**  
-A3：在渲染前使用 `validateChartLayout()` 方法，它会根据幻灯片布局自动纠正位置和大小。
-
-**Q4：是否可以自定义 Aspose.Slides 中的图表样式？**  
-A4：完全可以！您可以通过图表的系列和格式化 API 修改颜色、字体、标记和图例等。
-
-**Q5：如何将 Aspose.Slides 集成到现有的 Java 应用中？**  
-A5：只需按前文所示添加 Maven/Gradle 依赖，初始化库，然后在需要生成或修改演示文稿的地方调用相应 API 即可。
-
 ## 常见问题
 
 **Q：Aspose.Slides 能在所有操作系统上运行吗？**  
@@ -230,6 +213,12 @@ A：确保幻灯片索引存在（如 `pres.getSlides().get_Item(0)`），并且
 - **文档**： [Aspose.Slides for Java Documentation](https://reference.aspose.com/slides/java/)  
 - **下载**： [Aspose.Slides for Java Releases](https://releases.aspose.com/slides/java/)
 
+---
+
+**最后更新：** 2026-01-11  
+**测试环境：** Aspose.Slides for Java 25.4 (JDK 16)  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -237,9 +226,3 @@ A：确保幻灯片索引存在（如 `pres.getSlides().get_Item(0)`），并且
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2026-01-11  
-**测试环境：** Aspose.Slides for Java 25.4 (JDK 16)  
-**作者：** Aspose

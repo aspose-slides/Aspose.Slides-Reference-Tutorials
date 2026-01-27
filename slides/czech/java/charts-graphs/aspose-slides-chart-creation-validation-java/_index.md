@@ -196,23 +196,6 @@ Chcete se ponořit hlouběji? Prohlédněte si oficiální [Aspose.Slides docume
 
 ## Často kladené otázky
 
-**Q1: Mohu pomocí Aspose.Slides vytvořit různé typy grafů?**  
-A1: Ano, Aspose.Slides podporuje koláčové, sloupcové, čárové, plošné, rozptylové a mnoho dalších typů grafů. Typ specifikujete při volání `addChart`.
-
-**Q2: Jak zacházet s velkými datovými sadami v mých grafech?**  
-A2: U velkých datových sad zvažte stránkování dat nebo načítání z externího zdroje (např. databáze) za běhu, aby byl nízký odběr paměti.
-
-**Q3: Co když rozvržení mého grafu vypadá jinak, než jsem očekával?**  
-A3: Použijte metodu `validateChartLayout()` před renderováním; opraví pozici a velikost podle rozvržení snímku.
-
-**Q4: Je možné přizpůsobit styly grafu v Aspose.Slides?**  
-A4: Rozhodně! Můžete měnit barvy, písma, značky a legendy pomocí API pro řady grafu a formátování.
-
-**Q5: Jak integrovat Aspose.Slides do mých existujících Java aplikací?**  
-A5: Stačí přidat Maven/Gradle závislost, inicializovat knihovnu jak bylo ukázáno výše a volat API kdekoliv potřebujete generovat nebo upravovat prezentace.
-
-## Často kladené otázky
-
 **Q: Funguje Aspose.Slides na všech operačních systémech?**  
 A: Ano, jedná se o čistou Java knihovnu a běží na Windows, Linuxu i macOS.
 
@@ -233,6 +216,12 @@ A: Ujistěte se, že existuje index snímku (`pres.getSlides().get_Item(0)`) a �
 - **Documentation**: [Aspose.Slides for Java Documentation](https://reference.aspose.com/slides/java/)  
 - **Download**: [Aspose.Slides for Java Releases](https://releases.aspose.com/slides/java/)
 
+---
+
+**Last Updated:** 2026-01-11  
+**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -240,9 +229,3 @@ A: Ujistěte se, že existuje index snímku (`pres.getSlides().get_Item(0)`) a �
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-11  
-**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Author:** Aspose

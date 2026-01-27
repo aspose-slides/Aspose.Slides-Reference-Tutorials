@@ -192,23 +192,6 @@ Aspose.Slides로 **차트 만들기**의 실제 활용 예시:
 
 더 깊이 파고들고 싶나요? 공식 [Aspose.Slides 문서](https://reference.aspose.com/slides/java/)에서 고급 스타일링, 데이터 바인딩 및 내보내기 옵션을 확인하세요.
 
-## FAQ 섹션
-
-**Q1: Aspose.Slides로 다양한 차트 유형을 만들 수 있나요?**  
-A1: 예, 파이, 바, 라인, 영역, 스캐터 등 여러 차트 유형을 지원합니다. `addChart` 호출 시 유형을 지정하면 됩니다.
-
-**Q2: 차트에 큰 데이터 세트를 사용할 경우 어떻게 해야 하나요?**  
-A2: 대용량 데이터는 페이지네이션하거나 런타임에 데이터베이스 등 외부 소스에서 로드해 메모리 사용량을 낮추세요.
-
-**Q3: 차트 레이아웃이 예상과 다르게 표시되면 어떻게 해야 하나요?**  
-A3: 렌더링 전에 `validateChartLayout()` 메서드를 호출하면 슬라이드 레이아웃에 맞게 위치와 크기가 자동 보정됩니다.
-
-**Q4: Aspose.Slides에서 차트 스타일을 커스터마이즈할 수 있나요?**  
-A4: 물론입니다! 차트 시리즈와 포맷팅 API를 통해 색상, 폰트, 마커, 레전드 등을 수정할 수 있습니다.
-
-**Q5: 기존 Java 애플리케이션에 Aspose.Slides를 어떻게 통합하나요?**  
-A5: Maven/Gradle 의존성을 추가하고 앞서 보여준 대로 라이선스를 초기화한 뒤, 프레젠테이션을 생성·수정하고자 하는 곳에서 API를 호출하면 됩니다.
-
 ## 자주 묻는 질문
 
 **Q: Aspose.Slides는 모든 운영 체제에서 작동하나요?**  
@@ -231,6 +214,12 @@ A: 슬라이드 인덱스가 존재하는지(`pres.getSlides().get_Item(0)`) 확
 - **문서**: [Aspose.Slides for Java Documentation](https://reference.aspose.com/slides/java/)  
 - **다운로드**: [Aspose.Slides for Java Releases](https://releases.aspose.com/slides/java/)
 
+---
+
+**마지막 업데이트:** 2026-01-11  
+**테스트 환경:** Aspose.Slides for Java 25.4 (JDK 16)  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -238,9 +227,3 @@ A: 슬라이드 인덱스가 존재하는지(`pres.getSlides().get_Item(0)`) 확
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2026-01-11  
-**테스트 환경:** Aspose.Slides for Java 25.4 (JDK 16)  
-**작성자:** Aspose

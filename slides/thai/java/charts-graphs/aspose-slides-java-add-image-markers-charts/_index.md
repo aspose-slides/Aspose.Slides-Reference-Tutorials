@@ -6,7 +6,7 @@ keywords:
 - Aspose.Slides for Java
 - image markers in charts
 - Java presentation enhancements
-title: 'วิธีใช้ Aspose Slides Java: เพิ่มเครื่องหมายรูปภาพในแผนภูมิ'
+title: 'วิธีใช้ Aspose Slides Java - เพิ่มเครื่องหมายรูปภาพในแผนภูมิ'
 url: /th/java/charts-graphs/aspose-slides-java-add-image-markers-charts/
 weight: 1
 ---

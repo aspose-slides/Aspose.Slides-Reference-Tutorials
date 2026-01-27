@@ -169,18 +169,6 @@ Aspose.Slides for Java를 사용하여 PowerPoint 차트 카테고리를 애니�
 
 **다음 단계:** 다양한 `EffectType` 값(예: FlyIn, Zoom)을 실험하고 슬라이드 전환과 결합하여 더욱 풍부한 경험을 만들어 보세요.
 
-## FAQ 섹션
-1. **Aspose.Slides for Java란?**  
-   - PowerPoint 프레젠테이션을 프로그래밍 방식으로 관리할 수 있는 강력한 라이브러리입니다.
-2. **Aspose.Slides로 Excel 차트를 애니메이션할 수 있나요?**  
-   - 아니요, Aspose.Slides는 PowerPoint 파일을 대상으로 하며, Excel은 Aspose.Cells를 사용하세요.
-3. **사용 가능한 일반적인 애니메이션 효과는 무엇인가요?**  
-   - Fade, Appear, FlyIn, Zoom 등 다양한 효과가 있습니다.
-4. **애니메이션 구현 중 예외를 어떻게 처리하나요?**  
-   - 코드를 try‑catch 블록으로 감싸고 `Exception` 세부 정보를 로그에 기록하세요.
-5. **슬라이드당 애니메이션 수에 제한이 있나요?**  
-   - 명확한 제한은 없지만 과도한 애니메이션은 성능에 영향을 줄 수 있습니다.
-
 ## 자주 묻는 질문
 
 **Q: 애니메이션 기능을 사용하려면 유료 라이선스가 필요합니까?**  
@@ -206,14 +194,6 @@ A: 애니메이션은 PPTX 파일 형식에 저장되며 최신 Microsoft PowerP
 - [Request Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **마지막 업데이트:** 2026-01-11  
@@ -221,3 +201,11 @@ A: 애니메이션은 PPTX 파일 형식에 저장되며 최신 Microsoft PowerP
 **작성자:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

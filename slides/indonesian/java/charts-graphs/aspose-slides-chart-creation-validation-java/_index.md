@@ -194,23 +194,6 @@ Dalam panduan ini kami membahas **cara membuat objek diagram**, menambahkan diag
 
 Siap menyelami lebih dalam? Lihat dokumentasi resmi [Aspose.Slides documentation](https://reference.aspose.com/slides/java/) untuk styling lanjutan, binding data, dan opsi ekspor.
 
-## Bagian FAQ
-
-**T1: Bisakah saya membuat berbagai jenis diagram menggunakan Aspose.Slides?**  
-J1: Ya, Aspose.Slides mendukung diagram pie, bar, line, area, scatter, dan banyak lagi. Anda menentukan tipe saat memanggil `addChart`.
-
-**T2: Bagaimana cara menangani dataset besar dalam diagram saya?**  
-J2: Untuk dataset besar, pertimbangkan paging data atau memuatnya dari sumber eksternal (misalnya basis data) pada runtime untuk menjaga penggunaan memori tetap rendah.
-
-**T3: Bagaimana jika tata letak diagram saya berbeda dari yang diharapkan?**  
-J3: Gunakan metode `validateChartLayout()` sebelum merender; metode ini memperbaiki posisi dan ukuran berdasarkan tata letak slide.
-
-**T4: Apakah saya dapat menyesuaikan gaya diagram di Aspose.Slides?**  
-J4: Tentu! Anda dapat mengubah warna, font, marker, dan legenda melalui API seri dan formatting diagram.
-
-**T5: Bagaimana cara mengintegrasikan Aspose.Slides dengan aplikasi Java yang sudah ada?**  
-J5: Cukup tambahkan dependensi Maven/Gradle, inisialisasi perpustakaan seperti yang ditunjukkan sebelumnya, dan panggil API di mana pun Anda perlu menghasilkan atau memodifikasi presentasi.
-
 ## Pertanyaan yang Sering Diajukan
 
 **T: Apakah Aspose.Slides bekerja di semua sistem operasi?**  
@@ -233,6 +216,12 @@ J: Pastikan indeks slide ada (`pres.getSlides().get_Item(0)`) dan objek diagram 
 - **Dokumentasi**: [Aspose.Slides for Java Documentation](https://reference.aspose.com/slides/java/)  
 - **Unduhan**: [Aspose.Slides for Java Releases](https://releases.aspose.com/slides/java/)
 
+---
+
+**Terakhir Diperbarui:** 2026-01-11  
+**Diuji Dengan:** Aspose.Slides untuk Java 25.4 (JDK 16)  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -240,9 +229,3 @@ J: Pastikan indeks slide ada (`pres.getSlides().get_Item(0)`) dan objek diagram 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2026-01-11  
-**Diuji Dengan:** Aspose.Slides untuk Java 25.4 (JDK 16)  
-**Penulis:** Aspose

@@ -5,7 +5,7 @@ keywords:
 - Aspose.Slides for Java
 - image markers in charts
 - Java presentation enhancements
-title: 如何使用 Aspose Slides Java：向图表添加图像标记
+title: 如何使用 Aspose Slides Java - 向图表添加图像标记
 url: /zh/java/charts-graphs/aspose-slides-java-add-image-markers-charts/
 weight: 1
 ---
@@ -17,7 +17,7 @@ weight: 1
 {{< blocks/products/pf/tutorial-page-section >}}
 # 如何使用 Aspose Slides Java：向图表添加图像标记
 
-## Introduction
+## 简介
 创建视觉上吸引人的演示文稿是有效沟通的关键，图表是简洁传达复杂数据的强大工具。当您思考 **how to use Aspose** 让图表脱颖而出时，自定义图像标记就是答案。标准标记可能显得通用，但使用 Aspose.Slides for Java，您可以将它们替换为任意图片——使每个数据点瞬间可辨。
 
 在本教程中，我们将完整演示向折线图添加图像标记的全过程，包括设置 **Aspose Slides Maven dependency**、加载图像并将其应用于数据点。结束时，您将熟悉 **how to add markers**、如何 **add images to chart** 系列，并拥有可直接运行的代码示例。
@@ -30,14 +30,14 @@ weight: 1
 
 准备提升您的图表了吗？让我们在开始之前先了解前提条件！
 
-### Quick Answers
+### 快速解答
 - **What is the primary purpose?** 添加自定义图像标记到图表数据点。  
 - **Which library is required?** Aspose.Slides for Java（Maven/Gradle）。  
 - **Do I need a license?** 临时许可证可用于评估；生产环境需要完整许可证。  
 - **Which Java version is supported?** JDK 16 或更高。  
 - **Can I use any image format?** 可以——PNG、JPEG、BMP 等，只要文件可访问。
 
-### Prerequisites
+### 前提条件
 要跟随本教程，您需要：
 1. **Aspose.Slides for Java Library** – 通过 Maven、Gradle 或直接下载获取。  
 2. **Java 开发环境** – 已安装 JDK 16 或更高版本。  
@@ -46,8 +46,10 @@ weight: 1
 ## 什么是 Aspose Slides Maven 依赖？
 Maven 依赖会为您的 Java 版本拉取正确的二进制文件。将其添加到 `pom.xml` 可确保库在编译时和运行时可用。
 
-### Maven Installation
-Add the following dependency to your `pom.xml` file:
+
+### Maven 安装
+
+将以下依赖项添加到您的 `pom.xml` 文件中：
 
 ```xml
 <dependency>
@@ -58,14 +60,15 @@ Add the following dependency to your `pom.xml` file:
 </dependency>
 ```
 
-### Gradle Installation
-Include this line in your `build.gradle` file:
+### Gradle 安装
+将以下代码添加到您的 `build.gradle` 文件中：
+
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Direct Download
+### 直接下载
 或者，从 [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) 下载最新发布版本。
 
 #### 获取许可证的步骤
@@ -74,7 +77,7 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 - **Purchase** – 为商业项目获取完整许可证。
 
 ## 基本初始化和设置
-First, create a `Presentation` object. This object represents the entire PowerPoint file and will hold our chart.
+首先，创建一个“Presentation”对象。该对象代表整个 PowerPoint 文件，并将用于存放我们的图表。
 
 ```java
 import com.aspose.slides.*;
@@ -91,7 +94,7 @@ public class InitializeAspose {
 下面是向图表添加图像标记的逐步演示。每个代码块都有说明，帮助您了解每行代码的 **原因**。
 
 ### 步骤 1：创建带图表的新演示文稿
-We add a line chart with default markers to the first slide.
+我们在第一张幻灯片中添加了一个带有默认标记的折线图。
 
 ```java
 import com.aspose.slides.*;
@@ -113,7 +116,7 @@ public class CreatePresentation {
 ```
 
 ### 步骤 2：访问并配置图表数据
-We clear any default series and add our own series, preparing the worksheet for custom data points.
+我们清除所有默认序列并添加我们自己的序列，为自定义数据点准备工作表。
 
 ```java
 import com.aspose.slides.*;
@@ -141,7 +144,7 @@ public class ManageChartData {
 ```
 
 ### 步骤 3：向图表数据点添加图像标记  
-Here we demonstrate **how to add markers** using pictures. Replace the placeholder paths with the actual location of your images.
+这里我们演示如何使用图片添加标记。请将占位符路径替换为图片的实际位置。
 
 ```java
 import com.aspose.slides.*;
@@ -193,7 +196,7 @@ public class AddImageMarkers {
 ```
 
 ### 步骤 4：配置标记大小并保存演示文稿  
-We adjust the marker style for better visibility and write the final PPTX file.
+我们调整标记样式以提高可见性，并写入最终的 PPTX 文件。
 
 ```java
 import com.aspose.slides.*;

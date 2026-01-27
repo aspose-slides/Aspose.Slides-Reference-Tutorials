@@ -7,7 +7,7 @@ keywords:
 - Aspose.Slides for Java
 - image markers in charts
 - Java presentation enhancements
-title: 'Jak używać Aspose Slides Java: Dodawanie znaczników obrazu do wykresów'
+title: 'Jak używać Aspose Slides Java - Dodawanie znaczników obrazu do wykresów'
 url: /pl/java/charts-graphs/aspose-slides-java-add-image-markers-charts/
 weight: 1
 ---

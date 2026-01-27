@@ -193,23 +193,6 @@ class GetChartDimensions {
 
 هل ترغب في الغوص أعمق؟ اطلع على الوثائق الرسمية لـ [Aspose.Slides documentation](https://reference.aspose.com/slides/java/) للحصول على تنسيقات متقدمة، ربط البيانات، وخيارات التصدير.
 
-## قسم الأسئلة المتكررة
-
-**س1: هل يمكنني إنشاء أنواع مختلفة من المخططات باستخدام Aspose.Slides؟**  
-ج1: نعم، يدعم Aspose.Slides المخططات الدائرية، الشريطية، الخطية، المساحية، المتناثرة، والعديد غيرها. تحدد النوع عند استدعاء `addChart`.
-
-**س2: كيف أتعامل مع مجموعات بيانات كبيرة في مخططاتي؟**  
-ج2: للمجموعات الكبيرة، فكر في تقسيم البيانات إلى صفحات أو تحميلها من مصدر خارجي (مثل قاعدة بيانات) أثناء التشغيل لتقليل استهلاك الذاكرة.
-
-**س3: ماذا أفعل إذا كان تخطيط المخطط يختلف عما توقعت؟**  
-ج3: استخدم طريقة `validateChartLayout()` قبل العرض؛ فهي تصحح الموقع والحجم بناءً على تخطيط الشريحة.
-
-**س4: هل يمكن تخصيص أنماط المخططات في Aspose.Slides؟**  
-ج4: بالتأكيد! يمكنك تعديل الألوان، الخطوط، العلامات، والأساطير عبر واجهات برمجة السلسلة والتنسيق الخاصة بالمخطط.
-
-**س5: كيف أدمج Aspose.Slides مع تطبيقات Java الحالية؟**  
-ج5: ما عليك سوى إضافة اعتماد Maven/Gradle، تهيئة المكتبة كما هو موضح أعلاه، واستدعاء الـ API أينما احتجت إلى إنشاء أو تعديل عروض تقديمية.
-
 ## الأسئلة المتكررة العامة
 
 **س: هل يعمل Aspose.Slides على جميع أنظمة التشغيل؟**  
@@ -232,6 +215,12 @@ class GetChartDimensions {
 - **الوثائق**: [Aspose.Slides for Java Documentation](https://reference.aspose.com/slides/java/)  
 - **التحميل**: [Aspose.Slides for Java Releases](https://releases.aspose.com/slides/java/)
 
+---
+
+**آخر تحديث:** 2026-01-11  
+**تم الاختبار مع:** Aspose.Slides for Java 25.4 (JDK 16)  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -239,9 +228,3 @@ class GetChartDimensions {
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2026-01-11  
-**تم الاختبار مع:** Aspose.Slides for Java 25.4 (JDK 16)  
-**المؤلف:** Aspose

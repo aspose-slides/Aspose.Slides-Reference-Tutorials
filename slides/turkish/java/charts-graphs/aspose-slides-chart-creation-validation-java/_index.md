@@ -194,23 +194,6 @@ Bu rehberde **grafik nasıl oluşturulur** nesnelerini, kümeleme sütun grafiğ
 
 Daha derine inmek ister misiniz? Gelişmiş stil, veri bağlama ve dışa aktarma seçenekleri için resmi [Aspose.Slides documentation](https://reference.aspose.com/slides/java/) sayfasına göz atın.
 
-## SSS Bölümü
-
-**S1: Aspose.Slides ile farklı grafik türleri oluşturabilir miyim?**  
-C1: Evet, Aspose.Slides pasta, çubuk, çizgi, alan, dağılım ve daha birçok grafik türünü destekler. `addChart` çağırırken türü belirtirsiniz.
-
-**S2: Grafiklerimde büyük veri setlerini nasıl yönetirim?**  
-C2: Büyük veri setleri için veriyi sayfalara bölmeyi veya çalışma zamanında dış bir kaynaktan (ör. veri tabanı) yüklemeyi düşünün; böylece bellek tüketimini düşük tutarsınız.
-
-**S3: Grafik yerleşimim beklediğimden farklı görünüyor, ne yapmalıyım?**  
-C3: Render etmeden önce `validateChartLayout()` metodunu kullanın; bu metod slayt yerleşimine göre konum ve boyutu düzeltir.
-
-**S4: Aspose.Slides içinde grafik stillerini özelleştirmek mümkün mü?**  
-C4: Kesinlikle! Renkleri, yazı tiplerini, işaretçileri ve lejandları grafik serileri ve biçimlendirme API'leri aracılığıyla değiştirebilirsiniz.
-
-**S5: Aspose.Slides'ı mevcut Java uygulamalarıma nasıl entegre ederim?**  
-C5: Maven/Gradle bağımlılığını ekleyin, kütüphaneyi yukarıda gösterildiği gibi başlatın ve sunum oluşturmanız veya değiştirmeniz gereken her yerde API'yi çağırın.
-
 ## Sıkça Sorulan Sorular
 
 **S: Aspose.Slides tüm işletim sistemlerinde çalışıyor mu?**  
@@ -233,6 +216,12 @@ C: Slayt indeksinin mevcut olduğundan emin olun (`pres.getSlides().get_Item(0)`
 - **Dokümantasyon**: [Aspose.Slides for Java Documentation](https://reference.aspose.com/slides/java/)  
 - **İndirme**: [Aspose.Slides for Java Releases](https://releases.aspose.com/slides/java/)
 
+---
+
+**Son Güncelleme:** 2026-01-11  
+**Test Edilen Versiyon:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -240,9 +229,3 @@ C: Slayt indeksinin mevcut olduğundan emin olun (`pres.getSlides().get_Item(0)`
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2026-01-11  
-**Test Edilen Versiyon:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Yazar:** Aspose

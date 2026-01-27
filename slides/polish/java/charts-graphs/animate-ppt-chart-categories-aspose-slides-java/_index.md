@@ -171,18 +171,6 @@ Animowanie kategorii wykresu w PowerPoint przy użyciu Aspose.Slides for Java mo
 
 **Kolejne kroki:** Eksperymentuj z różnymi wartościami `EffectType` (np. FlyIn, Zoom) i łącz je z przejściami slajdów, aby uzyskać jeszcze bogatsze wrażenia.
 
-## Sekcja FAQ
-1. **Czym jest Aspose.Slides for Java?**  
-   - To potężna biblioteka do programowego zarządzania prezentacjami PowerPoint.  
-2. **Czy mogę animować wykresy w Excelu przy użyciu Aspose.Slides?**  
-   - Nie, Aspose.Slides obsługuje pliki PowerPoint; do Excela użyj Aspose.Cells.  
-3. **Jakie są dostępne popularne efekty animacji?**  
-   - Fade, Appear, FlyIn, Zoom i wiele innych.  
-4. **Jak obsłużyć wyjątki podczas implementacji animacji?**  
-   - Otocz kod blokami try‑catch i loguj szczegóły `Exception`.  
-5. **Czy istnieje limit liczby animacji na slajd?**  
-   - Nie ma sztywnego limitu, ale nadmierna liczba animacji może wpływać na wydajność.
-
 ## Najczęściej zadawane pytania
 
 **P: Czy potrzebuję płatnej licencji, aby korzystać z funkcji animacji?**  
@@ -208,14 +196,6 @@ O: Animacje są przechowywane w formacie pliku PPTX i są obsługiwane przez now
 - [Poproś o tymczasową licencję](https://purchase.aspose.com/temporary-license/)
 - [Forum wsparcia Aspose](https://forum.aspose.com/c/slides/11)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ostatnia aktualizacja:** 2026-01-11  
@@ -223,3 +203,11 @@ O: Animacje są przechowywane w formacie pliku PPTX i są obsługiwane przez now
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

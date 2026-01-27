@@ -170,18 +170,6 @@ Het animeren van chart‑categorieën in PowerPoint met Aspose.Slides voor Java 
 
 **Volgende stappen:** Experimenteer met verschillende `EffectType`‑waarden (bijv. FlyIn, Zoom) en combineer ze met dia‑overgangen voor een nog rijkere ervaring.
 
-## FAQ‑sectie
-1. **Wat is Aspose.Slides voor Java?**  
-   - Het is een krachtige bibliotheek om PowerPoint‑presentaties programmatisch te beheren.  
-2. **Kan ik grafieken in Excel animeren met Aspose.Slides?**  
-   - Nee, Aspose.Slides richt zich op PowerPoint‑bestanden; gebruik Aspose.Cells voor Excel.  
-3. **Welke veelvoorkomende animatie‑effecten zijn beschikbaar?**  
-   - Fade, Appear, FlyIn, Zoom en nog veel meer.  
-4. **Hoe ga ik om met uitzonderingen tijdens de animatie‑implementatie?**  
-   - Plaats je code in try‑catch‑blokken en log de details van `Exception`.  
-5. **Is er een limiet aan het aantal animaties per dia?**  
-   - Er is geen harde limiet, maar overmatige animaties kunnen de prestaties beïnvloeden.
-
 ## Veelgestelde Vragen
 
 **V: Heb ik een betaalde licentie nodig om de animatiefuncties te gebruiken?**  
@@ -207,14 +195,6 @@ A: Animaties worden opgeslagen in het PPTX‑bestandformaat en worden ondersteun
 - [Request Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Laatst bijgewerkt:** 2026-01-11  
@@ -222,3 +202,11 @@ A: Animaties worden opgeslagen in het PPTX‑bestandformaat en worden ondersteun
 **Auteur:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -191,23 +191,6 @@ class GetChartDimensions {
 
 想深入了解嗎？請參考官方的 [Aspose.Slides 文件](https://reference.aspose.com/slides/java/) 以取得進階樣式設定、資料繫結與匯出選項。
 
-## FAQ Section
-
-**Q1: 可以使用 Aspose.Slides 建立不同類型的圖表嗎？**  
-A1: 可以，Aspose.Slides 支援圓餅圖、長條圖、折線圖、面積圖、散佈圖等多種圖表類型。呼叫 `addChart` 時即可指定圖表類型。
-
-**Q2: 如何在圖表中處理大量資料集？**  
-A2: 面對大量資料時，可考慮分頁顯示或在執行時從外部來源（例如資料庫）載入，以降低記憶體使用量。
-
-**Q3: 若圖表版面與預期不同該怎麼辦？**  
-A3: 在渲染前使用 `validateChartLayout()` 方法，它會根據投影片的版面自動校正位置與尺寸。
-
-**Q4: 能否在 Aspose.Slides 中自訂圖表樣式？**  
-A4: 完全可以！您可以透過圖表的系列與格式化 API 調整顏色、字型、標記與圖例等屬性。
-
-**Q5: 如何將 Aspose.Slides 整合至現有的 Java 應用程式？**  
-A5: 只需加入 Maven/Gradle 相依性，依前述方式初始化授權，然後在需要產生或修改簡報的地方呼叫 API 即可。
-
 ## Frequently Asked Questions
 
 **Q: Aspose.Slides 能在所有作業系統上運作嗎？**  
@@ -230,6 +213,12 @@ A: 請確認投影片索引存在（`pres.getSlides().get_Item(0)`），且圖�
 - **文件**： [Aspose.Slides for Java Documentation](https://reference.aspose.com/slides/java/)  
 - **下載**： [Aspose.Slides for Java Releases](https://releases.aspose.com/slides/java/)
 
+---
+
+**最後更新時間：** 2026-01-11  
+**測試環境：** Aspose.Slides for Java 25.4 (JDK 16)  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -237,9 +226,3 @@ A: 請確認投影片索引存在（`pres.getSlides().get_Item(0)`），且圖�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新時間：** 2026-01-11  
-**測試環境：** Aspose.Slides for Java 25.4 (JDK 16)  
-**作者：** Aspose

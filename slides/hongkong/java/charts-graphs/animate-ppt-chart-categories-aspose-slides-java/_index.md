@@ -168,18 +168,6 @@ presentation.save(outputDir + "/AnimatingCategoriesElements_out.pptx", SaveForma
 
 **下一步：** 嘗試不同的 `EffectType` 值（例如 FlyIn、Zoom），並結合投影片切換效果，打造更豐富的體驗。
 
-## FAQ 區段
-1. **什麼是 Aspose.Slides for Java？**  
-   - 它是一個強大的程式化管理 PowerPoint 簡報的函式庫。  
-2. **我可以使用 Aspose.Slides 為 Excel 圖表加入動畫嗎？**  
-   - 不行，Aspose.Slides 只針對 PowerPoint 檔案；若要處理 Excel，請使用 Aspose.Cells。  
-3. **有哪些常見的動畫效果可用？**  
-   - Fade、Appear、FlyIn、Zoom 等多種效果。  
-4. **在實作動畫時如何處理例外？**  
-   - 使用 try‑catch 區塊包住程式碼，並記錄 `Exception` 細節。  
-5. **每張投影片的動畫數量有限制嗎？**  
-   - 沒有硬性上限，但過多動畫可能影響效能。
-
 ## 常見問題
 
 **Q: 需要付費授權才能使用動畫功能嗎？**  
@@ -205,14 +193,6 @@ A: 動畫以 PPTX 檔案格式儲存，支援現代版 Microsoft PowerPoint、Po
 - [申請臨時授權](https://purchase.aspose.com/temporary-license/)
 - [Aspose 支援論壇](https://forum.aspose.com/c/slides/11)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最後更新：** 2026-01-11  
@@ -220,3 +200,11 @@ A: 動畫以 PPTX 檔案格式儲存，支援現代版 Microsoft PowerPoint、Po
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

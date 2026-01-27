@@ -1,5 +1,5 @@
 ---
-title: "How to Use Aspose Slides Java: Add Image Markers to Charts"
+title: "How to Use Aspose Slides Java - Add Image Markers to Charts"
 description: "Learn how to use Aspose Slides for Java, add image markers to charts, and configure the Aspose Slides Maven dependency for custom chart visuals."
 date: "2026-01-11"
 weight: 1
