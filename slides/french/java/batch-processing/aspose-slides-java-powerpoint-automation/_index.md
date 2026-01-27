@@ -204,6 +204,12 @@ R : Appelez la méthode `dispose()` sur votre instance `Presentation` une fois
 - **Licence temporaire :** [Obtain a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Support :** [Aspose Support Forum](https://forum.aspose.com/c/slides/11)  
 
+---
+
+**Dernière mise à jour :** 2025-12-27  
+**Testé avec :** Aspose.Slides for Java 25.4 (JDK 16)  
+**Auteur :** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -211,9 +217,3 @@ R : Appelez la méthode `dispose()` sur votre instance `Presentation` une fois
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2025-12-27  
-**Testé avec :** Aspose.Slides for Java 25.4 (JDK 16)  
-**Auteur :** Aspose

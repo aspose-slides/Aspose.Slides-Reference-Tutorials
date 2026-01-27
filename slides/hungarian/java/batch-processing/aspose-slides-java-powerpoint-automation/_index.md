@@ -204,6 +204,12 @@ A: Hívja meg a `dispose()` metódust a `Presentation` példányon, miután a fe
 - **Ideiglenes licenc:** [Obtain a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Támogatás:** [Aspose Support Forum](https://forum.aspose.com/c/slides/11)  
 
+---
+
+**Last Updated:** 2025-12-27  
+**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -211,9 +217,3 @@ A: Hívja meg a `dispose()` metódust a `Presentation` példányon, miután a fe
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-27  
-**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Author:** Aspose

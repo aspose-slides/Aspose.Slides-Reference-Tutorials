@@ -203,6 +203,12 @@ Aspose.Slides for Java можно интегрировать во множест
 - **Получить временную лицензию:** [Obtain a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Поддержка:** [Aspose Support Forum](https://forum.aspose.com/c/slides/11)  
 
+---
+
+**Последнее обновление:** 2025-12-27  
+**Тестировано с:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Автор:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -210,9 +216,3 @@ Aspose.Slides for Java можно интегрировать во множест
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2025-12-27  
-**Тестировано с:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Автор:** Aspose

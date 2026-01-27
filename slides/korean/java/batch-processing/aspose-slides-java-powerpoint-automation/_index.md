@@ -203,6 +203,12 @@ A: 처리가 완료되면 `Presentation` 인스턴스에 `dispose()` 메서드�
 - **Temporary License:** [Obtain a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Support:** [Aspose Support Forum](https://forum.aspose.com/c/slides/11)  
 
+---
+
+**마지막 업데이트:** 2025-12-27  
+**테스트 환경:** Aspose.Slides for Java 25.4 (JDK 16)  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -210,9 +216,3 @@ A: 처리가 완료되면 `Presentation` 인스턴스에 `dispose()` 메서드�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2025-12-27  
-**테스트 환경:** Aspose.Slides for Java 25.4 (JDK 16)  
-**작성자:** Aspose

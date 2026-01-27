@@ -203,6 +203,12 @@ J: Panggil metode `dispose()` pada instance `Presentation` setelah selesai mempr
 - **Lisensi Sementara:** [Obtain a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Dukungan:** [Aspose Support Forum](https://forum.aspose.com/c/slides/11)  
 
+---
+
+**Terakhir Diperbarui:** 2025-12-27  
+**Diuji Dengan:** Aspose.Slides untuk Java 25.4 (JDK 16)  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -210,9 +216,3 @@ J: Panggil metode `dispose()` pada instance `Presentation` setelah selesai mempr
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2025-12-27  
-**Diuji Dengan:** Aspose.Slides untuk Java 25.4 (JDK 16)  
-**Penulis:** Aspose

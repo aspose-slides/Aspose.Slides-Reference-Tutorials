@@ -203,6 +203,12 @@ A: Roep de `dispose()`‑methode aan op je `Presentation`‑instantie zodra de v
 - **Tijdelijke licentie:** [Obtain a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Ondersteuning:** [Aspose Support Forum](https://forum.aspose.com/c/slides/11)  
 
+---
+
+**Laatst bijgewerkt:** 2025-12-27  
+**Getest met:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -210,9 +216,3 @@ A: Roep de `dispose()`‑methode aan op je `Presentation`‑instantie zodra de v
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2025-12-27  
-**Getest met:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Auteur:** Aspose

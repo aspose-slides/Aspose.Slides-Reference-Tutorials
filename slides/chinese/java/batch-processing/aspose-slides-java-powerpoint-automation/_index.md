@@ -202,6 +202,12 @@ Aspose.Slides for Java 可集成到许多实际场景中：
 - **临时许可证：** [Obtain a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **支持：** [Aspose Support Forum](https://forum.aspose.com/c/slides/11)  
 
+---
+
+**Last Updated:** 2025-12-27  
+**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -209,9 +215,3 @@ Aspose.Slides for Java 可集成到许多实际场景中：
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-27  
-**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Author:** Aspose

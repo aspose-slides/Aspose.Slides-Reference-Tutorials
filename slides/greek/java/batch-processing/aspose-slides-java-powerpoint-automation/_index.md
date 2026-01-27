@@ -204,6 +204,12 @@ if (pres != null) pres.dispose();
 - **Προσωρινή Άδεια:** [Obtain a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Υποστήριξη:** [Aspose Support Forum](https://forum.aspose.com/c/slides/11)  
 
+---
+
+**Τελευταία Ενημέρωση:** 2025-12-27  
+**Δοκιμάστηκε Με:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -211,9 +217,3 @@ if (pres != null) pres.dispose();
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2025-12-27  
-**Δοκιμάστηκε Με:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Συγγραφέας:** Aspose
