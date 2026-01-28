@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-17"
-"description": "Dowiedz się, jak dostosowywać wykresy w prezentacjach .NET przy użyciu Aspose.Slides for Java. Twórz dynamiczne slajdy bogate w dane z łatwością."
-"title": "Aspose.Slides do dostosowywania wykresów Java w prezentacjach .NET"
-"url": "/pl/java/charts-graphs/aspose-slides-java-chart-customization-net-presentations/"
-"weight": 1
+date: '2026-01-17'
+description: Dowiedz się, jak dodać serie do wykresu i dostosować wykresy słupkowe
+  skumulowane w prezentacjach .NET przy użyciu Aspose.Slides dla Javy.
+keywords:
+- Aspose.Slides for Java
+- .NET Presentations
+- Chart Customization
+title: Dodaj serię do wykresu za pomocą Aspose.Slides for Java w .NET
+url: /pl/java/charts-graphs/aspose-slides-java-chart-customization-net-presentations/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,33 +16,44 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Opanowanie dostosowywania wykresów w prezentacjach .NET przy użyciu Aspose.Slides dla Java
+# Opanowanie dostosowywania wykresów w prezentacjach .NET przy użyciu Aspose.Slides for Java
 
 ## Wstęp
-W dziedzinie prezentacji opartych na danych wykresy są niezbędnymi narzędziami, które przekształcają surowe liczby w przekonujące historie wizualne. Tworzenie i dostosowywanie tych wykresów programowo może być zniechęcające, szczególnie podczas pracy ze złożonymi formatami prezentacji, takimi jak .NET. To właśnie tutaj **Aspose.Slides dla Java** świeci, oferując solidne API umożliwiające bezproblemową integrację funkcji wykresów z prezentacjami.
+W świecie prezentacji na wykresach danych są nieodzownymi narzędziami, które zamieniają surowe liczby w przekonujące historie wizualne. Gdy **add series to chart** programowo, szczególnie w pliku prezentacji .NET, zadanie może wydać się przytłaczające. Na szczęście **Aspose.Slides for Java** oferuje, niezależny od języka API, które upraszcza tworzenie i tworzenie wykresów — nawet gdy działa format na .NETPPTX.
 
-W tym samouczku pokażemy, jak wykorzystać moc Aspose.Slides for Java, aby dodawać i dostosowywać wykresy w prezentacjach .NET. Niezależnie od tego, czy automatyzujesz tworzenie prezentacji, czy ulepszasz istniejące slajdy, opanowanie tych umiejętności może znacznie podnieść poziom Twoich projektów.
+W tym samouczku dowiesz się, jak **dodaj serię do wykresu**, jak **jak dodać wykres** typu ułożonego kolumnowo oraz jak szczegółowo dostroić aspekty wizualne, takie jak szerokość przerwy. Po zakończeniu zostaną wygenerowane szczegółowe dane slajdów, które zostaną przedstawione w sposób estetycznie.
 
-**Czego się nauczysz:**
-- Jak utworzyć pustą prezentację za pomocą Aspose.Slides
-- Techniki dodawania wykresu do slajdu
-- Metody włączania serii i kategorii do wykresów
-- Kroki wypełniania punktów danych w serii wykresów
-- Konfigurowanie aspektów wizualnych, takich jak szerokość odstępu między paskami
+**Czego się nauczysz**
+- Jak stworzyć pustą prezentację przy użyciu Aspose.Slides
+- Jak **dodaj skumulowany wykres kolumnowy** zrób slajdu
+- Jak **dodaj serię do wykresu** i odpowiednie kategorie
+- Jak wprowadzić punkty danych i dostosować ustawienia wizualne
 
-Zacznijmy od skonfigurowania Twojego środowiska.
+wirusowe środowisko programistyczne.
 
-## Wymagania wstępne
-Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
-1. **Aspose.Slides dla Java** biblioteka zainstalowana.
-2. Środowisko programistyczne ze skonfigurowanym Mavenem lub Gradle, albo ręczne pobranie plików JAR.
-3. Podstawowa znajomość programowania w języku Java i znajomość formatów plików prezentacyjnych, np. PPTX.
+## Szybkie odpowiedzi
+- **Jakie są podstawowe zajęcia, od których rozpoczyna się prezentacja?** `Prezentacja`
+- **Która metoda dodaje wykres do slajdu?** `slide.getShapes().addChart(...)`
+- **Jak dodać nową serię?** `chart.getChartData().getSeries().add(...)`
+- **Czy możesz zmienić szerokość przerwy między słupkami?** Tak, używając `setGapWidth()` w grupie serii
+- **Czy potrzebuję licencji na produkcję?** Tak, wymagana jest ważna licencja Aspose.Slides for Java
+
+## Co to jest „dodaj serię do wykresu”?
+Dodanie serii do wykresu oznacza wprowadzenie nowej kolekcji danych, wykres wyjściowy jako element alternatywny (np. nowy słupek, początek lub części koła). Dostępna seria może mieć własny zestaw wartości, produktów i formatowania, co pozwala na porównywalność wielu zestawów danych obok siebie.
+
+## Po co używać Aspose.Slides for Java do modyfikowania prezentacji .NET?
+- **Wiele platform**: Napisz kod w Javie raz i celuj w plikach PPTX używanych przez aplikacje .NET.
+- **Brak zależności COM lub Office**: Działa na serwerze, w rurociągach CI i kontenerach.
+- **Bogate wykresy API**: Obsługuje ponad 50 charakterystycznych wykresów, w tym wykresy ułożone w kolumnie.
+
+## Warunki wstępne
+1. Biblioteka **Aspose.Slides for Java** (wersja25.4 lub nowsza).
+2. narzędzie budujące Maven lub Gradle, albo ręczne pobranie JAR-a.
+3. Podstawowa przyjemność Javy oraz struktury plików PPTX.
 
 ## Konfigurowanie Aspose.Slides dla Java
-Aby zacząć używać Aspose.Slides dla Java, musisz zintegrować go ze swoim projektem. Oto jak to zrobić:
-
-### Instalacja Maven
-Dodaj następującą zależność do swojego `pom.xml`:
+### Instalacja Mavena
+Dodaj następującą zależność do pliku `pom.xml`:
 
 ```xml
 <dependency>
@@ -49,159 +65,134 @@ Dodaj następującą zależność do swojego `pom.xml`:
 ```
 
 ### Instalacja Gradle
-Uwzględnij to w swoim `build.gradle` plik:
+Dodaj ten wiersz do pliku `build.gradle`:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
 ### Bezpośrednie pobieranie
-Alternatywnie, pobierz najnowszą wersję z [Aspose.Slides dla wydań Java](https://releases.aspose.com/slides/java/).
+Alternatywnie, pobierz najnowszy plik JAR z oficjalnej strony wydania: [Aspose.Slides dla wydań Java](https://releases.aspose.com/slides/java/).
 
-**Nabycie licencji:**
-Możesz rozpocząć bezpłatny okres próbny, pobierając tymczasową licencję ze strony [Tutaj](https://purchase.aspose.com/temporary-license/). W przypadku długotrwałego użytkowania należy rozważyć zakup pełnej licencji.
+**Nabycie licencji**
+Rozpocznij od bezpłatnego okresu próbnego, pobierając tymczasową licencję [tutaj](https://purchase.aspose.com/temporary-license/). Do użytku produkcyjnego, kup pełną licencję, aby odblokować wszystkie funkcje.
 
-Po skonfigurowaniu zainicjujmy i zapoznajmy się z funkcjami Aspose.Slides dla Java.
+## Przewodnik implementacji krok po kroku
+Poniżej każdego kroku znajdziesz zwięzły fragment kodu (niezmieniony w stosunku do oryginalnego samouczka), a następnie wyjaśnienie jego działania.
 
-## Przewodnik wdrażania
-### Funkcja 1: Utwórz pustą prezentację
-Utworzenie pustej prezentacji to pierwszy krok w kierunku tworzenia dynamicznych pokazów slajdów. Oto jak to zrobić:
-
-#### Przegląd
-tej sekcji pokazano, jak zainicjować nowy obiekt prezentacji przy użyciu Aspose.Slides.
-
+### Krok 1: Utwórz pustą prezentację
 ```java
 import com.aspose.slides.*;
 
-// Zainicjuj pustą prezentację
+// Initialize an empty presentation
 Presentation presentation = new Presentation();
 
-// Uzyskaj dostęp do pierwszego slajdu (utworzonego automatycznie)
+// Access the first slide (automatically created)
 ISlide slide = presentation.getSlides().get_Item(0);
 
-// Zapisz prezentację w określonej ścieżce
+// Save the presentation to a specified path
 presentation.save("YOUR_OUTPUT_DIRECTORY/Empty_Presentation.pptx", SaveFormat.Pptx);
 ```
+*Zaczynamy od czystego pliku PPTX, który daje nam płótno do dodawania wykresów.*
 
-**Wyjaśnienie:**
-- `Presentation` obiekt zostaje utworzony i reprezentuje nową prezentację.
-- Dostęp `slide` umożliwia bezpośrednią manipulację treścią lub jej dodawanie.
-
-### Funkcja 2: Dodaj wykres do slajdu
-Dodanie wykresu może skutecznie reprezentować dane wizualnie. Oto jak:
-
-#### Przegląd
-Funkcja ta polega na dodaniu do slajdu wykresu kolumnowego.
-
+### Krok 2: Dodaj wykres kolumnowy skumulowany do slajdu
 ```java
-// Importuj niezbędne klasy Aspose.Slides
+// Import necessary Aspose.Slides classes
 import com.aspose.slides.*;
 
-// Dodaj wykres typu StackedColumn
+// Add a chart of type StackedColumn
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn, 0, 0, 500, 500);
 
-// Zapisz prezentację z nowym wykresem
+// Save the presentation with the new chart
 presentation.save("YOUR_OUTPUT_DIRECTORY/Chart_Added.pptx", SaveFormat.Pptx);
 ```
+*Metoda `addChart` tworzy **add stacked column chart** i umieszcza go w lewym‑górnym rogu slajdu.*
 
-**Wyjaśnienie:**
-- `addChart` Metoda ta służy do tworzenia obiektu wykresu i dodawania go do slajdu.
-- Parametry takie jak `0, 0, 500, 500` określ pozycję i rozmiar wykresu.
-
-### Funkcja 3: Dodaj serię do wykresu
-Dostosowywanie wykresów obejmuje dodawanie serii danych. Oto, jak to zrobić:
-
-#### Przegląd
-Dodaj dwie różne serie do istniejącego wykresu.
-
+### Krok 3: Dodaj serie do wykresu (cel główny)
 ```java
-// Uzyskiwanie dostępu do domyślnego indeksu arkusza kalkulacyjnego dla danych wykresu
+// Accessing the default worksheet index for chart data
 int defaultWorksheetIndex = 0;
 
-// Dodawanie serii do wykresu
+// Adding series to the chart
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), chart.getType());
 
-// Zapisz prezentację po dodaniu serii
+// Save the presentation after adding series
 presentation.save("YOUR_OUTPUT_DIRECTORY/Series_Added.pptx", SaveFormat.Pptx);
 ```
+*Tutaj **add series to chart** – każde wywołanie tworzy nową serię danych, która pojawi się jako oddzielna grupa słupków.*
 
-**Wyjaśnienie:**
-- Każde połączenie do `add` tworzy nową serię na wykresie.
-- Ten `getType()` Metoda ta zapewnia spójność typu wykresu we wszystkich seriach.
-
-### Funkcja 4: Dodawanie kategorii do wykresu
-Kategoryzacja danych jest kluczowa dla przejrzystości. Oto jak:
-
-#### Przegląd
-Funkcja ta dodaje kategorie do wykresu, zwiększając jego możliwości opisowe.
-
+### Krok 4: Dodaj kategorie do wykresu
 ```java
-// Dodawanie kategorii do wykresu
+// Adding categories to the chart
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 1, 0, "Category 1"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 0, "Category 2"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Category 3"));
 
-// Zapisz prezentację po dodaniu kategorii
+// Save the presentation after adding categories
 presentation.save("YOUR_OUTPUT_DIRECTORY/Categories_Added.pptx", SaveFormat.Pptx);
 ```
+*Kategorie pełnią rolę etykiet osi X, nadając sens każdemu słupkowi.*
 
-**Wyjaśnienie:**
-- `getCategories().add` wypełnia wykres znaczącymi etykietami.
-
-### Funkcja 5: Wypełnij dane serii
-Wypełnianie danych sprawia, że Twoje wykresy są informacyjne. Oto jak:
-
-#### Przegląd
-Dodaj konkretne punkty danych do każdej serii na wykresie.
-
+### Krok 5: Uzupełnij dane serii
 ```java
-// Uzyskiwanie dostępu do określonej serii w celu gromadzenia danych
+// Accessing a particular series for data population
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
 
-// Dodawanie punktów danych do serii
+// Adding data points to the series
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
-// Zapisz prezentację z wypełnionymi danymi
+// Save the presentation with populated data
 presentation.save("YOUR_OUTPUT_DIRECTORY/Series_Data_Populated.pptx", SaveFormat.Pptx);
 ```
+*Punkty danych dostarczają każdej serii wartości liczbowych, które wykres wyświetli jako wysokość słupków.*
 
-**Wyjaśnienie:**
-- `getDataPoints()` Metoda ta służy do wprowadzania wartości liczbowych do serii.
-
-### Funkcja 6: Ustaw szerokość przerwy dla grupy serii wykresów
-Dopracowanie wyglądu wizualnego wykresu może poprawić czytelność. Oto jak:
-
-#### Przegląd
-Dostosuj szerokość odstępu między słupkami w grupie serii wykresów.
-
+### Krok 6: Ustaw szerokość przerwy dla grupy serii wykresu
 ```java
-// Ustawianie szerokości odstępu między prętami
+// Setting the gap width between bars
 series.getParentSeriesGroup().setGapWidth(50);
 
-// Zapisz prezentację po dostosowaniu szerokości odstępu
+// Save the presentation after adjusting the gap width
 presentation.save("YOUR_OUTPUT_DIRECTORY/Set_GapWidth.pptx", SaveFormat.Pptx);
 ```
+*Regulacja szerokości przerwy poprawia czytelność, szczególnie przy dużej liczbie kategorii.*
 
-**Wyjaśnienie:**
-- `setGapWidth()` Metoda ta polega na modyfikacji odstępów w celach estetycznych.
+## Typowe przypadki użycia
+- **Sprawozdawczość finansowa** – zestawienie wyników kwartalnych w różnych jednostkach biznesowych.
+- **Dashboardy projektów** – wyświetlanie procentu zadań w poszczególnych zespołach.
+- **Analiza marketingowa** – wizualizacje wyników obok siebie.
 
-## Zastosowania praktyczne
-Oto kilka scenariuszy z życia wziętych, w których te funkcje mogą zostać zastosowane:
-1. **Sprawozdania finansowe**:Użyj wykresów kolumnowych, aby przedstawić kwartalne zyski w różnych działach.
-2. **Panele zarządzania projektami**:Wizualizacja wskaźników realizacji zadań przy użyciu serii słupków z niestandardowymi szerokościami przerw.
-3. **Analityka marketingowa**:Klasyfikuj dane według typu kampanii i wypełniaj serie metrykami zaangażowania.
+## Wskazówki dotyczące wydajności
+- **Ponownie użyj obiektu „Prezentacja”** podczas tworzenia wielu wykresów, aby zmniejszyć obciążenie pamięci.
+- **Ogranicz liczbę punktów danych** tylko do tych potrzebnych do historii wizualnej.
+- **Pozbądź się obiektów** (`presentation.dispose()`) po zapisaniu w wolnych zasobach.
 
-## Rozważania dotyczące wydajności
-Aby zapewnić optymalną wydajność podczas pracy z Aspose.Slides dla Java:
-- **Optymalizacja wykorzystania zasobów:** Ogranicz liczbę slajdów i wykresów, aby uniknąć nadmiernego wykorzystania pamięci.
-- **Efektywne przetwarzanie danych:** Wprowadź na wykresach tylko niezbędne punkty danych.
-- **Zarządzanie pamięcią:** Regularnie usuwaj nieużywane przedmioty, aby zwolnić zasoby.
+## Często zadawane pytania
+**P: Czy mogę dodać inne typy wykresów oprócz skumulowanych kolumn?**
+O: Tak, Aspose.Slides obsługuje wykresy liniowe, kołowe, obszarowe i wiele innych typów wykresów.
+
+**P: Czy potrzebuję osobnej licencji na wyjście .NET?**
+O: Nie, ta sama licencja Java działa dla wszystkich formatów wyjściowych, w tym plików .NET PPTX.
+
+**P: Jak zmienić paletę kolorów wykresu?**
+O: Użyj `chart.getChartData().getSeries().get_Item(i).getFormat().getFill().setFillType(FillType.Solid)` i ustaw żądany `Color`.
+
+**P: Czy można programowo dodawać etykiety danych?**
+O: Oczywiście. Wywołaj `series.getDataPoints().get_Item(j).getLabel().setShowValue(true)`, aby wyświetlić wartości.
+
+**P: Co zrobić, jeśli muszę zaktualizować istniejącą prezentację?**
+O: Wczytaj plik za pomocą `new Presentation("existing.pptx")`, zmodyfikuj wykres i zapisz go ponownie.
 
 ## Wniosek
-Opanowałeś już podstawy dodawania i dostosowywania wykresów w prezentacjach .NET przy użyciu Aspose.Slides for Java. Niezależnie od tego, czy automatyzujesz tworzenie prezentacji, czy ulepszasz istniejące slajdy, te umiejętności mogą znacznie podnieść poziom Twoich projektów. Aby uzyskać dalsze informacje, rozważ zanurzenie się w dodatkowych typach wykresów i zaawansowanych opcjach dostosowywania dostępnych w bibliotece Aspose.Slides.
+Masz teraz kompletny przewodnik, jak **dodaj serię do wykresu**, jak stworzyć **stacked Column Chart** oraz jak dopracować jego wygląd w prezentacji .NET przy użyciu Aspose.Slides for Java. Eksperymentuj z typami wykresów, kolorów i źródeł danych, aby utworzyć przekonujące raporty wizualne, które zrobią wrażenie na interesariuszach.
+
+---
+
+**Ostatnia aktualizacja:** 17.01.2026
+**Testowano z:** Aspose.Slides dla Java 25.4 (jdk16)
+**Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

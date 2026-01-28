@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-17"
-"description": "Tìm hiểu cách tùy chỉnh biểu đồ trong bài thuyết trình .NET bằng Aspose.Slides for Java. Tạo slide động, giàu dữ liệu một cách dễ dàng."
-"title": "Aspose.Slides cho Java&#58; Tùy chỉnh biểu đồ trong bài thuyết trình .NET"
-"url": "/vi/java/charts-graphs/aspose-slides-java-chart-customization-net-presentations/"
-"weight": 1
+date: '2026-01-17'
+description: Tìm hiểu cách thêm chuỗi vào biểu đồ và tùy chỉnh biểu đồ cột chồng trong
+  các bản trình bày .NET bằng cách sử dụng Aspose.Slides cho Java.
+keywords:
+- Aspose.Slides for Java
+- .NET Presentations
+- Chart Customization
+title: Thêm chuỗi vào biểu đồ với Aspose.Slides cho Java trong .NET
+url: /vi/java/charts-graphs/aspose-slides-java-chart-customization-net-presentations/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,33 +16,44 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Làm chủ tùy chỉnh biểu đồ trong bài thuyết trình .NET bằng Aspose.Slides cho Java
+# Thành thạo tùy chỉnh biểu đồ trong các bản trình bày .NET bằng Aspose.Slides cho Java
 
 ## Giới thiệu
-Trong lĩnh vực trình bày dữ liệu, biểu đồ là công cụ không thể thiếu để chuyển đổi các con số thô thành những câu chuyện trực quan hấp dẫn. Việc tạo và tùy chỉnh các biểu đồ này theo chương trình có thể rất khó khăn, đặc biệt là khi làm việc với các định dạng trình bày phức tạp như .NET. Đây là nơi **Aspose.Slides cho Java** tỏa sáng, cung cấp API mạnh mẽ để tích hợp liền mạch các chức năng biểu đồ vào bài thuyết trình của bạn.
+Trong lĩnh vực các bản trình bày dựa trên dữ liệu, biểu đồ là công cụ không thể thiếu giúp biến các con số thô thành những câu chuyện hình ảnh hấp dẫn. Khi bạn cần **add series to chart** một cách lập trình, đặc biệt là trong các tệp trình bày .NET, công việc có thể cảm thấy quá tải. May mắn là **Aspose.Slides for Java** cung cấp một API mạnh mẽ, không phụ thuộc ngôn ngữ, giúp việc tạo và tùy chỉnh biểu đồ trở nên đơn giản—ngay cả khi định dạng mục tiêu là một tệp .NET PPTX.
 
-Trong hướng dẫn này, chúng ta sẽ khám phá cách khai thác sức mạnh của Aspose.Slides for Java để thêm và tùy chỉnh biểu đồ trong các bài thuyết trình .NET. Cho dù bạn đang tự động hóa việc tạo bài thuyết trình hay cải thiện các slide hiện có, việc thành thạo các kỹ năng này có thể nâng cao đáng kể các dự án của bạn.
+Trong hướng dẫn này, bạn sẽ khám phá cách **add series to chart**, cách **add chart** loại stacked column, và cách tinh chỉnh các khía cạnh hình ảnh như gap width. Khi kết thúc, bạn sẽ có thể tạo các slide động, giàu dữ liệu, trông chuyên nghiệp và tinh tế.
 
-**Những gì bạn sẽ học được:**
-- Cách tạo bài thuyết trình trống bằng Aspose.Slides
-- Kỹ thuật thêm biểu đồ vào slide
-- Phương pháp kết hợp chuỗi và danh mục vào biểu đồ
-- Các bước để điền điểm dữ liệu vào chuỗi biểu đồ
-- Cấu hình các khía cạnh trực quan như chiều rộng khoảng cách giữa các thanh
+**Bạn sẽ học được**
+- Cách tạo một bản trình bày trống bằng Aspose.Slides  
+- Cách **add stacked column chart** vào một slide  
+- Cách **add series to chart** và định nghĩa các danh mục  
+- Cách điền dữ liệu vào các điểm và điều chỉnh các thiết lập hình ảnh  
 
-Hãy cùng bắt đầu bằng cách thiết lập môi trường của bạn.
+Hãy chuẩn bị môi trường phát triển của bạn.
 
-## Điều kiện tiên quyết
-Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
-1. **Aspose.Slides cho Java** thư viện đã được cài đặt.
-2. Môi trường phát triển được cấu hình Maven hoặc Gradle hoặc tải xuống tệp JAR theo cách thủ công.
-3. Kiến thức cơ bản về lập trình Java và quen thuộc với các định dạng tệp trình bày như PPTX.
+## Trả lời nhanh
+- **Lớp chính để bắt đầu một bản trình bày là gì?** `Presentation`  
+- **Phương thức nào thêm biểu đồ vào slide?** `slide.getShapes().addChart(...)`  
+- **Làm thế nào để thêm một series mới?** `chart.getChartData().getSeries().add(...)`  
+- **Có thể thay đổi gap width giữa các thanh không?** Có, sử dụng `setGapWidth()` trên nhóm series  
+- **Có cần giấy phép cho môi trường production không?** Có, cần một giấy phép Aspose.Slides for Java hợp lệ  
 
-## Thiết lập Aspose.Slides cho Java
-Để bắt đầu sử dụng Aspose.Slides for Java, bạn cần tích hợp nó vào dự án của mình. Sau đây là cách thực hiện:
+## “add series to chart” là gì?
+Thêm một series vào biểu đồ có nghĩa là chèn một tập hợp dữ liệu mới mà biểu đồ sẽ hiển thị dưới dạng một yếu tố hình ảnh riêng biệt (ví dụ: một thanh, đường, hoặc phần). Mỗi series có thể có các giá trị, màu sắc và định dạng riêng, cho phép bạn so sánh nhiều bộ dữ liệu cạnh nhau.
 
+## Tại sao nên dùng Aspose.Slides for Java để chỉnh sửa bản trình bày .NET?
+- **Cross‑platform**: Viết mã Java một lần và tạo các tệp PPTX được sử dụng bởi các ứng dụng .NET.  
+- **Không cần COM hay phụ thuộc Office**: Hoạt động trên máy chủ, pipeline CI và container.  
+- **API biểu đồ phong phú**: Hỗ trợ hơn 50 loại biểu đồ, bao gồm stacked column charts.  
+
+## Yêu cầu trước
+1. Thư viện **Aspose.Slides for Java** (phiên bản 25.4 trở lên).  
+2. Công cụ xây dựng Maven hoặc Gradle, hoặc tải JAR thủ công.  
+3. Kiến thức cơ bản về Java và cấu trúc PPTX.  
+
+## Cài đặt Aspose.Slides for Java
 ### Cài đặt Maven
-Thêm phụ thuộc sau vào `pom.xml`:
+Thêm phụ thuộc sau vào file `pom.xml` của bạn:
 
 ```xml
 <dependency>
@@ -49,159 +65,134 @@ Thêm phụ thuộc sau vào `pom.xml`:
 ```
 
 ### Cài đặt Gradle
-Bao gồm điều này trong của bạn `build.gradle` tài liệu:
+Thêm dòng sau vào file `build.gradle` của bạn:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Tải xuống trực tiếp
-Ngoài ra, hãy tải xuống phiên bản mới nhất từ [Aspose.Slides cho bản phát hành Java](https://releases.aspose.com/slides/java/).
+### Tải trực tiếp
+Hoặc tải JAR mới nhất từ trang phát hành chính thức: [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-**Mua giấy phép:**
-Bạn có thể bắt đầu dùng thử miễn phí bằng cách tải xuống giấy phép tạm thời từ [đây](https://purchase.aspose.com/temporary-license/). Để sử dụng lâu dài, hãy cân nhắc mua giấy phép đầy đủ.
+**Mua giấy phép**  
+Bắt đầu với bản dùng thử miễn phí bằng cách tải giấy phép tạm thời từ [here](https://purchase.aspose.com/temporary-license/). Đối với môi trường production, mua giấy phép đầy đủ để mở khóa tất cả tính năng.
 
-Sau khi thiết lập xong, hãy khởi tạo và khám phá các tính năng của Aspose.Slides cho Java.
+## Hướng dẫn triển khai từng bước
+Dưới mỗi bước bạn sẽ thấy một đoạn mã ngắn gọn (giữ nguyên như trong hướng dẫn gốc) kèm theo giải thích về chức năng của nó.
 
-## Hướng dẫn thực hiện
-### Tính năng 1: Tạo một bài thuyết trình trống
-Tạo một bài thuyết trình trống là bước đầu tiên để xây dựng các trình chiếu động. Sau đây là cách thực hiện:
-
-#### Tổng quan
-Phần này trình bày cách khởi tạo một đối tượng trình bày mới bằng Aspose.Slides.
-
+### Bước 1: Tạo một bản trình bày trống
 ```java
 import com.aspose.slides.*;
 
-// Khởi tạo một bài thuyết trình trống
+// Initialize an empty presentation
 Presentation presentation = new Presentation();
 
-// Truy cập trang chiếu đầu tiên (được tạo tự động)
+// Access the first slide (automatically created)
 ISlide slide = presentation.getSlides().get_Item(0);
 
-// Lưu bài thuyết trình vào đường dẫn đã chỉ định
+// Save the presentation to a specified path
 presentation.save("YOUR_OUTPUT_DIRECTORY/Empty_Presentation.pptx", SaveFormat.Pptx);
 ```
+*Chúng ta bắt đầu với một tệp PPTX sạch, cung cấp một canvas để thêm biểu đồ.*
 
-**Giải thích:**
-- `Presentation` đối tượng được khởi tạo, đại diện cho bản trình bày mới của bạn.
-- Truy cập `slide` cho phép bạn thao tác hoặc thêm nội dung trực tiếp.
-
-### Tính năng 2: Thêm biểu đồ vào trang chiếu
-Việc thêm biểu đồ có thể biểu diễn dữ liệu một cách trực quan một cách hiệu quả. Sau đây là cách thực hiện:
-
-#### Tổng quan
-Tính năng này bao gồm việc thêm biểu đồ cột xếp chồng vào trang chiếu.
-
+### Bước 2: Thêm một Stacked Column Chart vào Slide
 ```java
-// Nhập các lớp Aspose.Slides cần thiết
+// Import necessary Aspose.Slides classes
 import com.aspose.slides.*;
 
-// Thêm biểu đồ loại StackedColumn
+// Add a chart of type StackedColumn
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn, 0, 0, 500, 500);
 
-// Lưu bản trình bày với biểu đồ mới
+// Save the presentation with the new chart
 presentation.save("YOUR_OUTPUT_DIRECTORY/Chart_Added.pptx", SaveFormat.Pptx);
 ```
+*Phương thức `addChart` tạo một **add stacked column chart** và đặt nó ở góc trên‑trái của slide.*
 
-**Giải thích:**
-- `addChart` phương pháp này được sử dụng để tạo đối tượng biểu đồ và thêm nó vào slide.
-- Các thông số như `0, 0, 500, 500` xác định vị trí và kích thước của biểu đồ.
-
-### Tính năng 3: Thêm Chuỗi vào Biểu đồ
-Tùy chỉnh biểu đồ liên quan đến việc thêm chuỗi dữ liệu. Sau đây là cách thực hiện:
-
-#### Tổng quan
-Thêm hai chuỗi khác nhau vào biểu đồ hiện tại của bạn.
-
+### Bước 3: Thêm Series vào Biểu đồ (Mục tiêu chính)
 ```java
-// Truy cập chỉ mục bảng tính mặc định cho dữ liệu biểu đồ
+// Accessing the default worksheet index for chart data
 int defaultWorksheetIndex = 0;
 
-// Thêm chuỗi vào biểu đồ
+// Adding series to the chart
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), chart.getType());
 
-// Lưu bản trình bày sau khi thêm chuỗi
+// Save the presentation after adding series
 presentation.save("YOUR_OUTPUT_DIRECTORY/Series_Added.pptx", SaveFormat.Pptx);
 ```
+*Ở đây chúng ta **add series to chart** – mỗi lời gọi tạo một series dữ liệu mới sẽ xuất hiện dưới dạng một nhóm cột riêng biệt.*
 
-**Giải thích:**
-- Mỗi cuộc gọi đến `add` tạo một chuỗi mới trong biểu đồ của bạn.
-- Các `getType()` phương pháp này đảm bảo tính nhất quán trong kiểu biểu đồ trên tất cả các chuỗi.
-
-### Tính năng 4: Thêm danh mục vào biểu đồ
-Phân loại dữ liệu là rất quan trọng để có được sự rõ ràng. Sau đây là cách thực hiện:
-
-#### Tổng quan
-Tính năng này thêm các danh mục vào biểu đồ, tăng cường khả năng mô tả của biểu đồ.
-
+### Bước 4: Thêm Danh mục vào Biểu đồ
 ```java
-// Thêm danh mục vào biểu đồ
+// Adding categories to the chart
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 1, 0, "Category 1"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 0, "Category 2"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Category 3"));
 
-// Lưu bản trình bày sau khi thêm danh mục
+// Save the presentation after adding categories
 presentation.save("YOUR_OUTPUT_DIRECTORY/Categories_Added.pptx", SaveFormat.Pptx);
 ```
+*Các danh mục đóng vai trò là nhãn trục X, cung cấp ý nghĩa cho mỗi cột.*
 
-**Giải thích:**
-- `getCategories().add` điền nhãn có ý nghĩa vào biểu đồ.
-
-### Tính năng 5: Điền dữ liệu chuỗi
-Việc điền dữ liệu làm cho biểu đồ của bạn có nhiều thông tin hơn. Sau đây là cách thực hiện:
-
-#### Tổng quan
-Thêm các điểm dữ liệu cụ thể vào từng chuỗi trong biểu đồ.
-
+### Bước 5: Điền Dữ liệu cho Series
 ```java
-// Truy cập một loạt dữ liệu cụ thể để thu thập dữ liệu
+// Accessing a particular series for data population
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
 
-// Thêm điểm dữ liệu vào chuỗi
+// Adding data points to the series
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
-// Lưu bản trình bày với dữ liệu đã điền
+// Save the presentation with populated data
 presentation.save("YOUR_OUTPUT_DIRECTORY/Series_Data_Populated.pptx", SaveFormat.Pptx);
 ```
+*Các điểm dữ liệu cung cấp giá trị số cho mỗi series, và biểu đồ sẽ hiển thị chúng dưới dạng chiều cao của các thanh.*
 
-**Giải thích:**
-- `getDataPoints()` phương pháp này được sử dụng để chèn các giá trị số vào chuỗi.
-
-### Tính năng 6: Thiết lập độ rộng khoảng cách cho nhóm chuỗi biểu đồ
-Tinh chỉnh giao diện trực quan của biểu đồ có thể cải thiện khả năng đọc. Sau đây là cách thực hiện:
-
-#### Tổng quan
-Điều chỉnh độ rộng khoảng cách giữa các thanh trong nhóm biểu đồ.
-
+### Bước 6: Đặt Gap Width cho Nhóm Series của Biểu đồ
 ```java
-// Thiết lập độ rộng khoảng cách giữa các thanh
+// Setting the gap width between bars
 series.getParentSeriesGroup().setGapWidth(50);
 
-// Lưu bản trình bày sau khi điều chỉnh độ rộng khoảng cách
+// Save the presentation after adjusting the gap width
 presentation.save("YOUR_OUTPUT_DIRECTORY/Set_GapWidth.pptx", SaveFormat.Pptx);
 ```
+*Điều chỉnh gap width giúp cải thiện khả năng đọc, đặc biệt khi có nhiều danh mục.*
 
-**Giải thích:**
-- `setGapWidth()` phương pháp này thay đổi khoảng cách vì mục đích thẩm mỹ.
+## Các trường hợp sử dụng phổ biến
+- **Báo cáo tài chính** – so sánh doanh thu quý theo các đơn vị kinh doanh.  
+- **Bảng điều khiển dự án** – hiển thị tỷ lệ hoàn thành nhiệm vụ theo từng nhóm.  
+- **Phân tích marketing** – trực quan hoá hiệu suất chiến dịch cạnh nhau.  
 
-## Ứng dụng thực tế
-Sau đây là một số tình huống thực tế có thể áp dụng các tính năng này:
-1. **Báo cáo tài chính**:Sử dụng biểu đồ cột xếp chồng để hiển thị thu nhập theo quý của các phòng ban khác nhau.
-2. **Bảng điều khiển quản lý dự án**: Hình dung tỷ lệ hoàn thành nhiệm vụ bằng cách sử dụng chuỗi thanh có độ rộng khoảng cách tùy chỉnh.
-3. **Phân tích tiếp thị**: Phân loại dữ liệu theo loại chiến dịch và điền số liệu về mức độ tương tác vào chuỗi.
+## Mẹo hiệu năng
+- **Tái sử dụng đối tượng `Presentation`** khi tạo nhiều biểu đồ để giảm tải bộ nhớ.  
+- **Giới hạn số điểm dữ liệu** chỉ ở mức cần thiết cho câu chuyện hình ảnh.  
+- **Giải phóng đối tượng** (`presentation.dispose()`) sau khi lưu để giải phóng tài nguyên.
 
-## Cân nhắc về hiệu suất
-Để đảm bảo hiệu suất tối ưu khi làm việc với Aspose.Slides cho Java:
-- **Tối ưu hóa việc sử dụng tài nguyên:** Giới hạn số lượng slide và biểu đồ để tránh tình trạng quá tải bộ nhớ.
-- **Xử lý dữ liệu hiệu quả:** Chỉ điền những điểm dữ liệu cần thiết vào biểu đồ của bạn.
-- **Quản lý bộ nhớ:** Thường xuyên dọn dẹp những đồ vật không sử dụng để giải phóng tài nguyên.
+## Câu hỏi thường gặp
+**Q: Tôi có thể thêm các loại biểu đồ khác ngoài stacked column không?**  
+A: Có, Aspose.Slides hỗ trợ line, pie, area và nhiều loại biểu đồ khác.
 
-## Phần kết luận
-Bây giờ bạn đã nắm vững những điều cơ bản về việc thêm và tùy chỉnh biểu đồ trong các bài thuyết trình .NET bằng Aspose.Slides for Java. Cho dù bạn đang tự động hóa việc tạo bài thuyết trình hay cải thiện các slide hiện có, những kỹ năng này có thể nâng cao đáng kể các dự án của bạn. Để khám phá thêm, hãy cân nhắc tìm hiểu sâu hơn về các loại biểu đồ bổ sung và các tùy chọn tùy chỉnh nâng cao có sẵn trong thư viện Aspose.Slides.
+**Q: Tôi có cần giấy phép riêng cho đầu ra .NET không?**  
+A: Không, cùng một giấy phép Java hoạt động cho tất cả các định dạng đầu ra, bao gồm cả tệp PPTX .NET.
+
+**Q: Làm sao thay đổi bảng màu của biểu đồ?**  
+A: Sử dụng `chart.getChartData().getSeries().get_Item(i).getFormat().getFill().setFillType(FillType.Solid)` và đặt `Color` mong muốn.
+
+**Q: Có thể thêm nhãn dữ liệu bằng lập trình không?**  
+A: Chắc chắn. Gọi `series.getDataPoints().get_Item(j).getLabel().setShowValue(true)` để hiển thị giá trị.
+
+**Q: Nếu tôi cần cập nhật một bản trình bày đã tồn tại thì sao?**  
+A: Tải tệp bằng `new Presentation("existing.pptx")`, chỉnh sửa biểu đồ và lưu lại.
+
+## Kết luận
+Bạn đã có một hướng dẫn toàn diện, từ đầu đến cuối, về cách **add series to chart**, tạo một **stacked column chart**, và tinh chỉnh giao diện của nó trong các bản trình bày .NET bằng Aspose.Slides for Java. Hãy thử nghiệm với các loại biểu đồ, màu sắc và nguồn dữ liệu khác nhau để xây dựng các báo cáo hình ảnh hấp dẫn, gây ấn tượng với các bên liên quan.
+
+---
+
+**Last Updated:** 2026-01-17  
+**Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
