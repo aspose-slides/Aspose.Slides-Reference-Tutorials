@@ -171,6 +171,12 @@ presentation.save("YOUR_OUTPUT_DIRECTORY/AnimationEffectinParagraph.pptx", SaveF
 
 ابدأ الآن في تحسين عروضك التقديمية باستخدام Aspose.Slides for Java وابدأ بإنشاء شرائح أكثر جذبًا وتفاعلية اليوم!
 
+---
+
+**آخر تحديث:** 2026-01-27  
+**تم الاختبار مع:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -178,9 +184,3 @@ presentation.save("YOUR_OUTPUT_DIRECTORY/AnimationEffectinParagraph.pptx", SaveF
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2026-01-27  
-**تم الاختبار مع:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
-**المؤلف:** Aspose

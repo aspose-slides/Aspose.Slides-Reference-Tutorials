@@ -6,7 +6,7 @@ keywords:
 - Aspose.Slides for Java
 - automate PowerPoint transitions
 - Java PPTX automation
-title: 'สร้างงานนำเสนอโดยเขียนโปรแกรมใน Java: ทำให้การเปลี่ยนสไลด์ PowerPoint เป็นอัตโนมัติด้วย
+title: 'สร้างงานนำเสนอโดยเขียนโปรแกรมใน Java - ทำให้การเปลี่ยนสไลด์ PowerPoint เป็นอัตโนมัติด้วย
   Aspose.Slides'
 url: /th/java/animations-transitions/aspose-slides-java-presentation-automation/
 weight: 1
@@ -195,6 +195,12 @@ A: For high‑volume automation, a **temporary license** for evaluation or a **s
 
 ลงมือทดลองกับประเภทการเปลี่ยนสไลด์ต่างๆ และให้การนำเสนอของคุณเปล่งประกายด้วยการอัตโนมัติระดับมืออาชีพ!
 
+---
+
+**อัปเดตล่าสุด:** 2026-01-27  
+**ทดสอบด้วย:** Aspose.Slides 25.4 (JDK 16)  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -202,9 +208,3 @@ A: For high‑volume automation, a **temporary license** for evaluation or a **s
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2026-01-27  
-**ทดสอบด้วย:** Aspose.Slides 25.4 (JDK 16)  
-**ผู้เขียน:** Aspose

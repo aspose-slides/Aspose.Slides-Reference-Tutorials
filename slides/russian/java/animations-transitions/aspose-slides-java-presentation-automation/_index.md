@@ -7,7 +7,7 @@ keywords:
 - Aspose.Slides for Java
 - automate PowerPoint transitions
 - Java PPTX automation
-title: 'Создание презентации программно на Java: автоматизация переходов PowerPoint
+title: 'Создание презентации программно на Java - автоматизация переходов PowerPoint
   с помощью Aspose.Slides'
 url: /ru/java/animations-transitions/aspose-slides-java-presentation-automation/
 weight: 1
@@ -199,14 +199,6 @@ Aspose.Slides for Java проявляет себя в реальных сцен�
 
 Погрузитесь, экспериментируйте с различными типами переходов и сделайте ваши презентации профессиональными благодаря автоматизации!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Последнее обновление:** 2026-01-27  
@@ -214,3 +206,11 @@ Aspose.Slides for Java проявляет себя в реальных сцен�
 **Автор:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

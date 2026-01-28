@@ -175,6 +175,12 @@ A: ファイルアクセスやアニメーションコードを try‑catch ブ�
 
 Aspose.Slides for Java でプレゼンテーションを強化し、より魅力的でダイナミックなスライドの作成を今すぐ始めましょう！
 
+---
+
+**最終更新日:** 2026-01-27  
+**テスト環境:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**作成者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -182,9 +188,3 @@ Aspose.Slides for Java でプレゼンテーションを強化し、より魅力
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2026-01-27  
-**テスト環境:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
-**作成者:** Aspose

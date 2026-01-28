@@ -6,7 +6,7 @@ keywords:
 - Aspose.Slides Java
 - slide animations Java
 - Java presentations
-title: aspose slides maven：掌握 Java 中的高級投影片動畫
+title: aspose slides maven - 掌握 Java 中的高級投影片動畫
 url: /zh-hant/java/animations-transitions/advanced-slide-animations-aspose-slides-java/
 weight: 1
 ---

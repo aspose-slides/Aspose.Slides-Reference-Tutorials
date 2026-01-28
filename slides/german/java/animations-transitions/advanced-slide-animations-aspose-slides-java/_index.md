@@ -8,7 +8,7 @@ keywords:
 - Aspose.Slides Java
 - slide animations Java
 - Java presentations
-title: 'aspose slides maven: Fortgeschrittene Folienanimationen in Java meistern'
+title: 'aspose slides maven - Fortgeschrittene Folienanimationen in Java meistern'
 url: /de/java/animations-transitions/advanced-slide-animations-aspose-slides-java/
 weight: 1
 ---

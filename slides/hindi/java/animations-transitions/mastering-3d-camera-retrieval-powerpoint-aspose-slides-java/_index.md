@@ -168,6 +168,12 @@ finally {
 - **टेम्पररी लाइसेंस**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **सपोर्ट फोरम**: [Aspose Support Community](https://forum.aspose.com/c/slides/11)
 
+---
+
+**अंतिम अपडेट:** 2026-01-27  
+**परीक्षण किया गया:** Aspose.Slides 25.4 for Java  
+**लेखक:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -175,9 +181,3 @@ finally {
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**अंतिम अपडेट:** 2026-01-27  
-**परीक्षण किया गया:** Aspose.Slides 25.4 for Java  
-**लेखक:** Aspose

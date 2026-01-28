@@ -166,6 +166,12 @@ finally {
 - **ترخيص مؤقت**: [الحصول على ترخيص مؤقت](https://purchase.aspose.com/temporary-license/)  
 - **منتدى الدعم**: [مجتمع دعم Aspose](https://forum.aspose.com/c/slides/11)
 
+---
+
+**آخر تحديث 2026-01-27  
+**تم الاختبار باستخدام:** Aspose.Slides 25.4 for Java  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -173,9 +179,3 @@ finally {
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث 2026-01-27  
-**تم الاختبار باستخدام:** Aspose.Slides 25.4 for Java  
-**المؤلف:** Aspose

@@ -6,7 +6,7 @@ keywords:
 - Aspose.Slides for Java
 - automate PowerPoint transitions
 - Java PPTX automation
-title: 'Java에서 프로그래밍으로 프레젠테이션 만들기: Aspose.Slides로 PowerPoint 전환 자동화'
+title: 'Java에서 프로그래밍으로 프레젠테이션 만들기 - Aspose.Slides로 PowerPoint 전환 자동화'
 url: /ko/java/animations-transitions/aspose-slides-java-presentation-automation/
 weight: 1
 ---
@@ -197,14 +197,6 @@ A: 대량 자동화에는 평가용 **임시 라이선스** 또는 프로덕션�
 
 다양한 전환 유형을 실험해 보고, 자동화된 프레젠테이션으로 전문가 수준의 퀄리티를 구현해 보세요!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **마지막 업데이트:** 2026-01-27  
@@ -212,3 +204,11 @@ A: 대량 자동화에는 평가용 **임시 라이선스** 또는 프로덕션�
 **작성자:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

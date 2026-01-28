@@ -169,6 +169,12 @@ A: Zabalte kód pro přístup k souborům a animaci do try‑catch bloků a vžd
 
 Udělejte další krok vylepšení svých prezentací pomocí Aspose.Slides pro Java a začněte dnes vytvářet poutavější, dynamické snímky!
 
+---
+
+**Poslední aktualizace:** 2026-01-27  
+**Testováno s:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -176,9 +182,3 @@ Udělejte další krok vylepšení svých prezentací pomocí Aspose.Slides pro 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2026-01-27  
-**Testováno s:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
-**Autor:** Aspose

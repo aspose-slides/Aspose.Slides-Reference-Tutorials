@@ -165,6 +165,12 @@ A: Ensure proper licensing, optimize resource management, and keep the library u
 - **Temporary License**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Support Forum**: [Aspose Support Community](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Last Updated:** 2026-01-27  
+**Tested With:** Aspose.Slides 25.4 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -172,9 +178,3 @@ A: Ensure proper licensing, optimize resource management, and keep the library u
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-27  
-**Tested With:** Aspose.Slides 25.4 for Java  
-**Author:** Aspose

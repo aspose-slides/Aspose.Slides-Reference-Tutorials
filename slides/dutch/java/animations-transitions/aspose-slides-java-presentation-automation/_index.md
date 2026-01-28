@@ -6,7 +6,7 @@ keywords:
 - Aspose.Slides for Java
 - automate PowerPoint transitions
 - Java PPTX automation
-title: 'Maak een presentatie programmatisch in Java: Automatiseer PowerPoint‑overgangen
+title: 'Maak een presentatie programmatisch in Java - Automatiseer PowerPoint‑overgangen
   met Aspose.Slides'
 url: /nl/java/animations-transitions/aspose-slides-java-presentation-automation/
 weight: 1
@@ -66,11 +66,11 @@ Om te beginnen, voeg je de Aspose.Slides‑dependency toe aan je buildsysteem.
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Directe Download
+### Direct downloaden
 
 Alternatief kun je de nieuwste versie downloaden van [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-**License Acquisition**: Aspose biedt een gratis proefversie, tijdelijke licenties en volledige aankoopopties. Voor productiegebruik verkrijg je een tijdelijke licentie of koop er een om evaluatiebeperkingen te verwijderen.
+**Licentie-aankoop**: Aspose biedt een gratis proefversie, tijdelijke licenties en volledige aankoopopties. Voor productiegebruik verkrijg je een tijdelijke licentie of koop er een om evaluatiebeperkingen te verwijderen.
 
 ### Basisinitialisatie
 
@@ -90,26 +90,27 @@ Hieronder splitsen we de implementatie op in duidelijke, beheersbare stappen.
 ### Presentatie Laden
 **Overview**: De eerste stap is het laden van een bestaand PPTX‑bestand dat je wilt aanpassen.
 
-#### Step 1: Specify Document Directory
+#### Stap 1: Geef de documentmap op
 ```java
 final String dataDir = "YOUR_DOCUMENT_DIRECTORY"; // Replace with actual path
 ```
 
-#### Step 2: Load the Presentation
+#### Stap 2: Laad de presentatie
 ```java
 Presentation presentation = new Presentation(dataDir + "/AccessSlides.pptx");
 ```
 *Uitleg*: De `Presentation`‑constructor leest het PowerPoint‑bestand van het opgegeven pad en geeft je een manipuleerbaar objectmodel.
 
 ### Java slide‑overgangen toevoegen
-**Overview**: Deze sectie laat zien hoe je verschillende overgangseffecten toepast op individuele dia's.
+**Overzicht**: Deze sectie laat zien hoe je verschillende overgangseffecten toepast op individuele dia's.
 
-#### Step 1: Import Transition Types
+#### Stap 1: Overgangstypen importeren
+
 ```java
 import com.aspose.slides.TransitionType;
 ```
 
-#### Step 2: Apply Transitions
+#### Stap 2: Overgangen toepassen
 ```java
 try {
     // Circle type transition on slide 1
@@ -124,14 +125,14 @@ try {
 *Uitleg*: Het `SlideShowTransition`‑object stelt je in staat het visuele effect te definiëren dat verschijnt bij het overgaan naar de volgende dia. Hier stellen we twee verschillende overgangstypen in voor de eerste twee dia's.
 
 ### Presentatie Opslaan
-**Overview**: Na alle aanpassingen schrijf je het bijgewerkte bestand terug naar schijf.
+**Overzicht**: Na alle bewerking schrijf je het bijgewerkte bestand terug naar schijf.
 
-#### Step 1: Specify Output Directory
+#### Stap 1: Geef de uitvoerdirectory op
 ```java
 final String outPath = "YOUR_OUTPUT_DIRECTORY"; // Replace with actual path
 ```
 
-#### Step 2: Save the Presentation
+#### Stap 2: Sla de presentatie op
 ```java
 try {
     presentation.save(outPath + "/SampleTransition_out.pptx", com.aspose.slides.SaveFormat.Pptx);
@@ -198,6 +199,12 @@ A: Voor grootschalige automatisering wordt een **temporary license** voor evalua
 
 Duik erin, experimenteer met verschillende overgangstypen, en laat je presentaties schitteren met professionele automatisering!
 
+---
+
+**Last Updated:** 2026-01-27  
+**Tested With:** Aspose.Slides 25.4 (JDK 16)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -205,9 +212,3 @@ Duik erin, experimenteer met verschillende overgangstypen, en laat je presentati
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-27  
-**Tested With:** Aspose.Slides 25.4 (JDK 16)  
-**Author:** Aspose

@@ -171,6 +171,12 @@ Mặc dù Aspose.Slides mạnh mẽ, hãy nhớ những mẹo sau:
 
 Hãy tiến một bước tiếp theo trong việc nâng cao các bản trình chiếu của bạn với Aspose.Slides cho Java và bắt đầu tạo các slide sinh động, hấp dẫn ngay hôm nay!
 
+---
+
+**Cập nhật lần cuối:** 2026-01-27  
+**Đã kiểm tra với:** Aspose.Slides cho Java 25.4 (classifier jdk16)  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -178,9 +184,3 @@ Hãy tiến một bước tiếp theo trong việc nâng cao các bản trình c
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2026-01-27  
-**Đã kiểm tra với:** Aspose.Slides cho Java 25.4 (classifier jdk16)  
-**Tác giả:** Aspose

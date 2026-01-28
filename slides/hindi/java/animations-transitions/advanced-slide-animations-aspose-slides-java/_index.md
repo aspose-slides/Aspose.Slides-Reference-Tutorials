@@ -7,7 +7,7 @@ keywords:
 - Aspose.Slides Java
 - slide animations Java
 - Java presentations
-title: 'Aspose Slides Maven: जावा में उन्नत स्लाइड एनीमेशन में महारत हासिल करें'
+title: 'Aspose Slides Maven - जावा में उन्नत स्लाइड एनीमेशन में महारत हासिल करें'
 url: /hi/java/animations-transitions/advanced-slide-animations-aspose-slides-java/
 weight: 1
 ---
@@ -21,7 +21,7 @@ weight: 1
 
 आज के गतिशील प्रस्तुति परिदृश्य में, आकर्षक एनीमेशन के साथ अपने दर्शकों को मोहित करना आवश्यक है—यह सिर्फ एक लक्ज़री नहीं है। चाहे आप शैक्षिक व्याख्यान तैयार कर रहे हों या निवेशकों को पिच दे रहे हों, सही स्लाइड एनीमेशन आपके दर्शकों को जुड़े रखने में बड़ा अंतर ला सकता है। यह व्यापक गाइड आपको **Aspose.Slides** for Java को **Maven** के साथ उपयोग करके उन्नत स्लाइड एनीमेशन को सहजता से लागू करने के चरण दिखाएगा।
 
-## Quick Answers
+## हाजिर जवाब
 - **Aspose.Slides को जावा प्रोजेक्ट में जोड़ने का मुख्य तरीका क्या है?** Maven डिपेंडेंसी `com.aspose:aspose-slides` का उपयोग करें।
 - **माउस क्लिक के बाद किसी ऑब्जेक्ट को कैसे छुपाएँ?** इफ़ेक्ट पर `AfterAnimationType.HideOnNextMouseClick` सेट करें।
 - **कौन सा मेथड प्रस्तुति को PPTX के रूप में सहेजता है?** `presentation.save(path, SaveFormat.Pptx)`।

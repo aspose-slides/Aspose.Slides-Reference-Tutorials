@@ -169,6 +169,12 @@ A: Bungkus kode akses file dan animasi dalam blok try‑catch, dan selalu tutup 
 
 Ambil langkah selanjutnya dalam meningkatkan presentasi Anda dengan Aspose.Slides untuk Java dan mulailah membuat slide yang lebih menarik dan dinamis hari ini!
 
+---
+
+**Terakhir Diperbarui:** 2026-01-27  
+**Diuji Dengan:** Aspose.Slides for Java 25.4 (classifier jdk16)  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -176,9 +182,3 @@ Ambil langkah selanjutnya dalam meningkatkan presentasi Anda dengan Aspose.Slide
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2026-01-27  
-**Diuji Dengan:** Aspose.Slides for Java 25.4 (classifier jdk16)  
-**Penulis:** Aspose

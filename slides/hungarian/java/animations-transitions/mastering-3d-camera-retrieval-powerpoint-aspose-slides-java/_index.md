@@ -171,6 +171,12 @@ A: Biztosítsa a megfelelő licencelést, optimalizálja az erőforrás-kezelés
 - **Ideiglenes licenc**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Támogatási fórum**: [Aspose Support Community](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Utolsó frissítés:** 2026-01-27  
+**Tesztelve a következővel:** Aspose.Slides 25.4 for Java  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -178,9 +184,3 @@ A: Biztosítsa a megfelelő licencelést, optimalizálja az erőforrás-kezelés
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2026-01-27  
-**Tesztelve a következővel:** Aspose.Slides 25.4 for Java  
-**Szerző:** Aspose

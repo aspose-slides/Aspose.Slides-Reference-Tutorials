@@ -168,6 +168,12 @@ R: Assegure licenciamento adequado, otimize o gerenciamento de recursos e manten
 - **Licença Temporária**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Fórum de Suporte**: [Aspose Support Community](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Última Atualização:** 2026-01-27  
+**Testado Com:** Aspose.Slides 25.4 for Java  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -175,9 +181,3 @@ R: Assegure licenciamento adequado, otimize o gerenciamento de recursos e manten
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última Atualização:** 2026-01-27  
-**Testado Com:** Aspose.Slides 25.4 for Java  
-**Autor:** Aspose

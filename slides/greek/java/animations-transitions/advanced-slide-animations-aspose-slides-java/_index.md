@@ -8,7 +8,7 @@ keywords:
 - Aspose.Slides Java
 - slide animations Java
 - Java presentations
-title: 'aspose slides maven: Κατακτήστε τις Προηγμένες Κινούμενες Διαφάνειες σε Java'
+title: 'aspose slides maven - Κατακτήστε τις Προηγμένες Κινούμενες Διαφάνειες σε Java'
 url: /el/java/animations-transitions/advanced-slide-animations-aspose-slides-java/
 weight: 1
 ---

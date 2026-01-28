@@ -168,6 +168,12 @@ A: Säkerställ korrekt licensiering, optimera resurshantering och håll bibliot
 - **Tillfällig licens**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Supportforum**: [Aspose Support Community](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Senast uppdaterad:** 2026-01-27  
+**Testad med:** Aspose.Slides 25.4 för Java  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -175,9 +181,3 @@ A: Säkerställ korrekt licensiering, optimera resurshantering och håll bibliot
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2026-01-27  
-**Testad med:** Aspose.Slides 25.4 för Java  
-**Författare:** Aspose

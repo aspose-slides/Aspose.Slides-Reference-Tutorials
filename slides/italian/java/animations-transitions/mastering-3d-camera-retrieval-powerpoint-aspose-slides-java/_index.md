@@ -171,6 +171,12 @@ A: Assicurati di avere una licenza corretta, ottimizza la gestione delle risorse
 - **Licenza Temporanea**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Forum di Supporto**: [Aspose Support Community](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Ultimo Aggiornamento:** 2026-01-27  
+Testato Con:** Aspose.Slides 25.4 for Java  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -178,9 +184,3 @@ A: Assicurati di avere una licenza corretta, ottimizza la gestione delle risorse
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo Aggiornamento:** 2026-01-27  
-Testato Con:** Aspose.Slides 25.4 for Java  
-**Autore:** Aspose

@@ -162,6 +162,12 @@ A: Plaats bestands‑ en animatiecode in try‑catch‑blokken, en sluit altijd 
 
 Zet de volgende stap in het verbeteren van uw presentaties met Aspose.Slides voor Java en begin vandaag nog met het maken van meer boeiende, dynamische dia's!
 
+---
+
+**Laatst bijgewerkt:** 2026-01-27  
+**Getest met:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -169,9 +175,3 @@ Zet de volgende stap in het verbeteren van uw presentaties met Aspose.Slides voo
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2026-01-27  
-**Getest met:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
-**Auteur:** Aspose

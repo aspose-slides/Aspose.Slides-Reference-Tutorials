@@ -165,6 +165,12 @@ A: 正しいライセンスを確保し、リソース管理を最適化し、�
 - **一時ライセンス**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **サポートフォーラム**: [Aspose Support Community](https://forum.aspose.com/c/slides/11)
 
+---
+
+**最終更新日:** 2026-01-27  
+**テスト環境:** Aspose.Slides 25.4 for Java  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -172,9 +178,3 @@ A: 正しいライセンスを確保し、リソース管理を最適化し、�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2026-01-27  
-**テスト環境:** Aspose.Slides 25.4 for Java  
-**作者:** Aspose

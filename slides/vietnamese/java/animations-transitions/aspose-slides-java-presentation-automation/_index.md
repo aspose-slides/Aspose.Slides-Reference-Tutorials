@@ -7,7 +7,7 @@ keywords:
 - Aspose.Slides for Java
 - automate PowerPoint transitions
 - Java PPTX automation
-title: 'Tạo Bài Thuyết Trình Theo Chương Trình trong Java: Tự Động Hóa Các Chuyển
+title: 'Tạo Bài Thuyết Trình Theo Chương Trình trong Java - Tự Động Hóa Các Chuyển
   Động PowerPoint với Aspose.Slides'
 url: /vi/java/animations-transitions/aspose-slides-java-presentation-automation/
 weight: 1
@@ -199,14 +199,6 @@ Khi làm việc với các bài thuyết trình lớn hoặc số lượng nhi�
 
 Hãy thử nghiệm, khám phá các loại chuyển động khác nhau và để các bài thuyết trình của bạn tỏa sáng với tự động hoá chuyên nghiệp!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Cập nhật lần cuối:** 2026-01-27  
@@ -214,3 +206,11 @@ Hãy thử nghiệm, khám phá các loại chuyển động khác nhau và đ�
 **Tác giả:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

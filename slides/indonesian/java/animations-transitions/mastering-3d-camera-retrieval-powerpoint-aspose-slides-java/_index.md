@@ -165,6 +165,12 @@ A: Pastikan lisensi yang tepat, optimalkan manajemen sumber daya, dan pertahanka
 - **Lisensi Sementara**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Forum Dukungan**: [Aspose Support Community](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Terakhir Diperbarui:** 2026-01-27  
+**Diuji Dengan:** Aspose.Slides 25.4 for Java  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -172,9 +178,3 @@ A: Pastikan lisensi yang tepat, optimalkan manajemen sumber daya, dan pertahanka
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2026-01-27  
-**Diuji Dengan:** Aspose.Slides 25.4 for Java  
-**Penulis:** Aspose

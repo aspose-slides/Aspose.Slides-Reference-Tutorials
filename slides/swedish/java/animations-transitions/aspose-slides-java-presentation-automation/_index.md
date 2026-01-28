@@ -6,7 +6,7 @@ keywords:
 - Aspose.Slides for Java
 - automate PowerPoint transitions
 - Java PPTX automation
-title: 'Skapa presentation programatiskt i Java: Automatisera PowerPoint‑övergångar
+title: 'Skapa presentation programatiskt i Java - Automatisera PowerPoint‑övergångar
   med Aspose.Slides'
 url: /sv/java/animations-transitions/aspose-slides-java-presentation-automation/
 weight: 1
@@ -198,14 +198,6 @@ A: För högvolyms‑automatisering rekommenderas en **temporär licens** för u
 
 Dyk ner, experimentera med olika övergångstyper, och låt dina presentationer glänsa med professionell automatisering!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Senast uppdaterad:** 2026-01-27  
@@ -213,3 +205,11 @@ Dyk ner, experimentera med olika övergångstyper, och låt dina presentationer 
 **Författare:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

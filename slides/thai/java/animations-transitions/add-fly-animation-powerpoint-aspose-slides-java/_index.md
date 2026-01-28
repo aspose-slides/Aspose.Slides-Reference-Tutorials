@@ -172,6 +172,12 @@ A: ห่อโค้ดการเข้าถึงไฟล์และแ�
 
 ก้าวต่อไปในการยกระดับการนำเสนอของคุณด้วย Aspose.Slides for Java และเริ่มสร้างสไลด์ที่มีความดึงดูดและไดนามิกมากขึ้นวันนี้!
 
+---
+
+**Last Updated:** 2026-01-27  
+**Tested With:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -179,9 +185,3 @@ A: ห่อโค้ดการเข้าถึงไฟล์และแ�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-27  
-**Tested With:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
-**Author:** Aspose

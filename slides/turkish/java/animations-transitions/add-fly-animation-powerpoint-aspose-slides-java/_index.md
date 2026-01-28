@@ -171,6 +171,12 @@ Daha fazla bilgi ve destek için:
 
 Aspose.Slides for Java ile sunumlarınızı geliştirme adımını atın ve bugün daha etkileyici, dinamik slaytlar oluşturmaya başlayın!
 
+---
+
+**Son Güncelleme:** 2026-01-27  
+**Test Edilen Versiyon:** Aspose.Slides for Java 25.4 (jdk16 sınıflandırıcısı)  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -178,9 +184,3 @@ Aspose.Slides for Java ile sunumlarınızı geliştirme adımını atın ve bug�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2026-01-27  
-**Test Edilen Versiyon:** Aspose.Slides for Java 25.4 (jdk16 sınıflandırıcısı)  
-**Yazar:** Aspose

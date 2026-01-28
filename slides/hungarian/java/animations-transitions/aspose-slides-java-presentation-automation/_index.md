@@ -7,7 +7,7 @@ keywords:
 - Aspose.Slides for Java
 - automate PowerPoint transitions
 - Java PPTX automation
-title: 'Prezentáció létrehozása programozottan Java-ban: PowerPoint‑átmenetek automatizálása
+title: 'Prezentáció létrehozása programozottan Java-ban - PowerPoint‑átmenetek automatizálása
   az Aspose.Slides segítségével'
 url: /hu/java/animations-transitions/aspose-slides-java-presentation-automation/
 weight: 1
@@ -199,6 +199,12 @@ Nagy vagy sok prezentáció kezelésekor vegye figyelembe ezeket a tippeket:
 
 Vágjon bele, kísérletezzen különböző átmeneti típusokkal, és hagyja, hogy prezentációi a professzionális szintű automatizálással ragyogjanak!
 
+---
+
+**Last Updated:** 2026-01-27  
+**Tested With:** Aspose.Slides 25.4 (JDK 16)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -206,9 +212,3 @@ Vágjon bele, kísérletezzen különböző átmeneti típusokkal, és hagyja, h
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-27  
-**Tested With:** Aspose.Slides 25.4 (JDK 16)  
-**Author:** Aspose

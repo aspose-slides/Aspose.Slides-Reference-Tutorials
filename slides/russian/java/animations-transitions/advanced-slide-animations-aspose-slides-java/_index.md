@@ -8,7 +8,7 @@ keywords:
 - Aspose.Slides Java
 - slide animations Java
 - Java presentations
-title: 'aspose slides maven: Освойте продвинутые анимации слайдов в Java'
+title: 'aspose slides maven - Освойте продвинутые анимации слайдов в Java'
 url: /ru/java/animations-transitions/advanced-slide-animations-aspose-slides-java/
 weight: 1
 ---

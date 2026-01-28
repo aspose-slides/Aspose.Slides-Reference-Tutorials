@@ -6,7 +6,7 @@ keywords:
 - Aspose.Slides for Java
 - automate PowerPoint transitions
 - Java PPTX automation
-title: 'إنشاء عرض تقديمي برمجيًا في جافا: أتمتة انتقالات PowerPoint باستخدام Aspose.Slides'
+title: 'إنشاء عرض تقديمي برمجيًا في جافا - أتمتة انتقالات PowerPoint باستخدام Aspose.Slides'
 url: /ar/java/animations-transitions/aspose-slides-java-presentation-automation/
 weight: 1
 ---
@@ -197,14 +197,6 @@ try {
 
 ابدأ التجربة، جرّب أنواع انتقال مختلفة، ودع عروضك تتألق بفضل الأتمتة الاحترافية!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **آخر تحديث:** 2026-01-27  
@@ -212,3 +204,11 @@ try {
 **المؤلف:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

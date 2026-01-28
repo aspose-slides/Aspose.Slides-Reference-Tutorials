@@ -168,6 +168,12 @@ R : Enveloppez le code d'accès aux fichiers et d'animation dans des blocs try�
 
 Faites le prochain pas pour améliorer vos présentations avec Aspose.Slides pour Java et commencez dès aujourd'hui à créer des diapositives plus attrayantes et dynamiques !
 
+---
+
+**Last Updated:** 2026-01-27  
+**Tested With:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -175,9 +181,3 @@ Faites le prochain pas pour améliorer vos présentations avec Aspose.Slides pou
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-27  
-**Tested With:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
-**Author:** Aspose

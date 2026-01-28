@@ -165,6 +165,12 @@ Pour garantir des performances optimales :
 - **Licence temporaire** : [Get a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Forum de support** : [Aspose Support Community](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Dernière mise à jour :** 2026-01-27  
+**Testé avec :** Aspose.Slides 25.4 for Java  
+**Auteur :** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -172,9 +178,3 @@ Pour garantir des performances optimales :
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2026-01-27  
-**Testé avec :** Aspose.Slides 25.4 for Java  
-**Auteur :** Aspose

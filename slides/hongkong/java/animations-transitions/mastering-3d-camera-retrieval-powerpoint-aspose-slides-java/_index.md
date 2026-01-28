@@ -165,6 +165,12 @@ A: 確保正確授權、最佳化資源管理，並保持函式庫為最新版�
 - **臨時授權**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **支援論壇**: [Aspose Support Community](https://forum.aspose.com/c/slides/11)
 
+---
+
+**最後更新：** 2026-01-27  
+**測試環境：** Aspose.Slides 25.4 for Java  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -172,9 +178,3 @@ A: 確保正確授權、最佳化資源管理，並保持函式庫為最新版�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2026-01-27  
-**測試環境：** Aspose.Slides 25.4 for Java  
-**作者：** Aspose

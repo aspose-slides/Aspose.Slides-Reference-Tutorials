@@ -1,5 +1,5 @@
 ---
-title: "aspose slides maven: Master Advanced Slide Animations in Java"
+title: "aspose slides maven - Master Advanced Slide Animations in Java"
 description: "Learn how to add animation, change after animation, hide on click java, hide after animation and save presentation pptx using Aspose.Slides with Maven. This aspose slides maven guide covers advanced slide animations."
 date: "2026-01-27"
 weight: 1

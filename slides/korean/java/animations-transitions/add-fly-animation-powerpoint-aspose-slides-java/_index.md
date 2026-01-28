@@ -18,45 +18,45 @@ weight: 1
 {{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Slides for Java를 사용하여 애니메이션이 포함된 PowerPoint 저장하기
 
-## Introduction
+## 소개
 
-PowerPoint 프레젠테이션에 매력적인 애니메이션을 손쉽게 추가하세요. 이 튜토리얼에서는 **Aspose.Slides for Java**를 사용해 단락에 플라이 효과를 적용하여 **애니메이션이 포함된 PowerPoint 저장 방법**을 배웁니다. 이 방법은 슬라이드의 전문성과 몰입도를 높이며 코드를 깔끔하고 유지보수하기 쉽게 만들어 줍니다. 또한 **애니메이션이 포함된 프레젠테이션 저장**, 애니메이션 트리거 설정, 개발 중 **임시 Aspose 라이선스** 사용 방법도 알아볼 수 있습니다.
+PowerPoint 프레젠테이션에 매력적인 애니메이션을 추가하세요. 이 튜토리얼에서는 **Aspose.Slides for Java**를 손바닥에 플라이 효과를 적용하여 **애니메이션이 포함된 PowerPoint 저장 방법**을 배웁니다. 이 방법은 슬라이드의 코드를 중단하고 독창적인 위치를 유지하는 것을 쉽게 유지하는 것입니다. 또한 **애니메이션이 포함된 프레젠테이션 저장**, 애니메이션 컨트롤러 설정, 개발 중 **임시 Aspose** 사용 방법도 사용할 수 있습니다.
 
-### What You'll Learn
-- **Aspose.Slides for Java** 설정하기 (Maven 및 Gradle 통합 포함)  
-- 슬라이드 내 단락에 **fly animation PowerPoint** 효과 추가하기  
-- 애니메이션 방향 및 트리거 구성하기  
-- 애니메이션을 유지한 채 프레젠테이션 저장하기  
+### 무엇을 배울 것인가
+- **Aspose.Slides for Java** 설정하기 (Maven 및 Gradle 통합 포함)
+- 슬라이드 내용에 **fly animation PowerPoint** 효과 추가하기
+- 방향과 애니메이션 구성하기
+- 애니메이션을 유지한 채 프레젠테이션을 저장하기
 
-## Quick Answers
-- **What library adds fly animation to PowerPoint?** Aspose.Slides for Java  
-- **Which build tool can I use?** Both Maven (`maven aspose slides`) and Gradle are supported  
-- **How do I set the animation trigger?** Use `EffectTriggerType.OnClick` or `AfterPrevious` in the `addEffect` call  
-- **Can I test without a paid license?** Yes—use a free trial or a **temporary Aspose license** for development  
-- **What format should I save as?** Save as `.pptx` to retain all animation data  
+## 빠른 답변
+- **PowerPoint에 파리 애니메이션을 추가하는 라이브러리는 무엇입니까?** Aspose.Slides for Java
+- **어떤 빌드 도구를 사용할 수 있나요?** Maven(`maven aspose Slides`)과 Gradle이 모두 지원됩니다.
+- **애니메이션 트리거는 어떻게 설정하나요?** `addEffect` 호출에서 `EffectTriggerType.OnClick` 또는 `AfterPrevious`를 사용하세요.
+- **유료 라이선스 없이 테스트할 수 있나요?** 예. 개발을 위해 무료 평가판이나 **임시 Aspose 라이선스**를 사용하세요.
+- **어떤 형식으로 저장해야 하나요?** 모든 애니메이션 데이터를 유지하려면 `.pptx`로 저장하세요.
 
-## Why Use Aspose.Slides for Java?
-Aspose.Slides는 **순수 Java API**를 제공하므로 Microsoft Office가 설치되지 않은 환경에서도 동작합니다. 서버‑사이드 자동화, 배치 처리, 웹 애플리케이션 통합에 최적화되어 있습니다. 풍부한 애니메이션 지원—특히 **fly animation PowerPoint** 효과—을 통해 프로그래밍 방식으로 동적인 프레젠테이션 파일을 만들 수 있습니다.
+## Java용 Aspose.Slides를 사용하는 이유는 무엇입니까?
+Aspose.Slides는 **순수 Java API**를 제공하므로 Microsoft Office는 설치되지 않은 환경에서도 동작합니다. 서버 기반 자동화, 배치 처리, 웹 애플리케이션 통합에 최적화되어 있습니다. 풍부한 지원 애니메이션 — 직업 **플라이 애니메이션 PowerPoint** 효과—동적인 프레젠테이션 방식으로 프레젠테이션 파일을 만들 수 있습니다.
 
-## Prerequisites
-Before you begin, ensure that you have the following:
+## 전제조건
+시작하기 전에 다음 사항이 있는지 확인하세요.
 
-### Required Libraries
-- **Aspose.Slides for Java** – version 25.4 or later (the latest release is recommended).
+### 필수 라이브러리
+- **Java용 Aspose.Slides** – 버전 25.4 이상(최신 릴리스 권장)
 
-### Environment Setup Requirements
-- Java Development Kit (JDK) 16 or higher.  
-- An IDE such as IntelliJ IDEA, Eclipse, or NetBeans.
+### 환경 설정 요구 사항
+- JDK(Java Development Kit) 16 이상.
+- IntelliJ IDEA, Eclipse 또는 NetBeans와 같은 IDE.
 
-### Knowledge Prerequisites
-- Basic Java programming skills.  
-- Familiarity with file handling in Java.
+### 지식 전제조건
+- 기본적인 Java 프로그래밍 기술.
+- Java에서의 파일 처리에 익숙하신 분
 
-## Setting Up Aspose.Slides for Java
-To begin using Aspose.Slides for Java, set up the library in your project as follows:
+## Java용 Aspose.Slides 설정
+Java용 Aspose.Slides를 사용하려면 다음과 같이 프로젝트에 라이브러리를 설정하십시오.
 
-### Maven Aspose Slides Dependency
-Add this dependency to your `pom.xml` file:
+### Maven Aspose Slides 종속성
+`pom.xml` 파일에 다음 종속성을 추가하십시오.
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -66,43 +66,45 @@ Add this dependency to your `pom.xml` file:
 </dependency>
 ```
 
-### Gradle Setup
-Include this in your `build.gradle` file:
+### Gradle 설정
+`build.gradle` 파일에 다음 내용을 추가하세요.
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Direct Download
-Download the latest version from [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+### 직접 다운로드
+[Aspose.Slides for Java 릴리스](https://releases.aspose.com/slides/java/)에서 최신 버전을 다운로드하세요.
 
-#### License Acquisition Steps
-- **Free Trial** – start with a trial to explore all features.  
-- **Temporary License** – obtain a temporary license for full access during development.  
-- **Purchase** – consider a full license for production deployments.
+#### 라이선스 구매 단계
+- **무료 체험판** – 모든 기능을 살펴보려면 체험판으로 시작하세요.
 
-Once the setup is complete, let’s move on to implementing the **fly animation PowerPoint** effect.
+**임시 라이선스** – 개발 기간 동안 모든 기능을 사용할 수 있는 임시 라이선스를 받으세요.
 
-## How to Add Fly Animation PowerPoint to a Slide
-In this section, we’ll walk through each step required to apply a fly animation to a paragraph inside a slide.
+**구매** – 프로덕션 환경에 배포하려면 정식 라이선스를 구매하세요.
 
-### Step 1: Initialize the Presentation Object
-Create and initialize a `Presentation` object that points to your existing PowerPoint file:
+설정이 완료되면 **플라잉 애니메이션 PowerPoint** 효과를 구현해 보겠습니다.
+
+## PowerPoint 슬라이드에 플라이 애니메이션 추가하는 방법
+이 섹션에서는 슬라이드 안의 단락에 플라이 애니메이션을 적용하는 데 필요한 각 단계를 안내합니다.
+
+### 1단계: 프레젠테이션 개체 초기화
+기존 PowerPoint 파일을 가리키는 `Presentation` 개체를 만들고 초기화합니다.
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Presentation presentation = new Presentation(dataDir + "/Presentation1.pptx");
 ```
-Here, we're opening an existing presentation named `Presentation1.pptx`.
+여기서는 `Presentation1.pptx`라는 기존 프레젠테이션을 엽니다.
 
-### Step 2: Access the Target Slide and Shape
-Retrieve the first slide and its first auto‑shape (which contains the text you want to animate):
+### 2단계: 대상 슬라이드 및 도형 선택
+첫 번째 슬라이드와 해당 슬라이드의 첫 번째 자동 도형(애니메이션을 적용할 텍스트가 포함된 도형)을 선택합니다.
 ```java
 ISlide slide = presentation.getSlides().get_Item(0);
 IAutoShape autoShape = (IAutoShape) slide.getShapes().get_Item(0);
 ```
-We assume the shape is an `AutoShape` with a text frame.
+도형은 텍스트 프레임이 있는 `자동 도형`이라고 가정합니다.
 
-### Step 3: Apply the Fly Animation Effect
-Add a **fly animation PowerPoint** effect to the first paragraph of the shape. This example configures the animation to fly in from the left and trigger on a mouse click:
+### 3단계: 비행 애니메이션 효과 적용
+도형의 첫 번째 단락에 **비행 애니메이션 PowerPoint** 효과를 추가합니다. 이 예제에서는 애니메이션이 왼쪽에서 날아오고 마우스 클릭 시 실행되도록 설정합니다.
 ```java
 IParagraph paragraph = autoShape.getTextFrame().getParagraphs().get_Item(0);
 IEffect effect = slide.getTimeline().getMainSequence().addEffect(
@@ -112,63 +114,78 @@ IEffect effect = slide.getTimeline().getMainSequence().addEffect(
     EffectTriggerType.OnClick
 );
 ```
-You can change `EffectSubtype` to `Right`, `Top`, or `Bottom` to adjust the direction, and modify `EffectTriggerType` to `AfterPrevious` if you prefer an automatic start.
+`EffectSubtype`을 `Right`, `Top` 또는 `Bottom`으로 변경하여 애니메이션 방향을 조정할 수 있으며, 자동 시작을 원할 경우 `EffectTriggerType`을 `AfterPrevious`로 수정할 수 있습니다.
 
-### Step 4: Save the Presentation with Animation
-Persist the changes by saving the file. This step **saves the presentation with animation** intact:
+### 4단계: 애니메이션을 적용한 프레젠테이션 저장
+파일을 저장하여 변경 사항을 저장합니다. 이 단계에서는 **애니메이션이 포함된 프레젠테이션**을 그대로 저장합니다.
 ```java
 presentation.save("YOUR_OUTPUT_DIRECTORY/AnimationEffectinParagraph.pptx", SaveFormat.Pptx);
 ```
 
-## Practical Applications
-Fly animations can be used in various scenarios:
-- **Educational Presentations** – emphasize key points or introduce new topics.  
-- **Corporate Meetings** – highlight critical data during business reviews.  
-- **Marketing Campaigns** – captivate audiences with dynamic product launches.  
+## 실용적인 활용 사례
+플라이 애니메이션은 다음과 같은 다양한 시나리오에서 사용할 수 있습니다.
+- **교육용 프레젠테이션**: 핵심 내용을 강조하거나 새로운 주제를 소개합니다.
 
-These animations also integrate seamlessly with document‑management systems that handle PPTX files.
+- **기업 회의**: 사업 검토 중 중요한 데이터를 강조합니다.
 
-## Performance Considerations
-While Aspose.Slides is powerful, keep these tips in mind:
+- **마케팅 캠페인**: 역동적인 제품 출시로 청중의 시선을 사로잡습니다.
 
-- **Optimize Memory Usage** – allocate sufficient heap space for large presentations.  
-- **Efficient Resource Handling** – dispose of `Presentation` objects in a `try‑finally` block or use try‑with‑resources.  
-- **Best Practices** – avoid unnecessary loops; manipulate only the slides/shapes you need.
+이러한 애니메이션은 PPTX 파일을 처리하는 문서 관리 시스템과도 원활하게 통합됩니다.
 
-## Common Issues and Solutions
-| Issue | Solution |
-|-------|----------|
-| **OutOfMemoryError** when processing large files | Increase JVM heap (`-Xmx`) and process slides in batches. |
-| **License not found** error | Ensure the temporary or purchased license file is loaded before creating the `Presentation` object. |
-| **Animation not visible after saving** | Verify you saved as `SaveFormat.Pptx`; older formats may drop animation data. |
+## 성능 고려 사항
+Aspose.Slides는 강력한 도구이지만, 다음 사항을 염두에 두세요.
 
-## Frequently Asked Questions
+- **메모리 사용량 최적화**: 대규모 프레젠테이션의 경우 충분한 힙 공간을 할당하세요.
 
-**Q: How do I change the animation direction?**  
-A: Modify the `EffectSubtype` parameter in the `addEffect()` call to `Right`, `Top`, or `Bottom`.
+- **효율적인 리소스 관리**: `try-finally` 블록에서 `Presentation` 개체를 해제하거나 `try-with-resources`를 사용하세요.
 
-**Q: Can I apply the fly animation to multiple paragraphs at once?**  
-A: Yes. Loop through each paragraph in the shape’s text frame and call `addEffect` for each one.
+- **모범 사례**: 불필요한 반복문을 피하고 필요한 슬라이드/도형만 조작하세요.
 
-**Q: What should I do if I encounter errors during setup?**  
-A: Double‑check your Maven/Gradle configuration, ensure the correct classifier (`jdk16`), and verify that the Aspose license is correctly loaded.
+## 일반적인 문제 및 해결 방법
+| 문제 | 해결 방법 |
 
-**Q: How do I obtain a temporary Aspose license for testing?**  
-A: Visit the [temporary Aspose license page](https://purchase.aspose.com/temporary-license/) and follow the request process.
+-------|----------|
 
-**Q: What is the best way to handle exceptions when working with presentations?**  
-A: Wrap file‑access and animation code in try‑catch blocks, and always close the `Presentation` object in a finally block or use try‑with‑resources.
+| 대용량 파일 처리 시 **메모리 부족 오류(OutOfMemoryError)** 발생 | JVM 힙 크기를 늘리고(`-Xmx` 옵션 사용) 슬라이드를 일괄 처리하세요. |
 
-## Resources
-For more information and support:
-- **Documentation**: [Aspose.Slides Java Reference](https://reference.aspose.com/slides/java/)  
-- **Download**: [Latest Releases](https://releases.aspose.com/slides/java/)  
-- **Purchase**: [Buy Aspose.Slides](https://purchase.aspose.com/buy)  
-- **Free Trial**: [Get a Free License](https://releases.aspose.com/slides/java/)  
-- **Temporary License**: [Apply for Temporary Access](https://purchase.aspose.com/temporary-license/)  
-- **Support**: [Aspose Forums](https://forum.aspose.com/c/slides/11)
+| **라이선스를 찾을 수 없음(License not found)** 오류 발생 | `Presentation` 객체를 생성하기 전에 임시 또는 구매한 라이선스 파일이 로드되었는지 확인하세요. |
 
-Take the next step in enhancing your presentations with Aspose.Slides for Java and start creating more engaging, dynamic slides today!
+| **저장 후 애니메이션이 표시되지 않음(Animation not visible)** | `SaveFormat.Pptx` 형식으로 저장했는지 확인하세요. 이전 형식은 애니메이션 데이터를 누락할 수 있습니다. |
+
+## 자주 묻는 질문
+
+**질문: 애니메이션 방향을 어떻게 변경하나요?**
+답변: `addEffect()` 호출 시 `EffectSubtype` 매개변수를 `Right`, `Top` 또는 `Bottom`으로 변경하세요.
+
+**질문: 여러 단락에 한 번에 플라이 애니메이션을 적용할 수 있나요?**
+답변: 네. 도형의 텍스트 프레임에 있는 각 단락을 순회하면서 각 단락에 대해 `addEffect`를 호출하세요.
+
+
+**질문: 설치 중 오류가 발생하면 어떻게 해야 하나요?**
+답변: Maven/Gradle 설정을 다시 확인하고, 올바른 분류자(`jdk16`)가 사용되었는지 확인하고, Aspose 라이선스가 올바르게 로드되었는지 확인하십시오.
+
+**질문: 테스트를 위한 임시 Aspose 라이선스는 어떻게 받을 수 있나요?**
+답변: [임시 Aspose 라이선스 페이지](https://purchase.aspose.com/temporary-license/)를 방문하여 요청 절차를 따르십시오.
+
+**질문: 프레젠테이션 작업 시 예외를 처리하는 가장 좋은 방법은 무엇인가요?**
+답변: 파일 접근 및 애니메이션 코드는 try-catch 블록으로 감싸고, `Presentation` 객체는 항상 finally 블록에서 닫거나 try-with-resources를 사용하십시오.
+
+## 리소스
+자세한 정보 및 지원:
+- **문서**: [Aspose.Slides Java 참조](https://reference.aspose.com/slides/java/)
+- **다운로드**: [최신 릴리스](https://releases.aspose.com/slides/java/)
+- **구매**: [Aspose.Slides 구매](https://purchase.aspose.com/buy)
+- **무료 체험**: [무료 라이선스 받기](https://releases.aspose.com/slides/java/)
+- **임시 라이선스**: [임시 액세스 신청](https://purchase.aspose.com/temporary-license/)
+- **지원**: [Aspose 포럼](https://forum.aspose.com/c/slides/11)
+
+Aspose.Slides for Java로 프레젠테이션을 한 단계 더 향상시키고 더 많은 콘텐츠를 제작해 보세요. 매력적이고 역동적인 슬라이드를 지금 바로 만나보세요!
+
+---
+
+**최종 업데이트:** 2026년 1월 27일
+**테스트 환경:** Aspose.Slides for Java 25.4 (jdk16 분류기)
+**제작사:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -177,9 +194,3 @@ Take the next step in enhancing your presentations with Aspose.Slides for Java a
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-27  
-**Tested With:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
-**Author:** Aspose

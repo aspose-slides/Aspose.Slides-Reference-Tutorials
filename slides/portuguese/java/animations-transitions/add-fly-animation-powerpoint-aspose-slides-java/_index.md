@@ -171,6 +171,12 @@ Para mais informações e suporte:
 
 Dê o próximo passo na melhoria de suas apresentações com Aspose.Slides para Java e comece a criar slides mais envolventes e dinâmicos hoje mesmo!
 
+---
+
+**Última atualização:** 2026-01-27  
+**Testado com:** Aspose.Slides para Java 25.4 (classificador jdk16)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -178,9 +184,3 @@ Dê o próximo passo na melhoria de suas apresentações com Aspose.Slides para 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2026-01-27  
-**Testado com:** Aspose.Slides para Java 25.4 (classificador jdk16)  
-**Autor:** Aspose

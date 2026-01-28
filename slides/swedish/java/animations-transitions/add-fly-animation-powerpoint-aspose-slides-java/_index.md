@@ -169,6 +169,12 @@ A: Omge fil‑åtkomst och animationskod med try‑catch‑block, och stäng all
 
 Ta nästa steg i att förbättra dina presentationer med Aspose.Slides för Java och börja skapa mer engagerande, dynamiska bilder redan idag!
 
+---
+
+**Last Updated:** 2026-01-27  
+**Tested With:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -176,9 +182,3 @@ Ta nästa steg i att förbättra dina presentationer med Aspose.Slides för Java
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-27  
-**Tested With:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
-**Author:** Aspose

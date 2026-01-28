@@ -8,7 +8,7 @@ keywords:
 - Aspose.Slides Java
 - slide animations Java
 - Java presentations
-title: 'aspose slides maven: Haladó diaanimációk elsajátítása Java-ban'
+title: 'aspose slides maven - Haladó diaanimációk elsajátítása Java-ban'
 url: /hu/java/animations-transitions/advanced-slide-animations-aspose-slides-java/
 weight: 1
 ---

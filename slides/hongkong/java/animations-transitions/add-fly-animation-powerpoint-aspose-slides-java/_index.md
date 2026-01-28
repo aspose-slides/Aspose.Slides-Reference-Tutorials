@@ -169,6 +169,12 @@ A: 將檔案存取與動畫程式碼包在 try‑catch 區塊，並於 finally �
 
 立即使用 Aspose.Slides for Java 提升您的簡報，打造更具吸引力與動態的投影片吧！
 
+---
+
+**Last Updated:** 2026-01-27  
+**Tested With:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -176,9 +182,3 @@ A: 將檔案存取與動畫程式碼包在 try‑catch 區塊，並於 finally �
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-27  
-**Tested With:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
-**Author:** Aspose

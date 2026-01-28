@@ -168,6 +168,12 @@ A: Zajistěte správnou licenci, optimalizujte správu zdrojů a udržujte kniho
 - **Dočasná licence**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Fórum podpory**: [Aspose Support Community](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Poslední aktualizace:** 2026-01-27  
+**Testováno s:** Aspose.Slides 25.4 pro Java  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -175,9 +181,3 @@ A: Zajistěte správnou licenci, optimalizujte správu zdrojů a udržujte kniho
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2026-01-27  
-**Testováno s:** Aspose.Slides 25.4 pro Java  
-**Autor:** Aspose

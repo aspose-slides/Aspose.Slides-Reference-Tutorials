@@ -1,5 +1,5 @@
 ---
-title: "Create Presentation Programmatically in Java: Automate PowerPoint Transitions with Aspose.Slides"
+title: "Create Presentation Programmatically in Java - Automate PowerPoint Transitions with Aspose.Slides"
 description: "Learn how to create presentation programmatically and automate PowerPoint transitions using Aspose.Slides for Java. Streamline batch processing of PPTX files."
 date: "2026-01-27"
 weight: 1
@@ -196,14 +196,6 @@ A: For high‑volume automation, a **temporary license** for evaluation or a **s
 
 Dive in, experiment with different transition types, and let your presentations shine with professional‑grade automation!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-27  
@@ -211,3 +203,11 @@ Dive in, experiment with different transition types, and let your presentations 
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

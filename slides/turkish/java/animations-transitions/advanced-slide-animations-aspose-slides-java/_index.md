@@ -8,7 +8,7 @@ keywords:
 - Aspose.Slides Java
 - slide animations Java
 - Java presentations
-title: 'aspose slides maven: Java''da Gelişmiş Slayt Animasyonlarını Ustalıkla Öğrenin'
+title: 'aspose slides maven - Java''da Gelişmiş Slayt Animasyonlarını Ustalıkla Öğrenin'
 url: /tr/java/animations-transitions/advanced-slide-animations-aspose-slides-java/
 weight: 1
 ---

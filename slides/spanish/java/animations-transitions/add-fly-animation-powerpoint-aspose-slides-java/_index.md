@@ -169,6 +169,12 @@ A: Envuelve el acceso a archivos y el código de animación en bloques try‑cat
 
 ¡Da el siguiente paso para mejorar tus presentaciones con Aspose.Slides para Java y comienza a crear diapositivas más atractivas y dinámicas hoy mismo!
 
+---
+
+**Last Updated:** 2026-01-27  
+**Tested With:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -176,9 +182,3 @@ A: Envuelve el acceso a archivos y el código de animación en bloques try‑cat
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-27  
-**Tested With:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
-**Author:** Aspose

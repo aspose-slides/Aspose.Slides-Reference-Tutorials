@@ -169,6 +169,12 @@ presentation.save("YOUR_OUTPUT_DIRECTORY/AnimationEffectinParagraph.pptx", SaveF
 
 立即使用 Aspose.Slides for Java 提升您的演示文稿，创建更具吸引力、动态化的幻灯片吧！
 
+---
+
+**最后更新：** 2026-01-27  
+**测试环境：** Aspose.Slides for Java 25.4（jdk16 classifier）  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -176,9 +182,3 @@ presentation.save("YOUR_OUTPUT_DIRECTORY/AnimationEffectinParagraph.pptx", SaveF
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2026-01-27  
-**测试环境：** Aspose.Slides for Java 25.4（jdk16 classifier）  
-**作者：** Aspose
