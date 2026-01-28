@@ -1,7 +1,7 @@
 ---
-title: "How to Add Fly Animation PowerPoint Using Aspose.Slides for Java | Step‑by‑Step Guide"
-description: "Learn how to add a fly animation PowerPoint effect with Aspose.Slides for Java. Follow this step‑by‑step guide to save your presentation with animation and configure the trigger."
-date: "2025-11-27"
+title: "Save PowerPoint with Animation Using Aspose.Slides for Java"
+description: "Learn how to save PowerPoint with animation using Aspose.Slides for Java. Follow this step‑by‑step guide to add a fly effect, configure triggers, and save your presentation with animation."
+date: "2026-01-27"
 weight: 1
 url: "/java/animations-transitions/add-fly-animation-powerpoint-aspose-slides-java/"
 keywords:
@@ -15,11 +15,11 @@ keywords:
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# How to Add Fly Animation PowerPoint Using Aspose.Slides for Java
+# Save PowerPoint with Animation Using Aspose.Slides for Java
 
 ## Introduction
 
-Enhance your PowerPoint presentations with engaging animations effortlessly. This tutorial will guide you through adding a **fly animation PowerPoint** effect to paragraphs in PowerPoint using **Aspose.Slides for Java**, elevating the professionalism and engagement of your slides. You'll also learn how to **save presentation with animation**, configure the animation trigger, and work with a **temporary Aspose license** during development.
+Enhance your PowerPoint presentations with engaging animations effortlessly. In this tutorial you’ll learn **how to save PowerPoint with animation** by adding a fly effect to paragraphs using **Aspose.Slides for Java**. This approach boosts the professionalism and engagement of your slides while keeping your code clean and maintainable. You'll also discover how to **save presentation with animation**, configure the animation trigger, and work with a **temporary Aspose license** during development.
 
 ### What You'll Learn
 - Setting up **Aspose.Slides for Java** (including Maven and Gradle integration)  
@@ -54,7 +54,7 @@ Before you begin, ensure that you have the following:
 ## Setting Up Aspose.Slides for Java
 To begin using Aspose.Slides for Java, set up the library in your project as follows:
 
-### Maven Setup (`maven aspose slides`)
+### Maven Aspose Slides Dependency
 Add this dependency to your `pom.xml` file:
 ```xml
 <dependency>
@@ -169,6 +169,12 @@ For more information and support:
 
 Take the next step in enhancing your presentations with Aspose.Slides for Java and start creating more engaging, dynamic slides today!
 
+---
+
+**Last Updated:** 2026-01-27  
+**Tested With:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -176,9 +182,3 @@ Take the next step in enhancing your presentations with Aspose.Slides for Java a
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-11-27  
-**Tested With:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
-**Author:** Aspose
