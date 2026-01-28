@@ -187,6 +187,12 @@ A: Load the file with `new Presentation("existing.pptx")`, modify the chart, and
 ## Conclusion
 You now have a complete, end‑to‑end guide on how to **add series to chart**, create a **stacked column chart**, and fine‑tune its appearance in .NET presentations using Aspose.Slides for Java. Experiment with different chart types, colors, and data sources to build compelling visual reports that impress stakeholders.
 
+---
+
+**Last Updated:** 2026-01-17  
+**Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -194,9 +200,3 @@ You now have a complete, end‑to‑end guide on how to **add series to chart**,
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-17  
-**Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
-**Author:** Aspose

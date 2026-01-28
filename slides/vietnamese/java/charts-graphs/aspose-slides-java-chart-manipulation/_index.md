@@ -179,14 +179,6 @@ A: Bản dùng thử miễn phí có sẵn để đánh giá, nhưng cần mua g
 
 Hãy bắt đầu tạo các bản trình bày đẹp mắt với Aspose.Slides for Java ngay hôm nay!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-17  
@@ -194,3 +186,11 @@ Hãy bắt đầu tạo các bản trình bày đẹp mắt với Aspose.Slides 
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

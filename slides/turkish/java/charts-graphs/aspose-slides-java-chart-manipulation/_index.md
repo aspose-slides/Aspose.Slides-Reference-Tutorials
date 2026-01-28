@@ -179,14 +179,6 @@ C: Değerlendirme için ücretsiz bir deneme mevcuttur, ancak ticari dağıtım 
 
 Bugün Aspose.Slides for Java ile görsel olarak çarpıcı sunumlar oluşturmaya başlayın!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-17  
@@ -194,3 +186,11 @@ Bugün Aspose.Slides for Java ile görsel olarak çarpıcı sunumlar oluşturmay
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

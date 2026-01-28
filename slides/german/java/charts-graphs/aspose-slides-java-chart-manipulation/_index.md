@@ -178,14 +178,6 @@ A: Eine kostenlose Testversion steht für die Evaluierung zur Verfügung, jedoch
 
 Starten Sie noch heute mit der Erstellung visuell beeindruckender Präsentationen mit Aspose.Slides für Java!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-17  
@@ -193,3 +185,11 @@ Starten Sie noch heute mit der Erstellung visuell beeindruckender Präsentatione
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

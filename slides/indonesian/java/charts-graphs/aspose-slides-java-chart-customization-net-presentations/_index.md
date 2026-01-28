@@ -188,6 +188,12 @@ A: Muat file dengan `new Presentation("existing.pptx")`, modifikasi diagram, dan
 ## Kesimpulan
 Anda kini memiliki panduan lengkap, end‑to‑end tentang cara **add series to chart**, membuat **stacked column chart**, dan menyempurnakan tampilannya dalam presentasi .NET menggunakan Aspose.Slides untuk Java. Bereksperimenlah dengan berbagai tipe diagram, warna, dan sumber data untuk membangun laporan visual yang menarik dan memukau pemangku kepentingan.
 
+---
+
+**Terakhir Diperbarui:** 2026-01-17  
+**Diuji Dengan:** Aspose.Slides for Java 25.4 (jdk16)  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -195,9 +201,3 @@ Anda kini memiliki panduan lengkap, end‑to‑end tentang cara **add series to 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2026-01-17  
-**Diuji Dengan:** Aspose.Slides for Java 25.4 (jdk16)  
-**Penulis:** Aspose

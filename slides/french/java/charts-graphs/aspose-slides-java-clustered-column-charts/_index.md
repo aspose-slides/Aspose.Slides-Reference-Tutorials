@@ -20,30 +20,30 @@ weight: 1
 # Comment créer un graphique à colonnes groupées en Java avec Aspose.Slides
 
 ## Introduction
-Créer des représentations de données visuellement attrayantes est essentiel pour des présentations d’entreprise percutantes, et apprendre **comment créer un graphique à colonnes groupées** de façon programmatique peut vous faire gagner des heures de travail manuel. Ce guide pas à pas simplifie le processus d’utilisation de **Aspose.Slides for Java** pour créer et styliser rapidement des graphiques à colonnes groupées, améliorant ainsi vos présentations avec des visuels professionnels sans effort.
+Créer des représentations de données visuellement attrayantes est essentiel pour des présentations d'entreprise percutantes, et apprendre **comment créer un graphique à colonnes groupées** de façon programmatique peut vous faire gagner des heures de travail manuel. Ce guide pas à pas simplifie le processus d'utilisation de **Aspose.Slides for Java** pour créer et styliser rapidement des graphiques à colonnes groupées, améliorant ainsi vos présentations avec des visuels professionnels sans effort.
 
-Nous passerons en revue tout ce dont vous avez besoin — de la configuration de la bibliothèque à l’ajout du graphique, en passant par la personnalisation des couleurs des séries, jusqu’à l’enregistrement du fichier final.
+Nous passerons en revue tout ce dont vous avez besoin—de la configuration de la bibliothèque à l’ajout du graphique, en passant par la personnalisation des couleurs des séries, jusqu’à l’enregistrement du fichier final.
 
 ### Ce que vous allez réaliser
-- Installer et configurer Aspose.Slides for Java  
-- **Créer un graphique à colonnes groupées** dans une toute nouvelle présentation  
-- Appliquer automatiquement les couleurs de remplissage des séries  
-- Enregistrer la présentation sur le disque  
+- Installer et configurer Aspose.Slides pour Java
+- **Créer un graphique à colonnes groupées** dans une toute nouvelle présentation
+- Appliquer automatiquement les couleurs de remplissage des séries
+- Enregistrer la présentation sur le disque
 
-Commençons par les prérequis avant de construire notre graphique !
+Commençons par les prérequis avant de construire notre graphique !
 
-## Quick Answers
-- **Quelle est la classe principale ?** `Presentation` de `com.aspose.slides`  
-- **Comment ajouter un graphique ?** Utilisez `addChart(ChartType.ClusteredColumn, ...)` sur la collection de formes d’une diapositive  
-- **Puis‑je définir les couleurs automatiquement ?** Oui, appelez `setAutomaticSeriesColor(true)` sur chaque série  
-- **Quel format est utilisé pour l’enregistrement ?** `SaveFormat.Pptx` (PowerPoint)  
-- **Ai‑je besoin d’une licence ?** Une version d’essai fonctionne pour les tests ; une licence complète est requise en production  
+## Réponses rapides
+- **Quelle est la classe principale ?** `Presentation` de `com.aspose.slides`
+- **Comment ajouter un graphique?** Utilisez `addChart(ChartType.ClusteredColumn, ...)` sur la collection de formes d'une diapositive
+- **Puis‑je définir les couleurs automatiquement?** Oui, appelez `setAutomaticSeriesColor(true)` sur chaque série
+- **Quel format est utilisé pour l'enregistrement ?** `SaveFormat.Pptx` (PowerPoint)
+- **Ai‑je besoin d’une licence?** Une version d’essai fonctionne pour les tests; une licence complète est requise en production
 
-## Prerequisites
-Avant de commencer, assurez‑vous de disposer des outils et connaissances nécessaires :
+## Prérequis
+Avant de commencer, assurez-vous de disposer des outils et connaissances nécessaires :
 
 ### Bibliothèques et dépendances requises
-Vous aurez besoin de la bibliothèque Aspose.Slides for Java. Assurez‑vous d’utiliser la version 25.4 avec prise en charge de JDK16.
+Vous aurez besoin de la bibliothèque Aspose.Slides for Java. Assurez-vous d’utiliser la version 25.4 avec prise en charge de JDK16.
 
 ### Exigences de configuration de l’environnement
 Votre environnement de développement doit prendre en charge Java (de préférence JDK16) et être capable de construire des projets avec Maven ou Gradle.
@@ -51,7 +51,7 @@ Votre environnement de développement doit prendre en charge Java (de préféren
 ### Prérequis de connaissances
 Une familiarité avec la programmation Java de base, la gestion des bibliothèques via Maven/Gradle, et la compréhension des présentations PowerPoint sera bénéfique.
 
-## Setting Up Aspose.Slides for Java
+## Configuration d'Aspose.Slides pour Java
 Pour intégrer Aspose.Slides à votre projet, suivez les instructions d’installation ci‑dessous :
 
 **Maven**  

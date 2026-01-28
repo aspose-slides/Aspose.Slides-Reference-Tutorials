@@ -179,14 +179,6 @@ R: È disponibile una prova gratuita per la valutazione, ma è necessaria una li
 
 Inizia a creare presentazioni visivamente sorprendenti con Aspose.Slides per Java oggi stesso!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-17  
@@ -194,3 +186,11 @@ Inizia a creare presentazioni visivamente sorprendenti con Aspose.Slides per Jav
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

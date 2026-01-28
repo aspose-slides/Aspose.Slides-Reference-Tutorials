@@ -188,6 +188,12 @@ R: Carregue o arquivo com `new Presentation("existing.pptx")`, modifique o gráf
 ## Conclusão
 Agora você tem um guia completo, de ponta a ponta, sobre como **adicionar séries ao gráfico**, criar um **gráfico de coluna empilhada** e ajustar sua aparência em apresentações .NET usando Aspose.Slides para Java. Experimente diferentes tipos de gráfico, cores e fontes de dados para construir relatórios visuais atraentes que impressionem as partes interessadas.
 
+---
+
+**Última atualização:** 2026-01-17  
+**Testado com:** Aspose.Slides para Java 25.4 (jdk16)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -195,9 +201,3 @@ Agora você tem um guia completo, de ponta a ponta, sobre como **adicionar séri
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2026-01-17  
-**Testado com:** Aspose.Slides para Java 25.4 (jdk16)  
-**Autor:** Aspose

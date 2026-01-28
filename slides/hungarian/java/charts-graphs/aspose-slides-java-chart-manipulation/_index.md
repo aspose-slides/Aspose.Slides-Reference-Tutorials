@@ -179,14 +179,6 @@ A: A próba verzió elérhető értékeléshez, de a kereskedelmi üzemeltetésh
 
 Kezdje el a vizuálisan lenyűgöző prezentációk létrehozását az Aspose.Slides for Java segítségével még ma!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Utoljára frissítve:** 2026-01-17  
@@ -194,3 +186,11 @@ Kezdje el a vizuálisan lenyűgöző prezentációk létrehozását az Aspose.Sl
 **Szerző:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

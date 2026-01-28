@@ -179,14 +179,6 @@ A: Бесплатная пробная версия доступна для оц
 
 Начните создавать визуально впечатляющие презентации с Aspose.Slides for Java уже сегодня!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Последнее обновление:** 2026-01-17  
@@ -194,3 +186,11 @@ A: Бесплатная пробная версия доступна для оц
 **Автор:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

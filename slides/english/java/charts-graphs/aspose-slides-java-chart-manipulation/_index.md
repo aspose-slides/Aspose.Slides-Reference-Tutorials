@@ -177,14 +177,6 @@ A: A free trial is available for evaluation, but a purchased license is required
 
 Embark on creating visually stunning presentations with Aspose.Slides for Java today!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-17  
@@ -192,3 +184,11 @@ Embark on creating visually stunning presentations with Aspose.Slides for Java t
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

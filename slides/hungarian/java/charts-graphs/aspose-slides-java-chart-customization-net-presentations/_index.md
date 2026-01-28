@@ -188,6 +188,12 @@ V: Töltsd be a fájlt a `new Presentation("existing.pptx")` segítségével, m�
 ## Összegzés
 Most már egy teljes, vég‑től‑végig útmutatóval rendelkezel arról, hogyan **add series to chart**, hogyan hozz létre egy **stacked column chart**-ot, és hogyan finomhangold megjelenését .NET prezentációkban az Aspose.Slides for Java segítségével. Kísérletezz különböző diagramtípusokkal, színekkel és adatforrásokkal, hogy meggyőző vizuális jelentéseket készíts, amelyek lenyűgözik az érintetteket.
 
+---
+
+**Utolsó frissítés:** 2026-01-17  
+**Tesztelve ezzel:** Aspose.Slides for Java 25.4 (jdk16)  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -195,9 +201,3 @@ Most már egy teljes, vég‑től‑végig útmutatóval rendelkezel arról, hog
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2026-01-17  
-**Tesztelve ezzel:** Aspose.Slides for Java 25.4 (jdk16)  
-**Szerző:** Aspose

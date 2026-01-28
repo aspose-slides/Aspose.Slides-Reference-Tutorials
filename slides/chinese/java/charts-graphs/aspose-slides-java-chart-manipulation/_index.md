@@ -177,14 +177,6 @@ A: 可使用免费试用版进行评估，但商业部署必须购买正式许�
 
 立即使用 Aspose.Slides for Java 开始创建视觉冲击力十足的演示文稿吧！
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最后更新：** 2026-01-17  
@@ -192,3 +184,11 @@ A: 可使用免费试用版进行评估，但商业部署必须购买正式许�
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

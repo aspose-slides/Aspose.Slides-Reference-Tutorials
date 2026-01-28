@@ -179,14 +179,6 @@ A: Een gratis proefversie is beschikbaar voor evaluatie, maar een aangekochte li
 
 Begin vandaag nog met het maken van visueel verbluffende presentaties met Aspose.Slides for Java!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-17  
@@ -194,3 +186,11 @@ Begin vandaag nog met het maken van visueel verbluffende presentaties met Aspose
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

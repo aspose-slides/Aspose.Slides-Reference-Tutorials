@@ -18,41 +18,41 @@ weight: 1
 {{< blocks/products/pf/tutorial-page-section >}}
 # إتقان تخصيص المخططات في عروض .NET باستخدام Aspose.Slides for Java
 
-## Introduction
-في عالم العروض التقديمية المدفوعة بالبيانات، تُعد المخططات أدوات لا غنى عنها تُحوِّل الأرقام الخام إلى قصص بصرية جذابة. عندما تحتاج إلى **إضافة سلسلة إلى المخطط** برمجيًا، خاصة داخل ملفات عرض .NET، قد يبدو الأمر مرهقًا. لحسن الحظ، توفر **Aspose.Slides for Java** واجهة برمجة تطبيقات قوية غير مرتبطة بلغة معينة تجعل إنشاء المخططات وتخصيصها أمرًا بسيطًا—حتى عندما يكون التنسيق المستهدف هو PPTX الخاص بـ .NET.
+## مقدمة
+في عالم العروض التقديمية للتعامل مع البيانات، والتي تشكل أدوات لا غنى عنها تُحوِّل أرقامًا بصرية إلى قصص بصرية جذابة. عندما تحتاج إلى ** إضافة سلسلة إلى Bebe** برمجيًا، خاصة داخل ملفات عرض .NET، قد يبدو الأمر مرهقًا. لحسن الحظ، توجد **Aspose.Slides for Java** برمجة تطبيقات قوية غير مفيدة بلغة معينة معينة وتسمح بإنشاء تطبيقات بسيطة وتعرفها بشكل بسيط — حتى عندما يكون المستهدف هو PPTX الخاص بـ .NET.
 
-في هذا الدرس ستكتشف كيفية **إضافة سلسلة إلى المخطط**، وكيفية **إضافة مخطط** من نوع العمود المتراكم، وكيفية ضبط الجوانب البصرية مثل عرض الفجوة. في النهاية، ستكون قادرًا على توليد شرائح ديناميكية غنية بالبيانات تبدو مصقولة ومهنية.
+ستكتشف في هذا الدرس كيفية **إضافة سلسلة إلى نمط**، وكيفية **إضافة مخطط** من نوع العمود المتراكم، وكيفية ضبط الاستجابة البصرية مثل العرض الشامل. في النهاية، ستكون قادرة على توليد شرائح ديناميكية ديناميكية مصقولة ومهنية.
 
 **ما ستتعلمه**
-- كيفية إنشاء عرض تقديمي فارغ باستخدام Aspose.Slides  
-- كيفية **إضافة مخطط عمود متراكم** إلى شريحة  
-- كيفية **إضافة سلسلة إلى المخطط** وتحديد الفئات  
-- كيفية ملء نقاط البيانات وضبط الإعدادات البصرية  
+- كيفية إنشاء عرض كامل باستخدام Aspose.Slides
+- كيفية ** إضافة مخطط تراكم ** إلى شريحة
+- كيفية ** إضافة سلسلة إلى الفساد** وتحديد الفئات
+- كيفية تجميع البيانات وضبط الإعدادات البصرية
 
-لنجهّز بيئة التطوير الخاصة بك.
+لإنجاز بيئة التطوير الخاصة بك.
 
-## Quick Answers
-- **ما هو الصف الأساسي لبدء عرض تقديمي؟** `Presentation`  
-- **أي طريقة تُضيف مخططًا إلى شريحة؟** `slide.getShapes().addChart(...)`  
-- **كيف تُضيف سلسلة جديدة؟** `chart.getChartData().getSeries().add(...)`  
-- **هل يمكن تغيير عرض الفجوة بين الأعمدة؟** نعم، باستخدام `setGapWidth()` على مجموعة السلاسل  
-- **هل أحتاج إلى ترخيص للإنتاج؟** نعم، يلزم وجود ترخيص صالح لـ Aspose.Slides for Java  
+## إجابات سريعة
+- **ما هو الصف الأساسي بداية عرض تقديمي؟** `Presentation`
+- **أي طريقة تُضيف مخططًا إلى شريحة؟** `slide.getShapes().addChart(...)`
+- **كيف تضيف سلسلة جديدة؟** `chart.getChartData().getSeries().add(...)`
+- **هل يمكن تغيير العرض بين الأعمدة؟** نعم، باستخدام `setGapWidth()` على مجموعة السلاسل
+- **هل أحتاج إلى ترخيص للإنتاج؟** نعم، يلزم وجود ترخيص صالح لـ Aspose.Slides for Java
 
-## What is “add series to chart”?
-إضافة سلسلة إلى مخطط تعني إدخال مجموعة بيانات جديدة سيعرضها المخطط كعنصر بصري مميز (مثل عمود جديد، أو خط، أو شريحة). يمكن لكل سلسلة أن تمتلك قيمها، ألوانها، وتنسيقها الخاص، مما يتيح لك مقارنة مجموعات بيانات متعددة جنبًا إلى جنب.
+## ما هو "إضافة سلسلة إلى الرسم البياني"؟
+إضافة سلسلة إلى مخطط تعني مجموعة بيانات جديدة سيعرضها وتكون كعنصر بصري مميز (مثل عمود جديد، أو خط، أو شريحة). يمكن لكل سلسلة أن تمتلك قيمها، ألوانها، وتنسيقها الخاص، مما يتيح لك مقارنة مجموعات بيانات متعددة جنبًا إلى جنب.
 
-## Why use Aspose.Slides for Java to modify .NET presentations?
-- **متعدد المنصات**: اكتب كود Java مرة واحدة واستهدف ملفات PPTX المستخدمة في تطبيقات .NET.  
-- **بدون اعتماد على COM أو Office**: يعمل على الخوادم، خطوط CI، والحاويات.  
-- **واجهة مخططات غنية**: تدعم أكثر من 50 نوعًا من المخططات، بما في ذلك مخططات العمود المتراكم.  
+## لماذا نستخدم Aspose.Slides لـ Java لتعديل العروض التقديمية بتنسيق .NET؟
+- **متعددة المنصات**: اكتب كود Java مرة واحدة واستهدف ملفات PPTX المستخدمة في تطبيقات .NET.
+- **بدون الاعتماد على COM أو Office**: يعمل على الموقع، خطوط CI، والحاويات.
+- **واجهة مخططات واسعة النطاق**: تدعم 50 شخصًا من المشاهير، بما في ذلك مخططات أكثر العمود المتراكم.
 
-## Prerequisites
-1. مكتبة **Aspose.Slides for Java** (الإصدار 25.4 أو أحدث).  
-2. أداة بناء Maven أو Gradle، أو تحميل JAR يدويًا.  
-3. معرفة أساسية بـ Java وفهم بنية ملفات PPTX.  
+## المتطلبات الأساسية
+1. مكتبة **Aspose.Slides for Java** (الإصدار 25.4 أو أحدث).
+2. أداة بناء Maven أو Gradle، أو تحميل JAR يدويًا.
+3. معرفة قاعدة بـ Java وفهم قواعد ملفات PPTX.
 
-## Setting Up Aspose.Slides for Java
-### Maven Installation
+## إعداد Aspose.Slides لـ Java
+### تثبيت مخضرم
 أضف الاعتماد التالي إلى ملف `pom.xml` الخاص بك:
 
 ```xml
@@ -64,23 +64,23 @@ weight: 1
 </dependency>
 ```
 
-### Gradle Installation
+### تركيب Gradle
 أدرج هذا السطر في ملف `build.gradle` الخاص بك:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Direct Download
-بدلاً من ذلك، احصل على أحدث JAR من صفحة الإصدارات الرسمية: [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+### تحميل مباشر
+أقل من ذلك، يمكنك الحصول على أحدث JAR من صفحة الاختلافات الرسمية: [Aspose.Slides for Java Releases](https://releases.aspose.com/slides/Java/).
 
-**License Acquisition**  
-ابدأ بتجربة مجانية عن طريق تنزيل ترخيص مؤقت من [here](https://purchase.aspose.com/temporary-license/). للاستخدام في الإنتاج، اشترِ ترخيصًا كاملاً لفتح جميع الميزات.
+** الحصول على الترخيص **
+ابدأ مجانًا عن طريق تنزيل الترخيص المؤقت من [هنا](https://purchase.aspose.com/temporary-license/). للاستخدام في الإنتاج، اشترِ ترخيصًا كاملاً لفتح جميع الميزات.
 
-## Step‑by‑Step Implementation Guide
-Below each step you’ll find a concise code snippet (unchanged from the original tutorial) followed by an explanation of what it does.
+## دليل التنفيذ خطوة بخطوة
+ستجد أسفل كل خطوة مقتطفًا موجزًا ​​للتعليمات البرمجية (لم يتغير عن البرنامج التعليمي الأصلي) متبوعًا بشرح لما يفعله.
 
-### Step 1: Create an Empty Presentation
+### الخطوة 1: إنشاء عرض تقديمي فارغ
 ```java
 import com.aspose.slides.*;
 
@@ -95,7 +95,7 @@ presentation.save("YOUR_OUTPUT_DIRECTORY/Empty_Presentation.pptx", SaveFormat.Pp
 ```
 *نبدأ بملف PPTX نظيف، وهو يوفر لنا لوحة رسم لإضافة المخططات.*
 
-### Step 2: Add a Stacked Column Chart to the Slide
+### الخطوة 2: أضف مخططًا عموديًا مكدسًا إلى الشريحة
 ```java
 // Import necessary Aspose.Slides classes
 import com.aspose.slides.*;
@@ -108,7 +108,7 @@ presentation.save("YOUR_OUTPUT_DIRECTORY/Chart_Added.pptx", SaveFormat.Pptx);
 ```
 *طريقة `addChart` تُنشئ **مخطط عمود متراكم** وتضعه في الزاوية العليا اليسرى من الشريحة.*
 
-### Step 3: Add Series to the Chart (Primary Goal)
+### الخطوة 3: أضف السلاسل إلى المخطط (الهدف الرئيسي)
 ```java
 // Accessing the default worksheet index for chart data
 int defaultWorksheetIndex = 0;
@@ -122,7 +122,7 @@ presentation.save("YOUR_OUTPUT_DIRECTORY/Series_Added.pptx", SaveFormat.Pptx);
 ```
 *هنا نقوم **بإضافة سلسلة إلى المخطط** – كل استدعاء يُنشئ سلسلة بيانات جديدة ستظهر كمجموعة أعمدة منفصلة.*
 
-### Step 4: Add Categories to the Chart
+### الخطوة 4: أضف الفئات إلى المخطط
 ```java
 // Adding categories to the chart
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 1, 0, "Category 1"));
@@ -134,7 +134,7 @@ presentation.save("YOUR_OUTPUT_DIRECTORY/Categories_Added.pptx", SaveFormat.Pptx
 ```
 *الفئات تعمل كعناوين لمحور X، مما يمنح كل عمود معنىً واضحًا.*
 
-### Step 5: Populate Series Data
+### الخطوة 5: املأ بيانات السلاسل
 ```java
 // Accessing a particular series for data population
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
@@ -149,7 +149,7 @@ presentation.save("YOUR_OUTPUT_DIRECTORY/Series_Data_Populated.pptx", SaveFormat
 ```
 *نقاط البيانات تُعطي كل سلسلة قيمها الرقمية، والتي سيعرضها المخطط كارتفاعات للأعمدة.*
 
-### Step 6: Set Gap Width for Chart Series Group
+### الخطوة 6: حدد عرض الفجوة لمجموعة سلاسل المخطط
 ```java
 // Setting the gap width between bars
 series.getParentSeriesGroup().setGapWidth(50);
@@ -159,34 +159,40 @@ presentation.save("YOUR_OUTPUT_DIRECTORY/Set_GapWidth.pptx", SaveFormat.Pptx);
 ```
 *ضبط عرض الفجوة يحسن قابلية القراءة، خاصةً عندما تكون هناك فئات كثيرة.*
 
-## Common Use Cases
-- **التقارير المالية** – مقارنة الإيرادات ربع السنوية عبر وحدات الأعمال.  
-- **لوحات مشاريع** – إظهار نسب إكمال المهام لكل فريق.  
-- **تحليلات التسويق** – تصور أداء الحملات جنبًا إلى جنب.  
+## حالات الاستخدام الشائعة
+- **التقارير المالية** – مقارنة الإيرادات السنوية عبر وحدات الأعمال.
+- **لوحات العلوم** – شرح نسبي أو لكل فريق.
+- **تحليلات التسويق** – تصور الحملات إلى جنب إلى جنب.
 
-## Performance Tips
-- **أعد استخدام كائن `Presentation`** عند إنشاء مخططات متعددة لتقليل استهلاك الذاكرة.  
-- **قلل عدد نقاط البيانات** إلى الحد الضروري فقط للقصة البصرية.  
-- **حرّر الكائنات** (`presentation.dispose()`) بعد الحفظ لتحرير الموارد.  
+## نصائح الأداء
+- **أعد استخدام كائن `العرض التقديمي`** عند إنشاء مخططات متعددة رئيسية لاستهلاك الذاكرة.
+- **قلل عدد البيانات نقاط** إلى الحد الضروري فقط للقصة البصرية.
+- **حرّر الكائنات** (`presentation.dispose()`) بعد الحفظ لتحرير الموارد.
 
-## Frequently Asked Questions
-**س: هل يمكنني إضافة أنواع مخططات أخرى غير العمود المتراكم؟**  
-ج: نعم، يدعم Aspose.Slides المخططات الخطية، الدائرية، المساحية، والعديد من الأنواع الأخرى.
+## الأسئلة المتداولة
+**س: هل يمكنني إضافة خطط أخرى غير العمود المتراكم؟**
+ج: نعم، يدعم Aspose.Slides الأنواع الخطية، الدائرية، المساحية، والعديد من الأنواع الأخرى.
 
-**س: هل أحتاج إلى ترخيص منفصل لإخراج .NET؟**  
-ج: لا، الترخيص نفسه للغة Java يعمل مع جميع صيغ الإخراج، بما في ذلك ملفات PPTX الخاصة بـ .NET.
+**س: هل أحتاج إلى ترخيص بشكل منفصل لإخراج .NET؟**
+ج: لا، لتشغيل نفسه لـ Java يعمل مع صيغ الصوت، بما في ذلك ملفات PPTX الخاصة بـ .NET.
 
-**س: كيف أغيّر لوحة ألوان المخطط؟**  
-ج: استخدم `chart.getChartData().getSeries().get_Item(i).getFormat().getFill().setFillType(FillType.Solid)` وحدد اللون المطلوب عبر `Color`.
+**س: كيف غيّر لوحة الألوان؟**
+ج: استخدم `chart.getChartData().getSeries().get_Item(i).getFormat().getFill().setFillType(FillType.Solid)` وتحديد اللون المطلوب عبر `Color`.
 
-**س: هل يمكن إضافة تسميات البيانات برمجيًا؟**  
-ج: بالتأكيد. استدعِ `series.getDataPoints().get_Item(j).getLabel().setShowValue(true)` لعرض القيم.
+**س: هل يمكن إضافة تسميات البيانات برمجياً؟**
+ج: مؤكد. حتماً `series.getDataPoints().get_Item(j).getLabel().setShowValue(true)` لعرض القيم.
 
-**س: ماذا لو احتجت إلى تحديث عرض تقديمي موجود؟**  
-ج: حمّل الملف باستخدام `new Presentation("existing.pptx")`، عدّل المخطط، ثم احفظه مرة أخرى.
+**س: ماذا لو الخارجية إلى تحديث عرض تقديمي الموجود؟**
+ج: أخرى نتنياهو الملف باستخدام `new Presentation("existing.pptx")`، لعدة جيدة، ثم احفظه مرة أخرى.
 
-## Conclusion
+## خاتمة
 أصبح لديك الآن دليل شامل من البداية إلى النهاية حول كيفية **إضافة سلسلة إلى المخطط**، وإنشاء **مخطط عمود متراكم**، وضبط مظهره في عروض .NET باستخدام Aspose.Slides for Java. جرّب أنواع مخططات مختلفة، ألوانًا متعددة، ومصادر بيانات متنوعة لتصنع تقارير بصرية مقنعة تُبهِر أصحاب المصلحة.
+
+---
+
+**Last Updated:** 2026-01-17  
+**Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -195,9 +201,3 @@ presentation.save("YOUR_OUTPUT_DIRECTORY/Set_GapWidth.pptx", SaveFormat.Pptx);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-17  
-**Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
-**Author:** Aspose

@@ -188,6 +188,12 @@ presentation.save("YOUR_OUTPUT_DIRECTORY/Set_GapWidth.pptx", SaveFormat.Pptx);
 ## สรุป
 คุณได้เรียนรู้วิธี **add series to chart**, สร้าง **stacked column chart**, และปรับแต่งลักษณะของมันใน .NET presentations ด้วย Aspose.Slides for Java อย่างครบถ้วนแล้ว ลองทดลองใช้ประเภทแผนภูมิ สี และแหล่งข้อมูลต่าง ๆ เพื่อสร้างรายงานภาพที่น่าประทับใจและดึงดูดผู้มีส่วนได้ส่วนเสีย
 
+---
+
+**อัปเดตล่าสุด:** 2026-01-17  
+**ทดสอบกับ:** Aspose.Slides for Java 25.4 (jdk16)  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -195,9 +201,3 @@ presentation.save("YOUR_OUTPUT_DIRECTORY/Set_GapWidth.pptx", SaveFormat.Pptx);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2026-01-17  
-**ทดสอบกับ:** Aspose.Slides for Java 25.4 (jdk16)  
-**ผู้เขียน:** Aspose

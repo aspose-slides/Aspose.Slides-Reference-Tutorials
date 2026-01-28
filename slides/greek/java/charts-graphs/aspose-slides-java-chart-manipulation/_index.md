@@ -178,14 +178,6 @@ A: Μια δωρεάν δοκιμή είναι διαθέσιμη για αξι�
 
 Ξεκινήστε να δημιουργείτε οπτικά εντυπωσιακές παρουσιάσεις με το Aspose.Slides for Java σήμερα!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-17  
@@ -193,3 +185,11 @@ A: Μια δωρεάν δοκιμή είναι διαθέσιμη για αξι�
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

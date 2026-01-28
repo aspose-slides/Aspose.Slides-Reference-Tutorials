@@ -18,42 +18,42 @@ weight: 1
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mistrovství přizpůsobení grafů v .NET prezentacích pomocí Aspose.Slides pro Java
 
-## Introduction
-V oblasti prezentací řízených daty jsou grafy nepostradatelnými nástroji, které proměňují surová čísla v poutavé vizuální příběhy. Když potřebujete **add series to chart** programově, zejména v souborech .NET prezentací, může se úkol zdát ohromující. Naštěstí **Aspose.Slides for Java** poskytuje výkonné, jazykově nezávislé API, které usnadňuje tvorbu a přizpůsobení grafů – i když je vaším cílovým formátem .NET PPTX.
+## Úvod
+V oblasti prezentací řízených dat jsou grafy nepostradatelnými nástroji, které proměňují surová čísla v poutavé vizuální příběhy. Když potřebujete **add series to chart** programově, zejména v souborech .NET prezentací, může se úkol zdát ohromující. Naštěstí **Aspose.Slides for Java** poskytuje výkonné jazykově nezávislé API, které vytváří a přizpůsobení grafů – i když je vaším cílovým formátem .NETPPTX.
 
-V tomto tutoriálu se dozvíte, jak **add series to chart**, jak **how to add chart** typu sloupcového zásobníku a jak doladit vizuální aspekty, jako je šířka mezery. Na konci budete schopni generovat dynamické, daty bohaté snímky, které vypadají profesionálně a elegantně.
+V tomto tutoriálu se dozvíte, jak **add series to chart**, jak **how to add chart** typu sloupcového zásobníku a jak upravit vizuální aspekty, jako je šířka mezer. Na konci budete schopni generovat dynamické, daty bohaté snímky, které vypadají profesionálně a elegantně.
 
-**What You’ll Learn**
-- Jak vytvořit prázdnou prezentaci pomocí Aspose.Slides  
-- Jak **add stacked column chart** do snímku  
-- Jak **add series to chart** a definovat kategorie  
-- Jak naplnit datové body a upravit vizuální nastavení  
+**Co se naučíte**
+- Jak vytvořit prázdnou prezentaci pomocí Aspose.Slides
+- Jak **přidat skládaný sloupcový graf** do snímku
+- Jak **d series to chart** a definovat kategorii
+- Jak naplnit datové tělo a upravit vizuální nastavení
 
-Pojďme připravit vaše vývojové prostředí.
+Pojďme si připravit vaše vývojové prostředí.
 
-## Quick Answers
-- **What is the primary class to start a presentation?** `Presentation`  
-- **Which method adds a chart to a slide?** `slide.getShapes().addChart(...)`  
-- **How do you add a new series?** `chart.getChartData().getSeries().add(...)`  
-- **Can you change the gap width between bars?** Yes, using `setGapWidth()` on the series group  
-- **Do I need a license for production?** Yes, a valid Aspose.Slides for Java license is required  
+## Rychlé odpovědi
+- **Jaká je primární třída pro zahájení prezentace?** `Prezentace`
+- **Která metoda přidá graf na snímek?** `slide.getShapes().addChart(...)`
+- **Jak přidáte novou sérii?** `chart.getChartData().getSeries().add(...)`
+- **Můžete změnit šířku mezery mezi pruhy?** Ano, pomocí `setGapWidth()` ve skupině sérií
+- **Potřebuji licenci pro produkci?** Ano, je vyžadována platná licence Aspose.Slides for Java
 
-## What is “add series to chart”?
+## Co je to „přidat řadu do grafu“?
 Přidání série do grafu znamená vložení nové kolekce dat, kterou graf vykreslí jako samostatný vizuální prvek (např. nový sloupec, čára nebo výseč). Každá série může mít vlastní sadu hodnot, barev a formátování, což vám umožní porovnávat více datových sad vedle sebe.
 
-## Why use Aspose.Slides for Java to modify .NET presentations?
-- **Cross‑platform**: Napište Java kód jednou a cílové soubory PPTX použijí .NET aplikace.  
-- **No COM or Office dependencies**: Funguje na serverech, v CI pipelinech i v kontejnerech.  
-- **Rich chart API**: Podporuje více než 50 typů grafů, včetně stacked column charts.  
+## Proč používat Aspose.Slides pro Javu k úpravě prezentací .NET?
+- **Cross‑platform**: Napište Java kód jednou a cílové soubory PPTX použijí .NET aplikaci.
+- **Žádné závislosti COM nebo Office**: Funguje na serverech, v CI pipelinech i v kontejnerech.
+- **Rich chart API**: Podporuje více než 50 typů grafů, včetně vrstvených sloupcových grafů.
 
-## Prerequisites
-1. **Aspose.Slides for Java** knihovna (verze 25.4 nebo novější).  
-2. Maven nebo Gradle build tool, nebo ruční stažení JAR souboru.  
-3. Základní znalost Javy a povědomí o struktuře PPTX.  
+## Předpoklady
+1. **Aspose.Slides for Java** knihovna (verze25.4 nebo novější).
+2. Maven nebo Gradle build tool, nebo ruční stažení JAR souboru.
+3. Základní znalost Javy a povědomí o struktuře PPTX.
 
-## Setting Up Aspose.Slides for Java
-### Maven Installation
-Add the following dependency to your `pom.xml`:
+## Nastavení Aspose.Slides pro Java
+### Instalace Maven
+Přidejte do souboru `pom.xml` následující závislost:
 
 ```xml
 <dependency>
@@ -64,23 +64,23 @@ Add the following dependency to your `pom.xml`:
 </dependency>
 ```
 
-### Gradle Installation
-Include this line in your `build.gradle` file:
+### Instalace Gradle
+Do souboru `build.gradle` vložte tento řádek:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Direct Download
-Alternatively, grab the latest JAR from the official release page: [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+### Přímé stažení
+Případně si stáhněte nejnovější JAR soubor z oficiální stránky vydání: [Aspose.Slides pro verze Java](https://releases.aspose.com/slides/java/).
 
-**License Acquisition**  
-Start with a free trial by downloading a temporary license from [here](https://purchase.aspose.com/temporary-license/). For production use, purchase a full license to unlock all features.
+**Získání licence**
+Začněte s bezplatnou zkušební verzí stažením dočasné licence z [zde](https://purchase.aspose.com/temporary-license/). Pro produkční použití si zakupte plnou licenci, abyste odemkli všechny funkce.
 
-## Step‑by‑Step Implementation Guide
-Below each step you’ll find a concise code snippet (unchanged from the original tutorial) followed by an explanation of what it does.
+## Podrobný návod k implementaci
+Pod každým krokem najdete stručný úryvek kódu (nezměněný oproti původnímu tutoriálu) následovaný vysvětlením jeho funkce.
 
-### Step 1: Create an Empty Presentation
+### Krok 1: Vytvoření prázdné prezentace
 ```java
 import com.aspose.slides.*;
 
@@ -95,7 +95,7 @@ presentation.save("YOUR_OUTPUT_DIRECTORY/Empty_Presentation.pptx", SaveFormat.Pp
 ```
 *We start with a clean PPTX file, which gives us a canvas for adding charts.*
 
-### Step 2: Add a Stacked Column Chart to the Slide
+### Krok 2: Přidání skládaného sloupcového grafu na snímek
 ```java
 // Import necessary Aspose.Slides classes
 import com.aspose.slides.*;
@@ -108,7 +108,7 @@ presentation.save("YOUR_OUTPUT_DIRECTORY/Chart_Added.pptx", SaveFormat.Pptx);
 ```
 *The `addChart` method creates a **add stacked column chart** and places it at the top‑left corner of the slide.*
 
-### Step 3: Add Series to the Chart (Primary Goal)
+### Krok 3: Přidání sérií do grafu (primární cíl)
 ```java
 // Accessing the default worksheet index for chart data
 int defaultWorksheetIndex = 0;
@@ -122,7 +122,7 @@ presentation.save("YOUR_OUTPUT_DIRECTORY/Series_Added.pptx", SaveFormat.Pptx);
 ```
 *Here we **add series to chart** – each call creates a new data series that will appear as a separate column group.*
 
-### Step 4: Add Categories to the Chart
+### Krok 4: Přidání kategorií do grafu
 ```java
 // Adding categories to the chart
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 1, 0, "Category 1"));
@@ -134,7 +134,7 @@ presentation.save("YOUR_OUTPUT_DIRECTORY/Categories_Added.pptx", SaveFormat.Pptx
 ```
 *Categories act as the X‑axis labels, giving meaning to each column.*
 
-### Step 5: Populate Series Data
+### Krok 5: Naplnění dat sérií
 ```java
 // Accessing a particular series for data population
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
@@ -149,7 +149,7 @@ presentation.save("YOUR_OUTPUT_DIRECTORY/Series_Data_Populated.pptx", SaveFormat
 ```
 *Data points give each series its numeric values, which the chart will render as bar heights.*
 
-### Step 6: Set Gap Width for Chart Series Group
+### Krok 6: Nastavení šířky mezery pro skupinu sérií grafu
 ```java
 // Setting the gap width between bars
 series.getParentSeriesGroup().setGapWidth(50);
@@ -159,34 +159,40 @@ presentation.save("YOUR_OUTPUT_DIRECTORY/Set_GapWidth.pptx", SaveFormat.Pptx);
 ```
 *Adjusting the gap width improves readability, especially when many categories are present.*
 
-## Common Use Cases
-- **Financial reporting** – compare quarterly revenue across business units.  
-- **Project dashboards** – show task completion percentages per team.  
-- **Marketing analytics** – visualize campaign performance side‑by‑side.
+## Běžné případy použití
+- **Finanční reporting** – porovnání čtvrtletních příjmů napříč obchodními jednotkami.
+- **Projektové dashboardy** – zobrazení procent dokončení úkolů na tým.
+- **Marketingová analytika** – vizualizace výkonu kampaně vedle sebe.
 
-## Performance Tips
-- **Reuse the `Presentation` object** when creating multiple charts to reduce memory overhead.  
-- **Limit the number of data points** to only those needed for the visual story.  
-- **Dispose of objects** (`presentation.dispose()`) after saving to free resources.
+## Tipy pro výkon
+- **Opětovné použití objektu `Presentation`** při vytváření více grafů pro snížení režijních nákladů paměti.
+- **Omezení počtu datových bodů** pouze na ty, které jsou potřeba pro vizuální příběh.
+- **Odstranění objektů** (`presentation.dispose()`) po uložení do volných zdrojů.
 
-## Frequently Asked Questions
-**Q: Can I add other chart types besides stacked column?**  
-A: Yes, Aspose.Slides supports line, pie, area, and many more chart types.
+## Často kladené otázky
+**Otázka: Mohu přidat jiné typy grafů než skládaný sloupcový?**
+Odpověď: Ano, Aspose.Slides podporuje čárové, koláčové, plošné a mnoho dalších typů grafů.
 
-**Q: Do I need a separate license for .NET output?**  
-A: No, the same Java license works for all output formats, including .NET PPTX files.
+**Otázka: Potřebuji samostatnou licenci pro výstup .NET?**
+Odpověď: Ne, stejná licence Java funguje pro všechny výstupní formáty, včetně souborů .NET PPTX.
 
-**Q: How do I change the chart’s color palette?**  
-A: Use `chart.getChartData().getSeries().get_Item(i).getFormat().getFill().setFillType(FillType.Solid)` and set the desired `Color`.
+**Otázka: Jak změním barevnou paletu grafu?**
+Odpověď: Použijte `chart.getChartData().getSeries().get_Item(i).getFormat().getFill().setFillType(FillType.Solid)` a nastavte požadovanou `Color`.
 
-**Q: Is it possible to add data labels programmatically?**  
-A: Absolutely. Call `series.getDataPoints().get_Item(j).getLabel().setShowValue(true)` to display values.
+**Otázka: Je možné programově přidávat popisky dat?**
+Odpověď: Rozhodně. Pro zobrazení hodnot volejte `series.getDataPoints().get_Item(j).getLabel().setShowValue(true)`.
 
-**Q: What if I need to update an existing presentation?**  
-A: Load the file with `new Presentation("existing.pptx")`, modify the chart, and save it back.
+**Otázka: Co když potřebuji aktualizovat existující prezentaci?**
+Odpověď: Načtěte soubor s `new Presentation("existing.pptx")`, upravte graf a uložte jej zpět.
 
-## Conclusion
-You now have a complete, end‑to‑end guide on how to **add series to chart**, create a **stacked column chart**, and fine‑tune its appearance in .NET presentations using Aspose.Slides for Java. Experiment with different chart types, colors, and data sources to build compelling visual reports that impress stakeholders.
+## Závěr
+Nyní máte kompletního a komplexního průvodce, jak **přidat série do grafu**, vytvořit **skládaný sloupcový graf** a doladit jeho vzhled v prezentacích .NET pomocí Aspose.Slides pro Javu. Experimentujte s různými typy grafů, barvami a zdroji dat a vytvářejte poutavé vizuální zprávy, které zaujmou zúčastněné strany.
+
+---
+
+**Poslední aktualizace:** 17. 1. 2026
+**Testováno s:** Aspose.Slides pro Javu 25.4 (jdk16)
+**Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -195,9 +201,3 @@ You now have a complete, end‑to‑end guide on how to **add series to chart**,
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-17  
-**Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
-**Author:** Aspose

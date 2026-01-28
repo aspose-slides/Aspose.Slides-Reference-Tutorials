@@ -178,6 +178,12 @@ A: 評価用の無料トライアルは利用可能ですが、商用展開に�
 
 今すぐ Aspose.Slides for Java を使って、視覚的に魅力的なプレゼンテーションの作成に取り組みましょう！
 
+---
+
+**最終更新日:** 2026-01-17  
+**テスト環境:** Aspose.Slides for Java 25.4 (JDK 16)  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -185,9 +191,3 @@ A: 評価用の無料トライアルは利用可能ですが、商用展開に�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2026-01-17  
-**テスト環境:** Aspose.Slides for Java 25.4 (JDK 16)  
-**作者:** Aspose

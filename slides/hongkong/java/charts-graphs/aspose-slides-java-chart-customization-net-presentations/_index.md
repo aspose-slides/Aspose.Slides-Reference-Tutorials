@@ -187,6 +187,12 @@ A: 使用 `new Presentation("existing.pptx")` 載入檔案，修改圖表後再�
 ## 結語
 現在你已掌握 **add series to chart**、建立 **stacked column chart**，以及在 .NET 簡報中使用 Aspose.Slides for Java 微調圖表外觀的完整流程。可自行嘗試不同圖表類型、配色與資料來源，打造令人印象深刻的視覺報告，贏得利害關係人的青睞。
 
+---
+
+**最後更新：** 2026-01-17  
+**測試環境：** Aspose.Slides for Java 25.4 (jdk16)  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -194,9 +200,3 @@ A: 使用 `new Presentation("existing.pptx")` 載入檔案，修改圖表後再�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2026-01-17  
-**測試環境：** Aspose.Slides for Java 25.4 (jdk16)  
-**作者：** Aspose

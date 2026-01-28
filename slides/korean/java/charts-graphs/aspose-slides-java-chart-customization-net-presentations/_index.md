@@ -188,6 +188,12 @@ A: `new Presentation("existing.pptx")`로 파일을 로드하고 차트를 수�
 ## 결론
 이제 Aspose.Slides for Java를 사용하여 .NET 프레젠테이션에서 **add series to chart** 방법, **stacked column chart** 생성 및 외관을 미세 조정하는 전체적인 가이드를 갖추었습니다. 다양한 차트 유형, 색상 및 데이터 소스를 실험하여 이해관계자를 감동시킬 매력적인 시각 보고서를 만들어 보세요.
 
+---
+
+**Last Updated:** 2026-01-17  
+**Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -195,9 +201,3 @@ A: `new Presentation("existing.pptx")`로 파일을 로드하고 차트를 수�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-17  
-**Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
-**Author:** Aspose
