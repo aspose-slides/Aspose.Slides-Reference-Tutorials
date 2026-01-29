@@ -10,9 +10,9 @@ url: /tr/
 weight: 10
 ---
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -335,4 +335,4 @@ A: Akış API'lerini ve `PresentationOptimizer` sınıfını kullanarak bellek t
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/pf/main-container >}}
+{{< blocks/products/products-backtop-button >}}
