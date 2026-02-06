@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "เรียนรู้วิธีเพิ่มและปรับแต่งแผนภูมิในงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java คำแนะนำทีละขั้นตอนนี้ครอบคลุมถึงเคล็ดลับการตั้งค่า การนำไปใช้งาน และการปรับแต่ง"
-"title": "วิธีการเพิ่มแผนภูมิลงใน PowerPoint โดยใช้ Aspose.Slides สำหรับ Java พร้อมคำแนะนำทีละขั้นตอน"
-"url": "/th/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/"
-"weight": 1
+date: '2026-02-06'
+description: เรียนรู้วิธีเพิ่มแผนภูมิลงใน PowerPoint และเพิ่มแผนภูมิคอลัมน์แบบกลุ่มโดยใช้
+  Aspose.Slides for Java คู่มือขั้นตอนต่อขั้นตอนนี้ครอบคลุมการตั้งค่า การดำเนินการ
+  และการปรับแต่ง.
+keywords:
+- add charts to PowerPoint
+- use Aspose.Slides for Java
+- customize PowerPoint presentations
+title: เพิ่มแผนภูมิใน PowerPoint ด้วย Aspose.Slides สำหรับ Java
+url: /th/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,31 +17,35 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# วิธีการเพิ่มแผนภูมิลงใน PowerPoint โดยใช้ Aspose.Slides สำหรับ Java: คำแนะนำทีละขั้นตอน
+# เพิ่มแผนภูมิใน PowerPoint ด้วย Aspose.Slides for Java
 
-## การแนะนำ
-การสร้างงานนำเสนอที่น่าสนใจมักต้องใช้การแสดงข้อมูลในรูปแบบภาพ เช่น แผนภูมิและกราฟ ด้วย Aspose.Slides สำหรับ Java คุณสามารถเพิ่มแผนภูมิแบบไดนามิกลงในสไลด์ PowerPoint ได้อย่างง่ายดาย ช่วยเพิ่มผลกระทบของการเล่าเรื่องข้อมูลของคุณ บทช่วยสอนนี้ให้คำแนะนำทีละขั้นตอนเกี่ยวกับการใช้ Aspose.Slides เพื่อรวมแผนภูมิประเภทต่างๆ เข้ากับงานนำเสนอของคุณ
+## บทนำ
+การสร้างงานนำเสนอที่น่าสนใจมักต้องการการแสดงข้อมูลด้วยภาพ เช่น แผนภูมิและกราฟ ด้วย Aspose.Slides for Java คุณสามารถเพิ่มแผนภูมิแบบไดนามิกลงในสไลด์ PowerPoint ได้อย่างง่ายดาย ช่วยเพิ่มอิทธิพลให้กับการเล่าเรื่องด้วยข้อมูลของคุณ คู่มือนี้ให้คำแนะนำแบบขั้นตอนโดยใช้ Aspose.Slides เพื่อรวมประเภทแผนภูมิต่าง ๆ ลงในงานนำเสนอของคุณ
 
-**สิ่งที่คุณจะได้เรียนรู้:**
-- วิธีการสร้างและเริ่มต้นการนำเสนอ
-- ขั้นตอนการเพิ่มประเภทแผนภูมิต่างๆ ลงในสไลด์ของคุณ
-- เทคนิคสำหรับการปรับแต่งแผนภูมิ เช่น การปรับระยะห่างของป้ายแกนหมวดหมู่
-- วิธีการบันทึกการนำเสนอที่ปรับปรุงของคุณ
+## คำตอบสั้น
+- **ไลบรารีใดที่ให้คุณเพิ่มแผนภูมิใน PowerPoint?** Aspose.Slides for Java  
+- **ประเภทแผนภูมิใดที่อธิบายเป็นอันดับแรก?** Clustered Column Chart  
+- **คุณปรับระยะห่างของป้ายกำกับบนแกนประเภทอย่างไร?** Use `setLabelOffset()` on the horizontal axis  
+- **ฉันต้องมีลิขสิทธิ์เพื่อรันโค้ดหรือไม่?** A free trial works for development; a full license is required for production  
+- **เวอร์ชัน Java ที่แนะนำคืออะไร?** JDK 8 or higher (JDK 16 classifier shown in Maven example)
 
-ก่อนที่เราจะเจาะลึก มาดูข้อกำหนดเบื้องต้นบางประการที่คุณต้องมีเพื่อเริ่มต้นกันก่อน
+## “เพิ่มแผนภูมิใน PowerPoint” คืออะไร?
+การเพิ่มแผนภูมิใน PowerPoint หมายถึงการสร้างอ็อบเจกต์แผนภูมิโดยโปรแกรม เติมข้อมูลลงไป และแทรกลงบนสไลด์ Aspose.Slides for Java จะทำหน้าที่แยกส่วนการจัดการรูปแบบไฟล์ PowerPoint ระดับต่ำออกไป ให้คุณมุ่งเน้นที่การออกแบบภาพและข้อมูลได้เลย
+
+## ทำไมต้องใช้ Aspose.Slides for Java?
+- **ไม่ต้องใช้ Microsoft Office** – ทำงานบนเซิร์ฟเวอร์หรือสภาพแวดล้อม CI ใดก็ได้  
+- **รองรับแผนภูมิหลากหลาย** – มีหลายสิบประเภทแผนภูมิ เช่น clustered column, line, pie ฯลฯ  
+- **ควบคุมการจัดรูปแบบได้เต็มที่** – สี, ฟอนต์, ตัวเลือกแกน, และระยะห่างของป้ายกำกับ สามารถปรับได้ผ่านโค้ด  
+- **ประสิทธิภาพสูง** – ปรับให้เหมาะกับงานนำเสนอขนาดใหญ่และการประมวลผลเป็นชุด  
 
 ## ข้อกำหนดเบื้องต้น
-หากต้องการปฏิบัติตามคำแนะนำนี้อย่างมีประสิทธิผล ให้แน่ใจว่าคุณมี:
+- **Java Development Kit (JDK)** 8 หรือสูงกว่า  
+- **Aspose.Slides for Java** – เพิ่มผ่าน Maven, Gradle หรือดาวน์โหลดโดยตรง  
+- ความรู้พื้นฐานเกี่ยวกับ Java และแนวคิดของ PowerPoint  
 
-- **ชุดพัฒนา Java (JDK)**:แนะนำเวอร์ชัน 8 ขึ้นไป
-- **Aspose.Slides สำหรับ Java**:บูรณาการโดยใช้การอ้างอิง Maven หรือ Gradle
-- ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม Java และการนำเสนอ PowerPoint
-
-### การตั้งค่า Aspose.Slides สำหรับ Java
+### การตั้งค่า Aspose.Slides for Java
 
 #### การพึ่งพา Maven
-รวมสิ่งต่อไปนี้ไว้ในของคุณ `pom.xml`-
-
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -45,48 +55,46 @@
 </dependency>
 ```
 
-#### การอ้างอิงของ Gradle
-เพิ่มสิ่งนี้ลงในของคุณ `build.gradle` ไฟล์:
-
+#### การพึ่งพา Gradle
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
 #### ดาวน์โหลดโดยตรง
-หรือดาวน์โหลดเวอร์ชันล่าสุดได้จาก [Aspose.Slides สำหรับการเปิดตัว Java](https://releases-aspose.com/slides/java/).
+Alternatively, download the latest version from [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-หากต้องการเริ่มใช้ Aspose.Slides จะต้องซื้อใบอนุญาตก่อน:
-- **ทดลองใช้งานฟรี**:ทดสอบคุณสมบัติโดยไม่มีข้อจำกัด
-- **ใบอนุญาตชั่วคราว**: รับได้ทาง [หน้าใบอนุญาตชั่วคราวของ Aspose](https://purchase-aspose.com/temporary-license/).
-- **ซื้อ**:รับใบอนุญาตเต็มรูปแบบเพื่อใช้งานอย่างครอบคลุมจาก [หน้าการซื้อของ Aspose](https://purchase-aspose.com/buy).
+เพื่อเริ่มใช้ Aspose.Slides ให้รับลิขสิทธิ์:
+- **ทดลองใช้ฟรี** – ทดสอบฟีเจอร์โดยไม่มีข้อจำกัด  
+- **ลิขสิทธิ์ชั่วคราว** – รับได้จาก [หน้าใบอนุญาตชั่วคราวของ Aspose](https://purchase.aspose.com/temporary-license/)  
+- **ซื้อ** – รับลิขสิทธิ์เต็มสำหรับการใช้งานอย่างกว้างขวางจาก [หน้าการซื้อของ Aspose](https://purchase.aspose.com/buy)  
 
-เริ่มต้นไลบรารีโดยการสร้างอินสแตนซ์ของ `Presentation`-
+Initialize the library by creating an instance of `Presentation`.
 
-## คู่มือการใช้งาน
+## คู่มือการดำเนินการ
 
-### คุณสมบัติ 1: สร้างงานนำเสนอ
-**ภาพรวม:** เริ่มต้นด้วยการตั้งค่าสภาพแวดล้อมการนำเสนอของคุณ
+### ฟีเจอร์ 1: สร้างการนำเสนอ
+**ภาพรวม:** เริ่มต้นโดยตั้งค่าสภาพแวดล้อมการนำเสนอของคุณ
 
-#### ขั้นตอนที่ 1: เริ่มต้นการนำเสนอ
-สร้างวัตถุการนำเสนอใหม่เพื่อแสดงไฟล์ PowerPoint ของคุณ
+#### ขั้นตอนที่ 1: เริ่มต้น Presentation
+Create a new presentation object to represent your PowerPoint file.
 
 ```java
 import com.aspose.slides.Presentation;
 
-// สร้างอินสแตนซ์คลาสการนำเสนอ
+// Instantiate the Presentation class
 tPresentation presentation = new Presentation();
 
-// กำจัดวัตถุเมื่อดำเนินการเสร็จสิ้น
+// Dispose of the object once operations are complete
 if (presentation != null) presentation.dispose();
 ```
 
-ตัวอย่างโค้ดนี้จะเริ่มต้นการนำเสนอใหม่ที่ว่างเปล่า โปรดจำไว้ว่าต้องปล่อยทรัพยากรโดยใช้ `dispose()` เมื่อคุณทำเสร็จแล้ว
+This code snippet initializes a new, empty presentation. Remember to release resources using `dispose()` when you're done.
 
-### คุณลักษณะที่ 2: เพิ่มแผนภูมิลงในสไลด์
-**ภาพรวม:** เรียนรู้วิธีการเพิ่มและปรับแต่งแผนภูมิภายในสไลด์ของคุณ
+### ฟีเจอร์ 2: เพิ่มแผนภูมิในสไลด์
+**ภาพรวม:** เรียนรู้วิธีเพิ่มและปรับแต่งแผนภูมิภายในสไลด์ของคุณ
 
-#### ขั้นตอนที่ 1: รับสไลด์แรก
-เข้าถึงสไลด์แรกในการนำเสนอของคุณ:
+#### ขั้นตอนที่ 1: ดึงสไลด์แรก
+Access the first slide in your presentation:
 
 ```java
 import com.aspose.slides.ISlide;
@@ -94,8 +102,8 @@ import com.aspose.slides.ISlide;
 ISlide sld = presentation.getSlides().get_Item(0);
 ```
 
-#### ขั้นตอนที่ 2: เพิ่มแผนภูมิคอลัมน์แบบคลัสเตอร์
-แทรกแผนภูมิคอลัมน์แบบกลุ่มตามพิกัดที่ระบุ:
+#### ขั้นตอนที่ 2: เพิ่มแผนภูมิคอลัมน์แบบกลุ่ม
+Insert a clustered column chart at specified coordinates:
 
 ```java
 import com.aspose.slides.IChart;
@@ -105,25 +113,25 @@ IChart chart = sld.getShapes().addChart(
     ChartType.ClusteredColumn, 20, 20, 500, 300);
 ```
 
-สไนปเป็ตนี้จะเพิ่มแผนภูมิลงในสไลด์ของคุณ ปรับแต่ง `ChartType` และขนาดตามที่ต้องการ
+This snippet adds a chart to your slide. Customize the `ChartType` and dimensions as needed.
 
-### คุณลักษณะที่ 3: ตั้งค่าระยะห่างของป้ายแกนหมวดหมู่
-**ภาพรวม:** ปรับระยะห่างของฉลากของแกนหมวดหมู่เพื่อให้สามารถอ่านได้ดีขึ้น
+### ฟีเจอร์ 3: ตั้งค่าระยะห่างป้ายกำกับแกนประเภท
+**ภาพรวม:** ปรับระยะห่างของป้ายกำกับบนแกนประเภทเพื่อความอ่านง่ายยิ่งขึ้น
 
-#### ขั้นตอนที่ 1: กำหนดค่าออฟเซ็ตฉลาก
-ตั้งค่าออฟเซ็ตป้ายจากแกน:
+#### ขั้นตอนที่ 1: กำหนดค่า Label Offset
+Set the label offset from the axis:
 
 ```java
 chart.getAxes().getHorizontalAxis().setLabelOffset(500);
 ```
 
-การปรับแต่งนี้จะช่วยให้แน่ใจว่าป้ายบนแผนภูมิของคุณมีระยะห่างที่เหมาะสม ส่งผลให้มีความชัดเจนมากขึ้น
+This adjustment ensures that your chart's labels are appropriately spaced, enhancing clarity.
 
-### คุณสมบัติที่ 4: บันทึกการนำเสนอ
-**ภาพรวม:** สรุปและบันทึกการนำเสนอของคุณลงในไฟล์
+### ฟีเจอร์ 4: บันทึกการนำเสนอ
+**ภาพรวม:** สรุปและบันทึกการนำเสนอของคุณเป็นไฟล์
 
 #### ขั้นตอนที่ 1: กำหนดเส้นทางเอาต์พุต
-ตั้งค่าเส้นทางไดเร็กทอรีเอาท์พุตสำหรับการบันทึก:
+Set the output directory path for saving:
 
 ```java
 import com.aspose.slides.SaveFormat;
@@ -132,58 +140,67 @@ String outputPath = "YOUR_OUTPUT_DIRECTORY/SetCategoryAxisLabelDistance_out.pptx
 ```
 
 #### ขั้นตอนที่ 2: บันทึกการนำเสนอ
-เขียนการนำเสนอลงดิสก์ในรูปแบบ PPTX:
+Write the presentation to disk in PPTX format:
 
 ```java
 presentation.save(outputPath, SaveFormat.Pptx);
 ```
 
-ให้แน่ใจว่าคุณได้ตั้งค่าเส้นทางที่ถูกต้องก่อนที่จะบันทึก
+Ensure you have set a valid path before saving.
 
 ## การประยุกต์ใช้งานจริง
-Aspose.Slides ช่วยให้สามารถใช้งานจริงได้หลากหลาย:
-- **รายงานทางธุรกิจ**:สร้างและอัปเดตแผนภูมิทางการเงินโดยอัตโนมัติ
-- **การนำเสนอผลงานทางวิชาการ**:แสดงภาพข้อมูลการวิจัยได้อย่างมีประสิทธิภาพ
-- **สื่อการตลาด**:สร้างการนำเสนอการขายแบบไดนามิกพร้อมสถิติที่ทันสมัย
+- **รายงานธุรกิจ** – สร้างและอัปเดตแผนภูมิเศรษฐกิจโดยอัตโนมัติ  
+- **การนำเสนอทางวิชาการ** – แสดงข้อมูลการวิจัยอย่างมีประสิทธิภาพ  
+- **สื่อการตลาด** – สร้างการนำเสนอการขายแบบไดนามิกพร้อมสถิติที่อัปเดตล่าสุด  
 
-บูรณาการ Aspose.Slides เข้ากับระบบของคุณเพื่อการอัปเดตการนำเสนอที่ราบรื่น ซึ่งมีประโยชน์อย่างยิ่งในเวิร์กโฟลว์การสร้างรายงานอัตโนมัติ
+Integrate Aspose.Slides into your systems for seamless presentation updates, especially useful in automated report generation workflows.
 
-## การพิจารณาประสิทธิภาพ
-เมื่อทำงานกับ Aspose.Slides โปรดพิจารณาสิ่งต่อไปนี้:
-- ปรับขนาดข้อมูลแผนภูมิเพื่อลดการใช้หน่วยความจำ
-- กำจัดสิ่งของทันทีหลังใช้งานเพื่อปลดปล่อยทรัพยากร
-- ใช้การประมวลผลแบบแบตช์สำหรับการนำเสนอขนาดใหญ่เพื่อเพิ่มประสิทธิภาพ
+## ข้อควรพิจารณาด้านประสิทธิภาพ
+- ปรับขนาดข้อมูลแผนภูมิเพื่อลดการใช้หน่วยความจำ  
+- ทำลายออบเจ็กต์ทันทีหลังการใช้เพื่อปล่อยทรัพยากร  
+- ใช้การประมวลผลเป็นชุดสำหรับการนำเสนอขนาดใหญ่เพื่อเพิ่มประสิทธิภาพ  
 
-การยึดมั่นตามแนวทางปฏิบัติที่ดีที่สุดเหล่านี้ช่วยให้การจัดการทรัพยากรและการตอบสนองต่อแอปพลิเคชันมีประสิทธิภาพ
+Adhering to these best practices ensures efficient resource management and application responsiveness.
 
-## บทสรุป
-คู่มือนี้ครอบคลุมถึงสิ่งสำคัญในการใช้ Aspose.Slides สำหรับ Java เพื่อเพิ่มแผนภูมิลงในงานนำเสนอ PowerPoint หากทำตามขั้นตอนเหล่านี้ คุณจะสามารถเสริมแต่งสไลด์ของคุณด้วยการแสดงภาพข้อมูลแบบไดนามิกได้อย่างง่ายดาย ทดลองใช้เพิ่มเติมโดยการสำรวจประเภทแผนภูมิเพิ่มเติมและตัวเลือกการปรับแต่งที่มีใน Aspose.Slides
+## ปัญหาที่พบบ่อยและวิธีแก้ไข
 
-**ขั้นตอนต่อไป:**
-- สำรวจคุณลักษณะอื่น ๆ เช่น การเปลี่ยนสไลด์และการรวมมัลติมีเดีย
-- เจาะลึกการปรับแต่งแผนภูมิขั้นสูงเพื่อการนำเสนอที่เหมาะสมยิ่งขึ้น
+| ปัญหา | สาเหตุทั่วไป | วิธีแก้ |
+|-------|---------------|-----|
+| **แผนภูมิไม่แสดง** | สไลด์ไม่ได้บันทึกหรือแผนภูมิถูกเพิ่มในดัชนีสไลด์ที่ผิด | Verify `presentation.getSlides().get_Item(0)` points to the intended slide. |
+| **การตั้งค่า label offset ไม่มีผล** | ใช้แกนผิด (แนวตั้งแทนแนวนอน) | Call `getHorizontalAxis()` for category axis adjustments. |
+| **ข้อผิดพลาด out‑of‑memory** | ชุดข้อมูลขนาดใหญ่โหลดเข้าแผนภูมิเดียว | Split data across multiple charts or use `presentation.dispose()` after each batch. |
+| **ลิขสิทธิ์ไม่ถูกนำไปใช้** | เส้นทางไฟล์ลิขสิทธิ์ไม่ถูกต้อง | Load the license early with `License license = new License(); license.setLicense("path/to/license.xml");` |
 
-พร้อมที่จะเพิ่มประสิทธิภาพการนำเสนอของคุณหรือยัง ลองใช้โซลูชันเหล่านี้วันนี้!
+## คำถามที่พบบ่อย
 
-## ส่วนคำถามที่พบบ่อย
-1. **ฉันสามารถเพิ่มแผนภูมิลงในไฟล์ PowerPoint ที่มีอยู่ด้วย Aspose.Slides ได้หรือไม่**
-   - ใช่ คุณสามารถโหลดงานนำเสนอที่มีอยู่ได้โดยใช้ `Presentation(String path)` และปรับเปลี่ยนตามความจำเป็น
-2. **ฉันจะเปลี่ยนประเภทแผนภูมิหลังจากเพิ่มแล้วได้อย่างไร?**
-   - เข้าถึงคุณสมบัติของวัตถุแผนภูมิและตั้งค่าใหม่ `ChartType` เพื่อปรับปรุงรูปลักษณ์ของมัน
-3. **Aspose.Slides เข้ากันได้กับ Java IDE ทั้งหมดหรือไม่**
-   - ใช่ Aspose.Slides ทำงานได้กับสภาพแวดล้อมการพัฒนา Java หลักๆ เช่น IntelliJ IDEA และ Eclipse
-4. **ข้อผิดพลาดทั่วไปที่มักเกิดขึ้นเมื่อเพิ่มแผนภูมิคืออะไร?**
-   - ปัญหาทั่วไป ได้แก่ การกำหนดค่าแกนที่ไม่ถูกต้องและการรั่วไหลของหน่วยความจำเนื่องจากการกำจัดวัตถุที่ไม่เหมาะสม
-5. **ฉันจะเพิ่มประสิทธิภาพการแสดงแผนภูมิได้อย่างไร**
-   - จำกัดจุดข้อมูล จัดการทรัพยากรอย่างมีประสิทธิภาพด้วยการกำจัดวัตถุอย่างทันท่วงที และใช้ประเภทแผนภูมิที่เหมาะสมสำหรับข้อมูลของคุณ
+**Q: สามารถเพิ่มแผนภูมิในไฟล์ PowerPoint ที่มีอยู่แล้วด้วย Aspose.Slides ได้หรือไม่?**  
+A: Yes, you can load an existing presentation using `Presentation(String path)` and modify it as needed.
 
-## ทรัพยากร
-- [เอกสารประกอบ Aspose.Slides](https://reference.aspose.com/slides/java/)
-- [ดาวน์โหลด Aspose.Slides สำหรับ Java](https://releases.aspose.com/slides/java/)
+**Q: จะเปลี่ยนประเภทแผนภูมิหลังจากเพิ่มแล้วอย่างไร?**  
+A: Access the chart object's properties and set a new `ChartType` to update its appearance.
+
+**Q: Aspose.Slides รองรับ IDE Java ทุกตัวหรือไม่?**  
+A: Yes, Aspose.Slides works across major Java development environments like IntelliJ IDEA and Eclipse.
+
+**Q: มีข้อผิดพลาดทั่วไปอะไรบ้างเมื่อเพิ่มแผนภูมิ?**  
+A: Common issues include incorrect axis configuration and memory leaks due to improper object disposal.
+
+**Q: จะเพิ่มประสิทธิภาพการเรนเดอร์แผนภูมิได้อย่างไร?**  
+A: Limit data points, efficiently manage resources by disposing of objects promptly, and use appropriate chart types for your data.
+
+## แหล่งข้อมูล
+- [เอกสาร Aspose.Slides](https://reference.aspose.com/slides/java/)
+- [ดาวน์โหลด Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
 - [ซื้อใบอนุญาต](https://purchase.aspose.com/buy)
-- [เวอร์ชันทดลองใช้งานฟรี](https://releases.aspose.com/slides/java/)
-- [การขอใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
+- [รุ่นทดลองใช้ฟรี](https://releases.aspose.com/slides/java/)
+- [ขอใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
 - [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/slides/11)
+
+---
+
+**อัปเดตล่าสุด:** 2026-02-06  
+**ทดสอบกับ:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
