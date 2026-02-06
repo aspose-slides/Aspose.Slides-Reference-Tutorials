@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-17"
-"description": "تعرّف على كيفية إنشاء وتخصيص المخططات البيانية في عروض .NET التقديمية باستخدام Aspose.Slides لجافا. اتبع هذا الدليل خطوة بخطوة لتحسين عرض بيانات عرضك التقديمي."
-"title": "Aspose.Slides لـ Java - إنشاء مخططات بيانية في عروض تقديمية .NET"
-"url": "/ar/java/charts-graphs/aspose-slides-java-chart-creation-dotnet/"
-"weight": 1
+date: '2026-02-06'
+description: تعلم كيفية تهيئة عرض Aspose Slides وتخصيص مخطط الأعمدة المتجمعة في .NET
+  باستخدام Aspose.Slides for Java. اتبع هذا الدليل خطوة بخطوة لتعزيز تصور البيانات.
+keywords:
+- Aspose.Slides for Java
+- .NET presentations
+- charts in .NET
+title: 'تهيئة العرض التقديمي باستخدام Aspose Slides: مخططات .NET'
+url: /ar/java/charts-graphs/aspose-slides-java-chart-creation-dotnet/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,31 +16,50 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# إنشاء المخططات البيانية في عروض .NET التقديمية باستخدام Aspose.Slides لـ Java
-## مقدمة
-غالبًا ما يتطلب إنشاء عروض تقديمية جذابة دمج تمثيلات البيانات المرئية، مثل المخططات البيانية، لتعزيز فهم الجمهور وتفاعله. إذا كنت مطورًا وترغب في إضافة مخططات بيانية ديناميكية وقابلة للتخصيص إلى عروضك التقديمية .NET باستخدام Aspose.Slides لـ Java، فهذا البرنامج التعليمي مصمم خصيصًا لك. سنتناول كيفية تهيئة العروض التقديمية، وإضافة أنواع مختلفة من المخططات البيانية، وإدارة بيانات المخططات البيانية، وتنسيق بيانات السلاسل بفعالية.
-**ما سوف تتعلمه:**
-- كيفية إعداد Aspose.Slides واستخدامه لـ Java في بيئة .NET الخاصة بك.
-- تهيئة عرض تقديمي جديد باستخدام Aspose.Slides.
-- إضافة المخططات وتخصيصها في الشرائح.
-- إدارة مصنفات بيانات الرسم البياني.
-- تنسيق بيانات السلسلة، وخاصة التعامل مع القيم السلبية.
-إن الانتقال إلى قسم المتطلبات الأساسية سيضمن لك الاستعداد التام للمتابعة بكل سهولة.
-## المتطلبات الأساسية
-قبل الغوص في إنشاء المخططات البيانية باستخدام Aspose.Slides لـ Java، دعنا نحدد ما تحتاجه:
+# إنشاء مخططات في عروض .NET باستخدام Aspose.Slides للـ Java
+
+## المقدمة
+في هذا الدرس ستقوم **بتهيئة عرض Aspose Slides** وتتعلم كيفية دمج مخططات ديناميكية وقابلة للتخصيص في شرائح .NET الخاصة بك. تساعد البيانات المرئية—مثل مخططات الأعمدة المتجمعة—الجمهور على استيعاب الاتجاهات فورًا، وتوفر لك Aspose.Slides للـ Java تحكمًا برمجيًا كاملاً حتى عندما تستهدف بيئة .NET. سنستعرض إعداد المكتبة، إنشاء عرض جديد، إضافة مخطط، تعبئة البيانات، وتطبيق حيل تنسيق مثل تلوين القيم السالبة.
+
+**ما ستتعلمه**
+- كيفية إعداد Aspose.Slides للـ Java في مشروع .NET.  
+- كيفية **تهيئة عرض Aspose Slides** وإضافة مخطط.  
+- كيفية **تخصيص مخطط الأعمدة المتجمعة** للسلاسل والفئات.  
+- إدارة دفتر بيانات المخطط وتطبيق التنسيق الشرطي.  
+
+### إجابات سريعة
+- **ما هي الخطوة الأولى؟** تهيئة كائن `Presentation`.  
+- **أي نوع مخطط يُستخدم في المثال؟** `ClusteredColumn`.  
+- **هل يمكن تنسيق القيم السالبة بشكل مختلف؟** نعم، باستخدام ألوان تعبئة شرطية.  
+- **هل أحتاج إلى ترخيص للاختبار؟** ترخيص تجريبي مجاني يكفي للتطوير.  
+- **ما هو العنصر (artifact) المطلوب في Maven؟** `com.aspose:aspose-slides:25.4` مع المصنف `jdk16`.
+
+## ما هو “تهيئة عرض Aspose Slides”؟
+إنشاء عرض يخلق ملف PPTX في الذاكرة يمكنك التلاعب به قبل الحفظ. تقوم Aspose.Slides بتجريد تنسيق الملف، مما يتيح لك إضافة شرائح، أشكال، ومخططات دون الحاجة للتعامل مع هياكل OPC منخفضة المستوى.
+
+## لماذا تخصيص مخطط الأعمدة المتجمعة؟
+مخططات الأعمدة المتجمعة مثالية لمقارنة عدة سلاسل بيانات عبر الفئات. يتيح لك تخصيص الألوان، نقاط البيانات، والتسميات إبراز الرؤى الرئيسية—مثل تمييز القيم السالبة باللون الأحمر والإيجابية بالأخضر—مما يجعل شرائحك أكثر إقناعًا.
+
+## المتطلبات المسبقة
+- **Aspose.Slides للـ Java** ≥ 25.4  
+- بيئة تطوير .NET (Visual Studio، .NET 6+ موصى بها)  
+- معرفة أساسية بـ Java (ستكتب كود Java يعمل على JVM ويُستدعى من .NET عبر JNI أو طبقة جسر)
+
 ### المكتبات والإصدارات المطلوبة
-تأكد من أن لديك التبعيات التالية:
-- **Aspose.Slides لـ Java**:الإصدار 25.4 أو أحدث.
+- **Aspose.Slides للـ Java**: الإصدار 25.4 أو أحدث.
+
 ### متطلبات إعداد البيئة
-- بيئة تطوير تدعم تطبيقات .NET.
-- فهم أساسي لمفاهيم برمجة جافا.
-### متطلبات المعرفة
-- - المعرفة بكيفية إنشاء العروض التقديمية في سياق تطبيق .NET.
-- فهم تبعيات Java وإدارتها (Maven/Gradle).
-## إعداد Aspose.Slides لـ Java
-لبدء استخدام Aspose.Slides، عليك تضمينه كاعتمادية في مشروعك. إليك كيفية القيام بذلك:
-### مافن
-أضف التبعية التالية إلى ملفك `pom.xml` ملف:
+- بيئة تشغيل Java متوافقة مع .NET (مثل AdoptOpenJDK 16).  
+- Maven أو Gradle لإدارة الاعتمادات.
+
+### المتطلبات المعرفية
+- الإلمام بإنشاء عروض في سياق .NET.  
+- فهم تكوين مشروع Java (Maven/Gradle).
+
+## إعداد Aspose.Slides للـ Java
+أضف المكتبة إلى مشروعك باستخدام أداة البناء المفضلة.
+
+### Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -44,52 +68,62 @@
     <classifier>jdk16</classifier>
 </dependency>
 ```
-### جرادل
-قم بتضمين هذا في `build.gradle` ملف:
+
+### Gradle
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
+
 ### التحميل المباشر
-بدلاً من ذلك، يمكنك تنزيل الإصدار الأحدث من [إصدارات Aspose.Slides لـ Java](https://releases.aspose.com/slides/java/).
+يمكنك أيضًا تنزيل أحدث ملف JAR من صفحة الإصدار الرسمية: [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+
 #### خطوات الحصول على الترخيص
-- **نسخة تجريبية مجانية**:ابدأ باستخدام ترخيص مؤقت لاستكشاف الميزات.
-- **شراء**:فكر في شراء ترخيص للاستخدام المكثف.
-#### التهيئة والإعداد الأساسي
-فيما يلي كيفية تهيئة Aspose.Slides في الكود الخاص بك:
+- **تجريبي مجاني** – أنشئ ملف ترخيص مؤقت للتطوير.  
+- **شراء** – احصل على ترخيص كامل للنشر في بيئات الإنتاج.
+
+#### التهيئة الأساسية والإعداد
 ```java
 import com.aspose.slides.Presentation;
-// تهيئة كائن عرض تقديمي جديد
+// Initialize a new Presentation object
 Presentation pres = new Presentation();
 try {
-    // منطقك هنا...
+    // Your logic here...
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
-يضمن هذا الإعداد التعامل مع إدارة الموارد بشكل فعال.
-## دليل التنفيذ
-سنساعدك في تنفيذ الميزات خطوة بخطوة.
-### تهيئة العرض التقديمي
-**ملخص:**
-إنشاء نموذج عرض تقديمي يُمهّد الطريق لجميع العمليات اللاحقة. توضح هذه الميزة كيفية البدء من الصفر باستخدام Aspose.Slides.
+يضمن كتلة `try/finally` تحرير الموارد الأصلية، مما يمنع تسرب الذاكرة.
+
+## كيفية تهيئة عرض Aspose Slides
+فيما يلي نغوص في الخطوات العملية لإنشاء عرض جديد وتحضيره لإدراج مخطط.
+
+### تهيئة العرض
+**نظرة عامة:**  
+إنشاء نسخة من العرض يضع الأساس لجميع العمليات اللاحقة.
+
 #### الخطوة 1: استيراد الحزم الضرورية
 ```java
 import com.aspose.slides.Presentation;
 ```
-#### الخطوة 2: إنشاء كائن عرض تقديمي جديد
-إليك كيفية القيام بذلك:
+
+#### الخطوة 2: إنشاء كائن عرض جديد
 ```java
 Presentation pres = new Presentation();
 try {
-    // منطق الكود الخاص بك هنا...
+    // Your code logic here...
 } finally {
-    if (pres != null) pres.dispose(); // ضمان تحرير الموارد
+    if (pres != null) pres.dispose(); // Ensures resources are freed
 }
 ```
-*ويضمن هذا التخلص من كائن العرض بشكل صحيح بعد الاستخدام، مما يمنع تسرب الذاكرة.*
+*يضمن هذا أن كائن العرض يتم تحريره بشكل صحيح بعد الاستخدام، مما يمنع تسرب الذاكرة.*
+
+## كيفية تخصيص مخطط الأعمدة المتجمعة
+الآن بعد أن أصبح العرض جاهزًا، لنضيف مخططًا متجمعًا ونخصصه.
+
 ### إضافة مخطط إلى الشريحة
-**ملخص:**
-إن إضافة مخطط إلى الشريحة الخاصة بك قد يجعل تصور البيانات أكثر فعالية وجاذبية.
+**نظرة عامة:**  
+إضافة مخطط تُحيي البيانات على الشريحة.
+
 #### الخطوة 1: استيراد الحزم الضرورية
 ```java
 import com.aspose.slides.Presentation;
@@ -97,29 +131,33 @@ import com.aspose.slides.ISlide;
 import com.aspose.slides.IChart;
 import com.aspose.slides.ChartType;
 ```
-#### الخطوة 2: تهيئة العرض التقديمي وإضافة الرسم البياني
+
+#### الخطوة 2: تهيئة العرض وإضافة المخطط
 ```java
 Presentation pres = new Presentation();
 try {
     ISlide slide = pres.getSlides().get_Item(0);
     IChart chart = slide.getShapes().addChart(ChartType.ClusteredColumn, 100, 100, 400, 300);
 
-    // منطق إضافي لتخصيص الرسم البياني...
+    // Additional logic for chart customization...
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
-*هنا، نضيف مخططًا عموديًا مجمعًا إلى الشريحة الأولى عند الإحداثيات والأبعاد المحددة.*
-### مصنف إدارة بيانات الرسم البياني
-**ملخص:**
-تتيح لك إدارة مصنف بيانات الرسم البياني الخاص بك بكفاءة التعامل مع السلاسل والفئات بسلاسة.
+*هنا نضيف مخطط أعمدة متجمع إلى الشريحة الأولى عند إحداثيات وأبعاد محددة.*
+
+### إدارة دفتر بيانات المخطط
+**نظرة عامة:**  
+إدارة دفتر بيانات المخطط بفعالية يتيح لك تعديل السلاسل والفئات بسلاسة.
+
 #### الخطوة 1: استيراد الحزم الضرورية
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.IChart;
 import com.aspose.slides.IChartDataWorkbook;
 ```
-#### الخطوة 2: الوصول إلى مصنف البيانات ومسحه
+
+#### الخطوة 2: الوصول إلى دفتر البيانات ومسحه
 ```java
 Presentation pres = new Presentation();
 try {
@@ -128,20 +166,22 @@ try {
 
     IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
 
-    // مسح البيانات الموجودة
+    // Clear existing data
     chart.getChartData().getSeries().clear();
     chart.getChartData().getCategories().clear();
 
-    // منطق التخصيص الخاص بك هنا...
+    // Your customization logic here...
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
-*يعد مسح المصنف أمرًا بالغ الأهمية للبدء بصفحة نظيفة عند إضافة سلاسل وفئات جديدة.*
-### إضافة السلاسل والفئات إلى الرسم البياني
-**ملخص:**
-تُظهر هذه الميزة كيفية إضافة نقاط بيانات ذات معنى من خلال إدارة السلاسل والفئات.
-#### الخطوة 1: إضافة السلسلة والفئات
+*مسح دفتر البيانات ضروري للبدء من نقطة صافية عند إضافة سلاسل وفئات جديدة.*
+
+### إضافة سلاسل وفئات إلى المخطط
+**نظرة عامة:**  
+توضح هذه الخطوة كيفية إضافة نقاط بيانات ذات معنى عبر إدارة السلاسل والفئات.
+
+#### الخطوة 1: إضافة سلاسل وفئات
 ```java
 Presentation pres = new Presentation();
 try {
@@ -150,26 +190,28 @@ try {
 
     IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
 
-    // مسح السلسلة والفئات الموجودة
+    // Clear existing series and categories
     chart.getChartData().getSeries().clear();
     chart.getChartData().getCategories().clear();
 
-    // إضافة سلسلة وفئات جديدة
+    // Add new series and categories
     chart.getChartData().getSeries().add(workBook.getCell(0, 0, 1, "Series 1"), chart.getType());
     chart.getChartData().getCategories().add(workBook.getCell(0, 1, 0, "Category 1"));
     chart.getChartData().getCategories().add(workBook.getCell(0, 2, 0, "Category 2"));
     chart.getChartData().getCategories().add(workBook.getCell(0, 3, 0, "Category 3"));
 
-    // مزيد من منطق التخصيص...
+    // Further customization logic...
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
-*تتيح إضافة السلاسل والفئات عرض البيانات بشكل أكثر تنظيماً.*
-### ملء بيانات السلسلة وتنسيقها
-**ملخص:**
-قم بملء الرسم البياني الخاص بك بنقاط البيانات وقم بتنسيق المظهر لتحسين قابلية القراءة، وخاصة عند التعامل مع القيم السلبية.
-#### الخطوة 1: ملء بيانات السلسلة
+*إضافة السلاسل والفئات يساهم في تنظيم عرض البيانات بشكل أفضل.*
+
+### تعبئة بيانات السلسلة وتنسيقها
+**نظرة عامة:**  
+املأ مخططك بنقاط البيانات وقم بتنسيق المظهر لتحسين القابلية للقراءة، خاصة عند التعامل مع القيم السالبة.
+
+#### الخطوة 1: تعبئة بيانات السلسلة
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.IChart;
@@ -185,14 +227,14 @@ try {
 
     IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
 
-    // إضافة سلسلة وفئات (إعادة استخدام المنطق السابق)
+    // Add series and categories (reuse previous logic)
     
     IChartSeries series = chart.getChartData().getSeries().get_Item(0);
     series.getDataPoints().addDataPointForBarSeries(workBook.getCell(0, 1, 1, -20));
     series.getDataPoints().addDataPointForBarSeries(workBook.getCell(0, 2, 1, 30));
     series.getDataPoints().addDataPointForBarSeries(workBook.getCell(0, 3, 1, 10));
 
-    // تنسيق السلسلة للقيم السلبية
+    // Format series for negative values
     series.getFormat().getFill().setFillType(FillType.Solid);
     series.getFormat().getLine().getFillFormat().setFillType(FillType.NoFill);
     
@@ -208,13 +250,41 @@ try {
         }
     }
 
-    // حفظ العرض التقديمي
+    // Save the presentation
     pres.save("output.pptx", SaveFormat.Pptx);
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
-*يوضح هذا القسم كيفية ملء البيانات وتطبيق تنسيق الألوان لتحسين التصور.*
+*يوضح هذا القسم كيفية تعبئة البيانات وتطبيق تنسيق اللون لتحسين التصور.*
+
+## المشكلات الشائعة والحلول
+- **تسرب الذاكرة** – احرص دائمًا على تغليف كائن `Presentation` بكتلة `try/finally` كما هو موضح لضمان تحريره.  
+- **إحداثيات الخلايا غير صحيحة** – تذكر أن الصفوف والأعمدة تبدأ من الصفر؛ الأخطاء في الفهارس تؤدي إلى `NullPointerException`.  
+- **الترخيص غير موجود** – ضع ملف الترخيص في دليل عمل التطبيق أو عيّن المسار صراحةً عبر `License.setLicense("Aspose.Slides.Java.lic")`.
+
+## الأسئلة المتكررة
+
+**س: هل يمكنني استخدام هذا النهج مع .NET Core؟**  
+ج: نعم. يعمل Aspose.Slides للـ Java على أي JVM، ويمكنك استدعاء كود Java من .NET Core عبر جسر مثل IKVM أو JNI.
+
+**س: هل أحتاج إلى ترخيص مدفوع للتطوير؟**  
+ج: ترخيص تجريبي مجاني يكفي للتطوير والاختبار. تتطلب عمليات النشر في الإنتاج ترخيصًا مُشتَرًى.
+
+**س: كيف أغيّر نوع المخطط بعد إنشائه؟**  
+ج: يمكنك استدعاء `chart.getChartData().setChartType(ChartType.Pie)` لتغيير النوع إلى مخطط آخر.
+
+**س: هل يمكن إضافة تسميات البيانات برمجيًا؟**  
+ج: نعم. استخدم `series.getDataPoints().get_Item(i).getLabel().setShowValue(true)` لعرض القيم على المخطط.
+
+**س: ما الصيغ التي يمكن حفظ العرض بها؟**  
+ج: يدعم Aspose.Slides صيغ PPTX، PPT، PDF، XPS، وعدة صيغ صور مثل PNG و JPEG.
+
+---
+
+**آخر تحديث:** 2026-02-06  
+**تم الاختبار مع:** Aspose.Slides للـ Java 25.4 (مصنف jdk16)  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

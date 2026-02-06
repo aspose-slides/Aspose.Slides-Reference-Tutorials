@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Scopri come creare e personalizzare grafici nelle presentazioni .NET utilizzando Aspose.Slides per Java. Segui questa guida passo passo per migliorare la visualizzazione dei dati nelle tue presentazioni."
-"title": "Aspose.Slides per Java&#58; creazione di grafici nelle presentazioni .NET"
-"url": "/it/java/charts-graphs/aspose-slides-java-chart-creation-dotnet/"
-"weight": 1
+date: '2026-02-06'
+description: Scopri come inizializzare una presentazione Aspose Slides e personalizzare
+  un grafico a colonne raggruppate in .NET usando Aspose.Slides per Java. Segui questa
+  guida passo passo per migliorare la visualizzazione dei dati.
+keywords:
+- Aspose.Slides for Java
+- .NET presentations
+- charts in .NET
+title: 'Inizializza la presentazione con Aspose Slides: grafici .NET'
+url: /it/java/charts-graphs/aspose-slides-java-chart-creation-dotnet/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,31 +17,50 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Creazione di grafici nelle presentazioni .NET utilizzando Aspose.Slides per Java
+# Creare grafici in presentazioni .NET usando Aspose.Slides per Java
+
 ## Introduzione
-Creare presentazioni accattivanti spesso implica l'integrazione di rappresentazioni visive dei dati, come i grafici, per migliorare la comprensione e il coinvolgimento del pubblico. Se sei uno sviluppatore che desidera aggiungere grafici dinamici e personalizzabili alle tue presentazioni .NET utilizzando Aspose.Slides per Java, questo tutorial è pensato proprio per te. Approfondiremo come inizializzare le presentazioni, aggiungere diversi tipi di grafici, gestire i dati dei grafici e formattare efficacemente i dati delle serie.
-**Cosa imparerai:**
-- Come configurare e utilizzare Aspose.Slides per Java nel tuo ambiente .NET.
-- Inizializzazione di una nuova presentazione utilizzando Aspose.Slides.
-- Aggiungere e personalizzare grafici nelle diapositive.
-- Gestione delle cartelle di lavoro dei dati dei grafici.
-- Formattazione dei dati di serie, in particolare gestione dei valori negativi.
-Passando alla sezione dei prerequisiti sarai pronto a seguire il corso con facilità.
+In questo tutorial **initialize presentation Aspose Slides** e imparerai come incorporare grafici dinamici e personalizzabili nelle tue slide .NET. I dati visuali—come i grafici a colonne raggruppate—aiutano il pubblico a cogliere le tendenze all'istante, e Aspose.Slides per Java ti offre il pieno controllo programmatico anche quando lavori in un ambiente .NET. Vedremo come configurare la libreria, creare una nuova presentazione, aggiungere un grafico, popolare i dati e applicare trucchi di formattazione come la colorazione dei valori negativi.
+
+**Cosa imparerai**
+- Come configurare Aspose.Slides per Java in un progetto .NET.  
+- Come **initialize presentation Aspose Slides** e aggiungere un grafico.  
+- Come **customize clustered column chart** serie e categorie.  
+- Gestire il workbook dei dati del grafico e applicare formattazione condizionale.  
+
+### Risposte rapide
+- **Qual è il primo passo?** Inizializzare un oggetto `Presentation`.  
+- **Quale tipo di grafico è usato nell'esempio?** `ClusteredColumn`.  
+- **Posso formattare i valori negativi in modo diverso?** Sì, usando colori di riempimento condizionali.  
+- **È necessaria una licenza per i test?** Una licenza di prova gratuita funziona per lo sviluppo.  
+- **Quale artefatto Maven è richiesto?** `com.aspose:aspose-slides:25.4` con classificatore `jdk16`.
+
+## Cos'è “initialize presentation Aspose Slides”?
+Inizializzare una presentazione crea un file PPTX in memoria che puoi manipolare prima di salvarlo. Aspose.Slides astrae il formato del file, consentendoti di aggiungere slide, forme e grafici senza doverti occupare delle strutture OPC a basso livello.
+
+## Perché personalizzare un grafico a colonne raggruppate?
+I grafici a colonne raggruppate sono ideali per confrontare più serie di dati attraverso categorie. Personalizzare colori, punti dati e etichette ti permette di evidenziare insight chiave—come enfatizzare i valori negativi in rosso e i positivi in verde—rendendo le tue slide più persuasive.
+
 ## Prerequisiti
-Prima di addentrarci nella creazione di grafici con Aspose.Slides per Java, vediamo nel dettaglio cosa ti occorre:
-### Librerie e versioni richieste
-Assicurati di avere le seguenti dipendenze:
+- **Aspose.Slides per Java** ≥ 25.4  
+- Ambiente di sviluppo .NET (Visual Studio, .NET 6+ consigliato)  
+- Conoscenze di base di Java (scriverai codice Java che gira sulla JVM e verrà chiamato da .NET tramite JNI o un layer di bridging)  
+
+### Librerie richieste e versioni
 - **Aspose.Slides per Java**: Versione 25.4 o successiva.
-### Requisiti di configurazione dell'ambiente
-- Un ambiente di sviluppo che supporta le applicazioni .NET.
-- Comprensione di base dei concetti di programmazione Java.
-### Prerequisiti di conoscenza
-- Familiarità con la creazione di presentazioni in un contesto applicativo .NET.
-- Comprensione delle dipendenze Java e della loro gestione (Maven/Gradle).
-## Impostazione di Aspose.Slides per Java
-Per iniziare a utilizzare Aspose.Slides, è necessario includerlo come dipendenza nel progetto. Ecco come fare:
-### Esperto
-Aggiungi la seguente dipendenza al tuo `pom.xml` file:
+
+### Requisiti per la configurazione dell'ambiente
+- Un runtime Java compatibile con .NET (es. AdoptOpenJDK 16).  
+- Maven o Gradle per la gestione delle dipendenze.
+
+### Conoscenze pregresse
+- Familiarità con la creazione di presentazioni in un contesto .NET.  
+- Comprensione della configurazione di progetti Java (Maven/Gradle).
+
+## Configurare Aspose.Slides per Java
+Aggiungi la libreria al tuo progetto usando lo strumento di build preferito.
+
+### Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -44,82 +69,96 @@ Aggiungi la seguente dipendenza al tuo `pom.xml` file:
     <classifier>jdk16</classifier>
 </dependency>
 ```
+
 ### Gradle
-Includi questo nel tuo `build.gradle` file:
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
+
 ### Download diretto
-In alternativa, puoi scaricare l'ultima versione da [Aspose.Slides per le versioni Java](https://releases.aspose.com/slides/java/).
-#### Fasi di acquisizione della licenza
-- **Prova gratuita**: Inizia con una licenza temporanea per esplorare le funzionalità.
-- **Acquistare**Per un utilizzo intensivo, si consiglia di acquistare una licenza.
-#### Inizializzazione e configurazione di base
-Ecco come inizializzare Aspose.Slides nel codice:
+Puoi anche scaricare l'ultimo JAR dalla pagina di rilascio ufficiale: [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+
+#### Passi per l'acquisizione della licenza
+- **Prova gratuita** – genera un file di licenza temporaneo per lo sviluppo.  
+- **Acquisto** – ottieni una licenza completa per le distribuzioni in produzione.
+
+#### Inizializzazione di base e configurazione
 ```java
 import com.aspose.slides.Presentation;
-// Inizializza un nuovo oggetto Presentazione
+// Initialize a new Presentation object
 Presentation pres = new Presentation();
 try {
-    // La tua logica qui...
+    // Your logic here...
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
-Questa configurazione garantisce un'efficace gestione delle risorse.
-## Guida all'implementazione
-Ti guideremo passo dopo passo nell'implementazione delle funzionalità.
-### Inizializzazione della presentazione
-**Panoramica:**
-La creazione di un'istanza di presentazione pone le basi per tutte le operazioni successive. Questa funzionalità mostra come partire da zero utilizzando Aspose.Slides.
-#### Passaggio 1: importare i pacchetti necessari
+Il blocco `try/finally` garantisce che le risorse native vengano rilasciate, evitando perdite di memoria.
+
+## Come initialize presentation Aspose Slides
+Di seguito approfondiamo i passaggi concreti per creare una nuova presentazione e prepararla all'inserimento di un grafico.
+
+### Inizializzare la presentazione
+**Panoramica:**  
+Creare un'istanza di presentazione prepara il terreno per tutte le operazioni successive.
+
+#### Passo 1: Importare i pacchetti necessari
 ```java
 import com.aspose.slides.Presentation;
 ```
-#### Passaggio 2: creare un nuovo oggetto di presentazione
-Ecco come fare:
+
+#### Passo 2: Creare un nuovo oggetto Presentation
 ```java
 Presentation pres = new Presentation();
 try {
-    // La logica del tuo codice qui...
+    // Your code logic here...
 } finally {
-    if (pres != null) pres.dispose(); // Garantisce che le risorse siano liberate
+    if (pres != null) pres.dispose(); // Ensures resources are freed
 }
 ```
-*In questo modo si garantisce che l'oggetto di presentazione venga smaltito correttamente dopo l'uso, evitando perdite di memoria.*
-### Aggiungere un grafico alla diapositiva
-**Panoramica:**
-Aggiungere un grafico alla diapositiva può rendere la visualizzazione dei dati più efficace e coinvolgente.
-#### Passaggio 1: importare i pacchetti necessari
+*Questo assicura che l'oggetto presentation venga correttamente eliminato dopo l'uso, evitando perdite di memoria.*
+
+## Come customize clustered column chart
+Ora che la presentazione è pronta, aggiungiamo e personalizziamo un grafico a colonne raggruppate.
+
+### Aggiungere il grafico alla slide
+**Panoramica:**  
+Aggiungere un grafico dà vita ai dati sulla slide.
+
+#### Passo 1: Importare i pacchetti necessari
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.ISlide;
 import com.aspose.slides.IChart;
 import com.aspose.slides.ChartType;
 ```
-#### Passaggio 2: inizializzare la presentazione e aggiungere il grafico
+
+#### Passo 2: Inizializzare la presentazione e aggiungere il grafico
 ```java
 Presentation pres = new Presentation();
 try {
     ISlide slide = pres.getSlides().get_Item(0);
     IChart chart = slide.getShapes().addChart(ChartType.ClusteredColumn, 100, 100, 400, 300);
 
-    // Logica aggiuntiva per la personalizzazione dei grafici...
+    // Additional logic for chart customization...
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
-*Qui aggiungiamo un grafico a colonne raggruppate alla prima diapositiva con coordinate e dimensioni specificate.*
-### Cartella di lavoro per la gestione dei dati del grafico
-**Panoramica:**
-La gestione efficiente della cartella di lavoro dei dati del grafico consente di manipolare serie e categorie senza problemi.
-#### Passaggio 1: importare i pacchetti necessari
+*Qui, aggiungiamo un grafico a colonne raggruppate alla prima slide con coordinate e dimensioni specificate.*
+
+### Gestire il workbook dei dati del grafico
+**Panoramica:**  
+Gestire efficientemente il workbook dei dati del grafico ti permette di manipolare serie e categorie in modo fluido.
+
+#### Passo 1: Importare i pacchetti necessari
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.IChart;
 import com.aspose.slides.IChartDataWorkbook;
 ```
-#### Passaggio 2: accesso e cancellazione della cartella di lavoro dei dati
+
+#### Passo 2: Accedere e svuotare il workbook dei dati
 ```java
 Presentation pres = new Presentation();
 try {
@@ -128,20 +167,22 @@ try {
 
     IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
 
-    // Cancella i dati esistenti
+    // Clear existing data
     chart.getChartData().getSeries().clear();
     chart.getChartData().getCategories().clear();
 
-    // La logica della tua personalizzazione qui...
+    // Your customization logic here...
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
-*Svuotare la cartella di lavoro è fondamentale per partire da zero quando si aggiungono nuove serie e categorie.*
+*Pulire il workbook è fondamentale per partire da una base pulita quando si aggiungono nuove serie e categorie.*
+
 ### Aggiungere serie e categorie al grafico
-**Panoramica:**
-Questa funzionalità mostra come aggiungere punti dati significativi gestendo serie e categorie.
-#### Passaggio 1: aggiungere serie e categorie
+**Panoramica:**  
+Questo passaggio mostra come aggiungere punti dati significativi gestendo serie e categorie.
+
+#### Passo 1: Aggiungere serie e categorie
 ```java
 Presentation pres = new Presentation();
 try {
@@ -150,26 +191,28 @@ try {
 
     IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
 
-    // Cancella serie e categorie esistenti
+    // Clear existing series and categories
     chart.getChartData().getSeries().clear();
     chart.getChartData().getCategories().clear();
 
-    // Aggiungi nuove serie e categorie
+    // Add new series and categories
     chart.getChartData().getSeries().add(workBook.getCell(0, 0, 1, "Series 1"), chart.getType());
     chart.getChartData().getCategories().add(workBook.getCell(0, 1, 0, "Category 1"));
     chart.getChartData().getCategories().add(workBook.getCell(0, 2, 0, "Category 2"));
     chart.getChartData().getCategories().add(workBook.getCell(0, 3, 0, "Category 3"));
 
-    // Ulteriore logica di personalizzazione...
+    // Further customization logic...
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
-*L'aggiunta di serie e categorie consente una presentazione dei dati più organizzata.*
-### Popolamento dei dati della serie e formattazione
-**Panoramica:**
-Inserisci nel grafico i punti dati e formatta l'aspetto per migliorarne la leggibilità, soprattutto quando si tratta di valori negativi.
-#### Passaggio 1: popolare i dati della serie
+*Aggiungere serie e categorie consente una presentazione dei dati più organizzata.*
+
+### Popolare i dati della serie e formattare
+**Panoramica:**  
+Popola il tuo grafico con punti dati e formatta l'aspetto per migliorare la leggibilità, soprattutto quando si trattano valori negativi.
+
+#### Passo 1: Popolare i dati della serie
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.IChart;
@@ -185,14 +228,14 @@ try {
 
     IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
 
-    // Aggiungi serie e categorie (riutilizza la logica precedente)
+    // Add series and categories (reuse previous logic)
     
     IChartSeries series = chart.getChartData().getSeries().get_Item(0);
     series.getDataPoints().addDataPointForBarSeries(workBook.getCell(0, 1, 1, -20));
     series.getDataPoints().addDataPointForBarSeries(workBook.getCell(0, 2, 1, 30));
     series.getDataPoints().addDataPointForBarSeries(workBook.getCell(0, 3, 1, 10));
 
-    // Serie di formati per valori negativi
+    // Format series for negative values
     series.getFormat().getFill().setFillType(FillType.Solid);
     series.getFormat().getLine().getFillFormat().setFillType(FillType.NoFill);
     
@@ -208,13 +251,41 @@ try {
         }
     }
 
-    // Salva la presentazione
+    // Save the presentation
     pres.save("output.pptx", SaveFormat.Pptx);
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
-*Questa sezione illustra come popolare i dati e applicare la formattazione del colore per una migliore visualizzazione.*
+*Questa sezione dimostra come popolare i dati e applicare la formattazione dei colori per una migliore visualizzazione.*
+
+## Problemi comuni e soluzioni
+- **Perdite di memoria** – Avvolgi sempre l'oggetto `Presentation` in un blocco `try/finally` come mostrato per garantire lo smaltimento.  
+- **Coordinate di cella errate** – Ricorda che righe e colonne sono indicizzate a zero; indici non corrispondenti causano `NullPointerException`.  
+- **Licenza non trovata** – Posiziona il file di licenza nella directory di lavoro dell'applicazione o imposta il percorso esplicitamente tramite `License.setLicense("Aspose.Slides.Java.lic")`.
+
+## Domande frequenti
+
+**D: Posso usare questo approccio con .NET Core?**  
+R: Sì. Aspose.Slides per Java gira su qualsiasi JVM, e puoi chiamare il codice Java da .NET Core usando un bridge come IKVM o JNI.
+
+**D: È necessaria una licenza a pagamento per lo sviluppo?**  
+R: Una licenza di prova gratuita è sufficiente per sviluppo e test. Le distribuzioni in produzione richiedono una licenza acquistata.
+
+**D: Come cambio il tipo di grafico dopo la creazione?**  
+R: Puoi chiamare `chart.getChartData().setChartType(ChartType.Pie)` per passare a un tipo di grafico diverso.
+
+**D: È possibile aggiungere etichette dati programmaticamente?**  
+R: Sì. Usa `series.getDataPoints().get_Item(i).getLabel().setShowValue(true)` per visualizzare i valori sul grafico.
+
+**D: In quali formati posso salvare la presentazione?**  
+R: Aspose.Slides supporta PPTX, PPT, PDF, XPS e diversi formati immagine come PNG e JPEG.
+
+---
+
+**Ultimo aggiornamento:** 2026-02-06  
+**Testato con:** Aspose.Slides per Java 25.4 (classificatore jdk16)  
+**Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
