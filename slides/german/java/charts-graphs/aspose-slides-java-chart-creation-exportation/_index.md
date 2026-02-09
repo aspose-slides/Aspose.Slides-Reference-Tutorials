@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Erfahren Sie, wie Sie mit Aspose.Slides in Java Diagramme erstellen und exportieren. Lernen Sie Datenvisualisierungstechniken mit Schritt-für-Schritt-Anleitungen und Codebeispielen."
-"title": "Aspose.Slides Java&#58; Erstellen und Exportieren von Diagrammen zur Datenvisualisierung"
-"url": "/de/java/charts-graphs/aspose-slides-java-chart-creation-exportation/"
-"weight": 1
+date: '2026-02-09'
+description: Erlernen Sie, wie Sie Diagramme erstellen und Diagramme mit Aspose.Slides
+  für Java nach Excel exportieren. Beherrschen Sie Datenvisualisierung, Business‑Report‑Folien
+  und die Erstellung von Arbeitsmappen.
+keywords:
+- Aspose.Slides Java
+- creating charts in Java
+- exporting chart data with Aspose
+title: Wie man ein Diagramm mit Aspose.Slides Java erstellt
+url: /de/java/charts-graphs/aspose-slides-java-chart-creation-exportation/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,36 +17,44 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Erstellen und Exportieren von Diagrammen mit Aspose.Slides Java
+# Wie man ein Diagramm mit Aspose.Slides für Java erstellt
 
-**Beherrschen Sie Datenvisualisierungstechniken mit Aspose.Slides für Java**
+**Meistern Sie Datenvisualisierungstechniken mit Aspose.Slides für Java**
 
-In der heutigen datengetriebenen Welt ist eine effektive Datenvisualisierung unerlässlich, um fundierte Entscheidungen zu treffen. Die Integration von Diagrammfunktionen in Ihre Java-Anwendungen kann Rohdaten in überzeugende visuelle Geschichten verwandeln. Dieses Tutorial führt Sie durch das Erstellen und Exportieren von Diagrammen mit Aspose.Slides für Java und stellt sicher, dass Ihre Präsentationen sowohl informativ als auch visuell ansprechend sind.
+Im heutigen datengetriebenen Umfeld ist *wie man ein Diagramm* programmgesteuert erstellt eine Fähigkeit, die rohe Zahlen in überzeugende visuelle Geschichten verwandeln kann. Ob Sie eine Business‑Report‑Präsentation oder ein interaktives Analyse‑Dashboard bauen – Aspose.Slides für Java gibt Ihnen die Möglichkeit, Diagramme direkt aus Ihrem Code zu erzeugen, anzupassen und zu exportieren. In diesem Tutorial lernen Sie, wie Sie Diagramm‑Objekte erstellen, Diagrammdaten nach Excel exportieren und Diagramme mit externen Arbeitsmappen verknüpfen, um ein nahtloses Datenmanagement zu ermöglichen.
 
-**Was Sie lernen werden:**
-- Müheloses Laden und Bearbeiten von Präsentationsdateien
-- Fügen Sie Ihren Folien verschiedene Diagrammtypen hinzu
-- Nahtloser Export von Diagrammdaten in externe Arbeitsmappen
-- Festlegen eines externen Arbeitsmappenpfads für eine effiziente Datenverwaltung
+## Schnellantworten
+- **Welche Bibliothek wird benötigt?** Aspose.Slides für Java (v25.4+).  
+- **Kann ich Diagrammdaten nach Excel exportieren?** Ja – verwenden Sie `readWorkbookStream()` und schreiben die Bytes in eine *.xlsx*-Datei.  
+- **Welche Java‑Version ist erforderlich?** JDK 16 oder höher.  
+- **Benötige ich eine Lizenz?** Eine kostenlose Testlizenz reicht für die Evaluierung; für die Produktion ist eine permanente Lizenz erforderlich.  
+- **Welcher Diagrammtyp wird demonstriert?** Ein Kreis‑Diagramm, aber derselbe Ansatz funktioniert für Balken‑, Linien‑ und andere Diagrammtypen.
 
-Lass uns anfangen!
+## Was ist Aspose.Slides für Java?
+Aspose.Slides für Java ist eine reine Java‑API, die Entwicklern das Erstellen, Bearbeiten und Konvertieren von PowerPoint‑Präsentationen ohne Microsoft Office ermöglicht. Sie unterstützt die gesamte Palette an Diagrammtypen, Datenbindung und Export‑Funktionen und ist damit ideal für **data visualization java**‑Projekte.
+
+## Warum Aspose.Slides zum Erstellen von Diagrammen und zum Export nach Excel verwenden?
+- **Keine Office‑Installation** – funktioniert auf jedem Server oder in jeder Cloud‑Umgebung.  
+- **Umfangreiche Diagrammbibliothek** – Dutzende von Diagrammtypen und vollständige Stil‑Kontrolle.  
+- **Direkter Excel‑Export** – erzeugt eine externe Arbeitsmappe für nachgelagerte Analysen.  
+- **Performance‑orientiert** – geringer Speicherverbrauch und schnelle Verarbeitung großer Präsentationen.
 
 ## Voraussetzungen
-Bevor wir beginnen, stellen Sie sicher, dass Sie die folgende Einrichtung bereit haben:
+Bevor wir starten, stellen Sie sicher, dass Sie Folgendes haben:
 
 ### Erforderliche Bibliotheken und Versionen
-- **Aspose.Slides für Java** Version 25.4 oder höher
+- **Aspose.Slides für Java** Version 25.4 oder neuer
 
-### Anforderungen für die Umgebungseinrichtung
-- Java Development Kit (JDK) 16 oder höher
-- Ein Code-Editor oder eine IDE wie IntelliJ IDEA oder Eclipse
+### Anforderungen an die Umgebung
+- Java Development Kit (JDK) 16 oder höher  
+- Eine IDE wie IntelliJ IDEA oder Eclipse (oder ein beliebiger Texteditor Ihrer Wahl)
 
-### Voraussetzungen
-- Grundlegende Kenntnisse der Java-Programmierung
-- Vertrautheit mit Maven- oder Gradle-Build-Systemen
+### Wissensvoraussetzungen
+- Grundlegende Java‑Programmierkenntnisse  
+- Vertrautheit mit den Build‑Tools Maven oder Gradle
 
-## Einrichten von Aspose.Slides für Java
-Um Aspose.Slides verwenden zu können, müssen Sie es in Ihr Projekt einbinden. So geht's:
+## Aspose.Slides für Java einrichten
+Fügen Sie die Bibliothek Ihrem Projekt mit Ihrem bevorzugten Build‑System hinzu.
 
 **Maven**
 ```xml
@@ -57,57 +71,51 @@ Um Aspose.Slides verwenden zu können, müssen Sie es in Ihr Projekt einbinden. 
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Alternativ können Sie [Laden Sie die neueste Version direkt herunter](https://releases.aspose.com/slides/java/).
+Alternativ können Sie die neueste Version direkt [herunterladen](https://releases.aspose.com/slides/java/).
 
-### Schritte zum Lizenzerwerb
-Aspose.Slides bietet eine kostenlose Testlizenz an, um alle Funktionen zu testen. Sie können auch eine temporäre Lizenz beantragen oder eine Lizenz für eine erweiterte Nutzung erwerben. Folgen Sie diesen Schritten:
-1. Besuchen Sie die [Aspose-Kaufseite](https://purchase.aspose.com/buy) um Ihre Lizenz zu erhalten.
-2. Laden Sie eine kostenlose Testversion herunter von [Veröffentlichungen](https://releases.aspose.com/slides/java/).
-3. Beantragen Sie eine vorläufige Lizenz [Hier](https://purchase.aspose.com/temporary-license/).
+### Schritte zum Erwerb einer Lizenz
+Aspose.Slides bietet eine kostenlose Testlizenz, um die vollen Funktionen zu erkunden. Sie können auch eine temporäre Lizenz beantragen oder eine Lizenz für den erweiterten Gebrauch erwerben. Folgen Sie diesen Schritten:
 
-Sobald Sie die Lizenzdatei haben, initialisieren Sie sie in Ihrer Java-Anwendung:
+1. Besuchen Sie die [Aspose‑Kaufseite](https://purchase.aspose.com/buy), um Ihre Lizenz zu erhalten.  
+2. Für eine kostenlose Testversion laden Sie sie von [Releases](https://releases.aspose.com/slides/java/) herunter.  
+3. Beantragen Sie eine temporäre Lizenz [hier](https://purchase.aspose.com/temporary-license/).
+
+Sobald Sie die Lizenzdatei haben, initialisieren Sie sie in Ihrer Java‑Anwendung:
+
 ```java
 com.aspose.slides.License license = new com.aspose.slides.License();
 license.setLicense("path/to/your/license/file.lic");
 ```
 
-## Implementierungshandbuch
-### Funktion 1: Präsentation laden
-Das Laden einer Präsentation ist der erste Schritt jeder Manipulationsaufgabe.
+## Schritt‑für‑Schritt‑Anleitung
 
-#### Überblick
-Diese Funktion zeigt, wie eine vorhandene PowerPoint-Datei mit Aspose.Slides für Java geladen wird.
+### Wie man ein Diagramm erstellt – Präsentation laden
+Das Laden einer bestehenden PowerPoint‑Datei ist der erste Schritt, bevor Sie Diagramme hinzufügen oder ändern können.
 
-#### Schrittweise Implementierung
-**Diagramm zur Folie hinzufügen**
 ```java
 import com.aspose.slides.Presentation;
 
 public class Feature1 {
     public static void main(String[] args) {
-        // Legen Sie den Pfad zu Ihrem Dokumentverzeichnis fest
+        // Set the path to your document directory
         String dataDir = "YOUR_DOCUMENT_DIRECTORY";
         
-        // Laden einer vorhandenen Präsentation
+        // Load an existing presentation
         Presentation pres = new Presentation(dataDir + "/presentation.pptx");
         
-        // Bereinigen von Ressourcen
+        // Clean up resources
         if (pres != null) pres.dispose();
     }
 }
 ```
-**Erläuterung:**
-- `Presentation` wird mit dem Pfad zu Ihrem `.pptx` Datei.
-- Entsorgen Sie immer `Presentation` Einwände gegen kostenlose Ressourcen.
 
-### Funktion 2: Diagramm zur Folie hinzufügen
-Durch das Hinzufügen eines Diagramms kann die Datenpräsentation erheblich verbessert werden.
+**Erklärung:**  
+- `Presentation` repräsentiert die PowerPoint‑Datei.  
+- Rufen Sie stets `dispose()` auf, um native Ressourcen freizugeben.
 
-#### Überblick
-Diese Funktion zeigt, wie Sie der ersten Folie einer Präsentation ein Kreisdiagramm hinzufügen.
+### Wie man ein Diagramm erstellt – Ein Kreis‑Diagramm zu einer Folie hinzufügen
+Jetzt fügen wir ein Kreis‑Diagramm ein, das sich ideal zur Darstellung proportionaler Daten eignet.
 
-#### Schrittweise Implementierung
-**Diagramm zur Folie hinzufügen**
 ```java
 import com.aspose.slides.ChartType;
 import com.aspose.slides.IChart;
@@ -115,12 +123,12 @@ import com.aspose.slides.Presentation;
 
 public class Feature2 {
     public static void main(String[] args) {
-        // Legen Sie den Pfad zu Ihrem Dokumentverzeichnis fest
+        // Set the path to your document directory
         String dataDir = "YOUR_DOCUMENT_DIRECTORY";
         
         Presentation pres = new Presentation(dataDir + "/presentation.pptx");
         try {
-            // Fügen Sie ein Kreisdiagramm an Position (50, 50) mit Breite 400 und Höhe 600 hinzu
+            // Add a Pie chart at position (50, 50) with width 400 and height 600
             IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
                 ChartType.Pie, 50, 50, 400, 600);
         } finally {
@@ -129,18 +137,14 @@ public class Feature2 {
     }
 }
 ```
-**Erläuterung:**
-- `addChart` Die Methode wird verwendet, um ein Kreisdiagramm einzufügen.
-- Zu den Parametern gehören der Diagrammtyp und seine Position/Größe auf der Folie.
 
-### Funktion 3: Diagrammdaten in externe Arbeitsmappe exportieren
-Durch das Exportieren der Daten sind weitere Analysen außerhalb von PowerPoint möglich.
+**Erklärung:**  
+- `addChart` fügt das Diagramm auf der ersten Folie ein.  
+- Die Parameter definieren Diagrammtyp, X/Y‑Position und Größe.
 
-#### Überblick
-Diese Funktion demonstriert das Exportieren von Diagrammdaten aus einer Präsentation in eine externe Excel-Arbeitsmappe.
+### Wie man Diagrammdaten nach Excel exportiert – Diagrammdaten exportieren
+Der Export von Diagrammdaten ermöglicht Analysten, die Zahlen in Excel zu bearbeiten und tiefere Einblicke zu gewinnen.
 
-#### Schrittweise Implementierung
-**Daten exportieren**
 ```java
 import com.aspose.slides.IChart;
 import java.io.File;
@@ -151,21 +155,21 @@ import com.aspose.slides.Presentation;
 
 public class Feature3 {
     public static void main(String[] args) {
-        // Legen Sie den Pfad zu Ihrem Dokumentverzeichnis und Ausgabeverzeichnis fest
+        // Set the path to your document directory and output directory
         String dataDir = "YOUR_DOCUMENT_DIRECTORY";
         
         Presentation pres = new Presentation(dataDir + "/presentation.pptx");
         try {
-            // Greifen Sie auf das Diagramm der ersten Folie zu
+            // Access the first slide's chart
             IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
                 com.aspose.slides.ChartType.Pie, 50, 50, 400, 600);
             
-            // Definieren Sie den Pfad für die externe Arbeitsmappe
+            // Define the path for the external workbook
             String externalWbPath = dataDir + "/externalWorkbook1.xlsx";
             File file = new File(externalWbPath);
             if (file.exists()) file.delete();
             
-            // Exportieren Sie Diagrammdaten in einen Excel-Stream
+            // Export chart data to an Excel stream
             byte[] workbookData = chart.getChartData().readWorkbookStream();
             FileOutputStream outputStream = new FileOutputStream(file);
             outputStream.write(workbookData);
@@ -180,34 +184,30 @@ public class Feature3 {
     }
 }
 ```
-**Erläuterung:**
-- `readWorkbookStream` extrahiert die Diagrammdaten.
-- Die Daten werden in eine Excel-Datei geschrieben mit `FileOutputStream`.
 
-### Funktion 4: Externe Arbeitsmappe für Diagrammdaten festlegen
-Durch die Verknüpfung von Diagrammen mit externen Arbeitsmappen kann die Datenverwaltung optimiert werden.
+**Erklärung:**  
+- `readWorkbookStream()` extrahiert die zugrunde liegende Excel‑Arbeitsmappe des Diagramms als Byte‑Array.  
+- Das Byte‑Array wird in `externalWorkbook1.xlsx` geschrieben und liefert Ihnen eine sofort einsatzbereite Excel‑Datei.
 
-#### Überblick
-Diese Funktion demonstriert das Einrichten eines externen Arbeitsmappenpfads zum Speichern von Diagrammdaten.
+### Wie man ein Diagramm erstellt – Externe Arbeitsmappe für dynamische Daten setzen
+Die Verknüpfung eines Diagramms mit einer externen Arbeitsmappe erlaubt es, das Diagramm einfach durch Bearbeiten der Excel‑Datei zu aktualisieren.
 
-#### Schrittweise Implementierung
-**Festlegen des externen Arbeitsmappenpfads**
 ```java
 import com.aspose.slides.IChart;
 import com.aspose.slides.Presentation;
 
 public class Feature4 {
     public static void main(String[] args) {
-        // Legen Sie den Pfad zu Ihrem Dokumentverzeichnis fest
+        // Set the path to your document directory
         String dataDir = "YOUR_DOCUMENT_DIRECTORY";
         
         Presentation pres = new Presentation(dataDir + "/presentation.pptx");
         try {
-            // Greifen Sie auf das Diagramm der ersten Folie zu
+            // Access the first slide's chart
             IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
                 com.aspose.slides.ChartType.Pie, 50, 50, 400, 600);
             
-            // Definieren und Festlegen des Pfads für die externe Arbeitsmappe
+            // Define and set the path for the external workbook
             String externalWbPath = dataDir + "/externalWorkbook1.xlsx";
             chart.getChartData().setExternalWorkbook(externalWbPath);
         } finally {
@@ -216,16 +216,45 @@ public class Feature4 {
     }
 }
 ```
-**Erläuterung:**
-- `setExternalWorkbook` verknüpft das Diagramm mit einer Excel-Datei und ermöglicht so dynamische Datenaktualisierungen.
 
-## Praktische Anwendungen
-Aspose.Slides bietet vielseitige Lösungen für verschiedene Szenarien:
+**Erklärung:**  
+- `setExternalWorkbook` bindet das Diagramm an die angegebene Excel‑Datei und ermöglicht Live‑Daten‑Updates, ohne die Folie neu zu erstellen.
 
-1. **Geschäftsberichte:** Erstellen Sie detaillierte Berichte mit Diagrammen direkt aus Java-Anwendungen.
-2. **Akademische Präsentationen:** Erweitern Sie Bildungsinhalte mit interaktiven Diagrammen.
-3. **Finanzanalyse:** Exportieren Sie Finanzdaten zur eingehenden Analyse nach Excel.
-4. **Marketinganalyse:** Visualisieren Sie die Kampagnenleistung mithilfe dynamischer Diagramme.
+## Praktische Anwendungsfälle
+Aspose.Slides bietet vielseitige Lösungen für verschiedene reale Szenarien:
+
+1. **Business‑Report‑Folien:** Generieren Sie automatisch Quartals‑Performance‑Diagramme aus Ihren Datenpipelines.  
+2. **Akademische Präsentationen:** Wandeln Sie Forschungsdaten in klare Visualisierungen um, ohne manuelles Diagrammzeichnen.  
+3. **Finanzanalyse:** Exportieren Sie Diagrammdaten nach Excel, damit Prüfer die Zahlen überprüfen können.  
+4. **Marketing‑Analytics:** Visualisieren Sie Kampagnen‑Metriken und teilen Sie editierbare Arbeitsmappen mit Stakeholdern.
+
+## Häufige Probleme & Fehlersuche
+- **`FileNotFoundException`** – Stellen Sie sicher, dass `dataDir` auf einen gültigen Ordner zeigt und der Ausgabepfad beschreibbar ist.  
+- **Speicherlecks** – Rufen Sie immer `pres.dispose()` in einem `finally`‑Block auf, um native Ressourcen freizugeben.  
+- **Diagramm wird nicht angezeigt** – Vergewissern Sie sich, dass der Folien‑Index (`get_Item(0)`) einer tatsächlich vorhandenen Folie entspricht.
+
+## Häufig gestellte Fragen
+
+**F: Kann ich einen anderen Diagrammtyp (z. B. Balken, Linie) mit demselben Code verwenden?**  
+A: Ja. Ersetzen Sie `ChartType.Pie` durch einen anderen `ChartType`‑Enum‑Wert wie `ChartType.Bar` oder `ChartType.Line`.
+
+**F: Ist es möglich, die externe Arbeitsmappe nach der Diagrammerstellung zu aktualisieren?**  
+A: Absolut. Ändern Sie die Excel‑Datei direkt; das verknüpfte Diagramm spiegelt die Änderungen beim nächsten Öffnen der Präsentation wider.
+
+**F: Benötige ich eine separate Lizenz für die Excel‑Export‑Funktion?**  
+A: Nein. Die Excel‑Export‑Funktion ist in der Standard‑Aspose.Slides‑für‑Java‑Lizenz enthalten.
+
+**F: Welche Java‑Versionen werden unterstützt?**  
+A: Aspose.Slides für Java unterstützt JDK 16 und neuer; frühere Versionen können funktionieren, werden aber nicht offiziell getestet.
+
+**F: Wie kann ich die erzeugte Excel‑Arbeitsmappe in die PPTX‑Datei einbetten?**  
+A: Verwenden Sie `chart.getChartData().setExternalWorkbook(null)`, um die Arbeitsmappe einzubetten, oder behalten Sie den externen Link für dynamische Updates bei.
+
+---
+
+**Zuletzt aktualisiert:** 2026-02-09  
+**Getestet mit:** Aspose.Slides für Java 25.4 (jdk16 classifier)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

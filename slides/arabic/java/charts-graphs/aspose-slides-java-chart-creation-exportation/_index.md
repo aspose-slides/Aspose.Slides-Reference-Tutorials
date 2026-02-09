@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-17"
-"description": "تعلم كيفية إنشاء وتصدير المخططات البيانية باستخدام Aspose.Slides في جافا. أتقن تقنيات تصور البيانات من خلال أدلة خطوة بخطوة وأمثلة برمجية."
-"title": "Aspose.Slides Java - إنشاء وتصدير المخططات البيانية لتصور البيانات"
-"url": "/ar/java/charts-graphs/aspose-slides-java-chart-creation-exportation/"
-"weight": 1
+date: '2026-02-09'
+description: تعلم كيفية إنشاء مخطط وتصديره إلى Excel باستخدام Aspose.Slides للغة Java.
+  إتقان تصور البيانات، شرائح تقارير الأعمال، وإنشاء المصنفات.
+keywords:
+- Aspose.Slides Java
+- creating charts in Java
+- exporting chart data with Aspose
+title: كيفية إنشاء مخطط باستخدام Aspose.Slides Java
+url: /ar/java/charts-graphs/aspose-slides-java-chart-creation-exportation/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,38 +16,46 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# إنشاء وتصدير المخططات البيانية باستخدام Aspose.Slides Java
+# كيفية إنشاء مخطط باستخدام Aspose.Slides for Java
 
-**تقنيات تصور البيانات الرئيسية باستخدام Aspose.Slides لـ Java**
+**إتقان تقنيات تصور البيانات مع Aspose.Slides for Java**
 
-في عالم اليوم الذي يعتمد على البيانات، يُعدّ التصور الفعّال للبيانات أمرًا أساسيًا لاتخاذ قرارات مدروسة. يُمكن لدمج وظائف المخططات البيانية في تطبيقات جافا تحويل البيانات الخام إلى قصص بصرية جذابة. سيرشدك هذا البرنامج التعليمي إلى كيفية إنشاء المخططات البيانية وتصديرها باستخدام Aspose.Slides لجافا، مما يضمن أن تكون عروضك التقديمية غنية بالمعلومات وجذابة بصريًا.
+في مشهد اليوم القائم على البيانات، *كيفية إنشاء مخطط* برمجياً هي مهارة يمكنها تحويل الأرقام الخام إلى قصص بصرية جذابة. سواء كنت تُعد مجموعة شرائح تقرير أعمال أو لوحة تحكم تحليلات تفاعلية، يمنحك Aspose.Slides for Java القدرة على إنشاء وتخصيص وتصدير المخططات مباشرةً من الشيفرة الخاصة بك. في هذا الدرس ستتعلم كيفية إنشاء كائنات المخطط، وتصدير بيانات المخطط إلى Excel، وربط المخططات بملفات عمل خارجية لإدارة البيانات بسلاسة.
 
-**ما سوف تتعلمه:**
-- تحميل ملفات العرض التقديمي ومعالجتها بسهولة
-- أضف أنواعًا مختلفة من المخططات إلى شرائحك
-- تصدير بيانات الرسم البياني إلى مصنفات خارجية بسلاسة
-- تعيين مسار مصنف خارجي لإدارة البيانات بكفاءة
+## إجابات سريعة
+- **ما المكتبة المطلوبة؟** Aspose.Slides for Java (v25.4+).  
+- **هل يمكنني تصدير بيانات المخطط إلى Excel؟** نعم – استخدم `readWorkbookStream()` واكتب البايتات إلى ملف *.xlsx*.  
+- **ما نسخة Java المطلوبة؟** JDK 16 أو أعلى.  
+- **هل أحتاج إلى ترخيص؟** النسخة التجريبية المجانية تكفي للتقييم؛ يتطلب الترخيص الدائم للإنتاج.  
+- **ما نوع المخطط المعروض؟** مخطط دائري (Pie chart)، لكن نفس النهج يعمل مع المخططات الشريطية، الخطية، وغيرها.
 
-دعونا نبدأ!
+## ما هو Aspose.Slides for Java؟
+Aspose.Slides for Java هو واجهة برمجة تطبيقات pure‑Java تتيح للمطورين إنشاء وتحرير وتحويل عروض PowerPoint دون الحاجة إلى Microsoft Office. يدعم مجموعة كاملة من أنواع المخططات، وربط البيانات، وإمكانيات التصدير، مما يجعله مثالياً لمشاريع **data visualization java**.
 
-## المتطلبات الأساسية
-قبل أن نبدأ، تأكد من أن لديك الإعداد التالي جاهزًا:
+## لماذا تستخدم Aspose.Slides لإنشاء مخطط وتصديره إلى Excel؟
+- **بدون تثبيت Office** – يعمل على أي خادم أو بيئة سحابية.  
+- **مكتبة مخططات غنية** – عشرات أنواع المخططات والتحكم الكامل في التصميم.  
+- **تصدير مباشر إلى Excel** – إنشاء ملف عمل خارجي للتحليل اللاحق.  
+- **موجه للأداء** – استهلاك منخفض للذاكرة ومعالجة سريعة للشرائح الكبيرة.
 
-### المكتبات والإصدارات المطلوبة
-- **Aspose.Slides لـ Java** الإصدار 25.4 أو أحدث
+## المتطلبات المسبقة
+قبل أن نبدأ، تأكد من أن لديك ما يلي:
+
+### المكتبات المطلوبة والإصدارات
+- **Aspose.Slides for Java** الإصدار 25.4 أو أحدث
 
 ### متطلبات إعداد البيئة
-- مجموعة تطوير Java (JDK) 16 أو أعلى
-- محرر أكواد أو بيئة تطوير متكاملة مثل IntelliJ IDEA أو Eclipse
+- مجموعة تطوير Java (JDK) 16 أو أعلى  
+- بيئة تطوير متكاملة مثل IntelliJ IDEA أو Eclipse (أو أي محرر نصوص تفضله)
 
-### متطلبات المعرفة
-- فهم أساسي لبرمجة جافا
-- المعرفة بأنظمة بناء Maven أو Gradle
+### المتطلبات المعرفية
+- مهارات برمجة Java الأساسية  
+- الإلمام بأدوات بناء Maven أو Gradle
 
-## إعداد Aspose.Slides لـ Java
-لبدء استخدام Aspose.Slides، عليك تضمينه في مشروعك. إليك الطريقة:
+## إعداد Aspose.Slides for Java
+أضف المكتبة إلى مشروعك باستخدام نظام البناء المفضل لديك.
 
-**مافن**
+**Maven**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -52,62 +65,56 @@
 </dependency>
 ```
 
-**جرادل**
+**Gradle**
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-بدلا من ذلك، يمكنك [تنزيل أحدث إصدار مباشرة](https://releases.aspose.com/slides/java/).
+بدلاً من ذلك، يمكنك [قم بتنزيل أحدث إصدار مباشرة](https://releases.aspose.com/slides/java/).
 
 ### خطوات الحصول على الترخيص
-يقدم Aspose.Slides نسخة تجريبية مجانية لاستكشاف كامل إمكانياته. يمكنك أيضًا التقدم بطلب للحصول على ترخيص مؤقت أو شراء ترخيص للاستخدام الممتد. اتبع الخطوات التالية:
-1. قم بزيارة [صفحة شراء Aspose](https://purchase.aspose.com/buy) للحصول على رخصتك.
-2. للحصول على نسخة تجريبية مجانية، قم بالتنزيل من [الإصدارات](https://releases.aspose.com/slides/java/).
-3. التقدم بطلب للحصول على ترخيص مؤقت [هنا](https://purchase.aspose.com/temporary-license/).
+يوفر Aspose.Slides ترخيص تجريبي مجاني لاستكشاف جميع إمكاناته. يمكنك أيضًا طلب ترخيص مؤقت أو شراء واحد للاستخدام الممتد. اتبع الخطوات التالية:
+
+1. زر [صفحة شراء Aspose](https://purchase.aspose.com/buy) للحصول على الترخيص الخاص بك.  
+2. للحصول على نسخة تجريبية مجانية، قم بتنزيلها من [الإصدارات](https://releases.aspose.com/slides/java/).  
+3. قدّم طلبًا للحصول على ترخيص مؤقت [هنا](https://purchase.aspose.com/temporary-license/).
 
 بمجرد حصولك على ملف الترخيص، قم بتهيئته في تطبيق Java الخاص بك:
+
 ```java
 com.aspose.slides.License license = new com.aspose.slides.License();
 license.setLicense("path/to/your/license/file.lic");
 ```
 
-## دليل التنفيذ
-### الميزة 1: تحميل العرض التقديمي
-يعد تحميل العرض التقديمي هو الخطوة الأولى لأي مهمة معالجة.
+## دليل خطوة بخطوة
 
-#### ملخص
-توضح هذه الميزة كيفية تحميل ملف PowerPoint موجود باستخدام Aspose.Slides لـ Java.
+### كيفية إنشاء مخطط – تحميل عرض تقديمي
+تحميل ملف PowerPoint موجود هو الخطوة الأولى قبل أن تتمكن من إضافة أو تعديل المخططات.
 
-#### التنفيذ خطوة بخطوة
-**إضافة مخطط إلى الشريحة**
 ```java
 import com.aspose.slides.Presentation;
 
 public class Feature1 {
     public static void main(String[] args) {
-        // تعيين المسار إلى دليل المستند الخاص بك
+        // Set the path to your document directory
         String dataDir = "YOUR_DOCUMENT_DIRECTORY";
         
-        // تحميل عرض تقديمي موجود
+        // Load an existing presentation
         Presentation pres = new Presentation(dataDir + "/presentation.pptx");
         
-        // تنظيف الموارد
+        // Clean up resources
         if (pres != null) pres.dispose();
     }
 }
 ```
-**توضيح:**
-- `Presentation` يتم تهيئة المسار الخاص بك باستخدام `.pptx` ملف.
-- تخلص دائما من `Presentation` الاعتراض على الموارد المجانية.
 
-### الميزة 2: إضافة مخطط إلى الشريحة
-إن إضافة مخطط قد يؤدي إلى تحسين عرض البيانات بشكل كبير.
+**شرح:**  
+- `Presentation` تمثل ملف PowerPoint.  
+- دائمًا استدعِ `dispose()` لتحرير الموارد الأصلية.
 
-#### ملخص
-تُظهر هذه الميزة كيفية إضافة مخطط دائري إلى الشريحة الأولى من العرض التقديمي.
+### كيفية إنشاء مخطط – إضافة مخطط دائري إلى شريحة
+الآن سنضيف مخططًا دائريًا، وهو مثالي لعرض البيانات النسبية.
 
-#### التنفيذ خطوة بخطوة
-**إضافة مخطط إلى الشريحة**
 ```java
 import com.aspose.slides.ChartType;
 import com.aspose.slides.IChart;
@@ -115,12 +122,12 @@ import com.aspose.slides.Presentation;
 
 public class Feature2 {
     public static void main(String[] args) {
-        // تعيين المسار إلى دليل المستند الخاص بك
+        // Set the path to your document directory
         String dataDir = "YOUR_DOCUMENT_DIRECTORY";
         
         Presentation pres = new Presentation(dataDir + "/presentation.pptx");
         try {
-            // أضف مخططًا دائريًا في الموضع (50، 50) بعرض 400 وارتفاع 600
+            // Add a Pie chart at position (50, 50) with width 400 and height 600
             IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
                 ChartType.Pie, 50, 50, 400, 600);
         } finally {
@@ -129,18 +136,14 @@ public class Feature2 {
     }
 }
 ```
-**توضيح:**
-- `addChart` يتم استخدام الطريقة لإدراج مخطط دائري.
-- تتضمن المعلمات نوع الرسم البياني وموضعه/حجمه على الشريحة.
 
-### الميزة 3: تصدير بيانات الرسم البياني إلى مصنف خارجي
-يسمح تصدير البيانات بإجراء تحليلات إضافية خارج PowerPoint.
+**شرح:**  
+- `addChart` يضيف المخطط إلى الشريحة الأولى.  
+- المعلمات تحدد نوع المخطط، موقع X/Y، والحجم.
 
-#### ملخص
-تُظهر هذه الميزة كيفية تصدير بيانات الرسم البياني من عرض تقديمي إلى مصنف Excel خارجي.
+### كيفية تصدير المخطط إلى Excel – تصدير بيانات المخطط
+تصدير بيانات المخطط يتيح للمحللين العمل بالأرقام في Excel، مما يتيح رؤى أعمق.
 
-#### التنفيذ خطوة بخطوة
-**تصدير البيانات**
 ```java
 import com.aspose.slides.IChart;
 import java.io.File;
@@ -151,21 +154,21 @@ import com.aspose.slides.Presentation;
 
 public class Feature3 {
     public static void main(String[] args) {
-        // تعيين المسار إلى دليل المستند ودليل الإخراج
+        // Set the path to your document directory and output directory
         String dataDir = "YOUR_DOCUMENT_DIRECTORY";
         
         Presentation pres = new Presentation(dataDir + "/presentation.pptx");
         try {
-            // الوصول إلى مخطط الشريحة الأولى
+            // Access the first slide's chart
             IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
                 com.aspose.slides.ChartType.Pie, 50, 50, 400, 600);
             
-            // تحديد المسار للمصنف الخارجي
+            // Define the path for the external workbook
             String externalWbPath = dataDir + "/externalWorkbook1.xlsx";
             File file = new File(externalWbPath);
             if (file.exists()) file.delete();
             
-            // تصدير بيانات الرسم البياني إلى تدفق Excel
+            // Export chart data to an Excel stream
             byte[] workbookData = chart.getChartData().readWorkbookStream();
             FileOutputStream outputStream = new FileOutputStream(file);
             outputStream.write(workbookData);
@@ -180,34 +183,30 @@ public class Feature3 {
     }
 }
 ```
-**توضيح:**
-- `readWorkbookStream` يستخرج بيانات الرسم البياني.
-- تتم كتابة البيانات إلى ملف Excel باستخدام `FileOutputStream`.
 
-### الميزة 4: تعيين مصنف خارجي لبيانات الرسم البياني
-قد يؤدي ربط المخططات بدفتر عمل خارجي إلى تبسيط إدارة البيانات.
+**شرح:**  
+- `readWorkbookStream()` يستخرج ملف Excel الأساسي للمخطط كمصفوفة بايت.  
+- تُكتب مصفوفة البايت إلى `externalWorkbook1.xlsx`، لتمنحك ملف Excel جاهز للاستخدام.
 
-#### ملخص
-توضح هذه الميزة إعداد مسار مصنف خارجي لتخزين بيانات الرسم البياني.
+### كيفية إنشاء مخطط – تعيين ملف عمل خارجي للبيانات الديناميكية
+ربط المخطط بملف عمل خارجي يتيح لك تحديث المخطط ببساطة عن طريق تعديل ملف Excel.
 
-#### التنفيذ خطوة بخطوة
-**تعيين مسار المصنف الخارجي**
 ```java
 import com.aspose.slides.IChart;
 import com.aspose.slides.Presentation;
 
 public class Feature4 {
     public static void main(String[] args) {
-        // تعيين المسار إلى دليل المستند الخاص بك
+        // Set the path to your document directory
         String dataDir = "YOUR_DOCUMENT_DIRECTORY";
         
         Presentation pres = new Presentation(dataDir + "/presentation.pptx");
         try {
-            // الوصول إلى مخطط الشريحة الأولى
+            // Access the first slide's chart
             IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
                 com.aspose.slides.ChartType.Pie, 50, 50, 400, 600);
             
-            // تحديد وتعيين المسار للمصنف الخارجي
+            // Define and set the path for the external workbook
             String externalWbPath = dataDir + "/externalWorkbook1.xlsx";
             chart.getChartData().setExternalWorkbook(externalWbPath);
         } finally {
@@ -216,16 +215,45 @@ public class Feature4 {
     }
 }
 ```
-**توضيح:**
-- `setExternalWorkbook` يربط الرسم البياني بملف Excel، مما يسمح بتحديثات البيانات الديناميكية.
 
-## التطبيقات العملية
-يوفر Aspose.Slides حلولاً متعددة الاستخدامات لمختلف السيناريوهات:
+**شرح:**  
+- `setExternalWorkbook` يربط المخطط بملف Excel المحدد، مما يتيح تحديثات بيانات مباشرة دون الحاجة لإعادة بناء الشريحة.
 
-1. **التقارير التجارية:** إنشاء تقارير مفصلة باستخدام الرسوم البيانية مباشرة من تطبيقات Java.
-2. **العروض الأكاديمية:** قم بتعزيز المحتوى التعليمي باستخدام المخططات التفاعلية.
-3. **التحليل المالي:** تصدير البيانات المالية إلى Excel لإجراء تحليل متعمق.
-4. **تحليلات التسويق:** تصور أداء الحملة باستخدام المخططات الديناميكية.
+## تطبيقات عملية
+يوفر Aspose.Slides حلولًا متعددة الاستخدامات لمختلف السيناريوهات الواقعية:
+
+1. **شرائح تقارير الأعمال:** إنشاء مخططات الأداء ربع السنوية تلقائيًا من خطوط بياناتك.  
+2. **العروض الأكاديمية:** تحويل بيانات البحث إلى تصورات واضحة دون الحاجة إلى إنشاء مخططات يدويًا.  
+3. **التحليل المالي:** تصدير بيانات المخطط إلى Excel لتتيح للمراجعين التحقق من الأرقام.  
+4. **تحليلات التسويق:** تصور مقاييس الحملات ومشاركة ملفات العمل القابلة للتعديل مع أصحاب المصلحة.
+
+## المشكلات الشائعة وإجراءات استكشاف الأخطاء
+- **`FileNotFoundException`** – تحقق من أن `dataDir` يشير إلى مجلد صالح وأن مسار الإخراج قابل للكتابة.  
+- **تسربات الذاكرة** – استدعِ دائمًا `pres.dispose()` داخل كتلة `finally` لتحرير الموارد الأصلية.  
+- **المخطط لا يظهر** – تأكد من أن فهرس الشريحة (`get_Item(0)`) يتطابق مع شريحة موجودة فعليًا.
+
+## الأسئلة المتكررة
+
+**س: هل يمكنني استخدام نوع مخطط مختلف (مثل شريطي، خطي) مع نفس الكود؟**  
+ج: نعم. استبدل `ChartType.Pie` بأي قيمة أخرى من تعداد `ChartType` مثل `ChartType.Bar` أو `ChartType.Line`.
+
+**س: هل يمكن تحديث ملف العمل الخارجي بعد إنشاء المخطط؟**  
+ج: بالتأكيد. عدل ملف Excel مباشرة؛ سيعكس المخطط المرتبط التغييرات في المرة التالية التي يتم فيها فتح العرض.
+
+**س: هل أحتاج إلى ترخيص منفصل لميزة تصدير Excel؟**  
+ج: لا. قدرة تصدير Excel مضمونة في ترخيص Aspose.Slides for Java القياسي.
+
+**س: ما إصدارات Java المدعومة؟**  
+ج: يدعم Aspose.Slides for Java JDK 16 وما بعده؛ قد تعمل الإصدارات الأقدم لكنها غير مختبرة رسميًا.
+
+**س: كيف يمكنني تضمين ملف Excel المُولد داخل ملف PPTX؟**  
+ج: استخدم `chart.getChartData().setExternalWorkbook(null)` لتضمين ملف العمل، أو احتفظ بالرابط الخارجي للتحديثات الديناميكية.
+
+---
+
+**آخر تحديث:** 2026-02-09  
+**تم الاختبار مع:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

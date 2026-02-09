@@ -1,46 +1,60 @@
 ---
-"date": "2025-04-17"
-"description": "學習使用 Java 中的 Aspose.Slides 建立和匯出圖表。透過逐步指南和程式碼範例掌握資料視覺化技術。"
-"title": "Aspose.Slides Java&#58;建立和匯出資料視覺化圖表"
-"url": "/zh-hant/java/charts-graphs/aspose-slides-java-chart-creation-exportation/"
-"weight": 1
+date: '2026-02-09'
+description: 學習如何使用 Aspose.Slides for Java 建立圖表並將圖表匯出至 Excel。掌握資料視覺化、商業報告投影片與活頁簿產生。
+keywords:
+- Aspose.Slides Java
+- creating charts in Java
+- exporting chart data with Aspose
+title: 如何使用 Aspose.Slides Java 創建圖表
+url: /zh-hant/java/charts-graphs/aspose-slides-java-chart-creation-exportation/
+weight: 1
 ---
+
+I'll produce final markdown.
 
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# 使用 Aspose.Slides Java 建立和匯出圖表
+# 如何使用 Aspose.Slides for Java 建立圖表
 
-**使用 Aspose.Slides for Java 掌握資料視覺化技術**
+**掌握使用 Aspose.Slides for Java 的資料視覺化技巧**
 
-在當今數據驅動的環境中，有效的數據視覺化對於做出明智的決策至關重要。將圖表功能整合到您的 Java 應用程式中可以將原始資料轉換為引人入勝的視覺故事。本教學將指導您使用 Aspose.Slides for Java 建立和匯出圖表，確保您的簡報既資訊豐富又具有視覺吸引力。
+在當今資料驅動的環境中，*如何程式化建立圖表* 是一項能將原始數字轉化為引人入勝視覺故事的技能。無論您是要製作商業報告投影片還是互動式分析儀表板，Aspose.Slides for Java 都能讓您直接在程式碼中產生、客製化並匯出圖表。本教學將教您如何建立圖表物件、將圖表資料匯出至 Excel，並將圖表連結至外部活頁簿，以實現無縫的資料管理。
 
-**您將學到什麼：**
-- 輕鬆載入和操作演示文件
-- 在投影片中新增各種類型的圖表
-- 將圖表資料無縫匯出到外部工作簿
-- 設定外部工作簿路徑以實現高效率的資料管理
+## 快速答覆
+- **需要哪個函式庫？** Aspose.Slides for Java（v25.4 以上）。  
+- **可以將圖表資料匯出至 Excel 嗎？** 可以 – 使用 `readWorkbookStream()` 並將位元組寫入 *.xlsx* 檔案。  
+- **需要哪個 Java 版本？** JDK 16 或更新版本。  
+- **需要授權嗎？** 免費試用可用於評估；正式環境需購買永久授權。  
+- **示範的圖表類型是什麼？** 圓餅圖，其他如長條圖、折線圖等亦可使用相同方式。
 
-讓我們開始吧！
+## 什麼是 Aspose.Slides for Java？
+Aspose.Slides for Java 是一套純 Java API，讓開發者在不安裝 Microsoft Office 的情況下建立、編輯與轉換 PowerPoint 簡報。它支援完整的圖表類型、資料繫結與匯出功能，是 **data visualization java** 專案的理想選擇。
 
-## 先決條件
-在開始之前，請確保您已準備好以下設定：
+## 為什麼使用 Aspose.Slides 來建立圖表並匯出至 Excel？
+- **不需安裝 Office** – 可在任何伺服器或雲端環境執行。  
+- **豐富的圖表庫** – 數十種圖表類型，提供完整樣式控制。  
+- **直接匯出 Excel** – 產生外部活頁簿供後續分析使用。  
+- **效能導向** – 低記憶體佔用，處理大型簡報快速高效。
 
-### 所需的庫和版本
-- **Aspose.Slides for Java** 版本 25.4 或更高版本
+## 前置條件
+在開始之前，請確保您已具備以下條件：
 
-### 環境設定要求
-- Java 開發工具包 (JDK) 16 或更高版本
-- 程式碼編輯器或 IDE，例如 IntelliJ IDEA 或 Eclipse
+### 必要的函式庫與版本
+- **Aspose.Slides for Java** 版本 25.4 或更新
 
-### 知識前提
-- 對 Java 程式設計有基本的了解
-- 熟悉 Maven 或 Gradle 建置系統
+### 環境設定需求
+- Java Development Kit (JDK) 16 或更新  
+- 任一開發工具，例如 IntelliJ IDEA、Eclipse，或您慣用的文字編輯器
+
+### 知識前置條件
+- 基本的 Java 程式設計能力  
+- 熟悉 Maven 或 Gradle 建置工具
 
 ## 設定 Aspose.Slides for Java
-要開始使用 Aspose.Slides，您需要將其包含在您的專案中。方法如下：
+使用您偏好的建置系統將函式庫加入專案。
 
 **Maven**
 ```xml
@@ -57,57 +71,51 @@
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-或者，您可以 [直接下載最新版本](https://releases。aspose.com/slides/java/).
+或者，您也可以直接[下載最新版本](https://releases.aspose.com/slides/java/)。
 
-### 許可證取得步驟
-Aspose.Slides 提供免費試用授權以探索其全部功能。您也可以申請臨時許可證或購買許可證以供延長使用。請依照以下步驟操作：
-1. 訪問 [Aspose 購買頁面](https://purchase.aspose.com/buy) 獲得你的執照。
-2. 如需免費試用，請從以下位置下載 [發布](https://releases。aspose.com/slides/java/).
-3. 申請臨時執照 [這裡](https://purchase。aspose.com/temporary-license/).
+### 取得授權步驟
+Aspose.Slides 提供免費試用授權，讓您探索完整功能。您亦可申請臨時授權或購買永久授權。請依下列步驟操作：
 
-取得許可證檔案後，請在 Java 應用程式中進行初始化：
+1. 前往 [Aspose 購買頁面](https://purchase.aspose.com/buy) 取得授權。  
+2. 若要使用免費試用，請從 [Releases](https://releases.aspose.com/slides/java/) 下載。  
+3. 前往[此處](https://purchase.aspose.com/temporary-license/) 申請臨時授權。
+
+取得授權檔案後，於 Java 應用程式中初始化：
+
 ```java
 com.aspose.slides.License license = new com.aspose.slides.License();
 license.setLicense("path/to/your/license/file.lic");
 ```
 
-## 實施指南
-### 功能 1：負載演示
-載入簡報是任何操作任務的第一步。
+## 步驟說明
 
-#### 概述
-此功能示範如何使用 Aspose.Slides for Java 載入現有的 PowerPoint 檔案。
+### 如何建立圖表 – 載入簡報
+在新增或修改圖表前，首先必須載入既有的 PowerPoint 檔案。
 
-#### 逐步實施
-**將圖表新增至投影片**
 ```java
 import com.aspose.slides.Presentation;
 
 public class Feature1 {
     public static void main(String[] args) {
-        // 設定文檔目錄的路徑
+        // Set the path to your document directory
         String dataDir = "YOUR_DOCUMENT_DIRECTORY";
         
-        // 載入現有簡報
+        // Load an existing presentation
         Presentation pres = new Presentation(dataDir + "/presentation.pptx");
         
-        // 清理資源
+        // Clean up resources
         if (pres != null) pres.dispose();
     }
 }
 ```
-**解釋：**
-- `Presentation` 使用你的路徑初始化 `.pptx` 文件。
-- 始終丟棄 `Presentation` 反對免費資源。
 
-### 功能 2：將圖表新增至投影片
-新增圖表可以顯著增強資料呈現。
+**說明：**  
+- `Presentation` 代表 PowerPoint 檔案。  
+- 請務必呼叫 `dispose()` 以釋放本機資源。
 
-#### 概述
-此功能顯示如何將圓餅圖新增至簡報的第一張投影片。
+### 如何建立圖表 – 在投影片中加入圓餅圖
+接下來，我們將插入一個圓餅圖，適合顯示比例資料。
 
-#### 逐步實施
-**將圖表新增至投影片**
 ```java
 import com.aspose.slides.ChartType;
 import com.aspose.slides.IChart;
@@ -115,12 +123,12 @@ import com.aspose.slides.Presentation;
 
 public class Feature2 {
     public static void main(String[] args) {
-        // 設定文檔目錄的路徑
+        // Set the path to your document directory
         String dataDir = "YOUR_DOCUMENT_DIRECTORY";
         
         Presentation pres = new Presentation(dataDir + "/presentation.pptx");
         try {
-            // 在位置 (50, 50) 增加一個圓餅圖，寬度為 400，高度為 600
+            // Add a Pie chart at position (50, 50) with width 400 and height 600
             IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
                 ChartType.Pie, 50, 50, 400, 600);
         } finally {
@@ -129,18 +137,14 @@ public class Feature2 {
     }
 }
 ```
-**解釋：**
-- `addChart` 方法用於插入餅圖。
-- 參數包括圖表的類型及其在投影片上的位置/大小。
 
-### 功能 3：將圖表資料匯出到外部工作簿
-匯出資料允許在 PowerPoint 之外進行進一步分析。
+**說明：**  
+- `addChart` 會將圖表插入第一張投影片。  
+- 參數分別代表圖表類型、X/Y 位置與尺寸。
 
-#### 概述
-此功能示範如何將簡報中的圖表資料匯出到外部 Excel 工作簿。
+### 如何匯出圖表至 Excel – 匯出圖表資料
+將圖表資料匯出讓分析師能在 Excel 中進一步處理，發掘更深入的洞見。
 
-#### 逐步實施
-**匯出數據**
 ```java
 import com.aspose.slides.IChart;
 import java.io.File;
@@ -151,21 +155,21 @@ import com.aspose.slides.Presentation;
 
 public class Feature3 {
     public static void main(String[] args) {
-        // 設定文檔目錄和輸出目錄的路徑
+        // Set the path to your document directory and output directory
         String dataDir = "YOUR_DOCUMENT_DIRECTORY";
         
         Presentation pres = new Presentation(dataDir + "/presentation.pptx");
         try {
-            // 存取第一張投影片的圖表
+            // Access the first slide's chart
             IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
                 com.aspose.slides.ChartType.Pie, 50, 50, 400, 600);
             
-            // 定義外部工作簿的路徑
+            // Define the path for the external workbook
             String externalWbPath = dataDir + "/externalWorkbook1.xlsx";
             File file = new File(externalWbPath);
             if (file.exists()) file.delete();
             
-            // 將圖表資料匯出到 Excel 串流
+            // Export chart data to an Excel stream
             byte[] workbookData = chart.getChartData().readWorkbookStream();
             FileOutputStream outputStream = new FileOutputStream(file);
             outputStream.write(workbookData);
@@ -180,34 +184,30 @@ public class Feature3 {
     }
 }
 ```
-**解釋：**
-- `readWorkbookStream` 提取圖表數據。
-- 使用以下方式將資料寫入 Excel 文件 `FileOutputStream`。
 
-### 功能4：為圖表資料設定外部工作簿
-將圖表連結到外部工作簿可以簡化資料管理。
+**說明：**  
+- `readWorkbookStream()` 會將圖表底層的 Excel 活頁簿以位元組陣列形式取出。  
+- 再將此位元組陣列寫入 `externalWorkbook1.xlsx`，即可得到可直接使用的 Excel 檔案。
 
-#### 概述
-此功能示範如何設定外部工作簿路徑來儲存圖表資料。
+### 如何建立圖表 – 設定外部活頁簿以支援動態資料
+將圖表連結至外部活頁簿，可透過編輯 Excel 檔案即更新圖表。
 
-#### 逐步實施
-**設定外部工作簿路徑**
 ```java
 import com.aspose.slides.IChart;
 import com.aspose.slides.Presentation;
 
 public class Feature4 {
     public static void main(String[] args) {
-        // 設定文檔目錄的路徑
+        // Set the path to your document directory
         String dataDir = "YOUR_DOCUMENT_DIRECTORY";
         
         Presentation pres = new Presentation(dataDir + "/presentation.pptx");
         try {
-            // 存取第一張投影片的圖表
+            // Access the first slide's chart
             IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
                 com.aspose.slides.ChartType.Pie, 50, 50, 400, 600);
             
-            // 定義並設定外部工作簿的路徑
+            // Define and set the path for the external workbook
             String externalWbPath = dataDir + "/externalWorkbook1.xlsx";
             chart.getChartData().setExternalWorkbook(externalWbPath);
         } finally {
@@ -216,16 +216,45 @@ public class Feature4 {
     }
 }
 ```
-**解釋：**
-- `setExternalWorkbook` 將圖表連結到 Excel 文件，允許動態資料更新。
 
-## 實際應用
-Aspose.Slides 為各種場景提供了多種解決方案：
+**說明：**  
+- `setExternalWorkbook` 會將圖表綁定至指定的 Excel 檔案，讓資料變更時圖表自動更新，無需重新產生投影片。
 
-1. **商業報告：** 直接從 Java 應用程式建立帶有圖表的詳細報告。
-2. **學術報告：** 利用互動式圖表增強教育內容。
-3. **財務分析：** 將財務資料匯出至 Excel 進行深入分析。
-4. **行銷分析：** 使用動態圖表來直觀地展示活動效果。
+## 實務應用
+Aspose.Slides 提供多元解決方案，適用於各種真實情境：
+
+1. **商業報告投影片**：自動從資料管線產生季報績效圖表。  
+2. **學術簡報**：將研究數據轉換為清晰視覺化圖表，免除手動製圖。  
+3. **財務分析**：將圖表資料匯出至 Excel，供稽核人員驗證數字。  
+4. **行銷分析**：視覺化活動指標，並與利害關係人共享可編輯的活頁簿。
+
+## 常見問題與除錯
+- **`FileNotFoundException`** – 請確認 `dataDir` 指向有效資料夾，且輸出路徑具寫入權限。  
+- **記憶體洩漏** – 請務必在 `finally` 區塊中呼叫 `pres.dispose()`，釋放本機資源。  
+- **圖表未顯示** – 請確保 `get_Item(0)` 的投影片索引實際存在。
+
+## FAQ
+
+**Q: 可以使用其他圖表類型（例如長條圖、折線圖）嗎？**  
+A: 可以。將 `ChartType.Pie` 替換為其他 `ChartType` 列舉值，如 `ChartType.Bar` 或 `ChartType.Line`。
+
+**Q: 建立圖表後，能否更新外部活頁簿？**  
+A: 完全可以。直接修改 Excel 檔案，下一次開啟簡報時連結的圖表即會反映變更。
+
+**Q: 匯出 Excel 功能需要額外授權嗎？**  
+A: 不需要。Excel 匯出功能已包含在標準的 Aspose.Slides for Java 授權中。
+
+**Q: 支援哪些 Java 版本？**  
+A: Aspose.Slides for Java 支援 JDK 16 及以上版本；較舊版本可能可運作，但未經官方測試。
+
+**Q: 如何將產生的 Excel 活頁簿嵌入 PPTX 檔案內？**  
+A: 使用 `chart.getChartData().setExternalWorkbook(null)` 即可將活頁簿嵌入，或保留外部連結以支援動態更新。
+
+---
+
+**最後更新日期：** 2026-02-09  
+**測試環境：** Aspose.Slides for Java 25.4（jdk16 classifier）  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

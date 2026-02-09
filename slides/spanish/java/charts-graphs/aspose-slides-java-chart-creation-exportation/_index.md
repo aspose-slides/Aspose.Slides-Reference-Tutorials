@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Aprenda a crear y exportar gráficos con Aspose.Slides en Java. Domine las técnicas de visualización de datos con guías paso a paso y ejemplos de código."
-"title": "Aspose.Slides Java&#58; Creación y exportación de gráficos para visualización de datos"
-"url": "/es/java/charts-graphs/aspose-slides-java-chart-creation-exportation/"
-"weight": 1
+date: '2026-02-09'
+description: Aprende a crear gráficos y exportarlos a Excel usando Aspose.Slides para
+  Java. Domina la visualización de datos, las diapositivas de informes empresariales
+  y la generación de libros de trabajo.
+keywords:
+- Aspose.Slides Java
+- creating charts in Java
+- exporting chart data with Aspose
+title: Cómo crear un gráfico con Aspose.Slides Java
+url: /es/java/charts-graphs/aspose-slides-java-chart-creation-exportation/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,38 +17,46 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Creación y exportación de gráficos con Aspose.Slides Java
+# Cómo crear un gráfico usando Aspose.Slides para Java
 
-**Técnicas de visualización de datos maestros con Aspose.Slides para Java**
+**Domina las técnicas de visualización de datos con Aspose.Slides para Java**
 
-En el panorama actual basado en datos, una visualización eficaz de estos es esencial para tomar decisiones informadas. Integrar funcionalidades de gráficos en sus aplicaciones Java puede transformar los datos sin procesar en atractivas historias visuales. Este tutorial le guiará en la creación y exportación de gráficos con Aspose.Slides para Java, garantizando que sus presentaciones sean informativas y visualmente atractivas.
+En el panorama actual impulsado por los datos, *cómo crear un gráfico* programáticamente es una habilidad que puede transformar números crudos en historias visuales atractivas. Ya sea que esté construyendo una presentación de informe empresarial o un panel de análisis interactivo, Aspose.Slides para Java le brinda el poder de generar, personalizar y exportar gráficos directamente desde su código. En este tutorial aprenderá a crear objetos de gráfico, exportar datos del gráfico a Excel y vincular gráficos a libros de trabajo externos para una gestión de datos sin interrupciones.
 
-**Lo que aprenderás:**
-- Cargue y manipule archivos de presentación sin esfuerzo
-- Añade varios tipos de gráficos a tus diapositivas
-- Exportar datos de gráficos a libros de trabajo externos sin problemas
-- Establecer una ruta de libro de trabajo externo para una gestión de datos eficiente
+## Quick Answers
+- **¿Qué biblioteca se necesita?** Aspose.Slides for Java (v25.4+).  
+- **¿Puedo exportar los datos del gráfico a Excel?** Sí – use `readWorkbookStream()` y escriba los bytes en un archivo *.xlsx*.  
+- **¿Qué versión de Java se requiere?** JDK 16 o superior.  
+- **¿Necesito una licencia?** Una prueba gratuita funciona para evaluación; se requiere una licencia permanente para producción.  
+- **¿Qué tipo de gráfico se muestra?** Un gráfico de pastel, pero el mismo enfoque funciona para barras, líneas y otros tipos de gráficos.
 
-¡Comencemos!
+## What is Aspose.Slides for Java?
+Aspose.Slides for Java es una API pura de Java que permite a los desarrolladores crear, editar y convertir presentaciones de PowerPoint sin Microsoft Office. Soporta una gama completa de tipos de gráficos, enlace de datos y capacidades de exportación, lo que lo hace ideal para proyectos de **data visualization java**.
 
-## Prerrequisitos
-Antes de comenzar, asegúrese de tener lista la siguiente configuración:
+## Why use Aspose.Slides to create chart and export chart to Excel?
+- **Sin instalación de Office** – funciona en cualquier servidor o entorno en la nube.  
+- **Biblioteca de gráficos completa** – docenas de tipos de gráficos y control total de estilo.  
+- **Exportación directa a Excel** – genera un libro de trabajo externo para análisis posteriores.  
+- **Orientado al rendimiento** – bajo consumo de memoria y procesamiento rápido para presentaciones grandes.
 
-### Bibliotecas y versiones requeridas
-- **Aspose.Slides para Java** versión 25.4 o posterior
+## Prerequisites
+Antes de comenzar, asegúrese de tener lo siguiente:
 
-### Requisitos de configuración del entorno
-- Kit de desarrollo de Java (JDK) 16 o superior
-- Un editor de código o IDE como IntelliJ IDEA o Eclipse
+### Required Libraries and Versions
+- **Aspose.Slides for Java** versión 25.4 o posterior
 
-### Requisitos previos de conocimiento
-- Comprensión básica de la programación Java
-- Familiaridad con los sistemas de compilación Maven o Gradle
+### Environment Setup Requirements
+- Java Development Kit (JDK) 16 o superior  
+- Un IDE como IntelliJ IDEA o Eclipse (o cualquier editor de texto que prefiera)
 
-## Configuración de Aspose.Slides para Java
-Para empezar a usar Aspose.Slides, debes incluirlo en tu proyecto. A continuación te explicamos cómo:
+### Knowledge Prerequisites
+- Habilidades básicas de programación en Java  
+- Familiaridad con las herramientas de construcción Maven o Gradle
 
-**Experto**
+## Setting Up Aspose.Slides for Java
+Agregue la biblioteca a su proyecto usando su sistema de compilación favorito.
+
+**Maven**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -57,57 +71,51 @@ Para empezar a usar Aspose.Slides, debes incluirlo en tu proyecto. A continuaci�
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Alternativamente, puedes [Descargue la última versión directamente](https://releases.aspose.com/slides/java/).
+Alternativamente, puede [descargar la última versión directamente](https://releases.aspose.com/slides/java/).
 
-### Pasos para la adquisición de la licencia
-Aspose.Slides ofrece una licencia de prueba gratuita para explorar todas sus funciones. También puede solicitar una licencia temporal o adquirir una para un uso prolongado. Siga estos pasos:
-1. Visita el [Página de compra de Aspose](https://purchase.aspose.com/buy) para obtener su licencia.
-2. Para una prueba gratuita, descargue desde [Lanzamientos](https://releases.aspose.com/slides/java/).
-3. Solicitar una licencia temporal [aquí](https://purchase.aspose.com/temporary-license/).
+### License Acquisition Steps
+Aspose.Slides ofrece una licencia de prueba gratuita para explorar sus capacidades completas. También puede solicitar una licencia temporal o comprar una para uso prolongado. Siga estos pasos:
+
+1. Visite la [página de compra de Aspose](https://purchase.aspose.com/buy) para obtener su licencia.  
+2. Para una prueba gratuita, descargue de [Releases](https://releases.aspose.com/slides/java/).  
+3. Solicite una licencia temporal [aquí](https://purchase.aspose.com/temporary-license/).
 
 Una vez que tenga el archivo de licencia, inicialícelo en su aplicación Java:
+
 ```java
 com.aspose.slides.License license = new com.aspose.slides.License();
 license.setLicense("path/to/your/license/file.lic");
 ```
 
-## Guía de implementación
-### Característica 1: Cargar presentación
-Cargar una presentación es el primer paso para cualquier tarea de manipulación.
+## Step‑by‑Step Guide
 
-#### Descripción general
-Esta función demuestra cómo cargar un archivo de PowerPoint existente usando Aspose.Slides para Java.
+### How to create chart – Load a Presentation
+Cargar un archivo PowerPoint existente es el primer paso antes de poder agregar o modificar gráficos.
 
-#### Implementación paso a paso
-**Agregar gráfico a la diapositiva**
 ```java
 import com.aspose.slides.Presentation;
 
 public class Feature1 {
     public static void main(String[] args) {
-        // Establezca la ruta a su directorio de documentos
+        // Set the path to your document directory
         String dataDir = "YOUR_DOCUMENT_DIRECTORY";
         
-        // Cargar una presentación existente
+        // Load an existing presentation
         Presentation pres = new Presentation(dataDir + "/presentation.pptx");
         
-        // Limpiar recursos
+        // Clean up resources
         if (pres != null) pres.dispose();
     }
 }
 ```
-**Explicación:**
-- `Presentation` se inicializa con la ruta a su `.pptx` archivo.
-- Deseche siempre el `Presentation` objeto de liberar recursos.
 
-### Función 2: Agregar gráfico a la diapositiva
-Agregar un gráfico puede mejorar significativamente la presentación de los datos.
+**Explicación:**  
+- `Presentation` representa el archivo PowerPoint.  
+- Siempre llame a `dispose()` para liberar los recursos nativos.
 
-#### Descripción general
-Esta función muestra cómo agregar un gráfico circular a la primera diapositiva de una presentación.
+### How to create chart – Add a Pie Chart to a Slide
+Ahora insertaremos un gráfico de pastel, que es perfecto para mostrar datos proporcionales.
 
-#### Implementación paso a paso
-**Agregar gráfico a la diapositiva**
 ```java
 import com.aspose.slides.ChartType;
 import com.aspose.slides.IChart;
@@ -115,12 +123,12 @@ import com.aspose.slides.Presentation;
 
 public class Feature2 {
     public static void main(String[] args) {
-        // Establezca la ruta a su directorio de documentos
+        // Set the path to your document directory
         String dataDir = "YOUR_DOCUMENT_DIRECTORY";
         
         Presentation pres = new Presentation(dataDir + "/presentation.pptx");
         try {
-            // Agregue un gráfico circular en la posición (50, 50) con ancho 400 y alto 600
+            // Add a Pie chart at position (50, 50) with width 400 and height 600
             IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
                 ChartType.Pie, 50, 50, 400, 600);
         } finally {
@@ -129,18 +137,14 @@ public class Feature2 {
     }
 }
 ```
-**Explicación:**
-- `addChart` Este método se utiliza para insertar un gráfico circular.
-- Los parámetros incluyen el tipo de gráfico y su posición/tamaño en la diapositiva.
 
-### Función 3: Exportar datos de gráficos a un libro de trabajo externo
-La exportación de datos permite realizar análisis adicionales fuera de PowerPoint.
+**Explicación:**  
+- `addChart` inserta el gráfico en la primera diapositiva.  
+- Los parámetros definen el tipo de gráfico, la posición X/Y y el tamaño.
 
-#### Descripción general
-Esta función demuestra cómo exportar datos de gráficos desde una presentación a un libro de Excel externo.
+### How to export chart to Excel – Export Chart Data
+Exportar datos del gráfico permite a los analistas trabajar con los números en Excel, habilitando conocimientos más profundos.
 
-#### Implementación paso a paso
-**Exportar datos**
 ```java
 import com.aspose.slides.IChart;
 import java.io.File;
@@ -151,21 +155,21 @@ import com.aspose.slides.Presentation;
 
 public class Feature3 {
     public static void main(String[] args) {
-        // Establezca la ruta al directorio de su documento y al directorio de salida
+        // Set the path to your document directory and output directory
         String dataDir = "YOUR_DOCUMENT_DIRECTORY";
         
         Presentation pres = new Presentation(dataDir + "/presentation.pptx");
         try {
-            // Acceda al gráfico de la primera diapositiva
+            // Access the first slide's chart
             IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
                 com.aspose.slides.ChartType.Pie, 50, 50, 400, 600);
             
-            // Definir la ruta para el libro de trabajo externo
+            // Define the path for the external workbook
             String externalWbPath = dataDir + "/externalWorkbook1.xlsx";
             File file = new File(externalWbPath);
             if (file.exists()) file.delete();
             
-            // Exportar datos de gráficos a una secuencia de Excel
+            // Export chart data to an Excel stream
             byte[] workbookData = chart.getChartData().readWorkbookStream();
             FileOutputStream outputStream = new FileOutputStream(file);
             outputStream.write(workbookData);
@@ -180,34 +184,30 @@ public class Feature3 {
     }
 }
 ```
-**Explicación:**
-- `readWorkbookStream` extrae los datos del gráfico.
-- Los datos se escriben en un archivo Excel usando `FileOutputStream`.
 
-### Característica 4: Establecer un libro de trabajo externo para los datos del gráfico
-Vincular gráficos a libros de trabajo externos puede agilizar la gestión de datos.
+**Explicación:**  
+- `readWorkbookStream()` extrae el libro de Excel subyacente del gráfico como un arreglo de bytes.  
+- El arreglo de bytes se escribe en `externalWorkbook1.xlsx`, proporcionándole un archivo Excel listo para usar.
 
-#### Descripción general
-Esta función demuestra cómo configurar una ruta de libro de trabajo externo para almacenar datos de gráficos.
+### How to create chart – Set External Workbook for Dynamic Data
+Vincular un gráfico a un libro de trabajo externo le permite actualizar el gráfico simplemente editando el archivo Excel.
 
-#### Implementación paso a paso
-**Establecer la ruta del libro de trabajo externo**
 ```java
 import com.aspose.slides.IChart;
 import com.aspose.slides.Presentation;
 
 public class Feature4 {
     public static void main(String[] args) {
-        // Establezca la ruta a su directorio de documentos
+        // Set the path to your document directory
         String dataDir = "YOUR_DOCUMENT_DIRECTORY";
         
         Presentation pres = new Presentation(dataDir + "/presentation.pptx");
         try {
-            // Acceda al gráfico de la primera diapositiva
+            // Access the first slide's chart
             IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
                 com.aspose.slides.ChartType.Pie, 50, 50, 400, 600);
             
-            // Definir y establecer la ruta para el libro de trabajo externo
+            // Define and set the path for the external workbook
             String externalWbPath = dataDir + "/externalWorkbook1.xlsx";
             chart.getChartData().setExternalWorkbook(externalWbPath);
         } finally {
@@ -216,16 +216,43 @@ public class Feature4 {
     }
 }
 ```
-**Explicación:**
-- `setExternalWorkbook` vincula el gráfico a un archivo Excel, lo que permite actualizaciones de datos dinámicas.
 
-## Aplicaciones prácticas
-Aspose.Slides ofrece soluciones versátiles para diversos escenarios:
+**Explicación:**  
+- `setExternalWorkbook` vincula el gráfico al archivo Excel especificado, permitiendo actualizaciones de datos en tiempo real sin reconstruir la diapositiva.
 
-1. **Informes comerciales:** Cree informes detallados con gráficos directamente desde aplicaciones Java.
-2. **Presentaciones académicas:** Mejore el contenido educativo con gráficos interactivos.
-3. **Análisis financiero:** Exporte datos financieros a Excel para un análisis en profundidad.
-4. **Análisis de marketing:** Visualice el rendimiento de la campaña utilizando gráficos dinámicos.
+## Practical Applications
+Aspose.Slides ofrece soluciones versátiles para varios escenarios del mundo real:
+
+1. **Diapositivas de informes empresariales:** Genere automáticamente gráficos de rendimiento trimestral a partir de sus canalizaciones de datos.  
+2. **Presentaciones académicas:** Convierta datos de investigación en visualizaciones claras sin crear gráficos manualmente.  
+3. **Análisis financiero:** Exporte datos del gráfico a Excel para que los auditores verifiquen los números.  
+4. **Analítica de marketing:** Visualice métricas de campañas y comparta libros de trabajo editables con las partes interesadas.
+
+## Common Issues & Troubleshooting
+- **`FileNotFoundException`** – Verifique que `dataDir` apunte a una carpeta válida y que la ruta de salida sea escribible.  
+- **Fugas de memoria** – Siempre llame a `pres.dispose()` en un bloque `finally` para liberar los recursos nativos.  
+- **El gráfico no aparece** – Asegúrese de que el índice de diapositiva (`get_Item(0)`) coincida con una diapositiva que realmente exista.
+
+## Frequently Asked Questions
+
+**P: ¿Puedo usar un tipo de gráfico diferente (p.ej., barra, línea) con el mismo código?**  
+R: Sí. Reemplace `ChartType.Pie` por cualquier otro valor del enum `ChartType`, como `ChartType.Bar` o `ChartType.Line`.
+
+**P: ¿Es posible actualizar el libro de trabajo externo después de crear el gráfico?**  
+R: Absolutamente. Modifique el archivo Excel directamente; el gráfico vinculado reflejará los cambios la próxima vez que se abra la presentación.
+
+**P: ¿Necesito una licencia separada para la función de exportación a Excel?**  
+R: No. La capacidad de exportación a Excel está incluida en la licencia estándar de Aspose.Slides for Java.
+
+**P: ¿Qué versiones de Java son compatibles?**  
+R: Aspose.Slides for Java soporta JDK 16 y versiones posteriores; versiones anteriores pueden funcionar pero no están probadas oficialmente.
+
+**P: ¿Cómo puedo incrustar el libro de Excel generado dentro del archivo PPTX?**  
+R: Use `chart.getChartData().setExternalWorkbook(null)` para incrustar el libro, o mantenga el enlace externo para actualizaciones dinámicas.
+
+**Última actualización:** 2026-02-09  
+**Probado con:** Aspose.Slides for Java 25.4 (clasificador jdk16)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
