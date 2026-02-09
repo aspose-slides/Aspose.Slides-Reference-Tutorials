@@ -1,13 +1,13 @@
 ---
-date: '2025-12-10'
-description: Tìm hiểu cách thêm văn bản vào bảng và vẽ khung quanh văn bản trong PowerPoint
-  bằng Aspose.Slides cho Java. Hướng dẫn này bao gồm việc tạo bảng, thiết lập căn
-  chỉnh văn bản và tạo khung cho nội dung.
+date: '2026-02-09'
+description: Học cách vẽ khung quanh văn bản và thêm văn bản vào các ô bảng trong
+  PowerPoint bằng Aspose.Slides cho Java. Bài hướng dẫn này bao gồm việc tạo bảng,
+  thiết lập căn chỉnh văn bản và lưu bản trình chiếu dưới dạng pptx.
 keywords:
 - Aspose.Slides for Java
 - table manipulation in presentations
 - frame drawing in PowerPoint
-title: Aspose.Slides cho Java – thêm văn bản vào bảng & thao tác khung
+title: Cách vẽ khung và thêm văn bản vào bảng với Aspose.Slides cho Java
 url: /vi/java/animations-transitions/aspose-slides-java-enhance-presentations/
 weight: 1
 ---
@@ -17,26 +17,34 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Thành thạo việc thao tác Bảng và Khung trong Bài thuyết trình với Aspose.Slides cho Java
+# Cách Vẽ Khung và Thêm Văn Bản vào Bảng trong Bản Trình Chiếu với Aspose.Slides cho Java
 
-## Giới thiệu
+## Introduction
 
-Trình bày dữ liệu một cách hiệu quả có thể là thách thức trong PowerPoint. Dù bạn là nhà phát triển phần mềm hay nhà thiết kế bài thuyết trình, **add text to table** các ô và vẽ khung quanh các đoạn văn quan trọng để làm cho slide của bạn nổi bật. Trong hướng dẫn này, bạn sẽ thấy chính xác cách thêm văn bản vào bảng, căn chỉnh nó, và vẽ khung quanh văn bản — tất cả đều với Aspose.Slides cho Java. Khi hoàn thành, bạn sẽ có thể tạo ra những bộ slide được chỉnh chu, làm nổi bật thông tin đúng lúc, đúng chỗ.
+Việc trình bày dữ liệu một cách rõ ràng trong PowerPoint có thể là một thách thức thực sự, đặc biệt khi bạn cần **add text to table** vào các ô bảng và làm nổi bật các giá trị quan trọng bằng các dấu hiệu trực quan. Trong hướng dẫn này, bạn sẽ học **how to draw frames** quanh các đoạn văn cụ thể, thiết lập căn chỉnh văn bản bên trong các hình dạng, và cuối cùng **save presentation as pptx**—tất cả đều sử dụng Aspose.Slides cho Java. Khi hoàn thành, bạn sẽ có một bộ slide được chỉnh sửa tinh tế, thu hút ánh mắt khán giả đúng nơi bạn muốn.
 
-Sẵn sàng biến đổi các bài thuyết trình của bạn? Hãy bắt đầu!
+Sẵn sàng làm cho slide của bạn nổi bật? Hãy cùng đi qua quy trình từng bước.
 
-## Câu trả lời nhanh
-- **What does “add text to table” mean?** Điều này có nghĩa là chèn hoặc cập nhật nội dung văn bản của các ô bảng riêng lẻ một cách lập trình.  
-- **Which method saves the file?** `pres.save("output.pptx", SaveFormat.Pptx)` – bước **save presentation as pptx** này hoàn thiện các thay đổi của bạn.  
-- **How can I align text inside a shape?** Sử dụng `TextAlignment.Left` (hoặc Center/Right) thông qua `autoShape.getTextFrame().getParagraphs().get_Item(0).getParagraphFormat().setAlignment(...)`.  
-- **Can I draw a rectangle around a paragraph?** Có – lặp qua các đoạn văn, lấy hình chữ nhật bao quanh chúng, và thêm một `IAutoShape` không nền và đường viền màu đen.  
-- **Do I need a license?** Giấy phép tạm thời hoạt động cho mục đích đánh giá; giấy phép đầy đủ là cần thiết cho việc sử dụng trong môi trường sản xuất.
+## Quick Answers
+- **What does “add text to table” mean?** It means inserting or updating the textual content of individual table cells programmatically.  
+- **Which method saves the file?** `pres.save("output.pptx", SaveFormat.Pptx)` – this **save presentation as pptx** step finalizes your changes.  
+- **How can I align text inside a shape?** Use `TextAlignment.Left` (or Center/Right) via `autoShape.getTextFrame().getParagraphs().get_Item(0).getParagraphFormat().setAlignment(...)`.  
+- **Can I draw a rectangle around a paragraph?** Yes – iterate over paragraphs, get their bounding rectangle, and add an `IAutoShape` with no fill and a black line.  
+- **Do I need a license?** A temporary license works for evaluation; a full license is required for production use.  
 
-## Yêu cầu trước
+## Why draw frames around text?
 
-Trước khi bắt đầu viết mã, hãy chắc chắn rằng bạn đã có những thứ sau:
+Vẽ một khung (hoặc hình chữ nhật) quanh một đoạn văn hoặc một phần cụ thể (ví dụ, bất kỳ văn bản nào chứa ký tự **'0'**) ngay lập tức thu hút sự chú ý. Kỹ thuật này lý tưởng cho:
 
-### Thư viện cần thiết
+- Làm nổi bật các con số tài chính quan trọng trong bảng.  
+- Nhấn mạnh các cảnh báo hoặc ghi chú quan trọng trong slide.  
+- Tạo các phân cách trực quan mà không cần thêm các hình dạng thủ công.
+
+## Prerequisites
+
+Trước khi bắt đầu viết mã, hãy đảm bảo bạn có những thứ sau:
+
+### Required Libraries
 Bạn sẽ cần Aspose.Slides cho Java. Dưới đây là cách đưa nó vào dự án bằng Maven hoặc Gradle:
 
 **Maven:**
@@ -54,26 +62,26 @@ Bạn sẽ cần Aspose.Slides cho Java. Dưới đây là cách đưa nó vào 
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Cấu hình môi trường
-Đảm bảo bạn đã cài đặt Java Development Kit (JDK), ưu tiên JDK 16 hoặc mới hơn, vì ví dụ này sử dụng bộ phân loại `jdk16`.
+### Environment Setup
+Đảm bảo bạn đã cài đặt Java Development Kit (JDK), ưu tiên JDK 16 hoặc mới hơn, vì ví dụ này sử dụng classifier `jdk16`.
 
-### Kiến thức yêu cầu
+### Knowledge Prerequisites
 - Hiểu biết cơ bản về lập trình Java.  
 - Quen thuộc với phần mềm trình chiếu như PowerPoint.  
 - Kinh nghiệm sử dụng môi trường phát triển tích hợp (IDE) như IntelliJ IDEA hoặc Eclipse.
 
-## Cài đặt Aspose.Slides cho Java
+## Setting Up Aspose.Slides for Java
 
-Để bắt đầu sử dụng Aspose.Slides, hãy thực hiện các bước sau:
+Để bắt đầu sử dụng Aspose.Slides, làm theo các bước sau:
 
-1. **Install the Library**: Sử dụng Maven hoặc Gradle để quản lý các phụ thuộc, hoặc tải trực tiếp từ [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+1. **Install the Library**: Use Maven or Gradle to manage dependencies, or download it directly from [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 2. **License Acquisition**:
-   - Bắt đầu với bản dùng thử miễn phí bằng cách tải giấy phép tạm thời từ [Temporary License](https://purchase.aspose.com/temporary-license/).
-   - Để có quyền truy cập đầy đủ, hãy cân nhắc mua giấy phép tại [Purchase Aspose.Slides](https://purchase.aspose.com/buy).
+   - Start with a free trial by downloading a temporary license from [Temporary License](https://purchase.aspose.com/temporary-license/).
+   - For full access, consider purchasing a license at [Purchase Aspose.Slides](https://purchase.aspose.com/buy).
 
 3. **Basic Initialization**:
-Khởi tạo môi trường bài thuyết trình của bạn với đoạn mã sau:
+Initialize your presentation environment with the following code snippet:
 ```java
 import com.aspose.slides.*;
 
@@ -85,21 +93,17 @@ try {
 }
 ```
 
-## Tại sao cần thêm văn bản vào bảng và vẽ khung?
+## How to Add Text to Table in Aspose.Slides for Java
 
-Thêm văn bản vào bảng cho phép bạn trình bày dữ liệu có cấu trúc một cách rõ ràng, trong khi vẽ khung quanh các đoạn văn hoặc các phần cụ thể (ví dụ: những phần chứa ký tự **'0'**) sẽ thu hút ánh mắt người xem tới các giá trị quan trọng. Sự kết hợp này hoàn hảo cho báo cáo tài chính, bảng điều khiển, hoặc bất kỳ slide nào mà bạn cần làm nổi bật các con số then chốt mà không gây rối mắt.
+### Feature 1: Create Table and Add Text to Cells
 
-## Cách thêm văn bản vào bảng trong Aspose.Slides cho Java
+#### Overview
+Tính năng này minh họa cách **create table**, sau đó **add text to table** vào các ô và cuối cùng **save presentation as pptx**.
 
-### Tính năng 1: Tạo bảng và thêm văn bản vào các ô
-
-#### Tổng quan
-Tính năng này minh họa cách **how to create table**, sau đó **add text to table** các ô và cuối cùng **save presentation as pptx**.
-
-#### Các bước
+#### Steps
 
 **1. Create a Table**  
-Đầu tiên, khởi tạo bài thuyết trình và thêm một bảng tại vị trí (50, 50) với độ rộng cột và chiều cao hàng được chỉ định.
+First, initialize your presentation and add a table at position (50, 50) with specified column widths and row heights.
 ```java
 Presentation pres = new Presentation();
 try {
@@ -108,7 +112,7 @@ try {
 ```
 
 **2. Add Text to Cells**  
-Tạo các đoạn văn với các phần văn bản và thêm chúng vào một ô cụ thể.
+Create paragraphs with portions of text and add them to a specific cell.
 ```java
     IParagraph paragraph0 = new Paragraph();
     paragraph0.getPortions().add(new Portion("Text "));
@@ -135,15 +139,15 @@ Tạo các đoạn văn với các phần văn bản và thêm chúng vào một
 }
 ```
 
-### Tính năng 2: Thêm TextFrame vào AutoShape và thiết lập căn chỉnh
+### Feature 2: Add TextFrame to AutoShape and Set Alignment
 
-#### Tổng quan
-Học cách thêm một khung văn bản với căn chỉnh cụ thể vào một auto shape—ví dụ của **set text alignment java**.
+#### Overview
+Tìm hiểu cách thêm một khung văn bản với căn chỉnh cụ thể vào một auto shape—ví dụ của **set text alignment java**.
 
-#### Các bước
+#### Steps
 
 **1. Add an AutoShape**  
-Thêm một hình chữ nhật làm AutoShape tại vị trí (400, 100) với kích thước được chỉ định.
+Add a rectangle as an AutoShape at position (400, 100) with specified dimensions.
 ```java
 Presentation pres = new Presentation();
 try {
@@ -152,7 +156,7 @@ try {
 ```
 
 **2. Set Text Alignment**  
-Đặt văn bản thành “Text in shape” và căn chỉnh nó sang trái.
+Set the text to “Text in shape” and align it to the left.
 ```java
     autoShape.getTextFrame().setText("Text in shape");
     autoShape.getTextFrame().getParagraphs().get_Item(0).getParagraphFormat().setAlignment(TextAlignment.Left);
@@ -166,15 +170,15 @@ try {
 }
 ```
 
-### Tính năng 3: Vẽ khung quanh các đoạn văn và phần trong các ô bảng
+### Feature 3: Draw Frames around Paragraphs and Portions in Table Cells
 
-#### Tổng quan
+#### Overview
 Tính năng này tập trung vào **draw frames around text** và thậm chí **draw rectangle around paragraph** cho các phần chứa ký tự ‘0’.
 
-#### Các bước
+#### Steps
 
 **1. Create a Table**  
-Tái sử dụng mã từ “Create Table and Add Text to Cells” để thiết lập ban đầu.
+Reuse the code from “Create Table and Add Text to Cells” for initial setup.
 ```java
 Presentation pres = new Presentation();
 try {
@@ -183,7 +187,7 @@ try {
 ```
 
 **2. Add Paragraphs**  
-Tái sử dụng mã tạo đoạn văn từ tính năng trước.
+Reuse the paragraph creation code from the previous feature.
 ```java
     IParagraph paragraph0 = new Paragraph();
     paragraph0.getPortions().add(new Portion("Text "));
@@ -203,7 +207,7 @@ Tái sử dụng mã tạo đoạn văn từ tính năng trước.
 ```
 
 **3. Draw Frames**  
-Lặp qua các đoạn văn và các phần để vẽ khung quanh chúng.
+Iterate over paragraphs and portions to draw frames around them.
 ```java
     double x = tbl.getX() + cell.getOffsetX();
     double y = tbl.getY() + cell.getOffsetY();
@@ -229,31 +233,34 @@ Lặp qua các đoạn văn và các phần để vẽ khung quanh chúng.
 }
 ```
 
-## Kết luận
-Bằng cách làm theo hướng dẫn này, bạn có thể **add text to table**, căn chỉnh văn bản bên trong các shape, và **draw frames around text** để nhấn mạnh thông tin quan trọng. Thành thạo những kỹ thuật này cho phép bạn tạo ra các bài thuyết trình dữ liệu‑được‑điều khiển rất chuyên nghiệp với Aspose.Slides cho Java. Để khám phá sâu hơn, hãy thử kết hợp các tính năng này với biểu đồ, hoạt ảnh, hoặc xuất ra PDF.
+## Common Pitfalls & Tips
 
-## Câu hỏi thường gặp
+- **Null checks** – Always wrap your `Presentation` usage in a try‑finally block to ensure `pres.dispose()` runs and frees native resources.  
+- **Bounding rectangle accuracy** – The rectangle returned by `para.getRect()` reflects the current layout; if you change font size or margins, recompute the rectangle before drawing the frame.  
+- **Performance** – When working with very large tables, consider batching shape additions or reusing a single `IAutoShape` instance with updated geometry to reduce memory overhead.
+
+## Frequently Asked Questions
 
 **Q: Can I use these APIs with older JDK versions?**  
-A: Thư viện hỗ trợ JDK 8 trở lên, nhưng bộ phân loại `jdk16` mang lại hiệu năng tốt nhất trên các runtime mới hơn.
+A: The library supports JDK 8 onward, but the `jdk16` classifier gives the best performance on newer runtimes.
 
 **Q: How do I change the frame color?**  
-A: Thay đổi màu nền của định dạng đường viền, ví dụ, `shape.getLineFormat().getFillFormat().setSolidFillColor(Color.BLUE);`.
+A: Modify the line format fill color, e.g., `shape.getLineFormat().getFillFormat().setSolidFillColor(Color.BLUE);`.
 
 **Q: Is it possible to export the final slide as an image?**  
-A: Có—sử dụng `pres.getSlides().get_Item(0).getImage(Export.ImageFormat.Png)` và sau đó lưu mảng byte.
+A: Yes—use `pres.getSlides().get_Item(0).getImage(Export.ImageFormat.Png)` and then save the byte array.
 
 **Q: What if I need to highlight only the word “Total” inside a cell?**  
-A: Lặp qua `cell.getTextFrame().getParagraphs()`, tìm phần chứa “Total”, và vẽ một hình chữ nhật quanh hộp bao của phần đó.
+A: Iterate through `cell.getTextFrame().getParagraphs()`, locate the portion containing “Total”, and draw a rectangle around that portion’s bounding box.
 
 **Q: Does Aspose.Slides handle large presentations efficiently?**  
-A: API truyền dữ liệu theo luồng và giải phóng tài nguyên khi gọi `pres.dispose()`, giúp quản lý bộ nhớ tốt hơn cho các tệp lớn.
+A: The API streams data and releases resources when `pres.dispose()` is called, which helps with memory management for large files.
 
 ---
 
 {{< blocks/products/products-backtop-button >}}
 
-**Last Updated:** 2025-12-10  
+**Last Updated:** 2026-02-09  
 **Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
 **Author:** Aspose  
 

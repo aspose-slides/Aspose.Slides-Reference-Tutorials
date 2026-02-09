@@ -1,7 +1,7 @@
 ---
-title: "Aspose.Slides for Java – add text to table & frame manipulation"
-description: "Learn how to add text to table and draw frames around text in PowerPoint using Aspose.Slides for Java. This guide covers creating tables, setting text alignment, and framing content."
-date: "2025-12-10"
+title: "How to Draw Frames and Add Text to Table with Aspose.Slides for Java"
+description: "Learn how to draw frames around text and add text to table cells in PowerPoint using Aspose.Slides for Java. This tutorial covers creating tables, setting text alignment, and saving presentation as pptx."
+date: "2026-02-09"
 weight: 1
 url: "/java/animations-transitions/aspose-slides-java-enhance-presentations/"
 keywords:
@@ -15,20 +15,28 @@ keywords:
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Mastering Table and Frame Manipulation in Presentations with Aspose.Slides for Java
+# How to Draw Frames and Add Text to Table in Presentations with Aspose.Slides for Java
 
 ## Introduction
 
-Presenting data effectively can be challenging in PowerPoint. Whether you're a software developer or presentation designer, **add text to table** cells and draw frames around key paragraphs to make your slides pop. In this tutorial you’ll see exactly how to add text to table, align it, and draw frames around text — all with Aspose.Slides for Java. By the end, you’ll be able to create polished decks that highlight the right information at the right time.
+Presenting data clearly in PowerPoint can be a real hurdle, especially when you need to **add text to table** cells and highlight important values with visual cues. In this guide you’ll learn **how to draw frames** around specific paragraphs, set text alignment inside shapes, and finally **save presentation as pptx**—all using Aspose.Slides for Java. By the end you’ll have a polished slide deck that draws the audience’s eye exactly where you want it.
 
-Ready to transform your presentations? Let’s get started!
+Ready to make your slides stand out? Let’s walk through the process step by step.
 
 ## Quick Answers
 - **What does “add text to table” mean?** It means inserting or updating the textual content of individual table cells programmatically.  
 - **Which method saves the file?** `pres.save("output.pptx", SaveFormat.Pptx)` – this **save presentation as pptx** step finalizes your changes.  
 - **How can I align text inside a shape?** Use `TextAlignment.Left` (or Center/Right) via `autoShape.getTextFrame().getParagraphs().get_Item(0).getParagraphFormat().setAlignment(...)`.  
 - **Can I draw a rectangle around a paragraph?** Yes – iterate over paragraphs, get their bounding rectangle, and add an `IAutoShape` with no fill and a black line.  
-- **Do I need a license?** A temporary license works for evaluation; a full license is required for production use.
+- **Do I need a license?** A temporary license works for evaluation; a full license is required for production use.  
+
+## Why draw frames around text?
+
+Drawing a frame (or rectangle) around a paragraph or a specific portion (for example, any text containing the character **'0'**) instantly draws attention. This technique is ideal for:
+
+- Highlighting key financial figures in a table.  
+- Emphasizing warnings or important notes in a slide.  
+- Creating visual separators without adding extra shapes manually.
 
 ## Prerequisites
 
@@ -83,16 +91,12 @@ try {
 }
 ```
 
-## Why add text to table and draw frames?
-
-Adding text to a table lets you present structured data clearly, while drawing frames around paragraphs or specific portions (e.g., those containing the character **'0'**) draws the audience’s eye to important values. This combination is perfect for financial reports, dashboards, or any slide where you need to highlight key numbers without clutter.
-
-## How to add text to table in Aspose.Slides for Java
+## How to Add Text to Table in Aspose.Slides for Java
 
 ### Feature 1: Create Table and Add Text to Cells
 
 #### Overview
-This feature demonstrates how to **how to create table**, then **add text to table** cells and later **save presentation as pptx**.
+This feature demonstrates how to **create table**, then **add text to table** cells and later **save presentation as pptx**.
 
 #### Steps
 
@@ -227,8 +231,11 @@ Iterate over paragraphs and portions to draw frames around them.
 }
 ```
 
-## Conclusion
-By following this guide, you can **add text to table**, align text inside shapes, and **draw frames around text** to emphasize important information. Mastering these techniques lets you create highly polished, data‑driven presentations with Aspose.Slides for Java. For further exploration, try combining these features with charts, animations, or exporting to PDF.
+## Common Pitfalls & Tips
+
+- **Null checks** – Always wrap your `Presentation` usage in a try‑finally block to ensure `pres.dispose()` runs and frees native resources.  
+- **Bounding rectangle accuracy** – The rectangle returned by `para.getRect()` reflects the current layout; if you change font size or margins, recompute the rectangle before drawing the frame.  
+- **Performance** – When working with very large tables, consider batching shape additions or reusing a single `IAutoShape` instance with updated geometry to reduce memory overhead.
 
 ## Frequently Asked Questions
 
@@ -251,7 +258,7 @@ A: The API streams data and releases resources when `pres.dispose()` is called, 
 
 {{< blocks/products/products-backtop-button >}}
 
-**Last Updated:** 2025-12-10  
+**Last Updated:** 2026-02-09  
 **Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
 **Author:** Aspose  
 
