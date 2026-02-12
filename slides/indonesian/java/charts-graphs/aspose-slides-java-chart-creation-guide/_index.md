@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Pelajari cara membuat dan mengelola bagan menggunakan Aspose.Slides untuk Java. Panduan ini mencakup bagan kolom berkelompok, manajemen seri data, dan banyak lagi."
-"title": "Menguasai Pembuatan Bagan di Java dengan Aspose.Slides&#58; Panduan Lengkap"
-"url": "/id/java/charts-graphs/aspose-slides-java-chart-creation-guide/"
-"weight": 1
+date: '2026-02-12'
+description: Pelajari cara membuat diagram dan mengelola diagram menggunakan Aspose.Slides
+  untuk Java. Tutorial ini menunjukkan cara membuat diagram kolom berkelompok, menangani
+  seri data, dan menyesuaikan visualisasi.
+keywords:
+- Aspose.Slides for Java
+- Java charts
+- clustered column chart
+title: 'Cara Membuat Grafik di Java dengan Aspose.Slides: Panduan Komprehensif'
+url: /id/java/charts-graphs/aspose-slides-java-chart-creation-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,41 +17,49 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Menguasai Pembuatan Bagan di Java dengan Aspose.Slides
+# Cara Membuat Diagram di Java dengan Aspose.Slides
 
-## Cara Membuat dan Mengelola Bagan Menggunakan Aspose.Slides untuk Java
+## Cara Membuat Diagram di Java: Pendahuluan
+Membuat presentasi dinamis sering melibatkan visualisasi data melalui diagram. Dengan **Aspose.Slides for Java**, Anda dapat dengan mudah **how to create chart** objek, meningkatkan kejelasan, dan memberikan dampak yang lebih kuat pada audiens Anda. Tutorial ini memandu Anda melalui penyiapan pustaka, menambahkan **create clustered column chart**, mengelola seri, dan secara kondisional membalikkan titik data negatif.
 
-### Perkenalan
-Membuat presentasi yang dinamis sering kali melibatkan visualisasi data melalui diagram. Dengan **Aspose.Slides untuk Java**, Anda dapat dengan mudah membuat dan mengelola berbagai jenis bagan, meningkatkan kejelasan dan dampak. Tutorial ini akan memandu Anda membuat presentasi kosong, menambahkan bagan kolom berkelompok, mengelola seri, dan menyesuaikan inversi titik data—semuanya menggunakan Aspose.Slides untuk Java.
-
-**Apa yang Akan Anda Pelajari:**
-- Cara mengatur Aspose.Slides untuk Java.
-- Langkah-langkah untuk membuat bagan kolom berkelompok dalam presentasi Anda.
-- Teknik untuk mengelola rangkaian grafik dan titik data secara efektif.
-- Metode untuk membalikkan titik data negatif secara kondisional untuk visualisasi yang lebih baik.
+**Apa yang Akan Anda Pelajari**
+- Cara menyiapkan Aspose.Slides for Java.
+- Langkah-langkah untuk **create clustered column chart** dalam presentasi Anda.
+- Teknik untuk mengelola seri diagram dan titik data.
+- Metode untuk secara kondisional membalikkan titik data negatif untuk visualisasi yang lebih baik.
 - Cara menyimpan presentasi dengan aman.
 
-Mari kita bahas prasyaratnya sebelum memulai.
+### Jawaban Cepat
+- **Perpustakaan apa yang digunakan?** Aspose.Slides for Java.
+- **Jenis diagram apa yang ditunjukkan?** Clustered column chart.
+- **Bisakah saya membalikkan nilai negatif?** Ya, menggunakan `invertIfNegative`.
+- **Versi Java apa yang diperlukan?** JDK 16 atau lebih baru.
+- **Apakah lisensi diperlukan untuk produksi?** Ya, lisensi Aspose yang valid.
+
+## Apa itu Diagram Kolom Berkelompok?
+Diagram kolom berkelompok menampilkan beberapa seri data berdampingan untuk setiap kategori, memudahkan perbandingan nilai antar grup. Ini ideal untuk laporan keuangan, dasbor penjualan, dan skenario apa pun yang memerlukan kontras beberapa metrik.
+
+## Mengapa Menggunakan Aspose.Slides untuk Pembuatan Diagram?
+- **Kontrol penuh** atas tampilan diagram tanpa bergantung pada UI PowerPoint.
+- **Generasi programatik** memungkinkan pipeline pelaporan otomatis.
+- **Dukungan lintas‑platform** memastikan kode Anda berjalan di sistem apa pun yang kompatibel dengan Java.
+- **API kaya** untuk penyesuaian detail (warna, label data, pembalikan, dll.).
 
 ## Prasyarat
-Sebelum memulai, pastikan Anda memiliki hal berikut:
+1. **Perpustakaan yang Diperlukan**
+   - Aspose.Slides for Java (versi 25.4 atau lebih baru).
 
-1. **Pustaka yang dibutuhkan:**
-   - Aspose.Slides untuk Java (versi 25.4 atau lebih baru).
+2. **Lingkungan**
+   - JDK 16 atau lebih baru.
+   - Maven atau Gradle untuk manajemen dependensi.
 
-2. **Persyaratan Pengaturan Lingkungan:**
-   - Versi JDK yang kompatibel (misalnya, JDK 16).
-   - Maven atau Gradle terinstal jika Anda lebih suka manajemen ketergantungan.
-
-3. **Prasyarat Pengetahuan:**
-   - Pemahaman dasar tentang pemrograman Java.
-   - Kemampuan dalam menangani dependensi di lingkungan pengembangan Anda.
+3. **Pengetahuan**
+   - Pemrograman Java dasar.
+   - Familiaritas dengan alat build (Maven/Gradle).
 
 ## Menyiapkan Aspose.Slides untuk Java
-Untuk mulai menggunakan Aspose.Slides, ikuti langkah-langkah berikut:
-
-**Instalasi Maven:**
-Tambahkan dependensi berikut ke `pom.xml` mengajukan:
+### Instalasi Maven
+Tambahkan dependensi berikut ke file `pom.xml` Anda:
 
 ```xml
 <dependency>
@@ -56,52 +70,42 @@ Tambahkan dependensi berikut ke `pom.xml` mengajukan:
 </dependency>
 ```
 
-**Instalasi Gradle:**
-Tambahkan baris berikut ke `build.gradle`:
+### Instalasi Gradle
+Tambahkan baris berikut ke file `build.gradle` Anda:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Unduh Langsung:**
-Atau, unduh versi terbaru dari [Aspose.Slides untuk rilis Java](https://releases.aspose.com/slides/java/).
+### Unduhan Langsung
+Sebagai alternatif, unduh versi terbaru dari [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 ### Akuisisi Lisensi
-- **Uji Coba Gratis:** Anda dapat memulai dengan uji coba gratis untuk menjelajahi fitur-fiturnya.
-- **Lisensi Sementara:** Dapatkan lisensi sementara untuk akses penuh selama periode evaluasi Anda.
-- **Pembelian:** Pertimbangkan untuk membeli jika Anda merasa produk tersebut sesuai dengan kebutuhan jangka panjang Anda.
+- **Free Trial:** Jelajahi fitur tanpa lisensi.
+- **Temporary License:** Gunakan selama evaluasi.
+- **Full License:** Beli untuk penerapan produksi.
 
 ### Inisialisasi Dasar
 ```java
 import com.aspose.slides.*;
 
 Presentation pres = new Presentation();
-// Kode Anda di sini...
-pres.dispose(); // Selalu buang objek presentasi setelah selesai.
+// Your code here...
+pres.dispose(); // Always dispose of the presentation object when done.
 ```
 
-## Panduan Implementasi
-Sekarang, mari kita uraikan setiap fitur menjadi langkah-langkah yang lebih mudah dikelola.
+## Panduan Langkah‑per‑Langkah
 
-### Membuat Presentasi dengan Bagan Kolom Berkelompok
-#### Ringkasan
-Bagian ini membahas cara membuat presentasi kosong dan menambahkan bagan kolom berkelompok pada koordinat tertentu di slide Anda.
+### Langkah 1: Buat Presentasi dan Tambahkan Diagram Kolom Berkelompok
+Pada langkah ini kami **how to create chart** objek dan menempatkan **create clustered column chart** pada slide pertama.
 
-**Tangga:**
-1. **Inisialisasi Objek Presentasi:**
-   - Buat contoh baru dari `Presentation`.
-2. **Tambahkan Bagan Kolom Berkelompok:**
-   - Menggunakan `getSlides().get_Item(0).getShapes().addChart()` untuk menambahkan bagan.
-   - Tentukan posisi, dimensi, dan jenis.
-
-**Contoh Kode:**
 ```java
 import com.aspose.slides.*;
 
 String YOUR_DOCUMENT_DIRECTORY = "YOUR_DOCUMENT_DIRECTORY";
 Presentation pres = new Presentation();
 try {
-    // Tambahkan bagan kolom berkelompok di (50, 50) dengan lebar 600 dan tinggi 400.
+    // Add a clustered column chart at (50, 50) with width 600 and height 400.
     IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
         ChartType.ClusteredColumn,
         50, 50, 600, 400, true
@@ -111,19 +115,9 @@ try {
 }
 ```
 
-### Mengelola Seri Bagan
-#### Ringkasan
-Pelajari cara menghapus seri yang ada dan menambahkan yang baru dengan titik data yang disesuaikan.
+### Langkah 2: Kelola Seri Diagram
+Sekarang kami akan menghapus semua seri default, menambahkan seri baru, dan mengisinya dengan nilai positif dan negatif.
 
-**Tangga:**
-1. **Hapus Seri yang Ada:**
-   - Menggunakan `series.clear()` untuk menghapus data yang sudah ada sebelumnya.
-2. **Tambahkan Seri Baru:**
-   - Tambahkan seri baru menggunakan `series.add()`.
-3. **Masukkan Titik Data:**
-   - Memanfaatkan `getDataPoints().addDataPointForBarSeries()` untuk menambahkan nilai, termasuk nilai negatif.
-
-**Contoh Kode:**
 ```java
 import com.aspose.slides.*;
 
@@ -134,12 +128,12 @@ try {
         50, 50, 600, 400, true
     );
     
-    // Hapus seri yang ada dan tambahkan yang baru.
+    // Clear existing series and add a new one.
     IChartSeriesCollection series = chart.getChartData().getSeries();
     series.clear();
     series.add(chart.getChartData().getChartDataWorkbook().getCell(0, "B1"), chart.getType());
     
-    // Tambahkan titik data dengan berbagai nilai (positif dan negatif).
+    // Add data points with varying values (positive and negative).
     series.get_Item(0).getDataPoints().addDataPointForBarSeries(
         chart.getChartData().getChartDataWorkbook().getCell(0, "B2", -5)
     );
@@ -157,17 +151,9 @@ try {
 }
 ```
 
-### Membalikkan Titik Data Seri Berdasarkan Kondisi
-#### Ringkasan
-Sesuaikan visualisasi titik data negatif dengan menginversikannya secara kondisional.
+### Langkah 3: Membalikkan Titik Data Negatif Secara Kondisional
+Secara default, Aspose.Slides tidak membalikkan nilai negatif. Kami akan mengaktifkan pembalikan hanya untuk titik-titik yang memerlukannya.
 
-**Tangga:**
-1. **Tetapkan Perilaku Inversi Default:**
-   - Menggunakan `setInvertIfNegative(false)` untuk menentukan perilaku inversi keseluruhan.
-2. **Membalikkan Titik Data Spesifik Secara Bersyarat:**
-   - Menerapkan `setInvertIfNegative(true)` pada titik data tertentu jika negatif.
-
-**Contoh Kode:**
 ```java
 import com.aspose.slides.*;
 
@@ -182,7 +168,7 @@ try {
     series.clear();
     series.add(chart.getChartData().getChartDataWorkbook().getCell(0, "B1"), chart.getType());
     
-    // Tambahkan titik data dengan berbagai nilai (positif dan negatif).
+    // Add data points with varying values (positive and negative).
     series.get_Item(0).getDataPoints().addDataPointForBarSeries(
         chart.getChartData().getChartDataWorkbook().getCell(0, "B2", -5)
     );
@@ -196,10 +182,10 @@ try {
         chart.getChartData().getChartDataWorkbook().getCell(0, "B5", 1)
     );
     
-    // Tetapkan perilaku inversi default
+    // Set default inversion behavior
     series.get_Item(0).invertIfNegative(false);
     
-    // Membalikkan titik data tertentu secara bersyarat
+    // Conditionally invert a specific data point
     IChartDataPoint dataPoint = series.get_Item(0).getDataPoints().get_Item(0);
     if (dataPoint.getValue() < 0) {
         dataPoint.invertIfNegative(true);
@@ -209,12 +195,33 @@ try {
 }
 ```
 
-### Kesimpulan
-Dalam tutorial ini, Anda mempelajari cara menyiapkan Aspose.Slides untuk Java dan membuat bagan kolom berkelompok. Anda juga mempelajari cara mengelola rangkaian data dan menyesuaikan visualisasi titik data negatif. Dengan keterampilan ini, kini Anda dapat membuat bagan dinamis dengan percaya diri dalam aplikasi Java Anda.
+### Kesalahan Umum & Tips
+- **Lupa membuang objek `Presentation`?** Selalu panggil `dispose()` dalam blok `finally` untuk membebaskan sumber daya native.
+- **Nilai negatif tidak tampil terbalik?** Pastikan Anda memanggil `invertIfNegative(true)` **setelah** menambahkan titik data.
+- **Masalah ukuran diagram:** Koordinat (X, Y) dan dimensi (lebar, tinggi) dalam satuan poin; sesuaikan agar cocok dengan tata letak slide Anda.
 
-**Langkah Berikutnya:**
-- Bereksperimenlah dengan berbagai jenis bagan yang tersedia di Aspose.Slides untuk Java.
-- Jelajahi opsi penyesuaian tambahan untuk menyempurnakan presentasi Anda.
+## Pertanyaan yang Sering Diajukan
+
+**Q: Can I create other chart types with the same approach?**  
+A: Yes, simply replace `ChartType.ClusteredColumn` with any other `ChartType` enum value (e.g., `Line`, `Pie`).  
+
+**Q: Do I need a license for development builds?**  
+A: A temporary or evaluation license is required for full feature access; otherwise, the library works in trial mode with watermark limitations.  
+
+**Q: How do I export the presentation to PDF after adding charts?**  
+A: Use `pres.save("output.pdf", SaveFormat.Pdf);` after you finish chart manipulation.  
+
+**Q: Is it possible to style individual columns (color, border)?**  
+A: Yes, each `IChartDataPoint` provides formatting options such as `getFillFormat().setFillType(FillType.Solid)` and `getLineFormat()`.  
+
+**Q: What if I need to update the chart data after the presentation is saved?**  
+A: Load the presentation again with `new Presentation("file.pptx")`, modify the chart data, and re‑save.  
+
+---
+
+**Terakhir Diperbarui:** 2026-02-12  
+**Diuji Dengan:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

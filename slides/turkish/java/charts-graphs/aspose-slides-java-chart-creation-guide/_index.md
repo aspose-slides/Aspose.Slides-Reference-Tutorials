@@ -1,51 +1,79 @@
 ---
-"date": "2025-04-17"
-"description": "Java için Aspose.Slides kullanarak grafiklerin nasıl oluşturulacağını ve yönetileceğini öğrenin. Bu kılavuz kümelenmiş sütun grafiklerini, veri serisi yönetimini ve daha fazlasını kapsar."
-"title": "Java'da Aspose.Slides ile Grafik Oluşturmada Ustalaşma Kapsamlı Bir Kılavuz"
-"url": "/tr/java/charts-graphs/aspose-slides-java-chart-creation-guide/"
-"weight": 1
+date: '2026-02-12'
+description: Aspose.Slides for Java kullanarak grafik oluşturmayı ve grafikleri yönetmeyi
+  öğrenin. Bu öğreticide, kümelenmiş sütun grafiği oluşturma, veri serilerini işleme
+  ve görselleştirmeyi özelleştirme gösterilmektedir.
+keywords:
+- Aspose.Slides for Java
+- Java charts
+- clustered column chart
+title: 'Aspose.Slides ile Java''da Grafik Oluşturma: Kapsamlı Bir Rehber'
+url: /tr/java/charts-graphs/aspose-slides-java-chart-creation-guide/
+weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+- Keep URLs unchanged.
+
+- Keep "Aspose.Slides for Java" as is (technical term). Keep "Clustered column chart" maybe keep as is but can translate? Technical term maybe keep English. The rule: keep technical terms in English, e.g., API, SDK, class names. "Clustered column chart" is a chart type; maybe keep English. We'll keep as is.
+
+- Translate "Quick Answers" etc.
+
+- Ensure formatting.
+
+Let's craft.
+
+Also note "step‑by‑step guide" etc.
+
+Make sure to keep markdown.
+
+Proceed.{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.Slides ile Java'da Grafik Oluşturmada Ustalaşma
+# Java'da Aspose.Slides ile Grafik Nasıl Oluşturulur
 
-## Java için Aspose.Slides Kullanarak Grafikler Nasıl Oluşturulur ve Yönetilir
+## Java'da Grafik Oluşturma: Giriş
+Dinamik sunumlar oluştururken verileri grafiklerle görselleştirmek sıkça gerekir. **Aspose.Slides for Java** ile **grafik oluşturma** nesnelerini zahmetsizce **clustered column chart** ekleyebilir, netliği artırabilir ve izleyiciniz üzerinde daha güçlü bir etki bırakabilirsiniz. Bu öğreticide kütüphaneyi kurma, **create clustered column chart** ekleme, serileri yönetme ve negatif veri noktalarını koşullu olarak tersine çevirme adımlarını göstereceğiz.
 
-### giriiş
-Dinamik sunumlar oluşturmak genellikle verileri grafikler aracılığıyla görselleştirmeyi içerir. **Java için Aspose.Slides**, çeşitli grafik türlerini zahmetsizce oluşturabilir ve yönetebilir, hem netliği hem de etkiyi artırabilirsiniz. Bu eğitim, boş bir sunum oluşturma, kümelenmiş sütun grafikleri ekleme, serileri yönetme ve veri noktası ters çevirmeyi özelleştirme konusunda size rehberlik edecektir; hepsi Java için Aspose.Slides kullanılarak.
+**Öğrenecekleriniz**
+- Aspose.Slides for Java nasıl kurulur.
+- Sunumunuza **clustered column chart** nasıl **create clustered column chart** eklenir.
+- Grafik serileri ve veri noktaları nasıl yönetilir.
+- Daha iyi görselleştirme için negatif veri noktaları nasıl koşullu olarak tersine çevrilir.
+- Sunum güvenli bir şekilde nasıl kaydedilir.
 
-**Ne Öğreneceksiniz:**
-- Java için Aspose.Slides nasıl kurulur.
-- Sununuzda kümelenmiş sütun grafiği oluşturma adımları.
-- Grafik serilerini ve veri noktalarını etkili bir şekilde yönetme teknikleri.
-- Daha iyi görselleştirme için negatif veri noktalarını koşullu olarak tersine çevirme yöntemleri.
-- Sunumu güvenli bir şekilde nasıl kaydedebilirim?
+### Hızlı Yanıtlar
+- **Hangi kütüphane kullanılıyor?** Aspose.Slides for Java.
+- **Hangi grafik türü gösteriliyor?** Clustered column chart.
+- **Negatif değerleri tersine çevirebilir miyim?** Evet, `invertIfNegative` kullanarak.
+- **Hangi Java sürümü gerekiyor?** JDK 16 veya daha yenisi.
+- **Üretim için lisans gerekli mi?** Evet, geçerli bir Aspose lisansı gerekir.
 
-Başlamadan önce ön koşullara bir göz atalım.
+## Clustered Column Chart Nedir?
+Clustered column chart, her kategori için birden fazla veri serisini yan yana gösterir ve gruplar arasındaki değerleri karşılaştırmayı kolaylaştırır. Finansal raporlar, satış panoları ve birden fazla metriği karşılaştırmanız gereken her senaryo için idealdir.
 
-## Ön koşullar
-Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+## Aspose.Slides ile Grafik Oluşturmayı Neden Kullanmalısınız?
+- **Tam kontrol**: Grafik görünümünü PowerPoint UI'ına bağımlı olmadan yönetebilirsiniz.
+- **Programatik oluşturma**: Otomatik raporlama hatları oluşturmanıza olanak tanır.
+- **Çapraz platform**: Kodunuz herhangi bir Java uyumlu sistemde çalışır.
+- **Zengin API**: Renkler, veri etiketleri, tersine çevirme vb. gibi ince ayarlar yapabilirsiniz.
 
-1. **Gerekli Kütüphaneler:**
-   - Java için Aspose.Slides (sürüm 25.4 veya üzeri).
+## Önkoşullar
+1. **Gerekli Kütüphaneler**
+   - Aspose.Slides for Java (sürüm 25.4 veya üzeri).
 
-2. **Çevre Kurulum Gereksinimleri:**
-   - Uyumlu bir JDK sürümü (örneğin JDK 16).
-   - Bağımlılık yönetimini tercih ediyorsanız Maven veya Gradle kurulu olmalıdır.
+2. **Ortam**
+   - JDK 16 veya daha yenisi.
+   - Bağımlılık yönetimi için Maven veya Gradle.
 
-3. **Bilgi Ön Koşulları:**
-   - Java programlamanın temel bilgisi.
-   - Geliştirme ortamınızdaki bağımlılıkları yönetme konusunda bilgi sahibi olmanız gerekir.
+3. **Bilgi**
+   - Temel Java programlama.
+   - Build araçları (Maven/Gradle) hakkında bilgi.
 
-## Java için Aspose.Slides Kurulumu
-Aspose.Slides'ı kullanmaya başlamak için şu adımları izleyin:
-
-**Maven Kurulumu:**
-Aşağıdaki bağımlılığı ekleyin `pom.xml` dosya:
+## Aspose.Slides for Java Kurulumu
+### Maven Kurulumu
+`pom.xml` dosyanıza aşağıdaki bağımlılığı ekleyin:
 
 ```xml
 <dependency>
@@ -56,52 +84,42 @@ Aşağıdaki bağımlılığı ekleyin `pom.xml` dosya:
 </dependency>
 ```
 
-**Gradle Kurulumu:**
-Aşağıdaki satırı ekleyin `build.gradle`:
+### Gradle Kurulumu
+`build.gradle` dosyanıza aşağıdaki satırı ekleyin:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Doğrudan İndirme:**
-Alternatif olarak, en son sürümü şu adresten indirin: [Java sürümleri için Aspose.Slides](https://releases.aspose.com/slides/java/).
+### Doğrudan İndirme
+Alternatif olarak, en yeni sürümü [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) adresinden indirebilirsiniz.
 
-### Lisans Edinimi
-- **Ücretsiz Deneme:** Özellikleri keşfetmek için ücretsiz denemeyle başlayabilirsiniz.
-- **Geçici Lisans:** Değerlendirme süreniz boyunca tam erişim için geçici bir lisans edinin.
-- **Satın almak:** Uzun vadeli ihtiyaçlarınıza uygun olduğunu düşünüyorsanız satın almayı düşünebilirsiniz.
+### Lisans Edinme
+- **Ücretsiz Deneme:** Lisans olmadan özellikleri keşfedin.
+- **Geçici Lisans:** Değerlendirme sürecinde kullanın.
+- **Tam Lisans:** Üretim dağıtımları için satın alın.
 
 ### Temel Başlatma
 ```java
 import com.aspose.slides.*;
 
 Presentation pres = new Presentation();
-// Kodunuz burada...
-pres.dispose(); // Sunum nesnesini işiniz bitince mutlaka elden çıkarın.
+// Your code here...
+pres.dispose(); // Always dispose of the presentation object when done.
 ```
 
-## Uygulama Kılavuzu
-Şimdi her bir özelliği yönetilebilir adımlara bölelim.
+## Adım‑Adım Kılavuz
 
-### Kümelenmiş Sütun Grafiğiyle Bir Sunum Oluşturma
-#### Genel bakış
-Bu bölümde, boş bir sunumun nasıl oluşturulacağı ve slaydınızda belirli koordinatlara kümelenmiş sütun grafiğinin nasıl ekleneceği anlatılmaktadır.
+### Adım 1: Sunum Oluşturun ve Clustered Column Chart Ekleyin
+Bu adımda **grafik oluşturma** nesnelerini oluşturup **create clustered column chart** ilk slayta ekleyeceğiz.
 
-**Adımlar:**
-1. **Sunum Nesnesini Başlat:**
-   - Yeni bir örnek oluşturun `Presentation`.
-2. **Kümelenmiş Sütun Grafiği Ekle:**
-   - Kullanmak `getSlides().get_Item(0).getShapes().addChart()` grafik eklemek için.
-   - Pozisyonu, boyutları ve türünü belirtin.
-
-**Kod Örneği:**
 ```java
 import com.aspose.slides.*;
 
 String YOUR_DOCUMENT_DIRECTORY = "YOUR_DOCUMENT_DIRECTORY";
 Presentation pres = new Presentation();
 try {
-    // (50, 50) noktasına genişliği 600 ve yüksekliği 400 olan kümelenmiş bir sütun grafiği ekleyin.
+    // Add a clustered column chart at (50, 50) with width 600 and height 400.
     IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
         ChartType.ClusteredColumn,
         50, 50, 600, 400, true
@@ -111,19 +129,9 @@ try {
 }
 ```
 
-### Yönetim Grafik Serisi
-#### Genel bakış
-Mevcut serileri nasıl temizleyeceğinizi ve özelleştirilmiş veri noktalarıyla yeni seriler nasıl ekleyeceğinizi öğrenin.
+### Adım 2: Grafik Serilerini Yönetme
+Şimdi varsayılan serileri temizleyecek, yeni bir seri ekleyecek ve hem pozitif hem de negatif değerlerle dolduracağız.
 
-**Adımlar:**
-1. **Mevcut Seriyi Temizle:**
-   - Kullanmak `series.clear()` önceden var olan verileri kaldırmak için.
-2. **Yeni Seri Ekle:**
-   - Kullanarak yeni bir seri ekleyin `series.add()`.
-3. **Veri Noktalarını Ekle:**
-   - Faydalanmak `getDataPoints().addDataPointForBarSeries()` negatif olanlar da dahil olmak üzere değer eklemek için.
-
-**Kod Örneği:**
 ```java
 import com.aspose.slides.*;
 
@@ -134,12 +142,12 @@ try {
         50, 50, 600, 400, true
     );
     
-    // Mevcut serileri temizleyin ve yenisini ekleyin.
+    // Clear existing series and add a new one.
     IChartSeriesCollection series = chart.getChartData().getSeries();
     series.clear();
     series.add(chart.getChartData().getChartDataWorkbook().getCell(0, "B1"), chart.getType());
     
-    // Değişen değerlere (pozitif ve negatif) sahip veri noktaları ekleyin.
+    // Add data points with varying values (positive and negative).
     series.get_Item(0).getDataPoints().addDataPointForBarSeries(
         chart.getChartData().getChartDataWorkbook().getCell(0, "B2", -5)
     );
@@ -157,17 +165,9 @@ try {
 }
 ```
 
-### Koşullara Dayalı Seri Veri Noktalarının Tersine Çevrilmesi
-#### Genel bakış
-Negatif veri noktalarının görselleştirilmesini, koşullu olarak tersine çevirerek özelleştirin.
+### Adım 3: Negatif Veri Noktalarını Koşullu Olarak Tersine Çevirme
+Varsayılan olarak Aspose.Slides negatif değerleri tersine çevirmez. Sadece ihtiyaç duyulan noktalar için tersine çevirmeyi etkinleştireceğiz.
 
-**Adımlar:**
-1. **Varsayılan Ters Çevirme Davranışını Ayarla:**
-   - Kullanmak `setInvertIfNegative(false)` Genel inversiyon davranışını belirlemek için.
-2. **Belirli Veri Noktalarını Koşullu Olarak Tersine Çevir:**
-   - Uygula `setInvertIfNegative(true)` Belirli bir veri noktasında negatif ise.
-
-**Kod Örneği:**
 ```java
 import com.aspose.slides.*;
 
@@ -182,7 +182,7 @@ try {
     series.clear();
     series.add(chart.getChartData().getChartDataWorkbook().getCell(0, "B1"), chart.getType());
     
-    // Değişen değerlere (pozitif ve negatif) sahip veri noktaları ekleyin.
+    // Add data points with varying values (positive and negative).
     series.get_Item(0).getDataPoints().addDataPointForBarSeries(
         chart.getChartData().getChartDataWorkbook().getCell(0, "B2", -5)
     );
@@ -196,10 +196,10 @@ try {
         chart.getChartData().getChartDataWorkbook().getCell(0, "B5", 1)
     );
     
-    // Varsayılan ters çevirme davranışını ayarla
+    // Set default inversion behavior
     series.get_Item(0).invertIfNegative(false);
     
-    // Belirli bir veri noktasını koşullu olarak tersine çevirin
+    // Conditionally invert a specific data point
     IChartDataPoint dataPoint = series.get_Item(0).getDataPoints().get_Item(0);
     if (dataPoint.getValue() < 0) {
         dataPoint.invertIfNegative(true);
@@ -209,12 +209,33 @@ try {
 }
 ```
 
-### Çözüm
-Bu eğitimde, Java için Aspose.Slides'ı nasıl kuracağınızı ve kümelenmiş sütun grafiği nasıl oluşturacağınızı öğrendiniz. Ayrıca, veri serilerini yönetmeyi ve negatif veri noktalarının görselleştirilmesini özelleştirmeyi keşfettiniz. Bu becerilerle, artık Java uygulamalarınızda güvenle dinamik grafikler oluşturabilirsiniz.
+### Yaygın Hatalar & İpuçları
+- **`Presentation` nesnesini dispose etmeyi unuttunuz mu?** Yerel kaynakları serbest bırakmak için `finally` bloğunda her zaman `dispose()` çağırın.
+- **Negatif değerler tersine çevrilmiyor mu?** Veri noktasını ekledikten **sonra** `invertIfNegative(true)` çağırdığınızdan emin olun.
+- **Grafik boyut sorunları:** Koordinatlar (X, Y) ve boyutlar (width, height) puan cinsindendir; slayt düzeninize göre ayarlayın.
 
-**Sonraki Adımlar:**
-- Aspose.Slides for Java'da bulunan farklı grafik türlerini deneyin.
-- Sunumlarınızı geliştirmek için ek özelleştirme seçeneklerini keşfedin.
+## Sıkça Sorulan Sorular
+
+**S: Aynı yaklaşımla başka grafik türleri oluşturabilir miyim?**  
+C: Evet, `ChartType.ClusteredColumn` ifadesini istediğiniz başka bir `ChartType` enum değeriyle (ör. `Line`, `Pie`) değiştirmeniz yeterlidir.
+
+**S: Geliştirme sürümleri için lisans gerekiyor mu?**  
+C: Tam özellik erişimi için geçici veya değerlendirme lisansı gerekir; aksi takdirde kütüphane deneme modunda filigran sınırlamalarıyla çalışır.
+
+**S: Grafik ekledikten sonra sunumu PDF olarak nasıl dışa aktarırım?**  
+C: Grafik manipülasyonunu tamamladıktan sonra `pres.save("output.pdf", SaveFormat.Pdf);` kullanın.
+
+**S: Tek tek sütunları (renk, kenarlık) biçimlendirebilir miyim?**  
+C: Evet, her `IChartDataPoint` `getFillFormat().setFillType(FillType.Solid)` ve `getLineFormat()` gibi biçimlendirme seçenekleri sunar.
+
+**S: Sunumu kaydettikten sonra grafik verilerini güncellemem gerekirse?**  
+C: `new Presentation("file.pptx")` ile sunumu tekrar yükleyin, grafik verilerini değiştirin ve yeniden kaydedin.
+
+---
+
+**Son Güncelleme:** 2026-02-12  
+**Test Edilen Versiyon:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

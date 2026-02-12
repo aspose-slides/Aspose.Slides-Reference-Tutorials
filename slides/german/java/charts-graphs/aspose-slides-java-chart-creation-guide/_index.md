@@ -1,51 +1,67 @@
 ---
-"date": "2025-04-17"
-"description": "Erfahren Sie, wie Sie mit Aspose.Slides für Java Diagramme erstellen und verwalten. Dieser Leitfaden behandelt gruppierte Säulendiagramme, die Verwaltung von Datenreihen und mehr."
-"title": "Diagrammerstellung in Java meistern mit Aspose.Slides – Ein umfassender Leitfaden"
-"url": "/de/java/charts-graphs/aspose-slides-java-chart-creation-guide/"
-"weight": 1
+date: '2026-02-12'
+description: Erfahren Sie, wie Sie Diagramme mit Aspose.Slides für Java erstellen
+  und verwalten. Dieses Tutorial zeigt, wie man ein gruppiertes Säulendiagramm erstellt,
+  Datenreihen verarbeitet und die Visualisierung anpasst.
+keywords:
+- Aspose.Slides for Java
+- Java charts
+- clustered column chart
+title: 'Wie man ein Diagramm in Java mit Aspose.Slides erstellt: Ein umfassender Leitfaden'
+url: /de/java/charts-graphs/aspose-slides-java-chart-creation-guide/
+weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+.
+
+Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Diagrammerstellung in Java mit Aspose.Slides meistern
+# Wie man ein Diagramm in Java mit Aspose.Slides erstellt
 
-## So erstellen und verwalten Sie Diagramme mit Aspose.Slides für Java
+## Wie man ein Diagramm in Java erstellt: Einführung
+Das Erstellen dynamischer Präsentationen beinhaltet häufig die Visualisierung von Daten mittels Diagrammen. Mit **Aspose.Slides for Java** können Sie mühelos **Diagrammobjekte erstellen**, die Klarheit erhöhen und einen stärkeren Eindruck bei Ihrem Publikum hinterlassen. Dieses Tutorial führt Sie durch die Einrichtung der Bibliothek, das Hinzufügen eines **create clustered column chart**, die Verwaltung von Serien und das bedingte Invertieren negativer Datenpunkte.
 
-### Einführung
-Bei der Erstellung dynamischer Präsentationen werden Daten oft durch Diagramme visualisiert. Mit **Aspose.Slides für Java**Erstellen und verwalten Sie mühelos verschiedene Diagrammtypen und verbessern Sie so Übersichtlichkeit und Wirkung. Dieses Tutorial führt Sie durch die Erstellung einer leeren Präsentation, das Hinzufügen gruppierter Säulendiagramme, die Verwaltung von Reihen und die Anpassung der Datenpunktinversion – alles mit Aspose.Slides für Java.
+**Was Sie lernen werden**
+- Wie man Aspose.Slides for Java einrichtet.
+- Schritte zum **create clustered column chart** in Ihrer Präsentation.
+- Techniken zur Verwaltung von Diagrammserien und Datenpunkten.
+- Methoden zum bedingten Invertieren negativer Datenpunkte für eine bessere Visualisierung.
+- Wie man die Präsentation sicher speichert.
 
-**Was Sie lernen werden:**
-- So richten Sie Aspose.Slides für Java ein.
-- Schritte zum Erstellen eines gruppierten Säulendiagramms in Ihrer Präsentation.
-- Techniken zur effektiven Verwaltung von Diagrammreihen und Datenpunkten.
-- Methoden zum bedingten Invertieren negativer Datenpunkte zur besseren Visualisierung.
-- So speichern Sie die Präsentation sicher.
+### Schnelle Antworten
+- **Welche Bibliothek wird verwendet?** Aspose.Slides for Java.
+- **Welcher Diagrammtyp wird demonstriert?** Clustered column chart.
+- **Kann ich negative Werte invertieren?** Ja, mit `invertIfNegative`.
+- **Welche Java-Version wird benötigt?** JDK 16 oder höher.
+- **Wird für die Produktion eine Lizenz benötigt?** Ja, eine gültige Aspose-Lizenz.
 
-Lassen Sie uns zunächst einen Blick auf die Voraussetzungen werfen.
+## Was ist ein Clustered Column Chart?
+Ein Clustered Column Chart zeigt mehrere Datenserien nebeneinander für jede Kategorie, was den Vergleich von Werten über Gruppen hinweg erleichtert. Er ist ideal für Finanzberichte, Vertriebs‑Dashboards und jede Situation, in der Sie mehrere Kennzahlen gegenüberstellen müssen.
 
-## Voraussetzungen
-Stellen Sie vor dem Start sicher, dass Sie über Folgendes verfügen:
+## Warum Aspose.Slides für die Diagrammerstellung verwenden?
+- **Vollständige Kontrolle** über das Aussehen des Diagramms, ohne auf die PowerPoint‑Benutzeroberfläche angewiesen zu sein.
+- **Programmgesteuerte Erstellung** ermöglicht automatisierte Reporting‑Pipelines.
+- **Cross‑platform** Unterstützung stellt sicher, dass Ihr Code auf jedem Java‑kompatiblen System läuft.
+- **Umfangreiche API** für feinkörnige Anpassungen (Farben, Datenbeschriftungen, Inversion usw.).
 
-1. **Erforderliche Bibliotheken:**
-   - Aspose.Slides für Java (Version 25.4 oder höher).
+## Prerequisites
+1. **Erforderliche Bibliotheken**
+   - Aspose.Slides for Java (Version 25.4 oder höher).
 
-2. **Anforderungen für die Umgebungseinrichtung:**
-   - Eine kompatible JDK-Version (z. B. JDK 16).
-   - Wenn Sie Abhängigkeitsverwaltung bevorzugen, müssen Maven oder Gradle installiert sein.
+2. **Umgebung**
+   - JDK 16 oder neuer.
+   - Maven oder Gradle für das Abhängigkeitsmanagement.
 
-3. **Erforderliche Kenntnisse:**
-   - Grundlegende Kenntnisse der Java-Programmierung.
-   - Vertrautheit mit der Handhabung von Abhängigkeiten in Ihrer Entwicklungsumgebung.
+3. **Kenntnisse**
+   - Grundlegende Java‑Programmierung.
+   - Vertrautheit mit Build‑Tools (Maven/Gradle).
 
-## Einrichten von Aspose.Slides für Java
-Um Aspose.Slides zu verwenden, führen Sie die folgenden Schritte aus:
-
-**Maven-Installation:**
-Fügen Sie die folgende Abhängigkeit zu Ihrem `pom.xml` Datei:
+## Setting Up Aspose.Slides for Java
+### Maven-Installation
+Fügen Sie die folgende Abhängigkeit zu Ihrer `pom.xml`‑Datei hinzu:
 
 ```xml
 <dependency>
@@ -56,52 +72,42 @@ Fügen Sie die folgende Abhängigkeit zu Ihrem `pom.xml` Datei:
 </dependency>
 ```
 
-**Gradle-Installation:**
-Fügen Sie die folgende Zeile zu Ihrem `build.gradle`:
+### Gradle-Installation
+Fügen Sie die folgende Zeile zu Ihrer `build.gradle`‑Datei hinzu:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Direktdownload:**
-Alternativ können Sie die neueste Version von [Aspose.Slides für Java-Versionen](https://releases.aspose.com/slides/java/).
+### Direkter Download
+Alternativ können Sie die neueste Version von [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) herunterladen.
 
-### Lizenzerwerb
-- **Kostenlose Testversion:** Sie können mit einer kostenlosen Testversion beginnen, um die Funktionen zu erkunden.
-- **Temporäre Lizenz:** Erwerben Sie eine temporäre Lizenz für den vollständigen Zugriff während Ihres Evaluierungszeitraums.
-- **Kaufen:** Erwägen Sie einen Kauf, wenn Sie der Meinung sind, dass es Ihren langfristigen Anforderungen entspricht.
+### Lizenzbeschaffung
+- **Free Trial:** Funktionen ohne Lizenz erkunden.
+- **Temporary License:** Während der Evaluierung verwenden.
+- **Full License:** Für den Produktionseinsatz erwerben.
 
 ### Grundlegende Initialisierung
 ```java
 import com.aspose.slides.*;
 
 Presentation pres = new Presentation();
-// Ihr Code hier...
-pres.dispose(); // Entsorgen Sie das Präsentationsobjekt immer, wenn Sie fertig sind.
+// Your code here...
+pres.dispose(); // Always dispose of the presentation object when done.
 ```
 
-## Implementierungshandbuch
-Lassen Sie uns nun jede Funktion in überschaubare Schritte unterteilen.
+## Schritt‑für‑Schritt‑Anleitung
 
-### Erstellen einer Präsentation mit einem gruppierten Säulendiagramm
-#### Überblick
-In diesem Abschnitt erfahren Sie, wie Sie eine leere Präsentation erstellen und an bestimmten Koordinaten auf Ihrer Folie ein gruppiertes Säulendiagramm hinzufügen.
+### Schritt 1: Eine Präsentation erstellen und ein Clustered Column Chart hinzufügen
+In diesem Schritt erstellen wir **how to create chart** Objekte und platzieren ein **create clustered column chart** auf der ersten Folie.
 
-**Schritte:**
-1. **Initialisieren Sie das Präsentationsobjekt:**
-   - Erstellen Sie eine neue Instanz von `Presentation`.
-2. **Fügen Sie ein gruppiertes Säulendiagramm hinzu:**
-   - Verwenden `getSlides().get_Item(0).getShapes().addChart()` , um das Diagramm hinzuzufügen.
-   - Geben Sie Position, Maße und Typ an.
-
-**Codebeispiel:**
 ```java
 import com.aspose.slides.*;
 
 String YOUR_DOCUMENT_DIRECTORY = "YOUR_DOCUMENT_DIRECTORY";
 Presentation pres = new Presentation();
 try {
-    // Fügen Sie bei (50, 50) ein gruppiertes Säulendiagramm mit einer Breite von 600 und einer Höhe von 400 hinzu.
+    // Add a clustered column chart at (50, 50) with width 600 and height 400.
     IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
         ChartType.ClusteredColumn,
         50, 50, 600, 400, true
@@ -111,19 +117,9 @@ try {
 }
 ```
 
-### Verwalten von Diagrammserien
-#### Überblick
-Erfahren Sie, wie Sie vorhandene Reihen löschen und neue mit benutzerdefinierten Datenpunkten hinzufügen.
+### Schritt 2: Diagrammserien verwalten
+Jetzt werden wir alle Standardserien entfernen, eine neue hinzufügen und sie mit positiven und negativen Werten füllen.
 
-**Schritte:**
-1. **Vorhandene Serien löschen:**
-   - Verwenden `series.clear()` um alle bereits vorhandenen Daten zu entfernen.
-2. **Neue Serie hinzufügen:**
-   - Fügen Sie eine neue Serie hinzu mit `series.add()`.
-3. **Datenpunkte einfügen:**
-   - Nutzen `getDataPoints().addDataPointForBarSeries()` zum Addieren von Werten, auch negativen.
-
-**Codebeispiel:**
 ```java
 import com.aspose.slides.*;
 
@@ -134,12 +130,12 @@ try {
         50, 50, 600, 400, true
     );
     
-    // Vorhandene Serie löschen und eine neue hinzufügen.
+    // Clear existing series and add a new one.
     IChartSeriesCollection series = chart.getChartData().getSeries();
     series.clear();
     series.add(chart.getChartData().getChartDataWorkbook().getCell(0, "B1"), chart.getType());
     
-    // Fügen Sie Datenpunkte mit unterschiedlichen Werten (positiv und negativ) hinzu.
+    // Add data points with varying values (positive and negative).
     series.get_Item(0).getDataPoints().addDataPointForBarSeries(
         chart.getChartData().getChartDataWorkbook().getCell(0, "B2", -5)
     );
@@ -157,17 +153,9 @@ try {
 }
 ```
 
-### Umkehren von Datenpunkten einer Reihe basierend auf Bedingungen
-#### Überblick
-Passen Sie die Visualisierung negativer Datenpunkte an, indem Sie sie bedingt invertieren.
+### Schritt 3: Negative Datenpunkte bedingt invertieren
+Standardmäßig invertiert Aspose.Slides negative Werte nicht. Wir aktivieren die Inversion nur für die Punkte, die sie benötigen.
 
-**Schritte:**
-1. **Standard-Inversionsverhalten festlegen:**
-   - Verwenden `setInvertIfNegative(false)` um das allgemeine Inversionsverhalten zu bestimmen.
-2. **Bestimmte Datenpunkte bedingt invertieren:**
-   - Anwenden `setInvertIfNegative(true)` an einem bestimmten Datenpunkt, wenn dieser negativ ist.
-
-**Codebeispiel:**
 ```java
 import com.aspose.slides.*;
 
@@ -182,7 +170,7 @@ try {
     series.clear();
     series.add(chart.getChartData().getChartDataWorkbook().getCell(0, "B1"), chart.getType());
     
-    // Fügen Sie Datenpunkte mit unterschiedlichen Werten (positiv und negativ) hinzu.
+    // Add data points with varying values (positive and negative).
     series.get_Item(0).getDataPoints().addDataPointForBarSeries(
         chart.getChartData().getChartDataWorkbook().getCell(0, "B2", -5)
     );
@@ -196,10 +184,10 @@ try {
         chart.getChartData().getChartDataWorkbook().getCell(0, "B5", 1)
     );
     
-    // Standardmäßiges Inversionsverhalten festlegen
+    // Set default inversion behavior
     series.get_Item(0).invertIfNegative(false);
     
-    // Bedingtes Invertieren eines bestimmten Datenpunkts
+    // Conditionally invert a specific data point
     IChartDataPoint dataPoint = series.get_Item(0).getDataPoints().get_Item(0);
     if (dataPoint.getValue() < 0) {
         dataPoint.invertIfNegative(true);
@@ -209,12 +197,33 @@ try {
 }
 ```
 
-### Abschluss
-In diesem Tutorial haben Sie gelernt, wie Sie Aspose.Slides für Java einrichten und ein gruppiertes Säulendiagramm erstellen. Außerdem haben Sie die Verwaltung von Datenreihen und die Anpassung der Visualisierung negativer Datenpunkte erlernt. Mit diesen Kenntnissen können Sie nun sicher dynamische Diagramme in Ihren Java-Anwendungen erstellen.
+### Häufige Fallstricke & Tipps
+- **Forgot to dispose the `Presentation` object?** Rufen Sie immer `dispose()` in einem `finally`‑Block auf, um native Ressourcen freizugeben.
+- **Negative values not showing as inverted?** Stellen Sie sicher, dass Sie `invertIfNegative(true)` **nach** dem Hinzufügen des Datenpunkts aufrufen.
+- **Chart size issues:** Die Koordinaten (X, Y) und Abmessungen (Breite, Höhe) sind in Punkten angegeben; passen Sie sie an das Folienlayout an.
 
-**Nächste Schritte:**
-- Experimentieren Sie mit verschiedenen Diagrammtypen, die in Aspose.Slides für Java verfügbar sind.
-- Entdecken Sie zusätzliche Anpassungsoptionen zur Verbesserung Ihrer Präsentationen.
+## Häufig gestellte Fragen
+
+**Q: Kann ich mit dem gleichen Ansatz andere Diagrammtypen erstellen?**  
+**A:** Ja, ersetzen Sie einfach `ChartType.ClusteredColumn` durch einen anderen `ChartType`‑Enum‑Wert (z. B. `Line`, `Pie`).
+
+**Q: Benötige ich eine Lizenz für Entwicklungs‑Builds?**  
+**A:** Eine temporäre oder Evaluationslizenz ist für den vollen Funktionsumfang erforderlich; andernfalls funktioniert die Bibliothek im Testmodus mit Wasserzeichen‑Beschränkungen.
+
+**Q: Wie exportiere ich die Präsentation nach dem Hinzufügen von Diagrammen nach PDF?**  
+**A:** Verwenden Sie `pres.save("output.pdf", SaveFormat.Pdf);`, nachdem Sie die Diagrammbearbeitung abgeschlossen haben.
+
+**Q: Ist es möglich, einzelne Spalten (Farbe, Rand) zu formatieren?**  
+**A:** Ja, jeder `IChartDataPoint` bietet Formatierungsoptionen wie `getFillFormat().setFillType(FillType.Solid)` und `getLineFormat()`.
+
+**Q: Was ist, wenn ich die Diagrammdaten nach dem Speichern der Präsentation aktualisieren muss?**  
+**A:** Laden Sie die Präsentation erneut mit `new Presentation("file.pptx")`, ändern Sie die Diagrammdaten und speichern Sie erneut.
+
+---
+
+**Zuletzt aktualisiert:** 2026-02-12  
+**Getestet mit:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
