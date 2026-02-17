@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-17"
-"description": "Tìm hiểu cách sửa đổi phạm vi dữ liệu biểu đồ trong bản trình bày PowerPoint bằng Aspose.Slides for Java. Cải thiện slide của bạn theo chương trình một cách dễ dàng."
-"title": "Cách truy cập và sửa đổi phạm vi dữ liệu biểu đồ trong PowerPoint bằng Aspose.Slides cho Java"
-"url": "/vi/java/charts-graphs/aspose-slides-java-modify-chart-data-range/"
-"weight": 1
+date: '2026-02-17'
+description: Tìm hiểu cách cập nhật phạm vi dữ liệu biểu đồ PowerPoint một cách lập
+  trình bằng Aspose.Slides cho Java. Hướng dẫn từng bước để thao tác biểu đồ động.
+keywords:
+- modify chart data range
+- Aspose.Slides for Java tutorial
+- programmatically manipulate PowerPoint charts
+title: Cách cập nhật phạm vi dữ liệu biểu đồ PowerPoint bằng Aspose.Slides cho Java
+url: /vi/java/charts-graphs/aspose-slides-java-modify-chart-data-range/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,39 +16,46 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Làm chủ Aspose.Slides cho Java: Truy cập và sửa đổi phạm vi dữ liệu biểu đồ trong bản trình bày PowerPoint
+# Thành thạo Aspose.Slides cho Java: Truy cập và Sửa đổi Phạm vi Dữ liệu Biểu đồ trong Bản trình chiếu PowerPoint
 
 ## Giới thiệu
 
-Bạn có muốn cải thiện bài thuyết trình PowerPoint của mình bằng cách điều chỉnh phạm vi dữ liệu biểu đồ một cách linh hoạt không? Với Aspose.Slides for Java, nhiệm vụ này trở nên liền mạch, cho phép các nhà phát triển thao tác biểu đồ theo chương trình. Hướng dẫn này sẽ hướng dẫn bạn cách truy cập và sửa đổi phạm vi dữ liệu của biểu đồ bằng Aspose.Slides for Java, một công cụ thiết yếu để tự động hóa các tác vụ thuyết trình.
+Bạn có muốn **cập nhật dữ liệu biểu đồ PowerPoint** một cách động không? Với Aspose.Slides cho Java, công việc này trở nên liền mạch, cho phép các nhà phát triển thao tác biểu đồ bằng mã. Trong hướng dẫn này, bạn sẽ học cách truy cập một biểu đồ, thay đổi nguồn dữ liệu của nó, và **đặt phạm vi dữ liệu biểu đồ** bằng mã Java sạch sẽ.
 
-**Những gì bạn sẽ học được:**
-- Thiết lập môi trường của bạn với Aspose.Slides cho Java.
-- Truy cập các slide và hình dạng trong bài thuyết trình.
-- Sửa đổi phạm vi dữ liệu của biểu đồ trong tệp PowerPoint.
-- Thực hành tốt nhất để tối ưu hóa hiệu suất khi sử dụng Aspose.Slides.
+**Bạn sẽ học được**
+- Cài đặt môi trường với Aspose.Slides cho Java.  
+- Truy cập các slide và shape trong một bản trình chiếu.  
+- Sửa đổi phạm vi dữ liệu của biểu đồ trong file PowerPoint.  
+- Các thực tiễn tốt nhất về hiệu năng và quản lý bộ nhớ.
 
-Trước khi bắt đầu triển khai, hãy đảm bảo rằng bạn đã đáp ứng đủ mọi điều kiện tiên quyết cần thiết.
+Trước khi chúng ta đi vào mã, hãy chắc chắn rằng bạn đã chuẩn bị đầy đủ.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Tôi có thể thay đổi nguồn dữ liệu của biểu đồ tại thời gian chạy không?** Có, bằng cách sử dụng `chart.getChartData().setRange(...)`.  
+- **Phiên bản thư viện nào được yêu cầu?** Aspose.Slides cho Java 25.4 trở lên.  
+- **Tôi có cần giấy phép cho việc phát triển không?** Bản dùng thử miễn phí đủ cho việc kiểm tra; giấy phép chính thức cần cho môi trường sản xuất.  
+- **JDK 16 có bắt buộc không?** Được khuyến nghị; các phiên bản cũ hơn có thể hoạt động nhưng không được hỗ trợ chính thức.  
+- **Điều này chỉ hoạt động với PPTX phải không?** Ví dụ sử dụng PPTX; cùng API cũng hỗ trợ PPT.
 
-Để thực hiện hướng dẫn này một cách hiệu quả, bạn sẽ cần:
+## Các điều kiện tiên quyết
+
+Để theo dõi hướng dẫn này một cách hiệu quả, bạn cần:
 
 ### Thư viện và phụ thuộc bắt buộc
-- **Aspose.Slides cho Java**: Hãy đảm bảo tải xuống phiên bản 25.4 trở lên.
-  
-### Yêu cầu thiết lập môi trường
-- Môi trường phát triển đã cài đặt JDK 16.
+- **Aspose.Slides cho Java**: Đảm bảo tải về phiên bản 25.4 hoặc mới hơn.  
 
-### Điều kiện tiên quyết về kiến thức
-- Hiểu biết cơ bản về lập trình Java.
-- Quen thuộc với các bài thuyết trình PowerPoint và cấu trúc biểu đồ.
+### Yêu cầu cài đặt môi trường
+- Môi trường phát triển có cài đặt JDK 16.
 
-Với những điều kiện tiên quyết này, chúng ta hãy tiến hành thiết lập Aspose.Slides cho Java.
+### Kiến thức nền tảng
+- Hiểu biết cơ bản về lập trình Java.  
+- Quen thuộc với các bản trình chiếu PowerPoint và cấu trúc biểu đồ.
 
-## Thiết lập Aspose.Slides cho Java
+Với các điều kiện tiên quyết này, chúng ta tiến hành cài đặt Aspose.Slides cho Java.
 
-Tích hợp Aspose.Slides vào dự án của bạn có thể dễ dàng thực hiện bằng Maven hoặc Gradle. Sau đây là cách thực hiện:
+## Cài đặt Aspose.Slides cho Java
+
+Việc tích hợp Aspose.Slides vào dự án có thể thực hiện dễ dàng bằng Maven hoặc Gradle. Đây là cách thực hiện:
 
 **Maven**
 ```xml
@@ -55,117 +67,124 @@ Tích hợp Aspose.Slides vào dự án của bạn có thể dễ dàng thực 
 </dependency>
 ```
 
-**Tốt nghiệp**
+**Gradle**
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Đối với những người thích tải xuống trực tiếp, bạn có thể tải phiên bản mới nhất từ [Aspose.Slides cho bản phát hành Java](https://releases.aspose.com/slides/java/).
+Đối với những người thích tải trực tiếp, bạn có thể lấy phiên bản mới nhất từ [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### Các bước xin cấp giấy phép
-- **Dùng thử miễn phí**: Bắt đầu bằng bản dùng thử miễn phí để khám phá các tính năng.
-- **Giấy phép tạm thời**: Xin giấy phép tạm thời để thử nghiệm rộng rãi hơn.
-- **Mua**: Hãy cân nhắc mua nếu thư viện đáp ứng được nhu cầu của bạn.
+### Các bước lấy giấy phép
+- **Bản dùng thử**: Bắt đầu với bản dùng thử để khám phá các tính năng.  
+- **Giấy phép tạm thời**: Nhận giấy phép tạm thời để thử nghiệm sâu hơn.  
+- **Mua bản quyền**: Xem xét mua nếu thư viện đáp ứng nhu cầu của bạn.
 
-### Khởi tạo và thiết lập cơ bản
-Sau khi Aspose.Slides được đưa vào dự án của bạn, hãy khởi tạo nó như sau:
+### Khởi tạo và cài đặt cơ bản
+Sau khi đã thêm Aspose.Slides vào dự án, khởi tạo như sau:
 ```java
 Presentation presentation = new Presentation();
 ```
-Bước đơn giản này thiết lập môi trường để bạn bắt đầu làm việc với các bài thuyết trình theo chương trình.
+Bước đơn giản này thiết lập môi trường để bắt đầu làm việc với các bản trình chiếu một cách lập trình.
 
-## Hướng dẫn thực hiện
+## Cập nhật Phạm vi Dữ liệu Biểu đồ PowerPoint – Từng bước
 
-Chúng ta hãy chia nhỏ quá trình truy cập và sửa đổi phạm vi dữ liệu của biểu đồ thành các bước dễ quản lý:
+### Truy cập Biểu đồ
+#### Cách tìm biểu đồ cần sửa đổi
+Đầu tiên, chúng ta cần tải một bản trình chiếu hiện có và lấy shape biểu đồ.
 
-### Truy cập vào biểu đồ
-#### Tổng quan
-Đầu tiên, chúng ta cần truy cập biểu đồ trong bản trình bày PowerPoint hiện có.
-
-#### Tải bài trình bày
 ```java
-// Chỉ định thư mục tài liệu nơi lưu trữ các tập tin của bạn.
+// Specify the document directory where your files are located.
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 
-// Khởi tạo lớp Presentation biểu diễn tệp PPTX.
+// Instantiate Presentation class that represents a PPTX file.
 Presentation presentation = new Presentation(dataDir + "/ExistingChart.pptx");
 ```
 
-#### Truy cập Slide và Hình dạng
 ```java
-// Truy cập vào trang chiếu đầu tiên của bài thuyết trình.
+// Access the first slide of the presentation.
 ISlide slide = presentation.getSlides().get_Item(0);
 
-// Lấy hình dạng đầu tiên từ slide, giả sử đó là biểu đồ.
+// Get the first shape from the slide, assuming it's a chart.
 IChart chart = (IChart) slide.getShapes().get_Item(0);
 ```
 
-### Sửa đổi phạm vi dữ liệu biểu đồ
-#### Tổng quan
-Bây giờ chúng ta đã có quyền truy cập vào biểu đồ, hãy sửa đổi phạm vi dữ liệu của biểu đồ.
+> **Mẹo:** Nếu biểu đồ không phải là shape đầu tiên, hãy lặp qua `slide.getShapes()` và kiểm tra `instanceof IChart` để tìm đúng đối tượng.
 
-#### Đặt Phạm vi Dữ liệu Mới
+### Sửa đổi Phạm vi Dữ liệu Biểu đồ
+#### Cách thay đổi nguồn dữ liệu của biểu đồ
+Khi đã có tham chiếu tới biểu đồ, chúng ta có thể đặt một phạm vi dữ liệu mới bằng ký hiệu A1 kiểu Excel.
+
 ```java
-// Đặt phạm vi dữ liệu mới cho biểu đồ. Phạm vi được chỉ định theo ký hiệu A1 cho trang tính Excel.
+// Set a new data range for the chart. The range is specified in A1 notation for an Excel sheet.
 chart.getChartData().setRange("Sheet1!A1:B4");
 ```
 
-### Lưu bản trình bày đã sửa đổi
-#### Tổng quan
-Sau khi sửa đổi biểu đồ, hãy lưu các thay đổi để tạo tệp trình bày mới.
+### Lưu Bản trình chiếu Đã Sửa đổi
+#### Cách ghi lại các thay đổi
+Sau khi cập nhật phạm vi dữ liệu, lưu bản trình chiếu vào một file mới.
 
-#### Lưu tập tin
 ```java
-// Lưu bản trình bày đã sửa đổi vào một tệp mới.
+// Save the modified presentation to a new file.
 presentation.save(dataDir + "/SetDataRange_out.pptx", SaveFormat.Pptx);
 ```
-**Mẹo khắc phục sự cố:**
-- Đảm bảo đường dẫn thư mục dữ liệu của bạn chính xác và có thể truy cập được.
-- Xác minh rằng biểu đồ thực sự là hình dạng đầu tiên trên trang chiếu.
 
-## Ứng dụng thực tế
-Aspose.Slides for Java mở ra nhiều khả năng, chẳng hạn như:
-1. **Tự động hóa báo cáo**: Tự động cập nhật biểu đồ trong báo cáo hàng tháng dựa trên các tập dữ liệu mới.
-2. **Bảng điều khiển động**: Tạo bảng thông tin tương tác trong đó phạm vi dữ liệu được điều chỉnh dựa trên thông tin đầu vào của người dùng.
-3. **Công cụ giáo dục**Phát triển phần mềm giáo dục có thể điều chỉnh dữ liệu biểu đồ để phù hợp với kế hoạch bài học.
+**Mẹo khắc phục sự cố**
+- Đảm bảo đường dẫn `dataDir` đúng và ứng dụng có quyền ghi.  
+- Xác nhận rằng shape bạn nhắm tới thực sự là một đối tượng biểu đồ; nếu không sẽ gặp `ClassCastException`.
 
-Các ứng dụng này chứng minh Aspose.Slides linh hoạt và mạnh mẽ như thế nào khi được tích hợp với các hệ thống khác.
+## Ứng dụng thực tiễn
+Aspose.Slides cho Java mở ra nhiều khả năng, chẳng hạn:
 
-## Cân nhắc về hiệu suất
-Khi làm việc với các bài thuyết trình lớn, hãy cân nhắc những mẹo về hiệu suất sau:
-- Tối ưu hóa việc sử dụng bộ nhớ bằng cách loại bỏ các đối tượng không còn cần thiết.
-- Sử dụng luồng để xử lý các tệp lớn một cách hiệu quả.
-- Thực hiện theo các biện pháp quản lý bộ nhớ tốt nhất của Java để đảm bảo hoạt động trơn tru.
+1. **Tự động hoá báo cáo** – Làm mới dữ liệu biểu đồ trong các bộ slide tài chính hàng tháng một cách tự động.  
+2. **Bảng điều khiển động** – Xây dựng dashboard tương tác, nơi người dùng chọn khoảng thời gian và biểu đồ cập nhật ngay lập tức.  
+3. **Công cụ giáo dục** – Tạo biểu đồ riêng cho từng bài học, phản ánh dữ liệu thời gian thực cho các buổi giảng dạy.
 
-## Phần kết luận
-Bây giờ bạn đã học cách truy cập và sửa đổi phạm vi dữ liệu biểu đồ trong PowerPoint bằng Aspose.Slides for Java. Khả năng này có thể cải thiện đáng kể các bài thuyết trình của bạn, giúp chúng trở nên năng động hơn và phản hồi tốt hơn với dữ liệu thay đổi.
+Những kịch bản này cho thấy lý do tại sao bạn có thể muốn **sửa đổi phạm vi dữ liệu biểu đồ** thay vì tạo lại toàn bộ slide.
 
-**Các bước tiếp theo:**
-- Khám phá các tính năng bổ sung của Aspose.Slides.
-- Thử nghiệm với các loại biểu đồ và hình dạng khác.
-- Tích hợp chức năng này vào các dự án lớn hơn.
+## Lưu ý về hiệu năng
+Khi làm việc với các bản trình chiếu lớn, hãy ghi nhớ các lời khuyên sau:
 
-Sẵn sàng thử chưa? Hãy áp dụng các bước này vào dự án tiếp theo của bạn và tự mình chứng kiến sự khác biệt nhé!
+- Giải phóng đối tượng (`presentation.dispose()`) khi không còn cần thiết.  
+- Sử dụng stream (`FileInputStream`, `FileOutputStream`) cho các file lớn để giảm áp lực bộ nhớ.  
+- Tuân thủ các thực tiễn tốt nhất của Java về garbage collection và tránh giữ các đối tượng lớn lâu hơn cần thiết.
 
-## Phần Câu hỏi thường gặp
-1. **Aspose.Slides for Java là gì?**
-   - Một thư viện mạnh mẽ để quản lý các bài thuyết trình PowerPoint theo chương trình.
-2. **Làm thế nào để thiết lập Aspose.Slides?**
-   - Sử dụng các phụ thuộc của Maven hoặc Gradle hoặc tải xuống trực tiếp từ trang phát hành.
-3. **Tôi có thể sửa đổi nhiều biểu đồ cùng lúc không?**
-   - Có, lặp lại các hình dạng và áp dụng các thay đổi khi cần thiết.
-4. **Nếu biểu đồ của tôi không phải là hình dạng đầu tiên trên trang chiếu thì sao?**
-   - Điều chỉnh mã của bạn để tìm đúng biểu đồ bằng cách lặp lại các hình dạng.
-5. **Làm thế nào để xử lý các bài thuyết trình lớn một cách hiệu quả?**
-   - Thực hiện theo các biện pháp quản lý bộ nhớ Java tốt nhất và sử dụng luồng để xử lý tệp.
+## Các vấn đề thường gặp và giải pháp
+| Vấn đề | Nguyên nhân | Giải pháp |
+|-------|-------------|-----------|
+| `ClassCastException` khi ép kiểu shape thành `IChart` | Shape không phải là biểu đồ. | Lặp qua các shape và kiểm tra `instanceof IChart`. |
+| Phạm vi dữ liệu không hiển thị trong PowerPoint | Ký hiệu A1 hoặc tên sheet không đúng. | Kiểm tra lại tên sheet và tham chiếu ô có khớp với workbook nhúng. |
+| Lỗi hết bộ nhớ khi xử lý file lớn | Tải toàn bộ bản trình chiếu vào bộ nhớ. | Sử dụng constructor `Presentation` nhận stream và bật `LoadOptions` để tải một phần. |
+
+## Câu hỏi thường gặp
+
+**H: Tôi có thể cập nhật nhiều biểu đồ trong một bản trình chiếu không?**  
+Đ: Có. Lặp qua mỗi slide và mỗi shape, kiểm tra `IChart`, sau đó gọi `setRange` cho từng biểu đồ cần sửa.
+
+**H: Nếu dữ liệu biểu đồ của tôi được lưu trong file Excel bên ngoài thì sao?**  
+Đ: Bạn có thể nhúng workbook bên ngoài vào bản trình chiếu trước, rồi tham chiếu phạm vi của nó bằng `setRange`. Aspose.Slides cũng cung cấp API để nhập nguồn dữ liệu ngoại vi.
+
+**H: Điều này có hoạt động với file PPT (nhị phân) không?**  
+Đ: Cùng API hỗ trợ cả hai định dạng; chỉ cần thay đổi phần mở rộng file khi tải hoặc lưu.
+
+**H: Làm sao thay đổi loại biểu đồ sau khi đã sửa phạm vi dữ liệu?**  
+Đ: Dùng `chart.getChartData().setChartType(ChartType.Bar)` (hoặc bất kỳ loại nào được hỗ trợ) trước khi lưu.
+
+**H: Có cần giấy phép cho bản dựng phát triển không?**  
+Đ: Giấy phép dùng thử miễn phí đủ cho phát triển và kiểm tra. Giấy phép đầy đủ cần cho triển khai sản xuất.
 
 ## Tài nguyên
-- **Tài liệu**: [Tài liệu Aspose.Slides](https://reference.aspose.com/slides/java/)
-- **Tải về**: [Bản phát hành mới nhất](https://releases.aspose.com/slides/java/)
-- **Mua**: [Mua Aspose.Slides](https://purchase.aspose.com/buy)
-- **Dùng thử miễn phí**: [Bắt đầu dùng thử miễn phí](https://releases.aspose.com/slides/java/)
-- **Giấy phép tạm thời**: [Nhận giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
-- **Ủng hộ**: [Diễn đàn Aspose](https://forum.aspose.com/c/slides/11)
+- **Tài liệu**: [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
+- **Tải về**: [Latest Releases](https://releases.aspose.com/slides/java/)
+- **Mua bản quyền**: [Buy Aspose.Slides](https://purchase.aspose.com/buy)
+- **Bản dùng thử**: [Start Free Trial](https://releases.aspose.com/slides/java/)
+- **Giấy phép tạm thời**: [Get Temporary License](https://purchase.aspose.com/temporary-license/)
+- **Hỗ trợ**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
+
+---
+
+**Cập nhật lần cuối:** 2026-02-17  
+**Kiểm tra với:** Aspose.Slides cho Java 25.4 (JDK 16)  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-17"
-"description": "Pelajari cara mengubah rentang data bagan dalam presentasi PowerPoint dengan Aspose.Slides untuk Java. Sempurnakan slide Anda secara terprogram dengan mudah."
-"title": "Cara Mengakses dan Memodifikasi Rentang Data Bagan di PowerPoint Menggunakan Aspose.Slides untuk Java"
-"url": "/id/java/charts-graphs/aspose-slides-java-modify-chart-data-range/"
-"weight": 1
+date: '2026-02-17'
+description: Pelajari cara memperbarui rentang data grafik PowerPoint secara programatis
+  dengan Aspose.Slides untuk Java. Panduan langkah demi langkah untuk manipulasi grafik
+  dinamis.
+keywords:
+- modify chart data range
+- Aspose.Slides for Java tutorial
+- programmatically manipulate PowerPoint charts
+title: Cara Memperbarui Rentang Data Grafik PowerPoint Menggunakan Aspose.Slides untuk
+  Java
+url: /id/java/charts-graphs/aspose-slides-java-modify-chart-data-range/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,41 +18,48 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Menguasai Aspose.Slides untuk Java: Mengakses dan Memodifikasi Rentang Data Bagan dalam Presentasi PowerPoint
+# Menguasai Aspose.Slides untuk Java: Mengakses dan Memodifikasi Rentang Data Grafik dalam Presentasi PowerPoint
 
-## Perkenalan
+## Pendahuluan
 
-Apakah Anda ingin menyempurnakan presentasi PowerPoint Anda dengan menyesuaikan rentang data bagan secara dinamis? Dengan Aspose.Slides untuk Java, tugas ini menjadi lancar, yang memungkinkan pengembang untuk memanipulasi bagan secara terprogram. Tutorial ini akan memandu Anda mengakses dan memodifikasi rentang data bagan menggunakan Aspose.Slides untuk Java, alat penting untuk mengotomatiskan tugas presentasi.
+Apakah Anda ingin **memperbarui grafik PowerPoint** secara dinamis? Dengan Aspose.Slides untuk Java, tugas ini menjadi mudah, memungkinkan pengembang untuk memanipulasi grafik secara programatis. Dalam tutorial ini Anda akan belajar cara mengakses grafik, mengubah sumber data, dan **menetapkan rentang data grafik** menggunakan kode Java yang bersih.
 
-**Apa yang Akan Anda Pelajari:**
-- Menyiapkan lingkungan Anda dengan Aspose.Slides untuk Java.
-- Mengakses slide dan bentuk dalam presentasi.
-- Memodifikasi rentang data bagan dalam berkas PowerPoint.
-- Praktik terbaik untuk mengoptimalkan kinerja saat menggunakan Aspose.Slides.
+**Apa yang Akan Anda Pelajari**
+- Menyiapkan lingkungan Anda dengan Aspose.Slides untuk Java.  
+- Mengakses slide dan bentuk dalam sebuah presentasi.  
+- Memodifikasi rentang data grafik dalam file PowerPoint.  
+- Praktik terbaik untuk kinerja dan manajemen memori.
 
-Sebelum kita masuk ke implementasi, mari pastikan Anda telah memenuhi semua prasyarat yang diperlukan.
+Sebelum kita masuk ke kode, pastikan Anda memiliki semua yang diperlukan.
+
+## Jawaban Cepat
+- **Apakah saya dapat mengubah sumber data grafik saat runtime?** Ya, dengan menggunakan `chart.getChartData().setRange(...)`.  
+- **Versi perpustakaan apa yang diperlukan?** Aspose.Slides untuk Java 25.4 atau lebih baru.  
+- **Apakah saya memerlukan lisensi untuk pengembangan?** Versi percobaan gratis cukup untuk pengujian; lisensi permanen diperlukan untuk produksi.  
+- **Apakah JDK 16 wajib?** Disarankan; versi sebelumnya mungkin berfungsi tetapi tidak didukung secara resmi.  
+- **Apakah ini hanya bekerja dengan PPTX?** Contoh menggunakan PPTX; API yang sama juga mendukung PPT.
 
 ## Prasyarat
 
-Untuk mengikuti tutorial ini secara efektif, Anda memerlukan:
+Untuk mengikuti tutorial ini dengan efektif, Anda memerlukan:
 
-### Pustaka dan Ketergantungan yang Diperlukan
-- **Aspose.Slides untuk Java**Pastikan untuk mengunduh versi 25.4 atau yang lebih baru.
-  
-### Persyaratan Pengaturan Lingkungan
-- Lingkungan pengembangan dengan JDK 16 terinstal.
+### Perpustakaan dan Dependensi yang Diperlukan
+- **Aspose.Slides untuk Java**: Pastikan mengunduh versi 25.4 atau lebih baru.  
+
+### Persyaratan Penyiapan Lingkungan
+- Lingkungan pengembangan dengan JDK 16 terpasang.
 
 ### Prasyarat Pengetahuan
-- Pemahaman dasar tentang pemrograman Java.
-- Keakraban dengan presentasi PowerPoint dan struktur bagan.
+- Pemahaman dasar tentang pemrograman Java.  
+- Keterbiasaan dengan presentasi PowerPoint dan struktur grafik.
 
-Dengan prasyarat ini, mari lanjutkan ke pengaturan Aspose.Slides untuk Java.
+Dengan prasyarat ini terpenuhi, mari lanjutkan ke penyiapan Aspose.Slides untuk Java.
 
 ## Menyiapkan Aspose.Slides untuk Java
 
 Mengintegrasikan Aspose.Slides ke dalam proyek Anda dapat dilakukan dengan mudah menggunakan Maven atau Gradle. Berikut caranya:
 
-**Pakar**
+**Maven**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -55,117 +69,124 @@ Mengintegrasikan Aspose.Slides ke dalam proyek Anda dapat dilakukan dengan mudah
 </dependency>
 ```
 
-**Bahasa Inggris Gradle**
+**Gradle**
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Bagi mereka yang lebih suka mengunduh langsung, Anda bisa mendapatkan versi terbaru dari [Aspose.Slides untuk rilis Java](https://releases.aspose.com/slides/java/).
+Bagi yang lebih suka mengunduh langsung, Anda dapat mendapatkan versi terbaru dari [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### Langkah-langkah Memperoleh Lisensi
-- **Uji Coba Gratis**: Mulailah dengan uji coba gratis untuk menjelajahi fitur-fitur.
-- **Lisensi Sementara**: Dapatkan lisensi sementara untuk pengujian yang lebih luas.
-- **Pembelian**: Pertimbangkan untuk membeli jika perpustakaan tersebut memenuhi kebutuhan Anda.
+### Langkah-langkah Akuisisi Lisensi
+- **Free Trial**: Mulai dengan percobaan gratis untuk menjelajahi fitur.  
+- **Temporary License**: Dapatkan lisensi sementara untuk pengujian yang lebih luas.  
+- **Purchase**: Pertimbangkan untuk membeli jika perpustakaan memenuhi kebutuhan Anda.
 
-### Inisialisasi dan Pengaturan Dasar
-Setelah Aspose.Slides disertakan dalam proyek Anda, inisialisasikan sebagai berikut:
+### Inisialisasi dan Penyiapan Dasar
+Setelah Aspose.Slides termasuk dalam proyek Anda, inisialisasi dengan cara berikut:
 ```java
 Presentation presentation = new Presentation();
 ```
-Langkah sederhana ini menyiapkan lingkungan Anda untuk mulai bekerja dengan presentasi secara terprogram.
+Langkah sederhana ini menyiapkan lingkungan Anda untuk mulai bekerja dengan presentasi secara programatis.
 
-## Panduan Implementasi
+## Memperbarui Rentang Data Grafik PowerPoint – Langkah demi Langkah
 
-Mari kita uraikan proses mengakses dan memodifikasi rentang data grafik ke dalam langkah-langkah yang dapat dikelola:
+### Mengakses Grafik
+#### Cara menemukan grafik yang ingin Anda modifikasi
+Pertama, kita perlu memuat presentasi yang ada dan mengambil bentuk grafik.
 
-### Mengakses Bagan
-#### Ringkasan
-Pertama, kita perlu mengakses bagan dalam presentasi PowerPoint yang ada.
-
-#### Presentasi Beban
 ```java
-// Tentukan direktori dokumen tempat file Anda berada.
+// Specify the document directory where your files are located.
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 
-// Membuat kelas Presentasi yang merepresentasikan berkas PPTX.
+// Instantiate Presentation class that represents a PPTX file.
 Presentation presentation = new Presentation(dataDir + "/ExistingChart.pptx");
 ```
 
-#### Akses Slide dan Bentuk
 ```java
-// Akses slide pertama presentasi.
+// Access the first slide of the presentation.
 ISlide slide = presentation.getSlides().get_Item(0);
 
-// Dapatkan bentuk pertama dari slide, dengan asumsi itu adalah bagan.
+// Get the first shape from the slide, assuming it's a chart.
 IChart chart = (IChart) slide.getShapes().get_Item(0);
 ```
 
-### Memodifikasi Rentang Data Bagan
-#### Ringkasan
-Sekarang setelah kita memiliki akses ke bagan, mari ubah rentang datanya.
+> **Pro tip:** Jika grafik bukan bentuk pertama, iterasi melalui `slide.getShapes()` dan periksa `instanceof IChart` untuk menemukan yang tepat.
 
-#### Tetapkan Rentang Data Baru
+### Memodifikasi Rentang Data Grafik
+#### Cara mengubah sumber data grafik
+Sekarang kita memiliki referensi ke grafik, kita dapat menetapkan rentang data baru menggunakan notasi A1 ala Excel.
+
 ```java
-// Tetapkan rentang data baru untuk bagan. Rentang ini ditentukan dalam notasi A1 untuk lembar Excel.
+// Set a new data range for the chart. The range is specified in A1 notation for an Excel sheet.
 chart.getChartData().setRange("Sheet1!A1:B4");
 ```
 
 ### Menyimpan Presentasi yang Dimodifikasi
-#### Ringkasan
-Setelah memodifikasi bagan, simpan perubahan untuk membuat berkas presentasi baru.
+#### Cara menyimpan perubahan Anda
+Setelah memperbarui rentang data, simpan presentasi ke file baru.
 
-#### Simpan File
 ```java
-// Simpan presentasi yang dimodifikasi ke berkas baru.
+// Save the modified presentation to a new file.
 presentation.save(dataDir + "/SetDataRange_out.pptx", SaveFormat.Pptx);
 ```
-**Tips Pemecahan Masalah:**
-- Pastikan jalur direktori data Anda benar dan dapat diakses.
-- Verifikasi bahwa bagan tersebut memang bentuk pertama pada slide.
+
+**Tips Pemecahan Masalah**
+- Pastikan jalur `dataDir` benar dan aplikasi memiliki izin menulis.  
+- Verifikasi bahwa grafik yang Anda targetkan memang objek grafik; jika tidak, `ClassCastException` akan dilempar.
 
 ## Aplikasi Praktis
 Aspose.Slides untuk Java membuka banyak kemungkinan, seperti:
-1. **Mengotomatiskan Laporan**: Secara otomatis memperbarui bagan dalam laporan bulanan berdasarkan kumpulan data baru.
-2. **Dasbor Dinamis**: Buat dasbor interaktif tempat rentang data disesuaikan berdasarkan masukan pengguna.
-3. **Alat Pendidikan**Mengembangkan perangkat lunak pendidikan yang menyesuaikan data bagan agar sesuai dengan rencana pelajaran.
 
-Aplikasi ini menunjukkan betapa serbaguna dan hebatnya Aspose.Slides ketika diintegrasikan dengan sistem lain.
+1. **Automating Reports** – Memperbarui data grafik dalam deck keuangan bulanan secara otomatis.  
+2. **Dynamic Dashboards** – Membuat dashboard interaktif di mana pengguna memilih rentang tanggal dan grafik diperbarui secara langsung.  
+3. **Educational Tools** – Menghasilkan grafik khusus pelajaran yang mencerminkan data real‑time untuk presentasi kelas.
+
+Skenario ini menggambarkan mengapa Anda mungkin ingin **memodifikasi rentang data grafik** daripada membuat ulang seluruh slide.
 
 ## Pertimbangan Kinerja
-Saat bekerja dengan presentasi besar, pertimbangkan kiat kinerja berikut:
-- Optimalkan penggunaan memori dengan membuang objek yang tidak lagi diperlukan.
-- Gunakan aliran untuk menangani berkas besar secara efisien.
-- Ikuti praktik terbaik Java untuk manajemen memori guna memastikan operasi lancar.
+Saat bekerja dengan presentasi besar, ingat tips berikut:
 
-## Kesimpulan
-Anda kini telah mempelajari cara mengakses dan mengubah rentang data bagan di PowerPoint menggunakan Aspose.Slides untuk Java. Kemampuan ini dapat meningkatkan presentasi Anda secara signifikan, membuatnya lebih dinamis dan responsif terhadap perubahan data.
+- Buang objek (`presentation.dispose()`) ketika tidak lagi diperlukan.  
+- Gunakan stream (`FileInputStream`, `FileOutputStream`) untuk file besar guna mengurangi tekanan memori.  
+- Ikuti praktik terbaik Java untuk garbage collection dan hindari menahan objek besar lebih lama dari yang diperlukan.
 
-**Langkah Berikutnya:**
-- Jelajahi fitur tambahan Aspose.Slides.
-- Bereksperimenlah dengan jenis bagan dan bentuk lainnya.
-- Integrasikan fungsi ini ke dalam proyek yang lebih besar.
+## Masalah Umum dan Solusinya
+| Issue | Cause | Solution |
+|-------|-------|----------|
+| `ClassCastException` when casting shape to `IChart` | Bentuk tersebut bukan grafik. | Iterasi melalui bentuk dan periksa `instanceof IChart`. |
+| Data range not reflecting in PowerPoint | Notasi A1 atau nama sheet tidak tepat. | Verifikasi nama sheet dan referensi sel cocok dengan workbook yang tersemat. |
+| Out‑of‑memory errors on huge files | Memuat seluruh presentasi ke memori. | Gunakan konstruktor `Presentation` yang menerima stream dan aktifkan `LoadOptions` untuk pemuatan parsial. |
 
-Siap untuk mencobanya? Terapkan langkah-langkah ini pada proyek Anda berikutnya dan lihat sendiri perbedaannya!
+## Pertanyaan yang Sering Diajukan
 
-## Bagian FAQ
-1. **Apa itu Aspose.Slides untuk Java?**
-   - Pustaka yang canggih untuk mengelola presentasi PowerPoint secara terprogram.
-2. **Bagaimana cara mengatur Aspose.Slides?**
-   - Gunakan dependensi Maven atau Gradle, atau unduh langsung dari halaman rilis.
-3. **Bisakah saya mengubah beberapa grafik sekaligus?**
-   - Ya, ulangi melalui bentuk dan terapkan perubahan seperlunya.
-4. **Bagaimana jika bagan saya bukan bentuk pertama pada slide?**
-   - Sesuaikan kode Anda untuk menemukan bagan yang benar dengan mengulangi bentuk-bentuknya.
-5. **Bagaimana cara menangani presentasi besar secara efisien?**
-   - Ikuti praktik terbaik manajemen memori Java dan gunakan aliran untuk penanganan file.
+**Q: Bisakah saya memperbarui beberapa grafik dalam satu presentasi?**  
+A: Ya. Loop melalui setiap slide dan setiap bentuk, periksa `IChart`, lalu panggil `setRange` pada setiap grafik yang perlu Anda modifikasi.
 
-## Sumber daya
-- **Dokumentasi**: [Dokumentasi Aspose.Slides](https://reference.aspose.com/slides/java/)
-- **Unduh**: [Rilis Terbaru](https://releases.aspose.com/slides/java/)
-- **Pembelian**: [Beli Aspose.Slides](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis**: [Mulai Uji Coba Gratis](https://releases.aspose.com/slides/java/)
-- **Lisensi Sementara**: [Dapatkan Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- **Mendukung**: [Forum Aspose](https://forum.aspose.com/c/slides/11)
+**Q: Bagaimana jika data grafik saya disimpan dalam file Excel eksternal?**  
+A: Anda dapat menyematkan workbook eksternal ke dalam presentasi terlebih dahulu, lalu merujuk rentangnya menggunakan `setRange`. Aspose.Slides juga menyediakan API untuk mengimpor sumber data eksternal.
+
+**Q: Apakah ini bekerja dengan file PPT (biner) serta PPTX?**  
+A: API yang sama bekerja untuk kedua format; cukup ubah ekstensi file saat memuat atau menyimpan.
+
+**Q: Bagaimana cara mengubah tipe grafik setelah memodifikasi rentang data?**  
+A: Gunakan `chart.getChartData().setChartType(ChartType.Bar)` (atau tipe lain yang didukung) sebelum menyimpan.
+
+**Q: Apakah lisensi diperlukan untuk build pengembangan?**  
+A: Lisensi percobaan gratis cukup untuk pengembangan dan pengujian. Lisensi penuh diperlukan untuk penyebaran produksi.
+
+## Sumber Daya
+- **Documentation**: [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
+- **Download**: [Latest Releases](https://releases.aspose.com/slides/java/)
+- **Purchase**: [Buy Aspose.Slides](https://purchase.aspose.com/buy)
+- **Free Trial**: [Start Free Trial](https://releases.aspose.com/slides/java/)
+- **Temporary License**: [Get Temporary License](https://purchase.aspose.com/temporary-license/)
+- **Support**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
+
+---
+
+**Terakhir Diperbarui:** 2026-02-17  
+**Diuji Dengan:** Aspose.Slides untuk Java 25.4 (JDK 16)  
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
