@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-17"
-"description": "Leer hoe je Aspose.Slides voor Java gebruikt om dynamische ringdiagrammen te maken in PowerPoint. Verbeter je presentaties met eenvoudig te volgen stappen en codevoorbeelden."
-"title": "Dynamische ringdiagrammen maken in PowerPoint met Aspose.Slides voor Java"
-"url": "/nl/java/charts-graphs/aspose-slides-java-doughnut-charts-ppt-powerpoint/"
-"weight": 1
+date: '2026-02-17'
+description: Leer hoe je een donutgrafiek in PowerPoint maakt met Aspose.Slides voor
+  Java en grafiekdatapunten via code toevoegt. Volg eenvoudige stappen en codevoorbeelden.
+keywords:
+- Aspose.Slides for Java
+- dynamic doughnut charts PowerPoint
+- Java PowerPoint chart creation
+title: Maak een donutgrafiek PowerPoint met Aspose.Slides voor Java
+url: /nl/java/charts-graphs/aspose-slides-java-doughnut-charts-ppt-powerpoint/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,30 +16,45 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Maak dynamische donutdiagrammen in PowerPoint met Aspose.Slides voor Java
+# Maak een doughnut‑grafiek PowerPoint met Aspose.Slides voor Java
 
-## Invoering
-Het maken van boeiende presentaties vereist vaak meer dan alleen tekst en afbeeldingen; grafieken kunnen storytelling aanzienlijk verbeteren door gegevens effectief te visualiseren. Veel ontwikkelaars worstelen echter met het programmatisch integreren van dynamische grafiekfuncties in PowerPoint-bestanden. Deze tutorial laat zien hoe je Aspose.Slides voor Java gebruikt om een ringdiagram in PowerPoint te maken – een krachtige tool die flexibiliteit en gebruiksgemak combineert.
+## Introductie
+Het maken van overtuigende presentaties vereist vaak meer dan alleen tekst en afbeeldingen; grafieken kunnen het verhaal aanzienlijk versterken door data effectief te visualiseren. Veel ontwikkelaars vinden het echter lastig om dynamische grafiekfuncties programmatisch in PowerPoint‑bestanden te integreren. Deze tutorial laat zien hoe je **een doughnut‑grafiek PowerPoint** maakt met Aspose.Slides voor Java – een krachtig hulpmiddel dat flexibiliteit en gebruiksgemak combineert.
 
 **Wat je leert:**
-- Een presentatie initialiseren met Aspose.Slides voor Java
-- Stapsgewijze handleiding voor het toevoegen van een ringdiagram aan uw dia's
-- Gegevenspunten configureren en labeleigenschappen aanpassen
-- De gewijzigde presentatie opslaan met hoge getrouwheid
+- Hoe je een presentatie initialiseert met Aspose.Slides voor Java
+- Een stap‑voor‑stap‑gids voor het toevoegen van een doughnut‑grafiek aan je dia's
+- Het configureren van datapunten en het aanpassen van label‑eigenschappen
+- Het opslaan van de gewijzigde presentatie met hoge nauwkeurigheid
 
-Laten we eens kijken hoe je deze functies kunt gebruiken om je presentaties te verbeteren. Voordat we beginnen, zorg ervoor dat je bekend bent met de basisprincipes van Java-programmeren.
+Laten we ontdekken hoe je deze functies kunt benutten om je presentaties te verbeteren. Zorg ervoor dat je bekend bent met de basisprincipes van Java voordat we beginnen.
+
+## Snelle antwoorden
+- **Welke bibliotheek maakt doughnut‑grafiek PowerPoint?** Aspose.Slides voor Java  
+- **Kan ik grafiek‑datapunten programmatisch toevoegen?** Ja, via de chart‑API  
+- **Heb ik een licentie nodig voor productie?** Een geldige Aspose.Slides‑licentie is vereist  
+- **Welke Java‑versies worden ondersteund?** Java 8 en later (JDK 16‑classifier weergegeven)  
+- **Hoeveel series kan ik toevoegen?** Het voorbeeld voegt tot 15 series toe, maar je kunt dit aanpassen naar behoefte  
+
+## Wat is een doughnut‑grafiek in PowerPoint?
+Een doughnut‑grafiek is een variant van een cirkeldiagram met een holle kern, waardoor je meerdere dataseries compact en visueel aantrekkelijk kunt weergeven. Het is ideaal om deel‑van‑geheel‑relaties te tonen terwijl het ontwerp overzichtelijk blijft.
+
+## Waarom Aspose.Slides voor Java gebruiken om doughnut‑grafieken te maken?
+- **Volledige controle** over het uiterlijk, de data en de lay‑out van de grafiek zonder PowerPoint te openen  
+- **Geen COM‑interop** – werkt op elk platform dat Java ondersteunt  
+- **Hoge prestaties** voor het genereren van grote presentaties of integratie met webservices  
+- **Rijke aanpassingsmogelijkheden** zoals explosie, gatgrootte, slice‑hoeken en label‑opmaak  
 
 ## Vereisten
-Om deze tutorial effectief te kunnen volgen, moet u het volgende hebben:
-- Basiskennis van Java-programmering.
-- Een Integrated Development Environment (IDE) zoals IntelliJ IDEA of Eclipse.
-- Maven of Gradle geïnstalleerd voor afhankelijkheidsbeheer.
-- Een geldige Aspose.Slides voor Java-licentie. U kunt een gratis proefversie downloaden om de functies te testen.
+- Basiskennis van Java‑programmeren.  
+- Een IDE zoals IntelliJ IDEA of Eclipse.  
+- Maven of Gradle voor afhankelijkheidsbeheer.  
+- Een geldige Aspose.Slides voor Java‑licentie (gratis proefversie beschikbaar).  
 
-## Aspose.Slides instellen voor Java
-Begin met het integreren van Aspose.Slides in je project. Kies tussen Maven en Gradle, afhankelijk van je voorkeur:
+## Aspose.Slides voor Java installeren
+Kies de afhankelijkheidsbeheerder die bij je project past.
 
-**Maven**
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -44,21 +64,21 @@ Begin met het integreren van Aspose.Slides in je project. Kies tussen Maven en G
 </dependency>
 ```
 
-**Gradle**
+**Gradle**  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Als u liever direct downloadt, bezoek dan de [Aspose.Slides voor Java-releases](https://releases.aspose.com/slides/java/) pagina.
+Als je liever direct downloadt, ga dan naar de pagina [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### Licentieverwerving
-U kunt beginnen met een gratis proefperiode om de functies van Aspose.Slides te verkennen. Voor uitgebreid gebruik kunt u een licentie aanschaffen of een tijdelijke licentie aanvragen bij [De website van Aspose](https://purchase.aspose.com/temporary-license/)Volg de instructies om uw omgeving in te stellen en Aspose.Slides in uw toepassing te initialiseren.
+### Licentie‑acquisitie
+Je kunt beginnen met een gratis proefversie om de functies van Aspose.Slides te verkennen. Voor langdurig gebruik koop je een licentie of vraag je een tijdelijke licentie aan via de [website van Aspose](https://purchase.aspose.com/temporary-license/). Volg de meegeleverde instructies om je omgeving in te stellen en Aspose.Slides in je applicatie te initialiseren.
 
-## Implementatiegids
-Laten we de stappen doornemen die nodig zijn om een ringdiagram in PowerPoint te maken met Aspose.Slides voor Java. Elke sectie is gewijd aan een specifieke functie, wat zorgt voor duidelijkheid en focus.
+## Hoe maak je een doughnut‑grafiek PowerPoint met Aspose.Slides voor Java
+Hieronder vind je een volledige stap‑voor‑stap‑gids. Elk code‑blok wordt direct voorafgegaan door een uitleg, zodat je precies weet wat er gebeurt.
 
-### Presentatie initialiseren
-Begin met het laden of maken van een nieuw PowerPoint-bestand. Deze stap stelt uw presentatieomgeving in.
+### Stap 1: Initialiseert de presentatie
+Laad een bestaande PPTX of maak een nieuwe aan. Dit bereidt de collectie dia's voor verdere aanpassingen voor.
 
 ```java
 import com.aspose.slides.*;
@@ -67,12 +87,12 @@ String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Presentation pres = new Presentation(dataDir + "/testc.pptx");
 ISlide slide = pres.getSlides().get_Item(0);
 
-// Controleer of het laden succesvol is door de eerste presentatie op te slaan
+// Verify successful loading by saving the initial presentation
 pres.save(dataDir + "/initialized_chart.pptx", SaveFormat.Pptx);
 ```
 
-### Donutdiagram toevoegen
-Voeg een ringdiagram toe aan uw dia en pas de afmetingen en het uiterlijk aan.
+### Stap 2: Voeg een doughnut‑grafiek toe aan de dia
+We voegen de grafiekvorm toe, wissen eventuele standaard series/categorieën en stellen basis‑visuele eigenschappen in.
 
 ```java
 import com.aspose.slides.*;
@@ -85,7 +105,7 @@ chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 chart.setLegend(false);
 
-// De reekseigenschappen configureren
+// Configure the series properties
 int seriesIndex = 0;
 while (seriesIndex < 15) {
     IChartSeries series = chart.getChartData().getSeries().add(workBook.getCell(0, 0, seriesIndex + 1, "SERIES " + seriesIndex), chart.getType());
@@ -96,8 +116,8 @@ while (seriesIndex < 15) {
 }
 ```
 
-### Gegevenspunten en labels configureren
-Pas de weergave van elk gegevenspunt aan en configureer de labels voor betere leesbaarheid.
+### Stap 3: Voeg grafiek‑datapunten toe en pas labels aan
+Hier vullen we de categorieën, voegen datapunten toe voor elke serie en verfijnen we de label‑weergave. Dit is waar de **add chart data points**‑keyword van pas komt.
 
 ```java
 import com.aspose.slides.*;
@@ -111,7 +131,7 @@ while (categoryIndex < 15) {
         IChartSeries iCS = chart.getChartData().getSeries().get_Item(i);
         IChartDataPoint dataPoint = iCS.getDataPoints().addDataPointForDoughnutSeries(workBook.getCell(0, categoryIndex + 1, i + 1, 1));
         
-        // Formatteer het gegevenspunt
+        // Format the data point
         dataPoint.getFormat().getFill().setFillType(FillType.Solid);
         dataPoint.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
         dataPoint.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
@@ -119,7 +139,7 @@ while (categoryIndex < 15) {
         dataPoint.getFormat().getLine().setStyle(LineStyle.Single);
         dataPoint.getFormat().getLine().setDashStyle(LineDashStyle.Solid);
 
-        // Pas de labeleigenschappen aan voor de laatste reeks in elke categorie
+        // Customize label properties for the last series in each category
         if (i == chart.getChartData().getSeries().size() - 1) {
             IDataLabel lbl = dataPoint.getLabel();
             lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
@@ -142,8 +162,8 @@ while (categoryIndex < 15) {
 }
 ```
 
-### Sla de presentatie op
-Nadat u uw grafiek hebt geconfigureerd, slaat u de presentatie op om uw wijzigingen te behouden.
+### Stap 4: Sla de bijgewerkte presentatie op
+Tot slot persisteren we de wijzigingen in een nieuw PPTX‑bestand.
 
 ```java
 import com.aspose.slides.*;
@@ -152,29 +172,49 @@ pres.save(dataDir + "/chart.pptx", SaveFormat.Pptx);
 ```
 
 ## Praktische toepassingen
-Donutdiagrammen kunnen in verschillende scenario's worden gebruikt:
-- **Financiële rapporten:** Visualiseer budgettoewijzingen of financiële statistieken.
-- **Marktanalyse:** Toon de marktaandeelverdeling onder concurrenten.
-- **Enquêteresultaten:** Presenteer categorische gegevens uit enquêteantwoorden op effectieve wijze.
+Doughnut‑grafieken kunnen in diverse scenario's worden ingezet:
+- **Financiële rapporten:** Visualiseer budgettoewijzingen of uitgavenverdelingen.  
+- **Marktanalyse:** Toon marktaandeelverdeling onder concurrenten.  
+- **Enquête‑resultaten:** Presenteer categorische enquête‑data compact.  
+- **Dashboard‑generatie:** Combineer met database‑queries om live‑bijwerkende dia's te maken.  
 
-Integratie met andere systemen, zoals databases en webapplicaties, maakt dynamische grafiekgeneratie op basis van realtimegegevens mogelijk.
+## Prestatie‑overwegingen
+- **Resources vrijgeven:** Roep `pres.dispose()` aan wanneer je klaar bent om native geheugen vrij te maken.  
+- **Beperk het aantal grafieken:** Het toevoegen van honderden grafieken kan het geheugenverbruik verhogen; batch‑verwerk indien nodig.  
+- **Gebruik streaming:** Voor enorme datasets kun je de workbook direct vanuit streams vullen in plaats van uit in‑memory arrays.  
 
-## Prestatieoverwegingen
-Voor optimale prestaties:
-- Beheer het geheugengebruik door bronnen snel te verwijderen.
-- Beperk het aantal grafieken en dia's als dit niet nodig is, om verwerkingskracht te besparen.
-- Gebruik efficiënte datastructuren voor het verwerken van grote datasets.
+## Veelvoorkomende problemen en oplossingen
+| Probleem | Oorzaak | Oplossing |
+|----------|---------|-----------|
+| **Grafiek verschijnt leeg** | Data‑cellen niet correct gevuld | Controleer of `workBook.getCell(...)` de juiste rij‑/kolom‑indices gebruikt. |
+| **Labels overlappen** | Te veel categorieën in beperkte ruimte | Verhoog `DoughnutHoleSize` of pas `FirstSliceAngle` aan. |
+| **OutOfMemoryError** | Grote presentaties zonder vrijgeven | Roep `pres.dispose()` aan na het opslaan en overweeg de JVM‑heap te vergroten. |
 
-Wanneer u zich aan best practices houdt, weet u zeker dat uw applicatie soepel werkt, vooral bij complexe presentaties.
+## Veelgestelde vragen
+
+**V: Kan ik Aspose.Slides voor Java gebruiken in commerciële toepassingen?**  
+A: Ja, maar je hebt een geldige commerciële licentie nodig. Een gratis proefversie is beschikbaar voor evaluatie.
+
+**V: Hoe voeg ik meer dan 15 series toe?**  
+A: Verhoog de luslimiet in de stap “Add Doughnut Chart” en zorg ervoor dat je workbook voldoende rijen bevat.
+
+**V: Is het mogelijk de grootte van het doughnut‑gat later aan te passen?**  
+A: Ja, roep `series.getParentSeriesGroup().setDoughnutHoleSize((byte)desiredSize)` aan op elk moment vóór het opslaan.
+
+**V: Kan ik de grafiek exporteren als afbeelding in plaats van een PPTX?**  
+A: Absoluut. Gebruik `chart.getImage()` en sla de geretourneerde `java.awt.image.BufferedImage` op in het gewenste formaat.
+
+**V: Ondersteunt Aspose.Slides geanimeerde grafieken?**  
+A: Animaties kunnen worden toegevoegd via de `ISlide.getTimeline()`‑API, hoewel dit buiten de scope van deze tutorial valt.
 
 ## Conclusie
-Het maken van dynamische ringdiagrammen in PowerPoint met Aspose.Slides voor Java is een eenvoudig proces zodra je de belangrijkste stappen begrijpt. Met deze handleiding ben je nu in staat om je presentaties te verbeteren door visueel aantrekkelijke grafieken te integreren die data-inzichten effectief overbrengen.
+Je beschikt nu over een volledige, productie‑klare methode om **doughnut‑grafiek PowerPoint**‑bestanden te maken met Aspose.Slides voor Java, inclusief hoe je **grafiek‑datapunten** toevoegt, labels aanpast en prestatie‑aspecten beheert. Experimenteer met verschillende kleuren, databronnen en grafiektype­n om je presentaties echt te laten opvallen.
 
-Als u de functionaliteiten van Aspose.Slides verder wilt verkennen en dieper in de mogelijkheden ervan wilt duiken, kunt u experimenteren met verschillende diagramtypen of geavanceerde functies zoals animaties en overgangen.
+---
 
-## FAQ-sectie
-**V: Kan ik Aspose.Slides voor Java gebruiken in commerciële toepassingen?**
-A: Ja, maar je moet wel een licentie aanschaffen. Je kunt beginnen met een gratis proefperiode om de functies te evalueren.
+**Laatst bijgewerkt:** 2026-02-17  
+**Getest met:** Aspose.Slides voor Java 25.4 (JDK 16‑classifier)  
+**Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

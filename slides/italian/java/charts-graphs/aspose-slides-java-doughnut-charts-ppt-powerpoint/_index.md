@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Scopri come usare Aspose.Slides per Java per creare grafici ad anello dinamici in PowerPoint. Migliora le tue presentazioni con passaggi semplici ed esempi di codice."
-"title": "Crea grafici ad anello dinamici in PowerPoint utilizzando Aspose.Slides per Java"
-"url": "/it/java/charts-graphs/aspose-slides-java-doughnut-charts-ppt-powerpoint/"
-"weight": 1
+date: '2026-02-17'
+description: Scopri come creare un grafico a ciambella in PowerPoint usando Aspose.Slides
+  per Java e aggiungere i punti dati del grafico programmaticamente. Segui passaggi
+  semplici ed esempi di codice.
+keywords:
+- Aspose.Slides for Java
+- dynamic doughnut charts PowerPoint
+- Java PowerPoint chart creation
+title: Crea un grafico a ciambella in PowerPoint con Aspose.Slides per Java
+url: /it/java/charts-graphs/aspose-slides-java-doughnut-charts-ppt-powerpoint/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,30 +17,45 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Crea grafici ad anello dinamici in PowerPoint utilizzando Aspose.Slides per Java
+# Crea un grafico a ciambella PowerPoint con Aspose.Slides per Java
 
 ## Introduzione
-Creare presentazioni accattivanti spesso richiede più di testo e immagini; i grafici possono migliorare significativamente la narrazione visualizzando i dati in modo efficace. Tuttavia, molti sviluppatori faticano a integrare le funzionalità dei grafici dinamici nei file di PowerPoint a livello di codice. Questo tutorial illustra come utilizzare Aspose.Slides per Java per creare un grafico ad anello in PowerPoint, un potente strumento che unisce flessibilità e facilità d'uso.
+Creare presentazioni accattivanti spesso richiede più di semplici testi e immagini; i grafici possono migliorare notevolmente la narrazione visualizzando i dati in modo efficace. Tuttavia, molti sviluppatori hanno difficoltà a integrare funzionalità di grafico dinamico nei file PowerPoint in modo programmatico. Questo tutorial dimostra come **creare un grafico a ciambella PowerPoint** usando Aspose.Slides per Java—uno strumento potente che combina flessibilità e facilità d'uso.
 
-**Cosa imparerai:**
-- Come inizializzare una presentazione utilizzando Aspose.Slides per Java
-- Una guida passo passo per aggiungere un grafico a ciambella alle diapositive
-- Configurazione dei punti dati e personalizzazione delle proprietà delle etichette
-- Salvataggio della presentazione modificata con alta fedeltà
+**Ciò che imparerai:**
+- Come inizializzare una presentazione usando Aspose.Slides per Java
+- Guida passo‑passo per aggiungere un grafico a ciambella alle tue diapositive
+- Configurare i punti dati e personalizzare le proprietà delle etichette
+- Salvare la presentazione modificata con alta fedeltà
 
-Scopriamo come sfruttare queste funzionalità per migliorare le tue presentazioni. Prima di iniziare, assicurati di avere familiarità con i concetti base della programmazione Java.
+Esploriamo come puoi sfruttare queste funzionalità per migliorare le tue presentazioni. Prima di iniziare, assicurati di conoscere i concetti di base della programmazione Java.
+
+## Risposte rapide
+- **Quale libreria crea un grafico a ciambella PowerPoint?** Aspose.Slides for Java
+- **Posso aggiungere punti dati al grafico programmaticamente?** Sì, usando l'API del grafico
+- **È necessaria una licenza per la produzione?** È richiesta una licenza valida di Aspose.Slides
+- **Quali versioni di Java sono supportate?** Java 8 e successive (mostrato il classificatore JDK 16)
+- **Quante serie posso aggiungere?** L'esempio aggiunge fino a 15 serie, ma è possibile regolare secondo necessità
+
+## Che cos'è un grafico a ciambella in PowerPoint?
+Un grafico a ciambella è una variante del grafico a torta con un centro vuoto, che consente di visualizzare più serie di dati in modo compatto e accattivante. È ideale per mostrare relazioni parte‑intero mantenendo un design pulito.
+
+## Perché usare Aspose.Slides per Java per creare grafici a ciambella?
+- **Controllo completo** sull'aspetto del grafico, dati e layout senza aprire PowerPoint
+- **Nessuna interop COM** – funziona su qualsiasi piattaforma che supporta Java
+- **Alte prestazioni** per generare deck di grandi dimensioni o integrare con servizi web
+- **Ricca personalizzazione** come esplosione, dimensione del buco, angoli delle fette e formattazione delle etichette
 
 ## Prerequisiti
-Per seguire questo tutorial in modo efficace, assicurati di avere:
 - Conoscenza di base della programmazione Java.
-- Un ambiente di sviluppo integrato (IDE) come IntelliJ IDEA o Eclipse.
-- Maven o Gradle installati per la gestione delle dipendenze.
-- Una licenza valida per Aspose.Slides per Java. Puoi ottenere una prova gratuita per testarne le funzionalità.
+- Un IDE come IntelliJ IDEA o Eclipse.
+- Maven o Gradle per la gestione delle dipendenze.
+- Una licenza valida di Aspose.Slides per Java (disponibile prova gratuita).
 
-## Impostazione di Aspose.Slides per Java
-Inizia integrando Aspose.Slides nel tuo progetto. Scegli tra Maven e Gradle, a seconda delle tue preferenze:
+## Configurazione di Aspose.Slides per Java
+Scegli il gestore di dipendenze che si adatta al tuo progetto.
 
-**Esperto**
+**Maven**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -49,16 +70,16 @@ Inizia integrando Aspose.Slides nel tuo progetto. Scegli tra Maven e Gradle, a s
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Se preferisci scaricare direttamente, visita il sito [Aspose.Slides per le versioni Java](https://releases.aspose.com/slides/java/) pagina.
+Se preferisci scaricare direttamente, visita la pagina [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) .
 
 ### Acquisizione della licenza
-Puoi iniziare con una prova gratuita per esplorare le funzionalità di Aspose.Slides. Per un utilizzo prolungato, acquista una licenza o richiedine una temporanea da [Il sito web di Aspose](https://purchase.aspose.com/temporary-license/)Segui le istruzioni fornite per configurare il tuo ambiente e inizializzare Aspose.Slides nella tua applicazione.
+Puoi iniziare con una prova gratuita per esplorare le funzionalità di Aspose.Slides. Per un utilizzo prolungato, acquista una licenza o richiedi una licenza temporanea dal [sito di Aspose](https://purchase.aspose.com/temporary-license/). Segui le istruzioni fornite per configurare l'ambiente e inizializzare Aspose.Slides nella tua applicazione.
 
-## Guida all'implementazione
-Analizziamo i passaggi necessari per creare un grafico a ciambella in PowerPoint utilizzando Aspose.Slides per Java. Ogni sezione è dedicata a una funzionalità specifica, garantendo chiarezza e concentrazione.
+## Come creare un grafico a ciambella PowerPoint usando Aspose.Slides per Java
+Di seguito è una guida completa passo‑passo. Ogni blocco di codice è spiegato subito prima, così sai esattamente cosa sta succedendo.
 
-### Inizializza la presentazione
-Inizia caricando o creando un nuovo file PowerPoint. Questo passaggio configura l'ambiente di presentazione.
+### Passo 1: Inizializzare la presentazione
+Per prima cosa, carica un PPTX esistente o creane uno nuovo. Questo prepara la raccolta di diapositive per ulteriori modifiche.
 
 ```java
 import com.aspose.slides.*;
@@ -67,12 +88,12 @@ String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Presentation pres = new Presentation(dataDir + "/testc.pptx");
 ISlide slide = pres.getSlides().get_Item(0);
 
-// Verificare il caricamento riuscito salvando la presentazione iniziale
+// Verify successful loading by saving the initial presentation
 pres.save(dataDir + "/initialized_chart.pptx", SaveFormat.Pptx);
 ```
 
-### Aggiungi grafico ad anello
-Aggiungi un grafico a ciambella alla tua diapositiva, personalizzandone le dimensioni e l'aspetto.
+### Passo 2: Aggiungere un grafico a ciambella alla diapositiva
+Aggiungiamo la forma del grafico, cancelliamo eventuali serie/categorie predefinite e impostiamo le proprietà visive di base.
 
 ```java
 import com.aspose.slides.*;
@@ -85,7 +106,7 @@ chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 chart.setLegend(false);
 
-// Configurare le proprietà della serie
+// Configure the series properties
 int seriesIndex = 0;
 while (seriesIndex < 15) {
     IChartSeries series = chart.getChartData().getSeries().add(workBook.getCell(0, 0, seriesIndex + 1, "SERIES " + seriesIndex), chart.getType());
@@ -96,8 +117,8 @@ while (seriesIndex < 15) {
 }
 ```
 
-### Configurare punti dati ed etichette
-Personalizza l'aspetto di ogni punto dati e configura le etichette per una migliore leggibilità.
+### Passo 3: Aggiungere punti dati al grafico e personalizzare le etichette
+Qui popoliamo le categorie, aggiungiamo i punti dati per ogni serie e perfezioniamo l'aspetto delle etichette. È qui che entra in gioco la parola chiave **add chart data points**.
 
 ```java
 import com.aspose.slides.*;
@@ -111,7 +132,7 @@ while (categoryIndex < 15) {
         IChartSeries iCS = chart.getChartData().getSeries().get_Item(i);
         IChartDataPoint dataPoint = iCS.getDataPoints().addDataPointForDoughnutSeries(workBook.getCell(0, categoryIndex + 1, i + 1, 1));
         
-        // Formattare il punto dati
+        // Format the data point
         dataPoint.getFormat().getFill().setFillType(FillType.Solid);
         dataPoint.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
         dataPoint.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
@@ -119,7 +140,7 @@ while (categoryIndex < 15) {
         dataPoint.getFormat().getLine().setStyle(LineStyle.Single);
         dataPoint.getFormat().getLine().setDashStyle(LineDashStyle.Solid);
 
-        // Personalizza le proprietà dell'etichetta per l'ultima serie in ogni categoria
+        // Customize label properties for the last series in each category
         if (i == chart.getChartData().getSeries().size() - 1) {
             IDataLabel lbl = dataPoint.getLabel();
             lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
@@ -142,8 +163,8 @@ while (categoryIndex < 15) {
 }
 ```
 
-### Salva la presentazione
-Dopo aver configurato il grafico, salva la presentazione per conservare le modifiche.
+### Passo 4: Salvare la presentazione aggiornata
+Infine, persisti le modifiche in un nuovo file PPTX.
 
 ```java
 import com.aspose.slides.*;
@@ -152,29 +173,48 @@ pres.save(dataDir + "/chart.pptx", SaveFormat.Pptx);
 ```
 
 ## Applicazioni pratiche
-I grafici ad anello possono essere utilizzati in vari scenari:
-- **Relazioni finanziarie:** Visualizza le allocazioni di budget o le metriche finanziarie.
-- **Analisi di mercato:** Mostra la distribuzione della quota di mercato tra i concorrenti.
-- **Risultati del sondaggio:** Presentare in modo efficace i dati categoriali ricavati dalle risposte al sondaggio.
-
-L'integrazione con altri sistemi, come database e applicazioni web, consente la generazione di grafici dinamici basati su dati in tempo reale.
+- **Report finanziari:** Visualizzare le allocazioni di budget o la ripartizione delle spese.
+- **Analisi di mercato:** Mostrare la distribuzione della quota di mercato tra i concorrenti.
+- **Risultati dei sondaggi:** Presentare dati categoriali del sondaggio in forma compatta.
+- **Generazione di dashboard:** Combinare con query di database per generare diapositive aggiornate in tempo reale.
 
 ## Considerazioni sulle prestazioni
-Per prestazioni ottimali:
-- Gestire l'utilizzo della memoria eliminando tempestivamente le risorse.
-- Limitare il numero di grafici o diapositive se non necessario per risparmiare potenza di elaborazione.
-- Utilizzare strutture dati efficienti per gestire set di dati di grandi dimensioni.
+- **Rilasciare le risorse**: Chiamare `pres.dispose()` al termine per liberare la memoria nativa.
+- **Limitare il numero di grafici**: Aggiungere centinaia di grafici può aumentare l'uso della memoria; elaborare in batch se necessario.
+- **Usare lo streaming**: Per set di dati massivi, popolare il workbook direttamente da stream invece che da array in memoria.
 
-Il rispetto delle best practice garantisce il corretto funzionamento dell'applicazione, soprattutto quando si tratta di presentazioni complesse.
+## Problemi comuni e soluzioni
+| Problema | Causa | Soluzione |
+|----------|-------|-----------|
+| **Il grafico appare vuoto** | Data cells not populated correctly | Verify that `workBook.getCell(...)` references the correct row/column indices. |
+| **Le etichette si sovrappongono** | Too many categories in limited space | Increase `DoughnutHoleSize` or adjust `FirstSliceAngle`. |
+| **OutOfMemoryError** | Large presentations without disposing | Call `pres.dispose()` after saving and consider increasing JVM heap size. |
+
+## Domande frequenti
+
+**Q: Posso usare Aspose.Slides per Java in applicazioni commerciali?**  
+A: Sì, ma è necessaria una licenza commerciale valida. È disponibile una prova gratuita per la valutazione.
+
+**Q: Come aggiungo più di 15 serie?**  
+A: Aumenta il limite del ciclo nel passo “Add Doughnut Chart” e assicurati che il tuo workbook di dati abbia sufficienti righe.
+
+**Q: È possibile modificare la dimensione del buco della ciambella dopo la creazione?**  
+A: Sì, chiama `series.getParentSeriesGroup().setDoughnutHoleSize((byte)desiredSize)` in qualsiasi momento prima del salvataggio.
+
+**Q: Posso esportare il grafico come immagine invece di un PPTX?**  
+A: Assolutamente. Usa `chart.getImage()` e salva il `java.awt.image.BufferedImage` restituito nel formato preferito.
+
+**Q: Aspose.Slides supporta grafici animati?**  
+A: L'animazione può essere aggiunta tramite l'API `ISlide.getTimeline()`, anche se è al di fuori dello scopo di questo tutorial.
 
 ## Conclusione
-Creare grafici ad anello dinamici in PowerPoint utilizzando Aspose.Slides per Java è un processo semplice, una volta compresi i passaggi chiave. Con questa guida, sarai pronto a migliorare le tue presentazioni integrando grafici visivamente accattivanti che comunicano efficacemente informazioni sui dati.
+Ora disponi di un metodo completo e pronto per la produzione per **creare un grafico a ciambella PowerPoint** con Aspose.Slides per Java, inclusa la possibilità di **add chart data points**, personalizzare le etichette e gestire le considerazioni sulle prestazioni. Sperimenta con colori diversi, fonti di dati e tipi di grafico per far risaltare davvero le tue presentazioni.
 
-Per esplorare ulteriormente le funzionalità di Aspose.Slides e conoscerne più a fondo le potenzialità, puoi provare a sperimentare diversi tipi di grafici o funzionalità avanzate come animazioni e transizioni.
+---
 
-## Sezione FAQ
-**D: Posso utilizzare Aspose.Slides per Java in applicazioni commerciali?**
-R: Sì, ma è necessario acquistare una licenza. Puoi iniziare con una prova gratuita per valutarne le funzionalità.
+**Ultimo aggiornamento:** 2026-02-17  
+**Testato con:** Aspose.Slides for Java 25.4 (JDK 16 classifier)  
+**Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
