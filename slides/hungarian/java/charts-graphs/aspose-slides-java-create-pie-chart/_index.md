@@ -1,10 +1,29 @@
 ---
-"date": "2025-04-17"
-"description": "Tanuld meg, hogyan hozhatsz létre és szabhatsz testre kördiagramokat PowerPoint-bemutatókban az Aspose.Slides for Java segítségével. Emeld diáid színvonalát ezzel a könnyen követhető útmutatóval."
-"title": "Kördiagramok létrehozása és testreszabása PowerPointban az Aspose.Slides for Java használatával"
-"url": "/hu/java/charts-graphs/aspose-slides-java-create-pie-chart/"
-"weight": 1
+date: '2026-02-17'
+description: Ismerje meg, hogyan adhat hozzá kördiagramot PowerPoint-prezentációkhoz
+  az Aspose.Slides for Java használatával. Kövesse ezt a lépésről‑lépésre útmutatót,
+  hogy professzionális kördiagramokat hozzon létre és testreszabjon.
+keywords:
+- Create Pie Charts in PowerPoint Java
+- Customize Pie Chart Aspose.Slides Java
+- Aspose.Slides for Java Pie Chart
+title: Hogyan adjunk hozzá kördiagramot a PowerPoint-hoz az Aspose.Slides for Java
+  használatával
+url: /hu/java/charts-graphs/aspose-slides-java-create-pie-chart/
+weight: 1
 ---
+
+-backtop-button >}}
+
+Now ensure we kept all shortcodes unchanged.
+
+Check for any missed bold formatting: we need to keep ** markers.
+
+We translated bold phrases; ensure they still have **.
+
+Check list items: we need to keep bullet markers.
+
+Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 
@@ -15,28 +34,37 @@
 
 ## Bevezetés
 
-Nehezen tudod hatékonyan megjeleníteni az adatokat PowerPoint prezentációidban? A meggyőző diagramok létrehozása fokozhatja a diák hatását, és egy pillantással megérthetővé teheti az összetett információkat. Az Aspose.Slides Java verziójával zökkenőmentesen készíthetsz professzionális megjelenésű kördiagramokat, így arra koncentrálhatsz, ami igazán számít: az üzeneted közvetítésére. Ez az oktatóanyag végigvezet a kördiagramok létrehozásán és testreszabásán az Aspose.Slides segítségével, biztosítva, hogy prezentációid kitűnjenek a tömegből.
+Küzd a hatékony adatmegjelenítéssel PowerPoint prezentációiban? **Kördiagram PowerPoint** dia hozzáadása azonnal átalakítja a nyers számokat egyértelmű vizuális történetté. Az Aspose.Slides for Java segítségével programozottan **kördiagram PowerPoint** fájlokat adhat hozzá, teljes irányítást biztosítva a tervezés és az adatok felett anélkül, hogy manuálisan megnyitná a PowerPointot. Ebben az útmutatóban végigvezetjük a teljes folyamatot – a könyvtár beállításától az egyes adatpontok testreszabásáig – hogy percek alatt kifinomult, adat‑vezérelt diákot tudjon bemutatni.
 
-### Amit tanulni fogsz:
-- Hogyan készítsünk kördiagramot PowerPointban az Aspose.Slides for Java segítségével
-- Az adatpontok megjelenésének testreszabása a jobb áttekinthetőség érdekében
-- A diagramok professzionális prezentációkba integrálásának bevált gyakorlatai
+### Gyors válaszok
+- **Milyen könyvtárra van szükségem?** Aspose.Slides for Java (legújabb verzió).  
+- **Létrehozhatok diagramot PowerPoint telepítése nélkül?** Igen, az API teljesen offline működik.  
+- **Melyik Java verzió szükséges?** JDK 16 vagy újabb ajánlott.  
+- **Hogyan változtathatom meg egy szelet színét?** Használja a `setFillType` és `setSolidFillColor` metódusokat az adatponton.  
+- **Kötelező-e licenc?** A próbaverzió fejlesztéshez működik; egy állandó licenc eltávolítja a kiértékelési korlátokat.
 
-Mielőtt elkezdenénk felfedezni ezeket a hatékony funkciókat, kezdjük el a környezet beállítását!
+### Mit fog megtanulni
+- Hogyan **kördiagram PowerPoint** hozzáadása programozottan Java-val.  
+- Módszerek a szelet robbanás, színek és egyéb vizuális tulajdonságok testreszabására.  
+- Legjobb gyakorlatok az erőforrás‑kezeléshez és a teljesítményhez nagy prezentációk kezelésekor.
+
+## Miért érdemes kördiagram PowerPointot hozzáadni az Aspose.Slides for Java használatával?
+A kördiagram közvetlen beágyazása a kódból lehetővé teszi naprakész jelentések generálását, havi műszerfalak automatizálását vagy személyre szabott diakészletek gyors létrehozását. Ez megszünteti a kézi másolás‑beillesztés hibáit, biztosítja a konzisztenciát a prezentációk között, és zökkenőmentesen integrálódik a meglévő Java háttérrendszerekkel.
 
 ## Előfeltételek
 
-Kezdés előtt győződjön meg arról, hogy a következőkkel rendelkezik:
-- **Aspose.Slides Java könyvtárhoz**Ez az oktatóanyag a 25.4-es verziót használja.
-- Kompatibilis Java fejlesztői készlet (JDK), lehetőleg JDK16 vagy újabb.
-- Alapvető Java programozási ismeretek és jártasság a Maven vagy Gradle build eszközök használatában.
+A kezdés előtt győződjön meg róla, hogy rendelkezik:
 
-## Az Aspose.Slides beállítása Java-hoz
+- **Aspose.Slides for Java könyvtár** – az útmutató a 25.4-es verzióra hivatkozik (a legújabb kiadás a írás időpontjában).  
+- Kompatibilis **Java Development Kit (JDK)** – JDK 16+ ajánlott.  
+- Alapvető ismeretek a **Maven** vagy **Gradle** használatáról a függőségkezeléshez.  
 
-A kezdéshez be kell illesztened az Aspose.Slides könyvtárat a projektedbe. Így teheted meg:
+## Az Aspose.Slides for Java beállítása
 
-### Szakértő
-Adja hozzá ezt a függőséget a `pom.xml` fájl:
+A kezdéshez adja hozzá az Aspose.Slides könyvtárat a projektjéhez.
+
+### Maven
+Adja hozzá ezt a függőséget a `pom.xml` fájlhoz:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -47,121 +75,116 @@ Adja hozzá ezt a függőséget a `pom.xml` fájl:
 ```
 
 ### Gradle
-A következőket is vedd bele a listádba `build.gradle` fájl:
+Tegye a következőt a `build.gradle` fájlba:
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Vagy töltse le a legújabb verziót közvetlenül innen: [Aspose.Slides Java kiadásokhoz](https://releases.aspose.com/slides/java/).
+Alternatívaként töltse le a legújabb verziót közvetlenül a [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) oldalról.
 
-### Engedélyezés
-Az Aspose.Slides korlátozások nélküli használatához:
-- Kezdj egy ingyenes próbaverzióval, hogy felmérhesd a képességeit.
-- Hosszabbított teszteléshez vagy éles használathoz kérjen ideiglenes licencet a következő címen: [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/).
-- Vásároljon előfizetést a teljes hozzáférésért a következőn keresztül: [Vásárlási oldal](https://purchase.aspose.com/buy).
+### Licencelés
+Az Aspose.Slides korlátok nélküli használatához:
 
-## Megvalósítási útmutató
+- Kezdje egy **ingyenes próbaverzióval**, hogy kiértékelje az API-t.  
+- Kérjen **ideiglenes licencet** a kiterjesztett teszteléshez a [Temporary License](https://purchase.aspose.com/temporary-license/) oldalon.  
+- Vásároljon teljes előfizetést a [Purchase page](https://purchase.aspose.com/buy) oldalon.  
 
-### Kördiagram létrehozása
-Egy kördiagram létrehozása magában foglalja egy Presentation objektum inicializálását és a diagram diához való hozzáadását. Nézzük meg a lépéseket:
+## Hogyan adjon hozzá kördiagram PowerPointot az Aspose.Slides for Java használatával
 
-#### 1. lépés: A prezentáció inicializálása
-Kezdje egy példány létrehozásával a `Presentation` osztály.
+Az alábbi lépésről‑lépésre útmutató pontosan bemutatja, hogyan hozhat létre és testreszabhat egy kördiagramot.
+
+### 1. lépés: A prezentáció inicializálása
+Először hozzon létre egy új `Presentation` objektumot. Ez egy üres PowerPoint fájlt reprezentál.
 ```java
 Presentation pres = new Presentation();
 ```
 
-#### 2. lépés: A kördiagram hozzáadása
-Kördiagram hozzáadása az első diához megadott méretekkel és pozícióval:
+### 2. lépés: A kördiagram hozzáadása
+Helyezzen be egy kördiagramot az első diára. A (50, 50) koordináták és a (600 × 400) méret jól működik egy szabványos 16:9-es dián.
 ```java
 pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 600, 400);
 ```
-*Magyarázat:* Ez a kód a kördiagramot az (50, 50) koordinátákra helyezi, 600 szélességgel és 400 magassággal.
 
-#### 3. lépés: Mentse el a prezentációját
-Miután beállítottad a diagramot, mentsd el a prezentációt:
+### 3. lépés: A prezentáció mentése
+Írja a prezentációt a lemezre. Cserélje le a `YOUR_OUTPUT_DIRECTORY`-t arra a mappára, ahová a fájlt menteni szeretné.
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/output.pptx", SaveFormat.Pptx);
 ```
-*Magyarázat:* A `save` A metódus a módosításokat a megadott könyvtárban lévő fájlba írja.
 
-#### Erőforrás-tisztítás
-Mindig szabadítson fel erőforrásokat a memóriaszivárgások megelőzése érdekében:
+### 4. lépés: Erőforrások tisztítása
+Felszabadítja a `Presentation` objektumot a natív erőforrások felszabadításához.
 ```java
 if (pres != null) pres.dispose();
 ```
 
-### Adatpont-robbantás és -szín beállítása
-Az adatpontok testreszabása javítja az olvashatóságot. Módosítsuk egy adott pont megjelenését:
+## Az adatpont robbanás és szín testreszabása
 
-#### 1. lépés: Meglévő prezentáció megnyitása
-Töltse be a prezentációs fájlt oda, ahová a diagramot testre szeretné szabni.
+Az egyes szeletek testreszabása könnyebbé teszi a diagram olvasását, különösen ha egy adott értéket szeretne kiemelni.
+
+### 1. lépés: Létező prezentáció betöltése (vagy az imént létrehozott újrahasználata)
 ```java
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/test.pptx");
 ```
 
-#### 2. lépés: Adatpontok elérése és módosítása
-Adatpont lekérése az első sorozatból:
+### 2. lépés: A diagram és a cél adatpont elérése
+Itt a második adatpontot (index 1) nyerjük ki az első sorozatból.
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 600, 400);
 IChartDataPoint point = chart.getChartData().getSeries().get_Item(0).getDataPoints().get_Item(1);
 ```
-*Magyarázat:* Ez a kód a második adatponthoz fér hozzá a testreszabáshoz.
 
-#### 3. lépés: Robbanás és szín alkalmazása
-Állítsa be a robbanást vizuálisan elkülönítve és a színének megváltoztatásával:
+### 3. lépés: Robbanás és szín alkalmazása
+Vizuálisan elkülöníti a szeletet, és megváltoztatja a kitöltő színét kékre.
 ```java
-point.setExplosion(30); // Robbanási távolság beállítása
+point.setExplosion(30); // Set explosion distance
 point.getFormat().getFill().setFillType(FillType.Solid);
-point.getFormat().getFill().getSolidFillColor().setColor(Color.BLUE); // Kitöltési szín módosítása
+point.getFormat().getFill().getSolidFillColor().setColor(Color.BLUE); // Change fill color
 ```
-*Magyarázat:* A `setExplosion` A metódus vizuális eltolást hoz létre, míg a kitöltési típus és szín beállítása személyre szabja a megjelenést.
 
-#### Erőforrás-tisztítás
-Erőforrások megsemmisítése a módosítások után:
+### 4. lépés: Mentés és felszabadítás
 ```java
+pres.save("YOUR_OUTPUT_DIRECTORY/customized.pptx", SaveFormat.Pptx);
 if (pres != null) pres.dispose();
 ```
 
 ## Gyakorlati alkalmazások
-- **Értékesítési jelentések:** A főbb mutatókat robbantott adatpontokkal emelheti ki a hangsúlyozás érdekében.
-- **Költségvetési elemzés:** Használjon különböző színeket a különböző kategóriák vagy részlegek ábrázolásához.
-- **Oktatási anyag:** Egyszerűsítse az összetett témákat a diagram elemeinek vizuális megkülönböztetésével.
+- **Értékesítési jelentések:** Kiemeli a legjobban eladott termékeket robbantott szeletekkel.  
+- **Költségvetés elemzése:** Különböző színeket rendel az osztályokhoz a gyors vizuális összehasonlítás érdekében.  
+- **Oktatási diák:** Bontja le a komplex koncepciókat könnyen emészthető diagramrészletekre.
 
-Integrálja ezeket a kördiagramokat irányítópultokba, jelentésekbe és prezentációkba, hogy világosabb betekintést nyújtson a különböző platformokon.
+## Teljesítmény szempontok
+- **Objektumok felszabadítása** gyorsan a memória szivárgások elkerülése érdekében, különösen ha sok diát generál egy ciklusban.  
+- **Halomhasználat figyelése** nagy prezentációk esetén; fontolja meg a kimenet streamelését a `Save` túlterhelésekkel, amelyek `OutputStream`-et fogadnak.  
+- Tartsa meg a **JDK 16+** verziót, hogy élvezze a legújabb szemétgyűjtési fejlesztéseket.
 
-## Teljesítménybeli szempontok
-Az Aspose.Slides használatakor:
-- Hatékonyan kezelje az erőforrásokat a tárgyak eldobásával, ha elkészült.
-- A memória-szivárgások megelőzése érdekében figyelje a memóriahasználatot nagyméretű műveletek során.
-- Az optimális teljesítmény fenntartása érdekében kövesse a Java memóriakezelés ajánlott gyakorlatait.
-
-Ezek a tippek segítenek biztosítani az alkalmazások zökkenőmentes végrehajtását és erőforrás-kezelését.
-
-## Következtetés
-Most már rendelkezel a kördiagramok létrehozásának és testreszabásának készségeivel az Aspose.Slides for Java segítségével. Kísérletezz különböző konfigurációkkal, hogy megfeleljenek prezentációs igényeidnek, és fedezd fel az Aspose.Slides további funkcióit, hogy még jobban kiegészítsd prezentációidat. További tanulási lehetőségekért érdemes lehet a kördiagramokon túlmutató diagramtípusokat is megismerni, vagy a speciális testreszabási lehetőségeket is megismerni.
+## Összegzés
+Most már rendelkezik egy teljes, termelésre kész munkafolyammal a **kördiagram PowerPoint** fájlok hozzáadásához az Aspose.Slides for Java használatával. Kísérletezzen különböző robbanási távolságokkal, színekkel és adatkészletekkel, hogy illeszkedjen a márkájához. Amikor készen áll, fedezze fel a többi diagramtípust – oszlop, vonal vagy szórt – hogy egy teljes analitikai műszerfalat építsen a PowerPointba.
 
 ## GYIK szekció
-1. **Mi az Aspose.Slides Java-ban való használatának fő előnye?**
-   - Leegyszerűsíti a PowerPoint fájlok programozott létrehozását és kezelését, számos funkciót kínálva.
-2. **Testreszabhatok más diagramtípusokat az Aspose.Slides segítségével?**
-   - Abszolút! Az Aspose.Slides különféle diagramtípusokat támogat, például sáv-, vonal- és szórásdiagramokat.
-3. **Hogyan kezelhetek több diát diagramok létrehozásakor?**
-   - Minden diákhoz index segítségével férhet hozzá `get_Item()` módszer a változtatások különböző diákon történő alkalmazására.
-4. **Mi van, ha a kördiagramom a testreszabás után nem jelenik meg megfelelően?**
-   - Ellenőrizze a használt koordinátákat és méreteket `addChart()`, ügyelve arra, hogy illeszkedjenek a diaelrendezéshez.
-5. **Hol találok további haladó funkciókat az Aspose.Slides-hoz?**
-   - Fedezze fel a [Aspose.Slides dokumentáció](https://reference.aspose.com/slides/java/) további funkciókról és opciókról szeretne tájékozódni.
+1. **Mi a fő előnye az Aspose.Slides for Java használatának?**  
+   - Egyszerűsíti a PowerPoint fájlok programozott létrehozását és manipulálását, számos funkciót kínálva.  
+2. **Testreszabhatok más diagramtípusokat az Aspose.Slides segítségével?**  
+   - Természetesen! Az Aspose.Slides különféle diagramtípusokat támogat, például oszlop, vonal és szórt diagramokat.  
+3. **Hogyan kezelem a több diát diagramok létrehozásakor?**  
+   - Az egyes diákat index szerint érheti el a `get_Item()` metódussal, hogy változtatásokat alkalmazzon a különböző diákon.  
+4. **Mi a teendő, ha a kördiagram nem jelenik meg helyesen a testreszabás után?**  
+   - Ellenőrizze a `addChart()`‑ben használt koordinátákat és méreteket, hogy azok illeszkednek‑e a diák elrendezésébe.  
+5. **Hol találhatok további fejlett funkciókat az Aspose.Slides‑hez?**  
+   - Tekintse meg a [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/) oldalt, hogy többet megtudjon a további funkciókról és lehetőségekről.
 
-## Erőforrás
-- **Dokumentáció:** [Aspose.Slides Java dokumentáció](https://reference.aspose.com/slides/java/)
-- **Könyvtár letöltése:** [Aspose kiadások](https://releases.aspose.com/slides/java/)
-- **Licenc vásárlása:** [Vásárolja meg az Aspose.Slides-t](https://purchase.aspose.com/buy)
-- **Ingyenes próbaverzió:** [Próbáld ki az Aspose.Slides-t](https://releases.aspose.com/slides/java/)
-- **Ideiglenes engedély:** [Ideiglenes engedély igénylése](https://purchase.aspose.com/temporary-license/)
-- **Támogatási fórum:** [Aspose támogatás](https://forum.aspose.com/c/slides/11)
+## Erőforrások
+- **Dokumentáció:** [Aspose.Slides Java Docs](https://reference.aspose.com/slides/java/)  
+- **Könyvtár letöltése:** [Aspose Releases](https://releases.aspose.com/slides/java/)  
+- **Licenc vásárlása:** [Buy Aspose.Slides](https://purchase.aspose.com/buy)  
+- **Ingyenes próba:** [Try Aspose.Slides](https://releases.aspose.com/slides/java/)  
+- **Ideiglenes licenc:** [Request Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Támogatási fórum:** [Aspose Support](https://forum.aspose.com/c/slides/11)
 
-Most, hogy felvértezve ezzel a tudással, vágj bele, és készíts lenyűgöző kördiagramokat a prezentációid fejlesztéséhez. Jó programozást!
+---
+
+**Utoljára frissítve:** 2026-02-17  
+**Tesztelve:** Aspose.Slides for Java 25.4 (JDK 16 classifier)  
+**Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

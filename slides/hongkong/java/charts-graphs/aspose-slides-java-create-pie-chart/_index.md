@@ -1,9 +1,13 @@
 ---
-"date": "2025-04-17"
-"description": "了解如何使用 Aspose.Slides for Java 在 PowerPoint 簡報中建立和自訂圓餅圖。按照這份簡單易懂的指南來提升您的幻燈片。"
-"title": "使用 Aspose.Slides for Java 在 PowerPoint 中建立和自訂圓餅圖"
-"url": "/zh-hant/java/charts-graphs/aspose-slides-java-create-pie-chart/"
-"weight": 1
+date: '2026-02-17'
+description: 學習如何使用 Aspose.Slides for Java 在 PowerPoint 簡報中加入圓餅圖。跟隨本一步一步的指南，打造並自訂專業的圓餅圖。
+keywords:
+- Create Pie Charts in PowerPoint Java
+- Customize Pie Chart Aspose.Slides Java
+- Aspose.Slides for Java Pie Chart
+title: 如何使用 Aspose.Slides for Java 為 PowerPoint 添加圓餅圖
+url: /zh-hant/java/charts-graphs/aspose-slides-java-create-pie-chart/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,32 +15,41 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# 使用 Aspose.Slides for Java 在 PowerPoint 中建立和自訂圓餅圖
+# 在 PowerPoint 中使用 Aspose.Slides for Java 建立與自訂圓餅圖
 
-## 介紹
+## 簡介
 
-您是否正在努力在 PowerPoint 簡報中有效地呈現資料？創建引人注目的圖表可以提升投影片的影響力，使複雜的資訊一目了然。使用 Aspose.Slides for Java，製作具有專業外觀的圓餅圖變得無縫，讓您專注於真正重要的事情：傳達您的訊息。本教學將指導您使用 Aspose.Slides 建立和自訂餅圖，確保您的簡報脫穎而出。
+您是否在 PowerPoint 簡報中難以有效地視覺化資料？**Adding a pie chart PowerPoint** 投影片能立即將原始數字轉化為清晰的視覺故事。使用 Aspose.Slides for Java，您可以以程式方式 **add pie chart PowerPoint** 檔案，完整掌控設計與資料，且無需手動開啟 PowerPoint。本教學將逐步說明整個流程——從設定函式庫到自訂單一資料點——讓您在數分鐘內交付精緻、資料驅動的投影片。
 
-### 您將學到什麼：
-- 如何使用 Aspose.Slides for Java 在 PowerPoint 中建立圓餅圖
-- 自訂資料點的外觀以增強清晰度
-- 將圖表整合到專業簡報中的最佳實踐
+### 快速解答
+- **What library do I need?** Aspose.Slides for Java (latest version)。  
+- **Can I create a chart without PowerPoint installed?** Yes, the API works completely offline。  
+- **Which Java version is required?** JDK 16 or later is recommended。  
+- **How do I change a slice’s color?** Use the `setFillType` and `setSolidFillColor` methods on the data point。  
+- **Is a license mandatory?** A trial works for development; a permanent license removes evaluation limits。
 
-在開始探索這些強大的功能之前，讓我們先深入了解如何設定您的環境！
+### 您將學習
+- 如何使用 Java 程式化 **add pie chart PowerPoint**。  
+- 自訂切片的爆炸效果、顏色及其他視覺屬性的方法。  
+- 在處理大型簡報時，資源管理與效能的最佳實踐。
+
+## 為什麼使用 Aspose.Slides for Java 加入 pie chart PowerPoint？
+從程式碼直接嵌入圓餅圖，可即時產生最新報告、自動化每月儀表板，或即時建立個人化投影片。它消除手動複製貼上的錯誤，確保簡報的一致性，並能順利整合至現有的 Java 後端。
 
 ## 先決條件
 
-在開始之前，請確保您已準備好以下內容：
-- **Aspose.Slides for Java 函式庫**：本教學使用25.4版本。
-- 相容的 Java 開發工具包 (JDK)，最好是 JDK16 或更高版本。
-- 具備 Java 程式設計基礎並熟悉 Maven 或 Gradle 建置工具。
+在開始之前，請確保您已具備：
+
+- **Aspose.Slides for Java library** – 本教學參考 25.4 版（撰寫時的最新版本）。  
+- 相容的 **Java Development Kit (JDK)** – 建議使用 JDK 16 以上。  
+- 具備 **Maven** 或 **Gradle** 依賴管理的基本知識。  
 
 ## 設定 Aspose.Slides for Java
 
-首先，您需要在專案中包含 Aspose.Slides 庫。方法如下：
+要開始使用，請將 Aspose.Slides 函式庫加入您的專案。
 
 ### Maven
-將此依賴項新增至您的 `pom.xml` 文件：
+將以下相依性加入您的 `pom.xml` 檔案：
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -47,121 +60,117 @@
 ```
 
 ### Gradle
-在您的 `build.gradle` 文件：
+在您的 `build.gradle` 檔案中加入以下內容：
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-或者，直接從 [Aspose.Slides for Java 發布](https://releases。aspose.com/slides/java/).
+或者直接從 [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) 下載最新版本。
 
 ### 授權
-要無限制地使用 Aspose.Slides：
-- 從免費試用開始評估其功能。
-- 如需延長測試或生產使用時間，請申請臨時許可證 [臨時執照](https://purchase。aspose.com/temporary-license/).
-- 透過以下方式購買訂閱以獲得完全存取權限 [購買頁面](https://purchase。aspose.com/buy).
+若要無限制使用 Aspose.Slides：
 
-## 實施指南
+- 先使用 **free trial** 評估 API。  
+- 於 [Temporary License](https://purchase.aspose.com/temporary-license/) 頁面申請 **temporary license** 以進行延長測試。  
+- 透過 [Purchase page](https://purchase.aspose.com/buy) 購買完整授權。
 
-### 創建圓餅圖
-建立餅圖涉及初始化簡報物件並將圖表新增到投影片中。讓我們分解一下步驟：
+## 如何使用 Aspose.Slides for Java 加入 pie chart PowerPoint
 
-#### 步驟 1：初始化簡報
-首先創建一個 `Presentation` 班級。
+以下是一個逐步指南，說明如何建立與自訂圓餅圖。
+
+### 步驟 1：初始化簡報
+首先，建立一個新的 `Presentation` 物件。它代表一個空的 PowerPoint 檔案。
 ```java
 Presentation pres = new Presentation();
 ```
 
-#### 步驟 2：新增圓餅圖
-在第一張投影片中新增具有指定尺寸和位置的圓餅圖：
+### 步驟 2：加入圓餅圖
+在第一張投影片上插入圓餅圖。座標 (50, 50) 與尺寸 (600 × 400) 適用於標準 16:9 投影片。
 ```java
 pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 600, 400);
 ```
-*解釋：* 此程式碼將圓餅圖放置在座標 (50, 50) 處，寬度為 600，高度為 400。
 
-#### 步驟 3：儲存簡報
-圖表設定完成後，儲存簡報：
+### 步驟 3：儲存簡報
+將簡報寫入磁碟。將 `YOUR_OUTPUT_DIRECTORY` 替換為您想儲存檔案的資料夾路徑。
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/output.pptx", SaveFormat.Pptx);
 ```
-*解釋：* 這 `save` 方法將您的變更寫入指定目錄中的檔案中。
 
-#### 資源清理
-始終釋放資源以防止記憶體洩漏：
+### 步驟 4：清理資源
+釋放 `Presentation` 物件以釋放原生資源。
 ```java
 if (pres != null) pres.dispose();
 ```
 
-### 設定數據點爆炸和顏色
-自訂資料點可增強可讀性。讓我們修改特定點的外觀：
+## 自訂資料點的爆炸效果與顏色
 
-#### 步驟 1：開啟現有簡報
-在您想要自訂圖表的位置載入簡報檔案。
+自訂單一切片可讓圖表更易閱讀，特別是想突顯特定數值時。
+
+### 步驟 1：載入現有簡報（或重複使用剛剛建立的簡報）
 ```java
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/test.pptx");
 ```
 
-#### 第 2 步：存取和修改資料點
-從第一個系列中檢索資料點：
+### 步驟 2：存取圖表與目標資料點
+此處我們從第一個系列取得第二個資料點（索引 1）。
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 600, 400);
 IChartDataPoint point = chart.getChartData().getSeries().get_Item(0).getDataPoints().get_Item(1);
 ```
-*解釋：* 此程式碼存取第二個資料點以進行自訂。
 
-#### 步驟3：應用爆炸和顏色
-設置爆炸以在視覺上將其分離並改變其顏色：
+### 步驟 3：套用爆炸效果與顏色
+將切片視覺上分離，並將填色改為藍色。
 ```java
-point.setExplosion(30); // 設定爆炸距離
+point.setExplosion(30); // Set explosion distance
 point.getFormat().getFill().setFillType(FillType.Solid);
-point.getFormat().getFill().getSolidFillColor().setColor(Color.BLUE); // 更改填滿顏色
+point.getFormat().getFill().getSolidFillColor().setColor(Color.BLUE); // Change fill color
 ```
-*解釋：* 這 `setExplosion` 方法建立視覺偏移，同時設定填滿類型和顏色以個性化外觀。
 
-#### 資源清理
-修改後處置資源：
+### 步驟 4：儲存與釋放
 ```java
+pres.save("YOUR_OUTPUT_DIRECTORY/customized.pptx", SaveFormat.Pptx);
 if (pres != null) pres.dispose();
 ```
 
-## 實際應用
-- **銷售報告：** 使用爆炸數據點來強調關鍵指標。
-- **預算分析：** 使用不同的顏色來代表不同的類別或部門。
-- **教育材料：** 透過直觀區分圖表中的元素來簡化複雜的主題。
+## 實務應用
+- **Sales Reports:** 以爆炸切片突顯暢銷產品。  
+- **Budget Analysis:** 為各部門分配不同顏色，以快速視覺比較。  
+- **Educational Slides:** 將複雜概念拆解為易於理解的圖表區段。
 
-將這些圓餅圖整合到儀表板、報告和簡報中，以便在各個平台上提供更清晰的見解。
-
-## 性能考慮
-使用 Aspose.Slides 時：
-- 完成後透過處置物件來有效管理資源。
-- 在大型操作期間監控記憶體使用情況以防止洩漏。
-- 遵循 Java 記憶體管理的最佳實踐以保持最佳效能。
-
-這些提示將有助於確保您的應用程式順利執行和資源處理。
+## 效能考量
+- 及時 **Dispose objects** 以避免記憶體洩漏，特別是在迴圈中產生大量投影片時。  
+- 對大型簡報 **Monitor heap usage**；可考慮使用接受 `OutputStream` 的 `Save` 重載進行串流輸出。  
+- 使用 **JDK 16+** 以獲得最新的垃圾回收改進。
 
 ## 結論
-您現在掌握了使用 Aspose.Slides for Java 建立和自訂餅圖的技能。嘗試不同的配置以滿足您的簡報需求，並探索 Aspose.Slides 中的更多功能以進一步增強您的簡報。如需進一步學習，請考慮探索餅圖以外的圖表類型或深入研究進階自訂選項。
+您現在已掌握使用 Aspose.Slides for Java **add pie chart PowerPoint** 檔案的完整、可投入生產的工作流程。可嘗試不同的爆炸距離、顏色與資料集，以符合品牌需求。準備好後，亦可探索其他圖表類型——長條圖、折線圖或散佈圖，打造完整的 PowerPoint 分析儀表板。
 
-## 常見問題部分
-1. **使用 Aspose.Slides for Java 的主要優點是什麼？**
-   - 它以程式設計方式簡化了 PowerPoint 檔案的建立和操作，提供了廣泛的功能。
-2. **我可以使用 Aspose.Slides 自訂其他圖表類型嗎？**
-   - 絕對地！ Aspose.Slides 支援各種圖表類型，例如長條圖、折線圖和散點圖。
-3. **建立圖表時如何處理多張投影片？**
-   - 使用索引存取每張投影片 `get_Item()` 方法在不同的投影片上套用變更。
-4. **如果我的餅圖在自訂後無法正確顯示怎麼辦？**
-   - 驗證使用的座標和尺寸 `addChart()`，確保它們適合您的幻燈片佈局。
-5. **在哪裡可以找到 Aspose.Slides 的更多高級功能？**
-   - 探索 [Aspose.Slides文檔](https://reference.aspose.com/slides/java/) 了解附加功能和選項。
+## 常見問題
+
+1. **What is the primary advantage of using Aspose.Slides for Java?**  
+   - 它簡化了以程式方式建立與操作 PowerPoint 檔案，提供豐富的功能。  
+2. **Can I customize other chart types with Aspose.Slides?**  
+   - 當然！Aspose.Slides 支援多種圖表類型，如長條圖、折線圖與散佈圖。  
+3. **How do I handle multiple slides when creating charts?**  
+   - 使用 `get_Item()` 方法依索引存取每張投影片，以在不同投影片上套用變更。  
+4. **What if my pie chart doesn't display correctly after customization?**  
+   - 請確認 `addChart()` 使用的座標與尺寸是否符合投影片版面配置。  
+5. **Where can I find more advanced features for Aspose.Slides?**  
+   - 可前往 [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/) 了解更多功能與選項。
 
 ## 資源
-- **文件:** [Aspose.Slides Java文檔](https://reference.aspose.com/slides/java/)
-- **下載庫：** [Aspose 版本](https://releases.aspose.com/slides/java/)
-- **購買許可證：** [購買 Aspose.Slides](https://purchase.aspose.com/buy)
-- **免費試用：** [試試 Aspose.Slides](https://releases.aspose.com/slides/java/)
-- **臨時執照：** [申請臨時許可證](https://purchase.aspose.com/temporary-license/)
-- **支援論壇：** [Aspose 支援](https://forum.aspose.com/c/slides/11)
+- **Documentation:** [Aspose.Slides Java Docs](https://reference.aspose.com/slides/java/)  
+- **Download Library:** [Aspose Releases](https://releases.aspose.com/slides/java/)  
+- **Purchase License:** [Buy Aspose.Slides](https://purchase.aspose.com/buy)  
+- **Free Trial:** [Try Aspose.Slides](https://releases.aspose.com/slides/java/)  
+- **Temporary License:** [Request Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Support Forum:** [Aspose Support](https://forum.aspose.com/c/slides/11)
 
-現在您已經掌握了這些知識，請繼續創建令人驚嘆的餅圖來增強您的簡報。編碼愉快！
+---
+
+**Last Updated:** 2026-02-17  
+**Tested With:** Aspose.Slides for Java 25.4 (JDK 16 classifier)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

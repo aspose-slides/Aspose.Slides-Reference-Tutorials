@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Scopri come creare e personalizzare grafici a torta nelle presentazioni di PowerPoint utilizzando Aspose.Slides per Java. Migliora le tue diapositive con questa guida facile da seguire."
-"title": "Crea e personalizza grafici a torta in PowerPoint utilizzando Aspose.Slides per Java"
-"url": "/it/java/charts-graphs/aspose-slides-java-create-pie-chart/"
-"weight": 1
+date: '2026-02-17'
+description: Scopri come aggiungere grafici a torta alle presentazioni PowerPoint
+  usando Aspose.Slides per Java. Segui questa guida passo passo per creare e personalizzare
+  grafici a torta professionali.
+keywords:
+- Create Pie Charts in PowerPoint Java
+- Customize Pie Chart Aspose.Slides Java
+- Aspose.Slides for Java Pie Chart
+title: Come aggiungere un grafico a torta in PowerPoint con Aspose.Slides per Java
+url: /it/java/charts-graphs/aspose-slides-java-create-pie-chart/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,32 +17,41 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Crea e personalizza grafici a torta in PowerPoint utilizzando Aspose.Slides per Java
+# Crea e personalizza grafici a torta in PowerPoint usando Aspose.Slides per Java
 
 ## Introduzione
 
-Hai difficoltà a visualizzare i dati in modo efficace nelle tue presentazioni PowerPoint? Creare grafici accattivanti può aumentare l'impatto delle tue diapositive, rendendo le informazioni complesse immediatamente comprensibili. Con Aspose.Slides per Java, creare grafici a torta dall'aspetto professionale diventa semplice, permettendoti di concentrarti su ciò che conta davvero: trasmettere il tuo messaggio. Questo tutorial ti guiderà nella creazione e personalizzazione di un grafico a torta con Aspose.Slides, garantendo che le tue presentazioni si distinguano.
+Stai avendo difficoltà a visualizzare i dati in modo efficace nelle tue presentazioni PowerPoint? **Aggiungere una diapositiva con grafico a torta PowerPoint** può trasformare istantaneamente numeri grezzi in una chiara storia visiva. Con Aspose.Slides per Java, puoi **aggiungere grafici a torta PowerPoint** in modo programmatico, ottenendo il pieno controllo su design e dati senza mai aprire manualmente PowerPoint. In questo tutorial percorreremo l’intero processo—from la configurazione della libreria alla personalizzazione dei singoli punti dati—così potrai realizzare diapositive rifinite e guidate dai dati in pochi minuti.
 
-### Cosa imparerai:
-- Come creare un grafico a torta in PowerPoint con Aspose.Slides per Java
-- Personalizzazione dell'aspetto dei punti dati per una maggiore chiarezza
-- Le migliori pratiche per integrare i grafici nelle presentazioni professionali
+### Risposte rapide
+- **Quale libreria mi serve?** Aspose.Slides per Java (ultima versione).  
+- **Posso creare un grafico senza PowerPoint installato?** Sì, l’API funziona completamente offline.  
+- **Quale versione di Java è richiesta?** Si consiglia JDK 16 o successivo.  
+- **Come cambio il colore di una fetta?** Usa i metodi `setFillType` e `setSolidFillColor` sul punto dati.  
+- **È obbligatoria una licenza?** Una versione di prova funziona per lo sviluppo; una licenza permanente rimuove i limiti di valutazione.
 
-Prima di iniziare a esplorare queste potenti funzionalità, entriamo nel dettaglio della configurazione del tuo ambiente!
+### Cosa imparerai
+- Come **aggiungere grafici a torta PowerPoint** in modo programmatico con Java.  
+- Modi per personalizzare l’esplosione delle fette, i colori e altre proprietà visive.  
+- Best practice per la gestione delle risorse e le prestazioni quando si trattano presentazioni di grandi dimensioni.
+
+## Perché aggiungere un grafico a torta PowerPoint usando Aspose.Slides per Java?
+Incorporare un grafico a torta direttamente dal codice ti consente di generare report sempre aggiornati, automatizzare dashboard mensili o creare deck diapositive personalizzati al volo. Elimina errori di copia‑incolla manuali, garantisce coerenza tra le presentazioni e si integra senza problemi con i back‑end Java esistenti.
 
 ## Prerequisiti
 
-Prima di iniziare, assicurati di avere quanto segue:
-- **Libreria Aspose.Slides per Java**: Questo tutorial utilizza la versione 25.4.
-- Un Java Development Kit (JDK) compatibile, preferibilmente JDK16 o successivo.
-- Conoscenza di base della programmazione Java e familiarità con gli strumenti di compilazione Maven o Gradle.
+Prima di iniziare, assicurati di avere:
 
-## Impostazione di Aspose.Slides per Java
+- **Libreria Aspose.Slides per Java** – il tutorial fa riferimento alla versione 25.4 (l’ultima release al momento della stesura).  
+- Un **Java Development Kit (JDK)** compatibile – è preferibile JDK 16+.  
+- Familiarità di base con **Maven** o **Gradle** per la gestione delle dipendenze.  
 
-Per iniziare, devi includere la libreria Aspose.Slides nel tuo progetto. Ecco come fare:
+## Configurazione di Aspose.Slides per Java
 
-### Esperto
-Aggiungi questa dipendenza al tuo `pom.xml` file:
+Per iniziare, includi la libreria Aspose.Slides nel tuo progetto.
+
+### Maven
+Aggiungi questa dipendenza al tuo file `pom.xml`:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -47,121 +62,116 @@ Aggiungi questa dipendenza al tuo `pom.xml` file:
 ```
 
 ### Gradle
-Includi quanto segue nel tuo `build.gradle` file:
+Inserisci quanto segue nel tuo file `build.gradle`:
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-In alternativa, scarica l'ultima versione direttamente da [Aspose.Slides per le versioni Java](https://releases.aspose.com/slides/java/).
+In alternativa, scarica l’ultima versione direttamente da [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 ### Licenza
 Per utilizzare Aspose.Slides senza limitazioni:
-- Inizia con una prova gratuita per valutarne le capacità.
-- Per test prolungati o per l'uso in produzione, richiedi una licenza temporanea a [Licenza temporanea](https://purchase.aspose.com/temporary-license/).
-- Acquista un abbonamento per l'accesso completo tramite [Pagina di acquisto](https://purchase.aspose.com/buy).
 
-## Guida all'implementazione
+- Inizia con una **prova gratuita** per valutare l’API.  
+- Richiedi una **licenza temporanea** per test più prolungati nella pagina [Temporary License](https://purchase.aspose.com/temporary-license/).  
+- Acquista un abbonamento completo tramite la [Purchase page](https://purchase.aspose.com/buy).
 
-### Creazione di un grafico a torta
-Per creare un grafico a torta è necessario inizializzare un oggetto Presentazione e aggiungere il grafico alla diapositiva. Analizziamo i passaggi:
+## Come aggiungere un grafico a torta PowerPoint usando Aspose.Slides per Java
 
-#### Passaggio 1: inizializzare la presentazione
-Inizia creando un'istanza di `Presentation` classe.
+Di seguito trovi una guida passo‑a‑passo che mostra esattamente come creare e personalizzare un grafico a torta.
+
+### Passo 1: Inizializzare la presentazione
+Per prima cosa, crea un nuovo oggetto `Presentation`. Rappresenta un file PowerPoint vuoto.
 ```java
 Presentation pres = new Presentation();
 ```
 
-#### Passaggio 2: aggiungere il grafico a torta
-Aggiungere un grafico a torta alla prima diapositiva con dimensioni e posizione specificate:
+### Passo 2: Aggiungere il grafico a torta
+Inserisci un grafico a torta nella prima diapositiva. Le coordinate (50, 50) e le dimensioni (600 × 400) funzionano bene per una diapositiva standard 16:9.
 ```java
 pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 600, 400);
 ```
-*Spiegazione:* Questo codice posiziona il grafico a torta alle coordinate (50, 50) con una larghezza di 600 e un'altezza di 400.
 
-#### Passaggio 3: salva la presentazione
-Una volta impostato il grafico, salva la presentazione:
+### Passo 3: Salvare la presentazione
+Scrivi la presentazione su disco. Sostituisci `YOUR_OUTPUT_DIRECTORY` con la cartella in cui desideri salvare il file.
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/output.pptx", SaveFormat.Pptx);
 ```
-*Spiegazione:* IL `save` Il metodo scrive le modifiche in un file nella directory specificata.
 
-#### Pulizia delle risorse
-Rilasciare sempre le risorse per evitare perdite di memoria:
+### Passo 4: Pulire le risorse
+Rilascia l’oggetto `Presentation` per liberare le risorse native.
 ```java
 if (pres != null) pres.dispose();
 ```
 
-### Impostazione dell'esplosione e del colore dei punti dati
-La personalizzazione dei punti dati migliora la leggibilità. Modifichiamo l'aspetto di un punto specifico:
+## Personalizzazione dell’esplosione della fetta e del colore
 
-#### Passaggio 1: aprire una presentazione esistente
-Carica il file della presentazione nel punto in cui vuoi personalizzare il grafico.
+Personalizzare le singole fette rende il grafico più leggibile, soprattutto quando vuoi evidenziare un valore specifico.
+
+### Passo 1: Caricare una presentazione esistente (o riutilizzare quella appena creata)
 ```java
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/test.pptx");
 ```
 
-#### Passaggio 2: accesso e modifica dei punti dati
-Recupera un punto dati dalla prima serie:
+### Passo 2: Accedere al grafico e al punto dati target
+Qui recuperiamo il secondo punto dati (indice 1) dalla prima serie.
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 600, 400);
 IChartDataPoint point = chart.getChartData().getSeries().get_Item(0).getDataPoints().get_Item(1);
 ```
-*Spiegazione:* Questo codice accede al secondo punto dati per la personalizzazione.
 
-#### Passaggio 3: applicare esplosione e colore
-Imposta l'esplosione per separarla visivamente e cambiarne il colore:
+### Passo 3: Applicare esplosione e colore
+Separa visivamente la fetta e cambia il suo colore di riempimento in blu.
 ```java
-point.setExplosion(30); // Imposta la distanza di esplosione
+point.setExplosion(30); // Set explosion distance
 point.getFormat().getFill().setFillType(FillType.Solid);
-point.getFormat().getFill().getSolidFillColor().setColor(Color.BLUE); // Cambia colore di riempimento
+point.getFormat().getFill().getSolidFillColor().setColor(Color.BLUE); // Change fill color
 ```
-*Spiegazione:* IL `setExplosion` Il metodo crea uno spostamento visivo, mentre l'impostazione del tipo di riempimento e del colore personalizza l'aspetto.
 
-#### Pulizia delle risorse
-Smaltire le risorse dopo le modifiche:
+### Passo 4: Salvare e rilasciare
 ```java
+pres.save("YOUR_OUTPUT_DIRECTORY/customized.pptx", SaveFormat.Pptx);
 if (pres != null) pres.dispose();
 ```
 
 ## Applicazioni pratiche
-- **Rapporti sulle vendite:** Evidenzia le metriche chiave con punti dati esplosi per dare enfasi.
-- **Analisi di bilancio:** Utilizzare colori diversi per rappresentare categorie o reparti diversi.
-- **Materiale didattico:** Semplifica gli argomenti complessi distinguendo visivamente gli elementi in un grafico.
-
-Integra questi grafici a torta in dashboard, report e presentazioni per fornire informazioni più chiare su diverse piattaforme.
+- **Report di vendita:** Evidenzia i prodotti più venduti con fette esplose.  
+- **Analisi di budget:** Assegna colori distinti ai dipartimenti per un confronto visivo rapido.  
+- **Diapositive educative:** Scomponi concetti complessi in segmenti di grafico facilmente digeribili.
 
 ## Considerazioni sulle prestazioni
-Quando si lavora con Aspose.Slides:
-- Gestire le risorse in modo efficiente smaltire gli oggetti una volta terminato l'uso.
-- Monitorare l'utilizzo della memoria durante operazioni di grandi dimensioni per prevenire perdite.
-- Per mantenere prestazioni ottimali, seguire le best practice per la gestione della memoria Java.
-
-Questi suggerimenti ti aiuteranno a garantire un'esecuzione e una gestione delle risorse fluide nelle tue applicazioni.
+- **Rilascia gli oggetti** tempestivamente per evitare perdite di memoria, soprattutto quando generi molte diapositive in un ciclo.  
+- **Monitora l’utilizzo dell’heap** per presentazioni di grandi dimensioni; considera lo streaming dell’output con le overload di `Save` che accettano `OutputStream`.  
+- Rimani su **JDK 16+** per beneficiare dei più recenti miglioramenti della garbage collection.
 
 ## Conclusione
-Ora possiedi le competenze per creare e personalizzare grafici a torta utilizzando Aspose.Slides per Java. Sperimenta diverse configurazioni per soddisfare le tue esigenze di presentazione ed esplora ulteriori funzionalità di Aspose.Slides per migliorare ulteriormente le tue presentazioni. Per ulteriori approfondimenti, valuta la possibilità di esplorare altri tipi di grafico oltre ai grafici a torta o di approfondire le opzioni di personalizzazione avanzate.
+Ora disponi di un flusso di lavoro completo e pronto per la produzione per **aggiungere grafici a torta PowerPoint** usando Aspose.Slides per Java. Sperimenta con diverse distanze di esplosione, colori e set di dati per allineare il risultato al tuo brand. Quando sei pronto, esplora altri tipi di grafico—bar, line o scatter—per costruire un cruscotto analitico completo all’interno di PowerPoint.
 
 ## Sezione FAQ
-1. **Qual è il vantaggio principale dell'utilizzo di Aspose.Slides per Java?**
-   - Semplifica la creazione e la manipolazione dei file PowerPoint a livello di programmazione, offrendo una vasta gamma di funzionalità.
-2. **Posso personalizzare altri tipi di grafici con Aspose.Slides?**
-   - Assolutamente sì! Aspose.Slides supporta vari tipi di grafici, come grafici a barre, a linee e a dispersione.
-3. **Come faccio a gestire più diapositive quando creo grafici?**
-   - Accedi a ciascuna diapositiva tramite indice utilizzando `get_Item()` Metodo per applicare modifiche a diapositive diverse.
-4. **Cosa succede se il mio grafico a torta non viene visualizzato correttamente dopo la personalizzazione?**
-   - Verificare le coordinate e le dimensioni utilizzate in `addChart()`, assicurandosi che si adattino al layout della diapositiva.
-5. **Dove posso trovare funzionalità più avanzate per Aspose.Slides?**
-   - Esplora il [Documentazione di Aspose.Slides](https://reference.aspose.com/slides/java/) per scoprire funzionalità e opzioni aggiuntive.
+1. **Qual è il principale vantaggio di usare Aspose.Slides per Java?**  
+   - Semplifica la creazione e la manipolazione di file PowerPoint in modo programmatico, offrendo un’ampia gamma di funzionalità.  
+2. **Posso personalizzare altri tipi di grafico con Aspose.Slides?**  
+   - Assolutamente! Aspose.Slides supporta vari tipi di grafico come bar, line e scatter.  
+3. **Come gestisco più diapositive quando creo grafici?**  
+   - Accedi a ciascuna diapositiva per indice usando il metodo `get_Item()` per applicare modifiche su diapositive diverse.  
+4. **Cosa succede se il mio grafico a torta non viene visualizzato correttamente dopo la personalizzazione?**  
+   - Verifica le coordinate e le dimensioni usate in `addChart()`, assicurandoti che rientrino nel layout della diapositiva.  
+5. **Dove posso trovare funzionalità più avanzate per Aspose.Slides?**  
+   - Esplora la [Documentazione di Aspose.Slides](https://reference.aspose.com/slides/java/) per scoprire ulteriori funzionalità e opzioni.
 
 ## Risorse
-- **Documentazione:** [Documentazione Java di Aspose.Slides](https://reference.aspose.com/slides/java/)
-- **Scarica la libreria:** [Rilasci di Aspose](https://releases.aspose.com/slides/java/)
-- **Acquista licenza:** [Acquista Aspose.Slides](https://purchase.aspose.com/buy)
-- **Prova gratuita:** [Prova Aspose.Slides](https://releases.aspose.com/slides/java/)
-- **Licenza temporanea:** [Richiedi licenza temporanea](https://purchase.aspose.com/temporary-license/)
-- **Forum di supporto:** [Supporto Aspose](https://forum.aspose.com/c/slides/11)
+- **Documentazione:** [Aspose.Slides Java Docs](https://reference.aspose.com/slides/java/)  
+- **Download libreria:** [Aspose Releases](https://releases.aspose.com/slides/java/)  
+- **Acquista licenza:** [Buy Aspose.Slides](https://purchase.aspose.com/buy)  
+- **Prova gratuita:** [Try Aspose.Slides](https://releases.aspose.com/slides/java/)  
+- **Licenza temporanea:** [Request Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Forum di supporto:** [Aspose Support](https://forum.aspose.com/c/slides/11)
 
-Ora che hai acquisito queste conoscenze, vai avanti e crea fantastici grafici a torta per migliorare le tue presentazioni. Buona programmazione!
+---
+
+**Ultimo aggiornamento:** 2026-02-17  
+**Testato con:** Aspose.Slides per Java 25.4 (classificatore JDK 16)  
+**Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

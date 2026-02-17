@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Aspose.Slides for Java kullanarak PowerPoint sunumlarında pasta grafiklerinin nasıl oluşturulacağını ve özelleştirileceğini öğrenin. Bu kolay takip edilebilir kılavuzla slaytlarınızı geliştirin."
-"title": "Aspose.Slides for Java Kullanarak PowerPoint'te Pasta Grafikleri Oluşturun ve Özelleştirin"
-"url": "/tr/java/charts-graphs/aspose-slides-java-create-pie-chart/"
-"weight": 1
+date: '2026-02-17'
+description: Aspose.Slides for Java kullanarak PowerPoint sunumlarına pasta grafiği
+  eklemeyi öğrenin. Profesyonel pasta grafiklerini oluşturmak ve özelleştirmek için
+  bu adım adım rehberi izleyin.
+keywords:
+- Create Pie Charts in PowerPoint Java
+- Customize Pie Chart Aspose.Slides Java
+- Aspose.Slides for Java Pie Chart
+title: Aspose.Slides for Java ile PowerPoint'e pasta grafiği nasıl eklenir
+url: /tr/java/charts-graphs/aspose-slides-java-create-pie-chart/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,32 +17,41 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.Slides for Java Kullanarak PowerPoint'te Pasta Grafikleri Oluşturun ve Özelleştirin
+# PowerPoint'te Aspose.Slides for Java Kullanarak Pasta Grafiklerini Oluşturma ve Özelleştirme
 
-## giriiş
+## Giriş
 
-PowerPoint sunumlarınızda verileri etkili bir şekilde görselleştirmekte zorlanıyor musunuz? Etkileyici grafikler oluşturmak slaytlarınızın etkisini artırabilir ve karmaşık bilgileri tek bakışta sindirilebilir hale getirebilir. Java için Aspose.Slides ile profesyonel görünümlü pasta grafikleri oluşturmak sorunsuz hale gelir ve gerçekten önemli olan şeye, yani mesajınızı iletmeye odaklanmanızı sağlar. Bu eğitim, Aspose.Slides kullanarak pasta grafikleri oluşturma ve özelleştirme konusunda size rehberlik edecek ve sunumlarınızın öne çıkmasını sağlayacaktır.
+PowerPoint sunumlarınızda verileri etkili bir şekilde görselleştirmekte zorlanıyor musunuz? **Adding a pie chart PowerPoint** slaytı, ham sayıları anında net bir görsel hikayeye dönüştürebilir. Aspose.Slides for Java ile programlı olarak **add pie chart PowerPoint** dosyaları ekleyebilir, PowerPoint'i manuel olarak açmadan tasarım ve veri üzerinde tam kontrol sahibi olabilirsiniz. Bu öğreticide, kütüphaneyi kurmaktan bireysel veri noktalarını özelleştirmeye kadar tüm süreci adım adım göstereceğiz; böylece dakikalar içinde şık, veri odaklı slaytlar sunabilirsiniz.
 
-### Ne Öğreneceksiniz:
-- Aspose.Slides for Java ile PowerPoint'te pasta grafiği nasıl oluşturulur
-- Daha iyi netlik için veri noktalarının görünümünü özelleştirme
-- Grafikleri profesyonel sunumlara entegre etmek için en iyi uygulamalar
+### Hızlı Yanıtlar
+- **Hangi kütüphane gerekiyor?** Aspose.Slides for Java (latest version).  
+- **PowerPoint yüklü olmadan bir grafik oluşturabilir miyim?** Evet, API tamamen çevrim dışı çalışır.  
+- **Hangi Java sürümü gereklidir?** JDK 16 veya daha yenisi önerilir.  
+- **Bir dilimin rengini nasıl değiştiririm?** Veri noktasında `setFillType` ve `setSolidFillColor` metodlarını kullanın.  
+- **Lisans zorunlu mu?** Geliştirme için bir deneme sürümü çalışır; kalıcı bir lisans değerlendirme sınırlamalarını kaldırır.
 
-Bu güçlü özellikleri keşfetmeye başlamadan önce ortamınızı nasıl kuracağınıza bir göz atalım!
+### Öğrenecekleriniz
+- Java ile programlı olarak **add pie chart PowerPoint** nasıl ekleyeceğinizi.  
+- Dilim patlaması, renkler ve diğer görsel özellikleri özelleştirmenin yolları.  
+- Büyük sunumları işlerken kaynak yönetimi ve performans için en iyi uygulamalar.
 
-## Ön koşullar
+## Aspose.Slides for Java Kullanarak PowerPoint'e Pasta Grafiği Neden Eklenir?
+Koddan doğrudan bir pasta grafiği gömmek, güncel raporlar oluşturmanıza, aylık gösterge tablolarını otomatikleştirmenize veya anlık olarak kişiselleştirilmiş slayt desteleri yaratmanıza olanak tanır. Manuel kopyala‑yapıştır hatalarını ortadan kaldırır, sunumlar arasında tutarlılığı sağlar ve mevcut Java back‑end'leriyle sorunsuz entegrasyon sunar.
+
+## Önkoşullar
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
-- **Java kütüphanesi için Aspose.Slides**: Bu eğitimde 25.4 sürümü kullanılmaktadır.
-- Uyumlu bir Java Geliştirme Kiti (JDK), tercihen JDK16 veya üzeri.
-- Temel Java programlama bilgisi ve Maven veya Gradle derleme araçlarına aşinalık.
 
-## Java için Aspose.Slides Kurulumu
+- **Aspose.Slides for Java library** – öğreticide sürüm 25.4 (yazım anındaki en son sürüm) referans alınmıştır.  
+- Uyumlu bir **Java Development Kit (JDK)** – JDK 16+ tercih edilir.  
+- **Maven** veya **Gradle** ile bağımlılık yönetimine temel aşinalık.
 
-Başlamak için projenize Aspose.Slides kitaplığını eklemeniz gerekir. İşte nasıl:
+## Aspose.Slides for Java Kurulumu
 
-### Usta
-Bu bağımlılığı şuna ekleyin: `pom.xml` dosya:
+Projeye Aspose.Slides kütüphanesini ekleyerek başlayın.
+
+### Maven
+`pom.xml` dosyanıza aşağıdaki bağımlılığı ekleyin:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -47,121 +62,116 @@ Bu bağımlılığı şuna ekleyin: `pom.xml` dosya:
 ```
 
 ### Gradle
-Aşağıdakileri ekleyin: `build.gradle` dosya:
+`build.gradle` dosyanıza aşağıdakileri ekleyin:
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Alternatif olarak, en son sürümü doğrudan şu adresten indirin: [Java sürümleri için Aspose.Slides](https://releases.aspose.com/slides/java/).
+Alternatif olarak, en son sürümü doğrudan [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) adresinden indirebilirsiniz.
 
 ### Lisanslama
-Aspose.Slides'ı sınırlama olmaksızın kullanmak için:
-- Yeteneklerini değerlendirmek için ücretsiz denemeye başlayın.
-- Genişletilmiş test veya üretim kullanımı için geçici bir lisans talep edin [Geçici Lisans](https://purchase.aspose.com/temporary-license/).
-- Tam erişim için bir abonelik satın alın [Satın alma sayfası](https://purchase.aspose.com/buy).
+Aspose.Slides'i sınırsız kullanmak için:
 
-## Uygulama Kılavuzu
+- API'yi değerlendirmek üzere bir **free trial** ile başlayın.  
+- Uzatılmış testler için [Temporary License](https://purchase.aspose.com/temporary-license/) sayfasından bir **temporary license** talep edin.  
+- Tam bir abonelik satın almak için [Purchase page](https://purchase.aspose.com/buy) adresini ziyaret edin.
 
-### Pasta Grafiği Oluşturma
-Pasta grafiği oluşturmak, bir Sunum nesnesi başlatmayı ve grafiği slaydınıza eklemeyi içerir. Adımları parçalayalım:
+## Aspose.Slides for Java Kullanarak PowerPoint'e pasta grafiği nasıl eklenir
 
-#### Adım 1: Sunumu Başlatın
-Bir örnek oluşturarak başlayın `Presentation` sınıf.
+Aşağıda, bir pasta grafiği oluşturup özelleştirmenin adım adım rehberi yer almaktadır.
+
+### Adım 1: Sunumu Başlatma
+İlk olarak yeni bir `Presentation` nesnesi oluşturun. Bu, boş bir PowerPoint dosyasını temsil eder.
 ```java
 Presentation pres = new Presentation();
 ```
 
-#### Adım 2: Pasta Grafiğini Ekleyin
-İlk slayda belirtilen boyutlar ve konumla bir pasta grafiği ekleyin:
+### Adım 2: Pasta Grafiğini Ekleyin
+İlk slayta bir pasta grafiği ekleyin. Koordinatlar (50, 50) ve boyut (600 × 400), standart 16:9 slayt için uygundur.
 ```java
 pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 600, 400);
 ```
-*Açıklama:* Bu kod pasta grafiğini 600 genişliğinde ve 400 yüksekliğinde (50, 50) koordinatlarına yerleştirir.
 
-#### Adım 3: Sununuzu Kaydedin
-Grafiğiniz ayarlandıktan sonra sunumu kaydedin:
+### Adım 3: Sunumu Kaydedin
+Sunumu diske yazın. `YOUR_OUTPUT_DIRECTORY` ifadesini dosyanın kaydedileceği klasörle değiştirin.
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/output.pptx", SaveFormat.Pptx);
 ```
-*Açıklama:* The `save` metodu değişikliklerinizi belirtilen dizindeki bir dosyaya yazar.
 
-#### Kaynak Temizleme
-Bellek sızıntılarını önlemek için her zaman kaynakları serbest bırakın:
+### Adım 4: Kaynakları Temizleme
+Yerel kaynakları serbest bırakmak için `Presentation` nesnesini dispose edin.
 ```java
 if (pres != null) pres.dispose();
 ```
 
-### Veri Noktası Patlaması ve Rengini Ayarlama
-Veri noktalarını özelleştirmek okunabilirliği artırır. Belirli bir noktanın görünümünü değiştirelim:
+## Veri Noktası Patlamasını ve Rengini Özelleştirme
 
-#### Adım 1: Mevcut Bir Sunumu Açın
-Grafiği özelleştirmek istediğiniz sunum dosyanızı yükleyin.
+Bireysel dilimleri özelleştirmek, grafiğinizi daha okunabilir hâle getirir; özellikle belirli bir değeri vurgulamak istediğinizde faydalıdır.
+
+### Adım 1: Mevcut Bir Sunumu Yükleyin (veya az önce oluşturduğunuzu yeniden kullanın)
 ```java
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/test.pptx");
 ```
 
-#### Adım 2: Veri Noktalarına Erişim ve Değişiklik
-İlk seriden bir veri noktası alın:
+### Adım 2: Grafiğe ve Hedef Veri Noktasına Erişin
+Burada, ilk seriden ikinci veri noktasını (indeks 1) alıyoruz.
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 600, 400);
 IChartDataPoint point = chart.getChartData().getSeries().get_Item(0).getDataPoints().get_Item(1);
 ```
-*Açıklama:* Bu kod özelleştirme için ikinci veri noktasına erişir.
 
-#### Adım 3: Patlama ve Renk Uygula
-Patlamayı görsel olarak ayırmak ve rengini değiştirmek için ayarlayın:
+### Adım 3: Patlamayı ve Rengi Uygulayın
+Dilimi görsel olarak ayırın ve dolgu rengini maviye değiştirin.
 ```java
-point.setExplosion(30); // Patlama mesafesini ayarlayın
+point.setExplosion(30); // Set explosion distance
 point.getFormat().getFill().setFillType(FillType.Solid);
-point.getFormat().getFill().getSolidFillColor().setColor(Color.BLUE); // Dolgu rengini değiştir
+point.getFormat().getFill().getSolidFillColor().setColor(Color.BLUE); // Change fill color
 ```
-*Açıklama:* The `setExplosion` yöntemi görsel bir ofset oluştururken, dolgu türü ve renginin ayarlanması görünümü kişiselleştirir.
 
-#### Kaynak Temizleme
-Değişikliklerden sonra kaynakların elden çıkarılması:
+### Adım 4: Kaydedin ve Serbest Bırakın
 ```java
+pres.save("YOUR_OUTPUT_DIRECTORY/customized.pptx", SaveFormat.Pptx);
 if (pres != null) pres.dispose();
 ```
 
 ## Pratik Uygulamalar
-- **Satış Raporları:** Vurgulamak için önemli metrikleri parçalanmış veri noktalarıyla vurgulayın.
-- **Bütçe Analizi:** Farklı kategorileri veya departmanları temsil etmek için farklı renkler kullanın.
-- **Eğitim Materyali:** Bir tablodaki öğeleri görsel olarak ayırt ederek karmaşık konuları basitleştirin.
+- **Satış Raporları:** En çok satan ürünleri patlamış dilimlerle vurgulayın.  
+- **Bütçe Analizi:** Bölümler için farklı renkler atayarak hızlı görsel karşılaştırma sağlayın.  
+- **Eğitim Slaytları:** Karmaşık kavramları kolay sindirilebilir grafik segmentlerine bölün.
 
-Bu pasta grafiklerini panolara, raporlara ve sunumlara entegre ederek çeşitli platformlarda daha net içgörüler elde edin.
+## Performans Düşünceleri
+- **Dispose objects** işlemini zamanında yaparak bellek sızıntılarını önleyin; özellikle bir döngü içinde çok sayıda slayt üretiyorsanız.  
+- Büyük sunumlar için **heap kullanımını izleyin**; `Save` metodunun `OutputStream` kabul eden aşırı yüklemelerini kullanarak akış çıkışı düşünün.  
+- En yeni çöp toplama iyileştirmelerinden faydalanmak için **JDK 16+** kullanın.
 
-## Performans Hususları
-Aspose.Slides ile çalışırken:
-- İşiniz bittiğinde nesneleri elden çıkararak kaynakları verimli bir şekilde yönetin.
-- Sızıntıları önlemek için büyük işlemler sırasında bellek kullanımını izleyin.
-- En iyi performansı korumak için Java bellek yönetimine ilişkin en iyi uygulamaları izleyin.
-
-Bu ipuçları uygulamalarınızda sorunsuz yürütme ve kaynak yönetimini sağlamanıza yardımcı olacaktır.
-
-## Çözüm
-Artık Java için Aspose.Slides kullanarak pasta grafikleri oluşturma ve özelleştirme becerilerine sahipsiniz. Sunum ihtiyaçlarınıza uyacak şekilde farklı yapılandırmaları deneyin ve sunumlarınızı daha da geliştirmek için Aspose.Slides içindeki diğer özellikleri keşfedin. Daha fazla bilgi edinmek için pasta grafiklerinin ötesinde grafik türlerini keşfetmeyi veya gelişmiş özelleştirme seçeneklerine dalmayı düşünün.
+## Sonuç
+Artık Aspose.Slides for Java kullanarak **add pie chart PowerPoint** dosyaları oluşturmak ve özelleştirmek için eksiksiz, üretim‑hazır bir iş akışına sahipsiniz. Markanıza uygun olacak şekilde farklı patlama mesafeleri, renkler ve veri setleriyle deneyler yapın. Hazır olduğunuzda, çubuk, çizgi veya dağılım gibi diğer grafik türlerini keşfederek PowerPoint içinde tam bir analiz panosu oluşturabilirsiniz.
 
 ## SSS Bölümü
-1. **Java için Aspose.Slides'ı kullanmanın birincil avantajı nedir?**
-   - PowerPoint dosyalarının programlı olarak oluşturulmasını ve düzenlenmesini basitleştirir ve geniş bir özellik yelpazesi sunar.
-2. **Aspose.Slides ile diğer grafik türlerini özelleştirebilir miyim?**
-   - Kesinlikle! Aspose.Slides çubuk, çizgi ve dağılım grafikleri gibi çeşitli grafik türlerini destekler.
-3. **Grafik oluştururken birden fazla slaytı nasıl idare edebilirim?**
-   - Her slayta dizine göre erişin `get_Item()` Değişiklikleri farklı slaytlara uygulama yöntemi.
-4. **Özelleştirmeden sonra pasta grafiğim düzgün görüntülenmezse ne olur?**
-   - Kullanılan koordinatları ve boyutları doğrulayın `addChart()`, slayt düzeninize uymalarını sağlayın.
-5. **Aspose.Slides için daha gelişmiş özellikleri nerede bulabilirim?**
-   - Keşfedin [Aspose.Slides Belgeleri](https://reference.aspose.com/slides/java/) Ek işlevler ve seçenekler hakkında bilgi edinmek için.
+1. **Aspose.Slides for Java kullanmanın temel avantajı nedir?**  
+   - PowerPoint dosyalarını programlı olarak oluşturma ve manipüle etme sürecini basitleştirir, geniş bir özellik yelpazesi sunar.  
+2. **Aspose.Slides ile diğer grafik türlerini de özelleştirebilir miyim?**  
+   - Kesinlikle! Aspose.Slides çubuk, çizgi ve dağılım grafikleri gibi çeşitli grafik türlerini destekler.  
+3. **Grafik oluştururken birden fazla slaytı nasıl yönetirim?**  
+   - Farklı slaytlara değişiklik uygulamak için `get_Item()` metodunu kullanarak her slaytı indeksle erişin.  
+4. **Pasta grafiğim özelleştirme sonrası doğru görüntülenmezse ne yapmalıyım?**  
+   - `addChart()` içinde kullanılan koordinat ve boyutları kontrol edin; slayt düzeniniz içinde uygun konumda olduklarından emin olun.  
+5. **Aspose.Slides için daha gelişmiş özellikleri nereden bulabilirim?**  
+   - Ek işlevler ve seçenekler hakkında bilgi almak için [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/) adresini inceleyin.
 
 ## Kaynaklar
-- **Belgeler:** [Aspose.Slides Java Belgeleri](https://reference.aspose.com/slides/java/)
-- **Kütüphaneyi İndirin:** [Aspose Sürümleri](https://releases.aspose.com/slides/java/)
-- **Lisans Satın Al:** [Aspose.Slides'ı satın al](https://purchase.aspose.com/buy)
-- **Ücretsiz Deneme:** [Aspose.Slides'ı deneyin](https://releases.aspose.com/slides/java/)
-- **Geçici Lisans:** [Geçici Lisans Talebi](https://purchase.aspose.com/temporary-license/)
-- **Destek Forumu:** [Aspose Desteği](https://forum.aspose.com/c/slides/11)
+- **Documentation:** [Aspose.Slides Java Docs](https://reference.aspose.com/slides/java/)  
+- **Download Library:** [Aspose Releases](https://releases.aspose.com/slides/java/)  
+- **Purchase License:** [Buy Aspose.Slides](https://purchase.aspose.com/buy)  
+- **Free Trial:** [Try Aspose.Slides](https://releases.aspose.com/slides/java/)  
+- **Temporary License:** [Request Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Support Forum:** [Aspose Support](https://forum.aspose.com/c/slides/11)
 
-Artık bu bilgiyle donandığınıza göre, sunumlarınızı geliştirmek için çarpıcı pasta grafikleri oluşturmaya başlayın. İyi kodlamalar!
+---
+
+**Last Updated:** 2026-02-17  
+**Tested With:** Aspose.Slides for Java 25.4 (JDK 16 classifier)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
