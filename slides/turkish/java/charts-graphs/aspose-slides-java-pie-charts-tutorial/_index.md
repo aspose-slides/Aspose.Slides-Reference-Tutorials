@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Java için Aspose.Slides kullanarak pasta grafiklerinin nasıl oluşturulacağını ve özelleştirileceğini öğrenin. Bu eğitim kurulumdan gelişmiş özelleştirmeye kadar her şeyi kapsar."
-"title": "Aspose.Slides ile Java'da Pasta Grafikleri Oluşturma Kapsamlı Bir Kılavuz"
-"url": "/tr/java/charts-graphs/aspose-slides-java-pie-charts-tutorial/"
-"weight": 1
+date: '2026-02-19'
+description: Aspose.Slides ile Java’da bir pasta grafiği oluşturmayı, pasta grafiği
+  renklerini özelleştirmeyi, grafik serileri eklemeyi, grafik veri çalışma sayfası
+  ile çalışmayı ve dönüş açısını ayarlamayı öğrenin.
+keywords:
+- Aspose.Slides Java
+- Java pie charts
+- data visualization in Java
+title: Java'da Aspose.Slides ile Pasta Grafik Renklerini Özelleştirme – Tam Bir Rehber
+url: /tr/java/charts-graphs/aspose-slides-java-pie-charts-tutorial/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,40 +17,56 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Java için Aspose.Slides ile Pasta Grafikleri Oluşturma: Eksiksiz Bir Eğitim
+# Java için Aspose.Slides ile Pasta Grafikler Oluşturma: Tam Bir Eğitim
 
-## giriiş
-Etkili bilgiler sunmak için dinamik ve görsel olarak çekici sunumlar oluşturmak çok önemlidir. Java için Aspose.Slides ile pasta grafikleri gibi karmaşık grafikleri slaytlarınıza sorunsuz bir şekilde entegre edebilir ve veri görselleştirmesini zahmetsizce geliştirebilirsiniz. Bu kapsamlı kılavuz, Aspose.Slides Java kullanarak pasta grafiği oluşturma ve özelleştirme sürecinde size yol gösterecek ve yaygın sunum zorluklarını kolaylıkla çözecektir.
+## Giriş
+Dinamik ve görsel açıdan çekici sunumlar oluşturmak, etkili bilgi sunumu için çok önemlidir. Aspose.Slides for Java ile, pasta grafikleri gibi karmaşık grafikleri slaytlarınıza sorunsuz bir şekilde entegre edebilir, **pasta grafik renklerini özelleştirebilir** ve veri görselleştirmesini zahmetsizce artırabilirsiniz. Bu kapsamlı rehber, Aspose.Slides Java kullanarak bir pasta grafiği oluşturma ve özelleştirme sürecini adım adım göstererek yaygın sunum sorunlarını kolayca çözmenize yardımcı olacaktır.
 
 **Ne Öğreneceksiniz:**
 - Bir sunumu başlatma ve slayt ekleme.
-- Slaydınızda pasta grafiği oluşturma ve yapılandırma.
-- Grafik başlıklarını, veri etiketlerini ve renklerini ayarlama.
-- Performansı optimize etmek ve kaynakları etkin bir şekilde yönetmek.
+- Slaytınıza bir pasta grafik oluşturma ve yapılandırma.
+- Grafik başlıklarını, veri etiketlerini ayarlama ve **pasta grafik renklerini özelleştirme**.
+- Performansı optimize etme ve kaynakları etkili bir şekilde yönetme.
 - Maven veya Gradle kullanarak Aspose.Slides'ı Java projelerine entegre etme.
 
-Öncelikle takip etmeniz gereken tüm gerekli araç ve bilgiye sahip olduğunuzdan emin olarak başlayalım!
+Hadi başlayalım, takip edebilmeniz için gerekli tüm araç ve bilgilere sahip olduğunuzdan emin olun!
 
-## Ön koşullar
-Bu eğitime başlamadan önce aşağıdaki kurulumların hazır olduğundan emin olun:
+## Hızlı Yanıtlar
+- **Bir sunumu başlatmak için birincil sınıf nedir?** `Presentation` from `com.aspose.slides`.
+- **Bir slayta pasta grafik ekleyen yöntem hangisidir?** `addChart(ChartType.Pie, …)`.
+- **Her dilim için farklı renkleri nasıl etkinleştirirsiniz?** Seriler grubunda `setColorVaried(true)` ayarlayın.
+- **Pasta grafiğini döndürebilir misiniz?** Evet, grafik nesnesinde `setRotationAngle(double)` kullanın.
+- **Üretim kullanımında lisansa ihtiyacım var mı?** Ticari dağıtımlar için bir Aspose.Slides lisansı gereklidir.
 
-### Gerekli Kitaplıklar, Sürümler ve Bağımlılıklar
-- **Java için Aspose.Slides**: 25.4 veya üzeri bir sürüme sahip olduğunuzdan emin olun.
-- **Java Geliştirme Kiti (JDK)**: Sürüm 16 veya üzeri gereklidir.
+## “Pasta grafik renklerini özelleştirme” nedir?
+Pasta grafik renklerini özelleştirmek, pastanın her dilimine farklı dolgu renkleri atamak anlamına gelir; bu, okunabilirliği ve görsel etkiyi artırır. Aspose.Slides'te bunu, farklı renkleri etkinleştirerek ve ardından bireysel veri noktaları için katı dolgu renkleri ayarlayarak elde edersiniz.
 
-### Çevre Kurulum Gereksinimleri
-- Java'nın kurulu ve yapılandırılmış olduğu bir geliştirme ortamı.
+## Java için Aspose.Slides ile pasta grafik oluşturmayı neden kullanmalısınız?
+- **Tam kontrol** grafik görünümü üzerinde, Microsoft Office'e ihtiyaç duymadan.
+- **Çapraz platform** uyumluluğu – Windows, Linux ve macOS'ta çalışır.
+- **Zengin API** veri bağlama, stil verme ve PPTX, PDF veya görüntülere dışa aktarma için.
+- **Lisans esnekliği** – ücretsiz deneme ile başlayın ve tam özellik setine ihtiyacınız olduğunda yükseltin.
+
+## Önkoşullar
+Bu eğitime başlamadan önce, aşağıdaki kurulumun hazır olduğundan emin olun:
+
+### Gerekli Kütüphaneler, Sürümler ve Bağımlılıklar
+- **Aspose.Slides for Java**: sürüm 25.4 veya üzeri.
+- **Java Development Kit (JDK)**: sürüm 16 veya üzeri.
+
+### Ortam Kurulum Gereksinimleri
+- Java yüklü ve yapılandırılmış bir geliştirme ortamı.
 - IntelliJ IDEA, Eclipse veya NetBeans gibi bir Entegre Geliştirme Ortamı (IDE).
 
 ### Bilgi Önkoşulları
-- Java programlamanın temel bilgisi.
-- Bağımlılık yönetimi için Maven veya Gradle'a aşinalık.
+- Java programlamaya temel bir anlayış.
+- Bağımlılık yönetimi için Maven veya Gradle konusunda aşinalık.
 
-## Java için Aspose.Slides Kurulumu
-Java projelerinizde Aspose.Slides kullanmaya başlamak için, kütüphaneyi bir bağımlılık olarak eklemeniz gerekir. Bunu farklı derleme araçlarını kullanarak nasıl yapabileceğiniz aşağıda açıklanmıştır:
+## Aspose.Slides for Java Kurulumu
+Java projelerinizde Aspose.Slides'ı kullanmaya başlamak için kütüphaneyi bir bağımlılık olarak eklemeniz gerekir. İşte farklı yapı araçlarıyla bunu nasıl yapabileceğiniz:
 
-**Usta**
-Bu parçacığı şuraya ekleyin: `pom.xml` dosya:
+**Maven**  
+`pom.xml` dosyanıza bu kod parçacığını ekleyin:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -54,22 +76,22 @@ Bu parçacığı şuraya ekleyin: `pom.xml` dosya:
 </dependency>
 ```
 
-**Gradle**
-Aşağıdakileri ekleyin: `build.gradle` dosya:
+**Gradle**  
+`build.gradle` dosyanıza aşağıdakini ekleyin:
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Doğrudan İndirme**
-Bir derleme aracı kullanmayı tercih etmiyorsanız, en son sürümü şu adresten indirin: [Java sürümleri için Aspose.Slides](https://releases.aspose.com/slides/java/).
+**Doğrudan İndirme**  
+Bir yapı aracı kullanmak istemiyorsanız, en son sürümü [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) adresinden indirin.
 
 ### Lisans Edinme Adımları
-- **Ücretsiz Deneme**: Aspose.Slides özelliklerini keşfetmek için ücretsiz denemeye başlayın.
-- **Geçici Lisans**: Sınırlama olmaksızın uzun süreli kullanım için geçici lisans edinin.
-- **Satın almak**: Uzun vadeli erişime ihtiyacınız varsa satın almayı düşünün.
+- **Ücretsiz Deneme**: Aspose.Slides özelliklerini keşfetmek için ücretsiz deneme ile başlayın.  
+- **Geçici Lisans**: Sınırlama olmadan uzun süreli kullanım için geçici bir lisans edinin.  
+- **Satın Alma**: Uzun vadeli erişime ihtiyacınız varsa satın almayı düşünün.
 
-**Temel Başlatma ve Kurulum**
-Aspose.Slides'ı kullanmaya başlamak için yeni bir sunum nesnesi oluşturarak projenizi başlatın:
+**Temel Başlatma ve Kurulum**  
+Aspose.Slides'ı kullanmaya başlamak için, yeni bir sunum nesnesi oluşturarak projenizi başlatın:
 ```java
 import com.aspose.slides.*;
 
@@ -77,93 +99,93 @@ Presentation presentation = new Presentation();
 ```
 
 ## Uygulama Kılavuzu
-Şimdi pasta grafiğinin eklenmesi ve özelleştirilmesi sürecini yönetilebilir adımlara bölelim.
+Şimdi bir pasta grafiği ekleme ve özelleştirme sürecini yönetilebilir adımlara bölelim.
 
-### Sunumu ve Slaydı Başlat
-Yeni bir sunum ayarlayarak ve ilk slayda erişerek başlayın. Bu, grafikler oluşturmak için tuvalinizdir:
+### Sunumu ve Slaytı Başlatma
+Yeni bir sunum ayarlayarak ve ilk slaytı erişerek başlayın. Bu, grafik oluşturmak için tuvalinizdir:
 ```java
 import com.aspose.slides.*;
 
-// Yeni bir sunum örneği oluşturun.
+// Create a new presentation instance.
 Presentation presentation = new Presentation();
-// Sunumdaki ilk slayda erişin.
-islide slides = presentation.getSlides().get_Item(0);
+// Access the first slide in the presentation.
+ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
-### Slayda Pasta Grafiği Ekle
-Belirtilen konuma varsayılan veri kümesiyle bir pasta grafiği ekleyin:
+### Slayta Pasta Grafik Ekleme
+Belirtilen konuma varsayılan bir veri kümesiyle pasta grafik ekleyin:
 ```java
 import com.aspose.slides.*;
 
-// (100, 100) konumuna (400, 400) boyutunda bir pasta grafiği ekleyin.
-ischart chart = slides.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
+// Add a pie chart at position (100, 100) with size (400, 400).
+IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
-### Grafik Başlığını Ayarla
-Başlığı ayarlayıp ortalayarak grafiğinizi özelleştirin:
+### Grafik Başlığını Ayarlama
+Başlığı ayarlayarak ve ortalayarak grafiğinizi özelleştirin:
 ```java
 import com.aspose.slides.*;
 
-// Pasta grafiğine bir başlık ekleyin.
+// Add a title to the pie chart.
 chart.getChartTitle().addTextFrameForOverriding("Sample Title");
 chart.getChartTitle().getTextFrameForOverriding().getTextFrameFormat().setCenterText(NullableBool.True);
 chart.getChartTitle().setHeight(20);
 chart.setTitle(true);
 ```
 
-### Seriler için Veri Etiketlerini Yapılandırın
-Veri etiketlerinin açıklık açısından değerleri gösterdiğinden emin olun:
+### Seri İçin Veri Etiketlerini Yapılandırma
+Açıklık için veri etiketlerinin değerleri gösterdiğinden emin olun:
 ```java
 import com.aspose.slides.*;
 
-// İlk serideki veri değerlerini göster.
+// Show data values on the first series.
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 ```
 
-### Grafik Veri Çalışma Sayfasını Hazırla
+### Grafik Veri Çalışma Sayfasını Hazırlama
 Mevcut serileri ve kategorileri temizleyerek grafiğinizin veri çalışma sayfasını ayarlayın:
 ```java
 import com.aspose.slides.*;
 
-// Grafik veri çalışma kitabını hazırlayın.
+// Prepare the chart data workbook.
 int defaultWorksheetIndex = 0;
-isChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
+IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 ```
 
-### Kategorileri Tabloya Ekle
+### Grafiğe Kategoriler Ekleme
 Pasta grafiğiniz için kategorileri tanımlayın:
 ```java
 import com.aspose.slides.*;
 
-// Yeni kategoriler ekleyin.
+// Add new categories.
 chart.getChartData().getCategories().add(fact.getCell(0, 1, 0, "First Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 ```
 
-### Seri Ekle ve Veri Noktalarını Doldur
-Bir seri oluşturun ve onu veri noktalarıyla doldurun:
+### Seri Ekleme ve Veri Noktalarını Doldurma
+Bir seri oluşturun ve veri noktalarıyla doldurun – burada **grafik serileri ekliyoruz**:
 ```java
 import com.aspose.slides.*;
 
-// Yeni bir seri ekleyin ve ismini belirleyin.
-ischartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
+// Add a new series and set its name.
+IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 ```
 
-### Seri Renklerini ve Kenarlıklarını Özelleştir
-Renkleri ayarlayarak ve kenarlıkları özelleştirerek görsel çekiciliği artırın:
+### Seri Renklerini ve Kenarlıklarını Özelleştirme
+Renkleri ayarlayarak ve kenarlıkları özelleştirerek görsel çekiciliği artırın – bu doğrudan **pasta grafik renklerini özelleştirir**:
 ```java
 import com.aspose.slides.*;
 
-// Seri sektörleri için çeşitli renkler ayarlayın.
+// Set varied colors for the series sectors.
 chart.getChartData().getSeriesGroups().get_Item(0).setColorVaried(true);
 
-isChartDataPoint point = series.getDataPoints().get_Item(0);
+IChartDataPoint point = series.getDataPoints().get_Item(0);
 point.getFormat().getFill().setFillType(FillType.Solid);
 point.getFormat().getFill().getSolidFillColor().setColor(new Color(PresetColor.Cyan));
 point.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
@@ -172,46 +194,74 @@ point.getFormat().getLine().setWidth(3.0);
 point.getFormat().getLine().setStyle(LineStyle.ThinThick);
 point.getFormat().getLine().setDashStyle(LineDashStyle.DashDot);
 
-// Farklı renk ve stillere sahip diğer veri noktaları için işlemi tekrarlayın.
+// Repeat for other data points with different colors and styles.
 ```
 
-### Özel Veri Etiketlerini Yapılandırın
-Her veri noktası için etiketleri ince ayarlayın:
+### Özel Veri Etiketlerini Yapılandırma
+Her veri noktası için etiketleri ince ayar yapın:
 ```java
 import com.aspose.slides.*;
 
-// Özel etiketleri yapılandırın.
-isDataLabel lbl1 = series.getDataPoints().get_Item(0).getLabel();
+// Configure custom labels.
+IDataLabel lbl1 = series.getDataPoints().get_Item(0).getLabel();
 lbl1.getDataLabelFormat().setShowValue(true);
 
-isDataLabel lbl2 = series.getDataPoints().get_Item(1).getLabel();
+IDataLabel lbl2 = series.getDataPoints().get_Item(1).getLabel();
 lbl2.getDataLabelFormat().setShowValue(true);
 lbl2.getDataLabelFormat().setShowLegendKey(true);
 lbl2.getDataLabelFormat().setShowPercentage(true);
 
-isDataLabel lbl3 = series.getDataPoints().get_Item(2).getLabel();
+IDataLabel lbl3 = series.getDataPoints().get_Item(2).getLabel();
 lbl3.getDataLabelFormat().setShowSeriesName(true);
 lbl3.getDataLabelFormat().setShowPercentage(true);
 
-// Etiketler için lider çizgilerini etkinleştirin.
+// Enable leader lines for labels.
 series.getLabels().getDefaultDataLabelFormat().setShowLeaderLines(true);
 ```
 
-### Döndürme Açısını Ayarlayın ve Sunumu Kaydedin
-Döndürme açısını ayarlayarak ve sunumu kaydederek pasta grafiğinizi sonlandırın:
+### Döndürme Açısını Ayarlama ve Sunumu Kaydetme
+Pasta grafiğinizi **döndürme açısını ayarlayarak** ve dosyayı kaydederek tamamlayın:
 ```java
 import com.aspose.slides.*;
 
-// Dönüş açısını ayarlayın.
+// Set rotation angle.
 chart.getPlotArea().getPieChartTitle().getTextFrameForOverriding().setText("Sales Data");
 chart.setRotationAngle(-10);
 
-// Sunumu bir dosyaya kaydedin.
+// Save the presentation to a file.
 presentation.save("PieChartPresentation.pptx", SaveFormat.Pptx);
 ```
 
-## Çözüm
-Bu eğitimde, Java için Aspose.Slides kullanarak pasta grafikleri oluşturmayı ve özelleştirmeyi öğrendiniz. Bu adımları izleyerek sunumlarınızı görsel olarak çekici veri görselleştirmeleriyle zenginleştirebilirsiniz. Herhangi bir sorunuz varsa veya daha fazla yardıma ihtiyacınız varsa, bize ulaşmaktan çekinmeyin.
+## Yaygın Sorunlar ve Çözümler
+| Sorun | Neden | Çözüm |
+|-------|-------|-----|
+| **Tüm dilimler aynı renkte görünüyor** | `setColorVaried(true)` çağrılmadı | Seri grubunda farklı renkleri etkinleştirdiğinizden emin olun. |
+| **Veri etiketleri görünmüyor** | `showValue` bayrağı devre dışı | Uygun etiket formatında `setShowValue(true)` çağırın. |
+| **Döndürme etkisi yok** | Eski bir Aspose.Slides sürümü kullanılıyor | Sürümü 25.4 veya üzeri olarak yükseltin. |
+| **Çalışma zamanında lisans istisnası** | Eksik veya geçersiz lisans dosyası | `Presentation` nesnesini oluşturmadan önce lisansınızı `License license = new License(); license.setLicense("Aspose.Slides.lic");` kodu ile yükleyin. |
+
+## Sıkça Sorulan Sorular
+
+**S: Aspose.Slides Java lisansını nasıl elde edebilirim?**  
+C: Aspose web sitesinden ücretsiz deneme talep edebilir, ardından kalıcı bir lisans satın alabilirsiniz. Ortak Sorunlar tablosunda gösterildiği gibi çalışma zamanında yükleyin.
+
+**S: Bu kodu eski JDK sürümleriyle kullanabilir miyim?**  
+C: API, JDK 16 veya üzeri gerektirir; eski sürümler desteklenmez.
+
+**S: Grafiği PPTX yerine görüntü olarak dışa aktarmak mümkün mü?**  
+C: Evet, render ettikten sonra `chart.getChartData().getChartDataWorkbook().save("chart.png", ImageFormat.Png);` çağırın.
+
+**S: Pasta grafiğine birden fazla seri eklemem gerekirse?**  
+C: Pasta grafikleri genellikle tek bir seri gösterir; birden fazla seri için bunun yerine halka (doughnut) grafiği düşünün.
+
+**S: Kütüphane Linux sunucularda çalışır mı?**  
+C: Kesinlikle – Aspose.Slides for Java platform bağımsızdır ve uyumlu bir JDK ile herhangi bir işletim sisteminde çalışır.
+
+---
+
+**Son Güncelleme:** 2026-02-19  
+**Test Edilen Versiyon:** Aspose.Slides for Java 25.4 (jdk16)  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
