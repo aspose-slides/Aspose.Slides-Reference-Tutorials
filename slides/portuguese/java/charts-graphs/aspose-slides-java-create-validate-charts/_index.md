@@ -1,40 +1,59 @@
 ---
-"date": "2025-04-17"
-"description": "Aprenda a criar e validar gráficos usando o Aspose.Slides para Java com este guia completo. Perfeito para desenvolvedores que integram visualização de dados em aplicativos."
-"title": "Aspose.Slides Java - Crie e valide gráficos em suas apresentações"
-"url": "/pt/java/charts-graphs/aspose-slides-java-create-validate-charts/"
-"weight": 1
+date: '2026-02-22'
+description: Aprenda a criar gráficos em Java usando Aspose.Slides, adicione um gráfico
+  de colunas agrupadas e valide o layout do gráfico — tudo em um guia conciso.
+keywords:
+- Aspose.Slides Java
+- create charts in Java
+- validate chart layout
+title: Criar gráfico em Java com Aspose.Slides – Adicionar e validar gráficos
+url: /pt/java/charts-graphs/aspose-slides-java-create-validate-charts/
+weight: 1
 ---
+
+code`). Keep them.
+
+Translate list items.
+
+Translate table.
+
+Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Como criar e validar gráficos no Aspose.Slides Java: um guia para desenvolvedores
+# Como criar gráfico em Java com Aspose.Slides
 
-No mundo atual, impulsionado por dados, visualizar informações por meio de gráficos é crucial para dar sentido a conjuntos de dados complexos. Seja preparando uma apresentação ou desenvolvendo um painel interativo, criar gráficos precisos e visualmente atraentes é essencial. Este guia apresenta o processo de criação e validação de gráficos usando o Aspose.Slides para Java, oferecendo uma experiência integrada para desenvolvedores que desejam integrar funcionalidades de gráficos em seus aplicativos.
+No mundo orientado a dados de hoje, visualizar informações por meio de gráficos é essencial para entender conjuntos de dados complexos. **Se você precisa criar gráfico em Java**, o Aspose.Slides oferece uma maneira limpa e programática de adicionar, configurar e validar gráficos diretamente em apresentações do PowerPoint. Seja você quem esteja construindo uma ferramenta de relatórios, um aplicativo educacional ou um painel em tempo real, este guia o conduzirá por todo o processo — desde a configuração da biblioteca até a gravação do arquivo final.
 
-## que você aprenderá
-- Como configurar o Aspose.Slides para Java em seu projeto
-- Criando um gráfico de colunas agrupadas em uma apresentação
-- Validando o layout de um gráfico programaticamente
-- Recuperando e compreendendo as dimensões da área do gráfico
-- Salvando apresentações com gráficos atualizados
+## Respostas rápidas
+- **Qual biblioteca permite criar gráfico em Java?** Aspose.Slides for Java.  
+- **Qual tipo de gráfico é demonstrado?** Um gráfico de colunas agrupadas.  
+- **Como você verifica o layout do gráfico?** Chamando `validateChartLayout()` no objeto do gráfico.  
+- **É possível obter o tamanho da área de plotagem?** Sim, via `chart.getPlotArea().getActualX()` e métodos relacionados.  
+- **Qual é a etapa final?** Salvar a apresentação com `pres.save(...)`.
 
-Vamos ver como você pode realizar essas tarefas passo a passo.
+## O que você aprenderá
+- Como configurar o Aspose.Slides for Java no seu projeto  
+- **Como criar gráfico** — especificamente um gráfico de colunas agrupadas — e adicioná‑lo a um slide  
+- **Como validar o layout do gráfico** programaticamente  
+- Recuperar e interpretar as dimensões da área de plotagem  
+- Salvar a apresentação com o gráfico atualizado  
 
-## Pré-requisitos
-Antes de começar, certifique-se de ter o seguinte:
-- **Kit de Desenvolvimento Java (JDK)**: Certifique-se de ter o JDK 16 ou superior instalado.
-- **Aspose.Slides para Java**: Você precisará desta biblioteca para lidar com apresentações e gráficos. A versão usada aqui é `25.4`.
-- **Ambiente de Desenvolvimento Integrado (IDE)**: Qualquer IDE que suporte Java, como IntelliJ IDEA ou Eclipse.
+## Pré‑requisitos
+Antes de começar, certifique‑se de que você tem:
 
-## Configurando o Aspose.Slides para Java
-Para começar, integre o Aspose.Slides ao seu projeto Java usando um dos seguintes métodos:
+- **Java Development Kit (JDK)** – JDK 16 ou superior.  
+- **Aspose.Slides for Java** – a biblioteca (usaremos a versão 25.4 nos exemplos).  
+- **IDE** – IntelliJ IDEA, Eclipse ou qualquer editor compatível com Java.  
 
-### Especialista
-Adicione esta dependência ao seu `pom.xml` arquivo:
+## Configurando o Aspose.Slides for Java
+Você pode trazer o Aspose.Slides para o seu projeto com Maven, Gradle ou download direto.
+
+### Maven
+Adicione esta dependência ao seu arquivo `pom.xml`:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -45,44 +64,38 @@ Adicione esta dependência ao seu `pom.xml` arquivo:
 ```
 
 ### Gradle
-Inclua isso em seu `build.gradle` arquivo:
+Inclua esta linha no seu arquivo `build.gradle`:
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
 ### Download direto
-Alternativamente, baixe a biblioteca diretamente de [Lançamentos do Aspose.Slides para Java](https://releases.aspose.com/slides/java/).
+Alternativamente, faça o download da biblioteca diretamente em [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-#### Aquisição de Licença
-- **Teste grátis**: Acesse recursos limitados com um teste gratuito.
-- **Licença Temporária**: Solicite uma licença temporária para explorar todas as funcionalidades.
-- **Comprar**: Para uso contínuo, adquira uma assinatura.
+#### Aquisição de licença
+- **Teste gratuito** – recursos limitados para avaliação rápida.  
+- **Licença temporária** – solicite uma chave de curto prazo para testes completos.  
+- **Compra** – adquira uma assinatura para uso em produção.
 
-#### Inicialização e configuração básicas
-Certifique-se de que seu ambiente de desenvolvimento esteja pronto. Veja como inicializar o Aspose.Slides no seu aplicativo Java:
+#### Inicialização básica e configuração
+Abaixo está o código mínimo que você precisa para começar a trabalhar com apresentações:
 ```java
 import com.aspose.slides.Presentation;
 
 public class Main {
     public static void main(String[] args) {
         Presentation presentation = new Presentation();
-        // Sua lógica de criação de gráficos aqui
-        presentation.dispose();  // Limpar recursos
+        // Your chart creation logic will go here
+        presentation.dispose();  // Clean up resources
     }
 }
 ```
 
-## Guia de Implementação
+## Como adicionar gráfico ao slide e criar um gráfico de colunas agrupadas
+Criar gráficos em apresentações é simples com o Aspose.Slides. As seções a seguir detalham cada passo.
 
-### Recurso: Criar e validar um gráfico
-
-#### Visão geral
-Criar gráficos em apresentações é simples com o Aspose.Slides. Este recurso se concentra em adicionar um gráfico de colunas agrupadas ao seu slide, garantindo que ele se adapte ao layout desejado.
-
-#### Implementação passo a passo
-
-##### 1. Configure sua apresentação
-Comece carregando ou criando uma nova apresentação:
+### Etapa 1: Configurar sua apresentação
+Carregue um arquivo existente ou inicie um novo:
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.ChartType;
@@ -90,8 +103,8 @@ import com.aspose.slides.ChartType;
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/test.Pptx");
 ```
 
-##### 2. Adicione um gráfico ao slide
-Adicione um gráfico de colunas agrupadas em coordenadas especificadas com as dimensões desejadas:
+### Etapa 2: Adicionar um gráfico de colunas agrupadas
+Aqui nós **adicionamos um gráfico de colunas agrupadas** ao primeiro slide em uma localização específica:
 ```java
 import com.aspose.slides.ShapeType;
 
@@ -100,31 +113,24 @@ Chart chart = (Chart) pres.getSlides().get_Item(0).getShapes().addChart(
 );
 ```
 
-##### 3. Valide o Layout
-Certifique-se de que seu gráfico esteja corretamente disposto:
+### Etapa 3: Validar o layout do gráfico
+Depois de posicionar o gráfico, certifique‑se de que tudo está alinhado corretamente:
 ```java
 chart.validateChartLayout();
 ```
 
-#### Explicação
-- **Parâmetros**: `ChartType.ClusteredColumn` especifica o tipo de gráfico. As coordenadas `(100, 100)` e dimensões `(500, 350)` definir sua posição e tamanho.
-- **Objetivo do Método**: `validateChartLayout()` verifica se há problemas de layout para garantir consistência visual.
+#### Por que a validação é importante
+`validateChartLayout()` verifica elementos sobrepostos, eixos ausentes e outras inconsistências visuais, garantindo que seu público veja um gráfico bem apresentado.
 
-### Recurso: Obter dimensões de área de plotagem de um gráfico
+## Como obter as dimensões da área de plotagem de um gráfico
+Entender o espaço exato que um gráfico ocupa ajuda a ajustar o layout ou sobrepor gráficos adicionais.
 
-#### Visão geral
-Após criar um gráfico, é essencial entender a alocação espacial da área de plotagem. Este recurso recupera essas dimensões programaticamente.
-
-#### Implementação passo a passo
-
-##### 1. Acesse o gráfico
-Recupere seu objeto de gráfico:
+### Etapa 4: Acessar o objeto do gráfico
 ```java
 Chart chart = (Chart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
 ```
 
-##### 2. Obtenha as dimensões da área do lote
-Extraia e imprima detalhes da área de plotagem:
+### Etapa 5: Recuperar métricas da área de plotagem
 ```java
 double x = chart.getPlotArea().getActualX();
 double y = chart.getPlotArea().getActualY();
@@ -134,14 +140,12 @@ double h = chart.getPlotArea().getActualHeight();
 System.out.println("Plot Area: X=" + x + ", Y=" + y + ", Width=" + w + ", Height=" + h);
 ```
 
-### Recurso: Salvar apresentação com um gráfico
+Esses valores são úteis quando você precisa alinhar outras formas ou calcular margens personalizadas.
 
-#### Visão geral
-Depois de adicionar e validar seus gráficos, salvar a apresentação garante que todas as alterações sejam preservadas.
+## Como salvar a apresentação com o novo gráfico
+Depois que seu gráfico for criado e validado, persista as alterações:
 
-#### Implementação passo a passo
-##### 1. Salve a apresentação atualizada
-Use este método para salvar seu trabalho:
+### Etapa 6: Salvar o arquivo
 ```java
 import com.aspose.slides.SaveFormat;
 
@@ -149,39 +153,52 @@ pres.save("YOUR_OUTPUT_DIRECTORY/Chart_out.pptx", SaveFormat.Pptx);
 ```
 
 ## Aplicações práticas
-1. **Relatórios de negócios**: Automatize a criação de apresentações baseadas em dados para relatórios trimestrais.
-2. **Ferramentas educacionais**: Desenvolver módulos de aprendizagem interativos com gráficos incorporados para ilustrar conceitos complexos.
-3. **Integração do painel**: Integre funcionalidades de gráficos em painéis de inteligência empresarial para análises em tempo real.
+- **Relatórios empresariais** – Automatize decks trimestrais com gráficos atualizados.  
+- **Ferramentas educacionais** – Gere slides de aula que ilustram tendências de dados em tempo real.  
+- **Integração de painéis** – Exporte análises em tempo real para PowerPoint em briefings executivos.
 
 ## Considerações de desempenho
-- Otimize o desempenho descartando objetos não utilizados usando `pres.dispose()`.
-- Gerencie a memória de forma eficiente ao lidar com apresentações grandes.
-- Siga as melhores práticas para gerenciamento de recursos Java, especialmente em loops ou operações repetidas.
+- Libere o objeto `Presentation` (`pres.dispose()`) para liberar recursos nativos.  
+- Ao processar decks grandes, reutilize objetos de gráfico sempre que possível para reduzir a rotatividade de memória.  
+- Prefira APIs de streaming para conjuntos de dados massivos, evitando carregar tudo na memória de uma só vez.
 
-## Conclusão
-Seguindo este guia, você aprendeu a criar e validar gráficos no Aspose.Slides com Java. Esses recursos não apenas aprimoram a qualidade da sua apresentação, mas também simplificam o processo de visualização de dados em seus aplicativos. 
+## Problemas comuns e solução de problemas
+| Sintoma | Causa provável | Solução |
+|---------|----------------|---------|
+| O gráfico aparece em branco | Série de dados não adicionada | Use `chart.getChartData().getSeries().add(...)` antes da validação. |
+| A validação do layout gera erros | Formas sobrepostas no slide | Ajuste as coordenadas X/Y ou aumente as dimensões do gráfico. |
+| `OutOfMemoryError` em arquivos grandes | Objetos não foram descartados | Chame `presentation.dispose()` em um bloco `finally`. |
 
-Continue explorando os recursos do Aspose.Slides para liberar mais potencial para seus projetos e não hesite em experimentar diferentes tipos e configurações de gráficos.
+## Perguntas frequentes
 
-## Seção de perguntas frequentes
-1. **O que é Aspose.Slides?**
-   - Uma biblioteca poderosa para gerenciar apresentações do PowerPoint em Java.
-2. **Como obtenho uma licença temporária?**
-   - Visita [Licença Temporária Aspose](https://purchase.aspose.com/temporary-license/) para solicitar um.
-3. **Posso usar o Aspose.Slides com outras linguagens de programação?**
-   - Sim, está disponível para .NET, C++ e mais.
-4. **Que tipos de gráficos podem ser criados?**
-   - Vários tipos, incluindo colunas agrupadas, barras, linhas, pizza, etc.
-5. **Como resolvo um problema de layout de gráfico?**
-   - Usar `validateChartLayout()` para identificar e corrigir quaisquer discrepâncias.
+**P: O que é o Aspose.Slides?**  
+R: É uma poderosa biblioteca Java para criar, editar e converter arquivos PowerPoint sem o Microsoft Office.
+
+**P: Como obtenho uma licença temporária?**  
+R: Acesse [Aspose Temporary License](https://purchase.aspose.com/temporary-license/) e siga as etapas de solicitação.
+
+**P: Posso criar outros tipos de gráfico além de colunas agrupadas?**  
+R: Sim, o Aspose.Slides suporta barras, linhas, pizza, áreas e muitos outros tipos de gráfico.
+
+**P: Existe uma maneira de adicionar dados ao gráfico programaticamente?**  
+R: Absolutamente. Use `chart.getChartData().getSeries().add(...)` e `chart.getChartData().getCategories().add(...)`.
+
+**P: A biblioteca funciona em todos os sistemas operacionais?**  
+R: A versão Java é multiplataforma e roda no Windows, Linux e macOS.
 
 ## Recursos
 - [Documentação](https://reference.aspose.com/slides/java/)
-- [Baixe Aspose.Slides para Java](https://releases.aspose.com/slides/java/)
+- [Download Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
 - [Comprar assinatura](https://purchase.aspose.com/buy)
-- [Teste grátis](https://releases.aspose.com/slides/java/)
-- [Solicitação de Licença Temporária](https://purchase.aspose.com/temporary-license/)
-- [Fórum de Suporte](https://forum.aspose.com/c/slides/11)
+- [Teste gratuito](https://releases.aspose.com/slides/java/)
+- [Solicitar licença temporária](https://purchase.aspose.com/temporary-license/)
+- [Fórum de suporte](https://forum.aspose.com/c/slides/11)
+
+---
+
+**Última atualização:** 2026-02-22  
+**Testado com:** Aspose.Slides for Java 25.4  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
