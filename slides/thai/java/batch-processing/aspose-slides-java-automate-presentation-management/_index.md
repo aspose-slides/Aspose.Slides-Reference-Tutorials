@@ -1,12 +1,12 @@
 ---
-date: '2025-12-24'
-description: เรียนรู้วิธีสร้างไฟล์ PPTX ด้วย Java ด้วย Aspose.Slides for Java เพื่ออัตโนมัติการสร้าง
-  การแก้ไข และการจัดการงานนำเสนอในโครงการของคุณ
+date: '2026-02-24'
+description: เรียนรู้วิธีสร้างไฟล์ PPTX ด้วย Java ผ่าน Aspose.Slides Maven เพื่ออัตโนมัติการสร้าง
+  แก้ไข และจัดการงานนำเสนอในโครงการของคุณ
 keywords:
 - Aspose.Slides for Java
 - Java presentation automation
 - presentation management with Aspose.Slides
-title: สร้าง PPTX ด้วย Java โดยใช้ Aspose.Slides – คู่มือการทำอัตโนมัติ
+title: สร้าง PPTX ด้วย Java และ Aspose.Slides Maven – คู่มือการทำอัตโนมัติ
 url: /th/java/batch-processing/aspose-slides-java-automate-presentation-management/
 weight: 1
 ---
@@ -19,58 +19,29 @@ weight: 1
 
 # วิธีสร้าง PPTX Java ด้วย Aspose.Slides: คู่มือฉบับสมบูรณ์
 
-## บทนำ
-การสร้างงานนำเสนอที่น่าสนใจด้วยโปรแกรมเป็นสิ่งจำเป็นทั่วไปสำหรับนักพัฒนาที่ต้องการ **สร้างไฟล์ PPTX Java** โดยไม่ต้องแก้ไขด้วยตนเอง ไม่ว่าคุณจะสร้างรายงานอัตโนมัติ โมดูลอีเลิร์นนิง หรือเอกสารทางการตลาด การทำเช่นนั้นด้วยโค้ดจะช่วยประหยัดเวลาและรับประกันความสม่ำเสมอ ในคู่มือนี้ เราจะแนะนำการตั้งค่า Aspose.Slides สำหรับ Java การเตรียมโฟลเดอร์ การสร้างสไลด์ การเพิ่มข้อความ ไฮเปอร์ลิงก์ และสุดท้ายคือการบันทึกงานนำเสนอ ทั้งหมดนี้ด้วยตัวอย่างที่ชัดเจนและเป็นขั้นตอน
+## Introduction
+การสร้างงานนำเสนอที่น่าสนใจโดยอัตโนมัติเป็นความต้องการทั่วไปของนักพัฒนาที่ต้องการ **create PPTX Java** โดยไม่ต้องแก้ไขด้วยตนเอง โดยใช้ **Aspose.Slides Maven** คุณสามารถสร้างสไลด์ PowerPoint โดยตรงจากโค้ด Java ทำให้ได้ความสอดคล้องในรายงาน, โมดูล e‑learning หรือสื่อการตลาด ในคู่มือนี้เราจะอธิบายขั้นตอนการตั้งค่า Aspose.Slides for Java, การเตรียมโฟลเดอร์, การสร้างสไลด์, การเพิ่มข้อความ, ไฮเปอร์ลิงก์, และสุดท้ายการบันทึกงานนำเสนอ—ทั้งหมดด้วยตัวอย่างที่ชัดเจนและเป็นขั้นตอน
 
-**สิ่งที่คุณจะได้เรียนรู้:**
-- การตั้งค่า Aspose.Slides สำหรับ Java
-- การสร้างไดเร็กทอรีใน Java
-
+**What You'll Learn:**
+- การตั้งค่า Aspose.Slides for Java
+- การสร้างไดเรกทอรีใน Java
 - การเพิ่มสไลด์และรูปร่างลงในงานนำเสนอ
-- การแทรกข้อความและไฮเปอร์ลิงก์ภายในองค์ประกอบสไลด์
-- การบันทึกงานนำเสนอด้วยโปรแกรม
+- การแทรกข้อความและไฮเปอร์ลิงก์ในองค์ประกอบของสไลด์
+- การบันทึกงานนำเสนอโดยอัตโนมัติ
 
-มาสำรวจการจัดการงานนำเสนออัตโนมัติด้วย Aspose.Slides สำหรับ Java กัน!
+มาสำรวจการจัดการงานนำเสนออัตโนมัติด้วย Aspose.Slides for Java!
 
-## คำตอบโดยย่อ
-- **ไลบรารีใดช่วยคุณสร้างไฟล์ PPTX ใน Java?** Aspose.Slides สำหรับ Java
+## Quick Answers
+- **ไลบรารีใดที่ช่วยคุณสร้างไฟล์ PPTX Java?** Aspose.Slides for Java.  
+- **เวอร์ชัน Java ขั้นต่ำที่ต้องการ?** JDK 16 หรือสูงกว่า.  
+- **ฉันต้องมีลิขสิทธิ์เพื่อรันโค้ดตัวอย่างหรือไม่?** การทดลองใช้ฟรีเพียงพอสำหรับการประเมิน; จำเป็นต้องมีลิขสิทธิ์สำหรับการใช้งานจริง.  
+- **ฉันสามารถแปลง PPTX เป็น PDF ในขั้นตอนเดียวกันได้หรือไม่?** ใช่, Aspose.Slides รองรับหลายรูปแบบการส่งออก.  
+- **Maven เป็นวิธีเดียวในการเพิ่ม dependency หรือไม่?** ไม่, คุณสามารถใช้ Gradle หรือดาวน์โหลด JAR โดยตรงได้.
 
-- **เวอร์ชัน Java ขั้นต่ำที่ต้องการ?** JDK16 หรือสูงกว่า
+## Using Aspose.Slides Maven for Java Presentation Automation
+เมื่อคุณเพิ่ม Aspose.Slides ผ่าน Maven ไลบรารีและ dependency ทั้งหมดที่เกี่ยวข้องจะถูกดึงมาโดยอัตโนมัติ ซึ่งทำให้การตั้งค่าโปรเจกต์ง่ายขึ้นและทำให้คุณอัปเดตกับการแก้บั๊กและการปรับปรุงประสิทธิภาพล่าสุด ด้านล่างเราจะดูพิกัด Maven ที่คุณต้องการ
 
-- **ฉันต้องมีใบอนุญาตเพื่อเรียกใช้โค้ดตัวอย่างหรือไม่?** การทดลองใช้ฟรีใช้ได้สำหรับการประเมินผล จำเป็นต้องมีใบอนุญาตสำหรับการใช้งานจริง
-
-- **ฉันสามารถแปลง PPTX เป็น PDF ในขั้นตอนเดียวกันได้หรือไม่?** ได้ Aspose.Slides รองรับรูปแบบการส่งออกหลายรูปแบบ
-
-- **Maven เป็นวิธีเดียวในการเพิ่มการพึ่งพาหรือไม่?** ไม่ คุณสามารถใช้ Gradle หรือดาวน์โหลดไฟล์ JAR โดยตรงได้เช่นกัน
-
-## “การสร้าง PPTX ใน Java” คืออะไร?
-
-การสร้างไฟล์ PPTX ใน Java หมายถึงการสร้างงานนำเสนอ PowerPoint (`.pptx`) โดยใช้โค้ด Java Aspose.Slides มี API ที่ครบครันซึ่งช่วยลดความซับซ้อนของรูปแบบ Open XML ทำให้คุณมุ่งเน้นไปที่เนื้อหามากกว่าโครงสร้างไฟล์
-
-## ทำไมต้องใช้ Aspose.Slides สำหรับ Java?
-
-- **API ครบครัน:** รูปทรง แผนภูมิ ตาราง แอนิเมชัน และอื่นๆ
-
-- **ไม่จำเป็นต้องใช้ Microsoft Office:** ใช้งานได้บนทุกระบบปฏิบัติการ—Windows, Linux, macOS
-
-- **ความละเอียดสูง:** สไลด์ที่แสดงผลออกมาดูเหมือนกับที่สร้างใน PowerPoint ทุกประการ
-
-- **รองรับรูปแบบไฟล์หลากหลาย:** ส่งออกเป็น PDF, PNG, HTML และอื่นๆ
-
-## ข้อกำหนดเบื้องต้น
-- **ไลบรารีที่จำเป็น:** Aspose.Slides สำหรับ Java เวอร์ชัน 25.4 หรือใหม่กว่า
-
-- **การตั้งค่าสภาพแวดล้อม:** ติดตั้ง JDK 16 ขึ้นไป และกำหนดค่า `JAVA_HOME` แล้ว
-
-- **IDE:** IntelliJ IDEA, Eclipse หรือโปรแกรมแก้ไขข้อความที่เข้ากันได้กับ Java
-
-- **ความรู้พื้นฐานเกี่ยวกับ Java:** คุ้นเคยกับคลาส แพ็กเกจ และการอ่าน/เขียนไฟล์
-
-## การตั้งค่า Aspose.Slides สำหรับ Java
-คุณสามารถเพิ่มไลบรารีผ่าน Maven, Gradle หรือดาวน์โหลดโดยตรงได้
-
-
-**เมเวน:**  
+### Maven Dependency
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -80,48 +51,66 @@ weight: 1
 </dependency>
 ```
 
-**Gradle:**  
+### Gradle Dependency
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**ดาวน์โหลดโดยตรง:**
-ดาวน์โหลดเวอร์ชันล่าสุดจาก [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/)
+### Direct Download
+ดาวน์โหลดเวอร์ชันล่าสุดจาก [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### การขอรับใบอนุญาต
-เพื่อปลดล็อกคุณสมบัติทั้งหมด โปรดขอรับใบอนุญาต:
-- **ทดลองใช้ฟรี:** สำรวจความสามารถหลัก
-- **ใบอนุญาตชั่วคราว:** ทดลองใช้โดยไม่มีข้อจำกัดในช่วงเวลาสั้นๆ
-- **ซื้อ:** เปิดใช้งานการใช้งานเต็มรูปแบบ
+## What is “create PPTX Java”?
+การสร้างไฟล์ PPTX ใน Java หมายถึงการสร้างงานนำเสนอ PowerPoint (`.pptx`) ด้วยโค้ด Java อย่างอัตโนมัติ Aspose.Slides มี API ที่ครอบคลุมซึ่งทำให้คุณไม่ต้องสนใจโครงสร้างไฟล์ Open XML แต่สามารถมุ่งเน้นที่เนื้อหา
 
-### การเริ่มต้นใช้งานพื้นฐาน
-หลังจากเพิ่มการพึ่งพาแล้ว ให้นำเข้าคลาสหลัก:
+## Why use Aspose.Slides Maven?
+- **Full‑feature API:** รูปร่าง, แผนภูมิ, ตาราง, แอนิเมชัน, และอื่น ๆ  
+- **No Microsoft Office required:** ทำงานบนระบบปฏิบัติการใดก็ได้—Windows, Linux, macOS  
+- **High fidelity:** สไลด์ที่เรนเดอร์ดูเหมือนกับที่สร้างใน PowerPoint อย่างเต็มที่  
+- **Extensive format support:** ส่งออกเป็น PDF, PNG, HTML, และอื่น ๆ  
+
+## Prerequisites
+- **Required Libraries:** Aspose.Slides for Java 25.4 หรือใหม่กว่า  
+- **Environment Setup:** ติดตั้ง JDK 16+ และกำหนดค่า `JAVA_HOME`  
+- **IDE:** IntelliJ IDEA, Eclipse หรือ editor ที่รองรับ Java ใดก็ได้  
+- **Basic Java knowledge:** ความคุ้นเคยกับคลาส, แพคเกจ, และการทำ I/O ของไฟล์  
+
+## Setting Up Aspose.Slides for Java
+คุณสามารถเพิ่มไลบรารีผ่าน Maven, Gradle หรือดาวน์โหลดโดยตรง
+
+**License Acquisition**  
+เพื่อเปิดใช้งานคุณสมบัติทั้งหมด, ให้รับลิขสิทธิ์:
+- **Free Trial:** ทดลองใช้คุณสมบัติหลัก  
+- **Temporary License:** ประเมินโดยไม่มีข้อจำกัดในช่วงสั้น  
+- **Purchase:** เปิดใช้งานการใช้ในผลิตภัณฑ์เต็มรูปแบบ  
+
+**Basic Initialization**  
+หลังจากเพิ่ม dependency, ให้นำเข้าคลาสหลัก:
 
 ```java
 import com.aspose.slides.Presentation;
 ```
 
-## คู่มือการใช้งาน
-ต่อไปนี้เราจะเจาะลึกเข้าไปในแต่ละส่วนการทำงานที่จำเป็นสำหรับการ **สร้างไฟล์ PPTX Java**
+## Implementation Guide
+ต่อไปเราจะเจาะลึกแต่ละบล็อกฟังก์ชันที่จำเป็นสำหรับการ **create PPTX Java** ไฟล์
 
-### การสร้างไดเร็กทอรี
-การตรวจสอบให้แน่ใจว่าโฟลเดอร์เป้าหมายมีอยู่จริงจะช่วยป้องกันข้อผิดพลาดเกี่ยวกับเส้นทางไฟล์เมื่อบันทึกงานนำเสนอ
+### Directory Creation
+การตรวจสอบให้แน่ใจว่าโฟลเดอร์เป้าหมายมีอยู่จะป้องกันข้อผิดพลาดของเส้นทางไฟล์เมื่อบันทึกงานนำเสนอ
 
-#### ภาพรวม
-ขั้นตอนนี้จะตรวจสอบว่าไดเร็กทอรีที่ระบุมีอยู่หรือไม่ และสร้างขึ้น (รวมถึงไดเร็กทอรีแม่ที่ขาดหายไป)
+#### Overview
+ขั้นตอนนี้จะตรวจสอบว่าไดเรกทอรีที่ระบุมีอยู่หรือไม่และสร้างมัน (รวมถึงไดเรกทอรีแม่ที่หายไป)
 
-#### ขั้นตอนการใช้งาน
-**ขั้นตอนที่ 1:** นำเข้าแพ็กเกจ Java I/O 
+#### Implementation Steps
+**Step 1:** Import the Java I/O package.  
 ```java
 import java.io.File;
 ```
 
-**ขั้นตอนที่ 2:** กำหนดไดเร็กทอรีที่จะจัดเก็บงานนำเสนอ
+**Step 2:** Define the directory where presentations will be stored.  
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 ```
 
-**ขั้นตอนที่ 3:** ตรวจสอบโฟลเดอร์และสร้างขึ้นหากจำเป็น   
+**Step 3:** Verify the folder and create it if necessary.  
 ```java
 boolean isExists = new File(dataDir).exists();
 if (!isExists) {
@@ -129,16 +118,16 @@ if (!isExists) {
 }
 ```
 
-> **เคล็ดลับ:** ใช้ `Files.createDirectories(Paths.get(dataDir))` สำหรับวิธีการ NIO ที่ทันสมัยกว่า
+> **Pro tip:** ใช้ `Files.createDirectories(Paths.get(dataDir))` สำหรับวิธีการ NIO ที่ทันสมัยกว่า
 
-### การสร้างงานนำเสนอและการจัดการสไลด์
-เมื่อเส้นทางจัดเก็บข้อมูลพร้อมแล้ว เราสามารถเริ่มสร้างงานนำเสนอได้
+### Presentation Creation and Slide Management
+เมื่อเส้นทางการจัดเก็บพร้อมแล้ว เราสามารถเริ่มสร้างงานนำเสนอได้
 
-#### ภาพรวม
-สร้างอ็อบเจ็กต์ `Presentation` ดึงสไลด์แรก และเพิ่ม AutoShape (สี่เหลี่ยมผืนผ้าในตัวอย่าง)
+#### Overview
+สร้างอ็อบเจ็กต์ `Presentation`, ดึงสไลด์แรก, และเพิ่ม AutoShape (สี่เหลี่ยมผืนผ้าในตัวอย่างนี้)
 
-#### ขั้นตอนการใช้งาน
-**ขั้นตอนที่ 1:** นำเข้าคลาส Aspose.Slides ที่จำเป็น 
+#### Implementation Steps
+**Step 1:** Import the essential Aspose.Slides classes.  
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.ISlide;
@@ -146,12 +135,12 @@ import com.aspose.slides.IAutoShape;
 import com.aspose.slides.ShapeType;
 ```
 
-**ขั้นตอนที่ 2:** สร้างงานนำเสนอใหม่ที่ว่างเปล่า 
+**Step 2:** Create a new, empty presentation.  
 ```java
 Presentation pptxPresentation = new Presentation();
 ```
 
-**ขั้นตอนที่ 3:** เข้าถึงสไลด์แรกและแทรก AutoShape รูปสี่เหลี่ยมผืนผ้า
+**Step 3:** Access the first slide and insert a rectangular AutoShape.  
 ```java
 ISlide slide = pptxPresentation.getSlides().get_Item(0);
 IAutoShape pptxAutoShape = (IAutoShape) slide.getShapes().addAutoShape(
@@ -159,50 +148,50 @@ IAutoShape pptxAutoShape = (IAutoShape) slide.getShapes().addAutoShape(
 );
 ```
 
-### การเพิ่มข้อความลงในรูปทรงสไลด์
-รูปทรงที่ไม่มีข้อความนั้นไม่ค่อยมีประโยชน์เท่าไหร่ มาเพิ่มกรอบข้อความกันเถอะ
+### Adding Text to a Slide Shape
+รูปร่างที่ไม่มีข้อความไม่ค่อยมีประโยชน์ เรามาเพิ่ม text frame กัน
 
-#### ภาพรวม
-สร้างกรอบข้อความเปล่า จากนั้นใส่ข้อความที่ต้องการลงในส่วนแรกของย่อหน้าแรก
+#### Overview
+สร้าง text frame ว่างเปล่า แล้วใส่ข้อความที่กำหนดลงในส่วนแรกของย่อหน้าแรก
 
-#### ขั้นตอนการใช้งาน
-**ขั้นตอนที่ 1:** เพิ่มกรอบข้อความลงใน AutoShape 
+#### Implementation Steps
+**Step 1:** Add a text frame to the AutoShape.  
 ```java
 textFrame = pptxAutoShape.addTextFrame("");
 ```
 
-**ขั้นตอนที่ 2:** เขียนข้อความที่ต้องการลงในส่วนแรก
+**Step 2:** Write the desired text into the first portion.  
 ```java
 textFrame.getParagraphs().get_Item(0).getPortions().get_Item(0).setText("Aspose.Slides");
 ```
 
-### การตั้งค่าไฮเปอร์ลิงก์ในส่วนข้อความ
-ไฮเปอร์ลิงก์เปลี่ยนสไลด์แบบคงที่ให้เป็นประสบการณ์แบบโต้ตอบได้
+### Setting a Hyperlink in a Text Portion
+ไฮเปอร์ลิงก์ทำให้สไลด์คงที่กลายเป็นประสบการณ์เชิงโต้ตอบ
 
-#### ภาพรวม
+#### Overview
 ดึง `IHyperlinkManager` จากส่วนข้อความและกำหนด URL ภายนอก
 
-#### ขั้นตอนการใช้งาน
-**ขั้นตอนที่ 1:** ดึงส่วนข้อความและตัวจัดการไฮเปอร์ลิงก์ จากนั้นตั้งค่าลิงก์  
+#### Implementation Steps
+**Step 1:** Obtain the text portion and its hyperlink manager, then set the link.  
 ```java
 textPortion = textFrame.getParagraphs().get_Item(0).getPortions().get_Item(0);
 IHyperlinkManager hyperlinkManager = textPortion.getPortionFormat().getHyperlinkManager();
 hyperlinkManager.setExternalHyperlinkClick("http://www.aspose.com");
 ```
 
-### การบันทึกงานนำเสนอ
-สุดท้ายนี้ ให้บันทึกงานนำเสนอที่สร้างเสร็จแล้วลงดิสก์
+### Saving the Presentation
+สุดท้าย, เขียนงานนำเสนอที่สร้างเสร็จลงดิสก์
 
-#### ภาพรวม
-ใช้เมธอด `save` ร่วมกับ `SaveFormat.Pptx` เพื่อบันทึกไฟล์
+#### Overview
+ใช้เมธอด `save` พร้อม `SaveFormat.Pptx` เพื่อบันทึกไฟล์
 
-#### ขั้นตอนการใช้งาน
-**ขั้นตอนที่ 1:** นำเข้า enum `SaveFormat` 
+#### Implementation Steps
+**Step 1:** Import the `SaveFormat` enum.  
 ```java
 import com.aspose.slides.SaveFormat;
 ```
 
-**ขั้นตอนที่ 2:** บันทึกไฟล์ลงในไดเร็กทอรีที่สร้างไว้ก่อนหน้านี้ 
+**Step 2:** Save the file to the previously created directory.  
 ```java
 tpptxPresentation.save(
     dataDir + "hLinkPPTX_out.pptx",
@@ -210,60 +199,48 @@ tpptxPresentation.save(
 );
 ```
 
-> **หมายเหตุ:** ควรเรียกใช้ `pptxPresentation.dispose();` ทุกครั้งหลังบันทึกเพื่อปล่อยทรัพยากรเนทีฟ โดยเฉพาะอย่างยิ่งเมื่อประมวลผลไฟล์ขนาดใหญ่
+> **Note:** ควรเรียก `pptxPresentation.dispose();` หลังบันทึกทุกครั้งเพื่อปล่อยทรัพยากรเนทีฟ โดยเฉพาะเมื่อประมวลผลเด็คขนาดใหญ่
 
-## การใช้งานจริง
-ต่อไปนี้คือตัวอย่างสถานการณ์จริงที่การสร้างไฟล์ PPTX Java มีประโยชน์อย่างมาก:
+## Practical Applications
+ต่อไปนี้เป็นสถานการณ์จริงบางส่วนที่การ **create PPTX Java** มีประโยชน์
 
-1. **การสร้างรายงานอัตโนมัติ** – ดึงข้อมูลจากฐานข้อมูลหรือ API และสร้างสไลด์ที่สมบูรณ์แบบทุกคืน
+1. **Automated Report Generation** – ดึงข้อมูลจากฐานข้อมูลหรือ API และสร้างสไลด์ที่เรียบหรูทุกคืน  
+2. **E‑Learning Content** – สร้างสไลด์การบรรยายแบบไดนามิกตามการอัปเดตหลักสูตร  
+3. **Marketing Campaigns** – สร้างเด็คโปรโมชั่นส่วนบุคคลสำหรับแต่ละลูกค้าโดยใช้ข้อมูล CRM  
 
-2. **เนื้อหาอีเลิร์นนิง** – สร้างสไลด์บรรยายแบบไดนามิกตามการอัปเดตหลักสูตร
+## Performance Considerations
+- **Dispose objects:** เรียก `presentation.dispose()` เพื่อคืนหน่วยความจำ  
+- **Batch processing:** สำหรับเด็คสไลด์ขนาดใหญ่ ให้สร้างและบันทึกเป็นชิ้นส่วนเพื่อหลีกเลี่ยงความกดดันของ heap  
+- **Keep library up‑to‑date:** เวอร์ชันใหม่มีการปรับปรุงประสิทธิภาพและแก้บั๊ก  
 
-3. **แคมเปญการตลาด** – สร้างชุดสไลด์ส่งเสริมการขายส่วนบุคคลสำหรับลูกค้าแต่ละรายโดยใช้ข้อมูล CRM
-
-## ข้อควรพิจารณาด้านประสิทธิภาพ
-- **ปล่อยทรัพยากร:** เรียกใช้ `presentation.dispose()` เพื่อปล่อยหน่วยความจำ
-
-- **การประมวลผลแบบกลุ่ม:** สำหรับไฟล์สไลด์ขนาดใหญ่ ให้สร้างและบันทึกเป็นส่วนๆ เพื่อหลีกเลี่ยงแรงดันฮีป
-
-- **อัปเดตไลบรารีให้ทันสมัยอยู่เสมอ:** เวอร์ชันใหม่ๆ มีการปรับปรุงประสิทธิภาพและแก้ไขข้อบกพร่อง
-
-## ปัญหาและวิธีแก้ไขที่พบบ่อย
-| ปัญหา | สาเหตุ | วิธีแก้ไข |
-
+## Common Issues & Solutions
+| ปัญหา | สาเหตุ | วิธีแก้ |
 |-------|-------|-----|
+| `OutOfMemoryError` เมื่อบันทึกเด็คขนาดใหญ่ | มีทรัพยากรอยู่ในหน่วยความจำมากเกินไป | เรียก `presentation.dispose()` หลังการบันทึกแต่ละครั้ง; เพิ่มขนาด heap ของ JVM (`-Xmx2g`). |
+| ไฮเปอร์ลิงก์ไม่สามารถคลิกได้ใน PowerPoint | ขาดการเรียก `setExternalHyperlinkClick` | ตรวจสอบว่าคุณดึง `IHyperlinkManager` จากส่วนที่ถูกต้อง |
+| ไม่พบไฟล์เมื่อบันทึก | `dataDir` มีเส้นทางไม่ถูกต้องหรือขาดเครื่องหมาย `/` หรือ `\\` ที่ท้าย | ตรวจสอบว่า `dataDir` ลงท้ายด้วยตัวคั่นที่เหมาะสม (`/` หรือ `\\`). |
 
-| `OutOfMemoryError` เมื่อบันทึกไฟล์ขนาดใหญ่ | มีทรัพยากรในหน่วยความจำมากเกินไป | เรียกใช้ `presentation.dispose()` หลังจากการบันทึกแต่ละครั้ง; เพิ่มขนาดฮีปของ JVM (`-Xmx2g`) |
+## Frequently Asked Questions
 
-| ไฮเปอร์ลิงก์คลิกไม่ได้ใน PowerPoint | ขาดการเรียกใช้ `setExternalHyperlinkClick` | ตรวจสอบให้แน่ใจว่าคุณดึง `IHyperlinkManager` จากส่วนที่ถูกต้อง |
+**Q:** *ฉันสามารถใช้โค้ดนี้ในเว็บแอปพลิเคชันได้หรือไม่?*  
+**A:** ใช่. เพียงตรวจสอบว่าเซิร์ฟเวอร์มีสิทธิ์เขียนไปยังโฟลเดอร์เป้าหมายและจัดการลิขสิทธิ์ Aspose ตามคำขอ
 
-| ไม่พบไฟล์เมื่อบันทึก | เส้นทาง `dataDir` ไม่ถูกต้องหรือขาดเครื่องหมายทับท้าย | ตรวจสอบว่า `dataDir` ลงท้ายด้วยตัวคั่นที่เหมาะสม (`/` หรือ `\\`) |
+**Q:** *Aspose.Slides รองรับไฟล์ PPTX ที่มีการป้องกันด้วยรหัสผ่านหรือไม่?*  
+**A:** แน่นอน. ใช้ `Presentation(String filePath, LoadOptions options)` พร้อม `LoadOptions.setPassword("yourPassword")`.
 
-## คำถามที่พบบ่อย
+**Q:** *ฉันจะแปลง PPTX ที่สร้างเป็น PDF ในขั้นตอนเดียวกันอย่างไร?*  
+**A:** หลังบันทึก, เรียก `presentation.save("output.pdf", SaveFormat.Pdf);`.
 
-**ถาม:** *ฉันสามารถใช้โค้ดนี้ในเว็บแอปพลิเคชันได้หรือไม่?*
-**ตอบ:** ได้ เพียงตรวจสอบให้แน่ใจว่าเซิร์ฟเวอร์มีสิทธิ์ในการเขียนไปยังโฟลเดอร์เป้าหมายและจัดการใบอนุญาต Aspose ต่อคำขอ
+**Q:** *มีวิธีเพิ่มแผนภูมิด้วยโปรแกรมหรือไม่?*  
+**A:** มี. API มีอ็อบเจ็กต์ `Chart` ที่สามารถแทรกได้ผ่าน `slide.getShapes().addChart(...)`.
 
-
-**ถาม:** *Aspose.Slides รองรับไฟล์ PPTX ที่ป้องกันด้วยรหัสผ่านหรือไม่?*
-**ตอบ:** ได้อย่างแน่นอน ใช้ `Presentation(String filePath, LoadOptions options)` ร่วมกับ `LoadOptions.setPassword("yourPassword")`
-
-**ถาม:** *ฉันจะแปลงไฟล์ PPTX ที่สร้างขึ้นเป็น PDF ในขั้นตอนเดียวกันได้อย่างไร?*
-**ตอบ:** หลังจากบันทึกแล้ว ให้เรียกใช้ `presentation.save("output.pdf", SaveFormat.Pdf);`
-
-**ถาม:** *มีวิธีเพิ่มแผนภูมิโดยใช้โปรแกรมหรือไม่?*
-**ตอบ:** มี API ที่ให้วัตถุ `Chart` ซึ่งสามารถแทรกได้โดยใช้ `slide.getShapes().addChart(...)`
-
-
-**ถาม:** *ถ้าฉันต้องการเพิ่มฟอนต์แบบกำหนดเองล่ะ?*
-**ตอบ:** ลงทะเบียนฟอนต์ด้วย `presentation.getFontsManager().setDefaultRegularFont("YourFont.ttf");`
-
-## สรุป
-ตอนนี้คุณได้เรียนรู้ขั้นตอนการสร้างไฟล์ PPTX Java โดยใช้ Aspose.Slides อย่างครบถ้วนแล้ว การสร้างสไลด์แบบอัตโนมัติจะช่วยเพิ่มประสิทธิภาพการทำงาน รักษาความสอดคล้องของแบรนด์ และผสานรวมผลลัพธ์การนำเสนอเข้ากับเวิร์กโฟลว์ขนาดใหญ่ที่ใช้ Java ได้
+**Q:** *ถ้าฉันต้องฝังฟอนต์ที่กำหนดเองล่ะ?*  
+**A:** ลงทะเบียนฟอนต์ด้วย `presentation.getFontsManager().setDefaultRegularFont("YourFont.ttf");`.
 
 ---
-**อัปเดตล่าสุด:** 2025-12-24
-**ทดสอบกับ:** Aspose.Slides สำหรับ Java 25.4 (jdk16 classifier)
+
+**อัปเดตล่าสุด:** 2026-02-24  
+**ทดสอบกับ:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
 **ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
