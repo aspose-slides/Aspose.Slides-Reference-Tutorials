@@ -1,9 +1,17 @@
 ---
-"date": "2025-04-17"
-"description": "Scopri come utilizzare Aspose.Slides per Java per cancellare in modo efficiente punti dati specifici da serie di grafici nelle presentazioni di PowerPoint. Questa guida illustra configurazione, implementazione e best practice."
-"title": "Come cancellare i punti dati nei grafici di PowerPoint utilizzando Aspose.Slides per Java&#58; una guida completa"
-"url": "/it/java/charts-graphs/clear-data-points-ppt-charts-aspose-slides-java/"
-"weight": 1
+date: '2026-02-27'
+description: Scopri come utilizzare Aspose.Slides per Java per cancellare punti dati
+  specifici di un grafico. Questo tutorial passo‑passo mostra come cancellare i dati
+  del grafico, le migliori pratiche e come cancellare le serie del grafico in modo
+  efficiente.
+keywords:
+- clear data points PowerPoint charts
+- manipulate chart series Aspose.Slides Java
+- reset data points PowerPoint using Java
+title: 'Come cancellare i punti dati nei grafici PowerPoint usando Aspose.Slides per
+  Java: una guida completa'
+url: /it/java/charts-graphs/clear-data-points-ppt-charts-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,40 +19,50 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Come cancellare i punti dati nei grafici di PowerPoint utilizzando Aspose.Slides per Java
+# Come cancellare i punti dati nei grafici PowerPoint usando Aspose.Slides per Java
 
 ## Introduzione
 
-Gestire i dati dei grafici in PowerPoint può essere complicato, soprattutto quando si aggiornano o si reimpostano punti dati specifici. Questo tutorial offre una guida dettagliata sull'utilizzo di Aspose.Slides per Java per cancellare determinati punti dati da una serie di grafici all'interno di una presentazione di PowerPoint. Seguendo questa guida, manterrai grafici puliti e precisi senza sforzo.
+Gestire i dati dei grafici in PowerPoint può essere difficile, soprattutto quando è necessario **cancellare punti dati specifici** o ripristinare un'intera serie. In questo tutorial vedrai come **Aspose.Slides per Java** renda semplice cancellare programmaticamente i valori dei grafici, mantenere le presentazioni ordinate e evitare di ricreare i grafici da zero.
 
-**Cosa imparerai:**
-- Come manipolare i grafici di PowerPoint con Aspose.Slides per Java.
-- Passaggi per cancellare in modo efficiente punti dati specifici in una serie di grafici.
-- Procedure consigliate per la configurazione e l'ottimizzazione di Aspose.Slides nel tuo ambiente Java.
+**Cosa imparerai**
+- Come manipolare i grafici PowerPoint con **Aspose.Slides per Java**.  
+- Istruzioni passo‑passo su **come cancellare i punti dati** di un grafico in una serie.  
+- Le migliori pratiche per configurare la libreria e ottimizzare le prestazioni.
 
-Cominciamo esaminando i prerequisiti necessari per questo tutorial!
+Iniziamo controllando i prerequisiti.
+
+## Risposte rapide
+- **Quale libreria viene utilizzata?** Aspose.Slides per Java.  
+- **Quale metodo cancella un punto dato?** Impostare i valori delle celle X e Y a `null`.  
+- **È necessaria una licenza?** Una versione di prova funziona per la valutazione; è richiesta una licenza commerciale per la produzione.  
+- **Versione JDK supportata?** JDK 16 o successiva.  
+- **Posso mirare a una singola serie?** Sì – itera solo sulla serie che desideri cancellare.
+
+## Cos'è Aspose.Slides per Java?
+Aspose.Slides per Java è una potente API che consente agli sviluppatori di creare, modificare e convertire file PowerPoint senza Microsoft Office. Supporta la manipolazione completa dei grafici, inclusa l'aggiunta, l'aggiornamento e la cancellazione dei punti dati.
+
+## Perché cancellare i punti dati dei grafici?
+Cancellare i punti dati è utile quando:
+- Si aggiorna un grafico con un nuovo set di dati mantenendo lo stesso layout.  
+- Si prepara un modello che contiene segnaposti vuoti.  
+- Si costruiscono report dinamici in cui i dati cambiano frequentemente.
 
 ## Prerequisiti
 
-Prima di iniziare, assicurati di avere:
-
-### Librerie, versioni e dipendenze richieste
-- **Aspose.Slides per Java**: Versione 25.4 o superiore.
+### Librerie richieste, versioni e dipendenze
+- **Aspose.Slides per Java**: versione 25.4 o superiore.
 
 ### Requisiti di configurazione dell'ambiente
-- Sul computer deve essere installato il Java Development Kit (JDK) versione 16 o successiva.
+- Java Development Kit (JDK) 16 o più recente.
 
 ### Prerequisiti di conoscenza
-- Conoscenza di base della programmazione Java.
+- Programmazione Java di base.  
 - Familiarità con Maven o Gradle per la gestione delle dipendenze.
 
-## Impostazione di Aspose.Slides per Java
+## Configurazione di Aspose.Slides per Java
 
-Per iniziare a utilizzare Aspose.Slides per Java, segui questi passaggi di configurazione:
-
-### Installazione Maven
-
-Aggiungi la seguente dipendenza al tuo `pom.xml` file:
+### Installazione con Maven
 
 ```xml
 <dependency>
@@ -55,9 +73,7 @@ Aggiungi la seguente dipendenza al tuo `pom.xml` file:
 </dependency>
 ```
 
-### Installazione di Gradle
-
-Includi questo nel tuo `build.gradle` file:
+### Installazione con Gradle
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
@@ -65,18 +81,16 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 
 ### Download diretto
 
-In alternativa, scarica l'ultima versione da [Aspose.Slides per le versioni Java](https://releases.aspose.com/slides/java/).
+In alternativa, scarica l'ultima versione da [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 ### Acquisizione della licenza
 
-Per utilizzare Aspose.Slides oltre i limiti della versione di prova:
-- Ottieni un **prova gratuita** licenza per esplorare tutte le funzionalità.
-- Richiedi un **licenza temporanea** a fini di valutazione.
-- Acquista un **licenza commerciale** per progetti a lungo termine.
+Per utilizzare Aspose.Slides oltre le limitazioni della versione di prova:
+- Ottieni una licenza **gratuita di prova**.  
+- Richiedi una licenza **temporanea** per la valutazione.  
+- Acquista una licenza **commerciale** per l'uso in produzione.
 
 #### Inizializzazione e configurazione di base
-
-Iniziare inizializzando il `Presentation` classe:
 
 ```java
 import com.aspose.slides.*;
@@ -85,7 +99,7 @@ public class ChartManipulation {
     public static void main(String[] args) {
         Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/TestChart.pptx");
         try {
-            // Il tuo codice qui
+            // Your code here
         } finally {
             if (pres != null) pres.dispose();
         }
@@ -93,38 +107,33 @@ public class ChartManipulation {
 }
 ```
 
-## Guida all'implementazione
+## Utilizzo di Aspose.Slides per Java per cancellare i punti dati dei grafici
 
-In questa sezione, esamineremo i passaggi necessari per cancellare punti dati specifici da una serie di grafici.
-
-### Cancella punti dati della serie di grafici
+### Cancellare i punti dati di una serie di grafico
 
 #### Panoramica
 
-Questa funzione consente di reimpostare o cancellare i valori X e Y di ogni punto dati in una serie di grafici specificata. È particolarmente utile quando si aggiornano i grafici con nuovi set di dati senza doverli ricreare completamente.
+Questa funzionalità consente di reimpostare i valori X e Y di ogni punto dati in una serie scelta. È il cuore di **come cancellare i dati del grafico** senza disturbare le altre serie.
 
-#### Implementazione passo dopo passo
+#### Implementazione passo‑passo
 
-1. **Carica la presentazione**
-   
-   Inizia caricando il tuo file PowerPoint in Aspose.Slides `Presentation` oggetto.
+1. **Carica la presentazione**  
+   Carica il tuo file PowerPoint in un oggetto `Presentation`.
 
    ```java
    Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/TestChart.pptx");
    ```
 
-2. **Accedi alla diapositiva e al grafico**
-
-   Recupera la prima diapositiva e il suo grafico:
+2. **Accedi alla diapositiva e al grafico**  
+   Recupera la prima diapositiva e la prima forma (presumibilmente un grafico).
 
    ```java
    ISlide sl = pres.getSlides().get_Item(0);
    IChart chart = (IChart) sl.getShapes().get_Item(0);
    ```
 
-3. **Iterare attraverso i punti dati**
-
-   Eseguire un ciclo su ogni punto dati della prima serie per cancellarne i valori.
+3. **Itera sui punti dati**  
+   Scorri i punti dati della prima serie e imposta i loro valori di cella a `null`.
 
    ```java
    for (IChartDataPoint dataPoint : chart.getChartData().getSeries().get_Item(0).getDataPoints()) {
@@ -133,9 +142,8 @@ Questa funzione consente di reimpostare o cancellare i valori X e Y di ogni punt
    }
    ```
 
-4. **Salva la presentazione**
-
-   Infine, salva la presentazione aggiornata.
+4. **Salva la presentazione**  
+   Persiste le modifiche in un nuovo file.
 
    ```java
    pres.save("YOUR_DOCUMENT_DIRECTORY/UpdatedTestChart.pptx", SaveFormat.Pptx);
@@ -143,67 +151,78 @@ Questa funzione consente di reimpostare o cancellare i valori X e Y di ogni punt
 
 ### Suggerimenti per la risoluzione dei problemi
 
-- Assicurarsi che l'indice del grafico e l'indice della serie siano corretti per evitare `IndexOutOfBoundsException`.
-- Verificare i percorsi dei file per caricare e salvare le presentazioni.
+- Verifica che l'indice della diapositiva (`0`) e l'indice della forma (`0`) puntino effettivamente a un grafico; altrimenti otterrai un `IndexOutOfBoundsException`.  
+- Controlla due volte i percorsi dei file sia per il caricamento che per il salvataggio; usa percorsi assoluti durante i test per evitare confusioni.  
+- Se il grafico contiene più serie, regola l'indice della serie (`get_Item(0)`) di conseguenza.
 
 ## Applicazioni pratiche
 
-La cancellazione dei punti dati del grafico può essere applicata in vari scenari:
+Cancellare i punti dati dei grafici può essere applicato in vari scenari reali:
 
-1. **Aggiornamento dati**: Aggiorna rapidamente i grafici con nuovi set di dati.
-2. **Preparazione del modello**: Preparare i modelli rimuovendo i dati segnaposto.
-3. **Reporting dinamico**: Implementare aggiornamenti dinamici negli strumenti di reporting o nei dashboard.
-4. **Integrazione con fonti dati**: Collega e sincronizza le presentazioni con database live per analisi in tempo reale.
+1. **Aggiornamento dati** – Sostituisci i dati vecchi con un nuovo set senza ricreare il layout del grafico.  
+2. **Preparazione di modelli** – Distribuisci modelli PowerPoint che contengono grafici vuoti pronti per l'inserimento da parte dell'utente.  
+3. **Report dinamici** – Integra fonti di dati live (database, API) per generare presentazioni aggiornate al volo.  
+4. **Dashboard automatizzati** – Crea job programmati che aggiornano i grafici ogni notte, cancellando prima i valori precedenti.
 
 ## Considerazioni sulle prestazioni
 
-Per ottimizzare le prestazioni di Aspose.Slides:
-- Gestire l'utilizzo della memoria in modo efficiente eliminando `Presentation` oggetti dopo l'uso.
-- Utilizzare l'elaborazione in batch per set di dati di grandi dimensioni per ridurre i costi generali.
-- Monitorare le impostazioni heap della JVM per evitare errori di memoria insufficiente durante operazioni intensive.
+- **Rilascia gli oggetti**: chiama sempre `pres.dispose()` per liberare le risorse native.  
+- **Elaborazione batch**: quando gestisci molte presentazioni, riutilizza un'unica istanza di `License` e processa i file in sequenza per ridurre l'overhead.  
+- **Ottimizzazione JVM**: regola la dimensione dell'heap (`-Xmx`) se lavori con file PPTX molto grandi.
 
 ## Conclusione
 
-In questo tutorial, abbiamo spiegato come cancellare i punti dati di una serie di grafici in PowerPoint utilizzando Aspose.Slides per Java. Seguendo questi passaggi, puoi aggiornare e gestire i tuoi grafici in modo efficiente, assicurandoti che riflettano le informazioni più accurate.
+In questa guida abbiamo dimostrato **come cancellare i punti dati di un grafico** usando **Aspose.Slides per Java**. Seguendo i passaggi sopra potrai ripristinare programmaticamente le serie dei grafici, mantenere le presentazioni pulite e integrare gli aggiornamenti dei grafici in qualsiasi pipeline di reporting basata su Java.
 
-**Prossimi passi:**
-- Sperimenta altre funzionalità di manipolazione dei grafici.
-- Esplora l'ampia documentazione di Aspose.Slides per scoprire altre funzionalità.
-
-Pronti a implementare questa soluzione nei vostri progetti? Provatela oggi stesso!
+**Passi successivi**
+- Sperimenta aggiungendo nuovi punti dati dopo aver cancellato quelli vecchi.  
+- Esplora altre funzionalità di manipolazione dei grafici, come la modifica del tipo di grafico o la formattazione delle serie.  
+- Consulta la documentazione completa dell'API Aspose.Slides per approfondimenti.
 
 ## Sezione FAQ
 
-1. **Come posso installare Aspose.Slides per Java utilizzando Maven?**
-   
-   Aggiungi il frammento di dipendenza fornito sopra al tuo `pom.xml`.
+1. **Come installo Aspose.Slides per Java usando Maven?**  
+   Aggiungi lo snippet di dipendenza fornito sopra al tuo `pom.xml`.
 
-2. **Cosa succede se incontro un `IndexOutOfBoundsException` quando si accede a diapositive o grafici?**
-   
-   Controlla attentamente che gli indici delle diapositive e dei grafici a cui fai riferimento siano presenti nella tua presentazione.
+2. **Cosa succede se incontro un `IndexOutOfBoundsException` accedendo a diapositive o grafici?**  
+   Verifica che gli indici di diapositiva e grafico a cui fai riferimento esistano effettivamente nella presentazione.
 
-3. **Aspose.Slides è in grado di gestire in modo efficiente presentazioni di grandi dimensioni?**
-   
-   Sì, gestendo in modo efficace l'utilizzo della memoria e ottimizzando le impostazioni JVM.
+3. **Aspose.Slides gestisce presentazioni di grandi dimensioni in modo efficiente?**  
+   Sì, gestendo l'uso della memoria (rilasciando gli oggetti) e ottimizzando le impostazioni dell'heap JVM.
 
-4. **È possibile cancellare i punti dati senza influire su altre serie?**
-   
-   Sì, prendi di mira serie specifiche e i relativi punti dati come mostrato nel tutorial.
+4. **È possibile cancellare i punti dati senza influenzare le altre serie?**  
+   Assolutamente – punta all'indice della serie specifica che desideri cancellare, come mostrato nel ciclo.
 
-5. **Come posso integrare questa soluzione con un database live?**
-   
-   Utilizza l'API di Aspose.Slides insieme alle tue librerie di connettività del database Java preferite per recuperare e aggiornare dinamicamente i dati dei grafici.
+5. **Come integro questa soluzione con un database live?**  
+   Usa JDBC standard o un ORM moderno per recuperare i dati, quindi applica la stessa logica di cancellazione prima di inserire i nuovi punti.
+
+## Domande frequenti
+
+**D: È necessaria una licenza per le build di sviluppo?**  
+R: Una licenza di prova gratuita è sufficiente per sviluppo e test. È richiesta una licenza commerciale per le distribuzioni in produzione.
+
+**D: Aspose.Slides per Java supporta le funzionalità di PowerPoint 2016/2019?**  
+R: Sì, la libreria è pienamente compatibile con i formati PPTX moderni e supporta tipi di grafico avanzati.
+
+**D: Posso cancellare i punti dati in un grafico che utilizza un asse secondario?**  
+R: Lo stesso approccio funziona; basta assicurarsi di fare riferimento alla serie corretta appartenente all'asse secondario.
+
+**D: Esiste un modo per cancellare solo i valori Y mantenendo le etichette X?**  
+R: Imposta `dataPoint.getYValue().getAsCell().setValue(null)` lasciando intatta la cella X.
+
+**D: Come posso automatizzare questo processo per più presentazioni?**  
+R: Avvolgi il codice in un ciclo che itera su una cartella di file PPTX, applicando la stessa logica di cancellazione e salvataggio a ciascuno.
 
 ## Risorse
 
-- [Documentazione di Aspose.Slides](https://reference.aspose.com/slides/java/)
-- [Scarica Aspose.Slides per Java](https://releases.aspose.com/slides/java/)
-- [Acquista una licenza](https://purchase.aspose.com/buy)
-- [Versione di prova gratuita](https://releases.aspose.com/slides/java/)
-- [Domanda di licenza temporanea](https://purchase.aspose.com/temporary-license/)
-- [Forum della comunità Aspose](https://forum.aspose.com/c/slides/11)
+- [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
+- [Download Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
+- [Purchase a License](https://purchase.aspose.com/buy)
+- [Free Trial Version](https://releases.aspose.com/slides/java/)
+- [Temporary License Application](https://purchase.aspose.com/temporary-license/)
+- [Aspose Community Forum](https://forum.aspose.com/c/slides/11)
 
-Con queste risorse, sarai pronto per iniziare a sfruttare Aspose.Slides per Java nei tuoi progetti. Buon lavoro!
+Con queste risorse sei pronto a iniziare a cancellare i punti dati dei grafici nelle tue applicazioni Java. Buon coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -212,3 +231,9 @@ Con queste risorse, sarai pronto per iniziare a sfruttare Aspose.Slides per Java
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ultimo aggiornamento:** 2026-02-27  
+**Testato con:** Aspose.Slides per Java 25.4 (JDK 16)  
+**Autore:** Aspose
