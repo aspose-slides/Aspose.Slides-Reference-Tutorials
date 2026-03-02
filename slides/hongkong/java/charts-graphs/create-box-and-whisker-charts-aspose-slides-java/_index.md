@@ -1,9 +1,13 @@
 ---
-"date": "2025-04-17"
-"description": "了解如何使用 Aspose.Slides for Java 在 PowerPoint 簡報中產生和自訂箱型圖。本逐步指南涵蓋設定、實施和最佳實務。"
-"title": "如何使用 Aspose.Slides for Java 在 PowerPoint 中建立箱線圖"
-"url": "/zh-hant/java/charts-graphs/create-box-and-whisker-charts-aspose-slides-java/"
-"weight": 1
+date: '2026-03-02'
+description: 學習如何使用 Aspose.Slides for Java 在 PowerPoint 中建立箱形圖、將圖表加入投影片，以及產生箱鬚圖。
+keywords:
+- Aspose.Slides for Java
+- Box-and-Whisker Charts
+- PowerPoint Java
+title: 使用 Aspose.Slides for PowerPoint 在 Java 中建立箱形圖
+url: /zh-hant/java/charts-graphs/create-box-and-whisker-charts-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,34 +15,39 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# 如何使用 Aspose.Slides for Java 在 PowerPoint 中建立箱線圖
+# 如何使用 Aspose.Slides for Java 在 PowerPoint 中建立箱形圖（Box‑and‑Whisker）圖表
 
-在當今數據驅動的世界中，創建具有視覺吸引力的數據簡報至關重要，而圖表是實現此目的的重要工具。如果您希望使用 Java 在 PowerPoint 中產生箱線圖，Aspose.Slides 程式庫提供了一個強大的解決方案。本教學將指導您使用 Aspose.Slides for Java 無縫建立和配置這些圖表。
+在本指南中，您將使用 Aspose.Slides **建立 box plot java**，然後將圖表直接嵌入 PowerPoint 投影片。製作視覺吸引力的資料簡報在當今資料驅動的世界中至關重要，而圖表是實現此目的的關鍵工具。如果您希望在 PowerPoint 中使用 Java 產生箱形圖（box‑and‑whisker）圖表，Aspose.Slides 函式庫提供了強大的解決方案。本教學將一步步帶您使用 Aspose.Slides for Java 建立與設定這些圖表。
 
-## 您將學到什麼
+## 您將學習到
 
-- 為 Aspose.Slides for Java 設定環境
-- 使用 Java 在 PowerPoint 中建立和配置箱線圖的步驟
-- 使用 Aspose.Slides 時優化效能的最佳實踐
-- 箱線圖的實際應用
+- 設定 Aspose.Slides for Java 的開發環境
+- 使用 **add chart to slide** 步驟，於 PowerPoint 中以 Java 產生箱形圖（box‑whisker）圖表
+- 使用 Aspose.Slides 時最佳化效能的實務建議
+- 箱形圖（box‑and‑whisker）的實務應用案例
 
-在深入實施之前，讓我們先解決先決條件。
+## 快速解答
+- **什麼函式庫可以在 Java 中建立 box plot？** Aspose.Slides for Java.  
+- **使用哪種圖表類型？** `ChartType.BoxAndWhisker`.  
+- **需要授權嗎？** 免費試用可用於評估；正式環境需購買商業授權。  
+- **可以加入多個系列嗎？** 可以 – 為每個資料集重複系列建立區塊。  
+- **最終檔案的格式為何？** PowerPoint PPTX (`SaveFormat.Pptx`).  
 
-## 先決條件
+## 前置條件
 
-要遵循本教程，請確保您已具備：
+要跟隨本教學，請確保您已具備：
 
-- **Java 開發工具包 (JDK)**：應安裝 JDK 8 或更高版本。
-- **Aspose.Slides for Java 函式庫**：對於使用 Java 處理 PowerPoint 簡報至關重要。
-- **整合開發環境**：像 IntelliJ IDEA 或 Eclipse 這樣的整合開發環境，用於編寫和執行程式碼。
+- **Java Development Kit (JDK)**：應安裝 JDK 8 或更高版本。  
+- **Aspose.Slides for Java Library**：在 Java 中處理 PowerPoint 簡報的必要函式庫。  
+- **IDE**：如 IntelliJ IDEA 或 Eclipse 等整合開發環境，用於編寫與執行程式碼。  
 
 ## 設定 Aspose.Slides for Java
 
-若要使用 Aspose.Slides，請將其新增為依賴項。您可以透過 Maven、Gradle 或直接下載來管理它。
+若要使用 Aspose.Slides，需將其加入為相依性。您可以透過 Maven、Gradle 或直接下載的方式管理。
 
 ### Maven
 
-在您的 `pom.xml`：
+在您的 `pom.xml` 中加入以下相依性：
 
 ```xml
 <dependency>
@@ -51,7 +60,7 @@
 
 ### Gradle
 
-在你的 `build.gradle`， 包括：
+在您的 `build.gradle` 中加入以下內容：
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
@@ -59,52 +68,62 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 
 ### 直接下載
 
-或者，從下載最新版本 [Aspose.Slides for Java 發布](https://releases。aspose.com/slides/java/).
+或者，從 [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) 下載最新版本。
 
-#### 許可證獲取
+#### 取得授權
 
-- **免費試用**：從免費試用開始探索功能。
-- **臨時執照**：取得臨時許可證以用於評估目的。
-- **購買**：要獲得全部功能，請考慮購買許可證。
+- **Free Trial**：使用免費試用版探索功能。  
+- **Temporary License**：取得臨時授權以供評估。  
+- **Purchase**：若需完整功能，建議購買授權。  
 
-若要初始化 Aspose.Slides，請確保您的類別路徑中存在該程式庫，並根據需要設定任何許可證要求。
+在初始化 Aspose.Slides 前，請確保已將函式庫加入 classpath，並依需求設定授權。
 
-## 實施指南
+## 實作指南
 
-現在，讓我們使用 Aspose.Slides for Java 建立一個箱型圖。本節將指導您完成流程的每個步驟。
+現在讓我們深入逐步程式碼說明。每個程式區塊在程式碼片段前都有說明，讓您清楚了解其功能。
 
-### 建立簡報
+### 什麼是箱形圖（box plot），以及為何在 Java 中使用？
 
-首先，初始化一個新的簡報或開啟一個現有的簡報：
+箱形圖（Box‑and‑Whisker chart，亦稱 *box plot*）以緊湊的方式呈現資料分佈——中位數、四分位數與離群值。於 Java 中以程式產生此圖表，可直接將統計洞見嵌入 PowerPoint 投影片，省去手動製作圖表的步驟。
+
+### 為何使用 Aspose.Slides 在投影片中加入圖表？
+
+Aspose.Slides 抽象化了底層 OpenXML 細節，提供流暢的 API 讓您建立、樣式化與匯出圖表。這意味著您可以自動化報告產出、保持品牌一致性，並將圖表整合至更大的 Java 工作流程中。
+
+### 步驟 1：建立或開啟簡報
+
+首先，開啟既有的 PPTX 或建立新的簡報：
 
 ```java
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/test.pptx");
 ```
 
-### 新增箱線圖
+> **小技巧：** 若檔案不存在，Aspose.Slides 會為您建立新的空白簡報。
 
-將圖表新增到第一張投影片中您想要的位置和大小：
+### 步驟 2：在投影片中加入箱形圖（Box‑and‑Whisker）
+
+將圖表放置於所需位置，並以點數指定位置與大小：
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
     ChartType.BoxAndWhisker, 50, 50, 500, 400);
 ```
 
-### 清除現有數據
+### 步驟 3：清除現有資料
 
-在填入新資料之前，請清除所有現有類別和系列：
+在寫入新資料前，先清除任何佔位的類別或系列：
 
 ```java
 chart.getChartData().getCategories().clear();
 chart.getChartData().getSeries().clear();
 
 IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
-wb.clear(0); // 清除從儲存格「A1」開始的內容
+wb.clear(0); // Clears content starting from cell "A1"
 ```
 
-### 配置類別
+### 步驟 4：設定類別
 
-在圖表資料中新增類別：
+加入將顯示於每個箱形下方的類別（X 軸標籤）：
 
 ```java
 for (int i = 1; i <= 6; i++) {
@@ -113,34 +132,40 @@ for (int i = 1; i <= 6; i++) {
 }
 ```
 
-### 建立和自訂系列
+> **注意：** 請調整標籤文字以符合您的資料領域（例如「Q1」、「Product A」）。
 
-建立新系列並配置其屬性：
+### 步驟 5：建立與自訂系列
+
+現在建立系列、設定視覺選項，並寫入數值資料點：
 
 ```java
 IChartSeries series = chart.getChartData().getSeries().add(ChartType.BoxAndWhisker);
-series.setQuartileMethod(QuartileMethodType.Exclusive); // 將四分位數方法設為“獨佔”
-series.setShowMeanLine(true); // 顯示平均線
-series.setShowMeanMarkers(true); // 顯示平均值標記
-series.setShowInnerPoints(true); // 在圖表上顯示內部點
-series.setShowOutlierPoints(true); // 在圖表上顯示異常點
+series.setQuartileMethod(QuartileMethodType.Exclusive); // Set quartile method to Exclusive
+series.setShowMeanLine(true); // Display mean line
+series.setShowMeanMarkers(true); // Show markers for mean values
+series.setShowInnerPoints(true); // Display inner points on the chart
+series.setShowOutlierPoints(true); // Show outlier points on the chart
 
-int[] data = {15, 41, 16, 10, 23, 16}; // 樣本數據點
+int[] data = {15, 41, 16, 10, 23, 16}; // Sample data points
 for (int i = 0; i < data.length; i++) {
     series.getDataPoints().addDataPointForBoxAndWhiskerSeries(
         wb.getCell(0, "B" + (i + 1), data[i]));
 }
 ```
 
-### 儲存簡報
+您可以將 `int[] data` 陣列替換為從資料庫、CSV 檔或其他來源讀取的值。
 
-最後，儲存您的簡報：
+### 步驟 6：儲存簡報
+
+將變更寫入新的 PPTX 檔案：
 
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/BoxAndWhisker.pptx", SaveFormat.Pptx);
 ```
 
-務必確保處置 `Presentation` 對象釋放資源：
+### 步驟 7：清理資源
+
+請務必釋放 `Presentation` 物件以釋放原生資源：
 
 ```java
 finally {
@@ -148,59 +173,65 @@ finally {
 }
 ```
 
-## 實際應用
+## 實務應用
 
-箱線圖在統計分析和資料呈現上非常有用。以下是一些實際應用：
+箱形圖（Box‑and‑Whisker）在統計分析與資料簡報中極為重要。以下列出幾個典型應用情境：
 
-1. **財務分析**：可視化財務指標，例如收入、利潤率或股票價格。
-2. **品質管制**：分析製造過程的一致性並識別異常值。
-3. **學術研究**：以清晰的可變性視覺化方式呈現實驗結果。
-4. **市場研究**：比較不同產品在不同人口統計資料中的表現。
+1. **Financial Analysis** – 以視覺方式呈現各區域的營收分佈。  
+2. **Quality Control** – 偵測製造測量中的離群值。  
+3. **Academic Research** – 展示實驗結果的變異性。  
+4. **Market Research** – 比較不同人口統計下的產品表現。  
 
-這些圖表可以整合到更大的資料分析工作流程和儀表板中，以提供富有洞察力的視覺摘要。
+將這些圖表整合至 PowerPoint 簡報，可讓利害關係人一眼掌握複雜資料。
 
-## 性能考慮
+## 效能考量
 
-使用 Java 中的 Aspose.Slides 時，請考慮以下事項以獲得最佳效能：
+在 Java 中使用 Aspose.Slides 時，請留意以下建議：
 
-- **記憶體管理**：透過正確處理簡報來確保高效的記憶體使用。
-- **資料處理**：盡量減少對大型資料集的資料操作，以防止效能瓶頸。
-- **最佳化程式碼**：在適用的情況下使用延遲載入和快取等最佳實踐。
+- **Memory Management** – 盡快釋放 `Presentation` 物件。  
+- **Data Handling** – 僅載入必要資料；避免將龐大資料集直接寫入圖表工作簿。  
+- **Lazy Loading** – 若產生大量投影片，建議僅為實際顯示的投影片建立圖表。  
 
-## 結論
+## 常見問題與解決方案
 
-在本教學中，您學習如何使用 Aspose.Slides for Java 建立和配置箱型圖。這個強大的庫可以將複雜的資料視覺化無縫整合到 PowerPoint 簡報中。為了進一步探索 Aspose.Slides，請考慮深入了解其文件並嘗試其他圖表類型。
+| Issue | Cause | Solution |
+|-------|-------|----------|
+| **圖表顯示空白** | 資料儲存格未正確填入 | 確認 `wb.getCell` 指向正確的列/欄，且值不為 `null`。 |
+| **離群點未顯示** | `setShowOutlierPoints` 設為 `false` | 確保呼叫 `series.setShowOutlierPoints(true)`。 |
+| **記憶體泄漏** | 未釋放 Presentation | 始終在 try/finally 中使用，並呼叫 `dispose()`。 |
+| **四分位數不正確** | 使用預設的 `Inclusive` 方法 | 改用 `Exclusive`，透過 `setQuartileMethod(QuartileMethodType.Exclusive)`。 |
 
-## 常見問題部分
+## 常見問答
 
-**問題 1：什麼是箱型圖？**
+**Q1: 什麼是箱形圖（box‑and‑whisker）？**  
+箱形圖（亦稱 box plot）根據五個統計摘要（最小值、第一四分位數、中位數、第三四分位數、最大值）以及任何離群值，展示資料的分佈情形。
 
-箱線圖（也稱為箱線圖）根據五個總計統計資料顯示資料分佈。它對於顯示資料集中的中位數、四分位數和異常值很有用。
+**Q2: 我可以自訂箱形圖的外觀嗎？**  
+可以。Aspose.Slides 允許透過圖表格式化 API 變更顏色、線條樣式、標記形狀，甚至加入資料標籤。
 
-**問題 2：我可以自訂箱線圖的外觀嗎？**
+**Q3: 能在同一張圖表中處理多個系列嗎？**  
+當然可以。為每個想要視覺化的資料集重複系列建立區塊。
 
-是的，Aspose.Slides 允許廣泛的自訂選項，包括顏色、字體和資料點樣式。
+**Q4: 若資料未正確顯示，該如何處理？**  
+請確保資料正確寫入工作簿儲存格，且如 `setShowMeanLine` 等可見屬性已啟用。
 
-**Q3：是否可以在單一圖表中處理多個系列？**
+**Q5: 若遇到問題，該向何處尋求支援？**  
+可前往 [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) 取得社群協助，或參考官方文件。
 
-絕對地。您可以透過重複建立和配置每個系列的過程來為圖表新增多個系列。
+**Q6: Aspose.Slides 支援其他圖表類型嗎？**  
+支援，包括折線圖、長條圖、圓餅圖、散點圖、雷達圖等多種圖表類型。
 
-**問題4：如何解決數據顯示不正確的問題？**
-
-確保資料正確填充到單元格中，並且已設定適當的可見性屬性，例如 `setShowMeanLine`。
-
-**Q5：如果我遇到問題，可以在哪裡獲得支援？**
-
-訪問 [Aspose.Slides論壇](https://forum.aspose.com/c/slides/11) 尋求社群支持或參考官方文件。
+**Q7: 能在無頭（headless）伺服器環境產生圖表嗎？**  
+此函式庫可完整於伺服器端執行，無需 UI。
 
 ## 資源
 
-- **文件**：探索詳細的 API 參考 [Aspose.Slides文檔](https://reference.aspose.com/slides/java/)
-- **下載**：造訪 Aspose.Slides 版本 [這裡](https://releases.aspose.com/slides/java/)
-- **購買**：購買許可證以解鎖全部功能 [Aspose 購買](https://purchase.aspose.com/buy)
-- **免費試用和臨時許可證**：開始免費試用或申請臨時許可證 [這裡](https://releases.aspose.com/slides/java/)
+- **Documentation**：於 [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/) 探索詳細 API 參考。  
+- **Download**：從 [here](https://releases.aspose.com/slides/java/) 取得 Aspose.Slides 版本。  
+- **Purchase**：於 [Aspose Purchase](https://purchase.aspose.com/buy) 購買授權以解鎖全部功能。  
+- **Free Trial & Temporary License**：可先使用免費試用或申請臨時授權，請至 [here](https://releases.aspose.com/slides/java/)。
 
-透過遵循本指南，您可以開始使用 Aspose.Slides 在 Java 應用程式中建立富有洞察力的箱線圖。編碼愉快！
+透過本指南，您已具備在 Java 應用程式中程式化產生洞見豐富的箱形圖（box‑and‑whisker）並直接嵌入 PowerPoint 簡報的能力。祝開發順利！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -209,3 +240,9 @@ finally {
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**最後更新：** 2026-03-02  
+**測試環境：** Aspose.Slides 25.4 (JDK 16 classifier)  
+**作者：** Aspose

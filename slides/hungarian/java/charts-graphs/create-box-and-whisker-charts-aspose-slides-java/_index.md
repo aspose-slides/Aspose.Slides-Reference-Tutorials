@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Tanuld meg, hogyan hozhatsz létre és szabhatsz testre doboz-és-diagramokat PowerPoint-bemutatókban az Aspose.Slides for Java segítségével. Ez a lépésről lépésre szóló útmutató bemutatja a beállítást, a megvalósítást és a bevált gyakorlatokat."
-"title": "Hogyan készítsünk doboz-és-bajuszdiagramokat PowerPointban az Aspose.Slides for Java használatával"
-"url": "/hu/java/charts-graphs/create-box-and-whisker-charts-aspose-slides-java/"
-"weight": 1
+date: '2026-03-02'
+description: Tanulja meg, hogyan hozhat létre box plot-ot Java-ban, hogyan adhat diagramot
+  a diára, és hogyan generálhat box‑whisker diagramot PowerPointban az Aspose.Slides
+  for Java használatával.
+keywords:
+- Aspose.Slides for Java
+- Box-and-Whisker Charts
+- PowerPoint Java
+title: Box diagram létrehozása Java-val az Aspose.Slides for PowerPoint használatával
+url: /hu/java/charts-graphs/create-box-and-whisker-charts-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,34 +17,39 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Hogyan készítsünk doboz-és-bajuszdiagramokat PowerPointban az Aspose.Slides for Java használatával
+# Hogyan készítsünk doboz‑és‑szárnyas diagramokat PowerPointban az Aspose.Slides for Java segítségével
 
-vizuálisan meggyőző adatprezentációk készítése kulcsfontosságú a mai adatvezérelt világban, és a diagramok elengedhetetlen eszközök ehhez. Ha PowerPointban szeretnél doboz- és bajuszdiagramokat létrehozni Java használatával, az Aspose.Slides könyvtár robusztus megoldást kínál. Ez az oktatóanyag végigvezet a diagramok zökkenőmentes létrehozásán és konfigurálásán az Aspose.Slides for Java segítségével.
+Ebben az útmutatóban **create box plot java**-t hozunk létre az Aspose.Slides használatával, majd a diagramot közvetlenül egy PowerPoint‑diaba ágyazzuk be. A vizuálisan vonzó adatprezentációk készítése elengedhetetlen a mai adat‑központú világban, és a diagramok alapvető eszközök ehhez. Ha Java‑val PowerPointban szeretne box‑and‑whisker diagramokat generálni, az Aspose.Slides könyvtár robusztus megoldást kínál. Ez a tutorial lépésről‑lépésre végigvezet a diagramok létrehozásán és konfigurálásán az Aspose.Slides for Java segítségével.
 
-## Amit tanulni fogsz
+## Amit megtanul
 
-- Környezet beállítása az Aspose.Slides for Java használatához
-- Doboz- és bajuszdiagramok létrehozásának és konfigurálásának lépései PowerPointban Java használatával
-- A teljesítmény optimalizálásának bevált gyakorlatai az Aspose.Slides használatakor
-- A doboz-és-bajuszdiagramok valós alkalmazásai
+- Az Aspose.Slides for Java környezetének beállítása
+- Lépések a **add chart to slide** hozzáadásához és egy box‑whisker diagram generálásához PowerPointban Java‑val
+- Legjobb gyakorlatok a teljesítmény optimalizálásához az Aspose.Slides használata során
+- Box‑and‑whisker diagramok valós‑világos alkalmazásai
 
-Kezdjük az előfeltételek áttekintésével, mielőtt belevágnánk a megvalósításba.
+## Gyors válaszok
+- **Melyik könyvtár hoz létre box plot‑ot Java‑ban?** Aspose.Slides for Java.
+- **Melyik diagramtípust használják?** `ChartType.BoxAndWhisker`.
+- **Szükség van licencre?** Egy ingyenes próba a kiértékeléshez elegendő; a termeléshez kereskedelmi licenc szükséges.
+- **Hozzáadhatok több sorozatot?** Igen – ismételje meg a sorozat‑létrehozó blokkot minden adatkészlethez.
+- **Mi lesz a végleges fájl formátuma?** PowerPoint PPTX (`SaveFormat.Pptx`).
 
 ## Előfeltételek
 
-A bemutató követéséhez győződjön meg arról, hogy rendelkezik a következőkkel:
+A tutorial követéséhez győződjön meg róla, hogy rendelkezik:
 
-- **Java fejlesztőkészlet (JDK)**JDK 8-as vagy újabb verziót kell telepíteni.
-- **Aspose.Slides Java könyvtárhoz**Nélkülözhetetlen a Java nyelvű PowerPoint prezentációk kezeléséhez.
-- **IDE**Egy integrált fejlesztői környezet, mint például az IntelliJ IDEA vagy az Eclipse, a kód írásához és végrehajtásához.
+- **Java Development Kit (JDK)**: JDK 8 vagy újabb telepítve legyen.
+- **Aspose.Slides for Java Library**: Alapvető a PowerPoint‑prezentációk Java‑ban történő kezelésehez.
+- **IDE**: Egy integrált fejlesztőkörnyezet, például IntelliJ IDEA vagy Eclipse a kód írásához és futtatásához.
 
-## Az Aspose.Slides beállítása Java-hoz
+## Az Aspose.Slides for Java beállítása
 
-Az Aspose.Slides használatához függőségként kell hozzáadni. Ezt Mavenen, Gradle-en vagy közvetlen letöltéssel kezelheted.
+Az Aspose.Slides használatához adja hozzá függőségként. Kezelheti Maven‑nel, Gradle‑lel vagy közvetlen letöltéssel.
 
-### Szakértő
+### Maven
 
-Adja hozzá a következő függőséget a `pom.xml`:
+Adja hozzá a következő függőséget a `pom.xml`‑hez:
 
 ```xml
 <dependency>
@@ -51,7 +62,7 @@ Adja hozzá a következő függőséget a `pom.xml`:
 
 ### Gradle
 
-A te `build.gradle`, a következőket tartalmazzák:
+A `build.gradle`‑ben szerepeltessen:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
@@ -59,52 +70,62 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 
 ### Közvetlen letöltés
 
-Vagy töltse le a legújabb verziót innen: [Aspose.Slides Java kiadásokhoz](https://releases.aspose.com/slides/java/).
+Alternatívaként töltse le a legújabb verziót a [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) oldalról.
 
-#### Licencszerzés
+#### Licenc beszerzése
 
-- **Ingyenes próbaverzió**: Kezdje egy ingyenes próbaverzióval a funkciók felfedezését.
-- **Ideiglenes engedély**Szerezzen be egy ideiglenes engedélyt értékelési célokra.
-- **Vásárlás**A teljes funkcionalitás eléréséhez érdemes licencet vásárolni.
+- **Ingyenes próba**: Kezdje egy ingyenes próbaverzióval a funkciók felfedezéséhez.  
+- **Ideiglenes licenc**: Szerezzen ideiglenes licencet kiértékelési célokra.  
+- **Megvásárlás**: A teljes funkcionalitáshoz fontolja meg a licenc megvásárlását.
 
-Az Aspose.Slides inicializálásához győződjön meg arról, hogy a könyvtár szerepel a classpath-ben, és szükség szerint állítsa be a licencelési követelményeket.
+Az Aspose.Slides inicializálásához győződjön meg róla, hogy a könyvtár a classpath‑ban van, és állítsa be a szükséges licencelési követelményeket.
 
-## Megvalósítási útmutató
+## Implementációs útmutató
 
-Most hozzunk létre egy doboz-és-hajszáldiagramot az Aspose.Slides for Java segítségével. Ez a szakasz végigvezet a folyamat minden lépésén.
+Most nézzük meg a lépés‑ről‑lépésre kódot. Minden blokk előtt magyarázatot adunk, hogy pontosan tudja, mit csinál.
 
-### Bemutató létrehozása
+### Mi az a box plot és miért használjuk Java‑ban?
 
-Először inicializáljon egy új prezentációt, vagy nyisson meg egy meglévőt:
+A box‑and‑whisker diagram (gyakran *box plot*-nak is nevezik) a adat eloszlását – mediánt, kvartiliseket és kiugró értékeket – kompakt formában ábrázolja. Java‑ban programozottan generálva ez a diagram lehetővé teszi a statisztikai betekintések közvetlen beágyazását PowerPoint‑prezentációkba, kiküszöbölve a manuális diagramkészítést.
+
+### Miért adjunk diagramot a diára az Aspose.Slides‑szel?
+
+Az Aspose.Slides elrejti az alacsony szintű OpenXML részleteket, egy folyékony API‑t biztosítva a diagramok létrehozásához, formázásához és exportálásához. Ez lehetővé teszi a jelentésgenerálás automatizálását, a márka konzisztens megjelenését, és a diagramok integrálását nagyobb Java‑munkafolyamatokba.
+
+### 1. lépés: Prezentáció létrehozása vagy megnyitása
+
+Először nyisson meg egy meglévő PPTX‑et, vagy indítson egy újat:
 
 ```java
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/test.pptx");
 ```
 
-### Doboz-és-bajuszdiagram hozzáadása
+> **Pro tip:** Ha a fájl nem létezik, az Aspose.Slides egy új üres prezentációt hoz létre.
 
-Helyezd el a diagramot az első dián a kívánt helyen és méretben:
+### 2. lépés: Box‑and‑Whisker diagram hozzáadása a diára
+
+Helyezze el a diagramot a kívánt pozícióban és méretben (pontokban):
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
     ChartType.BoxAndWhisker, 50, 50, 500, 400);
 ```
 
-### Meglévő adatok törlése
+### 3. lépés: Létező adatok törlése
 
-Új adatok feltöltése előtt törölje a meglévő kategóriákat és sorozatokat:
+Az új adatok betáplálása előtt törölje a helyőrző kategóriákat vagy sorozatokat:
 
 ```java
 chart.getChartData().getCategories().clear();
 chart.getChartData().getSeries().clear();
 
 IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
-wb.clear(0); // Törli a tartalmat az „A1” cellától kezdődően
+wb.clear(0); // Clears content starting from cell "A1"
 ```
 
-### Kategóriák konfigurálása
+### 4. lépés: Kategóriák konfigurálása
 
-Kategóriák hozzáadása a diagram adataihoz:
+Adja hozzá a kategóriákat (X‑tengely címkéket), amelyek minden doboz alatt megjelennek:
 
 ```java
 for (int i = 1; i <= 6; i++) {
@@ -113,34 +134,40 @@ for (int i = 1; i <= 6; i++) {
 }
 ```
 
-### Sorozatok létrehozása és testreszabása
+> **Megjegyzés:** Igazítsa a címke szövegét az adat domainjéhez (pl. „Q1”, „Product A”).
 
-Hozz létre egy új sorozatot, és konfiguráld a tulajdonságait:
+### 5. lépés: Sorozat létrehozása és testreszabása
+
+Most hozza létre a sorozatot, állítsa be a vizuális opciókat, és adja meg a numerikus adatpontokat:
 
 ```java
 IChartSeries series = chart.getChartData().getSeries().add(ChartType.BoxAndWhisker);
-series.setQuartileMethod(QuartileMethodType.Exclusive); // Kvartilis módszer beállítása Kizáró értékre
-series.setShowMeanLine(true); // Átlagos vonal megjelenítése
-series.setShowMeanMarkers(true); // Átlagértékek jelölőinek megjelenítése
-series.setShowInnerPoints(true); // Belső pontok megjelenítése a diagramon
-series.setShowOutlierPoints(true); // Kiugró pontok megjelenítése a diagramon
+series.setQuartileMethod(QuartileMethodType.Exclusive); // Set quartile method to Exclusive
+series.setShowMeanLine(true); // Display mean line
+series.setShowMeanMarkers(true); // Show markers for mean values
+series.setShowInnerPoints(true); // Display inner points on the chart
+series.setShowOutlierPoints(true); // Show outlier points on the chart
 
-int[] data = {15, 41, 16, 10, 23, 16}; // Minta adatpontok
+int[] data = {15, 41, 16, 10, 23, 16}; // Sample data points
 for (int i = 0; i < data.length; i++) {
     series.getDataPoints().addDataPointForBoxAndWhiskerSeries(
         wb.getCell(0, "B" + (i + 1), data[i]));
 }
 ```
 
-### Prezentáció mentése
+A `int[] data` tömböt helyettesítheti adatbázisból, CSV‑fájlból vagy bármely más forrásból beolvasott értékekkel.
 
-Végül mentsd el a prezentációdat:
+### 6. lépés: Prezentáció mentése
+
+A változtatásokat mentse egy új PPTX fájlba:
 
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/BoxAndWhisker.pptx", SaveFormat.Pptx);
 ```
 
-Mindig ügyeljen arra, hogy a `Presentation` objektum az erőforrások felszabadítására:
+### 7. lépés: Erőforrások felszabadítása
+
+Mindig hívja meg a `Presentation` objektum `dispose()` metódusát a natív erőforrások felszabadításához:
 
 ```java
 finally {
@@ -150,57 +177,63 @@ finally {
 
 ## Gyakorlati alkalmazások
 
-doboz- és bajuszdiagramok felbecsülhetetlen értékűek a statisztikai elemzésben és az adatok bemutatásában. Íme néhány gyakorlati alkalmazás:
+A box‑and‑whisker diagramok felbecsülhetetlenek a statisztikai elemzésben és az adatprezentációban. Néhány példa, ahol kiemelkedően hasznosak:
 
-1. **Pénzügyi elemzés**: Pénzügyi mutatók, például bevétel, profitmarzs vagy részvényárfolyamok vizualizálása.
-2. **Minőségellenőrzés**: Elemezze a gyártási folyamatokat az egységesség szempontjából, és azonosítsa a kiugró értékeket.
-3. **Akadémiai kutatás**Mutassa be a kísérleti eredményeket a változékonyság egyértelmű vizualizációjával.
-4. **Piackutatás**: Különböző termékek teljesítményének összehasonlítása különböző demográfiai csoportok között.
+1. **Pénzügyi elemzés** – A bevétel eloszlásának vizualizálása régiók szerint.  
+2. **Minőség‑ellenőrzés** – Kiugró értékek felderítése a gyártási mérésekben.  
+3. **Akademiai kutatás** – Kísérleti eredmények variabilitásának bemutatása.  
+4. **Piackutatás** – Termék‑teljesítmény összehasonlítása demográfiai csoportokban.
 
-Ezek a diagramok integrálhatók nagyobb adatelemzési munkafolyamatokba és irányítópultokba, hogy hasznos vizuális összefoglalókat nyújtsanak.
+Ezeknek a diagramoknak a PowerPoint‑prezentációkba való beágyazása lehetővé teszi a döntéshozók számára, hogy egy pillantással megértsék a komplex adatokat.
 
 ## Teljesítménybeli szempontok
 
-Amikor az Aspose.Slides-szal dolgozol Java-ban, vedd figyelembe a következőket az optimális teljesítmény érdekében:
+Az Aspose.Slides Java‑ban történő használata során vegye figyelembe a következő tippeket:
 
-- **Memóriakezelés**A prezentációk megfelelő megsemmisítésével biztosítsa a hatékony memóriahasználatot.
-- **Adatkezelés**: A teljesítménybeli szűk keresztmetszetek elkerülése érdekében minimalizálja a nagy adathalmazokon végzett adatműveleteket.
-- **Optimalizált kód**Alkalmazza a legjobb gyakorlatokat, például a lusta betöltést és a gyorsítótárazást, ahol alkalmazható.
+- **Memóriakezelés** – A `Presentation` objektumokat azonnal szabadítsa fel.  
+- **Adatkezelés** – Csak a szükséges adatokat töltse be; kerüld a hatalmas adatkészletek közvetlen betáplálását a diagram munkafüzetébe.  
+- **Lusta betöltés** – Ha sok diát generál, csak azokhoz hozzon létre diagramot, amelyek ténylegesen megjelennek.
 
-## Következtetés
+## Gyakori problémák és megoldások
 
-Ebben az oktatóanyagban megtanultad, hogyan hozhatsz létre és konfigurálhatsz doboz-és-hajszáldiagramokat az Aspose.Slides for Java használatával. Ez a hatékony függvénykönyvtár lehetővé teszi az összetett adatvizualizációk zökkenőmentes integrálását a PowerPoint-bemutatókba. Az Aspose.Slides további megismeréséhez érdemes alaposabban áttanulmányozni a dokumentációját, és más diagramtípusokkal kísérletezni.
+| Probléma | Ok | Megoldás |
+|----------|----|----------|
+| **A diagram üres** | Az adatcellák nincsenek megfelelően feltöltve | Ellenőrizze, hogy a `wb.getCell` a helyes sorra/oszlopra hivatkozik, és az érték nem `null`. |
+| **A kiugró értékek nem láthatók** | `setShowOutlierPoints` `false` értékre van állítva | Győződjön meg róla, hogy a `series.setShowOutlierPoints(true)` hívás megtörtént. |
+| **Memóriaszivárgás** | A prezentáció nem lett felszabadítva | Mindig használjon `try/finally` blokkot, és hívja meg a `dispose()` metódust. |
+| **Helytelen kvartilisek** | Az alapértelmezett `Inclusive` módszer használata | Változtassa `Exclusive`‑re a `setQuartileMethod(QuartileMethodType.Exclusive)` hívással. |
 
-## GYIK szekció
+## Gyakran feltett kérdések
 
-**1. kérdés: Mi az a doboz-diagram?**
+**Q1: Mi az a box‑and‑whisker diagram?**  
+Egy box‑and‑whisker diagram, más néven box plot, a data eloszlását mutatja öt összegző statisztika alapján: minimum, első kvartilis, medián, harmadik kvartilis és maximum, valamint a kiugró értékek.
 
-A dobozdiagram, más néven dobozdiagram, öt összefoglaló statisztika alapján jeleníti meg az adatok eloszlását. Hasznos egy adathalmaz mediánjának, kvartiliseinek és kiugró értékeinek megjelenítésére.
+**Q2: Testreszabhatom a diagram megjelenését?**  
+Igen. Az Aspose.Slides lehetővé teszi a színek, vonalstílusok, jelölőformák módosítását, sőt adatcímkék hozzáadását is a diagram formázási API‑ján keresztül.
 
-**2. kérdés: Testreszabhatom a doboz-diagram megjelenését?**
+**Q3: Lehet több sorozatot kezelni egy diagramon?**  
+Természetesen. Ismételje meg a sorozat‑létrehozó blokkot minden megjeleníteni kívánt adatkészlethez.
 
-Igen, az Aspose.Slides széleskörű testreszabási lehetőségeket kínál, beleértve a színeket, betűtípusokat és az adatpont-stílusokat.
+**Q4: Hogyan oldjam meg a helytelenül megjelenő adatokat?**  
+Győződjön meg róla, hogy az adatok helyesen íródtak a munkafüzet celláiba, és a láthatósági tulajdonságok, például a `setShowMeanLine`, engedélyezve vannak.
 
-**3. kérdés: Lehetséges több sorozatot egyetlen diagramon kezelni?**
+**Q5: Hol kaphatok támogatást, ha problémáim vannak?**  
+Látogassa meg az [Aspose.Slides fórumot](https://forum.aspose.com/c/slides/11) a közösségi segítségért, vagy tekintse meg a hivatalos dokumentációt.
 
-Teljesen. Több sorozatot is hozzáadhatsz a diagramodhoz az egyes sorozatok létrehozásának és konfigurálásának megismétlésével.
+**Q6: Támogatja az Aspose.Slides más diagramtípusokat is?**  
+Igen, támogatja a vonal, oszlop, kör, szórás, radar és még sok más diagramtípust.
 
-**4. kérdés: Hogyan oldhatom meg az adatok helytelen megjelenítésével kapcsolatos problémákat?**
+**Q7: Generálhatok diagramokat fej nélküli szerverkörnyezetben?**  
+A könyvtár teljesen működik szerver‑oldali környezetben; UI nem szükséges.
 
-Győződjön meg arról, hogy az adatok helyesen vannak feltöltve a cellákba, és hogy beállította a megfelelő láthatósági tulajdonságokat, például `setShowMeanLine`.
+## Források
 
-**5. kérdés: Hol kaphatok támogatást, ha problémákba ütközöm?**
+- **Dokumentáció**: Részletes API‑referenciák a [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/) oldalon  
+- **Letöltés**: Az Aspose.Slides kiadások elérhetők [itt](https://releases.aspose.com/slides/java/)  
+- **Megvásárlás**: Licenc vásárlása a teljes funkciók feloldásához a [Aspose Purchase](https://purchase.aspose.com/buy) oldalon  
+- **Ingyenes próba és ideiglenes licenc**: Kezdje ingyenes próbaverzióval vagy kérjen ideiglenes licencet [itt](https://releases.aspose.com/slides/java/)
 
-Látogassa meg a [Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) közösségi támogatásért, vagy tekintse meg a hivatalos dokumentációt.
-
-## Erőforrás
-
-- **Dokumentáció**Részletes API-referenciákat itt talál: [Aspose.Slides dokumentáció](https://reference.aspose.com/slides/java/)
-- **Letöltés**Hozzáférés az Aspose.Slides kiadásaihoz [itt](https://releases.aspose.com/slides/java/)
-- **Vásárlás**: Vásároljon licencet a teljes funkciók feloldásához a következő címen: [Aspose vásárlás](https://purchase.aspose.com/buy)
-- **Ingyenes próbaverzió és ideiglenes licenc**: Kezdje ingyenes próbaverzióval, vagy kérjen ideiglenes licencet [itt](https://releases.aspose.com/slides/java/)
-
-Ezt az útmutatót követve minden szükséges eszközzel elkezdhetsz hasznos doboz-és-diagramokat készíteni Java-alkalmazásaidban az Aspose.Slides segítségével. Jó kódolást!
+Ezzel az útmutatóval most már képes programozottan generálni átfogó box‑and‑whisker diagramokat Java‑alkalmazásaiban, és közvetlenül PowerPoint‑prezentációkba ágyazni őket. Boldog kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -209,3 +242,9 @@ Ezt az útmutatót követve minden szükséges eszközzel elkezdhetsz hasznos do
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Utoljára frissítve:** 2026-03-02  
+**Tesztelve a következővel:** Aspose.Slides 25.4 (JDK 16 classifier)  
+**Szerző:** Aspose

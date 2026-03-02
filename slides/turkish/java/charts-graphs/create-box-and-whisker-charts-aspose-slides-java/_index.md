@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Aspose.Slides for Java ile PowerPoint sunumlarında kutu ve bıyık grafiklerinin nasıl oluşturulacağını ve özelleştirileceğini öğrenin. Bu adım adım kılavuz, kurulum, uygulama ve en iyi uygulamaları kapsar."
-"title": "Aspose.Slides for Java kullanarak PowerPoint'te Kutu ve Bıyık Grafikleri Nasıl Oluşturulur"
-"url": "/tr/java/charts-graphs/create-box-and-whisker-charts-aspose-slides-java/"
-"weight": 1
+date: '2026-03-02'
+description: Aspose.Slides for Java kullanarak Java’da kutu grafiği oluşturmayı, slayta
+  grafik eklemeyi ve PowerPoint’te kutu‑çubuk grafiği (box‑whisker chart) üretmeyi
+  öğrenin.
+keywords:
+- Aspose.Slides for Java
+- Box-and-Whisker Charts
+- PowerPoint Java
+title: Aspose.Slides for PowerPoint kullanarak Java’da kutu grafiği oluşturma
+url: /tr/java/charts-graphs/create-box-and-whisker-charts-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,34 +17,39 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.Slides for Java Kullanarak PowerPoint'te Kutu ve Bıyık Grafikleri Nasıl Oluşturulur
+# PowerPoint'te Aspose.Slides for Java Kullanarak Kutu ve Bıyık Grafiklerini Nasıl Oluşturulur
 
-Günümüzün veri odaklı dünyasında görsel olarak ilgi çekici veri sunumları oluşturmak hayati önem taşır ve grafikler bu amaç için olmazsa olmaz araçlardır. Java kullanarak PowerPoint'te kutu ve bıyık grafikleri oluşturmak istiyorsanız, Aspose.Slides kitaplığı sağlam bir çözüm sunar. Bu eğitim, bu grafikleri Java için Aspose.Slides ile sorunsuz bir şekilde oluşturmanız ve yapılandırmanız konusunda size rehberlik edecektir.
+Bu rehberde Aspose.Slides ile **create box plot java** oluşturacak ve ardından grafiği doğrudan bir PowerPoint slaytına yerleştireceksiniz. Görsel açıdan etkileyici veri sunumları oluşturmak, günümüz veri odaklı dünyasında kritik öneme sahiptir ve grafikler bu amaç için temel araçlardır. Java kullanarak PowerPoint içinde kutu ve bıyık grafikleri oluşturmak istiyorsanız, Aspose.Slides kütüphanesi sağlam bir çözüm sunar. Bu öğreticide, Aspose.Slides for Java ile bu grafiklerin oluşturulması ve yapılandırılması adım adım gösterilecektir.
 
-## Ne Öğreneceksiniz
+## Öğrenecekleriniz
 
-- Java için Aspose.Slides ortamınızı kurma
-- Java kullanarak PowerPoint'te kutu ve bıyık grafikleri oluşturma ve yapılandırma adımları
+- Aspose.Slides for Java için ortamınızı kurma
+- **add chart to slide** adımlarını ve Java kullanarak PowerPoint'te kutu‑bıyık grafiği oluşturma
 - Aspose.Slides ile çalışırken performansı optimize etmek için en iyi uygulamalar
-- Kutu ve bıyık grafiklerinin gerçek dünya uygulamaları
+- Kutu‑ve‑bıyık grafiklerinin gerçek dünya uygulamaları
 
-Uygulamaya geçmeden önce ön koşulları ele alarak başlayalım.
+## Hızlı Yanıtlar
+- **What library creates a box plot in Java?** Aspose.Slides for Java.
+- **Which chart type is used?** `ChartType.BoxAndWhisker`.
+- **Do I need a license?** Değerlendirme için ücretsiz deneme çalışır; üretim için ticari bir lisans gereklidir.
+- **Can I add multiple series?** Evet – her veri kümesi için seri‑oluşturma bloğunu tekrarlayın.
+- **What format is the final file?** PowerPoint PPTX (`SaveFormat.Pptx`).
 
-## Ön koşullar
+## Ön Koşullar
 
-Bu eğitimi takip edebilmek için şunlara sahip olduğunuzdan emin olun:
+Bu öğreticiyi takip edebilmek için aşağıdakilere sahip olduğunuzdan emin olun:
 
-- **Java Geliştirme Kiti (JDK)**: JDK 8 veya üzeri kurulu olmalıdır.
-- **Java Kütüphanesi için Aspose.Slides**Java'da PowerPoint sunumlarını yönetmek için gereklidir.
-- **İDE**: Kodunuzu yazmak ve çalıştırmak için IntelliJ IDEA veya Eclipse gibi Entegre Geliştirme Ortamı.
+- **Java Development Kit (JDK)**: JDK 8 veya daha üstü yüklü olmalıdır.
+- **Aspose.Slides for Java Library**: Java'da PowerPoint sunumlarını işlemek için gereklidir.
+- **IDE**: IntelliJ IDEA veya Eclipse gibi bir Entegre Geliştirme Ortamı, kodunuzu yazıp çalıştırmak için.
 
-## Java için Aspose.Slides Kurulumu
+## Aspose.Slides for Java Kurulumu
 
-Aspose.Slides'ı kullanmak için, bunu bir bağımlılık olarak ekleyin. Bunu Maven, Gradle veya doğrudan indirme yoluyla yönetebilirsiniz.
+Aspose.Slides'ı kullanmak için bağımlılık olarak ekleyin. Bunu Maven, Gradle aracılığıyla ya da doğrudan indirme yoluyla yönetebilirsiniz.
 
-### Usta
+### Maven
 
-Aşağıdaki bağımlılığı ekleyin `pom.xml`:
+`pom.xml` dosyanıza aşağıdaki bağımlılığı ekleyin:
 
 ```xml
 <dependency>
@@ -51,7 +62,7 @@ Aşağıdaki bağımlılığı ekleyin `pom.xml`:
 
 ### Gradle
 
-Senin içinde `build.gradle`, katmak:
+`build.gradle` dosyanıza aşağıdakini ekleyin:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
@@ -59,52 +70,62 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 
 ### Doğrudan İndirme
 
-Alternatif olarak, en son sürümü şu adresten indirin: [Java sürümleri için Aspose.Slides](https://releases.aspose.com/slides/java/).
+Alternatif olarak, en son sürümü [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) adresinden indirebilirsiniz.
 
-#### Lisans Edinimi
+#### Lisans Edinme
 
-- **Ücretsiz Deneme**: Özellikleri keşfetmek için ücretsiz denemeyle başlayın.
-- **Geçici Lisans**: Değerlendirme amaçlı geçici lisans alın.
-- **Satın almak**: Tam işlevsellik için lisans satın almayı düşünebilirsiniz.
+- **Free Trial**: Özellikleri keşfetmek için ücretsiz deneme ile başlayın.  
+- **Temporary License**: Değerlendirme amaçlı geçici bir lisans edinin.  
+- **Purchase**: Tam işlevsellik için bir lisans satın almayı düşünün.
 
-Aspose.Slides'ı başlatmak için, kütüphanenin sınıf yolunuzda olduğundan emin olun ve gerektiği gibi lisanslama gereksinimlerini ayarlayın.
+Aspose.Slides'ı başlatmak için, kütüphanenin sınıf yolunuzda (classpath) bulunduğundan ve gerekli lisans gereksinimlerini ayarladığınızdan emin olun.
 
 ## Uygulama Kılavuzu
 
-Şimdi, Java için Aspose.Slides ile bir kutu ve bıyık grafiği oluşturalım. Bu bölüm, sürecin her adımında size rehberlik edecektir.
+Şimdi adım adım koda dalalım. Her blok, kod parçacığından önce açıklanır, böylece ne yaptığını tam olarak bilirsiniz.
 
-### Sunum Oluştur
+### Box plot nedir ve Java'da neden kullanılır?
 
-Öncelikle yeni bir sunum başlatın veya mevcut bir sunumu açın:
+Kutu‑ve‑bıyık grafiği (genellikle *box plot* olarak adlandırılır) veri dağılımını—medyan, çeyrekler ve aykırı değerleri—kısa bir biçimde görselleştirir. Java'da bu grafiği programlı olarak oluşturmak, istatistiksel içgörüleri doğrudan PowerPoint sunularına yerleştirmenizi sağlar ve manuel grafik oluşturmayı ortadan kaldırır.
+
+### Aspose.Slides ile slayta grafik eklemek neden?
+
+Aspose.Slides, düşük seviyeli OpenXML ayrıntılarını soyutlayarak grafik oluşturma, biçimlendirme ve dışa aktarma için akıcı bir API sunar. Bu sayede rapor üretimini otomatikleştirebilir, tutarlı marka kimliği oluşturabilir ve grafikleri daha büyük Java iş akışlarına entegre edebilirsiniz.
+
+### Adım 1: Sunum Oluşturma veya Açma
+
+İlk olarak, mevcut bir PPTX dosyasını açın veya yeni bir tane başlatın:
 
 ```java
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/test.pptx");
 ```
 
-### Kutu ve Bıyık Grafiği Ekle
+> **Pro ipucu:** Dosya mevcut değilse, Aspose.Slides sizin için yeni bir boş sunum oluşturur.
 
-Tabloyu ilk slayda istediğiniz konuma ve boyuta ekleyin:
+### Adım 2: Slayta Kutu‑ve‑Bıyık Grafiği Ekleme
+
+Grafiği, konum ve boyut (puan cinsinden) belirterek ihtiyacınız olan yere yerleştirin:
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
     ChartType.BoxAndWhisker, 50, 50, 500, 400);
 ```
 
-### Mevcut Verileri Temizle
+### Adım 3: Mevcut Verileri Temizleme
 
-Yeni verileri doldurmadan önce mevcut kategorileri ve serileri temizleyin:
+Yeni verileri eklemeden önce, yer tutucu kategorileri veya serileri temizleyin:
 
 ```java
 chart.getChartData().getCategories().clear();
 chart.getChartData().getSeries().clear();
 
 IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
-wb.clear(0); // "A1" hücresinden başlayarak içeriği temizler
+wb.clear(0); // Clears content starting from cell "A1"
 ```
 
-### Kategorileri Yapılandır
+### Adım 4: Kategorileri Yapılandırma
 
-Grafik verilerinize kategoriler ekleyin:
+Her kutunun altında görünecek kategorileri (X‑eksen etiketleri) ekleyin:
 
 ```java
 for (int i = 1; i <= 6; i++) {
@@ -113,34 +134,40 @@ for (int i = 1; i <= 6; i++) {
 }
 ```
 
-### Seri Oluştur ve Özelleştir
+> **Not:** Etiket metnini veri alanınıza uygun şekilde ayarlayın (ör. “Q1”, “Product A”).
 
-Yeni bir seri oluşturun ve özelliklerini yapılandırın:
+### Adım 5: Seriyi Oluşturma ve Özelleştirme
+
+Şimdi bir seri oluşturun, görsel seçenekleri ayarlayın ve sayısal veri noktalarını besleyin:
 
 ```java
 IChartSeries series = chart.getChartData().getSeries().add(ChartType.BoxAndWhisker);
-series.setQuartileMethod(QuartileMethodType.Exclusive); // Dörttebirlik yöntemi Özel olarak ayarlayın
-series.setShowMeanLine(true); // Ortalama çizgiyi göster
-series.setShowMeanMarkers(true); // Ortalama değerler için işaretçileri göster
-series.setShowInnerPoints(true); // Grafikte iç noktaları göster
-series.setShowOutlierPoints(true); // Grafikte aykırı noktaları göster
+series.setQuartileMethod(QuartileMethodType.Exclusive); // Set quartile method to Exclusive
+series.setShowMeanLine(true); // Display mean line
+series.setShowMeanMarkers(true); // Show markers for mean values
+series.setShowInnerPoints(true); // Display inner points on the chart
+series.setShowOutlierPoints(true); // Show outlier points on the chart
 
-int[] data = {15, 41, 16, 10, 23, 16}; // Örnek veri noktaları
+int[] data = {15, 41, 16, 10, 23, 16}; // Sample data points
 for (int i = 0; i < data.length; i++) {
     series.getDataPoints().addDataPointForBoxAndWhiskerSeries(
         wb.getCell(0, "B" + (i + 1), data[i]));
 }
 ```
 
-### Sunumu Kaydet
+`int[] data` dizisini bir veritabanı, CSV dosyası veya başka bir kaynaktan okunan değerlerle değiştirebilirsiniz.
 
-Son olarak sununuzu kaydedin:
+### Adım 6: Sunumu Kaydetme
+
+Değişiklikleri yeni bir PPTX dosyasına kaydedin:
 
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/BoxAndWhisker.pptx", SaveFormat.Pptx);
 ```
 
-Her zaman atıklarınızı bertaraf ettiğinizden emin olun. `Presentation` kaynakları serbest bırakma nesnesi:
+### Adım 7: Kaynakları Temizleme
+
+`Presentation` nesnesini her zaman dispose ederek yerel kaynakları serbest bırakın:
 
 ```java
 finally {
@@ -150,57 +177,63 @@ finally {
 
 ## Pratik Uygulamalar
 
-Kutu ve bıyık grafikleri istatistiksel analiz ve veri sunumunda paha biçilmezdir. İşte bazı pratik uygulamalar:
+Kutu‑ve‑bıyık grafikleri istatistiksel analiz ve veri sunumunda vazgeçilmezdir. İşte öne çıktıkları birkaç senaryo:
 
-1. **Finansal Analiz**: Gelir, kâr marjları veya hisse senedi fiyatları gibi finansal ölçümleri görselleştirin.
-2. **Kalite Kontrol**: Üretim süreçlerini tutarlılık açısından analiz edin ve aykırı değerleri belirleyin.
-3. **Akademik Araştırma**:Deneysel sonuçları değişkenliğin net görselleştirmeleriyle sunun.
-4. **Pazar araştırması**: Farklı demografik özelliklere sahip farklı ürün performanslarını karşılaştırın.
+1. **Financial Analysis** – Gelir dağılımını bölgeler arasında görselleştirin.  
+2. **Quality Control** – Üretim ölçümlerindeki aykırı değerleri tespit edin.  
+3. **Academic Research** – Deneysel sonuçların değişkenliğini gösterin.  
+4. **Market Research** – Demografik gruplar arasında ürün performansını karşılaştırın.
 
-Bu grafikler, içgörülü görsel özetler sağlamak için daha büyük veri analizi iş akışlarına ve panolara entegre edilebilir.
+Bu grafikleri PowerPoint sunularına entegre etmek, paydaşların karmaşık verileri bir bakışta kavramasını sağlar.
 
-## Performans Hususları
+## Performans Düşünceleri
 
-Java'da Aspose.Slides ile çalışırken, optimum performans için aşağıdakileri göz önünde bulundurun:
+Aspose.Slides'ı Java'da kullanırken aşağıdaki ipuçlarını aklınızda tutun:
 
-- **Bellek Yönetimi**:Sunumları uygun şekilde düzenleyerek belleğin verimli kullanılmasını sağlayın.
-- **Veri İşleme**: Performans darboğazlarını önlemek için büyük veri kümelerindeki veri işlemlerini en aza indirin.
-- **Optimize Edilmiş Kod**Uygun durumlarda tembel yükleme ve önbelleğe alma gibi en iyi uygulamaları kullanın.
+- **Memory Management** – `Presentation` nesnelerini hızlı bir şekilde dispose edin.  
+- **Data Handling** – Sadece ihtiyacınız olan verileri yükleyin; büyük veri setlerini doğrudan grafik çalışma kitabına beslemekten kaçının.  
+- **Lazy Loading** – Çok sayıda slayt oluşturuyorsanız, yalnızca gösterilecek slaytlar için grafik oluşturmayı düşünün.
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-Bu eğitimde, Java için Aspose.Slides kullanarak kutu ve bıyık grafiklerinin nasıl oluşturulacağını ve yapılandırılacağını öğrendiniz. Bu güçlü kütüphane, karmaşık veri görselleştirmelerinin PowerPoint sunumlarına sorunsuz bir şekilde entegre edilmesini sağlar. Aspose.Slides'ı daha fazla keşfetmek için, belgelerine daha derinlemesine dalmayı ve diğer grafik türleriyle denemeler yapmayı düşünün.
+| Issue | Cause | Solution |
+|-------|-------|----------|
+| **Grafik boş görünüyor** | Veri hücreleri doğru şekilde doldurulmamış | `wb.getCell`'in doğru satır/sütuna referans verdiğini ve değerin `null` olmadığını doğrulayın. |
+| **Aykırı değerler gösterilmiyor** | `setShowOutlierPoints` false olarak ayarlanmış | `series.setShowOutlierPoints(true)` çağrıldığından emin olun. |
+| **Bellek sızıntısı** | Presentation dispose edilmemiş | Kullanımı her zaman try/finally içinde sarın ve `dispose()` çağırın. |
+| **Yanlış çeyrekler** | Varsayılan `Inclusive` yöntemi kullanılıyor | `setQuartileMethod(QuartileMethodType.Exclusive)` ile `Exclusive`'a geçin. |
 
-## SSS Bölümü
+## Sıkça Sorulan Sorular
 
-**S1: Kutu-bıyık grafiği nedir?**
+**S1: Kutu‑ve‑bıyık grafiği nedir?**  
+Kutu‑ve‑bıyık grafiği, box plot olarak da bilinir, verinin dağılımını beş özet istatistiğe göre gösterir: minimum, birinci çeyrek, medyan, üçüncü çeyrek ve maksimum, ayrıca aykırı değerler.
 
-Kutu ve bıyık grafiği, kutu grafiği olarak da bilinir, beş özet istatistiğe dayalı olarak verilerin dağılımını gösterir. Bir veri kümesindeki medyan, çeyrekler ve aykırı değerleri göstermek için kullanışlıdır.
+**S2: Kutu‑ve‑bıyık grafiğinin görünümünü özelleştirebilir miyim?**  
+Evet. Aspose.Slides, renkleri, çizgi stillerini, işaretçi şekillerini değiştirebilir ve hatta grafik biçimlendirme API'si aracılığıyla veri etiketleri ekleyebilir.
 
-**S2: Kutu ve bıyık grafiğinin görünümünü özelleştirebilir miyim?**
+**S3: Tek bir grafikte birden fazla seriyi yönetmek mümkün mü?**  
+Kesinlikle. Görselleştirmek istediğiniz her veri kümesi için seri‑oluşturma bloğunu tekrarlayın.
 
-Evet, Aspose.Slides renkler, yazı tipleri ve veri noktası stilleri de dahil olmak üzere kapsamlı özelleştirme seçeneklerine izin verir.
+**S4: Verilerin doğru görüntülenmemesi sorununu nasıl çözerim?**  
+Verilerin çalışma kitabı hücrelerine doğru yazıldığından ve `setShowMeanLine` gibi görünürlük özelliklerinin etkin olduğundan emin olun.
 
-**S3: Tek bir grafikte birden fazla seriyi işlemek mümkün müdür?**
+**S5: Sorunlarla karşılaştığımda nereden destek alabilirim?**  
+Topluluk yardımı için [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) adresini ziyaret edin veya resmi dokümantasyona bakın.
 
-Kesinlikle. Her seriyi oluşturma ve yapılandırma sürecini tekrarlayarak grafiğinize birden fazla seri ekleyebilirsiniz.
+**S6: Aspose.Slides diğer grafik türlerini destekliyor mu?**  
+Evet, çizgi, çubuk, pasta, dağılım, radar ve daha birçok grafik türünü destekler.
 
-**S4: Verilerin düzgün görüntülenmemesiyle ilgili sorunları nasıl çözebilirim?**
-
-Verilerin hücrelere doğru şekilde yerleştirildiğinden ve görünürlük için uygun özellikleri ayarladığınızdan emin olun, örneğin: `setShowMeanLine`.
-
-**S5: Sorun yaşarsam nereden destek alabilirim?**
-
-Ziyaret edin [Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) Topluluk desteği için veya resmi belgelere başvurun.
+**S7: Grafikleri başsız (headless) bir sunucu ortamında oluşturabilir miyim?**  
+Kütüphane sunucu tarafı senaryolarında tamamen çalışır; UI gerektirmez.
 
 ## Kaynaklar
 
-- **Belgeleme**: Ayrıntılı API referanslarını şu adreste inceleyin: [Aspose.Slides Belgeleri](https://reference.aspose.com/slides/java/)
-- **İndirmek**: Aspose.Slides sürümlerine erişim [Burada](https://releases.aspose.com/slides/java/)
-- **Satın almak**: Tüm özelliklerin kilidini açmak için bir lisans satın alın [Aspose Satın Alma](https://purchase.aspose.com/buy)
-- **Ücretsiz Deneme ve Geçici Lisans**: Ücretsiz denemeyle başlayın veya geçici bir lisans talep edin [Burada](https://releases.aspose.com/slides/java/)
+- **Documentation**: Ayrıntılı API referanslarını [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/) adresinde keşfedin  
+- **Download**: Aspose.Slides sürümlerine [buradan](https://releases.aspose.com/slides/java/) erişin  
+- **Purchase**: Tam özellikleri açmak için bir lisans satın alın [Aspose Purchase](https://purchase.aspose.com/buy)  
+- **Free Trial & Temporary License**: Ücretsiz deneme ile başlayın veya geçici bir lisans isteyin [buradan](https://releases.aspose.com/slides/java/)
 
-Bu kılavuzu takip ederek, Aspose.Slides kullanarak Java uygulamalarınızda içgörülü kutu ve bıyık grafikleri oluşturmaya başlamak için iyi bir donanıma sahip olursunuz. İyi kodlamalar!
+Bu kılavuzu izleyerek, Java uygulamalarınızda programlı olarak içgörülü kutu‑ve‑bıyık grafikler oluşturup doğrudan PowerPoint sunumlarına yerleştirebilecek donanıma sahip oldunuz. Kodlamanın tadını çıkarın!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -209,3 +242,9 @@ Bu kılavuzu takip ederek, Aspose.Slides kullanarak Java uygulamalarınızda iç
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Son Güncelleme:** 2026-03-02  
+**Test Edilen Versiyon:** Aspose.Slides 25.4 (JDK 16 classifier)  
+**Yazar:** Aspose
