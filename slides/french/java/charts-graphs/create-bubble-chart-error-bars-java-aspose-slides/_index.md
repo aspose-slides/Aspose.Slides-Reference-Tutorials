@@ -1,9 +1,17 @@
 ---
-"date": "2025-04-17"
-"description": "Apprenez à créer des graphiques à bulles détaillés avec des barres d'erreur personnalisées avec Aspose.Slides pour Java. Améliorez vos présentations de données grâce à des visualisations claires."
-"title": "Comment créer un graphique à bulles avec barres d'erreur en Java avec Aspose.Slides"
-"url": "/fr/java/charts-graphs/create-bubble-chart-error-bars-java-aspose-slides/"
-"weight": 1
+date: '2026-03-04'
+description: Apprenez à ajouter des barres d’erreur personnalisées à un graphique
+  à bulles avec Aspose.Slides for Java. Ce guide couvre la création du graphique,
+  la configuration des barres d’erreur pour chaque point et l’enregistrement de la
+  présentation.
+keywords:
+- Bubble Chart Java
+- Custom Error Bars Aspose.Slides
+- Java Data Visualization
+title: Comment ajouter des barres d'erreur personnalisées à un graphique à bulles
+  en Java avec Aspose.Slides
+url: /fr/java/charts-graphs/create-bubble-chart-error-bars-java-aspose-slides/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,33 +19,28 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Comment créer un graphique à bulles avec des barres d'erreur personnalisées en Java avec Aspose.Slides
+# Comment ajouter des barres d’erreur personnalisées à un graphique à bulles en Java avec Aspose.Slides
 
-## Introduction
+Créer des présentations claires et basées sur les données implique souvent d’aller au‑delà des graphiques simples. En apprenant **comment ajouter des barres d’erreur personnalisées** à un graphique à bulles, vous offrez à votre audience une visibilité sur la variabilité et les niveaux de confiance de chaque point de données. Dans ce tutoriel, vous verrez comment configurer un projet Java avec Aspose.Slides, ajouter un graphique à bulles à une diapositive, configurer les barres d’erreur par point, puis enregistrer le résultat sous forme de fichier PowerPoint.
 
-Enrichir vos présentations avec des visualisations de données détaillées est essentiel, et les graphiques à bulles avec barres d'erreur personnalisées ne font pas exception. Avec Aspose.Slides pour Java, créer ces graphiques sophistiqués devient simple et efficace. Ce tutoriel vous guidera dans l'initialisation d'une présentation, la création d'un graphique à bulles, la configuration de barres d'erreur personnalisées, la définition de valeurs spécifiques pour chaque point de données et l'enregistrement de votre travail.
+## Quick Answers
+- **Quelle bibliothèque est requise ?** Aspose.Slides for Java (dernière version).  
+- **Quel type de graphique prend en charge les barres d’erreur personnalisées ?** Graphique à bulles (`ChartType.Bubble`).  
+- **Les barres d’erreur peuvent-elles être définies par point de données ?** Oui – utilisez `ErrorBarsCustomValues` pour les valeurs X/Y plus/moins.  
+- **Ai‑je besoin d’une licence ?** Un essai gratuit fonctionne pour les tests ; une licence complète supprime les limites d’évaluation.  
+- **Combien de temps prend l’implémentation ?** Environ 10‑15 minutes pour un exemple de base.
 
-**Ce que vous apprendrez :**
-- Initialisation d'une présentation vide
-- Création d'un graphique à bulles en Java
-- Configuration et personnalisation des barres d'erreur
-- Définition de valeurs de barre d'erreur spécifiques pour les points de données
-- Enregistrer efficacement la présentation
+## Prerequisites
 
-Explorons comment vous pouvez réaliser ces tâches en toute simplicité !
+Avant de commencer, assurez‑vous d’avoir :
 
-## Prérequis
+- **Kit de développement Java (JDK) :** version 8 ou supérieure.  
+- **Aspose.Slides for Java :** ajoutez la bibliothèque à votre projet (voir les extraits Maven/Gradle ci‑dessous).  
+- **IDE :** IntelliJ IDEA, Eclipse, NetBeans ou tout éditeur de votre choix.
 
-Avant de commencer, assurez-vous que votre environnement est correctement configuré. Vous aurez besoin de :
-- **Kit de développement Java (JDK) :** Version 8 ou supérieure.
-- **Aspose.Slides pour Java :** Incluez la bibliothèque dans votre projet. Ce tutoriel utilise la version 25.4 avec JDK16.
-- **IDE:** Tout IDE Java tel qu'IntelliJ IDEA, Eclipse ou NetBeans convient.
+### Required Libraries and Dependencies
 
-### Bibliothèques et dépendances requises
-
-Voici comment ajouter Aspose.Slides à votre projet à l'aide de Maven ou Gradle :
-
-**Expert :**
+**Maven:**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -47,121 +50,98 @@ Voici comment ajouter Aspose.Slides à votre projet à l'aide de Maven ou Gradle
 </dependency>
 ```
 
-**Gradle :**
+**Gradle:**
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Vous pouvez également télécharger la dernière version à partir de [Versions d'Aspose.Slides pour Java](https://releases.aspose.com/slides/java/).
+Vous pouvez également télécharger le JAR le plus récent depuis la page officielle des versions : [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### Acquisition de licence
+### License Acquisition
 
-Pour utiliser Aspose.Slides :
-- Commencez par un essai gratuit pour tester les fonctionnalités.
-- Demandez une licence temporaire pour débloquer toutes les fonctionnalités sans limitations.
-- Achetez un abonnement si votre projet nécessite une utilisation à long terme.
+- Commencez avec un essai gratuit pour explorer toutes les fonctionnalités.  
+- Demandez une licence temporaire pour des tests sans restriction.  
+- Achetez une licence complète d’exécution pour une utilisation en production.
 
-## Configuration d'Aspose.Slides pour Java
+## Setting Up Aspose.Slides for Java
 
-Une fois la bibliothèque prête dans votre IDE, initialisez et configurez votre environnement de présentation :
+Une fois la bibliothèque sur votre classpath, initialisez un objet présentation. Ce bloc crée une toile vierge pour le graphique.
 
 ```java
 import com.aspose.slides.*;
 
-// Initialiser une présentation vide
+// Initialize an empty presentation
 Presentation presentation = new Presentation();
 try {
-    // Votre code ici
+    // Your code here
 } finally {
     if (presentation != null) presentation.dispose();
 }
 ```
 
-Cet extrait définit un cadre de base pour la création de présentations avec Aspose.Slides.
+## Implementation Guide
 
-## Guide de mise en œuvre
+### Feature 1: Add Chart to Slide and Create a Bubble Chart
 
-### Fonctionnalité 1 : Créer un graphique à bulles
+**Pourquoi ajouter un graphique à une diapositive ?**  
+Intégrer un graphique directement dans une diapositive vous permet de garder le contexte visuel avec le texte ou les images environnants, rendant la présentation plus cohérente.
 
-**Aperçu:**
-L'ajout d'un graphique à bulles à vos diapositives améliore la compréhension des données. Ajoutons-en un à la première diapositive avec Aspose.Slides pour Java.
-
-#### Mise en œuvre étape par étape
-
-##### 1. Importer les classes requises
-Assurez-vous d’avoir importé toutes les classes nécessaires au début de votre fichier :
+#### Step 1: Import Required Classes
 ```java
 import com.aspose.slides.*;
 ```
 
-##### 2. Ajouter un graphique à bulles à la première diapositive
-Voici comment vous pouvez ajouter un graphique à bulles avec des dimensions et des propriétés spécifiques :
-
+#### Step 2: Add Bubble Chart to the First Slide
 ```java
-// Accéder à la première diapositive
+// Access the first slide
 ISlide slide = presentation.getSlides().get_Item(0);
 
-// Créer un graphique à bulles sur la diapositive
+// Create a bubble chart on the slide
 IChart chart = slide.getShapes().addChart(
     ChartType.Bubble, 50, 50, 400, 300, true);
 ```
+- `ChartType.Bubble` indique à Aspose que nous voulons un graphique à bulles.  
+- Les coordonnées `(50, 50)` et la taille `(400, 300)` positionnent le graphique de façon agréable sur la diapositive.
 
-- **Paramètres:**
-  - `ChartType.Bubble`: Spécifie le type de graphique.
-  - Coordonnées `(50, 50)`: Position X et Y sur la diapositive.
-  - Dimensions `(400, 300)`:Largeur et hauteur de la zone graphique.
+### Feature 2: Configure Error Bars
 
-### Fonctionnalité 2 : Configurer les barres d'erreur
+Les barres d’erreur donnent aux spectateurs un indice visuel sur la fiabilité de chaque point. Nous les rendrons visibles et les configurerons pour utiliser des valeurs personnalisées.
 
-**Aperçu:**
-Les barres d'erreur ajoutent un niveau de détail à vos points de données en affichant la variabilité. Configurons-les pour notre série de graphiques à bulles.
-
-#### Mise en œuvre étape par étape
-
-##### 1. Série de graphiques d'accès
-Tout d’abord, accédez à la première série de graphiques à partir de votre graphique à bulles :
-
+#### Step 3: Access the First Series
 ```java
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 ```
 
-##### 2. Configurer les barres d'erreur
-Configurer des barres d’erreur personnalisées pour les axes X et Y :
-
+#### Step 4: Enable and Set Custom Error Bars
 ```java
-// Accéder aux formats de barre d'erreur
+// Accessing error bar formats
 IErrorBarsFormat errBarX = series.getErrorBarsXFormat();
 IErrorBarsFormat errBarY = series.getErrorBarsYFormat();
 
-// Rendre les barres d'erreur visibles
+// Making error bars visible
 errBarX.setVisible(true);
 errBarY.setVisible(true);
 
-// Définition de types de valeurs personnalisés pour un contrôle plus détaillé
+// Setting custom value types for more detailed control
 errBarX.setValueType(ErrorBarValueType.Custom);
 errBarY.setValueType(ErrorBarValueType.Custom);
 ```
 
-### Fonctionnalité 3 : Définir des barres d'erreur pour les points de données
+### Feature 3: Set Error Bars for Data Points (Error Bars Per Point)
 
-**Aperçu:**
-Personnalisez les barres d’erreur pour chaque point de données afin d’illustrer efficacement la variabilité.
+Nous allons maintenant attribuer des valeurs de marge d’erreur uniques à chaque bulle, illustrant les **barres d’erreur par point**.
 
-#### Mise en œuvre étape par étape
-
-##### 1. Accéder et configurer la collecte de points de données
-Itérer sur chaque point de données de la série :
-
+#### Step 5: Configure Data Point Collection
 ```java
 IChartDataPointCollection points = series.getDataPoints();
 
-// Configuration de valeurs personnalisées pour les barres d'erreur
+// Configuring custom values for error bars
 points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForXPlusValues(DataSourceType.DoubleLiterals);
 points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForXMinusValues(DataSourceType.DoubleLiterals);
 points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForYPlusValues(DataSourceType.DoubleLiterals);
 points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForYMinusValues(DataSourceType.DoubleLiterals);
 
-// Boucle sur chaque point de données
+// Loop through each data point
 for (int i = 0; i < points.size(); i++) {
     points.get_Item(i).getErrorBarsCustomValues().getXMinus().setAsLiteralDouble(i + 1);
     points.get_Item(i).getErrorBarsCustomValues().getXPlus().setAsLiteralDouble(i + 1);
@@ -169,58 +149,61 @@ for (int i = 0; i < points.size(); i++) {
     points.get_Item(i).getErrorBarsCustomValues().getYPlus().setAsLiteralDouble(i + 1);
 }
 ```
+*L’utilisation de valeurs personnalisées vous permet de définir précisément la plage d’erreur pour chaque bulle, ce qui est essentiel pour les analyses scientifiques ou financières.*
 
-- **Pourquoi des valeurs personnalisées ?**
-  L'utilisation de valeurs personnalisées vous permet de spécifier des marges d'erreur exactes pour chaque point de données, rendant vos visualisations plus précises et informatives.
-
-### Fonctionnalité 4 : Enregistrer la présentation
-
-Enfin, enregistrez la présentation avec toutes les configurations en place :
+### Feature 4: Save the Presentation
 
 ```java
 String YOUR_DOCUMENT_DIRECTORY = "YOUR_DOCUMENT_DIRECTORY";
 
-// Sauvegarder la présentation
+// Saving the presentation
 presentation.save(YOUR_DOCUMENT_DIRECTORY + "/ErrorBarsCustomValues_out.pptx", SaveFormat.Pptx);
 ```
 
-## Applications pratiques
+## Practical Applications
 
-L'utilisation de graphiques à bulles avec des barres d'erreur personnalisées est utile dans plusieurs scénarios :
-1. **Recherche scientifique :** Présentation de données expérimentales avec variabilité.
-2. **Analyse commerciale :** Visualisation des prévisions de ventes et des incertitudes.
-3. **Matériel pédagogique :** Démontrer des concepts statistiques aux étudiants.
+Ajouter des barres d’erreur personnalisées à un graphique à bulles est utile dans de nombreux scénarios réels :
 
-Ces graphiques s'intègrent parfaitement dans les tableaux de bord ou les rapports, offrant une représentation visuelle claire d'ensembles de données complexes.
+1. **Recherche scientifique :** afficher l’incertitude de mesure pour chaque résultat expérimental.  
+2. **Analyse commerciale :** visualiser les intervalles de prévision pour les ventes ou la part de marché.  
+3. **Éducation :** démontrer des concepts statistiques tels que les intervalles de confiance.
 
-## Considérations relatives aux performances
+## Performance Considerations
 
-Pour garantir des performances optimales lors de l'utilisation d'Aspose.Slides :
-- Gérez efficacement la mémoire Java en supprimant des objets tels que `Presentation` rapidement.
-- Optimisez le rendu des graphiques en minimisant les personnalisations inutiles.
-- Utilisez les méthodes intégrées d'Aspose.Slides pour le traitement par lots afin de gérer de grands ensembles de données.
+- Libérez rapidement l’objet `Presentation` pour libérer les ressources natives.  
+- Limitez le nombre de points de données si vous générez des graphiques en masse ; des ensembles de données très volumineux peuvent augmenter le temps de rendu.  
+- Réutilisez les objets graphiques lors de la création de plusieurs diapositives afin de réduire la surcharge.
 
-## Conclusion
+## Common Issues and Solutions
 
-Dans ce tutoriel, vous avez appris à créer un graphique à bulles avec des barres d'erreur personnalisées avec Aspose.Slides pour Java. En suivant ces étapes, vous pourrez améliorer vos présentations et créer des visualisations de données détaillées et percutantes. Si vous souhaitez approfondir vos compétences, explorez d'autres fonctionnalités d'Aspose.Slides ou intégrez-le à d'autres systèmes.
+| Issue | Cause | Fix |
+|-------|-------|-----|
+| **ErrorBarsCustomValues returns `null`** | La série ne contient pas encore de points de données. | Ajoutez d’abord des points de données ou assurez‑vous que la série est remplie avant de configurer les barres d’erreur. |
+| **Chart not visible on slide** | Les dimensions du graphique sont placées en dehors des limites de la diapositive. | Ajustez les coordonnées X/Y ainsi que la largeur/hauteur pour qu’elles tiennent dans la taille de la diapositive. |
+| **License exception** | Utilisation de la version d’essai sans licence valide. | Appliquez une licence temporaire ou complète avant d’enregistrer la présentation. |
 
-## Section FAQ
+## Frequently Asked Questions
 
-1. **Qu'est-ce qu'Aspose.Slides pour Java ?**
-   Une bibliothèque puissante pour gérer les présentations PowerPoint dans les applications Java.
-2. **Puis-je utiliser Aspose.Slides sans licence ?**
-   Oui, mais avec des limitations. Envisagez de demander une licence temporaire pour un accès complet pendant le développement.
-3. **Comment mettre à jour vers la dernière version d'Aspose.Slides ?**
-   Vérifiez le site officiel [Page de publication d'Aspose](https://releases.aspose.com/slides/java/) et suivez les instructions pour la configuration de votre projet.
-4. **Quels sont les avantages de l’utilisation de graphiques à bulles avec des barres d’erreur ?**
-   Ils fournissent une représentation visuelle claire de la variabilité des données, améliorant ainsi la compréhension dans les contextes scientifiques, commerciaux ou éducatifs.
-5. **Puis-je personnaliser d’autres types de graphiques avec Aspose.Slides ?**
-   Oui, Aspose.Slides prend en charge diverses personnalisations de graphiques pour différents types au-delà des graphiques à bulles.
+**Q : Qu’est‑ce qu’Aspose.Slides pour Java ?**  
+R : C’est une API puissante qui vous permet de créer, modifier et convertir des fichiers PowerPoint de façon programmatique, sans Microsoft Office.
 
-### Recommandations de mots clés
-- « Graphique à bulles Java »
-- Barres d'erreur personnalisées Aspose.Slides
-- « Visualisation des données Java »
+**Q : Puis‑je utiliser Aspose.Slides sans licence ?**  
+R : Oui, un essai gratuit fonctionne pour le développement et les tests, mais il ajoute des filigranes d’évaluation et limite certaines fonctionnalités.
+
+**Q : Comment mettre à jour vers la dernière version d’Aspose.Slides ?**  
+R : Consultez la page officielle des [Aspose releases](https://releases.aspose.com/slides/java/) et mettez à jour votre dépendance Maven/Gradle en conséquence.
+
+**Q : Pourquoi ajouter des barres d’erreur personnalisées à un graphique à bulles ?**  
+R : Elles transmettent la variabilité ou la confiance pour chaque point de données, transformant une simple visualisation de dispersion en une histoire plus riche et informative.
+
+**Q : Puis‑je personnaliser d’autres types de graphiques avec des barres d’erreur ?**  
+R : Absolument. Aspose.Slides prend en charge les barres d’erreur pour les graphiques en ligne, en barres, en colonnes et bien d’autres types.
+
+---
+
+**Dernière mise à jour :** 2026-03-04  
+**Testé avec :** Aspose.Slides for Java 25.4 (jdk16)  
+**Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
