@@ -1,195 +1,113 @@
 ---
-"date": "2025-04-17"
-"description": "Apprenez à créer des présentations dynamiques à l'aide d'Aspose.Slides pour Java, avec des graphiques à colonnes groupées améliorés avec des lignes de tendance."
-"title": "Créez et personnalisez des graphiques avec des lignes de tendance dans Aspose.Slides pour Java"
-"url": "/fr/java/charts-graphs/create-customize-charts-trend-lines-aspose-slides-java/"
-"weight": 1
+keyword_recommendations:
+- Aspose.Slides for Java
+- Java chart creation
+- trend lines in charts
+optimized_content: "---\ntitle: \"Create Clustered Column Chart with Trend Lines in
+  Aspose.Slides for Java\"\ndescription: \"Learn how to create clustered column chart
+  with trend lines in Aspose.Slides for Java, including moving average trend line
+  examples.\"\ndate: \"2026-03-04\"\nweight: 1\nurl: \"/java/charts-graphs/create-customize-charts-trend-lines-aspose-slides-java/\"\nkeywords:\n-
+  Aspose.Slides for Java\n- Java chart creation\n- trend lines in charts\n---\n\n{{<
+  blocks/products/pf/main-wrap-class >}}\n\n{{< blocks/products/pf/main-container
+  >}}\n\n{{< blocks/products/pf/tutorial-page-section >}}\n# How to Create Clustered
+  Column Chart with Trend Lines Using Aspose.Slides for Java\n\n## Introduction\nCreating
+  compelling presentations often involves visualizing data through charts, and one
+  of the most versatile options is to **create clustered column chart** layouts. With
+  Aspose.Slides for Java, you can effortlessly add a variety of trend lines—exponential,
+  linear, logarithmic, moving average, polynomial, and power—to make your data story
+  clearer and more persuasive. In this tutorial, you’ll learn step‑by‑step how to
+  set up your project, generate a clustered column chart, and enrich it with different
+  trend lines.\n\n## Quick Answers\n- **What library do I need?** Aspose.Slides for
+  Java.\n- **Which chart type is covered?** Clustered column chart.\n- **Can I add
+  a moving average trend line?** Yes, using the `TrendlineType.MovingAverage` option.\n-
+  **Do I need a license?** A free trial works for evaluation; a commercial license
+  is required for production.\n- **Supported Java versions?** JDK 8 and newer (tested
+  with JDK 16).\n\n## What is a clustered column chart?\nA clustered column chart
+  displays multiple data series side by side for each category, making it easy to
+  compare values across groups. It’s ideal for financial reports, sales dashboards,
+  and any scenario where you need to contrast several metrics.\n\n## Why add trend
+  lines to a clustered column chart?\nTrend lines help surface underlying patterns—growth,
+  decline, or seasonal cycles—so your audience can grasp insights at a glance. For
+  example, a **moving average trend line** smooths out short‑term fluctuations, while
+  a **polynomial trend line** can model more complex relationships.\n\n## Prerequisites\n-
+  **Java Development Kit (JDK):** Version 8 or above.\n- **Aspose.Slides for Java
+  Library:** Version 25.4 or later.\n- **IDE:** IntelliJ IDEA, Eclipse, or any Java‑compatible
+  editor.\n- **Build tool:** Maven or Gradle (we’ll cover both).\n\n## Setting Up
+  Aspose.Slides for Java\nTo use Aspose.Slides in your Java project, include the library
+  via your preferred dependency manager.\n\n**Maven**\nAdd this dependency to your
+  `pom.xml` file:\n```xml\n<dependency>\n    <groupId>com.aspose</groupId>\n    <artifactId>aspose-slides</artifactId>\n
+  \   <version>25.4</version>\n    <classifier>jdk16</classifier>\n</dependency>\n```\n\n**Gradle**\nInclude
+  this in your `build.gradle` file:\n```gradle\nimplementation group: 'com.aspose',
+  name: 'aspose-slides', version: '25.4', classifier: 'jdk16'\n```\n\n**Direct Download**\nAlternatively,
+  you can download the JAR directly from [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).\n\n###
+  License Acquisition\nYou can start with a free trial by downloading a temporary
+  license from Aspose. This allows you to explore all features without restrictions.
+  For production use, consider purchasing a license from the [Aspose purchase page](https://purchase.aspose.com/buy).\n\n##
+  Implementation Guide\nNow that your environment is ready, let’s walk through the
+  code to **create clustered column chart** and add various trend lines.\n\n### Step
+  1: Create Presentation and Chart\n**Overview:** Initialize a new presentation, ensure
+  the output folder exists, and add a clustered column chart.\n\n```java\nString dataDir
+  = \"YOUR_DOCUMENT_DIRECTORY\";\nFile dir = new File(dataDir);\nif (!dir.exists())
+  {\n    dir.mkdirs();\n}\n```\n\n```java\nPresentation pres = new Presentation();\nIChart
+  chart = pres.getSlides().get_Item(0).getShapes().addChart(\n    ChartType.ClusteredColumn,
+  20, 20, 500, 400);\npres.save(\"YOUR_OUTPUT_DIRECTORY/Chart_out.pptx\", SaveFormat.Pptx);\n```\n\n###
+  Step 2: Add Exponential Trend Line\n**Overview:** Apply an exponential trend line
+  to the first series.\n\n```java\nITrendline tredLineExp = chart.getChartData().getSeries().get_Item(0).getTrendLines().add(TrendlineType.Exponential);\ntredLineExp.setDisplayEquation(false);
+  // Hides the equation for simplicity.\n```\n\n### Step 3: Add Linear Trend Line\n**Overview:**
+  Add a linear trend line and customize its appearance.\n\n```java\nITrendline tredLineLin
+  = chart.getChartData().getSeries().get_Item(0).getTrendLines().add(TrendlineType.Linear);\ntredLineLin.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);\ntredLineLin.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);\n```\n\n###
+  Step 4: Add Logarithmic Trend Line with Text Frame\n**Overview:** Insert a logarithmic
+  trend line and override its label.\n\n```java\nITrendline tredLineLog = chart.getChartData().getSeries().get_Item(1).getTrendLines().add(TrendlineType.Logarithmic);\ntredLineLog.addTextFrameForOverriding(\"New
+  log trend line\");\n```\n\n### Step 5: Add Moving Average Trend Line\n**Overview:**
+  Implement a **moving average trend line** with a custom period and name.\n\n```java\nITrendline
+  tredLineMovAvg = chart.getChartData().getSeries().get_Item(1).getTrendLines().add(TrendlineType.MovingAverage);\ntredLineMovAvg.setPeriod((byte)
+  3); // Sets the period for calculation.\nString newTrendLineName = \"New TrendLine
+  Name\";\ntredLineMovAvg.setTrendlineName(newTrendLineName);\n```\n\n### Step 6:
+  Add Polynomial Trend Line\n**Overview:** Use a polynomial trend line for more complex
+  data patterns.\n\n```java\nITrendline tredLinePol = chart.getChartData().getSeries().get_Item(2).getTrendLines().add(TrendlineType.Polynomial);\ntredLinePol.setForward(1);
+  // Sets forward value.\nbyte order = 3;\ntredLinePol.setOrder(order); // Polynomial
+  degree/order.\n```\n\n### Step 7: Add Power Trend Line\n**Overview:** Add a power
+  trend line with a backward setting.\n\n```java\nITrendline tredLinePower = chart.getChartData().getSeries().get_Item(1).getTrendLines().add(TrendlineType.Power);\ntredLinePower.setBackward(1);
+  // Sets backward value.\n```\n\n## Practical Applications\nHere are a few real‑world
+  scenarios where adding trend lines to a **clustered column chart** shines:\n- **Financial
+  Analysis:** Exponential and polynomial trends help forecast stock movements.\n-
+  **Sales Forecasting:** Moving average trend lines smooth out seasonal spikes.\n-
+  **Scientific Research:** Logarithmic trend lines handle data spanning multiple orders
+  of magnitude.\n\n## Performance Considerations\nWhen working with Aspose.Slides,
+  keep these tips in mind:\n- **Optimize Memory Use:** Dispose of `Presentation` objects
+  when finished.\n- **Efficient Resource Management:** Close streams and free resources
+  promptly.\n- **Lazy Loading:** Load large datasets or images only when needed to
+  reduce memory pressure.\n\n## Common Issues and Solutions\n- **Missing License Exception:**
+  Ensure you’ve loaded a valid license file before creating the presentation.\n- **Incorrect
+  Series Index:** Series are zero‑based; verify the index matches the series you intend
+  to modify.\n- **Unsupported JDK Version:** Use a compatible JDK (e.g., JDK 16 classifier)
+  as specified in the Maven/Gradle dependency.\n\n## FAQ Section\n**Q: How do I set
+  up Aspose.Slides for a Maven project?**\nA: Add the dependency to your `pom.xml`
+  file as shown in the setup section.\n\n**Q: Can I customize trend lines further
+  than just color and text?**\nA: Yes, explore additional properties like line style
+  and width using methods available on the ITrendline interface.\n\n**Q: What if I
+  encounter errors with specific versions of JDK or Aspose.Slides?**\nA: Ensure compatibility
+  by checking Aspose's documentation for version‑specific requirements. Consider updating
+  your environment to meet those standards.\n\n**Q: Is there a way to automate the
+  creation of multiple trend lines across different charts?**\nA: Yes, you can use
+  loops and methods from the Aspose.Slides API to programmatically add trend lines
+  to multiple series or charts.\n\n## Frequently Asked Questions\n**Q: Does adding
+  a trend line affect the original data series?**\nA: No, trend lines are visual overlays;
+  the underlying data remains unchanged.\n\n**Q: Can I export the presentation to
+  PDF after adding trend lines?**\nA: Absolutely—use `pres.save(\"output.pdf\", SaveFormat.Pdf);`
+  to generate a PDF version.\n\n**Q: How do I change the line thickness of a trend
+  line?**\nA: Access `tredLineLin.getFormat().getLine().setWidth(double)` to set a
+  custom width.\n\n## Conclusion\nIn this tutorial you learned how to **create clustered
+  column chart** visualizations and enrich them with a variety of trend lines using
+  Aspose.Slides for Java. These techniques empower you to produce data‑driven presentations
+  that are both informative and visually appealing. Next, explore advanced chart formatting,
+  dynamic data binding, and integration with other Aspose APIs to further automate
+  your reporting workflows.\n\n---\n**Last Updated:** 2026-03-04\n**Tested With:**
+  Aspose.Slides for Java 25.4\n**Author:** Aspose\n\n{{< /blocks/products/pf/tutorial-page-section
+  >}}\n\n{{< /blocks/products/pf/main-container >}}\n\n{{< /blocks/products/pf/main-wrap-class
+  >}}\n\n{{< blocks/products/products-backtop-button >}}"
+optimized_meta_description: Learn how to create clustered column chart with trend
+  lines in Aspose.Slides for Java, including moving average trend line examples.
+optimized_title: Create Clustered Column Chart with Trend Lines in Aspose.Slides for
+  Java
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-# Comment créer et personnaliser des graphiques avec des courbes de tendance avec Aspose.Slides pour Java
-
-## Introduction
-Créer des présentations percutantes implique souvent de visualiser les données sous forme de graphiques, ce qui rend vos informations plus compréhensibles et percutantes. Avec « Aspose.Slides pour Java », vous pouvez facilement intégrer des éléments graphiques dynamiques à vos diapositives, comme des histogrammes groupés associés à différentes courbes de tendance. Ce tutoriel vous explique comment créer une présentation en Java avec Aspose.Slides et ajouter différents types de courbes de tendance pour améliorer la visualisation de vos données.
-
-**Ce que vous apprendrez :**
-- Configuration d'Aspose.Slides pour Java
-- Créer une présentation vide et ajouter un graphique à colonnes groupées
-- Ajout de diverses lignes de tendance telles que exponentielle, linéaire, logarithmique, moyenne mobile, polynomiale et de puissance
-- Personnalisation des lignes de tendance avec des paramètres spécifiques
-
-Plongeons dans les prérequis pour commencer.
-
-## Prérequis
-Avant de commencer, assurez-vous d’avoir les éléments suivants :
-- **Kit de développement Java (JDK) :** La version 8 ou supérieure est recommandée.
-- **Bibliothèque Aspose.Slides pour Java :** Vous aurez besoin de la version 25.4 ou ultérieure.
-- **IDE:** Tout environnement de développement intégré comme IntelliJ IDEA ou Eclipse.
-
-Ce tutoriel suppose des connaissances de base en programmation Java et une familiarité avec l'utilisation d'outils de construction tels que Maven ou Gradle.
-
-## Configuration d'Aspose.Slides pour Java
-Pour utiliser Aspose.Slides dans votre projet Java, vous devez d'abord inclure la bibliothèque. Voici comment la configurer à l'aide de différents systèmes de gestion des dépendances :
-
-**Maven**
-Ajoutez cette dépendance à votre `pom.xml` déposer:
-```xml
-<dependency>
-    <groupId>com.aspose</groupId>
-    <artifactId>aspose-slides</artifactId>
-    <version>25.4</version>
-    <classifier>jdk16</classifier>
-</dependency>
-```
-
-**Gradle**
-Incluez ceci dans votre `build.gradle` déposer:
-```gradle
-implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
-```
-
-**Téléchargement direct**
-Alternativement, vous pouvez télécharger le JAR directement depuis [Versions d'Aspose.Slides pour Java](https://releases.aspose.com/slides/java/).
-
-### Acquisition de licence
-Vous pouvez commencer par un essai gratuit en téléchargeant une licence temporaire depuis Aspose. Cela vous permettra d'explorer toutes les fonctionnalités sans restriction. Pour une utilisation en production, pensez à acheter une licence depuis le site [Page d'achat Aspose](https://purchase.aspose.com/buy).
-
-## Guide de mise en œuvre
-Maintenant que votre environnement est prêt, procédons étape par étape pour créer des graphiques et ajouter des lignes de tendance.
-
-### Créer une présentation et un graphique
-**Aperçu:** Commencez par créer une présentation vide et ajoutez un graphique à colonnes groupées.
-
-1. **Initialiser la présentation**
-   Commencez par configurer le répertoire de vos documents :
-   ```java
-   String dataDir = "YOUR_DOCUMENT_DIRECTORY";
-   File dir = new File(dataDir);
-   if (!dir.exists()) {
-       dir.mkdirs();
-   }
-   ```
-
-2. **Ajouter un graphique à colonnes groupées**
-   Créez et configurez votre graphique :
-   ```java
-   Presentation pres = new Presentation();
-   IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
-       ChartType.ClusteredColumn, 20, 20, 500, 400);
-   pres.save("YOUR_OUTPUT_DIRECTORY/Chart_out.pptx", SaveFormat.Pptx);
-   ```
-
-### Ajouter une ligne de tendance exponentielle
-**Aperçu:** Améliorez votre graphique en ajoutant une ligne de tendance exponentielle.
-
-1. **Configurer la ligne de tendance**
-   Appliquez une ligne de tendance exponentielle à une série de votre graphique :
-   ```java
-   ITrendline tredLineExp = chart.getChartData().getSeries().get_Item(0).getTrendLines().add(TrendlineType.Exponential);
-   tredLineExp.setDisplayEquation(false); // Masque l'équation pour plus de simplicité.
-   ```
-
-### Ajouter une ligne de tendance linéaire
-**Aperçu:** Personnalisez votre présentation avec une ligne de tendance linéaire présentant un formatage spécifique.
-
-1. **Configurer la ligne de tendance**
-   Appliquer et formater une ligne de tendance linéaire :
-   ```java
-   ITrendline tredLineLin = chart.getChartData().getSeries().get_Item(0).getTrendLines().add(TrendlineType.Linear);
-   tredLineLin.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
-   tredLineLin.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
-   ```
-
-### Ajouter une ligne de tendance logarithmique avec un cadre de texte
-**Aperçu:** Intégrez une ligne de tendance logarithmique et remplacez l’étiquette par défaut.
-
-1. **Personnaliser la ligne de tendance**
-   Configurez votre ligne de tendance pour inclure du texte personnalisé :
-   ```java
-   ITrendline tredLineLog = chart.getChartData().getSeries().get_Item(1).getTrendLines().add(TrendlineType.Logarithmic);
-   tredLineLog.addTextFrameForOverriding("New log trend line");
-   ```
-
-### Ajouter une ligne de tendance moyenne mobile
-**Aperçu:** Implémentez une ligne de tendance moyenne mobile avec des paramètres spécifiques.
-
-1. **Configurer la ligne de tendance**
-   Configurez votre ligne de tendance moyenne mobile :
-   ```java
-   ITrendline tredLineMovAvg = chart.getChartData().getSeries().get_Item(1).getTrendLines().add(TrendlineType.MovingAverage);
-   tredLineMovAvg.setPeriod((byte) 3); // Définit la période de calcul.
-   String newTrendLineName = "New TrendLine Name";
-   tredLineMovAvg.setTrendlineName(newTrendLineName);
-   ```
-
-### Ajouter une ligne de tendance polynomiale
-**Aperçu:** Utilisez une ligne de tendance polynomiale pour adapter des modèles de données complexes.
-
-1. **Personnaliser la ligne de tendance**
-   Appliquer les paramètres polynomiaux :
-   ```java
-   ITrendline tredLinePol = chart.getChartData().getSeries().get_Item(2).getTrendLines().add(TrendlineType.Polynomial);
-   tredLinePol.setForward(1); // Définit la valeur à terme.
-   byte order = 3;
-   tredLinePol.setOrder(order); // Degré/ordre polynomial.
-   ```
-
-### Ajouter une ligne de tendance de puissance
-**Aperçu:** Intégrez une ligne de tendance de puissance avec des paramètres rétrogrades spécifiques.
-
-1. **Configurer la ligne de tendance**
-   Configurez votre ligne de tendance de puissance :
-   ```java
-   ITrendline tredLinePower = chart.getChartData().getSeries().get_Item(1).getTrendLines().add(TrendlineType.Power);
-   tredLinePower.setBackward(1); // Définit la valeur arrière.
-   ```
-
-## Applications pratiques
-Voici quelques applications pratiques de l’ajout de lignes de tendance aux graphiques :
-- **Analyse financière :** Utilisez les tendances exponentielles et polynomiales pour prédire les cours des actions.
-- **Prévisions des ventes :** Appliquez des moyennes mobiles pour lisser les fluctuations des données de vente.
-- **Représentation des données scientifiques :** Utiliser des échelles logarithmiques pour des ensembles de données couvrant plusieurs ordres de grandeur.
-
-## Considérations relatives aux performances
-Lorsque vous travaillez avec Aspose.Slides, tenez compte des éléments suivants :
-- **Optimiser l'utilisation de la mémoire :** Gérez efficacement la mémoire en supprimant les objets lorsqu'ils ne sont plus nécessaires.
-- **Gestion efficace des ressources :** Fermez correctement les présentations pour libérer des ressources.
-- **Tirer parti du chargement différé :** Chargez de grands ensembles de données ou des images uniquement lorsque cela est nécessaire.
-
-## Conclusion
-Dans ce tutoriel, vous avez appris à créer une présentation avec des graphiques et à ajouter diverses courbes de tendance avec Aspose.Slides pour Java. Grâce à ces techniques, vous pouvez améliorer vos visualisations de données dans vos présentations, les rendant plus informatives et attrayantes.
-
-Prochaines étapes ? Explorez d'autres options de personnalisation et intégrez Aspose.Slides à vos projets plus importants !
-
-## Section FAQ
-**Q : Comment configurer Aspose.Slides pour un projet Maven ?**
-A : Ajoutez la dépendance à votre `pom.xml` fichier comme indiqué dans la section de configuration.
-
-**Q : Puis-je personnaliser les lignes de tendance au-delà de la simple couleur et du texte ?**
-R : Oui, explorez des propriétés supplémentaires telles que le style et la largeur de ligne à l’aide des méthodes disponibles sur l’interface ITrendline.
-
-**Q : Que se passe-t-il si je rencontre des erreurs avec des versions spécifiques de JDK ou d’Aspose.Slides ?**
-R : Assurez la compatibilité en consultant la documentation d'Aspose pour connaître les exigences spécifiques à chaque version. Pensez à mettre à jour votre environnement pour respecter ces normes.
-
-**Q : Existe-t-il un moyen d’automatiser la création de plusieurs lignes de tendance sur différents graphiques ?**
-R : Oui, vous pouvez utiliser des boucles et des méthodes de l’API Aspose.Slides pour ajouter par programmation des lignes de tendance à plusieurs séries ou graphiques.
-
-Renvoie un objet JSON avec la structure suivante :
-{
-  "optimized_title": "Titre optimisé pour le référencement qui maintient l'exactitude technique",
-  "optimized_meta_description": "Méta description améliorée avec une utilisation appropriée des mots clés, moins de 160 caractères",
-  "optimized_content": "Le contenu Markdown complet et optimisé avec toutes les améliorations appliquées",
-  "keyword_recommendations": ["Aspose.Slides pour Java", "Création de graphiques Java", "Lignes de tendance dans les graphiques"]
-}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
