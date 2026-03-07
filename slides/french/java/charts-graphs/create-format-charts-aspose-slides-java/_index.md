@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Apprenez à créer et formater des graphiques avec Aspose.Slides pour Java. Ce guide couvre la configuration, la création de graphiques, la mise en forme et l'enregistrement de présentations."
-"title": "Créer et formater des graphiques en Java à l'aide d'Aspose.Slides &#58; un guide complet"
-"url": "/fr/java/charts-graphs/create-format-charts-aspose-slides-java/"
-"weight": 1
+date: '2026-03-07'
+description: Apprenez à créer un graphique linéaire en Java avec Aspose.Slides, ajoutez
+  un titre au graphique, ajoutez des lignes de grille, formatez les étiquettes du
+  graphique et enregistrez des présentations professionnelles.
+keywords:
+- Aspose.Slides Java
+- create charts in Java
+- format PowerPoint charts
+title: Comment créer un graphique en courbes avec Aspose.Slides en Java – Guide complet
+url: /fr/java/charts-graphs/create-format-charts-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,31 +17,29 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Créer et formater des graphiques avec Aspose.Slides en Java
+# Comment créer un graphique en courbes avec Aspose.Slides en Java
 
-## Comment créer et formater des graphiques en Java avec Aspose.Slides
+## Comment créer un graphique en courbes en Java avec Aspose.Slides
 
 ### Introduction
-Créer des présentations visuellement attrayantes est essentiel pour une communication efficace. Que vous soyez professionnel ou enseignant, il peut être difficile de garantir que vos visuels de données soient à la fois informatifs et esthétiques. Ce tutoriel vous guide dans leur utilisation. **Aspose.Slides pour Java** pour créer et formater des graphiques dans des présentations PowerPoint de manière transparente.
+Créer des présentations visuellement attrayantes est crucial pour une communication efficace. Que vous soyez un professionnel du business ou un éducateur, vous avez souvent besoin de **créer des graphiques en courbes** visuels à la fois informatifs et esthétiquement plaisants. Dans ce tutoriel, nous allons parcourir l'utilisation de **Aspose.Slides for Java** pour générer un graphique en courbes, ajouter un titre au graphique, ajouter des lignes de grille, formater les étiquettes du graphique, et enregistrer le résultat sous forme de fichier PowerPoint.
 
-Ce guide se concentre sur la configuration de l'environnement, la création d'un graphique, la configuration des propriétés telles que les titres, la mise en forme des axes, le quadrillage, les libellés, les paramètres de légende et l'enregistrement de la présentation. En suivant ce tutoriel, vous apprendrez à :
-- Configurez votre environnement avec Aspose.Slides pour Java
-- Vérifier et créer des répertoires par programmation en Java
-- Créer et configurer un graphique à l'aide d'Aspose.Slides
-- Mettre en forme les titres des graphiques, les axes, les lignes de la grille, les étiquettes, les légendes et les arrière-plans
-- Enregistrer la présentation avec des graphiques formatés
+#### Réponses rapides
+- **Quelle bibliothèque est la meilleure pour créer des graphiques en Java ?** Aspose.Slides for Java
+- **Quel type de graphique ce guide couvre-t-il ?** Graphique en courbes avec marqueurs
+- **Ai‑je besoin d’une licence pour exécuter l’exemple ?** Une licence temporaire gratuite suffit pour l’évaluation
+- **Quel IDE puis‑je utiliser ?** Tout IDE Java tel qu’IntelliJ IDEA, Eclipse ou NetBeans
+- **Comment les éléments du graphique sont‑ils formatés ?** En utilisant des appels d’API fluides pour les titres, les axes, les lignes de grille, les légendes et les arrière‑plans
 
-Assurons-nous que tout est configuré avant de commencer le codage.
+### Qu’est‑ce qu’un graphique en courbes et pourquoi utiliser Aspose.Slides ?
+Un graphique en courbes affiche des points de données reliés par des lignes droites, ce qui le rend idéal pour montrer des tendances au fil du temps. Aspose.Slides vous permet de créer et de personnaliser entièrement ces graphiques de manière programmatique, éliminant ainsi le besoin d’une édition manuelle de PowerPoint.
 
 ### Prérequis
-Avant de commencer, assurez-vous d’avoir :
-1. **Kit de développement Java (JDK)**: Assurez-vous que JDK 8 ou supérieur est installé sur votre système.
-2. **Environnement de développement intégré (IDE)**:Utilisez n’importe quel IDE compatible Java comme IntelliJ IDEA, Eclipse ou NetBeans.
-3. **Aspose.Slides pour Java**:Cette bibliothèque sera au cœur de notre tutoriel.
+- **Java Development Kit (JDK) 8+** installé
+- **IDE** (IntelliJ IDEA, Eclipse, NetBeans, etc.)
+- **Aspose.Slides for Java** library (ajoutée via Maven ou Gradle)
 
 #### Bibliothèques et dépendances requises
-Pour utiliser Aspose.Slides dans votre projet, ajoutez-le via Maven ou Gradle :
-
 **Maven**
 ```xml
 <dependency>
@@ -51,130 +55,113 @@ Pour utiliser Aspose.Slides dans votre projet, ajoutez-le via Maven ou Gradle :
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Vous pouvez également télécharger le dernier JAR à partir de [Versions d'Aspose.Slides pour Java](https://releases.aspose.com/slides/java/).
+Sinon, téléchargez le JAR le plus récent depuis [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-#### Configuration requise pour l'environnement
-- Installez une version récente du JDK.
-- Configurez votre IDE et assurez-vous qu'il est configuré pour utiliser Maven ou Gradle (selon votre choix).
-  
-### Prérequis en matière de connaissances
-Une compréhension de base de la programmation Java est requise. Une connaissance des principes orientés objet sera un atout.
+#### Acquisition de licence
+- Obtenez une [licence d'essai gratuite](https://purchase.aspose.com/temporary-license/) pour les tests.
+- Achetez une licence complète sur le [site officiel d'Aspose](https://purchase.aspose.com/buy) pour une utilisation en production.
 
-## Configuration d'Aspose.Slides pour Java
-Pour commencer à utiliser Aspose.Slides, incluez la bibliothèque dans votre projet :
-1. **Ajouter une dépendance**: Incluez la dépendance Maven ou Gradle nécessaire comme indiqué ci-dessus.
-2. **Acquisition de licence**:
-   - Obtenir un [licence d'essai gratuite](https://purchase.aspose.com/temporary-license/) à des fins de test.
-   - Pour une utilisation en production, pensez à acheter une licence complète auprès de [Site officiel d'Aspose](https://purchase.aspose.com/buy).
+### Configuration d'Aspose.Slides pour Java
+1. **Ajoutez la dépendance** indiquée ci‑dessus à votre projet.
+2. **Appliquez la licence** (si vous en avez une) avant de créer tout objet de présentation.
 
-### Initialisation et configuration de base
-Pour initialiser Aspose.Slides dans votre application Java :
 ```java
 import com.aspose.slides.Presentation;
-// Initialiser l'objet Présentation
+// Initialize the Presentation object
 Presentation pres = new Presentation();
 ```
 
-## Guide de mise en œuvre
-Cette section couvre chaque fonctionnalité étape par étape, en utilisant des sous-titres logiques pour plus de clarté.
+## Implémentation étape par étape
 
-### Configuration du répertoire
-**Aperçu**: Assurez-vous que la structure de votre répertoire est en place avant d’enregistrer des graphiques dans une présentation.
-
-#### Vérifier et créer des répertoires
+### Étape 1 : Créer le répertoire de sortie (create directory java)
 ```java
 import java.io.File;
-// Définir le répertoire cible
+// Define the target directory
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 
-// Vérifiez si le répertoire existe ; créez-le si ce n'est pas le cas
+// Check if directory exists; create it if not
 boolean isExists = new File(dataDir).exists();
 if (!isExists) {
-    new File(dataDir).mkdirs(); // Créer des répertoires de manière récursive
+    new File(dataDir).mkdirs(); // Create directories recursively
 }
 ```
-**Explication**Cet extrait vérifie si un répertoire spécifié existe. Si ce n'est pas le cas, il crée les dossiers nécessaires.
+*Pourquoi c’est important :* S’assurer que le dossier existe évite le `FileNotFoundException` lors de l’enregistrement ultérieur de la présentation.
 
-### Création et configuration de graphiques
-**Aperçu**:Nous allons créer un graphique dans PowerPoint à l’aide d’Aspose.Slides, personnaliser son apparence et l’enregistrer dans un fichier.
-
-#### Créer une diapositive de présentation avec un graphique
+### Étape 2 : Ajouter une diapositive et insérer un graphique en courbes
 ```java
 import com.aspose.slides.*;
-// Créer une nouvelle présentation
+// Create a new presentation
 Presentation pres = new Presentation();
 try {
-    // Accéder à la première diapositive
+    // Access the first slide
     ISlide slide = pres.getSlides().get_Item(0);
 
-    // Ajouter un graphique à la diapositive
+    // Add a chart to the slide
     IChart chart = slide.getShapes().addChart(
         ChartType.LineWithMarkers, 50, 50, 500, 400);
 ```
-**Explication**:Nous initialisons une nouvelle présentation et ajoutons un graphique linéaire avec des marqueurs à des coordonnées spécifiques.
+*Explication :* Cela crée une nouvelle diapositive et place un **graphique en courbes avec marqueurs** aux coordonnées spécifiées.
 
-#### Définir le titre du graphique
+### Étape 3 : Ajouter le titre du graphique (add chart title)
 ```java
-// Activer et formater le titre
+// Enable and format the title
 chart.setTitle(true);
 IPortion chartTitle = chart.getChartTitle().getTextFrameForOverriding()
     .getParagraphs().get_Item(0).getPortions().get_Item(0);
 
-chartTitle.setText("Sample Chart");
+chartTitle.setText("Sample Line Chart");
 chartTitle.getPortionFormat().setFontBold(NullableBool.True);
 chartTitle.getPortionFormat().setFillType(FillType.Solid);
 chartTitle.getPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.GRAY);
 chartTitle.getPortionFormat().setFontHeight(20);
 ```
-**Explication**: Ce code définit et stylise le titre du graphique. La personnalisation des propriétés du texte améliore la lisibilité.
+*Conseil :* Utiliser un titre en gras et gris rend le graphique immédiatement reconnaissable.
 
-#### Format des axes
-##### Formatage de l'axe vertical
+### Étape 4 : Formater les axes et ajouter des lignes de grille (add grid lines)
+#### Formatage de l'axe vertical
 ```java
 IChartAxis verticalAxis = chart.getAxes().getVerticalAxis();
 
-// Formater les principales lignes de la grille
+// Format major grid lines
 verticalAxis.getMajorGridLinesFormat().getLine()
     .setFillType(FillType.Solid)
     .getFillFormat().getSolidFillColor().setColor(Color.BLUE);
 verticalAxis.getMajorGridLinesFormat().getLine().setWidth(5);
 
-// Configurer les propriétés de l'axe
+// Configure axis properties
 verticalAxis.setNumberFormat("0.0%");
 verticalAxis.setMaxValue(15f);
 verticalAxis.setMinValue(-2f);
 ```
-**Explication**:Nous personnalisons les lignes de la grille de l'axe vertical et définissons la mise en forme numérique pour plus de clarté.
 
-##### Formatage de l'axe horizontal
+#### Formatage de l'axe horizontal
 ```java
 IChartAxis horizontalAxis = chart.getAxes().getHorizontalAxis();
 
-// Formater les principales lignes de la grille
+// Format major grid lines
 horizontalAxis.getMajorGridLinesFormat().getLine()
     .setFillType(FillType.Solid)
     .getFillFormat().getSolidFillColor().setColor(Color.GREEN);
 horizontalAxis.getMajorGridLinesFormat().getLine().setWidth(5);
 
-// Définir les positions et les rotations des étiquettes
+// Set label positions and rotations
 horizontalAxis.setTickLabelPosition(TickLabelPositionType.Low);
 horizontalAxis.setTickLabelRotationAngle(45);
 ```
-**Explication**:L'axe horizontal est formaté de la même manière, avec des ajustements supplémentaires pour le positionnement des étiquettes.
+*Pourquoi c’est important :* Des lignes de grille claires et des étiquettes pivotées améliorent la lisibilité, surtout lorsque les points de données sont denses.
 
-#### Personnaliser la légende
+### Étape 5 : Personnaliser la légende (add chart title – already covered, but legend is part of overall formatting)
 ```java
 IChartPortionFormat txtLeg = chart.getLegend().getTextFormat().getPortionFormat();
 txtLeg.setFontBold(NullableBool.True);
 txtLeg.getFillFormat().setFillType(FillType.Solid)
     .getSolidFillColor().setColor(Color.RED);
 
-// Éviter le chevauchement avec la zone du graphique
+// Prevent overlap with the chart area
 chart.getLegend().setOverlay(true);
 ```
-**Explication**:La définition des propriétés de légende garantit la clarté et évite l'encombrement visuel.
 
-#### Configurer les arrière-plans
+### Étape 6 : Définir les couleurs d’arrière‑plan (format chart labels – part of overall visual styling)
 ```java
 chart.getBackWall().setThickness(1);
 chart.getBackWall().getFormat().getFill()
@@ -185,27 +172,57 @@ chart.getPlotArea().getFormat().getFill()
     .setFillType(FillType.Solid)
     .getSolidFillColor().setColor(new Color(PresetColor.LightCyan));
 ```
-**Explication**:Les couleurs d'arrière-plan sont définies pour un attrait esthétique, améliorant l'aspect général de votre graphique.
 
-### Enregistrer la présentation
+### Étape 7 : Enregistrer la présentation
 ```java
-// Enregistrer la présentation sur le disque
+// Save the presentation to disk
 pres.save("YOUR_OUTPUT_DIRECTORY/FormattedChart_out.pptx", SaveFormat.Pptx);
 } finally {
-    if (pres != null) pres.dispose(); // Nettoyer les ressources
+    if (pres != null) pres.dispose(); // Clean up resources
 }
 ```
-**Explication**:Cela garantit que toutes les modifications sont enregistrées et que les ressources sont correctement gérées.
+*Résultat :* Vous avez maintenant un fichier PowerPoint (`FormattedChart_out.pptx`) contenant un graphique en courbes entièrement formaté.
 
 ## Applications pratiques
-1. **Rapports d'activité**:Créez des rapports détaillés avec des graphiques formatés pour présenter les résultats trimestriels.
-2. **Matériel pédagogique**:Développez des présentations attrayantes pour les étudiants en utilisant des visuels basés sur des données.
-3. **Propositions de projets**:Améliorez les propositions en intégrant des graphiques visuellement attrayants qui mettent en évidence les indicateurs clés.
-4. **Analyse marketing**:Utilisez des graphiques dans les supports marketing pour démontrer efficacement les tendances et les résultats des campagnes.
-5. **Intégration du tableau de bord**:Intégrez des graphiques dans des tableaux de bord pour une visualisation des données en temps réel.
+- **Rapports d’entreprise :** Présenter la performance trimestrielle avec des lignes de tendance.
+- **Diapositives éducatives :** Visualiser des données scientifiques pour les cours.
+- **Propositions de projet :** Mettre en avant les jalons et les prévisions.
+- **Analyse marketing :** Présenter les tendances du ROI des campagnes.
+- **Intégration de tableau de bord :** Exporter des données en temps réel vers PowerPoint pour les réunions avec les parties prenantes.
 
-## Considérations relatives aux performances
-- **Gestion de la mémoire**: Débarrassez-vous toujours des objets de présentation pour libérer rapidement les ressources.
+## Considérations de performance
+- **Gestion de la mémoire :** Appelez toujours `dispose()` sur l’objet `Presentation` pour libérer rapidement les ressources natives.
+
+## Problèmes courants et solutions
+| Problème | Solution |
+|----------|----------|
+| **Licence non appliquée** | Chargez la licence d’essai/complète avant de créer tout objet `Presentation`. |
+| **Le graphique apparaît vide** | Vérifiez que la diapositive contient réellement des séries de données ; ajoutez des séries si nécessaire. |
+| **Fichier non enregistré** | Assurez‑vous que le répertoire de sortie existe (utilisez l’étape « create directory java »). |
+| **Couleurs non appliquées** | Utilisez les constantes `Color` de `java.awt.Color` ou `PresetColor`. |
+
+## Questions fréquemment posées
+
+**Q : Puis‑je créer d’autres types de graphiques en plus des graphiques en courbes ?**  
+R : Oui, Aspose.Slides prend en charge les graphiques à barres, secteurs, nuages de points, et bien d’autres types.
+
+**Q : Comment ajouter plusieurs séries de données au graphique en courbes ?**  
+R : Utilisez `chart.getChartData().getSeries().add(...)` pour insérer des séries supplémentaires avant le formatage.
+
+**Q : Est‑il possible d’exporter le graphique sous forme d’image ?**  
+R : Absolument. Appelez `chart.getChartData().getChartDataWorkbook().save(...)` ou rendez la diapositive dans un format d’image.
+
+**Q : Ai‑je besoin d’une licence payante pour le développement ?**  
+R : Une licence temporaire gratuite suffit pour l’évaluation ; une licence commerciale est requise pour les déploiements en production.
+
+**Q : Quelles versions de Java sont prises en charge ?**  
+R : La bibliothèque fonctionne avec JDK 8 à JDK 22 (utilisez le classificateur approprié, par ex. `jdk16`). 
+
+---
+
+**Dernière mise à jour :** 2026-03-07  
+**Testé avec :** Aspose.Slides for Java 25.4 (classificateur jdk16)  
+**Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
