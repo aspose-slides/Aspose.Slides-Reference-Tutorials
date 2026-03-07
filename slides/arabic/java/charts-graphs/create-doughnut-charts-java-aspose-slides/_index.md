@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "تعلّم كيفية إنشاء مخططات دائرية رائعة بلغة جافا باستخدام Aspose.Slides. يغطي هذا الدليل الشامل التهيئة، وتكوين البيانات، وحفظ العروض التقديمية."
-"title": "إنشاء مخططات دائرية في جافا باستخدام Aspose.Slides - دليل شامل"
-"url": "/ar/java/charts-graphs/create-doughnut-charts-java-aspose-slides/"
-"weight": 1
+date: '2026-03-07'
+description: تعلم كيفية إنشاء مخطط دونات في جافا باستخدام Aspose.Slides. يغطي هذا
+  الدليل خطوة بخطوة إعداد تبعية Maven لـ Aspose Slides، تكوين المخطط، وحفظ العروض
+  التقديمية.
+keywords:
+- create doughnut charts Java
+- Aspose.Slides Java guide
+- Java data visualization
+title: إنشاء مخطط دونات Java باستخدام دليل Aspose.Slides
+url: /ar/java/charts-graphs/create-doughnut-charts-java-aspose-slides/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,44 +17,49 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# إنشاء مخططات دائرية في جافا باستخدام Aspose.Slides: دليل خطوة بخطوة
+# إنشاء مخطط الدونات Java باستخدام دليل Aspose.Slides
 
-## مقدمة
+## المقدمة
 
-في بيئة اليوم المعتمدة على البيانات، يُعدّ تصوّر المعلومات بفعالية أمرًا أساسيًا لتعزيز الفهم والمشاركة. مع أن إنشاء مخططات بيانية احترافية برمجيًا قد يبدو صعبًا، خاصةً باستخدام جافا، إلا أن هذا الدليل سيرشدك خلال استخدام Aspose.Slides لجافا لإنشاء مخططات بيانية دائرية بسهولة.
+إنشاء **مخطط الدونات** برمجياً يمكن أن يحول الأرقام الخام إلى تصور جذاب يروي قصة على الفور. في Java، تجعل **Aspose.Slides** هذه العملية بسيطة، مما يتيح لك توليد مخططات جاهزة للعرض التقديمي دون الحاجة لفتح PowerPoint. في هذا الدليل ستتعلم كيفية **إنشاء مخطط الدونات Java** خطوة بخطوة — بدءاً من إعداد تبعية Maven Aspose Slides إلى تخصيص السلاسل والفئات، وأخيراً حفظ العرض التقديمي.
 
-من خلال اتباع هذه الخطوات، سيكتسب المطورون خبرة عملية في التعامل مع شرائح العرض التقديمي ودمج تصور البيانات بسلاسة.
+بنهاية هذا الدليل ستكون قادرًا على تضمين مخططات الدونات الديناميكية في أي ملف PPTX، وهو مثالي للتقارير، ولوحات المعلومات، أو عروض الشرائح الآلية.
 
-**النقاط الرئيسية:**
-- قم بتهيئة كائن العرض التقديمي باستخدام Aspose.Slides Java.
-- تكوين بيانات الرسم البياني وإدارة السلاسل أو الفئات الموجودة.
-- أضف سلاسل وفئات مخصصة لمخططاتك.
-- تنسيق وعرض نقاط البيانات بشكل فعال.
-- احفظ عرضك التقديمي بتنسيقات مختلفة بكل سهولة.
+### إجابات سريعة
+- **ما المكتبة المستخدمة؟** Aspose.Slides for Java  
+- **المهمة الأساسية؟** إنشاء مخطط الدونات Java في ملف PPTX  
+- **كيف يتم إضافة المكتبة؟** استخدم تبعية Maven Aspose Slides (أو Gradle)  
+- **الحد الأدنى لإصدار Java؟** JDK 16 أو أعلى  
+- **هل يمكنني تخصيص الألوان والتسميات؟** نعم، توفر API تحكمًا كاملاً في التنسيق  
 
-قبل البدء في التنفيذ، تأكد من أن لديك كل ما تحتاجه للبدء.
+## ما هو مخطط الدونات ولماذا يُستخدم؟
 
-## المتطلبات الأساسية
+مخطط الدونات هو نسخة من مخطط الفطيرة مع مركز فارغ، مما يتيح لك عرض عدة سلاسل بيانات في حلقات متحدة المركز. هذا يجعله مثاليًا لمقارنة أجزاء من الكل عبر فئات متعددة — فكر في المبيعات حسب المنطقة على مدار عدة أرباع أو تخصيصات الميزانية عبر الأقسام.
 
-لمتابعة هذا البرنامج التعليمي، تأكد من أن لديك:
+## لماذا نستخدم Aspose.Slides for Java؟
 
-- **المكتبات المطلوبة:**
-  - Aspose.Slides لإصدار Java 25.4 أو أحدث.
-  
-- **إعداد البيئة:**
-  - تم تثبيت JDK 16 أو أعلى على نظامك.
-  - IDE مثل IntelliJ IDEA، أو Eclipse، أو NetBeans.
+- **لا حاجة لتثبيت Office** – توليد ملفات PPTX على أي خادم.  
+- **API غني** – تحكم كامل في أنواع المخططات، نقاط البيانات، والتنسيق.  
+- **أداء عالي** – مُحسّن للعروض التقديمية الكبيرة.  
+- **متعدد المنصات** – يعمل على Windows وLinux وmacOS.  
 
-- **المتطلبات المعرفية:**
-  - فهم أساسي لمفاهيم برمجة جافا.
-  - - المعرفة بإدارة التبعيات في مشاريع Maven أو Gradle.
+## المتطلبات المسبقة
 
-## إعداد Aspose.Slides لـ Java
+- **المكتبات المطلوبة:**  
+  - Aspose.Slides for Java الإصدار 25.4 أو أحدث.  
 
-لدمج Aspose.Slides في مشروعك، اتبع الخطوات التالية استنادًا إلى أداة البناء الخاصة بك:
+- **إعداد البيئة:**  
+  - JDK 16 أو أعلى.  
+  - بيئة التطوير المتكاملة المفضلة لديك (IntelliJ IDEA، Eclipse، NetBeans، إلخ).  
 
-**إعداد Maven:**
-أضف التبعية التالية إلى ملفك `pom.xml` ملف:
+- **المعرفة المطلوبة مسبقًا:**  
+  - برمجة Java الأساسية.  
+  - الإلمام بـ Maven أو Gradle لإدارة التبعيات.  
+
+## تبعية Maven Aspose Slides
+
+أضف تبعية Maven التالية إلى ملف `pom.xml`. هذه هي **تبعيات Maven Aspose Slides** التي تحتاجها لجلب المكتبة إلى مشروعك.
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -58,23 +69,25 @@
 </dependency>
 ```
 
-**إعداد Gradle:**
-قم بتضمين ما يلي في `build.gradle` ملف:
+إذا كنت تفضل Gradle، استخدم المقتطف المكافئ أدناه.
+
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**التحميل المباشر:**
-بدلاً من ذلك، قم بتنزيل الإصدار الأحدث مباشرةً من [إصدارات Aspose.Slides لـ Java](https://releases.aspose.com/slides/java/).
+يمكنك أيضًا تنزيل ملف JAR مباشرةً من صفحة الإصدارات الرسمية:  
+[ Aspose.Slides for Java releases ](https://releases.aspose.com/slides/java/)
 
 ### الحصول على ترخيص
 
-لاستخدام Aspose.Slides دون قيود التقييم:
-- **نسخة تجريبية مجانية:** ابدأ باستخدام ترخيص مؤقت لاستكشاف الميزات الكاملة.
-- **رخصة مؤقتة:** احصل على واحدة عبر [موقع Aspose](https://purchase.aspose.com/temporary-license/).
-- **شراء:** فكر في الشراء للاستخدام المستمر.
+لإزالة علامة التقييم المائية وإتاحة مجموعة الميزات الكاملة:
 
-قم بتطبيق الترخيص الخاص بك في تطبيق Java الخاص بك باستخدام:
+- **تجربة مجانية** – ابدأ بترخيص مؤقت.  
+- **ترخيص مؤقت** – اطلب واحدًا من [Aspose website](https://purchase.aspose.com/temporary-license/).  
+- **ترخيص تجاري** – اشترِ للاستخدام في الإنتاج.
+
+طبق الترخيص في الكود الخاص بك:
+
 ```java
 License license = new License();
 license.setLicense("path/to/your/license.lic");
@@ -82,50 +95,37 @@ license.setLicense("path/to/your/license.lic");
 
 ## دليل التنفيذ
 
-### تهيئة العرض التقديمي والمخطط
+### تهيئة العرض التقديمي وإضافة مخطط الدونات
 
-#### ملخص
-ابدأ بتهيئة كائن العرض التقديمي وإضافة مخطط دائري إلى الشريحة الأولى.
+أولاً، أنشئ أو حمّل عرضًا تقديميًا وأضف مخطط الدونات إلى الشريحة الأولى.
 
-**الخطوة 1: تهيئة العرض التقديمي**
-قم بتحميل ملف PPTX الحالي أو قم بإنشاء ملف جديد:
 ```java
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/testc.pptx");
 ```
 
-**الخطوة 2: إضافة مخطط دائري**
-إنشاء مخطط على الشريحة الأولى عند الإحداثيات المحددة:
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, false);
 ```
 
-### تكوين مصنف بيانات الرسم البياني ومسح السلاسل/الفئات الموجودة
+### تكوين دفتر عمل بيانات المخطط ومسح البيانات الموجودة
 
-#### ملخص
-قم بتكوين مصنف بيانات الرسم البياني وإزالة أي سلسلة أو فئات موجودة مسبقًا.
+بعد ذلك، احصل على دفتر العمل الذي يدعم المخطط وامسح أي سلاسل أو فئات افتراضية.
 
-**الخطوة 1: الوصول إلى مصنف بيانات الرسم البياني**
-استرداد المصنف المرتبط بالرسم البياني الخاص بك:
 ```java
 IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
 ```
 
-**الخطوة 2: مسح السلاسل والفئات الموجودة**
-تأكد من عدم وجود نقاط بيانات متبقية:
 ```java
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 chart.setLegend(false);
 ```
 
-### إضافة سلسلة إلى الرسم البياني
+### إضافة سلاسل إلى المخطط
 
-#### ملخص
-قم بملء الرسم البياني الخاص بك بسلاسل متعددة، كل منها مخصصة للمظهر والسلوك.
+الآن سنضيف ما يصل إلى 15 سلسلة. يمكن تخصيص كل سلسلة — هنا نحدد الانفجار، حجم فتحة الدونات، وزاوية الشريحة الأولى.
 
-**الخطوة 1: إضافة السلسلة بشكل متكرر**
-قم بالمرور عبر المؤشرات لإضافة سلسلة:
 ```java
 int seriesIndex = 0;
 while (seriesIndex < 15) {
@@ -134,7 +134,7 @@ while (seriesIndex < 15) {
         chart.getType()
     );
 
-    // تخصيص السلسلة
+    // Customize the series
     series.setExplosion(0);
     series.getParentSeriesGroup().setDoughnutHoleSize((byte) 20);
     series.getParentSeriesGroup().setFirstSliceAngle(351);
@@ -142,13 +142,10 @@ while (seriesIndex < 15) {
 }
 ```
 
-### إضافة الفئات ونقاط البيانات إلى الرسم البياني
+### إضافة فئات ونقاط بيانات
 
-#### ملخص
-قم بتكوين الفئات وإضافة نقاط البيانات باستخدام تنسيق محدد للعلامات.
+سننشئ 15 فئة ونملأ كل سلسلة بنقطة بيانات. السلسلة الأخيرة تتلقى تنسيقًا خاصًا للتسمية.
 
-**الخطوة 1: إضافة الفئات**
-التنقل عبر المؤشرات لكل فئة:
 ```java
 int categoryIndex = 0;
 while (categoryIndex < 15) {
@@ -157,8 +154,6 @@ while (categoryIndex < 15) {
     );
 ```
 
-**الخطوة 2: إضافة نقاط البيانات إلى كل سلسلة**
-قم بالتكرار خلال كل سلسلة للفئة الحالية:
 ```java
 int i = 0;
 while (i < chart.getChartData().getSeries().size()) {
@@ -166,7 +161,7 @@ while (i < chart.getChartData().getSeries().size()) {
     IChartDataPoint dataPoint = iCS.getDataPoints()
         .addDataPointForDoughnutSeries(workBook.getCell(0, categoryIndex + 1, i + 1, 1));
 
-    // إعدادات تنسيق نقطة البيانات
+    // Data point format settings
     dataPoint.getFormat().getFill().setFillType(FillType.Solid);
     dataPoint.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
     dataPoint.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
@@ -174,7 +169,7 @@ while (i < chart.getChartData().getSeries().size()) {
     dataPoint.getFormat().getLine().setStyle(LineStyle.Single);
     dataPoint.getFormat().getLine().setDashStyle(LineDashStyle.Solid);
 
-    // تنسيق التسمية للسلسلة الأخيرة
+    // Label formatting for the last series
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
@@ -186,14 +181,14 @@ while (i < chart.getChartData().getSeries().size()) {
         lbl.getDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat()
             .getSolidFillColor().setColor(Color.LIGHT_GRAY);
 
-        // ضبط خيارات العرض
+        // Adjust display options
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
         lbl.getDataLabelFormat().setShowLeaderLines(true);
         lbl.getDataLabelFormat().setShowLabelAsDataCallout(false);
 
-        // ضبط موضع الملصق
+        // Adjust label position
         chart.validateChartLayout();
         lbl.setX(lbl.getX() + (float) 0.5);
         lbl.setY(lbl.getY() + (float) 0.5);
@@ -205,22 +200,41 @@ categoryIndex++;
 
 ### حفظ العرض التقديمي
 
-#### ملخص
-بمجرد تكوين الرسم البياني الخاص بك، احفظ العرض التقديمي في الدليل المحدد.
+أخيرًا، احفظ العرض التقديمي المحدث إلى القرص.
 
-**الخطوة 1: حفظ العرض التقديمي**
-استخدم `save` طريقة كتابة التغييرات:
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/chart_presentation.pptx", SaveFormat.Pptx);
 ```
 
-## خاتمة
+## المشكلات الشائعة والحلول
 
-لقد تعلمتَ الآن كيفية إنشاء وتخصيص مخططات الدونات في جافا باستخدام Aspose.Slides. تُشكّل هذه الخطوات أساسًا لدمج تصورات البيانات المتطورة في عروضك التقديمية.
+- **الترخيص غير موجود** – تحقق من أن مسار `license.lic` صحيح والملف قابل للقراءة.  
+- **المخطط يظهر فارغًا** – تأكد من مسح السلاسل/الفئات الموجودة قبل إضافة جديدة.  
+- **الألوان غير صحيحة** – تحقق من أن `FillType.Solid` مُعيّن لكل من تنسيقات التعبئة والخط.  
+- **الأداء مع عدد كبير من السلاسل** – قلل عدد السلاسل/الفئات أو أعد استخدام خلايا دفتر العمل.  
 
-**الخطوات التالية:**
-- قم بتجربة أنواع المخططات المختلفة المتوفرة في Aspose.Slides.
-- استكشف خيارات التخصيص الإضافية مثل الألوان والخطوط والأنماط لتتناسب مع احتياجات علامتك التجارية.
+## الأسئلة المتكررة
+
+**س: هل يمكنني إنشاء مخطط الدونات دون ملف PPTX موجود مسبقًا؟**  
+**ج:** نعم، أنشئ كائنًا بـ `new Presentation()` للبدء من مجموعة شرائح فارغة.
+
+**س: هل يدعم Aspose.Slides التصدير إلى PDF؟**  
+**ج:** بالتأكيد. بعد إنشاء المخطط، استدعِ `pres.save("output.pdf", SaveFormat.Pdf);`.
+
+**س: كيف أغيّر حجم فتحة الدونات؟**  
+**ج:** استخدم `series.getParentSeriesGroup().setDoughnutHoleSize((byte) value);` حيث القيمة بين 0‑100.
+
+**س: هل يمكن إضافة تسميات بيانات لجميع السلاسل، وليس فقط الأخيرة؟**  
+**ج:** نعم، انقل كتلة تنسيق التسمية خارج شرط `if (i == ...)` وطبقها على كل `dataPoint`.
+
+**س: ما إصدارات Java المدعومة؟**  
+**ج:** يدعم Aspose.Slides 25.4 JDK 16 وما بعده. الإصدارات الأقدم من JDK تتطلب المصنف المناسب.
+
+---
+
+**آخر تحديث:** 2026-03-07  
+**تم الاختبار مع:** Aspose.Slides for Java 25.4 (مصنف jdk16)  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
