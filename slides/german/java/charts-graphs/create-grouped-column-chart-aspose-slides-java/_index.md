@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-17"
-"description": "Erfahren Sie, wie Sie mit Aspose.Slides für Java gruppierte Säulendiagramme in PowerPoint erstellen und anpassen. Optimieren Sie Ihre Präsentationen mit übersichtlicher Datenvisualisierung."
-"title": "Erstellen gruppierter Säulendiagramme in PowerPoint mit Aspose.Slides für Java"
-"url": "/de/java/charts-graphs/create-grouped-column-chart-aspose-slides-java/"
-"weight": 1
+date: '2026-03-20'
+description: Erfahren Sie, wie Sie ein gruppiertes Säulendiagramm zu einer PowerPoint‑Präsentation
+  hinzufügen, ein PowerPoint‑Diagramm anpassen und ein Datenreihen‑Diagramm mit Aspose.Slides
+  für Java einfügen.
+keywords:
+- Grouped Column Chart
+- Aspose.Slides for Java
+- PowerPoint Presentation
+title: Wie man ein gruppiertes Säulendiagramm in PowerPoint mit Aspose.Slides für
+  Java hinzufügt
+url: /de/java/charts-graphs/create-grouped-column-chart-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,31 +18,49 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Erstellen gruppierter Säulendiagramme in PowerPoint mit Aspose.Slides für Java
+# Wie man ein gruppiertes Säulendiagramm in PowerPoint mit Aspose.Slides für Java hinzufügt
 
 ## Einführung
 
-Bei der Präsentation von Daten vermitteln visuelle Darstellungen oft Informationen effektiver als reine Zahlen. Die Erstellung optisch ansprechender und informativer Diagramme kann jedoch ohne die richtigen Tools mühsam sein. **Aspose.Slides für Java** vereinfacht diesen Vorgang und ermöglicht Ihnen das mühelose Hinzufügen eines gruppierten Säulendiagramms zu einer PowerPoint-Präsentation.
+Wenn Sie ein **grouped column chart** zu einer PowerPoint‑Präsentation hinzufügen müssen, kann eine klare Visualisierung rohe Zahlen in eine sofort verständliche Geschichte verwandeln. Das manuelle Erstellen in PowerPoint ist zeitaufwändig, besonders wenn Sie viele Folien programmgesteuert erzeugen müssen. **Aspose.Slides für Java** beseitigt die Reibung – es ermöglicht Ihnen, PowerPoint‑Diagramme zu erstellen, anzupassen und Datenreihen‑Diagramme mit nur wenigen Codezeilen einzufügen.
 
-In diesem Tutorial lernen Sie Folgendes:
-- Initialisieren Sie eine neue PowerPoint-Präsentation mit Aspose.Slides für Java.
-- Fügen Sie gruppierte Säulendiagramme in Folien hinzu und passen Sie sie an.
-- Gruppieren Sie Kategorien innerhalb des Diagramms für eine verbesserte Visualisierung.
-- Fügen Sie Datenreihen effektiv in Ihr Diagramm ein.
-- Speichern Sie Ihre Präsentation im PPTX-Format.
+In diesem Tutorial lernen Sie, wie Sie:
+- Eine neue PowerPoint‑Präsentation mit Aspose.Slides für Java initialisieren.
+- **Diagramm zur Folie hinzufügen** und es als gruppiertes Säulendiagramm konfigurieren.
+- **Gruppiertes Säulendiagramm** durch Definition von Gruppierungsebenen für Kategorien erstellen.
+- **Datenreihen‑Diagramm einfügen**, sodass Ihre Daten korrekt angezeigt werden.
+- Die fertige Präsentation als PPTX‑Datei speichern.
 
-Beginnen wir mit der Überprüfung der notwendigen Voraussetzungen, bevor wir mit der Codierung beginnen!
+Stellen wir sicher, dass Sie alles haben, bevor wir in den Code eintauchen.
+
+## Schnellantworten
+- **Was ist die primäre Klasse?** `Presentation` aus `com.aspose.slides`.
+- **Welcher Diagrammtyp wird verwendet?** `ChartType.ClusteredColumn`.
+- **Benötige ich eine Lizenz für Tests?** Eine kostenlose Testversion funktioniert, aber eine Lizenz entfernt Evaluationsbeschränkungen.
+- **Welche Java‑Version wird unterstützt?** JDK 16 oder neuer (das Beispiel verwendet JDK 16).
+- **Wie führe ich das Beispiel aus?** Fügen Sie die Maven/Gradle‑Abhängigkeit hinzu, kompilieren Sie und führen Sie die `main`‑Methode aus.
+
+## Was bedeutet „add clustered column chart“?
+
+Ein *clustered column chart* (auch *grouped column chart* genannt) zeigt mehrere Datenreihen nebeneinander für jede Kategorie, sodass Werte über Gruppen hinweg leicht vergleichbar sind. In PowerPoint ist dieser Diagrammtyp ideal für Quartalsumsätze, Umfrageergebnisse oder jede Situation, in der Sie mehrere Datensätze innerhalb derselben Kategorie gegenüberstellen müssen.
+
+## Warum Aspose.Slides zum Hinzufügen eines gruppierten Säulendiagramms verwenden?
+
+- **Vollständige Automatisierung** – erzeugen Sie Dutzende von Folien ohne manuellen Aufwand.
+- **Fein abgestimmte Anpassung** – steuern Sie Farben, Beschriftungen, Gruppierungsebenen und mehr.
+- **Plattformübergreifend** – funktioniert auf jedem Betriebssystem, das Java unterstützt.
+- **Keine Office‑Installation erforderlich** – erzeugen Sie PPTX‑Dateien auf Servern oder CI‑Pipelines.
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
-- **Aspose.Slides für Java** Bibliothek installiert. Dieses Tutorial verwendet Version 25.4 mit JDK16.
-- Grundlegende Kenntnisse der Java-Programmierung und Vertrautheit mit den Build-Tools Maven oder Gradle.
-- Eine IDE zum Ausführen von Java-Anwendungen.
+- **Aspose.Slides für Java**‑Bibliothek (die neueste Version wird empfohlen).  
+- JDK 16 oder höher.  
+- Maven‑ oder Gradle‑Build‑Tool (oder Sie können das JAR manuell hinzufügen).  
+- Eine IDE oder ein Texteditor zum Ausführen von Java‑Code.
 
-## Einrichten von Aspose.Slides für Java
+## Einrichtung von Aspose.Slides für Java
 
-Um die Aspose.Slides-Bibliothek in Ihr Java-Projekt zu integrieren, führen Sie diese Schritte mit Maven oder Gradle aus:
+Fügen Sie die Bibliothek Ihrem Projekt mit einem der folgenden Build‑Skripte hinzu.
 
 **Maven**
 
@@ -54,146 +79,134 @@ Um die Aspose.Slides-Bibliothek in Ihr Java-Projekt zu integrieren, führen Sie 
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Alternativ können Sie die neueste Version direkt herunterladen von [Aspose.Slides für Java-Versionen](https://releases.aspose.com/slides/java/).
+Alternativ können Sie das neueste Release direkt von [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) herunterladen.
 
-### Lizenzerwerb
+### Lizenzbeschaffung
 
-Bevor Sie Aspose.Slides verwenden, sollten Sie eine Lizenz erwerben:
-- Beginnen Sie mit einem **kostenlose Testversion** um seine Funktionen zu testen.
-- Bewerben Sie sich für eine **vorläufige Lizenz** wenn Sie mehr Funktionen ohne Einschränkungen testen möchten.
-- Erwerben Sie eine Volllizenz für den Produktionseinsatz von [Asposes Kaufseite](https://purchase.aspose.com/buy).
+Bevor Sie in die Produktion gehen, erhalten Sie eine Lizenz:
+- **Kostenlose Testversion** – erkunden Sie alle Funktionen ohne Kauf.
+- **Temporäre Lizenz** – bewerten Sie erweiterte Funktionen für einen kurzen Zeitraum.
+- **Vollständige Lizenz** – schalten Sie unbegrenzte Nutzung frei. Erhalten Sie sie über die [Kaufseite von Aspose](https://purchase.aspose.com/buy).
 
-## Implementierungshandbuch
+## Implementierungsleitfaden
 
-Wir unterteilen den Prozess in logische Schritte und konzentrieren uns dabei auf bestimmte Funktionen von Aspose.Slides.
+Wir gehen Schritt für Schritt durch, erklären **wie man ein Diagramm hinzufügt** und **wie man PowerPoint‑Diagramme** anpasst.
 
 ### Präsentation initialisieren
 
-Beginnen Sie mit der Erstellung einer Instanz des `Presentation` Klasse:
+Zuerst erstellen Sie ein neues `Presentation`‑Objekt und holen die Standardfolie.
 
 ```java
 import com.aspose.slides.*;
 
-// Funktion: Präsentation initialisieren
+// Feature: Initialize Presentation
 Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
 ```
 
-Hier starten wir eine neue Präsentation und wählen die erste Folie aus. Diese dient uns als Leinwand für das Hinzufügen von Diagrammen.
-
 ### Diagramm zur Folie hinzufügen
 
-Fügen Sie als Nächstes ein gruppiertes Säulendiagramm zu Ihrer ausgewählten Folie hinzu:
+Jetzt **fügen wir ein Diagramm zur Folie hinzu** und verwenden den Typ `ClusteredColumn`, wobei wir alle Standarddaten entfernen.
 
 ```java
-// Funktion: Diagramm zur Folie hinzufügen
+// Feature: Add Chart to Slide
 IChart ch = pres.getSlides().get_Item(0).getShapes().addChart(
     ChartType.ClusteredColumn, 100, 100, 600, 450);
 ch.getChartData().getSeries().clear();
 ch.getChartData().getCategories().clear();
 ```
 
-Dieses Snippet erstellt ein Diagramm vom Typ `ClusteredColumn` mit den angegebenen Abmessungen und positioniert es auf der Folie. Außerdem werden alle vorhandenen Serien oder Kategorien gelöscht, um neu zu beginnen.
+### Diagrammdaten‑Workbook vorbereiten
 
-### Arbeitsmappe „Diagrammdaten vorbereiten“
-
-Bereiten Sie zum Verwalten Ihrer Diagrammdaten eine Arbeitsmappe vor:
+Das Diagramm speichert seine Daten in einem internen Workbook. Wir leeren es, um neu zu beginnen.
 
 ```java
-// Funktion: Arbeitsmappe mit Diagrammdaten vorbereiten
+// Feature: Prepare Chart Data Workbook
 IChartDataWorkbook fact = ch.getChartData().getChartDataWorkbook();
 fact.clear(0);
 int defaultWorksheetIndex = 0;
 ```
 
-Der `IChartDataWorkbook` Das Objekt fungiert als Datencontainer für Ihr Diagramm und ermöglicht Ihnen die effektive Bearbeitung von Datenpunkten.
-
 ### Kategorien mit Gruppierungsebenen hinzufügen
 
-Das Gruppieren von Kategorien hilft bei der sinnvollen Organisation von Daten. So geht's:
+Das Gruppieren von Kategorien erzeugt den **Gruppiertes‑Säulendiagramm**‑Effekt. Jede Kategorie kann zu einer logischen Gruppe gehören.
 
 ```java
-// Funktion: Kategorien mit Gruppierungsebenen hinzufügen
+// Feature: Add Categories with Grouping Levels
 IChartCategory category = ch.getChartData().getCategories().add(
     fact.getCell(0, "c2", "A"));
 category.getGroupingLevels().setGroupingItem(1, "Group1");
 
 category = ch.getChartData().getCategories().add(fact.getCell(0, "c3", "B"));
-// Wiederholen Sie dies für andere Kategorien
+// Repeat for other categories
 ```
-
-Jede Kategorie wird mit einer spezifischen Gruppierungsebene hinzugefügt. So können Sie logische Gruppierungen innerhalb Ihres Diagramms definieren.
 
 ### Datenreihen zum Diagramm hinzufügen
 
-Um Daten zu visualisieren, fügen Sie dem Diagramm Reihen hinzu:
+Hier **fügen wir Datenreihen‑Diagramm‑Einträge** ein, die als separate Säulen visualisiert werden.
 
 ```java
-// Funktion: Datenreihen zum Diagramm hinzufügen
+// Feature: Add Data Series to Chart
 IChartSeries series = ch.getChartData().getSeries().add(
     fact.getCell(0, "D1", "Series 1"), ChartType.ClusteredColumn);
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, "D2", 10));
-// Weitere Datenpunkte hinzufügen
+// Continue adding data points
 ```
-
-Der `IChartSeries` Das Objekt wird verwendet, um eine Reihe von Datenpunkten hinzuzufügen, die die tatsächlichen Daten in Ihrem Diagramm darstellen.
 
 ### Präsentation mit Diagramm speichern
 
-Speichern Sie abschließend Ihre Präsentation:
+Abschließend schreiben wir die PPTX‑Datei auf die Festplatte.
 
 ```java
-// Funktion: Präsentation mit Diagramm speichern
+// Feature: Save Presentation with Chart
 pres.save("YOUR_OUTPUT_DIRECTORY/AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
 
-Dieser Schritt schreibt alle Änderungen in eine PPTX-Datei im angegebenen Verzeichnis.
-
 ## Praktische Anwendungen
 
-Hier sind einige reale Szenarien, in denen gruppierte Diagramme von Vorteil sein können:
-- **Geschäftsberichte**: Verwenden Sie gruppierte Säulendiagramme, um vierteljährliche Verkaufsdaten verschiedener Regionen zu vergleichen.
-- **Akademische Forschung**: Visualisieren Sie experimentelle Ergebnisse, indem Sie sie nach Testbedingungen gruppieren.
-- **Projektmanagement**: Verfolgen Sie die Aufgabenerledigungsraten mehrerer Teams in einer einzigen Ansicht.
+- **Geschäftsberichte** – vergleichen Sie Quartalsumsätze nach Regionen.  
+- **Akademische Forschung** – zeigen Sie experimentelle Ergebnisse, gruppiert nach Testbedingungen.  
+- **Projektmanagement** – visualisieren Sie Abschlussraten von Aufgaben für mehrere Teams auf einer einzigen Folie.
 
-## Überlegungen zur Leistung
+## Leistungsüberlegungen
 
-Um sicherzustellen, dass Ihre Anwendung effizient ausgeführt wird, beachten Sie die folgenden Tipps:
-- Optimieren Sie die Speichernutzung, indem Sie große Datensätze sorgfältig verwalten.
-- Vermeiden Sie unnötige Operationen innerhalb von Schleifen bei der Manipulation von Diagrammdaten.
-- Nutzen Sie die integrierten Optimierungsfunktionen von Aspose.Slides für eine bessere Leistung.
+- **Speichermanagement** – geben Sie große Workbooks nach Gebrauch frei.  
+- **Batch‑Operationen** – vermeiden Sie das Aktualisieren des Diagramms in engen Schleifen; sammeln Sie zuerst die Daten und wenden Sie sie dann an.  
+- **Eingebaute Optimierungen** – Aspose.Slides bietet Methoden wie `Presentation.optimize()` für große Dateien.
 
-## Abschluss
+## Häufige Fallstricke & Tipps
 
-In dieser Anleitung haben Sie gelernt, wie Sie mit Aspose.Slides für Java ein gruppiertes Säulendiagramm in PowerPoint erstellen und anpassen. Diese Fähigkeit verbessert Ihre Fähigkeit, komplexe Daten klar und effektiv zu präsentieren. Experimentieren Sie mit verschiedenen Diagrammtypen und -konfigurationen, um Ihr Wissen zu vertiefen.
+- **Fallstrick:** Das Vergessen, vorhandene Reihen/Kategorien zu leeren, kann zu doppelten Daten führen.  
+  **Tipp:** Rufen Sie immer `clear()` auf, bevor Sie neue Daten einfügen.  
+- **Fallstrick:** Verwendung einer falschen Zelladresse (z. B. `"c2"` statt `"C2"`).  
+  **Tipp:** Zellreferenzen sind nicht case‑sensitiv, aber halten Sie sie aus Lesbarkeitsgründen konsistent.  
+- **Tipp:** Verwenden Sie `setGroupingItem`, um sinnvolle Gruppenbezeichnungen zu erstellen; sie erscheinen automatisch in der Diagrammlegende.
 
-Bereit, Ihre Präsentationen auf das nächste Level zu heben? Probieren Sie diese Techniken aus und erleben Sie den Unterschied!
+## Häufig gestellte Fragen
 
-## FAQ-Bereich
+**F1: Wie kann ich mehrere Reihen zu meinem Diagramm hinzufügen?**  
+A1: Rufen Sie wiederholt `ch.getChartData().getSeries().add()` auf und übergeben Sie einen eindeutigen Namen sowie Datenpunkte für jede Reihe.
 
-**F1: Wie kann ich meinem Diagramm mehrere Reihen hinzufügen?**
-A1: Sie können anrufen `getSeries().add()` mehrmals, wobei jedes Mal eine andere Datenreihe angegeben wird.
+**F2: Welche häufigen Probleme gibt es bei Aspose.Slides‑Diagrammen?**  
+A2: Probleme entstehen oft durch nicht übereinstimmende Datenbereiche oder fehlende Workbook‑Zellen. Vergewissern Sie sich, dass jede Kategorie und jeder Datenpunkt eine entsprechende Zelle hat.
 
-**F2: Welche häufigen Probleme treten bei Aspose.Slides-Diagrammen auf?**
-A2: Häufige Probleme sind falsche Datenausrichtung oder Formatierungsfehler. Stellen Sie sicher, dass Ihre Datenarbeitsmappe korrekt eingerichtet ist, und überprüfen Sie die Diagrammeigenschaften auf Anpassungen.
+**F3: Kann ich Aspose.Slides mit anderen Programmiersprachen verwenden?**  
+A3: Ja, Aspose bietet äquivalente Bibliotheken für .NET, C++, Python und mehr.
 
-**F3: Kann ich Aspose.Slides mit anderen Programmiersprachen verwenden?**
-A3: Ja, Aspose bietet ähnliche Bibliotheken für .NET, C++, Python und andere.
+**F4: Wie aktualisiere ich ein bestehendes Diagramm in einer Präsentation?**  
+A4: Laden Sie die Präsentation, finden Sie das Diagramm über `slide.getShapes().get_Item(index)`, und ändern Sie dann seine Reihen oder Formatierungen nach Bedarf.
 
-**F4: Wie aktualisiere ich vorhandene Diagramme in einer Präsentation?**
-A4: Laden Sie die Präsentation und rufen Sie die gewünschte Folie auf. Nutzen Sie Diagrammmanipulationsmethoden, um Daten oder das Erscheinungsbild nach Bedarf zu ändern.
-
-**F5: Gibt es Einschränkungen hinsichtlich der Diagrammtypen bei Aspose.Slides?**
-A5: Obwohl Aspose.Slides viele Diagrammtypen unterstützt, prüfen Sie immer die neueste Dokumentation auf Aktualisierungen oder Änderungen der unterstützten Funktionen.
+**F5: Gibt es Einschränkungen bei Diagrammtypen mit Aspose.Slides?**  
+A5: Die Bibliothek unterstützt eine breite Palette von Diagrammtypen, prüfen Sie jedoch stets die aktuelle Dokumentation für neu hinzugefügte oder veraltete Typen.
 
 ## Ressourcen
 
-- **Dokumentation**: [Aspose.Slides-Referenz](https://reference.aspose.com/slides/java/)
-- **Herunterladen**: [Neuerscheinungen](https://releases.aspose.com/slides/java/)
-- **Kaufen**: [Aspose.Slides kaufen](https://purchase.aspose.com/buy)
-- **Kostenlose Testversion**: [Starten Sie Ihre kostenlose Testversion](https://releases.aspose.com/slides/java/)
-- **Temporäre Lizenz**: [Fordern Sie eine temporäre Lizenz an](https://purchase.aspose.com/temporary-license/)
-- **Support-Forum**: [Aspose-Unterstützung](https://forum.aspose.com/c/slides/11)
+- **Dokumentation**: [Aspose.Slides Reference](https://reference.aspose.com/slides/java/)
+- **Download**: [Latest Releases](https://releases.aspose.com/slides/java/)
+- **Kauf**: [Buy Aspose.Slides](https://purchase.aspose.com/buy)
+- **Kostenlose Testversion**: [Start Your Free Trial](https://releases.aspose.com/slides/java/)
+- **Temporäre Lizenz**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
+- **Support‑Forum**: [Aspose Support](https://forum.aspose.com/c/slides/11)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -202,3 +215,9 @@ A5: Obwohl Aspose.Slides viele Diagrammtypen unterstützt, prüfen Sie immer die
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Zuletzt aktualisiert:** 2026-03-20  
+**Getestet mit:** Aspose.Slides für Java 25.4 (JDK 16)  
+**Autor:** Aspose
