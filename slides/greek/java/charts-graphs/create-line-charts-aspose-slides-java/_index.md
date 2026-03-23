@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-17"
-"description": "Μάθετε πώς να δημιουργείτε γραφήματα γραμμών με δείκτες σε Java χρησιμοποιώντας το Aspose.Slides. Αυτό το σεμινάριο καλύπτει τη δημιουργία γραφημάτων, την προσθήκη σειρών και την αποτελεσματική αποθήκευση παρουσιάσεων."
-"title": "Δημιουργήστε γραφήματα γραμμών με προεπιλεγμένους δείκτες χρησιμοποιώντας το Aspose.Slides για Java"
-"url": "/el/java/charts-graphs/create-line-charts-aspose-slides-java/"
-"weight": 1
+date: '2026-03-23'
+description: Μάθετε πώς να χρησιμοποιείτε το Aspose.Slides for Java για να δημιουργείτε
+  διαγράμματα γραμμής με δείκτες, να προσθέτετε μια δεύτερη σειρά και να διαχειρίζεστε
+  κενά δεδομένα σε παρουσιάσεις PowerPoint.
+keywords:
+- Aspose.Slides for Java
+- line charts with markers in Java
+- creating presentations programmatically
+title: 'Πώς να χρησιμοποιήσετε το Aspose.Slides για Java: Δημιουργία διαγραμμάτων
+  γραμμής με προεπιλεγμένα σημεία'
+url: /el/java/charts-graphs/create-line-charts-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,33 +18,36 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Δημιουργήστε γραφήματα γραμμών με προεπιλεγμένους δείκτες χρησιμοποιώντας το Aspose.Slides για Java
-## Εισαγωγή
-Η δημιουργία οπτικά ελκυστικών και ενημερωτικών γραφημάτων είναι απαραίτητη για παρουσιάσεις, αναφορές και πίνακες ελέγχου. Η αυτοματοποίηση αυτής της διαδικασίας στην ανάπτυξη λογισμικού εξοικονομεί χρόνο και διασφαλίζει τη συνέπεια σε όλα τα έγγραφα. Αυτό το σεμινάριο δείχνει πώς να δημιουργείτε γραφήματα γραμμών με δείκτες χρησιμοποιώντας το Aspose.Slides για Java.
-**Aspose.Slides για Java** είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να χειρίζονται παρουσιάσεις PowerPoint μέσω προγραμματισμού χωρίς να χρειάζεται να εγκατασταθεί το Microsoft Office. Απλοποιεί εργασίες όπως η δημιουργία, η επεξεργασία και η εξαγωγή διαφανειών, καθιστώντας την ένα απαραίτητο εργαλείο για την αυτοματοποιημένη δημιουργία εγγράφων.
-**Τι θα μάθετε:**
-- Πώς να αρχικοποιήσετε το Aspose.Slides για Java
-- Βήματα για τη δημιουργία ενός γραφήματος γραμμών με δείκτες
-- Προσθήκη σειρών και κατηγοριών σε γραφήματα
-- Ρύθμιση παραμέτρων υπομνημάτων γραφήματος
-- Αποθήκευση της παρουσίασης
-Έτοιμοι να ξεκινήσετε; Ας βεβαιωθούμε ότι έχετε πρώτα όλα τα έτοιμα!
-## Προαπαιτούμενα
-Πριν ξεκινήσουμε, βεβαιωθείτε ότι το περιβάλλον ανάπτυξής σας είναι έτοιμο:
-1. **Βιβλιοθήκες & Εξαρτήσεις:**
-   - Aspose.Slides για βιβλιοθήκη Java (συνιστάται η έκδοση 25.4)
-   - Κιτ ανάπτυξης Java (JDK) έκδοση 16 ή νεότερη
-2. **Ρύθμιση περιβάλλοντος:**
-   - Το IDE σας θα πρέπει να υποστηρίζει εργαλεία δημιουργίας Maven ή Gradle.
-   - Βεβαιωθείτε ότι έχετε ένα έγκυρο αρχείο άδειας χρήσης, εάν απαιτείται.
-3. **Προαπαιτούμενα Γνώσεων:**
-   - Βασική κατανόηση του προγραμματισμού Java
-   - Εξοικείωση με κατασκευαστικά έργα χρησιμοποιώντας Maven ή Gradle
-Έχοντας αυτά στη θέση τους, ας ρυθμίσουμε το Aspose.Slides για το έργο σας!
-## Ρύθμιση του Aspose.Slides για Java
-Για να χρησιμοποιήσετε το Aspose.Slides για Java, πρέπει να το συμπεριλάβετε ως εξάρτηση στο έργο σας. Ανάλογα με το αν χρησιμοποιείτε Maven ή Gradle, η ρύθμιση θα διαφέρει ελαφρώς.
+# Δημιουργία Γραμμικών Διαγραμμάτων με Προεπιλεγμένους Δείκτες Χρησιμοποιώντας το Aspose.Slides για Java
+
+## Introduction
+Αν αναρωτιέστε **πώς να χρησιμοποιήσετε το Aspose** για αυτοματοποίηση της δημιουργίας PowerPoint, βρίσκεστε στο σωστό μέρος. Σε αυτό το tutorial θα δούμε πώς να δημιουργήσουμε ένα **γραμμικό διάγραμμα με δείκτες**, να προσθέσουμε μια δεύτερη σειρά και να διαχειριστούμε δεδομένα null — όλα με το Aspose.Slides για Java. Στο τέλος θα έχετε ένα έτοιμο κομμάτι κώδικα που παράγει ένα επαγγελματικό διάγραμμα χωρίς να ανοίξετε ποτέ το PowerPoint χειροκίνητα.
+
+### Quick Answers
+- **Ποια βιβλιοθήκη χρειάζομαι;** Aspose.Slides for Java (συνιστάται η τελευταία έκδοση)  
+- **Μπορώ να προσθέσω μια δεύτερη σειρά;** Ναι – το API σας επιτρέπει να προσθέσετε πολλαπλές σειρές εύκολα.  
+- **Πώς αντιμετωπίζονται τα σημεία δεδομένων null;** Χρησιμοποιήστε `null` στην τιμή του κελιού· το διάγραμμα θα παραλείψει το σημείο.  
+- **Χρειάζομαι Maven;** Maven ή Gradle λειτουργούν· δείτε την ενότητα *aspose slides maven* παρακάτω.  
+- **Απαιτείται άδεια;** Μια δωρεάν δοκιμή λειτουργεί για ανάπτυξη· απαιτείται εμπορική άδεια για παραγωγή.
+
+## How to Use Aspose.Slides for Java to Create Line Charts
+Η δημιουργία διαγραμμάτων προγραμματιστικά σας εξοικονομεί ώρες χειροκίνητης μορφοποίησης και εγγυάται συνέπεια σε όλες τις παρουσιάσεις. Είτε δημιουργείτε μια λειτουργία **create powerpoint chart** σε ένα εργαλείο αναφοράς είτε παράγετε διαφάνειες εν κινήσει, το Aspose.Slides σας δίνει πλήρη έλεγχο από τον κώδικα Java.
+
+## Prerequisites
+Προαπαιτούμενα
+1. **Libraries & Dependencies**
+   - Aspose.Slides for Java library (συνιστάται η έκδοση 25.4) – καλύπτει το σενάριο *aspose slides maven*.
+   - Java Development Kit (JDK) έκδοση 16 ή νεότερη.
+2. **Environment Setup**
+   - IDE με υποστήριξη Maven ή Gradle.
+   - Ένα έγκυρο αρχείο άδειας Aspose εάν σκοπεύετε να εκτελέσετε τον κώδικα εκτός δοκιμής.
+3. **Knowledge Prerequisites**
+   - Βασική προγραμματιστική γνώση Java.
+   - Εξοικείωση με αρχεία κατασκευής Maven ή Gradle.
+
+## Setting Up Aspose.Slides for Java
 ### Maven
-Προσθέστε την ακόλουθη εξάρτηση στο `pom.xml` αρχείο:
+Προσθέστε την ακόλουθη εξάρτηση στο αρχείο `pom.xml` σας:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -46,61 +56,70 @@
     <classifier>jdk16</classifier>
 </dependency>
 ```
-### Γκράντλ
-Συμπεριλάβετε αυτό στο δικό σας `build.gradle` αρχείο:
+### Gradle
+Συμπεριλάβετε αυτό στο αρχείο `build.gradle` σας:
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
-### Άμεση Λήψη
-Εναλλακτικά, μπορείτε να κατεβάσετε την τελευταία έκδοση από το [Aspose.Slides για εκδόσεις Java](https://releases.aspose.com/slides/java/).
-**Βήματα απόκτησης άδειας:**
-- Για μια δωρεάν δοκιμή, επισκεφθείτε το [σελίδα δωρεάν δοκιμής](https://releases.aspose.com/slides/java/).
-- Για να αποκτήσετε μια προσωρινή άδεια, μεταβείτε στο [σελίδα προσωρινής άδειας](https://purchase.aspose.com/temporary-license/).
-- Αγοράστε μια πλήρη άδεια χρήσης μέσω των [πύλη αγορών](https://purchase.aspose.com/buy).
-**Βασική αρχικοποίηση:**
-Δείτε πώς μπορείτε να αρχικοποιήσετε το Aspose.Slides στην εφαρμογή Java που διαθέτετε:
+### Direct Download
+Εναλλακτικά, μπορείτε να κατεβάσετε την τελευταία έκδοση από [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+
+**License Acquisition Steps:**
+- Για δωρεάν δοκιμή, επισκεφθείτε τη [free trial page](https://releases.aspose.com/slides/java/).
+- Για να αποκτήσετε προσωρινή άδεια, μεταβείτε στη [temporary license page](https://purchase.aspose.com/temporary-license/).
+- Αγοράστε πλήρη άδεια μέσω του [purchase portal](https://purchase.aspose.com/buy).
+
+**Basic Initialization:**
+Ακολουθεί ο τρόπος αρχικοποίησης του Aspose.Slides στην εφαρμογή Java:
 ```java
 import com.aspose.slides.Presentation;
-// Αρχικοποίηση ενός νέου αντικειμένου παρουσίασης
+// Initialize a new presentation object
 Presentation pres = new Presentation();
 ```
-Τώρα, ας ξεκινήσουμε τη δημιουργία γραφημάτων!
-## Οδηγός Εφαρμογής
-### Χαρακτηριστικό 1: Δημιουργία γραφήματος με προεπιλεγμένους δείκτες
-Αυτή η ενότητα παρουσιάζει τον τρόπο δημιουργίας ενός γραφήματος γραμμών εξοπλισμένου με δείκτες. Αυτή η λειτουργία είναι απαραίτητη για την αποτελεσματική οπτικοποίηση των τάσεων των δεδομένων.
-#### Προσθήκη γραφήματος γραμμών
-Για να προσθέσετε ένα γράφημα γραμμών με δείκτες:
+
+Τώρα, ας προχωρήσουμε στη δημιουργία διαγραμμάτων!
+
+## Implementation Guide
+### Feature 1: Chart Creation with Default Markers
+Αυτή η ενότητα δείχνει πώς να δημιουργήσετε ένα **γραμμικό διάγραμμα με δείκτες**, ιδανικό για επισήμανση μεμονωμένων σημείων δεδομένων σε μια γραμμή τάσης.
+
+#### Adding a Line Chart
+Για να προσθέσετε ένα γραμμικό διάγραμμα με δείκτες:
 ```java
 import com.aspose.slides.*;
-// Πρόσβαση στην πρώτη διαφάνεια
+// Access the first slide
 ISlide slide = pres.getSlides().get_Item(0);
-// Προσθήκη γραφήματος γραμμών με δείκτες στη διαφάνεια στη θέση (10, 10) με μέγεθος (400, 400)
+// Add a line chart with markers to the slide at position (10, 10) with size (400, 400)
 IChart chart = slide.getShapes().addChart(
     ChartType.LineWithMarkers, 10, 10, 400, 400);
 ```
-#### Σειρές και κατηγορίες εκκαθάρισης
+
+#### Clearing Series and Categories
 Για να ξεκινήσετε από την αρχή:
 ```java
-// Καθαρίστε τις υπάρχουσες σειρές και κατηγορίες για να διασφαλίσετε μια καθαρή λίστα
+// Clear existing series and categories to ensure a clean slate
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
-// Αποκτήστε το βιβλίο εργασίας δεδομένων του γραφήματος για περαιτέρω χειρισμό
+// Obtain the chart's data workbook for further manipulation
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
-### Χαρακτηριστικό 2: Προσθήκη Σειρών και Κατηγοριών
-Η προσθήκη σειρών και κατηγοριών είναι ζωτικής σημασίας για τη συμπλήρωση των γραφημάτων σας με ουσιαστικά δεδομένα.
-#### Δημιουργία νέας σειράς
-Για να προσθέσετε μια νέα σειρά με το όνομα "Σειρά 1":
+
+### Feature 2: Adding Series and Categories
+Η προσθήκη σειρών και κατηγοριών είναι κρίσιμη για τον πληθωρισμό των διαγραμμάτων σας με ουσιαστικά δεδομένα.
+
+#### Creating a New Series
+Για να προσθέσετε μια νέα σειρά με όνομα "Series 1":
 ```java
-// Προσθήκη νέας σειράς στο γράφημα
+// Add a new series to the chart
 chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-// Πρόσβαση στην πρώτη σειρά για τον πληθυσμό δεδομένων
+// Access the first series for data population
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 ```
-#### Συμπλήρωση κατηγοριών και σημείων δεδομένων
-Για να προσθέσετε κατηγορίες και αντίστοιχα σημεία δεδομένων:
+
+#### Populating Categories and Data Points
+Για να προσθέσετε κατηγορίες και τα αντίστοιχα σημεία δεδομένων:
 ```java
-// Προσθήκη ονομάτων κατηγοριών και των αντίστοιχων σημείων δεδομένων τους
+// Add category names and their respective data points
 chart.getChartData().getCategories().add(fact.getCell(0, 1, 0, "C1"));
 series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 1, 1, 24));
 
@@ -110,61 +129,92 @@ series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 2, 1, 23));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "C3"));
 series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 3, 1, -10));
 
-// Χειρισμός σημείων μηδενικών δεδομένων με κομψότητα
+// Handling null data points gracefully
 chart.getChartData().getCategories().add(fact.getCell(0, 4, 0, "C4"));
 series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 4, 1, null));
 ```
-### Χαρακτηριστικό 3: Προσθήκη δεύτερης σειράς και συμπλήρωση σημείων δεδομένων
-Η προσθήκη επιπλέον σειρών προσδίδει περισσότερο βάθος στα γραφήματά σας.
-#### Δημιουργία και συμπλήρωση δεύτερης σειράς
-Για να προσθέσετε τη «Σειρά 2»:
+
+### Feature 3: Adding Second Series and Populating Data Points
+Η προσθήκη επιπλέον σειρών παρέχει μεγαλύτερο βάθος στην οπτική ανάλυση.
+
+#### Creating and Populating a Second Series
+Για να προσθέσετε τη "Series 2":
 ```java
-// Προσθήκη άλλης σειράς με το όνομα «Σειρά 2»
+// Add another series named 'Series 2'
 chart.getChartData().getSeries().add(fact.getCell(0, 0, 2, "Series 2"), chart.getType());
 
-// Πρόσβαση στη δεύτερη σειρά για τον συμπληρωματισμό δεδομένων
+// Access the second series for data population
 IChartSeries series2 = chart.getChartData().getSeries().get_Item(1);
 
-// Προσθήκη σημείων δεδομένων για τη «Σειρά 2»
+// Add data points for 'Series 2'
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 1, 2, 30));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 2, 2, 10));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 3, 2, 60));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 4, 2, 40));
 ```
-### Λειτουργία 4: Ρύθμιση παραμέτρων υπομνήματος γραφήματος
-Η διαμόρφωση του υπομνήματος βελτιώνει την αναγνωσιμότητα του γραφήματος.
-#### Προσαρμογή ρυθμίσεων υπομνήματος
-Για να διαμορφώσετε:
+
+### Feature 4: Configuring Chart Legend
+Η διαμόρφωση του υπομνήματος βελτιώνει την αναγνωσιμότητα του διαγράμματος, ειδικά όταν **προσθέτετε δεύτερη σειρά**.
+
+#### Adjusting Legend Settings
+Για να ρυθμίσετε:
 ```java
-// Ενεργοποιήστε το υπόμνημα και ορίστε το να μην επικαλύπτει τα σημεία δεδομένων
+// Enable the legend and set it not to overlay on data points
 chart.setLegend(true);
 chart.getLegend().setOverlay(false);
 ```
-### Λειτουργία 5: Αποθήκευση της παρουσίασης
-Μόλις το γράφημά σας είναι έτοιμο, αποθηκεύστε την παρουσίαση σε ένα αρχείο.
+
+### Feature 5: Saving the Presentation
+Μόλις το διάγραμμα είναι έτοιμο, θα θέλετε να **create powerpoint chart** αρχεία που μπορούν να μοιραστούν ή να επεξεργαστούν περαιτέρω.
+
 ```java
 try {
-    // Αποθήκευση της τροποποιημένης παρουσίασης σε έναν καθορισμένο κατάλογο
+    // Save the modified presentation to a specified directory
     pres.save("YOUR_DOCUMENT_DIRECTORY/DefaultMarkersInChart.pptx");
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
-## Πρακτικές Εφαρμογές
-1. **Επιχειρηματική Αναφορά:**
-   - Χρησιμοποιήστε γραφήματα στις οικονομικές αναφορές για να απεικονίσετε τις τάσεις με την πάροδο του χρόνου.
-2. **Ανάλυση Δεδομένων:**
-   - Οπτικοποιήστε μοτίβα δεδομένων και συσχετίσεις κατά τη διάρκεια των φάσεων ανάλυσης.
-3. **Εκπαιδευτικό Υλικό:**
-   - Δημιουργήστε ενημερωτικές διαφάνειες για ακαδημαϊκές διαλέξεις ή παρουσιάσεις.
-4. **Διαχείριση Έργου:**
-   - Βελτιώστε τα χρονοδιαγράμματα έργων με οπτικά στοιχεία γραφήματος.
-5. **Παρουσιάσεις μάρκετινγκ:**
-   - Παρουσιάστε αποτελεσματικά τις τάσεις πωλήσεων και τα αποτελέσματα των καμπανιών χρησιμοποιώντας γραφήματα.
-## Σύναψη
-Μάθατε πώς να δημιουργείτε γραφήματα γραμμών με δείκτες σε Java χρησιμοποιώντας το Aspose.Slides, πώς να προσθέτετε σειρές και κατηγορίες, πώς να διαμορφώνετε υπομνήματα και πώς να αποθηκεύετε παρουσιάσεις. Αυτές οι δεξιότητες είναι πολύτιμες για τη δημιουργία δυναμικού οπτικού περιεχομένου σε διάφορες επαγγελματικές εφαρμογές.
-Για να εξερευνήσετε περισσότερα σχετικά με τις λειτουργίες του Aspose.Slides ή να αναζητήσετε υποστήριξη από την κοινότητα, επισκεφθείτε την ιστοσελίδα τους [επίσημη τεκμηρίωση](https://docs.aspose.com/slides/java/) ή γίνετε μέλος φόρουμ όπως το Stack Overflow.
-Καλή κωδικοποίηση!
+
+## Practical Applications
+1. **Business Reporting:** Χρησιμοποιήστε ένα γραμμικό διάγραμμα με δείκτες για να απεικονίσετε χρηματοοικονομικές τάσεις ανά τρίμηνο.  
+2. **Data Analysis:** Οπτικοποιήστε πειραματικά δεδομένα όπου κάθε **δείκτης** επισημαίνει ένα σημείο μέτρησης.  
+3. **Educational Materials:** Δημιουργήστε διαφάνειες διαλέξεων που δείχνουν **βήμα‑βήμα** αλλαγές σε μια διαδικασία.  
+4. **Project Management:** Παρακολουθήστε ορόσημα σε μια χρονογραμμή με διακριτικούς δείκτες για σημαντικές ημερομηνίες.  
+5. **Marketing Presentations:** Εμφανίστε αιχμές απόδοσης καμπάνιας με σαφή σύμβολα δεικτών.
+
+## Common Issues and Solutions
+- **Null data points cause errors:** Περάστε `null` ως τιμή κελιού (όπως φαίνεται) – το Aspose θα παραλείψει απλώς το σημείο.  
+- **Chart appears without markers:** Βεβαιωθείτε ότι χρησιμοποιείτε `ChartType.LineWithMarkers` αντί για `ChartType.Line`.  
+- **Legend overlaps data:** Ορίστε `chart.getLegend().setOverlay(false)` για να διατηρήσετε το υπόμνημα ξεχωριστό.  
+
+## Frequently Asked Questions
+
+**Q: Can I use this approach to generate charts in a web service?**  
+A: Absolutely. The library works in any Java environment, including server‑side applications.
+
+**Q: Do I need a license for development builds?**  
+A: A free trial works for development and testing. A commercial license is required for production use.
+
+**Q: How does Aspose handle large datasets?**  
+A: The API streams data efficiently; however, keep the number of data points reasonable to avoid large file sizes.
+
+**Q: Is there support for other chart types?**  
+A: Yes – Aspose.Slides supports bar, pie, scatter, and many more chart types.
+
+**Q: Can I customize marker shapes and colors?**  
+A: You can modify marker format via the `Marker` property on each data point.
+
+## Conclusion
+Τώρα γνωρίζετε **πώς να χρησιμοποιήσετε το Aspose** για να δημιουργήσετε ένα γραμμικό διάγραμμα με προεπιλεγμένους δείκτες, να προσθέσετε δεύτερη σειρά, να διαχειριστείτε δεδομένα null και να αποθηκεύσετε το αποτέλεσμα ως αρχείο PowerPoint. Αυτές οι τεχνικές σας επιτρέπουν να αυτοματοποιήσετε τη δημιουργία αναφορών, να βελτιώσετε την αφήγηση δεδομένων και να διατηρήσετε τις παρουσιάσεις σας συνεπείς.
+
+Για πιο εις βάθος πληροφορίες, εξερευνήστε την [official documentation](https://docs.aspose.com/slides/java/) ή συμμετέχετε σε κοινότητες όπως το Stack Overflow.
+
+---
+
+**Last Updated:** 2026-03-23  
+**Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

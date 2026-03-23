@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-17"
-"description": "Pelajari cara membuat diagram garis dengan penanda di Java menggunakan Aspose.Slides. Tutorial ini mencakup pembuatan diagram, penambahan seri, dan penyimpanan presentasi secara efektif."
-"title": "Membuat Grafik Garis dengan Penanda Default Menggunakan Aspose.Slides untuk Java"
-"url": "/id/java/charts-graphs/create-line-charts-aspose-slides-java/"
-"weight": 1
+date: '2026-03-23'
+description: Pelajari cara menggunakan Aspose.Slides for Java untuk membuat diagram
+  garis dengan penanda, menambahkan seri kedua, dan menangani data null dalam presentasi
+  PowerPoint.
+keywords:
+- Aspose.Slides for Java
+- line charts with markers in Java
+- creating presentations programmatically
+title: 'Cara Menggunakan Aspose.Slides untuk Java: Membuat Diagram Garis dengan Penanda
+  Default'
+url: /id/java/charts-graphs/create-line-charts-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,33 +18,37 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Membuat Grafik Garis dengan Penanda Default Menggunakan Aspose.Slides untuk Java
-## Perkenalan
-Membuat diagram yang menarik secara visual dan informatif sangat penting untuk presentasi, laporan, dan dasbor. Mengotomatiskan proses ini dalam pengembangan perangkat lunak menghemat waktu dan memastikan konsistensi di seluruh dokumen. Tutorial ini menunjukkan cara membuat diagram garis dengan penanda menggunakan Aspose.Slides untuk Java.
-**Aspose.Slides untuk Java** adalah pustaka canggih yang memungkinkan pengembang untuk memanipulasi presentasi PowerPoint secara terprogram tanpa perlu menginstal Microsoft Office. Pustaka ini menyederhanakan tugas-tugas seperti membuat, mengedit, dan mengekspor slide, menjadikannya alat penting untuk pembuatan dokumen otomatis.
-**Apa yang Akan Anda Pelajari:**
-- Cara menginisialisasi Aspose.Slides untuk Java
-- Langkah-langkah membuat diagram garis dengan penanda
-- Menambahkan seri dan kategori ke bagan
-- Mengonfigurasi legenda bagan
-- Menyimpan presentasi
-Siap untuk memulai? Pastikan Anda telah menyiapkan semuanya terlebih dahulu!
-## Prasyarat
-Sebelum kita memulai, pastikan lingkungan pengembangan Anda siap:
-1. **Perpustakaan & Ketergantungan:**
-   - Aspose.Slides untuk pustaka Java (versi 25.4 direkomendasikan)
-   - Java Development Kit (JDK) versi 16 atau lebih tinggi
-2. **Pengaturan Lingkungan:**
-   - IDE Anda harus mendukung alat pembangunan Maven atau Gradle.
-   - Pastikan Anda memiliki berkas lisensi yang valid jika diperlukan.
-3. **Prasyarat Pengetahuan:**
-   - Pemahaman dasar tentang pemrograman Java
-   - Keakraban dengan membangun proyek menggunakan Maven atau Gradle
-Jika semua ini sudah tersedia, mari kita siapkan Aspose.Slides untuk proyek Anda!
-## Menyiapkan Aspose.Slides untuk Java
-Untuk menggunakan Aspose.Slides untuk Java, Anda perlu menyertakannya sebagai dependensi dalam proyek Anda. Bergantung pada apakah Anda menggunakan Maven atau Gradle, pengaturannya akan sedikit berbeda.
-### Pakar
-Tambahkan dependensi berikut ke `pom.xml` mengajukan:
+# Buat Diagram Garis dengan Penanda Default Menggunakan Aspose.Slides untuk Java
+
+## Introduction
+Jika Anda bertanya-tanya **cara menggunakan Aspose** untuk mengotomatiskan pembuatan PowerPoint, Anda berada di tempat yang tepat. Pada tutorial ini kami akan membahas cara membuat **diagram garis dengan penanda**, menambahkan seri kedua, dan menangani data null—semua dengan Aspose.Slides untuk Java. Pada akhir tutorial Anda akan memiliki potongan kode siap‑jalankan yang menghasilkan diagram tampak profesional tanpa pernah membuka PowerPoint secara manual.
+
+### Quick Answers
+- **Perpustakaan apa yang saya butuhkan?** Aspose.Slides untuk Java (versi terbaru disarankan)  
+- **Bisakah saya menambahkan seri kedua?** Ya – API memungkinkan Anda menambahkan beberapa seri dengan mudah.  
+- **Bagaimana data null ditangani?** Gunakan `null` pada nilai sel; diagram akan melewatkan titik tersebut.  
+- **Apakah saya memerlukan Maven?** Maven atau Gradle dapat digunakan; lihat bagian *aspose slides maven* di bawah.  
+- **Apakah lisensi diperlukan?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi komersial diperlukan untuk produksi.
+
+## How to Use Aspose.Slides for Java to Create Line Charts
+Membuat diagram secara programatik menghemat berjam‑jam pemformatan manual dan menjamin konsistensi di seluruh presentasi. Baik Anda membangun fitur **create powerpoint chart** dalam alat pelaporan atau menghasilkan deck slide secara dinamis, Aspose.Slides memberi Anda kontrol penuh dari kode Java.
+
+## Prerequisites
+Sebelum memulai, pastikan lingkungan pengembangan Anda siap:
+
+1. **Libraries & Dependencies**
+   - Perpustakaan Aspose.Slides untuk Java (versi 25.4 disarankan) – mencakup skenario *aspose slides maven*.
+   - Java Development Kit (JDK) versi 16 atau lebih tinggi.
+2. **Environment Setup**
+   - IDE dengan dukungan Maven atau Gradle.
+   - File lisensi Aspose yang valid jika Anda berencana menjalankan kode di luar masa percobaan.
+3. **Knowledge Prerequisites**
+   - Pemrograman Java dasar.
+   - Familiaritas dengan file build Maven atau Gradle.
+
+## Setting Up Aspose.Slides for Java
+### Maven
+Tambahkan dependensi berikut ke file `pom.xml` Anda:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -46,61 +57,70 @@ Tambahkan dependensi berikut ke `pom.xml` mengajukan:
     <classifier>jdk16</classifier>
 </dependency>
 ```
-### Bahasa Inggris Gradle
-Sertakan ini di dalam `build.gradle` mengajukan:
+### Gradle
+Sertakan ini dalam file `build.gradle` Anda:
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
-### Unduh Langsung
-Atau, Anda dapat mengunduh versi terbaru dari [Aspose.Slides untuk rilis Java](https://releases.aspose.com/slides/java/).
-**Langkah-langkah Memperoleh Lisensi:**
-- Untuk uji coba gratis, kunjungi [halaman uji coba gratis](https://releases.aspose.com/slides/java/).
-- Untuk mendapatkan lisensi sementara, navigasikan ke [halaman lisensi sementara](https://purchase.aspose.com/temporary-license/).
-- Beli lisensi penuh melalui mereka [portal pembelian](https://purchase.aspose.com/buy).
-**Inisialisasi Dasar:**
-Berikut ini cara menginisialisasi Aspose.Slides di aplikasi Java Anda:
+### Direct Download
+Sebagai alternatif, Anda dapat mengunduh versi terbaru dari [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+
+**License Acquisition Steps:**
+- Untuk percobaan gratis, kunjungi [free trial page](https://releases.aspose.com/slides/java/).
+- Untuk memperoleh lisensi sementara, buka [temporary license page](https://purchase.aspose.com/temporary-license/).
+- Beli lisensi penuh melalui [purchase portal](https://purchase.aspose.com/buy).
+
+**Basic Initialization:**
+Berikut cara menginisialisasi Aspose.Slides dalam aplikasi Java Anda:
 ```java
 import com.aspose.slides.Presentation;
-// Inisialisasi objek presentasi baru
+// Initialize a new presentation object
 Presentation pres = new Presentation();
 ```
-Sekarang, mari kita mulai membuat grafik!
-## Panduan Implementasi
-### Fitur 1: Pembuatan Bagan dengan Penanda Default
-Bagian ini menunjukkan cara membuat diagram garis yang dilengkapi dengan penanda. Fitur ini penting untuk memvisualisasikan tren data secara efektif.
-#### Menambahkan Diagram Garis
+
+Sekarang, mari kita mulai membuat diagram!
+
+## Implementation Guide
+### Feature 1: Chart Creation with Default Markers
+Bagian ini menunjukkan cara membuat **diagram garis dengan penanda**, yang ideal untuk menyoroti titik data individu pada garis tren.
+
+#### Adding a Line Chart
 Untuk menambahkan diagram garis dengan penanda:
 ```java
 import com.aspose.slides.*;
-// Akses slide pertama
+// Access the first slide
 ISlide slide = pres.getSlides().get_Item(0);
-// Tambahkan diagram garis dengan penanda ke slide pada posisi (10, 10) dengan ukuran (400, 400)
+// Add a line chart with markers to the slide at position (10, 10) with size (400, 400)
 IChart chart = slide.getShapes().addChart(
     ChartType.LineWithMarkers, 10, 10, 400, 400);
 ```
-#### Seri dan Kategori Kliring
-Untuk memulai yang baru:
+
+#### Clearing Series and Categories
+Untuk memulai dari awal:
 ```java
-// Bersihkan seri dan kategori yang ada untuk memastikan tampilan yang bersih
+// Clear existing series and categories to ensure a clean slate
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
-// Dapatkan buku kerja data grafik untuk manipulasi lebih lanjut
+// Obtain the chart's data workbook for further manipulation
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
-### Fitur 2: Menambahkan Seri dan Kategori
+
+### Feature 2: Adding Series and Categories
 Menambahkan seri dan kategori sangat penting untuk mengisi diagram Anda dengan data yang bermakna.
-#### Membuat Seri Baru
-Untuk menambahkan seri baru bernama "Seri 1":
+
+#### Creating a New Series
+Untuk menambahkan seri baru bernama "Series 1":
 ```java
-// Tambahkan seri baru ke bagan
+// Add a new series to the chart
 chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-// Akses seri pertama untuk populasi data
+// Access the first series for data population
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 ```
-#### Mengisi Kategori dan Titik Data
-Untuk menambahkan kategori dan titik data terkait:
+
+#### Populating Categories and Data Points
+Untuk menambahkan kategori dan titik data yang bersesuaian:
 ```java
-// Tambahkan nama kategori dan titik datanya masing-masing
+// Add category names and their respective data points
 chart.getChartData().getCategories().add(fact.getCell(0, 1, 0, "C1"));
 series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 1, 1, 24));
 
@@ -110,61 +130,92 @@ series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 2, 1, 23));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "C3"));
 series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 3, 1, -10));
 
-// Menangani titik data nol dengan baik
+// Handling null data points gracefully
 chart.getChartData().getCategories().add(fact.getCell(0, 4, 0, "C4"));
 series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 4, 1, null));
 ```
-### Fitur 3: Menambahkan Seri Kedua dan Mengisi Titik Data
-Menambahkan seri tambahan akan memberi kedalaman lebih pada bagan Anda.
-#### Membuat dan Mengisi Seri Kedua
-Untuk menambahkan "Seri 2":
+
+### Feature 3: Adding Second Series and Populating Data Points
+Menambahkan seri tambahan memberikan kedalaman lebih pada analisis visual Anda.
+
+#### Creating and Populating a Second Series
+Untuk menambahkan "Series 2":
 ```java
-// Tambahkan seri lain bernama 'Seri 2'
+// Add another series named 'Series 2'
 chart.getChartData().getSeries().add(fact.getCell(0, 0, 2, "Series 2"), chart.getType());
 
-// Akses seri kedua untuk populasi data
+// Access the second series for data population
 IChartSeries series2 = chart.getChartData().getSeries().get_Item(1);
 
-// Tambahkan titik data untuk 'Seri 2'
+// Add data points for 'Series 2'
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 1, 2, 30));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 2, 2, 10));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 3, 2, 60));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 4, 2, 40));
 ```
-### Fitur 4: Mengonfigurasi Legenda Bagan
-Mengonfigurasi legenda meningkatkan keterbacaan bagan.
-#### Menyesuaikan Pengaturan Legenda
+
+### Feature 4: Configuring Chart Legend
+Mengonfigurasi legenda meningkatkan keterbacaan diagram, terutama ketika Anda **add second series**.
+
+#### Adjusting Legend Settings
 Untuk mengonfigurasi:
 ```java
-// Aktifkan legenda dan atur agar tidak melapisi titik data
+// Enable the legend and set it not to overlay on data points
 chart.setLegend(true);
 chart.getLegend().setOverlay(false);
 ```
-### Fitur 5: Menyimpan Presentasi
-Setelah bagan Anda siap, simpan presentasi ke sebuah berkas.
+
+### Feature 5: Saving the Presentation
+Setelah diagram Anda siap, Anda ingin **create powerpoint chart** yang dapat dibagikan atau diedit lebih lanjut.
+
 ```java
 try {
-    // Simpan presentasi yang dimodifikasi ke direktori yang ditentukan
+    // Save the modified presentation to a specified directory
     pres.save("YOUR_DOCUMENT_DIRECTORY/DefaultMarkersInChart.pptx");
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
-## Aplikasi Praktis
-1. **Pelaporan Bisnis:**
-   - Gunakan bagan dalam laporan keuangan untuk menggambarkan tren dari waktu ke waktu.
-2. **Analisis Data:**
-   - Visualisasikan pola dan korelasi data selama fase analisis.
-3. **Materi Pendidikan:**
-   - Membuat slide informatif untuk kuliah atau presentasi akademis.
-4. **Manajemen Proyek:**
-   - Tingkatkan jadwal proyek dengan elemen bagan visual.
-5. **Presentasi Pemasaran:**
-   - Pamerkan tren penjualan dan hasil kampanye secara efektif menggunakan bagan.
-## Kesimpulan
-Anda telah mempelajari cara membuat diagram garis dengan penanda di Java menggunakan Aspose.Slides, menambahkan seri dan kategori, mengonfigurasi legenda, dan menyimpan presentasi. Keterampilan ini sangat berharga untuk membuat konten visual yang dinamis di berbagai aplikasi profesional.
-Untuk menjelajahi lebih lanjut tentang fitur Aspose.Slides atau mencari dukungan komunitas, kunjungi [dokumentasi resmi](https://docs.aspose.com/slides/java/) atau bergabung dengan forum seperti Stack Overflow.
-Selamat membuat kode!
+
+## Practical Applications
+1. **Business Reporting:** Gunakan diagram garis dengan penanda untuk menggambarkan tren keuangan per kuartal.  
+2. **Data Analysis:** Visualisasikan data eksperimen di mana setiap penanda menyoroti titik pengukuran.  
+3. **Educational Materials:** Buat slide kuliah yang menampilkan perubahan langkah‑demi‑langkah dalam suatu proses.  
+4. **Project Management:** Lacak tonggak proyek pada garis waktu dengan penanda khusus untuk tanggal penting.  
+5. **Marketing Presentations:** Tampilkan lonjakan kinerja kampanye dengan simbol penanda yang jelas.
+
+## Common Issues and Solutions
+- **Null data points cause errors:** Kirim `null` sebagai nilai sel (seperti yang ditunjukkan) – Aspose akan mengabaikan titik tersebut.  
+- **Chart appears without markers:** Pastikan Anda menggunakan `ChartType.LineWithMarkers` bukan `ChartType.Line`.  
+- **Legend overlaps data:** Atur `chart.getLegend().setOverlay(false)` agar legenda terpisah dari data.  
+
+## Frequently Asked Questions
+
+**Q: Can I use this approach to generate charts in a web service?**  
+A: Tentu saja. Perpustakaan ini bekerja di lingkungan Java apa pun, termasuk aplikasi sisi server.
+
+**Q: Do I need a license for development builds?**  
+A: Versi percobaan gratis dapat digunakan untuk pengembangan dan pengujian. Lisensi komersial diperlukan untuk penggunaan produksi.
+
+**Q: How does Aspose handle large datasets?**  
+A: API memproses data secara efisien; namun, tetap jaga jumlah titik data agar tidak terlalu besar sehingga ukuran file tidak membengkak.
+
+**Q: Is there support for other chart types?**  
+A: Ya – Aspose.Slides mendukung bar, pie, scatter, dan banyak jenis diagram lainnya.
+
+**Q: Can I customize marker shapes and colors?**  
+A: Anda dapat memodifikasi format penanda melalui properti `Marker` pada setiap titik data.
+
+## Conclusion
+Anda kini tahu **cara menggunakan Aspose** untuk membuat diagram garis dengan penanda default, menambahkan seri kedua, menangani data null, dan menyimpan hasilnya sebagai file PowerPoint. Teknik ini memungkinkan Anda mengotomatisasi pembuatan laporan, meningkatkan narasi data, dan menjaga konsistensi presentasi.
+
+Untuk pendalaman lebih lanjut, jelajahi [official documentation](https://docs.aspose.com/slides/java/) atau bergabung dengan forum komunitas seperti Stack Overflow.
+
+---
+
+**Last Updated:** 2026-03-23  
+**Tested With:** Aspose.Slides untuk Java 25.4 (jdk16)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
