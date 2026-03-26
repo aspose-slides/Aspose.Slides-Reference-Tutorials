@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Apprenez à créer des cartes dans PowerPoint avec Aspose.Slides pour Java. Ce guide couvre tout, de la configuration de votre environnement à la personnalisation de l'apparence des graphiques."
-"title": "Comment créer des cartes dans PowerPoint avec Aspose.Slides pour Java"
-"url": "/fr/java/charts-graphs/create-map-charts-powerpoint-aspose-slides-java/"
-"weight": 1
+date: '2026-03-26'
+description: Apprenez à créer un graphique cartographique Java dans PowerPoint à l'aide
+  d'Aspose.Slides. Ce guide vous montre comment ajouter un graphique cartographique
+  dans PowerPoint, configurer l'environnement et personnaliser l'apparence des graphiques.
+keywords:
+- create map charts in PowerPoint
+- Aspose.Slides for Java
+- Java PowerPoint presentation
+title: Créer un diagramme cartographique Java dans PowerPoint avec Aspose.Slides
+url: /fr/java/charts-graphs/create-map-charts-powerpoint-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,42 +17,50 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Comment créer des cartes dans PowerPoint avec Aspose.Slides pour Java
+# Comment créer des graphiques cartographiques dans PowerPoint avec Aspose.Slides pour Java
 
 ## Introduction
 
-Vous souhaitez représenter visuellement des données géographiques dans vos présentations PowerPoint avec Java ? Créer des cartes est un excellent moyen de transmettre efficacement des informations spatiales. Ce tutoriel vous guidera dans la création de cartes percutantes dans PowerPoint grâce à la puissante bibliothèque Aspose.Slides pour Java.
+Vous souhaitez représenter visuellement des données géographiques dans vos présentations PowerPoint en Java ? **Create map chart java** est la solution idéale pour transformer des chiffres bruts en une histoire visuelle attrayante. Dans ce tutoriel, vous apprendrez comment ajouter un graphique cartographique à une diapositive PowerPoint, le remplir avec des données au niveau des pays et affiner son apparence — le tout avec l’API Aspose.Slides pour Java.
 
-### Ce que vous apprendrez :
-- Comment créer un graphique de carte de base dans PowerPoint à l'aide d'Aspose.Slides pour Java.
-- Ajout et configuration de séries de données pour votre carte.
-- Définition de catégories (par exemple, pays) sur la carte.
-- Personnalisation de l'apparence des points de données, comme la modification de leur couleur.
-- Bonnes pratiques pour configurer votre environnement de développement avec Aspose.Slides.
+Commençons !
 
-C'est parti !
+## Quick Answers
+- **Que puis‑je visualiser ?** Toute donnée géographique telle que les ventes par pays, le PIB ou les indicateurs environnementaux.  
+- **Quelle bibliothèque est requise ?** Aspose.Slides pour Java (dernière version).  
+- **Ai‑je besoin d’une licence ?** Un essai gratuit suffit pour le développement ; une licence permanente est nécessaire pour la production.  
+- **Combien de lignes de code ?** Environ 30 lignes pour créer et enregistrer un graphique cartographique de base.  
+- **Puis‑je personnaliser les couleurs ?** Oui – vous pouvez définir les couleurs de remplissage pour chaque point de données.
+
+## Qu’est‑ce qu’un graphique cartographique dans PowerPoint ?
+Un graphique cartographique affiche les valeurs de données sur une carte géographique, permettant aux spectateurs de comparer rapidement les régions. Avec Aspose.Slides, vous pouvez générer ces graphiques de manière programmatique, ce qui est idéal pour les rapports automatisés ou les présentations basées sur les données.
+
+## Pourquoi ajouter un graphique cartographique PowerPoint avec Aspose.Slides ?
+- **Automatisation** – générez des dizaines de diapositives sans effort manuel.  
+- **Précision** – contrôle exact des données, des couleurs et de la mise en page.  
+- **Multiplateforme** – fonctionne sur tout système d’exploitation supportant Java.  
 
 ## Prérequis
 
-Avant de commencer, assurez-vous que les éléments suivants sont en place :
+Avant de commencer, assurez‑vous que vous disposez de ce qui suit :
 
-### Bibliothèques et versions requises
-- **Aspose.Slides pour Java**:Vous aurez besoin de cette bibliothèque pour créer des présentations PowerPoint par programmation. Nous utiliserons la version 25.4.
+### Bibliothèques requises et versions
+- **Aspose.Slides pour Java** : nous utiliserons la dernière version (actuellement 25.4).
 
-### Configuration requise pour l'environnement
-- Assurez-vous que votre kit de développement Java (JDK) est installé et correctement configuré.
-- Choisissez un IDE tel qu’IntelliJ IDEA, Eclipse ou NetBeans qui prend en charge le développement Java.
+### Exigences de configuration de l’environnement
+- Un kit de développement Java (JDK) installé et configuré.  
+- Un IDE tel qu’IntelliJ IDEA, Eclipse ou NetBeans.
 
-### Prérequis en matière de connaissances
-- Compréhension de base des concepts de programmation Java.
-- La connaissance des outils de construction Maven ou Gradle sera utile mais pas obligatoire.
+### Prérequis de connaissances
+- Programmation Java de base.  
+- La familiarité avec Maven ou Gradle est utile mais pas obligatoire.
 
-## Configuration d'Aspose.Slides pour Java
+## Configuration d’Aspose.Slides pour Java
 
-Pour commencer, vous devez inclure la bibliothèque Aspose.Slides dans votre projet. Selon votre outil de création préféré, voici comment procéder :
+Pour commencer, vous devez inclure la bibliothèque Aspose.Slides dans votre projet. Selon votre outil de construction préféré, voici comment faire :
 
 ### Utilisation de Maven
-Incluez cette dépendance dans votre `pom.xml` déposer:
+Incluez cette dépendance dans votre fichier `pom.xml` :
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -56,136 +70,153 @@ Incluez cette dépendance dans votre `pom.xml` déposer:
 </dependency>
 ```
 
-### Utiliser Gradle
-Ajoutez cette ligne à votre `build.gradle` déposer:
+### Utilisation de Gradle
+Ajoutez cette ligne à votre fichier `build.gradle` :
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
 ### Téléchargement direct
-Alternativement, vous pouvez télécharger la dernière version directement depuis [Versions d'Aspose.Slides pour Java](https://releases.aspose.com/slides/java/).
+Sinon, vous pouvez télécharger la dernière version directement depuis [versions d'Aspose.Slides pour Java](https://releases.aspose.com/slides/java/).
 
-#### Étapes d'acquisition de licence
-- **Essai gratuit**:Aspose propose une licence d'essai gratuite pour tester son API avec des limitations.
-- **Permis temporaire**:Vous pouvez demander une licence temporaire de 30 jours pour un accès complet sans limitations d'évaluation sur le [Site Web d'Aspose](https://purchase.aspose.com/temporary-license/).
-- **Achat**: Pour une utilisation continue, achetez un abonnement. Visitez [cette page](https://purchase.aspose.com/buy) acheter.
+#### Étapes d’obtention de licence
+- **Essai gratuit** : Aspose propose une licence d’essai gratuite pour tester leur API avec des limitations.  
+- **Licence temporaire** : vous pouvez demander une licence temporaire de 30 jours pour un accès complet sans limitations d’évaluation sur le [site Aspose](https://purchase.aspose.com/temporary-license/).  
+- **Achat** : pour une utilisation continue, achetez un abonnement. Visitez [cette page](https://purchase.aspose.com/buy) pour acheter.
 
 #### Initialisation et configuration de base
-Une fois Aspose.Slides pour Java configuré dans votre projet, initialisez-le comme indiqué ci-dessous :
+Une fois Aspose.Slides pour Java configuré dans votre projet, initialisez‑le comme indiqué ci‑dessous :
 ```java
-// Initialiser l'objet de classe Présentation
+// Initialize the Presentation class object
 tPresentation presentation = new Presentation();
 ```
 
 ## Guide de mise en œuvre
 
-Dans cette section, nous passerons en revue chaque étape requise pour créer un graphique cartographique dans PowerPoint à l'aide d'Aspose.Slides pour Java.
+Dans cette section, nous parcourrons chaque étape nécessaire pour **create map chart java** dans PowerPoint en utilisant Aspose.Slides pour Java.
 
-### Étape 1 : Créer une nouvelle présentation
-Commencez par initialiser une nouvelle instance du `Presentation` classe. Cela vous servira de toile de fond pour créer des diapositives et des graphiques.
+### Étape 1 : créer une nouvelle présentation
+Commencez par initialiser une nouvelle instance de la classe `Presentation`. Elle servira de canevas pour créer des diapositives et des graphiques.
 ```java
-// Initialiser une nouvelle présentation
+// Initialize a new presentation
 tPresentation presentation = new Presentation();
 ```
 
-### Étape 2 : ajouter un graphique cartographique à la diapositive
-Ajoutez un graphique de carte vide à la première diapositive à une position spécifiée avec des dimensions définies.
+### Étape 2 : ajouter un graphique cartographique à la diapositive
+Ajoutez un graphique cartographique vide à la première diapositive à une position spécifiée avec des dimensions définies.
 
-#### Aperçu
-Nous ajouterons un graphique cartographique pour visualiser les données géographiques, telles que les comparaisons entre pays ou les statistiques régionales.
+#### Vue d’ensemble
+Nous ajouterons un graphique cartographique pour visualiser des données géographiques, comme des comparaisons de pays ou des statistiques régionales.
 ```java
-// Ajoutez un graphique de carte vide à la première diapositive à la position (50, 50) avec une largeur de 500 et une hauteur de 400
+// Add an empty map chart to the first slide at position (50, 50) with width 500 and height 400
 tIChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(
     ChartType.Map, 50, 50, 500, 400, false);
 ```
 
-**Paramètres expliqués :**
-- `ChartType.Map`: Spécifie que le type de graphique est une carte.
-- Position `(50, 50)`: Coordonnées X et Y sur la diapositive où le graphique apparaîtra.
-- Dimensions `500x400`:Largeur et hauteur du graphique en points.
+**Paramètres expliqués :**
+- `ChartType.Map` : indique que le type de graphique est une carte.  
+- Position `(50, 50)` : coordonnées X et Y sur la diapositive où le graphique apparaîtra.  
+- Dimensions `500x400` : largeur et hauteur du graphique en points.
 
-### Étape 3 : Configurer les données pour le graphique cartographique
-#### Aperçu
-Nous allons ajouter des séries de données et des catégories (représentant les pays) à notre carte. Cette étape consiste à renseigner le graphique avec des points de données significatifs.
+### Étape 3 : configurer les données du graphique cartographique
+#### Vue d’ensemble
+Nous ajouterons des séries de données et des catégories (représentant des pays) à notre graphique cartographique. Cette étape consiste à remplir le graphique avec des points de données pertinents.
 ```java
-// Accéder au classeur de données associé au graphique
+// Access the data workbook associated with the chart
 tIChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
 
-// Ajoutez-y une série et quelques points de données
+// Add a series and some data points to it
 tIChartSeries series = chart.getChartData().getSeries().add(ChartType.Map);
 series.getDataPoints().addDataPointForMapSeries(wb.getCell(0, "B2", 5));
 series.getDataPoints().addDataPointForMapSeries(wb.getCell(0, "B3", 1));
 series.getDataPoints().addDataPointForMapSeries(wb.getCell(0, "B4", 10));
 
-// Ajouter des catégories (représentant des pays) pour le graphique cartographique
+// Add categories (representing countries) for the map chart
 chart.getChartData().getCategories().add(wb.getCell(0, "A2", "United States"));
 chart.getChartData().getCategories().add(wb.getCell(0, "A3", "Mexico"));
 chart.getChartData().getCategories().add(wb.getCell(0, "A4", "Brazil"));
 ```
 
-**Options de configuration clés :**
-- `IChartDataWorkbook`: Fournit un accès aux cellules de données du graphique.
-- Les points de données sont ajoutés à l'aide de références de cellules (`wb.getCell()`), ce qui facilite la gestion et la mise à jour des données.
+**Options de configuration clés :**
+- `IChartDataWorkbook` : fournit l’accès aux cellules de données du graphique.  
+- Les points de données sont ajoutés à l’aide de références de cellules (`wb.getCell()`), ce qui facilite la gestion et la mise à jour des données.
 
-### Étape 4 : Personnaliser l'apparence de la carte
-#### Aperçu
-Personnalisez l'apparence de votre carte, par exemple en modifiant la couleur de points de données spécifiques.
+### Étape 4 : personnaliser l’apparence du graphique cartographique
+#### Vue d’ensemble
+Personnalisez l’apparence de votre graphique cartographique, par exemple en modifiant la couleur de points de données spécifiques.
 ```java
-// Modifier la valeur d'un point de données
+// Change the value of a data point
 tIChartDataPoint dataPoint = series.getDataPoints().get_Item(1);
 dataPoint.getColorValue().getAsCell().setValue("15");
 
-// Définir l'apparence du point de données (couleur de remplissage)
+// Set the appearance of the data point (fill color)
 dataPoint.getFormat().getFill().setFillType(FillType.Solid);
 dataPoint.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 ```
 
-**Pourquoi c'est important :**
-- La personnalisation des couleurs et des valeurs permet de mettre en évidence des points de données spécifiques, rendant ainsi votre présentation plus attrayante.
+**Pourquoi c’est important :**
+- Personnaliser les couleurs et les valeurs aide à mettre en évidence des points de données spécifiques, rendant votre présentation plus attrayante.
 
-### Étape 5 : Enregistrer la présentation
-Après avoir configuré votre carte, enregistrez la présentation dans un fichier.
+### Étape 5 : enregistrer la présentation
+Après avoir configuré votre graphique cartographique, enregistrez la présentation dans un fichier.
 ```java
-// Enregistrer la présentation avec le graphique cartographique
+// Save the presentation with the map chart
 presentation.save(resultPath, SaveFormat.Pptx);
 ```
 
-**Conseils de dépannage :**
-- Assurez-vous que le répertoire spécifié dans `resultPath` existe et est accessible en écriture.
-- Si l’enregistrement échoue, recherchez les exceptions qui peuvent indiquer des problèmes d’autorisation ou des formats de chemin incorrects.
+**Conseils de dépannage :**
+- Assurez‑vous que le répertoire indiqué dans `resultPath` existe et est accessible en écriture.  
+- Si l’enregistrement échoue, vérifiez les exceptions pouvant indiquer des problèmes d’autorisations ou des formats de chemin incorrects.
 
 ## Applications pratiques
 
-Les cartes peuvent être utilisées dans divers scénarios du monde réel :
+Les graphiques cartographiques peuvent être utilisés dans divers scénarios réels :
 
-1. **Rapports économiques**:Afficher des indicateurs économiques tels que le PIB dans différents pays.
-2. **Visualisation des données de vente**:Afficher les performances des ventes régionales sur une carte du monde.
-3. **études environnementales**:Illustrer des données telles que les niveaux de pollution ou les taux de déforestation géographiquement.
+1. **Rapports économiques** – afficher le PIB, les taux de chômage ou les balances commerciales par pays.  
+2. **Visualisation des données de ventes** – montrer la performance des ventes régionales sur une carte du monde.  
+3. **Études environnementales** – illustrer les niveaux de pollution, les taux de déforestation ou les données climatiques géographiquement.
 
-### Possibilités d'intégration
-Les cartes créées avec Aspose.Slides peuvent être intégrées dans des outils de reporting, des tableaux de bord et des systèmes de présentation automatisés pour une narration améliorée basée sur les données.
+### Possibilités d’intégration
+Les graphiques cartographiques créés avec Aspose.Slides peuvent être intégrés aux outils de reporting, aux tableaux de bord ou aux pipelines de présentation automatisés pour un récit plus riche basé sur les données.
 
-## Considérations relatives aux performances
+## Considérations de performance
 
-Lorsque vous travaillez avec Aspose.Slides pour Java, gardez ces conseils à l'esprit pour optimiser les performances :
-- **Gestion de la mémoire**: Libérer des ressources en éliminant les `Presentation` objet une fois terminé.
-- **Gestion optimisée des données**:Utilisez des structures de données efficaces lors de la manipulation de grands ensembles de données.
-- **Meilleures pratiques**: Mettez régulièrement à jour la version de votre bibliothèque pour bénéficier d'améliorations de performances et de corrections de bugs.
+Lorsque vous travaillez avec Aspose.Slides pour Java, gardez ces conseils à l’esprit pour optimiser les performances :
+
+- **Gestion de la mémoire** – libérez l’objet `Presentation` (`presentation.dispose()`) lorsque vous avez terminé.  
+- **Gestion optimisée des données** – utilisez des structures de données légères pour les grands ensembles de données.  
+- **Restez à jour** – mettez régulièrement à jour vers la dernière version d’Aspose.Slides pour bénéficier des améliorations de performance et des corrections de bugs.
 
 ## Conclusion
 
-Créer une carte dans PowerPoint avec Aspose.Slides pour Java est simple une fois l'environnement requis configuré. En suivant ce guide, vous devriez être en mesure de visualiser efficacement les données géographiques dans vos présentations. Pour approfondir vos connaissances, n'hésitez pas à explorer les fonctionnalités avancées d'Aspose.Slides ou à l'intégrer à d'autres logiciels.
+Créer un graphique cartographique dans PowerPoint avec Aspose.Slides pour Java est simple une fois l’environnement configuré. En suivant ce guide, vous pouvez **create map chart java** des solutions qui transforment des données géographiques brutes en visuels percutants. Expérimentez avec des options de personnalisation supplémentaires, explorez d’autres types de graphiques et intégrez le résultat dans vos flux de reporting automatisés.
 
-**Prochaines étapes :**
-- Expérimentez avec différents types de graphiques et options de personnalisation.
-- Découvrez les fonctionnalités supplémentaires fournies par Aspose.Slides pour Java.
+**Prochaines étapes**
+- Essayez différents thèmes de carte et palettes de couleurs.  
+- Combinez plusieurs graphiques sur une même diapositive pour une analyse comparative.  
+- Explorez l’API Aspose.Slides pour les animations et l’interactivité.
 
-**Appel à l'action :** Essayez d’implémenter cette solution dans votre prochain projet pour améliorer la visualisation des données !
+**Appel à l’action :** Implémentez cette solution dans votre prochain projet pour améliorer votre visualisation de données !
 
 ## Section FAQ
 
-### Comment installer Aspose.Slides pour un nouveau projet ?
-Suivez les étapes de configuration sous « Configuration d'Aspose.Slides pour Java » et assurez-vous que toutes les conditions préalables sont remplies.
+### Comment installer Aspose.Slides pour un nouveau projet ?
+Suivez les étapes de configuration sous « Configuration d’Aspose.Slides pour Java » et assurez‑vous que toutes les conditions préalables sont remplies.
+
+**Q : Puis‑je ajouter plusieurs graphiques cartographiques à la même diapositive ?**  
+R : Oui, répétez simplement le code d’ajout du graphique avec des positions et des ensembles de données différents.
+
+**Q : Est‑il possible de changer la projection de la carte (par ex., Mercator vs. Robinson) ?**  
+R : Aspose.Slides prend en charge plusieurs projections cartographiques ; vous pouvez définir la propriété `MapProjection` sur l’objet graphique.
+
+**Q : Que faire si je dois charger des données depuis un fichier CSV ?**  
+R : Lisez le CSV dans une collection Java, puis remplissez les cellules du classeur de données du graphique de manière programmatique.
+
+**Q : La bibliothèque fonctionne‑t‑elle sur Java 11 et versions supérieures ?**  
+R : Absolument – le classificateur `jdk16` fonctionne sur Java 11+, 16 et les versions ultérieures.
+
+**Q : Comment protéger le PPTX généré avec un mot de passe ?**  
+R : Utilisez `presentation.getProtectionManager().setPassword("yourPassword");` avant l’enregistrement.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -194,3 +225,9 @@ Suivez les étapes de configuration sous « Configuration d'Aspose.Slides pour 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Dernière mise à jour :** 2026-03-26  
+**Testé avec :** Aspose.Slides for Java 25.4  
+**Auteur :** Aspose
