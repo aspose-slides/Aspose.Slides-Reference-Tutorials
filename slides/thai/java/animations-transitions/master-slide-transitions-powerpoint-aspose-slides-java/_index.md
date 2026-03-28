@@ -1,12 +1,13 @@
 ---
-date: '2025-12-18'
-description: เรียนรู้วิธีสร้างการเปลี่ยนสไลด์ PowerPoint ด้วย Aspose.Slides for Java,
-  เพิ่มการเปลี่ยนสไลด์, กำหนดระยะเวลาในการเปลี่ยน, และทำให้การเปลี่ยนสไลด์เป็นอัตโนมัติอย่างง่ายดาย.
+date: '2026-03-28'
+description: เรียนรู้วิธีบันทึก PowerPoint พร้อมการเปลี่ยนสไลด์โดยใช้ Aspose.Slides
+  for Java, ใช้การเปลี่ยนสไลด์กับทุกสไลด์, ตั้งเวลาการเปลี่ยนสไลด์, และทำให้การเปลี่ยนสไลด์ของ
+  PowerPoint เป็นอัตโนมัติ.
 keywords:
 - slide transitions in PowerPoint
 - Aspose.Slides for Java
 - applying slide transitions with Aspose
-title: วิธีสร้างการเปลี่ยนสไลด์ PowerPoint ด้วย Aspose.Slides สำหรับ Java | คู่มือขั้นตอนโดยละเอียด
+title: บันทึก PowerPoint พร้อมการเปลี่ยนภาพโดยใช้ Aspose.Slides สำหรับ Java | คู่มือขั้นตอนโดยละเอียด
 url: /th/java/animations-transitions/master-slide-transitions-powerpoint-aspose-slides-java/
 weight: 1
 ---
@@ -16,35 +17,36 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# วิธีสร้างการเปลี่ยนสไลด์ PowerPoint ด้วย Aspose.Slides for Java
-## คู่มือแบบขั้นตอนต่อขั้นตอน
+# วิธีบันทึก PowerPoint พร้อมการเปลี่ยนสไลด์โดยใช้ Aspose.Slides for Java
+## คู่มือแบบขั้นตอน
 
 ### บทนำ
-หากคุณต้องการ **สร้างการเปลี่ยนสไลด์ PowerPoint** ที่ดึงดูดความสนใจและทำให้ผู้ชมของคุณมีส่วนร่วม คุณมาถูกที่แล้ว ในบทเรียนนี้เราจะพาคุณผ่านการใช้ Aspose.Slides for Java เพื่อ **เพิ่มการเปลี่ยนสไลด์**, ตั้งค่าระยะเวลา, และแม้กระทั่งอัตโนมัติกระบวนการสำหรับชุดสไลด์ขนาดใหญ่ เมื่อเสร็จสิ้น คุณจะสามารถปรับปรุงการนำเสนอใด ๆ ด้วยเอฟเฟกต์ระดับมืออาชีพได้ด้วยเพียงไม่กี่บรรทัดของโค้ด.
+หากคุณต้องการ **บันทึก PowerPoint พร้อมการเปลี่ยนสไลด์** ที่ดึงดูดความสนใจและทำให้ผู้ชมของคุณมีส่วนร่วม คุณมาถูกที่แล้ว ในบทเรียนนี้เราจะอธิบายการใช้ Aspose.Slides for Java เพื่อ **เพิ่มการเปลี่ยนสไลด์**, ตั้งค่าการจับเวลา, และแม้กระทั่ง **ทำให้การเปลี่ยนสไลด์ของ PowerPoint เป็นอัตโนมัติ** สำหรับชุดสไลด์ขนาดใหญ่ เมื่อเสร็จสิ้นคุณจะสามารถปรับปรุงการนำเสนอใด ๆ ด้วยเอฟเฟกต์ระดับมืออาชีพได้ด้วยเพียงไม่กี่บรรทัดของโค้ด
 
 #### สิ่งที่คุณจะได้เรียนรู้
 - โหลดไฟล์ PowerPoint ที่มีอยู่ด้วย Aspose.Slides  
-- ใช้เอฟเฟกต์การเปลี่ยนสไลด์หลายประเภท (เช่น Circle, Comb)  
-- **กำหนดการตั้งค่าเวลาและพฤติกรรมคลิกของการเปลี่ยนสไลด์**  
-- บันทึกการนำเสนอที่อัปเดตกลับไปยังดิสก์  
+- **ใช้การเปลี่ยนสไลด์กับทุกสไลด์** (หรือสไลด์เฉพาะ) เช่น Circle และ Comb  
+- **ตั้งเวลาการเปลี่ยนสไลด์** และพฤติกรรมการคลิก  
+- **บันทึก PowerPoint พร้อมการเปลี่ยนสไลด์** กลับไปยังดิสก์  
 
-เมื่อเราทราบเป้าหมายแล้ว ให้แน่ใจว่าคุณมีทุกอย่างที่ต้องการ.
+เมื่อเรารู้เป้าหมายแล้ว ให้แน่ใจว่าคุณมีทุกอย่างที่ต้องการ
 
-### คำตอบด่วน
+### คำตอบสั้น
 - **ไลบรารีหลักคืออะไร?** Aspose.Slides for Java  
 - **ฉันสามารถทำให้การเปลี่ยนสไลด์เป็นอัตโนมัติได้หรือไม่?** ใช่ – วนลูปผ่านสไลด์โดยโปรแกรม  
-- **ฉันจะตั้งระยะเวลาการเปลี่ยนสไลด์อย่างไร?** ใช้ `setAdvanceAfterTime(milliseconds)`  
-- **ฉันต้องการไลเซนส์หรือไม่?** เวอร์ชันทดลองทำงานสำหรับการทดสอบ; ไลเซนส์เต็มจะลบข้อจำกัด  
+- **ฉันตั้งระยะเวลาเปลี่ยนสไลด์อย่างไร?** ใช้ `setAdvanceAfterTime(milliseconds)` (เมธอด **set transition duration java**)  
+- **ฉันต้องการใบอนุญาตหรือไม่?** รุ่นทดลองใช้ได้สำหรับการทดสอบ; ใบอนุญาตเต็มจะลบข้อจำกัด  
 - **เวอร์ชัน Java ที่รองรับคืออะไร?** Java 8+ (ตัวอย่างใช้ JDK 16)
 
 ### ข้อกำหนดเบื้องต้น
+เพื่อให้ทำตามได้อย่างมีประสิทธิภาพ คุณต้องมี:
 - **ไลบรารีและเวอร์ชัน**: Aspose.Slides for Java 25.4 หรือใหม่กว่า.  
 - **การตั้งค่าสภาพแวดล้อม**: โปรเจกต์ Maven หรือ Gradle ที่กำหนดค่าให้ใช้ JDK 16 (หรือที่เข้ากันได้).  
 - **ความรู้พื้นฐาน**: ความคุ้นเคยกับไวยากรณ์ Java และโครงสร้างไฟล์ PowerPoint.
 
-### การตั้งค่า Aspose.Slides for Java
+### การตั้งค่า Aspose.Slides สำหรับ Java
 #### การติดตั้งผ่าน Maven
-Add the following dependency to your `pom.xml`:
+เพิ่ม dependency ต่อไปนี้ในไฟล์ `pom.xml` ของคุณ:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -54,125 +56,130 @@ Add the following dependency to your `pom.xml`:
 </dependency>
 ```
 #### การติดตั้งผ่าน Gradle
-For Gradle users, include this in your `build.gradle`:
+สำหรับผู้ใช้ Gradle ให้ใส่ส่วนนี้ในไฟล์ `build.gradle` ของคุณ:
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 #### ดาวน์โหลดโดยตรง
-Alternatively, download the latest release from [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+หรือคุณสามารถดาวน์โหลดเวอร์ชันล่าสุดจาก [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-##### การรับไลเซนส์
-To use Aspose.Slides without limitations:
+##### การรับใบอนุญาต
+เพื่อใช้ Aspose.Slides โดยไม่มีข้อจำกัด:
 - **ทดลองใช้ฟรี** – สำรวจคุณสมบัติทั้งหมดโดยไม่ต้องซื้อ.  
-- **ไลเซนส์ชั่วคราว** – การประเมินระยะยาวสำหรับโครงการขนาดใหญ่.  
-- **ไลเซนส์เต็ม** – ปลดล็อกความสามารถพร้อมใช้งานในผลิตภัณฑ์.
+- **ใบอนุญาตชั่วคราว** – การประเมินระยะยาวสำหรับโครงการขนาดใหญ่.  
+- **ใบอนุญาตเต็ม** – เปิดใช้งานความสามารถพร้อมใช้งานในผลิตภัณฑ์.
 
-### การเริ่มต้นและการตั้งค่าเบื้องต้น
-Once installed, import the core class you’ll work with:
+### การเริ่มต้นและตั้งค่าเบื้องต้น
+เมื่อติดตั้งแล้ว ให้นำเข้าคลาสหลักที่คุณจะทำงานด้วย:
 ```java
 import com.aspose.slides.Presentation;
 ```
 
-## คู่มือการดำเนินการ
-Let’s break the process into clear, manageable steps.
+## การบันทึก PowerPoint พร้อมการเปลี่ยนสไลด์คืออะไร?
+การบันทึกไฟล์ PowerPoint พร้อมการเปลี่ยนสไลด์หมายถึงการบันทึกเอฟเฟกต์การแสดงสไลด์ (เช่น การจาง, การลบ, หรือวงกลม) ลงในไฟล์ `.pptx` สุดท้าย เพื่อให้พวกมันเล่นโดยอัตโนมัติเมื่อเปิดการนำเสนอ
 
-### การโหลดการนำเสนอ
-First, load the PowerPoint file you want to enhance.
+## ทำไมต้องใช้การเปลี่ยนสไลด์กับทุกสไลด์?
+การใช้การเปลี่ยนสไลด์อย่างสม่ำเสมอทำให้ชุดสไลด์ของคุณมีจังหวะภาพที่สอดคล้องกัน ซึ่งเป็นประโยชน์อย่างยิ่งสำหรับ:
+- **การนำเสนอองค์กร** – รักษารูปลักษณ์ที่เรียบหรูในทุกส่วน.  
+- **โมดูลการเรียนรู้ออนไลน์** – ทำให้ผู้เรียนมีสมาธิด้วยการเคลื่อนไหวที่คาดเดาได้.  
+- **การสร้างรายงานอัตโนมัติ** – ทำให้สไลด์ที่สร้างขึ้นทุกสไลด์มีสไตล์เดียวกันโดยไม่ต้องปรับด้วยมือ.
+
+## คู่มือแบบขั้นตอน
+
+### การโหลดงานนำเสนอ
+ขั้นแรก โหลดไฟล์ PowerPoint ที่คุณต้องการปรับปรุง.
 
 #### ขั้นตอนที่ 1: สร้างอินสแตนซ์ของคลาส Presentation
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Presentation presentation = new Presentation(dataDir + "/AccessSlides.pptx");
 ```
-This creates a `Presentation` object that gives you full control over each slide.
+นี่จะสร้างอ็อบเจ็กต์ `Presentation` ที่ให้คุณควบคุมแต่ละสไลด์ได้อย่างเต็มที่.
 
 ### การใช้การเปลี่ยนสไลด์
-With the presentation in memory, you can now **add slide transitions**.
+เมื่อมีงานนำเสนออยู่ในหน่วยความจำ คุณสามารถ **เพิ่มการเปลี่ยนสไลด์** ได้แล้ว.
 
-#### ขั้นตอนที่ 2: ใช้การเปลี่ยนแบบ Circle บนสไลด์ 1
+#### ขั้นตอนที่ 2: ใช้การเปลี่ยน Circle บนสไลด์ 1
 ```java
 import com.aspose.slides.TransitionType;
 presentation.getSlides().get_Item(0).getSlideShowTransition().setType(TransitionType.Circle);
 ```
-The Circle effect creates a smooth radial fade when moving to the next slide.
+เอฟเฟกต์ Circle สร้างการจางแบบรัศมีที่ราบรื่นเมื่อย้ายไปยังสไลด์ถัดไป.
 
 #### ขั้นตอนที่ 3: ตั้งเวลาเปลี่ยนสไลด์สำหรับสไลด์ 1
 ```java
 presentation.getSlides().get_Item(0).getSlideShowTransition().setAdvanceOnClick(true);
 presentation.getSlides().get_Item(0).getSlideShowTransition().setAdvanceAfterTime(3000); // Time in milliseconds
 ```
-Here we **configure slide transition** duration to 3 seconds and allow click‑advance.
+ที่นี่เราตั้ง **เวลาเปลี่ยนสไลด์** เป็น 3 วินาทีและอนุญาตให้คลิกเพื่อเลื่อนต่อ.
 
-#### ขั้นตอนที่ 4: ใช้การเปลี่ยนแบบ Comb บนสไลด์ 2
+#### ขั้นตอนที่ 4: ใช้การเปลี่ยน Comb บนสไลด์ 2
 ```java
 presentation.getSlides().get_Item(1).getSlideShowTransition().setType(TransitionType.Comb);
 ```
-The Comb effect slices the slide horizontally for a dynamic change.
+เอฟเฟกต์ Comb ตัดสไลด์เป็นแนวนอนเพื่อการเปลี่ยนแปลงที่ไดนามิก.
 
 #### ขั้นตอนที่ 5: ตั้งเวลาเปลี่ยนสไลด์สำหรับสไลด์ 2
 ```java
 presentation.getSlides().get_Item(1).getSlideShowTransition().setAdvanceOnClick(true);
 presentation.getSlides().get_Item(1).getSlideShowTransition().setAdvanceAfterTime(5000); // Time in milliseconds
 ```
-We set a 5‑second delay for the second slide.
+เราตั้งค่าการหน่วงเวลา 5 วินาทีสำหรับสไลด์ที่สอง.
 
-### การบันทึกการนำเสนอ
-After applying all transitions, persist the changes:
+### การบันทึกงานนำเสนอ
 ```java
 String outputDir = "YOUR_OUTPUT_DIRECTORY";
 presentation.save(outputDir + "/SampleTransition_out.pptx", SaveFormat.Pptx);
 presentation.save(dataDir + "/BetterTransitions_out.pptx", SaveFormat.Pptx);
 ```
-Both files now contain the new transition settings.
+ไฟล์ทั้งสองตอนนี้มีการตั้งค่าการเปลี่ยนสไลด์ใหม่แล้ว.
 
-## การประยุกต์ใช้งานจริง
-Why does **creating PowerPoint transitions** matter? Here are common scenarios:
-- **การนำเสนอระดับองค์กร** – เพิ่มความเป็นมืออาชีพให้กับชุดสไลด์ในห้องประชุม.  
-- **สไลด์โชว์การศึกษา** – ทำให้นักเรียนมีสมาธิด้วยการเคลื่อนไหวที่ละเอียด.  
-- **สื่อการตลาด** – แสดงผลิตภัณฑ์ด้วยเอฟเฟกต์ที่ดึงดูดสายตา.  
+## การประยุกต์ใช้ในเชิงปฏิบัติ
+ทำไมการ **สร้างการเปลี่ยนสไลด์ใน PowerPoint** ถึงสำคัญ? นี่คือตัวอย่างสถานการณ์ทั่วไป:
+- **การนำเสนอองค์กร** – เพิ่มความประณีตให้กับชุดสไลด์ในห้องประชุม.  
+- **สไลด์การศึกษา** – ทำให้นักเรียนมีสมาธิด้วยการเคลื่อนไหวที่ละเอียดอ่อน.  
+- **สื่อการตลาด** – แสดงผลิตภัณฑ์ด้วยเอฟเฟกต์ที่ดึงดูดสายตา.
 
-Because Aspose.Slides integrates smoothly with other systems, you can also automate report generation or combine data‑driven charts with these transitions.
+เนื่องจาก Aspose.Slides ผสานรวมได้อย่างราบรื่นกับระบบอื่น ๆ คุณจึงสามารถทำให้การสร้างรายงานเป็นอัตโนมัติหรือรวมแผนภูมิตามข้อมูลกับการเปลี่ยนสไลด์เหล่านี้ได้
 
 ## ข้อควรพิจารณาด้านประสิทธิภาพ
-When processing large decks, keep these tips in mind:
-- Dispose of the `Presentation` object after saving to free memory (`presentation.dispose()`).  
-- Prefer lightweight transition types for massive slide counts.  
-- Monitor JVM heap usage; adjust `-Xmx` if needed.
+เมื่อประมวลผลชุดสไลด์ขนาดใหญ่ ให้คำนึงถึงเคล็ดลับต่อไปนี้:
+- ทำลายอ็อบเจ็กต์ `Presentation` หลังจากบันทึกเพื่อคืนหน่วยความจำ (`presentation.dispose()`).
+- เลือกใช้ประเภทการเปลี่ยนสไลด์ที่มีน้ำหนักเบาสำหรับจำนวนสไลด์มาก.
+- ตรวจสอบการใช้ heap ของ JVM; ปรับ `-Xmx` หากจำเป็น.
 
-## ปัญหาทั่วไปและวิธีแก้
-| ปัญหา | วิธีแก้ |
+## ปัญหาและวิธีแก้ไขทั่วไป
+| Issue | Solution |
 |-------|----------|
-| **ไม่พบไลเซนส์** | ตรวจสอบว่าไฟล์ไลเซนส์ถูกโหลดก่อนสร้าง `Presentation`. |
-| **ไม่พบไฟล์** | ใช้เส้นทางแบบ absolute หรือให้แน่ใจว่า `dataDir` ชี้ไปยังโฟลเดอร์ที่ถูกต้อง. |
+| **License not found** | ตรวจสอบว่าไฟล์ใบอนุญาตถูกโหลดก่อนสร้าง `Presentation`. |
+| **File not found** | ใช้เส้นทางแบบ absolute หรือให้แน่ใจว่า `dataDir` ชี้ไปยังโฟลเดอร์ที่ถูกต้อง. |
 | **OutOfMemoryError** | ประมวลผลสไลด์เป็นชุดหรือเพิ่มการตั้งค่าหน่วยความจำของ JVM. |
 
 ## คำถามที่พบบ่อย
-**ถาม: มีประเภทการเปลี่ยนสไลด์อะไรบ้าง?**  
+**ถาม: มีประเภทการเปลี่ยนสไลด์ใดบ้าง?**  
 A: Aspose.Slides รองรับเอฟเฟกต์หลายประเภท เช่น Circle, Comb, Fade และอื่น ๆ ผ่าน enum `TransitionType`.
 
 **ถาม: ฉันสามารถตั้งระยะเวลาที่กำหนดเองสำหรับแต่ละสไลด์ได้หรือไม่?**  
-A: ได้—ใช้ `setAdvanceAfterTime(milliseconds)` เพื่อกำหนดเวลาที่แน่นอน.
+A: ได้ — ใช้ `setAdvanceAfterTime(milliseconds)` เพื่อกำหนดเวลาที่แน่นอน (เมธอด **set transition duration java**).
 
 **ถาม: สามารถใช้การเปลี่ยนสไลด์เดียวกันกับทุกสไลด์โดยอัตโนมัติได้หรือไม่?**  
-A: แน่นอน. วนลูปผ่าน `presentation.getSlides()` แล้วตั้งค่า `TransitionType` และเวลาที่ต้องการสำหรับแต่ละสไลด์.
+A: แน่นอน. วนลูปผ่าน `presentation.getSlides()` และตั้งค่า `TransitionType` และเวลาให้กับแต่ละสไลด์ (เหมาะสำหรับ **apply transitions all slides**).
 
-**ถาม: ฉันจะจัดการไลเซนส์ใน pipeline CI/CD อย่างไร?**  
-A: โหลดไฟล์ไลเซนส์ในตอนเริ่มต้นของสคริปต์ build; Aspose.Slides ทำงานในสภาพแวดล้อม headless.
+**ถาม: ฉันจะจัดการใบอนุญาตใน pipeline CI/CD อย่างไร?**  
+A: โหลดไฟล์ใบอนุญาตในตอนเริ่มต้นของสคริปต์การสร้าง; Aspose.Slides ทำงานในสภาพแวดล้อม headless.
 
 **ถาม: ควรทำอย่างไรหากพบ `NullPointerException` ขณะตั้งค่าการเปลี่ยนสไลด์?**  
-A: ตรวจสอบว่าดัชนีสไลด์มีอยู่ (เช่น อย่าเข้าถึง index 2 เมื่อมีเพียงสองสไลด์).
+A: ตรวจสอบว่าดัชนีสไลด์มีอยู่ (เช่น อย่าเข้าถึงดัชนี 2 เมื่อมีสไลด์เพียงสองสไลด์).
 
 ## แหล่งข้อมูล
-- **เอกสาร**: Explore detailed guides at [Aspose.Slides for Java documentation](https://reference.aspose.com/slides/java/).  
-- **ดาวน์โหลด**: Get the latest version from [releases page](https://releases.aspose.com/slides/java/).  
-- **ซื้อ**: Consider acquiring a license through [purchase page](https://purchase.aspose.com/buy) for full functionality.  
-- **ทดลองใช้ฟรีและไลเซนส์ชั่วคราว**: Start with a trial or obtain a temporary license at [free trial](https://releases.aspose.com/slides/java/) and [temporary license](https://purchase.aspose.com/temporary-license/).  
-- **สนับสนุน**: Join the community forum for assistance at [Aspose Forum](https://forum.aspose.com/c/slides/11).
+- **เอกสาร**: สำรวจคู่มือโดยละเอียดที่ [Aspose.Slides for Java documentation](https://reference.aspose.com/slides/java/).  
+- **ดาวน์โหลด**: รับเวอร์ชันล่าสุดจาก [releases page](https://releases.aspose.com/slides/java/).  
+- **การซื้อ**: พิจารณาได้รับใบอนุญาตผ่าน [purchase page](https://purchase.aspose.com/buy) สำหรับฟังก์ชันเต็ม.  
+- **ทดลองใช้ฟรีและใบอนุญาตชั่วคราว**: เริ่มต้นด้วยการทดลองหรือรับใบอนุญาตชั่วคราวที่ [free trial](https://releases.aspose.com/slides/java/) และ [temporary license](https://purchase.aspose.com/temporary-license/).  
+- **สนับสนุน**: เข้าร่วมฟอรั่มชุมชนเพื่อขอความช่วยเหลือที่ [Aspose Forum](https://forum.aspose.com/c/slides/11).
 
----
-
-**อัปเดตล่าสุด:** 2025-12-18  
-**ทดสอบด้วย:** Aspose.Slides for Java 25.4 (JDK 16)  
+**อัปเดตล่าสุด:** 2026-03-28  
+**ทดสอบกับ:** Aspose.Slides for Java 25.4 (JDK 16)  
 **ผู้เขียน:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
