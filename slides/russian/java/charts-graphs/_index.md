@@ -160,17 +160,3 @@ A: Aspose.Slides поддерживает PPTX, PDF, XPS, HTML и форматы
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## ЦЕЛЕВЫЕ КЛЮЧЕВЫЕ СЛОВА:
-
-**Primary Keyword (HIGHEST PRIORITY):**  
-create dynamic chart java
-
-**Secondary Keywords (SUPPORTING):**  
-add pie chart java
-
-**Стратегия интеграции ключевых слов:**  
-1. Primary keyword: использовать 3‑5 раз (заголовок, meta, первый абзац, заголовок H2, тело).  
-2. Secondary keywords: использовать 1‑2 раза каждый (заголовки, тело).  
-3. Все ключевые слова должны быть интегрированы естественно — приоритет читаемости над количеством.  
-4. Если ключевое слово не вписывается естественно, используйте семантический вариант или пропустите его.

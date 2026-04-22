@@ -14,13 +14,7 @@ url: /hu/java/animations-transitions/aspose-slides-java-enhance-presentations/
 weight: 1
 ---
 
-.
-
-Check for any remaining English text: The shortcodes remain unchanged. The code block placeholders remain unchanged. The URLs remain unchanged.
-
-Make sure we kept the bullet list formatting.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
@@ -268,8 +262,6 @@ V: Az API adatfolyamot használ és felszabadítja az erőforrásokat a `pres.di
 
 ---
 
-{{< blocks/products/products-backtop-button >}}
-
 **Last Updated:** 2026-02-09  
 **Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
 **Author:** Aspose  
@@ -279,3 +271,5 @@ V: Az API adatfolyamot használ és felszabadítja az erőforrásokat a `pres.di
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

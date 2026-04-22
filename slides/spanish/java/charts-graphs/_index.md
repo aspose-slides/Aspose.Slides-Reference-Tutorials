@@ -14,6 +14,7 @@ weight: 6
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Tutoriales de Gráficos y Diagramas de PowerPoint para Aspose.Slides Java
 
 En esta guía crearás presentaciones con **crear gráfico dinámico java** usando Aspose.Slides. Ya sea que necesites agregar un simple gráfico de pastel o crear visualizaciones complejas impulsadas por datos, estos tutoriales te guiarán paso a paso. Al final de la serie estarás cómodo para **agregar gráfico de pastel java** ejemplos, personalizar estilos y conectar gráficos a fuentes de datos en tiempo real, todo desde código Java.
@@ -311,17 +312,3 @@ A: Aspose.Slides soporta PPTX, PDF, XPS, HTML y formatos de imagen como PNG y JP
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## PALABRAS CLAVE OBJETIVO:
-
-**Palabra clave principal (MÁXIMA PRIORIDAD):**  
-create dynamic chart java
-
-**Palabras clave secundarias (DE APOYO):**  
-add pie chart java
-
-**Estrategia de integración de palabras clave:**  
-1. Palabra clave principal: usar de 3 a 5 veces (título, meta, primer párrafo, encabezado H2, cuerpo)  
-2. Palabras clave secundarias: usar de 1 a 2 veces cada una (encabezados, cuerpo)  
-3. Todas las palabras clave deben integrarse de forma natural – priorizar la legibilidad sobre la cantidad de palabras clave  
-4. Si una palabra clave no encaja de forma natural, usar una variación semántica o omitirla

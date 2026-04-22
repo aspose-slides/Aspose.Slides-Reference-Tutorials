@@ -161,17 +161,3 @@ Vedrai il codice Java esatto necessario per trasformare numeri grezzi in un graf
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## PAROLE CHIAVE TARGET:
-
-**Parola chiave primaria (PRIORITÀ MASSIMA):**  
-create dynamic chart java
-
-**Parole chiave secondarie (SUPPORTO):**  
-add pie chart java
-
-**Strategia di integrazione delle parole chiave:**  
-1. Parola chiave primaria: Usare 3-5 volte (titolo, meta, primo paragrafo, intestazione H2, corpo)  
-2. Parole chiave secondarie: Usare 1-2 volte ciascuna (intestazioni, corpo)  
-3. Tutte le parole chiave devono essere integrate naturalmente - dare priorità alla leggibilità rispetto al conteggio delle parole chiave  
-4. Se una parola chiave non si adatta naturalmente, usare una variazione semantica o saltarla

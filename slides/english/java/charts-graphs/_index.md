@@ -310,17 +310,3 @@ A: Aspose.Slides supports PPTX, PDF, XPS, HTML, and image formats like PNG and J
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## TARGET KEYWORDS:
-
-**Primary Keyword (HIGHEST PRIORITY):**
-create dynamic chart java
-
-**Secondary Keywords (SUPPORTING):**
-add pie chart java
-
-**Keyword Integration Strategy:**
-1. Primary keyword: Use 3-5 times (title, meta, first paragraph, H2 heading, body)
-2. Secondary keywords: Use 1-2 times each (headings, body)
-3. All keywords must be integrated naturally - prioritize readability over keyword count
-4. If a keyword doesn't fit naturally, use a semantic variation or skip it

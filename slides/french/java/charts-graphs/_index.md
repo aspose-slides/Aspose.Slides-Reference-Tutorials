@@ -162,17 +162,3 @@ R : Aspose.Slides prend en charge les formats PPTX, PDF, XPS, HTML et les form
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## MOTS‑CLÉS CIBLES :
-
-**Mot‑clé principal (PRIORITÉ MAXIMALE) :**  
-create dynamic chart java
-
-**Mots‑clés secondaires (SUPPORT) :**  
-add pie chart java
-
-**Stratégie d’intégration des mots‑clés :**
-1. Mot‑clé principal : Utilisez‑le 3 à 5 fois (titre, méta, premier paragraphe, titre H2, corps).  
-2. Mots‑clés secondaires : Utilisez‑les 1 à 2 fois chacun (titres, corps).  
-3. Tous les mots‑clés doivent être intégrés naturellement — privilégiez la lisibilité sur le nombre.  
-4. Si un mot‑clé ne s’intègre pas naturellement, utilisez une variation sémantique ou omettez‑le.

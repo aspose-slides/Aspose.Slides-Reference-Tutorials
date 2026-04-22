@@ -6,9 +6,7 @@ url: /zh-hant/java/charts-graphs/
 weight: 6
 ---
 
- (**). Keep them.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
@@ -161,17 +159,3 @@ A: Aspose.Slides 支援 PPTX、PDF、XPS、HTML，以及 PNG、JPEG 等影像格
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## 目標關鍵字：
-
-**主要關鍵字（最高優先級）：**  
-create dynamic chart java
-
-**次要關鍵字（支援）：**  
-add pie chart java
-
-**關鍵字整合策略：**  
-1. 主要關鍵字：使用 3-5 次（標題、meta、第一段落、H2 標題、正文）  
-2. 次要關鍵字：使用 1-2 次（標題、正文）  
-3. 必須自然整合所有關鍵字——以可讀性為優先  
-4. 若關鍵字不自然融入，可使用語意變體或略過

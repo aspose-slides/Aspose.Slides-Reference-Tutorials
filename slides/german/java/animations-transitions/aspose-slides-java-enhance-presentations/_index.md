@@ -260,8 +260,6 @@ A: Die API streamt Daten und gibt Ressourcen frei, wenn `pres.dispose()` aufgeru
 
 ---
 
-{{< blocks/products/products-backtop-button >}}
-
 **Zuletzt aktualisiert:** 2026-02-09  
 **Getestet mit:** Aspose.Slides for Java 25.4 (jdk16)  
 **Autor:** Aspose  
@@ -271,3 +269,5 @@ A: Die API streamt Daten und gibt Ressourcen frei, wenn `pres.dispose()` aufgeru
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

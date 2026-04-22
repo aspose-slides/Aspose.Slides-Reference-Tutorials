@@ -236,17 +236,3 @@ A: Aspose.Slides ondersteunt PPTX, PDF, XPS, HTML en afbeeldingsformaten zoals P
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## DOELKEYWORDS:
-
-**Primaire sleutelwoord (HOOGSTE PRIORITEIT):**  
-create dynamic chart java
-
-**Secundaire sleutelwoorden (ONDERSTEUNEND):**  
-add pie chart java
-
-**Strategie voor sleutelwoordintegratie:**  
-1. Primaire sleutelwoord: Gebruik 3-5 keer (titel, meta, eerste alinea, H2‑kop, inhoud)  
-2. Secundaire sleutelwoorden: Gebruik 1-2 keer elk (koppen, inhoud)  
-3. Alle sleutelwoorden moeten natuurlijk worden geïntegreerd – leesbaarheid heeft prioriteit boven het aantal sleutelwoorden  
-4. Als een sleutelwoord niet natuurlijk past, gebruik dan een semantische variant of sla het over

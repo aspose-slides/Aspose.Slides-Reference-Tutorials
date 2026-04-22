@@ -12,26 +12,6 @@ url: /el/java/charts-graphs/aspose-slides-java-chart-creation-exportation/
 weight: 1
 ---
 
- items.
-
-- "Frequently Asked Questions" etc.
-
-- Q/A items.
-
-- "Last Updated:" etc.
-
-- "Tested With:" etc.
-
-- "Author:" etc.
-
-All these need Greek translation.
-
-We must keep code placeholders unchanged.
-
-Also keep shortcodes at top and bottom unchanged.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

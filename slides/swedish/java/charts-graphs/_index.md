@@ -7,12 +7,6 @@ url: /sv/java/charts-graphs/
 weight: 6
 ---
 
-.
-
-Now ensure we didn't miss any code blocks (none). Ensure we preserve all shortcodes.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

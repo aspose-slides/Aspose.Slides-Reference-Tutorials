@@ -12,10 +12,6 @@ url: /ar/java/animations-transitions/aspose-slides-java-enhance-presentations/
 weight: 1
 ---
 
- formatting.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -260,8 +256,6 @@ try {
 **س: هل يتعامل Aspose.Slides مع العروض الكبيرة بكفاءة؟**  
 ج: تقوم الـ API ببث البيانات وتحرير الموارد عند استدعاء `pres.dispose()`، مما يساعد في إدارة الذاكرة للملفات الكبيرة.
 
-{{< blocks/products/products-backtop-button >}}
-
 **آخر تحديث:** 2026-02-09  
 **تم الاختبار مع:** Aspose.Slides for Java 25.4 (jdk16)  
 **المؤلف:** Aspose  
@@ -271,3 +265,5 @@ try {
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

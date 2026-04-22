@@ -253,8 +253,6 @@ A: Projděte `cell.getTextFrame().getParagraphs()`, najděte část obsahující
 **Q: Does Aspose.Slides handle large presentations efficiently?**  
 A: API streamuje data a uvolňuje prostředky při volání `pres.dispose()`, což pomáhá při správě paměti u velkých souborů.
 
-{{< blocks/products/products-backtop-button >}}
-
 **Last Updated:** 2026-02-09  
 **Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
 **Author:** Aspose  
@@ -264,3 +262,5 @@ A: API streamuje data a uvolňuje prostředky při volání `pres.dispose()`, co
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

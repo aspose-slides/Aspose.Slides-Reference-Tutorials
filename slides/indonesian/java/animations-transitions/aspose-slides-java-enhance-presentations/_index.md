@@ -13,13 +13,7 @@ url: /id/java/animations-transitions/aspose-slides-java-enhance-presentations/
 weight: 1
 ---
 
- Aspose" translate label.
-
-Close shortcodes.
-
-Make sure to keep markdown formatting.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
@@ -265,8 +259,6 @@ A: API ini melakukan streaming data dan melepaskan sumber daya saat `pres.dispos
 
 ---
 
-{{< blocks/products/products-backtop-button >}}
-
 **Terakhir Diperbarui:** 2026-02-09  
 **Diuji Dengan:** Aspose.Slides for Java 25.4 (jdk16)  
 **Penulis:** Aspose  
@@ -276,3 +268,5 @@ A: API ini melakukan streaming data dan melepaskan sumber daya saat `pres.dispos
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

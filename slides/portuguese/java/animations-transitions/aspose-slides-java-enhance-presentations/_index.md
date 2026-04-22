@@ -260,8 +260,6 @@ R: A API transmite dados em fluxo e libera recursos quando `pres.dispose()` é c
 
 ---
 
-{{< blocks/products/products-backtop-button >}}
-
 **Última atualização:** 2026-02-09  
 **Testado com:** Aspose.Slides for Java 25.4 (jdk16)  
 **Autor:** Aspose  
@@ -271,3 +269,5 @@ R: A API transmite dados em fluxo e libera recursos quando `pres.dispose()` é c
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

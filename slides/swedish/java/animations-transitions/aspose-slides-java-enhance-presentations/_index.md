@@ -13,10 +13,6 @@ url: /sv/java/animations-transitions/aspose-slides-java-enhance-presentations/
 weight: 1
 ---
 
- ensure we keep all markdown formatting.
-
-Let's assemble final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -263,8 +259,6 @@ A: API:et strömmar data och frigör resurser när `pres.dispose()` anropas, vil
 
 ---
 
-{{< blocks/products/products-backtop-button >}}
-
 **Senast uppdaterad:** 2026-02-09  
 **Testad med:** Aspose.Slides for Java 25.4 (jdk16)  
 **Författare:** Aspose  
@@ -274,3 +268,5 @@ A: API:et strömmar data och frigör resurser när `pres.dispose()` anropas, vil
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -260,8 +260,6 @@ try {
 
 ---
 
-{{< blocks/products/products-backtop-button >}}
-
 **Последнее обновление:** 2026-02-09  
 **Тестировано с:** Aspose.Slides for Java 25.4 (jdk16)  
 **Автор:** Aspose  
@@ -271,3 +269,5 @@ try {
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

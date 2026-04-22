@@ -260,8 +260,6 @@ A: L'API trasmette i dati in streaming e rilascia le risorse quando viene chiama
 
 ---
 
-{{< blocks/products/products-backtop-button >}}
-
 **Last Updated:** 2026-02-09  
 **Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
 **Author:** Aspose  
@@ -271,3 +269,5 @@ A: L'API trasmette i dati in streaming e rilascia le risorse quando viene chiama
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

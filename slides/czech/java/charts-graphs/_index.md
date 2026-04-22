@@ -159,17 +159,3 @@ A: Aspose.Slides podporuje PPTX, PDF, XPS, HTML a obrazové formáty jako PNG a 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## CÍLOVÉ KLÍČOVÁ SLOVA:
-
-**Primární klíčové slovo (NEJVYŠŠÍ PRIORITA):**  
-create dynamic chart java
-
-**Sekundární klíčová slova (PODPŮRNÁ):**  
-add pie chart java
-
-**Strategie integrace klíčových slov:**  
-1. Primární klíčové slovo: Použít 3‑5krát (název, meta, první odstavec, H2 nadpis, tělo)  
-2. Sekundární klíčová slova: Použít 1‑2krát každé (nadpisy, tělo)  
-3. Všechna klíčová slova musí být integrována přirozeně – upřednostňovat čitelnost před počtem výskytů  
-4. Pokud klíčové slovo nepřirozeně zapadá, použijte sémantickou variaci nebo jej vynechejte

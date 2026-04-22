@@ -259,8 +259,6 @@ O: API strumieniuje dane i zwalnia zasoby po wywołaniu `pres.dispose()`, co pom
 
 ---
 
-{{< blocks/products/products-backtop-button >}}
-
 **Last Updated:** 2026-02-09  
 **Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
 **Author:** Aspose  
@@ -270,3 +268,5 @@ O: API strumieniuje dane i zwalnia zasoby po wywołaniu `pres.dispose()`, co pom
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

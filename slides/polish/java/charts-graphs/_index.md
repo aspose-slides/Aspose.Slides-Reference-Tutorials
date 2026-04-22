@@ -14,6 +14,7 @@ weight: 6
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Samouczki wykresów i diagramów PowerPoint dla Aspose.Slides Java
 
 W tym przewodniku będziesz **tworzyć dynamiczne wykresy Java** w prezentacjach przy użyciu Aspose.Slides. Niezależnie od tego, czy potrzebujesz dodać prosty wykres kołowy, czy zbudować złożone, oparte na danych wizualizacje, te samouczki przeprowadzą Cię przez każdy krok. Po zakończeniu serii będziesz swobodnie **dodawać przykłady wykresów kołowych java**, dostosowywać stylizację i łączyć wykresy z żywymi źródłami danych — wszystko z kodu Java.
@@ -162,17 +163,3 @@ A: Aspose.Slides obsługuje formaty PPTX, PDF, XPS, HTML oraz formaty obrazów t
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## CELOWE SŁOWA KLUCZOWE:
-
-**Główne słowo kluczowe (NAJWYŻSZY PRIORYTET):**  
-create dynamic chart java
-
-**Drugorzędne słowa kluczowe (WSPARCIU):**  
-add pie chart java
-
-**Strategia integracji słów kluczowych:**  
-1. Główne słowo kluczowe: użyj 3‑5 razy (tytuł, meta, pierwszy akapit, nagłówek H2, treść)  
-2. Drugorzędne słowa kluczowe: użyj 1‑2 razy każde (nagłówki, treść)  
-3. Wszystkie słowa kluczowe muszą być wprowadzane naturalnie — priorytetem jest czytelność, a nie liczba wystąpień  
-4. Jeśli słowo kluczowe nie pasuje naturalnie, użyj semantycznej wariacji lub pomiń je

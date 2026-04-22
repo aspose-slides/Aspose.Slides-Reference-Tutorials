@@ -161,17 +161,3 @@ A: Aspose.Slides suporta PPTX, PDF, XPS, HTML e formatos de imagem como PNG e JP
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## PALAVRAS-CHAVE-ALVO:
-
-**Palavra‑chave Primária (MAIOR PRIORIDADE):**  
-create dynamic chart java
-
-**Palavras‑chave Secundárias (SUPORTE):**  
-add pie chart java
-
-**Estratégia de Integração de Palavras‑chave:**  
-1. Palavra‑chave primária: Use 3‑5 vezes (título, meta, primeiro parágrafo, cabeçalho H2, corpo)  
-2. Palavras‑chave secundárias: Use 1‑2 vezes cada (cabeçalhos, corpo)  
-3. Todas as palavras‑chave devem ser integradas naturalmente — priorizar a legibilidade sobre a contagem de palavras‑chave  
-4. Se uma palavra‑chave não se encaixar naturalmente, use uma variação semântica ou omita‑a

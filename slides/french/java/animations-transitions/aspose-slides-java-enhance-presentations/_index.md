@@ -19,6 +19,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Comment dessiner des cadres et ajouter du texte à un tableau dans les présentations avec Aspose.Slides for Java
 
 ## Introduction
@@ -259,8 +260,6 @@ A : L’API diffuse les données et libère les ressources lorsque `pres.dispo
 
 ---
 
-{{< blocks/products/products-backtop-button >}}
-
 **Dernière mise à jour :** 2026-02-09  
 **Testé avec :** Aspose.Slides for Java 25.4 (jdk16)  
 **Auteur :** Aspose  
@@ -270,3 +269,5 @@ A : L’API diffuse les données et libère les ressources lorsque `pres.dispo
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

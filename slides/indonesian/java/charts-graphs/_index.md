@@ -160,17 +160,3 @@ A: Aspose.Slides mendukung PPTX, PDF, XPS, HTML, dan format gambar seperti PNG d
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## KATA KUNCI TARGET:
-
-**Kata Kunci Utama (PRIORITAS TERTINGGI):**  
-create dynamic chart java
-
-**Kata Kunci Sekunder (DUKUNGAN):**  
-add pie chart java
-
-**Strategi Integrasi Kata Kunci:**  
-1. Kata kunci utama: Gunakan 3-5 kali (judul, meta, paragraf pertama, heading H2, isi)  
-2. Kata kunci sekunder: Gunakan 1-2 kali masing-masing (heading, isi)  
-3. Semua kata kunci harus diintegrasikan secara alami - prioritaskan keterbacaan daripada jumlah kata kunci  
-4. Jika sebuah kata kunci tidak cocok secara alami, gunakan variasi semantik atau lewati.
