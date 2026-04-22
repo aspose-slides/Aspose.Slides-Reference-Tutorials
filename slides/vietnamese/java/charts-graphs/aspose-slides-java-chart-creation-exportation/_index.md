@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Học cách tạo và xuất biểu đồ bằng Aspose.Slides trong Java. Nắm vững các kỹ thuật trực quan hóa dữ liệu với hướng dẫn từng bước và ví dụ mã."
-"title": "Aspose.Slides Java&#58; Tạo và Xuất Biểu đồ để Trực quan hóa Dữ liệu"
-"url": "/vi/java/charts-graphs/aspose-slides-java-chart-creation-exportation/"
-"weight": 1
+date: '2026-02-09'
+description: Học cách tạo biểu đồ và xuất biểu đồ sang Excel bằng Aspose.Slides cho
+  Java. Thành thạo trực quan hoá dữ liệu, các slide báo cáo kinh doanh và tạo sổ làm
+  việc.
+keywords:
+- Aspose.Slides Java
+- creating charts in Java
+- exporting chart data with Aspose
+title: Cách tạo biểu đồ với Aspose.Slides Java
+url: /vi/java/charts-graphs/aspose-slides-java-chart-creation-exportation/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,36 +17,44 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Tạo và xuất biểu đồ bằng Aspose.Slides Java
+# Cách Tạo Biểu Đồ Sử Dụng Aspose.Slides cho Java
 
-**Kỹ thuật trực quan hóa dữ liệu chính với Aspose.Slides cho Java**
+**Nắm Vững Các Kỹ Thuật Trực Quan Dữ Liệu với Aspose.Slides cho Java**
 
-Trong bối cảnh dữ liệu ngày nay, trực quan hóa dữ liệu hiệu quả là điều cần thiết để đưa ra quyết định sáng suốt. Tích hợp các chức năng biểu đồ vào ứng dụng Java của bạn có thể chuyển đổi dữ liệu thô thành những câu chuyện trực quan hấp dẫn. Hướng dẫn này sẽ hướng dẫn bạn cách tạo và xuất biểu đồ bằng Aspose.Slides for Java, đảm bảo bài thuyết trình của bạn vừa mang tính thông tin vừa hấp dẫn về mặt trực quan.
+Trong bối cảnh dữ liệu chi phối ngày nay, *how to create chart* một cách lập trình là một kỹ năng có thể biến các con số thô thành những câu chuyện hình ảnh hấp dẫn. Cho dù bạn đang xây dựng một bộ slide báo cáo kinh doanh hay một bảng điều khiển phân tích tương tác, Aspose.Slides cho Java cung cấp cho bạn khả năng tạo, tùy chỉnh và xuất biểu đồ trực tiếp từ mã của mình. Trong hướng dẫn này, bạn sẽ học cách tạo các đối tượng biểu đồ, xuất dữ liệu biểu đồ sang Excel, và liên kết biểu đồ với các workbook bên ngoài để quản lý dữ liệu liền mạch.
 
-**Những gì bạn sẽ học được:**
-- Tải và thao tác các tập tin trình bày một cách dễ dàng
-- Thêm nhiều loại biểu đồ khác nhau vào slide của bạn
-- Xuất dữ liệu biểu đồ sang sổ làm việc bên ngoài một cách liền mạch
-- Thiết lập đường dẫn sổ làm việc bên ngoài để quản lý dữ liệu hiệu quả
+## Câu Trả Lời Nhanh
+- **Thư viện cần thiết là gì?** Aspose.Slides for Java (v25.4+).  
+- **Tôi có thể xuất dữ liệu biểu đồ sang Excel không?** Có – sử dụng `readWorkbookStream()` và ghi các byte vào một tệp *.xlsx*.  
+- **Phiên bản Java nào được yêu cầu?** JDK 16 hoặc cao hơn.  
+- **Tôi có cần giấy phép không?** Bản dùng thử miễn phí đủ cho việc đánh giá; giấy phép vĩnh viễn cần thiết cho môi trường sản xuất.  
+- **Loại biểu đồ nào được minh họa?** Biểu đồ Pie, nhưng cùng một cách tiếp cận cũng áp dụng cho Bar, Line và các loại biểu đồ khác.
 
-Chúng ta hãy bắt đầu nhé!
+## Aspose.Slides cho Java là gì?
+Aspose.Slides cho Java là một API thuần Java cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi các bản trình bày PowerPoint mà không cần Microsoft Office. Nó hỗ trợ đầy đủ các loại biểu đồ, ràng buộc dữ liệu và khả năng xuất, làm cho nó trở thành lựa chọn lý tưởng cho các dự án **data visualization java**.
 
-## Điều kiện tiên quyết
-Trước khi bắt đầu, hãy đảm bảo bạn đã chuẩn bị sẵn các thiết lập sau:
+## Tại sao nên sử dụng Aspose.Slides để tạo biểu đồ và xuất biểu đồ sang Excel?
+- **Không cần cài đặt Office** – hoạt động trên bất kỳ máy chủ hoặc môi trường đám mây nào.  
+- **Thư viện biểu đồ phong phú** – hàng chục loại biểu đồ và kiểm soát đầy đủ về kiểu dáng.  
+- **Xuất Excel trực tiếp** – tạo một workbook bên ngoài cho việc phân tích tiếp theo.  
+- **Hướng tới hiệu năng** – tiêu thụ bộ nhớ thấp và xử lý nhanh cho các bộ slide lớn.
 
-### Thư viện và phiên bản bắt buộc
+## Yêu Cầu Trước
+Trước khi chúng ta bắt đầu, hãy chắc chắn rằng bạn có những thứ sau:
+
+### Thư viện và Phiên bản Yêu Cầu
 - **Aspose.Slides cho Java** phiên bản 25.4 trở lên
 
-### Yêu cầu thiết lập môi trường
-- Bộ phát triển Java (JDK) 16 trở lên
-- Một trình soạn thảo mã hoặc IDE như IntelliJ IDEA hoặc Eclipse
+### Yêu Cầu Thiết Lập Môi Trường
+- Java Development Kit (JDK) 16 hoặc cao hơn  
+- Một IDE như IntelliJ IDEA hoặc Eclipse (hoặc bất kỳ trình soạn thảo văn bản nào bạn thích)
 
-### Điều kiện tiên quyết về kiến thức
-- Hiểu biết cơ bản về lập trình Java
-- Quen thuộc với hệ thống xây dựng Maven hoặc Gradle
+### Kiến Thức Yêu Cầu
+- Kiến thức cơ bản về lập trình Java  
+- Quen thuộc với các công cụ xây dựng Maven hoặc Gradle
 
-## Thiết lập Aspose.Slides cho Java
-Để bắt đầu sử dụng Aspose.Slides, bạn cần đưa nó vào dự án của mình. Sau đây là cách thực hiện:
+## Cài Đặt Aspose.Slides cho Java
+Thêm thư viện vào dự án của bạn bằng hệ thống xây dựng yêu thích.
 
 **Maven**
 ```xml
@@ -52,62 +66,56 @@ Trước khi bắt đầu, hãy đảm bảo bạn đã chuẩn bị sẵn các 
 </dependency>
 ```
 
-**Tốt nghiệp**
+**Gradle**
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Ngoài ra, bạn có thể [tải xuống phiên bản mới nhất trực tiếp](https://releases.aspose.com/slides/java/).
+Hoặc bạn có thể [tải phiên bản mới nhất trực tiếp](https://releases.aspose.com/slides/java/).
 
-### Các bước xin cấp giấy phép
-Aspose.Slides cung cấp giấy phép dùng thử miễn phí để khám phá toàn bộ khả năng của nó. Bạn cũng có thể đăng ký giấy phép tạm thời hoặc mua giấy phép để sử dụng lâu dài. Thực hiện theo các bước sau:
-1. Ghé thăm [Trang mua hàng Aspose](https://purchase.aspose.com/buy) để có được giấy phép của bạn.
-2. Để dùng thử miễn phí, hãy tải xuống từ [Phát hành](https://releases.aspose.com/slides/java/).
-3. Xin giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
+### Các Bước Nhận Giấy Phép
+Aspose.Slides cung cấp giấy phép dùng thử miễn phí để khám phá toàn bộ khả năng của nó. Bạn cũng có thể xin giấy phép tạm thời hoặc mua một giấy phép cho việc sử dụng kéo dài. Thực hiện các bước sau:
 
-Sau khi có tệp giấy phép, hãy khởi tạo nó trong ứng dụng Java của bạn:
+1. Truy cập [trang mua Aspose](https://purchase.aspose.com/buy) để lấy giấy phép của bạn.  
+2. Đối với bản dùng thử miễn phí, tải xuống từ [Releases](https://releases.aspose.com/slides/java/).  
+3. Xin giấy phép tạm thời [tại đây](https://purchase.aspose.com/temporary-license/).
+
+Khi đã có tệp giấy phép, khởi tạo nó trong ứng dụng Java của bạn:
+
 ```java
 com.aspose.slides.License license = new com.aspose.slides.License();
 license.setLicense("path/to/your/license/file.lic");
 ```
 
-## Hướng dẫn thực hiện
-### Tính năng 1: Tải bài trình bày
-Tải bản trình bày là bước đầu tiên của bất kỳ tác vụ thao tác nào.
+## Hướng Dẫn Từng Bước
 
-#### Tổng quan
-Tính năng này trình bày cách tải tệp PowerPoint hiện có bằng Aspose.Slides for Java.
+### Cách tạo biểu đồ – Tải một Bản Trình Bày
+Việc tải một tệp PowerPoint hiện có là bước đầu tiên trước khi bạn có thể thêm hoặc chỉnh sửa biểu đồ.
 
-#### Thực hiện từng bước
-**Thêm biểu đồ vào trang chiếu**
 ```java
 import com.aspose.slides.Presentation;
 
 public class Feature1 {
     public static void main(String[] args) {
-        // Đặt đường dẫn đến thư mục tài liệu của bạn
+        // Set the path to your document directory
         String dataDir = "YOUR_DOCUMENT_DIRECTORY";
         
-        // Tải một bài thuyết trình hiện có
+        // Load an existing presentation
         Presentation pres = new Presentation(dataDir + "/presentation.pptx");
         
-        // Dọn dẹp tài nguyên
+        // Clean up resources
         if (pres != null) pres.dispose();
     }
 }
 ```
-**Giải thích:**
-- `Presentation` được khởi tạo với đường dẫn đến `.pptx` tài liệu.
-- Luôn luôn vứt bỏ `Presentation` phản đối việc cung cấp tài nguyên miễn phí.
 
-### Tính năng 2: Thêm biểu đồ vào trang chiếu
-Việc thêm biểu đồ có thể cải thiện đáng kể việc trình bày dữ liệu.
+**Giải thích:**  
+- `Presentation` đại diện cho tệp PowerPoint.  
+- Luôn gọi `dispose()` để giải phóng tài nguyên gốc.
 
-#### Tổng quan
-Tính năng này hướng dẫn cách thêm biểu đồ hình tròn vào trang chiếu đầu tiên của bài thuyết trình.
+### Cách tạo biểu đồ – Thêm Biểu Đồ Pie vào Slide
+Bây giờ chúng ta sẽ chèn một biểu đồ Pie, rất phù hợp để hiển thị dữ liệu tỷ lệ.
 
-#### Thực hiện từng bước
-**Thêm biểu đồ vào trang chiếu**
 ```java
 import com.aspose.slides.ChartType;
 import com.aspose.slides.IChart;
@@ -115,12 +123,12 @@ import com.aspose.slides.Presentation;
 
 public class Feature2 {
     public static void main(String[] args) {
-        // Đặt đường dẫn đến thư mục tài liệu của bạn
+        // Set the path to your document directory
         String dataDir = "YOUR_DOCUMENT_DIRECTORY";
         
         Presentation pres = new Presentation(dataDir + "/presentation.pptx");
         try {
-            // Thêm biểu đồ hình tròn tại vị trí (50, 50) với chiều rộng 400 và chiều cao 600
+            // Add a Pie chart at position (50, 50) with width 400 and height 600
             IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
                 ChartType.Pie, 50, 50, 400, 600);
         } finally {
@@ -129,18 +137,14 @@ public class Feature2 {
     }
 }
 ```
-**Giải thích:**
-- `addChart` phương pháp này được sử dụng để chèn biểu đồ hình tròn.
-- Các tham số bao gồm loại biểu đồ và vị trí/kích thước của biểu đồ trên trang chiếu.
 
-### Tính năng 3: Xuất dữ liệu biểu đồ sang sổ làm việc bên ngoài
-Việc xuất dữ liệu cho phép phân tích sâu hơn bên ngoài PowerPoint.
+**Giải thích:**  
+- `addChart` chèn biểu đồ vào slide đầu tiên.  
+- Các tham số xác định loại biểu đồ, vị trí X/Y và kích thước.
 
-#### Tổng quan
-Tính năng này minh họa cách xuất dữ liệu biểu đồ từ bản trình bày sang bảng tính Excel bên ngoài.
+### Cách xuất biểu đồ sang Excel – Xuất Dữ Liệu Biểu Đồ
+Việc xuất dữ liệu biểu đồ cho phép các nhà phân tích làm việc với các con số trong Excel, tạo ra những hiểu biết sâu hơn.
 
-#### Thực hiện từng bước
-**Xuất dữ liệu**
 ```java
 import com.aspose.slides.IChart;
 import java.io.File;
@@ -151,21 +155,21 @@ import com.aspose.slides.Presentation;
 
 public class Feature3 {
     public static void main(String[] args) {
-        // Đặt đường dẫn đến thư mục tài liệu và thư mục đầu ra của bạn
+        // Set the path to your document directory and output directory
         String dataDir = "YOUR_DOCUMENT_DIRECTORY";
         
         Presentation pres = new Presentation(dataDir + "/presentation.pptx");
         try {
-            // Truy cập biểu đồ của slide đầu tiên
+            // Access the first slide's chart
             IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
                 com.aspose.slides.ChartType.Pie, 50, 50, 400, 600);
             
-            // Xác định đường dẫn cho sổ làm việc bên ngoài
+            // Define the path for the external workbook
             String externalWbPath = dataDir + "/externalWorkbook1.xlsx";
             File file = new File(externalWbPath);
             if (file.exists()) file.delete();
             
-            // Xuất dữ liệu biểu đồ sang luồng Excel
+            // Export chart data to an Excel stream
             byte[] workbookData = chart.getChartData().readWorkbookStream();
             FileOutputStream outputStream = new FileOutputStream(file);
             outputStream.write(workbookData);
@@ -180,34 +184,30 @@ public class Feature3 {
     }
 }
 ```
-**Giải thích:**
-- `readWorkbookStream` trích xuất dữ liệu biểu đồ.
-- Dữ liệu được ghi vào tệp Excel bằng cách sử dụng `FileOutputStream`.
 
-### Tính năng 4: Thiết lập sổ làm việc bên ngoài cho dữ liệu biểu đồ
-Việc liên kết biểu đồ với sổ làm việc bên ngoài có thể hợp lý hóa việc quản lý dữ liệu.
+**Giải thích:**  
+- `readWorkbookStream()` trích xuất workbook Excel nền tảng của biểu đồ dưới dạng mảng byte.  
+- Mảng byte này được ghi vào `externalWorkbook1.xlsx`, cung cấp cho bạn một tệp Excel sẵn sàng sử dụng.
 
-#### Tổng quan
-Tính năng này minh họa cách thiết lập đường dẫn sổ làm việc bên ngoài để lưu trữ dữ liệu biểu đồ.
+### Cách tạo biểu đồ – Đặt Workbook Ngoài để Dữ Liệu Động
+Liên kết một biểu đồ với workbook bên ngoài cho phép bạn cập nhật biểu đồ chỉ bằng cách chỉnh sửa tệp Excel.
 
-#### Thực hiện từng bước
-**Đặt Đường dẫn Sổ làm việc Bên ngoài**
 ```java
 import com.aspose.slides.IChart;
 import com.aspose.slides.Presentation;
 
 public class Feature4 {
     public static void main(String[] args) {
-        // Đặt đường dẫn đến thư mục tài liệu của bạn
+        // Set the path to your document directory
         String dataDir = "YOUR_DOCUMENT_DIRECTORY";
         
         Presentation pres = new Presentation(dataDir + "/presentation.pptx");
         try {
-            // Truy cập biểu đồ của slide đầu tiên
+            // Access the first slide's chart
             IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
                 com.aspose.slides.ChartType.Pie, 50, 50, 400, 600);
             
-            // Xác định và thiết lập đường dẫn cho sổ làm việc bên ngoài
+            // Define and set the path for the external workbook
             String externalWbPath = dataDir + "/externalWorkbook1.xlsx";
             chart.getChartData().setExternalWorkbook(externalWbPath);
         } finally {
@@ -216,16 +216,45 @@ public class Feature4 {
     }
 }
 ```
-**Giải thích:**
-- `setExternalWorkbook` liên kết biểu đồ với tệp Excel, cho phép cập nhật dữ liệu động.
 
-## Ứng dụng thực tế
-Aspose.Slides cung cấp các giải pháp đa năng cho nhiều tình huống khác nhau:
+**Giải thích:**  
+- `setExternalWorkbook` gắn biểu đồ với tệp Excel được chỉ định, cho phép cập nhật dữ liệu trực tiếp mà không cần xây dựng lại slide.
 
-1. **Báo cáo kinh doanh:** Tạo báo cáo chi tiết có biểu đồ trực tiếp từ ứng dụng Java.
-2. **Bài thuyết trình học thuật:** Tăng cường nội dung giáo dục bằng biểu đồ tương tác.
-3. **Phân tích tài chính:** Xuất dữ liệu tài chính sang Excel để phân tích chuyên sâu.
-4. **Phân tích tiếp thị:** Trực quan hóa hiệu suất chiến dịch bằng biểu đồ động.
+## Ứng Dụng Thực Tế
+Aspose.Slides cung cấp các giải pháp đa dạng cho nhiều tình huống thực tế:
+
+1. **Business Report Slides:** Tự động tạo các biểu đồ hiệu suất quý từ các pipeline dữ liệu của bạn.  
+2. **Academic Presentations:** Chuyển dữ liệu nghiên cứu thành các hình ảnh trực quan rõ ràng mà không cần vẽ biểu đồ thủ công.  
+3. **Financial Analysis:** Xuất dữ liệu biểu đồ sang Excel để các kiểm toán viên xác minh số liệu.  
+4. **Marketing Analytics:** Trực quan hoá các chỉ số chiến dịch và chia sẻ workbook có thể chỉnh sửa với các bên liên quan.
+
+## Các Vấn Đề Thường Gặp & Khắc Phục
+- **`FileNotFoundException`** – Kiểm tra xem `dataDir` có trỏ tới thư mục hợp lệ và đường dẫn xuất có thể ghi được không.  
+- **Memory leaks** – Luôn gọi `pres.dispose()` trong khối `finally` để giải phóng tài nguyên gốc.  
+- **Chart not appearing** – Đảm bảo chỉ số slide (`get_Item(0)`) khớp với một slide thực sự tồn tại.
+
+## Câu Hỏi Thường Gặp
+
+**Q: Tôi có thể sử dụng loại biểu đồ khác (ví dụ: Bar, Line) với cùng một đoạn mã không?**  
+A: Có. Thay `ChartType.Pie` bằng bất kỳ giá trị enum `ChartType` nào khác như `ChartType.Bar` hoặc `ChartType.Line`.
+
+**Q: Có thể cập nhật workbook bên ngoài sau khi biểu đồ đã được tạo không?**  
+A: Chắc chắn. Chỉnh sửa tệp Excel trực tiếp; biểu đồ liên kết sẽ phản ánh các thay đổi khi mở lại bản trình bày.
+
+**Q: Tôi có cần giấy phép riêng cho tính năng xuất Excel không?**  
+A: Không. Khả năng xuất Excel đã được bao gồm trong giấy phép tiêu chuẩn của Aspose.Slides cho Java.
+
+**Q: Các phiên bản Java nào được hỗ trợ?**  
+A: Aspose.Slides cho Java hỗ trợ JDK 16 và mới hơn; các phiên bản cũ hơn có thể hoạt động nhưng không được kiểm tra chính thức.
+
+**Q: Làm thế nào để nhúng workbook Excel đã tạo vào trong tệp PPTX?**  
+A: Sử dụng `chart.getChartData().setExternalWorkbook(null)` để nhúng workbook, hoặc giữ liên kết bên ngoài để cập nhật động.
+
+---
+
+**Cập Nhật Cuối Cùng:** 2026-02-09  
+**Đã Kiểm Tra Với:** Aspose.Slides cho Java 25.4 (jdk16 classifier)  
+**Tác Giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

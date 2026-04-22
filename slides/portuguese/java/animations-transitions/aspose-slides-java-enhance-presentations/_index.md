@@ -1,13 +1,15 @@
 ---
-date: '2025-12-10'
-description: Aprenda como adicionar texto a uma tabela e desenhar molduras ao redor
-  do texto no PowerPoint usando Aspose.Slides for Java. Este guia aborda a criação
-  de tabelas, o ajuste do alinhamento do texto e a moldura do conteúdo.
+date: '2026-02-09'
+description: Aprenda a desenhar molduras ao redor do texto e a adicionar texto às
+  células de tabelas no PowerPoint usando Aspose.Slides for Java. Este tutorial aborda
+  a criação de tabelas, o ajuste do alinhamento de texto e a gravação da apresentação
+  como pptx.
 keywords:
 - Aspose.Slides for Java
 - table manipulation in presentations
 - frame drawing in PowerPoint
-title: Aspose.Slides para Java – adicionar texto à tabela e manipulação de quadros
+title: Como desenhar quadros e adicionar texto a uma tabela com Aspose.Slides para
+  Java
 url: /pt/java/animations-transitions/aspose-slides-java-enhance-presentations/
 weight: 1
 ---
@@ -17,26 +19,34 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Dominando a Manipulação de Tabelas e Molduras em Apresentações com Aspose.Slides para Java
+# Como desenhar quadros e adicionar texto a tabelas em apresentações com Aspose.Slides para Java
 
-## Introdução
+## Introduction
 
-Apresentar dados de forma eficaz pode ser desafiador no PowerPoint. Seja você um desenvolvedor de software ou um designer de apresentações, **add text to table** células e desenhe molduras ao redor de parágrafos importantes para fazer seus slides se destacarem. Neste tutorial você verá exatamente como **add text to table**, alinhar o texto e desenhar molduras ao redor do texto — tudo com Aspose.Slides para Java. Ao final, você será capaz de criar decks polidos que destacam as informações certas no momento certo.
+Apresentar dados de forma clara no PowerPoint pode ser um verdadeiro obstáculo, especialmente quando você precisa **adicionar texto a tabelas** e destacar valores importantes com recursos visuais. Neste guia você aprenderá **como desenhar quadros** ao redor de parágrafos específicos, definir o alinhamento de texto dentro de formas e, finalmente, **salvar a apresentação como pptx** — tudo usando Aspose.Slides para Java. Ao final, você terá um conjunto de slides polido que direciona o olhar da audiência exatamente onde você deseja.
 
-Pronto para transformar suas apresentações? Vamos começar!
+Pronto para fazer seus slides se destacarem? Vamos percorrer o processo passo a passo.
 
-## Respostas Rápidas
-- **What does “add text to table” mean?** Significa inserir ou atualizar o conteúdo textual de células individuais da tabela programaticamente.  
-- **Which method saves the file?** `pres.save("output.pptx", SaveFormat.Pptx)` – este **save presentation as pptx** passo finaliza suas alterações.  
-- **How can I align text inside a shape?** Como posso alinhar texto dentro de uma forma? Use `TextAlignment.Left` (or Center/Right) via `autoShape.getTextFrame().getParagraphs().get_Item(0).getParagraphFormat().setAlignment(...)`.  
-- **Can I draw a rectangle around a paragraph?** Posso desenhar um retângulo ao redor de um parágrafo? Yes – iterate over paragraphs, get their bounding rectangle, and add an `IAutoShape` with no fill and a black line.  
-- **Do I need a license?** Preciso de uma licença? A temporary license works for evaluation; a full license is required for production use.
+## Quick Answers
+- **O que significa “add text to table”?** Significa inserir ou atualizar o conteúdo textual de células individuais de tabela programaticamente.  
+- **Qual método salva o arquivo?** `pres.save("output.pptx", SaveFormat.Pptx)` – esta etapa de **save presentation as pptx** finaliza suas alterações.  
+- **Como posso alinhar texto dentro de uma forma?** Use `TextAlignment.Left` (ou Center/Right) via `autoShape.getTextFrame().getParagraphs().get_Item(0).getParagraphFormat().setAlignment(...)`.  
+- **Posso desenhar um retângulo ao redor de um parágrafo?** Sim – itere sobre os parágrafos, obtenha seu retângulo delimitador e adicione um `IAutoShape` sem preenchimento e com linha preta.  
+- **Preciso de uma licença?** Uma licença temporária funciona para avaliação; uma licença completa é necessária para uso em produção.  
 
-## Pré-requisitos
+## Why draw frames around text?
 
-Antes de mergulhar no código, certifique-se de ter o seguinte:
+Desenhar um quadro (ou retângulo) ao redor de um parágrafo ou de uma porção específica (por exemplo, qualquer texto contendo o caractere **'0'**) chama imediatamente a atenção. Esta técnica é ideal para:
 
-### Bibliotecas Necessárias
+- Destacar números financeiros chave em uma tabela.  
+- Enfatizar avisos ou notas importantes em um slide.  
+- Criar separadores visuais sem adicionar formas extras manualmente.
+
+## Prerequisites
+
+Antes de mergulhar no código, certifique-se de que você tem o seguinte:
+
+### Required Libraries
 Você precisará do Aspose.Slides para Java. Veja como incluí-lo usando Maven ou Gradle:
 
 **Maven:**
@@ -54,23 +64,23 @@ Você precisará do Aspose.Slides para Java. Veja como incluí-lo usando Maven o
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Configuração do Ambiente
+### Environment Setup
 Certifique-se de ter um Java Development Kit (JDK) instalado, de preferência JDK 16 ou superior, pois este exemplo usa o classificador `jdk16`.
 
-### Pré-requisitos de Conhecimento
+### Knowledge Prerequisites
 - Compreensão básica de programação Java.  
 - Familiaridade com softwares de apresentação como PowerPoint.  
-- Experiência no uso de um Ambiente de Desenvolvimento Integrado (IDE) como IntelliJ IDEA ou Eclipse.
+- Experiência usando um Ambiente de Desenvolvimento Integrado (IDE) como IntelliJ IDEA ou Eclipse.
 
-## Configurando Aspose.Slides para Java
+## Setting Up Aspose.Slides for Java
 
 Para começar a usar o Aspose.Slides, siga estas etapas:
 
-1. **Instalar a Biblioteca**: Use Maven ou Gradle para gerenciar dependências, ou faça o download direto de [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+1. **Instalar a Biblioteca**: Use Maven ou Gradle para gerenciar dependências, ou faça o download diretamente de [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-2. **Aquisição de Licença**:
+2. **License Acquisition**:
    - Comece com um teste gratuito baixando uma licença temporária em [Temporary License](https://purchase.aspose.com/temporary-license/).
-   - Para acesso total, considere comprar uma licença em [Purchase Aspose.Slides](https://purchase.aspose.com/buy).
+   - Para acesso total, considere adquirir uma licença em [Purchase Aspose.Slides](https://purchase.aspose.com/buy).
 
 3. **Inicialização Básica**:
 Inicialize seu ambiente de apresentação com o trecho de código a seguir:
@@ -85,18 +95,14 @@ try {
 }
 ```
 
-## Por que adicionar texto à tabela e desenhar molduras?
+## How to Add Text to Table in Aspose.Slides for Java
 
-Adicionar texto a uma tabela permite apresentar dados estruturados de forma clara, enquanto desenhar molduras ao redor de parágrafos ou trechos específicos (por exemplo, aqueles que contêm o caractere **'0'**) atrai o olhar do público para valores importantes. Essa combinação é perfeita para relatórios financeiros, dashboards ou qualquer slide onde você precise destacar números chave sem poluição visual.
+### Feature 1: Create Table and Add Text to Cells
 
-## Como adicionar texto à tabela no Aspose.Slides para Java
+#### Overview
+Este recurso demonstra como **criar tabela**, então **adicionar texto a tabelas** nas células e, posteriormente, **salvar a apresentação como pptx**.
 
-### Recurso 1: Criar Tabela e Adicionar Texto às Células
-
-#### Visão Geral
-Este recurso demonstra como **how to create table**, então **add text to table** células e depois **save presentation as pptx**.
-
-#### Passos
+#### Steps
 
 **1. Criar uma Tabela**  
 Primeiro, inicialize sua apresentação e adicione uma tabela na posição (50, 50) com larguras de coluna e alturas de linha especificadas.
@@ -108,7 +114,7 @@ try {
 ```
 
 **2. Adicionar Texto às Células**  
-Crie parágrafos com trechos de texto e adicione-os a uma célula específica.
+Crie parágrafos com porções de texto e adicione-os a uma célula específica.
 ```java
     IParagraph paragraph0 = new Paragraph();
     paragraph0.getPortions().add(new Portion("Text "));
@@ -135,12 +141,12 @@ Crie parágrafos com trechos de texto e adicione-os a uma célula específica.
 }
 ```
 
-### Recurso 2: Adicionar TextFrame ao AutoShape e Definir Alinhamento
+### Feature 2: Add TextFrame to AutoShape and Set Alignment
 
-#### Visão Geral
+#### Overview
 Aprenda como adicionar um quadro de texto com alinhamento específico a uma forma automática — um exemplo de **set text alignment java**.
 
-#### Passos
+#### Steps
 
 **1. Adicionar um AutoShape**  
 Adicione um retângulo como AutoShape na posição (400, 100) com dimensões especificadas.
@@ -152,7 +158,7 @@ try {
 ```
 
 **2. Definir Alinhamento de Texto**  
-Defina o texto como “Text in shape” e alinhe-o à esquerda.
+Defina o texto para “Text in shape” e alinhe-o à esquerda.
 ```java
     autoShape.getTextFrame().setText("Text in shape");
     autoShape.getTextFrame().getParagraphs().get_Item(0).getParagraphFormat().setAlignment(TextAlignment.Left);
@@ -166,12 +172,12 @@ Defina o texto como “Text in shape” e alinhe-o à esquerda.
 }
 ```
 
-### Recurso 3: Desenhar Molduras ao Redor de Parágrafos e Trechos em Células de Tabela
+### Feature 3: Draw Frames around Paragraphs and Portions in Table Cells
 
-#### Visão Geral
-Este recurso foca em **draw frames around text** e até mesmo **draw rectangle around paragraph** para trechos que contêm o caractere ‘0’.
+#### Overview
+Este recurso foca em **draw frames around text** e até mesmo **draw rectangle around paragraph** para porções contendo o caractere ‘0’.
 
-#### Passos
+#### Steps
 
 **1. Criar uma Tabela**  
 Reutilize o código de “Create Table and Add Text to Cells” para a configuração inicial.
@@ -202,8 +208,8 @@ Reutilize o código de criação de parágrafos do recurso anterior.
     cell.getTextFrame().getParagraphs().addAll(Arrays.asList(paragraph0, paragraph1, paragraph2));
 ```
 
-**3. Desenhar Molduras**  
-Itere sobre os parágrafos e trechos para desenhar molduras ao redor deles.
+**3. Desenhar Quadros**  
+Itere sobre os parágrafos e porções para desenhar quadros ao redor deles.
 ```java
     double x = tbl.getX() + cell.getOffsetX();
     double y = tbl.getY() + cell.getOffsetY();
@@ -229,36 +235,39 @@ Itere sobre os parágrafos e trechos para desenhar molduras ao redor deles.
 }
 ```
 
-## Conclusão
-Seguindo este guia, você pode **add text to table**, alinhar texto dentro de formas e **draw frames around text** para enfatizar informações importantes. Dominar essas técnicas permite criar apresentações altamente polidas e orientadas a dados com Aspose.Slides para Java. Para exploração adicional, experimente combinar esses recursos com gráficos, animações ou exportação para PDF.
+## Common Pitfalls & Tips
 
-## Perguntas Frequentes
+- **Verificações de null** – Sempre envolva o uso de `Presentation` em um bloco try‑finally para garantir que `pres.dispose()` seja executado e libere recursos nativos.  
+- **Precisão do retângulo delimitador** – O retângulo retornado por `para.getRect()` reflete o layout atual; se você alterar o tamanho da fonte ou margens, recalcule o retângulo antes de desenhar o quadro.  
+- **Desempenho** – Ao trabalhar com tabelas muito grandes, considere agrupar adições de formas ou reutilizar uma única instância de `IAutoShape` com geometria atualizada para reduzir o consumo de memória.
 
-**Q: Posso usar essas APIs com versões mais antigas do JDK?**  
+## Frequently Asked Questions
+
+**P: Posso usar essas APIs com versões mais antigas do JDK?**  
 R: A biblioteca suporta JDK 8 em diante, mas o classificador `jdk16` oferece o melhor desempenho em runtimes mais recentes.
 
-**Q: Como altero a cor da moldura?**  
+**P: Como altero a cor do quadro?**  
 R: Modifique a cor de preenchimento do formato de linha, por exemplo, `shape.getLineFormat().getFillFormat().setSolidFillColor(Color.BLUE);`.
 
-**Q: É possível exportar o slide final como imagem?**  
+**P: É possível exportar o slide final como imagem?**  
 R: Sim—use `pres.getSlides().get_Item(0).getImage(Export.ImageFormat.Png)` e então salve o array de bytes.
 
-**Q: E se eu precisar destacar apenas a palavra “Total” dentro de uma célula?**  
-R: Itere através de `cell.getTextFrame().getParagraphs()`, localize o trecho que contém “Total” e desenhe um retângulo ao redor da caixa delimitadora desse trecho.
+**P: E se eu precisar destacar apenas a palavra “Total” dentro de uma célula?**  
+R: Itere através de `cell.getTextFrame().getParagraphs()`, localize a porção que contém “Total” e desenhe um retângulo ao redor da caixa delimitadora dessa porção.
 
-**Q: O Aspose.Slides lida eficientemente com apresentações grandes?**  
-R: A API transmite dados e libera recursos quando `pres.dispose()` é chamado, o que ajuda no gerenciamento de memória para arquivos grandes.
+**P: O Aspose.Slides lida eficientemente com apresentações grandes?**  
+R: A API transmite dados em fluxo e libera recursos quando `pres.dispose()` é chamado, o que ajuda no gerenciamento de memória para arquivos grandes.
 
 ---
 
-{{< blocks/products/products-backtop-button >}}
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
-**Author:** Aspose  
+**Última atualização:** 2026-02-09  
+**Testado com:** Aspose.Slides for Java 25.4 (jdk16)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

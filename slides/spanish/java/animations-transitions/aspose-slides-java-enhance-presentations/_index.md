@@ -1,13 +1,14 @@
 ---
-date: '2025-12-10'
-description: Aprenda cómo agregar texto a una tabla y dibujar marcos alrededor del
-  texto en PowerPoint usando Aspose.Slides para Java. Esta guía cubre la creación
-  de tablas, la configuración de la alineación del texto y el encuadre del contenido.
+date: '2026-02-09'
+description: Aprenda a dibujar marcos alrededor del texto y a agregar texto a las
+  celdas de tabla en PowerPoint usando Aspose.Slides para Java. Este tutorial cubre
+  la creación de tablas, la configuración de la alineación del texto y el guardado
+  de la presentación como pptx.
 keywords:
 - Aspose.Slides for Java
 - table manipulation in presentations
 - frame drawing in PowerPoint
-title: Aspose.Slides para Java – agregar texto a tabla y manipulación de marcos
+title: Cómo dibujar marcos y agregar texto a una tabla con Aspose.Slides para Java
 url: /es/java/animations-transitions/aspose-slides-java-enhance-presentations/
 weight: 1
 ---
@@ -17,27 +18,35 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Dominar la Manipulación de Tablas y Marcos en Presentaciones con Aspose.Slides para Java
+# Cómo dibujar marcos y agregar texto a una tabla en presentaciones con Aspose.Slides para Java
 
 ## Introducción
 
-Presentar datos de manera eficaz puede ser un desafío en PowerPoint. Ya seas un desarrollador de software o un diseñador de presentaciones, **add text to table** celdas y dibujar marcos alrededor de párrafos clave para que tus diapositivas destaquen. En este tutorial verás exactamente cómo **add text to table**, alinearlo y dibujar marcos alrededor del texto — todo con Aspose.Slides para Java. Al final, podrás crear presentaciones pulidas que resaltan la información correcta en el momento adecuado.
+Presentar datos claramente en PowerPoint puede ser un verdadero obstáculo, especialmente cuando necesitas **add text to table** en celdas y resaltar valores importantes con indicaciones visuales. En esta guía aprenderás **cómo dibujar marcos** alrededor de párrafos específicos, establecer la alineación del texto dentro de formas y, finalmente, **guardar presentación como pptx** — todo usando Aspose.Slides para Java. Al final tendrás una presentación pulida que dirige la mirada de la audiencia exactamente donde deseas.
 
-¿Listo para transformar tus presentaciones? ¡Comencemos!
+¿Listo para que tus diapositivas destaquen? Repasemos el proceso paso a paso.
 
 ## Respuestas rápidas
-- **What does “add text to table” mean?** Significa insertar o actualizar el contenido textual de celdas individuales de una tabla de forma programática.  
-- **Which method saves the file?** `pres.save("output.pptx", SaveFormat.Pptx)` – this **save presentation as pptx** step finalizes your changes.  
-- **How can I align text inside a shape?** Usa `TextAlignment.Left` (o Center/Right) a través de `autoShape.getTextFrame().getParagraphs().get_Item(0).getParagraphFormat().setAlignment(...)`.  
-- **Can I draw a rectangle around a paragraph?** Sí – itera sobre los párrafos, obtén su rectángulo delimitador y agrega un `IAutoShape` sin relleno y con una línea negra.  
-- **Do I need a license?** Una licencia temporal funciona para evaluación; se requiere una licencia completa para uso en producción.
+- **¿Qué significa “agregar texto a la tabla”?** Significa insertar o actualizar el contenido textual de celdas individuales de la tabla de forma programática.
+- **¿Qué método guarda el archivo?** `pres.save("output.pptx", SaveFormat.Pptx)` – este paso **guarda la presentación como pptx** finaliza tus cambios.
+- **¿Cómo puedo alinear texto dentro de una forma?** Usa `TextAlignment.Left` (o Centro/Derecha) mediante `autoShape.getTextFrame().getParagraphs().get_Item(0).getParagraphFormat().setAlignment(...)`.
+- **¿Puedo dibujar un rectángulo alrededor de un párrafo?** Sí – itera sobre los párrafos, obtén su rectángulo delimitador y agrega un `IAutoShape` sin relleno y con una línea negra.
+- **¿Necesito una licencia?** Una licencia temporal funciona para evaluación; Se requiere una licencia completa para uso en producción.
+
+## ¿Por qué dibujar marcos alrededor del texto?
+
+Dibujar un marco (o rectángulo) alrededor de un párrafo o una porción específica (por ejemplo, cualquier texto que contenga el carácter **'0'**) atrae la atención de inmediato. Esta técnica es ideal para:
+
+- Resaltar cifras financieras clave en una tabla.
+- Enfatizar advertencias o notas importantes en una diapositiva.
+- Crear separadores visuales sin añadir formas adicionales manualmente.
 
 ## Requisitos previos
 
-Antes de sumergirte en el código, asegúrate de contar con lo siguiente:
+Antes de profundizar en el código, asegúrese de tener lo siguiente:
 
 ### Bibliotecas requeridas
-Necesitarás Aspose.Slides para Java. Aquí se muestra cómo incluirlo usando Maven o Gradle:
+Necesitarás Aspose.Slides para Java. Así es como puedes incluirlo usando Maven o Gradle:
 
 **Maven:**
 ```xml
@@ -55,24 +64,24 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 ```
 
 ### Configuración del entorno
-Asegúrate de tener instalado un Java Development Kit (JDK), preferiblemente JDK 16 o posterior, ya que este ejemplo usa el clasificador `jdk16`.
+Asegúrese de tener instalado un Java Development Kit (JDK), preferiblemente JDK16 o posterior, ya que este ejemplo usa el clasificador `jdk16`.
 
-### Prerrequisitos de conocimientos
-- Comprensión básica de la programación Java.  
-- Familiaridad con software de presentación como PowerPoint.  
+### Requisitos previos de conocimientos
+- Comprensión básica de la programación en Java.
+- Familiaridad con software de presentaciones como PowerPoint.
 - Experiencia usando un Entorno de Desarrollo Integrado (IDE) como IntelliJ IDEA o Eclipse.
 
-## Configuración de Aspose.Slides para Java
+## Configurando Aspose.Slides para Java
 
 Para comenzar a usar Aspose.Slides, sigue estos pasos:
 
-1. **Install the Library**: Usa Maven o Gradle para gestionar dependencias, o descárgalo directamente desde [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+1. **Instalar la biblioteca**: Usa Maven o Gradle para gestionar dependencias, o descárgalo directamente de [lanzamientos de Aspose.Slides para Java](https://releases.aspose.com/slides/java/).
 
-2. **License Acquisition**:
-   - Comienza con una prueba gratuita descargando una licencia temporal desde [Temporary License](https://purchase.aspose.com/temporary-license/).
-   - Para acceso completo, considera comprar una licencia en [Purchase Aspose.Slides](https://purchase.aspose.com/buy).
+2. **Adquisición de Licencia**: 
+- Comienza con una prueba gratuita descargando una licencia temporal de [Licencia temporal](https://purchase.aspose.com/temporary-license/). 
+- Para acceder completo, considere comprar una licencia en [Comprar Aspose.Slides](https://purchase.aspose.com/buy).
 
-3. **Basic Initialization**:
+3. **Inicialización básica**:
 Inicializa tu entorno de presentación con el siguiente fragmento de código:
 ```java
 import com.aspose.slides.*;
@@ -85,21 +94,17 @@ try {
 }
 ```
 
-## ¿Por qué agregar texto a la tabla y dibujar marcos?
+## Cómo agregar texto a una tabla en Aspose.Slides para Java
 
-Agregar texto a una tabla te permite presentar datos estructurados de forma clara, mientras que dibujar marcos alrededor de párrafos o porciones específicas (p. ej., aquellas que contienen el carácter **'0'**) dirige la atención del público a valores importantes. Esta combinación es perfecta para informes financieros, paneles de control o cualquier diapositiva donde necesites resaltar números clave sin desorden.
+### Característica 1: Crear tabla y agregar texto a celdas
 
-## Cómo agregar texto a la tabla en Aspose.Slides para Java
-
-### Función 1: Crear tabla y agregar texto a celdas
-
-#### Visión general
-Esta función muestra cómo **how to create table**, luego **add text to table** celdas y después **save presentation as pptx**.
+#### Descripción general
+Aplique este método para crear una tabla y agregar texto a celdas. Guarde la presentación como pptx.
 
 #### Pasos
 
-**1. Create a Table**  
-Primero, inicializa tu presentación y agrega una tabla en la posición (50, 50) con anchos de columna y alturas de fila especificados.
+**1. Crear una tabla**
+Primero, inicialice su presentación y agregue una tabla en la posición (50,50) con anchos de columna y alturas de fila específicos.
 ```java
 Presentation pres = new Presentation();
 try {
@@ -107,8 +112,8 @@ try {
         50, 50, new double[]{50, 70}, new double[]{50, 50, 50});
 ```
 
-**2. Add Text to Cells**  
-Crea párrafos con porciones de texto y añádelos a una celda específica.
+**2. Agregar texto a celdas**
+Cree párrafos con fragmentos de texto y agréguelos a una celda específica.
 ```java
     IParagraph paragraph0 = new Paragraph();
     paragraph0.getPortions().add(new Portion("Text "));
@@ -127,7 +132,7 @@ Crea párrafos con porciones de texto y añádelos a una celda específica.
     cell.getTextFrame().getParagraphs().addAll(Arrays.asList(paragraph0, paragraph1, paragraph2));
 ```
 
-**3. Save the Presentation**  
+**3. Guarde la presentación** 
 ```java
     pres.save("YOUR_OUTPUT_DIRECTORY/GetRect_Out.pptx", SaveFormat.Pptx);
 } finally {
@@ -135,15 +140,15 @@ Crea párrafos con porciones de texto y añádelos a una celda específica.
 }
 ```
 
-### Función 2: Agregar TextFrame a AutoShape y establecer alineación
+### Característica 2: Agregar marco de texto a la autoforma y establecer alineación
 
-#### Visión general
-Aprende a agregar un marco de texto con alineación específica a una autoforma—un ejemplo de **set text alignment java**.
+#### Descripción general
+Para ello, puede cambiar la forma automática del texto mediante **establecer alineación de texto en Java**.
 
 #### Pasos
 
-**1. Add an AutoShape**  
-Agrega un rectángulo como AutoShape en la posición (400, 100) con dimensiones especificadas.
+**1. Agregar una autoforma**
+Agregue un rectángulo como autoforma en la posición (400,100) con las dimensiones especificadas.
 ```java
 Presentation pres = new Presentation();
 try {
@@ -151,14 +156,14 @@ try {
         ShapeType.Rectangle, 400, 100, 60, 120);
 ```
 
-**2. Set Text Alignment**  
-Establece el texto a “Text in shape” y alinéalo a la izquierda.
+**2. Establecer alineación de texto**
+Establece el texto en "Texto en forma" y alinéalo a la izquierda.
 ```java
     autoShape.getTextFrame().setText("Text in shape");
     autoShape.getTextFrame().getParagraphs().get_Item(0).getParagraphFormat().setAlignment(TextAlignment.Left);
 ```
 
-**3. Save the Presentation**  
+**3. Guardar la presentación**  
 ```java
     pres.save("YOUR_OUTPUT_DIRECTORY/GetRect_Out.pptx", SaveFormat.Pptx);
 } finally {
@@ -166,15 +171,15 @@ Establece el texto a “Text in shape” y alinéalo a la izquierda.
 }
 ```
 
-### Función 3: Dibujar marcos alrededor de párrafos y porciones en celdas de tabla
+### Función 3: Dibujar marcos alrededor de párrafos y secciones en celdas de tabla
 
-#### Visión general
-Esta función se centra en **draw frames around text** e incluso **draw rectangle around paragraph** para porciones que contienen el carácter ‘0’.
+#### Descripción general
+**Dibujar marcos alrededor del texto** y **Dibujar rectángulos alrededor del párrafo** para las celdas con el valor ‘0’.
 
 #### Pasos
 
-**1. Create a Table**  
-Reutiliza el código de “Create Table and Add Text to Cells” para la configuración inicial.
+**1. Crear una tabla**
+Reutiliza el código de “Crear tabla y agregar texto a las celdas” para la configuración inicial.
 ```java
 Presentation pres = new Presentation();
 try {
@@ -182,7 +187,7 @@ try {
         50, 50, new double[]{50, 70}, new double[]{50, 50, 50});
 ```
 
-**2. Add Paragraphs**  
+**2. Agregar párrafos**
 Reutiliza el código de creación de párrafos de la función anterior.
 ```java
     IParagraph paragraph0 = new Paragraph();
@@ -202,8 +207,8 @@ Reutiliza el código de creación de párrafos de la función anterior.
     cell.getTextFrame().getParagraphs().addAll(Arrays.asList(paragraph0, paragraph1, paragraph2));
 ```
 
-**3. Draw Frames**  
-Itera sobre los párrafos y porciones para dibujar marcos alrededor de ellos.
+**3. Dibujar marcos**
+Recorre los párrafos y las secciones para dibujar marcos a su alrededor.
 ```java
     double x = tbl.getX() + cell.getOffsetX();
     double y = tbl.getY() + cell.getOffsetY();
@@ -221,7 +226,7 @@ Itera sobre los párrafos y porciones para dibujar marcos alrededor de ellos.
     }
 ```
 
-**4. Save the Presentation**  
+**4. Guardar la presentación**
 ```java
     pres.save("YOUR_OUTPUT_DIRECTORY/GetRect_Out.pptx", SaveFormat.Pptx);
 } finally {
@@ -229,36 +234,37 @@ Itera sobre los párrafos y porciones para dibujar marcos alrededor de ellos.
 }
 ```
 
-## Conclusión
-Al seguir esta guía, puedes **add text to table**, alinear texto dentro de formas y **draw frames around text** para enfatizar información importante. Dominar estas técnicas te permite crear presentaciones altamente pulidas y basadas en datos con Aspose.Slides para Java. Para seguir explorando, prueba combinar estas funciones con gráficos, animaciones o exportar a PDF.
+## Errores y consejos comunes
+
+- **Verificaciones nulas** – Siempre envuelve el uso de `Presentation` en un bloque try‑finally para asegurar que `pres.dispose()` se ejecute y libere los recursos nativos.
+- **Precisión del rectángulo delimitador** – El rectángulo devuelto por `para.getRect()` refleja el diseño actual; si cambias el tamaño de fuente o los márgenes, vuelve a calcular el rectángulo antes de dibujar el marco.
+- **Rendimiento** – Al trabajar con tablas muy grandes, considere agrupar la adición de formas o reutilizar una única instancia de `IAutoShape` con geometría actualizada para reducir la sobrecarga de memoria.
 
 ## Preguntas frecuentes
 
-**Q: Can I use these APIs with older JDK versions?**  
-A: La biblioteca soporta JDK 8 en adelante, pero el clasificador `jdk16` ofrece el mejor rendimiento en entornos más recientes.
+**P: ¿Puedo usar estas API con versiones anteriores de JDK?**
+R: La biblioteca soporta JDK8 en adelante, pero el clasificador `jdk16` brinda el mejor rendimiento en entornos más recientes.
 
-**Q: How do I change the frame color?**  
-A: Modifica el color de relleno del formato de línea, por ejemplo, `shape.getLineFormat().getFillFormat().setSolidFillColor(Color.BLUE);`.
+**P: ¿Cómo cambio el color del marco?**
+R: Modifique el color de relleno del formato de línea, por ejemplo, `shape.getLineFormat().getFillFormat().setSolidFillColor(Color.BLUE);`.
 
-**Q: Is it possible to export the final slide as an image?**  
-A: Sí—usa `pres.getSlides().get_Item(0).getImage(Export.ImageFormat.Png)` y luego guarda el arreglo de bytes.
+**P: ¿Es posible exportar la diapositiva final como imagen?**
+R: Sí—usa `pres.getSlides().get_Item(0).getImage(Export.ImageFormat.Png)` y luego guarda el arreglo de bytes.
 
-**Q: What if I need to highlight only the word “Total” inside a cell?**  
-A: Itera a través de `cell.getTextFrame().getParagraphs()`, localiza la porción que contiene “Total” y dibuja un rectángulo alrededor del cuadro delimitador de esa porción.
+**P: ¿Qué sucede si necesito resaltar solo la palabra "Total" dentro de una celda?**
+R: Itera a través de `cell.getTextFrame().getParagraphs()`, localiza la porción que contiene “Total” y dibuja un rectángulo alrededor del cuadro delimitador de esa porción.
 
-**Q: Does Aspose.Slides handle large presentations efficiently?**  
-A: La API transmite datos y libera recursos cuando se llama a `pres.dispose()`, lo que ayuda a la gestión de memoria para archivos grandes.
+**P: ¿Aspose.Slides maneja presentaciones grandes de manera eficiente?**
+R: La API transmite datos y libera recursos cuando se llama a `pres.dispose()`, lo que ayuda a la gestión de memoria en archivos grandes.
 
----
-
-{{< blocks/products/products-backtop-button >}}
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
-**Author:** Aspose  
+**Última actualización:** 2026-02-09
+**Probado con:** Aspose.Slides para Java 25.4 (jdk16)
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

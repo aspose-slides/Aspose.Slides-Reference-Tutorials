@@ -1,13 +1,13 @@
 ---
-date: '2025-12-10'
-description: เรียนรู้วิธีเพิ่มข้อความในตารางและวาดกรอบรอบข้อความใน PowerPoint ด้วย
-  Aspose.Slides for Java คู่มือนี้ครอบคลุมการสร้างตาราง การตั้งค่าการจัดแนวข้อความ
-  และการใส่กรอบให้กับเนื้อหา
+date: '2026-02-09'
+description: เรียนรู้วิธีวาดกรอบรอบข้อความและเพิ่มข้อความลงในเซลล์ตารางใน PowerPoint
+  โดยใช้ Aspose.Slides for Java การสอนนี้ครอบคลุมการสร้างตาราง การตั้งค่าการจัดแนวข้อความ
+  และการบันทึกงานนำเสนอเป็นไฟล์ pptx.
 keywords:
 - Aspose.Slides for Java
 - table manipulation in presentations
 - frame drawing in PowerPoint
-title: Aspose.Slides สำหรับ Java – เพิ่มข้อความในตารางและการจัดการเฟรม
+title: วิธีวาดกรอบและเพิ่มข้อความในตารางด้วย Aspose.Slides สำหรับ Java
 url: /th/java/animations-transitions/aspose-slides-java-enhance-presentations/
 weight: 1
 ---
@@ -17,27 +17,35 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# เชี่ยวชาญการจัดการตารางและกรอบในงานนำเสนอด้วย Aspose.Slides for Java
+# วิธีวาดกรอบข้อความในตารางในการนำเสนอด้วย Aspose.Slides สำหรับ Java
 
-## บทนำ
+## การแนะนำ
 
-การนำเสนอข้อมูลอย่างมีประสิทธิภาพอาจเป็นความท้าทายใน PowerPoint ไม่ว่าคุณจะเป็นนักพัฒนาซอฟต์แวร์หรือผู้ออกแบบงานนำเสนอ **add text to table** เซลล์และวาดกรอบรอบย่อหน้าที่สำคัญเพื่อทำให้สไลด์ของคุณโดดเด่น ในบทแนะนำนี้คุณจะได้เห็นวิธีการเพิ่มข้อความในตาราง การจัดแนวข้อความ และการวาดกรอบรอบข้อความ — ทั้งหมดด้วย Aspose.Slides for Java เมื่อเสร็จสิ้น คุณจะสามารถสร้างสไลด์ที่ดูเป็นมืออาชีพและเน้นข้อมูลที่สำคัญในเวลาที่เหมาะสม
+ในอดีตข้อมูลใน PowerPoint มักจะพบที่ความยากลำบากในบางครั้งเมื่อต้องใช้ **เพิ่มข้อความลงในตาราง** เซลล์และเน้นค่าที่สำคัญด้วยสัญญาณภาพในคู่มือนี้คุณจะได้เรียนรู้ **วิธีการวาดเฟรม** รอบย่อหน้าในองค์ประกอบของแนวแนวข้อความภายในรูปร่างและสุดท้าย **บันทึกการนำเสนอเป็น pptx** — ทั้งหมดการพิจารณา Aspose.Slides สำหรับ Java คุณจะมีชุดสไลด์นำเสนอและนำเสนอของผู้ชมตามที่ต้องการ
 
-พร้อมที่จะเปลี่ยนแปลงงานนำเสนอของคุณหรือยัง? มาเริ่มกันเลย!
+พร้อมทำให้วิดีโอของคุณโดดเด่นหรือยัง? มาดำเนินการตามขั้นตอนทีละขั้นตอนกันเถอะ
 
-## คำตอบอย่างรวดเร็ว
-- **What does “add text to table” mean?** It means inserting or updating the textual content of individual table cells programmatically.  
-- **Which method saves the file?** `pres.save("output.pptx", SaveFormat.Pptx)` – this **save presentation as pptx** step finalizes your changes.  
-- **How can I align text inside a shape?** Use `TextAlignment.Left` (or Center/Right) via `autoShape.getTextFrame().getParagraphs().get_Item(0).getParagraphFormat().setAlignment(...)`.  
-- **Can I draw a rectangle around a paragraph?** Yes – iterate over paragraphs, get their bounding rectangle, and add an `IAutoShape` with no fill and a black line.  
-- **Do I need a license?** A temporary license works for evaluation; a full license is required for production use.
+## คำตอบด่วน
+- ** “เพิ่มข้อความลงในตาราง” หมายความว่าอย่างไร** การแทรกหรืออัปเดตเนื้อหาข้อความในระดับแต่ละเซลล์โดยโปรแกรม
+- **วิธีใดที่จะบันทึกไฟล์** `pres.save("output.pptx", SaveFormat.Pptx)` – ค้นหา **save Presentation as pptx** สิ่งนี้ทำให้การเปลี่ยนแปลงของคุณเกิดขึ้นอีกครั้ง
+- **ฉันจะจัดแนวข้อความภายในรูปร่างได้อย่างไร** ใช้ `TextAlignment.Left` (หรือ Center/Right) ผ่าน `autoShape.getTextFrame().getParagraphs().get_Item(0).getParagraphFormat().setAlignment(...)`
+- **ฉันสามารถวาดรูปสี่เหลี่ยมผืนผ้ารอบย่อหน้าได้หรือไม่** ได้ – ทำการดำเนินการมากมายผ่านย่อหน้า, รับขอบเขตของพื้นที่และพื้นที่, แล้วเพิ่ม `IAutoShape` ที่ไม่มีการเติมสีและเส้นสีดำ
+- **Do I need a License?** เป็นเพียงชั่วคราวที่ใช้ได้กับระบบปฏิบัติการ; เราต้องใช้เวลาเต็มในผลิตภัณฑ์
+
+## ทำไมต้องวาดกรอบรอบข้อความ?
+
+หมายเหตุกรอบ (หรือสี่เหลี่ยม) ชั้นย่อหน้าหรือส่วนเฉพาะ (เช่นว่าสิ่งใดๆ ที่เป็นคำอธิบาย **'0'**) จะเป็นเพียงเทคนิคในทันทีที่เหมาะสำหรับ:
+
+- เน้นตัวเลขที่สำคัญในระดับ
+- เน้นคำเตือนหรือบันทึกสำคัญในสไลด์
+- สร้างตัวแบ่งภาพเพื่อเพิ่มรูปร่างเพิ่มเติม
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนจะลงลึกในโค้ด โปรดตรวจสอบว่าคุณมีสิ่งต่อไปนี้:
+การวินิจฉัยลงลึกในโค้ดกรุณาตรวจสอบคุณอีกครั้ง:
 
-### ไลบรารีที่จำเป็น
-คุณจะต้องใช้ Aspose.Slides for Java ด้านล่างนี้คือวิธีการรวมไลบรารีโดยใช้ Maven หรือ Gradle:
+### ห้องสมุดที่จำเป็น
+คุณจะต้องใช้ Aspose.Slides สำหรับ Java ก่อนวิธีการรวมเข้าด้วย Maven หรือ Gradle:
 
 **Maven:**
 ```xml
@@ -55,25 +63,24 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 ```
 
 ### การตั้งค่าสภาพแวดล้อม
-ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java Development Kit (JDK) แล้ว โดยแนะนำให้ใช้ JDK 16 หรือใหม่กว่า เนื่องจากตัวอย่างนี้ใช้ classifier `jdk16`.
+เมื่อคุณติดตั้ง Java Development Kit (JDK) ไว้แล้ว แนะนำให้ใช้ JDK16 หรือใหม่กว่าปกติตัวอย่างนี้ใช้ classifier `jdk16`
 
-### ความรู้เบื้องต้นที่จำเป็น
-- ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม Java  
-- ความคุ้นเคยกับซอฟต์แวร์นำเสนอเช่น PowerPoint  
-- ประสบการณ์การใช้ Integrated Development Environment (IDE) เช่น IntelliJ IDEA หรือ Eclipse  
+### ข้อกำหนดเบื้องต้นของความรู้
+- ความเข้าใจในลักษณะเดียวกับ Java
+- ขอนำเสนอเช่น PowerPoint.
+- มีประสบการณ์ใช้ Integrated Development Environment (IDE) เช่น IntelliJ IDEA หรือ Eclipse.
 
-## การตั้งค่า Aspose.Slides for Java
+## การตั้งค่า Aspose.Slides สำหรับ Java
 
-เพื่อเริ่มใช้ Aspose.Slides ให้ทำตามขั้นตอนต่อไปนี้:
+เพื่อเริ่มใช้ Aspose.Slides ต่อไปในขั้นตอนต่อไป:
 
-1. **Install the Library**: Use Maven or Gradle to manage dependencies, or download it directly from [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+1. **ติดตั้งไลบรารี**: ใช้ Maven หรือ Gradle เพื่อจัดการการพึ่งพาหรือดาวน์โหลดการดาวน์โหลด [Aspose.Slides สำหรับ Java releases](https://releases.aspose.com/slides/java/)
 
-2. **License Acquisition**:
-   - เริ่มต้นด้วยการทดลองใช้งานฟรีโดยดาวน์โหลดใบอนุญาตชั่วคราวจาก [Temporary License](https://purchase.aspose.com/temporary-license/).
-   - หากต้องการการเข้าถึงเต็มรูปแบบ ให้พิจารณาซื้อใบอนุญาตที่ [Purchase Aspose.Slides](https://purchase.aspose.com/buy).
+2. **การได้มาซึ่งใบอนุญาต**: 
+- ตลอดกาลแห่งความอร่อยใช้ฟรีโดยดาวน์โหลดในเวลาชั่วขณะจาก [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) 
+- สำหรับข้อมูลเพิ่มเติม โปรดพิจารณาซื้อทุกครั้งที่ [Purchase Aspose.Slides](https://purchase.aspose.com/buy)
 
-3. **Basic Initialization**:
-Initialize your presentation environment with the following code snippet:
+3. **การเริ่มต้นขั้นพื้นฐาน**: เริ่มต้นสภาพแวดล้อมการนำเสนอของคุณด้วยโค้ดตัวอย่างต่อไปนี้:
 ```java
 import com.aspose.slides.*;
 
@@ -85,21 +92,17 @@ try {
 }
 ```
 
-## ทำไมต้องเพิ่มข้อความในตารางและวาดกรอบ?
+## วิธีเพิ่มข้อความลงในตารางใน Aspose.Slides สำหรับ Java
 
-การเพิ่มข้อความในตารางช่วยให้คุณนำเสนอข้อมูลเชิงโครงสร้างได้อย่างชัดเจน ในขณะที่การวาดกรอบรอบย่อหน้าหรือส่วนที่เฉพาะเจาะจง (เช่น ส่วนที่มีอักขระ **'0'**) จะดึงความสนใจของผู้ชมไปยังค่าที่สำคัญ การผสมผสานนี้เหมาะอย่างยิ่งสำหรับรายงานการเงิน, แดชบอร์ด, หรือสไลด์ใด ๆ ที่ต้องการเน้นตัวเลขสำคัญโดยไม่ทำให้หน้าตรก
-
-## วิธีเพิ่มข้อความในตารางด้วย Aspose.Slides for Java
-
-### ฟีเจอร์ 1: สร้างตารางและเพิ่มข้อความในเซลล์
+### คุณสมบัติที่ 1: สร้างตารางและเพิ่มข้อความลงในเซลล์
 
 #### ภาพรวม
-ฟีเจอร์นี้สาธิตวิธี **how to create table**, จากนั้น **add text to table** เซลล์และต่อมาจะ **save presentation as pptx**.
+Tính năng này minh họa cách **create table**, sau đó **add text to table** vào các ô và cuối cùng **save presentation as pptx**.
 
 #### ขั้นตอน
 
-**1. Create a Table**  
-First, initialize your presentation and add a table at position (50, 50) with specified column widths and row heights.
+**1. สร้างตาราง**
+ขั้นแรก ให้เริ่มต้นงานนำเสนอของคุณและเพิ่มตารางที่ตำแหน่ง (50,50) โดยกำหนดความกว้างของคอลัมน์และความสูงของแถว
 ```java
 Presentation pres = new Presentation();
 try {
@@ -107,8 +110,8 @@ try {
         50, 50, new double[]{50, 70}, new double[]{50, 50, 50});
 ```
 
-**2. Add Text to Cells**  
-Create paragraphs with portions of text and add them to a specific cell.
+**2. เพิ่มข้อความลงในเซลล์**  
+สร้างย่อหน้าที่มีส่วนของข้อความและเพิ่มลงในเซลล์ที่กำหนด.
 ```java
     IParagraph paragraph0 = new Paragraph();
     paragraph0.getPortions().add(new Portion("Text "));
@@ -127,7 +130,7 @@ Create paragraphs with portions of text and add them to a specific cell.
     cell.getTextFrame().getParagraphs().addAll(Arrays.asList(paragraph0, paragraph1, paragraph2));
 ```
 
-**3. Save the Presentation**  
+**3. บันทึกการนำเสนอ**  
 ```java
     pres.save("YOUR_OUTPUT_DIRECTORY/GetRect_Out.pptx", SaveFormat.Pptx);
 } finally {
@@ -135,15 +138,15 @@ Create paragraphs with portions of text and add them to a specific cell.
 }
 ```
 
-### ฟีเจอร์ 2: เพิ่ม TextFrame ไปยัง AutoShape และตั้งค่าการจัดแนว
+### คุณสมบัติ 2: เพิ่ม TextFrame ให้กับรูปร่างอัตโนมัติและตั้งค่าการจัดตำแหน่ง
 
 #### ภาพรวม
-Learn how to add a text frame with specific alignment to an auto shape—an example of **set text alignment java**.
+Tìm hiểu cách thêm một khung văn běn với căn chỉnh cụ thể vào một auto shape—ví dụ của **ตั้งค่าการจัดตำแหน่งข้อความ java**.
 
 #### ขั้นตอน
 
-**1. Add an AutoShape**  
-Add a rectangle as an AutoShape at position (400, 100) with specified dimensions.
+**1. เพิ่มรูปร่างอัตโนมัติ**
+เพิ่มสี่เหลี่ยมเป็นรูปร่างอัตโนมัติที่ตำแหน่ง (400,100) ด้วยขนาดที่ระบุ
 ```java
 Presentation pres = new Presentation();
 try {
@@ -151,14 +154,14 @@ try {
         ShapeType.Rectangle, 400, 100, 60, 120);
 ```
 
-**2. Set Text Alignment**  
-Set the text to “Text in shape” and align it to the left.
+**2. ตั้งค่าการจัดแนวข้อความ**  
+ตั้งค่าข้อความเป็น “Text in shape” และจัดแนวซ้าย.
 ```java
     autoShape.getTextFrame().setText("Text in shape");
     autoShape.getTextFrame().getParagraphs().get_Item(0).getParagraphFormat().setAlignment(TextAlignment.Left);
 ```
 
-**3. Save the Presentation**  
+**3. บันทึกงานนำเสนอ**
 ```java
     pres.save("YOUR_OUTPUT_DIRECTORY/GetRect_Out.pptx", SaveFormat.Pptx);
 } finally {
@@ -166,15 +169,15 @@ Set the text to “Text in shape” and align it to the left.
 }
 ```
 
-### ฟีเจอร์ 3: วาดกรอบรอบย่อหน้าและส่วนในเซลล์ตาราง
+### คุณสมบัติที่ 3: วาดกรอบรอบย่อหน้าและส่วนต่างๆ ในเซลล์ตาราง
 
 #### ภาพรวม
-ฟีเจอร์นี้มุ่งเน้นที่ **draw frames around text** และแม้กระทั่ง **draw rectangle around paragraph** สำหรับส่วนที่มีอักขระ ‘0’.
+Tính năng này tập trung vào **draw frames around text** và thậm chí **draw rectangle around paragraph** cho các phần chứa ký tự ‘0’.
 
 #### ขั้นตอน
 
-**1. Create a Table**  
-Reuse the code from “Create Table and Add Text to Cells” for initial setup.
+**1. สร้างตาราง**
+ใช้โค้ดจาก “สร้างตารางและเพิ่มข้อความลงในเซลล์” สำหรับการตั้งค่าเริ่มต้น
 ```java
 Presentation pres = new Presentation();
 try {
@@ -182,8 +185,8 @@ try {
         50, 50, new double[]{50, 70}, new double[]{50, 50, 50});
 ```
 
-**2. Add Paragraphs**  
-Reuse the paragraph creation code from the previous feature.
+**2. เพิ่มย่อหน้า**
+ใช้โค้ดการสร้างย่อหน้าจากคุณสมบัติก่อนหน้า
 ```java
     IParagraph paragraph0 = new Paragraph();
     paragraph0.getPortions().add(new Portion("Text "));
@@ -202,8 +205,8 @@ Reuse the paragraph creation code from the previous feature.
     cell.getTextFrame().getParagraphs().addAll(Arrays.asList(paragraph0, paragraph1, paragraph2));
 ```
 
-**3. Draw Frames**  
-Iterate over paragraphs and portions to draw frames around them.
+**3. วาดกรอบ**
+วนซ้ำกับย่อหน้าและส่วนต่างๆ เพื่อวาดกรอบรอบๆ
 ```java
     double x = tbl.getX() + cell.getOffsetX();
     double y = tbl.getY() + cell.getOffsetY();
@@ -221,7 +224,7 @@ Iterate over paragraphs and portions to draw frames around them.
     }
 ```
 
-**4. Save the Presentation**  
+**4. บันทึกงานนำเสนอ** 
 ```java
     pres.save("YOUR_OUTPUT_DIRECTORY/GetRect_Out.pptx", SaveFormat.Pptx);
 } finally {
@@ -229,34 +232,39 @@ Iterate over paragraphs and portions to draw frames around them.
 }
 ```
 
-## สรุป
-โดยการทำตามคู่มือนี้ คุณสามารถ **add text to table**, จัดแนวข้อความภายในรูปทรง, และ **draw frames around text** เพื่อเน้นข้อมูลสำคัญ การเชี่ยวชาญเทคนิคเหล่านี้ทำให้คุณสร้างงานนำเสนอที่มีข้อมูลเชิงลึกและดูเป็นมืออาชีพด้วย Aspose.Slides for Java หากต้องการสำรวจต่อไป ลองผสานฟีเจอร์เหล่านี้กับแผนภูมิ, การเคลื่อนไหว, หรือการส่งออกเป็น PDF
+## ข้อผิดพลาดและเคล็ดลับทั่วไป
+
+- **Null checks** – อาหารห่อการใช้ `Presentation` ส่วนที่เหลือของบล็อก try‑finally `pres.dispose()` สมุนไพรและปล่อยทรัพยากรธรรมชาติ
+- **ความแม่นยำของสี่เหลี่ยมล้อมรอบ** – สี่เหลี่ยมที่ `paragetRect()` ตรงนี้จะสะท้อนกลับวางปัจจุบัน; ตรวจสอบการเปลี่ยนขนาดฟอนต์หรือระยะขอบ, คำนวณเครื่องคิดเลขใหม่ก่อนวาดกรอบ
+- **Performance** – ในกรณีที่มีระดับขนาดใหญ่มาก, พิจารณาเพิ่มรูปร่างเป็นชุดหรือใช้ `IAutoShape` คนเดียวที่อัปเดตรูปทรงเพื่อลดการใช้พลังงาน
 
 ## คำถามที่พบบ่อย
 
-**Q: Can I use these APIs with older JDK versions?**  
-A: ไลบรารีรองรับ JDK 8 ขึ้นไป แต่การใช้ classifier `jdk16` จะให้ประสิทธิภาพที่ดีที่สุดบน runtime รุ่นใหม่
+**ถาม: ฉันสามารถใช้ API เหล่านี้กับ JDK เวอร์ชันเก่าได้หรือไม่**
+A: ไลบรารีรองรับ JDK8 ขึ้นไป, แต่ลักษณนาม `jdk16` ให้ประสิทธิภาพที่ดีที่สุดบนรันไทม์รุ่นใหม่
 
-**Q: How do I change the frame color?**  
-A: แก้ไขสีของ line format เช่น `shape.getLineFormat().getFillFormat().setSolidFillColor(Color.BLUE);`.
+**Q: ฉันจะเปลี่ยนสีกรอบได้อย่างไร?**
+A: การออกแบบสีเติมของรูปแบบเส้น เช่น `shape.getLineFormat().getFillFormat().setSolidFillColor(Color.BLUE);`
 
-**Q: Is it possible to export the final slide as an image?**  
-A: ใช่ — ใช้ `pres.getSlides().get_Item(0).getImage(Export.ImageFormat.Png)` แล้วบันทึก byte array
+**ถาม: เป็นไปได้ไหมที่จะส่งออกสไลด์สุดท้ายเป็นรูปภาพ**
+ตอบ: ได้ — ใช้ `pres.getSlides().get_Item(0).getImage(Export.ImageFormat.Png)` แล้วบันทึกอาเรย์กรีดร้อง
 
-**Q: What if I need to highlight only the word “Total” inside a cell?**  
-A: ทำการวนลูป `cell.getTextFrame().getParagraphs()`, ค้นหา portion ที่มีคำว่า “Total”, แล้ววาดสี่เหลี่ยมรอบ bounding box ของ portion นั้น
+**ถาม: จะต้องทำอย่างไรหากจำเป็น เน้นเฉพาะคำว่า "ทั้งหมด" ภายในเซลล์ใช่ไหม**
+A: วนอุทยานแห่งชาติผ่าน `cell.getTextFrame().getParagraphs()`, ค้นหาส่วนที่มี “Total”, แล้วก็วาดสี่เหลี่ยมรอบกล่องขอบเขตของส่วนนั้น
 
-**Q: Does Aspose.Slides handle large presentations efficiently?**  
-A: API จะสตรีมข้อมูลและปล่อยทรัพยากรเมื่อเรียก `pres.dispose()` ซึ่งช่วยจัดการหน่วยความจำสำหรับไฟล์ขนาดใหญ่
+**ถาม: Aspose.Slides จัดการงานนำเสนอขนาดใหญ่ได้อย่างมีประสิทธิภาพหรือไม่**
+ตอบ: API จะสตรีมข้อมูลและปล่อยทรัพยากรเมื่อเรียก `pres.dispose()` ซึ่งจะช่วยจัดการกับข้อมูลสำหรับไฟล์ขนาดใหญ่
 
-{{< blocks/products/products-backtop-button >}}
+---
 
-**อัปเดตล่าสุด:** 2025-12-10  
-**ทดสอบด้วย:** Aspose.Slides for Java 25.4 (jdk16)  
-**ผู้เขียน:** Aspose  
+** อัปเดตล่าสุด:** 2026-02-09
+**ทดสอบด้วย:** Aspose.Slides for Java 25.4 (jdk16)
+**หมายเหตุ:** สมมุติ  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

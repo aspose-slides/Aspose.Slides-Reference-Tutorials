@@ -1,13 +1,13 @@
 ---
-date: '2025-12-10'
-description: PowerPoint'te Aspose.Slides for Java kullanarak tabloya metin eklemeyi
-  ve metnin etrafına çerçeve çizmeyi öğrenin. Bu kılavuz, tablolar oluşturmayı, metin
-  hizalamasını ayarlamayı ve içeriği çerçevelemeyi kapsar.
+date: '2026-02-09'
+description: Aspose.Slides for Java kullanarak PowerPoint'te metnin etrafına çerçeve
+  çizmeyi ve tablo hücrelerine metin eklemeyi öğrenin. Bu öğreticide tablo oluşturma,
+  metin hizalamasını ayarlama ve sunumu pptx olarak kaydetme konuları ele alınmaktadır.
 keywords:
 - Aspose.Slides for Java
 - table manipulation in presentations
 - frame drawing in PowerPoint
-title: Aspose.Slides for Java – tabloya metin ekleme ve çerçeve manipülasyonu
+title: Aspose.Slides for Java ile Çerçeveler Çizme ve Tabloya Metin Ekleme
 url: /tr/java/animations-transitions/aspose-slides-java-enhance-presentations/
 weight: 1
 ---
@@ -17,25 +17,35 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Sunumlarda Tablo ve Çerçeve Manipülasyonunu Aspose.Slides for Java ile Ustalıkla Kullanma
+# Aspose.Slides for Java ile Sunumlarda Çerçeveler Çizme ve Tabloya Metin Ekleme
 
-## Introduction
+## Giriş
 
-PowerPoint'te verileri etkili bir şekilde sunmak zor olabilir. İster bir yazılım geliştiricisi, ister bir sunum tasarımcısı olun, **add text to table** hücrelerine metin ekleyin ve ana paragrafların etrafına çerçeveler çizin, böylece slaytlarınız öne çıksın. Bu öğreticide, tabloya nasıl metin ekleyeceğinizi, hizalayacağınızı ve metnin etrafına nasıl çerçeve çizeceğinizi Aspose.Slides for Java ile adım adım göreceksiniz. Sonunda, doğru bilgiyi doğru zamanda vurgulayan cilalı sunumlar oluşturabileceksiniz.
+PowerPoint'te verileri net bir şekilde sunmak özellikle tablo hücrelerine metin eklemek ve önemli değerleri görsel ipuçlarıyla vurgulamak zor olabilir. Bu rehberde belirli paragrafların etrafına çerçeve çizmeyi, şekiller içinde metin hizalamasını ayarlamayı ve sonunda **sunumu pptx olarak kaydetmeyi** Aspose.Slides for Java kullanarak öğreneceksiniz. Sonunda izleyicinin gözünü tam istediğiniz yere çeken cilalı bir slayt destesi elde edeceksiniz.
 
-Sunumlarınızı dönüştürmeye hazır mısınız? Hadi başlayalım!
+Slaytlarınızı öne çıkarmaya hazır mısınız? Süreci adım adım inceleyelim.
 
-## Quick Answers
-- **“add text to table” ne anlama geliyor?** Programatik olarak bireysel tablo hücrelerinin metin içeriğini eklemek veya güncellemek anlamına gelir.  
-- **Dosyayı kaydeden yöntem hangisidir?** `pres.save("output.pptx", SaveFormat.Pptx)` – bu **save presentation as pptx** adımı değişikliklerinizi sonlandırır.  
-- **Bir şeklin içindeki metni nasıl hizalarım?** `autoShape.getTextFrame().getParagraphs().get_Item(0).getParagraphFormat().setAlignment(...)` üzerinden `TextAlignment.Left` (veya Center/Right) kullanın.  
-- **Bir paragrafın etrafına dikdörtgen çizebilir miyim?** Evet – paragraflar üzerinde döngü kurun, sınırlayıcı dikdörtgeni alın ve dolgu olmayan, siyah bir çizgiye sahip bir `IAutoShape` ekleyin.  
-- **Lisans gerekir mi?** Değerlendirme için geçici bir lisans yeterlidir; üretim kullanımı için tam lisans gereklidir.
+## Hızlı Yanıtlar
+- **“add text to table” ne anlama geliyor?** Bireysel tablo hücrelerinin metin içeriğini programlı olarak eklemek veya güncellemek anlamına gelir.  
+- **Dosyayı hangi yöntem kaydeder?** `pres.save("output.pptx", SaveFormat.Pptx)` – bu **sunumu pptx olarak kaydet** adımı değişikliklerinizi sonlandırır.  
+- **Bir şekil içinde metni nasıl hizalarım?** `autoShape.getTextFrame().getParagraphs().get_Item(0).getParagraphFormat().setAlignment(...)` aracılığıyla `TextAlignment.Left` (veya Center/Right) kullanın.  
+- **Bir paragrafın etrafına dikdörtgen çizebilir miyim?** Evet – paragrafları döngüyle işleyin, sınırlayıcı dikdörtgeni alın ve dolgu olmadan siyah bir çizgiyle `IAutoShape` ekleyin.  
+- **Lisans gerekli mi?** Değerlendirme için geçici bir lisans yeterlidir; üretim kullanımı için tam lisans gereklidir.  
 
-## Prerequisites
+## Metnin etrafına çerçeve çizmenin nedeni
 
-### Required Libraries
-Aspose.Slides for Java'a ihtiyacınız var. Maven veya Gradle kullanarak nasıl ekleyeceğinizi aşağıda bulabilirsiniz:
+Metnin etrafına çerçeve (veya dikdörtgen) çizmek, örneğin **'0'** karakterini içeren herhangi bir metin gibi belirli bir bölümü vurgulamak, anında dikkat çeker. Bu teknik şunlar için idealdir:
+
+- Tablodaki önemli finansal rakamları vurgulama.  
+- Bir slayttaki uyarıları veya önemli notları vurgulama.  
+- Ekstra şekiller eklemeden görsel ayırıcılar oluşturma.
+
+## Önkoşullar
+
+Koda başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+
+### Gerekli Kütüphaneler
+Aspose.Slides for Java'ı gereksinim duyacaksınız. Maven veya Gradle kullanarak nasıl ekleyeceğiniz aşağıdadır:
 
 **Maven:**
 ```xml
@@ -52,26 +62,24 @@ Aspose.Slides for Java'a ihtiyacınız var. Maven veya Gradle kullanarak nasıl 
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Environment Setup
-Java Development Kit (JDK) yüklü olduğundan emin olun, tercihen JDK 16 veya daha yeni bir sürüm, çünkü bu örnek `jdk16` sınıflandırıcısını kullanıyor.
+### Ortam Kurulumu
+Bu örnek `jdk16` sınıflandırıcısını kullandığı için, tercihen JDK 16 veya daha yeni bir Java Development Kit (JDK) yüklü olduğundan emin olun.
 
-### Knowledge Prerequisites
+### Bilgi Önkoşulları
 - Java programlamaya temel bir anlayış.  
 - PowerPoint gibi sunum yazılımlarına aşinalık.  
-- IntelliJ IDEA veya Eclipse gibi bir Entegre Geliştirme Ortamı (IDE) kullanma deneyimi.
+- IntelliJ IDEA veya Eclipse gibi Entegre Geliştirme Ortamı (IDE) kullanma deneyimi.
 
-## Setting Up Aspose.Slides for Java
+## Aspose.Slides for Java Kurulumu
 
 Aspose.Slides'ı kullanmaya başlamak için şu adımları izleyin:
 
-1. **Install the Library**: Bağımlılıkları yönetmek için Maven veya Gradle kullanın, ya da doğrudan [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) adresinden indirin.
-
+1. **Install the Library**: Maven veya Gradle kullanarak bağımlılıkları yönetin veya doğrudan [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) adresinden indirin.  
 2. **License Acquisition**:
-   - Ücretsiz deneme olarak [Temporary License](https://purchase.aspose.com/temporary-license/) adresinden geçici bir lisans indirerek başlayın.
-   - Tam erişim için [Purchase Aspose.Slides](https://purchase.aspose.com/buy) adresinden lisans satın almayı düşünün.
-
+   - Start with a free trial by downloading a temporary license from [Temporary License](https://purchase.aspose.com/temporary-license/).
+   - For full access, consider purchasing a license at [Purchase Aspose.Slides](https://purchase.aspose.com/buy).  
 3. **Basic Initialization**:
-Sunum ortamınızı aşağıdaki kod parçacığıyla başlatın:
+Aşağıdaki kod parçacığıyla sunum ortamınızı başlatın:
 ```java
 import com.aspose.slides.*;
 
@@ -83,21 +91,17 @@ try {
 }
 ```
 
-## Why add text to table and draw frames?
+## Aspose.Slides for Java'da Tabloya Metin Ekleme
 
-Tabloya metin eklemek, yapılandırılmış verileri net bir şekilde sunmanızı sağlar; paragrafların veya belirli bölümlerin (ör. **'0'** karakterini içeren) etrafına çerçeve çizmek ise izleyicinin dikkatini önemli değerlere çeker. Bu kombinasyon, finansal raporlar, gösterge panelleri veya ana sayıları karmaşa olmadan vurgulamanız gereken her slayt için mükemmeldir.
+### Özellik 1: Tablo Oluşturma ve Hücrelere Metin Ekleme
 
-## How to add text to table in Aspose.Slides for Java
+#### Genel Bakış
+Bu özellik, **tablo oluşturma**, ardından **tablo hücrelerine metin ekleme** ve son olarak **sunumu pptx olarak kaydetme** nasıl yapılır gösterir.
 
-### Feature 1: Create Table and Add Text to Cells
+#### Adımlar
 
-#### Overview
-Bu özellik, **how to create table** nasıl yapılır, ardından **add text to table** hücrelerine metin eklenir ve son olarak **save presentation as pptx** nasıl kaydedilir gösterir.
-
-#### Steps
-
-**1. Create a Table**  
-İlk olarak, sunumunuzu başlatın ve (50, 50) konumunda, belirtilen sütun genişlikleri ve satır yükseklikleriyle bir tablo ekleyin.
+**1. Tablo Oluşturma**  
+Öncelikle sunumunuzu başlatın ve belirtilen sütun genişlikleri ve satır yükseklikleriyle (50, 50) konumunda bir tablo ekleyin.
 ```java
 Presentation pres = new Presentation();
 try {
@@ -105,8 +109,8 @@ try {
         50, 50, new double[]{50, 70}, new double[]{50, 50, 50});
 ```
 
-**2. Add Text to Cells**  
-Paragraflar oluşturun, metin bölümleri ekleyin ve bunları belirli bir hücreye yerleştirin.
+**2. Hücrelere Metin Ekleme**  
+Metin parçacıklarından oluşan paragraflar oluşturun ve bunları belirli bir hücreye ekleyin.
 ```java
     IParagraph paragraph0 = new Paragraph();
     paragraph0.getPortions().add(new Portion("Text "));
@@ -125,7 +129,7 @@ Paragraflar oluşturun, metin bölümleri ekleyin ve bunları belirli bir hücre
     cell.getTextFrame().getParagraphs().addAll(Arrays.asList(paragraph0, paragraph1, paragraph2));
 ```
 
-**3. Save the Presentation**  
+**3. Sunumu Kaydet**  
 ```java
     pres.save("YOUR_OUTPUT_DIRECTORY/GetRect_Out.pptx", SaveFormat.Pptx);
 } finally {
@@ -133,15 +137,15 @@ Paragraflar oluşturun, metin bölümleri ekleyin ve bunları belirli bir hücre
 }
 ```
 
-### Feature 2: Add TextFrame to AutoShape and Set Alignment
+### Özellik 2: AutoShape'e TextFrame Ekleme ve Hizalama Ayarlama
 
-#### Overview
-Bir auto shape'e belirli hizalama ayarlarıyla bir metin çerçevesi eklemeyi öğrenin—bu, **set text alignment java** örneğidir.
+#### Genel Bakış
+Bir auto shape'e belirli hizalama ile bir text frame eklemeyi öğrenin—**set text alignment java** örneği.
 
-#### Steps
+#### Adımlar
 
-**1. Add an AutoShape**  
-(400, 100) konumunda, belirtilen boyutlarda bir dikdörtgen AutoShape ekleyin.
+**1. AutoShape Ekleme**  
+Belirtilen boyutlarla (400, 100) konumunda bir dikdörtgeni AutoShape olarak ekleyin.
 ```java
 Presentation pres = new Presentation();
 try {
@@ -149,14 +153,14 @@ try {
         ShapeType.Rectangle, 400, 100, 60, 120);
 ```
 
-**2. Set Text Alignment**  
+**2. Metin Hizalamasını Ayarlama**  
 Metni “Text in shape” olarak ayarlayın ve sola hizalayın.
 ```java
     autoShape.getTextFrame().setText("Text in shape");
     autoShape.getTextFrame().getParagraphs().get_Item(0).getParagraphFormat().setAlignment(TextAlignment.Left);
 ```
 
-**3. Save the Presentation**  
+**3. Sunumu Kaydet**  
 ```java
     pres.save("YOUR_OUTPUT_DIRECTORY/GetRect_Out.pptx", SaveFormat.Pptx);
 } finally {
@@ -164,15 +168,15 @@ Metni “Text in shape” olarak ayarlayın ve sola hizalayın.
 }
 ```
 
-### Feature 3: Draw Frames around Paragraphs and Portions in Table Cells
+### Özellik 3: Tablo Hücrelerindeki Paragraflar ve Bölümler Çevresinde Çerçeve Çizme
 
-#### Overview
-Bu özellik, **draw frames around text** ve **draw rectangle around paragraph** işlemlerini, ‘0’ karakterini içeren bölümler için nasıl yapacağınızı gösterir.
+#### Genel Bakış
+Bu özellik, **metnin etrafına çerçeve çizme** ve ‘0’ karakterini içeren bölümler için **paragrafın etrafına dikdörtgen çizme** üzerine odaklanır.
 
-#### Steps
+#### Adımlar
 
-**1. Create a Table**  
-“Create Table and Add Text to Cells” kodunu başlangıç ayarı olarak yeniden kullanın.
+**1. Tablo Oluşturma**  
+İlk kurulum için “Tablo Oluşturma ve Hücrelere Metin Ekleme” kodunu yeniden kullanın.
 ```java
 Presentation pres = new Presentation();
 try {
@@ -180,8 +184,8 @@ try {
         50, 50, new double[]{50, 70}, new double[]{50, 50, 50});
 ```
 
-**2. Add Paragraphs**  
-Önceki özelliğin paragraf oluşturma kodunu yeniden kullanın.
+**2. Paragraflar Ekleme**  
+Önceki özellikteki paragraf oluşturma kodunu yeniden kullanın.
 ```java
     IParagraph paragraph0 = new Paragraph();
     paragraph0.getPortions().add(new Portion("Text "));
@@ -200,8 +204,8 @@ try {
     cell.getTextFrame().getParagraphs().addAll(Arrays.asList(paragraph0, paragraph1, paragraph2));
 ```
 
-**3. Draw Frames**  
-Paragraflar ve bölümler üzerinde döngü kurarak çerçeveler çizin.
+**3. Çerçeve Çizme**  
+Paragrafları ve bölümleri döngüyle işleyerek etraflarına çerçeve çizin.
 ```java
     double x = tbl.getX() + cell.getOffsetX();
     double y = tbl.getY() + cell.getOffsetY();
@@ -219,7 +223,7 @@ Paragraflar ve bölümler üzerinde döngü kurarak çerçeveler çizin.
     }
 ```
 
-**4. Save the Presentation**  
+**4. Sunumu Kaydet**  
 ```java
     pres.save("YOUR_OUTPUT_DIRECTORY/GetRect_Out.pptx", SaveFormat.Pptx);
 } finally {
@@ -227,31 +231,34 @@ Paragraflar ve bölümler üzerinde döngü kurarak çerçeveler çizin.
 }
 ```
 
-## Conclusion
-Bu kılavuzu izleyerek **add text to table** yapabilir, şekillerin içindeki metni hizalayabilir ve **draw frames around text** ile önemli bilgileri vurgulayabilirsiniz. Bu teknikleri ustalıkla kullanmak, Aspose.Slides for Java ile son derece cilalı, veri odaklı sunumlar oluşturmanızı sağlar. Daha ileri keşifler için bu özellikleri grafikler, animasyonlar veya PDF’ye dışa aktarma ile birleştirmeyi deneyin.
+## Yaygın Hatalar ve İpuçları
 
-## Frequently Asked Questions
+- **Null kontrolleri** – `Presentation` kullanımınızı her zaman bir try‑finally bloğuna sarın, böylece `pres.dispose()` çalışır ve yerel kaynakları serbest bırakır.  
+- **Sınırlayıcı dikdörtgen doğruluğu** – `para.getRect()` tarafından döndürülen dikdörtgen mevcut yerleşimi yansıtır; yazı tipi boyutunu veya kenar boşluklarını değiştirirseniz, çerçeve çizmeye başlamadan önce dikdörtgeni yeniden hesaplayın.  
+- **Performans** – Çok büyük tablolarla çalışırken, şekil eklemelerini toplu olarak yapmayı veya güncellenmiş geometriyle tek bir `IAutoShape` örneğini yeniden kullanmayı düşünün, böylece bellek yükünü azaltırsınız.
 
-**Q: Can I use these APIs with older JDK versions?**  
-A: Kütüphane JDK 8 ve üzerini destekler, ancak `jdk16` sınıflandırıcısı yeni çalışma zamanlarında en iyi performansı sağlar.
+## Sık Sorulan Sorular
 
-**Q: How do I change the frame color?**  
-A: Çizgi formatının dolgu rengini değiştirin, ör. `shape.getLineFormat().getFillFormat().setSolidFillColor(Color.BLUE);`.
+**S: Bu API'leri eski JDK sürümleriyle kullanabilir miyim?**  
+C: Kütüphane JDK 8 ve üzerini destekler, ancak `jdk16` sınıflandırıcısı yeni çalışma zamanlarında en iyi performansı sağlar.
 
-**Q: Is it possible to export the final slide as an image?**  
-A: Evet—`pres.getSlides().get_Item(0).getImage(Export.ImageFormat.Png)` kullanın ve ardından bayt dizisini kaydedin.
+**S: Çerçeve rengini nasıl değiştiririm?**  
+C: Çizgi formatının dolgu rengini değiştirin, örneğin `shape.getLineFormat().getFillFormat().setSolidFillColor(Color.BLUE);`.
 
-**Q: What if I need to highlight only the word “Total” inside a cell?**  
-A: `cell.getTextFrame().getParagraphs()` içinde döngü yapın, “Total” kelimesini içeren bölümü bulun ve o bölümün sınırlayıcı kutusunun etrafına bir dikdörtgen çizin.
+**S: Son slaytı bir görüntü olarak dışa aktarmak mümkün mü?**  
+C: Evet—`pres.getSlides().get_Item(0).getImage(Export.ImageFormat.Png)` kullanın ve ardından bayt dizisini kaydedin.
 
-**Q: Does Aspose.Slides handle large presentations efficiently?**  
-A: API veri akışı sağlar ve `pres.dispose()` çağrıldığında kaynakları serbest bırakır; bu, büyük dosyalar için bellek yönetimine yardımcı olur.
+**S: Bir hücre içinde sadece “Total” kelimesini vurgulamam gerekirse ne yapmalıyım?**  
+C: `cell.getTextFrame().getParagraphs()` içinde döngü yapın, “Total” içeren bölümü bulun ve o bölümün sınırlayıcı kutusunun etrafına bir dikdörtgen çizin.
+
+**S: Aspose.Slides büyük sunumları verimli bir şekilde yönetiyor mu?**  
+C: API verileri akış olarak işler ve `pres.dispose()` çağrıldığında kaynakları serbest bırakır; bu, büyük dosyalar için bellek yönetimine yardımcı olur.
 
 ---
 
 {{< blocks/products/products-backtop-button >}}
 
-**Last Updated:** 2025-12-10  
+**Last Updated:** 2026-02-09  
 **Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
 **Author:** Aspose  
 

@@ -1,13 +1,15 @@
 ---
-date: '2025-12-10'
-description: Leer hoe u tekst aan een tabel toevoegt en kaders rond tekst tekent in
-  PowerPoint met Aspose.Slides voor Java. Deze gids behandelt het maken van tabellen,
-  het instellen van tekstuitlijning en het omlijsten van inhoud.
+date: '2026-02-09'
+description: Leer hoe u kaders rond tekst tekent en tekst toevoegt aan tabelcellen
+  in PowerPoint met Aspose.Slides voor Java. Deze tutorial behandelt het maken van
+  tabellen, het instellen van tekstuitlijning en het opslaan van de presentatie als
+  pptx.
 keywords:
 - Aspose.Slides for Java
 - table manipulation in presentations
 - frame drawing in PowerPoint
-title: Aspose.Slides voor Java – tekst toevoegen aan tabel en frame‑manipulatie
+title: Hoe frames te tekenen en tekst aan een tabel toe te voegen met Aspose.Slides
+  voor Java
 url: /nl/java/animations-transitions/aspose-slides-java-enhance-presentations/
 weight: 1
 ---
@@ -17,27 +19,34 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Beheersen van tabel- en frame-manipulatie in presentaties met Aspose.Slides voor Java
+# Hoe kaders te tekenen en tekst toe te voegen aan tabel in presentaties met Aspose.Slides for Java
 
-## Inleiding
+## Introductie
 
-Het effectief presenteren van gegevens kan een uitdaging zijn in PowerPoint. Of je nu software‑ontwikkelaar of presentatiedesigner bent, **tekst aan tabel**‑cellen toevoegen en frames rond belangrijke alinea's tekenen maakt je dia’s aantrekkelijker. In deze tutorial zie je precies hoe je tekst aan een tabel toevoegt, uitlijnt en frames rond tekst tekent — alles met Aspose.Slides voor Java. Aan het einde kun je gepolijste presentaties maken die de juiste informatie op het juiste moment benadrukken.
+Het duidelijk presenteren van gegevens in PowerPoint kan een echte uitdaging zijn, vooral wanneer je **add text to table** cellen moet toevoegen en belangrijke waarden wilt benadrukken met visuele aanwijzingen. In deze gids leer je **how to draw frames** rond specifieke alinea's, tekstuitlijning in vormen in te stellen, en uiteindelijk **save presentation as pptx** — allemaal met behulp van Aspose.Slides for Java. Aan het einde heb je een gepolijste slide‑deck die de aandacht van het publiek precies daar naartoe trekt waar jij wilt.
 
-Klaar om je presentaties te transformeren? Laten we beginnen!
+Klaar om je dia's te laten opvallen? Laten we stap voor stap door het proces lopen.
 
 ## Snelle antwoorden
-- **Wat betekent “tekst aan tabel toevoegen”?** Het betekent het programmatisch invoegen of bijwerken van de tekstinhoud van individuele tabelcellen.  
-- **Welke methode slaat het bestand op?** `pres.save("output.pptx", SaveFormat.Pptx)` – deze **slaat de presentatie op als pptx** stap finaliseert je wijzigingen.  
-- **Hoe kan ik tekst binnen een vorm uitlijnen?** Gebruik `TextAlignment.Left` (of Center/Right) via `autoShape.getTextFrame().getParagraphs().get_Item(0).getParagraphFormat().setAlignment(...)`.  
-- **Kan ik een rechthoek rond een alinea tekenen?** Ja – iterate over alinea's, verkrijg hun begrenzende rechthoek, en voeg een `IAutoShape` toe zonder vulling en met een zwarte lijn.  
-- **Heb ik een licentie nodig?** Een tijdelijke licentie werkt voor evaluatie; een volledige licentie is vereist voor productiegebruik.
+- **What does “add text to table” mean?** Het betekent het invoegen of bijwerken van de tekstuele inhoud van individuele tabelcellen programmatisch.  
+- **Which method saves the file?** `pres.save("output.pptx", SaveFormat.Pptx)` – deze **save presentation as pptx** stap voltooit je wijzigingen.  
+- **How can I align text inside a shape?** Gebruik `TextAlignment.Left` (of Center/Right) via `autoShape.getTextFrame().getParagraphs().get_Item(0).getParagraphFormat().setAlignment(...)`.  
+- **Can I draw a rectangle around a paragraph?** Ja – loop door de alinea's, haal hun begrenzende rechthoek op en voeg een `IAutoShape` toe zonder vulling en met een zwarte lijn.  
+- **Do I need a license?** Een tijdelijke licentie werkt voor evaluatie; een volledige licentie is vereist voor productiegebruik.  
 
-## Voorvereisten
+## Waarom kaders rond tekst tekenen?
 
-Voordat je in de code duikt, zorg dat je het volgende hebt:
+Het tekenen van een kader (of rechthoek) rond een alinea of een specifiek gedeelte (bijvoorbeeld elke tekst die het teken **'0'** bevat) trekt onmiddellijk de aandacht. Deze techniek is ideaal voor:
+- Het benadrukken van belangrijke financiële cijfers in een tabel.  
+- Het accentueren van waarschuwingen of belangrijke notities in een dia.  
+- Het creëren van visuele scheidingen zonder handmatig extra vormen toe te voegen.
+
+## Vereisten
+
+Voordat je in de code duikt, zorg ervoor dat je het volgende hebt:
 
 ### Vereiste bibliotheken
-Je hebt Aspose.Slides voor Java nodig. Zo voeg je het toe met Maven of Gradle:
+Je hebt Aspose.Slides for Java nodig. Hier zie je hoe je het kunt opnemen met Maven of Gradle:
 
 **Maven:**
 ```xml
@@ -55,25 +64,25 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 ```
 
 ### Omgevingsconfiguratie
-Zorg dat je een Java Development Kit (JDK) geïnstalleerd hebt, bij voorkeur JDK 16 of hoger, aangezien dit voorbeeld de `jdk16` classifier gebruikt.
+Zorg ervoor dat je een Java Development Kit (JDK) geïnstalleerd hebt, bij voorkeur JDK 16 of hoger, aangezien dit voorbeeld de `jdk16` classifier gebruikt.
 
-### Kennisvoorvereisten
-- Basiskennis van Java‑programmeren.  
+### Kennisvereisten
+- Basiskennis van Java-programmeren.  
 - Vertrouwdheid met presentatiesoftware zoals PowerPoint.  
-- Ervaring met een Integrated Development Environment (IDE) zoals IntelliJ IDEA of Eclipse.
+- Ervaring met het gebruik van een Integrated Development Environment (IDE) zoals IntelliJ IDEA of Eclipse.
 
 ## Aspose.Slides voor Java instellen
 
-Om Aspose.Slides te gebruiken, volg deze stappen:
+Om Aspose.Slides te gaan gebruiken, volg je deze stappen:
 
-1. **Bibliotheek installeren**: Gebruik Maven of Gradle om afhankelijkheden te beheren, of download het direct van [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+1. **Install the Library**: Gebruik Maven of Gradle om afhankelijkheden te beheren, of download het direct van [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-2. **Licentie verkrijgen**:
+2. **License Acquisition**:
    - Begin met een gratis proefversie door een tijdelijke licentie te downloaden van [Temporary License](https://purchase.aspose.com/temporary-license/).
-   - Voor volledige toegang kun je een licentie aanschaffen op [Purchase Aspose.Slides](https://purchase.aspose.com/buy).
+   - Voor volledige toegang, overweeg een licentie aan te schaffen via [Purchase Aspose.Slides](https://purchase.aspose.com/buy).
 
-3. **Basisinitialisatie**:
-Initialiseer je presentatie‑omgeving met de volgende code‑fragment:
+3. **Basic Initialization**:
+Initialiseer je presentatie‑omgeving met de volgende code‑snippet:
 ```java
 import com.aspose.slides.*;
 
@@ -85,21 +94,17 @@ try {
 }
 ```
 
-## Waarom tekst aan een tabel toevoegen en frames tekenen?
+## Hoe tekst toe te voegen aan tabel in Aspose.Slides for Java
 
-Tekst aan een tabel toevoegen stelt je in staat gestructureerde gegevens duidelijk te presenteren, terwijl het tekenen van frames rond alinea's of specifieke delen (bijv. die met het teken **'0'**) de aandacht van het publiek vestigt op belangrijke waarden. Deze combinatie is perfect voor financiële rapporten, dashboards of elke dia waarbij je kerncijfers wilt benadrukken zonder rommel.
-
-## Hoe tekst aan een tabel toevoegen in Aspose.Slides voor Java
-
-### Functie 1: Tabel maken en tekst aan cellen toevoegen
+### Functie 1: Tabel maken en tekst toevoegen aan cellen
 
 #### Overzicht
-Deze functie laat zien hoe je **een tabel maakt**, vervolgens **tekst aan tabelcellen toevoegt** en later **de presentatie opslaat als pptx**.
+Deze functie laat zien hoe je een **create table** maakt, vervolgens **add text to table** cellen toevoegt en later **save presentation as pptx**.
 
 #### Stappen
 
-**1. Maak een tabel**  
-Initialiseer eerst je presentatie en voeg een tabel toe op positie (50, 50) met opgegeven kolombreedtes en rijhoogtes.
+**1. Create a Table**  
+Eerst initialiseert u uw presentatie en voegt u een tabel toe op positie (50, 50) met opgegeven kolombreedtes en rijhoogtes.
 ```java
 Presentation pres = new Presentation();
 try {
@@ -107,7 +112,7 @@ try {
         50, 50, new double[]{50, 70}, new double[]{50, 50, 50});
 ```
 
-**2. Tekst aan cellen toevoegen**  
+**2. Add Text to Cells**  
 Maak alinea's met tekstgedeelten en voeg ze toe aan een specifieke cel.
 ```java
     IParagraph paragraph0 = new Paragraph();
@@ -127,7 +132,7 @@ Maak alinea's met tekstgedeelten en voeg ze toe aan een specifieke cel.
     cell.getTextFrame().getParagraphs().addAll(Arrays.asList(paragraph0, paragraph1, paragraph2));
 ```
 
-**3. Sla de presentatie op**  
+**3. Save the Presentation**  
 ```java
     pres.save("YOUR_OUTPUT_DIRECTORY/GetRect_Out.pptx", SaveFormat.Pptx);
 } finally {
@@ -135,14 +140,14 @@ Maak alinea's met tekstgedeelten en voeg ze toe aan een specifieke cel.
 }
 ```
 
-### Functie 2: Tekstframe aan AutoShape toevoegen en uitlijning instellen
+### Functie 2: TextFrame toevoegen aan AutoShape en uitlijning instellen
 
 #### Overzicht
-Leer hoe je een tekstframe met specifieke uitlijning toevoegt aan een AutoShape — een voorbeeld van **tekstuitlijning instellen java**.
+Leer hoe je een tekstframe met specifieke uitlijning toevoegt aan een auto‑shape — een voorbeeld van **set text alignment java**.
 
 #### Stappen
 
-**1. Voeg een AutoShape toe**  
+**1. Add an AutoShape**  
 Voeg een rechthoek toe als AutoShape op positie (400, 100) met opgegeven afmetingen.
 ```java
 Presentation pres = new Presentation();
@@ -151,14 +156,14 @@ try {
         ShapeType.Rectangle, 400, 100, 60, 120);
 ```
 
-**2. Stel tekstuitlijning in**  
-Stel de tekst in op “Text in shape” en lijn deze links uit.
+**2. Set Text Alignment**  
+Stel de tekst in op “Text in shape” en uitlijn deze naar links.
 ```java
     autoShape.getTextFrame().setText("Text in shape");
     autoShape.getTextFrame().getParagraphs().get_Item(0).getParagraphFormat().setAlignment(TextAlignment.Left);
 ```
 
-**3. Sla de presentatie op**  
+**3. Save the Presentation**  
 ```java
     pres.save("YOUR_OUTPUT_DIRECTORY/GetRect_Out.pptx", SaveFormat.Pptx);
 } finally {
@@ -166,15 +171,15 @@ Stel de tekst in op “Text in shape” en lijn deze links uit.
 }
 ```
 
-### Functie 3: Frames rond alinea's en delen in tabelcellen tekenen
+### Functie 3: Kaders tekenen rond alinea's en gedeelten in tabelcellen
 
 #### Overzicht
-Deze functie richt zich op **frames rond tekst tekenen** en zelfs **rechthoek rond alinea tekenen** voor delen die het teken ‘0’ bevatten.
+Deze functie richt zich op **draw frames around text** en zelfs **draw rectangle around paragraph** voor gedeelten die het teken ‘0’ bevatten.
 
 #### Stappen
 
-**1. Maak een tabel**  
-Hergebruik de code van “Tabel maken en tekst aan cellen toevoegen” voor de initiële opzet.
+**1. Create a Table**  
+Herbruik de code van “Create Table and Add Text to Cells” voor de initiële opzet.
 ```java
 Presentation pres = new Presentation();
 try {
@@ -182,8 +187,8 @@ try {
         50, 50, new double[]{50, 70}, new double[]{50, 50, 50});
 ```
 
-**2. Voeg alinea's toe**  
-Herbruik de alinea‑creatiecode van de vorige functie.
+**2. Add Paragraphs**  
+Herbruik de code voor het maken van alinea's uit de vorige functie.
 ```java
     IParagraph paragraph0 = new Paragraph();
     paragraph0.getPortions().add(new Portion("Text "));
@@ -202,8 +207,8 @@ Herbruik de alinea‑creatiecode van de vorige functie.
     cell.getTextFrame().getParagraphs().addAll(Arrays.asList(paragraph0, paragraph1, paragraph2));
 ```
 
-**3. Frames tekenen**  
-Itereer over alinea's en delen om frames eromheen te tekenen.
+**3. Draw Frames**  
+Loop door alinea's en gedeelten om kaders eromheen te tekenen.
 ```java
     double x = tbl.getX() + cell.getOffsetX();
     double y = tbl.getY() + cell.getOffsetY();
@@ -221,7 +226,7 @@ Itereer over alinea's en delen om frames eromheen te tekenen.
     }
 ```
 
-**4. Sla de presentatie op**  
+**4. Save the Presentation**  
 ```java
     pres.save("YOUR_OUTPUT_DIRECTORY/GetRect_Out.pptx", SaveFormat.Pptx);
 } finally {
@@ -229,31 +234,32 @@ Itereer over alinea's en delen om frames eromheen te tekenen.
 }
 ```
 
-## Conclusie
-Door deze gids te volgen, kun je **tekst aan tabel toevoegen**, tekst binnen vormen uitlijnen, en **frames rond tekst tekenen** om belangrijke informatie te benadrukken. Het beheersen van deze technieken stelt je in staat zeer gepolijste, data‑gedreven presentaties te maken met Aspose.Slides voor Java. Voor verdere verkenning kun je deze functies combineren met grafieken, animaties of exporteren naar PDF.
+## Veelvoorkomende valkuilen & tips
+
+- **Null checks** – Omring altijd het gebruik van `Presentation` met een try‑finally‑blok om ervoor te zorgen dat `pres.dispose()` wordt uitgevoerd en native resources vrijgeeft.  
+- **Bounding rectangle accuracy** – De rechthoek die wordt geretourneerd door `para.getRect()` weerspiegelt de huidige lay-out; als je de lettergrootte of marges wijzigt, bereken dan de rechthoek opnieuw voordat je het kader tekent.  
+- **Performance** – Bij het werken met zeer grote tabellen, overweeg om shape‑toevoegingen te batchen of een enkele `IAutoShape`‑instantie te hergebruiken met bijgewerkte geometrie om het geheugenverbruik te verminderen.
 
 ## Veelgestelde vragen
 
-**Q: Kan ik deze API’s gebruiken met oudere JDK‑versies?**  
-A: De bibliotheek ondersteunt JDK 8 en hoger, maar de `jdk16` classifier levert de beste prestaties op nieuwere runtimes.
+**Q: Kan ik deze API's gebruiken met oudere JDK‑versies?**  
+A: De bibliotheek ondersteunt JDK 8 en hoger, maar de `jdk16` classifier biedt de beste prestaties op nieuwere runtimes.
 
-**Q: Hoe wijzig ik de kleur van het frame?**  
-A: Pas de lijn‑formaat‑vulkleur aan, bijv. `shape.getLineFormat().getFillFormat().setSolidFillColor(Color.BLUE);`.
+**Q: Hoe wijzig ik de kleur van het kader?**  
+A: Pas de vulkleur van het lijnformaat aan, bijvoorbeeld `shape.getLineFormat().getFillFormat().setSolidFillColor(Color.BLUE);`.
 
 **Q: Is het mogelijk om de uiteindelijke dia als afbeelding te exporteren?**  
 A: Ja — gebruik `pres.getSlides().get_Item(0).getImage(Export.ImageFormat.Png)` en sla vervolgens de byte‑array op.
 
-**Q: Wat als ik alleen het woord “Total” binnen een cel wil markeren?**  
-A: Iterate door `cell.getTextFrame().getParagraphs()`, zoek het gedeelte dat “Total” bevat, en teken een rechthoek rond de begrenzende box van dat gedeelte.
+**Q: Wat als ik alleen het woord “Total” in een cel wil markeren?**  
+A: Loop door `cell.getTextFrame().getParagraphs()`, vind het gedeelte dat “Total” bevat, en teken een rechthoek rond de begrenzende box van dat gedeelte.
 
-**Q: Handelt Aspose.Slides grote presentaties efficiënt?**  
-A: De API streamt data en vrijgeeft bronnen wanneer `pres.dispose()` wordt aangeroepen, wat helpt bij geheugenbeheer voor grote bestanden.
+**Q: Handelt Aspose.Slides grote presentaties efficiënt af?**  
+A: De API streamt gegevens en geeft resources vrij wanneer `pres.dispose()` wordt aangeroepen, wat helpt bij het geheugenbeheer voor grote bestanden.
 
 ---
 
-{{< blocks/products/products-backtop-button >}}
-
-**Last Updated:** 2025-12-10  
+**Last Updated:** 2026-02-09  
 **Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
 **Author:** Aspose  
 
@@ -262,3 +268,5 @@ A: De API streamt data en vrijgeeft bronnen wanneer `pres.dispose()` wordt aange
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

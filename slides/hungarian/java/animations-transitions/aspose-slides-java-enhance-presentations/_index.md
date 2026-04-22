@@ -1,14 +1,15 @@
 ---
-date: '2025-12-10'
-description: Ismerje meg, hogyan adhat szöveget a táblázathoz, és hogyan rajzolhat
-  kereteket a szöveg köré a PowerPointban az Aspose.Slides for Java használatával.
-  Ez az útmutató bemutatja a táblázatok létrehozását, a szövegigazítás beállítását
-  és a tartalom keretezését.
+date: '2026-02-09'
+description: Tanulja meg, hogyan rajzoljon kereteket a szöveg köré, és hogyan adjon
+  szöveget a táblázat celláihoz a PowerPointban az Aspose.Slides for Java használatával.
+  Ez az útmutató bemutatja a táblázatok létrehozását, a szöveg igazításának beállítását,
+  valamint a prezentáció pptx formátumban való mentését.
 keywords:
 - Aspose.Slides for Java
 - table manipulation in presentations
 - frame drawing in PowerPoint
-title: Aspose.Slides for Java – szöveg hozzáadása táblához és keret manipulálása
+title: Keretek rajzolása és szöveg hozzáadása a táblához az Aspose.Slides for Java
+  segítségével
 url: /hu/java/animations-transitions/aspose-slides-java-enhance-presentations/
 weight: 1
 ---
@@ -18,27 +19,37 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Táblázatok és keretek manipulálása prezentációkban az Aspose.Slides for Java segítségével
+# Hogyan rajzolj kereteket és adj hozzá szöveget a táblázathoz a prezentációkban az Aspose.Slides for Java segítségével
 
-## Bevezetés
+## Introduction
 
-Az adatok hatékony bemutatása kihívást jelenthet a PowerPointban. Akár szoftverfejlesztő, akár prezentációs tervező vagy, **szöveg hozzáadása a táblázat** celláihoz és keretek rajzolása a kulcsfontosságú bekezdések köré segít, hogy a diák igazán kitűnjenek. Ebben az útmutatóban pontosan megmutatjuk, hogyan adhatunk szöveget a táblázathoz, hogyan igazíthatjuk, és hogyan rajzolhatunk kereteket a szöveg köré — mindezt az Aspose.Slides for Java segítségével. A végére képes leszel kifinomult bemutatókat készíteni, amelyek a megfelelő információt a megfelelő időben emelik ki.
+Az adatok világos bemutatása a PowerPointban igazi kihívás lehet, különösen, ha **szöveget kell hozzáadni a táblázathoz** a cellákban, és vizuális jelzésekkel szeretnéd kiemelni a fontos értékeket. Ebben az útmutatóban megtanulod, hogyan **rajzolj kereteket** konkrét bekezdések köré, hogyan állítsd be a szöveg igazítását alakzatokon belül, és végül hogyan **mentsd a prezentációt pptx formátumban** – mindezt az Aspose.Slides for Java használatával. A végére egy kifinomult diakészletet kapsz, amely a közönség figyelmét pontosan arra irányítja, ahová szeretnéd.
 
-Készen állsz a prezentációid átalakítására? Kezdjünk is!
+Készen állsz, hogy diáid kitűnjenek? Lépésről lépésre végigvezetünk a folyamaton.
 
-## Gyors válaszok
-- **Mit jelent a „szöveg hozzáadása a táblázathoz”?** Ez azt jelenti, hogy programozottan beilleszted vagy frissíted egyes táblázatcellák szövegtartalmát.  
+## Quick Answers
+- **Mi jelent a „szöveg hozzáadása a táblázathoz”?** Ez azt jelenti, hogy programozottan beszúrod vagy frissíted az egyes táblázatcellák szöveges tartalmát.  
 - **Melyik metódus menti a fájlt?** `pres.save("output.pptx", SaveFormat.Pptx)` – ez a **save presentation as pptx** lépés véglegesíti a módosításokat.  
-- **Hogyan igazítható a szöveg egy alakzatban?** Használd a `TextAlignment.Left` (vagy Center/Right) értéket a `autoShape.getTextFrame().getParagraphs().get_Item(0).getParagraphFormat().setAlignment(...)` híváson keresztül.  
-- **Rajzolhatok-e téglalapot egy bekezdés köré?** Igen – iterálj a bekezdéseken, szerezd meg a körülhatároló téglalapot, és adj hozzá egy `IAutoShape`-t kitöltés nélkül és fekete vonallal.  
-- **Szükség van licencre?** Ideiglenes licenc elegendő a kiértékeléshez; a teljes licenc a termeléshez kötelező.
+- **Hogyan igazítható a szöveg egy alakzatban?** Használd a `TextAlignment.Left` (vagy Center/Right) értéket a `autoShape.getTextFrame().getParagraphs().get_Item(0).getParagraphFormat().setAlignment(...)` segítségével.  
+- **Rajzolhatok téglalapot egy bekezdés köré?** Igen – iterálj a bekezdéseken, szerezd meg a határoló téglalapot, és adj hozzá egy `IAutoShape`-t kitöltés nélkül és fekete vonallal.  
+- **Szükségem van licencre?** Egy ideiglenes licenc elegendő értékeléshez; a teljes licenc szükséges a termelésben való használathoz.  
 
-## Előfeltételek
+## Why draw frames around text?
 
-A kódba merülés előtt győződj meg róla, hogy a következők rendelkezésre állnak:
+Miért rajzoljunk kereteket a szöveg köré?
 
-### Szükséges könyvtárak
-Az Aspose.Slides for Java-ra lesz szükséged. Íme, hogyan adhatod hozzá Maven vagy Gradle használatával:
+A bekezdés vagy egy adott rész (például minden **'0'** karaktert tartalmazó szöveg) köré keret (vagy téglalap) rajzolása azonnal felhívja a figyelmet. Ez a technika ideális:
+
+- A táblázat kulcsfontosságú pénzügyi adatok kiemelésére.  
+- Figyelmeztetések vagy fontos megjegyzések hangsúlyozására egy dián.  
+- Vizuális elválasztók létrehozására további alakzatok manuális hozzáadása nélkül.
+
+## Prerequisites
+
+Az alábbiak biztosítása szükséges a kód megkezdése előtt:
+
+### Required Libraries
+Az alábbi könyvtárakra lesz szükséged. Így adhatod hozzá Maven vagy Gradle segítségével:
 
 **Maven:**
 ```xml
@@ -55,26 +66,26 @@ Az Aspose.Slides for Java-ra lesz szükséged. Íme, hogyan adhatod hozzá Maven
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Környezet beállítása
-Győződj meg róla, hogy Java Development Kit (JDK) van telepítve, legjobb, ha JDK 16 vagy újabb, mivel ez a példa a `jdk16` osztálycímkét használja.
+### Environment Setup
+Győződj meg róla, hogy telepítve van egy Java Development Kit (JDK), ajánlott a JDK 16 vagy újabb, mivel ez a példa a `jdk16` osztálycímkét használja.
 
-### Tudás előfeltételek
+### Knowledge Prerequisites
 - Alapvető Java programozási ismeretek.  
-- Ismeretek a PowerPointhoz hasonló prezentációs szoftverekről.  
-- Tapasztalat egy integrált fejlesztői környezet (IDE) használatában, például IntelliJ IDEA vagy Eclipse.
+- Ismeret a prezentációs szoftverekkel, például a PowerPointtal.  
+- Tapasztalat egy integrált fejlesztőkörnyezet (IDE) használatában, mint az IntelliJ IDEA vagy az Eclipse.
 
-## Aspose.Slides for Java beállítása
+## Setting Up Aspose.Slides for Java
 
 Az Aspose.Slides használatának megkezdéséhez kövesd az alábbi lépéseket:
 
-1. **Könyvtár telepítése**: Használd a Maven vagy Gradle függőségkezelőt, vagy töltsd le közvetlenül a [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) oldalról.
+1. **Könyvtár telepítése**: Használd a Maven vagy Gradle rendszert a függőségek kezeléséhez, vagy töltsd le közvetlenül a [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) oldalról.
 
 2. **Licenc beszerzése**:
-   - Kezdj egy ingyenes próbaverzióval, és tölts le egy ideiglenes licencet a [Temporary License](https://purchase.aspose.com/temporary-license/) oldalról.
+   - Kezdd egy ingyenes próbaverzióval, ideiglenes licenc letöltésével a [Temporary License](https://purchase.aspose.com/temporary-license/) oldalról.
    - Teljes hozzáféréshez vásárolj licencet a [Purchase Aspose.Slides](https://purchase.aspose.com/buy) oldalon.
 
 3. **Alapvető inicializálás**:
-Inicializáld a prezentációs környezetet a következő kódrészlettel:
+Inicializáld a prezentációs környezetet az alábbi kódrészlettel:
 ```java
 import com.aspose.slides.*;
 
@@ -86,16 +97,12 @@ try {
 }
 ```
 
-## Miért érdemes szöveget hozzáadni a táblázathoz és kereteket rajzolni?
-
-A szöveg hozzáadása egy táblázathoz lehetővé teszi a strukturált adatok tiszta bemutatását, míg a keretek rajzolása a bekezdések vagy adott részek (például a **'0'** karaktert tartalmazók) köré a közönség figyelmét a fontos értékekre irányítja. Ez a kombináció tökéletes pénzügyi jelentésekhez, műszerfalakhoz vagy bármely olyan diához, ahol kulcsfontosságú számokat kell kiemelni anélkül, hogy zsúfoltnak tűnne a tartalom.
-
-## Hogyan adjunk szöveget a táblázathoz az Aspose.Slides for Java használatával
+## How to Add Text to Table in Aspose.Slides for Java
 
 ### 1. funkció: Táblázat létrehozása és szöveg hozzáadása a cellákhoz
 
 #### Áttekintés
-Ez a funkció bemutatja, hogyan **hozzunk létre táblázatot**, majd **adjunk szöveget a táblázat** celláihoz, és végül **save presentation as pptx**.
+Ez a funkció bemutatja, hogyan **hozzunk létre táblázatot**, majd **adjunk szöveget a táblázat celláihoz**, és végül **mentsük a prezentációt pptx formátumban**.
 
 #### Lépések
 
@@ -109,7 +116,7 @@ try {
 ```
 
 **2. Szöveg hozzáadása a cellákhoz**  
-Hozz létre bekezdéseket szövegrészekkel, és add őket egy adott cellához.
+Hozz létre bekezdéseket szövegrészekkel, és add hozzá őket egy adott cellához.
 ```java
     IParagraph paragraph0 = new Paragraph();
     paragraph0.getPortions().add(new Portion("Text "));
@@ -128,7 +135,7 @@ Hozz létre bekezdéseket szövegrészekkel, és add őket egy adott cellához.
     cell.getTextFrame().getParagraphs().addAll(Arrays.asList(paragraph0, paragraph1, paragraph2));
 ```
 
-**3. A prezentáció mentése**  
+**3. Prezentáció mentése**  
 ```java
     pres.save("YOUR_OUTPUT_DIRECTORY/GetRect_Out.pptx", SaveFormat.Pptx);
 } finally {
@@ -139,7 +146,7 @@ Hozz létre bekezdéseket szövegrészekkel, és add őket egy adott cellához.
 ### 2. funkció: TextFrame hozzáadása AutoShape-hez és igazítás beállítása
 
 #### Áttekintés
-Tanuld meg, hogyan adj hozzá egy szövegkeretet meghatározott igazítással egy auto shape-hez – ez egy **set text alignment java** példa.
+Tudd meg, hogyan adj hozzá egy szövegkeretet meghatározott igazítással egy auto shape-hez – egy példa a **set text alignment java** használatára.
 
 #### Lépések
 
@@ -152,14 +159,14 @@ try {
         ShapeType.Rectangle, 400, 100, 60, 120);
 ```
 
-**2. Szöveg igazítása**  
+**2. Szöveg igazítás beállítása**  
 Állítsd be a szöveget „Text in shape” értékre, és igazítsd balra.
 ```java
     autoShape.getTextFrame().setText("Text in shape");
     autoShape.getTextFrame().getParagraphs().get_Item(0).getParagraphFormat().setAlignment(TextAlignment.Left);
 ```
 
-**3. A prezentáció mentése**  
+**3. Prezentáció mentése**  
 ```java
     pres.save("YOUR_OUTPUT_DIRECTORY/GetRect_Out.pptx", SaveFormat.Pptx);
 } finally {
@@ -167,15 +174,15 @@ try {
 }
 ```
 
-### 3. funkció: Keretek rajzolása bekezdések és szövegrészek köré táblázatcellákban
+### 3. funkció: Keretek rajzolása bekezdések és szövegrészek köré a táblázat celláiban
 
 #### Áttekintés
-Ez a funkció a **draw frames around text** és a **draw rectangle around paragraph** témakörökre fókuszál, különösen a ‘0’ karaktert tartalmazó részekre.
+Ez a funkció a **draw frames around text** és akár a **draw rectangle around paragraph** megvalósítására összpontosít, a ‘0’ karaktert tartalmazó részek esetén.
 
 #### Lépések
 
 **1. Táblázat létrehozása**  
-Használd újra a „Táblázat létrehozása és szöveg hozzáadása a cellákhoz” kódot a kezdeti beállításhoz.
+Használd újra a „Create Table and Add Text to Cells” kódrészletet a kezdeti beállításhoz.
 ```java
 Presentation pres = new Presentation();
 try {
@@ -184,7 +191,7 @@ try {
 ```
 
 **2. Bekezdések hozzáadása**  
-Használd újra a korábbi funkcióból származó bekezdéskészítő kódot.
+Használd újra a bekezdés létrehozó kódot az előző funkcióból.
 ```java
     IParagraph paragraph0 = new Paragraph();
     paragraph0.getPortions().add(new Portion("Text "));
@@ -204,7 +211,7 @@ Használd újra a korábbi funkcióból származó bekezdéskészítő kódot.
 ```
 
 **3. Keretek rajzolása**  
-Iterálj a bekezdéseken és szövegrészeken, és rajzolj kereteket köréjük.
+Iterálj a bekezdéseken és szövegrészeken, hogy kereteket rajzolj köréjük.
 ```java
     double x = tbl.getX() + cell.getOffsetX();
     double y = tbl.getY() + cell.getOffsetY();
@@ -222,7 +229,7 @@ Iterálj a bekezdéseken és szövegrészeken, és rajzolj kereteket köréjük.
     }
 ```
 
-**4. A prezentáció mentése**  
+**4. Prezentáció mentése**  
 ```java
     pres.save("YOUR_OUTPUT_DIRECTORY/GetRect_Out.pptx", SaveFormat.Pptx);
 } finally {
@@ -230,29 +237,32 @@ Iterálj a bekezdéseken és szövegrészeken, és rajzolj kereteket köréjük.
 }
 ```
 
-## Összegzés
-Ezzel az útmutatóval megtanultad, hogyan **adj szöveget a táblázathoz**, hogyan igazítsd a szöveget alakzatokban, és hogyan **draw frames around text** a fontos információk kiemeléséhez. Ezeknek a technikáknak a elsajátítása lehetővé teszi, hogy rendkívül kifinomult, adat‑központú prezentációkat hozz létre az Aspose.Slides for Java segítségével. További felfedezéshez próbáld ki ezeket a funkciókat diagramokkal, animációkkal vagy PDF‑exporttal kombinálva.
+## Common Pitfalls & Tips
 
-## Gyakran ismételt kérdések
+- **Null ellenőrzések** – Mindig tedd a `Presentation` használatát try‑finally blokkba, hogy a `pres.dispose()` lefusson és felszabadítsa a natív erőforrásokat.  
+- **A határoló téglalap pontossága** – A `para.getRect()` által visszaadott téglalap a jelenlegi elrendezést tükrözi; ha betűméretet vagy margókat változtatsz, számold újra a téglalapot a keret rajzolása előtt.  
+- **Teljesítmény** – Nagyon nagy táblázatok esetén fontold meg a shape-ek csoportos hozzáadását vagy egyetlen `IAutoShape` példány újrahasználatát frissített geometriával a memóriahasználat csökkentése érdekében.
 
-**Q: Használhatom ezeket az API‑kat régebbi JDK verziókkal?**  
-A: A könyvtár támogatja a JDK 8‑tól felfelé, de a `jdk16` osztálycímke a legjobb teljesítményt nyújt az újabb futtatókörnyezetekben.
+## Frequently Asked Questions
 
-**Q: Hogyan változtathatom meg a keret színét?**  
-A: Módosítsd a vonalformátum kitöltésének színét, például `shape.getLineFormat().getFillFormat().setSolidFillColor(Color.BLUE);`.
+**K: Használhatom ezeket az API-kat régebbi JDK verziókkal?**  
+V: A könyvtár a JDK 8-tól támogatott, de a `jdk16` osztálycímke a legjobb teljesítményt nyújt az újabb futtatókörnyezetekben.
 
-**Q: Lehet-e a végső diát képként exportálni?**  
-A: Igen – használd a `pres.getSlides().get_Item(0).getImage(Export.ImageFormat.Png)` metódust, majd mentsd el a byte‑tömbötQ: Hogyan emelhetem ki csak a „Total” szót egy cellában?**  
-A: Iterálj a `cell.getTextFrame().getParagraphs()` elemein, keresd meg a „Total” szót tartalmazó szövegrészt, és rajzolj egy téglalapot annak köréhatároló keretéhez.
+**K: Hogyan változtathatom meg a keret színét?**  
+V: Módosítsd a vonalformátum kitöltő színét, például `shape.getLineFormat().getFillFormat().setSolidFillColor(Color.BLUE);`.
 
-**Q: Kezeli-e az Aspose.Slides a nagy méretű prezentációkat hatékonyan?**  
-A: Az API adatfolyamokat használ, és erőforrásokat szabadít fel a `pres.dispose()` hívásakor, ami segít a memória kezelésében nagy fájlok esetén.
+**K: Lehetőség van a végső diát képként exportálni?**  
+V: Igen – használd a `pres.getSlides().get_Item(0).getImage(Export.ImageFormat.Png)` metódust, majd mentsd el a byte tömböt.
+
+**K: Mi a teendő, ha csak a „Total” szót kell kiemelni egy cellában?**  
+V: Iterálj a `cell.getTextFrame().getParagraphs()` elemein, keresd meg a “Total” szót tartalmazó részt, és rajzolj egy téglalapot annak határoló kerete köré.
+
+**K: Kezeli-e az Aspose.Slides hatékonyan a nagy prezentációkat?**  
+V: Az API adatfolyamot használ és felszabadítja az erőforrásokat a `pres.dispose()` hívásakor, ami segít a memória kezelésében nagy fájlok esetén.
 
 ---
 
-{{< blocks/products/products-backtop-button >}}
-
-**Last Updated:** 2025-12-10  
+**Last Updated:** 2026-02-09  
 **Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
 **Author:** Aspose  
 
@@ -261,3 +271,5 @@ A: Az API adatfolyamokat használ, és erőforrásokat szabadít fel a `pres.dis
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
