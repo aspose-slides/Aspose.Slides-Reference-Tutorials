@@ -1,13 +1,13 @@
 ---
-date: '2025-12-02'
-description: Aspose.Slides kullanarak Java'da sunum geçişlerini nasıl oluşturacağınızı
-  öğrenin. Dinamik slayt geçişleri uygulayın, slayt ilerleme süresini ayarlayın ve
-  slayt zamanlamasını kolayca yapılandırın.
+date: '2026-04-22'
+description: Aspose Slides Maven Bağımlılığını nasıl ekleyeceğinizi ve Java’da sunum
+  geçişleri oluşturmayı öğrenin. Dinamik slayt geçişleri uygulayın, slayt ilerleme
+  süresini ayarlayın ve slayt zamanlamasını kolayca yapılandırın.
 keywords:
-- dynamic slide transitions
-- Aspose.Slides Java
-- Java presentation enhancements
-title: Java ile Aspose.Slides kullanarak sunum geçişleri nasıl oluşturulur
+- aspose slides maven dependency
+- how to create transitions
+- set slide advance time
+title: Aspose Slides Maven Bağımlılığı – Java Geçişleri
 url: /tr/java/animations-transitions/aspose-slides-java-dynamic-slide-transitions/
 weight: 1
 ---
@@ -17,44 +17,50 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Java ile Aspose.Slides kullanarak sunum geçişleri nasıl oluşturulur
+# Java ile Aspose.Slides kullanarak sunum geçişleri oluşturma
 
 ## Giriş
-Etkileyici sunumlar oluşturmak, ister bir iş teklifi sunuyor olun ister bir sınıfta ders anlatıyor olun, çok önemlidir. Bu rehberde **sunum geçişleri oluşturmayı** öğrenecek, görsel çekicilik katacak, anlatı akışını iyileştirecek ve izleyicinizin dikkatini canlı tutacaksınız. Aspose.Slides for Java kullanarak Circle, Comb ve Zoom gibi popüler **dinamik slayt geçişlerini** nasıl uygulayacağınızı ve her etki için **slayt ilerleme süresini** ve **slayt zamanlamasını** nasıl yapılandıracağınızı göstereceğiz. Sonunda, etkileyici bir slayt destesi oluşturmuş olacaksınız.
+Etkileyici sunumlar oluşturmak, ister bir iş teklifi sunuyor olun ister bir sınıfta ders veriyor olun, çok önemlidir. Bu rehberde **sunum geçişleri oluşturmayı** öğrenecek, görsel çekicilik katacak, anlatı akışını iyileştirecek ve izleyicinizin dikkatini çekeceksiniz. Ayrıca **Aspose Slides Maven Bağımlılığını eklemeyi** gösterecek ve Aspose.Slides for Java ile hemen çalışmaya başlayacaksınız. Sonunda etkileyici bir slayt destesi elde edeceksiniz.
 
 ### Hızlı Yanıtlar
-- **Java’da slayt geçişlerini ekleyen kütüphane hangisidir?** Aspose.Slides for Java  
-- **Hangi geçiş sorunsuz bir döngü etkisi verir?** Circle geçişi  
-- **Bir slaytı 5 saniye sonra ilerletecek şekilde nasıl ayarlarım?** `setAdvanceAfterTime(5000)` kullanın  
-- **Aspose.Slides’ı eklemek için Maven veya Gradle kullanabilir miyim?** Evet, her ikisi de desteklenir  
+- **Java'da slayt geçişlerini ekleyen kütüphane nedir?** Aspose.Slides for Java  
+- **Hangi geçiş pürüzsüz bir döngü etkisi verir?** Circle transition  
+- **Bir slaytı 5 saniye sonra ilerletmek nasıl ayarlanır?** `setAdvanceAfterTime(5000)` kullanın  
+- **Aspose.Slides'ı eklemek için Maven veya Gradle kullanabilir miyim?** Evet, her ikisi de desteklenir – sadece Aspose Slides Maven Bağımlılığını ekleyin  
 - **Üretim kullanımında lisansa ihtiyacım var mı?** Ticari bir lisans gereklidir  
 
-### Dinamik slayt geçişleri nedir?
-Dinamik slayt geçişleri, bir slayttan diğerine geçerken oynatılan animasyonlu efektlerdir. Ana noktaları vurgulamaya, izleyicinin gözünü yönlendirmeye ve sunumu daha profesyonel hissettirmeye yardımcı olurlar.
+## Aspose Slides Maven Bağımlılığını Nasıl Eklenir
+Aspose.Slides'ı bir Java projesinde kullanmaya başlamak için önce **Aspose Slides Maven Bağımlılığını** yapılandırmanıza eklemeniz gerekir. Bu adım, geçişler dahil olmak üzere gerekli tüm sınıfların derleme zamanında kullanılabilir olmasını sağlar.
 
-### Slayt ilerleme süresi neden ayarlanır?
+### Aspose Slides Maven Bağımlılığı Nedir?
+Maven bağımlılığı, Maven (veya Gradle)'a Aspose.Slides kütüphanesini merkezi depodan indirmesini söyleyen bir referanstır. PowerPoint dosyalarını programlı olarak oluşturmak, düzenlemek ve animasyon eklemek için ihtiyaç duyduğunuz API'yi paketler.
+
+## Dinamik slayt geçişleri nedir?
+Dinamik slayt geçişleri, bir slayttan diğerine geçerken oynatılan animasyonlu efektlerdir. Ana noktaları vurgulamaya, izleyicinin gözünü yönlendirmeye ve sunumu daha profesyonel hissettirmeye yardımcı olur.
+
+## Slayt ilerleme süresi neden ayarlanır?
 Her geçişin zamanlamasını (`setAdvanceAfterTime` kullanarak) kontrol etmek, animasyonları anlatımla senkronize etmenizi, sabit bir tempo tutmanızı ve otomatik sunumlarda manuel tıklamaları önlemenizi sağlar.
 
 ## Öğrenecekleriniz
-- Projenizde Aspose.Slides for Java’ı nasıl kuracağınız.  
-- **Farklı slayt geçişlerini** uygulamak için adım‑adım talimatlar.  
-- **Slayt ilerleme süresini** ayarlama ve **slayt zamanlamasını** yapılandırma ipuçları.  
-- Büyük sunumlar için performans hususları ve en iyi uygulamalar.
+- Projenizde Aspose.Slides for Java'ı nasıl kuracağınız.  
+- **Farklı slayt geçişlerini** **uygulamak** için adım‑adım talimatlar.  
+- **Slayt ilerleme süresini ayarlama** ve **slayt zamanlamasını yapılandırma** için pratik ipuçları.  
+- Büyük sunumlar için performans düşünceleri ve en iyi uygulamalar.
 
-Slaytlarınızı dönüştürmeye hazır mısınız? Gereksinimlerle başlayalım.
+Sunumlarınızı dönüştürmeye hazır mısınız? Önkoşullarla başlayalım.
 
-## Gereksinimler
+## Önkoşullar
 Başlamadan önce şunların olduğundan emin olun:
 
-- **Kütüphaneler & Bağımlılıklar** – Aspose.Slides for Java (en son sürüm, JDK 16+ ile uyumlu).  
-- **Geliştirme Ortamı** – Yüklü bir JDK ve bir derleme aracı (Maven veya Gradle).  
-- **Temel Bilgi** – Java, Maven/Gradle ve sunum kavramlarına aşinalık.
+- **Kütüphaneler ve Bağımlılıklar** – Aspose.Slides for Java (en son sürüm, JDK 16+ ile uyumlu).  
+- **Geliştirme Ortamı** – Yüklü bir JDK ve bir yapı aracı (Maven veya Gradle).  
+- **Temel Bilgi** – Java, Maven/Gradle ve sunum kavramına aşinalık.
 
 ## Aspose.Slides for Java Kurulumu
 ### Kurulum Talimatları
 
 **Maven:**  
-`pom.xml` dosyanıza aşağıdaki bağımlılığı ekleyin:
+Aşağıdaki bağımlılığı `pom.xml` dosyanıza ekleyin:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -65,21 +71,21 @@ Başlamadan önce şunların olduğundan emin olun:
 ```
 
 **Gradle:**  
-`build.gradle` dosyanıza şu satırı ekleyin:
+Bu satırı `build.gradle` dosyanıza ekleyin:
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
 **Doğrudan İndirme:**  
-Ayrıca resmi sürüm sayfasından en son JAR dosyasını indirebilirsiniz: [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+Resmi sürüm sayfasından en son JAR dosyasını da indirebilirsiniz: [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### Lisans Edinme
-- **Ücretsiz Deneme** – Lisans olmadan API’yı sınırlı bir süre keşfedin.  
-- **Geçici Lisans** – Uzatılmış değerlendirme için zaman sınırlı bir anahtar alın.  
-- **Ticari Lisans** – Üretim dağıtımları için gereklidir.
+### Lisans Edinimi
+- **Free Trial** – Sınırlı bir süre lisans olmadan API'yi keşfedin.  
+- **Temporary License** – Uzun değerlendirme için zaman sınırlı bir anahtar edinin.  
+- **Commercial License** – Üretim dağıtımları için gereklidir.  
 
 ### Temel Başlatma
-Geçiş eklemeye başlayabilmeniz için mevcut bir sunumu nasıl yükleyeceğinizi aşağıda bulabilirsiniz:
+Geçiş eklemeye başlamak için mevcut bir sunumu nasıl yükleyeceğinizi aşağıda bulabilirsiniz:
 ```java
 import com.aspose.slides.Presentation;
 
@@ -87,12 +93,12 @@ String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Presentation pres = new Presentation(dataDir + "/YourPresentation.pptx");
 ```
 
-## Aspose.Slides ile sunum geçişleri nasıl oluşturulur
-Aşağıda üç farklı geçiş türü uygulayacağız. Her örnek aynı modeli izler: dosyayı yükle, geçişi ayarla, zamanlamayı yapılandır, sonucu kaydet ve kaynakları temizle.
+## Aspose.Slides ile sunum geçişleri oluşturma
+Aşağıda üç farklı geçiş türü uygulayacağız. Her örnek aynı adımları izler: dosyayı yükleme, geçişi ayarlama, zamanlamayı yapılandırma, sonucu kaydetme ve kaynakları temizleme.
 
-### Circle Geçişi Uygula
+### Circle Geçişini Uygulama
 #### Genel Bakış
-Circle geçişi, resmi bir sunumda iyi çalışan sorunsuz, döngüsel bir hareket yaratır.
+Circle geçişi, resmi sunumlar için uygun olan pürüzsüz, döngüsel bir hareket oluşturur.
 
 **Adım‑adım:**
 
@@ -101,7 +107,7 @@ Circle geçişi, resmi bir sunumda iyi çalışan sorunsuz, döngüsel bir harek
    String dataDir = "YOUR_DOCUMENT_DIRECTORY";
    Presentation presCircle = new Presentation(dataDir + "/BetterSlideTransitions.pptx");
    ```
-2. **Geçiş Tipini Ayarla**
+2. **Geçiş Türünü Ayarla**
    ```java
    presCircle.getSlides().get_Item(0).getSlideShowTransition().setType(com.aspose.slides.TransitionType.Circle);
    ```
@@ -119,9 +125,9 @@ Circle geçişi, resmi bir sunumda iyi çalışan sorunsuz, döngüsel bir harek
    if (presCircle != null) presCircle.dispose();
    ```
 
-### Comb Geçişi Uygula
+### Comb Geçişini Uygulama
 #### Genel Bakış
-Comb geçişi, slaytı şeritlere ayırır—yapılandırılmış, kurumsal sunumlar için mükemmeldir.
+Comb geçişi, slaytı şeritlere ayırır—yapılandırılmış, kurumsal sunumlar için harikadır.
 
 **Adım‑adım:**
 
@@ -130,7 +136,7 @@ Comb geçişi, slaytı şeritlere ayırır—yapılandırılmış, kurumsal sunu
    String dataDir = "YOUR_DOCUMENT_DIRECTORY";
    Presentation presComb = new Presentation(dataDir + "/BetterSlideTransitions.pptx");
    ```
-2. **Geçiş Tipini Ayarla**
+2. **Geçiş Türünü Ayarla**
    ```java
    presComb.getSlides().get_Item(1).getSlideShowTransition().setType(com.aspose.slides.TransitionType.Comb);
    ```
@@ -148,9 +154,9 @@ Comb geçişi, slaytı şeritlere ayırır—yapılandırılmış, kurumsal sunu
    if (presComb != null) presComb.dispose();
    ```
 
-### Zoom Geçişi Uygula
+### Zoom Geçişini Uygulama
 #### Genel Bakış
-Zoom, slaytın belirli bir alanına odaklanarak etkileyici bir giriş efekti oluşturur.
+Zoom, slaydın belirli bir alanına odaklanır ve etkileyici bir giriş efekti oluşturur.
 
 **Adım‑adım:**
 
@@ -159,7 +165,7 @@ Zoom, slaytın belirli bir alanına odaklanarak etkileyici bir giriş efekti olu
    String dataDir = "YOUR_DOCUMENT_DIRECTORY";
    Presentation presZoom = new Presentation(dataDir + "/BetterSlideTransitions.pptx");
    ```
-2. **Geçiş Tipini Ayarla**
+2. **Geçiş Türünü Ayarla**
    ```java
    presZoom.getSlides().get_Item(2).getSlideShowTransition().setType(com.aspose.slides.TransitionType.Zoom);
    ```
@@ -178,48 +184,48 @@ Zoom, slaytın belirli bir alanına odaklanarak etkileyici bir giriş efekti olu
    ```
 
 ## Pratik Uygulamalar
-- **İş Sunumları:** Gündem maddeleri arasında sorunsuz, profesyonel geçişler için Circle geçişini kullanın.  
-- **Eğitim İçeriği:** Ders sırasında ana diyagramları veya formülleri vurgulamak için Zoom’u uygulayın.  
-- **Pazarlama Slayt Gösterileri:** Ürün özelliklerini bölümlendirmek için Comb etkisi temiz ve düzenli bir his verir.  
+- **Business Presentations:** Circle geçişini, gündem maddeleri arasında pürüzsüz, profesyonel geçişler için kullanın.  
+- **Educational Content:** Ders sırasında ana diyagramları veya formülleri vurgulamak için Zoom'u uygulayın.  
+- **Marketing Slideshows:** Comb etkisi, ürün özelliklerinin ayrıntılandırılması için temiz, düzenli bir his verir.  
 
-Bu adımları bir CI/CD boru hattında otomatikleştirerek slayt destelerini anında oluşturabilirsiniz.
+Bu adımları bir CI/CD hattında otomatikleştirerek slayt destelerini anında oluşturabilirsiniz.
 
-## Performans Hususları
-- **Sunumları Serbest Bırak:** Yerel kaynakları serbest bırakmak için her zaman `dispose()` çağırın.  
-- **Aynı Anda Büyük Dosyalardan Kaçının:** Bellek kullanımını düşük tutmak için bir seferde bir sunum işleyin.  
-- **Yığın (Heap) İzleme:** Çok büyük destelerle çalışırken ani artışları izlemek için JVM araçlarını kullanın.
+## Performans Düşünceleri
+- **Dispose of Presentations:** Yerel kaynakları serbest bırakmak için her zaman `dispose()` çağırın.  
+- **Avoid Large Files Simultaneously:** Bellek kullanımını düşük tutmak için aynı anda bir sunum işleyin.  
+- **Monitor Heap:** Çok büyük destelerle çalışırken ani artışları izlemek için JVM araçlarını kullanın.
 
 ## Yaygın Sorunlar ve Çözümler
 | Sorun | Çözüm |
 |-------|----------|
-| **OutOfMemoryError** büyük bir PPTX yüklerken | Slaytları partiler halinde işleyin veya JVM yığınını (`-Xmx`) artırın. |
-| Geçiş PowerPoint’te görünmüyor | PPTX formatında kaydettiğinizden ve güncel bir PowerPoint sürümünde açtığınızdan emin olun. |
-| Lisans uygulanmadı | `License license = new License(); license.setLicense("path/to/license.xml");` kodunu `Presentation` oluşturulmadan önce çağırın. |
+| **OutOfMemoryError** when loading a huge PPTX | Process slides in batches or increase JVM heap (`-Xmx`). |
+| Transition not visible in PowerPoint | Ensure you saved in PPTX format and opened in a recent PowerPoint version. |
+| License not applied | Call `License license = new License(); license.setLicense("path/to/license.xml");` before creating `Presentation`. |
 
-## Sık Sorulan Sorular
+## Sıkça Sorulan Sorular
 
 **S: Aspose.Slides for Java nedir?**  
-C: Java uygulamalarından PowerPoint dosyalarını programlı olarak oluşturmanızı, değiştirmenizi ve dönüştürmenizi sağlayan güçlü bir API’dir.
+C: Java uygulamalarından programlı olarak PowerPoint dosyaları oluşturmanıza, değiştirmenize ve dönüştürmenize olanak tanıyan sağlam bir API'dir.
 
 **S: Belirli bir slayta nasıl geçiş uygularım?**  
-C: `get_Item(index)` ile slaytı alın ve `getSlideShowTransition().setType(...)` ile geçiş tipini ayarlayın.
+C: `get_Item(index)` ile slayta erişin ve `getSlideShowTransition().setType(...)` kullanarak geçiş türünü ayarlayın.
 
 **S: Geçiş süresini özelleştirebilir miyim?**  
-C: Evet. Slaytın ne kadar süre sonra ilerleyeceğini tanımlamak için `setAdvanceAfterTime(milliseconds)` kullanın.
+C: Evet. Slaytın ilerlemeden önce ne kadar kalacağını tanımlamak için `setAdvanceAfterTime(milliseconds)` kullanın.
 
 **S: Bellek yönetimi için en iyi uygulamalar nelerdir?**  
-C: Her `Presentation` nesnesini işiniz bittiğinde serbest bırakın, aynı anda çok sayıda büyük dosya yüklemekten kaçının ve JVM yığınını izleyin.
+C: İşiniz bittiğinde her `Presentation` nesnesini `dispose()` ile serbest bırakın, bir kerede çok büyük dosyalar yüklemekten kaçının ve JVM yığınını izleyin.
 
-**S: Desteklenen geçiş tiplerinin tam listesini nereden bulabilirim?**  
-C: Kapsamlı liste için resmi [Aspose.Slides for Java documentation](https://docs.aspose.com/slides/java/) sayfasına bakın.
+**S: Desteklenen geçiş türlerinin tam listesini nereden bulabilirim?**  
+C: Kapsamlı bir liste için resmi [Aspose.Slides for Java documentation](https://docs.aspose.com/slides/java/) sayfasına bakın.
 
 ## Sonuç
-Artık Java’da **sunum geçişleri oluşturmayı**, kesin slayt ilerleme süreleri ayarlamayı ve daha akıcı bir izleyici deneyimi için zamanlamayı yapılandırmayı biliyorsunuz. Farklı efektlerle deney yapın, bunları özel animasyonlarla birleştirin ve bu mantığı daha büyük raporlama ya da e‑öğrenme platformlarına entegre edin.
+Artık **Aspose Slides Maven Bağımlılığını eklemeyi**, Java'da **sunum geçişleri oluşturmayı**, kesin slayt ilerleme sürelerini ayarlamayı ve izleyici deneyimini daha akıcı hale getirmek için zamanlamayı yapılandırmayı biliyorsunuz. Farklı efektlerle deney yapın, bunları özel animasyonlarla birleştirin ve bu mantığı daha büyük raporlama veya e‑learning platformlarına entegre edin.
 
 ---
 
-**Son Güncelleme:** 2025-12-02  
-**Test Edilen Versiyon:** Aspose.Slides 25.4 (JDK 16 sınıflandırıcısı)  
+**Son Güncelleme:** 2026-04-22  
+**Test Edilen:** Aspose.Slides 25.4 (JDK 16 classifier)  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
