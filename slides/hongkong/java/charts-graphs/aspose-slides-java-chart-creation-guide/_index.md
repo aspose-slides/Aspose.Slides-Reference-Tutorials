@@ -1,9 +1,13 @@
 ---
-"date": "2025-04-17"
-"description": "了解如何使用 Aspose.Slides for Java 建立和管理圖表。本指南涵蓋簇狀長條圖、資料系列管理等內容。"
-"title": "使用 Aspose.Slides 掌握 Java 中的圖表建立綜合指南"
-"url": "/zh-hant/java/charts-graphs/aspose-slides-java-chart-creation-guide/"
-"weight": 1
+date: '2026-02-12'
+description: 學習如何使用 Aspose.Slides for Java 建立圖表及管理圖表。本教學示範如何建立叢集柱狀圖、處理資料系列，並自訂視覺化效果。
+keywords:
+- Aspose.Slides for Java
+- Java charts
+- clustered column chart
+title: 如何使用 Aspose.Slides 在 Java 中建立圖表：完整指南
+url: /zh-hant/java/charts-graphs/aspose-slides-java-chart-creation-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,41 +15,49 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# 使用 Aspose.Slides 掌握 Java 圖表創建
+# 如何在 Java 中使用 Aspose.Slides 建立圖表
 
-## 如何使用 Aspose.Slides for Java 建立和管理圖表
+## 在 Java 中建立圖表：簡介
+建立動態簡報通常需要透過圖表來視覺化資料。使用 **Aspose.Slides for Java**，您可以輕鬆 **how to create chart** 物件，提升清晰度，並對觀眾產生更強的衝擊。本教學將帶您設定函式庫、加入 **create clustered column chart**、管理系列，並條件性地反轉負值資料點。
 
-### 介紹
-建立動態簡報通常涉及透過圖表視覺化資料。和 **Aspose.Slides for Java**，您可以輕鬆創建和管理各種圖表類型，增強清晰度和影響力。本教學將指導您建立空白簡報、新增聚集長條圖、管理系列和自訂資料點反轉 - 所有這些都使用 Aspose.Slides for Java。
+**您將學習到**
+- 如何設定 Aspose.Slides for Java。
+- 在簡報中加入 **create clustered column chart** 的步驟。
+- 管理圖表系列與資料點的技巧。
+- 為了更佳視覺效果，條件性反轉負值資料點的方法。
+- 如何安全地儲存簡報。
 
-**您將學到什麼：**
-- 如何為 Java 設定 Aspose.Slides。
-- 在簡報中建立聚集長條圖的步驟。
-- 有效管理圖表系列和數據點的技術。
-- 為了更好地進行視覺化，有條件地反轉負資料點的方法。
-- 如何安全地保存簡報。
+### 快速答覆
+- **使用的函式庫是什麼？** Aspose.Slides for Java。
+- **示範的圖表類型為何？** Clustered column chart。
+- **我可以反轉負值嗎？** 可以，使用 `invertIfNegative`。
+- **需要哪個版本的 Java？** JDK 16 或更新版本。
+- **正式環境需要授權嗎？** 需要，有效的 Aspose 授權。
 
-在開始之前，讓我們先深入了解先決條件。
+## 什麼是 Clustered Column Chart？
+Clustered column chart 會在每個類別中並排顯示多個資料系列，讓您輕鬆比較各群組的數值。它非常適合財務報表、銷售儀表板，以及任何需要對比多項指標的情境。
 
-## 先決條件
-在開始之前，請確保您已具備以下條件：
+## 為何使用 Aspose.Slides 來建立圖表？
+- **Full control**：在不依賴 PowerPoint UI 的情況下，完整掌控圖表外觀。
+- **Programmatic generation**：支援自動化報表流程的程式化產生。
+- **Cross‑platform**：確保程式碼可在任何相容 Java 的系統上執行。
+- **Rich API**：提供細緻的客製化功能（顏色、資料標籤、反轉等）。
 
-1. **所需庫：**
-   - Aspose.Slides for Java（版本 25.4 或更高版本）。
+## 先備條件
+1. **必要函式庫**
+   - Aspose.Slides for Java（版本 25.4 或更新）。
 
-2. **環境設定要求：**
-   - 相容的 JDK 版本（例如 JDK 16）。
-   - 如果您喜歡依賴管理，請安裝 Maven 或 Gradle。
+2. **環境**
+   - JDK 16 或更新版本。
+   - Maven 或 Gradle 用於相依管理。
 
-3. **知識前提：**
-   - 對 Java 程式設計有基本的了解。
-   - 熟悉處理開發環境中的依賴關係。
+3. **知識**
+   - 基本的 Java 程式設計。
+   - 熟悉建置工具（Maven/Gradle）。
 
 ## 設定 Aspose.Slides for Java
-若要開始使用 Aspose.Slides，請依照下列步驟操作：
-
-**Maven安裝：**
-將以下相依性新增至您的 `pom.xml` 文件：
+### Maven 安裝
+在您的 `pom.xml` 檔案中加入以下相依性：
 
 ```xml
 <dependency>
@@ -56,52 +68,42 @@
 </dependency>
 ```
 
-**Gradle 安裝：**
-將以下行新增到您的 `build.gradle`：
+### Gradle 安裝
+在您的 `build.gradle` 檔案中加入以下行：
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**直接下載：**
-或者，從下載最新版本 [Aspose.Slides for Java 發布](https://releases。aspose.com/slides/java/).
+### 直接下載
+或者，從 [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) 下載最新版本。
 
-### 許可證獲取
-- **免費試用：** 您可以先免費試用，探索其功能。
-- **臨時執照：** 在評估期間取得臨時許可證以獲得完全存取權。
-- **購買：** 如果您發現它適合您的長期需求，請考慮購買。
+### 取得授權
+- **免費試用：** 無需授權即可體驗功能。
+- **暫時授權：** 評估期間使用。
+- **完整授權：** 用於正式部署的購買授權。
 
 ### 基本初始化
 ```java
 import com.aspose.slides.*;
 
 Presentation pres = new Presentation();
-// 您的程式碼在這裡...
-pres.dispose(); // 完成後務必處置演示對象。
+// Your code here...
+pres.dispose(); // Always dispose of the presentation object when done.
 ```
 
-## 實施指南
-現在，讓我們將每個功能分解為易於管理的步驟。
+## 逐步指南
 
-### 使用簇狀長條圖建立簡報
-#### 概述
-本節介紹如何建立空白簡報並在投影片上的特定座標處新增簇狀長條圖。
+### 步驟 1：建立簡報並加入 Clustered Column Chart
+在此步驟中，我們 **how to create chart** 物件，並在第一張投影片上放置 **create clustered column chart**。
 
-**步驟：**
-1. **初始化演示物件：**
-   - 建立新實例 `Presentation`。
-2. **添加簇狀長條圖：**
-   - 使用 `getSlides().get_Item(0).getShapes().addChart()` 新增圖表。
-   - 指定位置、尺寸和類型。
-
-**程式碼範例：**
 ```java
 import com.aspose.slides.*;
 
 String YOUR_DOCUMENT_DIRECTORY = "YOUR_DOCUMENT_DIRECTORY";
 Presentation pres = new Presentation();
 try {
-    // 在 (50, 50) 處加入一個簇狀長條圖，寬度為 600，高度為 400。
+    // Add a clustered column chart at (50, 50) with width 600 and height 400.
     IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
         ChartType.ClusteredColumn,
         50, 50, 600, 400, true
@@ -111,19 +113,9 @@ try {
 }
 ```
 
-### 管理圖表系列
-#### 概述
-了解如何清除現有系列並新增具有自訂資料點的新系列。
+### 步驟 2：管理圖表系列
+接下來，我們會清除預設系列，新增一個系列，並填入正負值。
 
-**步驟：**
-1. **清除現有系列：**
-   - 使用 `series.clear()` 刪除任何預先存在的資料。
-2. **新增系列：**
-   - 使用新增系列 `series。add()`.
-3. **插入資料點：**
-   - 利用 `getDataPoints().addDataPointForBarSeries()` 用於添加值，包括負值。
-
-**程式碼範例：**
 ```java
 import com.aspose.slides.*;
 
@@ -134,12 +126,12 @@ try {
         50, 50, 600, 400, true
     );
     
-    // 清除現有系列並新增系列。
+    // Clear existing series and add a new one.
     IChartSeriesCollection series = chart.getChartData().getSeries();
     series.clear();
     series.add(chart.getChartData().getChartDataWorkbook().getCell(0, "B1"), chart.getType());
     
-    // 新增具有不同值（正值和負值）的資料點。
+    // Add data points with varying values (positive and negative).
     series.get_Item(0).getDataPoints().addDataPointForBarSeries(
         chart.getChartData().getChartDataWorkbook().getCell(0, "B2", -5)
     );
@@ -157,17 +149,9 @@ try {
 }
 ```
 
-### 根據條件反轉序列資料點
-#### 概述
-透過有條件地反轉負數據點來自訂其視覺化。
+### 步驟 3：條件性反轉負值資料點
+預設情況下，Aspose.Slides 不會反轉負值。我們將僅對需要的資料點啟用反轉。
 
-**步驟：**
-1. **設定預設反轉行為：**
-   - 使用 `setInvertIfNegative(false)` 確定整體反轉行為。
-2. **有條件地反轉特定資料點：**
-   - 申請 `setInvertIfNegative(true)` 如果為負數，則在特定資料點上。
-
-**程式碼範例：**
 ```java
 import com.aspose.slides.*;
 
@@ -182,7 +166,7 @@ try {
     series.clear();
     series.add(chart.getChartData().getChartDataWorkbook().getCell(0, "B1"), chart.getType());
     
-    // 新增具有不同值（正值和負值）的資料點。
+    // Add data points with varying values (positive and negative).
     series.get_Item(0).getDataPoints().addDataPointForBarSeries(
         chart.getChartData().getChartDataWorkbook().getCell(0, "B2", -5)
     );
@@ -196,10 +180,10 @@ try {
         chart.getChartData().getChartDataWorkbook().getCell(0, "B5", 1)
     );
     
-    // 設定預設反轉行為
+    // Set default inversion behavior
     series.get_Item(0).invertIfNegative(false);
     
-    // 有條件地反轉特定資料點
+    // Conditionally invert a specific data point
     IChartDataPoint dataPoint = series.get_Item(0).getDataPoints().get_Item(0);
     if (dataPoint.getValue() < 0) {
         dataPoint.invertIfNegative(true);
@@ -209,12 +193,32 @@ try {
 }
 ```
 
-### 結論
-在本教程中，您學習如何設定 Aspose.Slides for Java 並建立聚集長條圖。您還探索如何管理資料系列以及如何自訂負資料點的視覺化。有了這些技能，您現在可以自信地在 Java 應用程式中建立動態圖表。
+### 常見問題與技巧
+- **忘記釋放 `Presentation` 物件？** 必須在 `finally` 區塊中呼叫 `dispose()`，以釋放原生資源。
+- **負值未顯示為反轉？** 確認在加入資料點之後呼叫 `invertIfNegative(true)` **之後**。
+- **圖表尺寸問題：** 座標 (X, Y) 與尺寸 (width, height) 以點為單位，請依投影片版面調整。
 
-**後續步驟：**
-- 嘗試使用 Aspose.Slides for Java 中可用的不同圖表類型。
-- 探索其他自訂選項以增強您的簡報。
+## 常見問答
+
+**Q: 我可以用相同方式建立其他圖表類型嗎？**  
+A: 可以，只要將 `ChartType.ClusteredColumn` 替換為其他 `ChartType` 列舉值（例如 `Line`、`Pie`）。
+
+**Q: 開發版需要授權嗎？**  
+A: 需要暫時或評估授權才能使用全部功能；否則函式庫會以試用模式運作，並有浮水印限制。
+
+**Q: 加入圖表後，如何將簡報匯出為 PDF？**  
+A: 在完成圖表操作後，使用 `pres.save("output.pdf", SaveFormat.Pdf);`。
+
+**Q: 能否為個別柱狀設定樣式（顏色、邊框）？**  
+A: 可以，每個 `IChartDataPoint` 都提供格式設定選項，例如 `getFillFormat().setFillType(FillType.Solid)` 與 `getLineFormat()`。
+
+**Q: 若簡報已儲存，仍需更新圖表資料該怎麼做？**  
+A: 使用 `new Presentation("file.pptx")` 重新載入簡報，修改圖表資料後再重新儲存。
+
+---  
+**最後更新：** 2026-02-12  
+**測試環境：** Aspose.Slides for Java 25.4 (JDK 16)  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

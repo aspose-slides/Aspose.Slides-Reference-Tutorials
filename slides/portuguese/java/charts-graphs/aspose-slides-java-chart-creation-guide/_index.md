@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Aprenda a criar e gerenciar gráficos usando o Aspose.Slides para Java. Este guia aborda gráficos de colunas agrupadas, gerenciamento de séries de dados e muito mais."
-"title": "Dominando a criação de gráficos em Java com Aspose.Slides&#58; um guia completo"
-"url": "/pt/java/charts-graphs/aspose-slides-java-chart-creation-guide/"
-"weight": 1
+date: '2026-02-12'
+description: Aprenda a criar gráficos e gerenciar gráficos usando Aspose.Slides para
+  Java. Este tutorial mostra como criar um gráfico de colunas agrupadas, manipular
+  séries de dados e personalizar a visualização.
+keywords:
+- Aspose.Slides for Java
+- Java charts
+- clustered column chart
+title: 'Como Criar Gráficos em Java com Aspose.Slides: Um Guia Abrangente'
+url: /pt/java/charts-graphs/aspose-slides-java-chart-creation-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,41 +17,49 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Dominando a criação de gráficos em Java com Aspose.Slides
+# Como Criar Gráfico em Java com Aspose.Slides
 
-## Como criar e gerenciar gráficos usando Aspose.Slides para Java
+## Como Criar Gráfico em Java: Introdução
+Criar apresentações dinâmicas frequentemente envolve a visualização de dados por meio de gráficos. Com **Aspose.Slides for Java**, você pode criar **gráficos** de forma simples, melhorar a clareza e causar um impacto maior em sua audiência. Este tutorial orienta você na configuração da biblioteca, na adição de um **gráfico de colunas agrupadas**, no gerenciamento de séries e na inversão condicional de pontos de dados negativos.
 
-### Introdução
-A criação de apresentações dinâmicas geralmente envolve a visualização de dados por meio de gráficos. Com **Aspose.Slides para Java**, você pode criar e gerenciar facilmente vários tipos de gráficos, aprimorando a clareza e o impacto. Este tutorial guiará você na criação de uma apresentação vazia, adicionando gráficos de colunas agrupadas, gerenciando séries e personalizando a inversão de pontos de dados — tudo isso usando o Aspose.Slides para Java.
-
-**O que você aprenderá:**
-- Como configurar o Aspose.Slides para Java.
-- Etapas para criar um gráfico de colunas agrupadas em sua apresentação.
-- Técnicas para gerenciar séries de gráficos e pontos de dados de forma eficaz.
+**O que Você Vai Aprender**
+- Como configurar o Aspose.Slides for Java.
+- Passos para **criar um gráfico de colunas agrupadas** na sua apresentação.
+- Técnicas para gerenciar séries e pontos de dados do gráfico.
 - Métodos para inverter condicionalmente pontos de dados negativos para melhor visualização.
-- Como salvar a apresentação com segurança.
+- Como salvar a apresentação de forma segura.
 
-Vamos analisar os pré-requisitos antes de começar.
+### Respostas Rápidas
+- **Qual biblioteca é usada?** Aspose.Slides for Java.
+- **Qual tipo de gráfico é demonstrado?** Gráfico de colunas agrupadas.
+- **Posso inverter valores negativos?** Sim, usando `invertIfNegative`.
+- **Qual versão do Java é necessária?** JDK 16 ou posterior.
+- **É necessária licença para produção?** Sim, uma licença válida da Aspose.
 
-## Pré-requisitos
-Antes de começar, certifique-se de ter o seguinte:
+## O que é um Gráfico de Colunas Agrupadas?
+Um gráfico de colunas agrupadas exibe várias séries de dados lado a lado para cada categoria, facilitando a comparação de valores entre grupos. É ideal para relatórios financeiros, painéis de vendas e qualquer cenário onde você precise contrastar várias métricas.
 
-1. **Bibliotecas necessárias:**
-   - Aspose.Slides para Java (versão 25.4 ou posterior).
+## Por que Usar Aspose.Slides para Criação de Gráficos?
+- **Controle total** sobre a aparência do gráfico sem depender da interface do PowerPoint.
+- **Geração programática** permite pipelines de relatórios automatizados.
+- **Suporte multiplataforma** garante que seu código seja executado em qualquer sistema compatível com Java.
+- **API rica** para personalização detalhada (cores, rótulos de dados, inversão, etc.).
 
-2. **Requisitos de configuração do ambiente:**
-   - Uma versão compatível do JDK (por exemplo, JDK 16).
-   - Maven ou Gradle instalado se você preferir gerenciamento de dependências.
+## Pré‑requisitos
+1. **Bibliotecas Necessárias**
+   - Aspose.Slides for Java (versão 25.4 ou posterior).
 
-3. **Pré-requisitos de conhecimento:**
-   - Noções básicas de programação Java.
-   - Familiaridade com o tratamento de dependências no seu ambiente de desenvolvimento.
+2. **Ambiente**
+   - JDK 16 ou mais recente.
+   - Maven ou Gradle para gerenciamento de dependências.
 
-## Configurando o Aspose.Slides para Java
-Para começar a usar o Aspose.Slides, siga estes passos:
+3. **Conhecimentos**
+   - Programação básica em Java.
+   - Familiaridade com ferramentas de build (Maven/Gradle).
 
-**Instalação do Maven:**
-Adicione a seguinte dependência ao seu `pom.xml` arquivo:
+## Configurando Aspose.Slides for Java
+### Instalação via Maven
+Adicione a dependência a seguir ao seu arquivo `pom.xml`:
 
 ```xml
 <dependency>
@@ -56,52 +70,42 @@ Adicione a seguinte dependência ao seu `pom.xml` arquivo:
 </dependency>
 ```
 
-**Instalação do Gradle:**
-Adicione a seguinte linha ao seu `build.gradle`:
+### Instalação via Gradle
+Adicione a linha a seguir ao seu arquivo `build.gradle`:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Download direto:**
-Alternativamente, baixe a versão mais recente em [Lançamentos do Aspose.Slides para Java](https://releases.aspose.com/slides/java/).
+### Download Direto
+Alternativamente, faça o download da versão mais recente em [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 ### Aquisição de Licença
-- **Teste gratuito:** Você pode começar com um teste gratuito para explorar os recursos.
-- **Licença temporária:** Obtenha uma licença temporária para acesso total durante o período de avaliação.
-- **Comprar:** Considere comprar se você achar que isso atende às suas necessidades de longo prazo.
+- **Teste Gratuito:** Explore os recursos sem licença.
+- **Licença Temporária:** Use durante a avaliação.
+- **Licença Completa:** Adquira para implantações em produção.
 
-### Inicialização básica
+### Inicialização Básica
 ```java
 import com.aspose.slides.*;
 
 Presentation pres = new Presentation();
-// Seu código aqui...
-pres.dispose(); // Sempre descarte o objeto da apresentação quando terminar.
+// Your code here...
+pres.dispose(); // Always dispose of the presentation object when done.
 ```
 
-## Guia de Implementação
-Agora, vamos dividir cada recurso em etapas gerenciáveis.
+## Guia Passo a Passo
 
-### Criando uma apresentação com um gráfico de colunas agrupadas
-#### Visão geral
-Esta seção aborda como criar uma apresentação vazia e adicionar um gráfico de colunas agrupadas em coordenadas específicas no seu slide.
+### Etapa 1: Criar uma Apresentação e Adicionar um Gráfico de Colunas Agrupadas
+Nesta etapa, criamos objetos de **gráfico** e colocamos um **gráfico de colunas agrupadas** no primeiro slide.
 
-**Passos:**
-1. **Inicialize o objeto de apresentação:**
-   - Crie uma nova instância de `Presentation`.
-2. **Adicionar um gráfico de colunas agrupadas:**
-   - Usar `getSlides().get_Item(0).getShapes().addChart()` para adicionar o gráfico.
-   - Especifique posição, dimensões e tipo.
-
-**Exemplo de código:**
 ```java
 import com.aspose.slides.*;
 
 String YOUR_DOCUMENT_DIRECTORY = "YOUR_DOCUMENT_DIRECTORY";
 Presentation pres = new Presentation();
 try {
-    // Adicione um gráfico de colunas agrupadas em (50, 50) com largura 600 e altura 400.
+    // Add a clustered column chart at (50, 50) with width 600 and height 400.
     IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
         ChartType.ClusteredColumn,
         50, 50, 600, 400, true
@@ -111,19 +115,9 @@ try {
 }
 ```
 
-### Gerenciando Série de Gráficos
-#### Visão geral
-Aprenda como limpar séries existentes e adicionar novas com pontos de dados personalizados.
+### Etapa 2: Gerenciar Séries do Gráfico
+Agora vamos limpar quaisquer séries padrão, adicionar uma nova e preenchê‑la com valores positivos e negativos.
 
-**Passos:**
-1. **Limpar séries existentes:**
-   - Usar `series.clear()` para remover quaisquer dados pré-existentes.
-2. **Adicionar nova série:**
-   - Adicionar uma nova série usando `series.add()`.
-3. **Inserir pontos de dados:**
-   - Utilizar `getDataPoints().addDataPointForBarSeries()` para adicionar valores, inclusive negativos.
-
-**Exemplo de código:**
 ```java
 import com.aspose.slides.*;
 
@@ -134,12 +128,12 @@ try {
         50, 50, 600, 400, true
     );
     
-    // Limpe as séries existentes e adicione uma nova.
+    // Clear existing series and add a new one.
     IChartSeriesCollection series = chart.getChartData().getSeries();
     series.clear();
     series.add(chart.getChartData().getChartDataWorkbook().getCell(0, "B1"), chart.getType());
     
-    // Adicione pontos de dados com valores variados (positivos e negativos).
+    // Add data points with varying values (positive and negative).
     series.get_Item(0).getDataPoints().addDataPointForBarSeries(
         chart.getChartData().getChartDataWorkbook().getCell(0, "B2", -5)
     );
@@ -157,17 +151,9 @@ try {
 }
 ```
 
-### Invertendo pontos de dados de séries com base em condições
-#### Visão geral
-Personalize a visualização de pontos de dados negativos invertendo-os condicionalmente.
+### Etapa 3: Inverter Pontos de Dados Negativos Condicionalmente
+Por padrão, o Aspose.Slides não inverte valores negativos. Habilitaremos a inversão apenas para os pontos que necessitam disso.
 
-**Passos:**
-1. **Definir comportamento de inversão padrão:**
-   - Usar `setInvertIfNegative(false)` para determinar o comportamento geral de inversão.
-2. **Inverter condicionalmente pontos de dados específicos:**
-   - Aplicar `setInvertIfNegative(true)` em um ponto de dados específico se for negativo.
-
-**Exemplo de código:**
 ```java
 import com.aspose.slides.*;
 
@@ -182,7 +168,7 @@ try {
     series.clear();
     series.add(chart.getChartData().getChartDataWorkbook().getCell(0, "B1"), chart.getType());
     
-    // Adicione pontos de dados com valores variados (positivos e negativos).
+    // Add data points with varying values (positive and negative).
     series.get_Item(0).getDataPoints().addDataPointForBarSeries(
         chart.getChartData().getChartDataWorkbook().getCell(0, "B2", -5)
     );
@@ -196,10 +182,10 @@ try {
         chart.getChartData().getChartDataWorkbook().getCell(0, "B5", 1)
     );
     
-    // Definir comportamento de inversão padrão
+    // Set default inversion behavior
     series.get_Item(0).invertIfNegative(false);
     
-    // Inverter condicionalmente um ponto de dados específico
+    // Conditionally invert a specific data point
     IChartDataPoint dataPoint = series.get_Item(0).getDataPoints().get_Item(0);
     if (dataPoint.getValue() < 0) {
         dataPoint.invertIfNegative(true);
@@ -209,12 +195,33 @@ try {
 }
 ```
 
-### Conclusão
-Neste tutorial, você aprendeu a configurar o Aspose.Slides para Java e a criar um gráfico de colunas agrupadas. Você também explorou o gerenciamento de séries de dados e a personalização da visualização de pontos de dados negativos. Com essas habilidades, agora você pode criar gráficos dinâmicos com segurança em seus aplicativos Java.
+### Armadilhas Comuns & Dicas
+- **Esqueceu de descartar o objeto `Presentation`?** Sempre chame `dispose()` em um bloco `finally` para liberar recursos nativos.
+- **Valores negativos não aparecem invertidos?** Certifique‑se de chamar `invertIfNegative(true)` **depois** de adicionar o ponto de dados.
+- **Problemas de tamanho do gráfico:** As coordenadas (X, Y) e dimensões (largura, altura) são em pontos; ajuste‑as para se adequar ao layout do slide.
 
-**Próximos passos:**
-- Experimente diferentes tipos de gráficos disponíveis no Aspose.Slides para Java.
-- Explore opções adicionais de personalização para aprimorar suas apresentações.
+## Perguntas Frequentes
+
+**P: Posso criar outros tipos de gráfico com a mesma abordagem?**  
+R: Sim, basta substituir `ChartType.ClusteredColumn` por qualquer outro valor do enum `ChartType` (por exemplo, `Line`, `Pie`).
+
+**P: Preciso de licença para builds de desenvolvimento?**  
+R: Uma licença temporária ou de avaliação é necessária para acesso total aos recursos; caso contrário, a biblioteca funciona em modo de teste com limitações de marca d'água.
+
+**P: Como exportar a apresentação para PDF após adicionar gráficos?**  
+R: Use `pres.save("output.pdf", SaveFormat.Pdf);` depois de concluir a manipulação do gráfico.
+
+**P: É possível estilizar colunas individuais (cor, borda)?**  
+R: Sim, cada `IChartDataPoint` oferece opções de formatação como `getFillFormat().setFillType(FillType.Solid)` e `getLineFormat()`.
+
+**P: E se eu precisar atualizar os dados do gráfico após a apresentação ser salva?**  
+R: Carregue a apresentação novamente com `new Presentation("file.pptx")`, modifique os dados do gráfico e salve novamente.
+
+---
+
+**Última Atualização:** 2026-02-12  
+**Testado Com:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
