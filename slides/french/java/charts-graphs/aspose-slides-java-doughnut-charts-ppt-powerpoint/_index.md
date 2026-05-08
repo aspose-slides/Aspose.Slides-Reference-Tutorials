@@ -1,38 +1,59 @@
 ---
-"date": "2025-04-17"
-"description": "Apprenez à utiliser Aspose.Slides pour Java pour créer des graphiques en anneau dynamiques dans PowerPoint. Améliorez vos présentations grâce à des étapes faciles à suivre et des exemples de code."
-"title": "Créer des graphiques en anneau dynamiques dans PowerPoint avec Aspose.Slides pour Java"
-"url": "/fr/java/charts-graphs/aspose-slides-java-doughnut-charts-ppt-powerpoint/"
-"weight": 1
+date: '2026-02-17'
+description: Apprenez à créer un graphique en anneau PowerPoint en utilisant Aspose.Slides
+  for Java et à ajouter des points de données au graphique de manière programmatique.
+  Suivez des étapes simples et des exemples de code.
+keywords:
+- Aspose.Slides for Java
+- dynamic doughnut charts PowerPoint
+- Java PowerPoint chart creation
+title: Créer un diagramme en anneau PowerPoint avec Aspose.Slides pour Java
+url: /fr/java/charts-graphs/aspose-slides-java-doughnut-charts-ppt-powerpoint/
+weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+.{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Créer des graphiques en anneau dynamiques dans PowerPoint avec Aspose.Slides pour Java
+# Créer un diagramme en anneau PowerPoint avec Aspose.Slides for Java
 
 ## Introduction
-Créer des présentations convaincantes ne se limite souvent pas à du texte et des images ; les graphiques peuvent considérablement enrichir la narration en visualisant efficacement les données. Cependant, de nombreux développeurs peinent à intégrer les fonctionnalités de graphiques dynamiques dans les fichiers PowerPoint par programmation. Ce tutoriel montre comment utiliser Aspose.Slides pour Java pour créer un graphique en anneau dans PowerPoint : un outil puissant alliant flexibilité et simplicité d'utilisation.
+Créer des présentations percutantes nécessite souvent plus que du texte et des images ; les graphiques peuvent améliorer considérablement le storytelling en visualisant les données de manière efficace. Cependant, de nombreux développeurs peinent à intégrer des fonctionnalités de graphiques dynamiques dans les fichiers PowerPoint de façon programmatique. Ce tutoriel montre comment **créer un diagramme en anneau PowerPoint** avec Aspose.Slides for Java — un outil puissant qui combine flexibilité et facilité d’utilisation.
 
 **Ce que vous apprendrez :**
-- Comment initialiser une présentation avec Aspose.Slides pour Java
-- Un guide étape par étape pour ajouter un graphique en anneau à vos diapositives
-- Configuration des points de données et personnalisation des propriétés des étiquettes
-- Sauvegarde de la présentation modifiée avec une haute fidélité
+- Comment initialiser une présentation avec Aspose.Slides for Java
+- Un guide étape par étape pour ajouter un diagramme en anneau à vos diapositives
+- Configurer les points de données et personnaliser les propriétés des étiquettes
+- Enregistrer la présentation modifiée avec une haute fidélité
 
-Voyons comment exploiter ces fonctionnalités pour améliorer vos présentations. Avant de commencer, assurez-vous de bien connaître les concepts de base de la programmation Java.
+Explorons comment vous pouvez exploiter ces fonctionnalités pour améliorer vos présentations. Avant de commencer, assurez-vous de maîtriser les concepts de base de la programmation Java.
+
+## Réponses rapides
+- **Quelle bibliothèque crée un diagramme en anneau PowerPoint ?** Aspose.Slides for Java
+- **Puis-je ajouter des points de données au graphique de façon programmatique ?** Oui, en utilisant l’API du graphique
+- **Ai-je besoin d’une licence pour la production ?** Une licence valide d’Aspose.Slides est requise
+- **Quelles versions de Java sont prises en charge ?** Java 8 et ultérieures (classificateur JDK 16 indiqué)
+- **Combien de séries puis-je ajouter ?** L’exemple ajoute jusqu’à 15 séries, mais vous pouvez ajuster selon vos besoins
+
+## Qu’est‑ce qu’un diagramme en anneau dans PowerPoint ?
+Un diagramme en anneau est une variante du diagramme circulaire avec un centre creux, vous permettant d’afficher plusieurs séries de données de façon compacte et visuellement attrayante. Il est idéal pour montrer des relations partie‑tout tout en conservant un design épuré.
+
+## Pourquoi utiliser Aspose.Slides for Java pour créer des diagrammes en anneau ?
+- **Contrôle total** sur l’apparence du graphique, les données et la mise en page sans ouvrir PowerPoint
+- **Pas d’interop COM** – fonctionne sur toute plateforme supportant Java
+- **Haute performance** pour générer de grands jeux de diapositives ou s’intégrer aux services web
+- **Personnalisation riche** comme l’explosion, la taille du trou, les angles des tranches et le formatage des étiquettes
 
 ## Prérequis
-Pour suivre efficacement ce tutoriel, assurez-vous d'avoir :
-- Connaissances de base de la programmation Java.
-- Un environnement de développement intégré (IDE) comme IntelliJ IDEA ou Eclipse.
-- Maven ou Gradle installé pour la gestion des dépendances.
-- Une licence Aspose.Slides pour Java valide. Vous pouvez obtenir un essai gratuit pour tester ses fonctionnalités.
+- Connaissances de base en programmation Java.
+- Un IDE tel qu’IntelliJ IDEA ou Eclipse.
+- Maven ou Gradle pour la gestion des dépendances.
+- Une licence valide d’Aspose.Slides for Java (essai gratuit disponible).
 
-## Configuration d'Aspose.Slides pour Java
-Commencez par intégrer Aspose.Slides à votre projet. Choisissez entre Maven et Gradle, selon vos préférences :
+## Configuration d’Aspose.Slides for Java
+Choisissez le gestionnaire de dépendances qui convient à votre projet.
 
 **Maven**
 ```xml
@@ -49,16 +70,16 @@ Commencez par intégrer Aspose.Slides à votre projet. Choisissez entre Maven et
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Si vous préférez télécharger directement, visitez le [Versions d'Aspose.Slides pour Java](https://releases.aspose.com/slides/java/) page.
+Si vous préférez télécharger directement, visitez la page des [versions d’Aspose.Slides for Java](https://releases.aspose.com/slides/java/) .
 
 ### Acquisition de licence
-Vous pouvez commencer par un essai gratuit pour explorer les fonctionnalités d'Aspose.Slides. Pour une utilisation prolongée, achetez une licence ou demandez-en une temporaire auprès de [Site Web d'Aspose](https://purchase.aspose.com/temporary-license/)Suivez les instructions fournies pour configurer votre environnement et initialiser Aspose.Slides dans votre application.
+Vous pouvez commencer avec un essai gratuit pour explorer les fonctionnalités d’Aspose.Slides. Pour une utilisation prolongée, achetez une licence ou demandez une licence temporaire depuis le [site d’Aspose](https://purchase.aspose.com/temporary-license/). Suivez les instructions fournies pour configurer votre environnement et initialiser Aspose.Slides dans votre application.
 
-## Guide de mise en œuvre
-Décomposons les étapes nécessaires à la création d'un graphique en anneau dans PowerPoint avec Aspose.Slides pour Java. Chaque section est consacrée à une fonctionnalité spécifique, pour plus de clarté et de précision.
+## Comment créer un diagramme en anneau PowerPoint avec Aspose.Slides for Java
+Voici un guide complet, étape par étape. Chaque bloc de code est expliqué juste avant, afin que vous sachiez exactement ce qui se passe.
 
-### Initialiser la présentation
-Commencez par charger ou créer un fichier PowerPoint. Cette étape configure votre environnement de présentation.
+### Étape 1 : Initialiser la présentation
+Tout d’abord, chargez un PPTX existant ou créez‑en un nouveau. Cela prépare la collection de diapositives pour les modifications ultérieures.
 
 ```java
 import com.aspose.slides.*;
@@ -67,12 +88,12 @@ String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Presentation pres = new Presentation(dataDir + "/testc.pptx");
 ISlide slide = pres.getSlides().get_Item(0);
 
-// Vérifiez le chargement réussi en enregistrant la présentation initiale
+// Verify successful loading by saving the initial presentation
 pres.save(dataDir + "/initialized_chart.pptx", SaveFormat.Pptx);
 ```
 
-### Ajouter un graphique en anneau
-Ajoutez un graphique en anneau à votre diapositive, en personnalisant ses dimensions et son apparence.
+### Étape 2 : Ajouter un diagramme en anneau à la diapositive
+Nous ajoutons la forme du graphique, supprimons les séries/catégories par défaut et définissons les propriétés visuelles de base.
 
 ```java
 import com.aspose.slides.*;
@@ -85,7 +106,7 @@ chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 chart.setLegend(false);
 
-// Configurer les propriétés de la série
+// Configure the series properties
 int seriesIndex = 0;
 while (seriesIndex < 15) {
     IChartSeries series = chart.getChartData().getSeries().add(workBook.getCell(0, 0, seriesIndex + 1, "SERIES " + seriesIndex), chart.getType());
@@ -96,8 +117,8 @@ while (seriesIndex < 15) {
 }
 ```
 
-### Configurer les points de données et les étiquettes
-Personnalisez l'apparence de chaque point de données et configurez les étiquettes pour une meilleure lisibilité.
+### Étape 3 : Ajouter des points de données au graphique et personnaliser les étiquettes
+Ici nous remplissons les catégories, ajoutons des points de données pour chaque série et ajustons l’apparence des étiquettes. C’est à ce moment que le mot‑clé **add chart data points** entre en jeu.
 
 ```java
 import com.aspose.slides.*;
@@ -111,7 +132,7 @@ while (categoryIndex < 15) {
         IChartSeries iCS = chart.getChartData().getSeries().get_Item(i);
         IChartDataPoint dataPoint = iCS.getDataPoints().addDataPointForDoughnutSeries(workBook.getCell(0, categoryIndex + 1, i + 1, 1));
         
-        // Formater le point de données
+        // Format the data point
         dataPoint.getFormat().getFill().setFillType(FillType.Solid);
         dataPoint.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
         dataPoint.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
@@ -119,7 +140,7 @@ while (categoryIndex < 15) {
         dataPoint.getFormat().getLine().setStyle(LineStyle.Single);
         dataPoint.getFormat().getLine().setDashStyle(LineDashStyle.Solid);
 
-        // Personnaliser les propriétés des étiquettes pour la dernière série de chaque catégorie
+        // Customize label properties for the last series in each category
         if (i == chart.getChartData().getSeries().size() - 1) {
             IDataLabel lbl = dataPoint.getLabel();
             lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
@@ -142,8 +163,8 @@ while (categoryIndex < 15) {
 }
 ```
 
-### Enregistrer la présentation
-Après avoir configuré votre graphique, enregistrez la présentation pour conserver vos modifications.
+### Étape 4 : Enregistrer la présentation mise à jour
+Enfin, persistez les modifications dans un nouveau fichier PPTX.
 
 ```java
 import com.aspose.slides.*;
@@ -152,29 +173,48 @@ pres.save(dataDir + "/chart.pptx", SaveFormat.Pptx);
 ```
 
 ## Applications pratiques
-Les graphiques en anneau peuvent être utilisés dans divers scénarios :
-- **Rapports financiers :** Visualisez les allocations budgétaires ou les indicateurs financiers.
-- **Analyse de marché:** Afficher la répartition des parts de marché entre les concurrents.
-- **Résultats de l'enquête :** Présenter efficacement les données catégorielles issues des réponses aux enquêtes.
+- **Rapports financiers :** Visualiser les allocations budgétaires ou la répartition des dépenses.
+- **Analyse de marché :** Montrer la répartition des parts de marché entre les concurrents.
+- **Résultats d’enquête :** Présenter les données d’enquête catégorielles de façon compacte.
+- **Génération de tableaux de bord :** Combiner avec des requêtes de base de données pour générer des diapositives mises à jour en temps réel.
 
-L'intégration avec d'autres systèmes, tels que des bases de données et des applications Web, permet la génération de graphiques dynamiques basés sur des données en temps réel.
+## Considérations de performance
+- **Libérer les ressources** : Appelez `pres.dispose()` lorsque vous avez terminé pour libérer la mémoire native.
+- **Limiter le nombre de graphiques** : Ajouter des centaines de graphiques peut augmenter l’utilisation de la mémoire ; traitez par lots si nécessaire.
+- **Utiliser le streaming** : Pour des ensembles de données massifs, remplissez le classeur directement à partir de flux plutôt que d’arrays en mémoire.
 
-## Considérations relatives aux performances
-Pour des performances optimales :
-- Gérez l’utilisation de la mémoire en éliminant rapidement les ressources.
-- Limitez le nombre de graphiques ou de diapositives si cela n’est pas nécessaire pour économiser la puissance de traitement.
-- Utilisez des structures de données efficaces pour gérer de grands ensembles de données.
+## Problèmes courants et solutions
+| Problème | Cause | Solution |
+|----------|-------|----------|
+| **Le graphique apparaît vide** | Cellules de données non remplies correctement | Vérifiez que `workBook.getCell(...)` référence les bons indices de ligne/colonne. |
+| **Les étiquettes se chevauchent** | Trop de catégories dans un espace limité | Augmentez `DoughnutHoleSize` ou ajustez `FirstSliceAngle`. |
+| **OutOfMemoryError** | Présentations volumineuses sans libération | Appelez `pres.dispose()` après l’enregistrement et envisagez d’augmenter la taille du tas JVM. |
 
-Le respect des meilleures pratiques garantit le bon fonctionnement de votre application, en particulier lorsqu'il s'agit de présentations complexes.
+## Questions fréquemment posées
+
+**Q : Puis-je utiliser Aspose.Slides for Java dans des applications commerciales ?**  
+R : Oui, mais vous avez besoin d’une licence commerciale valide. Un essai gratuit est disponible pour l’évaluation.
+
+**Q : Comment ajouter plus de 15 séries ?**  
+R : Augmentez la limite de boucle dans l’étape « Ajouter un diagramme en anneau » et assurez‑vous que votre classeur de données possède suffisamment de lignes.
+
+**Q : Est‑il possible de modifier la taille du trou du diagramme en anneau après création ?**  
+R : Oui, appelez `series.getParentSeriesGroup().setDoughnutHoleSize((byte)desiredSize)` à tout moment avant l’enregistrement.
+
+**Q : Puis‑je exporter le graphique sous forme d’image au lieu d’un PPTX ?**  
+R : Absolument. Utilisez `chart.getImage()` et enregistrez le `java.awt.image.BufferedImage` retourné dans le format de votre choix.
+
+**Q : Aspose.Slides prend‑il en charge les graphiques animés ?**  
+R : L’animation peut être ajoutée via l’API `ISlide.getTimeline()`, bien que cela dépasse le cadre de ce tutoriel.
 
 ## Conclusion
-Créer des graphiques en anneau dynamiques dans PowerPoint avec Aspose.Slides pour Java est un processus simple une fois les étapes clés maîtrisées. Grâce à ce guide, vous êtes désormais prêt à améliorer vos présentations en intégrant des graphiques attrayants qui communiquent efficacement vos données.
+Vous disposez maintenant d’une méthode complète, prête pour la production, pour **créer des fichiers PowerPoint avec diagramme en anneau** à l’aide d’Aspose.Slides for Java, incluant comment **ajouter des points de données au graphique**, personnaliser les étiquettes et gérer les considérations de performance. Expérimentez avec différentes couleurs, sources de données et types de graphiques pour rendre vos présentations vraiment remarquables.
 
-Pour explorer davantage les fonctionnalités d'Aspose.Slides et approfondir ses capacités, envisagez d'expérimenter différents types de graphiques ou des fonctionnalités avancées telles que les animations et les transitions.
+---
 
-## Section FAQ
-**Q : Puis-je utiliser Aspose.Slides pour Java dans des applications commerciales ?**
-R : Oui, mais vous devrez acquérir une licence. Vous pouvez commencer par un essai gratuit pour évaluer ses fonctionnalités.
+**Last Updated:** 2026-02-17  
+**Tested With:** Aspose.Slides for Java 25.4 (JDK 16 classifier)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

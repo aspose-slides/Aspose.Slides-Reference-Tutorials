@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Узнайте, как создавать и настраивать круговые диаграммы в презентациях PowerPoint с помощью Aspose.Slides для Java. Поднимите свои слайды на новый уровень с помощью этого простого руководства."
-"title": "Создание и настройка круговых диаграмм в PowerPoint с помощью Aspose.Slides для Java"
-"url": "/ru/java/charts-graphs/aspose-slides-java-create-pie-chart/"
-"weight": 1
+date: '2026-02-17'
+description: Узнайте, как добавлять круговые диаграммы в презентации PowerPoint с
+  помощью Aspose.Slides для Java. Следуйте этому пошаговому руководству, чтобы создавать
+  и настраивать профессиональные круговые диаграммы.
+keywords:
+- Create Pie Charts in PowerPoint Java
+- Customize Pie Chart Aspose.Slides Java
+- Aspose.Slides for Java Pie Chart
+title: Как добавить круговую диаграмму в PowerPoint с помощью Aspose.Slides для Java
+url: /ru/java/charts-graphs/aspose-slides-java-create-pie-chart/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,32 +17,39 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Создание и настройка круговых диаграмм в PowerPoint с помощью Aspose.Slides для Java
+# Создание и настройка круговых диаграмм в PowerPoint с помощью Aspose.Slides for Java
 
 ## Введение
 
-Вы испытываете трудности с эффективной визуализацией данных в презентациях PowerPoint? Создание убедительных диаграмм может повысить воздействие ваших слайдов, делая сложную информацию усваиваемой с первого взгляда. С Aspose.Slides для Java создание профессионально выглядящих круговых диаграмм становится бесшовным, позволяя вам сосредоточиться на том, что действительно важно: на передаче вашего сообщения. Это руководство проведет вас через создание и настройку круговой диаграммы с помощью Aspose.Slides, гарантируя, что ваши презентации выделятся.
+Трудно визуализировать данные эффективно в ваших презентациях PowerPoint? **Добавление слайда с круговой диаграммой PowerPoint** может мгновенно превратить сырые цифры в понятную визуальную историю. С помощью Aspose.Slides for Java вы можете программно **добавлять файлы с круговой диаграммой PowerPoint**, получая полный контроль над дизайном и данными без необходимости открывать PowerPoint вручную. В этом руководстве мы пройдем весь процесс — от настройки библиотеки до настройки отдельных точек данных — чтобы вы могли за считанные минуты создавать отшлифованные слайды, основанные на данных.
 
-### Что вы узнаете:
-- Как создать круговую диаграмму в PowerPoint с помощью Aspose.Slides для Java
-- Настройка внешнего вида точек данных для большей ясности
-- Лучшие практики интеграции диаграмм в профессиональные презентации
+### Быстрые ответы
+- **Какую библиотеку мне нужно?** Aspose.Slides for Java (latest version).  
+- **Можно ли создать диаграмму без установленного PowerPoint?** Yes, the API works completely offline.  
+- **Какая версия Java требуется?** JDK 16 or later is recommended.  
+- **Как изменить цвет сектора?** Use the `setFillType` and `setSolidFillColor` methods on the data point.  
+- **Обязательна ли лицензия?** A trial works for development; a permanent license removes evaluation limits.
 
-Давайте погрузимся в настройку вашей среды, прежде чем начнем изучать эти мощные функции!
+### Что вы узнаете
+- Как программно **add pie chart PowerPoint** с помощью Java.  
+- Способы настройки взрыва сектора, цветов и других визуальных свойств.  
+- Лучшие практики управления ресурсами и производительностью при работе с большими презентациями.
 
-## Предпосылки
+## Почему добавлять круговую диаграмму PowerPoint с помощью Aspose.Slides for Java?
+Встраивание круговой диаграммы непосредственно из кода позволяет генерировать актуальные отчёты, автоматизировать ежемесячные панели мониторинга или создавать персонализированные наборы слайдов «на лету». Это устраняет ошибки ручного копирования‑вставки, обеспечивает согласованность между презентациями и плавно интегрируется с существующими Java‑бэкендами.
 
-Перед началом убедитесь, что у вас есть следующее:
-- **Библиотека Aspose.Slides для Java**: В этом руководстве используется версия 25.4.
-- Совместимый комплект разработки Java (JDK), желательно JDK16 или более поздней версии.
-- Базовые знания программирования на Java и знакомство с инструментами сборки Maven или Gradle.
+## Предварительные требования
 
-## Настройка Aspose.Slides для Java
+- **Aspose.Slides for Java library** – the tutorial references version 25.4 (the latest release at the time of writing).  
+- A compatible **Java Development Kit (JDK)** – JDK 16+ is preferred.  
+- Basic familiarity with **Maven** or **Gradle** for dependency management.  
 
-Для начала вам нужно включить библиотеку Aspose.Slides в ваш проект. Вот как это сделать:
+## Настройка Aspose.Slides for Java
 
-### Знаток
-Добавьте эту зависимость к вашему `pom.xml` файл:
+Чтобы начать, включите библиотеку Aspose.Slides в ваш проект.
+
+### Maven
+Добавьте эту зависимость в ваш файл `pom.xml`:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -46,122 +59,115 @@
 </dependency>
 ```
 
-### Градл
-Включите в свой план следующее: `build.gradle` файл:
+### Gradle
+Добавьте следующее в ваш файл `build.gradle`:
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Либо загрузите последнюю версию непосредственно с сайта [Aspose.Slides для релизов Java](https://releases.aspose.com/slides/java/).
+Alternatively, download the latest version directly from [релизы Aspose.Slides for Java](https://releases.aspose.com/slides/java/).
 
 ### Лицензирование
-Чтобы использовать Aspose.Slides без ограничений:
-- Начните с бесплатной пробной версии, чтобы оценить ее возможности.
-- Для расширенного тестирования или использования в производстве запросите временную лицензию по адресу [Временная лицензия](https://purchase.aspose.com/temporary-license/).
-- Приобретите подписку для полного доступа через [Страница покупки](https://purchase.aspose.com/buy).
+- Start with a **free trial** to evaluate the API.  
+- Request a **temporary license** for extended testing at the [Временная лицензия](https://purchase.aspose.com/temporary-license/) page.  
+- Purchase a full subscription via the [страница покупки](https://purchase.aspose.com/buy).
 
-## Руководство по внедрению
+## Как добавить круговую диаграмму PowerPoint с помощью Aspose.Slides for Java
 
-### Создание круговой диаграммы
-Создание круговой диаграммы включает инициализацию объекта Presentation и добавление диаграммы на слайд. Давайте разберем шаги:
+Ниже представлено пошаговое руководство, показывающее, как создать и настроить круговую диаграмму.
 
-#### Шаг 1: Инициализация презентации
-Начните с создания экземпляра `Presentation` сорт.
+### Шаг 1: Инициализация презентации
+First, create a new `Presentation` object. This represents an empty PowerPoint file.
 ```java
 Presentation pres = new Presentation();
 ```
 
-#### Шаг 2: Добавьте круговую диаграмму
-Добавьте на первый слайд круговую диаграмму с указанными размерами и положением:
+### Шаг 2: Добавление круговой диаграммы
+Insert a pie chart onto the first slide. The coordinates (50, 50) and size (600 × 400) work well for a standard 16:9 slide.
 ```java
 pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 600, 400);
 ```
-*Объяснение:* Этот код размещает круговую диаграмму в точке с координатами (50, 50) с шириной 600 и высотой 400.
 
-#### Шаг 3: Сохраните презентацию
-После настройки диаграммы сохраните презентацию:
+### Шаг 3: Сохранение презентации
+Write the presentation to disk. Replace `YOUR_OUTPUT_DIRECTORY` with the folder where you want the file saved.
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/output.pptx", SaveFormat.Pptx);
 ```
-*Объяснение:* The `save` Метод записывает ваши изменения в файл в указанном каталоге.
 
-#### Очистка ресурсов
-Всегда освобождайте ресурсы, чтобы предотвратить утечки памяти:
+### Шаг 4: Очистка ресурсов
+Dispose of the `Presentation` object to free native resources.
 ```java
 if (pres != null) pres.dispose();
 ```
 
-### Настройка взрыва и цвета точек данных
-Настройка точек данных повышает читабельность. Давайте изменим внешний вид определенной точки:
+## Настройка взрыва сектора и цвета
 
-#### Шаг 1: Откройте существующую презентацию
-Загрузите файл презентации в то место, где вы хотите настроить диаграмму.
+Настройка отдельных секторов делает вашу диаграмму более читаемой, особенно когда нужно выделить конкретное значение.
+
+### Шаг 1: Загрузка существующей презентации (или повторное использование только что созданной)
 ```java
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/test.pptx");
 ```
 
-#### Шаг 2: Доступ к точкам данных и их изменение
-Извлеките точку данных из первой серии:
+### Шаг 2: Доступ к диаграмме и целевой точке данных
+Here we retrieve the second data point (index 1) from the first series.
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 600, 400);
 IChartDataPoint point = chart.getChartData().getSeries().get_Item(0).getDataPoints().get_Item(1);
 ```
-*Объяснение:* Этот код обращается ко второй точке данных для настройки.
 
-#### Шаг 3: Примените взрыв и цвет
-Установите взрыв, чтобы визуально отделить его и изменить его цвет:
+### Шаг 3: Применение взрыва и цвета
+Separate the slice visually and change its fill color to blue.
 ```java
-point.setExplosion(30); // Установить расстояние взрыва
+point.setExplosion(30); // Set explosion distance
 point.getFormat().getFill().setFillType(FillType.Solid);
-point.getFormat().getFill().getSolidFillColor().setColor(Color.BLUE); // Изменить цвет заливки
+point.getFormat().getFill().getSolidFillColor().setColor(Color.BLUE); // Change fill color
 ```
-*Объяснение:* The `setExplosion` Метод создает визуальное смещение, а настройка типа заливки и цвета персонализирует внешний вид.
 
-#### Очистка ресурсов
-Утилизация ресурсов после модификаций:
+### Шаг 4: Сохранение и очистка
 ```java
+pres.save("YOUR_OUTPUT_DIRECTORY/customized.pptx", SaveFormat.Pptx);
 if (pres != null) pres.dispose();
 ```
 
 ## Практические применения
-- **Отчеты о продажах:** Выделите ключевые показатели с помощью развернутых точек данных для акцентирования внимания.
-- **Анализ бюджета:** Используйте разные цвета для обозначения разных категорий или отделов.
-- **Учебные материалы:** Упростите сложные темы, визуально выделяя элементы на диаграмме.
+- **Отчеты о продажах:** Highlight top‑selling products with exploded slices.  
+- **Анализ бюджета:** Assign distinct colors to departments for quick visual comparison.  
+- **Образовательные слайды:** Break down complex concepts into easily digestible chart segments.  
 
-Интегрируйте эти круговые диаграммы в информационные панели, отчеты и презентации, чтобы обеспечить более четкое представление данных на различных платформах.
-
-## Соображения производительности
-При работе с Aspose.Slides:
-- Эффективно управляйте ресурсами, избавляясь от ненужных предметов.
-- Контролируйте использование памяти во время крупных операций, чтобы предотвратить утечки.
-- Следуйте лучшим практикам управления памятью Java для поддержания оптимальной производительности.
-
-Эти советы помогут обеспечить бесперебойную работу и обработку ресурсов в ваших приложениях.
+## Соображения по производительности
+- **Dispose objects** быстро освобождать объекты, чтобы избежать утечек памяти, особенно при генерации большого количества слайдов в цикле.  
+- **Monitor heap usage** для больших презентаций; рассмотрите потоковый вывод с перегрузками `Save`, принимающими `OutputStream`.  
+- Оставайтесь на **JDK 16+**, чтобы воспользоваться последними улучшениями сборки мусора.
 
 ## Заключение
-Теперь вы обладаете навыками создания и настройки круговых диаграмм с помощью Aspose.Slides для Java. Экспериментируйте с различными конфигурациями, чтобы они соответствовали вашим потребностям в презентации, и изучите дополнительные функции Aspose.Slides, чтобы еще больше улучшить ваши презентации. Для дополнительного обучения рассмотрите возможность изучения типов диаграмм за пределами круговых диаграмм или углубитесь в расширенные параметры настройки.
+You now have a complete, production‑ready workflow to **add pie chart PowerPoint** files using Aspose.Slides for Java. Experiment with different explosion distances, colors, and data sets to match your branding. When you’re ready, explore other chart types—bar, line, or scatter—to build a full analytics dashboard inside PowerPoint.
 
-## Раздел часто задаваемых вопросов
-1. **В чем основное преимущество использования Aspose.Slides для Java?**
-   - Он упрощает создание и обработку файлов PowerPoint программным способом, предлагая широкий спектр функций.
-2. **Могу ли я настроить другие типы диаграмм с помощью Aspose.Slides?**
-   - Конечно! Aspose.Slides поддерживает различные типы диаграмм, такие как столбчатые, линейные и точечные диаграммы.
-3. **Как работать с несколькими слайдами при создании диаграмм?**
-   - Доступ к каждому слайду по индексу с помощью `get_Item()` метод применения изменений к разным слайдам.
-4. **Что делать, если моя круговая диаграмма отображается неправильно после настройки?**
-   - Проверьте координаты и размеры, используемые в `addChart()`, убедившись, что они вписываются в макет слайда.
-5. **Где я могу найти более продвинутые функции для Aspose.Slides?**
-   - Исследуйте [Документация Aspose.Slides](https://reference.aspose.com/slides/java/) чтобы узнать о дополнительных функциях и опциях.
+## Раздел FAQ
+1. **What is the primary advantage of using Aspose.Slides for Java?**  
+   - It simplifies the creation and manipulation of PowerPoint files programmatically, offering a wide array of features.  
+2. **Can I customize other chart types with Aspose.Slides?**  
+   - Absolutely! Aspose.Slides supports various chart types such as bar, line, and scatter charts.  
+3. **How do I handle multiple slides when creating charts?**  
+   - Access each slide by index using `get_Item()` method to apply changes across different slides.  
+4. **What if my pie chart doesn't display correctly after customization?**  
+   - Verify the coordinates and dimensions used in `addChart()`, ensuring they fit within your slide layout.  
+5. **Where can I find more advanced features for Aspose.Slides?**  
+   - Explore the [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/) to learn about additional functionalities and options.
 
 ## Ресурсы
-- **Документация:** [Документация Java Aspose.Slides](https://reference.aspose.com/slides/java/)
-- **Скачать библиотеку:** [Релизы Aspose](https://releases.aspose.com/slides/java/)
-- **Лицензия на покупку:** [Купить Aspose.Slides](https://purchase.aspose.com/buy)
-- **Бесплатная пробная версия:** [Попробуйте Aspose.Slides](https://releases.aspose.com/slides/java/)
-- **Временная лицензия:** [Запросить временную лицензию](https://purchase.aspose.com/temporary-license/)
-- **Форум поддержки:** [Поддержка Aspose](https://forum.aspose.com/c/slides/11)
+- **Documentation:** [Документация Aspose.Slides Java](https://reference.aspose.com/slides/java/)  
+- **Download Library:** [Релизы Aspose](https://releases.aspose.com/slides/java/)  
+- **Purchase License:** [Купить Aspose.Slides](https://purchase.aspose.com/buy)  
+- **Free Trial:** [Попробовать Aspose.Slides](https://releases.aspose.com/slides/java/)  
+- **Temporary License:** [Запросить временную лицензию](https://purchase.aspose.com/temporary-license/)  
+- **Support Forum:** [Поддержка Aspose](https://forum.aspose.com/c/slides/11)
 
-Теперь, когда вы вооружены этими знаниями, идите вперед и создавайте потрясающие круговые диаграммы для улучшения ваших презентаций. Удачного кодирования!
+---
+
+**Последнее обновление:** 2026-02-17  
+**Тестировано с:** Aspose.Slides for Java 25.4 (JDK 16 classifier)  
+**Автор:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

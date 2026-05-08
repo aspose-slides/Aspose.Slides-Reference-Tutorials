@@ -1,38 +1,61 @@
 ---
-"date": "2025-04-17"
-"description": "Dowiedz się, jak używać Aspose.Slides for Java do tworzenia dynamicznych wykresów pierścieniowych w programie PowerPoint. Ulepsz swoje prezentacje za pomocą łatwych do naśladowania kroków i przykładów kodu."
-"title": "Tworzenie dynamicznych wykresów pierścieniowych w programie PowerPoint przy użyciu Aspose.Slides dla języka Java"
-"url": "/pl/java/charts-graphs/aspose-slides-java-doughnut-charts-ppt-powerpoint/"
-"weight": 1
+date: '2026-02-17'
+description: Dowiedz się, jak tworzyć wykres pierścieniowy w PowerPoint przy użyciu
+  Aspose.Slides for Java i programowo dodawać punkty danych wykresu. Postępuj według
+  prostych kroków i przykładów kodu.
+keywords:
+- Aspose.Slides for Java
+- dynamic doughnut charts PowerPoint
+- Java PowerPoint chart creation
+title: Utwórz wykres pierścieniowy w PowerPoint przy użyciu Aspose.Slides for Java
+url: /pl/java/charts-graphs/aspose-slides-java-doughnut-charts-ppt-powerpoint/
+weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ markdown formatting.
+
+Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Tworzenie dynamicznych wykresów pierścieniowych w programie PowerPoint przy użyciu Aspose.Slides dla języka Java
+# Tworzenie wykresu pierścieniowego w PowerPoint przy użyciu Aspose.Slides for Java
 
-## Wstęp
-Tworzenie atrakcyjnych prezentacji często wymaga czegoś więcej niż tylko tekstu i obrazów; wykresy mogą znacznie ulepszyć opowiadanie historii poprzez skuteczną wizualizację danych. Jednak wielu programistów ma trudności z programową integracją funkcji wykresów dynamicznych z plikami programu PowerPoint. Ten samouczek pokazuje, jak używać Aspose.Slides for Java do tworzenia wykresu pierścieniowego w programie PowerPoint — potężnego narzędzia, które łączy elastyczność i łatwość użytkowania.
+## Wprowadzenie
+Tworzenie atrakcyjnych prezentacji często wymaga czegoś więcej niż tylko tekstu i obrazów; wykresy mogą znacząco wzmocnić opowieść, wizualizując dane w efektywny sposób. Jednak wielu programistów ma trudności z integracją dynamicznych funkcji wykresów w plikach PowerPoint programowo. Ten samouczek pokazuje, jak **tworzyć wykres pierścieniowy w PowerPoint** przy użyciu Aspose.Slides for Java — potężnego narzędzia łączącego elastyczność i łatwość użycia.
 
 **Czego się nauczysz:**
-- Jak zainicjować prezentację za pomocą Aspose.Slides dla Java
-- Przewodnik krok po kroku, jak dodać wykres kołowy do slajdów
+- Jak zainicjalizować prezentację przy użyciu Aspose.Slides for Java
+- Przewodnik krok po kroku dodawania wykresu pierścieniowego do slajdów
 - Konfigurowanie punktów danych i dostosowywanie właściwości etykiet
 - Zapisywanie zmodyfikowanej prezentacji z wysoką wiernością
 
-Przyjrzyjmy się, jak możesz wykorzystać te funkcje, aby ulepszyć swoje prezentacje. Zanim zaczniemy, upewnij się, że znasz podstawowe koncepcje programowania Java.
+Zanim zaczniemy, upewnij się, że znasz podstawowe koncepcje programowania w Javie.
+
+## Szybkie odpowiedzi
+- **Jaką bibliotekę używać do tworzenia wykresu pierścieniowego w PowerPoint?** Aspose.Slides for Java
+- **Czy mogę programowo dodawać punkty danych wykresu?** Tak, przy użyciu API wykresu
+- **Czy potrzebna jest licencja do użytku produkcyjnego?** Wymagana jest ważna licencja Aspose.Slides
+- **Jakie wersje Javy są obsługiwane?** Java 8 i nowsze (pokazany klasyfikator JDK 16)
+- **Ile serii mogę dodać?** Przykład dodaje do 15 serii, ale możesz dostosować liczbę według potrzeb
+
+## Co to jest wykres pierścieniowy w PowerPoint?
+Wykres pierścieniowy to odmiana wykresu kołowego z pustym środkiem, umożliwiająca wyświetlanie wielu serii danych w kompaktowy, atrakcyjny wizualnie sposób. Idealny do prezentacji relacji części‑całość przy zachowaniu czystego projektu.
+
+## Dlaczego używać Aspose.Slides for Java do tworzenia wykresów pierścieniowych?
+- **Pełna kontrola** nad wyglądem wykresu, danymi i układem bez otwierania PowerPointa
+- **Brak COM interop** – działa na każdej platformie obsługującej Javę
+- **Wysoka wydajność** przy generowaniu dużych zestawów slajdów lub integracji z usługami webowymi
+- **Bogata personalizacja** taka jak eksplozja, rozmiar otworu, kąty segmentów i formatowanie etykiet
 
 ## Wymagania wstępne
-Aby skutecznie skorzystać z tego samouczka, upewnij się, że posiadasz:
 - Podstawowa znajomość programowania w Javie.
-- Zintegrowane środowisko programistyczne (IDE), takie jak IntelliJ IDEA lub Eclipse.
-- Zainstalowano Maven lub Gradle w celu zarządzania zależnościami.
-- Ważna licencja Aspose.Slides for Java. Możesz uzyskać bezpłatną wersję próbną, aby przetestować jej funkcje.
+- IDE, takie jak IntelliJ IDEA lub Eclipse.
+- Maven lub Gradle do zarządzania zależnościami.
+- Ważna licencja Aspose.Slides for Java (dostępna wersja próbna).
 
-## Konfigurowanie Aspose.Slides dla Java
-Zacznij od włączenia Aspose.Slides do swojego projektu. Wybierz między Maven i Gradle, w zależności od tego, co wolisz:
+## Konfiguracja Aspose.Slides for Java
+Wybierz menedżer zależności pasujący do Twojego projektu.
 
 **Maven**
 ```xml
@@ -49,16 +72,16 @@ Zacznij od włączenia Aspose.Slides do swojego projektu. Wybierz między Maven 
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Jeśli wolisz pobierać bezpośrednio, odwiedź stronę [Aspose.Slides dla wydań Java](https://releases.aspose.com/slides/java/) strona.
+Jeśli wolisz pobrać plik bezpośrednio, odwiedź stronę [wydania Aspose.Slides for Java](https://releases.aspose.com/slides/java/).
 
-### Nabycie licencji
-Możesz zacząć od bezpłatnej wersji próbnej, aby poznać funkcje Aspose.Slides. Aby korzystać z niej dłużej, kup licencję lub poproś o tymczasową od [Strona internetowa Aspose](https://purchase.aspose.com/temporary-license/). Postępuj zgodnie z instrukcjami dotyczącymi konfiguracji środowiska i inicjalizacji Aspose.Slides w aplikacji.
+### Uzyskanie licencji
+Możesz rozpocząć od wersji próbnej, aby poznać możliwości Aspose.Slides. W celu dłuższego użytkowania zakup licencję lub poproś o tymczasową na stronie [strony Aspose](https://purchase.aspose.com/temporary-license/). Postępuj zgodnie z instrukcjami, aby skonfigurować środowisko i zainicjalizować Aspose.Slides w aplikacji.
 
-## Przewodnik wdrażania
-Omówmy kroki wymagane do utworzenia wykresu pierścieniowego w programie PowerPoint przy użyciu Aspose.Slides dla języka Java. Każda sekcja jest poświęcona konkretnej funkcji, zapewniając przejrzystość i skupienie.
+## Jak stworzyć wykres pierścieniowy w PowerPoint przy użyciu Aspose.Slides for Java
+Poniżej znajduje się kompletny przewodnik krok po kroku. Każdy blok kodu jest wyjaśniony tuż przed jego użyciem, abyś dokładnie wiedział, co się dzieje.
 
-### Zainicjuj prezentację
-Zacznij od załadowania lub utworzenia nowego pliku PowerPoint. Ten krok konfiguruje środowisko prezentacji.
+### Krok 1: Inicjalizacja prezentacji
+Najpierw załaduj istniejący plik PPTX lub utwórz nowy. To przygotowuje kolekcję slajdów do dalszych modyfikacji.
 
 ```java
 import com.aspose.slides.*;
@@ -67,12 +90,12 @@ String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Presentation pres = new Presentation(dataDir + "/testc.pptx");
 ISlide slide = pres.getSlides().get_Item(0);
 
-// Sprawdź, czy ładowanie przebiegło pomyślnie, zapisując początkową prezentację
+// Verify successful loading by saving the initial presentation
 pres.save(dataDir + "/initialized_chart.pptx", SaveFormat.Pptx);
 ```
 
-### Dodaj wykres pierścieniowy
-Dodaj wykres pierścieniowy do slajdu, dostosowując jego wymiary i wygląd.
+### Krok 2: Dodanie wykresu pierścieniowego do slajdu
+Dodajemy kształt wykresu, usuwamy domyślne serie/kategorie i ustawiamy podstawowe właściwości wizualne.
 
 ```java
 import com.aspose.slides.*;
@@ -85,7 +108,7 @@ chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 chart.setLegend(false);
 
-// Skonfiguruj właściwości serii
+// Configure the series properties
 int seriesIndex = 0;
 while (seriesIndex < 15) {
     IChartSeries series = chart.getChartData().getSeries().add(workBook.getCell(0, 0, seriesIndex + 1, "SERIES " + seriesIndex), chart.getType());
@@ -96,8 +119,8 @@ while (seriesIndex < 15) {
 }
 ```
 
-### Konfigurowanie punktów danych i etykiet
-Dostosuj wygląd każdego punktu danych i skonfiguruj etykiety w celu zwiększenia czytelności.
+### Krok 3: Dodanie punktów danych wykresu i dostosowanie etykiet
+Tutaj wypełniamy kategorie, dodajemy punkty danych dla każdej serii i precyzyjnie dopasowujemy wygląd etykiet. To miejsce, w którym wchodzi w grę słowo kluczowe **add chart data points**.
 
 ```java
 import com.aspose.slides.*;
@@ -111,7 +134,7 @@ while (categoryIndex < 15) {
         IChartSeries iCS = chart.getChartData().getSeries().get_Item(i);
         IChartDataPoint dataPoint = iCS.getDataPoints().addDataPointForDoughnutSeries(workBook.getCell(0, categoryIndex + 1, i + 1, 1));
         
-        // Sformatuj punkt danych
+        // Format the data point
         dataPoint.getFormat().getFill().setFillType(FillType.Solid);
         dataPoint.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
         dataPoint.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
@@ -119,7 +142,7 @@ while (categoryIndex < 15) {
         dataPoint.getFormat().getLine().setStyle(LineStyle.Single);
         dataPoint.getFormat().getLine().setDashStyle(LineDashStyle.Solid);
 
-        // Dostosuj właściwości etykiety dla ostatniej serii w każdej kategorii
+        // Customize label properties for the last series in each category
         if (i == chart.getChartData().getSeries().size() - 1) {
             IDataLabel lbl = dataPoint.getLabel();
             lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
@@ -142,8 +165,8 @@ while (categoryIndex < 15) {
 }
 ```
 
-### Zapisz prezentację
-Po skonfigurowaniu wykresu zapisz prezentację, aby zachować zmiany.
+### Krok 4: Zapisz zaktualizowaną prezentację
+Na koniec zapisujemy zmiany do nowego pliku PPTX.
 
 ```java
 import com.aspose.slides.*;
@@ -151,30 +174,50 @@ import com.aspose.slides.*;
 pres.save(dataDir + "/chart.pptx", SaveFormat.Pptx);
 ```
 
-## Zastosowania praktyczne
-Wykresy pierścieniowe można stosować w różnych scenariuszach:
-- **Sprawozdania finansowe:** Wizualizuj alokację budżetu i wskaźniki finansowe.
-- **Analiza rynku:** Pokaż podział udziałów w rynku pomiędzy konkurentami.
-- **Wyniki ankiety:** Skutecznie prezentuj dane kategoryczne z odpowiedzi ankietowych.
-
-Integracja z innymi systemami, takimi jak bazy danych i aplikacje internetowe, umożliwia dynamiczne generowanie wykresów w oparciu o dane w czasie rzeczywistym.
+## Praktyczne zastosowania
+Wykresy pierścieniowe mogą być używane w różnych scenariuszach:
+- **Raporty finansowe:** Wizualizacja podziału budżetu lub wydatków.
+- **Analiza rynku:** Pokazanie udziału rynkowego poszczególnych konkurentów.
+- **Wyniki ankiet:** Prezentacja danych kategorycznych w skondensowanej formie.
+- **Generowanie pulpitów nawigacyjnych:** Połączenie z zapytaniami bazodanowymi w celu tworzenia slajdów aktualizowanych na żywo.
 
 ## Rozważania dotyczące wydajności
-Aby uzyskać optymalną wydajność:
-- Zarządzaj wykorzystaniem pamięci, szybko usuwając zasoby.
-- Jeżeli nie jest to konieczne, należy ograniczyć liczbę wykresów i slajdów w celu oszczędzania mocy obliczeniowej.
-- Używaj wydajnych struktur danych do obsługi dużych zbiorów danych.
+- **Zwalnianie zasobów**: Wywołaj `pres.dispose()` po zakończeniu, aby zwolnić pamięć natywną.
+- **Ogranicz liczbę wykresów**: Dodawanie setek wykresów może zwiększyć zużycie pamięci; w razie potrzeby przetwarzaj partiami.
+- **Używaj strumieniowania**: Dla bardzo dużych zestawów danych wypełniaj skoroszyt bezpośrednio ze strumieni zamiast z tablic w pamięci.
 
-Stosowanie się do najlepszych praktyk gwarantuje płynne działanie aplikacji, zwłaszcza w przypadku złożonych prezentacji.
+## Common Issues and Solutions
+| Problem | Przyczyna | Rozwiązanie |
+|-------|-------|-----|
+| **Wykres jest pusty** | Komórki danych nie zostały poprawnie wypełnione | Sprawdź, czy `workBook.getCell(...)` odwołuje się do prawidłowych indeksów wiersza/kolumny. |
+| **Etykiety nakładają się** | Zbyt wiele kategorii w ograniczonej przestrzeni | Zwiększ `DoughnutHoleSize` lub dostosuj `FirstSliceAngle`. |
+| **OutOfMemoryError** | Duże prezentacje bez zwalniania zasobów | Wywołaj `pres.dispose()` po zapisaniu i rozważ zwiększenie rozmiaru sterty JVM. |
 
-## Wniosek
-Tworzenie dynamicznych wykresów pierścieniowych w programie PowerPoint przy użyciu Aspose.Slides for Java to prosty proces, gdy tylko zrozumiesz kluczowe kroki. Dzięki temu przewodnikowi jesteś teraz wyposażony, aby ulepszyć swoje prezentacje, integrując atrakcyjne wizualnie wykresy, które skutecznie przekazują informacje o danych.
+## Najczęściej zadawane pytania
 
-Aby lepiej poznać funkcje Aspose.Slides i lepiej poznać jego możliwości, warto poeksperymentować z różnymi typami wykresów lub zaawansowanymi funkcjami, takimi jak animacje i przejścia.
+**Q: Czy mogę używać Aspose.Slides for Java w aplikacjach komercyjnych?**  
+A: Tak, ale potrzebna jest ważna licencja komercyjna. Dostępna jest wersja próbna do oceny.
 
-## Sekcja FAQ
-**P: Czy mogę używać Aspose.Slides for Java w aplikacjach komercyjnych?**
-A: Tak, ale musisz nabyć licencję. Możesz zacząć od bezpłatnego okresu próbnego, aby ocenić jego funkcje.
+**Q: Jak dodać więcej niż 15 serii?**  
+A: Zwiększ limit pętli w kroku „Add Doughnut Chart” i upewnij się, że Twój skoroszyt danych zawiera wystarczającą liczbę wierszy.
+
+**Q: Czy można zmienić rozmiar otworu wykresu pierścieniowego po jego utworzeniu?**  
+A: Tak, wywołaj `series.getParentSeriesGroup().setDoughnutHoleSize((byte)desiredSize)` w dowolnym momencie przed zapisem.
+
+**Q: Czy mogę wyeksportować wykres jako obraz zamiast PPTX?**  
+A: Oczywiście. Użyj `chart.getImage()` i zapisz zwrócony `java.awt.image.BufferedImage` w wybranym formacie.
+
+**Q: Czy Aspose.Slides obsługuje animowane wykresy?**  
+A: Animacje można dodać za pomocą API `ISlide.getTimeline()`, choć wykracza to poza zakres tego samouczka.
+
+## Zakończenie
+Masz teraz kompletną, gotową do produkcji metodę **tworzenia wykresu pierścieniowego w PowerPoint** przy użyciu Aspose.Slides for Java, w tym **dodawanie punktów danych wykresu**, personalizację etykiet oraz uwzględnienie kwestii wydajności. Eksperymentuj z różnymi kolorami, źródłami danych i typami wykresów, aby Twoje prezentacje naprawdę się wyróżniały.
+
+---
+
+**Last Updated:** 2026-02-17  
+**Tested With:** Aspose.Slides for Java 25.4 (JDK 16 classifier)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

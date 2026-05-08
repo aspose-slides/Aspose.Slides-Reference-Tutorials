@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Dowiedz się, jak tworzyć i dostosowywać wykresy kołowe w prezentacjach PowerPoint za pomocą Aspose.Slides for Java. Ulepsz swoje slajdy dzięki temu łatwemu w użyciu przewodnikowi."
-"title": "Tworzenie i dostosowywanie wykresów kołowych w programie PowerPoint za pomocą Aspose.Slides dla języka Java"
-"url": "/pl/java/charts-graphs/aspose-slides-java-create-pie-chart/"
-"weight": 1
+date: '2026-02-17'
+description: Dowiedz się, jak dodawać wykresy kołowe do prezentacji PowerPoint przy
+  użyciu Aspose.Slides for Java. Skorzystaj z tego przewodnika krok po kroku, aby
+  tworzyć i dostosowywać profesjonalne wykresy kołowe.
+keywords:
+- Create Pie Charts in PowerPoint Java
+- Customize Pie Chart Aspose.Slides Java
+- Aspose.Slides for Java Pie Chart
+title: Jak dodać wykres kołowy w PowerPoint przy użyciu Aspose.Slides for Java
+url: /pl/java/charts-graphs/aspose-slides-java-create-pie-chart/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,32 +17,41 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Tworzenie i dostosowywanie wykresów kołowych w programie PowerPoint za pomocą Aspose.Slides dla języka Java
+# Tworzenie i dostosowywanie wykresów kołowych w PowerPoint przy użyciu Aspose.Slides dla Javy
 
-## Wstęp
+## Wprowadzenie
 
-Czy masz problemy z efektywną wizualizacją danych w prezentacjach PowerPoint? Tworzenie atrakcyjnych wykresów może zwiększyć siłę oddziaływania slajdów, dzięki czemu złożone informacje stają się zrozumiałe na pierwszy rzut oka. Dzięki Aspose.Slides for Java tworzenie profesjonalnie wyglądających wykresów kołowych staje się płynne, pozwalając Ci skupić się na tym, co naprawdę ważne: przekazywaniu wiadomości. Ten samouczek przeprowadzi Cię przez proces tworzenia i dostosowywania wykresu kołowego za pomocą Aspose.Slides, dzięki czemu Twoje prezentacje będą się wyróżniać.
+Czy masz problem z efektywną wizualizacją danych w swoich prezentacjach PowerPoint? **Adding a pie chart PowerPoint** slajd może natychmiast przekształcić surowe liczby w klarowną historię wizualną. Dzięki Aspose.Slides for Java możesz programowo **add pie chart PowerPoint** pliki, uzyskując pełną kontrolę nad projektem i danymi bez ręcznego otwierania PowerPointa. W tym samouczku przeprowadzimy Cię przez cały proces — od konfiguracji biblioteki po dostosowanie poszczególnych punktów danych — abyś mógł w kilka minut dostarczyć dopracowane, oparte na danych slajdy.
 
-### Czego się nauczysz:
-- Jak utworzyć wykres kołowy w programie PowerPoint za pomocą Aspose.Slides dla języka Java
-- Dostosowywanie wyglądu punktów danych w celu zwiększenia przejrzystości
-- Najlepsze praktyki integrowania wykresów z profesjonalnymi prezentacjami
+### Szybkie odpowiedzi
+- **Jakiej biblioteki potrzebuję?** Aspose.Slides for Java (najnowsza wersja).  
+- **Czy mogę utworzyć wykres bez zainstalowanego PowerPoint?** Tak, API działa całkowicie offline.  
+- **Jakiej wersji Javy wymaga?** Zalecany JDK 16 lub nowszy.  
+- **Jak zmienić kolor kawałka?** Użyj metod `setFillType` i `setSolidFillColor` na punkcie danych.  
+- **Czy licencja jest obowiązkowa?** Wersja próbna działa w fazie rozwoju; pełna licencja usuwa ograniczenia oceny.
 
-Zanim zaczniemy odkrywać te zaawansowane funkcje, zajmijmy się konfiguracją Twojego środowiska!
+### Czego się nauczysz
+- Jak programowo **add pie chart PowerPoint** przy użyciu Javy.  
+- Sposoby dostosowywania eksplozji kawałków, kolorów i innych właściwości wizualnych.  
+- Najlepsze praktyki zarządzania zasobami i wydajnością przy obsłudze dużych prezentacji.
+
+## Dlaczego dodać **pie chart PowerPoint** przy użyciu Aspose.Slides for Java?
+Osadzanie wykresu kołowego bezpośrednio z kodu pozwala generować aktualne raporty, automatyzować miesięczne pulpity nawigacyjne lub tworzyć spersonalizowane zestawy slajdów w locie. Eliminuje ręczne błędy kopiowania‑wklejania, zapewnia spójność w całych prezentacjach i płynnie integruje się z istniejącymi back‑endami Javy.
 
 ## Wymagania wstępne
 
-Przed rozpoczęciem upewnij się, że masz następujące rzeczy:
-- **Biblioteka Aspose.Slides dla Java**:W tym samouczku wykorzystano wersję 25.4.
-- Zgodny Java Development Kit (JDK), najlepiej JDK16 lub nowszy.
-- Podstawowa znajomość programowania w Javie i znajomość narzędzi do budowania Maven lub Gradle.
+Przed rozpoczęciem upewnij się, że masz:
 
-## Konfigurowanie Aspose.Slides dla Java
+- **Aspose.Slides for Java library** – tutorial odnosi się do wersji 25.4 (najnowsze wydanie w momencie pisania).  
+- Kompatybilny **Java Development Kit (JDK)** – zalecany JDK 16+.  
+- Podstawowa znajomość **Maven** lub **Gradle** do zarządzania zależnościami.  
 
-Aby rozpocząć, musisz uwzględnić bibliotekę Aspose.Slides w swoim projekcie. Oto jak to zrobić:
+## Konfigurowanie Aspose.Slides dla Javy
+
+Aby rozpocząć, dołącz bibliotekę Aspose.Slides do swojego projektu.
 
 ### Maven
-Dodaj tę zależność do swojego `pom.xml` plik:
+Dodaj tę zależność do pliku `pom.xml`:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -47,121 +62,116 @@ Dodaj tę zależność do swojego `pom.xml` plik:
 ```
 
 ### Gradle
-Włącz do swojego `build.gradle` plik:
+Umieść poniższe w pliku `build.gradle`:
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Alternatywnie możesz pobrać najnowszą wersję bezpośrednio z [Aspose.Slides dla wydań Java](https://releases.aspose.com/slides/java/).
+Alternatywnie, pobierz najnowszą wersję bezpośrednio z [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### Koncesjonowanie
+### Licencjonowanie
 Aby używać Aspose.Slides bez ograniczeń:
-- Zacznij od bezpłatnego okresu próbnego, aby ocenić jego możliwości.
-- W celu przeprowadzenia dłuższego testu lub użytkowania produkcyjnego należy złożyć wniosek o licencję tymczasową pod adresem [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
-- Kup subskrypcję, aby uzyskać pełny dostęp za pośrednictwem [Strona zakupu](https://purchase.aspose.com/buy).
 
-## Przewodnik wdrażania
+- Rozpocznij od **bezpłatnej wersji próbnej**, aby ocenić API.  
+- Poproś o **tymczasową licencję** na rozszerzone testy na stronie [Temporary License](https://purchase.aspose.com/temporary-license/).  
+- Kup pełną subskrypcję poprzez [Purchase page](https://purchase.aspose.com/buy).
 
-### Tworzenie wykresu kołowego
-Tworzenie wykresu kołowego obejmuje zainicjowanie obiektu Presentation i dodanie wykresu do slajdu. Omówmy kroki:
+## Jak dodać **pie chart PowerPoint** przy użyciu Aspose.Slides for Java
 
-#### Krok 1: Zainicjuj prezentację
-Zacznij od utworzenia instancji `Presentation` klasa.
+Poniżej znajduje się przewodnik krok po kroku, który dokładnie pokazuje, jak utworzyć i dostosować wykres kołowy.
+
+### Krok 1: Inicjalizacja prezentacji
+Najpierw utwórz nowy obiekt `Presentation`. Reprezentuje on pusty plik PowerPoint.
 ```java
 Presentation pres = new Presentation();
 ```
 
-#### Krok 2: Dodaj wykres kołowy
-Dodaj wykres kołowy do pierwszego slajdu z określonymi wymiarami i pozycją:
+### Krok 2: Dodaj wykres kołowy
+Wstaw wykres kołowy na pierwszym slajdzie. Współrzędne (50, 50) i rozmiar (600 × 400) dobrze pasują do standardowego slajdu 16:9.
 ```java
 pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 600, 400);
 ```
-*Wyjaśnienie:* Ten kod umieszcza wykres kołowy na współrzędnych (50, 50) o szerokości 600 i wysokości 400.
 
-#### Krok 3: Zapisz swoją prezentację
-Po skonfigurowaniu wykresu zapisz prezentację:
+### Krok 3: Zapisz prezentację
+Zapisz prezentację na dysku. Zastąp `YOUR_OUTPUT_DIRECTORY` folderem, w którym chcesz zapisać plik.
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/output.pptx", SaveFormat.Pptx);
 ```
-*Wyjaśnienie:* Ten `save` Metoda zapisuje zmiany do pliku w określonym katalogu.
 
-#### Oczyszczanie zasobów
-Zawsze zwalniaj zasoby, aby zapobiec wyciekom pamięci:
+### Krok 4: Zwolnij zasoby
+Zwolnij obiekt `Presentation`, aby uwolnić zasoby natywne.
 ```java
 if (pres != null) pres.dispose();
 ```
 
-### Ustawianie eksplozji i koloru punktów danych
-Dostosowywanie punktów danych zwiększa czytelność. Zmodyfikujmy wygląd konkretnego punktu:
+## Dostosowywanie eksplozji punktu danych i koloru
 
-#### Krok 1: Otwórz istniejącą prezentację
-Załaduj plik prezentacji, w którym chcesz dostosować wykres.
+Dostosowywanie indywidualnych kawałków ułatwia odczyt wykresu, szczególnie gdy chcesz wyróżnić konkretną wartość.
+
+### Krok 1: Załaduj istniejącą prezentację (lub użyj tej właśnie utworzonej)
 ```java
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/test.pptx");
 ```
 
-#### Krok 2: Dostęp do punktów danych i ich modyfikacja
-Pobierz punkt danych z pierwszej serii:
+### Krok 2: Uzyskaj dostęp do wykresu i docelowego punktu danych
+Tutaj pobieramy drugi punkt danych (indeks 1) z pierwszej serii.
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 600, 400);
 IChartDataPoint point = chart.getChartData().getSeries().get_Item(0).getDataPoints().get_Item(1);
 ```
-*Wyjaśnienie:* Ten kod uzyskuje dostęp do drugiego punktu danych w celu personalizacji.
 
-#### Krok 3: Nałóż eksplozję i kolor
-Ustaw eksplozję, aby oddzielić ją wizualnie i zmienić jej kolor:
+### Krok 3: Zastosuj eksplozję i kolor
+Oddziel wizualnie kawałek i zmień jego kolor wypełnienia na niebieski.
 ```java
-point.setExplosion(30); // Ustaw odległość wybuchu
+point.setExplosion(30); // Set explosion distance
 point.getFormat().getFill().setFillType(FillType.Solid);
-point.getFormat().getFill().getSolidFillColor().setColor(Color.BLUE); // Zmień kolor wypełnienia
+point.getFormat().getFill().getSolidFillColor().setColor(Color.BLUE); // Change fill color
 ```
-*Wyjaśnienie:* Ten `setExplosion` Metoda ta tworzy wizualne przesunięcie, natomiast ustawienie typu wypełnienia i koloru personalizuje wygląd.
 
-#### Oczyszczanie zasobów
-Usuń zasoby po modyfikacjach:
+### Krok 4: Zapisz i zwolnij
 ```java
+pres.save("YOUR_OUTPUT_DIRECTORY/customized.pptx", SaveFormat.Pptx);
 if (pres != null) pres.dispose();
 ```
 
-## Zastosowania praktyczne
-- **Raporty sprzedaży:** Wyróżnij kluczowe wskaźniki za pomocą rozstrzelonych punktów danych, aby je podkreślić.
-- **Analiza budżetu:** Użyj odrębnych kolorów do oznaczenia różnych kategorii lub działów.
-- **Materiały edukacyjne:** Uprość złożone zagadnienia, wizualnie wyróżniając elementy na wykresie.
-
-Zintegruj te wykresy kołowe z pulpitami nawigacyjnymi, raportami i prezentacjami, aby zapewnić bardziej przejrzysty wgląd w różne aspekty działalności na różnych platformach.
+## Praktyczne zastosowania
+- **Raporty sprzedaży:** Podkreśl najlepiej sprzedające się produkty za pomocą wybuchających kawałków.  
+- **Analiza budżetu:** Przypisz różne kolory działom dla szybkiego porównania wizualnego.  
+- **Slajdy edukacyjne:** Rozbij skomplikowane koncepcje na łatwo przyswajalne segmenty wykresu.
 
 ## Rozważania dotyczące wydajności
-Podczas pracy z Aspose.Slides:
-- Zarządzaj zasobami efektywnie, pozbywając się przedmiotów po ich wykorzystaniu.
-- Monitoruj wykorzystanie pamięci podczas dużych operacji, aby zapobiec wyciekom.
-- Aby utrzymać optymalną wydajność, stosuj najlepsze praktyki zarządzania pamięcią Java.
+- **Zwalniaj obiekty** niezwłocznie, aby uniknąć wycieków pamięci, szczególnie przy generowaniu wielu slajdów w pętli.  
+- **Monitoruj zużycie sterty** przy dużych prezentacjach; rozważ strumieniowy zapis przy użyciu przeciążeń `Save` akceptujących `OutputStream`.  
+- Używaj **JDK 16+**, aby korzystać z najnowszych usprawnień garbage collection.
 
-Poniższe wskazówki pomogą zapewnić płynne działanie aplikacji i zarządzanie zasobami.
-
-## Wniosek
-Posiadasz teraz umiejętności tworzenia i dostosowywania wykresów kołowych za pomocą Aspose.Slides dla Java. Eksperymentuj z różnymi konfiguracjami, aby dopasować je do potrzeb prezentacji i poznaj dalsze funkcje w Aspose.Slides, aby jeszcze bardziej ulepszyć swoje prezentacje. Aby uzyskać dodatkową wiedzę, rozważ zbadanie typów wykresów wykraczających poza wykresy kołowe lub zagłębienie się w zaawansowane opcje dostosowywania.
+## Podsumowanie
+Masz teraz kompletny, gotowy do produkcji proces, aby **add pie chart PowerPoint** pliki przy użyciu Aspose.Slides for Java. Eksperymentuj z różnymi odległościami eksplozji, kolorami i zestawami danych, aby dopasować je do swojej marki. Gdy będziesz gotowy, odkryj inne typy wykresów — słupkowe, liniowe lub punktowe — aby zbudować pełny pulpit analityczny w PowerPoint.
 
 ## Sekcja FAQ
-1. **Jaka jest główna zaleta korzystania z Aspose.Slides dla Java?**
-   - Ułatwia programistyczne tworzenie i edytowanie plików programu PowerPoint, oferując szeroką gamę funkcji.
-2. **Czy mogę dostosować inne typy wykresów za pomocą Aspose.Slides?**
-   - Oczywiście! Aspose.Slides obsługuje różne typy wykresów, takie jak wykresy słupkowe, liniowe i punktowe.
-3. **Jak radzić sobie z wieloma slajdami podczas tworzenia wykresów?**
-   - Uzyskaj dostęp do każdego slajdu za pomocą indeksu `get_Item()` metoda wprowadzania zmian na różnych slajdach.
-4. **Co zrobić, jeśli wykres kołowy nie wyświetla się prawidłowo po dostosowaniu?**
-   - Sprawdź współrzędne i wymiary użyte w `addChart()`, upewniając się, że pasują do układu slajdu.
-5. **Gdzie znajdę bardziej zaawansowane funkcje Aspose.Slides?**
-   - Odkryj [Dokumentacja Aspose.Slides](https://reference.aspose.com/slides/java/) aby dowiedzieć się więcej o dodatkowych funkcjonalnościach i opcjach.
+1. **Jaka jest główna zaleta używania Aspose.Slides for Java?**  
+   - Uproszcza tworzenie i manipulację plikami PowerPoint programowo, oferując szeroką gamę funkcji.  
+2. **Czy mogę dostosować inne typy wykresów za pomocą Aspose.Slides?**  
+   - Oczywiście! Aspose.Slides obsługuje różne typy wykresów, takie jak słupkowe, liniowe i punktowe.  
+3. **Jak obsłużyć wiele slajdów przy tworzeniu wykresów?**  
+   - Uzyskaj dostęp do każdego slajdu po indeksie, używając metody `get_Item()`, aby zastosować zmiany na różnych slajdach.  
+4. **Co zrobić, gdy mój wykres kołowy nie wyświetla się prawidłowo po dostosowaniu?**  
+   - Sprawdź współrzędne i wymiary użyte w `addChart()`, upewniając się, że mieszczą się w układzie slajdu.  
+5. **Gdzie mogę znaleźć bardziej zaawansowane funkcje Aspose.Slides?**  
+   - Przeglądaj [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/), aby poznać dodatkowe możliwości i opcje.
 
 ## Zasoby
-- **Dokumentacja:** [Dokumentacja Aspose.Slides Java](https://reference.aspose.com/slides/java/)
-- **Pobierz bibliotekę:** [Wydania Aspose](https://releases.aspose.com/slides/java/)
-- **Kup licencję:** [Kup Aspose.Slides](https://purchase.aspose.com/buy)
-- **Bezpłatna wersja próbna:** [Wypróbuj Aspose.Slides](https://releases.aspose.com/slides/java/)
-- **Licencja tymczasowa:** [Poproś o licencję tymczasową](https://purchase.aspose.com/temporary-license/)
-- **Forum wsparcia:** [Wsparcie Aspose](https://forum.aspose.com/c/slides/11)
+- **Dokumentacja:** [Aspose.Slides Java Docs](https://reference.aspose.com/slides/java/)  
+- **Pobierz bibliotekę:** [Aspose Releases](https://releases.aspose.com/slides/java/)  
+- **Kup licencję:** [Buy Aspose.Slides](https://purchase.aspose.com/buy)  
+- **Bezpłatna wersja próbna:** [Try Aspose.Slides](https://releases.aspose.com/slides/java/)  
+- **Licencja tymczasowa:** [Request Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Forum wsparcia:** [Aspose Support](https://forum.aspose.com/c/slides/11)
 
-Teraz, gdy jesteś wyposażony w tę wiedzę, ruszaj i twórz oszałamiające wykresy kołowe, aby ulepszyć swoje prezentacje. Miłego kodowania!
+---
+
+**Ostatnia aktualizacja:** 2026-02-17  
+**Testowano z:** Aspose.Slides for Java 25.4 (JDK 16 classifier)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-17"
-"description": "Dowiedz się, jak modyfikować zakresy danych wykresu w prezentacjach PowerPoint za pomocą Aspose.Slides dla Java. Ulepszaj swoje slajdy programowo z łatwością."
-"title": "Jak uzyskać dostęp i modyfikować zakres danych wykresu w programie PowerPoint za pomocą Aspose.Slides dla języka Java"
-"url": "/pl/java/charts-graphs/aspose-slides-java-modify-chart-data-range/"
-"weight": 1
+date: '2026-02-17'
+description: Dowiedz się, jak programowo aktualizować zakresy danych wykresów w PowerPoint
+  przy użyciu Aspose.Slides for Java. Przewodnik krok po kroku po dynamicznej manipulacji
+  wykresami.
+keywords:
+- modify chart data range
+- Aspose.Slides for Java tutorial
+- programmatically manipulate PowerPoint charts
+title: Jak zaktualizować zakres danych wykresu w PowerPoint przy użyciu Aspose.Slides
+  dla Javy
+url: /pl/java/charts-graphs/aspose-slides-java-modify-chart-data-range/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,39 +18,46 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Opanowanie Aspose.Slides dla Java: dostęp i modyfikacja zakresu danych wykresu w prezentacjach PowerPoint
+# Opanowanie Aspose.Slides for Java: Dostęp i modyfikacja zakresu danych wykresu w prezentacjach PowerPoint
 
-## Wstęp
+## Introduction
 
-Czy chcesz ulepszyć swoje prezentacje PowerPoint, dynamicznie dostosowując zakresy danych wykresu? Dzięki Aspose.Slides for Java zadanie to staje się płynne, umożliwiając programistom programowe manipulowanie wykresami. Ten samouczek przeprowadzi Cię przez dostęp i modyfikację zakresu danych wykresu za pomocą Aspose.Slides for Java, niezbędnego narzędzia do automatyzacji zadań prezentacji.
+Czy chcesz **aktualizować zakresy danych wykresu PowerPoint** dynamicznie? Dzięki Aspose.Slides for Java zadanie to staje się proste, umożliwiając programistom programowe manipulowanie wykresami. W tym samouczku nauczysz się, jak uzyskać dostęp do wykresu, zmienić jego źródło danych i **ustawić zakres danych wykresu** przy użyciu czystego kodu Java.
 
-**Czego się nauczysz:**
-- Konfigurowanie środowiska z Aspose.Slides dla Java.
-- Dostęp do slajdów i kształtów w prezentacjach.
-- Modyfikowanie zakresu danych wykresów w plikach programu PowerPoint.
-- Najlepsze praktyki optymalizacji wydajności podczas korzystania z Aspose.Slides.
+**What You’ll Learn**
+- Konfiguracja środowiska z Aspose.Slides for Java.  
+- Dostęp do slajdów i kształtów w prezentacji.  
+- Modyfikacja zakresu danych wykresów w plikach PowerPoint.  
+- Najlepsze praktyki dotyczące wydajności i zarządzania pamięcią.
 
-Zanim przejdziemy do wdrożenia, upewnijmy się, że spełnione zostały wszystkie niezbędne warunki wstępne.
+Zanim przejdziemy do kodu, upewnijmy się, że masz wszystko, czego potrzebujesz.
 
-## Wymagania wstępne
+## Quick Answers
+- **Czy mogę zmienić źródło danych wykresu w czasie działania?** Tak, używając `chart.getChartData().setRange(...)`.  
+- **Jaka wersja biblioteki jest wymagana?** Aspose.Slides for Java 25.4 lub nowsza.  
+- **Czy potrzebna jest licencja do rozwoju?** Bezpłatna wersja próbna wystarcza do testów; stała licencja jest wymagana w produkcji.  
+- **Czy JDK 16 jest obowiązkowy?** Zalecane; wcześniejsze wersje mogą działać, ale nie są oficjalnie wspierane.  
+- **Czy to działa tylko z PPTX?** Przykład używa PPTX; to samo API obsługuje także PPT.
 
-Aby efektywnie korzystać z tego samouczka, będziesz potrzebować:
+## Prerequisites
 
-### Wymagane biblioteki i zależności
-- **Aspose.Slides dla Java**: Upewnij się, że pobierasz wersję 25.4 lub nowszą.
-  
-### Wymagania dotyczące konfiguracji środowiska
+Aby skutecznie śledzić ten samouczek, będziesz potrzebować:
+
+### Required Libraries and Dependencies
+- **Aspose.Slides for Java**: Upewnij się, że pobrałeś wersję 25.4 lub nowszą.  
+
+### Environment Setup Requirements
 - Środowisko programistyczne z zainstalowanym JDK 16.
 
-### Wymagania wstępne dotyczące wiedzy
-- Podstawowa znajomość programowania w Javie.
-- Znajomość prezentacji PowerPoint i struktur wykresów.
+### Knowledge Prerequisites
+- Podstawowa znajomość programowania w języku Java.  
+- Znajomość prezentacji PowerPoint oraz struktury wykresów.
 
-Mając te wymagania wstępne, możemy przystąpić do konfigurowania Aspose.Slides dla Java.
+Mając te wymagania, przejdźmy do konfiguracji Aspose.Slides for Java.
 
-## Konfigurowanie Aspose.Slides dla Java
+## Setting Up Aspose.Slides for Java
 
-Zintegrowanie Aspose.Slides z projektem można łatwo wykonać za pomocą Maven lub Gradle. Oto jak:
+Integracja Aspose.Slides z projektem może być wykonana łatwo przy użyciu Maven lub Gradle. Oto jak:
 
 **Maven**
 ```xml
@@ -60,112 +74,117 @@ Zintegrowanie Aspose.Slides z projektem można łatwo wykonać za pomocą Maven 
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Osoby preferujące bezpośrednie pobieranie mogą pobrać najnowszą wersję z [Aspose.Slides dla wydań Java](https://releases.aspose.com/slides/java/).
+Dla osób preferujących bezpośrednie pobieranie, najnowszą wersję można uzyskać z [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### Etapy uzyskania licencji
-- **Bezpłatna wersja próbna**:Rozpocznij od bezpłatnego okresu próbnego, aby poznać funkcje.
-- **Licencja tymczasowa**:Uzyskaj tymczasową licencję w celu przeprowadzenia bardziej szczegółowych testów.
-- **Zakup**:Rozważ zakup, jeśli biblioteka spełnia Twoje potrzeby.
+### License Acquisition Steps
+- **Free Trial**: Rozpocznij od bezpłatnej wersji próbnej, aby zapoznać się z funkcjami.  
+- **Temporary License**: Uzyskaj tymczasową licencję do bardziej rozbudowanych testów.  
+- **Purchase**: Rozważ zakup, jeśli biblioteka spełnia Twoje potrzeby.
 
-### Podstawowa inicjalizacja i konfiguracja
-Po uwzględnieniu Aspose.Slides w projekcie zainicjuj go w następujący sposób:
+### Basic Initialization and Setup
+Po dodaniu Aspose.Slides do projektu, zainicjalizuj go w następujący sposób:
 ```java
 Presentation presentation = new Presentation();
 ```
-Ten prosty krok umożliwia przygotowanie środowiska do pracy z prezentacjami w sposób programistyczny.
+Ten prosty krok konfiguruje środowisko, aby rozpocząć programową pracę z prezentacjami.
 
-## Przewodnik wdrażania
+## Update PowerPoint Chart Data Range – Step by Step
 
-Podzielmy proces uzyskiwania dostępu do zakresu danych wykresu i modyfikowania go na łatwiejsze do opanowania kroki:
+### Accessing the Chart
+#### How to locate the chart you want to modify
+Najpierw musimy załadować istniejącą prezentację i pobrać kształt wykresu.
 
-### Dostęp do wykresu
-#### Przegląd
-Najpierw musimy uzyskać dostęp do wykresu w istniejącej prezentacji programu PowerPoint.
-
-#### Załaduj prezentację
 ```java
-// Określ katalog dokumentów, w którym znajdują się Twoje pliki.
+// Specify the document directory where your files are located.
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 
-// Utwórz klasę Presentation reprezentującą plik PPTX.
+// Instantiate Presentation class that represents a PPTX file.
 Presentation presentation = new Presentation(dataDir + "/ExistingChart.pptx");
 ```
 
-#### Dostęp do slajdu i kształtu
 ```java
-// Otwórz pierwszy slajd prezentacji.
+// Access the first slide of the presentation.
 ISlide slide = presentation.getSlides().get_Item(0);
 
-// Wybierz pierwszy kształt ze slajdu (zakładając, że jest to wykres).
+// Get the first shape from the slide, assuming it's a chart.
 IChart chart = (IChart) slide.getShapes().get_Item(0);
 ```
 
-### Modyfikowanie zakresu danych wykresu
-#### Przegląd
-Teraz gdy mamy dostęp do wykresu, możemy zmodyfikować zakres jego danych.
+> **Pro tip:** Jeśli wykres nie jest pierwszym kształtem, iteruj przez `slide.getShapes()` i sprawdzaj `instanceof IChart`, aby znaleźć właściwy.
 
-#### Ustaw nowy zakres danych
+### Modifying Chart Data Range
+#### How to change the chart data source
+Mając odwołanie do wykresu, możemy ustawić nowy zakres danych używając notacji A1 w stylu Excel.
+
 ```java
-// Ustaw nowy zakres danych dla wykresu. Zakres jest określony w notacji A1 dla arkusza Excel.
+// Set a new data range for the chart. The range is specified in A1 notation for an Excel sheet.
 chart.getChartData().setRange("Sheet1!A1:B4");
 ```
 
-### Zapisywanie zmodyfikowanej prezentacji
-#### Przegląd
-Po zmodyfikowaniu wykresu zapisz zmiany, aby utworzyć nowy plik prezentacji.
+### Saving the Modified Presentation
+#### How to persist your changes
+Po zaktualizowaniu zakresu danych, zapisz prezentację do nowego pliku.
 
-#### Zapisz plik
 ```java
-// Zapisz zmodyfikowaną prezentację do nowego pliku.
+// Save the modified presentation to a new file.
 presentation.save(dataDir + "/SetDataRange_out.pptx", SaveFormat.Pptx);
 ```
-**Wskazówki dotyczące rozwiązywania problemów:**
-- Upewnij się, że ścieżka do katalogu danych jest prawidłowa i dostępna.
-- Sprawdź, czy wykres jest rzeczywiście pierwszym kształtem na slajdzie.
 
-## Zastosowania praktyczne
-Aspose.Slides dla Java otwiera liczne możliwości, takie jak:
-1. **Automatyzacja raportów**: Automatyczna aktualizacja wykresów w miesięcznych raportach na podstawie nowych zestawów danych.
-2. **Dynamiczne pulpity nawigacyjne**:Tworzenie interaktywnych pulpitów nawigacyjnych, w których zakresy danych są dostosowywane na podstawie danych wprowadzonych przez użytkownika.
-3. **Narzędzia edukacyjne**:Opracowanie oprogramowania edukacyjnego, które dopasowuje dane z wykresów do planów lekcji.
+**Troubleshooting Tips**
+- Upewnij się, że ścieżka `dataDir` jest poprawna i aplikacja ma uprawnienia do zapisu.  
+- Sprawdź, czy docelowy wykres jest rzeczywiście obiektem wykresu; w przeciwnym razie zostanie rzucony `ClassCastException`.
 
-Aplikacje te pokazują, jak wszechstronny i wydajny może być Aspose.Slides po zintegrowaniu z innymi systemami.
+## Practical Applications
+Aspose.Slides for Java otwiera liczne możliwości, takie jak:
 
-## Rozważania dotyczące wydajności
-Podczas pracy nad dużymi prezentacjami należy wziąć pod uwagę poniższe wskazówki dotyczące wydajności:
-- Zoptymalizuj wykorzystanie pamięci poprzez usuwanie obiektów, które nie są już potrzebne.
-- Używaj strumieni do wydajnej obsługi dużych plików.
-- Aby zapewnić płynne działanie, stosuj się do najlepszych praktyk języka Java dotyczących zarządzania pamięcią.
+1. **Automating Reports** – Automatyczne odświeżanie danych wykresu w comiesięcznych prezentacjach finansowych.  
+2. **Dynamic Dashboards** – Tworzenie interaktywnych pulpitów, gdzie użytkownicy wybierają zakres dat, a wykres aktualizuje się na bieżąco.  
+3. **Educational Tools** – Generowanie wykresów specyficznych dla lekcji, odzwierciedlających dane w czasie rzeczywistym dla prezentacji w klasie.
 
-## Wniosek
-Teraz wiesz, jak uzyskać dostęp i modyfikować zakresy danych wykresu w programie PowerPoint za pomocą Aspose.Slides dla Java. Ta możliwość może znacznie ulepszyć Twoje prezentacje, czyniąc je bardziej dynamicznymi i reagującymi na zmieniające się dane.
+Scenariusze te ilustrują, dlaczego warto **modyfikować zakres danych wykresu**, zamiast odtwarzać cały slajd.
 
-**Następne kroki:**
-- Poznaj dodatkowe funkcje Aspose.Slides.
-- Eksperymentuj z innymi typami wykresów i kształtów.
-- Zintegruj tę funkcjonalność z większymi projektami.
+## Performance Considerations
+Pracując z dużymi prezentacjami, pamiętaj o następujących wskazówkach:
 
-Gotowy, aby spróbować? Wdróż te kroki w swoim następnym projekcie i zobacz różnicę na własne oczy!
+- Zwolnij obiekty (`presentation.dispose()`), gdy nie są już potrzebne.  
+- Używaj strumieni (`FileInputStream`, `FileOutputStream`) dla dużych plików, aby zmniejszyć obciążenie pamięci.  
+- Stosuj najlepsze praktyki Javy dotyczące garbage collection i unikaj trzymania dużych obiektów dłużej niż to konieczne.
 
-## Sekcja FAQ
-1. **Czym jest Aspose.Slides dla Java?**
-   - Potężna biblioteka umożliwiająca programowe zarządzanie prezentacjami PowerPoint.
-2. **Jak skonfigurować Aspose.Slides?**
-   - Użyj zależności Maven lub Gradle albo pobierz bezpośrednio ze strony z wersjami.
-3. **Czy mogę modyfikować wiele wykresów jednocześnie?**
-   - Tak, powtórz kształty i wprowadź zmiany, gdy zajdzie taka potrzeba.
-4. **Co zrobić, jeśli mój wykres nie jest pierwszym kształtem na slajdzie?**
-   - Dostosuj swój kod, aby znaleźć właściwy wykres, iterując po kształtach.
-5. **Jak skutecznie prowadzić duże prezentacje?**
-   - Postępuj zgodnie z najlepszymi praktykami zarządzania pamięcią Java i używaj strumieni do obsługi plików.
+## Common Issues and Solutions
+| Problem | Przyczyna | Rozwiązanie |
+|-------|-------|----------|
+| `ClassCastException` podczas rzutowania kształtu na `IChart` | Kształt nie jest wykresem. | Iteruj przez kształty i sprawdzaj `instanceof IChart`. |
+| Zakres danych nie jest odzwierciedlany w PowerPoint | Niepoprawna notacja A1 lub nazwa arkusza. | Sprawdź, czy nazwa arkusza i odwołania do komórek pasują do osadzonego skoroszytu. |
+| Błędy braku pamięci przy bardzo dużych plikach | Ładowanie całej prezentacji do pamięci. | Użyj konstruktora `Presentation` przyjmującego strumień i włącz `LoadOptions` dla częściowego ładowania. |
 
-## Zasoby
-- **Dokumentacja**: [Dokumentacja Aspose.Slides](https://reference.aspose.com/slides/java/)
-- **Pobierać**: [Najnowsze wydania](https://releases.aspose.com/slides/java/)
-- **Zakup**: [Kup Aspose.Slides](https://purchase.aspose.com/buy)
-- **Bezpłatna wersja próbna**: [Rozpocznij bezpłatny okres próbny](https://releases.aspose.com/slides/java/)
-- **Licencja tymczasowa**: [Uzyskaj tymczasową licencję](https://purchase.aspose.com/temporary-license/)
-- **Wsparcie**: [Forum Aspose](https://forum.aspose.com/c/slides/11)
+## Frequently Asked Questions
+
+**P:** Czy mogę zaktualizować wiele wykresów w jednej prezentacji?  
+**O:** Tak. Przejdź pętlą po każdym slajdzie i każdym kształcie, sprawdź `IChart`, a następnie wywołaj `setRange` na każdym wykresie, który chcesz zmodyfikować.
+
+**P:** Co jeśli dane mojego wykresu są przechowywane w zewnętrznym pliku Excel?  
+**O:** Możesz najpierw osadzić zewnętrzny skoroszyt w prezentacji, a następnie odwołać się do jego zakresu używając `setRange`. Aspose.Slides udostępnia także API do importowania zewnętrznych źródeł danych.
+
+**P:** Czy to działa z plikami PPT (binarnymi) tak samo jak z PPTX?  
+**O:** To samo API działa dla obu formatów; wystarczy zmienić rozszerzenie pliku przy ładowaniu lub zapisywaniu.
+
+**P:** Jak zmienić typ wykresu po modyfikacji zakresu danych?  
+**O:** Użyj `chart.getChartData().setChartType(ChartType.Bar)` (lub dowolnego obsługiwanego typu) przed zapisem.
+
+**P:** Czy licencja jest wymagana dla wersji deweloperskich?  
+**O:** Licencja próbna jest wystarczająca do rozwoju i testów. Pełna licencja jest potrzebna przy wdrożeniach produkcyjnych.
+
+## Resources
+- **Dokumentacja**: [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
+- **Pobierz**: [Latest Releases](https://releases.aspose.com/slides/java/)
+- **Zakup**: [Buy Aspose.Slides](https://purchase.aspose.com/buy)
+- **Free Trial**: [Start Free Trial](https://releases.aspose.com/slides/java/)
+- **Tymczasowa licencja**: [Get Temporary License](https://purchase.aspose.com/temporary-license/)
+- **Wsparcie**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
+
+**Ostatnia aktualizacja:** 2026-02-17  
+**Testowano z:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

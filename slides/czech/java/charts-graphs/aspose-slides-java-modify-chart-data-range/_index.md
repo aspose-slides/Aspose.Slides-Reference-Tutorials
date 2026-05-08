@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-17"
-"description": "Naučte se, jak upravovat rozsahy dat grafů v prezentacích PowerPointu pomocí Aspose.Slides pro Javu. Snadno programově vylepšete své snímky."
-"title": "Jak přistupovat a upravovat rozsah dat grafu v PowerPointu pomocí Aspose.Slides pro Javu"
-"url": "/cs/java/charts-graphs/aspose-slides-java-modify-chart-data-range/"
-"weight": 1
+date: '2026-02-17'
+description: Naučte se, jak programově aktualizovat datové rozsahy grafu v PowerPointu
+  pomocí Aspose.Slides pro Java. Krok za krokem průvodce dynamickou manipulací s grafy.
+keywords:
+- modify chart data range
+- Aspose.Slides for Java tutorial
+- programmatically manipulate PowerPoint charts
+title: Jak aktualizovat rozsah dat grafu v PowerPointu pomocí Aspose.Slides pro Javu
+url: /cs/java/charts-graphs/aspose-slides-java-modify-chart-data-range/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,41 +16,48 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Zvládnutí Aspose.Slides pro Javu: Přístup a úprava rozsahu dat grafu v prezentacích PowerPointu
+# Ovládání Aspose.Slides pro Java: Přístup a úprava rozsahu dat grafu v prezentacích PowerPoint
 
-## Zavedení
+## Úvod
 
-Chcete vylepšit své prezentace v PowerPointu dynamickou úpravou rozsahů dat grafů? S Aspose.Slides pro Javu se tento úkol stává bezproblémovým a umožňuje vývojářům programově manipulovat s grafy. Tento tutoriál vás provede přístupem k rozsahu dat grafu a jeho úpravou pomocí Aspose.Slides pro Javu, což je základní nástroj pro automatizaci prezentačních úloh.
+Hledáte způsob, jak **aktualizovat data grafu v PowerPointu** dynamicky? S Aspose.Slides pro Java se tato úloha stane bezproblémovou a umožní vývojářům programově manipulovat s grafy. V tomto tutoriálu se naučíte, jak získat přístup k grafu, změnit jeho zdroj dat a **nastavit rozsah dat grafu** pomocí čistého Java kódu.
 
-**Co se naučíte:**
-- Nastavení prostředí s Aspose.Slides pro Javu.
-- Přístup ke snímkům a tvarům v rámci prezentací.
-- Úprava rozsahu dat grafů v souborech PowerPoint.
-- Nejlepší postupy pro optimalizaci výkonu při používání Aspose.Slides.
+**Co se naučíte**
+- Nastavení prostředí s Aspose.Slides pro Java.  
+- Přístup k snímkům a objektům v prezentaci.  
+- Úprava rozsahu dat grafů v souborech PowerPoint.  
+- Nejlepší postupy pro výkon a správu paměti.
 
-Než se pustíme do implementace, ujistěme se, že máte splněny všechny nezbytné předpoklady.
+Než se ponoříme do kódu, ujistěte se, že máte vše potřebné.
+
+## Rychlé odpovědi
+- **Mohu během běhu změnit zdroj dat grafu?** Ano, pomocí `chart.getChartData().setRange(...)`.  
+- **Která verze knihovny je vyžadována?** Aspose.Slides pro Java 25.4 nebo novější.  
+- **Potřebuji licenci pro vývoj?** Bezplatná zkušební licence stačí pro testování; pro produkci je vyžadována trvalá licence.  
+- **Je JDK 16 povinné?** Doporučuje se; starší verze mohou fungovat, ale nejsou oficiálně podporovány.  
+- **Funguje to jen s PPTX?** Příklad používá PPTX; stejná API podporuje také PPT.
 
 ## Předpoklady
 
-Abyste mohli tento tutoriál efektivně sledovat, budete potřebovat:
+Pro efektivní sledování tohoto tutoriálu budete potřebovat:
 
 ### Požadované knihovny a závislosti
-- **Aspose.Slides pro Javu**Ujistěte se, že máte staženou verzi 25.4 nebo novější.
-  
+- **Aspose.Slides pro Java**: Ujistěte se, že jste stáhli verzi 25.4 nebo novější.  
+
 ### Požadavky na nastavení prostředí
-- Vývojové prostředí s nainstalovaným JDK 16.
+- Vývojové prostředí s nainstalovaným JDK 16.
 
 ### Předpoklady znalostí
-- Základní znalost programování v Javě.
-- Znalost prezentací v PowerPointu a struktury grafů.
+- Základní znalost programování v Javě.  
+- Znalost prezentací PowerPoint a struktury grafů.
 
-S těmito předpoklady pojďme pokračovat v nastavení Aspose.Slides pro Javu.
+S těmito předpoklady pokračujme v nastavení Aspose.Slides pro Java.
 
-## Nastavení Aspose.Slides pro Javu
+## Nastavení Aspose.Slides pro Java
 
-Integraci Aspose.Slides do vašeho projektu lze snadno provést pomocí Mavenu nebo Gradle. Zde je návod:
+Integrace Aspose.Slides do vašeho projektu lze snadno provést pomocí Maven nebo Gradle. Zde je postup:
 
-**Znalec**
+**Maven**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -60,112 +72,120 @@ Integraci Aspose.Slides do vašeho projektu lze snadno provést pomocí Mavenu n
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Pro ty, kteří dávají přednost přímému stahování, si můžete nejnovější verzi stáhnout z [Aspose.Slides pro verze Java](https://releases.aspose.com/slides/java/).
+Pro ty, kteří upřednostňují přímé stažení, můžete získat nejnovější verzi na [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 ### Kroky získání licence
-- **Bezplatná zkušební verze**Začněte s bezplatnou zkušební verzí a prozkoumejte funkce.
-- **Dočasná licence**Získejte dočasnou licenci pro rozsáhlejší testování.
-- **Nákup**Pokud knihovna splňuje vaše potřeby, zvažte její koupi.
+- **Free Trial**: Začněte s bezplatnou zkušební licencí a prozkoumejte funkce.  
+- **Temporary License**: Získejte dočasnou licenci pro rozsáhlejší testování.  
+- **Purchase**: Zvažte zakoupení, pokud knihovna splňuje vaše potřeby.
 
 ### Základní inicializace a nastavení
-Jakmile je Aspose.Slides zahrnut do vašeho projektu, inicializujte jej takto:
+Jakmile je Aspose.Slides zahrnuto ve vašem projektu, inicializujte jej následovně:
 ```java
 Presentation presentation = new Presentation();
 ```
 Tento jednoduchý krok nastaví vaše prostředí pro programovou práci s prezentacemi.
 
-## Průvodce implementací
-
-Rozeberme si proces přístupu k datovému rozsahu grafu a jeho úpravy do snadno zvládnutelných kroků:
+## Aktualizace rozsahu dat grafu v PowerPointu – krok za krokem
 
 ### Přístup k grafu
-#### Přehled
-Nejprve potřebujeme k grafu přistupovat v existující prezentaci v PowerPointu.
+#### Jak najít graf, který chcete upravit
+Nejprve musíme načíst existující prezentaci a získat tvar grafu.
 
-#### Prezentace zatížení
 ```java
-// Zadejte adresář dokumentů, kde se nacházejí vaše soubory.
+// Specify the document directory where your files are located.
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 
-// Vytvoří instanci třídy Presentation, která představuje soubor PPTX.
+// Instantiate Presentation class that represents a PPTX file.
 Presentation presentation = new Presentation(dataDir + "/ExistingChart.pptx");
 ```
 
-#### Přístup k snímku a tvaru
 ```java
-// Přístup k prvnímu snímku prezentace.
+// Access the first slide of the presentation.
 ISlide slide = presentation.getSlides().get_Item(0);
 
-// Získejte první tvar ze snímku, za předpokladu, že se jedná o graf.
+// Get the first shape from the slide, assuming it's a chart.
 IChart chart = (IChart) slide.getShapes().get_Item(0);
 ```
 
-### Úprava rozsahu dat grafu
-#### Přehled
-Nyní, když máme přístup k grafu, upravme jeho datový rozsah.
+> **Pro tip:** Pokud graf není první objekt, iterujte přes `slide.getShapes()` a zkontrolujte `instanceof IChart`, abyste našli ten správný.
 
-#### Nastavení nového rozsahu dat
+### Úprava rozsahu dat grafu
+#### Jak změnit zdroj dat grafu
+Nyní, když máme odkaz na graf, můžeme nastavit nový rozsah dat pomocí notace A1 ve stylu Excelu.
+
 ```java
-// Nastavte nový rozsah dat pro graf. Rozsah je určen v notaci A1 pro list aplikace Excel.
+// Set a new data range for the chart. The range is specified in A1 notation for an Excel sheet.
 chart.getChartData().setRange("Sheet1!A1:B4");
 ```
 
 ### Uložení upravené prezentace
-#### Přehled
-Po úpravě grafu uložte změny a vytvořte nový soubor prezentace.
+#### Jak uložit změny
+Po aktualizaci rozsahu dat uložte prezentaci do nového souboru.
 
-#### Uložit soubor
 ```java
-// Uložte upravenou prezentaci do nového souboru.
+// Save the modified presentation to a new file.
 presentation.save(dataDir + "/SetDataRange_out.pptx", SaveFormat.Pptx);
 ```
-**Tipy pro řešení problémů:**
-- Ujistěte se, že cesta k adresáři s daty je správná a přístupná.
-- Ověřte, zda je graf skutečně prvním tvarem na snímku.
+
+**Tipy pro řešení problémů**
+- Ujistěte se, že cesta `dataDir` je správná a aplikace má oprávnění k zápisu.  
+- Ověřte, že cílový graf je skutečně objekt grafu; jinak bude vyvolána `ClassCastException`.
 
 ## Praktické aplikace
-Aspose.Slides pro Javu otevírá řadu možností, například:
-1. **Automatizace reportů**: Automaticky aktualizovat grafy v měsíčních reportech na základě nových datových sad.
-2. **Dynamické dashboardy**Vytvářejte interaktivní dashboardy, kde se rozsahy dat upravují na základě vstupů od uživatele.
-3. **Vzdělávací nástroje**Vyvinout vzdělávací software, který upravuje data z grafů tak, aby odpovídala plánům lekcí.
+Aspose.Slides pro Java otevírá řadu možností, například:
 
-Tyto aplikace ukazují, jak všestranný a výkonný může být Aspose.Slides při integraci s jinými systémy.
+1. **Automatizace reportů** – Automaticky aktualizovat data grafu v měsíčních finančních prezentacích.  
+2. **Dynamické dashboardy** – Vytvořit interaktivní dashboardy, kde uživatelé vyberou časové období a graf se okamžitě aktualizuje.  
+3. **Vzdělávací nástroje** – Generovat grafy specifické pro lekce, které odrážejí data v reálném čase pro prezentace ve třídě.
+
+Tyto scénáře ukazují, proč byste mohli chtít **upravit rozsah dat grafu** místo vytváření celé snímku znovu.
 
 ## Úvahy o výkonu
-Při práci s rozsáhlými prezentacemi zvažte tyto tipy pro zvýšení výkonu:
-- Optimalizujte využití paměti odstraněním objektů, které již nepotřebujete.
-- Pro efektivní zpracování velkých souborů používejte streamy.
-- Pro zajištění bezproblémového provozu dodržujte osvědčené postupy Javy pro správu paměti.
+Při práci s velkými prezentacemi mějte na paměti tyto tipy:
 
-## Závěr
-Nyní jste se naučili, jak přistupovat k rozsahům dat grafu v PowerPointu a jak je upravovat pomocí Aspose.Slides pro Javu. Tato funkce může výrazně vylepšit vaše prezentace, učinit je dynamičtějšími a lépe reagovat na měnící se data.
+- Uvolněte objekty (`presentation.dispose()`), když již nejsou potřeba.  
+- Používejte streamy (`FileInputStream`, `FileOutputStream`) pro velké soubory, aby se snížilo zatížení paměti.  
+- Řiďte se nejlepšími postupy Javy pro garbage collection a vyhněte se dlouhodobému držení velkých objektů.
 
-**Další kroky:**
-- Prozkoumejte další funkce Aspose.Slides.
-- Experimentujte s jinými typy grafů a tvarů.
-- Integrujte tuto funkcionalitu do větších projektů.
+## Časté problémy a řešení
 
-Jste připraveni to vyzkoušet? Implementujte tyto kroky ve svém dalším projektu a sami uvidíte rozdíl!
+| Problém | Příčina | Řešení |
+|-------|-------|----------|
+| `ClassCastException` při přetypování objektu na `IChart` | Objekt není graf. | Iterujte přes objekty a zkontrolujte `instanceof IChart`. |
+| Rozsah dat se neprojevuje v PowerPointu | Nesprávná notace A1 nebo název listu. | Ověřte, že název listu a odkazy na buňky odpovídají vložené sešitu. |
+| Chyby nedostatku paměti u velkých souborů | Načítání celé prezentace do paměti. | Použijte konstruktor `Presentation`, který přijímá stream, a povolte `LoadOptions` pro částečné načítání. |
 
-## Sekce Často kladených otázek
-1. **Co je Aspose.Slides pro Javu?**
-   - Výkonná knihovna pro programovou správu prezentací v PowerPointu.
-2. **Jak nastavím Aspose.Slides?**
-   - Použijte závislosti Mavenu nebo Gradlu, nebo si je stáhněte přímo ze stránky s verzemi.
-3. **Mohu upravovat více grafů najednou?**
-   - Ano, iterovat tvary a podle potřeby aplikovat změny.
-4. **Co když můj graf není prvním tvarem na snímku?**
-   - Upravte kód tak, abyste našli správný graf iterací přes tvary.
-5. **Jak efektivně zvládat velké prezentace?**
-   - Dodržujte osvědčené postupy pro správu paměti v Javě a pro práci se soubory používejte streamy.
+## Často kladené otázky
+
+**Q: Mohu aktualizovat více grafů v jedné prezentaci?**  
+A: Ano. Projděte každým snímkem a každým objektem, zkontrolujte `IChart`, a poté zavolejte `setRange` u každého grafu, který potřebujete upravit.
+
+**Q: Co když jsou data mého grafu uložena v externím souboru Excel?**  
+A: Můžete nejprve vložit externí sešit do prezentace a poté odkazovat na jeho rozsah pomocí `setRange`. Aspose.Slides také poskytuje API pro import externích zdrojů dat.
+
+**Q: Funguje to i s binárními soubory PPT stejně jako s PPTX?**  
+A: Stejné API funguje pro oba formáty; stačí změnit příponu souboru při načítání nebo ukládání.
+
+**Q: Jak změním typ grafu po úpravě rozsahu dat?**  
+A: Použijte `chart.getChartData().setChartType(ChartType.Bar)` (nebo jakýkoli podporovaný typ) před uložením.
+
+**Q: Je licence vyžadována pro vývojové sestavení?**  
+A: Bezplatná zkušební licence stačí pro vývoj a testování. Pro nasazení do produkce je potřeba plná licence.
 
 ## Zdroje
-- **Dokumentace**: [Dokumentace k Aspose.Slides](https://reference.aspose.com/slides/java/)
-- **Stáhnout**: [Nejnovější vydání](https://releases.aspose.com/slides/java/)
-- **Nákup**: [Koupit Aspose.Slides](https://purchase.aspose.com/buy)
-- **Bezplatná zkušební verze**: [Zahájit bezplatnou zkušební verzi](https://releases.aspose.com/slides/java/)
-- **Dočasná licence**: [Získat dočasnou licenci](https://purchase.aspose.com/temporary-license/)
-- **Podpora**: [Fórum Aspose](https://forum.aspose.com/c/slides/11)
+- **Documentation**: [Aspose.Slides Dokumentace](https://reference.aspose.com/slides/java/)
+- **Download**: [Nejnovější verze](https://releases.aspose.com/slides/java/)
+- **Purchase**: [Koupit Aspose.Slides](https://purchase.aspose.com/buy)
+- **Free Trial**: [Spustit bezplatnou zkušební verzi](https://releases.aspose.com/slides/java/)
+- **Temporary License**: [Získat dočasnou licenci](https://purchase.aspose.com/temporary-license/)
+- **Support**: [Aspose fórum](https://forum.aspose.com/c/slides/11)
+
+---
+
+**Poslední aktualizace:** 2026-02-17  
+**Testováno s:** Aspose.Slides pro Java 25.4 (JDK 16)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
