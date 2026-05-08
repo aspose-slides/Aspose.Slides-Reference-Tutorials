@@ -12,11 +12,10 @@ url: /ru/java/charts-graphs/aspose-slides-java-chart-creation-guide/
 weight: 1
 ---
 
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Как создать диаграмму в Java с помощью Aspose.Slides
 
 ## Как создать диаграмму в Java: Введение
@@ -223,10 +222,9 @@ try {
 **Тестировано с:** Aspose.Slides for Java 25.4 (JDK 16)  
 **Автор:** Aspose  
 
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
