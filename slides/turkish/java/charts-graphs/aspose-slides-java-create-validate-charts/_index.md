@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-17"
-"description": "Bu kapsamlı kılavuzla Java için Aspose.Slides kullanarak grafiklerin nasıl oluşturulacağını ve doğrulanacağını öğrenin. Veri görselleştirmeyi uygulamalara entegre eden geliştiriciler için mükemmeldir."
-"title": "Aspose.Slides Java&#58; Sunumlarınızda Grafikler Oluşturun ve Doğrulayın"
-"url": "/tr/java/charts-graphs/aspose-slides-java-create-validate-charts/"
-"weight": 1
+date: '2026-02-22'
+description: Aspose.Slides kullanarak Java’da grafik oluşturmayı, bir kümelenmiş sütun
+  grafiği eklemeyi ve grafik düzenini doğrulamayı öğrenin—hepsi tek bir özlü rehberde.
+keywords:
+- Aspose.Slides Java
+- create charts in Java
+- validate chart layout
+title: Aspose.Slides ile Java'da Grafik Oluşturma – Grafik Ekleme ve Doğrulama
+url: /tr/java/charts-graphs/aspose-slides-java-create-validate-charts/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,30 +16,36 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.Slides Java'da Grafikler Nasıl Oluşturulur ve Doğrulanır: Geliştiricinin Kılavuzu
+# Java'da Aspose.Slides ile Grafik Oluşturma
 
-Günümüzün veri odaklı dünyasında, karmaşık veri kümelerini anlamlandırmak için bilgileri grafiklerle görselleştirmek çok önemlidir. İster bir sunum hazırlıyor olun ister etkileşimli bir gösterge paneli geliştiriyor olun, doğru ve görsel olarak çekici grafikler oluşturmak esastır. Bu kılavuz, uygulamalarına grafik işlevleri entegre etmeyi amaçlayan geliştiriciler için kusursuz bir deneyim sunan Java için Aspose.Slides kullanarak grafik oluşturma ve doğrulama sürecini size tanıtmaktadır.
+Günümüzün veri odaklı dünyasında, karmaşık veri setlerini anlamlandırmak için bilgiyi grafiklerle görselleştirmek çok önemlidir. **Java'da grafik oluşturmanız gerekiyorsa**, Aspose.Slides, PowerPoint sunumları içinde grafikleri eklemenize, yapılandırmanıza ve doğrulamanıza temiz ve programatik bir yol sunar. Raporlama aracı, eğitim uygulaması veya gerçek zamanlı bir gösterge paneli oluşturuyor olun, bu kılavuz size kütüphaneyi kurmaktan son dosyayı kaydetmeye kadar tüm süreci adım adım gösterir.
 
-## Ne Öğreneceksiniz
-- Projenizde Java için Aspose.Slides nasıl kurulur
-- Bir sunum içerisinde kümelenmiş sütun grafiği oluşturma
-- Bir grafiğin düzenini programatik olarak doğrulama
-- Arsa alanı boyutlarını alma ve anlama
-- Güncellenmiş grafiklerle sunumları kaydetme
+## Quick Answers
+- **Java'da grafik oluşturmanıza izin veren kütüphane nedir?** Aspose.Slides for Java.
+- **Hangi grafik tipi gösterilmektedir?** Küme sütun grafiği.
+- **Grafik düzenini nasıl doğrularsınız?** Grafik nesnesinde `validateChartLayout()` metodunu çağırın.
+- **Çizim alanı boyutunu alabilir misiniz?** Evet, `chart.getPlotArea().getActualX()` ve ilgili metodlar aracılığıyla.
+- **Son adım nedir?** `pres.save(...)` ile sunumu kaydedin.
 
-Bu görevleri adım adım nasıl başarabileceğinize bir bakalım.
+## Öğrenecekleriniz
+- Projeye Aspose.Slides for Java nasıl kurulur  
+- **Grafik nasıl oluşturulur** – özellikle bir küme sütun grafiği – ve slayta nasıl eklenir  
+- **Grafik düzeni nasıl programatik olarak doğrulanır**  
+- Çizim alanı boyutlarını alma ve yorumlama  
+- Güncellenmiş grafikle sunumu kaydetme  
 
-## Ön koşullar
-Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
-- **Java Geliştirme Kiti (JDK)**: JDK 16 veya üzeri sürümün yüklü olduğundan emin olun.
-- **Java için Aspose.Slides**: Sunumları ve grafikleri işlemek için bu kütüphaneye ihtiyacınız olacak. Burada kullanılan sürüm şudur: `25.4`.
-- **Entegre Geliştirme Ortamı (IDE)**: IntelliJ IDEA veya Eclipse gibi Java'yı destekleyen herhangi bir IDE.
+## Önkoşullar
+Başlamadan önce şunlara sahip olduğunuzdan emin olun:
 
-## Java için Aspose.Slides Kurulumu
-Başlamak için, aşağıdaki yöntemlerden birini kullanarak Aspose.Slides'ı Java projenize entegre edin:
+- **Java Development Kit (JDK)** – JDK 16 veya daha yeni.  
+- **Aspose.Slides for Java** – kütüphane (örneklerde sürüm 25.4 kullanılacak).  
+- **IDE** – IntelliJ IDEA, Eclipse veya herhangi bir Java uyumlu editör.  
 
-### Usta
-Bu bağımlılığı şuna ekleyin: `pom.xml` dosya:
+## Setting Up Aspose.Slides for Java
+Aspose.Slides'i projenize Maven, Gradle veya doğrudan indirme yoluyla ekleyebilirsiniz.
+
+### Maven
+`pom.xml` dosyanıza bu bağımlılığı ekleyin:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -45,44 +56,38 @@ Bu bağımlılığı şuna ekleyin: `pom.xml` dosya:
 ```
 
 ### Gradle
-Bunu da ekleyin `build.gradle` dosya:
+`build.gradle` dosyanıza bu satırı ekleyin:
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Doğrudan İndirme
-Alternatif olarak, kütüphaneyi doğrudan şu adresten indirin: [Java sürümleri için Aspose.Slides](https://releases.aspose.com/slides/java/).
+### Direct Download
+Alternatif olarak, kütüphaneyi doğrudan [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) adresinden indirin.
 
-#### Lisans Edinimi
-- **Ücretsiz Deneme**: Ücretsiz denemeyle sınırlı özelliklere erişin.
-- **Geçici Lisans**: Tam işlevleri keşfetmek için geçici bir lisans talep edin.
-- **Satın almak**: Sürekli kullanım için abonelik satın alın.
+#### License Acquisition
+- **Ücretsiz Deneme** – hızlı değerlendirme için sınırlı özellikler.  
+- **Geçici Lisans** – tam test için kısa süreli anahtar talep edin.  
+- **Satın Alma** – üretim kullanımı için abonelik satın alın.
 
-#### Temel Başlatma ve Kurulum
-Geliştirme ortamınızın hazır olduğundan emin olun. Java uygulamanızda Aspose.Slides'ı başlatmanın yolu:
+#### Basic Initialization and Setup
+Sunumlarla çalışmaya başlamak için gereken minimum kod aşağıdadır:
 ```java
 import com.aspose.slides.Presentation;
 
 public class Main {
     public static void main(String[] args) {
         Presentation presentation = new Presentation();
-        // Grafik oluşturma mantığınız burada
-        presentation.dispose();  // Kaynakları temizleyin
+        // Your chart creation logic will go here
+        presentation.dispose();  // Clean up resources
     }
 }
 ```
 
-## Uygulama Kılavuzu
+## How to add chart to slide and create a clustered column chart
+Grafik eklemek Aspose.Slides ile oldukça basittir. Aşağıdaki bölümler her adımı ayrıntılı olarak açıklar.
 
-### Özellik: Bir Grafik Oluşturun ve Doğrulayın
-
-#### Genel bakış
-Sunumlarda grafik oluşturmak Aspose.Slides ile basittir. Bu özellik, slaydınıza kümelenmiş bir sütun grafiği eklemeye odaklanarak, istenen düzene uymasını sağlar.
-
-#### Adım Adım Uygulama
-
-##### 1. Sunumunuzu Hazırlayın
-Yeni bir sunum yükleyerek veya oluşturarak başlayın:
+### Step 1: Set Up Your Presentation
+Mevcut bir dosyayı yükleyin veya yeni bir tane oluşturun:
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.ChartType;
@@ -90,8 +95,8 @@ import com.aspose.slides.ChartType;
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/test.Pptx");
 ```
 
-##### 2. Slayda bir Grafik Ekleyin
-Belirtilen koordinatlarda istenilen boyutlarda kümelenmiş sütun grafiği ekleyin:
+### Step 2: Add a clustered column chart
+Burada **küme sütun grafiği** ilk slayta belirli bir konumda ekliyoruz:
 ```java
 import com.aspose.slides.ShapeType;
 
@@ -100,31 +105,24 @@ Chart chart = (Chart) pres.getSlides().get_Item(0).getShapes().addChart(
 );
 ```
 
-##### 3. Düzeni doğrulayın
-Tablonuzun doğru bir şekilde düzenlendiğinden emin olun:
+### Step 3: Validate the chart layout
+Grafiği yerleştirdikten sonra her şeyin doğru hizalandığından emin olun:
 ```java
 chart.validateChartLayout();
 ```
 
-#### Açıklama
-- **Parametreler**: `ChartType.ClusteredColumn` grafik türünü belirtir. Koordinatlar `(100, 100)` ve boyutlar `(500, 350)` konumunu ve boyutunu tanımlayın.
-- **Yöntem Amaç**: `validateChartLayout()` Görsel tutarlılığı sağlamak için herhangi bir düzen sorununu kontrol eder.
+#### Why validation matters
+`validateChartLayout()` üst üste binen öğeler, eksik eksenler ve diğer görsel tutarsızlıkları kontrol eder; böylece izleyicinizin şık bir grafik görmesini sağlar.
 
-### Özellik: Bir Grafikten Arsa Alanı Boyutlarını Alın
+## How to get plot area dimensions from a chart
+Grafiğin kapladığı kesin alanı anlamak, düzeni ince ayarlamanıza veya ek grafikler yerleştirmenize yardımcı olur.
 
-#### Genel bakış
-Bir grafik oluşturduktan sonra, çizim alanının mekansal dağılımını anlamak önemlidir. Bu özellik bu boyutları programatik olarak alır.
-
-#### Adım Adım Uygulama
-
-##### 1. Tabloya Erişim
-Grafik nesnenizi alın:
+### Step 4: Access the chart object
 ```java
 Chart chart = (Chart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
 ```
 
-##### 2. Arsa Alanı Boyutlarını Alın
-Arsa alanı ayrıntılarını çıkarın ve yazdırın:
+### Step 5: Retrieve plot area metrics
 ```java
 double x = chart.getPlotArea().getActualX();
 double y = chart.getPlotArea().getActualY();
@@ -134,54 +132,65 @@ double h = chart.getPlotArea().getActualHeight();
 System.out.println("Plot Area: X=" + x + ", Y=" + y + ", Width=" + w + ", Height=" + h);
 ```
 
-### Özellik: Sunumu Grafikle Kaydet
+Bu değerler, diğer şekilleri hizalamanız veya özel kenar boşlukları hesaplamanız gerektiğinde faydalıdır.
 
-#### Genel bakış
-Grafiklerinizi ekledikten ve doğruladıktan sonra sunumu kaydetmek tüm değişikliklerin korunmasını sağlar.
+## How to save the presentation with the new chart
+Grafiğiniz oluşturulup doğrulandıktan sonra değişiklikleri kalıcı hale getirin:
 
-#### Adım Adım Uygulama
-##### 1. Güncellenen Sunumu Kaydedin
-Çalışmanızı kaydetmek için bu yöntemi kullanın:
+### Step 6: Save the file
 ```java
 import com.aspose.slides.SaveFormat;
 
 pres.save("YOUR_OUTPUT_DIRECTORY/Chart_out.pptx", SaveFormat.Pptx);
 ```
 
-## Pratik Uygulamalar
-1. **İşletme Raporlaması**:Çeyreklik raporlar için veri odaklı sunumların oluşturulmasını otomatikleştirin.
-2. **Eğitim Araçları**:Karmaşık kavramları açıklamak için gömülü grafikler içeren etkileşimli öğrenme modülleri geliştirin.
-3. **Gösterge Paneli Entegrasyonu**: Gerçek zamanlı analizler için grafik işlevlerini iş zekası panolarına entegre edin.
+## Practical Applications
+- **İş Raporlaması** – Güncel grafiklerle üç aylık sunumları otomatikleştirin.  
+- **Eğitim Araçları** – Veri trendlerini anında gösteren ders slaytları oluşturun.  
+- **Gösterge Paneli Entegrasyonu** – Gerçek zamanlı analizleri PowerPoint'e aktararak yöneticilere sunun.
 
-## Performans Hususları
-- Kullanılmayan nesneleri kullanarak elden çıkararak performansı optimize edin `pres.dispose()`.
-- Büyük sunumları yönetirken hafızayı verimli bir şekilde yönetin.
-- Özellikle döngülerde veya tekrarlanan işlemlerde Java kaynak yönetimi için en iyi uygulamaları izleyin.
+## Performance Considerations
+- `Presentation` nesnesini (`pres.dispose()`) serbest bırakarak yerel kaynakları temizleyin.  
+- Büyük sunumları işlerken, mümkün olduğunca grafik nesnelerini yeniden kullanarak bellek tüketimini azaltın.  
+- Büyük veri setleri için tüm veriyi belleğe yüklemek yerine akış API'lerini tercih edin.
 
-## Çözüm
-Bu kılavuzu takip ederek, Java ile Aspose.Slides'ta grafiklerin nasıl oluşturulacağını ve doğrulanacağını öğrendiniz. Bu yetenekler yalnızca sunum kalitenizi artırmakla kalmaz, aynı zamanda uygulamalarınızdaki veri görselleştirme sürecini de kolaylaştırır. 
+## Common Issues & Troubleshooting
+| Belirti | Muhtemel Neden | Çözüm |
+|---------|--------------|-----|
+| Grafik boş görünüyor | Veri serisi eklenmemiş | `chart.getChartData().getSeries().add(...)` doğrulamadan önce kullanın. |
+| Düzen doğrulaması hata veriyor | Slaytta üst üste binen şekiller | X/Y koordinatlarını ayarlayın veya grafik boyutlarını artırın. |
+| `OutOfMemoryError` büyük dosyalarda | Nesneler serbest bırakılmadığında | `presentation.dispose()` metodunu bir `finally` bloğunda çağırın. |
 
-Projeleriniz için daha fazla potansiyeli ortaya çıkarmak amacıyla Aspose.Slides özelliklerini keşfetmeye devam edin ve farklı grafik türleri ve yapılandırmalarını denemekten çekinmeyin.
+## Frequently Asked Questions
 
-## SSS Bölümü
-1. **Aspose.Slides nedir?**
-   - Java'da PowerPoint sunumlarını yönetmek için güçlü bir kütüphane.
-2. **Geçici ehliyet nasıl alınır?**
-   - Ziyaret etmek [Aspose Geçici Lisans](https://purchase.aspose.com/temporary-license/) Birini talep etmek.
-3. **Aspose.Slides'ı diğer programlama dilleriyle kullanabilir miyim?**
-   - Evet, .NET, C++ ve daha fazlası için mevcuttur.
-4. **Hangi tür grafikler oluşturulabilir?**
-   - Kümelenmiş sütun, çubuk, çizgi, pasta vb. gibi çeşitli tipler.
-5. **Grafik düzeni sorununu nasıl çözebilirim?**
-   - Kullanmak `validateChartLayout()` Herhangi bir tutarsızlığı tespit edip düzeltmek.
+**Q: Aspose.Slides nedir?**  
+A: Microsoft Office olmadan PowerPoint dosyalarını oluşturmak, düzenlemek ve dönüştürmek için güçlü bir Java kütüphanesidir.
 
-## Kaynaklar
-- [Belgeleme](https://reference.aspose.com/slides/java/)
-- [Java için Aspose.Slides'ı indirin](https://releases.aspose.com/slides/java/)
+**Q: Geçici lisans nasıl alınır?**  
+A: [Aspose Temporary License](https://purchase.aspose.com/temporary-license/) adresini ziyaret edin ve talep adımlarını izleyin.
+
+**Q: Küme sütun dışındaki diğer grafik tiplerini oluşturabilir miyim?**  
+A: Evet, Aspose.Slides bar, line, pie, area ve daha birçok grafik tipini destekler.
+
+**Q: Grafiğe programatik olarak veri eklemenin bir yolu var mı?**  
+A: Kesinlikle. `chart.getChartData().getSeries().add(...)` ve `chart.getChartData().getCategories().add(...)` metodlarını kullanın.
+
+**Q: Kütüphane tüm işletim sistemlerinde çalışıyor mu?**  
+A: Java sürümü platform bağımsızdır ve Windows, Linux ve macOS üzerinde çalışır.
+
+## Resources
+- [Dokümantasyon](https://reference.aspose.com/slides/java/)
+- [Aspose.Slides for Java'ı İndir](https://releases.aspose.com/slides/java/)
 - [Abonelik Satın Al](https://purchase.aspose.com/buy)
 - [Ücretsiz Deneme](https://releases.aspose.com/slides/java/)
 - [Geçici Lisans Talebi](https://purchase.aspose.com/temporary-license/)
-- [Destek Forumu](https://forum.aspose.com/c/slides/11)
+- [Destek Forum](https://forum.aspose.com/c/slides/11)
+
+---
+
+**Son Güncelleme:** 2026-02-22  
+**Test Edilen Versiyon:** Aspose.Slides for Java 25.4  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

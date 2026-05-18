@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-17"
-"description": "Aspose.Slides for Javaを使ってプロフェッショナルなプレゼンテーションを作成する方法を学びましょう。このガイドでは、環境の設定、積み上げ縦棒グラフの追加、そして見やすさを向上させるカスタマイズについて説明します。"
-"title": "Aspose.Slides を使って Java で積み上げ縦棒グラフをマスターする - 総合ガイド"
-"url": "/ja/java/charts-graphs/aspose-slides-java-stacked-column-charts/"
-"weight": 1
+date: '2026-02-22'
+description: Aspose.Slides を使用して Java で積み上げ縦棒グラフの作成方法を学びます。このチュートリアルでは、Aspose Slides
+  の Maven 依存関係、パーセンテージ積み上げグラフの追加、チャート データ ラベルの書式設定、プレゼンテーションを PPTX として保存する方法をカバーしています。
+keywords:
+- Aspose.Slides
+- stacked column chart
+- Java presentation
+title: Java と Aspose.Slides を使用した積み上げ縦棒グラフの作成方法 – 包括的ガイド
+url: /ja/java/charts-graphs/aspose-slides-java-stacked-column-charts/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,32 +16,45 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.Slides を使って Java で積み上げ縦棒グラフをマスターする: 総合ガイド
+# Java と Aspose.Slides で積み上げ縦棒グラフを作成する方法 – 包括的ガイド
 
-## 導入
+## Introduction
 
-Aspose.Slides for Java の強力な機能を活用し、洞察力に富んだデータビジュアライゼーションを組み込むことで、プレゼンテーションの質を高めましょう。ビジネスレポートの作成でも、プロジェクトの統計情報の提示でも、積み上げ縦棒グラフを使ったプロフェッショナルなスライドを簡単に作成できます。
+Aspose.Slides for Java のパワーを活用して、洞察に満ちたデータ ビジュアライゼーションをプレゼンテーションに組み込むことで、資料の質を向上させましょう。このガイドでは、**積み上げ縦棒グラフ** スライドを作成し、ビジネスレポートやプロジェクト統計の提示にプロフェッショナルな外観を提供します。チュートリアルの最後までに、以下ができるようになります。
 
-このチュートリアルでは、Aspose.Slides for Java を使用して動的なプレゼンテーションを作成し、視覚的に魅力的な積み上げ縦棒グラフを追加する方法を学びます。このガイドを終える頃には、以下のスキルを習得できるようになります。
-- Aspose.Slides を使用するための環境設定
-- プレゼンテーションをゼロから作成する
-- パーセンテージ積み上げ縦棒グラフを追加してカスタマイズする
-- グラフの軸とデータラベルをわかりやすくフォーマットする
+- Aspose Slides の Maven 依存関係で環境をセットアップする
+- ゼロからプレゼンテーションを作成する
+- **パーセンテージ積み上げチャート** を追加し外観をカスタマイズする
+- **チャート データ ラベルをフォーマット** し、**縦軸の書式を変更**する
+- **1 行のコードで PPTX として保存**する
 
-聴衆を魅了するプレゼンテーションの作成に取り掛かりましょう。
+さあ、各ステップを順に確認し、すぐに魅力的なプレゼンテーション作成を始めましょう。
 
-## 前提条件
-始める前に、以下のものを用意してください。
-- **Java 開発キット (JDK):** バージョン8以上。
-- **IDE:** IntelliJ IDEA や Eclipse などの統合開発環境。
-- **Maven/Gradle:** 依存関係を管理します (オプションですが推奨)。
-- **基本的なJavaの知識:** Java プログラミングの概念に関する知識。
+## Quick Answers
+- **What library do I need?** `aspose-slides` Maven/Gradle dependency (see “aspose slides maven dependency” below)  
+- **Which chart type is used?** `ChartType.PercentsStackedColumn` for a percentage‑stacked column chart  
+- **How do I change the axis number format?** Use `IAxis.setNumberFormat()` and disable linking to source  
+- **Can I customize data labels?** Yes – iterate through `IChartDataPoint` objects and set a custom `ITextFrame`  
+- **How do I save the file?** Call `presentation.save("output.pptx", SaveFormat.Pptx)`
 
-## Aspose.Slides for Java のセットアップ
-始めるには、プロジェクトにAspose.Slidesライブラリを追加する必要があります。手順は以下のとおりです。
+## What is a stacked column chart?
+A stacked column chart visualizes multiple data series stacked on top of each other in vertical columns. When you use the **percentage‑stacked** variant, each column always totals 100 %, making it easy to compare proportional contributions across categories.
 
-**メイヴン:**
-この依存関係を `pom.xml` ファイル：
+## Why use Aspose.Slides for Java?
+Aspose.Slides provides a pure‑Java API that works on any platform without Microsoft Office installed. It offers fine‑grained control over chart objects, supports a wide range of formats, and lets you generate presentations programmatically—perfect for automated reporting or server‑side document generation.
+
+## Prerequisites
+- **Java Development Kit (JDK):** 8 or higher  
+- **IDE:** IntelliJ IDEA, Eclipse, or any Java‑compatible editor  
+- **Build Tool:** Maven or Gradle (optional but recommended)  
+- **Basic Java knowledge** – you should be comfortable with classes and methods  
+
+## Setting Up Aspose.Slides for Java
+To start, add the Aspose.Slides library to your project.
+
+### Aspose Slides Maven Dependency
+Add the following to your `pom.xml` (this is the **aspose slides maven dependency** you’ll need):
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -46,70 +64,73 @@ Aspose.Slides for Java の強力な機能を活用し、洞察力に富んだデ
 </dependency>
 ```
 
-**グレード:**
-これをあなたの `build.gradle` ファイル：
+### Gradle Alternative
+If you prefer Gradle, include this line in `build.gradle`:
+
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**直接ダウンロード:**
-または、最新のJARを以下からダウンロードしてください。 [Aspose.Slides for Java リリース](https://releases。aspose.com/slides/java/).
+### Direct Download
+Alternatively, download the latest JAR from [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### ライセンス取得
-Aspose.Slides の機能を試すには、無料トライアルをご利用ください。評価版の制限を解除するには、一時ライセンスまたは有料ライセンスの取得をご検討ください。
-- **無料トライアル:** 即時のコストなしで限定された機能にアクセスできます。
-- **一時ライセンス:** リクエスト方法 [Asposeのサイト](https://purchase。aspose.com/temporary-license/).
-- **購入：** フルアクセスについては購入ページをご覧ください。
+### License Acquisition
+You can start with a free trial to explore Aspose.Slides features. To remove evaluation limitations, consider obtaining a temporary or purchased license.
 
-### 基本的な初期化
-Java アプリケーションで Aspose.Slides を初期化する方法は次のとおりです。
+- **Free Trial:** Access limited features without immediate costs.  
+- **Temporary License:** Request via [Aspose’s site](https://purchase.aspose.com/temporary-license/).  
+- **Purchase:** Visit the purchase page for full access.
+
+### Basic Initialization
+Here’s a minimal snippet that shows how to create a `Presentation` object:
+
 ```java
 import com.aspose.slides.Presentation;
 
 public class InitializeAspose {
     public static void main(String[] args) {
-        // プレゼンテーションクラスのインスタンスを作成する
+        // Create an instance of Presentation class
         Presentation presentation = new Presentation();
         
-        // プレゼンテーションオブジェクトに対する操作を実行する
+        // Perform operations on the presentation object
         System.out.println("Aspose.Slides initialized successfully.");
     }
 }
 ```
 
-## 実装ガイド
+## Implementation Guide
 
-### プレゼンテーションの作成とスライドの追加
-**概要：**
-まずは、最初のスライドを使ったシンプルなプレゼンテーションを作成しましょう。これが、今後の改善のための基礎となります。
+### Creating a Presentation and Adding a Slide
+**Overview:**  
+First, we’ll create a blank presentation and verify that a slide exists.
 
-#### ステップ1: プレゼンテーションオブジェクトの初期化
+#### Step 1: Initialize Presentation Object
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 
 public class CreatePresentation {
     public static void main(String[] args) throws Exception {
-        // 新しいプレゼンテーションインスタンスを作成する
+        // Create a new presentation instance
         Presentation presentation = new Presentation();
         
-        // 最初のスライドへの参照（自動作成）
+        // Reference to the first slide (auto-created)
         System.out.println("Slide count: " + presentation.getSlides().size());
     }
 }
 ```
 
-#### ステップ2: プレゼンテーションを保存する
-```java
-// プレゼンテーションをファイルに保存する
+#### Step 2: Save the Presentation
+```
+// Save the presentation to a file
 presentation.save("YOUR_OUTPUT_DIRECTORY/CreatePresentation_out.pptx", SaveFormat.Pptx);
 ```
 
-### スライドにパーセンテージ積み上げ縦棒グラフを追加する
-**概要：**
-パーセンテージ積み上げ縦棒グラフを追加してスライドを強化し、データの比較を容易にします。
+### Adding Percentage Stacked Column Chart to a Slide
+**Overview:**  
+Now we’ll place a **percentage stacked chart** onto the first slide.
 
-#### ステップ1: スライドの初期化とアクセス
+#### Step 1: Initialize and Access Slide
 ```java
 import com.aspose.slides.ISlide;
 import com.aspose.slides.ChartType;
@@ -119,12 +140,12 @@ public class AddChartToSlide {
         Presentation presentation = new Presentation();
         ISlide slide = presentation.getSlides().get_Item(0);
         
-        // 次のステップでチャートを追加してください
+        // Proceed to add chart in the next step
     }
 }
 ```
 
-#### ステップ2: スライドにグラフを追加する
+#### Step 2: Add Chart to Slide
 ```java
 import com.aspose.slides.IChart;
 
@@ -132,11 +153,11 @@ IChart chart = slide.getShapes().addChart(
     ChartType.PercentsStackedColumn, 20, 20, 500, 400);
 ```
 
-### グラフ軸の数値書式のカスタマイズ
-**概要：**
-グラフの縦軸の数値形式をカスタマイズして、読みやすさを向上させます。
+### Customizing Chart Axis Number Format
+**Overview:**  
+For better readability we’ll **change vertical axis format** to show percentages.
 
-#### ステップ1: チャートを追加してアクセスする
+#### Step 1: Add and Access Chart
 ```java
 public class CustomizeChartAxis {
     public static void main(String[] args) throws Exception {
@@ -149,7 +170,7 @@ public class CustomizeChartAxis {
 }
 ```
 
-#### ステップ2: カスタム数値形式を設定する
+#### Step 2: Set Custom Number Format
 ```java
 import com.aspose.slides.IAxis;
 
@@ -158,11 +179,11 @@ verticalAxis.setNumberFormatLinkedToSource(false);
 verticalAxis.setNumberFormat("0.00%");
 ```
 
-### チャートにシリーズとデータポイントを追加する
-**概要：**
-チャートにデータ シリーズを入力して、情報を提供し、視覚的に魅力的なものにします。
+### Adding Series and Data Points to Chart
+**Overview:**  
+We’ll populate the chart with sample data series.
 
-#### ステップ1: プレゼンテーションとチャートを初期化する
+#### Step 1: Initialize Presentation and Chart
 ```java
 import com.aspose.slides.IChartSeries;
 import com.aspose.slides.ChartDataWorkbook;
@@ -181,22 +202,22 @@ public class AddSeriesToChart {
 }
 ```
 
-#### ステップ2: データシリーズを追加する
+#### Step 2: Add Data Series
 ```java
-// 既存のシリーズをクリアして新しいシリーズを追加する
+// Clear existing series and add new ones
 chart.getChartData().getSeries().clear();
 
 IChartSeries series1 = chart.getChartData().getSeries().add(
     workbook.getCell(defaultWorksheetIndex, 0, 1, "Reds"), chart.getType());
 series1.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 1, 1, 0.30));
-// 必要に応じてデータポイントを追加します
+// Add more data points as needed
 ```
 
-### 系列の塗りつぶし色の書式設定
-**概要：**
-各シリーズの塗りつぶし色をフォーマットして、グラフの美観を高めます。
+### Formatting Series Fill Color
+**Overview:**  
+Give each series a distinct color to make the chart easier to read.
 
-#### ステップ1: チャートの初期化とアクセス
+#### Step 1: Initialize and Access Chart
 ```java
 import java.awt.Color;
 import com.aspose.slides.FillType;
@@ -214,20 +235,20 @@ public class FormatSeriesFillColor {
 }
 ```
 
-#### ステップ2: 塗りつぶし色を設定する
+#### Step 2: Set Fill Colors
 ```java
 IChartSeries series1 = chart.getChartData().getSeries().get_Item(0);
 series1.getFormat().getFill().setFillType(FillType.Solid);
 series1.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 
-// 異なる色の他のシリーズでも繰り返します
+// Repeat for other series with different colors
 ```
 
-### データラベルの書式設定
-**概要：**
-データ ラベルの形式をカスタマイズして、読みやすくします。
+### Formatting Data Labels
+**Overview:**  
+Now we’ll **format chart data labels** so they display custom text.
 
-#### ステップ1: チャートシリーズとデータポイントにアクセスする
+#### Step 1: Access Chart Series and Data Points
 ```java
 public class FormatDataLabels {
     public static void main(String[] args) throws Exception {
@@ -243,7 +264,7 @@ public class FormatDataLabels {
 }
 ```
 
-#### ステップ2: データラベルをカスタマイズする
+#### Step 2: Customize Data Labels
 ```java
 import com.aspose.slides.ITextFrame;
 import com.aspose.slides.IChartDataPoint;
@@ -258,10 +279,36 @@ for (IChartSeries series : chart.getChartData().getSeries()) {
 }
 ```
 
-## 結論
-このガイドでは、Aspose.Slides for Java の設定方法と、パーセンテージ積み上げ縦棒グラフを使ったダイナミックなプレゼンテーションの作成方法を学習しました。色やラベルを調整して、ニーズに合わせてグラフをさらにカスタマイズしましょう。
+## Common Issues and Solutions
+- **Chart appears empty:** Ensure you have added at least one data series and data point before saving.  
+- **Axis numbers not showing percentages:** Remember to set `verticalAxis.setNumberFormatLinkedToSource(false)`; otherwise the custom format is ignored.  
+- **License evaluation message:** Apply a valid license file before creating the `Presentation` object to suppress the evaluation banner.
 
-楽しいコーディングを！
+## Frequently Asked Questions
+
+**Q: Can I use this code with Java 11 or newer?**  
+A: Yes. The library supports JDK 8+; just use the appropriate classifier (e.g., `jdk16` for JDK 16 or later).
+
+**Q: How do I export the chart as an image instead of a PPTX?**  
+A: Use `chart.getImage().save("chart.png", ImageFormat.Png);` after adding the chart to the slide.
+
+**Q: Is it possible to add a legend to the stacked column chart?**  
+A: Absolutely. Call `chart.getChartTitle().addTextFrameForOverriding("My Chart");` and configure `chart.getLegend()` as needed.
+
+**Q: What if I need to update data after the presentation is generated?**  
+A: You can modify the `ChartDataWorkbook` cells and then call `chart.refresh();` to reflect changes.
+
+**Q: Does Aspose.Slides work on Linux servers?**  
+A: Yes. The library is pure Java and runs on any OS with a compatible JRE.
+
+## Conclusion
+By following this guide you’ve learned how to **create stacked column chart** presentations with Aspose.Slides for Java, from environment setup to fine‑tuned visual styling. Experiment with different data sets, colors, and label formats to make your reports truly stand out.
+
+---
+
+**Last Updated:** 2026-02-22  
+**Tested With:** Aspose.Slides 25.4 (jdk16 classifier)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

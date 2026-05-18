@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "تعلم كيفية إنشاء عروض تقديمية احترافية باستخدام Aspose.Slides لجافا. يغطي هذا الدليل إعداد بيئتك، وإضافة مخططات أعمدة مكدسة، وتخصيصها لزيادة الوضوح."
-"title": "إتقان مخططات الأعمدة المكدسة في جافا باستخدام Aspose.Slides - دليل شامل"
-"url": "/ar/java/charts-graphs/aspose-slides-java-stacked-column-charts/"
-"weight": 1
+date: '2026-02-22'
+description: تعلم كيفية إنشاء مخطط عمودي مكدس في جافا باستخدام Aspose.Slides. يغطي
+  هذا الدليل اعتماد Aspose Slides Maven، إضافة مخطط مكدس بنسبة مئوية، تنسيق تسميات
+  بيانات المخطط، وحفظ العرض التقديمي بصيغة PPTX.
+keywords:
+- Aspose.Slides
+- stacked column chart
+- Java presentation
+title: كيفية إنشاء مخطط عمودي مكدس في جافا باستخدام Aspose.Slides – دليل شامل
+url: /ar/java/charts-graphs/aspose-slides-java-stacked-column-charts/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,32 +17,45 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# إتقان مخططات الأعمدة المكدسة في Java باستخدام Aspose.Slides: دليل شامل
+# كيفية إنشاء مخطط عمودي مكدس في Java باستخدام Aspose.Slides – دليل شامل
 
-## مقدمة
+## Introduction
 
-ارتقِ بعروضك التقديمية بدمج تصورات بيانات ثاقبة مع قوة Aspose.Slides لجافا. إنشاء شرائح احترافية بمخططات أعمدة مكدسة أمر سهل، سواء كنت تُعدّ تقارير أعمال أو تُعرض إحصاءات مشاريع.
+ارتقِ بعروضك التقديمية من خلال دمج تصورات بيانات بصرية متعمقة باستخدام قوة Aspose.Slides for Java. في هذا الدليل ستقوم **بإنشاء مخطط عمودي مكدس** في شرائح تبدو احترافية، سواء كنت تُعد تقارير أعمال أو تعرض إحصائيات مشروع. في نهاية هذا الشرح ستكون قادرًا على:
 
-في هذا البرنامج التعليمي، سنستكشف كيفية استخدام Aspose.Slides لجافا لإنشاء عروض تقديمية ديناميكية وإضافة مخططات عمودية مكدسة جذابة بصريًا. بنهاية هذا الدليل، ستكون قد اكتسبت المهارات اللازمة لما يلي:
-- قم بإعداد بيئتك لاستخدام Aspose.Slides
+- إعداد بيئتك باستخدام تبعية Aspose Slides Maven
 - إنشاء عرض تقديمي من الصفر
-- إضافة وتخصيص مخططات الأعمدة المكدسة بالنسب المئوية
-- تنسيق محاور الرسم البياني وعلامات البيانات لتحقيق الوضوح
+- **إضافة مخطط مكدس بالنسبة المئوية** وتخصيص مظهره
+- **تنسيق تسميات بيانات المخطط** و**تغيير تنسيق المحور العمودي**
+- **حفظ العرض التقديمي كملف PPTX** بسطر واحد من الشيفرة
 
-دعنا نتعمق في إنشاء العروض التقديمية التي تجذب جمهورك.
+دعنا نستعرض كل خطوة حتى تتمكن من بدء بناء عروض تقديمية جذابة فورًا.
 
-## المتطلبات الأساسية
-قبل أن نبدأ، تأكد من أن لديك ما يلي:
-- **مجموعة تطوير Java (JDK):** الإصدار 8 أو أعلى.
-- **بيئة التطوير المتكاملة:** أي بيئة تطوير متكاملة مثل IntelliJ IDEA أو Eclipse.
-- **Maven/Gradle:** لإدارة التبعيات (اختياري ولكن موصى به).
-- **المعرفة الأساسية بلغة جافا:** المعرفة بمفاهيم برمجة جافا.
+## Quick Answers
+- **ما المكتبة التي أحتاجها؟** تبعية `aspose-slides` لـ Maven/Gradle (انظر “aspose slides maven dependency” أدناه)  
+- **أي نوع من المخططات يُستخدم؟** `ChartType.PercentsStackedColumn` لمخطط عمودي مكدس بالنسبة المئوية  
+- **كيف أغيّر تنسيق رقم المحور؟** استخدم `IAxis.setNumberFormat()` وقم بإلغاء ربطه بالمصدر  
+- **هل يمكنني تخصيص تسميات البيانات؟** نعم – استعرض كائنات `IChartDataPoint` واضبط `ITextFrame` مخصصًا  
+- **كيف أحفظ الملف؟** استدعِ `presentation.save("output.pptx", SaveFormat.Pptx)`
 
-## إعداد Aspose.Slides لـ Java
-للبدء، عليك تضمين مكتبة Aspose.Slides في مشروعك. إليك الطريقة:
+## What is a stacked column chart?
+المخطط العمودي المكدس يُظهر عدة سلاسل بيانات مكدسة فوق بعضها في أعمدة رأسية. عندما تستخدم النسخة **المكدسة بالنسبة المئوية**، يكون مجموع كل عمود دائمًا 100 %، مما يسهل مقارنة المساهمات النسبية عبر الفئات.
 
-**مافن:**
-أضف هذه التبعية إلى `pom.xml` ملف:
+## Why use Aspose.Slides for Java?
+Aspose.Slides توفر API نقيًا بلغة Java يعمل على أي منصة دون الحاجة لتثبيت Microsoft Office. تمنحك تحكمًا دقيقًا في كائنات المخططات، تدعم مجموعة واسعة من الصيغ، وتتيح لك إنشاء عروض تقديمية برمجيًا—مثالي للتقارير الآلية أو توليد المستندات من جانب الخادم.
+
+## Prerequisites
+- **Java Development Kit (JDK):** 8 أو أعلى  
+- **IDE:** IntelliJ IDEA، Eclipse، أو أي محرر يدعم Java  
+- **أداة بناء:** Maven أو Gradle (اختياري لكن يُنصح به)  
+- **معرفة أساسية بـ Java** – يجب أن تكون مرتاحًا مع الفئات والطرق  
+
+## Setting Up Aspose.Slides for Java
+لبدء العمل، أضف مكتبة Aspose.Slides إلى مشروعك.
+
+### Aspose Slides Maven Dependency
+أضف ما يلي إلى ملف `pom.xml` الخاص بك (هذه هي **aspose slides maven dependency** التي ستحتاجها):
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -46,70 +65,73 @@
 </dependency>
 ```
 
-**جرادل:**
-قم بتضمين هذا في `build.gradle` ملف:
+### Gradle Alternative
+إذا كنت تفضّل Gradle، أدرج هذا السطر في `build.gradle`:
+
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**التحميل المباشر:**
-بدلاً من ذلك، قم بتنزيل أحدث ملف JAR من [إصدارات Aspose.Slides لـ Java](https://releases.aspose.com/slides/java/).
+### Direct Download
+بدلاً من ذلك، حمّل أحدث ملف JAR من [إصدارات Aspose.Slides for Java](https://releases.aspose.com/slides/java/).
 
-### الحصول على الترخيص
-يمكنك البدء بفترة تجريبية مجانية لاستكشاف ميزات Aspose.Slides. لإزالة قيود التقييم، يمكنك الحصول على ترخيص مؤقت أو شراء ترخيص.
-- **نسخة تجريبية مجانية:** يمكنك الوصول إلى ميزات محدودة دون تكاليف فورية.
-- **رخصة مؤقتة:** طلب عبر [موقع Aspose](https://purchase.aspose.com/temporary-license/).
-- **شراء:** قم بزيارة صفحة الشراء للحصول على إمكانية الوصول الكامل.
+### License Acquisition
+يمكنك البدء بنسخة تجريبية مجانية لاستكشاف ميزات Aspose.Slides. لإزالة قيود التقييم، فكر في الحصول على ترخيص مؤقت أو مرخص.
 
-### التهيئة الأساسية
-فيما يلي كيفية تهيئة Aspose.Slides في تطبيق Java الخاص بك:
+- **نسخة تجريبية مجانية:** الوصول إلى ميزات محدودة دون تكاليف فورية.  
+- **ترخيص مؤقت:** اطلبه عبر [موقع Aspose](https://purchase.aspose.com/temporary-license/).  
+- **شراء:** زر صفحة الشراء للحصول على الوصول الكامل.
+
+### Basic Initialization
+إليك مقتطفًا بسيطًا يوضح كيفية إنشاء كائن `Presentation`:
+
 ```java
 import com.aspose.slides.Presentation;
 
 public class InitializeAspose {
     public static void main(String[] args) {
-        // إنشاء مثيل لفئة العرض التقديمي
+        // Create an instance of Presentation class
         Presentation presentation = new Presentation();
         
-        // تنفيذ العمليات على كائن العرض التقديمي
+        // Perform operations on the presentation object
         System.out.println("Aspose.Slides initialized successfully.");
     }
 }
 ```
 
-## دليل التنفيذ
+## Implementation Guide
 
-### إنشاء عرض تقديمي وإضافة شريحة
-**ملخص:**
-ابدأ بإنشاء عرض تقديمي بسيط بشريحة أولية. هذا هو أساسك لمزيد من التحسينات.
+### Creating a Presentation and Adding a Slide
+**Overview:**  
+أولاً، سننشئ عرضًا تقديميًا فارغًا ونتأكد من وجود شريحة.
 
-#### الخطوة 1: تهيئة كائن العرض التقديمي
+#### Step 1: Initialize Presentation Object
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 
 public class CreatePresentation {
     public static void main(String[] args) throws Exception {
-        // إنشاء مثيل عرض تقديمي جديد
+        // Create a new presentation instance
         Presentation presentation = new Presentation();
         
-        // مرجع للشريحة الأولى (تم إنشاؤها تلقائيًا)
+        // Reference to the first slide (auto-created)
         System.out.println("Slide count: " + presentation.getSlides().size());
     }
 }
 ```
 
-#### الخطوة 2: حفظ العرض التقديمي
-```java
-// حفظ العرض التقديمي في ملف
+#### Step 2: Save the Presentation
+```
+// Save the presentation to a file
 presentation.save("YOUR_OUTPUT_DIRECTORY/CreatePresentation_out.pptx", SaveFormat.Pptx);
 ```
 
-### إضافة مخطط عمودي مكدس بالنسب المئوية إلى شريحة
-**ملخص:**
-قم بتعزيز الشريحة الخاصة بك عن طريق إضافة مخطط عمودي متراكم بالنسب المئوية، مما يسمح بمقارنة البيانات بسهولة.
+### Adding Percentage Stacked Column Chart to a Slide
+**Overview:**  
+الآن سنضع **مخطط مكدس بالنسبة المئوية** على الشريحة الأولى.
 
-#### الخطوة 1: تهيئة الشريحة والوصول إليها
+#### Step 1: Initialize and Access Slide
 ```java
 import com.aspose.slides.ISlide;
 import com.aspose.slides.ChartType;
@@ -119,12 +141,12 @@ public class AddChartToSlide {
         Presentation presentation = new Presentation();
         ISlide slide = presentation.getSlides().get_Item(0);
         
-        // انتقل إلى إضافة الرسم البياني في الخطوة التالية
+        // Proceed to add chart in the next step
     }
 }
 ```
 
-#### الخطوة 2: إضافة الرسم البياني إلى الشريحة
+#### Step 2: Add Chart to Slide
 ```java
 import com.aspose.slides.IChart;
 
@@ -132,11 +154,11 @@ IChart chart = slide.getShapes().addChart(
     ChartType.PercentsStackedColumn, 20, 20, 500, 400);
 ```
 
-### تخصيص تنسيق أرقام محور الرسم البياني
-**ملخص:**
-قم بتخصيص تنسيق الأرقام للمحور الرأسي للرسم البياني الخاص بك لتحسين إمكانية القراءة.
+### Customizing Chart Axis Number Format
+**Overview:**  
+لتحسين قابلية القراءة سن **نغيّر تنسيق المحور العمودي** لعرض النسب المئوية.
 
-#### الخطوة 1: إضافة الرسم البياني والوصول إليه
+#### Step 1: Add and Access Chart
 ```java
 public class CustomizeChartAxis {
     public static void main(String[] args) throws Exception {
@@ -149,7 +171,7 @@ public class CustomizeChartAxis {
 }
 ```
 
-#### الخطوة 2: تعيين تنسيق رقم مخصص
+#### Step 2: Set Custom Number Format
 ```java
 import com.aspose.slides.IAxis;
 
@@ -158,11 +180,11 @@ verticalAxis.setNumberFormatLinkedToSource(false);
 verticalAxis.setNumberFormat("0.00%");
 ```
 
-### إضافة سلسلة ونقاط بيانات إلى الرسم البياني
-**ملخص:**
-قم بملء الرسم البياني الخاص بك بسلسلة من البيانات، مما يجعله مفيدًا وجذابًا بصريًا.
+### Adding Series and Data Points to Chart
+**Overview:**  
+سنملأ المخطط بسلاسل بيانات تجريبية.
 
-#### الخطوة 1: تهيئة العرض التقديمي والمخطط
+#### Step 1: Initialize Presentation and Chart
 ```java
 import com.aspose.slides.IChartSeries;
 import com.aspose.slides.ChartDataWorkbook;
@@ -181,22 +203,22 @@ public class AddSeriesToChart {
 }
 ```
 
-#### الخطوة 2: إضافة سلسلة البيانات
+#### Step 2: Add Data Series
 ```java
-// مسح السلسلة الموجودة وإضافة سلسلة جديدة
+// Clear existing series and add new ones
 chart.getChartData().getSeries().clear();
 
 IChartSeries series1 = chart.getChartData().getSeries().add(
     workbook.getCell(defaultWorksheetIndex, 0, 1, "Reds"), chart.getType());
 series1.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 1, 1, 0.30));
-// أضف المزيد من نقاط البيانات حسب الحاجة
+// Add more data points as needed
 ```
 
-### تنسيق لون تعبئة السلسلة
-**ملخص:**
-قم بتعزيز جماليات الرسم البياني الخاص بك عن طريق تنسيق لون التعبئة لكل سلسلة.
+### Formatting Series Fill Color
+**Overview:**  
+امنح كل سلسلة لونًا مميزًا لتسهيل قراءة المخطط.
 
-#### الخطوة 1: تهيئة المخطط والوصول إليه
+#### Step 1: Initialize and Access Chart
 ```java
 import java.awt.Color;
 import com.aspose.slides.FillType;
@@ -214,20 +236,20 @@ public class FormatSeriesFillColor {
 }
 ```
 
-#### الخطوة 2: تعيين ألوان التعبئة
+#### Step 2: Set Fill Colors
 ```java
 IChartSeries series1 = chart.getChartData().getSeries().get_Item(0);
 series1.getFormat().getFill().setFillType(FillType.Solid);
 series1.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 
-// كرر ذلك لسلسلة أخرى بألوان مختلفة
+// Repeat for other series with different colors
 ```
 
-### تنسيق تسميات البيانات
-**ملخص:**
-اجعل تسميات البيانات الخاصة بك أكثر قابلية للقراءة عن طريق تخصيص تنسيقها.
+### Formatting Data Labels
+**Overview:**  
+الآن سن **ننسق تسميات بيانات المخطط** لتظهر نصًا مخصصًا.
 
-#### الخطوة 1: الوصول إلى سلسلة المخططات ونقاط البيانات
+#### Step 1: Access Chart Series and Data Points
 ```java
 public class FormatDataLabels {
     public static void main(String[] args) throws Exception {
@@ -243,7 +265,7 @@ public class FormatDataLabels {
 }
 ```
 
-#### الخطوة 2: تخصيص تسميات البيانات
+#### Step 2: Customize Data Labels
 ```java
 import com.aspose.slides.ITextFrame;
 import com.aspose.slides.IChartDataPoint;
@@ -258,10 +280,36 @@ for (IChartSeries series : chart.getChartData().getSeries()) {
 }
 ```
 
-## خاتمة
-باتباع هذا الدليل، ستتعلم كيفية إعداد Aspose.Slides لجافا وإنشاء عروض تقديمية ديناميكية باستخدام مخططات عمودية متراكمة النسب المئوية. يمكنك تخصيص مخططاتك بشكل أكبر عن طريق ضبط الألوان والتسميات لتناسب احتياجاتك.
+## Common Issues and Solutions
+- **المخطط يظهر فارغًا:** تأكد من إضافة سلسلة بيانات واحدة على الأقل ونقطة بيانات قبل الحفظ.  
+- **أرقام المحور لا تظهر كنسب مئوية:** تذكّر ضبط `verticalAxis.setNumberFormatLinkedToSource(false)`؛ وإلا سيتجاهل التنسيق المخصص.  
+- **رسالة تقييم الترخيص:** طبّق ملف ترخيص صالح قبل إنشاء كائن `Presentation` لإزالة شريط التقييم.
 
-برمجة سعيدة!
+## Frequently Asked Questions
+
+**س: هل يمكنني استخدام هذا الكود مع Java 11 أو أحدث؟**  
+ج: نعم. المكتبة تدعم JDK 8+؛ فقط استخدم المصنف المناسب (مثل `jdk16` لـ JDK 16 أو أحدث).
+
+**س: كيف أصدر المخطط كصورة بدلاً من PPTX؟**  
+ج: استخدم `chart.getImage().save("chart.png", ImageFormat.Png);` بعد إضافة المخطط إلى الشريحة.
+
+**س: هل يمكن إضافة مفتاح (legend) إلى المخطط العمودي المكدس؟**  
+ج: بالتأكيد. استدعِ `chart.getChartTitle().addTextFrameForOverriding("My Chart");` وقم بتكوين `chart.getLegend()` حسب الحاجة.
+
+**س: ماذا لو احتجت لتحديث البيانات بعد إنشاء العرض التقديمي؟**  
+ج: يمكنك تعديل خلايا `ChartDataWorkbook` ثم استدعاء `chart.refresh();` لتطبيق التغييرات.
+
+**س: هل يعمل Aspose.Slides على خوادم Linux؟**  
+ج: نعم. المكتبة جافا صافية وتعمل على أي نظام تشغيل يحتوي على JRE متوافق.
+
+## Conclusion
+باتباعك لهذا الدليل، تعلمت كيفية **إنشاء مخطط عمودي مكدس** في عروض Aspose.Slides for Java، بدءًا من إعداد البيئة وحتى تنسيق المظهر بدقة. جرّب مجموعات بيانات، ألوان، وتنسيقات تسميات مختلفة لتجعل تقاريرك تبرز حقًا.
+
+---
+
+**Last Updated:** 2026-02-22  
+**Tested With:** Aspose.Slides 25.4 (jdk16 classifier)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

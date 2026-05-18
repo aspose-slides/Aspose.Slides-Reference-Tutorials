@@ -1,9 +1,17 @@
 ---
-"date": "2025-04-17"
-"description": "Impara a creare presentazioni professionali utilizzando Aspose.Slides per Java. Questa guida illustra la configurazione dell'ambiente, l'aggiunta di grafici a colonne impilate e la loro personalizzazione per una maggiore chiarezza."
-"title": "Padroneggia i grafici a colonne impilate in Java con Aspose.Slides&#58; una guida completa"
-"url": "/it/java/charts-graphs/aspose-slides-java-stacked-column-charts/"
-"weight": 1
+date: '2026-02-22'
+description: Scopri come creare un grafico a colonne impilate in Java usando Aspose.Slides.
+  Questo tutorial copre la dipendenza Maven di Aspose Slides, l'aggiunta di un grafico
+  a colonne impilate percentuali, la formattazione delle etichette dei dati del grafico
+  e il salvataggio della presentazione in formato PPTX.
+keywords:
+- Aspose.Slides
+- stacked column chart
+- Java presentation
+title: Come creare un grafico a colonne impilate in Java con Aspose.Slides – Guida
+  completa
+url: /it/java/charts-graphs/aspose-slides-java-stacked-column-charts/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,32 +19,45 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Padroneggia i grafici a colonne impilate in Java con Aspose.Slides: una guida completa
+# Come creare un grafico a colonne impilate in Java con Aspose.Slides – Guida completa
 
 ## Introduzione
 
-Migliora le tue presentazioni integrando visualizzazioni di dati approfondite con la potenza di Aspose.Slides per Java. Creare diapositive dall'aspetto professionale con grafici a colonne sovrapposte è semplice, sia che tu stia preparando report aziendali o presentando statistiche di progetto.
+Eleva le tue presentazioni incorporando visualizzazioni di dati approfondite grazie alla potenza di Aspose.Slides per Java. In questa guida **creerai grafici a colonne impilate** che appariranno professionali, sia che tu stia preparando report aziendali sia che tu voglia mostrare statistiche di progetto. Alla fine di questo tutorial sarai in grado di:
 
-In questo tutorial, esploreremo come utilizzare Aspose.Slides per Java per creare presentazioni dinamiche e aggiungere grafici a colonne impilate visivamente accattivanti. Al termine di questa guida, avrai le competenze necessarie per:
-- Imposta il tuo ambiente per utilizzare Aspose.Slides
-- Crea una presentazione da zero
-- Aggiungere e personalizzare grafici a colonne con percentuali sovrapposte
-- Formattare gli assi del grafico e le etichette dei dati per maggiore chiarezza
+- Configurare l'ambiente con la dipendenza Maven di Aspose Slides
+- Creare una presentazione da zero
+- **Aggiungere un grafico a colonne impilate percentuali** e personalizzarne l'aspetto
+- **Formattare le etichette dei dati del grafico** e **modificare il formato dell'asse verticale**
+- **Salvare la presentazione come PPTX** con una singola riga di codice
 
-Impariamo a creare presentazioni che catturino l'attenzione del pubblico.
+Segui passo passo le istruzioni per iniziare subito a costruire presentazioni accattivanti.
+
+## Risposte rapide
+- **Quale libreria è necessaria?** dipendenza Maven/Gradle `aspose-slides` (vedi “aspose slides maven dependency” sotto)  
+- **Quale tipo di grafico viene usato?** `ChartType.PercentsStackedColumn` per un grafico a colonne impilate percentuali  
+- **Come modifico il formato numerico dell'asse?** Usa `IAxis.setNumberFormat()` e disabilita il collegamento alla sorgente  
+- **Posso personalizzare le etichette dei dati?** Sì – itera sugli oggetti `IChartDataPoint` e imposta un `ITextFrame` personalizzato  
+- **Come salvo il file?** Chiama `presentation.save("output.pptx", SaveFormat.Pptx)`
+
+## Che cos'è un grafico a colonne impilate?
+Un grafico a colonne impilate visualizza più serie di dati sovrapposte una sull'altra in colonne verticali. Quando utilizzi la variante **impilata percentuale**, ogni colonna totalizza sempre il 100 %, facilitando il confronto delle contribuzioni proporzionali tra le categorie.
+
+## Perché usare Aspose.Slides per Java?
+Aspose.Slides offre un'API pure‑Java che funziona su qualsiasi piattaforma senza la necessità di Microsoft Office installato. Fornisce un controllo dettagliato sugli oggetti grafico, supporta un'ampia gamma di formati e consente di generare presentazioni in modo programmatico—perfetto per report automatizzati o generazione di documenti lato server.
 
 ## Prerequisiti
-Prima di iniziare, assicurati di avere quanto segue:
-- **Kit di sviluppo Java (JDK):** Versione 8 o superiore.
-- **IDE:** Qualsiasi ambiente di sviluppo integrato come IntelliJ IDEA o Eclipse.
-- **Maven/Gradle:** Per gestire le dipendenze (facoltativo ma consigliato).
-- **Conoscenza di base di Java:** Familiarità con i concetti di programmazione Java.
+- **Java Development Kit (JDK):** 8 o superiore  
+- **IDE:** IntelliJ IDEA, Eclipse o qualsiasi editor compatibile con Java  
+- **Strumento di build:** Maven o Gradle (opzionale ma consigliato)  
+- **Conoscenza di base di Java** – dovresti sentirti a tuo agio con classi e metodi  
 
-## Impostazione di Aspose.Slides per Java
-Per iniziare, devi includere la libreria Aspose.Slides nel tuo progetto. Ecco come fare:
+## Configurazione di Aspose.Slides per Java
+Per iniziare, aggiungi la libreria Aspose.Slides al tuo progetto.
 
-**Esperto:**
-Aggiungi questa dipendenza al tuo `pom.xml` file:
+### Dipendenza Maven di Aspose Slides
+Aggiungi quanto segue al tuo `pom.xml` (questa è la **aspose slides maven dependency** di cui hai bisogno):
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -46,32 +67,35 @@ Aggiungi questa dipendenza al tuo `pom.xml` file:
 </dependency>
 ```
 
-**Gradle:**
-Includi questo nel tuo `build.gradle` file:
+### Alternativa Gradle
+Se preferisci Gradle, includi questa riga in `build.gradle`:
+
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Download diretto:**
-In alternativa, scaricare l'ultimo JAR da [Aspose.Slides per le versioni Java](https://releases.aspose.com/slides/java/).
+### Download diretto
+In alternativa, scarica l'ultimo JAR da [Aspose.Slides per Java releases](https://releases.aspose.com/slides/java/).
 
 ### Acquisizione della licenza
-Puoi iniziare con una prova gratuita per esplorare le funzionalità di Aspose.Slides. Per rimuovere le limitazioni della versione di valutazione, valuta la possibilità di acquistare una licenza temporanea o a pagamento.
-- **Prova gratuita:** Accedi a funzionalità limitate senza costi immediati.
-- **Licenza temporanea:** Richiedi tramite [Il sito di Aspose](https://purchase.aspose.com/temporary-license/).
-- **Acquistare:** Per l'accesso completo, visita la pagina di acquisto.
+Puoi iniziare con una prova gratuita per esplorare le funzionalità di Aspose.Slides. Per rimuovere le limitazioni di valutazione, considera l'ottenimento di una licenza temporanea o acquistata.
+
+- **Prova gratuita:** Accesso a funzionalità limitate senza costi immediati.  
+- **Licenza temporanea:** Richiedi tramite [sito di Aspose](https://purchase.aspose.com/temporary-license/).  
+- **Acquisto:** Visita la pagina di acquisto per l'accesso completo.
 
 ### Inizializzazione di base
-Ecco come inizializzare Aspose.Slides nella tua applicazione Java:
+Ecco un frammento minimo che mostra come creare un oggetto `Presentation`:
+
 ```java
 import com.aspose.slides.Presentation;
 
 public class InitializeAspose {
     public static void main(String[] args) {
-        // Crea un'istanza della classe Presentazione
+        // Create an instance of Presentation class
         Presentation presentation = new Presentation();
         
-        // Eseguire operazioni sull'oggetto di presentazione
+        // Perform operations on the presentation object
         System.out.println("Aspose.Slides initialized successfully.");
     }
 }
@@ -80,36 +104,36 @@ public class InitializeAspose {
 ## Guida all'implementazione
 
 ### Creazione di una presentazione e aggiunta di una diapositiva
-**Panoramica:**
-Inizia creando una presentazione semplice con una diapositiva iniziale. Questa sarà la base per ulteriori miglioramenti.
+**Panoramica:**  
+Innanzitutto, creeremo una presentazione vuota e verificheremo che esista una diapositiva.
 
-#### Passaggio 1: inizializzare l'oggetto di presentazione
+#### Passo 1: Inizializzare l'oggetto Presentation
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 
 public class CreatePresentation {
     public static void main(String[] args) throws Exception {
-        // Crea una nuova istanza di presentazione
+        // Create a new presentation instance
         Presentation presentation = new Presentation();
         
-        // Riferimento alla prima diapositiva (creata automaticamente)
+        // Reference to the first slide (auto-created)
         System.out.println("Slide count: " + presentation.getSlides().size());
     }
 }
 ```
 
-#### Passaggio 2: salva la presentazione
-```java
-// Salva la presentazione in un file
+#### Passo 2: Salvare la presentazione
+```
+// Save the presentation to a file
 presentation.save("YOUR_OUTPUT_DIRECTORY/CreatePresentation_out.pptx", SaveFormat.Pptx);
 ```
 
-### Aggiungere un grafico a colonne in pila percentuale a una diapositiva
-**Panoramica:**
-Arricchisci la tua diapositiva aggiungendo un grafico a colonne con percentuali in pila, che consente un facile confronto dei dati.
+### Aggiunta di un grafico a colonne impilate percentuali a una diapositiva
+**Panoramica:**  
+Ora inseriremo un **grafico a colonne impilate percentuali** nella prima diapositiva.
 
-#### Passaggio 1: inizializzare e accedere alla diapositiva
+#### Passo 1: Inizializzare e accedere alla diapositiva
 ```java
 import com.aspose.slides.ISlide;
 import com.aspose.slides.ChartType;
@@ -119,12 +143,12 @@ public class AddChartToSlide {
         Presentation presentation = new Presentation();
         ISlide slide = presentation.getSlides().get_Item(0);
         
-        // Procedi ad aggiungere il grafico nel passaggio successivo
+        // Proceed to add chart in the next step
     }
 }
 ```
 
-#### Passaggio 2: aggiungere il grafico alla diapositiva
+#### Passo 2: Aggiungere il grafico alla diapositiva
 ```java
 import com.aspose.slides.IChart;
 
@@ -132,11 +156,11 @@ IChart chart = slide.getShapes().addChart(
     ChartType.PercentsStackedColumn, 20, 20, 500, 400);
 ```
 
-### Personalizzazione del formato dei numeri degli assi del grafico
-**Panoramica:**
-Personalizza il formato numerico dell'asse verticale del grafico per migliorarne la leggibilità.
+### Personalizzazione del formato numerico dell'asse del grafico
+**Panoramica:**  
+Per una migliore leggibilità **modificheremo il formato dell'asse verticale** per mostrare le percentuali.
 
-#### Passaggio 1: aggiungere e accedere al grafico
+#### Passo 1: Aggiungere e accedere al grafico
 ```java
 public class CustomizeChartAxis {
     public static void main(String[] args) throws Exception {
@@ -149,7 +173,7 @@ public class CustomizeChartAxis {
 }
 ```
 
-#### Passaggio 2: imposta il formato numerico personalizzato
+#### Passo 2: Impostare il formato numerico personalizzato
 ```java
 import com.aspose.slides.IAxis;
 
@@ -159,10 +183,10 @@ verticalAxis.setNumberFormat("0.00%");
 ```
 
 ### Aggiunta di serie e punti dati al grafico
-**Panoramica:**
-Inserisci nel grafico serie di dati, rendendolo informativo e visivamente accattivante.
+**Panoramica:**  
+Popoleremo il grafico con serie di dati di esempio.
 
-#### Passaggio 1: inizializzare la presentazione e il grafico
+#### Passo 1: Inizializzare la presentazione e il grafico
 ```java
 import com.aspose.slides.IChartSeries;
 import com.aspose.slides.ChartDataWorkbook;
@@ -181,22 +205,22 @@ public class AddSeriesToChart {
 }
 ```
 
-#### Passaggio 2: aggiungere serie di dati
+#### Passo 2: Aggiungere le serie di dati
 ```java
-// Cancella le serie esistenti e aggiungine di nuove
+// Clear existing series and add new ones
 chart.getChartData().getSeries().clear();
 
 IChartSeries series1 = chart.getChartData().getSeries().add(
     workbook.getCell(defaultWorksheetIndex, 0, 1, "Reds"), chart.getType());
 series1.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 1, 1, 0.30));
-// Aggiungere altri punti dati secondo necessità
+// Add more data points as needed
 ```
 
-### Colore di riempimento della serie di formattazione
-**Panoramica:**
-Migliora l'estetica del tuo grafico formattando il colore di riempimento di ogni serie.
+### Formattazione del colore di riempimento delle serie
+**Panoramica:**  
+Assegna a ogni serie un colore distinto per rendere il grafico più leggibile.
 
-#### Passaggio 1: inizializzare e accedere al grafico
+#### Passo 1: Inizializzare e accedere al grafico
 ```java
 import java.awt.Color;
 import com.aspose.slides.FillType;
@@ -214,20 +238,20 @@ public class FormatSeriesFillColor {
 }
 ```
 
-#### Passaggio 2: imposta i colori di riempimento
+#### Passo 2: Impostare i colori di riempimento
 ```java
 IChartSeries series1 = chart.getChartData().getSeries().get_Item(0);
 series1.getFormat().getFill().setFillType(FillType.Solid);
 series1.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 
-// Ripetere per altre serie con colori diversi
+// Repeat for other series with different colors
 ```
 
-### Formattazione delle etichette dati
-**Panoramica:**
-Rendi più leggibili le etichette dei tuoi dati personalizzandone il formato.
+### Formattazione delle etichette dei dati
+**Panoramica:**  
+Ora **formatteremo le etichette dei dati del grafico** in modo che mostrino testo personalizzato.
 
-#### Passaggio 1: accedere alle serie di grafici e ai punti dati
+#### Passo 1: Accedere alle serie del grafico e ai punti dati
 ```java
 public class FormatDataLabels {
     public static void main(String[] args) throws Exception {
@@ -243,7 +267,7 @@ public class FormatDataLabels {
 }
 ```
 
-#### Passaggio 2: personalizzare le etichette dati
+#### Passo 2: Personalizzare le etichette dei dati
 ```java
 import com.aspose.slides.ITextFrame;
 import com.aspose.slides.IChartDataPoint;
@@ -258,10 +282,36 @@ for (IChartSeries series : chart.getChartData().getSeries()) {
 }
 ```
 
-## Conclusione
-Seguendo questa guida, hai imparato a configurare Aspose.Slides per Java e a creare presentazioni dinamiche con istogrammi a colonne con percentuali sovrapposte. Personalizza ulteriormente i tuoi grafici regolando colori ed etichette in base alle tue esigenze.
+## Problemi comuni e soluzioni
+- **Il grafico appare vuoto:** Assicurati di aver aggiunto almeno una serie di dati e un punto dati prima di salvare.  
+- **I numeri dell'asse non mostrano le percentuali:** Ricorda di impostare `verticalAxis.setNumberFormatLinkedToSource(false)`; altrimenti il formato personalizzato viene ignorato.  
+- **Messaggio di valutazione della licenza:** Applica un file di licenza valido prima di creare l'oggetto `Presentation` per sopprimere il banner di valutazione.
 
-Buona programmazione!
+## Domande frequenti
+
+**D: Posso usare questo codice con Java 11 o versioni successive?**  
+R: Sì. La libreria supporta JDK 8+; basta utilizzare il classificatore appropriato (ad es., `jdk16` per JDK 16 o versioni successive).
+
+**D: Come esportare il grafico come immagine anziché come PPTX?**  
+R: Usa `chart.getImage().save("chart.png", ImageFormat.Png);` dopo aver aggiunto il grafico alla diapositiva.
+
+**D: È possibile aggiungere una legenda al grafico a colonne impilate?**  
+R: Assolutamente. Chiama `chart.getChartTitle().addTextFrameForOverriding("My Chart");` e configura `chart.getLegend()` secondo necessità.
+
+**D: Cosa succede se devo aggiornare i dati dopo aver generato la presentazione?**  
+R: Puoi modificare le celle del `ChartDataWorkbook` e poi chiamare `chart.refresh();` per riflettere le modifiche.
+
+**D: Aspose.Slides funziona su server Linux?**  
+R: Sì. La libreria è pure Java e gira su qualsiasi OS con una JRE compatibile.
+
+## Conclusione
+Seguendo questa guida hai imparato a **creare presentazioni con grafici a colonne impilate** usando Aspose.Slides per Java, dalla configurazione dell'ambiente alla personalizzazione visiva avanzata. Sperimenta con diversi set di dati, colori e formati delle etichette per far risaltare davvero i tuoi report.
+
+---
+
+**Ultimo aggiornamento:** 2026-02-22  
+**Testato con:** Aspose.Slides 25.4 (classificatore jdk16)  
+**Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
