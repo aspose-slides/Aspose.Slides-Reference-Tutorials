@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-17"
-"description": "Scopri come creare e configurare presentazioni dinamiche con grafici in Java utilizzando Aspose.Slides. Impara ad aggiungere, personalizzare e salvare le presentazioni in modo efficace."
-"title": "Crea presentazioni Java con grafici utilizzando Aspose.Slides per Java"
-"url": "/it/java/charts-graphs/create-java-presentations-charts-aspose-slides/"
-"weight": 1
+date: '2026-03-20'
+description: Scopri come aggiungere grafici alle presentazioni Java usando Aspose.Slides
+  e genera rapidamente file di grafici per le presentazioni.
+keywords:
+- Java Presentations with Aspose.Slides
+- Create Charts in Java
+- Configure Presentation Data
+title: Come aggiungere un grafico alle presentazioni Java con Aspose.Slides
+url: /it/java/charts-graphs/create-java-presentations-charts-aspose-slides/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,35 +16,43 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Come creare e configurare una presentazione con un grafico utilizzando Aspose.Slides per Java
+# Come aggiungere un grafico a una presentazione usando Aspose.Slides per Java
 
 ## Introduzione
 
-Creare presentazioni dinamiche che trasmettano i dati in modo efficace è essenziale nell'attuale contesto aziendale in rapida evoluzione. Che si tratti di preparare un report finanziario o di presentare le metriche di un progetto, l'aggiunta di grafici può migliorare significativamente l'impatto della presentazione. Questo tutorial vi guiderà nella creazione e configurazione di una presentazione con un grafico a colonne impilate 3D utilizzando Aspose.Slides per Java, una potente libreria progettata per gestire le presentazioni a livello di codice.
+Creare presentazioni dinamiche che trasmettano efficacemente i dati è essenziale nell'attuale ambiente aziendale frenetico. Che tu stia preparando un rapporto finanziario, un deck di marketing o un aggiornamento sullo stato di un progetto, **sapere come aggiungere un grafico** alle tue diapositive può migliorare notevolmente il coinvolgimento del pubblico. In questo tutorial imparerai passo‑passo come aggiungere un grafico a colonne impilate 3D, configurarne i dati e salvare il file finale—tutto con Aspose.Slides per Java.
 
-**Cosa imparerai:**
-- Come creare una nuova presentazione
-- Aggiungere e configurare grafici nelle diapositive
-- Personalizza i dati e l'aspetto del grafico
-- Salva la tua presentazione in modo efficace
+### Risposte rapide
+- **Qual è la libreria principale?** Aspose.Slides per Java  
+- **Quale tipo di grafico è dimostrato?** Colonna impilata 3D  
+- **Posso generare file di grafici per presentazioni programmaticamente?** Sì, utilizzando i metodi API mostrati di seguito  
+- **Quale versione di Java è consigliata?** JDK 16 o successiva  
+- **È necessaria una licenza per la produzione?** È richiesta una licenza valida di Aspose.Slides per uso commerciale  
 
-Pronti a padroneggiare la creazione di presentazioni visivamente accattivanti con Java? Iniziamo!
+## Che cosa significa “come aggiungere un grafico” in Aspose.Slides?
+
+Aspose.Slides per Java fornisce un ricco insieme di oggetti che consentono di creare, modificare ed esportare file PowerPoint senza Microsoft Office. Aggiungere un grafico è semplice come creare un oggetto `Presentation`, inserire una forma grafico e alimentarla con i dati tramite il workbook integrato.
+
+## Perché aggiungere un grafico alle presentazioni Java?
+
+- **Impatto visivo:** I grafici trasformano numeri grezzi in visualizzazioni immediatamente comprensibili.  
+- **Automazione:** Genera report al volo—ideale per digest email programmati o dashboard.  
+- **Coerenza:** Usa lo stesso stile e branding in tutti i deck generati.  
+- **Portabilità:** Esporta in PPTX, PDF o immagini con una singola chiamata di metodo.
 
 ## Prerequisiti
 
-Prima di immergerti nel tutorial, assicurati di aver soddisfatto i seguenti prerequisiti:
+- **Librerie e dipendenze:** Aspose.Slides per Java deve essere installato.  
+- **Configurazione dell'ambiente:** Lavorare in un ambiente Java (JDK 16 o successivo consigliato).  
+- **Base di conoscenza:** Familiarità con i concetti di programmazione Java di base sarà utile.
 
-- **Librerie e dipendenze**: Deve essere installato Aspose.Slides per Java.
-- **Configurazione dell'ambiente**: Lavora in un ambiente Java (consigliato JDK 16 o versione successiva).
-- **Base di conoscenza**: Sarà utile avere familiarità con i concetti base della programmazione Java.
-
-## Impostazione di Aspose.Slides per Java
+## Configurazione di Aspose.Slides per Java
 
 ### Installazione
 
-Per integrare Aspose.Slides nel tuo progetto, segui questi passaggi:
+Per integrare Aspose.Slides nel tuo progetto, segui una delle opzioni seguenti.
 
-**Esperto**
+**Maven**
 
 ```xml
 <dependency>
@@ -56,38 +69,38 @@ Per integrare Aspose.Slides nel tuo progetto, segui questi passaggi:
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Download diretto**: In alternativa, scarica l'ultima versione da [Aspose.Slides per le versioni Java](https://releases.aspose.com/slides/java/).
+**Download diretto**: In alternativa, scarica l'ultima versione da [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 ### Acquisizione della licenza
-- **Prova gratuita**: Inizia con una prova gratuita per esplorare le funzionalità.
-- **Licenza temporanea**: Ottieni una licenza temporanea per test più lunghi.
-- **Acquistare**: Acquisisci una licenza completa per uso commerciale.
+- **Prova gratuita:** Inizia con una prova gratuita per esplorare le funzionalità.  
+- **Licenza temporanea:** Ottieni una licenza temporanea per test più estesi.  
+- **Acquisto:** Acquista una licenza completa per uso commerciale.
 
-Una volta installata, inizializza la libreria nel tuo ambiente Java creando un'istanza di `Presentation` classe. Questo getta le basi per aggiungere grafici e altri elementi alla tua presentazione.
+Una volta installato, puoi istanziare la classe `Presentation`, che funge da punto di ingresso per tutte le operazioni relative ai grafici.
 
 ## Guida all'implementazione
 
-### Creare e configurare una presentazione con un grafico
+### Come aggiungere un grafico a una presentazione con una colonna impilata 3D
 
 #### Panoramica
-Creare una presentazione da zero è semplicissimo con Aspose.Slides. In questa sezione, aggiungeremo un grafico a colonne impilate 3D alla prima diapositiva della nostra presentazione.
+Creare una presentazione da zero è semplice con Aspose.Slides. In questa sezione aggiungeremo un grafico a colonne impilate 3D alla prima diapositiva della nostra presentazione.
 
 **Passaggi:**
 
-1. **Inizializza l'oggetto di presentazione**
+1. **Inizializzare l'oggetto Presentation**
 
    ```java
    import com.aspose.slides.*;
 
    public class ChartPresentation {
        public static void main(String[] args) {
-           // Inizializza un nuovo oggetto Presentazione
+           // Initialize a new Presentation object
            Presentation presentation = new Presentation();
            
-           // Accedi alla prima diapositiva della presentazione
+           // Access the first slide in the presentation
            ISlide slide = presentation.getSlides().get_Item(0);
            
-           // Aggiungere un grafico a colonne impilate 3D alla diapositiva nella posizione (0,0)
+           // Add a 3D stacked column chart to the slide at position (0,0)
            IChart chart = slide.getShapes().addChart(
                ChartType.StackedColumn3D, 0, 0, 500, 500
            );
@@ -101,28 +114,28 @@ Creare una presentazione da zero è semplicissimo con Aspose.Slides. In questa s
    }
    ```
 
-2. **Spiega i parametri**:
-   - `ChartType.StackedColumn3D`: Specifica il tipo di grafico.
-   - Posizione e dimensione `(0, 0, 500, 500)`: Determina dove appare il grafico nella diapositiva.
+2. **Spiegare i parametri**  
+   - `ChartType.StackedColumn3D`: Specifica il tipo di grafico.  
+   - Posizione e dimensione `(0, 0, 500, 500)`: Determina dove il grafico appare sulla diapositiva.
 
-### Configura i dati del grafico
+### Configurare i dati del grafico
 
 #### Panoramica
-Per rendere il tuo grafico significativo, configura le serie di dati e le categorie. Questa sezione illustra come aggiungere punti dati specifici al grafico.
+Per rendere il grafico significativo, configura le serie di dati e le categorie. Questa sezione dimostra come aggiungere punti dati specifici al tuo grafico.
 
 **Passaggi:**
 
-1. **Cartella di lavoro dati di Access Chart**
+1. **Accedere al workbook dei dati del grafico**
 
    ```java
    public static void configureChartData(IChart chart) {
-       // Imposta l'indice del foglio di lavoro che contiene i dati del grafico
+       // Set the index of the worksheet that contains chart data
        int defaultWorksheetIndex = 0;
        
-       // Accedi alla cartella di lavoro dei dati del grafico
+       // Access the chart's data workbook
        IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
        
-       // Aggiungi due serie con nomi
+       // Add two series with names
        chart.getChartData().getSeries().add(
            fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), 
            chart.getType()
@@ -132,17 +145,17 @@ Per rendere il tuo grafico significativo, configura le serie di dati e le catego
            chart.getType()
        );
        
-       // Aggiungi tre categorie
+       // Add three categories
        chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 1, 0, "Category 1"));
        chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 0, "Category 2"));
        chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Category 3"));
    }
    ```
 
-### Imposta le proprietà di Rotation3D per il grafico
+### Impostare le proprietà Rotation3D per il grafico
 
 #### Panoramica
-Migliora l'aspetto visivo del tuo grafico con le proprietà di rotazione 3D. Questa personalizzazione ti consente di regolare la prospettiva e la profondità.
+Migliora l'appeal visivo del tuo grafico con le proprietà di rotazione 3D. Questa personalizzazione ti permette di regolare la prospettiva e la profondità.
 
 **Passaggi:**
 
@@ -150,7 +163,7 @@ Migliora l'aspetto visivo del tuo grafico con le proprietà di rotazione 3D. Que
 
    ```java
    public static void setRotation3D(IChart chart) {
-       // Abilita gli assi ad angolo retto e configura le rotazioni nelle direzioni X, Y e la percentuale di profondità
+       // Enable right angle axes and configure rotations in X, Y directions, and depth percent
        chart.getRotation3D().setRightAngleAxes(true);
        chart.getRotation3D().setRotationX((byte) 40);
        chart.getRotation3D().setRotationY(270);
@@ -158,25 +171,25 @@ Migliora l'aspetto visivo del tuo grafico con le proprietà di rotazione 3D. Que
    }
    ```
 
-2. **Spiega i parametri**:
-   - `setRightAngleAxes(true)`: Garantisce che gli assi siano perpendicolari.
-   - Valori di rotazione: regolano l'angolazione e la profondità della vista 3D.
+2. **Spiegare i parametri**  
+   - `setRightAngleAxes(true)`: Garantisce che gli assi siano perpendicolari.  
+   - Valori di rotazione: Regola l'angolo e la profondità della vista 3D.
 
-### Popola i dati della serie nel grafico
+### Popolare i dati della serie nel grafico
 
 #### Panoramica
-Riempire il grafico con punti dati è fondamentale per l'analisi. Qui aggiungeremo valori specifici a una serie all'interno del nostro grafico.
+Popolare il grafico con punti dati è fondamentale per l'analisi. Qui aggiungeremo valori specifici a una serie all'interno del grafico.
 
 **Passaggi:**
 
-1. **Aggiungi punti dati**
+1. **Aggiungere punti dati**
 
    ```java
    public static void populateSeriesData(IChart chart) {
-       // Accedi alla seconda serie di grafici
+       // Access the second chart series
        IChartSeries series = chart.getChartData().getSeries().get_Item(1);
        
-       // Aggiungi punti dati per serie di barre con valori specificati
+       // Add data points for bar series with specified values
        int defaultWorksheetIndex = 0;
        IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
        
@@ -189,46 +202,71 @@ Riempire il grafico con punti dati è fondamentale per l'analisi. Qui aggiungere
    }
    ```
 
-### Regola la sovrapposizione delle serie nel grafico
+### Regolare la sovrapposizione delle serie nel grafico
 
 #### Panoramica
-Ottimizzare l'aspetto del grafico può migliorarne la leggibilità. Questa sezione illustra come regolare la proprietà di sovrapposizione per una migliore visualizzazione dei dati.
+Affinare l'aspetto del grafico può migliorare la leggibilità. Questa sezione spiega come regolare la proprietà di sovrapposizione per una migliore visualizzazione dei dati.
 
 **Passaggi:**
 
-1. **Imposta sovrapposizione serie**
+1. **Impostare la sovrapposizione delle serie**
 
    ```java
    public static void setSeriesOverlap(IChart chart) {
-       // Prendi la seconda serie dal grafico e imposta la sua sovrapposizione su 100
+       // Get the second series from the chart and set its overlap to 100
        IChartSeries series = chart.getChartData().getSeries().get_Item(1);
        
        series.getParentSeriesGroup().setOverlap((byte) 100);
    }
    ```
 
-### Salva presentazione
+### Salvare la presentazione
 
 #### Panoramica
-Una volta configurata la presentazione, salvala su disco nel formato desiderato. Questo passaggio garantisce che tutte le modifiche vengano mantenute.
+Una volta configurata la presentazione, salvala su disco nel formato desiderato. Questo passaggio assicura che tutte le modifiche siano preservate.
 
 **Passaggi:**
 
-1. **Salva la presentazione**
+1. **Salvare la presentazione**
 
    ```java
    public static void savePresentation(Presentation presentation) {
-       // Salva la presentazione modificata in un file
+       // Save the modified presentation to a file
        String outputFilePath = "output_presentation.pptx";
        presentation.save(outputFilePath, SaveFormat.Pptx);
    }
    ```
 
+## Problemi comuni e soluzioni
+
+| Problema | Causa | Soluzione |
+|----------|-------|-----------|
+| **Il grafico appare piatto** | Rotazione 3D non impostata | Chiamare `setRotation3D` con i valori X/Y appropriati. |
+| **I dati non vengono visualizzati** | Le celle del workbook non sono collegate | Assicurarsi che `fact.getCell` faccia riferimento agli indici di riga/colonna corretti. |
+| **File non salvato** | Percorso errato o permessi mancanti | Verificare che `outputFilePath` sia scrivibile e che la cartella esista. |
+
+## Domande frequenti
+
+**D: Posso generare file di grafici per presentazioni in formati diversi da PPTX?**  
+R: Sì, Aspose.Slides supporta PDF, ODP e formati immagine tramite l'enumerazione `SaveFormat`.
+
+**D: È necessaria una licenza per eseguire il codice in sviluppo?**  
+R: Una licenza temporanea o di valutazione è sufficiente per lo sviluppo, ma è richiesta una licenza completa per le distribuzioni in produzione.
+
+**D: È possibile aggiungere più grafici alla stessa diapositiva?**  
+R: Assolutamente. Chiama `slide.getShapes().addChart` più volte con posizioni o dimensioni diverse.
+
+**D: Come posso modificare la palette di colori del grafico?**  
+R: Usa `chart.getChartData().getSeries().get_Item(i).getFormat().getFill().setFillType(FillType.Solid)` e imposta un `SolidFillColor`.
+
+**D: Posso collegare il grafico a una fonte dati esterna, come un database?**  
+R: Sì. Recupera i dati con JDBC, quindi popola le celle del workbook programmaticamente prima del salvataggio.
+
 ## Conclusione
 
-Ora hai imparato a creare e configurare presentazioni con grafici utilizzando Aspose.Slides per Java. Questa guida ha trattato l'inizializzazione di una presentazione, l'aggiunta di un grafico a colonne impilate 3D, la configurazione di serie di dati e categorie, l'impostazione delle proprietà di rotazione, il popolamento dei dati delle serie, la regolazione della sovrapposizione delle serie e il salvataggio della presentazione finale.
+Hai ora appreso **come aggiungere un grafico** a una presentazione Java, configurarne i dati, personalizzare la rotazione 3D, regolare la sovrapposizione delle serie e salvare il file finale. Questa conoscenza ti consente di automatizzare la generazione di report, creare un branding coerente e fornire presentazioni basate sui dati senza sforzi manuali. Per personalizzazioni più approfondite—come lo stile delle legende, degli assi o l'applicazione di temi—esplora le funzionalità complete nella documentazione ufficiale.
 
-Per funzionalità più avanzate e opzioni di personalizzazione, fare riferimento a [Documentazione di Aspose.Slides per Java](https://docs.aspose.com/slides/java/).
+Per funzionalità avanzate e opzioni di personalizzazione, consulta la [documentazione di Aspose.Slides per Java](https://docs.aspose.com/slides/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -237,3 +275,9 @@ Per funzionalità più avanzate e opzioni di personalizzazione, fare riferimento
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ultimo aggiornamento:** 2026-03-20  
+**Testato con:** Aspose.Slides per Java 25.4 (JDK 16)  
+**Autore:** Aspose

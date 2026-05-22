@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-17"
-"description": "Scopri come creare e personalizzare grafici a colonne raggruppate in PowerPoint utilizzando Aspose.Slides per Java. Migliora le tue presentazioni con una visualizzazione chiara dei dati."
-"title": "Creazione di grafici a colonne raggruppate in PowerPoint utilizzando Aspose.Slides per Java"
-"url": "/it/java/charts-graphs/create-grouped-column-chart-aspose-slides-java/"
-"weight": 1
+date: '2026-03-20'
+description: Scopri come aggiungere un grafico a colonne raggruppate a una presentazione
+  PowerPoint, personalizzare il grafico PowerPoint e inserire un grafico a serie di
+  dati usando Aspose.Slides per Java.
+keywords:
+- Grouped Column Chart
+- Aspose.Slides for Java
+- PowerPoint Presentation
+title: Come aggiungere un grafico a colonne raggruppate in PowerPoint usando Aspose.Slides
+  per Java
+url: /it/java/charts-graphs/create-grouped-column-chart-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,33 +18,51 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Creazione di grafici a colonne raggruppate in PowerPoint utilizzando Aspose.Slides per Java
+# Come aggiungere un grafico a colonne raggruppate in PowerPoint usando Aspose.Slides per Java
 
 ## Introduzione
 
-Nella presentazione dei dati, le rappresentazioni visive spesso trasmettono le informazioni in modo più efficace rispetto ai soli numeri. Tuttavia, creare grafici visivamente accattivanti e informativi può essere complicato senza gli strumenti giusti. **Aspose.Slides per Java** semplifica questo processo, consentendo di aggiungere senza sforzo un grafico a colonne raggruppate a una presentazione PowerPoint.
+Quando è necessario **aggiungere un grafico a colonne raggruppate** a una presentazione PowerPoint, un’immagine chiara può trasformare numeri grezzi in una storia immediatamente comprensibile. Farlo manualmente in PowerPoint può richiedere molto tempo, soprattutto quando si devono generare molte diapositive in modo programmatico. **Aspose.Slides per Java** elimina l’ostacolo: consente di creare, personalizzare un grafico PowerPoint e inserire una serie di dati con poche righe di codice.
 
-In questo tutorial imparerai come:
-- Inizializza una nuova presentazione PowerPoint con Aspose.Slides per Java.
-- Aggiungi e personalizza grafici a colonne raggruppate nelle diapositive.
-- Raggruppa le categorie all'interno del grafico per una visualizzazione migliore.
-- Inserisci efficacemente serie di dati nel tuo grafico.
-- Salva la presentazione in formato PPTX.
+In questo tutorial imparerai a:
+- Inizializzare una nuova presentazione PowerPoint con Aspose.Slides per Java.
+- **Aggiungere un grafico alla diapositiva** e configurarlo come grafico a colonne raggruppate.
+- **Creare un grafico a colonne raggruppate** definendo i livelli di raggruppamento per le categorie.
+- **Inserire una serie di dati** in modo che i dati vengano visualizzati correttamente.
+- Salvare la presentazione finale come file PPTX.
 
-Cominciamo esaminando i prerequisiti necessari prima di iniziare a scrivere il codice!
+Assicuriamoci di avere tutto il necessario prima di immergerci nel codice.
+
+## Risposte rapide
+- **Qual è la classe principale?** `Presentation` da `com.aspose.slides`.
+- **Quale tipo di grafico viene utilizzato?** `ChartType.ClusteredColumn`.
+- **È necessaria una licenza per i test?** Una versione di prova gratuita funziona, ma una licenza rimuove i limiti di valutazione.
+- **Quale versione di Java è supportata?** JDK 16 o successiva (l’esempio utilizza JDK 16).
+- **Come eseguire il campione?** Aggiungere la dipendenza Maven/Gradle, compilare ed eseguire il metodo `main`.
+
+## Cos’è “aggiungere un grafico a colonne raggruppate”?
+
+Un *grafico a colonne raggruppate* (chiamato anche grafico a colonne raggruppate) visualizza più serie di dati affiancate per ciascuna categoria, facilitando il confronto dei valori tra gruppi. In PowerPoint questo tipo di grafico è ideale per vendite trimestrali, **risultati di sondaggi** o qualsiasi scenario in cui è necessario **confrontare più set di dati** all’interno della stessa categoria.
+
+## Perché usare Aspose.Slides per aggiungere un grafico a colonne raggruppate?
+
+- **Automazione completa** – genera decine di diapositive senza sforzo manuale.
+- **Personalizzazione fine‑grained** – controlla colori, etichette, livelli di raggruppamento e **altro**.
+- **Cross‑platform** – funziona su qualsiasi OS che supporti Java.
+- **Nessuna installazione di Office richiesta** – genera file PPTX su server o pipeline CI.
 
 ## Prerequisiti
 
-Prima di iniziare, assicurati di avere:
-- **Aspose.Slides per Java** libreria installata. Questo tutorial utilizza la versione 25.4 con JDK16.
-- Una conoscenza di base della programmazione Java e familiarità con gli strumenti di compilazione Maven o Gradle.
-- Un IDE configurato per eseguire applicazioni Java.
+- Libreria **Aspose.Slides per Java** (si consiglia l’ultima versione).  
+- JDK 16 o successiva.  
+- Strumento di build Maven o Gradle (oppure è possibile aggiungere il JAR manualmente).  
+- Un IDE **o** un editor di testo per eseguire il codice Java.
 
-## Impostazione di Aspose.Slides per Java
+## Configurazione di Aspose.Slides per Java
 
-Per integrare la libreria Aspose.Slides nel tuo progetto Java, segui questi passaggi utilizzando Maven o Gradle:
+Aggiungi la libreria al tuo progetto usando uno dei seguenti script di build.
 
-**Esperto**
+**Maven**
 
 ```xml
 <dependency>
@@ -54,146 +79,134 @@ Per integrare la libreria Aspose.Slides nel tuo progetto Java, segui questi pass
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-In alternativa, puoi scaricare direttamente l'ultima versione da [Aspose.Slides per le versioni Java](https://releases.aspose.com/slides/java/).
+In alternativa, puoi scaricare direttamente l’ultima release da [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 ### Acquisizione della licenza
 
-Prima di utilizzare Aspose.Slides, valuta la possibilità di ottenere una licenza:
-- Inizia con un **prova gratuita** per testarne le caratteristiche.
-- Richiedi un **licenza temporanea** se vuoi valutare più funzionalità senza limitazioni.
-- Acquista una licenza completa per l'uso in produzione da [Pagina di acquisto di Aspose](https://purchase.aspose.com/buy).
+Prima di distribuire in produzione, ottieni una licenza:
+- **Prova gratuita** – esplora tutte le funzionalità senza acquisto.
+- **Licenza temporanea** – valuta capacità estese per un breve periodo.
+- **Licenza completa** – sblocca l’uso illimitato. Ottienila dalla [pagina di acquisto di Aspose](https://purchase.aspose.com/buy).
 
-## Guida all'implementazione
+## Guida all’implementazione
 
-Suddivideremo il processo in passaggi logici, concentrandoci sulle funzionalità specifiche di Aspose.Slides.
+Percorreremo ogni passaggio, spiegando **come aggiungere il grafico** e **personalizzare il grafico PowerPoint** lungo il percorso.
 
-### Inizializza la presentazione
+### Inizializzare la presentazione
 
-Inizia creando un'istanza di `Presentation` classe:
+Crea un nuovo oggetto `Presentation` e recupera la diapositiva predefinita.
 
 ```java
 import com.aspose.slides.*;
 
-// Funzionalità: Inizializza la presentazione
+// Feature: Initialize Presentation
 Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
 ```
 
-Qui, avviamo una nuova presentazione e selezioniamo la prima diapositiva. Questa funge da tela per aggiungere grafici.
+### Aggiungere il grafico alla diapositiva
 
-### Aggiungi grafico alla diapositiva
-
-Successivamente, aggiungi un grafico a colonne raggruppate alla diapositiva selezionata:
+Ora **aggiungiamo il grafico alla diapositiva** usando il tipo `ClusteredColumn` e cancelliamo eventuali dati predefiniti.
 
 ```java
-// Funzionalità: aggiungi grafico alla diapositiva
+// Feature: Add Chart to Slide
 IChart ch = pres.getSlides().get_Item(0).getShapes().addChart(
     ChartType.ClusteredColumn, 100, 100, 600, 450);
 ch.getChartData().getSeries().clear();
 ch.getChartData().getCategories().clear();
 ```
 
-Questo frammento crea un grafico di tipo `ClusteredColumn` Con le dimensioni specificate, la posiziona sulla diapositiva. Cancella anche eventuali serie o categorie esistenti per ricominciare da capo.
+### Preparare il workbook dei dati del grafico
 
-### Preparare la cartella di lavoro dei dati del grafico
-
-Per gestire i dati del grafico, prepara una cartella di lavoro:
+Il grafico memorizza i dati in un workbook interno. Lo cancelliamo per partire da zero.
 
 ```java
-// Funzionalità: Prepara cartella di lavoro dati grafico
+// Feature: Prepare Chart Data Workbook
 IChartDataWorkbook fact = ch.getChartData().getChartDataWorkbook();
 fact.clear(0);
 int defaultWorksheetIndex = 0;
 ```
 
-IL `IChartDataWorkbook` L'oggetto funge da contenitore di dati per il grafico, consentendo di manipolare i punti dati in modo efficace.
+### Aggiungere categorie con livelli di raggruppamento
 
-### Aggiungi categorie con livelli di raggruppamento
-
-Raggruppare le categorie aiuta a organizzare i dati in modo significativo. Ecco come:
+Raggruppare le categorie crea l’effetto del **grafico a colonne raggruppate**. Ogni categoria può appartenere a un gruppo logico.
 
 ```java
-// Funzionalità: aggiungi categorie con livelli di raggruppamento
+// Feature: Add Categories with Grouping Levels
 IChartCategory category = ch.getChartData().getCategories().add(
     fact.getCell(0, "c2", "A"));
 category.getGroupingLevels().setGroupingItem(1, "Group1");
 
 category = ch.getChartData().getCategories().add(fact.getCell(0, "c3", "B"));
-// Ripetere per altre categorie
+// Repeat for other categories
 ```
 
-A ogni categoria viene assegnato uno specifico livello di raggruppamento. Questo consente di definire raggruppamenti logici all'interno del grafico.
+### Aggiungere serie di dati al grafico
 
-### Aggiungi serie di dati al grafico
-
-Per visualizzare i dati, aggiungi serie al grafico:
+Qui **inseriamo le serie di dati** che verranno visualizzate come colonne separate.
 
 ```java
-// Funzionalità: aggiungi serie di dati al grafico
+// Feature: Add Data Series to Chart
 IChartSeries series = ch.getChartData().getSeries().add(
     fact.getCell(0, "D1", "Series 1"), ChartType.ClusteredColumn);
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, "D2", 10));
-// Continua ad aggiungere punti dati
+// Continue adding data points
 ```
 
-IL `IChartSeries` L'oggetto viene utilizzato per aggiungere una serie di punti dati, che rappresentano i dati effettivi nel grafico.
+### Salvare la presentazione con il grafico
 
-### Salva presentazione con grafico
-
-Infine, salva la presentazione:
+Infine, scrivi il file PPTX su disco.
 
 ```java
-// Funzionalità: salva la presentazione con il grafico
+// Feature: Save Presentation with Chart
 pres.save("YOUR_OUTPUT_DIRECTORY/AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
 
-Questo passaggio scrive tutte le modifiche in un file PPTX nella directory specificata.
-
 ## Applicazioni pratiche
 
-Ecco alcuni scenari reali in cui i grafici raggruppati possono rivelarsi utili:
-- **Rapporti aziendali**: Utilizza grafici a colonne raggruppate per confrontare i dati delle vendite trimestrali in diverse regioni.
-- **Ricerca accademica**: Visualizza i risultati sperimentali raggruppandoli in base alle condizioni del test.
-- **Gestione del progetto**: Monitora i tassi di completamento delle attività tra più team in un'unica vista.
+- **Report aziendali** – confronta i ricavi trimestrali tra regioni.  
+- **Ricerca accademica** – mostra risultati sperimentali raggruppati per condizioni di test.  
+- **Gestione progetti** – visualizza i tassi di completamento delle attività per più team in un’unica diapositiva.
 
 ## Considerazioni sulle prestazioni
 
-Per garantire che la tua applicazione funzioni in modo efficiente, tieni in considerazione questi suggerimenti:
-- Ottimizza l'utilizzo della memoria gestendo con attenzione i set di dati di grandi dimensioni.
-- Evitare operazioni non necessarie all'interno dei cicli quando si manipolano i dati di un grafico.
-- Per prestazioni migliori, utilizza le funzionalità di ottimizzazione integrate di Aspose.Slides.
+- **Gestione della memoria** – rilascia i workbook di grandi dimensioni dopo l’uso.  
+- **Operazioni batch** – evita di aggiornare il grafico all’interno di loop stretti; raccogli i dati prima, poi applicali.  
+- **Ottimizzazioni integrate** – Aspose.Slides fornisce metodi come `Presentation.optimize()` per file di grandi dimensioni.
 
-## Conclusione
+## Errori comuni e suggerimenti
 
-Seguendo questa guida, hai imparato a creare e personalizzare un grafico a colonne raggruppate in PowerPoint utilizzando Aspose.Slides per Java. Questa competenza ti aiuterà a presentare dati complessi in modo chiaro ed efficace. Approfondisci l'argomento sperimentando diversi tipi e configurazioni di grafici.
+- **Errore:** dimenticare di cancellare le serie/categorie esistenti può provocare dati duplicati.  
+  **Suggerimento:** chiama sempre `clear()` prima di popolare nuovi dati.  
+- **Errore:** usare l’indirizzo di cella sbagliato (ad es., `"c2"` invece di `"C2"`).  
+  **Suggerimento:** i riferimenti alle celle non distinguono maiuscole/minuscole, ma mantienili coerenti per leggibilità.  
+- **Suggerimento:** usa `setGroupingItem` per creare etichette di gruppo significative; appaiono automaticamente nella legenda del grafico.
 
-Pronti a portare le vostre presentazioni a un livello superiore? Provate a mettere in pratica queste tecniche e vedrete la differenza!
+## Domande frequenti
 
-## Sezione FAQ
+**D1: Come posso aggiungere più serie al mio grafico?**  
+R1: Chiama ripetutamente `ch.getChartData().getSeries().add()`, fornendo un nome univoco e i punti dati per ciascuna serie.
 
-**D1: Come posso aggiungere più serie al mio grafico?**
-A1: Puoi chiamare `getSeries().add()` più volte, ogni volta specificando una serie di dati diversa.
+**D2: Quali sono i problemi più comuni con i grafici Aspose.Slides?**  
+R2: I problemi derivano spesso da intervalli di dati non corrispondenti o celle del workbook mancanti. Verifica che ogni categoria e punto dati abbia una cella corrispondente.
 
-**D2: Quali sono alcuni problemi comuni con i grafici Aspose.Slides?**
-R2: Problemi comuni includono un allineamento errato dei dati o errori di formattazione. Assicurati che la cartella di lavoro dei dati sia impostata correttamente e controlla le proprietà del grafico per eventuali modifiche.
+**D3: Posso usare Aspose.Slides con altri linguaggi di programmazione?**  
+R3: Sì, Aspose fornisce librerie equivalenti per .NET, C++, Python e altri.
 
-**D3: Posso usare Aspose.Slides con altri linguaggi di programmazione?**
-A3: Sì, Aspose offre librerie simili per .NET, C++, Python, tra gli altri.
+**D4: Come aggiorno un grafico esistente in una presentazione?**  
+R4: Carica la presentazione, individua il grafico tramite `slide.getShapes().get_Item(index)`, quindi modifica le sue serie o la formattazione secondo necessità.
 
-**D4: Come posso aggiornare i grafici esistenti in una presentazione?**
-A4: Carica la presentazione e accedi alla diapositiva desiderata. Utilizza i metodi di manipolazione dei grafici per modificare i dati o l'aspetto secondo necessità.
-
-**D5: Ci sono limitazioni sui tipi di grafici con Aspose.Slides?**
-A5: Sebbene Aspose.Slides supporti molti tipi di grafici, controlla sempre la documentazione più aggiornata per eventuali aggiornamenti o modifiche alle funzionalità supportate.
+**D5: Ci sono limitazioni sui tipi di grafico con Aspose.Slides?**  
+R5: La libreria supporta un’ampia gamma di tipi di grafico, ma controlla sempre la documentazione più recente per eventuali tipi aggiunti o deprecati.
 
 ## Risorse
 
-- **Documentazione**: [Riferimento Aspose.Slides](https://reference.aspose.com/slides/java/)
-- **Scaricamento**: [Ultime uscite](https://releases.aspose.com/slides/java/)
-- **Acquistare**: [Acquista Aspose.Slides](https://purchase.aspose.com/buy)
-- **Prova gratuita**: [Inizia la tua prova gratuita](https://releases.aspose.com/slides/java/)
-- **Licenza temporanea**: [Richiedi una licenza temporanea](https://purchase.aspose.com/temporary-license/)
-- **Forum di supporto**: [Supporto Aspose](https://forum.aspose.com/c/slides/11)
+- **Documentazione**: [Aspose.Slides Reference](https://reference.aspose.com/slides/java/)
+- **Download**: [Latest Releases](https://releases.aspose.com/slides/java/)
+- **Acquisto**: [Buy Aspose.Slides](https://purchase.aspose.com/buy)
+- **Prova gratuita**: [Start Your Free Trial](https://releases.aspose.com/slides/java/)
+- **Licenza temporanea**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
+- **Forum di supporto**: [Aspose Support](https://forum.aspose.com/c/slides/11)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -202,3 +215,9 @@ A5: Sebbene Aspose.Slides supporti molti tipi di grafici, controlla sempre la do
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ultimo aggiornamento:** 2026-03-20  
+**Testato con:** Aspose.Slides per Java 25.4 (JDK 16)  
+**Autore:** Aspose
