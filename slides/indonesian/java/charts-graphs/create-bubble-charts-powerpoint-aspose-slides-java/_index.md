@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-17"
-"description": "Pelajari cara membuat dan mengonfigurasi bagan gelembung di PowerPoint menggunakan Aspose.Slides untuk Java dengan panduan langkah demi langkah ini. Sempurnakan presentasi Anda dengan visualisasi data yang dinamis."
-"title": "Cara Membuat Bagan Gelembung di PowerPoint Menggunakan Aspose.Slides untuk Java (Tutorial)"
-"url": "/id/java/charts-graphs/create-bubble-charts-powerpoint-aspose-slides-java/"
-"weight": 1
+date: '2026-03-26'
+description: Pelajari cara membuat diagram gelembung di PowerPoint dengan Aspose.Slides
+  untuk Java. Panduan langkah demi langkah ini menunjukkan cara menambahkan diagram
+  ke slide, menyimpan presentasi PowerPoint PPTX, dan mengelola sumber daya PowerPoint.
+keywords:
+- bubble charts PowerPoint
+- Aspose.Slides for Java tutorial
+- create bubble chart in PowerPoint using Java
+title: Cara Membuat Grafik Gelembung di PowerPoint Menggunakan Aspose.Slides untuk
+  Java (Tutorial)
+url: /id/java/charts-graphs/create-bubble-charts-powerpoint-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,30 +18,37 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Cara Membuat Bagan Gelembung di PowerPoint Menggunakan Aspose.Slides untuk Java
+# Cara Membuat Diagram Bubble di PowerPoint Menggunakan Aspose.Slides untuk Java
 
-## Perkenalan
-Membuat presentasi yang menarik secara visual sering kali menjadi tantangan, terutama jika melibatkan visualisasi data dinamis seperti bagan gelembung. Jika Anda ingin menyempurnakan slide PowerPoint Anda dengan bagan gelembung yang interaktif dan informatif menggunakan Java, maka tutorial ini cocok untuk Anda! Di sini, kita akan membahas cara memanfaatkan Aspose.Slides untuk Java untuk mengintegrasikan bagan gelembung ke dalam presentasi Anda dengan lancar.
+## Introduction
+Membuat presentasi yang menarik secara visual seringkali menjadi tantangan, terutama ketika melibatkan visualisasi data dinamis seperti diagram bubble. Jika Anda mencari **how to create bubble chart** di PowerPoint menggunakan Java, maka tutorial ini untuk Anda! Di sini, kami akan membahas cara memanfaatkan Aspose.Slides untuk Java untuk secara mulus **add chart to slide**, mengkonfigurasinya, dan akhirnya **save PowerPoint presentation PPTX** sambil secara efisien **manage PowerPoint resources**.
 
-**Apa yang Akan Anda Pelajari:**
-- Cara mengatur Aspose.Slides untuk Java
-- Panduan langkah demi langkah tentang membuat dan mengonfigurasi diagram gelembung di PowerPoint
+**What You'll Learn:**
+- Cara menyiapkan Aspose.Slides untuk Java
+- Panduan langkah‑demi‑langkah untuk membuat dan mengkonfigurasi diagram bubble di PowerPoint
 - Praktik terbaik untuk mengelola sumber daya presentasi
 
 Mari kita mulai dengan menyiapkan alat dan pustaka yang diperlukan.
 
-## Prasyarat
-Sebelum terjun ke implementasi, pastikan Anda telah memenuhi prasyarat berikut:
+## Quick Answers
+- **What library do I need?** Aspose.Slides for Java → **Perpustakaan apa yang saya butuhkan?** Aspose.Slides for Java
+- **Which Java version is required?** JDK 16 or higher → **Versi Java mana yang diperlukan?** JDK 16 atau lebih tinggi
+- **How do I add a bubble chart?** Use `addChart(ChartType.Bubble, …)` on a slide → **Bagaimana cara menambahkan diagram bubble?** Gunakan `addChart(ChartType.Bubble, …)` pada slide
+- **Can I change bubble size?** Yes, via `setBubbleSizeScale()` → **Apakah saya dapat mengubah ukuran bubble?** Ya, melalui `setBubbleSizeScale()`
+- **How do I save the file?** Call `pres.save("Result.pptx", SaveFormat.Pptx)` → **Bagaimana cara menyimpan file?** Panggil `pres.save("Result.pptx", SaveFormat.Pptx)`
 
-- **Perpustakaan dan Ketergantungan**: Anda memerlukan Aspose.Slides untuk Java. Pastikan untuk menyertakannya dalam dependensi proyek Anda.
-- **Pengaturan Lingkungan**Pastikan lingkungan pengembangan Anda siap dengan JDK (Java Development Kit) yang kompatibel, khususnya versi 16 atau yang lebih tinggi.
-- **Prasyarat Pengetahuan**: Keakraban dengan pemrograman Java dasar dan pemahaman presentasi PowerPoint akan bermanfaat.
+## Prerequisites
+Sebelum menyelam ke implementasi, pastikan Anda telah memenuhi prasyarat berikut:
 
-## Menyiapkan Aspose.Slides untuk Java
+- **Libraries and Dependencies**: Anda memerlukan Aspose.Slides untuk Java. Pastikan memasukkannya ke dalam dependensi proyek Anda.
+- **Environment Setup**: Pastikan lingkungan pengembangan Anda siap dengan JDK yang kompatibel (Java Development Kit), khususnya versi 16 atau lebih tinggi.
+- **Knowledge Prerequisites**: Familiaritas dengan pemrograman Java dasar dan pemahaman tentang presentasi PowerPoint akan sangat membantu.
+
+## Setting Up Aspose.Slides for Java
 Untuk mulai menggunakan Aspose.Slides, Anda perlu menyertakannya dalam proyek Anda. Berikut caranya:
 
-### Pakar
-Tambahkan dependensi berikut ke `pom.xml`:
+### Maven
+Tambahkan dependensi berikut ke `pom.xml` Anda:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -44,131 +58,123 @@ Tambahkan dependensi berikut ke `pom.xml`:
 </dependency>
 ```
 
-### Bahasa Inggris Gradle
-Sertakan ini di dalam `build.gradle`:
+### Gradle
+Sertakan ini dalam `build.gradle` Anda:
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Unduh Langsung
-Atau, Anda dapat mengunduh versi terbaru dari [Aspose.Slides untuk rilis Java](https://releases.aspose.com/slides/java/).
+### Direct Download
+Sebagai alternatif, Anda dapat mengunduh versi terbaru dari [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-#### Akuisisi Lisensi
-- **Uji Coba Gratis**: Anda dapat memulai dengan uji coba gratis untuk menjelajahi fitur-fiturnya.
-- **Lisensi Sementara**: Dapatkan lisensi sementara untuk penggunaan lanjutan selama evaluasi.
-- **Pembelian**Pertimbangkan untuk membeli lisensi penuh untuk penggunaan komersial.
+#### License Acquisition
+- **Free Trial**: Anda dapat memulai dengan percobaan gratis untuk menjelajahi fitur-fitur.
+- **Temporary License**: Dapatkan lisensi sementara untuk penggunaan yang lebih lama selama evaluasi.
+- **Purchase**: Pertimbangkan membeli lisensi penuh untuk penggunaan komersial.
 
-### Inisialisasi dan Pengaturan Dasar
-Inisialisasi Aspose.Slides di aplikasi Java Anda:
+### Basic Initialization and Setup
+Inisialisasi Aspose.Slides dalam aplikasi Java Anda:
 ```java
 import com.aspose.slides.Presentation;
 ```
-Buat contoh dari `Presentation` untuk mulai bekerja dengan file PowerPoint.
+Buat sebuah instance `Presentation` untuk mulai bekerja dengan file PowerPoint.
 
-## Panduan Implementasi
-Sekarang, mari kita telusuri proses pembuatan dan konfigurasi diagram gelembung dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java.
+## Implementation Guide
+Sekarang, mari kita bahas proses pembuatan dan konfigurasi diagram bubble dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java.
 
-### Pembuatan dan Konfigurasi Bagan Gelembung
-#### Ringkasan
-Fitur ini menunjukkan cara menambahkan bagan gelembung yang dapat disesuaikan ke slide PowerPoint Anda. Kami akan mengonfigurasi ukuran dan skalanya untuk representasi data yang lebih baik.
+### How to Create Bubble Chart in PowerPoint
+#### Overview
+Fitur ini menunjukkan cara menambahkan diagram bubble yang dapat disesuaikan ke slide PowerPoint Anda. Kami akan mengkonfigurasi ukuran dan skala untuk representasi data yang lebih baik.
 
-#### Implementasi Langkah demi Langkah
-**1. Inisialisasi Presentasi**
-Mulailah dengan membuat contoh `Presentation`:
+#### Step‑by‑Step Implementation
+**1. Initialize Presentation**  
+Mulailah dengan membuat sebuah instance `Presentation`:
 ```java
 Presentation pres = new Presentation();
 ```
 
-**2. Tambahkan Bagan Gelembung**
-Tambahkan bagan gelembung pada posisi tertentu dengan dimensi yang ditentukan:
+**2. Add Bubble Chart**  
+Tambahkan diagram bubble pada posisi yang ditentukan dengan dimensi yang didefinisikan:
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
         ChartType.Bubble, 100, 100, 400, 300
 );
 ```
-- **Parameter**: `ChartType.Bubble` menentukan jenis grafik. Angka mewakili posisi (x, y) dan ukuran (lebar, tinggi).
+- **Parameters**: `ChartType.Bubble` menentukan jenis diagram. Angka-angka mewakili posisi (x, y) dan ukuran (lebar, tinggi).
 
-**3. Konfigurasikan Skala Ukuran Gelembung**
-Sesuaikan ukuran gelembung untuk meningkatkan kejelasan:
+**3. Configure Bubble Size Scale**  
+Sesuaikan ukuran bubble untuk kejelasan yang lebih tinggi:
 ```java
 chart.getChartData().getSeriesGroups().get_Item(0).setBubbleSizeScale(150);
 ```
-- **Tujuan**: Pengaturan `BubbleSizeScale` hingga 150% memperbesar gelembung, membuatnya lebih jelas.
+- **Purpose**: Menetapkan `BubbleSizeScale` ke 150% memperbesar bubble, membuatnya lebih jelas.
 
-**4. Simpan Presentasi**
-Simpan perubahan Anda dengan bagan yang baru ditambahkan:
+**4. Save Presentation**  
+Simpan perubahan Anda dengan diagram yang baru ditambahkan:
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/Result.pptx", SaveFormat.Pptx);
 ```
 
-#### Tips Pemecahan Masalah
-- Pastikan Anda memiliki izin menulis untuk direktori keluaran.
-- Verifikasi bahwa Aspose.Slides disertakan dengan benar dalam dependensi proyek Anda.
+#### Troubleshooting Tips
+- Pastikan Anda memiliki izin menulis untuk direktori output.
+- Verifikasi bahwa Aspose.Slides telah disertakan dengan benar dalam dependensi proyek Anda.
 
-### Manajemen dan Pembuangan Presentasi
-Pengelolaan sumber daya yang efisien memastikan kinerja yang optimal. Berikut cara menangani siklus presentasi:
+### How to Manage PowerPoint Resources Effectively
+Manajemen sumber daya yang efisien memastikan kinerja optimal. Berikut cara menangani siklus hidup presentasi:
 
-**1. Membuat dan Memodifikasi**
-Mulailah dengan membuat `Presentation` contoh:
+**1. Create and Modify**  
+Mulailah dengan membuat sebuah instance `Presentation`:
 ```java
 Presentation pres = new Presentation();
 ```
-Lakukan operasi yang diperlukan, seperti menambahkan bagan atau slide.
+Lakukan operasi yang diperlukan, seperti menambahkan diagram atau slide.
 
-**2. Membuang Sumber Daya**
-Selalu buang presentasi untuk membebaskan sumber daya:
+**2. Dispose Resources**  
+Selalu buang (dispose) presentasi untuk membebaskan sumber daya:
 ```java
 if (pres != null) pres.dispose();
 ```
-Langkah ini krusial untuk mencegah kebocoran memori.
+Langkah ini penting untuk mencegah kebocoran memori.
 
-## Aplikasi Praktis
-Bagan gelembung bisa sangat berguna dalam berbagai skenario:
+## Practical Applications
+Diagram bubble dapat sangat berharga dalam berbagai skenario:
 
-1. **Analisis Pasar**: Visualisasikan data penjualan produk dengan berbagai ukuran gelembung yang mewakili pendapatan.
-2. **Metrik Kinerja**: Melacak metrik kinerja karyawan di berbagai dimensi.
-3. **Data Geografis**Menampilkan kepadatan populasi atau data spasial lainnya secara efektif.
-4. **Manajemen Proyek**: Menilai jadwal proyek dan alokasi sumber daya secara dinamis.
+1. **Market Analysis** – Visualisasikan data penjualan produk dengan ukuran bubble yang berbeda mewakili pendapatan.
+2. **Performance Metrics** – Lacak metrik kinerja karyawan di berbagai dimensi.
+3. **Geographical Data** – Tampilkan kepadatan penduduk atau data spasial lainnya secara efektif.
+4. **Project Management** – Nilai timeline proyek dan alokasi sumber daya secara dinamis.
 
-## Pertimbangan Kinerja
+## Performance Considerations
 Mengoptimalkan kinerja aplikasi Anda sangat penting saat bekerja dengan Aspose.Slides:
 
-- **Penggunaan Sumber Daya**: Minimalkan penggunaan memori dengan membuang presentasi segera.
-- **Manajemen Memori Java**: Menggunakan `try-finally` blok untuk memastikan sumber daya dilepaskan bahkan jika pengecualian terjadi.
-- **Praktik Terbaik**: Perbarui Aspose.Slides secara berkala ke versi terbaru untuk meningkatkan kinerja dan perbaikan bug.
+- **Resource Usage**: Minimalkan penggunaan memori dengan membuang presentasi secara tepat waktu.
+- **Java Memory Management**: Gunakan blok `try‑finally` untuk memastikan sumber daya dilepaskan bahkan jika terjadi pengecualian.
+- **Best Practices**: Secara rutin perbarui ke versi terbaru Aspose.Slides untuk peningkatan kinerja dan perbaikan bug.
 
-## Kesimpulan
-Dengan mengikuti panduan ini, Anda telah mempelajari cara membuat dan mengonfigurasi bagan gelembung dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Pustaka canggih ini memungkinkan Anda menyempurnakan slide dengan visualisasi data dinamis dengan mudah.
+## Frequently Asked Questions
 
-### Langkah Berikutnya
-- Bereksperimenlah dengan berbagai jenis bagan yang tersedia di Aspose.Slides.
-- Jelajahi fitur-fitur lanjutan seperti menyesuaikan gaya bagan dan mengintegrasikan animasi.
+**Q: What is Aspose.Slides for Java?**  
+A: Ini adalah pustaka yang kuat yang memungkinkan pengembang membuat, memodifikasi, dan mengonversi presentasi PowerPoint secara programatis menggunakan Java.
 
-Jangan ragu untuk mencoba menerapkan solusi ini ke proyek Anda dan lihatlah perbedaan yang ditimbulkannya!
+**Q: How do I integrate Aspose.Slides with my existing Java projects?**  
+A: Anda dapat dengan mudah menambahkannya sebagai dependensi melalui Maven atau Gradle, atau mengunduh JAR langsung dari situs resmi mereka.
 
-## Bagian FAQ
-**Q1. Apa itu Aspose.Slides untuk Java?**
-A1. Ini adalah pustaka tangguh yang memungkinkan pengembang membuat, memodifikasi, dan mengonversi presentasi PowerPoint secara terprogram menggunakan Java.
+**Q: Can I use Aspose.Slides for large presentations?**  
+A: Ya, Aspose.Slides dioptimalkan untuk menangani file besar secara efisien, meskipun tetap pertimbangkan praktik terbaik kinerja.
 
-**Q2. Bagaimana cara mengintegrasikan Aspose.Slides dengan proyek Java saya yang sudah ada?**
-A2. Anda dapat dengan mudah menambahkannya sebagai dependensi melalui Maven atau Gradle, atau mengunduh JAR langsung dari situs resminya.
+**Q: What types of charts can I create with Aspose.Slides?**  
+A: Selain diagram bubble, Anda dapat membuat berbagai jenis diagram lain seperti bar, line, pie, dan lainnya.
 
-**Q3. Dapatkah saya menggunakan Aspose.Slides untuk presentasi berukuran besar?**
-A3. Ya, Aspose.Slides dioptimalkan untuk menangani file besar secara efisien, meskipun selalu mempertimbangkan praktik terbaik kinerja.
+**Q: Is there support for customizing chart styles in Aspose.Slides?**  
+A: Tentu saja! Anda memiliki banyak opsi untuk menyesuaikan warna, font, border, dan lainnya dalam diagram Anda.
 
-**Q4. Jenis grafik apa yang dapat saya buat dengan Aspose.Slides?**
-A4. Selain bagan gelembung, Anda dapat membuat berbagai jenis bagan lain seperti batang, garis, pai, dan lainnya.
-
-**Q5. Apakah ada dukungan untuk menyesuaikan gaya grafik di Aspose.Slides?**
-A5. Tentu saja! Anda memiliki banyak pilihan untuk menyesuaikan warna, font, batas, dan lainnya dalam diagram Anda.
-
-## Sumber daya
-- **Dokumentasi**: [Dokumentasi Aspose.Slides](https://reference.aspose.com/slides/java/)
-- **Unduh**: [Rilis Aspose.Slides](https://releases.aspose.com/slides/java/)
-- **Pembelian**: [Beli Aspose.Slides](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis**: [Mulailah dengan Uji Coba Gratis](https://releases.aspose.com/slides/java/)
-- **Lisensi Sementara**: [Dapatkan Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- **Mendukung**: [Forum Dukungan Aspose](https://forum.aspose.com/c/slides/11)
+## Resources
+- **Documentation**: [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
+- **Download**: [Aspose.Slides Releases](https://releases.aspose.com/slides/java/)
+- **Purchase**: [Buy Aspose.Slides](https://purchase.aspose.com/buy)
+- **Free Trial**: [Start with a Free Trial](https://releases.aspose.com/slides/java/)
+- **Temporary License**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)
+- **Support**: [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -177,3 +183,9 @@ A5. Tentu saja! Anda memiliki banyak pilihan untuk menyesuaikan warna, font, bat
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-03-26  
+**Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
+**Author:** Aspose
