@@ -1,8 +1,9 @@
 ---
 additionalTitle: Aspose API References
-date: 2025-12-22
-description: Explore el tutorial definitivo de automatización de PowerPoint con Aspose.Slides
-  que cubre soluciones en .NET, Java y Python para crear, editar y convertir presentaciones.
+date: 2026-03-31
+description: Explora el tutorial definitivo de automatización de PowerPoint con Aspose.Slides
+  que cubre soluciones en .NET, Java y Python para crear, editar y convertir presentaciones,
+  ideal para el desarrollo de presentaciones en PowerPoint.
 linktitle: Aspose.Slides Tutorials
 title: Tutorial de Automatización de PowerPoint con Aspose.Slides – Guía Completa
 url: /es/
@@ -15,31 +16,43 @@ weight: 10
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tutoriales exhaustivos de Aspose.Slides para desarrollo de PowerPoint
+# Tutoriales completos de Aspose.Slides para el desarrollo de PowerPoint
 
-Explore nuestra amplia colección de tutoriales de Aspose.Slides diseñados para desarrolladores que trabajan con presentaciones PowerPoint. Estas guías prácticas paso a paso cubren todo, desde la creación básica de diapositivas hasta la automatización avanzada de presentaciones. Aprenda a crear programáticamente diapositivas impresionantes, aplicar formato profesional, integrar gráficos dinámicos e implementar elementos multimedia. Ya sea que esté construyendo soluciones empresariales de presentación o automatizando flujos de trabajo de documentos, estos tutoriales le ayudarán a aprovechar todo el poder de Aspose.Slides en múltiples lenguajes de programación.
+Si buscas automatizar archivos de PowerPoint sin la sobrecarga de Microsoft Office, has llegado al lugar correcto. Este **tutorial de automatización de PowerPoint con Aspose.Slides** te guía a través de la creación, edición y conversión de presentaciones en .NET, Java y Python. Ya sea que estés construyendo un motor de informes, un generador de diapositivas basado en la nube o una canalización de procesamiento por lotes, los ejemplos a continuación te muestran cómo desbloquear todo el potencial de la API de Aspose.Slides.
 
 ## Respuestas rápidas
-- **¿Cuál es el enfoque principal de esta guía?** Es un tutorial de automatización de PowerPoint con Aspose.Slides que le guía a través de la creación, edición y conversión de presentaciones.  
+- **¿Cuál es el enfoque principal de esta guía?** Es un tutorial de automatización de PowerPoint con Aspose.Slides que te guía a través de la creación, edición y conversión de presentaciones.  
 - **¿Qué plataformas se cubren?** .NET, Java y Python a través de .NET.  
 - **¿Necesito una licencia?** Hay una prueba gratuita disponible; se requiere una licencia comercial para uso en producción.  
 - **¿Puedo usar estos ejemplos sin tener Microsoft Office instalado?** Sí, Aspose.Slides funciona de forma independiente a Office.  
 - **¿Dónde puedo encontrar proyectos de ejemplo?** Cada enlace del tutorial incluye muestras de código descargables.
 
 ## ¿Qué es el tutorial de automatización de PowerPoint con Aspose.Slides?
-El tutorial de automatización de PowerPoint con Aspose.Slides es un conjunto curado de recursos que demuestran cómo gestionar programáticamente archivos PowerPoint—creando diapositivas, insertando gráficos, manejando tablas y convirtiendo formatos—sin depender de Microsoft PowerPoint. Es ideal para desarrolladores que necesitan un procesamiento de presentaciones fiable del lado del servidor.
+El tutorial de automatización de PowerPoint con Aspose.Slides es un conjunto curado de recursos que demuestran cómo gestionar programáticamente archivos de PowerPoint—creando diapositivas, insertando gráficos, manejando tablas y convirtiendo formatos—sin depender de Microsoft PowerPoint. Es ideal para desarrolladores que necesitan un procesamiento de presentaciones fiable y del lado del servidor.
 
 ## ¿Por qué usar Aspose.Slides para el desarrollo de presentaciones PowerPoint?
-- **API completa** – compatible con .NET, Java y Python, cubriendo cada elemento de la diapositiva.  
+- **API completa** – soporta .NET, Java y Python, cubriendo cada elemento de la diapositiva.  
 - **Sin dependencia de Office** – se ejecuta en servidores, servicios en la nube o contenedores.  
 - **Alta fidelidad** – preserva el diseño, animaciones y medios exactamente como en el archivo original.  
 - **Extensible** – agrega formas personalizadas, gráficos o integra con fuentes de datos.
 
-## [Aspose.Slides For .NET: Complete PowerPoint Automation API](./net/)
+## Por qué esto es importante
+Automatizar la generación de presentaciones ahorra horas de trabajo manual de diseño y garantiza consistencia en grandes conjuntos de documentos. Con el tutorial de automatización de PowerPoint con Aspose.Slides puedes:
+
+1. **Generar informes al instante** – incrusta gráficos y tablas directamente desde fuentes de datos en tiempo real.  
+2. **Crear presentaciones de marketing programáticamente** – personaliza diapositivas para cada destinatario sin necesidad de un diseñador.  
+3. **Convertir archivos por lotes** – transforma archivos PPT heredados en PDFs o imágenes para archivado.
+
+## Problemas comunes y consejos de solución
+- **Consumo de memoria en presentaciones grandes** – usa la clase `PresentationOptimizer` y transmite el contenido cuando sea posible.  
+- **Fuentes faltantes** – incrusta las fuentes necesarias o asegúrate de que estén instaladas en el servidor para evitar cambios de diseño.  
+- **Desajustes de versiones** – siempre coincide la versión de la biblioteca Aspose.Slides con tu entorno de ejecución (p. ej., .NET 6+ para las compilaciones más recientes).  
+
+## [Aspose.Slides para .NET: API completa de automatización de PowerPoint](./net/)
 
 {{% alert color="primary" %}}
 
-Sumérjase en nuestros tutoriales exhaustivos de Aspose.Slides para .NET y domine el desarrollo de PowerPoint en C#. Estas guías detalladas le acompañan en tareas esenciales como crear presentaciones profesionales, manipular diapositivas y contenido, implementar gráficos complejos y convertir entre múltiples formatos. Con ejemplos de código claros y explicaciones prácticas, aprenderá rápidamente a automatizar flujos de trabajo de presentación, generar informes y crear aplicaciones dinámicas de PowerPoint. Perfecto para desarrolladores de todos los niveles, estos tutoriales le ayudarán a aprovechar todo el potencial de Aspose.Slides en sus proyectos .NET.
+Sumérgete en nuestros tutoriales integrales de Aspose.Slides para .NET y domina el desarrollo de PowerPoint en C#. Estas guías detalladas te acompañan paso a paso en tareas esenciales como crear presentaciones profesionales, manipular diapositivas y contenido, implementar gráficos complejos y convertir entre múltiples formatos. Con ejemplos de código claros y explicaciones prácticas, aprenderás rápidamente a automatizar flujos de trabajo de presentaciones, generar informes y crear aplicaciones dinámicas de PowerPoint. Perfectas para desarrolladores de todos los niveles, estos tutoriales te ayudarán a aprovechar al máximo Aspose.Slides en tus proyectos .NET.
 
 {{% /alert %}}
 
@@ -47,7 +60,7 @@ Sumérjase en nuestros tutoriales exhaustivos de Aspose.Slides para .NET y domin
 
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Dominar tablas en PowerPoint con Aspose.Slides para .NET](./net/tables/)
-Aprenda a crear, formatear y gestionar tablas en PowerPoint con nuestra guía detallada. Mejore sus presentaciones con datos organizados y visuales.
+Aprende a crear, formatear y gestionar tablas en PowerPoint con nuestra guía detallada. Mejora tus presentaciones con datos organizados y elementos visuales.
 
 {{< tutorial-card link="./net/tables/add-image-inside-table-cell/" title="Adding Images to Table Cells in PowerPoint with Aspose.Slides" imgSrc="./net/tables/add-image-inside-table-cell/images/thumb.png" >}}
 
@@ -65,7 +78,7 @@ Aprenda a crear, formatear y gestionar tablas en PowerPoint con nuestra guía de
 
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Tutoriales profesionales de manipulación de formas en PowerPoint](./net/shapes/)
-Aprenda a crear, personalizar y animar formas en presentaciones PowerPoint usando Aspose.Slides para .NET. Domine el formato de formas, el agrupamiento y los efectos especiales.
+Aprende a crear, personalizar y animar formas en presentaciones PowerPoint usando Aspose.Slides para .NET. Domina el formato de formas, la agrupación y los efectos especiales.
 
 {{< tutorial-card link="./net/shapes/add-arrow-shaped-line/" title="Creating Custom Line Shapes in PowerPoint with Aspose.Slides" imgSrc="./net/shapes/add-arrow-shaped-line/images/thumb.png" >}}
 
@@ -99,7 +112,7 @@ Aprenda a crear, personalizar y animar formas en presentaciones PowerPoint usand
 
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Tutoriales avanzados de creación de gráficos para PowerPoint](./net/charts/)
-Aprenda a crear visualizaciones de datos profesionales en PowerPoint con Aspose.Slides para .NET. Guías paso a paso para gráficos de pastel, columnas, líneas y personalizados.
+Aprende a crear visualizaciones de datos profesionales en PowerPoint con Aspose.Slides para .NET. Guías paso a paso para gráficos de pastel, columna, línea y personalizados.
 
 {{< tutorial-card link="./net/charts/change-color-of-categories/" title="Customize Chart Data Point Colors in PowerPoint with Aspose.Slides" imgSrc="./net/charts/change-color-of-categories/images/thumb.png" >}}
 
@@ -120,8 +133,8 @@ Aprenda a crear visualizaciones de datos profesionales en PowerPoint con Aspose.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Formato de texto profesional en presentaciones PowerPoint](./net/text/)
-Domine el formato de texto y la tipografía en PowerPoint con tutoriales completos sobre efectos de texto, alineación, sombra, columnas y viñetas usando Aspose.Slides.
+## [Formato profesional de texto en presentaciones PowerPoint](./net/text/)
+Domina el formato de texto y tipografía en PowerPoint con tutoriales completos sobre efectos de texto, alineación, sombra, columnas y viñetas usando Aspose.Slides.
 
 {{< tutorial-card link="./net/text/add-columns-in-text-frame/" title="Creating Text Columns in PowerPoint with Aspose.Slides for .NET" imgSrc="./net/text/add-columns-in-text-frame/images/thumb.png" >}}
 
@@ -150,9 +163,9 @@ Domine el formato de texto y la tipografía en PowerPoint con tutoriales complet
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## Recursos destacados para desarrollo de PowerPoint
+## Recursos destacados para el desarrollo de PowerPoint
 
-### .NET Fundamentals
+### Fundamentos .NET
 - [Introducción](./net/getting-started/)
 - [Conversión de presentaciones](./net/presentation-conversion/)
 - [Manipulación de presentaciones](./net/presentation-manipulation/)
@@ -161,7 +174,7 @@ Domine el formato de texto y la tipografía en PowerPoint con tutoriales complet
 - [Manipulación de comentarios de diapositivas](./net/slide-comments-manipulation/)
 - [Manipulación de hipervínculos](./net/hyperlink-manipulation/)
 
-### Charts & Media
+### Gráficos y medios
 - [Creación y personalización de gráficos](./net/chart-creation-and-customization/)
 - [Formato y animación de gráficos](./net/chart-formatting-and-animation/)
 - [Personalización avanzada de gráficos](./net/advanced-chart-customization/)
@@ -169,7 +182,7 @@ Domine el formato de texto y la tipografía en PowerPoint con tutoriales complet
 - [Extracción de audio y video](./net/audio-and-video-extraction/)
 - [Manipulación de imágenes y videos en diapositivas](./net/image-and-video-manipulation-in-slides/)
 
-### Slide Elements
+### Elementos de diapositiva
 - [Manipulación de diapositivas de notas](./net/notes-slide-manipulation/)
 - [Generación de miniaturas de diapositivas](./net/slide-thumbnail-generation/)
 - [Control de animación de diapositivas](./net/slide-animation-control/)
@@ -177,23 +190,23 @@ Domine el formato de texto y la tipografía en PowerPoint con tutoriales complet
 - [Manipulación de vista y diseño de diapositivas](./net/slide-view-and-layout-manipulation/)
 - [Licenciamiento y formato](./net/licensing-and-formatting/)
 
-### Shapes & Formatting
+### Formas y formato
 - [Impresión y renderizado en diapositivas](./net/printing-and-rendering-in-slides/)
 - [Efectos y manipulación de formas en diapositivas](./net/shape-effects-and-manipulation-in-slides/)
 - [Geometría y posicionamiento de formas en diapositivas](./net/shape-geometry-and-positioning-in-slides/)
 - [Alineación y formato de formas en diapositivas](./net/shape-alignment-and-formatting-in-slides/)
 - [Formas y marcos de texto](./net/shapes-text-frames/)
 
-### Content & Integration
+### Contenido e integración
 - [Gráficos y diagramas](./net/charts-graphs/)
 - [Imágenes y multimedia](./net/images-multimedia/)
 - [Smart Art y diagramas](./net/smart-art-diagrams/)
 - [Animaciones y transiciones](./net/animations-transitions/)
 - [Formato y estilos](./net/formatting-styles/)
 - [Integración de datos](./net/data-integration/)
-- [Objetos OLE y incrustación](./net/ole-objects-embedding/)
+- [Objetos OLE e incrustación](./net/ole-objects-embedding/)
 
-### Advanced Features
+### Funciones avanzadas
 - [Diapositivas maestras y plantillas](./net/master-slides-templates/)
 - [Comentarios y revisión](./net/comments-reviewing/)
 - [Seguridad y protección](./net/security-protection/)
@@ -202,7 +215,7 @@ Domine el formato de texto y la tipografía en PowerPoint con tutoriales complet
 - [Optimización de rendimiento](./net/performance-optimization/)
 - [Exportación y conversión](./net/export-conversion/)
 
-### Operations & Automation
+### Operaciones y automatización
 - [Operaciones de presentación](./net/presentation-operations/)
 - [Gestión de diapositivas](./net/slide-management/)
 - [Macros VBA y automatización](./net/vba-macros-automation/)
@@ -213,55 +226,55 @@ Domine el formato de texto y la tipografía en PowerPoint con tutoriales complet
 
 {{% alert color="primary" %}}
 
-Descubra el poder de Aspose.Slides para Java—una API integral de automatización de PowerPoint diseñada específicamente para desarrolladores Java. Nuestros tutoriales cuidadosamente elaborados ofrecen una guía clara paso a paso para crear, modificar y convertir presentaciones en aplicaciones Java. Desde la manipulación básica de diapositivas hasta funciones avanzadas como gráficos, animaciones e integración de datos, estos tutoriales le permiten construir soluciones de presentación sofisticadas. Comience a implementar funcionalidad profesional de PowerPoint en sus proyectos Java hoy mismo con estas guías prácticas centradas en el código.
+Descubre el poder de Aspose.Slides para Java—una API integral de automatización de PowerPoint diseñada específicamente para desarrolladores Java. Nuestros tutoriales cuidadosamente elaborados ofrecen una guía clara, paso a paso, para crear, modificar y convertir presentaciones en aplicaciones Java. Desde la manipulación básica de diapositivas hasta funciones avanzadas como gráficos, animaciones e integración de datos, estos tutoriales te permiten construir soluciones de presentación sofisticadas. Comienza a implementar funcionalidades profesionales de PowerPoint en tus proyectos Java hoy mismo con estas guías prácticas y centradas en el código.
 
 {{% /alert %}}
 
-## Recursos esenciales para desarrollo de PowerPoint en Java
+## Recursos esenciales para el desarrollo de PowerPoint en Java
 
-### Getting Started
+### Comenzando
 - [Introducción a Aspose.Slides](./java/getting-started/)
-- [Licenciamiento e inicialización de Java Slides](./java/licensing-and-initialization)
-- [Utilidades adicionales de Java Slides](./java/additional-utilities/)
-- [Propiedades de presentación de Java Slides](./java/presentation-properties/)
-- [Opciones de guardado de Java Slides](./java/saving-options/)
+- [Licenciamiento e inicialización de Slides Java](./java/licensing-and-initialization)
+- [Utilidades adicionales de Slides Java](./java/additional-utilities/)
+- [Propiedades de presentación de Slides Java](./java/presentation-properties/)
+- [Opciones de guardado de Slides Java](./java/saving-options/)
 
-### Charts & Data
-- [Manipulación de datos de gráficos en Java Slides](./java/chart-data-manipulation)
-- [Elementos de gráficos en Java Slides](./java/chart-elements)
-- [Creación de gráficos en Java Slides](./java/chart-creation)
-- [Manipulación de datos en Java Slides](./java/data-manipulation)
+### Gráficos y datos
+- [Manipulación de datos de gráficos en Slides Java](./java/chart-data-manipulation)
+- [Elementos de gráficos en Slides Java](./java/chart-elements)
+- [Creación de gráficos en Slides Java](./java/chart-creation)
+- [Manipulación de datos en Slides Java](./java/data-manipulation)
 - [Gráficos y visualización de datos](./java/charts-graphs/)
 
-### Content & Media
-- [Personalización y formato de Java Slides](./java/customization-and-formatting)
-- [Animación y diseño de Java Slides](./java/animation-and-layout)
-- [Controles de medios de Java Slides](./java/media-controls/)
-- [Manejo de imágenes de Java Slides](./java/image-handling/)
+### Contenido y medios
+- [Personalización y formato de Slides Java](./java/customization-and-formatting)
+- [Animación y diseño de Slides Java](./java/animation-and-layout)
+- [Controles de medios de Slides Java](./java/media-controls/)
+- [Manejo de imágenes en Slides Java](./java/image-handling/)
 - [Trabajo con imágenes y multimedia](./java/images-multimedia/)
 
-### Core Functions
+### Funciones principales
 - [Operaciones de archivos de presentación](./java/presentation-operations/)
 - [Gestión y manipulación de diapositivas](./java/slide-management/)
 - [Manejo de formas y marcos de texto](./java/shapes-text-frames/)
-- [Tablas PowerPoint en Java](./java/tables/)
-- [Conversión de presentaciones Java Slides](./java/presentation-conversion)
+- [Tablas de PowerPoint en Java](./java/tables/)
+- [Conversión de presentaciones en Slides Java](./java/presentation-conversion)
 
-### Advanced Features
+### Funciones avanzadas
 - [Creación de SmartArt y diagramas](./java/smart-art-diagrams/)
 - [Efectos de animación y transición](./java/animations-transitions/)
 - [Formato y diseño de diapositivas](./java/formatting-styles/)
 - [Diapositivas maestras y plantillas](./java/master-slides-templates/)
 - [Características de comentarios y revisión](./java/comments-reviewing/)
 
-### Security & Output
-- [Protección de documentos Java Slides](./java/document-protection/)
+### Seguridad y salida
+- [Protección de documentos en Slides Java](./java/document-protection/)
 - [Opciones de seguridad de presentaciones](./java/security-protection/)
 - [Encabezados, pies de página y notas](./java/headers-footers-notes/)
 - [Renderizado e impresión de diapositivas](./java/printing-rendering/)
 - [Exportación y conversión de formatos](./java/export-conversion/)
 
-### Integration & Processing
+### Integración y procesamiento
 - [Presentaciones basadas en datos](./java/data-integration/)
 - [Objetos OLE y contenido incrustado](./java/ole-objects-embedding/)
 - [Optimización de rendimiento de PowerPoint](./java/performance-optimization/)
@@ -273,35 +286,35 @@ Descubra el poder de Aspose.Slides para Java—una API integral de automatizaci�
 
 {{% alert color="primary" %}}
 
-Explore Aspose.Slides para Python vía .NET—una poderosa biblioteca de automatización de PowerPoint que lleva todas las capacidades de Aspose.Slides a los desarrolladores Python. Nuestros tutoriales completos le guían en la creación, modificación y conversión de presentaciones PowerPoint usando la sintaxis familiar de Python. Aprenda a implementar diapositivas profesionales, gráficos, animaciones y contenido multimedia con ejemplos fáciles de seguir. Estas guías paso a paso le ayudarán a aprovechar funcionalidades avanzadas de PowerPoint en aplicaciones Python sin requerir la instalación de Microsoft Office. Comience a construir soluciones de presentación sofisticadas en Python hoy mismo.
+Explora Aspose.Slides para Python vía .NET—una potente biblioteca de automatización de PowerPoint que lleva todas las capacidades de Aspose.Slides a los desarrolladores Python. Nuestros tutoriales integrales te guían paso a paso en la creación, modificación y conversión de presentaciones PowerPoint usando la sintaxis familiar de Python. Aprende a implementar diapositivas profesionales, gráficos, animaciones y contenido multimedia con ejemplos fáciles de seguir. Estas guías te ayudarán a aprovechar funcionalidades avanzadas de PowerPoint en aplicaciones Python sin necesidad de instalar Microsoft Office. Comienza a construir soluciones de presentación sofisticadas en Python hoy mismo.
 
 {{% /alert %}}
 
-## Recursos esenciales para desarrollo de PowerPoint en Python
+## Recursos esenciales para el desarrollo de PowerPoint en Python
 
-### Getting Started
+### Comenzando
 - [Introducción](./python-net/getting-started/)
 - [Gestión de presentaciones](./python-net/presentation-management/)
 - [Operaciones de diapositivas](./python-net/slide-operations/)
 - [Formas y texto](./python-net/shapes-text/)
 - [Tablas](./python-net/tables/)
 
-### Charts & Media
+### Gráficos y medios
 - [Gráficos y diagramas](./python-net/charts-graphs/)
 - [Imágenes y multimedia](./python-net/images-multimedia/)
 - [Smart Art y diagramas](./python-net/smart-art-diagrams/)
 - [Animaciones y transiciones](./python-net/animations-transitions/)
 - [Formato y estilos](./python-net/formatting-styles/)
 
-### Advanced Features
+### Funciones avanzadas
 - [Encabezados y pies de página](./python-net/headers-footers/)
 - [Comentarios y notas](./python-net/comments-notes/)
 - [Seguridad y protección](./python-net/security-protection/)
 - [Propiedades personalizadas](./python-net/custom-properties/)
 - [Procesamiento avanzado de texto](./python-net/advanced-text-processing/)
 
-### Integration & Processing
-- [Objetos OLE y incrustación](./python-net/ole-objects-embedding/)
+### Integración y procesamiento
+- [Objetos OLE e incrustación](./python-net/ole-objects-embedding/)
 - [Importación y exportación](./python-net/import-export/)
 - [Plantillas e informes](./python-net/templates-reporting/)
 - [Optimización de rendimiento](./python-net/performance-optimization/)
@@ -319,17 +332,23 @@ A: No. Aspose.Slides funciona de forma independiente a Microsoft Office, lo que 
 A: La API está disponible para .NET, Java y Python (a través de .NET), con documentación extensa para cada uno.
 
 **Q: ¿Puedo convertir archivos PowerPoint a PDF o imágenes?**  
-A: Sí. La biblioteca proporciona métodos de conversión integrados para PDF, PNG, JPEG, SVG y muchos otros formatos.
+A: Sí. La biblioteca ofrece métodos de conversión integrados para PDF, PNG, JPEG, SVG y muchos otros formatos.
 
 **Q: ¿Hay una prueba gratuita?**  
-A: Una licencia temporal totalmente funcional está disponible para evaluación; puede descargarla desde el sitio web de Aspose.
+A: Una licencia temporal totalmente funcional está disponible para evaluación; puedes descargarla desde el sitio web de Aspose.
 
 **Q: ¿Cómo manejo presentaciones grandes de manera eficiente?**  
-A: Use las APIs de streaming y la clase `PresentationOptimizer` para reducir el consumo de memoria y mejorar el rendimiento.
+A: Utiliza las API de transmisión y la clase `PresentationOptimizer` para reducir el consumo de memoria y mejorar el rendimiento.
+
+## Próximos pasos y temas relacionados
+- Explora la **Referencia de la API de Aspose.Slides** para documentación detallada de clases y métodos.  
+- Prueba los **proyectos de ejemplo** vinculados en cada tutorial para ver el código en acción.  
+- Sumérgete en las guías de **optimización de rendimiento** si procesas miles de diapositivas al día.  
+- Combina Aspose.Slides con otros productos Aspose (p. ej., Aspose.PDF) para flujos de trabajo de documentos de extremo a extremo.
 
 ---
 
-**Última actualización:** 2025-12-22  
+**Última actualización:** 2026-03-31  
 **Probado con:** Aspose.Slides 24.12 para .NET, Java y Python  
 **Autor:** Aspose
 
