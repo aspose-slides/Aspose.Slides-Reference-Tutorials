@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-17"
-"description": "Aprenda a crear gráficos de burbujas detallados con barras de error personalizadas con Aspose.Slides para Java. Mejore sus presentaciones de datos con visualizaciones claras."
-"title": "Cómo crear un gráfico de burbujas con barras de error en Java usando Aspose.Slides"
-"url": "/es/java/charts-graphs/create-bubble-chart-error-bars-java-aspose-slides/"
-"weight": 1
+date: '2026-03-04'
+description: Aprende cómo agregar barras de error personalizadas a un gráfico de burbujas
+  con Aspose.Slides para Java. Esta guía cubre la creación del gráfico, la configuración
+  de las barras de error por punto y el guardado de la presentación.
+keywords:
+- Bubble Chart Java
+- Custom Error Bars Aspose.Slides
+- Java Data Visualization
+title: Cómo agregar barras de error personalizadas a un gráfico de burbujas en Java
+  usando Aspose.Slides
+url: /es/java/charts-graphs/create-bubble-chart-error-bars-java-aspose-slides/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,33 +18,28 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Cómo crear un gráfico de burbujas con barras de error personalizadas en Java usando Aspose.Slides
+# Cómo agregar barras de error personalizadas a un gráfico de burbujas en Java usando Aspose.Slides
 
-## Introducción
+Crear presentaciones claras y basadas en datos a menudo implica ir más allá de los gráficos simples. Al aprender **cómo agregar barras de error personalizadas** a un gráfico de burbujas, brinda a su audiencia información sobre la variabilidad y los niveles de confianza de cada punto de datos. En este tutorial verá cómo configurar un proyecto Java con Aspose.Slides, agregar un gráfico de burbujas a una diapositiva, configurar barras de error por punto y, finalmente, guardar el resultado como un archivo PowerPoint.
 
-Mejorar sus presentaciones con visualizaciones de datos detalladas es esencial, y los gráficos de burbujas con barras de error personalizadas no son la excepción. Con Aspose.Slides para Java, crear estos sofisticados gráficos se vuelve sencillo y eficiente. Este tutorial le guiará en la inicialización de una presentación, la creación de un gráfico de burbujas, la configuración de barras de error personalizadas, la definición de valores específicos para cada dato y el guardado de su trabajo.
-
-**Lo que aprenderás:**
-- Inicializando una presentación vacía
-- Creación de un gráfico de burbujas en Java
-- Configuración y personalización de barras de error
-- Establecer valores de barra de error específicos para puntos de datos
-- Guardar la presentación de manera eficiente
-
-¡Exploremos cómo puedes lograr estas tareas con facilidad!
+## Respuestas rápidas
+- **¿Qué biblioteca se requiere?** Aspose.Slides for Java (última versión).  
+- **¿Qué tipo de gráfico admite barras de error personalizadas?** Gráfico de burbujas (`ChartType.Bubble`).  
+- **¿Se pueden establecer barras de error por punto de datos?** Sí – use `ErrorBarsCustomValues` para valores X/Y más/menos.  
+- **¿Necesito una licencia?** Una prueba gratuita funciona para pruebas; una licencia completa elimina los límites de evaluación.  
+- **¿Cuánto tiempo lleva la implementación?** Aproximadamente 10‑15 minutos para un ejemplo básico.
 
 ## Prerrequisitos
 
-Antes de comenzar, asegúrese de que su entorno esté configurado correctamente. Necesitará:
-- **Kit de desarrollo de Java (JDK):** Versión 8 o superior.
-- **Aspose.Slides para Java:** Incluya la biblioteca en su proyecto. Este tutorial usa la versión 25.4 con JDK16.
-- **IDE:** Cualquier IDE de Java como IntelliJ IDEA, Eclipse o NetBeans es adecuado.
+Antes de comenzar, asegúrese de tener:
+
+- **Java Development Kit (JDK):** Versión 8 o superior.  
+- **Aspose.Slides for Java:** Añada la biblioteca a su proyecto (vea los fragmentos Maven/Gradle a continuación).  
+- **IDE:** IntelliJ IDEA, Eclipse, NetBeans, o cualquier editor que prefiera.
 
 ### Bibliotecas y dependencias requeridas
 
-A continuación se explica cómo agregar Aspose.Slides a su proyecto usando Maven o Gradle:
-
-**Experto:**
+**Maven:**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -52,116 +54,93 @@ A continuación se explica cómo agregar Aspose.Slides a su proyecto usando Mave
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Alternativamente, descargue la última versión desde [Lanzamientos de Aspose.Slides para Java](https://releases.aspose.com/slides/java/).
+También puede descargar el JAR más reciente desde la página oficial de lanzamientos: [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### Adquisición de licencias
+### Adquisición de licencia
 
-Para utilizar Aspose.Slides:
-- Comience con una prueba gratuita para probar las funciones.
-- Solicita una licencia temporal para desbloquear todas las capacidades sin limitaciones.
-- Compre una suscripción si su proyecto requiere un uso a largo plazo.
+- Comience con una prueba gratuita para explorar todas las funciones.  
+- Solicite una licencia temporal para pruebas sin restricciones.  
+- Adquiera una licencia completa de tiempo de ejecución para uso en producción.
 
 ## Configuración de Aspose.Slides para Java
 
-Una vez que tenga la biblioteca lista en su IDE, inicialice y configure su entorno de presentación:
+Una vez que la biblioteca esté en su classpath, inicialice un objeto de presentación. Este bloque crea un lienzo limpio para el gráfico.
 
 ```java
 import com.aspose.slides.*;
 
-// Inicializar una presentación vacía
+// Initialize an empty presentation
 Presentation presentation = new Presentation();
 try {
-    // Tu código aquí
+    // Your code here
 } finally {
     if (presentation != null) presentation.dispose();
 }
 ```
 
-Este fragmento configura un marco básico para crear presentaciones con Aspose.Slides.
-
 ## Guía de implementación
 
-### Función 1: Crear gráfico de burbujas
+### Función 1: Agregar gráfico a la diapositiva y crear un gráfico de burbujas
 
-**Descripción general:**
-Añadir un gráfico de burbujas a las diapositivas facilita la comprensión de los datos. Añadamos uno a la primera diapositiva con Aspose.Slides para Java.
+**¿Por qué agregar un gráfico a una diapositiva?**  
+Incrustar un gráfico directamente en una diapositiva le permite mantener el contexto visual junto con cualquier texto o imagen circundante, haciendo la presentación más coherente.
 
-#### Implementación paso a paso
-
-##### 1. Importar clases requeridas
-Asegúrese de haber importado todas las clases necesarias al comienzo de su archivo:
+#### Paso 1: Importar clases requeridas
 ```java
 import com.aspose.slides.*;
 ```
 
-##### 2. Agregar gráfico de burbujas a la primera diapositiva
-A continuación se explica cómo puede agregar un gráfico de burbujas con dimensiones y propiedades específicas:
-
+#### Paso 2: Agregar gráfico de burbujas a la primera diapositiva
 ```java
-// Acceda a la primera diapositiva
+// Access the first slide
 ISlide slide = presentation.getSlides().get_Item(0);
 
-// Crea un gráfico de burbujas en la diapositiva
+// Create a bubble chart on the slide
 IChart chart = slide.getShapes().addChart(
     ChartType.Bubble, 50, 50, 400, 300, true);
 ```
-
-- **Parámetros:**
-  - `ChartType.Bubble`:Especifica el tipo de gráfico.
-  - Coordenadas `(50, 50)`:Posición X e Y en la diapositiva.
-  - Dimensiones `(400, 300)`:Ancho y alto del área del gráfico.
+- `ChartType.Bubble` indica a Aspose que queremos un gráfico de burbujas.  
+- Las coordenadas `(50, 50)` y el tamaño `(400, 300)` posicionan el gráfico adecuadamente en la diapositiva.
 
 ### Función 2: Configurar barras de error
 
-**Descripción general:**
-Las barras de error añaden un nivel de detalle a los puntos de datos al mostrar la variabilidad. Configurémoslas para nuestra serie de gráficos de burbujas.
+Las barras de error brindan a los espectadores una pista visual sobre la fiabilidad de cada punto. Las haremos visibles y configuraremos para que usen valores personalizados.
 
-#### Implementación paso a paso
-
-##### 1. Serie de gráficos de acceso
-Primero, acceda a la primera serie de gráficos desde su gráfico de burbujas:
-
+#### Paso 3: Acceder a la primera serie
 ```java
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 ```
 
-##### 2. Configurar barras de error
-Configurar barras de error personalizadas para los ejes X e Y:
-
+#### Paso 4: Habilitar y establecer barras de error personalizadas
 ```java
-// Acceder a los formatos de la barra de error
+// Accessing error bar formats
 IErrorBarsFormat errBarX = series.getErrorBarsXFormat();
 IErrorBarsFormat errBarY = series.getErrorBarsYFormat();
 
-// Hacer visibles las barras de error
+// Making error bars visible
 errBarX.setVisible(true);
 errBarY.setVisible(true);
 
-// Configuración de tipos de valores personalizados para un control más detallado
+// Setting custom value types for more detailed control
 errBarX.setValueType(ErrorBarValueType.Custom);
 errBarY.setValueType(ErrorBarValueType.Custom);
 ```
 
-### Característica 3: Establecer barras de error para puntos de datos
+### Función 3: Establecer barras de error para puntos de datos (Barras de error por punto)
 
-**Descripción general:**
-Personalice las barras de error según cada punto de datos para ilustrar la variabilidad de manera efectiva.
+Ahora asignaremos valores únicos de margen de error a cada burbuja, demostrando **barras de error por punto**.
 
-#### Implementación paso a paso
-
-##### 1. Acceder y configurar la recopilación de puntos de datos
-Iterar sobre cada punto de datos de la serie:
-
+#### Paso 5: Configurar la colección de puntos de datos
 ```java
 IChartDataPointCollection points = series.getDataPoints();
 
-// Configuración de valores personalizados para barras de error
+// Configuring custom values for error bars
 points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForXPlusValues(DataSourceType.DoubleLiterals);
 points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForXMinusValues(DataSourceType.DoubleLiterals);
 points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForYPlusValues(DataSourceType.DoubleLiterals);
 points.getDataSourceTypeForErrorBarsCustomValues().setDataSourceTypeForYMinusValues(DataSourceType.DoubleLiterals);
 
-// Recorrer cada punto de datos
+// Loop through each data point
 for (int i = 0; i < points.size(); i++) {
     points.get_Item(i).getErrorBarsCustomValues().getXMinus().setAsLiteralDouble(i + 1);
     points.get_Item(i).getErrorBarsCustomValues().getXPlus().setAsLiteralDouble(i + 1);
@@ -169,58 +148,61 @@ for (int i = 0; i < points.size(); i++) {
     points.get_Item(i).getErrorBarsCustomValues().getYPlus().setAsLiteralDouble(i + 1);
 }
 ```
+*Usar valores personalizados le permite definir con precisión el rango de error para cada burbuja, lo cual es esencial para análisis científicos o financieros.*
 
-- **¿Por qué valores personalizados?**
-  El uso de valores personalizados le permite especificar márgenes de error exactos para cada punto de datos, lo que hace que sus visualizaciones sean más precisas e informativas.
-
-### Función 4: Guardar presentación
-
-Por último, guarde la presentación con todas las configuraciones establecidas:
+### Función 4: Guardar la presentación
 
 ```java
 String YOUR_DOCUMENT_DIRECTORY = "YOUR_DOCUMENT_DIRECTORY";
 
-// Guardando la presentación
+// Saving the presentation
 presentation.save(YOUR_DOCUMENT_DIRECTORY + "/ErrorBarsCustomValues_out.pptx", SaveFormat.Pptx);
 ```
 
 ## Aplicaciones prácticas
 
-El uso de gráficos de burbujas con barras de error personalizadas es útil en varios escenarios:
-1. **Investigación científica:** Presentando datos experimentales con variabilidad.
-2. **Análisis de negocios:** Visualización de previsiones de ventas e incertidumbres.
-3. **Materiales educativos:** Demostrando conceptos estadísticos a los estudiantes.
+Agregar barras de error personalizadas a un gráfico de burbujas es valioso en muchos escenarios del mundo real:
 
-Estos gráficos se integran perfectamente en paneles o informes y proporcionan una representación visual clara de conjuntos de datos complejos.
+1. **Investigación científica:** Mostrar la incertidumbre de medición para cada resultado experimental.  
+2. **Analítica empresarial:** Visualizar rangos de pronóstico para ventas o cuota de mercado.  
+3. **Educación:** Demostrar conceptos estadísticos como intervalos de confianza.
 
 ## Consideraciones de rendimiento
 
-Para garantizar un rendimiento óptimo al utilizar Aspose.Slides:
-- Administre la memoria Java de manera eficiente eliminando objetos como `Presentation` inmediatamente.
-- Optimice la representación de gráficos minimizando las personalizaciones innecesarias.
-- Utilice los métodos integrados de Aspose.Slides para el procesamiento por lotes para manejar grandes conjuntos de datos.
+- Libere el objeto `Presentation` rápidamente para liberar recursos nativos.  
+- Limite la cantidad de puntos de datos si genera gráficos en masa; conjuntos de datos muy grandes pueden aumentar el tiempo de renderizado.  
+- Reutilice objetos de gráfico al crear múltiples diapositivas para reducir la sobrecarga.
 
-## Conclusión
+## Problemas comunes y soluciones
 
-En este tutorial, aprendiste a crear un gráfico de burbujas con barras de error personalizadas con Aspose.Slides para Java. Siguiendo estos pasos, podrás mejorar tus presentaciones y crear visualizaciones de datos detalladas y llamativas. Si estás listo para mejorar tus habilidades, explora otras funciones de Aspose.Slides o intégralo con otros sistemas.
+| Problema | Causa | Solución |
+|----------|-------|----------|
+| **ErrorBarsCustomValues returns `null`** | La serie aún no tiene puntos de datos. | Agregue puntos de datos primero o asegúrese de que la serie esté poblada antes de configurar las barras de error. |
+| **Chart not visible on slide** | Las dimensiones del gráfico están fuera de los límites de la diapositiva. | Ajuste las coordenadas X/Y y el ancho/alto para que encajen dentro del tamaño de la diapositiva. |
+| **License exception** | Uso de la versión de prueba sin una licencia válida. | Aplique una licencia temporal o completa antes de guardar la presentación. |
 
-## Sección de preguntas frecuentes
+## Preguntas frecuentes
 
-1. **¿Qué es Aspose.Slides para Java?**
-   Una potente biblioteca para gestionar presentaciones de PowerPoint en aplicaciones Java.
-2. **¿Puedo usar Aspose.Slides sin una licencia?**
-   Sí, pero con limitaciones. Considere solicitar una licencia temporal para tener acceso completo durante el desarrollo.
-3. **¿Cómo actualizo a la última versión de Aspose.Slides?**
-   Consulta el oficial [Página de lanzamiento de Aspose](https://releases.aspose.com/slides/java/) y siga las instrucciones para configurar su proyecto.
-4. **¿Cuáles son las ventajas de utilizar gráficos de burbujas con barras de error?**
-   Proporcionan una representación visual clara de la variabilidad de los datos, mejorando la comprensión en contextos científicos, comerciales o educativos.
-5. **¿Puedo personalizar otros tipos de gráficos con Aspose.Slides?**
-   Sí, Aspose.Slides admite varias personalizaciones de gráficos para diferentes tipos más allá de los gráficos de burbujas.
+**P: ¿Qué es Aspose.Slides for Java?**  
+R: Es una API potente que le permite crear, modificar y convertir archivos PowerPoint programáticamente sin Microsoft Office.
 
-### Recomendaciones de palabras clave
-- Gráfico de burbujas en Java
-- Barras de error personalizadas en Aspose.Slides
-- Visualización de datos en Java
+**P: ¿Puedo usar Aspose.Slides sin una licencia?**  
+R: Sí, una prueba gratuita funciona para desarrollo y pruebas, pero agrega marcas de agua de evaluación y limita algunas funciones.
+
+**P: ¿Cómo actualizo a la última versión de Aspose.Slides?**  
+R: Consulte la página oficial de [lanzamientos de Aspose](https://releases.aspose.com/slides/java/) y actualice su dependencia Maven/Gradle en consecuencia.
+
+**P: ¿Por qué agregar barras de error personalizadas a un gráfico de burbujas?**  
+R: Transmiten la variabilidad o confianza de cada punto de datos, convirtiendo una visualización de dispersión simple en una historia más rica e informativa.
+
+**P: ¿Puedo personalizar otros tipos de gráficos con barras de error?**  
+R: Absolutamente. Aspose.Slides admite barras de error para líneas, barras, columnas y muchos otros tipos de gráficos.
+
+---
+
+**Última actualización:** 2026-03-04  
+**Probado con:** Aspose.Slides for Java 25.4 (jdk16)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
