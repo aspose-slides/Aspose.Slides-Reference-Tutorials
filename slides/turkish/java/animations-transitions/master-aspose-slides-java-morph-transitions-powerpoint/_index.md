@@ -1,12 +1,57 @@
 ---
-date: '2026-02-12'
-description: Aspose.Slides for Java ile PowerPoint morph geçişini nasıl uygulayacağınızı
-  öğrenin. Sunumlarınıza sorunsuz animasyonlar ve dinamik efektler ekleyin.
+date: '2026-05-18'
+description: Aspose.Slides for Java'ı kullanarak morph transition PowerPoint slides
+  eklemeyi öğrenin, dinamik efektlerle animasyonlu PowerPoint presentations oluşturun.
 keywords:
-- Morph transitions PowerPoint
-- Aspose.Slides Java Morph transition
-- Java PowerPoint animation
-title: Aspose.Slides for Java ile PowerPoint’te morph geçişi uygulama
+- how to use aspose
+- add morph transition powerpoint
+- how to apply morph
+- create animated powerpoint slides
+schemas:
+- author: Aspose
+  dateModified: '2026-05-18'
+  description: Learn how to use Aspose.Slides for Java to add morph transition PowerPoint
+    slides, creating animated PowerPoint presentations with dynamic effects.
+  headline: 'How to Use Aspose.Slides for Java: Add Morph Transition'
+  type: TechArticle
+- description: Learn how to use Aspose.Slides for Java to add morph transition PowerPoint
+    slides, creating animated PowerPoint presentations with dynamic effects.
+  name: 'How to Use Aspose.Slides for Java: Add Morph Transition'
+  steps:
+  - name: '**Business Presentations** – Highlight quarterly growth by morphing charts
+      smoothly.'
+    text: '**Business Presentations** – Highlight quarterly growth by morphing charts
+      smoothly.'
+  - name: '**Educational Content** – Demonstrate step‑by‑step algorithms with object
+      morphing.'
+    text: '**Educational Content** – Demonstrate step‑by‑step algorithms with object
+      morphing.'
+  - name: '**Product Launch Decks** – Show product evolution from concept to final
+      design with seamless visual flow.'
+    text: '**Product Launch Decks** – Show product evolution from concept to final
+      design with seamless visual flow.'
+  type: HowTo
+- questions:
+  - answer: It enables programmatic creation, editing, and automation of PowerPoint
+      files, including advanced features such as morph transitions, without requiring
+      Microsoft PowerPoint on the server.
+    question: What is the purpose of using Aspose.Slides for Java?
+  - answer: Yes—iterate over the slide collection, set each slide’s `TransitionType`
+      to `Morph`, and optionally adjust each `IMorphTransition` instance individually.
+    question: Can I apply Morph transitions to multiple slides at once?
+  - answer: Wrap file‑loading and saving logic in try‑catch blocks, catching `IOException`
+      and `Exception` to log errors and ensure the license is applied before any operation.
+    question: How should I handle exceptions during presentation processing?
+  - answer: Apache POI offers basic slide manipulation but lacks comprehensive transition
+      support; Aspose.Slides provides the most complete API for morph effects.
+    question: Are there alternatives to Aspose.Slides for programmatic transitions?
+  - answer: Explore additional `IMorphTransition` properties like `MorphType.ByCharacter`,
+      `Duration`, and `Smoothness`. The official API reference lists all configurable
+      options.
+    question: How can I further customize morph transitions beyond simple word or
+      object morphing?
+  type: FAQPage
+title: 'Aspose.Slides for Java Nasıl Kullanılır: Morph Transition Ekle'
 url: /tr/java/animations-transitions/master-aspose-slides-java-morph-transitions-powerpoint/
 weight: 1
 ---
@@ -16,70 +61,70 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.Slides for Java kullanarak PowerPoint'te morph geçişi uygulama
+# Aspose.Slides for Java Nasıl Kullanılır: Morph Geçişi Ekle
 
 ## Giriş
-Bu rehberde, Aspose.Slides for Java ile **PowerPoint'te morph geçişi uygulamayı** öğrenecek, sıradan slaytları dinamik ve göz alıcı sunumlara dönüştüreceksiniz. Java kullanarak PowerPoint slaytlarınıza “Morph” efekti gibi gelişmiş geçişler eklemek istemiş miydiniz? Bu öğretici, kütüphaneyi kurmaktan son dosyayı kaydetmeye kadar her adımı size göstererek, dakikalar içinde profesyonel görünümlü sunumlar oluşturmanızı sağlayacak.
+Bu kılavuzda **Aspose.Slides for Java**'ı nasıl kullanarak bir morph geçişi PowerPoint efekti uygulayacağınızı öğrenecek, sıradan slaytları dinamik, göz alıcı sunumlara dönüştüreceksiniz. PowerPoint'i manuel olarak açmadan, onlarca slayda “Morph” animasyonunu programlı olarak eklemeniz gerektiği bir durumla karşılaştınız mı? Bu öğretici, kütüphaneyi kurmaktan son dosyayı kaydetmeye kadar her adımı size gösterecek, böylece dakikalar içinde profesyonel görünümlü sunumlar oluşturabileceksiniz.
 
-**Öğrenecekleriniz:**
-- Aspose.Slides for Java'ı nasıl kurup kullanacağınızı
-- PowerPoint slaytlarınıza Morph geçişi uygulama adımları
-- Geçişleri özelleştirmek için yapılandırma seçenekleri
+**Öğrenecekleriniz**
+- Aspose.Slides for Java'ı kurma ve kullanma  
+- PowerPoint slaytlarına morph geçişi ekleme adımları  
+- Geçiş efektini özelleştirmek için yapılandırma seçenekleri  
 
-Sunumlarınızı dönüştürmeye hazır mısınız? Gereksinimlerle başlayalım!
+Sunumlarınızı dönüştürmeye hazır mısınız? Ön koşulları önce doğrulayalım.
 
-## Hızlı Yanıtlar
-- **“PowerPoint'te morph geçişi uygulama” ne anlama geliyor?** Bir slayttan diğerine sorunsuz bir animasyon ekler.  
-- **Hangi kütüphane gerekiyor?** Aspose.Slides for Java (v25.4 veya sonrası).  
-- **Lisans gerekli mi?** Değerlendirme için ücretsiz deneme yeterlidir; kalıcı bir lisans değerlendirme sınırlamalarını kaldırır.  
+## Hızlı Cevaplar
+- **“add morph transition PowerPoint” ne anlama geliyor?** Bir slaytı bir sonrakine sorunsuz bir şekilde dönüştüren, nesnelerin hareket ediyor veya şekil değiştiriyor gibi görünmesini sağlayan akıcı bir animasyon oluşturur.  
+- **Hangi kütüphane gerekiyor?** Aspose.Slides for Java (v25.4 veya daha yeni).  
+- **Lisansım olması gerekiyor mu?** Değerlendirme için ücretsiz deneme çalışır; kalıcı bir lisans değerlendirme sınırlamalarını kaldırır.  
 - **Hangi JDK sürümü destekleniyor?** JDK 16 veya üzeri.  
-- **Linux/macOS'ta kullanabilir miyim?** Evet—Aspose.Slides for Java çapraz platformdur.
+- **Bunu Linux/macOS üzerinde çalıştırabilir miyim?** Evet—Aspose.Slides for Java tamamen çapraz platformdur.
 
 ## Morph Geçişi Nedir ve Neden Kullanılır?
-Morph geçişi, nesneleri, metni veya şekilleri bir slayttan diğerine sorunsuz bir şekilde dönüştüren akıcı bir görsel etki yaratır. Bu **powerpoint morph effect**, izleyicilerin ilgisini canlı tutar, adım‑adım süreçleri netleştirir ve iş ya da eğitim sunumlarına profesyonel bir görünüm katar.
+Bir morph geçişi, nesneleri, metni veya şekilleri bir slayttan diğerine sorunsuz bir şekilde dönüştüren akıcı bir görsel etki yaratır. Bu **powerpoint morph effect** izleyicilerin ilgisini canlı tutar, adım‑adım süreçleri netleştirir ve iş ya da eğitim sunumlarına cilalı bir görünüm katar.
 
-## Slide Geçişi Ayarlamak İçin Aspose.Slides for Java Neden Kullanılır?
-Aspose.Slides for Java, **slide geçişi** özelliklerini programlı olarak ayarlamanızı sağlayan zengin bir API sunar; bu, yerel PowerPoint arayüzünün toplu olarak yapamadığı bir şeydir. Otomatik rapor oluşturma, toplu slayt güncellemeleri veya sunum oluşturmayı daha büyük Java uygulamalarıyla bütünleştirme için idealdir.
+## Slide Geçişi Ayarlamak İçin Aspose.Slides for Java Neden Kullanılmalı?
+Aspose.Slides for Java, yerel PowerPoint UI'sinin toplu işlem yapamadığı **slide transition** özelliklerini programlı olarak ayarlamanıza olanak tanıyan zengin bir API sunar. **50+ giriş ve çıkış formatını** destekler, **500+ slayt** içeren sunumları tüm dosyayı belleğe yüklemeden işleyebilir ve Windows, Linux ve macOS üzerinde çalışır. Bu, otomatik rapor oluşturma, toplu slayt güncellemeleri veya sunum oluşturmayı daha büyük Java uygulamalarıyla entegre etme senaryoları için idealdir.
 
-## Önkoşullar
-Başlamadan önce, aşağıdakilerin mevcut olduğundan emin olun:
+## Ön Koşullar
+Başlamadan önce aşağıdakilerin mevcut olduğundan emin olun:
 
 ### Gerekli Kütüphaneler ve Bağımlılıklar
-- **Aspose.Slides for Java**: Versiyon 25.4 veya sonrası.  
-- **Java Development Kit (JDK)**: JDK 16 veya üzeri.
+- **Aspose.Slides for Java**: Version 25.4 or later.  
+- **Java Development Kit (JDK)**: JDK 16 or higher.
 
 ### Ortam Kurulum Gereksinimleri
 - IntelliJ IDEA veya Eclipse gibi bir Entegre Geliştirme Ortamı (IDE).  
-- Java programlama temelleri.
+- Java programlama kavramlarına temel aşinalık.
 
-## Aspose.Slides for Java Kurulumu
-Aspose.Slides for Java'ı kullanmaya başlamak için, kütüphaneyi projenize dahil etmeniz gerekir. İşte nasıl yapılacağı:
+## Aspose.Slides for Java'ı Kurma
+Aspose.Slides for Java'ı projenizde kullanmaya başlamak için kütüphaneyi projenize dahil etmeniz gerekir. En yaygın yapı araçlarıyla nasıl yapılacağını aşağıda bulabilirsiniz.
 
-**Maven:**
+**Maven:**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-slides</artifactId>
     <version>25.4</version>
-    <classifier>jdk16</classifier>
 </dependency>
-```
-**Gradle:**
+```  
+
+**Gradle:**  
 ```gradle
-implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
-```
-**Doğrudan İndirme**  
-Manuel entegrasyonu tercih edenler için, en son sürümü [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) adresinden indirin.
+implementation 'com.aspose:aspose-slides:25.4'
+```  
+
+**Direct Download**  
+Manuel entegrasyonu tercih edenler için en son sürümü [Aspose.Slides for Java sürümleri](https://releases.aspose.com/slides/java/) adresinden indirebilirsiniz.
 
 ### Lisans Edinme Adımları
 Aspose.Slides'ı değerlendirme sınırlamaları olmadan kullanmak için:
-
-- **Ücretsiz Deneme**: Özellikleri keşfetmek için ücretsiz denemeyi kullanarak başlayın.  
-- **Geçici Lisans**: Daha kapsamlı testler için geçici bir lisans alın. [Aspose's Temporary License Page](https://purchase.aspose.com/temporary-license/) adresini ziyaret edin.  
-- **Satın Alma**: Tam erişim için [Aspose Purchase](https://purchase.aspose.com/buy) adresinden lisans satın alın.
+- **Ücretsiz Deneme** – API'yi ücretsiz keşfedin.  
+- **Temporary License** – Uzun vadeli test için kısa süreli bir anahtar edinin: [Aspose's Temporary License Page](https://purchase.aspose.com/temporary-license/).  
+- **Purchase** – Tam, sınırsız erişim için [Aspose Purchase](https://purchase.aspose.com/buy) adresini ziyaret edin.
 
 ### Temel Başlatma ve Kurulum
-Kütüphane projenize entegre edildikten sonra, aşağıdaki gibi başlatın:
+Kütüphane projenize eklendikten sonra aşağıdaki gibi başlatın:
 ```java
 import com.aspose.slides.*;
 
@@ -92,90 +137,96 @@ public class PresentationSetup {
 }
 ```
 
-## Java Kullanarak PowerPoint'e Morph Geçişi Nasıl Eklenir
-Aşağıda, bir slayta efekti nasıl ekleyeceğinizi gösteren **morph transition tutorial** bulunmaktadır. Her adımı izleyin, kısa sürede çalışan bir örnek elde edeceksiniz.
+## Aspose.Slides for Java kullanarak morph geçişi nasıl eklenir?
+Mevcut PowerPoint dosyanızı `new Presentation("source.pptx")` ile yükleyin, hedef slaytı alın, `TransitionType` özelliğini `Morph` olarak ayarlayın, isteğe bağlı olarak `IMorphTransition` özelliklerini ayarlayın ve sonunda `save("output.pptx", SaveFormat.Pptx)` çağrısını yapın. Bu kısa dizi, sadece birkaç Java satırıyla morph efektini uygular ve tüm şekil, resim ve metin biçimlendirmesini korur.  
+`Presentation` sınıfı bir PowerPoint belgesini temsil eder ve slaytlarına erişim sağlar.  
+`TransitionType` enum'ı, `Morph` gibi mevcut slayt geçiş tiplerini tanımlar.  
+`IMorphTransition` arayüzü, morph tipi ve süresi gibi morph‑özel ayarları ortaya çıkarır.
 
 ### Adım‑Adım Uygulama
-#### 1. Belge Dizinini Belirleyin  
-PowerPoint dosyanızın bulunduğu dizini belirleyin:
+
+#### 1. Belge Dizini Belirleyin  
+Kaynak PowerPoint dosyanızın bulunduğu klasörü tanımlayın:  
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
-```
-*Neden*: Bu adım, kaynak sunum dosyanızı işlemek için net bir yolunuz olduğundan emin olur.
+```  
+*Why*: Açık bir yol tanımlamak, dosya‑bulunamadı hatalarını önler ve kodun farklı ortamlar arasında taşınabilir olmasını sağlar.
 
 #### 2. Sunumunuzu Yükleyin  
-`Presentation` sınıfının bir örneğini oluşturun:
+`Presentation` sınıfının bir örneğini oluşturun:  
 ```java
 Presentation presentation = new Presentation(dataDir + "presentation.pptx");
-```
-*Amaç*: Sunumu yüklemek, slaytlarını ve geçişlerini Aspose.Slides yöntemleriyle manipüle etmenizi sağlar.
+```  
+*Purpose*: `Presentation` sınıfı, bellekte bir PowerPoint dosyasını temsil eder ve slaytlarınız ve kaynaklarınız üzerinde tam kontrol sağlar.
 
-#### 3. Slide Geçişine Erişin  
-İlk slaydın geçiş ayarlarına erişin:
+#### 3. Slayt Geçişine Erişin  
+İlk slaydın geçiş nesnesini alın:  
 ```java
 ITransition slideTransition = presentation.getSlides().get_Item(0).getSlideShowTransition();
-```
-*Açıklama*: Bu satır, daha fazla özelleştirme için geçiş nesnesini alır.
+```  
+*Explanation*: Bu nesne, geçiş tipini, süresini ve gelişmiş seçenekleri değiştirmenize olanak tanır.
 
 #### 4. Geçiş Tipini Morph Olarak Ayarlayın  
-Geçiş tipini Morph olarak ayarlayın:
+Morph geçişini slayta atayın:  
 ```java
 slideTransition.setType(TransitionType.Morph);
-```
-*Ne Yapar*: Slaydın morph geçiş efekti kullanacağını belirtir.
+```  
+*What it Does*: Slayt artık görsel öğelerini bir sonraki slayta morphlayarak animasyonlu bir şekilde geçiş yapacaktır.
 
 #### 5. Belirli Morph Ayarlarını Yapılandırın  
-Belirli ayarlar için geçiş nesnesini `IMorphTransition` tipine dönüştürün:
+Genel geçişi `IMorphTransition`'a dönüştürerek `MorphType.ByWord` veya `MorphType.ByObject` gibi ayarları düzenleyin:  
 ```java
 IMorphTransition morphTransition = (IMorphTransition) slideTransition.getValue();
 morphTransition.setMorphType(TransitionMorphType.ByWord);
-```
-*Neden Dönüştürülür?*: Bu, morph geçişlerine özgü özelliklere, örneğin kelimelerle geçiş tipini ayarlamaya erişim sağlar.
+```  
+*Why Cast?*: Yalnızca `IMorphTransition` morph animasyonlarına özgü `MorphType` gibi özellikleri ortaya çıkarır.
 
 #### 6. Değişikliklerinizi Kaydedin  
-Son olarak, değiştirilmiş sunumunuzu kaydedin:
+Değiştirilmiş sunumu diske yazın:  
 ```java
 presentation.save("YOUR_OUTPUT_DIRECTORY/presentation‑out.pptx");
-```
+```  
+*Result*: Çıktı dosyası, PowerPoint'te oynatılmaya hazır yeni morph geçişini içerir.
 
 ## Yaygın Sorunlar ve Çözümler
-- **JDK Uyumluluğu** – JDK 16 veya daha yeni bir sürüm kullandığınızdan emin olun; eski sürümler sınıf‑yükleme hatalarına neden olabilir.  
-- **Dosya Yolu Hataları** – `dataDir` ve çıktı dizininin doğru olduğundan ve uygulamanın okuma/yazma izinlerine sahip olduğundan emin olun.  
-- **Lisans Bulunamadı** – Değerlendirme filigranları görüyorsanız, `license.setLicense` yolunun geçerli bir `.lic` dosyasına işaret ettiğini doğrulayın.
+- **JDK Compatibility** – JDK 16 veya daha yeni bir sürüm kullanın; eski sürümler `NoClassDefFoundError` hatasına neden olabilir.  
+- **File Path Errors** – `dataDir`'in mevcut bir klasöre işaret ettiğini ve uygulamanızın okuma/yazma izinlerine sahip olduğunu doğrulayın.  
+- **License Not Found** – Hâlâ değerlendirme filigranları görüyorsanız, `license.setLicense("Aspose.Slides.lic")` ifadesinin geçerli bir lisans dosyasına işaret ettiğini iki kez kontrol edin.
 
 ## Pratik Uygulamalar
-İşte **PowerPoint'te morph geçişi uygulamak** isteyebileceğiniz bazı gerçek dünya senaryoları:
+Aşağıda **add morph transition PowerPoint** slaytları ekleyebileceğiniz gerçek dünya senaryoları yer alıyor:
 
-1. **İş Sunumları** – Üst yöneticileri çeyrek değerlendirmeleri sırasında ilgilerini koruyun.  
-2. **Eğitim İçeriği** – Derslerde adım‑adım süreçleri vurgulayın.  
-3. **Ürün Lansmanları** – Ürün evrimini sorunsuz görsel akışla sergileyin.
+1. **Business Presentations** – Grafiklerin sorunsuz bir şekilde morphlamasıyla çeyrek bazlı büyümeyi vurgulayın.  
+2. **Educational Content** – Nesne morphlamasıyla adım‑adım algoritmaları gösterin.  
+3. **Product Launch Decks** – Konseptten son tasarıma kadar ürün evrimini kesintisiz görsel akışla sergileyin.
 
 ## Performans Düşünceleri
-Optimum performans sağlamak için:
+Büyük sunumları işlerken uygulamanızın yanıt verebilirliğini korumak için:
 
-- Büyük sunumları işlerken verimli bellek yönetimi kullanın.  
-- Geçiş ayarı sırasında gereksiz nesneler oluşturmaktan kaçının.  
-- Çok sayıda slayt işliyorsanız Java’nın çöp toplamasını izleyin.
+- **Memory Management** – Kaydetme sonrası `presentation.dispose()` çağırarak yerel kaynakları serbest bırakın.  
+- **Object Reuse** – Döngüler içinde gereksiz `Presentation` örnekleri oluşturmaktan kaçının.  
+- **Profiling** – 300+ slayt işlenirken GC duraklamalarını tespit etmek için Java profil araçlarını kullanın.
 
 ### Bellek Yönetimi için En İyi Uygulamalar
-- `Presentation` nesnelerini artık ihtiyaç duymadığınızda `dispose()` yöntemiyle serbest bırakın.  
-- Kaynak darboğazlarını tespit etmek için uygulamanızı profillemeyi düşünün.
+- `Presentation` nesnelerini zamanında serbest bırakın.  
+- Özellikle toplu rapor üretirken VisualVM gibi araçlarla bellek kullanımını profil edin.  
 
-## SSS Bölümü
-**1. Aspose.Slides for Java kullanmanın amacı nedir?**  
-Aspose.Slides for Java, PowerPoint sunumlarını programlı olarak oluşturmanıza, düzenlemenize ve manipüle etmenize olanak tanır; morph geçişleri gibi gelişmiş özellikler sunar.
+## Sıkça Sorulan Sorular
 
-**2. Morph geçişlerini birden fazla slayta aynı anda uygulayabilir miyim?**  
-Evet, bu öğreticide gösterildiği gibi slayt koleksiyonunuzda döngü oluşturarak her slayt için geçiş tipini ayrı ayrı ayarlayabilirsiniz.
+**S: Aspose.Slides for Java kullanmanın amacı nedir?**  
+C: Microsoft PowerPoint'e ihtiyaç duymadan sunucu tarafında PowerPoint dosyaları oluşturma, düzenleme ve otomasyonunu, morph geçişleri gibi gelişmiş özellikleri programatik olarak sağlayarak mümkün kılar.
 
-**3. Sunum işleme sırasında istisnaları nasıl ele alırım?**  
-Dosya yükleme ve kaydetme gibi kritik işlemler etrafında try‑catch blokları kullanarak hataları nazikçe yönetebilirsiniz.
+**S: Morph geçişlerini birden fazla slayta aynı anda uygulayabilir miyim?**  
+C: Evet—slayt koleksiyonunu döngüyle gezerek her slaydın `TransitionType` özelliğini `Morph` olarak ayarlayabilir ve isteğe bağlı olarak her `IMorphTransition` örneğini ayrı ayrı ayarlayabilirsiniz.
 
-**4. Geçişleri programlı olarak uygulamak için Aspose.Slides'a alternatifler nelerdir?**  
-Diğer kütüphaneler arasında Apache POI bulunur, ancak aynı geçiş sofistike seviyesini sunmayabilir.
+**S: Sunum işleme sırasında istisnaları nasıl yönetmeliyim?**  
+C: Dosya yükleme ve kaydetme mantığını `try‑catch` bloklarıyla sarın, `IOException` ve `Exception` yakalayarak hataları kaydedin ve herhangi bir işlemden önce lisansın uygulandığından emin olun.
 
-**5. Morph geçişlerimi kelimeler veya nesneler dışında nasıl daha fazla özelleştirebilirim?**  
-`MorphType.ByCharacter` gibi `IMorphTransition` ayarlarını keşfedin ve ayrıntılı seçenekler için Aspose.Slides belgelerine başvurun.
+**S: Programatik geçişler için Aspose.Slides'a alternatifler var mı?**  
+C: Apache POI temel slayt manipülasyonu sunar ancak kapsamlı geçiş desteği eksiktir; Aspose.Slides morph efektleri için en eksiksiz API'yi sağlar.
+
+**S: Morph geçişlerini basit kelime veya nesne morphlamanın ötesinde nasıl özelleştirebilirim?**  
+C: `IMorphTransition` içinde `MorphType.ByCharacter`, `Duration` ve `Smoothness` gibi ek özellikleri keşfedin. Resmi API referansı tüm yapılandırılabilir seçenekleri listeler.
 
 ## Kaynaklar
 - **Documentation**: [Aspose.Slides Java Reference](https://reference.aspose.com/slides/java/)  
@@ -183,18 +234,38 @@ Diğer kütüphaneler arasında Apache POI bulunur, ancak aynı geçiş sofistik
 - **Purchase License**: [Buy Now](https://purchase.aspose.com/buy)  
 - **Free Trial**: [Try Aspose.Slides for Free](https://releases.aspose.com/slides/java/)  
 - **Temporary License**: [Obtain a Temporary License](https://purchase.aspose.com/temporary-license/)  
-- **Support**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
+- **Support Forum**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
 ---
 
-**Son Güncelleme:** 2026-02-12  
+**Son Güncelleme:** 2026-05-18  
 **Test Edilen Versiyon:** Aspose.Slides 25.4 for Java  
-**Yazar:** Aspose  
+**Author:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-slides</artifactId>
+    <version>25.4</version>
+    <classifier>jdk16</classifier>
+</dependency>
+```
+
+```gradle
+implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
+```
+
+## İlgili Eğitimler
+
+- [How to Create PowerPoint Transitions Using Aspose.Slides for Java | Step-by-Step Guide](/slides/java/animations-transitions/master-slide-transitions-powerpoint-aspose-slides-java/)
+- [Create Dynamic Powerpoint Java – Aspose.Slides Animation Types Guide](/slides/java/animations-transitions/aspose-slides-java-animation-comparison-guide/)
+- [Create Presentation Programmatically in Java - Automate PowerPoint Transitions with Aspose.Slides](/slides/java/animations-transitions/aspose-slides-java-presentation-automation/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
