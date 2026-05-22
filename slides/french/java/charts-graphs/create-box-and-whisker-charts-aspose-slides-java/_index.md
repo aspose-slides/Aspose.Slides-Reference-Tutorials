@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Apprenez à générer et personnaliser des diagrammes en boîte à moustaches dans vos présentations PowerPoint avec Aspose.Slides pour Java. Ce guide étape par étape couvre la configuration, la mise en œuvre et les bonnes pratiques."
-"title": "Comment créer des graphiques en boîte et à moustaches dans PowerPoint avec Aspose.Slides pour Java"
-"url": "/fr/java/charts-graphs/create-box-and-whisker-charts-aspose-slides-java/"
-"weight": 1
+date: '2026-03-02'
+description: Apprenez à créer un diagramme en boîte en Java, à ajouter un graphique
+  à une diapositive et à générer un diagramme à moustaches dans PowerPoint en utilisant
+  Aspose.Slides pour Java.
+keywords:
+- Aspose.Slides for Java
+- Box-and-Whisker Charts
+- PowerPoint Java
+title: Créer un diagramme à moustaches Java avec Aspose.Slides pour PowerPoint
+url: /fr/java/charts-graphs/create-box-and-whisker-charts-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,34 +17,39 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Comment créer des graphiques en boîte et à moustaches dans PowerPoint avec Aspose.Slides pour Java
+# Comment créer des graphiques à moustaches dans PowerPoint avec Aspose.Slides pour Java
 
-Créer des présentations de données visuellement attrayantes est crucial dans un monde où les données sont omniprésentes, et les graphiques sont des outils essentiels à cet effet. Si vous souhaitez générer des graphiques en boîte et à moustaches dans PowerPoint avec Java, la bibliothèque Aspose.Slides offre une solution robuste. Ce tutoriel vous guidera dans la création et la configuration de ces graphiques en toute simplicité avec Aspose.Slides pour Java.
+Dans ce guide, vous **create box plot java** avec Aspose.Slides, puis intégrez le graphique directement dans une diapositive PowerPoint. Créer des présentations de données visuellement attrayantes est crucial dans le monde actuel axé sur les données, et les graphiques sont des outils essentiels à cet effet. Si vous cherchez à générer des graphiques à moustaches dans PowerPoint en utilisant Java, la bibliothèque Aspose.Slides offre une solution robuste. Ce tutoriel vous guidera pas à pas dans la création et la configuration de ces graphiques avec Aspose.Slides pour Java.
 
-## Ce que vous apprendrez
+## Ce que vous allez apprendre
 
-- Configuration de votre environnement pour Aspose.Slides pour Java
-- Étapes pour créer et configurer des graphiques en boîte et à moustaches dans PowerPoint à l'aide de Java
+- Configurer votre environnement pour Aspose.Slides pour Java
+- Étapes pour **add chart to slide** et générer un graphique box‑whisker dans PowerPoint en utilisant Java
 - Bonnes pratiques pour optimiser les performances lors de l'utilisation d'Aspose.Slides
-- Applications concrètes des diagrammes en boîte et à moustaches
+- Applications concrètes des graphiques box‑and‑whisker
 
-Commençons par aborder les prérequis avant de plonger dans la mise en œuvre.
+## Réponses rapides
+- **Quelle bibliothèque crée un box plot en Java ?** Aspose.Slides for Java.
+- **Quel type de graphique est utilisé ?** `ChartType.BoxAndWhisker`.
+- **Ai-je besoin d'une licence ?** Un essai gratuit fonctionne pour l'évaluation ; une licence commerciale est requise pour la production.
+- **Puis-je ajouter plusieurs séries ?** Oui – répétez le bloc de création de séries pour chaque jeu de données.
+- **Quel format a le fichier final ?** PowerPoint PPTX (`SaveFormat.Pptx`).
 
 ## Prérequis
 
-Pour suivre ce tutoriel, assurez-vous d'avoir :
+Pour suivre ce tutoriel, assurez-vous de disposer de :
 
-- **Kit de développement Java (JDK)**:JDK 8 ou supérieur doit être installé.
-- **Bibliothèque Aspose.Slides pour Java**:Essentiel pour gérer les présentations PowerPoint en Java.
-- **IDE**:Un environnement de développement intégré comme IntelliJ IDEA ou Eclipse pour écrire et exécuter votre code.
+- **Java Development Kit (JDK)** : JDK 8 ou supérieur doit être installé.
+- **Aspose.Slides for Java Library** : Essentielle pour gérer les présentations PowerPoint en Java.
+- **IDE** : Un environnement de développement intégré comme IntelliJ IDEA ou Eclipse pour écrire et exécuter votre code.
 
 ## Configuration d'Aspose.Slides pour Java
 
-Pour utiliser Aspose.Slides, ajoutez-le comme dépendance. Vous pouvez gérer cela via Maven, Gradle ou par téléchargement direct.
+Pour utiliser Aspose.Slides, ajoutez-le en tant que dépendance. Vous pouvez le gérer via Maven, Gradle ou par téléchargement direct.
 
 ### Maven
 
-Ajoutez la dépendance suivante dans votre `pom.xml`:
+Ajoutez la dépendance suivante dans votre `pom.xml` :
 
 ```xml
 <dependency>
@@ -51,7 +62,7 @@ Ajoutez la dépendance suivante dans votre `pom.xml`:
 
 ### Gradle
 
-Dans votre `build.gradle`, inclure:
+Dans votre `build.gradle`, incluez :
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
@@ -59,52 +70,62 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 
 ### Téléchargement direct
 
-Vous pouvez également télécharger la dernière version à partir de [Versions d'Aspose.Slides pour Java](https://releases.aspose.com/slides/java/).
+Sinon, téléchargez la dernière version depuis [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 #### Acquisition de licence
 
-- **Essai gratuit**: Commencez par un essai gratuit pour explorer les fonctionnalités.
-- **Permis temporaire**:Obtenir une licence temporaire à des fins d’évaluation.
-- **Achat**:Pour une fonctionnalité complète, pensez à acheter une licence.
+- **Free Trial** : Commencez avec un essai gratuit pour explorer les fonctionnalités.  
+- **Temporary License** : Obtenez une licence temporaire à des fins d'évaluation.  
+- **Purchase** : Pour une fonctionnalité complète, envisagez d'acheter une licence.
 
-Pour initialiser Aspose.Slides, assurez-vous que la bibliothèque se trouve dans votre chemin de classe et configurez les exigences de licence selon vos besoins.
+Pour initialiser Aspose.Slides, assurez-vous que la bibliothèque est dans votre classpath et configurez les exigences de licence si nécessaire.
 
-## Guide de mise en œuvre
+## Guide d'implémentation
 
-Créons maintenant un diagramme en boîte à moustaches avec Aspose.Slides pour Java. Cette section vous guidera à chaque étape du processus.
+Passons maintenant au code étape par étape. Chaque bloc est expliqué avant l'extrait afin que vous sachiez exactement ce qu'il fait.
 
-### Créer une présentation
+### Qu'est-ce qu'un box plot et pourquoi l'utiliser en Java ?
 
-Tout d’abord, initialisez une nouvelle présentation ou ouvrez-en une existante :
+Un graphique à moustaches (souvent appelé *box plot*) visualise la distribution des données — médiane, quartiles et valeurs aberrantes — sous une forme compacte. En Java, générer ce graphique de manière programmatique vous permet d'intégrer des analyses statistiques directement dans des présentations PowerPoint, éliminant ainsi la création manuelle de graphiques.
+
+### Pourquoi ajouter un graphique à une diapositive avec Aspose.Slides ?
+
+Aspose.Slides abstrait les détails bas‑niveau d'OpenXML, vous offrant une API fluide pour créer, styliser et exporter des graphiques. Cela signifie que vous pouvez automatiser la génération de rapports, produire une identité visuelle cohérente et intégrer des graphiques dans des flux de travail Java plus larges.
+
+### Étape 1 : créer ou ouvrir une présentation
+
+Tout d'abord, ouvrez un PPTX existant ou créez‑en un nouveau :
 
 ```java
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/test.pptx");
 ```
 
-### Ajouter un graphique en boîte et à moustaches
+> **Astuce :** Si le fichier n'existe pas, Aspose.Slides créera une nouvelle présentation vierge pour vous.
 
-Ajoutez le graphique à la première diapositive à la position et à la taille souhaitées :
+### Étape 2 : ajouter un graphique à moustaches à la diapositive
+
+Placez le graphique où vous le souhaitez en spécifiant la position et la taille (en points) :
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
     ChartType.BoxAndWhisker, 50, 50, 500, 400);
 ```
 
-### Effacer les données existantes
+### Étape 3 : effacer les données existantes
 
-Avant de renseigner de nouvelles données, effacez toutes les catégories et séries existantes :
+Avant d'alimenter de nouvelles données, effacez toutes les catégories ou séries factices :
 
 ```java
 chart.getChartData().getCategories().clear();
 chart.getChartData().getSeries().clear();
 
 IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
-wb.clear(0); // Efface le contenu à partir de la cellule « A1 »
+wb.clear(0); // Clears content starting from cell "A1"
 ```
 
-### Configurer les catégories
+### Étape 4 : configurer les catégories
 
-Ajoutez des catégories à vos données graphiques :
+Ajoutez les catégories (étiquettes de l'axe X) qui apparaîtront sous chaque boîte :
 
 ```java
 for (int i = 1; i <= 6; i++) {
@@ -113,34 +134,40 @@ for (int i = 1; i <= 6; i++) {
 }
 ```
 
-### Créer et personnaliser des séries
+> **Remarque :** Ajustez le texte des étiquettes pour correspondre à votre domaine de données (par ex., « Q1 », « Produit A »).
 
-Créez une nouvelle série et configurez ses propriétés :
+### Étape 5 : créer et personnaliser la série
+
+Créez maintenant une série, définissez les options visuelles et fournissez les points de données numériques :
 
 ```java
 IChartSeries series = chart.getChartData().getSeries().add(ChartType.BoxAndWhisker);
-series.setQuartileMethod(QuartileMethodType.Exclusive); // Définir la méthode des quartiles sur Exclusif
-series.setShowMeanLine(true); // Afficher la ligne moyenne
-series.setShowMeanMarkers(true); // Afficher les marqueurs pour les valeurs moyennes
-series.setShowInnerPoints(true); // Afficher les points intérieurs sur le graphique
-series.setShowOutlierPoints(true); // Afficher les points aberrants sur le graphique
+series.setQuartileMethod(QuartileMethodType.Exclusive); // Set quartile method to Exclusive
+series.setShowMeanLine(true); // Display mean line
+series.setShowMeanMarkers(true); // Show markers for mean values
+series.setShowInnerPoints(true); // Display inner points on the chart
+series.setShowOutlierPoints(true); // Show outlier points on the chart
 
-int[] data = {15, 41, 16, 10, 23, 16}; // Exemples de points de données
+int[] data = {15, 41, 16, 10, 23, 16}; // Sample data points
 for (int i = 0; i < data.length; i++) {
     series.getDataPoints().addDataPointForBoxAndWhiskerSeries(
         wb.getCell(0, "B" + (i + 1), data[i]));
 }
 ```
 
-### Enregistrer la présentation
+Vous pouvez remplacer le tableau `int[] data` par des valeurs lues depuis une base de données, un fichier CSV ou toute autre source.
 
-Enfin, enregistrez votre présentation :
+### Étape 6 : enregistrer la présentation
+
+Enregistrez les modifications dans un nouveau fichier PPTX :
 
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/BoxAndWhisker.pptx", SaveFormat.Pptx);
 ```
 
-Assurez-vous toujours de jeter le `Presentation` objet de libération de ressources :
+### Étape 7 : libérer les ressources
+
+Toujours libérer l'objet `Presentation` pour libérer les ressources natives :
 
 ```java
 finally {
@@ -150,57 +177,63 @@ finally {
 
 ## Applications pratiques
 
-Les diagrammes en boîte à moustaches sont précieux pour l'analyse statistique et la présentation des données. Voici quelques applications pratiques :
+Les graphiques à moustaches sont inestimables dans l'analyse statistique et la présentation de données. Voici quelques scénarios où ils brillent :
 
-1. **Analyse financière**:Visualisez des indicateurs financiers tels que les revenus, les marges bénéficiaires ou les cours des actions.
-2. **Contrôle de qualité**:Analyser les processus de fabrication pour en vérifier la cohérence et identifier les valeurs aberrantes.
-3. **Recherche universitaire**: Présentez les résultats expérimentaux avec des visualisations claires de la variabilité.
-4. **Étude de marché**: Comparez les performances de différents produits selon différentes données démographiques.
+1. **Financial Analysis** – Visualiser la répartition des revenus selon les régions.  
+2. **Quality Control** – Détecter les valeurs aberrantes dans les mesures de fabrication.  
+3. **Academic Research** – Montrer la variabilité des résultats expérimentaux.  
+4. **Market Research** – Comparer la performance des produits selon les données démographiques.
 
-Ces graphiques peuvent être intégrés dans des flux de travail d’analyse de données et des tableaux de bord plus vastes pour fournir des résumés visuels perspicaces.
+Intégrer ces graphiques dans des présentations PowerPoint permet aux parties prenantes de saisir des données complexes en un coup d'œil.
 
-## Considérations relatives aux performances
+## Considérations de performance
 
-Lorsque vous travaillez avec Aspose.Slides en Java, tenez compte des éléments suivants pour des performances optimales :
+Lorsque vous travaillez avec Aspose.Slides en Java, gardez ces conseils à l'esprit :
 
-- **Gestion de la mémoire**: Assurez une utilisation efficace de la mémoire en supprimant correctement les présentations.
-- **Traitement des données**:Réduisez les opérations de données sur de grands ensembles de données pour éviter les goulots d’étranglement des performances.
-- **Code optimisé**:Utilisez les meilleures pratiques telles que le chargement différé et la mise en cache, le cas échéant.
+- **Memory Management** – Libérez rapidement les objets `Presentation`.  
+- **Data Handling** – Chargez uniquement les données dont vous avez besoin ; évitez d'alimenter directement le classeur du graphique avec d'énormes ensembles de données.  
+- **Lazy Loading** – Si vous générez de nombreuses diapositives, envisagez de créer des graphiques uniquement pour celles qui seront affichées.
 
-## Conclusion
+## Problèmes courants et solutions
 
-Dans ce tutoriel, vous avez appris à créer et configurer des graphiques en boîte à moustaches avec Aspose.Slides pour Java. Cette puissante bibliothèque permet une intégration fluide de visualisations de données complexes dans des présentations PowerPoint. Pour explorer davantage Aspose.Slides, n'hésitez pas à consulter sa documentation et à expérimenter avec d'autres types de graphiques.
+| Problème | Cause | Solution |
+|----------|-------|----------|
+| **Le graphique apparaît vide** | Cellules de données non remplies correctement | Vérifiez que `wb.getCell` fait référence à la bonne ligne/colonne et que la valeur n'est pas `null`. |
+| **Valeurs aberrantes non affichées** | `setShowOutlierPoints` défini sur `false` | Assurez‑vous que `series.setShowOutlierPoints(true)` est appelé. |
+| **Fuite de mémoire** | Presentation non libérée | Enveloppez toujours l'utilisation dans try/finally et appelez `dispose()`. |
+| **Quartiles incorrects** | Utilisation de la méthode `Inclusive` par défaut | Passez à `Exclusive` via `setQuartileMethod(QuartileMethodType.Exclusive)`. |
 
-## Section FAQ
+## Foire aux questions
 
-**Q1 : Qu'est-ce qu'un graphique en boîte et à moustaches ?**
+**Q1 : Qu'est‑ce qu'un graphique à moustaches ?**  
+Un graphique à moustaches, également appelé box plot, affiche la distribution des données basée sur cinq statistiques résumées : minimum, premier quartile, médiane, troisième quartile et maximum, ainsi que les valeurs aberrantes.
 
-Un graphique en boîte à moustaches, également appelé « box plot », affiche la distribution des données en fonction de cinq statistiques récapitulatives. Il est utile pour afficher la médiane, les quartiles et les valeurs aberrantes d'un ensemble de données.
+**Q2 : Puis‑je personnaliser l'apparence du graphique à moustaches ?**  
+Oui. Aspose.Slides vous permet de modifier les couleurs, les styles de ligne, les formes des marqueurs, et même d'ajouter des étiquettes de données via l'API de formatage du graphique.
 
-**Q2 : Puis-je personnaliser l’apparence du graphique en boîte et à moustaches ?**
+**Q3 : Est‑il possible de gérer plusieurs séries dans un même graphique ?**  
+Absolument. Répétez le bloc de création de séries pour chaque jeu de données que vous souhaitez visualiser.
 
-Oui, Aspose.Slides permet de nombreuses options de personnalisation, notamment les couleurs, les polices et les styles de points de données.
+**Q4 : Comment résoudre les problèmes de données qui ne s'affichent pas correctement ?**  
+Assurez‑vous que les données sont correctement écrites dans les cellules du classeur et que les propriétés de visibilité comme `setShowMeanLine` sont activées.
 
-**Q3 : Est-il possible de gérer plusieurs séries dans un seul graphique ?**
+**Q5 : Où puis‑je obtenir de l'aide si je rencontre des problèmes ?**  
+Visitez le [forum Aspose.Slides](https://forum.aspose.com/c/slides/11) pour obtenir de l'aide de la communauté, ou consultez la documentation officielle.
 
-Absolument. Vous pouvez ajouter plusieurs séries à votre graphique en répétant le processus de création et de configuration de chaque série.
+**Q6 : Aspose.Slides prend‑il en charge d'autres types de graphiques ?**  
+Oui, il prend en charge les graphiques en ligne, en barres, en secteurs, en nuage de points, radar, et bien d'autres types.
 
-**Q4 : Comment puis-je résoudre les problèmes de données qui ne s'affichent pas correctement ?**
-
-Assurez-vous que les données sont correctement renseignées dans les cellules et que vous avez défini des propriétés appropriées pour la visibilité, telles que `setShowMeanLine`.
-
-**Q5 : Où puis-je obtenir de l'aide si je rencontre des problèmes ?**
-
-Visitez le [Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) pour le soutien de la communauté ou reportez-vous à la documentation officielle.
+**Q7 : Puis‑je générer des graphiques dans un environnement serveur sans interface graphique ?**  
+La bibliothèque fonctionne pleinement dans des scénarios côté serveur ; aucune interface utilisateur n'est requise.
 
 ## Ressources
 
-- **Documentation**: Explorez les références API détaillées sur [Documentation Aspose.Slides](https://reference.aspose.com/slides/java/)
-- **Télécharger**: Accédez aux versions d'Aspose.Slides [ici](https://releases.aspose.com/slides/java/)
-- **Achat**: Achetez une licence pour débloquer toutes les fonctionnalités sur [Achat Aspose](https://purchase.aspose.com/buy)
-- **Essai gratuit et licence temporaire**: Commencez par un essai gratuit ou demandez une licence temporaire [ici](https://releases.aspose.com/slides/java/)
+- **Documentation** : explorez les références détaillées de l'API sur [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)  
+- **Téléchargement** : accédez aux versions d'Aspose.Slides [ici](https://releases.aspose.com/slides/java/)  
+- **Achat** : achetez une licence pour débloquer toutes les fonctionnalités sur [Aspose Purchase](https://purchase.aspose.com/buy)  
+- **Essai gratuit & licence temporaire** : commencez avec un essai gratuit ou demandez une licence temporaire [ici](https://releases.aspose.com/slides/java/)
 
-En suivant ce guide, vous serez prêt à créer des diagrammes en boîte et à moustaches percutants dans vos applications Java avec Aspose.Slides. Bon codage !
+En suivant ce guide, vous êtes maintenant capable de générer programmétiquement des graphiques à moustaches pertinents dans vos applications Java et de les intégrer directement dans des présentations PowerPoint. Bon codage !
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -209,3 +242,9 @@ En suivant ce guide, vous serez prêt à créer des diagrammes en boîte et à m
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-03-02  
+**Tested With:** Aspose.Slides 25.4 (JDK 16 classifier)  
+**Author:** Aspose

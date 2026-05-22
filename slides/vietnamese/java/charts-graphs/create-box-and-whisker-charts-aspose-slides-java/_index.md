@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-17"
-"description": "Tìm hiểu cách tạo và tùy chỉnh biểu đồ hộp và râu trong bản trình bày PowerPoint bằng Aspose.Slides for Java. Hướng dẫn từng bước này bao gồm thiết lập, triển khai và các biện pháp thực hành tốt nhất."
-"title": "Cách tạo biểu đồ Box-and-Whisker trong PowerPoint bằng Aspose.Slides cho Java"
-"url": "/vi/java/charts-graphs/create-box-and-whisker-charts-aspose-slides-java/"
-"weight": 1
+date: '2026-03-02'
+description: Tìm hiểu cách tạo biểu đồ hộp trong Java, thêm biểu đồ vào slide và tạo
+  biểu đồ hộp râu trong PowerPoint bằng Aspose.Slides cho Java.
+keywords:
+- Aspose.Slides for Java
+- Box-and-Whisker Charts
+- PowerPoint Java
+title: Tạo biểu đồ hộp Java bằng Aspose.Slides cho PowerPoint
+url: /vi/java/charts-graphs/create-box-and-whisker-charts-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,34 +16,39 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Cách tạo biểu đồ Box-and-Whisker trong PowerPoint bằng Aspose.Slides cho Java
+# Cách Tạo Biểu Đồ Hộp và Râu trong PowerPoint bằng Aspose.Slides cho Java
 
-Tạo các bài thuyết trình dữ liệu hấp dẫn trực quan là rất quan trọng trong thế giới dữ liệu ngày nay và biểu đồ là công cụ thiết yếu cho mục đích này. Nếu bạn đang muốn tạo biểu đồ hộp và râu trong PowerPoint bằng Java, thư viện Aspose.Slides cung cấp một giải pháp mạnh mẽ. Hướng dẫn này sẽ hướng dẫn bạn cách tạo và cấu hình các biểu đồ này một cách liền mạch với Aspose.Slides cho Java.
+Trong hướng dẫn này, bạn sẽ **tạo box plot java** với Aspose.Slides, sau đó nhúng biểu đồ trực tiếp vào một slide PowerPoint. Việc tạo các bản trình bày dữ liệu hấp dẫn về mặt hình ảnh là rất quan trọng trong thế giới dựa trên dữ liệu ngày nay, và biểu đồ là công cụ thiết yếu cho mục đích này. Nếu bạn muốn tạo biểu đồ hộp‑râu trong PowerPoint bằng Java, thư viện Aspose.Slides cung cấp một giải pháp mạnh mẽ. Bài học này sẽ hướng dẫn bạn cách tạo và cấu hình các biểu đồ này một cách liền mạch với Aspose.Slides cho Java.
 
-## Những gì bạn sẽ học được
+## Những Điều Bạn Sẽ Học
 
-- Thiết lập môi trường của bạn cho Aspose.Slides for Java
-- Các bước tạo và cấu hình biểu đồ hộp và râu trong PowerPoint bằng Java
-- Các biện pháp thực hành tốt nhất để tối ưu hóa hiệu suất khi làm việc với Aspose.Slides
-- Ứng dụng thực tế của biểu đồ hộp và râu
+- Cài đặt môi trường cho Aspose.Slides cho Java  
+- Các bước **thêm biểu đồ vào slide** và tạo biểu đồ hộp‑râu trong PowerPoint bằng Java  
+- Các thực tiễn tốt nhất để tối ưu hiệu năng khi làm việc với Aspose.Slides  
+- Ứng dụng thực tế của biểu đồ hộp‑râu  
 
-Hãy bắt đầu bằng cách giải quyết các điều kiện tiên quyết trước khi bắt tay vào triển khai.
+## Câu Hỏi Nhanh
+- **Thư viện nào tạo box plot trong Java?** Aspose.Slides cho Java.  
+- **Loại biểu đồ nào được sử dụng?** `ChartType.BoxAndWhisker`.  
+- **Có cần giấy phép không?** Bản dùng thử miễn phí đủ cho việc đánh giá; giấy phép thương mại cần thiết cho môi trường sản xuất.  
+- **Có thể thêm nhiều series không?** Có – lặp lại khối tạo series cho mỗi bộ dữ liệu.  
+- **Định dạng file cuối cùng là gì?** PowerPoint PPTX (`SaveFormat.Pptx`).  
 
-## Điều kiện tiên quyết
+## Điều Kiện Tiên Quyết
 
 Để làm theo hướng dẫn này, hãy đảm bảo bạn có:
 
-- **Bộ phát triển Java (JDK)**: Cần cài đặt JDK 8 trở lên.
-- **Aspose.Slides cho Thư viện Java**Cần thiết để xử lý các bài thuyết trình PowerPoint bằng Java.
-- **Ý TƯỞNG**: Môi trường phát triển tích hợp như IntelliJ IDEA hoặc Eclipse để viết và thực thi mã của bạn.
+- **Java Development Kit (JDK)**: JDK 8 trở lên đã được cài đặt.  
+- **Thư viện Aspose.Slides cho Java**: Cần thiết để xử lý các bản trình bày PowerPoint trong Java.  
+- **IDE**: Môi trường phát triển tích hợp như IntelliJ IDEA hoặc Eclipse để viết và chạy mã.  
 
-## Thiết lập Aspose.Slides cho Java
+## Cài Đặt Aspose.Slides cho Java
 
-Để sử dụng Aspose.Slides, hãy thêm nó như một dependency. Bạn có thể quản lý điều này thông qua Maven, Gradle hoặc bằng cách tải xuống trực tiếp.
+Để sử dụng Aspose.Slides, thêm nó như một phụ thuộc. Bạn có thể quản lý qua Maven, Gradle, hoặc tải trực tiếp.
 
 ### Maven
 
-Thêm sự phụ thuộc sau vào `pom.xml`:
+Thêm phụ thuộc sau vào file `pom.xml` của bạn:
 
 ```xml
 <dependency>
@@ -49,62 +59,72 @@ Thêm sự phụ thuộc sau vào `pom.xml`:
 </dependency>
 ```
 
-### Tốt nghiệp
+### Gradle
 
-Trong của bạn `build.gradle`, bao gồm:
+Trong file `build.gradle`, bao gồm:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Tải xuống trực tiếp
+### Tải Trực Tiếp
 
-Ngoài ra, hãy tải xuống phiên bản mới nhất từ [Aspose.Slides cho bản phát hành Java](https://releases.aspose.com/slides/java/).
+Hoặc tải phiên bản mới nhất từ [Phiên bản Aspose.Slides cho Java](https://releases.aspose.com/slides/java/).
 
-#### Mua lại giấy phép
+#### Nhận Giấy Phép
 
-- **Dùng thử miễn phí**: Bắt đầu bằng bản dùng thử miễn phí để khám phá các tính năng.
-- **Giấy phép tạm thời**: Xin giấy phép tạm thời để đánh giá.
-- **Mua**:Để có đầy đủ chức năng, hãy cân nhắc việc mua giấy phép.
+- **Bản Dùng Thử Miễn Phí**: Bắt đầu với bản dùng thử để khám phá các tính năng.  
+- **Giấy Phép Tạm Thời**: Nhận giấy phép tạm thời cho mục đích đánh giá.  
+- **Mua Bản Quyền**: Để có đầy đủ chức năng, hãy cân nhắc mua giấy phép.
 
-Để khởi tạo Aspose.Slides, hãy đảm bảo bạn có thư viện trong classpath và thiết lập mọi yêu cầu cấp phép nếu cần.
+Để khởi tạo Aspose.Slides, đảm bảo thư viện đã nằm trong classpath và thiết lập bất kỳ yêu cầu giấy phép nào cần thiết.
 
-## Hướng dẫn thực hiện
+## Hướng Dẫn Thực Hiện
 
-Bây giờ, chúng ta hãy tạo biểu đồ hộp và râu bằng Aspose.Slides for Java. Phần này sẽ hướng dẫn bạn từng bước của quy trình.
+Bây giờ chúng ta sẽ đi vào mã từng bước. Mỗi khối được giải thích trước đoạn mã để bạn biết chính xác nó làm gì.
 
-### Tạo bài thuyết trình
+### Box plot là gì và tại sao lại dùng trong Java?
 
-Đầu tiên, khởi tạo một bài thuyết trình mới hoặc mở một bài thuyết trình hiện có:
+Biểu đồ hộp‑râu (thường gọi là *box plot*) hiển thị phân bố dữ liệu — trung vị, các phần tư và các điểm ngoại lệ — trong một dạng gọn gàng. Trong Java, việc tạo biểu đồ này một cách lập trình cho phép bạn nhúng các hiểu biết thống kê trực tiếp vào các bộ slide PowerPoint, loại bỏ việc tạo biểu đồ thủ công.
+
+### Tại sao thêm biểu đồ vào slide bằng Aspose.Slides?
+
+Aspose.Slides trừu tượng hoá các chi tiết OpenXML mức thấp, cung cấp cho bạn một API mượt mà để tạo, định dạng và xuất biểu đồ. Điều này cho phép bạn tự động hoá việc tạo báo cáo, duy trì thương hiệu nhất quán và tích hợp biểu đồ vào các quy trình Java lớn hơn.
+
+### Bước 1: Tạo hoặc Mở Một Bản Trình Bày
+
+Đầu tiên, mở một file PPTX hiện có hoặc tạo mới:
 
 ```java
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/test.pptx");
 ```
 
-### Thêm Biểu đồ Hộp và Râu
+> **Mẹo:** Nếu file không tồn tại, Aspose.Slides sẽ tự động tạo một bản trình bày trống mới cho bạn.
 
-Thêm biểu đồ vào trang chiếu đầu tiên ở vị trí và kích thước mong muốn:
+### Bước 2: Thêm Biểu Đồ Hộp‑Râu vào Slide
+
+Đặt biểu đồ ở vị trí bạn muốn bằng cách chỉ định vị trí và kích thước (đơn vị là point):
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
     ChartType.BoxAndWhisker, 50, 50, 500, 400);
 ```
 
-### Xóa dữ liệu hiện có
+### Bước 3: Xóa Dữ Liệu Hiện Có
 
-Trước khi điền dữ liệu mới, hãy xóa mọi danh mục và chuỗi hiện có:
+Trước khi đưa dữ liệu mới, hãy xóa bất kỳ danh mục hoặc series placeholder nào:
 
 ```java
 chart.getChartData().getCategories().clear();
 chart.getChartData().getSeries().clear();
 
 IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
-wb.clear(0); // Xóa nội dung bắt đầu từ ô "A1"
+wb.clear(0); // Clears content starting from cell "A1"
 ```
 
-### Cấu hình danh mục
+### Bước 4: Cấu Hình Các Danh Mục
 
-Thêm danh mục vào dữ liệu biểu đồ của bạn:
+Thêm các danh mục (nhãn trục X) sẽ xuất hiện dưới mỗi hộp:
 
 ```java
 for (int i = 1; i <= 6; i++) {
@@ -113,34 +133,40 @@ for (int i = 1; i <= 6; i++) {
 }
 ```
 
-### Tạo và tùy chỉnh Series
+> **Lưu ý:** Điều chỉnh văn bản nhãn sao cho phù hợp với miền dữ liệu của bạn (ví dụ: “Q1”, “Sản phẩm A”).
 
-Tạo một chuỗi mới và cấu hình các thuộc tính của nó:
+### Bước 5: Tạo và Tùy Chỉnh Series
+
+Bây giờ tạo một series, đặt các tùy chọn hiển thị, và đưa các điểm dữ liệu số:
 
 ```java
 IChartSeries series = chart.getChartData().getSeries().add(ChartType.BoxAndWhisker);
-series.setQuartileMethod(QuartileMethodType.Exclusive); // Đặt phương pháp tứ phân vị thành Độc quyền
-series.setShowMeanLine(true); // Hiển thị đường trung bình
-series.setShowMeanMarkers(true); // Hiển thị các điểm đánh dấu cho giá trị trung bình
-series.setShowInnerPoints(true); // Hiển thị các điểm bên trong trên biểu đồ
-series.setShowOutlierPoints(true); // Hiển thị các điểm ngoại lệ trên biểu đồ
+series.setQuartileMethod(QuartileMethodType.Exclusive); // Set quartile method to Exclusive
+series.setShowMeanLine(true); // Display mean line
+series.setShowMeanMarkers(true); // Show markers for mean values
+series.setShowInnerPoints(true); // Display inner points on the chart
+series.setShowOutlierPoints(true); // Show outlier points on the chart
 
-int[] data = {15, 41, 16, 10, 23, 16}; // Điểm dữ liệu mẫu
+int[] data = {15, 41, 16, 10, 23, 16}; // Sample data points
 for (int i = 0; i < data.length; i++) {
     series.getDataPoints().addDataPointForBoxAndWhiskerSeries(
         wb.getCell(0, "B" + (i + 1), data[i]));
 }
 ```
 
-### Lưu bài thuyết trình
+Bạn có thể thay thế mảng `int[] data` bằng các giá trị đọc từ cơ sở dữ liệu, file CSV, hoặc bất kỳ nguồn nào khác.
 
-Cuối cùng, hãy lưu bài thuyết trình của bạn:
+### Bước 6: Lưu Bản Trình Bày
+
+Ghi các thay đổi vào một file PPTX mới:
 
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/BoxAndWhisker.pptx", SaveFormat.Pptx);
 ```
 
-Luôn đảm bảo vứt bỏ `Presentation` phản đối việc giải phóng tài nguyên:
+### Bước 7: Dọn Dẹp Tài Nguyên
+
+Luôn luôn giải phóng đối tượng `Presentation` để giải phóng tài nguyên gốc:
 
 ```java
 finally {
@@ -148,59 +174,65 @@ finally {
 }
 ```
 
-## Ứng dụng thực tế
+## Ứng Dụng Thực Tiễn
 
-Biểu đồ hộp và râu rất có giá trị trong phân tích thống kê và trình bày dữ liệu. Sau đây là một số ứng dụng thực tế:
+Biểu đồ hộp‑râu vô giá trong phân tích thống kê và trình bày dữ liệu. Dưới đây là một vài kịch bản mà chúng tỏa sáng:
 
-1. **Phân tích tài chính**: Hình dung các số liệu tài chính như doanh thu, biên lợi nhuận hoặc giá cổ phiếu.
-2. **Kiểm soát chất lượng**: Phân tích quy trình sản xuất để đảm bảo tính nhất quán và xác định những điểm bất thường.
-3. **Nghiên cứu học thuật**: Trình bày kết quả thực nghiệm với hình ảnh trực quan rõ ràng về sự thay đổi.
-4. **Nghiên cứu thị trường**: So sánh hiệu suất của các sản phẩm khác nhau trên nhiều nhóm nhân khẩu học khác nhau.
+1. **Phân Tích Tài Chính** – Hiển thị phân bố doanh thu theo khu vực.  
+2. **Kiểm Soát Chất Lượng** – Phát hiện ngoại lệ trong các phép đo sản xuất.  
+3. **Nghiên Cứu Học Thuật** – Thể hiện độ biến thiên của kết quả thí nghiệm.  
+4. **Nghiên Cứu Thị Trường** – So sánh hiệu suất sản phẩm qua các nhóm dân số.
 
-Các biểu đồ này có thể được tích hợp vào quy trình phân tích dữ liệu lớn hơn và bảng thông tin để cung cấp bản tóm tắt trực quan sâu sắc.
+Việc tích hợp các biểu đồ này vào các bộ slide PowerPoint giúp các bên liên quan nắm bắt dữ liệu phức tạp trong nháy mắt.
 
-## Cân nhắc về hiệu suất
+## Cân Nhắc Về Hiệu Năng
 
-Khi làm việc với Aspose.Slides trong Java, hãy cân nhắc những điều sau để có hiệu suất tối ưu:
+Khi làm việc với Aspose.Slides trong Java, hãy nhớ các lời khuyên sau:
 
-- **Quản lý bộ nhớ**: Đảm bảo sử dụng bộ nhớ hiệu quả bằng cách sắp xếp các bài thuyết trình một cách hợp lý.
-- **Xử lý dữ liệu**: Giảm thiểu các hoạt động dữ liệu trên các tập dữ liệu lớn để ngăn ngừa tình trạng tắc nghẽn hiệu suất.
-- **Mã được tối ưu hóa**Sử dụng các biện pháp tốt nhất như tải chậm và lưu trữ đệm khi có thể.
+- **Quản Lý Bộ Nhớ** – Giải phóng đối tượng `Presentation` kịp thời.  
+- **Xử Lý Dữ Liệu** – Chỉ tải dữ liệu cần thiết; tránh đưa khối lượng dữ liệu khổng lồ trực tiếp vào workbook của biểu đồ.  
+- **Tải Lười** – Nếu bạn tạo nhiều slide, hãy cân nhắc chỉ tạo biểu đồ cho những slide sẽ được hiển thị.
 
-## Phần kết luận
+## Các Vấn Đề Thường Gặp và Giải Pháp
 
-Trong hướng dẫn này, bạn đã học cách tạo và cấu hình biểu đồ hộp và râu bằng Aspose.Slides for Java. Thư viện mạnh mẽ này cho phép tích hợp liền mạch các hình ảnh dữ liệu phức tạp vào bản trình bày PowerPoint. Để khám phá thêm về Aspose.Slides, hãy cân nhắc tìm hiểu sâu hơn về tài liệu hướng dẫn và thử nghiệm các loại biểu đồ khác.
+| Vấn đề | Nguyên nhân | Giải pháp |
+|-------|-------------|-----------|
+| **Biểu đồ hiển thị trống** | Các ô dữ liệu không được điền đúng | Kiểm tra lại tham chiếu `wb.getCell` tới đúng hàng/cột và đảm bảo giá trị không phải `null`. |
+| **Không hiển thị ngoại lệ** | `setShowOutlierPoints` được đặt thành `false` | Đảm bảo gọi `series.setShowOutlierPoints(true)`. |
+| **Rò rỉ bộ nhớ** | Không giải phóng Presentation | Luôn bao bọc việc sử dụng trong try/finally và gọi `dispose()`. |
+| **Phần tư không đúng** | Sử dụng phương pháp `Inclusive` mặc định | Chuyển sang `Exclusive` bằng cách gọi `setQuartileMethod(QuartileMethodType.Exclusive)`. |
 
-## Phần Câu hỏi thường gặp
+## Câu Hỏi Thường Gặp
 
-**Câu hỏi 1: Biểu đồ hộp và râu là gì?**
+**Q1: Biểu đồ hộp‑râu là gì?**  
+Biểu đồ hộp‑râu, còn gọi là box plot, hiển thị phân bố dữ liệu dựa trên năm thống kê tóm tắt: giá trị tối thiểu, phần tư thứ nhất, trung vị, phần tư thứ ba, và giá trị tối đa, cùng với bất kỳ điểm ngoại lệ nào.
 
-Biểu đồ hộp và râu, còn được gọi là biểu đồ hộp, hiển thị phân phối dữ liệu dựa trên năm số liệu thống kê tóm tắt. Biểu đồ này hữu ích để hiển thị trung vị, tứ phân vị và giá trị ngoại lai trong một tập dữ liệu.
+**Q2: Tôi có thể tùy chỉnh giao diện của biểu đồ hộp‑râu không?**  
+Có. Aspose.Slides cho phép bạn thay đổi màu sắc, kiểu đường, hình dạng marker, và thậm chí thêm nhãn dữ liệu thông qua API định dạng của biểu đồ.
 
-**Câu hỏi 2: Tôi có thể tùy chỉnh giao diện của biểu đồ hộp và râu không?**
+**Q3: Có thể xử lý nhiều series trong một biểu đồ không?**  
+Chắc chắn. Lặp lại khối tạo series cho mỗi bộ dữ liệu bạn muốn hiển thị.
 
-Có, Aspose.Slides cho phép tùy chỉnh nhiều tùy chọn, bao gồm màu sắc, phông chữ và kiểu điểm dữ liệu.
+**Q4: Làm sao giải quyết vấn đề dữ liệu không hiển thị đúng?**  
+Đảm bảo dữ liệu được ghi đúng vào các ô workbook và các thuộc tính hiển thị như `setShowMeanLine` đã được bật.
 
-**Câu hỏi 3: Có thể xử lý nhiều chuỗi trong một biểu đồ không?**
+**Q5: Tôi có thể nhận hỗ trợ khi gặp vấn đề không?**  
+Truy cập [diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để nhận trợ giúp từ cộng đồng, hoặc tham khảo tài liệu chính thức.
 
-Hoàn toàn có thể. Bạn có thể thêm nhiều chuỗi vào biểu đồ của mình bằng cách lặp lại quy trình tạo và cấu hình từng chuỗi.
+**Q6: Aspose.Slides có hỗ trợ các loại biểu đồ khác không?**  
+Có, nó hỗ trợ line, bar, pie, scatter, radar và nhiều loại biểu đồ khác.
 
-**Câu hỏi 4: Tôi phải làm sao để giải quyết vấn đề dữ liệu không hiển thị chính xác?**
+**Q7: Tôi có thể tạo biểu đồ trong môi trường server không có giao diện không?**  
+Thư viện hoạt động đầy đủ trong các kịch bản server‑side; không cần UI.
 
-Đảm bảo rằng dữ liệu được điền chính xác vào các ô và bạn đã đặt các thuộc tính thích hợp để hiển thị, chẳng hạn như `setShowMeanLine`.
+## Tài Nguyên
 
-**Câu hỏi 5: Tôi có thể nhận được hỗ trợ ở đâu nếu gặp vấn đề?**
+- **Tài Liệu**: Khám phá chi tiết API tại [Tài liệu Aspose.Slides](https://reference.aspose.com/slides/java/)  
+- **Tải Về**: Truy cập các bản phát hành Aspose.Slides [tại đây](https://releases.aspose.com/slides/java/)  
+- **Mua Bản Quyền**: Mua giấy phép để mở toàn bộ tính năng tại [Mua Aspose](https://purchase.aspose.com/buy)  
+- **Bản Dùng Thử & Giấy Phép Tạm Thời**: Bắt đầu với bản dùng thử miễn phí hoặc yêu cầu giấy phép tạm thời [tại đây](https://releases.aspose.com/slides/java/)  
 
-Ghé thăm [Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để được cộng đồng hỗ trợ hoặc tham khảo tài liệu chính thức.
-
-## Tài nguyên
-
-- **Tài liệu**: Khám phá các tham chiếu API chi tiết tại [Tài liệu Aspose.Slides](https://reference.aspose.com/slides/java/)
-- **Tải về**: Truy cập bản phát hành Aspose.Slides [đây](https://releases.aspose.com/slides/java/)
-- **Mua**: Mua giấy phép để mở khóa đầy đủ tính năng tại [Mua Aspose](https://purchase.aspose.com/buy)
-- **Dùng thử miễn phí & Giấy phép tạm thời**: Bắt đầu bằng bản dùng thử miễn phí hoặc yêu cầu cấp giấy phép tạm thời [đây](https://releases.aspose.com/slides/java/)
-
-Bằng cách làm theo hướng dẫn này, bạn sẽ được trang bị đầy đủ để bắt đầu tạo biểu đồ hộp và râu sâu sắc trong ứng dụng Java của mình bằng Aspose.Slides. Chúc bạn viết mã vui vẻ!
+Bằng cách làm theo hướng dẫn này, bạn đã sẵn sàng để tạo các biểu đồ hộp‑râu sâu sắc trong các ứng dụng Java và nhúng chúng trực tiếp vào các bản trình bày PowerPoint. Chúc bạn lập trình vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -209,3 +241,9 @@ Bằng cách làm theo hướng dẫn này, bạn sẽ được trang bị đầ
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Cập nhật lần cuối:** 2026-03-02  
+**Đã kiểm tra với:** Aspose.Slides 25.4 (JDK 16 classifier)  
+**Tác giả:** Aspose

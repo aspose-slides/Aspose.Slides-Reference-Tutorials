@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Pelajari cara membuat dan menyesuaikan diagram kotak dan kumis dalam presentasi PowerPoint dengan Aspose.Slides untuk Java. Panduan langkah demi langkah ini mencakup penyiapan, penerapan, dan praktik terbaik."
-"title": "Cara Membuat Bagan Kotak dan Kumis di PowerPoint menggunakan Aspose.Slides untuk Java"
-"url": "/id/java/charts-graphs/create-box-and-whisker-charts-aspose-slides-java/"
-"weight": 1
+date: '2026-03-02'
+description: Pelajari cara membuat box plot di Java, menambahkan diagram ke slide,
+  dan menghasilkan diagram box‑whisker di PowerPoint menggunakan Aspose.Slides untuk
+  Java.
+keywords:
+- Aspose.Slides for Java
+- Box-and-Whisker Charts
+- PowerPoint Java
+title: Buat box plot Java menggunakan Aspose.Slides untuk PowerPoint
+url: /id/java/charts-graphs/create-box-and-whisker-charts-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,34 +17,39 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Cara Membuat Bagan Kotak dan Kumis di PowerPoint Menggunakan Aspose.Slides untuk Java
+# Cara Membuat Diagram Box-and-Whisker di PowerPoint Menggunakan Aspose.Slides untuk Java
 
-Membuat presentasi data yang menarik secara visual sangat penting dalam dunia yang digerakkan oleh data saat ini, dan bagan merupakan alat penting untuk tujuan ini. Jika Anda ingin membuat bagan kotak dan kumis dalam PowerPoint menggunakan Java, pustaka Aspose.Slides menawarkan solusi yang tangguh. Tutorial ini akan memandu Anda membuat dan mengonfigurasi bagan ini dengan lancar menggunakan Aspose.Slides untuk Java.
+Dalam panduan ini Anda akan **membuat box plot java** dengan Aspose.Slides, lalu menyematkan diagram langsung ke dalam slide PowerPoint. Membuat presentasi data yang menarik secara visual sangat penting di dunia yang didorong oleh data saat ini, dan diagram merupakan alat esensial untuk tujuan ini. Jika Anda ingin menghasilkan diagram box-and-whisker di dalam PowerPoint menggunakan Java, pustaka Aspose.Slides menawarkan solusi yang kuat. Tutorial ini akan memandu Anda langkah demi langkah dalam membuat dan mengkonfigurasi diagram tersebut secara mulus dengan Aspose.Slides untuk Java.
 
 ## Apa yang Akan Anda Pelajari
 
-- Menyiapkan lingkungan Anda untuk Aspose.Slides untuk Java
-- Langkah-langkah untuk membuat dan mengonfigurasi diagram kotak dan kumis di PowerPoint menggunakan Java
+- Menyiapkan lingkungan untuk Aspose.Slides untuk Java
+- Langkah‑langkah **menambahkan diagram ke slide** dan menghasilkan diagram box‑whisker di PowerPoint menggunakan Java
 - Praktik terbaik untuk mengoptimalkan kinerja saat bekerja dengan Aspose.Slides
-- Aplikasi diagram kotak dan kumis di dunia nyata
+- Aplikasi dunia nyata dari diagram box‑and‑whisker
 
-Mari kita mulai dengan membahas prasyarat sebelum terjun ke implementasi.
+## Jawaban Cepat
+- **Perpustakaan apa yang membuat box plot di Java?** Aspose.Slides untuk Java.  
+- **Jenis diagram apa yang digunakan?** `ChartType.BoxAndWhisker`.  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi komersial diperlukan untuk produksi.  
+- **Bisakah saya menambahkan beberapa seri?** Ya – ulangi blok pembuatan seri untuk setiap kumpulan data.  
+- **Format file akhir apa?** PowerPoint PPTX (`SaveFormat.Pptx`).
 
 ## Prasyarat
 
 Untuk mengikuti tutorial ini, pastikan Anda memiliki:
 
-- **Kit Pengembangan Java (JDK)**: JDK 8 atau yang lebih tinggi harus diinstal.
-- **Aspose.Slides untuk Pustaka Java**Penting untuk menangani presentasi PowerPoint di Java.
-- **ide**: Lingkungan Pengembangan Terpadu seperti IntelliJ IDEA atau Eclipse untuk menulis dan mengeksekusi kode Anda.
+- **Java Development Kit (JDK)**: JDK 8 atau lebih tinggi harus sudah terpasang.  
+- **Aspose.Slides untuk Java Library**: Penting untuk menangani presentasi PowerPoint di Java.  
+- **IDE**: Lingkungan Pengembangan Terintegrasi seperti IntelliJ IDEA atau Eclipse untuk menulis dan menjalankan kode Anda.
 
 ## Menyiapkan Aspose.Slides untuk Java
 
 Untuk menggunakan Aspose.Slides, tambahkan sebagai dependensi. Anda dapat mengelolanya melalui Maven, Gradle, atau dengan mengunduh langsung.
 
-### Pakar
+### Maven
 
-Tambahkan dependensi berikut di `pom.xml`:
+Tambahkan dependensi berikut di `pom.xml` Anda:
 
 ```xml
 <dependency>
@@ -49,62 +60,72 @@ Tambahkan dependensi berikut di `pom.xml`:
 </dependency>
 ```
 
-### Bahasa Inggris Gradle
+### Gradle
 
-Di dalam kamu `build.gradle`, termasuk:
+Di `build.gradle`, sertakan:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Unduh Langsung
+### Unduhan Langsung
 
-Atau, unduh versi terbaru dari [Aspose.Slides untuk rilis Java](https://releases.aspose.com/slides/java/).
+Sebagai alternatif, unduh versi terbaru dari [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 #### Akuisisi Lisensi
 
-- **Uji Coba Gratis**: Mulailah dengan uji coba gratis untuk menjelajahi fitur-fitur.
-- **Lisensi Sementara**: Dapatkan lisensi sementara untuk tujuan evaluasi.
-- **Pembelian**: Untuk fungsionalitas penuh, pertimbangkan untuk membeli lisensi.
+- **Percobaan Gratis**: Mulai dengan percobaan gratis untuk menjelajahi fitur.  
+- **Lisensi Sementara**: Dapatkan lisensi sementara untuk tujuan evaluasi.  
+- **Pembelian**: Untuk fungsionalitas penuh, pertimbangkan membeli lisensi.
 
-Untuk menginisialisasi Aspose.Slides, pastikan Anda memiliki pustaka di classpath Anda dan siapkan persyaratan lisensi sebagaimana diperlukan.
+Untuk menginisialisasi Aspose.Slides, pastikan pustaka berada di classpath Anda dan atur persyaratan lisensi sesuai kebutuhan.
 
 ## Panduan Implementasi
 
-Sekarang, mari kita buat diagram kotak dan kumis dengan Aspose.Slides untuk Java. Bagian ini akan memandu Anda melalui setiap langkah proses.
+Sekarang mari kita selami kode langkah demi langkah. Setiap blok dijelaskan sebelum potongan kode sehingga Anda tahu persis apa yang dilakukan.
 
-### Buat Presentasi
+### Apa itu box plot dan mengapa menggunakannya di Java?
 
-Pertama, inisialisasi presentasi baru atau buka yang sudah ada:
+Diagram box‑and‑whisker (sering disebut *box plot*) memvisualisasikan distribusi data—median, kuartil, dan outlier—dalam bentuk yang ringkas. Di Java, menghasilkan diagram ini secara programatik memungkinkan Anda menyematkan wawasan statistik langsung ke dalam deck PowerPoint, menghilangkan kebutuhan pembuatan diagram manual.
+
+### Mengapa menambahkan diagram ke slide dengan Aspose.Slides?
+
+Aspose.Slides menyederhanakan detail OpenXML tingkat rendah, memberikan API yang fluida untuk membuat, menata, dan mengekspor diagram. Ini berarti Anda dapat mengotomatisasi pembuatan laporan, menghasilkan branding yang konsisten, dan mengintegrasikan diagram ke dalam alur kerja Java yang lebih besar.
+
+### Langkah 1: Membuat atau Membuka Presentasi
+
+Pertama, buka PPTX yang sudah ada atau mulai yang baru:
 
 ```java
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/test.pptx");
 ```
 
-### Tambahkan Bagan Kotak dan Kumis
+> **Tip Pro:** Jika file tidak ada, Aspose.Slides akan membuat presentasi kosong baru untuk Anda.
 
-Tambahkan bagan ke slide pertama pada posisi dan ukuran yang Anda inginkan:
+### Langkah 2: Menambahkan Diagram Box‑and‑Whisker ke Slide
+
+Tempatkan diagram di lokasi yang Anda inginkan dengan menentukan posisi dan ukuran (dalam poin):
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
     ChartType.BoxAndWhisker, 50, 50, 500, 400);
 ```
 
-### Hapus Data yang Ada
+### Langkah 3: Menghapus Data yang Ada
 
-Sebelum mengisi data baru, hapus semua kategori dan seri yang ada:
+Sebelum memasukkan data baru, bersihkan kategori atau seri placeholder apa pun:
 
 ```java
 chart.getChartData().getCategories().clear();
 chart.getChartData().getSeries().clear();
 
 IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
-wb.clear(0); // Menghapus konten mulai dari sel "A1"
+wb.clear(0); // Clears content starting from cell "A1"
 ```
 
-### Konfigurasikan Kategori
+### Langkah 4: Mengonfigurasi Kategori
 
-Tambahkan kategori ke data bagan Anda:
+Tambahkan kategori (label sumbu X) yang akan muncul di bawah setiap kotak:
 
 ```java
 for (int i = 1; i <= 6; i++) {
@@ -113,34 +134,40 @@ for (int i = 1; i <= 6; i++) {
 }
 ```
 
-### Buat dan Sesuaikan Seri
+> **Catatan:** Sesuaikan teks label agar cocok dengan domain data Anda (misalnya “Q1”, “Produk A”).
 
-Buat seri baru dan konfigurasikan propertinya:
+### Langkah 5: Membuat dan Menyesuaikan Seri
+
+Sekarang buat seri, atur opsi visual, dan masukkan poin data numerik:
 
 ```java
 IChartSeries series = chart.getChartData().getSeries().add(ChartType.BoxAndWhisker);
-series.setQuartileMethod(QuartileMethodType.Exclusive); // Tetapkan metode kuartil ke Eksklusif
-series.setShowMeanLine(true); // Menampilkan garis rata-rata
-series.setShowMeanMarkers(true); // Tampilkan penanda untuk nilai rata-rata
-series.setShowInnerPoints(true); // Menampilkan titik-titik bagian dalam pada grafik
-series.setShowOutlierPoints(true); // Tampilkan titik outlier pada grafik
+series.setQuartileMethod(QuartileMethodType.Exclusive); // Set quartile method to Exclusive
+series.setShowMeanLine(true); // Display mean line
+series.setShowMeanMarkers(true); // Show markers for mean values
+series.setShowInnerPoints(true); // Display inner points on the chart
+series.setShowOutlierPoints(true); // Show outlier points on the chart
 
-int[] data = {15, 41, 16, 10, 23, 16}; // Contoh titik data
+int[] data = {15, 41, 16, 10, 23, 16}; // Sample data points
 for (int i = 0; i < data.length; i++) {
     series.getDataPoints().addDataPointForBoxAndWhiskerSeries(
         wb.getCell(0, "B" + (i + 1), data[i]));
 }
 ```
 
-### Simpan Presentasi
+Anda dapat mengganti array `int[] data` dengan nilai yang dibaca dari basis data, file CSV, atau sumber lain apa pun.
 
-Terakhir, simpan presentasi Anda:
+### Langkah 6: Menyimpan Presentasi
+
+Persist perubahan ke file PPTX baru:
 
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/BoxAndWhisker.pptx", SaveFormat.Pptx);
 ```
 
-Selalu pastikan untuk membuang `Presentation` keberatan untuk melepaskan sumber daya:
+### Langkah 7: Membersihkan Sumber Daya
+
+Selalu dispose objek `Presentation` untuk membebaskan sumber daya native:
 
 ```java
 finally {
@@ -150,57 +177,63 @@ finally {
 
 ## Aplikasi Praktis
 
-Bagan kotak dan kumis sangat berguna dalam analisis statistik dan penyajian data. Berikut ini beberapa aplikasi praktisnya:
+Diagram box‑and‑whisker sangat berharga dalam analisis statistik dan presentasi data. Berikut beberapa skenario di mana diagram ini bersinar:
 
-1. **Analisis Keuangan**: Visualisasikan metrik keuangan seperti pendapatan, margin keuntungan, atau harga saham.
-2. **Kontrol Kualitas**: Menganalisis proses manufaktur untuk konsistensi dan mengidentifikasi outlier.
-3. **Penelitian Akademis**:Menyajikan hasil eksperimen dengan visualisasi variabilitas yang jelas.
-4. **Riset Pasar**:Bandingkan kinerja produk yang berbeda di berbagai demografi.
+1. **Analisis Keuangan** – Visualisasikan distribusi pendapatan di seluruh wilayah.  
+2. **Kontrol Kualitas** – Deteksi outlier dalam pengukuran manufaktur.  
+3. **Penelitian Akademik** – Tampilkan variabilitas hasil eksperimen.  
+4. **Riset Pasar** – Bandingkan kinerja produk di berbagai demografis.
 
-Bagan ini dapat diintegrasikan ke dalam alur kerja analisis data yang lebih besar dan dasbor untuk memberikan ringkasan visual yang mendalam.
+Mengintegrasikan diagram ini ke dalam deck PowerPoint memungkinkan pemangku kepentingan memahami data kompleks dalam sekejap.
 
 ## Pertimbangan Kinerja
 
-Saat bekerja dengan Aspose.Slides di Java, pertimbangkan hal berikut untuk kinerja optimal:
+Saat bekerja dengan Aspose.Slides di Java, perhatikan tips berikut:
 
-- **Manajemen Memori**Pastikan penggunaan memori yang efisien dengan membuang presentasi dengan benar.
-- **Penanganan Data**Minimalkan operasi data pada kumpulan data besar untuk mencegah kemacetan kinerja.
-- **Kode yang Dioptimalkan**Gunakan praktik terbaik seperti lazy loading dan caching jika berlaku.
+- **Manajemen Memori** – Segera dispose objek `Presentation`.  
+- **Penanganan Data** – Muat hanya data yang diperlukan; hindari memasukkan set data besar secara langsung ke dalam workbook diagram.  
+- **Lazy Loading** – Jika Anda menghasilkan banyak slide, pertimbangkan membuat diagram hanya untuk yang akan ditampilkan.
 
-## Kesimpulan
+## Masalah Umum dan Solusinya
 
-Dalam tutorial ini, Anda telah mempelajari cara membuat dan mengonfigurasi diagram kotak dan kumis menggunakan Aspose.Slides untuk Java. Pustaka canggih ini memungkinkan integrasi visualisasi data kompleks ke dalam presentasi PowerPoint secara mulus. Untuk mempelajari Aspose.Slides lebih lanjut, pertimbangkan untuk mempelajari dokumentasinya lebih dalam dan bereksperimen dengan jenis diagram lainnya.
+| Masalah | Penyebab | Solusi |
+|---------|----------|--------|
+| **Diagram muncul kosong** | Sel data tidak terisi dengan benar | Verifikasi bahwa referensi `wb.getCell` mengarah ke baris/kolom yang tepat dan nilai tidak `null`. |
+| **Outlier tidak ditampilkan** | `setShowOutlierPoints` diset ke `false` | Pastikan `series.setShowOutlierPoints(true)` dipanggil. |
+| **Memory leak** | Presentation tidak di‑dispose | Selalu bungkus penggunaan dalam try/finally dan panggil `dispose()`. |
+| **Kuartil tidak tepat** | Menggunakan metode default `Inclusive` | Ganti ke `Exclusive` melalui `setQuartileMethod(QuartileMethodType.Exclusive)`. |
 
-## Bagian FAQ
+## Pertanyaan yang Sering Diajukan
 
-**Q1: Apa itu diagram kotak dan kumis?**
+**T1: Apa itu diagram box-and-whisker?**  
+Diagram box-and-whisker, juga dikenal sebagai box plot, menampilkan distribusi data berdasarkan lima statistik ringkasan: minimum, kuartil pertama, median, kuartil ketiga, dan maksimum, serta outlier apa pun.
 
-Bagan kotak dan kumis, yang juga dikenal sebagai diagram kotak, menampilkan distribusi data berdasarkan lima statistik ringkasan. Bagan ini berguna untuk menunjukkan median, kuartil, dan outlier dalam kumpulan data.
+**T2: Bisakah saya menyesuaikan tampilan diagram box-and-whisker?**  
+Ya. Aspose.Slides memungkinkan Anda mengubah warna, gaya garis, bentuk penanda, dan bahkan menambahkan label data melalui API format diagram.
 
-**Q2: Dapatkah saya menyesuaikan tampilan diagram kotak dan kumis?**
+**T3: Apakah memungkinkan menangani beberapa seri dalam satu diagram?**  
+Tentu saja. Ulangi blok pembuatan seri untuk setiap kumpulan data yang ingin Anda visualisasikan.
 
-Ya, Aspose.Slides memungkinkan opsi penyesuaian yang luas, termasuk warna, font, dan gaya titik data.
+**T4: Bagaimana cara mengatasi masalah data yang tidak tampil dengan benar?**  
+Pastikan data ditulis dengan tepat ke sel workbook dan properti visibilitas seperti `setShowMeanLine` diaktifkan.
 
-**Q3: Apakah mungkin untuk menangani beberapa seri dalam satu bagan?**
+**T5: Di mana saya dapat mendapatkan dukungan jika mengalami masalah?**  
+Kunjungi [forum Aspose.Slides](https://forum.aspose.com/c/slides/11) untuk bantuan komunitas, atau lihat dokumentasi resmi.
 
-Tentu saja. Anda dapat menambahkan beberapa seri ke bagan Anda dengan mengulangi proses pembuatan dan konfigurasi setiap seri.
+**T6: Apakah Aspose.Slides mendukung jenis diagram lain?**  
+Ya, mendukung line, bar, pie, scatter, radar, dan banyak jenis diagram lainnya.
 
-**Q4: Bagaimana cara mengatasi masalah data yang tidak ditampilkan dengan benar?**
+**T7: Bisakah saya menghasilkan diagram di lingkungan server tanpa UI?**  
+Pustaka ini berfungsi sepenuhnya di skenario sisi‑server; tidak diperlukan UI.
 
-Pastikan data diisi dengan benar ke dalam sel dan Anda telah menetapkan properti yang sesuai untuk visibilitas, seperti `setShowMeanLine`.
+## Sumber Daya
 
-**Q5: Di mana saya bisa mendapatkan dukungan jika saya menemui masalah?**
+- **Dokumentasi**: Jelajahi referensi API detail di [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)  
+- **Unduhan**: Akses rilis Aspose.Slides [di sini](https://releases.aspose.com/slides/java/)  
+- **Pembelian**: Beli lisensi untuk membuka semua fitur di [Aspose Purchase](https://purchase.aspose.com/buy)  
+- **Percobaan Gratis & Lisensi Sementara**: Mulai dengan percobaan gratis atau minta lisensi sementara [di sini](https://releases.aspose.com/slides/java/)
 
-Kunjungi [Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) untuk dukungan komunitas atau lihat dokumentasi resmi.
-
-## Sumber daya
-
-- **Dokumentasi**:Jelajahi referensi API terperinci di [Dokumentasi Aspose.Slides](https://reference.aspose.com/slides/java/)
-- **Unduh**: Akses rilis Aspose.Slides [Di Sini](https://releases.aspose.com/slides/java/)
-- **Pembelian**: Beli lisensi untuk membuka fitur lengkap di [Aspose Pembelian](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis & Lisensi Sementara**: Mulailah dengan uji coba gratis atau minta lisensi sementara [Di Sini](https://releases.aspose.com/slides/java/)
-
-Dengan mengikuti panduan ini, Anda akan siap untuk mulai membuat diagram kotak dan kumis yang informatif dalam aplikasi Java Anda menggunakan Aspose.Slides. Selamat membuat kode!
+Dengan mengikuti panduan ini, Anda kini siap menghasilkan diagram box‑and‑whisker yang informatif secara programatik dalam aplikasi Java Anda dan menyematkannya langsung ke dalam presentasi PowerPoint. Selamat coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -209,3 +242,9 @@ Dengan mengikuti panduan ini, Anda akan siap untuk mulai membuat diagram kotak d
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Terakhir Diperbarui:** 2026-03-02  
+**Diuji Dengan:** Aspose.Slides 25.4 (JDK 16 classifier)  
+**Penulis:** Aspose

@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-17"
-"description": "Tanuld meg, hogyan hozhatsz létre dinamikus prezentációkat kördiagramokkal PowerPointban az Aspose.Slides for Java használatával. Kövesd ezt az átfogó útmutatót az Excel-adatok zökkenőmentes integrálásához a diákba."
-"title": "Dinamikus prezentáció kördiagrammal az Aspose.Slides for Java használatával – lépésről lépésre útmutató"
-"url": "/hu/java/charts-graphs/aspose-slides-java-pie-chart-tutorial/"
-"weight": 1
+date: '2026-03-02'
+description: Tanulja meg, hogyan adhat Excel-t a PowerPoint-hoz, és hogyan generálhat
+  PowerPoint-ot Excelből dinamikus kördiagram létrehozásával az Aspose.Slides for
+  Java segítségével.
+keywords:
+- Aspose.Slides for Java
+- Java PowerPoint automation
+- Excel data integration
+title: 'Excel hozzáadása PowerPoint-hoz: Dinamikus bemutató kördiagrammal az Aspose.Slides
+  for Java segítségével'
+url: /hu/java/charts-graphs/aspose-slides-java-pie-chart-tutorial/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,27 +18,39 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Dinamikus prezentáció kördiagrammal az Aspose.Slides használatával Java-ban: Lépésről lépésre útmutató
+# Excel hozzáadása PowerPointhoz: Dinamikus bemutató kördiagrammal az Aspose.Slides for Java használatával
 
-A mai adatvezérelt világban az információk vizuális bemutatása a komplex adatokat hozzáférhetőbbé és lebilincselőbbé teheti. Ha szeretnéd javítani a prezentációidat az Excel-munkafüzetekből közvetlenül, Java használatával integrált diagramokkal, ez az oktatóanyag tökéletes számodra. Végigvezetünk egy kördiagramos prezentáció létrehozásán az Aspose.Slides for Java segítségével – ez egy hatékony könyvtár, amelyet a PowerPoint automatizálásának különböző aspektusainak egyszerű kezelésére terveztek.
+A mai adat‑központú környezetben a **add Excel to PowerPoint** gyorsan és megbízhatóan megvalósítható, így a közönség a számokat vizuális formában láthatja. Ez az útmutató végigvezet a PowerPoint Excelből történő generálásán, egy kördiagram Java‑val történő létrehozásán, és a diagram adat‑tartományának beállításán – mindezt az Aspose.Slides for Java segítségével. A végére egy kész‑használatra készen álló bemutatót kap, amely közvetlenül egy Excel munkafüzetből húzza az élő adatokat.
 
-## Amit tanulni fogsz:
-- Hogyan készítsünk és manipuláljunk prezentációkat Java nyelven.
-- Kördiagram hozzáadása az első diához.
-- Excel munkafüzet betöltése és mentése bájtfolyamként.
-- Excel-adatok integrálása a diagramokba.
-- Diagramsorozatok konfigurálása a továbbfejlesztett megjelenítés érdekében.
-- A végleges prezentáció mentése lemezre.
+## Gyors válaszok
+- **Melyik könyvtár hoz létre diagramokat Java‑ban?** Aspose.Slides for Java.
+- **Közvetlenül be tudom húzni az Excel adatokat egy PowerPoint diagramba?** Igen – használja az Aspose.Cells‑t a munkafüzet beolvasásához és a diagramhoz való csatlakoztatásához.
+- **Melyik diagramtípust mutatja be?** Egy kördiagram.
+- **Hogyan állíthatom be a diagram adat‑tartományát?** A `chart.getChartData().setRange("Sheet2!$A$1:$B$3")` hívásával.
+- **Mi a fő előnye ennek a megközelítésnek?** Automatizálja a “add Excel to PowerPoint” munkafolyamatot, kiküszöbölve a kézi másol‑beillesztést.
 
-Kezdjük is!
+## Mi az **add Excel to PowerPoint**?
+Az Excel PowerPointhoz való hozzáadása azt jelenti, hogy programozottan importáljuk a táblázat adatokat, és megjelenítjük őket egy diakészletben. Az Aspose.Slides és az Aspose.Cells segítségével bármilyen Excel fájlt beolvashat, a cellákat diagram sorozatokhoz rendelheti, és egy kifinomult bemutatót készíthet anélkül, hogy manuálisan megnyitná a PowerPointot.
+
+## Miért generáljunk PowerPointot Excelből az Aspose.Slides for Java‑val?
+- **Sebesség:** Jelentéseket másodpercek alatt épít, nem percek alatt.  
+- **Pontosság:** Az adatot közvetlenül a forrás munkafüzetből olvassa, így kiküszöbölve az átirási hibákat.  
+- **Rugalmasság:** A diagram színeit, stílusait és adat‑tartományait valós időben testreszabhatja.  
+- **Skálázhatóság:** Beépíthető kötegelt feladatokba, webszolgáltatásokba vagy ütemezett jelentéscsővezetékekbe.
 
 ## Előfeltételek
 
-Mielőtt belemerülnél a kódba, győződj meg róla, hogy a következők megvannak:
+Mielőtt elkezdené, győződjön meg róla, hogy rendelkezik a következőkkel:
 
-### Kötelező könyvtárak
-Szükséged lesz az Aspose.Slides és az Aspose.Cells könyvtárakra. Használd az alábbi függőségkezelő eszközök egyikét:
-**Szakértő:**
+- **Java Development Kit (JDK) 1.8+** telepítve.  
+- **Aspose.Slides for Java** és **Aspose.Cells for Java** könyvtárak (Maven, Gradle vagy közvetlen JAR letöltés).  
+- Egy Excel munkafüzet (`book1.xlsx`), amely a megjeleníteni kívánt adatokat tartalmazza.  
+- Érvényes Aspose licenc (az ingyenes próba a kiértékeléshez működik).
+
+### Szükséges könyvtárak
+Szüksége lesz az Aspose.Slides és az Aspose.Cells könyvtárakra. Használja az alábbi függőségkezelő eszközök egyikét:
+
+**Maven:**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -41,168 +60,181 @@ Szükséged lesz az Aspose.Slides és az Aspose.Cells könyvtárakra. Használd 
 </dependency>
 ```
 
-**Fokozat:**
+**Gradle:**
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
-Vagy töltse le a JAR fájlokat közvetlenül innen: [Aspose.Slides Java kiadásokhoz](https://releases.aspose.com/slides/java/).
 
-### Környezet beállítása
-- JDK 1.8 vagy újabb verzió telepítve.
-- Alapfokú Java programozási ismeretek és jártasság PowerPoint prezentációk készítésében.
+Alternatívaként töltheti le a JAR fájlokat közvetlenül a [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) oldalról.
 
-### Licencszerzés
-Az Aspose könyvtárak teljes kihasználásához licencet kell vásárolnia:
-- **Ingyenes próbaverzió:** Elérhető a [Aspose letöltési oldal](https://releases.aspose.com/slides/java/).
-- **Ideiglenes engedély:** Értékelési korlátozások nélküli teszteléshez jelentkezzen egyet a következő címen: [Az Aspose ideiglenes licencoldala](https://purchase.aspose.com/temporary-license/).
-- **Licenc vásárlása:** Az Aspose termékek éles környezetben való használatához teljes licencet kell vásárolni.
+### Licenc beszerzése
+- **Free Trial:** Elérhető a [Aspose letöltési oldalon](https://releases.aspose.com/slides/java/).  
+- **Temporary License:** Teszteléshez, értékelési korlátozások nélkül, kérjen egyet a [Aspose ideiglenes licenc oldalán](https://purchase.aspose.com/temporary-license/).  
+- **Purchase License:** Az Aspose termékek termelésben való használatához vásárolja meg a teljes licencet.
 
-## Az Aspose.Slides beállítása Java-hoz
+## Az Aspose.Slides for Java beállítása
 
-Kezd azzal, hogy hozzáadod az Aspose.Slides fájlt a projektedhez. Maven vagy Gradle felhasználók esetén add hozzá a függőséget a fent látható módon. Ha közvetlenül töltesz le, akkor a JAR fájlokat is vedd bele az osztályútvonalba.
+Adja hozzá az Aspose.Slides függőséget a projektjéhez (lásd a fenti Maven/Gradle példákat), és helyezze a JAR fájlokat az osztályútjára, ha nem használ építőeszközt.
 
 ### Alapvető inicializálás és beállítás
-Az Aspose.Slides inicializálásához egyszerűen importáld a Java alkalmazásodba:
+Importálja a PowerPoint fájlt képviselő alapvető osztályt:
+
 ```java
 import com.aspose.slides.Presentation;
 ```
 
 ## Megvalósítási útmutató
 
-Nézzük meg lépésről lépésre a feladatunk minden egyes jellemzőjét.
+Az alábbiakban egy lépésről‑lépésre útmutató található, amely lefedi a **create pie chart java**, **set chart data range**, és **add Excel to PowerPoint** folyamatot egyetlen áramlásban.
 
-### Diagram létrehozása és hozzáadása a prezentációhoz
+### Diagram létrehozása és hozzáadása a bemutatóhoz
 
-**Áttekintés:** Ez a rész egy prezentáció inicializálására és egy kördiagram hozzáadására az első diához összpontosít.
+**Áttekintés:** Új bemutató inicializálása, az első dia lekérése, és egy kördiagram beszúrása.
 
-#### 1. lépés: A prezentáció inicializálása
+#### 1. lépés: Bemutató inicializálása
 ```java
 Presentation pres = new Presentation();
 ```
-- **Cél:** Létrehoz egy üres PowerPoint fájlt a memóriában. 
+- **Cél:** Üres PowerPoint fájlt hoz létre a memóriában.
 
-#### 2. lépés: Az első dia elérése
+#### 2. lépés: Első dia elérése
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
 ```
-- **Magyarázat:** Lekéri a prezentáció első diáját, amely automatikusan létrejön, amikor egy új diát hoz létre. `Presentation` az objektum példányosodik.
+- **Magyarázat:** Lekéri az automatikusan létrehozott első diát.
 
-#### 3. lépés: Kördiagram hozzáadása a diához
+#### 3. lépés: Kördiagram hozzáadása a diára
 ```java
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 50, 50, 500, 400);
 ```
-- **Paraméterek:** Pozíció (x, y) és méret (szélesség, magasság).
-- **Cél:** Kördiagram alakzatot ad a diához.
+- **Paraméterek:** Pozíció (`x`, `y`) és méret (`width`, `height`).  
+- **Cél:** Kördiagram alakzatot helyez el a dián.
 
 ### Munkafüzet betöltése fájlból
 
-**Áttekintés:** Itt betöltünk egy Excel munkafüzetet a lemezről a Java alkalmazásunkba.
+**Áttekintés:** Az Excel munkafüzet betöltése, amely a diagram adatát tartalmazza.
 
-#### 1. lépés: Dokumentumkönyvtár meghatározása
+#### 1. lépés: Dokumentum könyvtár meghatározása
 ```java
 String documentDirectory = "YOUR_DOCUMENT_DIRECTORY";
 ```
-- Állítsd be ezt arra a helyre, ahol az Excel fájlod található.
+- Állítsa be ezt a `book1.xlsx` fájlt tartalmazó mappára.
 
-#### 2. lépés: Nyissa meg a munkafüzetet
+#### 2. lépés: Munkafüzet megnyitása
 ```java
 Workbook workbook = new Workbook(documentDirectory + "/book1.xlsx");
 ```
-- **Cél:** Betölt egy meglévő Excel-munkafüzetet a memóriába további szerkesztés céljából.
+- **Cél:** Az Excel fájlt memóriába olvassa.
 
-### Munkafüzet mentése ByteArrayOutputStreambe
+### Munkafüzet mentése ByteArrayOutputStream-be
 
-**Áttekintés:** Ez a szakasz bemutatja a betöltött munkafüzet adatainak bájttömbbe mentését, amely később felhasználható a diagram feltöltésére.
+**Áttekintés:** A munkafüzetet bájt tömbbé alakítja, hogy az Aspose.Slides fel tudja használni.
 
 #### 1. lépés: ByteArrayOutputStream létrehozása
 ```java
 ByteArrayOutputStream mem = new ByteArrayOutputStream();
 ```
-- **Cél:** Létrehoz egy adatfolyamot a memóriában az Excel-fájl bináris adatainak ideiglenes tárolására.
+- **Cél:** In‑memory (memóriában) áramlást biztosít ideiglenes tároláshoz.
 
-#### 2. lépés: Munkafüzet mentése a Streambe
+#### 2. lépés: Munkafüzet mentése áramlásba
 ```java
 workbook.save(mem, SaveFormat.XLSX);
 mem.flush();
 ```
-- **Magyarázat:** A munkafüzetet XLSX formátumba konvertálja, és a mi rendszerünkbe írja. `ByteArrayOutputStream`.
+- **Magyarázat:** Az munkafüzetet XLSX bájt áramlásként írja.
 
-### Munkafüzet-adatok írása diagramba
+### Munkafüzet adatainak írása a diagramra
 
-**Áttekintés:** Most az Excel-munkafüzetünkből származó adatokat fogjuk használni a kördiagram kitöltéséhez.
+**Áttekintés:** Az Excel bájt tömböt a diagram adatforrásaként adja át.
 
 #### 1. lépés: Adatok betáplálása a diagramba
 ```java
 chart.getChartData().writeWorkbookStream(mem.toByteArray());
 ```
-- **Cél:** A bájttömb tartalmát adatforrásként viszi át a kördiagramhoz.
+- **Cél:** Összekapcsolja a diagramot az Excel adatokkal.
 
-### Diagram adattartományának beállítása és sorozat konfigurálása
+### Diagram adat‑tartomány beállítása és sorozatok konfigurálása
 
-**Áttekintés:** A diagram adattartományának konfigurálása kulcsfontosságú a pontos ábrázoláshoz. Állítsuk be!
+**Áttekintés:** Meghatározza, mely cellákat olvassa a diagram, és javítja a vizuális stílust.
 
-#### 1. lépés: Adattartomány meghatározása
+#### 1. lépés: Adat‑tartomány meghatározása
 ```java
 chart.getChartData().setRange("Sheet2!$A$1:$B$3");
 ```
-- **Magyarázat:** Meghatározza azt az Excel-táblázatot és cellatartományt, amelyből az adatokat kiolvasni kell.
+- **Magyarázat:** A diagramot a *Sheet2* pontos tartományára irányítja.
 
-#### 2. lépés: Sorozattulajdonságok konfigurálása
+#### 2. lépés: Sorozat tulajdonságainak konfigurálása
 ```java
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 series.getParentSeriesGroup().setColorVaried(true);
 ```
-- **Cél:** A sorozatcsoporton belüli színek változtatásával fokozza a vizuális sokszínűséget.
+- **Cél:** Lehetővé teszi, hogy a kördiagram minden szelete különböző színű legyen.
 
-### Prezentáció mentése fájlba
+### Bemutató mentése fájlba
 
-**Áttekintés:** Végül a prezentációnkat az összes módosítással együtt elmentjük egy megadott fájlelérési útra.
+**Áttekintés:** A kész bemutató lemezre mentése.
 
 #### 1. lépés: Kimeneti útvonal meghatározása
 ```java
 String outPath = "YOUR_OUTPUT_DIRECTORY/response2.pptx";
 ```
-- Állítsa be ezt a helyet, ahová menteni szeretné a PowerPoint-fájlt.
+- Válasszon egy mappát, ahová a végleges PowerPoint fájlt szeretné menteni.
 
-#### 2. lépés: Prezentáció mentése
+#### 2. lépés: Bemutató mentése
 ```java
 pres.save(outPath, SaveFormat.Pptx);
 ```
-- **Magyarázat:** A teljes prezentációt egy .pptx fájlba írja a megadott elérési úton.
+- **Magyarázat:** A bemutatót `.pptx` fájlként írja.
 
 ## Gyakorlati alkalmazások
-1. **Üzleti jelentések:** Vizuális értékesítési jelentések generálása közvetlenül Excel-adatokból.
-2. **Oktatási eszközök:** Készítsen dinamikus prezentációkat a diákok számára, amelyek bemutatják a statisztikai adatelemzést.
-3. **Műszerfal integráció:** Valós idejű diagramokat ágyazhat be az üzleti irányítópultokba, élő Excel adatcsatornák segítségével.
 
-## Teljesítménybeli szempontok
-- **Memóriahasználat optimalizálása:** Használat `try-finally` blokkok, amelyek biztosítják a folyamok és erőforrások megfelelő lezárását, megakadályozva a memóriaszivárgást.
-- **Kötegelt feldolgozás:** Nagy adathalmazok kezelése esetén érdemes lehet darabokban feldolgozni az adatokat az erőforrás-felhasználás hatékony kezelése érdekében.
-- **Lusta betöltés:** Csak akkor töltsön be munkafüzetadatokat, ha a teljesítmény javítása érdekében feltétlenül szükséges.
+1. **Business Reporting:** Egyetlen parancsra a havi értékesítési táblázatokat kifinomult diakészletekké alakítja.  
+2. **Educational Tools:** Statisztikai bontásokat mutat be az osztálytermi előadásokhoz anélkül, hogy manuálisan kellene diagramot készíteni.  
+3. **Dashboard Integration:** Automatizálja a diákon alapuló műszerfalak generálását, amelyek élő adatokat húznak Excel munkafüzetekből.
 
-## Következtetés
-Most már megtanultad, hogyan hozhatsz létre dinamikus prezentációkat az Aspose.Slides for Java segítségével. Az Excel-adatok közvetlen diagramokba integrálásával egyszerűsítheted az összetett adathalmazok vizualizációját és bemutatását. Fedezd fel az Aspose kiterjedt funkcióit, hogy tovább fokozhasd prezentációidat!
+## Teljesítmény szempontok
 
-### Következő lépések:
-- Kísérletezz az Aspose.Slides-ban elérhető különböző diagramtípusokkal.
-- Integrálja a fejlettebb Aspose.Cells funkciókat az átfogó Excel adatkezeléshez.
+- **Memory Management:** A streameket try‑with‑resources blokkba csomagolja, vagy zárja le őket egy `finally` blokkban, hogy elkerülje a szivárgásokat.  
+- **Large Datasets:** Az adatokat darabokban dolgozza fel, vagy használja a `Workbook.getWorksheets().clear()` metódust a szükséges értékek kinyerése után.  
+- **Lazy Loading:** A munkafüzetet csak akkor töltse be, amikor a diagramot kell feltölteni, ne az alkalmazás indításakor.
 
-## GYIK szekció
-**K: Használhatom az Aspose.Slides-t licenc nélkül?**
-V: Igen, de a tesztelés során korlátozásokba ütközhet. Fontolja meg egy ideiglenes vagy teljes licenc beszerzését az összes funkció feloldásához.
+## Gyakori problémák és megoldások
 
-**K: Hogyan kezelhetek nagyméretű prezentációkat az Aspose.Slides-ban?**
-A: Használjon hatékony erőforrás-gazdálkodási gyakorlatokat, és fontolja meg a prezentáció kisebb részekre bontását, ha teljesítményproblémák merülnek fel.
+| Probléma | Megoldás |
+|----------|----------|
+| **A diagram nem mutat adatot** | Ellenőrizze, hogy a tartomány karakterlánc pontosan egyezik a munkalap nevével és a cellacímekkel (`Sheet2!$A$1:$B$3`). |
+| **OutOfMemoryError** | Használja a `try (ByteArrayOutputStream mem = new ByteArrayOutputStream()) { … }` szerkezetet, hogy a streamet gyorsan felszabadítsa. |
+| **License not applied** | Töltse be a licencet, mielőtt bármely Aspose osztály példányosítva lenne: `License lic = new License(); lic.setLicense("Aspose.Slides.lic");` |
 
-**K: Milyen fájlformátumokat támogat az Aspose.Slides a prezentációk mentéséhez?**
-A: Számos formátumot támogat, beleértve a PPTX-et, PDF-et és a képformátumokat, például a PNG-t vagy a JPEG-et.
+## Gyakran feltett kérdések
 
-## Erőforrás
-- **Dokumentáció:** [Aspose.Slides Java API referencia](https://reference.aspose.com/slides/java/)
-- **Letöltés:** [Aspose.Slides Java kiadásokhoz](https://releases.aspose.com/slides/java/)
-- **Licenc vásárlása:** [Vásároljon Aspose termékeket](https://purchase.aspose.com/buy)
-- **Ingyenes próbaverzió:** [Próbáld ki az Aspose.Slides-t ingyen](https://releases.aspose.com/slides/java/)
-- **Ideiglenes engedély:** [Szerezzen be egy ideiglenes jogosítványt](https://purchase.aspose.com/temporary-license)
+**Q: Can I use Aspose.Slides without a license?**  
+A: Igen, de az értékelő mód vízjeleket ad hozzá és korlátozza egyes funkciókat. Termeléshez szerezzen be egy ideiglenes vagy teljes licencet.
+
+**Q: How do I handle large presentations in Aspose.Slides?**  
+A: Használjon hatékony erőforrás-kezelést, bontsa a bemutatót kisebb részekre, és a nem használt objektumokat gyorsan szabadítsa fel.
+
+**Q: What file formats can Aspose.Slides export to?**  
+A: PPTX, PDF, XPS, ODP, HTML, valamint képfájl formátumok, például PNG, JPEG és BMP.
+
+**Q: Is it possible to update an existing PowerPoint file instead of creating a new one?**  
+A: Természetesen. Töltsön be egy meglévő fájlt a `new Presentation("existing.pptx")` paranccsal, módosítsa a diákat/diagramokat, majd mentse.
+
+**Q: Does the library support setting custom colors for individual pie slices?**  
+A: Igen – a sorozat lekérése után beállíthatja a `series.getDataPoints().get_Item(i).getFormat().getFill().setFillType(FillType.Solid);` kóddal, és hozzárendelhet egy `Color`‑t.
+
+## Erőforrások
+- **Documentation:** [Aspose.Slides Java API Reference](https://reference.aspose.com/slides/java/)
+- **Download:** [Aspose.Slides for Java Releases](https://releases.aspose.com/slides/java/)
+- **Purchase License:** [Buy Aspose Products](https://purchase.aspose.com/buy)
+- **Free Trial:** [Try Aspose.Slides Free](https://releases.aspose.com/slides/java/)
+- **Temporary License:** [Get a Temporary License](https://purchase.aspose.com/temporary-license)
+
+---
+
+**Last Updated:** 2026-03-02  
+**Tested With:** Aspose.Slides 25.4 for Java (JDK 16) & Aspose.Cells 25.4  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

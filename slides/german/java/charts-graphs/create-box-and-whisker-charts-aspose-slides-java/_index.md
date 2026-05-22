@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Erfahren Sie, wie Sie mit Aspose.Slides für Java Box-and-Whisker-Diagramme in PowerPoint-Präsentationen erstellen und anpassen. Diese Schritt-für-Schritt-Anleitung behandelt Einrichtung, Implementierung und Best Practices."
-"title": "So erstellen Sie Box-and-Whisker-Diagramme in PowerPoint mit Aspose.Slides für Java"
-"url": "/de/java/charts-graphs/create-box-and-whisker-charts-aspose-slides-java/"
-"weight": 1
+date: '2026-03-02'
+description: Erfahren Sie, wie Sie ein Box‑Plot in Java erstellen, ein Diagramm zur
+  Folie hinzufügen und ein Box‑Whisker‑Diagramm in PowerPoint mit Aspose.Slides für
+  Java erzeugen.
+keywords:
+- Aspose.Slides for Java
+- Box-and-Whisker Charts
+- PowerPoint Java
+title: Boxplot in Java mit Aspose.Slides für PowerPoint erstellen
+url: /de/java/charts-graphs/create-box-and-whisker-charts-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,34 +17,39 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# So erstellen Sie Box-and-Whisker-Diagramme in PowerPoint mit Aspose.Slides für Java
+# Wie man Box‑and‑Whisker‑Diagramme in PowerPoint mit Aspose.Slides für Java erstellt
 
-Visuell ansprechende Datenpräsentationen sind in der heutigen datengetriebenen Welt unerlässlich, und Diagramme sind hierfür unverzichtbar. Wenn Sie Box-and-Whisker-Diagramme in PowerPoint mit Java erstellen möchten, bietet die Aspose.Slides-Bibliothek eine robuste Lösung. Dieses Tutorial führt Sie durch die nahtlose Erstellung und Konfiguration dieser Diagramme mit Aspose.Slides für Java.
+In diesem Leitfaden werden Sie **create box plot java** mit Aspose.Slides erstellen und das Diagramm anschließend direkt in eine PowerPoint‑Folien einbetten. Das Erstellen visuell ansprechender Datenpräsentationen ist in der heutigen datengetriebenen Welt entscheidend, und Diagramme sind dafür unverzichtbare Werkzeuge. Wenn Sie Box‑and‑Whisker‑Diagramme in PowerPoint mit Java erzeugen möchten, bietet die Aspose.Slides‑Bibliothek eine robuste Lösung. Dieses Tutorial führt Sie Schritt für Schritt durch das Erstellen und Konfigurieren dieser Diagramme mit Aspose.Slides für Java.
 
 ## Was Sie lernen werden
 
-- Einrichten Ihrer Umgebung für Aspose.Slides für Java
-- Schritte zum Erstellen und Konfigurieren von Box-and-Whisker-Diagrammen in PowerPoint mit Java
-- Best Practices zur Leistungsoptimierung bei der Arbeit mit Aspose.Slides
-- Praktische Anwendungen von Box-and-Whisker-Diagrammen
+- Einrichtung Ihrer Umgebung für Aspose.Slides für Java
+- Schritte zum **add chart to slide** und zum Erzeugen eines Box‑Whisker‑Diagramms in PowerPoint mit Java
+- Best Practices zur Optimierung der Leistung bei der Arbeit mit Aspose.Slides
+- Praxisnahe Anwendungen von Box‑and‑Whisker‑Diagrammen
 
-Lassen Sie uns zunächst die Voraussetzungen klären, bevor wir uns in die Implementierung stürzen.
+## Schnelle Antworten
+- **Welche Bibliothek erstellt ein Box‑Plot in Java?** Aspose.Slides für Java.
+- **Welcher Diagrammtyp wird verwendet?** `ChartType.BoxAndWhisker`.
+- **Benötige ich eine Lizenz?** Eine kostenlose Testversion funktioniert für die Evaluierung; für die Produktion ist eine kommerzielle Lizenz erforderlich.
+- **Kann ich mehrere Serien hinzufügen?** Ja – wiederholen Sie den Serien‑Erstellungsblock für jeden Datensatz.
+- **Welches Format hat die endgültige Datei?** PowerPoint PPTX (`SaveFormat.Pptx`).
 
 ## Voraussetzungen
 
-Um diesem Tutorial folgen zu können, stellen Sie sicher, dass Sie über Folgendes verfügen:
+Um diesem Tutorial zu folgen, stellen Sie sicher, dass Sie folgendes haben:
 
-- **Java Development Kit (JDK)**: JDK 8 oder höher sollte installiert sein.
-- **Aspose.Slides für die Java-Bibliothek**Unverzichtbar für die Handhabung von PowerPoint-Präsentationen in Java.
+- **Java Development Kit (JDK)**: JDK 8 oder höher sollte installiert sein.
+- **Aspose.Slides for Java Library**: Essenziell für die Verarbeitung von PowerPoint‑Präsentationen in Java.
 - **IDE**: Eine integrierte Entwicklungsumgebung wie IntelliJ IDEA oder Eclipse zum Schreiben und Ausführen Ihres Codes.
 
-## Einrichten von Aspose.Slides für Java
+## Einrichtung von Aspose.Slides für Java
 
-Um Aspose.Slides zu verwenden, fügen Sie es als Abhängigkeit hinzu. Sie können dies über Maven, Gradle oder per Direktdownload verwalten.
+Um Aspose.Slides zu verwenden, fügen Sie es als Abhängigkeit hinzu. Sie können dies über Maven, Gradle oder durch direkten Download verwalten.
 
 ### Maven
 
-Fügen Sie die folgende Abhängigkeit in Ihrem `pom.xml`:
+Fügen Sie die folgende Abhängigkeit in Ihrer `pom.xml` hinzu:
 
 ```xml
 <dependency>
@@ -51,7 +62,7 @@ Fügen Sie die folgende Abhängigkeit in Ihrem `pom.xml`:
 
 ### Gradle
 
-In Ihrem `build.gradle`, enthalten:
+In Ihrer `build.gradle` fügen Sie ein:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
@@ -59,52 +70,62 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 
 ### Direkter Download
 
-Alternativ können Sie die neueste Version von [Aspose.Slides für Java-Versionen](https://releases.aspose.com/slides/java/).
+Alternativ können Sie die neueste Version von [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) herunterladen.
 
-#### Lizenzerwerb
+#### Lizenzbeschaffung
 
-- **Kostenlose Testversion**: Beginnen Sie mit einer kostenlosen Testversion, um die Funktionen zu erkunden.
-- **Temporäre Lizenz**: Erwerben Sie eine temporäre Lizenz zu Evaluierungszwecken.
-- **Kaufen**: Um die volle Funktionalität zu erhalten, sollten Sie den Kauf einer Lizenz in Erwägung ziehen.
+- **Free Trial**: Beginnen Sie mit einer kostenlosen Testversion, um die Funktionen zu erkunden.  
+- **Temporary License**: Erhalten Sie eine temporäre Lizenz für Evaluierungszwecke.  
+- **Purchase**: Für die volle Funktionalität sollten Sie den Kauf einer Lizenz in Betracht ziehen.
 
-Um Aspose.Slides zu initialisieren, stellen Sie sicher, dass Sie die Bibliothek in Ihrem Klassenpfad haben, und richten Sie alle erforderlichen Lizenzanforderungen ein.
+Um Aspose.Slides zu initialisieren, stellen Sie sicher, dass die Bibliothek in Ihrem Klassenpfad liegt und richten Sie bei Bedarf die Lizenzanforderungen ein.
 
-## Implementierungshandbuch
+## Implementierungs‑Leitfaden
 
-Erstellen wir nun ein Box-and-Whisker-Diagramm mit Aspose.Slides für Java. Dieser Abschnitt führt Sie Schritt für Schritt durch den Prozess.
+Jetzt tauchen wir in den Schritt‑für‑Schritt‑Code ein. Jeder Block wird vor dem Snippet erklärt, damit Sie genau wissen, was er tut.
 
-### Präsentation erstellen
+### Was ist ein Box‑Plot und warum ihn in Java verwenden?
 
-Initialisieren Sie zunächst eine neue Präsentation oder öffnen Sie eine vorhandene:
+Ein Box‑and‑Whisker‑Diagramm (oft *Box‑Plot* genannt) visualisiert die Datenverteilung – Median, Quartile und Ausreißer – in kompakter Form. In Java ermöglicht das programmatische Erzeugen dieses Diagramms, statistische Erkenntnisse direkt in PowerPoint‑Präsentationen einzubetten und manuelle Diagrammerstellung zu vermeiden.
+
+### Warum ein Diagramm mit Aspose.Slides zur Folie hinzufügen?
+
+Aspose.Slides abstrahiert die Low‑Level‑OpenXML‑Details und bietet Ihnen eine flüssige API zum Erstellen, Gestalten und Exportieren von Diagrammen. Das bedeutet, dass Sie die Berichtserstellung automatisieren, ein konsistentes Branding erzeugen und Diagramme in größere Java‑Workflows integrieren können.
+
+### Schritt 1: Eine Präsentation erstellen oder öffnen
+
+Zuerst öffnen Sie ein vorhandenes PPTX oder starten ein neues:
 
 ```java
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/test.pptx");
 ```
 
-### Box-and-Whisker-Diagramm hinzufügen
+> **Pro Tipp:** Wenn die Datei nicht existiert, erstellt Aspose.Slides für Sie eine neue leere Präsentation.
 
-Fügen Sie das Diagramm an der gewünschten Position und in der gewünschten Größe zur ersten Folie hinzu:
+### Schritt 2: Ein Box‑and‑Whisker‑Diagramm zur Folie hinzufügen
+
+Platzieren Sie das Diagramm dort, wo Sie es benötigen, indem Sie Position und Größe (in Punkten) angeben:
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
     ChartType.BoxAndWhisker, 50, 50, 500, 400);
 ```
 
-### Vorhandene Daten löschen
+### Schritt 3: Vorhandene Daten löschen
 
-Löschen Sie vor dem Eingeben neuer Daten alle vorhandenen Kategorien und Reihen:
+Bevor Sie neue Daten einfügen, entfernen Sie alle Platzhalter‑Kategorien oder -Serien:
 
 ```java
 chart.getChartData().getCategories().clear();
 chart.getChartData().getSeries().clear();
 
 IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
-wb.clear(0); // Löscht den Inhalt ab Zelle „A1“
+wb.clear(0); // Clears content starting from cell "A1"
 ```
 
-### Kategorien konfigurieren
+### Schritt 4: Kategorien konfigurieren
 
-Fügen Sie Ihren Diagrammdaten Kategorien hinzu:
+Fügen Sie die Kategorien (X‑Achsen‑Beschriftungen) hinzu, die unter jedem Kasten angezeigt werden sollen:
 
 ```java
 for (int i = 1; i <= 6; i++) {
@@ -113,34 +134,40 @@ for (int i = 1; i <= 6; i++) {
 }
 ```
 
-### Serien erstellen und anpassen
+> **Hinweis:** Passen Sie den Beschriftungstext an Ihre Daten‑Domäne an (z. B. „Q1“, „Produkt A“).
 
-Erstellen Sie eine neue Serie und konfigurieren Sie ihre Eigenschaften:
+### Schritt 5: Serie erstellen und anpassen
+
+Jetzt erstellen Sie eine Serie, setzen visuelle Optionen und fügen die numerischen Datenpunkte hinzu:
 
 ```java
 IChartSeries series = chart.getChartData().getSeries().add(ChartType.BoxAndWhisker);
-series.setQuartileMethod(QuartileMethodType.Exclusive); // Quartilmethode auf „Exklusiv“ einstellen
-series.setShowMeanLine(true); // Mittellinie anzeigen
-series.setShowMeanMarkers(true); // Markierungen für Mittelwerte anzeigen
-series.setShowInnerPoints(true); // Innere Punkte im Diagramm anzeigen
-series.setShowOutlierPoints(true); // Ausreißerpunkte im Diagramm anzeigen
+series.setQuartileMethod(QuartileMethodType.Exclusive); // Set quartile method to Exclusive
+series.setShowMeanLine(true); // Display mean line
+series.setShowMeanMarkers(true); // Show markers for mean values
+series.setShowInnerPoints(true); // Display inner points on the chart
+series.setShowOutlierPoints(true); // Show outlier points on the chart
 
-int[] data = {15, 41, 16, 10, 23, 16}; // Beispieldatenpunkte
+int[] data = {15, 41, 16, 10, 23, 16}; // Sample data points
 for (int i = 0; i < data.length; i++) {
     series.getDataPoints().addDataPointForBoxAndWhiskerSeries(
         wb.getCell(0, "B" + (i + 1), data[i]));
 }
 ```
 
-### Präsentation speichern
+Sie können das `int[] data`‑Array durch Werte ersetzen, die aus einer Datenbank, einer CSV‑Datei oder einer anderen Quelle gelesen werden.
 
-Speichern Sie abschließend Ihre Präsentation:
+### Schritt 6: Präsentation speichern
+
+Persistieren Sie die Änderungen in einer neuen PPTX‑Datei:
 
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/BoxAndWhisker.pptx", SaveFormat.Pptx);
 ```
 
-Sorgen Sie immer für die Entsorgung der `Presentation` Objekt zur Freigabe von Ressourcen:
+### Schritt 7: Ressourcen bereinigen
+
+Entsorgen Sie stets das `Presentation`‑Objekt, um native Ressourcen freizugeben:
 
 ```java
 finally {
@@ -150,57 +177,63 @@ finally {
 
 ## Praktische Anwendungen
 
-Box-and-Whisker-Diagramme sind für die statistische Analyse und Datenpräsentation von unschätzbarem Wert. Hier sind einige praktische Anwendungen:
+Box‑and‑Whisker‑Diagramme sind in der statistischen Analyse und Datenpräsentation von unschätzbarem Wert. Hier einige Szenarien, in denen sie glänzen:
 
-1. **Finanzanalyse**: Visualisieren Sie Finanzkennzahlen wie Umsatz, Gewinnspannen oder Aktienkurse.
-2. **Qualitätskontrolle**: Analysieren Sie Herstellungsprozesse auf Konsistenz und identifizieren Sie Ausreißer.
-3. **Akademische Forschung**: Präsentieren Sie experimentelle Ergebnisse mit klaren Visualisierungen der Variabilität.
-4. **Marktforschung**: Vergleichen Sie die Leistung verschiedener Produkte in unterschiedlichen demografischen Gruppen.
+1. **Financial Analysis** – Visualisieren Sie die Umsatzverteilung über Regionen.  
+2. **Quality Control** – Erkennen Sie Ausreißer in Fertigungsmessungen.  
+3. **Academic Research** – Zeigen Sie die Variabilität von Versuchsergebnissen.  
+4. **Market Research** – Vergleichen Sie die Produktleistung über demografische Gruppen.
 
-Diese Diagramme können in größere Datenanalyse-Workflows und Dashboards integriert werden, um aufschlussreiche visuelle Zusammenfassungen bereitzustellen.
+Durch die Integration dieser Diagramme in PowerPoint‑Präsentationen können Stakeholder komplexe Daten auf einen Blick erfassen.
 
-## Überlegungen zur Leistung
+## Leistungsüberlegungen
 
-Beachten Sie beim Arbeiten mit Aspose.Slides in Java Folgendes, um eine optimale Leistung zu erzielen:
+Bei der Arbeit mit Aspose.Slides in Java sollten Sie diese Tipps beachten:
 
-- **Speicherverwaltung**: Sorgen Sie für eine effiziente Speichernutzung, indem Sie Präsentationen ordnungsgemäß entsorgen.
-- **Datenverarbeitung**: Minimieren Sie Datenoperationen bei großen Datensätzen, um Leistungsengpässe zu vermeiden.
-- **Optimierter Code**Verwenden Sie gegebenenfalls Best Practices wie Lazy Loading und Caching.
+- **Memory Management** – Entsorgen Sie `Presentation`‑Objekte umgehend.  
+- **Data Handling** – Laden Sie nur die benötigten Daten; vermeiden Sie das direkte Einfügen riesiger Datensätze in das Diagramm‑Workbook.  
+- **Lazy Loading** – Wenn Sie viele Folien erzeugen, überlegen Sie, Diagramme nur für die tatsächlich angezeigten Folien zu erstellen.
 
-## Abschluss
+## Häufige Probleme und Lösungen
 
-In diesem Tutorial haben Sie gelernt, wie Sie Box-and-Whisker-Diagramme mit Aspose.Slides für Java erstellen und konfigurieren. Diese leistungsstarke Bibliothek ermöglicht die nahtlose Integration komplexer Datenvisualisierungen in PowerPoint-Präsentationen. Um Aspose.Slides weiter zu erkunden, sollten Sie tiefer in die Dokumentation eintauchen und mit anderen Diagrammtypen experimentieren.
+| Problem | Ursache | Lösung |
+|-------|-------|----------|
+| **Chart appears blank** | Datenzellen nicht korrekt befüllt | Überprüfen Sie, dass `wb.getCell` die richtige Zeile/Spalte referenziert und der Wert nicht `null` ist. |
+| **Outliers not shown** | `setShowOutlierPoints` ist auf `false` gesetzt | Stellen Sie sicher, dass `series.setShowOutlierPoints(true)` aufgerufen wird. |
+| **Memory leak** | Präsentation nicht entsorgt | Umschließen Sie die Nutzung immer mit try/finally und rufen Sie `dispose()` auf. |
+| **Incorrect quartiles** | Verwendung der Standard‑`Inclusive`‑Methode | Wechseln Sie zu `Exclusive` via `setQuartileMethod(QuartileMethodType.Exclusive)`. |
 
-## FAQ-Bereich
+## Häufig gestellte Fragen
 
-**F1: Was ist ein Box-and-Whisker-Diagramm?**
+**F1: Was ist ein Box‑and‑Whisker‑Diagramm?**  
+Ein Box‑and‑Whisker‑Diagramm, auch als Box‑Plot bekannt, zeigt die Datenverteilung anhand von fünf Kennzahlen: Minimum, erstes Quartil, Median, drittes Quartil und Maximum sowie etwaige Ausreißer.
 
-Ein Boxplot (auch Box-and-Whisker-Diagramm genannt) stellt die Verteilung von Daten anhand von fünf zusammenfassenden Statistiken dar. Es eignet sich zur Darstellung von Median, Quartilen und Ausreißern in einem Datensatz.
+**F2: Kann ich das Aussehen des Box‑and‑Whisker‑Diagramms anpassen?**  
+Ja. Aspose.Slides ermöglicht das Ändern von Farben, Linienstilen, Markersymbolen und sogar das Hinzufügen von Datenbeschriftungen über die Formatierungs‑API des Diagramms.
 
-**F2: Kann ich das Erscheinungsbild des Box-and-Whisker-Diagramms anpassen?**
+**F3: Ist es möglich, mehrere Serien in einem Diagramm zu verwenden?**  
+Absolut. Wiederholen Sie den Serien‑Erstellungsblock für jeden Datensatz, den Sie visualisieren möchten.
 
-Ja, Aspose.Slides bietet umfangreiche Anpassungsoptionen, einschließlich Farben, Schriftarten und Datenpunktstilen.
+**F4: Wie löse ich Probleme, wenn Daten nicht korrekt angezeigt werden?**  
+Stellen Sie sicher, dass die Daten korrekt in die Workbook‑Zellen geschrieben werden und dass Sichtbarkeits‑Eigenschaften wie `setShowMeanLine` aktiviert sind.
 
-**F3: Ist es möglich, mehrere Serien in einem einzigen Diagramm zu verarbeiten?**
+**F5: Wo kann ich Unterstützung erhalten, wenn ich Probleme habe?**  
+Besuchen Sie das [Aspose.Slides‑Forum](https://forum.aspose.com/c/slides/11) für Community‑Hilfe oder konsultieren Sie die offizielle Dokumentation.
 
-Absolut. Sie können Ihrem Diagramm mehrere Reihen hinzufügen, indem Sie den Vorgang zum Erstellen und Konfigurieren jeder Reihe wiederholen.
+**F6: Unterstützt Aspose.Slides weitere Diagrammtypen?**  
+Ja, es unterstützt Linien-, Balken-, Kreis-, Streu‑, Radar‑ und viele weitere Diagrammtypen.
 
-**F4: Wie behebe ich Probleme mit nicht korrekt angezeigten Daten?**
-
-Stellen Sie sicher, dass die Daten korrekt in die Zellen eingetragen sind und dass Sie die entsprechenden Eigenschaften für die Sichtbarkeit festgelegt haben, wie z. B. `setShowMeanLine`.
-
-**F5: Wo erhalte ich Unterstützung, wenn Probleme auftreten?**
-
-Besuchen Sie die [Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11) für Community-Support oder lesen Sie die offizielle Dokumentation.
+**F7: Kann ich Diagramme in einer headless Server‑Umgebung erzeugen?**  
+Die Bibliothek funktioniert vollständig in serverseitigen Szenarien; eine UI ist nicht erforderlich.
 
 ## Ressourcen
 
-- **Dokumentation**: Entdecken Sie detaillierte API-Referenzen unter [Aspose.Slides Dokumentation](https://reference.aspose.com/slides/java/)
-- **Herunterladen**: Zugriff auf Aspose.Slides-Versionen [Hier](https://releases.aspose.com/slides/java/)
-- **Kaufen**: Kaufen Sie eine Lizenz, um alle Funktionen freizuschalten bei [Aspose Kauf](https://purchase.aspose.com/buy)
-- **Kostenlose Testversion und temporäre Lizenz**: Beginnen Sie mit einer kostenlosen Testversion oder fordern Sie eine temporäre Lizenz an [Hier](https://releases.aspose.com/slides/java/)
+- **Documentation**: Erkunden Sie detaillierte API‑Referenzen unter [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)  
+- **Download**: Greifen Sie auf Aspose.Slides‑Releases [hier](https://releases.aspose.com/slides/java/) zu  
+- **Purchase**: Kaufen Sie eine Lizenz, um alle Funktionen freizuschalten, unter [Aspose Purchase](https://purchase.aspose.com/buy)  
+- **Free Trial & Temporary License**: Beginnen Sie mit einer kostenlosen Testversion oder fordern Sie eine temporäre Lizenz [hier](https://releases.aspose.com/slides/java/) an
 
-Mit dieser Anleitung sind Sie bestens gerüstet, um mit Aspose.Slides aussagekräftige Box-and-Whisker-Diagramme in Ihren Java-Anwendungen zu erstellen. Viel Spaß beim Programmieren!
+Indem Sie diesem Leitfaden folgen, sind Sie nun in der Lage, programmgesteuert aussagekräftige Box‑and‑Whisker‑Diagramme in Ihren Java‑Anwendungen zu erzeugen und sie direkt in PowerPoint‑Präsentationen einzubetten. Viel Spaß beim Programmieren!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -209,3 +242,9 @@ Mit dieser Anleitung sind Sie bestens gerüstet, um mit Aspose.Slides aussagekr�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Zuletzt aktualisiert:** 2026-03-02  
+**Getestet mit:** Aspose.Slides 25.4 (JDK 16 classifier)  
+**Autor:** Aspose

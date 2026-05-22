@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-17"
-"description": "Scopri come generare e personalizzare grafici a scatola e baffi nelle presentazioni di PowerPoint con Aspose.Slides per Java. Questa guida dettagliata illustra la configurazione, l'implementazione e le best practice."
-"title": "Come creare grafici a scatola e baffi in PowerPoint utilizzando Aspose.Slides per Java"
-"url": "/it/java/charts-graphs/create-box-and-whisker-charts-aspose-slides-java/"
-"weight": 1
+date: '2026-03-02'
+description: Impara come creare un box plot in Java, aggiungere un grafico alla diapositiva
+  e generare un grafico a scatola e baffi in PowerPoint usando Aspose.Slides per Java.
+keywords:
+- Aspose.Slides for Java
+- Box-and-Whisker Charts
+- PowerPoint Java
+title: Crea un box plot in Java usando Aspose.Slides per PowerPoint
+url: /it/java/charts-graphs/create-box-and-whisker-charts-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,32 +16,37 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Come creare grafici a scatola e baffi in PowerPoint utilizzando Aspose.Slides per Java
+# Come creare grafici a scatola e baffi in PowerPoint usando Aspose.Slides per Java
 
-Creare presentazioni di dati visivamente accattivanti è fondamentale nell'attuale mondo basato sui dati, e i grafici sono strumenti essenziali a questo scopo. Se desiderate generare grafici a scatola e baffi in PowerPoint utilizzando Java, la libreria Aspose.Slides offre una soluzione affidabile. Questo tutorial vi guiderà nella creazione e configurazione di questi grafici in modo semplice e intuitivo con Aspose.Slides per Java.
+In questa guida **creerai un box plot java** con Aspose.Slides, quindi incorporerai il grafico direttamente in una diapositiva PowerPoint. Creare presentazioni dati visivamente accattivanti è fondamentale nel mondo odierno guidato dai dati, e i grafici sono strumenti essenziali a questo scopo. Se desideri generare grafici a scatola e baffi all'interno di PowerPoint usando Java, la libreria Aspose.Slides offre una soluzione solida. Questo tutorial ti guiderà nella creazione e configurazione di questi grafici in modo fluido con Aspose.Slides per Java.
 
 ## Cosa imparerai
 
-- Configurazione dell'ambiente per Aspose.Slides per Java
-- Passaggi per creare e configurare grafici a scatola e baffi in PowerPoint utilizzando Java
-- Procedure consigliate per ottimizzare le prestazioni quando si lavora con Aspose.Slides
-- Applicazioni pratiche dei grafici a scatola e baffi
+- Configurare l'ambiente per Aspose.Slides per Java
+- Passaggi per **aggiungere un grafico alla diapositiva** e generare un grafico a scatola‑baffi in PowerPoint usando Java
+- Best practice per ottimizzare le prestazioni quando si lavora con Aspose.Slides
+- Applicazioni reali dei grafici a scatola‑baffi
 
-Cominciamo ad affrontare i prerequisiti prima di passare all'implementazione.
+## Risposte rapide
+- **Quale libreria crea un box plot in Java?** Aspose.Slides for Java.
+- **Quale tipo di grafico è usato?** `ChartType.BoxAndWhisker`.
+- **Ho bisogno di una licenza?** Una prova gratuita è sufficiente per la valutazione; è necessaria una licenza commerciale per la produzione.
+- **Posso aggiungere più serie?** Sì – ripeti il blocco di creazione della serie per ogni set di dati.
+- **Qual è il formato del file finale?** PowerPoint PPTX (`SaveFormat.Pptx`).
 
 ## Prerequisiti
 
 Per seguire questo tutorial, assicurati di avere:
 
-- **Kit di sviluppo Java (JDK)**: Deve essere installato JDK 8 o versione successiva.
-- **Libreria Aspose.Slides per Java**Essenziale per gestire le presentazioni PowerPoint in Java.
-- **IDE**: Un ambiente di sviluppo integrato come IntelliJ IDEA o Eclipse per scrivere ed eseguire il codice.
+- **Java Development Kit (JDK)**: JDK 8 o superiore dovrebbe essere installato.
+- **Libreria Aspose.Slides per Java**: Essenziale per gestire presentazioni PowerPoint in Java.
+- **IDE**: Un Ambiente di Sviluppo Integrato come IntelliJ IDEA o Eclipse per scrivere ed eseguire il tuo codice.
 
-## Impostazione di Aspose.Slides per Java
+## Configurazione di Aspose.Slides per Java
 
-Per utilizzare Aspose.Slides, aggiungilo come dipendenza. Puoi gestirlo tramite Maven, Gradle o tramite download diretto.
+Per usare Aspose.Slides, aggiungila come dipendenza. Puoi gestirla tramite Maven, Gradle o scaricandola direttamente.
 
-### Esperto
+### Maven
 
 Aggiungi la seguente dipendenza nel tuo `pom.xml`:
 
@@ -51,7 +61,7 @@ Aggiungi la seguente dipendenza nel tuo `pom.xml`:
 
 ### Gradle
 
-Nel tuo `build.gradle`, includono:
+Nel tuo `build.gradle`, includi:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
@@ -59,52 +69,62 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 
 ### Download diretto
 
-In alternativa, scarica l'ultima versione da [Aspose.Slides per le versioni Java](https://releases.aspose.com/slides/java/).
+In alternativa, scarica l'ultima versione da [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 #### Acquisizione della licenza
 
-- **Prova gratuita**: Inizia con una prova gratuita per esplorare le funzionalità.
-- **Licenza temporanea**: Ottenere una licenza temporanea per scopi di valutazione.
-- **Acquistare**: Per una funzionalità completa, si consiglia di acquistare una licenza.
+- **Prova gratuita**: Inizia con una prova gratuita per esplorare le funzionalità.  
+- **Licenza temporanea**: Ottieni una licenza temporanea per scopi di valutazione.  
+- **Acquisto**: Per funzionalità complete, considera l'acquisto di una licenza.
 
-Per inizializzare Aspose.Slides, assicurati di avere la libreria nel tuo classpath e configura tutti i requisiti di licenza secondo necessità.
+Per inizializzare Aspose.Slides, assicurati di avere la libreria nel tuo classpath e configura eventuali requisiti di licenza secondo necessità.
 
 ## Guida all'implementazione
 
-Ora creiamo un grafico a scatola e baffi con Aspose.Slides per Java. Questa sezione ti guiderà attraverso ogni fase del processo.
+Ora immergiamoci nel codice passo‑per‑passo. Ogni blocco è spiegato prima dello snippet così sai esattamente cosa fa.
 
-### Crea presentazione
+### Cos'è un box plot e perché usarlo in Java?
 
-Per prima cosa, inizializza una nuova presentazione o aprine una esistente:
+Un grafico a scatola‑baffi (spesso chiamato *box plot*) visualizza la distribuzione dei dati — mediana, quartili e outlier — in forma compatta. In Java, generare questo grafico programmaticamente ti permette di incorporare intuizioni statistiche direttamente nelle presentazioni PowerPoint, eliminando la creazione manuale dei grafici.
+
+### Perché aggiungere un grafico alla diapositiva con Aspose.Slides?
+
+Aspose.Slides astrae i dettagli OpenXML a basso livello, fornendoti un'API fluida per creare, stilizzare ed esportare grafici. Questo significa che puoi automatizzare la generazione di report, produrre un branding coerente e integrare i grafici in flussi di lavoro Java più ampi.
+
+### Passo 1: Creare o aprire una presentazione
+
+Per prima cosa, apri un PPTX esistente o avviane uno nuovo:
 
 ```java
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/test.pptx");
 ```
 
-### Aggiungi grafico a scatola e baffi
+> **Suggerimento:** Se il file non esiste, Aspose.Slides creerà una nuova presentazione vuota per te.
 
-Aggiungi il grafico alla prima diapositiva nella posizione e con le dimensioni desiderate:
+### Passo 2: Aggiungere un grafico a scatola‑baffi alla diapositiva
+
+Posiziona il grafico dove ti serve specificando la posizione e le dimensioni (in punti):
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
     ChartType.BoxAndWhisker, 50, 50, 500, 400);
 ```
 
-### Cancella dati esistenti
+### Passo 3: Cancellare i dati esistenti
 
-Prima di popolare nuovi dati, cancellare tutte le categorie e le serie esistenti:
+Prima di inserire nuovi dati, rimuovi eventuali categorie o serie segnaposto:
 
 ```java
 chart.getChartData().getCategories().clear();
 chart.getChartData().getSeries().clear();
 
 IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
-wb.clear(0); // Cancella il contenuto a partire dalla cella "A1"
+wb.clear(0); // Clears content starting from cell "A1"
 ```
 
-### Configura categorie
+### Passo 4: Configurare le categorie
 
-Aggiungi categorie ai dati del grafico:
+Aggiungi le categorie (etichette dell'asse X) che appariranno sotto ogni scatola:
 
 ```java
 for (int i = 1; i <= 6; i++) {
@@ -113,34 +133,40 @@ for (int i = 1; i <= 6; i++) {
 }
 ```
 
-### Crea e personalizza serie
+> **Nota:** Regola il testo dell'etichetta per corrispondere al dominio dei tuoi dati (ad es., “Q1”, “Product A”).
 
-Crea una nuova serie e configurane le proprietà:
+### Passo 5: Creare e personalizzare la serie
+
+Ora crea una serie, imposta le opzioni visive e fornisci i punti dati numerici:
 
 ```java
 IChartSeries series = chart.getChartData().getSeries().add(ChartType.BoxAndWhisker);
-series.setQuartileMethod(QuartileMethodType.Exclusive); // Imposta il metodo quartile su Esclusivo
-series.setShowMeanLine(true); // Visualizza la linea media
-series.setShowMeanMarkers(true); // Mostra i marcatori per i valori medi
-series.setShowInnerPoints(true); // Visualizza i punti interni sul grafico
-series.setShowOutlierPoints(true); // Mostra i punti anomali sul grafico
+series.setQuartileMethod(QuartileMethodType.Exclusive); // Set quartile method to Exclusive
+series.setShowMeanLine(true); // Display mean line
+series.setShowMeanMarkers(true); // Show markers for mean values
+series.setShowInnerPoints(true); // Display inner points on the chart
+series.setShowOutlierPoints(true); // Show outlier points on the chart
 
-int[] data = {15, 41, 16, 10, 23, 16}; // Punti dati campione
+int[] data = {15, 41, 16, 10, 23, 16}; // Sample data points
 for (int i = 0; i < data.length; i++) {
     series.getDataPoints().addDataPointForBoxAndWhiskerSeries(
         wb.getCell(0, "B" + (i + 1), data[i]));
 }
 ```
 
-### Salva presentazione
+Puoi sostituire l'array `int[] data` con valori letti da un database, file CSV o qualsiasi altra fonte.
 
-Infine, salva la presentazione:
+### Passo 6: Salvare la presentazione
+
+Salva le modifiche in un nuovo file PPTX:
 
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/BoxAndWhisker.pptx", SaveFormat.Pptx);
 ```
 
-Assicuratevi sempre di smaltire il `Presentation` oggetto per rilasciare risorse:
+### Passo 7: Pulire le risorse
+
+Disporre sempre dell'oggetto `Presentation` per liberare le risorse native:
 
 ```java
 finally {
@@ -150,57 +176,63 @@ finally {
 
 ## Applicazioni pratiche
 
-grafici a scatola e baffi sono preziosi nell'analisi statistica e nella presentazione dei dati. Ecco alcune applicazioni pratiche:
+I grafici a scatola‑baffi sono inestimabili nell'analisi statistica e nella presentazione dei dati. Ecco alcuni scenari in cui brillano:
 
-1. **Analisi finanziaria**: Visualizza parametri finanziari quali fatturato, margini di profitto o prezzi delle azioni.
-2. **Controllo di qualità**: Analizzare i processi di produzione per verificarne la coerenza e identificare i valori anomali.
-3. **Ricerca accademica**: Presentare i risultati sperimentali con chiare visualizzazioni della variabilità.
-4. **Ricerca di mercato**: Confronta le prestazioni di diversi prodotti in base a diversi gruppi demografici.
+1. **Analisi finanziaria** – Visualizza la distribuzione dei ricavi tra le regioni.  
+2. **Controllo qualità** – Individua gli outlier nelle misurazioni di produzione.  
+3. **Ricerca accademica** – Mostra la variabilità dei risultati sperimentali.  
+4. **Ricerca di mercato** – Confronta le prestazioni del prodotto tra le diverse demografie.
 
-Questi grafici possono essere integrati in flussi di lavoro e dashboard di analisi dati più ampi per fornire riepiloghi visivi approfonditi.
+Integrare questi grafici nelle presentazioni PowerPoint consente agli stakeholder di comprendere i dati complessi a colpo d'occhio.
 
 ## Considerazioni sulle prestazioni
 
-Quando si lavora con Aspose.Slides in Java, per ottenere prestazioni ottimali, tenere presente quanto segue:
+Quando lavori con Aspose.Slides in Java, tieni a mente questi consigli:
 
-- **Gestione della memoria**: Garantire un utilizzo efficiente della memoria eliminando correttamente le presentazioni.
-- **Trattamento dei dati**: Ridurre al minimo le operazioni sui dati su set di dati di grandi dimensioni per evitare colli di bottiglia nelle prestazioni.
-- **Codice ottimizzato**Utilizzare le best practice, come il caricamento differito e la memorizzazione nella cache, ove applicabile.
+- **Gestione della memoria** – Disporre rapidamente degli oggetti `Presentation`.
+- **Gestione dei dati** – Carica solo i dati necessari; evita di inserire set di dati massivi direttamente nel workbook del grafico.
+- **Caricamento lazy** – Se generi molte diapositive, considera di creare grafici solo per quelle che saranno visualizzate.
 
-## Conclusione
+## Problemi comuni e soluzioni
 
-In questo tutorial, hai imparato a creare e configurare grafici a scatola e baffi utilizzando Aspose.Slides per Java. Questa potente libreria consente una perfetta integrazione di visualizzazioni di dati complesse nelle presentazioni PowerPoint. Per approfondire ulteriormente Aspose.Slides, ti consigliamo di approfondire la documentazione e di sperimentare altri tipi di grafici.
+| Problema | Causa | Soluzione |
+|----------|-------|-----------|
+| **Il grafico appare vuoto** | Celle dei dati non popolate correttamente | Verifica che `wb.getCell` faccia riferimento alla riga/colonna corretta e che il valore non sia `null`. |
+| **Outlier non mostrati** | `setShowOutlierPoints` impostato a `false` | Assicurati che `series.setShowOutlierPoints(true)` sia chiamato. |
+| **Perdita di memoria** | Presentation non disposta | Avvolgi sempre l'uso in try/finally e chiama `dispose()`. |
+| **Quartili errati** | Utilizzo del metodo predefinito `Inclusive` | Passa a `Exclusive` tramite `setQuartileMethod(QuartileMethodType.Exclusive)`. |
 
-## Sezione FAQ
+## Domande frequenti
 
-**D1: Che cos'è un diagramma a scatola e baffi?**
+**Q1: Che cos'è un grafico a scatola‑baffi?**  
+Un grafico a scatola‑baffi, noto anche come box plot, visualizza la distribuzione dei dati basata su cinque statistiche riassuntive: minimo, primo quartile, mediana, terzo quartile e massimo, più eventuali outlier.
 
-Un grafico a scatola e baffi, noto anche come box plot, mostra la distribuzione dei dati in base a cinque statistiche riassuntive. È utile per mostrare la mediana, i quartili e i valori anomali in un set di dati.
+**Q2: Posso personalizzare l'aspetto del grafico a scatola‑baffi?**  
+Sì. Aspose.Slides ti consente di modificare colori, stili di linea, forme dei marcatori e persino aggiungere etichette dati tramite l'API di formattazione del grafico.
 
-**D2: Posso personalizzare l'aspetto del grafico a scatola e baffi?**
+**Q3: È possibile gestire più serie in un unico grafico?**  
+Assolutamente. Ripeti il blocco di creazione della serie per ogni set di dati che desideri visualizzare.
 
-Sì, Aspose.Slides consente ampie opzioni di personalizzazione, tra cui colori, caratteri e stili dei punti dati.
+**Q4: Come risolvo i problemi con dati che non vengono visualizzati correttamente?**  
+Assicurati che i dati siano scritti correttamente nelle celle del workbook e che le proprietà di visibilità come `setShowMeanLine` siano abilitate.
 
-**D3: È possibile gestire più serie in un unico grafico?**
+**Q5: Dove posso ottenere supporto se incontro problemi?**  
+Visita il [forum Aspose.Slides](https://forum.aspose.com/c/slides/11) per aiuto della community, o consulta la documentazione ufficiale.
 
-Assolutamente sì. Puoi aggiungere più serie al tuo grafico ripetendo il processo di creazione e configurazione di ogni serie.
+**Q6: Aspose.Slides supporta altri tipi di grafico?**  
+Sì, supporta grafici a linee, barre, torta, dispersione, radar e molti altri tipi di grafico.
 
-**D4: Come posso risolvere i problemi di visualizzazione errata dei dati?**
-
-Assicurati che i dati siano correttamente inseriti nelle celle e che siano state impostate le proprietà appropriate per la visibilità, ad esempio `setShowMeanLine`.
-
-**D5: Dove posso trovare supporto se riscontro problemi?**
-
-Visita il [Forum di Aspose.Slides](https://forum.aspose.com/c/slides/11) per il supporto della comunità o fare riferimento alla documentazione ufficiale.
+**Q7: Posso generare grafici in un ambiente server senza interfaccia grafica?**  
+La libreria funziona completamente in scenari server‑side; non è necessario alcun UI.
 
 ## Risorse
 
-- **Documentazione**: Esplora i riferimenti API dettagliati su [Documentazione di Aspose.Slides](https://reference.aspose.com/slides/java/)
-- **Scaricamento**: Accedi alle versioni di Aspose.Slides [Qui](https://releases.aspose.com/slides/java/)
-- **Acquistare**: Acquista una licenza per sbloccare tutte le funzionalità su [Acquisto Aspose](https://purchase.aspose.com/buy)
-- **Prova gratuita e licenza temporanea**: Inizia con una prova gratuita o richiedi una licenza temporanea [Qui](https://releases.aspose.com/slides/java/)
+- **Documentazione**: Esplora i riferimenti API dettagliati su [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)  
+- **Download**: Accedi alle versioni di Aspose.Slides [qui](https://releases.aspose.com/slides/java/)  
+- **Acquisto**: Acquista una licenza per sbloccare tutte le funzionalità su [Aspose Purchase](https://purchase.aspose.com/buy)  
+- **Prova gratuita & Licenza temporanea**: Inizia con una prova gratuita o richiedi una licenza temporanea [qui](https://releases.aspose.com/slides/java/)
 
-Seguendo questa guida, sarai pronto per iniziare a creare grafici a scatola e baffi efficaci nelle tue applicazioni Java utilizzando Aspose.Slides. Buon lavoro!
+Seguendo questa guida, ora sei pronto a generare programmaticamente grafici a scatola‑baffi perspicaci nelle tue applicazioni Java e incorporarli direttamente nelle presentazioni PowerPoint. Buon coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -209,3 +241,9 @@ Seguendo questa guida, sarai pronto per iniziare a creare grafici a scatola e ba
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-03-02  
+**Tested With:** Aspose.Slides 25.4 (JDK 16 classifier)  
+**Author:** Aspose

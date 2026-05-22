@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Aprenda a generar y personalizar gráficos de caja y bigotes en presentaciones de PowerPoint con Aspose.Slides para Java. Esta guía paso a paso explica la configuración, la implementación y las prácticas recomendadas."
-"title": "Cómo crear gráficos de caja y bigotes en PowerPoint con Aspose.Slides para Java"
-"url": "/es/java/charts-graphs/create-box-and-whisker-charts-aspose-slides-java/"
-"weight": 1
+date: '2026-03-02'
+description: Aprenda cómo crear diagramas de caja en Java, agregar un gráfico a una
+  diapositiva y generar un gráfico de caja y bigotes en PowerPoint usando Aspose.Slides
+  para Java.
+keywords:
+- Aspose.Slides for Java
+- Box-and-Whisker Charts
+- PowerPoint Java
+title: Crear diagrama de caja en Java usando Aspose.Slides para PowerPoint
+url: /es/java/charts-graphs/create-box-and-whisker-charts-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,34 +17,39 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Cómo crear gráficos de caja y bigotes en PowerPoint con Aspose.Slides para Java
+# Cómo crear gráficos de caja y bigotes en PowerPoint usando Aspose.Slides para Java
 
-Crear presentaciones de datos visualmente atractivas es crucial en el mundo actual, impulsado por los datos, y los gráficos son herramientas esenciales para ello. Si busca generar gráficos de caja y bigotes en PowerPoint con Java, la biblioteca Aspose.Slides ofrece una solución robusta. Este tutorial le guiará en la creación y configuración de estos gráficos sin problemas con Aspose.Slides para Java.
+En esta guía **create box plot java** con Aspose.Slides, luego incrustarás el gráfico directamente en una diapositiva de PowerPoint. Crear presentaciones de datos visualmente atractivas es crucial en el mundo actual impulsado por los datos, y los gráficos son herramientas esenciales para este propósito. Si deseas generar gráficos de caja y bigotes dentro de PowerPoint usando Java, la biblioteca Aspose.Slides ofrece una solución robusta. Este tutorial te guiará paso a paso en la creación y configuración de estos gráficos sin problemas con Aspose.Slides para Java.
 
 ## Lo que aprenderás
 
-- Configuración de su entorno para Aspose.Slides para Java
-- Pasos para crear y configurar gráficos de caja y bigotes en PowerPoint usando Java
+- Configurar tu entorno para Aspose.Slides para Java
+- Pasos para **add chart to slide** y generar un gráfico de caja‑whisker en PowerPoint usando Java
 - Mejores prácticas para optimizar el rendimiento al trabajar con Aspose.Slides
-- Aplicaciones reales de los gráficos de caja y bigotes
+- Aplicaciones reales de gráficos de caja‑y‑bigotes
 
-Comencemos abordando los requisitos previos antes de sumergirnos en la implementación.
+## Respuestas rápidas
+- **¿Qué biblioteca crea un box plot en Java?** Aspose.Slides for Java.
+- **¿Qué tipo de gráfico se usa?** `ChartType.BoxAndWhisker`.
+- **¿Necesito una licencia?** Una prueba gratuita funciona para evaluación; se requiere una licencia comercial para producción.
+- **¿Puedo agregar múltiples series?** Sí – repite el bloque de creación de series para cada conjunto de datos.
+- **¿Cuál es el formato del archivo final?** PowerPoint PPTX (`SaveFormat.Pptx`).
 
-## Prerrequisitos
+## Requisitos previos
 
-Para seguir este tutorial, asegúrese de tener:
+Para seguir este tutorial, asegúrate de tener:
 
-- **Kit de desarrollo de Java (JDK)**:Debe estar instalado JDK 8 o superior.
-- **Biblioteca Aspose.Slides para Java**:Esencial para manejar presentaciones de PowerPoint en Java.
-- **IDE**:Un entorno de desarrollo integrado como IntelliJ IDEA o Eclipse para escribir y ejecutar su código.
+- **Java Development Kit (JDK)**: JDK 8 o superior debe estar instalado.
+- **Aspose.Slides for Java Library**: Esencial para manejar presentaciones PowerPoint en Java.
+- **IDE**: Un Entorno de Desarrollo Integrado como IntelliJ IDEA o Eclipse para escribir y ejecutar tu código.
 
 ## Configuración de Aspose.Slides para Java
 
-Para usar Aspose.Slides, agréguelo como dependencia. Puede administrarlo mediante Maven, Gradle o descargando directamente.
+Para usar Aspose.Slides, añádelo como una dependencia. Puedes gestionarlo a través de Maven, Gradle o mediante descarga directa.
 
-### Experto
+### Maven
 
-Agregue la siguiente dependencia en su `pom.xml`:
+Agrega la siguiente dependencia en tu `pom.xml`:
 
 ```xml
 <dependency>
@@ -51,7 +62,7 @@ Agregue la siguiente dependencia en su `pom.xml`:
 
 ### Gradle
 
-En tu `build.gradle`, incluir:
+En tu `build.gradle`, incluye:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
@@ -59,52 +70,62 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 
 ### Descarga directa
 
-Alternativamente, descargue la última versión desde [Lanzamientos de Aspose.Slides para Java](https://releases.aspose.com/slides/java/).
+Alternativamente, descarga la última versión desde [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-#### Adquisición de licencias
+#### Adquisición de licencia
 
-- **Prueba gratuita**Comience con una prueba gratuita para explorar las funciones.
-- **Licencia temporal**:Obtener una licencia temporal para fines de evaluación.
-- **Compra**:Para obtener una funcionalidad completa, considere comprar una licencia.
+- **Free Trial**: Comienza con una prueba gratuita para explorar las funciones.  
+- **Temporary License**: Obtén una licencia temporal para propósitos de evaluación.  
+- **Purchase**: Para funcionalidad completa, considera comprar una licencia.
 
-Para inicializar Aspose.Slides, asegúrese de tener la biblioteca en su classpath y configure los requisitos de licencia según sea necesario.
+Para inicializar Aspose.Slides, asegúrate de que la biblioteca esté en tu classpath y configura cualquier requisito de licencia según sea necesario.
 
 ## Guía de implementación
 
-Ahora, creemos un diagrama de caja y bigotes con Aspose.Slides para Java. Esta sección le guiará paso a paso.
+Ahora profundicemos en el código paso a paso. Cada bloque se explica antes del fragmento para que sepas exactamente qué hace.
 
-### Crear presentación
+### ¿Qué es un box plot y por qué usarlo en Java?
 
-Primero, inicialice una nueva presentación o abra una existente:
+Un gráfico de caja‑bigotes (a menudo llamado *box plot*) visualiza la distribución de datos—mediana, cuartiles y valores atípicos—en una forma compacta. En Java, generar este gráfico programáticamente te permite incrustar ideas estadísticas directamente en presentaciones PowerPoint, eliminando la creación manual de gráficos.
+
+### ¿Por qué agregar un gráfico a una diapositiva con Aspose.Slides?
+
+Aspose.Slides abstrae los detalles de bajo nivel de OpenXML, ofreciéndote una API fluida para crear, estilizar y exportar gráficos. Esto significa que puedes automatizar la generación de informes, producir una marca consistente e integrar gráficos en flujos de trabajo Java más amplios.
+
+### Paso 1: Crear o abrir una presentación
+
+Primero, abre un PPTX existente o inicia uno nuevo:
 
 ```java
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/test.pptx");
 ```
 
-### Agregar gráfico de caja y bigotes
+> **Consejo:** Si el archivo no existe, Aspose.Slides creará una nueva presentación en blanco para ti.
 
-Añade el gráfico a la primera diapositiva en la posición y tamaño deseados:
+### Paso 2: Agregar un gráfico de caja‑y‑bigotes a la diapositiva
+
+Coloca el gráfico donde lo necesites especificando la posición y el tamaño (en puntos):
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
     ChartType.BoxAndWhisker, 50, 50, 500, 400);
 ```
 
-### Borrar datos existentes
+### Paso 3: Borrar datos existentes
 
-Antes de completar nuevos datos, borre todas las categorías y series existentes:
+Antes de introducir nuevos datos, elimina cualquier categoría o serie de marcador de posición:
 
 ```java
 chart.getChartData().getCategories().clear();
 chart.getChartData().getSeries().clear();
 
 IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
-wb.clear(0); // Borra el contenido a partir de la celda "A1"
+wb.clear(0); // Clears content starting from cell "A1"
 ```
 
-### Configurar categorías
+### Paso 4: Configurar categorías
 
-Agregue categorías a los datos de su gráfico:
+Agrega las categorías (etiquetas del eje X) que aparecerán bajo cada caja:
 
 ```java
 for (int i = 1; i <= 6; i++) {
@@ -113,34 +134,40 @@ for (int i = 1; i <= 6; i++) {
 }
 ```
 
-### Crear y personalizar series
+> **Nota:** Ajusta el texto de la etiqueta para que coincida con tu dominio de datos (p.ej., “Q1”, “Product A”).
 
-Crea una nueva serie y configura sus propiedades:
+### Paso 5: Crear y personalizar la serie
+
+Ahora crea una serie, establece opciones visuales y proporciona los puntos de datos numéricos:
 
 ```java
 IChartSeries series = chart.getChartData().getSeries().add(ChartType.BoxAndWhisker);
-series.setQuartileMethod(QuartileMethodType.Exclusive); // Establezca el método de cuartil en Exclusivo
-series.setShowMeanLine(true); // Mostrar línea media
-series.setShowMeanMarkers(true); // Mostrar marcadores para valores medios
-series.setShowInnerPoints(true); // Mostrar puntos internos en el gráfico
-series.setShowOutlierPoints(true); // Mostrar puntos atípicos en el gráfico
+series.setQuartileMethod(QuartileMethodType.Exclusive); // Set quartile method to Exclusive
+series.setShowMeanLine(true); // Display mean line
+series.setShowMeanMarkers(true); // Show markers for mean values
+series.setShowInnerPoints(true); // Display inner points on the chart
+series.setShowOutlierPoints(true); // Show outlier points on the chart
 
-int[] data = {15, 41, 16, 10, 23, 16}; // Puntos de datos de muestra
+int[] data = {15, 41, 16, 10, 23, 16}; // Sample data points
 for (int i = 0; i < data.length; i++) {
     series.getDataPoints().addDataPointForBoxAndWhiskerSeries(
         wb.getCell(0, "B" + (i + 1), data[i]));
 }
 ```
 
-### Guardar presentación
+Puedes reemplazar el arreglo `int[] data` con valores leídos de una base de datos, archivo CSV, o cualquier otra fuente.
 
-Por último, guarda tu presentación:
+### Paso 6: Guardar la presentación
+
+Persistir los cambios en un nuevo archivo PPTX:
 
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/BoxAndWhisker.pptx", SaveFormat.Pptx);
 ```
 
-Asegúrese siempre de desechar el `Presentation` objeto para liberar recursos:
+### Paso 7: Liberar recursos
+
+Siempre libera el objeto `Presentation` para liberar recursos nativos:
 
 ```java
 finally {
@@ -150,57 +177,63 @@ finally {
 
 ## Aplicaciones prácticas
 
-Los gráficos de caja y bigotes son invaluables para el análisis estadístico y la presentación de datos. A continuación, se presentan algunas aplicaciones prácticas:
+Los gráficos de caja‑y‑bigotes son invaluables en análisis estadístico y presentación de datos. Aquí tienes algunos escenarios donde brillan:
 
-1. **Análisis financiero**:Visualice métricas financieras como ingresos, márgenes de ganancia o precios de acciones.
-2. **Control de calidad**:Analizar los procesos de fabricación para comprobar su coherencia e identificar valores atípicos.
-3. **Investigación académica**:Presentar resultados experimentales con visualizaciones claras de la variabilidad.
-4. **Investigación de mercado**:Comparar diferentes rendimientos de productos en distintos grupos demográficos.
+1. **Financial Analysis** – Visualiza la distribución de ingresos entre regiones.  
+2. **Quality Control** – Detecta valores atípicos en mediciones de fabricación.  
+3. **Academic Research** – Muestra la variabilidad de resultados experimentales.  
+4. **Market Research** – Compara el rendimiento de productos entre diferentes demografías.
 
-Estos gráficos se pueden integrar en flujos de trabajo y paneles de análisis de datos más amplios para proporcionar resúmenes visuales reveladores.
+Integrar estos gráficos en presentaciones PowerPoint permite a los interesados comprender datos complejos de un vistazo.
 
 ## Consideraciones de rendimiento
 
-Al trabajar con Aspose.Slides en Java, tenga en cuenta lo siguiente para obtener un rendimiento óptimo:
+Al trabajar con Aspose.Slides en Java, ten en cuenta estos consejos:
 
-- **Gestión de la memoria**:Asegure un uso eficiente de la memoria eliminando las presentaciones de forma adecuada.
-- **Manejo de datos**:Minimice las operaciones de datos en conjuntos de datos grandes para evitar cuellos de botella en el rendimiento.
-- **Código optimizado**:Utilice las mejores prácticas, como la carga diferida y el almacenamiento en caché, cuando corresponda.
+- **Memory Management** – Libera los objetos `Presentation` rápidamente.  
+- **Data Handling** – Carga solo los datos que necesitas; evita introducir conjuntos de datos masivos directamente en el libro de trabajo del gráfico.  
+- **Lazy Loading** – Si generas muchas diapositivas, considera crear gráficos solo para las que se mostrarán.
 
-## Conclusión
+## Problemas comunes y soluciones
 
-En este tutorial, aprendiste a crear y configurar gráficos de caja y bigotes con Aspose.Slides para Java. Esta potente biblioteca permite la integración fluida de visualizaciones de datos complejas en presentaciones de PowerPoint. Para explorar Aspose.Slides en profundidad, te recomendamos profundizar en su documentación y experimentar con otros tipos de gráficos.
+| Problema | Causa | Solución |
+|----------|-------|----------|
+| **El gráfico aparece en blanco** | Celdas de datos no pobladas correctamente | Verifica que `wb.getCell` haga referencia a la fila/columna correctas y que el valor no sea `null`. |
+| **Los valores atípicos no se muestran** | `setShowOutlierPoints` configurado como `false` | Asegúrate de llamar `series.setShowOutlierPoints(true)`. |
+| **Fuga de memoria** | Presentación no liberada | Siempre envuelve el uso en try/finally y llama a `dispose()`. |
+| **Cuartiles incorrectos** | Uso del método predeterminado `Inclusive` | Cambia a `Exclusive` mediante `setQuartileMethod(QuartileMethodType.Exclusive)`. |
 
-## Sección de preguntas frecuentes
+## Preguntas frecuentes
 
-**P1: ¿Qué es un diagrama de caja y bigotes?**
+**Q1: ¿Qué es un gráfico de caja‑y‑bigotes?**  
+Un gráfico de caja‑y‑bigotes, también conocido como box plot, muestra la distribución de datos basada en cinco estadísticas resumidas: mínimo, primer cuartil, mediana, tercer cuartil y máximo, además de cualquier valor atípico.
 
-Un gráfico de caja y bigotes, también conocido como diagrama de caja, muestra la distribución de datos basándose en cinco estadísticas de resumen. Es útil para mostrar la mediana, los cuartiles y los valores atípicos en un conjunto de datos.
+**Q2: ¿Puedo personalizar la apariencia del gráfico de caja‑y‑bigotes?**  
+Sí. Aspose.Slides te permite cambiar colores, estilos de línea, formas de marcadores e incluso agregar etiquetas de datos mediante la API de formato del gráfico.
 
-**P2: ¿Puedo personalizar la apariencia del gráfico de caja y bigotes?**
+**Q3: ¿Es posible manejar múltiples series en un solo gráfico?**  
+Absolutamente. Repite el bloque de creación de series para cada conjunto de datos que desees visualizar.
 
-Sí, Aspose.Slides permite amplias opciones de personalización, incluidos colores, fuentes y estilos de puntos de datos.
+**Q4: ¿Cómo resuelvo problemas con datos que no se muestran correctamente?**  
+Asegúrate de que los datos se escriban correctamente en las celdas del libro de trabajo y que propiedades de visibilidad como `setShowMeanLine` estén habilitadas.
 
-**P3: ¿Es posible gestionar varias series en un único gráfico?**
+**Q5: ¿Dónde puedo obtener soporte si encuentro problemas?**  
+Visita el [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) para ayuda de la comunidad, o consulta la documentación oficial.
 
-Por supuesto. Puedes agregar varias series a tu gráfico repitiendo el proceso de creación y configuración de cada una.
+**Q6: ¿Aspose.Slides admite otros tipos de gráficos?**  
+Sí, admite líneas, barras, pastel, dispersión, radar y muchos más tipos de gráficos.
 
-**P4: ¿Cómo puedo resolver problemas con datos que no se muestran correctamente?**
-
-Asegúrese de que los datos estén correctamente rellenados en las celdas y de que haya configurado las propiedades adecuadas para la visibilidad, como `setShowMeanLine`.
-
-**Q5: ¿Dónde puedo obtener ayuda si tengo problemas?**
-
-Visita el [Foro de Aspose.Slides](https://forum.aspose.com/c/slides/11) Para obtener soporte de la comunidad o consultar la documentación oficial.
+**Q7: ¿Puedo generar gráficos en un entorno de servidor sin interfaz gráfica?**  
+La biblioteca funciona completamente en escenarios del lado del servidor; no se requiere UI.
 
 ## Recursos
 
-- **Documentación**:Explore referencias API detalladas en [Documentación de Aspose.Slides](https://reference.aspose.com/slides/java/)
-- **Descargar**:Acceda a las versiones de Aspose.Slides [aquí](https://releases.aspose.com/slides/java/)
-- **Compra**: Compre una licencia para desbloquear funciones completas en [Compra de Aspose](https://purchase.aspose.com/buy)
-- **Prueba gratuita y licencia temporal**:Comience con una prueba gratuita o solicite una licencia temporal [aquí](https://releases.aspose.com/slides/java/)
+- **Documentation**: Explora referencias detalladas de la API en [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)  
+- **Download**: Accede a las versiones de Aspose.Slides [aquí](https://releases.aspose.com/slides/java/)  
+- **Purchase**: Compra una licencia para desbloquear todas las funciones en [Aspose Purchase](https://purchase.aspose.com/buy)  
+- **Free Trial & Temporary License**: Comienza con una prueba gratuita o solicita una licencia temporal [aquí](https://releases.aspose.com/slides/java/)
 
-Siguiendo esta guía, estarás bien preparado para empezar a crear diagramas de caja y bigotes concisos en tus aplicaciones Java con Aspose.Slides. ¡Que disfrutes programando!
+Siguiendo esta guía, ahora estás preparado para generar programáticamente gráficos de caja‑y‑bigotes perspicaces en tus aplicaciones Java e incrustarlos directamente en presentaciones PowerPoint. ¡Feliz codificación!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -209,3 +242,9 @@ Siguiendo esta guía, estarás bien preparado para empezar a crear diagramas de 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Última actualización:** 2026-03-02  
+**Probado con:** Aspose.Slides 25.4 (JDK 16 classifier)  
+**Autor:** Aspose
