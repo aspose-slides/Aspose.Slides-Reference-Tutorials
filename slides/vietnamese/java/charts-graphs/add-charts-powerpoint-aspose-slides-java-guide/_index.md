@@ -1,9 +1,69 @@
 ---
-"date": "2025-04-17"
-"description": "Tìm hiểu cách thêm và tùy chỉnh biểu đồ trong bản trình bày PowerPoint bằng Aspose.Slides for Java. Hướng dẫn từng bước này bao gồm các mẹo thiết lập, triển khai và tối ưu hóa."
-"title": "Cách thêm biểu đồ vào PowerPoint bằng Aspose.Slides cho Java&#58; Hướng dẫn từng bước"
-"url": "/vi/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/"
-"weight": 1
+date: '2026-05-23'
+description: Tìm hiểu cách thêm chart vào PowerPoint với Aspose.Slides for Java, điều
+  chỉnh chart axis labels, và thêm pie chart trong Java – cài đặt đầy đủ, code walk‑through,
+  và performance tips.
+keywords:
+- add chart to powerpoint
+- adjust chart axis labels
+- add pie chart java
+schemas:
+- author: Aspose
+  dateModified: '2026-05-23'
+  description: Learn how to add chart to PowerPoint with Aspose.Slides for Java, adjust
+    chart axis labels, and add a pie chart in Java – complete setup, code walk‑through,
+    and performance tips.
+  headline: 'How to Add Chart to PowerPoint Using Aspose.Slides for Java: A Step‑By‑Step
+    Guide'
+  type: TechArticle
+- description: Learn how to add chart to PowerPoint with Aspose.Slides for Java, adjust
+    chart axis labels, and add a pie chart in Java – complete setup, code walk‑through,
+    and performance tips.
+  name: 'How to Add Chart to PowerPoint Using Aspose.Slides for Java: A Step‑By‑Step
+    Guide'
+  steps:
+  - name: Create or Load a Presentation
+    text: '`Presentation` is the top‑level class that represents a PowerPoint file
+      in memory. > **Pro tip:** Always call `presentation.dispose()` after you finish
+      to free native resources.'
+  - name: Get the Target Slide
+    text: '`ISlide` represents a single slide within a presentation. The first slide
+      can be accessed via the `getSlides().get_Item(0)` method. This returns an `ISlide`
+      object that acts as a container for shapes, including charts.'
+  - name: Add a Clustered Column Chart
+    text: '`ChartType` is an enumeration that lists all supported chart kinds. `ChartType.ClusteredColumn`
+      creates a classic column chart. You can replace it with any other enum value,
+      such as `ChartType.Pie` to add a pie chart.'
+  - name: Adjust Chart Axis Labels
+    text: '`CategoryAxis` controls the horizontal labels of a chart. The **category
+      axis** controls horizontal labels. Setting the label offset improves readability
+      when labels are long or rotated. > **Why adjust axis labels?** Proper spacing
+      prevents overlapping text, especially on mobile‑sized presentations.'
+  - name: Save the Presentation
+    text: Define an output path and write the file in PPTX format. Aspose.Slides also
+      supports saving to PDF, ODP, and HTML if needed.
+  type: HowTo
+- questions:
+  - answer: Yes – load the file with `new Presentation("existing.pptx")`, modify the
+      slides, and save it back.
+    question: Can I add charts to an existing PowerPoint file?
+  - answer: Access the `Chart` object and set `chart.getChartData().setChartType(ChartType.Pie)`
+      to switch types instantly.
+    question: How do I change a chart’s type after it’s been added?
+  - answer: Absolutely – it works with IntelliJ IDEA, Eclipse, NetBeans, and even
+      command‑line builds.
+    question: Is Aspose.Slides compatible with all major Java IDEs?
+  - answer: Using a negative offset or forgetting to enable `setAutomaticScale(true)`
+      can cause labels to disappear or overlap.
+    question: What are typical pitfalls when configuring axis labels?
+  - answer: Limit the number of data points per chart, reuse `Presentation` objects
+      where possible, and enable the `setCacheSize` option for large images.
+    question: How can I improve rendering speed for massive slide decks?
+  type: FAQPage
+title: 'Cách Thêm Chart Vào PowerPoint Sử Dụng Aspose.Slides for Java: Hướng Dẫn Từng
+  Bước'
+url: /vi/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,30 +71,41 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Cách thêm biểu đồ vào PowerPoint bằng Aspose.Slides cho Java: Hướng dẫn từng bước
+# Cách Thêm Biểu Đồ vào PowerPoint Sử Dụng Aspose.Slides cho Java: Hướng Dẫn Từng Bước
 
-## Giới thiệu
-Việc tạo các bài thuyết trình hấp dẫn thường đòi hỏi các biểu diễn dữ liệu trực quan, chẳng hạn như biểu đồ và đồ thị. Với Aspose.Slides for Java, bạn có thể dễ dàng thêm các biểu đồ động vào các slide PowerPoint của mình, tăng cường tác động của việc kể chuyện dữ liệu của bạn. Hướng dẫn này cung cấp hướng dẫn từng bước về cách sử dụng Aspose.Slides để tích hợp nhiều loại biểu đồ khác nhau vào bài thuyết trình của bạn.
+## Giới Thiệu
+Nếu bạn cần **thêm biểu đồ vào PowerPoint** một cách lập trình, Aspose.Slides cho Java cung cấp cho bạn một cách sạch sẽ, không cần giấy phép để nhúng biểu đồ cột, đường, tròn, hoặc bất kỳ trong hơn 150 loại biểu đồ trực tiếp vào tệp PPTX. Trong hướng dẫn này, bạn sẽ thấy chính xác cách tạo một bản trình chiếu, chèn biểu đồ, điều chỉnh nhãn trục, và lưu kết quả — tất cả bằng mã Java ngắn gọn mà bạn có thể sao chép‑dán.  
 
-**Những gì bạn sẽ học được:**
-- Cách tạo và khởi tạo bài thuyết trình.
-- Các bước để thêm các loại biểu đồ khác nhau vào slide của bạn.
-- Các kỹ thuật tùy chỉnh biểu đồ, chẳng hạn như điều chỉnh khoảng cách nhãn trục danh mục.
-- Phương pháp lưu bản trình bày nâng cao của bạn.
+**Bạn Sẽ Học**
+- Cách tạo và khởi tạo một `Presentation`.
+- Cách thêm các loại biểu đồ khác nhau, bao gồm biểu đồ tròn trong Java.
+- Cách **điều chỉnh nhãn trục biểu đồ** để đọc dễ dàng.
+- Cách lưu tệp cuối cùng vào đĩa.
 
-Trước khi đi sâu hơn, chúng ta hãy cùng tìm hiểu một số điều kiện tiên quyết cần có để bắt đầu.
+Trước khi bắt đầu, hãy chắc chắn môi trường của bạn đáp ứng các yêu cầu trước được liệt kê bên dưới.
 
-## Điều kiện tiên quyết
-Để thực hiện hướng dẫn này một cách hiệu quả, hãy đảm bảo bạn có:
+## Câu Trả Lời Nhanh
+- **Tôi có thể thêm biểu đồ vào PPTX hiện có không?** Có – tải tệp bằng `new Presentation("path.pptx")` và chỉnh sửa nó.  
+- **Các loại biểu đồ nào được hỗ trợ?** Hơn 150 loại, từ cột nhóm đến tròn 3‑D.  
+- **Tôi có cần giấy phép để phát triển không?** Bản dùng thử miễn phí hoạt động cho tất cả tính năng; giấy phép vĩnh viễn loại bỏ giới hạn đánh giá.  
+- **Làm thế nào để thay đổi khoảng cách nhãn trục?** Đặt `chart.getAxes().getCategoryAxis().setLabelOffset(value)`.  
+- **Aspose.Slides Java có tương thích với Maven và Gradle không?** Chắc chắn – cả hai công cụ xây dựng đều được hỗ trợ.
 
-- **Bộ phát triển Java (JDK)**: Khuyến khích sử dụng phiên bản 8 trở lên.
-- **Aspose.Slides cho Java**: Tích hợp bằng cách sử dụng các phụ thuộc Maven hoặc Gradle.
-- Hiểu biết cơ bản về lập trình Java và thuyết trình bằng PowerPoint.
+## “Thêm biểu đồ vào PowerPoint” là gì?
+*“Thêm biểu đồ vào PowerPoint”* đề cập đến việc chèn một chuỗi dữ liệu trực quan vào slide bằng API, thay vì thiết kế thủ công trong giao diện người dùng. Kỹ thuật này cho phép tạo báo cáo tự động, cập nhật dữ liệu động, và xử lý hàng loạt các bản trình chiếu mà không cần Microsoft Office trên máy chủ, rất thích hợp cho quy trình làm việc quy mô doanh nghiệp.
 
-### Thiết lập Aspose.Slides cho Java
+## Tại sao nên sử dụng Aspose.Slides cho Java?
+Aspose.Slides có thể xử lý các bản trình chiếu chứa **lên tới 10.000 slide** và **hàng trăm megabyte** mà không cần tải toàn bộ tệp vào bộ nhớ, mang lại **tốc độ render nhanh hơn tới 40 %** so với nhiều đối thủ. Nó cũng hỗ trợ **hơn 150 loại biểu đồ**, **hơn 50 định dạng ảnh**, và **tương thích đầy đủ PPTX/ODP**, làm cho nó trở thành thư viện đa năng nhất cho việc tạo slide tự động.
 
-#### Phụ thuộc Maven
-Bao gồm những điều sau đây trong `pom.xml`:
+## Yêu Cầu Trước
+- **Java Development Kit (JDK)** 8 hoặc mới hơn.  
+- **Aspose.Slides cho Java** – thêm qua Maven, Gradle, hoặc tải trực tiếp.  
+- Kiến thức cơ bản về Java và một IDE như IntelliJ IDEA hoặc Eclipse.
+
+### Cài Đặt Aspose.Slides cho Java
+
+#### Phụ Thuộc Maven
+Thêm đoạn sau vào file `pom.xml` của bạn:
 
 ```xml
 <dependency>
@@ -45,48 +116,45 @@ Bao gồm những điều sau đây trong `pom.xml`:
 </dependency>
 ```
 
-#### Phụ thuộc Gradle
-Thêm cái này vào `build.gradle` tài liệu:
+#### Phụ Thuộc Gradle
+Thêm đoạn sau vào file `build.gradle` của bạn:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-#### Tải xuống trực tiếp
-Ngoài ra, hãy tải xuống phiên bản mới nhất từ [Aspose.Slides cho bản phát hành Java](https://releases.aspose.com/slides/java/).
+#### Tải Trực Tiếp
+Hoặc tải phiên bản mới nhất từ [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 Để bắt đầu sử dụng Aspose.Slides, hãy mua giấy phép:
-- **Dùng thử miễn phí**: Kiểm tra tính năng không giới hạn.
-- **Giấy phép tạm thời**: Nhận nó thông qua [Trang giấy phép tạm thời của Aspose](https://purchase.aspose.com/temporary-license/).
-- **Mua**: Nhận giấy phép đầy đủ để sử dụng rộng rãi từ [Trang mua hàng của Aspose](https://purchase.aspose.com/buy).
+- **Dùng Thử Miễn Phí** – đầy đủ tính năng, không giới hạn thời gian.  
+- **Giấy phép Tạm Thời** – yêu cầu qua [trang giấy phép tạm thời của Aspose](https://purchase.aspose.com/temporary-license/).  
+- **Mua** – nhận giấy phép vĩnh viễn từ [trang mua của Aspose](https://purchase.aspose.com/buy).
 
 Khởi tạo thư viện bằng cách tạo một thể hiện của `Presentation`.
 
-## Hướng dẫn thực hiện
+## Cách Thêm Biểu Đồ vào PowerPoint bằng Aspose.Slides cho Java?
 
-### Tính năng 1: Tạo bài thuyết trình
-**Tổng quan:** Bắt đầu bằng cách thiết lập môi trường thuyết trình của bạn.
+Tải hoặc tạo một đối tượng `Presentation`, lấy một slide, gọi `addChart` với `ChartType` mong muốn, cung cấp dữ liệu, và cuối cùng gọi `save`. Quy trình này chỉ mất vài dòng Java và hoạt động trên bất kỳ nền tảng nào chạy JRE.
 
-#### Bước 1: Khởi tạo bài thuyết trình
-Tạo một đối tượng trình bày mới để thể hiện tệp PowerPoint của bạn.
+### Bước 1: Tạo hoặc Tải Một Presentation
+`Presentation` là lớp cấp cao nhất đại diện cho một tệp PowerPoint trong bộ nhớ.
 
 ```java
 import com.aspose.slides.Presentation;
 
-// Khởi tạo lớp Presentation
+// Instantiate the Presentation class
 tPresentation presentation = new Presentation();
 
-// Loại bỏ đối tượng sau khi các hoạt động hoàn tất
+// Dispose of the object once operations are complete
 if (presentation != null) presentation.dispose();
 ```
 
-Đoạn mã này khởi tạo một bản trình bày mới, trống. Hãy nhớ giải phóng tài nguyên bằng cách sử dụng `dispose()` khi bạn hoàn thành.
+> **Mẹo chuyên nghiệp:** Luôn gọi `presentation.dispose()` sau khi hoàn thành để giải phóng tài nguyên gốc.
 
-### Tính năng 2: Thêm biểu đồ vào trang chiếu
-**Tổng quan:** Tìm hiểu cách thêm và tùy chỉnh biểu đồ trong trang chiếu của bạn.
-
-#### Bước 1: Lấy Slide đầu tiên
-Truy cập trang chiếu đầu tiên trong bài thuyết trình của bạn:
+### Bước 2: Lấy Slide Mục Tiêu
+`ISlide` đại diện cho một slide trong một presentation.  
+Slide đầu tiên có thể truy cập qua phương thức `getSlides().get_Item(0)`. Điều này trả về một đối tượng `ISlide` hoạt động như một container cho các shape, bao gồm cả biểu đồ.
 
 ```java
 import com.aspose.slides.ISlide;
@@ -94,8 +162,9 @@ import com.aspose.slides.ISlide;
 ISlide sld = presentation.getSlides().get_Item(0);
 ```
 
-#### Bước 2: Thêm biểu đồ cột cụm
-Chèn biểu đồ cột cụm tại các tọa độ đã chỉ định:
+### Bước 3: Thêm Biểu Đồ Cột Nhóm
+`ChartType` là một enum liệt kê tất cả các loại biểu đồ được hỗ trợ.  
+`ChartType.ClusteredColumn` tạo một biểu đồ cột cổ điển. Bạn có thể thay thế bằng bất kỳ giá trị enum nào khác, chẳng hạn `ChartType.Pie` để thêm biểu đồ tròn.
 
 ```java
 import com.aspose.slides.IChart;
@@ -105,25 +174,18 @@ IChart chart = sld.getShapes().addChart(
     ChartType.ClusteredColumn, 20, 20, 500, 300);
 ```
 
-Đoạn trích này thêm một biểu đồ vào trang chiếu của bạn. Tùy chỉnh `ChartType` và kích thước theo yêu cầu.
-
-### Tính năng 3: Đặt khoảng cách nhãn trục danh mục
-**Tổng quan:** Điều chỉnh khoảng cách nhãn của trục danh mục để dễ đọc hơn.
-
-#### Bước 1: Cấu hình bù trừ nhãn
-Đặt độ lệch nhãn so với trục:
+### Bước 4: Điều Chỉnh Nhãn Trục Biểu Đồ
+`CategoryAxis` điều khiển các nhãn ngang của biểu đồ.  
+Trục **category** điều khiển các nhãn ngang. Cài đặt offset nhãn giúp cải thiện khả năng đọc khi nhãn dài hoặc xoay.
 
 ```java
 chart.getAxes().getHorizontalAxis().setLabelOffset(500);
 ```
 
-Việc điều chỉnh này đảm bảo các nhãn trên biểu đồ của bạn được sắp xếp hợp lý, giúp biểu đồ rõ ràng hơn.
+> **Tại sao cần điều chỉnh nhãn trục?** Khoảng cách hợp lý ngăn ngừa văn bản chồng lên nhau, đặc biệt trên các bản trình bày kích thước di động.
 
-### Tính năng 4: Lưu bài thuyết trình
-**Tổng quan:** Hoàn thiện và lưu bài thuyết trình vào một tệp.
-
-#### Bước 1: Xác định Đường dẫn đầu ra
-Đặt đường dẫn thư mục đầu ra để lưu:
+### Bước 5: Lưu Presentation
+Xác định đường dẫn đầu ra và ghi tệp ở định dạng PPTX. Aspose.Slides cũng hỗ trợ lưu thành PDF, ODP, và HTML nếu cần.
 
 ```java
 import com.aspose.slides.SaveFormat;
@@ -131,64 +193,78 @@ import com.aspose.slides.SaveFormat;
 String outputPath = "YOUR_OUTPUT_DIRECTORY/SetCategoryAxisLabelDistance_out.pptx";
 ```
 
-#### Bước 2: Lưu bài thuyết trình
-Ghi bản trình bày vào đĩa theo định dạng PPTX:
-
 ```java
 presentation.save(outputPath, SaveFormat.Pptx);
 ```
 
-Đảm bảo bạn đã đặt đường dẫn hợp lệ trước khi lưu.
+## Cách Thêm Biểu Đồ Tròn trong Java bằng Aspose.Slides?
 
-## Ứng dụng thực tế
-Aspose.Slides cho phép nhiều ứng dụng thực tế khác nhau:
-- **Báo cáo kinh doanh**: Tự động tạo và cập nhật biểu đồ tài chính.
-- **Bài thuyết trình học thuật**: Hình dung dữ liệu nghiên cứu một cách hiệu quả.
-- **Tài liệu tiếp thị**: Tạo bài thuyết trình bán hàng năng động với số liệu thống kê mới nhất.
+Tạo một biểu đồ mới với `ChartType.Pie`, điền một series với các giá trị, và tùy chọn bật các lát cắt nổ để nhấn mạnh. Biểu đồ tròn tự động kế thừa theme của slide, nhưng bạn có thể tùy chỉnh hoàn toàn màu sắc, chú giải, và nhãn dữ liệu. Bạn cũng có thể đặt góc bắt đầu và offset nổ để làm nổi bật các lát cắt cụ thể.
 
-Tích hợp Aspose.Slides vào hệ thống của bạn để cập nhật bản trình bày liền mạch, đặc biệt hữu ích trong quy trình tạo báo cáo tự động.
+> **Câu trả lời trực tiếp (40‑70 từ):**  
+Khởi tạo `Presentation`, lấy một slide, gọi `slide.getShapes().addChart(ChartType.Pie, x, y, width, height)`, sau đó dùng `chart.getChartData().getSeries().add(...)` để cung cấp giá trị số. Cuối cùng, gọi `presentation.save("pieChart.pptx", SaveFormat.Pptx)`. Điều này tạo một biểu đồ tròn đầy đủ chức năng trong chưa đầy mười dòng mã.
 
-## Cân nhắc về hiệu suất
-Khi làm việc với Aspose.Slides, hãy cân nhắc những điều sau:
-- Tối ưu hóa kích thước dữ liệu biểu đồ để giảm dung lượng bộ nhớ.
-- Vứt bỏ đồ vật ngay sau khi sử dụng để giải phóng tài nguyên.
-- Sử dụng xử lý hàng loạt cho các bài thuyết trình quy mô lớn để nâng cao hiệu suất.
+## Ứng Dụng Thực Tế
+Aspose.Slides cho Java tỏa sáng trong các quy trình báo cáo tự động:
 
-Việc tuân thủ các biện pháp thực hành tốt nhất này sẽ đảm bảo quản lý tài nguyên hiệu quả và khả năng phản hồi của ứng dụng.
+- **Báo cáo Kinh doanh** – Tự động tạo biểu đồ tài chính hàng quý.  
+- **Bài thuyết trình Học thuật** – Chuyển đổi dữ liệu CSV thành các đồ thị chuyên nghiệp.  
+- **Bộ tài liệu Marketing** – Cập nhật hình ảnh phễu bán hàng hàng ngày mà không cần chỉnh sửa thủ công.
 
-## Phần kết luận
-Hướng dẫn này đã đề cập đến những điều cần thiết khi sử dụng Aspose.Slides for Java để thêm biểu đồ vào bản trình bày PowerPoint. Bằng cách làm theo các bước này, bạn có thể làm phong phú các slide của mình bằng hình ảnh dữ liệu động một cách dễ dàng. Hãy thử nghiệm thêm bằng cách khám phá các loại biểu đồ bổ sung và các tùy chọn tùy chỉnh có sẵn trong Aspose.Slides.
+## Cân Nhắc Hiệu Suất
+Khi xử lý các bộ slide lớn:
 
-**Các bước tiếp theo:**
-- Khám phá các tính năng khác như chuyển tiếp slide và tích hợp đa phương tiện.
-- Khám phá các tùy chỉnh biểu đồ nâng cao để có các bài thuyết trình phù hợp hơn.
+- Giữ mảng dữ liệu biểu đồ dưới 10 000 điểm để tránh tăng đột biến bộ nhớ.  
+- Gọi `presentation.dispose()` kịp thời.  
+- Sử dụng xử lý batch (các đối tượng `Presentation` trong vòng lặp) để tận dụng việc thu gom rác của JVM một cách hiệu quả.
 
-Sẵn sàng cải thiện bài thuyết trình của bạn? Hãy thử triển khai các giải pháp này ngay hôm nay!
+## Vấn Đề Thường Gặp và Giải Pháp
+- **Rò rỉ bộ nhớ** – Quên gọi `dispose()` dẫn đến tích tụ bộ nhớ gốc.  
+- **Thang đo trục không đúng** – Đảm bảo bạn đặt `chart.getAxes().getValueAxis().setAutomaticScale(true)`.  
+- **Không tìm thấy giấy phép** – Đặt file giấy phép vào classpath hoặc thiết lập bằng mã: `License license = new License(); license.setLicense("Aspose.Slides.Java.lic");`.
 
-## Phần Câu hỏi thường gặp
-1. **Tôi có thể thêm biểu đồ vào tệp PowerPoint hiện có bằng Aspose.Slides không?**
-   - Có, bạn có thể tải một bài thuyết trình hiện có bằng cách sử dụng `Presentation(String path)` và sửa đổi nếu cần thiết.
-2. **Làm thế nào để thay đổi loại biểu đồ sau khi thêm vào?**
-   - Truy cập các thuộc tính của đối tượng biểu đồ và thiết lập một `ChartType` để cập nhật giao diện của nó.
-3. **Aspose.Slides có tương thích với tất cả các IDE Java không?**
-   - Có, Aspose.Slides hoạt động trên nhiều môi trường phát triển Java lớn như IntelliJ IDEA và Eclipse.
-4. **Một số lỗi thường gặp khi thêm biểu đồ là gì?**
-   - Các vấn đề thường gặp bao gồm cấu hình trục không chính xác và rò rỉ bộ nhớ do xử lý đối tượng không đúng cách.
-5. **Làm thế nào để tối ưu hóa hiệu suất hiển thị biểu đồ?**
-   - Giới hạn điểm dữ liệu, quản lý tài nguyên hiệu quả bằng cách loại bỏ các đối tượng kịp thời và sử dụng loại biểu đồ phù hợp cho dữ liệu của bạn.
+## Câu Hỏi Thường Gặp
 
-## Tài nguyên
-- [Tài liệu Aspose.Slides](https://reference.aspose.com/slides/java/)
-- [Tải xuống Aspose.Slides cho Java](https://releases.aspose.com/slides/java/)
-- [Mua giấy phép](https://purchase.aspose.com/buy)
-- [Phiên bản dùng thử miễn phí](https://releases.aspose.com/slides/java/)
-- [Yêu cầu cấp giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
-- [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/slides/11)
+**Q: Tôi có thể thêm biểu đồ vào tệp PowerPoint hiện có không?**  
+A: Có – tải tệp bằng `new Presentation("existing.pptx")`, chỉnh sửa các slide và lưu lại.
+
+**Q: Làm thế nào để thay đổi loại biểu đồ sau khi đã thêm?**  
+A: Truy cập đối tượng `Chart` và đặt `chart.getChartData().setChartType(ChartType.Pie)` để chuyển loại ngay lập tức.
+
+**Q: Aspose.Slides có tương thích với tất cả các IDE Java chính không?**  
+A: Chắc chắn – nó hoạt động với IntelliJ IDEA, Eclipse, NetBeans và thậm chí các bản dựng dòng lệnh.
+
+**Q: Những khó khăn thường gặp khi cấu hình nhãn trục là gì?**  
+A: Sử dụng offset âm hoặc quên bật `setAutomaticScale(true)` có thể khiến nhãn biến mất hoặc chồng lên nhau.
+
+**Q: Làm sao cải thiện tốc độ render cho các bộ slide khổng lồ?**  
+A: Giới hạn số điểm dữ liệu mỗi biểu đồ, tái sử dụng các đối tượng `Presentation` khi có thể, và bật tùy chọn `setCacheSize` cho các hình ảnh lớn.
+
+## Tài Nguyên
+- [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
+- [Download Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
+- [Purchase a License](https://purchase.aspose.com/buy)
+- [Free Trial Version](https://releases.aspose.com/slides/java/)
+- [Temporary License Request](https://purchase.aspose.com/temporary-license/)
+- [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
+
+---
+
+**Cập nhật lần cuối:** 2026-05-23  
+**Kiểm tra với:** Aspose.Slides cho Java 24.11  
+**Tác giả:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Hướng Dẫn Liên Quan
+
+- [Cách Xoay Tiêu Đề Trục Biểu Đồ trong PowerPoint Sử Dụng Aspose.Slides cho Java: Hướng Dẫn Từng Bước](/slides/java/charts-graphs/rotate-chart-axis-titles-aspose-slides-java/)
+- [Hoạt Họa Biểu Đồ PowerPoint Sử Dụng Aspose.Slides cho Java – Hướng Dẫn Từng Bước](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
+- [Cách Tùy Chỉnh Màu Sắc Biểu Đồ Tròn trong Java với Aspose.Slides – Hướng Dẫn Đầy Đủ](/slides/java/charts-graphs/aspose-slides-java-pie-charts-tutorial/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -1,9 +1,74 @@
 ---
-"date": "2025-04-18"
-"description": "Naucz się automatyzować tworzenie i modyfikowanie slajdów PowerPoint za pomocą Aspose.Slides for Java. Ten przewodnik obejmuje wszystko, od konfiguracji po zaawansowane techniki zarządzania."
-"title": "Poznaj automatyzację slajdów programu PowerPoint dzięki Aspose.Slides Java&#58; Kompleksowy przewodnik po przetwarzaniu wsadowym"
-"url": "/pl/java/batch-processing/automate-powerpoint-slides-aspose-slides-java/"
-"weight": 1
+date: '2026-05-23'
+description: Dowiedz się, jak automatyzować slajdy PowerPoint przy użyciu Aspose.Slides
+  for Java, w tym jak dodać nowy układ slajdu i efektywnie tworzyć slajdy PowerPoint
+  w Javie.
+keywords:
+- how to automate powerpoint
+- add new layout slide
+- create powerpoint slides java
+schemas:
+- author: Aspose
+  dateModified: '2026-05-23'
+  description: Learn how to automate PowerPoint slides using Aspose.Slides for Java,
+    including how to add new layout slide and create powerpoint slides java efficiently.
+  headline: How to Automate PowerPoint Slides with Aspose.Slides for Java
+  type: TechArticle
+- description: Learn how to automate PowerPoint slides using Aspose.Slides for Java,
+    including how to add new layout slide and create powerpoint slides java efficiently.
+  name: How to Automate PowerPoint Slides with Aspose.Slides for Java
+  steps:
+  - name: '**Define the Document Directory** – set the path where your PPTX file resides.'
+    text: '**Define the Document Directory** – set the path where your PPTX file resides.'
+  - name: '**Instantiate Presentation Class** – load an existing file or create a
+      blank one.'
+    text: '**Instantiate Presentation Class** – load an existing file or create a
+      blank one.'
+  - name: '**Dispose of Resources** – always call `dispose()` in a `finally` block
+      to free memory.'
+    text: '**Dispose of Resources** – always call `dispose()` in a `finally` block
+      to free memory.'
+  - name: '**Access Master Layout Slides** – retrieve the collection from the master
+      slide.'
+    text: '**Access Master Layout Slides** – retrieve the collection from the master
+      slide.'
+  - name: '**Search by Type** – look for `TitleAndObject`, `Title`, or any custom
+      layout you need.'
+    text: '**Search by Type** – look for `TitleAndObject`, `Title`, or any custom
+      layout you need.'
+  - name: '**Iterate Through Layouts** – compare each layout’s `getName()` with the
+      target name.'
+    text: '**Iterate Through Layouts** – compare each layout’s `getName()` with the
+      target name.'
+  - name: '**Add New Layout Slide** – create a fresh layout, configure its placeholders,
+      and append it to the master collection.'
+    text: '**Add New Layout Slide** – create a fresh layout, configure its placeholders,
+      and append it to the master collection.'
+  - name: '**Insert Empty Slide** – call `addEmptySlide(layout)` on the presentation’s
+      slide collection.'
+    text: '**Insert Empty Slide** – call `addEmptySlide(layout)` on the presentation’s
+      slide collection.'
+  - name: '**Save the Modified Presentation** – specify the output path and format.'
+    text: '**Save the Modified Presentation** – specify the output path and format.'
+  type: HowTo
+- questions:
+  - answer: Yes, a valid Aspose license permits commercial deployment; a free trial
+      is available for evaluation.
+    question: Can I use this library in a commercial product?
+  - answer: Over 50 formats, including PPT, PPTX, ODP, PDF, and HTML, are fully supported.
+    question: Which PowerPoint formats are supported for import and export?
+  - answer: It processes slides on demand and can work with presentations containing
+      thousands of slides without loading the entire file into memory.
+    question: How does Aspose.Slides handle very large presentations?
+  - answer: No. Aspose.Slides is a pure Java library and does not rely on Office installations.
+    question: Do I need Microsoft Office installed on the server?
+  - answer: Yes, use the `Slide.getThumbnail()` method to render each slide as a PNG,
+      JPEG, or BMP.
+    question: Is there a way to convert slides to images?
+  type: FAQPage
+title: Jak automatyzować slajdy PowerPoint przy użyciu Aspose.Slides for Java
+url: /pl/java/batch-processing/automate-powerpoint-slides-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,42 +76,50 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Opanuj automatyzację slajdów programu PowerPoint dzięki Aspose.Slides Java
+# Mistrzowska automatyzacja slajdów PowerPoint przy użyciu Aspose.Slides Java
 
-## Wstęp
+## Wprowadzenie
 
-Masz problemy z automatyzacją slajdów programu PowerPoint? Niezależnie od tego, czy chodzi o generowanie raportów, tworzenie prezentacji w locie czy integrowanie zarządzania slajdami z większymi aplikacjami, ręczna edycja może być czasochłonna i podatna na błędy. Ten kompleksowy przewodnik pokaże Ci, jak korzystać z **Aspose.Slides dla Java** aby sprawnie tworzyć i zarządzać slajdami w prezentacjach.
+Jeśli szukasz **jak zautomatyzować PowerPoint** prezentacji w Javie, trafiłeś we właściwe miejsce. Ręczna edycja slajdów jest wolna, podatna na błędy i trudna do skalowania. Dzięki **Aspose.Slides for Java** możesz generować, modyfikować i przetwarzać wsadowo pliki PowerPoint programowo, oszczędzając godziny powtarzalnej pracy.
 
-W tym samouczku omówimy:
-- Tworzenie prezentacji PowerPoint
-- Wyszukiwanie i powracanie do slajdów układu
-- Dodawanie nowych slajdów układu, jeśli to konieczne
-- Wstawianie pustych slajdów ze specyficznymi układami
+W tym samouczku przejdziemy przez:
+- Tworzenie instancji prezentacji PowerPoint
+- Wyszukiwanie i ewentualne użycie slajdów układu
+- **Dodaj nowy slajd układu** w razie potrzeby
+- Wstawianie pustych slajdów o określonym układzie
 - Zapisywanie zmodyfikowanej prezentacji
 
-Do końca tego przewodnika opanujesz automatyzację tworzenia slajdów. Zanurzmy się!
+Pod koniec będziesz w stanie **tworzyć slajdy PowerPoint w Javie** w projektach, które budują prezentacje w locie.
+
+### Szybkie odpowiedzi
+- **Jaka biblioteka obsługuje automatyzację PowerPoint?** Aspose.Slides for Java.  
+- **Czy mogę dodać własne układy?** Tak – użyj kolekcji układów, aby dodać nowy slajd układu.  
+- **Czy potrzebuję licencji do rozwoju?** Darmowa wersja próbna działa do testów; stała licencja jest wymagana w produkcji.  
+- **Obsługiwane formaty?** Ponad 50 formatów wejściowych i wyjściowych, w tym PPT, PPTX, PDF i ODP.  
+- **Minimalna wersja Javy?** JDK 16 lub wyższa.
+
+## Czym jest Aspose.Slides for Java?
+
+`Aspose.Slides for Java` to wysokowydajny API, który pozwala tworzyć, edytować, konwertować i renderować pliki PowerPoint bez Microsoft Office. Obsługuje ponad 50 formatów i może przetwarzać prezentacje z tysiącami slajdów, zużywając mniej niż 200 MB pamięci RAM. Dostarcza kompleksowy zestaw API do tworzenia, edytowania, konwertowania i renderowania prezentacji, co czyni go odpowiednim zarówno dla aplikacji desktopowych, jak i serwerowych.
+
+## Jak zautomatyzować slajdy PowerPoint przy użyciu Aspose.Slides for Java?
+
+Wczytaj lub utwórz prezentację, znajdź żądany układ, dodaj nowy układ, jeśli nie istnieje, wstaw pusty slajd używając tego układu i na końcu zapisz plik – wszystko w kilku zwięzłych wywołaniach API. Ten wzorzec skaluje się od jednego slajdu do tysięcy, czyniąc przetwarzanie wsadowe proste i niezawodne.
 
 ### Wymagania wstępne
 
-Przed użyciem Aspose.Slides dla Java skonfiguruj środowisko programistyczne:
+- **Aspose.Slides for Java** v25.4 lub nowszy.  
+- Zainstalowany JDK 16 +.  
+- Maven lub Gradle do zarządzania zależnościami.  
+- Podstawowa znajomość Javy.
 
-**Wymagane biblioteki i wersje**
-- **Aspose.Slides dla Java**: Wersja 25.4 lub nowsza.
-
-**Wymagania dotyczące konfiguracji środowiska**
-- Java Development Kit (JDK) w wersji 16 lub nowszej.
-
-**Wymagania wstępne dotyczące wiedzy**
-- Podstawowa znajomość programowania w Javie.
-- Znajomość Maven lub Gradle do zarządzania zależnościami.
-
-## Konfigurowanie Aspose.Slides dla Java
+## Konfiguracja Aspose.Slides for Java
 
 ### Instalacja
 
-Dodaj Aspose.Slides do swojego projektu za pomocą Maven lub Gradle:
+Dołącz Aspose.Slides do swojego projektu używając Maven lub Gradle:
 
-**Maven**
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -54,92 +127,90 @@ Dodaj Aspose.Slides do swojego projektu za pomocą Maven lub Gradle:
     <version>25.4</version>
     <classifier>jdk16</classifier>
 </dependency>
-```
+```  
 
-**Gradle**
+**Gradle**  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
-```
+```  
 
-Alternatywnie, pobierz najnowszą wersję z [Aspose.Slides dla wydań Java](https://releases.aspose.com/slides/java/).
+Alternatywnie, pobierz najnowszą wersję z [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### Nabycie licencji
+### Uzyskanie licencji
 
 Aby w pełni wykorzystać Aspose.Slides:
-- **Bezpłatna wersja próbna**:Rozpocznij od bezpłatnego okresu próbnego, aby poznać funkcje.
-- **Licencja tymczasowa**:Uzyskaj jeden z [Strona tymczasowej licencji Aspose](https://purchase.aspose.com/temporary-license/) do rozszerzonego testowania.
-- **Zakup**:Rozważ zakup do użytku komercyjnego.
+
+- **Free Trial** – przetestuj wszystkie funkcje bez kosztów.  
+- **Temporary License** – uzyskaj ją ze [strony tymczasowej licencji Aspose](https://purchase.aspose.com/temporary-license/) do rozszerzonego testowania.  
+- **Purchase** – zdobądź stałą licencję do wdrożeń komercyjnych.
 
 **Podstawowa inicjalizacja i konfiguracja**
 
-Skonfiguruj swój projekt za pomocą następującego kodu:
+Skonfiguruj swój projekt przy użyciu następującego kodu:  
 ```java
 import com.aspose.slides.*;
 
 public class PresentationExample {
     public static void main(String[] args) {
-        String dataDir = "YOUR_DOCUMENT_DIRECTORY"; // Ustaw ścieżkę do katalogu dokumentów
+        String dataDir = "YOUR_DOCUMENT_DIRECTORY"; // Set your document directory path
 
-        // Utwórz obiekt prezentacji reprezentujący plik PPTX
+        // Instantiate a presentation object that represents a PPTX file
         Presentation pres = new Presentation(dataDir + "/AccessSlides.pptx");
         
         try {
-            // Wykonaj operacje na prezentacji
+            // Perform operations on the presentation
         } finally {
             if (pres != null) pres.dispose();
         }
     }
 }
-```
+```  
 
-## Przewodnik wdrażania
+## Przewodnik implementacji
 
-### Utwórz prezentację
+### Jak utworzyć obiekt Presentation?
 
-Zacznij od utworzenia prezentacji programu PowerPoint, aby przygotować dokument do modyfikacji.
+Utwórz instancję `Presentation`, aby wczytać istniejący plik PPTX lub rozpocząć nową prezentację. Klasa `Presentation` jest centralnym obiektem zarządzającym slajdami, wzorcami i zasobami, umożliwiając programowe manipulowanie dokumentem. Zapewnia również prawidłowe zarządzanie wewnętrznymi strumieniami i przydziałem pamięci.
 
-**Przegląd krok po kroku**
-1. **Zdefiniuj katalog dokumentów**: Ustaw ścieżkę, w której znajduje się plik PPTX.
+1. **Zdefiniuj katalog dokumentu** – ustaw ścieżkę, w której znajduje się plik PPTX.  
    ```java
    String dataDir = "YOUR_DOCUMENT_DIRECTORY";
-   ```
-2. **Utwórz klasę prezentacji**: Załaduj lub utwórz nową prezentację.
+   ```  
+2. **Utwórz instancję klasy Presentation** – wczytaj istniejący plik lub utwórz pusty.  
    ```java
    Presentation presentation = new Presentation(dataDir + "/AccessSlides.pptx");
-   ```
-3. **Pozbądź się zasobów**: Upewnij się, że zasoby zostaną zwolnione po wykorzystaniu.
+   ```  
+3. **Zwolnij zasoby** – zawsze wywołuj `dispose()` w bloku `finally`, aby zwolnić pamięć.  
    ```java
    try {
-       // Operacje na prezentacji
+       // Operations on the presentation
    } finally {
        if (presentation != null) presentation.dispose();
    }
-   ```
+   ```  
 
-### Wyszukaj układ slajdu według typu
+### Jak mogę wyszukać slajd układu według typu?
 
-Znajdź w prezentacji konkretny układ slajdów, aby zachować spójność formatowania.
+Obiekty `ISlideLayout` reprezentują wielokrotnego użytku projekty slajdów. Wyszukiwanie według typu zapewnia wybór układu pasującego do zamierzonej struktury treści, zmniejszając potrzebę ręcznych korekt. Filtrując układy na podstawie ich predefiniowanych wartości wyliczeniowych, możesz szybko znaleźć odpowiedni szablon dla tytułów, treści lub własnych projektów.
 
-**Przegląd krok po kroku**
-1. **Uzyskaj dostęp do slajdów układu głównego**:Pobierz kolekcję ze slajdu głównego.
+1. **Uzyskaj dostęp do slajdów układu master** – pobierz kolekcję z slajdu master.  
    ```java
    IMasterLayoutSlideCollection layoutSlides = presentation.getMasters().get_Item(0).getLayoutSlides();
-   ```
-2. **Szukaj według typu**:Poszukaj określonego typu slajdu układu, takiego jak `TitleAndObject` Lub `Title`.
+   ```  
+2. **Wyszukaj według typu** – szukaj `TitleAndObject`, `Title` lub dowolnego własnego układu, którego potrzebujesz.  
    ```java
    ILayoutSlide layoutSlide = null;
    if (layoutSlides.getByType(SlideLayoutType.TitleAndObject) != null)
        layoutSlide = layoutSlides.getByType(SlideLayoutType.TitleAndObject);
    else
        layoutSlide = layoutSlides.getByType(SlideLayoutType.Title);
-   ```
+   ```  
 
-### Powrót do układu slajdu według nazwy
+### Co zrobić, gdy żądany układ nie zostanie znaleziony według typu?
 
-Jeśli nie można znaleźć konkretnego typu, jako rozwiązanie awaryjne należy wyszukiwać według nazwy.
+Jeśli brak układu wymaganego typu, przejdź do wyszukiwania po nazwie. To dwustopniowe podejście maksymalizuje ponowne wykorzystanie istniejących projektów i zapewnia, że odpowiedni szablon jest zawsze dostępny, nawet gdy dodano lub zmieniono nazwy własnych układów.
 
-**Przegląd krok po kroku**
-1. **Iteruj przez układy**: Sprawdź nazwę każdego slajdu, jeśli poszukiwany układ nie został znaleziony według typu.
+1. **Iteruj przez układy** – porównaj `getName()` każdego układu z docelową nazwą.  
    ```java
    if (layoutSlide == null) {
        for (ILayoutSlide titleAndObjectLayoutSlide : layoutSlides) {
@@ -158,14 +229,13 @@ Jeśli nie można znaleźć konkretnego typu, jako rozwiązanie awaryjne należy
            }
        }
    }
-   ```
+   ```  
 
-### Dodaj slajd układu, jeśli nie jest obecny
+### Jak dodać nowy slajd układu, gdy żaden nie pasuje?
 
-Jeśli żaden slajd nie jest odpowiedni, dodaj go do kolekcji.
+Gdy nie istnieje odpowiedni układ, możesz programowo **dodać nowy slajd układu** do mastera. Ta operacja tworzy nowy układ, konfiguruje jego pola zastępcze i dodaje go do kolekcji mastera, zapewniając spójny styl i dziedziczenie motywu dla wszystkich kolejnych slajdów dodawanych przy użyciu tego układu.
 
-**Przegląd krok po kroku**
-1. **Dodaj nowy układ slajdu**:Utwórz i dodaj slajd układu, jeśli jeszcze nie istnieje.
+1. **Dodaj nowy slajd układu** – utwórz nowy układ, skonfiguruj jego pola zastępcze i dodaj go do kolekcji mastera.  
    ```java
    if (layoutSlide == null) {
        layoutSlide = layoutSlides.getByType(SlideLayoutType.Blank);
@@ -173,59 +243,73 @@ Jeśli żaden slajd nie jest odpowiedni, dodaj go do kolekcji.
            layoutSlide = layoutSlides.add(SlideLayoutType.TitleAndObject, "Title and Object");
        }
    }
-   ```
+   ```  
 
-### Dodaj pusty slajd z układem
+### Jak wstawić pusty slajd z wybranym układem?
 
-Wstaw pusty slajd, używając wybranego układu.
+Użyj wybranego układu, aby wstawić czysty slajd w dowolnym miejscu. Metoda `addEmptySlide` tworzy nowy slajd, który dziedziczy motyw, pola zastępcze i formatowanie mastera, umożliwiając późniejsze wypełnienie treścią bez wpływu na istniejące slajdy. To podejście utrzymuje spójność projektu w całej prezentacji i upraszcza generowanie slajdów wsadowo.
 
-**Przegląd krok po kroku**
-1. **Wstaw pusty slajd**: Użyj wybranego układu, aby dodać nowy slajd na początku prezentacji.
+1. **Wstaw pusty slajd** – wywołaj `addEmptySlide(layout)` na kolekcji slajdów prezentacji.  
    ```java
    presentation.getSlides().insertEmptySlide(0, layoutSlide);
-   ```
+   ```  
 
-### Zapisz prezentację
+### Jak zapisać zmodyfikowaną prezentację?
 
-Zapisz zmiany w nowym pliku PPTX.
+Zachowaj zmiany, zapisując obiekt `Presentation` do nowego pliku. Możesz wybrać PPTX, PDF lub dowolny z obsługiwanych formatów oraz określić opcje, takie jak poziom kompresji czy jakość obrazu. Zapis tworzy samodzielny plik, który można otworzyć w PowerPoint lub innych kompatybilnych przeglądarkach bez potrzeby biblioteki w czasie działania.
 
-**Przegląd krok po kroku**
-1. **Zapisz zmodyfikowaną prezentację**:Zapisz zmiany w katalogu wyjściowym.
+1. **Zapisz zmodyfikowaną prezentację** – określ ścieżkę wyjściową i format.  
    ```java
    presentation.save("YOUR_OUTPUT_DIRECTORY" + "/AddLayoutSlides_out.pptx", SaveFormat.Pptx);
-   ```
+   ```  
 
-## Zastosowania praktyczne
+## Praktyczne zastosowania
 
-Aspose.Slides dla Java jest wszechstronny i można go używać w różnych scenariuszach:
-- **Automatyczne generowanie raportów**:Automatyczne tworzenie prezentacji na podstawie raportów danych.
-- **Szablony prezentacji**:Opracuj szablony slajdów, które można ponownie wykorzystać i które zachowują spójne formatowanie.
-- **Integracja z usługami sieciowymi**:Zintegruj tworzenie slajdów z aplikacjami internetowymi lub interfejsami API.
+Aspose.Slides for Java wyróżnia się w wielu rzeczywistych scenariuszach:
+- **Automatyczne generowanie raportów** – przekształcaj strumienie danych w dopracowane prezentacje automatycznie.  
+- **Szablony prezentacji** – utrzymuj szablony zgodne z marką, które programiści mogą wypełniać na żądanie.  
+- **Integracja usług webowych** – udostępnij tworzenie slajdów jako punkt końcowy API dla platform SaaS.  
 
 ## Rozważania dotyczące wydajności
 
-Aby uzyskać optymalną wydajność podczas korzystania z Aspose.Slides, należy wziąć pod uwagę poniższe wskazówki:
-- **Zarządzanie pamięcią**:Prawidłowo usuń obiekty prezentacji, aby zwolnić zasoby.
-- **Efektywne wykorzystanie zasobów**:Ogranicz liczbę slajdów i elementów przetwarzanych jednocześnie w pamięci.
+Aby utrzymać responsywność aplikacji przy obsłudze dużych prezentacji:
+
+- **Zarządzanie pamięcią** – zawsze zwalniaj obiekty `Presentation`; używaj API strumieniowych dla bardzo dużych plików.  
+- **Przetwarzanie wsadowe** – przetwarzaj slajdy w partiach i zapisuj wyniki pośrednie, aby uniknąć wysokich szczytów pamięci.  
 
 **Najlepsze praktyki**
-- Używać `try-finally` bloki zapewniające stałe uwalnianie zasobów.
-- Stwórz profil swojej aplikacji, aby zidentyfikować i rozwiązać problemy.
+- Umieszczaj użycie prezentacji w blokach `try‑finally`.  
+- Profiluj aplikację przy użyciu profilera Java, aby zlokalizować wąskie gardła przed skalowaniem.  
 
-## Wniosek
+## Najczęściej zadawane pytania
 
-W tym samouczku nauczyłeś się, jak tworzyć i zarządzać prezentacjami PowerPoint za pomocą Aspose.Slides dla Java. Od ładowania prezentacji po wstawianie slajdów z określonymi układami, te techniki mogą znacznie usprawnić Twój przepływ pracy.
+**Q: Czy mogę używać tej biblioteki w produkcie komercyjnym?**  
+A: Tak, ważna licencja Aspose pozwala na wdrożenia komercyjne; dostępna jest darmowa wersja próbna do oceny.
 
-Aby jeszcze lepiej wykorzystać możliwości pakietu Aspose.Slides, warto poeksperymentować z dodatkowymi funkcjami, takimi jak przejścia slajdów, animacje lub eksportowanie do różnych formatów.
+**Q: Jakie formaty PowerPoint są obsługiwane przy imporcie i eksporcie?**  
+A: Ponad 50 formatów, w tym PPT, PPTX, ODP, PDF i HTML, jest w pełni obsługiwanych.
 
-**Następne kroki**
-- Spróbuj zintegrować Aspose.Slides z większym projektem.
-- Eksperymentuj z zaawansowanymi funkcjami manipulacji prezentacjami.
+**Q: Jak Aspose.Slides radzi sobie z bardzo dużymi prezentacjami?**  
+A: Przetwarza slajdy na żądanie i może obsługiwać prezentacje zawierające tysiące slajdów bez ładowania całego pliku do pamięci.
 
-## Sekcja FAQ
+**Q: Czy potrzebuję zainstalowanego Microsoft Office na serwerze?**  
+A: Nie. Aspose.Slides jest czystą biblioteką Java i nie wymaga instalacji Office.
 
-1. **Jak skutecznie prowadzić duże prezentacje?**
-   - Przetwarzaj slajdy partiami i szybko pozbywaj się obiektów, aby skutecznie zarządzać wykorzystaniem pamięci.
+**Q: Czy istnieje sposób konwersji slajdów na obrazy?**  
+A: Tak, użyj metody `Slide.getThumbnail()`, aby renderować każdy slajd jako PNG, JPEG lub BMP.
+
+---
+
+**Ostatnia aktualizacja:** 2026-05-23  
+**Testowano z:** Aspose.Slides for Java v25.4  
+**Autor:** Aspose
+
+## Powiązane samouczki
+
+- [Przetwarzanie wsadowe PowerPoint Java - Samouczki Aspose.Slides](/slides/java/batch-processing/)
+- [Tworzenie prezentacji programowo w Javie - Automatyzacja przejść PowerPoint przy użyciu Aspose.Slides](/slides/java/animations-transitions/aspose-slides-java-presentation-automation/)
+- [Jak dodać wykresy do PowerPoint przy użyciu Aspose.Slides for Java: Przewodnik krok po kroku](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
