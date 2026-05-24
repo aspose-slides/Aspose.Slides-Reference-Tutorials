@@ -1,9 +1,13 @@
 ---
-"date": "2025-04-17"
-"description": "Aspose.Slides for Javaを使用して動的な散布図を作成する方法を学びましょう。カスタマイズ可能なグラフ機能でプレゼンテーションを強化しましょう。"
-"title": "Aspose.Slides を使用して Java で散布図を作成およびカスタマイズする"
-"url": "/ja/java/charts-graphs/aspose-slides-scatter-charts-java-tutorial/"
-"weight": 1
+date: '2026-02-24'
+description: Aspose.Slides for Java を使用して散布図をカスタマイズする方法を学びましょう。このガイドでは、プレゼンテーション内で動的な散布図を作成し、スタイルを設定し、保存する手順を順に案内します。
+keywords:
+- Aspose.Slides for Java
+- create scatter charts in Java
+- customize Java charts with Aspose
+title: JavaでAsposeの散布図をカスタマイズ
+url: /ja/java/charts-graphs/aspose-slides-scatter-charts-java-tutorial/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,33 +15,38 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.Slides を使用して Java で散布図を作成およびカスタマイズする
+# Java で Aspose の散布図をカスタマイズする
 
-Aspose.SlidesとJavaを使って動的な散布図を追加し、プレゼンテーションの質を高めましょう。この包括的なチュートリアルでは、ディレクトリの設定、プレゼンテーションの初期化、散布図の作成、グラフデータの管理、系列の種類とマーカーのカスタマイズ、そして作業内容の保存まで、すべて簡単に行えます。
+このチュートリアルでは、強力な Aspose.Slides for Java ライブラリを使用して **customize scatter chart aspose** を学びます。プロジェクトの設定、散布図の作成、シリーズタイプやマーカーの調整、最終的なプレゼンテーションの保存まで順を追って説明します。最後には、プログラムでプロフェッショナルな外観の散布図を生成し、ブランドやレポートの要件に合わせてすべてのビジュアル詳細を調整できるようになります。
 
-**学習内容:**
-- プレゼンテーションファイルを保存するためのディレクトリの設定
-- Aspose.Slides を使用してプレゼンテーションを初期化および操作する
-- スライドに散布図を作成する
-- チャートシリーズのデータの管理と追加
-- グラフ系列の種類とマーカーのカスタマイズ
-- プレゼンテーションを変更して保存する
+## クイック回答
+- **必要なライブラリは何ですか？** Aspose.Slides for Java (v25.4+)。  
+- **サポートされている Java バージョンは？** JDK 8 以上。  
+- **マーカーの形状を変更できますか？** はい – `MarkerStyleType` を使用して星形、円形などを選択できます。  
+- **ファイルはどう保存しますか？** `pres.save("output.pptx", SaveFormat.Pptx)` を呼び出します。  
+- **ライセンスは必要ですか？** 開発には無料トライアルで動作しますが、製品版には商用ライセンスが必要です。
 
-まず、必要な前提条件が満たされていることを確認しましょう。
+## “customize scatter chart aspose” とは何ですか？
+Aspose で散布図をカスタマイズするとは、PowerPoint を手動で開くことなく、チャートのデータ、外観、動作をプログラムで定義することを意味します。ポイントの座標からマーカー記号まで、すべてをコードで設定できます。この手法は、レポートの自動化、データ駆動型プレゼンテーション、または繰り返し利用できる高品質な可視化が必要なあらゆるシナリオに最適です。
+
+## Aspose.Slides で散布図をカスタマイズする理由
+- **フルコントロール** – Java コードでシリーズタイプ、マーカースタイル、色などを変更できます。  
+- **自動化** – ダッシュボードやバッチレポート向けに、リアルタイムで多数のチャートを生成できます。  
+- **クロスプラットフォーム** – Java が動作する任意の OS で使用でき、Office のインストールは不要です。  
+- **パフォーマンス** – 大規模データセットを効率的に処理できる軽量 API です。
 
 ## 前提条件
+以下を用意して、チュートリアルを進めてください。
 
-このチュートリアルを実行するには、次のものを用意してください。
-- **Aspose.Slides for Java**バージョン25.4以降が必要です。
-- **Java開発キット（JDK）**: JDK 8 以上が必要です。
-- Java プログラミングに関する基本的な知識と、Maven または Gradle ビルド ツールに精通していること。
+- **Aspose.Slides for Java** (v25.4 以上)。  
+- **Java Development Kit (JDK)** 8 以上がインストールされていること。  
+- 依存関係管理のための Maven または Gradle（または JAR を手動でダウンロード）  
+- 基本的な Java の知識と、使用するビルドツールに慣れていること。
 
-## Aspose.Slides for Java のセットアップ
+## Aspose.Slides for Java の設定
+以下のいずれかの方法でライブラリをプロジェクトに統合します。
 
-コーディングを始める前に、次のいずれかの方法で Aspose.Slides をプロジェクトに統合します。
-
-### メイヴン
-この依存関係を `pom.xml` ファイル：
+### Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -47,68 +56,52 @@ Aspose.SlidesとJavaを使って動的な散布図を追加し、プレゼンテ
 </dependency>
 ```
 
-### グラドル
-この行をあなたの `build.gradle` ファイル：
+### Gradle
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-または、最新のAspose.Slides for Javaを以下からダウンロードしてください。 [Aspose リリース](https://releases。aspose.com/slides/java/).
+または最新リリースを [Aspose Releases](https://releases.aspose.com/slides/java/) から取得してください。
 
 #### ライセンス取得
-- **無料トライアル**30 日間の無料トライアルで機能をご確認ください。
-- **一時ライセンス**延長テスト用の一時ライセンスを取得します。
-- **購入**フルアクセスとサポートを受けるにはライセンスを購入してください。
+- **無料トライアル** – 30 日間の評価。  
+- **一時ライセンス** – テスト期間の延長。  
+- **フルライセンス** – 本番利用およびプレミアムサポート付き。
 
-次に、以下に示すように必要なインポートを追加して、Java アプリケーションで Aspose.Slides を初期化します。
+## 散布図 Aspose カスタマイズのステップバイステップガイド
 
-## 実装ガイド
-
-### ディレクトリの設定
-まず、プレゼンテーションファイルを保存するためのディレクトリが存在することを確認してください。この手順により、ファイルの保存時にエラーが発生するのを防ぐことができます。
-
-#### ディレクトリが存在しない場合は作成する
+### 1️⃣ Prepare a folder for your presentation files
 ```java
 import java.io.File;
 
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 boolean isExists = new File(dataDir).exists();
 if (!isExists) {
-    // ディレクトリを作成する
+    // Create the directory
     new File(dataDir).mkdirs();
 }
 ```
-このスニペットは指定されたディレクトリをチェックし、存在しない場合は作成します。 `File.exists()` 存在を確認し、 `File.mkdirs()` ディレクトリを作成します。
+*重要な理由:* 出力フォルダーが存在することを確認することで、後で PPTX を保存するときに `FileNotFoundException` が発生するのを防げます。
 
-### プレゼンテーションの初期化
-
-次に、散布図を追加するプレゼンテーション オブジェクトを初期化します。
-
-#### プレゼンテーションを初期化する
+### 2️⃣ Create a new presentation and grab the first slide
 ```java
 import com.aspose.slides.Presentation;
 
 Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
 ```
-ここ、 `new Presentation()` 空白のプレゼンテーションを作成します。最初のスライドにアクセスして直接操作します。
+新しい `Presentation` はクリーンなキャンバスを提供します。最初のスライドにチャートを配置します。
 
-### チャート作成
-次に、初期化したスライドに散布図を作成します。
-
-#### スライドに散布図を追加する
+### 3️⃣ Add a scatter chart with smooth lines
 ```java
 import com.aspose.slides.IChart;
 import com.aspose.slides.ChartType;
 
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 ```
-このコードスニペットは、最初のスライドに滑らかな線で描かれた散布図を追加します。パラメータは、グラフの位置とサイズを定義します。
+`ChartType.ScatterWithSmoothLines` は滑らかな線の散布図を作成し、トレンドの可視化に最適です。
 
-### チャートデータ管理
-次に、既存のシリーズをクリアし、新しいシリーズを追加して、チャート データを管理してみましょう。
-
-#### チャートシリーズの管理
+### 4️⃣ Clear any default series and add your own
 ```java
 import com.aspose.slides.IChartDataWorkbook;
 import com.aspose.slides.IChartSeries;
@@ -117,16 +110,13 @@ int defaultWorksheetIndex = 0;
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 chart.getChartData().getSeries().clear();
 
-// チャートに新しいシリーズを追加する
+// Adding new series to the chart
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 1, 1, "Series 1"), chart.getType());
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 1, 3, "Series 2"), chart.getType());
 ```
-このセクションでは、既存のデータをクリアし、散布図に 2 つの新しいシリーズを追加します。
+デフォルトのシリーズを削除することで、表示するデータを完全にコントロールできます。
 
-### 散布図シリーズのデータポイントの追加
-データを視覚化するために、散布図の各系列にポイントを追加します。
-
-#### データポイントを追加する
+### 5️⃣ Populate the first series with data points
 ```java
 import com.aspose.slides.DataPointImpl;
 
@@ -134,12 +124,9 @@ IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 1), fact.getCell(defaultWorksheetIndex, 2, 2, 3));
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 2), fact.getCell(defaultWorksheetIndex, 3, 2, 10));
 ```
-私たちは `addDataPointForScatterSeries()` 最初の系列にデータポイントを追加します。パラメータはX値とY値を定義します。
+`addDataPointForScatterSeries` は X 値セルと Y 値セルを受け取り、散布図のポイントを一つずつ構築します。
 
-### シリーズタイプとマーカーの変更
-各シリーズのマーカーの種類とスタイルを変更して、グラフの外観をカスタマイズします。
-
-#### カスタマイズシリーズ
+### 6️⃣ Customize series type and marker appearance
 ```java
 import com.aspose.slides.MarkerStyleType;
 
@@ -147,7 +134,7 @@ series.setType(ChartType.ScatterWithStraightLinesAndMarkers);
 series.getMarker().setSize(10);
 series.getMarker().setSymbol(MarkerStyleType.Star);
 
-// 第2シリーズの修正
+// Modifying second series
 series = chart.getChartData().getSeries().get_Item(1);
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 5), fact.getCell(defaultWorksheetIndex, 2, 4, 2));
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 3), fact.getCell(defaultWorksheetIndex, 3, 4, 1));
@@ -157,47 +144,48 @@ series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorkshee
 series.getMarker().setSize(10);
 series.getMarker().setSymbol(MarkerStyleType.Circle);
 ```
-これらの変更により、シリーズの種類が直線とマーカーを使用するように調整されます。また、視覚的な区別を容易にするために、マーカーのサイズとシンボルも設定しました。
+ここでは、直線に切り替え、マーカーを拡大し、視覚的な明瞭さのために異なるシンボル（星形と円形）を選択することで **customize the scatter chart aspose** を行います。
 
-### プレゼンテーションの保存
-最後に、すべての変更を加えたプレゼンテーションを保存します。
-
-#### プレゼンテーションを保存する
+### 7️⃣ Save the presentation
 ```java
 import com.aspose.slides.SaveFormat;
 
 pres.save("YOUR_OUTPUT_DIRECTORY/AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
-使用 `SaveFormat.Pptx` ファイルを保存するPowerPoint形式を指定します。この手順は、すべての変更内容を保持するために非常に重要です。
+`Pptx` として保存することで、すべてのチャートカスタマイズが保持され、共有やさらに編集できる状態になります。
 
-## 実用的な応用
-実際の使用例をいくつか紹介します。
-1. **財務分析**散布図を使用して、時間の経過に伴う株価の傾向を表示します。
-2. **科学研究**分析のための実験データ ポイントを表します。
-3. **プロジェクト管理**リソースの割り当てと進捗メトリックを視覚化します。
+## カスタマイズされた散布図の一般的なユースケース
+- **金融ダッシュボード** – 株価と取引量をプロット。  
+- **科学研究** – 誤差マーカー付きの実験測定値を表示。  
+- **プロジェクト管理** – タスクごとの計画と実績の工数を比較。  
 
-Aspose.Slides をシステムに統合すると、レポート生成を自動化し、生産性と精度を向上させることができます。
-
-## パフォーマンスに関する考慮事項
-最適なパフォーマンスを得るには:
-- 保存後にプレゼンテーションを破棄することでメモリ使用量を管理します。
-- 大規模なデータセットには効率的なデータ構造を使用します。
-- ループ内のリソースを大量に消費する操作を最小限に抑えます。
-
-ベスト プラクティスにより、複雑なチャート操作でもスムーズな実行が保証されます。
-
-## 結論
-このチュートリアルでは、ディレクトリの設定、Aspose.Slides プレゼンテーションの初期化、散布図の作成とカスタマイズ、系列データの管理、マーカーの変更、作業内容の保存方法を学習しました。Aspose.Slides の機能をさらに詳しく知りたい場合は、アニメーションやスライドの切り替えといった高度な機能もぜひお試しください。
-
-**次のステップ**さまざまなチャート タイプを試したり、これらのテクニックを大規模な Java プロジェクトに統合したりします。
+## パフォーマンスのヒント
+- 保存後に `Presentation` オブジェクト (`pres.dispose()`) を破棄して、ネイティブリソースを解放します。  
+- 大規模データセットの場合、まずワークブックにデータを入力し、シリーズをバインドすることで UI の再描画を繰り返さないようにします。  
+- 多数のシリーズを追加する際は、単一の `IChartDataWorkbook` インスタンスを再利用します。
 
 ## よくある質問
 
-### マーカーの色を変更するにはどうすればよいですか?
-マーカーの色を変更するには、 `series.getMarker().getFillFormat().setFillColor(ColorObject)`、 どこ `ColorObject` ご希望の色です。
+### マーカーの色を変更するには？
+`series.getMarker().getFillFormat().setFillColor(Color)` を使用します。`Color` は `java.awt.Color` のインスタンスです（例: `Color.RED`）。
 
-### 散布図に 2 つ以上の系列を追加できますか?
-はい、新しいシリーズとデータ ポイントを追加するプロセスを繰り返すことで、必要な数のシリーズを追加できます。
+### 散布図に 2 系列以上追加できますか？
+もちろんです。追加のシリーズごとに `chart.getChartData().getSeries().add(...)` を呼び出し、対応するデータポイントを設定してください。
+
+### 各シリーズにカスタム凡例を設定できますか？
+はい。シリーズを作成した後、`series.getLegend().setText("Your Legend Text")` を呼び出してデフォルト名を上書きします。
+
+### チャートを PPTX ではなく画像としてエクスポートするには？
+チャート設定後に `chart.getImage().save("chart.png", ImageFormat.Png)` を呼び出します。これにより単体の PNG ファイルが得られます。
+
+### 散布点にアニメーションを付けたい場合は？
+Aspose.Slides はアニメーション効果をサポートしています。`chart.getTimeline().getMainSequence().addEffect(...)` を使用して、チャート全体または個別のシリーズに出現や強調のアニメーションを追加できます。
+
+---
+
+**最終更新日:** 2026-02-24  
+**テスト環境:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

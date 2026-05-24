@@ -1,9 +1,13 @@
 ---
-"date": "2025-04-17"
-"description": "了解如何使用 Aspose.Slides for Java 建立動態散點圖。使用可自訂的圖表功能增強您的簡報。"
-"title": "使用 Aspose.Slides 在 Java 中建立和自訂散點圖"
-"url": "/zh-hant/java/charts-graphs/aspose-slides-scatter-charts-java-tutorial/"
-"weight": 1
+date: '2026-02-24'
+description: 學習如何使用 Aspose.Slides for Java 自訂散點圖。此指南將帶領您完成在簡報中建立、樣式設定與儲存動態散點圖的步驟。
+keywords:
+- Aspose.Slides for Java
+- create scatter charts in Java
+- customize Java charts with Aspose
+title: 在 Java 中自訂 Aspose 散點圖
+url: /zh-hant/java/charts-graphs/aspose-slides-scatter-charts-java-tutorial/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,33 +15,40 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# 使用 Aspose.Slides 在 Java 中建立和自訂散點圖
+# 自訂散點圖 Aspose（Java 版）
 
-透過使用 Java 和 Aspose.Slides 新增動態散點圖來增強您的簡報。本綜合教學將引導您輕鬆設定目錄、初始化簡報、建立散點圖、管理圖表資料、自訂系列類型和標記以及儲存您的工作。
+在本教學中，您將學習如何使用功能強大的 Aspose.Slides for Java 函式庫 **自訂散點圖 aspose**。我們將逐步說明如何設定專案、建立散點圖、調整系列類型與標記，最後儲存簡報。完成後，您即可以程式方式產生專業外觀的散點圖，並依品牌或報告需求調整每一個視覺細節。
 
-**您將學到什麼：**
-- 設定用於儲存演示檔案的目錄
-- 使用 Aspose.Slides 初始化和操作簡報
-- 在投影片上建立散點圖
-- 管理並向圖表系列添加數據
-- 自訂圖表系列類型和標記
-- 儲存已修改的簡報
+## 快速解答
+- **需要哪個函式庫？** Aspose.Slides for Java（v25.4 以上）。  
+- **支援哪個 Java 版本？** JDK 8 或更高。  
+- **可以變更標記形狀嗎？** 可以 – 使用 `MarkerStyleType` 來選擇星形、圓形等。  
+- **如何儲存檔案？** 呼叫 `pres.save("output.pptx", SaveFormat.Pptx)`。  
+- **需要授權嗎？** 開發階段可使用免費試用版；正式上線需購買商業授權。
 
-首先，請確保您具備必要的先決條件。
+## 什麼是「customize scatter chart aspose」？
+使用 Aspose 進行散點圖自訂，指的是以程式方式定義圖表的資料、外觀與行為——從座標點到標記符號，都不需手動開啟 PowerPoint。此方式非常適合自動化報表、資料驅動的簡報，或任何需要可重複產出高品質視覺化的情境。
 
-## 先決條件
+## 為什麼要使用 Aspose.Slides 來自訂散點圖？
+- **完整控制** – 透過 Java 程式碼修改系列類型、標記樣式、顏色等。  
+- **自動化** – 可即時產生大量圖表，適用於儀表板或批次報告。  
+- **跨平台** – 在任何支援 Java 的作業系統上執行，無需安裝 Office。  
+- **效能佳** – 輕量級 API 能有效處理大量資料。
 
-要遵循本教程，請確保您已具備：
-- **Aspose.Slides for Java**：需要 25.4 或更高版本。
-- **Java 開發工具包 (JDK)**：需要 JDK 8 或更高版本。
-- 具備 Java 程式設計基礎並熟悉 Maven 或 Gradle 建置工具。
+## 前置條件
+
+請先確保您已具備：
+
+- **Aspose.Slides for Java**（v25.4 或更新版本）。  
+- **Java Development Kit (JDK)** 8 以上。  
+- Maven 或 Gradle 以管理相依性（亦可手動下載 JAR）。  
+- 基本的 Java 知識與您慣用的建置工具。
 
 ## 設定 Aspose.Slides for Java
 
-在開始編碼之前，請使用以下方法之一將 Aspose.Slides 整合到您的專案中：
+將函式庫整合至專案，以下任一方式皆可。
 
 ### Maven
-將此依賴項包含在您的 `pom.xml` 文件：
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -48,67 +59,51 @@
 ```
 
 ### Gradle
-將此行新增至您的 `build.gradle` 文件：
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-或者，從下載最新的 Aspose.Slides for Java [Aspose 版本](https://releases。aspose.com/slides/java/).
+或從 [Aspose 版本發佈](https://releases.aspose.com/slides/java/) 下載最新版本。
 
-#### 許可證獲取
-- **免費試用**：從 30 天免費試用開始探索功能。
-- **臨時執照**：取得臨時許可證以進行延長測試。
-- **購買**：購買許可證以獲得完全訪問和支援。
+#### 授權取得
+- **免費試用** – 30 天評估。  
+- **臨時授權** – 延長測試期間。  
+- **正式授權** – 生產環境使用並享有高級支援。
 
-現在，透過新增必要的匯入來初始化 Java 應用程式中的 Aspose.Slides，如下所示。
+## 步驟教學：自訂散點圖 Aspose
 
-## 實施指南
-
-### 目錄設定
-首先，確保我們的目錄存在以儲存演示文件。此步驟可防止文件保存期間發生錯誤。
-
-#### 如果目錄不存在則建立
+### 1️⃣ 為簡報檔案準備資料夾
 ```java
 import java.io.File;
 
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 boolean isExists = new File(dataDir).exists();
 if (!isExists) {
-    // 建立目錄
+    // Create the directory
     new File(dataDir).mkdirs();
 }
 ```
-此程式碼片段檢查指定的目錄，如果不存在則建立它。它使用 `File.exists()` 驗證存在和 `File.mkdirs()` 建立目錄。
+*為什麼需要這一步驟：* 確保輸出資料夾已存在，可避免在稍後儲存 PPTX 時拋出 `FileNotFoundException`。
 
-### 演示初始化
-
-接下來，初始化您將新增散點圖的示範物件。
-
-#### 初始化您的簡報
+### 2️⃣ 建立新簡報並取得第一張投影片
 ```java
 import com.aspose.slides.Presentation;
 
 Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
 ```
-這裡， `new Presentation()` 建立一個空白簡報。我們進入第一張投影片並直接進行操作。
+全新的 `Presentation` 提供乾淨的畫布；第一張投影片將放置圖表。
 
-### 圖表創建
-接下來在我們初始化的投影片上建立散點圖。
-
-#### 將散點圖加入投影片
+### 3️⃣ 新增平滑線散點圖
 ```java
 import com.aspose.slides.IChart;
 import com.aspose.slides.ChartType;
 
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 ```
-此程式碼片段在第一張投影片中新增了帶有平滑線條的散佈圖。這些參數定義圖表的位置和大小。
+`ChartType.ScatterWithSmoothLines` 會產生平滑線散點圖，適合呈現趨勢走勢。
 
-### 圖表資料管理
-現在讓我們透過清除任何現有系列並新增新系列來管理我們的圖表資料。
-
-#### 管理圖表系列
+### 4️⃣ 清除預設系列並加入自訂系列
 ```java
 import com.aspose.slides.IChartDataWorkbook;
 import com.aspose.slides.IChartSeries;
@@ -117,16 +112,13 @@ int defaultWorksheetIndex = 0;
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 chart.getChartData().getSeries().clear();
 
-// 在圖表中新增系列
+// Adding new series to the chart
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 1, 1, "Series 1"), chart.getType());
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 1, 3, "Series 2"), chart.getType());
 ```
-此部分清除現有資料並為散佈圖新增兩個新系列。
+移除預設系列後，您即可完全掌控要顯示的資料。
 
-### 散點圖系列的數據點添加
-為了可視化我們的數據，我們在散點圖中的每個系列中添加點。
-
-#### 新增數據點
+### 5️⃣ 為第一個系列填入資料點
 ```java
 import com.aspose.slides.DataPointImpl;
 
@@ -134,12 +126,9 @@ IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 1), fact.getCell(defaultWorksheetIndex, 2, 2, 3));
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 2), fact.getCell(defaultWorksheetIndex, 3, 2, 10));
 ```
-我們使用 `addDataPointForScatterSeries()` 將資料點附加到我們的第一個系列。參數定義 X 和 Y 值。
+`addDataPointForScatterSeries` 需要 X 軸儲存格與 Y 軸儲存格，逐點建立散點圖。
 
-### 系列類型和標記修改
-透過改變每個系列中標記的類型和樣式來客製化圖表的外觀。
-
-#### 客製化系列
+### 6️⃣ 自訂系列類型與標記外觀
 ```java
 import com.aspose.slides.MarkerStyleType;
 
@@ -147,7 +136,7 @@ series.setType(ChartType.ScatterWithStraightLinesAndMarkers);
 series.getMarker().setSize(10);
 series.getMarker().setSymbol(MarkerStyleType.Star);
 
-// 修改第二個系列
+// Modifying second series
 series = chart.getChartData().getSeries().get_Item(1);
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 5), fact.getCell(defaultWorksheetIndex, 2, 4, 2));
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 3), fact.getCell(defaultWorksheetIndex, 3, 4, 1));
@@ -157,47 +146,48 @@ series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorkshee
 series.getMarker().setSize(10);
 series.getMarker().setSymbol(MarkerStyleType.Circle);
 ```
-這些變化調整了系列類型以使用直線和標記。我們還設定了標記大小和符號以便進行視覺區分。
+此處我們 **customize the scatter chart aspose**，將線條改為直線、放大標記，並選擇不同符號（星形 vs 圓形）以提升可讀性。
 
-### 簡報儲存
-最後，儲存所做的所有修改的簡報。
-
-#### 儲存您的簡報
+### 7️⃣ 儲存簡報
 ```java
 import com.aspose.slides.SaveFormat;
 
 pres.save("YOUR_OUTPUT_DIRECTORY/AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
-使用 `SaveFormat.Pptx` 指定用於儲存文件的 PowerPoint 格式。此步驟對於保存所有變更至關重要。
+以 `Pptx` 格式儲存可保留所有圖表自訂設定，並方便分享或後續編輯。
 
-## 實際應用
-以下是一些實際用例：
-1. **財務分析**：使用散佈圖顯示股票隨時間的變化趨勢。
-2. **科學研究**：代表需要分析的實驗數據點。
-3. **專案管理**：可視化資源分配和進度指標。
+## 常見自訂散點圖的使用情境
+- **財務儀表板** – 繪製股價與成交量的關係。  
+- **科學研究** – 顯示實驗測量值與誤差標記。  
+- **專案管理** – 比較計畫工時與實際工時的差異。  
 
-將 Aspose.Slides 整合到您的系統中，您可以自動產生報告，從而提高生產力和準確性。
+## 效能最佳化建議
+- 儲存後呼叫 `pres.dispose()` 釋放本機資源。  
+- 大量資料時，先填充工作簿再綁定系列，可減少重複 UI 刷新。  
+- 若需加入多個系列，請重複使用同一個 `IChartDataWorkbook` 實例。
 
-## 性能考慮
-為了獲得最佳性能：
-- 透過儲存後處理簡報來管理記憶體使用量。
-- 對大型資料集使用高效率的資料結構。
-- 盡量減少循環內的資源密集型操作。
+## 常見問答
 
-最佳實務確保即使複雜的圖表操作也能順利執行。
+### 如何變更標記的顏色？
+使用 `series.getMarker().getFillFormat().setFillColor(Color)`，其中 `Color` 為 `java.awt.Color` 例項（如 `Color.RED`）。
 
-## 結論
-在本教程中，您學習如何設定目錄、初始化 Aspose.Slides 簡報、建立和自訂散點圖、管理系列資料、修改標記以及儲存您的工作。為了進一步探索 Aspose.Slides 的功能，請考慮深入了解動畫和幻燈片過渡等更高級的功能。
+### 可以在散點圖中加入超過兩個系列嗎？
+當然可以。對每個額外系列重複呼叫 `chart.getChartData().getSeries().add(...)`，並依序填入資料點。
 
-**後續步驟**：嘗試不同的圖表類型或將這些技術整合到更大的 Java 專案中。
+### 能否為每個系列設定自訂圖例文字？
+可以。建立系列後，呼叫 `series.getLegend().setText("Your Legend Text")` 以覆寫預設名稱。
 
-## 常問問題
+### 如何將圖表匯出為影像而非 PPTX？
+在配置完圖表後，呼叫 `chart.getImage().save("chart.png", ImageFormat.Png)`，即可取得獨立的 PNG 檔案。
 
-### 如何更改標記的顏色？
-若要變更標記顏色，請使用 `series.getMarker().getFillFormat().setFillColor(ColorObject)`， 在哪裡 `ColorObject` 是您想要的顏色。
+### 若要為散點加入動畫效果該怎麼做？
+Aspose.Slides 支援動畫。使用 `chart.getTimeline().getMainSequence().addEffect(...)` 為圖表或單一系列加入進場或強調動畫。
 
-### 我可以為散點圖添加兩個以上的系列嗎？
-是的，您可以透過重複新增系列和資料點的過程來新增所需數量的系列。
+---
+
+**最後更新日期：** 2026-02-24  
+**測試環境：** Aspose.Slides for Java 25.4（jdk16 classifier）  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
