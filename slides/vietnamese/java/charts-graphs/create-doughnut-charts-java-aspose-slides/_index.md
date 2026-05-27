@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Tìm hiểu cách tạo biểu đồ hình bánh rán tuyệt đẹp trong Java với Aspose.Slides. Hướng dẫn toàn diện này bao gồm khởi tạo, cấu hình dữ liệu và lưu bản trình bày."
-"title": "Tạo biểu đồ hình tròn trong Java bằng Aspose.Slides&#58; Hướng dẫn toàn diện"
-"url": "/vi/java/charts-graphs/create-doughnut-charts-java-aspose-slides/"
-"weight": 1
+date: '2026-03-07'
+description: Tìm hiểu cách tạo biểu đồ bánh donut trong Java bằng Aspose.Slides. Hướng
+  dẫn từng bước này bao gồm việc thiết lập phụ thuộc Aspose Slides cho Maven, cấu
+  hình biểu đồ và lưu bản trình bày.
+keywords:
+- create doughnut charts Java
+- Aspose.Slides Java guide
+- Java data visualization
+title: Hướng dẫn tạo biểu đồ vòng bánh Java với Aspose.Slides
+url: /vi/java/charts-graphs/create-doughnut-charts-java-aspose-slides/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,44 +17,49 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Tạo biểu đồ hình tròn trong Java bằng Aspose.Slides: Hướng dẫn từng bước
+# Tạo Biểu Đồ Donut Java với Hướng Dẫn Aspose.Slides
 
 ## Giới thiệu
 
-Trong môi trường dữ liệu ngày nay, việc trực quan hóa thông tin hiệu quả là chìa khóa để nâng cao sự hiểu biết và tương tác. Mặc dù việc tạo biểu đồ chuyên nghiệp theo chương trình có vẻ khó khăn, đặc biệt là với Java, hướng dẫn này sẽ hướng dẫn bạn sử dụng Aspose.Slides for Java để tạo biểu đồ Doughnut một cách dễ dàng.
+Việc tạo **doughnut chart** một cách lập trình có thể biến các con số thô thành hình ảnh bắt mắt, ngay lập tức truyền tải câu chuyện. Trong Java, **Aspose.Slides** làm cho quá trình này trở nên đơn giản, cho phép bạn tạo các biểu đồ sẵn sàng cho bản trình chiếu mà không cần mở PowerPoint. Trong hướng dẫn này, bạn sẽ học cách **create doughnut chart java** từng bước— từ việc thiết lập phụ thuộc Maven Aspose Slides đến tùy chỉnh series, categories, và cuối cùng lưu bản trình chiếu.
 
-Bằng cách làm theo các bước này, các nhà phát triển sẽ có được kinh nghiệm thực tế trong việc thao tác các slide thuyết trình và tích hợp trực quan hóa dữ liệu một cách liền mạch.
+Khi kết thúc hướng dẫn này, bạn sẽ có thể nhúng các doughnut chart động vào bất kỳ tệp PPTX nào, phù hợp cho báo cáo, bảng điều khiển, hoặc bộ slide tự động.
 
-**Những điểm chính cần ghi nhớ:**
-- Khởi tạo đối tượng Presentation bằng Aspose.Slides Java.
-- Cấu hình dữ liệu biểu đồ và quản lý các chuỗi hoặc danh mục hiện có.
-- Thêm và tùy chỉnh chuỗi và danh mục cho biểu đồ của bạn.
-- Định dạng và hiển thị điểm dữ liệu một cách hiệu quả.
-- Lưu bài thuyết trình của bạn ở nhiều định dạng khác nhau một cách dễ dàng.
+### Câu trả lời nhanh
+- **Thư viện nào được sử dụng?** Aspose.Slides for Java  
+- **Nhiệm vụ chính?** Tạo doughnut chart java trong tệp PPTX  
+- **Cách thêm thư viện?** Sử dụng phụ thuộc Maven Aspose Slides (hoặc Gradle)  
+- **Phiên bản Java tối thiểu?** JDK 16 hoặc cao hơn  
+- **Có thể tùy chỉnh màu sắc và nhãn không?** Có, API cung cấp kiểm soát định dạng đầy đủ  
 
-Trước khi bắt đầu triển khai, hãy đảm bảo bạn có mọi thứ cần thiết để bắt đầu.
+## Biểu Đồ Doughnut là gì và Tại sao nên dùng?
 
-## Điều kiện tiên quyết
+Biểu đồ doughnut là một biến thể của biểu đồ tròn với trung tâm trống, cho phép bạn hiển thị nhiều series dữ liệu trong các vòng đồng tâm. Điều này làm cho nó trở nên lý tưởng để so sánh các phần của tổng thể qua nhiều danh mục—ví dụ doanh số bán hàng theo khu vực trong nhiều quý hoặc phân bổ ngân sách theo phòng ban.
 
-Để làm theo hướng dẫn này, hãy đảm bảo bạn có:
+## Tại sao nên dùng Aspose.Slides cho Java?
 
-- **Thư viện bắt buộc:**
-  - Aspose.Slides cho Java phiên bản 25.4 trở lên.
-  
-- **Thiết lập môi trường:**
-  - Hệ thống của bạn phải cài đặt JDK 16 trở lên.
-  - Một IDE như IntelliJ IDEA, Eclipse hoặc NetBeans.
+- **Không cần cài đặt Office** – tạo tệp PPTX trên bất kỳ máy chủ nào.  
+- **API phong phú** – kiểm soát đầy đủ các loại biểu đồ, điểm dữ liệu và kiểu dáng.  
+- **Hiệu năng cao** – tối ưu cho các bản trình chiếu lớn.  
+- **Đa nền tảng** – hoạt động trên Windows, Linux và macOS.
 
-- **Điều kiện tiên quyết về kiến thức:**
-  - Hiểu biết cơ bản về các khái niệm lập trình Java.
-  - Quen thuộc với việc quản lý các phụ thuộc trong các dự án Maven hoặc Gradle.
+## Yêu cầu trước
 
-## Thiết lập Aspose.Slides cho Java
+- **Thư viện yêu cầu:**  
+  - Aspose.Slides for Java phiên bản 25.4 hoặc mới hơn.  
 
-Để tích hợp Aspose.Slides vào dự án của bạn, hãy làm theo các bước sau dựa trên công cụ xây dựng của bạn:
+- **Cài đặt môi trường:**  
+  - JDK 16 hoặc cao hơn.  
+  - IDE yêu thích của bạn (IntelliJ IDEA, Eclipse, NetBeans, v.v.).  
 
-**Thiết lập Maven:**
-Thêm phụ thuộc sau vào `pom.xml` tài liệu:
+- **Kiến thức yêu cầu:**  
+  - Lập trình Java cơ bản.  
+  - Quen thuộc với Maven hoặc Gradle để quản lý phụ thuộc.
+
+## Phụ thuộc Maven Aspose Slides
+
+Thêm phụ thuộc Maven sau vào file `pom.xml` của bạn. Đây là **maven aspose slides dependency** cần thiết để kéo thư viện vào dự án.
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -58,23 +69,25 @@ Thêm phụ thuộc sau vào `pom.xml` tài liệu:
 </dependency>
 ```
 
-**Thiết lập Gradle:**
-Bao gồm những điều sau đây trong `build.gradle` tài liệu:
+Nếu bạn thích Gradle, hãy sử dụng đoạn mã tương đương bên dưới.
+
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Tải xuống trực tiếp:**
-Ngoài ra, hãy tải xuống phiên bản mới nhất trực tiếp từ [Aspose.Slides cho bản phát hành Java](https://releases.aspose.com/slides/java/).
+Bạn cũng có thể tải JAR trực tiếp từ trang phát hành chính thức:  
+[ Aspose.Slides for Java releases ](https://releases.aspose.com/slides/java/)
 
-### Xin giấy phép
+### Nhận giấy phép
 
-Để sử dụng Aspose.Slides mà không có giới hạn đánh giá:
-- **Dùng thử miễn phí:** Bắt đầu với giấy phép tạm thời để khám phá đầy đủ tính năng.
-- **Giấy phép tạm thời:** Nhận một thông qua [Trang web Aspose](https://purchase.aspose.com/temporary-license/).
-- **Mua:** Hãy cân nhắc mua để sử dụng lâu dài.
+Để loại bỏ watermark đánh giá và mở khóa toàn bộ tính năng:
 
-Áp dụng giấy phép của bạn vào ứng dụng Java bằng cách sử dụng:
+- **Dùng thử miễn phí** – bắt đầu với giấy phép tạm thời.  
+- **Giấy phép tạm thời** – yêu cầu từ [trang web Aspose](https://purchase.aspose.com/temporary-license/).  
+- **Giấy phép thương mại** – mua để sử dụng trong môi trường sản xuất.
+
+Áp dụng giấy phép trong mã của bạn:
+
 ```java
 License license = new License();
 license.setLicense("path/to/your/license.lic");
@@ -82,50 +95,37 @@ license.setLicense("path/to/your/license.lic");
 
 ## Hướng dẫn thực hiện
 
-### Khởi tạo Trình bày và Biểu đồ
+### Khởi tạo Presentation và Thêm Doughnut Chart
 
-#### Tổng quan
-Bắt đầu bằng cách khởi tạo một đối tượng trình bày và thêm biểu đồ Doughnut vào trang chiếu đầu tiên.
+Đầu tiên, tạo hoặc tải một presentation và thêm doughnut chart vào slide đầu tiên.
 
-**Bước 1: Khởi tạo bài thuyết trình**
-Tải tệp PPTX hiện có hoặc tạo tệp mới:
 ```java
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/testc.pptx");
 ```
 
-**Bước 2: Thêm biểu đồ hình tròn**
-Tạo biểu đồ trên trang chiếu đầu tiên theo tọa độ đã chỉ định:
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, false);
 ```
 
-### Cấu hình Sổ làm việc dữ liệu biểu đồ và xóa các chuỗi/thể loại hiện có
+### Cấu hình Workbook dữ liệu biểu đồ và Xóa dữ liệu hiện có
 
-#### Tổng quan
-Cấu hình sổ làm việc dữ liệu biểu đồ và xóa bất kỳ chuỗi hoặc danh mục nào có sẵn.
+Tiếp theo, lấy workbook hỗ trợ cho biểu đồ và xóa bất kỳ series hoặc categories mặc định nào.
 
-**Bước 1: Truy cập Sổ làm việc dữ liệu biểu đồ**
-Truy xuất bảng tính được liên kết với biểu đồ của bạn:
 ```java
 IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
 ```
 
-**Bước 2: Xóa các Series và Categories hiện có**
-Đảm bảo không có điểm dữ liệu còn sót lại:
 ```java
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 chart.setLegend(false);
 ```
 
-### Thêm Chuỗi vào Biểu đồ
+### Thêm Series vào Biểu đồ
 
-#### Tổng quan
-Điền nhiều chuỗi vào biểu đồ của bạn, mỗi chuỗi được tùy chỉnh về giao diện và hành vi.
+Bây giờ chúng ta sẽ thêm tối đa 15 series. Mỗi series có thể được tùy chỉnh—ở đây chúng ta đặt explosion, kích thước lỗ doughnut và góc lát đầu tiên.
 
-**Bước 1: Thêm Chuỗi theo Lần Lặp**
-Lặp qua các chỉ mục để thêm chuỗi:
 ```java
 int seriesIndex = 0;
 while (seriesIndex < 15) {
@@ -134,7 +134,7 @@ while (seriesIndex < 15) {
         chart.getType()
     );
 
-    // Tùy chỉnh loạt bài
+    // Customize the series
     series.setExplosion(0);
     series.getParentSeriesGroup().setDoughnutHoleSize((byte) 20);
     series.getParentSeriesGroup().setFirstSliceAngle(351);
@@ -142,13 +142,10 @@ while (seriesIndex < 15) {
 }
 ```
 
-### Thêm danh mục và điểm dữ liệu vào biểu đồ
+### Thêm Categories và Data Points
 
-#### Tổng quan
-Cấu hình danh mục và thêm điểm dữ liệu với định dạng cụ thể cho nhãn.
+Chúng ta sẽ tạo 15 categories và điền mỗi series với một data point. Series cuối cùng sẽ nhận định dạng nhãn đặc biệt.
 
-**Bước 1: Thêm danh mục**
-Lặp qua các chỉ mục cho từng danh mục:
 ```java
 int categoryIndex = 0;
 while (categoryIndex < 15) {
@@ -157,8 +154,6 @@ while (categoryIndex < 15) {
     );
 ```
 
-**Bước 2: Thêm Điểm Dữ Liệu vào Mỗi Chuỗi**
-Lặp lại từng chuỗi cho danh mục hiện tại:
 ```java
 int i = 0;
 while (i < chart.getChartData().getSeries().size()) {
@@ -166,7 +161,7 @@ while (i < chart.getChartData().getSeries().size()) {
     IChartDataPoint dataPoint = iCS.getDataPoints()
         .addDataPointForDoughnutSeries(workBook.getCell(0, categoryIndex + 1, i + 1, 1));
 
-    // Cài đặt định dạng điểm dữ liệu
+    // Data point format settings
     dataPoint.getFormat().getFill().setFillType(FillType.Solid);
     dataPoint.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
     dataPoint.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
@@ -174,7 +169,7 @@ while (i < chart.getChartData().getSeries().size()) {
     dataPoint.getFormat().getLine().setStyle(LineStyle.Single);
     dataPoint.getFormat().getLine().setDashStyle(LineDashStyle.Solid);
 
-    // Định dạng nhãn cho loạt cuối cùng
+    // Label formatting for the last series
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
@@ -186,14 +181,14 @@ while (i < chart.getChartData().getSeries().size()) {
         lbl.getDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat()
             .getSolidFillColor().setColor(Color.LIGHT_GRAY);
 
-        // Điều chỉnh tùy chọn hiển thị
+        // Adjust display options
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
         lbl.getDataLabelFormat().setShowLeaderLines(true);
         lbl.getDataLabelFormat().setShowLabelAsDataCallout(false);
 
-        // Điều chỉnh vị trí nhãn
+        // Adjust label position
         chart.validateChartLayout();
         lbl.setX(lbl.getX() + (float) 0.5);
         lbl.setY(lbl.getY() + (float) 0.5);
@@ -203,24 +198,41 @@ while (i < chart.getChartData().getSeries().size()) {
 categoryIndex++;
 ```
 
-### Lưu bài thuyết trình
+### Lưu Presentation
 
-#### Tổng quan
-Sau khi cấu hình xong biểu đồ, hãy lưu bản trình bày vào thư mục đã chỉ định.
+Cuối cùng, ghi presentation đã cập nhật ra đĩa.
 
-**Bước 1: Lưu bài thuyết trình**
-Sử dụng `save` phương pháp viết thay đổi:
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/chart_presentation.pptx", SaveFormat.Pptx);
 ```
 
-## Phần kết luận
+## Các vấn đề thường gặp và giải pháp
 
-Bây giờ bạn đã học cách tạo và tùy chỉnh biểu đồ Doughnut trong Java bằng Aspose.Slides. Các bước này cung cấp nền tảng để tích hợp hình ảnh dữ liệu phức tạp vào bài thuyết trình của bạn.
+- **Không tìm thấy giấy phép** – Kiểm tra đường dẫn tới `license.lic` có đúng và tệp có thể đọc được.  
+- **Biểu đồ hiện ra trống** – Đảm bảo bạn đã xóa series/categories hiện có trước khi thêm mới.  
+- **Màu không đúng** – Kiểm tra rằng `FillType.Solid` được đặt cho cả định dạng fill và line.  
+- **Hiệu năng với nhiều series** – Giới hạn số lượng series/categories hoặc tái sử dụng các ô workbook.
 
-**Các bước tiếp theo:**
-- Thử nghiệm với các loại biểu đồ khác nhau có sẵn trong Aspose.Slides.
-- Khám phá các tùy chọn tùy chỉnh bổ sung như màu sắc, phông chữ và kiểu dáng để phù hợp với nhu cầu xây dựng thương hiệu của bạn.
+## Câu hỏi thường gặp
+
+**Q: Tôi có thể tạo doughnut chart mà không có tệp PPTX có sẵn không?**  
+A: Có, khởi tạo `new Presentation()` để bắt đầu từ một bộ slide trống.
+
+**Q: Aspose.Slides có hỗ trợ xuất ra PDF không?**  
+A: Chắc chắn. Sau khi tạo biểu đồ, gọi `pres.save("output.pdf", SaveFormat.Pdf);`.
+
+**Q: Làm thế nào để thay đổi kích thước lỗ doughnut?**  
+A: Sử dụng `series.getParentSeriesGroup().setDoughnutHoleSize((byte) value);` trong đó value là 0‑100.
+
+**Q: Có thể thêm nhãn dữ liệu cho tất cả series, không chỉ series cuối cùng không?**  
+A: Có, di chuyển khối định dạng nhãn ra ngoài điều kiện `if (i == ...)` và áp dụng cho mỗi `dataPoint`.
+
+**Q: Các phiên bản Java nào được hỗ trợ?**  
+A: Aspose.Slides 25.4 hỗ trợ JDK 16 và mới hơn. Các JDK cũ hơn yêu cầu classifier phù hợp.
+
+**Cập nhật lần cuối:** 2026-03-07  
+**Đã kiểm tra với:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

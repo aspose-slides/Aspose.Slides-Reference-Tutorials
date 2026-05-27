@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Pelajari cara membuat diagram donat yang menakjubkan di Java dengan Aspose.Slides. Panduan komprehensif ini mencakup inisialisasi, konfigurasi data, dan penyimpanan presentasi."
-"title": "Membuat Bagan Donat di Java menggunakan Aspose.Slides' Panduan Lengkap"
-"url": "/id/java/charts-graphs/create-doughnut-charts-java-aspose-slides/"
-"weight": 1
+date: '2026-03-07'
+description: Pelajari cara membuat diagram donat di Java menggunakan Aspose.Slides.
+  Panduan langkah demi langkah ini mencakup penyiapan dependensi Maven Aspose Slides,
+  konfigurasi diagram, dan penyimpanan presentasi.
+keywords:
+- create doughnut charts Java
+- Aspose.Slides Java guide
+- Java data visualization
+title: Panduan Membuat Diagram Donat Java dengan Aspose.Slides
+url: /id/java/charts-graphs/create-doughnut-charts-java-aspose-slides/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,44 +17,49 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Membuat Diagram Donat di Java Menggunakan Aspose.Slides: Panduan Langkah demi Langkah
+# Buat Diagram Donat Java dengan Panduan Aspose.Slides
 
-## Perkenalan
+## Introduction
 
-Dalam lingkungan yang digerakkan oleh data saat ini, memvisualisasikan informasi secara efektif adalah kunci untuk meningkatkan pemahaman dan keterlibatan. Meskipun membuat bagan profesional secara terprogram mungkin tampak menantang, terutama dengan Java, panduan ini akan memandu Anda menggunakan Aspose.Slides untuk Java untuk membuat bagan Donat dengan mudah.
+Membuat **doughnut chart** secara programatik dapat mengubah angka mentah menjadi visual yang menarik dan langsung menceritakan sebuah kisah. Di Java, **Aspose.Slides** membuat proses ini sederhana, memungkinkan Anda menghasilkan diagram siap presentasi tanpa harus membuka PowerPoint. Dalam tutorial ini Anda akan belajar cara **create doughnut chart java** langkah demi langkah— mulai dari menyiapkan dependensi Maven Aspose Slides hingga menyesuaikan series, kategori, dan akhirnya menyimpan presentasi.
 
-Dengan mengikuti langkah-langkah ini, pengembang akan memperoleh pengalaman langsung dalam memanipulasi slide presentasi dan mengintegrasikan visualisasi data dengan mulus.
+Pada akhir panduan ini Anda akan dapat menyematkan diagram donat dinamis ke dalam file PPTX apa pun, sempurna untuk laporan, dasbor, atau deck slide otomatis.
 
-**Poin-poin Utama:**
-- Inisialisasi objek Presentasi menggunakan Aspose.Slides Java.
-- Konfigurasikan data bagan dan kelola seri atau kategori yang ada.
-- Tambahkan dan sesuaikan seri dan kategori untuk bagan Anda.
-- Format dan tampilkan titik data secara efektif.
-- Simpan presentasi Anda dalam berbagai format dengan mudah.
+### Quick Answers
+- **Perpustakaan apa yang digunakan?** Aspose.Slides for Java  
+- **Tugas utama?** Create doughnut chart java in a PPTX file  
+- **Bagaimana cara menambahkan perpustakaan?** Use the Maven Aspose Slides dependency (or Gradle)  
+- **Versi Java minimum?** JDK 16 or higher  
+- **Bisakah saya menyesuaikan warna dan label?** Yes, the API provides full formatting control  
 
-Sebelum memulai implementasi, pastikan Anda memiliki semua yang dibutuhkan untuk memulai.
+## Apa itu Diagram Donat dan Mengapa Menggunakannya?
 
-## Prasyarat
+Diagram donat adalah variasi dari diagram pai dengan pusat yang kosong, memungkinkan Anda menampilkan beberapa seri data dalam cincin konsentrik. Ini menjadikannya ideal untuk membandingkan bagian dari keseluruhan di beberapa kategori—misalnya penjualan per wilayah selama beberapa kuartal atau alokasi anggaran antar departemen.
 
-Untuk mengikuti tutorial ini, pastikan Anda memiliki:
+## Mengapa Menggunakan Aspose.Slides untuk Java?
 
-- **Pustaka yang dibutuhkan:**
-  - Aspose.Slides untuk Java versi 25.4 atau yang lebih baru.
-  
-- **Pengaturan Lingkungan:**
-  - JDK 16 atau lebih tinggi terinstal di sistem Anda.
-  - IDE seperti IntelliJ IDEA, Eclipse, atau NetBeans.
+- **Tidak memerlukan instalasi Office** – menghasilkan file PPTX di server mana pun.  
+- **Rich API** – kontrol penuh atas tipe diagram, titik data, dan styling.  
+- **High performance** – dioptimalkan untuk presentasi besar.  
+- **Cross‑platform** – bekerja di Windows, Linux, dan macOS.
 
-- **Prasyarat Pengetahuan:**
-  - Pemahaman dasar tentang konsep pemrograman Java.
-  - Kemampuan mengelola dependensi pada proyek Maven atau Gradle.
+## Prerequisites
 
-## Menyiapkan Aspose.Slides untuk Java
+- **Perpustakaan yang Diperlukan:**  
+  - Aspose.Slides for Java versi 25.4 atau lebih baru.  
 
-Untuk mengintegrasikan Aspose.Slides ke dalam proyek Anda, ikuti langkah-langkah berikut berdasarkan alat pembuatan Anda:
+- **Pengaturan Lingkungan:**  
+  - JDK 16 atau lebih tinggi.  
+  - IDE favorit Anda (IntelliJ IDEA, Eclipse, NetBeans, dll.).  
 
-**Pengaturan Maven:**
-Tambahkan dependensi berikut ke `pom.xml` mengajukan:
+- **Prasyarat Pengetahuan:**  
+  - Pemrograman Java dasar.  
+  - Familiaritas dengan Maven atau Gradle untuk manajemen dependensi.
+
+## Maven Aspose Slides Dependency
+
+Tambahkan dependensi Maven berikut ke `pom.xml` Anda. Ini adalah **maven aspose slides dependency** yang Anda perlukan untuk menarik perpustakaan ke dalam proyek.
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -58,74 +69,63 @@ Tambahkan dependensi berikut ke `pom.xml` mengajukan:
 </dependency>
 ```
 
-**Pengaturan Gradle:**
-Sertakan hal berikut dalam formulir Anda `build.gradle` mengajukan:
+Jika Anda lebih suka Gradle, gunakan cuplikan setara di bawah ini.
+
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Unduh Langsung:**
-Atau, unduh versi terbaru langsung dari [Aspose.Slides untuk rilis Java](https://releases.aspose.com/slides/java/).
+Anda juga dapat mengunduh JAR secara langsung dari halaman rilis resmi:  
+[ Rilis Aspose.Slides untuk Java ](https://releases.aspose.com/slides/java/)
 
 ### Mendapatkan Lisensi
 
-Untuk menggunakan Aspose.Slides tanpa batasan evaluasi:
-- **Uji Coba Gratis:** Mulailah dengan lisensi sementara untuk menjelajahi fitur lengkap.
-- **Lisensi Sementara:** Dapatkan satu melalui [Situs web Aspose](https://purchase.aspose.com/temporary-license/).
-- **Pembelian:** Pertimbangkan pembelian untuk penggunaan berkelanjutan.
+Untuk menghapus watermark evaluasi dan membuka seluruh set fitur:
 
-Terapkan lisensi Anda di aplikasi Java Anda menggunakan:
+- **Free trial** – mulai dengan lisensi sementara.  
+- **Temporary license** – minta satu dari [Aspose website](https://purchase.aspose.com/temporary-license/).  
+- **Commercial license** – beli untuk penggunaan produksi.
+
+Terapkan lisensi dalam kode Anda:
+
 ```java
 License license = new License();
 license.setLicense("path/to/your/license.lic");
 ```
 
-## Panduan Implementasi
+## Implementation Guide
 
-### Inisialisasi Presentasi dan Bagan
+### Initializing Presentation and Adding a Doughnut Chart
 
-#### Ringkasan
-Mulailah dengan menginisialisasi objek presentasi dan menambahkan bagan Donat ke slide pertama.
+Pertama, buat atau muat sebuah presentasi dan tambahkan diagram donat ke slide pertama.
 
-**Langkah 1: Inisialisasi Presentasi**
-Muat file PPTX yang ada atau buat yang baru:
 ```java
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/testc.pptx");
 ```
 
-**Langkah 2: Tambahkan Bagan Donat**
-Buat bagan pada slide pertama pada koordinat yang ditentukan:
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, false);
 ```
 
-### Mengonfigurasi Buku Kerja Data Bagan dan Menghapus Seri/Kategori yang Ada
+### Configuring the Chart Data Workbook and Clearing Existing Data
 
-#### Ringkasan
-Konfigurasikan buku kerja data bagan dan hapus seri atau kategori yang sudah ada sebelumnya.
+Selanjutnya, dapatkan workbook yang mendasari diagram dan bersihkan semua series atau kategori default.
 
-**Langkah 1: Akses Buku Kerja Data Bagan**
-Ambil buku kerja yang ditautkan dengan bagan Anda:
 ```java
 IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
 ```
 
-**Langkah 2: Hapus Seri dan Kategori yang Ada**
-Pastikan tidak ada titik data sisa:
 ```java
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 chart.setLegend(false);
 ```
 
-### Menambahkan Seri ke Bagan
+### Adding Series to the Chart
 
-#### Ringkasan
-Isi bagan Anda dengan beberapa seri, masing-masing disesuaikan untuk tampilan dan perilaku.
+Sekarang kita akan menambahkan hingga 15 series. Setiap series dapat disesuaikan—di sini kami mengatur ledakan, ukuran lubang donat, dan sudut irisan pertama.
 
-**Langkah 1: Tambahkan Seri Secara Iteratif**
-Ulangi indeks untuk menambahkan seri:
 ```java
 int seriesIndex = 0;
 while (seriesIndex < 15) {
@@ -134,7 +134,7 @@ while (seriesIndex < 15) {
         chart.getType()
     );
 
-    // Sesuaikan seri
+    // Customize the series
     series.setExplosion(0);
     series.getParentSeriesGroup().setDoughnutHoleSize((byte) 20);
     series.getParentSeriesGroup().setFirstSliceAngle(351);
@@ -142,13 +142,10 @@ while (seriesIndex < 15) {
 }
 ```
 
-### Menambahkan Kategori dan Titik Data ke Bagan
+### Adding Categories and Data Points
 
-#### Ringkasan
-Konfigurasikan kategori dan tambahkan titik data dengan format khusus untuk label.
+Kami akan membuat 15 kategori dan mengisi setiap series dengan satu titik data. Series terakhir menerima format label khusus.
 
-**Langkah 1: Tambahkan Kategori**
-Ulangi indeks untuk setiap kategori:
 ```java
 int categoryIndex = 0;
 while (categoryIndex < 15) {
@@ -157,8 +154,6 @@ while (categoryIndex < 15) {
     );
 ```
 
-**Langkah 2: Tambahkan Titik Data ke Setiap Seri**
-Ulangi setiap seri untuk kategori saat ini:
 ```java
 int i = 0;
 while (i < chart.getChartData().getSeries().size()) {
@@ -166,7 +161,7 @@ while (i < chart.getChartData().getSeries().size()) {
     IChartDataPoint dataPoint = iCS.getDataPoints()
         .addDataPointForDoughnutSeries(workBook.getCell(0, categoryIndex + 1, i + 1, 1));
 
-    // Pengaturan format titik data
+    // Data point format settings
     dataPoint.getFormat().getFill().setFillType(FillType.Solid);
     dataPoint.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
     dataPoint.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
@@ -174,7 +169,7 @@ while (i < chart.getChartData().getSeries().size()) {
     dataPoint.getFormat().getLine().setStyle(LineStyle.Single);
     dataPoint.getFormat().getLine().setDashStyle(LineDashStyle.Solid);
 
-    // Pemformatan label untuk seri terakhir
+    // Label formatting for the last series
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
@@ -186,14 +181,14 @@ while (i < chart.getChartData().getSeries().size()) {
         lbl.getDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat()
             .getSolidFillColor().setColor(Color.LIGHT_GRAY);
 
-        // Sesuaikan opsi tampilan
+        // Adjust display options
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
         lbl.getDataLabelFormat().setShowLeaderLines(true);
         lbl.getDataLabelFormat().setShowLabelAsDataCallout(false);
 
-        // Sesuaikan posisi label
+        // Adjust label position
         chart.validateChartLayout();
         lbl.setX(lbl.getX() + (float) 0.5);
         lbl.setY(lbl.getY() + (float) 0.5);
@@ -203,24 +198,43 @@ while (i < chart.getChartData().getSeries().size()) {
 categoryIndex++;
 ```
 
-### Menyimpan Presentasi
+### Saving the Presentation
 
-#### Ringkasan
-Setelah Anda mengonfigurasi bagan Anda, simpan presentasi ke direktori yang ditentukan.
+Akhirnya, tulis presentasi yang telah diperbarui ke disk.
 
-**Langkah 1: Simpan Presentasi**
-Gunakan `save` metode untuk menulis perubahan:
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/chart_presentation.pptx", SaveFormat.Pptx);
 ```
 
-## Kesimpulan
+## Common Issues and Solutions
 
-Anda kini telah mempelajari cara membuat dan menyesuaikan diagram Donat di Java menggunakan Aspose.Slides. Langkah-langkah ini menyediakan dasar untuk mengintegrasikan visualisasi data yang canggih ke dalam presentasi Anda.
+- **License not found** – Verifikasi bahwa jalur ke `license.lic` sudah benar dan file dapat dibaca.  
+- **Chart appears blank** – Pastikan Anda telah membersihkan series/kategori yang ada sebelum menambahkan yang baru.  
+- **Incorrect colors** – Periksa bahwa `FillType.Solid` telah diatur untuk format isi dan garis.  
+- **Performance with many series** – Batasi jumlah series/kategori atau gunakan kembali sel workbook.
 
-**Langkah Berikutnya:**
-- Bereksperimenlah dengan berbagai jenis bagan yang tersedia di Aspose.Slides.
-- Jelajahi opsi penyesuaian tambahan seperti warna, font, dan gaya untuk memenuhi kebutuhan merek Anda.
+## Frequently Asked Questions
+
+**Q: Bisakah saya menghasilkan diagram donat tanpa file PPTX yang sudah ada?**  
+A: Ya, instantiate `new Presentation()` untuk memulai dari deck slide kosong.
+
+**Q: Apakah Aspose.Slides mendukung ekspor ke PDF?**  
+A: Tentu saja. Setelah membuat diagram, panggil `pres.save("output.pdf", SaveFormat.Pdf);`.
+
+**Q: Bagaimana cara mengubah ukuran lubang donat?**  
+A: Gunakan `series.getParentSeriesGroup().setDoughnutHoleSize((byte) value);` dimana nilai berada di antara 0‑100.
+
+**Q: Apakah memungkinkan menambahkan label data ke semua series, bukan hanya yang terakhir?**  
+A: Ya, pindahkan blok format label keluar dari kondisi `if (i == ...)` dan terapkan ke setiap `dataPoint`.
+
+**Q: Versi Java apa yang didukung?**  
+A: Aspose.Slides 25.4 mendukung JDK 16 dan yang lebih baru. JDK sebelumnya memerlukan classifier yang sesuai.
+
+---
+
+**Terakhir Diperbarui:** 2026-03-07  
+**Diuji Dengan:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

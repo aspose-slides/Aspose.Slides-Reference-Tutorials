@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Apprenez à créer de superbes graphiques en anneau en Java avec Aspose.Slides. Ce guide complet couvre l'initialisation, la configuration des données et l'enregistrement des présentations."
-"title": "Créer des graphiques en anneau en Java à l'aide d'Aspose.Slides &#58; un guide complet"
-"url": "/fr/java/charts-graphs/create-doughnut-charts-java-aspose-slides/"
-"weight": 1
+date: '2026-03-07'
+description: Apprenez à créer un graphique en anneau en Java avec Aspose.Slides. Ce
+  guide étape par étape couvre la configuration de la dépendance Maven Aspose Slides,
+  la configuration du graphique et l’enregistrement des présentations.
+keywords:
+- create doughnut charts Java
+- Aspose.Slides Java guide
+- Java data visualization
+title: Créer un diagramme en anneau Java avec le guide Aspose.Slides
+url: /fr/java/charts-graphs/create-doughnut-charts-java-aspose-slides/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,44 +17,49 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Créer des graphiques en anneau en Java avec Aspose.Slides : guide étape par étape
+# Créer un diagramme en anneau Java avec le guide Aspose.Slides
 
 ## Introduction
 
-Dans l'environnement actuel axé sur les données, visualiser efficacement les informations est essentiel pour améliorer la compréhension et l'engagement. Créer des graphiques professionnels par programmation peut sembler complexe, surtout avec Java. Ce guide vous explique comment utiliser Aspose.Slides pour Java pour créer facilement des graphiques en anneau.
+Créer un **diagramme en anneau** de façon programmatique peut transformer des chiffres bruts en une visualisation accrocheuse qui raconte instantanément une histoire. En Java, **Aspose.Slides** simplifie ce processus, vous permettant de générer des graphiques prêts pour une présentation sans jamais ouvrir PowerPoint. Dans ce tutoriel, vous apprendrez comment **créer un diagramme en anneau Java** étape par étape — depuis la configuration de la dépendance Maven Aspose Slides jusqu'à la personnalisation des séries, des catégories, et enfin l'enregistrement de la présentation.
 
-En suivant ces étapes, les développeurs acquerront une expérience pratique dans la manipulation de diapositives de présentation et l’intégration transparente de la visualisation des données.
+À la fin de ce guide, vous serez capable d'intégrer des diagrammes en anneau dynamiques dans n'importe quel fichier PPTX, parfaits pour les rapports, les tableaux de bord ou les présentations automatisées.
 
-**Points clés à retenir :**
-- Initialisez un objet de présentation à l'aide d'Aspose.Slides Java.
-- Configurez les données du graphique et gérez les séries ou catégories existantes.
-- Ajoutez et personnalisez des séries et des catégories pour vos graphiques.
-- Formatez et affichez efficacement les points de données.
-- Enregistrez facilement votre présentation dans différents formats.
+### Réponses rapides
+- **Quelle bibliothèque est utilisée ?** Aspose.Slides for Java  
+- **Tâche principale ?** Créer un diagramme en anneau Java dans un fichier PPTX  
+- **Comment ajouter la bibliothèque ?** Utilisez la dépendance Maven Aspose Slides (ou Gradle)  
+- **Version minimale de Java ?** JDK 16 ou supérieur  
+- **Puis-je personnaliser les couleurs et les libellés ?** Oui, l'API offre un contrôle complet du formatage  
 
-Avant de vous lancer dans la mise en œuvre, assurez-vous d’avoir tout ce dont vous avez besoin pour commencer.
+## Qu'est-ce qu'un diagramme en anneau et pourquoi l'utiliser ?
+
+Un diagramme en anneau est une variante du diagramme circulaire avec un centre vide, permettant d'afficher plusieurs séries de données sous forme d'anneaux concentriques. Cela le rend idéal pour comparer des parties d'un tout à travers plusieurs catégories — par exemple les ventes par région sur plusieurs trimestres ou les allocations budgétaires par département.
+
+## Pourquoi utiliser Aspose.Slides pour Java ?
+
+- **Aucune installation d'Office requise** – générez des fichiers PPTX sur n'importe quel serveur.  
+- **API riche** – contrôle complet sur les types de graphiques, les points de données et le style.  
+- **Haute performance** – optimisé pour les présentations volumineuses.  
+- **Multi‑plateforme** – fonctionne sous Windows, Linux et macOS.
 
 ## Prérequis
 
-Pour suivre ce tutoriel, assurez-vous d'avoir :
+- **Bibliothèques requises :**  
+  - Aspose.Slides for Java version 25.4 ou ultérieure.  
 
-- **Bibliothèques requises :**
-  - Aspose.Slides pour Java version 25.4 ou ultérieure.
-  
-- **Configuration de l'environnement :**
-  - JDK 16 ou supérieur installé sur votre système.
-  - Un IDE comme IntelliJ IDEA, Eclipse ou NetBeans.
+- **Configuration de l'environnement :**  
+  - JDK 16 ou supérieur.  
+  - Votre IDE préféré (IntelliJ IDEA, Eclipse, NetBeans, etc.).  
 
-- **Prérequis en matière de connaissances :**
-  - Compréhension de base des concepts de programmation Java.
-  - Connaissance de la gestion des dépendances dans les projets Maven ou Gradle.
+- **Prérequis de connaissances :**  
+  - Programmation Java de base.  
+  - Familiarité avec Maven ou Gradle pour la gestion des dépendances.
 
-## Configuration d'Aspose.Slides pour Java
+## Dépendance Maven Aspose Slides
 
-Pour intégrer Aspose.Slides dans votre projet, suivez ces étapes en fonction de votre outil de construction :
+Ajoutez la dépendance Maven suivante à votre `pom.xml`. Il s'agit de la **dépendance maven aspose slides** nécessaire pour intégrer la bibliothèque à votre projet.
 
-**Configuration Maven :**
-Ajoutez la dépendance suivante à votre `pom.xml` déposer:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -58,61 +69,53 @@ Ajoutez la dépendance suivante à votre `pom.xml` déposer:
 </dependency>
 ```
 
-**Configuration de Gradle :**
-Incluez les éléments suivants dans votre `build.gradle` déposer:
+Si vous préférez Gradle, utilisez le fragment équivalent ci‑dessous.
+
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Téléchargement direct :**
-Vous pouvez également télécharger la dernière version directement depuis [Versions d'Aspose.Slides pour Java](https://releases.aspose.com/slides/java/).
+Vous pouvez également télécharger le JAR directement depuis la page officielle des versions :  
+[ Aspose.Slides for Java releases ](https://releases.aspose.com/slides/java/)
 
 ### Obtention d'une licence
 
-Pour utiliser Aspose.Slides sans limitations d'évaluation :
-- **Essai gratuit :** Commencez avec une licence temporaire pour explorer toutes les fonctionnalités.
-- **Licence temporaire :** Obtenez-en un via le [Site Web d'Aspose](https://purchase.aspose.com/temporary-license/).
-- **Achat:** Envisagez d’acheter pour une utilisation continue.
+Pour supprimer le filigrane d'évaluation et débloquer l'ensemble complet des fonctionnalités :
 
-Appliquez votre licence dans votre application Java en utilisant :
+- **Essai gratuit** – commencez avec une licence temporaire.  
+- **Licence temporaire** – demandez‑en une sur le [site Aspose](https://purchase.aspose.com/temporary-license/).  
+- **Licence commerciale** – achetez‑la pour une utilisation en production.
+
+Appliquez la licence dans votre code :
+
 ```java
 License license = new License();
 license.setLicense("path/to/your/license.lic");
 ```
 
-## Guide de mise en œuvre
+## Guide d'implémentation
 
-### Initialisation de la présentation et du graphique
+### Initialisation de la présentation et ajout d'un diagramme en anneau
 
-#### Aperçu
-Commencez par initialiser un objet de présentation et ajoutez un graphique en anneau à la première diapositive.
+Tout d'abord, créez ou chargez une présentation et ajoutez un diagramme en anneau à la première diapositive.
 
-**Étape 1 : Initialiser la présentation**
-Chargez un fichier PPTX existant ou créez-en un nouveau :
 ```java
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/testc.pptx");
 ```
 
-**Étape 2 : Ajouter un graphique en anneau**
-Créez un graphique sur la première diapositive aux coordonnées spécifiées :
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, false);
 ```
 
-### Configuration du classeur de données de graphique et suppression des séries/catégories existantes
+### Configuration du classeur de données du graphique et suppression des données existantes
 
-#### Aperçu
-Configurez le classeur de données du graphique et supprimez toutes les séries ou catégories préexistantes.
+Ensuite, obtenez le classeur qui alimente le graphique et supprimez toutes les séries ou catégories par défaut.
 
-**Étape 1 : Accéder au classeur de données graphiques**
-Récupérez le classeur lié à votre graphique :
 ```java
 IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
 ```
 
-**Étape 2 : Effacer les séries et catégories existantes**
-Assurez-vous qu'il n'y a pas de points de données résiduels :
 ```java
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
@@ -121,11 +124,8 @@ chart.setLegend(false);
 
 ### Ajout de séries au graphique
 
-#### Aperçu
-Remplissez votre graphique avec plusieurs séries, chacune personnalisée en termes d'apparence et de comportement.
+Nous allons maintenant ajouter jusqu'à 15 séries. Chaque série peut être personnalisée — ici nous définissons l'explosion, la taille du trou du diagramme en anneau et l'angle de la première tranche.
 
-**Étape 1 : Ajouter des séries de manière itérative**
-Boucle sur les indices pour ajouter des séries :
 ```java
 int seriesIndex = 0;
 while (seriesIndex < 15) {
@@ -134,7 +134,7 @@ while (seriesIndex < 15) {
         chart.getType()
     );
 
-    // Personnaliser la série
+    // Customize the series
     series.setExplosion(0);
     series.getParentSeriesGroup().setDoughnutHoleSize((byte) 20);
     series.getParentSeriesGroup().setFirstSliceAngle(351);
@@ -142,13 +142,10 @@ while (seriesIndex < 15) {
 }
 ```
 
-### Ajout de catégories et de points de données au graphique
+### Ajout de catégories et de points de données
 
-#### Aperçu
-Configurez des catégories et ajoutez des points de données avec un formatage spécifique pour les étiquettes.
+Nous créerons 15 catégories et remplirons chaque série avec un point de données. La dernière série reçoit un formatage spécial des libellés.
 
-**Étape 1 : Ajouter des catégories**
-Boucle sur les indices pour chaque catégorie :
 ```java
 int categoryIndex = 0;
 while (categoryIndex < 15) {
@@ -157,8 +154,6 @@ while (categoryIndex < 15) {
     );
 ```
 
-**Étape 2 : ajouter des points de données à chaque série**
-Parcourez chaque série pour la catégorie actuelle :
 ```java
 int i = 0;
 while (i < chart.getChartData().getSeries().size()) {
@@ -166,7 +161,7 @@ while (i < chart.getChartData().getSeries().size()) {
     IChartDataPoint dataPoint = iCS.getDataPoints()
         .addDataPointForDoughnutSeries(workBook.getCell(0, categoryIndex + 1, i + 1, 1));
 
-    // Paramètres de format de point de données
+    // Data point format settings
     dataPoint.getFormat().getFill().setFillType(FillType.Solid);
     dataPoint.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
     dataPoint.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
@@ -174,7 +169,7 @@ while (i < chart.getChartData().getSeries().size()) {
     dataPoint.getFormat().getLine().setStyle(LineStyle.Single);
     dataPoint.getFormat().getLine().setDashStyle(LineDashStyle.Solid);
 
-    // Formatage des étiquettes pour la dernière série
+    // Label formatting for the last series
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
@@ -186,14 +181,14 @@ while (i < chart.getChartData().getSeries().size()) {
         lbl.getDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat()
             .getSolidFillColor().setColor(Color.LIGHT_GRAY);
 
-        // Ajuster les options d'affichage
+        // Adjust display options
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
         lbl.getDataLabelFormat().setShowLeaderLines(true);
         lbl.getDataLabelFormat().setShowLabelAsDataCallout(false);
 
-        // Ajuster la position de l'étiquette
+        // Adjust label position
         chart.validateChartLayout();
         lbl.setX(lbl.getX() + (float) 0.5);
         lbl.setY(lbl.getY() + (float) 0.5);
@@ -203,24 +198,43 @@ while (i < chart.getChartData().getSeries().size()) {
 categoryIndex++;
 ```
 
-### Enregistrer la présentation
+### Enregistrement de la présentation
 
-#### Aperçu
-Une fois votre graphique configuré, enregistrez la présentation dans un répertoire spécifié.
+Enfin, écrivez la présentation mise à jour sur le disque.
 
-**Étape 1 : Enregistrer la présentation**
-Utilisez le `save` méthode pour écrire les modifications :
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/chart_presentation.pptx", SaveFormat.Pptx);
 ```
 
-## Conclusion
+## Problèmes courants et solutions
 
-Vous avez maintenant appris à créer et personnaliser des graphiques en anneau en Java avec Aspose.Slides. Ces étapes constituent une base pour intégrer des visualisations de données sophistiquées à vos présentations.
+- **Licence introuvable** – Vérifiez que le chemin vers `license.lic` est correct et que le fichier est lisible.  
+- **Le graphique apparaît vide** – Assurez‑vous d'avoir supprimé les séries/catégories existantes avant d'en ajouter de nouvelles.  
+- **Couleurs incorrectes** – Vérifiez que `FillType.Solid` est défini à la fois pour le remplissage et le format de ligne.  
+- **Performance avec de nombreuses séries** – Limitez le nombre de séries/catégories ou réutilisez les cellules du classeur.
 
-**Prochaines étapes :**
-- Expérimentez avec différents types de graphiques disponibles dans Aspose.Slides.
-- Explorez des options de personnalisation supplémentaires telles que les couleurs, les polices et les styles pour répondre à vos besoins de marque.
+## Questions fréquentes
+
+**Q : Puis‑je générer un diagramme en anneau sans fichier PPTX préexistant ?**  
+R : Oui, instanciez `new Presentation()` pour démarrer à partir d'un jeu de diapositives vierge.
+
+**Q : Aspose.Slides prend‑il en charge l'exportation en PDF ?**  
+R : Absolument. Après avoir créé le graphique, appelez `pres.save("output.pdf", SaveFormat.Pdf);`.
+
+**Q : Comment modifier la taille du trou du diagramme en anneau ?**  
+R : Utilisez `series.getParentSeriesGroup().setDoughnutHoleSize((byte) value);` où la valeur est comprise entre 0‑100.
+
+**Q : Est‑il possible d'ajouter des libellés de données à toutes les séries, pas seulement à la dernière ?**  
+R : Oui, déplacez le bloc de formatage des libellés en dehors de la condition `if (i == ...)` et appliquez‑le à chaque `dataPoint`.
+
+**Q : Quelles versions de Java sont prises en charge ?**  
+R : Aspose.Slides 25.4 prend en charge JDK 16 et les versions ultérieures. Les versions antérieures de JDK nécessitent le classificateur approprié.
+
+---
+
+**Dernière mise à jour :** 2026-03-07  
+**Testé avec :** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Μάθετε πώς να δημιουργείτε εκπληκτικά γραφήματα ντόνατ σε Java με το Aspose.Slides. Αυτός ο ολοκληρωμένος οδηγός καλύπτει την αρχικοποίηση, τη διαμόρφωση δεδομένων και την αποθήκευση παρουσιάσεων."
-"title": "Δημιουργήστε γραφήματα ντόνατ σε Java χρησιμοποιώντας το Aspose.Slides - Ένας ολοκληρωμένος οδηγός"
-"url": "/el/java/charts-graphs/create-doughnut-charts-java-aspose-slides/"
-"weight": 1
+date: '2026-03-07'
+description: Μάθετε πώς να δημιουργήσετε διάγραμμα δακτυλίου σε Java χρησιμοποιώντας
+  το Aspose.Slides. Αυτός ο οδηγός βήμα‑βήμα καλύπτει τη ρύθμιση της εξάρτησης Maven
+  Aspose Slides, τη διαμόρφωση του διαγράμματος και την αποθήκευση των παρουσιάσεων.
+keywords:
+- create doughnut charts Java
+- Aspose.Slides Java guide
+- Java data visualization
+title: Δημιουργία διαγράμματος δαχτυλιδιού Java με οδηγό Aspose.Slides
+url: /el/java/charts-graphs/create-doughnut-charts-java-aspose-slides/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,44 +17,49 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Δημιουργήστε γραφήματα ντόνατ σε Java χρησιμοποιώντας το Aspose.Slides: Ένας οδηγός βήμα προς βήμα
+# Δημιουργία Διάγραμμα Ντόνατ Java με Οδηγό Aspose.Slides
 
 ## Εισαγωγή
 
-Στο σημερινό περιβάλλον που βασίζεται σε δεδομένα, η αποτελεσματική οπτικοποίηση πληροφοριών είναι το κλειδί για την ενίσχυση της κατανόησης και της αλληλεπίδρασης. Ενώ η δημιουργία επαγγελματικών γραφημάτων μέσω προγραμματισμού μπορεί να φαίνεται δύσκολη, ειδικά με Java, αυτός ο οδηγός θα σας καθοδηγήσει στη χρήση του Aspose.Slides για Java για να δημιουργήσετε γραφήματα Doughnut χωρίς κόπο.
+Η δημιουργία ενός **doughnut chart** προγραμματιστικά μπορεί να μετατρέψει ακατέργαστους αριθμούς σε ένα εντυπωσιακό οπτικό στοιχείο που αφηγείται αμέσως μια ιστορία. Στη Java, το **Aspose.Slides** κάνει αυτή τη διαδικασία απλή, επιτρέποντάς σας να δημιουργήσετε διαγράμματα έτοιμα για παρουσίαση χωρίς να ανοίξετε ποτέ το PowerPoint. Σε αυτό το tutorial θα μάθετε πώς να **create doughnut chart java** βήμα‑βήμα — από τη ρύθμιση της εξάρτησης Maven Aspose Slides μέχρι την προσαρμογή σειρών, κατηγοριών και, τέλος, την αποθήκευση της παρουσίασης.
 
-Ακολουθώντας αυτά τα βήματα, οι προγραμματιστές θα αποκτήσουν πρακτική εμπειρία στον χειρισμό διαφανειών παρουσίασης και στην απρόσκοπτη ενσωμάτωση οπτικοποίησης δεδομένων.
+Με το τέλος αυτού του οδηγού θα μπορείτε να ενσωματώσετε δυναμικά doughnut charts σε οποιοδήποτε αρχείο PPTX, ιδανικά για αναφορές, πίνακες ελέγχου ή αυτοματοποιημένες παρουσιάσεις.
 
-**Βασικά σημεία:**
-- Αρχικοποιήστε ένα αντικείμενο παρουσίασης χρησιμοποιώντας το Aspose.Slides Java.
-- Διαμορφώστε δεδομένα γραφήματος και διαχειριστείτε υπάρχουσες σειρές ή κατηγορίες.
-- Προσθέστε και προσαρμόστε σειρές και κατηγορίες για τα γραφήματά σας.
-- Μορφοποιήστε και εμφανίστε σημεία δεδομένων αποτελεσματικά.
-- Αποθηκεύστε την παρουσίασή σας σε διάφορες μορφές με ευκολία.
+### Γρήγορες Απαντήσεις
+- **What library is used?** Aspose.Slides for Java  
+- **Primary task?** Create doughnut chart java in a PPTX file  
+- **How to add the library?** Use the Maven Aspose Slides dependency (or Gradle)  
+- **Minimum Java version?** JDK 16 or higher  
+- **Can I customize colors and labels?** Yes, the API provides full formatting control  
 
-Πριν ξεκινήσετε την υλοποίηση, βεβαιωθείτε ότι έχετε όλα όσα χρειάζεστε για να ξεκινήσετε.
+## Τι είναι ένα Διάγραμμα Ντόνατ και Γιατί να το Χρησιμοποιήσετε;
+
+Ένα doughnut chart είναι μια παραλλαγή του pie chart με κενό κέντρο, επιτρέποντάς σας να εμφανίσετε πολλαπλές σειρές δεδομένων σε συγκεντρικούς δακτυλίους. Αυτό το καθιστά ιδανικό για σύγκριση μερών ενός συνόλου σε πολλές κατηγορίες — σκεφτείτε πωλήσεις ανά περιοχή σε πολλαπλά τρίμηνα ή κατανομές προϋπολογισμού ανά τμήμα.
+
+## Γιατί να Χρησιμοποιήσετε το Aspose.Slides για Java;
+
+- **No Office installation required** – generate PPTX files on any server.  
+- **Rich API** – full control over chart types, data points, and styling.  
+- **High performance** – optimized for large presentations.  
+- **Cross‑platform** – works on Windows, Linux, and macOS.
 
 ## Προαπαιτούμενα
 
-Για να ακολουθήσετε αυτό το σεμινάριο, βεβαιωθείτε ότι έχετε:
+- **Required Libraries:**  
+  - Aspose.Slides for Java version 25.4 or later.  
 
-- **Απαιτούμενες βιβλιοθήκες:**
-  - Aspose.Slides για Java έκδοση 25.4 ή νεότερη.
-  
-- **Ρύθμιση περιβάλλοντος:**
-  - JDK 16 ή νεότερη έκδοση εγκατεστημένη στο σύστημά σας.
-  - Ένα IDE όπως το IntelliJ IDEA, το Eclipse ή το NetBeans.
+- **Environment Setup:**  
+  - JDK 16 or higher.  
+  - Your favorite IDE (IntelliJ IDEA, Eclipse, NetBeans, etc.).  
 
-- **Προαπαιτούμενα Γνώσεων:**
-  - Βασική κατανόηση των εννοιών προγραμματισμού Java.
-  - Εξοικείωση με τη διαχείριση εξαρτήσεων σε έργα Maven ή Gradle.
+- **Knowledge Prerequisites:**  
+  - Basic Java programming.  
+  - Familiarity with Maven or Gradle for dependency management.
 
-## Ρύθμιση του Aspose.Slides για Java
+## Εξάρτηση Maven Aspose Slides
 
-Για να ενσωματώσετε το Aspose.Slides στο έργο σας, ακολουθήστε τα παρακάτω βήματα με βάση το εργαλείο δημιουργίας σας:
+Προσθέστε την παρακάτω εξάρτηση Maven στο `pom.xml`. Αυτή είναι η **maven aspose slides dependency** που χρειάζεστε για να ενσωματώσετε τη βιβλιοθήκη στο έργο σας.
 
-**Ρύθμιση Maven:**
-Προσθέστε την ακόλουθη εξάρτηση στο `pom.xml` αρχείο:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -58,74 +69,63 @@
 </dependency>
 ```
 
-**Ρύθμιση Gradle:**
-Συμπεριλάβετε τα ακόλουθα στο `build.gradle` αρχείο:
+Αν προτιμάτε Gradle, χρησιμοποιήστε το αντίστοιχο απόσπασμα παρακάτω.
+
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Άμεση λήψη:**
-Εναλλακτικά, κατεβάστε την τελευταία έκδοση απευθείας από [Aspose.Slides για εκδόσεις Java](https://releases.aspose.com/slides/java/).
+Μπορείτε επίσης να κατεβάσετε το JAR απευθείας από τη σελίδα κυκλοφορίας:  
+[ Aspose.Slides for Java releases ](https://releases.aspose.com/slides/java/)
 
 ### Απόκτηση Άδειας
 
-Για να χρησιμοποιήσετε το Aspose.Slides χωρίς περιορισμούς αξιολόγησης:
-- **Δωρεάν δοκιμή:** Ξεκινήστε με μια προσωρινή άδεια χρήσης για να εξερευνήσετε όλες τις λειτουργίες.
-- **Προσωρινή Άδεια:** Αποκτήστε ένα μέσω του [Ιστότοπος Aspose](https://purchase.aspose.com/temporary-license/).
-- **Αγορά:** Σκεφτείτε το ενδεχόμενο αγοράς για συνεχή χρήση.
+Για να αφαιρέσετε το υδατογράφημα αξιολόγησης και να ξεκλειδώσετε το πλήρες σύνολο λειτουργιών:
 
-Εφαρμόστε την άδεια χρήσης σας στην εφαρμογή Java χρησιμοποιώντας:
+- **Free trial** – start with a temporary license.  
+- **Temporary license** – request one from the [Aspose website](https://purchase.aspose.com/temporary-license/).  
+- **Commercial license** – purchase for production use.
+
+Εφαρμόστε την άδεια στον κώδικά σας:
+
 ```java
 License license = new License();
 license.setLicense("path/to/your/license.lic");
 ```
 
-## Οδηγός Εφαρμογής
+## Οδηγός Υλοποίησης
 
-### Αρχικοποίηση παρουσίασης και γραφήματος
+### Αρχικοποίηση Παρουσίασης και Προσθήκη Διάγραμμα Ντόνατ
 
-#### Επισκόπηση
-Ξεκινήστε αρχικοποιώντας ένα αντικείμενο παρουσίασης και προσθέτοντας ένα γράφημα Doughnut στην πρώτη διαφάνεια.
+Πρώτα, δημιουργήστε ή φορτώστε μια παρουσίαση και προσθέστε ένα doughnut chart στην πρώτη διαφάνεια.
 
-**Βήμα 1: Αρχικοποίηση παρουσίασης**
-Φορτώστε ένα υπάρχον αρχείο PPTX ή δημιουργήστε ένα νέο:
 ```java
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/testc.pptx");
 ```
 
-**Βήμα 2: Προσθήκη γραφήματος ντόνατ**
-Δημιουργήστε ένα γράφημα στην πρώτη διαφάνεια σε καθορισμένες συντεταγμένες:
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, false);
 ```
 
-### Ρύθμιση παραμέτρων βιβλίου εργασίας δεδομένων γραφήματος και εκκαθάριση υπαρχουσών σειρών/κατηγοριών
+### Διαμόρφωση του Workbook Δεδομένων του Διαγράμματος και Καθαρισμός Υπάρχοντων Δεδομένων
 
-#### Επισκόπηση
-Ρυθμίστε τις παραμέτρους του βιβλίου εργασίας δεδομένων γραφήματος και καταργήστε τυχόν προϋπάρχουσες σειρές ή κατηγορίες.
+Στη συνέχεια, αποκτήστε το workbook που υποστηρίζει το διάγραμμα και διαγράψτε τυχόν προεπιλεγμένες σειρές ή κατηγορίες.
 
-**Βήμα 1: Βιβλίο εργασίας δεδομένων γραφήματος πρόσβασης**
-Ανακτήστε το βιβλίο εργασίας που είναι συνδεδεμένο με το γράφημά σας:
 ```java
 IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
 ```
 
-**Βήμα 2: Διαγραφή υπαρχουσών σειρών και κατηγοριών**
-Βεβαιωθείτε ότι δεν υπάρχουν υπολειπόμενα σημεία δεδομένων:
 ```java
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 chart.setLegend(false);
 ```
 
-### Προσθήκη Σειράς σε Γράφημα
+### Προσθήκη Σειρών στο Διάγραμμα
 
-#### Επισκόπηση
-Συμπληρώστε το γράφημά σας με πολλαπλές σειρές, καθεμία από τις οποίες έχει προσαρμοστεί ως προς την εμφάνιση και τη συμπεριφορά της.
+Τώρα θα προσθέσουμε έως και 15 σειρές. Κάθε σειρά μπορεί να προσαρμοστεί — εδώ ορίζουμε την έκρηξη, το μέγεθος της τρύπας του ντόνατ και τη γωνία του πρώτου κομματιού.
 
-**Βήμα 1: Προσθήκη Σειρών Επαναληπτικά**
-Επαναλάβετε τους δείκτες για να προσθέσετε σειρές:
 ```java
 int seriesIndex = 0;
 while (seriesIndex < 15) {
@@ -134,7 +134,7 @@ while (seriesIndex < 15) {
         chart.getType()
     );
 
-    // Προσαρμόστε τη σειρά
+    // Customize the series
     series.setExplosion(0);
     series.getParentSeriesGroup().setDoughnutHoleSize((byte) 20);
     series.getParentSeriesGroup().setFirstSliceAngle(351);
@@ -142,13 +142,10 @@ while (seriesIndex < 15) {
 }
 ```
 
-### Προσθήκη κατηγοριών και σημείων δεδομένων σε γράφημα
+### Προσθήκη Κατηγοριών και Σημείων Δεδομένων
 
-#### Επισκόπηση
-Διαμορφώστε κατηγορίες και προσθέστε σημεία δεδομένων με συγκεκριμένη μορφοποίηση για ετικέτες.
+Θα δημιουργήσουμε 15 κατηγορίες και θα γεμίσουμε κάθε σειρά με ένα σημείο δεδομένων. Η τελευταία σειρά λαμβάνει ειδική μορφοποίηση ετικετών.
 
-**Βήμα 1: Προσθήκη κατηγοριών**
-Δείκτες επανάληψης για κάθε κατηγορία:
 ```java
 int categoryIndex = 0;
 while (categoryIndex < 15) {
@@ -157,8 +154,6 @@ while (categoryIndex < 15) {
     );
 ```
 
-**Βήμα 2: Προσθήκη σημείων δεδομένων σε κάθε σειρά**
-Επαναλάβετε κάθε σειρά για την τρέχουσα κατηγορία:
 ```java
 int i = 0;
 while (i < chart.getChartData().getSeries().size()) {
@@ -166,7 +161,7 @@ while (i < chart.getChartData().getSeries().size()) {
     IChartDataPoint dataPoint = iCS.getDataPoints()
         .addDataPointForDoughnutSeries(workBook.getCell(0, categoryIndex + 1, i + 1, 1));
 
-    // Ρυθμίσεις μορφής σημείου δεδομένων
+    // Data point format settings
     dataPoint.getFormat().getFill().setFillType(FillType.Solid);
     dataPoint.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
     dataPoint.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
@@ -174,7 +169,7 @@ while (i < chart.getChartData().getSeries().size()) {
     dataPoint.getFormat().getLine().setStyle(LineStyle.Single);
     dataPoint.getFormat().getLine().setDashStyle(LineDashStyle.Solid);
 
-    // Μορφοποίηση ετικέτας για την τελευταία σειρά
+    // Label formatting for the last series
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
@@ -186,14 +181,14 @@ while (i < chart.getChartData().getSeries().size()) {
         lbl.getDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat()
             .getSolidFillColor().setColor(Color.LIGHT_GRAY);
 
-        // Προσαρμογή επιλογών εμφάνισης
+        // Adjust display options
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
         lbl.getDataLabelFormat().setShowLeaderLines(true);
         lbl.getDataLabelFormat().setShowLabelAsDataCallout(false);
 
-        // Προσαρμογή θέσης ετικέτας
+        // Adjust label position
         chart.validateChartLayout();
         lbl.setX(lbl.getX() + (float) 0.5);
         lbl.setY(lbl.getY() + (float) 0.5);
@@ -203,24 +198,43 @@ while (i < chart.getChartData().getSeries().size()) {
 categoryIndex++;
 ```
 
-### Αποθήκευση της παρουσίασης
+### Αποθήκευση της Παρουσίασης
 
-#### Επισκόπηση
-Μόλις διαμορφώσετε το γράφημά σας, αποθηκεύστε την παρουσίαση σε έναν καθορισμένο κατάλογο.
+Τέλος, γράψτε την ενημερωμένη παρουσίαση στο δίσκο.
 
-**Βήμα 1: Αποθήκευση της παρουσίασης**
-Χρησιμοποιήστε το `save` μέθοδος εγγραφής αλλαγών:
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/chart_presentation.pptx", SaveFormat.Pptx);
 ```
 
-## Σύναψη
+## Κοινά Προβλήματα και Λύσεις
 
-Τώρα μάθατε πώς να δημιουργείτε και να προσαρμόζετε γραφήματα Doughnut σε Java χρησιμοποιώντας το Aspose.Slides. Αυτά τα βήματα παρέχουν μια βάση για την ενσωμάτωση εξελιγμένων οπτικοποιήσεων δεδομένων στις παρουσιάσεις σας.
+- **License not found** – Verify the path to `license.lic` is correct and the file is readable.  
+- **Chart appears blank** – Ensure you cleared existing series/categories before adding new ones.  
+- **Incorrect colors** – Check that `FillType.Solid` is set for both fill and line formats.  
+- **Performance with many series** – Limit the number of series/categories or reuse the workbook cells.
 
-**Επόμενα βήματα:**
-- Πειραματιστείτε με διαφορετικούς τύπους γραφημάτων που είναι διαθέσιμοι στο Aspose.Slides.
-- Εξερευνήστε πρόσθετες επιλογές προσαρμογής, όπως χρώματα, γραμματοσειρές και στυλ, ώστε να ταιριάζουν με τις ανάγκες της επωνυμίας σας.
+## Συχνές Ερωτήσεις
+
+**Q: Can I generate a doughnut chart without a pre‑existing PPTX file?**  
+A: Yes, instantiate `new Presentation()` to start from a blank slide deck.
+
+**Q: Does Aspose.Slides support exporting to PDF?**  
+A: Absolutely. After creating the chart, call `pres.save("output.pdf", SaveFormat.Pdf);`.
+
+**Q: How do I change the doughnut hole size?**  
+A: Use `series.getParentSeriesGroup().setDoughnutHoleSize((byte) value);` where value is 0‑100.
+
+**Q: Is it possible to add data labels to all series, not just the last one?**  
+A: Yes, move the label‑formatting block outside the `if (i == ...)` condition and apply it to each `dataPoint`.
+
+**Q: What versions of Java are supported?**  
+A: Aspose.Slides 25.4 supports JDK 16 and newer. Earlier JDKs require the appropriate classifier.
+
+---
+
+**Last Updated:** 2026-03-07  
+**Tested With:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
