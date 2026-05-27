@@ -1,13 +1,13 @@
 ---
-date: '2025-12-02'
-description: Изучите, как создавать переходы между слайдами в Java с помощью Aspose.Slides.
-  Применяйте динамические переходы, задавайте время автоматического переключения слайдов
-  и легко настраивайте тайминг презентации.
+date: '2026-04-22'
+description: Узнайте, как добавить зависимость Aspose Slides Maven и создавать переходы
+  в презентациях на Java. Применяйте динамические переходы слайдов, задавайте время
+  автоматического перехода и легко настраивайте тайминг слайдов.
 keywords:
-- dynamic slide transitions
-- Aspose.Slides Java
-- Java presentation enhancements
-title: Как создать переходы презентации в Java с Aspose.Slides
+- aspose slides maven dependency
+- how to create transitions
+- set slide advance time
+title: Зависимость Maven Aspose Slides – переходы Java
 url: /ru/java/animations-transitions/aspose-slides-java-dynamic-slide-transitions/
 weight: 1
 ---
@@ -17,28 +17,34 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Как создавать переходы презентаций в Java с помощью Aspose.Slides
+# Как создавать переходы презентаций в Java с Aspose.Slides
 
 ## Введение
-Создание увлекательных презентаций имеет решающее значение, будь то бизнес‑презентация или учебный урок. В этом руководстве вы узнаете **как создавать переходы презентаций**, которые добавляют визуальный стиль, улучшают повествовательный поток и удерживают внимание аудитории. Мы пройдёмся по использованию Aspose.Slides for Java для применения популярных **динамических переходов слайдов** таких как Circle, Comb и Zoom, а также покажем, как **установить время автоматического перехода слайда** и **настроить тайминг переходов** для каждого эффекта. К концу вы получите отшлифованную презентацию, готовую произвести впечатление.
+Создание увлекательных презентаций имеет решающее значение, будь то бизнес‑презентация или обучение. В этом руководстве вы узнаете **как создавать переходы презентаций**, которые добавляют визуальный эффект, улучшают повествовательный поток и удерживают внимание аудитории. Мы также покажем, **как добавить зависимость Aspose Slides Maven**, чтобы сразу приступить к работе с Aspose.Slides for Java. К концу вы получите отшлифованную презентацию, готовую произвести впечатление.
 
 ### Быстрые ответы
 - **Какая библиотека добавляет переходы слайдов в Java?** Aspose.Slides for Java  
-- **Какой переход обеспечивает плавный зацикленный эффект?** Circle transition  
+- **Какой переход дает плавный зацикленный эффект?** Circle transition  
 - **Как установить автоматический переход слайда через 5 секунд?** Use `setAdvanceAfterTime(5000)`  
-- **Могу ли я использовать Maven или Gradle для добавления Aspose.Slides?** Yes, both are supported  
-- **Нужна ли лицензия для использования в продакшене?** A commercial license is required  
+- **Могу ли я использовать Maven или Gradle для добавления Aspose.Slides?** Да, оба поддерживаются — просто добавьте Aspose Slides Maven Dependency  
+- **Нужна ли лицензия для использования в продакшн?** A commercial license is required  
 
-### Что такое динамические переходы слайдов?
+## Как добавить зависимость Aspose Slides Maven
+Чтобы начать использовать Aspose.Slides в Java‑проекте, сначала необходимо добавить **Aspose Slides Maven Dependency** в конфигурацию сборки. Этот шаг гарантирует, что все необходимые классы, включая те, что отвечают за переходы, будут доступны во время компиляции.
+
+### Что такое зависимость Aspose Slides Maven?
+Зависимость Maven — это ссылка, которая сообщает Maven (или Gradle) загрузить библиотеку Aspose.Slides из центрального репозитория. Она включает API, необходимый для создания, редактирования и анимации файлов PowerPoint программно.
+
+## Что такое динамические переходы слайдов?
 Динамические переходы слайдов — это анимированные эффекты, которые воспроизводятся при переходе от одного слайда к другому. Они помогают подчеркнуть ключевые моменты, направить взгляд зрителя и сделать презентацию более профессиональной.
 
-### Зачем задавать время автоматического перехода слайда?
-Контроль тайминга каждого перехода (с помощью `setAdvanceAfterTime`) позволяет синхронизировать анимацию с озвучкой, поддерживать стабильный темп и избегать ручных кликов во время автоматических презентаций.
+## Зачем задавать время автоматического перехода слайда?
+Контроль времени каждого перехода (с помощью `setAdvanceAfterTime`) позволяет синхронизировать анимацию с озвучкой, поддерживать стабильный темп и избегать ручных кликов во время автоматических презентаций.
 
 ## Что вы узнаете
 - Как настроить Aspose.Slides for Java в вашем проекте.  
 - Пошаговые инструкции по **применению различных переходов слайдов**.  
-- Практические советы по **установке времени автоматического перехода слайда** и **настройке тайминга переходов**.  
+- Практические советы по **установке времени автоматического перехода слайда** и **настройке тайминга слайдов**.  
 - Соображения по производительности и лучшие практики для больших презентаций.
 
 Готовы преобразовать свои слайды? Начнём с предварительных требований.
@@ -46,15 +52,15 @@ weight: 1
 ## Требования
 Перед началом убедитесь, что у вас есть:
 
-- **Библиотеки и зависимости** – Aspose.Slides for Java (последняя версия, совместима с JDK 16+).  
-- **Среда разработки** – установленный современный JDK и система сборки (Maven или Gradle).  
+- **Библиотеки и зависимости** – Aspose.Slides for Java (последняя версия, совместимая с JDK 16+).  
+- **Среда разработки** – установленный современный JDK и инструмент сборки (Maven или Gradle).  
 - **Базовые знания** – знакомство с Java, Maven/Gradle и концепцией презентаций.
 
 ## Настройка Aspose.Slides для Java
 ### Инструкции по установке
 
 **Maven:**  
-Добавьте следующую зависимость в ваш файл `pom.xml`:
+Add the following dependency to your `pom.xml` file:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -65,21 +71,21 @@ weight: 1
 ```
 
 **Gradle:**  
-Добавьте эту строку в ваш файл `build.gradle`:
+Include this line in your `build.gradle` file:
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Прямое скачивание:**  
-Вы также можете скачать последнюю JAR‑файл со страницы официальных релизов: [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+**Direct Download:**  
+You can also download the latest JAR from the official releases page: [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 ### Получение лицензии
-- **Бесплатная пробная версия** – исследуйте API без лицензии в течение ограниченного периода.  
-- **Временная лицензия** – получите ключ с ограниченным сроком действия для расширенной оценки.  
-- **Коммерческая лицензия** – требуется для продакшн-развертываний.
+- **Free Trial** – Explore the API without a license for a limited period.  
+- **Temporary License** – Obtain a time‑limited key for extended evaluation.  
+- **Commercial License** – Required for production deployments.
 
 ### Базовая инициализация
-Вот как загрузить существующую презентацию, чтобы начать добавлять переходы:
+Here’s how to load an existing presentation so you can start adding transitions:
 ```java
 import com.aspose.slides.Presentation;
 
@@ -87,140 +93,140 @@ String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Presentation pres = new Presentation(dataDir + "/YourPresentation.pptx");
 ```
 
-## Как создавать переходы презентаций с помощью Aspose.Slides
-Ниже мы применим три разных типа переходов. Каждый пример следует одной схеме: загрузить файл, установить переход, настроить тайминг, сохранить результат и очистить ресурсы.
+## Как создавать переходы презентаций с Aspose.Slides
+Below we’ll apply three different transition types. Each example follows the same pattern: load the file, set the transition, configure timing, save the result, and clean up resources.
 
-### Применение перехода Circle
+### Применить переход Circle
 #### Обзор
-Переход Circle создаёт плавное, зацикленное движение, которое хорошо подходит для формальных презентаций.
+The Circle transition creates a smooth, looping motion that works well for formal presentations.
 
 **Step‑by‑step:**
 
-1. **Загрузить презентацию**
+1. **Load the Presentation**
    ```java
    String dataDir = "YOUR_DOCUMENT_DIRECTORY";
    Presentation presCircle = new Presentation(dataDir + "/BetterSlideTransitions.pptx");
    ```
-2. **Установить тип перехода**
+2. **Set Transition Type**
    ```java
    presCircle.getSlides().get_Item(0).getSlideShowTransition().setType(com.aspose.slides.TransitionType.Circle);
    ```
-3. **Настроить время перехода**
+3. **Configure Transition Timing**
    ```java
    presCircle.getSlides().get_Item(0).getSlideShowTransition().setAdvanceOnClick(true);
    presCircle.getSlides().get_Item(0).getSlideShowTransition().setAdvanceAfterTime(3000);
    ```
-4. **Сохранить презентацию**
+4. **Save the Presentation**
    ```java
    presCircle.save(dataDir + "/SampleCircleTransition_out.pptx", com.aspose.slides.SaveFormat.Pptx);
    ```
-5. **Очистить ресурсы**
+5. **Clean Up Resources**
    ```java
    if (presCircle != null) presCircle.dispose();
    ```
 
-### Применение перехода Comb
+### Применить переход Comb
 #### Обзор
-Переход Comb разбивает слайд на полосы — отличный вариант для структурированных корпоративных презентаций.
+The Comb transition slices the slide into strips—great for structured, corporate decks.
 
 **Step‑by‑step:**
 
-1. **Загрузить презентацию**
+1. **Load the Presentation**
    ```java
    String dataDir = "YOUR_DOCUMENT_DIRECTORY";
    Presentation presComb = new Presentation(dataDir + "/BetterSlideTransitions.pptx");
    ```
-2. **Установить тип перехода**
+2. **Set Transition Type**
    ```java
    presComb.getSlides().get_Item(1).getSlideShowTransition().setType(com.aspose.slides.TransitionType.Comb);
    ```
-3. **Настроить время перехода**
+3. **Configure Transition Timing**
    ```java
    presComb.getSlides().get_Item(1).getSlideShowTransition().setAdvanceOnClick(true);
    presComb.getSlides().get_Item(1).getSlideShowTransition().setAdvanceAfterTime(5000);
    ```
-4. **Сохранить презентацию**
+4. **Save the Presentation**
    ```java
    presComb.save(dataDir + "/SampleCombTransition_out.pptx", com.aspose.slides.SaveFormat.Pptx);
    ```
-5. **Очистить ресурсы**
+5. **Clean Up Resources**
    ```java
    if (presComb != null) presComb.dispose();
    ```
 
-### Применение перехода Zoom
+### Применить переход Zoom
 #### Обзор
-Zoom фокусируется на определённой области слайда, создавая захватывающий эффект входа.
+Zoom focuses on a specific area of the slide, creating an engaging entrance effect.
 
 **Step‑by‑step:**
 
-1. **Загрузить презентацию**
+1. **Load the Presentation**
    ```java
    String dataDir = "YOUR_DOCUMENT_DIRECTORY";
    Presentation presZoom = new Presentation(dataDir + "/BetterSlideTransitions.pptx");
    ```
-2. **Установить тип перехода**
+2. **Set Transition Type**
    ```java
    presZoom.getSlides().get_Item(2).getSlideShowTransition().setType(com.aspose.slides.TransitionType.Zoom);
    ```
-3. **Настроить время перехода**
+3. **Configure Transition Timing**
    ```java
    presZoom.getSlides().get_Item(2).getSlideShowTransition().setAdvanceOnClick(true);
    presZoom.getSlides().get_Item(2).getSlideShowTransition().setAdvanceAfterTime(7000);
    ```
-4. **Сохранить презентацию**
+4. **Save the Presentation**
    ```java
    presZoom.save(dataDir + "/SampleZoomTransition_out.pptx", com.aspose.slides.SaveFormat.Pptx);
    ```
-5. **Очистить ресурсы**
+5. **Clean Up Resources**
    ```java
    if (presZoom != null) presZoom.dispose();
    ```
 
 ## Практические применения
-- **Бизнес‑презентации:** Используйте переход Circle для плавных, профессиональных переключений между пунктами повестки.  
-- **Учебный контент:** Применяйте Zoom, чтобы выделить ключевые схемы или формулы во время лекции.  
-- **Маркетинговые слайд‑шоу:** Эффект Comb придаёт чистый, упорядоченный вид разборам функций продукта.  
+- **Business Presentations:** Use the Circle transition for smooth, professional shifts between agenda items.  
+- **Educational Content:** Apply Zoom to highlight key diagrams or formulas during a lecture.  
+- **Marketing Slideshows:** The Comb effect gives a clean, organized feel for product feature breakdowns.  
 
-Вы даже можете автоматизировать эти шаги в CI/CD‑конвейере для генерации наборов слайдов «на лету».
+You can even automate these steps in a CI/CD pipeline to generate slide decks on the fly.
 
 ## Соображения по производительности
-- **Dispose of Presentations:** Всегда вызывайте `dispose()`, чтобы освободить нативные ресурсы.  
-- **Avoid Large Files Simultaneously:** Обрабатывайте по одной презентации, чтобы снизить потребление памяти.  
-- **Monitor Heap:** Используйте инструменты JVM для наблюдения за всплесками памяти при работе с очень большими наборами слайдов.
+- **Dispose of Presentations:** Always call `dispose()` to free native resources.  
+- **Avoid Large Files Simultaneously:** Process one presentation at a time to keep memory usage low.  
+- **Monitor Heap:** Use JVM tools to watch for spikes when handling very large decks.
 
 ## Распространённые проблемы и решения
 | Проблема | Решение |
 |----------|---------|
-| **OutOfMemoryError** при загрузке огромного PPTX | Обрабатывайте слайды пакетами или увеличьте размер кучи JVM (`-Xmx`). |
-| Переход не виден в PowerPoint | Убедитесь, что вы сохранили файл в формате PPTX и открываете его в актуальной версии PowerPoint. |
-| Лицензия не применена | Вызовите `License license = new License(); license.setLicense("path/to/license.xml");` перед созданием `Presentation`. |
+| **OutOfMemoryError** при загрузке огромного PPTX | Process slides in batches or increase JVM heap (`-Xmx`). |
+| Переход не отображается в PowerPoint | Ensure you saved in PPTX format and opened in a recent PowerPoint version. |
+| Лицензия не применена | Call `License license = new License(); license.setLicense("path/to/license.xml");` before creating `Presentation`. |
 
 ## Часто задаваемые вопросы
 
-**Q: Что такое Aspose.Slides for Java?**  
-A: Это мощный API, позволяющий программно создавать, изменять и конвертировать файлы PowerPoint из Java‑приложений.
+**В: Что такое Aspose.Slides for Java?**  
+О: It’s a robust API that lets you create, modify, and convert PowerPoint files programmatically from Java applications.
 
-**Q: Как применить переход к конкретному слайду?**  
-A: Получите слайд с помощью `get_Item(index)` и задайте тип перехода через `getSlideShowTransition().setType(...)`.
+**В: Как применить переход к конкретному слайду?**  
+О: Access the slide with `get_Item(index)` and set its transition type using `getSlideShowTransition().setType(...)`.
 
-**Q: Можно ли настроить длительность переходов?**  
-A: Да. Используйте `setAdvanceAfterTime(milliseconds)`, чтобы задать, как долго слайд будет отображаться перед автоматическим переходом.
+**В: Могу ли я настроить длительность переходов?**  
+О: Yes. Use `setAdvanceAfterTime(milliseconds)` to define how long the slide stays before advancing.
 
-**Q: Каковы лучшие практики управления памятью?**  
-A: Освобождайте каждый объект `Presentation`, как только он больше не нужен, избегайте одновременной загрузки множества больших файлов и контролируйте использование кучи JVM.
+**В: Каковы лучшие практики управления памятью?**  
+О: Dispose of each `Presentation` object as soon as you’re done, avoid loading many large files at once, and monitor the JVM heap.
 
-**Q: Где найти полный список поддерживаемых типов переходов?**  
-A: См. официальную [документацию Aspose.Slides for Java](https://docs.aspose.com/slides/java/) для получения полного перечня.
+**В: Где найти полный список поддерживаемых типов переходов?**  
+О: Check the official [Aspose.Slides for Java documentation](https://docs.aspose.com/slides/java/) for a comprehensive list.
 
 ## Заключение
-Теперь вы знаете, как **создавать переходы презентаций** в Java, задавать точные времена автоматического перехода слайдов и настраивать тайминг для более плавного восприятия. Экспериментируйте с различными эффектами, комбинируйте их с пользовательскими анимациями и интегрируйте эту логику в более крупные системы отчётности или e‑learning платформы.
+You now know how to **add the Aspose Slides Maven Dependency**, **create presentation transitions** in Java, set precise slide advance times, and configure timing for a smoother viewer experience. Experiment with different effects, combine them with custom animations, and integrate this logic into larger reporting or e‑learning platforms.
 
 ---
 
-**Last Updated:** 2025-12-02  
-**Tested With:** Aspose.Slides 25.4 (JDK 16 classifier)  
-**Author:** Aspose  
+**Последнее обновление:** 2026-04-22  
+**Тестировано с:** Aspose.Slides 25.4 (JDK 16 classifier)  
+**Автор:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
