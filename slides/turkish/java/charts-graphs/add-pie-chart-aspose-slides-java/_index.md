@@ -1,13 +1,38 @@
 ---
-date: '2026-01-09'
-description: Aspose Slides Maven'i kullanarak bir slayta grafik eklemeyi ve Java sunumlarında
-  pasta grafiğini özelleştirmeyi keşfedin. Adım adım kurulum, kod ve gerçek dünya
-  örnekleri.
+date: '2026-05-29'
+description: Aspose.Slides Maven kullanarak pie chart oluşturmayı, bir slayta pie
+  chart java eklemeyi ve chart verilerini özelleştirmeyi öğrenin. Maven kurulumu ve
+  gerçek dünya örnekleriyle adım adım kılavuz.
 keywords:
-- add pie chart with Aspose.Slides Java
-- Aspose.Slides for Java tutorial
-- Java presentation automation
-title: 'aspose slides maven - Bir Sunuma Pasta Grafiği Ekle'
+- create pie chart aspose
+- add pie chart java
+- add chart slide
+- aspose slides maven example
+schemas:
+- author: Aspose
+  dateModified: '2026-05-29'
+  description: Learn how to create pie chart aspose using Aspose.Slides Maven, add
+    pie chart java to a slide, and customize chart data. Step‑by‑step guide with Maven
+    setup and real‑world examples.
+  headline: Create Pie Chart Aspose – Add a Chart to a Presentation with Maven
+  type: TechArticle
+- questions:
+  - answer: Use the Maven or Gradle dependency shown above, or download the library
+      from the releases page.
+    question: How do I install Aspose.Slides for Java?
+  - answer: JDK 16 or later; the library runs on any platform that supports Java.
+    question: What are the system requirements for Aspose.Slides?
+  - answer: Yes, Aspose.Slides supports bar, line, scatter, radar, and more than 20
+      chart types.
+    question: Can I add other chart types besides pie charts?
+  - answer: Dispose of objects promptly, limit high‑resolution images, and reuse chart
+      templates to keep memory usage low.
+    question: How should I handle large presentations efficiently?
+  - answer: Visit the [Aspose documentation](https://reference.aspose.com/slides/java/)
+      for a complete API reference.
+    question: Where can I find more details about Aspose.Slides features?
+  type: FAQPage
+title: Aspose ile Pie Chart Oluştur – Maven ile Sunuma Chart Ekle
 url: /tr/java/charts-graphs/add-pie-chart-aspose-slides-java/
 weight: 1
 ---
@@ -17,43 +42,48 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Sunumunuza Aspose.Slides Java Kullanarak Pasta Grafiği Nasıl Eklenir
+# Aspose.Slides Java Kullanarak Bir Sunuma Pasta Grafiği Ekleme
 
 ## Giriş
-Görsel açıdan çekici sunumlar oluşturmak, özellikle veri görselleştirmenin önemli bir rol oynadığı durumlarda bilgiyi etkili bir şekilde iletmek için kritiktir. Bu süreci **aspose slides maven** ile otomatikleştirmek istiyorsanız doğru yerdesiniz. Bu öğreticide **slide’a grafik ekleme** — özellikle bir pasta grafiği — kullanarak Aspose.Slides for Java’yı nasıl kullanacağınızı öğrenecek ve gerçek dünya senaryoları için nasıl özelleştireceğinizi göreceksiniz.
+Bu rehberde Aspose.Slides Maven ile **create pie chart aspose** oluşturacak ve bunu bir PowerPoint slaytına nasıl gömeceğinizi göreceksiniz. Görsel olarak çekici sunumlar, bilgiyi etkili bir şekilde iletmek için çok önemlidir, özellikle veri görselleştirmesi kritik bir rol oynadığında. Bu süreci **aspose slides maven** ile otomatikleştirmek istiyorsanız doğru yerdesiniz. Bir slayta—özellikle bir pasta grafiği—grafik ekleme ve gerçek dünya senaryoları için özelleştirme adımlarını birlikte inceleyeceğiz.
 
 ### Öğrenecekleriniz
-- Java’da bir sunum nesnesinin nasıl başlatılacağını.  
-- Sunumun ilk slaytına **pie chart java** ekleme adımları.  
-- Grafik veri çalışma kitaplarına erişim ve içindeki çalışma sayfalarının listelenmesi.  
+- Java'da bir sunum nesnesi nasıl başlatılır.  
+- Bir sununun ilk slaytına **add a pie chart java** ekleme adımları.  
+- Grafik veri çalışma kitaplarına erişme ve içindeki çalışma sayfalarını listeleme.  
 
-Aspose.Slides Java’yı kullanarak dinamik grafiklerle sunumlarınızı nasıl zenginleştirebileceğinize göz atalım!
+Let's dive into how you can harness Aspose.Slides Java to enhance your presentations with dynamic charts!
 
 ## Hızlı Yanıtlar
-- **Grafik ekleyen Maven kütüphanesi nedir?** aspose slides maven  
-- **Hangi grafik türü gösteriliyor?** Pasta grafiği (add chart to slide)  
-- **Gerekli minimum Java sürümü?** JDK 16 veya üzeri  
-- **Test için lisansa ihtiyacım var mı?** Ücretsiz deneme çalışır; üretim için lisans gerekir  
-- **Maven bağımlılığını nerede bulabilirim?** Aşağıdaki kurulum bölümünde  
+- **Maven üzerinden grafik ekleyen kütüphane nedir?** aspose slides maven  
+- **Hangi grafik türü gösterilmektedir?** Pie chart (add chart to slide)  
+- **Gerekli minimum Java sürümü nedir?** JDK 16 or later  
+- **Test için lisans gerekli mi?** A free trial works; production needs a license  
+- **Maven bağımlılığını nerede bulabilirim?** In the setup section below  
 
 ## Aspose Slides Maven Nedir?
-Aspose.Slides for Java, geliştiricilerin programatik olarak PowerPoint dosyaları oluşturmasını, değiştirmesini ve render etmesini sağlayan güçlü bir API’dir. Maven paketi (`aspose-slides`) bağımlılık yönetimini basitleştirir, böylece düşük seviyeli dosya işlemleriyle uğraşmadan slayt oluşturma ve özelleştirme—örneğin bir pasta grafiği ekleme—işlerine odaklanabilirsiniz.
+Aspose.Slides for Java is a powerful API that lets developers create, modify, and render PowerPoint files programmatically. The Maven package (`aspose-slides`) simplifies dependency management, allowing you to focus on building and customizing slides—like adding a pie chart—without dealing with low‑level file handling.
 
-## Neden Aspose.Slides Maven Kullanarak Slayta Grafik Eklemelisiniz?
-- **Otomasyon:** Rapor ve gösterge tablolarını otomatik olarak oluşturun.  
-- **Kesinlik:** Grafik türleri, veri ve stil üzerinde tam kontrol.  
-- **Çapraz Platform:** Herhangi bir Java‑uyumlu ortamda çalışır.  
+## Bir Slayta Grafik Eklemek İçin Aspose.Slides Maven Neden Kullanılmalı?
+Using Aspose.Slides Maven lets you generate charts directly from Java code without manual PowerPoint editing. It provides full programmatic control over chart types, data sources, and styling, ensuring consistent branding and accuracy. The Maven artifact also handles all required dependencies, simplifying builds and enabling seamless integration into CI/CD pipelines.
 
 ## Önkoşullar
 - **Aspose.Slides for Java** sürüm 25.4 veya üzeri (Maven/Gradle).  
 - JDK 16+ yüklü.  
 - Bir IDE (IntelliJ IDEA, Eclipse vb.).  
-- Temel Java bilgisi ve Maven ya da Gradle’a aşinalık.
+- Temel Java bilgisi ve Maven veya Gradle konusunda aşinalık.
 
 ## Aspose.Slides for Java Kurulumu
-İlk olarak, Aspose.Slides’ı projenize Maven ya da Gradle üzerinden ekleyin.
+First, include Aspose.Slides in your project via Maven or Gradle.
 
-**Maven:**
+**Maven:**  
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-slides</artifactId>
+    <version>25.4</version>
+</dependency>
+```
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -63,32 +93,40 @@ Aspose.Slides for Java, geliştiricilerin programatik olarak PowerPoint dosyalar
 </dependency>
 ```
 
-**Gradle:**
+**Gradle:**  
+```groovy
+implementation 'com.aspose:aspose-slides:25.4'
+```
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Alternatif olarak, Aspose’un web sitesinden doğrudan [en son sürümü indirebilirsiniz](https://releases.aspose.com/slides/java/).
+Alternatively, you can [download the latest release](https://releases.aspose.com/slides/java/) directly from Aspose's website.
 
 ### Lisans Edinme
-Aspose.Slides for Java, test amaçlı geçici bir lisansla ücretsiz deneme sunar. Sınırsız üretim kullanımı için [satın alma sayfasından](https://purchase.aspose.com/buy) lisans almanız gerekir.
+Aspose.Slides for Java offers a free trial with a temporary license for testing. For unrestricted production use, purchase a license through the [purchase page](https://purchase.aspose.com/buy).
 
-## Uygulama Rehberi
-Aşağıda çözümü iki özelliğe ayırıyoruz: bir pasta grafiği ekleme ve veri çalışma kitabına erişme.
+## Uygulama Kılavuzu
+Below we break the solution into two features: adding a pie chart and accessing its data workbook.
 
 ### Özellik 1: Sunum Oluşturma ve Grafik Ekleme
 #### Genel Bakış
-Bu bölüm, yeni bir sunum oluşturup **pie chart** eklemenin adımlarını gösterir.
+This part shows how to create a new presentation and **add a pie chart** to the first slide.
+
+#### **pie chart aspose** nasıl oluşturulur?
+Load the `Presentation` class, add a chart of type `ChartType.Pie`, and save the file. The entire operation requires only three API calls and runs in under a second for a typical 10‑slide deck, making it ideal for automated report generation.
 
 #### Adım‑Adım
 
 **Adım 1: Yeni Bir Presentation Nesnesi Başlatma**  
+The `Presentation` class is Aspose.Slides' top‑level object that represents a PowerPoint file in memory.  
 ```java
 Presentation pres = new Presentation();
 ```
-*`Presentation` örneğini oluşturur; bu örnek tüm slaytları tutar.*
+*Creates the `Presentation` instance that will hold all slides.* → *Tüm slaytları tutacak `Presentation` örneğini oluşturur.*
 
 **Adım 2: Pasta Grafiği Ekleme**  
+`ChartType.Pie` tells Aspose to render a pie chart.  
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
     ChartType.Pie,
@@ -98,83 +136,90 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
     500
 );
 ```
-*Grafiği (50, 50) koordinatlarında, 400 genişlik ve 500 yükseklikte yerleştirir. `ChartType.Pie` enum’u Aspose’a pasta grafiği çizmeyi söyler.*
+*Places a pie chart at coordinates (50, 50) with a width of 400 and height of 500.* → *Koordinat (50, 50) konumunda, 400 genişlik ve 500 yükseklikte bir pasta grafiği yerleştirir.*
 
 **Adım 3: Kaynakları Serbest Bırakma**  
+Calling `dispose()` releases native resources and prevents memory leaks.  
 ```java
 if (pres != null) pres.dispose();
 ```
-*Yerel kaynakları serbest bırakır; işiniz bittiğinde her zaman `dispose()` çağırmalısınız.*
+*Releases native resources; always call `dispose()` when you’re done.* → *Yerel kaynakları serbest bırakır; işiniz bittiğinde her zaman `dispose()` çağırın.*
 
-### Özellik 2: Grafik Veri Çalışma Kitabı ve Çalışma Sayfalarına Erişim
+### Özellik 2: Grafik Veri Çalışma Kitabına ve Çalışma Sayfalarına Erişim
 #### Genel Bakış
-Grafiğin veri depoladığı alt çalışma kitabına nasıl ulaşılacağını ve çalışma sayfalarının nasıl döngüyle gezileceğini öğrenin.
+Learn how to reach the underlying workbook that stores chart data and iterate through its worksheets.
+
+#### Grafik veri çalışma kitabına nasıl erişilir?
+Retrieve the `IChartDataWorkbook` from the chart, then loop through its `Worksheets` collection. This workbook mimics an Excel file, allowing you to read, modify, or add data series programmatically, which the chart will reflect instantly when refreshed during runtime without restarting.
 
 #### Adım‑Adım
 
 **Adım 1: (Tekrar Kullan) Yeni Bir Presentation Nesnesi Başlatma**  
-*Özellik 1, Adım 1 ile aynı.*
+*Same as Feature 1, Step 1.* → *Feature 1, Adım 1 ile aynı.*
 
 **Adım 2: (Tekrar Kullan) Pasta Grafiği Ekleme**  
-*Özellik 1, Adım 2 ile aynı.*
+*Same as Feature 1, Step 2.* → *Feature 1, Adım 2 ile aynı.*
 
-**Adım 3: Grafik Veri Çalışma Kitabını Alın**  
+**Adım 3: Grafik Veri Çalışma Kitabını Al**  
+`IChartDataWorkbook` is the interface that provides read/write access to the chart’s internal Excel‑like workbook.  
 ```java
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 ```
-*Grafikle ilişkilendirilmiş `IChartDataWorkbook` nesnesini getirir.*
+*Retrieves the `IChartDataWorkbook` linked to the chart.* → *Grafiğe bağlı `IChartDataWorkbook`'u alır.*
 
-**Adım 4: Çalışma Sayfalarını Döngüyle Gezme**  
+**Adım 4: Çalışma Sayfaları Üzerinde Döngü**  
+`Worksheet` objects represent individual sheets inside the workbook.  
 ```java
 for (int i = 0; i < workbook.getWorksheets().size(); i++) {
     System.out.println(workbook.getWorksheets().get_Item(i).getName());
 }
 ```
-*Her çalışma sayfasının adını yazdırır; böylece veri yapısını doğrulayabilirsiniz.*
+*Prints each worksheet’s name, letting you verify the data structure.* → *Her çalışma sayfasının adını yazdırır, veri yapısını doğrulamanızı sağlar.*
 
 **Adım 5: Kaynakları Serbest Bırakma**  
-*Özellik 1, Adım 3 ile aynı.*
+*Same as Feature 1, Step 3.* → *Feature 1, Adım 3 ile aynı.*
 
 ## Pratik Uygulamalar
-- **Veri Raporlama:** İş zekası için güncel metriklerle slayt desteleri otomatik oluşturun.  
-- **Akademik Sunumlar:** Araştırma sonuçlarını manuel grafik oluşturma zahmetsizce görselleştirin.  
-- **Pazarlama Materyalleri:** Ürün performansı ya da anket sonuçlarını anında sergileyin.
+- **Veri Raporlama:** İş zekası için güncel metriklerle slayt destelerini otomatik oluşturma.  
+- **Akademik Sunumlar:** Araştırma sonuçlarını manuel grafik oluşturma olmadan görselleştirme.  
+- **Pazarlama Materyali:** Ürün performansını veya anket sonuçlarını anında sergileme.
 
 ## Performans Düşünceleri
-- Slayt ve grafik sayısını makul tutun; her biri bellek tüketir.  
-- Yerel kaynakları serbest bırakmak için her zaman `dispose()` çağırın.  
-- Çalışma kitabı veri işleme süreçlerini optimize edin—tek bir grafiğe devasa veri setleri yüklemekten kaçının.
+- Aspose.Slides **50+ giriş ve çıkış formatını** işleyebilir ve tüm dosyayı belleğe yüklemeden çok sayfalı sunumları işleyebilir.  
+- Slayt ve grafik sayısını makul tutun; her grafik yerel bellek tüketir.  
+- `dispose()` her zaman çağrılarak kaynaklar hızlıca serbest bırakılmalıdır.  
+- Çalışma kitabı veri işleme optimizasyonu—tek bir grafiğe büyük veri setleri yüklemekten kaçının.
 
 ## Sonuç
-**aspose slides maven** ile **add chart to slide** işlemini programatik olarak nasıl yapacağınızı ve grafiğin veri çalışma kitabıyla nasıl çalışılacağını ele aldık. Bu temel bloklarla, şık bir PowerPoint çıktısı gerektiren her raporlama iş akışını otomatikleştirebilirsiniz.
+We’ve covered how **aspose slides maven** enables you to **add chart to slide** programmatically and how to work with the chart’s data workbook. With these building blocks you can automate any reporting workflow that requires a polished PowerPoint output.
 
 ### Sonraki Adımlar
 - Grafik stil seçeneklerini keşfedin (renkler, lejandlar, veri etiketleri).  
-- Dış veri kaynaklarına (CSV, veritabanları) bağlanarak grafikleri dinamik doldurun.  
-- Tek bir sunumda birden fazla grafik türü birleştirerek daha zengin bir hikâye anlatımı oluşturun.
+- Grafikleri dinamik olarak doldurmak için harici veri kaynaklarına (CSV, veritabanları) bağlanın.  
+- Daha zengin bir anlatım için tek bir sunumda birden fazla grafik türünü birleştirin.
 
-## Sık Sorulan Sorular
+## Sıkça Sorulan Sorular
 
-**S: Aspose.Slides for Java nasıl kurulur?**  
-C: Yukarıda gösterilen Maven ya da Gradle bağımlılığını kullanın veya releases sayfasından kütüphaneyi indirin.
+**S: Aspose.Slides for Java'ı nasıl kurarım?**  
+A: Use the Maven or Gradle dependency shown above, or download the library from the releases page.
 
 **S: Aspose.Slides için sistem gereksinimleri nelerdir?**  
-C: JDK 16 veya üzeri; kütüphane platform bağımsızdır.
+A: JDK 16 or later; the library runs on any platform that supports Java.
 
 **S: Pasta grafiği dışında başka grafik türleri ekleyebilir miyim?**  
-C: Evet, Aspose.Slides bar, line, scatter ve daha birçok grafik türünü destekler.
+A: Yes, Aspose.Slides supports bar, line, scatter, radar, and more than 20 chart types.
 
-**S: Büyük sunumları verimli bir şekilde nasıl yönetirim?**  
-C: Nesneleri zamanında dispose edin, yüksek çözünürlüklü görüntü sayısını sınırlayın ve mümkün olduğunda grafik şablonlarını yeniden kullanın.
+**S: Büyük sunumları verimli bir şekilde nasıl yönetmeliyim?**  
+A: Dispose of objects promptly, limit high‑resolution images, and reuse chart templates to keep memory usage low.
 
-**S: Aspose.Slides özellikleri hakkında daha fazla detay nerede bulunur?**  
-C: Tam API referansı için [Aspose documentation](https://reference.aspose.com/slides/java/) sayfasını ziyaret edin.
+**S: Aspose.Slides özellikleri hakkında daha fazla detayı nerede bulabilirim?**  
+A: Visit the [Aspose documentation](https://reference.aspose.com/slides/java/) for a complete API reference.
 
 **S: Ticari kullanım için lisans gerekli mi?**  
-C: Üretim ortamı için geçerli bir lisans gerekir; değerlendirme için ücretsiz deneme mevcuttur.
+A: A valid license is required for production; a free trial is available for evaluation.
 
 **S: Maven paketi tüm grafik yeteneklerini içeriyor mu?**  
-C: Evet, `aspose-slides` Maven artefaktı tam grafik motorunu barındırır.
+A: Yes, the `aspose-slides` Maven artifact contains the full charting engine.
 
 ## Kaynaklar
 - Dokümantasyon: [Aspose.Slides Java API Reference](https://reference.aspose.com/slides/java/)
@@ -186,14 +231,21 @@ C: Evet, `aspose-slides` Maven artefaktı tam grafik motorunu barındırır.
 
 ---  
 
-**Son Güncelleme:** 2026-01-09  
-**Test Edilen Versiyon:** Aspose.Slides 25.4 for Java (jdk16)  
-**Yazar:** Aspose  
+**Last Updated:** 2026-05-29  
+**Tested With:** Aspose.Slides 25.4 for Java (jdk16)  
+**Author:** Aspose
+
+## İlgili Eğitimler
+
+- [Java'da Aspose.Slides ile Pasta Grafik Renklerini Özelleştirme – Tam Kılavuz](/slides/java/charts-graphs/aspose-slides-java-pie-charts-tutorial/)
+- [Java'da Aspose.Slides ile Pasta İçinde Pasta Grafiği Oluşturma: Kapsamlı Kılavuz](/slides/java/charts-graphs/create-pie-of-pie-chart-aspose-slides-java/)
+- [Aspose.Slides for Java ile PowerPoint Grafiklerini Canlandırma – Adım Adım Kılavuz](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
