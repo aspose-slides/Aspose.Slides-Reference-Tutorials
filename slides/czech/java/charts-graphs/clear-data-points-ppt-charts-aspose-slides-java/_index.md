@@ -1,50 +1,79 @@
 ---
-"date": "2025-04-17"
-"description": "Naučte se, jak používat Aspose.Slides pro Javu k efektivnímu vymazání konkrétních datových bodů z grafů v prezentacích PowerPointu. Tato příručka se zabývá nastavením, implementací a osvědčenými postupy."
-"title": "Jak vymazat datové body v grafech PowerPointu pomocí Aspose.Slides pro Javu – Komplexní průvodce"
-"url": "/cs/java/charts-graphs/clear-data-points-ppt-charts-aspose-slides-java/"
-"weight": 1
+date: '2026-02-27'
+description: Naučte se, jak používat Aspose.Slides pro Javu k vymazání konkrétních
+  datových bodů v grafu. Tento krok‑za‑krokem tutoriál ukazuje, jak vymazat data grafu,
+  osvědčené postupy a jak efektivně vymazat řady grafu.
+keywords:
+- clear data points PowerPoint charts
+- manipulate chart series Aspose.Slides Java
+- reset data points PowerPoint using Java
+title: 'Jak vymazat datové body v grafech PowerPointu pomocí Aspose.Slides pro Javu:
+  komplexní průvodce'
+url: /cs/java/charts-graphs/clear-data-points-ppt-charts-aspose-slides-java/
+weight: 1
 ---
+
+Now the tutorial content.
+
+We'll translate.
+
+Be careful with bullet points, keep markdown.
+
+Also note "## Quick Answers" etc.
+
+Translate each line.
+
+Let's produce final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Jak vymazat datové body v grafech PowerPointu pomocí Aspose.Slides pro Javu
+# Jak vymazat datové body v grafech PowerPointu pomocí Aspose.Slides pro Java
 
-## Zavedení
+## Úvod
 
-Správa dat grafů v PowerPointu může být náročná, zejména při aktualizaci nebo resetování konkrétních datových bodů. Tento tutoriál nabízí podrobný návod, jak používat Aspose.Slides pro Javu k vymazání konkrétních datových bodů ze série grafů v prezentaci PowerPointu. Dodržováním tohoto návodu budete bez námahy udržovat čisté a přesné grafy.
+Správa dat v grafech PowerPointu může být náročná, zejména když potřebujete **vymazat konkrétní datové body** nebo resetovat celou sérii. V tomto tutoriálu uvidíte, jak **Aspose.Slides pro Java** usnadňuje programové vymazání hodnot grafu, udržuje vaše prezentace přehledné a zabraňuje nutnosti znovu vytvářet grafy od nuly.
 
-**Co se naučíte:**
-- Jak manipulovat s grafy v PowerPointu pomocí Aspose.Slides pro Javu.
-- Kroky pro efektivní vymazání konkrétních datových bodů v sérii grafů.
-- Nejlepší postupy pro nastavení a optimalizaci Aspose.Slides ve vašem prostředí Java.
+**Co se naučíte**
+- Jak manipulovat s grafy PowerPointu pomocí **Aspose.Slides pro Java**.  
+- Krok‑za‑krokem instrukce, **jak vymazat datové body** v sérii grafu.  
+- Nejlepší postupy pro nastavení knihovny a optimalizaci výkonu.
 
-Začněme tím, že si projdeme předpoklady potřebné pro tento tutoriál!
+Pojďme začít kontrolou předpokladů.
+
+## Rychlé odpovědi
+- **Jaká knihovna se používá?** Aspose.Slides pro Java.  
+- **Která metoda vymaže datový bod?** Nastavením hodnot buněk X a Y na `null`.  
+- **Potřebuji licenci?** Zkušební verze stačí pro hodnocení; pro produkci je vyžadována komerční licence.  
+- **Podporovaná verze JDK?** JDK 16 nebo novější.  
+- **Mohu cílit na jednu sérii?** Ano – iterujte pouze přes sérii, kterou chcete vymazat.
+
+## Co je Aspose.Slides pro Java?
+Aspose.Slides pro Java je výkonné API, které umožňuje vývojářům vytvářet, upravovat a konvertovat soubory PowerPointu bez Microsoft Office. Podporuje kompletní manipulaci s grafy, včetně přidávání, aktualizace a vymazání datových bodů.
+
+## Proč vymazat datové body grafu?
+Vymazání datových bodů je užitečné, když:
+- Aktualizujete graf novým datasetem při zachování stejného rozvržení.  
+- Připravujete šablonu, která obsahuje prázdná místa.  
+- Vytváříte dynamické reporty, kde se data často mění.
 
 ## Předpoklady
 
-Než začneme, ujistěte se, že máte:
-
 ### Požadované knihovny, verze a závislosti
-- **Aspose.Slides pro Javu**Verze 25.4 nebo vyšší.
+- **Aspose.Slides pro Java**: verze 25.4 nebo vyšší.
 
 ### Požadavky na nastavení prostředí
-- Na vašem počítači nainstalovaná sada Java Development Kit (JDK) verze 16 nebo novější.
+- Java Development Kit (JDK) 16 nebo novější.
 
-### Předpoklady znalostí
-- Základní znalost programování v Javě.
-- Znalost Mavenu nebo Gradle pro správu závislostí.
+### Znalostní předpoklady
+- Základy programování v Javě.  
+- Zkušenosti s Maven nebo Gradle pro správu závislostí.
 
-## Nastavení Aspose.Slides pro Javu
+## Nastavení Aspose.Slides pro Java
 
-Chcete-li začít používat Aspose.Slides pro Javu, postupujte podle těchto kroků nastavení:
-
-### Instalace Mavenu
-
-Přidejte do svého `pom.xml` soubor:
+### Instalace pomocí Maven
 
 ```xml
 <dependency>
@@ -55,9 +84,7 @@ Přidejte do svého `pom.xml` soubor:
 </dependency>
 ```
 
-### Instalace Gradle
-
-Zahrňte toto do svého `build.gradle` soubor:
+### Instalace pomocí Gradle
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
@@ -65,18 +92,16 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 
 ### Přímé stažení
 
-Případně si stáhněte nejnovější verzi z [Aspose.Slides pro verze Java](https://releases.aspose.com/slides/java/).
+Alternativně stáhněte nejnovější verzi z [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 ### Získání licence
 
-Chcete-li používat Aspose.Slides i po zkušebním období:
-- Získat **bezplatná zkušební verze** licence k prozkoumání všech funkcí.
-- Požádejte o **dočasná licence** pro účely hodnocení.
-- Zakoupit **komerční licence** pro dlouhodobé projekty.
+Pro použití Aspose.Slides mimo omezení zkušební verze:
+- Získejte **bezplatnou zkušební** licenci.  
+- Požádejte o **dočasnou** licenci pro hodnocení.  
+- Zakupte **komerční** licenci pro produkční nasazení.
 
 #### Základní inicializace a nastavení
-
-Začněte inicializací `Presentation` třída:
 
 ```java
 import com.aspose.slides.*;
@@ -85,7 +110,7 @@ public class ChartManipulation {
     public static void main(String[] args) {
         Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/TestChart.pptx");
         try {
-            // Váš kód zde
+            // Your code here
         } finally {
             if (pres != null) pres.dispose();
         }
@@ -93,38 +118,33 @@ public class ChartManipulation {
 }
 ```
 
-## Průvodce implementací
+## Použití Aspose.Slides pro Java k vymazání datových bodů v grafu
 
-V této části si projdeme kroky pro vymazání konkrétních datových bodů z grafové řady.
-
-### Vymazat datové body řady grafů
+### Vymazání datových bodů série grafu
 
 #### Přehled
 
-Tato funkce umožňuje resetovat nebo vymazat hodnoty X a Y každého datového bodu v zadané sérii grafů. Je to obzvláště užitečné při aktualizaci grafů novými datovými sadami, aniž byste je museli kompletně znovu vytvářet.
+Tato funkce umožňuje resetovat hodnoty X a Y každého datového bodu ve vybrané sérii. Je to jádro **jak vymazat data grafu** bez ovlivnění ostatních sérií.
 
-#### Postupná implementace
+#### Implementace krok za krokem
 
-1. **Načíst prezentaci**
-   
-   Začněte načtením souboru PowerPoint do souboru Aspose.Slides. `Presentation` objekt.
+1. **Načtení prezentace**  
+   Načtěte soubor PowerPointu do objektu `Presentation`.
 
    ```java
    Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/TestChart.pptx");
    ```
 
-2. **Přístup k snímku a grafu**
-
-   Načíst první snímek a jeho graf:
+2. **Přístup k snímku a grafu**  
+   Získejte první snímek a první tvar (předpokládá se, že je to graf).
 
    ```java
    ISlide sl = pres.getSlides().get_Item(0);
    IChart chart = (IChart) sl.getShapes().get_Item(0);
    ```
 
-3. **Iterovat datovými body**
-
-   Projděte si všechny datové body v první sérii, abyste vymazali jejich hodnoty.
+3. **Iterace přes datové body**  
+   Projděte datové body první série a nastavte jejich hodnoty buněk na `null`.
 
    ```java
    for (IChartDataPoint dataPoint : chart.getChartData().getSeries().get_Item(0).getDataPoints()) {
@@ -133,9 +153,8 @@ Tato funkce umožňuje resetovat nebo vymazat hodnoty X a Y každého datového 
    }
    ```
 
-4. **Uložit prezentaci**
-
-   Nakonec uložte aktualizovanou prezentaci.
+4. **Uložení prezentace**  
+   Uložte změny do nového souboru.
 
    ```java
    pres.save("YOUR_DOCUMENT_DIRECTORY/UpdatedTestChart.pptx", SaveFormat.Pptx);
@@ -143,67 +162,78 @@ Tato funkce umožňuje resetovat nebo vymazat hodnoty X a Y každého datového 
 
 ### Tipy pro řešení problémů
 
-- Ujistěte se, že index grafu a index řady jsou správné, abyste se vyhnuli `IndexOutOfBoundsException`.
-- Ověřte cesty k souborům pro načítání a ukládání prezentací.
+- Ověřte, že index snímku (`0`) a index tvaru (`0`) skutečně odkazují na graf; jinak dojde k `IndexOutOfBoundsException`.  
+- Dvakrát zkontrolujte cesty k souborům při načítání i ukládání; během testování používejte absolutní cesty, aby nedošlo ke zmatení.  
+- Pokud graf obsahuje více sérií, upravte index série (`get_Item(0)`) podle potřeby.
 
 ## Praktické aplikace
 
-Vymazání datových bodů grafu lze použít v různých scénářích:
+Vymazání datových bodů grafu lze použít v různých reálných scénářích:
 
-1. **Obnovení dat**Rychlá aktualizace grafů novými datovými sadami.
-2. **Příprava šablony**Připravte šablony odstraněním zástupných dat.
-3. **Dynamické reportování**Implementujte dynamické aktualizace v nástrojích pro tvorbu reportů nebo dashboardech.
-4. **Integrace se zdroji dat**Propojení a synchronizace prezentací s živými databázemi pro analýzu v reálném čase.
+1. **Obnovení dat** – Nahraďte stará data novým datasetem bez nutnosti znovu vytvářet rozvržení grafu.  
+2. **Příprava šablon** – Distribuujte PowerPoint šablony s prázdnými grafy připravenými k zadání uživatelem.  
+3. **Dynamické reportování** – Integrujte s živými zdroji dat (databáze, API) a generujte aktuální prezentace za běhu.  
+4. **Automatizované dashboardy** – Vytvořte naplánované úlohy, které každou noc aktualizují grafy, nejprve vymazáním předchozích hodnot.
 
 ## Úvahy o výkonu
 
-Optimalizace výkonu Aspose.Slides:
-- Efektivně spravujte využití paměti likvidací `Presentation` předměty po použití.
-- Pro snížení režijních nákladů využijte dávkové zpracování velkých datových sad.
-- Sledujte nastavení haldy JVM, abyste předešli chybám z důvodu nedostatku paměti během intenzivních operací.
+- **Uvolňování objektů**: Vždy zavolejte `pres.dispose()` pro uvolnění nativních zdrojů.  
+- **Dávkové zpracování**: Při práci s mnoha prezentacemi znovu použijte jedinou instanci `License` a soubory zpracovávejte sekvenčně, čímž snížíte režii.  
+- **Ladění JVM**: Přizpůsobte velikost haldy (`-Xmx`), pokud pracujete s velmi velkými soubory PPTX.
 
 ## Závěr
 
-tomto tutoriálu jsme se podívali na to, jak vymazat datové body řady grafů v PowerPointu pomocí Aspose.Slides pro Javu. Dodržováním těchto kroků můžete efektivně aktualizovat a spravovat své grafy a zajistit, aby odrážely co nejpřesnější informace.
+V tomto průvodci jsme ukázali **jak vymazat datové body grafu** pomocí **Aspose.Slides pro Java**. Dodržením výše uvedených kroků můžete programově resetovat série grafu, udržet své prezentace čisté a integrovat aktualizace grafů do libovolného Java‑založeného reportovacího řetězce.
 
-**Další kroky:**
-- Experimentujte s dalšími funkcemi pro manipulaci s grafy.
-- Prozkoumejte rozsáhlou dokumentaci k Aspose.Slides a objevte další funkce.
+**Další kroky**
+- Vyzkoušejte přidání nových datových bodů po vymazání starých.  
+- Prozkoumejte další funkce manipulace s grafy, jako je změna typu grafu nebo formátování sérií.  
+- Prohlédněte si kompletní dokumentaci Aspose.Slides API pro hlubší poznatky.
 
-Jste připraveni implementovat toto řešení do svých projektů? Vyzkoušejte si ho ještě dnes!
+## Často kladené otázky (FAQ)
 
-## Sekce Často kladených otázek
+1. **Jak nainstaluji Aspose.Slides pro Java pomocí Maven?**  
+   Přidejte výše uvedený úryvek závislosti do souboru `pom.xml`.
 
-1. **Jak nainstaluji Aspose.Slides pro Javu pomocí Mavenu?**
-   
-   Přidejte výše uvedený úryvek kódu závislosti do svého `pom.xml`.
+2. **Co když při přístupu k snímkům nebo grafům narazím na `IndexOutOfBoundsException`?**  
+   Zkontrolujte, že indexy snímku a grafu, které používáte, skutečně v prezentaci existují.
 
-2. **Co když narazím na `IndexOutOfBoundsException` při přístupu k slajdům nebo grafům?**
-   
-   Zkontrolujte, zda se ve vaší prezentaci nacházejí indexy snímků a grafů, na které odkazujete.
+3. **Dokáže Aspose.Slides efektivně zpracovávat velké prezentace?**  
+   Ano, při správném řízení paměti (uvolňování objektů) a ladění haldy JVM.
 
-3. **Dokáže Aspose.Slides efektivně zpracovat velké prezentace?**
-   
-   Ano, efektivním řízením využití paměti a optimalizací nastavení JVM.
+4. **Je možné vymazat datové body, aniž by to ovlivnilo ostatní série?**  
+   Rozhodně – cílete na konkrétní index série, kterou chcete vymazat, jak je ukázáno v cyklu.
 
-4. **Je možné vymazat datové body bez ovlivnění ostatních sérií?**
-   
-   Ano, zaměřte se na konkrétní série a jejich datové body, jak je znázorněno v tutoriálu.
+5. **Jak integrovat toto řešení s živou databází?**  
+   Použijte standardní JDBC nebo moderní ORM pro načtení dat a poté aplikujte stejnou logiku vymazání před vložením nových bodů.
 
-5. **Jak mohu toto řešení integrovat s živou databází?**
-   
-   Použijte API Aspose.Slides spolu s vašimi preferovanými knihovnami pro připojení k databázi Java k dynamickému načítání a aktualizaci dat grafů.
+## Často kladené otázky
+
+**Q: Potřebuji licenci pro vývojové sestavení?**  
+A: Bezplatná zkušební licence stačí pro vývoj a testování. Pro produkční nasazení je vyžadována komerční licence.
+
+**Q: Podporuje Aspose.Slides pro Java funkce PowerPoint 2016/2019?**  
+A: Ano, knihovna je plně kompatibilní s moderními formáty PPTX a podporuje pokročilé typy grafů.
+
+**Q: Můžu vymazat datové body v grafu, který používá sekundární osu?**  
+A: Stejný přístup funguje; jen se ujistěte, že odkazujete na správnou sérii patřící k sekundární ose.
+
+**Q: Existuje způsob, jak vymazat pouze hodnoty Y a zachovat štítky X?**  
+A: Nastavte `dataPoint.getYValue().getAsCell().setValue(null)` a ponechte buňku X nedotčenou.
+
+**Q: Jak mohu automatizovat tento proces pro více prezentací?**  
+A: Zabalte kód do smyčky, která iteruje přes adresář souborů PPTX a na každém aplikuje stejnou logiku vymazání a uložení.
 
 ## Zdroje
 
-- [Dokumentace k Aspose.Slides](https://reference.aspose.com/slides/java/)
-- [Stáhněte si Aspose.Slides pro Javu](https://releases.aspose.com/slides/java/)
-- [Zakoupit licenci](https://purchase.aspose.com/buy)
-- [Bezplatná zkušební verze](https://releases.aspose.com/slides/java/)
-- [Žádost o dočasnou licenci](https://purchase.aspose.com/temporary-license/)
-- [Fórum komunity Aspose](https://forum.aspose.com/c/slides/11)
+- [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
+- [Download Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
+- [Purchase a License](https://purchase.aspose.com/buy)
+- [Free Trial Version](https://releases.aspose.com/slides/java/)
+- [Temporary License Application](https://purchase.aspose.com/temporary-license/)
+- [Aspose Community Forum](https://forum.aspose.com/c/slides/11)
 
-S těmito zdroji jste dobře vybaveni k tomu, abyste mohli začít využívat Aspose.Slides pro Javu ve svých projektech. Přejeme vám šťastné programování!
+S těmito zdroji jste připraveni začít vymazávat datové body v grafech ve svých Java aplikacích. Šťastné programování!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -212,3 +242,9 @@ S těmito zdroji jste dobře vybaveni k tomu, abyste mohli začít využívat As
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Poslední aktualizace:** 2026-02-27  
+**Testováno s:** Aspose.Slides pro Java 25.4 (JDK 16)  
+**Autor:** Aspose

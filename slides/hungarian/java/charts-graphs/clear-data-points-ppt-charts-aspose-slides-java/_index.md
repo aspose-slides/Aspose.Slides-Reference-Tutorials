@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-17"
-"description": "Ismerje meg, hogyan használható az Aspose.Slides Java-ban a PowerPoint-bemutatók diagramsorozataiból származó adatpontok hatékony eltávolításához. Ez az útmutató a beállítást, a megvalósítást és a bevált gyakorlatokat ismerteti."
-"title": "Adatpontok törlése PowerPoint-diagramokban az Aspose.Slides for Java használatával – Átfogó útmutató"
-"url": "/hu/java/charts-graphs/clear-data-points-ppt-charts-aspose-slides-java/"
-"weight": 1
+date: '2026-02-27'
+description: Tudja meg, hogyan használja az Aspose.Slides for Java-t konkrét diagramadatpontok
+  törlésére. Ez a lépésről‑lépésre útmutató bemutatja, hogyan törölje a diagram adatait,
+  a legjobb gyakorlatokat, és hogyan tisztítsa meg hatékonyan a diagram sorozatait.
+keywords:
+- clear data points PowerPoint charts
+- manipulate chart series Aspose.Slides Java
+- reset data points PowerPoint using Java
+title: 'Hogyan töröljük az adatpontokat a PowerPoint-diagramokban az Aspose.Slides
+  for Java használatával: átfogó útmutató'
+url: /hu/java/charts-graphs/clear-data-points-ppt-charts-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,40 +18,50 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Hogyan töröljünk adatpontokat PowerPoint-diagramokban az Aspose.Slides for Java használatával
+# Hogyan töröljük a diagram adatpontjait PowerPoint-diagramokban az Aspose.Slides for Java segítségével
 
 ## Bevezetés
 
-A PowerPointban a diagramadatok kezelése kihívást jelenthet, különösen bizonyos adatpontok frissítésekor vagy visszaállításakor. Ez az oktatóanyag részletes útmutatót nyújt az Aspose.Slides Java-ban történő használatához, amellyel bizonyos adatpontokat törölhet egy PowerPoint-bemutatón belüli diagramsorozatból. Az útmutató követésével könnyedén tiszta és pontos diagramokat tarthat karban.
+A PowerPoint-diagramok adatainak kezelése kihívást jelenthet, különösen akkor, amikor **konkrét adatpontokat kell törölni** vagy egy teljes sorozatot visszaállítani. Ebben az útmutatóban megmutatjuk, hogyan teszi egyszerűvé a **Aspose.Slides for Java** a diagramértékek programozott törlését, hogy prezentációi rendezettek maradjanak, és elkerülje a diagramok újraépítését a semmiből.
 
-**Amit tanulni fogsz:**
-- Hogyan lehet PowerPoint-diagramokat manipulálni az Aspose.Slides for Java segítségével.
-- Lépések diagramsorozatok adott adatpontjainak hatékony törléséhez.
-- Gyakorlati tanácsok az Aspose.Slides beállításához és optimalizálásához Java környezetben.
+**Mit fogsz megtanulni**
+- Hogyan manipuláljuk a PowerPoint-diagramokat a **Aspose.Slides for Java** segítségével.  
+- Lépésről‑lépésre útmutató arra, **hogyan töröljük a diagram** adatpontjait egy sorozatban.  
+- Legjobb gyakorlatok a könyvtár beállításához és a teljesítmény optimalizálásához.
 
-Kezdjük a bemutatóhoz szükséges előfeltételek áttekintésével!
+Kezdjük a szükséges előfeltételek áttekintésével.
+
+## Gyors válaszok
+- **Melyik könyvtárat használjuk?** Aspose.Slides for Java.  
+- **Melyik metódus törli az adatpontot?** Az X és Y cellaértékek `null`‑ra állítása.  
+- **Szükség van licencre?** A próbaverzió elegendő értékeléshez; a kereskedelmi licenc szükséges a termeléshez.  
+- **Támogatott JDK verzió?** JDK 16 vagy újabb.  
+- **Célzott sorozatot is lehet-e kiválasztani?** Igen – csak a törölni kívánt sorozaton iterálva.
+
+## Mi az Aspose.Slides for Java?
+Az Aspose.Slides for Java egy erőteljes API, amely lehetővé teszi a fejlesztők számára PowerPoint‑fájlok létrehozását, szerkesztését és konvertálását a Microsoft Office nélkül. Teljes körű diagrammanipulációt támogat, beleértve az adatpontok hozzáadását, frissítését és törlését.
+
+## Miért töröljük a diagram adatpontjait?
+Az adatpontok törlése hasznos, ha:
+- Új adatkészlettel szeretnénk frissíteni a diagramot, miközben a layout változatlan marad.  
+- Olyan sablont készítünk, amely üres helyőrzőkkel érkezik.  
+- Dinamikus jelentéseket építünk, ahol az adatok gyakran változnak.
 
 ## Előfeltételek
 
-Mielőtt elkezdenénk, győződjünk meg róla, hogy rendelkezünk a következőkkel:
-
 ### Szükséges könyvtárak, verziók és függőségek
-- **Aspose.Slides Java-hoz**: 25.4-es vagy újabb verzió.
+- **Aspose.Slides for Java**: 25.4 vagy újabb verzió.
 
-### Környezeti beállítási követelmények
-- A gépedre telepített Java Development Kit (JDK) 16-os vagy újabb verziója.
+### Környezet beállítási követelmények
+- Java Development Kit (JDK) 16 vagy újabb.
 
-### Előfeltételek a tudáshoz
-- Java programozási alapismeretek.
-- Maven vagy Gradle ismeretek függőségkezelés terén.
+### Tudásbeli előfeltételek
+- Alapvető Java programozás.  
+- Maven vagy Gradle ismerete a függőségkezeléshez.
 
-## Az Aspose.Slides beállítása Java-hoz
-
-Az Aspose.Slides Java-beli használatának megkezdéséhez kövesse az alábbi beállítási lépéseket:
+## Aspose.Slides for Java beállítása
 
 ### Maven telepítés
-
-Adja hozzá a következő függőséget a `pom.xml` fájl:
 
 ```xml
 <dependency>
@@ -55,9 +72,7 @@ Adja hozzá a következő függőséget a `pom.xml` fájl:
 </dependency>
 ```
 
-### Gradle telepítése
-
-Vedd bele ezt a `build.gradle` fájl:
+### Gradle telepítés
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
@@ -65,18 +80,16 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 
 ### Közvetlen letöltés
 
-Vagy töltse le a legújabb verziót innen: [Aspose.Slides Java kiadásokhoz](https://releases.aspose.com/slides/java/).
+Alternatívaként töltse le a legújabb verziót a [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) oldalról.
 
-### Licencszerzés
+### Licenc beszerzése
 
 Az Aspose.Slides használatához a próbaverzió korlátain túl:
-- Szerezzen be egy **ingyenes próba** licenc a teljes funkciók felfedezéséhez.
-- Jelentkezzen egy **ideiglenes engedély** értékelési célokra.
-- Vásároljon egy **kereskedelmi engedély** hosszú távú projektekhez.
+- Szerezzen be egy **ingyenes próbaverzió** licencet.  
+- Jelentkezzen **ideiglenes licencre** értékelés céljából.  
+- Vásároljon **kereskedelmi licencet** a termelési környezethez.
 
 #### Alapvető inicializálás és beállítás
-
-Kezdje az inicializálással `Presentation` osztály:
 
 ```java
 import com.aspose.slides.*;
@@ -85,7 +98,7 @@ public class ChartManipulation {
     public static void main(String[] args) {
         Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/TestChart.pptx");
         try {
-            // A kódod itt
+            // Your code here
         } finally {
             if (pres != null) pres.dispose();
         }
@@ -93,38 +106,33 @@ public class ChartManipulation {
 }
 ```
 
-## Megvalósítási útmutató
+## Aspose.Slides for Java használata diagram adatpontok törléséhez
 
-Ebben a szakaszban végigvezetjük azokat a lépéseket, amelyekkel bizonyos adatpontokat törölhet egy diagramsorozatból.
-
-### Tiszta diagramsorozat adatpontok
+### Diagram sorozat adatpontjainak törlése
 
 #### Áttekintés
 
-Ez a funkció lehetővé teszi az egyes adatpontok X és Y értékeinek visszaállítását vagy törlését egy adott diagramsorozatban. Különösen hasznos, ha a diagramokat új adathalmazokkal frissíti anélkül, hogy teljesen újra létrehozná azokat.
+Ez a funkció lehetővé teszi, hogy egy kiválasztott sorozat minden adatpontjának X és Y értékeit visszaállítsa. Ez a **hogyan töröljük a diagram** adatpontjait anélkül, hogy a többi sorozatot érintené.
 
-#### Lépésről lépésre történő megvalósítás
+#### Lépés‑ről‑lépésre megvalósítás
 
-1. **Töltse be a prezentációt**
-   
-   Kezd azzal, hogy betöltöd a PowerPoint fájlodat egy Aspose.Slides-be. `Presentation` objektum.
+1. **Prezentáció betöltése**  
+   Töltse be a PowerPoint‑fájlt egy `Presentation` objektumba.
 
    ```java
    Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/TestChart.pptx");
    ```
 
-2. **Hozzáférés dia és diagramhoz**
-
-   Az első diát és a hozzá tartozó diagramot kell lekérni:
+2. **Dia és diagram elérése**  
+   Szerezze meg az első diát és az első alakzatot (feltételezve, hogy ez egy diagram).
 
    ```java
    ISlide sl = pres.getSlides().get_Item(0);
    IChart chart = (IChart) sl.getShapes().get_Item(0);
    ```
 
-3. **Adatpontokon keresztüli iteráció**
-
-   Végigfutja az első sorozat minden adatpontját az értékük törléséhez.
+3. **Adatpontok iterálása**  
+   Járja be az első sorozat adatpontjait, és állítsa a cellaértékeket `null`‑ra.
 
    ```java
    for (IChartDataPoint dataPoint : chart.getChartData().getSeries().get_Item(0).getDataPoints()) {
@@ -133,9 +141,8 @@ Ez a funkció lehetővé teszi az egyes adatpontok X és Y értékeinek visszaá
    }
    ```
 
-4. **Mentse el a prezentációt**
-
-   Végül mentse el a frissített prezentációt.
+4. **Prezentáció mentése**  
+   Írja a módosításokat egy új fájlba.
 
    ```java
    pres.save("YOUR_DOCUMENT_DIRECTORY/UpdatedTestChart.pptx", SaveFormat.Pptx);
@@ -143,67 +150,78 @@ Ez a funkció lehetővé teszi az egyes adatpontok X és Y értékeinek visszaá
 
 ### Hibaelhárítási tippek
 
-- Győződjön meg arról, hogy a diagramindex és a sorozatindex helyes, hogy elkerülje `IndexOutOfBoundsException`.
-- Ellenőrizze a fájlelérési utakat a prezentációk betöltéséhez és mentéséhez.
+- Ellenőrizze, hogy a dia index (`0`) és az alakzat index (`0`) valóban egy diagramra mutat-e; ellenkező esetben `IndexOutOfBoundsException` hibát kap.  
+- Ellenőrizze a betöltési és mentési fájlutakat; tesztelés közben használjon abszolút útvonalakat a félreértések elkerülése érdekében.  
+- Ha a diagram több sorozatot tartalmaz, a sorozat indexet (`get_Item(0)`) ennek megfelelően módosítsa.
 
 ## Gyakorlati alkalmazások
 
-A diagram adatpontjainak törlése különböző esetekben alkalmazható:
+A diagram adatpontjainak törlése különböző valós helyzetekben alkalmazható:
 
-1. **Adatfrissítés**: Diagramok gyors frissítése új adathalmazokkal.
-2. **Sablon előkészítése**: Sablonok készítése helyőrző adatok eltávolításával.
-3. **Dinamikus jelentéskészítés**Dinamikus frissítések implementálása a jelentéskészítő eszközökben vagy az irányítópultokon.
-4. **Integráció adatforrásokkal**: Csatlakoztassa és szinkronizálja a prezentációkat élő adatbázisokkal valós idejű elemzésekhez.
+1. **Adatfrissítés** – Cserélje le a régi adatokat egy friss adatkészletre anélkül, hogy újra kellene építeni a diagram layoutot.  
+2. **Sablon előkészítése** – Szállítson PowerPoint‑sablonokat, amelyek üres diagramokat tartalmaznak a felhasználói bevitelhez.  
+3. **Dinamikus jelentéskészítés** – Integrálja élő adatforrásokkal (adatbázisok, API‑k) a prezentációk valós idejű generálásához.  
+4. **Automatizált műszerfalak** – Építsen ütemezett feladatokat, amelyek éjszakánként frissítik a diagramokat, előtte törölve a korábbi értékeket.
 
-## Teljesítménybeli szempontok
+## Teljesítménybeli megfontolások
 
-Az Aspose.Slides teljesítményének optimalizálásához:
-- A memóriahasználat hatékony kezelése a következők eltávolításával: `Presentation` tárgyak használat után.
-- Nagy adathalmazok kötegelt feldolgozásával csökkentheti a többletterhelést.
-- Figyelje a JVM heap beállításait a memóriahiányos hibák megelőzése érdekében intenzív műveletek során.
+- **Objektumok felszabadítása**: Mindig hívja meg a `pres.dispose()`‑t a natív erőforrások felszabadításához.  
+- **Kötegelt feldolgozás**: Sok prezentáció kezelésekor használjon egyetlen `License` példányt, és sorban dolgozza fel a fájlokat a terhelés csökkentése érdekében.  
+- **JVM hangolás**: Állítsa be a heap méretet (`-Xmx`), ha nagyon nagy PPTX fájlokkal dolgozik.
 
 ## Következtetés
 
-Ebben az oktatóanyagban azt vizsgáltuk meg, hogyan törölhetők diagramsorozat-adatpontok PowerPointban az Aspose.Slides for Java használatával. A következő lépéseket követve hatékonyan frissítheti és kezelheti diagramjait, biztosítva, hogy azok a lehető legpontosabb információkat tükrözzék.
+Ebben az útmutatóban bemutattuk, **hogyan töröljük a diagram** adatpontjait a **Aspose.Slides for Java** segítségével. A fenti lépések követésével programozottan visszaállíthatja a diagram sorozatokat, tisztán tarthatja prezentációit, és beépítheti a diagramfrissítéseket bármely Java‑alapú jelentéskészítő folyamatba.
 
-**Következő lépések:**
-- Kísérletezzen más diagramkezelési funkciókkal.
-- Fedezd fel az Aspose.Slides kiterjedt dokumentációját a további funkciókért.
+**Következő lépések**
+- Kísérletezzen új adatpontok hozzáadásával a régi törlése után.  
+- Fedezze fel a többi diagram‑manipulációs funkciót, például a diagramtípusok módosítását vagy a sorozatok formázását.  
+- Tekintse át a teljes Aspose.Slides API dokumentációt a mélyebb ismeretekért.
 
-Készen állsz arra, hogy ezt a megoldást megvalósítsd a projektjeidben? Próbáld ki még ma!
+## Gyakran Ismételt Kérdések
 
-## GYIK szekció
+1. **Hogyan telepítem az Aspose.Slides for Java‑t Maven‑nel?**  
+   Adja hozzá a fent bemutatott függőség‑kódrészletet a `pom.xml`‑hez.
 
-1. **Hogyan telepíthetem az Aspose.Slides-t Java-hoz Maven használatával?**
-   
-   Adja hozzá a fent megadott függőségi kódrészletet a `pom.xml`.
+2. **Mi a teendő, ha `IndexOutOfBoundsException` hibát kap a diák vagy diagramok elérésekor?**  
+   Ellenőrizze, hogy a hivatkozott dia‑ és diagram‑indexek valóban léteznek‑e a prezentációban.
 
-2. **Mi van, ha találkozom egy `IndexOutOfBoundsException` diák vagy diagramok megnyitásakor?**
-   
-   Ellenőrizd, hogy a hivatkozott dia- és diagramindexek léteznek-e a prezentációdban.
+3. **Képes az Aspose.Slides nagy prezentációkat hatékonyan kezelni?**  
+   Igen, a memóriahasználat megfelelő kezelése (objektumok felszabadítása) és a JVM heap beállítások optimalizálása mellett.
 
-3. **Hatékonyan tudja az Aspose.Slides kezelni a nagyméretű prezentációkat?**
-   
-   Igen, a memóriahasználat hatékony kezelésével és a JVM-beállítások optimalizálásával.
+4. **Lehet-e adatpontokat törölni anélkül, hogy a többi sorozatot érintenénk?**  
+   Természetesen – célozza meg a törölni kívánt sorozat indexét, ahogy a ciklusban látható.
 
-4. **Lehetséges-e adatpontokat törölni anélkül, hogy ez más sorozatokat érintene?**
-   
-   Igen, célozzon meg konkrét sorozatokat és azok adatpontjait, ahogy az az oktatóanyagban is látható.
+5. **Hogyan integráljam ezt a megoldást egy élő adatbázissal?**  
+   Használjon szabványos JDBC‑t vagy modern ORM‑et az adatok lekéréséhez, majd alkalmazza ugyanazt a törlési logikát az új pontok beszúrása előtt.
 
-5. **Hogyan integrálhatom ezt a megoldást egy élő adatbázissal?**
-   
-   Használd az Aspose.Slides API-ját a kívánt Java adatbázis-kapcsolati könyvtáraiddal együtt a diagramadatok dinamikus lekéréséhez és frissítéséhez.
+## Gyakran Ismételt Kérdések
 
-## Erőforrás
+**K: Szükség van licencre fejlesztői buildhez?**  
+V: Egy ingyenes próbaverzió licenc elegendő a fejlesztéshez és teszteléshez. A termelési környezethez kereskedelmi licenc szükséges.
 
-- [Aspose.Slides dokumentáció](https://reference.aspose.com/slides/java/)
-- [Aspose.Slides letöltése Java-hoz](https://releases.aspose.com/slides/java/)
-- [Licenc vásárlása](https://purchase.aspose.com/buy)
-- [Ingyenes próbaverzió](https://releases.aspose.com/slides/java/)
-- [Ideiglenes engedélykérelem](https://purchase.aspose.com/temporary-license/)
-- [Aspose Közösségi Fórum](https://forum.aspose.com/c/slides/11)
+**K: Támogatja az Aspose.Slides for Java a PowerPoint 2016/2019 funkcióit?**  
+V: Igen, a könyvtár teljes mértékben kompatibilis a modern PPTX formátumokkal, és támogatja a fejlett diagramtípusokat.
 
-Ezekkel az anyagokkal felkészült leszel arra, hogy elkezdhesd használni az Aspose.Slides Java-verzióját a projektjeidben. Jó kódolást!
+**K: Törölhetek adatpontokat egy másodlagos tengelyet használó diagramon?**  
+V: Ugyanaz a megközelítés működik; csak győződjön meg róla, hogy a megfelelő, a másodlagos tengelyhez tartozó sorozatra hivatkozik.
+
+**K: Van mód csak a Y értékeket törölni, miközben az X címkéket megtartom?**  
+V: Állítsa be a `dataPoint.getYValue().getAsCell().setValue(null)`‑t, az X cellát érintetlenül hagyva.
+
+**K: Hogyan automatizálhatom ezt a folyamatot több prezentációra?**  
+V: Csomagolja a kódot egy ciklusba, amely egy könyvtár PPTX fájljait iterálja, és minden fájlra alkalmazza a törlés‑és‑mentés logikát.
+
+## Források
+
+- [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
+- [Download Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
+- [Purchase a License](https://purchase.aspose.com/buy)
+- [Free Trial Version](https://releases.aspose.com/slides/java/)
+- [Temporary License Application](https://purchase.aspose.com/temporary-license/)
+- [Aspose Community Forum](https://forum.aspose.com/c/slides/11)
+
+Ezekkel a forrásokkal készen áll a diagram adatpontjainak törlésére Java‑alkalmazásaiban. Boldog kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -212,3 +230,9 @@ Ezekkel az anyagokkal felkészült leszel arra, hogy elkezdhesd használni az As
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Utoljára frissítve:** 2026-02-27  
+**Tesztelt verzió:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Szerző:** Aspose

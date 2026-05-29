@@ -1,50 +1,73 @@
 ---
-"date": "2025-04-17"
-"description": "Leer hoe u Aspose.Slides voor Java gebruikt om specifieke datapunten efficiënt uit diagramreeksen in PowerPoint-presentaties te verwijderen. Deze handleiding behandelt de installatie, implementatie en aanbevolen procedures."
-"title": "Gegevenspunten wissen in PowerPoint-grafieken met Aspose.Slides voor Java&#58; een uitgebreide handleiding"
-"url": "/nl/java/charts-graphs/clear-data-points-ppt-charts-aspose-slides-java/"
-"weight": 1
+date: '2026-02-27'
+description: Leer hoe u Aspose.Slides voor Java kunt gebruiken om specifieke grafiekdatapunten
+  te wissen. Deze stapsgewijze tutorial laat zien hoe u grafiekgegevens kunt wissen,
+  best practices, en hoe u grafiekreeksen efficiënt kunt wissen.
+keywords:
+- clear data points PowerPoint charts
+- manipulate chart series Aspose.Slides Java
+- reset data points PowerPoint using Java
+title: 'Hoe gegevenspunten in PowerPoint-diagrammen te wissen met Aspose.Slides voor
+  Java: een uitgebreide gids'
+url: /nl/java/charts-graphs/clear-data-points-ppt-charts-aspose-slides-java/
+weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+"
+
+Now produce final markdown with all translations.
+
+Be careful to keep shortcodes and placeholders unchanged.
+
+Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Gegevenspunten in PowerPoint-grafieken wissen met Aspose.Slides voor Java
+# Hoe gegevenspunten in PowerPoint‑diagrammen wissen met Aspose.Slides voor Java
 
-## Invoering
+## Inleiding
 
-Het beheren van grafiekgegevens in PowerPoint kan een uitdaging zijn, vooral bij het bijwerken of resetten van specifieke datapunten. Deze tutorial biedt een gedetailleerde handleiding voor het gebruik van Aspose.Slides voor Java om specifieke datapunten uit een grafiekreeks in een PowerPoint-presentatie te verwijderen. Door deze handleiding te volgen, behoudt u moeiteloos overzichtelijke en nauwkeurige grafieken.
+Het beheren van diagramgegevens in PowerPoint kan een uitdaging zijn, vooral wanneer u **specifieke gegevenspunten** moet **wissen** of een hele reeks moet resetten. In deze tutorial ziet u hoe **Aspose.Slides for Java** het eenvoudig maakt om programmatisch diagramwaarden te wissen, uw presentaties netjes te houden en te voorkomen dat u diagrammen opnieuw moet opbouwen.
 
-**Wat je leert:**
-- Hoe u PowerPoint-grafieken kunt bewerken met Aspose.Slides voor Java.
-- Stappen om specifieke datapunten in een grafiekreeks efficiënt te wissen.
-- Aanbevolen procedures voor het instellen en optimaliseren van Aspose.Slides in uw Java-omgeving.
+**Wat u zult leren**
+- Hoe PowerPoint‑diagrammen te manipuleren met **Aspose.Slides for Java**.  
+- Stapsgewijze instructies over **hoe diagram**‑gegevenspunten in een reeks te wissen.  
+- Best practices voor het instellen van de bibliotheek en het optimaliseren van de prestaties.
 
-Laten we beginnen met het doornemen van de vereisten voor deze tutorial!
+Laten we beginnen met het controleren van de vereisten.
+
+## Snelle antwoorden
+- **Welke bibliotheek wordt gebruikt?** Aspose.Slides for Java.  
+- **Welke methode wist een gegevenspunt?** Het instellen van de X- en Y-celwaarden op `null`.  
+- **Heb ik een licentie nodig?** Een proefversie werkt voor evaluatie; een commerciële licentie is vereist voor productie.  
+- **Ondersteunde JDK‑versie?** JDK 16 of later.  
+- **Kan ik een enkele reeks targeten?** Ja – itereren alleen over de reeks die u wilt wissen.
+
+## Wat is Aspose.Slides for Java?
+Aspose.Slides for Java is een krachtige API die ontwikkelaars in staat stelt PowerPoint‑bestanden te maken, bewerken en converteren zonder Microsoft Office. Het ondersteunt volledige diagrammanipulatie, inclusief het toevoegen, bijwerken en wissen van gegevenspunten.
+
+## Waarom diagram‑gegevenspunten wissen?
+Wissen van gegevenspunten is nuttig wanneer:
+- Een diagram vernieuwen met een nieuwe dataset terwijl de lay‑out behouden blijft.  
+- Een sjabloon voorbereiden dat wordt geleverd met lege tijdelijke aanduidingen.  
+- Dynamische rapporten bouwen waarbij gegevens vaak veranderen.
 
 ## Vereisten
 
-Voordat we beginnen, zorg ervoor dat u het volgende heeft:
-
 ### Vereiste bibliotheken, versies en afhankelijkheden
-- **Aspose.Slides voor Java**: Versie 25.4 of hoger.
+- **Aspose.Slides for Java**: versie 25.4 of hoger.
 
-### Vereisten voor omgevingsinstellingen
-- Een Java Development Kit (JDK) versie 16 of later op uw computer geïnstalleerd.
+### Omgevingsvereisten
+- Java Development Kit (JDK) 16 of nieuwer.
 
 ### Kennisvereisten
-- Basiskennis van Java-programmering.
-- Kennis van Maven of Gradle voor afhankelijkheidsbeheer.
+- Basis Java‑programmeren.  
+- Bekendheid met Maven of Gradle voor afhankelijkheidsbeheer.
 
-## Aspose.Slides instellen voor Java
+## Aspose.Slides for Java installeren
 
-Om Aspose.Slides voor Java te gaan gebruiken, volgt u deze installatiestappen:
-
-### Maven-installatie
-
-Voeg de volgende afhankelijkheid toe aan uw `pom.xml` bestand:
+### Maven‑installatie
 
 ```xml
 <dependency>
@@ -55,28 +78,24 @@ Voeg de volgende afhankelijkheid toe aan uw `pom.xml` bestand:
 </dependency>
 ```
 
-### Gradle-installatie
-
-Neem dit op in uw `build.gradle` bestand:
+### Gradle‑installatie
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Direct downloaden
+### Directe download
 
-U kunt ook de nieuwste versie downloaden van [Aspose.Slides voor Java-releases](https://releases.aspose.com/slides/java/).
+Download anders de nieuwste versie van [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### Licentieverwerving
+### Licentie‑acquisitie
 
-Om Aspose.Slides buiten de beperkingen van de proefversie te gebruiken:
-- Verkrijg een **gratis proefperiode** licentie om alle functies te verkennen.
-- Solliciteer voor een **tijdelijke licentie** voor evaluatiedoeleinden.
-- Koop een **commerciële licentie** voor langetermijnprojecten.
+Om Aspose.Slides te gebruiken buiten de proefbeperkingen:
+- Verkrijg een **gratis proef**‑licentie.  
+- Vraag een **tijdelijke licentie** aan voor evaluatie.  
+- Koop een **commerciële licentie** voor productiegebruik.
 
-#### Basisinitialisatie en -installatie
-
-Begin met het initialiseren van de `Presentation` klas:
+#### Basisinitialisatie en -instelling
 
 ```java
 import com.aspose.slides.*;
@@ -85,7 +104,7 @@ public class ChartManipulation {
     public static void main(String[] args) {
         Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/TestChart.pptx");
         try {
-            // Uw code hier
+            // Your code here
         } finally {
             if (pres != null) pres.dispose();
         }
@@ -93,38 +112,33 @@ public class ChartManipulation {
 }
 ```
 
-## Implementatiegids
+## Aspose.Slides for Java gebruiken om diagram‑gegevenspunten te wissen
 
-In dit gedeelte leggen we u de stappen uit om specifieke datapunten uit een grafiekreeks te wissen.
-
-### Gegevenspunten uit grafiekreeks wissen
+### Diagramreeks‑gegevenspunten wissen
 
 #### Overzicht
 
-Met deze functie kunt u de X- en Y-waarden van elk datapunt in een specifieke grafiekreeks resetten of wissen. Dit is vooral handig wanneer u grafieken wilt bijwerken met nieuwe datasets zonder ze volledig opnieuw te hoeven maken.
+Deze functie stelt u in staat de X‑ en Y‑waarden van elk gegevenspunt in een gekozen reeks te resetten. Het is de kern van **hoe diagram**‑gegevens te wissen zonder andere reeksen te verstoren.
 
 #### Stapsgewijze implementatie
 
-1. **Laad de presentatie**
-   
-   Begin met het laden van uw PowerPoint-bestand in een Aspose.Slides `Presentation` voorwerp.
+1. **Presentatie laden**  
+   Laad uw PowerPoint‑bestand in een `Presentation`‑object.
 
    ```java
    Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/TestChart.pptx");
    ```
 
-2. **Toegang tot dia en grafiek**
-
-   Haal de eerste dia en de bijbehorende grafiek op:
+2. **Slide en diagram benaderen**  
+   Pak de eerste slide en de eerste vorm (aangenomen dat dit een diagram is).
 
    ```java
    ISlide sl = pres.getSlides().get_Item(0);
    IChart chart = (IChart) sl.getShapes().get_Item(0);
    ```
 
-3. **Herhaal datapunten**
-
-   Loop door elk gegevenspunt in de eerste reeks om de waarden te wissen.
+3. **Itereren over gegevenspunten**  
+   Loop over de gegevenspunten van de eerste reeks en stel hun celwaarden in op `null`.
 
    ```java
    for (IChartDataPoint dataPoint : chart.getChartData().getSeries().get_Item(0).getDataPoints()) {
@@ -133,9 +147,8 @@ Met deze functie kunt u de X- en Y-waarden van elk datapunt in een specifieke gr
    }
    ```
 
-4. **Sla de presentatie op**
-
-   Sla ten slotte uw bijgewerkte presentatie op.
+4. **Presentatie opslaan**  
+   Sla de wijzigingen op in een nieuw bestand.
 
    ```java
    pres.save("YOUR_DOCUMENT_DIRECTORY/UpdatedTestChart.pptx", SaveFormat.Pptx);
@@ -143,67 +156,78 @@ Met deze functie kunt u de X- en Y-waarden van elk datapunt in een specifieke gr
 
 ### Tips voor probleemoplossing
 
-- Zorg ervoor dat de grafiekindex en de reeksindex correct zijn om fouten te voorkomen `IndexOutOfBoundsException`.
-- Controleer de bestandspaden voor het laden en opslaan van presentaties.
+- Controleer of de slide‑index (`0`) en vorm‑index (`0`) daadwerkelijk naar een diagram wijzen; anders krijgt u een `IndexOutOfBoundsException`.  
+- Controleer de bestandspaden voor zowel laden als opslaan; gebruik absolute paden tijdens het testen om verwarring te voorkomen.  
+- Als het diagram meerdere reeksen bevat, pas dan de reeks‑index (`get_Item(0)`) dienovereenkomstig aan.
 
 ## Praktische toepassingen
 
-Het wissen van grafiekgegevenspunten kan in verschillende scenario's worden toegepast:
+Het wissen van diagramgegevenspunten kan worden toegepast in verschillende praktijkscenario's:
 
-1. **Gegevens vernieuwen**: Werk grafieken snel bij met nieuwe datasets.
-2. **Sjabloonvoorbereiding**: Bereid sjablonen voor door tijdelijke aanduidingen te verwijderen.
-3. **Dynamische rapportage**: Implementeer dynamische updates in rapportagehulpmiddelen of dashboards.
-4. **Integratie met gegevensbronnen**: Verbind en synchroniseer presentaties met live databases voor realtime analyses.
+1. **Gegevensverversing** – Vervang oude gegevens door een nieuwe dataset zonder de diagramlay‑out opnieuw te maken.  
+2. **Sjabloonvoorbereiding** – Lever PowerPoint‑sjablonen die lege diagrammen bevatten, klaar voor invoer door de gebruiker.  
+3. **Dynamisch rapporteren** – Integreer met live gegevensbronnen (databases, API's) om direct actuele presentaties te genereren.  
+4. **Geautomatiseerde dashboards** – Bouw geplande taken die diagrammen 's nachts bijwerken, eerst de vorige waarden wissen.
 
-## Prestatieoverwegingen
+## Prestatie‑overwegingen
 
-Om de prestaties van Aspose.Slides te optimaliseren:
-- Beheer het geheugengebruik efficiënt door het weg te gooien `Presentation` voorwerpen na gebruik.
-- Gebruik batchverwerking voor grote datasets om de overhead te verminderen.
-- Houd de JVM-heapinstellingen in de gaten om geheugentekorten te voorkomen tijdens intensieve bewerkingen.
+- **Objecten vrijgeven**: Roep altijd `pres.dispose()` aan om native bronnen vrij te maken.  
+- **Batchverwerking**: Bij het verwerken van veel presentaties, hergebruik één `License`‑instantie en verwerk bestanden opeenvolgend om overhead te verminderen.  
+- **JVM‑afstemming**: Pas de heap‑grootte (`-Xmx`) aan als u met zeer grote PPTX‑bestanden werkt.
 
 ## Conclusie
 
-In deze tutorial hebben we uitgelegd hoe je datapunten uit diagramreeksen in PowerPoint kunt wissen met Aspose.Slides voor Java. Door deze stappen te volgen, kun je je diagrammen efficiënt bijwerken en beheren, zodat ze de meest accurate informatie weergeven.
+In deze gids hebben we **hoe diagram**‑gegevenspunten gewist met **Aspose.Slides for Java** gedemonstreerd. Door de bovenstaande stappen te volgen kunt u programmatisch diagramreeksen resetten, uw presentaties schoon houden en diagramupdates integreren in elke Java‑gebaseerde rapportage‑pipeline.
 
-**Volgende stappen:**
-- Experimenteer met andere functies voor het manipuleren van grafieken.
-- Bekijk de uitgebreide documentatie van Aspose.Slides om meer functionaliteiten te ontdekken.
+**Volgende stappen**
+- Experimenteer met het toevoegen van nieuwe gegevenspunten na het wissen van de oude.  
+- Ontdek andere diagram‑manipulatiefuncties, zoals het wijzigen van diagramtypen of het opmaken van reeksen.  
+- Bekijk de volledige Aspose.Slides API‑documentatie voor diepere inzichten.
 
-Klaar om deze oplossing in uw projecten te implementeren? Probeer het vandaag nog!
+## FAQ‑sectie
 
-## FAQ-sectie
+1. **Hoe installeer ik Aspose.Slides for Java met Maven?**  
+   Voeg het bovenstaande afhankelijkheidsfragment toe aan uw `pom.xml`.
 
-1. **Hoe installeer ik Aspose.Slides voor Java met Maven?**
-   
-   Voeg het hierboven verstrekte afhankelijkheidsfragment toe aan uw `pom.xml`.
+2. **Wat als ik een `IndexOutOfBoundsException` krijg bij het benaderen van slides of diagrammen?**  
+   Controleer of de slide‑ en diagram‑indexen die u gebruikt daadwerkelijk bestaan in de presentatie.
 
-2. **Wat als ik een `IndexOutOfBoundsException` bij het openen van dia's of grafieken?**
-   
-   Controleer nogmaals of de dia- en diagramindexen waarnaar u verwijst, in uw presentatie aanwezig zijn.
+3. **Kan Aspose.Slides grote presentaties efficiënt verwerken?**  
+   Ja, door het geheugenbeheer (objecten vrijgeven) en het afstemmen van JVM‑heapinstellingen.
 
-3. **Kan Aspose.Slides grote presentaties efficiënt verwerken?**
-   
-   Ja, door het geheugengebruik effectief te beheren en de JVM-instellingen te optimaliseren.
+4. **Is het mogelijk om gegevenspunten te wissen zonder andere reeksen te beïnvloeden?**  
+   Absoluut – richt u op de specifieke reeks‑index die u wilt wissen, zoals getoond in de lus.
 
-4. **Is het mogelijk om datapunten te wissen zonder dat dit andere reeksen beïnvloedt?**
-   
-   Ja, u kunt specifieke series en hun datapunten selecteren, zoals in de tutorial wordt gedemonstreerd.
+5. **Hoe integreer ik deze oplossing met een live database?**  
+   Gebruik standaard JDBC of een moderne ORM om gegevens op te halen, en pas vervolgens dezelfde wislogica toe voordat u nieuwe punten invoegt.
 
-5. **Hoe integreer ik deze oplossing met een live database?**
-   
-   Gebruik de API van Aspose.Slides samen met uw favoriete Java-databaseconnectiviteitsbibliotheken om dynamisch grafiekgegevens op te halen en bij te werken.
+## Veelgestelde vragen
 
-## Bronnen
+**V: Heb ik een licentie nodig voor ontwikkel‑builds?**  
+Ant: Een gratis proeflicentie is voldoende voor ontwikkeling en testen. Een commerciële licentie is vereist voor productie‑implementaties.
 
-- [Aspose.Slides-documentatie](https://reference.aspose.com/slides/java/)
-- [Download Aspose.Slides voor Java](https://releases.aspose.com/slides/java/)
-- [Koop een licentie](https://purchase.aspose.com/buy)
+**V: Ondersteunt Aspose.Slides for Java PowerPoint 2016/2019‑functies?**  
+Ant: Ja, de bibliotheek is volledig compatibel met moderne PPTX‑formaten en ondersteunt geavanceerde diagramtypen.
+
+**V: Kan ik gegevenspunten wissen in een diagram dat een secundaire as gebruikt?**  
+Ant: Dezelfde aanpak werkt; zorg er alleen voor dat u de juiste reeks verwijst die tot de secundaire as behoort.
+
+**V: Is er een manier om alleen de Y‑waarden te wissen terwijl X‑labels behouden blijven?**  
+Ant: Stel `dataPoint.getYValue().getAsCell().setValue(null)` in terwijl u de X‑cel onaangeroerd laat.
+
+**V: Hoe kan ik dit proces automatiseren voor meerdere presentaties?**  
+Ant: Plaats de code in een lus die over een map met PPTX‑bestanden itereren, en pas dezelfde wis‑en‑opsla‑logica toe op elk bestand.
+
+## Resources
+
+- [Aspose.Slides‑documentatie](https://reference.aspose.com/slides/java/)
+- [Download Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
+- [Een licentie kopen](https://purchase.aspose.com/buy)
 - [Gratis proefversie](https://releases.aspose.com/slides/java/)
 - [Aanvraag tijdelijke licentie](https://purchase.aspose.com/temporary-license/)
-- [Aspose Community Forum](https://forum.aspose.com/c/slides/11)
+- [Aspose‑community‑forum](https://forum.aspose.com/c/slides/11)
 
-Met deze hulpmiddelen bent u goed toegerust om Aspose.Slides voor Java in uw projecten te gebruiken. Veel plezier met coderen!
+Met deze bronnen bent u klaar om diagramgegevenspunten te wissen in uw Java‑toepassingen. Veel programmeerplezier!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -212,3 +236,9 @@ Met deze hulpmiddelen bent u goed toegerust om Aspose.Slides voor Java in uw pro
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Laatst bijgewerkt:** 2026-02-27  
+**Getest met:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Auteur:** Aspose

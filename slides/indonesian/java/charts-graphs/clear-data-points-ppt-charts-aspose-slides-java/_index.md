@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-17"
-"description": "Pelajari cara menggunakan Aspose.Slides untuk Java untuk menghapus titik data tertentu dari rangkaian diagram dalam presentasi PowerPoint secara efisien. Panduan ini mencakup penyiapan, penerapan, dan praktik terbaik."
-"title": "Cara Menghapus Titik Data dalam Bagan PowerPoint Menggunakan Aspose.Slides untuk Java&#58; Panduan Lengkap"
-"url": "/id/java/charts-graphs/clear-data-points-ppt-charts-aspose-slides-java/"
-"weight": 1
+date: '2026-02-27'
+description: Pelajari cara menggunakan Aspose.Slides for Java untuk menghapus titik
+  data grafik tertentu. Tutorial langkah demi langkah ini menunjukkan cara menghapus
+  data grafik, praktik terbaik, dan cara menghapus seri grafik secara efisien.
+keywords:
+- clear data points PowerPoint charts
+- manipulate chart series Aspose.Slides Java
+- reset data points PowerPoint using Java
+title: 'Cara Menghapus Titik Data pada Diagram PowerPoint Menggunakan Aspose.Slides
+  untuk Java: Panduan Komprehensif'
+url: /id/java/charts-graphs/clear-data-points-ppt-charts-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,40 +18,50 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Cara Menghapus Titik Data dalam Bagan PowerPoint Menggunakan Aspose.Slides untuk Java
+# Cara Menghapus Titik Data pada Diagram PowerPoint Menggunakan Aspose.Slides for Java
 
-## Perkenalan
+## Pendahuluan
 
-Mengelola data bagan di PowerPoint bisa jadi sulit, terutama saat memperbarui atau mengatur ulang titik data tertentu. Tutorial ini menawarkan panduan terperinci tentang penggunaan Aspose.Slides untuk Java guna menghapus titik data tertentu dari rangkaian bagan dalam presentasi PowerPoint. Dengan mengikuti panduan ini, Anda akan mempertahankan bagan yang bersih dan akurat dengan mudah.
+Mengelola data diagram di PowerPoint dapat menjadi tantangan, terutama ketika Anda perlu **menghapus titik data tertentu** atau mengatur ulang seluruh seri. Dalam tutorial ini Anda akan melihat bagaimana **Aspose.Slides for Java** memudahkan penghapusan nilai diagram secara programatis, menjaga presentasi tetap rapi, dan menghindari pembuatan ulang diagram dari awal.
 
-**Apa yang Akan Anda Pelajari:**
-- Cara memanipulasi bagan PowerPoint dengan Aspose.Slides untuk Java.
-- Langkah-langkah untuk menghapus titik data tertentu dalam rangkaian bagan secara efisien.
-- Praktik terbaik untuk menyiapkan dan mengoptimalkan Aspose.Slides di lingkungan Java Anda.
+**Apa yang Akan Anda Pelajari**
+- Cara memanipulasi diagram PowerPoint dengan **Aspose.Slides for Java**.  
+- Instruksi langkah‑demi‑langkah tentang **cara menghapus** titik data pada sebuah seri diagram.  
+- Praktik terbaik untuk menyiapkan pustaka dan mengoptimalkan kinerja.
 
-Mari kita mulai dengan meninjau prasyarat yang diperlukan untuk tutorial ini!
+Mari kita mulai dengan memeriksa prasyarat.
+
+## Jawaban Cepat
+- **Pustaka apa yang digunakan?** Aspose.Slides for Java.  
+- **Metode apa yang menghapus titik data?** Menetapkan nilai sel X dan Y menjadi `null`.  
+- **Apakah saya memerlukan lisensi?** Versi percobaan dapat digunakan untuk evaluasi; lisensi komersial diperlukan untuk produksi.  
+- **Versi JDK yang didukung?** JDK 16 atau lebih baru.  
+- **Bisakah saya menargetkan satu seri saja?** Ya – iterasi hanya pada seri yang ingin Anda hapus.
+
+## Apa itu Aspose.Slides for Java?
+Aspose.Slides for Java adalah API kuat yang memungkinkan pengembang membuat, mengedit, dan mengonversi file PowerPoint tanpa Microsoft Office. API ini mendukung manipulasi diagram secara lengkap, termasuk menambah, memperbarui, dan menghapus titik data.
+
+## Mengapa Menghapus Titik Data Diagram?
+Menghapus titik data berguna ketika:
+- Memperbarui diagram dengan dataset baru sambil mempertahankan tata letak yang sama.  
+- Menyiapkan templat yang berisi placeholder kosong.  
+- Membuat laporan dinamis di mana data sering berubah.
 
 ## Prasyarat
 
-Sebelum kita mulai, pastikan Anda memiliki:
+### Pustaka, Versi, dan Dependensi yang Diperlukan
+- **Aspose.Slides for Java**: versi 25.4 atau lebih tinggi.
 
-### Pustaka, Versi, dan Ketergantungan yang Diperlukan
-- **Aspose.Slides untuk Java**: Versi 25.4 atau lebih tinggi.
+### Persyaratan Penyiapan Lingkungan
+- Java Development Kit (JDK) 16 atau yang lebih baru.
 
-### Persyaratan Pengaturan Lingkungan
-- Java Development Kit (JDK) versi 16 atau yang lebih baru terinstal di komputer Anda.
+### Pengetahuan yang Diperlukan
+- Pemrograman Java dasar.  
+- Familiaritas dengan Maven atau Gradle untuk manajemen dependensi.
 
-### Prasyarat Pengetahuan
-- Pemahaman dasar tentang pemrograman Java.
-- Kemampuan menggunakan Maven atau Gradle untuk manajemen ketergantungan.
-
-## Menyiapkan Aspose.Slides untuk Java
-
-Untuk mulai menggunakan Aspose.Slides untuk Java, ikuti langkah-langkah pengaturan berikut:
+## Menyiapkan Aspose.Slides for Java
 
 ### Instalasi Maven
-
-Tambahkan dependensi berikut ke `pom.xml` mengajukan:
 
 ```xml
 <dependency>
@@ -57,26 +74,22 @@ Tambahkan dependensi berikut ke `pom.xml` mengajukan:
 
 ### Instalasi Gradle
 
-Sertakan ini di dalam `build.gradle` mengajukan:
-
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Unduh Langsung
+### Unduhan Langsung
 
-Atau, unduh versi terbaru dari [Aspose.Slides untuk rilis Java](https://releases.aspose.com/slides/java/).
+Atau, unduh versi terbaru dari [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 ### Akuisisi Lisensi
 
-Untuk menggunakan Aspose.Slides melampaui batasan uji cobanya:
-- Mendapatkan **uji coba gratis** lisensi untuk menjelajahi fitur lengkap.
-- Ajukan lamaran **lisensi sementara** untuk tujuan evaluasi.
-- Membeli **lisensi komersial** untuk proyek jangka panjang.
+Untuk menggunakan Aspose.Slides melampaui batasan percobaan:
+- Dapatkan lisensi **percobaan gratis**.  
+- Ajukan **lisensi sementara** untuk evaluasi.  
+- Beli **lisensi komersial** untuk penggunaan produksi.
 
-#### Inisialisasi dan Pengaturan Dasar
-
-Mulailah dengan menginisialisasi `Presentation` kelas:
+#### Inisialisasi Dasar dan Penyiapan
 
 ```java
 import com.aspose.slides.*;
@@ -85,7 +98,7 @@ public class ChartManipulation {
     public static void main(String[] args) {
         Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/TestChart.pptx");
         try {
-            // Kode Anda di sini
+            // Your code here
         } finally {
             if (pres != null) pres.dispose();
         }
@@ -93,38 +106,33 @@ public class ChartManipulation {
 }
 ```
 
-## Panduan Implementasi
+## Menggunakan Aspose.Slides for Java untuk Menghapus Titik Data Diagram
 
-Di bagian ini, kita akan membahas langkah-langkah untuk menghapus titik data tertentu dari rangkaian bagan.
+### Menghapus Titik Data Seri Diagram
 
-### Hapus Titik Data Seri Bagan
+#### Gambaran Umum
 
-#### Ringkasan
+Fitur ini memungkinkan Anda mengatur ulang nilai X dan Y setiap titik data dalam seri yang dipilih. Ini merupakan inti dari **cara menghapus diagram** tanpa mengganggu seri lain.
 
-Fitur ini memungkinkan Anda untuk mengatur ulang atau menghapus nilai X dan Y dari setiap titik data dalam rangkaian grafik tertentu. Fitur ini sangat berguna saat memperbarui grafik dengan kumpulan data baru tanpa membuatnya ulang sepenuhnya.
+#### Implementasi Langkah‑demi‑Langkah
 
-#### Implementasi Langkah demi Langkah
-
-1. **Muat Presentasi**
-   
-   Mulailah dengan memuat file PowerPoint Anda ke Aspose.Slides `Presentation` obyek.
+1. **Muat Presentasi**  
+   Muat file PowerPoint Anda ke dalam objek `Presentation`.
 
    ```java
    Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/TestChart.pptx");
    ```
 
-2. **Akses Slide dan Bagan**
-
-   Ambil slide pertama dan bagannya:
+2. **Akses Slide dan Diagram**  
+   Ambil slide pertama dan shape pertama (diasumsikan merupakan diagram).
 
    ```java
    ISlide sl = pres.getSlides().get_Item(0);
    IChart chart = (IChart) sl.getShapes().get_Item(0);
    ```
 
-3. **Beriterasi Melalui Titik Data**
-
-   Ulangi setiap titik data pada seri pertama untuk menghapus nilainya.
+3. **Iterasi Melalui Titik Data**  
+   Loop melalui titik data pada seri pertama dan set nilai sel mereka menjadi `null`.
 
    ```java
    for (IChartDataPoint dataPoint : chart.getChartData().getSeries().get_Item(0).getDataPoints()) {
@@ -133,9 +141,8 @@ Fitur ini memungkinkan Anda untuk mengatur ulang atau menghapus nilai X dan Y da
    }
    ```
 
-4. **Simpan Presentasi**
-
-   Terakhir, simpan presentasi Anda yang telah diperbarui.
+4. **Simpan Presentasi**  
+   Simpan perubahan ke file baru.
 
    ```java
    pres.save("YOUR_DOCUMENT_DIRECTORY/UpdatedTestChart.pptx", SaveFormat.Pptx);
@@ -143,67 +150,78 @@ Fitur ini memungkinkan Anda untuk mengatur ulang atau menghapus nilai X dan Y da
 
 ### Tips Pemecahan Masalah
 
-- Pastikan indeks grafik dan indeks seri sudah benar untuk menghindari `IndexOutOfBoundsException`.
-- Verifikasi jalur berkas untuk memuat dan menyimpan presentasi.
+- Pastikan indeks slide (`0`) dan indeks shape (`0`) memang mengarah ke diagram; jika tidak, Anda akan mendapatkan `IndexOutOfBoundsException`.  
+- Periksa kembali jalur file untuk proses memuat dan menyimpan; gunakan jalur absolut selama pengujian untuk menghindari kebingungan.  
+- Jika diagram berisi beberapa seri, sesuaikan indeks seri (`get_Item(0)`) sesuai kebutuhan.
 
 ## Aplikasi Praktis
 
-Pembersihan titik data grafik dapat diterapkan dalam berbagai skenario:
+Menghapus titik data diagram dapat diterapkan dalam berbagai skenario dunia nyata:
 
-1. **Penyegaran Data**: Perbarui bagan dengan cepat dengan kumpulan data baru.
-2. **Persiapan Template**: Siapkan templat dengan menghapus data pengganti.
-3. **Pelaporan Dinamis**: Terapkan pembaruan dinamis dalam alat pelaporan atau dasbor.
-4. **Integrasi dengan Sumber Data**: Hubungkan dan sinkronkan presentasi dengan basis data langsung untuk analisis waktu nyata.
+1. **Pembaruan Data** – Ganti data lama dengan dataset baru tanpa membuat ulang tata letak diagram.  
+2. **Persiapan Templat** – Kirim templat PowerPoint yang berisi diagram kosong siap diisi pengguna.  
+3. **Pelaporan Dinamis** – Integrasikan dengan sumber data langsung (basis data, API) untuk menghasilkan presentasi terkini secara otomatis.  
+4. **Dashboard Otomatis** – Bangun pekerjaan terjadwal yang memperbarui diagram setiap malam, menghapus nilai sebelumnya terlebih dahulu.
 
 ## Pertimbangan Kinerja
 
-Untuk mengoptimalkan kinerja Aspose.Slides:
-- Kelola penggunaan memori secara efisien dengan membuang `Presentation` benda setelah digunakan.
-- Memanfaatkan pemrosesan batch untuk kumpulan data besar guna mengurangi overhead.
-- Pantau pengaturan tumpukan JVM untuk mencegah kesalahan kehabisan memori selama operasi intensif.
+- **Dispose objek**: Selalu panggil `pres.dispose()` untuk membebaskan sumber daya native.  
+- **Pemrosesan batch**: Saat menangani banyak presentasi, gunakan satu instance `License` dan proses file secara berurutan untuk mengurangi beban.  
+- **Penyesuaian JVM**: Atur ukuran heap (`-Xmx`) jika Anda bekerja dengan file PPTX yang sangat besar.
 
 ## Kesimpulan
 
-Dalam tutorial ini, kami mempelajari cara menghapus titik data rangkaian bagan di PowerPoint menggunakan Aspose.Slides untuk Java. Dengan mengikuti langkah-langkah ini, Anda dapat memperbarui dan mengelola bagan secara efisien, memastikan bagan tersebut mencerminkan informasi yang paling akurat.
+Dalam panduan ini kami menunjukkan **cara menghapus diagram** titik data menggunakan **Aspose.Slides for Java**. Dengan mengikuti langkah‑langkah di atas Anda dapat mengatur ulang seri diagram secara programatis, menjaga presentasi tetap bersih, dan mengintegrasikan pembaruan diagram ke dalam pipeline pelaporan berbasis Java mana pun.
 
-**Langkah Berikutnya:**
-- Bereksperimenlah dengan fitur manipulasi grafik lainnya.
-- Jelajahi dokumentasi Aspose.Slides yang luas untuk menemukan lebih banyak fungsi.
-
-Siap menerapkan solusi ini dalam proyek Anda? Cobalah hari ini!
+**Langkah Selanjutnya**
+- Bereksperimen menambahkan titik data baru setelah menghapus yang lama.  
+- Jelajahi fitur manipulasi diagram lain seperti mengubah tipe diagram atau memformat seri.  
+- Tinjau dokumentasi lengkap API Aspose.Slides untuk wawasan lebih mendalam.
 
 ## Bagian FAQ
 
-1. **Bagaimana cara menginstal Aspose.Slides untuk Java menggunakan Maven?**
-   
-   Tambahkan cuplikan dependensi yang disediakan di atas ke `pom.xml`.
+1. **Bagaimana cara menginstal Aspose.Slides for Java menggunakan Maven?**  
+   Tambahkan cuplikan dependensi yang disediakan di atas ke dalam `pom.xml` Anda.
 
-2. **Bagaimana jika saya menemui `IndexOutOfBoundsException` saat mengakses slide atau bagan?**
-   
-   Periksa kembali apakah indeks slide dan bagan yang Anda referensikan ada dalam presentasi Anda.
+2. **Bagaimana jika saya menemukan `IndexOutOfBoundsException` saat mengakses slide atau diagram?**  
+   Periksa kembali bahwa indeks slide dan diagram yang Anda referensikan memang ada dalam presentasi.
 
-3. **Bisakah Aspose.Slides menangani presentasi besar secara efisien?**
-   
-   Ya, dengan mengelola penggunaan memori secara efektif dan mengoptimalkan pengaturan JVM.
+3. **Apakah Aspose.Slides dapat menangani presentasi besar secara efisien?**  
+   Ya, dengan mengelola penggunaan memori (dispose objek) dan menyesuaikan pengaturan heap JVM.
 
-4. **Apakah mungkin untuk menghapus titik data tanpa memengaruhi seri lainnya?**
-   
-   Ya, targetkan seri tertentu dan titik datanya seperti yang ditunjukkan dalam tutorial.
+4. **Apakah memungkinkan menghapus titik data tanpa memengaruhi seri lain?**  
+   Tentu – targetkan indeks seri spesifik yang ingin Anda hapus, seperti yang ditunjukkan pada loop.
 
-5. **Bagaimana cara mengintegrasikan solusi ini dengan basis data langsung?**
-   
-   Gunakan API Aspose.Slides bersama pustaka konektivitas basis data Java pilihan Anda untuk mengambil dan memperbarui data bagan secara dinamis.
+5. **Bagaimana cara mengintegrasikan solusi ini dengan basis data langsung?**  
+   Gunakan JDBC standar atau ORM modern untuk mengambil data, lalu terapkan logika penghapusan yang sama sebelum menyisipkan titik baru.
 
-## Sumber daya
+## Pertanyaan yang Sering Diajukan
 
-- [Dokumentasi Aspose.Slides](https://reference.aspose.com/slides/java/)
-- [Unduh Aspose.Slides untuk Java](https://releases.aspose.com/slides/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Versi Uji Coba Gratis](https://releases.aspose.com/slides/java/)
-- [Aplikasi Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Komunitas Aspose](https://forum.aspose.com/c/slides/11)
+**T: Apakah saya memerlukan lisensi untuk build pengembangan?**  
+J: Lisensi percobaan gratis cukup untuk pengembangan dan pengujian. Lisensi komersial diperlukan untuk penyebaran produksi.
 
-Dengan sumber daya ini, Anda siap untuk mulai memanfaatkan Aspose.Slides for Java dalam proyek Anda. Selamat membuat kode!
+**T: Apakah Aspose.Slides for Java mendukung fitur PowerPoint 2016/2019?**  
+J: Ya, pustaka ini sepenuhnya kompatibel dengan format PPTX modern dan mendukung tipe diagram lanjutan.
+
+**T: Bisakah saya menghapus titik data pada diagram yang menggunakan sumbu sekunder?**  
+J: Pendekatan yang sama berlaku; pastikan Anda merujuk ke seri yang tepat yang berada pada sumbu sekunder.
+
+**T: Apakah ada cara menghapus hanya nilai Y sambil mempertahankan label X?**  
+J: Set `dataPoint.getYValue().getAsCell().setValue(null)` sementara membiarkan sel X tidak diubah.
+
+**T: Bagaimana saya dapat mengotomatisasi proses ini untuk banyak presentasi?**  
+J: Bungkus kode dalam loop yang iterasi melalui direktori berisi file PPTX, menerapkan logika hapus‑dan‑simpan yang sama pada tiap file.
+
+## Sumber Daya
+
+- [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
+- [Download Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
+- [Purchase a License](https://purchase.aspose.com/buy)
+- [Free Trial Version](https://releases.aspose.com/slides/java/)
+- [Temporary License Application](https://purchase.aspose.com/temporary-license/)
+- [Aspose Community Forum](https://forum.aspose.com/c/slides/11)
+
+Dengan sumber daya ini Anda siap mulai menghapus titik data diagram dalam aplikasi Java Anda. Selamat coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -212,3 +230,9 @@ Dengan sumber daya ini, Anda siap untuk mulai memanfaatkan Aspose.Slides for Jav
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Terakhir Diperbarui:** 2026-02-27  
+**Diuji Dengan:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Penulis:** Aspose

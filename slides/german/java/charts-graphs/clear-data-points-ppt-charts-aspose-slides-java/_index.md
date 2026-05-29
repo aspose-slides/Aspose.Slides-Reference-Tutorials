@@ -1,50 +1,77 @@
 ---
-"date": "2025-04-17"
-"description": "Erfahren Sie, wie Sie mit Aspose.Slides für Java bestimmte Datenpunkte aus Diagrammreihen in PowerPoint-Präsentationen effizient löschen. Diese Anleitung behandelt Einrichtung, Implementierung und Best Practices."
-"title": "So löschen Sie Datenpunkte in PowerPoint-Diagrammen mit Aspose.Slides für Java – Eine umfassende Anleitung"
-"url": "/de/java/charts-graphs/clear-data-points-ppt-charts-aspose-slides-java/"
-"weight": 1
+date: '2026-02-27'
+description: Erfahren Sie, wie Sie Aspose.Slides für Java verwenden, um bestimmte
+  Diagrammdatenpunkte zu löschen. Dieses Schritt‑für‑Schritt‑Tutorial zeigt, wie man
+  Diagrammdaten löscht, bewährte Methoden und wie man Diagrammserien effizient löscht.
+keywords:
+- clear data points PowerPoint charts
+- manipulate chart series Aspose.Slides Java
+- reset data points PowerPoint using Java
+title: 'Wie man Datenpunkte in PowerPoint‑Diagrammen mit Aspose.Slides für Java löscht:
+  Ein umfassender Leitfaden'
+url: /de/java/charts-graphs/clear-data-points-ppt-charts-aspose-slides-java/
+weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ Points in PowerPoint Charts Using Aspose.Slides for Java" => "Wie man Datenpunkte in PowerPoint-Diagrammen mit Aspose.Slides für Java löscht"
+
+- Introduction etc.
+
+We must translate bullet points, sentences.
+
+Also translate "Quick Answers" etc.
+
+Make sure to keep code block placeholders unchanged.
+
+Let's produce final output.{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# So löschen Sie Datenpunkte in PowerPoint-Diagrammen mit Aspose.Slides für Java
+# Wie man Datenpunkte in PowerPoint-Diagrammen mit Aspose.Slides für Java löscht
 
 ## Einführung
 
-Die Verwaltung von Diagrammdaten in PowerPoint kann eine Herausforderung sein, insbesondere beim Aktualisieren oder Zurücksetzen bestimmter Datenpunkte. Dieses Tutorial bietet eine detaillierte Anleitung zur Verwendung von Aspose.Slides für Java zum Löschen bestimmter Datenpunkte aus einer Diagrammreihe innerhalb einer PowerPoint-Präsentation. Mit dieser Anleitung erhalten Sie mühelos saubere und präzise Diagramme.
+Die Verwaltung von Diagrammdaten in PowerPoint kann herausfordernd sein, insbesondere wenn Sie **bestimmte Datenpunkte löschen** oder eine gesamte Serie zurücksetzen müssen. In diesem Tutorial sehen Sie, wie **Aspose.Slides für Java** das programmgesteuerte Löschen von Diagrammwerten einfach macht, Ihre Präsentationen aufgeräumt hält und das Neuaufbauen von Diagrammen von Grund auf vermeidet.
 
-**Was Sie lernen werden:**
-- So bearbeiten Sie PowerPoint-Diagramme mit Aspose.Slides für Java.
-- Schritte zum effizienten Löschen bestimmter Datenpunkte in einer Diagrammreihe.
-- Best Practices zum Einrichten und Optimieren von Aspose.Slides in Ihrer Java-Umgebung.
+**Was Sie lernen werden**
+- Wie man PowerPoint‑Diagramme mit **Aspose.Slides für Java** manipuliert.  
+- Schritt‑für‑Schritt‑Anleitungen zum **Löschen von Diagramm**‑Datenpunkten in einer Serie.  
+- Best Practices für die Einrichtung der Bibliothek und die Optimierung der Leistung.
 
-Beginnen wir mit der Überprüfung der für dieses Tutorial erforderlichen Voraussetzungen!
+Lassen Sie uns beginnen, indem wir die Voraussetzungen prüfen.
+
+## Schnellantworten
+- **Welche Bibliothek wird verwendet?** Aspose.Slides für Java.  
+- **Welche Methode löscht einen Datenpunkt?** Setzen der X‑ und Y‑Zellwerte auf `null`.  
+- **Benötige ich eine Lizenz?** Eine Testversion reicht für die Evaluierung; für die Produktion ist eine kommerzielle Lizenz erforderlich.  
+- **Unterstützte JDK‑Version?** JDK 16 oder höher.  
+- **Kann ich eine einzelne Serie anvisieren?** Ja – iterieren Sie nur über die Serie, die Sie löschen möchten.
+
+## Was ist Aspose.Slides für Java?
+Aspose.Slides für Java ist eine leistungsstarke API, die Entwicklern das Erstellen, Bearbeiten und Konvertieren von PowerPoint‑Dateien ohne Microsoft Office ermöglicht. Sie unterstützt die vollständige Diagrammbearbeitung, einschließlich Hinzufügen, Aktualisieren und Löschen von Datenpunkten.
+
+## Warum Diagrammdatenpunkte löschen?
+Das Löschen von Datenpunkten ist nützlich, wenn:
+- Ein Diagramm mit einem neuen Datensatz aktualisiert werden soll, während das Layout gleich bleibt.  
+- Eine Vorlage bereitgestellt wird, die leere Platzhalter enthält.  
+- Dynamische Berichte erstellt werden, bei denen sich die Daten häufig ändern.
 
 ## Voraussetzungen
-
-Bevor wir beginnen, stellen Sie sicher, dass Sie Folgendes haben:
 
 ### Erforderliche Bibliotheken, Versionen und Abhängigkeiten
 - **Aspose.Slides für Java**: Version 25.4 oder höher.
 
-### Anforderungen für die Umgebungseinrichtung
-- Auf Ihrem Computer ist ein Java Development Kit (JDK) Version 16 oder höher installiert.
+### Anforderungen an die Umgebung
+- Java Development Kit (JDK) 16 oder neuer.
 
-### Voraussetzungen
-- Grundlegende Kenntnisse der Java-Programmierung.
-- Vertrautheit mit Maven oder Gradle für die Abhängigkeitsverwaltung.
+### Vorwissen
+- Grundkenntnisse in Java.  
+- Vertrautheit mit Maven oder Gradle für das Abhängigkeitsmanagement.
 
-## Einrichten von Aspose.Slides für Java
+## Einrichtung von Aspose.Slides für Java
 
-Um Aspose.Slides für Java zu verwenden, befolgen Sie diese Einrichtungsschritte:
-
-### Maven-Installation
-
-Fügen Sie die folgende Abhängigkeit zu Ihrem `pom.xml` Datei:
+### Maven‑Installation
 
 ```xml
 <dependency>
@@ -55,9 +82,7 @@ Fügen Sie die folgende Abhängigkeit zu Ihrem `pom.xml` Datei:
 </dependency>
 ```
 
-### Gradle-Installation
-
-Nehmen Sie dies in Ihre `build.gradle` Datei:
+### Gradle‑Installation
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
@@ -65,18 +90,16 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 
 ### Direkter Download
 
-Alternativ können Sie die neueste Version von [Aspose.Slides für Java-Versionen](https://releases.aspose.com/slides/java/).
+Alternativ können Sie die neueste Version von [Aspose.Slides für Java releases](https://releases.aspose.com/slides/java/) herunterladen.
 
-### Lizenzerwerb
+### Lizenzbeschaffung
 
-So verwenden Sie Aspose.Slides über die Testbeschränkungen hinaus:
-- Erhalten Sie eine **kostenlose Testversion** Lizenz zum Erkunden aller Funktionen.
-- Bewerben Sie sich für eine **vorläufige Lizenz** zu Auswertungszwecken.
-- Kaufen Sie ein **kommerzielle Lizenz** für langfristige Projekte.
+Um Aspose.Slides über die Beschränkungen der Testversion hinaus zu nutzen:
+- Eine **kostenlose Testlizenz** erhalten.  
+- Eine **temporäre Lizenz** für die Evaluierung beantragen.  
+- Eine **kommerzielle Lizenz** für den Produktionseinsatz erwerben.
 
 #### Grundlegende Initialisierung und Einrichtung
-
-Beginnen Sie mit der Initialisierung des `Presentation` Klasse:
 
 ```java
 import com.aspose.slides.*;
@@ -85,7 +108,7 @@ public class ChartManipulation {
     public static void main(String[] args) {
         Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/TestChart.pptx");
         try {
-            // Ihr Code hier
+            // Your code here
         } finally {
             if (pres != null) pres.dispose();
         }
@@ -93,38 +116,33 @@ public class ChartManipulation {
 }
 ```
 
-## Implementierungshandbuch
+## Verwendung von Aspose.Slides für Java zum Löschen von Diagrammdatenpunkten
 
-In diesem Abschnitt führen wir Sie durch die Schritte zum Löschen bestimmter Datenpunkte aus einer Diagrammreihe.
-
-### Datenpunkte der Diagrammreihe löschen
+### Löschen von Datenpunkten einer Diagrammserie
 
 #### Überblick
 
-Mit dieser Funktion können Sie die X- und Y-Werte jedes Datenpunkts in einer bestimmten Diagrammreihe zurücksetzen oder löschen. Dies ist besonders nützlich, wenn Sie Diagramme mit neuen Datensätzen aktualisieren, ohne sie vollständig neu erstellen zu müssen.
+Diese Funktion ermöglicht das Zurücksetzen der X‑ und Y‑Werte jedes Datenpunkts in einer ausgewählten Serie. Sie ist das Kernstück dafür, **wie man Diagrammdaten** löscht, ohne andere Serien zu beeinträchtigen.
 
-#### Schrittweise Implementierung
+#### Schritt‑für‑Schritt‑Implementierung
 
-1. **Laden Sie die Präsentation**
-   
-   Beginnen Sie mit dem Laden Ihrer PowerPoint-Datei in eine Aspose.Slides `Presentation` Objekt.
+1. **Präsentation laden**  
+   Laden Sie Ihre PowerPoint‑Datei in ein `Presentation`‑Objekt.
 
    ```java
    Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/TestChart.pptx");
    ```
 
-2. **Zugriff auf Folie und Diagramm**
-
-   Rufen Sie die erste Folie und ihr Diagramm ab:
+2. **Folien‑ und Diagrammzugsriff**  
+   Greifen Sie auf die erste Folie und das erste Shape (angenommen, es ist ein Diagramm) zu.
 
    ```java
    ISlide sl = pres.getSlides().get_Item(0);
    IChart chart = (IChart) sl.getShapes().get_Item(0);
    ```
 
-3. **Durch Datenpunkte iterieren**
-
-   Durchlaufen Sie jeden Datenpunkt in der ersten Reihe, um deren Werte zu löschen.
+3. **Durch Datenpunkte iterieren**  
+   Durchlaufen Sie die Datenpunkte der ersten Serie und setzen Sie deren Zellwerte auf `null`.
 
    ```java
    for (IChartDataPoint dataPoint : chart.getChartData().getSeries().get_Item(0).getDataPoints()) {
@@ -133,77 +151,87 @@ Mit dieser Funktion können Sie die X- und Y-Werte jedes Datenpunkts in einer be
    }
    ```
 
-4. **Speichern der Präsentation**
-
-   Speichern Sie abschließend Ihre aktualisierte Präsentation.
+4. **Präsentation speichern**  
+   Persistieren Sie die Änderungen in einer neuen Datei.
 
    ```java
    pres.save("YOUR_DOCUMENT_DIRECTORY/UpdatedTestChart.pptx", SaveFormat.Pptx);
    ```
 
-### Tipps zur Fehlerbehebung
+### Fehlersuche‑Tipps
 
-- Stellen Sie sicher, dass der Diagrammindex und der Serienindex korrekt sind, um Folgendes zu vermeiden: `IndexOutOfBoundsException`.
-- Überprüfen Sie die Dateipfade zum Laden und Speichern von Präsentationen.
+- Stellen Sie sicher, dass der Folien‑Index (`0`) und der Shape‑Index (`0`) tatsächlich auf ein Diagramm zeigen; andernfalls erhalten Sie eine `IndexOutOfBoundsException`.  
+- Überprüfen Sie die Dateipfade sowohl beim Laden als auch beim Speichern; verwenden Sie während des Tests absolute Pfade, um Verwirrungen zu vermeiden.  
+- Wenn das Diagramm mehrere Serien enthält, passen Sie den Serien‑Index (`get_Item(0)`) entsprechend an.
 
 ## Praktische Anwendungen
 
-Das Löschen von Diagrammdatenpunkten kann in verschiedenen Szenarien angewendet werden:
+Das Löschen von Diagrammdatenpunkten kann in verschiedenen realen Szenarien eingesetzt werden:
 
-1. **Datenaktualisierung**: Aktualisieren Sie Diagramme schnell mit neuen Datensätzen.
-2. **Vorlagenvorbereitung**: Bereiten Sie Vorlagen vor, indem Sie Platzhalterdaten entfernen.
-3. **Dynamisches Reporting**: Implementieren Sie dynamische Updates in Berichtstools oder Dashboards.
-4. **Integration mit Datenquellen**: Verbinden und synchronisieren Sie Präsentationen mit Live-Datenbanken für Echtzeitanalysen.
+1. **Datenaktualisierung** – Ersetzen Sie alte Daten durch einen frischen Datensatz, ohne das Diagrammlayout neu zu erstellen.  
+2. **Vorlagenvorbereitung** – Stellen Sie PowerPoint‑Vorlagen bereit, die leere Diagramme enthalten, die vom Benutzer ausgefüllt werden können.  
+3. **Dynamische Berichterstellung** – Integrieren Sie Live‑Datenquellen (Datenbanken, APIs), um Präsentationen on‑the‑fly zu erzeugen.  
+4. **Automatisierte Dashboards** – Erstellen Sie geplante Jobs, die Diagramme nachts aktualisieren und vorherige Werte zuerst löschen.
 
-## Überlegungen zur Leistung
+## Leistungsüberlegungen
 
-So optimieren Sie die Leistung von Aspose.Slides:
-- Verwalten Sie die Speichernutzung effizient, indem Sie `Presentation` Gegenstände nach Gebrauch.
-- Nutzen Sie die Stapelverarbeitung für große Datensätze, um den Aufwand zu reduzieren.
-- Überwachen Sie die JVM-Heap-Einstellungen, um Speicherfehler bei intensiven Vorgängen zu vermeiden.
+- **Objekte freigeben**: Rufen Sie stets `pres.dispose()` auf, um native Ressourcen freizugeben.  
+- **Batch‑Verarbeitung**: Bei der Verarbeitung vieler Präsentationen wiederverwenden Sie eine einzelne `License`‑Instanz und verarbeiten Sie Dateien sequenziell, um den Overhead zu reduzieren.  
+- **JVM‑Optimierung**: Passen Sie die Heap‑Größe (`-Xmx`) an, wenn Sie sehr große PPTX‑Dateien bearbeiten.
 
-## Abschluss
+## Fazit
 
-In diesem Tutorial haben wir untersucht, wie Sie Datenpunkte von Diagrammreihen in PowerPoint mit Aspose.Slides für Java löschen. Mit diesen Schritten können Sie Ihre Diagramme effizient aktualisieren und verwalten und sicherstellen, dass sie die genauesten Informationen wiedergeben.
+In diesem Leitfaden haben wir gezeigt, **wie man Diagrammdaten** mit **Aspose.Slides für Java** löscht. Durch Befolgen der obigen Schritte können Sie Diagrammserien programmgesteuert zurücksetzen, Ihre Präsentationen sauber halten und Diagramm‑Updates in jede Java‑basierte Reporting‑Pipeline integrieren.
 
-**Nächste Schritte:**
-- Experimentieren Sie mit anderen Funktionen zur Diagrammbearbeitung.
-- Erkunden Sie die umfangreiche Dokumentation von Aspose.Slides, um weitere Funktionen zu entdecken.
+**Nächste Schritte**
+- Experimentieren Sie mit dem Hinzufügen neuer Datenpunkte nach dem Löschen der alten.  
+- Erkunden Sie weitere Diagrammbearbeitungs‑Features wie das Ändern von Diagrammtypen oder das Formatieren von Serien.  
+- Lesen Sie die vollständige Aspose.Slides‑API‑Dokumentation für tiefere Einblicke.
 
-Sind Sie bereit, diese Lösung in Ihren Projekten zu implementieren? Probieren Sie sie noch heute aus!
+## FAQ‑Abschnitt
 
-## FAQ-Bereich
+1. **Wie installiere ich Aspose.Slides für Java mit Maven?**  
+   Fügen Sie den oben bereitgestellten Abhängigkeits‑Snippet zu Ihrer `pom.xml` hinzu.
 
-1. **Wie installiere ich Aspose.Slides für Java mit Maven?**
-   
-   Fügen Sie den oben angegebenen Abhängigkeitsausschnitt zu Ihrem `pom.xml`.
+2. **Was tun, wenn beim Zugriff auf Folien oder Diagramme eine `IndexOutOfBoundsException` auftritt?**  
+   Überprüfen Sie, ob die von Ihnen referenzierten Folien‑ und Diagramm‑Indizes tatsächlich in der Präsentation existieren.
 
-2. **Was passiert, wenn ich auf eine `IndexOutOfBoundsException` beim Zugriff auf Folien oder Diagramme?**
-   
-   Überprüfen Sie noch einmal, ob die Folien- und Diagrammindizes, auf die Sie verweisen, in Ihrer Präsentation vorhanden sind.
+3. **Kann Aspose.Slides große Präsentationen effizient verarbeiten?**  
+   Ja, durch korrektes Speicher‑Management (Objekte freigeben) und das Anpassen der JVM‑Heap‑Einstellungen.
 
-3. **Kann Aspose.Slides große Präsentationen effizient verarbeiten?**
-   
-   Ja, indem Sie die Speichernutzung effektiv verwalten und die JVM-Einstellungen optimieren.
+4. **Ist es möglich, Datenpunkte zu löschen, ohne andere Serien zu beeinflussen?**  
+   Absolut – richten Sie den Ziel‑Serien‑Index, den Sie löschen möchten, wie in der Schleife gezeigt, aus.
 
-4. **Ist es möglich, Datenpunkte zu löschen, ohne andere Reihen zu beeinträchtigen?**
-   
-   Ja, zielen Sie auf bestimmte Reihen und ihre Datenpunkte ab, wie im Lernprogramm gezeigt.
+5. **Wie integriere ich diese Lösung in eine Live‑Datenbank?**  
+   Verwenden Sie Standard‑JDBC oder ein modernes ORM, um Daten abzurufen, und wenden Sie dann dieselbe Lösch‑Logik vor dem Einfügen neuer Punkte an.
 
-5. **Wie integriere ich diese Lösung in eine Live-Datenbank?**
-   
-   Verwenden Sie die API von Aspose.Slides zusammen mit Ihren bevorzugten Java-Datenbankkonnektivitätsbibliotheken, um Diagrammdaten dynamisch abzurufen und zu aktualisieren.
+## Häufig gestellte Fragen
+
+**F: Benötige ich eine Lizenz für Entwicklungs‑Builds?**  
+A: Eine kostenlose Testlizenz reicht für Entwicklung und Testen. Für den Produktionseinsatz ist eine kommerzielle Lizenz erforderlich.
+
+**F: Unterstützt Aspose.Slides für Java die Funktionen von PowerPoint 2016/2019?**  
+A: Ja, die Bibliothek ist vollständig kompatibel mit modernen PPTX‑Formaten und unterstützt erweiterte Diagrammtypen.
+
+**F: Kann ich Datenpunkte in einem Diagramm löschen, das eine sekundäre Achse verwendet?**  
+A: Der gleiche Ansatz funktioniert; stellen Sie lediglich sicher, dass Sie die korrekte Serie ansprechen, die zur sekundären Achse gehört.
+
+**F: Gibt es eine Möglichkeit, nur die Y‑Werte zu löschen und die X‑Beschriftungen beizubehalten?**  
+A: Setzen Sie `dataPoint.getYValue().getAsCell().setValue(null)`, während Sie die X‑Zelle unverändert lassen.
+
+**F: Wie kann ich diesen Prozess für mehrere Präsentationen automatisieren?**  
+A: Verpacken Sie den Code in einer Schleife, die ein Verzeichnis von PPTX‑Dateien durchläuft und die gleiche Löschen‑und‑Speichern‑Logik auf jede Datei anwendet.
 
 ## Ressourcen
 
-- [Aspose.Slides Dokumentation](https://reference.aspose.com/slides/java/)
-- [Laden Sie Aspose.Slides für Java herunter](https://releases.aspose.com/slides/java/)
-- [Erwerben Sie eine Lizenz](https://purchase.aspose.com/buy)
+- [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
+- [Download Aspose.Slides für Java](https://releases.aspose.com/slides/java/)
+- [Lizenz erwerben](https://purchase.aspose.com/buy)
 - [Kostenlose Testversion](https://releases.aspose.com/slides/java/)
-- [Antrag auf eine vorübergehende Lizenz](https://purchase.aspose.com/temporary-license/)
+- [Antrag auf temporäre Lizenz](https://purchase.aspose.com/temporary-license/)
 - [Aspose Community Forum](https://forum.aspose.com/c/slides/11)
 
-Mit diesen Ressourcen sind Sie bestens gerüstet, um Aspose.Slides für Java in Ihren Projekten zu nutzen. Viel Spaß beim Programmieren!
+Mit diesen Ressourcen sind Sie bereit, Diagrammdatenpunkte in Ihren Java‑Anwendungen zu löschen. Viel Spaß beim Coden!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -212,3 +240,9 @@ Mit diesen Ressourcen sind Sie bestens gerüstet, um Aspose.Slides für Java in 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Zuletzt aktualisiert:** 2026-02-27  
+**Getestet mit:** Aspose.Slides für Java 25.4 (JDK 16)  
+**Autor:** Aspose
