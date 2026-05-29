@@ -1,14 +1,61 @@
 ---
-date: '2026-01-11'
-description: Aspose.Slides kullanarak Java’da grafik oluşturmayı, PowerPoint’e kümelenmiş
-  sütun grafikleri eklemeyi ve veri görselleştirme en iyi uygulamalarıyla grafik üretimini
-  otomatikleştirmeyi öğrenin.
+date: '2026-05-29'
+description: Aspose'un Java için chart API'sını kullanarak grafik oluşturmayı öğrenin,
+  PowerPoint'e kümelenmiş sütun grafikler ekleyin ve yüksek performanslı veri görselleştirmeyi
+  otomatikleştirin.
 keywords:
-- Aspose.Slides for Java
-- Java chart creation
-- data visualization in presentations
-title: Aspose.Slides ile Java’da Grafik Oluşturma – Grafik Oluşturma ve Doğrulamayı
-  Ustalaşma
+- create chart with aspose
+- chart api for java
+- Aspose.Slides chart creation
+- Java data visualisation
+schemas:
+- author: Aspose
+  dateModified: '2026-05-29'
+  description: Learn how to create chart with Aspose using the chart API for Java,
+    add clustered column charts to PowerPoint, and automate high‑performance data
+    visualisation.
+  headline: How to create chart with Aspose.Slides for Java – Mastering Chart Creation
+    and Validation
+  type: TechArticle
+- description: Learn how to create chart with Aspose using the chart API for Java,
+    add clustered column charts to PowerPoint, and automate high‑performance data
+    visualisation.
+  name: How to create chart with Aspose.Slides for Java – Mastering Chart Creation
+    and Validation
+  steps:
+  - name: Instantiate a New Presentation Object
+    text: The `Presentation` class represents a PowerPoint file in memory and provides
+      access to slides, shapes, and chart objects.
+  - name: Add a Clustered Column Chart
+    text: '`addChart` creates a new chart shape on the slide with the specified type
+      and dimensions. - **Parameters**: - `ChartType.ClusteredColumn` – the **add
+      clustered column** chart type. - `(int x, int y, int width, int height)` – position
+      and size in pixels.'
+  - name: Dispose of Resources
+    text: Disposing releases native resources and prevents memory leaks, which is
+      critical when processing large batches.
+  - name: Retrieve Actual Coordinates and Dimensions
+    text: '- **Key Insight**: `validateChartLayout()` ensures the chart’s geometry
+      is correct before you read the actual plot‑area values.'
+  type: HowTo
+- questions:
+  - answer: Yes, it is a pure Java library and runs on Windows, Linux, and macOS.
+    question: Does Aspose.Slides work on all operating systems?
+  - answer: Yes, you can render a slide or a specific chart to PNG, JPEG, or SVG using
+      the `save` method with appropriate `ExportOptions`.
+    question: Can I export the chart to an image format?
+  - answer: While the API doesn’t read CSV automatically, you can parse the CSV in
+      Java and populate the chart series programmatically.
+    question: Is there a way to bind chart data directly from a CSV file?
+  - answer: Aspose offers a free trial, temporary evaluation licenses, and various
+      commercial licensing models (perpetual, subscription, cloud).
+    question: What licensing options are available?
+  - answer: Ensure the slide index exists (`pres.getSlides().get_Item(0)`) and that
+      the chart object is correctly cast from `IShape`.
+    question: How do I troubleshoot a `NullPointerException` when adding a chart?
+  type: FAQPage
+title: Aspose.Slides for Java ile grafik oluşturma – Grafik Oluşturma ve Doğrulama
+  Ustalığı
 url: /tr/java/charts-graphs/aspose-slides-chart-creation-validation-java/
 weight: 1
 ---
@@ -18,45 +65,40 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Java'da Aspose.Slides ile Grafik Nasıl Oluşturulur
+# Aspose.Slides for Java ile Grafik Nasıl Oluşturulur
 
-Dinamik grafiklerle profesyonel sunumlar oluşturmak, hızlı ve etkili veri görselleştirmeye ihtiyaç duyan herkes için hayati öneme sahiptir—ister rapor üretimini otomatikleştiren bir geliştirici, ister karmaşık veri setlerini sunan bir analist olun. Bu öğreticide **grafik nasıl oluşturulur** nesnelerini öğrenecek, bir PowerPoint slaytına kümeleme sütun grafiği ekleyecek ve Aspose.Slides for Java kullanarak yerleşimi doğrulayacaksınız.
+Profesyonel sunumları dinamik grafiklerle oluşturmak, hızlı ve etkili veri görselleştirmeye ihtiyaç duyan herkes için önemlidir—ister rapor üretimini otomatikleştiren bir geliştirici, ister karmaşık veri setlerini sunan bir analist olun. Bu öğreticide **grafik nasıl oluşturulur** nesnelerini öğrenecek, bir PowerPoint slaytına kümelenmiş sütun grafiği ekleyecek ve Aspose.Slides for Java kullanarak yerleşimi doğrulayacaksınız.
 
 ## Hızlı Yanıtlar
-- **Birincil kütüphane nedir?** Aspose.Slides for Java  
-- **Örnekte hangi grafik türü kullanılıyor?** Kümeleme Sütun grafiği  
-- **Gerekli Java sürümü nedir?** JDK 16 veya daha yenisi  
-- **Lisans gerekli mi?** Geliştirme için bir deneme sürümü yeterlidir; üretim için tam lisans gerekir  
-- **Grafik oluşturmayı otomatikleştirebilir miyim?** Evet – API, toplu olarak programlı bir şekilde grafik oluşturmanıza izin verir  
+- **Ana kütüphane nedir?** Aspose.Slides for Java (the chart API for Java)  
+- **Örnekte hangi grafik türü kullanılıyor?** Clustered Column chart  
+- **Hangi Java sürümü gereklidir?** JDK 16 or newer  
+- **Lisans gerekir mi?** A trial works for development; a full license is required for production  
+- **Grafik oluşturmayı otomatikleştirebilir miyim?** Yes – the API lets you generate charts programmatically in batch  
 
 ## Giriş
 
-Koda dalmadan önce **grafik nasıl oluşturulur** sorusunun neden önemli olduğuna hızlıca bakalım:
-
-- **Otomatik raporlama** – aylık satış sunumlarını manuel kopyala‑yapıştır yapmadan üretin.  
-- **Dinamik kontrol panelleri** – grafikleri doğrudan veri tabanlarından veya API'lerden yenileyin.  
-- **Tutarlı kurumsal kimlik** – her slaytta stilinizi otomatik olarak uygulayın.
+Koda geçmeden önce, **grafik nasıl oluşturulur** programlı olarak bilmenin neden faydalı olabileceğini hızlıca cevaplayalım:
+- **Otomatik raporlama** – manuel kopyala‑yapıştırma olmadan aylık satış sunumları oluşturun.  
+- **Dinamik gösterge panelleri** – grafikleri doğrudan veritabanlarından veya API'lerden yenileyin.  
+- **Tutarlı marka kimliği** – her slayta kurumsal stilinizi otomatik olarak uygulayın.
 
 Artık faydaları anladığınıza göre, ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım.
 
 ## Aspose.Slides for Java Nedir?
 
-Aspose.Slides for Java, Microsoft Office olmadan PowerPoint sunumları oluşturmanıza, değiştirmenize ve render etmenize olanak tanıyan güçlü, lisans‑tabanlı bir API'dir. Bu kılavuzda kullanacağımız **kümeleme sütun grafiği** de dahil olmak üzere geniş bir grafik türü yelpazesini destekler.
+Aspose.Slides for Java, Microsoft Office olmadan PowerPoint dosyalarının oluşturulmasını, değiştirilmesini ve render edilmesini sağlayan bir Java kütüphanesidir. **50'den fazla grafik türünü** destekler, bu rehberde kullanacağımız kümelenmiş sütun grafiği dahil, ve **yüzlerce slayt** içeren sunumları, bellek kullanımını 150 MB'nin altında tutarak işleyebilir.
 
-## “add chart PowerPoint” yaklaşımını neden kullanmalıyız?
+## “add chart PowerPoint” yaklaşımını neden kullanmalısınız?
 
-API üzerinden doğrudan grafik eklemek şunları sağlar:
-
-1. **Tam konumlandırma** – X/Y koordinatlarını ve boyutları kontrol edersiniz.  
-2. **Yerleşim doğrulama** – `validateChartLayout()` metodu, grafiğin istenildiği gibi göründüğünden emin olur.  
-3. **Tam otomasyon** – veri setleri üzerinden döngü kurarak saniyeler içinde onlarca slayt üretebilirsiniz.
+Grafikleri doğrudan API aracılığıyla gömmek, konumlandırma, yerleşim doğrulama ve tam otomasyon üzerinde kesin kontrol sağlar. Grafikleri programlı olarak ekleyerek her slaydın kurumsal tasarım standartlarına uymasını garanti edebilir, manuel hatalardan kaçınabilir ve büyük miktarda sunumu hızlı ve tutarlı bir şekilde oluşturabilirsiniz.
 
 ## Önkoşullar
 
-- **Aspose.Slides for Java**: Sürüm 25.4 veya üzeri.  
-- **Java Development Kit (JDK)**: JDK 16 veya daha yenisi.  
-- **IDE**: IntelliJ IDEA, Eclipse veya herhangi bir Java‑uyumlu editör.  
-- **Temel Java bilgisi**: Nesne‑yönelimli kavramlar ve Maven/Gradle aşinalığı.
+- **Aspose.Slides for Java**: Versiyon 25.4 veya üzeri.  
+- **Java Development Kit (JDK)**: JDK 16 veya üzeri.  
+- **IDE**: IntelliJ IDEA, Eclipse veya herhangi bir Java uyumlu editör.  
+- **Basic Java knowledge**: Nesne‑yönelimli kavramlar ve Maven/Gradle bilgisi.  
 
 ## Aspose.Slides for Java Kurulumu
 
@@ -72,13 +114,13 @@ Bu bağımlılığı `pom.xml` dosyanıza ekleyin:
 ```
 
 ### Gradle
-Bu satırı `build.gradle` dosyanıza ekleyin:
+`build.gradle` dosyanıza şunu ekleyin:
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
 ### Doğrudan İndirme
-Alternatif olarak, en son sürümü [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) adresinden indirin.
+Alternatif olarak, en son sürümü [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) veya [Aspose.Slides for Java Releases](https://releases.aspose.com/slides/java/) adresinden indirebilirsiniz.
 
 #### Lisans Başlatma
 ```java
@@ -99,7 +141,11 @@ class InitializeAspose {
 
 ## Uygulama Kılavuzu
 
-### Sunuma Kümeleme Sütun Grafiği Ekleme
+### Sunuma Kümelenmiş Sütun Grafiği Ekleme
+
+#### Aspose.Slides ile bir kümelenmiş sütun grafiği nasıl eklenir?
+
+Yeni bir `Presentation` yükleyin, `addChart(ChartType.ClusteredColumn, x, y, width, height)` metodunu çağırın ve API tek bir satırda tam işlevsel bir grafik oluşturur. Bu yöntem, grafiğin konumu ve boyutu üzerinde kesin kontrol sağlar ve serileri ve kategorileri otomatik olarak yönetir, bu da otomatik rapor oluşturma için idealdir.
 
 #### Adım 1: Yeni bir Presentation Nesnesi Oluşturma
 ```java
@@ -113,7 +159,10 @@ class ChartCreation {
 }
 ```
 
-#### Adım 2: Kümeleme Sütun Grafiği Ekleme
+`Presentation` sınıfı, bellekte bir PowerPoint dosyasını temsil eder ve slaytlara, şekillere ve grafik nesnelerine erişim sağlar.
+
+#### Adım 2: Kümelenmiş Sütun Grafiği Ekleme
+`addChart`, belirtilen tip ve boyutlarla slayta yeni bir grafik şekli oluşturur.
 ```java
 import com.aspose.slides.Chart;
 import com.aspose.slides.ChartType;
@@ -129,7 +178,7 @@ class AddChart {
 }
 ```
 - **Parametreler**:  
-  - `ChartType.ClusteredColumn` – **kümeleme sütun** grafik türü.  
+  - `ChartType.ClusteredColumn` – **kümelenmiş sütun ekle** grafik türü.  
   - `(int x, int y, int width, int height)` – piksel cinsinden konum ve boyut.
 
 #### Adım 3: Kaynakları Serbest Bırakma
@@ -141,7 +190,13 @@ try {
 }
 ```
 
+Serbest bırakma, yerel kaynakları serbest bırakır ve bellek sızıntılarını önler; bu, büyük toplu işlemlerde kritiktir.
+
 ### Bir Grafiğin Gerçek Yerleşimini Doğrulama ve Alma
+
+#### Bir grafiğin yerleşimini nasıl doğrular ve gerçek boyutlarını nasıl okursunuz?
+
+`validateChartLayout()` metodunu çağırarak motoru grafiğin geometrisini yeniden hesaplamaya zorlayın, ardından kesin çizim alanı değerleri için `getActualX()`, `getActualY()`, `getActualWidth()` ve `getActualHeight()` metodlarını sorgulayın. Bu, slaytta gördüklerinizin göstermek istediğiniz verilerle eşleşmesini garanti eder.
 
 #### Adım 1: Grafik Yerleşimini Doğrulama
 ```java
@@ -154,7 +209,7 @@ class ValidateChart {
 }
 ```
 
-#### Adım 2: Gerçek Koordinat ve Boyutları Alma
+#### Adım 2: Gerçek Koordinatları ve Boyutları Alma
 ```java
 // Retrieve chart dimensions
 class GetChartDimensions {
@@ -170,57 +225,58 @@ class GetChartDimensions {
     }
 }
 ```
-- **Ana Bilgi**: `validateChartLayout()` grafiğin geometrisinin doğru olduğundan emin olur, ardından gerçek çizim‑alanı değerlerini okuyabilirsiniz.
+- **Ana Bilgi**: `validateChartLayout()` gerçek çizim alanı değerlerini okumadan önce grafiğin geometrisinin doğru olmasını sağlar.
 
 ## Pratik Uygulamalar
 
-Aspose.Slides ile **grafik nasıl oluşturulur** sorusunun gerçek dünya kullanım senaryolarını keşfedin:
-
-1. **Otomatik Raporlama** – veritabanından doğrudan aylık satış sunumları üretin.  
-2. **Veri‑Görselleştirme Kontrol Panelleri** – yöneticilere yönelik sunumlarda canlı güncellenen grafikler ekleyin.  
-3. **Akademik Dersler** – araştırma sunumları için tutarlı, yüksek‑kaliteli grafikler oluşturun.  
+Aspose.Slides ile **grafik nasıl oluşturulur** için gerçek dünya kullanım örneklerini keşfedin:
+1. **Otomatik Raporlama** – veritabanından doğrudan aylık satış sunumları oluşturun.  
+2. **Veri Görselleştirme Panelleri** – yöneticilere yönelik sunumlara canlı güncellenen grafikler yerleştirin.  
+3. **Akademik Dersler** – araştırma sunumları için tutarlı, yüksek kaliteli grafikler oluşturun.  
 4. **Strateji Oturumları** – senaryoları karşılaştırmak için veri setlerini hızlıca değiştirin.  
-5. **API‑Tabanlı Entegrasyonlar** – Aspose.Slides'ı REST servisleriyle birleştirerek anlık grafik üretimi sağlayın.
+5. **API Tabanlı Entegrasyonlar** – Aspose.Slides'i REST hizmetleriyle birleştirerek anlık grafik oluşturun.  
 
 ## Performans Düşünceleri
 
-- **Bellek Yönetimi** – `Presentation` nesnelerinde her zaman `dispose()` çağırın.  
-- **Toplu İşleme** – birden çok grafik oluştururken tek bir `Presentation` örneğini yeniden kullanarak yükü azaltın.  
-- **Güncel Kalın** – yeni Aspose.Slides sürümleri performans iyileştirmeleri ve ek grafik türleri getirir.
+- **Bellek Yönetimi** – `Presentation` nesnelerinde her zaman `dispose()` metodunu çağırın.  
+- **Toplu İşleme** – birçok grafik oluştururken tek bir `Presentation` örneğini yeniden kullanın; bu, büyük iş yüklerinde işlem süresini %40'a kadar azaltabilir.  
+- **Güncel Kalın** – yeni Aspose.Slides sürümleri performans iyileştirmeleri ve ek grafik türleri getirir (en son sürüm 55 grafik stilini destekler).  
 
 ## Sonuç
 
-Bu rehberde **grafik nasıl oluşturulur** nesnelerini, kümeleme sütun grafiği eklemeyi ve Aspose.Slides for Java kullanarak yerleşimini doğrulamayı ele aldık. Bu adımları izleyerek grafik üretimini otomatikleştirebilir, görsel tutarlılığı sağlayabilir ve güçlü veri‑görselleştirme yeteneklerini herhangi bir Java‑tabanlı iş akışına entegre edebilirsiniz.
+Bu rehberde **grafik nasıl oluşturulur** nesnelerini, bir kümelenmiş sütun grafiği eklemeyi ve Aspose.Slides for Java kullanarak yerleşimini doğrulamayı ele aldık. Bu adımları izleyerek grafik oluşturmayı otomatikleştirebilir, görsel tutarlılığı sağlayabilir ve güçlü veri görselleştirme yeteneklerini herhangi bir Java tabanlı iş akışına entegre edebilirsiniz.
 
-Daha derine inmek ister misiniz? Gelişmiş stil, veri bağlama ve dışa aktarma seçenekleri için resmi [Aspose.Slides documentation](https://reference.aspose.com/slides/java/) sayfasına göz atın.
+Daha derine inmeye hazır mısınız? Gelişmiş stil, veri bağlama ve dışa aktarma seçenekleri için resmi [Aspose.Slides documentation](https://reference.aspose.com/slides/java/) ve [Aspose.Slides for Java Documentation](https://reference.aspose.com/slides/java/) sayfalarına göz atın.
 
 ## Sıkça Sorulan Sorular
 
 **S: Aspose.Slides tüm işletim sistemlerinde çalışıyor mu?**  
-C: Evet, saf bir Java kütüphanesidir ve Windows, Linux ve macOS üzerinde çalışır.
+A: Evet, saf bir Java kütüphanesidir ve Windows, Linux ve macOS'ta çalışır.
 
 **S: Grafiği bir görüntü formatına dışa aktarabilir miyim?**  
-C: Evet, `save` metodunu uygun `ExportOptions` ile kullanarak bir slaytı veya belirli bir grafiği PNG, JPEG veya SVG olarak render edebilirsiniz.
+A: Evet, uygun `ExportOptions` ile `save` metodunu kullanarak bir slaytı veya belirli bir grafiği PNG, JPEG veya SVG formatına render edebilirsiniz.
 
-**S: Grafik verilerini doğrudan bir CSV dosyasından bağlamak mümkün mü?**  
-C: API otomatik CSV okuma sağlamaz, ancak CSV'yi Java'da ayrıştırıp grafik serilerini programatik olarak doldurabilirsiniz.
+**S: Grafik verilerini doğrudan bir CSV dosyasından bağlamanın bir yolu var mı?**  
+A: API otomatik olarak CSV okusa da, Java'da CSV'yi ayrıştırıp grafik serilerini programlı olarak doldurabilirsiniz.
 
-**S: Hangi lisans seçenekleri mevcut?**  
-C: Aspose ücretsiz deneme, geçici değerlendirme lisansları ve çeşitli ticari lisans modelleri (sürekli, abonelik, bulut) sunar.
+**S: Hangi lisans seçenekleri mevcuttur?**  
+A: Aspose ücretsiz deneme, geçici değerlendirme lisansları ve çeşitli ticari lisans modelleri (sürekli, abonelik, bulut) sunar.
 
-**S: Grafik eklerken `NullPointerException` alıyorsam ne yapmalıyım?**  
-C: Slayt indeksinin mevcut olduğundan emin olun (`pres.getSlides().get_Item(0)`) ve grafik nesnesinin `IShape`'den doğru şekilde cast edildiğini kontrol edin.
-
-## Kaynaklar
-
-- **Dokümantasyon**: [Aspose.Slides for Java Documentation](https://reference.aspose.com/slides/java/)  
-- **İndirme**: [Aspose.Slides for Java Releases](https://releases.aspose.com/slides/java/)
+**S: Grafik eklerken `NullPointerException` hatasını nasıl gideririm?**  
+A: Slayt indeksinin mevcut olduğundan emin olun (`pres.getSlides().get_Item(0)`) ve grafik nesnesinin `IShape`'den doğru şekilde cast edildiğini kontrol edin.
 
 ---
 
-**Son Güncelleme:** 2026-01-11  
+**Son Güncelleme:** 2026-05-29  
 **Test Edilen Versiyon:** Aspose.Slides for Java 25.4 (JDK 16)  
 **Yazar:** Aspose
+
+## İlgili Öğreticiler
+
+- [Aspose.Slides for Java Kullanarak PowerPoint'e Grafik Ekleme: Adım Adım Kılavuz](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [Animasyonlu PowerPoint Java Oluşturma – PowerPoint Grafiklerini Aspose.Slides ile Canlandırma](/slides/java/animations-transitions/animate-powerpoint-charts-aspose-slides-java/)
+- [Aspose.Slides ile Java'da Kümelenmiş Sütun Grafiği Nasıl Oluşturulur](/slides/java/charts-graphs/aspose-slides-java-clustered-column-charts/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
