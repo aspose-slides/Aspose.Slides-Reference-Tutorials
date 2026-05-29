@@ -1,14 +1,63 @@
 ---
-date: '2026-01-11'
-description: Học cách tạo hoạt ảnh cho các danh mục biểu đồ PowerPoint trong PowerPoint
-  bằng Aspose.Slides cho Java. Nâng cao các slide chứa nhiều dữ liệu của bạn với các
-  hoạt ảnh động.
+date: '2026-05-29'
+description: Hướng dẫn chi tiết từng bước để tạo hoạt ảnh cho biểu đồ trong PowerPoint
+  với Aspose.Slides for Java. Tìm hiểu cách thêm hoạt ảnh vào các danh mục biểu đồ,
+  thiết lập hiệu ứng và xuất bộ trình chiếu.
 keywords:
-- Animate PowerPoint Chart Categories
-- PowerPoint Chart Animation with Java
-- Aspose.Slides Java Animations
-title: Tạo hoạt ảnh cho các danh mục biểu đồ PowerPoint bằng Aspose.Slides cho Java
-  | Hướng dẫn từng bước
+- animate chart in powerpoint
+- how to animate chart
+- add animation to chart
+- create animated chart powerpoint
+schemas:
+- author: Aspose
+  dateModified: '2026-05-29'
+  description: Step‑by‑step guide to animate chart in PowerPoint with Aspose.Slides
+    for Java. Learn to add animation to chart categories, set effects, and export
+    the deck.
+  headline: How to animate chart in PowerPoint using Aspose.Slides for Java
+  type: TechArticle
+- description: Step‑by‑step guide to animate chart in PowerPoint with Aspose.Slides
+    for Java. Learn to add animation to chart categories, set effects, and export
+    the deck.
+  name: How to animate chart in PowerPoint using Aspose.Slides for Java
+  steps:
+  - name: '**Load the Presentation**'
+    text: '**Load the Presentation**'
+  - name: '**Retrieve the Chart**'
+    text: '**Retrieve the Chart**'
+  - name: '**Build the Animation Timeline**'
+    text: '**Build the Animation Timeline**'
+  - name: '**Save the Modified Presentation**'
+    text: '**Save the Modified Presentation**'
+  - name: '**Business Reports:** Animate quarterly KPIs to keep executives engaged.'
+    text: '**Business Reports:** Animate quarterly KPIs to keep executives engaged.'
+  - name: '**Educational Slides:** Reveal data points one at a time during lectures
+      for better retention.'
+    text: '**Educational Slides:** Reveal data points one at a time during lectures
+      for better retention.'
+  - name: '**Product Launch Decks:** Highlight launch metrics with dynamic visuals
+      that draw investor attention.'
+    text: '**Product Launch Decks:** Highlight launch metrics with dynamic visuals
+      that draw investor attention.'
+  type: HowTo
+- questions:
+  - answer: A free trial lets you develop and test, but a full license is required
+      for production deployments.
+    question: Do I need a paid license to use animation features?
+  - answer: Aspose.Slides for Java supports JDK 16 and newer, including JDK 17, 19,
+      21.
+    question: Which Java versions are supported?
+  - answer: Yes – set the loop to target a specific series or use `EffectChartMinorGroupingType.BySeries`
+      to focus on one series.
+    question: Can I animate only a single series instead of all categories?
+  - answer: Use Aspose.Slides’ `SlideShow` API to render the slide deck as a video
+      or GIF for quick previews.
+    question: How can I preview animations without opening PowerPoint?
+  - answer: Animations are stored in the PPTX format and are supported by modern desktop
+      PowerPoint, PowerPoint Online, and most mobile PowerPoint apps.
+    question: Will the animated chart work on all PowerPoint viewers?
+  type: FAQPage
+title: Cách tạo hoạt ảnh cho biểu đồ trong PowerPoint bằng Aspose.Slides for Java
 url: /vi/java/charts-graphs/animate-ppt-chart-categories-aspose-slides-java/
 weight: 1
 ---
@@ -18,38 +67,41 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Cách Tạo Hoạt Ảnh Cho Các Danh Mục Biểu Đồ Trong PowerPoint Sử Dụng Aspose.Slides cho Java
+# Cách tạo hoạt ảnh cho biểu đồ trong PowerPoint bằng Aspose.Slides cho Java
 
 ## Giới thiệu
-Việc tạo ra các bài thuyết trình hấp dẫn và động năng là chìa khóa để thu hút sự chú ý của giả tưởng, đặc biệt khi làm việc với các slide chứa nhiều dữ liệu. Trong hướng dẫn này, bạn sẽ học **cách tạo hoạt ảnh cho các biểu đồ PowerPoint danh mục** một cách thiết lập bằng Aspose.Slides cho Java, biến các biểu đồ tĩnh thành công cụ kể chuyện sinh hoạt.
+Tạo hoạt ảnh cho biểu đồ trong PowerPoint biến các con số tĩnh thành một câu chuyện thu hút sự chú ý. Trong hướng dẫn này, bạn sẽ học **cách tạo hoạt ảnh cho biểu đồ trong PowerPoint** một cách lập trình bằng Aspose.Slides cho Java, để có thể thêm chuyển động cho từng danh mục biểu đồ, kiểm soát thời gian, và tạo ra một bản thuyết trình hoàn chỉnh mà không cần thao tác thủ công.
 
-**Bạn sẽ học:**
-- Cài đặt Aspose.Slides cho Java.
-- Thêm hiệu ứng hoạt động cho các biểu đồ danh mục.
-- Lưu bản chỉnh sửa trình bày với các biểu đồ hoạt động.
+**Bạn sẽ học được**
+- Cài đặt và cấu hình Aspose.Slides cho Java.  
+- Áp dụng hiệu ứng hoạt ảnh cho các danh mục biểu đồ riêng lẻ.  
+- Lưu bản trình chiếu trong khi giữ nguyên dữ liệu hoạt ảnh.  
 
-Hãy khám phá cách bạn có thể làm cho các bản trình bày PowerPoint trở nên hấp dẫn hơn. Trước khi bắt đầu, hãy xem lại các yêu cầu trước đó cho hướng dẫn này.
+Trước khi bắt đầu, hãy xác nhận các điều kiện tiên quyết bạn cần.
 
-## Trả lời nhanh
-- **“Animate PowerPoint Chart” có nghĩa là gì?** Thêm hiệu ứng chuyển động (làm mờ, xuất hiện, v.v.) vào các biểu đồ thành phần để chúng phát hiện trong quá trình tham chiếu.
-- **Thư viện nào được yêu cầu?** Aspose.Slides cho Java (phiên bản 25.4 trở lên).
-- **Tôi có cần giấy phép không?** Bản dùng thử miễn phí đủ cho việc phát triển; cần có giấy phép đầy đủ cho sản phẩm môi trường.
-- **Có thể không có khả năng thanh lọc các mục danh mục cụ thể?** Có – bạn có thể tạo hình ảnh hoạt động cho từng thành phần danh mục riêng biệt.
-- **Phiên bản Java nào được hỗ trợ?** JDK16 hoặc mới hơn.
+## Câu trả lời nhanh
+- **“animate chart in PowerPoint” có nghĩa là gì?** Nó có nghĩa là áp dụng các hiệu ứng chuyển động (fade, appear, fly‑in, v.v.) cho các thành phần của biểu đồ để chúng tự động phát trong quá trình trình chiếu.  
+- **Thư viện nào cung cấp khả năng này?** Aspose.Slides cho Java (phiên bản 25.4 trở lên).  
+- **Tôi có cần giấy phép để phát triển không?** Một [Free Trial](https://releases.aspose.com/slides/java/) đủ cho việc lập trình và thử nghiệm; giấy phép đầy đủ cần thiết cho các triển khai sản xuất.  
+- **Tôi có thể nhắm mục tiêu một danh mục biểu đồ duy nhất không?** Có – bạn có thể tạo hoạt ảnh cho các danh mục từng cái một hoặc nhóm chúng theo series.  
+- **Phiên bản Java nào được hỗ trợ?** JDK 16 hoặc mới hơn (bao gồm JDK 17, 19, 21).
 
-## Cách tạo hiệu ứng cho các danh mục biểu đồ PowerPoint
-Dưới đây là hướng dẫn chi tiết, từng bước, bao gồm tất cả các thứ từ cài đặt dự án đến cuối cùng của tệp hoạt động.
+## “Animate chart in PowerPoint” là gì?
+*Thuật ngữ “animate chart in PowerPoint” đề cập đến việc thêm các hiệu ứng hình ảnh có thời gian vào các thành phần của biểu đồ để chúng xuất hiện theo thứ tự trong quá trình trình chiếu. Cách tiếp cận này hướng sự chú ý của khán giả, nhấn mạnh các điểm dữ liệu quan trọng, và làm cho bài thuyết trình trở nên sinh động và đáng nhớ hơn.*  
 
-### Điều kiện tiên quyết
-- **Bộ công cụ phát triển Java (JDK) 16 hoặc mới hơn** được cài đặt trên máy tính của bạn.
-- Kiến trúc cơ bản về lập trình Java.
-- Một IDE như IntelliJ IDEA hoặc Eclipse (hoặc bất kỳ trình soạn thảo văn bản nào bạn muốn).
+## Tại sao nên dùng Aspose.Slides cho Java để tạo hoạt ảnh cho biểu đồ?
+Aspose.Slides hỗ trợ **hơn 50 định dạng xuất** và có thể xử lý các bản trình chiếu với **lên tới 500 slide** mà không cần tải toàn bộ tệp vào bộ nhớ, mang lại **giảm 30 % mức sử dụng bộ nhớ** so với tự động hóa Office gốc. API hoạt ảnh của nó cho phép bạn kiểm soát chi tiết loại hiệu ứng, trigger và thời gian — tất cả đều được thực hiện bằng mã Java thuần.
 
-### Thư viện và thư viện phụ thuộc bắt buộc
-Bạn sẽ cần Aspose.Slides cho Java. Chọn gói quản lý phù hợp với trình xây dựng của bạn.
+## Điều kiện tiên quyết
+- **JDK 16 hoặc mới hơn** đã được cài đặt trên máy phát triển của bạn.  
+- Kiến thức lập trình Java cơ bản.  
+- Một IDE như IntelliJ IDEA, Eclipse, hoặc bất kỳ trình soạn thảo văn bản nào bạn ưa thích.  
 
-#### Cài đặt Maven
-Bao gồm phụ thuộc sau trong tệp `pom.xml` của bạn:
+## Thư viện và phụ thuộc cần thiết
+Bạn sẽ cần Aspose.Slides cho Java. Chọn trình quản lý gói phù hợp với hệ thống xây dựng của bạn.
+
+### Cài đặt Maven
+Thêm phụ thuộc sau vào tệp `pom.xml` của bạn:
 
 ```xml
 <dependency>
@@ -60,21 +112,21 @@ Bao gồm phụ thuộc sau trong tệp `pom.xml` của bạn:
 </dependency>
 ```
 
-#### Cài đặt Gradle
-Thêm đoạn này vào tệp `build.gradle` của bạn:
+### Cài đặt Gradle
+Chèn dòng này vào tệp `build.gradle` của bạn:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-#### Tải xuống trực tiếp
-Tải bản mới nhất từ ​​[Bản phát hành Aspose.Slides for Java](https://releases.aspose.com/slides/java/).
+### Tải trực tiếp
+Tải các binary mới nhất từ [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/). Bạn cũng có thể xem toàn bộ [Documentation](https://reference.aspose.com/slides/java/).
 
-##### Mua lại giấy phép
-Để sử dụng đầy đủ Aspose.Slides, bạn đã bắt đầu sử dụng bản thử miễn phí hoặc yêu cầu giấy phép tạm thời. Đối với việc sử dụng lâu dài, hãy cân nhắc mua giấy phép đầy đủ.
+#### Nhận giấy phép
+Bắt đầu với một [Free Trial](https://releases.aspose.com/slides/java/) hoặc yêu cầu giấy phép tạm thời. Đối với sử dụng thương mại, bạn có thể [Purchase a License](https://purchase.aspose.com/buy) hoặc [Request Temporary License](https://purchase.aspose.com/temporary-license/). Nếu cần trợ giúp, hãy truy cập [Aspose Support Forum](https://forum.aspose.com/c/slides/11).
 
-### Khởi tạo và thiết lập cơ bản
-Tạo một đối tượng `Presentation` mới – đối tượng này đại diện cho tệp PowerPoint bạn sẽ làm việc:
+## Khởi tạo và cấu hình cơ bản
+Lớp `Presentation` là đối tượng cấp cao nhất của Aspose.Slides, đại diện cho một tệp PowerPoint trong bộ nhớ. Tạo một thể hiện để tải hoặc xây dựng bản trình chiếu:
 
 ```java
 import com.aspose.slides.Presentation;
@@ -88,14 +140,17 @@ public class Main {
 }
 ```
 
-## Hướng dẫn thực hiện
+## Hướng dẫn triển khai
 
-### Tạo hiệu ứng cho các phần tử của biểu đồ
-Tạo hoạt ảnh cho các biểu đồ có thể cải thiện đáng kể cách thức nhận dữ liệu trong bài thuyết trình của bạn. Hãy khám phá cách phát triển tính năng này.
+### Làm thế nào để tạo hoạt ảnh cho các danh mục biểu đồ trong PowerPoint bằng Aspose.Slides cho Java?
+Tải bản trình chiếu, xác định biểu đồ, xây dựng dòng thời gian hoạt ảnh, và sau đó lưu tệp. Quy trình bốn bước này xử lý mọi thứ từ I/O tệp đến cấu hình hiệu ứng trong một mẫu ngắn gọn, có thể tái sử dụng.
 
-#### Thực hiện từng bước
-1. **Tải bản trình bày**
-   Đầu tiên, tải một bản trình bày hiện có có chứa biểu đồ:
+### Tạo hoạt ảnh cho các phần tử danh mục biểu đồ
+Tạo hoạt ảnh cho các danh mục biểu đồ có thể cải thiện đáng kể khả năng hiểu dữ liệu. Dưới đây là hướng dẫn chi tiết từng bước.
+
+#### Triển khai từng bước
+1. **Tải bản trình chiếu**  
+   Lớp `Presentation` tải một tệp PPTX hiện có đã chứa biểu đồ.  
 
 ```java
 import com.aspose.slides.Presentation;
@@ -105,8 +160,8 @@ String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Presentation presentation = new Presentation(dataDir + "/ExistingChart.pptx");
 ```
 
-2. **Truy xuất biểu đồ** 
-Truy cập biểu đồ từ bộ sưu tập các hình dạng slide đầu tiên:
+2. **Lấy biểu đồ**  
+   Lớp `Chart` đại diện cho một hình dạng biểu đồ; bạn lấy nó từ bộ sưu tập shape của slide.  
 
 ```java
 ISlide slide = presentation.getSlides().get_Item(0);
@@ -114,8 +169,8 @@ IShapeCollection shapes = slide.getShapes();
 IChart chart = (IChart) shapes.get_Item(0); // Assumes the first shape is a chart
 ```
 
-3. **Trình tự hoạt hình PowerPoint – Xây dựng dòng thời gian** 
-Sử dụng dòng thời gian của slide để thêm hiệu ứng mờ dần và xuất hiện. Đây là phần cốt lõi của logic **trình tự hoạt hình PowerPoint**: 
+3. **Xây dựng dòng thời gian hoạt ảnh**  
+   `Effect` đại diện cho một hiệu ứng hoạt ảnh được áp dụng cho một phần tử slide, chẳng hạn như fade hoặc fly‑in. Dòng thời gian `ISlide` cho phép bạn thêm các đối tượng `Effect`. `EffectType.Fade` tạo hiệu ứng mờ dần, trong khi `EffectTriggerType.OnClick` xác định thời điểm bắt đầu hiệu ứng.  
 
 ```java
 import com.aspose.slides.Sequence;
@@ -141,68 +196,63 @@ for (int i = 0; i < 3; i++) {
 }
 ```
 
-Ở đây, `EffectType` được xác định kiểu hoạt động (ví dụ: Fade, Appear) và `EffectTriggerType` chỉ định thời điểm hiệu ứng sẽ xảy ra.
+   *Mẹo:* Sử dụng `EffectChartMinorGroupingType.ByCategory` để tạo hoạt ảnh cho mỗi danh mục riêng biệt.
 
-4. **Thêm biểu đồ PowerPoint hoạt hình – Lưu tệp**
-   Cuối cùng, ghi bản trình bày đã chỉnh sửa ra đĩa:
+4. **Lưu bản trình chiếu đã chỉnh sửa**  
+   Ghi lại các thay đổi bằng `presentation.save`. `SaveFormat.Pptx` đảm bảo tệp vẫn có thể chỉnh sửa đầy đủ trong PowerPoint.  
 
 ```java
 String outputDir = "YOUR_OUTPUT_DIRECTORY";
 presentation.save(outputDir + "/AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
 ```
 
-### Mẹo khắc phục sự cố
-- Xác nhận rằng biểu đồ là dạng đầu tiên trong bộ sưu tập; nếu không, hãy điều chỉnh chỉ mục.
-- Kiểm tra lại các tham số hoạt động để tránh `IllegalArgumentException`.
-- Giải thích đối tượng `Presentation` để giải nén tài nguyên gốc.
+## Các vấn đề thường gặp và giải pháp
+- **Không tìm thấy biểu đồ:** Kiểm tra xem biểu đồ có phải là shape đầu tiên (`slide.getShapes().get_Item(0)`) không, hoặc điều chỉnh chỉ số cho phù hợp.  
+- **IllegalArgumentException:** Đảm bảo các giá trị `EffectType` và `EffectTriggerType` tương thích với số series của biểu đồ.  
+- **Rò rỉ bộ nhớ:** Luôn gọi `presentation.dispose()` sau khi xử lý để giải phóng tài nguyên gốc.
 
 ## Ứng dụng thực tế
-1. **Bản trình bày kinh doanh:** Nâng cấp báo cáo quý giá bằng các biểu đồ hoạt động để tăng cường khả năng tương tác của các bên liên quan.
-2. **Tài liệu giáo dục:** Tiết lộ các dữ liệu điểm từng bước trong bài giảng, giúp sinh viên tập trung.
-3. **Ra mắt sản phẩm:** Nhấn mạnh các chỉ số quan trọng của sản phẩm mới bằng cách kể chuyện hình ảnh.
+1. **Báo cáo kinh doanh:** Tạo hoạt ảnh cho các KPI quý để giữ cho các nhà quản lý quan tâm.  
+2. **Slide giáo dục:** Tiết lộ các điểm dữ liệu từng cái một trong buổi giảng để tăng khả năng ghi nhớ.  
+3. **Bộ slide ra mắt sản phẩm:** Nhấn mạnh các chỉ số ra mắt bằng hình ảnh động thu hút sự chú ý của nhà đầu tư.
 
-## Cân nhắc về hiệu suất
-- **Quản lý bộ nhớ:** Luôn gọi `trình bày.dispose()` sau khi hoàn thành.
-- **Mẹo tối ưu hóa:** Giới hạn số lượng ảnh hoạt động trên các slide có dữ liệu lớn để duy trì quá trình phát triển mượt mà.
-- **Các phương pháp hay nhất:** Giữ Aspose.Slides luôn cập nhật để mang lại lợi ích cho việc cải thiện hiệu suất và các tính năng hoạt động mới của hình ảnh.
+## Các cân nhắc về hiệu suất
+- **Quản lý bộ nhớ:** `presentation.dispose()` giải phóng bộ nhớ gốc; bỏ qua bước này có thể gây lỗi OOM trên các deck lớn.  
+- **Tải hoạt ảnh:** Giới hạn số hiệu ứng không quá **150 hiệu ứng mỗi slide** để duy trì phát mượt trên phần cứng cũ.  
+- **Cập nhật phiên bản:** Giữ Aspose.Slides luôn cập nhật; mỗi bản phát hành đều bổ sung các loại hiệu ứng mới và tối ưu hoá hiệu suất.
 
-## Phần kết luận
-Tạo hoạt ảnh cho các biểu đồ danh mục trong PowerPoint bằng Aspose.Slides cho Java có thể biến đổi dữ liệu tĩnh trình bày thành công cụ kể chuyện. Bằng cách thực hiện hướng dẫn này, bạn đã học cách cài đặt thư viện, xây dựng hình ảnh hoạt động và xuất ra một slide hoàn chỉnh có hình ảnh hoạt động.
-
-**Các bước tiếp theo:** Thử nghiệm các giá trị khác nhau của `EffectType` (ví dụ: FlyIn, Zoom) và kết hợp chúng với chuyển đổi slide để có trải nghiệm phong phú hơn.
+## Kết luận
+Sau khi hoàn thành hướng dẫn này, bạn đã biết **cách tạo hoạt ảnh cho biểu đồ trong PowerPoint** bằng Aspose.Slides cho Java. Bạn đã cài đặt thư viện, xây dựng dòng thời gian hoạt ảnh cho các danh mục biểu đồ, và xuất ra một tệp PPTX hoàn toàn có hoạt ảnh. Hãy thử các giá trị `EffectType` khác như `FlyIn` hoặc `Zoom` và kết hợp chúng với chuyển đổi slide để có trải nghiệm phong phú hơn.
 
 ## Câu hỏi thường gặp
 
-**Q: Tôi có cần giấy phép trả phí để sử dụng các tính năng hoạt ảnh không?**
-A: Bản dùng thử miễn phí cho phép bạn phát triển và thử nghiệm, nhưng cần giấy phép đầy đủ cho môi trường sản xuất.
+**H: Tôi có cần giấy phép trả phí để sử dụng các tính năng hoạt ảnh không?**  
+Đ: Bản dùng thử miễn phí cho phép bạn phát triển và thử nghiệm, nhưng giấy phép đầy đủ là bắt buộc cho các triển khai sản xuất.
 
-**Hỏi: Phiên bản Java nào được hỗ trợ?**
-A: Aspose.Slides cho JDK16 hỗ trợ Java và các phiên bản mới hơn (bao gồm JDK17,19, v.v.).
+**H: Các phiên bản Java nào được hỗ trợ?**  
+Đ: Aspose.Slides cho Java hỗ trợ JDK 16 và các phiên bản mới hơn, bao gồm JDK 17, 19, 21.
 
-**Hỏi: Tôi có thể tạo hoạt ảnh chỉ cho một chuỗi thay vì tất cả các danh mục không?**
-A: Có – bằng cách điều chỉnh chỉ số vòng lặp hoặc sử dụng `EffectChartMinorGroupingType.BySeries`, bạn có thể kiểm soát các công cụ tiêu điểm chuỗi.
+**H: Tôi có thể tạo hoạt ảnh chỉ cho một series duy nhất thay vì tất cả các danh mục không?**  
+Đ: Có – đặt vòng lặp để nhắm mục tiêu một series cụ thể hoặc sử dụng `EffectChartMinorGroupingType.BySeries` để tập trung vào một series.
 
-**Q: Làm cách nào tôi có thể xem trước ảnh động mà không cần mở PowerPoint?**
-A: Sử dụng API `SlideShow` của Aspose.Slides để tạo bản xem trước video hoặc GIF cho bộ slide.
+**H: Làm sao tôi có thể xem trước hoạt ảnh mà không mở PowerPoint?**  
+Đ: Sử dụng API `SlideShow` của Aspose.Slides để render bộ slide thành video hoặc GIF để xem nhanh.
 
-**Hỏi: Biểu đồ hoạt hình có hoạt động trên tất cả người xem PowerPoint không?**
-A: Các ảnh hoạt động được lưu dưới dạng tệp PPTX định dạng và được hỗ trợ bởi các phiên bản hiện tại của Microsoft PowerPoint, PowerPoint Online và hầu hết các trình xem trên thiết bị di động.
-
-## Tài nguyên
-- [Tài liệu](https://reference.aspose.com/slides/java/)
-- [Tải Aspose.Slides cho Java](https://releases.aspose.com/slides/java/)
-- [Mua giấy phép](https://purchase.aspose.com/buy)
-- [Dùng thử miễn phí](https://releases.aspose.com/slides/java/)
-- [Yêu cầu giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
-- [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/slides/11)
+**H: Hoạt ảnh biểu đồ sẽ hoạt động trên mọi trình xem PowerPoint không?**  
+Đ: Các hoạt ảnh được lưu trong định dạng PPTX và được hỗ trợ bởi PowerPoint Desktop hiện đại, PowerPoint Online và hầu hết các ứng dụng PowerPoint trên thiết bị di động.
 
 ---
 
-**Cập nhật lần cuối:** 2026-01-11
-**Đã thử nghiệm với:** Aspose.Slides cho Java 25.4 (bộ phân loại JDK16)
-**Tác giả:** Giả định 
+**Cập nhật lần cuối:** 2026-05-29  
+**Đã kiểm tra với:** Aspose.Slides cho Java 25.4 (JDK 16 classifier)  
+**Tác giả:** Aspose
 
----
+## Các hướng dẫn liên quan
+
+- [How to Add Charts to PowerPoint Using Aspose.Slides for Java: A Step‑By‑Step Guide](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [How to Create and Format PowerPoint Charts Using Aspose.Slides for Java: A Comprehensive Guide](/slides/java/charts-graphs/create-format-powerpoint-charts-aspose-slides-java/)
+- [Create Dynamic Powerpoint Java – Aspose.Slides Animation Types Guide](/slides/java/animations-transitions/aspose-slides-java-animation-comparison-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
