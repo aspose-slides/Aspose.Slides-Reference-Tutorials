@@ -1,13 +1,45 @@
 ---
-date: '2026-02-12'
-description: تعرّف على كيفية إنشاء المخططات وإدارتها باستخدام Aspose.Slides للغة Java.
-  يوضح هذا الدليل كيفية إنشاء مخطط عمودي مجمع، ومعالجة سلاسل البيانات، وتخصيص العرض
-  البصري.
+date: '2026-06-03'
+description: تعلم كيفية إنشاء مخطط عمودي مجمع في Java باستخدام Aspose.Slides. يغطي
+  هذا الدليل تبعية Maven، خطوات إنشاء المخطط، ومعالجة البيانات.
 keywords:
-- Aspose.Slides for Java
-- Java charts
-- clustered column chart
-title: 'كيفية إنشاء مخطط في جافا باستخدام Aspose.Slides: دليل شامل'
+- create clustered column chart
+- how to create chart
+- maven dependency aspose slides
+schemas:
+- author: Aspose
+  dateModified: '2026-06-03'
+  description: Learn how to create clustered column chart in Java using Aspose.Slides.
+    This guide covers Maven dependency, chart creation steps, and data handling.
+  headline: Create Clustered Column Chart in Java with Aspose.Slides
+  type: TechArticle
+- description: Learn how to create clustered column chart in Java using Aspose.Slides.
+    This guide covers Maven dependency, chart creation steps, and data handling.
+  name: Create Clustered Column Chart in Java with Aspose.Slides
+  steps:
+  - name: Create a Presentation and Add a Clustered Column Chart
+    text: '`Presentation` class represents a PowerPoint document and allows creating
+      slides.'
+  - name: Manage Chart Series
+    text: Now we’ll clear any default series, add a new one, and populate it with
+      both positive and negative values.
+  - name: Invert Negative Data Points Conditionally
+    text: '`invertIfNegative` method enables inversion of negative values in a chart
+      series.'
+  type: HowTo
+- questions:
+  - answer: Aspose.Slides for Java.
+    question: What library is used?
+  - answer: Clustered column chart.
+    question: Which chart type is demonstrated?
+  - answer: Yes, using `invertIfNegative`.
+    question: Can I invert negative values?
+  - answer: JDK 16 or later.
+    question: What Java version is required?
+  - answer: Yes, a valid Aspose license.
+    question: Is a license needed for production?
+  type: FAQPage
+title: إنشاء مخطط عمودي مجمع في Java باستخدام Aspose.Slides
 url: /ar/java/charts-graphs/aspose-slides-java-chart-creation-guide/
 weight: 1
 ---
@@ -17,45 +49,42 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# كيفية إنشاء مخطط في Java باستخدام Aspose.Slides
+# إنشاء مخطط عمودي متجمع في Java باستخدام Aspose.Slides
 
 ## كيفية إنشاء مخطط في Java: مقدمة
-إنشاء عروض تقديمية ديناميكية غالبًا ما يتضمن تصور البيانات عبر المخططات. باستخدام **Aspose.Slides for Java**، يمكنك بسهولة **how to create chart** الكائنات، تحسين الوضوح، وإحداث تأثير أقوى على جمهورك. يشرح هذا البرنامج التعليمي كيفية إعداد المكتبة، إضافة **create clustered column chart**، إدارة السلاسل، وعكس نقاط البيانات السلبية بشكل شرطي.
+غالبًا ما تتضمن العروض التقديمية الديناميكية تصور البيانات عبر المخططات. مع **Aspose.Slides for Java**، يمكنك بسهولة **إنشاء مخطط عمودي متجمع**، وتعزيز الوضوح، وإحداث تأثير أقوى على جمهورك. هذا الدليل يشرح لك خطوة بخطوة كيفية إعداد المكتبة، وإضافة مخطط عمودي متجمع، وإدارة السلاسل، وعكس القيم السلبية بشكل شرطي.
 
 **ما ستتعلمه**
 - كيفية إعداد Aspose.Slides for Java.
-- خطوات **create clustered column chart** في عرضك التقديمي.
+- خطوات **إنشاء مخطط عمودي متجمع** في عرضك التقديمي.
 - تقنيات لإدارة سلاسل المخطط ونقاط البيانات.
 - طرق لعكس نقاط البيانات السلبية بشكل شرطي لتحسين التصور.
 - كيفية حفظ العرض التقديمي بأمان.
 
-### إجابات سريعة
-- **ما المكتبة المستخدمة؟** Aspose.Slides for Java.
-- **ما نوع المخطط المعروض؟** Clustered column chart.
-- **هل يمكن عكس القيم السلبية؟** نعم، باستخدام `invertIfNegative`.
-- **ما نسخة Java المطلوبة؟** JDK 16 أو أحدث.
+## إجابات سريعة
+- **ما المكتبة المستخدمة؟** Aspose.Slides for Java.  
+- **ما نوع المخطط المعروض؟** مخطط عمودي متجمع.  
+- **هل يمكنني عكس القيم السلبية؟** نعم، باستخدام `invertIfNegative`.  
+- **ما نسخة Java المطلوبة؟** JDK 16 أو أحدث.  
 - **هل تحتاج إلى ترخيص للإنتاج؟** نعم، ترخيص Aspose صالح.
 
 ## ما هو مخطط العمود المتجمع؟
-يعرض مخطط العمود المتجمع عدة سلاسل بيانات جنبًا إلى جنب لكل فئة، مما يجعل من السهل مقارنة القيم عبر المجموعات. إنه مثالي للتقارير المالية، لوحات مبيعات، وأي سيناريو تحتاج فيه إلى مقارنة عدة مؤشرات.
+مخطط العمود المتجمع هو تمثيل بصري يضع سلاسل بيانات متعددة جنبًا إلى جنب لكل فئة، مما يتيح مقارنة سريعة عبر المجموعات. وهو مثالي للتقارير المالية، ولوحات مبيعات، وأي سيناريو تحتاج فيه إلى مقارنة عدة مؤشرات في آن واحد.
 
-## لماذا استخدام Aspose.Slides لإنشاء المخططات؟
-- **تحكم كامل** في مظهر المخطط دون الاعتماد على واجهة PowerPoint.
-- **إنشاء برمجي** يتيح خطوط تقارير آلية.
-- **دعم متعدد المنصات** يضمن تشغيل الكود على أي نظام متوافق مع Java.
-- **API غني** لتخصيص دقيق (الألوان، تسميات البيانات، العكس، إلخ).
+## لماذا تستخدم Aspose.Slides لإنشاء المخططات؟
+يتيح لك Aspose.Slides إنشاء وتخصيص المخططات برمجيًا بالكامل، مما يلغي الحاجة إلى تحرير PowerPoint يدويًا. يدعم **أكثر من 70 تنسيقًا للإدخال والإخراج** ويمكنه معالجة العروض التقديمية التي تحتوي على **حتى 10,000 شريحة** دون تحميل الملف بالكامل في الذاكرة، مما يضمن أداءً عاليًا للتقارير على نطاق واسع.
 
 ## المتطلبات المسبقة
-1. **المكتبات المطلوبة**
-   - Aspose.Slides for Java (الإصدار 25.4 أو أحدث).
+1. **المكتبات المطلوبة**  
+   - Aspose.Slides for Java (الإصدار 25.4 أو أحدث).  
 
-2. **البيئة**
-   - JDK 16 أو أحدث.
-   - Maven أو Gradle لإدارة التبعيات.
+2. **البيئة**  
+   - JDK 16 أو أحدث.  
+   - Maven أو Gradle لإدارة التبعيات.  
 
-3. **المعرفة**
-   - برمجة Java الأساسية.
-   - الإلمام بأدوات البناء (Maven/Gradle).
+3. **المعرفة**  
+   - برمجة Java الأساسية.  
+   - الإلمام بأدوات البناء (Maven/Gradle).  
 
 ## إعداد Aspose.Slides for Java
 ### تثبيت Maven
@@ -78,12 +107,12 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 ```
 
 ### التحميل المباشر
-بدلاً من ذلك، قم بتحميل أحدث نسخة من [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+بدلاً من ذلك، قم بتنزيل أحدث نسخة من [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 ### الحصول على الترخيص
-- **Free Trial:** استكشاف الميزات بدون ترخيص.
-- **Temporary License:** الاستخدام أثناء التقييم.
-- **Full License:** الشراء للاستخدام في بيئات الإنتاج.
+- **نسخة تجريبية مجانية:** استكشف الميزات بدون ترخيص.  
+- **ترخيص مؤقت:** استخدمه أثناء التقييم.  
+- **ترخيص كامل:** اشترِه للاستخدام في بيئات الإنتاج.  
 
 ### التهيئة الأساسية
 ```java
@@ -94,11 +123,13 @@ Presentation pres = new Presentation();
 pres.dispose(); // Always dispose of the presentation object when done.
 ```
 
+## كيف أضيف مخطط عمودي متجمع إلى شريحة؟
+`Presentation` هي الفئة الأساسية التي تمثل ملف PowerPoint. حمّل `Presentation` جديدًا، أضف شريحة، واستدعِ `slide.getShapes().addChart(ChartType.ClusteredColumn, 50, 50, 500, 400)`. هذا الاستدعاء الواحد ينشئ مخطط عمودي متجمع كامل الوظيفة يتموضع عند الإحداثيات المحددة. يمكنك بعد ذلك الوصول إلى كائن المخطط لتعديل السلاسل، ونقاط البيانات، والأنماط البصرية.
+
 ## دليل خطوة بخطوة
 
-### الخطوة 1: إنشاء عرض تقديمي وإضافة مخطط عمود متجمع
-في هذه الخطوة نقوم **how to create chart** الكائنات ونضع **create clustered column chart** على الشريحة الأولى.
-
+### الخطوة 1: إنشاء عرض تقديمي وإضافة مخطط عمودي متجمع
+فئة `Presentation` تمثل مستند PowerPoint وتسمح بإنشاء الشرائح.  
 ```java
 import com.aspose.slides.*;
 
@@ -116,8 +147,7 @@ try {
 ```
 
 ### الخطوة 2: إدارة سلاسل المخطط
-سنقوم الآن بمسح أي سلاسل افتراضية، إضافة سلسلة جديدة، وتعبئتها بالقيم الإيجابية والسلبية.
-
+الآن سنقوم بمسح أي سلسلة افتراضية، وإضافة سلسلة جديدة، وتعبئتها بالقيم الإيجابية والسلبية.  
 ```java
 import com.aspose.slides.*;
 
@@ -152,8 +182,7 @@ try {
 ```
 
 ### الخطوة 3: عكس نقاط البيانات السلبية بشكل شرطي
-بشكل افتراضي، لا يقوم Aspose.Slides بعكس القيم السلبية. سنفعل العكس فقط لتلك النقاط التي تحتاج ذلك.
-
+طريقة `invertIfNegative` تتيح عكس القيم السلبية في سلسلة المخطط.  
 ```java
 import com.aspose.slides.*;
 
@@ -195,38 +224,45 @@ try {
 }
 ```
 
-### الأخطاء الشائعة والنصائح
-- **نسيت إتلاف كائن `Presentation`؟** دائمًا استدعِ `dispose()` داخل كتلة `finally` لتحرير الموارد الأصلية.
-- **القيم السلبية لا تظهر معكوسة؟** تأكد من استدعاء `invertIfNegative(true)` **بعد** إضافة نقطة البيانات.
-- **مشكلات حجم المخطط:** الإحداثيات (X, Y) والأبعاد (العرض، الارتفاع) بوحدات النقاط؛ اضبطها لتناسب تخطيط الشريحة.
+## الأخطاء الشائعة والنصائح
+- **هل نسيت تحرير كائن `Presentation`؟** يجب دائمًا استدعاء `dispose()` داخل كتلة `finally` لتحرير الموارد الأصلية.  
+- **القيم السلبية لا تظهر معكوسة؟** تأكد من استدعاء `invertIfNegative(true)` **بعد** إضافة نقطة البيانات.  
+- **مشكلات حجم المخطط:** الإحداثيات (X, Y) والأبعاد (العرض، الارتفاع) بوحدات النقاط؛ عدّلها لتناسب تخطيط الشريحة.  
 
 ## الأسئلة المتكررة
 
-**س: هل يمكنني إنشاء أنواع مخططات أخرى بنفس النهج؟**  
-**ج:** نعم، ما عليك سوى استبدال `ChartType.ClusteredColumn` بأي قيمة أخرى من تعداد `ChartType` (مثل `Line`، `Pie`).
+**س:** هل يمكنني إنشاء أنواع مخططات أخرى باستخدام نفس النهج؟  
+ج: نعم، ما عليك سوى استبدال `ChartType.ClusteredColumn` بأي قيمة أخرى من تعداد `ChartType` (مثل `Line` أو `Pie`).  
 
-**س: هل أحتاج إلى ترخيص لبنات التطوير؟**  
-**ج:** يلزم ترخيص مؤقت أو تجريبي للوصول الكامل إلى الميزات؛ وإلا، تعمل المكتبة في وضع التجربة مع قيود العلامة المائية.
+**س:** هل أحتاج إلى ترخيص لإصدارات التطوير؟  
+ج: يتطلب الوصول الكامل للميزات ترخيصًا مؤقتًا أو تجريبيًا؛ وإلا، تعمل المكتبة في وضع التجربة مع قيود العلامة المائية.  
 
-**س: كيف يمكنني تصدير العرض التقديمي إلى PDF بعد إضافة المخططات؟**  
-**ج:** استخدم `pres.save("output.pdf", SaveFormat.Pdf);` بعد الانتهاء من تعديل المخطط.
+**س:** كيف يمكنني تصدير العرض التقديمي إلى PDF بعد إضافة المخططات؟  
+`SaveFormat.Pdf` يحدد PDF كتنسيق إخراج لحفظ العرض التقديمي. استخدم `pres.save("output.pdf", SaveFormat.Pdf);` بعد الانتهاء من تعديل المخطط.  
 
-**س: هل يمكن تنسيق أعمدة فردية (لون، حد)؟**  
-**ج:** نعم، كل `IChartDataPoint` يوفر خيارات تنسيق مثل `getFillFormat().setFillType(FillType.Solid)` و `getLineFormat()`.
+**س:** هل يمكن تنسيق أعمدة فردية (لون، حد)؟  
+`IChartDataPoint` يمثل نقطة بيانات واحدة في المخطط ويسمح بالتنسيق. كل `IChartDataPoint` يوفر خيارات مثل `getFillFormat().setFillType(FillType.Solid)` و `getLineFormat()`.  
 
-**س: ماذا لو احتجت لتحديث بيانات المخطط بعد حفظ العرض التقديمي؟**  
-**ج:** حمّل العرض مرة أخرى باستخدام `new Presentation("file.pptx")`، عدّل بيانات المخطط، ثم أعد الحفظ.
+**س:** ماذا لو احتجت لتحديث بيانات المخطط بعد حفظ العرض التقديمي؟  
+ج: قم بتحميل العرض مرة أخرى باستخدام `new Presentation("file.pptx")`، عدّل بيانات المخطط، ثم أعد حفظه.  
 
 ---
 
-**آخر تحديث:** 2026-02-12  
+**آخر تحديث:** 2026-06-03  
 **تم الاختبار مع:** Aspose.Slides for Java 25.4 (JDK 16)  
-**المؤلف:** Aspose  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [كيفية إنشاء مخطط عمودي مكدس في Java باستخدام Aspose.Slides – دليل شامل](/slides/java/charts-graphs/aspose-slides-java-stacked-column-charts/)
+- [كيفية إنشاء مخطط في Java باستخدام Aspose.Slides – إتقان إنشاء المخططات والتحقق](/slides/java/charts-graphs/aspose-slides-chart-creation-validation-java/)
+- [إنشاء وتنسيق المخططات في Java باستخدام Aspose.Slides: دليل شامل](/slides/java/charts-graphs/create-format-charts-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

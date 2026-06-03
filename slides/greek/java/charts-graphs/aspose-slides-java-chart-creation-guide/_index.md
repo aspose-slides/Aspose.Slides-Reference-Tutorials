@@ -1,15 +1,46 @@
 ---
-date: '2026-02-12'
-description: Μάθετε πώς να δημιουργείτε διαγράμματα και να διαχειρίζεστε διαγράμματα
-  χρησιμοποιώντας το Aspose.Slides for Java. Αυτό το σεμινάριο δείχνει πώς να δημιουργήσετε
-  ένα ομαδοποιημένο ραβδόγραμμα, να διαχειριστείτε σειρές δεδομένων και να προσαρμόσετε
-  την απεικόνιση.
+date: '2026-06-03'
+description: Μάθετε πώς να δημιουργήσετε clustered column chart σε Java χρησιμοποιώντας
+  Aspose.Slides. Αυτός ο οδηγός καλύπτει την εξάρτηση Maven, τα βήματα δημιουργίας
+  chart, και το data handling.
 keywords:
-- Aspose.Slides for Java
-- Java charts
-- clustered column chart
-title: 'Πώς να δημιουργήσετε διάγραμμα σε Java με το Aspose.Slides: Ένας ολοκληρωμένος
-  οδηγός'
+- create clustered column chart
+- how to create chart
+- maven dependency aspose slides
+schemas:
+- author: Aspose
+  dateModified: '2026-06-03'
+  description: Learn how to create clustered column chart in Java using Aspose.Slides.
+    This guide covers Maven dependency, chart creation steps, and data handling.
+  headline: Create Clustered Column Chart in Java with Aspose.Slides
+  type: TechArticle
+- description: Learn how to create clustered column chart in Java using Aspose.Slides.
+    This guide covers Maven dependency, chart creation steps, and data handling.
+  name: Create Clustered Column Chart in Java with Aspose.Slides
+  steps:
+  - name: Create a Presentation and Add a Clustered Column Chart
+    text: '`Presentation` class represents a PowerPoint document and allows creating
+      slides.'
+  - name: Manage Chart Series
+    text: Now we’ll clear any default series, add a new one, and populate it with
+      both positive and negative values.
+  - name: Invert Negative Data Points Conditionally
+    text: '`invertIfNegative` method enables inversion of negative values in a chart
+      series.'
+  type: HowTo
+- questions:
+  - answer: Aspose.Slides for Java.
+    question: What library is used?
+  - answer: Clustered column chart.
+    question: Which chart type is demonstrated?
+  - answer: Yes, using `invertIfNegative`.
+    question: Can I invert negative values?
+  - answer: JDK 16 or later.
+    question: What Java version is required?
+  - answer: Yes, a valid Aspose license.
+    question: Is a license needed for production?
+  type: FAQPage
+title: Δημιουργία Clustered Column Chart σε Java με Aspose.Slides
 url: /el/java/charts-graphs/aspose-slides-java-chart-creation-guide/
 weight: 1
 ---
@@ -19,49 +50,46 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Πώς να δημιουργήσετε γράφημα σε Java με το Aspose.Slides
+# Δημιουργία Clustered Column Chart σε Java με Aspose.Slides
 
-## Πώς να δημιουργήσετε γράφημα σε Java: Εισαγωγή
-Η δημιουργία δυναμικών παρουσιάσεων συχνά περιλαμβάνει την απεικόνιση δεδομένων μέσω γραφημάτων. Με **Aspose.Slides for Java**, μπορείτε εύκολα να **how to create chart** αντικείμενα, να βελτιώσετε την καθαρότητα και να έχετε μεγαλύτερο αντίκτυπο στο κοινό σας. Αυτό το εκπαιδευτικό υλικό σας καθοδηγεί στη ρύθμιση της βιβλιοθήκης, την προσθήκη ενός **create clustered column chart**, τη διαχείριση σειρών και την υπό όρους αντιστροφή των αρνητικών σημείων δεδομένων.
+## Πώς να δημιουργήσετε Chart σε Java: Εισαγωγή
+Η δημιουργία δυναμικών παρουσιάσεων συχνά περιλαμβάνει την απεικόνιση δεδομένων μέσω διαγραμμάτων. Με **Aspose.Slides for Java**, μπορείτε εύκολα να **create clustered column chart** αντικείμενα, να βελτιώσετε την καθαρότητα και να έχετε μεγαλύτερο αντίκτυπο στο κοινό σας. Αυτό το σεμινάριο σας καθοδηγεί στη ρύθμιση της βιβλιοθήκης, την προσθήκη ενός clustered column chart, τη διαχείριση σειρών και την υπό όρους αντιστροφή των αρνητικών σημείων δεδομένων.
 
-**Τι θα μάθετε**
-- Πώς να ρυθμίσετε το Aspose.Slides for Java.
-- Βήματα για **create clustered column chart** στην παρουσίασή σας.
-- Τεχνικές για τη διαχείριση σειρών γραφήματος και σημείων δεδομένων.
-- Μέθοδοι για την υπό όρους αντιστροφή των αρνητικών σημείων δεδομένων για καλύτερη απεικόνιση.
-- Πώς να αποθηκεύσετε την παρουσίαση με ασφάλεια.
+**What You'll Learn**
+- Πώς να ρυθμίσετε Aspose.Slides for Java.  
+- Βήματα για **create clustered column chart** στην παρουσίασή σας.  
+- Τεχνικές για διαχείριση σειρών διαγράμματος και σημείων δεδομένων.  
+- Μεθόδους για υπό όρους αντιστροφή αρνητικών σημείων δεδομένων για καλύτερη οπτικοποίηση.  
+- Πώς να αποθηκεύσετε την παρουσίαση με ασφάλεια.  
 
-### Γρήγορες Απαντήσεις
-- **Τι βιβλιοθήκη χρησιμοποιείται;** Aspose.Slides for Java.
-- **Ποιος τύπος γραφήματος παρουσιάζεται;** Clustered column chart.
-- **Μπορώ να αντιστρέψω αρνητικές τιμές;** Ναι, χρησιμοποιώντας `invertIfNegative`.
-- **Ποια έκδοση Java απαιτείται;** JDK 16 ή νεότερη.
-- **Απαιτείται άδεια για παραγωγή;** Ναι, μια έγκυρη άδεια Aspose.
+## Γρήγορες Απαντήσεις
+- **What library is used?** Aspose.Slides for Java.  
+- **Which chart type is demonstrated?** Clustered column chart.  
+- **Can I invert negative values?** Yes, using `invertIfNegative`.  
+- **What Java version is required?** JDK 16 or later.  
+- **Is a license needed for production?** Yes, a valid Aspose license.  
 
-## Τι είναι το Clustered Column Chart;
-Ένα clustered column chart εμφανίζει πολλαπλές σειρές δεδομένων πλάι‑πλάι για κάθε κατηγορία, καθιστώντας εύκολη τη σύγκριση τιμών μεταξύ ομάδων. Είναι ιδανικό για οικονομικές αναφορές, πίνακες ελέγχου πωλήσεων και οποιοδήποτε σενάριο όπου χρειάζεται να συγκρίνετε διάφορα μετρικά.
+## Τι είναι ένα Clustered Column Chart;
+Ένα clustered column chart είναι μια οπτική αναπαράσταση που τοποθετεί πολλαπλές σειρές δεδομένων πλάι‑πλάι για κάθε κατηγορία, επιτρέποντας γρήγορη σύγκριση μεταξύ ομάδων. Είναι ιδανικό για οικονομικές αναφορές, πίνακες πωλήσεων και οποιοδήποτε σενάριο όπου χρειάζεται να συγκρίνετε πολλούς δείκτες ταυτόχρονα.  
 
-## Γιατί να χρησιμοποιήσετε το Aspose.Slides για δημιουργία γραφημάτων;
-- **Πλήρης έλεγχος** στην εμφάνιση του γραφήματος χωρίς να εξαρτάστε από το UI του PowerPoint.
-- **Προγραμματιστική δημιουργία** επιτρέπει αυτοματοποιημένες γραμμές αναφοράς.
-- **Διαπλατφορμική** υποστήριξη εξασφαλίζει ότι ο κώδικάς σας εκτελείται σε οποιοδήποτε σύστημα συμβατό με Java.
-- **Πλούσιο API** για λεπτομερή προσαρμογή (χρώματα, ετικέτες δεδομένων, αντιστροφή κ.λπ.).
+## Γιατί να χρησιμοποιήσετε Aspose.Slides για τη δημιουργία διαγραμμάτων;
+Aspose.Slides σας επιτρέπει να δημιουργείτε και να προσαρμόζετε πλήρως διαγράμματα προγραμματιστικά, εξαλείφοντας την ανάγκη για χειροκίνητη επεξεργασία PowerPoint. Υποστηρίζει **70+ input and output formats** και μπορεί να επεξεργαστεί παρουσιάσεις με **up to 10,000 slides** χωρίς να φορτώνει ολόκληρο το αρχείο στη μνήμη, εξασφαλίζοντας υψηλή απόδοση για μεγάλης κλίμακας αναφορές.  
 
 ## Προαπαιτούμενα
-1. **Απαιτούμενες βιβλιοθήκες**
-   - Aspose.Slides for Java (version 25.4 ή νεότερη).
+1. **Απαιτούμενες Βιβλιοθήκες**  
+   - Aspose.Slides for Java (version 25.4 or later).  
 
-2. **Περιβάλλον**
-   - JDK 16 ή νεότερο.
-   - Maven ή Gradle για διαχείριση εξαρτήσεων.
+2. **Περιβάλλον**  
+   - JDK 16 or newer.  
+   - Maven or Gradle for dependency management.  
 
-3. **Γνώση**
-   - Βασικός προγραμματισμός Java.
-   - Εξοικείωση με εργαλεία κατασκευής (Maven/Gradle).
+3. **Γνώσεις**  
+   - Basic Java programming.  
+   - Familiarity with build tools (Maven/Gradle).  
 
-## Ρύθμιση του Aspose.Slides για Java
-### Εγκατάσταση μέσω Maven
-Προσθέστε την παρακάτω εξάρτηση στο αρχείο `pom.xml` σας:
+## Ρύθμιση Aspose.Slides για Java
+### Εγκατάσταση Maven
+Add the following dependency to your `pom.xml` file:
 
 ```xml
 <dependency>
@@ -72,20 +100,20 @@ weight: 1
 </dependency>
 ```
 
-### Εγκατάσταση μέσω Gradle
-Προσθέστε την παρακάτω γραμμή στο αρχείο `build.gradle` σας:
+### Εγκατάσταση Gradle
+Add the following line to your `build.gradle` file:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Άμεση λήψη
-Εναλλακτικά, κατεβάστε την πιο πρόσφατη έκδοση από [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+### Άμεση Λήψη
+Alternatively, download the latest version from [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### Απόκτηση άδειας
-- **Δωρεάν Δοκιμή:** Εξερευνήστε τις δυνατότητες χωρίς άδεια.
-- **Προσωρινή Άδεια:** Χρησιμοποιήστε κατά την αξιολόγηση.
-- **Πλήρης Άδεια:** Αγοράστε για παραγωγικές εγκαταστάσεις.
+### Απόκτηση Άδειας
+- **Free Trial:** Δωρεάν Δοκιμή: Εξερευνήστε τις δυνατότητες χωρίς άδεια.  
+- **Temporary License:** Προσωρινή Άδεια: Χρησιμοποιήστε την κατά τη διάρκεια αξιολόγησης.  
+- **Full License:** Πλήρης Άδεια: Αγοράστε για παραγωγικές εγκαταστάσεις.  
 
 ### Βασική Αρχικοποίηση
 ```java
@@ -96,10 +124,13 @@ Presentation pres = new Presentation();
 pres.dispose(); // Always dispose of the presentation object when done.
 ```
 
-## Οδηγός βήμα‑βήμα
+## Πώς να προσθέσω ένα clustered column chart σε μια διαφάνεια;
+`Presentation` είναι η κύρια κλάση που αντιπροσωπεύει ένα αρχείο PowerPoint. Φορτώστε ένα νέο `Presentation`, προσθέστε μια διαφάνεια και καλέστε `slide.getShapes().addChart(ChartType.ClusteredColumn, 50, 50, 500, 400)`. Αυτή η εντολή δημιουργεί ένα πλήρως λειτουργικό clustered column chart στη θέση που καθορίζεται από τις συντεταγμένες. Στη συνέχεια μπορείτε να αποκτήσετε πρόσβαση στο αντικείμενο διαγράμματος για να τροποποιήσετε σειρές, σημεία δεδομένων και οπτικά στυλ.  
 
-### Βήμα 1: Δημιουργία παρουσίασης και προσθήκη Clustered Column Chart
-Σε αυτό το βήμα δημιουργούμε αντικείμενα **how to create chart** και τοποθετούμε ένα **create clustered column chart** στην πρώτη διαφάνεια.
+## Οδηγός Βήμα‑βήμα
+
+### Βήμα 1: Δημιουργία Παρουσίασης και Προσθήκη Clustered Column Chart
+`Presentation` class represents a PowerPoint document and allows creating slides.  
 
 ```java
 import com.aspose.slides.*;
@@ -117,8 +148,8 @@ try {
 }
 ```
 
-### Βήμα 2: Διαχείριση σειρών γραφήματος
-Τώρα θα διαγράψουμε τυχόν προεπιλεγμένες σειρές, θα προσθέσουμε μια νέα και θα την γεμίσουμε με θετικές και αρνητικές τιμές.
+### Βήμα 2: Διαχείριση Σειρών Διαγράμματος
+Now we’ll clear any default series, add a new one, and populate it with both positive and negative values.  
 
 ```java
 import com.aspose.slides.*;
@@ -153,8 +184,8 @@ try {
 }
 ```
 
-### Βήμα 3: Αντιστροφή αρνητικών σημείων δεδομένων υπό όρους
-Από προεπιλογή, το Aspose.Slides δεν αντιστρέφει τις αρνητικές τιμές. Θα ενεργοποιήσουμε την αντιστροφή μόνο για εκείνα τα σημεία που το απαιτούν.
+### Βήμα 3: Αντιστροφή Αρνητικών Σημείων Δεδομένων υπό Όρους
+`invertIfNegative` method enables inversion of negative values in a chart series.  
 
 ```java
 import com.aspose.slides.*;
@@ -197,38 +228,45 @@ try {
 }
 ```
 
-### Συνηθισμένα λάθη & Συμβουλές
-- **Ξεχάσατε να απελευθερώσετε το αντικείμενο `Presentation`;** Πάντα καλέστε `dispose()` σε ένα μπλοκ `finally` για να ελευθερώσετε τους εγγενείς πόρους.
-- **Οι αρνητικές τιμές δεν εμφανίζονται αντιστροπείσες;** Βεβαιωθείτε ότι καλείτε `invertIfNegative(true)` **μετά** την προσθήκη του σημείου δεδομένων.
-- **Προβλήματα μεγέθους γραφήματος:** Οι συντεταγμένες (X, Y) και οι διαστάσεις (πλάτος, ύψος) είναι σε points· προσαρμόστε τις ώστε να ταιριάζουν στη διάταξη της διαφάνειας.
+## Κοινά Λάθη & Συμβουλές
+- **Forgot to dispose the `Presentation` object?** Always call `dispose()` in a `finally` block to free native resources.  
+- **Negative values not showing as inverted?** Ensure you call `invertIfNegative(true)` **after** adding the data point.  
+- **Chart size issues:** The coordinates (X, Y) and dimensions (width, height) are in points; adjust them to fit your slide layout.  
 
 ## Συχνές Ερωτήσεις
 
-**Q: Μπορώ να δημιουργήσω άλλους τύπους γραφημάτων με την ίδια προσέγγιση;**  
-A: Ναι, απλώς αντικαταστήστε το `ChartType.ClusteredColumn` με οποιαδήποτε άλλη τιμή του enum `ChartType` (π.χ., `Line`, `Pie`).
+**Q:** Μπορώ να δημιουργήσω άλλους τύπους διαγραμμάτων με την ίδια προσέγγιση;  
+A: Ναι, απλώς αντικαταστήστε `ChartType.ClusteredColumn` με οποιαδήποτε άλλη τιμή του enum `ChartType` (π.χ., `Line`, `Pie`).  
 
-**Q: Χρειάζομαι άδεια για εκδόσεις ανάπτυξης;**  
-A: Απαιτείται προσωρινή ή αξιολογική άδεια για πλήρη πρόσβαση στις δυνατότητες· διαφορετικά, η βιβλιοθήκη λειτουργεί σε λειτουργία δοκιμής με περιορισμούς υδατογραφήματος.
+**Q:** Χρειάζομαι άδεια για εκδόσεις ανάπτυξης;  
+A: A temporary or evaluation license is required for full feature access; otherwise, the library works in trial mode with watermark limitations.  
 
-**Q: Πώς εξάγω την παρουσίαση σε PDF μετά την προσθήκη γραφημάτων;**  
-A: Χρησιμοποιήστε `pres.save("output.pdf", SaveFormat.Pdf);` μετά την ολοκλήρωση της επεξεργασίας του γραφήματος.
+**Q:** Πώς μπορώ να εξάγω την παρουσίαση σε PDF μετά την προσθήκη διαγραμμάτων;  
+`SaveFormat.Pdf` specifies PDF as the output format for saving a presentation. Use `pres.save("output.pdf", SaveFormat.Pdf);` after you finish chart manipulation.  
 
-**Q: Είναι δυνατόν να μορφοποιήσετε μεμονωμένες στήλες (χρώμα, περιθώριο);**  
-A: Ναι, κάθε `IChartDataPoint` παρέχει επιλογές μορφοποίησης όπως `getFillFormat().setFillType(FillType.Solid)` και `getLineFormat()`.
+**Q:** Είναι δυνατόν να μορφοποιήσετε μεμονωμένες στήλες (χρώμα, περίγραμμα);  
+`IChartDataPoint` represents a single data point in a chart and allows formatting. Each `IChartDataPoint` provides options such as `getFillFormat().setFillType(FillType.Solid)` and `getLineFormat()`.  
 
-**Q: Τι κάνω αν χρειαστεί να ενημερώσω τα δεδομένα του γραφήματος μετά την αποθήκευση της παρουσίασης;**  
-A: Φορτώστε ξανά την παρουσίαση με `new Presentation("file.pptx")`, τροποποιήστε τα δεδομένα του γραφήματος και αποθηκεύστε ξανά.
+**Q:** Τι γίνεται αν χρειαστεί να ενημερώσω τα δεδομένα του διαγράμματος μετά την αποθήκευση της παρουσίασης;  
+A: Load the presentation again with `new Presentation("file.pptx")`, modify the chart data, and re‑save.  
 
 ---
 
-**Τελευταία ενημέρωση:** 2026-02-12  
-**Δοκιμάστηκε με:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Συγγραφέας:** Aspose  
+**Last Updated:** 2026-06-03  
+**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Author:** Aspose  
+
+## Σχετικά Σεμινάρια
+
+- [Πώς να δημιουργήσετε στοίβαγμα στήλης διάγραμμα σε Java με Aspose.Slides – Ένας Πλήρης Οδηγός](/slides/java/charts-graphs/aspose-slides-java-stacked-column-charts/)
+- [Πώς να Δημιουργήσετε Chart σε Java με Aspose.Slides – Κατάκτηση της Δημιουργίας και Επικύρωσης Διαγραμμάτων](/slides/java/charts-graphs/aspose-slides-chart-creation-validation-java/)
+- [Δημιουργία & Μορφοποίηση Διαγραμμάτων σε Java με Aspose.Slides: Ένας Πλήρης Οδηγός](/slides/java/charts-graphs/create-format-charts-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

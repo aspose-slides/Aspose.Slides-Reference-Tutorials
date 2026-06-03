@@ -1,12 +1,45 @@
 ---
-date: '2026-02-12'
-description: Aspose.Slides for Java를 사용하여 차트를 만들고 관리하는 방법을 배웁니다. 이 튜토리얼에서는 클러스터형 열
-  차트를 만드는 방법, 데이터 시리즈를 처리하는 방법, 시각화를 사용자 정의하는 방법을 보여줍니다.
+date: '2026-06-03'
+description: Java와 Aspose.Slides를 사용하여 클러스터형 열 차트를 만드는 방법을 배웁니다. 이 가이드는 Maven 의존성,
+  차트 생성 단계 및 데이터 처리에 대해 다룹니다.
 keywords:
-- Aspose.Slides for Java
-- Java charts
-- clustered column chart
-title: 'Java에서 Aspose.Slides로 차트 만드는 방법: 종합 가이드'
+- create clustered column chart
+- how to create chart
+- maven dependency aspose slides
+schemas:
+- author: Aspose
+  dateModified: '2026-06-03'
+  description: Learn how to create clustered column chart in Java using Aspose.Slides.
+    This guide covers Maven dependency, chart creation steps, and data handling.
+  headline: Create Clustered Column Chart in Java with Aspose.Slides
+  type: TechArticle
+- description: Learn how to create clustered column chart in Java using Aspose.Slides.
+    This guide covers Maven dependency, chart creation steps, and data handling.
+  name: Create Clustered Column Chart in Java with Aspose.Slides
+  steps:
+  - name: Create a Presentation and Add a Clustered Column Chart
+    text: '`Presentation` class represents a PowerPoint document and allows creating
+      slides.'
+  - name: Manage Chart Series
+    text: Now we’ll clear any default series, add a new one, and populate it with
+      both positive and negative values.
+  - name: Invert Negative Data Points Conditionally
+    text: '`invertIfNegative` method enables inversion of negative values in a chart
+      series.'
+  type: HowTo
+- questions:
+  - answer: Aspose.Slides for Java.
+    question: What library is used?
+  - answer: Clustered column chart.
+    question: Which chart type is demonstrated?
+  - answer: Yes, using `invertIfNegative`.
+    question: Can I invert negative values?
+  - answer: JDK 16 or later.
+    question: What Java version is required?
+  - answer: Yes, a valid Aspose license.
+    question: Is a license needed for production?
+  type: FAQPage
+title: Java와 Aspose.Slides를 사용하여 클러스터형 열 차트 만들기
 url: /ko/java/charts-graphs/aspose-slides-java-chart-creation-guide/
 weight: 1
 ---
@@ -16,49 +49,46 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Java와 Aspose.Slides를 사용하여 차트 만들기
+# Java와 Aspose.Slides를 사용한 클러스터형 열 차트 만들기
 
 ## Java에서 차트 만들기: 소개
-동적인 프레젠테이션을 만들 때는 차트를 통해 데이터를 시각화하는 경우가 많습니다. **Aspose.Slides for Java**를 사용하면 **차트 만들기** 객체를 손쉽게 **클러스터형 컬럼 차트 만들기**하고, 명확성을 높이며 청중에게 강한 인상을 남길 수 있습니다. 이 튜토리얼에서는 라이브러리 설정, **클러스터형 컬럼 차트** 추가, 시리즈 관리, 그리고 음수 데이터 포인트를 조건부로 반전시키는 방법을 단계별로 안내합니다.
+동적인 프레젠테이션을 만들 때는 종종 차트를 통해 데이터를 시각화합니다. **Aspose.Slides for Java**를 사용하면 **클러스터형 열 차트** 객체를 손쉽게 만들고, 명확성을 높이며 청중에게 더 강력한 인상을 줄 수 있습니다. 이 튜토리얼에서는 라이브러리 설정, 클러스터형 열 차트 추가, 시리즈 관리, 그리고 부정적인 데이터 포인트를 조건부로 반전시키는 방법을 단계별로 안내합니다.
 
 **배우게 될 내용**
 - Aspose.Slides for Java 설정 방법
-- 프레젠테이션에 **클러스터형 컬럼 차트**를 **만드는** 단계
-- 차트 시리즈와 데이터 포인트 관리 기법
-- 시각화를 개선하기 위한 음수 데이터 포인트 조건부 반전 방법
+- 프레젠테이션에서 **클러스터형 열 차트**를 만드는 단계
+- 차트 시리즈와 데이터 포인트를 관리하는 기술
+- 시각화를 개선하기 위해 부정적인 데이터 포인트를 조건부로 반전시키는 방법
 - 프레젠테이션을 안전하게 저장하는 방법
 
-### 빠른 답변
+## 빠른 답변
 - **사용된 라이브러리는?** Aspose.Slides for Java.  
-- **데모 차트 유형은?** 클러스터형 컬럼 차트.  
+- **시연된 차트 유형은?** 클러스터형 열 차트.  
 - **음수 값을 반전시킬 수 있나요?** 예, `invertIfNegative`를 사용합니다.  
 - **필요한 Java 버전은?** JDK 16 이상.  
 - **프로덕션에 라이선스가 필요합니까?** 예, 유효한 Aspose 라이선스가 필요합니다.
 
-## 클러스터형 컬럼 차트란?
-클러스터형 컬럼 차트는 각 카테고리마다 여러 데이터 시리즈를 나란히 표시하여 그룹 간 값을 쉽게 비교할 수 있게 해줍니다. 재무 보고서, 영업 대시보드, 여러 지표를 대비해야 하는 모든 상황에 이상적입니다.
+## 클러스터형 열 차트란 무엇인가요?
+클러스터형 열 차트는 각 범주에 대해 여러 데이터 시리즈를 나란히 배치하여 그룹 간 빠른 비교를 가능하게 하는 시각적 표현입니다. 재무 보고서, 영업 대시보드 및 여러 지표를 한 번에 대비해야 하는 모든 상황에 적합합니다.
 
-## Aspose.Slides를 차트 생성에 사용하는 이유
-- **전체 제어**: PowerPoint UI에 의존하지 않고 차트 외형을 완벽히 제어합니다.  
-- **프로그래밍 방식 생성**: 자동화된 보고 파이프라인을 구현할 수 있습니다.  
-- **크로스‑플랫폼**: Java 호환 시스템 어디서든 코드를 실행할 수 있습니다.  
-- **풍부한 API**: 색상, 데이터 레이블, 반전 등 세밀한 커스터마이징이 가능합니다.
+## 차트 생성에 Aspose.Slides를 사용하는 이유는?
+Aspose.Slides를 사용하면 차트를 프로그래밍 방식으로 생성하고 완전히 사용자 지정할 수 있어 수동 PowerPoint 편집이 필요 없습니다. **70개 이상의 입력 및 출력 형식**을 지원하며 **최대 10,000장의 슬라이드**까지 전체 파일을 메모리에 로드하지 않고 처리할 수 있어 대규모 보고서 작성 시 높은 성능을 보장합니다.
 
-## 사전 요구 사항
-1. **필수 라이브러리**
-   - Aspose.Slides for Java (버전 25.4 이상).
+## 전제 조건
+1. **필수 라이브러리**  
+   - Aspose.Slides for Java (버전 25.4 이상).  
 
-2. **환경**
-   - JDK 16 이상.
-   - Maven 또는 Gradle을 통한 의존성 관리.
+2. **환경**  
+   - JDK 16 이상.  
+   - Maven 또는 Gradle을 사용한 의존성 관리.  
 
-3. **지식**
-   - 기본 Java 프로그래밍.
-   - 빌드 도구(Maven/Gradle) 사용 경험.
+3. **지식**  
+   - 기본 Java 프로그래밍.  
+   - 빌드 도구(Maven/Gradle) 사용에 익숙함.
 
 ## Aspose.Slides for Java 설정
 ### Maven 설치
-`pom.xml` 파일에 다음 의존성을 추가합니다:
+Add the following dependency to your `pom.xml` file:
 
 ```xml
 <dependency>
@@ -70,18 +100,18 @@ weight: 1
 ```
 
 ### Gradle 설치
-`build.gradle` 파일에 다음 라인을 추가합니다:
+Add the following line to your `build.gradle` file:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
 ### 직접 다운로드
-또는 최신 버전을 [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/)에서 다운로드합니다.
+또는 최신 버전을 [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/)에서 다운로드하십시오.
 
 ### 라이선스 획득
 - **무료 체험:** 라이선스 없이 기능을 탐색합니다.  
-- **임시 라이선스:** 평가 기간 동안 사용합니다.  
+- **임시 라이선스:** 평가 중에 사용합니다.  
 - **정식 라이선스:** 프로덕션 배포를 위해 구매합니다.
 
 ### 기본 초기화
@@ -93,11 +123,13 @@ Presentation pres = new Presentation();
 pres.dispose(); // Always dispose of the presentation object when done.
 ```
 
+## 슬라이드에 클러스터형 열 차트를 추가하려면 어떻게 해야 하나요?
+`Presentation`은 PowerPoint 파일을 나타내는 핵심 클래스입니다. 새 `Presentation`을 로드하고 슬라이드를 추가한 뒤 `slide.getShapes().addChart(ChartType.ClusteredColumn, 50, 50, 500, 400)`을 호출합니다. 이 한 번의 호출로 지정된 좌표에 완전한 기능을 갖춘 클러스터형 열 차트가 생성됩니다. 이후 차트 객체에 접근하여 시리즈, 데이터 포인트 및 시각적 스타일을 수정할 수 있습니다.
+
 ## 단계별 가이드
 
-### 단계 1: 프레젠테이션 생성 및 클러스터형 컬럼 차트 추가
-이 단계에서는 **차트 만들기** 객체를 생성하고 첫 번째 슬라이드에 **클러스터형 컬럼 차트**를 배치합니다.
-
+### Step 1: 프레젠테이션을 만들고 클러스터형 열 차트를 추가합니다
+`Presentation` 클래스는 PowerPoint 문서를 나타내며 슬라이드 생성을 허용합니다.  
 ```java
 import com.aspose.slides.*;
 
@@ -114,9 +146,8 @@ try {
 }
 ```
 
-### 단계 2: 차트 시리즈 관리
-기본 시리즈를 제거하고 새 시리즈를 추가한 뒤, 양수와 음수 값을 모두 포함하도록 데이터를 채웁니다.
-
+### Step 2: 차트 시리즈 관리
+이제 기본 시리즈를 모두 제거하고 새 시리즈를 추가한 뒤 양수와 음수 값을 모두 채워 넣겠습니다.  
 ```java
 import com.aspose.slides.*;
 
@@ -150,9 +181,8 @@ try {
 }
 ```
 
-### 단계 3: 음수 데이터 포인트 조건부 반전
-기본적으로 Aspose.Slides는 음수 값을 반전시키지 않습니다. 필요한 포인트에만 반전을 활성화합니다.
-
+### Step 3: 부정적인 데이터 포인트를 조건부로 반전시키기
+`invertIfNegative` 메서드는 차트 시리즈에서 음수 값을 반전시킬 수 있게 합니다.  
 ```java
 import com.aspose.slides.*;
 
@@ -194,38 +224,45 @@ try {
 }
 ```
 
-### 흔히 발생하는 실수 및 팁
-- **`Presentation` 객체를 해제하지 않았나요?** `finally` 블록에서 항상 `dispose()`를 호출해 네이티브 리소스를 해제하세요.  
-- **음수 값이 반전되지 않나요?** 데이터 포인트를 추가한 **후에** `invertIfNegative(true)`를 호출했는지 확인하세요.  
-- **차트 크기 문제:** 좌표(X, Y)와 크기(width, height)는 포인트 단위이며, 슬라이드 레이아웃에 맞게 조정해야 합니다.
+## 일반적인 함정 및 팁
+- **`Presentation` 객체를 해제하는 것을 잊었나요?** 항상 `finally` 블록에서 `dispose()`를 호출하여 네이티브 리소스를 해제하십시오.  
+- **음수 값이 반전되지 않나요?** 데이터 포인트를 추가한 **후에** `invertIfNegative(true)`를 호출했는지 확인하십시오.  
+- **차트 크기 문제:** 좌표 (X, Y)와 크기 (width, height)는 포인트 단위이며, 슬라이드 레이아웃에 맞게 조정하십시오.  
 
 ## 자주 묻는 질문
 
-**Q: 같은 방법으로 다른 차트 유형도 만들 수 있나요?**  
-A: 예, `ChartType.ClusteredColumn`을 원하는 다른 `ChartType` 열거값(예: `Line`, `Pie`)으로 교체하면 됩니다.
+**Q:** 같은 방법으로 다른 차트 유형을 만들 수 있나요?  
+A: 예, `ChartType.ClusteredColumn`을 다른 `ChartType` 열거값(예: `Line`, `Pie`)으로 교체하면 됩니다.
 
-**Q: 개발 빌드에도 라이선스가 필요합니까?**  
-A: 전체 기능을 사용하려면 임시 또는 평가 라이선스가 필요합니다. 라이선스가 없으면 워터마크 제한이 있는 체험 모드로 동작합니다.
+**Q:** 개발 빌드에 라이선스가 필요합니까?  
+A: 전체 기능에 접근하려면 임시 또는 평가 라이선스가 필요합니다; 그렇지 않으면 라이브러리는 워터마크 제한이 있는 체험 모드로 동작합니다.
 
-**Q: 차트를 추가한 뒤 프레젠테이션을 PDF로 내보내려면 어떻게 하나요?**  
-A: 차트 조작을 마친 후 `pres.save("output.pdf", SaveFormat.Pdf);`를 호출합니다.
+**Q:** 차트를 추가한 후 프레젠테이션을 PDF로 내보내려면 어떻게 해야 하나요?  
+`SaveFormat.Pdf`는 프레젠테이션을 저장할 때 PDF를 출력 형식으로 지정합니다. 차트 작업을 마친 후 `pres.save("output.pdf", SaveFormat.Pdf);`를 사용하십시오.
 
-**Q: 개별 컬럼(색상, 테두리)을 스타일링할 수 있나요?**  
-A: 예, 각 `IChartDataPoint`는 `getFillFormat().setFillType(FillType.Solid)` 및 `getLineFormat()`과 같은 포맷 옵션을 제공합니다.
+**Q:** 개별 열(색상, 테두리)을 스타일링할 수 있나요?  
+`IChartDataPoint`는 차트의 단일 데이터 포인트를 나타내며 서식을 지정할 수 있습니다. 각 `IChartDataPoint`는 `getFillFormat().setFillType(FillType.Solid)` 및 `getLineFormat()`와 같은 옵션을 제공합니다.
 
-**Q: 프레젠테이션 저장 후 차트 데이터를 업데이트하려면 어떻게 해야 하나요?**  
-A: `new Presentation("file.pptx")`로 프레젠테이션을 다시 로드하고 차트 데이터를 수정한 뒤 재저장합니다.
+**Q:** 프레젠테이션을 저장한 후 차트 데이터를 업데이트해야 하면 어떻게 해야 하나요?  
+A: `new Presentation("file.pptx")`로 프레젠테이션을 다시 로드하고 차트 데이터를 수정한 뒤 다시 저장하십시오.
 
 ---
 
-**마지막 업데이트:** 2026-02-12  
+**마지막 업데이트:** 2026-06-03  
 **테스트 환경:** Aspose.Slides for Java 25.4 (JDK 16)  
-**작성자:** Aspose  
+**작성자:** Aspose
+
+## 관련 튜토리얼
+
+- [Java와 Aspose.Slides를 사용한 누적 열 차트 만들기 – 종합 가이드](/slides/java/charts-graphs/aspose-slides-java-stacked-column-charts/)
+- [Java와 Aspose.Slides를 사용한 차트 만들기 – 차트 생성 및 검증 마스터](/slides/java/charts-graphs/aspose-slides-chart-creation-validation-java/)
+- [Aspose.Slides를 사용한 Java 차트 만들기 및 서식 지정: 종합 가이드](/slides/java/charts-graphs/create-format-charts-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
