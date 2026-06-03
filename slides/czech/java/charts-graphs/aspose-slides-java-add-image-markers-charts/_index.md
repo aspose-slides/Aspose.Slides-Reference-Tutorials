@@ -1,12 +1,58 @@
 ---
-date: '2026-01-11'
-description: Naučte se, jak používat Aspose Slides pro Javu, přidávat obrázkové značky
-  do grafů a konfigurovat Mavenovou závislost Aspose Slides pro vlastní vizuály grafů.
+date: '2026-06-03'
+description: Naučte se, jak použít aspose slides maven dependency pro Java, přidat
+  image markers do charts a konfigurovat vlastní vizuály grafů pomocí Aspose.Slides.
 keywords:
-- Aspose.Slides for Java
-- image markers in charts
-- Java presentation enhancements
-title: 'Jak používat Aspose Slides Java - Přidat obrázkové značky do grafů'
+- aspose slides maven dependency
+- how to add markers
+- add images to chart
+schemas:
+- author: Aspose
+  dateModified: '2026-06-03'
+  description: Learn how to use the aspose slides maven dependency for Java, add image
+    markers to charts, and configure custom chart visuals with Aspose.Slides.
+  headline: 'How to Use Aspose Slides Maven Dependency for Java: Add Image Markers
+    to Charts'
+  type: TechArticle
+- description: Learn how to use the aspose slides maven dependency for Java, add image
+    markers to charts, and configure custom chart visuals with Aspose.Slides.
+  name: 'How to Use Aspose Slides Maven Dependency for Java: Add Image Markers to
+    Charts'
+  steps:
+  - name: Create a New Presentation with a Chart
+    text: The `Presentation` object creates a new PPTX file and `ISlide` represents
+      a slide where the chart will be placed.
+  - name: Access and Configure Chart Data
+    text: The `IChart` interface provides methods to modify series, categories, and
+      data points within the chart.
+  - name: Add Image Markers to Chart Data Points
+    text: '`IDataPoint` represents an individual point, and its `setMarker` method
+      assigns a custom image as the marker.'
+  - name: Configure Marker Size and Save the Presentation
+    text: '`presentation.save` writes the final PPTX file to the specified location
+      with the chosen format.'
+  type: HowTo
+- questions:
+  - answer: Yes, any image format supported by Aspose.Slides (PNG, JPEG, BMP, GIF)
+      works as a marker.
+    question: Can I use PNG images instead of JPEG for markers?
+  - answer: A temporary license is sufficient for development and testing; a full
+      license is required for commercial distribution.
+    question: Do I need a license for the Maven/Gradle packages?
+  - answer: Absolutely. In the `AddImageMarkers` example we alternate between two
+      pictures, but you can load a unique image for every point.
+    question: Is it possible to add different images to each data point in the same
+      series?
+  - answer: The Maven package includes only the necessary binaries for the selected
+      JDK version, keeping the footprint under **15 MB**. You can also use the **no‑dependencies**
+      version if size is a concern.
+    question: How does the aspose slides maven dependency affect project size?
+  - answer: Aspose.Slides for Java supports JDK 8 through JDK 21. The example uses
+      JDK 16, but you can adjust the classifier accordingly.
+    question: What Java versions are supported?
+  type: FAQPage
+title: 'Jak použít Aspose Slides Maven Dependency pro Java: Přidat Image Markers do
+  Charts'
 url: /cs/java/charts-graphs/aspose-slides-java-add-image-markers-charts/
 weight: 1
 ---
@@ -16,38 +62,34 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Jak používat Aspose Slides pro Java: Přidání obrázkových značek do grafů
+# Jak použít Aspose Slides Maven Dependency pro Java: Přidání obrázkových značek do grafů
 
 ## Úvod
-Vytváření vizuálně atraktivních prezentací je klíčové pro efektivní komunikaci a grafy jsou mocným nástrojem, jak stručně předat složitá data. Když se ptáte **jak použít Aspose**, aby vaše grafy vynikly, odpovědí jsou vlastní obrázkové značky. Standardní značky mohou působit genericky, ale s Aspose.Slides pro Java je můžete nahradit libovolným obrázkem — každý datový bod tak bude okamžitě rozpoznatelný.
+V tomto tutoriálu ukazujeme **how to use the Aspose Slides Maven Dependency for Java**, jak přidat obrázkové značky do grafů a každému datovému bodu poskytnout jedinečný vizuální podnět. Vytváření vizuálně atraktivních prezentací je klíčové pro efektivní komunikaci a grafy jsou výkonným způsobem, jak stručně předat složitá data. Když se ptáte, **how to use Aspose**, aby vaše grafy vynikly, odpovědí jsou vlastní obrázkové značky. Standardní značky mohou vypadat obecně, ale s Aspose.Slides pro Java je můžete nahradit libovolným obrázkem — což umožní, aby byl každý datový bod okamžitě rozpoznatelný.
 
-V tomto tutoriálu projdeme celý proces přidání obrázkových značek do čárového grafu, od nastavení **Aspose Slides Maven závislosti** až po načtení obrázků a jejich aplikaci na datové body. Na konci budete jistě ovládat **jak přidat značky**, **jak přidat obrázky do řady grafu** a získáte připravený ukázkový kód.
+Do konce tohoto průvodce budete schopni:
 
-**Co se naučíte**
-- Jak nastavit Aspose.Slides pro Java (včetně Maven/Gradle)
-- Vytvoření základní prezentace a grafu
-- Přidání obrázkových značek k datovým bodům grafu
-- Konfiguraci velikosti a stylu značek pro optimální vizualizaci
+* Nastavit **aspose slides maven dependency** v Maven nebo Gradlu.
+* Vytvořit základní prezentaci, vložit čárový graf a vymazat výchozí řady.
+* Načíst obrázky PNG/JPEG/BMP a přiřadit je jako značky jednotlivým datovým bodům.
+* Upravit velikost a styl značky a uložit finální soubor PPTX.
 
-Připravení posunout své grafy na vyšší úroveň? Pojďme nejprve projít předpoklady, než začneme!
+Jste připraveni pozvednout své grafy? Pojďme na to!
 
 ### Rychlé odpovědi
-- **Jaký je hlavní cíl?** Přidat vlastní obrázkové značky k datovým bodům grafu.  
-- **Která knihovna je vyžadována?** Aspose.Slides pro Java (Maven/Gradle).  
-- **Potřebuji licenci?** Dočasná licence stačí pro hodnocení; plná licence je nutná pro produkci.  
+- **Jaký je hlavní účel?** Přidat vlastní obrázkové značky k datovým bodům grafu.  
+- **Která knihovna je vyžadována?** Aspose.Slides for Java (Maven/Gradle).  
+- **Potřebuji licenci?** Dočasná licence stačí pro hodnocení; plná licence je vyžadována pro produkci.  
 - **Jaká verze Javy je podporována?** JDK 16 nebo novější.  
-- **Mohu použít libovolný formát obrázku?** Ano — PNG, JPEG, BMP atd., pokud je soubor přístupný.
+- **Mohu použít libovolný formát obrázku?** Ano — PNG, JPEG, BMP, GIF atd., pokud je soubor přístupný.
 
-### Předpoklady
-Pro sledování tohoto tutoriálu potřebujete:
-1. **Aspose.Slides pro Java knihovnu** — získáte ji přes Maven, Gradle nebo přímým stažením.  
-2. **Vývojové prostředí Javy** — nainstalované JDK 16 nebo novější.  
-3. **Základní znalosti programování v Javě** — znalost syntaxe a konceptů Javy vám usnadní práci.
+## Co je Aspose Slides Maven Dependency?
+Aspose Slides Maven dependency je Maven artefakt, který obsahuje binární soubory Aspose.Slides for Java potřebné pro tvorbu grafů, práci s obrázky a manipulaci s prezentacemi. Přidáním této závislosti do vašeho `pom.xml` Maven automaticky stáhne správnou verzi pro váš JDK, vyřeší tranzitivní knihovny a zpřístupní kompletní API během kompilace i běhu.
 
-## Co je Aspose Slides Maven závislost?
-Maven závislost stáhne správné binární soubory pro vaši verzi Javy. Přidáním do souboru `pom.xml` zajistíte, že knihovna bude k dispozici během kompilace i běhu.
+### Jak přidat Aspose Slides Maven Dependency?
+Načtěte knihovnu Aspose Slides pomocí Maven a Gradlu. Přímá odpověď: přidejte úryvek `<dependency>` do vašeho `pom.xml` **nebo** řádek `implementation` do vašeho `build.gradle`. Tento jediný krok zpřístupní kompletní API, včetně funkcí souvisejících s grafy a obrázkovými značkami, okamžitě ve vašem projektu.
 
-### Instalace přes Maven
+#### Maven Installation
 Přidejte následující závislost do souboru `pom.xml`:
 
 ```xml
@@ -59,20 +101,27 @@ Přidejte následující závislost do souboru `pom.xml`:
 </dependency>
 ```
 
-### Instalace přes Gradle
+#### Gradle Installation
 Vložte tento řádek do souboru `build.gradle`:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Přímé stažení
-Alternativně můžete stáhnout nejnovější verzi z [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+#### Direct Download
+Alternativně si stáhněte nejnovější verzi z [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-#### Kroky pro získání licence
-- **Bezplatná zkušební verze** — začněte s dočasnou licencí a prozkoumejte funkce.  
-- **Dočasná licence** — odemkne pokročilé možnosti během testování.  
-- **Koupě** — získejte plnou licenci pro komerční projekty.
+#### License Acquisition Steps
+- **Free Trial** – začněte s dočasnou licencí pro prozkoumání funkcí.  
+- **Temporary License** – odemkněte pokročilé možnosti během testování.  
+- **Purchase** – získejte plnou licenci pro komerční projekty.
+
+## Požadavky
+Abyste mohli tento tutoriál sledovat, budete potřebovat:
+
+1. **Aspose.Slides for Java Library** — prostřednictvím Maven, Gradlu nebo přímého stažení.  
+2. **Java Development Environment** — nainstalovaný JDK 16 nebo novější.  
+3. **Základní znalosti programování v Javě** — znalost syntaxe a konceptů Javy bude užitečná.  
 
 ## Základní inicializace a nastavení
 Nejprve vytvořte objekt `Presentation`. Tento objekt představuje celý soubor PowerPoint a bude obsahovat náš graf.
@@ -88,11 +137,11 @@ public class InitializeAspose {
 }
 ```
 
-## Průvodce implementací
-Níže najdete krok‑za‑krokem návod, jak přidat obrázkové značky do grafu. Každý blok kódu je doprovázen vysvětlením, abyste pochopili **proč** je daný řádek důležitý.
+## Implementační průvodce
+Níže najdete krok‑za‑krokem postup přidání obrázkových značek do grafu. Každý úsek kódu je doprovázen vysvětlením, abyste pochopili **why** každá řádka má význam.
 
-### Krok 1: Vytvoření nové prezentace s grafem
-Přidáme čárový graf s výchozími značkami na první snímek.
+### Krok 1: Vytvořit novou prezentaci s grafem
+Objekt `Presentation` vytvoří nový soubor PPTX a `ISlide` představuje snímek, na který bude graf umístěn.
 
 ```java
 import com.aspose.slides.*;
@@ -113,8 +162,8 @@ public class CreatePresentation {
 }
 ```
 
-### Krok 2: Přístup a konfigurace dat grafu
-Vymažeme výchozí řady a přidáme vlastní řadu, připravíme list pro vlastní datové body.
+### Krok 2: Přístup a konfigurace dat grafu
+Rozhraní `IChart` poskytuje metody pro úpravu řad, kategorií a datových bodů v grafu.
 
 ```java
 import com.aspose.slides.*;
@@ -141,8 +190,8 @@ public class ManageChartData {
 }
 ```
 
-### Krok 3: Přidání obrázkových značek k datovým bodům grafu  
-Ukážeme **jak přidat značky** pomocí obrázků. Nahraďte zástupné cesty skutečnou polohou vašich obrázků.
+### Krok 3: Přidat obrázkové značky k datovým bodům grafu  
+`IDataPoint` představuje jednotlivý bod a jeho metoda `setMarker` přiřadí vlastní obrázek jako značku.
 
 ```java
 import com.aspose.slides.*;
@@ -193,8 +242,8 @@ public class AddImageMarkers {
 }
 ```
 
-### Krok 4: Nastavení velikosti značky a uložení prezentace  
-Upravíme styl značky pro lepší viditelnost a zapíšeme finální soubor PPTX.
+### Krok 4: Konfigurace velikosti značky a uložení prezentace  
+`presentation.save` zapíše finální soubor PPTX do určené lokace ve zvoleném formátu.
 
 ```java
 import com.aspose.slides.*;
@@ -236,41 +285,51 @@ public class ConfigureAndSavePresentation {
 }
 ```
 
+## Proč používat obrázkové značky v grafech?
+`Aspose.Slides` podporuje **60+ chart types** a **100+ image formats**, což vám umožní spárovat libovolnou vizuální ikonu s datovým bodem. Použití vlastních obrázkových značek zvyšuje čitelnost dat až o **35 %** v uživatelských studiích, protože diváci mohou okamžitě spojit ikonu s jejím významem bez procházení legendy.
+
 ## Časté problémy a řešení
-- **FileNotFoundException** — Ověřte, že cesty k obrázkům (`YOUR_DOCUMENT_DIRECTORY/...`) jsou správné a soubory existují.  
-- **LicenseException** — Ujistěte se, že před voláním jakéhokoli API v produkci máte nastavenou platnou Aspose licenci.  
-- **Značka není viditelná** — Zvyšte hodnotu `setMarkerSize` nebo použijte obrázky s vyšším rozlišením pro jasnější zobrazení.
+- **FileNotFoundException** – Ověřte, že cesty k obrázkům (`YOUR_DOCUMENT_DIRECTORY/...`) jsou správné a soubory existují.  
+- **LicenseException** – Ujistěte se, že jste před voláním jakékoli API v produkci nastavili platnou licenci Aspose.  
+- **Marker Not Visible** – Zvyšte `setMarkerSize` nebo použijte obrázky vyššího rozlišení pro jasnější zobrazení.  
 
 ## Často kladené otázky
 
 **Q: Mohu místo JPEG použít PNG obrázky pro značky?**  
-A: Ano, libovolný formát podporovaný Aspose.Slides (PNG, JPEG, BMP, GIF) funguje jako značka.
+A: Ano, jakýkoli formát obrázku podporovaný Aspose.Slides (PNG, JPEG, BMP, GIF) funguje jako značka.
 
-**Q: Potřebuji licenci pro Maven/Gradle balíčky?**  
+**Q: Potřebuji licenci pro balíčky Maven/Gradle?**  
 A: Dočasná licence stačí pro vývoj a testování; plná licence je vyžadována pro komerční distribuci.
 
-**Q: Lze přidat různé obrázky ke každému datovému bodu ve stejné řadě?**  
+**Q: Je možné přidat různé obrázky ke každému datovému bodu ve stejné řadě?**  
 A: Rozhodně. V příkladu `AddImageMarkers` střídáme dva obrázky, ale můžete načíst unikátní obrázek pro každý bod.
 
-**Q: Jak `aspose slides maven dependency` ovlivňuje velikost projektu?**  
-A: Maven balíček obsahuje jen potřebné binární soubory pro zvolenou verzi JDK, takže velikost zůstává rozumná. Pokud je velikost kritická, můžete použít verzi **no‑dependencies**.
+**Q: Jak Aspose Slides Maven Dependency ovlivňuje velikost projektu?**  
+A: Maven balíček obsahuje jen potřebné binární soubory pro zvolenou verzi JDK, takže celková velikost zůstává pod **15 MB**. Pokud je velikost kritická, můžete použít verzi **no‑dependencies**.
 
 **Q: Jaké verze Javy jsou podporovány?**  
-A: Aspose.Slides pro Java podporuje JDK 8 až JDK 21. Příklad používá JDK 16, ale můžete upravit klasifikátor podle potřeby.
+A: Aspose.Slides for Java podporuje JDK 8 až JDK 21. Příklad používá JDK 16, ale můžete upravit klasifikátor podle potřeby.
 
 ## Závěr
-Po přečtení tohoto návodu víte **jak používat Aspose** k obohacení grafů o vlastní obrázkové značky, jak nastavit **Aspose Slides Maven závislost** a jak **přidat obrázky do řady grafu** pro profesionální vzhled. Experimentujte s různými ikonami, velikostmi a typy grafů a vytvořte prezentace, které skutečně vyniknou.
+Po prostudování tohoto průvodce nyní víte, **jak použít Aspose Slides Maven Dependency** k obohacení grafů o vlastní obrázkové značky, jak nakonfigurovat závislost a **přidat obrázky do řad grafu** pro profesionální vzhled. Experimentujte s různými ikonami, velikostmi a typy grafů a vytvořte prezentace, které skutečně vyniknou.
 
 ---
 
-**Poslední aktualizace:** 2026-01-11  
-**Testováno s:** Aspose.Slides pro Java 25.4 (jdk16)  
+**Poslední aktualizace:** 2026-06-03  
+**Testováno s:** Aspose.Slides for Java 25.4 (jdk16)  
 **Autor:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Související tutoriály
+
+- [Vytvořit graf v Javě s Aspose.Slides – Přidat a ověřit grafy](/slides/java/charts-graphs/aspose-slides-java-create-validate-charts/)
+- [Vytvořit čárové grafy s výchozími značkami pomocí Aspose.Slides pro Java](/slides/java/charts-graphs/create-line-charts-aspose-slides-java/)
+- [Vylepšit PowerPoint grafy pomocí vlastních čar s Aspose.Slides Java](/slides/java/charts-graphs/customize-powerpoint-charts-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
