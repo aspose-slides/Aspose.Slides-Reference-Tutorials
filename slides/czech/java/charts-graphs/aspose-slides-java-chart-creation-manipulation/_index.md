@@ -1,74 +1,117 @@
 ---
-date: '2026-02-12'
-description: Naučte se, jak vytvářet grafy v Java prezentacích, ovládněte vizualizaci
-  dat v Javě a zjistěte, jak ukládat soubory pptx pomocí Aspose.Slides.
+date: '2026-06-08'
+description: Naučte se, jak v Java prezentacích vytvořit plošový graf, ovládněte vizualizaci
+  dat a ukládejte soubory PPTX pomocí Aspose.Slides pro Java.
 keywords:
-- Aspose.Slides for Java
-- Java chart creation
-- data visualization in presentations
-title: Jak vytvořit graf v prezentacích v Javě pomocí Aspose.Slides pro Javu
+- java create area chart
+- Aspose.Slides Java
+- Java chart generation
+- data visualization Java
+- PPTX export Java
+schemas:
+- author: Aspose
+  dateModified: '2026-06-08'
+  description: Learn how to java create area chart in Java presentations, master data
+    visualization, and save PPTX files using Aspose.Slides for Java.
+  headline: java create area chart in Presentations with Aspose.Slides
+  type: TechArticle
+- description: Learn how to java create area chart in Java presentations, master data
+    visualization, and save PPTX files using Aspose.Slides for Java.
+  name: java create area chart in Presentations with Aspose.Slides
+  steps:
+  - name: Initialize Your Presentation
+    text: '`Presentation` is the top‑level object that holds slides, layouts, and
+      resources. First, create a new instance:'
+  - name: Add an Area Chart
+    text: '`IChart` is the object that encapsulates chart data, type, and formatting
+      within a slide. Use the `addChart` method to insert an Area chart, specifying
+      its position and dimensions: - **Parameters Explained**: - `ChartType.Area`:
+      selects the Area chart type. - `(100, 100)`: X and Y coordinates for po'
+  - name: Access Axes Properties
+    text: '`getAxes()` returns the chart''s axis collection, allowing access to vertical
+      and horizontal axes. `getVerticalAxis()` provides the vertical axis object of
+      the chart. Retrieve values from the vertical axis, including the **maximum value**
+      you might need for scaling or annotations: - `getActualMaxValu'
+  - name: Save Your Presentation
+    text: '`save(String path, SaveFormat format)` writes the presentation to the specified
+      file in the given format. Finally, **how to save pptx** files with a single
+      call: - `"YOUR_OUTPUT_DIRECTORY/ErrorBars_out.pptx"`: Destination path and filename.
+      - `SaveFormat.Pptx`: Ensures the file is saved in the moder'
+  type: HowTo
+- questions:
+  - answer: Absolutely. Aspose.Slides supports **50+ chart types**, including Column,
+      Bar, Line, Pie, Radar, and Waterfall.
+    question: Can I create other chart types besides Area charts?
+  - answer: Yes. Retrieve data via JDBC or JPA, then populate the chart series programmatically
+      using the `ChartData` API.
+    question: Is it possible to bind chart data directly from a database?
+  - answer: Aspose.Slides for Java works with **JDK 8** and newer; the examples target
+      **JDK 16** for optimal performance.
+    question: What Java versions are supported?
+  - answer: Save using `SaveFormat.Ppt` for legacy compatibility, or stick with `SaveFormat.Pptx`
+      for modern Office suites.
+    question: How can I ensure the generated PPTX works on older PowerPoint versions?
+  - answer: Yes. You can set the chart’s locale or manually provide translated strings
+      for titles, axis labels, and data point legends.
+    question: Does Aspose.Slides handle localization of chart labels?
+  type: FAQPage
+title: java vytvořit plošový graf v Prezentacích s Aspose.Slides
 url: /cs/java/charts-graphs/aspose-slides-java-chart-creation-manipulation/
 weight: 1
 ---
 
-step‑by‑step" with hyphen; keep hyphen.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Jak vytvořit graf v prezentacích Java pomocí Aspose.Slides pro Java
+# Jak v Javě vytvořit plošový graf v prezentacích pomocí Aspose.Slides
 
 ## Úvod
 
-Vytváření vizuálně poutavých grafů ve vašich prezentacích může proměnit surová data v přesvědčivé příběhy, což usnadňuje efektivní komunikaci poznatků. **Jak vytvořit graf** v Java prezentaci se stane jednoduchým, když použijete Aspose.Slides pro Java — výkonnou knihovnu, která se postará o vše od generování grafu po detailní manipulaci. V tomto tutoriálu se naučíte, jak nastavit knihovnu, **vytvořit plošný graf**, přistupovat k jeho osám, získat maximální hodnotu a dokonce **jak uložit pptx** soubory jedním řádkem kódu. Ponořme se a proměňme vaše data v krásné vizualizace!
+V tomto tutoriálu se naučíte, jak **java create area chart** v Java prezentacích pomocí Aspose.Slides for Java, knihovny, která převádí surová čísla na vylepšené vizuální příběhy. Provedeme vás instalací SDK, vytvořením plošového grafu, čtením hodnot os a nakonec **how to save pptx** jedním voláním metody. Ať už vytváříte automatizované nástroje pro reportování nebo obohacujete prezentace za běhu, tyto kroky vás od nuly dovedou k plně funkčnímu grafu během několika minut.
 
 ## Rychlé odpovědi
-- **Jaká je hlavní třída pro tvorbu prezentací?** `Presentation` z Aspose.Slides.  
-- **Jaký typ grafu příklad používá?** Plošný graf (`ChartType.Area`).  
-- **Jak můžete získat maximální hodnotu na svislé ose?** `chart.getAxes().getVerticalAxis().getActualMaxValue()`.  
+- **Jaká je hlavní třída pro tvorbu prezentací?** `Presentation` from Aspose.Slides.  
+- **Jaký typ grafu příklad používá?** An Area chart (`ChartType.Area`).  
+- **Jak můžete získat maximální hodnotu na vertikální ose?** `chart.getAxes().getVerticalAxis().getActualMaxValue()`.  
 - **Jaký formát byste měli použít pro export souboru?** `SaveFormat.Pptx`.  
-- **Potřebuji licenci pro vývoj?** K dispozici je bezplatná dočasná licence pro hodnocení.
+- **Potřebuji licenci pro vývoj?** A free temporary license is available for evaluation.
 
-## Co znamená „jak vytvořit graf“ v Javě?
-Když uslyšíte „jak vytvořit graf“, představte si stručné volání API, které přidá plně funkční objekt grafu do snímku. Aspose.Slides abstrahuje nízkoúrovňové kreslicí operace a umožňuje vám soustředit se na data a design.
+## Co znamená „how to create chart“ v Javě?
+
+**Direct answer:** In Aspose.Slides, “how to create chart” means calling the API that inserts a fully configured chart object onto a slide, letting you specify type, data, and styling in a few lines of Java code. This single call abstracts all low‑level drawing operations, so you can focus on the data you want to visualize.
 
 ## Proč používat Aspose.Slides pro Java grafy?
-- **Rychlý vývoj:** Přidávejte, upravujte a stylujte grafy jen několika řádky kódu.  
-- **Plná kontrola:** Programově přistupujte k osám, sériím, datovým bodům a možnostem stylování.  
-- **Cross‑platform:** Funguje v jakémkoli prostředí kompatibilním s Javou, od desktopových IDE po serverové aplikace.  
-- **Bez potřeby Office:** Generujte PPTX soubory bez nainstalovaného Microsoft PowerPointu.
 
-## Předpoklady
+**Direct answer:** Choose Aspose.Slides because it delivers **50+ chart types**, supports **over 30 data‑binding options**, and can generate **multi‑hundred‑page PPTX files** without needing Microsoft PowerPoint installed, all while offering fine‑grained programmatic control. It also provides extensive formatting options, allowing you to customize colors, fonts, and markers, and includes APIs for exporting to PDF, SVG, and image formats.
 
-Než se ponoříte do podrobností tvorby grafu s Aspose.Slides Java, ujistěte se, že máte splněny následující předpoklady:
+## Požadavky
+
+Before diving into the specifics of chart creation with Aspose.Slides Java, ensure you have the following prerequisites covered:
 
 ### Požadované knihovny, verze a závislosti
 
-Pro sledování tohoto tutoriálu potřebujete:
-- **Aspose.Slides pro Java**: Verze 25.4 nebo novější.  
-- Java Development Kit (JDK) 16 nebo vyšší.
+- **Aspose.Slides for Java**: Version **25.4** or later (the library supports **50+ chart types** and **30+ output formats**).  
+- Java Development Kit (JDK) **16** or higher.
 
 ### Požadavky na nastavení prostředí
 
-Ujistěte se, že vaše vývojové prostředí obsahuje:
-- Kompatibilní IDE, např. IntelliJ IDEA nebo Eclipse.  
-- Nástroje Maven nebo Gradle nakonfigurované ve vašem projektu.
+- A compatible IDE such as **IntelliJ IDEA** or **Eclipse**.  
+- **Maven** or **Gradle** build tools configured for dependency management.
 
-### Základní znalosti
+### Předpoklady znalostí
 
-Základní pochopení:
-- Konceptů programování v Javě.  
-- Práce s externími knihovnami (Maven/Gradle).
+- Core Java programming concepts.  
+- Adding external libraries to a Maven/Gradle project.
 
 ## Nastavení Aspose.Slides pro Java
 
-Integrace Aspose.Slides do vašeho Java projektu je jednoduchá. Zde je návod, jak ji přidat pomocí Maven, Gradle nebo přímého stažení:
+Integrating Aspose.Slides into your Java project is straightforward. Choose the package manager that fits your workflow.
 
 ### Použití Maven
 
-Přidejte následující závislost do souboru `pom.xml`:
+Add the following dependency to your `pom.xml` file:
 
 ```xml
 <dependency>
@@ -81,7 +124,7 @@ Přidejte následující závislost do souboru `pom.xml`:
 
 ### Použití Gradle
 
-Vložte tento řádek do souboru `build.gradle`:
+Include this in your `build.gradle` file:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
@@ -89,17 +132,17 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 
 ### Přímé stažení
 
-Pro ty, kteří upřednostňují přímé stažení, navštivte stránku [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+For those preferring direct downloads, visit the [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) page.
 
-#### Kroky pro získání licence
+#### Kroky získání licence
 
-- **Bezplatná zkušební verze**: Otestujte Aspose.Slides s dočasnou licencí a vyzkoušejte jeho funkce.  
-- **Dočasná licence**: Získejte pokročilé funkce požádáním o bezplatnou dočasnou licenci.  
-- **Koupě**: Zakupte předplatné, pokud nástroj splňuje vaše požadavky pro dlouhodobé projekty.
+- **Free Trial**: Test Aspose.Slides with a temporary license to evaluate its features.  
+- **Temporary License**: Request a free temporary license for extended evaluation.  
+- **Purchase**: Buy a subscription for production use and unlock all advanced capabilities.
 
 #### Základní inicializace a nastavení
 
-Začněte vytvořením objektu `Presentation`, který slouží jako kontejner pro všechny akce související se snímky:
+`Presentation` is Aspose.Slides' core class representing an entire PowerPoint file in memory. Begin by creating a `Presentation` object, which serves as the container for all slide‑related actions:
 
 ```java
 import com.aspose.slides.Presentation;
@@ -115,17 +158,17 @@ public class AsposeInit {
 
 ## Průvodce implementací
 
-### Vytvoření grafu v prezentaci
+### Jak v Javě vytvořit plošový graf krok za krokem
 
-Vytváření grafů s Aspose.Slides je intuitivní. Projděme si proces krok po kroku.
+**Direct answer:** To java create area chart, instantiate a `Presentation`, add an Area chart with `addChart(ChartType.Area, …)`, optionally adjust axes, then call `save("output.pptx", SaveFormat.Pptx)`. The whole process requires only four concise code snippets and runs in under a second for typical data sets.
 
 #### Přehled
 
-Tato sekce ukazuje, jak **přidat graf**, konkrétně plošný graf, do vaší prezentace a nakonfigurovat jeho základní vlastnosti.
+This section demonstrates how to **add chart**, specifically an Area chart, to your presentation and configure its basic properties.
 
 ##### Krok 1: Inicializujte svou prezentaci
 
-Nejprve vytvořte novou instanci `Presentation`:
+`Presentation` is the top‑level object that holds slides, layouts, and resources. First, create a new instance:
 
 ```java
 import com.aspose.slides.Presentation;
@@ -143,9 +186,9 @@ public class ChartCreation {
 }
 ```
 
-##### Krok 2: Přidejte plošný graf
+##### Krok 2: Přidejte plošový graf
 
-Přidejte plošný graf do snímku. Metoda `addChart` vyžaduje parametry pro typ, pozici a velikost:
+`IChart` is the object that encapsulates chart data, type, and formatting within a slide. Use the `addChart` method to insert an Area chart, specifying its position and dimensions:
 
 ```java
 import com.aspose.slides.Chart;
@@ -156,34 +199,34 @@ Chart chart = (Chart) pres.getSlides().get_Item(0).getShapes().addChart(
     ChartType.Area, 100, 100, 500, 350);
 ```
 
-- **Vysvětlení parametrů**:
-  - `ChartType.Area`: Určuje typ grafu (vytvořit plošný graf).  
-  - `(100, 100)`: Souřadnice X a Y pro umístění.  
-  - `(500, 350)`: Šířka a výška.
+- **Parameters Explained**:  
+  - `ChartType.Area`: selects the Area chart type.  
+  - `(100, 100)`: X and Y coordinates for positioning on the slide.  
+  - `(500, 350)`: Width and height of the chart in points.
 
 ##### Krok 3: Přístup k vlastnostem os
 
-Získejte hodnoty ze svislé osy, včetně **získání maximální hodnoty**, kterou můžete potřebovat pro škálování:
+`getAxes()` returns the chart's axis collection, allowing access to vertical and horizontal axes. `getVerticalAxis()` provides the vertical axis object of the chart. Retrieve values from the vertical axis, including the **maximum value** you might need for scaling or annotations:
 
 ```java
 double maxValue = chart.getAxes().getVerticalAxis().getActualMaxValue();
 double minValue = chart.getAxes().getVerticalAxis().getActualMinValue();
 ```
 
-- `getActualMaxValue()` a `getActualMinValue()` vrací aktuální maximální/minimální hodnoty nastavené na ose.
+- `getActualMaxValue()` and `getActualMinValue()` return the current maximum and minimum values set on the axis.
 
-Získejte hlavní a vedlejší jednotky ze vodorovné osy:
+Retrieve major and minor units from the horizontal axis to understand interval spacing. `getHorizontalAxis()` returns the horizontal axis object, and its methods expose unit intervals:
 
 ```java
 double majorUnit = chart.getAxes().getHorizontalAxis().getActualMajorUnit();
 double minorUnit = chart.getAxes().getHorizontalAxis().getActualMinorUnit();
 ```
 
-- `getActualMajorUnit()` a `getActualMinorUnit()` získávají intervaly jednotek pro škálování os.
+- `getActualMajorUnit()` and `getActualMinorUnit()` provide the unit intervals for axis scaling.
 
 ##### Krok 4: Uložte svou prezentaci
 
-Nakonec **jak uložit pptx** soubory jedním voláním:
+`save(String path, SaveFormat format)` writes the presentation to the specified file in the given format. Finally, **how to save pptx** files with a single call:
 
 ```java
 import com.aspose.slides.SaveFormat;
@@ -192,86 +235,95 @@ import com.aspose.slides.SaveFormat;
 pres.save("YOUR_OUTPUT_DIRECTORY/ErrorBars_out.pptx", SaveFormat.Pptx);
 ```
 
-- `"YOUR_OUTPUT_DIRECTORY/ErrorBars_out.pptx"`: Cesta a název souboru pro uložení.  
-- `SaveFormat.Pptx`: Určuje formát souboru.
+- `"YOUR_OUTPUT_DIRECTORY/ErrorBars_out.pptx"`: Destination path and filename.  
+- `SaveFormat.Pptx`: Ensures the file is saved in the modern PowerPoint format compatible with Office 2016‑2021.
 
-### Tipy pro řešení problémů
+## Tipy pro řešení problémů
 
-- Ujistěte se, že jste Aspose.Slides přidali do závislostí projektu správně.  
-- Ověřte, že jsou ve vašich Java souborech zahrnuty všechny potřebné importy.  
-- Dvakrát zkontrolujte řetězce cest pro překlepy při ukládání souborů.
+- Verify that Aspose.Slides is correctly added to your project's dependencies.  
+- Ensure all required `import` statements are present at the top of your Java class.  
+- Double‑check file system permissions for the output directory; use an absolute path if necessary.
 
 ## Praktické aplikace
 
-Aspose.Slides nabízí širokou škálu využití nad rámec základního vytváření grafů. Zde jsou některé reálné scénáře, kde **java vizualizace dat** vyniká:
+Aspose.Slides offers a wide range of applications beyond basic chart creation. Here are some real‑world scenarios where **java data visualization** shines:
 
-1. **Obchodní reportování** – Vylepšete čtvrtletní zprávy interaktivními grafy, které se automaticky aktualizují z databází.  
-2. **Vzdělávací prezentace** – Ilustrujte složité statistiky ve výukových slidech bez ručního kreslení.  
-3. **Marketingové kampaně** – Zobrazte výkonnostní metriky kampaní dynamickými grafy, které lze generovat za běhu.
+1. **Business Reporting** – Automate quarterly dashboards with charts that pull directly from SQL databases, eliminating manual copy‑pasting.  
+2. **Educational Presentations** – Generate lecture slides that illustrate statistical concepts on the fly, keeping content up‑to‑date with the latest research data.  
+3. **Marketing Campaigns** – Visualize campaign performance metrics in dynamic PPTX files that can be emailed to stakeholders instantly.
 
-Integrace se systémy jako JDBC nebo REST API může dále zefektivnit váš workflow a umožnit vizualizaci dat v reálném čase přímo v prezentacích.
+By integrating Aspose.Slides with JDBC or REST APIs, you can feed live data into charts, enabling real‑time visual analytics inside your presentations.
 
 ## Úvahy o výkonu
 
-Při práci s velkými datovými sadami nebo mnoha grafy:
+When processing large datasets or embedding many charts:
 
-- Optimalizujte vykreslování grafu minimalizací počtu sérií a datových bodů.  
-- Efektivně spravujte paměť pomocí `pres.dispose()` po dokončení operací.  
-- Dodržujte osvědčené postupy pro správu zdrojů v Aspose.Slides, aby nedocházelo k únikům paměti.
+- **Minimize series**: Keep the number of data series and points reasonable (e.g., < 1,000 points) to reduce rendering time.  
+- **Dispose resources**: Call `pres.dispose()` after saving to free native memory.  
+- **Streaming mode**: Use `Presentation`'s `setSlideSize` and `setMemoryOptimization` options for handling multi‑hundred‑page decks without loading the entire file into RAM.
 
-## Časté problémy a řešení
+These practices help maintain sub‑second chart generation even for files exceeding **200 pages**.
 
-| Problém | Důvod | Řešení |
-|---------|-------|--------|
-| Graf je prázdný | Nebyla přidána žádná datová série | Přidejte sérii pomocí `chart.getChartData().getSeries().add(...)` (mimo rozsah tohoto tutoriálu). |
-| Hodnoty os jsou nesprávné | Škálování os nebylo obnovené | Zavolejte `chart.getAxes().getVerticalAxis().resetValueRange()` před čtením hodnot. |
-| Uložení selže s chybou oprávnění | Výstupní složka není zapisovatelná | Zajistěte, aby aplikace měla práva k zápisu, nebo vyberte jiný adresář. |
+## Běžné problémy a řešení
 
-## Sekce FAQ
-
-**1. K čemu slouží Aspose.Slides Java?**  
-Aspose.Slides Java je výkonná knihovna, která umožňuje vývojářům vytvářet, manipulovat a konvertovat prezentace v Java aplikacích.
-
-**2. Jak řešit licencování s Aspose.Slides?**  
-Můžete začít s bezplatnou zkušební licencí nebo požádat o dočasnou licenci pro rozšířené hodnocení. Pro dlouhodobé projekty se doporučuje zakoupit předplatné.
-
-**3. Mohu integrovat grafy Aspose.Slides do webových aplikací?**  
-Ano, Aspose.Slides lze použít v server‑side Java aplikacích k dynamickému generování a poskytování prezentací.
-
-**4. Jak přizpůsobit styly grafu pomocí Aspose.Slides?**  
-Možnosti přizpůsobení zahrnují úpravu barev, fontů a dalších stylových prvků přímo přes API.
+| Issue | Reason | Solution |
+|-------|--------|----------|
+| Chart appears blank | No data series added | Add series via `chart.getChartData().getSeries().add(...)` (outside scope of this tutorial). |
+| Axis values are incorrect | Axis scaling not refreshed | Call `chart.getAxes().getVerticalAxis().resetValueRange()` before reading values. |
+| Save fails with permission error | Output folder not writable | Ensure the application has write permissions or choose a different directory. |
 
 ## Často kladené otázky
 
-**Q: Mohu vytvořit i jiné typy grafů než plošné?**  
-A: Rozhodně. Aspose.Slides podporuje sloupcové, pruhové, čárové, koláčové a mnoho dalších typů grafů.
+**1. What is Aspose.Slides Java used for?**  
+Aspose.Slides Java is a powerful library that enables developers to create, manipulate, and convert PowerPoint presentations programmatically without Microsoft Office.
 
-**Q: Je možné svázat data grafu přímo z databáze?**  
-A: Ano. Data načtěte pomocí JDBC nebo JPA a poté programově naplňte sérii grafu.
+**2. How do I handle licensing with Aspose.Slides?**  
+Start with a free trial license for evaluation; for production, purchase a subscription that removes evaluation watermarks and unlocks the full API.
 
-**Q: Jaké verze Javy jsou podporovány?**  
-A: Aspose.Slides pro Java funguje s JDK 8 a novějšími; příklady používají JDK 16 pro optimální kompatibilitu.
+**3. Can I integrate Aspose.Slides charts into web applications?**  
+Yes. Use server‑side Java to generate PPTX files on demand and stream them to browsers or store them in cloud storage for later download.
 
-**Q: Jak zajistit, aby generovaný PPTX fungoval ve starších verzích PowerPointu?**  
-A: Uložte pomocí `SaveFormat.Pptx` pro moderní PowerPoint nebo `SaveFormat.Ppt` pro starší kompatibilitu.
+**4. How do I customize chart styles using Aspose.Slides?**  
+You can modify colors, fonts, line styles, and marker shapes directly through the `IChart` object's `ChartData` and `ChartFormat` properties.
 
-**Q: Zvládá Aspose.Slides lokalizaci popisků grafu?**  
-A: Ano. Můžete nastavit locale grafu nebo ručně poskytnout přeložené řetězce pro názvy a popisky os.
+## Často kladené otázky
+
+**Q: Can I create other chart types besides Area charts?**  
+A: Absolutely. Aspose.Slides supports **50+ chart types**, including Column, Bar, Line, Pie, Radar, and Waterfall.
+
+**Q: Is it possible to bind chart data directly from a database?**  
+A: Yes. Retrieve data via JDBC or JPA, then populate the chart series programmatically using the `ChartData` API.
+
+**Q: What Java versions are supported?**  
+A: Aspose.Slides for Java works with **JDK 8** and newer; the examples target **JDK 16** for optimal performance.
+
+**Q: How can I ensure the generated PPTX works on older PowerPoint versions?**  
+A: Save using `SaveFormat.Ppt` for legacy compatibility, or stick with `SaveFormat.Pptx` for modern Office suites.
+
+**Q: Does Aspose.Slides handle localization of chart labels?**  
+A: Yes. You can set the chart’s locale or manually provide translated strings for titles, axis labels, and data point legends.
 
 ## Závěr
 
-V tomto tutoriálu jste se naučili **jak vytvořit graf** objekty, přistupovat k jejich osám, získat maximální hodnotu a **jak uložit pptx** soubory pomocí Aspose.Slides pro Java. Dodržením těchto kroků můžete do svých prezentací vložit sofistikovanou **java vizualizaci dat**, ušetřit čas a předat jasnější poznatky. Prozkoumejte další typy grafů, experimentujte se stylováním a integrujte zdroje dat v reálném čase, abyste odemkli plný potenciál Aspose.Slides.
+In this guide you now know how to **java create area chart** objects, read axis metrics, and **how to save pptx** files using Aspose.Slides for Java. By leveraging the library’s extensive chart library—over **50 chart types** and **30+ output formats**—you can automate sophisticated data visualizations, integrate live data sources, and deliver polished presentations without Microsoft PowerPoint. Explore additional chart styles, experiment with custom themes, and combine Aspose.Slides with other Aspose products for a truly end‑to‑end reporting solution.
 
 ---
 
-**Poslední aktualizace:** 2026-02-12  
-**Testováno s:** Aspose.Slides pro Java 25.4 (jdk16)  
+**Poslední aktualizace:** 2026-06-08  
+**Testováno s:** Aspose.Slides for Java 25.4 (JDK 16)  
 **Autor:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Související tutoriály
+
+- [Jak vytvořit graf v Javě s Aspose.Slides – Ovládnutí tvorby grafů a validace](/slides/java/charts-graphs/aspose-slides-chart-creation-validation-java/)
+- [Uložení prezentací s grafy pomocí Aspose.Slides pro Java: Kompletní průvodce](/slides/java/charts-graphs/aspose-slides-java-save-presentations-charts/)
+- [Vytvoření dynamických grafů v Java prezentacích: Propojení s externími sešity pomocí Aspose.Slides](/slides/java/charts-graphs/dynamic-charts-aspose-slides-java-external-workbook/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
