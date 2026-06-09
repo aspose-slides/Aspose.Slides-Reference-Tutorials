@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-17"
-"description": "Tìm hiểu cách sử dụng Aspose.Slides for Java để xóa hiệu quả các điểm dữ liệu cụ thể khỏi chuỗi biểu đồ trong bản trình bày PowerPoint. Hướng dẫn này bao gồm thiết lập, triển khai và các biện pháp thực hành tốt nhất."
-"title": "Cách xóa điểm dữ liệu trong biểu đồ PowerPoint bằng Aspose.Slides cho Java&#58; Hướng dẫn toàn diện"
-"url": "/vi/java/charts-graphs/clear-data-points-ppt-charts-aspose-slides-java/"
-"weight": 1
+date: '2026-02-27'
+description: Học cách sử dụng Aspose.Slides cho Java để xóa các điểm dữ liệu cụ thể
+  trên biểu đồ. Hướng dẫn từng bước này chỉ ra cách xóa dữ liệu biểu đồ, các thực
+  tiễn tốt nhất và cách xóa series biểu đồ một cách hiệu quả.
+keywords:
+- clear data points PowerPoint charts
+- manipulate chart series Aspose.Slides Java
+- reset data points PowerPoint using Java
+title: 'Cách Xóa Các Điểm Dữ Liệu Trong Biểu Đồ PowerPoint Sử Dụng Aspose.Slides cho
+  Java: Hướng Dẫn Toàn Diện'
+url: /vi/java/charts-graphs/clear-data-points-ppt-charts-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,40 +18,50 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Cách xóa điểm dữ liệu trong biểu đồ PowerPoint bằng Aspose.Slides cho Java
+# Cách Xóa Các Điểm Dữ Liệu Trong Biểu Đồ PowerPoint Sử Dụng Aspose.Slides cho Java
 
 ## Giới thiệu
 
-Quản lý dữ liệu biểu đồ trong PowerPoint có thể là một thách thức, đặc biệt là khi cập nhật hoặc đặt lại các điểm dữ liệu cụ thể. Hướng dẫn này cung cấp hướng dẫn chi tiết về cách sử dụng Aspose.Slides for Java để xóa các điểm dữ liệu cụ thể khỏi một loạt biểu đồ trong bản trình bày PowerPoint. Bằng cách làm theo hướng dẫn này, bạn sẽ duy trì các biểu đồ sạch và chính xác một cách dễ dàng.
+Quản lý dữ liệu biểu đồ trong PowerPoint có thể gặp khó khăn, đặc biệt khi bạn cần **xóa các điểm dữ liệu cụ thể** hoặc đặt lại toàn bộ một chuỗi. Trong hướng dẫn này, bạn sẽ thấy cách **Aspose.Slides for Java** giúp việc xóa giá trị biểu đồ một cách lập trình trở nên đơn giản, giữ cho bản trình bày gọn gàng và tránh việc phải xây dựng lại biểu đồ từ đầu.
 
-**Những gì bạn sẽ học được:**
-- Cách thao tác biểu đồ PowerPoint bằng Aspose.Slides cho Java.
-- Các bước xóa hiệu quả các điểm dữ liệu cụ thể trong một chuỗi biểu đồ.
-- Thực hành tốt nhất để thiết lập và tối ưu hóa Aspose.Slides trong môi trường Java của bạn.
+**Bạn sẽ học được**
+- Cách thao tác với biểu đồ PowerPoint bằng **Aspose.Slides for Java**.  
+- Hướng dẫn chi tiết từng bước về **cách xóa dữ liệu biểu đồ** trong một chuỗi.  
+- Các thực tiễn tốt nhất để thiết lập thư viện và tối ưu hiệu năng.
 
-Chúng ta hãy bắt đầu bằng cách xem lại những điều kiện tiên quyết cần thiết cho hướng dẫn này!
+Hãy bắt đầu bằng cách kiểm tra các yêu cầu trước.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Thư viện nào được sử dụng?** Aspose.Slides for Java.  
+- **Phương pháp nào để xóa một điểm dữ liệu?** Đặt giá trị ô X và Y thành `null`.  
+- **Tôi có cần giấy phép không?** Bản dùng thử đủ cho việc đánh giá; giấy phép thương mại cần thiết cho môi trường sản xuất.  
+- **Phiên bản JDK được hỗ trợ?** JDK 16 hoặc mới hơn.  
+- **Tôi có thể nhắm mục tiêu một chuỗi duy nhất không?** Có – chỉ lặp qua chuỗi bạn muốn xóa.
 
-Trước khi bắt đầu, hãy đảm bảo bạn có:
+## Aspose.Slides for Java là gì?
+Aspose.Slides for Java là một API mạnh mẽ cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tệp PowerPoint mà không cần Microsoft Office. Nó hỗ trợ đầy đủ việc thao tác biểu đồ, bao gồm thêm, cập nhật và xóa các điểm dữ liệu.
 
-### Thư viện, Phiên bản và Phụ thuộc bắt buộc
-- **Aspose.Slides cho Java**: Phiên bản 25.4 trở lên.
+## Tại sao cần xóa các điểm dữ liệu biểu đồ?
+
+- Làm mới biểu đồ với bộ dữ liệu mới trong khi giữ nguyên bố cục.  
+- Chuẩn bị mẫu (template) có sẵn các chỗ trống.  
+- Xây dựng báo cáo động nơi dữ liệu thay đổi thường xuyên.
+
+## Yêu cầu trước
+
+### Thư viện, phiên bản và phụ thuộc cần thiết
+- **Aspose.Slides for Java**: phiên bản 25.4 hoặc cao hơn.
 
 ### Yêu cầu thiết lập môi trường
-- Máy của bạn đã cài đặt Java Development Kit (JDK) phiên bản 16 trở lên.
+- Java Development Kit (JDK) 16 hoặc mới hơn.
 
-### Điều kiện tiên quyết về kiến thức
-- Hiểu biết cơ bản về lập trình Java.
-- Quen thuộc với Maven hoặc Gradle để quản lý sự phụ thuộc.
+### Kiến thức yêu cầu
+- Lập trình Java cơ bản.  
+- Quen thuộc với Maven hoặc Gradle để quản lý phụ thuộc.
 
-## Thiết lập Aspose.Slides cho Java
-
-Để bắt đầu sử dụng Aspose.Slides cho Java, hãy làm theo các bước thiết lập sau:
+## Cài đặt Aspose.Slides cho Java
 
 ### Cài đặt Maven
-
-Thêm phụ thuộc sau vào `pom.xml` tài liệu:
 
 ```xml
 <dependency>
@@ -57,26 +74,22 @@ Thêm phụ thuộc sau vào `pom.xml` tài liệu:
 
 ### Cài đặt Gradle
 
-Bao gồm điều này trong của bạn `build.gradle` tài liệu:
-
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Tải xuống trực tiếp
+### Tải trực tiếp
 
-Ngoài ra, hãy tải xuống phiên bản mới nhất từ [Aspose.Slides cho bản phát hành Java](https://releases.aspose.com/slides/java/).
+Hoặc, tải phiên bản mới nhất từ [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### Mua lại giấy phép
+### Đăng ký giấy phép
 
-Để sử dụng Aspose.Slides ngoài những giới hạn dùng thử:
-- Có được một **dùng thử miễn phí** giấy phép khám phá đầy đủ tính năng.
-- Nộp đơn xin một **giấy phép tạm thời** cho mục đích đánh giá.
-- Mua một **giấy phép thương mại** cho các dự án dài hạn.
+Để sử dụng Aspose.Slides vượt quá giới hạn dùng thử:
+- Nhận giấy phép **dùng thử miễn phí**.  
+- Xin giấy phép **tạm thời** để đánh giá.  
+- Mua giấy phép **thương mại** cho việc sử dụng trong môi trường sản xuất.
 
 #### Khởi tạo và thiết lập cơ bản
-
-Bắt đầu bằng cách khởi tạo `Presentation` lớp học:
 
 ```java
 import com.aspose.slides.*;
@@ -85,7 +98,7 @@ public class ChartManipulation {
     public static void main(String[] args) {
         Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/TestChart.pptx");
         try {
-            // Mã của bạn ở đây
+            // Your code here
         } finally {
             if (pres != null) pres.dispose();
         }
@@ -93,38 +106,33 @@ public class ChartManipulation {
 }
 ```
 
-## Hướng dẫn thực hiện
+## Sử dụng Aspose.Slides cho Java để xóa các điểm dữ liệu biểu đồ
 
-Trong phần này, chúng tôi sẽ hướng dẫn các bước để xóa các điểm dữ liệu cụ thể khỏi một chuỗi biểu đồ.
-
-### Xóa Điểm Dữ Liệu Biểu Đồ Chuỗi
+### Xóa các điểm dữ liệu của chuỗi biểu đồ
 
 #### Tổng quan
 
-Tính năng này cho phép bạn đặt lại hoặc xóa các giá trị X và Y của mỗi điểm dữ liệu trong một chuỗi biểu đồ được chỉ định. Tính năng này đặc biệt hữu ích khi cập nhật biểu đồ bằng các tập dữ liệu mới mà không cần tạo lại toàn bộ chúng.
+Bạn có thể đặt lại giá trị X và Y của mọi điểm dữ liệu trong một chuỗi đã chọn. Đây là cốt lõi của **cách xóa dữ liệu biểu đồ** mà không làm ảnh hưởng đến các chuỗi khác.
 
 #### Thực hiện từng bước
 
-1. **Tải bài thuyết trình**
-   
-   Bắt đầu bằng cách tải tệp PowerPoint của bạn vào Aspose.Slides `Presentation` sự vật.
+1. **Tải bản trình bày**  
+   Tải tệp PowerPoint của bạn vào một đối tượng `Presentation`.
 
    ```java
    Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/TestChart.pptx");
    ```
 
-2. **Truy cập Slide và Biểu đồ**
-
-   Lấy trang chiếu đầu tiên và biểu đồ của nó:
+2. **Truy cập Slide và Chart**  
+   Lấy slide đầu tiên và hình dạng đầu tiên (giả sử là một biểu đồ).
 
    ```java
    ISlide sl = pres.getSlides().get_Item(0);
    IChart chart = (IChart) sl.getShapes().get_Item(0);
    ```
 
-3. **Lặp lại qua các điểm dữ liệu**
-
-   Lặp qua từng điểm dữ liệu trong chuỗi đầu tiên để xóa giá trị của chúng.
+3. **Lặp qua các điểm dữ liệu**  
+   Duyệt các điểm dữ liệu của chuỗi đầu tiên và đặt giá trị ô của chúng thành `null`.
 
    ```java
    for (IChartDataPoint dataPoint : chart.getChartData().getSeries().get_Item(0).getDataPoints()) {
@@ -133,9 +141,8 @@ Tính năng này cho phép bạn đặt lại hoặc xóa các giá trị X và 
    }
    ```
 
-4. **Lưu bài thuyết trình**
-
-   Cuối cùng, hãy lưu bản trình bày đã cập nhật của bạn.
+4. **Lưu bản trình bày**  
+   Ghi lại các thay đổi vào một tệp mới.
 
    ```java
    pres.save("YOUR_DOCUMENT_DIRECTORY/UpdatedTestChart.pptx", SaveFormat.Pptx);
@@ -143,67 +150,65 @@ Tính năng này cho phép bạn đặt lại hoặc xóa các giá trị X và 
 
 ### Mẹo khắc phục sự cố
 
-- Đảm bảo chỉ số biểu đồ và chỉ số chuỗi là chính xác để tránh `IndexOutOfBoundsException`.
-- Xác minh đường dẫn tệp để tải và lưu bản trình bày.
+- Xác minh rằng chỉ mục slide (`0`) và chỉ mục shape (`0`) thực sự trỏ tới một biểu đồ; nếu không bạn sẽ gặp `IndexOutOfBoundsException`.  
+- Kiểm tra lại đường dẫn tệp cho cả việc tải và lưu; sử dụng đường dẫn tuyệt đối trong quá trình thử nghiệm để tránh nhầm lẫn.  
+- Nếu biểu đồ chứa nhiều chuỗi, điều chỉnh chỉ mục chuỗi (`get_Item(0)`) cho phù hợp.
 
-## Ứng dụng thực tế
+## Ứng dụng thực tiễn
 
-Việc xóa các điểm dữ liệu biểu đồ có thể được áp dụng trong nhiều trường hợp khác nhau:
+1. **Làm mới dữ liệu** – Thay thế dữ liệu cũ bằng bộ dữ liệu mới mà không cần tạo lại bố cục biểu đồ.  
+2. **Chuẩn bị mẫu** – Cung cấp các mẫu PowerPoint có biểu đồ trống sẵn sàng cho người dùng nhập dữ liệu.  
+3. **Báo cáo động** – Tích hợp với các nguồn dữ liệu trực tiếp (cơ sở dữ liệu, API) để tạo bản trình bày cập nhật ngay lập tức.  
+4. **Bảng điều khiển tự động** – Xây dựng các công việc định kỳ cập nhật biểu đồ hàng đêm, trước tiên xóa các giá trị trước.
 
-1. **Làm mới dữ liệu**: Cập nhật biểu đồ nhanh chóng bằng các tập dữ liệu mới.
-2. **Chuẩn bị mẫu**: Chuẩn bị mẫu bằng cách xóa dữ liệu giữ chỗ.
-3. **Báo cáo động**: Triển khai các bản cập nhật động trong các công cụ báo cáo hoặc bảng thông tin.
-4. **Tích hợp với các nguồn dữ liệu**: Kết nối và đồng bộ hóa các bài thuyết trình với cơ sở dữ liệu trực tiếp để phân tích theo thời gian thực.
+## Các cân nhắc về hiệu năng
 
-## Cân nhắc về hiệu suất
+- **Giải phóng đối tượng**: Luôn gọi `pres.dispose()` để giải phóng tài nguyên gốc.  
+- **Xử lý hàng loạt**: Khi xử lý nhiều bản trình bày, tái sử dụng một thể hiện `License` duy nhất và xử lý các tệp tuần tự để giảm tải.  
+- **Tinh chỉnh JVM**: Điều chỉnh kích thước heap (`-Xmx`) nếu bạn làm việc với các tệp PPTX rất lớn.
 
-Để tối ưu hóa hiệu suất của Aspose.Slides:
-- Quản lý việc sử dụng bộ nhớ hiệu quả bằng cách loại bỏ `Presentation` đồ vật sau khi sử dụng.
-- Sử dụng xử lý hàng loạt cho các tập dữ liệu lớn để giảm chi phí.
-- Theo dõi cài đặt heap JVM để ngăn ngừa lỗi hết bộ nhớ trong các hoạt động chuyên sâu.
+## Kết luận
 
-## Phần kết luận
+Trong hướng dẫn này, chúng tôi đã trình bày **cách xóa các điểm dữ liệu biểu đồ** bằng **Aspose.Slides cho Java**. Bằng cách thực hiện các bước trên, bạn có thể lập trình đặt lại các chuỗi biểu đồ, giữ cho bản trình bày của mình sạch sẽ và tích hợp việc cập nhật biểu đồ vào bất kỳ quy trình báo cáo nào dựa trên Java.
 
-Trong hướng dẫn này, chúng tôi đã khám phá cách xóa các điểm dữ liệu chuỗi biểu đồ trong PowerPoint bằng Aspose.Slides for Java. Bằng cách làm theo các bước này, bạn có thể cập nhật và quản lý biểu đồ của mình một cách hiệu quả, đảm bảo chúng phản ánh thông tin chính xác nhất.
+**Bước tiếp theo**
+- Thử nghiệm việc thêm các điểm dữ liệu mới sau khi đã xóa các điểm cũ.  
+- Khám phá các tính năng thao tác biểu đồ khác như thay đổi loại biểu đồ hoặc định dạng chuỗi.  
+- Xem lại tài liệu API đầy đủ của Aspose.Slides để có hiểu biết sâu hơn.
 
-**Các bước tiếp theo:**
-- Thử nghiệm với các tính năng thao tác biểu đồ khác.
-- Khám phá tài liệu mở rộng của Aspose.Slides để khám phá thêm nhiều chức năng.
+## Câu hỏi thường gặp
 
-Bạn đã sẵn sàng triển khai giải pháp này vào dự án của mình chưa? Hãy thử ngay hôm nay!
+**Q: Tôi có cần giấy phép cho các bản dựng phát triển không?**  
+A: Giấy phép dùng thử miễn phí đủ cho việc phát triển và thử nghiệm. Giấy phép thương mại cần thiết cho việc triển khai trong môi trường sản xuất.
 
-## Phần Câu hỏi thường gặp
+**Q: Aspose.Slides cho Java có hỗ trợ các tính năng của PowerPoint 2016/2019 không?**  
+A: Có, thư viện hoàn toàn tương thích với các định dạng PPTX hiện đại và hỗ trợ các loại biểu đồ nâng cao.
 
-1. **Làm thế nào để cài đặt Aspose.Slides cho Java bằng Maven?**
-   
-   Thêm đoạn mã phụ thuộc được cung cấp ở trên vào `pom.xml`.
+**Q: Tôi có thể xóa các điểm dữ liệu trong một biểu đồ sử dụng trục phụ không?**  
+A: Cách tiếp cận tương tự hoạt động; chỉ cần chắc chắn rằng bạn tham chiếu đúng chuỗi thuộc trục phụ.
 
-2. **Nếu tôi gặp phải một `IndexOutOfBoundsException` khi truy cập vào slide hoặc biểu đồ?**
-   
-   Kiểm tra lại xem chỉ số trang chiếu và biểu đồ bạn đang tham chiếu có tồn tại trong bài thuyết trình của bạn hay không.
+**Q: Có cách nào để chỉ xóa các giá trị Y trong khi giữ lại nhãn X không?**  
+A: Đặt `dataPoint.getYValue().getAsCell().setValue(null)` trong khi để ô X không thay đổi.
 
-3. **Aspose.Slides có thể xử lý các bài thuyết trình lớn một cách hiệu quả không?**
-   
-   Có, bằng cách quản lý việc sử dụng bộ nhớ hiệu quả và tối ưu hóa cài đặt JVM.
-
-4. **Có thể xóa các điểm dữ liệu mà không ảnh hưởng đến các chuỗi khác không?**
-   
-   Có, nhắm mục tiêu vào các chuỗi cụ thể và các điểm dữ liệu của chúng như được trình bày trong hướng dẫn.
-
-5. **Làm thế nào để tích hợp giải pháp này với cơ sở dữ liệu trực tiếp?**
-   
-   Sử dụng API của Aspose.Slides cùng với các thư viện kết nối cơ sở dữ liệu Java ưa thích của bạn để truy xuất và cập nhật dữ liệu biểu đồ một cách linh hoạt.
+**Q: Làm thế nào tôi có thể tự động hoá quy trình này cho nhiều bản trình bày?**  
+A: Đặt mã trong một vòng lặp duyệt qua thư mục chứa các tệp PPTX, áp dụng cùng logic xóa‑và‑lưu cho mỗi tệp.
 
 ## Tài nguyên
 
-- [Tài liệu Aspose.Slides](https://reference.aspose.com/slides/java/)
-- [Tải xuống Aspose.Slides cho Java](https://releases.aspose.com/slides/java/)
-- [Mua giấy phép](https://purchase.aspose.com/buy)
-- [Phiên bản dùng thử miễn phí](https://releases.aspose.com/slides/java/)
-- [Đơn xin cấp giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
-- [Diễn đàn cộng đồng Aspose](https://forum.aspose.com/c/slides/11)
+- [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
+- [Download Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
+- [Purchase a License](https://purchase.aspose.com/buy)
+- [Free Trial Version](https://releases.aspose.com/slides/java/)
+- [Temporary License Application](https://purchase.aspose.com/temporary-license/)
+- [Aspose Community Forum](https://forum.aspose.com/c/slides/11)
 
-Với những tài nguyên này, bạn đã được trang bị đầy đủ để bắt đầu tận dụng Aspose.Slides for Java trong các dự án của mình. Chúc bạn viết mã vui vẻ!
+Với những tài nguyên này, bạn đã sẵn sàng bắt đầu xóa các điểm dữ liệu biểu đồ trong các ứng dụng Java của mình. Chúc lập trình vui vẻ!
+
+---
+
+**Last Updated:** 2026-02-27  
+**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
