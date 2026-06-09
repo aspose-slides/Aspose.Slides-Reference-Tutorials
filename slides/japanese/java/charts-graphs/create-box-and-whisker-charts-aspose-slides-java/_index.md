@@ -232,6 +232,12 @@ Aspose.Slides を Java で使用する際は、以下のポイントに留意し
 
 このガイドに従えば、Java アプリケーションで洞察に満ちた箱ひげ図をプログラム的に生成し、PowerPoint プレゼンテーションに直接埋め込む準備が整います。コーディングを楽しんでください！
 
+---
+
+**最終更新日:** 2026-03-02  
+**テスト環境:** Aspose.Slides 25.4 (JDK 16 classifier)  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -239,9 +245,3 @@ Aspose.Slides を Java で使用する際は、以下のポイントに留意し
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2026-03-02  
-**テスト環境:** Aspose.Slides 25.4 (JDK 16 classifier)  
-**作者:** Aspose

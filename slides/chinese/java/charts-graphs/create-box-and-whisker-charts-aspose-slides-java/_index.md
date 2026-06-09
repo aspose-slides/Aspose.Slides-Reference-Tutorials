@@ -233,6 +233,12 @@ finally {
 
 通过本指南，您已掌握在 Java 应用中以编程方式生成有洞察力的箱线图，并将其直接嵌入 PowerPoint 演示文稿。祝编码愉快！
 
+---
+
+**最后更新：** 2026-03-02  
+**测试环境：** Aspose.Slides 25.4（JDK 16 classifier）  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -240,9 +246,3 @@ finally {
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2026-03-02  
-**测试环境：** Aspose.Slides 25.4（JDK 16 classifier）  
-**作者：** Aspose

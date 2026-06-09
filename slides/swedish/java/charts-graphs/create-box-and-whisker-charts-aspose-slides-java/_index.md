@@ -234,6 +234,12 @@ Biblioteket fungerar fullt ut i server‑side‑scenarier; inget UI krävs.
 
 Genom att följa den här guiden är du nu rustad att programatiskt generera insiktsfulla låd‑och‑whisker‑diagram i dina Java‑applikationer och bädda in dem direkt i PowerPoint‑presentationer. Lycka till med kodningen!
 
+---
+
+**Senast uppdaterad:** 2026-03-02  
+**Testad med:** Aspose.Slides 25.4 (JDK 16 classifier)  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -241,9 +247,3 @@ Genom att följa den här guiden är du nu rustad att programatiskt generera ins
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2026-03-02  
-**Testad med:** Aspose.Slides 25.4 (JDK 16 classifier)  
-**Författare:** Aspose

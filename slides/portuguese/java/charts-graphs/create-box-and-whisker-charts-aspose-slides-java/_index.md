@@ -234,6 +234,12 @@ A biblioteca funciona totalmente em cenários server‑side; nenhuma UI é neces
 
 Seguindo este guia, você está pronto para gerar programaticamente gráficos de caixa‑e‑bigodes perspicazes em suas aplicações Java e incorporá‑los diretamente em apresentações PowerPoint. Boa codificação!
 
+---
+
+**Última atualização:** 2026-03-02  
+**Testado com:** Aspose.Slides 25.4 (classificador JDK 16)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -241,9 +247,3 @@ Seguindo este guia, você está pronto para gerar programaticamente gráficos de
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2026-03-02  
-**Testado com:** Aspose.Slides 25.4 (classificador JDK 16)  
-**Autor:** Aspose

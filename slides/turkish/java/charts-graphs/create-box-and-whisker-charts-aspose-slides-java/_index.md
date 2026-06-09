@@ -235,6 +235,12 @@ Kütüphane sunucu tarafı senaryolarında tamamen çalışır; UI gerektirmez.
 
 Bu kılavuzu izleyerek, Java uygulamalarınızda programlı olarak içgörülü kutu‑ve‑bıyık grafikler oluşturup doğrudan PowerPoint sunumlarına yerleştirebilecek donanıma sahip oldunuz. Kodlamanın tadını çıkarın!
 
+---
+
+**Son Güncelleme:** 2026-03-02  
+**Test Edilen Versiyon:** Aspose.Slides 25.4 (JDK 16 classifier)  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -242,9 +248,3 @@ Bu kılavuzu izleyerek, Java uygulamalarınızda programlı olarak içgörülü 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2026-03-02  
-**Test Edilen Versiyon:** Aspose.Slides 25.4 (JDK 16 classifier)  
-**Yazar:** Aspose

@@ -235,6 +235,12 @@ La biblioteca funciona completamente en escenarios del lado del servidor; no se 
 
 Siguiendo esta guía, ahora estás preparado para generar programáticamente gráficos de caja‑y‑bigotes perspicaces en tus aplicaciones Java e incrustarlos directamente en presentaciones PowerPoint. ¡Feliz codificación!
 
+---
+
+**Última actualización:** 2026-03-02  
+**Probado con:** Aspose.Slides 25.4 (JDK 16 classifier)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -242,9 +248,3 @@ Siguiendo esta guía, ahora estás preparado para generar programáticamente gr�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2026-03-02  
-**Probado con:** Aspose.Slides 25.4 (JDK 16 classifier)  
-**Autor:** Aspose

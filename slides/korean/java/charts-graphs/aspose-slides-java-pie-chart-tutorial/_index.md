@@ -20,33 +20,40 @@ weight: 1
 
 오늘날 데이터‑드리븐 환경에서 **add Excel to PowerPoint**를 빠르고 안정적으로 수행하여 청중이 숫자를 시각적인 형식으로 볼 수 있도록 합니다. 이 튜토리얼에서는 Excel에서 PowerPoint를 생성하고, Java로 파이 차트를 만들며, 차트 데이터 범위를 구성하는 과정을 Aspose.Slides for Java와 함께 안내합니다. 최종적으로 Excel 워크북에서 실시간 데이터를 직접 가져오는 사용 가능한 프레젠테이션을 얻게 됩니다.
 
-## Quick Answers
-- **What library creates charts in Java?** Aspose.Slides for Java.
-- **Can I pull Excel data directly into a PowerPoint chart?** Yes – use Aspose.Cells to read the workbook and feed it to the chart.
-- **Which chart type is demonstrated?** A pie chart.
-- **How do I set the data range for the chart?** By calling `chart.getChartData().setRange("Sheet2!$A$1:$B$3")`.
-- **What is the primary benefit of this approach?** Automates the “add Excel to PowerPoint” workflow, eliminating manual copy‑paste.
+## 빠른 답변
+- **Java로 차트를 생성하는 라이브러리는 무엇입니까?** Aspose.Slides for Java.
+- **Excel 데이터를 PowerPoint 차트로 직접 가져올 수 있나요?** 예 – Aspose.Cells를 사용하여 통합 문서를 읽고 차트에 공급합니다.
+- **어떤 차트 유형을 보여주나요?** 원형 차트입니다.
+- **차트의 데이터 범위는 어떻게 설정합니까?** `chart.getChartData().setRange("Sheet2!$A$1:$B$3")`를 호출합니다.
+- **이 접근 방식의 주요 이점은 무엇입니까?** "PowerPoint에 Excel 추가" 작업 흐름을 자동화하여 수동으로 복사하여 붙여넣을 필요가 없습니다.
 
-## What is **add Excel to PowerPoint**?
-Excel을 PowerPoint에 추가한다는 것은 스프레드시트 데이터를 프로그래밍 방식으로 가져와 슬라이드 데크 안에 시각화하는 것을 의미합니다. Aspose.Slides와 Aspose.Cells를 사용하면 모든 Excel 파일을 읽고, 셀을 차트 시리즈에 매핑하며, PowerPoint를 수동으로 열지 않고도 깔끔한 프레젠테이션을 만들 수 있습니다.
+## **PowerPoint에 Excel 추가**란 무엇인가요?
+Excel을 PowerPoint에 추가한다는 것은 진정한 시트 데이터의 프로그래밍 방식으로 슬라이드 데크에 참여하는 것을 의미합니다. Aspose.Slides와 Aspose.Cells를 사용하면 모든 Excel 파일을 이해하고 셀을 차트 시리즈에 매핑하여 PowerPoint를 수동으로 열지 많은 프레젠테이션을 만들 수 있습니다.
 
-## Why generate PowerPoint from Excel with Aspose.Slides for Java?
-- **Speed:** Build reports in seconds, not minutes.
-- **Accuracy:** Data is read directly from the source workbook, removing transcription errors.
-- **Flexibility:** Customize chart colors, styles, and data ranges on the fly.
-- **Scalability:** Integrate into batch jobs, web services, or scheduled reporting pipelines.
+## Aspose.Slides for Java를 사용하여 Excel에서 PowerPoint를 생성해야 하는 이유
 
-## Prerequisites
+- **속도:** 보고서를 몇 분이 아닌 몇 초 만에 생성합니다.
 
-시작하기 전에 다음이 설치되어 있는지 확인하십시오:
+- **정확성:** 원본 통합 문서에서 데이터를 직접 읽어와서 전사 오류를 제거합니다.
 
-- **Java Development Kit (JDK) 1.8+** installed.
-- **Aspose.Slides for Java** and **Aspose.Cells for Java** libraries (Maven, Gradle, or direct JAR download).
-- An Excel workbook (`book1.xlsx`) containing the data you want to visualize.
-- A valid Aspose license (free trial works for evaluation).
+- **유연성:** 차트 색상, 스타일 및 데이터 범위를 즉시 사용자 지정할 수 있습니다.
 
-### Required Libraries
-You’ll need Aspose.Slides and Aspose.Cells. Use one of these dependency management tools:
+- **확장성:** 배치 작업, 웹 서비스 또는 예약된 보고 파이프라인에 통합할 수 있습니다.
+
+## 필수 조건
+
+시작하기 전에 다음 항목을 확인하십시오.
+
+- **Java Development Kit (JDK) 1.8 이상**이 설치되어 있어야 합니다.
+
+- **Aspose.Slides for Java** 및 **Aspose.Cells for Java** 라이브러리(Maven, Gradle 또는 JAR 직접 다운로드)
+
+- 시각화할 데이터가 포함된 Excel 통합 문서(`book1.xlsx`)
+
+- 유효한 Aspose 라이선스(평가를 위해 무료 평가판을 사용할 수 있습니다.)
+
+### 필수 라이브러리
+Aspose.Slides와 Aspose.Cells가 필요합니다. 다음 종속성 관리 도구 중 하나를 사용하세요.
 
 **Maven:**
 ```xml
@@ -63,176 +70,187 @@ You’ll need Aspose.Slides and Aspose.Cells. Use one of these dependency manage
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Alternatively, download the JARs directly from [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+또는 [Aspose.Slides for Java 릴리스](https://releases.aspose.com/slides/java/)에서 JAR 파일을 직접 다운로드할 수도 있습니다.
 
-### License Acquisition
-- **Free Trial:** Available on the [Aspose download page](https://releases.aspose.com/slides/java/).  
-- **Temporary License:** For testing without evaluation limitations, apply for one at [Aspose's temporary license page](https://purchase.aspose.com/temporary-license/).  
-- **Purchase License:** To use Aspose products in production, purchase the full license.
+### 라이선스 취득
+- **무료 평가판:** [Aspose 다운로드 페이지](https://releases.aspose.com/slides/java/)에서 이용 가능합니다.
 
-## Setting Up Aspose.Slides for Java
+- **임시 라이선스:** 평가 제한 없이 테스트하려면 [Aspose 임시 라이선스 페이지](https://purchase.aspose.com/temporary-license/)에서 신청하세요.
 
-Add the Aspose.Slides dependency to your project (see the Maven/Gradle snippets above) and place the JAR files on your classpath if you’re not using a build tool.
+- **정식 라이선스:** Aspose 제품을 실제 운영 환경에서 사용하려면 정식 라이선스를 구매하세요.
 
-### Basic Initialization and Setup
-Import the core class that represents a PowerPoint file:
+## Aspose.Slides for Java 설정
+
+프로젝트에 Aspose.Slides 종속성을 추가하고(위의 Maven/Gradle 코드 조각 참조), 빌드 도구를 사용하지 않는 경우 JAR 파일을 클래스 경로에 추가하세요.
+
+### 기본 초기화 및 설정
+파워포인트 파일을 나타내는 핵심 클래스를 가져옵니다.
 
 ```java
 import com.aspose.slides.Presentation;
 ```
 
-## Implementation Guide
+## 구현 가이드
 
-Below is a step‑by‑step walkthrough that covers **create pie chart java**, **set chart data range**, and **add Excel to PowerPoint** in a single flow.
+아래는 **Java를 이용한 파이 차트 생성**, **차트 데이터 범위 설정**, **Excel 데이터를 PowerPoint에 추가**하는 과정을 하나의 워크플로로 단계별로 안내합니다.
 
-### Create and Add Chart to Presentation
+### 차트 생성 및 프레젠테이션에 추가
 
-**Overview:** Initialize a new presentation, grab the first slide, and insert a pie chart.
+**개요:** 새 프레젠테이션을 열고 첫 번째 슬라이드를 선택한 후 파이 차트를 삽입합니다.
 
-#### Step 1: Initialize Presentation
+#### 1단계: 프레젠테이션 초기화
 ```java
 Presentation pres = new Presentation();
 ```
-- **Purpose:** Creates an empty PowerPoint file in memory.
+- **목적:** 메모리에 빈 PowerPoint 파일을 생성합니다.
 
-#### Step 2: Access First Slide
+#### 2단계: 첫 번째 슬라이드 열기
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
 ```
-- **Explanation:** Retrieves the automatically created first slide.
+- **설명:** 자동으로 생성된 첫 번째 슬라이드를 불러옵니다.
 
-#### Step 3: Add Pie Chart to Slide
+#### 3단계: 슬라이드에 원형 차트 추가
 ```java
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 50, 50, 500, 400);
 ```
-- **Parameters:** Position (`x`, `y`) and size (`width`, `height`).  
-- **Purpose:** Places a pie chart shape on the slide.
+- **매개변수:** 위치(`x`, `y`) 및 크기(`width`, `height`)
 
-### Load Workbook from File
+- **용도:** 슬라이드에 원형 차트 도형을 배치합니다.
 
-**Overview:** Load the Excel workbook that holds the data for the chart.
+### 파일에서 통합 문서 불러오기
 
-#### Step 1: Define Document Directory
+**개요:** 차트에 사용할 데이터가 포함된 Excel 통합 문서를 불러옵니다.
+
+#### 1단계: 문서 디렉터리 정의
 ```java
 String documentDirectory = "YOUR_DOCUMENT_DIRECTORY";
 ```
-- Set this to the folder containing `book1.xlsx`.
+- `book1.xlsx` 파일이 있는 폴더로 설정하세요.
 
-#### Step 2: Open Workbook
+#### 2단계: 통합 문서 열기
 ```java
 Workbook workbook = new Workbook(documentDirectory + "/book1.xlsx");
 ```
-- **Purpose:** Reads the Excel file into memory.
+- **목적:** Excel 파일을 메모리로 읽어들입니다.
 
-### Save Workbook to ByteArrayOutputStream
+### 통합 문서를 ByteArrayOutputStream으로 저장
 
-**Overview:** Convert the workbook into a byte array so Aspose.Slides can consume it.
+**개요:** Aspose.Slides에서 사용할 수 있도록 통합 문서를 바이트 배열로 변환합니다.
 
-#### Step 1: Create ByteArrayOutputStream
+#### 1단계: ByteArrayOutputStream 생성
 ```java
 ByteArrayOutputStream mem = new ByteArrayOutputStream();
 ```
-- **Purpose:** Provides an in‑memory stream for temporary storage.
+- **목적:** 임시 저장을 위한 메모리 스트림을 제공합니다.
 
-#### Step 2: Save Workbook to Stream
+#### 2단계: 통합 문서를 스트림에 저장
 ```java
 workbook.save(mem, SaveFormat.XLSX);
 mem.flush();
 ```
-- **Explanation:** Writes the workbook as an XLSX byte stream.
+- **설명:** 통합 문서를 XLSX 바이트 스트림으로 차트에 씁니다.
 
-### Write Workbook Data to Chart
+### 통합 문서 데이터를 차트에 쓰기
 
-**Overview:** Feed the Excel byte array into the chart as its data source.
+**개요:** Excel 바이트 배열을 차트의 데이터 소스로 사용합니다.
 
-#### Step 1: Feed Data into Chart
+#### 1단계: 차트에 데이터 입력
 ```java
 chart.getChartData().writeWorkbookStream(mem.toByteArray());
 ```
-- **Purpose:** Links the chart to the Excel data.
+- **목적:** 차트를 Excel 데이터에 연결합니다.
 
-### Set Chart Data Range and Configure Series
+### 차트 데이터 범위 설정 및 계열 구성
 
-**Overview:** Define which cells the chart should read and enhance visual styling.
+**개요:** 차트에 표시할 셀을 정의하고 시각적 스타일을 향상시킵니다.
 
-#### Step 1: Define Data Range
+#### 1단계: 데이터 범위 정의
 ```java
 chart.getChartData().setRange("Sheet2!$A$1:$B$3");
 ```
-- **Explanation:** Points the chart to the exact range on *Sheet2*.
+- **설명:** 차트를 *Sheet2*의 정확한 범위로 지정합니다.
 
-#### Step 2: Configure Series Properties
+#### 2단계: 계열 속성 구성
 ```java
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 series.getParentSeriesGroup().setColorVaried(true);
 ```
-- **Purpose:** Enables varied colors for each slice of the pie chart.
+- **목적:** 원형 차트의 각 조각에 다양한 색상을 적용할 수 있습니다.
 
-### Save Presentation to File
+### 프레젠테이션을 파일로 저장
 
-**Overview:** Persist the completed presentation to disk.
+**개요:** 완성된 프레젠테이션을 디스크에 저장합니다.
 
-#### Step 1: Define Output Path
+#### 1단계: 출력 경로 정의
 ```java
 String outPath = "YOUR_OUTPUT_DIRECTORY/response2.pptx";
 ```
-- Choose a folder where you want the final PowerPoint file.
+- 최종 PowerPoint 파일을 저장할 폴더를 선택하세요.
 
-#### Step 2: Save Presentation
+#### 2단계: 프레젠테이션 저장
 ```java
 pres.save(outPath, SaveFormat.Pptx);
 ```
-- **Explanation:** Writes the presentation as a `.pptx` file.
+- **설명:** 프레젠테이션을 `.pptx` 파일로 저장합니다.
 
-## Practical Applications
+## 실제 활용 사례
 
-1. **Business Reporting:** Turn monthly sales spreadsheets into polished slide decks with a single command.  
-2. **Educational Tools:** Show statistical breakdowns for classroom presentations without manual chart creation.  
-3. **Dashboard Integration:** Automate the generation of slide‑based dashboards that pull live data from Excel workbooks.
+1. **비즈니스 보고:** 월별 매출 스프레드시트를 단 한 번의 명령으로 세련된 슬라이드 자료로 변환합니다.
 
-## Performance Considerations
+2. **교육 도구:** 차트를 수동으로 만들 필요 없이 수업 발표를 위한 통계 분석 자료를 제공합니다.
 
-- **Memory Management:** Wrap streams in try‑with‑resources or close them in a `finally` block to avoid leaks.  
-- **Large Datasets:** Process data in chunks or use `Workbook.getWorksheets().clear()` after extracting needed values.  
-- **Lazy Loading:** Load the workbook only when you need to populate the chart, not at application startup.
+3. **대시보드 통합:** Excel 통합 문서에서 실시간 데이터를 가져와 슬라이드 기반 대시보드를 자동으로 생성합니다.
 
-## Common Issues and Solutions
+## 성능 고려 사항
 
-| 문제 | 해결책 |
+- **메모리 관리:** 메모리 누수를 방지하기 위해 스트림을 `try-with-resources` 블록으로 묶거나 `finally` 블록에서 닫습니다.
+
+- **대규모 데이터 세트:** 데이터를 청크 단위로 처리하거나 필요한 값을 추출한 후 `Workbook.getWorksheets().clear()`를 사용합니다.
+
+- **지연 로딩:** 애플리케이션 시작 시가 아닌 차트를 채울 때만 통합 문서를 로드합니다.
+
+## 일반적인 문제 및 해결 방법
+
+| 문제 | 해결 방법 |
+
 |-------|----------|
-| **Chart shows no data** | Verify the range string matches the sheet name and cell addresses exactly (`Sheet2!$A$1:$B$3`). |
-| **OutOfMemoryError** | Use `try (ByteArrayOutputStream mem = new ByteArrayOutputStream()) { … }` to ensure the stream is released promptly. |
-| **License not applied** | Load the license before any Aspose class is instantiated: `License lic = new License(); lic.setLicense("Aspose.Slides.lic");` |
 
-## Frequently Asked Questions
+| **차트에 데이터가 표시되지 않음** | 범위 문자열이 시트 이름과 셀 주소(`Sheet2!$A$1:$B$3`)와 정확히 일치하는지 확인하십시오. |
 
-**Q: Can I use Aspose.Slides without a license?**  
-A: Yes, but evaluation mode adds watermarks and limits some features. For production, obtain a temporary or full license.
+| **메모리 부족 오류** | 스트림이 즉시 해제되도록 `try (ByteArrayOutputStream mem = new ByteArrayOutputStream()) { … }`를 사용하십시오. |
 
-**Q: How do I handle large presentations in Aspose.Slides?**  
-A: Use efficient resource management, split the presentation into smaller parts, and dispose of unused objects promptly.
+| **라이선스가 적용되지 않음** | Aspose 클래스를 인스턴스화하기 전에 라이선스를 로드하십시오. `License lic = new License(); lic.setLicense("Aspose.Slides.lic");` |
 
-**Q: What file formats can Aspose.Slides export to?**  
-A: PPTX, PDF, XPS, ODP, HTML, and image formats such as PNG, JPEG, and BMP.
+## 자주 묻는 질문
 
-**Q: Is it possible to update an existing PowerPoint file instead of creating a new one?**  
-A: Absolutely. Load an existing file with `new Presentation("existing.pptx")`, modify slides/charts, then save.
+**Q: 라이선스 없이 Aspose.Slides를 사용할 수 있습니까?**
+A: 예, 하지만 평가 모드에서는 워터마크가 추가되고 일부 기능이 제한됩니다. 실제 운영 환경에서 사용하려면 임시 또는 정식 라이선스를 취득하십시오.
 
-**Q: Does the library support setting custom colors for individual pie slices?**  
-A: Yes – after retrieving the series, you can set `series.getDataPoints().get_Item(i).getFormat().getFill().setFillType(FillType.Solid);` and assign a `Color`.
+**질문: Aspose.Slides에서 대규모 프레젠테이션을 어떻게 처리하나요?**
+답변: 효율적인 리소스 관리를 통해 프레젠테이션을 더 작은 부분으로 나누고 사용하지 않는 개체를 즉시 제거하세요.
 
-## Resources
-- **Documentation:** [Aspose.Slides Java API Reference](https://reference.aspose.com/slides/java/)
-- **Download:** [Aspose.Slides for Java Releases](https://releases.aspose.com/slides/java/)
-- **Purchase License:** [Buy Aspose Products](https://purchase.aspose.com/buy)
-- **Free Trial:** [Try Aspose.Slides Free](https://releases.aspose.com/slides/java/)
-- **Temporary License:** [Get a Temporary License](https://purchase.aspose.com/temporary-license)
+**질문: Aspose.Slides에서 내보낼 수 있는 파일 형식은 무엇인가요?**
+답변: PPTX, PDF, XPS, ODP, HTML 및 PNG, JPEG, BMP와 같은 이미지 형식을 지원합니다.
+
+**질문: 새 PowerPoint 파일을 만드는 대신 기존 파일을 업데이트할 수 있나요?**
+답변: 네, 가능합니다. `new Presentation("existing.pptx")`를 사용하여 기존 파일을 불러온 후 슬라이드/차트를 수정하고 저장하면 됩니다.
+
+**질문: 라이브러리에서 개별 파이 조각에 사용자 지정 색상을 설정할 수 있나요?**
+답변: 네, 가능합니다. 시리즈를 가져온 후 `series.getDataPoints().get_Item(i).getFormat().getFill().setFillType(FillType.Solid);`를 사용하여 `Color`를 설정하고 원하는 색상을 지정할 수 있습니다.
+
+## 리소스
+- **문서:** [Aspose.Slides Java API 참조](https://reference.aspose.com/slides/java/)
+- **다운로드:** [Aspose.Slides Java 릴리스](https://releases.aspose.com/slides/java/)
+- **라이선스 구매:** [Aspose 제품 구매](https://purchase.aspose.com/buy)
+- **무료 체험:** [Aspose.Slides 무료 체험](https://releases.aspose.com/slides/java/)
+- **임시 라이선스:** [임시 라이선스 받기](https://purchase.aspose.com/temporary-license)
 
 ---
 
-**Last Updated:** 2026-03-02  
-**Tested With:** Aspose.Slides 25.4 for Java (JDK 16) & Aspose.Cells 25.4  
-**Author:** Aspose  
+**최종 업데이트:** 2026년 3월 2일
+**테스트 환경:** Aspose.Slides 25.4 for Java (JDK16) 및 Aspose.Cells 25.4
+**작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

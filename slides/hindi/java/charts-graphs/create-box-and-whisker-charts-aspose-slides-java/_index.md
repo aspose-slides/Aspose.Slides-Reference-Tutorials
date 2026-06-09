@@ -235,6 +235,12 @@ Java में Aspose.Slides के साथ काम करते समय, 
 
 इस गाइड को फॉलो करके, आप अब अपने Java एप्लिकेशन में प्रोग्रामेटिकली इनसाइटफुल बॉक्स‑एंड‑व्हिस्कर चार्ट्स जनरेट करने और उन्हें सीधे PowerPoint प्रस्तुतियों में एम्बेड करने में सक्षम हैं। कोडिंग का आनंद लें!
 
+---
+
+**अंतिम अद्यतन:** 2026-03-02  
+**परीक्षित संस्करण:** Aspose.Slides 25.4 (JDK 16 classifier)  
+**लेखक:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -242,9 +248,3 @@ Java में Aspose.Slides के साथ काम करते समय, 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**अंतिम अद्यतन:** 2026-03-02  
-**परीक्षित संस्करण:** Aspose.Slides 25.4 (JDK 16 classifier)  
-**लेखक:** Aspose

@@ -233,6 +233,12 @@ finally {
 
 透過本指南，您已具備在 Java 應用程式中程式化產生洞見豐富的箱形圖（box‑and‑whisker）並直接嵌入 PowerPoint 簡報的能力。祝開發順利！
 
+---
+
+**最後更新：** 2026-03-02  
+**測試環境：** Aspose.Slides 25.4 (JDK 16 classifier)  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -240,9 +246,3 @@ finally {
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2026-03-02  
-**測試環境：** Aspose.Slides 25.4 (JDK 16 classifier)  
-**作者：** Aspose

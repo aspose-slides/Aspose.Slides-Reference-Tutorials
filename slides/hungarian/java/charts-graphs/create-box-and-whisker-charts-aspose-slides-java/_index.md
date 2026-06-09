@@ -235,6 +235,12 @@ A könyvtár teljesen működik szerver‑oldali környezetben; UI nem szükség
 
 Ezzel az útmutatóval most már képes programozottan generálni átfogó box‑and‑whisker diagramokat Java‑alkalmazásaiban, és közvetlenül PowerPoint‑prezentációkba ágyazni őket. Boldog kódolást!
 
+---
+
+**Utoljára frissítve:** 2026-03-02  
+**Tesztelve a következővel:** Aspose.Slides 25.4 (JDK 16 classifier)  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -242,9 +248,3 @@ Ezzel az útmutatóval most már képes programozottan generálni átfogó box�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utoljára frissítve:** 2026-03-02  
-**Tesztelve a következővel:** Aspose.Slides 25.4 (JDK 16 classifier)  
-**Szerző:** Aspose

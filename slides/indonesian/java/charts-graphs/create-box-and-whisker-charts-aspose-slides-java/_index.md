@@ -235,6 +235,12 @@ Pustaka ini berfungsi sepenuhnya di skenario sisi‑server; tidak diperlukan UI.
 
 Dengan mengikuti panduan ini, Anda kini siap menghasilkan diagram box‑and‑whisker yang informatif secara programatik dalam aplikasi Java Anda dan menyematkannya langsung ke dalam presentasi PowerPoint. Selamat coding!
 
+---
+
+**Terakhir Diperbarui:** 2026-03-02  
+**Diuji Dengan:** Aspose.Slides 25.4 (JDK 16 classifier)  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -242,9 +248,3 @@ Dengan mengikuti panduan ini, Anda kini siap menghasilkan diagram box‑and‑wh
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2026-03-02  
-**Diuji Dengan:** Aspose.Slides 25.4 (JDK 16 classifier)  
-**Penulis:** Aspose

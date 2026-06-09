@@ -234,6 +234,12 @@ De bibliotheek werkt volledig in server‑side scenario’s; er is geen UI verei
 
 Door deze gids te volgen, kun je nu programmatiche box‑and‑whisker‑grafieken genereren in je Java‑applicaties en ze direct embedden in PowerPoint‑presentaties. Veel programmeerplezier!
 
+---
+
+**Laatst bijgewerkt:** 2026-03-02  
+**Getest met:** Aspose.Slides 25.4 (JDK 16 classifier)  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -241,9 +247,3 @@ Door deze gids te volgen, kun je nu programmatiche box‑and‑whisker‑grafiek
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2026-03-02  
-**Getest met:** Aspose.Slides 25.4 (JDK 16 classifier)  
-**Auteur:** Aspose

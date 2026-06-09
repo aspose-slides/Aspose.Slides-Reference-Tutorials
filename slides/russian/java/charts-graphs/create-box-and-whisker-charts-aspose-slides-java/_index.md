@@ -232,6 +232,12 @@ finally {
 
 Следуя этому руководству, вы теперь способны программно генерировать информативные диаграммы box‑and‑whisker в ваших Java‑приложениях и внедрять их напрямую в презентации PowerPoint. Удачной разработки!
 
+---
+
+**Последнее обновление:** 2026-03-02  
+**Тестировано с:** Aspose.Slides 25.4 (JDK 16 classifier)  
+**Автор:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -239,9 +245,3 @@ finally {
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2026-03-02  
-**Тестировано с:** Aspose.Slides 25.4 (JDK 16 classifier)  
-**Автор:** Aspose

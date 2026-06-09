@@ -37,16 +37,16 @@ weight: 1
 - **Гибкость:** На лету меняйте цвета диаграмм, стили и диапазоны данных.  
 - **Масштабируемость:** Интегрируйте в пакетные задания, веб‑службы или плановые конвейеры отчётности.
 
-## Prerequisites
+## Предварительные условия
 
 Перед началом убедитесь, что у вас есть:
 
-- **Java Development Kit (JDK) 1.8+** установлен.  
-- Библиотеки **Aspose.Slides for Java** и **Aspose.Cells for Java** (Maven, Gradle или прямое скачивание JAR).  
-- Книга Excel (`book1.xlsx`) с данными, которые вы хотите визуализировать.  
+- **Установлен Java Development Kit (JDK) 1.8+**.
+- Библиотеки **Aspose.Slides for Java** и **Aspose.Cells for Java** (Maven, Gradle или прямое скачивание JAR).
+- Книга Excel (`book1.xlsx`) с данными, которые вы хотите визуализировать.
 - Действующая лицензия Aspose (для оценки подойдёт бесплатная пробная версия).
 
-### Required Libraries
+### Необходимые библиотеки
 Вам потребуются Aspose.Slides и Aspose.Cells. Используйте один из этих инструментов управления зависимостями:
 
 **Maven:**
@@ -66,174 +66,174 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 
 Либо скачайте JAR‑файлы напрямую с [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### License Acquisition
-- **Free Trial:** Доступно на [странице загрузки Aspose](https://releases.aspose.com/slides/java/).  
-- **Temporary License:** Для тестирования без ограничений оценки подайте заявку на [странице временной лицензии Aspose](https://purchase.aspose.com/temporary-license/).  
-- **Purchase License:** Чтобы использовать продукты Aspose в продакшене, приобретите полную лицензию.
+### Получение лицензии
+- **Бесплатная пробная версия:** Доступно на [странице загрузки Aspose](https://releases.aspose.com/slides/java/).
+- **Временная лицензия:** Для тестирования без ограничений подайте заявку на [страницу временной лицензии Aspose](https://purchase.aspose.com/temporary-license/).
+- **Приобретение лицензии:** Для использования продуктов При продаже приобретите полную лицензию.
 
-## Setting Up Aspose.Slides for Java
+## Настройка Aspose.Slides для Java
 
-Добавьте зависимость Aspose.Slides в ваш проект (см. сниппеты Maven/Gradle выше) и разместите JAR‑файлы в classpath, если не используете систему сборки.
+Добавьте зависимость Aspose.Slides в ваш проект (см. сниппеты Maven/Gradle выше) и разместите JAR‑файлы в classpath, если не использовать сборку системы.
 
-### Basic Initialization and Setup
+### Базовая инициализация и настройка
 Импортируйте основной класс, представляющий файл PowerPoint:
 
 ```java
 import com.aspose.slides.Presentation;
 ```
 
-## Implementation Guide
+## Руководство по внедрению
 
-Ниже представлена пошаговая инструкция, охватывающая **create pie chart java**, **set chart data range** и **add Excel to PowerPoint** в едином потоке.
+Ниже представлена ​​пошаговая инструкция, охватывающая **создание круговой диаграммы Java**, **установка диапазона данных диаграммы** и **добавление Excel в PowerPoint** в одном потоке.
 
-### Create and Add Chart to Presentation
+### Создание и добавление диаграммы в презентацию
 
-**Overview:** Инициализируйте новую презентацию, получите первый слайд и вставьте круговую диаграмму.
+**Обзор:** Инициализируйте новую презентацию, создайте первый слайд и вставьте круговую диаграмму.
 
-#### Step 1: Initialize Presentation
+#### Шаг 1. Инициализация презентации
 ```java
 Presentation pres = new Presentation();
 ```
 - **Purpose:** Создаёт пустой файл PowerPoint в памяти.
 
-#### Step 2: Access First Slide
+#### Шаг 2: Откройте первый слайд
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
 ```
 - **Explanation:** Получает автоматически созданный первый слайд.
 
-#### Step 3: Add Pie Chart to Slide
+#### Шаг 3: Добавьте круговую диаграмму на слайд
 ```java
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 50, 50, 500, 400);
 ```
 - **Parameters:** Позиция (`x`, `y`) и размер (`width`, `height`).  
 - **Purpose:** Размещает форму круговой диаграммы на слайде.
 
-### Load Workbook from File
+### Загрузить книгу из файла
 
-**Overview:** Загрузите книгу Excel, содержащую данные для диаграммы.
+**Обзор:** Загрузите книгу Excel, содержащую данные для диаграмм.
 
-#### Step 1: Define Document Directory
+#### Шаг 1. Определите каталог документов
 ```java
 String documentDirectory = "YOUR_DOCUMENT_DIRECTORY";
 ```
 - Установите путь к папке, где находится `book1.xlsx`.
 
-#### Step 2: Open Workbook
+#### Шаг 2: Откройте рабочую тетрадь
 ```java
 Workbook workbook = new Workbook(documentDirectory + "/book1.xlsx");
 ```
-- **Purpose:** Считывает файл Excel в память.
+- **Цель:** Считывает файл Excel в память.
 
-### Save Workbook to ByteArrayOutputStream
+### Сохранить книгу в ByteArrayOutputStream
 
-**Overview:** Преобразуйте книгу в массив байтов, чтобы Aspose.Slides мог её использовать.
+**Обзор:** Преобразуйте книгу в массив байтов, чтобы Aspose.Slides мог ее использовать.
 
-#### Step 1: Create ByteArrayOutputStream
+#### Шаг 1. Создайте поток ByteArrayOutputStream
 ```java
 ByteArrayOutputStream mem = new ByteArrayOutputStream();
 ```
-- **Purpose:** Предоставляет поток в памяти для временного хранения.
+- **Цель:** Предоставляет поток в память для временного хранения.
 
-#### Step 2: Save Workbook to Stream
+#### Шаг 2. Сохраните книгу в потоке
 ```java
 workbook.save(mem, SaveFormat.XLSX);
 mem.flush();
 ```
-- **Explanation:** Записывает книгу как поток байтов XLSX.
+- **Пояснение:** Записывает книгу как поток байтов XLSX.
 
-### Write Workbook Data to Chart
+### Запись данных книги в диаграмму
 
-**Overview:** Передайте массив байтов Excel в диаграмму в качестве источника данных.
+**Обзор:** Передайте массив байтов Excel в диаграмму в качестве источника данных.
 
-#### Step 1: Feed Data into Chart
+#### Шаг 1. Внесите данные в диаграмму
 ```java
 chart.getChartData().writeWorkbookStream(mem.toByteArray());
 ```
-- **Purpose:** Связывает диаграмму с данными из Excel.
+- **Цель:** Связывает диаграмму с данными из Excel.
 
-### Set Chart Data Range and Configure Series
+### Установите диапазон данных диаграммы и настройте серию
 
-**Overview:** Укажите, какие ячейки должна читать диаграмма, и улучшите визуальное оформление.
+**Обзор:** Укажите, какие ячейки должны прочитать диаграмму, и улучшите визуальное оформление.
 
-#### Step 1: Define Data Range
+#### Шаг 1. Определите диапазон данных
 ```java
 chart.getChartData().setRange("Sheet2!$A$1:$B$3");
 ```
-- **Explanation:** Указывает диаграмме точный диапазон на *Sheet2*.
+- **Пояснение:** Указывает диаграмму диапазона научных исследований на *Листе2*.
 
-#### Step 2: Configure Series Properties
+#### Шаг 2. Настройка свойств серии
 ```java
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 series.getParentSeriesGroup().setColorVaried(true);
 ```
-- **Purpose:** Включает разные цвета для каждого сектора круговой диаграммы.
+- **Цель:** Включает разные цвета для каждого сектора круговой диаграммы.
 
-### Save Presentation to File
+### Сохранить презентацию в файл
 
-**Overview:** Сохраните готовую презентацию на диск.
+**Обзор:** Сохраните готовую презентацию на диске.
 
-#### Step 1: Define Output Path
+#### Шаг 1. Определите путь вывода
 ```java
 String outPath = "YOUR_OUTPUT_DIRECTORY/response2.pptx";
 ```
 - Выберите папку, куда будет сохранён итоговый файл PowerPoint.
 
-#### Step 2: Save Presentation
+#### Шаг 2: Сохранение презентации
 ```java
 pres.save(outPath, SaveFormat.Pptx);
 ```
-- **Explanation:** Записывает презентацию в файл формата `.pptx`.
+- **Пояснение:** Записывает презентацию в файл формата `.pptx`.
 
-## Practical Applications
+## Практическое применение
 
-1. **Business Reporting:** Превращайте ежемесячные таблицы продаж в отшлифованные наборы слайдов одной командой.  
-2. **Educational Tools:** Демонстрируйте статистические разбивки в учебных презентациях без ручного создания диаграмм.  
-3. **Dashboard Integration:** Автоматизируйте генерацию слайд‑дешбордов, которые берут живые данные из книг Excel.
+1. **Бизнес-отчетность:** Превращайте ежемесячные таблицы продаж в отшлифованные наборы слайдов одной команды.
+2. **Образовательные инструменты:** Демонстрируйте статистические разбивки в учебных презентациях без ручного построения диаграмм.
+3. **Интеграция с информационной панелью:** Автоматизируйте генерацию слайд‑дешбордов, которые берут живые книги данных из Excel.
 
-## Performance Considerations
+## Вопросы производительности
 
-- **Memory Management:** Оборачивайте потоки в `try‑with‑resources` или закрывайте их в блоке `finally`, чтобы избежать утечек.  
-- **Large Datasets:** Обрабатывайте данные порциями или вызывайте `Workbook.getWorksheets().clear()` после извлечения нужных значений.  
-- **Lazy Loading:** Загружайте книгу только тогда, когда нужно заполнить диаграмму, а не при запуске приложения.
+- **Управление памятью:** Оборачивайте потоки в `try‑with-resources` или закрывайте их в блоке `finally`, чтобы избежать утечек.
+- **Большие наборы данных:** Обрабатывайте данные порциями или вызывайте `Workbook.getWorksheets().clear()` после извлечения нужных результатов.
+- **Отложенная загрузка:** Загружайте книгу только тогда, когда нужно заполнить диаграмму, а не при запуске приложения.
 
-## Common Issues and Solutions
+## Распространенные проблемы и решения
 
-| Issue | Solution |
+| Выпуск | Решение |
 |-------|----------|
-| **Chart shows no data** | Убедитесь, что строка диапазона точно соответствует имени листа и адресам ячеек (`Sheet2!$A$1:$B$3`). |
-| **OutOfMemoryError** | Используйте `try (ByteArrayOutputStream mem = new ByteArrayOutputStream()) { … }` для своевременного освобождения потока. |
-| **License not applied** | Загрузите лицензию до создания любого объекта Aspose: `License lic = new License(); lic.setLicense("Aspose.Slides.lic");` |
+| **Диаграмма не содержит данных** | Убедитесь, что строка синхронизации точно соответствует имени листа и ячейкам адресов (`Sheet2!$A$1:$B$3`). |
+| **OutOfMemoryError** | Используйте `try (ByteArrayOutputStream mem = new ByteArrayOutputStream()) {… }` для своевременного освобождения потока. |
+| **Лицензия не применяется** | Загрузите лицензию для создания любого объекта. Предположим: `License lic = new License(); lic.setLicense("Aspose.Slides.lic");` |
 
-## Frequently Asked Questions
+## Часто задаваемые вопросы
 
-**Q: Can I use Aspose.Slides without a license?**  
-A: Yes, but evaluation mode adds watermarks and limits some features. For production, obtain a temporary or full license.
+**В: Могу ли я использовать Aspose.Slides без лицензии?**
+О: Да, но в ознакомительном режиме добавляются водяные знаки и ограничены некоторые функции. Для использования в производственной среде приобретите временную или полную лицензию.
 
-**Q: How do I handle large presentations in Aspose.Slides?**  
-A: Use efficient resource management, split the presentation into smaller parts, and dispose of unused objects promptly.
+**В: Как работать с большими презентациями в Aspose.Slides?**
+О: Используйте эффективное управление ресурсами, разбейте презентацию на более мелкие части и оперативно удаляйте неиспользуемые объекты.
 
-**Q: What file formats can Aspose.Slides export to?**  
-A: PPTX, PDF, XPS, ODP, HTML, and image formats such as PNG, JPEG, and BMP.
+**В: В какие форматы файлов может экспортировать Aspose.Slides?**
+О: PPTX, PDF, XPS, ODP, HTML и форматы изображений, такие как PNG, JPEG и BMP.
 
-**Q: Is it possible to update an existing PowerPoint file instead of creating a new one?**  
-A: Absolutely. Load an existing file with `new Presentation("existing.pptx")`, modify slides/charts, then save.
+**В: Можно ли обновить существующий файл PowerPoint вместо создания нового?**
+О: Конечно. Загрузите существующий файл с помощью `new Presentation("existing.pptx")`, измените слайды/диаграммы, а затем сохраните.
 
-**Q: Does the library support setting custom colors for individual pie slices?**  
-A: Yes – after retrieving the series, you can set `series.getDataPoints().get_Item(i).getFormat().getFill().setFillType(FillType.Solid);` and assign a `Color`.
+**В: Поддерживает ли библиотека настройку пользовательских цветов для отдельных сегментов круговой диаграммы?**
+О: Да – после получения серии вы можете установить `series.getDataPoints().get_Item(i).getFormat().getFill().setFillType(FillType.Solid);` и присвоить `Color`.
 
-## Resources
-- **Documentation:** [Aspose.Slides Java API Reference](https://reference.aspose.com/slides/java/)  
-- **Download:** [Aspose.Slides for Java Releases](https://releases.aspose.com/slides/java/)  
-- **Purchase License:** [Buy Aspose Products](https://purchase.aspose.com/buy)  
-- **Free Trial:** [Try Aspose.Slides Free](https://releases.aspose.com/slides/java/)  
-- **Temporary License:** [Get a Temporary License](https://purchase.aspose.com/temporary-license)
+## Ресурсы
+- **Документация:** [Справочник по Java API Aspose.Slides](https://reference.aspose.com/slides/java/)
+- **Загрузка:** [Релизы Aspose.Slides для Java](https://releases.aspose.com/slides/java/)
+- **Приобретение лицензии:** [Купить продукты Aspose](https://purchase.aspose.com/buy)
+- **Бесплатная пробная версия:** [Попробовать Aspose.Slides бесплатно](https://releases.aspose.com/slides/java/)
+- **Временная лицензия:** [Получить временную лицензию](https://purchase.aspose.com/temporary-license)
 
 ---
 
-**Last Updated:** 2026-03-02  
-**Tested With:** Aspose.Slides 25.4 for Java (JDK 16) & Aspose.Cells 25.4  
-**Author:** Aspose  
+**Последнее обновление:** 02.03.2026
+**Протестировано с:** Aspose.Slides 25.4 для Java (JDK16) и Aspose.Cells 25.4
+**Автор:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

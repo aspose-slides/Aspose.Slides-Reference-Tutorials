@@ -234,6 +234,12 @@ finally {
 
 โดยทำตามคู่มือนี้ คุณจะพร้อมสร้างแผนภูมิ box‑and‑whisker อย่างมีประสิทธิภาพในแอปพลิเคชัน Java ของคุณและฝังลงในงานนำเสนอ PowerPoint โดยตรง ขอให้สนุกกับการเขียนโค้ด!
 
+---
+
+**อัปเดตล่าสุด:** 2026-03-02  
+**ทดสอบด้วย:** Aspose.Slides 25.4 (JDK 16 classifier)  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -241,9 +247,3 @@ finally {
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2026-03-02  
-**ทดสอบด้วย:** Aspose.Slides 25.4 (JDK 16 classifier)  
-**ผู้เขียน:** Aspose

@@ -234,6 +234,12 @@ finally {
 
 باتباعك هذا الدليل، أصبحت الآن مجهزًا لإنشاء مخططات الصندوق والشارب ببرمجة في تطبيقات Java الخاصة بك وتضمينها مباشرةً في عروض PowerPoint. برمجة سعيدة!
 
+---
+
+**آخر تحديث:** 2026-03-02  
+**تم الاختبار مع:** Aspose.Slides 25.4 (JDK 16 classifier)  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -241,9 +247,3 @@ finally {
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2026-03-02  
-**تم الاختبار مع:** Aspose.Slides 25.4 (JDK 16 classifier)  
-**المؤلف:** Aspose

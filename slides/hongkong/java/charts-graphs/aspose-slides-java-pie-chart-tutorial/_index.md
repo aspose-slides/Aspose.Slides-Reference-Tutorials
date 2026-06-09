@@ -20,7 +20,7 @@ weight: 1
 
 在當今以數據為驅動的環境中，**add Excel to PowerPoint** 需要快速且可靠，讓觀眾能以視覺化方式看到數字。本教學將指導您如何從 Excel 產生 PowerPoint、使用 Java 建立餅圖，以及設定圖表資料範圍——全部使用 Aspose.Slides for Java。完成後，您將擁有一個即時從 Excel 活頁簿提取資料的可直接使用的簡報。
 
-## Quick Answers
+## 快速解答
 - **什麼函式庫在 Java 中建立圖表？** Aspose.Slides for Java.
 - **我可以直接將 Excel 資料拉入 PowerPoint 圖表嗎？** Yes – use Aspose.Cells to read the workbook and feed it to the chart.
 - **示範的圖表類型是什麼？** A pie chart.

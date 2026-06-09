@@ -235,6 +235,12 @@ Box-and-whisker 차트(또는 box plot)는 최소값, 1사분위수, 중앙값, 
 
 이 가이드를 따라하면 Java 애플리케이션에서 통찰력 있는 box‑and‑whisker 차트를 프로그래밍 방식으로 생성하고 PowerPoint 프레젠테이션에 직접 삽입할 수 있습니다. 즐거운 코딩 되세요!
 
+---
+
+**마지막 업데이트:** 2026-03-02  
+**테스트 환경:** Aspose.Slides 25.4 (JDK 16 classifier)  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -242,9 +248,3 @@ Box-and-whisker 차트(또는 box plot)는 최소값, 1사분위수, 중앙값, 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2026-03-02  
-**테스트 환경:** Aspose.Slides 25.4 (JDK 16 classifier)  
-**작성자:** Aspose

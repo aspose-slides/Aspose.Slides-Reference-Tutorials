@@ -235,6 +235,12 @@ La bibliothèque fonctionne pleinement dans des scénarios côté serveur ; au
 
 En suivant ce guide, vous êtes maintenant capable de générer programmétiquement des graphiques à moustaches pertinents dans vos applications Java et de les intégrer directement dans des présentations PowerPoint. Bon codage !
 
+---
+
+**Last Updated:** 2026-03-02  
+**Tested With:** Aspose.Slides 25.4 (JDK 16 classifier)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -242,9 +248,3 @@ En suivant ce guide, vous êtes maintenant capable de générer programmétiquem
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-02  
-**Tested With:** Aspose.Slides 25.4 (JDK 16 classifier)  
-**Author:** Aspose

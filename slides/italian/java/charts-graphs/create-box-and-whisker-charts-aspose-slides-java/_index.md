@@ -234,6 +234,12 @@ La libreria funziona completamente in scenari server‑side; non è necessario a
 
 Seguendo questa guida, ora sei pronto a generare programmaticamente grafici a scatola‑baffi perspicaci nelle tue applicazioni Java e incorporarli direttamente nelle presentazioni PowerPoint. Buon coding!
 
+---
+
+**Last Updated:** 2026-03-02  
+**Tested With:** Aspose.Slides 25.4 (JDK 16 classifier)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -241,9 +247,3 @@ Seguendo questa guida, ora sei pronto a generare programmaticamente grafici a sc
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-02  
-**Tested With:** Aspose.Slides 25.4 (JDK 16 classifier)  
-**Author:** Aspose

@@ -234,6 +234,12 @@ Knihovna funguje plně v server‑side scénářích; UI není vyžadováno.
 
 Po absolvování tohoto průvodce jste nyní připraveni programově generovat přehledné box‑and‑whisker grafy ve svých Java aplikacích a vkládat je přímo do PowerPoint prezentací. Šťastné programování!
 
+---
+
+**Poslední aktualizace:** 2026-03-02  
+**Testováno s:** Aspose.Slides 25.4 (JDK 16 classifier)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -241,9 +247,3 @@ Po absolvování tohoto průvodce jste nyní připraveni programově generovat p
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2026-03-02  
-**Testováno s:** Aspose.Slides 25.4 (JDK 16 classifier)  
-**Autor:** Aspose

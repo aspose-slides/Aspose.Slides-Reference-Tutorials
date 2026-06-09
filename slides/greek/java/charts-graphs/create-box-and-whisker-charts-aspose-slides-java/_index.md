@@ -235,6 +235,12 @@ finally {
 
 Ακολουθώντας αυτόν τον οδηγό, είστε πλέον εξοπλισμένοι να δημιουργείτε προγραμματιστικά διαγράμματα box‑and‑whisker στις εφαρμογές Java και να τα ενσωματώνετε απευθείας σε παρουσιάσεις PowerPoint. Καλή προγραμματιστική!
 
+---
+
+**Τελευταία ενημέρωση:** 2026-03-02  
+**Δοκιμή με:** Aspose.Slides 25.4 (JDK 16 classifier)  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -242,9 +248,3 @@ finally {
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία ενημέρωση:** 2026-03-02  
-**Δοκιμή με:** Aspose.Slides 25.4 (JDK 16 classifier)  
-**Συγγραφέας:** Aspose

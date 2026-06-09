@@ -235,6 +235,12 @@ Die Bibliothek funktioniert vollständig in serverseitigen Szenarien; eine UI is
 
 Indem Sie diesem Leitfaden folgen, sind Sie nun in der Lage, programmgesteuert aussagekräftige Box‑and‑Whisker‑Diagramme in Ihren Java‑Anwendungen zu erzeugen und sie direkt in PowerPoint‑Präsentationen einzubetten. Viel Spaß beim Programmieren!
 
+---
+
+**Zuletzt aktualisiert:** 2026-03-02  
+**Getestet mit:** Aspose.Slides 25.4 (JDK 16 classifier)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -242,9 +248,3 @@ Indem Sie diesem Leitfaden folgen, sind Sie nun in der Lage, programmgesteuert a
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2026-03-02  
-**Getestet mit:** Aspose.Slides 25.4 (JDK 16 classifier)  
-**Autor:** Aspose

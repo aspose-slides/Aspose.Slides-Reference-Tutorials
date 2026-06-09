@@ -6,7 +6,7 @@ keywords:
 - Aspose.Slides for Java
 - Java PowerPoint automation
 - Excel data integration
-title: 将 Excel 添加到 PowerPoint：使用 Aspose.Slides for Java 的动态图表（饼图）
+title: 将 Excel 添加到 PowerPoint - 使用 Aspose.Slides for Java 的动态图表（饼图）
 url: /zh/java/charts-graphs/aspose-slides-java-pie-chart-tutorial/
 weight: 1
 ---

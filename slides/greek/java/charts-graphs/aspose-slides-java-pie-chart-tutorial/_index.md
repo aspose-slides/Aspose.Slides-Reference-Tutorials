@@ -89,19 +89,19 @@ import com.aspose.slides.Presentation;
 
 **Επισκόπηση:** Αρχικοποιήστε μια νέα παρουσίαση, πάρτε την πρώτη διαφάνεια και εισάγετε ένα διάγραμμα πίτας.
 
-#### Step 1: Initialize Presentation
+#### Βήμα 1: Αρχικοποίηση παρουσίασης
 ```java
 Presentation pres = new Presentation();
 ```
 - **Σκοπός:** Δημιουργεί ένα κενό αρχείο PowerPoint στη μνήμη.
 
-#### Step 2: Access First Slide
+#### Βήμα 2: Πρόσβαση στην πρώτη διαφάνεια
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
 ```
 - **Εξήγηση:** Ανακτά την αυτόματα δημιουργημένη πρώτη διαφάνεια.
 
-#### Step 3: Add Pie Chart to Slide
+#### Βήμα 3: Προσθήκη κυκλικού γραφήματος στη διαφάνεια
 ```java
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 50, 50, 500, 400);
 ```
@@ -112,13 +112,13 @@ IChart chart = slide.getShapes().addChart(ChartType.Pie, 50, 50, 500, 400);
 
 **Επισκόπηση:** Φορτώστε το βιβλίο εργασίας Excel που περιέχει τα δεδομένα για το διάγραμμα.
 
-#### Step 1: Define Document Directory
+#### Βήμα 1: Ορισμός καταλόγου εγγράφων
 ```java
 String documentDirectory = "YOUR_DOCUMENT_DIRECTORY";
 ```
 - Ορίστε αυτό στο φάκελο που περιέχει το `book1.xlsx`.
 
-#### Step 2: Open Workbook
+#### Βήμα 2: Άνοιγμα βιβλίου εργασίας
 ```java
 Workbook workbook = new Workbook(documentDirectory + "/book1.xlsx");
 ```
@@ -128,13 +128,13 @@ Workbook workbook = new Workbook(documentDirectory + "/book1.xlsx");
 
 **Επισκόπηση:** Μετατρέψτε το βιβλίο εργασίας σε byte array ώστε το Aspose.Slides να το χρησιμοποιήσει.
 
-#### Step 1: Create ByteArrayOutputStream
+#### Βήμα 1: Δημιουργία ByteArrayOutputStream
 ```java
 ByteArrayOutputStream mem = new ByteArrayOutputStream();
 ```
 - **Σκοπός:** Παρέχει μια ροή στη μνήμη για προσωρινή αποθήκευση.
 
-#### Step 2: Save Workbook to Stream
+#### Βήμα 2: Αποθήκευση βιβλίου εργασίας στη ροή
 ```java
 workbook.save(mem, SaveFormat.XLSX);
 mem.flush();
@@ -145,7 +145,7 @@ mem.flush();
 
 **Επισκόπηση:** Τροφοδοτήστε το byte array του Excel στο διάγραμμα ως πηγή δεδομένων.
 
-#### Step 1: Feed Data into Chart
+#### Βήμα 1: Εισαγωγή δεδομένων στο γράφημα
 ```java
 chart.getChartData().writeWorkbookStream(mem.toByteArray());
 ```
@@ -155,13 +155,13 @@ chart.getChartData().writeWorkbookStream(mem.toByteArray());
 
 **Επισκόπηση:** Ορίστε ποια κελιά πρέπει να διαβάσει το διάγραμμα και βελτιώστε το οπτικό στυλ.
 
-#### Step 1: Define Data Range
+#### Βήμα 1: Ορισμός εύρους δεδομένων
 ```java
 chart.getChartData().setRange("Sheet2!$A$1:$B$3");
 ```
 - **Εξήγηση:** Κατευθύνει το διάγραμμα στην ακριβή περιοχή στο *Sheet2*.
 
-#### Step 2: Configure Series Properties
+#### Βήμα 2: Ρύθμιση παραμέτρων ιδιοτήτων σειράς
 ```java
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 series.getParentSeriesGroup().setColorVaried(true);
@@ -172,13 +172,13 @@ series.getParentSeriesGroup().setColorVaried(true);
 
 **Επισκόπηση:** Αποθηκεύστε την ολοκληρωμένη παρουσίαση στο δίσκο.
 
-#### Step 1: Define Output Path
+#### Βήμα 1: Ορισμός διαδρομής εξόδου
 ```java
 String outPath = "YOUR_OUTPUT_DIRECTORY/response2.pptx";
 ```
 - Επιλέξτε έναν φάκελο όπου θέλετε το τελικό αρχείο PowerPoint.
 
-#### Step 2: Save Presentation
+#### Βήμα 2: Αποθήκευση παρουσίασης
 ```java
 pres.save(outPath, SaveFormat.Pptx);
 ```

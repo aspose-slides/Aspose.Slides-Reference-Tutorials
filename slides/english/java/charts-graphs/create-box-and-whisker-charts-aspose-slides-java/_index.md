@@ -233,6 +233,12 @@ The library works fully in server‑side scenarios; no UI is required.
 
 By following this guide, you're now equipped to programmatically generate insightful box‑and‑whisker charts in your Java applications and embed them directly into PowerPoint presentations. Happy coding!
 
+---
+
+**Last Updated:** 2026-03-02  
+**Tested With:** Aspose.Slides 25.4 (JDK 16 classifier)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -240,9 +246,3 @@ By following this guide, you're now equipped to programmatically generate insigh
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-02  
-**Tested With:** Aspose.Slides 25.4 (JDK 16 classifier)  
-**Author:** Aspose

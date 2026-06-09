@@ -199,7 +199,7 @@ pres.save(outPath, SaveFormat.Pptx);
 
 ## ปัญหาที่พบบ่อยและวิธีแก้
 
-| Issue | Solution |
+| ปัญหา | วิธีแก้ปัญหา |
 |-------|----------|
 | **Chart shows no data** | ตรวจสอบว่า string ช่วงตรงกับชื่อแผ่นและที่อยู่เซลล์อย่างแม่นยำ (`Sheet2!$A$1:$B$3`). |
 | **OutOfMemoryError** | ใช้ `try (ByteArrayOutputStream mem = new ByteArrayOutputStream()) { … }` เพื่อให้สตรีมถูกปล่อยอย่างรวดเร็ว. |
@@ -207,19 +207,19 @@ pres.save(outPath, SaveFormat.Pptx);
 
 ## คำถามที่พบบ่อย
 
-**Q: Can I use Aspose.Slides without a license?**  
-A: ใช่, แต่โหมดประเมินจะใส่ลายน้ำและจำกัดบางฟีเจอร์. สำหรับการผลิต, ควรได้รับใบอนุญาตชั่วคราวหรือเต็มรูปแบบ.
+**ถาม: ฉันสามารถใช้ Aspose.Slides โดยไม่มีใบอนุญาตได้หรือไม่**
+A: เป็นไปได้ แต่ระบบประเมินจะใส่ลายน้ำและจำกัดบางส่วนของมัน สำหรับการผลิต, ในเวลานี้จะได้รับเพียงชั่วคราวหรืออีกครั้ง
 
-**Q: How do I handle large presentations in Aspose.Slides?**  
-A: ใช้การจัดการทรัพยากรอย่างมีประสิทธิภาพ, แบ่งงานนำเสนอเป็นส่วนย่อย, และทำลายอ็อบเจกต์ที่ไม่ได้ใช้โดยเร็ว.
+**ถาม: ฉันจะจัดการงานนำเสนอขนาดใหญ่ใน Aspose.Slides ได้อย่างไร**
+ตอบ: ใช้การจัดการทรัพยากรอย่างมีประสิทธิภาพ, แบ่งการย่อยย่อย, และทำลายอ็อบเจกต์ที่เห็นได้ชัดโดยเร็ว.
 
-**Q: What file formats can Aspose.Slides export to?**  
+**ถาม: Aspose.Slides สามารถส่งออกไฟล์เป็นรูปแบบใดได้บ้าง**
 A: PPTX, PDF, XPS, ODP, HTML, และรูปภาพเช่น PNG, JPEG, และ BMP.
 
-**Q: Is it possible to update an existing PowerPoint file instead of creating a new one?**  
-A: แน่นอน. โหลดไฟล์ที่มีอยู่ด้วย `new Presentation("existing.pptx")`, แก้ไขสไลด์/แผนภูมิ, แล้วบันทึก.
+**ถาม: เป็นไปได้ไหมที่จะอัปเดตไฟล์ PowerPoint ที่มีอยู่แทนที่จะสร้างไฟล์ใหม่**
+A: แน่นอน. ดาวน์โหลดไฟล์ได้ตลอดเวลาด้วย `new Presentation("existing.pptx")`, ภาพยนตร์ภาพยนตร์/ ระดับ, จากนั้นบันทึก
 
-**Q: Does the library support setting custom colors for individual pie slices?**  
+**ถาม: ไลบรารีรองรับการตั้งค่าสีที่กำหนดเองสำหรับชิ้นพายแต่ละชิ้นหรือไม่** 
 A: ใช่ – หลังจากดึงซีรีส์, คุณสามารถตั้งค่า `series.getDataPoints().get_Item(i).getFormat().getFill().setFillType(FillType.Solid);` และกำหนด `Color`.
 
 ## แหล่งข้อมูล
