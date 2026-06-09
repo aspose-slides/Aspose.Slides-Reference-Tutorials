@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-17"
-"description": "Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 상자형 차트를 생성하고 사용자 지정하는 방법을 알아보세요. 이 단계별 가이드에서는 설정, 구현 및 모범 사례를 다룹니다."
-"title": "Aspose.Slides for Java를 사용하여 PowerPoint에서 상자-수염 차트를 만드는 방법"
-"url": "/ko/java/charts-graphs/create-box-and-whisker-charts-aspose-slides-java/"
-"weight": 1
+date: '2026-03-02'
+description: Aspose.Slides for Java를 사용하여 박스 플롯을 만들고, 슬라이드에 차트를 추가하며, PowerPoint에서
+  박스‑위스커 차트를 생성하는 방법을 배우세요.
+keywords:
+- Aspose.Slides for Java
+- Box-and-Whisker Charts
+- PowerPoint Java
+title: Aspose.Slides for PowerPoint를 사용하여 Java로 박스 플롯 만들기
+url: /ko/java/charts-graphs/create-box-and-whisker-charts-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,34 +16,40 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.Slides for Java를 사용하여 PowerPoint에서 상자-수염 차트를 만드는 방법
+# PowerPoint에서 Aspose.Slides for Java를 사용하여 Box-and-Whisker 차트 만들기
 
-오늘날 데이터 중심 사회에서는 시각적으로 매력적인 데이터 프레젠테이션을 만드는 것이 매우 중요하며, 차트는 이러한 목적에 필수적인 도구입니다. Java를 사용하여 PowerPoint에서 상자형 차트를 생성하려는 경우 Aspose.Slides 라이브러리가 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 Java용 Aspose.Slides를 사용하여 이러한 차트를 원활하게 만들고 구성하는 방법을 안내합니다.
+이 가이드에서는 Aspose.Slides를 사용하여 **create box plot java**를 만든 다음 차트를 PowerPoint 슬라이드에 직접 삽입합니다. 시각적으로 매력적인 데이터 프레젠테이션을 만드는 것은 오늘날 데이터 중심 세계에서 매우 중요하며, 차트는 이를 위한 필수 도구입니다. Java를 사용하여 PowerPoint 내에서 box-and-whisker 차트를 생성하려는 경우 Aspose.Slides 라이브러리가 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 Aspose.Slides for Java를 사용해 이러한 차트를 손쉽게 생성하고 구성하는 방법을 단계별로 안내합니다.
 
-## 당신이 배울 것
+## 배울 내용
 
-- Java용 Aspose.Slides 환경 설정
-- Java를 사용하여 PowerPoint에서 상자형 차트를 만들고 구성하는 단계
-- Aspose.Slides 작업 시 성능 최적화를 위한 모범 사례
-- 상자형 수염 차트의 실제 적용
+- Aspose.Slides for Java 환경 설정
+- **add chart to slide** 단계와 Java를 사용하여 PowerPoint에서 box‑whisker 차트 생성
+- Aspose.Slides 사용 시 성능 최적화를 위한 모범 사례
+- box‑and‑whisker 차트의 실제 적용 사례
 
-구현에 들어가기에 앞서 전제 조건부터 살펴보겠습니다.
+## 빠른 답변
 
-## 필수 조건
+- **What library creates a box plot in Java?** Aspose.Slides for Java.
+- **Which chart type is used?** `ChartType.BoxAndWhisker`.
+- **Do I need a license?** 평가용으로는 무료 체험판을 사용할 수 있으며, 제품 환경에서는 상용 라이선스가 필요합니다.
+- **Can I add multiple series?** 예 – 각 데이터 세트마다 series‑creation 블록을 반복하면 됩니다.
+- **What format is the final file?** PowerPoint PPTX (`SaveFormat.Pptx`).
 
-이 튜토리얼을 따르려면 다음 사항이 필요합니다.
+## 사전 요구 사항
 
-- **자바 개발 키트(JDK)**: JDK 8 이상이 설치되어 있어야 합니다.
-- **Java용 Aspose.Slides 라이브러리**Java로 PowerPoint 프레젠테이션을 처리하는 데 필수적입니다.
-- **IDE**: IntelliJ IDEA나 Eclipse와 같은 통합 개발 환경을 사용하여 코드를 작성하고 실행할 수 있습니다.
+이 튜토리얼을 따라하려면 다음이 필요합니다:
 
-## Java용 Aspose.Slides 설정
+- **Java Development Kit (JDK)**: JDK 8 이상이 설치되어 있어야 합니다.
+- **Aspose.Slides for Java Library**: Java에서 PowerPoint 프레젠테이션을 처리하는 데 필수합니다.
+- **IDE**: IntelliJ IDEA 또는 Eclipse와 같은 통합 개발 환경으로 코드를 작성하고 실행합니다.
 
-Aspose.Slides를 사용하려면 종속성으로 추가하세요. Maven, Gradle 또는 직접 다운로드를 통해 관리할 수 있습니다.
+## Aspose.Slides for Java 설정
 
-### 메이븐
+Aspose.Slides를 사용하려면 종속성으로 추가합니다. Maven, Gradle 또는 직접 다운로드를 통해 관리할 수 있습니다.
 
-다음 종속성을 추가하세요. `pom.xml`:
+### Maven
+
+`pom.xml`에 다음 종속성을 추가합니다:
 
 ```xml
 <dependency>
@@ -49,9 +60,9 @@ Aspose.Slides를 사용하려면 종속성으로 추가하세요. Maven, Gradle 
 </dependency>
 ```
 
-### 그래들
+### Gradle
 
-당신의 `build.gradle`, 포함하다:
+`build.gradle`에 다음을 포함합니다:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
@@ -59,52 +70,62 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 
 ### 직접 다운로드
 
-또는 다음에서 최신 버전을 다운로드하세요. [Java용 Aspose.Slides 릴리스](https://releases.aspose.com/slides/java/).
+또는 최신 버전을 [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/)에서 다운로드합니다.
 
-#### 라이센스 취득
+#### 라이선스 획득
 
-- **무료 체험**: 무료 체험판을 통해 기능을 살펴보세요.
-- **임시 면허**: 평가 목적으로 임시 라이센스를 얻으세요.
-- **구입**: 모든 기능을 사용하려면 라이선스 구매를 고려해 보세요.
+- **Free Trial**: 기능을 살펴보기 위해 무료 체험판으로 시작합니다.  
+- **Temporary License**: 평가용으로 임시 라이선스를 얻습니다.  
+- **Purchase**: 전체 기능을 사용하려면 라이선스 구매를 고려하십시오.
 
-Aspose.Slides를 초기화하려면 클래스 경로에 라이브러리가 있는지 확인하고 필요에 따라 라이선스 요구 사항을 설정하세요.
+Aspose.Slides를 초기화하려면 클래스패스에 라이브러리를 포함하고 필요에 따라 라이선스 설정을 수행하십시오.
 
 ## 구현 가이드
 
-이제 Aspose.Slides for Java를 사용하여 상자 수염 차트를 만들어 보겠습니다. 이 섹션에서는 작업의 각 단계를 안내해 드리겠습니다.
+이제 단계별 코드를 살펴보겠습니다. 각 블록은 코드 스니펫 전에 설명되어 있어 정확히 무엇을 하는지 알 수 있습니다.
 
-### 프레젠테이션 만들기
+### 박스 플롯이란 무엇이며 Java에서 사용하는 이유는?
 
-먼저, 새 프레젠테이션을 초기화하거나 기존 프레젠테이션을 엽니다.
+Box‑and‑whisker 차트(일반적으로 *box plot*이라고도 함)는 데이터 분포—중앙값, 사분위수 및 이상치—를 간결하게 시각화합니다. Java에서 프로그래밍 방식으로 이 차트를 생성하면 통계적 인사이트를 PowerPoint 프레젠테이션에 직접 삽입할 수 있어 수동 차트 작성을 없앨 수 있습니다.
+
+### Aspose.Slides로 슬라이드에 차트를 추가하는 이유는?
+
+Aspose.Slides는 저수준 OpenXML 세부 정보를 추상화하여 차트를 생성, 스타일링 및 내보내기 위한 유창한 API를 제공합니다. 이를 통해 보고서 생성을 자동화하고 일관된 브랜드를 유지하며 차트를 더 큰 Java 워크플로에 통합할 수 있습니다.
+
+### 단계 1: 프레젠테이션 만들기 또는 열기
+
+먼저 기존 PPTX 파일을 열거나 새 프레젠테이션을 시작합니다:
 
 ```java
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/test.pptx");
 ```
 
-### 상자-수염 차트 추가
+> **Pro tip:** 파일이 존재하지 않으면 Aspose.Slides가 새 빈 프레젠테이션을 생성합니다.
 
-원하는 위치와 크기로 첫 번째 슬라이드에 차트를 추가하세요.
+### 단계 2: 슬라이드에 Box‑and‑Whisker 차트 추가
+
+차트의 위치와 크기(포인트 단위)를 지정하여 원하는 위치에 배치합니다:
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
     ChartType.BoxAndWhisker, 50, 50, 500, 400);
 ```
 
-### 기존 데이터 지우기
+### 단계 3: 기존 데이터 지우기
 
-새 데이터를 채우기 전에 기존 범주와 시리즈를 모두 지웁니다.
+새 데이터를 입력하기 전에 자리표시자 카테고리나 시리즈를 모두 삭제합니다:
 
 ```java
 chart.getChartData().getCategories().clear();
 chart.getChartData().getSeries().clear();
 
 IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
-wb.clear(0); // 셀 "A1"부터 시작하여 내용을 지웁니다.
+wb.clear(0); // Clears content starting from cell "A1"
 ```
 
-### 카테고리 구성
+### 단계 4: 카테고리 구성
 
-차트 데이터에 카테고리를 추가하세요.
+각 박스 아래에 표시될 카테고리(X축 레이블)를 추가합니다:
 
 ```java
 for (int i = 1; i <= 6; i++) {
@@ -113,34 +134,40 @@ for (int i = 1; i <= 6; i++) {
 }
 ```
 
-### 시리즈 만들기 및 사용자 정의
+> **Note:** 레이블 텍스트를 데이터 도메인에 맞게 조정하세요(예: “Q1”, “Product A”).
 
-새 시리즈를 만들고 속성을 구성합니다.
+### 단계 5: 시리즈 생성 및 사용자 정의
+
+이제 시리즈를 생성하고 시각 옵션을 설정한 뒤 숫자 데이터 포인트를 입력합니다:
 
 ```java
 IChartSeries series = chart.getChartData().getSeries().add(ChartType.BoxAndWhisker);
-series.setQuartileMethod(QuartileMethodType.Exclusive); // 사분위수 방법을 배타적으로 설정
-series.setShowMeanLine(true); // 평균선 표시
-series.setShowMeanMarkers(true); // 평균값에 대한 마커 표시
-series.setShowInnerPoints(true); // 차트에 내부 포인트 표시
-series.setShowOutlierPoints(true); // 차트에 이상치 표시
+series.setQuartileMethod(QuartileMethodType.Exclusive); // Set quartile method to Exclusive
+series.setShowMeanLine(true); // Display mean line
+series.setShowMeanMarkers(true); // Show markers for mean values
+series.setShowInnerPoints(true); // Display inner points on the chart
+series.setShowOutlierPoints(true); // Show outlier points on the chart
 
-int[] data = {15, 41, 16, 10, 23, 16}; // 샘플 데이터 포인트
+int[] data = {15, 41, 16, 10, 23, 16}; // Sample data points
 for (int i = 0; i < data.length; i++) {
     series.getDataPoints().addDataPointForBoxAndWhiskerSeries(
         wb.getCell(0, "B" + (i + 1), data[i]));
 }
 ```
 
-### 프레젠테이션 저장
+`int[] data` 배열을 데이터베이스, CSV 파일 또는 기타 소스에서 읽은 값으로 교체할 수 있습니다.
 
-마지막으로 프레젠테이션을 저장합니다.
+### 단계 6: 프레젠테이션 저장
+
+변경 내용을 새 PPTX 파일에 저장합니다:
 
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/BoxAndWhisker.pptx", SaveFormat.Pptx);
 ```
 
-항상 폐기하도록 하십시오. `Presentation` 리소스 해제에 대한 객체:
+### 단계 7: 리소스 정리
+
+항상 `Presentation` 객체를 dispose하여 네이티브 리소스를 해제합니다:
 
 ```java
 finally {
@@ -148,59 +175,71 @@ finally {
 }
 ```
 
-## 실제 응용 프로그램
+## 실용적인 적용 사례
 
-상자수염 차트는 통계 분석 및 데이터 표현에 매우 유용합니다. 다음은 몇 가지 실용적인 응용 프로그램입니다.
+Box‑and‑whisker 차트는 통계 분석 및 데이터 프레젠테이션에서 매우 유용합니다. 다음은 차트가 특히 효과적인 몇 가지 시나리오입니다:
 
-1. **재무 분석**: 매출, 이익률, 주가 등의 재무 지표를 시각화합니다.
-2. **품질 관리**: 일관성을 위해 제조 공정을 분석하고 이상치를 파악합니다.
-3. **학술 연구**: 변동성을 명확하게 시각화하여 실험 결과를 제시합니다.
-4. **시장 조사**: 다양한 인구통계에 따른 다양한 제품 성과를 비교합니다.
+1. **Financial Analysis** – 지역별 매출 분포를 시각화합니다.  
+2. **Quality Control** – 제조 측정값에서 이상치를 찾아냅니다.  
+3. **Academic Research** – 실험 결과 변동성을 보여줍니다.  
+4. **Market Research** – 인구통계별 제품 성능을 비교합니다.
 
-이러한 차트는 대규모 데이터 분석 워크플로 및 대시보드에 통합되어 통찰력 있는 시각적 요약을 제공할 수 있습니다.
+이 차트를 PowerPoint 프레젠테이션에 통합하면 이해관계자가 복잡한 데이터를 한눈에 파악할 수 있습니다.
 
 ## 성능 고려 사항
 
-Java에서 Aspose.Slides를 사용할 때 최적의 성능을 위해 다음 사항을 고려하세요.
+Java에서 Aspose.Slides를 사용할 때 다음 팁을 기억하세요:
 
-- **메모리 관리**: 프레젠테이션을 적절히 처리하여 메모리 사용을 효율적으로 보장합니다.
-- **데이터 처리**: 성능 병목 현상을 방지하기 위해 대규모 데이터 세트에 대한 데이터 작업을 최소화합니다.
-- **최적화된 코드**해당되는 경우 지연 로딩 및 캐싱과 같은 모범 사례를 사용하세요.
+- **Memory Management** – `Presentation` 객체를 즉시 dispose합니다.  
+- **Data Handling** – 필요한 데이터만 로드하고, 대용량 데이터를 차트 워크북에 직접 입력하는 것을 피합니다.  
+- **Lazy Loading** – 많은 슬라이드를 생성할 경우, 표시될 슬라이드에만 차트를 생성하는 것을 고려합니다.
 
-## 결론
+## 일반적인 문제와 해결책
 
-이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 상자형 차트를 만들고 구성하는 방법을 알아보았습니다. 이 강력한 라이브러리를 사용하면 복잡한 데이터 시각화를 PowerPoint 프레젠테이션에 원활하게 통합할 수 있습니다. Aspose.Slides를 더 자세히 알아보려면 관련 문서를 자세히 살펴보고 다른 차트 유형을 실험해 보세요.
+| Issue | Cause | Solution |
+|-------|-------|----------|
+| **Chart appears blank** | 데이터 셀에 올바르게 값이 채워지지 않음 | `wb.getCell`이 올바른 행/열을 참조하고 값이 `null`이 아닌지 확인합니다. |
+| **Outliers not shown** | `setShowOutlierPoints`가 `false`로 설정됨 | `series.setShowOutlierPoints(true)`가 호출되었는지 확인합니다. |
+| **Memory leak** | Presentation이 dispose되지 않음 | 사용을 try/finally 블록으로 감싸고 `dispose()`를 호출합니다. |
+| **Incorrect quartiles** | 기본 `Inclusive` 방법 사용 | `setQuartileMethod(QuartileMethodType.Exclusive)`로 `Exclusive`로 전환합니다. |
 
-## FAQ 섹션
+## 자주 묻는 질문
 
-**Q1: 상자 수염 차트란 무엇인가요?**
+**Q1: Box-and-whisker 차트란 무엇인가요?**  
+Box-and-whisker 차트(또는 box plot)는 최소값, 1사분위수, 중앙값, 3사분위수, 최대값 및 이상치를 포함한 다섯 가지 요약 통계량을 기반으로 데이터 분포를 표시합니다.
 
-상자그림이라고도 하는 상자수염 차트는 다섯 가지 요약 통계량을 기반으로 데이터 분포를 보여줍니다. 데이터 집합의 중앙값, 사분위수, 이상치를 표시하는 데 유용합니다.
+**Q2: Box-and-whisker 차트의 외관을 사용자 정의할 수 있나요?**  
+예. Aspose.Slides를 사용하면 차트 서식 API를 통해 색상, 선 스타일, 마커 모양을 변경하고 데이터 레이블을 추가할 수 있습니다.
 
-**질문 2: 상자 수염 차트의 모양을 사용자 지정할 수 있나요?**
+**Q3: 하나의 차트에 여러 시리즈를 포함할 수 있나요?**  
+물론입니다. 시각화하려는 각 데이터 세트마다 series‑creation 블록을 반복하면 됩니다.
 
-네, Aspose.Slides에서는 색상, 글꼴, 데이터 포인트 스타일을 포함한 광범위한 사용자 정의 옵션이 허용됩니다.
+**Q4: 데이터가 올바르게 표시되지 않을 때 어떻게 해결하나요?**  
+데이터가 워크북 셀에 정확히 기록되었는지, `setShowMeanLine`과 같은 가시성 속성이 활성화되어 있는지 확인하십시오.
 
-**질문 3: 하나의 차트에서 여러 시리즈를 처리할 수 있나요?**
+**Q5: 문제가 발생하면 어디에서 지원을 받을 수 있나요?**  
+커뮤니티 도움을 위해 [Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11)을 방문하거나 공식 문서를 참고하십시오.
 
-물론입니다. 각 시리즈를 만들고 구성하는 과정을 반복하여 차트에 여러 시리즈를 추가할 수 있습니다.
+**Q6: Aspose.Slides가 다른 차트 유형도 지원하나요?**  
+예, 라인, 바, 파이, 스캐터, 레이더 등 다양한 차트 유형을 지원합니다.
 
-**질문 4: 데이터가 올바르게 표시되지 않는 문제는 어떻게 해결하나요?**
+**Q7: 헤드리스 서버 환경에서도 차트를 생성할 수 있나요?**  
+이 라이브러리는 서버 측 시나리오에서도 완전히 작동하며 UI가 필요하지 않습니다.
 
-데이터가 셀에 올바르게 채워졌는지 확인하고 가시성에 대한 적절한 속성(예: `setShowMeanLine`.
+## 리소스
 
-**질문 5: 문제가 발생하면 어디에서 지원을 받을 수 있나요?**
+- **Documentation**: 자세한 API 레퍼런스는 [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)에서 확인하세요  
+- **Download**: Aspose.Slides 릴리스를 [여기](https://releases.aspose.com/slides/java/)에서 다운로드하세요  
+- **Purchase**: 전체 기능을 사용하려면 [Aspose Purchase](https://purchase.aspose.com/buy)에서 라이선스를 구매하세요  
+- **Free Trial & Temporary License**: 무료 체험판으로 시작하거나 임시 라이선스를 요청하려면 [여기](https://releases.aspose.com/slides/java/)를 방문하세요
 
-방문하세요 [Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11) 커뮤니티 지원을 요청하거나 공식 문서를 참조하세요.
+이 가이드를 따라하면 Java 애플리케이션에서 통찰력 있는 box‑and‑whisker 차트를 프로그래밍 방식으로 생성하고 PowerPoint 프레젠테이션에 직접 삽입할 수 있습니다. 즐거운 코딩 되세요!
 
-## 자원
+---
 
-- **선적 서류 비치**: 자세한 API 참조를 살펴보세요. [Aspose.Slides 문서](https://reference.aspose.com/slides/java/)
-- **다운로드**: Aspose.Slides 릴리스에 액세스 [여기](https://releases.aspose.com/slides/java/)
-- **구입**: 모든 기능을 잠금 해제하려면 라이센스를 구매하세요. [Aspose 구매](https://purchase.aspose.com/buy)
-- **무료 체험판 및 임시 라이센스**: 무료 체험판으로 시작하거나 임시 라이선스를 요청하세요 [여기](https://releases.aspose.com/slides/java/)
-
-이 가이드를 따라 하면 Aspose.Slides를 사용하여 Java 애플리케이션에서 통찰력 있는 상자-수염 차트를 만들 준비가 완료됩니다. 즐거운 코딩 되세요!
+**마지막 업데이트:** 2026-03-02  
+**테스트 환경:** Aspose.Slides 25.4 (JDK 16 classifier)  
+**작성자:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
