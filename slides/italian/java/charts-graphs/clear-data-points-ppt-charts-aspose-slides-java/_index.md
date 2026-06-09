@@ -179,23 +179,6 @@ In questa guida abbiamo dimostrato **come cancellare i punti dati di un grafico*
 - Esplora altre funzionalità di manipolazione dei grafici, come la modifica del tipo di grafico o la formattazione delle serie.  
 - Consulta la documentazione completa dell'API Aspose.Slides per approfondimenti.
 
-## Sezione FAQ
-
-1. **Come installo Aspose.Slides per Java usando Maven?**  
-   Aggiungi lo snippet di dipendenza fornito sopra al tuo `pom.xml`.
-
-2. **Cosa succede se incontro un `IndexOutOfBoundsException` accedendo a diapositive o grafici?**  
-   Verifica che gli indici di diapositiva e grafico a cui fai riferimento esistano effettivamente nella presentazione.
-
-3. **Aspose.Slides gestisce presentazioni di grandi dimensioni in modo efficiente?**  
-   Sì, gestendo l'uso della memoria (rilasciando gli oggetti) e ottimizzando le impostazioni dell'heap JVM.
-
-4. **È possibile cancellare i punti dati senza influenzare le altre serie?**  
-   Assolutamente – punta all'indice della serie specifica che desideri cancellare, come mostrato nel ciclo.
-
-5. **Come integro questa soluzione con un database live?**  
-   Usa JDBC standard o un ORM moderno per recuperare i dati, quindi applica la stessa logica di cancellazione prima di inserire i nuovi punti.
-
 ## Domande frequenti
 
 **D: È necessaria una licenza per le build di sviluppo?**  
@@ -224,6 +207,12 @@ R: Avvolgi il codice in un ciclo che itera su una cartella di file PPTX, applica
 
 Con queste risorse sei pronto a iniziare a cancellare i punti dati dei grafici nelle tue applicazioni Java. Buon coding!
 
+---
+
+**Ultimo aggiornamento:** 2026-02-27  
+**Testato con:** Aspose.Slides per Java 25.4 (JDK 16)  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -231,9 +220,3 @@ Con queste risorse sei pronto a iniziare a cancellare i punti dati dei grafici n
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2026-02-27  
-**Testato con:** Aspose.Slides per Java 25.4 (JDK 16)  
-**Autore:** Aspose

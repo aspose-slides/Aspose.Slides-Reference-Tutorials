@@ -176,23 +176,6 @@ Trong hướng dẫn này, chúng tôi đã trình bày **cách xóa các điể
 - Khám phá các tính năng thao tác biểu đồ khác như thay đổi loại biểu đồ hoặc định dạng chuỗi.  
 - Xem lại tài liệu API đầy đủ của Aspose.Slides để có hiểu biết sâu hơn.
 
-## Phần Câu hỏi thường gặp
-
-1. **Làm thế nào để cài đặt Aspose.Slides cho Java bằng Maven?**  
-   Thêm đoạn mã phụ thuộc được cung cấp ở trên vào tệp `pom.xml` của bạn.
-
-2. **Nếu tôi gặp `IndexOutOfBoundsException` khi truy cập slide hoặc biểu đồ thì sao?**  
-   Kiểm tra lại rằng các chỉ mục slide và biểu đồ bạn tham chiếu thực sự tồn tại trong bản trình bày.
-
-3. **Aspose.Slides có thể xử lý các bản trình bày lớn một cách hiệu quả không?**  
-   Có, bằng cách quản lý việc sử dụng bộ nhớ (giải phóng đối tượng) và tinh chỉnh cài đặt heap của JVM.
-
-4. **Có thể xóa các điểm dữ liệu mà không ảnh hưởng đến các chuỗi khác không?**  
-   Chắc chắn – nhắm mục tiêu vào chỉ mục chuỗi cụ thể mà bạn muốn xóa, như đã minh họa trong vòng lặp.
-
-5. **Làm thế nào tôi tích hợp giải pháp này với cơ sở dữ liệu trực tiếp?**  
-   Sử dụng JDBC tiêu chuẩn hoặc một ORM hiện đại để lấy dữ liệu, sau đó áp dụng cùng logic xóa trước khi chèn các điểm mới.
-
 ## Câu hỏi thường gặp
 
 **Q: Tôi có cần giấy phép cho các bản dựng phát triển không?**  
@@ -221,6 +204,12 @@ A: Đặt mã trong một vòng lặp duyệt qua thư mục chứa các tệp P
 
 Với những tài nguyên này, bạn đã sẵn sàng bắt đầu xóa các điểm dữ liệu biểu đồ trong các ứng dụng Java của mình. Chúc lập trình vui vẻ!
 
+---
+
+**Last Updated:** 2026-02-27  
+**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -228,9 +217,3 @@ Với những tài nguyên này, bạn đã sẵn sàng bắt đầu xóa các �
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-27  
-**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Author:** Aspose

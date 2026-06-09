@@ -12,13 +12,7 @@ url: /nl/java/charts-graphs/automate-histogram-charts-ppt-aspose-slides-java/
 weight: 1
 ---
 
-"
-
-Then closing shortcodes.
-
-Make sure to keep all shortcodes unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

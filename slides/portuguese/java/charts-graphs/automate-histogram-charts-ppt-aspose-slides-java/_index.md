@@ -12,8 +12,6 @@ url: /pt/java/charts-graphs/automate-histogram-charts-ppt-aspose-slides-java/
 weight: 1
 ---
 
- final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

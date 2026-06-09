@@ -17,6 +17,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Как добавить гистограмму в PowerPoint с помощью Aspose.Slides
 
 ## Введение

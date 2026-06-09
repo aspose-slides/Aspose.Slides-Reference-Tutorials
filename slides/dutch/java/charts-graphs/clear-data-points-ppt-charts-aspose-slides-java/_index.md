@@ -13,13 +13,7 @@ url: /nl/java/charts-graphs/clear-data-points-ppt-charts-aspose-slides-java/
 weight: 1
 ---
 
-"
-
-Now produce final markdown with all translations.
-
-Be careful to keep shortcodes and placeholders unchanged.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
@@ -184,23 +178,6 @@ In deze gids hebben we **hoe diagram**‑gegevenspunten gewist met **Aspose.Slid
 - Ontdek andere diagram‑manipulatiefuncties, zoals het wijzigen van diagramtypen of het opmaken van reeksen.  
 - Bekijk de volledige Aspose.Slides API‑documentatie voor diepere inzichten.
 
-## FAQ‑sectie
-
-1. **Hoe installeer ik Aspose.Slides for Java met Maven?**  
-   Voeg het bovenstaande afhankelijkheidsfragment toe aan uw `pom.xml`.
-
-2. **Wat als ik een `IndexOutOfBoundsException` krijg bij het benaderen van slides of diagrammen?**  
-   Controleer of de slide‑ en diagram‑indexen die u gebruikt daadwerkelijk bestaan in de presentatie.
-
-3. **Kan Aspose.Slides grote presentaties efficiënt verwerken?**  
-   Ja, door het geheugenbeheer (objecten vrijgeven) en het afstemmen van JVM‑heapinstellingen.
-
-4. **Is het mogelijk om gegevenspunten te wissen zonder andere reeksen te beïnvloeden?**  
-   Absoluut – richt u op de specifieke reeks‑index die u wilt wissen, zoals getoond in de lus.
-
-5. **Hoe integreer ik deze oplossing met een live database?**  
-   Gebruik standaard JDBC of een moderne ORM om gegevens op te halen, en pas vervolgens dezelfde wislogica toe voordat u nieuwe punten invoegt.
-
 ## Veelgestelde vragen
 
 **V: Heb ik een licentie nodig voor ontwikkel‑builds?**  
@@ -229,6 +206,12 @@ Ant: Plaats de code in een lus die over een map met PPTX‑bestanden itereren, e
 
 Met deze bronnen bent u klaar om diagramgegevenspunten te wissen in uw Java‑toepassingen. Veel programmeerplezier!
 
+---
+
+**Laatst bijgewerkt:** 2026-02-27  
+**Getest met:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -236,9 +219,3 @@ Met deze bronnen bent u klaar om diagramgegevenspunten te wissen in uw Java‑to
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2026-02-27  
-**Getest met:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Auteur:** Aspose

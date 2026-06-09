@@ -13,9 +13,7 @@ url: /sv/java/charts-graphs/clear-data-points-ppt-charts-aspose-slides-java/
 weight: 1
 ---
 
-dates, etc). No translation needed? Could translate "Last Updated" and "Tested With" and "Author"? The instruction says translate all text content. Those are labels. Should translate to Swedish: "**Senast uppdaterad:** 2026-02-27" "**Testad med:** Aspose.Slides for Java 25.4 (JDK 16)" "**Författare:** Aspose". Keep bold formatting.
-
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
@@ -179,23 +177,6 @@ I den här guiden demonstrerade vi **hur man rensar diagram** datapunkter med **
 - Utforska andra diagrammanipuleringsfunktioner som att ändra diagramtyper eller formatera serier.  
 - Granska den fullständiga Aspose.Slides API‑dokumentationen för djupare insikter.
 
-## FAQ‑avsnitt
-
-1. **Hur installerar jag Aspose.Slides för Java med Maven?**  
-   Lägg till beroendesnutten som tillhandahålls ovan i din `pom.xml`.  
-
-2. **Vad händer om jag får ett `IndexOutOfBoundsException` när jag får åtkomst till bilder eller diagram?**  
-   Dubbelkolla att de bild‑ och diagramindex du refererar till faktiskt finns i presentationen.  
-
-3. **Kan Aspose.Slides hantera stora presentationer effektivt?**  
-   Ja, genom att hantera minnesanvändning (dispose‑objekt) och justera JVM‑heap‑inställningar.  
-
-4. **Är det möjligt att rensa datapunkter utan att påverka andra serier?**  
-   Absolut – rikta in dig på det specifika serieindex du vill rensa, som visas i loopen.  
-
-5. **Hur integrerar jag denna lösning med en levande databas?**  
-   Använd standard‑JDBC eller ett modernt ORM för att hämta data, och tillämpa sedan samma rensningslogik innan du infogar nya punkter.  
-
 ## Vanliga frågor
 
 **Q: Behöver jag en licens för utvecklingsbyggen?**  
@@ -224,6 +205,12 @@ A: Inslå koden i en loop som itererar över en katalog med PPTX‑filer och til
 
 Med dessa resurser är du redo att börja rensa diagramdatapunkter i dina Java‑applikationer. Lycka till med kodningen!
 
+---
+
+**Senast uppdaterad:** 2026-02-27  
+**Testad med:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -231,9 +218,3 @@ Med dessa resurser är du redo att börja rensa diagramdatapunkter i dina Java�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2026-02-27  
-**Testad med:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Författare:** Aspose

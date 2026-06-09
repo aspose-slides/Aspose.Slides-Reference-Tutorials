@@ -13,17 +13,7 @@ url: /de/java/charts-graphs/clear-data-points-ppt-charts-aspose-slides-java/
 weight: 1
 ---
 
- Points in PowerPoint Charts Using Aspose.Slides for Java" => "Wie man Datenpunkte in PowerPoint-Diagrammen mit Aspose.Slides für Java löscht"
-
-- Introduction etc.
-
-We must translate bullet points, sentences.
-
-Also translate "Quick Answers" etc.
-
-Make sure to keep code block placeholders unchanged.
-
-Let's produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
@@ -188,23 +178,6 @@ In diesem Leitfaden haben wir gezeigt, **wie man Diagrammdaten** mit **Aspose.Sl
 - Erkunden Sie weitere Diagrammbearbeitungs‑Features wie das Ändern von Diagrammtypen oder das Formatieren von Serien.  
 - Lesen Sie die vollständige Aspose.Slides‑API‑Dokumentation für tiefere Einblicke.
 
-## FAQ‑Abschnitt
-
-1. **Wie installiere ich Aspose.Slides für Java mit Maven?**  
-   Fügen Sie den oben bereitgestellten Abhängigkeits‑Snippet zu Ihrer `pom.xml` hinzu.
-
-2. **Was tun, wenn beim Zugriff auf Folien oder Diagramme eine `IndexOutOfBoundsException` auftritt?**  
-   Überprüfen Sie, ob die von Ihnen referenzierten Folien‑ und Diagramm‑Indizes tatsächlich in der Präsentation existieren.
-
-3. **Kann Aspose.Slides große Präsentationen effizient verarbeiten?**  
-   Ja, durch korrektes Speicher‑Management (Objekte freigeben) und das Anpassen der JVM‑Heap‑Einstellungen.
-
-4. **Ist es möglich, Datenpunkte zu löschen, ohne andere Serien zu beeinflussen?**  
-   Absolut – richten Sie den Ziel‑Serien‑Index, den Sie löschen möchten, wie in der Schleife gezeigt, aus.
-
-5. **Wie integriere ich diese Lösung in eine Live‑Datenbank?**  
-   Verwenden Sie Standard‑JDBC oder ein modernes ORM, um Daten abzurufen, und wenden Sie dann dieselbe Lösch‑Logik vor dem Einfügen neuer Punkte an.
-
 ## Häufig gestellte Fragen
 
 **F: Benötige ich eine Lizenz für Entwicklungs‑Builds?**  
@@ -233,6 +206,12 @@ A: Verpacken Sie den Code in einer Schleife, die ein Verzeichnis von PPTX‑Date
 
 Mit diesen Ressourcen sind Sie bereit, Diagrammdatenpunkte in Ihren Java‑Anwendungen zu löschen. Viel Spaß beim Coden!
 
+---
+
+**Zuletzt aktualisiert:** 2026-02-27  
+**Getestet mit:** Aspose.Slides für Java 25.4 (JDK 16)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -240,9 +219,3 @@ Mit diesen Ressourcen sind Sie bereit, Diagrammdatenpunkte in Ihren Java‑Anwen
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2026-02-27  
-**Getestet mit:** Aspose.Slides für Java 25.4 (JDK 16)  
-**Autor:** Aspose

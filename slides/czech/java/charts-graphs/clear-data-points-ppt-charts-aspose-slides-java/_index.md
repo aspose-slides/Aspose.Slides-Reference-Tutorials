@@ -13,18 +13,6 @@ url: /cs/java/charts-graphs/clear-data-points-ppt-charts-aspose-slides-java/
 weight: 1
 ---
 
-Now the tutorial content.
-
-We'll translate.
-
-Be careful with bullet points, keep markdown.
-
-Also note "## Quick Answers" etc.
-
-Translate each line.
-
-Let's produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -190,23 +178,6 @@ V tomto průvodci jsme ukázali **jak vymazat datové body grafu** pomocí **Asp
 - Prozkoumejte další funkce manipulace s grafy, jako je změna typu grafu nebo formátování sérií.  
 - Prohlédněte si kompletní dokumentaci Aspose.Slides API pro hlubší poznatky.
 
-## Často kladené otázky (FAQ)
-
-1. **Jak nainstaluji Aspose.Slides pro Java pomocí Maven?**  
-   Přidejte výše uvedený úryvek závislosti do souboru `pom.xml`.
-
-2. **Co když při přístupu k snímkům nebo grafům narazím na `IndexOutOfBoundsException`?**  
-   Zkontrolujte, že indexy snímku a grafu, které používáte, skutečně v prezentaci existují.
-
-3. **Dokáže Aspose.Slides efektivně zpracovávat velké prezentace?**  
-   Ano, při správném řízení paměti (uvolňování objektů) a ladění haldy JVM.
-
-4. **Je možné vymazat datové body, aniž by to ovlivnilo ostatní série?**  
-   Rozhodně – cílete na konkrétní index série, kterou chcete vymazat, jak je ukázáno v cyklu.
-
-5. **Jak integrovat toto řešení s živou databází?**  
-   Použijte standardní JDBC nebo moderní ORM pro načtení dat a poté aplikujte stejnou logiku vymazání před vložením nových bodů.
-
 ## Často kladené otázky
 
 **Q: Potřebuji licenci pro vývojové sestavení?**  
@@ -235,6 +206,12 @@ A: Zabalte kód do smyčky, která iteruje přes adresář souborů PPTX a na ka
 
 S těmito zdroji jste připraveni začít vymazávat datové body v grafech ve svých Java aplikacích. Šťastné programování!
 
+---
+
+**Poslední aktualizace:** 2026-02-27  
+**Testováno s:** Aspose.Slides pro Java 25.4 (JDK 16)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -242,9 +219,3 @@ S těmito zdroji jste připraveni začít vymazávat datové body v grafech ve s
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2026-02-27  
-**Testováno s:** Aspose.Slides pro Java 25.4 (JDK 16)  
-**Autor:** Aspose

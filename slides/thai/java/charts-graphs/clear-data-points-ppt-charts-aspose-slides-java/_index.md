@@ -11,9 +11,7 @@ url: /th/java/charts-graphs/clear-data-points-ppt-charts-aspose-slides-java/
 weight: 1
 ---
 
-Make sure to keep the markdown link syntax.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
@@ -178,23 +176,6 @@ public class ChartManipulation {
 - สำรวจฟีเจอร์การจัดการแผนภูมิอื่น ๆ เช่น การเปลี่ยนประเภทแผนภูมิหรือการจัดรูปแบบชุดข้อมูล  
 - ศึกษาเอกสาร API ของ Aspose.Slides อย่างเต็มเพื่อเข้าใจลึกซึ้งยิ่งขึ้น
 
-## ส่วนคำถามที่พบบ่อย
-
-1. **วิธีติดตั้ง Aspose.Slides for Java ด้วย Maven คืออะไร?**  
-   เพิ่มโค้ดสแนปพท์ที่ให้ไว้ข้างต้นลงในไฟล์ `pom.xml` ของคุณ
-
-2. **เกิด `IndexOutOfBoundsException` ขณะเข้าถึงสไลด์หรือแผนภูมิ ควรทำอย่างไร?**  
-   ตรวจสอบให้แน่ใจว่า index ของสไลด์และแผนภูมิที่อ้างอิงมีอยู่จริงในไฟล์ Presentation
-
-3. **Aspose.Slides สามารถจัดการ Presentation ขนาดใหญ่ได้อย่างมีประสิทธิภาพหรือไม่?**  
-   ใช่ โดยการจัดการหน่วยความจำ (dispose objects) และปรับค่า heap ของ JVM
-
-4. **สามารถลบข้อมูลจุดโดยไม่กระทบต่อชุดข้อมูลอื่นได้หรือไม่?**  
-   ทำได้แน่นอน – เพียงกำหนด index ของชุดข้อมูลที่ต้องการลบตามที่แสดงในลูป
-
-5. **จะรวมโซลูชันนี้กับฐานข้อมูลสดได้อย่างไร?**  
-   ใช้ JDBC หรือ ORM สมัยใหม่เพื่อดึงข้อมูล แล้วใช้ตรรกะการลบเดียวกันก่อนใส่ค่าข้อมูลใหม่
-
 ## คำถามที่พบบ่อยเพิ่มเติม
 
 **ถาม: ต้องมีลิขสิทธิ์สำหรับการสร้าง Build พัฒนาไหม?**  
@@ -223,6 +204,12 @@ public class ChartManipulation {
 
 ด้วยแหล่งข้อมูลเหล่านี้คุณพร้อมที่จะเริ่มลบข้อมูลจุดในแผนภูมิด้วยแอปพลิเคชัน Java ของคุณแล้ว ขอให้สนุกกับการเขียนโค้ด!
 
+---
+
+**อัปเดตล่าสุด:** 2026-02-27  
+**ทดสอบด้วย:** Aspose.Slides for Java 25.4 (JDK 16)  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -230,9 +217,3 @@ public class ChartManipulation {
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2026-02-27  
-**ทดสอบด้วย:** Aspose.Slides for Java 25.4 (JDK 16)  
-**ผู้เขียน:** Aspose

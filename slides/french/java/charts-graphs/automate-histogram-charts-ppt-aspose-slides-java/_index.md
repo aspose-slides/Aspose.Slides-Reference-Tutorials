@@ -17,48 +17,48 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Comment ajouter un histogramme dans PowerPoint avec Aspose.Slides
+# Commenter ajouter un histogramme dans PowerPoint avec Aspose.Slides
 
 ## Introduction
-Créer des présentations visuellement attrayantes est essentiel dans le monde actuel axé sur les données, et les graphiques sont une partie indispensable de ce processus. **Comment ajouter un histogramme** automatiquement peut vous faire gagner des heures de travail manuel et éliminer les erreurs. Dans ce tutoriel, vous apprendrez comment charger un fichier PowerPoint, modifier ses diapositives, ajouter un graphique histogramme, définir l’axe horizontal, puis enregistrer le fichier PowerPoint — le tout avec Aspose.Slides for Java.
+Créer des présentations visuellement attrayantes est essentiel dans le monde actuel axé sur les données, et les graphiques sont une partie indispensable de ce processus. **Comment ajouter un histogramme** automatiquement peut vous faire gagner des heures de travail manuellement et éliminer les erreurs. Dans ce tutoriel, vous apprendrez comment charger un fichier PowerPoint, modifier ses diapositives, ajouter un histogramme graphique, définir l'axe horizontal, puis enregistrer le fichier PowerPoint — le tout avec Aspose.Slides for Java.
 
-### Quick Answers
-- **Quelle bibliothèque facilite cela ?** Aspose.Slides for Java  
-- **Quel type de graphique ?** Histogram chart  
-- **Puis‑je charger un PPTX existant ?** Oui – utilisez `Presentation` pour ouvrir n’importe quel fichier  
-- **Comment définir l’axe ?** `setAggregationType(AxisAggregationType.Automatic)`  
-- **Ai‑je besoin d’une licence ?** Une version d’essai fonctionne pour l’évaluation ; une licence complète est requise pour la production  
+### Réponses rapides
+- **Quelle bibliothèque facilite cela?** Aspose.Slides for Java
+- **Quel type de graphique?** Histogramme
+- **Puis‑je charger un PPTX existant?** Oui – utiliser `Presentation` pour ouvrir n'importe quel fichier
+- **Comment définir l'axe?** `setAggregationType(AxisAggregationType.Automatic)`
+- **Ai‑je besoin d’une licence?** Une version d’essai fonctionne pour l’évaluation; une licence complète est requise pour la production
 
-## Qu’est‑ce qu’un graphique histogramme ?
-Un histogramme visualise la distribution de données numériques en regroupant les valeurs en intervalles (bins). Il est idéal pour montrer la fréquence, les plages de performance ou toute répartition statistique directement dans une diapositive PowerPoint.
+## Qu’est‑ce qu’un histogramme graphique ?
+Un histogramme visualise la distribution de données numériques en regroupant les valeurs en intervalles (bins). Il est idéal pour afficher la fréquence, les plages de performance ou toute répartition statistique directement dans une diapositive PowerPoint.
 
-## Pourquoi automatiser la création d’histogrammes ?
-- **Rapidité :** Générer des dizaines de graphiques en quelques secondes au lieu de minutes.  
-- **Cohérence :** Chaque graphique suit le même style et les mêmes paramètres d’axe.  
-- **Évolutivité :** Idéal pour le traitement par lots de rapports, tableaux de bord ou présentations récurrentes.  
+## Pourquoi automatiser la création d’histogrammes ?
+- **Rapidité :** Générer des dizaines de graphiques en quelques secondes au lieu de minutes.
+- **Cohérence :** Chaque graphique suit le même style et les mêmes paramètres d'axe.
+- **Évolutivité:** Idéal pour le traitement par lots de rapports, tableaux de bord ou présentations récurrentes.
 
 ## Prérequis
-- **Aspose.Slides for Java** – version 25.4 ou ultérieure.  
-- **JDK** 16 ou supérieur.  
-- IDE tel qu’IntelliJ IDEA ou Eclipse.  
-- Maven ou Gradle pour la gestion des dépendances.  
+- **Aspose.Slides pour Java**– version25.4 ou ultérieure.
+- **JDK**16ou supérieur.
+- IDE tel qu'IntelliJ IDEA ou Eclipse.
+- Maven ou Gradle pour la gestion des dépendances.
 
 ### Bibliothèques requises, versions et dépendances
-- **Aspose.Slides for Java** : Version 25.4 ou ultérieure.  
-- **JDK** : 16+.  
+- **Aspose.Slides pour Java** : Version25.4 ou ultérieure.
+- **JDK** : 16+.
 
 ### Exigences d’installation de l’environnement
-- Environnement de développement intégré (IDE) – IntelliJ IDEA ou Eclipse.  
-- Maven ou Gradle installés si vous préférez la gestion automatisée des dépendances.  
+- Environnement de développement intégré (IDE) – IntelliJ IDEA ou Eclipse.
+- Maven ou Gradle installé si vous préférez la gestion automatisée des dépendances.
 
 ### Connaissances préalables
-- Programmation Java de base.  
-- Familiarité avec la structure des fichiers PowerPoint et les concepts de graphiques.  
+- Programmation Java de base.
+- Familiarité avec la structure des fichiers PowerPoint et les concepts de graphiques.
 
-## Configuration d’Aspose.Slides for Java
+## Configuration d'Aspose.Slides pour Java
 Intégrez Aspose.Slides dans votre projet à l’aide de votre outil de construction préféré.
 
-**Maven :**
+**Maven :**
 
 ```xml
 <dependency>

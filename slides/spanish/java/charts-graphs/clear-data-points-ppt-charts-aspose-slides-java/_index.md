@@ -14,12 +14,6 @@ url: /es/java/charts-graphs/clear-data-points-ppt-charts-aspose-slides-java/
 weight: 1
 ---
 
- bullet points, lists.
-
-Also keep code block placeholders unchanged.
-
-Let's produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -185,23 +179,6 @@ En esta guía demostramos **cómo borrar puntos de datos de un gráfico** usando
 - Explora otras funcionalidades de manipulación de gráficos, como cambiar tipos de gráfico o formatear series.  
 - Revisa la documentación completa de la API de Aspose.Slides para obtener información más profunda.
 
-## Sección de preguntas frecuentes
-
-1. **¿Cómo instalo Aspose.Slides para Java usando Maven?**  
-   Añade el fragmento de dependencia proporcionado arriba a tu `pom.xml`.
-
-2. **¿Qué hago si encuentro una `IndexOutOfBoundsException` al acceder a diapositivas o gráficos?**  
-   Verifica que los índices de diapositiva y gráfico que referencias realmente existan en la presentación.
-
-3. **¿Aspose.Slides maneja presentaciones grandes de forma eficiente?**  
-   Sí, gestionando el uso de memoria (liberando objetos) y ajustando la configuración del heap de la JVM.
-
-4. **¿Es posible borrar puntos de datos sin afectar a otras series?**  
-   Absolutamente, dirige la operación al índice de serie específico que deseas borrar, como se muestra en el bucle.
-
-5. **¿Cómo integro esta solución con una base de datos en vivo?**  
-   Utiliza JDBC estándar o un ORM moderno para obtener los datos, luego aplica la misma lógica de borrado antes de insertar nuevos puntos.
-
 ## Preguntas frecuentes
 
 **P: ¿Necesito una licencia para compilaciones de desarrollo?**  
@@ -230,6 +207,12 @@ R: Envuelve el código en un bucle que itere sobre un directorio de archivos PPT
 
 Con estos recursos estás listo para comenzar a borrar puntos de datos de gráficos en tus aplicaciones Java. ¡Feliz codificación!
 
+---
+
+**Última actualización:** 2026-02-27  
+**Probado con:** Aspose.Slides para Java 25.4 (JDK 16)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -237,9 +220,3 @@ Con estos recursos estás listo para comenzar a borrar puntos de datos de gráfi
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2026-02-27  
-**Probado con:** Aspose.Slides para Java 25.4 (JDK 16)  
-**Autor:** Aspose

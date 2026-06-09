@@ -10,20 +10,6 @@ url: /zh/java/charts-graphs/clear-data-points-ppt-charts-aspose-slides-java/
 weight: 1
 ---
 
-Be careful with bullet lists: keep dash and spaces.
-
-Translate "How to Clear Data Points in PowerPoint Charts Using Aspose.Slides for Java" to Chinese: "如何使用 Aspose.Slides for Java 清除 PowerPoint 图表中的数据点"
-
-Proceed.
-
-Also note "step‑by‑step" keep hyphen.
-
-Translate "What You’ll Learn" etc.
-
-Make sure to keep markdown formatting.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -189,23 +175,6 @@ public class ChartManipulation {
 - 探索其他图表操作功能，如更改图表类型或设置系列格式。  
 - 查看完整的 Aspose.Slides API 文档，以获取更深入的洞见。
 
-## FAQ 部分
-
-1. **如何使用 Maven 安装 Aspose.Slides for Java？**  
-   将上面提供的依赖片段添加到 `pom.xml` 中。
-
-2. **访问幻灯片或图表时出现 `IndexOutOfBoundsException`，该怎么办？**  
-   再次确认您引用的幻灯片和图表索引在演示文稿中实际存在。
-
-3. **Aspose.Slides 能高效处理大型演示文稿吗？**  
-   可以，通过管理内存使用（释放对象）和调优 JVM 堆设置实现。
-
-4. **是否可以在不影响其他系列的情况下清除数据点？**  
-   完全可以 – 如循环示例所示，针对特定系列索引进行操作。
-
-5. **如何将此解决方案与实时数据库集成？**  
-   使用标准 JDBC 或现代 ORM 获取数据，然后在插入新点之前执行相同的清除逻辑。
-
 ## 常见问题
 
 **问：开发构建是否需要许可证？**  
@@ -234,6 +203,12 @@ public class ChartManipulation {
 
 有了这些资源，您即可开始在 Java 应用程序中清除图表数据点。祝编码愉快！
 
+---
+
+**最后更新：** 2026-02-27  
+**测试环境：** Aspose.Slides for Java 25.4 (JDK 16)  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -241,9 +216,3 @@ public class ChartManipulation {
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2026-02-27  
-**测试环境：** Aspose.Slides for Java 25.4 (JDK 16)  
-**作者：** Aspose

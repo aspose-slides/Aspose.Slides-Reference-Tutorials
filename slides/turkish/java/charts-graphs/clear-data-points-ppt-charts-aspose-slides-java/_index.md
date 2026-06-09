@@ -14,12 +14,6 @@ url: /tr/java/charts-graphs/clear-data-points-ppt-charts-aspose-slides-java/
 weight: 1
 ---
 
- unchanged.
-
-Also keep URLs unchanged.
-
-Let's produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -230,6 +224,12 @@ C: Evet, bir klasördeki PPTX dosyalarını döngüyle işleyen bir kod yazarak 
 
 Bu kaynaklarla Java uygulamalarınızda grafik veri noktalarını temizlemeye hazırsınız. Kodlamanın tadını çıkarın!
 
+---
+
+**Son Güncelleme:** 2026-02-27  
+**Test Edilen Versiyon:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -237,9 +237,3 @@ Bu kaynaklarla Java uygulamalarınızda grafik veri noktalarını temizlemeye ha
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2026-02-27  
-**Test Edilen Versiyon:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Yazar:** Aspose

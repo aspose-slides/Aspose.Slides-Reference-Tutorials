@@ -16,6 +16,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Hur man lägger till histogramdiagram i PowerPoint med Aspose.Slides
 
 ## Introduktion

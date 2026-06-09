@@ -176,23 +176,6 @@ Neste guia demonstramos **como limpar pontos de dados de um gráfico** usando **
 - Explore outros recursos de manipulação de gráficos, como mudar tipos de gráfico ou formatar séries.  
 - Revise a documentação completa da API Aspose.Slides para obter insights mais profundos.
 
-## Seção de Perguntas Frequentes
-
-1. **Como instalo Aspose.Slides for Java usando Maven?**  
-   Adicione o trecho de dependência fornecido acima ao seu `pom.xml`.
-
-2. **E se eu encontrar uma `IndexOutOfBoundsException` ao acessar slides ou gráficos?**  
-   Verifique novamente se os índices de slide e gráfico que você referencia realmente existem na apresentação.
-
-3. **O Aspose.Slides pode lidar com apresentações grandes de forma eficiente?**  
-   Sim, gerenciando o uso de memória (descartando objetos) e ajustando as configurações de heap da JVM.
-
-4. **É possível limpar pontos de dados sem afetar outras séries?**  
-   Absolutamente – direcione o índice da série específica que deseja limpar, como mostrado no loop.
-
-5. **Como integro esta solução com um banco de dados ao vivo?**  
-   Use JDBC padrão ou um ORM moderno para buscar dados, então aplique a mesma lógica de limpeza antes de inserir novos pontos.
-
 ## Perguntas Frequentes
 
 **P: Preciso de licença para builds de desenvolvimento?**  
@@ -221,6 +204,12 @@ R: Envolva o código em um loop que itere sobre um diretório de arquivos PPTX, 
 
 Com esses recursos você está pronto para começar a limpar pontos de dados de gráficos em suas aplicações Java. Boa codificação!
 
+---
+
+**Last Updated:** 2026-02-27  
+**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -228,9 +217,3 @@ Com esses recursos você está pronto para começar a limpar pontos de dados de 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-27  
-**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Author:** Aspose

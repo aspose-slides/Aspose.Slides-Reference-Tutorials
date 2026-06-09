@@ -18,48 +18,48 @@ weight: 1
 {{< blocks/products/pf/tutorial-page-section >}}
 # PowerPoint のチャートでデータ ポイントをクリアする方法（Aspose.Slides for Java 使用）
 
-## Introduction
+## 導入
 
 PowerPoint のチャート データの管理は、特に **特定のデータ ポイントをクリア** したり、シリーズ全体をリセットしたりする必要がある場合、難しいことがあります。このチュートリアルでは、**Aspose.Slides for Java** を使用して、プログラムでチャートの値を簡単にクリアし、プレゼンテーションをすっきり保ち、ゼロからチャートを再構築する手間を省く方法を紹介します。
 
-**What You’ll Learn**
+**学習内容**
 - **Aspose.Slides for Java** を使用した PowerPoint チャートの操作方法。  
 - **チャート データ ポイントをクリアする** 手順をステップバイステップで。  
 - ライブラリの設定とパフォーマンス最適化のベストプラクティス。
 
-Let’s get started by checking the prerequisites.
+まずは前提条件を確認しましょう。
 
-## Quick Answers
-- **What library is used?** Aspose.Slides for Java.  
-- **Which method clears a data point?** Setting the X and Y cell values to `null`.  
-- **Do I need a license?** A trial works for evaluation; a commercial license is required for production.  
-- **Supported JDK version?** JDK 16 or later.  
-- **Can I target a single series?** Yes – iterate only over the series you want to clear.
+## よくある質問
+- **使用するライブラリは？** Aspose.Slides for Java
+- **データポイントをクリアする方法は？** XセルとYセルの値を`null`に設定します。
+- **ライセンスは必要ですか？** 評価用にはトライアル版が利用できます。本番環境では商用ライセンスが必要です。
+- **サポートされているJDKバージョンは？** JDK16以降
+- **特定の系列のみを対象にできますか？** はい。クリアしたい系列のみを反復処理してください。
 
-## What is Aspose.Slides for Java?
+## Aspose.Slides for Javaとは？
 Aspose.Slides for Java は、Microsoft Office を使用せずに PowerPoint ファイルの作成、編集、変換を可能にする強力な API です。チャートの追加、更新、クリアを含む完全なチャート操作をサポートします。
 
-## Why Clear Chart Data Points?
+## チャートのデータポイントをクリアする理由とは？
 データ ポイントをクリアすることが有用なケース：
 - 同じレイアウトを保ったまま新しいデータセットでチャートを更新する場合。  
 - 空のプレースホルダーを含むテンプレートを配布する場合。  
 - データが頻繁に変わる動的レポートを作成する場合。
 
-## Prerequisites
+## 前提条件
 
-### Required Libraries, Versions, and Dependencies
+### 必須ライブラリ、バージョン、および依存関係
 - **Aspose.Slides for Java**：バージョン 25.4 以上。
 
-### Environment Setup Requirements
+### 環境設定要件
 - Java Development Kit (JDK) 16 以上。
 
-### Knowledge Prerequisites
+### 知識要件
 - 基本的な Java プログラミング。  
 - Maven または Gradle を使用した依存関係管理に慣れていること。
 
-## Setting Up Aspose.Slides for Java
+### Aspose.Slides for Java のセットアップ
 
-### Maven Installation
+### Maven のインストール
 
 ```xml
 <dependency>
@@ -70,24 +70,24 @@ Aspose.Slides for Java は、Microsoft Office を使用せずに PowerPoint フ�
 </dependency>
 ```
 
-### Gradle Installation
+### Gradleのインストール
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Direct Download
+### 直接ダウンロード
 
 または、最新バージョンを [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) からダウンロードしてください。
 
-### License Acquisition
+### ライセンスの取得
 
 Aspose.Slides をトライアル制限以上に使用するには：
 - **無料トライアル** ライセンスを取得する。  
 - 評価用に **一時ライセンス** を申請する。  
 - 本番利用のために **商用ライセンス** を購入する。
 
-#### Basic Initialization and Setup
+#### 基本的な初期化とセットアップ
 
 ```java
 import com.aspose.slides.*;
@@ -104,24 +104,24 @@ public class ChartManipulation {
 }
 ```
 
-## Using Aspose.Slides for Java to Clear Chart Data Points
+## Aspose.Slides for Java を使用してグラフのデータポイントをクリアする
 
-### Clear Chart Series Data Points
+### グラフ系列のデータポイントをクリアする
 
-#### Overview
+#### 概要
 
 この機能は、選択したシリーズのすべてのデータ ポイントの X および Y 値をリセットします。これは、他のシリーズに影響を与えずに **チャート データをクリアする** コア機能です。
 
-#### Step‑by‑Step Implementation
+#### 手順
 
-1. **Load the Presentation**  
+1. **プレゼンテーションを読み込む** 
    PowerPoint ファイルを `Presentation` オブジェクトにロードします。
 
    ```java
    Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/TestChart.pptx");
    ```
 
-2. **Access Slide and Chart**  
+2. **スライドとグラフにアクセスする**  
    最初のスライドと最初のシェイプ（チャートであると想定）を取得します。
 
    ```java
@@ -129,7 +129,7 @@ public class ChartManipulation {
    IChart chart = (IChart) sl.getShapes().get_Item(0);
    ```
 
-3. **Iterate Through Data Points**  
+3. **データポイントを反復処理する** 
    最初のシリーズのデータ ポイントをループし、セル値を `null` に設定します。
 
    ```java
@@ -139,20 +139,20 @@ public class ChartManipulation {
    }
    ```
 
-4. **Save the Presentation**  
+4. **プレゼンテーションを保存する** 
    変更を新しいファイルに保存します。
 
    ```java
    pres.save("YOUR_DOCUMENT_DIRECTORY/UpdatedTestChart.pptx", SaveFormat.Pptx);
    ```
 
-### Troubleshooting Tips
+### トラブルシューティングのヒント
 
 - スライドインデックス (`0`) とシェイプインデックス (`0`) が実際にチャートを指しているか確認してください。そうでない場合、`IndexOutOfBoundsException` が発生します。  
 - ロードおよび保存時のファイルパスを再確認してください。テスト時は絶対パスを使用すると混乱を防げます。  
 - チャートに複数のシリーズがある場合は、シリーズインデックス (`get_Item(0)`) を適切に変更してください。
 
-## Practical Applications
+## 実践的な応用例
 
 チャート データ ポイントのクリアは、さまざまな実務シナリオで活用できます：
 
@@ -161,56 +161,39 @@ public class ChartManipulation {
 3. **動的レポート** – データベースや API などのライブデータ ソースと統合し、リアルタイムで最新のプレゼンテーションを生成します。  
 4. **自動ダッシュボード** – 毎晩チャートを更新するスケジュールジョブを構築し、先に前の値をクリアします。
 
-## Performance Considerations
+## パフォーマンスに関する考慮事項
 
 - **オブジェクトの破棄**：常に `pres.dispose()` を呼び出してネイティブリソースを解放します。  
 - **バッチ処理**：多数のプレゼンテーションを扱う場合、`License` インスタンスを再利用し、ファイルを順次処理してオーバーヘッドを削減します。  
 - **JVM のチューニング**：非常に大きな PPTX ファイルを扱う場合はヒープサイズ（`-Xmx`）を調整してください。
 
-## Conclusion
+## まとめ
 
 本ガイドでは、**Aspose.Slides for Java** を使用して **チャート データをクリアする** 方法を示しました。上記の手順に従うことで、プログラムからチャートシリーズをリセットし、プレゼンテーションを整理し、任意の Java ベースのレポート パイプラインにチャート更新を組み込むことができます。
 
-**Next Steps**
+**次のステップ**
 - 古いデータをクリアした後に新しいデータ ポイントを追加する実験を行う。  
 - チャート タイプの変更やシリーズの書式設定など、他のチャート操作機能を探求する。  
 - より深い洞察のために、Aspose.Slides API の完全なドキュメントを確認する。
 
-## FAQ Section
+## よくある質問
 
-1. **How do I install Aspose.Slides for Java using Maven?**  
-   上記の依存関係スニペットを `pom.xml` に追加してください。  
-
-2. **What if I encounter an `IndexOutOfBoundsException` when accessing slides or charts?**  
-   参照しているスライドとチャートのインデックスがプレゼンテーション内に実際に存在するか再確認してください。  
-
-3. **Can Aspose.Slides handle large presentations efficiently?**  
-   メモリ使用量を管理（オブジェクトの破棄）し、JVM のヒープ設定を調整することで可能です。  
-
-4. **Is it possible to clear data points without affecting other series?**  
-   もちろんです。ループで示したように、クリアしたい特定のシリーズインデックスを対象にしてください。  
-
-5. **How do I integrate this solution with a live database?**  
-   標準的な JDBC または最新の ORM を使用してデータを取得し、新しいポイントを挿入する前に同じクリアロジックを適用してください。
-
-## Frequently Asked Questions
-
-**Q: Do I need a license for development builds?**  
+**Q: 開発ビルドにはライセンスが必要ですか？**  
 A: 開発・テストには無料トライアル ライセンスで十分です。本番環境では商用ライセンスが必要です。
 
-**Q: Does Aspose.Slides for Java support PowerPoint 2016/2019 features?**  
+**Q: Aspose.Slides for JavaはPowerPoint 2016/2019の機能をサポートしていますか？**
 A: はい、最新の PPTX 形式に完全対応しており、高度なチャート タイプもサポートしています。
 
-**Q: Can I clear data points in a chart that uses a secondary axis?**  
+**Q: 第二軸を使用しているグラフのデータポイントをクリアできますか？**
 A: 同じ手法で可能です。二次軸に属する正しいシリーズを参照していることを確認してください。
 
-**Q: Is there a way to clear only the Y values while keeping X labels?**  
+**Q: X軸のラベルは残したまま、Y軸の値だけをクリアする方法はありますか？**  
 A: X セルはそのままにして、`dataPoint.getYValue().getAsCell().setValue(null)` を設定してください。
 
-**Q: How can I automate this process for multiple presentations?**  
+**Q: 複数のプレゼンテーションでこの処理を自動化するにはどうすればよいですか？**  
 A: PPTX ファイルが格納されたディレクトリをループで回し、各ファイルに同じクリア＆保存ロジックを適用するようコードをラップしてください。
 
-## Resources
+## リソース
 
 - [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
 - [Aspose.Slides for Java のダウンロード](https://releases.aspose.com/slides/java/)
@@ -221,6 +204,12 @@ A: PPTX ファイルが格納されたディレクトリをループで回し、
 
 これらのリソースがあれば、Java アプリケーションでチャート データ ポイントをクリアする準備が整います。コーディングを楽しんでください！
 
+---
+
+**Last Updated:** 2026-02-27  
+**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -228,9 +217,3 @@ A: PPTX ファイルが格納されたディレクトリをループで回し、
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-27  
-**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Author:** Aspose

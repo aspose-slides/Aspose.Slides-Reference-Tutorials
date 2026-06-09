@@ -13,19 +13,7 @@ url: /ar/java/charts-graphs/clear-data-points-ppt-charts-aspose-slides-java/
 weight: 1
 ---
 
- Arabic.
-
-Proceed.
-
-Make sure to keep code block placeholders unchanged.
-
-Let's craft Arabic translation.
-
-Be careful with bullet points: maintain dash and spacing.
-
-Also keep bold **.
-
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
@@ -190,23 +178,6 @@ public class ChartManipulation {
 - استكشف ميزات أخرى لتلاعب المخططات مثل تغيير نوع المخطط أو تنسيق السلاسل.  
 - راجع وثائق Aspose.Slides API بالكامل للحصول على رؤى أعمق.
 
-## قسم الأسئلة المتكررة
-
-1. **كيف أقوم بتثبيت Aspose.Slides for Java باستخدام Maven؟**  
-   أضف مقتطف الاعتماد المقدم أعلاه إلى ملف `pom.xml` الخاص بك.
-
-2. **ماذا أفعل إذا واجهت استثناء `IndexOutOfBoundsException` عند الوصول إلى الشرائح أو المخططات؟**  
-   تأكد من أن فهارس الشريحة والمخطط التي تشير إليها موجودة فعلاً في العرض التقديمي.
-
-3. **هل يمكن لـ Aspose.Slides التعامل مع عروض تقديمية كبيرة بكفاءة؟**  
-   نعم، عبر إدارة استهلاك الذاكرة (تحرير الكائنات) وضبط إعدادات heap في JVM.
-
-4. **هل يمكن مسح نقاط البيانات دون التأثير على السلاسل الأخرى؟**  
-   بالتأكيد – استهدف فهرس السلسلة المحدد الذي تريد مسحه، كما هو موضح في الحلقة.
-
-5. **كيف أدمج هذا الحل مع قاعدة بيانات حية؟**  
-   استخدم JDBC القياسي أو ORM حديث لجلب البيانات، ثم طبّق منطق المسح نفسه قبل إدراج النقاط الجديدة.
-
 ## الأسئلة المتكررة
 
 **س: هل أحتاج إلى ترخيص لبناءات التطوير؟**  
@@ -235,6 +206,12 @@ public class ChartManipulation {
 
 مع هذه الموارد أنت جاهز لبدء مسح نقاط بيانات المخططات في تطبيقات جافا الخاصة بك. برمجة سعيدة!
 
+---
+
+**آخر تحديث:** 2026-02-27  
+**تم الاختبار مع:** Aspose.Slides for Java 25.4 (JDK 16)  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -242,9 +219,3 @@ public class ChartManipulation {
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2026-02-27  
-**تم الاختبار مع:** Aspose.Slides for Java 25.4 (JDK 16)  
-**المؤلف:** Aspose

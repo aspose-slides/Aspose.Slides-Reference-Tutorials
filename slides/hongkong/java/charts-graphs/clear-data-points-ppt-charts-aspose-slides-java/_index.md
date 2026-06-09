@@ -177,23 +177,6 @@ public class ChartManipulation {
 - 探索其他圖表操作功能，例如變更圖表類型或設定系列格式。  
 - 檢視完整的 Aspose.Slides API 文件，以獲得更深入的了解。
 
-## 常見問題區
-
-1. **如何使用 Maven 安裝 Aspose.Slides for Java？**  
-   將上述相依性程式碼片段加入您的 `pom.xml`。
-
-2. **若在存取投影片或圖表時遇到 `IndexOutOfBoundsException`，該怎麼辦？**  
-   再次確認您引用的投影片與圖表索引確實存在於簡報中。
-
-3. **Aspose.Slides 能有效處理大型簡報嗎？**  
-   可以，透過管理記憶體使用（釋放物件）與調校 JVM 堆積設定。
-
-4. **是否能在不影響其他系列的情況下清除資料點？**  
-   當然可以——如迴圈所示，針對您想清除的特定系列索引即可。
-
-5. **如何將此解決方案與即時資料庫整合？**  
-   使用標準 JDBC 或現代 ORM 取得資料，然後在插入新點前套用相同的清除邏輯。
-
 ## 常見問答
 
 **問：開發版需要授權嗎？**  
@@ -222,6 +205,12 @@ public class ChartManipulation {
 
 有了這些資源，您即可在 Java 應用程式中開始清除圖表資料點。祝開發順利！
 
+---
+
+**Last Updated:** 2026-02-27  
+**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -229,9 +218,3 @@ public class ChartManipulation {
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-27  
-**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Author:** Aspose

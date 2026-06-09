@@ -18,49 +18,49 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Jak wyczyścić punkty danych w wykresach PowerPoint przy użyciu Aspose.Slides for Java
+# Jak zastosować punkty danych w wykresach PowerPoint przy użyciu Aspose.Slides for Java
 
 ## Wprowadzenie
 
-Zarządzanie danymi wykresów w PowerPoint może być trudne, szczególnie gdy trzeba **wyczyścić określone punkty danych** lub zresetować całą serię. W tym samouczku zobaczysz, jak **Aspose.Slides for Java** ułatwia programowe czyszczenie wartości wykresu, utrzymanie prezentacji w porządku i unikanie konieczności od nowa budować wykresy.
+Zarządzanie danymi wykresów w programie PowerPoint może być trudne, szczególnie gdy trzeba **wyczyścić określone punkty danych** lub odzyskać całą całość. W tym samouczku zobacz, jak **Aspose.Slides for Java** ułatwiający programowanie czyszczenia wartości wykresu, utrzymanie prezentacji w porządku i unikanie konieczności od nowej budowy wykresów.
 
-**Czego się nauczysz**
-- Jak manipulować wykresami PowerPoint przy użyciu **Aspose.Slides for Java**.  
-- Instrukcje krok po kroku, jak **wyczyścić dane wykresu** w serii.  
-- Najlepsze praktyki konfigurowania biblioteki i optymalizacji wydajności.
+**Czego się uczysz**
+- Jak przygotować wykresami PowerPoint przy użyciu **Aspose.Slides for Java**.
+- Instrukcje krok po kroku, jak **wyczyścić dane wykresu** w serii.
+- Najlepsze praktyki konfigurowania bibliotek i optymalizacji wydajności.
 
-Zacznijmy od sprawdzenia wymagań wstępnych.
+Rozpocznijmy od sprawdzenia wniosków wstępnych.
 
-## Quick Answers
-- **Jakiej biblioteki użyto?** Aspose.Slides for Java.  
-- **Która metoda czyści punkt danych?** Ustawienie wartości komórek X i Y na `null`.  
-- **Czy potrzebna jest licencja?** Wersja próbna wystarczy do oceny; licencja komercyjna jest wymagana w produkcji.  
-- **Wspierana wersja JDK?** JDK 16 lub nowszy.  
-- **Czy mogę celować w pojedynczą serię?** Tak – iteruj tylko po serii, którą chcesz wyczyścić.
+## Szybkie odpowiedzi
+- **Jakiej biblioteki użyto?** Aspose.Slides for Java.
+- **Która metoda czyści punkt danych?** ustawienie wartości komórek X i Y na `null`.
+- **Czy jest licencjat?** Wersja próbna wystarczy do sprawdzenia; licencjat komercyjny jest wymagany w produkcji.
+- **Wspierana wersja JDK?** JDK16 lub nowszy.
+- **Czy mogę celować w pojedynczą postać?** Tak – iteruj tylko po serii, która jest dostępna.
 
-## What is Aspose.Slides for Java?
-Aspose.Slides for Java to potężne API, które pozwala programistom tworzyć, edytować i konwertować pliki PowerPoint bez Microsoft Office. Obsługuje pełną manipulację wykresami, w tym dodawanie, aktualizowanie i czyszczenie punktów danych.
+## Co to jest Aspose.Slides dla Java?
+Aspose.Slides for Java do API, które pozwala na tworzenie programów, udostępnianie i konwertowanie plików PowerPoint bez Microsoft Office. Obsługuje pełną manipulację wykresami, w tym dodawanie, aktualizowanie i czyszczenie punktów danych.
 
-## Dlaczego wyczyścić punkty danych wykresu?
-- Odświeżanie wykresu nowym zestawem danych przy zachowaniu tego samego układu.  
-- Przygotowywanie szablonu, który zawiera puste miejsca.  
-- Tworzenie dynamicznych raportów, w których dane zmieniają się często.
+## Dlaczego należy umieścić punkty danych wykresu?
+- Odświeżanie wykresu nowego zestawu danych przy zachowaniu tej samej konfiguracji.
+- Przygotowywanie szablonu, który zawiera puste miejsca.
+- Tworzenie awaryjnych rozwiązań, w których dane są często stosowane.
 
-## Prerequisites
+## Warunki wstępne
 
-### Required Libraries, Versions, and Dependencies
+### Wymagane biblioteki, wersje i zależności
 - **Aspose.Slides for Java**: wersja 25.4 lub wyższa.
 
-### Environment Setup Requirements
-- Java Development Kit (JDK) 16 lub nowszy.
+### Wymagania dotyczące konfiguracji środowiska
+- Java Development Kit (JDK)16lub nowszy.
 
-### Knowledge Prerequisites
-- Podstawowa programowanie w Javie.  
-- Znajomość Maven lub Gradle do zarządzania zależnościami.
+### Wymagania wstępne dotyczące wiedzy
+- Podstawowe programowanie w Javie.
+- Rozwiązanie Maven lub Gradle do zarządzania.
 
-## Setting Up Aspose.Slides for Java
+## Konfigurowanie Aspose.Slides dla Java
 
-### Maven Installation
+### Instalacja Mavena
 
 ```xml
 <dependency>
@@ -77,18 +77,18 @@ Aspose.Slides for Java to potężne API, które pozwala programistom tworzyć, e
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Direct Download
+### Bezpośrednie pobieranie
 
 Alternatywnie pobierz najnowszą wersję z [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### License Acquisition
+### Nabycie licencji
 
-Aby używać Aspose.Slides poza ograniczeniami wersji próbnej:
-- Uzyskaj **bezpłatną wersję próbną** licencji.  
-- Złóż wniosek o **tymczasową licencję** do oceny.  
+Aby sprawdzić Aspose.Slides poza wersją próbną:
+- uzyskaj **bezpłatną wersję próbną** licencji.
+- Dodaj wniosek o **tymczasową uwagę** do oceny.
 - Kup **licencję komercyjną** do użytku produkcyjnego.
 
-#### Basic Initialization and Setup
+#### Podstawowa inicjalizacja i konfiguracja
 
 ```java
 import com.aspose.slides.*;
@@ -105,33 +105,33 @@ public class ChartManipulation {
 }
 ```
 
-## Using Aspose.Slides for Java to Clear Chart Data Points
+## Używanie Aspose.Slides dla Java do czyszczenia punktów danych na wykresie
 
-### Clear Chart Series Data Points
+### Wyczyść punkty danych serii wykresu
 
-#### Overview
+#### Przegląd
 
-Ta funkcja pozwala zresetować wartości X i Y każdego punktu danych w wybranej serii. To sedno **jak wyczyścić dane wykresu** bez zakłócania innych serii.
+Ta funkcja pozwala na zresetowanie wartości X i Y każdego punktu danych w serii. To **jak zastosować dane wykresu** bez zakłócania innych serii.
 
-#### Step‑by‑Step Implementation
+#### Wdrożenie krok po kroku
 
-1. **Load the Presentation**  
-   Load your PowerPoint file into a `Presentation` object.
+1. **Wczytaj prezentację** 
+	Załaduj plik programu PowerPoint do obiektu „Prezentacja”.
 
    ```java
    Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/TestChart.pptx");
    ```
 
-2. **Access Slide and Chart**  
-   Grab the first slide and the first shape (assumed to be a chart).
+2. **Dostęp do slajdu i wykresu**
+	Pobierz pierwszy slajd i pierwszy kształt (zakładając, że jest to wykres).
 
    ```java
    ISlide sl = pres.getSlides().get_Item(0);
    IChart chart = (IChart) sl.getShapes().get_Item(0);
    ```
 
-3. **Iterate Through Data Points**  
-   Loop over the data points of the first series and set their cell values to `null`.
+3. **Przejdź przez punkty danych**
+	Przejdź przez punkty danych z pierwszej serii i ustaw wartości ich komórek na `null`.
 
    ```java
    for (IChartDataPoint dataPoint : chart.getChartData().getSeries().get_Item(0).getDataPoints()) {
@@ -140,78 +140,61 @@ Ta funkcja pozwala zresetować wartości X i Y każdego punktu danych w wybranej
    }
    ```
 
-4. **Save the Presentation**  
-   Persist the changes to a new file.
+4. **Zapisz prezentację**
+	Zapisz zmiany w nowym pliku.
 
    ```java
    pres.save("YOUR_DOCUMENT_DIRECTORY/UpdatedTestChart.pptx", SaveFormat.Pptx);
    ```
 
-### Troubleshooting Tips
+### Wskazówki dotyczące rozwiązywania problemów
 
-- Sprawdź, czy indeks slajdu (`0`) i indeks kształtu (`0`) faktycznie wskazują na wykres; w przeciwnym razie pojawi się `IndexOutOfBoundsException`.  
-- Podwójnie sprawdź ścieżki plików przy ładowaniu i zapisywaniu; używaj ścieżek bezwzględnych podczas testów, aby uniknąć nieporozumień.  
+- Sprawdź, czy indeks slajdu (`0`) i indeks kształtu (`0`) faktycznie przedstawiony na wykresie; w przeciwnym razie pojawi się `IndexOutOfBoundsException`.
+- Podwójne sprawdzenie plików przy ładowaniu i zapisywaniu; stosując bezwzględne zasady podczas testów, aby zapobiec nieporozumieniu.
 - Jeśli wykres zawiera wiele serii, odpowiednio dostosuj indeks serii (`get_Item(0)`).
 
-## Practical Applications
+## Praktyczne zastosowania
 
-Czyszczenie punktów danych wykresu może być zastosowane w różnych scenariuszach rzeczywistych:
+Czyszczenie punktów danych wykresu może być rozkładem w różnych scenariuszach rzeczywistych:
 
-1. **Odświeżenie danych** – Zastąp stare dane nowym zestawem bez odtwarzania układu wykresu.  
-2. **Przygotowanie szablonu** – Dostarczaj szablony PowerPoint zawierające puste wykresy gotowe do wprowadzenia danych przez użytkownika.  
-3. **Raportowanie dynamiczne** – Integruj z żywymi źródłami danych (bazy danych, API), aby generować aktualne prezentacje w locie.  
-4. **Zautomatyzowane pulpity** – Twórz zaplanowane zadania, które aktualizują wykresy nocą, najpierw czyszcząc poprzednie wartości.
+1. **Odświeżenie danych** – Zastąp stare dane nowego zestawu bez struktury wykresu.
+2. **Przygotowanie szablonu** – szablony PowerPoint zawierające puste wykresy gotowe do rozwiązania danych przez użytkownika.
+3. **Raportowanie zależne** – Integruj z żywymi źródłami danych (bazy danych, API), aby wygenerować aktualne prezentacje w locie.
+4. **Zautomatyzowane ambony** – Twórz zagrożenia zadania, które aktualizują wykresy nocą, najpierw czyszcząc poprzednie wartości.
 
-## Performance Considerations
+## Względy wydajności
 
-- **Zwalnianie obiektów**: Zawsze wywołuj `pres.dispose()`, aby zwolnić zasoby natywne.  
-- **Przetwarzanie wsadowe**: Przy obsłudze wielu prezentacji, ponownie używaj jednej instancji `License` i przetwarzaj pliki kolejno, aby zmniejszyć narzut.  
-- **Dostosowanie JVM**: Dostosuj rozmiar sterty (`-Xmx`), jeśli pracujesz z bardzo dużymi plikami PPTX.
+- **Zwalnianie obiektów**: Zawsze wywołuj `pres.dispose()`, aby zwolnić zasoby natywne.
+- **Przetwarzanie wsadowe**: Przy wielu prezentacjach, ponownie używaj jednej `License` i działającej plików często, aby zastosować narzut.
+- **Dostosowanie JVM**: Dostosuj rozmiar sterty (`-Xmx`), jeśli pracujesz z bardzo niedostępnym plikiem PPTX.
 
-## Conclusion
+## Wniosek
 
-W tym przewodniku pokazaliśmy **jak wyczyścić dane wykresu** przy użyciu **Aspose.Slides for Java**. Postępując zgodnie z powyższymi krokami, możesz programowo resetować serie wykresu, utrzymać prezentacje w czystości i zintegrować aktualizacje wykresów z dowolnym potokiem raportowania opartym na Javie.
+W tym przewodniku pokazaliśmy **jak umieszczać dane wykresu** przy użyciu **Aspose.Slides for Java**. Postępując zgodnie z krokami, możesz programowo zresetować serię wykresów, informacje o prezentacjach w dostępie i włączone do wykresów z dostępnym potokiem raportów opartym na Javie.
 
 **Kolejne kroki**
-- Eksperymentuj z dodawaniem nowych punktów danych po wyczyszczeniu starych.  
-- Zbadaj inne funkcje manipulacji wykresami, takie jak zmiana typów wykresów lub formatowanie serii.  
-- Przejrzyj pełną dokumentację API Aspose.Slides, aby uzyskać głębsze informacje.
+- Eksperymentuj z dodawaniem nowych punktów danych po wyczyszczeniu.
+- Zbadaj inne funkcje manipulacji wykresami, takie jak zmiana charakterystycznych wykresów lub formatowanie serii.
+- Przejrzyj pełną dokumentację API Aspose.Slides, aby uzyskać informacje.
 
-## FAQ Section
+## Często zadawane pytania
 
-1. **Jak zainstalować Aspose.Slides for Java przy użyciu Maven?**  
-   Dodaj fragment zależności podany powyżej do swojego `pom.xml`.
+**P: Czy dostępna jest wersja deweloperskich?**
+O: Licencja próbna jest wystarczająca do rozwoju i testowania. Licencja komercyjna jest wymagana przy wytwarzaniu produkcji.
 
-2. **Co zrobić, jeśli napotkam `IndexOutOfBoundsException` przy dostępie do slajdów lub wykresów?**  
-   Sprawdź ponownie, czy indeksy slajdu i wykresu, które odwołujesz, rzeczywiście istnieją w prezentacji.
+**P: Czy Aspose.Slides for Java obsługuje funkcje programu PowerPoint 2016/2019?**
+O: Tak, biblioteka jest w pełni kompatybilna z dodatkowymi formatami PPTX i obsługuje zaawansowane typy wykresów.
 
-3. **Czy Aspose.Slides radzi sobie efektywnie z dużymi prezentacjami?**  
-   Tak, poprzez zarządzanie użyciem pamięci (zwalnianie obiektów) i dostosowywanie ustawień sterty JVM.
+**P: Czy można zastosować punkty danych w wykresach wykorzystujących drugie osi?**
+O: To samo działa; po prostu następuje, że jest dostępny do właściwej serii należącej do drugiej osi.
 
-4. **Czy można wyczyścić punkty danych bez wpływu na inne serie?**  
-   Absolutnie – celuj w konkretny indeks serii, którą chcesz wyczyścić, jak pokazano w pętli.
+**P: Czy istnieje sposób, aby uzyskać tylko wartości Y, wynikające z etykiet X?**
+O: Ustaw `dataPoint.getYValue().getAsCell().setValue(null)`, wyznaczoną komórkę X niezmienioną.
 
-5. **Jak zintegrować to rozwiązanie z żywą bazą danych?**  
-   Użyj standardowego JDBC lub nowoczesnego ORM, aby pobrać dane, a następnie zastosuj tę samą logikę czyszczenia przed wstawieniem nowych punktów.
+**P: Jak mogę zautomatyzować dziesięć procesów dla wielu prezentacji?**
+O: wprowadzony kod w, który iteruje po katalogu plików PPTX, etykieta elektroniczna logikę i zapis do każdego z nich.
 
-## Frequently Asked Questions
-
-**P: Czy potrzebuję licencji do wersji deweloperskich?**  
-O: Licencja próbna jest wystarczająca do rozwoju i testowania. Licencja komercyjna jest wymagana przy wdrożeniach produkcyjnych.
-
-**P: Czy Aspose.Slides for Java obsługuje funkcje PowerPoint 2016/2019?**  
-O: Tak, biblioteka jest w pełni kompatybilna z nowoczesnymi formatami PPTX i obsługuje zaawansowane typy wykresów.
-
-**P: Czy mogę wyczyścić punkty danych w wykresie używającym drugiej osi?**  
-O: To samo podejście działa; po prostu upewnij się, że odwołujesz się do właściwej serii należącej do drugiej osi.
-
-**P: Czy istnieje sposób, aby wyczyścić tylko wartości Y, zachowując etykiety X?**  
-O: Ustaw `dataPoint.getYValue().getAsCell().setValue(null)`, pozostawiając komórkę X niezmienioną.
-
-**P: Jak mogę zautomatyzować ten proces dla wielu prezentacji?**  
-O: Umieść kod w pętli, która iteruje po katalogu plików PPTX, stosując tę samą logikę czyszczenia i zapisu do każdego z nich.
-
-## Resources
+## Zasoby
 
 - [Dokumentacja Aspose.Slides](https://reference.aspose.com/slides/java/)
 - [Pobierz Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
@@ -222,6 +205,12 @@ O: Umieść kod w pętli, która iteruje po katalogu plików PPTX, stosując tę
 
 Dzięki tym zasobom jesteś gotowy, aby rozpocząć czyszczenie punktów danych wykresu w swoich aplikacjach Java. Szczęśliwego kodowania!
 
+---
+
+**Ostatnia aktualizacja:** 2026-02-27  
+**Testowano z:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -229,9 +218,3 @@ Dzięki tym zasobom jesteś gotowy, aby rozpocząć czyszczenie punktów danych 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2026-02-27  
-**Testowano z:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Autor:** Aspose

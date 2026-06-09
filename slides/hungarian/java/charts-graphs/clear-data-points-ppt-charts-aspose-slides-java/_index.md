@@ -180,23 +180,6 @@ Ebben az útmutatóban bemutattuk, **hogyan töröljük a diagram** adatpontjait
 
 ## Gyakran Ismételt Kérdések
 
-1. **Hogyan telepítem az Aspose.Slides for Java‑t Maven‑nel?**  
-   Adja hozzá a fent bemutatott függőség‑kódrészletet a `pom.xml`‑hez.
-
-2. **Mi a teendő, ha `IndexOutOfBoundsException` hibát kap a diák vagy diagramok elérésekor?**  
-   Ellenőrizze, hogy a hivatkozott dia‑ és diagram‑indexek valóban léteznek‑e a prezentációban.
-
-3. **Képes az Aspose.Slides nagy prezentációkat hatékonyan kezelni?**  
-   Igen, a memóriahasználat megfelelő kezelése (objektumok felszabadítása) és a JVM heap beállítások optimalizálása mellett.
-
-4. **Lehet-e adatpontokat törölni anélkül, hogy a többi sorozatot érintenénk?**  
-   Természetesen – célozza meg a törölni kívánt sorozat indexét, ahogy a ciklusban látható.
-
-5. **Hogyan integráljam ezt a megoldást egy élő adatbázissal?**  
-   Használjon szabványos JDBC‑t vagy modern ORM‑et az adatok lekéréséhez, majd alkalmazza ugyanazt a törlési logikát az új pontok beszúrása előtt.
-
-## Gyakran Ismételt Kérdések
-
 **K: Szükség van licencre fejlesztői buildhez?**  
 V: Egy ingyenes próbaverzió licenc elegendő a fejlesztéshez és teszteléshez. A termelési környezethez kereskedelmi licenc szükséges.
 
@@ -223,6 +206,12 @@ V: Csomagolja a kódot egy ciklusba, amely egy könyvtár PPTX fájljait iterál
 
 Ezekkel a forrásokkal készen áll a diagram adatpontjainak törlésére Java‑alkalmazásaiban. Boldog kódolást!
 
+---
+
+**Utoljára frissítve:** 2026-02-27  
+**Tesztelt verzió:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -230,9 +219,3 @@ Ezekkel a forrásokkal készen áll a diagram adatpontjainak törlésére Java�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utoljára frissítve:** 2026-02-27  
-**Tesztelt verzió:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Szerző:** Aspose

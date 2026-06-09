@@ -14,26 +14,6 @@ url: /fr/java/charts-graphs/clear-data-points-ppt-charts-aspose-slides-java/
 weight: 1
 ---
 
- values, keep your presentations tidy, and avoid rebuilding charts from scratch."
-
-Translate.
-
-**What You’ll Learn** -> "**Ce que vous apprendrez**"
-
-List items.
-
-Proceed.
-
-Continue.
-
-All sections.
-
-Make sure to keep code block placeholders unchanged.
-
-Also keep URLs.
-
-Proceed to produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -199,23 +179,6 @@ Dans ce guide, nous avons démontré **comment effacer les points de données d�
 - Explorez d’autres fonctionnalités de manipulation de graphiques telles que le changement de type de graphique ou le formatage des séries.  
 - Consultez la documentation complète de l’API Aspose.Slides pour approfondir vos connaissances.
 
-## Section FAQ
-
-1. **Comment installer Aspose.Slides pour Java avec Maven ?**  
-   Ajoutez le fragment de dépendance fourni ci‑dessus à votre `pom.xml`.
-
-2. **Que faire si je rencontre une `IndexOutOfBoundsException` en accédant aux diapositives ou aux graphiques ?**  
-   Vérifiez que les indices de diapositive et de graphique que vous utilisez existent réellement dans la présentation.
-
-3. **Aspose.Slides gère‑t‑il efficacement les présentations volumineuses ?**  
-   Oui, en gérant l’utilisation de la mémoire (libération des objets) et en ajustant les paramètres du tas JVM.
-
-4. **Est‑il possible d’effacer les points de données sans affecter les autres séries ?**  
-   Absolument – ciblez l’indice de série spécifique que vous souhaitez effacer, comme illustré dans la boucle.
-
-5. **Comment intégrer cette solution à une base de données en direct ?**  
-   Utilisez JDBC standard ou un ORM moderne pour récupérer les données, puis appliquez la même logique d’effacement avant d’insérer les nouveaux points.
-
 ## Questions fréquemment posées
 
 **Q : Ai‑je besoin d’une licence pour les builds de développement ?**  
@@ -244,6 +207,12 @@ R : Enveloppez le code dans une boucle qui parcourt un répertoire de fichiers
 
 Avec ces ressources, vous êtes prêt à commencer à effacer les points de données de vos graphiques dans vos applications Java. Bon codage !
 
+---
+
+**Dernière mise à jour :** 2026-02-27  
+**Testé avec :** Aspose.Slides pour Java 25.4 (JDK 16)  
+**Auteur :** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -251,9 +220,3 @@ Avec ces ressources, vous êtes prêt à commencer à effacer les points de donn
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2026-02-27  
-**Testé avec :** Aspose.Slides pour Java 25.4 (JDK 16)  
-**Auteur :** Aspose

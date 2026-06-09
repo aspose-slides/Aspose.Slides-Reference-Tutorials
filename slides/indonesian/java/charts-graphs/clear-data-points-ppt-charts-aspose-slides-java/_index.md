@@ -178,23 +178,6 @@ Dalam panduan ini kami menunjukkan **cara menghapus diagram** titik data menggun
 - Jelajahi fitur manipulasi diagram lain seperti mengubah tipe diagram atau memformat seri.  
 - Tinjau dokumentasi lengkap API Aspose.Slides untuk wawasan lebih mendalam.
 
-## Bagian FAQ
-
-1. **Bagaimana cara menginstal Aspose.Slides for Java menggunakan Maven?**  
-   Tambahkan cuplikan dependensi yang disediakan di atas ke dalam `pom.xml` Anda.
-
-2. **Bagaimana jika saya menemukan `IndexOutOfBoundsException` saat mengakses slide atau diagram?**  
-   Periksa kembali bahwa indeks slide dan diagram yang Anda referensikan memang ada dalam presentasi.
-
-3. **Apakah Aspose.Slides dapat menangani presentasi besar secara efisien?**  
-   Ya, dengan mengelola penggunaan memori (dispose objek) dan menyesuaikan pengaturan heap JVM.
-
-4. **Apakah memungkinkan menghapus titik data tanpa memengaruhi seri lain?**  
-   Tentu – targetkan indeks seri spesifik yang ingin Anda hapus, seperti yang ditunjukkan pada loop.
-
-5. **Bagaimana cara mengintegrasikan solusi ini dengan basis data langsung?**  
-   Gunakan JDBC standar atau ORM modern untuk mengambil data, lalu terapkan logika penghapusan yang sama sebelum menyisipkan titik baru.
-
 ## Pertanyaan yang Sering Diajukan
 
 **T: Apakah saya memerlukan lisensi untuk build pengembangan?**  
@@ -223,6 +206,12 @@ J: Bungkus kode dalam loop yang iterasi melalui direktori berisi file PPTX, mene
 
 Dengan sumber daya ini Anda siap mulai menghapus titik data diagram dalam aplikasi Java Anda. Selamat coding!
 
+---
+
+**Terakhir Diperbarui:** 2026-02-27  
+**Diuji Dengan:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -230,9 +219,3 @@ Dengan sumber daya ini Anda siap mulai menghapus titik data diagram dalam aplika
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2026-02-27  
-**Diuji Dengan:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Penulis:** Aspose
