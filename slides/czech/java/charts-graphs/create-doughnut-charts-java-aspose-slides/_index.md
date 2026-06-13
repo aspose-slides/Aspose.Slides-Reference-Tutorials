@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Naučte se, jak vytvářet úžasné prstencové grafy v Javě pomocí Aspose.Slides. Tato komplexní příručka zahrnuje inicializaci, konfiguraci dat a ukládání prezentací."
-"title": "Vytváření prstencových grafů v Javě pomocí Aspose.Slides – Komplexní průvodce"
-"url": "/cs/java/charts-graphs/create-doughnut-charts-java-aspose-slides/"
-"weight": 1
+date: '2026-03-07'
+description: Naučte se, jak vytvořit prstencový graf v Javě pomocí Aspose.Slides.
+  Tento průvodce krok za krokem pokrývá nastavení závislosti Maven Aspose Slides,
+  konfiguraci grafu a ukládání prezentací.
+keywords:
+- create doughnut charts Java
+- Aspose.Slides Java guide
+- Java data visualization
+title: Vytvořte prstencový graf v Javě s průvodcem Aspose.Slides
+url: /cs/java/charts-graphs/create-doughnut-charts-java-aspose-slides/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,44 +17,49 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Vytvořte prstencové grafy v Javě pomocí Aspose.Slides: Podrobný návod
+# Vytvoření prstencového grafu v Javě s Aspose.Slides průvodcem
 
-## Zavedení
+## Úvod
 
-dnešním prostředí založeném na datech je efektivní vizualizace informací klíčem ke zlepšení porozumění a zapojení. I když se vytváření profesionálních grafů programově může zdát náročné, zejména v Javě, tato příručka vás provede používáním Aspose.Slides pro Javu k snadnému vytváření prstencových grafů.
+Vytvoření **doughnut chart** programově může proměnit surová čísla v poutavý vizuál, který okamžitě vypráví příběh. V Javě **Aspose.Slides** tento proces zjednodušuje a umožňuje generovat grafy připravené do prezentace, aniž byste museli otevírat PowerPoint. V tomto tutoriálu se naučíte, jak **create doughnut chart java** krok za krokem – od nastavení Maven závislosti Aspose Slides po přizpůsobení sérií, kategorií a nakonec uložení prezentace.
 
-Dodržením těchto kroků získají vývojáři praktické zkušenosti s manipulací se snímky prezentací a bezproblémovou integrací vizualizace dat.
+Na konci tohoto průvodce budete schopni vložit dynamické prstencové grafy do libovolného souboru PPTX, ideální pro zprávy, dashboardy nebo automatizované sady snímků.
 
-**Klíčové poznatky:**
-- Inicializujte objekt Presentation pomocí Aspose.Slides v Javě.
-- Konfigurujte data grafu a spravujte existující řady nebo kategorie.
-- Přidejte a upravte řady a kategorie pro své grafy.
-- Efektivně formátovat a zobrazovat datové body.
-- Snadno uložte svou prezentaci v různých formátech.
+### Rychlé odpovědi
+- **Jaká knihovna se používá?** Aspose.Slides for Java  
+- **Hlavní úkol?** Create doughnut chart java v souboru PPTX  
+- **Jak přidat knihovnu?** Použijte Maven Aspose Slides dependency (nebo Gradle)  
+- **Minimální verze Javy?** JDK 16 nebo vyšší  
+- **Mohu přizpůsobit barvy a popisky?** Ano, API poskytuje plnou kontrolu formátování  
 
-Než se pustíte do implementace, ujistěte se, že máte vše potřebné k zahájení.
+## Co je prstencový graf a proč jej používat?
 
-## Předpoklady
+Prstencový graf je variací koláčového grafu s prázdným středem, který umožňuje zobrazit více datových sérií v soustředných kruzích. To jej činí ideálním pro porovnání částí celku napříč několika kategoriemi – například prodeje podle regionu během několika čtvrtletí nebo rozdělení rozpočtu mezi oddělení.
 
-Abyste mohli postupovat podle tohoto tutoriálu, ujistěte se, že máte:
+## Proč použít Aspose.Slides pro Java?
 
-- **Požadované knihovny:**
-  - Aspose.Slides pro Javu verze 25.4 nebo novější.
-  
-- **Nastavení prostředí:**
-  - JDK 16 nebo vyšší nainstalovaný na vašem systému.
-  - IDE jako IntelliJ IDEA, Eclipse nebo NetBeans.
+- **Není vyžadována instalace Office** – generujte soubory PPTX na jakémkoli serveru.  
+- **Bohaté API** – plná kontrola nad typy grafů, datovými body a stylováním.  
+- **Vysoký výkon** – optimalizováno pro velké prezentace.  
+- **Cross‑platform** – funguje na Windows, Linuxu i macOS.
 
-- **Předpoklady znalostí:**
-  - Základní znalost konceptů programování v Javě.
-  - Znalost správy závislostí v projektech Maven nebo Gradle.
+## Požadavky
 
-## Nastavení Aspose.Slides pro Javu
+- **Požadované knihovny:**  
+  - Aspose.Slides for Java verze 25.4 nebo novější.  
 
-Chcete-li integrovat Aspose.Slides do svého projektu, postupujte podle těchto kroků v závislosti na vašem nástroji pro sestavení:
+- **Nastavení prostředí:**  
+  - JDK 16 nebo vyšší.  
+  - Vaše oblíbené IDE (IntelliJ IDEA, Eclipse, NetBeans, atd.).  
 
-**Nastavení Mavenu:**
-Přidejte do svého `pom.xml` soubor:
+- **Předpoklady znalostí:**  
+  - Základy programování v Javě.  
+  - Znalost Maven nebo Gradle pro správu závislostí.
+
+## Maven závislost Aspose Slides
+
+Přidejte následující Maven závislost do souboru `pom.xml`. Toto je **maven aspose slides dependency**, kterou potřebujete k načtení knihovny do projektu.
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -58,23 +69,25 @@ Přidejte do svého `pom.xml` soubor:
 </dependency>
 ```
 
-**Nastavení Gradle:**
-Zahrňte do svého `build.gradle` soubor:
+Pokud dáváte přednost Gradle, použijte níže uvedený ekvivalentní úryvek.
+
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Přímé stažení:**
-Nebo si stáhněte nejnovější verzi přímo z [Aspose.Slides pro verze Java](https://releases.aspose.com/slides/java/).
+Můžete také stáhnout JAR přímo z oficiální stránky vydání:  
+[Vydání Aspose.Slides pro Java](https://releases.aspose.com/slides/java/)
 
 ### Získání licence
 
-Použití Aspose.Slides bez omezení vyhodnocování:
-- **Bezplatná zkušební verze:** Začněte s dočasnou licencí a prozkoumejte všechny funkce.
-- **Dočasná licence:** Získejte jeden prostřednictvím [Webové stránky Aspose](https://purchase.aspose.com/temporary-license/).
-- **Nákup:** Zvažte nákup pro trvalé používání.
+Pro odstranění vodotisku hodnocení a odemčení plného souboru funkcí:
 
-Použijte licenci ve své aplikaci Java pomocí:
+- **Bezplatná zkušební verze** – začněte s dočasnou licencí.  
+- **Dočasná licence** – požádejte o ni na [Aspose webu](https://purchase.aspose.com/temporary-license/).  
+- **Komerční licence** – zakupte pro produkční použití.
+
+Aplikujte licenci ve svém kódu:
+
 ```java
 License license = new License();
 license.setLicense("path/to/your/license.lic");
@@ -82,50 +95,37 @@ license.setLicense("path/to/your/license.lic");
 
 ## Průvodce implementací
 
-### Inicializace prezentace a grafu
+### Inicializace prezentace a přidání prstencového grafu
 
-#### Přehled
-Začněte inicializací prezentačního objektu a přidáním prstencového grafu na první snímek.
+Nejprve vytvořte nebo načtěte prezentaci a přidejte prstencový graf na první snímek.
 
-**Krok 1: Inicializace prezentace**
-Načtěte existující soubor PPTX nebo vytvořte nový:
 ```java
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/testc.pptx");
 ```
 
-**Krok 2: Přidání prstencového grafu**
-Vytvořte graf na prvním snímku na zadaných souřadnicích:
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, false);
 ```
 
-### Konfigurace sešitu dat grafů a vymazání existujících řad/kategorií
+### Konfigurace sešitu dat grafu a vymazání existujících dat
 
-#### Přehled
-Nakonfigurujte sešit s daty grafu a odeberte všechny existující řady nebo kategorie.
+Dále získejte sešit, který podporuje graf, a vymažte všechny výchozí série nebo kategorie.
 
-**Krok 1: Přístup k sešitu s daty grafů**
-Načtěte sešit propojený s vaším grafem:
 ```java
 IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
 ```
 
-**Krok 2: Vymazání existujících sérií a kategorií**
-Ujistěte se, že neexistují žádné zbytkové datové body:
 ```java
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 chart.setLegend(false);
 ```
 
-### Přidání série do grafu
+### Přidání sérií do grafu
 
-#### Přehled
-Naplňte svůj graf více sériemi, z nichž každá má upravený vzhled a chování.
+Nyní přidáme až 15 sérií. Každá série může být přizpůsobena – zde nastavujeme explozi, velikost díry prstence a úhel první výseče.
 
-**Krok 1: Iterativní přidání sérií**
-Procházejte indexy pro přidání sérií:
 ```java
 int seriesIndex = 0;
 while (seriesIndex < 15) {
@@ -134,7 +134,7 @@ while (seriesIndex < 15) {
         chart.getType()
     );
 
-    // Přizpůsobte si sérii
+    // Customize the series
     series.setExplosion(0);
     series.getParentSeriesGroup().setDoughnutHoleSize((byte) 20);
     series.getParentSeriesGroup().setFirstSliceAngle(351);
@@ -142,13 +142,10 @@ while (seriesIndex < 15) {
 }
 ```
 
-### Přidávání kategorií a datových bodů do grafu
+### Přidání kategorií a datových bodů
 
-#### Přehled
-Nakonfigurujte kategorie a přidejte datové body se specifickým formátováním pro popisky.
+Vytvoříme 15 kategorií a naplníme každou sérii datovým bodem. Poslední série získá speciální formátování popisků.
 
-**Krok 1: Přidání kategorií**
-Procházení indexů pro každou kategorii:
 ```java
 int categoryIndex = 0;
 while (categoryIndex < 15) {
@@ -157,8 +154,6 @@ while (categoryIndex < 15) {
     );
 ```
 
-**Krok 2: Přidání datových bodů do každé série**
-Projděte si každou sérii pro aktuální kategorii:
 ```java
 int i = 0;
 while (i < chart.getChartData().getSeries().size()) {
@@ -166,7 +161,7 @@ while (i < chart.getChartData().getSeries().size()) {
     IChartDataPoint dataPoint = iCS.getDataPoints()
         .addDataPointForDoughnutSeries(workBook.getCell(0, categoryIndex + 1, i + 1, 1));
 
-    // Nastavení formátu datových bodů
+    // Data point format settings
     dataPoint.getFormat().getFill().setFillType(FillType.Solid);
     dataPoint.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
     dataPoint.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
@@ -174,7 +169,7 @@ while (i < chart.getChartData().getSeries().size()) {
     dataPoint.getFormat().getLine().setStyle(LineStyle.Single);
     dataPoint.getFormat().getLine().setDashStyle(LineDashStyle.Solid);
 
-    // Formátování popisků pro poslední sérii
+    // Label formatting for the last series
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
@@ -186,14 +181,14 @@ while (i < chart.getChartData().getSeries().size()) {
         lbl.getDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat()
             .getSolidFillColor().setColor(Color.LIGHT_GRAY);
 
-        // Úprava možností zobrazení
+        // Adjust display options
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
         lbl.getDataLabelFormat().setShowLeaderLines(true);
         lbl.getDataLabelFormat().setShowLabelAsDataCallout(false);
 
-        // Úprava polohy štítku
+        // Adjust label position
         chart.validateChartLayout();
         lbl.setX(lbl.getX() + (float) 0.5);
         lbl.setY(lbl.getY() + (float) 0.5);
@@ -205,22 +200,41 @@ categoryIndex++;
 
 ### Uložení prezentace
 
-#### Přehled
-Jakmile nakonfigurujete graf, uložte prezentaci do zadaného adresáře.
+Nakonec zapište aktualizovanou prezentaci na disk.
 
-**Krok 1: Uložení prezentace**
-Použijte `save` metoda pro zápis změn:
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/chart_presentation.pptx", SaveFormat.Pptx);
 ```
 
-## Závěr
+## Časté problémy a řešení
 
-Nyní jste se naučili, jak vytvářet a upravovat prstencové grafy v Javě pomocí Aspose.Slides. Tyto kroky poskytují základ pro integraci sofistikovaných vizualizací dat do vašich prezentací.
+- **Licence nebyla nalezena** – Ověřte, že cesta k `license.lic` je správná a soubor je čitelný.  
+- **Graf je prázdný** – Ujistěte se, že jste před přidáním nových sérií/kategorií vymazali existující.  
+- **Nesprávné barvy** – Zkontrolujte, že `FillType.Solid` je nastaven pro výplň i formát čáry.  
+- **Výkon při mnoha sériích** – Omezte počet sérií/kategorií nebo znovu použijte buňky sešitu.
 
-**Další kroky:**
-- Experimentujte s různými typy grafů dostupnými v Aspose.Slides.
-- Prozkoumejte další možnosti přizpůsobení, jako jsou barvy, písma a styly, které odpovídají vašim potřebám v oblasti brandingu.
+## Často kladené otázky
+
+**Q: Mohu vygenerovat prstencový graf bez předem existujícího souboru PPTX?**  
+A: Ano, vytvořte instancí `new Presentation()` a začněte s prázdnou sadou snímků.
+
+**Q: Podporuje Aspose.Slides export do PDF?**  
+A: Rozhodně. Po vytvoření grafu zavolejte `pres.save("output.pdf", SaveFormat.Pdf);`.
+
+**Q: Jak změním velikost díry prstence?**  
+A: Použijte `series.getParentSeriesGroup().setDoughnutHoleSize((byte) value);`, kde hodnota je 0‑100.
+
+**Q: Je možné přidat datové popisky ke všem sériím, ne jen k poslední?**  
+A: Ano, přesuňte blok formátování popisků mimo podmínku `if (i == ...)` a aplikujte jej na každý `dataPoint`.
+
+**Q: Jaké verze Javy jsou podporovány?**  
+A: Aspose.Slides 25.4 podporuje JDK 16 a novější. Starší JDK vyžadují odpovídající klasifikátor.
+
+---
+
+**Poslední aktualizace:** 2026-03-07  
+**Testováno s:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

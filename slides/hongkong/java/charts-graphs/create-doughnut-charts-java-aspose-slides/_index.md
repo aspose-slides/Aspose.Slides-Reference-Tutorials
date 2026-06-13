@@ -1,9 +1,13 @@
 ---
-"date": "2025-04-17"
-"description": "了解如何使用 Aspose.Slides 在 Java 中建立令人驚嘆的甜甜圈圖。本綜合指南涵蓋初始化、資料配置和保存簡報。"
-"title": "使用 Aspose.Slides 在 Java 中建立甜甜圈圖綜合指南"
-"url": "/zh-hant/java/charts-graphs/create-doughnut-charts-java-aspose-slides/"
-"weight": 1
+date: '2026-03-07'
+description: 學習如何使用 Aspose.Slides 在 Java 中建立甜甜圈圖表。此一步一步指南涵蓋 Maven Aspose Slides 依賴設定、圖表配置以及儲存簡報。
+keywords:
+- create doughnut charts Java
+- Aspose.Slides Java guide
+- Java data visualization
+title: 使用 Aspose.Slides 的 Java 環形圖建立指南
+url: /zh-hant/java/charts-graphs/create-doughnut-charts-java-aspose-slides/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,44 +15,49 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# 使用 Aspose.Slides 在 Java 中建立甜甜圈圖：逐步指南
+# 使用 Aspose.Slides 的 Java Doughnut Chart 建立指南
 
 ## 介紹
 
-在當今數據驅動的環境中，有效地視覺化資訊是增強理解和參與的關鍵。雖然以程式設計方式建立專業圖表看起來很有挑戰性，尤其是使用 Java 時，但本指南將引導您使用 Aspose.Slides for Java 輕鬆建立甜甜圈圖表。
+以程式方式建立 **doughnut chart** 可以將原始數據轉換成一目了然、吸睛的視覺圖表，立即傳達資訊。於 Java 中，**Aspose.Slides** 讓此流程變得簡單，無需開啟 PowerPoint 即可產生可直接使用的簡報圖表。在本教學中，你將一步步學會如何 **create doughnut chart java**——從設定 Maven Aspose Slides 相依性、客製化系列與類別，最後儲存簡報。
 
-透過遵循這些步驟，開發人員將獲得操作簡報幻燈片和無縫整合資料視覺化的實務經驗。
+完成本指南後，你將能將動態 doughnut chart 嵌入任何 PPTX 檔案，適用於報告、儀表板或自動化投影片。
 
-**關鍵要點：**
-- 使用 Aspose.Slides Java 初始化示範物件。
-- 配置圖表資料並管理現有系列或類別。
-- 為您的圖表新增和自訂系列和類別。
-- 有效地格式化和顯示資料點。
-- 輕鬆地以各種格式儲存您的簡報。
+### 快速解答
+- **使用的函式庫為何？** Aspose.Slides for Java  
+- **主要任務？** 在 PPTX 檔案中建立 doughnut chart java  
+- **如何加入函式庫？** 使用 Maven Aspose Slides 相依性（或 Gradle）  
+- **最低 Java 版本？** JDK 16 或以上  
+- **可以自訂顏色與標籤嗎？** 可以，API 提供完整的格式控制  
 
-在深入實施之前，請確保您已準備好開始實施所需的一切。
+## Doughnut Chart 是什麼？為何使用它？
 
-## 先決條件
+Doughnut Chart 是一種帶有空心中心的圓餅圖變形，可在同心環中顯示多個資料系列。這使它非常適合比較多個類別下的整體比例——例如各區域在多個季度的銷售或各部門的預算分配。
 
-要遵循本教程，請確保您已具備：
+## 為何選擇 Aspose.Slides for Java？
 
-- **所需庫：**
-  - Aspose.Slides for Java 版本 25.4 或更高版本。
-  
-- **環境設定：**
-  - 您的系統上安裝了 JDK 16 或更高版本。
-  - 像 IntelliJ IDEA、Eclipse 或 NetBeans 這樣的 IDE。
+- **無需安裝 Office** – 可在任何伺服器上產生 PPTX 檔案。  
+- **功能豐富的 API** – 完全掌控圖表類型、資料點與樣式。  
+- **高效能** – 為大型簡報進行最佳化。  
+- **跨平台** – 支援 Windows、Linux 與 macOS。
 
-- **知識前提：**
-  - 對 Java 程式設計概念有基本的了解。
-  - 熟悉管理 Maven 或 Gradle 專案中的依賴項。
+## 前置條件
 
-## 設定 Aspose.Slides for Java
+- **必要函式庫：**  
+  - Aspose.Slides for Java 版本 25.4 或更新。  
 
-若要將 Aspose.Slides 整合到您的專案中，請根據您的建置工具執行以下步驟：
+- **環境設定：**  
+  - JDK 16 或以上。  
+  - 你喜愛的 IDE（IntelliJ IDEA、Eclipse、NetBeans 等）。  
 
-**Maven設定：**
-將以下相依性新增至您的 `pom.xml` 文件：
+- **知識前提：**  
+  - 基本的 Java 程式設計。  
+  - 熟悉 Maven 或 Gradle 以管理相依性。
+
+## Maven Aspose Slides 相依性
+
+在 `pom.xml` 中加入以下 Maven 相依性。這是你需要的 **maven aspose slides dependency**，用以將函式庫匯入專案。
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -58,74 +67,64 @@
 </dependency>
 ```
 
-**Gradle 設定：**
-在您的 `build.gradle` 文件：
+如果你偏好使用 Gradle，請使用下方等效的程式碼片段。
+
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**直接下載：**
-或者，直接從 [Aspose.Slides for Java 發布](https://releases。aspose.com/slides/java/).
+你也可以直接從官方發行頁面下載 JAR：
 
-### 取得許可證
+[ Aspose.Slides for Java releases ](https://releases.aspose.com/slides/java/)
 
-要使用不受評估限制的 Aspose.Slides：
-- **免費試用：** 從臨時許可證開始探索全部功能。
-- **臨時執照：** 透過 [Aspose 網站](https://purchase。aspose.com/temporary-license/).
-- **購買：** 考慮購買以供持續使用。
+### 取得授權
 
-使用以下命令在您的 Java 應用程式中應用您的許可證：
+若要移除評估水印並解鎖完整功能：
+
+- **免費試用** – 使用臨時授權開始。  
+- **臨時授權** – 可於 [Aspose 網站](https://purchase.aspose.com/temporary-license/) 申請。  
+- **商業授權** – 購買後於正式環境使用。
+
+在程式碼中套用授權：
+
 ```java
 License license = new License();
 license.setLicense("path/to/your/license.lic");
 ```
 
-## 實施指南
+## 實作指南
 
-### 初始化演示和圖表
+### 初始化簡報並加入 Doughnut Chart
 
-#### 概述
-首先初始化一個簡報物件並在第一張投影片中新增一個圓環圖。
+首先，建立或載入簡報，並在第一張投影片加入 Doughnut Chart。
 
-**步驟 1：初始化簡報**
-載入現有的 PPTX 檔案或建立新的 PPTX 檔案：
 ```java
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/testc.pptx");
 ```
 
-**步驟 2：新增圓環圖**
-在第一張投影片上的指定座標處建立圖表：
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, false);
 ```
 
-### 配置圖表資料工作簿並清除現有系列/類別
+### 設定圖表資料工作簿並清除既有資料
 
-#### 概述
-配置圖表資料工作簿並刪除任何預先存在的系列或類別。
+接著，取得支援圖表的工作簿，並清除所有預設的系列或類別。
 
-**步驟 1：存取圖表資料工作簿**
-檢索與圖表連結的工作簿：
 ```java
 IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
 ```
 
-**第 2 步：清除現有系列和類別**
-確保沒有殘留數據點：
 ```java
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 chart.setLegend(false);
 ```
 
-### 在圖表中新增系列
+### 向圖表加入系列
 
-#### 概述
-使用多個系列填充您的圖表，每個系列都針對外觀和行為進行客製化。
+現在我們將加入最多 15 個系列。每個系列皆可自訂——此處設定了爆炸效果、doughnut‑hole 大小，以及第一切片角度。
 
-**步驟 1：迭代新增系列**
-循環索引以新增系列：
 ```java
 int seriesIndex = 0;
 while (seriesIndex < 15) {
@@ -134,7 +133,7 @@ while (seriesIndex < 15) {
         chart.getType()
     );
 
-    // 客製化系列
+    // Customize the series
     series.setExplosion(0);
     series.getParentSeriesGroup().setDoughnutHoleSize((byte) 20);
     series.getParentSeriesGroup().setFirstSliceAngle(351);
@@ -142,13 +141,10 @@ while (seriesIndex < 15) {
 }
 ```
 
-### 在圖表中新增類別和資料點
+### 加入類別與資料點
 
-#### 概述
-配置類別並新增具有特定格式的標籤資料點。
+我們會建立 15 個類別，並為每個系列填入資料點。最後一個系列會套用特殊的標籤格式。
 
-**步驟 1：新增類別**
-循環遍歷每個類別的索引：
 ```java
 int categoryIndex = 0;
 while (categoryIndex < 15) {
@@ -157,8 +153,6 @@ while (categoryIndex < 15) {
     );
 ```
 
-**步驟 2：為每個系列新增資料點**
-迭代當前類別的每個系列：
 ```java
 int i = 0;
 while (i < chart.getChartData().getSeries().size()) {
@@ -166,7 +160,7 @@ while (i < chart.getChartData().getSeries().size()) {
     IChartDataPoint dataPoint = iCS.getDataPoints()
         .addDataPointForDoughnutSeries(workBook.getCell(0, categoryIndex + 1, i + 1, 1));
 
-    // 數據點格式設定
+    // Data point format settings
     dataPoint.getFormat().getFill().setFillType(FillType.Solid);
     dataPoint.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
     dataPoint.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
@@ -174,7 +168,7 @@ while (i < chart.getChartData().getSeries().size()) {
     dataPoint.getFormat().getLine().setStyle(LineStyle.Single);
     dataPoint.getFormat().getLine().setDashStyle(LineDashStyle.Solid);
 
-    // 最後一個系列的標籤格式
+    // Label formatting for the last series
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
@@ -186,14 +180,14 @@ while (i < chart.getChartData().getSeries().size()) {
         lbl.getDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat()
             .getSolidFillColor().setColor(Color.LIGHT_GRAY);
 
-        // 調整顯示選項
+        // Adjust display options
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
         lbl.getDataLabelFormat().setShowLeaderLines(true);
         lbl.getDataLabelFormat().setShowLabelAsDataCallout(false);
 
-        // 調整標籤位置
+        // Adjust label position
         chart.validateChartLayout();
         lbl.setX(lbl.getX() + (float) 0.5);
         lbl.setY(lbl.getY() + (float) 0.5);
@@ -205,22 +199,39 @@ categoryIndex++;
 
 ### 儲存簡報
 
-#### 概述
-配置完圖表後，將簡報儲存到指定目錄。
+最後，將更新後的簡報寫入磁碟。
 
-**步驟 1：儲存簡報**
-使用 `save` 寫入更改的方法：
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/chart_presentation.pptx", SaveFormat.Pptx);
 ```
 
-## 結論
+## 常見問題與解決方案
 
-現在您已經了解如何使用 Aspose.Slides 在 Java 中建立和自訂甜甜圈圖。這些步驟為將複雜的資料視覺化整合到您的簡報中奠定了基礎。
+- **找不到授權** – 請確認 `license.lic` 的路徑正確且檔案可讀取。  
+- **圖表顯示空白** – 確認在加入新系列前已清除既有的系列/類別。  
+- **顏色不正確** – 檢查 `FillType.Solid` 是否已設定於填充與線條格式。  
+- **大量系列的效能** – 限制系列/類別數量或重複使用工作簿儲存格。
 
-**後續步驟：**
-- 嘗試 Aspose.Slides 中可用的不同圖表類型。
-- 探索其他自訂選項，如顏色、字體和樣式，以滿足您的品牌需求。
+## 常見問答
+
+**Q: 是否可以在沒有既有 PPTX 檔案的情況下產生 doughnut chart？**  
+A: 可以，建立 `new Presentation()` 即可從空白投影片開始。
+
+**Q: Aspose.Slides 是否支援匯出為 PDF？**  
+A: 當然支援。建立圖表後，呼叫 `pres.save("output.pdf", SaveFormat.Pdf);` 即可。
+
+**Q: 如何調整 doughnut hole 大小？**  
+A: 使用 `series.getParentSeriesGroup().setDoughnutHoleSize((byte) value);`，其中 value 為 0‑100。
+
+**Q: 能否將資料標籤加到所有系列，而非僅最後一個？**  
+A: 可以，將標籤格式化的程式碼塊移出 `if (i == ...)` 條件，並套用於每個 `dataPoint`。
+
+**Q: 支援哪些 Java 版本？**  
+A: Aspose.Slides 25.4 支援 JDK 16 及以上。較舊的 JDK 需要使用相對應的 classifier。
+
+**最後更新：** 2026-03-07  
+**測試環境：** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Tanuld meg, hogyan készíthetsz lenyűgöző fánkdiagramokat Java nyelven az Aspose.Slides segítségével. Ez az átfogó útmutató az inicializálást, az adatkonfigurációt és a prezentációk mentését tárgyalja."
-"title": "Fánkdiagramok létrehozása Java nyelven az Aspose.Slides használatával – Átfogó útmutató"
-"url": "/hu/java/charts-graphs/create-doughnut-charts-java-aspose-slides/"
-"weight": 1
+date: '2026-03-07'
+description: Tanulja meg, hogyan készítsen fánkdiagramot Java-ban az Aspose.Slides
+  segítségével. Ez a lépésről‑lépésre útmutató lefedi a Maven Aspose Slides függőség
+  beállítását, a diagram konfigurálását és a prezentációk mentését.
+keywords:
+- create doughnut charts Java
+- Aspose.Slides Java guide
+- Java data visualization
+title: Gyűrűdiagram létrehozása Java-val az Aspose.Slides útmutatóval
+url: /hu/java/charts-graphs/create-doughnut-charts-java-aspose-slides/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,44 +17,49 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Fánkdiagramok létrehozása Java-ban az Aspose.Slides használatával: lépésről lépésre útmutató
+# Doughnut diagram létrehozása Java-val az Aspose.Slides útmutató
 
 ## Bevezetés
 
-mai adatvezérelt környezetben az információk hatékony vizualizációja kulcsfontosságú a megértés és az elköteleződés fokozásához. Bár a professzionális diagramok programozott létrehozása kihívást jelenthet, különösen Java nyelven, ez az útmutató végigvezeti Önt az Aspose.Slides Java-beli használatán, hogy könnyedén készíthessen fánkdiagramokat.
+A **doughnut chart** programozott létrehozása nyers számokat egy figyelemfelkeltő vizuálissá alakíthat, amely azonnal elmesél egy történetet. Java-ban a **Aspose.Slides** egyszerűvé teszi ezt a folyamatot, lehetővé téve, hogy prezentációra kész diagramokat generálj anélkül, hogy megnyitnád a PowerPointot. Ebben az útmutatóban lépésről lépésre megtanulod, hogyan **create doughnut chart java** – a Maven Aspose Slides függőség beállításától a sorok, kategóriák testreszabásáig, végül a prezentáció mentéséig.
 
-A következő lépéseket követve a fejlesztők gyakorlati tapasztalatot szerezhetnek a prezentációs diák manipulálásában és az adatvizualizáció zökkenőmentes integrálásában.
+A útmutató végére képes leszel dinamikus doughnut diagramokat beágyazni bármely PPTX fájlba, ami tökéletes jelentésekhez, műszerfalakhoz vagy automatizált diavetítésekhez.
 
-**Főbb tanulságok:**
-- Presentation objektum inicializálása Aspose.Slides Java használatával.
-- Diagramadatok konfigurálása és meglévő sorozatok vagy kategóriák kezelése.
-- Sorozatok és kategóriák hozzáadása és testreszabása a diagramokhoz.
-- Adatpontok hatékony formázása és megjelenítése.
-- Mentsd el prezentációdat könnyedén különböző formátumokban.
+### Gyors válaszok
+- **Milyen könyvtárat használnak?** Aspose.Slides for Java  
+- **Elsődleges feladat?** Create doughnut chart java in a PPTX file  
+- **Hogyan adhatod hozzá a könyvtárat?** Use the Maven Aspose Slides dependency (or Gradle)  
+- **Minimum Java verzió?** JDK 16 or higher  
+- **Testreszabhatom a színeket és címkéket?** Yes, the API provides full formatting control  
 
-Mielőtt belevágnál a megvalósításba, győződj meg róla, hogy minden a rendelkezésedre áll, ami a kezdéshez szükséges.
+## Mi az a Doughnut Chart és miért használjuk?
 
-## Előfeltételek
+A doughnut chart a kördiagram egy változata, amelynek középső része üres, lehetővé téve több adat sor megjelenítését koncentrikus gyűrűkben. Ez ideálissá teszi a teljes egész részeinek több kategóriában történő összehasonlítására – például értékesítés régiónként több negyedév alatt vagy költségvetési elosztás részlegek szerint.
 
-A bemutató követéséhez győződjön meg arról, hogy rendelkezik a következőkkel:
+## Miért használjuk az Aspose.Slides for Java-t?
 
-- **Szükséges könyvtárak:**
-  - Aspose.Slides Java 25.4-es vagy újabb verzióhoz.
-  
-- **Környezet beállítása:**
-  - JDK 16 vagy újabb verzió telepítve a rendszereden.
-  - Egy IDE, mint például az IntelliJ IDEA, az Eclipse vagy a NetBeans.
+- **No Office installation required** – Nincs Office telepítés szükséges – PPTX fájlok generálása bármely szerveren.  
+- **Rich API** – Gazdag API – teljes irányítás a diagramtípusok, adatpontok és stílusok felett.  
+- **High performance** – Magas teljesítmény – nagy prezentációkhoz optimalizálva.  
+- **Cross‑platform** – Keresztplatformos – működik Windows, Linux és macOS rendszereken.
 
-- **Előfeltételek a tudáshoz:**
-  - Java programozási fogalmak alapvető ismerete.
-  - Jártasság a Maven vagy Gradle projektek függőségeinek kezelésében.
+## Előkövetelmények
 
-## Az Aspose.Slides beállítása Java-hoz
+- **Required Libraries:**  
+  - Aspose.Slides for Java version 25.4 vagy újabb.  
 
-Az Aspose.Slides projektbe való integrálásához kövesse az alábbi lépéseket az építőeszközétől függően:
+- **Environment Setup:**  
+  - JDK 16 vagy újabb.  
+  - Kedvenc IDE-d (IntelliJ IDEA, Eclipse, NetBeans, stb.).  
 
-**Maven beállítás:**
-Adja hozzá a következő függőséget a `pom.xml` fájl:
+- **Knowledge Prerequisites:**  
+  - Alap Java programozás.  
+  - Maven vagy Gradle ismerete a függőségkezeléshez.
+
+## Maven Aspose Slides függőség
+
+Add the following Maven dependency to your `pom.xml`. This is the **maven aspose slides dependency** you need to pull the library into your project.
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -58,74 +69,63 @@ Adja hozzá a következő függőséget a `pom.xml` fájl:
 </dependency>
 ```
 
-**Gradle beállítása:**
-A következőket is vedd bele a listádba `build.gradle` fájl:
+Ha inkább Gradle-t használsz, használd az alábbi ekvivalens kódrészletet.
+
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Közvetlen letöltés:**
-Vagy töltse le a legújabb verziót közvetlenül innen: [Aspose.Slides Java kiadásokhoz](https://releases.aspose.com/slides/java/).
+A JAR fájlt közvetlenül a hivatalos kiadási oldalról is letöltheted:  
+[ Aspose.Slides for Java releases ](https://releases.aspose.com/slides/java/)
 
-### Licenc megszerzése
+### Licenc beszerzése
 
-Az Aspose.Slides használatához kiértékelési korlátozások nélkül:
-- **Ingyenes próbaverzió:** Kezdjen egy ideiglenes licenccel a teljes funkciók felfedezéséhez.
-- **Ideiglenes engedély:** Szerezzen be egyet a következőn keresztül: [Aspose weboldal](https://purchase.aspose.com/temporary-license/).
-- **Vásárlás:** Fontolja meg a folyamatos használatra történő vásárlást.
+A kiértékelési vízjel eltávolításához és a teljes funkciók eléréséhez:
 
-Alkalmazd a licencedet a Java alkalmazásodban a következőképpen:
+- **Free trial** – Kezd egy ideiglenes licenccel.  
+- **Temporary license** – Kérj egyet a [Aspose weboldalról](https://purchase.aspose.com/temporary-license/).  
+- **Commercial license** – Vásárolj kereskedelmi licencet a termelési használathoz.
+
+Alkalmazd a licencet a kódban:
+
 ```java
 License license = new License();
 license.setLicense("path/to/your/license.lic");
 ```
 
-## Megvalósítási útmutató
+## Implementációs útmutató
 
-### Bemutató és diagram inicializálása
+### Prezentáció inicializálása és Doughnut diagram hozzáadása
 
-#### Áttekintés
-Kezdje egy prezentációs objektum inicializálásával és egy fánkdiagram hozzáadásával az első diához.
+Először hozz létre vagy tölts be egy prezentációt, és adj hozzá egy doughnut diagramot az első diára.
 
-**1. lépés: A prezentáció inicializálása**
-Töltsön be egy meglévő PPTX fájlt, vagy hozzon létre egy újat:
 ```java
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/testc.pptx");
 ```
 
-**2. lépés: Fánkdiagram hozzáadása**
-Hozz létre egy diagramot az első dián a megadott koordinátákon:
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, false);
 ```
 
-### Diagramadat-munkafüzet konfigurálása és meglévő sorozatok/kategóriák törlése
+### A diagram adatkönyvtárának beállítása és a meglévő adatok törlése
 
-#### Áttekintés
-Konfigurálja a diagramadatok munkafüzetét, és távolítsa el a már meglévő sorozatokat vagy kategóriákat.
+Ezután szerezd meg a diagramot támogató munkafüzetet, és töröld az esetleges alapértelmezett sorokat vagy kategóriákat.
 
-**1. lépés: Diagramadatok munkafüzetének elérése**
-A diagramhoz kapcsolt munkafüzet lekérése:
 ```java
 IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
 ```
 
-**2. lépés: Törölje a meglévő sorozatokat és kategóriákat**
-Győződjön meg arról, hogy nincsenek maradék adatpontok:
 ```java
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 chart.setLegend(false);
 ```
 
-### Sorozat hozzáadása a diagramhoz
+### Sorok hozzáadása a diagramhoz
 
-#### Áttekintés
-Töltse fel a diagramot több adatsorral, amelyek mindegyikének megjelenése és viselkedése testreszabható.
+Most legfeljebb 15 sort adunk hozzá. Minden sor testreszabható – itt állítjuk be a kitörést, a doughnut‑lyuk méretét és az első szelet szögét.
 
-**1. lépés: Sorozatok hozzáadása iteratívan**
-Indexek ismétlése sorozatok hozzáadásához:
 ```java
 int seriesIndex = 0;
 while (seriesIndex < 15) {
@@ -134,7 +134,7 @@ while (seriesIndex < 15) {
         chart.getType()
     );
 
-    // A sorozat testreszabása
+    // Customize the series
     series.setExplosion(0);
     series.getParentSeriesGroup().setDoughnutHoleSize((byte) 20);
     series.getParentSeriesGroup().setFirstSliceAngle(351);
@@ -142,13 +142,10 @@ while (seriesIndex < 15) {
 }
 ```
 
-### Kategóriák és adatpontok hozzáadása a diagramhoz
+### Kategóriák és adatpontok hozzáadása
 
-#### Áttekintés
-Kategóriák konfigurálása és adatpontok hozzáadása a címkékhez meghatározott formázással.
+15 kategóriát hozunk létre, és minden sorhoz egy adatpontot töltünk fel. Az utolsó sor speciális címkeformázást kap.
 
-**1. lépés: Kategóriák hozzáadása**
-Végigfutjuk az egyes kategóriák indexeit:
 ```java
 int categoryIndex = 0;
 while (categoryIndex < 15) {
@@ -157,8 +154,6 @@ while (categoryIndex < 15) {
     );
 ```
 
-**2. lépés: Adatpontok hozzáadása minden sorozathoz**
-Ismételje meg az aktuális kategória minden egyes sorozatát:
 ```java
 int i = 0;
 while (i < chart.getChartData().getSeries().size()) {
@@ -166,7 +161,7 @@ while (i < chart.getChartData().getSeries().size()) {
     IChartDataPoint dataPoint = iCS.getDataPoints()
         .addDataPointForDoughnutSeries(workBook.getCell(0, categoryIndex + 1, i + 1, 1));
 
-    // Adatpont formátumbeállításai
+    // Data point format settings
     dataPoint.getFormat().getFill().setFillType(FillType.Solid);
     dataPoint.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
     dataPoint.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
@@ -174,7 +169,7 @@ while (i < chart.getChartData().getSeries().size()) {
     dataPoint.getFormat().getLine().setStyle(LineStyle.Single);
     dataPoint.getFormat().getLine().setDashStyle(LineDashStyle.Solid);
 
-    // Az utolsó sorozat címkeformázása
+    // Label formatting for the last series
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
@@ -186,14 +181,14 @@ while (i < chart.getChartData().getSeries().size()) {
         lbl.getDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat()
             .getSolidFillColor().setColor(Color.LIGHT_GRAY);
 
-        // Megjelenítési beállítások módosítása
+        // Adjust display options
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
         lbl.getDataLabelFormat().setShowLeaderLines(true);
         lbl.getDataLabelFormat().setShowLabelAsDataCallout(false);
 
-        // Címke pozíciójának beállítása
+        // Adjust label position
         chart.validateChartLayout();
         lbl.setX(lbl.getX() + (float) 0.5);
         lbl.setY(lbl.getY() + (float) 0.5);
@@ -205,22 +200,41 @@ categoryIndex++;
 
 ### A prezentáció mentése
 
-#### Áttekintés
-Miután beállította a diagramot, mentse el a prezentációt egy megadott könyvtárba.
+Végül írd a frissített prezentációt a lemezre.
 
-**1. lépés: Mentse el a prezentációt**
-Használd a `save` A változtatások írásának módja:
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/chart_presentation.pptx", SaveFormat.Pptx);
 ```
 
-## Következtetés
+## Gyakori problémák és megoldások
 
-Most már megtanultad, hogyan hozhatsz létre és szabhatsz testre fánkdiagramokat Java nyelven az Aspose.Slides segítségével. Ezek a lépések alapot biztosítanak a kifinomult adatvizualizációk integrálásához a prezentációidba.
+- **License not found** – Ellenőrizd, hogy a `license.lic` útvonala helyes-e, és a fájl olvasható.  
+- **Chart appears blank** – Győződj meg róla, hogy a meglévő sorok/kategóriák törlésre kerültek az új hozzáadása előtt.  
+- **Incorrect colors** – `FillType.Solid` legyen beállítva mind a kitöltés, mind a vonal formátumához.  
+- **Performance with many series** – Korlátozd a sorok/kategóriák számát, vagy használd újra a munkafüzet celláit.
 
-**Következő lépések:**
-- Kísérletezz az Aspose.Slides-ban elérhető különböző diagramtípusokkal.
-- Fedezzen fel további testreszabási lehetőségeket, például színeket, betűtípusokat és stílusokat, hogy megfeleljenek márkaépítési igényeinek.
+## Gyakran ismételt kérdések
+
+**Q: Létrehozhatok doughnut diagramot előre létező PPTX fájl nélkül?**  
+A: Igen, példányosítsd a `new Presentation()`-t, hogy egy üres diakészlettel kezdj.
+
+**Q: Az Aspose.Slides támogatja a PDF‑be exportálást?**  
+A: Teljesen. A diagram létrehozása után hívd a `pres.save("output.pdf", SaveFormat.Pdf);`-t.
+
+**Q: Hogyan változtathatom meg a doughnut lyuk méretét?**  
+A: Használd a `series.getParentSeriesGroup().setDoughnutHoleSize((byte) value);` metódust, ahol a value 0‑100 között van.
+
+**Q: Lehetséges adatcímkéket hozzáadni minden sorhoz, nem csak az utolsóhoz?**  
+A: Igen, helyezd a címke‑formázó blokkot az `if (i == ...)` feltétel kívülre, és alkalmazd minden `dataPoint`-ra.
+
+**Q: Mely Java verziók támogatottak?**  
+A: Az Aspose.Slides 25.4 a JDK 16‑ot és újabbakat támogatja. Régebbi JDK-khoz a megfelelő osztályozó szükséges.
+
+---
+
+**Utoljára frissítve:** 2026-03-07  
+**Tesztelve ezzel:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

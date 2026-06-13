@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-17"
-"description": "تعرّف على كيفية إنشاء وتنسيق المخططات البيانية باستخدام Aspose.Slides لجافا. يغطي هذا الدليل إعداد العروض التقديمية، وإنشائها، وتنسيقها، وحفظها."
-"title": "إنشاء وتنسيق المخططات البيانية في جافا باستخدام Aspose.Slides - دليل شامل"
-"url": "/ar/java/charts-graphs/create-format-charts-aspose-slides-java/"
-"weight": 1
+date: '2026-03-07'
+description: تعلم كيفية إنشاء مخطط خطي في Java باستخدام Aspose.Slides، إضافة عنوان
+  للمخطط، إضافة خطوط الشبكة، تنسيق تسميات المخطط وحفظ عروض تقديمية احترافية.
+keywords:
+- Aspose.Slides Java
+- create charts in Java
+- format PowerPoint charts
+title: كيفية إنشاء مخطط خطي باستخدام Aspose.Slides في Java – دليل شامل
+url: /ar/java/charts-graphs/create-format-charts-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,32 +16,30 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# إنشاء وتنسيق المخططات البيانية باستخدام Aspose.Slides في Java
+# كيفية إنشاء مخطط خطي باستخدام Aspose.Slides في Java
 
-## كيفية إنشاء المخططات وتنسيقها في Java باستخدام Aspose.Slides
+## كيفية إنشاء مخطط خطي في Java باستخدام Aspose.Slides
 
-### مقدمة
-يُعد إنشاء عروض تقديمية جذابة بصريًا أمرًا بالغ الأهمية للتواصل الفعال. سواء كنتَ خبيرًا في مجال الأعمال أو مُعلّمًا، فإن ضمان أن تكون عروضك المرئية غنية بالمعلومات وجميلة من الناحية الجمالية قد يكون أمرًا صعبًا. يرشدك هذا البرنامج التعليمي خلال استخدام **Aspose.Slides لـ Java** لإنشاء وتنسيق المخططات البيانية في عروض PowerPoint بسلاسة.
+### المقدمة
+إنشاء عروض تقديمية جذابة بصريًا أمر حاسم للتواصل الفعال. سواء كنت محترفًا في الأعمال أو معلمًا، غالبًا ما تحتاج إلى **إنشاء مخطط خطي** يكون معلوماتيًا وجذابًا من الناحية الجمالية. في هذا الدليل سنستعرض كيفية استخدام **Aspose.Slides for Java** لتوليد مخطط خطي، إضافة عنوان للمخطط، إضافة خطوط شبكة، تنسيق تسميات المخطط، وحفظ النتيجة كملف PowerPoint.
 
-يركز هذا الدليل على إعداد البيئة، وإنشاء مخطط بياني، وتكوين خصائص مثل العناوين، وتنسيق المحاور، وخطوط الشبكة، والتسميات، وإعدادات التسمية التوضيحية، وحفظ العرض التقديمي. باتباع هذا البرنامج التعليمي، ستتعلم كيفية:
-- قم بإعداد بيئتك باستخدام Aspose.Slides لـ Java
-- التحقق من الدلائل وإنشائها برمجيًا في Java
-- إنشاء مخطط وتكوينه باستخدام Aspose.Slides
-- تنسيق عناوين المخططات، والمحاور، وخطوط الشبكة، والعلامات، والأساطير، والخلفيات
-- حفظ العرض التقديمي مع المخططات المنسقة
+#### إجابات سريعة
+- **ما هي المكتبة الأفضل لإنشاء المخططات في Java؟** Aspose.Slides for Java
+- **ما هو نوع المخطط الذي يركز عليه هذا الدليل؟** مخطط خطي مع علامات
+- **هل أحتاج إلى ترخيص لتشغيل العينة؟** ترخيص مؤقت مجاني يعمل للتقييم
+- **ما هو بيئة التطوير المتكاملة (IDE) التي يمكنني استخدامها؟** أي IDE للـ Java مثل IntelliJ IDEA أو Eclipse أو NetBeans
+- **كيف يتم تنسيق عناصر المخطط؟** باستخدام استدعاءات API متسلسلة للعناوين، المحاور، خطوط الشبكة، الأساطير، والخلفيات
 
-دعونا نتأكد من إعداد كل شيء قبل أن نبدأ في الترميز.
+### ما هو المخطط الخطي ولماذا نستخدم Aspose.Slides؟
+يعرض المخطط الخطي نقاط البيانات المتصلة بخطوط مستقيمة، مما يجعله مثاليًا لإظهار الاتجاهات عبر الزمن. يتيح لك Aspose.Slides إنشاء وتخصيص هذه المخططات برمجيًا بالكامل، مما يلغي الحاجة إلى تحرير PowerPoint يدويًا.
 
-### المتطلبات الأساسية
-قبل أن تبدأ، تأكد من أن لديك:
-1. **مجموعة تطوير جافا (JDK)**:تأكد من تثبيت JDK 8 أو أعلى على نظامك.
-2. **بيئة التطوير المتكاملة (IDE)**:استخدم أي IDE متوافق مع Java مثل IntelliJ IDEA، أو Eclipse، أو NetBeans.
-3. **Aspose.Slides لـ Java**:ستكون هذه المكتبة مركزية لبرنامجنا التعليمي.
+### المتطلبات المسبقة
+- **Java Development Kit (JDK) 8+** مثبت
+- **IDE** (IntelliJ IDEA, Eclipse, NetBeans، إلخ)
+- **Aspose.Slides for Java** المكتبة (مضافة عبر Maven أو Gradle)
 
-#### المكتبات والتبعيات المطلوبة
-لاستخدام Aspose.Slides في مشروعك، أضفه عبر Maven أو Gradle:
-
-**مافن**
+#### المكتبات والاعتمادات المطلوبة
+**Maven**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -46,135 +49,118 @@
 </dependency>
 ```
 
-**جرادل**
+**Gradle**
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-بدلاً من ذلك، قم بتنزيل أحدث ملف JAR من [إصدارات Aspose.Slides لـ Java](https://releases.aspose.com/slides/java/).
+بدلاً من ذلك، قم بتنزيل أحدث ملف JAR من [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-#### متطلبات إعداد البيئة
-- قم بتثبيت الإصدار الأخير من JDK.
-- قم بإعداد IDE الخاص بك وتأكد من تكوينه لاستخدام Maven أو Gradle (بناءً على اختيارك).
-  
-### متطلبات المعرفة
-يشترط فهم أساسيات برمجة جافا. الإلمام بمبادئ البرمجة كائنية التوجه سيكون مفيدًا.
+#### الحصول على الترخيص
+- احصل على [ترخيص تجريبي مجاني](https://purchase.aspose.com/temporary-license/) للاختبار.
+- اشترِ ترخيصًا كاملاً من [الموقع الرسمي لـ Aspose](https://purchase.aspose.com/buy) للاستخدام في الإنتاج.
 
-## إعداد Aspose.Slides لـ Java
-لبدء استخدام Aspose.Slides، قم بتضمين المكتبة في مشروعك:
-1. **إضافة التبعية**:قم بتضمين التبعيات الضرورية لـ Maven أو Gradle كما هو موضح أعلاه.
-2. **الحصول على الترخيص**:
-   - احصل على [رخصة تجريبية مجانية](https://purchase.aspose.com/temporary-license/) لأغراض الاختبار.
-   - للاستخدام الإنتاجي، فكر في شراء ترخيص كامل من [الموقع الرسمي لـ Aspose](https://purchase.aspose.com/buy).
+### إعداد Aspose.Slides for Java
+1. **أضف الاعتماد** المعروض أعلاه إلى مشروعك.
+2. **طبق الترخيص** (إذا كان لديك) قبل إنشاء أي كائنات عرض تقديمي.
 
-### التهيئة والإعداد الأساسي
-لتهيئة Aspose.Slides في تطبيق Java الخاص بك:
 ```java
 import com.aspose.slides.Presentation;
-// تهيئة كائن العرض التقديمي
+// Initialize the Presentation object
 Presentation pres = new Presentation();
 ```
 
-## دليل التنفيذ
-يغطي هذا القسم كل ميزة خطوة بخطوة، باستخدام عناوين فرعية منطقية من أجل الوضوح.
+## تنفيذ خطوة بخطوة
 
-### إعداد الدليل
-**ملخص**:تأكد من أن بنية الدليل موجودة في مكانها الصحيح قبل حفظ المخططات في عرض تقديمي.
-
-#### التحقق من الدلائل وإنشائها
+### الخطوة 1: إنشاء دليل الإخراج (create directory java)
 ```java
 import java.io.File;
-// تحديد الدليل المستهدف
+// Define the target directory
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 
-// التحقق من وجود الدليل؛ قم بإنشائه إذا لم يكن موجودًا
+// Check if directory exists; create it if not
 boolean isExists = new File(dataDir).exists();
 if (!isExists) {
-    new File(dataDir).mkdirs(); // إنشاء الدلائل بشكل متكرر
+    new File(dataDir).mkdirs(); // Create directories recursively
 }
 ```
-**توضيح**يتحقق هذا المقطع من وجود دليل محدد. إذا لم يكن موجودًا، فسيتم إنشاء المجلدات اللازمة.
+*لماذا هذا مهم:* التأكد من وجود المجلد يمنع حدوث `FileNotFoundException` عند حفظ العرض لاحقًا.
 
-### إنشاء المخطط وتكوينه
-**ملخص**:سنقوم بإنشاء مخطط في PowerPoint باستخدام Aspose.Slides، وتخصيص مظهره، وحفظه في ملف.
-
-#### إنشاء شريحة عرض تقديمي باستخدام مخطط
+### الخطوة 2: إضافة شريحة وإدراج مخطط خطي
 ```java
 import com.aspose.slides.*;
-// إنشاء عرض تقديمي جديد
+// Create a new presentation
 Presentation pres = new Presentation();
 try {
-    // الوصول إلى الشريحة الأولى
+    // Access the first slide
     ISlide slide = pres.getSlides().get_Item(0);
 
-    // إضافة مخطط إلى الشريحة
+    // Add a chart to the slide
     IChart chart = slide.getShapes().addChart(
         ChartType.LineWithMarkers, 50, 50, 500, 400);
 ```
-**توضيح**:نبدأ بعرض تقديمي جديد ونضيف مخططًا خطيًا به علامات عند إحداثيات محددة.
+*شرح:* هذا ينشئ شريحة جديدة ويضع **مخططًا خطيًا مع علامات** في الإحداثيات المحددة.
 
-#### تعيين عنوان الرسم البياني
+### الخطوة 3: إضافة عنوان للمخطط (add chart title)
 ```java
-// تمكين وتنسيق العنوان
+// Enable and format the title
 chart.setTitle(true);
 IPortion chartTitle = chart.getChartTitle().getTextFrameForOverriding()
     .getParagraphs().get_Item(0).getPortions().get_Item(0);
 
-chartTitle.setText("Sample Chart");
+chartTitle.setText("Sample Line Chart");
 chartTitle.getPortionFormat().setFontBold(NullableBool.True);
 chartTitle.getPortionFormat().setFillType(FillType.Solid);
 chartTitle.getPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.GRAY);
 chartTitle.getPortionFormat().setFontHeight(20);
 ```
-**توضيح**هذا الكود يُحدد ويُنسّق عنوان الرسم البياني. تخصيص خصائص النص يُحسّن سهولة القراءة.
+*نصيحة:* استخدام عنوان غامق ورمادي يجعل المخطط قابلًا للتعرف عليه فورًا.
 
-#### محاور التنسيق
-##### تنسيق المحور الرأسي
+### الخطوة 4: تنسيق المحاور وإضافة خطوط شبكة (add grid lines)
+#### تنسيق المحور العمودي
 ```java
 IChartAxis verticalAxis = chart.getAxes().getVerticalAxis();
 
-// تنسيق خطوط الشبكة الرئيسية
+// Format major grid lines
 verticalAxis.getMajorGridLinesFormat().getLine()
     .setFillType(FillType.Solid)
     .getFillFormat().getSolidFillColor().setColor(Color.BLUE);
 verticalAxis.getMajorGridLinesFormat().getLine().setWidth(5);
 
-// تكوين خصائص المحور
+// Configure axis properties
 verticalAxis.setNumberFormat("0.0%");
 verticalAxis.setMaxValue(15f);
 verticalAxis.setMinValue(-2f);
 ```
-**توضيح**:نقوم بتخصيص خطوط شبكة المحور الرأسي وتعيين التنسيق الرقمي من أجل الوضوح.
 
-##### تنسيق المحور الأفقي
+#### تنسيق المحور الأفقي
 ```java
 IChartAxis horizontalAxis = chart.getAxes().getHorizontalAxis();
 
-// تنسيق خطوط الشبكة الرئيسية
+// Format major grid lines
 horizontalAxis.getMajorGridLinesFormat().getLine()
     .setFillType(FillType.Solid)
     .getFillFormat().getSolidFillColor().setColor(Color.GREEN);
 horizontalAxis.getMajorGridLinesFormat().getLine().setWidth(5);
 
-// تعيين مواضع العلامات وتدويرها
+// Set label positions and rotations
 horizontalAxis.setTickLabelPosition(TickLabelPositionType.Low);
 horizontalAxis.setTickLabelRotationAngle(45);
 ```
-**توضيح**:يتم تنسيق المحور الأفقي بشكل مشابه، مع إجراء تعديلات إضافية لتحديد موضع الملصق.
+*لماذا هذا مهم:* خطوط الشبكة الواضحة والتسميات المدورة تحسن قابلية القراءة، خاصةً عندما تكون نقاط البيانات كثيفة.
 
-#### تخصيص الأسطورة
+### الخطوة 5: تخصيص الأسطورة (add chart title – already covered, but legend is part of overall formatting)
 ```java
 IChartPortionFormat txtLeg = chart.getLegend().getTextFormat().getPortionFormat();
 txtLeg.setFontBold(NullableBool.True);
 txtLeg.getFillFormat().setFillType(FillType.Solid)
     .getSolidFillColor().setColor(Color.RED);
 
-// منع التداخل مع منطقة الرسم البياني
+// Prevent overlap with the chart area
 chart.getLegend().setOverlay(true);
 ```
-**توضيح**:يؤدي ضبط خصائص الأسطورة إلى ضمان الوضوح وتجنب الفوضى البصرية.
 
-#### تكوين الخلفيات
+### الخطوة 6: تعيين ألوان الخلفية (format chart labels – part of overall visual styling)
 ```java
 chart.getBackWall().setThickness(1);
 chart.getBackWall().getFormat().getFill()
@@ -185,27 +171,57 @@ chart.getPlotArea().getFormat().getFill()
     .setFillType(FillType.Solid)
     .getSolidFillColor().setColor(new Color(PresetColor.LightCyan));
 ```
-**توضيح**:تم تعيين ألوان الخلفية لإضفاء مظهر جمالي، مما يعزز المظهر العام للرسم البياني الخاص بك.
 
-### حفظ العرض التقديمي
+### الخطوة 7: حفظ العرض التقديمي
 ```java
-// حفظ العرض التقديمي على القرص
+// Save the presentation to disk
 pres.save("YOUR_OUTPUT_DIRECTORY/FormattedChart_out.pptx", SaveFormat.Pptx);
 } finally {
-    if (pres != null) pres.dispose(); // تنظيف الموارد
+    if (pres != null) pres.dispose(); // Clean up resources
 }
 ```
-**توضيح**:يضمن هذا حفظ كافة التغييرات وإدارة الموارد بشكل صحيح.
+*النتيجة:* لديك الآن ملف PowerPoint (`FormattedChart_out.pptx`) يحتوي على مخطط خطي مُنسق بالكامل.
 
 ## التطبيقات العملية
-1. **تقارير الأعمال**:إنشاء تقارير مفصلة مع مخططات منسقة لتقديم النتائج الفصلية.
-2. **المواد التعليمية**:تطوير عروض تقديمية جذابة للطلاب باستخدام الصور المرئية المعتمدة على البيانات.
-3. **مقترحات المشاريع**:قم بتعزيز المقترحات من خلال دمج الرسوم البيانية الجذابة بصريًا والتي تسلط الضوء على المقاييس الرئيسية.
-4. **تحليل التسويق**:استخدم المخططات البيانية في المواد التسويقية لإظهار الاتجاهات ونتائج الحملة بشكل فعال.
-5. **تكامل لوحة المعلومات**:قم بتضمين المخططات البيانية في لوحات المعلومات لتوضيح البيانات في الوقت الفعلي.
+- **تقارير الأعمال:** عرض الأداء ربع السنوي باستخدام خطوط الاتجاه.
+- **شرائح تعليمية:** تصور البيانات العلمية للمحاضرات.
+- **اقتراحات المشاريع:** إبراز المعالم والتوقعات.
+- **تحليل التسويق:** تقديم اتجاهات عائد الاستثمار للحملات.
+- **دمج لوحة التحكم:** تصدير البيانات الحية إلى PowerPoint لاجتماعات أصحاب المصلحة.
 
 ## اعتبارات الأداء
-- **إدارة الذاكرة**:تخلص دائمًا من كائنات العرض لتحرير الموارد على الفور.
+- **إدارة الذاكرة:** دائمًا استدعِ `dispose()` على كائن `Presentation` لتحرير الموارد الأصلية بسرعة.
+
+## المشكلات الشائعة والحلول
+| المشكلة | الحل |
+|-------|----------|
+| **License not applied** | Load the trial/full license before creating any `Presentation` objects. |
+| **Chart appears blank** | Verify that the slide actually contains data series; add series if needed. |
+| **File not saved** | Ensure the output directory exists (use the “create directory java” step). |
+| **Colors not applied** | Use `Color` constants from `java.awt.Color` or `PresetColor`. |
+
+## الأسئلة المتكررة
+
+**س: هل يمكنني إنشاء أنواع مخططات أخرى غير المخططات الخطية؟**  
+ج: نعم، يدعم Aspose.Slides المخططات الشريطية، الدائرية، المبعثرة، والعديد من أنواع المخططات الأخرى.
+
+**س: كيف يمكنني إضافة سلاسل بيانات متعددة إلى المخطط الخطي؟**  
+ج: استخدم `chart.getChartData().getSeries().add(...)` لإدراج سلاسل إضافية قبل التنسيق.
+
+**س: هل يمكن تصدير المخطط كصورة؟**  
+ج: بالتأكيد. استدعِ `chart.getChartData().getChartDataWorkbook().save(...)` أو قم بتحويل الشريحة إلى تنسيق صورة.
+
+**س: هل أحتاج إلى ترخيص مدفوع للتطوير؟**  
+ج: ترخيص مؤقت مجاني يكفي للتقييم؛ يلزم ترخيص تجاري للنشر في بيئات الإنتاج.
+
+**س: ما إصدارات Java المدعومة؟**  
+ج: تعمل المكتبة مع JDK 8 حتى JDK 22 (استخدم المصنف المناسب، مثل `jdk16`).
+
+---
+
+**آخر تحديث:** 2026-03-07  
+**تم الاختبار مع:** Aspose.Slides for Java 25.4 (مصنف jdk16)  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

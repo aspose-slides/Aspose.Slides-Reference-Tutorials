@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Dowiedz się, jak tworzyć oszałamiające wykresy pierścieniowe w Javie za pomocą Aspose.Slides. Ten kompleksowy przewodnik obejmuje inicjalizację, konfigurację danych i zapisywanie prezentacji."
-"title": "Tworzenie wykresów pierścieniowych w Javie przy użyciu Aspose.Slides&#58; Kompleksowy przewodnik"
-"url": "/pl/java/charts-graphs/create-doughnut-charts-java-aspose-slides/"
-"weight": 1
+date: '2026-03-07'
+description: Dowiedz się, jak tworzyć wykres pierścieniowy w Javie przy użyciu Aspose.Slides.
+  Ten przewodnik krok po kroku obejmuje konfigurację zależności Maven Aspose Slides,
+  konfigurację wykresu oraz zapisywanie prezentacji.
+keywords:
+- create doughnut charts Java
+- Aspose.Slides Java guide
+- Java data visualization
+title: Tworzenie wykresu pierścieniowego w Javie z przewodnikiem Aspose.Slides
+url: /pl/java/charts-graphs/create-doughnut-charts-java-aspose-slides/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,44 +17,49 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Tworzenie wykresów pierścieniowych w Javie przy użyciu Aspose.Slides: przewodnik krok po kroku
+# Tworzenie wykresu pierścieniowego w Javie – przewodnik Aspose.Slides
 
-## Wstęp
+## Wprowadzenie
 
-dzisiejszym środowisku opartym na danych skuteczna wizualizacja informacji jest kluczem do zwiększenia zrozumienia i zaangażowania. Podczas gdy tworzenie profesjonalnych wykresów programowo może wydawać się trudne, szczególnie w Javie, ten przewodnik przeprowadzi Cię przez korzystanie z Aspose.Slides dla Javy, aby bez wysiłku tworzyć wykresy pierścieniowe.
+Tworzenie **doughnut chart** programowo może zamienić surowe liczby w przyciągającą wzrok wizualizację, która od razu opowiada historię. W Javie **Aspose.Slides** upraszcza ten proces, umożliwiając generowanie wykresów gotowych do prezentacji bez konieczności otwierania PowerPointa. W tym samouczku nauczysz się, jak **create doughnut chart java** krok po kroku — od skonfigurowania zależności Maven Aspose Slides, przez dostosowanie serii, kategorii, aż po zapisanie prezentacji.
 
-Dzięki wykonywaniu tych kroków programiści zdobędą praktyczne doświadczenie w manipulowaniu slajdami prezentacji i płynnym integrowaniu wizualizacji danych.
+Po zakończeniu tego przewodnika będziesz mógł osadzać dynamiczne wykresy pierścieniowe w dowolnym pliku PPTX, idealne do raportów, pulpitów nawigacyjnych lub automatycznych zestawów slajdów.
 
-**Najważniejsze wnioski:**
-- Zainicjuj obiekt Presentation przy użyciu Aspose.Slides Java.
-- Konfiguruj dane wykresu i zarządzaj istniejącymi seriami lub kategoriami.
-- Dodawaj i dostosowuj serie i kategorie do swoich wykresów.
-- Formatuj i wyświetlaj punkty danych w sposób efektywny.
-- Łatwe zapisywanie prezentacji w różnych formatach.
+### Szybkie odpowiedzi
+- **Jakiej biblioteki użyto?** Aspose.Slides for Java  
+- **Główne zadanie?** Utworzyć wykres pierścieniowy w Javie w pliku PPTX  
+- **Jak dodać bibliotekę?** Użyj zależności Maven Aspose Slides (lub Gradle)  
+- **Minimalna wersja Javy?** JDK 16 lub wyższa  
+- **Czy mogę dostosować kolory i etykiety?** Tak, API zapewnia pełną kontrolę formatowania  
 
-Zanim rozpoczniesz wdrażanie, upewnij się, że masz wszystko, co jest potrzebne do rozpoczęcia.
+## Co to jest wykres pierścieniowy i dlaczego go używać?
+
+Wykres pierścieniowy to wariant wykresu kołowego z pustym środkiem, co pozwala wyświetlać wiele serii danych w koncentrycznych pierścieniach. Dzięki temu idealnie nadaje się do porównywania części całości w kilku kategoriach — np. sprzedaży według regionu w kolejnych kwartałach lub alokacji budżetu w różnych działach.
+
+## Dlaczego używać Aspose.Slides dla Javy?
+
+- **Brak wymogu instalacji Office** – generuj pliki PPTX na dowolnym serwerze.  
+- **Bogate API** – pełna kontrola nad typami wykresów, punktami danych i stylizacją.  
+- **Wysoka wydajność** – zoptymalizowane pod kątem dużych prezentacji.  
+- **Wieloplatformowość** – działa na Windows, Linux i macOS.
 
 ## Wymagania wstępne
 
-Aby skorzystać z tego samouczka, upewnij się, że posiadasz:
+- **Wymagane biblioteki:**  
+  - Aspose.Slides for Java w wersji 25.4 lub nowszej.  
 
-- **Wymagane biblioteki:**
-  - Aspose.Slides dla Java w wersji 25.4 lub nowszej.
-  
-- **Konfiguracja środowiska:**
-  - W systemie zainstalowany jest JDK 16 lub nowszy.
-  - Środowisko IDE, takie jak IntelliJ IDEA, Eclipse lub NetBeans.
+- **Konfiguracja środowiska:**  
+  - JDK 16 lub wyższa.  
+  - Ulubione IDE (IntelliJ IDEA, Eclipse, NetBeans itp.).  
 
-- **Wymagania wstępne dotyczące wiedzy:**
-  - Podstawowa znajomość koncepcji programowania w Javie.
-  - Znajomość zarządzania zależnościami w projektach Maven lub Gradle.
+- **Wymagania wiedzy:**  
+  - Podstawy programowania w Javie.  
+  - Znajomość Maven lub Gradle do zarządzania zależnościami.
 
-## Konfigurowanie Aspose.Slides dla Java
+## Zależność Maven Aspose Slides
 
-Aby zintegrować Aspose.Slides ze swoim projektem, wykonaj następujące kroki w zależności od narzędzia do kompilacji:
+Dodaj następującą zależność Maven do swojego `pom.xml`. To jest **maven aspose slides dependency**, której potrzebujesz, aby pobrać bibliotekę do projektu.
 
-**Konfiguracja Maven:**
-Dodaj następującą zależność do swojego `pom.xml` plik:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -58,61 +69,53 @@ Dodaj następującą zależność do swojego `pom.xml` plik:
 </dependency>
 ```
 
-**Konfiguracja Gradle:**
-Włącz do swojego `build.gradle` plik:
+Jeśli wolisz Gradle, użyj poniższego odpowiedniego fragmentu.
+
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Bezpośrednie pobieranie:**
-Alternatywnie możesz pobrać najnowszą wersję bezpośrednio z [Aspose.Slides dla wydań Java](https://releases.aspose.com/slides/java/).
+Możesz także pobrać plik JAR bezpośrednio ze strony wydania:  
+[ Aspose.Slides for Java releases ](https://releases.aspose.com/slides/java/)
 
-### Uzyskanie licencji
+### Uzyskiwanie licencji
 
-Aby używać Aspose.Slides bez ograniczeń oceny:
-- **Bezpłatna wersja próbna:** Zacznij od licencji tymczasowej, aby poznać pełen zakres funkcji.
-- **Licencja tymczasowa:** Uzyskaj jeden za pośrednictwem [Strona internetowa Aspose](https://purchase.aspose.com/temporary-license/).
-- **Zakup:** Rozważ zakup do stałego użytku.
+Aby usunąć znak wodny wersji ewaluacyjnej i odblokować pełny zestaw funkcji:
 
-Zastosuj licencję w swojej aplikacji Java za pomocą:
+- **Bezpłatna wersja próbna** – rozpocznij od tymczasowej licencji.  
+- **Licencja tymczasowa** – zamów ją na [stronie Aspose](https://purchase.aspose.com/temporary-license/).  
+- **Licencja komercyjna** – zakup do użytku produkcyjnego.
+
+Zastosuj licencję w swoim kodzie:
+
 ```java
 License license = new License();
 license.setLicense("path/to/your/license.lic");
 ```
 
-## Przewodnik wdrażania
+## Przewodnik implementacji
 
-### Inicjalizacja prezentacji i wykresu
+### Inicjalizacja prezentacji i dodawanie wykresu pierścieniowego
 
-#### Przegląd
-Zacznij od zainicjowania obiektu prezentacji i dodania wykresu pierścieniowego do pierwszego slajdu.
+Najpierw utwórz lub załaduj prezentację i dodaj wykres pierścieniowy do pierwszego slajdu.
 
-**Krok 1: Zainicjuj prezentację**
-Załaduj istniejący plik PPTX lub utwórz nowy:
 ```java
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/testc.pptx");
 ```
 
-**Krok 2: Dodaj wykres pierścieniowy**
-Utwórz wykres na pierwszym slajdzie w określonych współrzędnych:
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, false);
 ```
 
-### Konfigurowanie skoroszytu danych wykresu i czyszczenie istniejących serii/kategorii
+### Konfigurowanie skoroszytu danych wykresu i czyszczenie istniejących danych
 
-#### Przegląd
-Skonfiguruj skoroszyt danych wykresu i usuń wszelkie istniejące serie lub kategorie.
+Następnie uzyskaj skoroszyt, który zasila wykres, i wyczyść wszelkie domyślne serie lub kategorie.
 
-**Krok 1: Dostęp do skoroszytu danych wykresu**
-Pobierz skoroszyt powiązany z wykresem:
 ```java
 IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
 ```
 
-**Krok 2: Wyczyść istniejące serie i kategorie**
-Upewnij się, że nie ma żadnych resztkowych punktów danych:
 ```java
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
@@ -121,11 +124,8 @@ chart.setLegend(false);
 
 ### Dodawanie serii do wykresu
 
-#### Przegląd
-Możesz wypełnić swój wykres wieloma seriami, dostosowując wygląd i zachowanie każdej z nich.
+Teraz dodamy do 15 serii. Każda seria może być dostosowana — tutaj ustawiamy eksplozję, rozmiar otworu pierścieniowego i kąt pierwszego wycinka.
 
-**Krok 1: Dodaj serię iteracyjnie**
-Pętla przez indeksy w celu dodania serii:
 ```java
 int seriesIndex = 0;
 while (seriesIndex < 15) {
@@ -134,7 +134,7 @@ while (seriesIndex < 15) {
         chart.getType()
     );
 
-    // Dostosuj serię
+    // Customize the series
     series.setExplosion(0);
     series.getParentSeriesGroup().setDoughnutHoleSize((byte) 20);
     series.getParentSeriesGroup().setFirstSliceAngle(351);
@@ -142,13 +142,10 @@ while (seriesIndex < 15) {
 }
 ```
 
-### Dodawanie kategorii i punktów danych do wykresu
+### Dodawanie kategorii i punktów danych
 
-#### Przegląd
-Konfiguruj kategorie i dodawaj punkty danych ze specjalnym formatowaniem etykiet.
+Utworzymy 15 kategorii i wypełnimy każdą serię punktami danych. Ostatnia seria otrzymuje specjalne formatowanie etykiet.
 
-**Krok 1: Dodaj kategorie**
-Przejrzyj indeksy dla każdej kategorii:
 ```java
 int categoryIndex = 0;
 while (categoryIndex < 15) {
@@ -157,8 +154,6 @@ while (categoryIndex < 15) {
     );
 ```
 
-**Krok 2: Dodaj punkty danych do każdej serii**
-Przejdź przez każdą serię dla bieżącej kategorii:
 ```java
 int i = 0;
 while (i < chart.getChartData().getSeries().size()) {
@@ -166,7 +161,7 @@ while (i < chart.getChartData().getSeries().size()) {
     IChartDataPoint dataPoint = iCS.getDataPoints()
         .addDataPointForDoughnutSeries(workBook.getCell(0, categoryIndex + 1, i + 1, 1));
 
-    // Ustawienia formatu punktu danych
+    // Data point format settings
     dataPoint.getFormat().getFill().setFillType(FillType.Solid);
     dataPoint.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
     dataPoint.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
@@ -174,7 +169,7 @@ while (i < chart.getChartData().getSeries().size()) {
     dataPoint.getFormat().getLine().setStyle(LineStyle.Single);
     dataPoint.getFormat().getLine().setDashStyle(LineDashStyle.Solid);
 
-    // Formatowanie etykiet dla ostatniej serii
+    // Label formatting for the last series
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
@@ -186,14 +181,14 @@ while (i < chart.getChartData().getSeries().size()) {
         lbl.getDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat()
             .getSolidFillColor().setColor(Color.LIGHT_GRAY);
 
-        // Dostosuj opcje wyświetlania
+        // Adjust display options
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
         lbl.getDataLabelFormat().setShowLeaderLines(true);
         lbl.getDataLabelFormat().setShowLabelAsDataCallout(false);
 
-        // Dostosuj położenie etykiety
+        // Adjust label position
         chart.validateChartLayout();
         lbl.setX(lbl.getX() + (float) 0.5);
         lbl.setY(lbl.getY() + (float) 0.5);
@@ -205,22 +200,41 @@ categoryIndex++;
 
 ### Zapisywanie prezentacji
 
-#### Przegląd
-Po skonfigurowaniu wykresu zapisz prezentację w określonym katalogu.
+Na koniec zapisz zaktualizowaną prezentację na dysku.
 
-**Krok 1: Zapisz prezentację**
-Użyj `save` metoda zapisu zmian:
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/chart_presentation.pptx", SaveFormat.Pptx);
 ```
 
-## Wniosek
+## Typowe problemy i rozwiązania
 
-Teraz wiesz, jak tworzyć i dostosowywać wykresy pierścieniowe w Javie przy użyciu Aspose.Slides. Te kroki stanowią podstawę do integrowania zaawansowanych wizualizacji danych w prezentacjach.
+- **Licencja nie znaleziona** – sprawdź, czy ścieżka do `license.lic` jest prawidłowa i plik jest czytelny.  
+- **Wykres jest pusty** – upewnij się, że wyczyściłeś istniejące serie/kategorie przed dodaniem nowych.  
+- **Nieprawidłowe kolory** – sprawdź, czy `FillType.Solid` jest ustawiony zarówno dla wypełnienia, jak i formatu linii.  
+- **Wydajność przy wielu seriach** – ogranicz liczbę serii/kategorii lub ponownie użyj komórek skoroszytu.
 
-**Następne kroki:**
-- Eksperymentuj z różnymi typami wykresów dostępnymi w Aspose.Slides.
-- Odkryj dodatkowe opcje dostosowywania, takie jak kolory, czcionki i style, aby sprostać potrzebom Twojej marki.
+## Najczęściej zadawane pytania
+
+**Q: Czy mogę wygenerować wykres pierścieniowy bez istniejącego pliku PPTX?**  
+A: Tak, utwórz `new Presentation()` aby rozpocząć od pustego zestawu slajdów.
+
+**Q: Czy Aspose.Slides obsługuje eksport do PDF?**  
+A: Absolutnie. Po utworzeniu wykresu wywołaj `pres.save("output.pdf", SaveFormat.Pdf);`.
+
+**Q: Jak zmienić rozmiar otworu pierścieniowego?**  
+A: Użyj `series.getParentSeriesGroup().setDoughnutHoleSize((byte) value);`, gdzie wartość wynosi od 0‑100.
+
+**Q: Czy można dodać etykiety danych do wszystkich serii, a nie tylko do ostatniej?**  
+A: Tak, przenieś blok formatowania etykiet poza warunek `if (i == ...)` i zastosuj go do każdego `dataPoint`.
+
+**Q: Jakie wersje Javy są wspierane?**  
+A: Aspose.Slides 25.4 wspiera JDK 16 i nowsze. Starsze wersje JDK wymagają odpowiedniego klasyfikatora.
+
+---
+
+**Ostatnia aktualizacja:** 2026-03-07  
+**Testowano z:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

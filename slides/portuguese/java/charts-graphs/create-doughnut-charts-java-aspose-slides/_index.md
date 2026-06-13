@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Aprenda a criar gráficos de rosca impressionantes em Java com o Aspose.Slides. Este guia completo aborda inicialização, configuração de dados e salvamento de apresentações."
-"title": "Crie gráficos de rosca em Java usando Aspose.Slides - Um guia completo"
-"url": "/pt/java/charts-graphs/create-doughnut-charts-java-aspose-slides/"
-"weight": 1
+date: '2026-03-07'
+description: Aprenda a criar gráficos de rosca em Java usando Aspose.Slides. Este
+  guia passo a passo cobre a configuração da dependência Maven do Aspose Slides, a
+  configuração do gráfico e a gravação de apresentações.
+keywords:
+- create doughnut charts Java
+- Aspose.Slides Java guide
+- Java data visualization
+title: Criar Gráfico de Rosca Java com Guia Aspose.Slides
+url: /pt/java/charts-graphs/create-doughnut-charts-java-aspose-slides/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,44 +17,49 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Crie gráficos de rosca em Java usando Aspose.Slides: um guia passo a passo
+# Criar Gráfico de Rosca Java com o Guia Aspose.Slides
 
 ## Introdução
 
-No ambiente atual, baseado em dados, visualizar informações de forma eficaz é fundamental para aumentar a compreensão e o engajamento. Embora criar gráficos profissionais programaticamente possa parecer desafiador, especialmente com Java, este guia o guiará pelo uso do Aspose.Slides para Java para criar gráficos de rosca sem esforço.
+Criar um **doughnut chart** programaticamente pode transformar números brutos em um visual atraente que conta uma história instantaneamente. Em Java, **Aspose.Slides** torna esse processo simples, permitindo gerar gráficos prontos para apresentação sem nunca abrir o PowerPoint. Neste tutorial você aprenderá como **create doughnut chart java** passo a passo — desde a configuração da dependência Maven Aspose Slides até a personalização de séries, categorias e, finalmente, salvar a apresentação.
 
-Seguindo essas etapas, os desenvolvedores ganharão experiência prática na manipulação de slides de apresentação e na integração perfeita da visualização de dados.
+Ao final deste guia, você poderá incorporar gráficos de rosca dinâmicos em qualquer arquivo PPTX, perfeito para relatórios, painéis ou decks de slides automatizados.
 
-**Principais conclusões:**
-- Inicialize um objeto Presentation usando Aspose.Slides Java.
-- Configure dados do gráfico e gerencie séries ou categorias existentes.
-- Adicione e personalize séries e categorias para seus gráficos.
-- Formate e exiba pontos de dados de forma eficaz.
-- Salve sua apresentação em vários formatos com facilidade.
+### Respostas Rápidas
+- **Qual biblioteca é usada?** Aspose.Slides for Java  
+- **Tarefa principal?** Create doughnut chart java in a PPTX file  
+- **Como adicionar a biblioteca?** Use the Maven Aspose Slides dependency (or Gradle)  
+- **Versão mínima do Java?** JDK 16 or higher  
+- **Posso personalizar cores e rótulos?** Yes, the API provides full formatting control  
 
-Antes de começar a implementação, certifique-se de ter tudo o que é necessário para começar.
+## O que é um Gráfico de Rosca e Por que Usá‑lo?
 
-## Pré-requisitos
+Um doughnut chart é uma variação de um gráfico de pizza com um centro vazio, permitindo exibir várias séries de dados em anéis concêntricos. Isso o torna ideal para comparar partes de um todo em várias categorias — pense em vendas por região ao longo de vários trimestres ou alocações de orçamento entre departamentos.
 
-Para seguir este tutorial, certifique-se de ter:
+## Por que usar Aspose.Slides para Java?
 
-- **Bibliotecas necessárias:**
-  - Aspose.Slides para Java versão 25.4 ou posterior.
-  
-- **Configuração do ambiente:**
-  - JDK 16 ou superior instalado no seu sistema.
-  - Um IDE como IntelliJ IDEA, Eclipse ou NetBeans.
+- **Nenhuma instalação do Office necessária** – gerar arquivos PPTX em qualquer servidor.  
+- **API rica** – controle total sobre tipos de gráfico, pontos de dados e estilo.  
+- **Alto desempenho** – otimizado para apresentações grandes.  
+- **Multiplataforma** – funciona no Windows, Linux e macOS.
 
-- **Pré-requisitos de conhecimento:**
-  - Compreensão básica dos conceitos de programação Java.
-  - Familiaridade com o gerenciamento de dependências em projetos Maven ou Gradle.
+## Pré‑requisitos
 
-## Configurando o Aspose.Slides para Java
+- **Bibliotecas necessárias:**  
+  - Aspose.Slides for Java versão 25.4 ou posterior.  
 
-Para integrar o Aspose.Slides ao seu projeto, siga estas etapas com base na sua ferramenta de construção:
+- **Configuração do ambiente:**  
+  - JDK 16 ou superior.  
+  - Seu IDE favorito (IntelliJ IDEA, Eclipse, NetBeans, etc.).  
 
-**Configuração do Maven:**
-Adicione a seguinte dependência ao seu `pom.xml` arquivo:
+- **Pré‑requisitos de conhecimento:**  
+  - Programação Java básica.  
+  - Familiaridade com Maven ou Gradle para gerenciamento de dependências.
+
+## Dependência Maven Aspose Slides
+
+Adicione a seguinte dependência Maven ao seu `pom.xml`. Esta é a **maven aspose slides dependency** que você precisa para incluir a biblioteca em seu projeto.
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -58,23 +69,25 @@ Adicione a seguinte dependência ao seu `pom.xml` arquivo:
 </dependency>
 ```
 
-**Configuração do Gradle:**
-Inclua o seguinte em seu `build.gradle` arquivo:
+Se preferir Gradle, use o trecho equivalente abaixo.
+
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Download direto:**
-Alternativamente, baixe a versão mais recente diretamente de [Lançamentos do Aspose.Slides para Java](https://releases.aspose.com/slides/java/).
+Você também pode baixar o JAR diretamente da página oficial de lançamentos:  
+[ Aspose.Slides for Java releases ](https://releases.aspose.com/slides/java/)
 
-### Obtenção de uma licença
+### Obtendo uma Licença
 
-Para usar o Aspose.Slides sem limitações de avaliação:
-- **Teste gratuito:** Comece com uma licença temporária para explorar todos os recursos.
-- **Licença temporária:** Obtenha um através do [Site Aspose](https://purchase.aspose.com/temporary-license/).
-- **Comprar:** Considere comprar para uso contínuo.
+Para remover a marca d'água de avaliação e desbloquear o conjunto completo de recursos:
 
-Aplique sua licença em seu aplicativo Java usando:
+- **Teste gratuito** – comece com uma licença temporária.  
+- **Licença temporária** – solicite uma no [site da Aspose](https://purchase.aspose.com/temporary-license/).  
+- **Licença comercial** – compre para uso em produção.
+
+Aplique a licença no seu código:
+
 ```java
 License license = new License();
 license.setLicense("path/to/your/license.lic");
@@ -82,50 +95,37 @@ license.setLicense("path/to/your/license.lic");
 
 ## Guia de Implementação
 
-### Inicializando Apresentação e Gráfico
+### Inicializando a Apresentação e Adicionando um Gráfico de Rosca
 
-#### Visão geral
-Comece inicializando um objeto de apresentação e adicionando um gráfico de rosca ao primeiro slide.
+Primeiro, crie ou carregue uma apresentação e adicione um doughnut chart ao primeiro slide.
 
-**Etapa 1: Inicializar a apresentação**
-Carregue um arquivo PPTX existente ou crie um novo:
 ```java
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/testc.pptx");
 ```
 
-**Etapa 2: Adicionar gráfico de rosca**
-Crie um gráfico no primeiro slide nas coordenadas especificadas:
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, false);
 ```
 
-### Configurando a pasta de trabalho de dados do gráfico e limpando séries/categorias existentes
+### Configurando a Planilha de Dados do Gráfico e Limpando Dados Existentes
 
-#### Visão geral
-Configure a pasta de trabalho de dados do gráfico e remova quaisquer séries ou categorias pré-existentes.
+Em seguida, obtenha a planilha que suporta o gráfico e limpe quaisquer séries ou categorias padrão.
 
-**Etapa 1: Acesse a pasta de trabalho de dados do gráfico**
-Recupere a pasta de trabalho vinculada ao seu gráfico:
 ```java
 IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
 ```
 
-**Etapa 2: limpar séries e categorias existentes**
-Certifique-se de que não haja pontos de dados residuais:
 ```java
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 chart.setLegend(false);
 ```
 
-### Adicionando séries ao gráfico
+### Adicionando Séries ao Gráfico
 
-#### Visão geral
-Preencha seu gráfico com várias séries, cada uma personalizada em termos de aparência e comportamento.
+Agora adicionaremos até 15 séries. Cada série pode ser personalizada — aqui definimos a explosão, o tamanho do buraco da rosca e o ângulo da primeira fatia.
 
-**Etapa 1: Adicionar séries iterativamente**
-Percorra os índices para adicionar séries:
 ```java
 int seriesIndex = 0;
 while (seriesIndex < 15) {
@@ -134,7 +134,7 @@ while (seriesIndex < 15) {
         chart.getType()
     );
 
-    // Personalize a série
+    // Customize the series
     series.setExplosion(0);
     series.getParentSeriesGroup().setDoughnutHoleSize((byte) 20);
     series.getParentSeriesGroup().setFirstSliceAngle(351);
@@ -142,13 +142,10 @@ while (seriesIndex < 15) {
 }
 ```
 
-### Adicionando categorias e pontos de dados ao gráfico
+### Adicionando Categorias e Pontos de Dados
 
-#### Visão geral
-Configure categorias e adicione pontos de dados com formatação específica para rótulos.
+Criaremos 15 categorias e preencheremos cada série com um ponto de dados. A última série recebe formatação especial de rótulo.
 
-**Etapa 1: adicionar categorias**
-Percorrer os índices de cada categoria:
 ```java
 int categoryIndex = 0;
 while (categoryIndex < 15) {
@@ -157,8 +154,6 @@ while (categoryIndex < 15) {
     );
 ```
 
-**Etapa 2: Adicionar pontos de dados a cada série**
-Iterar por cada série para a categoria atual:
 ```java
 int i = 0;
 while (i < chart.getChartData().getSeries().size()) {
@@ -166,7 +161,7 @@ while (i < chart.getChartData().getSeries().size()) {
     IChartDataPoint dataPoint = iCS.getDataPoints()
         .addDataPointForDoughnutSeries(workBook.getCell(0, categoryIndex + 1, i + 1, 1));
 
-    // Configurações de formato de ponto de dados
+    // Data point format settings
     dataPoint.getFormat().getFill().setFillType(FillType.Solid);
     dataPoint.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
     dataPoint.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
@@ -174,7 +169,7 @@ while (i < chart.getChartData().getSeries().size()) {
     dataPoint.getFormat().getLine().setStyle(LineStyle.Single);
     dataPoint.getFormat().getLine().setDashStyle(LineDashStyle.Solid);
 
-    // Formatação de rótulos para a última série
+    // Label formatting for the last series
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
@@ -186,14 +181,14 @@ while (i < chart.getChartData().getSeries().size()) {
         lbl.getDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat()
             .getSolidFillColor().setColor(Color.LIGHT_GRAY);
 
-        // Ajustar opções de exibição
+        // Adjust display options
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
         lbl.getDataLabelFormat().setShowLeaderLines(true);
         lbl.getDataLabelFormat().setShowLabelAsDataCallout(false);
 
-        // Ajustar a posição da etiqueta
+        // Adjust label position
         chart.validateChartLayout();
         lbl.setX(lbl.getX() + (float) 0.5);
         lbl.setY(lbl.getY() + (float) 0.5);
@@ -203,24 +198,43 @@ while (i < chart.getChartData().getSeries().size()) {
 categoryIndex++;
 ```
 
-### Salvando a apresentação
+### Salvando a Apresentação
 
-#### Visão geral
-Depois de configurar seu gráfico, salve a apresentação em um diretório especificado.
+Finalmente, grave a apresentação atualizada no disco.
 
-**Etapa 1: Salve a apresentação**
-Use o `save` método para escrever alterações:
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/chart_presentation.pptx", SaveFormat.Pptx);
 ```
 
-## Conclusão
+## Problemas Comuns e Soluções
 
-Agora você aprendeu a criar e personalizar gráficos de rosca em Java usando o Aspose.Slides. Estes passos fornecem uma base para integrar visualizações de dados sofisticadas às suas apresentações.
+- **Licença não encontrada** – Verifique se o caminho para `license.lic` está correto e o arquivo é legível.  
+- **Gráfico aparece em branco** – Certifique-se de que limpou as séries/categorias existentes antes de adicionar novas.  
+- **Cores incorretas** – Verifique se `FillType.Solid` está definido tanto para o preenchimento quanto para o formato da linha.  
+- **Desempenho com muitas séries** – Limite o número de séries/categorias ou reutilize as células da planilha.
 
-**Próximos passos:**
-- Experimente diferentes tipos de gráficos disponíveis no Aspose.Slides.
-- Explore opções adicionais de personalização, como cores, fontes e estilos para atender às suas necessidades de marca.
+## Perguntas Frequentes
+
+**Q: Posso gerar um doughnut chart sem um arquivo PPTX pré‑existente?**  
+A: Sim, instancie `new Presentation()` para começar a partir de um deck de slides em branco.
+
+**Q: O Aspose.Slides suporta exportação para PDF?**  
+A: Absolutamente. Após criar o gráfico, chame `pres.save("output.pdf", SaveFormat.Pdf);`.
+
+**Q: Como altero o tamanho do buraco da rosca?**  
+A: Use `series.getParentSeriesGroup().setDoughnutHoleSize((byte) value);` onde value é 0‑100.
+
+**Q: É possível adicionar rótulos de dados a todas as séries, não apenas à última?**  
+A: Sim, mova o bloco de formatação de rótulo para fora da condição `if (i == ...)` e aplique-o a cada `dataPoint`.
+
+**Q: Quais versões do Java são suportadas?**  
+A: Aspose.Slides 25.4 suporta JDK 16 e superiores. JDKs mais antigos requerem o classificador apropriado.
+
+---
+
+**Última atualização:** 2026-03-07  
+**Testado com:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

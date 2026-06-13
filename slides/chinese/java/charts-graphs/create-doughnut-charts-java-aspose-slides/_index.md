@@ -1,9 +1,13 @@
 ---
-"date": "2025-04-17"
-"description": "学习如何使用 Aspose.Slides 在 Java 中创建精美的圆环图。本指南内容全面，涵盖初始化、数据配置和保存演示文稿。"
-"title": "使用 Aspose.Slides 在 Java 中创建甜甜圈图——综合指南"
-"url": "/zh/java/charts-graphs/create-doughnut-charts-java-aspose-slides/"
-"weight": 1
+date: '2026-03-07'
+description: 学习如何使用 Aspose.Slides 在 Java 中创建环形图。本分步指南涵盖 Maven Aspose Slides 依赖设置、图表配置以及保存演示文稿。
+keywords:
+- create doughnut charts Java
+- Aspose.Slides Java guide
+- Java data visualization
+title: 使用 Aspose.Slides 在 Java 中创建环形图指南
+url: /zh/java/charts-graphs/create-doughnut-charts-java-aspose-slides/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,44 +15,49 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# 使用 Aspose.Slides 在 Java 中创建甜甜圈图：分步指南
+# 使用 Aspose.Slides 的 Java 环形图创建指南
 
 ## 介绍
 
-在当今数据驱动的环境中，有效地可视化信息是增强理解和参与度的关键。虽然以编程方式创建专业图表似乎颇具挑战性，尤其是在使用 Java 的情况下，但本指南将指导您使用 Aspose.Slides for Java 轻松创建甜甜圈图。
+以编程方式创建**环形图**可以将原始数字转化为引人注目的可视化效果，瞬间讲述故事。在 Java 中，**Aspose.Slides** 使此过程变得简单，让您无需打开 PowerPoint 即可生成可直接用于演示的图表。在本教程中，您将学习如何一步步**创建 Java 环形图**——从设置 Maven Aspose Slides 依赖到自定义系列、类别，最后保存演示文稿。
 
-通过遵循这些步骤，开发人员将获得操作演示幻灯片和无缝集成数据可视化的实践经验。
+通过本指南，您将能够将动态环形图嵌入任何 PPTX 文件，非常适用于报告、仪表板或自动化幻灯片。
 
-**关键要点：**
-- 使用 Aspose.Slides Java 初始化演示对象。
-- 配置图表数据并管理现有系列或类别。
-- 为您的图表添加和自定义系列和类别。
-- 有效地格式化和显示数据点。
-- 轻松地以各种格式保存您的演示文稿。
+### 快速回答
+- **使用的库是什么？** Aspose.Slides for Java  
+- **主要任务？** 在 PPTX 文件中创建 Java 环形图  
+- **如何添加库？** 使用 Maven Aspose Slides 依赖（或 Gradle）  
+- **最低 Java 版本？** JDK 16 或更高  
+- **我可以自定义颜色和标签吗？** 可以，API 提供完整的格式控制  
 
-在深入实施之前，请确保您已准备好开始实施所需的一切。
+## 什么是环形图以及为何使用它？
 
-## 先决条件
+环形图是带有空心中心的饼图变体，允许您在同心环中显示多个数据系列。这使其非常适合在多个类别中比较整体的各部分——比如按地区划分的多季度销售额或部门预算分配。
 
-要遵循本教程，请确保您已具备：
+## 为什么使用 Aspose.Slides for Java？
 
-- **所需库：**
-  - Aspose.Slides for Java 版本 25.4 或更高版本。
-  
-- **环境设置：**
-  - 您的系统上安装了 JDK 16 或更高版本。
-  - 像 IntelliJ IDEA、Eclipse 或 NetBeans 这样的 IDE。
+- **无需安装 Office** – 在任何服务器上生成 PPTX 文件。  
+- **丰富的 API** – 完全控制图表类型、数据点和样式。  
+- **高性能** – 针对大型演示文稿进行优化。  
+- **跨平台** – 在 Windows、Linux 和 macOS 上均可运行。  
 
-- **知识前提：**
-  - 对 Java 编程概念有基本的了解。
-  - 熟悉管理 Maven 或 Gradle 项目中的依赖项。
+## 前提条件
 
-## 设置 Aspose.Slides for Java
+- **必需的库：**  
+  - Aspose.Slides for Java 版本 25.4 或更高。  
 
-要将 Aspose.Slides 集成到您的项目中，请根据您的构建工具执行以下步骤：
+- **环境设置：**  
+  - JDK 16 或更高。  
+  - 您喜欢的 IDE（IntelliJ IDEA、Eclipse、NetBeans 等）。  
 
-**Maven设置：**
-将以下依赖项添加到您的 `pom.xml` 文件：
+- **知识前提：**  
+  - 基础 Java 编程。  
+  - 熟悉 Maven 或 Gradle 进行依赖管理。  
+
+## Maven Aspose Slides 依赖
+
+在您的 `pom.xml` 中添加以下 Maven 依赖。这是您需要将库引入项目的 **Maven Aspose Slides 依赖**。
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -58,61 +67,53 @@
 </dependency>
 ```
 
-**Gradle 设置：**
-在您的 `build.gradle` 文件：
+如果您更喜欢 Gradle，请使用下面的等效代码片段。
+
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**直接下载：**
-或者，直接从 [Aspose.Slides for Java 发布](https://releases。aspose.com/slides/java/).
+您也可以直接从官方发布页面下载 JAR：  
+[ Aspose.Slides for Java 发布 ](https://releases.aspose.com/slides/java/)
 
 ### 获取许可证
 
-要使用不受评估限制的 Aspose.Slides：
-- **免费试用：** 从临时许可证开始探索全部功能。
-- **临时执照：** 通过 [Aspose 网站](https://purchase。aspose.com/temporary-license/).
-- **购买：** 考虑购买以供持续使用。
+要去除评估水印并解锁完整功能集：
 
-使用以下命令在您的 Java 应用程序中应用您的许可证：
+- **免费试用** – 使用临时许可证开始。  
+- **临时许可证** – 从[ Aspose 网站](https://purchase.aspose.com/temporary-license/)请求。  
+- **商业许可证** – 购买用于生产使用。  
+
+在代码中应用许可证：
+
 ```java
 License license = new License();
 license.setLicense("path/to/your/license.lic");
 ```
 
-## 实施指南
+## 实现指南
 
-### 初始化演示和图表
+### 初始化演示文稿并添加环形图
 
-#### 概述
-首先初始化一个演示对象并在第一张幻灯片中添加一个圆环图。
+首先，创建或加载演示文稿，并在第一张幻灯片上添加环形图。
 
-**步骤 1：初始化演示文稿**
-加载现有的 PPTX 文件或创建新文件：
 ```java
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/testc.pptx");
 ```
 
-**步骤 2：添加圆环图**
-在第一张幻灯片上的指定坐标处创建图表：
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, false);
 ```
 
-### 配置图表数据工作簿并清除现有系列/类别
+### 配置图表数据工作簿并清除现有数据
 
-#### 概述
-配置图表数据工作簿并删除任何预先存在的系列或类别。
+接下来，获取支撑图表的工作簿，并清除任何默认的系列或类别。
 
-**步骤 1：访问图表数据工作簿**
-检索与图表链接的工作簿：
 ```java
 IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
 ```
 
-**第 2 步：清除现有系列和类别**
-确保没有残留数据点：
 ```java
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
@@ -121,11 +122,8 @@ chart.setLegend(false);
 
 ### 向图表添加系列
 
-#### 概述
-使用多个系列填充您的图表，每个系列都针对外观和行为进行定制。
+现在我们将添加最多 15 个系列。每个系列都可以自定义——这里我们设置了爆炸半径、环形孔大小和第一切片角度。
 
-**步骤 1：迭代添加系列**
-循环索引以添加系列：
 ```java
 int seriesIndex = 0;
 while (seriesIndex < 15) {
@@ -134,7 +132,7 @@ while (seriesIndex < 15) {
         chart.getType()
     );
 
-    // 定制系列
+    // Customize the series
     series.setExplosion(0);
     series.getParentSeriesGroup().setDoughnutHoleSize((byte) 20);
     series.getParentSeriesGroup().setFirstSliceAngle(351);
@@ -142,13 +140,10 @@ while (seriesIndex < 15) {
 }
 ```
 
-### 向图表添加类别和数据点
+### 添加类别和数据点
 
-#### 概述
-配置类别并添加具有特定格式的标签数据点。
+我们将创建 15 个类别，并为每个系列填充一个数据点。最后一个系列会使用特殊的标签格式。
 
-**步骤 1：添加类别**
-循环遍历每个类别的索引：
 ```java
 int categoryIndex = 0;
 while (categoryIndex < 15) {
@@ -157,8 +152,6 @@ while (categoryIndex < 15) {
     );
 ```
 
-**步骤 2：向每个系列添加数据点**
-迭代当前类别的每个系列：
 ```java
 int i = 0;
 while (i < chart.getChartData().getSeries().size()) {
@@ -166,7 +159,7 @@ while (i < chart.getChartData().getSeries().size()) {
     IChartDataPoint dataPoint = iCS.getDataPoints()
         .addDataPointForDoughnutSeries(workBook.getCell(0, categoryIndex + 1, i + 1, 1));
 
-    // 数据点格式设置
+    // Data point format settings
     dataPoint.getFormat().getFill().setFillType(FillType.Solid);
     dataPoint.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
     dataPoint.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
@@ -174,7 +167,7 @@ while (i < chart.getChartData().getSeries().size()) {
     dataPoint.getFormat().getLine().setStyle(LineStyle.Single);
     dataPoint.getFormat().getLine().setDashStyle(LineDashStyle.Solid);
 
-    // 最后一个系列的标签格式
+    // Label formatting for the last series
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
@@ -186,14 +179,14 @@ while (i < chart.getChartData().getSeries().size()) {
         lbl.getDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat()
             .getSolidFillColor().setColor(Color.LIGHT_GRAY);
 
-        // 调整显示选项
+        // Adjust display options
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
         lbl.getDataLabelFormat().setShowLeaderLines(true);
         lbl.getDataLabelFormat().setShowLabelAsDataCallout(false);
 
-        // 调整标签位置
+        // Adjust label position
         chart.validateChartLayout();
         lbl.setX(lbl.getX() + (float) 0.5);
         lbl.setY(lbl.getY() + (float) 0.5);
@@ -205,22 +198,41 @@ categoryIndex++;
 
 ### 保存演示文稿
 
-#### 概述
-配置完图表后，将演示文稿保存到指定目录。
+最后，将更新后的演示文稿写入磁盘。
 
-**步骤 1：保存演示文稿**
-使用 `save` 写入更改的方法：
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/chart_presentation.pptx", SaveFormat.Pptx);
 ```
 
-## 结论
+## 常见问题及解决方案
 
-现在您已经学习了如何使用 Aspose.Slides 在 Java 中创建和自定义甜甜圈图。这些步骤为将复杂的数据可视化集成到您的演示文稿中奠定了基础。
+- **未找到许可证** – 验证 `license.lic` 的路径是否正确且文件可读。  
+- **图表为空白** – 确保在添加新系列/类别之前已清除现有的系列/类别。  
+- **颜色不正确** – 检查填充和线条格式是否都设置为 `FillType.Solid`。  
+- **大量系列的性能** – 限制系列/类别的数量或复用工作簿单元格。  
 
-**后续步骤：**
-- 尝试 Aspose.Slides 中可用的不同图表类型。
-- 探索其他自定义选项，如颜色、字体和样式，以满足您的品牌需求。
+## 常见问答
+
+**问：我可以在没有预先存在的 PPTX 文件的情况下生成环形图吗？**  
+**答：** 可以，实例化 `new Presentation()` 从空白幻灯片开始。
+
+**问：Aspose.Slides 是否支持导出为 PDF？**  
+**答：** 当然。创建图表后，调用 `pres.save("output.pdf", SaveFormat.Pdf);`。
+
+**问：如何更改环形孔的大小？**  
+**答：** 使用 `series.getParentSeriesGroup().setDoughnutHoleSize((byte) value);`，其中 value 为 0‑100。
+
+**问：是否可以为所有系列添加数据标签，而不仅仅是最后一个？**  
+**答：** 可以，将标签格式化块移出 `if (i == ...)` 条件，并对每个 `dataPoint` 应用。
+
+**问：支持哪些 Java 版本？**  
+**答：** Aspose.Slides 25.4 支持 JDK 16 及更高版本。较早的 JDK 需要相应的分类器。
+
+---
+
+**最后更新：** 2026-03-07  
+**测试环境：** Aspose.Slides for Java 25.4（jdk16 分类器）  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-17"
-"description": "เรียนรู้วิธีสร้างแผนภูมิโดนัทที่สวยงามใน Java ด้วย Aspose.Slides คู่มือที่ครอบคลุมนี้ครอบคลุมถึงการเริ่มต้น การกำหนดค่าข้อมูล และการบันทึกการนำเสนอ"
-"title": "สร้างแผนภูมิโดนัทใน Java โดยใช้ Aspose.Slides คู่มือฉบับสมบูรณ์"
-"url": "/th/java/charts-graphs/create-doughnut-charts-java-aspose-slides/"
-"weight": 1
+date: '2026-03-07'
+description: เรียนรู้วิธีสร้างแผนภูมิโดนัทใน Java ด้วย Aspose.Slides คู่มือขั้นตอนต่อขั้นตอนนี้ครอบคลุมการตั้งค่า
+  dependency ของ Maven Aspose Slides การกำหนดค่าแผนภูมิ และการบันทึกงานนำเสนอ
+keywords:
+- create doughnut charts Java
+- Aspose.Slides Java guide
+- Java data visualization
+title: สร้างแผนภูมิโดนัทใน Java ด้วย Aspose.Slides คู่มือ
+url: /th/java/charts-graphs/create-doughnut-charts-java-aspose-slides/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,44 +16,49 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# สร้างแผนภูมิโดนัทใน Java โดยใช้ Aspose.Slides: คำแนะนำทีละขั้นตอน
+# สร้างแผนภูมิ Doughnut ด้วย Java และ Aspose.Slides Guide
 
-## การแนะนำ
+## บทนำ
 
-ในสภาพแวดล้อมที่ขับเคลื่อนด้วยข้อมูลในปัจจุบัน การสร้างภาพข้อมูลอย่างมีประสิทธิผลถือเป็นกุญแจสำคัญในการเสริมสร้างความเข้าใจและการมีส่วนร่วม แม้ว่าการสร้างแผนภูมิแบบมืออาชีพด้วยโปรแกรมอาจดูท้าทาย โดยเฉพาะกับ Java แต่คู่มือนี้จะแนะนำคุณเกี่ยวกับการใช้ Aspose.Slides สำหรับ Java เพื่อสร้างแผนภูมิโดนัทได้อย่างง่ายดาย
+การสร้าง **แผนภูมิ doughnut** อย่างอัตโนมัติสามารถเปลี่ยนตัวเลขดิบให้เป็นภาพที่ดึงดูดสายตาและบอกเล่าเรื่องราวได้ทันที ใน Java, **Aspose.Slides** ทำให้กระบวนการนี้ง่ายขึ้น ช่วยให้คุณสร้างแผนภูมิพร้อมใช้ในงานนำเสนอได้โดยไม่ต้องเปิด PowerPoint ในบทแนะนำนี้ คุณจะได้เรียนรู้วิธี **สร้างแผนภูมิ doughnut ด้วย Java** อย่างเป็นขั้นตอน ตั้งแต่การตั้งค่า Maven Aspose Slides ไปจนถึงการปรับแต่ง series, categories และสุดท้ายการบันทึกงานนำเสนอ
 
-โดยทำตามขั้นตอนเหล่านี้ นักพัฒนาจะได้รับประสบการณ์ปฏิบัติจริงในการจัดการสไลด์การนำเสนอและบูรณาการการแสดงภาพข้อมูลได้อย่างราบรื่น
+เมื่อจบคู่มือนี้ คุณจะสามารถฝังแผนภูมิ doughnut แบบไดนามิกลงในไฟล์ PPTX ใด ๆ ได้อย่างสมบูรณ์ เหมาะสำหรับรายงาน, แดชบอร์ด หรือสไลด์เด็คอัตโนมัติ
 
-**ประเด็นสำคัญ:**
-- เริ่มต้นวัตถุการนำเสนอโดยใช้ Aspose.Slides Java
-- กำหนดค่าข้อมูลแผนภูมิและจัดการชุดข้อมูลหรือหมวดหมู่ที่มีอยู่
-- เพิ่มและปรับแต่งชุดและหมวดหมู่สำหรับแผนภูมิของคุณ
-- จัดรูปแบบและแสดงจุดข้อมูลอย่างมีประสิทธิภาพ
-- บันทึกการนำเสนอของคุณในรูปแบบต่างๆ ได้อย่างง่ายดาย
+### คำตอบสั้น
+- **ใช้ไลบรารีอะไร?** Aspose.Slides for Java  
+- **ภารกิจหลัก?** สร้างแผนภูมิ doughnut ในไฟล์ PPTX  
+- **เพิ่มไลบรารีอย่างไร?** ใช้ Maven Aspose Slides dependency (หรือ Gradle)  
+- **เวอร์ชัน Java ขั้นต่ำ?** JDK 16 หรือใหม่กว่า  
+- **ปรับสีและป้ายกำกับได้หรือไม่?** ได้, API มีการควบคุมการจัดรูปแบบเต็มรูปแบบ  
 
-ก่อนจะเริ่มใช้งาน ให้แน่ใจว่าคุณมีทุกสิ่งที่จำเป็นในการเริ่มต้น
+## แผนภูมิ Doughnut คืออะไรและทำไมต้องใช้?
+
+แผนภูมิ doughnut เป็นรูปแบบหนึ่งของแผนภูมิพายที่มีศูนย์ว่าง ทำให้คุณสามารถแสดงหลาย series ของข้อมูลในวงแหวนศูนย์กลางได้ ซึ่งเหมาะอย่างยิ่งสำหรับการเปรียบเทียบส่วนต่าง ๆ ของทั้งหมดในหลายหมวดหมู่ — เช่น ยอดขายตามภูมิภาคในหลายไตรมาส หรือการจัดสรรงบประมาณตามแผนกต่าง ๆ  
+
+## ทำไมต้องใช้ Aspose.Slides for Java?
+
+- **ไม่ต้องติดตั้ง Office** – สร้างไฟล์ PPTX บนเซิร์ฟเวอร์ใดก็ได้  
+- **API ครบถ้วน** – ควบคุมประเภทแผนภูมิ, จุดข้อมูล, และการจัดรูปแบบได้เต็มที่  
+- **ประสิทธิภาพสูง** – ปรับให้ทำงานได้ดีกับงานนำเสนอขนาดใหญ่  
+- **ข้ามแพลตฟอร์ม** – ทำงานบน Windows, Linux, และ macOS  
 
 ## ข้อกำหนดเบื้องต้น
 
-หากต้องการทำตามบทช่วยสอนนี้ โปรดแน่ใจว่าคุณมี:
+- **ไลบรารีที่ต้องการ:**  
+  - Aspose.Slides for Java เวอร์ชัน 25.4 หรือใหม่กว่า  
 
-- **ห้องสมุดที่จำเป็น:**
-  - Aspose.Slides สำหรับ Java เวอร์ชัน 25.4 ขึ้นไป
-  
-- **การตั้งค่าสภาพแวดล้อม:**
-  - ติดตั้ง JDK 16 หรือสูงกว่าบนระบบของคุณ
-  - IDE เช่น IntelliJ IDEA, Eclipse หรือ NetBeans
+- **การตั้งค่าสภาพแวดล้อม:**  
+  - JDK 16 หรือใหม่กว่า  
+  - IDE ที่คุณชื่นชอบ (IntelliJ IDEA, Eclipse, NetBeans ฯลฯ)  
 
-- **ข้อกำหนดความรู้เบื้องต้น:**
-  - ความเข้าใจพื้นฐานเกี่ยวกับแนวคิดการเขียนโปรแกรมภาษา Java
-  - ความคุ้นเคยกับการจัดการการอ้างอิงในโครงการ Maven หรือ Gradle
+- **ความรู้เบื้องต้นที่จำเป็น:**  
+  - การเขียนโปรแกรม Java เบื้องต้น  
+  - ความคุ้นเคยกับ Maven หรือ Gradle สำหรับการจัดการ dependency  
 
-## การตั้งค่า Aspose.Slides สำหรับ Java
+## Maven Aspose Slides Dependency
 
-หากต้องการรวม Aspose.Slides เข้ากับโปรเจ็กต์ของคุณ ให้ทำตามขั้นตอนเหล่านี้ตามเครื่องมือสร้างของคุณ:
+เพิ่ม dependency ของ Maven ด้านล่างนี้ลงในไฟล์ `pom.xml` ของคุณ นี่คือ **maven aspose slides dependency** ที่จำเป็นสำหรับดึงไลบรารีเข้ามาในโปรเจกต์
 
-**การตั้งค่า Maven:**
-เพิ่มการอ้างอิงต่อไปนี้ให้กับของคุณ `pom.xml` ไฟล์:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -58,74 +68,63 @@
 </dependency>
 ```
 
-**การตั้งค่า Gradle:**
-รวมสิ่งต่อไปนี้ไว้ในของคุณ `build.gradle` ไฟล์:
+หากคุณใช้ Gradle ให้ใช้โค้ดสคริปต์ที่เทียบเท่าด้านล่าง
+
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**ดาวน์โหลดโดยตรง:**
-หรือดาวน์โหลดเวอร์ชันล่าสุดโดยตรงจาก [Aspose.Slides สำหรับการเปิดตัว Java](https://releases-aspose.com/slides/java/).
+คุณยังสามารถดาวน์โหลด JAR โดยตรงจากหน้าปล่อยอย่างเป็นทางการได้เช่นกัน:  
+[ การปล่อย Aspose.Slides สำหรับ Java ](https://releases.aspose.com/slides/java/)
 
-### การขอใบอนุญาต
+### การรับใบอนุญาต
 
-การใช้ Aspose.Slides โดยไม่มีข้อจำกัดในการประเมิน:
-- **ทดลองใช้งานฟรี:** เริ่มต้นด้วยใบอนุญาตชั่วคราวเพื่อสำรวจคุณสมบัติทั้งหมด
-- **ใบอนุญาตชั่วคราว:** รับหนึ่งผ่านทาง [เว็บไซต์อาโพส](https://purchase-aspose.com/temporary-license/).
-- **ซื้อ:** ควรพิจารณาซื้อเพื่อใช้งานอย่างต่อเนื่อง
+เพื่อเอาเครื่องหมายลายน้ำการประเมินผลออกและเปิดใช้งานคุณสมบัติเต็มรูปแบบ:
 
-ใช้ใบอนุญาตของคุณในแอปพลิเคชัน Java โดยใช้:
+- **ทดลองใช้ฟรี** – เริ่มต้นด้วยใบอนุญาตชั่วคราว  
+- **ใบอนุญาตชั่วคราว** – ขอรับจาก [เว็บไซต์ Aspose](https://purchase.aspose.com/temporary-license/)  
+- **ใบอนุญาตเชิงพาณิชย์** – ซื้อเพื่อใช้งานในระบบผลิตจริง  
+
+ใช้ใบอนุญาตในโค้ดของคุณ:
+
 ```java
 License license = new License();
 license.setLicense("path/to/your/license.lic");
 ```
 
-## คู่มือการใช้งาน
+## คู่มือการดำเนินการ
 
-### การเริ่มต้นการนำเสนอและแผนภูมิ
+### การเริ่มต้น Presentation และการเพิ่มแผนภูมิ Doughnut
 
-#### ภาพรวม
-เริ่มต้นด้วยการสร้างวัตถุการนำเสนอและเพิ่มแผนภูมิโดนัทลงในสไลด์แรก
+แรกเริ่ม สร้างหรือโหลดงานนำเสนอและเพิ่มแผนภูมิ doughnut ลงในสไลด์แรก
 
-**ขั้นตอนที่ 1: เริ่มต้นการนำเสนอ**
-โหลดไฟล์ PPTX ที่มีอยู่หรือสร้างไฟล์ใหม่:
 ```java
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/testc.pptx");
 ```
 
-**ขั้นตอนที่ 2: เพิ่มแผนภูมิโดนัท**
-สร้างแผนภูมิบนสไลด์แรกตามพิกัดที่ระบุ:
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, false);
 ```
 
-### การกำหนดค่าสมุดงานข้อมูลแผนภูมิและการล้างชุดข้อมูล/หมวดหมู่ที่มีอยู่
+### การกำหนดค่า Workbook ของข้อมูลแผนภูมิและการลบข้อมูลเดิม
 
-#### ภาพรวม
-กำหนดค่าสมุดงานข้อมูลแผนภูมิและลบชุดข้อมูลหรือหมวดหมู่ที่มีอยู่ก่อนหน้านี้
+ต่อไป ดึง workbook ที่เป็นฐานของแผนภูมิและลบ series หรือ categories ที่เป็นค่าเริ่มต้นออกทั้งหมด
 
-**ขั้นตอนที่ 1: เข้าถึงสมุดงานข้อมูลแผนภูมิ**
-ดึงข้อมูลสมุดงานที่เชื่อมโยงกับแผนภูมิของคุณ:
 ```java
 IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
 ```
 
-**ขั้นตอนที่ 2: ล้างซีรีย์และหมวดหมู่ที่มีอยู่**
-ตรวจสอบให้แน่ใจว่าไม่มีจุดข้อมูลที่เหลืออยู่:
 ```java
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 chart.setLegend(false);
 ```
 
-### การเพิ่มซีรีส์ลงในแผนภูมิ
+### การเพิ่ม Series ลงในแผนภูมิ
 
-#### ภาพรวม
-เติมแผนภูมิของคุณด้วยชุดข้อมูลต่างๆ มากมาย โดยแต่ละรายการมีการปรับแต่งตามลักษณะที่ปรากฏและพฤติกรรม
+ต่อไปเราจะเพิ่มสูงสุด 15 series แต่ละ series สามารถปรับแต่งได้ — ตัวอย่างนี้ตั้งค่า explosion, ขนาดรูของ doughnut, และมุมของสไลซ์แรก
 
-**ขั้นตอนที่ 1: เพิ่มซีรีส์แบบวนซ้ำ**
-วนซ้ำผ่านดัชนีเพื่อเพิ่มซีรีส์:
 ```java
 int seriesIndex = 0;
 while (seriesIndex < 15) {
@@ -134,7 +133,7 @@ while (seriesIndex < 15) {
         chart.getType()
     );
 
-    // ปรับแต่งซีรีย์
+    // Customize the series
     series.setExplosion(0);
     series.getParentSeriesGroup().setDoughnutHoleSize((byte) 20);
     series.getParentSeriesGroup().setFirstSliceAngle(351);
@@ -142,13 +141,10 @@ while (seriesIndex < 15) {
 }
 ```
 
-### การเพิ่มหมวดหมู่และจุดข้อมูลลงในแผนภูมิ
+### การเพิ่ม Categories และ Data Points
 
-#### ภาพรวม
-กำหนดค่าหมวดหมู่และเพิ่มจุดข้อมูลที่มีการจัดรูปแบบเฉพาะสำหรับป้ายกำกับ
+เราจะสร้าง 15 categories และเติมข้อมูลให้แต่ละ series ด้วย data point series สุดท้ายจะได้รับการจัดรูปแบบป้ายกำกับพิเศษ
 
-**ขั้นตอนที่ 1: เพิ่มหมวดหมู่**
-วนซ้ำดัชนีสำหรับแต่ละหมวดหมู่:
 ```java
 int categoryIndex = 0;
 while (categoryIndex < 15) {
@@ -157,8 +153,6 @@ while (categoryIndex < 15) {
     );
 ```
 
-**ขั้นตอนที่ 2: เพิ่มจุดข้อมูลให้กับแต่ละชุด**
-ทำซ้ำผ่านแต่ละชุดสำหรับหมวดหมู่ปัจจุบัน:
 ```java
 int i = 0;
 while (i < chart.getChartData().getSeries().size()) {
@@ -166,7 +160,7 @@ while (i < chart.getChartData().getSeries().size()) {
     IChartDataPoint dataPoint = iCS.getDataPoints()
         .addDataPointForDoughnutSeries(workBook.getCell(0, categoryIndex + 1, i + 1, 1));
 
-    // การตั้งค่ารูปแบบจุดข้อมูล
+    // Data point format settings
     dataPoint.getFormat().getFill().setFillType(FillType.Solid);
     dataPoint.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
     dataPoint.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
@@ -174,7 +168,7 @@ while (i < chart.getChartData().getSeries().size()) {
     dataPoint.getFormat().getLine().setStyle(LineStyle.Single);
     dataPoint.getFormat().getLine().setDashStyle(LineDashStyle.Solid);
 
-    // การจัดรูปแบบฉลากสำหรับซีรีย์สุดท้าย
+    // Label formatting for the last series
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
@@ -186,14 +180,14 @@ while (i < chart.getChartData().getSeries().size()) {
         lbl.getDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat()
             .getSolidFillColor().setColor(Color.LIGHT_GRAY);
 
-        // ปรับแต่งตัวเลือกการแสดงผล
+        // Adjust display options
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
         lbl.getDataLabelFormat().setShowLeaderLines(true);
         lbl.getDataLabelFormat().setShowLabelAsDataCallout(false);
 
-        // ปรับตำแหน่งฉลาก
+        // Adjust label position
         chart.validateChartLayout();
         lbl.setX(lbl.getX() + (float) 0.5);
         lbl.setY(lbl.getY() + (float) 0.5);
@@ -203,24 +197,43 @@ while (i < chart.getChartData().getSeries().size()) {
 categoryIndex++;
 ```
 
-### การบันทึกการนำเสนอ
+### การบันทึก Presentation
 
-#### ภาพรวม
-เมื่อคุณกำหนดค่าแผนภูมิของคุณแล้ว ให้บันทึกการนำเสนอไปยังไดเร็กทอรีที่ระบุ
+สุดท้าย เขียนงานนำเสนอที่อัปเดตแล้วลงดิสก์
 
-**ขั้นตอนที่ 1: บันทึกการนำเสนอ**
-ใช้ `save` วิธีการเขียนการเปลี่ยนแปลง:
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/chart_presentation.pptx", SaveFormat.Pptx);
 ```
 
-## บทสรุป
+## ปัญหาที่พบบ่อยและวิธีแก้
 
-ตอนนี้คุณได้เรียนรู้วิธีการสร้างและปรับแต่งแผนภูมิโดนัทใน Java โดยใช้ Aspose.Slides แล้ว ขั้นตอนเหล่านี้จะเป็นพื้นฐานสำหรับการผสานการแสดงภาพข้อมูลที่ซับซ้อนเข้ากับการนำเสนอของคุณ
+- **ไม่พบใบอนุญาต** – ตรวจสอบว่าเส้นทางไปยัง `license.lic` ถูกต้องและไฟล์สามารถอ่านได้  
+- **แผนภูมิเกิดเป็นสีขาว** – ตรวจสอบว่าคุณได้ลบ series/category เดิมก่อนเพิ่มใหม่หรือไม่  
+- **สีไม่ถูกต้อง** – ตรวจสอบว่าได้ตั้งค่า `FillType.Solid` ทั้งสำหรับ fill และ line format แล้ว  
+- **ประสิทธิภาพเมื่อมี series จำนวนมาก** – จำกัดจำนวน series/category หรือใช้เซลล์ workbook ซ้ำกัน  
 
-**ขั้นตอนต่อไป:**
-- ทดลองใช้ประเภทแผนภูมิต่างๆ ที่มีอยู่ใน Aspose.Slides
-- สำรวจตัวเลือกการปรับแต่งเพิ่มเติม เช่น สี แบบอักษร และสไตล์ เพื่อให้ตรงกับความต้องการด้านแบรนด์ของคุณ
+## คำถามที่พบบ่อย
+
+**ถาม: สามารถสร้างแผนภูมิ doughnut โดยไม่มีไฟล์ PPTX ที่มีอยู่ก่อนหรือไม่?**  
+ตอบ: ได้, ใช้ `new Presentation()` เพื่อเริ่มจากสไลด์เปล่า  
+
+**ถาม: Aspose.Slides รองรับการส่งออกเป็น PDF หรือไม่?**  
+ตอบ: แน่นอน หลังจากสร้างแผนภูมิแล้วเรียก `pres.save("output.pdf", SaveFormat.Pdf);`  
+
+**ถาม: จะเปลี่ยนขนาดรูของ doughnut อย่างไร?**  
+ตอบ: ใช้ `series.getParentSeriesGroup().setDoughnutHoleSize((byte) value);` โดยที่ value มีค่า 0‑100  
+
+**ถาม: สามารถเพิ่มป้ายกำกับข้อมูลให้กับทุก series ไม่ใช่แค่ series สุดท้ายได้หรือ?**  
+ตอบ: ได้, ย้ายบล็อกการจัดรูปแบบป้ายกำกับออกจากเงื่อนไข `if (i == ...)` แล้วนำไปใช้กับแต่ละ `dataPoint`  
+
+**ถาม: รองรับเวอร์ชัน Java ใดบ้าง?**  
+ตอบ: Aspose.Slides 25.4 รองรับ JDK 16 ขึ้นไป เวอร์ชัน JDK ที่เก่ากว่าต้องใช้ classifier ที่เหมาะสม  
+
+---
+
+**อัปเดตล่าสุด:** 2026-03-07  
+**ทดสอบด้วย:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

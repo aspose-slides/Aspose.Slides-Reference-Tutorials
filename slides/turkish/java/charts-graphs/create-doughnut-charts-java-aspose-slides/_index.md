@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Aspose.Slides ile Java'da çarpıcı halka grafikleri oluşturmayı öğrenin. Bu kapsamlı kılavuz, başlatma, veri yapılandırması ve sunumları kaydetmeyi kapsar."
-"title": "Aspose.Slides&#58;ı Kullanarak Java'da Halka Grafikleri Oluşturun Kapsamlı Bir Kılavuz"
-"url": "/tr/java/charts-graphs/create-doughnut-charts-java-aspose-slides/"
-"weight": 1
+date: '2026-03-07'
+description: Aspose.Slides kullanarak Java’da donut grafik oluşturmayı öğrenin. Bu
+  adım adım rehber, Maven Aspose Slides bağımlılık kurulumunu, grafik yapılandırmasını
+  ve sunumları kaydetmeyi kapsar.
+keywords:
+- create doughnut charts Java
+- Aspose.Slides Java guide
+- Java data visualization
+title: Aspose.Slides Rehberi ile Java'da Donut Grafik Oluşturma
+url: /tr/java/charts-graphs/create-doughnut-charts-java-aspose-slides/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,44 +17,49 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.Slides Kullanarak Java'da Halka Grafikleri Oluşturma: Adım Adım Kılavuz
+# Aspose.Slides ile Java'da Doughnut Chart Oluşturma Rehberi
 
-## giriiş
+## Giriş
 
-Günümüzün veri odaklı ortamında, bilgileri etkili bir şekilde görselleştirmek, anlayışı ve etkileşimi geliştirmenin anahtarıdır. Profesyonel çizelgeleri programatik olarak oluşturmak, özellikle Java ile zorlayıcı görünebilirken, bu kılavuz, zahmetsizce Donut çizelgeleri oluşturmak için Java için Aspose.Slides'ı kullanma konusunda size yol gösterecektir.
+Programatik olarak **doughnut chart** oluşturmak, ham sayıları anında bir hikâye anlatan göz alıcı bir görsele dönüştürebilir. Java'da **Aspose.Slides**, bu süreci basitleştirir ve PowerPoint'i hiç açmadan sunuma hazır grafikler oluşturmanıza olanak tanır. Bu öğreticide, **create doughnut chart java** adım adım nasıl yapılacağını öğreneceksiniz — Maven Aspose Slides bağımlılığını kurmaktan serileri, kategorileri özelleştirmeye ve son olarak sunumu kaydetmeye kadar.
 
-Geliştiriciler bu adımları izleyerek sunum slaytlarını düzenleme ve veri görselleştirmeyi kusursuz bir şekilde entegre etme konusunda uygulamalı deneyim kazanacaklar.
+Bu rehberin sonunda, raporlar, gösterge panelleri veya otomatik slayt desteleri için mükemmel olan dinamik doughnut chart'ları herhangi bir PPTX dosyasına gömebileceksiniz.
 
-**Önemli Noktalar:**
-- Aspose.Slides Java'yı kullanarak bir Sunum nesnesi başlatın.
-- Grafik verilerini yapılandırın ve mevcut serileri veya kategorileri yönetin.
-- Grafikleriniz için seriler ve kategoriler ekleyin ve özelleştirin.
-- Veri noktalarını etkili bir şekilde biçimlendirin ve görüntüleyin.
-- Sunumunuzu çeşitli formatlarda kolaylıkla kaydedin.
+### Hızlı Yanıtlar
+- **Hangi kütüphane kullanılıyor?** Aspose.Slides for Java  
+- **Ana görev?** Create doughnut chart java in a PPTX file  
+- **Kütüphane nasıl eklenir?** Use the Maven Aspose Slides dependency (or Gradle)  
+- **Minimum Java sürümü?** JDK 16 or higher  
+- **Renkleri ve etiketleri özelleştirebilir miyim?** Yes, the API provides full formatting control  
 
-Uygulamaya başlamadan önce, başlamak için gereken her şeye sahip olduğunuzdan emin olun.
+## Doughnut Chart Nedir ve Neden Kullanılır?
 
-## Ön koşullar
+Doughnut chart, boş bir ortası olan bir pie chart varyasyonudur ve birden fazla veri serisini konsantrik halkalar halinde göstermeye olanak tanır. Bu, bir bütünün parçalarını çeşitli kategorilerde karşılaştırmak için idealdir — örneğin bölgelere göre satışları birden fazla çeyrek boyunca veya departmanlar arasındaki bütçe tahsislerini düşünün.
 
-Bu eğitimi takip edebilmek için şunlara sahip olduğunuzdan emin olun:
+## Java için Aspose.Slides Neden Kullanılmalı?
 
-- **Gerekli Kütüphaneler:**
-  - Aspose.Slides for Java sürüm 25.4 veya üzeri.
-  
-- **Çevre Kurulumu:**
-  - Sisteminizde JDK 16 veya üzeri yüklü.
-  - IntelliJ IDEA, Eclipse veya NetBeans gibi bir IDE.
+- **Office kurulumu gerekmez** – herhangi bir sunucuda PPTX dosyaları oluşturun.  
+- **Zengin API** – grafik türleri, veri noktaları ve stil üzerinde tam kontrol.  
+- **Yüksek performans** – büyük sunumlar için optimize edilmiştir.  
+- **Çapraz platform** – Windows, Linux ve macOS'ta çalışır.
 
-- **Bilgi Ön Koşulları:**
-  - Java programlama kavramlarının temel düzeyde anlaşılması.
-  - Maven veya Gradle projelerinde bağımlılıkları yönetme konusunda deneyim.
+## Ön Koşullar
 
-## Java için Aspose.Slides Kurulumu
+- **Gerekli Kütüphaneler:**  
+  - Aspose.Slides for Java version 25.4 or later.  
 
-Aspose.Slides'ı projenize entegre etmek için derleme aracınıza bağlı olarak şu adımları izleyin:
+- **Ortam Kurulumu:**  
+  - JDK 16 or higher.  
+  - Your favorite IDE (IntelliJ IDEA, Eclipse, NetBeans, etc.).  
 
-**Maven Kurulumu:**
-Aşağıdaki bağımlılığı ekleyin `pom.xml` dosya:
+- **Bilgi Ön Koşulları:**  
+  - Basic Java programming.  
+  - Familiarity with Maven or Gradle for dependency management.
+
+## Maven Aspose Slides Bağımlılığı
+
+Aşağıdaki Maven bağımlılığını `pom.xml` dosyanıza ekleyin. Bu, kütüphaneyi projenize çekmek için gereken **maven aspose slides dependency**'dir.
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -58,23 +69,25 @@ Aşağıdaki bağımlılığı ekleyin `pom.xml` dosya:
 </dependency>
 ```
 
-**Gradle Kurulumu:**
-Aşağıdakileri ekleyin: `build.gradle` dosya:
+Gradle tercih ediyorsanız, aşağıdaki eşdeğer kod parçacığını kullanın.
+
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Doğrudan İndirme:**
-Alternatif olarak, en son sürümü doğrudan şu adresten indirin: [Java sürümleri için Aspose.Slides](https://releases.aspose.com/slides/java/).
+Ayrıca JAR dosyasını doğrudan resmi sürüm sayfasından indirebilirsiniz:  
+[ Aspose.Slides for Java releases ](https://releases.aspose.com/slides/java/)
 
 ### Lisans Edinme
 
-Aspose.Slides'ı değerlendirme sınırlamaları olmadan kullanmak için:
-- **Ücretsiz Deneme:** Tüm özellikleri keşfetmek için geçici bir lisansla başlayın.
-- **Geçici Lisans:** Birini şu şekilde edinin: [Aspose web sitesi](https://purchase.aspose.com/temporary-license/).
-- **Satın almak:** Devamlı kullanım için satın almayı düşünün.
+Değerlendirme filigranını kaldırmak ve tam özellik setini açmak için:
 
-Lisansınızı Java uygulamanızda şu şekilde uygulayın:
+- **Ücretsiz deneme** – start with a temporary license.  
+- **Geçici lisans** – request one from the [Aspose website](https://purchase.aspose.com/temporary-license/).  
+- **Ticari lisans** – purchase for production use.
+
+Lisansı kodunuzda uygulayın:
+
 ```java
 License license = new License();
 license.setLicense("path/to/your/license.lic");
@@ -82,37 +95,27 @@ license.setLicense("path/to/your/license.lic");
 
 ## Uygulama Kılavuzu
 
-### Sunum ve Grafik Başlatılıyor
+### Sunumu Başlatma ve Doughnut Chart Ekleme
 
-#### Genel bakış
-Öncelikle bir sunum nesnesi başlatıp ilk slayda bir Halka grafiği ekleyerek başlayalım.
+İlk olarak, bir sunum oluşturun veya yükleyin ve ilk slayta bir doughnut chart ekleyin.
 
-**Adım 1: Sunumu Başlatın**
-Mevcut bir PPTX dosyasını yükleyin veya yeni bir dosya oluşturun:
 ```java
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/testc.pptx");
 ```
 
-**Adım 2: Çörek Grafiği Ekle**
-Belirtilen koordinatlarda ilk slaytta bir grafik oluşturun:
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, false);
 ```
 
-### Grafik Veri Çalışma Kitabını Yapılandırma ve Mevcut Serileri/Kategorileri Temizleme
+### Grafik Veri Çalışma Kitabını Yapılandırma ve Mevcut Verileri Temizleme
 
-#### Genel bakış
-Grafik veri çalışma kitabını yapılandırın ve önceden var olan tüm serileri veya kategorileri kaldırın.
+Sonra, grafiği destekleyen çalışma kitabını alın ve varsayılan serileri veya kategorileri temizleyin.
 
-**Adım 1: Grafik Veri Çalışma Kitabına Erişim**
-Grafiğinizle bağlantılı çalışma kitabını alın:
 ```java
 IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
 ```
 
-**Adım 2: Mevcut Serileri ve Kategorileri Temizle**
-Hiçbir kalıntı veri noktasının olmadığından emin olun:
 ```java
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
@@ -121,11 +124,8 @@ chart.setLegend(false);
 
 ### Grafiğe Seri Ekleme
 
-#### Genel bakış
-Tablonuzu, her biri görünüm ve davranış açısından özelleştirilmiş birden fazla seriyle doldurun.
+Şimdi 15'e kadar seri ekleyeceğiz. Her seri özelleştirilebilir — burada patlama, doughnut‑hole boyutu ve ilk dilim açısını ayarlıyoruz.
 
-**Adım 1: Seriyi Tekrarlı Olarak Ekleyin**
-Dizi eklemek için endeksler arasında dolaşın:
 ```java
 int seriesIndex = 0;
 while (seriesIndex < 15) {
@@ -134,7 +134,7 @@ while (seriesIndex < 15) {
         chart.getType()
     );
 
-    // Seriyi özelleştir
+    // Customize the series
     series.setExplosion(0);
     series.getParentSeriesGroup().setDoughnutHoleSize((byte) 20);
     series.getParentSeriesGroup().setFirstSliceAngle(351);
@@ -142,13 +142,10 @@ while (seriesIndex < 15) {
 }
 ```
 
-### Grafiğe Kategoriler ve Veri Noktaları Ekleme
+### Kategoriler ve Veri Noktaları Ekleme
 
-#### Genel bakış
-Kategorileri yapılandırın ve etiketler için belirli biçimlendirmeyle veri noktaları ekleyin.
+15 kategori oluşturacağız ve her seriyi bir veri noktasıyla dolduracağız. Son seri özel etiket biçimlendirmesi alır.
 
-**Adım 1: Kategorileri ekleyin**
-Her kategori için endeksler arasında dolaşın:
 ```java
 int categoryIndex = 0;
 while (categoryIndex < 15) {
@@ -157,8 +154,6 @@ while (categoryIndex < 15) {
     );
 ```
 
-**Adım 2: Her Seriye Veri Noktaları Ekleyin**
-Mevcut kategori için her seriyi yineleyin:
 ```java
 int i = 0;
 while (i < chart.getChartData().getSeries().size()) {
@@ -166,7 +161,7 @@ while (i < chart.getChartData().getSeries().size()) {
     IChartDataPoint dataPoint = iCS.getDataPoints()
         .addDataPointForDoughnutSeries(workBook.getCell(0, categoryIndex + 1, i + 1, 1));
 
-    // Veri noktası biçim ayarları
+    // Data point format settings
     dataPoint.getFormat().getFill().setFillType(FillType.Solid);
     dataPoint.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
     dataPoint.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
@@ -174,7 +169,7 @@ while (i < chart.getChartData().getSeries().size()) {
     dataPoint.getFormat().getLine().setStyle(LineStyle.Single);
     dataPoint.getFormat().getLine().setDashStyle(LineDashStyle.Solid);
 
-    // Son seri için etiket biçimlendirmesi
+    // Label formatting for the last series
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
@@ -186,14 +181,14 @@ while (i < chart.getChartData().getSeries().size()) {
         lbl.getDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat()
             .getSolidFillColor().setColor(Color.LIGHT_GRAY);
 
-        // Görüntüleme seçeneklerini ayarlayın
+        // Adjust display options
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
         lbl.getDataLabelFormat().setShowLeaderLines(true);
         lbl.getDataLabelFormat().setShowLabelAsDataCallout(false);
 
-        // Etiket konumunu ayarlayın
+        // Adjust label position
         chart.validateChartLayout();
         lbl.setX(lbl.getX() + (float) 0.5);
         lbl.setY(lbl.getY() + (float) 0.5);
@@ -205,22 +200,41 @@ categoryIndex++;
 
 ### Sunumu Kaydetme
 
-#### Genel bakış
-Grafiğinizi yapılandırdıktan sonra sunumu belirtilen dizine kaydedin.
+Son olarak, güncellenen sunumu diske yazın.
 
-**Adım 1: Sunumu Kaydedin**
-Kullanın `save` değişiklikleri yazma yöntemi:
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/chart_presentation.pptx", SaveFormat.Pptx);
 ```
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-Artık Aspose.Slides kullanarak Java'da Donut grafiklerinin nasıl oluşturulacağını ve özelleştirileceğini öğrendiniz. Bu adımlar, sunumlarınıza karmaşık veri görselleştirmelerini entegre etmek için bir temel sağlar.
+- **Lisans bulunamadı** – Verify the path to `license.lic` is correct and the file is readable.  
+- **Grafik boş görünüyor** – Ensure you cleared existing series/categories before adding new ones.  
+- **Yanlış renkler** – Check that `FillType.Solid` is set for both fill and line formats.  
+- **Çok sayıda seriyle performans** – Limit the number of series/categories or reuse the workbook cells.
 
-**Sonraki Adımlar:**
-- Aspose.Slides'da bulunan farklı grafik türlerini deneyin.
-- Marka ihtiyaçlarınıza uyacak renkler, yazı tipleri ve stiller gibi ek özelleştirme seçeneklerini keşfedin.
+## Sıkça Sorulan Sorular
+
+**S: Önceden var olan bir PPTX dosyası olmadan doughnut chart oluşturabilir miyim?**  
+A: Evet, boş bir slayt destesiyle başlamak için `new Presentation()` örneğini oluşturun.
+
+**S: Aspose.Slides PDF'ye dışa aktarmayı destekliyor mu?**  
+A: Kesinlikle. Grafik oluşturduktan sonra `pres.save("output.pdf", SaveFormat.Pdf);` çağrısını yapın.
+
+**S: Doughnut hole boyutunu nasıl değiştiririm?**  
+A: Değeri 0‑100 arasında olan `series.getParentSeriesGroup().setDoughnutHoleSize((byte) value);` kullanın.
+
+**S: Son seriye değil, tüm serilere veri etiketleri eklemek mümkün mü?**  
+A: Evet, etiket‑biçimlendirme bloğunu `if (i == ...)` koşulunun dışına taşıyıp her `dataPoint`'e uygulayın.
+
+**S: Hangi Java sürümleri destekleniyor?**  
+A: Aspose.Slides 25.4, JDK 16 ve üzerini destekler. Daha eski JDK'lar uygun sınıflandırıcıyı gerektirir.
+
+---
+
+**Son Güncelleme:** 2026-03-07  
+**Test Edilen:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

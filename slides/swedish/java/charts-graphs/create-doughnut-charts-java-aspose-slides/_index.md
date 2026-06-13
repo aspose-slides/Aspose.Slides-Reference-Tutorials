@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Lär dig hur du skapar fantastiska ringdiagram i Java med Aspose.Slides. Den här omfattande guiden täcker initialisering, datakonfiguration och hur man sparar presentationer."
-"title": "Skapa ringdiagram i Java med hjälp av Aspose.Slides – En omfattande guide"
-"url": "/sv/java/charts-graphs/create-doughnut-charts-java-aspose-slides/"
-"weight": 1
+date: '2026-03-07'
+description: Lär dig hur du skapar ett ringdiagram i Java med Aspose.Slides. Denna
+  steg‑för‑steg‑guide täcker installation av Maven‑beroendet för Aspose Slides, diagramkonfiguration
+  och sparande av presentationer.
+keywords:
+- create doughnut charts Java
+- Aspose.Slides Java guide
+- Java data visualization
+title: Skapa ringdiagram i Java med Aspose.Slides guide
+url: /sv/java/charts-graphs/create-doughnut-charts-java-aspose-slides/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,44 +17,49 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Skapa ringdiagram i Java med Aspose.Slides: En steg-för-steg-guide
+# Skapa Doughnut Chart Java med Aspose.Slides Guide
 
 ## Introduktion
 
-dagens datadrivna miljö är det viktigt att visualisera information effektivt för att öka förståelsen och engagemanget. Även om det kan verka utmanande att skapa professionella diagram programmatiskt, särskilt med Java, kommer den här guiden att guida dig genom att använda Aspose.Slides för Java för att enkelt skapa ringdiagram.
+Att skapa ett **doughnut chart** programatiskt kan förvandla råa siffror till en iögonfallande visualisering som omedelbart berättar en historia. I Java gör **Aspose.Slides** denna process enkel och låter dig generera presentationsklara diagram utan att någonsin öppna PowerPoint. I den här handledningen kommer du att lära dig hur du **skapar doughnut chart java** steg för steg – från att konfigurera Maven Aspose Slides‑beroendet till att anpassa serier, kategorier och slutligen spara presentationen.
 
-Genom att följa dessa steg får utvecklare praktisk erfarenhet av att manipulera presentationsbilder och integrera datavisualisering sömlöst.
+När du har gått igenom guiden kommer du att kunna bädda in dynamiska doughnut-diagram i vilken PPTX‑fil som helst, perfekt för rapporter, instrumentpaneler eller automatiserade bildspel.
 
-**Viktiga slutsatser:**
-- Initiera ett presentationsobjekt med hjälp av Aspose.Slides Java.
-- Konfigurera diagramdata och hantera befintliga serier eller kategorier.
-- Lägg till och anpassa serier och kategorier för dina diagram.
-- Formatera och visa datapunkter effektivt.
-- Spara enkelt din presentation i olika format.
+### Snabba svar
+- **Vilket bibliotek används?** Aspose.Slides for Java  
+- **Primär uppgift?** Skapa doughnut chart java i en PPTX‑fil  
+- **Hur lägger man till biblioteket?** Använd Maven Aspose Slides‑beroendet (eller Gradle)  
+- **Minsta Java‑version?** JDK 16 eller högre  
+- **Kan jag anpassa färger och etiketter?** Ja, API‑et ger full kontroll över formatering  
 
-Innan du börjar implementationen, se till att du har allt som behövs för att komma igång.
+## Vad är ett Doughnut Chart och varför använda det?
 
-## Förkunskapskrav
+Ett doughnut chart är en variant av ett pajdiagram med ett tomt centrum, vilket gör det möjligt att visa flera dataserier i koncentriska ringar. Detta gör det idealiskt för att jämföra delar av en helhet över flera kategorier – tänk försäljning per region över flera kvartal eller budgetfördelning över avdelningar.
 
-För att följa den här handledningen, se till att du har:
+## Varför använda Aspose.Slides för Java?
 
-- **Obligatoriska bibliotek:**
-  - Aspose.Slides för Java version 25.4 eller senare.
-  
-- **Miljöinställningar:**
-  - JDK 16 eller senare installerat på ditt system.
-  - En IDE som IntelliJ IDEA, Eclipse eller NetBeans.
+- **Ingen Office‑installation krävs** – generera PPTX‑filer på vilken server som helst.  
+- **Rik API** – full kontroll över diagramtyper, datapunkter och styling.  
+- **Hög prestanda** – optimerad för stora presentationer.  
+- **Plattformsoberoende** – fungerar på Windows, Linux och macOS.
 
-- **Kunskapsförkunskapskrav:**
-  - Grundläggande förståelse för Java-programmeringskoncept.
-  - Erfarenhet av att hantera beroenden i Maven- eller Gradle-projekt.
+## Förutsättningar
 
-## Konfigurera Aspose.Slides för Java
+- **Krävda bibliotek:**  
+  - Aspose.Slides for Java version 25.4 eller senare.  
 
-För att integrera Aspose.Slides i ditt projekt, följ dessa steg baserat på ditt byggverktyg:
+- **Miljöinställning:**  
+  - JDK 16 eller högre.  
+  - Din favoriteditor (IntelliJ IDEA, Eclipse, NetBeans, etc.).  
 
-**Maven-inställningar:**
-Lägg till följande beroende till din `pom.xml` fil:
+- **Kunskapsförutsättningar:**  
+  - Grundläggande Java‑programmering.  
+  - Bekantskap med Maven eller Gradle för beroendehantering.
+
+## Maven Aspose Slides‑beroende
+
+Lägg till följande Maven‑beroende i din `pom.xml`. Detta är **maven aspose slides dependency** som du behöver för att hämta biblioteket till ditt projekt.
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -58,23 +69,25 @@ Lägg till följande beroende till din `pom.xml` fil:
 </dependency>
 ```
 
-**Gradle-inställningar:**
-Inkludera följande i din `build.gradle` fil:
+Om du föredrar Gradle, använd motsvarande kodsnutt nedan.
+
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Direkt nedladdning:**
-Alternativt kan du ladda ner den senaste versionen direkt från [Aspose.Slides för Java-versioner](https://releases.aspose.com/slides/java/).
+Du kan också ladda ner JAR‑filen direkt från den officiella releasesidan:  
+[ Aspose.Slides for Java releases ](https://releases.aspose.com/slides/java/)
 
-### Att förvärva en licens
+### Skaffa en licens
 
-För att använda Aspose.Slides utan utvärderingsbegränsningar:
-- **Gratis provperiod:** Börja med en tillfällig licens för att utforska alla funktioner.
-- **Tillfällig licens:** Skaffa en via [Asposes webbplats](https://purchase.aspose.com/temporary-license/).
-- **Köpa:** Överväg att köpa för kontinuerligt bruk.
+För att ta bort utvärderingsvattenstämpeln och låsa upp hela funktionsuppsättningen:
 
-Använd din licens i ditt Java-program med hjälp av:
+- **Gratis provperiod** – börja med en temporär licens.  
+- **Temporär licens** – begär en från [Aspose‑webbplatsen](https://purchase.aspose.com/temporary-license/).  
+- **Kommersiell licens** – köp för produktionsbruk.
+
+Applicera licensen i din kod:
+
 ```java
 License license = new License();
 license.setLicense("path/to/your/license.lic");
@@ -82,50 +95,37 @@ license.setLicense("path/to/your/license.lic");
 
 ## Implementeringsguide
 
-### Initierar presentation och diagram
+### Initiering av Presentation och Tillägg av ett Doughnut Chart
 
-#### Översikt
-Börja med att initiera ett presentationsobjekt och lägga till ett ringdiagram på den första bilden.
+Först, skapa eller läs in en presentation och lägg till ett doughnut chart på den första bilden.
 
-**Steg 1: Initiera presentationen**
-Ladda en befintlig PPTX-fil eller skapa en ny:
 ```java
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/testc.pptx");
 ```
 
-**Steg 2: Lägg till ringdiagram**
-Skapa ett diagram på den första bilden vid angivna koordinater:
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, false);
 ```
 
-### Konfigurera arbetsboken för diagramdata och rensa befintliga serier/kategorier
+### Konfigurering av Diagrammets Dataarbetsbok och Rensning av Befintliga Data
 
-#### Översikt
-Konfigurera arbetsboken för diagramdata och ta bort alla befintliga serier eller kategorier.
+Därefter, hämta arbetsboken som stödjer diagrammet och rensa eventuella standardserier eller -kategorier.
 
-**Steg 1: Åtkomst till arbetsboken för diagramdata**
-Hämta arbetsboken som är länkad till ditt diagram:
 ```java
 IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
 ```
 
-**Steg 2: Rensa befintliga serier och kategorier**
-Se till att det inte finns några kvarvarande datapunkter:
 ```java
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 chart.setLegend(false);
 ```
 
-### Lägga till serier i diagrammet
+### Lägg till Serier i Diagrammet
 
-#### Översikt
-Fyll ditt diagram med flera serier, var och en anpassad för utseende och beteende.
+Nu kommer vi att lägga till upp till 15 serier. Varje serie kan anpassas – här sätter vi explosion, doughnut‑hålstorlek och första‑skivvinkel.
 
-**Steg 1: Lägg till serier iterativt**
-Loopa igenom index för att lägga till serier:
 ```java
 int seriesIndex = 0;
 while (seriesIndex < 15) {
@@ -134,7 +134,7 @@ while (seriesIndex < 15) {
         chart.getType()
     );
 
-    // Anpassa serien
+    // Customize the series
     series.setExplosion(0);
     series.getParentSeriesGroup().setDoughnutHoleSize((byte) 20);
     series.getParentSeriesGroup().setFirstSliceAngle(351);
@@ -142,13 +142,10 @@ while (seriesIndex < 15) {
 }
 ```
 
-### Lägga till kategorier och datapunkter i diagrammet
+### Lägg till Kategorier och Datapunkter
 
-#### Översikt
-Konfigurera kategorier och lägg till datapunkter med specifik formatering för etiketter.
+Vi kommer att skapa 15 kategorier och fylla varje serie med en datapunkt. Den sista serien får speciell etikettformatering.
 
-**Steg 1: Lägg till kategorier**
-Gå igenom index för varje kategori:
 ```java
 int categoryIndex = 0;
 while (categoryIndex < 15) {
@@ -157,8 +154,6 @@ while (categoryIndex < 15) {
     );
 ```
 
-**Steg 2: Lägg till datapunkter i varje serie**
-Gå igenom varje serie för den aktuella kategorin:
 ```java
 int i = 0;
 while (i < chart.getChartData().getSeries().size()) {
@@ -166,7 +161,7 @@ while (i < chart.getChartData().getSeries().size()) {
     IChartDataPoint dataPoint = iCS.getDataPoints()
         .addDataPointForDoughnutSeries(workBook.getCell(0, categoryIndex + 1, i + 1, 1));
 
-    // Inställningar för datapunktsformat
+    // Data point format settings
     dataPoint.getFormat().getFill().setFillType(FillType.Solid);
     dataPoint.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
     dataPoint.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
@@ -174,7 +169,7 @@ while (i < chart.getChartData().getSeries().size()) {
     dataPoint.getFormat().getLine().setStyle(LineStyle.Single);
     dataPoint.getFormat().getLine().setDashStyle(LineDashStyle.Solid);
 
-    // Etikettformatering för den senaste serien
+    // Label formatting for the last series
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
@@ -186,14 +181,14 @@ while (i < chart.getChartData().getSeries().size()) {
         lbl.getDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat()
             .getSolidFillColor().setColor(Color.LIGHT_GRAY);
 
-        // Justera visningsalternativ
+        // Adjust display options
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
         lbl.getDataLabelFormat().setShowLeaderLines(true);
         lbl.getDataLabelFormat().setShowLabelAsDataCallout(false);
 
-        // Justera etikettpositionen
+        // Adjust label position
         chart.validateChartLayout();
         lbl.setX(lbl.getX() + (float) 0.5);
         lbl.setY(lbl.getY() + (float) 0.5);
@@ -203,24 +198,43 @@ while (i < chart.getChartData().getSeries().size()) {
 categoryIndex++;
 ```
 
-### Spara presentationen
+### Spara Presentationen
 
-#### Översikt
-När du har konfigurerat ditt diagram sparar du presentationen i en angiven katalog.
+Slutligen, skriv den uppdaterade presentationen till disk.
 
-**Steg 1: Spara presentationen**
-Använd `save` metod för att skriva ändringar:
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/chart_presentation.pptx", SaveFormat.Pptx);
 ```
 
-## Slutsats
+## Vanliga problem och lösningar
 
-Du har nu lärt dig hur du skapar och anpassar ringdiagram i Java med hjälp av Aspose.Slides. Dessa steg ger en grund för att integrera sofistikerade datavisualiseringar i dina presentationer.
+- **Licens ej hittad** – Verifiera att sökvägen till `license.lic` är korrekt och att filen är läsbar.  
+- **Diagrammet visas tomt** – Se till att du rensade befintliga serier/kategorier innan du lade till nya.  
+- **Fel färger** – Kontrollera att `FillType.Solid` är satt för både fyllnings- och linjeformat.  
+- **Prestanda med många serier** – Begränsa antalet serier/kategorier eller återanvänd arbetsbokens celler.
 
-**Nästa steg:**
-- Experimentera med olika diagramtyper som finns i Aspose.Slides.
-- Utforska ytterligare anpassningsalternativ som färger, teckensnitt och stilar för att matcha dina varumärkesbehov.
+## Vanliga frågor
+
+**Q: Kan jag generera ett doughnut chart utan en befintlig PPTX‑fil?**  
+A: Ja, skapa en `new Presentation()` för att börja med en tom bildsamling.
+
+**Q: Stöder Aspose.Slides export till PDF?**  
+A: Absolut. Efter att diagrammet skapats, anropa `pres.save("output.pdf", SaveFormat.Pdf);`.
+
+**Q: Hur ändrar jag storleken på doughnut‑hålet?**  
+A: Använd `series.getParentSeriesGroup().setDoughnutHoleSize((byte) value);` där värdet är 0‑100.
+
+**Q: Är det möjligt att lägga till datalabels till alla serier, inte bara den sista?**  
+A: Ja, flytta etikett‑formateringsblocket utanför `if (i == ...)`‑villkoret och applicera det på varje `dataPoint`.
+
+**Q: Vilka Java‑versioner stöds?**  
+A: Aspose.Slides 25.4 stöder JDK 16 och nyare. Äldre JDK‑versioner kräver rätt classifier.
+
+---
+
+**Senast uppdaterad:** 2026-03-07  
+**Testat med:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

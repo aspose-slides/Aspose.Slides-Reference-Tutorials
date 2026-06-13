@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Dowiedz się, jak tworzyć i formatować wykresy za pomocą Aspose.Slides dla Java. Ten przewodnik obejmuje konfigurację, tworzenie wykresów, formatowanie i zapisywanie prezentacji."
-"title": "Tworzenie i formatowanie wykresów w Javie przy użyciu Aspose.Slides&#58; Kompleksowy przewodnik"
-"url": "/pl/java/charts-graphs/create-format-charts-aspose-slides-java/"
-"weight": 1
+date: '2026-03-07'
+description: Dowiedz się, jak tworzyć wykres liniowy w Javie przy użyciu Aspose.Slides,
+  dodać tytuł wykresu, dodać linie siatki, sformatować etykiety wykresu i zapisać
+  profesjonalne prezentacje.
+keywords:
+- Aspose.Slides Java
+- create charts in Java
+- format PowerPoint charts
+title: Jak stworzyć wykres liniowy przy użyciu Aspose.Slides w Javie – Kompletny przewodnik
+url: /pl/java/charts-graphs/create-format-charts-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,31 +17,29 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Tworzenie i formatowanie wykresów za pomocą Aspose.Slides w Javie
+# Jak stworzyć wykres liniowy przy użyciu Aspose.Slides w Javie
 
-## Jak tworzyć i formatować wykresy w Javie za pomocą Aspose.Slides
+## Jak stworzyć wykres liniowy w Javie przy użyciu Aspose.Slides
 
-### Wstęp
-Tworzenie atrakcyjnych wizualnie prezentacji jest kluczowe dla skutecznej komunikacji. Niezależnie od tego, czy jesteś profesjonalistą biznesowym, czy nauczycielem, zapewnienie, że Twoje wizualizacje danych są zarówno informacyjne, jak i estetyczne, może być wyzwaniem. Ten samouczek przeprowadzi Cię przez korzystanie z **Aspose.Slides dla Java** bezproblemowe tworzenie i formatowanie wykresów w prezentacjach programu PowerPoint.
+### Wprowadzenie
+Tworzenie atrakcyjnych wizualnie prezentacji jest kluczowe dla skutecznej komunikacji. Niezależnie od tego, czy jesteś profesjonalistą biznesowym, czy edukatorem, często musisz **tworzyć wykresy liniowe**, które są zarówno informacyjne, jak i estetycznie przyjemne. W tym samouczku przeprowadzimy Cię przez użycie **Aspose.Slides for Java** do generowania wykresu liniowego, dodawania tytułu wykresu, linii siatki, formatowania etykiet wykresu oraz zapisu wyniku jako pliku PowerPoint.
 
-Ten przewodnik koncentruje się na konfiguracji środowiska, tworzeniu wykresu, konfigurowaniu właściwości, takich jak tytuły, formatowanie osi, linie siatki, etykiety, ustawienia legendy i zapisywanie prezentacji. Postępując zgodnie z tym samouczkiem, nauczysz się, jak:
-- Skonfiguruj swoje środowisko za pomocą Aspose.Slides dla Java
-- Sprawdzanie i tworzenie katalogów programowo w Javie
-- Tworzenie i konfiguracja wykresu przy użyciu Aspose.Slides
-- Formatuj tytuły wykresów, osie, linie siatki, etykiety, legendy i tła
-- Zapisz prezentację ze sformatowanymi wykresami
+#### Szybkie odpowiedzi
+- **Jaka biblioteka jest najlepsza do tworzenia wykresów w Javie?** Aspose.Slides for Java
+- **Na jaki typ wykresu koncentruje się ten przewodnik?** Line chart with markers
+- **Czy potrzebuję licencji, aby uruchomić przykład?** A free temporary license works for evaluation
+- **Jakiego IDE mogę używać?** Any Java IDE such as IntelliJ IDEA, Eclipse, or NetBeans
+- **Jak formatowane są elementy wykresu?** Using fluent API calls for titles, axes, grid lines, legends, and backgrounds
 
-Zanim zaczniemy kodować, upewnijmy się, że wszystko jest skonfigurowane.
+### Co to jest wykres liniowy i dlaczego używać Aspose.Slides?
+Wykres liniowy wyświetla punkty danych połączone prostymi liniami, co czyni go idealnym do prezentowania trendów w czasie. Aspose.Slides pozwala tworzyć i w pełni dostosowywać te wykresy programowo, eliminując potrzebę ręcznej edycji PowerPointa.
 
 ### Wymagania wstępne
-Zanim zaczniesz, upewnij się, że masz:
-1. **Zestaw narzędzi programistycznych Java (JDK)**: Upewnij się, że w systemie jest zainstalowany JDK 8 lub nowszy.
-2. **Zintegrowane środowisko programistyczne (IDE)**: Użyj dowolnego środowiska IDE zgodnego z Java, np. IntelliJ IDEA, Eclipse lub NetBeans.
-3. **Aspose.Slides dla Java**:Ta biblioteka będzie stanowić podstawę naszego samouczka.
+- **Java Development Kit (JDK) 8+** zainstalowany
+- **IDE** (IntelliJ IDEA, Eclipse, NetBeans, itp.)
+- **Aspose.Slides for Java** biblioteka (dodana przez Maven lub Gradle)
 
 #### Wymagane biblioteki i zależności
-Aby użyć Aspose.Slides w swoim projekcie, dodaj go za pomocą Maven lub Gradle:
-
 **Maven**
 ```xml
 <dependency>
@@ -51,130 +55,113 @@ Aby użyć Aspose.Slides w swoim projekcie, dodaj go za pomocą Maven lub Gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Alternatywnie, pobierz najnowszy plik JAR z [Aspose.Slides dla wydań Java](https://releases.aspose.com/slides/java/).
+Alternatywnie, pobierz najnowszy plik JAR z [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-#### Wymagania dotyczące konfiguracji środowiska
-- Zainstaluj nowszą wersję JDK.
-- Skonfiguruj środowisko IDE i upewnij się, że jest ono skonfigurowane do obsługi Mavena lub Gradle (w zależności od Twojego wyboru).
-  
-### Wymagania wstępne dotyczące wiedzy
-Wymagana jest podstawowa znajomość programowania Java. Znajomość zasad obiektowych będzie pomocna.
+#### Uzyskanie licencji
+- Uzyskaj [bezpłatną licencję próbną](https://purchase.aspose.com/temporary-license/) do testów.
+- Kup pełną licencję na [oficjalnej stronie Aspose](https://purchase.aspose.com/buy) do użytku produkcyjnego.
 
-## Konfigurowanie Aspose.Slides dla Java
-Aby rozpocząć korzystanie z Aspose.Slides, dołącz bibliotekę do swojego projektu:
-1. **Dodaj zależność**: Dodaj niezbędne zależności Maven lub Gradle, jak pokazano powyżej.
-2. **Nabycie licencji**:
-   - Uzyskaj [bezpłatna licencja próbna](https://purchase.aspose.com/temporary-license/) w celach testowych.
-   - Do użytku produkcyjnego należy rozważyć zakup pełnej licencji od [Oficjalna strona Aspose](https://purchase.aspose.com/buy).
+### Konfiguracja Aspose.Slides dla Javy
+1. **Dodaj zależność** pokazaną powyżej do swojego projektu.
+2. **Zastosuj licencję** (jeśli ją posiadasz) przed tworzeniem jakichkolwiek obiektów prezentacji.
 
-### Podstawowa inicjalizacja i konfiguracja
-Aby zainicjować Aspose.Slides w aplikacji Java:
 ```java
 import com.aspose.slides.Presentation;
-// Zainicjuj obiekt prezentacji
+// Initialize the Presentation object
 Presentation pres = new Presentation();
 ```
 
-## Przewodnik wdrażania
-W tej sekcji omówiono każdą funkcję krok po kroku, używając logicznych podtytułów dla przejrzystości.
+## Implementacja krok po kroku
 
-### Konfiguracja katalogu
-**Przegląd**: Przed zapisaniem wykresów w prezentacji upewnij się, że struktura katalogów jest prawidłowa.
-
-#### Sprawdź i utwórz katalogi
+### Krok 1: Utwórz katalog wyjściowy (create directory java)
 ```java
 import java.io.File;
-// Zdefiniuj katalog docelowy
+// Define the target directory
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 
-// Sprawdź czy katalog istnieje, jeśli nie, utwórz go
+// Check if directory exists; create it if not
 boolean isExists = new File(dataDir).exists();
 if (!isExists) {
-    new File(dataDir).mkdirs(); // Twórz katalogi rekurencyjnie
+    new File(dataDir).mkdirs(); // Create directories recursively
 }
 ```
-**Wyjaśnienie**: Ten fragment kodu sprawdza, czy określony katalog istnieje. Jeśli nie istnieje, tworzy niezbędne foldery.
+*Dlaczego to ważne:* Zapewnienie, że folder istnieje, zapobiega `FileNotFoundException` podczas późniejszego zapisywania prezentacji.
 
-### Tworzenie i konfiguracja wykresu
-**Przegląd**:Utworzymy wykres w programie PowerPoint za pomocą Aspose.Slides, dostosujemy jego wygląd i zapiszemy do pliku.
-
-#### Tworzenie slajdu prezentacji z wykresem
+### Krok 2: Dodaj slajd i wstaw wykres liniowy
 ```java
 import com.aspose.slides.*;
-// Utwórz nową prezentację
+// Create a new presentation
 Presentation pres = new Presentation();
 try {
-    // Uzyskaj dostęp do pierwszego slajdu
+    // Access the first slide
     ISlide slide = pres.getSlides().get_Item(0);
 
-    // Dodaj wykres do slajdu
+    // Add a chart to the slide
     IChart chart = slide.getShapes().addChart(
         ChartType.LineWithMarkers, 50, 50, 500, 400);
 ```
-**Wyjaśnienie**:Inicjujemy nową prezentację i dodajemy wykres liniowy ze znacznikami na określonych współrzędnych.
+*Wyjaśnienie:* Tworzy nowy slajd i umieszcza **wykres liniowy z markerami** w określonych współrzędnych.
 
-#### Ustaw tytuł wykresu
+### Krok 3: Dodaj tytuł wykresu (add chart title)
 ```java
-// Włącz i sformatuj tytuł
+// Enable and format the title
 chart.setTitle(true);
 IPortion chartTitle = chart.getChartTitle().getTextFrameForOverriding()
     .getParagraphs().get_Item(0).getPortions().get_Item(0);
 
-chartTitle.setText("Sample Chart");
+chartTitle.setText("Sample Line Chart");
 chartTitle.getPortionFormat().setFontBold(NullableBool.True);
 chartTitle.getPortionFormat().setFillType(FillType.Solid);
 chartTitle.getPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.GRAY);
 chartTitle.getPortionFormat().setFontHeight(20);
 ```
-**Wyjaśnienie**: Ten kod ustawia i stylizuje tytuł wykresu. Dostosowywanie właściwości tekstu poprawia czytelność.
+*Wskazówka:* Użycie pogrubionego, szarego tytułu sprawia, że wykres jest od razu rozpoznawalny.
 
-#### Formatuj osie
-##### Formatowanie osi pionowej
+### Krok 4: Formatuj osie i dodaj linie siatki (add grid lines)
+#### Formatowanie osi pionowej
 ```java
 IChartAxis verticalAxis = chart.getAxes().getVerticalAxis();
 
-// Formatuj główne linie siatki
+// Format major grid lines
 verticalAxis.getMajorGridLinesFormat().getLine()
     .setFillType(FillType.Solid)
     .getFillFormat().getSolidFillColor().setColor(Color.BLUE);
 verticalAxis.getMajorGridLinesFormat().getLine().setWidth(5);
 
-// Konfigurowanie właściwości osi
+// Configure axis properties
 verticalAxis.setNumberFormat("0.0%");
 verticalAxis.setMaxValue(15f);
 verticalAxis.setMinValue(-2f);
 ```
-**Wyjaśnienie**:Dostosowujemy linie siatki osi pionowej i ustawiamy formatowanie liczbowe w celu zapewnienia przejrzystości.
 
-##### Formatowanie osi poziomej
+#### Formatowanie osi poziomej
 ```java
 IChartAxis horizontalAxis = chart.getAxes().getHorizontalAxis();
 
-// Formatuj główne linie siatki
+// Format major grid lines
 horizontalAxis.getMajorGridLinesFormat().getLine()
     .setFillType(FillType.Solid)
     .getFillFormat().getSolidFillColor().setColor(Color.GREEN);
 horizontalAxis.getMajorGridLinesFormat().getLine().setWidth(5);
 
-// Ustaw pozycje i obroty etykiet
+// Set label positions and rotations
 horizontalAxis.setTickLabelPosition(TickLabelPositionType.Low);
 horizontalAxis.setTickLabelRotationAngle(45);
 ```
-**Wyjaśnienie**:Oś pozioma jest sformatowana w podobny sposób, z dodatkowymi dostosowaniami dotyczącymi pozycjonowania etykiety.
+*Dlaczego to ważne:* Czytelne linie siatki i obrócone etykiety poprawiają czytelność, szczególnie gdy punkty danych są gęste.
 
-#### Dostosuj legendę
+### Krok 5: Dostosuj legendę (add chart title – already covered, but legend is part of overall formatting)
 ```java
 IChartPortionFormat txtLeg = chart.getLegend().getTextFormat().getPortionFormat();
 txtLeg.setFontBold(NullableBool.True);
 txtLeg.getFillFormat().setFillType(FillType.Solid)
     .getSolidFillColor().setColor(Color.RED);
 
-// Zapobiegaj nakładaniu się z obszarem wykresu
+// Prevent overlap with the chart area
 chart.getLegend().setOverlay(true);
 ```
-**Wyjaśnienie**:Ustawienie właściwości legendy zapewnia przejrzystość i zapobiega bałaganowi wizualnemu.
 
-#### Konfiguruj tła
+### Krok 6: Ustaw kolory tła (format chart labels – part of overall visual styling)
 ```java
 chart.getBackWall().setThickness(1);
 chart.getBackWall().getFormat().getFill()
@@ -185,27 +172,57 @@ chart.getPlotArea().getFormat().getFill()
     .setFillType(FillType.Solid)
     .getSolidFillColor().setColor(new Color(PresetColor.LightCyan));
 ```
-**Wyjaśnienie**:Kolory tła mają charakter estetyczny i poprawiają ogólny wygląd wykresu.
 
-### Zapisywanie prezentacji
+### Krok 7: Zapisz prezentację
 ```java
-// Zapisz prezentację na dysku
+// Save the presentation to disk
 pres.save("YOUR_OUTPUT_DIRECTORY/FormattedChart_out.pptx", SaveFormat.Pptx);
 } finally {
-    if (pres != null) pres.dispose(); // Oczyść zasoby
+    if (pres != null) pres.dispose(); // Clean up resources
 }
 ```
-**Wyjaśnienie**:Dzięki temu masz pewność, że wszystkie zmiany zostaną zapisane, a zasoby będą prawidłowo zarządzane.
+*Wynik:* Masz teraz plik PowerPoint (`FormattedChart_out.pptx`) zawierający w pełni sformatowany wykres liniowy.
 
-## Zastosowania praktyczne
-1. **Raporty biznesowe**:Tworzenie szczegółowych raportów z sformatowanymi wykresami w celu prezentacji wyników kwartalnych.
-2. **Materiały edukacyjne**:Tworzenie angażujących prezentacji dla uczniów przy użyciu wizualizacji opartych na danych.
-3. **Propozycje projektów**:Ulepsz oferty, integrując atrakcyjne wizualnie wykresy, które podkreślają kluczowe wskaźniki.
-4. **Analiza marketingowa**:Używaj wykresów w materiałach marketingowych, aby skutecznie przedstawiać trendy i wyniki kampanii.
-5. **Integracja z pulpitem nawigacyjnym**:Osadzaj wykresy w pulpitach nawigacyjnych w celu wizualizacji danych w czasie rzeczywistym.
+## Praktyczne zastosowania
+- **Raporty biznesowe:** Prezentuj wyniki kwartalne za pomocą linii trendu.
+- **Slajdy edukacyjne:** Wizualizuj dane naukowe na wykładach.
+- **Propozycje projektów:** Podkreśl kamienie milowe i prognozy.
+- **Analiza marketingowa:** Przedstaw trendy ROI kampanii.
+- **Integracja z pulpitami:** Eksportuj dane na żywo do PowerPointa na spotkania z interesariuszami.
 
 ## Rozważania dotyczące wydajności
-- **Zarządzanie pamięcią**: Zawsze usuwaj obiekty prezentacji, aby szybko zwolnić zasoby.
+- **Zarządzanie pamięcią:** Zawsze wywołuj `dispose()` na obiekcie `Presentation`, aby szybko zwolnić zasoby natywne.
+
+## Typowe problemy i rozwiązania
+| Problem | Rozwiązanie |
+|-------|----------|
+| **Licencja nie zastosowana** | Załaduj licencję próbną/pełną przed tworzeniem jakichkolwiek obiektów `Presentation`. |
+| **Wykres jest pusty** | Sprawdź, czy slajd rzeczywiście zawiera serie danych; dodaj serie w razie potrzeby. |
+| **Plik nie został zapisany** | Upewnij się, że katalog wyjściowy istnieje (użyj kroku „create directory java”). |
+| **Kolory nie zostały zastosowane** | Użyj stałych `Color` z `java.awt.Color` lub `PresetColor`. |
+
+## Najczęściej zadawane pytania
+
+**Q: Czy mogę tworzyć inne typy wykresów oprócz wykresów liniowych?**  
+A: Tak, Aspose.Slides obsługuje wykresy słupkowe, kołowe, punktowe i wiele innych typów wykresów.
+
+**Q: Jak dodać wiele serii danych do wykresu liniowego?**  
+A: Użyj `chart.getChartData().getSeries().add(...)`, aby wstawić dodatkowe serie przed formatowaniem.
+
+**Q: Czy można wyeksportować wykres jako obraz?**  
+A: Oczywiście. Wywołaj `chart.getChartData().getChartDataWorkbook().save(...)` lub renderuj slajd do formatu obrazu.
+
+**Q: Czy potrzebuję płatnej licencji do programowania?**  
+A: Bezpłatna licencja tymczasowa działa w celach ewaluacyjnych; licencja komercyjna jest wymagana przy wdrożeniach produkcyjnych.
+
+**Q: Jakie wersje Javy są wspierane?**  
+A: Biblioteka działa z JDK 8 aż do JDK 22 (użyj odpowiedniego klasyfikatora, np. `jdk16`). 
+
+---
+
+**Ostatnia aktualizacja:** 2026-03-07  
+**Testowano z:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
