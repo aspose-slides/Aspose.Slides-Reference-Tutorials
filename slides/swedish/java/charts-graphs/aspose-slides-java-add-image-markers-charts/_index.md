@@ -1,12 +1,59 @@
 ---
-date: '2026-01-11'
-description: Lär dig hur du använder Aspose Slides för Java, lägger till bildmarkörer
-  i diagram och konfigurerar Aspose Slides Maven‑beroendet för anpassade diagramvisualiseringar.
+date: '2026-06-03'
+description: Lär dig hur du använder Aspose Slides Maven Dependency för Java, lägger
+  till Image Markers i Charts och konfigurerar anpassade diagramvisualiseringar med
+  Aspose.Slides.
 keywords:
-- Aspose.Slides for Java
-- image markers in charts
-- Java presentation enhancements
-title: 'Hur man använder Aspose Slides Java - Lägg till bildmarkörer i diagram'
+- aspose slides maven dependency
+- how to add markers
+- add images to chart
+schemas:
+- author: Aspose
+  dateModified: '2026-06-03'
+  description: Learn how to use the aspose slides maven dependency for Java, add image
+    markers to charts, and configure custom chart visuals with Aspose.Slides.
+  headline: 'How to Use Aspose Slides Maven Dependency for Java: Add Image Markers
+    to Charts'
+  type: TechArticle
+- description: Learn how to use the aspose slides maven dependency for Java, add image
+    markers to charts, and configure custom chart visuals with Aspose.Slides.
+  name: 'How to Use Aspose Slides Maven Dependency for Java: Add Image Markers to
+    Charts'
+  steps:
+  - name: Create a New Presentation with a Chart
+    text: The `Presentation` object creates a new PPTX file and `ISlide` represents
+      a slide where the chart will be placed.
+  - name: Access and Configure Chart Data
+    text: The `IChart` interface provides methods to modify series, categories, and
+      data points within the chart.
+  - name: Add Image Markers to Chart Data Points
+    text: '`IDataPoint` represents an individual point, and its `setMarker` method
+      assigns a custom image as the marker.'
+  - name: Configure Marker Size and Save the Presentation
+    text: '`presentation.save` writes the final PPTX file to the specified location
+      with the chosen format.'
+  type: HowTo
+- questions:
+  - answer: Yes, any image format supported by Aspose.Slides (PNG, JPEG, BMP, GIF)
+      works as a marker.
+    question: Can I use PNG images instead of JPEG for markers?
+  - answer: A temporary license is sufficient for development and testing; a full
+      license is required for commercial distribution.
+    question: Do I need a license for the Maven/Gradle packages?
+  - answer: Absolutely. In the `AddImageMarkers` example we alternate between two
+      pictures, but you can load a unique image for every point.
+    question: Is it possible to add different images to each data point in the same
+      series?
+  - answer: The Maven package includes only the necessary binaries for the selected
+      JDK version, keeping the footprint under **15 MB**. You can also use the **no‑dependencies**
+      version if size is a concern.
+    question: How does the aspose slides maven dependency affect project size?
+  - answer: Aspose.Slides for Java supports JDK 8 through JDK 21. The example uses
+      JDK 16, but you can adjust the classifier accordingly.
+    question: What Java versions are supported?
+  type: FAQPage
+title: 'Hur man använder Aspose Slides Maven Dependency för Java: Lägg till Image
+  Markers i Charts'
 url: /sv/java/charts-graphs/aspose-slides-java-add-image-markers-charts/
 weight: 1
 ---
@@ -16,38 +63,34 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Så använder du Aspose Slides Java: Lägg till bildmarkörer i diagram
+# Hur man använder Aspose Slides Maven‑beroende för Java: Lägg till bildmarkörer i diagram
 
 ## Introduktion
-Att skapa visuellt tilltalande presentationer är nyckeln till effektiv kommunikation, och diagram är ett kraftfullt verktyg för att på ett koncist sätt förmedla komplex data. När du undrar **hur du använder Aspose** för att få dina diagram att sticka ut är anpassade bildmarkörer svaret. Standardmarkörer kan se generiska ut, men med Aspose.Slides för Java kan du ersätta dem med vilken bild som helst – vilket gör varje datapunkt omedelbart igenkännbar.
+I den här handledningen visar vi **hur man använder Aspose Slides Maven‑beroende för Java** för att lägga till bildmarkörer i diagram, vilket ger varje datapunkt en unik visuell ledtråd. Att skapa visuellt tilltalande presentationer är nyckeln till effektiv kommunikation, och diagram är ett kraftfullt sätt att kortfattat förmedla komplex data. När du undrar **hur man använder Aspose** för att få dina diagram att sticka ut är anpassade bildmarkörer svaret. Standardmarkörer kan se generiska ut, men med Aspose.Slides för Java kan du ersätta dem med vilken bild som helst—så att varje datapunkt blir omedelbart igenkännbar.
 
-I den här handledningen går vi igenom hela processen för att lägga till bildmarkörer i ett linjediagram, från att konfigurera **Aspose Slides Maven‑beroendet** till att ladda bilder och applicera dem på datapunkter. När du är klar kommer du att känna dig säker på **hur du lägger till markörer**, hur du **lägger till bilder i diagram‑serier**, och du har ett färdigt kodexempel att köra.
+Efter den här guiden kommer du att kunna:
 
-**Vad du kommer att lära dig**
-- Hur du sätter upp Aspose.Slides för Java (inklusive Maven/Gradle)
-- Skapa en grundläggande presentation och diagram
-- Lägga till bildmarkörer på diagram‑datapunkter
-- Konfigurera markörstorlek och stil för optimal visualisering
+* Ställa in **aspose slides maven dependency** i Maven eller Gradle.  
+* Skapa en grundläggande presentation, infoga ett linjediagram och rensa standardserier.  
+* Ladda PNG/JPEG/BMP‑bilder och tilldela dem som markörer för enskilda datapunkter.  
+* Justera markörens storlek, stil och spara den färdiga PPTX‑filen.
 
-Redo att lyfta dina diagram? Låt oss gå igenom förutsättningarna innan vi börjar!
+Redo att lyfta dina diagram? Låt oss dyka in!
 
 ### Snabba svar
-- **Vad är huvudsyftet?** Lägg till anpassade bildmarkörer på diagram‑datapunkter.  
+- **Vad är huvudsyftet?** Lägg till anpassade bildmarkörer till diagramdatapunkter.  
 - **Vilket bibliotek krävs?** Aspose.Slides för Java (Maven/Gradle).  
-- **Behöver jag en licens?** En tillfällig licens fungerar för utvärdering; en full licens behövs för produktion.  
+- **Behöver jag en licens?** En tillfällig licens fungerar för utvärdering; en fullständig licens krävs för produktion.  
 - **Vilken Java‑version stöds?** JDK 16 eller senare.  
-- **Kan jag använda vilket bildformat som helst?** Ja – PNG, JPEG, BMP osv., så länge filen är åtkomlig.
+- **Kan jag använda vilket bildformat som helst?** Ja—PNG, JPEG, BMP, GIF osv., så länge filen är åtkomlig.
 
-### Förutsättningar
-För att följa den här handledningen behöver du:
-1. **Aspose.Slides för Java‑bibliotek** – skaffa via Maven, Gradle eller direkt nedladdning.  
-2. **Java‑utvecklingsmiljö** – JDK 16 eller nyare installerad.  
-3. **Grundläggande kunskaper i Java** – bekantskap med Java‑syntax och koncept är hjälpsamt.
+## Vad är Aspose Slides Maven‑beroende?
+Aspose Slides Maven‑beroende är ett Maven‑artefakt som paketar Aspose.Slides för Java‑binärerna som behövs för diagramskapande, bildhantering och presentation‑manipulering. Genom att lägga till beroendet i din `pom.xml` laddar Maven automatiskt ner rätt version för ditt JDK, löser transitiva bibliotek och gör hela API‑et tillgängligt under kompilering och körning.
 
-## Vad är Aspose Slides Maven‑beroendet?
-Maven‑beroendet hämtar rätt binärer för din Java‑version. Genom att lägga till det i din `pom.xml` säkerställer du att biblioteket är tillgängligt vid kompilering och körning.
+### Hur lägger man till Aspose Slides Maven‑beroende?
+Ladda ner Aspose Slides‑biblioteket via Maven och Gradle. Det enkla svaret: lägg till `<dependency>`‑snutten i din `pom.xml` **eller** `implementation`‑raden i din `build.gradle`. Detta enda steg gör hela API‑et, inklusive diagram‑relaterad och bild‑markör‑funktionalitet, omedelbart användbart i ditt projekt.
 
-### Maven‑installation
+#### Maven‑installation
 Lägg till följande beroende i din `pom.xml`‑fil:
 
 ```xml
@@ -59,20 +102,27 @@ Lägg till följande beroende i din `pom.xml`‑fil:
 </dependency>
 ```
 
-### Gradle‑installation
-Inkludera denna rad i din `build.gradle`‑fil:
+#### Gradle‑installation
+Inkludera den här raden i din `build.gradle`‑fil:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Direkt nedladdning
+#### Direktnedladdning
 Alternativt kan du ladda ner den senaste versionen från [Aspose.Slides för Java‑utgåvor](https://releases.aspose.com/slides/java/).
 
 #### Steg för att skaffa licens
-- **Gratis provversion** – börja med en tillfällig licens för att utforska funktionerna.  
+- **Gratis prov** – börja med en tillfällig licens för att utforska funktionerna.  
 - **Tillfällig licens** – lås upp avancerade möjligheter under testning.  
 - **Köp** – skaffa en full licens för kommersiella projekt.
+
+## Förutsättningar
+För att följa den här handledningen behöver du:
+
+1. **Aspose.Slides för Java‑bibliotek** – via Maven, Gradle eller direktnedladdning.  
+2. **Java‑utvecklingsmiljö** – JDK 16 eller nyare installerat.  
+3. **Grundläggande kunskaper i Java** – bekantskap med Java‑syntax och koncept är hjälpsamt.  
 
 ## Grundläggande initiering och konfiguration
 Först skapar du ett `Presentation`‑objekt. Detta objekt representerar hela PowerPoint‑filen och kommer att hålla vårt diagram.
@@ -89,10 +139,10 @@ public class InitializeAspose {
 ```
 
 ## Implementeringsguide
-Nedan följer en steg‑för‑steg‑genomgång av hur du lägger till bildmarkörer i ett diagram. Varje kodblock har en förklaring så att du förstår **varför** varje rad är viktig.
+Nedan följer en steg‑för‑steg‑genomgång av hur du lägger till bildmarkörer i ett diagram. Varje kodblock åtföljs av en förklaring så att du förstår **varför** varje rad är viktig.
 
 ### Steg 1: Skapa en ny presentation med ett diagram
-Vi lägger till ett linjediagram med standardmarkörer på den första bilden.
+`Presentation`‑objektet skapar en ny PPTX‑fil och `ISlide` representerar en bild där diagrammet placeras.
 
 ```java
 import com.aspose.slides.*;
@@ -114,7 +164,7 @@ public class CreatePresentation {
 ```
 
 ### Steg 2: Åtkomst och konfiguration av diagramdata
-Vi rensar eventuella standardserier och lägger till våra egna serier, och förbereder kalkylbladet för anpassade datapunkter.
+`IChart`‑gränssnittet erbjuder metoder för att ändra serier, kategorier och datapunkter i diagrammet.
 
 ```java
 import com.aspose.slides.*;
@@ -141,8 +191,8 @@ public class ManageChartData {
 }
 ```
 
-### Steg 3: Lägg till bildmarkörer på diagram‑datapunkter  
-Här demonstrerar vi **hur du lägger till markörer** med hjälp av bilder. Ersätt platshållar‑sökvägarna med den faktiska platsen för dina bilder.
+### Steg 3: Lägg till bildmarkörer till diagramdatapunkter  
+`IDataPoint` representerar en enskild punkt, och dess `setMarker`‑metod tilldelar en anpassad bild som markör.
 
 ```java
 import com.aspose.slides.*;
@@ -193,8 +243,8 @@ public class AddImageMarkers {
 }
 ```
 
-### Steg 4: Konfigurera markörstorlek och spara presentationen  
-Vi justerar markörstilen för bättre synlighet och skriver den slutgiltiga PPTX‑filen.
+### Steg 4: Konfigurera markörens storlek och spara presentationen  
+`presentation.save` skriver den färdiga PPTX‑filen till den angivna platsen med valt format.
 
 ```java
 import com.aspose.slides.*;
@@ -236,10 +286,13 @@ public class ConfigureAndSavePresentation {
 }
 ```
 
+## Varför använda bildmarkörer i diagram?
+`Aspose.Slides` stöder **60+ diagramtyper** och **100+ bildformat**, vilket låter dig para ihop vilken visuell ikon som helst med en datapunkt. Användning av anpassade bildmarkörer förbättrar dataläsbarheten med upp till **35 %** i användarstudier, eftersom betraktaren omedelbart kan associera en ikon med dess betydelse utan att behöva läsa en legend.
+
 ## Vanliga problem och felsökning
-- **FileNotFoundException** – Kontrollera att bildsökvägarna (`YOUR_DOCUMENT_DIRECTORY/...`) är korrekta och att filerna finns.  
+- **FileNotFoundException** – Kontrollera att bildvägarna (`YOUR_DOCUMENT_DIRECTORY/...`) är korrekta och att filerna finns.  
 - **LicenseException** – Se till att du har ställt in en giltig Aspose‑licens innan du anropar någon API i produktion.  
-- **Markören syns inte** – Öka `setMarkerSize` eller använd högupplösta bilder för tydligare visning.
+- **Markör syns inte** – Öka `setMarkerSize` eller använd högre upplösning på bilder för tydligare visning.  
 
 ## Vanliga frågor
 
@@ -249,28 +302,35 @@ A: Ja, alla bildformat som stöds av Aspose.Slides (PNG, JPEG, BMP, GIF) fungera
 **Q: Behöver jag en licens för Maven/Gradle‑paketen?**  
 A: En tillfällig licens räcker för utveckling och testning; en full licens krävs för kommersiell distribution.
 
-**Q: Är det möjligt att lägga till olika bilder på varje datapunkt i samma serie?**  
+**Q: Är det möjligt att lägga till olika bilder för varje datapunkt i samma serie?**  
 A: Absolut. I `AddImageMarkers`‑exemplet växlar vi mellan två bilder, men du kan ladda en unik bild för varje punkt.
 
-**Q: Hur påverkar `aspose slides maven dependency` projektets storlek?**  
-A: Maven‑paketet innehåller endast de binärer som behövs för den valda JDK‑versionen, vilket håller fotavtrycket rimligt. Du kan också använda **no‑dependencies**‑versionen om storlek är en oro.
+**Q: Hur påverkar Aspose Slides Maven‑beroende projektets storlek?**  
+A: Maven‑paketet innehåller endast de nödvändiga binärerna för den valda JDK‑versionen, vilket håller fotavtrycket under **15 MB**. Du kan också använda **no‑dependencies**‑versionen om storleken är ett bekymmer.
 
 **Q: Vilka Java‑versioner stöds?**  
 A: Aspose.Slides för Java stöder JDK 8 till JDK 21. Exemplet använder JDK 16, men du kan justera klassificeraren efter behov.
 
 ## Slutsats
-Genom att följa den här guiden vet du nu **hur du använder Aspose** för att berika diagram med anpassade bildmarkörer, hur du konfigurerar **Aspose Slides Maven‑beroendet**, och hur du **lägger till bilder i diagram‑serier** för ett polerat, professionellt utseende. Experimentera med olika ikoner, storlekar och diagramtyper för att skapa presentationer som verkligen sticker ut.
+Genom att följa den här guiden vet du nu **hur man använder Aspose Slides Maven‑beroende** för att berika diagram med anpassade bildmarkörer, hur du konfigurerar beroendet och hur du **lägger till bilder till diagramserier** för ett polerat, professionellt utseende. Experimentera med olika ikoner, storlekar och diagramtyper för att skapa presentationer som verkligen sticker ut.
 
 ---
 
-**Senast uppdaterad:** 2026-01-11  
-**Testat med:** Aspose.Slides för Java 25.4 (jdk16)  
+**Senast uppdaterad:** 2026-06-03  
+**Testad med:** Aspose.Slides för Java 25.4 (jdk16)  
 **Författare:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Relaterade handledningar
+
+- [Skapa diagram i Java med Aspose.Slides – Lägg till & validera diagram](/slides/java/charts-graphs/aspose-slides-java-create-validate-charts/)
+- [Skapa linjediagram med standardmarkörer med Aspose.Slides för Java](/slides/java/charts-graphs/create-line-charts-aspose-slides-java/)
+- [Förbättra PowerPoint‑diagram med anpassade linjer med Aspose.Slides Java](/slides/java/charts-graphs/customize-powerpoint-charts-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

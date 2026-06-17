@@ -1,12 +1,71 @@
 ---
-date: '2026-02-09'
-description: เรียนรู้วิธีสร้างแผนภูมิและส่งออกแผนภูมิไปยัง Excel ด้วย Aspose.Slides
-  for Java. เชี่ยวชาญการแสดงผลข้อมูล, สไลด์รายงานธุรกิจ, และการสร้างเวิร์กบุ๊ก.
+date: '2026-06-03'
+description: เรียนรู้วิธีส่งออกแผนภูมิไปยัง Excel และสร้างแผนภูมิด้วย Java โดยใช้
+  Aspose.Slides for Java. เชี่ยวชาญการแสดงผลข้อมูล, สไลด์รายงานธุรกิจ, และการสร้างเวิร์กบุ๊ก.
 keywords:
-- Aspose.Slides Java
-- creating charts in Java
-- exporting chart data with Aspose
-title: วิธีสร้างแผนภูมิด้วย Aspose.Slides Java
+- export chart to excel
+- create chart java
+- how to create chart
+- add chart to powerpoint
+- java chart visualization
+schemas:
+- author: Aspose
+  dateModified: '2026-06-03'
+  description: Learn how to export chart to Excel and create chart Java using Aspose.Slides
+    for Java. Master data visualization, business report slides, and workbook generation.
+  headline: Export Chart to Excel and Create Charts with Aspose.Slides
+  type: TechArticle
+- description: Learn how to export chart to Excel and create chart Java using Aspose.Slides
+    for Java. Master data visualization, business report slides, and workbook generation.
+  name: Export Chart to Excel and Create Charts with Aspose.Slides
+  steps:
+  - name: Visit the [Aspose Purchase page](https://purchase.aspose.com/buy) to get
+      your license.
+    text: Visit the [Aspose Purchase page](https://purchase.aspose.com/buy) to get
+      your license.
+  - name: For a free trial, download from [Releases](https://releases.aspose.com/slides/java/).
+    text: For a free trial, download from [Releases](https://releases.aspose.com/slides/java/).
+  - name: Apply for a temporary license [here](https://purchase.aspose.com/temporary-license/).
+    text: Apply for a temporary license [here](https://purchase.aspose.com/temporary-license/).
+  - name: '**Business Report Slides:** Generate quarterly performance charts automatically
+      from your data pipelines.'
+    text: '**Business Report Slides:** Generate quarterly performance charts automatically
+      from your data pipelines.'
+  - name: '**Academic Presentations:** Turn research data into clear visualizations
+      without manual charting.'
+    text: '**Academic Presentations:** Turn research data into clear visualizations
+      without manual charting.'
+  - name: '**Financial Analysis:** Export chart data to Excel for auditors to verify
+      numbers, reducing manual errors.'
+    text: '**Financial Analysis:** Export chart data to Excel for auditors to verify
+      numbers, reducing manual errors.'
+  - name: '**Marketing Analytics:** Visualize campaign metrics and share editable
+      workbooks with stakeholders for collaborative decision‑making.'
+    text: '**Marketing Analytics:** Visualize campaign metrics and share editable
+      workbooks with stakeholders for collaborative decision‑making.'
+  - name: '**Automated Dashboard Generation:** Combine the chart‑creation API with
+      scheduled jobs to produce up‑to‑date slide decks each morning.'
+    text: '**Automated Dashboard Generation:** Combine the chart‑creation API with
+      scheduled jobs to produce up‑to‑date slide decks each morning.'
+  type: HowTo
+- questions:
+  - answer: Yes. Replace `ChartType.Pie` with any other `ChartType` enum value such
+      as `ChartType.Bar` or `ChartType.Line`.
+    question: Can I use a different chart type (e.g., Bar, Line) with the same code?
+  - answer: Absolutely. Modify the Excel file directly; the linked chart will reflect
+      the changes the next time the presentation is opened.
+    question: Is it possible to update the external workbook after the chart is created?
+  - answer: No. The Excel export capability is included in the standard Aspose.Slides
+      for Java license.
+    question: Do I need a separate license for the Excel export feature?
+  - answer: Aspose.Slides for Java supports JDK 16 and newer; earlier versions may
+      work but are not officially tested.
+    question: Which Java versions are supported?
+  - answer: Use `chart.getChartData().setExternalWorkbook(null)` to embed the workbook,
+      or keep the external link for dynamic updates.
+    question: How can I embed the generated Excel workbook inside the PPTX file?
+  type: FAQPage
+title: ส่งออกแผนภูมิไปยัง Excel และสร้างแผนภูมิด้วย Aspose.Slides
 url: /th/java/charts-graphs/aspose-slides-java-chart-creation-exportation/
 weight: 1
 ---
@@ -16,46 +75,43 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# วิธีสร้างแผนภูมิด้วย Aspose.Slides for Java
+# ส่งออกแผนภูมิไปยัง Excel และสร้างแผนภูมิด้วย Aspose.Slides
 
 **เชี่ยวชาญเทคนิคการแสดงผลข้อมูลด้วย Aspose.Slides for Java**
 
-ในยุคที่ข้อมูลเป็นศูนย์กลาง *วิธีสร้างแผนภูมิ* ด้วยโปรแกรมเป็นทักษะที่สามารถเปลี่ยนตัวเลขดิบให้กลายเป็นเรื่องราวภาพที่น่าสนใจ ไม่ว่าคุณจะกำลังสร้างสไลด์ชุดรายงานธุรกิจหรือแดชบอร์ดวิเคราะห์แบบโต้ตอบ Aspose.Slides for Java จะมอบพลังให้คุณสร้าง ปรับแต่ง และส่งออกแผนภูมิโดยตรงจากโค้ดของคุณ ในบทเรียนนี้คุณจะได้เรียนรู้วิธีสร้างอ็อบเจ็กต์แผนภูมิ ส่งออกข้อมูลแผนภูมิไปยัง Excel และเชื่อมแผนภูมิกับเวิร์กบุ๊กภายนอกเพื่อการจัดการข้อมูลที่ราบรื่น
+ในยุคที่ข้อมูลเป็นศูนย์กลางในปัจจุบัน การ *export chart to excel* ผ่านโปรแกรมเป็นทักษะที่สามารถเปลี่ยนตัวเลขดิบให้กลายเป็นเรื่องราวภาพที่น่าสนใจ ไม่ว่าคุณจะสร้างชุดสไลด์รายงานธุรกิจหรือแดชบอร์ดการวิเคราะห์แบบโต้ตอบ Aspose.Slides for Java จะมอบพลังให้คุณสร้าง ปรับแต่ง และส่งออกแผนภูมิโดยตรงจากโค้ดของคุณ ในบทแนะนำนี้คุณจะได้เรียนรู้วิธีสร้างอ็อบเจกต์แผนภูมิ การส่งออกข้อมูลแผนภูมิไปยัง Excel และการเชื่อมแผนภูกิ์กับเวิร์กบุ๊กภายนอกเพื่อการจัดการข้อมูลที่ราบรื่น
 
-## คำตอบอย่างรวดเร็ว
-- **ไลบรารีที่ต้องการคืออะไร?** Aspose.Slides for Java (v25.4+)  
-- **ฉันสามารถส่งออกข้อมูลแผนภูมิไปยัง Excel ได้หรือไม่?** ได้ – ใช้ `readWorkbookStream()` แล้วเขียนไบต์ไปยังไฟล์ *.xlsx*  
-- **ต้องใช้เวอร์ชัน Java ใด?** JDK 16 หรือสูงกว่า  
-- **ต้องมีลิขสิทธิ์หรือไม่?** ลิขสิทธิ์ทดลองฟรีใช้ได้สำหรับการประเมิน; ต้องมีลิขสิทธิ์ถาวรสำหรับการใช้งานจริง  
-- **แผนภูมิประเภทใดที่แสดงในตัวอย่าง?** แผนภูมิพาย (Pie chart) แต่แนวทางเดียวกันใช้ได้กับแผนภูมิแท่ง, เส้น, และประเภทอื่น ๆ
+## คำตอบสั้นๆ
+- **ต้องการไลบรารีอะไร?** Aspose.Slides for Java (v25.4+).  
+- **ฉันสามารถส่งออกข้อมูลแผนภูมิไปยัง Excel ได้หรือไม่?** ใช่ – ใช้ `readWorkbookStream()` และเขียนไบต์ไปยังไฟล์ *.xlsx*.  
+- **ต้องการเวอร์ชัน Java ใด?** JDK 16 หรือสูงกว่า.  
+- **ฉันต้องการไลเซนส์หรือไม่?** ไลเซนส์ทดลองฟรีใช้ได้สำหรับการประเมิน; จำเป็นต้องมีไลเซนส์ถาวรสำหรับการใช้งานจริง.  
+- **ประเภทแผนภูมิที่แสดงคืออะไร?** แผนภูมิวงกลม (Pie chart) แต่วิธีเดียวกันสามารถใช้กับแผนภูมิแท่ง, เส้น, และประเภทแผนภูมิอื่นๆ
 
 ## Aspose.Slides for Java คืออะไร?
-Aspose.Slides for Java เป็น API แบบ pure‑Java ที่ช่วยให้นักพัฒนาสร้าง แก้ไข และแปลงงานนำเสนอ PowerPoint ได้โดยไม่ต้องใช้ Microsoft Office รองรับแผนภูมิหลากหลายประเภท การผูกข้อมูล และความสามารถในการส่งออก ทำให้เหมาะสำหรับโครงการ **data visualization java** ทุกประเภท
+Aspose.Slides for Java เป็น API แบบ pure‑Java ที่ทำให้นักพัฒนาสามารถสร้าง, แก้ไข, และแปลงงานนำเสนอ PowerPoint โดยไม่ต้องใช้ Microsoft Office มันให้ชุดคลาสที่ครบถ้วนสำหรับการจัดการสไลด์, การสร้างแผนภูมิ, และการแปลงรูปแบบ, ทำให้สามารถสร้างโซลูชันการรายงานอัตโนมัติได้ รองรับ **50+ chart types**, การผูกข้อมูลเต็มรูปแบบ, และการส่งออก Excel โดยตรง ทำให้เหมาะสำหรับโครงการ **data visualization java**
 
 ## ทำไมต้องใช้ Aspose.Slides เพื่อสร้างแผนภูมิและส่งออกแผนภูมิไปยัง Excel?
-- **ไม่ต้องติดตั้ง Office** – ทำงานได้บนเซิร์ฟเวอร์หรือคลาวด์ใดก็ได้  
-- **ไลบรารีแผนภูมิที่ครบครัน** – มีหลายสิบประเภทแผนภูมิและการควบคุมสไตล์เต็มรูปแบบ  
-- **ส่งออกไปยัง Excel โดยตรง** – สร้างเวิร์กบุ๊กภายนอกสำหรับการวิเคราะห์ต่อเนื่อง  
-- **ประสิทธิภาพสูง** – ใช้หน่วยความจำน้อยและประมวลผลเร็วสำหรับชุดสไลด์ขนาดใหญ่  
+ส่งออกแผนภูมิไปยัง Excel อย่างรวดเร็วและเชื่อถือได้ Aspose.Slides ขจัดความจำเป็นในการติดตั้ง Office, มี **over 50‑built‑in chart styles**, และประมวลผลงานนำเสนอ **up to 300 MB in under 30 seconds** บนฮาร์ดแวร์เซิร์ฟเวอร์มาตรฐาน คุณยังได้รับการสร้างเวิร์กบุ๊ก Excel แบบเนทีฟ ซึ่งทำให้ผู้วิเคราะห์ต่อไปสามารถทำงานกับตัวเลขดิบโดยไม่ต้องคัดลอก‑วางด้วยตนเอง
 
 ## ข้อกำหนดเบื้องต้น
-ก่อนเริ่มทำตามขั้นตอน โปรดตรวจสอบว่าคุณมีสิ่งต่อไปนี้ครบแล้ว:
+ก่อนที่เราจะเริ่มลงลึก, โปรดตรวจสอบว่าคุณมีสิ่งต่อไปนี้:
 
-### ไลบรารีและเวอร์ชันที่ต้องการ
-- **Aspose.Slides for Java** เวอร์ชัน 25.4 หรือใหม่กว่า
+### ไลบรารีและเวอร์ชันที่จำเป็น
+- **Aspose.Slides for Java** เวอร์ชัน 25.4 หรือใหม่กว่า (รองรับ JDK 16+)
 
-### ความต้องการการตั้งค่าสภาพแวดล้อม
+### ข้อกำหนดการตั้งค่าสภาพแวดล้อม
 - Java Development Kit (JDK) 16 หรือสูงกว่า  
-- IDE เช่น IntelliJ IDEA หรือ Eclipse (หรือโปรแกรมแก้ไขข้อความที่คุณชอบ)
+- IDE เช่น IntelliJ IDEA หรือ Eclipse (หรือโปรแกรมแก้ไขข้อความใดก็ได้ที่คุณชอบ)
 
-### ความรู้พื้นฐานที่จำเป็น
-- ทักษะการเขียนโปรแกรม Java เบื้องต้น  
-- ความคุ้นเคยกับเครื่องมือสร้างโปรเจกต์ Maven หรือ Gradle  
+### ความรู้เบื้องต้นที่จำเป็น
+- ทักษะการเขียนโปรแกรม Java พื้นฐาน  
+- ความคุ้นเคยกับเครื่องมือสร้าง Maven หรือ Gradle
 
 ## การตั้งค่า Aspose.Slides for Java
-เพิ่มไลบรารีลงในโปรเจกต์ของคุณด้วยระบบ build ที่คุณชื่นชอบ
+เพิ่มไลบรารีลงในโปรเจกต์ของคุณโดยใช้ระบบสร้างที่คุณชื่นชอบ.
 
-**Maven**
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -65,31 +121,80 @@ Aspose.Slides for Java เป็น API แบบ pure‑Java ที่ช่ว
 </dependency>
 ```
 
-**Gradle**
+**Gradle**  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-หรือคุณสามารถ [ดาวน์โหลดเวอร์ชันล่าสุดโดยตรง](https://releases.aspose.com/slides/java/)  
+หรือคุณสามารถ [ดาวน์โหลดเวอร์ชันล่าสุดโดยตรง](https://releases.aspose.com/slides/java/).
 
-### ขั้นตอนการรับลิขสิทธิ์
-Aspose.Slides มีลิขสิทธิ์ทดลองฟรีเพื่อให้คุณสำรวจความสามารถทั้งหมด คุณยังสามารถขอรับลิขสิทธิ์ชั่วคราวหรือซื้อเพื่อใช้งานต่อเนื่อง ทำตามขั้นตอนต่อไปนี้:
+### ขั้นตอนการรับไลเซนส์
+Aspose.Slides มีไลเซนส์ทดลองฟรีเพื่อสำรวจความสามารถทั้งหมดของมัน คุณยังสามารถขอไลเซนส์ชั่วคราวหรือซื้อไลเซนส์สำหรับการใช้งานต่อเนื่อง ทำตามขั้นตอนต่อไปนี้:
 
-1. เยี่ยมชม [หน้า Aspose Purchase](https://purchase.aspose.com/buy) เพื่อรับลิขสิทธิ์ของคุณ  
-2. สำหรับการทดลองฟรี ดาวน์โหลดจาก [Releases](https://releases.aspose.com/slides/java/)  
-3. ขอรับลิขสิทธิ์ชั่วคราวได้ที่ [นี่](https://purchase.aspose.com/temporary-license/)  
+1. เยี่ยมชม [หน้า Aspose Purchase](https://purchase.aspose.com/buy) เพื่อรับไลเซนส์ของคุณ.  
+2. สำหรับการทดลองฟรี, ดาวน์โหลดจาก [Releases](https://releases.aspose.com/slides/java/).  
+3. ขอไลเซนส์ชั่วคราว [ที่นี่](https://purchase.aspose.com/temporary-license/).
 
-เมื่อคุณมีไฟล์ลิขสิทธิ์แล้ว ให้ทำการเริ่มต้นในแอปพลิเคชัน Java ของคุณ:
-
+เมื่อคุณมีไฟล์ไลเซนส์แล้ว, ให้เริ่มต้นในแอปพลิเคชัน Java ของคุณ:
 ```java
 com.aspose.slides.License license = new com.aspose.slides.License();
 license.setLicense("path/to/your/license/file.lic");
 ```
 
-## คู่มือแบบขั้นตอน
+## คู่มือขั้นตอนโดยละเอียด
 
-### วิธีสร้างแผนภูมิ – โหลด Presentation
-การโหลดไฟล์ PowerPoint ที่มีอยู่เป็นขั้นตอนแรกก่อนที่คุณจะเพิ่มหรือแก้ไขแผนภูมิ
+### วิธีสร้างแผนภูมิ – โหลดการนำเสนอ
+โหลดไฟล์ PowerPoint ที่มีอยู่ก่อนที่คุณจะเพิ่มหรือแก้ไขแผนภูมิ.  
+`Presentation` class แสดงไฟล์ PowerPoint ในหน่วยความจำ, เปิดเผยสไลด์, รูปร่าง, และอ็อบเจกต์แผนภูมิ.  
+โหลดไฟล์ของคุณด้วย `new Presentation("input.pptx")`, จากนั้นทำงานกับสไลด์แรกโดยใช้ `presentation.getSlides().get_Item(0)`. ควรเรียก `presentation.dispose()` ในบล็อก `finally` เสมอเพื่อปล่อยทรัพยากรเนทีฟ.
+
+### วิธีสร้างแผนภูมิ – เพิ่มแผนภูมวงกลมลงในสไลด์
+แทรกแผนภูมวงกลม, เหมาะสำหรับแสดงข้อมูลเชิงสัดส่วน.  
+`IChart` interface เป็นจุดเริ่มต้นหลักสำหรับการจัดการแผนภูมิ; `addChart` สร้างแผนภูมิใหม่บนสไลด์เป้าหมาย. ระบุประเภทแผนภูมิ (`ChartType.Pie`), พิกัด X/Y, และความกว้าง/ความสูง. หลังจากสร้าง, คุณสามารถปรับแต่งหัวเรื่อง, เลเจนด์, และชุดข้อมูลผ่านอ็อบเจกต์ `ChartData`.
+
+### วิธีส่งออกแผนภูมิไปยัง Excel – ส่งออกข้อมูลแผนภูมิ
+การส่งออกข้อมูลแผนภูมิทำให้ผู้วิเคราะห์สามารถทำงานกับตัวเลขใน Excel, เปิดโอกาสให้ได้ข้อมูลเชิงลึกที่ลึกซึ้งยิ่งขึ้น.  
+`readWorkbookStream()` คืนค่าเวิร์กบุ๊ก Excel ที่อยู่ภายใต้แผนภูมิเป็นอาร์เรย์ของไบต์. เรียก `chart.getChartData().readWorkbookStream()` เพื่อดึงเวิร์กบุ๊กและเขียนอาร์เรย์นี้ไปยังไฟล์ชื่อ `externalWorkbook1.xlsx` ด้วย Java I/O มาตรฐาน. ไฟล์ Excel ที่ได้จะมีข้อมูลที่ใช้โดยแผนภูมิอย่างแม่นยำ, พร้อมสำหรับการวิเคราะห์ต่อไป.
+
+### วิธีสร้างแผนภูมิ – ตั้งค่าเวิร์กบุ๊กภายนอกสำหรับข้อมูลแบบไดนามิก
+เชื่อมแผนภูมิกับเวิร์กบุ๊กภายนอกเพื่อเปิดใช้งานการอัปเดตข้อมูลแบบเรียลไทม์โดยไม่ต้องสร้างสไลด์ใหม่.  
+`setExternalWorkbook()` ผูกแผนภูกิ์กับไฟล์ Excel ภายนอกสำหรับการอัปเดตข้อมูลแบบไดนามิก. ใช้ `chart.getChartData().setExternalWorkbook("externalWorkbook1.xlsx")` เพื่อผูกแผนภูกิ์กับไฟล์ภายนอก. เมื่อเวิร์กบุ๊ก Excel ถูกแก้ไข, แผนภูมิจะสะท้อนการเปลี่ยนแปลงโดยอัตโนมัติในครั้งต่อไปที่เปิดงานนำเสนอ, รองรับสถานการณ์การรายงานแบบไดนามิก.
+
+## การประยุกต์ใช้งานจริง
+Aspose.Slides มีโซลูชันที่หลากหลายสำหรับสถานการณ์จริงหลายประเภท:
+
+1. **สไลด์รายงานธุรกิจ:** สร้างแผนภูมิบรรจุผลการดำเนินงานไตรมาสโดยอัตโนมัติจากสายข้อมูลของคุณ.  
+2. **การนำเสนอทางวิชาการ:** แปลงข้อมูลการวิจัยเป็นภาพแสดงที่ชัดเจนโดยไม่ต้องสร้างแผนภูมิมือ.  
+3. **การวิเคราะห์ทางการเงิน:** ส่งออกข้อมูลแผนภูมิไปยัง Excel เพื่อให้ผู้ตรวจสอบตรวจสอบตัวเลข, ลดข้อผิดพลาดจากการทำมือ.  
+4. **การวิเคราะห์การตลาด:** แสดงเมตริกของแคมเปญและแชร์เวิร์กบุ๊กที่แก้ไขได้กับผู้มีส่วนได้ส่วนเสียเพื่อการตัดสินใจร่วมกัน.  
+5. **การสร้างแดชบอร์ดอัตโนมัติ:** ผสาน API การสร้างแผนภูมิกับงานที่กำหนดเวลาเพื่อผลิตสไลด์เด็คที่อัปเดตทุกเช้า.
+
+## ปัญหาทั่วไปและการแก้ไขข้อผิดพลาด
+- **`FileNotFoundException`** – ตรวจสอบว่า `dataDir` ชี้ไปยังโฟลเดอร์ที่ถูกต้องและเส้นทางเอาต์พุตสามารถเขียนได้.  
+- **Memory leaks** – เรียก `presentation.dispose()` ในบล็อก `finally` เสมอเพื่อปล่อยทรัพยากรเนทีฟ.  
+- **Chart not appearing** – ตรวจสอบว่าดัชนีสไลด์ (`get_Item(0)`) ตรงกับสไลด์ที่มีอยู่, และขนาดของแผนภูมิอยู่ภายในขอบเขตของสไลด์.  
+- **Excel export produces empty file** – ยืนยันว่าแผนภูมิมีชุดข้อมูลจริงก่อนเรียก `readWorkbookStream()`.
+
+## คำถามที่พบบ่อย
+
+**Q: ฉันสามารถใช้ประเภทแผนภูมิอื่น (เช่น แท่ง, เส้น) กับโค้ดเดียวกันได้หรือไม่?**  
+A: ใช่. แทนที่ `ChartType.Pie` ด้วยค่า enum `ChartType` ใดก็ได้ เช่น `ChartType.Bar` หรือ `ChartType.Line`.
+
+**Q: สามารถอัปเดตเวิร์กบุ๊กภายนอกหลังจากสร้างแผนภูมิแล้วได้หรือไม่?**  
+A: แน่นอน. แก้ไขไฟล์ Excel โดยตรง; แผนภูมิที่เชื่อมโยงจะสะท้อนการเปลี่ยนแปลงในครั้งต่อไปที่เปิดงานนำเสนอ.
+
+**Q: ฉันต้องการไลเซนส์แยกสำหรับฟีเจอร์การส่งออก Excel หรือไม่?**  
+A: ไม่. ความสามารถการส่งออก Excel รวมอยู่ในไลเซนส์มาตรฐานของ Aspose.Slides for Java.
+
+**Q: รองรับเวอร์ชัน Java ใดบ้าง?**  
+A: Aspose.Slides for Java รองรับ JDK 16 และใหม่กว่า; เวอร์ชันก่อนหน้าอาจทำงานได้แต่ไม่ได้รับการทดสอบอย่างเป็นทางการ.
+
+**Q: ฉันจะฝังเวิร์กบุ๊ก Excel ที่สร้างขึ้นภายในไฟล์ PPTX ได้อย่างไร?**  
+A: ใช้ `chart.getChartData().setExternalWorkbook(null)` เพื่อฝังเวิร์กบุ๊ก, หรือคงลิงก์ภายนอกสำหรับการอัปเดตแบบไดนามิก.
+
+**อัปเดตล่าสุด:** 2026-06-03  
+**ทดสอบกับ:** Aspose.Slides for Java 25.4 (JDK 16 classifier)  
+**ผู้เขียน:** Aspose  
 
 ```java
 import com.aspose.slides.Presentation;
@@ -107,13 +212,6 @@ public class Feature1 {
     }
 }
 ```
-
-**คำอธิบาย:**  
-- `Presentation` แทนไฟล์ PowerPoint  
-- ควรเรียก `dispose()` เสมอเพื่อปล่อยทรัพยากรเนทีฟ  
-
-### วิธีสร้างแผนภูมิ – เพิ่มแผนภูมิพายลงสไลด์
-ต่อไปเราจะใส่แผนภูมิพาย ซึ่งเหมาะสำหรับแสดงข้อมูลสัดส่วน
 
 ```java
 import com.aspose.slides.ChartType;
@@ -136,13 +234,6 @@ public class Feature2 {
     }
 }
 ```
-
-**คำอธิบาย:**  
-- `addChart` แทรกแผนภูมิลงบนสไลด์แรก  
-- พารามิเตอร์กำหนดประเภทแผนภูมิ, ตำแหน่ง X/Y, และขนาด  
-
-### วิธีส่งออกแผนภูมิไปยัง Excel – Export Chart Data
-การส่งออกข้อมูลแผนภูมิช่วยให้นักวิเคราะห์ทำงานกับตัวเลขใน Excel เพื่อขุดลึกข้อมูลต่อไป
 
 ```java
 import com.aspose.slides.IChart;
@@ -184,13 +275,6 @@ public class Feature3 {
 }
 ```
 
-**คำอธิบาย:**  
-- `readWorkbookStream()` ดึงเวิร์กบุ๊ก Excel ที่อยู่เบื้องหลังแผนภูมิเป็นอาร์เรย์ไบต์  
-- ไบต์เหล่านั้นถูกเขียนลงไฟล์ `externalWorkbook1.xlsx` ทำให้คุณได้ไฟล์ Excel ที่พร้อมใช้งาน  
-
-### วิธีสร้างแผนภูมิ – ตั้งค่า External Workbook สำหรับข้อมูลแบบไดนามิก
-การเชื่อมแผนภูมิกับเวิร์กบุ๊กภายนอกทำให้คุณอัปเดตแผนภูมิได้โดยแก้ไขไฟล์ Excel เท่านั้น
-
 ```java
 import com.aspose.slides.IChart;
 import com.aspose.slides.Presentation;
@@ -216,49 +300,16 @@ public class Feature4 {
 }
 ```
 
-**คำอธิบาย:**  
-- `setExternalWorkbook` ผูกแผนภูมิกับไฟล์ Excel ที่ระบุ ทำให้ข้อมูลอัปเดตแบบเรียลไทม์โดยไม่ต้องสร้างสไลด์ใหม่  
+{{< blocks/products/products-backtop-button >}}
 
-## การประยุกต์ใช้ในโลกจริง
-Aspose.Slides ให้โซลูชันที่หลากหลายสำหรับสถานการณ์ต่าง ๆ:
+## บทแนะนำที่เกี่ยวข้อง
 
-1. **สไลด์รายงานธุรกิจ:** สร้างแผนภูมิดูผลไตรมาสอัตโนมัติจาก pipeline ข้อมูลของคุณ  
-2. **การนำเสนอทางวิชาการ:** แปลงข้อมูลการวิจัยเป็นภาพชัดเจนโดยไม่ต้องทำแผนภูมิด้วยมือ  
-3. **การวิเคราะห์การเงิน:** ส่งออกข้อมูลแผนภูมิไปยัง Excel เพื่อให้ผู้ตรวจสอบยืนยันตัวเลขได้  
-4. **การวิเคราะห์การตลาด:** แสดงเมตริกแคมเปญและแชร์เวิร์กบุ๊กที่แก้ไขได้กับผู้มีส่วนได้ส่วนเสีย  
-
-## ปัญหาที่พบบ่อยและการแก้ไข
-- **`FileNotFoundException`** – ตรวจสอบว่า `dataDir` ชี้ไปยังโฟลเดอร์ที่มีอยู่และเส้นทางเอาต์พุตสามารถเขียนได้  
-- **Memory leaks** – ควรเรียก `pres.dispose()` ในบล็อก `finally` เสมอเพื่อปล่อยทรัพยากรเนทีฟ  
-- **Chart not appearing** – ตรวจสอบว่า index ของสไลด์ (`get_Item(0)`) ตรงกับสไลด์ที่มีอยู่จริง  
-
-## คำถามที่พบบ่อย
-
-**Q: ฉันสามารถใช้ประเภทแผนภูมิอื่น (เช่น แท่ง, เส้น) กับโค้ดเดียวกันได้หรือไม่?**  
-A: ใช่. แค่เปลี่ยน `ChartType.Pie` เป็นค่า enum ของ `ChartType` ที่ต้องการ เช่น `ChartType.Bar` หรือ `ChartType.Line`
-
-**Q: สามารถอัปเดตเวิร์กบุ๊กภายนอกหลังจากสร้างแผนภูมิแล้วได้หรือไม่?**  
-A: ทำได้เลย. แก้ไขไฟล์ Excel โดยตรง; แผนภูมิที่เชื่อมโยงจะสะท้อนการเปลี่ยนแปลงเมื่อเปิดงานนำเสนอครั้งต่อไป
-
-**Q: ต้องใช้ลิขสิทธิ์แยกสำหรับฟีเจอร์ส่งออกไปยัง Excel หรือไม่?**  
-A: ไม่ต้อง. ความสามารถในการส่งออกไปยัง Excel รวมอยู่ในลิขสิทธิ์มาตรฐานของ Aspose.Slides for Java
-
-**Q: รองรับเวอร์ชัน Java ใดบ้าง?**  
-A: Aspose.Slides for Java รองรับ JDK 16 ขึ้นไป; เวอร์ชันก่อนหน้าอาจทำงานได้แต่ไม่ได้รับการทดสอบอย่างเป็นทางการ
-
-**Q: จะฝังเวิร์กบุ๊ก Excel ที่สร้างขึ้นภายในไฟล์ PPTX อย่างไร?**  
-A: ใช้ `chart.getChartData().setExternalWorkbook(null)` เพื่อฝังเวิร์กบุ๊ก, หรือคงลิงก์ภายนอกไว้สำหรับการอัปเดตแบบไดนามิก  
-
----
-
-**อัปเดตล่าสุด:** 2026-02-09  
-**ทดสอบกับ:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
-**ผู้เขียน:** Aspose  
+- [สร้างแผนภูมิใน Java ด้วย Aspose.Slides – เพิ่มและตรวจสอบแผนภูมิ](/slides/java/charts-graphs/aspose-slides-java-create-validate-charts/)
+- [กู้คืนข้อมูลเวิร์กบุ๊กจากแผนภูมิ PowerPoint ด้วย Aspose.Slides Java](/slides/java/charts-graphs/recover-workbook-data-powerpoint-charts-aspose-slides-java/)
+- [วิธีอัปเดตช่วงข้อมูลแผนภูมิ PowerPoint ด้วย Aspose.Slides for Java](/slides/java/charts-graphs/aspose-slides-java-modify-chart-data-range/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

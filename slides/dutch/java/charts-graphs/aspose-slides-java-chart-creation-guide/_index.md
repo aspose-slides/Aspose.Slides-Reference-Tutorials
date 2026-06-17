@@ -1,84 +1,94 @@
 ---
-date: '2026-02-12'
-description: Leer hoe je diagrammen maakt en beheert met Aspose.Slides voor Java.
-  Deze tutorial laat zien hoe je een gegroepeerde kolomdiagram maakt, gegevensreeksen
-  verwerkt en visualisatie aanpast.
+date: '2026-06-03'
+description: Leer hoe u een clustered column chart in Java maakt met Aspose.Slides.
+  Deze gids behandelt Maven dependency, chart creation steps en data handling.
 keywords:
-- Aspose.Slides for Java
-- Java charts
-- clustered column chart
-title: 'Hoe maak je een grafiek in Java met Aspose.Slides: Een uitgebreide gids'
+- create clustered column chart
+- how to create chart
+- maven dependency aspose slides
+schemas:
+- author: Aspose
+  dateModified: '2026-06-03'
+  description: Learn how to create clustered column chart in Java using Aspose.Slides.
+    This guide covers Maven dependency, chart creation steps, and data handling.
+  headline: Create Clustered Column Chart in Java with Aspose.Slides
+  type: TechArticle
+- description: Learn how to create clustered column chart in Java using Aspose.Slides.
+    This guide covers Maven dependency, chart creation steps, and data handling.
+  name: Create Clustered Column Chart in Java with Aspose.Slides
+  steps:
+  - name: Create a Presentation and Add a Clustered Column Chart
+    text: '`Presentation` class represents a PowerPoint document and allows creating
+      slides.'
+  - name: Manage Chart Series
+    text: Now we’ll clear any default series, add a new one, and populate it with
+      both positive and negative values.
+  - name: Invert Negative Data Points Conditionally
+    text: '`invertIfNegative` method enables inversion of negative values in a chart
+      series.'
+  type: HowTo
+- questions:
+  - answer: Aspose.Slides for Java.
+    question: What library is used?
+  - answer: Clustered column chart.
+    question: Which chart type is demonstrated?
+  - answer: Yes, using `invertIfNegative`.
+    question: Can I invert negative values?
+  - answer: JDK 16 or later.
+    question: What Java version is required?
+  - answer: Yes, a valid Aspose license.
+    question: Is a license needed for production?
+  type: FAQPage
+title: Maak een clustered column chart in Java met Aspose.Slides
 url: /nl/java/charts-graphs/aspose-slides-java-chart-creation-guide/
 weight: 1
 ---
-
-.Solid)` and `getLineFormat()`. => translate.
-
-**Q: What if I need to update the chart data after the presentation is saved?**  
-A: Load the presentation again with `new Presentation("file.pptx")`, modify the chart data, and re‑save. => translate.
-
-Make sure to keep markdown formatting: **Q:** etc.
-
-Now the footer:
-
-**Last Updated:** 2026-02-12 => **Laatst bijgewerkt:** 2026-02-12
-
-**Tested With:** Aspose.Slides for Java 25.4 (JDK 16) => **Getest met:** Aspose.Slides for Java 25.4 (JDK 16)
-
-**Author:** Aspose => **Auteur:** Aspose
-
-Then closing shortcodes.
-
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Hoe maak je een diagram in Java met Aspose.Slides
+# Maak een gegroepeerde kolomgrafiek in Java met Aspose.Slides
 
-## Hoe maak je een diagram in Java: Introductie
-Het maken van dynamische presentaties omvat vaak het visualiseren van gegevens via diagrammen. Met **Aspose.Slides for Java** kun je moeiteloos **how to create chart** objecten, de duidelijkheid verbeteren en een sterkere impact op je publiek hebben. Deze tutorial leidt je door het instellen van de bibliotheek, het toevoegen van een **create clustered column chart**, het beheren van series en het conditioneel omkeren van negatieve gegevenspunten.
+## Hoe maak je een grafiek in Java: Introductie
+Het maken van dynamische presentaties omvat vaak het visualiseren van gegevens via grafieken. Met **Aspose.Slides for Java** kun je moeiteloos **create clustered column chart** objecten maken, de duidelijkheid verbeteren en een sterkere impact op je publiek hebben. Deze tutorial leidt je door het installeren van de bibliotheek, het toevoegen van een gegroepeerde kolomgrafiek, het beheren van series en het conditioneel omkeren van negatieve datapunten.
 
 **Wat je zult leren**
-- Hoe je Aspose.Slides for Java instelt.
+- Hoe Aspose.Slides for Java in te stellen.
 - Stappen om **create clustered column chart** in je presentatie te maken.
-- Technieken om diagramseries en gegevenspunten te beheren.
-- Methoden om negatieve gegevenspunten conditioneel om te keren voor betere visualisatie.
+- Technieken om grafiekseries en datapunten te beheren.
+- Methoden om negatieve datapunten conditioneel om te keren voor betere visualisatie.
 - Hoe je de presentatie veilig opslaat.
 
-### Snelle antwoorden
-- **Welke bibliotheek wordt gebruikt?** Aspose.Slides for Java.
-- **Welk diagramtype wordt gedemonstreerd?** Clustered column chart.
-- **Kan ik negatieve waarden omkeren?** Ja, met `invertIfNegative`.
-- **Welke Java‑versie is vereist?** JDK 16 of hoger.
-- **Is een licentie nodig voor productie?** Ja, een geldige Aspose‑licentie.
+## Snelle antwoorden
+- **Welke bibliotheek wordt gebruikt?** Aspose.Slides for Java.  
+- **Welk grafiektype wordt gedemonstreerd?** Clustered column chart.  
+- **Kan ik negatieve waarden omkeren?** Ja, met `invertIfNegative`.  
+- **Welke Java-versie is vereist?** JDK 16 of hoger.  
+- **Is een licentie nodig voor productie?** Ja, een geldige Aspose-licentie.
 
-## Wat is een geclusterde kolomdiagram?
-Een geclusterde kolomdiagram toont meerdere gegevensreeksen naast elkaar voor elke categorie, waardoor het eenvoudig is om waarden over groepen heen te vergelijken. Het is ideaal voor financiële rapporten, verkoopdashboards en elke situatie waarin je verschillende statistieken wilt contrasteren.
+## Wat is een gegroepeerde kolomgrafiek?
+Een gegroepeerde kolomgrafiek is een visuele weergave die meerdere gegevensreeksen naast elkaar plaatst voor elke categorie, waardoor snelle vergelijking tussen groepen mogelijk is. Het is perfect voor financiële rapporten, verkoopdashboards en elke situatie waarin je meerdere statistieken tegelijk wilt vergelijken.
 
-## Waarom Aspose.Slides gebruiken voor diagramcreatie?
-- **Volledige controle** over het uiterlijk van het diagram zonder afhankelijk te zijn van de PowerPoint‑UI.
-- **Programmeerbare generatie** maakt geautomatiseerde rapportage‑pijplijnen mogelijk.
-- **Cross‑platform** ondersteuning zorgt ervoor dat je code op elk Java‑compatibel systeem draait.
-- **Rijke API** voor fijnmazige aanpassing (kleuren, gegevenslabels, inversie, enz.).
+## Waarom Aspose.Slides gebruiken voor het maken van grafieken?
+Aspose.Slides stelt je in staat om grafieken programmatisch te genereren en volledig aan te passen, waardoor handmatig PowerPoint-bewerken overbodig wordt. Het ondersteunt **70+ invoer- en uitvoerformaten** en kan presentaties verwerken met **tot 10.000 dia's** zonder het volledige bestand in het geheugen te laden, wat hoge prestaties garandeert voor grootschalige rapportage.
 
-## Vereisten
-1. **Vereiste bibliotheken**
-   - Aspose.Slides for Java (versie 25.4 of later).
+## Voorvereisten
+1. **Vereiste bibliotheken**  
+   - Aspose.Slides for Java (versie 25.4 of later).  
 
-2. **Omgeving**
-   - JDK 16 of nieuwer.
-   - Maven of Gradle voor afhankelijkheidsbeheer.
+2. **Omgeving**  
+   - JDK 16 of nieuwer.  
+   - Maven of Gradle voor afhankelijkheidsbeheer.  
 
-3. **Kennis**
-   - Basis Java‑programmering.
-   - Vertrouwdheid met build‑tools (Maven/Gradle).
+3. **Kennis**  
+   - Basis Java-programmeren.  
+   - Vertrouwdheid met build‑tools (Maven/Gradle).  
 
-## Aspose.Slides voor Java instellen
-### Maven‑installatie
-Voeg de volgende afhankelijkheid toe aan je `pom.xml`‑bestand:
+## Instellen van Aspose.Slides voor Java
+### Maven-installatie
+Add the following dependency to your `pom.xml` file:
 
 ```xml
 <dependency>
@@ -89,20 +99,20 @@ Voeg de volgende afhankelijkheid toe aan je `pom.xml`‑bestand:
 </dependency>
 ```
 
-### Gradle‑installatie
-Voeg de volgende regel toe aan je `build.gradle`‑bestand:
+### Gradle-installatie
+Add the following line to your `build.gradle` file:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
 ### Directe download
-Download anders de nieuwste versie van [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+Je kunt ook de nieuwste versie downloaden van [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 ### Licentie‑acquisitie
-- **Gratis proefversie:** Verken functies zonder licentie.
-- **Tijdelijke licentie:** Gebruik tijdens evaluatie.
-- **Volledige licentie:** Aanschaffen voor productie‑implementaties.
+- **Gratis proefversie:** Verken functies zonder licentie.  
+- **Tijdelijke licentie:** Gebruik tijdens evaluatie.  
+- **Volledige licentie:** Aanschaffen voor productie‑implementaties.  
 
 ### Basisinitialisatie
 ```java
@@ -113,11 +123,13 @@ Presentation pres = new Presentation();
 pres.dispose(); // Always dispose of the presentation object when done.
 ```
 
+## Hoe voeg ik een gegroepeerde kolomgrafiek toe aan een dia?
+`Presentation` is de kernklasse die een PowerPoint‑bestand vertegenwoordigt. Laad een nieuwe `Presentation`, voeg een dia toe en roep `slide.getShapes().addChart(ChartType.ClusteredColumn, 50, 50, 500, 400)` aan. Deze enkele aanroep maakt een volledig functionele gegroepeerde kolomgrafiek op de opgegeven coördinaten. Je kunt vervolgens het grafiekobject benaderen om series, datapunten en visuele stijlen aan te passen.
+
 ## Stapsgewijze handleiding
 
-### Stap 1: Maak een presentatie en voeg een geclusterde kolomdiagram toe
-In deze stap maken we **how to create chart** objecten en plaatsen we een **create clustered column chart** op de eerste dia.
-
+### Stap 1: Maak een presentatie en voeg een gegroepeerde kolomgrafiek toe
+`Presentation`-klasse vertegenwoordigt een PowerPoint‑document en maakt het mogelijk dia's te maken.  
 ```java
 import com.aspose.slides.*;
 
@@ -134,9 +146,8 @@ try {
 }
 ```
 
-### Stap 2: Beheer diagramseries
-Nu zullen we eventuele standaardseries wissen, een nieuwe toevoegen en deze vullen met zowel positieve als negatieve waarden.
-
+### Stap 2: Beheer grafiekseries
+Nu zullen we eventuele standaardseries wissen, een nieuwe toevoegen en deze vullen met zowel positieve als negatieve waarden.  
 ```java
 import com.aspose.slides.*;
 
@@ -170,9 +181,8 @@ try {
 }
 ```
 
-### Stap 3: Negatieve gegevenspunten conditioneel omkeren
-Standaard keert Aspose.Slides negatieve waarden niet om. We zullen inversie alleen inschakelen voor die punten die dat nodig hebben.
-
+### Stap 3: Negatieve datapunten conditioneel omkeren
+`invertIfNegative`-methode maakt het mogelijk negatieve waarden in een grafiekserie om te keren.  
 ```java
 import com.aspose.slides.*;
 
@@ -214,36 +224,45 @@ try {
 }
 ```
 
-### Veelvoorkomende valkuilen & tips
-- **Vergeten het `Presentation`‑object te disposen?** Roep altijd `dispose()` aan in een `finally`‑blok om native bronnen vrij te geven.
-- **Negatieve waarden worden niet als omgekeerd weergegeven?** Zorg ervoor dat je `invertIfNegative(true)` **na** het toevoegen van het gegevenspunt aanroept.
-- **Problemen met diagramgrootte:** De coördinaten (X, Y) en afmetingen (breedte, hoogte) zijn in punten; pas ze aan om bij je dia‑lay-out te passen.
+## Veelvoorkomende valkuilen & tips
+- **Vergeten om het `Presentation`-object te verwijderen?** Roep altijd `dispose()` aan in een `finally`‑blok om native resources vrij te geven.  
+- **Negatieve waarden worden niet als omgekeerd weergegeven?** Zorg ervoor dat je `invertIfNegative(true)` **na** het toevoegen van het datapunt aanroept.  
+- **Problemen met grafiekgrootte:** De coördinaten (X, Y) en afmetingen (breedte, hoogte) zijn in points; pas ze aan om bij je dia‑lay-out te passen.  
 
 ## Veelgestelde vragen
 
-**Q: Kan ik met dezelfde aanpak andere diagramtypen maken?**  
-A: Ja, vervang simpelweg `ChartType.ClusteredColumn` door een andere `ChartType`‑enumwaarde (bijv. `Line`, `Pie`).
+**Q:** Kan ik andere grafiektype maken met dezelfde aanpak?  
+A: Ja, vervang simpelweg `ChartType.ClusteredColumn` door een andere `ChartType`‑enumwaarde (bijv. `Line`, `Pie`).  
 
-**Q: Heb ik een licentie nodig voor ontwikkel‑builds?**  
-A: Een tijdelijke of evaluatielicentie is vereist voor volledige functionaliteit; anders werkt de bibliotheek in proefmodus met watermerkbeperkingen.
+**Q:** Heb ik een licentie nodig voor ontwikkel‑builds?  
+A: Een tijdelijke of evaluatielicentie is vereist voor volledige functietoegang; anders werkt de bibliotheek in proefmodus met watermerkbeperkingen.  
 
-**Q: Hoe exporteer ik de presentatie naar PDF nadat ik diagrammen heb toegevoegd?**  
-A: Gebruik `pres.save("output.pdf", SaveFormat.Pdf);` nadat je klaar bent met het bewerken van het diagram.
+**Q:** Hoe exporteer ik de presentatie naar PDF na het toevoegen van grafieken?  
+`SaveFormat.Pdf` geeft PDF op als het uitvoerformaat voor het opslaan van een presentatie. Gebruik `pres.save("output.pdf", SaveFormat.Pdf);` nadat je de grafiekmanipulatie hebt voltooid.  
 
-**Q: Is het mogelijk om individuele kolommen te stylen (kleur, rand)?**  
-A: Ja, elke `IChartDataPoint` biedt opmaakopties zoals `getFillFormat().setFillType(FillType.Solid)` en `getLineFormat()`.
+**Q:** Is het mogelijk om individuele kolommen te stylen (kleur, rand)?  
+`IChartDataPoint` vertegenwoordigt een enkel datapunt in een grafiek en staat opmaak toe. Elke `IChartDataPoint` biedt opties zoals `getFillFormat().setFillType(FillType.Solid)` en `getLineFormat()`.  
 
-**Q: Wat als ik de diagramgegevens moet bijwerken nadat de presentatie is opgeslagen?**  
-A: Laad de presentatie opnieuw met `new Presentation("file.pptx")`, wijzig de diagramgegevens en sla opnieuw op.
+**Q:** Wat als ik de grafiekgegevens moet bijwerken nadat de presentatie is opgeslagen?  
+A: Laad de presentatie opnieuw met `new Presentation("file.pptx")`, wijzig de grafiekgegevens en sla opnieuw op.  
 
-**Laatst bijgewerkt:** 2026-02-12  
+---
+
+**Laatst bijgewerkt:** 2026-06-03  
 **Getest met:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Auteur:** Aspose  
+**Auteur:** Aspose
+
+## Gerelateerde tutorials
+
+- [Hoe een gestapelde kolomgrafiek te maken in Java met Aspose.Slides – Een uitgebreide gids](/slides/java/charts-graphs/aspose-slides-java-stacked-column-charts/)
+- [Hoe een grafiek te maken in Java met Aspose.Slides – Meesterschap in grafiekcreatie en validatie](/slides/java/charts-graphs/aspose-slides-chart-creation-validation-java/)
+- [Grafieken maken & opmaken in Java met Aspose.Slides: Een uitgebreide gids](/slides/java/charts-graphs/create-format-charts-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

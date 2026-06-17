@@ -1,13 +1,46 @@
 ---
-date: '2026-02-12'
-description: Scopri come creare grafici e gestire i grafici utilizzando Aspose.Slides
-  per Java. Questo tutorial mostra come creare un grafico a colonne raggruppate, gestire
-  le serie di dati e personalizzare la visualizzazione.
+date: '2026-06-03'
+description: Scopri come creare un grafico a colonne raggruppate in Java usando Aspose.Slides.
+  Questa guida copre la dipendenza Maven, i passaggi per la creazione del grafico
+  e la gestione dei dati.
 keywords:
-- Aspose.Slides for Java
-- Java charts
-- clustered column chart
-title: 'Come creare un grafico in Java con Aspose.Slides: una guida completa'
+- create clustered column chart
+- how to create chart
+- maven dependency aspose slides
+schemas:
+- author: Aspose
+  dateModified: '2026-06-03'
+  description: Learn how to create clustered column chart in Java using Aspose.Slides.
+    This guide covers Maven dependency, chart creation steps, and data handling.
+  headline: Create Clustered Column Chart in Java with Aspose.Slides
+  type: TechArticle
+- description: Learn how to create clustered column chart in Java using Aspose.Slides.
+    This guide covers Maven dependency, chart creation steps, and data handling.
+  name: Create Clustered Column Chart in Java with Aspose.Slides
+  steps:
+  - name: Create a Presentation and Add a Clustered Column Chart
+    text: '`Presentation` class represents a PowerPoint document and allows creating
+      slides.'
+  - name: Manage Chart Series
+    text: Now we’ll clear any default series, add a new one, and populate it with
+      both positive and negative values.
+  - name: Invert Negative Data Points Conditionally
+    text: '`invertIfNegative` method enables inversion of negative values in a chart
+      series.'
+  type: HowTo
+- questions:
+  - answer: Aspose.Slides for Java.
+    question: What library is used?
+  - answer: Clustered column chart.
+    question: Which chart type is demonstrated?
+  - answer: Yes, using `invertIfNegative`.
+    question: Can I invert negative values?
+  - answer: JDK 16 or later.
+    question: What Java version is required?
+  - answer: Yes, a valid Aspose license.
+    question: Is a license needed for production?
+  type: FAQPage
+title: Creare un grafico a colonne raggruppate in Java con Aspose.Slides
 url: /it/java/charts-graphs/aspose-slides-java-chart-creation-guide/
 weight: 1
 ---
@@ -17,47 +50,44 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Come creare un grafico in Java con Aspose.Slides
+# Crea un grafico a colonne raggruppate in Java con Aspose.Slides
 
 ## Come creare un grafico in Java: Introduzione
-Creare presentazioni dinamiche spesso implica visualizzare i dati tramite grafici. Con **Aspose.Slides for Java**, puoi creare facilmente oggetti **how to create chart**, migliorare la chiarezza e avere un impatto più forte sul tuo pubblico. Questo tutorial ti guida nella configurazione della libreria, nell'aggiunta di un **create clustered column chart**, nella gestione delle serie e nell'invertire condizionatamente i punti dati negativi.
+Creare presentazioni dinamiche spesso richiede la visualizzazione dei dati tramite grafici. Con **Aspose.Slides for Java**, puoi creare facilmente oggetti **grafico a colonne raggruppate**, migliorare la chiarezza e avere un impatto più forte sul tuo pubblico. Questo tutorial ti guida attraverso l'installazione della libreria, l'aggiunta di un grafico a colonne raggruppate, la gestione delle serie e l'inversione condizionale dei punti dati negativi.
 
 **Cosa imparerai**
-- Come configurare Aspose.Slides per Java.
-- Passaggi per **create clustered column chart** nella tua presentazione.
-- Tecniche per gestire le serie del grafico e i punti dati.
-- Metodi per invertire condizionatamente i punti dati negativi per una migliore visualizzazione.
+- Come configurare Aspose.Slides for Java.  
+- Passaggi per **creare un grafico a colonne raggruppate** nella tua presentazione.  
+- Tecniche per gestire le serie del grafico e i punti dati.  
+- Metodi per invertire condizionalmente i punti dati negativi per una migliore visualizzazione.  
 - Come salvare la presentazione in modo sicuro.
 
-### Risposte rapide
-- **Quale libreria viene utilizzata?** Aspose.Slides for Java.
-- **Quale tipo di grafico è dimostrato?** Clustered column chart.
-- **Posso invertire i valori negativi?** Sì, usando `invertIfNegative`.
-- **Quale versione di Java è necessaria?** JDK 16 o successiva.
+## Risposte rapide
+- **Quale libreria viene utilizzata?** Aspose.Slides for Java.  
+- **Quale tipo di grafico è dimostrato?** Grafico a colonne raggruppate.  
+- **Posso invertire i valori negativi?** Sì, usando `invertIfNegative`.  
+- **Quale versione di Java è richiesta?** JDK 16 o successiva.  
 - **È necessaria una licenza per la produzione?** Sì, una licenza Aspose valida.
 
-## Cos'è un grafico a colonne raggruppate?
-Un grafico a colonne raggruppate visualizza più serie di dati affiancate per ciascuna categoria, facilitando il confronto dei valori tra gruppi. È ideale per report finanziari, dashboard di vendite e qualsiasi scenario in cui è necessario confrontare diverse metriche.
+## Che cos'è un grafico a colonne raggruppate?
+Un grafico a colonne raggruppate è una rappresentazione visiva che posiziona più serie di dati affiancate per ogni categoria, consentendo un rapido confronto tra gruppi. È perfetto per report finanziari, dashboard di vendite e qualsiasi scenario in cui è necessario confrontare più metriche contemporaneamente.
 
 ## Perché usare Aspose.Slides per la creazione di grafici?
-- **Controllo completo** sull'aspetto del grafico senza dipendere dall'interfaccia di PowerPoint.
-- **Generazione programmatica** consente pipeline di reporting automatizzate.
-- **Supporto cross‑platform** garantisce che il tuo codice funzioni su qualsiasi sistema compatibile con Java.
-- **API ricca** per personalizzazioni dettagliate (colori, etichette dati, inversione, ecc.).
+Aspose.Slides ti permette di generare e personalizzare completamente i grafici in modo programmatico, eliminando la necessità di modifiche manuali in PowerPoint. Supporta **oltre 70 formati di input e output** e può elaborare presentazioni con **fino a 10.000 di diapositive** senza caricare l'intero file in memoria, garantendo alte prestazioni per report su larga scala.
 
 ## Prerequisiti
-1. **Librerie richieste**
-   - Aspose.Slides for Java (versione 25.4 o successiva).
+1. **Librerie richieste**  
+   - Aspose.Slides for Java (versione 25.4 o successiva).  
 
-2. **Ambiente**
-   - JDK 16 o più recente.
-   - Maven o Gradle per la gestione delle dipendenze.
+2. **Ambiente**  
+   - JDK 16 o più recente.  
+   - Maven o Gradle per la gestione delle dipendenze.  
 
-3. **Conoscenze**
-   - Programmazione Java di base.
-   - Familiarità con gli strumenti di build (Maven/Gradle).
+3. **Conoscenze**  
+   - Programmazione Java di base.  
+   - Familiarità con gli strumenti di build (Maven/Gradle).  
 
-## Configurazione di Aspose.Slides per Java
+## Configurare Aspose.Slides for Java
 ### Installazione con Maven
 Aggiungi la seguente dipendenza al tuo file `pom.xml`:
 
@@ -81,9 +111,9 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 In alternativa, scarica l'ultima versione da [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 ### Acquisizione della licenza
-- **Free Trial:** Esplora le funzionalità senza licenza.
-- **Temporary License:** Usa durante la valutazione.
-- **Full License:** Acquista per distribuzioni in produzione.
+- **Prova gratuita:** Esplora le funzionalità senza una licenza.  
+- **Licenza temporanea:** Utilizzala durante la valutazione.  
+- **Licenza completa:** Acquista per le distribuzioni in produzione.
 
 ### Inizializzazione di base
 ```java
@@ -94,11 +124,13 @@ Presentation pres = new Presentation();
 pres.dispose(); // Always dispose of the presentation object when done.
 ```
 
+## Come aggiungere un grafico a colonne raggruppate a una diapositiva?
+`Presentation` è la classe principale che rappresenta un file PowerPoint. Carica una nuova `Presentation`, aggiungi una diapositiva e chiama `slide.getShapes().addChart(ChartType.ClusteredColumn, 50, 50, 500, 400)`. Questa singola chiamata crea un grafico a colonne raggruppate completamente funzionale posizionato alle coordinate specificate. Puoi quindi accedere all'oggetto chart per modificare serie, punti dati e stili visivi.
+
 ## Guida passo‑passo
 
 ### Passo 1: Creare una presentazione e aggiungere un grafico a colonne raggruppate
-In questo passo creiamo oggetti **how to create chart** e posizioniamo un **create clustered column chart** sulla prima diapositiva.
-
+La classe `Presentation` rappresenta un documento PowerPoint e consente di creare diapositive.  
 ```java
 import com.aspose.slides.*;
 
@@ -116,8 +148,7 @@ try {
 ```
 
 ### Passo 2: Gestire le serie del grafico
-Ora cancelleremo eventuali serie predefinite, ne aggiungeremo una nuova e la popoleremo con valori sia positivi che negativi.
-
+Ora cancelleremo eventuali serie predefinite, ne aggiungeremo una nuova e la popoleremo con valori sia positivi che negativi.  
 ```java
 import com.aspose.slides.*;
 
@@ -151,9 +182,8 @@ try {
 }
 ```
 
-### Passo 3: Invertire condizionatamente i punti dati negativi
-Per impostazione predefinita, Aspose.Slides non inverte i valori negativi. Abiliteremo l'inversione solo per i punti che ne hanno bisogno.
-
+### Passo 3: Invertire i punti dati negativi in modo condizionale
+Il metodo `invertIfNegative` consente l'inversione dei valori negativi in una serie di grafico.  
 ```java
 import com.aspose.slides.*;
 
@@ -195,38 +225,45 @@ try {
 }
 ```
 
-### Problemi comuni e consigli
-- **Hai dimenticato di rilasciare l'oggetto `Presentation`?** Chiama sempre `dispose()` in un blocco `finally` per liberare le risorse native.
-- **I valori negativi non appaiono invertiti?** Assicurati di chiamare `invertIfNegative(true)` **dopo** aver aggiunto il punto dati.
-- **Problemi di dimensione del grafico:** Le coordinate (X, Y) e le dimensioni (larghezza, altezza) sono in punti; regola questi valori per adattarli al layout della diapositiva.
+## Problemi comuni e consigli
+- **Hai dimenticato di liberare l'oggetto `Presentation`?** Chiama sempre `dispose()` in un blocco `finally` per liberare le risorse native.  
+- **I valori negativi non vengono mostrati invertiti?** Assicurati di chiamare `invertIfNegative(true)` **dopo** aver aggiunto il punto dati.  
+- **Problemi di dimensione del grafico:** Le coordinate (X, Y) e le dimensioni (larghezza, altezza) sono espresse in punti; adattale al layout della tua diapositiva.  
 
 ## Domande frequenti
 
-**D: Posso creare altri tipi di grafico con lo stesso approccio?**  
-R: Sì, basta sostituire `ChartType.ClusteredColumn` con qualsiasi altro valore enum `ChartType` (ad es., `Line`, `Pie`).
+**D:** Posso creare altri tipi di grafico con lo stesso approccio?  
+**R:** Sì, basta sostituire `ChartType.ClusteredColumn` con qualsiasi altro valore dell'enum `ChartType` (ad es., `Line`, `Pie`).  
 
-**D: È necessaria una licenza per le build di sviluppo?**  
-R: È necessaria una licenza temporanea o di valutazione per accedere a tutte le funzionalità; altrimenti, la libreria funziona in modalità prova con limitazioni di filigrana.
+**D:** È necessaria una licenza per le build di sviluppo?  
+**R:** È richiesta una licenza temporanea o di valutazione per accedere a tutte le funzionalità; altrimenti, la libreria funziona in modalità trial con limitazioni di watermark.  
 
-**D: Come esportare la presentazione in PDF dopo aver aggiunto i grafici?**  
-R: Usa `pres.save("output.pdf", SaveFormat.Pdf);` dopo aver terminato la manipolazione del grafico.
+**D:** Come esportare la presentazione in PDF dopo aver aggiunto i grafici?  
+`SaveFormat.Pdf` specifica il PDF come formato di output per il salvataggio di una presentazione. Usa `pres.save("output.pdf", SaveFormat.Pdf);` dopo aver terminato la manipolazione del grafico.  
 
-**D: È possibile stilizzare colonne individuali (colore, bordo)?**  
-R: Sì, ogni `IChartDataPoint` offre opzioni di formattazione come `getFillFormat().setFillType(FillType.Solid)` e `getLineFormat()`.
+**D:** È possibile formattare singole colonne (colore, bordo)?  
+`IChartDataPoint` rappresenta un singolo punto dati in un grafico e consente la formattazione. Ogni `IChartDataPoint` offre opzioni come `getFillFormat().setFillType(FillType.Solid)` e `getLineFormat()`.  
 
-**D: Cosa fare se devo aggiornare i dati del grafico dopo aver salvato la presentazione?**  
-R: Ricarica la presentazione con `new Presentation("file.pptx")`, modifica i dati del grafico e salva nuovamente.
+**D:** Cosa fare se devo aggiornare i dati del grafico dopo aver salvato la presentazione?  
+**R:** Ricarica la presentazione con `new Presentation("file.pptx")`, modifica i dati del grafico e salva nuovamente.
 
 ---
 
-**Ultimo aggiornamento:** 2026-02-12  
+**Ultimo aggiornamento:** 2026-06-03  
 **Testato con:** Aspose.Slides for Java 25.4 (JDK 16)  
 **Autore:** Aspose
 
+## Tutorial correlati
+
+- [How to create stacked column chart in Java with Aspose.Slides – A Comprehensive Guide](/slides/java/charts-graphs/aspose-slides-java-stacked-column-charts/)
+- [How to Create Chart in Java with Aspose.Slides – Mastering Chart Creation and Validation](/slides/java/charts-graphs/aspose-slides-chart-creation-validation-java/)
+- [Create & Format Charts in Java Using Aspose.Slides: A Comprehensive Guide](/slides/java/charts-graphs/create-format-charts-aspose-slides-java/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

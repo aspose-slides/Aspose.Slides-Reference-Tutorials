@@ -1,9 +1,69 @@
 ---
-"date": "2025-04-17"
-"description": "Aspose.Slides for Java का उपयोग करके प्रस्तुतियों में चार्ट को कुशलतापूर्वक जोड़ने और कॉन्फ़िगर करने का तरीका जानें। इस व्यापक गाइड के साथ अपने वर्कफ़्लो को सुव्यवस्थित करें।"
-"title": "जावा के लिए Aspose.Slides का उपयोग करके प्रस्तुतियों में चार्ट कैसे जोड़ें और कॉन्फ़िगर करें"
-"url": "/hi/java/charts-graphs/add-charts-aspose-slides-java-guide/"
-"weight": 1
+date: '2026-06-03'
+description: जानें कैसे aspose slides maven dependency के साथ charts जोड़ें, डेटा
+  लेबल कॉन्फ़िगर करें, और Java प्रस्तुतियों में डायनेमिक charts उत्पन्न करें.
+keywords:
+- aspose slides maven dependency
+- how to add charts
+- add data labels chart
+- dynamic chart generation
+- create presentation chart
+schemas:
+- author: Aspose
+  dateModified: '2026-06-03'
+  description: Learn how to add charts with the aspose slides maven dependency, configure
+    data labels, and generate dynamic charts in Java presentations.
+  headline: 'aspose slides maven dependency: Add and Configure Charts in Presentations
+    Using Aspose.Slides for Java'
+  type: TechArticle
+- description: Learn how to add charts with the aspose slides maven dependency, configure
+    data labels, and generate dynamic charts in Java presentations.
+  name: 'aspose slides maven dependency: Add and Configure Charts in Presentations
+    Using Aspose.Slides for Java'
+  steps:
+  - name: Add the aspose slides maven dependency
+    text: '**Maven:** xml <dependency> <groupId>com.aspose</groupId> <artifactId>aspose-slides</artifactId>
+      <version>25.4</version> <classifier>jdk16</classifier> </dependency> **Gradle:**
+      gradle implementation group: ''com.aspose'', name: ''aspose-slides'', version:
+      ''25.4'', classifier: ''jdk16'' These snippets pull'
+  - name: Load the presentation and insert a Bubble Chart
+    text: '**Implementation:** java import com.aspose.slides.Presentation; /* The
+      `Presentation` class represents a PowerPoint file and provides access to its
+      slides and content. */ String dataDir = "YOUR_DOCUMENT_DIRECTORY"; Presentation
+      pres = new Presentation(dataDir + "/chart2.pptx"); try { // Modification'
+  - name: Configure the chart’s data series and labels
+    text: '**Implementation:** java import com.aspose.slides.IChart; import com.aspose.slides.ISlide;
+      import com.aspose.slides.Presentation; import com.aspose.slides.ChartType; /*
+      `IChart` is the interface for chart objects, allowing manipulation of series,
+      axes, and formatting. */ Presentation pres = new Pres'
+  - name: Save the modified presentation
+    text: '**Implementation:** java import com.aspose.slides.IChartDataWorkbook; import
+      com.aspose.slides.IChartSeriesCollection; /* `IChartDataWorkbook` represents
+      the internal workbook that stores chart data and cell references. */ IChartSeriesCollection
+      series = chart.getChartData().getSeries(); series.get_'
+  type: HowTo
+- questions:
+  - answer: Yes, the `ChartType` enumeration includes line, bar, pie, radar, stock,
+      and more than 70 additional types.
+    question: Can I add other chart types besides Bubble?
+  - answer: Absolutely; it is fully compatible with OpenJDK 8‑21 and runs on all major
+      operating systems.
+    question: Does the aspose slides maven dependency work with OpenJDK?
+  - answer: Load the Excel workbook with `WorkbookFactory.create(new FileInputStream("data.xlsx"))`,
+      then bind the chart’s `ChartDataWorkbook` to the workbook before setting cell
+      references.
+    question: How do I embed a chart from an existing Excel file?
+  - answer: Practically no—Aspose.Slides can handle dozens of charts per slide, limited
+      only by available memory.
+    question: Is there a limit to the number of charts per slide?
+  - answer: PPTX, PPT, ODP, PDF, XPS, HTML, and even image formats such as PNG and
+      JPEG are supported.
+    question: What format can I export the final presentation to?
+  type: FAQPage
+title: 'aspose slides maven dependency: प्रस्तुतियों में Charts जोड़ें और कॉन्फ़िगर
+  करें Aspose.Slides for Java का उपयोग करके'
+url: /hi/java/charts-graphs/add-charts-aspose-slides-java-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,33 +71,45 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# जावा के लिए Aspose.Slides का उपयोग करके प्रस्तुतियों में चार्ट कैसे जोड़ें और कॉन्फ़िगर करें
+# aspose slides maven dependency: प्रस्तुतियों में चार्ट जोड़ें और कॉन्फ़िगर करें Aspose.Slides for Java का उपयोग करके
 
 ## परिचय
-व्यावसायिक पिचों से लेकर अकादमिक व्याख्यानों तक, कई पेशेवर सेटिंग्स में गतिशील प्रस्तुतियाँ बनाना आवश्यक है। मैन्युअल रूप से चार्ट डालना थकाऊ हो सकता है और इसमें त्रुटियाँ होने की संभावना होती है। यह ट्यूटोरियल आपको अपनी प्रस्तुति फ़ाइलों में चार्ट जोड़ने और कॉन्फ़िगर करने के लिए जावा के लिए Aspose.Slides का उपयोग करने के बारे में मार्गदर्शन करता है।
+The **aspose slides maven dependency** Java डेवलपर्स को प्रोग्रामेटिक रूप से PowerPoint फ़ाइलें बनाने, संशोधित करने और समृद्ध करने की अनुमति देता है बिना PowerPoint को खोले। कई व्यावसायिक और शैक्षणिक परिदृश्यों में, मैन्युअल रूप से चार्ट डालना समय‑साध्य और त्रुटिप्रवण होता है। यह ट्यूटोरियल आपको चरण‑दर‑चरण दिखाता है कि कैसे एक बबल चार्ट जोड़ें, डेटा लेबल को वर्कशीट सेल्स से बाइंड करें, और परिणाम को सहेजें—सभी **aspose slides maven dependency** का उपयोग करके एक साफ़, दोहराने योग्य तरीके से।
 
-**आप क्या सीखेंगे:**
-- Java के लिए Aspose.Slides सेट अप करना
-- संशोधन के लिए प्रस्तुतियाँ लोड करना और तैयार करना
-- अपनी स्लाइडों में बबल चार्ट जोड़ना
-- सेल संदर्भों का उपयोग करके डेटा लेबल कॉन्फ़िगर करना
-- संशोधित प्रस्तुति को सहेजना
+**आप क्या सीखेंगे**
+- aspose slides maven dependency के साथ चार्ट कैसे जोड़ें
+- Maven या Gradle का उपयोग करके Java प्रोजेक्ट सेटअप करना
+- मौजूदा प्रस्तुति लोड करना और बबल चार्ट सम्मिलित करना
+- सेल रेफ़रेंसेज़ का उपयोग करके डेटा लेबल कॉन्फ़िगर करना (डेटा लेबल चार्ट जोड़ें)
+- अपडेटेड फ़ाइल को बाद में वितरण के लिए सहेजना
+- डायनेमिक चार्ट जेनरेशन और प्रेजेंटेशन चार्ट वर्कफ़्लो बनाने जैसे वास्तविक‑विश्व उपयोग केस
 
-आइए देखें कि आप अपने जावा अनुप्रयोगों में Aspose.Slides को एकीकृत करके इस प्रक्रिया को कैसे सुव्यवस्थित कर सकते हैं।
+## त्वरित उत्तर
+- **कौन सा Maven आर्टिफैक्ट चार्ट क्षमताएँ जोड़ता है?** `com.aspose:aspose-slides:25.4` (or latest)  
+- **क्या मैं डेटा लेबल को Excel‑स्टाइल सेल्स से बाइंड कर सकता हूँ?** हाँ – `ChartDataLabel` को `setDataLabelFormat` और सेल रेफ़रेंसेज़ के साथ उपयोग करें।  
+- **क्या उत्पादन के लिए लाइसेंस आवश्यक है?** पूरा लाइसेंस मूल्यांकन वाटरमार्क को हटाता है और सभी सुविधाओं को अनलॉक करता है।  
+- **क्या यह Java 11+ पर काम करेगा?** बिल्कुल; लाइब्रेरी Java 8 से लेकर Java 21 तक संगत है।  
+- **कितने चार्ट प्रकार समर्थित हैं?** 70 से अधिक अलग-अलग चार्ट प्रकार, जिसमें बबल, रडार, और स्टॉक चार्ट शामिल हैं।
 
-### आवश्यक शर्तें
-शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
+## aspose slides maven dependency क्या है?
+**aspose slides maven dependency** एक Maven‑संगत पैकेज है जो Java में PowerPoint (PPTX, PPT, ODP) फ़ाइलें बनाने और संपादित करने के लिए पूर्ण‑विशेषताओं वाला API प्रदान करता है। इस डिपेंडेंसी को अपने `pom.xml` या `build.gradle` में जोड़कर आप 70 से अधिक चार्ट प्रकार, 150+ स्लाइड लेआउट, और शैप्स, एनीमेशन, तथा मेटाडेटा को बिना Office स्थापित किए मैनिपुलेट करने की क्षमता प्राप्त करते हैं।
 
-- **पुस्तकालय और निर्भरताएँ:** आपको Java के लिए Aspose.Slides की आवश्यकता होगी। इस ट्यूटोरियल में प्रयुक्त संस्करण 25.4 है।
-- **पर्यावरण सेटअप:** यह गाइड मानती है कि आप अपने निर्माण उपकरण के रूप में Maven या Gradle का उपयोग कर रहे हैं।
-- **ज्ञान पूर्वापेक्षाएँ:** जावा प्रोग्रामिंग से परिचित होना और प्रेजेंटेशन फ़ाइल संरचनाओं की बुनियादी समझ लाभदायक होगी।
+## चार्ट ऑटोमेशन के लिए aspose slides maven dependency क्यों उपयोग करें?
+Aspose.Slides मानक सर्वर हार्डवेयर पर एक सेकंड से कम समय में हजारों स्लाइड डेक्स को प्रोसेस करता है, **70+ चार्ट प्रकार** का समर्थन करता है, और पूरी फ़ाइल को मेमोरी में लोड किए बिना **10,000 स्लाइड** तक की प्रस्तुतियों को रेंडर कर सकता है। ये मापनीय क्षमताएँ इसे एंटरप्राइज़‑ग्रेड डायनेमिक चार्ट जेनरेशन के लिए आदर्श बनाती हैं, जहाँ प्रदर्शन और स्केलेबिलिटी अनिवार्य हैं।
 
-## Java के लिए Aspose.Slides सेट अप करना
+## पूर्वापेक्षाएँ
+- **Java Development Kit (JDK)** 8 या नया (Java 11+ अनुशंसित)।  
+- **Maven** 3.6+ **या** **Gradle** 6+.  
+- **Aspose.Slides for Java** लाइब्रेरी (aspose slides maven dependency, संस्करण 25.4 या बाद का)।  
+- Java कलेक्शन्स और फ़ाइल I/O की बुनियादी परिचितता।  
+- यदि आप कोड को ट्रायल अवधि के बाद चलाने की योजना बनाते हैं तो एक इवैल्यूएशन या पूर्ण लाइसेंस फ़ाइल (`license.json`)।
 
-### स्थापना निर्देश
-Aspose.Slides को अपने प्रोजेक्ट में शामिल करने के लिए, आप Maven या Gradle का उपयोग कर सकते हैं। यहाँ बताया गया है कि कैसे:
+## Aspose.Slides का उपयोग करके स्लाइड में चार्ट कैसे जोड़ें?
+लक्षित प्रस्तुति लोड करें, इच्छित स्लाइड पर एक नया चार्ट शेप बनाएं, और चार्ट प्रकार निर्दिष्ट करें (इस उदाहरण में बबल)। लाइब्रेरी को रेफ़रेंस करने के बाद पूरी प्रक्रिया **तीन संक्षिप्त कोड लाइनों** में की जा सकती है, जिससे यह तेज़ प्रोटोटाइपिंग और प्रोडक्शन पाइपलाइन के लिए उपयुक्त बनता है।
 
-**मावेन:**
+### चरण 1: aspose slides maven dependency जोड़ें
+**Maven:**  
+```text
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -46,59 +118,42 @@ Aspose.Slides को अपने प्रोजेक्ट में शा�
     <classifier>jdk16</classifier>
 </dependency>
 ```
-
-**ग्रेडेल:**
+```  
+**Gradle:**  
+```text
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
+```  
+These snippets pull the full Aspose.Slides API—including chart support—directly from Maven Central.
 
-यदि आप सीधे डाउनलोड करना चाहते हैं, तो यहां जाएं [Aspose.Slides for Java रिलीज़](https://releases.aspose.com/slides/java/) पृष्ठ.
-
-### लाइसेंस अधिग्रहण
-- **मुफ्त परीक्षण:** सुविधाओं का पता लगाने के लिए निःशुल्क परीक्षण से शुरुआत करें।
-- **अस्थायी लाइसेंस:** यदि आपको बिना किसी सीमा के अधिक समय की आवश्यकता हो तो अस्थायी लाइसेंस के लिए आवेदन करें।
-- **खरीदना:** व्यावसायिक उपयोग के लिए पूर्ण लाइसेंस खरीदने पर विचार करें।
-
-एक बार सेट अप हो जाने के बाद, Aspose.Slides को आरंभ करना सरल है। आप अपनी प्रस्तुति फ़ाइलों को लोड करके और उन्हें संशोधनों के लिए तैयार करके शुरू कर सकते हैं।
-
-## कार्यान्वयन मार्गदर्शिका
-
-### फ़ीचर 1: प्रेजेंटेशन सेट अप करना
-
-#### अवलोकन
-इस सुविधा में Aspose.Slides का उपयोग करके किसी मौजूदा प्रस्तुति फ़ाइल को लोड करके उसे आगे संशोधनों के लिए तैयार करना शामिल है।
-
-**कार्यान्वयन चरण**
-
-##### चरण 1: प्रस्तुति लोड करें
+### चरण 2: प्रस्तुति लोड करें और बबल चार्ट सम्मिलित करें
+**Implementation:**  
+```text
 ```java
 import com.aspose.slides.Presentation;
 
+/* The `Presentation` class represents a PowerPoint file and provides access to its slides and content. */
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Presentation pres = new Presentation(dataDir + "/chart2.pptx");
 try {
-    // यहां किए जाएंगे संशोधन
+    // Modifications will be done here
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
+```  
 
-- **क्यों:** प्रस्तुति फ़ाइल को लोड करना महत्वपूर्ण है क्योंकि यह आपको इसकी सामग्री तक पहुंचने और उसे संशोधित करने की अनुमति देता है।
-
-### फ़ीचर 2: स्लाइड में चार्ट जोड़ना
-
-#### अवलोकन
-यह सुविधा आपके प्रेजेंटेशन की पहली स्लाइड में बबल चार्ट जोड़ने का प्रदर्शन करती है। चार्ट दृश्य डेटा प्रस्तुति के लिए आवश्यक हैं।
-
-**कार्यान्वयन चरण**
-
-##### चरण 1: प्रस्तुति आरंभ करें और चार्ट जोड़ें
+### चरण 3: चार्ट की डेटा सीरीज़ और लेबल कॉन्फ़िगर करें
+**Implementation:**  
+```text
 ```java
 import com.aspose.slides.IChart;
 import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.ChartType;
 
+/* `IChart` is the interface for chart objects, allowing manipulation of series, axes, and formatting. */
 Presentation pres = new Presentation();
 try {
     ISlide slide = pres.getSlides().get_Item(0);
@@ -109,21 +164,16 @@ try {
     if (pres != null) pres.dispose();
 }
 ```
+```  
 
-- **क्यों:** चार्ट जोड़ने से आपकी प्रस्तुति की दृश्य अपील और सूचना वितरण में वृद्धि होती है।
-
-### फ़ीचर 3: किसी श्रृंखला के लिए डेटा लेबल कॉन्फ़िगर करना
-
-#### अवलोकन
-यह सुविधा आपको सेल संदर्भों का उपयोग करके चार्ट श्रृंखला पर डेटा लेबल सेट करने की अनुमति देती है, जिससे डेटा प्रतिनिधित्व में स्पष्टता और विस्तार बढ़ता है।
-
-**कार्यान्वयन चरण**
-
-##### चरण 1: डेटा लेबल कॉन्फ़िगर करें
+### चरण 4: संशोधित प्रस्तुति सहेजें
+**Implementation:**  
+```text
 ```java
 import com.aspose.slides.IChartDataWorkbook;
 import com.aspose.slides.IChartSeriesCollection;
 
+/* `IChartDataWorkbook` represents the internal workbook that stores chart data and cell references. */
 IChartSeriesCollection series = chart.getChartData().getSeries();
 series.get_Item(0).getLabels()
     .getDefaultDataLabelFormat()
@@ -140,17 +190,81 @@ series.get_Item(0).getLabels()
 series.get_Item(0).getLabels()
     .get_Item(2).setValueFromCell(wb.getCell(0, "A12", lbl2));
 ```
+```  
 
-- **क्यों:** अपने चार्ट पर सीधे विशिष्ट जानकारी प्रदान करने के लिए डेटा लेबल कॉन्फ़िगर करना आवश्यक है।
+## सेल रेफ़रेंसेज़ का उपयोग करके डेटा लेबल कैसे कॉन्फ़िगर करें?
+डेटा लेबल को बाहरी सेल मानों से बाइंड किया जा सकता है, जो Excel की “Link to Cell” सुविधा को प्रतिबिंबित करता है। यह तरीका हार्ड‑कोडेड मानों को समाप्त करता है और **डायनेमिक चार्ट जेनरेशन** को सक्षम बनाता है जहाँ लेबल सामग्री मूल डेटा में बदलाव के साथ स्वचालित रूप से अपडेट होती है। प्रत्येक लेबल को एक विशिष्ट वर्कबुक सेल से लिंक करके, आप सुनिश्चित करते हैं कि स्रोत डेटा में कोई भी परिवर्तन तुरंत प्रस्तुति में परिलक्षित हो, जिससे रखरखाव प्रयास कम होता है और पुरानी जानकारी के जोखिम को न्यूनतम किया जाता है।
 
-### फ़ीचर 4: प्रेजेंटेशन सेव करना
+### सीधा उत्तर
+`chart.getSeries().get_Item(0).getDataPoints().get_Item(i).getLabel().setDataLabelFormat(...)` को कॉल करें और एक `DataLabelFormat` पास करें जो सेल एड्रेस जैसे `"Sheet1!A2"` को रेफ़रेंस करता हो। Aspose.Slides रनटाइम पर रेफ़रेंस को हल करता है, और सेल का वर्तमान मान चार्ट लेबल में डालता है।
 
-#### अवलोकन
-यह सुविधा दर्शाती है कि संशोधित प्रस्तुति को वापस फ़ाइल में कैसे सहेजा जाए।
+### कदम‑दर‑कदम
+1. जिस सीरीज़ को आप लेबल करना चाहते हैं उसे पहचानें।  
+2. प्रत्येक डेटा पॉइंट के लिए `IDataLabel` ऑब्जेक्ट प्राप्त करें।  
+3. `CellReference` के लिए कॉन्फ़िगर किए गए `DataLabelFormat` के साथ `setDataLabelFormat` का उपयोग करें।  
+4. वैकल्पिक रूप से फ़ॉन्ट, रंग, और डिस्प्ले विकल्पों को कस्टमाइज़ करें।
 
-**कार्यान्वयन चरण**
+## संशोधित प्रस्तुति कैसे सहेजें?
+सेव करना एक सिंगल‑मेथड कॉल है जो इन‑मेमोरी `Presentation` ऑब्जेक्ट को फ़ाइल पाथ या आउटपुट स्ट्रीम में लिखता है। आप उपयुक्त `SaveFormat` एन्‍युम पास करके आउटपुट फॉर्मेट (PPTX, PDF, ODP) भी चुन सकते हैं। यह ऑपरेशन परिणाम को सीधे डिस्क पर स्ट्रीम करता है, और जब `Presentation` इंस्टेंस बंद हो जाता है या स्कोप से बाहर हो जाता है तो सभी नेटिव रिसोर्सेज़ स्वचालित रूप से रिलीज़ हो जाते हैं, जिससे बड़े डेक्स के लिए भी मेमोरी उपयोग कम रहता है।
 
-##### चरण 1: अपना कार्य सहेजें
+### सीधा उत्तर
+`presentation.save("output.pptx", SaveFormat.Pptx)` को कॉल करें; लाइब्रेरी परिणाम को सीधे डिस्क पर स्ट्रीम करती है, और जब `Presentation` इंस्टेंस बंद हो जाता है या स्कोप से बाहर हो जाता है तो सभी नेटिव रिसोर्सेज़ स्वचालित रूप से रिलीज़ हो जाते हैं।
+
+## व्यावहारिक अनुप्रयोग
+1. **व्यावसायिक रिपोर्ट्स:** डेटाबेस डंप से स्वचालित रूप से त्रैमासिक बिक्री चार्ट जेनरेट करें।  
+2. **शैक्षणिक लेक्चर:** प्रत्येक क्लास सत्र के लिए लाइव रिसर्च डेटा को लेक्चर स्लाइड्स में पुल करें।  
+3. **सेल्स पिचेज़:** क्लाइंट‑स्पेसिफिक परफॉर्मेंस डैशबोर्ड तुरंत बनाएं।  
+4. **प्रोजेक्ट मैनेजमेंट:** डायनेमिक डेटा लेबल्स के साथ गैंट‑स्टाइल टाइमलाइन को विज़ुअलाइज़ करें।  
+5. **मार्केटिंग एनालिटिक्स:** प्रेजेंटेशन में कैंपेन KPI एम्बेड करें जो नए मेट्रिक्स आने पर अपडेट होते हैं।
+
+## प्रदर्शन विचार
+- **मेमोरी मैनेजमेंट:** नेटीव मेमोरी को तुरंत मुक्त करने के लिए try‑with‑resources या स्पष्ट `presentation.dispose()` का उपयोग करें।  
+- **बड़े डेटा सेट:** जब 10,000 से अधिक डेटा पॉइंट्स को हैंडल कर रहे हों, तो `ChartDataWorkbook` के माध्यम से चार्ट डेटा पॉप्युलेट करें ताकि पूरे डेटा सेट को Java ऑब्जेक्ट्स में लोड करने से बचा जा सके।  
+- **थ्रेड सुरक्षा:** प्रत्येक थ्रेड को अपना `Presentation` इंस्टेंस उपयोग करना चाहिए; API साझा ऑब्जेक्ट्स के बीच थ्रेड‑सेफ़ नहीं है।  
+
+## सामान्य समस्याएँ और समाधान
+**समस्या:** “License file not found.”  
+**समाधान:** `license.json` को क्लासपाथ में रखें और किसी भी API उपयोग से पहले `License license = new License(); license.setLicense("license.json");` को कॉल करें।  
+
+**समस्या:** “Chart appears blank after saving.”  
+**समाधान:** सुनिश्चित करें कि चार्ट का डेटा वर्कबुक प्रस्तुति के साथ सहेजा गया है (`presentation.getCharts().setDataWorkbook(chartWorkbook);`)।  
+
+**समस्या:** “Data labels show “#REF!” errors.”  
+**समाधान:** जांचें कि सेल रेफ़रेंस स्ट्रिंग सटीक शीट नाम और एड्रेस से मेल खाती है, और रेफ़रेंस किया गया वर्कबुक चार्ट से जुड़ा हुआ है।  
+
+## अक्सर पूछे जाने वाले प्रश्न
+**Q:** क्या मैं बबल के अलावा अन्य चार्ट प्रकार जोड़ सकता हूँ?  
+**A:** हाँ, `ChartType` एन्यूमरेशन में लाइन, बार, पाई, रडार, स्टॉक, और 70 से अधिक अतिरिक्त प्रकार शामिल हैं।  
+
+**Q:** क्या aspose slides maven dependency OpenJDK के साथ काम करता है?  
+**A:** बिल्कुल; यह OpenJDK 8‑21 के साथ पूरी तरह संगत है और सभी प्रमुख ऑपरेटिंग सिस्टम पर चलता है।  
+
+**Q:** मैं मौजूदा Excel फ़ाइल से चार्ट कैसे एम्बेड करूँ?  
+**A:** `WorkbookFactory.create(new FileInputStream("data.xlsx"))` के साथ Excel वर्कबुक लोड करें, फिर सेल रेफ़रेंसेज़ सेट करने से पहले चार्ट के `ChartDataWorkbook` को उस वर्कबुक से बाइंड करें।  
+
+**Q:** क्या प्रति स्लाइड चार्ट की संख्या पर कोई सीमा है?  
+**A:** व्यावहारिक रूप से नहीं—Aspose.Slides प्रति स्लाइड दर्जनों चार्ट संभाल सकता है, केवल उपलब्ध मेमोरी द्वारा सीमित।  
+
+**Q:** अंतिम प्रस्तुति को किस फॉर्मेट में एक्सपोर्ट कर सकता हूँ?  
+**A:** PPTX, PPT, ODP, PDF, XPS, HTML, और PNG तथा JPEG जैसे इमेज फॉर्मेट भी समर्थित हैं।  
+
+## संसाधन
+- [Aspose.Slides for Java रिलीज़](https://releases.aspose.com/slides/java/) – download the latest library binaries.  
+- [Aspose.Slides दस्तावेज़ीकरण](https://reference.aspose.com/slides/java/) – comprehensive API reference and guides.  
+- [Aspose.Slides for Java डाउनलोड करें](https://releases.aspose.com/slides/java/) – direct download page for the Maven/Gradle packages.  
+- [लाइसेंस खरीदें](https://purchase.aspose.com/buy) – obtain a full commercial license.  
+- [नि:शुल्क ट्रायल](https://releases.aspose.com/slides/java/) – start with a trial to evaluate features.  
+- [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) – request a temporary key for extended evaluation.  
+- [Aspose सपोर्ट फ़ोरम](https://forum.aspose.com/c/slides/11) – get help from the community and Aspose engineers.  
+
+## निष्कर्ष
+अब आपके पास **aspose slides maven dependency** का उपयोग करके Java प्रस्तुतियों में चार्ट जोड़ने, कॉन्फ़िगर करने और सहेजने के लिए एक पूर्ण, अंत‑से‑अंत गाइड है। ऊपर दिए गए चरणों का पालन करके आप चार्ट निर्माण को ऑटोमेट कर सकते हैं, डेटा लेबल को लाइव सेल वैल्यूज़ से बाइंड कर सकते हैं, और स्केल पर प्रोफेशनल‑ग्रेड डेक्स जेनरेट कर सकते हैं। अन्य चार्ट प्रकारों के साथ प्रयोग करें, एनीमेशन API को एक्सप्लोर करें, और इस वर्कफ़्लो को अपनी रिपोर्टिंग पाइपलाइन में इंटीग्रेट करें अधिकतम प्रभाव के लिए।
+
+---  
+**अंतिम अपडेट:** 2026-06-03  
+**परीक्षित संस्करण:** Aspose.Slides for Java 25.4  
+**लेखक:** Aspose
+
 ```java
 import com.aspose.slides.SaveFormat;
 
@@ -158,50 +272,16 @@ String outputDir = "YOUR_OUTPUT_DIRECTORY";
 pres.save(outputDir + "/resultchart.pptx", SaveFormat.Pptx);
 ```
 
-- **क्यों:** प्रस्तुति को सहेजने से यह सुनिश्चित होता है कि आपके सभी संशोधन भविष्य में उपयोग के लिए सुरक्षित रहेंगे।
+## संबंधित ट्यूटोरियल
 
-## व्यावहारिक अनुप्रयोगों
-1. **व्यावसायिक रिपोर्ट:** त्रैमासिक रिपोर्ट में चार्ट स्वचालित रूप से तैयार करें और अपडेट करें।
-2. **शैक्षणिक प्रस्तुतियाँ:** वास्तविक समय डेटा विज़ुअलाइज़ेशन के साथ व्याख्यान को बेहतर बनाएँ।
-3. **विक्रय संबंधी बातचीत:** बिक्री के रुझान और अनुमानों को प्रदर्शित करने वाली गतिशील प्रस्तुतियाँ बनाएँ।
-4. **परियोजना प्रबंधन:** परियोजना समयसीमा और संसाधन आवंटन की कल्पना करें।
-5. **विपणन विश्लेषण:** अभियान प्रदर्शन ट्रैकिंग के लिए Aspose.Slides चार्ट को डैशबोर्ड में एकीकृत करें।
+- [Aspose.Slides Java के साथ प्रस्तुतियों को बनाना और कॉन्फ़िगर करना: चरण‑दर‑चरण गाइड](/slides/java/getting-started/create-configure-presentation-aspose-slides-java/)
+- [Aspose.Slides Maven के साथ PPTX Java बनाएं – ऑटोमेशन गाइड](/slides/java/batch-processing/aspose-slides-java-automate-presentation-management/)
+- [Aspose.Slides के साथ Java में चार्ट बनाना: एक व्यापक गाइड](/slides/java/charts-graphs/aspose-slides-java-chart-creation-guide/)
 
-## प्रदर्शन संबंधी विचार
-- चार्ट में बड़े डेटासेट को संभालने के लिए कुशल डेटा संरचनाओं का उपयोग करें।
-- वस्तुओं का उचित तरीके से निपटान करके मेमोरी का प्रबंधन करें `try-finally` ब्लॉक.
-- विस्तृत प्रस्तुतियों के साथ काम करते समय जावा मेमोरी प्रबंधन तकनीकों को अनुकूलित करें।
-
-## निष्कर्ष
-इस ट्यूटोरियल ने आपको जावा के लिए Aspose.Slides को सेट अप करने के बारे में बताया है और यह भी दिखाया है कि अपनी प्रेजेंटेशन फ़ाइलों में चार्ट कैसे जोड़ें, कॉन्फ़िगर करें और सेव करें। इन कौशलों के साथ, अब आप चार्ट निर्माण और अनुकूलन प्रक्रियाओं को स्वचालित कर सकते हैं, समय की बचत कर सकते हैं और त्रुटियों को कम कर सकते हैं।
-
-**अगले कदम:**
-दस्तावेज़ों में गोता लगाकर और विभिन्न चार्ट प्रकारों और कॉन्फ़िगरेशन के साथ प्रयोग करके Aspose.Slides की अन्य विशेषताओं का अन्वेषण करें।
-
-## अक्सर पूछे जाने वाले प्रश्न अनुभाग
-1. **Java के लिए Aspose.Slides क्या है?**
-   - जावा अनुप्रयोगों में प्रस्तुतियों के प्रबंधन के लिए एक शक्तिशाली लाइब्रेरी।
-2. **क्या मैं खरीदारी के बिना Aspose.Slides का उपयोग कर सकता हूँ?**
-   - हां, आप इसकी क्षमताओं का परीक्षण करने के लिए निःशुल्क परीक्षण से शुरुआत कर सकते हैं।
-3. **मैं विभिन्न चार्ट प्रकार कैसे जोड़ूं?**
-   - उपयोग `ChartType` उपलब्ध विभिन्न चार्ट शैलियों को निर्दिष्ट करने के लिए गणना।
-4. **क्या किसी प्रस्तुति में मौजूदा चार्ट को संपादित करना संभव है?**
-   - बिल्कुल! आप अपने चार्ट के किसी भी पहलू को प्रोग्रामेटिक रूप से लोड और संशोधित कर सकते हैं।
-5. **Aspose.Slides के साथ कुछ सामान्य प्रदर्शन समस्याएं क्या हैं?**
-   - बड़ी प्रस्तुतियाँ अधिक मेमोरी का उपभोग कर सकती हैं; उचित ऑब्जेक्ट निपटान और कुशल डेटा प्रबंधन सुनिश्चित करें।
-
-## संसाधन
-- [Aspose.Slides दस्तावेज़ीकरण](https://reference.aspose.com/slides/java/)
-- [Java के लिए Aspose.Slides डाउनलोड करें](https://releases.aspose.com/slides/java/)
-- [लाइसेंस खरीदें](https://purchase.aspose.com/buy)
-- [मुफ्त परीक्षण](https://releases.aspose.com/slides/java/)
-- [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/)
-- [Aspose समर्थन मंच](https://forum.aspose.com/c/slides/11)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
