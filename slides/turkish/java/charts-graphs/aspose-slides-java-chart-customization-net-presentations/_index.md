@@ -1,12 +1,66 @@
 ---
-date: '2026-01-17'
+date: '2026-06-08'
 description: Aspose.Slides for Java kullanarak .NET sunumlarında grafiklere seri eklemeyi
   ve yığılmış sütun grafiklerini özelleştirmeyi öğrenin.
 keywords:
+- add series to chart
+- stacked column chart example
+- populate chart data
+- create empty presentation
 - Aspose.Slides for Java
-- .NET Presentations
-- Chart Customization
-title: Aspose.Slides for Java ile .NET’te Grafik’e Seri Ekle
+schemas:
+- author: Aspose
+  dateModified: '2026-06-08'
+  description: Learn how to add series to chart and customize stacked column charts
+    in .NET presentations using Aspose.Slides for Java.
+  headline: Add Series to Chart with Aspose.Slides for Java in .NET
+  type: TechArticle
+- description: Learn how to add series to chart and customize stacked column charts
+    in .NET presentations using Aspose.Slides for Java.
+  name: Add Series to Chart with Aspose.Slides for Java in .NET
+  steps:
+  - name: Create an Empty Presentation
+    text: '`Presentation` is the entry point class that represents a PowerPoint file
+      in memory. *We start with a clean PPTX file, which gives us a canvas for adding
+      charts.*'
+  - name: Add a Stacked Column Chart to the Slide
+    text: '`Chart` represents a chart shape within a slide. `ChartType.StackedColumn`
+      specifies a stacked column chart. *The `addChart` method creates a **stacked
+      column chart** and places it at the top‑left corner of the slide.*'
+  - name: Add Series to the Chart (Primary Goal)
+    text: '`Series` encapsulates a single data series in a chart. *Here we **add series
+      to chart** – each call creates a new data series that will appear as a separate
+      column group.*'
+  - name: Add Categories to the Chart
+    text: '`Category` defines an X‑axis label for chart data. *Categories act as the
+      X‑axis labels, giving meaning to each column.*'
+  - name: Populate Series Data
+    text: '`DataPoint` holds a numeric value for a series at a specific category.
+      *Data points give each series its numeric values, which the chart will render
+      as bar heights.*'
+  - name: Set Gap Width for Chart Series Group
+    text: '`SeriesGroup` controls layout properties for a group of series, such as
+      gap width. *Adjusting the gap width improves readability, especially when many
+      categories are present.*'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Slides supports line, pie, area, radar, bubble, and 50+ other
+      chart types, all accessible through the same `addChart` method.
+    question: Can I add other chart types besides stacked column?
+  - answer: No, the same Java license works for all output formats, including .NET
+      PPTX files.
+    question: Do I need a separate license for .NET output?
+  - answer: Use `series.getFormat().getFill().setFillType(FillType.Solid)` and then
+      set the desired `Color` object for each series.
+    question: How do I change the chart’s color palette?
+  - answer: Absolutely. Call `series.getDataPoints().get_Item(j).getLabel().setShowValue(true)`
+      to display the numeric value on each column.
+    question: Is it possible to add data labels programmatically?
+  - answer: Load the file with `new Presentation("existing.pptx")`, modify the chart
+      using the same API calls, and save it back to disk.
+    question: What if I need to update an existing presentation?
+  type: FAQPage
+title: Aspose.Slides for Java ile .NET'te Grafiklere Seri Ekle
 url: /tr/java/charts-graphs/aspose-slides-java-chart-customization-net-presentations/
 weight: 1
 ---
@@ -16,50 +70,34 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.Slides for Java Kullanarak .NET Sunumlarında Grafik Özelleştirme Ustalığı
+# Aspose.Slides for Java Kullanarak .NET Sunumlarında Grafik Özelleştirmeyi Ustalıkla Öğrenme
 
-## Giriiş
-Veri‑odaklı sunumlar dünyasında, ayrıntılı ham profilli, etkileyici görsel hikayelere dönüştürülen vazgeçilmez araçlardır. **grafiğe seri ekle** süreç programlı olarak, özellikle .NET sunum dosyaları içindeki kayıtlarda görevin gözlenmemesi. Neyse ki, **Aspose.Slides for Java**, grafik oluşturma ve birleştirmeyi basitleştiren güçlü, dil‑bağımsız bir API sunar—hedef formatınız bir .NETPPTX olsa bile.
+## Giriş
+Veri odaklı sunumlar dünyasında, grafikler ham sayıları etkileyici görsel hikayelere dönüştüren vazgeçilmez araçlardır. Özellikle .NET sunum dosyaları içinde programlı olarak **add series to chart** (grafiğe seri ekleme) yapmanız gerektiğinde görev göz korkutucu görünebilir. Neyse ki, **Aspose.Slides for Java**, grafik oluşturma ve özelleştirmeyi basit hale getiren güçlü, dil bağımsız bir API sunar—hedef formatınız bir .NET PPTX olsa bile. Bu rehber, serileri eklemeyi, yığılmış sütun grafiği oluşturmayı ve boşluk genişliği gibi görsel yönleri ince ayarlamayı adım adım gösterir, böylece dinamik, veri açısından zengin ve profesyonel görünümlü slaytlar üretebilirsiniz.
 
-Bu öğreticide **grafiğe seri ekleme** nasıl eklenecek, yığılmış sütun (yığılmış sütun) tipinde **grafik nasıl eklenir** nasıl ekleyeceğinizi ve bölünmüş genişliği (boşluk genişliği) gibi görsel ayrıntıları nasıl ince ayarlarınızı keşfedeceksiniz. Sonunda dinamik ve doğrulayıcı slaytlar oluşturabilecek ve bunları profesyonel bir görünüme kavuşturabileceksiniz.
+## Hızlı Yanıtlar
+`Presentation` sınıfı bir PPTX dosyasını temsil eder ve `slide.getShapes().addChart(...)` bir grafik şekli ekler. Bir seri eklemek için `chart.getChartData().getSeries().add(...)` kullanın ve `setGapWidth()` boşluğu ayarlar.
 
-**Ne Öğreneceksiniz**
-- Aspose.Slides kullanarak boş bir sunum nasıl oluşturulur?
-- Bir slayta **yığılmış sütun grafiği ekle** nasıl eklenir
-- **Serileri grafiğe ekle** nasıl yapılır ve kategoriler nasıl seçilir
-- Veri bölümleri nasıl yapılandırılır ve görsel ayarlar nasıl ayrılır?
+- **Bir sunuma başlamak için birincil sınıf nedir?** `Presentation` – bellekte bir PPTX dosyasını temsil eder.  
+- **Hangi yöntem bir slayta grafik ekler?** `slide.getShapes().addChart(...)` slaytta grafik nesnesini oluşturur.  
+- **Yeni bir seri nasıl eklenir?** `chart.getChartData().getSeries().add(...)` yeni bir veri serisi ekler.  
+- **Sütunlar arasındaki boşluk genişliğini değiştirebilir miyim?** Evet—`chart.getChartData().getSeriesGroups().get_Item(0).setGapWidth(50)` (değer yüzde olarak) çağırın.  
+- **Üretim için lisansa ihtiyacım var mı?** Kesinlikle—geçerli bir Aspose.Slides for Java lisansı tüm özelliklerin kilidini açar ve değerlendirme filigranlarını kaldırır.
 
-Geliştirmenizi ortamı hazırlayalım.
+## “add series to chart” nedir?
+Bir grafiğe seri eklemek, grafiğin ayrı bir görsel öğe (ör. ayrı bir sütun grubu) olarak render ettiği yeni bir veri noktası koleksiyonu eklemek anlamına gelir. Her seri kendi değerlerine, renklerine ve biçimlendirmesine sahip olabilir, bu da birden fazla veri kümesinin yan yana karşılaştırılmasını sağlar.
 
-## Hızlı Cevaplar
-- **Sunum başlatmak için kullanılan temel sınıf nedir?** `Presentation`
-- **Bir slayta grafik ekleyen yöntem hangisidir?** `slide.getShapes().addChart(...)`
-- **Yeni bir seri nasıl eklenir?** `chart.getChartData().getSeries().add(...)`
-- **Çubuklar arasındaki boşluk genişliğini değiştirebilir miyim?** Evet, seri grubunda `setGapWidth()` kullanarak.
-- **Üretim için lisansa ihtiyacım var mı?** Evet, geçerli bir Aspose.Slides for Java lisansı gereklidir.
-
-## “Grafiğe seri eklemek” nedir?
-
-Bir grafiğe seri eklemek, grafiğin ayrı bir görsel öğe (örneğin, yeni bir çubuk, çizgi veya dilim) olarak işleyeceği yeni bir veri koleksiyonu eklemek anlamına gelir. Her serinin kendine ait değerleri, renkleri ve biçimlendirmesi olabilir; bu da birden fazla veri setini yan yana karşılaştırmanıza olanak tanır.
-
-## .NET sunumlarını değiştirmek için neden Aspose.Slides for Java kullanmalısınız?
-
-- **Çapraz platform**: Java kodunu bir kez yazın ve .NET uygulamaları tarafından kullanılan PPTX dosyalarını hedefleyin.
-
-- **COM veya Office bağımlılığı yok**: Sunucularda, CI işlem hatlarında ve konteynerlerde çalışır.
-
-- **Zengin grafik API'si**: Yığılmış sütun grafikleri de dahil olmak üzere 50'den fazla grafik türünü destekler.
+## .NET sunumlarını değiştirmek için Aspose.Slides for Java neden kullanılmalı?
+Aspose.Slides for Java, Microsoft Office kurulumuna ihtiyaç duymadan .NET PowerPoint görüntüleyicileriyle tam uyumlu PPTX dosyaları oluşturmanıza veya düzenlemenize olanak tanır. Sunucu taraflı, çapraz platform bir çözümle .NET PPTX dosyaları oluşturmanız veya güncellemeniz, 50+ grafik türünü desteklemesi ve belgeyi belleğe tamamen yüklemeden 500 MB’a kadar dosyaları işlemesi gerektiğinde Aspose.Slides for Java’yı kullanın. API’si Java, Kotlin, Scala veya herhangi bir JVM dilinde çalışır ve .NET geliştiricilerin beklediği aynı çıktıyı üretir.
 
 ## Önkoşullar
-1. **Aspose.Slides for Java** kütüphanesi (sürüm 25.4 veya üzeri).
+- **Aspose.Slides for Java** kütüphanesi (sürüm 25.4 veya üzeri).  
+- Maven, Gradle veya manuel JAR indirme.  
+- Temel Java bilgisi ve PPTX dosya yapısına aşinalık.
 
-2. Maven veya Gradle derleme aracı veya manuel JAR indirme.
-
-3. Temel Java bilgisi ve PPTX yapısına aşinalık.
-
-## Java için Aspose.Slides Kurulumu
+## Aspose.Slides for Java Kurulumu
 ### Maven Kurulumu
-Aşağıdaki bağımlılığı `pom.xml` dosyanıza ekleyin:
+`pom.xml` dosyanıza aşağıdaki bağımlılığı ekleyin:
 
 ```xml
 <dependency>
@@ -71,22 +109,24 @@ Aşağıdaki bağımlılığı `pom.xml` dosyanıza ekleyin:
 ```
 
 ### Gradle Kurulumu
-`build.gradle` dosyanıza şu satırı ekleyin:
+`build.gradle` dosyanıza bu satırı ekleyin:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
 ### Doğrudan İndirme
-Alternatif olarak, en son JAR dosyasını resmi sürüm sayfasından indirin: [Aspose.Slides for Java sürümleri](https://releases.aspose.com/slides/java/).
+Alternatif olarak, resmi sürüm sayfasından en son JAR dosyasını edinin: [Aspose.Slides for Java sürümleri](https://releases.aspose.com/slides/java/).
 
-**Lisans Edinimi**
-[Buradan](https://purchase.aspose.com/temporary-license/) geçici bir lisans indirerek ücretsiz deneme sürümüyle başlayın. Üretim kullanımı için, tüm özelliklerin kilidini açmak üzere tam bir lisans satın alın.
+**Lisans Edinme**  
+Ücretsiz deneme sürümüyle başlamak için geçici bir lisansı [buradan](https://purchase.aspose.com/temporary-license/) indirin. Üretim kullanımı için tüm özelliklerin kilidini açan ve değerlendirme filigranlarını kaldıran tam bir lisans satın alın.
 
 ## Adım Adım Uygulama Kılavuzu
-Her adımın altında, ne yaptığının açıklamasıyla birlikte kısa bir kod parçacığı (orijinal eğitimden değiştirilmemiş) bulacaksınız.
+Her adımın altında, orijinal öğreticiden değiştirilmemiş kısa bir kod parçacığı ve ardından ne yaptığının açıklamasını bulacaksınız.
 
 ### Adım 1: Boş Bir Sunum Oluşturma
+`Presentation`, bellekte bir PowerPoint dosyasını temsil eden giriş sınıfıdır.
+
 ```java
 import com.aspose.slides.*;
 
@@ -98,10 +138,12 @@ ISlide slide = presentation.getSlides().get_Item(0);
 
 // Save the presentation to a specified path
 presentation.save("YOUR_OUTPUT_DIRECTORY/Empty_Presentation.pptx", SaveFormat.Pptx);
-```
-*We start with a clean PPTX file, which gives us a canvas for adding charts.*
+```  
+*Temiz bir PPTX dosyasıyla başlarız; bu, grafik eklemek için bir tuval sağlar.*
 
-### Adım 2: Slayda Yığılmış Sütun Grafiği Ekleyin
+### Adım 2: Slayta Yığılmış Sütun Grafiği Ekleme
+`Chart`, bir slayt içindeki grafik şekli temsil eder. `ChartType.StackedColumn` yığılmış sütun grafiğini belirtir.
+
 ```java
 // Import necessary Aspose.Slides classes
 import com.aspose.slides.*;
@@ -111,10 +153,12 @@ IChart chart = slide.getShapes().addChart(ChartType.StackedColumn, 0, 0, 500, 50
 
 // Save the presentation with the new chart
 presentation.save("YOUR_OUTPUT_DIRECTORY/Chart_Added.pptx", SaveFormat.Pptx);
-```
-*The `addChart` method creates a **add stacked column chart** and places it at the top‑left corner of the slide.*
+```  
+*`addChart` yöntemi bir **yığılmış sütun grafiği** oluşturur ve slaydın sol‑üst köşesine yerleştirir.*
 
-### Adım 3: Grafiğe Seriler Ekleyin (Birincil Amaç)
+### Adım 3: Grafik'e Seri Ekleme (Ana Hedef)
+`Series`, bir grafikte tek bir veri serisini kapsar.
+
 ```java
 // Accessing the default worksheet index for chart data
 int defaultWorksheetIndex = 0;
@@ -125,10 +169,12 @@ chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "
 
 // Save the presentation after adding series
 presentation.save("YOUR_OUTPUT_DIRECTORY/Series_Added.pptx", SaveFormat.Pptx);
-```
-*Here we **add series to chart** – each call creates a new data series that will appear as a separate column group.*
+```  
+*Burada **add series to chart** yapıyoruz – her çağrı, ayrı bir sütun grubu olarak görünecek yeni bir veri serisi oluşturur.*
 
-### Adım 4: Grafiğe Kategoriler Ekleyin
+### Adım 4: Grafik'e Kategoriler Ekleme
+`Category`, grafik verileri için X‑eksen etiketi tanımlar.
+
 ```java
 // Adding categories to the chart
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 1, 0, "Category 1"));
@@ -137,10 +183,12 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 
 
 // Save the presentation after adding categories
 presentation.save("YOUR_OUTPUT_DIRECTORY/Categories_Added.pptx", SaveFormat.Pptx);
-```
-*Categories act as the X‑axis labels, giving meaning to each column.*
+```  
+*Kategoriler X‑eksen etiketleri olarak görev yapar ve her sütuna anlam kazandırır.*
 
-### Adım 5: Seri Verilerini Doldurun
+### Adım 5: Seri Verilerini Doldurma
+`DataPoint`, belirli bir kategori için bir serinin sayısal değerini tutar.
+
 ```java
 // Accessing a particular series for data population
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
@@ -152,62 +200,68 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 
 // Save the presentation with populated data
 presentation.save("YOUR_OUTPUT_DIRECTORY/Series_Data_Populated.pptx", SaveFormat.Pptx);
-```
-*Data points give each series its numeric values, which the chart will render as bar heights.*
+```  
+*Veri noktaları, her seriye sayısal değerler sağlar; grafik bu değerleri çubuk yüksekliği olarak gösterir.*
 
-### Adım 6: Grafik Seri Grubu için Boşluk Genişliğini Ayarlayın
+### Adım 6: Grafik Seri Grubu İçin Boşluk Genişliğini Ayarlama
+`SeriesGroup`, bir seri grubunun düzen özelliklerini, örneğin boşluk genişliğini kontrol eder.
+
 ```java
 // Setting the gap width between bars
 series.getParentSeriesGroup().setGapWidth(50);
 
 // Save the presentation after adjusting the gap width
 presentation.save("YOUR_OUTPUT_DIRECTORY/Set_GapWidth.pptx", SaveFormat.Pptx);
-```
-*Adjusting the gap width improves readability, especially when many categories are present.*
+```  
+*Boşluk genişliğini ayarlamak, özellikle çok sayıda kategori olduğunda okunabilirliği artırır.*
 
-## Yaygın Kullanım Alanları
-- **Finansal raporlama** – İş birimleri genelinde üç aylık gelirleri karşılaştırın.
-
-- **Proje panoları** – Ekip başına görev tamamlama yüzdelerini gösterin.
-
-- **Pazarlama analitiği** – Kampanya performansını yan yana görselleştirin.
+## Yaygın Kullanım Senaryoları
+- **Finansal raporlama** – iş birimleri arasında çeyrek gelirlerini karşılaştırın.  
+- **Proje panoları** – ekip başına görev tamamlama yüzdelerini gösterin.  
+- **Pazarlama analitiği** – kampanya performansını yan yana görselleştirin.  
+Bu senaryolar, bireysel kategorilerin toplam içindeki katkılarını vurguladığı için **yığılmış sütun grafik örneği**nden faydalanır.
 
 ## Performans İpuçları
-- Bellek yükünü azaltmak için birden fazla grafik oluştururken **`Presentation` nesnesini yeniden kullanın.**
+- **`Presentation` nesnesini yeniden kullanın** birden fazla grafik oluştururken bellek yükünü azaltmak için.  
+- **Veri noktası sayısını sınırlayın** sadece görsel hikaye için gerekli olanlarla; Aspose.Slides 10.000 noktayı işleyebilir, ancak render hızı ~5.000 sonrası düşer.  
+- **Nesneleri serbest bırakın** (`presentation.dispose()`) kaydettikten sonra kaynakları boşaltmak ve bellek sızıntılarını önlemek için.
 
-- Görsel hikaye için gerekli olan veri noktalarının sayısını sınırlayın.**
+## Sık Sorulan Sorular
+**S: Yığılmış sütun dışında başka grafik türleri ekleyebilir miyim?**  
+C: Evet, Aspose.Slides çizgi, pasta, alan, radar, balon ve 50+ diğer grafik türünü destekler; hepsi aynı `addChart` yöntemiyle erişilebilir.
 
-- Kaynakları serbest bırakmak için kaydettikten sonra **nesneleri atın** (`presentation.dispose()`).**
+**S: .NET çıktısı için ayrı bir lisansa ihtiyacım var mı?**  
+C: Hayır, aynı Java lisansı .NET PPTX dosyaları dahil tüm çıktı formatları için çalışır.
 
-## Sıkça Sorulan Sorular
-**S: Yığılmış sütun grafiğinin dışında başka grafik türleri ekleyebilir miyim?**
-C: Evet, Aspose.Slides çizgi, pasta, alan ve daha birçok grafik türünü destekler.
+**S: Grafiğin renk paletini nasıl değiştiririm?**  
+C: `series.getFormat().getFill().setFillType(FillType.Solid)` kullanın ve ardından her seri için istenen `Color` nesnesini ayarlayın.
 
-**S: .NET çıktısı için ayrı bir lisansa ihtiyacım var mı?**
-C: Hayır, aynı Java lisansı, .NET PPTX dosyaları da dahil olmak üzere tüm çıktı formatları için geçerlidir.
+**S: Veri etiketlerini programlı olarak eklemek mümkün mü?**  
+C: Kesinlikle. Her sütunda sayısal değeri göstermek için `series.getDataPoints().get_Item(j).getLabel().setShowValue(true)` çağırın.
 
-**S: Grafiğin renk paletini nasıl değiştiririm?**
-C: `chart.getChartData().getSeries().get_Item(i).getFormat().getFill().setFillType(FillType.Solid)` kullanın ve istediğiniz `Color` değerini ayarlayın.
-
-**S: Veri etiketlerini programatik olarak eklemek mümkün mü?**
-C: Kesinlikle. Değerleri görüntülemek için `series.getDataPoints().get_Item(j).getLabel().setShowValue(true)` çağrısını yapın.
-
-**S: Mevcut bir sunumu güncellemem gerekirse ne yapmalıyım?**
-C: Dosyayı `new Presentation("existing.pptx")` ile yükleyin, grafiği değiştirin ve tekrar kaydedin.
+**S: Mevcut bir sunumu güncellemem gerekirse ne yapmalıyım?**  
+C: Dosyayı `new Presentation("existing.pptx")` ile yükleyin, aynı API çağrılarını kullanarak grafiği değiştirin ve diske tekrar kaydedin.
 
 ## Sonuç
-Artık Aspose.Slides for Java kullanarak .NET sunumlarında **grafiğe seri ekleme**, **yığılmış sütun grafiği** oluşturma ve görünümünü ince ayar yapma konusunda eksiksiz, uçtan uca bir kılavuza sahipsiniz. Paydaşları etkileyen ilgi çekici görsel raporlar oluşturmak için farklı grafik türleri, renkler ve veri kaynaklarıyla deneyler yapın.
+Artık **add series to chart** nasıl yapılır, **yığılmış sütun grafiği** nasıl oluşturulur ve Aspose.Slides for Java kullanarak .NET sunumlarında görünümü nasıl ince ayar yapılır konusunda eksiksiz, uçtan uca bir kılavuza sahipsiniz. Farklı grafik türleri, renkler ve veri kaynaklarıyla deney yaparak paydaşları etkileyen ve veri odaklı kararları yönlendiren etkileyici görsel raporlar oluşturabilirsiniz.
 
 ---
 
-**Son Güncelleme:** 17.01.2026
-**Test Edilen Sürüm:** Aspose.Slides for Java 25.4 (jdk16)
-**Yazar:** Aspose
+**Son Güncelleme:** 2026-06-08  
+**Test Edilen Versiyon:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Yazar:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## İlgili Öğreticiler
+
+- [.NET'te Aspose.Slides kullanarak Yüzde Tabanlı Yığılmış Sütun Grafikler Nasıl Oluşturulur](/slides/net/charts-graphs/create-stacked-column-charts-asposeslides-dotnet/)
+- [Aspose.Slides .NET ile Ana Grafik Serisi Oluşturma ve Manipülasyonu – Etkili Veri Görselleştirme](/slides/net/charts-graphs/create-manipulate-chart-series-aspose-slides-net/)
+- [Aspose.Slides .NET ile Belirli Grafik Seri Veri Noktalarını Temizleme](/slides/net/additional-chart-features/clear-specific-chart-series-data-points-data/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

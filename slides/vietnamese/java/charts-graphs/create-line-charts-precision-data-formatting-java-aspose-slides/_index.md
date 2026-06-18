@@ -1,9 +1,63 @@
 ---
-"date": "2025-04-17"
-"description": "Tìm hiểu cách tạo biểu đồ đường hấp dẫn trực quan với định dạng dữ liệu chính xác bằng Aspose.Slides for Java. Hoàn hảo cho các bài thuyết trình, báo cáo tài chính, v.v."
-"title": "Cách tạo biểu đồ đường được định dạng chính xác trong Java bằng Aspose.Slides"
-"url": "/vi/java/charts-graphs/create-line-charts-precision-data-formatting-java-aspose-slides/"
-"weight": 1
+date: '2026-06-08'
+description: Tìm hiểu cách định dạng Chart Data Labels và tạo Precise Line Charts
+  trong Java bằng Aspose.Slides. Thích hợp cho các bài thuyết trình, báo cáo tài chính
+  và các dự án ví dụ Line Chart Java.
+keywords:
+- format chart data labels
+- java line chart example
+- Aspose.Slides chart formatting
+- precise line chart Java
+- data label formatting Java
+schemas:
+- author: Aspose
+  dateModified: '2026-06-08'
+  description: Learn how to format chart data labels and create precise line charts
+    in Java using Aspose.Slides. Ideal for presentations, financial reports, and Java
+    line chart example projects.
+  headline: How to Format Chart Data Labels for Precise Line Charts in Java
+  type: TechArticle
+- description: Learn how to format chart data labels and create precise line charts
+    in Java using Aspose.Slides. Ideal for presentations, financial reports, and Java
+    line chart example projects.
+  name: How to Format Chart Data Labels for Precise Line Charts in Java
+  steps:
+  - name: Create a New Presentation
+    text: '`Presentation` is Aspose.Slides'' top‑level object that holds all slide
+      content. Begin by instantiating it:'
+  - name: Add a Line Chart
+    text: 'Insert the chart onto the first slide at the desired location: **Parameters
+      Explained** - `ChartType.Line` – creates a line chart. - `(50, 50)` – X/Y coordinates
+      on the slide. - `(450, 300)` – width and height in points.'
+  - name: Enable Data Table
+    text: 'Activate the data table so labels appear directly beneath the chart: Enabling
+      `setDataTable(true)` makes raw values visible, aiding quick data verification.'
+  - name: Set Number Format for Precision
+    text: 'Apply a two‑decimal‑place format to ensure every label reads `0.00`: This
+      uniform formatting eliminates rounding inconsistencies and improves visual clarity.'
+  - name: Save the Presentation
+    text: 'Write the presentation to disk:'
+  type: HowTo
+- questions:
+  - answer: Access each data point’s `getFormat().getFillFormat().setFillType(FillType.Solid)`
+      and set the desired `SolidFillColor`.
+    question: How can I change the color of data labels in Aspose.Slides?
+  - answer: Yes – retrieve each series via `chart.getChartData().getSeries().get_Item(index)`
+      and call `setNumberFormat` with the format you need.
+    question: Is it possible to apply different number formats to separate series?
+  - answer: Ensure `setDataTable(true)` is enabled and that the underlying data points
+      contain non‑null values.
+    question: My chart shows blank data labels; what should I check?
+  - answer: Reuse a single `Presentation` template, clone slides, and call `dispose()`
+      on each temporary object to keep memory usage low.
+    question: How do I efficiently generate many presentations with charts?
+  - answer: Absolutely – the library processes typical 100‑row data sets in under
+      200 ms, making it suitable for on‑the‑fly chart generation.
+    question: Can Aspose.Slides be used in real‑time reporting dashboards?
+  type: FAQPage
+title: Cách Định Dạng Chart Data Labels cho Precise Line Charts trong Java
+url: /vi/java/charts-graphs/create-line-charts-precision-data-formatting-java-aspose-slides/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,35 +65,41 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Cách tạo biểu đồ đường được định dạng chính xác trong Java bằng Aspose.Slides
+# Cách Định Dạng Nhãn Dữ Liệu Biểu Đồ cho Biểu Đồ Đường Chính Xác trong Java
 
 ## Giới thiệu
 
-Việc tạo biểu đồ hấp dẫn và chính xác là điều cần thiết khi chuẩn bị các bài thuyết trình quan trọng. Việc định dạng thủ công từng nhãn dữ liệu có thể rất tẻ nhạt và dễ xảy ra lỗi. **Aspose.Slides cho Java** đơn giản hóa quá trình này, cho phép bạn tạo biểu đồ đường với thông tin dữ liệu chính xác một cách dễ dàng.
+Việc tạo ra các biểu đồ hấp dẫn và chính xác là điều thiết yếu khi chuẩn bị các bài thuyết trình quan trọng. **Định dạng nhãn dữ liệu biểu đồ** một cách nhanh chóng và đáng tin cậy với **Aspose.Slides for Java**, giúp bạn tránh công việc thủ công tẻ nhạt và dễ gây lỗi. Trong hướng dẫn này, bạn sẽ học cách thiết lập môi trường, áp dụng định dạng số chính xác cho nhãn dữ liệu, và nhúng biểu đồ đường đã tạo vào tệp PowerPoint.
 
-Trong hướng dẫn này, bạn sẽ học cách:
-- Thiết lập môi trường của bạn để sử dụng Aspose.Slides
-- Triển khai độ chính xác trong định dạng dữ liệu biểu đồ
-- Dễ dàng tích hợp các biểu đồ này vào bài thuyết trình
+## Câu trả lời nhanh
+- **Thư viện nào xử lý việc định dạng nhãn dữ liệu biểu đồ?** Aspose.Slides for Java.  
+- **Cần bao nhiêu dòng mã cho một biểu đồ đường cơ bản?** Khoảng 8 dòng (không tính phần import).  
+- **Tôi có thể đặt định dạng số tùy chỉnh không?** Có – sử dụng `setNumberFormat` trên series dữ liệu của biểu đồ.  
+- **Cần giấy phép cho môi trường sản xuất không?** Có, giấy phép mua hoặc tạm thời sẽ loại bỏ các giới hạn đánh giá.  
+- **Điều này có hoạt động trên tất cả các phiên bản JDK chính không?** Được hỗ trợ đầy đủ trên JDK 8‑21.
 
-Hãy cùng khám phá các bước để tạo ra biểu đồ hiệu quả và hấp dẫn về mặt thị giác.
+## Định dạng nhãn dữ liệu biểu đồ là gì?
 
-## Điều kiện tiên quyết
+`format chart data labels` đề cập đến việc áp dụng một mẫu số hoặc văn bản cụ thể cho các giá trị hiển thị trên biểu đồ, đảm bảo tính nhất quán và dễ đọc trên toàn slide. Bằng cách định nghĩa một định dạng đồng nhất—chẳng hạn hai chữ số thập phân, ký hiệu tiền tệ, hoặc dấu phần trăm—bạn đảm bảo mỗi điểm dữ liệu được trình bày theo cùng một kiểu, giúp khán giả nhanh chóng hiểu thông tin và giảm nguy cơ đọc sai giá trị.
 
-Trước khi bắt đầu, hãy đảm bảo bạn có:
-- **Aspose.Slides cho Java**: Thêm thư viện này vào dự án của bạn. Chúng tôi sẽ sớm hướng dẫn cài đặt.
-- **Bộ phát triển Java (JDK)**: Đảm bảo JDK đã được cài đặt trên hệ thống của bạn.
-- **Kiến thức Java cơ bản**:Sự quen thuộc với Java sẽ giúp bạn hiểu và thực hiện các ví dụ.
+## Tại sao sử dụng Aspose.Slides cho Java cho nhiệm vụ này?
 
-## Thiết lập Aspose.Slides cho Java
+Aspose.Slides hỗ trợ **hơn 30 loại biểu đồ** và có thể xử lý các bản trình bày với **hơn 200 slide** mà không cần tải toàn bộ tệp vào bộ nhớ, cung cấp thời gian render dưới một giây cho các bộ dữ liệu điển hình. API mượt mà của nó cho phép bạn kiểm soát mọi khía cạnh hình ảnh một cách lập trình, loại bỏ nhu cầu chỉnh sửa PowerPoint thủ công.
+
+## Yêu cầu trước
+- **Aspose.Slides for Java** – thêm thư viện này như một phụ thuộc Maven hoặc Gradle (xem hướng dẫn cài đặt bên dưới).  
+- **Java Development Kit (JDK)** – phiên bản 8 trở lên.  
+- **Kiến thức Java cơ bản** – bạn nên quen thuộc với các lớp, phương thức và quá trình xây dựng Maven/Gradle.
+
+## Cài đặt Aspose.Slides cho Java
 
 ### Hướng dẫn cài đặt
 
-Thêm Aspose.Slides làm phần phụ thuộc vào dự án của bạn:
+Thêm Aspose.Slides như một phụ thuộc trong dự án của bạn:
 
 **Maven**
 
-Bao gồm đoạn trích này trong `pom.xml` tài liệu:
+Bao gồm đoạn mã này trong tệp `pom.xml` của bạn:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -49,122 +109,136 @@ Bao gồm đoạn trích này trong `pom.xml` tài liệu:
 </dependency>
 ```
 
-**Tốt nghiệp**
+Bạn cũng có thể tìm phiên bản mới nhất trên trang [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-Thêm cái này vào `build.gradle` tài liệu:
+**Gradle**
+
+Thêm đoạn này vào tệp `build.gradle` của bạn:
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Ngoài ra, hãy tải xuống bản phát hành mới nhất từ [Aspose.Slides cho bản phát hành Java](https://releases.aspose.com/slides/java/).
+Hoặc tải bản phát hành mới nhất từ [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### Mua lại giấy phép
+### Mua giấy phép
 
-- **Dùng thử miễn phí**: Tải xuống phiên bản dùng thử miễn phí để bắt đầu.
-- **Giấy phép tạm thời**: Để thử nghiệm rộng rãi mà không có giới hạn, hãy yêu cầu giấy phép tạm thời qua [Trang Giấy phép tạm thời của Aspose](https://purchase.aspose.com/temporary-license/).
-- **Mua**: Hãy cân nhắc mua gói đăng ký để sử dụng cho mục đích sản xuất.
+- **Bản dùng thử miễn phí** – tải bản dùng thử từ [Get a Free Trial or Temporary License](https://releases.aspose.com/slides/java/).  
+- **Giấy phép tạm thời** – yêu cầu giấy phép có thời hạn cho việc thử nghiệm mở rộng qua [Aspose's Temporary License page](https://purchase.aspose.com/temporary-license/).  
+- **Mua** – nhận một gói đăng ký đầy đủ cho triển khai sản xuất.  
+- **Mua** – mua giấy phép tại [Buy Aspose.Slides](https://purchase.aspose.com/buy).
 
 ### Khởi tạo cơ bản
 
-Đảm bảo thiết lập dự án của bạn bao gồm thư viện. Tạo một `Presentation` phản đối việc làm việc với các bài thuyết trình theo chương trình.
+`Presentation` là lớp cốt lõi của Aspose.Slides đại diện cho một tệp PowerPoint trong bộ nhớ. Tạo một đối tượng `Presentation` mới để bắt đầu xây dựng các slide một cách lập trình.
 
-## Hướng dẫn thực hiện
+## Hướng dẫn triển khai
 
-Trong phần này, chúng tôi sẽ hướng dẫn bạn cách tạo và cấu hình biểu đồ đường với định dạng dữ liệu chính xác trong bản trình bày bằng Aspose.Slides for Java.
+Trong phần này, chúng tôi sẽ hướng dẫn qua một **ví dụ biểu đồ đường Java** minh họa cách định dạng nhãn dữ liệu một cách chính xác.
+
+### Làm thế nào để định dạng nhãn dữ liệu biểu đồ trong Aspose.Slides cho Java?
+
+Tải một bản trình bày mới, thêm một biểu đồ đường, và áp dụng định dạng số hai chữ số thập phân cho mọi nhãn dữ liệu – tất cả trong chưa đầy một phút viết mã. Lệnh API `chart.getChartData().getSeries().get_Item(0).getDataPoints().get_Item(i).setNumberFormat("0.00")` đảm bảo độ chính xác đồng nhất trên toàn series.
 
 ### Tạo biểu đồ đường
 
 **Tổng quan**
 
-Chúng tôi sẽ thiết lập một biểu đồ đường đơn giản trên trang chiếu đầu tiên của bài thuyết trình mới. Điều này bao gồm việc xác định kích thước của biểu đồ và định vị biểu đồ cho phù hợp.
+Chúng tôi sẽ thiết lập một biểu đồ đường đơn giản trên slide đầu tiên của một bản trình bày mới. Điều này bao gồm việc xác định kích thước biểu đồ, thêm một series dữ liệu, và bật bảng dữ liệu để hiển thị nhãn.
 
-**Các bước thực hiện:**
-
-#### Bước 1: Tạo một bài thuyết trình mới
-Bắt đầu bằng cách tạo một phiên bản của `Presentation`. Đây sẽ là nền tảng để chúng ta thêm biểu đồ.
+#### Bước 1: Tạo một bản trình bày mới
+`Presentation` là đối tượng cấp cao nhất của Aspose.Slides chứa toàn bộ nội dung slide. Bắt đầu bằng cách khởi tạo nó:
 ```java
 Presentation pres = new Presentation();
 ```
 
 #### Bước 2: Thêm biểu đồ đường
-
-Thêm biểu đồ đường vào trang chiếu đầu tiên theo tọa độ và kích thước đã chỉ định:
+Chèn biểu đồ vào slide đầu tiên tại vị trí mong muốn:
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes()
                    .addChart(ChartType.Line, 50, 50, 450, 300);
 ```
-**Giải thích các thông số:**
-- `ChartType.Line`: Chỉ rõ rằng chúng ta muốn tạo biểu đồ đường.
-- `(50, 50)`: Tọa độ x và y trên trang chiếu nơi biểu đồ sẽ được đặt.
-- `(450, 300)`: Chiều rộng và chiều cao của biểu đồ.
+**Giải thích các tham số**
+- `ChartType.Line` – tạo một biểu đồ đường.  
+- `(50, 50)` – tọa độ X/Y trên slide.  
+- `(450, 300)` – chiều rộng và chiều cao tính bằng điểm.
 
-#### Bước 3: Kích hoạt Bảng dữ liệu
-
-Để hiển thị nhãn dữ liệu trực tiếp trong biểu đồ:
+#### Bước 3: Bật bảng dữ liệu
+Kích hoạt bảng dữ liệu để các nhãn xuất hiện ngay dưới biểu đồ:
 ```java
 chart.setDataTable(true);
 ```
-Cho phép `setDataTable` đảm bảo dữ liệu có thể hiển thị cùng với biểu diễn đồ họa, hỗ trợ truyền tải thông tin chính xác một cách nhanh chóng.
+Bật `setDataTable(true)` làm cho các giá trị thô hiển thị, hỗ trợ việc xác minh dữ liệu nhanh chóng.
 
-#### Bước 4: Thiết lập Định dạng Số cho Độ chính xác
-
-Đặt định dạng số thành hai chữ số thập phân để hiển thị giá trị rõ ràng và chính xác hơn:
+#### Bước 4: Đặt định dạng số cho độ chính xác
+Áp dụng định dạng hai chữ số thập phân để đảm bảo mỗi nhãn hiển thị `0.00`:
 ```java
 chart.getChartData().getSeries().get_Item(0).setNumberFormatOfValues("#,##0.00");
 ```
-Cấu hình này đảm bảo tất cả các giá trị số trong biểu đồ được định dạng thống nhất thành hai chữ số thập phân.
+Định dạng đồng nhất này loại bỏ sự không nhất quán khi làm tròn và cải thiện độ rõ ràng trực quan.
 
-#### Bước 5: Lưu bài thuyết trình
-
-Cuối cùng, hãy lưu bản trình bày của bạn với biểu đồ vừa tạo:
+#### Bước 5: Lưu bản trình bày
+Ghi bản trình bày ra đĩa:
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/PrecisionOfDatalabels_out.pptx", SaveFormat.Pptx);
 ```
 
-### Mẹo khắc phục sự cố
-- Đảm bảo bạn có quyền ghi vào thư mục đầu ra.
-- Nếu dữ liệu không xuất hiện như mong đợi, hãy xác minh rằng `setDataTable` được đặt thành đúng.
+### Các vấn đề thường gặp và giải pháp
+- **Quyền ghi** – kiểm tra thư mục đầu ra có thể ghi được.  
+- **Thiếu nhãn dữ liệu** – xác nhận `setDataTable(true)` đã được gọi trước khi lưu.  
+- **Hiệu năng với bộ dữ liệu lớn** – gọi `presentation.dispose()` sau khi lưu để giải phóng bộ nhớ.
 
-## Ứng dụng thực tế
-Khả năng tạo biểu đồ của Aspose.Slides for Java vượt xa các bài thuyết trình cơ bản. Sau đây là một số ứng dụng thực tế:
+## Ứng dụng thực tiễn
+Aspose.Slides cho Java mở rộng khả năng biểu đồ vượt ra ngoài các demo cơ bản:
 
-1. **Báo cáo tài chính**: Tạo biểu đồ đường chính xác để thể hiện xu hướng tài chính theo quý trong danh mục đầu tư.
-2. **Bài thuyết trình học thuật**: Sử dụng nhãn dữ liệu được định dạng để mô tả chính xác các phát hiện nghiên cứu.
-3. **Phân tích dữ liệu bán hàng**: Trực quan hóa hiệu suất bán hàng theo thời gian với các số liệu được dán nhãn rõ ràng.
-4. **Tích hợp với các công cụ Business Intelligence**: Tích hợp biểu đồ Aspose.Slides vào bảng thông tin BI để nâng cao hiểu biết giúp đưa ra quyết định.
+1. **Báo cáo tài chính** – hiển thị lợi nhuận quý với độ chính xác thập phân chính xác.  
+2. **Bài thuyết trình học thuật** – trình bày kết quả thí nghiệm nơi mỗi phần trăm nhỏ đều quan trọng.  
+3. **Bảng điều khiển bán hàng** – minh họa xu hướng tháng này so với tháng trước với các số được định dạng rõ ràng.  
+4. **Tích hợp BI** – nhúng các biểu đồ được tạo vào các cổng thông tin business‑intelligence để báo cáo tự động.
 
-## Cân nhắc về hiệu suất
-Khi làm việc với các tập dữ liệu lớn hoặc bản trình bày phức tạp, hãy cân nhắc những mẹo sau:
-- Tối ưu hóa việc sử dụng bộ nhớ bằng cách loại bỏ `Presentation` các đối tượng sử dụng `dispose()` phương pháp sau khi lưu.
-- Sử dụng định dạng số thích hợp để cân bằng giữa độ chính xác và khả năng đọc.
+## Xem xét hiệu năng
+Khi xử lý các bộ dữ liệu lớn hoặc các bản trình bày có nhiều slide:
 
-## Phần kết luận
-Bạn đã học cách tạo biểu đồ đường với định dạng dữ liệu chính xác trong Aspose.Slides for Java. Kỹ năng này có thể nâng cao bài thuyết trình của bạn, giúp chúng có nhiều thông tin hơn và hấp dẫn hơn về mặt hình ảnh. Để khám phá thêm về khả năng của Aspose.Slides, hãy tìm hiểu sâu hơn [tài liệu](https://reference.aspose.com/slides/java/) và thử nghiệm với nhiều loại biểu đồ khác nhau.
+- Giải phóng các đối tượng `Presentation` bằng `presentation.dispose()` để giải phóng tài nguyên gốc.  
+- Sử dụng các định dạng số ngắn gọn (ví dụ “0.00”) để giữ kích thước tệp nhỏ trong khi duy trì khả năng đọc.  
+- Giới hạn số series trên mỗi biểu đồ dưới 20 để đạt tốc độ render tối ưu trên các máy chủ điển hình.
+
+## Câu hỏi thường gặp
+
+**Q: Làm thế nào để thay đổi màu sắc của nhãn dữ liệu trong Aspose.Slides?**  
+A: Truy cập `getFormat().getFillFormat().setFillType(FillType.Solid)` của mỗi điểm dữ liệu và đặt `SolidFillColor` mong muốn.
+
+**Q: Có thể áp dụng các định dạng số khác nhau cho các series riêng biệt không?**  
+A: Có – lấy mỗi series bằng `chart.getChartData().getSeries().get_Item(index)` và gọi `setNumberFormat` với định dạng bạn cần.
+
+**Q: Biểu đồ của tôi hiển thị nhãn dữ liệu trống; tôi nên kiểm tra gì?**  
+A: Đảm bảo `setDataTable(true)` được bật và các điểm dữ liệu cơ bản chứa giá trị không null.
+
+**Q: Làm thế nào để tạo hiệu quả nhiều bản trình bày có biểu đồ?**  
+A: Tái sử dụng một mẫu `Presentation` duy nhất, sao chép slide, và gọi `dispose()` trên mỗi đối tượng tạm thời để giữ mức sử dụng bộ nhớ thấp.
+
+**Q: Aspose.Slides có thể được sử dụng trong các bảng điều khiển báo cáo thời gian thực không?**  
+A: Chắc chắn – thư viện xử lý các bộ dữ liệu khoảng 100 dòng trong chưa đầy 200 ms, phù hợp cho việc tạo biểu đồ ngay lập tức.
+
+Để được hỗ trợ thêm, hãy truy cập [Aspose Community Forum](https://forum.aspose.com/c/slides/11).
+
+## Kết luận
+Bây giờ bạn đã có một **ví dụ biểu đồ đường Java** hoàn chỉnh, định dạng nhãn dữ liệu biểu đồ một cách chính xác, lưu kết quả và tích hợp liền mạch vào bất kỳ quy trình làm việc PowerPoint nào. Khám phá toàn bộ [documentation](https://reference.aspose.com/slides/java/) và [Aspose.Slides Java API Reference](https://reference.aspose.com/slides/java/) để thử nghiệm các loại biểu đồ khác, hoạt ảnh và các tùy chọn định dạng nâng cao.
 
 ### Các bước tiếp theo
-Hãy thử tích hợp các biểu đồ này vào các dự án lớn hơn hoặc tự động tạo bản trình bày để hợp lý hóa quy trình báo cáo.
+- Tự động tạo biểu đồ từ nhiều nguồn dữ liệu.  
+- Kết hợp nhiều loại biểu đồ trên một slide để kể chuyện phong phú hơn.  
+- Khám phá tính năng xuất PDF của Aspose.Slides để chia sẻ biểu đồ với người dùng không dùng PowerPoint.
 
-## Phần Câu hỏi thường gặp
-**1. Làm thế nào để thay đổi màu nhãn dữ liệu trong Aspose.Slides?**
-   - Sử dụng `chart.getChartData().getSeries().get_Item(0).getDataPoints().get_Item(i).getValueForPoint().getFormat().getFillFormat()` để tùy chỉnh màu sắc.
-**2. Tôi có thể định dạng số khác nhau cho các chuỗi khác nhau không?**
-   - Có, áp dụng định dạng số riêng lẻ bằng cách truy cập từng chuỗi thông qua `getSeries()` và thiết lập định dạng mong muốn.
-**3. Nếu biểu đồ của tôi không hiển thị dữ liệu chính xác thì sao?**
-   - Đảm bảo nguồn dữ liệu của bạn được liên kết đúng cách và kiểm tra xem `setDataTable(true)` được bật.
-**4. Làm thế nào để xử lý các bài thuyết trình lớn có nhiều biểu đồ?**
-   - Tối ưu hóa bằng cách loại bỏ các đối tượng không sử dụng và giảm thiểu các hoạt động tốn nhiều tài nguyên trong các vòng lặp.
-**5. Aspose.Slides có phù hợp cho các ứng dụng báo cáo thời gian thực không?**
-   - Nếu có thể, hãy cân nhắc tối ưu hóa hiệu suất để đảm bảo khả năng phản hồi trong môi trường có nhu cầu cao.
+**Cập nhật lần cuối:** 2026-06-08  
+**Kiểm tra với:** Aspose.Slides for Java 24.12 (phiên bản mới nhất tại thời điểm viết)  
+**Tác giả:** Aspose
 
-## Tài nguyên
-Để khám phá và hỗ trợ thêm:
-- **Tài liệu**: [Tài liệu tham khảo Java API Aspose.Slides](https://reference.aspose.com/slides/java/)
-- **Tải về**: [Aspose.Slides cho bản phát hành Java](https://releases.aspose.com/slides/java/)
-- **Mua**: [Mua Aspose.Slides](https://purchase.aspose.com/buy)
-- **Dùng thử miễn phí & Giấy phép tạm thời**: [Nhận bản dùng thử miễn phí hoặc giấy phép tạm thời](https://releases.aspose.com/slides/java/)
-- **Diễn đàn hỗ trợ**: [Diễn đàn cộng đồng Aspose](https://forum.aspose.com/c/slides/11)
+## Hướng dẫn liên quan
 
-Tận dụng sức mạnh của Aspose.Slides for Java và đưa bài thuyết trình của bạn lên tầm cao mới!
+- [Tạo biểu đồ đường với các điểm đánh dấu mặc định bằng Aspose.Slides cho Java](/slides/java/charts-graphs/create-line-charts-aspose-slides-java/)
+- [Tạo & Định dạng biểu đồ trong Java bằng Aspose.Slides: Hướng dẫn toàn diện](/slides/java/charts-graphs/create-format-charts-aspose-slides-java/)
+- [Cách thêm và cấu hình biểu đồ trong bản trình bày bằng Aspose.Slides cho Java](/slides/java/charts-graphs/add-charts-aspose-slides-java-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

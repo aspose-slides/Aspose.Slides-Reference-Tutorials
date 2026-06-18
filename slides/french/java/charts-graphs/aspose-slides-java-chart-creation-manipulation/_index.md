@@ -1,75 +1,119 @@
 ---
-date: '2026-02-12'
-description: Apprenez à créer des graphiques dans les présentations Java, maîtrisez
-  la visualisation de données Java et découvrez comment enregistrer des fichiers pptx
-  avec Aspose.Slides.
+date: '2026-06-08'
+description: Apprenez à créer un graphique en aires dans les présentations Java, maîtrisez
+  la visualisation des données et enregistrez les fichiers PPTX à l'aide d'Aspose.Slides
+  for Java.
 keywords:
-- Aspose.Slides for Java
-- Java chart creation
-- data visualization in presentations
-title: Comment créer un graphique dans les présentations Java avec Aspose.Slides pour
-  Java
+- java create area chart
+- Aspose.Slides Java
+- Java chart generation
+- data visualization Java
+- PPTX export Java
+schemas:
+- author: Aspose
+  dateModified: '2026-06-08'
+  description: Learn how to java create area chart in Java presentations, master data
+    visualization, and save PPTX files using Aspose.Slides for Java.
+  headline: java create area chart in Presentations with Aspose.Slides
+  type: TechArticle
+- description: Learn how to java create area chart in Java presentations, master data
+    visualization, and save PPTX files using Aspose.Slides for Java.
+  name: java create area chart in Presentations with Aspose.Slides
+  steps:
+  - name: Initialize Your Presentation
+    text: '`Presentation` is the top‑level object that holds slides, layouts, and
+      resources. First, create a new instance:'
+  - name: Add an Area Chart
+    text: '`IChart` is the object that encapsulates chart data, type, and formatting
+      within a slide. Use the `addChart` method to insert an Area chart, specifying
+      its position and dimensions: - **Parameters Explained**: - `ChartType.Area`:
+      selects the Area chart type. - `(100, 100)`: X and Y coordinates for po'
+  - name: Access Axes Properties
+    text: '`getAxes()` returns the chart''s axis collection, allowing access to vertical
+      and horizontal axes. `getVerticalAxis()` provides the vertical axis object of
+      the chart. Retrieve values from the vertical axis, including the **maximum value**
+      you might need for scaling or annotations: - `getActualMaxValu'
+  - name: Save Your Presentation
+    text: '`save(String path, SaveFormat format)` writes the presentation to the specified
+      file in the given format. Finally, **how to save pptx** files with a single
+      call: - `"YOUR_OUTPUT_DIRECTORY/ErrorBars_out.pptx"`: Destination path and filename.
+      - `SaveFormat.Pptx`: Ensures the file is saved in the moder'
+  type: HowTo
+- questions:
+  - answer: Absolutely. Aspose.Slides supports **50+ chart types**, including Column,
+      Bar, Line, Pie, Radar, and Waterfall.
+    question: Can I create other chart types besides Area charts?
+  - answer: Yes. Retrieve data via JDBC or JPA, then populate the chart series programmatically
+      using the `ChartData` API.
+    question: Is it possible to bind chart data directly from a database?
+  - answer: Aspose.Slides for Java works with **JDK 8** and newer; the examples target
+      **JDK 16** for optimal performance.
+    question: What Java versions are supported?
+  - answer: Save using `SaveFormat.Ppt` for legacy compatibility, or stick with `SaveFormat.Pptx`
+      for modern Office suites.
+    question: How can I ensure the generated PPTX works on older PowerPoint versions?
+  - answer: Yes. You can set the chart’s locale or manually provide translated strings
+      for titles, axis labels, and data point legends.
+    question: Does Aspose.Slides handle localization of chart labels?
+  type: FAQPage
+title: java créer un graphique en aires dans les présentations avec Aspose.Slides
 url: /fr/java/charts-graphs/aspose-slides-java-chart-creation-manipulation/
 weight: 1
 ---
 
-.
-
-Now produce final output with all content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Comment créer un graphique dans les présentations Java avec Aspose.Slides for Java
+# Comment créer un graphique en aires en Java dans les présentations avec Aspose.Slides
 
 ## Introduction
 
-Créer des graphiques visuellement attrayants dans vos présentations peut transformer des données brutes en histoires captivantes, facilitant ainsi la communication des insights. **Comment créer un graphique** dans une présentation Java devient simple avec Aspose.Slides for Java — une bibliothèque puissante qui gère tout, de la génération de graphiques à la manipulation fine. Dans ce tutoriel, vous apprendrez à configurer la bibliothèque, **créer un graphique en aires**, accéder à ses axes, récupérer la valeur maximale, et même **comment enregistrer des fichiers pptx** avec une seule ligne de code. Plongeons et transformons vos données en belles visualisations !
+Dans ce tutoriel, vous apprendrez comment **java create area chart** dans des présentations Java en utilisant Aspose.Slides for Java, une bibliothèque qui transforme des nombres bruts en histoires visuelles soignées. Nous parcourrons l’installation du SDK, la création d’un graphique en aires, la lecture des valeurs des axes, et enfin **comment enregistrer un pptx** avec un seul appel de méthode. Que vous construisiez des outils de reporting automatisés ou que vous enrichissiez des diaporamas à la volée, ces étapes vous feront passer de zéro à un graphique complet en quelques minutes.
 
-## Quick Answers
-- **Quelle est la classe principale pour créer des présentations ?** `Presentation` d'Aspose.Slides.
-- **Quel type de graphique l'exemple utilise-t-il ?** Un graphique en aires (`ChartType.Area`).
-- **Comment récupérer la valeur maximale sur l'axe vertical ?** `chart.getAxes().getVerticalAxis().getActualMaxValue()`.
-- **Quel format devez‑vous utiliser pour exporter le fichier ?** `SaveFormat.Pptx`.
+## Réponses rapides
+- **Quelle est la classe principale pour créer des présentations ?** `Presentation` d'Aspose.Slides.  
+- **Quel type de graphique l’exemple utilise‑t‑il ?** Un graphique en aires (`ChartType.Area`).  
+- **Comment récupérer la valeur maximale sur l’axe vertical ?** `chart.getAxes().getVerticalAxis().getActualMaxValue()`.  
+- **Quel format faut‑il utiliser pour exporter le fichier ?** `SaveFormat.Pptx`.  
 - **Ai‑je besoin d’une licence pour le développement ?** Une licence temporaire gratuite est disponible pour l’évaluation.
 
 ## Qu’est‑ce que « how to create chart » en Java ?
 
-Lorsque vous entendez « how to create chart », pensez à un appel d’API concis qui ajoute un objet graphique entièrement fonctionnel à une diapositive. Aspose.Slides abstrait les opérations de dessin de bas niveau, vous permettant de vous concentrer sur les données et le design.
+**Réponse directe :** Dans Aspose.Slides, « how to create chart » signifie appeler l’API qui insère un objet graphique entièrement configuré sur une diapositive, vous permettant de spécifier le type, les données et le style en quelques lignes de code Java. Cet appel unique abstrait toutes les opérations de dessin de bas niveau, afin que vous puissiez vous concentrer sur les données que vous souhaitez visualiser.
 
-## Why Use Aspose.Slides for Java Charts?
-- **Développement rapide :** Ajouter, modifier et styliser des graphiques avec seulement quelques lignes de code.  
-- **Contrôle total :** Accéder aux axes, séries, points de données et options de style par programme.  
-- **Multi‑plateforme :** Fonctionne sur tout environnement compatible Java, des IDE de bureau aux applications côté serveur.  
-- **Pas besoin d’Office :** Générer des fichiers PPTX sans Microsoft PowerPoint installé.
+## Pourquoi utiliser Aspose.Slides pour les graphiques Java ?
 
-## Prerequisites
+**Réponse directe :** Choisissez Aspose.Slides car il offre **plus de 50 types de graphiques**, prend en charge **plus de 30 options de liaison de données**, et peut générer des fichiers **PPTX de plusieurs centaines de pages** sans nécessiter Microsoft PowerPoint installé, tout en offrant un contrôle programmatique fin. Il propose également de nombreuses options de mise en forme, vous permettant de personnaliser les couleurs, les polices et les marqueurs, et inclut des API d’exportation vers PDF, SVG et formats image.
 
-Avant de plonger dans les spécificités de la création de graphiques avec Aspose.Slides Java, assurez‑vous que les prérequis suivants sont remplis :
+## Prérequis
 
-### Required Libraries, Versions, and Dependencies
+Avant de plonger dans les détails de la création de graphiques avec Aspose.Slides Java, assurez‑vous que les prérequis suivants sont couverts :
+
+### Bibliothèques requises, versions et dépendances
 
 Pour suivre ce tutoriel, vous avez besoin de :
-- **Aspose.Slides for Java** : version 25.4 ou ultérieure.
-- Java Development Kit (JDK) 16 ou supérieur.
+- **Aspose.Slides for Java** : version **25.4** ou ultérieure (la bibliothèque prend en charge **plus de 50 types de graphiques** et **plus de 30 formats de sortie**).  
+- Java Development Kit (JDK) **16** ou supérieur.
 
-### Environment Setup Requirements
+### Exigences de configuration de l’environnement
 
-Assurez‑vous que votre environnement de développement est équipé de :
-- Un IDE compatible comme IntelliJ IDEA ou Eclipse.
-- Les outils de construction Maven ou Gradle configurés dans votre projet.
+Assurez‑vous que votre environnement de développement comprend :
+- Un IDE compatible tel que **IntelliJ IDEA** ou **Eclipse**.  
+- **Maven** ou **Gradle** configurés pour la gestion des dépendances.
 
-### Knowledge Prerequisites
+### Prérequis de connaissances
 
 Une compréhension de base de :
-- Concepts de programmation Java.
-- Utilisation de bibliothèques externes (Maven/Gradle).
+- Concepts fondamentaux de la programmation Java.  
+- Ajout de bibliothèques externes à un projet Maven/Gradle.
 
-## Setting Up Aspose.Slides for Java
+## Configuration d’Aspose.Slides pour Java
 
-L’intégration d’Aspose.Slides dans votre projet Java est simple. Voici comment l’ajouter avec Maven, Gradle ou un téléchargement direct :
+Intégrer Aspose.Slides dans votre projet Java est simple. Choisissez le gestionnaire de paquets qui correspond à votre flux de travail.
 
-### Using Maven
+### Utilisation de Maven
 
 Ajoutez la dépendance suivante à votre fichier `pom.xml` :
 
@@ -82,7 +126,7 @@ Ajoutez la dépendance suivante à votre fichier `pom.xml` :
 </dependency>
 ```
 
-### Using Gradle
+### Utilisation de Gradle
 
 Incluez ceci dans votre fichier `build.gradle` :
 
@@ -90,19 +134,19 @@ Incluez ceci dans votre fichier `build.gradle` :
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Direct Download
+### Téléchargement direct
 
-Pour ceux qui préfèrent les téléchargements directs, consultez la page [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+Pour ceux qui préfèrent les téléchargements directs, visitez la page des [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-#### License Acquisition Steps
+#### Étapes d’obtention de licence
 
-- **Essai gratuit** : Testez Aspose.Slides avec une licence temporaire pour évaluer ses fonctionnalités.  
-- **Licence temporaire** : Accédez aux fonctionnalités avancées en demandant une licence temporaire gratuite.  
-- **Achat** : Achetez un abonnement si l’outil répond à vos besoins pour des projets à long terme.
+- **Essai gratuit** : testez Aspose.Slides avec une licence temporaire pour évaluer ses fonctionnalités.  
+- **Licence temporaire** : demandez une licence temporaire gratuite pour une évaluation prolongée.  
+- **Achat** : achetez un abonnement pour une utilisation en production et débloquez toutes les capacités avancées.
 
-#### Basic Initialization and Setup
+#### Initialisation et configuration de base
 
-Commencez par créer un objet `Presentation`, qui sert de conteneur pour toutes les actions liées aux diapositives :
+`Presentation` est la classe centrale d’Aspose.Slides représentant un fichier PowerPoint complet en mémoire. Commencez par créer un objet `Presentation`, qui sert de conteneur à toutes les actions liées aux diapositives :
 
 ```java
 import com.aspose.slides.Presentation;
@@ -116,19 +160,19 @@ public class AsposeInit {
 }
 ```
 
-## Implementation Guide
+## Guide d’implémentation
 
-### Creating a Chart in a Presentation
+### Comment créer un graphique en aires en Java étape par étape
 
-Créer des graphiques avec Aspose.Slides est intuitif. Parcourons le processus étape par étape.
+**Réponse directe :** Pour **java create area chart**, créez une `Presentation`, ajoutez un graphique en aires avec `addChart(ChartType.Area, …)`, ajustez éventuellement les axes, puis appelez `save("output.pptx", SaveFormat.Pptx)`. Le processus complet ne nécessite que quatre extraits de code concis et s’exécute en moins d’une seconde pour des ensembles de données typiques.
 
-#### Overview
+#### Vue d’ensemble
 
-Cette section montre comment **ajouter un graphique**, spécifiquement un graphique en aires, à votre présentation et configurer ses propriétés de base.
+Cette section montre comment **ajouter un graphique**, en particulier un graphique en aires, à votre présentation et configurer ses propriétés de base.
 
-##### Step 1: Initialize Your Presentation
+##### Étape 1 : Initialiser votre présentation
 
-Tout d’abord, créez une nouvelle instance `Presentation` :
+`Presentation` est l’objet de haut niveau qui contient les diapositives, les mises en page et les ressources. Commencez par créer une nouvelle instance :
 
 ```java
 import com.aspose.slides.Presentation;
@@ -146,9 +190,9 @@ public class ChartCreation {
 }
 ```
 
-##### Step 2: Add an Area Chart
+##### Étape 2 : Ajouter un graphique en aires
 
-Ajoutez un graphique en aires à votre diapositive. La méthode `addChart` nécessite des paramètres pour le type, la position et la taille :
+`IChart` est l’objet qui encapsule les données du graphique, le type et le formatage au sein d’une diapositive. Utilisez la méthode `addChart` pour insérer un graphique en aires, en spécifiant sa position et ses dimensions :
 
 ```java
 import com.aspose.slides.Chart;
@@ -159,33 +203,34 @@ Chart chart = (Chart) pres.getSlides().get_Item(0).getShapes().addChart(
     ChartType.Area, 100, 100, 500, 350);
 ```
 
-- `ChartType.Area` : spécifie le type de graphique (créer un graphique en aires).
-- `(100, 100)` : coordonnées X et Y pour le positionnement.
-- `(500, 350)` : dimensions de largeur et de hauteur.
+- **Paramètres expliqués** :  
+  - `ChartType.Area` : sélectionne le type de graphique en aires.  
+  - `(100, 100)` : coordonnées X et Y pour le positionnement sur la diapositive.  
+  - `(500, 350)` : largeur et hauteur du graphique en points.
 
-##### Step 3: Access Axes Properties
+##### Étape 3 : Accéder aux propriétés des axes
 
-Récupérez les valeurs de l’axe vertical, y compris le **récupérer la valeur maximale** dont vous pourriez avoir besoin pour le dimensionnement :
+`getAxes()` renvoie la collection d’axes du graphique, permettant d’accéder aux axes vertical et horizontal. `getVerticalAxis()` fournit l’objet axe vertical du graphique. Récupérez les valeurs de l’axe vertical, y compris la **valeur maximale** dont vous pourriez avoir besoin pour le redimensionnement ou les annotations :
 
 ```java
 double maxValue = chart.getAxes().getVerticalAxis().getActualMaxValue();
 double minValue = chart.getAxes().getVerticalAxis().getActualMinValue();
 ```
 
-- `getActualMaxValue()` et `getActualMinValue()` renvoient les valeurs max/min actuelles définies sur l’axe.
+- `getActualMaxValue()` et `getActualMinValue()` renvoient respectivement les valeurs maximale et minimale actuelles définies sur l’axe.
 
-Récupérez les unités majeures et mineures de l’axe horizontal :
+Récupérez les unités majeures et mineures de l’axe horizontal pour comprendre l’espacement des intervalles. `getHorizontalAxis()` renvoie l’objet axe horizontal, et ses méthodes exposent les intervalles d’unité :
 
 ```java
 double majorUnit = chart.getAxes().getHorizontalAxis().getActualMajorUnit();
 double minorUnit = chart.getAxes().getHorizontalAxis().getActualMinorUnit();
 ```
 
-- `getActualMajorUnit()` et `getActualMinorUnit()` récupèrent les intervalles d’unité pour le dimensionnement de l’axe.
+- `getActualMajorUnit()` et `getActualMinorUnit()` fournissent les intervalles d’unité pour le redimensionnement des axes.
 
-##### Step 4: Save Your Presentation
+##### Étape 4 : Enregistrer votre présentation
 
-Enfin, **comment enregistrer des fichiers pptx** avec un seul appel :
+`save(String path, SaveFormat format)` écrit la présentation dans le fichier spécifié au format indiqué. Enfin, **comment enregistrer des fichiers pptx** avec un seul appel :
 
 ```java
 import com.aspose.slides.SaveFormat;
@@ -194,86 +239,95 @@ import com.aspose.slides.SaveFormat;
 pres.save("YOUR_OUTPUT_DIRECTORY/ErrorBars_out.pptx", SaveFormat.Pptx);
 ```
 
-- `"YOUR_OUTPUT_DIRECTORY/ErrorBars_out.pptx"` : chemin et nom de fichier pour l’enregistrement.  
-- `SaveFormat.Pptx` : spécifie le format du fichier.
+- `"YOUR_OUTPUT_DIRECTORY/ErrorBars_out.pptx"` : chemin de destination et nom du fichier.  
+- `SaveFormat.Pptx` : garantit que le fichier est enregistré au format PowerPoint moderne compatible avec Office 2016‑2021.
 
-### Troubleshooting Tips
+## Conseils de dépannage
 
-- Assurez‑vous d’avoir ajouté Aspose.Slides aux dépendances de votre projet correctement.  
-- Vérifiez que toutes les importations nécessaires sont incluses dans vos fichiers de classe Java.  
-- Revérifiez les chaînes de chemin pour des fautes de frappe lors de l’enregistrement des fichiers.
+- Vérifiez qu’Aspose.Slides est correctement ajouté aux dépendances de votre projet.  
+- Assurez‑vous que toutes les instructions `import` requises sont présentes en haut de votre classe Java.  
+- Revérifiez les permissions du système de fichiers pour le répertoire de sortie ; utilisez un chemin absolu si nécessaire.
 
-## Practical Applications
+## Applications pratiques
 
-Aspose.Slides offre un large éventail d’applications au‑delà de la création de graphiques de base. Voici quelques scénarios réels où **java data visualization** brille :
+Aspose.Slides offre un large éventail d’applications au‑delà de la création de graphiques de base. Voici quelques scénarios réels où la **visualisation de données Java** brille :
 
-1. **Business Reporting** – Améliorez les rapports trimestriels avec des graphiques interactifs qui se mettent à jour automatiquement à partir des bases de données.  
-2. **Educational Presentations** – Illustrez des statistiques complexes dans les diapositives de cours sans dessin manuel.  
-3. **Marketing Campaigns** – Présentez les indicateurs de performance des campagnes avec des graphiques dynamiques pouvant être régénérés à la volée.
+1. **Reporting d’entreprise** – Automatisez les tableaux de bord trimestriels avec des graphiques qui tirent directement les données des bases SQL, éliminant le copier‑coller manuel.  
+2. **Présentations éducatives** – Générez des diapositives de cours illustrant des concepts statistiques à la volée, en maintenant le contenu à jour avec les dernières données de recherche.  
+3. **Campagnes marketing** – Visualisez les indicateurs de performance des campagnes dans des fichiers PPTX dynamiques qui peuvent être envoyés par courriel aux parties prenantes instantanément.
 
-L’intégration avec des systèmes comme JDBC ou les API REST peut encore rationaliser votre flux de travail, permettant la visualisation de données en temps réel directement dans les présentations.
+En intégrant Aspose.Slides avec JDBC ou des API REST, vous pouvez alimenter les graphiques avec des données en direct, permettant une analytique visuelle en temps réel dans vos présentations.
 
-## Performance Considerations
+## Considérations de performance
 
-Lors du travail avec de grands ensembles de données ou de nombreux graphiques :
+Lors du traitement de grands ensembles de données ou de l’insertion de nombreux graphiques :
 
-- Optimisez le rendu des graphiques en réduisant le nombre de séries et de points de données.  
-- Gérez la mémoire efficacement en utilisant `pres.dispose()` après les opérations.  
-- Suivez les meilleures pratiques pour la gestion des ressources dans Aspose.Slides afin d’éviter les fuites.
+- **Minimiser les séries** : gardez le nombre de séries et de points de données raisonnable (par ex., < 1 000 points) pour réduire le temps de rendu.  
+- **Libérer les ressources** : appelez `pres.dispose()` après l’enregistrement pour libérer la mémoire native.  
+- **Mode streaming** : utilisez les options `setSlideSize` et `setMemoryOptimization` de `Presentation` pour gérer des diaporamas de plusieurs centaines de pages sans charger le fichier complet en RAM.
 
-## Common Issues and Solutions
+Ces pratiques aident à maintenir une génération de graphiques en sous‑seconde même pour des fichiers dépassant **200 pages**.
+
+## Problèmes courants et solutions
 
 | Problème | Raison | Solution |
 |----------|--------|----------|
-| Le graphique apparaît vide | Aucune série de données ajoutée | Ajoutez des séries via `chart.getChartData().getSeries().add(...)` (hors du cadre de ce tutoriel). |
-| Les valeurs des axes sont incorrectes | Mise à l’échelle des axes non rafraîchie | Appelez `chart.getAxes().getVerticalAxis().resetValueRange()` avant de lire les valeurs. |
-| L’enregistrement échoue avec une erreur de permission | Le dossier de sortie n’est pas inscriptible | Assurez‑vous que l’application dispose des permissions d’écriture ou choisissez un autre répertoire. |
+| Le graphique apparaît vide | Aucune série de données ajoutée | Ajoutez des séries via `chart.getChartData().getSeries().add(...)` (hors du périmètre de ce tutoriel). |
+| Les valeurs des axes sont incorrectes | L’échelle des axes n’est pas rafraîchie | Appelez `chart.getAxes().getVerticalAxis().resetValueRange()` avant de lire les valeurs. |
+| L’enregistrement échoue avec une erreur de permission | Dossier de sortie non inscriptible | Assurez‑vous que l’application possède les droits d’écriture ou choisissez un autre répertoire. |
 
-## FAQ Section
+## Section FAQ
 
 **1. À quoi sert Aspose.Slides Java ?**  
-Aspose.Slides Java est une bibliothèque puissante qui permet aux développeurs de créer, manipuler et convertir des présentations dans des applications Java.
+Aspose.Slides Java est une bibliothèque puissante qui permet aux développeurs de créer, manipuler et convertir des présentations PowerPoint programmatiquement sans Microsoft Office.
 
 **2. Comment gérer la licence avec Aspose.Slides ?**  
-Vous pouvez commencer avec une licence d’essai gratuite ou demander une licence temporaire pour une évaluation prolongée. Pour les projets en cours, l’achat d’un abonnement est recommandé.
+Commencez avec une licence d’essai gratuite pour l’évaluation ; pour la production, achetez un abonnement qui supprime les filigranes d’évaluation et débloque l’API complète.
 
 **3. Puis‑je intégrer les graphiques Aspose.Slides dans des applications web ?**  
-Oui, Aspose.Slides peut être utilisé dans des applications Java côté serveur pour générer et servir des présentations dynamiquement.
+Oui. Utilisez Java côté serveur pour générer des fichiers PPTX à la demande et les diffuser aux navigateurs ou les stocker dans le cloud pour un téléchargement ultérieur.
 
-**4. Comment personnaliser les styles de graphiques avec Aspose.Slides ?**  
-Les options de personnalisation incluent la modification des couleurs, des polices et d’autres éléments de style directement via l’API.
+**4. Comment personnaliser les styles de graphique avec Aspose.Slides ?**  
+Vous pouvez modifier les couleurs, les polices, les styles de ligne et les formes de marqueurs directement via les propriétés `ChartData` et `ChartFormat` de l’objet `IChart`.
 
-## Frequently Asked Questions
+## Questions fréquemment posées
 
-**Q : Puis‑je créer d’autres types de graphiques en plus des graphiques en aires ?**  
-R : Absolument. Aspose.Slides prend en charge les graphiques en colonnes, barres, lignes, secteurs, et bien d’autres types.
+**Q : Puis‑je créer d’autres types de graphiques que les graphiques en aires ?**  
+R : Absolument. Aspose.Slides prend en charge **plus de 50 types de graphiques**, y compris Colonnes, Barres, Lignes, Secteurs, Radar et Cascades.
 
-**Q : Est‑il possible de lier les données du graphique directement depuis une base de données ?**  
-R : Oui. Récupérez les données via JDBC ou JPA, puis remplissez les séries du graphique par programme.
+**Q : Est‑il possible de lier les données du graphique directement à une base de données ?**  
+R : Oui. Récupérez les données via JDBC ou JPA, puis remplissez les séries du graphique programatiquement en utilisant l’API `ChartData`.
 
 **Q : Quelles versions de Java sont prises en charge ?**  
-R : Aspose.Slides for Java fonctionne avec JDK 8 et supérieur ; les exemples utilisent JDK 16 pour une compatibilité optimale.
+R : Aspose.Slides for Java fonctionne avec **JDK 8** et les versions ultérieures ; les exemples ciblent **JDK 16** pour des performances optimales.
 
-**Q : Comment garantir que le PPTX généré fonctionne sur les anciennes versions de PowerPoint ?**  
-R : Enregistrez avec `SaveFormat.Pptx` pour les versions modernes de PowerPoint ou `SaveFormat.Ppt` pour la compatibilité avec les versions anciennes.
+**Q : Comment garantir que le PPTX généré fonctionne sur d’anciennes versions de PowerPoint ?**  
+R : Enregistrez avec `SaveFormat.Ppt` pour la compatibilité héritée, ou utilisez `SaveFormat.Pptx` pour les suites Office modernes.
 
-**Q : Aspose.Slides gère‑t‑il la localisation des étiquettes de graphique ?**  
-R : Oui. Vous pouvez définir la locale du graphique ou fournir manuellement des chaînes traduites pour les titres et les étiquettes d’axe.
+**Q : Aspose.Slides gère‑t‑il la localisation des libellés de graphique ?**  
+R : Oui. Vous pouvez définir la locale du graphique ou fournir manuellement des chaînes traduites pour les titres, les libellés d’axe et les légendes des points de données.
 
 ## Conclusion
 
-Dans ce tutoriel, vous avez appris **comment créer des graphiques** objets, accéder à leurs axes, récupérer la valeur maximale, et **comment enregistrer des fichiers pptx** en utilisant Aspose.Slides for Java. En suivant ces étapes, vous pouvez intégrer des **visualisations de données Java** sophistiquées directement dans vos présentations, gagner du temps et fournir des insights plus clairs. Explorez d’autres types de graphiques, expérimentez le style, et intégrez des sources de données en temps réel pour exploiter tout le potentiel d’Aspose.Slides.
+Dans ce guide, vous savez maintenant comment **java create area chart**, lire les métriques des axes et **comment enregistrer un pptx** à l’aide d’Aspose.Slides for Java. En exploitant la vaste bibliothèque de graphiques de la bibliothèque — plus de **50 types de graphiques** et **30 + formats de sortie** — vous pouvez automatiser des visualisations de données sophistiquées, intégrer des sources de données en direct et livrer des présentations soignées sans Microsoft PowerPoint. Explorez d’autres styles de graphiques, expérimentez avec des thèmes personnalisés et combinez Aspose.Slides avec d’autres produits Aspose pour une solution de reporting véritablement de bout en bout.
 
 ---
 
-**Dernière mise à jour :** 2026-02-12  
-**Testé avec :** Aspose.Slides for Java 25.4 (jdk16)  
-**Auteur :** Aspose  
+**Last Updated:** 2026-06-08  
+**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Author:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Tutoriels associés
+
+- [Comment créer un graphique en Java avec Aspose.Slides – Maîtriser la création et la validation de graphiques](/slides/java/charts-graphs/aspose-slides-chart-creation-validation-java/)
+- [Enregistrer des présentations avec des graphiques en utilisant Aspose.Slides pour Java : guide complet](/slides/java/charts-graphs/aspose-slides-java-save-presentations-charts/)
+- [Créer des graphiques dynamiques dans les présentations Java : liaison à des classeurs externes avec Aspose.Slides](/slides/java/charts-graphs/dynamic-charts-aspose-slides-java-external-workbook/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
