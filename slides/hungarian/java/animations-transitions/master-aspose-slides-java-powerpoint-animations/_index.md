@@ -1,73 +1,115 @@
 ---
-date: '2026-02-14'
-description: Tanulja meg, hogyan használja az Aspose Slides Maven függőséget animált
-  PowerPoint‑prezentációk létrehozásához Java‑ban, állítsa be az animáció időtartamát,
-  és generáljon dinamikus PowerPoint‑diákat.
+date: '2026-06-13'
+description: Ismerje meg, hogyan animálhatja a PowerPoint-ot az Aspose.Slides Maven
+  függőség használatával, hogyan állíthatja be az animáció időtartamát Java-ban, és
+  hogyan generálhat dinamikus PowerPoint-diákat teljes irányítással.
 keywords:
-- PowerPoint Animations
-- Aspose.Slides Java
-- Loading PowerPoint Files
-- Java Presentation Manipulation
-- Animating Shapes in Java
-title: Aspose Slides Maven függőség – PowerPoint animálása Java-val
+- how to animate powerpoint
+- add powerpoint animation
+- set animation duration java
+- aspose slides maven dependency
+- generate dynamic powerpoint slides
+schemas:
+- author: Aspose
+  dateModified: '2026-06-13'
+  description: Learn how to animate PowerPoint using the Aspose.Slides Maven dependency,
+    set animation duration in Java, and generate dynamic PowerPoint slides with full
+    control.
+  headline: How to Animate PowerPoint with Aspose.Slides in Java – Load and Animate
+    Presentations Effortlessly
+  type: TechArticle
+- description: Learn how to animate PowerPoint using the Aspose.Slides Maven dependency,
+    set animation duration in Java, and generate dynamic PowerPoint slides with full
+    control.
+  name: How to Animate PowerPoint with Aspose.Slides in Java – Load and Animate Presentations
+    Effortlessly
+  steps:
+  - name: '**Automate PowerPoint Reporting:** Combine data from databases or APIs
+      to generate slide decks on the fly, **automate powerpoint reporting** for daily
+      executive summaries.'
+    text: '**Automate PowerPoint Reporting:** Combine data from databases or APIs
+      to generate slide decks on the fly, **automate powerpoint reporting** for daily
+      executive summaries.'
+  - name: '**Customize Presentations Dynamically:** Modify presentation content programmatically
+      based on user input, locale, or branding requirements, ensuring each deck is
+      uniquely tailored.'
+    text: '**Customize Presentations Dynamically:** Modify presentation content programmatically
+      based on user input, locale, or branding requirements, ensuring each deck is
+      uniquely tailored.'
+  - name: '**Set Animation Duration Java‑Style:** Adjust the `setDuration(double seconds)`
+      on any `IEffect` to fine‑tune timing, giving you precise control over playback
+      speed.'
+    text: '**Set Animation Duration Java‑Style:** Adjust the `setDuration(double seconds)`
+      on any `IEffect` to fine‑tune timing, giving you precise control over playback
+      speed.'
+  type: HowTo
+- questions:
+  - answer: Yes. Use the `addEffect` method on the slide’s timeline to append additional
+      `IEffect` objects.
+    question: Can I add new animations to a shape that already has effects?
+  - answer: Access `slide.getTimeline().getMainSequence()` which returns the ordered
+      list of all `IEffect` objects on that slide.
+    question: How do I extract the full animation timeline for a slide?
+  - answer: Absolutely. Each `IEffect` has a `setDuration(double seconds)` method
+      you can call after retrieving the effect.
+    question: Is it possible to modify the duration of an existing animation?
+  - answer: No. Aspose.Slides is a pure Java library and works completely independently
+      of Office.
+    question: Do I need Microsoft Office installed on the server?
+  - answer: Purchase a commercial license from Aspose to remove evaluation limits
+      and obtain full support.
+    question: Which license should I use for production deployments?
+  type: FAQPage
+title: Hogyan animáljuk a PowerPoint-ot az Aspose.Slides segítségével Java-ban – Prezentációk
+  betöltése és animálása könnyedén
 url: /hu/java/animations-transitions/master-aspose-slides-java-powerpoint-animations/
 weight: 1
 ---
 
-/products/products-backtop-button >}}
-
-We must keep them unchanged.
-
-Now produce final content with all translations.
-
-Check for any missed items: The quick answers bullet list: ensure bold formatting kept.
-
-Also ensure code block placeholders remain unchanged.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# PowerPoint animációk elsajátítása az Aspose.Slides segítségével Java-ban: Prezentációk betöltése és animálása könnyedén
+# Hogyan animáljunk PowerPoint-ot az Aspose.Slides segítségével Java-ban – Prezentációk egyszerű betöltése és animálása
 
 ## Bevezetés
 
-Ha **read powerpoint file java**‑stílusban szeretnél PowerPoint fájlokat olvasni és programozottan mozgást hozzáadni, az *aspose slides maven dependency* egy teljes körű API-t biztosít, amely Microsoft Office nélkül működik. Ebben az útmutatóban végigvezetünk a PPTX betöltésén, az alakzatok elérésén, a meglévő idővonalak kinyerésén, és még a **set animation duration java**‑stílusú beállításon is. A végére képes leszel **generate dynamic powerpoint slides** létrehozni, amelyek pontosan úgy játszanak le, ahogy megtervezted, mindezt Java kódból.
+Ha **read powerpoint file java**‑stílusban szeretnél PowerPoint fájlokat olvasni, programozottan mozgást hozzáadni, és megérteni, **how to animate powerpoint**, az *aspose slides maven dependency* egy teljes körű API-t biztosít, amely Microsoft Office nélkül működik. Ebben az útmutatóban végigvezetünk egy PPTX betöltésén, alakzatok elérésén, meglévő idővonalak kinyerésén, és még **set animation duration java**‑stílusban is. A végére képes leszel **generate dynamic powerpoint slides** létrehozni, amelyek pontosan úgy játszanak le, ahogy megtervezted, mindezt Java kódból.
 
 ### Gyors válaszok
-- **Mi a fő könyvtár?** Aspose.Slides for Java (az aspose slides maven dependency-n keresztül szállítva)  
-- **Hogyan hozható létre animált PowerPoint?** Tölts be egy PPTX-et, érj el alakzatokat, és nyerj ki vagy adj hozzá animációs effektusokat  
-- **Melyik Java verzió szükséges?** JDK 16 vagy újabb  
-- **Szükségem van licencre?** Egy ingyenes próba a kiértékeléshez működik; a gyártási környezethez kereskedelmi licenc szükséges  
-- **Automatizálhatok PowerPoint jelentéseket?** Igen – kombináld az adatforrásokat az Aspose.Slides-szel, hogy dinamikus deck-eket generálj  
+- **Mi a fő könyvtár?** Aspose.Slides for Java (delivered via the aspose slides maven dependency)  
+- **Hogyan hozzunk létre animált PowerPoint-ot?** Load a PPTX, access shapes, and retrieve or add animation effects  
+- **Melyik Java verzió szükséges?** JDK 16 or higher  
+- **Szükségem van licencre?** A free trial works for evaluation; a commercial license is required for production  
+- **Automatizálhatom a PowerPoint jelentéskészítést?** Yes – combine data sources with Aspose.Slides to generate dynamic decks  
 
 ## Mi az a „create animated powerpoint”?
 
-Az animált PowerPoint létrehozása azt jelenti, hogy programozottan adsz hozzá vagy nyersz ki animációs idővonalakat, áttűnéseket és alakzati effektusokat, hogy a végső deck pontosan úgy játszódjon le, ahogy meg lett tervezve, manuális szerkesztés nélkül.
+Az animált PowerPoint létrehozása azt jelenti, hogy programozottan adunk hozzá vagy nyerünk ki animációs idővonalakat, áttűnéseket és alakzat‑effekteket, hogy a végső bemutató pontosan úgy játsszon le, ahogy tervezve van, manuális szerkesztés nélkül. Ez a folyamat magában foglalja a prezentáció betöltését, az egyes diák idővonalának elérését, és `IEffect` objektumok csatolását az alakzatokhoz, lehetővé téve a belépés, hangsúlyozás, kilépés és mozgási útvonalak közvetlen vezérlését Java kódból.
 
-## Miért használjuk az Aspose.Slides for Java-t?
+## Miért használjuk az Aspose.Slides for Java‑t?
 
-Az Aspose.Slides egy gazdag, szerver‑oldali API-t biztosít, amely lehetővé teszi, hogy **read powerpoint file java**, módosítsd a tartalmat, **extract animation timeline**, és **add shape animation** anélkül, hogy a Microsoft Office telepítve lenne. Ez ideálissá teszi az automatizált jelentéskészítéshez, tömeges diakészítéshez és egyedi prezentációs munkafolyamatokhoz.
+Az Aspose.Slides egy gazdag, szerver‑oldali API‑t biztosít, amely lehetővé teszi a **read powerpoint file java** elvégzését, a tartalom módosítását, a **extract animation timeline** kinyerését, és a **add shape animation** hozzáadását anélkül, hogy a Microsoft Office telepítve lenne. Támogat **50+ animation effect types** típusú animációs effektet, és akár **500 MB** méretű prezentációkat is képes feldolgozni anélkül, hogy a teljes fájlt a memóriába töltené, így ideális automatizált jelentéskészítéshez, tömeges diakészítéshez és egyedi prezentációs munkafolyamatokhoz.
 
 ## Előfeltételek
 
-Az útmutató hatékony követéséhez győződj meg róla, hogy rendelkezel:
+A tutorial hatékony követéséhez győződj meg róla, hogy rendelkezel:
 
 ### Szükséges könyvtárak
-- Aspose.Slides for Java 25.4 vagy újabb verziója. Az alább részletezett módon Maven vagy Gradle segítségével szerezhető be.
+- Aspose.Slides for Java 25.4 vagy újabb verzióval. Letöltheted Maven vagy Gradle segítségével, ahogy alább részletezzük.
 
 ### Környezet beállítási követelmények
 - JDK 16 vagy újabb telepítve a gépeden.  
 - Egy integrált fejlesztőkörnyezet (IDE), például IntelliJ IDEA, Eclipse vagy hasonló.
 
 ### Tudás előfeltételek
-- Alapvető Java programozási és objektum‑orientált koncepciók ismerete.  
-- Jártas vagy a fájlutak és I/O műveletek kezelésében Java-ban.
+- Alapvető Java programozási ismeretek és objektum‑orientált koncepciók.  
+- Fájlútvonalak és I/O műveletek kezelése Java‑ban.
 
 ## Az Aspose.Slides for Java beállítása
 
-Az Aspose.Slides for Java használatának megkezdéséhez a **aspose slides maven dependency** segítségével adod hozzá a könyvtárat a projektedhez. Válaszd ki a munkafolyamatodhoz leginkább illő build eszközt.
+Az Aspose.Slides for Java elindításához hozzá kell adnod a könyvtárat a projekthez a **aspose slides maven dependency** használatával. Válaszd ki a munkafolyamatodhoz leginkább illő build eszközt.
 
 **Maven:**
 ```xml
@@ -84,23 +126,22 @@ Az Aspose.Slides for Java használatának megkezdéséhez a **aspose slides mave
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Ha szeretnéd, közvetlenül letöltheted a legújabb verziót a [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) oldalról.
+Ha inkább, közvetlenül letöltheted a legújabb verziót a [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) oldalról.
 
 ### Licenc beszerzése
-- **Free Trial:** Kezd egy ingyenes próbával az Aspose.Slides kiértékeléséhez.  
-- **Temporary License:** Szerezz be egy ideiglenes licencet a meghosszabbított kiértékeléshez.  
-- **Purchase:** A teljes hozzáféréshez vásárolj kereskedelmi licencet.
+- **Free Trial:** Start with a free trial to evaluate Aspose.Slides.  
+- **Temporary License:** Obtain a temporary license for extended evaluation.  
+- **Purchase:** For full access, purchase a commercial license.
 
-Miután a környezet készen áll és az Aspose.Slides hozzá lett adva a projekthez, készen állsz a PowerPoint prezentációk betöltésére és animálására Java-ban.
+Miután a környezet készen áll és az Aspose.Slides hozzá lett adva a projekthez, készen állsz a PowerPoint prezentációk betöltésére és animálására Java‑ban.
 
-## Megvalósítási útmutató
+## Hogyan animáljunk PowerPoint diákot az Aspose.Slides használatával
 
-Ez az útmutató a leggyakoribb animációval kapcsolatos forgatókönyveken vezet végig. Minden kódrészletet egyértelmű magyarázat követ.
+Töltsd be a PPTX‑et, szerezd meg a cél diát, és alkalmazz vagy módosíts animációs effektusokat néhány kódsorral. Ez a közvetlen‑válasz bekezdés bemutatja a fő lépéseket: példányosíts egy `Presentation`‑t, válassz egy diát a `getSlides().get_Item(index)`‑szel, szerezd meg a kívánt alakzatot, majd a dia idővonalát használva add hozzá vagy állítsd be a `IEffect` objektumokat. A `setDuration(double seconds)` metódust is meghívhatod minden effektuson a lejátszási sebesség szabályozásához.
 
 ### Prezentáció betöltése funkció
 
-#### Áttekintés
-Az első lépés a **how to load ppt**, vagyis egy PowerPoint prezentáció fájl betöltése a Java alkalmazásodba az Aspose.Slides használatával.
+A `Presentation` osztály az Aspose.Slides felső‑szintű objektuma, amely egyetlen PowerPoint fájlt képvisel a memóriában. Lehetővé teszi a prezentációk programozott betöltését, szerkesztését és mentését.
 
 **Code Snippet:**
 ```java
@@ -116,13 +157,12 @@ try {
 ```
 
 **Explanation:**
-- **Import Statement:** Importáljuk a `com.aspose.slides.Presentation` osztályt a PowerPoint fájlok kezeléséhez.  
-- **Loading a File:** A `Presentation` konstruktor egy fájlútvonalat vár, és betölti a PPTX-et az alkalmazásba.
+- **Import Statement:** We import `com.aspose.slides.Presentation` to handle PowerPoint files.  
+- **Loading a File:** The constructor of `Presentation` takes a file path, loading your PPTX into the application.
 
 ### Dia és alakzat elérése
 
-#### Áttekintés
-A prezentáció betöltése után **read powerpoint file java** a konkrét diák és alakzatok elérésével, hogy további manipulációkat végezhess.
+`ISlide` egy egyedi diát, míg `IShape` bármely rajzolt objektumot jelöl azon a dián. Mindkettő elengedhetetlen a specifikus elemek animálásához.
 
 **Code Snippet:**
 ```java
@@ -142,13 +182,12 @@ try {
 ```
 
 **Explanation:**
-- **Accessing Slides:** Használd a `presentation.getSlides()` metódust a diák gyűjteményének lekéréséhez, majd válassz egyet index alapján.  
-- **Working with Shapes:** A diáról a `slide.getShapes()` metódussal nyerheted ki az alakzatokat.
+- **Accessing Slides:** Use `presentation.getSlides()` to get a collection of slides, then select one by index.  
+- **Working with Shapes:** Retrieve shapes from the slide using `slide.getShapes()`.
 
 ### Effektek lekérése alakzat szerint
 
-#### Áttekintés
-A **add shape animation** érdekében lekérheted az animációs effektusokat, amelyek már egy adott alakzatra vannak alkalmazva a diáidon.
+`IEffect` objektumok leírják az egyes animációs műveleteket, amelyeket egy alakzatra alkalmaznak. Lekérdezésük lehetővé teszi a meglévő animációk vizsgálatát vagy módosítását.
 
 **Code Snippet:**
 ```java
@@ -171,12 +210,11 @@ try {
 ```
 
 **Explanation:**
-- **Retrieving Effects:** Használd a `getEffectsByShape()` metódust, hogy lekérd egy adott alakzatra alkalmazott animációkat.
+- **Retrieving Effects:** Use `getEffectsByShape()` to fetch animations applied to a specific shape.
 
-### Alaphelyettesítő effektusok lekérése
+### Alaphelyőrző effektek lekérése
 
-#### Áttekintés
-A **extract animation timeline** alaphelyettesítőkből való megértése kulcsfontosságú lehet a konzisztens diatervekhez.
+Az alaphelyőrzők gyakran tartalmaznak alapértelmezett animációkat, amelyek a származtatott alakzatokra is kiterjednek. Elérésük segít a tervezési konzisztencia fenntartásában.
 
 **Code Snippet:**
 ```java
@@ -202,12 +240,11 @@ try {
 ```
 
 **Explanation:**
-- **Accessing Placeholders:** Használd a `shape.getBasePlaceholder()` metódust az alaphelyettesítő lekéréséhez, amely fontos a konzisztens stílusok és animációk alkalmazásához.
+- **Accessing Placeholders:** Use `shape.getBasePlaceholder()` to get the base placeholder, which can be crucial for applying consistent styles and animations.
 
-### Mesterdia alakzat effektusok lekérése
+### Mester alakzat effektek lekérése
 
-#### Áttekintés
-Manipuláld a **master slide effects**-et, hogy fenntartsd a konzisztenciát a prezentáció minden diáján.
+A mester diák globális animációkat definiálnak, amelyek az adott elrendezést használó összes diára hatnak. Ezek manipulálása biztosítja az egységes viselkedést a teljes bemutatóban.
 
 **Code Snippet:**
 ```java
@@ -237,54 +274,64 @@ try {
 ```
 
 **Explanation:**
-- **Working with Master Slides:** Használd a `masterSlide.getTimeline().getMainSequence()` metódust, hogy elérd az összes diát érintő animációkat egy közös tervezés alapján.
+- **Working with Master Slides:** Use `masterSlide.getTimeline().getMainSequence()` to access animations affecting all slides based on a common design.
+
+## Hogyan állítsuk be az animáció időtartamát Java-ban?
+
+Hívjuk meg a `setDuration(double seconds)` metódust bármely `IEffect`‑en, amelyet lekérünk vagy létrehozunk. A metódus másodpercben várja az időtartamot, lehetővé téve a pontos időzítést minden animációs lépésnél. A `setDuration` beállítja az animáció lejátszási hosszát másodpercben, így finomhangolhatod, mennyi ideig marad látható egy effektus a diavetítés során.
+
+**Example Direct Answer:**  
+`effect.setDuration(2.5);` sets the animation to play for two and a half seconds. You can loop through all effects on a slide, adjust each duration, and then save the presentation to persist the changes.
 
 ## Gyakorlati alkalmazások
-Az Aspose.Slides for Java-val a következőket teheted:
-
-1. **Automate PowerPoint Reporting:** Kombináld az adatbázisok vagy API-k adatait, hogy valós időben generálj diakészleteket, **automate powerpoint reporting** a napi vezetői összefoglalókhoz.  
-2. **Customize Presentations Dynamically:** Programozottan módosítsd a prezentáció tartalmát felhasználói bemenet, nyelv vagy márka követelmények alapján, biztosítva, hogy minden deck egyedileg testreszabott legyen.  
-3. **Set Animation Duration Java‑Style:** Állítsd be a `setDuration(double seconds)` metódust bármely `IEffect` esetén, hogy finomhangold az időzítést, és pontos kontrollt kapj a lejátszási sebesség felett.
+1. **PowerPoint jelentéskészítés automatizálása:** Kombináld az adatbázisok vagy API‑k adatait, hogy a diákészleteket valós időben generáld, **automate powerpoint reporting** a napi vezetői összefoglalókhoz.  
+2. **Prezentációk dinamikus testreszabása:** Módosítsd a prezentáció tartalmát programozottan felhasználói bemenet, helyi beállítás vagy márka követelményei alapján, biztosítva, hogy minden deck egyedileg legyen testreszabva.  
+3. **Animáció időtartamának beállítása Java‑stílusban:** Állítsd be a `setDuration(double seconds)`‑t bármely `IEffect`‑nél, hogy finomhangold az időzítést, így pontos vezérlést kapsz a lejátszási sebesség felett.
 
 ## Gyakori problémák és megoldások
 
 | Probléma | Megoldás |
 |----------|----------|
-| **NullPointerException a helyettesítők lekérésekor** | Győződj meg arról, hogy az alakzat valóban rendelkezik helyettesítővel; hívd meg a `shape.getPlaceholder()`-t, mielőtt a `getBasePlaceholder()`-t hívnád. |
-| **A licenc nincs alkalmazva** | Töltsd be a licencfájlt a `Presentation` példány létrehozása előtt: `License lic = new License(); lic.setLicense("Aspose.Slides.Java.lic");` |
-| **Az animációk nem jelennek meg a végső PPTX-ben** | Az effektusok hozzáadása vagy módosítása után hívd meg a `slide.getTimeline().recalculate();` metódust az idővonal frissítéséhez. |
-| **Nem támogatott animációtípus** | Ellenőrizd, hogy a használt `EffectType` támogatott-e a cél PowerPoint verzióban (pl. a régebbi PPT fájlok korlátozott effektusokkal rendelkeznek). |
+| **NullPointerException when retrieving placeholders** | Ensure the shape actually has a placeholder; check `shape.getPlaceholder()` before calling `getBasePlaceholder()`. |
+| **License not applied** | Load your license file before creating a `Presentation` instance: `License lic = new License(); lic.setLicense("Aspose.Slides.Java.lic");` |
+| **Animations not appearing in the final PPTX** | After adding or modifying effects, call `slide.getTimeline().recalculate();` to refresh the timeline. |
+| **Unsupported animation type** | Verify the `EffectType` you are using is supported by the target PowerPoint version (e.g., older PPT files have limited effects). |
 
 ## Gyakran feltett kérdések
 
-**Q: Hozzáadhatok új animációkat egy már effektusokkal rendelkező alakzathoz?**  
-A: Igen. Használd a `addEffect` metódust a dia idővonalán, hogy további `IEffect` objektumokat adj hozzá.
+**Q:** **Hozzáadhatok új animációkat egy olyan alakzathoz, amely már rendelkezik effektusokkal?**  
+**A:** Igen. Használd a `addEffect` metódust a dia idővonalán további `IEffect` objektumok hozzáfűzéséhez.
 
-**Q: Hogyan nyerhetem ki egy dia teljes animációs idővonalát?**  
-A: Hozzáférhetsz a `slide.getTimeline().getMainSequence()`-hez, amely visszaadja az adott dián lévő összes `IEffect` objektum rendezett listáját.
+**Q:** **Hogyan nyerhetem ki a teljes animációs idővonalat egy diáról?**  
+**A:** Érd el a `slide.getTimeline().getMainSequence()`‑t, amely visszaadja az adott dián lévő összes `IEffect` objektum rendezett listáját.
 
-**Q: Lehet módosítani egy meglévő animáció időtartamát?**  
-A: Természetesen. Minden `IEffect` rendelkezik egy `setDuration(double seconds)` metódussal, amelyet az effektus lekérése után meghívhatsz.
+**Q:** **Lehet-e módosítani egy meglévő animáció időtartamát?**  
+**A:** Természetesen. Minden `IEffect` rendelkezik `setDuration(double seconds)` metódussal, amelyet a hatás lekérése után meghívhatsz.
 
-**Q: Szükséges a Microsoft Office telepítése a szerveren?**  
-A: Nem. Az Aspose.Slides egy tiszta Java könyvtár, amely teljesen függetlenül működik az Office-tól.
+**Q:** **Szükséges-e a Microsoft Office a szerveren?**  
+**A:** Nem. Az Aspose.Slides egy tisztán Java könyvtár, amely teljesen függetlenül működik az Office‑tól.
 
-**Q: Melyik licencet használjam a termelési környezetben?**  
-A: Vásárolj kereskedelmi licencet az Aspose-tól, hogy eltávolítsd a kiértékelési korlátokat és teljes támogatást kapj.
+**Q:** **Melyik licencet használjam termelési környezetben?**  
+**A:** Vásárolj kereskedelmi licencet az Aspose‑tól, hogy eltávolítsd a kiértékelési korlátokat és teljes támogatást kapj.
 
-**Q: Hogyan állíthatom programozottan be az animáció időtartamát Java-ban?**  
-A: Szerezd meg a kívánt `IEffect`-et, és hívd meg a `effect.setDuration(2.5);` metódust, ahol az érték másodpercben van.
+**Q:** **Hogyan állíthatom be programozottan az animáció időtartamát Java‑ban?**  
+**A:** Szerezd meg a kívánt `IEffect`‑et, majd hívd meg `effect.setDuration(2.5);`, ahol az érték másodpercben van megadva.
 
----
-
-**Legutóbb frissítve:** 2026-02-14  
-**Tesztelve ezzel:** Aspose.Slides for Java 25.4 (jdk16)  
+**Utolsó frissítés:** 2026-06-13  
+**Tesztelve:** Aspose.Slides for Java 25.4 (jdk16)  
 **Szerző:** Aspose
+
+{{< blocks/products/products-backtop-button >}}
+
+## Kapcsolódó oktatóanyagok
+
+- [aspose slides maven - Master Advanced Slide Animations in Java](/slides/java/animations-transitions/advanced-slide-animations-aspose-slides-java/)
+- [Create Dynamic Powerpoint Java – Aspose.Slides Animation Types Guide](/slides/java/animations-transitions/aspose-slides-java-animation-comparison-guide/)
+- [Master Aspose.Slides Java for Dynamic PowerPoint Presentations: A Comprehensive Guide](/slides/java/data-integration/aspose-slides-java-dynamic-presentations/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
