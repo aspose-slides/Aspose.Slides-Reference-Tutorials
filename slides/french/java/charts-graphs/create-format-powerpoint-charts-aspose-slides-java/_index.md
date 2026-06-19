@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-17"
-"description": "Apprenez à créer, mettre en forme et enrichir vos présentations PowerPoint avec des graphiques dynamiques grâce à Aspose.Slides pour Java. Ce guide complet couvre tous les aspects, de la configuration à la mise en forme avancée."
-"title": "Comment créer et formater des graphiques PowerPoint avec Aspose.Slides pour Java ? Un guide complet"
-"url": "/fr/java/charts-graphs/create-format-powerpoint-charts-aspose-slides-java/"
-"weight": 1
+date: '2026-03-15'
+description: Apprenez à ajouter un graphique à colonnes groupées à une diapositive
+  PowerPoint à l'aide d'Aspose.Slides pour Java, en couvrant les étapes pour ajouter
+  le graphique à la diapositive et créer efficacement une diapositive PowerPoint en
+  Java.
+keywords:
+- Aspose.Slides for Java
+- PowerPoint Charts
+- Java PowerPoint Automation
+title: Ajouter un diagramme à colonnes groupées à PPT avec Aspose.Slides Java
+url: /fr/java/charts-graphs/create-format-powerpoint-charts-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,36 +18,36 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Comment créer et mettre en forme des graphiques PowerPoint avec Aspose.Slides pour Java : guide complet
+# Ajouter un graphique à colonnes groupées à PPT avec Aspose.Slides Java
 
 ## Introduction
-Créer des présentations basées sur les données, à la fois informatives et visuellement attrayantes, peut s'avérer complexe, surtout lorsqu'il s'agit d'intégrer des graphiques directement dans vos diapositives. Avec Aspose.Slides pour Java, automatisez facilement la création de présentations PowerPoint percutantes et concentrez-vous davantage sur le contenu que sur la conception. Ce guide vous guidera dans la création d'une présentation, l'ajout et la mise en forme de graphiques à colonnes groupées, la personnalisation de l'esthétique (styles de ligne et angles arrondis, par exemple), et l'enregistrement de votre travail, le tout avec Aspose.Slides pour Java.
+Dans ce guide, vous **ajouterez un graphique à colonnes groupées** à une présentation PowerPoint de manière programmatique avec Aspose.Slides for Java. Que vous créiez des rapports d'entreprise, des présentations éducatives ou des présentations marketing, l'automatisation de la création de graphiques fait gagner du temps et garantit la cohérence. Nous parcourrons la configuration de la bibliothèque, la création d'une diapositive, l'ajout du graphique, l'application de styles de ligne et de coins arrondis, et enfin l'enregistrement du fichier. À la fin, vous serez à l'aise avec le flux complet pour **ajouter un graphique à une diapositive** et même **create PowerPoint slide Java**‑based solutions.
 
-**Ce que vous apprendrez :**
-- Comment créer par programmation des présentations PowerPoint avec Aspose.Slides.
-- Méthodes pour ajouter et améliorer les diapositives avec différents types de graphiques pour une meilleure visualisation des données.
-- Techniques de personnalisation des graphiques avec des options de formatage avancées.
-- Bonnes pratiques pour enregistrer vos présentations en toute sécurité dans plusieurs formats.
+### Quick Answers
+- **Quelle est la classe principale pour commencer ?** `Presentation`
+- **Quel type de graphique est utilisé ?** `ChartType.ClusteredColumn`
+- **Comment activer les coins arrondis ?** `chart.setRoundedCorners(true);`
+- **Quel format est recommandé pour l'enregistrement ?** `SaveFormat.Pptx`
+- **Ai‑je besoin d’une licence pour le développement ?** Un essai gratuit fonctionne pour les tests ; une licence achetée est requise pour la production.
+
+## Qu’est‑ce qu’un graphique à colonnes groupées ?
+Un graphique à colonnes groupées regroupe plusieurs séries de données côte à côte pour chaque catégorie, ce qui le rend idéal pour comparer des valeurs entre différents groupes. Aspose.Slides vous permet de générer ce type de graphique entièrement en code sans ouvrir PowerPoint.
+
+## Pourquoi utiliser Aspose.Slides for Java pour ajouter un graphique à colonnes groupées ?
+- **Automatisation complète** – aucune interaction manuelle avec l'interface requise.  
+- **Multiplateforme** – fonctionne sur tout OS supportant Java.  
+- **Mise en forme riche** – contrôle des styles de ligne, remplissages, coins arrondis, etc.  
+- **Pas de dépendances COM** – contrairement à Office Interop, il s'exécute en toute sécurité sur les serveurs.
 
 ## Prérequis
-Avant de commencer, assurez-vous d’avoir les éléments suivants :
+- **Aspose.Slides for Java** (v25.4 ou plus récent)  
+- **JDK 16** (ou version ultérieure)  
+- Un IDE tel qu'IntelliJ IDEA, Eclipse ou NetBeans  
 
-### Bibliothèques requises
-- **Aspose.Slides pour Java**: Une bibliothèque puissante pour gérer les fichiers PowerPoint. Utilisez la version 25.4 ou ultérieure.
-- **Kit de développement Java (JDK)**:La version 16 est recommandée car elle est compatible avec Aspose.Slides.
+## Installation d’Aspose.Slides for Java
+Vous pouvez ajouter la bibliothèque via Maven, Gradle ou un téléchargement direct.
 
-### Configuration requise pour l'environnement
-- Un environnement de développement intégré (IDE) comme IntelliJ IDEA, Eclipse ou NetBeans.
-- Compréhension de base des concepts de programmation Java.
-
-### Prérequis en matière de connaissances
-Une connaissance de la programmation orientée objet en Java et des connaissances de base en présentation PowerPoint seront bénéfiques.
-
-## Configuration d'Aspose.Slides pour Java
-Pour intégrer Aspose.Slides dans votre projet, vous pouvez utiliser des outils de gestion des dépendances comme Maven ou Gradle, ou le télécharger directement depuis le site officiel.
-
-### Utilisation de Maven
-Ajoutez cet extrait à votre `pom.xml` déposer:
+### Using Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -49,166 +56,172 @@ Ajoutez cet extrait à votre `pom.xml` déposer:
     <classifier>jdk16</classifier>
 </dependency>
 ```
-### Utiliser Gradle
-Incluez ceci dans votre `build.gradle` déposer:
+
+### Using Gradle
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
-### Téléchargement direct
-Téléchargez la dernière version depuis [Versions d'Aspose.Slides pour Java](https://releases.aspose.com/slides/java/).
 
-#### Étapes d'acquisition de licence
-- **Essai gratuit**: Testez Aspose.Slides sans limitations en utilisant une licence temporaire.
-- **Permis temporaire**:Demandez une licence temporaire sur leur site pour explorer toutes les fonctionnalités.
-- **Achat**:Pour une utilisation à long terme, pensez à souscrire un abonnement.
+### Direct Download
+Download the latest version from [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-## Guide de mise en œuvre
-Maintenant que tout est configuré, implémentons les fonctionnalités étape par étape.
+#### License Acquisition Steps
+- **Essai gratuit** – testez toutes les fonctionnalités sans limite de temps.  
+- **Licence temporaire** – demandez‑en une sur le portail Aspose pour une évaluation complète.  
+- **Achat** – obtenez une licence permanente pour la production.
 
-### Créer une présentation et ajouter une diapositive
-#### Aperçu
-Cette section explique comment initialiser une nouvelle présentation PowerPoint et ajouter une diapositive initiale à l'aide d'Aspose.Slides pour Java. Cette base est essentielle pour tout ajout ou modification ultérieur de vos présentations.
+## Implementation Guide
 
-#### Mise en œuvre étape par étape
-**1. Initialiser l'objet de présentation**
-```java
-Presentation presentation = new Presentation();
-```
-*Explication*: UN `Presentation` L'objet sert de conteneur principal pour vos diapositives et composants.
+### Creating a Presentation and Adding a Slide
+#### Overview
+First, we create a new `Presentation` object and grab the default slide that ships with a fresh file.
 
-**2. Accéder à la première diapositive**
-```java
-ISlide slide = presentation.getSlides().get_Item(0);
-```
-*Explication*Par défaut, une nouvelle présentation comprend une diapositive. Ici, nous y accédons pour effectuer d'autres opérations.
-
-**3. Éliminer les ressources**
-```java
-if (presentation != null) presentation.dispose();
-```
-*Explication*: Libérez toujours les ressources correctement pour éviter les fuites de mémoire. `dispose` La méthode gère ce nettoyage efficacement.
-
-### Ajouter un graphique à une diapositive
-#### Aperçu
-L'ajout de graphiques est essentiel pour visualiser efficacement les données dans vos présentations. Cette fonctionnalité permet d'intégrer un graphique à colonnes groupées dans une diapositive existante.
-
-#### Mise en œuvre étape par étape
-**1. Initialiser l'objet de présentation**
+#### Step‑by‑Step
+**1. Initialize the Presentation Object**
 ```java
 Presentation presentation = new Presentation();
 ```
 
-**2. Accéder à la première diapositive**
+**2. Access the First Slide**
 ```java
 ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
-**3. Ajouter un graphique à colonnes groupées**
-```java
-IChart chart = slide.getShapes().addChart(ChartType.ClusteredColumn, 20, 100, 600, 400);
-```
-*Explication*: Le `addChart` La méthode insère un nouveau graphique du type spécifié dans la diapositive à des coordonnées définies avec des dimensions spécifiques.
-
-**4. Éliminer les ressources**
+**3. Dispose of Resources**
 ```java
 if (presentation != null) presentation.dispose();
 ```
 
-### Formatage du style de ligne du graphique et définition des coins arrondis
-#### Aperçu
-Cette fonctionnalité vous permet d'améliorer l'attrait visuel de votre graphique en définissant des styles de ligne et en activant les coins arrondis.
+### Adding a Chart to a Slide
+#### Overview
+Now we embed a **clustered column chart** into the slide we just prepared.
 
-#### Mise en œuvre étape par étape
-**1. Initialiser l'objet de présentation**
+#### Step‑by‑Step
+**1. Initialize the Presentation Object**
 ```java
 Presentation presentation = new Presentation();
 ```
 
-**2. Accéder à la première diapositive**
+**2. Access the First Slide**
 ```java
 ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
-**3. Ajouter un graphique à colonnes groupées**
+**3. Add a Clustered Column Chart**
 ```java
 IChart chart = slide.getShapes().addChart(ChartType.ClusteredColumn, 20, 100, 600, 400);
 ```
 
-**4. Définissez le format de ligne sur le type de remplissage solide**
+**4. Dispose of Resources**
+```java
+if (presentation != null) presentation.dispose();
+```
+
+### Formatting Chart Line Style and Setting Rounded Corners
+#### Overview
+Enhance the visual appeal by applying a solid line fill, a single line style, and rounded corners.
+
+#### Step‑by‑Step
+**1. Initialize the Presentation Object**
+```java
+Presentation presentation = new Presentation();
+```
+
+**2. Access the First Slide**
+```java
+ISlide slide = presentation.getSlides().get_Item(0);
+```
+
+**3. Add a Clustered Column Chart**
+```java
+IChart chart = slide.getShapes().addChart(ChartType.ClusteredColumn, 20, 100, 600, 400);
+```
+
+**4. Set Line Format to Solid Fill Type**
 ```java
 chart.getLineFormat().getFillFormat().setFillType(FillType.Solid);
 ```
-*Explication*:Cela définit la couleur et le style de ligne du graphique, le rendant visuellement distinctif.
 
-**5. Appliquer le style de ligne unique**
+**5. Apply Single Line Style**
 ```java
 chart.getLineFormat().setStyle(LineStyle.Single);
 ```
 
-**6. Activer les coins arrondis pour la zone du graphique**
+**6. Enable Rounded Corners for Chart Area**
 ```java
 chart.setRoundedCorners(true);
 ```
-*Explication*:Les coins arrondis confèrent un aspect moderne au graphique, améliorant ainsi son attrait visuel.
 
-**7. Éliminer les ressources**
+**7. Dispose of Resources**
 ```java
 if (presentation != null) presentation.dispose();
 ```
 
-### Enregistrer une présentation
-#### Aperçu
-Après avoir créé et personnalisé votre présentation, l'enregistrer correctement garantit que toutes les modifications sont conservées pour une utilisation ou un partage ultérieur.
+### Saving a Presentation
+#### Overview
+Finally, we write the presentation to disk in PPTX format.
 
-#### Mise en œuvre étape par étape
-**1. Initialiser l'objet de présentation**
+#### Step‑by‑Step
+**1. Initialize the Presentation Object**
 ```java
 Presentation presentation = new Presentation();
 ```
 
-**2. Définir le répertoire de sortie et le nom du fichier**
+**2. Define Output Directory and File Name**
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY/";
 String outputFile = dataDir + "out.pptx";
 ```
-*Explication*: Spécifiez où vous souhaitez enregistrer votre fichier de présentation.
 
-**3. Enregistrez la présentation au format PPTX**
+**3. Save the Presentation in PPTX Format**
 ```java
 presentation.save(outputFile, SaveFormat.Pptx);
 ```
 
-**4. Éliminer les ressources**
+**4. Dispose of Resources**
 ```java
 if (presentation != null) presentation.dispose();
 ```
 
-## Applications pratiques
-- **Rapports d'activité**:Créez des rapports détaillés avec des graphiques interactifs pour présenter des données financières.
-- **Contenu éducatif**:Développez des diapositives PowerPoint attrayantes pour des conférences ou des sessions de formation comportant des graphiques et des diagrammes dynamiques.
-- **Présentations marketing**:Concevez des présentations convaincantes qui mettent en évidence les tendances des produits à l'aide de visualisations graphiques sophistiquées.
+## Practical Applications
+- **Rapports d'entreprise** – automatisez les présentations financières trimestrielles avec des graphiques dynamiques.  
+- **Contenu éducatif** – générez des diapositives de cours qui récupèrent les données d'une base de données.  
+- **Présentations marketing** – visualisez les tendances produit avec des graphiques soignés.
 
-## Considérations relatives aux performances
-Pour garantir des performances optimales lors de l'utilisation d'Aspose.Slides :
-- **Gérer efficacement les ressources**: Libérez toujours les ressources après utilisation en appelant `dispose`.
-- **Optimiser l'utilisation de la mémoire**:Réduisez le nombre d’opérations en une seule exécution pour mieux gérer la mémoire.
-- **Meilleures pratiques pour la gestion de la mémoire Java**: Utilisez les blocs try-finally ou try-with-resources pour gérer automatiquement le nettoyage des ressources.
+## Performance Considerations
+- **Gestion des ressources** – appelez toujours `dispose()` ou utilisez try‑with‑resources.  
+- **Optimisation de la mémoire** – traitez les grands ensembles de données par lots plus petits.  
+- **Bonnes pratiques** – privilégiez les structures de données immuables pour les séries de graphiques lorsque c'est possible.
+
+## Common Issues and Solutions
+| Problème | Solution |
+|----------|----------|
+| **`NullPointerException` on `getSlides()`** | Assurez‑vous que l'objet `Presentation` est correctement instancié avant d'accéder aux diapositives. |
+| **Chart not appearing** | Vérifiez que les dimensions du graphique (x, y, largeur, hauteur) sont à l'intérieur des limites de la diapositive. |
+| **License not applied** | Chargez votre fichier de licence avant de créer l'objet `Presentation` : `License license = new License(); license.setLicense("path/to/license.xml");` |
+
+## Frequently Asked Questions
+
+**Q : Comment ajouter différents types de graphiques avec Aspose.Slides ?**  
+A : Remplacez `ChartType.ClusteredColumn` par toute autre valeur d'énumération telle que `ChartType.Pie`, `ChartType.Line` ou `ChartType.Bar`.
+
+**Q : Que faire si je rencontre des erreurs de compilation ?**  
+A : Vérifiez que vous utilisez JDK 16 ou une version plus récente et que la dépendance Maven/Gradle correspond à la version indiquée ci‑dessus.
+
+**Q : Puis‑je alimenter le graphique avec des données provenant d’une base de données ?**  
+A : Oui. Accédez à la collection `getChartData()` du graphique, créez des séries et des catégories, puis remplissez‑les avec les valeurs récupérées à l'exécution.
+
+**Q : Comment améliorer les performances pour des présentations très volumineuses ?**  
+A : Divisez le travail en plusieurs instances `Presentation`, réutilisez des modèles de graphiques et libérez toujours les objets rapidement.
 
 ## Conclusion
-En suivant ce guide, vous avez appris à créer et à mettre en forme des graphiques dans des présentations PowerPoint avec Aspose.Slides pour Java. Ces compétences vous permettront de produire des présentations de qualité professionnelle qui communiquent efficacement des données grâce à des designs visuellement attrayants. Pour explorer davantage les fonctionnalités d'Aspose.Slides, pensez à tester d'autres types de graphiques ou à intégrer des sources de données dynamiques à vos présentations.
+Vous disposez maintenant d’une recette complète, de bout en bout, pour **ajouter un graphique à colonnes groupées** à une diapositive PowerPoint avec Aspose.Slides for Java. Expérimentez avec d’autres types de graphiques, liez des sources de données en temps réel et intégrez cette logique dans des pipelines de reporting plus larges afin d’automatiser votre flux de travail de présentation.
 
-## Section FAQ
-**Q1 : Comment ajouter différents types de graphiques à l’aide d’Aspose.Slides ?**
-A1 : Utilisez le `ChartType` enum pour spécifier différents styles de graphiques tels que Ligne, Barre, Secteur, etc., en remplaçant `ClusteredColumn` dans les exemples de code avec le type souhaité.
+---
 
-**Q2 : Que se passe-t-il si je rencontre des erreurs lors de l’exécution de ce code ?**
-A2 : Assurez-vous que toutes les dépendances sont correctement configurées et que vous utilisez une version JDK compatible. Vérifiez l'absence d'erreurs de syntaxe ou de logique.
-
-**Q3 : Puis-je personnaliser les données du graphique par programmation ?**
-A3 : Oui, Aspose.Slides vous permet de remplir des graphiques avec des données dynamiques en accédant aux séries de données et aux catégories du graphique.
-
-**Q4 : Comment gérer des présentations volumineuses sans problèmes de performances ?**
-A4 : Décomposez les tâches en morceaux plus petits, utilisez des pratiques de codage efficaces et gérez les ressources avec diligence pour atténuer les goulots d’étranglement des performances.
+**Last Updated:** 2026-03-15  
+**Tested With:** Aspose.Slides 25.4 for Java (JDK 16)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

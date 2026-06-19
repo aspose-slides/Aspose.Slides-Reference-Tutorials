@@ -1,62 +1,80 @@
 ---
-date: '2026-01-11'
-description: Aprende a agregar un gráfico a PowerPoint con Aspose.Slides para Java,
-  crear gráficos dinámicos en PowerPoint y calcular fórmulas de gráficos en presentaciones
-  automatizadas.
+date: '2026-03-15'
+description: Aprenda cómo crear gráficos de PowerPoint usando Aspose.Slides para Java,
+  crear gráficos de columnas agrupadas dinámicos y calcular fórmulas de gráficos en
+  presentaciones automatizadas.
 keywords:
 - Aspose.Slides Java
 - dynamic PowerPoint charts
 - PowerPoint presentation automation
-title: Cómo agregar un gráfico a PowerPoint usando Aspose.Slides para Java
+title: Cómo crear un gráfico de PowerPoint con Aspose.Slides para Java
 url: /es/java/charts-graphs/aspose-slides-java-add-charts-formulas/
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+What You'll Learn:** with bold. We'll translate the text after colon. Keep bold markers.
+
+List items translate.
+
+Let's produce.
+
+Proceed.
+
+Quick Answers section.
+
+Translate headings and bullet points.
+
+Make sure to keep code placeholders unchanged.
+
+Proceed through entire content.
+
+Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Domina Aspose.Slides Java: Añade Gráficos y Fórmulas a Presentaciones PowerPoint
+# Dominar Aspose.Slides Java: Añadir Gráficos y Fórmulas a Presentaciones PowerPoint
 
 ## Introducción
 
-Crear presentaciones PowerPoint atractivas es crucial para transmitir datos complejos de manera eficaz. Con Aspose.Slides para Java, puedes **añadir gráficos a PowerPoint** de forma programática, automatizar la creación de gráficos dinámicos y embebir fórmulas calculadas en los gráficos, todo sin abrir la interfaz de usuario. Este tutorial te guiará por la configuración de la biblioteca, la inserción de un gráfico de columnas agrupadas, la aplicación de fórmulas y el guardado del archivo final.
+Crear presentaciones PowerPoint atractivas es crucial al transmitir datos complejos de manera eficaz. Con Aspose.Slides for Java, puedes **create PowerPoint chart** programáticamente, automatizar la creación de gráficos PowerPoint dinámicos y incrustar fórmulas de gráfico calculadas, todo sin abrir la interfaz de usuario. Este tutorial te guía paso a paso en la configuración de la biblioteca, la inserción de un gráfico de columnas agrupadas, la aplicación de fórmulas y el guardado del archivo final.
 
 **Lo que aprenderás:**
-- Configurar Aspose.Slides para Java
+- Configurar Aspose.Slides for Java
 - Crear una presentación PowerPoint e insertar gráficos
 - Acceder y modificar los datos del gráfico con fórmulas
-- Calcular fórmulas del gráfico y guardar tu presentación
+- Calcular fórmulas de gráfico y guardar tu presentación
 
 ¡Comencemos revisando los requisitos previos!
 
 ## Respuestas rápidas
-- **¿Cuál es el objetivo principal?** Añadir gráficos a PowerPoint automáticamente usando Aspose.Slides para Java.  
-- **¿Qué tipo de gráfico se muestra?** Un gráfico de columnas agrupadas.  
-- **¿Se pueden calcular fórmulas?** Sí—usa `calculateFormulas()` para evaluar gráficos dinámicos en PowerPoint.  
+- **¿Cuál es el objetivo principal?** Crear un gráfico PowerPoint automáticamente usando Aspose.Slides for Java.  
+- **¿Qué tipo de gráfico se demuestra?** Un gráfico de columnas agrupadas.  
+- **¿Se pueden calcular fórmulas?** Sí—utiliza `calculateFormulas()` para evaluar gráficos PowerPoint dinámicos.  
 - **¿Qué herramienta de compilación se recomienda?** Maven (o Gradle) para la integración de Aspose Slides.  
-- **¿Necesito una licencia?** Una prueba gratuita funciona para pruebas; una licencia completa elimina las limitaciones de evaluación.
+- **¿Necesito una licencia?** Una prueba gratuita funciona para pruebas; una licencia completa elimina los límites de evaluación.
 
-## ¿Qué es “añadir gráfico a PowerPoint” con Aspose.Slides?
-Aspose.Slides para Java ofrece una API completa que permite a los desarrolladores crear, editar y guardar archivos PowerPoint de forma programática. Al utilizar la capacidad de **añadir gráfico a PowerPoint**, puedes generar representaciones visuales de datos al vuelo, ideal para informes, paneles de control o presentaciones automatizadas.
+## ¿Qué es “add chart to PowerPoint” con Aspose.Slides?
+Aspose.Slides for Java proporciona una API rica que permite a los desarrolladores crear, editar y guardar archivos PowerPoint programáticamente. Al usar la capacidad de **add chart to PowerPoint**, puedes generar representaciones visuales de datos al instante, perfecto para informes, paneles de control o presentaciones automatizadas.
 
 ## ¿Por qué usar un gráfico de columnas agrupadas?
-Un gráfico de columnas agrupadas permite comparar varias series de datos lado a lado, haciendo que tendencias y diferencias sean visibles al instante. Es una opción común para informes financieros, paneles de ventas y métricas de rendimiento—exactamente los escenarios donde los gráficos dinámicos de PowerPoint brillan.
+Un gráfico de columnas agrupadas te permite comparar varias series de datos lado a lado, haciendo que las tendencias y diferencias sean visibles de inmediato. Es una opción común para informes financieros, paneles de ventas y métricas de rendimiento—exactamente los escenarios donde los gráficos PowerPoint dinámicos brillan.
 
-## Requisitos previos
+## Cómo crear un gráfico PowerPoint usando Aspose.Slides for Java
 
-Antes de comenzar, asegúrate de contar con:
+### Requisitos previos
 
-- **Biblioteca Aspose.Slides para Java**: Se requiere la versión 25.4 o posterior.  
+Antes de comenzar, asegúrate de tener:
+
+- **Aspose.Slides for Java Library**: Se requiere la versión 25.4 o posterior.  
 - **Java Development Kit (JDK)**: JDK 16 o superior debe estar instalado y configurado en tu sistema.  
-- **Entorno de desarrollo**: Se recomienda un IDE como IntelliJ IDEA o Eclipse, aunque no es obligatorio.  
+- **Entorno de desarrollo**: Se recomienda un IDE como IntelliJ IDEA o Eclipse, pero no es obligatorio.  
 
 Se necesita una comprensión básica de conceptos de programación Java como clases, métodos y manejo de excepciones. Si eres nuevo en estos temas, considera revisar tutoriales introductorios primero.
 
-## Configuración de Aspose.Slides para Java
+### Configuración de Aspose.Slides for Java
 
-### Dependencia Maven (maven for aspose slides)
+#### Dependencia Maven (maven for aspose slides)
 Para incluir Aspose.Slides en tu proyecto usando Maven, agrega la siguiente dependencia a tu `pom.xml`:
 
 ```xml
@@ -68,15 +86,15 @@ Para incluir Aspose.Slides en tu proyecto usando Maven, agrega la siguiente depe
 </dependency>
 ```
 
-### Dependencia Gradle
+#### Dependencia Gradle
 Si utilizas Gradle, incluye lo siguiente en tu `build.gradle`:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Descarga directa
-Alternativamente, descarga la última versión de Aspose.Slides para Java desde [Lanzamientos de Aspose](https://releases.aspose.com/slides/java/).
+#### Descarga directa
+Alternativamente, descarga la última versión de Aspose.Slides for Java desde [Aspose Releases](https://releases.aspose.com/slides/java/).
 
 #### Obtención de licencia
 - **Prueba gratuita**: Comienza con una prueba gratuita para explorar las capacidades.  
@@ -100,24 +118,22 @@ try {
 
 Esta sección está dividida en pasos para ayudarte a comprender cada parte claramente.
 
-### Cómo añadir gráfico a PowerPoint usando Aspose.Slides para Java
-
-#### Paso 1: Inicializar la presentación
+### Paso 1: Inicializar la presentación
 Comienza creando un nuevo objeto `Presentation`:
 
 ```java
 Presentation presentation = new Presentation();
 ```
 
-#### Paso 2: Acceder a la primera diapositiva
+### Paso 2: Acceder a la primera diapositiva
 Obtén la primera diapositiva donde colocarás tu gráfico:
 
 ```java
 ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
-#### Paso 3: Añadir un gráfico de columnas agrupadas
-Añade el gráfico a la diapositiva en las coordenadas y dimensiones especificadas:
+### Paso 3: Añadir un gráfico de columnas agrupadas
+Agrega el gráfico a la diapositiva en las coordenadas y dimensiones especificadas:
 
 ```java
 IChart chart = slide.getShapes().addChart(
@@ -131,17 +147,14 @@ IChart chart = slide.getShapes().addChart(
 - Coordenadas (x, y): Posición en la diapositiva.  
 - Ancho y alto: Dimensiones del gráfico.
 
-### Trabajo con el libro de datos del gráfico
-
-#### Paso 4: Acceder al libro de datos del gráfico
-Obtén el libro de datos asociado a tu gráfico:
+### Paso 4: Acceder al libro de datos del gráfico
+Recupera el libro de trabajo asociado a tu gráfico:
 
 ```java
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 ```
 
-#### Paso 5: Establecer fórmulas (calcular fórmulas del gráfico)
-Define fórmulas para realizar cálculos dinámicos en los datos de tu gráfico:
+### Paso 5: Establecer fórmulas (calculate chart formulas)
 
 **Fórmula en la celda B2**  
 ```java
@@ -154,18 +167,16 @@ cell1.setFormula("1 + SUM(F2:H5)");
 IChartDataCell cell2 = workbook.getCell(0, "C2");
 cell2.setR1C1Formula("MAX(R2C6:R5C8) / 3");
 ```
-Estas fórmulas permiten que el gráfico se actualice automáticamente cada vez que cambien los datos subyacentes.
+Estas fórmulas permiten que el gráfico se actualice automáticamente siempre que cambien los datos subyacentes.
 
-### Calcular fórmulas y guardar la presentación
-
-#### Paso 6: Calcular todas las fórmulas
-Invoca el método de cálculo en tu libro de datos para que el gráfico refleje los valores más recientes:
+### Paso 6: Calcular todas las fórmulas
+Invoca el método de cálculo en tu libro de trabajo para que el gráfico refleje los valores más recientes:
 
 ```java
 workbook.calculateFormulas();
 ```
 
-#### Paso 7: Guardar tu presentación
+### Paso 7: Guardar tu presentación
 Guarda tu trabajo con un nombre de archivo y formato especificados:
 
 ```java
@@ -178,23 +189,23 @@ Asegúrate de reemplazar `YOUR_OUTPUT_DIRECTORY` con una ruta real donde desees 
 
 - **Informes financieros**: Automatiza la creación de gráficos para informes financieros mensuales o trimestrales.  
 - **Visualización de datos en educación**: Genera rápidamente diapositivas basadas en datos para enseñar conceptos complejos.  
-- **Analítica empresarial**: Mejora presentaciones con ideas dinámicas usando fórmulas calculadas.
+- **Analítica empresarial**: Mejora presentaciones con ideas dinámicas mediante fórmulas calculadas.
 
 Considera integrar Aspose.Slides en tu flujo de trabajo existente para agilizar la preparación de presentaciones, especialmente al manejar grandes conjuntos de datos que requieren actualizaciones frecuentes.
 
 ## Consideraciones de rendimiento
 
-Optimiza el rendimiento:
+Optimiza el rendimiento mediante:
 
-- Gestiona los recursos eficientemente; siempre libera los objetos `Presentation`.  
-- Minimiza la cantidad y complejidad de los gráficos en una sola diapositiva si el tiempo de procesamiento es crítico.  
-- Usa operaciones por lotes para múltiples gráficos y reducir la sobrecarga.
+- Gestión eficiente de recursos; siempre libera los objetos `Presentation`.  
+- Minimizar la cantidad y complejidad de los gráficos en una sola diapositiva si el tiempo de procesamiento es crítico.  
+- Utilizar operaciones por lotes para varios gráficos y reducir la sobrecarga.
 
 Seguir estas buenas prácticas garantiza un funcionamiento fluido, incluso en entornos con recursos limitados.
 
 ## Conclusión
 
-A estas alturas deberías estar preparado para **añadir gráficos a PowerPoint** con Aspose.Slides para Java, crear presentaciones dinámicas y aprovechar fórmulas calculadas en los gráficos. Esta poderosa biblioteca ahorra tiempo y eleva la calidad de tus visualizaciones de datos. Explora más funciones sumergiéndote en la [Documentación de Aspose](https://reference.aspose.com/slides/java/) y considera ampliar tu proyecto con capacidades adicionales de Aspose.Slides.
+Hasta ahora, deberías estar bien preparado para **create PowerPoint chart** con Aspose.Slides for Java, construir presentaciones dinámicas y aprovechar fórmulas de gráfico calculadas. Esta poderosa biblioteca ahorra tiempo y eleva la calidad de tus visualizaciones de datos. Explora más funciones sumergiéndote en la [Aspose Documentation](https://reference.aspose.com/slides/java/) y considera ampliar tu proyecto con capacidades adicionales de Aspose.Slides.
 
 ### Próximos pasos
 
@@ -205,7 +216,7 @@ A estas alturas deberías estar preparado para **añadir gráficos a PowerPoint*
 ## Preguntas frecuentes
 
 **P: ¿Cuál es la versión mínima de JDK requerida para Aspose.Slides?**  
-R: Se recomienda JDK 16 o superior por razones de compatibilidad y rendimiento.
+R: Se recomienda JDK 16 o superior para compatibilidad y rendimiento.
 
 **P: ¿Puedo usar Aspose.Slides sin una licencia?**  
 R: Sí, pero con limitaciones en la funcionalidad. Obtén una licencia temporal o completa para uso sin restricciones.
@@ -214,22 +225,22 @@ R: Sí, pero con limitaciones en la funcionalidad. Obtén una licencia temporal 
 R: Utiliza bloques try‑finally para asegurar que los recursos se liberen, como se muestra en el ejemplo de inicialización básica.
 
 **P: ¿Puedo añadir varios gráficos a la misma diapositiva?**  
-R: Por supuesto—crea y posiciona cada gráfico individualmente dentro de los límites de la diapositiva.
+R: Absolutamente—crea y posiciona cada gráfico individualmente dentro de los límites de la diapositiva.
 
 **P: ¿Es posible actualizar los datos del gráfico sin regenerar toda la presentación?**  
 R: Sí—manipula directamente el libro de datos del gráfico y recalcula las fórmulas.
 
-Explora más recursos a través de los enlaces a continuación:
-- [Documentación de Aspose](https://reference.aspose.com/slides/java/)
-- [Descargar Aspose.Slides](https://releases.aspose.com/slides/java/)
-- [Comprar una licencia](https://purchase.aspose.com/buy)
-- [Prueba gratuita](https://releases.aspose.com/slides/java/)
-- [Solicitud de licencia temporal](https://purchase.aspose.com/temporary-license/)
-- [Foro de soporte](https://forum.aspose.com/c/slides/11)
+Explora más recursos a través de los enlaces proporcionados a continuación:
+- [Aspose Documentation](https://reference.aspose.com/slides/java/)
+- [Download Aspose.Slides](https://releases.aspose.com/slides/java/)
+- [Purchase a License](https://purchase.aspose.com/buy)
+- [Free Trial](https://releases.aspose.com/slides/java/)
+- [Temporary License Request](https://purchase.aspose.com/temporary-license/)
+- [Support Forum](https://forum.aspose.com/c/slides/11)
 
 ---
 
-**Última actualización:** 2026-01-11  
+**Última actualización:** 2026-03-15  
 **Probado con:** Aspose.Slides 25.4 (JDK 16)  
 **Autor:** Aspose  
 
