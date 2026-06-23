@@ -1,59 +1,76 @@
 ---
-date: '2026-02-14'
-description: เรียนรู้วิธีการดึงไฟล์เสียงจาก PowerPoint ระหว่างการเปลี่ยนสไลด์โดยใช้
-  Aspose Slides for Java คู่มือแบบขั้นตอนนี้จะแสดงวิธีการดึงไฟล์เสียงอย่างมีประสิทธิภาพและตอบคำถามว่าดึงไฟล์เสียงจาก
-  PPTX อย่างไร
+date: '2026-06-23'
+description: เรียนรู้วิธีการดึงไฟล์เสียง PowerPoint จากการเปลี่ยนสไลด์โดยใช้ Aspose
+  Slides for Java. ดาวน์โหลดไฟล์เสียงจาก PPTX, ดึงไฟล์เสียงที่ฝังอยู่ใน PPTX และนำกลับมาใช้ใหม่ในแอป
+  Java ใด ๆ.
 keywords:
-- extract audio slide transitions
-- Aspose.Slides for Java
-- Java PowerPoint manipulation
-title: สกัดไฟล์เสียง PowerPoint จากการเปลี่ยนสไลด์ด้วย Aspose Slides
+- extract audio powerpoint
+- download audio from pptx
+- extract embedded audio pptx
+schemas:
+- author: Aspose
+  dateModified: '2026-06-23'
+  description: Learn how to extract audio PowerPoint from slide transitions using
+    Aspose Slides for Java. Download audio from PPTX, extract embedded audio PPTX
+    and reuse it in any Java app.
+  headline: Extract Audio PowerPoint from Transitions using Aspose Slides
+  type: TechArticle
+- questions:
+  - answer: Yes – iterate through `pres.getSlides()` and apply the extraction steps
+      to each slide.
+    question: Can I extract audio from all slides at once?
+  - answer: The API returns the original embedded binary data. You can save it as
+      WAV, MP3, etc., using additional audio‑processing libraries.
+    question: What audio formats does Aspose.Slides return?
+  - answer: Add a null‑check before calling `getSound()`. If the transition is absent,
+      skip extraction for that slide.
+    question: How do I handle presentations that have no transitions?
+  - answer: A trial is fine for evaluation, but a full Aspose.Slides license is needed
+      for any production deployment.
+    question: Is a commercial license required for production use?
+  - answer: Ensure the PPTX file isn’t corrupted, the transition actually contains
+      audio, and that you’re using the correct Aspose.Slides version.
+    question: What should I do if I encounter an exception while extracting?
+  type: FAQPage
+title: ดึงไฟล์เสียง PowerPoint จากการเปลี่ยนสไลด์โดยใช้ Aspose Slides
 url: /th/java/animations-transitions/extract-audio-slide-transitions-aspose-slides-java/
 weight: 1
 ---
 
-14"
-
-**Tested With:** Aspose.Slides 25.4 for Java -> "**ทดสอบด้วย:** Aspose.Slides 25.4 for Java"
-
-**Author:** Aspose -> "**ผู้เขียน:** Aspose"
-
-Then closing shortcodes.
-
-Now produce final content with all markdown unchanged.
-
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# สกัดเสียงจาก PowerPoint ในการเปลี่ยนสไลด์โดยใช้ Aspose Slides
+# แยกไฟล์ Audio PowerPoint จากการเปลี่ยนสไลด์โดยใช้ Aspose Slides
 
-หากคุณต้องการ **สกัดเสียง PowerPoint** จากการเปลี่ยนสไลด์ คุณมาถูกที่แล้ว ในบทเรียนนี้เราจะอธิบายขั้นตอนที่แน่นอนเพื่อดึงเสียงที่แนบกับการเปลี่ยนสไลด์โดยใช้ Aspose Slides for Java เมื่อเสร็จคุณจะสามารถดึงข้อมูลไบต์ของเสียงเหล่านั้นโดยโปรแกรมและนำไปใช้ในแอปพลิเคชัน Java ใดก็ได้
+หากคุณต้องการ **แยกไฟล์ audio PowerPoint** จากการเปลี่ยนสไลด์ คุณมาถูกที่แล้ว ในบทเรียนนี้เราจะอธิบายขั้นตอนที่แน่นอนเพื่อดึงเสียงที่แนบกับการเปลี่ยนสไลด์โดยใช้ Aspose Slides for Java ตอนจบคุณจะสามารถดึงข้อมูล audio เป็นไบต์และนำไปใช้ใหม่ในแอปพลิเคชัน Java ใดก็ได้
 
-## คำตอบด่วน
-- **“extract audio PowerPoint” หมายถึงอะไร?** หมายถึงการดึงข้อมูลเสียงดิบที่การเปลี่ยนสไลด์เล่น.  
-- **ต้องใช้ไลบรารีอะไร?** Aspose.Slides for Java (v25.4 or newer).  
-- **ต้องการไลเซนส์หรือไม่?** รุ่นทดลองใช้ได้สำหรับการทดสอบ; จำเป็นต้องมีไลเซนส์เชิงพาณิชย์สำหรับการใช้งานจริง.  
-- **ฉันสามารถสกัดเสียงจากสไลด์ทั้งหมดพร้อมกันได้หรือไม่?** ได้ – เพียงวนลูปผ่านการเปลี่ยนสไลด์ของแต่ละสไลด์.  
-- **รูปแบบของเสียงที่สกัดออกมาคืออะไร?** จะถูกคืนค่าเป็นอาร์เรย์ไบต์; คุณสามารถบันทึกเป็น WAV, MP3 ฯลฯ ด้วยไลบรารีเพิ่มเติม.
+## คำตอบสั้น
+- **“extract audio PowerPoint” หมายถึงอะไร?** หมายถึงการดึงข้อมูล audio ดิบที่การเปลี่ยนสไลด์เล่นออกมา  
+- **ต้องใช้ไลบรารีอะไร?** Aspose.Slides for Java (เวอร์ชัน 25.4 หรือใหม่กว่า)  
+- **ต้องมีลิขสิทธิ์หรือไม่?** สามารถใช้รุ่นทดลองสำหรับการทดสอบได้; ต้องมีลิขสิทธิ์เชิงพาณิชย์สำหรับการใช้งานจริง  
+- **สามารถแยก audio จากทุกสไลด์พร้อมกันได้หรือไม่?** ได้ – เพียงวนลูปผ่านการเปลี่ยนสไลด์ของแต่ละสไลด์  
+- **รูปแบบของ audio ที่แยกออกมาคืออะไร?** จะคืนค่าเป็นอาเรย์ไบต์; คุณสามารถบันทึกเป็น WAV, MP3 ฯลฯ ด้วยไลบรารีเพิ่มเติม
 
 ## “extract audio PowerPoint” คืออะไร?
-การสกัดเสียงจากงานนำเสนอ PowerPoint หมายถึงการเข้าถึงไฟล์เสียงที่การเปลี่ยนสไลด์เล่นและดึงออกจากแพ็กเกจ PPTX เพื่อให้คุณสามารถเก็บหรือจัดการนอก PowerPoint ได้.
+
+การแยก audio จากไฟล์ PowerPoint หมายถึงการเข้าถึงไฟล์เสียงที่การเปลี่ยนสไลด์เล่นและดึงออกจากแพคเกจ PPTX เพื่อให้คุณสามารถเก็บหรือจัดการนอก PowerPoint การดำเนินการนี้จะคืนสตรีมไบนารีดั้งเดิม ซึ่งคุณสามารถเขียนลงดิสก์, สตรีมไปยังไคลเอนต์เว็บ, หรือส่งต่อไปยัง pipeline การประมวลผลเสียงใด ๆ ที่คุณต้องการ
 
 ## ทำไมต้องใช้ Aspose Slides for Java?
-Aspose Slides มี API แบบ pure‑Java ที่ทำงานได้โดยไม่ต้องติดตั้ง Microsoft Office ให้คุณควบคุมงานนำเสนอได้เต็มที่ รวมถึงการอ่านคุณสมบัติการเปลี่ยนสไลด์และสกัดสื่อที่ฝังอยู่.
+
+Aspose Slides for Java รองรับ **รูปแบบเข้าและออกกว่า 50+ รูปแบบ**, สามารถจัดการพรีเซนเทชันขนาด **ถึง 500 MB** โดยไม่ต้องโหลดไฟล์ทั้งหมดเข้าสู่หน่วยความจำ, และทำงานบนแพลตฟอร์มใด ๆ ที่รองรับ Java 16+ เนื่องจากไม่ต้องติดตั้ง Microsoft Office คุณจึงได้การควบคุมโปรแกรมเต็มรูปแบบ, ประสิทธิภาพที่คาดเดาได้, และ API ที่สม่ำเสมอบน Windows, Linux, และ macOS
 
 ## ข้อกำหนดเบื้องต้น
-- **Aspose.Slides for Java** – Version 25.4 or later  
+- **Aspose.Slides for Java** – Version 25.4 หรือใหม่กว่า  
 - **JDK 16+**  
-- Maven หรือ Gradle สำหรับการจัดการ dependency  
-- ความรู้พื้นฐานของ Java และทักษะการจัดการไฟล์
+- Maven หรือ Gradle สำหรับจัดการ dependencies  
+- ความรู้พื้นฐานด้าน Java และการจัดการไฟล์
 
 ## การตั้งค่า Aspose.Slides for Java
-รวมไลบรารีในโปรเจกต์ของคุณโดยใช้ Maven หรือ Gradle.
+เพิ่มไลบรารีในโปรเจกต์ของคุณโดยใช้ Maven หรือ Gradle
 
-**Maven**
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -63,20 +80,21 @@ Aspose Slides มี API แบบ pure‑Java ที่ทำงานได้
 </dependency>
 ```
 
-**Gradle**
+**Gradle**  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-สำหรับการตั้งค่าด้วยตนเอง ให้ดาวน์โหลดเวอร์ชันล่าสุดจาก [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+สำหรับการตั้งค่าแบบแมนนวล ดาวน์โหลดเวอร์ชันล่าสุดจาก [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/)
 
-### การรับไลเซนส์
-- **Free Trial** – สำรวจคุณลักษณะหลัก.  
-- **Temporary License** – มีประโยชน์สำหรับโครงการระยะสั้น.  
-- **Full License** – จำเป็นสำหรับการใช้งานเชิงพาณิชย์.
+### การรับลิขสิทธิ์
+- **Free Trial** – ทดลองฟีเจอร์หลัก  
+- **Temporary License** – เหมาะสำหรับโครงการระยะสั้น  
+- **Full License** – จำเป็นสำหรับการใช้งานเชิงพาณิชย์
 
 #### การเริ่มต้นและตั้งค่าเบื้องต้น
-เมื่อไลบรารีพร้อมใช้งาน ให้สร้างอินสแตนซ์ของ `Presentation`:
+คลาส `Presentation` เป็นอ็อบเจ็กต์ระดับบนของ Aspose.Slides ที่แทนไฟล์ PowerPoint ทั้งไฟล์ในหน่วยความจำ เมื่อไลบรารีพร้อมแล้ว ให้สร้างอินสแตนซ์ของ `Presentation`:
+
 ```java
 import com.aspose.slides.Presentation;
 
@@ -88,10 +106,11 @@ try (Presentation pres = new Presentation(presName)) {
 }
 ```
 
-## วิธีสกัดเสียงจากการเปลี่ยนสไลด์ PPTX
-ด้านล่างเป็นขั้นตอนแบบละเอียดที่แสดง **วิธีสกัดเสียง** จากการเปลี่ยนสไลด์.
+## วิธีแยก audio จากการเปลี่ยนสไลด์ PPTX
 
-### ขั้นตอนที่ 1: โหลด Presentation
+โหลดพรีเซนเทชัน, ค้นหาการเปลี่ยนสไลด์ของแต่ละสไลด์, แล้วดึงไบต์เสียงที่ฝังอยู่ในไม่กี่บรรทัดของโค้ด Java ขั้นตอนต่อไปนี้สรุป workflow ทั้งหมด ตั้งแต่การเปิดไฟล์จนถึงการบันทึก audio ที่แยกออกไปยังดิสก์ และทำงานกับไฟล์ PPTX ใด ๆ ไม่ว่าจะมีจำนวนสไลด์เท่าใดโดยไม่ต้องใช้ Microsoft PowerPoint
+
+### ขั้นตอนที่ 1: โหลดพรีเซนเทชัน
 ```java
 import com.aspose.slides.Presentation;
 
@@ -111,13 +130,17 @@ ISlide slide = pres.getSlides().get_Item(0);  // Accessing first slide (index 0)
 ```
 
 ### ขั้นตอนที่ 3: ดึงอ็อบเจ็กต์ Transition
+อินเทอร์เฟซ `ITransition` แสดงแอนิเมชันที่เกิดขึ้นเมื่อย้ายไปยังสไลด์ มันมีเมธอด `getSound()` ที่คืนสตรีม audio ดิบหากมีการแนบเสียง
+
 ```java
 import com.aspose.slides.ISlideShowTransition;
 
 ISlideShowTransition transition = slide.getSlideShowTransition();
 ```
 
-### ขั้นตอนที่ 4: สกัดเสียงเป็นอาร์เรย์ไบต์
+### ขั้นตอนที่ 4: แยกเสียงเป็นอาเรย์ไบต์
+อ็อบเจ็กต์ `ISound` ที่คืนจาก `getSound()` มีเมธอด `getData()` ที่ให้ audio เป็น `byte[]` คุณสามารถเขียนอาเรย์นี้ลงไฟล์โดยตรงหรือส่งต่อให้ไลบรารีอื่นเพื่อแปลงรูปแบบ
+
 ```java
 byte[] audio = transition.getSound().getBinaryData();
 
@@ -125,60 +148,67 @@ byte[] audio = transition.getSound().getBinaryData();
 ```
 
 **เคล็ดลับสำคัญ**
-- ควรห่อ `Presentation` ด้วยบล็อก try‑with‑resources เพื่อให้แน่ใจว่าปล่อยทรัพยากรอย่างถูกต้อง.  
-- ไม่ใช่ทุกสไลด์มีการเปลี่ยน; ตรวจสอบ `transition.getSound()` ว่าเป็น `null` ก่อนทำการสกัด.
+- ควรห่อ `Presentation` ด้วย `try‑with‑resources` เพื่อให้แน่ใจว่าปิดอย่างถูกต้อง  
+- ไม่ใช่ทุกสไลด์จะมีการเปลี่ยนสไลด์; ตรวจสอบ `transition.getSound()` ว่าเป็น `null` ก่อนทำการแยก
 
-## การประยุกต์ใช้งานจริง
-การสกัดเสียงจากการเปลี่ยนสไลด์เปิดโอกาสการใช้งานจริงหลายอย่าง:
+## การใช้งานจริง
+การแยก audio จากการเปลี่ยนสไลด์เปิดโอกาสหลายอย่างในโลกจริง:
 
-1. **Brand Consistency** – แทนที่เสียงการเปลี่ยนทั่วไปด้วยจิงเกิ้ลของบริษัทคุณ.  
-2. **Dynamic Presentations** – ส่งเสียงที่สกัดไปยังเซิร์ฟเวอร์สื่อสำหรับการสตรีมสดของสไลด์.  
-3. **Automation Pipelines** – สร้างเครื่องมือที่ตรวจสอบงานนำเสนอเพื่อหาสัญญาณเสียงที่หายไปหรือไม่ต้องการ.
+1. **ความสอดคล้องของแบรนด์** – แทนที่เสียงการเปลี่ยนสไลด์ทั่วไปด้วยจิงเกิลของบริษัทคุณ  
+2. **พรีเซนเทชันแบบไดนามิก** – ส่ง audio ที่แยกออกไปยัง media server สำหรับการสตรีมสดของสไลด์เด็ค  
+3. **Pipeline อัตโนมัติ** – สร้างเครื่องมือที่ตรวจสอบพรีเซนเทชันสำหรับเสียงที่หายไปหรือไม่ต้องการ
 
-## ข้อพิจารณาด้านประสิทธิภาพ
-- **Resource Management** – ปล่อยอ็อบเจ็กต์ `Presentation` อย่างทันท่วงที.  
-- **Memory Usage** – ชุดสไลด์ขนาดใหญ่อาจใช้หน่วยความจำมาก; ประมวลผลสไลด์แบบต่อเนื่องหากจำเป็น.
+## พิจารณาด้านประสิทธิภาพ
+- **การจัดการทรัพยากร** – ปิดอ็อบเจ็กต์ `Presentation` ทันทีหลังใช้งาน  
+- **การใช้หน่วยความจำ** – พรีเซนเทชันขนาดใหญ่ใช้หน่วยความจำมาก; ควรประมวลผลสไลด์แบบต่อเนื่องหากจำเป็น
 
-## ปัญหาและวิธีแก้ไขทั่วไป
+## ปัญหาทั่วไป & วิธีแก้
 | ปัญหา | วิธีแก้ |
 |-------|----------|
-| `transition.getSound()` returns `null` | ตรวจสอบว่าสไลด์มีการตั้งค่าเสียงการเปลี่ยนจริงหรือไม่. |
-| OutOfMemoryError on large files | ประมวลผลสไลด์ทีละหนึ่งและปล่อยทรัพยากรหลังการสกัดแต่ละครั้ง. |
-| Audio format not recognized | อาร์เรย์ไบต์เป็นข้อมูลดิบ; ใช้ไลบรารีเช่น **javax.sound.sampled** เพื่อเขียนเป็นรูปแบบมาตรฐาน (เช่น WAV). |
+| `transition.getSound()` คืนค่า `null` | ตรวจสอบว่ามีการตั้งค่าเสียงสำหรับการเปลี่ยนสไลด์บนสไลด์นั้นจริงหรือไม่ |
+| OutOfMemoryError กับไฟล์ขนาดใหญ่ | ประมวลผลสไลด์ทีละสไลด์และปล่อยทรัพยากรหลังการแยกแต่ละครั้ง |
+| ไม่รู้จักรูปแบบ audio | อาเรย์ไบต์เป็นข้อมูลดิบ; ใช้ไลบรารีเช่น **javax.sound.sampled** เพื่อบันทึกเป็นรูปแบบมาตรฐาน (เช่น WAV) |
 
 ## คำถามที่พบบ่อย
 
-**ถาม: ฉันสามารถสกัดเสียงจากสไลด์ทั้งหมดพร้อมกันได้หรือไม่?**  
-A: ได้ – วนลูปผ่าน `pres.getSlides()` และใช้ขั้นตอนการสกัดกับแต่ละสไลด์.
+**ถาม: สามารถแยก audio จากทุกสไลด์พร้อมกันได้หรือไม่?**  
+ตอบ: ได้ – วนลูปผ่าน `pres.getSlides()` แล้วทำตามขั้นตอนการแยกสำหรับแต่ละสไลด์
 
-**ถาม: Aspose.Slides คืนรูปแบบเสียงอะไรบ้าง?**  
-A: API คืนข้อมูลไบนารีที่ฝังอยู่เดิม คุณสามารถบันทึกเป็น WAV, MP3 ฯลฯ ด้วยไลบรารีการประมวลผลเสียงเพิ่มเติม.
+**ถาม: Aspose.Slides คืนรูปแบบ audio อะไรบ้าง?**  
+ตอบ: API คืนข้อมูลไบนารีดั้งเดิมที่ฝังอยู่ คุณสามารถบันทึกเป็น WAV, MP3 ฯลฯ ด้วยไลบรารีประมวลผล audio เพิ่มเติม
 
-**ถาม: จะจัดการกับงานนำเสนอที่ไม่มีการเปลี่ยนสไลด์อย่างไร?**  
-A: เพิ่มการตรวจสอบ `null` ก่อนเรียก `getSound()` หากไม่มีการเปลี่ยนสไลด์ ให้ข้ามการสกัดสำหรับสไลด์นั้น.
+**ถาม: จะจัดการกับพรีเซนเทชันที่ไม่มีการเปลี่ยนสไลด์อย่างไร?**  
+ตอบ: เพิ่มการตรวจสอบ `null` ก่อนเรียก `getSound()` หากไม่มีการเปลี่ยนสไลด์ ให้ข้ามการแยกสำหรับสไลด์นั้น
 
-**ถาม: จำเป็นต้องมีไลเซนส์เชิงพาณิชย์สำหรับการใช้งานในผลิตภัณฑ์หรือไม่?**  
-A: รุ่นทดลองใช้ได้สำหรับการประเมิน, แต่ต้องมีไลเซนส์เต็มของ Aspose.Slides สำหรับการใช้งานในผลิตภัณฑ์.
+**ถาม: ต้องใช้ลิขสิทธิ์เชิงพาณิชย์สำหรับการใช้งานจริงหรือไม่?**  
+ตอบ: รุ่นทดลองใช้ได้สำหรับการประเมินผล แต่ต้องมีลิขสิทธิ์ Aspose.Slides เต็มรูปแบบสำหรับการใช้งานในผลิตภัณฑ์
 
-**ถาม: ควรทำอย่างไรหากพบข้อยกเว้นขณะสกัด?**  
-A: ตรวจสอบว่าไฟล์ PPTX ไม่เสียหาย, การเปลี่ยนสไลด์มีเสียงจริง, และคุณใช้เวอร์ชัน Aspose.Slides ที่ถูกต้อง.
+**ถาม: หากเกิดข้อยกเว้นขณะแยก audio ควรทำอย่างไร?**  
+ตอบ: ตรวจสอบว่าไฟล์ PPTX ไม่เสียหาย, การเปลี่ยนสไลด์มี audio แนบอยู่จริง, และคุณใช้เวอร์ชัน Aspose.Slides ที่ถูกต้อง
 
 ## แหล่งข้อมูล
-- **Documentation**: [Aspose.Slides Java Reference](https://reference.aspose.com/slides/java/)
-- **Download**: [Latest Releases](https://releases.aspose.com/slides/java/)
-- **Purchase**: [Buy Aspose.Slides](https://purchase.aspose.com/buy)
-- **Free Trial**: [Get Started with Aspose](https://releases.aspose.com/slides/java/)
-- **Temporary License**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
-- **Support**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
+- **เอกสาร**: [Aspose.Slides Java Reference](https://reference.aspose.com/slides/java/)  
+- **ดาวน์โหลด**: [Latest Releases](https://releases.aspose.com/slides/java/)  
+- **ซื้อ**: [Buy Aspose.Slides](https://purchase.aspose.com/buy)  
+- **ทดลองใช้ฟรี**: [Get Started with Aspose](https://releases.aspose.com/slides/java/)  
+- **ลิขสิทธิ์ชั่วคราว**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **สนับสนุน**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
 ## สรุป
-ตอนนี้คุณมีวิธีที่สมบูรณ์และพร้อมใช้งานในผลิตภัณฑ์สำหรับ **สกัดเสียง PowerPoint** จากการเปลี่ยนสไลด์โดยใช้ Aspose Slides for Java ไม่ว่าคุณจะทำความสะอาดเด็คเก่า, นำเสียงไปใช้ใหม่, หรือสร้างเครื่องมือการตรวจสอบอัตโนมัติ ขั้นตอนข้างต้นให้คุณควบคุมข้อมูลเสียงที่ฝังอยู่ได้เต็มที่.
+คุณมีวิธีที่สมบูรณ์และพร้อมใช้งานสำหรับ **การแยกไฟล์ audio PowerPoint** จากการเปลี่ยนสไลด์โดยใช้ Aspose Slides for Java ไม่ว่าจะเป็นการทำความสะอาดเด็คเก่า, การนำ audio ไปใช้ใหม่, หรือการสร้างเครื่องมือตรวจสอบอัตโนมัติ ขั้นตอนข้างต้นให้คุณควบคุมข้อมูลเสียงที่ฝังอยู่ได้อย่างเต็มที่
 
 ---
 
-**อัปเดตล่าสุด:** 2026-02-14  
-**ทดสอบด้วย:** Aspose.Slides 25.4 for Java  
-**ผู้เขียน:** Aspose
+**Last Updated:** 2026-06-23  
+**Tested With:** Aspose.Slides 25.4 for Java  
+**Author:** Aspose
+
+## บทเรียนที่เกี่ยวข้อง
+
+- [Extract Audio from PowerPoint Hyperlinks Using Aspose.Slides for Java: A Complete Guide](/slides/java/images-multimedia/extract-audio-powerpoint-hyperlinks-asposeslides-java/)
+- [How to Extract Audio from PowerPoint Timelines Using Aspose.Slides Java: A Step-by-Step Guide](/slides/java/images-multimedia/extract-audio-powerpoint-timelines-aspose-slides-java/)
+- [Add Slide Transitions – Aspose.Slides for Java Tutorials](/slides/java/animations-transitions/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
