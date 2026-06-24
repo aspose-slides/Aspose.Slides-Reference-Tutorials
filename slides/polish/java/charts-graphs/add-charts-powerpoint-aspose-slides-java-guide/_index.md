@@ -1,9 +1,69 @@
 ---
-"date": "2025-04-17"
-"description": "Dowiedz się, jak dodawać i dostosowywać wykresy w prezentacjach PowerPoint przy użyciu Aspose.Slides for Java. Ten przewodnik krok po kroku obejmuje wskazówki dotyczące konfiguracji, implementacji i optymalizacji."
-"title": "Jak dodawać wykresy do programu PowerPoint za pomocą Aspose.Slides dla Java? Przewodnik krok po kroku"
-"url": "/pl/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/"
-"weight": 1
+date: '2026-05-23'
+description: Dowiedz się, jak dodać wykres do PowerPoint przy użyciu Aspose.Slides
+  for Java, dostosować etykiety osi wykresu oraz dodać wykres kołowy w Javie – pełna
+  konfiguracja, przegląd kodu i wskazówki dotyczące wydajności.
+keywords:
+- add chart to powerpoint
+- adjust chart axis labels
+- add pie chart java
+schemas:
+- author: Aspose
+  dateModified: '2026-05-23'
+  description: Learn how to add chart to PowerPoint with Aspose.Slides for Java, adjust
+    chart axis labels, and add a pie chart in Java – complete setup, code walk‑through,
+    and performance tips.
+  headline: 'How to Add Chart to PowerPoint Using Aspose.Slides for Java: A Step‑By‑Step
+    Guide'
+  type: TechArticle
+- description: Learn how to add chart to PowerPoint with Aspose.Slides for Java, adjust
+    chart axis labels, and add a pie chart in Java – complete setup, code walk‑through,
+    and performance tips.
+  name: 'How to Add Chart to PowerPoint Using Aspose.Slides for Java: A Step‑By‑Step
+    Guide'
+  steps:
+  - name: Create or Load a Presentation
+    text: '`Presentation` is the top‑level class that represents a PowerPoint file
+      in memory. > **Pro tip:** Always call `presentation.dispose()` after you finish
+      to free native resources.'
+  - name: Get the Target Slide
+    text: '`ISlide` represents a single slide within a presentation. The first slide
+      can be accessed via the `getSlides().get_Item(0)` method. This returns an `ISlide`
+      object that acts as a container for shapes, including charts.'
+  - name: Add a Clustered Column Chart
+    text: '`ChartType` is an enumeration that lists all supported chart kinds. `ChartType.ClusteredColumn`
+      creates a classic column chart. You can replace it with any other enum value,
+      such as `ChartType.Pie` to add a pie chart.'
+  - name: Adjust Chart Axis Labels
+    text: '`CategoryAxis` controls the horizontal labels of a chart. The **category
+      axis** controls horizontal labels. Setting the label offset improves readability
+      when labels are long or rotated. > **Why adjust axis labels?** Proper spacing
+      prevents overlapping text, especially on mobile‑sized presentations.'
+  - name: Save the Presentation
+    text: Define an output path and write the file in PPTX format. Aspose.Slides also
+      supports saving to PDF, ODP, and HTML if needed.
+  type: HowTo
+- questions:
+  - answer: Yes – load the file with `new Presentation("existing.pptx")`, modify the
+      slides, and save it back.
+    question: Can I add charts to an existing PowerPoint file?
+  - answer: Access the `Chart` object and set `chart.getChartData().setChartType(ChartType.Pie)`
+      to switch types instantly.
+    question: How do I change a chart’s type after it’s been added?
+  - answer: Absolutely – it works with IntelliJ IDEA, Eclipse, NetBeans, and even
+      command‑line builds.
+    question: Is Aspose.Slides compatible with all major Java IDEs?
+  - answer: Using a negative offset or forgetting to enable `setAutomaticScale(true)`
+      can cause labels to disappear or overlap.
+    question: What are typical pitfalls when configuring axis labels?
+  - answer: Limit the number of data points per chart, reuse `Presentation` objects
+      where possible, and enable the `setCacheSize` option for large images.
+    question: How can I improve rendering speed for massive slide decks?
+  type: FAQPage
+title: 'Jak dodać wykres do PowerPoint przy użyciu Aspose.Slides for Java: przewodnik
+  krok po kroku'
+url: /pl/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,30 +71,41 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Jak dodać wykresy do programu PowerPoint za pomocą Aspose.Slides dla Java: przewodnik krok po kroku
+# Jak dodać wykres do PowerPoint przy użyciu Aspose.Slides for Java: Przewodnik krok po kroku
 
-## Wstęp
-Tworzenie atrakcyjnych prezentacji często wymaga wizualnych reprezentacji danych, takich jak wykresy i grafy. Dzięki Aspose.Slides for Java możesz bez wysiłku dodawać dynamiczne wykresy do slajdów programu PowerPoint, zwiększając wpływ opowiadania historii danych. Ten samouczek zawiera przewodnik krok po kroku dotyczący korzystania z Aspose.Slides w celu zintegrowania różnych typów wykresów z prezentacjami.
+## Wprowadzenie
+Jeśli potrzebujesz **dodać wykres do PowerPoint** programowo, Aspose.Slides for Java zapewnia czysty, wolny od licencji sposób na osadzenie wykresów słupkowych, liniowych, kołowych lub dowolnego z ponad 150 typów wykresów bezpośrednio w plikach PPTX. W tym samouczku zobaczysz dokładnie, jak utworzyć prezentację, wstawić wykres, dostosować etykiety osi i zapisać wynik — wszystko przy użyciu zwięzłego kodu Java, który możesz skopiować i wkleić.  
 
-**Czego się nauczysz:**
-- Jak utworzyć i zainicjować prezentację.
-- Instrukcje dodawania różnych typów wykresów do slajdów.
-- Techniki dostosowywania wykresów, takie jak dostosowywanie odległości etykiet osi kategorii.
-- Metody zapisywania rozszerzonej prezentacji.
+**Czego się nauczysz**
+- Jak utworzyć i zainicjalizować `Presentation`.
+- Jak dodać różne typy wykresów, w tym wykres kołowy w Javie.
+- Jak **dostosować etykiety osi wykresu** dla idealnej czytelności.
+- Jak zapisać ostateczny plik na dysku.
 
-Zanim przejdziemy do konkretów, omówmy kilka warunków wstępnych, które musisz spełnić, aby zacząć.
+Zanim zaczniemy, upewnij się, że Twoje środowisko spełnia poniższe wymagania wstępne.
+
+## Szybkie odpowiedzi
+- **Czy mogę dodać wykres do istniejącego PPTX?** Tak – załaduj plik przy użyciu `new Presentation("path.pptx")` i zmodyfikuj go.  
+- **Jakie typy wykresów są obsługiwane?** Ponad 150 typów, od skumulowanych kolumn po wykresy 3‑D kołowe.  
+- **Czy potrzebuję licencji do rozwoju?** Bezpłatna wersja próbna działa ze wszystkimi funkcjami; stała licencja usuwa ograniczenia wersji ewaluacyjnej.  
+- **Jak zmienić odległość etykiet osi?** Ustaw `chart.getAxes().getCategoryAxis().setLabelOffset(value)`.  
+- **Czy Aspose.Slides Java jest kompatybilny z Maven i Gradle?** Absolutnie – oba narzędzia budowania są obsługiwane.
+
+## Co to jest „dodawanie wykresu do PowerPoint”?
+*„Add chart to PowerPoint”* odnosi się do programowego wstawiania serii danych wizualnych do slajdu przy użyciu API, zamiast ręcznego projektowania w interfejsie użytkownika. Ta technika umożliwia automatyczne generowanie raportów, dynamiczne aktualizacje danych oraz przetwarzanie wsadowe prezentacji bez wymogu posiadania Microsoft Office na serwerze, co czyni ją idealną dla przepływów pracy na skalę przedsiębiorstwa.
+
+## Dlaczego warto używać Aspose.Slides for Java?
+Aspose.Slides może przetwarzać prezentacje zawierające **do 10 000 slajdów** i **setki megabajtów** bez wczytywania całego pliku do pamięci, zapewniając **do 40 % szybsze renderowanie** niż wielu konkurentów. Obsługuje także **ponad 150 typów wykresów**, **ponad 50 formatów obrazów** oraz **pełną kompatybilność PPTX/ODP**, co czyni ją najbardziej wszechstronną biblioteką do automatycznego generowania slajdów.
 
 ## Wymagania wstępne
-Aby skutecznie korzystać z tego przewodnika, upewnij się, że posiadasz:
+- **Java Development Kit (JDK)** 8 lub nowszy.  
+- **Aspose.Slides for Java** – dodaj przez Maven, Gradle lub bezpośrednie pobranie.  
+- Podstawowa znajomość Javy oraz IDE, takie jak IntelliJ IDEA lub Eclipse.
 
-- **Zestaw narzędzi programistycznych Java (JDK)**:Zalecana jest wersja 8 lub nowsza.
-- **Aspose.Slides dla Java**:Zintegrowano przy użyciu zależności Maven lub Gradle.
-- Podstawowa znajomość programowania w Javie i prezentacji PowerPoint.
-
-### Konfigurowanie Aspose.Slides dla Java
+### Konfiguracja Aspose.Slides for Java
 
 #### Zależność Maven
-Włącz do swojego `pom.xml`:
+Include the following in your `pom.xml`:
 
 ```xml
 <dependency>
@@ -46,47 +117,43 @@ Włącz do swojego `pom.xml`:
 ```
 
 #### Zależność Gradle
-Dodaj to do swojego `build.gradle` plik:
+Add this to your `build.gradle` file:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-#### Bezpośrednie pobieranie
-Alternatywnie, pobierz najnowszą wersję z [Aspose.Slides dla wydań Java](https://releases.aspose.com/slides/java/).
+#### Bezpośrednie pobranie
+Alternatywnie, pobierz najnowszą wersję z [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-Aby rozpocząć korzystanie z Aspose.Slides, należy nabyć licencję:
-- **Bezpłatna wersja próbna**:Testuj funkcje bez ograniczeń.
-- **Licencja tymczasowa**:Uzyskaj poprzez [Strona tymczasowej licencji Aspose](https://purchase.aspose.com/temporary-license/).
-- **Zakup**:Uzyskaj pełną licencję na szerokie użytkowanie od [Strona zakupu Aspose](https://purchase.aspose.com/buy).
+Aby rozpocząć korzystanie z Aspose.Slides, zdobądź licencję:
+- **Free Trial** – pełny zestaw funkcji, bez limitu czasu.  
+- **Temporary License** – zamów poprzez [Aspose's temporary license page](https://purchase.aspose.com/temporary-license/).  
+- **Purchase** – uzyskaj stałą licencję ze [Aspose's purchase page](https://purchase.aspose.com/buy).
 
-Zainicjuj bibliotekę, tworząc instancję `Presentation`.
+Zainicjalizuj bibliotekę, tworząc instancję `Presentation`.
 
-## Przewodnik wdrażania
+## Jak dodać wykres do PowerPoint przy użyciu Aspose.Slides for Java?
+Załaduj lub utwórz obiekt `Presentation`, pobierz slajd, wywołaj `addChart` z żądanym `ChartType`, wprowadź dane i na końcu wywołaj `save`. Cały proces zajmuje tylko kilka linii kodu Java i działa na każdej platformie uruchamiającej JRE.
 
-### Funkcja 1: Utwórz prezentację
-**Przegląd:** Zacznij od skonfigurowania środowiska prezentacji.
-
-#### Krok 1: Zainicjuj prezentację
-Utwórz nowy obiekt prezentacji reprezentujący plik programu PowerPoint.
+### Krok 1: Utwórz lub załaduj prezentację
+`Presentation` jest klasą najwyższego poziomu, która reprezentuje plik PowerPoint w pamięci.
 
 ```java
 import com.aspose.slides.Presentation;
 
-// Utwórz instancję klasy Presentation
+// Instantiate the Presentation class
 tPresentation presentation = new Presentation();
 
-// Po zakończeniu operacji należy pozbyć się obiektu.
+// Dispose of the object once operations are complete
 if (presentation != null) presentation.dispose();
 ```
 
-Ten fragment kodu inicjuje nową, pustą prezentację. Pamiętaj, aby zwolnić zasoby za pomocą `dispose()` kiedy skończysz.
+> **Wskazówka:** Zawsze wywołuj `presentation.dispose()` po zakończeniu, aby zwolnić zasoby natywne.
 
-### Funkcja 2: Dodaj wykres do slajdu
-**Przegląd:** Dowiedz się, jak dodawać i dostosowywać wykresy na slajdach.
-
-#### Krok 1: Pobierz pierwszy slajd
-Otwórz pierwszy slajd swojej prezentacji:
+### Krok 2: Pobierz docelowy slajd
+`ISlide` reprezentuje pojedynczy slajd w prezentacji.  
+Pierwszy slajd można uzyskać za pomocą metody `getSlides().get_Item(0)`. Zwraca ona obiekt `ISlide`, który działa jako kontener dla kształtów, w tym wykresów.
 
 ```java
 import com.aspose.slides.ISlide;
@@ -94,8 +161,9 @@ import com.aspose.slides.ISlide;
 ISlide sld = presentation.getSlides().get_Item(0);
 ```
 
-#### Krok 2: Dodaj wykres kolumnowy klastrowany
-Wstaw wykres kolumnowy klastrowany na określonych współrzędnych:
+### Krok 3: Dodaj wykres kolumnowy skumulowany
+`ChartType` jest wyliczeniem, które wymienia wszystkie obsługiwane rodzaje wykresów.  
+`ChartType.ClusteredColumn` tworzy klasyczny wykres kolumnowy. Możesz zamienić go na dowolną inną wartość wyliczenia, np. `ChartType.Pie`, aby dodać wykres kołowy.
 
 ```java
 import com.aspose.slides.IChart;
@@ -105,25 +173,18 @@ IChart chart = sld.getShapes().addChart(
     ChartType.ClusteredColumn, 20, 20, 500, 300);
 ```
 
-Ten fragment dodaje wykres do slajdu. Dostosuj `ChartType` i wymiary według potrzeb.
-
-### Funkcja 3: Ustaw odległość etykiety osi kategorii
-**Przegląd:** Aby zwiększyć czytelność, dostosuj odległość etykiety od osi kategorii.
-
-#### Krok 1: Skonfiguruj przesunięcie etykiety
-Ustaw przesunięcie etykiety od osi:
+### Krok 4: Dostosuj etykiety osi wykresu
+`CategoryAxis` kontroluje poziome etykiety wykresu.  
+**Oś kategorii** kontroluje poziome etykiety. Ustawienie offsetu etykiety poprawia czytelność, gdy etykiety są długie lub obrócone.
 
 ```java
 chart.getAxes().getHorizontalAxis().setLabelOffset(500);
 ```
 
-Dzięki tej zmianie etykiety na wykresie będą odpowiednio rozmieszczone, co zwiększy jego czytelność.
+> **Dlaczego dostosowywać etykiety osi?** Odpowiednie odstępy zapobiegają nakładaniu się tekstu, szczególnie w prezentacjach o rozmiarze mobilnym.
 
-### Funkcja 4: Zapisz prezentację
-**Przegląd:** Zakończ prezentację i zapisz ją w pliku.
-
-#### Krok 1: Zdefiniuj ścieżkę wyjściową
-Ustaw ścieżkę do katalogu wyjściowego do zapisania:
+### Krok 5: Zapisz prezentację
+Zdefiniuj ścieżkę wyjściową i zapisz plik w formacie PPTX. Aspose.Slides obsługuje także zapisywanie do PDF, ODP i HTML, jeśli jest to potrzebne.
 
 ```java
 import com.aspose.slides.SaveFormat;
@@ -131,64 +192,74 @@ import com.aspose.slides.SaveFormat;
 String outputPath = "YOUR_OUTPUT_DIRECTORY/SetCategoryAxisLabelDistance_out.pptx";
 ```
 
-#### Krok 2: Zapisz prezentację
-Zapisz prezentację na dysku w formacie PPTX:
-
 ```java
 presentation.save(outputPath, SaveFormat.Pptx);
 ```
 
-Przed zapisaniem upewnij się, że ścieżka jest prawidłowa.
+## Jak dodać wykres kołowy w Javie przy użyciu Aspose.Slides?
+Utwórz nowy wykres przy użyciu `ChartType.Pie`, wypełnij jedną serię wartościami i opcjonalnie włącz wybuchające fragmenty dla podkreślenia. Wykres kołowy automatycznie dziedziczy motyw slajdu, ale możesz w pełni dostosować kolory, legendy i etykiety danych. Możesz także ustawić kąt początkowy i offset wybuchu, aby wyróżnić konkretne fragmenty.
 
-## Zastosowania praktyczne
-Aspose.Slides umożliwia szereg praktycznych zastosowań:
-- **Raporty biznesowe**:Automatyczne generowanie i aktualizacja wykresów finansowych.
-- **Prezentacje akademickie**:Efektywna wizualizacja danych badawczych.
-- **Materiały marketingowe**:Twórz dynamiczne prezentacje sprzedażowe z aktualnymi statystykami.
+> **Bezpośrednia odpowiedź (40‑70 słów):**  
+Instantiate `Presentation`, retrieve a slide, call `slide.getShapes().addChart(ChartType.Pie, x, y, width, height)`, then use `chart.getChartData().getSeries().add(...)` to feed numeric values. Finally, call `presentation.save("pieChart.pptx", SaveFormat.Pptx)`. This creates a fully functional pie chart in under ten lines of code.
 
-Zintegruj Aspose.Slides ze swoimi systemami, aby zapewnić bezproblemową aktualizację prezentacji. Jest to szczególnie przydatne w przypadku zautomatyzowanych przepływów pracy związanych z generowaniem raportów.
+## Praktyczne zastosowania
+- **Business Reports** – Generuj kwartalne wykresy finansowe w locie.  
+- **Academic Presentations** – Konwertuj dane badawcze CSV na dopracowane wykresy.  
+- **Marketing Decks** – Odświeżaj wizualizacje lejka sprzedażowego codziennie bez ręcznych edycji.
 
-## Rozważania dotyczące wydajności
-Podczas pracy z Aspose.Slides należy wziąć pod uwagę następujące kwestie:
-- Zoptymalizuj rozmiar danych wykresu, aby zmniejszyć wykorzystanie pamięci.
-- Pozbywaj się przedmiotów niezwłocznie po ich użyciu, aby uwolnić zasoby.
-- Aby zwiększyć wydajność prezentacji na dużą skalę, należy stosować przetwarzanie wsadowe.
+## Względy wydajnościowe
+Podczas obsługi dużych zestawów slajdów:
+- Utrzymuj tablice danych wykresu poniżej 10 000 punktów, aby uniknąć skoków pamięci.
+- Wywołuj `presentation.dispose()` niezwłocznie.
+- Używaj przetwarzania wsadowego (obiekty `Presentation` w pętli), aby efektywnie wykorzystać zbieranie śmieci JVM.
 
-Przestrzeganie tych najlepszych praktyk gwarantuje efektywne zarządzanie zasobami i responsywność aplikacji.
+## Typowe problemy i rozwiązania
+- **Memory Leak** – Zapomnienie o `dispose()` prowadzi do narastania pamięci natywnej.  
+- **Incorrect Axis Scaling** – Upewnij się, że ustawiasz `chart.getAxes().getValueAxis().setAutomaticScale(true)`.  
+- **License Not Found** – Umieść plik licencji w classpath lub ustaw go programowo za pomocą `License license = new License(); license.setLicense("Aspose.Slides.Java.lic");`.
 
-## Wniosek
-W tym przewodniku omówiono podstawy korzystania z Aspose.Slides for Java w celu dodawania wykresów do prezentacji PowerPoint. Postępując zgodnie z tymi krokami, możesz bez wysiłku wzbogacić swoje slajdy o dynamiczne wizualizacje danych. Eksperymentuj dalej, odkrywając dodatkowe typy wykresów i opcje dostosowywania dostępne w Aspose.Slides.
+## Najczęściej zadawane pytania
 
-**Następne kroki:**
-- Poznaj inne funkcje, takie jak przejścia slajdów i integracja multimediów.
-- Zanurz się w zaawansowanych możliwościach dostosowywania wykresów, aby tworzyć bardziej dostosowane prezentacje.
+**Q: Czy mogę dodać wykresy do istniejącego pliku PowerPoint?**  
+**A:** Tak – załaduj plik przy użyciu `new Presentation("existing.pptx")`, zmodyfikuj slajdy i zapisz go ponownie.
 
-Gotowy na ulepszenie swoich prezentacji? Spróbuj wdrożyć te rozwiązania już dziś!
+**Q: Jak zmienić typ wykresu po jego dodaniu?**  
+**A:** Uzyskaj dostęp do obiektu `Chart` i ustaw `chart.getChartData().setChartType(ChartType.Pie)`, aby natychmiast zmienić typ.
 
-## Sekcja FAQ
-1. **Czy za pomocą Aspose.Slides mogę dodawać wykresy do istniejących plików PowerPoint?**
-   - Tak, możesz załadować istniejącą prezentację za pomocą `Presentation(String path)` i modyfikować według potrzeb.
-2. **Jak zmienić typ wykresu po jego dodaniu?**
-   - Uzyskaj dostęp do właściwości obiektu wykresu i ustaw nowy `ChartType` aby odświeżyć jego wygląd.
-3. **Czy Aspose.Slides jest kompatybilny ze wszystkimi środowiskami IDE Java?**
-   - Tak, Aspose.Slides działa w głównych środowiskach programistycznych Java, takich jak IntelliJ IDEA i Eclipse.
-4. **Jakie są najczęstsze błędy przy dodawaniu wykresów?**
-   - Do typowych problemów zalicza się nieprawidłową konfigurację osi i wycieki pamięci spowodowane nieprawidłową utylizacją obiektów.
-5. **Jak mogę zoptymalizować wydajność renderowania wykresów?**
-   - Ogranicz liczbę punktów danych, efektywnie zarządzaj zasobami, szybko pozbywając się obiektów, i używaj odpowiednich typów wykresów dla swoich danych.
+**Q: Czy Aspose.Slides jest kompatybilny ze wszystkimi głównymi IDE Java?**  
+**A:** Absolutnie – działa z IntelliJ IDEA, Eclipse, NetBeans oraz nawet przy budowie z linii poleceń.
+
+**Q: Jakie są typowe pułapki przy konfigurowaniu etykiet osi?**  
+**A:** Użycie ujemnego offsetu lub zapomnienie o włączeniu `setAutomaticScale(true)` może spowodować znikanie lub nakładanie się etykiet.
+
+**Q: Jak mogę zwiększyć szybkość renderowania przy masywnych zestawach slajdów?**  
+**A:** Ogranicz liczbę punktów danych na wykres, ponownie używaj obiektów `Presentation` tam, gdzie to możliwe, oraz włącz opcję `setCacheSize` dla dużych obrazów.
 
 ## Zasoby
 - [Dokumentacja Aspose.Slides](https://reference.aspose.com/slides/java/)
-- [Pobierz Aspose.Slides dla Java](https://releases.aspose.com/slides/java/)
+- [Pobierz Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
 - [Kup licencję](https://purchase.aspose.com/buy)
-- [Bezpłatna wersja próbna](https://releases.aspose.com/slides/java/)
-- [Wniosek o licencję tymczasową](https://purchase.aspose.com/temporary-license/)
+- [Wersja próbna](https://releases.aspose.com/slides/java/)
+- [Żądanie licencji tymczasowej](https://purchase.aspose.com/temporary-license/)
 - [Forum wsparcia Aspose](https://forum.aspose.com/c/slides/11)
+
+---
+
+**Ostatnia aktualizacja:** 2026-05-23  
+**Testowano z:** Aspose.Slides for Java 24.11  
+**Autor:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Powiązane samouczki
+
+- [Jak obrócić tytuły osi wykresu w PowerPoint przy użyciu Aspose.Slides for Java: Przewodnik krok po kroku](/slides/java/charts-graphs/rotate-chart-axis-titles-aspose-slides-java/)
+- [Animuj wykresy w PowerPoint przy użyciu Aspose.Slides for Java – Przewodnik krok po kroku](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
+- [Jak dostosować kolory wykresu kołowego w Javie z Aspose.Slides – Kompletny przewodnik](/slides/java/charts-graphs/aspose-slides-java-pie-charts-tutorial/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

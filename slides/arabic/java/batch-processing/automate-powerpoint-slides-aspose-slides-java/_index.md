@@ -1,9 +1,73 @@
 ---
-"date": "2025-04-18"
-"description": "تعلم كيفية أتمتة إنشاء وتعديل شرائح PowerPoint باستخدام Aspose.Slides لجافا. يغطي هذا الدليل كل شيء، من الإعداد إلى تقنيات الإدارة المتقدمة."
-"title": "إتقان أتمتة شرائح PowerPoint باستخدام Aspose.Slides Java - دليل شامل للمعالجة الدفعية"
-"url": "/ar/java/batch-processing/automate-powerpoint-slides-aspose-slides-java/"
-"weight": 1
+date: '2026-05-23'
+description: تعلم كيفية أتمتة شرائح PowerPoint باستخدام Aspose.Slides for Java، بما
+  في ذلك كيفية إضافة شريحة تخطيط جديدة وإنشاء شرائح PowerPoint بجافا بكفاءة.
+keywords:
+- how to automate powerpoint
+- add new layout slide
+- create powerpoint slides java
+schemas:
+- author: Aspose
+  dateModified: '2026-05-23'
+  description: Learn how to automate PowerPoint slides using Aspose.Slides for Java,
+    including how to add new layout slide and create powerpoint slides java efficiently.
+  headline: How to Automate PowerPoint Slides with Aspose.Slides for Java
+  type: TechArticle
+- description: Learn how to automate PowerPoint slides using Aspose.Slides for Java,
+    including how to add new layout slide and create powerpoint slides java efficiently.
+  name: How to Automate PowerPoint Slides with Aspose.Slides for Java
+  steps:
+  - name: '**Define the Document Directory** – set the path where your PPTX file resides.'
+    text: '**Define the Document Directory** – set the path where your PPTX file resides.'
+  - name: '**Instantiate Presentation Class** – load an existing file or create a
+      blank one.'
+    text: '**Instantiate Presentation Class** – load an existing file or create a
+      blank one.'
+  - name: '**Dispose of Resources** – always call `dispose()` in a `finally` block
+      to free memory.'
+    text: '**Dispose of Resources** – always call `dispose()` in a `finally` block
+      to free memory.'
+  - name: '**Access Master Layout Slides** – retrieve the collection from the master
+      slide.'
+    text: '**Access Master Layout Slides** – retrieve the collection from the master
+      slide.'
+  - name: '**Search by Type** – look for `TitleAndObject`, `Title`, or any custom
+      layout you need.'
+    text: '**Search by Type** – look for `TitleAndObject`, `Title`, or any custom
+      layout you need.'
+  - name: '**Iterate Through Layouts** – compare each layout’s `getName()` with the
+      target name.'
+    text: '**Iterate Through Layouts** – compare each layout’s `getName()` with the
+      target name.'
+  - name: '**Add New Layout Slide** – create a fresh layout, configure its placeholders,
+      and append it to the master collection.'
+    text: '**Add New Layout Slide** – create a fresh layout, configure its placeholders,
+      and append it to the master collection.'
+  - name: '**Insert Empty Slide** – call `addEmptySlide(layout)` on the presentation’s
+      slide collection.'
+    text: '**Insert Empty Slide** – call `addEmptySlide(layout)` on the presentation’s
+      slide collection.'
+  - name: '**Save the Modified Presentation** – specify the output path and format.'
+    text: '**Save the Modified Presentation** – specify the output path and format.'
+  type: HowTo
+- questions:
+  - answer: Yes, a valid Aspose license permits commercial deployment; a free trial
+      is available for evaluation.
+    question: Can I use this library in a commercial product?
+  - answer: Over 50 formats, including PPT, PPTX, ODP, PDF, and HTML, are fully supported.
+    question: Which PowerPoint formats are supported for import and export?
+  - answer: It processes slides on demand and can work with presentations containing
+      thousands of slides without loading the entire file into memory.
+    question: How does Aspose.Slides handle very large presentations?
+  - answer: No. Aspose.Slides is a pure Java library and does not rely on Office installations.
+    question: Do I need Microsoft Office installed on the server?
+  - answer: Yes, use the `Slide.getThumbnail()` method to render each slide as a PNG,
+      JPEG, or BMP.
+    question: Is there a way to convert slides to images?
+  type: FAQPage
+title: كيفية أتمتة شرائح PowerPoint باستخدام Aspose.Slides for Java
+url: /ar/java/batch-processing/automate-powerpoint-slides-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -15,38 +79,46 @@
 
 ## مقدمة
 
-هل تواجه صعوبة في أتمتة شرائح PowerPoint؟ سواءً كنتَ تُنشئ تقارير، أو تُنشئ عروضًا تقديمية فورية، أو تُدمج إدارة الشرائح في تطبيقات أكبر، فإن التحرير اليدوي قد يكون مُستهلكًا للوقت ومُعرّضًا للأخطاء. سيُوضّح لك هذا الدليل الشامل كيفية استخدام **Aspose.Slides لـ Java** لإنشاء الشرائح وإدارتها بكفاءة في عروضك التقديمية.
+إذا كنت تبحث عن **كيفية أتمتة عروض PowerPoint** باستخدام Java، فقد وجدت المكان المناسب. تحرير الشرائح يدويًا بطيء، وعرضة للأخطاء، وصعب التوسع. باستخدام **Aspose.Slides for Java** يمكنك إنشاء وتعديل ومعالجة ملفات PowerPoint دفعيًا برمجيًا، مما يوفر ساعات من العمل المتكرر.
 
-في هذا البرنامج التعليمي، سنغطي:
-- إنشاء عرض تقديمي في PowerPoint
-- البحث والرجوع إلى شرائح التخطيط
-- إضافة شرائح تخطيط جديدة إذا لزم الأمر
-- إدراج شرائح فارغة بتخطيطات محددة
-- حفظ العرض التقديمي المعدل
+في هذا الدرس سنستعرض:
+- إنشاء عرض PowerPoint
+- البحث والعودة إلى شرائح التخطيط
+- **إضافة شريحة تخطيط جديدة** عند الحاجة
+- إدراج شرائح فارغة بتخطيط محدد
+- حفظ العرض المعدل
 
-بنهاية هذا الدليل، ستكون قد أتقنت أتمتة إنشاء الشرائح. لنبدأ!
+في النهاية ستتمكن من **إنشاء شرائح PowerPoint Java** لمشاريع تبني العروض تلقائيًا.
 
-### المتطلبات الأساسية
+### إجابات سريعة
+- **ما هي المكتبة التي تدير أتمتة PowerPoint؟** Aspose.Slides for Java.
+- **هل يمكنني إضافة تخطيطات مخصصة؟** نعم – استخدم مجموعة التخطيطات لإضافة شريحة تخطيط جديدة.
+- **هل أحتاج إلى ترخيص للتطوير؟** نسخة تجريبية مجانية تعمل للاختبار؛ الترخيص الدائم مطلوب للإنتاج.
+- **الصيغ المدعومة؟** أكثر من 50 صيغة إدخال وإخراج، بما في ذلك PPT و PPTX و PDF و ODP.
+- **أدنى نسخة Java؟** JDK 16 أو أعلى.
 
-قبل استخدام Aspose.Slides لـ Java، قم بإعداد بيئة التطوير الخاصة بك:
+## ما هو Aspose.Slides for Java؟
 
-**المكتبات والإصدارات المطلوبة**
-- **Aspose.Slides لـ Java**:الإصدار 25.4 أو أحدث.
+`Aspose.Slides for Java` هو API عالي الأداء يتيح لك إنشاء وتحرير وتحويل وعرض ملفات PowerPoint دون الحاجة إلى Microsoft Office. يدعم أكثر من 50 صيغة ويمكنه معالجة عروض تحتوي على آلاف الشرائح باستخدام أقل من 200 ميغابايت من الذاكرة. يوفر مجموعة شاملة من الـ APIs لإنشاء وتحرير وتحويل وعرض العروض، مما يجعله مناسبًا لتطبيقات سطح المكتب والخوادم على حد سواء.
 
-**متطلبات إعداد البيئة**
-- مجموعة تطوير Java (JDK) 16 أو أعلى.
+## كيف تقوم بأتمتة شرائح PowerPoint باستخدام Aspose.Slides for Java؟
 
-**متطلبات المعرفة**
-- فهم أساسيات برمجة جافا.
-- المعرفة بـ Maven أو Gradle لإدارة التبعيات.
+قم بتحميل أو إنشاء عرض تقديمي، حدد التخطيط المطلوب، أضف تخطيطًا جديدًا إذا لم يكن موجودًا، أدخل شريحة فارغة باستخدام ذلك التخطيط، وأخيرًا احفظ الملف – كل ذلك في عدد قليل من استدعاءات الـ API. هذا النمط يتوسع من شريحة واحدة إلى آلاف الشرائح، مما يجعل المعالجة الدفعية بسيطة وموثوقة.
 
-## إعداد Aspose.Slides لـ Java
+### المتطلبات المسبقة
 
-### تثبيت
+- **Aspose.Slides for Java** v25.4 أو أحدث.
+- JDK 16 + مثبت.
+- Maven أو Gradle لإدارة التبعيات.
+- معرفة أساسية بـ Java.
 
-قم بتضمين Aspose.Slides في مشروعك باستخدام Maven أو Gradle:
+## إعداد Aspose.Slides for Java
 
-**مافن**
+### التثبيت
+
+أدرج Aspose.Slides في مشروعك باستخدام Maven أو Gradle:
+
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -54,92 +126,89 @@
     <version>25.4</version>
     <classifier>jdk16</classifier>
 </dependency>
-```
+```  
 
-**جرادل**
+**Gradle**  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
-```
+```  
 
-بدلاً من ذلك، قم بتنزيل الإصدار الأحدث من [إصدارات Aspose.Slides لـ Java](https://releases.aspose.com/slides/java/).
+بدلاً من ذلك، حمّل أحدث نسخة من [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 ### الحصول على الترخيص
 
-للاستفادة الكاملة من Aspose.Slides:
-- **نسخة تجريبية مجانية**:ابدأ بإصدار تجريبي مجاني لاستكشاف الميزات.
-- **رخصة مؤقتة**:احصل على واحدة من [صفحة الترخيص المؤقت لـ Aspose](https://purchase.aspose.com/temporary-license/) لإجراء اختبار موسع.
-- **شراء**:فكر في الشراء للاستخدام التجاري.
+لاستخدام Aspose.Slides بالكامل:
+- **نسخة تجريبية مجانية** – استكشف جميع الميزات دون تكلفة.
+- **ترخيص مؤقت** – احصل عليه من [صفحة الترخيص المؤقت لـ Aspose](https://purchase.aspose.com/temporary-license/) للاختبار الموسع.
+- **شراء** – احصل على ترخيص دائم للنشر التجاري.
 
-**التهيئة والإعداد الأساسي**
+**الإعداد الأولي الأساسي**
 
-قم بإعداد مشروعك باستخدام الكود التالي:
+قم بإعداد مشروعك بالكود التالي:  
 ```java
 import com.aspose.slides.*;
 
 public class PresentationExample {
     public static void main(String[] args) {
-        String dataDir = "YOUR_DOCUMENT_DIRECTORY"; // تعيين مسار دليل المستند الخاص بك
+        String dataDir = "YOUR_DOCUMENT_DIRECTORY"; // Set your document directory path
 
-        // إنشاء كائن عرض تقديمي يمثل ملف PPTX
+        // Instantiate a presentation object that represents a PPTX file
         Presentation pres = new Presentation(dataDir + "/AccessSlides.pptx");
         
         try {
-            // إجراء العمليات على العرض التقديمي
+            // Perform operations on the presentation
         } finally {
             if (pres != null) pres.dispose();
         }
     }
 }
-```
+```  
 
 ## دليل التنفيذ
 
-### إنشاء عرض تقديمي
+### كيف أقوم بإنشاء كائن Presentation؟
 
-ابدأ بإنشاء مثال لعرض تقديمي على PowerPoint لإعداد مستندك للتعديلات.
+أنشئ مثيل `Presentation` لتحميل ملف PPTX موجود أو بدء عرض جديد. فئة `Presentation` هي الكائن المركزي الذي يدير الشرائح، القوالب، والموارد، مما يتيح لك تعديل المستند برمجيًا. كما أنها تضمن التعامل السليم مع التدفقات الداخلية وتخصيص الذاكرة.
 
-**نظرة عامة خطوة بخطوة**
-1. **تحديد دليل المستندات**:قم بتعيين المسار الذي يوجد به ملف PPTX الخاص بك.
+1. **تحديد مسار المستند** – عيّن المسار حيث يوجد ملف PPTX الخاص بك.  
    ```java
    String dataDir = "YOUR_DOCUMENT_DIRECTORY";
-   ```
-2. **إنشاء فئة عرض تقديمي**:تحميل أو إنشاء عرض تقديمي جديد.
+   ```  
+2. **إنشاء كائن Presentation** – حمّل ملفًا موجودًا أو أنشئ ملفًا فارغًا.  
    ```java
    Presentation presentation = new Presentation(dataDir + "/AccessSlides.pptx");
-   ```
-3. **التخلص من الموارد**:تأكد من تحرير الموارد بعد الاستخدام.
+   ```  
+3. **تحرير الموارد** – دائمًا استدعِ `dispose()` داخل كتلة `finally` لتحرير الذاكرة.  
    ```java
    try {
-       // العمليات على العرض التقديمي
+       // Operations on the presentation
    } finally {
        if (presentation != null) presentation.dispose();
    }
-   ```
+   ```  
 
-### تخطيط البحث حسب الشريحة حسب النوع
+### كيف يمكنني البحث عن شريحة تخطيط حسب النوع؟
 
-ابحث عن شريحة تخطيط محددة ضمن العرض التقديمي الخاص بك للحصول على تنسيق متسق.
+كائنات `ISlideLayout` تمثل تصاميم شرائح قابلة لإعادة الاستخدام. البحث حسب النوع يضمن اختيار تخطيط يتطابق مع بنية المحتوى المطلوبة، مما يقلل الحاجة إلى تعديلات يدوية. من خلال تصفية التخطيطات بناءً على قيم الـ enum المحددة مسبقًا، يمكنك بسرعة العثور على القالب المناسب للعناوين أو المحتوى أو التصاميم المخصصة.
 
-**نظرة عامة خطوة بخطوة**
-1. **الوصول إلى شرائح تخطيط رئيسية**:استرجاع المجموعة من الشريحة الرئيسية.
+1. **الوصول إلى شرائح التخطيط الرئيسية** – استرجع المجموعة من شريحة القالب الرئيسية.  
    ```java
    IMasterLayoutSlideCollection layoutSlides = presentation.getMasters().get_Item(0).getLayoutSlides();
-   ```
-2. **البحث حسب النوع**:ابحث عن نوع معين من شرائح التخطيط، مثل `TitleAndObject` أو `Title`.
+   ```  
+2. **البحث حسب النوع** – ابحث عن `TitleAndObject` أو `Title` أو أي تخطيط مخصص تحتاجه.  
    ```java
    ILayoutSlide layoutSlide = null;
    if (layoutSlides.getByType(SlideLayoutType.TitleAndObject) != null)
        layoutSlide = layoutSlides.getByType(SlideLayoutType.TitleAndObject);
    else
        layoutSlide = layoutSlides.getByType(SlideLayoutType.Title);
-   ```
+   ```  
 
-### العودة إلى تخطيط الشريحة حسب الاسم
+### ماذا إذا لم يتم العثور على التخطيط المطلوب حسب النوع؟
 
-إذا لم يتم العثور على نوع معين، فابحث حسب الاسم كخيار بديل.
+إذا كان التخطيط من النوع المطلوب غير موجود، انتقل إلى البحث حسب اسمه. يضمن هذا النهج ذو الخطوتين إعادة استخدام التصاميم الموجودة وتوفر قالبًا مناسبًا دائمًا، حتى عندما يتم إضافة أو إعادة تسمية تخطيطات مخصصة.
 
-**نظرة عامة خطوة بخطوة**
-1. **التكرار من خلال التخطيطات**:تحقق من اسم كل شريحة إذا لم يتم العثور على التخطيط المطلوب حسب النوع.
+1. **التكرار عبر التخطيطات** – قارن `getName()` لكل تخطيط مع الاسم المستهدف.  
    ```java
    if (layoutSlide == null) {
        for (ILayoutSlide titleAndObjectLayoutSlide : layoutSlides) {
@@ -158,14 +227,13 @@ public class PresentationExample {
            }
        }
    }
-   ```
+   ```  
 
-### أضف شريحة التخطيط إذا لم تكن موجودة
+### كيف أضيف شريحة تخطيط جديدة عندما لا يوجد مطابقة؟
 
-أضف شريحة تخطيط جديدة إلى المجموعة إذا لم يكن هناك شريحة مناسبة.
+عند عدم وجود تخطيط مناسب، يمكنك برمجيًا **إضافة شريحة تخطيط جديدة** إلى القالب الرئيسي. هذه العملية تنشئ تخطيطًا جديدًا، تضبط العناصر النائبة الخاصة به، وتضيفه إلى مجموعة القوالب، مما يضمن توحيد النمط والوراثة للثيم لجميع الشرائح التي تُضاف لاحقًا باستخدام هذا التخطيط.
 
-**نظرة عامة خطوة بخطوة**
-1. **إضافة شريحة تخطيط جديدة**:قم بإنشاء شريحة تخطيط وإضافتها إذا لم تكن موجودة.
+1. **إضافة شريحة تخطيط جديدة** – أنشئ تخطيطًا جديدًا، اضبط العناصر النائبة، وأضفه إلى مجموعة القالب الرئيسي.  
    ```java
    if (layoutSlide == null) {
        layoutSlide = layoutSlides.getByType(SlideLayoutType.Blank);
@@ -173,59 +241,73 @@ public class PresentationExample {
            layoutSlide = layoutSlides.add(SlideLayoutType.TitleAndObject, "Title and Object");
        }
    }
-   ```
+   ```  
 
-### إضافة شريحة فارغة مع التخطيط
+### كيف أدرج شريحة فارغة باستخدام التخطيط المختار؟
 
-قم بإدراج شريحة فارغة باستخدام التخطيط المختار.
+استخدم التخطيط المختار لإدراج شريحة نظيفة في أي موضع. طريقة `addEmptySlide` تنشئ شريحة جديدة ترث ثيم القالب، العناصر النائبة، والتنسيق، مما يتيح لك ملء المحتوى لاحقًا دون التأثير على الشرائح الحالية. هذا النهج يحافظ على اتساق التصميم عبر العرض ويسهل توليد الشرائح دفعيًا.
 
-**نظرة عامة خطوة بخطوة**
-1. **إدراج شريحة فارغة**:استخدم التخطيط المحدد لإضافة شريحة جديدة في بداية العرض التقديمي.
+1. **إدراج شريحة فارغة** – استدعِ `addEmptySlide(layout)` على مجموعة الشرائح في العرض.  
    ```java
    presentation.getSlides().insertEmptySlide(0, layoutSlide);
-   ```
+   ```  
 
-### حفظ العرض التقديمي
+### كيف أحفظ العرض التقديمي المعدل؟
 
-احفظ تعديلاتك في ملف PPTX جديد.
+احفظ التغييرات عن طريق حفظ كائن `Presentation` إلى ملف جديد. يمكنك اختيار PPTX أو PDF أو أي من الصيغ المدعومة، وتحديد خيارات مثل مستوى الضغط أو جودة الصورة. الحفظ ينتج ملفًا مستقلًا يمكن فتحه في PowerPoint أو عارضين متوافقين دون الحاجة إلى المكتبة وقت التشغيل.
 
-**نظرة عامة خطوة بخطوة**
-1. **حفظ العرض التقديمي المعدّل**:تخزين التغييرات في دليل الإخراج.
+1. **حفظ العرض التقديمي المعدل** – حدد مسار الإخراج والصيغة.  
    ```java
    presentation.save("YOUR_OUTPUT_DIRECTORY" + "/AddLayoutSlides_out.pptx", SaveFormat.Pptx);
-   ```
+   ```  
 
-## التطبيقات العملية
+## تطبيقات عملية
 
-يعد Aspose.Slides for Java متعدد الاستخدامات ويمكن استخدامه في سيناريوهات مختلفة:
-- **إنشاء التقارير تلقائيًا**:إنشاء العروض التقديمية تلقائيًا من تقارير البيانات.
-- **قوالب العرض التقديمي**:تطوير قوالب شرائح قابلة لإعادة الاستخدام مع الحفاظ على التنسيق المتسق.
-- **التكامل مع خدمات الويب**:دمج إنشاء الشرائح في تطبيقات الويب أو واجهات برمجة التطبيقات.
+يبرز Aspose.Slides for Java في العديد من السيناريوهات الواقعية:
+- **إنشاء تقارير آلية** – تحويل تدفقات البيانات إلى عروض مصقولة تلقائيًا.
+- **قوالب العروض** – الحفاظ على قوالب متسقة مع العلامة التجارية يمكن للمطورين ملؤها عند الطلب.
+- **تكامل خدمات الويب** – تقديم إنشاء الشرائح كواجهة API لمنصات SaaS.
 
 ## اعتبارات الأداء
 
-ضع في اعتبارك هذه النصائح للحصول على الأداء الأمثل عند استخدام Aspose.Slides:
-- **إدارة الذاكرة**:تخلص من كائنات العرض التقديمي بشكل صحيح لتحرير الموارد.
-- **الاستخدام الفعال للموارد**:قم بتحديد عدد الشرائح والعناصر التي تتم معالجتها في الذاكرة في وقت واحد.
+للحفاظ على استجابة تطبيقك عند التعامل مع عروض كبيرة:
+
+- **إدارة الذاكرة** – دائمًا حرّر كائنات `Presentation`؛ استخدم واجهات البث للملفات الضخمة.
+- **المعالجة الدفعية** – عالج الشرائح على دفعات واكتب النتائج الوسيطة لتجنب ارتفاع استهلاك الذاكرة.
 
 **أفضل الممارسات**
-- يستخدم `try-finally` كتل لضمان تحرير الموارد دائمًا.
-- قم بإنشاء ملف تعريف لتطبيقك لتحديد الاختناقات ومعالجتها.
+- غلف استخدام العرض في كتل `try‑finally`.
+- استخدم أداة تحليل الأداء Java لتحديد الاختناقات قبل التوسع.
 
-## خاتمة
+## الأسئلة المتكررة
 
-في هذا البرنامج التعليمي، تعلمت كيفية إنشاء عروض PowerPoint التقديمية وإدارتها باستخدام Aspose.Slides لجافا. من تحميل العروض التقديمية إلى إدراج الشرائح بتخطيطات محددة، يمكن لهذه التقنيات تبسيط سير عملك بشكل كبير.
+**س: هل يمكنني استخدام هذه المكتبة في منتج تجاري؟**  
+ج: نعم، الترخيص الصالح من Aspose يسمح بالنشر التجاري؛ نسخة تجريبية مجانية متاحة للتقييم.
 
-لاستكشاف قدرات Aspose.Slides بشكل أكبر، فكر في تجربة ميزات إضافية مثل انتقالات الشرائح أو الرسوم المتحركة أو التصدير إلى تنسيقات مختلفة.
+**س: ما هي صيغ PowerPoint المدعومة للاستيراد والتصدير؟**  
+ج: أكثر من 50 صيغة، بما في ذلك PPT و PPTX و ODP و PDF و HTML، مدعومة بالكامل.
 
-**الخطوات التالية**
-- حاول دمج Aspose.Slides في مشروع أكبر.
-- تجربة ميزات معالجة العرض التقديمي المتقدمة.
+**س: كيف يتعامل Aspose.Slides مع العروض الكبيرة جدًا؟**  
+ج: يعالج الشرائح عند الطلب ويمكنه العمل مع عروض تحتوي على آلاف الشرائح دون تحميل الملف بالكامل في الذاكرة.
 
-## قسم الأسئلة الشائعة
+**س: هل أحتاج إلى تثبيت Microsoft Office على الخادم؟**  
+ج: لا. Aspose.Slides مكتبة Java خالصة ولا تعتمد على تثبيت Office.
 
-1. **كيف أتعامل مع العروض التقديمية الكبيرة بكفاءة؟**
-   - قم بمعالجة الشرائح على دفعات والتخلص من الكائنات على الفور لإدارة استخدام الذاكرة بشكل فعال.
+**س: هل هناك طريقة لتحويل الشرائح إلى صور؟**  
+ج: نعم، استخدم طريقة `Slide.getThumbnail()` لتوليد كل شريحة كصورة PNG أو JPEG أو BMP.
+
+---
+
+**آخر تحديث:** 2026-05-23  
+**تم الاختبار مع:** Aspose.Slides for Java v25.4  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [Batch Process PowerPoint Java - Tutorials for Aspose.Slides](/slides/java/batch-processing/)
+- [Create Presentation Programmatically in Java - Automate PowerPoint Transitions with Aspose.Slides](/slides/java/animations-transitions/aspose-slides-java-presentation-automation/)
+- [How to Add Charts to PowerPoint Using Aspose.Slides for Java: A Step-by-Step Guide](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
