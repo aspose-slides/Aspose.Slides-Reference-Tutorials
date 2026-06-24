@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "تعلّم كيفية إنشاء وتخصيص مخططات المبيعات في PowerPoint باستخدام Aspose.Slides لجافا. حسّن عروضك التقديمية بمؤثرات بصرية احترافية."
-"title": "إنشاء مخطط قمعي رئيسي في PowerPoint باستخدام Aspose.Slides لـ Java"
-"url": "/ar/java/charts-graphs/create-funnel-charts-powerpoint-aspose-slides-java/"
-"weight": 1
+date: '2026-03-18'
+description: تعلّم تصور البيانات في جافا من خلال إنشاء مخططات القمع في PowerPoint
+  باستخدام Aspose.Slides for Java. يوضح هذا الدليل خطوة بخطوة كيفية إنشاء مخططات القمع،
+  وتعيين بيانات المخطط، وتخصيص الألوان.
+keywords:
+- funnel chart creation
+- Aspose.Slides for Java
+- PowerPoint data visualization
+title: تصوير البيانات في جافا – مخططات القمع باستخدام Aspose.Slides
+url: /ar/java/charts-graphs/create-funnel-charts-powerpoint-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,29 +17,40 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# إتقان إنشاء مخططات القمع في PowerPoint باستخدام Aspose.Slides لـ Java
+# إتقان إنشاء مخطط القمع في PowerPoint باستخدام Aspose.Slides للـ Java
 
-## مقدمة
-إنشاء عروض تقديمية جذابة فنٌّ يجمع بين تصوّر البيانات والتصميم وسرد القصص. ومن الأدوات الفعّالة لتحسين عروضك التقديمية مخطط القمع، وهو تمثيل مرئي لمراحل عملية أو مسار مبيعات. سواءً كنت تعرض تقارير أعمال، أو جداول زمنية للمشاريع، أو استراتيجيات مبيعات، فإن دمج مخططات القمع يُحوّل البيانات الخام إلى قصص ثاقبة.
+## المقدمة
+إنشاء عروض تقديمية جذابة هو فن يجمع بين تصور البيانات، التصميم، وسرد القصص. أحد الأدوات القوية لتعزيز عروضك هو مخطط القمع — تمثيل بصري للمراحل داخل عملية أو خط أنابيب مبيعات. سواءً كنت تعرض تقارير أعمال، جداول زمنية للمشروعات، أو استراتيجيات مبيعات، فإن دمج مخططات القمع يمكنه تحويل البيانات الخام إلى قصص ذات رؤى.
 
-في هذا البرنامج التعليمي، سنستكشف كيفية إنشاء وتخصيص مخططات قمعية في PowerPoint باستخدام Aspose.Slides لجافا. ستتعلم خطوة بخطوة عملية إعداد بيئتك، وإضافة مخطط قمعي إلى الشريحة، وتكوين بياناتها، وحفظ عرضك التقديمي بسهولة. بنهاية هذا الدليل، ستكون قادرًا على تحسين عروضك التقديمية بمؤثرات بصرية احترافية.
+في هذا البرنامج التعليمي، سنستكشف كيفية إنشاء وتخصيص مخططات القمع في PowerPoint باستخدام Aspose.Slides للـ Java. ستتعلم العملية خطوة بخطوة لإعداد بيئتك، إضافة مخطط قمع إلى شريحة، تكوين بياناته، وحفظ عرضك بسهولة. في نهاية هذا الدليل، ستكون مجهزًا لتعزيز عروضك بصور احترافية.
 
-**ما سوف تتعلمه:**
-- إعداد Aspose.Slides لـ Java في مشروعك
-- إنشاء مثيل لعرض تقديمي في PowerPoint
-- إضافة مخططات المبيعات وتخصيصها على الشرائح
-- إدارة بيانات الرسم البياني بشكل فعال
-- حفظ العروض التقديمية المحسنة وتصديرها
+**ما ستتعلمه:**
+- إعداد Aspose.Slides للـ Java في مشروعك
+- إنشاء نسخة من عرض PowerPoint
+- إضافة وتخصيص مخططات القمع في الشرائح
+- إدارة بيانات المخطط بفعالية
+- حفظ وتصدير العروض المحسّنة
 
-دعونا نتعمق في المتطلبات الأساسية للبدء!
+## إجابات سريعة
+- **ما هي المكتبة الأساسية لتصوير البيانات في Java؟** Aspose.Slides للـ Java.  
+- **كيف تنشئ مخطط قمع في PowerPoint؟** استخدم `addChart(ChartType.Funnel, …)` على شريحة.  
+- **أي طريقة تحدد مصدر بيانات المخطط؟** استخدم `IChartDataWorkbook` و `chart.getChartData()`.  
+- **هل يمكنني تخصيص الألوان لكل جزء من القمع؟** نعم، اضبط `FillType.Solid` وعيّن `java.awt.Color` عشوائي أو محدد.  
+- **هل أحتاج إلى ترخيص للاستخدام في الإنتاج؟** يلزم الحصول على ترخيص Aspose.Slides المشتراة للنشر التجاري.
 
-## المتطلبات الأساسية (H2)
+## ما هو تصوير البيانات في Java؟
+تصوير البيانات في Java يشير إلى التقنيات والمكتبات التي تسمح للمطورين بتحويل البيانات الخام إلى تمثيلات بصرية واضحة، تفاعلية أو ثابتة مباشرةً من تطبيقات Java. Aspose.Slides للـ Java هي مكتبة رائدة لإنشاء المخططات، الرسوم البيانية، والعروض التقديمية الغنية برمجيًا.
+
+## لماذا تستخدم مخططات القمع في PowerPoint؟
+مخططات القمع تسهل توضيح معدلات الانخفاض عبر المراحل — مثالية لخطوط أنابيب المبيعات، قمع التحويل، أو تحليلات كفاءة العمليات. باستخدام Aspose.Slides تحصل على تحكم كامل في التخطيط، الألوان، والبيانات دون الحاجة لفتح PowerPoint يدويًا.
+
+## المتطلبات المسبقة (H2)
 قبل أن نبدأ، تأكد من أن لديك الأدوات والمعرفة اللازمة لمتابعة هذا البرنامج التعليمي.
 
-### المكتبات والإصدارات والتبعيات المطلوبة
-لتنفيذ Aspose.Slides لجافا في مشروعك، ستحتاج إلى إصدارات محددة من المكتبات. إليك كيفية إعدادها باستخدام Maven أو Gradle:
+### المكتبات المطلوبة والإصدارات والاعتمادات
+لتطبيق Aspose.Slides للـ Java في مشروعك، تحتاج إلى إصدارات محددة من المكتبات. إليك كيفية إعدادها باستخدام Maven أو Gradle:
 
-**مافن:**
+**Maven:**
 
 ```xml
 <dependency>
@@ -44,31 +61,29 @@
 </dependency>
 ```
 
-**جرادل:**
+**Gradle:**
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-وبدلاً من ذلك، يمكنك تنزيل المكتبة مباشرةً من [إصدارات Aspose.Slides لـ Java](https://releases.aspose.com/slides/java/).
+بدلاً من ذلك، يمكنك تنزيل المكتبة مباشرةً من [إصدارات Aspose.Slides للـ Java](https://releases.aspose.com/slides/java/).
 
 ### متطلبات إعداد البيئة
-تأكد من إعداد بيئة التطوير لديك باستخدام JDK 1.6 أو أعلى، حيث يتطلب Aspose.Slides ذلك للتوافق.
+تأكد من إعداد بيئة التطوير الخاصة بك مع JDK 1.6 أو أعلى، حيث يتطلب Aspose.Slides ذلك للتوافق.
 
-### متطلبات المعرفة
-ستكون المعرفة بمفاهيم برمجة Java ومبادئ تصميم العرض التقديمي الأساسية مفيدة ولكنها ليست ضرورية، حيث سنغطي كل شيء خطوة بخطوة.
+### المتطلبات المعرفية
+الإلمام بمفاهيم برمجة Java ومبادئ تصميم العروض التقديمية الأساسية سيكون مفيدًا لكنه ليس ضروريًا، حيث سنغطي كل شيء خطوة بخطوة.
 
-## إعداد Aspose.Slides لـ Java (H2)
+## إعداد Aspose.Slides للـ Java (H2)
 لبدء استخدام Aspose.Slides في مشروعك، اتبع الخطوات التالية:
 
-1. **أضف التبعية**:استخدم Maven أو Gradle لتضمين Aspose.Slides، كما هو موضح أعلاه.
-   
+1. **إضافة الاعتماد**: استخدم Maven أو Gradle لتضمين Aspose.Slides، كما هو موضح أعلاه.
 2. **الحصول على الترخيص**:
-   - **نسخة تجريبية مجانية**:تنزيل ترخيص مؤقت من [موقع Aspose](https://purchase.aspose.com/temporary-license/) لأغراض التقييم.
-   - **شراء**:للاستخدام الإنتاجي، قم بشراء ترخيص من خلال [صفحة الشراء](https://purchase.aspose.com/buy).
-
+   - **نسخة تجريبية مجانية**: حمّل ترخيصًا مؤقتًا من [موقع Aspose](https://purchase.aspose.com/temporary-license/) لأغراض التقييم.
+   - **شراء**: للاستخدام في الإنتاج، اشترِ ترخيصًا عبر [صفحة الشراء](https://purchase.aspose.com/buy).
 3. **التهيئة الأساسية**:
-   قم بإنشاء فئة Java جديدة وقم بتهيئة كائن العرض التقديمي الخاص بك:
+   أنشئ فئة Java جديدة وابدأ كائن العرض الخاص بك:
 
    ```java
    import com.aspose.slides.Presentation;
@@ -77,7 +92,7 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
        public static void main(String[] args) {
            Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/test.pptx");
            try {
-               // الكود الخاص بك هنا
+               // Your code here
            } finally {
                if (pres != null) pres.dispose();
            }
@@ -85,44 +100,44 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
    }
    ```
 
-سيسمح لك هذا الإعداد بإنشاء العروض التقديمية ومعالجتها باستخدام Aspose.Slides.
+هذا الإعداد سيمكنك من إنشاء وتعديل العروض باستخدام Aspose.Slides.
 
 ## دليل التنفيذ
-سنقوم بتقسيم التنفيذ إلى ميزات مميزة، تركز كل منها على جانب محدد من إنشاء مخطط القمع في PowerPoint.
+سنقسم التنفيذ إلى ميزات متميزة، كل منها يركز على جانب محدد من إنشاء مخطط القمع في PowerPoint.
 
 ### الميزة 1: إنشاء عرض تقديمي (H2)
 
-#### ملخص
-ابدأ بإنشاء مثيل لـ `Presentation` يمثل هذا الكائن ملف PowerPoint الخاص بك ويسمح لك بإجراء عمليات مختلفة.
+#### نظرة عامة
+ابدأ بإنشاء نسخة من فئة `Presentation`. هذا الكائن يمثل ملف PowerPoint الخاص بك ويسمح لك بأداء عمليات مختلفة.
 
 ```java
 import com.aspose.slides.Presentation;
 
-// إنشاء عرض تقديمي جديد
+// Create a new presentation
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/test.pptx");
 try {
-    // العمليات على كائن العرض
+    // Operations on the presentation object
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
 
-**توضيح**:هذا المقطع من التعليمات البرمجية يقوم بتهيئة `Presentation` كائن يشير إلى ملف PowerPoint موجود. `try-finally` تضمن الكتلة تحرير الموارد بشكل صحيح مع `dispose()`.
+**شرح**: يهيئ هذا المقتطف كائن `Presentation`، مشيرًا إلى ملف PowerPoint موجود. يضمن كتلة `try‑finally` تحرير الموارد بشكل صحيح باستخدام `dispose()`.
 
-### الميزة 2: إضافة مخطط قمعي إلى شريحة (H2)
+### الميزة 2: إضافة مخطط قمع إلى شريحة (H2)
 
-#### ملخص
-أضف مخططًا قمعيًا إلى الشريحة الأولى من عرضك التقديمي باستخدام الخطوات التالية:
+#### نظرة عامة
+أضف مخطط قمع إلى الشريحة الأولى من عرضك باستخدام الخطوات التالية:
 
 ```java
 import com.aspose.slides.IChart;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.ChartType;
 
-// احصل على الشريحة الأولى
+// Get the first slide
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/test.pptx");
 try {
-    // أضف مخططًا قمعيًا إلى الشريحة الأولى في الموضع (50، 50) بعرض 500 وارتفاع 400
+    // Add a funnel chart to the first slide at position (50, 50) with width 500 and height 400
     IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
         ChartType.Funnel, 50, 50, 500, 400);
 } finally {
@@ -130,24 +145,24 @@ try {
 }
 ```
 
-**توضيح**: ال `addChart()` تُنشئ هذه الطريقة مخططًا قمعيًا على الشريحة الأولى. تُحدد المعلمات موضعه وحجمه.
+**شرح**: تنشئ طريقة `addChart()` مخطط قمع على الشريحة الأولى. تحدد المعاملات موقعه وحجمه.
 
-### الميزة 3: مسح بيانات الرسم البياني (H2)
+### الميزة 3: مسح بيانات المخطط (H2)
 
-#### ملخص
-قبل ملء الرسم البياني الخاص بك بالبيانات، قد تحتاج إلى مسح المحتوى الموجود:
+#### نظرة عامة
+قبل ملء المخطط بالبيانات، قد تحتاج إلى مسح المحتوى الموجود:
 
 ```java
 import com.aspose.slides.IChart;
 import com.aspose.slides.Presentation;
 
-// الوصول إلى مخطط الشريحة الأولى
+// Access the first slide's chart
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/test.pptx");
 try {
     IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
         ChartType.Funnel, 50, 50, 500, 400);
     
-    // مسح جميع الفئات وبيانات السلسلة
+    // Clear all categories and series data
     chart.getChartData().getCategories().clear();
     chart.getChartData().getSeries().clear();
 } finally {
@@ -155,47 +170,47 @@ try {
 }
 ```
 
-**توضيح**:يقوم هذا الكود بإزالة أي بيانات موجودة مسبقًا من مخطط القمع عن طريق مسح فئاته وسلاسله.
+**شرح**: يزيل هذا الكود أي بيانات موجودة مسبقًا من مخطط القمع عن طريق مسح الفئات والسلاسل.
 
-### الميزة 4: إعداد مصنف بيانات الرسم البياني (H2)
+### الميزة 4: إعداد دفتر بيانات المخطط (H2)
 
-#### ملخص
-قم بتهيئة مصنف بيانات الرسم البياني لإدارة بياناتك بشكل فعال:
+#### نظرة عامة
+قم بتهيئة دفتر بيانات المخطط لإدارة بياناتك بفعالية:
 
 ```java
 import com.aspose.slides.IChart;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.IChartDataWorkbook;
 
-// قم بإعداد عرض تقديمي وأضف مخططًا قمعيًا
+// Initialize a presentation and add a funnel chart
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/test.pptx");
 try {
     IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
         ChartType.Funnel, 50, 50, 500, 400);
     
-    // احصل على مصنف البيانات
+    // Get the data workbook
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
     
-    // مسح جميع الخلايا بدءًا من مؤشر الخلية 0
+    // Clear all cells starting from cell index 0
     wb.clear(0);
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
 
-**توضيح**: ال `IChartDataWorkbook` يسمح لك الكائن بمسح الخلايا الموجودة، وإعداد المصنف لإدخالات البيانات الجديدة.
+**شرح**: يتيح لك كائن `IChartDataWorkbook` مسح الخلايا الموجودة، مما يجهّز دفتر العمل لإدخالات بيانات جديدة.
 
-### الميزة 5: إضافة فئات إلى الرسم البياني (H2)
+### الميزة 5: إضافة فئات إلى المخطط (H2)
 
-#### ملخص
-أضف فئات ذات معنى إلى مخطط المبيعات الخاص بك:
+#### نظرة عامة
+أضف فئات ذات معنى إلى مخطط القمع:
 
 ```java
 import com.aspose.slides.IChart;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.IChartDataWorkbook;
 
-// إعداد العرض التقديمي والمخطط باستخدام مصنف البيانات الممسوح
+// Prepare presentation and chart with cleared data workbook
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/test.pptx");
 try {
     IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
@@ -203,7 +218,7 @@ try {
     
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
     
-    // إضافة فئات إلى الرسم البياني
+    // Add categories to the chart
     chart.getChartData().getCategories().add(wb.getCell(0, "A1", "Category 1"));
     chart.getChartData().getCategories().add(wb.getCell(0, "A2", "Category 2"));
     chart.getChartData().getCategories().add(wb.getCell(0, "A3", "Category 3"));
@@ -212,12 +227,12 @@ try {
 }
 ```
 
-**توضيح**:يضيف هذا الكود الفئات إلى مخطط القمع عن طريق الوصول إلى مصنف البيانات وإدراج أسماء الفئات في خلايا محددة.
+**شرح**: يضيف هذا الكود فئات إلى مخطط القمع عن طريق الوصول إلى دفتر بيانات المخطط وإدخال أسماء الفئات في خلايا محددة.
 
-### الميزة 6: إضافة سلسلة بيانات إلى مخطط (H2)
+### الميزة 6: إضافة سلسلة بيانات إلى المخطط (H2)
 
-#### ملخص
-املأ مخطط القمع الخاص بك بسلسلة البيانات:
+#### نظرة عامة
+املأ مخطط القمع بسلسلة بيانات:
 
 ```java
 import com.aspose.slides.IChart;
@@ -226,7 +241,7 @@ import com.aspose.slides.ChartType;
 import com.aspose.slides.FillType;
 import com.aspose.slides.IChartDataWorkbook;
 
-// إضافة سلسلة بيانات إلى الرسم البياني
+// Add data series to the chart
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/test.pptx");
 try {
     IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
@@ -234,18 +249,18 @@ try {
     
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
     
-    chart.getChartData().getSeries().clear(); // مسح أي سلسلة موجودة
+    chart.getChartData().getSeries().clear(); // Clear any existing series
     
-    // إضافة سلسلة بيانات جديدة
+    // Add a new data series
     com.aspose.slides.ISeries series = chart.getChartData().getSeries().add(
         wb.getCell(0, "B1", "Series 1"), ChartType.Funnel);
     
-    // ملء السلسلة بنقاط البيانات
+    // Populate the series with data points
     series.getDataPoints().addDataPointForFunnelChart(wb.getCell(0, "B2", 50));
     series.getDataPoints().addDataPointForFunnelChart(wb.getCell(0, "B3", 100));
     series.getDataPoints().addDataPointForFunnelChart(wb.getCell(0, "B4", 150));
     
-    // تخصيص لون تعبئة نقاط البيانات
+    // Customize the fill color of data points
     for (int i = 0; i < series.getDataPoints().getCount(); i++) {
         com.aspose.slides.IDataPoint point = series.getDataPoints().get_Item(i);
         point.getFormat().getFill().setFillType(FillType.Solid);
@@ -257,10 +272,38 @@ try {
 }
 ```
 
-**توضيح**يضيف هذا الكود سلسلة بيانات إلى مخطط القمع ويملأه بنقاط البيانات. كما يُخصص لون تعبئة كل نقطة بيانات.
+**شرح**: يضيف هذا الكود سلسلة بيانات إلى مخطط القمع ويملأها بنقاط البيانات. كما يخصص لون التعبئة لكل نقطة بيانات.
 
-## خاتمة
-باتباع هذا الدليل، ستتعلم كيفية إنشاء مخططات قمع المبيعات وتخصيصها في PowerPoint باستخدام Aspose.Slides لجافا. ستساعدك هذه المهارات على تحسين عروضك التقديمية من خلال تصوّر مراحل عملية أو مسار مبيعات بفعالية.
+## حالات الاستخدام الشائعة والنصائح (H2)
+
+- **تقارير خط أنابيب المبيعات** – تصور تحويل العملاء المحتملين من مرحلة prospect إلى closed‑won.  
+- **تحليل كفاءة العملية** – إظهار الانخفاض في كل مرحلة من مراحل الإنتاج.  
+- **مراجعة قمع التسويق** – مقارنة أداء الحملات عبر القنوات.  
+
+**نصيحة احترافية:** استخدم ثوابت `java.awt.Color` لألوان متسقة مع العلامة التجارية بدلاً من القيم العشوائية للحصول على مظهر أكثر صقلاً.
+
+## الأسئلة المتكررة
+
+**س: كيف أغيّر اتجاه مخطط القمع؟**  
+**ج:** اضبط خاصية `ChartOrientation` على كائن `IChart` إلى `ChartOrientation.Vertical` أو `Horizontal`.
+
+**س: هل يمكنني تصدير الشريحة كصورة بعد إضافة المخطط؟**  
+**ج:** نعم، استدعِ `pres.getSlides().get_Item(0).getThumbnail(1, 1)` واحفظ الـ `java.awt.image.BufferedImage` الناتج.
+
+**س: ماذا لو احتجت إلى أكثر من ثلاث فئات؟**  
+**ج:** ببساطة أضف فئات إضافية باستخدام `chart.getChartData().getCategories().add(...)` ونقاط البيانات المقابلة.
+
+**س: هل هناك طريقة لإخفاء المفتاح (legend)؟**  
+**ج:** استخدم `chart.getChartTitle().setVisible(false)` و `chart.getLegend().setVisible(false)`.
+
+**س: هل أحتاج إلى ترخيص لإصدارات التطوير؟**  
+**ج:** الترخيص المؤقت يكفي للتقييم؛ يلزم ترخيص كامل للنشر في بيئة الإنتاج.
+
+---
+
+**آخر تحديث:** 2026-03-18  
+**تم الاختبار مع:** Aspose.Slides للـ Java 25.4 (jdk16)  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

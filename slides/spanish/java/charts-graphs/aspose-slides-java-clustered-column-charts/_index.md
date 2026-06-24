@@ -1,13 +1,13 @@
 ---
-date: '2026-01-17'
-description: Aprende cómo crear un gráfico de columnas agrupadas en Java con Aspose.Slides.
-  Esta guía paso a paso muestra cómo agregar el gráfico, establecer colores y guardar
-  la presentación.
+date: '2026-03-18'
+description: Aprende cómo crear un gráfico de columnas agrupadas en Java con Aspose.Slides,
+  cómo añadir el gráfico, establecer colores y guardar la presentación como PPTX.
+  Guía paso a paso con ejemplos de código.
 keywords:
 - create clustered column chart
 - aspose slides java tutorial
 - clustered column chart java
-title: How to create clustered column chart in Java with Aspose.Slides
+title: Cómo crear un gráfico de columnas agrupadas en Java con Aspose.Slides
 url: /es/java/charts-graphs/aspose-slides-java-clustered-column-charts/
 weight: 1
 ---
@@ -20,30 +20,28 @@ weight: 1
 # Cómo crear un gráfico de columnas agrupadas en Java con Aspose.Slides
 
 ## Introducción
-Crear representaciones de datos visualmente atractivas es esencial para presentaciones empresariales impactantes, y aprender **cómo crear un gráfico de columnas agrupadas** de forma programática puede ahorrarte horas de trabajo manual. Esta guía paso a paso simplifica el proceso de uso de **Aspose.Slides for Java** para crear y dar estilo a gráficos de columnas agrupadas rápidamente, mejorando tus presentaciones con visuales profesionales sin esfuerzo.
-
-Recorreremos todo lo que necesitas, desde la configuración de la biblioteca hasta la incorporación del gráfico, la personalización de los colores de las series y el guardado del archivo final.
+Crear representaciones de datos visualmente atractivas es esencial para presentaciones empresariales impactantes, y aprender **cómo crear un gráfico de columnas agrupadas** de forma programática puede ahorrarte horas de trabajo manual. En este tutorial verás **cómo añadir un gráfico**, aplicar **colores automáticamente**, y finalmente **guardar la presentación como PPTX** usando **Aspose.Slides for Java**. Recorreremos todo lo que necesitas: desde la configuración de la biblioteca hasta la inserción del gráfico, la personalización de los colores de relleno de las series y la persistencia del archivo.
 
 ### Lo que lograrás
 - Instalar y configurar Aspose.Slides for Java  
 - **Crear un gráfico de columnas agrupadas** en una presentación nueva  
-- Aplicar automáticamente colores de relleno a las series  
-- Guardar la presentación en disco  
+- Aplicar automáticamente colores de relleno a las series (**cómo establecer colores**)  
+- **Guardar la presentación como PPTX** en disco (**cómo guardar la presentación**)  
 
-¡Comencemos con los requisitos previos antes de construir nuestro gráfico!
+Vamos a cubrir los requisitos previos antes de comenzar a construir el gráfico.
 
 ## Respuestas rápidas
 - **¿Cuál es la clase principal?** `Presentation` de `com.aspose.slides`  
-- **¿Cómo añado un gráfico?** Usa `addChart(ChartType.ClusteredColumn, ...)` en la colección de formas de una diapositiva  
-- **¿Puedo establecer colores automáticamente?** Sí, llama a `setAutomaticSeriesColor(true)` en cada serie  
-- **¿Qué formato se usa para guardar?** `SaveFormat.Pptx` (PowerPoint)  
+- **¿Cómo añado un gráfico?** Usa `addChart(ChartType.ClusteredColumn, …)` en la colección de formas de una diapositiva (**cómo añadir gráfico**)  
+- **¿Puedo establecer colores automáticamente?** Sí, llama a `setAutomaticSeriesColor(true)` en cada serie (**cómo establecer colores**)  
+- **¿Qué formato se usa para guardar?** `SaveFormat.Pptx` (PowerPoint) (**guardar presentación como pptx**)  
 - **¿Necesito una licencia?** Una prueba funciona para pruebas; se requiere una licencia completa para producción  
 
 ## Requisitos previos
 Antes de comenzar, asegúrate de contar con las herramientas y conocimientos necesarios:
 
 ### Bibliotecas y dependencias requeridas
-Necesitarás la biblioteca Aspose.Slides for Java. Asegúrate de estar usando la versión 25.4 con soporte para JDK16.
+Necesitarás la biblioteca Aspose.Slides for Java. Asegúrate de usar la versión 25.4 con soporte para JDK16.
 
 ### Requisitos de configuración del entorno
 Tu entorno de desarrollo debe soportar Java (preferiblemente JDK16) y ser capaz de compilar proyectos usando Maven o Gradle.
@@ -54,7 +52,7 @@ Familiaridad con la programación básica en Java, el uso de bibliotecas mediant
 ## Configuración de Aspose.Slides for Java
 Para integrar Aspose.Slides en tu proyecto, sigue las instrucciones de configuración a continuación:
 
-**Maven**  
+**Maven**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -64,7 +62,7 @@ Para integrar Aspose.Slides en tu proyecto, sigue las instrucciones de configura
 </dependency>
 ```
 
-**Gradle**  
+**Gradle**
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
@@ -78,14 +76,15 @@ Para quienes prefieren descargas directas, visita [Aspose.Slides for Java releas
 - **Compra**: Para uso continuo, adquiere una licencia completa.
 
 **Inicialización y configuración básica**  
-Inicializa Aspose.Slides de la siguiente manera:  
+Inicializa Aspose.Slides de la siguiente manera:
 ```java
 import com.aspose.slides.Presentation;
 // Initialize the Presentation class
 Presentation presentation = new Presentation();
 ```
 
-## Guía de implementación
+## Cómo añadir un gráfico de columnas agrupadas
+Añadir un gráfico es el primer paso funcional. Esta sección explica **cómo añadir un gráfico** usando la API.
 
 ### Función 1: Crear un gráfico de columnas agrupadas
 Creemos un gráfico de columnas agrupadas usando Aspose.Slides for Java. Esta función te permite añadir gráficos visualmente atractivos a tus diapositivas sin esfuerzo.
@@ -94,7 +93,7 @@ Creemos un gráfico de columnas agrupadas usando Aspose.Slides for Java. Esta fu
 En esta sección, inicializaremos una nueva presentación e insertaremos un gráfico de columnas agrupadas en la primera diapositiva.
 
 **Paso 1: Inicializar la presentación**  
-Crea un objeto `Presentation` para comenzar a trabajar con archivos PowerPoint:  
+Crea un objeto `Presentation` para comenzar a trabajar con archivos PowerPoint:
 ```java
 import com.aspose.slides.Presentation;
 // Initialize a new Presentation object
@@ -102,7 +101,7 @@ Presentation presentation = new Presentation();
 ```
 
 **Paso 2: Añadir el gráfico de columnas agrupadas**  
-Añade el gráfico en las coordenadas especificadas (100, 50) y dimensiones (600 × 400):  
+Añade el gráfico en las coordenadas especificadas (100, 50) y con dimensiones (600 × 400):
 ```java
 import com.aspose.slides.ChartType;
 import com.aspose.slides.IChart;
@@ -111,21 +110,24 @@ IChart chart = presentation.getSlides().get_Item(0).getShapes()
 ```
 
 **Paso 3: Liberar recursos**  
-Siempre libera los recursos para evitar fugas de memoria:  
+Siempre libera los recursos para evitar fugas de memoria:
 ```java
 finally {
     if (presentation != null) presentation.dispose();
 }
 ```
 
+## Cómo establecer colores para el gráfico
+Mejora el atractivo visual aplicando automáticamente colores de relleno a las series (**cómo establecer colores**).
+
 ### Función 2: Establecer color de relleno automático para las series
-Mejora el atractivo visual estableciendo colores de relleno automáticos para las series.
+Configura el color de cada serie del gráfico automáticamente para lograr una apariencia coherente.
 
 #### Visión general
 Configura el color de cada serie del gráfico automáticamente para lograr una apariencia coherente.
 
 **Paso 1: Acceder al gráfico e iterar las series**  
-Después de crear tu gráfico, accede a él e itera sus series:  
+Después de crear tu gráfico, accede a él e itera sus series:
 ```java
 import com.aspose.slides.IChart;
 IChart chart = presentation.getSlides().get_Item(0).getShapes()
@@ -137,12 +139,15 @@ for (int i = 0; i < chart.getChartData().getSeries().size(); i++) {
 ```
 
 **Paso 2: Gestión de recursos**  
-Libera el objeto `Presentation` una vez finalizado:  
+Libera el objeto `Presentation` una vez que hayas terminado:
 ```java
 finally {
     if (presentation != null) presentation.dispose();
 }
 ```
+
+## Cómo guardar la presentación como PPTX
+Una vez que el gráfico se vea excelente, querrás persistir el archivo (**cómo guardar la presentación**).
 
 ### Función 3: Guardar la presentación en disco
 Finalmente, guarda tu trabajo fácilmente usando Aspose.Slides.
@@ -151,43 +156,43 @@ Finalmente, guarda tu trabajo fácilmente usando Aspose.Slides.
 Guarda tus presentaciones editadas en el formato y ubicación deseados.
 
 **Paso 1: Definir la ruta de salida**  
-Especifica dónde deseas guardar el archivo:  
+Especifica dónde deseas guardar el archivo:
 ```java
 import com.aspose.slides.SaveFormat;
 String outputPath = "YOUR_OUTPUT_DIRECTORY/AutoFillSeries_out.pptx";
 ```
 
 **Paso 2: Guardar la presentación**  
-Utiliza el método `save` del objeto `Presentation`:  
+Utiliza el método `save` del objeto `Presentation`:
 ```java
 presentation.save(outputPath, SaveFormat.Pptx);
 ```
 
 ## Aplicaciones prácticas
-- **Informes financieros**: Visualiza ganancias trimestrales con claridad.  
-- **Análisis de datos de marketing**: Muestra resultados de campañas mediante visuales impactantes.  
+- **Informes financieros**: Visualiza los ingresos trimestrales con claridad.  
+- **Análisis de datos de marketing**: Muestra los resultados de campañas mediante visuales impactantes.  
 - **Gestión de proyectos**: Rastrea hitos y avances visualmente en reuniones de equipo.
 
 ## Consideraciones de rendimiento
 Al trabajar con Aspose.Slides, ten en cuenta estas buenas prácticas:
 
-- Gestiona la memoria de forma eficaz liberando objetos `Presentation` rápidamente.  
+- Gestiona la memoria de forma eficaz liberando los objetos `Presentation` rápidamente.  
 - Optimiza el tamaño de los archivos al guardar presentaciones para conservar espacio en disco.  
 - Utiliza estructuras de datos eficientes para las series del gráfico y mejorar el rendimiento.
 
 ## Conclusión
-¡Felicidades! Has aprendido a **crear un gráfico de columnas agrupadas** y a darle estilo usando Aspose.Slides for Java. Esta habilidad no solo mejora tus presentaciones, sino que también agiliza el proceso de representación visual de datos.
+¡Felicidades! Has aprendido a **crear un gráfico de columnas agrupadas**, a **establecer colores automáticamente** y a **guardar la presentación como PPTX** usando Aspose.Slides for Java. Esta habilidad no solo mejora tus presentaciones, sino que también agiliza el proceso de representación visual de datos.
 
 **Próximos pasos:**  
-Explora funciones adicionales como personalizar elementos del gráfico, añadir etiquetas de datos o integrar fuentes de datos para ampliar las capacidades de tu proyecto.
+Explora funciones adicionales como personalizar elementos del gráfico, añadir etiquetas de datos o integrar fuentes de datos externas para ampliar las capacidades de tu proyecto.
 
 ## Sección de preguntas frecuentes
 1. **¿Cómo instalo Aspose.Slides para una versión específica de JDK?**  
    - Usa dependencias Maven/Gradle especificando `classifier` como se muestra en la sección de configuración.  
 2. **¿Qué ocurre si mi presentación no se guarda correctamente?**  
    - Asegúrate de tener permisos de escritura en el directorio de salida y de que la ruta del archivo sea correcta.  
-3. **¿Puedo crear otros tipos de gráficos usando Aspose.Slides for Java?**  
-   - ¡Por supuesto! Explora las opciones de `ChartType` como gráficos de pastel, barras o líneas.  
+3. **¿Puedo crear otros tipos de gráficos con Aspose.Slides for Java?**  
+   - ¡Por supuesto! Explora las opciones de `ChartType` como gráficos de pastel, barra o línea.  
 4. **¿Cómo manejo conjuntos de datos grandes en mi gráfico?**  
    - Optimiza las estructuras de datos y considera pre‑procesar tus datos antes de visualizarlos.  
 5. **¿Dónde puedo encontrar más ejemplos de uso de Aspose.Slides for Java?**  
@@ -203,7 +208,7 @@ Explora funciones adicionales como personalizar elementos del gráfico, añadir 
 
 ---
 
-**Última actualización:** 2026-01-17  
+**Última actualización:** 2026-03-18  
 **Probado con:** Aspose.Slides 25.4 (JDK16)  
 **Autor:** Aspose  
 

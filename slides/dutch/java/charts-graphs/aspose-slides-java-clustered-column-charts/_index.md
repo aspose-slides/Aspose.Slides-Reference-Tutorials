@@ -1,8 +1,8 @@
 ---
-date: '2026-01-17'
-description: Leer hoe je een gegroepeerde kolomgrafiek maakt in Java met Aspose.Slides.
-  Deze stapsgewijze handleiding laat zien hoe je een grafiek toevoegt, kleuren instelt
-  en de presentatie opslaat.
+date: '2026-03-18'
+description: Leer hoe je een gegroepeerde kolomgrafiek maakt in Java met Aspose.Slides,
+  hoe je een grafiek toevoegt, kleuren instelt en de presentatie opslaat als PPTX.
+  Stapsgewijze handleiding met codevoorbeelden.
 keywords:
 - create clustered column chart
 - aspose slides java tutorial
@@ -20,38 +20,36 @@ weight: 1
 # Hoe een gegroepeerde kolomgrafiek te maken in Java met Aspose.Slides
 
 ## Introductie
-Het creëren van visueel aantrekkelijke gegevensrepresentaties is essentieel voor impactvolle zakelijke presentaties, en het leren **how to create clustered column chart** programmatically kan je uren handmatig werk besparen. Deze stap‑voor‑stap gids vereenvoudigt het proces van het gebruik van **Aspose.Slides for Java** om snel gegroepeerde kolomgrafieken te maken en te stylen, waardoor je presentaties moeiteloos worden verrijkt met professionele visuals.
-
-We lopen alles door wat je nodig hebt — van het instellen van de bibliotheek tot het toevoegen van de grafiek, het aanpassen van de kleuren van de series en het opslaan van het uiteindelijke bestand.
+Het creëren van visueel aantrekkelijke gegevensrepresentaties is essentieel voor impactvolle zakelijke presentaties, en het leren **hoe je een gegroepeerde kolomgrafiek** programmatically kunt maken, kan je uren handmatig werk besparen. In deze tutorial zie je **hoe je een grafiek toevoegt**, automatisch **kleuren instelt**, en uiteindelijk **de presentatie opslaat als PPTX** met **Aspose.Slides for Java**. We lopen alles door wat je nodig hebt — van het instellen van de bibliotheek tot het toevoegen van de grafiek, het aanpassen van de vulkleuren van de series, en het opslaan van het bestand.
 
 ### Wat je zult bereiken
-- Installeer en configureer Aspose.Slides for Java  
-- **Create clustered column chart** in een gloednieuwe presentatie  
-- Pas automatisch vulkleuren van series toe  
-- Sla de presentatie op schijf  
+- Installeer en configureer Aspose.Slides voor Java  
+- **Maak een gegroepeerde kolomgrafiek** in een gloednieuwe presentatie  
+- Pas automatisch vulkleuren van series toe (**how to set colors**)  
+- **Sla de presentatie op als PPTX** naar schijf (**how to save presentation**)  
 
-Laten we beginnen met de vereisten voordat we onze grafiek bouwen!
+Laten we eerst de vereisten behandelen voordat we beginnen met het bouwen van de grafiek.
 
 ## Snelle antwoorden
-- **What is the primary class?** `Presentation` from `com.aspose.slides`  
-- **How do I add a chart?** Use `addChart(ChartType.ClusteredColumn, ...)` on a slide’s shape collection  
-- **Can I set colors automatically?** Yes, call `setAutomaticSeriesColor(true)` on each series  
-- **Which format is used for saving?** `SaveFormat.Pptx` (PowerPoint)  
-- **Do I need a license?** Een proefversie werkt voor testen; een volledige licentie is vereist voor productie  
+- **Wat is de primaire klasse?** `Presentation` van `com.aspose.slides`  
+- **Hoe voeg ik een grafiek toe?** Gebruik `addChart(ChartType.ClusteredColumn, …)` op de vormcollectie van een dia (**how to add chart**)  
+- **Kan ik kleuren automatisch instellen?** Ja, roep `setAutomaticSeriesColor(true)` aan op elke serie (**how to set colors**)  
+- **Welk formaat wordt gebruikt voor opslaan?** `SaveFormat.Pptx` (PowerPoint) (**save presentation as pptx**)  
+- **Heb ik een licentie nodig?** Een proefversie werkt voor testen; een volledige licentie is vereist voor productie  
 
 ## Vereisten
-Before you begin, ensure you have the necessary tools and knowledge:
+Zorg er voordat je begint voor dat je de benodigde tools en kennis hebt:
 
-### Required Libraries and Dependencies
-Je hebt de Aspose.Slides for Java bibliotheek nodig. Zorg ervoor dat je versie 25.4 met JDK16-ondersteuning gebruikt.
+### Vereiste bibliotheken en afhankelijkheden
+Je hebt de Aspose.Slides for Java bibliotheek nodig. Zorg ervoor dat je versie 25.4 gebruikt met JDK16-ondersteuning.
 
-### Environment Setup Requirements
+### Vereisten voor omgeving configuratie
 Je ontwikkelomgeving moet Java ondersteunen (bij voorkeur JDK16) en in staat zijn projecten te bouwen met Maven of Gradle.
 
-### Knowledge Prerequisites
+### Kennisvereisten
 Bekendheid met basis Java-programmeren, werken met bibliotheken via Maven/Gradle, en begrip van PowerPoint-presentaties is nuttig.
 
-## Aspose.Slides voor Java instellen
+## Instellen van Aspose.Slides voor Java
 Om Aspose.Slides in je project te integreren, volg je de onderstaande installatie‑instructies:
 
 **Maven**
@@ -72,37 +70,38 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 **Direct Download**  
 Voor wie de voorkeur geeft aan directe downloads, bezoek [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### License Acquisition Steps
-- **Free Trial**: Begin met een gratis proefversie om de functies te verkennen.  
-- **Temporary License**: Verkrijg een tijdelijke licentie om zonder beperkingen te testen.  
-- **Purchase**: Voor doorlopend gebruik, koop een volledige licentie.
+### Stappen voor licentie‑acquisitie
+- **Gratis proefversie**: Begin met een gratis proefversie om de functies te verkennen.  
+- **Tijdelijke licentie**: Verkrijg een tijdelijke licentie om zonder beperkingen te testen.  
+- **Aankoop**: Voor doorlopend gebruik, koop een volledige licentie.
 
-**Basisinitialisatie en Setup**  
-Initialiseer Aspose.Slides als volgt:
+**Basisinitialisatie en configuratie**  
+Initialize Aspose.Slides as follows:
 ```java
 import com.aspose.slides.Presentation;
 // Initialize the Presentation class
 Presentation presentation = new Presentation();
 ```
 
-## Implementatie‑gids
+## Hoe een gegroepeerde kolomgrafiek toe te voegen
+Het toevoegen van een grafiek is de eerste functionele stap. Deze sectie legt **how to add chart** uit met behulp van de API.
 
-### Kenmerk 1: Een gegroepeerde kolomgrafiek maken
+### Functie 1: Maak een gegroepeerde kolomgrafiek
 Laten we een gegroepeerde kolomgrafiek maken met Aspose.Slides for Java. Deze functie stelt je in staat om moeiteloos visueel aantrekkelijke grafieken aan je dia's toe te voegen.
 
-#### Overview
+#### Overzicht
 In deze sectie initialiseren we een nieuwe presentatie en voegen we een gegroepeerde kolomgrafiek toe aan de eerste dia.
 
 **Stap 1: Presentatie initialiseren**  
-Maak een `Presentation` object aan om met PowerPoint‑bestanden te werken:
+Create a `Presentation` object to start working with PowerPoint files:
 ```java
 import com.aspose.slides.Presentation;
 // Initialize a new Presentation object
 Presentation presentation = new Presentation();
 ```
 
-**Stap 2: Gegroepeerde kolomgrafiek toevoegen**  
-Voeg de grafiek toe op de opgegeven coördinaten (100, 50) en afmetingen (600 × 400):
+**Stap 2: Voeg gegroepeerde kolomgrafiek toe**  
+Add the chart at specified coordinates (100, 50) and dimensions (600 × 400):
 ```java
 import com.aspose.slides.ChartType;
 import com.aspose.slides.IChart;
@@ -111,21 +110,24 @@ IChart chart = presentation.getSlides().get_Item(0).getShapes()
 ```
 
 **Stap 3: Resources opruimen**  
-Maak altijd resources vrij om geheugenlekken te voorkomen:
+Always dispose of resources to prevent memory leaks:
 ```java
 finally {
     if (presentation != null) presentation.dispose();
 }
 ```
 
-### Kenmerk 2: Automatische vulkleur voor series instellen
-Verhoog de visuele aantrekkingskracht door automatische vulkleuren voor series in te stellen.
+## Hoe kleuren in te stellen voor de grafiek
+Verbeter de visuele aantrekkingskracht door automatisch vulkleuren voor series toe te passen (**how to set colors**).
 
-#### Overview
-Stel de kleur van elke serie van de grafiek automatisch in voor een samenhangende uitstraling.
+### Functie 2: Stel automatische serie‑vulkleur in
+Stel de kleur van elke serie in de grafiek automatisch in voor een samenhangende uitstraling.
+
+#### Overzicht
+Stel de kleur van elke serie in de grafiek automatisch in voor een samenhangende uitstraling.
 
 **Stap 1: Toegang tot grafiek en itereren over series**  
-Na het maken van je grafiek, krijg je toegang tot deze en loop je door de series:
+After creating your chart, access it and iterate over its series:
 ```java
 import com.aspose.slides.IChart;
 IChart chart = presentation.getSlides().get_Item(0).getShapes()
@@ -136,74 +138,77 @@ for (int i = 0; i < chart.getChartData().getSeries().size(); i++) {
 }
 ```
 
-**Stap 2: Resource‑beheer**  
-Maak het presentatie‑object vrij zodra je klaar bent:
+**Stap 2: Resourcebeheer**  
+Dispose of the presentation object once done:
 ```java
 finally {
     if (presentation != null) presentation.dispose();
 }
 ```
 
-### Kenmerk 3: Presentatie opslaan op schijf
-Sla je werk eindelijk eenvoudig op met Aspose.Slides.
+## Hoe de presentatie op te slaan als PPTX
+Zodra de grafiek er goed uitziet, wil je het bestand opslaan (**how to save presentation**).
 
-#### Overview
+### Functie 3: Sla presentatie op schijf
+Sla tenslotte je werk eenvoudig op met behulp van Aspose.Slides.
+
+#### Overzicht
 Sla je bewerkte presentaties op in het gewenste formaat en op de gewenste locatie.
 
-**Stap 1: Output‑pad definiëren**  
-Geef aan waar je het bestand wilt opslaan:
+**Stap 1: Definieer uitvoerpad**  
+Specify where you want to save the file:
 ```java
 import com.aspose.slides.SaveFormat;
 String outputPath = "YOUR_OUTPUT_DIRECTORY/AutoFillSeries_out.pptx";
 ```
 
 **Stap 2: Presentatie opslaan**  
-Gebruik de `save`‑methode van het `Presentation`‑object:
+Use the `save` method of the `Presentation` object:
 ```java
 presentation.save(outputPath, SaveFormat.Pptx);
 ```
 
 ## Praktische toepassingen
-- **Financial Reports**: Visualiseer kwartaalresultaten duidelijk.  
-- **Marketing Data Analysis**: Toon campagneresultaten met overtuigende visuals.  
-- **Project Management**: Volg mijlpalen en voortgang visueel tijdens teamvergaderingen.
+- **Financiële rapporten**: Visualiseer kwartaalresultaten met helderheid.  
+- **Marketing data-analyse**: Toon campagneresultaten met overtuigende visuals.  
+- **Projectmanagement**: Volg mijlpalen en voortgang visueel tijdens teamvergaderingen.
 
-## Prestatiesoverwegingen
-When working with Aspose.Slides, consider these best practices:
+## Prestatieoverwegingen
+Bij het werken met Aspose.Slides, houd rekening met deze best practices:
 
-- Beheer het geheugen efficiënt door `Presentation`‑objecten tijdig vrij te geven.  
+- Beheer het geheugen effectief door `Presentation`‑objecten tijdig te disposen.  
 - Optimaliseer bestandsgroottes bij het opslaan van presentaties om schijfruimte te besparen.  
 - Gebruik efficiënte datastructuren voor grafiekseries om de prestaties te verbeteren.
 
 ## Conclusie
-Gefeliciteerd! Je hebt geleerd hoe je **create clustered column chart** kunt maken en stylen met Aspose.Slides for Java. Deze vaardigheid verbetert niet alleen je presentaties, maar stroomlijnt ook het proces van visuele gegevensrepresentatie.
+Gefeliciteerd! Je hebt geleerd hoe je een **gegroepeerde kolomgrafiek** maakt, automatisch **kleuren instelt**, en **de presentatie opslaat als PPTX** met Aspose.Slides for Java. Deze vaardigheid verbetert niet alleen je presentaties, maar stroomlijnt ook het proces van visuele gegevensrepresentatie.
 
 **Volgende stappen:**  
-Verken verdere functies zoals het aanpassen van grafiekelementen, het toevoegen van gegevenslabels, of integratie met gegevensbronnen om de mogelijkheden van je project uit te breiden.
+Verken verdere functies zoals het aanpassen van grafiekelementen, het toevoegen van gegevenslabels, of integratie met externe gegevensbronnen om de mogelijkheden van je project uit te breiden.
 
 ## Veelgestelde vragen
 1. **Hoe installeer ik Aspose.Slides voor een specifieke JDK‑versie?**  
-   - Gebruik Maven/Gradle‑dependencies waarbij je `classifier` opgeeft zoals weergegeven in de setup‑sectie.  
+   - Gebruik Maven/Gradle‑afhankelijkheden waarbij je `classifier` opgeeft zoals weergegeven in de installatie‑sectie.  
 2. **Wat als mijn presentatie niet correct wordt opgeslagen?**  
-   - Zorg ervoor dat je schrijfrechten hebt voor de doelmap en dat het bestandspad correct is.  
-3. **Kan ik andere soorten grafieken maken met Aspose.Slides for Java?**  
+   - Zorg ervoor dat je schrijfrechten hebt voor de uitvoermap en dat het bestandspad correct is.  
+3. **Kan ik andere soorten grafieken maken met Aspose.Slides voor Java?**  
    - Zeker! Verken `ChartType`‑opties zoals taart-, staaf- of lijngrafieken.  
 4. **Hoe ga ik om met grote datasets in mijn grafiek?**  
    - Optimaliseer datastructuren en overweeg je gegevens vooraf te verwerken voordat je ze visualiseert.  
-5. **Waar vind ik meer voorbeelden van het gebruik van Aspose.Slides for Java?**  
+5. **Waar vind ik meer voorbeelden van het gebruik van Aspose.Slides voor Java?**  
    - Bezoek de [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/) voor uitgebreide handleidingen en code‑voorbeelden.
 
 ## Bronnen
-- **Documentatie**: [Aspose.Slides Reference](https://reference.aspose.com/slides/java/)  
-- **Download**: [Get Aspose.Slides](https://releases.aspose.com/slides/java/)  
-- **Aankoop**: [Buy a License](https://purchase.aspose.com/buy)  
-- **Gratis proefversie**: [Start a Free Trial](https://releases.aspose.com/slides/java/)  
-- **Tijdelijke licentie**: [Request Here](https://purchase.aspose.com/temporary-license/)  
+- **Documentatie**: [Aspose.Slides Referentie](https://reference.aspose.com/slides/java/)  
+- **Download**: [Aspose.Slides downloaden](https://releases.aspose.com/slides/java/)  
+- **Aankoop**: [Koop een licentie](https://purchase.aspose.com/buy)  
+- **Gratis proefversie**: [Start een gratis proefversie](https://releases.aspose.com/slides/java/)  
+- **Tijdelijke licentie**: [Vraag hier aan](https://purchase.aspose.com/temporary-license/)  
 - **Ondersteuning**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
 ---
 
-**Laatst bijgewerkt:** 2026-01-17  
+**Laatst bijgewerkt:** 2026-03-18  
 **Getest met:** Aspose.Slides 25.4 (JDK16)  
 **Auteur:** Aspose  
 
