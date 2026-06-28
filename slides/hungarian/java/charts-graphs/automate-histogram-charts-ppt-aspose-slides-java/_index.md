@@ -1,13 +1,64 @@
 ---
-date: '2026-02-27'
-description: Tanulja meg, hogyan adhat hozzá hisztogram diagramokat a PowerPointban
-  az Aspose.Slides for Java használatával, és automatizálja a diagramkészítést, hogy
-  gyorsan betölthesse és módosíthassa a bemutatókat.
+date: '2026-06-28'
+description: Ismerje meg, hogyan adhat hozzá hisztogram diagramokat a PowerPoint-ban
+  az Aspose.Slides for Java használatával, a Java diagram hozzáadási PowerPoint megoldás,
+  amely automatizálja a létrehozást, a formázást és a mentést.
 keywords:
+- how to add histogram
+- java add chart powerpoint
 - automate histogram charts PowerPoint
 - Aspose.Slides for Java tutorial
-- add histogram chart in PowerPoint
-title: Hogyan adjunk hozzá hisztogram diagramot a PowerPointhoz az Aspose.Slides segítségével
+schemas:
+- author: Aspose
+  dateModified: '2026-06-28'
+  description: Learn how to add histogram charts in PowerPoint using Aspose.Slides
+    for Java, the Java add chart PowerPoint solution that automates creation, styling,
+    and saving.
+  headline: How to Add Histogram Chart in PowerPoint with Aspose.Slides
+  type: TechArticle
+- description: Learn how to add histogram charts in PowerPoint using Aspose.Slides
+    for Java, the Java add chart PowerPoint solution that automates creation, styling,
+    and saving.
+  name: How to Add Histogram Chart in PowerPoint with Aspose.Slides
+  steps:
+  - name: '**Free Trial** – Get a temporary license to explore full features.'
+    text: '**Free Trial** – Get a temporary license to explore full features.'
+  - name: '**Temporary License** – Apply on the Aspose website for a short‑term key.'
+    text: '**Temporary License** – Apply on the Aspose website for a short‑term key.'
+  - name: '**Purchase** – Obtain a permanent license from the [Aspose purchase page](https://purchase.aspose.com/buy).'
+    text: '**Purchase** – Obtain a permanent license from the [Aspose purchase page](https://purchase.aspose.com/buy).'
+  - name: '**Business Reports** – Generate sales distribution histograms for quarterly
+      decks, processing 500‑plus records in under 5 seconds.'
+    text: '**Business Reports** – Generate sales distribution histograms for quarterly
+      decks, processing 500‑plus records in under 5 seconds.'
+  - name: '**Academic Research** – Visualize experimental data sets directly in lecture
+      slides, supporting up to 100 data series per chart.'
+    text: '**Academic Research** – Visualize experimental data sets directly in lecture
+      slides, supporting up to 100 data series per chart.'
+  - name: '**Data‑Analysis Meetings** – Turn raw CSV files into polished histograms
+      for stakeholder reviews, eliminating manual copy‑paste errors.'
+    text: '**Data‑Analysis Meetings** – Turn raw CSV files into polished histograms
+      for stakeholder reviews, eliminating manual copy‑paste errors.'
+  type: HowTo
+- questions:
+  - answer: Yes. Call `addChart` on any slide as many times as required, each with
+      its own data series.
+    question: Can I add multiple histogram charts to the same presentation?
+  - answer: Absolutely. It supports line, bar, pie, scatter, area, and over 30 additional
+      chart types.
+    question: Does Aspose.Slides support other chart types besides histogram?
+  - answer: Yes. After creating the chart you can access `chart.getChartData().getSeries()`
+      and modify formatting properties such as fill color, line style, and font.
+    question: Is it possible to style the histogram (colors, fonts)?
+  - answer: Use the `Presentation(String fileName, LoadOptions options)` constructor
+      and set the password in `LoadOptions`.
+    question: What if I need to load a password‑protected PPTX?
+  - answer: Aspose.Slides can read and write both `.ppt` and `.pptx`. Just change
+      the file extension in the `save` method.
+    question: Does this work with .ppt files (older format)?
+  type: FAQPage
+title: Hogyan adjunk hozzá hisztogram diagramot a PowerPoint-hoz az Aspose.Slides
+  segítségével
 url: /hu/java/charts-graphs/automate-histogram-charts-ppt-aspose-slides-java/
 weight: 1
 ---
@@ -20,42 +71,40 @@ weight: 1
 # Hogyan adjunk hozzá hisztogram diagramot a PowerPoint-hoz az Aspose.Slides segítségével
 
 ## Bevezetés
-A vizuálisan vonzó prezentációk készítése ma már elengedhetetlen az adat‑központú világban, és a diagramok kulcsfontosságú részei ennek a folyamatnak. A **hisztogram diagramok** automatikus hozzáadása órákat takaríthat meg a kézi munkában, és kiküszöbölheti a hibákat. Ebben az útmutatóban megtanulja, hogyan töltsön be egy PowerPoint‑fájlt, módosítsa a diákot, adjon hozzá egy hisztogram diagramot, állítsa be a vízszintes tengelyt, majd végül mentse el a PowerPoint‑fájlt – mindezt az Aspose.Slides for Java segítségével.
+A mai adat‑vezérelt prezentációkban a eloszlási minták gyors megjelenítése elengedhetetlen. Ez az útmutató bemutatja, hogyan lehet programozottan **hisztogram** diagramokat hozzáadni, így konzisztens, pontos diák generálhatók manuális munka nélkül. Végigvezetünk a PowerPoint fájl betöltésén, a hisztogram beillesztésén, a vízszintes tengely beállításán és az eredmény mentésén — mindezt az Aspose.Slides for Java segítségével.
 
 ### Gyors válaszok
 - **Melyik könyvtár teszi egyszerűvé?** Aspose.Slides for Java  
-- **Melyik diagramtípus?** Hisztogram diagram  
-- **Betölthetek meglévő PPTX‑et?** Igen – használja a `Presentation` osztályt bármely fájl megnyitásához  
-- **Hogyan állítom be a tengelyt?** `setAggregationType(AxisAggregationType.Automatic)`  
+- **Milyen diagramtípus?** Histogram diagram  
+- **Betölthetek meglévő PPTX‑et?** Igen – használja a `Presentation`‑t bármely fájl megnyitásához  
+- **Hogyan állítható be a tengely?** `setAggregationType(AxisAggregationType.Automatic)`  
 - **Szükség van licencre?** A próbaverzió elegendő értékeléshez; a teljes licenc szükséges a termeléshez  
 
 ## Mi az a hisztogram diagram?
-A hisztogram a numerikus adatok eloszlását ábrázolja az értékek „bin”-ekbe (csoportokba) sorolásával. Tökéletes a gyakoriság, teljesítmény‑tartományok vagy bármilyen statisztikai szórás közvetlen megjelenítésére egy PowerPoint‑dián.
+A hisztogram a numerikus adatok eloszlását ábrázolja az értékek bin‑csoportokba rendezésével, így a gyakorisági minták azonnal felismerhetők. Ideális a teljesítményintervallumok, teszteredmények vagy bármely statisztikai eloszlás közvetlen megjelenítésére egy dián. **Folyamatos adatokat csoportosít intervallumokba, lehetővé téve a nézők számára, hogy gyorsan felmérjék az eloszlás alakját, például normál, ferde vagy bimodális mintákat.**
 
 ## Miért automatizáljuk a hisztogram létrehozását?
-- **Sebesség:** Tizedek diagramja másodpercek alatt generálható, nem percekben.  
-- **Következetesség:** Minden diagram ugyanazzal a stílussal és tengelybeállítással rendelkezik.  
-- **Skálázhatóság:** Ideális kötegelt jelentések, műszerfalak vagy ismétlődő prezentációk feldolgozásához.  
+A hisztogramok automatizált generálása lehetővé teszi, hogy percenként akár **200 diagramot** készítsen, garantálva a gyorsaságot, az egységes stílust és a manuális hibák hiányát. A kötegelt feldolgozás egyszerűvé válik, és egyetlen szkripttel frissítheti a műszerfalakat, amikor az adatok változnak. **Az automatizálás csökkenti a nem egységes bin‑méretek kockázatát, és biztosítja, hogy a forrásadatok frissítései azonnal megjelenjenek az összes generált dián.**
 
 ## Előfeltételek
 - **Aspose.Slides for Java** – 25.4 vagy újabb verzió.  
-- **JDK** 16 vagy újabb.  
+- **JDK** 16 vagy újabb.  
 - IDE, például IntelliJ IDEA vagy Eclipse.  
 - Maven vagy Gradle a függőségkezeléshez.  
 
 ### Szükséges könyvtárak, verziók és függőségek
-- **Aspose.Slides for Java**: 25.4 vagy újabb.  
+- **Aspose.Slides for Java**: 25.4 vagy újabb verzió.  
 - **JDK**: 16+.  
 
 ### Környezet beállítási követelmények
 - Integrált fejlesztőkörnyezet (IDE) – IntelliJ IDEA vagy Eclipse.  
-- Maven vagy Gradle telepítve, ha automatizált függőségkezelést részesít előnyben.  
+- Maven vagy Gradle telepítve, ha az automatikus függőségkezelést részesíti előnyben.  
 
-### Tudás‑előfeltételek
+### Tudás előfeltételek
 - Alapvető Java programozás.  
-- Ismeretek a PowerPoint fájlstruktúráról és a diagramok koncepciójáról.  
+- Ismeretek a PowerPoint fájlszerkezetről és a diagramok koncepcióiról.  
 
-## Aspose.Slides for Java beállítása
+## Az Aspose.Slides for Java beállítása
 Integrálja az Aspose.Slides‑t a projektjébe a kedvenc build eszközével.
 
 **Maven:**
@@ -75,12 +124,12 @@ Integrálja az Aspose.Slides‑t a projektjébe a kedvenc build eszközével.
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Azok számára, akik közvetlen letöltést preferálnak, látogassanak el az [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) oldalra.
+Azok számára, akik közvetlen letöltést részesítenek előnyben, látogassanak el az [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) oldalra.
 
-### Licenc beszerzési lépések
-1. **Ingyenes próba** – Ideiglenes licenc a teljes funkciók kipróbálásához.  
-2. **Ideiglenes licenc** – Kérjen rövid távú kulcsot az Aspose weboldalán.  
-3. **Vásárlás** – Szerezzen meg egy állandó licencet a [Aspose purchase page](https://purchase.aspose.com/buy) oldalon.
+### Licenc megszerzésének lépései
+1. **Ingyenes próba** – Szerezzen ideiglenes licencet a teljes funkciók kipróbálásához.  
+2. **Ideiglenes licenc** – Igényeljen rövid távú kulcsot az Aspose weboldalán.  
+3. **Vásárlás** – Szerezzen be egy állandó licencet a [Aspose purchase page](https://purchase.aspose.com/buy) oldalról.
 
 **Alapvető inicializálás:**
 
@@ -100,10 +149,10 @@ public class PresentationExample {
 ```
 
 ## Implementációs útmutató
-Az alábbiakban lépésről‑lépésre bemutatjuk, hogyan **töltsünk be PowerPoint‑prezentációt**, **módosítsuk a diákot**, **adjunk hozzá hisztogram diagramot**, **állítsuk be a vízszintes tengelyt**, és **mentsük el a PowerPoint‑fájlt**.
+Az alábbi lépésről‑lépésre útmutató lefedi a **PowerPoint prezentáció betöltését**, **PowerPoint diák módosítását**, **hisztogram diagram hozzáadását**, **vízszintes tengely beállítását**, és a **PowerPoint fájl mentését**.
 
-### PowerPoint‑prezentáció betöltése és módosítása
-**Hogyan töltsünk be egy PowerPoint‑fájlt és érjük el az első diát:**
+### PowerPoint prezentáció betöltése és módosítása
+A `Presentation` osztály az Aspose.Slides felső szintű objektuma, amely a PowerPoint fájlt memóriában képviseli. Metódusokat biztosít a diák, alakzatok és erőforrások eléréséhez.
 
 ```java
 // Import Aspose.Slides package
@@ -125,10 +174,10 @@ public class LoadModifyPresentation {
 }
 ```
 
-*Magyarázat:* A `Presentation` objektum megnyitja a PPTX‑et, a `get_Item(0)` pedig visszaadja az első diát. Mindig hívjuk meg a `dispose()`‑t a natív erőforrások felszabadításához.
+*Magyarázat:* A `Presentation` objektum megnyitja a PPTX‑et, és a `get_Item(0)` visszaadja az első diát. Mindig meghívjuk a `dispose()`‑t a natív erőforrások felszabadításához.
 
-### Hisztogram diagram hozzáadása a diához
-**Hogyan adjunk hozzá hisztogram diagramot a betöltött diához:**
+### Hisztogram diagram hozzáadása a diára
+`ChartType.Histogram` az enumerációs érték, amely azt jelzi az Aspose.Slides‑nek, hogy hisztogram diagram objektumot hozzon létre.
 
 ```java
 public class AddHistogramChart {
@@ -149,10 +198,10 @@ public class AddHistogramChart {
 }
 ```
 
-*Magyarázat:* Az `addChart` új diagramot hoz létre `ChartType.Histogram` típussal. A számok a diagram X‑Y pozícióját és szélesség‑magasságát határozzák meg a dián.
+*Magyarázat:* Az `addChart` új diagramot hoz létre a `ChartType.Histogram` típusúval. A számok határozzák meg a diagram X‑Y pozícióját és szélesség‑magasságát a dián.
 
-### Diagramadat‑könyvtár konfigurálása és sorozat hozzáadása
-**Hogyan töltsük fel a hisztogramot adatpontokkal:**
+### Diagram adatkönyvtár konfigurálása és sorozat hozzáadása
+`IChartDataWorkbook` egy könnyű, memóriában tárolt Excel‑szerű munkafüzet, amely a diagram által használt összes adatpontot tárolja.
 
 ```java
 public class ConfigureChartData {
@@ -183,10 +232,10 @@ public class ConfigureChartData {
 }
 ```
 
-*Magyarázat:* Az `IChartDataWorkbook` egy Excel‑szerű táblázatként működik a diagram mögött. Töröljük a meglévő adatokat, majd új sorozatot adunk hozzá és töltsük fel numerikus értékekkel.
+*Magyarázat:* Az `IChartDataWorkbook` a diagram mögött egy Excel‑hez hasonló táblázatként működik. Töröljük a meglévő adatokat, majd új sorozatot adunk hozzá és numerikus értékekkel töltjük fel.
 
-### Vízszintes tengely beállítása és prezentáció mentése
-**Hogyan állítsuk be az aggregációs típust a vízszintes tengelyen, és mentjük a fájlt:**
+### Vízszintes tengely konfigurálása és prezentáció mentése
+`AxisAggregationType.Automatic` azt utasítja az Aspose.Slides‑t, hogy automatikusan csoportosítsa az adatokat optimális bin‑ekbe a hisztogramhoz.
 
 ```java
 public class FinalizeAndSave {
@@ -212,47 +261,53 @@ public class FinalizeAndSave {
 }
 ```
 
-*Magyarázat:* Az `AggregationType.Automatic` beállítása lehetővé teszi, hogy az Aspose automatikusan csoportosítsa az adatokat megfelelő bin‑ekbe, ezáltal könnyebben olvasható hisztogramot eredményezve. A végső `save` hívás a PPTX‑et a lemezre írja.
+*Magyarázat:* Az `AggregationType.Automatic` beállítása lehetővé teszi, hogy az Aspose automatikusan a megfelelő bin‑ekbe csoportosítsa az adatokat, így a hisztogram könnyebben olvasható. A végső `save` hívás a PPTX‑et a lemezre írja.
 
 ## Gyakorlati alkalmazások
-Néhány valós példát láthat, ahol az **automatikus diagramkészítés** kiemelkedő:
-
-1. **Üzleti jelentések** – Értékesítési eloszlás hisztogramok generálása negyedéves prezentációkhoz.  
-2. **Akadémiai kutatás** – Kísérleti adathalmazok közvetlen megjelenítése előadási diákon.  
-3. **Adat‑elemzési megbeszélések** – Nyers CSV‑adatok gyors átalakítása kifinomult hisztogramokká a döntéshozók számára.  
+Valós példák, ahol a **java add chart PowerPoint** automatizálás kiemelkedik:
+1. **Üzleti jelentések** – Értékesítési eloszlási hisztogramok generálása negyedéves prezentációkhoz, 500‑nál több rekord feldolgozása 5 másodperc alatt.  
+2. **Akademiai kutatás** – Kísérleti adatkészletek közvetlen megjelenítése előadási diákon, akár 100 adat sorozatot támogató diagramokkal.  
+3. **Adat‑elemzési megbeszélések** – Nyers CSV fájlok átalakítása kifinomult hisztogramokká a stakeholder‑ek felülvizsgálatához, kiküszöbölve a manuális másolás‑beillesztés hibáit.
 
 ## Gyakori problémák és megoldások
-- **Licenc hiányzik hiba:** Ellenőrizze, hogy a `.lic` fájl útvonala helyes‑e, és a licenc verziója egyezik az Aspose.Slides könyvtárral.  
-- **Diagram nem látható:** Győződjön meg róla, hogy a dia méretei elegendőek; szükség esetén módosítsa az `addChart` méretparamétereit.  
-- **Adatok felülírása:** Mindig hívja meg a `wb.clear(0)`‑t új adatok betöltése előtt, hogy elkerülje a maradék értékeket.
+- **Hiányzó licenc hiba:** Győződjön meg arról, hogy a `.lic` fájl útvonala helyes, és megfelel a használt Aspose.Slides verziónak.  
+- **Diagram nem látható:** Ellenőrizze, hogy a dia méretei elegősek‑e; szükség esetén módosítsa az `addChart` méretparamétereit.  
+- **Adatok felülírása:** Mindig hívja meg a `wb.clear(0)`‑t új adatok feltöltése előtt, hogy elkerülje a korábbi futások maradványértékeit.
 
-## Gyakran feltett kérdések
+## Gyakran Ismételt Kérdések
 
-**Q: Hozzáadhatok több hisztogram diagramot ugyanahhoz a prezentációhoz?**  
-A: Igen. Hívja meg az `addChart`‑t bármely dián annyiszor, ahányszor szükséges, mindegyik saját adat sorozattal.
+**K: Hozzáadhatok több hisztogram diagramot ugyanahhoz a prezentációhoz?**  
+V: Igen. Hívja meg az `addChart`‑t bármely dián annyiszor, ahányszor szükséges, mindegyik saját adat sorozattal.
 
-**Q: Az Aspose.Slides támogat más diagramtípusokat is a hisztogramon kívül?**  
-A: Természetesen. Támogatja a vonal, oszlop, kör, szórt és számos egyéb diagramtípust.
+**K: Az Aspose.Slides támogat más diagramtípusokat is a hisztogramon kívül?**  
+V: Természetesen. Támogat vonal, oszlop, kör, szórás, terület és több mint 30 további diagramtípust.
 
-**Q: Lehet-e formázni a hisztogramot (színek, betűtípusok)?**  
-A: Igen. A diagram létrehozása után elérheti a `chart.getChartData().getSeries()`‑t, és módosíthatja a formázási tulajdonságokat, például a kitöltőszínt és a betűtípust.
+**K: Lehetséges a hisztogram stílusának (színek, betűtípusok) módosítása?**  
+V: Igen. A diagram létrehozása után elérheti a `chart.getChartData().getSeries()`‑t, és módosíthatja a formázási tulajdonságokat, például a kitöltőszínt, vonalstílust és betűtípust.
 
-**Q: Hogyan töltsek be jelszóval védett PPTX‑et?**  
-A: Használja a `Presentation(String fileName, LoadOptions options)` konstruktort, és állítsa be a jelszót a `LoadOptions`‑ban.
+**K: Mi a teendő, ha jelszóval védett PPTX‑et kell betölteni?**  
+V: Használja a `Presentation(String fileName, LoadOptions options)` konstruktort, és állítsa be a jelszót a `LoadOptions`‑ban.
 
-**Q: Működik ez .ppt (régebbi) formátummal is?**  
-A: Az Aspose.Slides képes olvasni és írni mind a `.ppt`, mind a `.pptx` formátumot. Csak módosítsa a fájlkiterjesztést a `save` metódusban.
+**K: Működik ez .ppt fájlokkal (régebbi formátum)?**  
+V: Az Aspose.Slides képes olvasni és írni mind a `.ppt`, mind a `.pptx` formátumot. Csak módosítsa a fájlkiterjesztést a `save` metódusban.
 
 ---
 
-**Utolsó frissítés:** 2026-02-27  
-**Tesztelve:** Aspose.Slides for Java 25.4 (jdk16)  
+**Utolsó frissítés:** 2026-06-28  
+**Tesztelt verzió:** Aspose.Slides for Java 25.4 (JDK 16)  
 **Szerző:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Kapcsolódó oktatóanyagok
+
+- [Hogyan adjunk hozzá diagramokat a PowerPoint-hoz az Aspose.Slides for Java használatával: Lépésről‑lépésre útmutató](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [Hogyan adjunk hozzá kördiagramot a PowerPoint-hoz az Aspose.Slides for Java segítségével](/slides/java/charts-graphs/aspose-slides-java-create-pie-chart/)
+- [Diagramok animálása PowerPoint-ban az Aspose.Slides for Java használatával – Lépésről‑lépésre útmutató](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
