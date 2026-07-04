@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-17"
-"description": "Leer hoe je lijndiagrammen met markeringen maakt in Java met Aspose.Slides. Deze tutorial behandelt het maken van diagrammen, het toevoegen van reeksen en het effectief opslaan van presentaties."
-"title": "Lijndiagrammen maken met standaardmarkeringen met Aspose.Slides voor Java"
-"url": "/nl/java/charts-graphs/create-line-charts-aspose-slides-java/"
-"weight": 1
+date: '2026-03-23'
+description: Leer hoe u Aspose.Slides for Java kunt gebruiken om lijndiagrammen met
+  markers te maken, een tweede reeks toe te voegen en null‑gegevens in PowerPoint‑presentaties
+  te verwerken.
+keywords:
+- Aspose.Slides for Java
+- line charts with markers in Java
+- creating presentations programmatically
+title: 'Hoe Aspose.Slides voor Java te gebruiken: lijndiagrammen maken met standaardmarkeringen'
+url: /nl/java/charts-graphs/create-line-charts-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,33 +17,37 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Lijndiagrammen maken met standaardmarkeringen met Aspose.Slides voor Java
-## Invoering
-Het maken van visueel aantrekkelijke en informatieve grafieken is essentieel voor presentaties, rapporten en dashboards. Het automatiseren van dit proces in softwareontwikkeling bespaart tijd en zorgt voor consistentie in documenten. Deze tutorial laat zien hoe je lijndiagrammen met markeringen maakt met Aspose.Slides voor Java.
-**Aspose.Slides voor Java** is een krachtige bibliotheek waarmee ontwikkelaars PowerPoint-presentaties programmatisch kunnen bewerken zonder dat Microsoft Office geïnstalleerd hoeft te worden. Het vereenvoudigt taken zoals het maken, bewerken en exporteren van dia's, waardoor het een essentiële tool is voor het automatisch genereren van documenten.
-**Wat je leert:**
-- Hoe Aspose.Slides voor Java te initialiseren
-- Stappen voor het maken van een lijndiagram met markeringen
-- Series en categorieën toevoegen aan grafieken
-- Grafieklegenda's configureren
-- De presentatie opslaan
-Klaar om erin te duiken? Laten we eerst zorgen dat je alles klaar hebt staan!
+# Maak lijndiagrammen met standaard markers met Aspose.Slides voor Java
+
+## Introductie
+Als je je afvraagt **hoe je Aspose** kunt gebruiken om PowerPoint‑creatie te automatiseren, ben je hier aan het juiste adres. In deze tutorial lopen we door het bouwen van een **lijndiagram met markers**, het toevoegen van een tweede serie en het omgaan met null‑gegevens — allemaal met Aspose.Slides voor Java. Aan het einde heb je een kant‑klaar fragment dat een professioneel uitziend diagram genereert zonder ooit handmatig PowerPoint te openen.
+
+### Snelle antwoorden
+- **Welke bibliotheek heb ik nodig?** Aspose.Slides for Java (aanbevolen nieuwste versie)  
+- **Kan ik een tweede serie toevoegen?** Ja – de API laat je gemakkelijk meerdere series toevoegen.  
+- **Hoe worden null‑datapunten behandeld?** Gebruik `null` in de celwaarde; het diagram slaat het punt over.  
+- **Heb ik Maven nodig?** Maven of Gradle werkt; zie de *aspose slides maven* sectie hieronder.  
+- **Is een licentie vereist?** Een gratis proefversie werkt voor ontwikkeling; een commerciële licentie is nodig voor productie.
+
+## Hoe gebruik je Aspose.Slides voor Java om lijndiagrammen te maken
+Het programmatisch maken van diagrammen bespaart je uren handmatige opmaak en garandeert consistentie over presentaties heen. Of je nu een **create powerpoint chart** functie bouwt in een rapportagetool of dia‑decks on‑the‑fly genereert, Aspose.Slides geeft je volledige controle vanuit Java‑code.
+
 ## Vereisten
-Voordat we beginnen, zorg ervoor dat uw ontwikkelomgeving klaar is:
-1. **Bibliotheken en afhankelijkheden:**
-   - Aspose.Slides voor Java-bibliotheek (versie 25.4 aanbevolen)
-   - Java Development Kit (JDK) versie 16 of hoger
-2. **Omgevingsinstellingen:**
-   - Uw IDE moet Maven- of Gradle-buildtools ondersteunen.
-   - Zorg ervoor dat u over een geldig licentiebestand beschikt, indien vereist.
-3. **Kennisvereisten:**
-   - Basiskennis van Java-programmering
-   - Kennis van bouwprojecten met Maven of Gradle
-Nu u dit hebt gedaan, kunt u Aspose.Slides voor uw project configureren!
-## Aspose.Slides instellen voor Java
-Om Aspose.Slides voor Java te gebruiken, moet je het als afhankelijkheid in je project opnemen. De configuratie verschilt enigszins, afhankelijk van of je Maven of Gradle gebruikt.
+Before we get started, make sure your development environment is ready:
+
+1. **Bibliotheken & afhankelijkheden**
+   - Aspose.Slides for Java bibliotheek (versie 25.4 aanbevolen) – dit dekt de *aspose slides maven* scenario.
+   - Java Development Kit (JDK) versie 16 of hoger.
+2. **Omgevingsconfiguratie**
+   - IDE met Maven‑ of Gradle‑ondersteuning.
+   - Een geldig Aspose‑licentiebestand als je de code buiten een proefversie wilt uitvoeren.
+3. **Vereiste kennis**
+   - Basis Java‑programmering.
+   - Vertrouwdheid met Maven‑ of Gradle‑buildbestanden.
+
+## Aspose.Slides voor Java instellen
 ### Maven
-Voeg de volgende afhankelijkheid toe aan uw `pom.xml` bestand:
+Add the following dependency to your `pom.xml` file:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -47,60 +57,69 @@ Voeg de volgende afhankelijkheid toe aan uw `pom.xml` bestand:
 </dependency>
 ```
 ### Gradle
-Neem dit op in uw `build.gradle` bestand:
+Include this in your `build.gradle` file:
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
-### Direct downloaden
-U kunt de nieuwste versie ook downloaden van [Aspose.Slides voor Java-releases](https://releases.aspose.com/slides/java/).
-**Stappen voor het verkrijgen van een licentie:**
-- Voor een gratis proefperiode, bezoek de [gratis proefpagina](https://releases.aspose.com/slides/java/).
-- Om een tijdelijke licentie te verkrijgen, navigeert u naar de [tijdelijke licentiepagina](https://purchase.aspose.com/temporary-license/).
-- Koop een volledige licentie via hun [aankoopportaal](https://purchase.aspose.com/buy).
+### Directe download
+Je kunt ook de nieuwste versie downloaden van [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+
+**Stappen voor licentie‑acquisitie:**
+- Voor een gratis proefversie, bezoek de [free trial page](https://releases.aspose.com/slides/java/).
+- Om een tijdelijke licentie te verkrijgen, ga naar de [temporary license page](https://purchase.aspose.com/temporary-license/).
+- Koop een volledige licentie via hun [purchase portal](https://purchase.aspose.com/buy).
+
 **Basisinitialisatie:**
-Hier leest u hoe u Aspose.Slides in uw Java-toepassing kunt initialiseren:
+Here's how you can initialize Aspose.Slides in your Java application:
 ```java
 import com.aspose.slides.Presentation;
-// Een nieuw presentatieobject initialiseren
+// Initialize a new presentation object
 Presentation pres = new Presentation();
 ```
-Laten we nu beginnen met het maken van grafieken!
-## Implementatiegids
-### Functie 1: Grafiek maken met standaardmarkeringen
-In deze sectie wordt gedemonstreerd hoe u een lijndiagram met markeringen maakt. Deze functie is essentieel voor het effectief visualiseren van datatrends.
+
+Laten we nu overgaan tot het maken van diagrammen!
+
+## Implementatie‑gids
+### Functie 1: Diagram maken met standaard markers
+This section demonstrates how to create a **line chart with markers**, which is ideal for highlighting individual data points on a trend line.
+
 #### Een lijndiagram toevoegen
-Om een lijndiagram met markeringen toe te voegen:
+To add a line chart with markers:
 ```java
 import com.aspose.slides.*;
-// Toegang tot de eerste dia
+// Access the first slide
 ISlide slide = pres.getSlides().get_Item(0);
-// Voeg een lijndiagram met markeringen toe aan de dia op positie (10, 10) met grootte (400, 400)
+// Add a line chart with markers to the slide at position (10, 10) with size (400, 400)
 IChart chart = slide.getShapes().addChart(
     ChartType.LineWithMarkers, 10, 10, 400, 400);
 ```
-#### Clearing-series en -categorieën
-Om opnieuw te beginnen:
+
+#### Series en categorieën wissen
+To start fresh:
 ```java
-// Maak bestaande series en categorieën leeg om een schone lei te garanderen
+// Clear existing series and categories to ensure a clean slate
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
-// Haal de gegevenswerkmap van de grafiek op voor verdere manipulatie
+// Obtain the chart's data workbook for further manipulation
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
+
 ### Functie 2: Series en categorieën toevoegen
-Het toevoegen van series en categorieën is essentieel om uw diagrammen te vullen met zinvolle gegevens.
+Adding series and categories is crucial for populating your charts with meaningful data.
+
 #### Een nieuwe serie maken
-Om een nieuwe serie met de naam "Serie 1" toe te voegen:
+To add a new series named "Series 1":
 ```java
-// Een nieuwe serie toevoegen aan de grafiek
+// Add a new series to the chart
 chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-// Toegang tot de eerste reeks voor het vullen van gegevens
+// Access the first series for data population
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 ```
+
 #### Categorieën en datapunten vullen
-Om categorieën en bijbehorende datapunten toe te voegen:
+To add categories and corresponding data points:
 ```java
-// Voeg categorienamen en hun respectievelijke datapunten toe
+// Add category names and their respective data points
 chart.getChartData().getCategories().add(fact.getCell(0, 1, 0, "C1"));
 series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 1, 1, 24));
 
@@ -110,61 +129,92 @@ series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 2, 1, 23));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "C3"));
 series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 3, 1, -10));
 
-// Elegant omgaan met null-datapunten
+// Handling null data points gracefully
 chart.getChartData().getCategories().add(fact.getCell(0, 4, 0, "C4"));
 series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 4, 1, null));
 ```
-### Functie 3: Tweede reeksen toevoegen en datapunten vullen
-Door extra series toe te voegen, krijgt u meer diepgang in uw diagrammen.
-#### Een tweede reeks maken en vullen
-Om "Serie 2" toe te voegen:
+
+### Functie 3: Tweede serie toevoegen en datapunten vullen
+Adding additional series provides more depth to your visual analysis.
+
+#### Een tweede serie maken en vullen
+To add "Series 2":
 ```java
-// Voeg een andere serie toe met de naam 'Serie 2'
+// Add another series named 'Series 2'
 chart.getChartData().getSeries().add(fact.getCell(0, 0, 2, "Series 2"), chart.getType());
 
-// Toegang tot de tweede reeks voor het vullen van gegevens
+// Access the second series for data population
 IChartSeries series2 = chart.getChartData().getSeries().get_Item(1);
 
-// Datapunten toevoegen voor 'Serie 2'
+// Add data points for 'Series 2'
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 1, 2, 30));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 2, 2, 10));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 3, 2, 60));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 4, 2, 40));
 ```
-### Functie 4: Grafieklegenda configureren
-Door de legenda te configureren, wordt de leesbaarheid van de grafiek verbeterd.
-#### Legenda-instellingen aanpassen
-Om te configureren:
+
+### Functie 4: Diagramlegenda configureren
+Configuring the legend enhances chart readability, especially when you **add second series**.
+
+#### Legenda‑instellingen aanpassen
+To configure:
 ```java
-// Schakel de legenda in en zorg ervoor dat deze niet over datapunten wordt gelegd
+// Enable the legend and set it not to overlay on data points
 chart.setLegend(true);
 chart.getLegend().setOverlay(false);
 ```
-### Functie 5: De presentatie opslaan
-Zodra uw grafiek klaar is, slaat u de presentatie op in een bestand.
+
+### Functie 5: Presentatie opslaan
+Once your chart is ready, you’ll want to **create powerpoint chart** files that can be shared or further edited.
+
 ```java
 try {
-    // Sla de gewijzigde presentatie op in een opgegeven map
+    // Save the modified presentation to a specified directory
     pres.save("YOUR_DOCUMENT_DIRECTORY/DefaultMarkersInChart.pptx");
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
+
 ## Praktische toepassingen
-1. **Bedrijfsrapportage:**
-   - Gebruik grafieken in financiële rapporten om trends in de loop van de tijd weer te geven.
-2. **Gegevensanalyse:**
-   - Visualiseer gegevenspatronen en correlaties tijdens analysefases.
-3. **Educatief materiaal:**
-   - Maak informatieve dia's voor academische lezingen of presentaties.
-4. **Projectmanagement:**
-   - Verbeter projecttijdlijnen met visuele grafiekelementen.
-5. **Marketingpresentaties:**
-   - Toon verkooptrends en campagneresultaten effectief met behulp van grafieken.
+1. **Business Reporting:** Gebruik een lijndiagram met markers om financiële trends over kwartalen te illustreren.  
+2. **Data Analysis:** Visualiseer experimentele gegevens waarbij elke marker een meetpunt benadrukt.  
+3. **Educational Materials:** Maak lezing‑dia’s die stap‑voor‑stap veranderingen in een proces laten zien.  
+4. **Project Management:** Volg mijlpalen op een tijdlijn met onderscheidende markers voor belangrijke data.  
+5. **Marketing Presentations:** Toon pieken in campagneprestaties met duidelijke markersymbolen.
+
+## Veelvoorkomende problemen en oplossingen
+- **Null‑datapunten veroorzaken fouten:** Geef `null` door als celwaarde (zoals getoond) – Aspose zal het punt simpelweg weglaten.  
+- **Diagram verschijnt zonder markers:** Zorg ervoor dat je `ChartType.LineWithMarkers` gebruikt in plaats van `ChartType.Line`.  
+- **Legenda overlapt data:** Stel `chart.getLegend().setOverlay(false)` in om de legenda gescheiden te houden.  
+
+## Veelgestelde vragen
+
+**V: Kan ik deze aanpak gebruiken om diagrammen te genereren in een webservice?**  
+A: Absoluut. De bibliotheek werkt in elke Java‑omgeving, inclusief server‑side applicaties.
+
+**V: Heb ik een licentie nodig voor ontwikkel‑builds?**  
+A: Een gratis proefversie werkt voor ontwikkeling en testen. Een commerciële licentie is vereist voor productiegebruik.
+
+**V: Hoe gaat Aspose om met grote datasets?**  
+A: De API streamt gegevens efficiënt; houd echter het aantal datapunten redelijk om grote bestandsgroottes te vermijden.
+
+**V: Is er ondersteuning voor andere diagramtypen?**  
+A: Ja – Aspose.Slides ondersteunt staaf-, taart-, spreidings‑ en vele andere diagramtypen.
+
+**V: Kan ik marker‑vormen en -kleuren aanpassen?**  
+A: Je kunt het marker‑formaat wijzigen via de `Marker`‑eigenschap op elk datapunt.
+
 ## Conclusie
-Je hebt geleerd hoe je lijndiagrammen met markeringen maakt in Java met Aspose.Slides, hoe je series en categorieën toevoegt, legenda's configureert en presentaties opslaat. Deze vaardigheden zijn waardevol voor het creëren van dynamische visuele content in diverse professionele toepassingen.
-Voor meer informatie over de functies van Aspose.Slides of om ondersteuning van de community te zoeken, kunt u terecht op hun website. [officiële documentatie](https://docs.aspose.com/slides/java/) of word lid van forums zoals Stack Overflow.
-Veel plezier met coderen!
+Je weet nu **hoe je Aspose** kunt gebruiken om een lijndiagram met standaard markers te maken, een tweede serie toe te voegen, null‑gegevens te verwerken en het resultaat op te slaan als een PowerPoint‑bestand. Deze technieken laten je rapportgeneratie automatiseren, data‑verhalen verbeteren en je presentaties consistent houden.
+
+Voor diepere duiken, bekijk de [official documentation](https://docs.aspose.com/slides/java/) of sluit je aan bij community‑forums zoals Stack Overflow.
+
+---
+
+**Laatst bijgewerkt:** 2026-03-23  
+**Getest met:** Aspose.Slides for Java 25.4 (jdk16)  
+**Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

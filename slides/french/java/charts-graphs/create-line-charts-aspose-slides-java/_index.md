@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-17"
-"description": "Apprenez à créer des graphiques en courbes avec des marqueurs en Java avec Aspose.Slides. Ce tutoriel aborde la création de graphiques, l'ajout de séries et l'enregistrement efficace de présentations."
-"title": "Créer des graphiques linéaires avec des marqueurs par défaut à l'aide d'Aspose.Slides pour Java"
-"url": "/fr/java/charts-graphs/create-line-charts-aspose-slides-java/"
-"weight": 1
+date: '2026-03-23'
+description: Apprenez à utiliser Aspose.Slides pour Java afin de créer des graphiques
+  en courbes avec des marqueurs, d’ajouter une deuxième série et de gérer les données
+  nulles dans les présentations PowerPoint.
+keywords:
+- Aspose.Slides for Java
+- line charts with markers in Java
+- creating presentations programmatically
+title: 'Comment utiliser Aspose.Slides pour Java : créer des graphiques en courbes
+  avec des marqueurs par défaut'
+url: /fr/java/charts-graphs/create-line-charts-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,33 +18,37 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Créer des graphiques linéaires avec des marqueurs par défaut à l'aide d'Aspose.Slides pour Java
+# Créer des graphiques en courbes avec des marqueurs par défaut à l'aide d'Aspose.Slides pour Java
+
 ## Introduction
-Créer des graphiques attrayants et informatifs est essentiel pour les présentations, les rapports et les tableaux de bord. Automatiser ce processus en développement logiciel permet de gagner du temps et de garantir la cohérence entre les documents. Ce tutoriel montre comment créer des graphiques en courbes avec des marqueurs à l'aide d'Aspose.Slides pour Java.
-**Aspose.Slides pour Java** est une bibliothèque puissante qui permet aux développeurs de manipuler des présentations PowerPoint par programmation sans avoir besoin d'installer Microsoft Office. Elle simplifie des tâches telles que la création, la modification et l'exportation de diapositives, ce qui en fait un outil essentiel pour la génération automatisée de documents.
-**Ce que vous apprendrez :**
-- Comment initialiser Aspose.Slides pour Java
-- Étapes pour créer un graphique linéaire avec des marqueurs
-- Ajout de séries et de catégories aux graphiques
-- Configuration des légendes des graphiques
-- Sauvegarder la présentation
-Prêt à vous lancer ? Commençons par tout configurer !
+Si vous vous demandez **comment utiliser Aspose** pour automatiser la création de PowerPoint, vous êtes au bon endroit. Dans ce tutoriel, nous allons vous guider à travers la création d'un **graphique en courbes avec des marqueurs**, l'ajout d'une deuxième série et la gestion des données nulles — le tout avec Aspose.Slides pour Java. À la fin, vous disposerez d'un extrait prêt à l'exécution qui génère un graphique à l'aspect professionnel sans jamais ouvrir PowerPoint manuellement.
+
+### Réponses rapides
+- **Quelle bibliothèque dois-je utiliser ?** Aspose.Slides for Java (dernière version recommandée)  
+- **Puis-je ajouter une deuxième série ?** Oui – l'API vous permet d'ajouter plusieurs séries facilement.  
+- **Comment les points de données nuls sont-ils gérés ?** Utilisez `null` comme valeur de cellule ; le graphique ignorera le point.  
+- **Ai-je besoin de Maven ?** Maven ou Gradle fonctionnent ; voir la section *aspose slides maven* ci‑dessous.  
+- **Une licence est‑elle requise ?** Un essai gratuit suffit pour le développement ; une licence commerciale est nécessaire pour la production.
+
+## Comment utiliser Aspose.Slides pour Java afin de créer des graphiques en courbes
+Créer des graphiques de manière programmatique vous fait gagner des heures de mise en forme manuelle et garantit la cohérence entre les présentations. Que vous construisiez une fonctionnalité **create powerpoint chart** dans un outil de reporting ou que vous génériez des diaporamas à la volée, Aspose.Slides vous offre un contrôle total depuis le code Java.
+
 ## Prérequis
-Avant de commencer, assurez-vous que votre environnement de développement est prêt :
-1. **Bibliothèques et dépendances :**
-   - Bibliothèque Aspose.Slides pour Java (version 25.4 recommandée)
-   - Kit de développement Java (JDK) version 16 ou supérieure
-2. **Configuration de l'environnement :**
-   - Votre IDE doit prendre en charge les outils de build Maven ou Gradle.
-   - Assurez-vous d'avoir un fichier de licence valide si nécessaire.
-3. **Prérequis en matière de connaissances :**
-   - Compréhension de base de la programmation Java
-   - Familiarité avec la création de projets utilisant Maven ou Gradle
-Une fois ces éléments en place, configurons Aspose.Slides pour votre projet !
+Avant de commencer, assurez-vous que votre environnement de développement est prêt :
+
+1. **Bibliothèques et dépendances**  
+   - Bibliothèque Aspose.Slides pour Java (version 25.4 recommandée) – cela couvre le scénario *aspose slides maven*.  
+   - Java Development Kit (JDK) version 16 ou supérieure.
+2. **Configuration de l'environnement**  
+   - IDE avec prise en charge de Maven ou Gradle.  
+   - Un fichier de licence Aspose valide si vous prévoyez d'exécuter le code en dehors d'un essai.
+3. **Prérequis de connaissances**  
+   - Programmation Java de base.  
+   - Familiarité avec les fichiers de construction Maven ou Gradle.
+
 ## Configuration d'Aspose.Slides pour Java
-Pour utiliser Aspose.Slides pour Java, vous devez l'inclure comme dépendance dans votre projet. Selon que vous utilisez Maven ou Gradle, la configuration sera légèrement différente.
 ### Maven
-Ajoutez la dépendance suivante à votre `pom.xml` déposer:
+Ajoutez la dépendance suivante à votre fichier `pom.xml` :
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -47,60 +58,69 @@ Ajoutez la dépendance suivante à votre `pom.xml` déposer:
 </dependency>
 ```
 ### Gradle
-Incluez ceci dans votre `build.gradle` déposer:
+Incluez ceci dans votre fichier `build.gradle` :
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 ### Téléchargement direct
-Alternativement, vous pouvez télécharger la dernière version à partir de [Versions d'Aspose.Slides pour Java](https://releases.aspose.com/slides/java/).
-**Étapes d'acquisition de la licence :**
-- Pour un essai gratuit, visitez le [page d'essai gratuite](https://releases.aspose.com/slides/java/).
-- Pour obtenir une licence temporaire, accédez au [page de licence temporaire](https://purchase.aspose.com/temporary-license/).
+Vous pouvez également télécharger la dernière version depuis [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+
+**Étapes d'obtention de licence :**
+- Pour un essai gratuit, visitez la [page d'essai gratuit](https://releases.aspose.com/slides/java/).
+- Pour obtenir une licence temporaire, accédez à la [page de licence temporaire](https://purchase.aspose.com/temporary-license/).
 - Achetez une licence complète via leur [portail d'achat](https://purchase.aspose.com/buy).
-**Initialisation de base :**
-Voici comment vous pouvez initialiser Aspose.Slides dans votre application Java :
+
+**Initialisation de base :**
+Voici comment vous pouvez initialiser Aspose.Slides dans votre application Java :
 ```java
 import com.aspose.slides.Presentation;
-// Initialiser un nouvel objet de présentation
+// Initialize a new presentation object
 Presentation pres = new Presentation();
 ```
-Passons maintenant à la création de graphiques !
-## Guide de mise en œuvre
-### Fonctionnalité 1 : Création de graphiques avec marqueurs par défaut
-Cette section explique comment créer un graphique linéaire avec des marqueurs. Cette fonctionnalité est essentielle pour visualiser efficacement les tendances des données.
-#### Ajout d'un graphique linéaire
-Pour ajouter un graphique linéaire avec des marqueurs :
+
+Passons maintenant à la création de graphiques !
+
+## Guide d'implémentation
+### Fonctionnalité 1 : Création de graphique avec des marqueurs par défaut
+Cette section montre comment créer un **graphique en courbes avec des marqueurs**, idéal pour mettre en évidence des points de données individuels sur une ligne de tendance.
+
+#### Ajout d'un graphique en courbes
+Pour ajouter un graphique en courbes avec des marqueurs :
 ```java
 import com.aspose.slides.*;
-// Accéder à la première diapositive
+// Access the first slide
 ISlide slide = pres.getSlides().get_Item(0);
-// Ajoutez un graphique linéaire avec des marqueurs à la diapositive à la position (10, 10) avec une taille (400, 400)
+// Add a line chart with markers to the slide at position (10, 10) with size (400, 400)
 IChart chart = slide.getShapes().addChart(
     ChartType.LineWithMarkers, 10, 10, 400, 400);
 ```
-#### Séries et catégories de compensation
-Pour repartir à zéro :
+
+#### Effacement des séries et des catégories
+Pour repartir de zéro :
 ```java
-// Effacer les séries et catégories existantes pour garantir une table rase
+// Clear existing series and categories to ensure a clean slate
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
-// Obtenez le classeur de données du graphique pour une manipulation ultérieure
+// Obtain the chart's data workbook for further manipulation
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
-### Fonctionnalité 2 : Ajout de séries et de catégories
-L'ajout de séries et de catégories est essentiel pour remplir vos graphiques avec des données significatives.
-#### Créer une nouvelle série
-Pour ajouter une nouvelle série nommée « Série 1 » :
+
+### Fonctionnalité 2 : Ajout de séries et de catégories
+L'ajout de séries et de catégories est essentiel pour alimenter vos graphiques avec des données pertinentes.
+
+#### Création d'une nouvelle série
+Pour ajouter une nouvelle série nommée "Series 1" :
 ```java
-// Ajouter une nouvelle série au graphique
+// Add a new series to the chart
 chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-// Accéder à la première série de population de données
+// Access the first series for data population
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 ```
+
 #### Remplissage des catégories et des points de données
-Pour ajouter des catégories et des points de données correspondants :
+Pour ajouter des catégories et les points de données correspondants :
 ```java
-// Ajoutez les noms de catégories et leurs points de données respectifs
+// Add category names and their respective data points
 chart.getChartData().getCategories().add(fact.getCell(0, 1, 0, "C1"));
 series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 1, 1, 24));
 
@@ -110,61 +130,91 @@ series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 2, 1, 23));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "C3"));
 series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 3, 1, -10));
 
-// Gestion élégante des points de données nuls
+// Handling null data points gracefully
 chart.getChartData().getCategories().add(fact.getCell(0, 4, 0, "C4"));
 series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 4, 1, null));
 ```
-### Fonctionnalité 3 : Ajout d'une deuxième série et remplissage des points de données
-L'ajout de séries supplémentaires apporte plus de profondeur à vos graphiques.
+
+### Fonctionnalité 3 : Ajout d'une deuxième série et remplissage des points de données
+L'ajout de séries supplémentaires apporte plus de profondeur à votre analyse visuelle.
+
 #### Création et remplissage d'une deuxième série
-Pour ajouter « Série 2 » :
+Pour ajouter "Series 2" :
 ```java
-// Ajouter une autre série nommée « Série 2 »
+// Add another series named 'Series 2'
 chart.getChartData().getSeries().add(fact.getCell(0, 0, 2, "Series 2"), chart.getType());
 
-// Accéder à la deuxième série pour la population des données
+// Access the second series for data population
 IChartSeries series2 = chart.getChartData().getSeries().get_Item(1);
 
-// Ajouter des points de données pour la « Série 2 »
+// Add data points for 'Series 2'
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 1, 2, 30));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 2, 2, 10));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 3, 2, 60));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 4, 2, 40));
 ```
-### Fonctionnalité 4 : Configuration de la légende du graphique
-La configuration de la légende améliore la lisibilité du graphique.
-#### Réglage des paramètres de légende
-Pour configurer :
+
+### Fonctionnalité 4 : Configuration de la légende du graphique
+Configurer la légende améliore la lisibilité du graphique, surtout lorsque vous **ajoutez une deuxième série**.
+
+#### Ajustement des paramètres de la légende
+Pour configurer :
 ```java
-// Activez la légende et configurez-la pour qu'elle ne se superpose pas aux points de données
+// Enable the legend and set it not to overlay on data points
 chart.setLegend(true);
 chart.getLegend().setOverlay(false);
 ```
-### Fonctionnalité 5 : Enregistrer la présentation
-Une fois votre graphique prêt, enregistrez la présentation dans un fichier.
+
+### Fonctionnalité 5 : Enregistrement de la présentation
+Une fois votre graphique prêt, vous voudrez **create powerpoint chart** des fichiers qui peuvent être partagés ou modifiés davantage.
 ```java
 try {
-    // Enregistrer la présentation modifiée dans un répertoire spécifié
+    // Save the modified presentation to a specified directory
     pres.save("YOUR_DOCUMENT_DIRECTORY/DefaultMarkersInChart.pptx");
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
+
 ## Applications pratiques
-1. **Rapports d'activité :**
-   - Utilisez des graphiques dans les rapports financiers pour illustrer les tendances au fil du temps.
-2. **Analyse des données :**
-   - Visualisez les modèles de données et les corrélations pendant les phases d'analyse.
-3. **Matériel pédagogique :**
-   - Créez des diapositives informatives pour des conférences ou des présentations universitaires.
-4. **Gestion de projet :**
-   - Améliorez les échéanciers des projets avec des éléments de tableau visuel.
-5. **Présentations marketing :**
-   - Présentez efficacement les tendances des ventes et les résultats des campagnes à l’aide de graphiques.
+1. **Reporting d'entreprise :** Utilisez un graphique en courbes avec des marqueurs pour illustrer les tendances financières sur les trimestres.  
+2. **Analyse de données :** Visualisez des données expérimentales où chaque marqueur met en évidence un point de mesure.  
+3. **Matériel éducatif :** Créez des diapositives de cours montrant les changements étape par étape d'un processus.  
+4. **Gestion de projet :** Suivez les jalons sur une chronologie avec des marqueurs distincts pour les dates clés.  
+5. **Présentations marketing :** Montrez les pics de performance d'une campagne avec des symboles de marqueurs clairs.
+
+## Problèmes courants et solutions
+- **Les points de données nuls provoquent des erreurs :** Passez `null` comme valeur de cellule (comme indiqué) – Aspose omettra simplement le point.  
+- **Le graphique apparaît sans marqueurs :** Assurez‑vous d'utiliser `ChartType.LineWithMarkers` plutôt que `ChartType.Line`.  
+- **La légende chevauche les données :** Définissez `chart.getLegend().setOverlay(false)` pour garder la légende séparée.  
+
+## Foire aux questions
+
+**Q : Puis‑je utiliser cette approche pour générer des graphiques dans un service web ?**  
+R : Absolument. La bibliothèque fonctionne dans n'importe quel environnement Java, y compris les applications côté serveur.
+
+**Q : Ai‑je besoin d'une licence pour les builds de développement ?**  
+R : Un essai gratuit suffit pour le développement et les tests. Une licence commerciale est requise pour une utilisation en production.
+
+**Q : Comment Aspose gère‑t‑il les grands ensembles de données ?**  
+R : L'API diffuse les données efficacement ; toutefois, gardez le nombre de points de données raisonnable afin d'éviter des tailles de fichier trop importantes.
+
+**Q : Existe‑t‑il une prise en charge d'autres types de graphiques ?**  
+R : Oui – Aspose.Slides prend en charge les graphiques à barres, secteurs, nuages de points et bien d'autres types.
+
+**Q : Puis‑je personnaliser les formes et les couleurs des marqueurs ?**  
+R : Vous pouvez modifier le format du marqueur via la propriété `Marker` de chaque point de données.
+
 ## Conclusion
-Vous avez appris à créer des graphiques en courbes avec des marqueurs en Java avec Aspose.Slides, à ajouter des séries et des catégories, à configurer des légendes et à enregistrer des présentations. Ces compétences sont précieuses pour créer du contenu visuel dynamique dans diverses applications professionnelles.
-Pour en savoir plus sur les fonctionnalités d'Aspose.Slides ou pour demander l'aide de la communauté, visitez leur [documentation officielle](https://docs.aspose.com/slides/java/) ou rejoignez des forums tels que Stack Overflow.
-Bon codage !
+Vous savez maintenant **comment utiliser Aspose** pour créer un graphique en courbes avec des marqueurs par défaut, ajouter une deuxième série, gérer les données nulles et enregistrer le résultat sous forme de fichier PowerPoint. Ces techniques vous permettent d'automatiser la génération de rapports, d'améliorer la narration des données et de garder vos présentations cohérentes.
+
+Pour aller plus loin, explorez la [documentation officielle](https://docs.aspose.com/slides/java/) ou rejoignez les forums communautaires comme Stack Overflow.
+
+---
+
+**Dernière mise à jour :** 2026-03-23  
+**Testé avec :** Aspose.Slides for Java 25.4 (jdk16)  
+**Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

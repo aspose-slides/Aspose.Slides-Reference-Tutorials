@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-17"
-"description": "تعلّم كيفية إنشاء مخططات خطية بعلامات في جافا باستخدام Aspose.Slides. يغطي هذا البرنامج التعليمي إنشاء المخططات، وجمع السلاسل، وحفظ العروض التقديمية بفعالية."
-"title": "إنشاء مخططات خطية باستخدام علامات افتراضية باستخدام Aspose.Slides لـ Java"
-"url": "/ar/java/charts-graphs/create-line-charts-aspose-slides-java/"
-"weight": 1
+date: '2026-03-23'
+description: تعلم كيفية استخدام Aspose.Slides for Java لإنشاء مخططات خطية مع علامات،
+  وإضافة سلسلة ثانية، ومعالجة البيانات الفارغة في عروض PowerPoint التقديمية.
+keywords:
+- Aspose.Slides for Java
+- line charts with markers in Java
+- creating presentations programmatically
+title: 'كيفية استخدام Aspose.Slides للـ Java: إنشاء مخططات خطية مع العلامات الافتراضية'
+url: /ar/java/charts-graphs/create-line-charts-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,33 +16,37 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# إنشاء مخططات خطية باستخدام علامات افتراضية باستخدام Aspose.Slides لـ Java
+# إنشاء مخططات خطية مع علامات افتراضية باستخدام Aspose.Slides for Java
+
 ## مقدمة
-يُعد إنشاء مخططات بيانية جذابة بصريًا وغنية بالمعلومات أمرًا أساسيًا للعروض التقديمية والتقارير ولوحات المعلومات. أتمتة هذه العملية في تطوير البرمجيات توفر الوقت وتضمن الاتساق بين المستندات. يوضح هذا البرنامج التعليمي كيفية إنشاء مخططات بيانية خطية مع علامات باستخدام Aspose.Slides لجافا.
-**Aspose.Slides لـ Java** مكتبة قوية تُمكّن المطورين من التعامل مع عروض PowerPoint التقديمية برمجيًا دون الحاجة إلى تثبيت Microsoft Office. تُبسّط هذه المكتبة مهامًا مثل إنشاء الشرائح وتحريرها وتصديرها، مما يجعلها أداة أساسية لإنشاء المستندات تلقائيًا.
-**ما سوف تتعلمه:**
-- كيفية تهيئة Aspose.Slides لـ Java
-- خطوات إنشاء مخطط خطي باستخدام العلامات
-- إضافة السلاسل والفئات إلى المخططات البيانية
-- تكوين أساطير الرسم البياني
-- حفظ العرض التقديمي
-هل أنت مستعد للبدء؟ تأكد من تجهيز كل شيء أولًا!
-## المتطلبات الأساسية
-قبل أن نبدأ، تأكد من أن بيئة التطوير الخاصة بك جاهزة:
-1. **المكتبات والتبعيات:**
-   - مكتبة Aspose.Slides لـ Java (الإصدار 25.4 الموصى به)
-   - مجموعة تطوير Java (JDK) الإصدار 16 أو أعلى
-2. **إعداد البيئة:**
-   - يجب أن يدعم IDE الخاص بك أدوات بناء Maven أو Gradle.
-   - تأكد من أن لديك ملف ترخيص صالح إذا لزم الأمر.
-3. **المتطلبات المعرفية:**
-   - فهم أساسي لبرمجة جافا
-   - المعرفة ببناء المشاريع باستخدام Maven أو Gradle
-بعد وضع هذه العناصر في مكانها، فلنبدأ في إعداد Aspose.Slides لمشروعك!
-## إعداد Aspose.Slides لـ Java
-لاستخدام Aspose.Slides في Java، عليك تضمينه كاعتمادية في مشروعك. سيختلف الإعداد قليلاً حسب استخدامك لـ Maven أو Gradle.
-### مافن
-أضف التبعية التالية إلى ملفك `pom.xml` ملف:
+إذا كنت تتساءل **كيفية استخدام Aspose** لأتمتة إنشاء PowerPoint، فقد وجدت المكان المناسب. في هذا الدرس سنستعرض بناء **مخطط خطي مع علامات**، إضافة سلسلة ثانية، ومعالجة البيانات الفارغة—كل ذلك باستخدام Aspose.Slides for Java. في النهاية ستحصل على قطعة كود جاهزة للتنفيذ تُنتج مخططًا احترافيًا دون الحاجة لفتح PowerPoint يدويًا.
+
+### إجابات سريعة
+- **ما المكتبة التي أحتاجها؟** Aspose.Slides for Java (latest version recommended)  
+- **هل يمكنني إضافة سلسلة ثانية؟** نعم – تسمح لك الـ API بإضافة سلاسل متعددة بسهولة.  
+- **كيف يتم التعامل مع نقاط البيانات الفارغة؟** استخدم `null` في قيمة الخلية؛ سيتخطى المخطط النقطة.  
+- **هل أحتاج إلى Maven؟** يعمل Maven أو Gradle؛ راجع قسم *aspose slides maven* أدناه.  
+- **هل يلزم الحصول على ترخيص؟** النسخة التجريبية المجانية تعمل للتطوير؛ يلزم ترخيص تجاري للإنتاج.
+
+## كيفية استخدام Aspose.Slides for Java لإنشاء مخططات خطية
+إنشاء المخططات برمجياً يوفر لك ساعات من التنسيق اليدوي ويضمن الاتساق عبر العروض التقديمية. سواء كنت تبني ميزة **create powerpoint chart** في أداة تقارير أو تولد مجموعات شرائح بشكل فوري، فإن Aspose.Slides يمنحك التحكم الكامل من خلال كود Java.
+
+## المتطلبات المسبقة
+قبل أن نبدأ، تأكد من أن بيئة التطوير جاهزة:
+
+1. **Libraries & Dependencies**
+   - مكتبة Aspose.Slides for Java (الإصدار 25.4 موصى به) – يغطي هذا سيناريو *aspose slides maven*.
+   - مجموعة تطوير جافا (JDK) الإصدار 16 أو أعلى.
+2. **Environment Setup**
+   - بيئة تطوير متكاملة (IDE) تدعم Maven أو Gradle.
+   - ملف ترخيص Aspose صالح إذا كنت تخطط لتشغيل الكود خارج النسخة التجريبية.
+3. **Knowledge Prerequisites**
+   - برمجة Java أساسية.
+   - إلمام بملفات بناء Maven أو Gradle.
+
+## إعداد Aspose.Slides للغة Java
+### Maven
+أضف الاعتماد التالي إلى ملف `pom.xml` الخاص بك:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -46,61 +55,70 @@
     <classifier>jdk16</classifier>
 </dependency>
 ```
-### جرادل
-قم بتضمين هذا في `build.gradle` ملف:
+### Gradle
+أدرج هذا في ملف `build.gradle` الخاص بك:
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 ### التحميل المباشر
-بدلاً من ذلك، يمكنك تنزيل الإصدار الأحدث من [إصدارات Aspose.Slides لـ Java](https://releases.aspose.com/slides/java/).
+بدلاً من ذلك، يمكنك تنزيل أحدث نسخة من [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+
 **خطوات الحصول على الترخيص:**
-- للحصول على نسخة تجريبية مجانية، قم بزيارة [صفحة التجربة المجانية](https://releases.aspose.com/slides/java/).
-- للحصول على ترخيص مؤقت، انتقل إلى [صفحة الترخيص المؤقت](https://purchase.aspose.com/temporary-license/).
-- شراء ترخيص كامل من خلالهم [بوابة الشراء](https://purchase.aspose.com/buy).
+- للحصول على نسخة تجريبية مجانية، زر [free trial page](https://releases.aspose.com/slides/java/).
+- للحصول على ترخيص مؤقت، انتقل إلى [temporary license page](https://purchase.aspose.com/temporary-license/).
+- اشترِ ترخيصًا كاملاً عبر [purchase portal](https://purchase.aspose.com/buy).
+
 **التهيئة الأساسية:**
 إليك كيفية تهيئة Aspose.Slides في تطبيق Java الخاص بك:
 ```java
 import com.aspose.slides.Presentation;
-// تهيئة كائن عرض تقديمي جديد
+// Initialize a new presentation object
 Presentation pres = new Presentation();
 ```
-الآن، دعونا ننتقل إلى إنشاء المخططات البيانية!
+
+الآن، دعنا ننتقل إلى إنشاء المخططات!
+
 ## دليل التنفيذ
-### الميزة 1: إنشاء مخطط باستخدام العلامات الافتراضية
-يوضح هذا القسم كيفية إنشاء مخطط خطي مزود بعلامات. تُعد هذه الميزة أساسية لعرض اتجاهات البيانات بفعالية.
+### الميزة 1: إنشاء مخطط مع علامات افتراضية
+يوضح هذا القسم كيفية إنشاء **مخطط خطي مع علامات**، وهو مثالي لتسليط الضوء على نقاط البيانات الفردية على خط الاتجاه.
+
 #### إضافة مخطط خطي
 لإضافة مخطط خطي مع علامات:
 ```java
 import com.aspose.slides.*;
-// الوصول إلى الشريحة الأولى
+// Access the first slide
 ISlide slide = pres.getSlides().get_Item(0);
-// أضف مخططًا خطيًا مع علامات إلى الشريحة في الموضع (10، 10) بحجم (400، 400)
+// Add a line chart with markers to the slide at position (10, 10) with size (400, 400)
 IChart chart = slide.getShapes().addChart(
     ChartType.LineWithMarkers, 10, 10, 400, 400);
 ```
-#### سلسلة وفئات التصفية
-للبدء من جديد:
+
+#### مسح السلاسل والفئات
+لبدء جديد:
 ```java
-// مسح السلاسل والفئات الموجودة لضمان سجل نظيف
+// Clear existing series and categories to ensure a clean slate
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
-// احصل على مصنف بيانات الرسم البياني لمزيد من التلاعب
+// Obtain the chart's data workbook for further manipulation
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
-### الميزة 2: إضافة السلاسل والفئات
-يعد إضافة السلاسل والفئات أمرًا بالغ الأهمية لملء مخططاتك ببيانات ذات معنى.
+
+### الميزة 2: إضافة سلاسل وفئات
+إضافة السلاسل والفئات أمر حاسم لتعبئة مخططاتك ببيانات ذات معنى.
+
 #### إنشاء سلسلة جديدة
-لإضافة سلسلة جديدة باسم "السلسلة 1":
+لإضافة سلسلة جديدة باسم "Series 1":
 ```java
-// إضافة سلسلة جديدة إلى الرسم البياني
+// Add a new series to the chart
 chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-// الوصول إلى السلسلة الأولى لتعبئة البيانات
+// Access the first series for data population
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 ```
-#### ملء الفئات ونقاط البيانات
+
+#### تعبئة الفئات ونقاط البيانات
 لإضافة الفئات ونقاط البيانات المقابلة:
 ```java
-// أضف أسماء الفئات ونقاط البيانات الخاصة بها
+// Add category names and their respective data points
 chart.getChartData().getCategories().add(fact.getCell(0, 1, 0, "C1"));
 series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 1, 1, 24));
 
@@ -110,61 +128,91 @@ series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 2, 1, 23));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "C3"));
 series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 3, 1, -10));
 
-// التعامل مع نقاط البيانات الفارغة بسلاسة
+// Handling null data points gracefully
 chart.getChartData().getCategories().add(fact.getCell(0, 4, 0, "C4"));
 series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 4, 1, null));
 ```
-### الميزة 3: إضافة السلسلة الثانية وملء نقاط البيانات
-تؤدي إضافة سلسلة إضافية إلى توفير مزيد من العمق لمخططاتك.
-#### إنشاء سلسلة ثانية وتعبئتها
-لإضافة "السلسلة 2":
+
+### الميزة 3: إضافة سلسلة ثانية وتعبئة نقاط البيانات
+إضافة سلاسل إضافية توفر عمقًا أكبر لتحليلك البصري.
+
+#### إنشاء وتعبئة سلسلة ثانية
+لإضافة "Series 2":
 ```java
-// أضف سلسلة أخرى باسم "السلسلة 2"
+// Add another series named 'Series 2'
 chart.getChartData().getSeries().add(fact.getCell(0, 0, 2, "Series 2"), chart.getType());
 
-// الوصول إلى السلسلة الثانية لتعبئة البيانات
+// Access the second series for data population
 IChartSeries series2 = chart.getChartData().getSeries().get_Item(1);
 
-// إضافة نقاط البيانات لـ "السلسلة 2"
+// Add data points for 'Series 2'
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 1, 2, 30));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 2, 2, 10));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 3, 2, 60));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 4, 2, 40));
 ```
-### الميزة 4: تكوين أسطورة الرسم البياني
-يؤدي تكوين الأسطورة إلى تحسين إمكانية قراءة الرسم البياني.
-#### ضبط إعدادات الأسطورة
-لتكوين:
+
+### الميزة 4: تكوين وسيلة إيضاح المخطط
+تكوين وسيلة الإيضاح يعزز قابلية قراءة المخطط، خاصة عندما **تضيف سلسلة ثانية**.
+
+#### تعديل إعدادات وسيلة الإيضاح
+للتكوين:
 ```java
-// تمكين الأسطورة وتعيينها بحيث لا تتداخل مع نقاط البيانات
+// Enable the legend and set it not to overlay on data points
 chart.setLegend(true);
 chart.getLegend().setOverlay(false);
 ```
+
 ### الميزة 5: حفظ العرض التقديمي
-بمجرد أن يصبح الرسم البياني جاهزًا، احفظ العرض التقديمي في ملف.
+بمجرد أن يصبح المخطط جاهزًا، ستحتاج إلى **create powerpoint chart** ملفات يمكن مشاركتها أو تعديلها لاحقًا.
 ```java
 try {
-    // حفظ العرض التقديمي المعدل في الدليل المحدد
+    // Save the modified presentation to a specified directory
     pres.save("YOUR_DOCUMENT_DIRECTORY/DefaultMarkersInChart.pptx");
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
-## التطبيقات العملية
-1. **تقارير الأعمال:**
-   - استخدم المخططات البيانية في التقارير المالية لتصوير الاتجاهات بمرور الوقت.
-2. **تحليل البيانات:**
-   - تصور أنماط البيانات وارتباطاتها أثناء مراحل التحليل.
-3. **المواد التعليمية:**
-   - إنشاء شرائح إعلامية للمحاضرات أو العروض التقديمية الأكاديمية.
-4. **إدارة المشاريع:**
-   - قم بتعزيز الجداول الزمنية للمشروع باستخدام عناصر المخطط المرئي.
-5. **العروض التقديمية التسويقية:**
-   - عرض اتجاهات المبيعات ونتائج الحملة بشكل فعال باستخدام المخططات البيانية.
-## خاتمة
-لقد تعلمتَ كيفية إنشاء مخططات خطية مع علامات في جافا باستخدام Aspose.Slides، وإضافة سلاسل وفئات، وتكوين الأساطير، وحفظ العروض التقديمية. هذه المهارات قيّمة لإنشاء محتوى مرئي ديناميكي في مختلف التطبيقات المهنية.
-لاستكشاف المزيد حول ميزات Aspose.Slides أو طلب دعم المجتمع، تفضل بزيارة [الوثائق الرسمية](https://docs.aspose.com/slides/java/) أو انضم إلى المنتديات مثل Stack Overflow.
-برمجة سعيدة!
+
+## تطبيقات عملية
+1. **تقارير الأعمال:** استخدم مخططًا خطيًا مع علامات لتوضيح الاتجاهات المالية عبر الأرباع.  
+2. **تحليل البيانات:** تصور البيانات التجريبية حيث يبرز كل علامة نقطة قياس.  
+3. **مواد تعليمية:** أنشئ شرائح محاضرات تُظهر التغييرات خطوة بخطوة في عملية ما.  
+4. **إدارة المشاريع:** تتبع المعالم على خط زمني مع علامات مميزة للتواريخ الرئيسية.  
+5. **عروض التسويق:** عرض ارتفاعات أداء الحملة باستخدام رموز علامات واضحة.  
+
+## المشكلات الشائعة والحلول
+- **نقاط البيانات الفارغة تسبب أخطاء:** مرّر `null` كقيمة الخلية (كما هو موضح) – سيقوم Aspose ببساطة بتخطي النقطة.  
+- **المخطط يظهر بدون علامات:** تأكد من استخدام `ChartType.LineWithMarkers` بدلاً من `ChartType.Line`.  
+- **وسيلة الإيضاح تتداخل مع البيانات:** اضبط `chart.getLegend().setOverlay(false)` للحفاظ على فصل وسيلة الإيضاح.  
+
+## الأسئلة المتكررة
+
+**س: هل يمكنني استخدام هذا النهج لتوليد مخططات في خدمة ويب؟**  
+ج: بالتأكيد. تعمل المكتبة في أي بيئة Java، بما في ذلك التطبيقات من جانب الخادم.
+
+**س: هل أحتاج إلى ترخيص لبنات التطوير؟**  
+ج: النسخة التجريبية المجانية تعمل للتطوير والاختبار. يلزم ترخيص تجاري للاستخدام في الإنتاج.
+
+**س: كيف يتعامل Aspose مع مجموعات البيانات الكبيرة؟**  
+ج: الـ API يبث البيانات بكفاءة؛ ومع ذلك، حافظ على عدد نقاط البيانات معقولًا لتجنب أحجام ملفات ضخمة.
+
+**س: هل هناك دعم لأنواع مخططات أخرى؟**  
+ج: نعم – يدعم Aspose.Slides المخططات الشريطية، الدائرية، المبعثرة، والعديد غيرها.
+
+**س: هل يمكنني تخصيص أشكال وألوان العلامات؟**  
+ج: يمكنك تعديل تنسيق العلامة عبر خاصية `Marker` لكل نقطة بيانات.
+
+## الخلاصة
+أنت الآن تعرف **كيفية استخدام Aspose** لإنشاء مخطط خطي مع علامات افتراضية، إضافة سلسلة ثانية، معالجة البيانات الفارغة، وحفظ النتيجة كملف PowerPoint. تتيح لك هذه التقنيات أتمتة إنشاء التقارير، تحسين سرد البيانات، والحفاظ على اتساق عروضك التقديمية.
+
+للتعمق أكثر، استكشف [official documentation](https://docs.aspose.com/slides/java/) أو انضم إلى المنتديات المجتمعية مثل Stack Overflow.
+
+---
+
+**آخر تحديث:** 2026-03-23  
+**تم الاختبار مع:** Aspose.Slides for Java 25.4 (jdk16)  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

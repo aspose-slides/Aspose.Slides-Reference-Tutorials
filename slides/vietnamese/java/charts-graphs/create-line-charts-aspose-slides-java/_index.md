@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-17"
-"description": "Tìm hiểu cách tạo biểu đồ đường với các điểm đánh dấu trong Java bằng Aspose.Slides. Hướng dẫn này bao gồm cách tạo biểu đồ, thêm chuỗi và lưu bản trình bày hiệu quả."
-"title": "Tạo biểu đồ đường với các điểm đánh dấu mặc định bằng Aspose.Slides cho Java"
-"url": "/vi/java/charts-graphs/create-line-charts-aspose-slides-java/"
-"weight": 1
+date: '2026-03-23'
+description: Tìm hiểu cách sử dụng Aspose.Slides cho Java để tạo biểu đồ đường có
+  dấu đánh dấu, thêm một chuỗi thứ hai và xử lý dữ liệu null trong các bản trình bày
+  PowerPoint.
+keywords:
+- Aspose.Slides for Java
+- line charts with markers in Java
+- creating presentations programmatically
+title: 'Cách sử dụng Aspose.Slides cho Java: Tạo biểu đồ đường với các dấu đánh dấu
+  mặc định'
+url: /vi/java/charts-graphs/create-line-charts-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,32 +19,36 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 # Tạo biểu đồ đường với các điểm đánh dấu mặc định bằng Aspose.Slides cho Java
+
 ## Giới thiệu
-Tạo biểu đồ hấp dẫn và nhiều thông tin là điều cần thiết cho các bài thuyết trình, báo cáo và bảng thông tin. Tự động hóa quy trình này trong phát triển phần mềm giúp tiết kiệm thời gian và đảm bảo tính nhất quán trên các tài liệu. Hướng dẫn này trình bày cách tạo biểu đồ đường có đánh dấu bằng Aspose.Slides for Java.
-**Aspose.Slides cho Java** là một thư viện mạnh mẽ cho phép các nhà phát triển thao tác các bài thuyết trình PowerPoint theo chương trình mà không cần cài đặt Microsoft Office. Nó đơn giản hóa các tác vụ như tạo, chỉnh sửa và xuất slide, khiến nó trở thành một công cụ thiết yếu để tạo tài liệu tự động.
-**Những gì bạn sẽ học được:**
-- Cách khởi tạo Aspose.Slides cho Java
-- Các bước để tạo biểu đồ đường có đánh dấu
-- Thêm chuỗi và danh mục vào biểu đồ
-- Cấu hình chú giải biểu đồ
-- Lưu bài thuyết trình
-Bạn đã sẵn sàng chưa? Hãy đảm bảo rằng bạn đã thiết lập mọi thứ trước nhé!
-## Điều kiện tiên quyết
+Nếu bạn đang tự hỏi **cách sử dụng Aspose** để tự động tạo PowerPoint, bạn đã đến đúng nơi. Trong hướng dẫn này, chúng ta sẽ đi qua cách xây dựng một **biểu đồ đường có điểm đánh dấu**, thêm một chuỗi thứ hai và xử lý dữ liệu null — tất cả đều bằng Aspose.Slides cho Java. Khi kết thúc, bạn sẽ có một đoạn mã sẵn sàng chạy, tạo ra một biểu đồ chuyên nghiệp mà không cần mở PowerPoint thủ công.
+
+### Câu trả lời nhanh
+- **Thư viện tôi cần là gì?** Aspose.Slides cho Java (khuyến nghị phiên bản mới nhất)  
+- **Tôi có thể thêm chuỗi thứ hai không?** Có – API cho phép bạn dễ dàng thêm nhiều chuỗi.  
+- **Các điểm dữ liệu null được xử lý như thế nào?** Sử dụng `null` trong giá trị ô; biểu đồ sẽ bỏ qua điểm đó.  
+- **Có cần Maven không?** Maven hoặc Gradle đều hoạt động; xem phần *aspose slides maven* bên dưới.  
+- **Cần giấy phép không?** Bản dùng thử miễn phí đủ cho phát triển; giấy phép thương mại cần cho môi trường sản xuất.
+
+## Cách sử dụng Aspose.Slides cho Java để tạo biểu đồ đường
+Việc tạo biểu đồ bằng mã giúp bạn tiết kiệm hàng giờ định dạng thủ công và đảm bảo tính nhất quán trong các bài thuyết trình. Dù bạn đang xây dựng tính năng **tạo biểu đồ PowerPoint** trong công cụ báo cáo hay tạo slide nhanh chóng, Aspose.Slides cho phép bạn kiểm soát toàn bộ từ mã Java.
+
+## Yêu cầu trước
 Trước khi bắt đầu, hãy đảm bảo môi trường phát triển của bạn đã sẵn sàng:
-1. **Thư viện và các thành phần phụ thuộc:**
-   - Thư viện Aspose.Slides cho Java (khuyến nghị phiên bản 25.4)
-   - Java Development Kit (JDK) phiên bản 16 trở lên
-2. **Thiết lập môi trường:**
-   - IDE của bạn phải hỗ trợ các công cụ xây dựng Maven hoặc Gradle.
-   - Đảm bảo bạn có hồ sơ giấy phép hợp lệ nếu cần.
-3. **Điều kiện tiên quyết về kiến thức:**
-   - Hiểu biết cơ bản về lập trình Java
-   - Quen thuộc với việc xây dựng các dự án sử dụng Maven hoặc Gradle
-Với những điều này, hãy thiết lập Aspose.Slides cho dự án của bạn!
-## Thiết lập Aspose.Slides cho Java
-Để sử dụng Aspose.Slides cho Java, bạn cần đưa nó vào như một dependency trong dự án của mình. Tùy thuộc vào việc bạn đang sử dụng Maven hay Gradle, quá trình thiết lập sẽ khác nhau đôi chút.
+
+1. **Thư viện & Phụ thuộc**
+   - Thư viện Aspose.Slides cho Java (phiên bản 25.4 được khuyến nghị) – đáp ứng kịch bản *aspose slides maven*.
+   - Java Development Kit (JDK) phiên bản 16 trở lên.
+2. **Cài đặt môi trường**
+   - IDE hỗ trợ Maven hoặc Gradle.
+   - Tệp giấy phép Aspose hợp lệ nếu bạn chạy mã ngoài thời gian dùng thử.
+3. **Kiến thức nền**
+   - Lập trình Java cơ bản.
+   - Quen thuộc với các tệp cấu hình Maven hoặc Gradle.
+
+## Cài đặt Aspose.Slides cho Java
 ### Maven
-Thêm phụ thuộc sau vào `pom.xml` tài liệu:
+Thêm phụ thuộc sau vào tệp `pom.xml` của bạn:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -46,61 +57,70 @@ Thêm phụ thuộc sau vào `pom.xml` tài liệu:
     <classifier>jdk16</classifier>
 </dependency>
 ```
-### Tốt nghiệp
-Bao gồm điều này trong của bạn `build.gradle` tài liệu:
+### Gradle
+Thêm đoạn này vào tệp `build.gradle` của bạn:
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
-### Tải xuống trực tiếp
-Ngoài ra, bạn có thể tải xuống phiên bản mới nhất từ [Aspose.Slides cho bản phát hành Java](https://releases.aspose.com/slides/java/).
-**Các bước xin cấp giấy phép:**
-- Để dùng thử miễn phí, hãy truy cập [trang dùng thử miễn phí](https://releases.aspose.com/slides/java/).
-- Để có được giấy phép tạm thời, hãy điều hướng đến [trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
-- Mua giấy phép đầy đủ thông qua họ [cổng thông tin mua hàng](https://purchase.aspose.com/buy).
+### Tải trực tiếp
+Hoặc bạn có thể tải phiên bản mới nhất từ [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+
+**Các bước lấy giấy phép:**
+- Đối với bản dùng thử miễn phí, truy cập [trang dùng thử miễn phí](https://releases.aspose.com/slides/java/).
+- Để nhận giấy phép tạm thời, vào [trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+- Mua giấy phép đầy đủ qua [cổng mua hàng](https://purchase.aspose.com/buy).
+
 **Khởi tạo cơ bản:**
-Sau đây là cách bạn có thể khởi tạo Aspose.Slides trong ứng dụng Java của mình:
+Dưới đây là cách khởi tạo Aspose.Slides trong ứng dụng Java của bạn:
 ```java
 import com.aspose.slides.Presentation;
-// Khởi tạo một đối tượng trình bày mới
+// Initialize a new presentation object
 Presentation pres = new Presentation();
 ```
-Bây giờ, chúng ta hãy cùng bắt đầu tạo biểu đồ nhé!
-## Hướng dẫn thực hiện
+
+Bây giờ, chúng ta cùng bắt đầu tạo biểu đồ!
+
+## Hướng dẫn triển khai
 ### Tính năng 1: Tạo biểu đồ với các điểm đánh dấu mặc định
-Phần này trình bày cách tạo biểu đồ đường được trang bị các điểm đánh dấu. Tính năng này rất cần thiết để trực quan hóa xu hướng dữ liệu một cách hiệu quả.
+Phần này minh họa cách tạo một **biểu đồ đường có điểm đánh dấu**, lý tưởng để làm nổi bật các điểm dữ liệu riêng lẻ trên đường xu hướng.
+
 #### Thêm biểu đồ đường
-Để thêm biểu đồ đường có đánh dấu:
+Để thêm một biểu đồ đường có điểm đánh dấu:
 ```java
 import com.aspose.slides.*;
-// Truy cập trang chiếu đầu tiên
+// Access the first slide
 ISlide slide = pres.getSlides().get_Item(0);
-// Thêm biểu đồ đường có đánh dấu vào trang chiếu ở vị trí (10, 10) với kích thước (400, 400)
+// Add a line chart with markers to the slide at position (10, 10) with size (400, 400)
 IChart chart = slide.getShapes().addChart(
     ChartType.LineWithMarkers, 10, 10, 400, 400);
 ```
-#### Xóa các chuỗi và danh mục
-Để bắt đầu lại:
+
+#### Xóa chuỗi và danh mục
+Để bắt đầu lại từ đầu:
 ```java
-// Xóa các chuỗi và danh mục hiện có để đảm bảo bảng dữ liệu sạch
+// Clear existing series and categories to ensure a clean slate
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
-// Lấy sổ làm việc dữ liệu của biểu đồ để thao tác thêm
+// Obtain the chart's data workbook for further manipulation
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
-### Tính năng 2: Thêm Series và Categories
-Việc thêm chuỗi và danh mục rất quan trọng để cung cấp dữ liệu có ý nghĩa cho biểu đồ của bạn.
-#### Tạo một Series mới
-Để thêm một series mới có tên "Series 1":
+
+### Tính năng 2: Thêm chuỗi và danh mục
+Thêm chuỗi và danh mục là bước quan trọng để cung cấp dữ liệu có ý nghĩa cho biểu đồ.
+
+#### Tạo chuỗi mới
+Để thêm một chuỗi mới có tên "Series 1":
 ```java
-// Thêm một chuỗi mới vào biểu đồ
+// Add a new series to the chart
 chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-// Truy cập chuỗi đầu tiên để thu thập dữ liệu
+// Access the first series for data population
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 ```
-#### Điền vào các danh mục và điểm dữ liệu
-Để thêm danh mục và điểm dữ liệu tương ứng:
+
+#### Điền danh mục và điểm dữ liệu
+Để thêm danh mục và các điểm dữ liệu tương ứng:
 ```java
-// Thêm tên danh mục và các điểm dữ liệu tương ứng của chúng
+// Add category names and their respective data points
 chart.getChartData().getCategories().add(fact.getCell(0, 1, 0, "C1"));
 series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 1, 1, 24));
 
@@ -110,61 +130,92 @@ series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 2, 1, 23));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "C3"));
 series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 3, 1, -10));
 
-// Xử lý các điểm dữ liệu null một cách nhẹ nhàng
+// Handling null data points gracefully
 chart.getChartData().getCategories().add(fact.getCell(0, 4, 0, "C4"));
 series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 4, 1, null));
 ```
-### Tính năng 3: Thêm Chuỗi thứ hai và Điền Điểm Dữ liệu
-Việc thêm chuỗi bổ sung sẽ giúp biểu đồ của bạn có chiều sâu hơn.
-#### Tạo và điền vào một loạt thứ hai
+
+### Tính năng 3: Thêm chuỗi thứ hai và điền dữ liệu
+Thêm chuỗi bổ sung giúp phân tích trực quan sâu hơn.
+
+#### Tạo và điền dữ liệu cho chuỗi thứ hai
 Để thêm "Series 2":
 ```java
-// Thêm một series nữa có tên là 'Series 2'
+// Add another series named 'Series 2'
 chart.getChartData().getSeries().add(fact.getCell(0, 0, 2, "Series 2"), chart.getType());
 
-// Truy cập chuỗi thứ hai để thu thập dữ liệu
+// Access the second series for data population
 IChartSeries series2 = chart.getChartData().getSeries().get_Item(1);
 
-// Thêm điểm dữ liệu cho 'Dòng 2'
+// Add data points for 'Series 2'
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 1, 2, 30));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 2, 2, 10));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 3, 2, 60));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 4, 2, 40));
 ```
+
 ### Tính năng 4: Cấu hình chú giải biểu đồ
-Cấu hình chú giải sẽ giúp tăng khả năng đọc biểu đồ.
+Cấu hình chú giải giúp biểu đồ dễ đọc hơn, đặc biệt khi bạn **thêm chuỗi thứ hai**.
+
 #### Điều chỉnh cài đặt chú giải
 Để cấu hình:
 ```java
-// Bật chú giải và đặt nó không chồng lên các điểm dữ liệu
+// Enable the legend and set it not to overlay on data points
 chart.setLegend(true);
 chart.getLegend().setOverlay(false);
 ```
-### Tính năng 5: Lưu bài thuyết trình
-Khi biểu đồ đã sẵn sàng, hãy lưu bản trình bày vào một tệp.
+
+### Tính năng 5: Lưu bản trình chiếu
+Khi biểu đồ đã sẵn sàng, bạn sẽ muốn **tạo file biểu đồ PowerPoint** để chia sẻ hoặc chỉnh sửa thêm.
+
 ```java
 try {
-    // Lưu bản trình bày đã sửa đổi vào một thư mục được chỉ định
+    // Save the modified presentation to a specified directory
     pres.save("YOUR_DOCUMENT_DIRECTORY/DefaultMarkersInChart.pptx");
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
-## Ứng dụng thực tế
-1. **Báo cáo kinh doanh:**
-   - Sử dụng biểu đồ trong báo cáo tài chính để mô tả xu hướng theo thời gian.
-2. **Phân tích dữ liệu:**
-   - Hình dung các mẫu dữ liệu và mối tương quan trong các giai đoạn phân tích.
-3. **Tài liệu giáo dục:**
-   - Tạo các slide thông tin cho bài giảng hoặc bài thuyết trình học thuật.
-4. **Quản lý dự án:**
-   - Cải thiện tiến độ dự án bằng các thành phần biểu đồ trực quan.
-5. **Bài thuyết trình về tiếp thị:**
-   - Thể hiện xu hướng bán hàng và kết quả chiến dịch một cách hiệu quả bằng biểu đồ.
-## Phần kết luận
-Bạn đã học cách tạo biểu đồ đường có đánh dấu trong Java bằng Aspose.Slides, thêm chuỗi và danh mục, cấu hình chú giải và lưu bản trình bày. Những kỹ năng này rất có giá trị để tạo nội dung trực quan động trên nhiều ứng dụng chuyên nghiệp khác nhau.
-Để khám phá thêm về các tính năng của Aspose.Slides hoặc tìm kiếm sự hỗ trợ của cộng đồng, hãy truy cập [tài liệu chính thức](https://docs.aspose.com/slides/java/) hoặc tham gia các diễn đàn như Stack Overflow.
-Chúc bạn viết mã vui vẻ!
+
+## Ứng dụng thực tiễn
+1. **Báo cáo doanh nghiệp:** Sử dụng biểu đồ đường có điểm đánh dấu để minh họa xu hướng tài chính qua các quý.  
+2. **Phân tích dữ liệu:** Trực quan hoá dữ liệu thí nghiệm, mỗi điểm đánh dấu nhấn mạnh một phép đo.  
+3. **Tài liệu giáo dục:** Xây dựng slide giảng dạy thể hiện các thay đổi từng bước trong một quy trình.  
+4. **Quản lý dự án:** Theo dõi các mốc quan trọng trên dòng thời gian với các điểm đánh dấu riêng cho các ngày trọng yếu.  
+5. **Bài thuyết trình marketing:** Hiển thị các đỉnh hiệu suất chiến dịch bằng các ký hiệu điểm đánh dấu rõ ràng.
+
+## Các vấn đề thường gặp và giải pháp
+- **Điểm dữ liệu null gây lỗi:** Truyền `null` làm giá trị ô (như ví dụ) – Aspose sẽ tự động bỏ qua điểm đó.  
+- **Biểu đồ hiển thị mà không có điểm đánh dấu:** Đảm bảo bạn dùng `ChartType.LineWithMarkers` thay vì `ChartType.Line`.  
+- **Chú giải chồng lên dữ liệu:** Đặt `chart.getLegend().setOverlay(false)` để giữ chú giải riêng biệt.
+
+## Câu hỏi thường gặp
+
+**H: Tôi có thể dùng cách này để tạo biểu đồ trong dịch vụ web không?**  
+Đ: Hoàn toàn có thể. Thư viện hoạt động trong bất kỳ môi trường Java nào, kể cả các ứng dụng phía máy chủ.
+
+**H: Tôi có cần giấy phép cho bản dựng phát triển không?**  
+Đ: Bản dùng thử miễn phí đủ cho phát triển và kiểm thử. Giấy phép thương mại cần cho môi trường sản xuất.
+
+**H: Aspose xử lý tập dữ liệu lớn như thế nào?**  
+Đ: API truyền dữ liệu một cách hiệu quả; tuy nhiên, nên giữ số lượng điểm dữ liệu ở mức hợp lý để tránh kích thước tệp quá lớn.
+
+**H: Có hỗ trợ các loại biểu đồ khác không?**  
+Đ: Có – Aspose.Slides hỗ trợ biểu đồ cột, bánh, scatter và nhiều loại khác.
+
+**H: Tôi có thể tùy chỉnh hình dạng và màu sắc của điểm đánh dấu không?**  
+Đ: Bạn có thể thay đổi định dạng điểm đánh dấu qua thuộc tính `Marker` của mỗi điểm dữ liệu.
+
+## Kết luận
+Bây giờ bạn đã biết **cách sử dụng Aspose** để tạo một biểu đồ đường với các điểm đánh dấu mặc định, thêm chuỗi thứ hai, xử lý dữ liệu null và lưu kết quả dưới dạng tệp PowerPoint. Những kỹ thuật này giúp bạn tự động hoá việc tạo báo cáo, nâng cao khả năng kể chuyện dữ liệu và duy trì tính nhất quán cho các bài thuyết trình.
+
+Để tìm hiểu sâu hơn, hãy khám phá [tài liệu chính thức](https://docs.aspose.com/slides/java/) hoặc tham gia các diễn đàn cộng đồng như Stack Overflow.
+
+---
+
+**Cập nhật lần cuối:** 2026-03-23  
+**Kiểm thử với:** Aspose.Slides cho Java 25.4 (jdk16)  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
