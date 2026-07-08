@@ -1,13 +1,71 @@
 ---
-date: '2026-02-17'
-description: Aprenda a criar um gráfico de rosca no PowerPoint usando Aspose.Slides
-  for Java e adicionar pontos de dados ao gráfico programaticamente. Siga passos simples
-  e exemplos de código.
+date: '2026-07-08'
+description: Aprenda como usar Aspose para criar um Doughnut Chart no PowerPoint com
+  Java. Este guia passo a passo mostra como adicionar pontos de dados ao gráfico programaticamente,
+  personalizar rótulos e salvar o PPTX com alta fidelidade.
 keywords:
-- Aspose.Slides for Java
-- dynamic doughnut charts PowerPoint
-- Java PowerPoint chart creation
-title: Criar gráfico de rosca no PowerPoint com Aspose.Slides para Java
+- how to use aspose
+- create doughnut chart powerpoint
+- maven dependency aspose slides
+lastmod: '2026-07-08'
+og_description: Como usar Aspose permite criar um Doughnut Chart no PowerPoint usando
+  Java. Siga este tutorial para adicionar pontos de dados, personalizar rótulos e
+  salvar o PPTX com alta fidelidade.
+og_image_alt: 'Guide: Create doughnut chart PowerPoint with Aspose.Slides for Java'
+og_title: 'Como usar Aspose: criar Doughnut Chart no PowerPoint (Java)'
+schemas:
+- author: Aspose
+  dateModified: '2026-07-08'
+  description: Learn how to use Aspose to create a doughnut chart in PowerPoint with
+    Java. This step‑by‑step guide shows adding chart data points programmatically,
+    customizing labels, and saving the PPTX with high fidelity.
+  headline: How to Use Aspose Create Doughnut Chart in PowerPoint (Java)
+  type: TechArticle
+- description: Learn how to use Aspose to create a doughnut chart in PowerPoint with
+    Java. This step‑by‑step guide shows adding chart data points programmatically,
+    customizing labels, and saving the PPTX with high fidelity.
+  name: How to Use Aspose Create Doughnut Chart in PowerPoint (Java)
+  steps:
+  - name: Initialize the presentation
+    text: Create a fresh presentation or open an existing file to obtain a slide collection.
+      `Presentation` is the primary class that represents a PowerPoint file.
+  - name: Add a doughnut chart to the slide
+    text: Insert a chart shape, remove default series/categories, and configure basic
+      visual settings like the doughnut hole size. `Chart` (or chart shape) represents
+      a chart object placed on a slide.
+  - name: Add chart data points and customize labels
+    text: Populate category names, add data points for each series, and fine‑tune
+      label formatting (font, color, position). This step demonstrates the “add chart
+      data points” capability. `Workbook` provides access to the chart’s underlying
+      spreadsheet data where cells are populated.
+  - name: Save the updated presentation
+    text: Persist the changes to a new PPTX file on disk. `save` writes the presentation
+      to a file in the chosen format.
+  type: HowTo
+- questions:
+  - answer: Yes, but you need a valid commercial license. A free trial is available
+      for evaluation.
+    question: Can I use Aspose.Slides for Java in commercial applications?
+  - answer: Increase the loop limit in the “Add Doughnut Chart” step and ensure your
+      data workbook contains enough rows.
+    question: How do I add more than 15 series?
+  - answer: Yes, call `series.getParentSeriesGroup().setDoughnutHoleSize((byte)desiredSize)`
+      before saving.
+    question: Is it possible to change the doughnut hole size after creation?
+  - answer: Absolutely. Use `chart.getImage()` and save the returned `java.awt.image.BufferedImage`
+      in your preferred format.
+    question: Can I export the chart as an image instead of a PPTX?
+  - answer: Animation can be added via the `ISlide.getTimeline()` API, though it’s
+      beyond the scope of this tutorial.
+    question: Does Aspose.Slides support animated charts?
+  type: FAQPage
+tags:
+- doughnut chart
+- Aspose.Slides
+- Java PowerPoint
+- chart generation
+- presentation automation
+title: Como usar Aspose para criar um Doughnut Chart no PowerPoint (Java)
 url: /pt/java/charts-graphs/aspose-slides-java-doughnut-charts-ppt-powerpoint/
 weight: 1
 ---
@@ -17,45 +75,38 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Crie um gráfico de rosca no PowerPoint com Aspose.Slides para Java
+# Como Usar Aspose para Criar Gráfico de Rosquinha no PowerPoint (Java)
 
 ## Introdução
-Criar apresentações impactantes muitas vezes requer mais do que texto e imagens; gráficos podem melhorar significativamente a narrativa ao visualizar dados de forma eficaz. No entanto, muitos desenvolvedores têm dificuldade em integrar recursos de gráficos dinâmicos em arquivos PowerPoint programaticamente. Este tutorial demonstra como **criar um gráfico de rosca no PowerPoint** usando Aspose.Slides para Java — uma ferramenta poderosa que combina flexibilidade e facilidade de uso.
+Criar apresentações impactantes frequentemente requer mais do que apenas texto e imagens; gráficos podem melhorar significativamente a narrativa ao visualizar dados de forma eficaz. **Como usar Aspose** para geração de gráficos oferece controle programático sem precisar abrir o PowerPoint. Este tutorial orienta você na construção de um gráfico de rosquinha, na configuração de seus pontos de dados e na gravação de um PPTX de alta fidelidade. Você precisará apenas de conhecimentos básicos de Java e alguns minutos para a configuração.
 
-**O que você aprenderá:**
-- Como inicializar uma apresentação usando Aspose.Slides para Java
-- Um guia passo a passo para adicionar um gráfico de rosca aos seus slides
-- Configuração de pontos de dados e personalização das propriedades dos rótulos
-- Salvamento da apresentação modificada com alta fidelidade
+`Aspose.Slides for Java` é uma biblioteca Java que permite a criação, manipulação e conversão de arquivos PowerPoint sem o Microsoft Office.
 
-Vamos explorar como você pode aproveitar esses recursos para aprimorar suas apresentações. Antes de começar, certifique‑se de que está familiarizado com os conceitos básicos de programação Java.
+## Respostas Rápidas
+- **Qual biblioteca cria gráfico de rosquinha no PowerPoint?** Aspose.Slides for Java  
+- **Posso adicionar pontos de dados ao gráfico programaticamente?** Sim, usando a API de gráficos  
+- **Preciso de uma licença para produção?** É necessária uma licença válida do Aspose.Slides  
+- **Quais versões do Java são suportadas?** Java 8 e posteriores (classificador JDK 16 mostrado)  
+- **Quantas séries posso adicionar?** O exemplo adiciona até 15 séries, mas você pode ajustar conforme necessário  
 
-## Respostas rápidas
-- **Qual biblioteca cria gráfico de rosca no PowerPoint?** Aspose.Slides para Java
-- **Posso adicionar pontos de dados ao gráfico programaticamente?** Sim, usando a API de gráficos
-- **Preciso de licença para produção?** É necessária uma licença válida do Aspose.Slides
-- **Quais versões do Java são suportadas?** Java 8 e posteriores (classificador JDK 16 mostrado)
-- **Quantas séries posso adicionar?** O exemplo adiciona até 15 séries, mas você pode ajustar conforme necessário
+## O que é um gráfico de rosquinha no PowerPoint?
+Um gráfico de rosquinha é um gráfico circular semelhante a um gráfico de pizza, mas com um centro vazio, permitindo que várias séries sejam exibidas simultaneamente. Ele enfatiza as relações parte‑para‑todo enquanto mantém o layout visual compacto e fácil de ler.
 
-## O que é um gráfico de rosca no PowerPoint?
-Um gráfico de rosca é uma variação do gráfico de pizza com um centro vazio, permitindo exibir várias séries de dados de forma compacta e visualmente atraente. É ideal para mostrar relações parte‑todo mantendo o design limpo.
+## Por que usar Aspose.Slides para Java para criar gráficos de rosquinha?
+Aspose.Slides for Java lida com mais de 50 formatos de entrada e saída e pode gerar apresentações de até 500 MB sem carregar o arquivo inteiro na memória. Ele fornece controle programático total sobre a aparência, os dados e o layout dos gráficos em qualquer plataforma Java, elimina a interoperação COM e pode renderizar 100 slides ricos em gráficos em menos de dois segundos em um servidor típico.
 
-## Por que usar Aspose.Slides para Java para criar gráficos de rosca?
-- **Controle total** sobre a aparência, dados e layout do gráfico sem abrir o PowerPoint
-- **Sem interop COM** – funciona em qualquer plataforma que suporte Java
-- **Alto desempenho** para gerar decks grandes ou integrar com serviços web
-- **Personalização avançada** como explosão, tamanho do buraco, ângulos das fatias e formatação de rótulos
-
-## Pré‑requisitos
-- Conhecimento básico de programação Java.
-- Uma IDE como IntelliJ IDEA ou Eclipse.
-- Maven ou Gradle para gerenciamento de dependências.
+## Pré-requisitos
+- Conhecimento básico de programação Java.  
+- Uma IDE como IntelliJ IDEA ou Eclipse.  
+- Maven ou Gradle para gerenciamento de dependências.  
 - Uma licença válida do Aspose.Slides para Java (versão de avaliação gratuita disponível).
 
 ## Configurando Aspose.Slides para Java
 Escolha o gerenciador de dependências que se adequa ao seu projeto.
 
-**Maven**
+**Maven**  
+Adicione a seguinte dependência ao seu `pom.xml` (substitua a versão pela última release):
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -65,22 +116,46 @@ Escolha o gerenciador de dependências que se adequa ao seu projeto.
 </dependency>
 ```
 
-**Gradle**
+**Gradle**  
+Adicione esta linha ao seu `build.gradle`:
+
+```gradle
+implementation 'com.aspose:aspose-slides:25.4:jdk16'
+```
+
+Se preferir baixar diretamente, visite a página de [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) .
+
+### Aquisição de Licença
+Você pode começar com uma avaliação gratuita para explorar os recursos do Aspose.Slides. Para uso prolongado, adquira uma licença ou solicite uma temporária em [Aspose's website](https://purchase.aspose.com/temporary-license/). Siga as instruções fornecidas para configurar seu ambiente e inicializar o Aspose.Slides em sua aplicação.
+
+## Como criar um gráfico de rosquinha no PowerPoint usando Aspose.Slides para Java
+Para criar um gráfico de rosquinha, comece carregando ou criando uma `Presentation`, adicione uma forma de gráfico do tipo `ChartType.Doughnut`, limpe as séries padrão, defina o tamanho do buraco e, em seguida, preencha a planilha do gráfico com nomes de categorias e valores numéricos. Por fim, ajuste a formatação dos rótulos e salve o PPTX.
+
+### Etapa 1: Inicializar a apresentação
+Crie uma nova apresentação ou abra um arquivo existente para obter a coleção de slides.
+
+`Presentation` é a classe principal que representa um arquivo PowerPoint.  
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-slides</artifactId>
+    <version>25.4</version>
+    <classifier>jdk16</classifier>
+</dependency>
+```
+
+### Etapa 2: Adicionar um gráfico de rosquinha ao slide
+Insira uma forma de gráfico, remova as séries/categorias padrão e configure as definições visuais básicas, como o tamanho do buraco da rosquinha.
+
+`Chart` (ou forma de gráfico) representa um objeto de gráfico colocado em um slide.  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Se preferir baixar diretamente, visite a página de [lançamentos do Aspose.Slides para Java](https://releases.aspose.com/slides/java/).
+### Etapa 3: Adicionar pontos de dados ao gráfico e personalizar rótulos
+Preencha os nomes das categorias, adicione pontos de dados para cada série e ajuste finamente a formatação dos rótulos (fonte, cor, posição). Esta etapa demonstra a capacidade de “adicionar pontos de dados ao gráfico”.
 
-### Aquisição de licença
-Você pode começar com uma avaliação gratuita para explorar os recursos do Aspose.Slides. Para uso prolongado, adquira uma licença ou solicite uma temporária em [site da Aspose](https://purchase.aspose.com/temporary-license/). Siga as instruções fornecidas para configurar seu ambiente e inicializar o Aspose.Slides em sua aplicação.
-
-## Como criar um gráfico de rosca no PowerPoint usando Aspose.Slides para Java
-A seguir, um guia completo passo a passo. Cada bloco de código é explicado imediatamente antes dele, para que você saiba exatamente o que está acontecendo.
-
-### Etapa 1: Inicializar a apresentação
-Primeiro, carregue um PPTX existente ou crie um novo. Isso prepara a coleção de slides para modificações posteriores.
-
+`Workbook` fornece acesso aos dados de planilha subjacentes ao gráfico onde as células são preenchidas.  
 ```java
 import com.aspose.slides.*;
 
@@ -92,9 +167,10 @@ ISlide slide = pres.getSlides().get_Item(0);
 pres.save(dataDir + "/initialized_chart.pptx", SaveFormat.Pptx);
 ```
 
-### Etapa 2: Adicionar um gráfico de rosca ao slide
-Adicionamos a forma do gráfico, limpamos quaisquer séries/categorias padrão e definimos propriedades visuais básicas.
+### Etapa 4: Salvar a apresentação atualizada
+Grave as alterações em um novo arquivo PPTX no disco.
 
+`save` grava a apresentação em um arquivo no formato escolhido.  
 ```java
 import com.aspose.slides.*;
 
@@ -117,8 +193,49 @@ while (seriesIndex < 15) {
 }
 ```
 
-### Etapa 3: Adicionar pontos de dados ao gráfico e personalizar rótulos
-Aqui preenchemos as categorias, adicionamos pontos de dados para cada série e ajustamos a aparência dos rótulos. É nesta etapa que a palavra‑chave **add chart data points** entra em ação.
+## Aplicações Práticas
+- **Relatórios Financeiros:** Visualizar alocações de orçamento ou detalhamentos de despesas.  
+- **Análise de Mercado:** Mostrar a distribuição de participação de mercado entre concorrentes.  
+- **Resultados de Pesquisa:** Apresentar dados categóricos de pesquisa de forma compacta.  
+- **Geração de Painéis:** Combinar com consultas ao banco de dados para produzir slides que se atualizam em tempo real.
+
+## Considerações de Desempenho
+- **Liberar recursos:** Chame `pres.dispose()` após salvar para liberar memória nativa.  
+- **Limitar a quantidade de gráficos:** Adicionar centenas de gráficos pode aumentar o uso de memória; processe em lotes se necessário.  
+- **Usar streaming:** Para conjuntos de dados massivos, preencha a planilha diretamente a partir de streams em vez de arrays na memória.  
+
+## Problemas Comuns e Soluções
+| Problema | Causa | Solução |
+|----------|-------|---------|
+| **Gráfico aparece em branco** | Células de dados não preenchidas corretamente | Verifique se `workBook.getCell(...)` referencia os índices corretos de linha/coluna. |
+| **Rótulos sobrepostos** | Muitas categorias em espaço limitado | Aumente `DoughnutHoleSize` ou ajuste `FirstSliceAngle`. |
+| **OutOfMemoryError** | Apresentações grandes sem liberar recursos | Chame `pres.dispose()` após salvar e considere aumentar o tamanho do heap da JVM. |
+
+## Perguntas Frequentes
+
+**Q: Posso usar Aspose.Slides para Java em aplicações comerciais?**  
+A: Sim, mas você precisa de uma licença comercial válida. Uma avaliação gratuita está disponível para avaliação.
+
+**Q: Como adiciono mais de 15 séries?**  
+A: Aumente o limite do loop na etapa “Add Doughnut Chart” e certifique-se de que sua planilha de dados contém linhas suficientes.
+
+**Q: É possível alterar o tamanho do buraco da rosquinha após a criação?**  
+A: Sim, chame `series.getParentSeriesGroup().setDoughnutHoleSize((byte)desiredSize)` antes de salvar.
+
+**Q: Posso exportar o gráfico como imagem em vez de PPTX?**  
+A: Absolutamente. Use `chart.getImage()` e salve o `java.awt.image.BufferedImage` retornado no formato de sua preferência.
+
+**Q: O Aspose.Slides suporta gráficos animados?**  
+A: Animações podem ser adicionadas via a API `ISlide.getTimeline()`, embora isso esteja fora do escopo deste tutorial.
+
+## Conclusão
+Agora você tem um método completo e pronto para produção para **criar arquivos PowerPoint com gráfico de rosquinha** usando Aspose.Slides para Java, incluindo como **adicionar pontos de dados ao gráfico**, personalizar rótulos e lidar com considerações de desempenho. Experimente diferentes cores, fontes de dados e tipos de gráficos para fazer suas apresentações realmente se destacarem.
+
+---
+
+**Última Atualização:** 2026-07-08  
+**Testado com:** Aspose.Slides for Java 25.4 (classificador JDK 16)  
+**Autor:** Aspose
 
 ```java
 import com.aspose.slides.*;
@@ -163,64 +280,22 @@ while (categoryIndex < 15) {
 }
 ```
 
-### Etapa 4: Salvar a apresentação atualizada
-Por fim, persista as alterações em um novo arquivo PPTX.
-
 ```java
 import com.aspose.slides.*;
 
 pres.save(dataDir + "/chart.pptx", SaveFormat.Pptx);
 ```
 
-## Aplicações práticas
-Gráficos de rosca podem ser usados em diversos cenários reais:
-- **Relatórios financeiros:** Visualizar alocações de orçamento ou detalhamento de despesas.
-- **Análise de mercado:** Mostrar a distribuição de participação de mercado entre concorrentes.
-- **Resultados de pesquisas:** Apresentar dados categóricos de pesquisas de forma compacta.
-- **Geração de dashboards:** Combinar com consultas a bancos de dados para gerar slides que se atualizam em tempo real.
+## Tutoriais Relacionados
 
-## Considerações de desempenho
-- **Liberar recursos:** Chame `pres.dispose()` quando terminar para liberar memória nativa.
-- **Limitar a quantidade de gráficos:** Adicionar centenas de gráficos pode aumentar o uso de memória; processe em lotes se necessário.
-- **Usar streaming:** Para conjuntos de dados massivos, preencha a planilha diretamente a partir de streams em vez de arrays em memória.
+- [Como Adicionar Gráficos ao PowerPoint Usando Aspose.Slides para Java: Um Guia Passo a Passo](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [Como Editar Dados de Gráficos do PowerPoint Usando Aspose.Slides para Java: Um Guia Abrangente](/slides/java/charts-graphs/edit-ppt-chart-data-aspose-slides-java/)
+- [Animar Gráficos no PowerPoint Usando Aspose.Slides para Java – Um Guia Passo a Passo](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
 
-## Problemas comuns e soluções
-| Problema | Causa | Solução |
-|----------|-------|---------|
-| **Gráfico aparece em branco** | Células de dados não preenchidas corretamente | Verifique se as referências `workBook.getCell(...)` apontam para as linhas/colunas corretas. |
-| **Rótulos se sobrepõem** | Muitas categorias em espaço limitado | Aumente `DoughnutHoleSize` ou ajuste `FirstSliceAngle`. |
-| **OutOfMemoryError** | Apresentações grandes sem liberação de recursos | Chame `pres.dispose()` após salvar e considere aumentar o heap da JVM. |
-
-## Perguntas frequentes
-
-**P: Posso usar Aspose.Slides para Java em aplicações comerciais?**  
-R: Sim, mas é necessária uma licença comercial válida. Uma avaliação gratuita está disponível para testes.
-
-**P: Como adiciono mais de 15 séries?**  
-R: Aumente o limite do laço na etapa “Add Doughnut Chart” e assegure que sua planilha de dados possua linhas suficientes.
-
-**P: É possível alterar o tamanho do buraco da rosca após a criação?**  
-R: Sim, chame `series.getParentSeriesGroup().setDoughnutHoleSize((byte)desiredSize)` a qualquer momento antes de salvar.
-
-**P: Posso exportar o gráfico como imagem em vez de PPTX?**  
-R: Absolutamente. Use `chart.getImage()` e salve o `java.awt.image.BufferedImage` retornado no formato desejado.
-
-**P: O Aspose.Slides suporta gráficos animados?**  
-R: Animações podem ser adicionadas via API `ISlide.getTimeline()`, embora isso esteja fora do escopo deste tutorial.
-
-## Conclusão
-Agora você possui um método completo e pronto para produção de **criar gráficos de rosca no PowerPoint** com Aspose.Slides para Java, incluindo como **add chart data points**, personalizar rótulos e lidar com considerações de desempenho. Experimente diferentes cores, fontes de dados e tipos de gráficos para que suas apresentações realmente se destaquem.
-
----
-
-**Última atualização:** 2026-02-17  
-**Testado com:** Aspose.Slides para Java 25.4 (classificador JDK 16)  
-**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

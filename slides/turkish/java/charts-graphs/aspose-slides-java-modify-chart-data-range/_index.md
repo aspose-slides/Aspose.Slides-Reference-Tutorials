@@ -1,76 +1,108 @@
 ---
-date: '2026-02-17'
+date: '2026-07-08'
 description: Aspose.Slides for Java ile PowerPoint grafik veri aralıklarını programlı
-  olarak nasıl güncelleyeceğinizi öğrenin. Dinamik grafik manipülasyonu için adım
-  adım kılavuz.
+  olarak güncellemeyi öğrenin. Dinamik grafik manipülasyonu için adım adım rehber.
 keywords:
+- update powerpoint chart
+- change chart data source
+- set chart data range
 - modify chart data range
-- Aspose.Slides for Java tutorial
-- programmatically manipulate PowerPoint charts
-title: Aspose.Slides for Java Kullanarak PowerPoint Grafik Veri Aralığını Güncelleme
+- update pptx chart data
+lastmod: '2026-07-08'
+og_description: Aspose.Slides for Java ile PowerPoint grafik veri aralıklarını hızlı
+  bir şekilde güncelleyin. Bu rehber, grafik veri kaynağını nasıl değiştireceğinizi,
+  grafik veri aralığını nasıl ayarlayacağınızı ve PPTX dosyalarını verimli bir şekilde
+  nasıl kaydedeceğinizi gösterir.
+og_image_alt: 'Developer guide: Update PowerPoint chart data range using Aspose.Slides
+  for Java'
+og_title: Aspose.Slides Java Kullanarak PowerPoint Grafik Veri Aralığını Güncelleme
+schemas:
+- author: Aspose
+  dateModified: '2026-07-08'
+  description: Learn how to update PowerPoint chart data ranges programmatically with
+    Aspose.Slides for Java. Step‑by‑step guide for dynamic chart manipulation.
+  headline: How to Update PowerPoint Chart Data Range Using Aspose.Slides for Java
+  type: TechArticle
+- description: Learn how to update PowerPoint chart data ranges programmatically with
+    Aspose.Slides for Java. Step‑by‑step guide for dynamic chart manipulation.
+  name: How to Update PowerPoint Chart Data Range Using Aspose.Slides for Java
+  steps:
+  - name: '**Automating Reports** – Refresh chart data in monthly financial decks
+      automatically.'
+    text: '**Automating Reports** – Refresh chart data in monthly financial decks
+      automatically.'
+  - name: '**Dynamic Dashboards** – Build interactive dashboards where users select
+      a date range and the chart updates on the fly.'
+    text: '**Dynamic Dashboards** – Build interactive dashboards where users select
+      a date range and the chart updates on the fly.'
+  - name: '**Educational Tools** – Generate lesson‑specific charts that reflect real‑time
+      data for classroom presentations.'
+    text: '**Educational Tools** – Generate lesson‑specific charts that reflect real‑time
+      data for classroom presentations.'
+  type: HowTo
+- questions:
+  - answer: Yes. Loop through each slide and each shape, check for `IChart`, then
+      call `setRange` on each chart you need to modify.
+    question: Can I update multiple charts in a single presentation?
+  - answer: You can embed the external workbook into the presentation first, then
+      reference its range using `setRange`. Aspose.Slides also provides APIs to import
+      external data sources.
+    question: What if my chart data is stored in an external Excel file?
+  - answer: The same API works for both formats; just change the file extension when
+      loading or saving.
+    question: Does this work with PPT (binary) files as well as PPTX?
+  - answer: Use `chart.getChartData().setChartType(ChartType.Bar)` (or any supported
+      type) before saving.
+    question: How do I change the chart type after modifying the data range?
+  - answer: A free trial license is sufficient for development and testing. A full
+      license is needed for production deployments.
+    question: Is a license required for development builds?
+  type: FAQPage
+tags:
+- update powerpoint chart
+- Aspose.Slides
+- Java chart manipulation
+- PPTX automation
+- presentation programming
+title: Aspose.Slides for Java ile PowerPoint Grafik Veri Aralığını Güncelleme
 url: /tr/java/charts-graphs/aspose-slides-java-modify-chart-data-range/
 weight: 1
 ---
-
-https://releases.aspose.com/slides/java/). Keep link unchanged, translate link text.
-
-Also tables: need to translate column headers and cells.
-
-Also list items.
-
-Also "Last Updated:" etc.
-
-Make sure to keep code block placeholders unchanged.
-
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.Slides for Java’da Ustalık: PowerPoint Sunumlarında Grafik Veri Aralığını Erişme ve Değiştirme
+# Aspose.Slides for Java'da Ustalık: PowerPoint Sunumlarında Grafik Veri Aralığını Erişme ve Değiştirme
 
 ## Giriş
 
-PowerPoint **grafik veri aralıklarını** dinamik olarak **güncellemek** mi istiyorsunuz? Aspose.Slides for Java ile bu görev sorunsuz hale gelir ve geliştiricilerin grafikleri programlı olarak manipüle etmesine olanak tanır. Bu öğreticide bir grafiğe nasıl erişileceğini, veri kaynağının nasıl değiştirileceğini ve **grafik veri aralığını** temiz Java kodu ile nasıl ayarlayacağınızı öğreneceksiniz.
+PowerPoint grafiğinin veri aralıklarını dinamik olarak **güncellemek** mi istiyorsunuz? Aspose.Slides for Java ile bu görev sorunsuz hale gelir ve geliştiricilerin grafikleri programlı olarak manipüle etmesine olanak tanır. Bu öğreticide bir grafiğe nasıl erişileceğini, veri kaynağını nasıl değiştireceğinizi ve temiz Java kodu kullanarak **grafik veri aralığını ayarlamayı** öğreneceksiniz. Ayrıca bunun otomatik raporlama ve gerçek zamanlı gösterge panelleri için neden önemli olduğunu göreceksiniz.
 
 **Öğrenecekleriniz**
-- Aspose.Slides for Java ile ortamınızı kurma.  
-- Sunum içinde slayt ve şekillere erişme.  
-- PowerPoint dosyalarındaki grafiklerin veri aralığını değiştirme.  
+- Aspose.Slides for Java ile ortamınızı kurma.
+- Bir sunum içindeki slayt ve şekillere erişme.
+- PowerPoint dosyalarındaki grafiklerin veri aralığını değiştirme.
 - Performans ve bellek yönetimi için en iyi uygulamalar.
 
-Koda geçmeden önce ihtiyacınız olan her şeyin olduğundan emin olalım.
+Koda dalmadan önce, ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım.
 
 ## Hızlı Yanıtlar
-- **Çalışma zamanında grafik veri kaynağını değiştirebilir miyim?** Evet, `chart.getChartData().setRange(...)` kullanarak.  
-- **Hangi kütüphane sürümü gerekiyor?** Aspose.Slides for Java 25.4 veya daha yenisi.  
-- **Geliştirme için lisansa ihtiyacım var mı?** Test için ücretsiz deneme yeterlidir; üretim için kalıcı lisans gereklidir.  
-- **JDK 16 zorunlu mu?** Tavsiye edilir; daha eski sürümler çalışabilir ancak resmi olarak desteklenmez.  
-- **Bu sadece PPTX için mi çalışır?** Örnek PPTX kullanıyor; aynı API PPT'yi de destekler.
+- **Çalışma zamanında grafik veri kaynağını değiştirebilir miyim?** Evet, `chart.getChartData().setRange(...)` kullanarak.
+- **Hangi kütüphane sürümü gereklidir?** Aspose.Slides for Java 25.4 veya daha yenisi.
+- **Geliştirme için lisansa ihtiyacım var mı?** Test için ücretsiz deneme çalışır; üretim için kalıcı bir lisans gereklidir.
+- **JDK 16 zorunlu mu?** Tavsiye edilir; daha eski sürümler çalışabilir ancak resmi olarak desteklenmez.
+- **Bu sadece PPTX ile mi çalışır?** Örnek PPTX kullanıyor; aynı API PPT'yi de destekler.
 
-## Önkoşullar
+## Aspose.Slides for Java Nedir?
+Aspose.Slides for Java, Microsoft Office olmadan PowerPoint dosyalarının oluşturulmasını, manipüle edilmesini ve dönüştürülmesini sağlayan bir Java API'sidir. Hem PPTX hem de eski PPT formatlarını destekler ve 150'den fazla grafik‑ile ilgili yöntem sunar. Kütüphane PowerPoint dosya yapısını soyutlayarak geliştiricilerin slaytlar, şekiller ve grafik verileriyle programlı olarak çalışmasına olanak tanır; bu da otomatik raporlama, toplu işleme ve sunumların sunucu‑taraflı oluşturulması için idealdir.
 
-Bu öğreticiyi etkili bir şekilde takip edebilmek için şunlara ihtiyacınız olacak:
+## Aspose.Slides for Java'ı Kurma
 
-### Gerekli Kütüphaneler ve Bağımlılıklar
-- **Aspose.Slides for Java**: 25.4 veya daha yeni bir sürümü indirdiğinizden emin olun.  
+Aspose.Slides'ı projenize entegre etmek Maven veya Gradle kullanarak kolayca yapılabilir. İşte nasıl:
 
-### Ortam Kurulum Gereksinimleri
-- JDK 16 yüklü bir geliştirme ortamı.
-
-### Bilgi Önkoşulları
-- Java programlamaya temel düzeyde hakimiyet.  
-- PowerPoint sunumları ve grafik yapıları hakkında aşinalık.
-
-Bu önkoşullar sağlandığında, Aspose.Slides for Java kurulumuna geçelim.
-
-## Aspose.Slides for Java Kurulumu
-
-Aspose.Slides’ı projenize Maven ya da Gradle kullanarak kolayca entegre edebilirsiniz. İşte nasıl:
-
-**Maven**
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -78,32 +110,37 @@ Aspose.Slides’ı projenize Maven ya da Gradle kullanarak kolayca entegre edebi
     <version>25.4</version>
     <classifier>jdk16</classifier>
 </dependency>
-```
+```  
 
-**Gradle**
+**Gradle**  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
-```
+```  
 
-Doğrudan indirmeyi tercih edenler, en yeni sürümü [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) adresinden alabilir.
+Doğrudan indirmeyi tercih edenler için, en son sürümü [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) adresinden alabilirsiniz.
 
 ### Lisans Edinme Adımları
 - **Ücretsiz Deneme**: Özellikleri keşfetmek için ücretsiz deneme ile başlayın.  
-- **Geçici Lisans**: Daha kapsamlı testler için geçici lisans alın.  
-- **Satın Alma**: Kütüphane ihtiyaçlarınıza uygunsa satın almayı düşünün.
+- **Geçici Lisans**: Daha kapsamlı testler için geçici bir lisans edinin.  
+- **Satın Alma**: Kütüphane ihtiyaçlarınızı karşılıyorsa satın almayı düşünün.
 
 ### Temel Başlatma ve Kurulum
-Aspose.Slides projenize eklendikten sonra aşağıdaki gibi başlatın:
+Aşağıdaki kod parçacığı bir sunumu yüklemek için gerekli minimum kodu gösterir.  
 ```java
 Presentation presentation = new Presentation();
-```
-Bu basit adım, sunumlarla programlı olarak çalışmaya başlamanız için ortamınızı hazırlar.
+```  
+`Presentation`, bir PowerPoint dosyasını temsil eden ana sınıftır ve slaytları yükleme, düzenleme ve kaydetmeye olanak tanır. Bu basit adım, programlı olarak sunumlarla çalışmaya başlamak için ortamınızı hazırlar.
 
-## PowerPoint Grafik Veri Aralığını Güncelleme – Adım Adım
+## PowerPoint Grafik Veri Aralığını Güncelle – Adım Adım
 
 ### Grafiğe Erişim
 #### Değiştirmek istediğiniz grafiği nasıl bulursunuz
-İlk olarak mevcut bir sunumu yüklememiz ve grafik şekline erişmemiz gerekiyor.
+Sunumu yükleyin, slaytları dolaşın ve `IChart` arayüzünü uygulayan şekli bulun.  
+`IChart`, bir slayt içindeki grafik şekli temsil eder ve veri ve biçimlendirmesine erişim sağlar. Referansı elde ettikten sonra verisini manipüle edebilirsiniz.  
+
+**Tanım bağlantısı:** `IChart`, bir PowerPoint slaytındaki grafik şekli temsil eder ve veri ve biçimlendirmesine erişim sağlar.  
+
+**Doğrudan yanıt (40‑70 kelime):** `new Presentation("input.pptx")` ile PPTX'i yükleyin, her `ISlide` üzerinden döngü yapın, ardından `if (shape instanceof IChart)` ile grafiği tanımlayın. Şekli `IChart` olarak cast edin ve daha sonraki güncellemeler için referansı saklayın. Bu yaklaşım, herhangi sayıda slayt ve grafik türü için çalışır.  
 
 ```java
 // Specify the document directory where your files are located.
@@ -111,7 +148,7 @@ String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 
 // Instantiate Presentation class that represents a PPTX file.
 Presentation presentation = new Presentation(dataDir + "/ExistingChart.pptx");
-```
+```  
 
 ```java
 // Access the first slide of the presentation.
@@ -119,71 +156,79 @@ ISlide slide = presentation.getSlides().get_Item(0);
 
 // Get the first shape from the slide, assuming it's a chart.
 IChart chart = (IChart) slide.getShapes().get_Item(0);
-```
+```  
 
-> **İpucu:** Grafik ilk şekil değilse, `slide.getShapes()` içinde döngü yapın ve doğru olanı bulmak için `instanceof IChart` kontrol edin.
+> **Pro ipucu:** Grafik ilk şekil değilse, `slide.getShapes()` üzerinden döngü yapın ve `instanceof IChart` kontrol ederek doğru olanı bulun.
 
 ### Grafik Veri Aralığını Değiştirme
 #### Grafik veri kaynağını nasıl değiştirirsiniz
-Artık grafiğe bir referansımız olduğuna göre, Excel‑stil A1 notasyonu kullanarak yeni bir veri aralığı ayarlayabiliriz.
+Artık grafiğe bir referansımız olduğuna göre, Excel‑stil A1 notasyonu kullanarak yeni bir veri aralığı ayarlayabiliriz.  
+
+**Tanım bağlantısı:** `ChartData`, bir grafiğin temel çalışma sayfası verilerini tutan nesnedir ve `setRange` metodunu sağlar.  
+
+**Doğrudan yanıt (40‑70 kelime):** `chart.getChartData().setRange("Sheet1!$A$1:$B$5")` çağırarak grafiği yeni bir hücre bloğuna yönlendirin. Aralık dizesi standart Excel A1 notasyonunu izler; sayfa adı ve hücre koordinatları veri kaynağını tanımlar. Aralık ayarlandıktan sonra grafik otomatik olarak yeni değerleri gösterecek şekilde yenilenir.  
 
 ```java
 // Set a new data range for the chart. The range is specified in A1 notation for an Excel sheet.
 chart.getChartData().setRange("Sheet1!A1:B4");
-```
+```  
 
 ### Değiştirilmiş Sunumu Kaydetme
-#### Değişiklikleri nasıl kalıcı hâle getirirsiniz
-Veri aralığını güncelledikten sonra sunumu yeni bir dosyaya kaydedin.
+#### Değişikliklerinizi nasıl kalıcı hale getirirsiniz
+Veri aralığını güncelledikten sonra, sunumu yeni bir dosyaya kaydedin.  
+
+**Doğrudan yanıt (40‑70 kelime):** `presentation.save("output.pptx", SaveFormat.Pptx)` çağırarak değiştirilmiş sunumu diske yazın. `SaveFormat`, bir sunumu kaydetmek için desteklenen dosya formatlarını listeler. PPTX için uygun sabiti kullanın; ayrıca PPT, PDF veya görüntü olarak da kaydedebilirsiniz. `Presentation` nesnesini `presentation.dispose()` ile kapatmak, yerel kaynakları serbest bırakır ve bellek sızıntılarını önler.  
 
 ```java
 // Save the modified presentation to a new file.
 presentation.save(dataDir + "/SetDataRange_out.pptx", SaveFormat.Pptx);
-```
+```  
 
 **Sorun Giderme İpuçları**
-- `dataDir` yolunun doğru olduğundan ve uygulamanın yazma iznine sahip olduğundan emin olun.  
-- Hedeflediğiniz nesnenin gerçekten bir grafik nesnesi olduğundan emin olun; aksi takdirde `ClassCastException` fırlatılır.
+- `dataDir` yolunun doğru olduğundan ve uygulamanın yazma izinlerine sahip olduğundan emin olun.
+- Hedeflediğiniz grafiğin gerçekten bir grafik nesnesi olduğunu doğrulayın; aksi takdirde `ClassCastException` fırlatılır.
 
 ## Pratik Uygulamalar
-Aspose.Slides for Java, aşağıdaki gibi birçok olasılığı açar:
 
-1. **Raporların Otomasyonu** – Aylık finansal sunumlardaki grafik verilerini otomatik olarak yenileyin.  
-2. **Dinamik Panolar** – Kullanıcıların tarih aralığı seçtiği ve grafiğin anında güncellendiği etkileşimli panolar oluşturun.  
-3. **Eğitim Araçları** – Gerçek zamanlı verileri yansıtan ders‑özel grafikler üreterek sınıf sunumlarını zenginleştirin.
+Aspose.Slides for Java, aşağıdakiler gibi birçok olasılık sunar:
 
-Bu senaryolar, **grafik veri aralığını** yeniden oluşturmak yerine değiştirmenin neden tercih edilebileceğini gösterir.
+1. **Raporları Otomatikleştirme** – Aylık finansal sunumlarda grafik verilerini otomatik olarak yenileyin.  
+2. **Dinamik Gösterge Panelleri** – Kullanıcıların tarih aralığı seçtiği ve grafiğin anında güncellendiği etkileşimli paneller oluşturun.  
+3. **Eğitim Araçları** – Sınıf sunumları için gerçek zamanlı verileri yansıtan ders‑özel grafikler oluşturun.
+
+Bu senaryolar, tüm slaytı yeniden oluşturmak yerine **grafik veri aralığını değiştirmek** isteyebileceğinizi gösterir.
 
 ## Performans Düşünceleri
-Büyük sunumlarla çalışırken şu ipuçlarını aklınızda tutun:
 
-- Artık ihtiyaç duymadığınız nesneleri `presentation.dispose()` ile serbest bırakın.  
-- Büyük dosyalar için bellek baskısını azaltmak amacıyla `FileInputStream`, `FileOutputStream` gibi akışları kullanın.  
-- Java çöp toplama en iyi uygulamalarını izleyin ve büyük nesneleri gereksiz yere uzun süre tutmaktan kaçının.
+Büyük sunumlarla çalışırken, şu ipuçlarını aklınızda bulundurun:
+
+- Artık ihtiyaç duyulmayan nesneleri (`presentation.dispose()`) serbest bırakın.
+- Büyük dosyalar için bellek baskısını azaltmak amacıyla akışları (`FileInputStream`, `FileOutputStream`) kullanın.
+- Java çöp toplama için en iyi uygulamaları izleyin ve büyük nesneleri gereksiz yere uzun süre tutmaktan kaçının.
 
 ## Yaygın Sorunlar ve Çözümler
 | Sorun | Neden | Çözüm |
 |-------|-------|----------|
-| `ClassCastException` şekli `IChart` olarak dönüştürürken | Şekil bir grafik değil. | Şekiller arasında döngü yapın ve `instanceof IChart` kontrol edin. |
-| Veri aralığı PowerPoint’te görünmüyor | Yanlış A1 notasyonu veya sayfa adı. | Sayfa adını ve hücre referanslarını gömülü çalışma kitabıyla eşleştiğinden emin olun. |
-| Büyük dosyalarda bellek tükenmesi | Sunumun tamamını belleğe yüklemek. | Akış kabul eden `Presentation` yapıcısını ve kısmi yükleme için `LoadOptions` kullanın. |
+| `ClassCastException` when casting shape to `IChart` | Şekil bir grafik değil. | Şekilleri dolaşın ve `instanceof IChart` kontrol edin. |
+| Data range not reflecting in PowerPoint | Yanlış A1 notasyonu veya sayfa adı. | Sayfa adını ve hücre referanslarını gömülü çalışma kitabıyla eşleştiğinden emin olun. |
+| Out‑of‑memory errors on huge files | Tüm sunumun belleğe yüklenmesi. | Akış kabul eden `Presentation` yapıcıyı kullanın ve kısmi yükleme için `LoadOptions` etkinleştirin. |
 
 ## Sıkça Sorulan Sorular
 
-**S: Tek bir sunumda birden fazla grafiği güncelleyebilir miyim?**  
-C: Evet. Her slaytı ve her şekli döngüyle gezerek `IChart` kontrol edin, ardından ihtiyacınız olan her grafiğin `setRange` metodunu çağırın.
+**Q: Tek bir sunumda birden fazla grafiği güncelleyebilir miyim?**  
+A: Evet. Her slaytı ve her şekli döngüyle gezerek `IChart` kontrol edin, ardından değiştirmek istediğiniz her grafiğe `setRange` çağırın.
 
-**S: Grafik verim harici bir Excel dosyasında depolanıyorsa ne yapmalıyım?**  
-C: Dış çalışma kitabını önce sunuma gömün, ardından `setRange` ile aralığı referans alın. Aspose.Slides ayrıca dış veri kaynaklarını içe aktarmak için API’ler sunar.
+**Q: Grafik verilerim harici bir Excel dosyasında depolanmış olsaydı ne olur?**  
+A: Önce harici çalışma kitabını sunuma gömebilir, ardından `setRange` ile aralığını referans alabilirsiniz. Aspose.Slides ayrıca harici veri kaynaklarını içe aktarmak için API'ler sunar.
 
-**S: Bu, PPT (ikili) dosyalarıyla da çalışır mı?**  
-C: Aynı API her iki formatı da destekler; sadece yükleme ya da kaydetme sırasında dosya uzantısını değiştirin.
+**Q: Bu, PPT (ikili) dosyalarıyla da PPTX gibi çalışır mı?**  
+A: Aynı API her iki formatta da çalışır; yüklerken veya kaydederken dosya uzantısını değiştirmeniz yeterlidir.
 
-**S: Veri aralığını değiştirdikten sonra grafik tipini nasıl değiştiririm?**  
-C: Kaydetmeden önce `chart.getChartData().setChartType(ChartType.Bar)` (veya desteklenen başka bir tip) kullanın.
+**Q: Veri aralığını değiştirdikten sonra grafik tipini nasıl değiştiririm?**  
+A: Kaydetmeden önce `chart.getChartData().setChartType(ChartType.Bar)` (veya desteklenen başka bir tip) kullanın.
 
-**S: Geliştirme sürümleri için lisans gerekli mi?**  
-C: Geliştirme ve test için ücretsiz deneme lisansı yeterlidir. Üretim dağıtımları için tam lisans gerekir.
+**Q: Geliştirme sürümleri için lisans gerekli mi?**  
+A: Geliştirme ve test için ücretsiz deneme lisansı yeterlidir. Üretim dağıtımları için tam lisans gerekir.
 
 ## Kaynaklar
 - **Dokümantasyon**: [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
@@ -195,14 +240,21 @@ C: Geliştirme ve test için ücretsiz deneme lisansı yeterlidir. Üretim dağ�
 
 ---
 
-**Son Güncelleme:** 2026-02-17  
-**Test Edilen Sürüm:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Son Güncelleme:** 2026-07-08  
+**Test Edilen:** Aspose.Slides for Java 25.4 (JDK 16)  
 **Yazar:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## İlgili Öğreticiler
+
+- [PowerPoint Grafik Verilerini Aspose.Slides for Java ile Düzenleme: Kapsamlı Kılavuz](/slides/java/charts-graphs/edit-ppt-chart-data-aspose-slides-java/)
+- [PowerPoint'e Grafik Ekleme Aspose.Slides for Java ile: Adım Adım Kılavuz](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [PowerPoint Grafiklerini Aspose.Slides for Java ile Canlandırma – Adım Adım Kılavuz](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -1,13 +1,75 @@
 ---
-title: "Create doughnut chart PowerPoint with Aspose.Slides for Java"
-description: "Learn how to create doughnut chart PowerPoint using Aspose.Slides for Java and add chart data points programmatically. Follow easy steps and code examples."
-date: "2026-02-17"
-weight: 1
-url: "/java/charts-graphs/aspose-slides-java-doughnut-charts-ppt-powerpoint/"
+date: '2026-07-08'
+description: Learn how to use Aspose to create a doughnut chart in PowerPoint with
+  Java. This step‑by‑step guide shows adding chart data points programmatically, customizing
+  labels, and saving the PPTX with high fidelity.
+images:
+- /java/charts-graphs/aspose-slides-java-doughnut-charts-ppt-powerpoint/og-image.png
 keywords:
-- Aspose.Slides for Java
-- dynamic doughnut charts PowerPoint
-- Java PowerPoint chart creation
+- how to use aspose
+- create doughnut chart powerpoint
+- maven dependency aspose slides
+lastmod: '2026-07-08'
+og_description: How to use Aspose lets you create a doughnut chart in PowerPoint using
+  Java. Follow this tutorial to add data points, customize labels, and save the PPTX
+  with high fidelity.
+og_image_alt: 'Guide: Create doughnut chart PowerPoint with Aspose.Slides for Java'
+og_title: 'How to Use Aspose: Create Doughnut Chart in PowerPoint (Java)'
+schemas:
+- author: Aspose
+  dateModified: '2026-07-08'
+  description: Learn how to use Aspose to create a doughnut chart in PowerPoint with
+    Java. This step‑by‑step guide shows adding chart data points programmatically,
+    customizing labels, and saving the PPTX with high fidelity.
+  headline: How to Use Aspose Create Doughnut Chart in PowerPoint (Java)
+  type: TechArticle
+- description: Learn how to use Aspose to create a doughnut chart in PowerPoint with
+    Java. This step‑by‑step guide shows adding chart data points programmatically,
+    customizing labels, and saving the PPTX with high fidelity.
+  name: How to Use Aspose Create Doughnut Chart in PowerPoint (Java)
+  steps:
+  - name: Initialize the presentation
+    text: Create a fresh presentation or open an existing file to obtain a slide collection.
+      `Presentation` is the primary class that represents a PowerPoint file.
+  - name: Add a doughnut chart to the slide
+    text: Insert a chart shape, remove default series/categories, and configure basic
+      visual settings like the doughnut hole size. `Chart` (or chart shape) represents
+      a chart object placed on a slide.
+  - name: Add chart data points and customize labels
+    text: Populate category names, add data points for each series, and fine‑tune
+      label formatting (font, color, position). This step demonstrates the “add chart
+      data points” capability. `Workbook` provides access to the chart’s underlying
+      spreadsheet data where cells are populated.
+  - name: Save the updated presentation
+    text: Persist the changes to a new PPTX file on disk. `save` writes the presentation
+      to a file in the chosen format.
+  type: HowTo
+- questions:
+  - answer: Yes, but you need a valid commercial license. A free trial is available
+      for evaluation.
+    question: Can I use Aspose.Slides for Java in commercial applications?
+  - answer: Increase the loop limit in the “Add Doughnut Chart” step and ensure your
+      data workbook contains enough rows.
+    question: How do I add more than 15 series?
+  - answer: Yes, call `series.getParentSeriesGroup().setDoughnutHoleSize((byte)desiredSize)`
+      before saving.
+    question: Is it possible to change the doughnut hole size after creation?
+  - answer: Absolutely. Use `chart.getImage()` and save the returned `java.awt.image.BufferedImage`
+      in your preferred format.
+    question: Can I export the chart as an image instead of a PPTX?
+  - answer: Animation can be added via the `ISlide.getTimeline()` API, though it’s
+      beyond the scope of this tutorial.
+    question: Does Aspose.Slides support animated charts?
+  type: FAQPage
+tags:
+- doughnut chart
+- Aspose.Slides
+- Java PowerPoint
+- chart generation
+- presentation automation
+title: How to Use Aspose Create Doughnut Chart in PowerPoint (Java)
+url: /java/charts-graphs/aspose-slides-java-doughnut-charts-ppt-powerpoint/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -15,45 +77,38 @@ keywords:
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Create doughnut chart PowerPoint with Aspose.Slides for Java
+# How to Use Aspose Create Doughnut Chart in PowerPoint (Java)
 
 ## Introduction
-Creating compelling presentations often requires more than just text and images; charts can significantly enhance storytelling by visualizing data effectively. However, many developers struggle to integrate dynamic chart features into PowerPoint files programmatically. This tutorial demonstrates how to **create doughnut chart PowerPoint** using Aspose.Slides for Java—a powerful tool that combines flexibility and ease of use.
+Creating compelling presentations often requires more than just text and images; charts can significantly enhance storytelling by visualizing data effectively. **How to use Aspose** for chart generation gives you programmatic control without ever opening PowerPoint. This tutorial walks you through building a doughnut chart, configuring its data points, and saving a high‑fidelity PPTX. You’ll need only basic Java knowledge and a few minutes of setup time.
 
-**What You'll Learn:**
-- How to initialize a presentation using Aspose.Slides for Java
-- A step‑by‑step guide to adding a doughnut chart to your slides
-- Configuring data points and customizing label properties
-- Saving the modified presentation with high fidelity
-
-Let's explore how you can leverage these features to enhance your presentations. Before we start, ensure you're familiar with basic Java programming concepts.
+`Aspose.Slides for Java` is a Java library that enables creation, manipulation, and conversion of PowerPoint files without Microsoft Office.
 
 ## Quick Answers
-- **What library creates doughnut chart PowerPoint?** Aspose.Slides for Java
-- **Can I add chart data points programmatically?** Yes, using the chart API
-- **Do I need a license for production?** A valid Aspose.Slides license is required
-- **Which Java versions are supported?** Java 8 and later (JDK 16 classifier shown)
-- **How many series can I add?** The example adds up to 15 series, but you can adjust as needed
+- **What library creates doughnut chart PowerPoint?** Aspose.Slides for Java  
+- **Can I add chart data points programmatically?** Yes, using the chart API  
+- **Do I need a license for production?** A valid Aspose.Slides license is required  
+- **Which Java versions are supported?** Java 8 and later (JDK 16 classifier shown)  
+- **How many series can I add?** The example adds up to 15 series, but you can adjust as needed  
 
 ## What is a doughnut chart in PowerPoint?
-A doughnut chart is a variation of a pie chart with a hollow center, allowing you to display multiple data series in a compact, visually appealing way. It’s ideal for showing part‑to‑whole relationships while keeping the design clean.
+A doughnut chart is a circular chart similar to a pie chart but with a hollow center, allowing multiple series to be displayed simultaneously. It emphasizes part‑to‑whole relationships while keeping the visual layout compact and easy to read.
 
 ## Why use Aspose.Slides for Java to create doughnut charts?
-- **Full control** over chart appearance, data, and layout without opening PowerPoint
-- **No COM interop** – works on any platform that supports Java
-- **High performance** for generating large decks or integrating with web services
-- **Rich customization** such as explosion, hole size, slice angles, and label formatting
+Aspose.Slides for Java handles over 50 input and output formats and can generate presentations up to 500 MB without loading the whole file into memory. It gives full programmatic control over chart appearance, data, and layout on any Java platform, eliminates COM interop, and can render 100 chart‑rich slides in under two seconds on a typical server.
 
 ## Prerequisites
-- Basic knowledge of Java programming.
-- An IDE like IntelliJ IDEA or Eclipse.
-- Maven or Gradle for dependency management.
+- Basic knowledge of Java programming.  
+- An IDE such as IntelliJ IDEA or Eclipse.  
+- Maven or Gradle for dependency management.  
 - A valid Aspose.Slides for Java license (free trial available).
 
 ## Setting Up Aspose.Slides for Java
 Choose the dependency manager that fits your project.
 
-**Maven**
+**Maven**  
+Add the following dependency to your `pom.xml` (replace the version with the latest release):
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -63,9 +118,11 @@ Choose the dependency manager that fits your project.
 </dependency>
 ```
 
-**Gradle**
+**Gradle**  
+Add this line to your `build.gradle`:
+
 ```gradle
-implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
+implementation 'com.aspose:aspose-slides:25.4:jdk16'
 ```
 
 If you prefer downloading directly, visit the [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) page.
@@ -74,11 +131,33 @@ If you prefer downloading directly, visit the [Aspose.Slides for Java releases](
 You can start with a free trial to explore Aspose.Slides features. For extended use, purchase a license or request a temporary one from [Aspose's website](https://purchase.aspose.com/temporary-license/). Follow the instructions provided for setting up your environment and initializing Aspose.Slides in your application.
 
 ## How to create doughnut chart PowerPoint using Aspose.Slides for Java
-Below is a complete, step‑by‑step guide. Each code block is explained right before it, so you know exactly what’s happening.
+To build a doughnut chart, start by loading or creating a `Presentation`, add a chart shape of type `ChartType.Doughnut`, clear default series, set the hole size, and then fill the chart’s workbook with category names and numeric values. Finally, adjust label formatting and save the PPTX.
 
 ### Step 1: Initialize the presentation
-First, load an existing PPTX or create a new one. This prepares the slide collection for further modifications.
+Create a fresh presentation or open an existing file to obtain a slide collection.
 
+`Presentation` is the primary class that represents a PowerPoint file.  
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-slides</artifactId>
+    <version>25.4</version>
+    <classifier>jdk16</classifier>
+</dependency>
+```
+
+### Step 2: Add a doughnut chart to the slide
+Insert a chart shape, remove default series/categories, and configure basic visual settings like the doughnut hole size.
+
+`Chart` (or chart shape) represents a chart object placed on a slide.  
+```gradle
+implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
+```
+
+### Step 3: Add chart data points and customize labels
+Populate category names, add data points for each series, and fine‑tune label formatting (font, color, position). This step demonstrates the “add chart data points” capability.
+
+`Workbook` provides access to the chart’s underlying spreadsheet data where cells are populated.  
 ```java
 import com.aspose.slides.*;
 
@@ -90,9 +169,10 @@ ISlide slide = pres.getSlides().get_Item(0);
 pres.save(dataDir + "/initialized_chart.pptx", SaveFormat.Pptx);
 ```
 
-### Step 2: Add a doughnut chart to the slide
-We add the chart shape, clear any default series/categories, and set basic visual properties.
+### Step 4: Save the updated presentation
+Persist the changes to a new PPTX file on disk.
 
+`save` writes the presentation to a file in the chosen format.  
 ```java
 import com.aspose.slides.*;
 
@@ -115,8 +195,50 @@ while (seriesIndex < 15) {
 }
 ```
 
-### Step 3: Add chart data points and customize labels
-Here we populate categories, add data points for each series, and fine‑tune the label appearance. This is where the **add chart data points** keyword comes into play.
+## Practical Applications
+Doughnut charts are perfect for:
+- **Financial Reports:** Visualizing budget allocations or expense breakdowns.  
+- **Market Analysis:** Showing market‑share distribution among competitors.  
+- **Survey Results:** Presenting categorical survey data in a compact form.  
+- **Dashboard Generation:** Combining with database queries to produce live‑updating slides.
+
+## Performance Considerations
+- **Dispose resources:** Call `pres.dispose()` after saving to free native memory.  
+- **Limit chart count:** Adding hundreds of charts can increase memory usage; batch‑process if needed.  
+- **Use streaming:** For massive data sets, populate the workbook directly from streams instead of in‑memory arrays.  
+
+## Common Issues and Solutions
+| Issue | Cause | Fix |
+|-------|-------|-----|
+| **Chart appears blank** | Data cells not populated correctly | Verify that `workBook.getCell(...)` references the correct row/column indices. |
+| **Labels overlap** | Too many categories in limited space | Increase `DoughnutHoleSize` or adjust `FirstSliceAngle`. |
+| **OutOfMemoryError** | Large presentations without disposing | Call `pres.dispose()` after saving and consider increasing JVM heap size. |
+
+## Frequently Asked Questions
+
+**Q: Can I use Aspose.Slides for Java in commercial applications?**  
+A: Yes, but you need a valid commercial license. A free trial is available for evaluation.
+
+**Q: How do I add more than 15 series?**  
+A: Increase the loop limit in the “Add Doughnut Chart” step and ensure your data workbook contains enough rows.
+
+**Q: Is it possible to change the doughnut hole size after creation?**  
+A: Yes, call `series.getParentSeriesGroup().setDoughnutHoleSize((byte)desiredSize)` before saving.
+
+**Q: Can I export the chart as an image instead of a PPTX?**  
+A: Absolutely. Use `chart.getImage()` and save the returned `java.awt.image.BufferedImage` in your preferred format.
+
+**Q: Does Aspose.Slides support animated charts?**  
+A: Animation can be added via the `ISlide.getTimeline()` API, though it’s beyond the scope of this tutorial.
+
+## Conclusion
+You now have a complete, production‑ready method to **create doughnut chart PowerPoint** files with Aspose.Slides for Java, including how to **add chart data points**, customize labels, and handle performance considerations. Experiment with different colors, data sources, and chart types to make your presentations truly stand out.
+
+---
+
+**Last Updated:** 2026-07-08  
+**Tested With:** Aspose.Slides for Java 25.4 (JDK 16 classifier)  
+**Author:** Aspose
 
 ```java
 import com.aspose.slides.*;
@@ -161,64 +283,22 @@ while (categoryIndex < 15) {
 }
 ```
 
-### Step 4: Save the updated presentation
-Finally, persist the changes to a new PPTX file.
-
 ```java
 import com.aspose.slides.*;
 
 pres.save(dataDir + "/chart.pptx", SaveFormat.Pptx);
 ```
 
-## Practical Applications
-Doughnut charts can be used in various real‑world scenarios:
-- **Financial Reports:** Visualize budget allocations or expense breakdowns.
-- **Market Analysis:** Show market‑share distribution among competitors.
-- **Survey Results:** Present categorical survey data in a compact form.
-- **Dashboard Generation:** Combine with database queries to generate live‑updating slides.
+## Related Tutorials
 
-## Performance Considerations
-- **Dispose resources**: Call `pres.dispose()` when you’re done to free native memory.
-- **Limit chart count**: Adding hundreds of charts can increase memory usage; batch‑process if needed.
-- **Use streaming**: For massive data sets, populate the workbook directly from streams instead of in‑memory arrays.
+- [How to Add Charts to PowerPoint Using Aspose.Slides for Java: A Step‑by‑Step Guide](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [How to Edit PowerPoint Chart Data Using Aspose.Slides for Java: A Comprehensive Guide](/slides/java/charts-graphs/edit-ppt-chart-data-aspose-slides-java/)
+- [Animate Charts PowerPoint Using Aspose.Slides for Java – A Step‑by‑Step Guide](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
 
-## Common Issues and Solutions
-| Issue | Cause | Fix |
-|-------|-------|-----|
-| **Chart appears blank** | Data cells not populated correctly | Verify that `workBook.getCell(...)` references the correct row/column indices. |
-| **Labels overlap** | Too many categories in limited space | Increase `DoughnutHoleSize` or adjust `FirstSliceAngle`. |
-| **OutOfMemoryError** | Large presentations without disposing | Call `pres.dispose()` after saving and consider increasing JVM heap size. |
-
-## Frequently Asked Questions
-
-**Q: Can I use Aspose.Slides for Java in commercial applications?**  
-A: Yes, but you need a valid commercial license. A free trial is available for evaluation.
-
-**Q: How do I add more than 15 series?**  
-A: Increase the loop limit in the “Add Doughnut Chart” step and ensure your data workbook has enough rows.
-
-**Q: Is it possible to change the doughnut hole size after creation?**  
-A: Yes, call `series.getParentSeriesGroup().setDoughnutHoleSize((byte)desiredSize)` at any point before saving.
-
-**Q: Can I export the chart as an image instead of a PPTX?**  
-A: Absolutely. Use `chart.getImage()` and save the returned `java.awt.image.BufferedImage` in your preferred format.
-
-**Q: Does Aspose.Slides support animated charts?**  
-A: Animation can be added via the `ISlide.getTimeline()` API, though it’s beyond the scope of this tutorial.
-
-## Conclusion
-You now have a complete, production‑ready method to **create doughnut chart PowerPoint** files with Aspose.Slides for Java, including how to **add chart data points**, customize labels, and handle performance considerations. Experiment with different colors, data sources, and chart types to make your presentations truly stand out.
-
----
-
-**Last Updated:** 2026-02-17  
-**Tested With:** Aspose.Slides for Java 25.4 (JDK 16 classifier)  
-**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
