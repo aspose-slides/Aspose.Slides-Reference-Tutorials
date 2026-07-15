@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-17"
-"description": "Aspose.Slides kullanarak Java'da grafiklerle dinamik sunumlar oluşturmayı ve yapılandırmayı öğrenin. Sunumları etkili bir şekilde ekleme, özelleştirme ve kaydetme konusunda ustalaşın."
-"title": "Java için Aspose.Slides'ı Kullanarak Grafiklerle Java Sunumları Oluşturun"
-"url": "/tr/java/charts-graphs/create-java-presentations-charts-aspose-slides/"
-"weight": 1
+date: '2026-03-20'
+description: Aspose.Slides kullanarak Java sunumlarına grafik eklemeyi öğrenin ve
+  sunum grafik dosyalarını hızlı bir şekilde oluşturun.
+keywords:
+- Java Presentations with Aspose.Slides
+- Create Charts in Java
+- Configure Presentation Data
+title: Aspose.Slides ile Java Sunumlarına Grafik Nasıl Eklenir
+url: /tr/java/charts-graphs/create-java-presentations-charts-aspose-slides/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,35 +16,43 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Java için Aspose.Slides Kullanarak Grafikli Bir Sunum Nasıl Oluşturulur ve Yapılandırılır
+# Aspose.Slides for Java Kullanarak Sunuma Grafik Ekleme
 
-## giriiş
+## Giriş
 
-Günümüzün hızlı tempolu iş ortamında verileri etkili bir şekilde ileten dinamik sunumlar oluşturmak esastır. İster finansal bir rapor hazırlıyor olun ister proje ölçümlerini sergiliyor olun, grafikler eklemek sunumunuzun etkisini önemli ölçüde artırabilir. Bu eğitim, sunumları programatik olarak işlemek için tasarlanmış güçlü bir kütüphane olan Aspose.Slides for Java kullanarak 3B yığılmış sütun grafiğiyle bir sunum oluşturma ve yapılandırma konusunda size rehberlik eder.
+Dinamik sunumlar oluşturmak ve verileri etkili bir şekilde iletmek, günümüzün hızlı tempolu iş ortamında çok önemlidir. Finansal bir rapor, bir pazarlama sunumu ya da bir proje durum güncellemesi hazırlıyor olun, slaytlarınıza **grafik eklemeyi bilmek** izleyici katılımını büyük ölçüde artırabilir. Bu öğreticide, adım adım 3D yığılmış sütun grafiği eklemeyi, verilerini yapılandırmayı ve son dosyayı kaydetmeyi—tümü Aspose.Slides for Java ile—öğreneceksiniz.
 
-**Ne Öğreneceksiniz:**
-- Yeni bir sunum nasıl oluşturulur
-- Slaytlara grafik ekleyin ve yapılandırın
-- Grafik verilerini ve görünümünü özelleştirin
-- Sunumunuzu etkili bir şekilde kaydedin
+### Hızlı Yanıtlar
+- **Temel kütüphane nedir?** Aspose.Slides for Java  
+- **Hangi grafik türü gösterilmektedir?** 3D Stacked Column  
+- **Sunum grafik dosyalarını programlı olarak oluşturabilir miyim?** Yes, using the API methods shown below  
+- **Hangi Java sürümü önerilir?** JDK 16 or later  
+- **Üretim için lisansa ihtiyacım var mı?** A valid Aspose.Slides license is required for commercial use  
 
-Java ile görsel olarak ilgi çekici sunumlar oluşturmada ustalaşmaya hazır mısınız? Hadi başlayalım!
+## Aspose.Slides'ta “grafik ekleme” nedir?
 
-## Ön koşullar
+Aspose.Slides for Java, Microsoft Office olmadan PowerPoint dosyaları oluşturmanıza, düzenlemenize ve dışa aktarmanıza olanak tanıyan zengin bir nesne seti sunar. Grafik eklemek, bir `Presentation` nesnesi oluşturmak, bir grafik şekli eklemek ve yerleşik çalışma kitabı aracılığıyla verileri beslemek kadar basittir.
 
-Eğitime başlamadan önce şu ön koşulların sağlandığından emin olun:
+## Java sunumlarına neden grafik eklenir?
 
-- **Kütüphaneler ve Bağımlılıklar**: Java için Aspose.Slides'ın kurulu olması gerekir.
-- **Çevre Kurulumu**: Java ortamında çalışın (JDK 16 veya üzeri önerilir).
-- **Bilgi Tabanı**:Temel Java programlama kavramlarına aşinalık faydalı olacaktır.
+- **Görsel etki:** Grafikler, ham sayıları anında anlaşılır görsellere dönüştürür.  
+- **Otomasyon:** Raporları anında oluşturun—planlı e‑posta özetleri veya gösterge tabloları için idealdir.  
+- **Tutarlılık:** Oluşturulan tüm sunumlarda aynı stil ve marka kimliğini kullanın.  
+- **Taşınabilirlik:** Tek bir metod çağrısıyla PPTX, PDF veya görüntü formatına dışa aktarın.
 
-## Java için Aspose.Slides Kurulumu
+## Önkoşullar
+
+- **Kütüphaneler ve Bağımlılıklar:** Aspose.Slides for Java kurulmuş olmalıdır.  
+- **Ortam Kurulumu:** Java ortamında çalışın (JDK 16 veya daha yeni sürüm önerilir).  
+- **Bilgi Temeli:** Temel Java programlama kavramlarına aşina olmak faydalı olacaktır.
+
+## Aspose.Slides for Java Kurulumu
 
 ### Kurulum
 
-Aspose.Slides'ı projenize entegre etmek için şu adımları izleyin:
+Aspose.Slides'ı projenize entegre etmek için aşağıdaki seçeneklerden birini izleyin.
 
-**Usta**
+**Maven**
 
 ```xml
 <dependency>
@@ -56,38 +69,38 @@ Aspose.Slides'ı projenize entegre etmek için şu adımları izleyin:
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Doğrudan İndirme**: Alternatif olarak, en son sürümü şu adresten indirin: [Java sürümleri için Aspose.Slides](https://releases.aspose.com/slides/java/).
+**Doğrudan İndirme**: Alternatif olarak, en son sürümü [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) adresinden indirin.
 
-### Lisans Edinimi
-- **Ücretsiz Deneme**: Özellikleri keşfetmek için ücretsiz denemeyle başlayın.
-- **Geçici Lisans**:Uzun süreli testler için geçici lisans alın.
-- **Satın almak**:Ticari kullanım için tam lisans edinin.
+### Lisans Edinme
+- **Ücretsiz Deneme:** Özellikleri keşfetmek için ücretsiz deneme ile başlayın.  
+- **Geçici Lisans:** Uzun vadeli testler için geçici bir lisans edinin.  
+- **Satın Alma:** Ticari kullanım için tam lisans alın.
 
-Kurulduktan sonra, Java ortamınızda bir örnek oluşturarak kitaplığı başlatın `Presentation` sınıf. Bu, sununuza grafikler ve diğer öğeler eklemek için zemin hazırlar.
+Kurulum tamamlandıktan sonra, tüm grafikle ilgili işlemler için giriş noktası olan `Presentation` sınıfını örnekleyebilirsiniz.
 
 ## Uygulama Kılavuzu
 
-### Bir Grafikle Bir Sunum Oluşturun ve Yapılandırın
+### 3D yığılmış sütun ile bir sunuma grafik ekleme
 
-#### Genel bakış
-Aspose.Slides ile sıfırdan bir sunum oluşturmak basittir. Bu bölümde, sunumumuzun ilk slaydına 3B yığılmış sütun grafiği ekleyeceğiz.
+#### Genel Bakış
+Aspose.Slides ile sıfırdan bir sunum oluşturmak oldukça basittir. Bu bölümde, sunumumuzun ilk slaytına bir 3D yığılmış sütun grafiği ekleyeceğiz.
 
 **Adımlar:**
 
-1. **Sunum Nesnesini Başlat**
+1. **Presentation Nesnesini Başlat**
 
    ```java
    import com.aspose.slides.*;
 
    public class ChartPresentation {
        public static void main(String[] args) {
-           // Yeni bir Sunum nesnesi başlatın
+           // Initialize a new Presentation object
            Presentation presentation = new Presentation();
            
-           // Sunumdaki ilk slayda erişin
+           // Access the first slide in the presentation
            ISlide slide = presentation.getSlides().get_Item(0);
            
-           // Slayta (0,0) konumuna 3 boyutlu yığılmış sütun grafiği ekleyin
+           // Add a 3D stacked column chart to the slide at position (0,0)
            IChart chart = slide.getShapes().addChart(
                ChartType.StackedColumn3D, 0, 0, 500, 500
            );
@@ -101,28 +114,28 @@ Aspose.Slides ile sıfırdan bir sunum oluşturmak basittir. Bu bölümde, sunum
    }
    ```
 
-2. **Parametreleri Açıkla**:
-   - `ChartType.StackedColumn3D`: Grafik türünü belirtir.
-   - Pozisyon ve boyut `(0, 0, 500, 500)`: Grafiğin slaytta nerede görüneceğini belirler.
+2. **Parametreleri Açıklayın**  
+   - `ChartType.StackedColumn3D`: Grafik türünü belirtir.  
+   - Konum ve boyut `(0, 0, 500, 500)`: Grafiğin slaytta nerede görüneceğini belirler.
 
-### Grafik Verilerini Yapılandır
+### Grafik Verilerini Yapılandırma
 
-#### Genel bakış
-Grafiğinizi anlamlı kılmak için veri serilerini ve kategorilerini yapılandırın. Bu bölüm, grafiğinize belirli veri noktalarının nasıl ekleneceğini gösterir.
+#### Genel Bakış
+Grafiğinizi anlamlı kılmak için veri serilerini ve kategorileri yapılandırın. Bu bölüm, grafiğinize belirli veri noktaları eklemeyi gösterir.
 
 **Adımlar:**
 
-1. **Access Chart'ın Veri Çalışma Kitabı**
+1. **Grafiğin Veri Çalışma Kitabına Erişin**
 
    ```java
    public static void configureChartData(IChart chart) {
-       // Grafik verilerini içeren çalışma sayfasının dizinini ayarlayın
+       // Set the index of the worksheet that contains chart data
        int defaultWorksheetIndex = 0;
        
-       // Tablonun veri çalışma kitabına erişin
+       // Access the chart's data workbook
        IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
        
-       // İsimleri olan iki seriyi ekle
+       // Add two series with names
        chart.getChartData().getSeries().add(
            fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), 
            chart.getType()
@@ -132,25 +145,25 @@ Grafiğinizi anlamlı kılmak için veri serilerini ve kategorilerini yapıland�
            chart.getType()
        );
        
-       // Üç kategori ekle
+       // Add three categories
        chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 1, 0, "Category 1"));
        chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 0, "Category 2"));
        chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Category 3"));
    }
    ```
 
-### Grafik için Rotation3D Özelliklerini Ayarla
+### Grafik için Rotation3D Özelliklerini Ayarlama
 
-#### Genel bakış
-3D döndürme özellikleriyle grafiğinizin görsel çekiciliğini artırın. Bu özelleştirme, perspektifi ve derinliği ayarlamanıza olanak tanır.
+#### Genel Bakış
+Grafiğinizin görsel çekiciliğini 3D dönüş özellikleriyle artırın. Bu özelleştirme, perspektif ve derinliği ayarlamanıza olanak tanır.
 
 **Adımlar:**
 
-1. **3B Döndürmeleri Yapılandırın**
+1. **3D Dönüşleri Yapılandırın**
 
    ```java
    public static void setRotation3D(IChart chart) {
-       // Dik açılı eksenleri etkinleştirin ve X, Y yönlerinde ve derinlik yüzdesinde dönüşleri yapılandırın
+       // Enable right angle axes and configure rotations in X, Y directions, and depth percent
        chart.getRotation3D().setRightAngleAxes(true);
        chart.getRotation3D().setRotationX((byte) 40);
        chart.getRotation3D().setRotationY(270);
@@ -158,14 +171,14 @@ Grafiğinizi anlamlı kılmak için veri serilerini ve kategorilerini yapıland�
    }
    ```
 
-2. **Parametreleri Açıkla**:
-   - `setRightAngleAxes(true)`: Eksenlerin dik olmasını sağlar.
-   - Döndürme değerleri: 3B görünümün açısını ve derinliğini ayarlar.
+2. **Parametreleri Açıklayın**  
+   - `setRightAngleAxes(true)`: Eksenlerin dik olmasını sağlar.  
+   - Dönüş değerleri: 3D görünümün açı ve derinliğini ayarlar.
 
-### Grafikteki Seri Verilerini Doldur
+### Grafikte Seri Verilerini Doldurma
 
-#### Genel bakış
-Grafiğinizi veri noktalarıyla doldurmak analiz için çok önemlidir. Burada, grafiğimizdeki bir seriye belirli değerler ekleyeceğiz.
+#### Genel Bakış
+Grafiğinizi veri noktalarıyla doldurmak analiz için kritiktir. Burada, grafiğimizdeki bir seriye belirli değerler ekleyeceğiz.
 
 **Adımlar:**
 
@@ -173,10 +186,10 @@ Grafiğinizi veri noktalarıyla doldurmak analiz için çok önemlidir. Burada, 
 
    ```java
    public static void populateSeriesData(IChart chart) {
-       // İkinci grafik serisine erişin
+       // Access the second chart series
        IChartSeries series = chart.getChartData().getSeries().get_Item(1);
        
-       // Belirtilen değerlere sahip çubuk serileri için veri noktaları ekleyin
+       // Add data points for bar series with specified values
        int defaultWorksheetIndex = 0;
        IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
        
@@ -189,18 +202,18 @@ Grafiğinizi veri noktalarıyla doldurmak analiz için çok önemlidir. Burada, 
    }
    ```
 
-### Grafikte Seri Çakışmalarını Ayarla
+### Grafikte Seri Çakışmasını Ayarlama
 
-#### Genel bakış
-Grafiğinizin görünümünü ince ayarlamak okunabilirliği artırabilir. Bu bölüm, daha iyi veri görselleştirmesi için örtüşme özelliğinin nasıl ayarlanacağını ele almaktadır.
+#### Genel Bakış
+Grafiğinizin görünümünü ince ayar yapmak okunabilirliği artırabilir. Bu bölüm, daha iyi veri görselleştirme için çakışma özelliğini nasıl ayarlayacağınızı açıklar.
 
 **Adımlar:**
 
-1. **Seri Çakışmalarını Ayarla**
+1. **Seri Çakışmasını Ayarla**
 
    ```java
    public static void setSeriesOverlap(IChart chart) {
-       // Tablodan ikinci seriyi alın ve örtüşmesini 100 olarak ayarlayın
+       // Get the second series from the chart and set its overlap to 100
        IChartSeries series = chart.getChartData().getSeries().get_Item(1);
        
        series.getParentSeriesGroup().setOverlap((byte) 100);
@@ -209,7 +222,7 @@ Grafiğinizin görünümünü ince ayarlamak okunabilirliği artırabilir. Bu b�
 
 ### Sunumu Kaydet
 
-#### Genel bakış
+#### Genel Bakış
 Sunumunuz yapılandırıldıktan sonra, istediğiniz formatta diske kaydedin. Bu adım, tüm değişikliklerin korunmasını sağlar.
 
 **Adımlar:**
@@ -218,17 +231,48 @@ Sunumunuz yapılandırıldıktan sonra, istediğiniz formatta diske kaydedin. Bu
 
    ```java
    public static void savePresentation(Presentation presentation) {
-       // Değiştirilen sunumu bir dosyaya kaydedin
+       // Save the modified presentation to a file
        String outputFilePath = "output_presentation.pptx";
        presentation.save(outputFilePath, SaveFormat.Pptx);
    }
    ```
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-Artık Java için Aspose.Slides kullanarak grafiklerle sunumlar oluşturmayı ve yapılandırmayı öğrendiniz. Bu kılavuz, bir sunumu başlatmayı, 3B yığılmış sütun grafiği eklemeyi, veri serilerini ve kategorileri yapılandırmayı, dönüş özelliklerini ayarlamayı, seri verilerini doldurmayı, seri örtüşmesini ayarlamayı ve son sunumu kaydetmeyi kapsıyordu.
+| Sorun | Neden | Çözüm |
+|-------|-------|-------|
+| **Chart appears flat** | 3D rotation not set | Call `setRotation3D` with appropriate X/Y values. |
+| **Data not showing** | Workbook cells not linked | Ensure `fact.getCell` references correct row/column indices. |
+| **File not saved** | Incorrect path or missing permissions | Verify `outputFilePath` is writable and folder exists. |
 
-Daha gelişmiş özellikler ve özelleştirme seçenekleri için şuraya bakın: [Java belgeleri için Aspose.Slides](https://docs.aspose.com/slides/java/).
+## Sıkça Sorulan Sorular
+
+**Q: PPTX dışındaki formatlarda sunum grafik dosyaları oluşturabilir miyim?**  
+A: Evet, Aspose.Slides `SaveFormat` enum'u aracılığıyla PDF, ODP ve görüntü formatlarını destekler.
+
+**Q: Geliştirme ortamında kodu çalıştırmak için lisansa ihtiyacım var mı?**  
+A: Geçici veya değerlendirme lisansı geliştirme için yeterlidir, ancak üretim dağıtımları için tam lisans gereklidir.
+
+**Q: Aynı slayta birden fazla grafik eklemek mümkün mü?**  
+A: Kesinlikle. `slide.getShapes().addChart` metodunu farklı konum ve boyutlarla birden çok kez çağırın.
+
+**Q: Grafiğin renk paletini nasıl değiştiririm?**  
+A: `chart.getChartData().getSeries().get_Item(i).getFormat().getFill().setFillType(FillType.Solid)` metodunu kullanın ve bir `SolidFillColor` ayarlayın.
+
+**Q: Grafiği bir veritabanı gibi harici bir veri kaynağına bağlayabilir miyim?**  
+A: Evet. JDBC ile verileri alın, ardından kaydetmeden önce çalışma kitabı hücrelerini programlı olarak doldurun.
+
+## Sonuç
+
+Artık **grafik ekleme** konusunda Java sunumunda nasıl yapılacağını, verileri yapılandırmayı, 3D dönüşü özelleştirmeyi, seri çakışmasını ayarlamayı ve son dosyayı kaydetmeyi öğrendiniz. Bu bilgi, rapor oluşturmayı otomatikleştirmenizi, tutarlı bir marka kimliği oluşturmanızı ve veri odaklı sunumları manuel çaba olmadan sunmanızı sağlar. Efsane, eksen, tema gibi daha derin özelleştirmeler için resmi belgelerdeki tam yetenekleri keşfedin.
+
+Daha gelişmiş özellikler ve özelleştirme seçenekleri için [Aspose.Slides for Java documentation](https://docs.aspose.com/slides/java/) adresine bakın.
+
+---
+
+**Son Güncelleme:** 2026-03-20  
+**Test Edilen:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Yazar:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
