@@ -218,14 +218,6 @@ presentation.save(resultPath, SaveFormat.Pptx);
 **س: كيف يمكنني حماية ملف PPTX الناتج بكلمة مرور؟**  
 ج: استخدم `presentation.getProtectionManager().setPassword("yourPassword");` قبل الحفظ.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **آخر تحديث:** 2026-03-26  
@@ -233,3 +225,11 @@ presentation.save(resultPath, SaveFormat.Pptx);
 **المؤلف:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

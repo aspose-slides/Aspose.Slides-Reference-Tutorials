@@ -176,6 +176,12 @@ A: बिल्कुल! आपके पास चार्ट के भी�
 - **अस्थायी लाइसेंस**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **सपोर्ट**: [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
+---
+
+**अंतिम अपडेट:** 2026-03-26  
+**परीक्षण किया गया:** Aspose.Slides for Java 25.4 (jdk16)  
+**लेखक:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -183,9 +189,3 @@ A: बिल्कुल! आपके पास चार्ट के भी�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**अंतिम अपडेट:** 2026-03-26  
-**परीक्षण किया गया:** Aspose.Slides for Java 25.4 (jdk16)  
-**लेखक:** Aspose

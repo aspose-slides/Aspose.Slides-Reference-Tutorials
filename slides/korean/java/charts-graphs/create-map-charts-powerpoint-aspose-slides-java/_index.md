@@ -217,14 +217,6 @@ A: 물론입니다 – `jdk16` 분류자는 Java 11+, 16 및 이후 버전에�
 **Q: 생성된 PPTX에 비밀번호를 설정하려면?**  
 A: 저장하기 전에 `presentation.getProtectionManager().setPassword("yourPassword");`를 호출하면 됩니다.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **마지막 업데이트:** 2026-03-26  
@@ -232,3 +224,11 @@ A: 저장하기 전에 `presentation.getProtectionManager().setPassword("yourPas
 **작성자:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

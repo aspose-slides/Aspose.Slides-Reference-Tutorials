@@ -174,6 +174,12 @@ A: 當然！你可以自訂顏色、字型、邊框等多項樣式設定。
 - **臨時授權**： [取得臨時授權](https://purchase.aspose.com/temporary-license/)
 - **支援**： [Aspose 支援論壇](https://forum.aspose.com/c/slides/11)
 
+---
+
+**最後更新：** 2026-03-26  
+**測試環境：** Aspose.Slides for Java 25.4 (jdk16)  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -181,9 +187,3 @@ A: 當然！你可以自訂顏色、字型、邊框等多項樣式設定。
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2026-03-26  
-**測試環境：** Aspose.Slides for Java 25.4 (jdk16)  
-**作者：** Aspose

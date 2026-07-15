@@ -177,6 +177,12 @@ A: Természetesen! Széles körű lehetőségek állnak rendelkezésedre a szín
 - **Ideiglenes licenc**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Támogatás**: [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Legutóbb frissítve:** 2026-03-26  
+**Tesztelt verzió:** Aspose.Slides for Java 25.4 (jdk16)  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -184,9 +190,3 @@ A: Természetesen! Széles körű lehetőségek állnak rendelkezésedre a szín
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Legutóbb frissítve:** 2026-03-26  
-**Tesztelt verzió:** Aspose.Slides for Java 25.4 (jdk16)  
-**Szerző:** Aspose

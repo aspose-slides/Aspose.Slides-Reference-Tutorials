@@ -218,14 +218,6 @@ R: Assolutamente – il classificatore `jdk16` funziona su Java 11+, 16 e vers
 **D: Come posso proteggere il PPTX generato con una password?**  
 R: Usa `presentation.getProtectionManager().setPassword("yourPassword");` prima di salvare.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ultimo aggiornamento:** 2026-03-26  
@@ -233,3 +225,11 @@ R: Usa `presentation.getProtectionManager().setPassword("yourPassword");` prima 
 **Autore:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

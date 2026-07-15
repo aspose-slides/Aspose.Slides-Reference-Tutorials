@@ -218,14 +218,6 @@ A: Absolut – klassificeringen `jdk16` fungerar på Java 11+, 16 och senare v
 **Q: Hur kan jag skydda den genererade PPTX‑filen med ett lösenord?**  
 A: Använd `presentation.getProtectionManager().setPassword("yourPassword");` innan du sparar.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Senast uppdaterad:** 2026-03-26  
@@ -233,3 +225,11 @@ A: Använd `presentation.getProtectionManager().setPassword("yourPassword");` in
 **Författare:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -218,6 +218,12 @@ R : Absolument – le classificateur `jdk16` fonctionne sur Java 11+, 16 et 
 **Q : Comment protéger le PPTX généré avec un mot de passe ?**  
 R : Utilisez `presentation.getProtectionManager().setPassword("yourPassword");` avant l’enregistrement.
 
+---
+
+**Dernière mise à jour :** 2026-03-26  
+**Testé avec :** Aspose.Slides for Java 25.4  
+**Auteur :** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -225,9 +231,3 @@ R : Utilisez `presentation.getProtectionManager().setPassword("yourPassword");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2026-03-26  
-**Testé avec :** Aspose.Slides for Java 25.4  
-**Auteur :** Aspose

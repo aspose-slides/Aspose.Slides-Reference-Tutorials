@@ -219,14 +219,6 @@ presentation.save(resultPath, SaveFormat.Pptx);
 **Ε: Πώς μπορώ να προστατεύσω το παραγόμενο PPTX με κωδικό πρόσβασης;**  
 Α: Χρησιμοποιήστε `presentation.getProtectionManager().setPassword("yourPassword");` πριν την αποθήκευση.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Τελευταία Ενημέρωση:** 2026-03-26  
@@ -234,3 +226,11 @@ presentation.save(resultPath, SaveFormat.Pptx);
 **Συγγραφέας:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

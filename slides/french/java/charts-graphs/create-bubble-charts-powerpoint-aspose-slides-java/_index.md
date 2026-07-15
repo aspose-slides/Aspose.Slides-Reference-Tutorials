@@ -19,37 +19,37 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Comment créer un bubble chart dans PowerPoint en utilisant Aspose.Slides pour Java
+# Comment créer un graphique à bulles dans PowerPoint en utilisant Aspose.Slides pour Java
 
 ## Introduction
-Créer des présentations visuellement attrayantes peut souvent être un défi, surtout lorsqu'il s'agit de visualisation dynamique de données comme les bubble charts. Si vous cherchez à **how to create bubble chart** dans PowerPoint en utilisant Java, ce tutoriel est fait pour vous ! Ici, nous allons explorer comment exploiter Aspose.Slides pour Java afin d'**add chart to slide** de manière fluide, le configurer, puis **save PowerPoint presentation PPTX** tout en **manage PowerPoint resources** efficacement.
+Créer des présentations visuellement attrayantes peut souvent être un défi, surtout lorsqu'il s'agit de visualisation dynamique de données comme les graphiques à bulles. Si vous cherchez **comment créer un graphique à bulles** dans PowerPoint en utilisant Java, ce tutoriel est fait pour vous ! Ici, nous allons explorer comment exploiter Aspose.Slides pour Java afin d'**ajouter un graphique à la diapositive** de manière fluide, le configurer, puis **enregistrer la présentation PowerPoint PPTX** tout en **gérer les ressources PowerPoint** efficacement.
 
 **Ce que vous allez apprendre :**
 - Comment configurer Aspose.Slides pour Java
-- Guide étape par étape sur la création et la configuration de bubble charts dans PowerPoint
+- Guide étape par étape sur la création et la configuration de graphiques à bulles dans PowerPoint
 - Bonnes pratiques pour la gestion des ressources de présentation
 
 Commençons par configurer les outils et bibliothèques nécessaires.
 
-## Quick Answers
-- **What library do I need?** Aspose.Slides for Java
-- **Which Java version is required?** JDK 16 or higher
-- **How do I add a bubble chart?** Use `addChart(ChartType.Bubble, …)` on a slide
-- **Can I change bubble size?** Yes, via `setBubbleSizeScale()`
-- **How do I save the file?** Call `pres.save("Result.pptx", SaveFormat.Pptx)`
+## Réponses rapides
+- **De quelle bibliothèque ai-je besoin ?** Aspose.Slides pour Java
+- **Quelle version de Java est requise ?** JDK16 ou supérieur
+- **Comment ajouter un graphique à bulles ?** Utilisez `addChart(ChartType.Bubble, …)` sur une diapositive
+- **Puis-je modifier la taille des bulles ?** Oui, via `setBubbleSizeScale()`
+- **Comment puis-je enregistrer le fichier ?** Appelez `pres.save("Result.pptx", SaveFormat.Pptx)`
 
-## Prerequisites
-Avant de plonger dans l'implémentation, assurez‑vous que les prérequis suivants sont remplis :
+## Prérequis
+Avant de Sous-marine dans l'implémentation, assurez-vous que les prérequis suivants sont remplis :
 
-- **Libraries and Dependencies** : Vous aurez besoin d'Aspose.Slides pour Java. Assurez‑vous de l'inclure dans les dépendances de votre projet.
-- **Environment Setup** : Assurez‑vous que votre environnement de développement est prêt avec un JDK compatible (Java Development Kit), spécifiquement la version 16 ou supérieure.
-- **Knowledge Prerequisites** : Une familiarité avec la programmation Java de base et une compréhension des présentations PowerPoint seront utiles.
+- **Bibliothèques et dépendances** : Vous aurez besoin d'Aspose.Slides pour Java. Assurez-vous de l'inclure dans les dépendances de votre projet.
+- **Environment Setup** : Assurez-vous que votre environnement de développement est prêt avec un compatible JDK (Java Development Kit), spécifiquement la version 16 ou supérieure.
+- **Connaissances préalables** : Une familiarité avec la programmation Java de base et une compréhension des présentations PowerPoint seront utiles.
 
-## Setting Up Aspose.Slides for Java
-Pour commencer à utiliser Aspose.Slides, vous devez l'inclure dans votre projet. Voici comment :
+## Configuration d'Aspose.Slides pour Java
+Pour commencer à utiliser Aspose.Slides, vous devez l'inclure dans votre projet. Voici le commentaire :
 
 ### Maven
-Ajoutez la dépendance suivante à votre `pom.xml` :
+Ajoutez la dépendance suivante à votre `pom.xml` :
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -65,31 +65,31 @@ Incluez ceci dans votre `build.gradle` :
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Direct Download
+### Téléchargement direct
 Alternativement, vous pouvez télécharger la dernière version depuis [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-#### License Acquisition
-- **Free Trial** : Vous pouvez commencer avec un essai gratuit pour explorer les fonctionnalités.
-- **Temporary License** : Obtenez une licence temporaire pour une utilisation prolongée pendant l'évaluation.
-- **Purchase** : Envisagez d'acheter une licence complète pour un usage commercial.
+#### Acquisition de licence
+- **Essai gratuit** : Vous pouvez commencer avec un essai gratuit pour explorer les fonctionnalités.
+- **Temporary License** : Obtenez une licence temporaire pour une utilisation prolongée pendant l'évaluation.
+- **Achat** : Envisagez d'acheter une licence complète pour un usage commercial.
 
-### Basic Initialization and Setup
+### Initialisation et configuration de base
 Initialisez Aspose.Slides dans votre application Java :
 ```java
 import com.aspose.slides.Presentation;
 ```
 Créez une instance de `Presentation` pour commencer à travailler avec des fichiers PowerPoint.
 
-## Implementation Guide
-Maintenant, parcourons le processus de création et de configuration de bubble charts dans une présentation PowerPoint en utilisant Aspose.Slides pour Java.
+## Guide de mise en œuvre
+Maintenant, parcourons le processus de création et de configuration de graphiques à bulles dans une présentation PowerPoint en utilisant Aspose.Slides pour Java.
 
-### How to Create Bubble Chart in PowerPoint
-#### Overview
-Cette fonctionnalité montre comment ajouter un bubble chart personnalisable à vos diapositives PowerPoint. Nous configurerons sa taille et son échelle pour une meilleure représentation des données.
+### Comment créer un graphique à bulles dans PowerPoint
+#### Aperçu
+Cette fonctionnalité montre comment ajouter un graphique à bulles personnalisable à vos diapositives PowerPoint. Nous configurons sa taille et son échelle pour une meilleure représentation des données.
 
-#### Step‑by‑Step Implementation
-**1. Initialise la présentation**  
-Commencez par créer une instance de `Presentation` :
+#### Mise en œuvre étape par étape
+**1. Initialiser la présentation**
+Commencez par créer une instance de `Presentation` :
 ```java
 Presentation pres = new Presentation();
 ```
@@ -116,11 +116,11 @@ Enregistrez vos modifications avec le graphique ajouté :
 pres.save("YOUR_OUTPUT_DIRECTORY/Result.pptx", SaveFormat.Pptx);
 ```
 
-#### Troubleshooting Tips
-- Assurez‑vous d'avoir les permissions d'écriture pour le répertoire de sortie.
+#### Conseils de dépannage
+- Assurez-vous d'avoir les autorisations d'écriture pour le répertoire de sortie.
 - Vérifiez qu'Aspose.Slides est correctement inclus dans les dépendances de votre projet.
 
-### How to Manage PowerPoint Resources Effectively
+### Comment gérer efficacement les ressources PowerPoint
 Une gestion efficace des ressources assure des performances optimales. Voici comment gérer le cycle de vie de la présentation :
 
 **1. Créez et modifiez**  
@@ -137,45 +137,51 @@ if (pres != null) pres.dispose();
 ```
 Cette étape est cruciale pour éviter les fuites de mémoire.
 
-## Practical Applications
-Les bubble charts peuvent être inestimables dans divers scénarios :
+## Applications pratiques
+Les graphiques à bulles peuvent être inestimables dans divers scénarios :
 
 1. **Analyse du marché** – Visualisez les données de ventes de produits avec des tailles de bulles différentes représentant le chiffre d'affaires.
 2. **Métriques de performance** – Suivez les métriques de performance des employés sur plusieurs dimensions.
 3. **Données géographiques** – Affichez la densité de population ou d'autres données spatiales de manière efficace.
 4. **Gestion de projet** – Évaluez les échéanciers de projet et l'allocation des ressources de façon dynamique.
 
-## Performance Considerations
-Optimiser les performances de votre application est essentiel lors de l'utilisation d'Aspose.Slides :
+## Considérations sur les performances
+Optimiser les performances de votre application est essentiel lors de l'utilisation d'Aspose.Slides :
 
-- **Resource Usage** : Minimisez l'utilisation de la mémoire en libérant les présentations rapidement.
-- **Java Memory Management** : Utilisez des blocs `try‑finally` pour garantir que les ressources sont libérées même en cas d'exception.
-- **Best Practices** : Mettez régulièrement à jour vers la dernière version d'Aspose.Slides pour améliorer les performances et corriger les bugs.
+- **Utilisation des ressources** : Minimisez l'utilisation de la mémoire en libérant les présentations rapidement.
+- **Java Memory Management** : Utilisez des blocs `try‑finally` pour garantir que les ressources sont libérées même en cas d'exception.
+- **Best Practices** : Mettez régulièrement à jour vers la dernière version d'Aspose.Slides pour améliorer les performances et corriger les bugs.
 
-## Frequently Asked Questions
+## Questions fréquemment posées
 
-**Q : Qu'est‑ce que Aspose.Slides pour Java ?**  
+**Q : Qu'est‑ce que Aspose.Slides pour Java ?**
 R : C'est une bibliothèque robuste qui permet aux développeurs de créer, modifier et convertir des présentations PowerPoint de manière programmatique en utilisant Java.
 
-**Q : Comment intégrer Aspose.Slides à mes projets Java existants ?**  
+**Q : Comment intégrer Aspose.Slides à mes projets Java existants ?**
 R : Vous pouvez facilement l'ajouter comme dépendance via Maven ou Gradle, ou télécharger le JAR directement depuis leur site officiel.
 
-**Q : Puis‑je utiliser Aspose.Slides pour de grandes présentations ?**  
-R : Oui, Aspose.Slides est optimisé pour gérer de gros fichiers efficacement, bien qu'il faille toujours considérer les meilleures pratiques de performance.
+**Q : Puis‑je utiliser Aspose.Slides pour de grandes présentations ?**
+R : Oui, Aspose.Slides est optimisé pour gérer efficacement les gros fichiers, bien qu'il faille toujours considérer les meilleures pratiques de performance.
 
-**Q : Quels types de graphiques puis‑je créer avec Aspose.Slides ?**  
-R : En plus des bubble charts, vous pouvez créer divers autres types de graphiques comme les barres, lignes, secteurs, etc.
+**Q : Quels types de graphiques puis‑je créer avec Aspose.Slides ?**
+R : En plus des graphiques à bulles, vous pouvez créer divers autres types de graphiques comme les barres, lignes, secteurs, etc.
 
-**Q : Existe‑t‑il un support pour personnaliser les styles de graphique dans Aspose.Slides ?**  
-R : Absolument ! Vous disposez de nombreuses options pour personnaliser les couleurs, polices, bordures et bien plus au sein de vos graphiques.
+**Q : Existe‑t‑il un support pour personnaliser les styles de graphique dans Aspose.Slides ?**
+R : Absolument ! Vous disposez de nombreuses options pour personnaliser les couleurs, les polices, les bordures et bien plus au sein de vos graphiques.
 
-## Resources
+## Ressources
 - **Documentation** : [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
 - **Download** : [Aspose.Slides Releases](https://releases.aspose.com/slides/java/)
 - **Purchase** : [Buy Aspose.Slides](https://purchase.aspose.com/buy)
 - **Free Trial** : [Start with a Free Trial](https://releases.aspose.com/slides/java/)
 - **Temporary License** : [Get a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support** : [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
+
+---
+
+**Dernière mise à jour :** 2026-03-26  
+**Testé avec :** Aspose.Slides for Java 25.4 (jdk16)  
+**Auteur :** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -184,9 +190,3 @@ R : Absolument ! Vous disposez de nombreuses options pour personnaliser les co
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2026-03-26  
-**Testé avec :** Aspose.Slides for Java 25.4 (jdk16)  
-**Auteur :** Aspose

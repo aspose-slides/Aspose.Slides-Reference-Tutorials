@@ -219,6 +219,12 @@ A: Teljesen – a `jdk16` classifier Java 11+, 16 és későbbi verziókon is 
 **Q: Hogyan védhetem jelszóval a generált PPTX‑et?**  
 A: A mentés előtt hívja meg a `presentation.getProtectionManager().setPassword("yourPassword");` metódust.
 
+---
+
+**Utoljára frissítve:** 2026-03-26  
+**Tesztelve a következővel:** Aspose.Slides for Java 25.4  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -226,9 +232,3 @@ A: A mentés előtt hívja meg a `presentation.getProtectionManager().setPasswor
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utoljára frissítve:** 2026-03-26  
-**Tesztelve a következővel:** Aspose.Slides for Java 25.4  
-**Szerző:** Aspose

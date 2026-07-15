@@ -220,6 +220,12 @@ A: แน่นอน – ตัวจำแนก `jdk16` ทำงานบน
 **Q: ฉันจะปกป้องไฟล์ PPTX ที่สร้างด้วยรหัสผ่านอย่างไร?**  
 A: ใช้ `presentation.getProtectionManager().setPassword("yourPassword");` ก่อนบันทึก.
 
+---
+
+**Last Updated:** 2026-03-26  
+**Tested With:** Aspose.Slides for Java 25.4  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -227,9 +233,3 @@ A: ใช้ `presentation.getProtectionManager().setPassword("yourPassword");` 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-26  
-**Tested With:** Aspose.Slides for Java 25.4  
-**Author:** Aspose

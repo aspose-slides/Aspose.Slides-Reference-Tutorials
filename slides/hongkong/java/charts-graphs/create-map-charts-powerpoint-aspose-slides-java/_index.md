@@ -220,14 +220,6 @@ A: 當然可以 – `jdk16` 分類器支援 Java 11 以上、16 以及更高�
 **Q: 如何為產生的 PPTX 加密密碼？**  
 A: 在儲存之前使用 `presentation.getProtectionManager().setPassword("yourPassword");`。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-03-26  
@@ -235,3 +227,11 @@ A: 在儲存之前使用 `presentation.getProtectionManager().setPassword("yourP
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

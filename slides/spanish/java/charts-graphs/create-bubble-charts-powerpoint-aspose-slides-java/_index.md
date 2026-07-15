@@ -176,6 +176,12 @@ R: ¡Absolutamente! Tienes amplias opciones para personalizar colores, fuentes, 
 - **Licencia temporal**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Soporte**: [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Última actualización:** 2026-03-26  
+**Probado con:** Aspose.Slides for Java 25.4 (jdk16)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -183,9 +189,3 @@ R: ¡Absolutamente! Tienes amplias opciones para personalizar colores, fuentes, 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2026-03-26  
-**Probado con:** Aspose.Slides for Java 25.4 (jdk16)  
-**Autor:** Aspose

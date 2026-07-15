@@ -219,14 +219,6 @@ A: Absolut – der `jdk16`‑Classifier funktioniert mit Java 11+, 16 und neue
 **F: Wie kann ich die erzeugte PPTX mit einem Passwort schützen?**  
 A: Verwenden Sie `presentation.getProtectionManager().setPassword("yourPassword");` vor dem Speichern.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Zuletzt aktualisiert:** 2026-03-26  
@@ -234,3 +226,11 @@ A: Verwenden Sie `presentation.getProtectionManager().setPassword("yourPassword"
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

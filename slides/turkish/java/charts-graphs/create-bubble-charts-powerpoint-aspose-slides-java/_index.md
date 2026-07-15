@@ -176,6 +176,12 @@ C: Kesinlikle! Grafiklerinizde renkleri, yazı tiplerini, kenarlıkları ve daha
 - **Geçici Lisans**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Destek**: [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Son Güncelleme:** 2026-03-26  
+**Test Edilen Versiyon:** Aspose.Slides for Java 25.4 (jdk16)  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -183,9 +189,3 @@ C: Kesinlikle! Grafiklerinizde renkleri, yazı tiplerini, kenarlıkları ve daha
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2026-03-26  
-**Test Edilen Versiyon:** Aspose.Slides for Java 25.4 (jdk16)  
-**Yazar:** Aspose

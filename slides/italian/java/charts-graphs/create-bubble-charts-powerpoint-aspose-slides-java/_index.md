@@ -175,6 +175,12 @@ A: Assolutamente! Hai ampie opzioni per personalizzare colori, caratteri, bordi 
 - **Temporary License**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Ultimo aggiornamento:** 2026-03-26  
+**Testato con:** Aspose.Slides for Java 25.4 (jdk16)  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -182,9 +188,3 @@ A: Assolutamente! Hai ampie opzioni per personalizzare colori, caratteri, bordi 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2026-03-26  
-**Testato con:** Aspose.Slides for Java 25.4 (jdk16)  
-**Autore:** Aspose

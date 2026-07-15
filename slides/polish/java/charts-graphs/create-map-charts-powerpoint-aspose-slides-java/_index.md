@@ -221,6 +221,12 @@ A: Absolutnie – klasyfikator `jdk16` działa na Java 11+, 16 i nowszych wers
 **Q: Jak mogę zabezpieczyć wygenerowany plik PPTX hasłem?**  
 A: Użyj `presentation.getProtectionManager().setPassword("yourPassword");` przed zapisem.
 
+---
+
+**Last Updated:** 2026-03-26  
+**Tested With:** Aspose.Slides for Java 25.4  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -228,9 +234,3 @@ A: Użyj `presentation.getProtectionManager().setPassword("yourPassword");` prze
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-26  
-**Tested With:** Aspose.Slides for Java 25.4  
-**Author:** Aspose

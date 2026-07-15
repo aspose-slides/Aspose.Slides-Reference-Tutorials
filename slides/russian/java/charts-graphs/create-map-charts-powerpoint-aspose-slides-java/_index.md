@@ -218,14 +218,6 @@ A: Конечно — классификатор `jdk16` работает на J
 **Q: Как защитить сгенерированный PPTX паролем?**  
 A: Используйте `presentation.getProtectionManager().setPassword("yourPassword");` перед сохранением.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Последнее обновление:** 2026-03-26  
@@ -233,3 +225,11 @@ A: Используйте `presentation.getProtectionManager().setPassword("your
 **Автор:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -176,6 +176,12 @@ if (pres != null) pres.dispose();
 - **Временная лицензия**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Поддержка**: [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Последнее обновление:** 2026-03-26  
+**Тестировано с:** Aspose.Slides for Java 25.4 (jdk16)  
+**Автор:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -183,9 +189,3 @@ if (pres != null) pres.dispose();
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2026-03-26  
-**Тестировано с:** Aspose.Slides for Java 25.4 (jdk16)  
-**Автор:** Aspose

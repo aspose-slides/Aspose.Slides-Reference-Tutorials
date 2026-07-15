@@ -174,6 +174,12 @@ A: もちろんです！色、フォント、枠線など、チャート内の�
 - **一時ライセンス**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **サポート**: [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
+---
+
+**最終更新日:** 2026-03-26  
+**テスト環境:** Aspose.Slides for Java 25.4 (jdk16)  
+**著者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -181,9 +187,3 @@ A: もちろんです！色、フォント、枠線など、チャート内の�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2026-03-26  
-**テスト環境:** Aspose.Slides for Java 25.4 (jdk16)  
-**著者:** Aspose

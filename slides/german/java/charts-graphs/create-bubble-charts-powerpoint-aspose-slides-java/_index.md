@@ -177,6 +177,12 @@ A: Auf jeden Fall! Sie haben umfangreiche Optionen, um Farben, Schriftarten, Rah
 - **Temporäre Lizenz**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Zuletzt aktualisiert:** 2026-03-26  
+**Getestet mit:** Aspose.Slides for Java 25.4 (jdk16)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -184,9 +190,3 @@ A: Auf jeden Fall! Sie haben umfangreiche Optionen, um Farben, Schriftarten, Rah
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2026-03-26  
-**Getestet mit:** Aspose.Slides for Java 25.4 (jdk16)  
-**Autor:** Aspose

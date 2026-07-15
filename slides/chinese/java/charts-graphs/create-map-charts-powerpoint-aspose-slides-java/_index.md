@@ -219,14 +219,6 @@ A: 完全支持 – `jdk16` 分类器可在 Java 11+、16 以及更高版本�
 **Q: 如何使用密码保护生成的 PPTX？**  
 A: 在保存之前使用 `presentation.getProtectionManager().setPassword("yourPassword");`。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-03-26  
@@ -234,3 +226,11 @@ A: 在保存之前使用 `presentation.getProtectionManager().setPassword("yourP
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

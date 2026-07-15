@@ -218,14 +218,6 @@ A: Hoàn toàn – bộ phân loại `jdk16` hoạt động trên Java 11+, 16
 **Q: Làm sao bảo vệ file PPTX được tạo bằng mật khẩu?**  
 A: Sử dụng `presentation.getProtectionManager().setPassword("yourPassword");` trước khi lưu.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Cập nhật lần cuối:** 2026-03-26  
@@ -233,3 +225,11 @@ A: Sử dụng `presentation.getProtectionManager().setPassword("yourPassword");
 **Tác giả:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

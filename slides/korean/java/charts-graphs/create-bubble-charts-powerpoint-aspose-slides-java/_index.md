@@ -174,6 +174,12 @@ A: 물론입니다! 색상, 폰트, 테두리 등 차트 내 다양한 요소를
 - **임시 라이선스**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **지원**: [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
+---
+
+**마지막 업데이트:** 2026-03-26  
+**테스트 환경:** Aspose.Slides for Java 25.4 (jdk16)  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -181,9 +187,3 @@ A: 물론입니다! 색상, 폰트, 테두리 등 차트 내 다양한 요소를
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2026-03-26  
-**테스트 환경:** Aspose.Slides for Java 25.4 (jdk16)  
-**작성자:** Aspose

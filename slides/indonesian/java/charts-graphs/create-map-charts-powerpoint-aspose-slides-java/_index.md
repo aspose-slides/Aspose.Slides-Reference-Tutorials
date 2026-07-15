@@ -218,14 +218,6 @@ A: Tentu – classifier `jdk16` bekerja pada Java 11+, 16, dan versi selanjutn
 **Q: Bagaimana saya dapat melindungi PPTX yang dihasilkan dengan kata sandi?**  
 A: Gunakan `presentation.getProtectionManager().setPassword("yourPassword");` sebelum menyimpan.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-03-26  
@@ -233,3 +225,11 @@ A: Gunakan `presentation.getProtectionManager().setPassword("yourPassword");` se
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

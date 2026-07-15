@@ -218,14 +218,6 @@ Aspose.Slides for Java kullanarak PowerPoint'te bir harita grafiği oluşturmak,
 **S: Oluşturulan PPTX'i bir şifreyle koruyabilir miyim?**  
 **C:** Kaydetmeden önce `presentation.getProtectionManager().setPassword("yourPassword");` kullanın.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-03-26  
@@ -233,3 +225,11 @@ Aspose.Slides for Java kullanarak PowerPoint'te bir harita grafiği oluşturmak,
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

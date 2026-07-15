@@ -176,6 +176,12 @@ O: Absolutnie! Masz rozbudowane możliwości dostosowywania kolorów, czcionek, 
 - **Licencja tymczasowa**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Wsparcie**: [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Ostatnia aktualizacja:** 2026-03-26  
+**Testowano z:** Aspose.Slides for Java 25.4 (jdk16)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -183,9 +189,3 @@ O: Absolutnie! Masz rozbudowane możliwości dostosowywania kolorów, czcionek, 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2026-03-26  
-**Testowano z:** Aspose.Slides for Java 25.4 (jdk16)  
-**Autor:** Aspose

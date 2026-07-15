@@ -175,6 +175,12 @@ A: Absolutamente! Você tem opções extensas para personalizar cores, fontes, b
 - **Licença Temporária**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Suporte**: [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Last Updated:** 2026-03-26  
+**Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -182,9 +188,3 @@ A: Absolutamente! Você tem opções extensas para personalizar cores, fontes, b
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-26  
-**Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
-**Author:** Aspose

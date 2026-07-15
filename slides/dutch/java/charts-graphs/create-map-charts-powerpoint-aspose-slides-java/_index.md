@@ -218,14 +218,6 @@ A: Absoluut – de `jdk16`‑classifier werkt op Java 11+, 16 en latere versie
 **Q: Hoe kan ik de gegenereerde PPTX beveiligen met een wachtwoord?**  
 A: Gebruik `presentation.getProtectionManager().setPassword("yourPassword");` vóór het opslaan.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-03-26  
@@ -233,3 +225,11 @@ A: Gebruik `presentation.getProtectionManager().setPassword("yourPassword");` v�
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
