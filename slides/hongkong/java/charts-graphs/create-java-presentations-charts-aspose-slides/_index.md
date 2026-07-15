@@ -267,6 +267,12 @@ A: 能。先以 JDBC 取得資料，然後在儲存前將資料寫入活頁簿�
 
 如需進一步的進階功能與客製化選項，請參閱 [Aspose.Slides for Java documentation](https://docs.aspose.com/slides/java/).
 
+---
+
+**最後更新：** 2026-03-20  
+**測試環境：** Aspose.Slides for Java 25.4 (JDK 16)  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -274,9 +280,3 @@ A: 能。先以 JDBC 取得資料，然後在儲存前將資料寫入活頁簿�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2026-03-20  
-**測試環境：** Aspose.Slides for Java 25.4 (JDK 16)  
-**作者：** Aspose

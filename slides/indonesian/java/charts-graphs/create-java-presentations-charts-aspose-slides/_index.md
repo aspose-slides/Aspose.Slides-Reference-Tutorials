@@ -268,6 +268,12 @@ Anda kini telah mempelajari **cara menambahkan diagram** ke presentasi Java, men
 
 Untuk fitur lanjutan dan opsi kustomisasi, lihat [dokumentasi Aspose.Slides untuk Java](https://docs.aspose.com/slides/java/).
 
+---
+
+**Last Updated:** 2026-03-20  
+**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -275,9 +281,3 @@ Untuk fitur lanjutan dan opsi kustomisasi, lihat [dokumentasi Aspose.Slides untu
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-20  
-**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Author:** Aspose

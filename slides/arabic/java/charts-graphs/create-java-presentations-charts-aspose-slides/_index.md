@@ -268,6 +268,12 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 
 للمزيد من الميزات المتقدمة وخيارات التخصيص، راجع [توثيق Aspose.Slides for Java](https://docs.aspose.com/slides/java/).
 
+---
+
+**آخر تحديث:** 2026-03-20  
+**تم الاختبار مع:** Aspose.Slides for Java 25.4 (JDK 16)  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -275,9 +281,3 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2026-03-20  
-**تم الاختبار مع:** Aspose.Slides for Java 25.4 (JDK 16)  
-**المؤلف:** Aspose

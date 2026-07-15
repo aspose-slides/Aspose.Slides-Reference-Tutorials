@@ -206,6 +206,12 @@ pres.save("YOUR_OUTPUT_DIRECTORY/AsposeChart_out.pptx", SaveFormat.Pptx);
 - **الترخيص المؤقت:** [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **منتدى الدعم:** [Aspose Support](https://forum.aspose.com/c/slides/11)
 
+---
+
+**آخر تحديث:** 2026-03-20  
+**تم الاختبار مع:** Aspose.Slides for Java 25.4 (JDK 16)  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -213,9 +219,3 @@ pres.save("YOUR_OUTPUT_DIRECTORY/AsposeChart_out.pptx", SaveFormat.Pptx);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2026-03-20  
-**تم الاختبار مع:** Aspose.Slides for Java 25.4 (JDK 16)  
-**المؤلف:** Aspose

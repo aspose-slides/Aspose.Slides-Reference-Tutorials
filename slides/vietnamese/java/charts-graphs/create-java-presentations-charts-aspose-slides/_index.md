@@ -268,6 +268,12 @@ Bạn đã học **cách thêm biểu đồ** vào bản trình chiếu Java, c�
 
 Đối với các tính năng nâng cao và tùy chọn tùy chỉnh, tham khảo [tài liệu Aspose.Slides cho Java](https://docs.aspose.com/slides/java/).
 
+---
+
+**Cập nhật lần cuối:** 2026-03-20  
+**Kiểm tra với:** Aspose.Slides cho Java 25.4 (JDK 16)  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -275,9 +281,3 @@ Bạn đã học **cách thêm biểu đồ** vào bản trình chiếu Java, c�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2026-03-20  
-**Kiểm tra với:** Aspose.Slides cho Java 25.4 (JDK 16)  
-**Tác giả:** Aspose

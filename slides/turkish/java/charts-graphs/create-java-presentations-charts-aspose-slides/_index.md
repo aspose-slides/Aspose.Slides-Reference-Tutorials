@@ -268,6 +268,12 @@ Artık **grafik ekleme** konusunda Java sunumunda nasıl yapılacağını, veril
 
 Daha gelişmiş özellikler ve özelleştirme seçenekleri için [Aspose.Slides for Java documentation](https://docs.aspose.com/slides/java/) adresine bakın.
 
+---
+
+**Son Güncelleme:** 2026-03-20  
+**Test Edilen:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -275,9 +281,3 @@ Daha gelişmiş özellikler ve özelleştirme seçenekleri için [Aspose.Slides 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2026-03-20  
-**Test Edilen:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Yazar:** Aspose

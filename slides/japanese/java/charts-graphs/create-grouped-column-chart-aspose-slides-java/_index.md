@@ -18,7 +18,7 @@ weight: 1
 {{< blocks/products/pf/tutorial-page-section >}}
 # PowerPointでAspose.Slides for Javaを使用してクラスター化された縦棒グラフを追加する方法
 
-## Introduction
+## はじめに
 
 **クラスター化された縦棒グラフ**をPowerPointのスライドに追加する必要があるとき、明確なビジュアルは生データをすぐに理解できるストーリーに変換します。PowerPointで手動で作成すると時間がかかりますが、特に多数のスライドをプログラムで生成する場合はなおさらです。**Aspose.Slides for Java** を使用すれば、数行のコードで PowerPoint のチャートを作成・カスタマイズし、データ系列を挿入できます。
 
@@ -31,7 +31,7 @@ weight: 1
 
 コードに入る前に、必要なものがすべて揃っているか確認しましょう。
 
-## Quick Answers
+## よくある質問
 - **主要クラスは何ですか？** `Presentation`（`com.aspose.slides` パッケージ）
 - **使用するチャートタイプは？** `ChartType.ClusteredColumn`
 - **テストにライセンスは必要ですか？** 無料トライアルで動作しますが、ライセンスを取得すると評価制限が解除されます
@@ -49,14 +49,14 @@ weight: 1
 - **クロスプラットフォーム** – Java が動作するすべての OS で利用可能
 - **Office のインストール不要** – サーバーや CI パイプライン上で PPTX を生成
 
-## Prerequisites
+## 前提条件
 
 - **Aspose.Slides for Java** ライブラリ（最新バージョン推奨）  
 - JDK 16 以上  
 - Maven または Gradle（または JAR を手動で追加）  
 - Java コードを実行できる IDE またはテキストエディタ  
 
-## Setting Up Aspose.Slides for Java
+## Aspose.Slides for Java のセットアップ
 
 以下のビルドスクリプトのいずれかを使用してプロジェクトにライブラリを追加します。
 
@@ -79,18 +79,18 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 
 あるいは、[Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) から直接最新リリースをダウンロードしてください。
 
-### License Acquisition
+### ライセンス取得
 
 本番環境へデプロイする前にライセンスを取得してください:
 - **無料トライアル** – 購入せずにすべての機能を試用  
 - **一時ライセンス** – 短期間の拡張機能評価に利用  
 - **フルライセンス** – 無制限に使用可能。取得は [Aspose の購入ページ](https://purchase.aspose.com/buy) から
 
-## Implementation Guide
+## 導入ガイド
 
 各ステップを順に解説しながら、**チャートの追加方法** と **PowerPoint チャートのカスタマイズ** を学びます。
 
-### Initialize Presentation
+### プレゼンテーションの初期化
 
 まず `Presentation` オブジェクトを作成し、デフォルトスライドを取得します。
 
@@ -102,7 +102,7 @@ Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
 ```
 
-### Add Chart to Slide
+### スライドへのグラフの追加
 
 次に `ClusteredColumn` タイプを使用して **スライドにチャートを追加** し、既定のデータをクリアします。
 
@@ -114,7 +114,7 @@ ch.getChartData().getSeries().clear();
 ch.getChartData().getCategories().clear();
 ```
 
-### Prepare Chart Data Workbook
+### グラフデータワークブックの準備
 
 チャートは内部のワークブックにデータを保持します。新規作成のためにクリアします。
 
@@ -125,7 +125,7 @@ fact.clear(0);
 int defaultWorksheetIndex = 0;
 ```
 
-### Add Categories with Grouping Levels
+### グループ化レベル付きカテゴリの追加
 
 カテゴリにグルーピングレベルを設定すると **グループ化された縦棒グラフ** の効果が得られます。各カテゴリは論理的なグループに属せます。
 
@@ -139,7 +139,7 @@ category = ch.getChartData().getCategories().add(fact.getCell(0, "c3", "B"));
 // Repeat for other categories
 ```
 
-### Add Data Series to Chart
+### グラフへのデータ系列の追加
 
 ここで **データ系列チャート** エントリを挿入し、個別の縦棒として可視化します。
 
@@ -151,7 +151,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 // Continue adding data points
 ```
 
-### Save Presentation with Chart
+### グラフを含むプレゼンテーションの保存
 
 最後に PPTX ファイルをディスクに書き出します。
 
@@ -160,19 +160,19 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 pres.save("YOUR_OUTPUT_DIRECTORY/AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
 
-## Practical Applications
+## 実践的な応用例
 
 - **ビジネスレポート** – 地域別の四半期売上を比較  
 - **学術研究** – テスト条件別の実験結果を表示  
 - **プロジェクト管理** – 複数チームのタスク完了率を単一スライドで可視化  
 
-## Performance Considerations
+## パフォーマンスに関する考慮事項
 
 - **メモリ管理** – 使用後は大きなワークブックを解放  
 - **バッチ処理** – ループ内で頻繁にチャートを更新しない。データを先に収集し、まとめて適用  
 - **組み込み最適化** – 大規模ファイル向けに `Presentation.optimize()` などのメソッドを活用  
 
-## Common Pitfalls & Tips
+## よくある落とし穴とヒント
 
 - **落とし穴:** 既存の系列/カテゴリをクリアせずに追加すると重複データになる  
   **対策:** 新規データを投入する前に必ず `clear()` を呼び出す  
@@ -180,7 +180,7 @@ pres.save("YOUR_OUTPUT_DIRECTORY/AsposeChart_out.pptx", SaveFormat.Pptx);
   **対策:** セル参照は大文字小文字を区別しませんが、可読性のため統一する  
 - **ヒント:** `setGroupingItem` を使用して意味のあるグループラベルを作成すると、凡例に自動的に表示されます  
 
-## Frequently Asked Questions
+## よくある質問
 
 **Q1: 複数の系列をチャートに追加するには？**  
 A1: `ch.getChartData().getSeries().add()` を繰り返し呼び出し、各系列に固有の名前とデータポイントを指定します。
@@ -197,7 +197,7 @@ A4: プレゼンテーションをロードし、`slide.getShapes().get_Item(ind
 **Q5: Aspose.Slides のチャートタイプに制限はありますか？**  
 A5: 幅広いチャートタイプをサポートしていますが、最新のドキュメントで追加・非推奨のタイプを確認してください。
 
-## Resources
+## 参考資料
 
 - **Documentation**: [Aspose.Slides Reference](https://reference.aspose.com/slides/java/)  
 - **Download**: [Latest Releases](https://releases.aspose.com/slides/java/)  
@@ -206,6 +206,12 @@ A5: 幅広いチャートタイプをサポートしていますが、最新の�
 - **Temporary License**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Support Forum**: [Aspose Support](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Last Updated:** 2026-03-20  
+**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -213,9 +219,3 @@ A5: 幅広いチャートタイプをサポートしていますが、最新の�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-20  
-**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Author:** Aspose

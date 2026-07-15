@@ -268,6 +268,12 @@ Sie haben nun gelernt, **wie man ein Diagramm** zu einer Java‑Präsentation hi
 
 Für erweiterte Funktionen und Anpassungsoptionen lesen Sie bitte die [Aspose.Slides for Java documentation](https://docs.aspose.com/slides/java/).
 
+---
+
+**Zuletzt aktualisiert:** 2026-03-20  
+**Getestet mit:** Aspose.Slides für Java 25.4 (JDK 16)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -275,9 +281,3 @@ Für erweiterte Funktionen und Anpassungsoptionen lesen Sie bitte die [Aspose.Sl
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2026-03-20  
-**Getestet mit:** Aspose.Slides für Java 25.4 (JDK 16)  
-**Autor:** Aspose

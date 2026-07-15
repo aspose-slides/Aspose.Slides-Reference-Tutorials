@@ -268,6 +268,12 @@ Aspose.Slides के साथ शून्य से एक प्रस्त�
 
 अधिक उन्नत फीचर्स और कस्टमाइज़ेशन विकल्पों के लिए, देखें [Aspose.Slides for Java documentation](https://docs.aspose.com/slides/java/)।
 
+---
+
+**अंतिम अपडेट:** 2026-03-20  
+**टेस्टेड विद:** Aspose.Slides for Java 25.4 (JDK 16)  
+**लेखक:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -275,9 +281,3 @@ Aspose.Slides के साथ शून्य से एक प्रस्त�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**अंतिम अपडेट:** 2026-03-20  
-**टेस्टेड विद:** Aspose.Slides for Java 25.4 (JDK 16)  
-**लेखक:** Aspose

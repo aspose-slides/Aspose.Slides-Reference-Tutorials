@@ -268,6 +268,12 @@ A: 예. JDBC로 데이터를 가져온 후 워크북 셀을 프로그래밍 방�
 
 보다 고급 기능 및 맞춤 옵션은 [Aspose.Slides for Java documentation](https://docs.aspose.com/slides/java/)을 참조하십시오.
 
+---
+
+**마지막 업데이트:** 2026-03-20  
+**테스트 환경:** Aspose.Slides for Java 25.4 (JDK 16)  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -275,9 +281,3 @@ A: 예. JDBC로 데이터를 가져온 후 워크북 셀을 프로그래밍 방�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2026-03-20  
-**테스트 환경:** Aspose.Slides for Java 25.4 (JDK 16)  
-**작성자:** Aspose

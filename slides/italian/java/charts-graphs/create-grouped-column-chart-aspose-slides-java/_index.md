@@ -208,6 +208,12 @@ R5: La libreria supporta un’ampia gamma di tipi di grafico, ma controlla sempr
 - **Licenza temporanea**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Forum di supporto**: [Aspose Support](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Ultimo aggiornamento:** 2026-03-20  
+**Testato con:** Aspose.Slides per Java 25.4 (JDK 16)  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -215,9 +221,3 @@ R5: La libreria supporta un’ampia gamma di tipi di grafico, ma controlla sempr
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2026-03-20  
-**Testato con:** Aspose.Slides per Java 25.4 (JDK 16)  
-**Autore:** Aspose

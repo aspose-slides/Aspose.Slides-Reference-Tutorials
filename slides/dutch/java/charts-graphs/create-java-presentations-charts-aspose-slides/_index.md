@@ -268,6 +268,12 @@ Je hebt nu geleerd **hoe je een grafiek** aan een Java‑presentatie toevoegt, d
 
 Voor meer geavanceerde functies en aanpassingsopties, raadpleeg de [Aspose.Slides for Java documentation](https://docs.aspose.com/slides/java/).
 
+---
+
+**Laatst bijgewerkt:** 2026-03-20  
+**Getest met:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -275,9 +281,3 @@ Voor meer geavanceerde functies en aanpassingsopties, raadpleeg de [Aspose.Slide
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2026-03-20  
-**Getest met:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Auteur:** Aspose

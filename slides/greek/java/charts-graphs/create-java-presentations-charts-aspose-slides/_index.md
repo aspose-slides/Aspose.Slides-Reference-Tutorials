@@ -268,6 +268,12 @@ A: Ναι. Ανακτήστε δεδομένα με JDBC, στη συνέχει�
 
 Για πιο προχωρημένα χαρακτηριστικά και επιλογές προσαρμογής, ανατρέξτε στην [Aspose.Slides for Java documentation](https://docs.aspose.com/slides/java/).
 
+---
+
+**Τελευταία Ενημέρωση:** 2026-03-20  
+**Δοκιμή Με:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -275,9 +281,3 @@ A: Ναι. Ανακτήστε δεδομένα με JDBC, στη συνέχει�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2026-03-20  
-**Δοκιμή Με:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Συγγραφέας:** Aspose

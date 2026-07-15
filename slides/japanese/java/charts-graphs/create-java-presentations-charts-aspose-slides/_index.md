@@ -17,37 +17,37 @@ weight: 1
 {{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Slides for Java を使用してプレゼンテーションにチャートを追加する方法
 
-## Introduction
+## はじめに
 
 データを効果的に伝える動的なプレゼンテーションは、今日のスピーディなビジネス環境で不可欠です。財務レポート、マーケティング資料、プロジェクトステータスの更新など、**スライドにチャートを追加する方法**を知っていれば、聴衆のエンゲージメントを大幅に向上させることができます。このチュートリアルでは、3D 積み上げ縦棒グラフを追加し、データを設定し、最終ファイルを保存する手順を Aspose.Slides for Java を使ってステップバイステップで学びます。
 
-### Quick Answers
-- **What is the primary library?** Aspose.Slides for Java  
-- **Which chart type is demonstrated?** 3D Stacked Column  
-- **Can I generate presentation chart files programmatically?** Yes, using the API methods shown below  
-- **What Java version is recommended?** JDK 16 or later  
-- **Do I need a license for production?** A valid Aspose.Slides license is required for commercial use  
+### よくある質問
+- **主要ライブラリは何ですか？** Aspose.Slides for Java
+- **どのグラフタイプがデモされていますか？** 3D積み上げ縦棒グラフ
+- **プレゼンテーション用グラフファイルをプログラムで生成できますか？** はい、以下のAPIメソッドを使用して生成できます。
+- **推奨Javaバージョンは？** JDK16以降
+- **本番環境での使用にはライセンスが必要ですか？** 商用利用には有効なAspose.Slidesライセンスが必要です。
 
-## What is “how to add chart” in Aspose.Slides?
+## Aspose.Slidesでグラフを追加するには？
 
 Aspose.Slides for Java は、Microsoft Office を使用せずに PowerPoint ファイルの作成、編集、エクスポートを行える豊富なオブジェクト群を提供します。チャートの追加は、`Presentation` オブジェクトを作成し、チャートシェイプを挿入し、組み込みのワークブックにデータを供給するだけで完了します。
 
-## Why add chart to Java presentations?
+## Javaプレゼンテーションにグラフを追加するメリットは？
 
 - **Visual impact:** チャートは生の数値をすぐに理解できるビジュアルに変換します。  
 - **Automation:** レポートをその場で生成でき、定期的なメール配信やダッシュボードに最適です。  
 - **Consistency:** すべての生成資料で同じスタイリングとブランディングを維持できます。  
 - **Portability:** 1 つのメソッド呼び出しで PPTX、PDF、画像へエクスポートできます。
 
-## Prerequisites
+## 前提条件
 
 - **Libraries and Dependencies:** Aspose.Slides for Java をインストールしておく必要があります。  
 - **Environment Setup:** Java 環境で作業します（推奨は JDK 16 以降）。  
 - **Knowledge Base:** 基本的な Java プログラミングの知識があるとスムーズです。
 
-## Setting Up Aspose.Slides for Java
+## Aspose.Slides for Javaのセットアップ
 
-### Installation
+### インストール
 
 Aspose.Slides をプロジェクトに組み込むには、以下のいずれかの方法でインストールしてください。
 
@@ -70,23 +70,23 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 
 **Direct Download**: あるいは、[Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) から最新バージョンを直接ダウンロードします。
 
-### License Acquisition
+### ライセンス取得
 - **Free Trial:** 無料トライアルで機能を試すことができます。  
 - **Temporary License:** 長期テスト用に一時ライセンスを取得できます。  
 - **Purchase:** 商用利用には正式ライセンスの取得が必要です。
 
 インストールが完了したら、`Presentation` クラスのインスタンスを作成します。これがすべてのチャート関連操作のエントリーポイントになります。
 
-## Implementation Guide
+## 実装ガイド
 
-### How to add chart to a presentation with a 3D stacked column
+### 3D積み上げ縦棒グラフをプレゼンテーションに追加する方法
 
-#### Overview
+#### 概要
 Aspose.Slides を使えば、ゼロからプレゼンテーションを作成するのは簡単です。このセクションでは、プレゼンテーションの最初のスライドに 3D 積み上げ縦棒グラフを追加します。
 
-**Steps:**
+**手順:**
 
-1. **Initialize Presentation Object**
+1. **プレゼンテーションオブジェクトの初期化**
 
    ```java
    import com.aspose.slides.*;
@@ -113,18 +113,18 @@ Aspose.Slides を使えば、ゼロからプレゼンテーションを作成す
    }
    ```
 
-2. **Explain Parameters**  
+2. **パラメータの説明** 
    - `ChartType.StackedColumn3D`: チャートの種類を指定します。  
    - 位置とサイズ `(0, 0, 500, 500)`: スライド上でチャートが表示される場所と大きさを決定します。
 
-### Configure Chart Data
+### グラフデータの設定
 
-#### Overview
+#### 概要
 チャートを意味のあるものにするには、データ系列とカテゴリを設定する必要があります。このセクションでは、特定のデータポイントをチャートに追加する方法を示します。
 
-**Steps:**
+**手順:**
 
-1. **Access Chart's Data Workbook**
+1. **グラフのデータワークブックへのアクセス**
 
    ```java
    public static void configureChartData(IChart chart) {
@@ -151,14 +151,14 @@ Aspose.Slides を使えば、ゼロからプレゼンテーションを作成す
    }
    ```
 
-### Set Rotation3D Properties for Chart
+### チャートのRotation3Dプロパティを設定する
 
-#### Overview
+#### 概要
 3D 回転プロパティでチャートの視覚的魅力を高めましょう。このカスタマイズにより、視点と奥行きを調整できます。
 
-**Steps:**
+**手順:**
 
-1. **Configure 3D Rotations**
+1. **3D回転を設定する**
 
    ```java
    public static void setRotation3D(IChart chart) {
@@ -170,18 +170,18 @@ Aspose.Slides を使えば、ゼロからプレゼンテーションを作成す
    }
    ```
 
-2. **Explain Parameters**  
+2. **パラメータの説明**  
    - `setRightAngleAxes(true)`: 軸が直角になるようにします。  
    - Rotation values: 3D 表示の角度と奥行きを調整します。
 
-### Populate Series Data in Chart
+### チャートに系列データを入力する
 
-#### Overview
+#### 概要
 データポイントをチャートに入力することは、分析に不可欠です。ここでは、系列に具体的な値を追加します。
 
-**Steps:**
+**手順:**
 
-1. **Add Data Points**
+1. **データポイントを追加する**
 
    ```java
    public static void populateSeriesData(IChart chart) {
@@ -201,14 +201,14 @@ Aspose.Slides を使えば、ゼロからプレゼンテーションを作成す
    }
    ```
 
-### Adjust Series Overlap in Chart
+### チャートの系列の重なりを調整する
 
-#### Overview
+#### 概要
 チャートの外観を微調整すると、可読性が向上します。このセクションでは、データ可視化を改善するためのオーバーラッププロパティの調整方法を説明します。
 
-**Steps:**
+**手順:**
 
-1. **Set Series Overlap**
+1. **系列の重なりを設定する**
 
    ```java
    public static void setSeriesOverlap(IChart chart) {
@@ -219,14 +219,14 @@ Aspose.Slides を使えば、ゼロからプレゼンテーションを作成す
    }
    ```
 
-### Save Presentation
+### プレゼンテーションを保存する
 
-#### Overview
+#### 概要
 プレゼンテーションの設定が完了したら、目的の形式でディスクに保存します。この手順で変更内容がすべて保持されます。
 
-**Steps:**
+**手順:**
 
-1. **Save the Presentation**
+1. **プレゼンテーションを保存する**
 
    ```java
    public static void savePresentation(Presentation presentation) {
@@ -236,36 +236,48 @@ Aspose.Slides を使えば、ゼロからプレゼンテーションを作成す
    }
    ```
 
-## Common Issues and Solutions
+## よくある問題と解決策
 
-| Issue | Cause | Solution |
+| 問題 | 原因 | 解決策 |
+
 |-------|-------|----------|
-| **Chart appears flat** | 3D rotation not set | Call `setRotation3D` with appropriate X/Y values. |
-| **Data not showing** | Workbook cells not linked | Ensure `fact.getCell` references correct row/column indices. |
-| **File not saved** | Incorrect path or missing permissions | Verify `outputFilePath` is writable and folder exists. |
 
-## Frequently Asked Questions
+| **グラフが平面で表示される** | 3D回転が設定されていません | 適切なX/Y値を指定して`setRotation3D`を呼び出してください。 |
 
-**Q: Can I generate presentation chart files in formats other than PPTX?**  
-A: Yes, Aspose.Slides supports PDF, ODP, and image formats via the `SaveFormat` enum.
+| **データが表示されない** | ワークブックのセルがリンクされていません | `fact.getCell`が正しい行/列インデックスを参照していることを確認してください。 |
 
-**Q: Do I need a license to run the code in development?**  
-A: A temporary or evaluation license works for development, but a full license is required for production deployments.
+| **ファイルが保存されない** | パスが間違っているか、アクセス権限がありません | `outputFilePath`が書き込み可能で、フォルダが存在することを確認してください。 |
 
-**Q: Is it possible to add multiple charts to the same slide?**  
-A: Absolutely. Call `slide.getShapes().addChart` multiple times with different positions or sizes.
+## よくある質問
 
-**Q: How do I change the chart’s color palette?**  
-A: Use the `chart.getChartData().getSeries().get_Item(i).getFormat().getFill().setFillType(FillType.Solid)` and set a `SolidFillColor`.
+**Q: プレゼンテーショングラフファイルをPPTX以外の形式で生成できますか？** 
+A: はい、Aspose.Slidesは`SaveFormat`列挙型を介してPDF、ODP、および画像形式をサポートしています。
 
-**Q: Can I bind the chart to an external data source like a database?**  
-A: Yes. Retrieve data with JDBC, then populate the workbook cells programmatically before saving.
 
-## Conclusion
+**Q: 開発環境でコードを実行するにはライセンスが必要ですか？** 
+A: 開発環境では一時ライセンスまたは評価ライセンスで問題ありませんが、本番環境でのデプロイにはフルライセンスが必要です。
 
-You have now learned **how to add chart** to a Java presentation, configure its data, customize 3D rotation, adjust series overlap, and save the final file. This knowledge lets you automate report generation, create consistent branding, and deliver data‑driven presentations without manual effort. For deeper customization—such as styling legends, axes, or applying themes—explore the full capabilities in the official documentation.
+**Q: 同じスライドに複数のグラフを追加できますか？** 
+A: はい、可能です。`slide.getShapes().addChart` を異なる位置またはサイズで複数回呼び出してください。
 
-For more advanced features and customization options, refer to the [Aspose.Slides for Java documentation](https://docs.aspose.com/slides/java/).
+**Q: グラフのカラーパレットを変更するにはどうすればよいですか？** 
+A: `chart.getChartData().getSeries().get_Item(i).getFormat().getFill().setFillType(FillType.Solid)` を使用し、`SolidFillColor` を設定してください。
+
+**Q: グラフをデータベースなどの外部データソースにバインドできますか？** 
+A: はい、可能です。JDBC を使用してデータを取得し、保存する前にプログラムでワークブックのセルにデータを入力してください。
+
+
+## まとめ
+
+Javaプレゼンテーションにグラフを追加する方法、データの構成、3D回転のカスタマイズ、系列の重なり調整、最終ファイルの保存方法を習得しました。この知識を活用することで、レポート生成の自動化、一貫性のあるブランディングの実現、手作業なしでのデータ駆動型プレゼンテーションの作成が可能になります。凡例や軸のスタイル設定、テーマの適用など、より詳細なカスタマイズについては、公式ドキュメントで全機能をご確認ください。
+
+より高度な機能とカスタマイズオプションについては、[Aspose.Slides for Java ドキュメント](https://docs.aspose.com/slides/java/) を参照してください。
+
+---
+
+**最終更新日:** 2026年3月20日
+**テスト環境:** Aspose.Slides for Java 25.4 (JDK16)
+**作成者:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -274,9 +286,3 @@ For more advanced features and customization options, refer to the [Aspose.Slide
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-20  
-**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Author:** Aspose

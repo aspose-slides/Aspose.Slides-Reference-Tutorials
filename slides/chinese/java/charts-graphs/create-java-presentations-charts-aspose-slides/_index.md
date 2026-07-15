@@ -267,6 +267,12 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 
 如需更高级的功能和自定义选项，请参考 [Aspose.Slides for Java documentation](https://docs.aspose.com/slides/java/)。  
 
+---
+
+**Last Updated:** 2026-03-20  
+**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -274,9 +280,3 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-20  
-**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Author:** Aspose

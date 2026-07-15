@@ -209,6 +209,12 @@ A5: 该库支持广泛的图表类型，但请始终查阅最新文档以了解�
 - **临时许可证**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **支持论坛**: [Aspose Support](https://forum.aspose.com/c/slides/11)
 
+---
+
+**最后更新：** 2026-03-20  
+**测试环境：** Aspose.Slides for Java 25.4 (JDK 16)  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -216,9 +222,3 @@ A5: 该库支持广泛的图表类型，但请始终查阅最新文档以了解�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2026-03-20  
-**测试环境：** Aspose.Slides for Java 25.4 (JDK 16)  
-**作者：** Aspose

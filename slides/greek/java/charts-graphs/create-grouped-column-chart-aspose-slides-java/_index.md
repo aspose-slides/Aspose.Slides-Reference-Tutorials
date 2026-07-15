@@ -208,6 +208,12 @@ pres.save("YOUR_OUTPUT_DIRECTORY/AsposeChart_out.pptx", SaveFormat.Pptx);
 - **Προσωρινή Άδεια**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Φόρουμ Υποστήριξης**: [Aspose Support](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Τελευταία Ενημέρωση:** 2026-03-20  
+**Δοκιμή Με:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -215,9 +221,3 @@ pres.save("YOUR_OUTPUT_DIRECTORY/AsposeChart_out.pptx", SaveFormat.Pptx);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2026-03-20  
-**Δοκιμή Με:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Συγγραφέας:** Aspose

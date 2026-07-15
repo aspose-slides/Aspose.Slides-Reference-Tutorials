@@ -268,6 +268,12 @@ Agora você aprendeu **como adicionar gráfico** a uma apresentação Java, conf
 
 Para recursos avançados e opções de personalização, consulte a [documentação do Aspose.Slides for Java](https://docs.aspose.com/slides/java/).
 
+---
+
+**Última Atualização:** 2026-03-20  
+**Testado com:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -275,9 +281,3 @@ Para recursos avançados e opções de personalização, consulte a [documentaç
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última Atualização:** 2026-03-20  
-**Testado com:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Autor:** Aspose

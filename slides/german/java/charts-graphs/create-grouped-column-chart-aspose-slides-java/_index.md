@@ -208,6 +208,12 @@ A5: Die Bibliothek unterstützt eine breite Palette von Diagrammtypen, prüfen S
 - **Temporäre Lizenz**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support‑Forum**: [Aspose Support](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Zuletzt aktualisiert:** 2026-03-20  
+**Getestet mit:** Aspose.Slides für Java 25.4 (JDK 16)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -215,9 +221,3 @@ A5: Die Bibliothek unterstützt eine breite Palette von Diagrammtypen, prüfen S
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2026-03-20  
-**Getestet mit:** Aspose.Slides für Java 25.4 (JDK 16)  
-**Autor:** Aspose

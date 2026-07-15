@@ -268,6 +268,12 @@ Most megtanulta, **hogyan adjunk diagrammot** egy Java prezentációhoz, hogyan 
 
 A fejlettebb funkciók és testreszabási lehetőségekért tekintse meg az [Aspose.Slides for Java dokumentációt](https://docs.aspose.com/slides/java/).
 
+---
+
+**Last Updated:** 2026-03-20  
+**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -275,9 +281,3 @@ A fejlettebb funkciók és testreszabási lehetőségekért tekintse meg az [Asp
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-20  
-**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Author:** Aspose

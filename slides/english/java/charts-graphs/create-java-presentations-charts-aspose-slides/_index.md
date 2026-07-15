@@ -267,6 +267,12 @@ You have now learned **how to add chart** to a Java presentation, configure its 
 
 For more advanced features and customization options, refer to the [Aspose.Slides for Java documentation](https://docs.aspose.com/slides/java/).
 
+---
+
+**Last Updated:** 2026-03-20  
+**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -274,9 +280,3 @@ For more advanced features and customization options, refer to the [Aspose.Slide
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-20  
-**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Author:** Aspose

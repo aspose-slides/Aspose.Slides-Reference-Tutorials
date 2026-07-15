@@ -190,6 +190,12 @@ A5: Kütüphane çok çeşitli grafik türlerini destekler, ancak yeni eklenen v
 - **Geçici Lisans**: [Geçici Lisans Talep Et](https://purchase.aspose.com/temporary-license/)
 - **Destek Forumu**: [Aspose Destek](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Son Güncelleme:** 2026-03-20  
+**Test Edilen Versiyon:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -197,9 +203,3 @@ A5: Kütüphane çok çeşitli grafik türlerini destekler, ancak yeni eklenen v
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2026-03-20  
-**Test Edilen Versiyon:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Yazar:** Aspose

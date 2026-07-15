@@ -208,6 +208,12 @@ A5: A biblioteca suporta uma ampla variedade de tipos de gráfico, mas sempre ve
 - **Licença Temporária**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Fórum de Suporte**: [Aspose Support](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Última atualização:** 2026-03-20  
+**Testado com:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -215,9 +221,3 @@ A5: A biblioteca suporta uma ampla variedade de tipos de gráfico, mas sempre ve
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2026-03-20  
-**Testado com:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Autor:** Aspose

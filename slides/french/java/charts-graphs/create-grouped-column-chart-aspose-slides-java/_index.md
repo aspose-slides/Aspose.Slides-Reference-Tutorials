@@ -208,6 +208,12 @@ R5 : La bibliothèque prend en charge un large éventail de types de graphique
 - **Licence temporaire** : [Demander une licence temporaire](https://purchase.aspose.com/temporary-license/)
 - **Forum de support** : [Support Aspose](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Dernière mise à jour :** 2026-03-20  
+**Testé avec :** Aspose.Slides for Java 25.4 (JDK 16)  
+**Auteur :** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -215,9 +221,3 @@ R5 : La bibliothèque prend en charge un large éventail de types de graphique
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2026-03-20  
-**Testé avec :** Aspose.Slides for Java 25.4 (JDK 16)  
-**Auteur :** Aspose

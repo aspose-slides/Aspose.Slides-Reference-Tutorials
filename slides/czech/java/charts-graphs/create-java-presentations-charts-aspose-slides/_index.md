@@ -268,6 +268,12 @@ Nyní jste se naučili **jak přidat graf** do Java prezentace, nakonfigurovat j
 
 Pro pokročilejší funkce a možnosti přizpůsobení se podívejte na [Aspose.Slides for Java documentation](https://docs.aspose.com/slides/java/).
 
+---
+
+**Poslední aktualizace:** 2026-03-20  
+**Testováno s:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -275,9 +281,3 @@ Pro pokročilejší funkce a možnosti přizpůsobení se podívejte na [Aspose.
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2026-03-20  
-**Testováno s:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Autor:** Aspose

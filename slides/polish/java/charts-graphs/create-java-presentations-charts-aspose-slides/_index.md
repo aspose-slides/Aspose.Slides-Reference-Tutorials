@@ -268,6 +268,12 @@ Teraz nauczyłeś się **jak dodać wykres** do prezentacji Java, skonfigurować
 
 Aby uzyskać więcej zaawansowanych funkcji i opcji dostosowywania, odwołaj się do [dokumentacji Aspose.Slides for Java](https://docs.aspose.com/slides/java/).
 
+---
+
+**Ostatnia aktualizacja:** 2026-03-20  
+**Testowano z:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -275,9 +281,3 @@ Aby uzyskać więcej zaawansowanych funkcji i opcji dostosowywania, odwołaj si�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2026-03-20  
-**Testowano z:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Autor:** Aspose

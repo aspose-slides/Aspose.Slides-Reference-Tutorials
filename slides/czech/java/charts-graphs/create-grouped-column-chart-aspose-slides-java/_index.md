@@ -210,6 +210,12 @@ A5: Knihovna podporuje širokou škálu typů grafů, ale vždy zkontrolujte nej
 - **Temporary License**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support Forum**: [Aspose Support](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Poslední aktualizace:** 2026-03-20  
+**Testováno s:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -217,9 +223,3 @@ A5: Knihovna podporuje širokou škálu typů grafů, ale vždy zkontrolujte nej
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2026-03-20  
-**Testováno s:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Autor:** Aspose

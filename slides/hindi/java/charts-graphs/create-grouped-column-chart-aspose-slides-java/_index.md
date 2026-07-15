@@ -191,6 +191,12 @@ A5: लाइब्रेरी कई प्रकार के चार्ट
 - **अस्थायी लाइसेंस**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **सपोर्ट फ़ोरम**: [Aspose Support](https://forum.aspose.com/c/slides/11)
 
+---
+
+**अंतिम अपडेट:** 2026-03-20  
+**परीक्षित संस्करण:** Aspose.Slides for Java 25.4 (JDK 16)  
+**लेखक:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -198,9 +204,3 @@ A5: लाइब्रेरी कई प्रकार के चार्ट
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**अंतिम अपडेट:** 2026-03-20  
-**परीक्षित संस्करण:** Aspose.Slides for Java 25.4 (JDK 16)  
-**लेखक:** Aspose

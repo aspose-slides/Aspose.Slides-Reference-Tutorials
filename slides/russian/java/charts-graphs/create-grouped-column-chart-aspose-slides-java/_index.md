@@ -210,6 +210,12 @@ pres.save("YOUR_OUTPUT_DIRECTORY/AsposeChart_out.pptx", SaveFormat.Pptx);
 - **Временная лицензия**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Форум поддержки**: [Aspose Support](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Последнее обновление:** 2026-03-20  
+**Тестировано с:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Автор:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -217,9 +223,3 @@ pres.save("YOUR_OUTPUT_DIRECTORY/AsposeChart_out.pptx", SaveFormat.Pptx);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2026-03-20  
-**Тестировано с:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Автор:** Aspose

@@ -206,6 +206,12 @@ A5: ไลบรารีรองรับประเภทแผนภูม�
 - **Temporary License**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support Forum**: [Aspose Support](https://forum.aspose.com/c/slides/11)
 
+---
+
+**อัปเดตล่าสุด:** 2026-03-20  
+**ทดสอบด้วย:** Aspose.Slides for Java 25.4 (JDK 16)  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -213,9 +219,3 @@ A5: ไลบรารีรองรับประเภทแผนภูม�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2026-03-20  
-**ทดสอบด้วย:** Aspose.Slides for Java 25.4 (JDK 16)  
-**ผู้เขียน:** Aspose

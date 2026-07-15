@@ -210,6 +210,12 @@ A5: A könyvtár széles körű diagramtípusokat támogat, de mindig ellenőriz
 - **Ideiglenes licenc**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Támogatási fórum**: [Aspose Support](https://forum.aspose.com/c/slides/11)
 
+---
+
+**Utolsó frissítés:** 2026-03-20  
+**Tesztelve:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -217,9 +223,3 @@ A5: A könyvtár széles körű diagramtípusokat támogat, de mindig ellenőriz
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2026-03-20  
-**Tesztelve:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Szerző:** Aspose
