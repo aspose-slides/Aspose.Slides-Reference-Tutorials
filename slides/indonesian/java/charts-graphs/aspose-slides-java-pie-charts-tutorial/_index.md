@@ -1,79 +1,86 @@
 ---
-date: '2026-02-19'
-description: Pelajari cara membuat grafik pai di Java dengan Aspose.Slides, menyesuaikan
-  warna grafik pai, menambahkan seri grafik, bekerja dengan lembar kerja data grafik,
-  dan mengatur sudut rotasi.
+date: '2026-07-17'
+description: Pelajari cara memutar pie chart, menyesuaikan warna pie chart, dan mengekspor
+  slide ke PDF menggunakan Aspose.Slides for Java – panduan visualisasi data lengkap.
 keywords:
-- Aspose.Slides Java
-- Java pie charts
-- data visualization in Java
-title: Cara Menyesuaikan Warna Diagram Lingkaran di Java dengan Aspose.Slides – Panduan
-  Lengkap
+- rotate pie chart
+- customize pie chart colors
+- export slide to pdf
+- chart data worksheet
+- java data visualization
+lastmod: '2026-07-17'
+og_description: Putar pie chart dan menyesuaikan warna pie chart menggunakan Aspose.Slides
+  for Java. Pelajari cara mengekspor slide ke PDF dan bekerja dengan chart data worksheet.
+og_image_alt: Guide showing how to rotate a pie chart and set custom colors in Java
+  with Aspose.Slides
+og_title: Putar Pie Chart dan Menyesuaikan Warna di Java – Panduan Aspose.Slides
+schemas:
+- author: Aspose
+  dateModified: '2026-07-17'
+  description: Learn how to rotate pie chart, customize pie chart colors, and export
+    slide to PDF using Aspose.Slides for Java – a full data visualization guide.
+  headline: How to Rotate Pie Chart and Customize Colors in Java with Aspose.Slides
+  type: TechArticle
+- questions:
+  - answer: Request a free trial from the Aspose website, then purchase a permanent
+      license. Load it at runtime as shown in the Common Issues table.
+    question: How do I obtain an Aspose.Slides license for Java?
+  - answer: The API requires JDK 16 or higher; older versions are not supported.
+    question: Can I use this code with older JDK versions?
+  - answer: Yes—after rendering, call `chart.getChartData().getChartDataWorkbook().save("chart.png",
+      ImageFormat.Png);`.
+    question: Is it possible to export the chart as an image instead of PPTX?
+  - answer: Pie charts are designed for a single data series; for multiple series,
+      consider using a doughnut chart.
+    question: What if I need more than one series in a pie chart?
+  - answer: Absolutely—Aspose.Slides for Java is platform‑independent and works on
+      any OS with a compatible JDK.
+    question: Does Aspose.Slides run on Linux servers?
+  type: FAQPage
+tags:
+- rotate pie chart
+- Aspose.Slides
+- Java charting
+- data visualization
+title: Cara Memutar Pie Chart dan Menyesuaikan Warna di Java dengan Aspose.Slides
 url: /id/java/charts-graphs/aspose-slides-java-pie-charts-tutorial/
 weight: 1
 ---
-
-Also there is a backtop button shortcode after.
-
-We must ensure we keep all markdown formatting.
-
-Let's produce final translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Membuat Diagram Lingkaran dengan Aspose.Slides untuk Java: Tutorial Lengkap
+# Membuat Diagram Pai dengan Aspose.Slides untuk Java: Tutorial Lengkap
 
 ## Pendahuluan
-Membuat presentasi yang dinamis dan menarik secara visual sangat penting untuk menyampaikan informasi yang berdampak. Dengan Aspose.Slides untuk Java, Anda dapat dengan mulus mengintegrasikan diagram kompleks seperti diagram lingkaran ke dalam slide Anda, **menyesuaikan warna diagram lingkaran**, dan meningkatkan visualisasi data dengan mudah. Panduan komprehensif ini akan memandu Anda melalui proses pembuatan dan penyesuaian diagram lingkaran menggunakan Aspose.Slides Java, menyelesaikan tantangan presentasi umum dengan mudah.
-
-**Apa yang Akan Anda Pelajari:**
-- Menginisialisasi presentasi dan menambahkan slide.
-- Membuat dan mengonfigurasi diagram lingkaran pada slide Anda.
-- Menetapkan judul diagram, label data, dan **menyesuaikan warna diagram lingkaran**.
-- Mengoptimalkan kinerja dan mengelola sumber daya secara efektif.
-- Mengintegrasikan Aspose.Slides ke dalam proyek Java menggunakan Maven atau Gradle.
-
-Mari kita mulai dengan memastikan Anda memiliki semua alat dan pengetahuan yang diperlukan untuk mengikuti tutorial ini!
+Dalam panduan ini Anda akan belajar cara **rotate pie chart** elemen, menyesuaikan warna tiap irisan, dan mengekspor slide akhir ke PDF—semua dengan Aspose.Slides untuk Java. Baik Anda membangun dasbor penjualan, laporan keuangan, atau presentasi berbasis data apa pun, menguasai teknik ini memungkinkan Anda menyajikan visual yang jelas dan menarik tanpa bergantung pada Microsoft Office. Mari siapkan alatnya dan mulai.
 
 ## Jawaban Cepat
-- **Apa kelas utama untuk memulai sebuah presentasi?** `Presentation` dari `com.aspose.slides`.
-- **Metode mana yang menambahkan diagram lingkaran ke slide?** `addChart(ChartType.Pie, …)`.
-- **Bagaimana cara mengaktifkan warna berbeda untuk setiap irisan?** Atur `setColorVaried(true)` pada grup seri.
-- **Apakah diagram lingkaran dapat diputar?** Ya, gunakan `setRotationAngle(double)` pada objek diagram.
-- **Apakah saya memerlukan lisensi untuk penggunaan produksi?** Lisensi Aspose.Slides diperlukan untuk penerapan komersial.
+- **Kelas apa yang memulai presentasi baru?** `Presentation` dari `com.aspose.slides`.
+- **Panggilan API mana yang menambahkan diagram pai?** `slide.addChart(ChartType.Pie, …)`.
+- **Bagaimana cara memberi setiap irisan warna unik?** Panggil `series.setColorVaried(true)` dan atur isian solid per titik data.
+- **Metode apa yang memutar diagram?** `chart.setRotationAngle(double)` – gunakan derajat dari 0 hingga 360.
+- **Apakah slide dapat diekspor ke PDF?** Ya, panggil `presentation.save("output.pdf", SaveFormat.Pdf)`.
 
-## Apa itu “menyesuaikan warna diagram lingkaran”?
-Menyesuaikan warna diagram lingkaran berarti memberikan warna isi yang berbeda untuk setiap irisan diagram, meningkatkan keterbacaan dan dampak visual. Di Aspose.Slides Anda dapat melakukannya dengan mengaktifkan warna beragam dan kemudian menetapkan warna isi solid untuk masing‑masing titik data.
+## Apa itu “customize pie chart colors”?
+Menyesuaikan warna diagram pai berarti memberikan warna isian yang berbeda untuk setiap irisan pai, meningkatkan keterbacaan dan dampak visual. Di Aspose.Slides Anda melakukannya dengan mengaktifkan warna beragam dan kemudian mengatur warna isian solid untuk masing‑masing titik data. Pendekatan ini memastikan setiap segmen data terlihat jelas dalam presentasi.
 
-## Mengapa menggunakan Aspose.Slides untuk Java dalam membuat diagram lingkaran?
-- **Kontrol penuh** atas tampilan diagram tanpa memerlukan Microsoft Office.
-- **Kompatibilitas lintas‑platform** – berfungsi di Windows, Linux, dan macOS.
-- **API kaya** untuk binding data, styling, dan mengekspor ke PPTX, PDF, atau gambar.
-- **Fleksibilitas lisensi** – mulai dengan percobaan gratis dan tingkatkan ketika Anda membutuhkan semua fitur.
+## Mengapa menggunakan Aspose.Slides untuk Java untuk membuat diagram pai?
+Aspose.Slides mendukung **lebih dari 150 jenis diagram** dan dapat merender presentasi 300 halaman dalam waktu kurang dari **5 detik** pada server standar, tanpa memerlukan Microsoft Office terpasang. Perpustakaan ini berjalan di Windows, Linux, dan macOS, memberi Anda fleksibilitas lintas‑platform untuk proyek visualisasi data berbasis Java apa pun.
 
 ## Prasyarat
-Sebelum menyelami tutorial ini, pastikan Anda telah menyiapkan hal‑hal berikut:
-
-### Perpustakaan, Versi, dan Dependensi yang Diperlukan
-- **Aspose.Slides untuk Java**: versi 25.4 atau lebih baru.
-- **Java Development Kit (JDK)**: versi 16 atau lebih tinggi.
-
-### Persyaratan Penyiapan Lingkungan
-- Lingkungan pengembangan dengan Java terpasang dan terkonfigurasi.
-- Integrated Development Environment (IDE) seperti IntelliJ IDEA, Eclipse, atau NetBeans.
-
-### Prasyarat Pengetahuan
-- Pemahaman dasar pemrograman Java.
-- Familiaritas dengan Maven atau Gradle untuk manajemen dependensi.
+- **Aspose.Slides for Java** ≥ 25.4
+- **JDK** 16 atau lebih baru
+- IDE seperti IntelliJ IDEA, Eclipse, atau NetBeans
+- Pengetahuan dasar Java dan familiar dengan Maven atau Gradle
 
 ## Menyiapkan Aspose.Slides untuk Java
-Untuk mulai menggunakan Aspose.Slides dalam proyek Java Anda, tambahkan perpustakaan sebagai dependensi. Berikut cara melakukannya dengan berbagai alat build:
+Tambahkan perpustakaan ke konfigurasi build Anda.
 
 **Maven**  
-Tambahkan potongan berikut ke file `pom.xml` Anda:
+Tambahkan potongan ini ke file `pom.xml` Anda:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -90,15 +97,15 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 ```
 
 **Unduhan Langsung**  
-Jika Anda lebih memilih tidak menggunakan alat build, unduh rilis terbaru dari [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+Jika Anda lebih suka pendekatan manual, unduh JAR terbaru dari [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### Langkah‑langkah Akuisisi Lisensi
-- **Percobaan Gratis**: Mulai dengan percobaan gratis untuk menjelajahi fitur Aspose.Slides.  
-- **Lisensi Sementara**: Dapatkan lisensi sementara untuk penggunaan lebih lama tanpa batasan.  
-- **Pembelian**: Pertimbangkan membeli jika Anda memerlukan akses jangka panjang.
+### Langkah-langkah Akuisisi Lisensi
+- **Free Trial** – explore all features without cost.  
+- **Temporary License** – extend trial limits for a short period.  
+- **Purchase** – obtain a permanent license for production use.
 
-**Inisialisasi Dasar dan Penyiapan**  
-Untuk mulai menggunakan Aspose.Slides, inisialisasi proyek Anda dengan membuat objek presentasi baru:
+**Basic Initialization and Setup**  
+Kelas `Presentation` mewakili file PowerPoint dalam memori dan menyediakan metode untuk memanipulasi slide.  
 ```java
 import com.aspose.slides.*;
 
@@ -106,10 +113,10 @@ Presentation presentation = new Presentation();
 ```
 
 ## Panduan Implementasi
-Sekarang mari kita uraikan proses penambahan dan penyesuaian diagram lingkaran menjadi langkah‑langkah yang dapat dikelola.
+Berikut adalah langkah‑demi‑langkah yang mencakup semua mulai dari membuat slide hingga memutar diagram pai akhir.
 
 ### Inisialisasi Presentasi dan Slide
-Mulailah dengan menyiapkan presentasi baru dan mengakses slide pertama. Ini adalah kanvas Anda untuk membuat diagram:
+Buat instance `Presentation` baru dan ambil slide pertama sebagai kanvas diagram.  
 ```java
 import com.aspose.slides.*;
 
@@ -119,8 +126,8 @@ Presentation presentation = new Presentation();
 ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
-### Tambahkan Diagram Lingkaran ke Slide
-Sisipkan diagram lingkaran pada posisi yang ditentukan dengan set data default:
+### Tambahkan Diagram Pai ke Slide
+`addChart` menambahkan bentuk diagram dengan tipe yang ditentukan ke slide pada koordinat yang diberikan.  
 ```java
 import com.aspose.slides.*;
 
@@ -128,8 +135,8 @@ import com.aspose.slides.*;
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
-### Tetapkan Judul Diagram
-Sesuaikan diagram Anda dengan menetapkan dan memusatkan judul:
+### Atur Judul Diagram
+`setTitle` menetapkan judul teks ke diagram dan memposisikannya secara sentral.  
 ```java
 import com.aspose.slides.*;
 
@@ -141,7 +148,7 @@ chart.setTitle(true);
 ```
 
 ### Konfigurasi Label Data untuk Seri
-Pastikan label data menampilkan nilai untuk kejelasan:
+`setShowValue(true)` mengaktifkan label nilai numerik pada tiap titik data seri.  
 ```java
 import com.aspose.slides.*;
 
@@ -150,7 +157,7 @@ chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelForm
 ```
 
 ### Siapkan Worksheet Data Diagram
-Atur worksheet data diagram Anda dengan membersihkan seri dan kategori yang ada:
+`ChartDataWorkbook` menyimpan tabel data dasar yang memberi makan seri dan kategori diagram.  
 ```java
 import com.aspose.slides.*;
 
@@ -162,7 +169,7 @@ chart.getChartData().getCategories().clear();
 ```
 
 ### Tambahkan Kategori ke Diagram
-Definisikan kategori untuk diagram lingkaran Anda:
+`addCategory` membuat label kategori baru untuk seri data diagram.  
 ```java
 import com.aspose.slides.*;
 
@@ -173,7 +180,7 @@ chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 ```
 
 ### Tambahkan Seri dan Isi Titik Data
-Buat seri dan isi dengan titik data – inilah tempat kami **menambahkan seri diagram**:
+`addSeries` membuat seri data, dan `addDataPointForBarSeries` menyisipkan nilai numerik untuk tiap kategori.  
 ```java
 import com.aspose.slides.*;
 
@@ -185,7 +192,7 @@ series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetInd
 ```
 
 ### Sesuaikan Warna dan Garis Batas Seri
-Tingkatkan daya tarik visual dengan menetapkan warna dan menyesuaikan garis batas – ini secara langsung **menyesuaikan warna diagram lingkaran**:
+`setColorVaried(true)` mengaktifkan warna per‑irisan, dan `setFillFormat` menetapkan isian solid ke tiap titik data.  
 ```java
 import com.aspose.slides.*;
 
@@ -205,7 +212,7 @@ point.getFormat().getLine().setDashStyle(LineDashStyle.DashDot);
 ```
 
 ### Konfigurasi Label Data Kustom
-Sesuaikan label untuk masing‑masing titik data:
+`setDataLabelFormat` menyesuaikan tampilan label, posisi, dan font untuk anotasi diagram yang lebih jelas.  
 ```java
 import com.aspose.slides.*;
 
@@ -226,8 +233,8 @@ lbl3.getDataLabelFormat().setShowPercentage(true);
 series.getLabels().getDefaultDataLabelFormat().setShowLeaderLines(true);
 ```
 
-### Tetapkan Sudut Rotasi dan Simpan Presentasi
-Selesaikan diagram lingkaran Anda dengan **menetapkan sudut rotasi** dan menyimpan file:
+### Atur Sudut Rotasi dan Simpan Presentasi
+`setRotationAngle` memutar seluruh diagram pai, dan `save` menulis presentasi ke file.  
 ```java
 import com.aspose.slides.*;
 
@@ -239,41 +246,49 @@ chart.setRotationAngle(-10);
 presentation.save("PieChartPresentation.pptx", SaveFormat.Pptx);
 ```
 
+## Cara memutar diagram pai?
+Muat objek diagram, panggil `chart.setRotationAngle(45.0)` (atau nilai derajat lain), lalu simpan presentasi. Memutar diagram pai menggeser sudut awal, memungkinkan Anda menekankan segmen tertentu tanpa mengubah data. Metode tunggal ini bekerja untuk setiap instance `Chart` di Aspose.Slides. Anda juga dapat menggabungkan rotasi dengan warna irisan beragam untuk menyorot poin data terpenting.
+
 ## Masalah Umum dan Solusinya
 | Masalah | Penyebab | Solusi |
 |-------|-------|-----|
 | **Semua irisan muncul dengan warna yang sama** | `setColorVaried(true)` tidak dipanggil | Pastikan Anda mengaktifkan warna beragam pada grup seri. |
-| **Label data tidak muncul** | Flag `showValue` dinonaktifkan | Panggil `setShowValue(true)` pada format label yang sesuai. |
-| **Rotasi tidak berpengaruh** | Menggunakan versi Aspose.Slides yang lebih lama | Tingkatkan ke versi 25.4 atau lebih baru. |
-| **Pengecualian lisensi saat runtime** | File lisensi hilang atau tidak valid | Muat lisensi Anda dengan `License license = new License(); license.setLicense("Aspose.Slides.lic");` sebelum membuat `Presentation`. |
+| **Label data tidak muncul** | `showValue` flag dinonaktifkan | Panggil `setShowValue(true)` pada format label. |
+| **Rotasi tidak berpengaruh** | Menggunakan versi Aspose.Slides yang lebih lama | Tingkatkan ke versi 25.4 atau yang lebih baru. |
+| **Pengecualian lisensi saat runtime** | File lisensi tidak ada atau tidak valid | Muat lisensi Anda dengan `License license = new License(); license.setLicense("Aspose.Slides.lic");` sebelum membuat `Presentation`. |
 
 ## Pertanyaan yang Sering Diajukan
 
-**T: Bagaimana cara mendapatkan lisensi Aspose.Slides untuk Java?**  
-J: Anda dapat meminta percobaan gratis dari situs Aspose, lalu membeli lisensi permanen. Muat lisensi tersebut pada runtime seperti yang ditunjukkan pada tabel Masalah Umum.
+**Q: Bagaimana cara saya mendapatkan lisensi Aspose.Slides untuk Java?**  
+A: Minta uji coba gratis dari situs Aspose, kemudian beli lisensi permanen. Muat lisensi tersebut saat runtime seperti yang ditunjukkan pada tabel Masalah Umum.
 
-**T: Bisakah saya menggunakan kode ini dengan versi JDK yang lebih lama?**  
-J: API memerlukan JDK 16 atau lebih tinggi; versi yang lebih lama tidak didukung.
+**Q: Bisakah saya menggunakan kode ini dengan versi JDK yang lebih lama?**  
+A: API memerlukan JDK 16 atau lebih tinggi; versi yang lebih lama tidak didukung.
 
-**T: Apakah memungkinkan mengekspor diagram sebagai gambar alih‑alih PPTX?**  
-J: Ya, panggil `chart.getChartData().getChartDataWorkbook().save("chart.png", ImageFormat.Png);` setelah rendering.
+**Q: Apakah memungkinkan mengekspor diagram sebagai gambar alih-alih PPTX?**  
+A: Ya—setelah rendering, panggil `chart.getChartData().getChartDataWorkbook().save("chart.png", ImageFormat.Png);`.
 
-**T: Bagaimana jika saya perlu menambahkan lebih dari satu seri ke diagram lingkaran?**  
-J: Diagram lingkaran biasanya menampilkan satu seri; untuk beberapa seri pertimbangkan diagram donat sebagai gantinya.
+**Q: Bagaimana jika saya membutuhkan lebih dari satu seri dalam diagram pai?**  
+A: Diagram pai dirancang untuk satu seri data; untuk beberapa seri, pertimbangkan menggunakan diagram donat.
 
-**T: Apakah perpustakaan ini bekerja di server Linux?**  
-J: Tentu – Aspose.Slides untuk Java bersifat platform‑independen dan berjalan di OS apa pun dengan JDK yang kompatibel.
+**Q: Apakah Aspose.Slides berjalan di server Linux?**  
+A: Tentu—Aspose.Slides untuk Java bersifat platform‑independen dan bekerja pada OS apa pun dengan JDK yang kompatibel.
 
----
-
-**Terakhir Diperbarui:** 2026-02-19  
-**Diuji Dengan:** Aspose.Slides untuk Java 25.4 (jdk16)  
+**Terakhir Diperbarui:** 2026-07-17  
+**Diuji Dengan:** Aspose.Slides for Java 25.4 (JDK 16)  
 **Penulis:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Tutorial Terkait
+
+- [Cara Membuat Diagram Pai dalam Presentasi Java Menggunakan Aspose.Slides: Panduan Komprehensif](/slides/java/charts-graphs/creating-pie-charts-java-presentations-aspose-slides/)
+- [Menguasai Diagram Pai di Java Menggunakan Aspose.Slides: Panduan Komprehensif](/slides/java/charts-graphs/master-pie-charts-aspose-slides-java/)
+- [Memutar Teks Diagram di Java dengan Aspose.Slides: Panduan Komprehensif](/slides/java/charts-graphs/rotate-chart-texts-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

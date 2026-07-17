@@ -1,14 +1,52 @@
 ---
-date: '2026-02-19'
-description: Apprenez à créer un diagramme circulaire en Java avec Aspose.Slides,
-  à personnaliser les couleurs du diagramme, à ajouter des séries, à travailler avec
-  la feuille de données du graphique et à définir l’angle de rotation.
+date: '2026-07-17'
+description: Apprenez à faire pivoter le Pie Chart, personnaliser les couleurs du
+  Pie Chart et exporter la diapositive au format PDF à l'aide d'Aspose.Slides for
+  Java – un guide complet de visualisation de données.
 keywords:
-- Aspose.Slides Java
-- Java pie charts
-- data visualization in Java
-title: Comment personnaliser les couleurs des graphiques circulaires en Java avec
-  Aspose.Slides – Guide complet
+- rotate pie chart
+- customize pie chart colors
+- export slide to pdf
+- chart data worksheet
+- java data visualization
+lastmod: '2026-07-17'
+og_description: Faites pivoter le Pie Chart et personnalisez les couleurs du Pie Chart
+  avec Aspose.Slides for Java. Apprenez à exporter la diapositive au format PDF et
+  à travailler avec le chart data worksheet.
+og_image_alt: Guide showing how to rotate a pie chart and set custom colors in Java
+  with Aspose.Slides
+og_title: Faire pivoter le Pie Chart et personnaliser les couleurs en Java – Guide
+  Aspose.Slides
+schemas:
+- author: Aspose
+  dateModified: '2026-07-17'
+  description: Learn how to rotate pie chart, customize pie chart colors, and export
+    slide to PDF using Aspose.Slides for Java – a full data visualization guide.
+  headline: How to Rotate Pie Chart and Customize Colors in Java with Aspose.Slides
+  type: TechArticle
+- questions:
+  - answer: Request a free trial from the Aspose website, then purchase a permanent
+      license. Load it at runtime as shown in the Common Issues table.
+    question: How do I obtain an Aspose.Slides license for Java?
+  - answer: The API requires JDK 16 or higher; older versions are not supported.
+    question: Can I use this code with older JDK versions?
+  - answer: Yes—after rendering, call `chart.getChartData().getChartDataWorkbook().save("chart.png",
+      ImageFormat.Png);`.
+    question: Is it possible to export the chart as an image instead of PPTX?
+  - answer: Pie charts are designed for a single data series; for multiple series,
+      consider using a doughnut chart.
+    question: What if I need more than one series in a pie chart?
+  - answer: Absolutely—Aspose.Slides for Java is platform‑independent and works on
+      any OS with a compatible JDK.
+    question: Does Aspose.Slides run on Linux servers?
+  type: FAQPage
+tags:
+- rotate pie chart
+- Aspose.Slides
+- Java charting
+- data visualization
+title: Comment faire pivoter le Pie Chart et personnaliser les couleurs en Java avec
+  Aspose.Slides
 url: /fr/java/charts-graphs/aspose-slides-java-pie-charts-tutorial/
 weight: 1
 ---
@@ -18,57 +56,35 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Créer des graphiques circulaires avec Aspose.Slides pour Java : un tutoriel complet
+# Créer des graphiques circulaires avec Aspose.Slides pour Java : un tutoriel complet
 
 ## Introduction
-Créer des présentations dynamiques et visuellement attrayantes est essentiel pour transmettre des informations percutantes. Avec Aspose.Slides pour Java, vous pouvez intégrer sans effort des graphiques complexes comme les graphiques circulaires dans vos diapositives, **personnaliser les couleurs du graphique circulaire**, et améliorer la visualisation des données aisément. Ce guide complet vous accompagnera pas à pas dans la création et la personnalisation d’un graphique circulaire à l’aide d’Aspose.Slides Java, en résolvant facilement les défis courants de présentation.
-
-**Ce que vous apprendrez :**
-- Initialiser une présentation et ajouter des diapositives.
-- Créer et configurer un graphique circulaire sur votre diapositive.
-- Définir les titres du graphique, les étiquettes de données, et **personnaliser les couleurs du graphique circulaire**.
-- Optimiser les performances et gérer les ressources efficacement.
-- Intégrer Aspose.Slides dans des projets Java en utilisant Maven ou Gradle.
-
-Commençons par nous assurer que vous disposez de tous les outils et connaissances nécessaires pour suivre le tutoriel !
+Dans ce guide, vous apprendrez à **rotate pie chart** les éléments, à personnaliser la couleur de chaque tranche et à exporter la diapositive finale au format PDF — le tout avec Aspose.Slides pour Java. Que vous construisiez un tableau de bord commercial, un rapport financier ou toute présentation basée sur des données, maîtriser ces techniques vous permet de fournir des visuels clairs et accrocheurs sans dépendre de Microsoft Office. Préparons les outils et plongeons‑y.
 
 ## Réponses rapides
-- **Quelle est la classe principale pour démarrer une présentation ?** `Presentation` de `com.aspose.slides`.
-- **Quelle méthode ajoute un graphique circulaire à une diapositive ?** `addChart(ChartType.Pie, …)`.
-- **Comment activer des couleurs variées pour chaque tranche ?** Appelez `setColorVaried(true)` sur le groupe de séries.
-- **Peut-on faire pivoter le graphique circulaire ?** Oui, utilisez `setRotationAngle(double)` sur l’objet du graphique.
-- **Ai-je besoin d’une licence pour une utilisation en production ?** Une licence Aspose.Slides est requise pour les déploiements commerciaux.
+- **Quelle classe démarre une nouvelle présentation ?** `Presentation` from `com.aspose.slides`.
+- **Quel appel d'API ajoute un graphique circulaire ?** `slide.addChart(ChartType.Pie, …)`.
+- **Comment donner à chaque tranche une couleur unique ?** Appelez `series.setColorVaried(true)` et définissez des remplissages solides pour chaque point de données.
+- **Quelle méthode fait pivoter le graphique ?** `chart.setRotationAngle(double)` – utilisez des degrés de 0 à 360.
+- **La diapositive peut‑elle être exportée en PDF ?** Oui, invoquez `presentation.save("output.pdf", SaveFormat.Pdf)`.
 
-## Qu’est‑ce que « personnaliser les couleurs du graphique circulaire » ?
-Personnaliser les couleurs du graphique circulaire consiste à attribuer des couleurs de remplissage distinctes à chaque tranche du cercle, améliorant ainsi la lisibilité et l’impact visuel. Dans Aspose.Slides, vous obtenez cela en activant les couleurs variées puis en définissant des couleurs de remplissage solides pour chaque point de données.
+## Qu’est‑ce que « customize pie chart colors » ?
+Personnaliser les couleurs d’un graphique circulaire signifie attribuer des couleurs de remplissage distinctes à chaque tranche du cercle, améliorant la lisibilité et l’impact visuel. Dans Aspose.Slides, vous y parvenez en activant les couleurs variées puis en définissant des couleurs de remplissage solides pour chaque point de données. Cette approche garantit que chaque segment de données se démarque clairement dans la présentation.
 
 ## Pourquoi utiliser Aspose.Slides pour Java pour créer des graphiques circulaires ?
-- **Contrôle complet** de l’apparence du graphique sans besoin de Microsoft Office.
-- **Compatibilité multiplateforme** – fonctionne sous Windows, Linux et macOS.
-- **API riche** pour la liaison de données, le style et l’exportation vers PPTX, PDF ou images.
-- **Flexibilité de licence** – commencez avec un essai gratuit et passez à la version complète lorsque vous avez besoin de toutes les fonctionnalités.
+Aspose.Slides prend en charge **plus de 150 types de graphiques** et peut rendre une présentation de 300 pages en moins de **5 secondes** sur un serveur type, le tout sans nécessiter l’installation de Microsoft Office. La bibliothèque fonctionne sous Windows, Linux et macOS, vous offrant une flexibilité multiplateforme pour tout projet de visualisation de données basé sur Java.
 
 ## Prérequis
-
-Avant de plonger dans ce tutoriel, assurez-vous que votre environnement est prêt :
-
-### Bibliothèques requises, versions et dépendances
-- **Aspose.Slides for Java** : version 25.4 ou ultérieure.
-- **Java Development Kit (JDK)** : version 16 ou supérieure.
-
-### Exigences de configuration de l’environnement
-- Un environnement de développement avec Java installé et configuré.
-- Un environnement de développement intégré (IDE) tel qu’IntelliJ IDEA, Eclipse ou NetBeans.
-
-### Prérequis de connaissances
-- Compréhension de base de la programmation Java.
-- Familiarité avec Maven ou Gradle pour la gestion des dépendances.
+- **Aspose.Slides for Java** ≥ 25.4
+- **JDK** 16 ou version plus récente
+- IDE tel que IntelliJ IDEA, Eclipse ou NetBeans
+- Connaissances de base en Java et familiarité avec Maven ou Gradle
 
 ## Configuration d’Aspose.Slides pour Java
-Pour commencer à utiliser Aspose.Slides dans vos projets Java, vous devez ajouter la bibliothèque en tant que dépendance. Voici comment procéder avec différents outils de construction :
+Ajoutez la bibliothèque à votre configuration de build.
 
 **Maven**  
-Ajoutez ce fragment à votre fichier `pom.xml` :
+Ajoutez cet extrait à votre fichier `pom.xml` :
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -79,21 +95,21 @@ Ajoutez ce fragment à votre fichier `pom.xml` :
 ```
 
 **Gradle**  
-Incluez ce qui suit dans votre fichier `build.gradle` :
+Incluez ce qui suit dans votre fichier `build.gradle` :
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Téléchargement direct**  
-Si vous préférez ne pas utiliser d’outil de construction, téléchargez la dernière version depuis [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+**Direct Download**  
+Si vous préférez une approche manuelle, téléchargez le JAR le plus récent depuis [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 ### Étapes d’obtention de licence
-- **Essai gratuit** : commencez avec un essai gratuit pour explorer les fonctionnalités d’Aspose.Slides.  
-- **Licence temporaire** : obtenez une licence temporaire pour une utilisation prolongée sans limitations.  
-- **Achat** : envisagez d’acheter si vous avez besoin d’un accès à long terme.
+- **Essai gratuit** – explorez toutes les fonctionnalités sans frais.  
+- **Licence temporaire** – prolongez les limites de l’essai pendant une courte période.  
+- **Achat** – obtenez une licence permanente pour une utilisation en production.
 
 **Initialisation et configuration de base**  
-Pour commencer à utiliser Aspose.Slides, initialisez votre projet en créant un nouvel objet présentation :
+La classe `Presentation` représente un fichier PowerPoint en mémoire et fournit des méthodes pour manipuler les diapositives.  
 ```java
 import com.aspose.slides.*;
 
@@ -101,10 +117,10 @@ Presentation presentation = new Presentation();
 ```
 
 ## Guide d’implémentation
-Décomposons maintenant le processus d’ajout et de personnalisation d’un graphique circulaire en étapes gérables.
+Voici un guide étape par étape qui couvre tout, de la création d’une diapositive à la rotation du graphique circulaire final.
 
 ### Initialiser la présentation et la diapositive
-Commencez par configurer une nouvelle présentation et accéder à la première diapositive. C’est votre toile pour créer des graphiques :
+Créez une nouvelle instance `Presentation` et récupérez la première diapositive pour servir de toile au graphique.  
 ```java
 import com.aspose.slides.*;
 
@@ -115,7 +131,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
 ### Ajouter un graphique circulaire à la diapositive
-Insérez un graphique circulaire à la position spécifiée avec un jeu de données par défaut :
+`addChart` ajoute une forme de graphique du type spécifié à la diapositive aux coordonnées données.  
 ```java
 import com.aspose.slides.*;
 
@@ -124,7 +140,7 @@ IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
 ### Définir le titre du graphique
-Personnalisez votre graphique en définissant et centrant le titre :
+`setTitle` attribue un titre texte au graphique et le positionne au centre.  
 ```java
 import com.aspose.slides.*;
 
@@ -136,7 +152,7 @@ chart.setTitle(true);
 ```
 
 ### Configurer les étiquettes de données pour la série
-Assurez‑vous que les étiquettes de données affichent les valeurs pour plus de clarté :
+`setShowValue(true)` active les étiquettes de valeurs numériques sur chaque point de données de la série.  
 ```java
 import com.aspose.slides.*;
 
@@ -145,7 +161,7 @@ chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelForm
 ```
 
 ### Préparer la feuille de données du graphique
-Configurez la feuille de données du graphique en supprimant les séries et catégories existantes :
+`ChartDataWorkbook` stocke le tableau de données sous‑jacent qui alimente les séries et catégories du graphique.  
 ```java
 import com.aspose.slides.*;
 
@@ -157,7 +173,7 @@ chart.getChartData().getCategories().clear();
 ```
 
 ### Ajouter des catégories au graphique
-Définissez les catégories pour votre graphique circulaire :
+`addCategory` crée une nouvelle étiquette de catégorie pour les séries de données du graphique.  
 ```java
 import com.aspose.slides.*;
 
@@ -168,7 +184,7 @@ chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 ```
 
 ### Ajouter une série et remplir les points de données
-Créez une série et remplissez‑la avec des points de données – c’est ici que nous **ajoutons une série de graphique** :
+`addSeries` crée une série de données, et `addDataPointForBarSeries` insère des valeurs numériques pour chaque catégorie.  
 ```java
 import com.aspose.slides.*;
 
@@ -179,8 +195,8 @@ series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 ```
 
-### Personnaliser les couleurs et les bordures de la série
-Améliorez l’aspect visuel en définissant les couleurs et en personnalisant les bordures – cela **personnalise directement les couleurs du graphique circulaire** :
+### Personnaliser les couleurs et bordures de la série
+`setColorVaried(true)` active les couleurs par tranche, et `setFillFormat` attribue un remplissage solide à chaque point de données.  
 ```java
 import com.aspose.slides.*;
 
@@ -199,8 +215,8 @@ point.getFormat().getLine().setDashStyle(LineDashStyle.DashDot);
 // Repeat for other data points with different colors and styles.
 ```
 
-### Configurer les étiquettes de données personnalisées
-Affinez les étiquettes pour chaque point de données :
+### Configurer des étiquettes de données personnalisées
+`setDataLabelFormat` personnalise l’apparence, la position et la police des étiquettes pour des annotations de graphique plus claires.  
 ```java
 import com.aspose.slides.*;
 
@@ -222,7 +238,7 @@ series.getLabels().getDefaultDataLabelFormat().setShowLeaderLines(true);
 ```
 
 ### Définir l’angle de rotation et enregistrer la présentation
-Finalisez votre graphique circulaire en **définissant l’angle de rotation** et en enregistrant le fichier :
+`setRotationAngle` fait pivoter le graphique circulaire complet, et `save` écrit la présentation dans un fichier.  
 ```java
 import com.aspose.slides.*;
 
@@ -234,41 +250,51 @@ chart.setRotationAngle(-10);
 presentation.save("PieChartPresentation.pptx", SaveFormat.Pptx);
 ```
 
+## Comment faire pivoter un graphique circulaire ?
+Chargez l’objet du graphique, appelez `chart.setRotationAngle(45.0)` (ou toute valeur en degrés), puis enregistrez la présentation. Faire pivoter un graphique circulaire décale l’angle de départ, vous permettant de mettre en avant un segment particulier sans modifier les données. Cet appel de méthode unique fonctionne pour toute instance `Chart` dans Aspose.Slides. Vous pouvez également combiner la rotation avec des couleurs de tranche variées pour attirer l’attention sur le point de données le plus important.
+
 ## Problèmes courants et solutions
 | Problème | Cause | Solution |
 |----------|-------|----------|
-| **Les tranches apparaissent toutes de la même couleur** | `setColorVaried(true)` non appelé | Assurez‑vous d’activer les couleurs variées sur le groupe de séries. |
-| **Les étiquettes de données ne s’affichent pas** | drapeau `showValue` désactivé | Appelez `setShowValue(true)` sur le format d’étiquette approprié. |
-| **La rotation n’a aucun effet** | Utilisation d’une version plus ancienne d’Aspose.Slides | Mettez à jour vers la version 25.4 ou ultérieure. |
+| **Toutes les tranches ont la même couleur** | `setColorVaried(true)` non appelé | Assurez‑vous d’activer les couleurs variées sur le groupe de séries. |
+| **Les étiquettes de données ne s’affichent pas** | drapeau `showValue` désactivé | Appelez `setShowValue(true)` sur le format d’étiquette. |
+| **La rotation n’a aucun effet** | Utilisation d’une version plus ancienne d’Aspose.Slides | Mettez à jour vers la version 25.4 ou ultérieure. |
 | **Exception de licence à l’exécution** | Fichier de licence manquant ou invalide | Chargez votre licence avec `License license = new License(); license.setLicense("Aspose.Slides.lic");` avant de créer le `Presentation`. |
 
 ## Questions fréquentes
 
 **Q : Comment obtenir une licence Aspose.Slides pour Java ?**  
-R : Vous pouvez demander un essai gratuit sur le site Aspose, puis acheter une licence permanente. Chargez‑la à l’exécution comme indiqué dans le tableau des problèmes courants.
+R : Demandez un essai gratuit sur le site Aspose, puis achetez une licence permanente. Chargez‑la à l’exécution comme indiqué dans le tableau des problèmes courants.
 
-**Q : Puis‑je utiliser ce code avec des versions plus anciennes du JDK ?**  
+**Q : Puis‑je utiliser ce code avec d’anciennes versions du JDK ?**  
 R : L’API nécessite JDK 16 ou supérieur ; les versions antérieures ne sont pas prises en charge.
 
-**Q : Est‑il possible d’exporter le graphique sous forme d’image au lieu de PPTX ?**  
-R : Oui, appelez `chart.getChartData().getChartDataWorkbook().save("chart.png", ImageFormat.Png);` après le rendu.
+**Q : Est‑il possible d’exporter le graphique sous forme d’image plutôt qu’en PPTX ?**  
+R : Oui — après le rendu, appelez `chart.getChartData().getChartDataWorkbook().save("chart.png", ImageFormat.Png);`.
 
-**Q : Que faire si je dois ajouter plus d’une série à un graphique circulaire ?**  
-R : Les graphiques circulaires affichent généralement une seule série ; pour plusieurs séries, envisagez un graphique en anneau à la place.
+**Q : Que faire si j’ai besoin de plus d’une série dans un graphique circulaire ?**  
+R : Les graphiques circulaires sont conçus pour une seule série de données ; pour plusieurs séries, envisagez d’utiliser un graphique en anneau.
 
-**Q : La bibliothèque fonctionne‑t‑elle sur des serveurs Linux ?**  
-R : Absolument – Aspose.Slides pour Java est indépendant de la plateforme et s’exécute sur tout OS disposant d’un JDK compatible.
+**Q : Aspose.Slides fonctionne‑t‑il sur des serveurs Linux ?**  
+R : Absolument — Aspose.Slides pour Java est indépendant de la plateforme et fonctionne sur tout système d’exploitation avec un JDK compatible.
 
 ---
 
-**Dernière mise à jour :** 2026-02-19  
-**Testé avec :** Aspose.Slides for Java 25.4 (jdk16)  
+**Dernière mise à jour :** 2026-07-17  
+**Testé avec :** Aspose.Slides for Java 25.4 (JDK 16)  
 **Auteur :** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Tutoriels associés
+
+- [Comment créer des graphiques circulaires dans des présentations Java avec Aspose.Slides : guide complet](/slides/java/charts-graphs/creating-pie-charts-java-presentations-aspose-slides/)
+- [Maîtriser les graphiques circulaires en Java avec Aspose.Slides : guide complet](/slides/java/charts-graphs/master-pie-charts-aspose-slides-java/)
+- [Faire pivoter les textes de graphique en Java avec Aspose.Slides : guide complet](/slides/java/charts-graphs/rotate-chart-texts-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

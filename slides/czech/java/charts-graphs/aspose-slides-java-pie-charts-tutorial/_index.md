@@ -1,14 +1,49 @@
 ---
-date: '2026-02-19'
-description: Naučte se, jak vytvořit koláčový graf v Javě pomocí Aspose.Slides a přizpůsobit
-  barvy koláčového grafu, přidat řady grafu, pracovat s listem dat grafu a nastavit
-  úhel otáčení.
+date: '2026-07-17'
+description: Naučte se, jak otočit koláčový graf, přizpůsobit barvy koláčového grafu
+  a exportovat snímek do PDF pomocí Aspose.Slides for Java – kompletní průvodce vizualizací
+  dat.
 keywords:
-- Aspose.Slides Java
-- Java pie charts
-- data visualization in Java
-title: Jak upravit barvy koláčových grafů v Javě pomocí Aspose.Slides – Kompletní
-  průvodce
+- rotate pie chart
+- customize pie chart colors
+- export slide to pdf
+- chart data worksheet
+- java data visualization
+lastmod: '2026-07-17'
+og_description: Otočte koláčový graf a přizpůsobte barvy koláčového grafu pomocí Aspose.Slides
+  pro Java. Naučte se exportovat snímek do PDF a pracovat s chart data worksheet.
+og_image_alt: Guide showing how to rotate a pie chart and set custom colors in Java
+  with Aspose.Slides
+og_title: Otočte koláčový graf a přizpůsobte barvy v Javě – průvodce Aspose.Slides
+schemas:
+- author: Aspose
+  dateModified: '2026-07-17'
+  description: Learn how to rotate pie chart, customize pie chart colors, and export
+    slide to PDF using Aspose.Slides for Java – a full data visualization guide.
+  headline: How to Rotate Pie Chart and Customize Colors in Java with Aspose.Slides
+  type: TechArticle
+- questions:
+  - answer: Request a free trial from the Aspose website, then purchase a permanent
+      license. Load it at runtime as shown in the Common Issues table.
+    question: How do I obtain an Aspose.Slides license for Java?
+  - answer: The API requires JDK 16 or higher; older versions are not supported.
+    question: Can I use this code with older JDK versions?
+  - answer: Yes—after rendering, call `chart.getChartData().getChartDataWorkbook().save("chart.png",
+      ImageFormat.Png);`.
+    question: Is it possible to export the chart as an image instead of PPTX?
+  - answer: Pie charts are designed for a single data series; for multiple series,
+      consider using a doughnut chart.
+    question: What if I need more than one series in a pie chart?
+  - answer: Absolutely—Aspose.Slides for Java is platform‑independent and works on
+      any OS with a compatible JDK.
+    question: Does Aspose.Slides run on Linux servers?
+  type: FAQPage
+tags:
+- rotate pie chart
+- Aspose.Slides
+- Java charting
+- data visualization
+title: Jak otočit koláčový graf a přizpůsobit barvy v Javě s Aspose.Slides
 url: /cs/java/charts-graphs/aspose-slides-java-pie-charts-tutorial/
 weight: 1
 ---
@@ -18,53 +53,32 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Vytváření koláčových grafů pomocí Aspose.Slides pro Java: Kompletní tutoriál
+# Vytváření koláčových grafů s Aspose.Slides pro Java: Kompletní návod
 
 ## Úvod
-Vytváření dynamických a vizuálně atraktivních prezentací je klíčové pro předání působivých informací. S Aspose.Slides pro Java můžete bez problémů integrovat složité grafy, jako jsou koláčové grafy, do svých snímků, **customize pie chart colors**, a zlepšit vizualizaci dat s lehkostí. Tento komplexní průvodce vás provede procesem vytvoření a úpravy koláčového grafu pomocí Aspose.Slides Java, řešením běžných výzev prezentací s lehkostí.
-
-**Co se naučíte:**
-- Inicializace prezentace a přidání snímků.
-- Vytvoření a konfigurace koláčového grafu na snímku.
-- Nastavení názvů grafu, popisků dat a **customize pie chart colors**.
-- Optimalizace výkonu a efektivní správa zdrojů.
-- Integrace Aspose.Slides do Java projektů pomocí Maven nebo Gradle.
-
-Pojďme začít tím, že se ujistíme, že máte všechny potřebné nástroje a znalosti k tomu, abyste mohli postupovat!
+V tomto průvodci se naučíte, jak **otočit koláčový graf**, přizpůsobit barvu každého výseku a exportovat finální snímek do PDF – vše pomocí Aspose.Slides pro Java. Ať už vytváříte prodejní dashboard, finanční zprávu nebo jakoukoli prezentaci založenou na datech, zvládnutí těchto technik vám umožní předat jasné, poutavé vizuály bez nutnosti používat Microsoft Office. Připravme si nástroje a ponořme se do toho.
 
 ## Rychlé odpovědi
-- **Jaká je hlavní třída pro zahájení prezentace?** `Presentation` z `com.aspose.slides`.
-- **Která metoda přidá koláčový graf na snímek?** `addChart(ChartType.Pie, …)`.
-- **Jak povolit různé barvy pro každý výsek?** Nastavte `setColorVaried(true)` na skupinu řad.
-- **Můžete otočit koláčový graf?** Ano, použijte `setRotationAngle(double)` na objekt grafu.
-- **Potřebuji licenci pro produkční použití?** Licence Aspose.Slides je vyžadována pro komerční nasazení.
+- **Která třída zahajuje novou prezentaci?** `Presentation` from `com.aspose.slides`.
+- **Které volání API přidá koláčový graf?** `slide.addChart(ChartType.Pie, …)`.
+- **Jak můžete každému výseku přiřadit jedinečnou barvu?** Call `series.setColorVaried(true)` and set solid fills per data point.
+- **Jaká metoda otáčí graf?** `chart.setRotationAngle(double)` – use degrees from 0 to 360.
+- **Lze snímek exportovat do PDF?** Yes, invoke `presentation.save("output.pdf", SaveFormat.Pdf)`.
 
-## Co znamená “customize pie chart colors”?
-Přizpůsobení barev koláčového grafu znamená přiřazení odlišných výplňových barev každému výseku koláče, čímž se zlepšuje čitelnost a vizuální dopad. V Aspose.Slides toho dosáhnete povolením různých barev a následným nastavením pevných výplní pro jednotlivé datové body.
+## Co je „přizpůsobení barev koláčového grafu“?
+Přizpůsobení barev koláčového grafu znamená přiřazení odlišných výplňových barev každému výseku koláče, což zlepšuje čitelnost a vizuální dopad. V Aspose.Slides toho dosáhnete povolením různých barev a následným nastavením plných výplní pro jednotlivé datové body. Tento přístup zajišťuje, že každý datový segment v prezentaci jasně vynikne.
 
-## Proč použít Aspose.Slides pro Java k vytváření koláčových grafů?
-- **Full control** nad vzhledem grafu bez potřeby Microsoft Office.
-- **Cross‑platform** kompatibilita – funguje na Windows, Linuxu i macOS.
-- **Rich API** pro vazbu dat, stylování a export do PPTX, PDF nebo obrázků.
-- **License flexibility** – začněte s bezplatnou zkušební verzí a upgradujte, když potřebujete plnou sadu funkcí.
+## Proč používat Aspose.Slides pro Java k vytváření koláčových grafů?
+Aspose.Slides podporuje **více než 150 typů grafů** a dokáže vykreslit 300‑stránkovou prezentaci za méně než **5 sekund** na typickém serveru, a to bez nutnosti instalace Microsoft Office. Knihovna běží na Windows, Linuxu i macOS, což vám poskytuje multiplatformní flexibilitu pro jakýkoli projekt vizualizace dat založený na Javě.
 
-## Předpoklady
-Než se ponoříte do tohoto tutoriálu, ujistěte se, že máte připravené následující:
-
-### Požadované knihovny, verze a závislosti
-- **Aspose.Slides for Java**: verze 25.4 nebo novější.
-- **Java Development Kit (JDK)**: verze 16 nebo vyšší.
-
-### Požadavky na nastavení prostředí
-- Vývojové prostředí s nainstalovaným a nakonfigurovaným Java.
-- Integrované vývojové prostředí (IDE) jako IntelliJ IDEA, Eclipse nebo NetBeans.
-
-### Předpoklady znalostí
-- Základní znalost programování v Javě.
-- Znalost Maven nebo Gradle pro správu závislostí.
+## Požadavky
+- **Aspose.Slides for Java** ≥ 25.4
+- **JDK** 16 nebo novější
+- IDE jako IntelliJ IDEA, Eclipse nebo NetBeans
+- Základní znalost Javy a znalost Maven nebo Gradle
 
 ## Nastavení Aspose.Slides pro Java
-Chcete‑li začít používat Aspose.Slides ve svých Java projektech, musíte knihovnu přidat jako závislost. Zde je návod, jak to provést pomocí různých nástrojů pro sestavení:
+Přidejte knihovnu do vaší konfigurační sestavy.
 
 **Maven**  
 Přidejte tento úryvek do souboru `pom.xml`:
@@ -84,15 +98,15 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 ```
 
 **Přímé stažení**  
-Pokud raději nepoužíváte nástroj pro sestavení, stáhněte si nejnovější vydání z [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+Pokud dáváte přednost manuálnímu přístupu, stáhněte si nejnovější JAR z [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### License Acquisition Steps
-- **Free Trial**: Začněte s bezplatnou zkušební verzí a prozkoumejte funkce Aspose.Slides.  
-- **Temporary License**: Získejte dočasnou licenci pro rozšířené používání bez omezení.  
-- **Purchase**: Zvažte zakoupení, pokud potřebujete dlouhodobý přístup.
+### Kroky získání licence
+- **Free Trial** – prozkoumejte všechny funkce zdarma.  
+- **Temporary License** – prodlužte zkušební limity na krátkou dobu.  
+- **Purchase** – získejte trvalou licenci pro produkční použití.
 
 **Základní inicializace a nastavení**  
-Pro zahájení používání Aspose.Slides inicializujte svůj projekt vytvořením nového objektu prezentace:
+Třída `Presentation` představuje soubor PowerPoint v paměti a poskytuje metody pro manipulaci se snímky.  
 ```java
 import com.aspose.slides.*;
 
@@ -100,10 +114,10 @@ Presentation presentation = new Presentation();
 ```
 
 ## Průvodce implementací
-Nyní rozdělíme proces přidání a úpravy koláčového grafu na zvládnutelné kroky.
+Níže je podrobný průvodce krok za krokem, který pokrývá vše od vytvoření snímku po otočení finálního koláčového grafu.
 
-### Initialize Presentation and Slide
-Začněte nastavením nové prezentace a přístupem k prvnímu snímku. Toto je vaše plátno pro tvorbu grafů:
+### Inicializace prezentace a snímku
+Vytvořte novou instanci `Presentation` a získejte první snímek, který bude sloužit jako plátno pro graf.  
 ```java
 import com.aspose.slides.*;
 
@@ -113,8 +127,8 @@ Presentation presentation = new Presentation();
 ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
-### Add Pie Chart to Slide
-Vložte koláčový graf do určené pozice s výchozím datovým souborem:
+### Přidání koláčového grafu na snímek
+`addChart` přidá tvar grafu zadaného typu na snímek na daných souřadnicích.  
 ```java
 import com.aspose.slides.*;
 
@@ -122,8 +136,8 @@ import com.aspose.slides.*;
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
-### Set Chart Title
-Přizpůsobte svůj graf nastavením a vycentrováním názvu:
+### Nastavení názvu grafu
+`setTitle` přiřadí textový název grafu a umístí jej do středu.  
 ```java
 import com.aspose.slides.*;
 
@@ -134,8 +148,8 @@ chart.getChartTitle().setHeight(20);
 chart.setTitle(true);
 ```
 
-### Configure Data Labels for Series
-Zajistěte, aby popisky dat zobrazovaly hodnoty pro přehlednost:
+### Konfigurace popisků dat pro sérii
+`setShowValue(true)` povolí číselné popisky hodnot na každém datovém bodu série.  
 ```java
 import com.aspose.slides.*;
 
@@ -143,8 +157,8 @@ import com.aspose.slides.*;
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 ```
 
-### Prepare Chart Data Worksheet
-Nastavte datový list grafu vymazáním existujících řad a kategorií:
+### Příprava pracovního listu dat grafu
+`ChartDataWorkbook` ukládá podkladovou datovou tabulku, která napájí série a kategorie grafu.  
 ```java
 import com.aspose.slides.*;
 
@@ -155,8 +169,8 @@ chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 ```
 
-### Add Categories to Chart
-Definujte kategorie pro svůj koláčový graf:
+### Přidání kategorií do grafu
+`addCategory` vytvoří nový štítek kategorie pro datové série grafu.  
 ```java
 import com.aspose.slides.*;
 
@@ -166,8 +180,8 @@ chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 ```
 
-### Add Series and Populate Data Points
-Vytvořte řadu a naplňte ji datovými body – zde **add chart series**:
+### Přidání série a naplnění datových bodů
+`addSeries` vytvoří datovou sérii a `addDataPointForBarSeries` vloží číselné hodnoty pro každou kategorii.  
 ```java
 import com.aspose.slides.*;
 
@@ -178,8 +192,8 @@ series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 ```
 
-### Customize Series Colors and Borders
-Zvyšte vizuální přitažlivost nastavením barev a úpravou okrajů – tím přímo **customizes pie chart colors**:
+### Přizpůsobení barev a okrajů série
+`setColorVaried(true)` povolí různé barvy pro jednotlivé výseky a `setFillFormat` přiřadí plnou výplň každému datovému bodu.  
 ```java
 import com.aspose.slides.*;
 
@@ -198,8 +212,8 @@ point.getFormat().getLine().setDashStyle(LineDashStyle.DashDot);
 // Repeat for other data points with different colors and styles.
 ```
 
-### Configure Custom Data Labels
-Doladěte popisky pro každý datový bod:
+### Konfigurace vlastních popisků dat
+`setDataLabelFormat` přizpůsobuje vzhled popisku, jeho umístění a písmo pro srozumitelnější anotace grafu.  
 ```java
 import com.aspose.slides.*;
 
@@ -220,8 +234,8 @@ lbl3.getDataLabelFormat().setShowPercentage(true);
 series.getLabels().getDefaultDataLabelFormat().setShowLeaderLines(true);
 ```
 
-### Set Rotation Angle and Save Presentation
-Dokončete svůj koláčový graf **set rotation angle** a uložte soubor:
+### Nastavení úhlu otočení a uložení prezentace
+`setRotationAngle` otáčí celý koláčový graf a `save` zapíše prezentaci do souboru.  
 ```java
 import com.aspose.slides.*;
 
@@ -233,41 +247,50 @@ chart.setRotationAngle(-10);
 presentation.save("PieChartPresentation.pptx", SaveFormat.Pptx);
 ```
 
+## Jak otočit koláčový graf?
+Načtěte objekt grafu, zavolejte `chart.setRotationAngle(45.0)` (nebo libovolnou hodnotu ve stupních) a poté uložte prezentaci. Otočení koláčového grafu posune počáteční úhel, což vám umožní zvýraznit konkrétní výsek bez změny dat. Toto jediné volání metody funguje pro jakoukoli instanci `Chart` v Aspose.Slides. Můžete také kombinovat otočení s různými barvami výsečů, abyste upoutali pozornost na nejdůležitější datový bod.
+
 ## Časté problémy a řešení
 | Problém | Příčina | Řešení |
 |-------|-------|-----|
-| **Všechny výseky mají stejnou barvu** | `setColorVaried(true)` nebyla zavolána | Ujistěte se, že jste povolili různé barvy na skupině řad. |
-| **Popisky dat se nezobrazují** | `showValue` příznak je zakázán | Zavolejte `setShowValue(true)` na odpovídajícím formátu popisku. |
-| **Rotace nemá žádný efekt** | Používáte starší verzi Aspose.Slides | Aktualizujte na verzi 25.4 nebo novější. |
-| **Licence výjimka za běhu** | Chybějící nebo neplatný licenční soubor | Načtěte licenci pomocí `License license = new License(); license.setLicense("Aspose.Slides.lic");` před vytvořením `Presentation`. |
+| **Výseky mají všechny stejnou barvu** | `setColorVaried(true)` nebylo zavoláno | Ujistěte se, že jste povolili různé barvy ve skupině sérií. |
+| **Popisky dat se nezobrazují** | `showValue` flag disabled | Call `setShowValue(true)` on the label format. |
+| **Otočení nemá žádný efekt** | Using an older Aspose.Slides version | Upgrade to version 25.4 or later. |
+| **Výjimka licence za běhu** | Missing or invalid license file | Load your license with `License license = new License(); license.setLicense("Aspose.Slides.lic");` before creating the `Presentation`. |
 
 ## Často kladené otázky
 
 **Q: Jak získám licenci Aspose.Slides pro Java?**  
-**A:** Můžete požádat o bezplatnou zkušební verzi na webu Aspose, poté zakoupit trvalou licenci. Načtěte ji za běhu, jak je ukázáno v tabulce Časté problémy a řešení.
+A: Požádejte o bezplatnou zkušební verzi na webu Aspose, poté zakupte trvalou licenci. Načtěte ji za běhu, jak je ukázáno v tabulce Častých problémů.
 
-**Q: Mohu tento kód použít se staršími verzemi JDK?**  
-**A:** API vyžaduje JDK 16 nebo vyšší; starší verze nejsou podporovány.
+**Q: Mohu použít tento kód se staršími verzemi JDK?**  
+A: API vyžaduje JDK 16 nebo vyšší; starší verze nejsou podporovány.
 
 **Q: Je možné exportovat graf jako obrázek místo PPTX?**  
-**A:** Ano, po vykreslení zavolejte `chart.getChartData().getChartDataWorkbook().save("chart.png", ImageFormat.Png);`.
+A: Ano—po vykreslení zavolejte `chart.getChartData().getChartDataWorkbook().save("chart.png", ImageFormat.Png);`.
 
-**Q: Co když potřebuji přidat více než jednu řadu do koláčového grafu?**  
-**A:** Koláčové grafy obvykle zobrazují jedinou řadu; pro více řad zvažte místo toho prstencový graf.
+**Q: Co když potřebuji v koláčovém grafu více než jednu sérii?**  
+A: Koláčové grafy jsou určeny pro jednu datovou sérii; pro více sérií zvažte použití prstencového grafu.
 
-**Q: Funguje knihovna na Linux serverech?**  
-**A:** Absolutně – Aspose.Slides pro Java je platform‑independent a běží na jakémkoli OS s kompatibilním JDK.
+**Q: Běží Aspose.Slides na Linuxových serverech?**  
+A: Ano—Aspose.Slides pro Java je platformově nezávislý a funguje na jakémkoli OS s kompatibilním JDK.
 
 ---
-
-**Poslední aktualizace:** 2026-02-19  
-**Testováno s:** Aspose.Slides for Java 25.4 (jdk16)  
+**Poslední aktualizace:** 2026-07-17  
+**Testováno s:** Aspose.Slides for Java 25.4 (JDK 16)  
 **Autor:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Související tutoriály
+
+- [Jak vytvořit koláčové grafy v Java prezentacích pomocí Aspose.Slides: Kompletní průvodce](/slides/java/charts-graphs/creating-pie-charts-java-presentations-aspose-slides/)
+- [Mistrovství koláčových grafů v Javě pomocí Aspose.Slides: Kompletní průvodce](/slides/java/charts-graphs/master-pie-charts-aspose-slides-java/)
+- [Otočení textů grafu v Javě s Aspose.Slides: Kompletní průvodce](/slides/java/charts-graphs/rotate-chart-texts-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

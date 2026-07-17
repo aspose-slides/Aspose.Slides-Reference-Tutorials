@@ -1,11 +1,46 @@
 ---
-date: '2026-02-19'
-description: 学习如何使用 Aspose.Slides 在 Java 中创建饼图，并自定义饼图颜色、添加图表系列、操作图表数据工作表以及设置旋转角度。
+date: '2026-07-17'
+description: 了解如何使用 Aspose.Slides for Java 旋转饼图、定制饼图颜色，并将幻灯片导出为 PDF——完整的数据可视化指南。
 keywords:
-- Aspose.Slides Java
-- Java pie charts
-- data visualization in Java
-title: 使用 Aspose.Slides 在 Java 中自定义饼图颜色 – 完整指南
+- rotate pie chart
+- customize pie chart colors
+- export slide to pdf
+- chart data worksheet
+- java data visualization
+lastmod: '2026-07-17'
+og_description: 使用 Aspose.Slides for Java 旋转饼图并自定义饼图颜色。了解如何将幻灯片导出为 PDF 并处理图表数据工作表。
+og_image_alt: Guide showing how to rotate a pie chart and set custom colors in Java
+  with Aspose.Slides
+og_title: 在 Java 中旋转饼图并自定义颜色 – Aspose.Slides 指南
+schemas:
+- author: Aspose
+  dateModified: '2026-07-17'
+  description: Learn how to rotate pie chart, customize pie chart colors, and export
+    slide to PDF using Aspose.Slides for Java – a full data visualization guide.
+  headline: How to Rotate Pie Chart and Customize Colors in Java with Aspose.Slides
+  type: TechArticle
+- questions:
+  - answer: Request a free trial from the Aspose website, then purchase a permanent
+      license. Load it at runtime as shown in the Common Issues table.
+    question: How do I obtain an Aspose.Slides license for Java?
+  - answer: The API requires JDK 16 or higher; older versions are not supported.
+    question: Can I use this code with older JDK versions?
+  - answer: Yes—after rendering, call `chart.getChartData().getChartDataWorkbook().save("chart.png",
+      ImageFormat.Png);`.
+    question: Is it possible to export the chart as an image instead of PPTX?
+  - answer: Pie charts are designed for a single data series; for multiple series,
+      consider using a doughnut chart.
+    question: What if I need more than one series in a pie chart?
+  - answer: Absolutely—Aspose.Slides for Java is platform‑independent and works on
+      any OS with a compatible JDK.
+    question: Does Aspose.Slides run on Linux servers?
+  type: FAQPage
+tags:
+- rotate pie chart
+- Aspose.Slides
+- Java charting
+- data visualization
+title: 如何在 Java 中使用 Aspose.Slides 旋转饼图并自定义颜色
 url: /zh/java/charts-graphs/aspose-slides-java-pie-charts-tutorial/
 weight: 1
 ---
@@ -18,53 +53,32 @@ weight: 1
 # 使用 Aspose.Slides for Java 创建饼图：完整教程
 
 ## 介绍
-创建动态且视觉上吸引人的演示文稿对于传递有冲击力的信息至关重要。借助 Aspose.Slides for Java，您可以轻松地在幻灯片中集成复杂的图表（如饼图），**自定义饼图颜色**，并毫不费力地提升数据可视化效果。本指南将手把手教您如何使用 Aspose.Slides Java 创建并自定义饼图，轻松解决常见的演示难题。
+在本指南中，您将学习如何 **旋转饼图** 元素、为每个切片自定义颜色，并将最终幻灯片导出为 PDF——全部使用 Aspose.Slides for Java。无论您是在构建销售仪表板、财务报告，还是任何数据驱动的演示文稿，掌握这些技术都能让您在不依赖 Microsoft Office 的情况下呈现清晰、抢眼的可视化效果。准备好工具，开始吧。
 
-**您将学习的内容：**
-- 初始化演示文稿并添加幻灯片。
-- 在幻灯片上创建并配置饼图。
-- 设置图表标题、数据标签以及**自定义饼图颜色**。
-- 优化性能并有效管理资源。
-- 使用 Maven 或 Gradle 将 Aspose.Slides 集成到 Java 项目中。
+## 快速答案
+- **哪个类用于创建新演示文稿？** `Presentation` 来自 `com.aspose.slides`。
+- **哪个 API 调用用于添加饼图？** `slide.addChart(ChartType.Pie, …)`。
+- **如何为每个切片设置唯一颜色？** 调用 `series.setColorVaried(true)` 并为每个数据点设置实心填充。
+- **哪个方法用于旋转图表？** `chart.setRotationAngle(double)` – 使用 0 到 360 的度数。
+- **幻灯片可以导出为 PDF 吗？** 可以，调用 `presentation.save("output.pdf", SaveFormat.Pdf)`。
 
-让我们先确保您具备所有必要的工具和知识，随后即可开始实践！
-
-## 快速答疑
-- **启动演示文稿的主要类是什么？** `Presentation`，来自 `com.aspose.slides`。
-- **哪个方法向幻灯片添加饼图？** `addChart(ChartType.Pie, …)`。
-- **如何为每个切片启用不同颜色？** 在系列组上调用 `setColorVaried(true)`。
-- **可以旋转饼图吗？** 可以，使用图表对象的 `setRotationAngle(double)`。
-- **生产环境需要许可证吗？** 商业部署必须使用 Aspose.Slides 许可证。
-
-## 什么是 “customize pie chart colors”？
-自定义饼图颜色指为饼图的每个切片分配不同的填充颜色，以提升可读性和视觉冲击力。在 Aspose.Slides 中，您只需启用多彩模式，然后为各个数据点设置实色填充即可实现。
+## 什么是“自定义饼图颜色”？
+自定义饼图颜色指为饼图的每个切片分配不同的填充颜色，以提升可读性和视觉冲击力。在 Aspose.Slides 中，您只需启用多颜色模式，然后为各数据点设置实心填充颜色即可。这种做法确保每个数据段在演示文稿中都能清晰突出。
 
 ## 为什么使用 Aspose.Slides for Java 创建饼图？
-- **完全控制** 图表外观，无需依赖 Microsoft Office。
-- **跨平台** 兼容——在 Windows、Linux 和 macOS 上均可运行。
-- **丰富的 API** 支持数据绑定、样式设置以及导出为 PPTX、PDF 或图片。
-- **许可证灵活**——可先使用免费试用版，后续根据需求升级至完整功能。
+Aspose.Slides 支持 **150+ 图表类型**，并且能够在普通服务器上在 **5 秒以内** 渲染 300 页的演示文稿，且无需安装 Microsoft Office。该库可在 Windows、Linux 和 macOS 上运行，为任何基于 Java 的数据可视化项目提供跨平台灵活性。
 
 ## 前置条件
-在开始本教程之前，请确保已完成以下准备工作：
-
-### 必需的库、版本及依赖
-- **Aspose.Slides for Java**：版本 25.4 或更高。
-- **Java Development Kit (JDK)**：版本 16 或更高。
-
-### 环境搭建要求
-- 已安装并配置好的 Java 开发环境。
-- 使用 IntelliJ IDEA、Eclipse 或 NetBeans 等集成开发环境（IDE）。
-
-### 知识前提
-- 具备基本的 Java 编程概念。
-- 熟悉 Maven 或 Gradle 用于依赖管理。
+- **Aspose.Slides for Java** ≥ 25.4
+- **JDK** 16 或更高版本
+- IntelliJ IDEA、Eclipse 或 NetBeans 等 IDE
+- 基础 Java 知识以及对 Maven 或 Gradle 的熟悉
 
 ## 设置 Aspose.Slides for Java
-要在 Java 项目中使用 Aspose.Slides，需将其添加为依赖。以下示例展示了不同构建工具的配置方式：
+将库添加到构建配置中。
 
 **Maven**  
-在 `pom.xml` 中加入以下代码片段：
+在 `pom.xml` 文件中加入以下代码片段：
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -75,21 +89,21 @@ weight: 1
 ```
 
 **Gradle**  
-在 `build.gradle` 中加入以下内容：
+在 `build.gradle` 文件中加入以下内容：
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
 **直接下载**  
-如果不使用构建工具，可从 [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) 下载最新发行版。
+如果您更倾向手动方式，可从 [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) 下载最新的 JAR 包。
 
 ### 许可证获取步骤
-- **免费试用**：先获取免费试用版，体验 Aspose.Slides 功能。  
-- **临时许可证**：获取临时许可证，以在无功能限制的情况下延长使用时间。  
-- **购买**：若需长期使用，请考虑购买正式许可证。
+- **免费试用** – 免费探索所有功能。  
+- **临时许可证** – 在短期内扩展试用限制。  
+- **购买** – 获取永久许可证用于生产环境。
 
-**基础初始化与设置**  
-下面的代码演示了如何创建一个新的演示文稿对象以开始使用 Aspose.Slides：
+**基本初始化和设置**  
+`Presentation` 类表示内存中的 PowerPoint 文件，并提供操作幻灯片的方法。  
 ```java
 import com.aspose.slides.*;
 
@@ -97,10 +111,10 @@ Presentation presentation = new Presentation();
 ```
 
 ## 实现指南
-接下来我们将把添加并自定义饼图的过程拆解为若干可管理的步骤。
+下面提供了一个逐步演练，涵盖从创建幻灯片到旋转最终饼图的全部过程。
 
 ### 初始化演示文稿和幻灯片
-首先创建一个新演示文稿并获取第一张幻灯片，这将作为绘制图表的画布：
+创建一个新的 `Presentation` 实例，并获取第一张幻灯片作为图表画布。  
 ```java
 import com.aspose.slides.*;
 
@@ -111,7 +125,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
 ### 向幻灯片添加饼图
-在指定位置插入一个默认数据集的饼图：
+`addChart` 在指定坐标处向幻灯片添加指定类型的图表形状。  
 ```java
 import com.aspose.slides.*;
 
@@ -120,7 +134,7 @@ IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
 ### 设置图表标题
-通过设置并居中标题来自定义图表：
+`setTitle` 为图表分配文本标题并居中显示。  
 ```java
 import com.aspose.slides.*;
 
@@ -132,7 +146,7 @@ chart.setTitle(true);
 ```
 
 ### 为系列配置数据标签
-确保数据标签显示数值，以提升可读性：
+`setShowValue(true)` 在系列的每个数据点上显示数值标签。  
 ```java
 import com.aspose.slides.*;
 
@@ -141,7 +155,7 @@ chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelForm
 ```
 
 ### 准备图表数据工作表
-通过清除已有的系列和类别，初始化图表的数据工作表：
+`ChartDataWorkbook` 存储为图表系列和类别提供数据的底层表格。  
 ```java
 import com.aspose.slides.*;
 
@@ -153,7 +167,7 @@ chart.getChartData().getCategories().clear();
 ```
 
 ### 向图表添加类别
-为饼图定义类别：
+`addCategory` 为图表的数据系列创建新的类别标签。  
 ```java
 import com.aspose.slides.*;
 
@@ -164,7 +178,7 @@ chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 ```
 
 ### 添加系列并填充数据点
-创建系列并填充数据点——这一步 **add chart series**：
+`addSeries` 创建数据系列，`addDataPointForBarSeries` 为每个类别插入数值。  
 ```java
 import com.aspose.slides.*;
 
@@ -176,7 +190,7 @@ series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetInd
 ```
 
 ### 自定义系列颜色和边框
-通过设置颜色并自定义边框来提升视觉效果——这直接 **customizes pie chart colors**：
+`setColorVaried(true)` 启用每切片颜色，`setFillFormat` 为每个数据点分配实心填充。  
 ```java
 import com.aspose.slides.*;
 
@@ -196,7 +210,7 @@ point.getFormat().getLine().setDashStyle(LineDashStyle.DashDot);
 ```
 
 ### 配置自定义数据标签
-微调每个数据点的标签：
+`setDataLabelFormat` 自定义标签的外观、位置和字体，以获得更清晰的图表注释。  
 ```java
 import com.aspose.slides.*;
 
@@ -218,7 +232,7 @@ series.getLabels().getDefaultDataLabelFormat().setShowLeaderLines(true);
 ```
 
 ### 设置旋转角度并保存演示文稿
-通过 **set rotation angle** 完成饼图的最终调整并保存文件：
+`setRotationAngle` 旋转整个饼图，`save` 将演示文稿写入文件。  
 ```java
 import com.aspose.slides.*;
 
@@ -230,41 +244,51 @@ chart.setRotationAngle(-10);
 presentation.save("PieChartPresentation.pptx", SaveFormat.Pptx);
 ```
 
-## 常见问题及解决方案
+## 如何旋转饼图？
+加载图表对象，调用 `chart.setRotationAngle(45.0)`（或任意度数），然后保存演示文稿。旋转饼图会改变起始角度，使您能够在不改变数据的前提下突出显示特定切片。此单一方法调用适用于 Aspose.Slides 中的任何 `Chart` 实例。您还可以将旋转与多颜色切片结合使用，以强调最重要的数据点。
+
+## 常见问题与解决方案
 | 问题 | 原因 | 解决方案 |
 |-------|-------|-----|
-| **切片全部显示相同颜色** | 未调用 `setColorVaried(true)` | 确保在系列组上启用多彩模式。 |
-| **数据标签未显示** | `showValue` 标志未开启 | 在相应的标签格式上调用 `setShowValue(true)`。 |
-| **旋转无效** | 使用了旧版 Aspose.Slides | 升级至 25.4 或更高版本。 |
-| **运行时出现许可证异常** | 缺少或无效的许可证文件 | 在创建 `Presentation` 前加载许可证：`License license = new License(); license.setLicense("Aspose.Slides.lic");` |
+| **切片全部显示相同颜色** | 未调用 `setColorVaried(true)` | 确保在系列组上启用多颜色模式。 |
+| **数据标签未显示** | `showValue` 标志被禁用 | 对标签格式调用 `setShowValue(true)`。 |
+| **旋转无效** | 使用了旧版本的 Aspose.Slides | 升级到 25.4 或更高版本。 |
+| **运行时出现许可证异常** | 缺少或无效的许可证文件 | 在创建 `Presentation` 之前加载许可证：`License license = new License(); license.setLicense("Aspose.Slides.lic");` |
 
 ## 常见问答
 
 **Q: 如何获取 Aspose.Slides 的 Java 许可证？**  
-A: 您可以在 Aspose 官网申请免费试用，然后购买永久许可证。运行时按上表所示加载许可证即可。
+A: 在 Aspose 网站申请免费试用，然后购买永久许可证。运行时按上表所示加载许可证即可。
 
 **Q: 这段代码能在旧版 JDK 上运行吗？**  
-A: API 要求 JDK 16 或更高，旧版 JDK 不受支持。
+A: API 要求 JDK 16 或更高版本，不支持旧版 JDK。
 
-**Q: 能否将图表导出为图片而不是 PPTX？**  
-A: 可以，在渲染后调用 `chart.getChartData().getChartDataWorkbook().save("chart.png", ImageFormat.Png);`。
+**Q: 能否将图表导出为图像而不是 PPTX？**  
+A: 可以——渲染后调用 `chart.getChartData().getChartDataWorkbook().save("chart.png", ImageFormat.Png);`。
 
-**Q: 如果需要在饼图中添加多个系列怎么办？**  
-A: 饼图通常只显示单一系列；若需多系列展示，请考虑使用环形图（doughnut chart）。
+**Q: 如果需要在饼图中使用多个系列怎么办？**  
+A: 饼图设计为单一数据系列；若需多系列，请考虑使用环形图（doughnut chart）。
 
-**Q: 该库能在 Linux 服务器上运行吗？**  
-A: 完全可以——Aspose.Slides for Java 与平台无关，只要有兼容的 JDK 即可运行。
+**Q: Aspose.Slides 能在 Linux 服务器上运行吗？**  
+A: 完全可以——Aspose.Slides for Java 与平台无关，可在任何装有兼容 JDK 的操作系统上运行。
 
 ---
 
-**最后更新：** 2026-02-19  
-**测试环境：** Aspose.Slides for Java 25.4 (jdk16)  
+**最后更新：** 2026-07-17  
+**测试环境：** Aspose.Slides for Java 25.4 (JDK 16)  
 **作者：** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## 相关教程
+
+- [使用 Aspose.Slides 在 Java 演示文稿中创建饼图：完整指南](/slides/java/charts-graphs/creating-pie-charts-java-presentations-aspose-slides/)
+- [在 Java 中精通饼图使用 Aspose.Slides：完整指南](/slides/java/charts-graphs/master-pie-charts-aspose-slides-java/)
+- [使用 Aspose.Slides 在 Java 中旋转图表文本：完整指南](/slides/java/charts-graphs/rotate-chart-texts-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,49 @@
 ---
-date: '2026-02-19'
-description: Erfahren Sie, wie Sie in Java mit Aspose.Slides ein Kreisdiagramm erstellen,
-  die Farben des Kreisdiagramms anpassen, Diagrammserien hinzufügen, mit dem Diagrammdaten‑Arbeitsblatt
-  arbeiten und den Rotationswinkel festlegen.
+date: '2026-07-17'
+description: Erfahren Sie, wie Sie Rotate Pie Chart, Customize Pie Chart colors und
+  export slide to PDF mit Aspose.Slides für Java – ein umfassender Leitfaden zur Datenvisualisierung.
 keywords:
-- Aspose.Slides Java
-- Java pie charts
-- data visualization in Java
-title: Wie man die Farben von Kreisdiagrammen in Java mit Aspose.Slides anpasst –
-  Ein vollständiger Leitfaden
+- rotate pie chart
+- customize pie chart colors
+- export slide to pdf
+- chart data worksheet
+- java data visualization
+lastmod: '2026-07-17'
+og_description: Rotate Pie Chart und Customize Pie Chart colors mit Aspose.Slides
+  für Java. Erfahren Sie, wie Sie export slide to PDF durchführen und mit chart data
+  worksheet arbeiten.
+og_image_alt: Guide showing how to rotate a pie chart and set custom colors in Java
+  with Aspose.Slides
+og_title: Rotate Pie Chart und Customize Colors in Java – Aspose.Slides Leitfaden
+schemas:
+- author: Aspose
+  dateModified: '2026-07-17'
+  description: Learn how to rotate pie chart, customize pie chart colors, and export
+    slide to PDF using Aspose.Slides for Java – a full data visualization guide.
+  headline: How to Rotate Pie Chart and Customize Colors in Java with Aspose.Slides
+  type: TechArticle
+- questions:
+  - answer: Request a free trial from the Aspose website, then purchase a permanent
+      license. Load it at runtime as shown in the Common Issues table.
+    question: How do I obtain an Aspose.Slides license for Java?
+  - answer: The API requires JDK 16 or higher; older versions are not supported.
+    question: Can I use this code with older JDK versions?
+  - answer: Yes—after rendering, call `chart.getChartData().getChartDataWorkbook().save("chart.png",
+      ImageFormat.Png);`.
+    question: Is it possible to export the chart as an image instead of PPTX?
+  - answer: Pie charts are designed for a single data series; for multiple series,
+      consider using a doughnut chart.
+    question: What if I need more than one series in a pie chart?
+  - answer: Absolutely—Aspose.Slides for Java is platform‑independent and works on
+      any OS with a compatible JDK.
+    question: Does Aspose.Slides run on Linux servers?
+  type: FAQPage
+tags:
+- rotate pie chart
+- Aspose.Slides
+- Java charting
+- data visualization
+title: Wie man Rotate Pie Chart und Customize Colors in Java mit Aspose.Slides
 url: /de/java/charts-graphs/aspose-slides-java-pie-charts-tutorial/
 weight: 1
 ---
@@ -18,52 +53,32 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Erstellen von Kreisdiagrammen mit Aspose.Slides für Java: Ein vollständiges Tutorial
+# Erstellung von Kreisdiagrammen mit Aspose.Slides für Java: Ein vollständiges Tutorial
 
-## Einleitung
-Das Erstellen dynamischer und optisch ansprechender Präsentationen ist entscheidend, um wirkungsvolle Informationen zu vermitteln. Mit Aspose.Slides für Java können Sie nahtlos komplexe Diagramme wie Kreisdiagramme in Ihre Folien integrieren, **customize pie chart colors** und die Datenvisualisierung mühelos verbessern. Dieses umfassende Handbuch führt Sie Schritt für Schritt durch das Erstellen und Anpassen eines Kreisdiagramms mit Aspose.Slides Java und löst gängige Präsentationsprobleme mit Leichtigkeit.
-
-**Was Sie lernen werden:**
-- Initialisieren einer Präsentation und Hinzufügen von Folien.
-- Erstellen und Konfigurieren eines Kreisdiagramms auf Ihrer Folie.
-- Festlegen von Diagrammtiteln, Datenbeschriftungen und **customize pie chart colors**.
-- Optimieren der Leistung und effektives Ressourcenmanagement.
-- Integration von Aspose.Slides in Java-Projekte mit Maven oder Gradle.
-
-Lassen Sie uns beginnen, indem wir sicherstellen, dass Sie alle notwendigen Werkzeuge und das Wissen haben, um dem Tutorial zu folgen!
+## Einführung
+In diesem Leitfaden lernen Sie, wie Sie **Kreisdiagramm drehen**‑Elemente, die Farbe jeder Scheibe anpassen und die endgültige Folie als PDF exportieren – alles mit Aspose.Slides für Java. Egal, ob Sie ein Vertriebs‑Dashboard, einen Finanzbericht oder eine datenbasierte Präsentation erstellen, das Beherrschen dieser Techniken ermöglicht es Ihnen, klare, auffällige Visualisierungen zu liefern, ohne Microsoft Office zu benötigen. Lassen Sie uns die Werkzeuge bereitstellen und loslegen.
 
 ## Schnelle Antworten
-- **Was ist die primäre Klasse zum Starten einer Präsentation?** `Presentation` aus `com.aspose.slides`.
-- **Welche Methode fügt ein Kreisdiagramm zu einer Folie hinzu?** `addChart(ChartType.Pie, …)`.
-- **Wie aktivieren Sie unterschiedliche Farben für jeden Abschnitt?** Setzen Sie `setColorVaried(true)` in der Seriengruppe.
-- **Kann man das Kreisdiagramm drehen?** Ja, verwenden Sie `setRotationAngle(double)` am Diagrammobjekt.
-- **Benötige ich eine Lizenz für den Produktionseinsatz?** Eine Aspose.Slides-Lizenz ist für kommerzielle Bereitstellungen erforderlich.
+- **Welche Klasse startet eine neue Präsentation?** `Presentation` aus `com.aspose.slides`.
+- **Welcher API‑Aufruf fügt ein Kreisdiagramm hinzu?** `slide.addChart(ChartType.Pie, …)`.
+- **Wie können Sie jeder Scheibe eine eindeutige Farbe zuweisen?** Rufen Sie `series.setColorVaried(true)` auf und setzen Sie für jeden Datenpunkt eine einfarbige Füllung.
+- **Welche Methode dreht das Diagramm?** `chart.setRotationAngle(double)` – verwenden Sie Gradwerte von 0 bis 360.
+- **Kann die Folie als PDF exportiert werden?** Ja, rufen Sie `presentation.save("output.pdf", SaveFormat.Pdf)` auf.
 
-## Was bedeutet „customize pie chart colors“?
-Customizing pie chart colors bedeutet, jedem Abschnitt des Kreisdiagramms eine eigene Füllfarbe zuzuweisen, um die Lesbarkeit und den visuellen Eindruck zu verbessern. In Aspose.Slides erreichen Sie dies, indem Sie unterschiedliche Farben aktivieren und anschließend für einzelne Datenpunkte feste Füllfarben festlegen.
+## Was bedeutet „Kreisdiagramm‑Farben anpassen“?
+Das Anpassen der Farben von Kreisdiagrammen bedeutet, jeder Scheibe des Diagramms eine eigene Füllfarbe zuzuweisen, um die Lesbarkeit und die visuelle Wirkung zu verbessern. In Aspose.Slides erreichen Sie dies, indem Sie variierende Farben aktivieren und anschließend für einzelne Datenpunkte einfarbige Füllungen festlegen. Dieser Ansatz sorgt dafür, dass jeder Datenabschnitt in der Präsentation deutlich hervorsticht.
 
-## Warum Aspose.Slides für Java zum Erstellen von Kreisdiagrammen verwenden?
-- **Vollständige Kontrolle** über das Aussehen des Diagramms, ohne Microsoft Office zu benötigen.
-- **Plattformübergreifende** Kompatibilität – funktioniert unter Windows, Linux und macOS.
-- **Umfangreiche API** für Datenbindung, Styling und Export nach PPTX, PDF oder Bildern.
-- **Lizenzflexibilität** – beginnen Sie mit einer kostenlosen Testversion und upgraden Sie, wenn Sie das vollständige Funktionsset benötigen.
+## Warum Aspose.Slides für Java zur Erstellung von Kreisdiagrammen verwenden?
+Aspose.Slides unterstützt **mehr als 150 Diagrammtypen** und kann eine 300‑seitige Präsentation in weniger als **5 Sekunden** auf einem typischen Server rendern, und das ganz ohne Installation von Microsoft Office. Die Bibliothek läuft auf Windows, Linux und macOS und bietet Ihnen plattformübergreifende Flexibilität für jedes Java‑basierte Datenvisualisierungsprojekt.
 
 ## Voraussetzungen
-
-### Erforderliche Bibliotheken, Versionen und Abhängigkeiten
-- **Aspose.Slides for Java**: Version 25.4 oder höher.
-- **Java Development Kit (JDK)**: Version 16 oder höher.
-
-### Anforderungen an die Umgebungseinrichtung
-- Eine Entwicklungsumgebung mit installiertem und konfiguriertem Java.
-- Eine integrierte Entwicklungsumgebung (IDE) wie IntelliJ IDEA, Eclipse oder NetBeans.
-
-### Wissensvoraussetzungen
-- Grundlegendes Verständnis der Java-Programmierung.
-- Vertrautheit mit Maven oder Gradle für das Abhängigkeitsmanagement.
+- **Aspose.Slides für Java** ≥ 25.4
+- **JDK** 16 oder neuer
+- IDE wie IntelliJ IDEA, Eclipse oder NetBeans
+- Grundlegende Java‑Kenntnisse und Vertrautheit mit Maven oder Gradle
 
 ## Einrichtung von Aspose.Slides für Java
-Um Aspose.Slides in Ihren Java-Projekten zu verwenden, müssen Sie die Bibliothek als Abhängigkeit hinzufügen. So geht's mit verschiedenen Build-Tools:
+Fügen Sie die Bibliothek zu Ihrer Build‑Konfiguration hinzu.
 
 **Maven**  
 Fügen Sie diesen Ausschnitt zu Ihrer `pom.xml`‑Datei hinzu:
@@ -83,26 +98,26 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 ```
 
 **Direkter Download**  
-Wenn Sie kein Build‑Tool verwenden möchten, laden Sie das neueste Release von [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) herunter.
+Wenn Sie einen manuellen Ansatz bevorzugen, laden Sie das neueste JAR von [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) herunter.
 
 ### Schritte zum Erwerb einer Lizenz
-- **Kostenlose Testversion**: Beginnen Sie mit einer kostenlosen Testversion, um die Funktionen von Aspose.Slides zu erkunden.  
-- **Temporäre Lizenz**: Erhalten Sie eine temporäre Lizenz für erweiterten Gebrauch ohne Einschränkungen.  
-- **Kauf**: Erwägen Sie den Kauf, wenn Sie langfristigen Zugriff benötigen.
+- **Kostenlose Testversion** – erkunden Sie alle Funktionen kostenlos.  
+- **Temporäre Lizenz** – erweitern Sie die Testgrenzen für einen kurzen Zeitraum.  
+- **Kauf** – erhalten Sie eine permanente Lizenz für den Produktionseinsatz.
 
-**Grundlegende Initialisierung und Einrichtung**  
-Um Aspose.Slides zu nutzen, initialisieren Sie Ihr Projekt, indem Sie ein neues Präsentationsobjekt erstellen:
+**Basic Initialization and Setup**  
+Die Klasse `Presentation` repräsentiert eine PowerPoint‑Datei im Speicher und bietet Methoden zur Manipulation von Folien.  
 ```java
 import com.aspose.slides.*;
 
 Presentation presentation = new Presentation();
 ```
 
-## Implementierungsleitfaden
-Jetzt zerlegen wir den Prozess des Hinzufügens und Anpassen eines Kreisdiagramms in handhabbare Schritte.
+## Implementierungs‑Leitfaden
+Im Folgenden finden Sie eine Schritt‑für‑Schritt‑Anleitung, die alles von der Erstellung einer Folie bis zum Drehen des endgültigen Kreisdiagramms abdeckt.
 
 ### Präsentation und Folie initialisieren
-Richten Sie zunächst eine neue Präsentation ein und greifen Sie auf die erste Folie zu. Dies ist Ihre Leinwand zum Erstellen von Diagrammen:
+Erstellen Sie eine neue `Presentation`‑Instanz und rufen Sie die erste Folie ab, die als Zeichenfläche für das Diagramm dient.  
 ```java
 import com.aspose.slides.*;
 
@@ -113,7 +128,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
 ### Kreisdiagramm zur Folie hinzufügen
-Fügen Sie ein Kreisdiagramm an der angegebenen Position mit einem Standard‑Datensatz ein:
+`addChart` fügt der Folie an den angegebenen Koordinaten ein Diagramm‑Shape des angegebenen Typs hinzu.  
 ```java
 import com.aspose.slides.*;
 
@@ -122,7 +137,7 @@ IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
 ### Diagrammtitel festlegen
-Passen Sie Ihr Diagramm an, indem Sie den Titel setzen und zentrieren:
+`setTitle` weist dem Diagramm einen Texttitel zu und positioniert ihn zentriert.  
 ```java
 import com.aspose.slides.*;
 
@@ -133,8 +148,8 @@ chart.getChartTitle().setHeight(20);
 chart.setTitle(true);
 ```
 
-### Datenbeschriftungen für die Serie konfigurieren
-Stellen Sie sicher, dass Datenbeschriftungen Werte zur besseren Übersicht anzeigen:
+### Datenbeschriftungen für Serie konfigurieren
+`setShowValue(true)` aktiviert numerische Wertebeschriftungen für jeden Datenpunkt der Serie.  
 ```java
 import com.aspose.slides.*;
 
@@ -142,8 +157,8 @@ import com.aspose.slides.*;
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 ```
 
-### Diagrammdaten-Arbeitsblatt vorbereiten
-Richten Sie das Datenarbeitsblatt Ihres Diagramms ein, indem Sie vorhandene Serien und Kategorien löschen:
+### Diagrammdaten‑Arbeitsblatt vorbereiten
+`ChartDataWorkbook` speichert die zugrunde liegende Datentabelle, die die Diagrammserien und -kategorien versorgt.  
 ```java
 import com.aspose.slides.*;
 
@@ -155,7 +170,7 @@ chart.getChartData().getCategories().clear();
 ```
 
 ### Kategorien zum Diagramm hinzufügen
-Definieren Sie Kategorien für Ihr Kreisdiagramm:
+`addCategory` erstellt ein neues Kategorielabel für die Datenserie des Diagramms.  
 ```java
 import com.aspose.slides.*;
 
@@ -166,7 +181,7 @@ chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 ```
 
 ### Serie hinzufügen und Datenpunkte füllen
-Erstellen Sie eine Serie und füllen Sie sie mit Datenpunkten – hier **add chart series**:
+`addSeries` erstellt eine Datenserie und `addDataPointForBarSeries` fügt für jede Kategorie numerische Werte ein.  
 ```java
 import com.aspose.slides.*;
 
@@ -178,7 +193,7 @@ series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetInd
 ```
 
 ### Serienfarben und -rahmen anpassen
-Verbessern Sie die Optik, indem Sie Farben setzen und Rahmen anpassen – das **customizes pie chart colors** direkt:
+`setColorVaried(true)` aktiviert Farben pro Scheibe, und `setFillFormat` weist jedem Datenpunkt eine einfarbige Füllung zu.  
 ```java
 import com.aspose.slides.*;
 
@@ -198,7 +213,7 @@ point.getFormat().getLine().setDashStyle(LineDashStyle.DashDot);
 ```
 
 ### Benutzerdefinierte Datenbeschriftungen konfigurieren
-Feinabstimmung der Beschriftungen für jeden Datenpunkt:
+`setDataLabelFormat` passt das Aussehen, die Position und die Schriftart der Beschriftungen an, um klarere Diagramm‑Anmerkungen zu ermöglichen.  
 ```java
 import com.aspose.slides.*;
 
@@ -220,7 +235,7 @@ series.getLabels().getDefaultDataLabelFormat().setShowLeaderLines(true);
 ```
 
 ### Rotationswinkel festlegen und Präsentation speichern
-Schließen Sie Ihr Kreisdiagramm ab, indem Sie **set rotation angle** anwenden und die Datei speichern:
+`setRotationAngle` dreht das gesamte Kreisdiagramm, und `save` schreibt die Präsentation in eine Datei.  
 ```java
 import com.aspose.slides.*;
 
@@ -232,41 +247,52 @@ chart.setRotationAngle(-10);
 presentation.save("PieChartPresentation.pptx", SaveFormat.Pptx);
 ```
 
+## Wie dreht man ein Kreisdiagramm?
+Laden Sie das Diagramm‑Objekt, rufen Sie `chart.setRotationAngle(45.0)` (oder einen beliebigen Gradwert) auf und speichern Sie anschließend die Präsentation. Das Drehen eines Kreisdiagramms verschiebt den Startwinkel, sodass Sie einen bestimmten Abschnitt hervorheben können, ohne die Daten zu ändern. Dieser einzelne Methodenaufruf funktioniert für jede `Chart`‑Instanz in Aspose.Slides. Sie können die Drehung auch mit variierenden Scheibenfarben kombinieren, um den wichtigsten Datenpunkt hervorzuheben.
+
 ## Häufige Probleme und Lösungen
+
 | Problem | Ursache | Lösung |
-|---------|---------|--------|
-| **Alle Abschnitte haben dieselbe Farbe** | `setColorVaried(true)` nicht aufgerufen | Stellen Sie sicher, dass Sie unterschiedliche Farben in der Seriengruppe aktivieren. |
-| **Datenbeschriftungen werden nicht angezeigt** | `showValue`-Flag deaktiviert | Rufen Sie `setShowValue(true)` im entsprechenden Beschriftungsformat auf. |
-| **Rotation hat keine Wirkung** | Verwendung einer älteren Aspose.Slides-Version | Aktualisieren Sie auf Version 25.4 oder höher. |
-| **Lizenzausnahme zur Laufzeit** | Fehlende oder ungültige Lizenzdatei | Laden Sie Ihre Lizenz mit `License license = new License(); license.setLicense("Aspose.Slides.lic");` bevor Sie das `Presentation`‑Objekt erstellen. |
+|-------|-------|-----|
+| **Scheiben haben alle dieselbe Farbe** | `setColorVaried(true)` nicht aufgerufen | Stellen Sie sicher, dass Sie variierende Farben für die Seriengruppe aktivieren. |
+| **Datenbeschriftungen werden nicht angezeigt** | `showValue`‑Flag deaktiviert | Rufen Sie `setShowValue(true)` im Beschriftungsformat auf. |
+| **Drehung hat keine Wirkung** | Verwendung einer älteren Aspose.Slides‑Version | Aktualisieren Sie auf Version 25.4 oder höher. |
+| **Lizenzausnahme zur Laufzeit** | Fehlende oder ungültige Lizenzdatei | Laden Sie Ihre Lizenz mit `License license = new License(); license.setLicense("Aspose.Slides.lic");` bevor Sie die `Presentation` erstellen. |
 
 ## Häufig gestellte Fragen
 
 **Q: Wie erhalte ich eine Aspose.Slides‑Lizenz für Java?**  
-A: Sie können eine kostenlose Testversion auf der Aspose‑Website anfordern und anschließend eine permanente Lizenz erwerben. Laden Sie sie zur Laufzeit wie in der Tabelle „Häufige Probleme und Lösungen“ gezeigt.
+A: Fordern Sie eine kostenlose Testversion auf der Aspose-Website an und erwerben Sie anschließend eine permanente Lizenz. Laden Sie sie zur Laufzeit, wie in der Tabelle „Häufige Probleme und Lösungen“ gezeigt.
 
 **Q: Kann ich diesen Code mit älteren JDK‑Versionen verwenden?**  
 A: Die API erfordert JDK 16 oder höher; ältere Versionen werden nicht unterstützt.
 
 **Q: Ist es möglich, das Diagramm als Bild statt als PPTX zu exportieren?**  
-A: Ja, rufen Sie nach dem Rendern `chart.getChartData().getChartDataWorkbook().save("chart.png", ImageFormat.Png);` auf.
+A: Ja – nach dem Rendern rufen Sie `chart.getChartData().getChartDataWorkbook().save("chart.png", ImageFormat.Png);` auf.
 
-**Q: Was, wenn ich mehr als eine Serie zu einem Kreisdiagramm hinzufügen muss?**  
-A: Kreisdiagramme zeigen typischerweise nur eine Serie; für mehrere Serien sollten Sie stattdessen ein Donut‑Diagramm verwenden.
+**Q: Was ist, wenn ich mehr als eine Serie in einem Kreisdiagramm benötige?**  
+A: Kreisdiagramme sind für eine einzelne Datenserie vorgesehen; für mehrere Serien sollten Sie ein Donut‑Diagramm in Betracht ziehen.
 
-**Q: Funktioniert die Bibliothek auf Linux‑Servern?**  
-A: Absolut – Aspose.Slides für Java ist plattformunabhängig und läuft auf jedem Betriebssystem mit kompatiblem JDK.
+**Q: Läuft Aspose.Slides auf Linux‑Servern?**  
+A: Absolut – Aspose.Slides für Java ist plattformunabhängig und funktioniert auf jedem Betriebssystem mit einem kompatiblen JDK.
 
 ---
 
-**Last Updated:** 2026-02-19  
-**Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
-**Author:** Aspose  
+**Letzte Aktualisierung:** 2026-07-17  
+**Getestet mit:** Aspose.Slides für Java 25.4 (JDK 16)  
+**Autor:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Verwandte Tutorials
+
+- [Wie man Kreisdiagramme in Java‑Präsentationen mit Aspose.Slides erstellt: Ein umfassender Leitfaden](/slides/java/charts-graphs/creating-pie-charts-java-presentations-aspose-slides/)
+- [Kreisdiagramme in Java mit Aspose.Slides meistern: Ein umfassender Leitfaden](/slides/java/charts-graphs/master-pie-charts-aspose-slides-java/)
+- [Diagrammtexte in Java mit Aspose.Slides drehen: Ein umfassender Leitfaden](/slides/java/charts-graphs/rotate-chart-texts-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

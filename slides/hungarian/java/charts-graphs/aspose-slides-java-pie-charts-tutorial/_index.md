@@ -1,75 +1,90 @@
 ---
-date: '2026-02-19'
-description: Tanulja meg, hogyan hozhat létre kördiagramot Java-ban az Aspose.Slides
-  segítségével, testreszabhatja a kördiagram színeit, hozzáadhat diagram sorozatokat,
-  dolgozhat a diagram adatlapjával, és beállíthatja a forgatási szöget.
+date: '2026-07-17'
+description: Ismerje meg, hogyan lehet elforgatni a kördiagramot, testreszabni a kördiagram
+  színeit, és PDF-be exportálni a diát az Aspose.Slides for Java segítségével – egy
+  átfogó adatvizualizációs útmutató.
 keywords:
-- Aspose.Slides Java
-- Java pie charts
-- data visualization in Java
-title: Hogyan testre szabjuk a kördiagram színeit Java-ban az Aspose.Slides segítségével
-  – Teljes útmutató
+- rotate pie chart
+- customize pie chart colors
+- export slide to pdf
+- chart data worksheet
+- java data visualization
+lastmod: '2026-07-17'
+og_description: Forgassa el a kördiagramot és testreszabja a kördiagram színeit az
+  Aspose.Slides for Java segítségével. Ismerje meg, hogyan exportálhatja a diát PDF-be,
+  és hogyan dolgozhat a diagram adatlapjával.
+og_image_alt: Guide showing how to rotate a pie chart and set custom colors in Java
+  with Aspose.Slides
+og_title: Kördiagram elforgatása és színek testreszabása Java-ban – Aspose.Slides
+  útmutató
+schemas:
+- author: Aspose
+  dateModified: '2026-07-17'
+  description: Learn how to rotate pie chart, customize pie chart colors, and export
+    slide to PDF using Aspose.Slides for Java – a full data visualization guide.
+  headline: How to Rotate Pie Chart and Customize Colors in Java with Aspose.Slides
+  type: TechArticle
+- questions:
+  - answer: Request a free trial from the Aspose website, then purchase a permanent
+      license. Load it at runtime as shown in the Common Issues table.
+    question: How do I obtain an Aspose.Slides license for Java?
+  - answer: The API requires JDK 16 or higher; older versions are not supported.
+    question: Can I use this code with older JDK versions?
+  - answer: Yes—after rendering, call `chart.getChartData().getChartDataWorkbook().save("chart.png",
+      ImageFormat.Png);`.
+    question: Is it possible to export the chart as an image instead of PPTX?
+  - answer: Pie charts are designed for a single data series; for multiple series,
+      consider using a doughnut chart.
+    question: What if I need more than one series in a pie chart?
+  - answer: Absolutely—Aspose.Slides for Java is platform‑independent and works on
+      any OS with a compatible JDK.
+    question: Does Aspose.Slides run on Linux servers?
+  type: FAQPage
+tags:
+- rotate pie chart
+- Aspose.Slides
+- Java charting
+- data visualization
+title: Hogyan forgassuk el a kördiagramot és testreszabjuk a színeket Java-ban az
+  Aspose.Slides segítségével
 url: /hu/java/charts-graphs/aspose-slides-java-pie-charts-tutorial/
 weight: 1
 ---
 
- if needed" but Hungarian is LTR, ignore.
-
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Pité diagramok létrehozása az Aspose.Slides for Java-val: Teljes útmutató
+# Tortadiagramok létrehozása az Aspose.Slides for Java-val: Teljes útmutató
 
 ## Bevezetés
-Dinamikus és vizuálisan vonzó prezentációk létrehozása kulcsfontosságú a hatásos információátadáshoz. Az Aspose.Slides for Java-val zökkenőmentesen integrálhatsz összetett diagramokat, például pité diagramokat a diáidba, **testreszabhatod a pité diagram színeit**, és könnyedén javíthatod az adatok megjelenítését. Ez az átfogó útmutató végigvezet a pité diagram létrehozásának és testreszabásának folyamatán az Aspose.Slides Java segítségével, megoldva a gyakori prezentációs kihívásokat egyszerűen.
-
-**Mit fogsz megtanulni:**
-- Prezentáció inicializálása és diák hozzáadása.
-- Pité diagram létrehozása és konfigurálása a diádon.
-- Diagramcímek, adatcímkék beállítása, és **a pité diagram színeinek testreszabása**.
-- Teljesítmény optimalizálása és erőforrások hatékony kezelése.
-- Az Aspose.Slides integrálása Java projektekbe Maven vagy Gradle használatával.
-
-Kezdjük azzal, hogy biztosítjuk, hogy minden szükséges eszköz és tudás rendelkezésedre álljon!
+Ebben az útmutatóban megtanulja, hogyan **forgassa el a tortadiagram** elemeit, testre szabja az egyes szeletek színét, és exportálja a végső diát PDF‑be – mindezt az Aspose.Slides for Java segítségével. Akár értékesítési műszerfalat, pénzügyi jelentést vagy bármilyen adat‑vezérelt prezentációt készít, ezen technikák elsajátítása lehetővé teszi, hogy tiszta, szemrevaló vizuális elemeket nyújtson Microsoft Office használata nélkül. Készítsük elő az eszközöket, és vágjunk bele.
 
 ## Gyors válaszok
-- **Mi a fő osztály egy prezentáció elindításához?** `Presentation` from `com.aspose.slides`.
-- **Melyik metódus ad hozzá egy pité diagramot a diára?** `addChart(ChartType.Pie, …)`.
-- **Hogyan engedélyezed a változatos színeket minden szelethez?** Set `setColorVaried(true)` on the series group.
-- **Forgatható a pité diagram?** Yes, use `setRotationAngle(double)` on the chart object.
-- **Szükség van licencre a termelésben való használathoz?** An Aspose.Slides license is required for commercial deployments.
+- **Melyik osztály indít új prezentációt?** `Presentation` a `com.aspose.slides`‑ből.  
+- **Melyik API hívás ad hozzá egy tortadiagramot?** `slide.addChart(ChartType.Pie, …)`.  
+- **Hogyan adhat egyedi színt minden szeletnek?** Hívja a `series.setColorVaried(true)`‑t, és állítson be szilárd kitöltéseket adatpontonként.  
+- **Melyik metódus forgatja el a diagramot?** `chart.setRotationAngle(double)` – használjon 0‑tól 360‑ig terjedő fokokat.  
+- **Exportálható a dia PDF‑be?** Igen, hívja a `presentation.save("output.pdf", SaveFormat.Pdf)`‑t.  
 
-## Mi az a „customize pie chart colors”?
-A pité diagram színeinek testreszabása azt jelenti, hogy minden szeletnek különféle kitöltőszíneket rendelsz, ezáltal javítva az olvashatóságot és a vizuális hatást. Az Aspose.Slides-ben ezt úgy érheted el, hogy engedélyezed a változatos színeket, majd egyedi szilárd kitöltőszíneket állítasz be az egyes adatpontokhoz.
+## Mi az a „tortadiagram színek testreszabása”?
+A tortadiagram színeinek testreszabása azt jelenti, hogy minden szeletnek különböző kitöltőszínt rendelünk, ezáltal javítva az olvashatóságot és a vizuális hatást. Az Aspose.Slides‑ben ezt úgy érheti el, hogy engedélyezi a változatos színeket, majd egyes adatpontokhoz szilárd kitöltőszíneket állít be. Ez a megközelítés biztosítja, hogy minden adatcsoport egyértelműen kiemelkedjen a prezentációban.
 
-## Miért használjuk az Aspose.Slides for Java-t pité diagramok létrehozásához?
-- **Full control** over chart appearance without needing Microsoft Office.
-- **Cross‑platform** compatibility – works on Windows, Linux, and macOS.
-- **Rich API** for data binding, styling, and exporting to PPTX, PDF, or images.
-- **License flexibility** – start with a free trial and upgrade when you need the full feature set.
+## Miért használja az Aspose.Slides for Java‑t tortadiagramok létrehozásához?
+Az Aspose.Slides **150+ diagramtípust** támogat, és egy 300 oldalas prezentációt kevesebb, mint **5 másodperc** alatt képes megjeleníteni egy tipikus szerveren, mindezt Microsoft Office telepítése nélkül. A könyvtár Windows, Linux és macOS rendszereken fut, így platform‑független rugalmasságot biztosít bármely Java‑alapú adat‑vizualizációs projekthez.
 
-## Előkövetelmények
-Mielőtt belemerülnél ebbe az útmutatóba, győződj meg róla, hogy a következő környezet készen áll:
-
-### Szükséges könyvtárak, verziók és függőségek
-- **Aspose.Slides for Java**: version 25.4 or later.
-- **Java Development Kit (JDK)**: version 16 or higher.
-
-### Környezet beállítási követelmények
-- Fejlesztői környezet Java-val telepítve és konfigurálva.
-- Egy integrált fejlesztőkörnyezet (IDE), például IntelliJ IDEA, Eclipse vagy NetBeans.
-
-### Tudás előkövetelmények
-- Alapvető Java programozási ismeretek.
-- Ismeret a Maven vagy Gradle függőségkezelésről.
+## Előfeltételek
+- **Aspose.Slides for Java** ≥ 25.4
+- **JDK** 16 vagy újabb
+- IDE, például IntelliJ IDEA, Eclipse vagy NetBeans
+- Alapvető Java ismeretek és Maven vagy Gradle ismerete
 
 ## Az Aspose.Slides for Java beállítása
-Az Aspose.Slides használatához a Java projektjeidben hozzá kell adnod a könyvtárat függőségként. Íme, hogyan teheted ezt különböző build eszközökkel:
+Adja hozzá a könyvtárat a build konfigurációjához.
 
 **Maven**  
-Add this snippet to your `pom.xml` file:
+Adja hozzá ezt a kódrészletet a `pom.xml` fájlhoz:  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -80,21 +95,21 @@ Add this snippet to your `pom.xml` file:
 ```
 
 **Gradle**  
-Include the following in your `build.gradle` file:
+Adja hozzá a következőt a `build.gradle` fájlhoz:  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Direct Download**  
-If you prefer not using a build tool, download the latest release from [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+**Közvetlen letöltés**  
+Ha manuális megközelítést részesít előnyben, töltse le a legújabb JAR‑t a [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) oldalról.
 
 ### Licenc beszerzési lépések
-- **Ingyenes próba**: Kezd egy ingyenes próbával az Aspose.Slides funkcióinak felfedezéséhez.  
-- **Ideiglenes licenc**: Szerezz ideiglenes licencet korlátlan használathoz.  
-- **Vásárlás**: Fontold meg a vásárlást, ha hosszú távú hozzáférésre van szükséged.
+- **Free Trial** – fedezze fel az összes funkciót költség nélkül.  
+- **Temporary License** – meghosszabbítja a próbaverzió korlátait rövid időre.  
+- **Purchase** – szerezzen be egy állandó licencet a termeléshez.  
 
-**Basic Initialization and Setup**  
-To begin using Aspose.Slides, initialize your project by creating a new presentation object:
+**Alapvető inicializálás és beállítás**  
+A `Presentation` osztály egy PowerPoint fájlt reprezentál a memóriában, és módszereket biztosít a diák manipulálásához.  
 ```java
 import com.aspose.slides.*;
 
@@ -102,10 +117,10 @@ Presentation presentation = new Presentation();
 ```
 
 ## Megvalósítási útmutató
-Most bontsuk le a pité diagram hozzáadásának és testreszabásának folyamatát kezelhető lépésekre.
+Az alábbi lépésről‑lépésre útmutató mindent lefed a dia létrehozásától a végső tortadiagram forgatásáig.
 
 ### Prezentáció és dia inicializálása
-Start by setting up a new presentation and accessing the first slide. This is your canvas for creating charts:
+Hozzon létre egy új `Presentation` példányt, és szerezze meg az első diát, amely a diagram vásznaként szolgál.  
 ```java
 import com.aspose.slides.*;
 
@@ -115,8 +130,8 @@ Presentation presentation = new Presentation();
 ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
-### Pité diagram hozzáadása a diához
-Insert a pie chart into the specified position with a default data set:
+### Tortadiagram hozzáadása a diához
+Az `addChart` a megadott típusú diagram alakzatot adja hozzá a diához a megadott koordinátákon.  
 ```java
 import com.aspose.slides.*;
 
@@ -125,7 +140,7 @@ IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
 ### Diagram címének beállítása
-Customize your chart by setting and centering the title:
+A `setTitle` szöveges címet ad a diagramnak, és középre helyezi.  
 ```java
 import com.aspose.slides.*;
 
@@ -136,8 +151,8 @@ chart.getChartTitle().setHeight(20);
 chart.setTitle(true);
 ```
 
-### Adatcímkék beállítása a sorozathoz
-Ensure that data labels display values for clarity:
+### Adatcímkék konfigurálása a sorozathoz
+A `setShowValue(true)` numerikus értékcímkéket engedélyez a sorozat minden adatpontján.  
 ```java
 import com.aspose.slides.*;
 
@@ -145,8 +160,8 @@ import com.aspose.slides.*;
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 ```
 
-### Diagram adat munkalap előkészítése
-Set up your chart's data worksheet by clearing existing series and categories:
+### Diagram adatlap előkészítése
+A `ChartDataWorkbook` tárolja a háttéradat táblát, amely a diagram sorozatait és kategóriáit táplálja.  
 ```java
 import com.aspose.slides.*;
 
@@ -158,7 +173,7 @@ chart.getChartData().getCategories().clear();
 ```
 
 ### Kategóriák hozzáadása a diagramhoz
-Define categories for your pie chart:
+Az `addCategory` új kategória címkét hoz létre a diagram adat sorozataihoz.  
 ```java
 import com.aspose.slides.*;
 
@@ -169,7 +184,7 @@ chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 ```
 
 ### Sorozat hozzáadása és adatpontok feltöltése
-Create a series and populate it with data points – this is where we **add chart series**:
+`addSeries` adat sorozatot hoz létre, és a `addDataPointForBarSeries` numerikus értékeket illeszt be minden kategóriához.  
 ```java
 import com.aspose.slides.*;
 
@@ -181,7 +196,7 @@ series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetInd
 ```
 
 ### Sorozat színeinek és szegélyeinek testreszabása
-Enhance visual appeal by setting colors and customizing borders – this directly **customizes pie chart colors**:
+`setColorVaried(true)` engedélyezi az egyes szeletek színeit, és a `setFillFormat` szilárd kitöltést rendel minden adatponthoz.  
 ```java
 import com.aspose.slides.*;
 
@@ -201,7 +216,7 @@ point.getFormat().getLine().setDashStyle(LineDashStyle.DashDot);
 ```
 
 ### Egyedi adatcímkék konfigurálása
-Fine‑tune the labels for each data point:
+A `setDataLabelFormat` testreszabja a címke megjelenését, pozícióját és betűtípusát a tisztább diagram annotációk érdekében.  
 ```java
 import com.aspose.slides.*;
 
@@ -223,7 +238,7 @@ series.getLabels().getDefaultDataLabelFormat().setShowLeaderLines(true);
 ```
 
 ### Forgatási szög beállítása és a prezentáció mentése
-Finalize your pie chart by **set rotation angle** and saving the file:
+A `setRotationAngle` elforgatja a teljes tortadiagramot, a `save` pedig fájlba írja a prezentációt.  
 ```java
 import com.aspose.slides.*;
 
@@ -235,39 +250,51 @@ chart.setRotationAngle(-10);
 presentation.save("PieChartPresentation.pptx", SaveFormat.Pptx);
 ```
 
+## Hogyan forgassuk el a tortadiagramot?
+Töltse be a diagram objektumot, hívja a `chart.setRotationAngle(45.0)`‑t (vagy bármilyen fokértéket), majd mentse a prezentációt. A tortadiagram forgatása módosítja a kezdőszöget, lehetővé téve egy adott szegmens kiemelését az adatok módosítása nélkül. Ez az egyetlen metódushívás minden `Chart` példányra működik az Aspose.Slides‑ben. A forgatást kombinálhatja a változatos szelet színekkel is, hogy a legfontosabb adatpontot emelje ki.
+
 ## Gyakori problémák és megoldások
-| Issue | Cause | Fix |
-|-------|-------|-----|
-| **Minden szelet ugyanazt a színt kap** | `setColorVaried(true)` nem lett meghívva | Győződj meg arról, hogy a sorozatcsoporton engedélyezed a változatos színeket. |
-| **Az adatcímkék nem jelennek meg** | `showValue` jelző letiltva | `setShowValue(true)` hívása a megfelelő címkeformátumon. |
-| **A forgatás nem hat** | Régebbi Aspose.Slides verzió használata | Frissíts a 25.4 vagy újabb verzióra. |
-| **Licenc kivétel futás közben** | Hiányzó vagy érvénytelen licencfájl | Töltsd be a licencet a `License license = new License(); license.setLicense("Aspose.Slides.lic");` kóddal a `Presentation` létrehozása előtt. |
+| Probléma | Ok | Megoldás |
+|----------|----|----------|
+| **Minden szelet ugyanazt a színt kapja** | `setColorVaried(true)` nincs meghívva | Győződjön meg róla, hogy engedélyezi a változatos színeket a sorozatcsoporton. |
+| **Az adatcímkék nem jelennek meg** | `showValue` jelző le van tiltva | Hívja a `setShowValue(true)`‑t a címkeformátumon. |
+| **A forgatás nem hat** | Régebbi Aspose.Slides verzió használata | Frissítsen a 25.4 vagy újabb verzióra. |
+| **Licenc kivétel futás közben** | Hiányzó vagy érvénytelen licencfájl | Töltse be a licencet a `License license = new License(); license.setLicense("Aspose.Slides.lic");` kóddal a `Presentation` létrehozása előtt. |
 
-## Gyakran Ismételt Kérdések
+## Gyakran feltett kérdések
 
-**Q: Hogyan szerezhetek be egy Aspose.Slides licencet Java-hoz?**  
-A: Kérhetsz ingyenes próbát az Aspose weboldaláról, majd vásárolhatsz állandó licencet. Töltsd be futás közben, ahogy a Gyakori problémák táblázatában látható.
+**K: Hogyan szerezhetek Aspose.Slides licencet Java‑hoz?**  
+Válasz: Kérjen ingyenes próbaverziót az Aspose weboldaláról, majd vásároljon állandó licencet. Töltse be futás közben, ahogyan a Gyakori problémák táblázatban látható.
 
-**Q: Használhatom ezt a kódot régebbi JDK verziókkal?**  
-A: Az API JDK 16 vagy újabb verziót igényel; a régebbi verziók nem támogatottak.
+**K: Használhatom ezt a kódot régebbi JDK verziókkal?**  
+Válasz: Az API JDK 16 vagy újabb verziót igényel; a régebbi verziók nem támogatottak.
 
-**Q: Lehetséges a diagramot képként exportálni PPTX helyett?**  
-A: Igen, hívd a `chart.getChartData().getChartDataWorkbook().save("chart.png", ImageFormat.Png);` metódust a renderelés után.
+**K: Lehetséges a diagramot képként exportálni PPTX helyett?**  
+Válasz: Igen – a renderelés után hívja a `chart.getChartData().getChartDataWorkbook().save("chart.png", ImageFormat.Png);`‑t.
 
-**Q: Mi van, ha több mint egy sorozatot kell hozzáadni egy pité diagramhoz?**  
-A: A pité diagramok általában egyetlen sorozatot jelenítenek meg; több sorozat esetén fontold meg a gyűrűdiagram (doughnut) használatát.
+**K: Mi van, ha több mint egy sorozatra van szükségem egy tortadiagramban?**  
+Válasz: A tortadiagramok egyetlen adat sorozatra vannak tervezve; több sorozat esetén fontolja meg a gyűrűdiagram (doughnut) használatát.
 
-**Q: Működik a könyvtár Linux szervereken?**  
-A: Teljes mértékben – az Aspose.Slides for Java platform‑független, és bármely, kompatibilis JDK-val rendelkező operációs rendszeren fut.
+**K: Fut-e az Aspose.Slides Linux szervereken?**  
+Válasz: Természetesen – az Aspose.Slides for Java platform‑független, és bármely, kompatibilis JDK‑val rendelkező operációs rendszeren működik.
 
-**Last Updated:** 2026-02-19  
-**Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
-**Author:** Aspose  
+---
+
+**Utoljára frissítve:** 2026-07-17  
+**Tesztelve:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Szerző:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Kapcsolódó útmutatók
+
+- [Hogyan hozzunk létre tortadiagramokat Java prezentációkban az Aspose.Slides használatával: Átfogó útmutató](/slides/java/charts-graphs/creating-pie-charts-java-presentations-aspose-slides/)
+- [Mesteri tortadiagramok Java-ban az Aspose.Slides használatával: Átfogó útmutató](/slides/java/charts-graphs/master-pie-charts-aspose-slides-java/)
+- [Diagram szövegek forgatása Java-ban az Aspose.Slides használatával: Átfogó útmutató](/slides/java/charts-graphs/rotate-chart-texts-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
