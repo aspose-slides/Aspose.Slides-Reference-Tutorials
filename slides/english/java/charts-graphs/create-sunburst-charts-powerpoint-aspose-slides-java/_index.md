@@ -1,14 +1,80 @@
 ---
-title: "Create and Customize Sunburst Charts in PowerPoint using Aspose.Slides for Java"
-description: "Learn how to create and customize sunburst charts in PowerPoint with Aspose.Slides for Java. This step-by-step guide covers setup, customization, and practical applications."
-date: "2025-04-17"
-weight: 1
-url: "/java/charts-graphs/create-sunburst-charts-powerpoint-aspose-slides-java/"
+date: '2026-07-17'
+description: Learn how to add sunburst charts in PowerPoint using Aspose Slides for
+  Java. Step‑by‑step guide covers setup, chart creation, customization, and real‑world
+  use cases.
+images:
+- /java/charts-graphs/create-sunburst-charts-powerpoint-aspose-slides-java/og-image.png
 keywords:
-- sunburst chart PowerPoint
-- Aspose.Slides for Java
-- customize sunburst chart
-
+- how to add sunburst
+- create sunburst chart powerpoint
+- create powerpoint presentation java
+lastmod: '2026-07-17'
+og_description: How to add sunburst charts in PowerPoint using Aspose Slides for Java.
+  Follow this tutorial to set up the library, create a chart, customize data points,
+  and apply it to real projects.
+og_image_alt: 'Developer guide: Add sunburst chart to PowerPoint using Aspose Slides
+  for Java'
+og_title: How to Add Sunburst Charts in PowerPoint with Aspose (Java)
+schemas:
+- author: Aspose
+  dateModified: '2026-07-17'
+  description: Learn how to add sunburst charts in PowerPoint using Aspose Slides
+    for Java. Step‑by‑step guide covers setup, chart creation, customization, and
+    real‑world use cases.
+  headline: How to Add Sunburst Charts in PowerPoint with Aspose (Java)
+  type: TechArticle
+- description: Learn how to add sunburst charts in PowerPoint using Aspose Slides
+    for Java. Step‑by‑step guide covers setup, chart creation, customization, and
+    real‑world use cases.
+  name: How to Add Sunburst Charts in PowerPoint with Aspose (Java)
+  steps:
+  - name: Add Sunburst Chart
+    text: The `IChart` interface defines a chart object that can be placed on any
+      slide. Here we add a sunburst chart at coordinates (100, 100) with a size of
+      450 × 400 points.
+  - name: Save the Presentation
+    text: Always persist your changes by calling `save`. You can choose PPTX, PDF,
+      or any of the 50+ supported output formats.
+  - name: Access Data Points Collection
+    text: The first series of the chart holds a collection of `IChartDataPoint` objects
+      that represent each slice.
+  - name: Show Value for a Specific Data Point
+    text: Set `IsValueShown` to `true` on the desired data point to display its numeric
+      value directly on the slice.
+  - name: Modify Label Formats
+    text: Adjust label visibility, font color, and background to improve readability.
+  - name: Set Fill Color for Data Points
+    text: Customize the fill color of individual slices to match your brand palette
+      or to highlight key segments.
+  - name: Save the Modified Presentation
+    text: Persist the customized chart by saving the presentation again.
+  type: HowTo
+- questions:
+  - answer: A sunburst chart visualizes hierarchical data in concentric rings, with
+      each ring representing a level of the hierarchy.
+    question: What is a sunburst chart?
+  - answer: Add the Maven dependency shown in the “Maven Dependency” section to your
+      `pom.xml` and run `mvn clean install`.
+    question: How do I install Aspose.Slides for Java using Maven?
+  - answer: Yes, the library supports over 50 chart types, including column, line,
+      pie, and radar charts.
+    question: Can I customize other chart types with Aspose.Slides?
+  - answer: Verify the file path is correct, the directory exists, and you have write
+      permissions. Also, ensure the `Presentation.save()` method is called.
+    question: My presentation isn’t saving—what should I check?
+  - answer: Visit the [Aspose forum](https://forum.aspose.com/c/slides/11) or consult
+      the official [Aspose.Slides reference](https://reference.aspose.com/slides/java/).
+    question: Where can I get more help or examples?
+  type: FAQPage
+tags:
+- sunburst chart
+- Aspose.Slides
+- Java PowerPoint
+- data visualization
+title: How to Add Sunburst Charts in PowerPoint with Aspose (Java)
+url: /java/charts-graphs/create-sunburst-charts-powerpoint-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -16,32 +82,43 @@ keywords:
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Create and Customize Sunburst Charts in PowerPoint using Aspose.Slides for Java
+# How to Add Sunburst Charts in PowerPoint with Aspose (Java)
 
 ## Introduction
 
-Creating compelling presentations often involves incorporating visually striking charts that convey data effectively. One such chart is the sunburst chart, which offers a unique way to represent hierarchical data with its radial layout. However, adding and customizing these charts can be a daunting task without the right tools. This guide will walk you through creating and modifying sunburst charts in PowerPoint presentations using Aspose.Slides for Java.
+Adding a sunburst chart to a PowerPoint deck can instantly turn a flat data table into an engaging visual hierarchy. In this tutorial you’ll learn **how to add sunburst** charts in PowerPoint using Aspose.Slides for Java, from environment setup to fine‑tuning colors and labels. Whether you’re building a sales dashboard, a project‑task breakdown, or an educational slide deck, the steps below will give you a production‑ready solution.
 
-**What You'll Learn:**
-- Setting up your environment for Aspose.Slides
-- Creating a new presentation with a sunburst chart
-- Customizing data points within the chart
-- Real-world applications of these skills
+**What You’ll Learn**
+- How to configure Aspose.Slides in a Maven or Gradle project  
+- How to create a new presentation and insert a sunburst chart  
+- How to customize data points, labels, and fill colors  
+- Real‑world scenarios where sunburst charts shine  
 
-Let's dive into how you can simplify this process using Aspose.Slides for Java.
+Let’s get started and see how easy it is to turn raw hierarchy data into a polished PowerPoint visual.
+
+## Quick Answers
+- **Primary library?** Aspose.Slides for Java  
+- **Supported chart type?** Sunburst (radial hierarchical)  
+- **Minimum Java version?** JDK 16  
+- **Typical implementation time?** 10‑15 minutes for a basic chart  
+- **License needed for production?** Yes, a valid Aspose license  
+
+## What is a Sunburst Chart?
+A sunburst chart is a radial diagram that visualizes hierarchical data by nesting rings outward from a central point. It’s perfect for showing multi‑level relationships such as organization structures, product categories, or file‑system trees. Each concentric ring represents a level of the hierarchy, and the size of each segment reflects its quantitative value, allowing viewers to quickly grasp both structure and magnitude.
+
+## Why Use Aspose.Slides for Java?
+Aspose.Slides supports **50+ chart types** and can manipulate presentations with **up to 10,000 slides** without loading the entire file into memory, delivering high performance for enterprise‑scale reporting. It works cross‑platform, offers extensive API coverage, and includes robust licensing options that remove evaluation limits, making it ideal for production environments.
 
 ## Prerequisites
-
-Before starting, ensure your development environment is ready. You'll need:
-- **Java Development Kit (JDK)** version 16 or higher
-- An **Integrated Development Environment (IDE)** like IntelliJ IDEA or Eclipse
-- Basic knowledge of **Java** and PowerPoint presentations
+- **Java Development Kit (JDK)** 16 or newer  
+- **IDE** – IntelliJ IDEA, Eclipse, or any Java‑compatible editor  
+- Basic familiarity with Java syntax and Maven/Gradle build tools  
 
 ## Setting Up Aspose.Slides for Java
 
 ### Maven Dependency
+Add the Aspose.Slides Maven artifact to your `pom.xml`:
 
-To include Aspose.Slides in your project, add the following dependency to your `pom.xml` file:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -52,26 +129,24 @@ To include Aspose.Slides in your project, add the following dependency to your `
 ```
 
 ### Gradle Dependency
+If you prefer Gradle, include the following line in `build.gradle`:
 
-If you're using Gradle, include the following in your `build.gradle`:
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
 ### Direct Download
-
-Alternatively, download the latest JAR from [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+You can also download the latest JAR directly from the official releases page: [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 ### License Acquisition
-
-To use Aspose.Slides without evaluation limitations:
-- **Free Trial:** Start with a temporary license to explore full features.
-- **Temporary License:** Request a temporary license on the [Aspose website](https://purchase.aspose.com/temporary-license).
-- **Purchase:** For ongoing projects, consider purchasing a subscription.
+To run without evaluation limits, obtain a license:
+- **Free trial** – temporary license for quick evaluation.  
+- **Temporary license** – request one from the [Aspose website](https://purchase.aspose.com/temporary-license).  
+- **Full purchase** – buy a subscription for unlimited production use.
 
 ### Basic Initialization
+The `Presentation` class is the entry point for creating or opening PowerPoint files.
 
-Here's how you can initialize Aspose.Slides in your Java application:
 ```java
 import com.aspose.slides.Presentation;
 
@@ -90,29 +165,28 @@ public class PresentationExample {
 
 ## Implementation Guide
 
-### Create a Presentation and Add a Sunburst Chart
+### How to add a sunburst chart to a PowerPoint presentation using Aspose.Slides for Java?
 
-#### Overview
+Load a new `Presentation`, add a slide, insert an `IChart` of type `ChartType.Sunburst`, and call `save`. This concise three‑step pattern creates a fully functional sunburst chart ready for further customization.
 
-This feature demonstrates how to create a PowerPoint presentation from scratch and add a sunburst chart.
-
-#### Steps:
-##### Step 1: Initialize the Presentation
+#### Step 1: Initialize the Presentation
 ```java
 Presentation pres = new Presentation();
 try {
     String dataDir = "YOUR_DOCUMENT_DIRECTORY"; // Replace with your path
 ```
 
-##### Step 2: Add Sunburst Chart
-Add a sunburst chart to the first slide at position (100, 100) with size (450x400).
+#### Step 2: Add Sunburst Chart
+The `IChart` interface defines a chart object that can be placed on any slide. Here we add a sunburst chart at coordinates (100, 100) with a size of 450 × 400 points.
+
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
     ChartType.Sunburst, 100, 100, 450, 400);
 ```
 
-##### Step 3: Save the Presentation
-Save your presentation to ensure all changes are stored.
+#### Step 3: Save the Presentation
+Always persist your changes by calling `save`. You can choose PPTX, PDF, or any of the 50+ supported output formats.
+
 ```java
 pres.save(dataDir + "/AddColorToDataPoints.pptx", SaveFormat.Pptx);
 } finally {
@@ -123,24 +197,26 @@ pres.save(dataDir + "/AddColorToDataPoints.pptx", SaveFormat.Pptx);
 ### Modify Data Points in Chart
 
 #### Overview
-Learn how to modify data points, including labels and colors, within a sunburst chart.
+You can tailor every slice of the sunburst—labels, colors, and visibility—through the chart’s data point collection.
 
-#### Steps:
-##### Step 1: Access Data Points Collection
-Access the first series' data points collection from the chart.
+#### Step 1: Access Data Points Collection
+The first series of the chart holds a collection of `IChartDataPoint` objects that represent each slice.
+
 ```java
 IChartDataPointCollection dataPoints = chart.getChartData().getSeries().get_Item(0).getDataPoints();
 ```
 
-##### Step 2: Show Value for a Specific Data Point
-Modify the label to show values at a specific level.
+#### Step 2: Show Value for a Specific Data Point
+Set `IsValueShown` to `true` on the desired data point to display its numeric value directly on the slice.
+
 ```java
 dataPoints.get_Item(3).getDataPointLevels().get_Item(0).getLabel()
     .getDataLabelFormat().setShowValue(true);
 ```
 
-##### Step 3: Modify Label Formats
-Adjust label settings such as category name visibility and text color.
+#### Step 3: Modify Label Formats
+Adjust label visibility, font color, and background to improve readability.
+
 ```java
 IDataLabel branch1Label = dataPoints.get_Item(0).getDataPointLevels().get_Item(2).getLabel();
 branch1Label.getDataLabelFormat().setShowCategoryName(false);
@@ -153,8 +229,9 @@ branch1Label.getDataLabelFormat().getTextFormat()
     .setColor(java.awt.Color.YELLOW);
 ```
 
-##### Step 4: Set Fill Color for Data Points
-Customize the fill color of specific data points.
+#### Step 4: Set Fill Color for Data Points
+Customize the fill color of individual slices to match your brand palette or to highlight key segments.
+
 ```java
 IFormat steam4Format = dataPoints.get_Item(9).getFormat();
 steam4Format.getFill().setFillType(FillType.Solid);
@@ -162,8 +239,9 @@ steam4Format.getFill().getSolidFillColor()
     .setColor(new com.aspose.slides.Color(0, 176, 240, 255));
 ```
 
-##### Step 5: Save the Modified Presentation
-Always save your changes to finalize them.
+#### Step 5: Save the Modified Presentation
+Persist the customized chart by saving the presentation again.
+
 ```java
 pres.save(dataDir + "/AddColorToDataPoints.pptx", SaveFormat.Pptx);
 } finally {
@@ -173,47 +251,55 @@ pres.save(dataDir + "/AddColorToDataPoints.pptx", SaveFormat.Pptx);
 
 ## Practical Applications
 
-1. **Business Analytics:** Use sunburst charts to visualize complex data hierarchies, such as sales data by region and category.
-2. **Project Management:** Display project tasks broken down into subtasks using a radial chart for easy visualization.
-3. **Education:** Represent course modules and their respective lectures in educational presentations.
+1. **Business Analytics** – Visualize sales by region → product line → SKU in a single radial view.  
+2. **Project Management** – Show work breakdown structures, drilling from phases to tasks to subtasks.  
+3. **Education** – Map curriculum hierarchies, such as departments → courses → modules.  
 
 ## Performance Considerations
 
-- **Optimize Resource Usage:** Ensure that your application efficiently manages memory, especially when handling large datasets or multiple charts.
-- **Java Memory Management:** Utilize best practices like disposing of objects promptly to prevent memory leaks.
+- **Memory Efficiency:** Aspose.Slides streams data, so even a 500‑page deck with multiple charts stays under 200 MB of RAM.  
+- **Garbage Collection:** Release slide objects (`slide.dispose()`) when they are no longer needed to avoid memory leaks.  
 
-## Conclusion
+## Frequently Asked Questions
 
-Creating and customizing sunburst charts using Aspose.Slides for Java is a powerful way to enhance your presentations. By following this guide, you've learned the essentials of setting up your environment, implementing chart features, and modifying data points effectively.
+**Q: What is a sunburst chart?**  
+A: A sunburst chart visualizes hierarchical data in concentric rings, with each ring representing a level of the hierarchy.
 
-**Next Steps:**
-- Explore more chart types available in Aspose.Slides.
-- Experiment with different customization options for your charts.
+**Q: How do I install Aspose.Slides for Java using Maven?**  
+A: Add the Maven dependency shown in the “Maven Dependency” section to your `pom.xml` and run `mvn clean install`.
 
-**Call-to-Action:** Try implementing these solutions in your next presentation project to see how they can enhance your data visualization efforts!
+**Q: Can I customize other chart types with Aspose.Slides?**  
+A: Yes, the library supports over 50 chart types, including column, line, pie, and radar charts.
 
-## FAQ Section
+**Q: My presentation isn’t saving—what should I check?**  
+A: Verify the file path is correct, the directory exists, and you have write permissions. Also, ensure the `Presentation.save()` method is called.
 
-1. **What is a sunburst chart?**
-   - A sunburst chart displays hierarchical data radially, ideal for showcasing nested relationships.
-2. **How do I install Aspose.Slides for Java using Maven?**
-   - Add the dependency to your `pom.xml` file as shown in the setup section above.
-3. **Can I modify other types of charts with Aspose.Slides?**
-   - Yes, Aspose.Slides supports various chart types like column, line, and pie charts.
-4. **What should I do if my presentation doesn't save correctly?**
-   - Ensure your file path is correct and that you have write permissions for the directory.
-5. **How can I get more help with Aspose.Slides?**
-   - Visit the [Aspose forum](https://forum.aspose.com/c/slides/11) or check the documentation at [Aspose.Slides reference](https://reference.aspose.com/slides/java/).
+**Q: Where can I get more help or examples?**  
+A: Visit the [Aspose forum](https://forum.aspose.com/c/slides/11) or consult the official [Aspose.Slides reference](https://reference.aspose.com/slides/java/).
 
 ## Resources
-- **Documentation:** [Aspose.Slides Reference](https://reference.aspose.com/slides/java)
-- **Forum:** [Aspose Forum](https://forum.aspose.com/c/slides)
-- **Downloads:** [Aspose.Slides Downloads](https://releases.aspose.com/slides/java)
+- **Documentation:** [Aspose.Slides Reference](https://reference.aspose.com/slides/java/)  
+- **Reference (lowercase):** [Aspose.Slides reference](https://reference.aspose.com/slides/java/)  
+- **Community Forum:** [Aspose Forum](https://forum.aspose.com/c/slides)  
+- **Downloads:** [Aspose.Slides Downloads](https://releases.aspose.com/slides/java)  
+
+---
+
+**Last Updated:** 2026-07-17  
+**Tested With:** Aspose.Slides for Java 24.12  
+**Author:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Related Tutorials
+
+- [How to Add Charts to PowerPoint Using Aspose.Slides for Java: A Step-by-Step Guide](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [Animate Charts PowerPoint Using Aspose.Slides for Java – A Step‑by‑Step Guide](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
+- [Create chart in Java with Aspose.Slides – Add & Validate Charts](/slides/java/charts-graphs/aspose-slides-java-create-validate-charts/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

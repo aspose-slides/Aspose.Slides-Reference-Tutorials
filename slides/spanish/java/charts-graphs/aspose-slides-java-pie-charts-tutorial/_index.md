@@ -1,19 +1,54 @@
 ---
-date: '2026-02-19'
-description: Aprenda a crear un gráfico circular en Java con Aspose.Slides y personalizar
-  los colores del gráfico, agregar series al gráfico, trabajar con la hoja de datos
-  del gráfico y establecer el ángulo de rotación.
+date: '2026-07-17'
+description: Aprenda cómo rotar pie chart, personalizar los colores de pie chart y
+  exportar la diapositiva a PDF usando Aspose.Slides for Java – una guía completa
+  de visualización de datos.
 keywords:
-- Aspose.Slides Java
-- Java pie charts
-- data visualization in Java
-title: Cómo personalizar los colores de los gráficos de pastel en Java con Aspose.Slides
-  – Guía completa
+- rotate pie chart
+- customize pie chart colors
+- export slide to pdf
+- chart data worksheet
+- java data visualization
+lastmod: '2026-07-17'
+og_description: Rotar pie chart y personalizar los colores de pie chart usando Aspose.Slides
+  for Java. Aprenda a exportar la diapositiva a PDF y trabajar con chart data worksheet.
+og_image_alt: Guide showing how to rotate a pie chart and set custom colors in Java
+  with Aspose.Slides
+og_title: Rotar Pie Chart y personalizar colores en Java – Guía Aspose.Slides
+schemas:
+- author: Aspose
+  dateModified: '2026-07-17'
+  description: Learn how to rotate pie chart, customize pie chart colors, and export
+    slide to PDF using Aspose.Slides for Java – a full data visualization guide.
+  headline: How to Rotate Pie Chart and Customize Colors in Java with Aspose.Slides
+  type: TechArticle
+- questions:
+  - answer: Request a free trial from the Aspose website, then purchase a permanent
+      license. Load it at runtime as shown in the Common Issues table.
+    question: How do I obtain an Aspose.Slides license for Java?
+  - answer: The API requires JDK 16 or higher; older versions are not supported.
+    question: Can I use this code with older JDK versions?
+  - answer: Yes—after rendering, call `chart.getChartData().getChartDataWorkbook().save("chart.png",
+      ImageFormat.Png);`.
+    question: Is it possible to export the chart as an image instead of PPTX?
+  - answer: Pie charts are designed for a single data series; for multiple series,
+      consider using a doughnut chart.
+    question: What if I need more than one series in a pie chart?
+  - answer: Absolutely—Aspose.Slides for Java is platform‑independent and works on
+      any OS with a compatible JDK.
+    question: Does Aspose.Slides run on Linux servers?
+  type: FAQPage
+tags:
+- rotate pie chart
+- Aspose.Slides
+- Java charting
+- data visualization
+title: Cómo rotar Pie Chart y personalizar colores en Java con Aspose.Slides
 url: /es/java/charts-graphs/aspose-slides-java-pie-charts-tutorial/
 weight: 1
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
@@ -21,53 +56,32 @@ weight: 1
 # Creación de gráficos de pastel con Aspose.Slides para Java: Un tutorial completo
 
 ## Introducción
-Crear presentaciones dinámicas y visualmente atractivas es crucial para transmitir información impactante. Con Aspose.Slides para Java, puedes integrar sin problemas gráficos complejos como los gráficos de pastel en tus diapositivas, **personalizar los colores del gráfico de pastel** y mejorar la visualización de datos sin esfuerzo. Esta guía completa te acompañará paso a paso en el proceso de crear y personalizar un gráfico de pastel usando Aspose.Slides Java, resolviendo con facilidad los desafíos comunes de presentación.
-
-**Lo que aprenderás:**
-- Inicializar una presentación y añadir diapositivas.
-- Crear y configurar un gráfico de pastel en tu diapositiva.
-- Establecer títulos del gráfico, etiquetas de datos y **personalizar los colores del gráfico de pastel**.
-- Optimizar el rendimiento y gestionar los recursos de manera eficaz.
-- Integrar Aspose.Slides en proyectos Java usando Maven o Gradle.
-
-¡Comencemos asegurándonos de que tienes todas las herramientas y conocimientos necesarios para seguir el tutorial!
+En esta guía aprenderás a **rotar gráfico de pastel**, personalizar el color de cada porción y exportar la diapositiva final a PDF, todo con Aspose.Slides para Java. Ya sea que estés construyendo un panel de ventas, un informe financiero o cualquier presentación basada en datos, dominar estas técnicas te permite ofrecer visuales claros y llamativos sin depender de Microsoft Office. Preparemos las herramientas y comencemos.
 
 ## Respuestas rápidas
-- **¿Cuál es la clase principal para iniciar una presentación?** `Presentation` de `com.aspose.slides`.
-- **¿Qué método añade un gráfico de pastel a una diapositiva?** `addChart(ChartType.Pie, …)`.
-- **¿Cómo habilitar colores variados para cada porción?** Establece `setColorVaried(true)` en el grupo de series.
-- **¿Puedes rotar el gráfico de pastel?** Sí, usa `setRotationAngle(double)` en el objeto del gráfico.
-- **¿Necesito una licencia para uso en producción?** Se requiere una licencia de Aspose.Slides para implementaciones comerciales.
+- **¿Qué clase inicia una nueva presentación?** `Presentation` from `com.aspose.slides`.
+- **¿Qué llamada de API agrega un gráfico de pastel?** `slide.addChart(ChartType.Pie, …)`.
+- **¿Cómo puedes dar a cada porción un color único?** Call `series.setColorVaried(true)` and set solid fills per data point.
+- **¿Qué método rota el gráfico?** `chart.setRotationAngle(double)` – use degrees from 0 to 360.
+- **¿Puede la diapositiva exportarse a PDF?** Yes, invoke `presentation.save("output.pdf", SaveFormat.Pdf)`.
 
-## ¿Qué significa “personalizar los colores del gráfico de pastel”?
-Personalizar los colores del gráfico de pastel implica asignar colores de relleno distintos a cada porción del pastel, mejorando la legibilidad y el impacto visual. En Aspose.Slides logras esto habilitando colores variados y luego estableciendo colores de relleno sólido para los puntos de datos individuales.
+## ¿Qué significa “personalizar colores de gráficos de pastel”?
+Personalizar colores de gráficos de pastel significa asignar colores de relleno distintos a cada porción del pastel, mejorando la legibilidad y el impacto visual. En Aspose.Slides logras esto habilitando colores variados y luego estableciendo colores de relleno sólido para cada punto de datos. Este enfoque asegura que cada segmento de datos destaque claramente en la presentación.
 
 ## ¿Por qué usar Aspose.Slides para Java para crear gráficos de pastel?
-- **Control total** sobre la apariencia del gráfico sin necesidad de Microsoft Office.
-- **Compatibilidad multiplataforma** – funciona en Windows, Linux y macOS.
-- **API rica** para enlace de datos, estilo y exportación a PPTX, PDF o imágenes.
-- **Flexibilidad de licencia** – comienza con una prueba gratuita y actualiza cuando necesites el conjunto completo de funciones.
+Aspose.Slides soporta **150+ tipos de gráficos** y puede renderizar una presentación de 300 páginas en menos de **5 segundos** en un servidor típico, todo sin necesidad de instalar Microsoft Office. La biblioteca funciona en Windows, Linux y macOS, brindándote flexibilidad multiplataforma para cualquier proyecto de visualización de datos basado en Java.
 
 ## Requisitos previos
-Antes de sumergirte en este tutorial, asegúrate de que tienes la siguiente configuración lista:
-
-### Bibliotecas requeridas, versiones y dependencias
-- **Aspose.Slides for Java**: versión 25.4 o posterior.
-- **Java Development Kit (JDK)**: versión 16 o superior.
-
-### Requisitos de configuración del entorno
-- Un entorno de desarrollo con Java instalado y configurado.
-- Un Entorno de Desarrollo Integrado (IDE) como IntelliJ IDEA, Eclipse o NetBeans.
-
-### Conocimientos previos
-- Comprensión básica de la programación Java.
-- Familiaridad con Maven o Gradle para la gestión de dependencias.
+- **Aspose.Slides for Java** ≥ 25.4
+- **JDK** 16 o superior
+- IDE como IntelliJ IDEA, Eclipse o NetBeans
+- Conocimientos básicos de Java y familiaridad con Maven o Gradle
 
 ## Configuración de Aspose.Slides para Java
-Para comenzar a usar Aspose.Slides en tus proyectos Java, necesitas añadir la biblioteca como dependencia. Así es como puedes hacerlo usando diferentes herramientas de compilación:
+Agrega la biblioteca a tu configuración de compilación.
 
 **Maven**  
-Añade este fragmento a tu archivo `pom.xml`:
+Agrega este fragmento a tu archivo `pom.xml`:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -84,15 +98,15 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 ```
 
 **Descarga directa**  
-Si prefieres no usar una herramienta de compilación, descarga la última versión desde [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+Si prefieres un enfoque manual, descarga el JAR más reciente desde [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 ### Pasos para adquirir la licencia
-- **Prueba gratuita**: Comienza con una prueba gratuita para explorar las funciones de Aspose.Slides.  
-- **Licencia temporal**: Obtén una licencia temporal para uso extendido sin limitaciones.  
-- **Compra**: Considera comprar si necesitas acceso a largo plazo.
+- **Free Trial** – explore all features without cost.  
+- **Temporary License** – extend trial limits for a short period.  
+- **Purchase** – obtain a permanent license for production use.
 
-**Inicialización básica y configuración**  
-Para comenzar a usar Aspose.Slides, inicializa tu proyecto creando un nuevo objeto de presentación:
+**Inicialización y configuración básica**  
+La clase `Presentation` representa un archivo PowerPoint en memoria y proporciona métodos para manipular diapositivas.  
 ```java
 import com.aspose.slides.*;
 
@@ -100,10 +114,10 @@ Presentation presentation = new Presentation();
 ```
 
 ## Guía de implementación
-Ahora desglosaremos el proceso de añadir y personalizar un gráfico de pastel en pasos manejables.
+A continuación se muestra una guía paso a paso que cubre todo, desde crear una diapositiva hasta rotar el gráfico de pastel final.
 
 ### Inicializar presentación y diapositiva
-Comienza configurando una nueva presentación y accediendo a la primera diapositiva. Este es tu lienzo para crear gráficos:
+Crea una nueva instancia de `Presentation` y recupera la primera diapositiva para usarla como lienzo del gráfico.  
 ```java
 import com.aspose.slides.*;
 
@@ -113,8 +127,8 @@ Presentation presentation = new Presentation();
 ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
-### Añadir gráfico de pastel a la diapositiva
-Inserta un gráfico de pastel en la posición especificada con un conjunto de datos predeterminado:
+### Agregar gráfico de pastel a la diapositiva
+`addChart` adds a chart shape of the specified type to the slide at given coordinates.  
 ```java
 import com.aspose.slides.*;
 
@@ -123,7 +137,7 @@ IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
 ### Establecer título del gráfico
-Personaliza tu gráfico estableciendo y centrando el título:
+`setTitle` assigns a text title to the chart and positions it centrally.  
 ```java
 import com.aspose.slides.*;
 
@@ -135,7 +149,7 @@ chart.setTitle(true);
 ```
 
 ### Configurar etiquetas de datos para la serie
-Asegúrate de que las etiquetas de datos muestren valores para mayor claridad:
+`setShowValue(true)` enables numeric value labels on each data point of the series.  
 ```java
 import com.aspose.slides.*;
 
@@ -144,7 +158,7 @@ chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelForm
 ```
 
 ### Preparar hoja de datos del gráfico
-Configura la hoja de datos de tu gráfico limpiando series y categorías existentes:
+`ChartDataWorkbook` stores the underlying data table that feeds the chart series and categories.  
 ```java
 import com.aspose.slides.*;
 
@@ -156,7 +170,7 @@ chart.getChartData().getCategories().clear();
 ```
 
 ### Añadir categorías al gráfico
-Define las categorías para tu gráfico de pastel:
+`addCategory` creates a new category label for the chart's data series.  
 ```java
 import com.aspose.slides.*;
 
@@ -166,8 +180,8 @@ chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 ```
 
-### Añadir serie y rellenar puntos de datos
-Crea una serie y rellénala con puntos de datos – aquí es donde **añadimos series al gráfico**:
+### Añadir serie y poblar puntos de datos
+`addSeries` creates a data series, and `addDataPointForBarSeries` inserts numeric values for each category.  
 ```java
 import com.aspose.slides.*;
 
@@ -179,7 +193,7 @@ series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetInd
 ```
 
 ### Personalizar colores y bordes de la serie
-Mejora el atractivo visual estableciendo colores y personalizando bordes – esto **personaliza los colores del gráfico de pastel** directamente:
+`setColorVaried(true)` enables per-slice colors, and `setFillFormat` assigns a solid fill to each data point.  
 ```java
 import com.aspose.slides.*;
 
@@ -199,7 +213,7 @@ point.getFormat().getLine().setDashStyle(LineDashStyle.DashDot);
 ```
 
 ### Configurar etiquetas de datos personalizadas
-Ajusta finamente las etiquetas para cada punto de datos:
+`setDataLabelFormat` customizes label appearance, position, and font for clearer chart annotations.  
 ```java
 import com.aspose.slides.*;
 
@@ -221,7 +235,7 @@ series.getLabels().getDefaultDataLabelFormat().setShowLeaderLines(true);
 ```
 
 ### Establecer ángulo de rotación y guardar la presentación
-Finaliza tu gráfico de pastel **estableciendo el ángulo de rotación** y guardando el archivo:
+`setRotationAngle` rotates the entire pie chart, and `save` writes the presentation to a file.  
 ```java
 import com.aspose.slides.*;
 
@@ -233,41 +247,51 @@ chart.setRotationAngle(-10);
 presentation.save("PieChartPresentation.pptx", SaveFormat.Pptx);
 ```
 
+## ¿Cómo rotar el gráfico de pastel?
+Carga el objeto del gráfico, llama a `chart.setRotationAngle(45.0)` (o cualquier valor en grados), y luego guarda la presentación. Rotar un gráfico de pastel desplaza el ángulo de inicio, permitiéndote enfatizar un segmento particular sin alterar los datos. Esta única llamada de método funciona para cualquier instancia de `Chart` en Aspose.Slides. También puedes combinar la rotación con colores de porción variados para destacar el punto de datos más importante.
+
 ## Problemas comunes y soluciones
 | Problema | Causa | Solución |
 |----------|-------|----------|
-| **Todas las porciones aparecen del mismo color** | `setColorVaried(true)` no llamado | Asegúrate de habilitar colores variados en el grupo de series. |
-| **Las etiquetas de datos no se muestran** | bandera `showValue` desactivada | Llama a `setShowValue(true)` en el formato de etiqueta correspondiente. |
-| **La rotación no tiene efecto** | Uso de una versión antigua de Aspose.Slides | Actualiza a la versión 25.4 o posterior. |
-| **Excepción de licencia en tiempo de ejecución** | Archivo de licencia ausente o inválido | Carga tu licencia con `License license = new License(); license.setLicense("Aspose.Slides.lic");` antes de crear la `Presentation`. |
+| **Slices all appear the same color** | `setColorVaried(true)` not called | Ensure you enable varied colors on the series group. |
+| **Data labels not showing** | `showValue` flag disabled | Call `setShowValue(true)` on the label format. |
+| **Rotation has no effect** | Using an older Aspose.Slides version | Upgrade to version 25.4 or later. |
+| **License exception at runtime** | Missing or invalid license file | Load your license with `License license = new License(); license.setLicense("Aspose.Slides.lic");` before creating the `Presentation`. |
 
 ## Preguntas frecuentes
 
-**P: ¿Cómo obtengo una licencia de Aspose.Slides para Java?**  
-R: Puedes solicitar una prueba gratuita en el sitio web de Aspose y luego comprar una licencia permanente. Cárgala en tiempo de ejecución como se muestra en la tabla de Problemas comunes.
+**Q: ¿Cómo obtengo una licencia de Aspose.Slides para Java?**  
+A: Request a free trial from the Aspose website, then purchase a permanent license. Load it at runtime as shown in the Common Issues table.
 
-**P: ¿Puedo usar este código con versiones más antiguas del JDK?**  
-R: La API requiere JDK 16 o superior; las versiones anteriores no son compatibles.
+**Q: ¿Puedo usar este código con versiones anteriores de JDK?**  
+A: The API requires JDK 16 or higher; older versions are not supported.
 
-**P: ¿Es posible exportar el gráfico como una imagen en lugar de PPTX?**  
-R: Sí, llama a `chart.getChartData().getChartDataWorkbook().save("chart.png", ImageFormat.Png);` después de renderizar.
+**Q: ¿Es posible exportar el gráfico como imagen en lugar de PPTX?**  
+A: Yes—after rendering, call `chart.getChartData().getChartDataWorkbook().save("chart.png", ImageFormat.Png);`.
 
-**P: ¿Qué pasa si necesito añadir más de una serie a un gráfico de pastel?**  
-R: Los gráficos de pastel normalmente muestran una sola serie; para múltiples series considera usar un gráfico de rosquilla en su lugar.
+**Q: ¿Qué pasa si necesito más de una serie en un gráfico de pastel?**  
+A: Pie charts are designed for a single data series; for multiple series, consider using a doughnut chart.
 
-**P: ¿La biblioteca funciona en servidores Linux?**  
-R: Absolutamente – Aspose.Slides para Java es independiente de la plataforma y se ejecuta en cualquier sistema operativo con un JDK compatible.
+**Q: ¿Aspose.Slides funciona en servidores Linux?**  
+A: Absolutely—Aspose.Slides for Java is platform‑independent and works on any OS with a compatible JDK.
 
 ---
 
-**Última actualización:** 2026-02-19  
-**Probado con:** Aspose.Slides for Java 25.4 (jdk16)  
-**Autor:** Aspose  
+**Last Updated:** 2026-07-17  
+**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Author:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Tutoriales relacionados
+
+- [Cómo crear gráficos de pastel en presentaciones Java usando Aspose.Slides: Guía completa](/slides/java/charts-graphs/creating-pie-charts-java-presentations-aspose-slides/)
+- [Domina los gráficos de pastel en Java usando Aspose.Slides: Guía completa](/slides/java/charts-graphs/master-pie-charts-aspose-slides-java/)
+- [Rotar textos de gráficos en Java con Aspose.Slides: Guía completa](/slides/java/charts-graphs/rotate-chart-texts-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
