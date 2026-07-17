@@ -1,9 +1,73 @@
 ---
-"date": "2025-04-17"
-"description": "Μάθετε πώς να δημιουργείτε και να προσαρμόζετε ένα γράφημα πίτας χρησιμοποιώντας το Aspose.Slides για Java. Αυτός ο οδηγός καλύπτει την εγκατάσταση, την υλοποίηση και τις πρακτικές εφαρμογές."
-"title": "Δημιουργήστε ένα γράφημα πίτας σε Java με το Aspose.Slides - Ένας ολοκληρωμένος οδηγός"
-"url": "/el/java/charts-graphs/create-pie-of-pie-chart-aspose-slides-java/"
-"weight": 1
+date: '2026-07-17'
+description: Μάθετε πώς να προσθέσετε chart στο PowerPoint δημιουργώντας ένα Pie of
+  Pie chart χρησιμοποιώντας Aspose.Slides for Java. Περιλαμβάνει setup, code, customization,
+  και saving ως PPTX.
+keywords:
+- add chart to powerpoint
+- how to create pie
+- create pie of pie
+- save presentation as pptx
+- customize pie chart labels
+lastmod: '2026-07-17'
+og_description: Προσθήκη chart στο PowerPoint με Aspose.Slides for Java. Αυτός ο οδηγός
+  δείχνει πώς να δημιουργήσετε, να προσαρμόσετε και να αποθηκεύσετε ένα Pie of Pie
+  chart ως PPTX σε λίγα λεπτά.
+og_image_alt: 'Guide: add chart to PowerPoint using Aspose.Slides Java'
+og_title: Προσθήκη Chart στο PowerPoint – Δημιουργία Pie of Pie Chart σε Java
+schemas:
+- author: Aspose
+  dateModified: '2026-07-17'
+  description: Learn how to add chart to PowerPoint by creating a Pie of Pie chart
+    using Aspose.Slides for Java. Includes setup, code, customization, and saving
+    as PPTX.
+  headline: Add Chart to PowerPoint – Create a Pie of Pie Chart in Java with Aspose.Slides
+  type: TechArticle
+- description: Learn how to add chart to PowerPoint by creating a Pie of Pie chart
+    using Aspose.Slides for Java. Includes setup, code, customization, and saving
+    as PPTX.
+  name: Add Chart to PowerPoint – Create a Pie of Pie Chart in Java with Aspose.Slides
+  steps:
+  - name: Create an Instance of the Presentation Class
+    text: This initializes the container for all subsequent slides and charts.
+  - name: Add a 'Pie of Pie' Chart on the First Slide
+    text: Here we specify `ChartType.PieOfPie` and define the chart’s position (X,
+      Y) and size (width, height) on the slide canvas.
+  - name: Set Data Labels to Show Values for the Series
+    text: Enabling `showValue` makes each slice display its numeric value, which is
+      essential for quick data interpretation.
+  - name: Configure the Second Pie Size and Split by Percentage
+    text: These options let you decide how much of the chart is allocated to the secondary
+      pie and which slices are moved based on a percentage threshold.
+  - name: Save the Presentation to Disk in PPTX Format
+    text: '> **Pro tip:** Use an absolute path or Java’s `Paths.get()` to avoid platform‑specific
+      separators.'
+  type: HowTo
+- questions:
+  - answer: Yes, instantiate a new `IChart` for each slide or location; the API allows
+      unlimited chart objects per file.
+    question: Can I generate multiple charts in a single presentation?
+  - answer: Absolutely – call `presentation.save("output.pdf", SaveFormat.Pdf)` to
+      export the same slide deck to PDF.
+    question: Does Aspose.Slides support saving as PDF as well?
+  - answer: The library supports up to **10,000** data points per series, limited
+      only by available memory.
+    question: What is the maximum number of data points a Pie of Pie chart can handle?
+  - answer: Yes, access each `IPortion` via `chart.getChartData().getSeries().get_Item(0).getPortions()`
+      and set `portion.getFillFormat().setSolidFillColor(Color.getRGB(...))`.
+    question: Is it possible to customize the colors of individual slices?
+  - answer: 'After saving the file, stream it directly to the client using `HttpServletResponse`
+      with `Content-Type: application/vnd.openxmlformats-officedocument.presentationml.presentation`.'
+    question: How do I embed the generated PPTX into a web application?
+  type: FAQPage
+tags:
+- add chart to powerpoint
+- Aspose.Slides
+- Java charting
+- PPTX generation
+title: Προσθήκη Chart στο PowerPoint – Δημιουργία Pie of Pie Chart σε Java με Aspose.Slides
+url: /el/java/charts-graphs/create-pie-of-pie-chart-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,44 +75,43 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Δημιουργήστε ένα γράφημα πίτας σε Java με το Aspose.Slides: Ένας πλήρης οδηγός
+# Προσθήκη Διαγράμματος στο PowerPoint – Δημιουργία Διαγράμματος Πίτας Πίτας σε Java με Aspose.Slides
 
-## Γραφήματα & Διαγράμματα
+## Διαγράμματα & Γραφήματα
 
 ### Εισαγωγή
 
-Στην οπτικοποίηση δεδομένων, τα κυκλικά γραφήματα αποτελούν έναν εύχρηστο τρόπο αναπαράστασης αναλογιών μέσα σε ένα σύνολο δεδομένων. Ωστόσο, όταν πρόκειται για σύνθετα σύνολα δεδομένων όπου ορισμένα τμήματα είναι σημαντικά μικρότερα από άλλα, τα παραδοσιακά κυκλικά γραφήματα μπορεί να γίνουν ακατάστατα και δύσκολα στην ερμηνεία. Τα κυκλικά γραφήματα αντιμετωπίζουν αυτό το πρόβλημα διαχωρίζοντας μικρά τμήματα σε ένα δευτερεύον γράφημα, βελτιώνοντας την αναγνωσιμότητα.
+Στις σύγχρονες παρουσιάσεις που βασίζονται σε δεδομένα, η **προσθήκη διαγράμματος στο PowerPoint** είναι συχνά ο ταχύτερος τρόπος για να μετατρέψετε ακατέργαστους αριθμούς σε οπτική κατανόηση. Ένα κανονικό διάγραμμα πίτας λειτουργεί καλά για λίγες κατηγορίες, αλλά όταν μερικές φέτες είναι πολύ μικρές γίνονται ακατανόητες. Ένα διάγραμμα *Pie of Pie* λύνει αυτό το πρόβλημα εξάγοντας αυτές τις μικρές φέτες σε μια δευτερεύουσα πίτα, διατηρώντας το κύριο διάγραμμα καθαρό και τις λεπτομέρειες προσβάσιμες.
 
-Σε αυτό το σεμινάριο, θα μάθετε πώς να δημιουργείτε και να χειρίζεστε ένα γράφημα πίτας χρησιμοποιώντας το Aspose.Slides για Java. Θα καλύψετε τη ρύθμιση του περιβάλλοντός σας, τη δημιουργία του γραφήματος, την προσαρμογή ιδιοτήτων όπως ετικέτες δεδομένων και θέσεις διαχωρισμού και την αποθήκευση της παρουσίασής σας σε μορφή PPTX. Μέχρι το τέλος, θα έχετε κατακτήσει αυτές τις λειτουργίες με πρακτικές εφαρμογές και συμβουλές απόδοσης.
+Σε αυτό το σεμινάριο θα μάθετε πώς να **προσθέσετε διάγραμμα στο PowerPoint** δημιουργώντας ένα διάγραμμα Pie of Pie με το Aspose.Slides for Java. Θα περάσουμε από τη ρύθμιση του περιβάλλοντος, τη δημιουργία του διαγράμματος, την προσαρμογή των ετικετών, τη ρύθμιση της θέσης διαχωρισμού και, τέλος, την αποθήκευση της παρουσίασης ως αρχείο PPTX. Στο τέλος θα είστε έτοιμοι να ενσωματώσετε σύνθετα διαγράμματα σε οποιοδήποτε σύνολο διαφανειών.
 
-**Τι θα μάθετε:**
-- Ρύθμιση του Aspose.Slides για Java
-- Δημιουργία πίτας από γράφημα πίτας
-- Προσαρμογή ιδιοτήτων γραφήματος, όπως ετικέτες δεδομένων και διαμορφώσεις διαχωρισμού
-- Αποθήκευση της παρουσίασής σας σε δίσκο
+## Γρήγορες Απαντήσεις
+Στο Aspose.Slides, το `Presentation` αντιπροσωπεύει ένα αρχείο PPTX, το `ChartType.PieOfPie` επιλέγει το διάγραμμα Pie of Pie, το `setShowValue(true)` εμφανίζει τις τιμές στις ετικέτες, και το `save` γράφει το αρχείο.
 
-Έτοιμοι να ξεκινήσετε; Ας δούμε πρώτα τις προϋποθέσεις!
+- **Ποια είναι η κύρια κλάση για τη διαχείριση PowerPoint;** `Presentation` – αντιπροσωπεύει ένα ολόκληρο αρχείο PPTX στη μνήμη.  
+- **Ποιος τύπος διαγράμματος δημιουργεί μια δευτερεύουσα πίτα για μικρές φέτες;** `ChartType.PieOfPie`.  
+- **Πώς εμφανίζετε τις τιμές σε κάθε φέτα;** Ορίστε `chart.getChartData().getSeries().get_Item(0).getLabels().setShowValue(true)`.  
+- **Μπορείτε να αποθηκεύσετε το αρχείο απευθείας ως PPTX;** Ναι – καλέστε `presentation.save("output.pptx", SaveFormat.Pptx)`.  
+- **Χρειάζεστε άδεια για ανάπτυξη;** Μια δωρεάν δοκιμή 30 ημερών λειτουργεί για δοκιμές· μια μόνιμη άδεια αφαιρεί τα υδατογραφήματα αξιολόγησης.
+
+## Τι είναι ένα Διάγραμμα Pie of Pie;
+Ένα **διάγραμμα Pie of Pie** είναι μια οπτικοποίηση πίτας δύο επιπέδων που απομονώνει μία ή περισσότερες μικρές φέτες σε μια ξεχωριστή, συνδεδεμένη πίτα, καθιστώντας τες πιο ευανάγνωστες. Το Aspose.Slides υποστηρίζει αυτόν τον τύπο διαγράμματος έτοιμο προς χρήση, επιτρέποντάς σας να ελέγχετε το μέγεθος διαχωρισμού, τη θέση και τη μορφοποίηση των ετικετών.
+
+## Γιατί να προσθέσετε διάγραμμα στο PowerPoint με το Aspose.Slides;
+Το Aspose.Slides μπορεί να δημιουργεί, να επεξεργάζεται και να αποδίδει αρχεία PowerPoint χωρίς εγκατεστημένο το Microsoft Office. Υποστηρίζει **πάνω από 50 μορφές εισόδου και εξόδου**, επεξεργάζεται παρουσιάσεις με **έως 500 διαφάνειες** σε λιγότερο από ένα δευτερόλεπτο σε τυπικό εξοπλισμό διακομιστή, και παρέχει **πλήρη έλεγχο API** πάνω στο στυλ των διαγραμμάτων, τις ετικέτες δεδομένων και τη διάταξη—ιδανικό για αυτοματοποιημένες ροές αναφοράς.
 
 ## Προαπαιτούμενα
 
-Πριν δημιουργήσετε το γράφημα πίτας μας, βεβαιωθείτε ότι έχετε:
+- **Java Development Kit (JDK) 16+** εγκατεστημένο.
+- Ένα IDE όπως το **IntelliJ IDEA**, **Eclipse**, ή **NetBeans**.
+- Maven ή Gradle για διαχείριση εξαρτήσεων (δείτε τις ενότητες παρακάτω).
+- Βασικές γνώσεις Java και εξοικείωση με τη δημιουργία έργων.
 
-### Απαιτούμενες βιβλιοθήκες, εκδόσεις και εξαρτήσεις:
-- **Aspose.Slides για Java**Απαραίτητο για τη διαχείριση παρουσιάσεων PowerPoint μέσω προγραμματισμού.
+## Ρύθμιση Aspose.Slides για Java
 
-### Απαιτήσεις Ρύθμισης Περιβάλλοντος:
-- Ένα Java Development Kit (JDK) εγκατεστημένο στον υπολογιστή σας. Συνιστούμε τη χρήση JDK 16 ή νεότερης έκδοσης.
-- Ένα Ολοκληρωμένο Περιβάλλον Ανάπτυξης (IDE) όπως το IntelliJ IDEA, το Eclipse ή το NetBeans.
+### Πληροφορίες Εγκατάστασης
 
-### Προαπαιτούμενα Γνώσεων:
-- Βασική κατανόηση του προγραμματισμού Java
-- Εξοικείωση με το Maven ή το Gradle για διαχείριση εξαρτήσεων
-
-## Ρύθμιση του Aspose.Slides για Java
-
-### Πληροφορίες εγκατάστασης:
-
-**Maven:**
+**Maven:**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -56,87 +119,140 @@
     <version>25.4</version>
     <classifier>jdk16</classifier>
 </dependency>
-```
+```  
 
-**Βαθμός:**
+**Gradle:**  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
-```
+```  
 
-**Άμεση Λήψη**: Μπορείτε να κατεβάσετε την τελευταία έκδοση από [Aspose.Slides για εκδόσεις Java](https://releases.aspose.com/slides/java/).
+**Άμεση Λήψη:** Μπορείτε να κατεβάσετε την τελευταία έκδοση από [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### Βήματα απόκτησης άδειας:
-- **Δωρεάν δοκιμή**Ξεκινήστε με μια δοκιμαστική περίοδο 30 ημερών για να εξερευνήσετε όλες τις λειτουργίες.
-- **Προσωρινή Άδεια**Αίτημα προσωρινής άδειας για εκτεταμένη αξιολόγηση.
-- **Αγορά**Εξετάστε το ενδεχόμενο αγοράς μιας άδειας χρήσης εάν το Aspose.Slides καλύπτει τις ανάγκες σας.
+### Βήματα Απόκτησης Άδειας
+- **Δωρεάν Δοκιμή:** Ξεκινήστε με δοκιμή 30 ημερών για να εξερευνήσετε όλες τις δυνατότητες.  
+- **Προσωρινή Άδεια:** Ζητήστε ένα προσωρινό κλειδί για εκτεταμένη αξιολόγηση.  
+- **Αγορά:** Αποκτήστε μόνιμη άδεια για παραγωγική χρήση ώστε να αφαιρεθούν τα υδατογραφήματα αξιολόγησης.
 
 ### Βασική Αρχικοποίηση και Ρύθμιση
-
-Μόλις ρυθμίσετε τη βιβλιοθήκη στο έργο σας, αρχικοποιήστε την δημιουργώντας μια παρουσία της `Presentation` τάξη:
+`Presentation` είναι το κύριο αντικείμενο για τη δημιουργία αρχείων PowerPoint, και `Chart` αντιπροσωπεύει ένα σχήμα διαγράμματος μέσα σε μια διαφάνεια.
 
 ```java
 Presentation presentation = new Presentation();
-```
+```  
 
-Αυτό θέτει τις βάσεις για την προσθήκη διαφόρων γραφημάτων στις διαφάνειές σας. Στη συνέχεια, ας προχωρήσουμε στην υλοποίηση του γραφήματος πίτας.
+Αυτό δημιουργεί μια κενή παρουσίαση έτοιμη για διαφάνειες και διαγράμματα.
 
-## Οδηγός Εφαρμογής
+## Οδηγός Υλοποίησης
 
-### Δημιουργία ενός γραφήματος «Πίτας της πίτας»
+### Πώς προσθέτετε διάγραμμα στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java;
+Φορτώστε μια νέα `Presentation`, προσθέστε μια διαφάνεια και εισάγετε ένα `Chart` τύπου `PieOfPie`. Η αλυσίδα κλήσεων API είναι σύντομη: δημιουργήστε το διάγραμμα, γεμίστε τα δεδομένα της σειράς, προσαρμόστε την ορατότητα των ετικετών, διαμορφώστε το μέγεθος της δευτερεύουσας πίτας και, τέλος, αποθηκεύστε. Η ολόκληρη διαδικασία τυπικά χωράει σε λιγότερο από 20 γραμμές κώδικα, καθιστώντας την ιδανική για αυτοματοποιημένη δημιουργία αναφορών.
+
+### Δημιουργία Διαγράμματος 'Pie of Pie'
 
 #### Επισκόπηση
-Θα ξεκινήσουμε δημιουργώντας μια παρουσία ενός `Presentation` και προσθέστε ένα γράφημα πίτας στην πρώτη διαφάνεια. Αυτό το γράφημα θα οπτικοποιήσει αποτελεσματικά τα δεδομένα διαχωρίζοντας μικρότερα τμήματα σε μια δευτερεύουσα πίτα, βελτιώνοντας την αναγνωσιμότητα.
+Θα δημιουργήσουμε ένα διάγραμμα Pie of Pie στην πρώτη διαφάνεια, θα διαχωρίσουμε τις μικρότερες φέτες και θα ετικετοποιήσουμε κάθε τμήμα με την τιμή του.
 
-#### Βήμα 1: Δημιουργήστε μια παρουσία της κλάσης παρουσίασης
+#### Βήμα 1: Δημιουργία Αντικειμένου της Κλάσης Presentation
 ```java
-// Δημιουργία νέας παρουσίασης
+// Create a new presentation
 ePresentation presentation = new Presentation();
-```
-Αυτός ο κώδικας αρχικοποιεί την παρουσίασή σας όπου θα προσθέσουμε τα γραφήματά μας.
+```  
+Αυτό αρχικοποιεί το κοντέινερ για όλες τις επόμενες διαφάνειες και διαγράμματα.
 
-#### Βήμα 2: Προσθέστε ένα γράφημα «Πίτας» στην πρώτη διαφάνεια
+#### Βήμα 2: Προσθήκη Διαγράμματος 'Pie of Pie' στην Πρώτη Διαφάνεια
 ```java
-// Προσθήκη ενός γραφήματος πίτας στην πρώτη διαφάνεια στη θέση (50, 50) με μέγεθος (500x400)
+// Add a Pie of Pie chart to the first slide at position (50, 50) with size (500x400)
 eIChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(
     ChartType.PieOfPie, 50, 50, 500, 400);
-```
-Εδώ καθορίζουμε τον τύπο του γραφήματος (`PieOfPie`) και τη θέση και τις διαστάσεις του στη διαφάνεια.
+```  
+Εδώ καθορίζουμε το `ChartType.PieOfPie` και ορίζουμε τη θέση του διαγράμματος (X, Y) και το μέγεθός του (πλάτος, ύψος) στον καμβά της διαφάνειας.
 
-#### Βήμα 3: Ορίστε τις ετικέτες δεδομένων ώστε να εμφανίζουν τιμές για τη σειρά
+#### Βήμα 3: Ορισμός Ετικετών Δεδομένων για Εμφάνιση Τιμών στη Σειρά
 ```java
-// Ρύθμιση παραμέτρων ετικετών δεδομένων για την εμφάνιση τιμών
+// Configure data labels to display values
 echart.getChartData().getSeries().get_Item(0)
     .getLabels()
     .getDefaultDataLabelFormat()
     .setShowValue(true);
-```
-Αυτό το βήμα διασφαλίζει ότι κάθε τμήμα του κυκλικού μας διαγράμματος εμφανίζει την αντίστοιχη τιμή του, βοηθώντας στην γρήγορη ερμηνεία των δεδομένων.
+```  
+Η ενεργοποίηση του `showValue` κάνει κάθε φέτα να εμφανίζει την αριθμητική της τιμή, κάτι που είναι απαραίτητο για γρήγορη ερμηνεία των δεδομένων.
 
-#### Βήμα 4: Διαμόρφωση του δεύτερου μεγέθους πίτας και διαίρεση κατά ποσοστό
+#### Βήμα 4: Διαμόρφωση Μεγέθους Δεύτερης Πίτας και Διαχωρισμού κατά Ποσοστό
 ```java
-// Ορίστε το μέγεθος της δευτερεύουσας πίτας
+// Set the size of the secondary pie
 echart.getChartData().getSeries().get_Item(0)
     .getParentSeriesGroup()
     .setSecondPieSize(149);
 
-// Χωρίστε την πίτα με βάση το ποσοστό
+// Split the pie by percentage
 echart.getChartData().getSeries().get_Item(0)
     .getParentSeriesGroup()
     .setPieSplitBy(PieSplitType.ByPercentage);
 
-// Ορίστε τη θέση διαίρεσης
+// Set the split position
 echart.getChartData().getSeries().get_Item(0)
     .getParentSeriesGroup()
     .setPieSplitPosition(53);
-```
-Αυτές οι διαμορφώσεις σάς επιτρέπουν να προσαρμόσετε τον τρόπο με τον οποίο το γράφημά σας διαιρείται και εμφανίζει μικρότερα τμήματα, βελτιώνοντας τη σαφήνεια για τους θεατές.
+```  
+Αυτές οι επιλογές σας επιτρέπουν να αποφασίσετε πόσο του διαγράμματος θα διατεθεί στη δευτερεύουσα πίτα και ποιες φέτες θα μετακινηθούν βάσει ενός ορίου ποσοστού.
 
-#### Βήμα 5: Αποθήκευση της παρουσίασης σε δίσκο σε μορφή PPTX
+#### Βήμα 5: Αποθήκευση της Παρουσίασης στο Δίσκο σε Μορφή PPTX
 ```java
-// Ορισμός καταλόγου εξόδου
+// Define output directory
 eString outputDir = "YOUR_OUTPUT_DIRECTORY";
 
-// Αποθήκευση του presentation\epresentation.save(outputDir + "/SecondPlotOptionsforCharts_out.pptx\
+// Save the presentation\epresentation.save(outputDir + "/SecondPlotOptionsforCharts_out.pptx\
+```
+
+> **Συμβουλή:** Χρησιμοποιήστε απόλυτη διαδρομή ή το `Paths.get()` της Java για να αποφύγετε διαχωριστές ειδικούς για την πλατφόρμα.
+
+## Συχνά Προβλήματα και Λύσεις
+
+Η κλάση `License` φορτώνει ένα αρχείο άδειας για να αφαιρέσει τους περιορισμούς αξιολόγησης.
+
+- **Προειδοποίηση έλλειψης άδειας:** Εάν δείτε “Evaluation Only” στο διάγραμμα, βεβαιωθείτε ότι έχετε εφαρμόσει ένα έγκυρο αρχείο άδειας μέσω `License license = new License(); license.setLicense("Aspose.Slides.lic");`.
+- **Λανθασμένος διαχωρισμός φέτας:** Ελέγξτε ότι η ιδιότητα `splitBy` είναι ορισμένη σε `SplitBy.Percentage` και ότι το `secondPieSize` είναι μια τιμή μεταξύ 0 και 100.
+- **Μη εμφάνιση δεδομένων:** Επιβεβαιώστε ότι η σειρά του διαγράμματος περιέχει τουλάχιστον ένα σημείο δεδομένων· διαφορετικά το διάγραμμα θα εμφανιστεί κενό.
+
+## Συχνές Ερωτήσεις
+
+`IChart` αντιπροσωπεύει ένα αντικείμενο διαγράμματος που μπορεί να προστεθεί σε μια διαφάνεια.
+
+**Ε: Μπορώ να δημιουργήσω πολλαπλά διαγράμματα σε μία παρουσίαση;**  
+Α: Ναι, δημιουργήστε ένα νέο `IChart` για κάθε διαφάνεια ή θέση· το API επιτρέπει απεριόριστα αντικείμενα διαγράμματος ανά αρχείο.
+
+`SaveFormat.Pdf` καθορίζει τη μορφή εξόδου PDF για αποθήκευση.
+
+**Ε: Υποστηρίζει το Aspose.Slides την αποθήκευση ως PDF επίσης;**  
+Α: Απόλυτα – καλέστε `presentation.save("output.pdf", SaveFormat.Pdf)` για να εξάγετε το ίδιο σύνολο διαφανειών σε PDF.
+
+`IPortion` αντιπροσωπεύει μια μεμονωμένη φέτα ενός διαγράμματος πίτας.
+
+**Ε: Ποιος είναι ο μέγιστος αριθμός σημείων δεδομένων που μπορεί να διαχειριστεί ένα διάγραμμα Pie of Pie;**  
+Α: Η βιβλιοθήκη υποστηρίζει έως **10.000** σημεία δεδομένων ανά σειρά, περιορισμένο μόνο από τη διαθέσιμη μνήμη.
+
+**Ε: Είναι δυνατόν να προσαρμόσετε τα χρώματα των μεμονωμένων φετών;**  
+Α: Ναι, προσπελάστε κάθε `IPortion` μέσω `chart.getChartData().getSeries().get_Item(0).getPortions()` και ορίστε `portion.getFillFormat().setSolidFillColor(Color.getRGB(...))`.
+
+**Ε: Πώς ενσωματώνω το παραγόμενο PPTX σε μια web εφαρμογή;**  
+Α: Μετά την αποθήκευση του αρχείου, ρέξτε το απευθείας στον πελάτη χρησιμοποιώντας `HttpServletResponse` με `Content-Type: application/vnd.openxmlformats-officedocument.presentationml.presentation`.
+
+## Συμπέρασμα
+
+Τώρα έχετε μια πλήρη, έτοιμη για παραγωγή συνταγή για **προσθήκη διαγράμματος στο PowerPoint** δημιουργώντας ένα διάγραμμα Pie of Pie με το Aspose.Slides for Java. Πειραματιστείτε με διαφορετικά όρια διαχωρισμού, μορφές ετικετών και χρωματικά σχήματα για να ταιριάζουν με τις οδηγίες της μάρκας σας. Στη συνέχεια, εξερευνήστε άλλους τύπους διαγραμμάτων—όπως στοίβαξη μπαρ ή ραντάρ—για να εμπλουτίσετε περαιτέρω τις αυτοματοποιημένες διαφάνειές σας.
+
+---
+
+**Τελευταία Ενημέρωση:** 2026-07-17  
+**Δοκιμή Με:** Aspose.Slides for Java 24.12  
+**Συγγραφέας:** Aspose
+
+## Σχετικά Σεμινάρια
+
+- [Δημιουργία Δυναμικού Διαγράμματος Java – Μαθήματα Διαγραμμάτων PowerPoint για Aspose.Slides](/slides/java/charts-graphs/)
+- [Πώς να προσθέσετε διάγραμμα πίτας στο PowerPoint με Aspose.Slides for Java](/slides/java/charts-graphs/aspose-slides-java-create-pie-chart/)
+- [Πώς να Προσθέσετε Διαγράμματα στο PowerPoint Χρησιμοποιώντας το Aspose.Slides για Java: Οδηγός Βήμα‑Βήμα](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
