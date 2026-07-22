@@ -1,13 +1,55 @@
 ---
-title: "How to create stacked column chart in Java with Aspose.Slides – A Comprehensive Guide"
-description: "Learn how to create stacked column chart in Java using Aspose.Slides. This tutorial covers the Aspose Slides Maven dependency, adding a percentage stacked chart, formatting chart data labels, and saving the presentation as PPTX."
-date: "2026-02-22"
-weight: 1
-url: "/java/charts-graphs/aspose-slides-java-stacked-column-charts/"
+date: '2026-07-22'
+description: Learn the Aspose Slides Maven Dependency to create a stacked column chart
+  in Java, add data labels, change vertical axis number format, and export the result
+  as a PPTX file.
+images:
+- /java/charts-graphs/aspose-slides-java-stacked-column-charts/og-image.png
 keywords:
-- Aspose.Slides
+- aspose slides maven dependency
+- add data labels to chart
+- change vertical axis number format
+- how to add percentage stacked chart
+lastmod: '2026-07-22'
+og_description: Aspose Slides Maven Dependency lets you build a stacked column chart
+  in Java, customize data labels, adjust vertical axis format, and save as PPTX –
+  all with concise, production‑ready code.
+og_image_alt: 'Developer guide: Build a stacked column chart in Java using Aspose.Slides
+  Maven dependency'
+og_title: 'Aspose Slides Maven Dependency: Stacked Column Chart in Java'
+schemas:
+- author: Aspose
+  dateModified: '2026-07-22'
+  description: Learn the Aspose Slides Maven Dependency to create a stacked column
+    chart in Java, add data labels, change vertical axis number format, and export
+    the result as a PPTX file.
+  headline: 'Aspose Slides Maven Dependency: Stacked Column Chart in Java'
+  type: TechArticle
+- questions:
+  - answer: Yes. The library supports JDK 8+; just use the appropriate classifier
+      (e.g., `jdk16` for JDK 16 or later).
+    question: Can I use this code with Java 11 or newer?
+  - answer: Use `chart.getImage().save("chart.png", ImageFormat.Png);` after adding
+      the chart to the slide.
+    question: How do I export the chart as an image instead of a PPTX?
+  - answer: Absolutely. Call `chart.getChartTitle().addTextFrameForOverriding("My
+      Chart");` and configure `chart.getLegend()` as needed.
+    question: Is it possible to add a legend to the stacked column chart?
+  - answer: You can modify the `ChartDataWorkbook` cells and then call `chart.refresh();`
+      to reflect changes.
+    question: What if I need to update data after the presentation is generated?
+  - answer: Yes. The library is pure Java and runs on any OS with a compatible JRE.
+    question: Does Aspose.Slides work on Linux servers?
+  type: FAQPage
+tags:
 - stacked column chart
-- Java presentation
+- Aspose.Slides
+- Java charting
+- Maven dependency
+- presentation generation
+title: 'Aspose Slides Maven Dependency: Stacked Column Chart in Java'
+url: /java/charts-graphs/aspose-slides-java-stacked-column-charts/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -15,32 +57,30 @@ keywords:
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# How to create stacked column chart in Java with Aspose.Slides – A Comprehensive Guide
+# Aspose Slides Maven Dependency: Stacked Column Chart in Java
 
 ## Introduction
 
-Elevate your presentations by incorporating insightful data visualizations with the power of Aspose.Slides for Java. In this guide you’ll **create stacked column chart** slides that look professional, whether you’re preparing business reports or showcasing project statistics. By the end of this tutorial you’ll be able to:
+Elevate your presentations by incorporating insightful data visualizations with the power of **Aspose.Slides for Java**. In this guide you’ll **create a stacked column chart** that looks professional, whether you’re preparing business reports or showcasing project statistics. By the end of this tutorial you’ll be able to:
 
-- Set up your environment with the Aspose Slides Maven dependency
+- Set up your environment with the **Aspose Slides Maven dependency**
 - Create a presentation from scratch
-- **Add percentage stacked chart** and customize its appearance
-- **Format chart data labels** and **change vertical axis format**
-- **Save presentation as PPTX** with a single line of code
-
-Let’s walk through each step so you can start building compelling presentations right away.
+- **Add a percentage‑stacked chart** and customize its appearance
+- **Format chart data labels** and **change the vertical axis number format**
+- **Save the presentation as a PPTX** with a single line of code
 
 ## Quick Answers
-- **What library do I need?** `aspose-slides` Maven/Gradle dependency (see “aspose slides maven dependency” below)  
-- **Which chart type is used?** `ChartType.PercentsStackedColumn` for a percentage‑stacked column chart  
-- **How do I change the axis number format?** Use `IAxis.setNumberFormat()` and disable linking to source  
-- **Can I customize data labels?** Yes – iterate through `IChartDataPoint` objects and set a custom `ITextFrame`  
-- **How do I save the file?** Call `presentation.save("output.pptx", SaveFormat.Pptx)`
+- **What library do I need?** Add the `aspose-slides` Maven/Gradle dependency (see “Aspose Slides Maven Dependency” below).  
+- **Which chart type creates a stacked view?** Use `ChartType.PercentsStackedColumn` for a percentage‑stacked column chart.  
+- **How can I change the axis number format?** Call `IAxis.setNumberFormat()` and set `setNumberFormatLinkedToSource(false)`.  
+- **Can I customize data labels?** Yes – iterate through each `IChartDataPoint` and assign a custom `ITextFrame`.  
+- **How do I save the file?** Invoke `presentation.save("output.pptx", SaveFormat.Pptx)`.
 
 ## What is a stacked column chart?
-A stacked column chart visualizes multiple data series stacked on top of each other in vertical columns. When you use the **percentage‑stacked** variant, each column always totals 100 %, making it easy to compare proportional contributions across categories.
+A stacked column chart visualizes multiple data series stacked vertically in each category column, with the **percentage‑stacked** variant normalizing each column to 100 % for easy proportion comparison. This format lets viewers quickly assess how each component contributes to the whole across different categories, making trends and relative sizes instantly clear.
 
 ## Why use Aspose.Slides for Java?
-Aspose.Slides provides a pure‑Java API that works on any platform without Microsoft Office installed. It offers fine‑grained control over chart objects, supports a wide range of formats, and lets you generate presentations programmatically—perfect for automated reporting or server‑side document generation.
+Aspose.Slides for Java lets you generate, edit, and convert PowerPoint files **without needing Microsoft Office** and supports **50+ output formats** on Windows, Linux, and macOS. The library runs entirely on a JRE, enabling server‑side automation and high‑throughput reporting. It also provides fine‑grained control over chart objects, slide layouts, and document properties, making it ideal for enterprise‑level presentation generation.
 
 ## Prerequisites
 - **Java Development Kit (JDK):** 8 or higher  
@@ -81,7 +121,7 @@ You can start with a free trial to explore Aspose.Slides features. To remove eva
 - **Purchase:** Visit the purchase page for full access.
 
 ### Basic Initialization
-Here’s a minimal snippet that shows how to create a `Presentation` object:
+`Presentation` is Aspose.Slides' core class representing a PowerPoint file in memory. The following minimal snippet shows how to create a `Presentation` object:
 
 ```java
 import com.aspose.slides.Presentation;
@@ -129,6 +169,8 @@ presentation.save("YOUR_OUTPUT_DIRECTORY/CreatePresentation_out.pptx", SaveForma
 **Overview:**  
 Now we’ll place a **percentage stacked chart** onto the first slide.
 
+`ChartType.PercentsStackedColumn` specifies a percentage‑stacked column chart type.
+
 #### Step 1: Initialize and Access Slide
 ```java
 import com.aspose.slides.ISlide;
@@ -154,7 +196,9 @@ IChart chart = slide.getShapes().addChart(
 
 ### Customizing Chart Axis Number Format
 **Overview:**  
-For better readability we’ll **change vertical axis format** to show percentages.
+For better readability we’ll **change the vertical axis format** to show percentages.
+
+`IAxis` is the interface representing a chart axis, allowing format and scaling adjustments.
 
 #### Step 1: Add and Access Chart
 ```java
@@ -247,6 +291,8 @@ series1.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 **Overview:**  
 Now we’ll **format chart data labels** so they display custom text.
 
+`IChartDataPoint` represents an individual data point within a chart series, and `ITextFrame` holds the label text.
+
 #### Step 1: Access Chart Series and Data Points
 ```java
 public class FormatDataLabels {
@@ -286,7 +332,7 @@ for (IChartSeries series : chart.getChartData().getSeries()) {
 ## Frequently Asked Questions
 
 **Q: Can I use this code with Java 11 or newer?**  
-A: Yes. The library supports JDK 8+; just use the appropriate classifier (e.g., `jdk16` for JDK 16 or later).
+A: Yes. The library supports JDK 8+; just use the appropriate classifier (e.g., `jdk16` for JDK 16 or later).
 
 **Q: How do I export the chart as an image instead of a PPTX?**  
 A: Use `chart.getImage().save("chart.png", ImageFormat.Png);` after adding the chart to the slide.
@@ -301,18 +347,25 @@ A: You can modify the `ChartDataWorkbook` cells and then call `chart.refresh();`
 A: Yes. The library is pure Java and runs on any OS with a compatible JRE.
 
 ## Conclusion
-By following this guide you’ve learned how to **create stacked column chart** presentations with Aspose.Slides for Java, from environment setup to fine‑tuned visual styling. Experiment with different data sets, colors, and label formats to make your reports truly stand out.
+By following this guide you’ve learned how to **create a stacked column chart** in Java using the **Aspose Slides Maven dependency**, from environment setup to fine‑tuned visual styling. Experiment with different data sets, colors, and label formats to make your reports truly stand out.
 
 ---
 
-**Last Updated:** 2026-02-22  
+**Last Updated:** 2026-07-22  
 **Tested With:** Aspose.Slides 25.4 (jdk16 classifier)  
 **Author:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Related Tutorials
+
+- [How to create clustered column chart in Java with Aspose.Slides](/slides/java/charts-graphs/aspose-slides-java-clustered-column-charts/)
+- [How to Set Number Formats in Chart Data Points Using Aspose.Slides for Java](/slides/java/charts-graphs/set-number-format-chart-data-points-aspose-slides-java/)
+- [How to Add and Configure Charts in Presentations Using Aspose.Slides for Java](/slides/java/charts-graphs/add-charts-aspose-slides-java-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

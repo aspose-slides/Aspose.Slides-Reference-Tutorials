@@ -1,15 +1,51 @@
 ---
-date: '2026-02-22'
-description: Tanulja meg, hogyan készítsen halmozott oszlopdiagramot Java-ban az Aspose.Slides
-  használatával. Ez az útmutató bemutatja az Aspose Slides Maven függőséget, a százalékos
-  halmozott diagram hozzáadását, a diagram adatcímkéinek formázását, valamint a prezentáció
-  PPTX formátumban való mentését.
+date: '2026-07-22'
+description: Ismerje meg az Aspose Slides Maven Dependency-t, hogy Java-ban stacked
+  column chart-et hozzon létre, adatcímkéket adjon hozzá, módosítsa a függőleges tengely
+  számformátumát, és exportálja az eredményt PPTX fájlként.
 keywords:
-- Aspose.Slides
+- aspose slides maven dependency
+- add data labels to chart
+- change vertical axis number format
+- how to add percentage stacked chart
+lastmod: '2026-07-22'
+og_description: Az Aspose Slides Maven Dependency lehetővé teszi, hogy Java-ban stacked
+  column chart-et építsen, testreszabja az adatcímkéket, állítsa be a függőleges tengely
+  formátumát, és PPTX‑ként mentse – mindezt tömör, termelésre kész kóddal.
+og_image_alt: 'Developer guide: Build a stacked column chart in Java using Aspose.Slides
+  Maven dependency'
+og_title: 'Aspose Slides Maven Dependency: Stacked Column Chart Java-ban'
+schemas:
+- author: Aspose
+  dateModified: '2026-07-22'
+  description: Learn the Aspose Slides Maven Dependency to create a stacked column
+    chart in Java, add data labels, change vertical axis number format, and export
+    the result as a PPTX file.
+  headline: 'Aspose Slides Maven Dependency: Stacked Column Chart in Java'
+  type: TechArticle
+- questions:
+  - answer: Yes. The library supports JDK 8+; just use the appropriate classifier
+      (e.g., `jdk16` for JDK 16 or later).
+    question: Can I use this code with Java 11 or newer?
+  - answer: Use `chart.getImage().save("chart.png", ImageFormat.Png);` after adding
+      the chart to the slide.
+    question: How do I export the chart as an image instead of a PPTX?
+  - answer: Absolutely. Call `chart.getChartTitle().addTextFrameForOverriding("My
+      Chart");` and configure `chart.getLegend()` as needed.
+    question: Is it possible to add a legend to the stacked column chart?
+  - answer: You can modify the `ChartDataWorkbook` cells and then call `chart.refresh();`
+      to reflect changes.
+    question: What if I need to update data after the presentation is generated?
+  - answer: Yes. The library is pure Java and runs on any OS with a compatible JRE.
+    question: Does Aspose.Slides work on Linux servers?
+  type: FAQPage
+tags:
 - stacked column chart
-- Java presentation
-title: Hogyan készítsünk rétegezett oszlopdiagramot Java-ban az Aspose.Slides használatával
-  – Átfogó útmutató
+- Aspose.Slides
+- Java charting
+- Maven dependency
+- presentation generation
+title: 'Aspose Slides Maven Dependency: Stacked Column Chart Java-ban'
 url: /hu/java/charts-graphs/aspose-slides-java-stacked-column-charts/
 weight: 1
 ---
@@ -19,44 +55,42 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Hogyan hozzunk létre halmozott oszlopdiagramot Java-ban az Aspose.Slides segítségével – Átfogó útmutató
+# Aspose Slides Maven függőség: Halmozott oszlopdiagram Java-ban
 
-## Introduction
+## Bevezetés
 
-Emelje prezentációit a következtető adatvizualizációk beépítésével az Aspose.Slides for Java erejével. Ebben az útmutatóban **halmozott oszlopdiagramot** fog létrehozni, amely professzionális megjelenést kölcsönöz, legyen szó üzleti jelentésekről vagy projektstatisztikák bemutatásáról. A tutorial végére képes lesz:
+Emelje prezentációit azáltal, hogy átfogó adatvizualizációkat épít be az **Aspose.Slides for Java** erejével. Ebben az útmutatóban **halmozott oszlopdiagramot** hoz létre, amely professzionális megjelenést kölcsönöz, legyen szó üzleti jelentésekről vagy projektstatisztikák bemutatásáról. A tutorial végére képes lesz:
 
-- Beállítani a környezetet az Aspose Slides Maven függőséggel
-- Egy prezentációt létrehozni a semmiből
-- **Százalékos halmozott diagram** hozzáadása és megjelenésének testreszabása
-- **Diagram adatcímkék formázása** és **függőleges tengely formátumának módosítása**
-- **Prezentáció mentése PPTX formátumban** egyetlen kódsorral
+- Beállítani a környezetet az **Aspose Slides Maven függőség** használatával
+- Prezentációt létrehozni a semmiből
+- **Százalékos halmozott diagramot** hozzáadni és megjelenését testre szabni
+- **Diagram adatcímkéket formázni** és **a függőleges tengely számformátumát módosítani**
+- **A prezentációt PPTX formátumban menteni** egyetlen kódsorral
 
-Lépjünk végig minden lépésen, hogy azonnal elkezdhesse a hatásos prezentációk építését.
+## Gyors válaszok
+- **Milyen könyvtárra van szükségem?** Adja hozzá az `aspose-slides` Maven/Gradle függőséget (lásd az alább található “Aspose Slides Maven függőség” részt).  
+- **Melyik diagramtípus hoz létre halmozott nézetet?** Használja a `ChartType.PercentsStackedColumn` értéket a százalékos halmozott oszlopdiagramhoz.  
+- **Hogyan változtathatom meg a tengely számformátumát?** Hívja meg az `IAxis.setNumberFormat()` metódust, és állítsa be a `setNumberFormatLinkedToSource(false)` értéket.  
+- **Testreszabhatom az adatcímkéket?** Igen – iteráljon minden `IChartDataPoint` elemen, és rendelje hozzá a saját `ITextFrame` objektumát.  
+- **Hogyan mentem a fájlt?** Hívja meg a `presentation.save("output.pptx", SaveFormat.Pptx)` metódust.
 
-## Quick Answers
-- **Milyen könyvtárra van szükségem?** `aspose-slides` Maven/Gradle függőség (lásd alább a „aspose slides maven dependency” részt)  
-- **Melyik diagramtípust használjuk?** `ChartType.PercentsStackedColumn` a százalékos‑halmozott oszlopdiagramhoz  
-- **Hogyan változtathatom meg a tengely számformátumát?** Használja az `IAxis.setNumberFormat()` metódust, és kapcsolja ki a forráshoz való kötést  
-- **Testreszabhatom az adatcímkéket?** Igen – iteráljon a `IChartDataPoint` objektumokon, és állítson be egy egyedi `ITextFrame`‑et  
-- **Hogyan mentem a fájlt?** Hívja a `presentation.save("output.pptx", SaveFormat.Pptx)` metódust
+## Mi az a halmozott oszlopdiagram?
+A halmozott oszlopdiagram több adat sorozatot jelenít meg függőlegesen egymásra helyezve minden kategória oszlopában, a **százalékos halmozott** változat pedig minden oszlopot 100 %-ra normalizál, így könnyen összehasonlíthatóak az arányok. Ez a formátum lehetővé teszi a nézők számára, hogy gyorsan felmérjék, egyes komponensek hogyan járulnak hozzá az egészhez különböző kategóriákban, így a trendek és relatív méretek azonnal átláthatóak.
 
-## What is a stacked column chart?
-A halmozott oszlopdiagram több adat sorozatot jelenít meg egymásra rakva függőleges oszlopokban. A **százalékos‑halmozott** változat esetén minden oszlop mindig 100 %-ot ér el, így könnyen összehasonlítható a különböző kategóriák arányos hozzájárulása.
+## Miért használjuk az Aspose.Slides for Java-t?
+Az Aspose.Slides for Java lehetővé teszi PowerPoint fájlok generálását, szerkesztését és konvertálását **Microsoft Office nélkül**, és **50+ kimeneti formátumot** támogat Windows, Linux és macOS rendszereken. A könyvtár teljes egészében JRE-en fut, ami szerveroldali automatizálást és nagy áteresztőképességű jelentéskészítést tesz lehetővé. Emellett finomhangolt vezérlést biztosít a diagram objektumok, diák elrendezései és dokumentum tulajdonságai felett, így ideális vállalati szintű prezentációk generálásához.
 
-## Why use Aspose.Slides for Java?
-Az Aspose.Slides egy tisztán Java‑alapú API, amely bármely platformon működik Microsoft Office telepítése nélkül. Finomhangolt vezérlést biztosít a diagramobjektumok felett, számos formátumot támogat, és programozottan képes prezentációkat generálni – tökéletes automatizált jelentéskészítéshez vagy szerveroldali dokumentumgeneráláshoz.
-
-## Prerequisites
+## Előfeltételek
 - **Java Development Kit (JDK):** 8 vagy újabb  
 - **IDE:** IntelliJ IDEA, Eclipse vagy bármely Java‑kompatibilis szerkesztő  
 - **Build Tool:** Maven vagy Gradle (opcionális, de ajánlott)  
 - **Alapvető Java ismeretek** – ismernie kell az osztályokat és metódusokat  
 
-## Setting Up Aspose.Slides for Java
-A projekt elindításához adja hozzá az Aspose.Slides könyvtárat.
+## Az Aspose.Slides for Java beállítása
+A kezdéshez adja hozzá az Aspose.Slides könyvtárat a projektjéhez.
 
-### Aspose Slides Maven Dependency
-Adja hozzá a következőt a `pom.xml`‑hez (ez a **aspose slides maven dependency**, amire szüksége lesz):
+### Aspose Slides Maven függőség
+Adja hozzá a következőket a `pom.xml` fájlhoz (ez a **aspose slides maven dependency**, amire szüksége lesz):
 
 ```xml
 <dependency>
@@ -67,25 +101,25 @@ Adja hozzá a következőt a `pom.xml`‑hez (ez a **aspose slides maven depende
 </dependency>
 ```
 
-### Gradle Alternative
-Ha a Gradlet részesíti előnyben, illessze be ezt a sort a `build.gradle`‑ba:
+### Gradle alternatíva
+Ha a Gradlet részesíti előnyben, illessze be ezt a sort a `build.gradle` fájlba:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Direct Download
+### Közvetlen letöltés
 Alternatívaként töltse le a legújabb JAR‑t a [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) oldalról.
 
-### License Acquisition
-Kezdhet ingyenes próbaverzióval az Aspose.Slides funkcióinak felfedezéséhez. A kiértékelési korlátozások eltávolításához fontolja meg egy ideiglenes vagy megvásárolt licenc beszerzését.
+### Licenc beszerzése
+Kezdhet egy ingyenes próbaverzióval, hogy felfedezze az Aspose.Slides funkcióit. A kiértékelési korlátozások eltávolításához fontolja meg egy ideiglenes vagy megvásárolt licenc beszerzését.
 
-- **Free Trial:** Korlátozott funkciók ingyenes hozzáférése, költség nélkül.  
-- **Temporary License:** Kérje a [Aspose weboldalán](https://purchase.aspose.com/temporary-license/)  
-- **Purchase:** Látogassa meg a vásárlási oldalt a teljes hozzáférésért.
+- **Ingyenes próba:** Korlátozott funkciók elérése költség nélkül.  
+- **Ideiglenes licenc:** Kérje a [Aspose weboldalán](https://purchase.aspose.com/temporary-license/) keresztül.  
+- **Megvásárlás:** Látogassa meg a vásárlási oldalt a teljes hozzáféréshez.
 
-### Basic Initialization
-Itt egy minimális kódrészlet, amely megmutatja, hogyan hozhat létre egy `Presentation` objektumot:
+### Alapvető inicializálás
+A `Presentation` az Aspose.Slides központi osztálya, amely egy PowerPoint fájlt reprezentál a memóriában. Az alábbi minimális kódrészlet bemutatja, hogyan hozhatunk létre egy `Presentation` objektumot:
 
 ```java
 import com.aspose.slides.Presentation;
@@ -101,13 +135,13 @@ public class InitializeAspose {
 }
 ```
 
-## Implementation Guide
+## Implementációs útmutató
 
-### Creating a Presentation and Adding a Slide
-**Overview:**  
+### Prezentáció létrehozása és dia hozzáadása
+**Áttekintés:**  
 Először egy üres prezentációt hozunk létre, és ellenőrizzük, hogy a dia létezik-e.
 
-#### Step 1: Initialize Presentation Object
+#### 1. lépés: Presentation objektum inicializálása
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
@@ -123,17 +157,19 @@ public class CreatePresentation {
 }
 ```
 
-#### Step 2: Save the Presentation
+#### 2. lépés: Prezentáció mentése
 ```
 // Save the presentation to a file
 presentation.save("YOUR_OUTPUT_DIRECTORY/CreatePresentation_out.pptx", SaveFormat.Pptx);
 ```
 
-### Adding Percentage Stacked Column Chart to a Slide
-**Overview:**  
+### Százalékos halmozott oszlopdiagram hozzáadása a diára
+**Áttekintés:**  
 Most egy **százalékos halmozott diagramot** helyezünk el az első dián.
 
-#### Step 1: Initialize and Access Slide
+`ChartType.PercentsStackedColumn` egy százalékos halmozott oszlopdiagram típusát jelöli.
+
+#### 1. lépés: Dia inicializálása és elérése
 ```java
 import com.aspose.slides.ISlide;
 import com.aspose.slides.ChartType;
@@ -148,7 +184,7 @@ public class AddChartToSlide {
 }
 ```
 
-#### Step 2: Add Chart to Slide
+#### 2. lépés: Diagram hozzáadása a diára
 ```java
 import com.aspose.slides.IChart;
 
@@ -156,11 +192,13 @@ IChart chart = slide.getShapes().addChart(
     ChartType.PercentsStackedColumn, 20, 20, 500, 400);
 ```
 
-### Customizing Chart Axis Number Format
-**Overview:**  
-A jobb olvashatóság érdekében **módosítjuk a függőleges tengely formátumát**, hogy százalékot jelenítsen meg.
+### Diagram tengely számformátumának testreszabása
+**Áttekintés:**  
+A jobb olvashatóság érdekében **a függőleges tengely formátumát** módosítjuk, hogy százalékokat jelenítsen meg.
 
-#### Step 1: Add and Access Chart
+`IAxis` a diagram tengelyét reprezentáló interfész, amely lehetővé teszi a formátum- és skálázási beállításokat.
+
+#### 1. lépés: Diagram hozzáadása és elérése
 ```java
 public class CustomizeChartAxis {
     public static void main(String[] args) throws Exception {
@@ -173,7 +211,7 @@ public class CustomizeChartAxis {
 }
 ```
 
-#### Step 2: Set Custom Number Format
+#### 2. lépés: Egyéni számformátum beállítása
 ```java
 import com.aspose.slides.IAxis;
 
@@ -182,11 +220,11 @@ verticalAxis.setNumberFormatLinkedToSource(false);
 verticalAxis.setNumberFormat("0.00%");
 ```
 
-### Adding Series and Data Points to Chart
-**Overview:**  
-A diagramot mintaadat-sorozatokkal töltjük fel.
+### Sorozatok és adatpontok hozzáadása a diagramhoz
+**Áttekintés:**  
+Minta adat sorozatokkal töltjük fel a diagramot.
 
-#### Step 1: Initialize Presentation and Chart
+#### 1. lépés: Prezentáció és diagram inicializálása
 ```java
 import com.aspose.slides.IChartSeries;
 import com.aspose.slides.ChartDataWorkbook;
@@ -205,7 +243,7 @@ public class AddSeriesToChart {
 }
 ```
 
-#### Step 2: Add Data Series
+#### 2. lépés: Adatsorok hozzáadása
 ```java
 // Clear existing series and add new ones
 chart.getChartData().getSeries().clear();
@@ -216,11 +254,11 @@ series1.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorkshe
 // Add more data points as needed
 ```
 
-### Formatting Series Fill Color
-**Overview:**  
-Minden sorozatnak adjon egyedi színt, hogy a diagram könnyebben olvasható legyen.
+### Sorozatok kitöltőszínének formázása
+**Áttekintés:**  
+Minden sorozatnak külön színt adunk, hogy a diagram könnyebben olvasható legyen.
 
-#### Step 1: Initialize and Access Chart
+#### 1. lépés: Diagram inicializálása és elérése
 ```java
 import java.awt.Color;
 import com.aspose.slides.FillType;
@@ -238,7 +276,7 @@ public class FormatSeriesFillColor {
 }
 ```
 
-#### Step 2: Set Fill Colors
+#### 2. lépés: Kitöltőszínek beállítása
 ```java
 IChartSeries series1 = chart.getChartData().getSeries().get_Item(0);
 series1.getFormat().getFill().setFillType(FillType.Solid);
@@ -247,11 +285,13 @@ series1.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 // Repeat for other series with different colors
 ```
 
-### Formatting Data Labels
-**Overview:**  
-Most **formázzuk a diagram adatcímkéket**, hogy egyedi szöveget jelenítsenek meg.
+### Adatcímkék formázása
+**Áttekintés:**  
+Most **a diagram adatcímkéket** formázzuk úgy, hogy egyedi szöveget jelenítsenek meg.
 
-#### Step 1: Access Chart Series and Data Points
+`IChartDataPoint` egy egyedi adatpontot képvisel egy diagram sorozatban, és az `ITextFrame` tartalmazza a címke szövegét.
+
+#### 1. lépés: Diagram sorozatok és adatpontok elérése
 ```java
 public class FormatDataLabels {
     public static void main(String[] args) throws Exception {
@@ -267,7 +307,7 @@ public class FormatDataLabels {
 }
 ```
 
-#### Step 2: Customize Data Labels
+#### 2. lépés: Adatcímkék testreszabása
 ```java
 import com.aspose.slides.ITextFrame;
 import com.aspose.slides.IChartDataPoint;
@@ -282,41 +322,48 @@ for (IChartSeries series : chart.getChartData().getSeries()) {
 }
 ```
 
-## Common Issues and Solutions
+## Gyakori problémák és megoldások
 - **A diagram üres:** Győződjön meg róla, hogy legalább egy adat sorozatot és adatpontot hozzáadott a mentés előtt.  
-- **A tengely számok nem százalékok:** Ne felejtse el beállítani a `verticalAxis.setNumberFormatLinkedToSource(false)`‑t; különben a saját formátum figyelmen kívül marad.  
+- **A tengely számok nem jelennek meg százalékban:** Ne felejtse el beállítani a `verticalAxis.setNumberFormatLinkedToSource(false)` értéket; ellenkező esetben az egyéni formátum figyelmen kívül marad.  
 - **Licenc kiértékelési üzenet:** Alkalmazzon érvényes licencfájlt a `Presentation` objektum létrehozása előtt, hogy elnyomja a kiértékelési bannert.
 
-## Frequently Asked Questions
+## Gyakran Ismételt Kérdések
 
-**Q: Használhatom ezt a kódot Java 11 vagy újabb verzióval?**  
-A: Igen. A könyvtár JDK 8+ verziókat támogat; csak a megfelelő klasszifikátort használja (pl. `jdk16` a JDK 16 vagy újabb esetén).
+**K: Használhatom ezt a kódot Java 11 vagy újabb verzióval?**  
+V: Igen. A könyvtár támogatja a JDK 8+ verziókat; csak a megfelelő osztálycímkét (pl. `jdk16` a JDK 16 vagy újabb esetén) használja.
 
-**Q: Hogyan exportáljam a diagramot képként a PPTX helyett?**  
-A: Használja a `chart.getImage().save("chart.png", ImageFormat.Png);` metódust a diagram diára helyezése után.
+**K: Hogyan exportáljam a diagramot képként a PPTX helyett?**  
+V: Használja a `chart.getImage().save("chart.png", ImageFormat.Png);` metódust a diagram diára való hozzáadása után.
 
-**Q: Lehet-e legendát hozzáadni a halmozott oszlopdiagramhoz?**  
-A: Természetesen. Hívja a `chart.getChartTitle().addTextFrameForOverriding("My Chart");`‑t, és konfigurálja a `chart.getLegend()`‑et igény szerint.
+**K: Lehetséges-e legendát hozzáadni a halmozott oszlopdiagramhoz?**  
+V: Természetesen. Hívja meg a `chart.getChartTitle().addTextFrameForOverriding("My Chart");` metódust, és konfigurálja a `chart.getLegend()` elemet igény szerint.
 
-**Q: Mi a teendő, ha a generálás után frissíteni kell az adatokat?**  
-A: Módosíthatja a `ChartDataWorkbook` cellákat, majd hívja a `chart.refresh();`‑t a változások tükrözéséhez.
+**K: Mit tehetek, ha a prezentáció generálása után kell frissíteni az adatokat?**  
+V: Módosíthatja a `ChartDataWorkbook` celláit, majd meghívhatja a `chart.refresh();` metódust a változások tükrözéséhez.
 
-**Q: Működik-e az Aspose.Slides Linux szervereken?**  
-A: Igen. A könyvtár tisztán Java, és bármely, kompatibilis JRE‑t futtató operációs rendszeren működik.
+**K: Működik az Aspose.Slides Linux szervereken?**  
+V: Igen. A könyvtár tisztán Java, és bármely, kompatibilis JRE‑t futtató operációs rendszeren működik.
 
-## Conclusion
-Ezzel az útmutatóval megtanulta, hogyan **hozzon létre halmozott oszlopdiagramot** tartalmazó prezentációkat az Aspose.Slides for Java segítségével, a környezet beállításától a finomhangolt vizuális stílusig. Kísérletezzen különböző adatkészletekkel, színekkel és címkeformátumokkal, hogy jelentései valóban kiemelkedjenek.
+## Következtetés
+Ezzel az útmutatóval megtanulta, hogyan **hozzon létre halmozott oszlopdiagramot** Java-ban az **Aspose Slides Maven függőség** használatával, a környezet beállításától a finomhangolt vizuális stílusig. Kísérletezzen különböző adatkészletekkel, színekkel és címkeformátumokkal, hogy jelentései valóban kitűnjenek.
 
 ---
 
-**Last Updated:** 2026-02-22  
+**Last Updated:** 2026-07-22  
 **Tested With:** Aspose.Slides 25.4 (jdk16 classifier)  
 **Author:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Kapcsolódó oktatóanyagok
+
+- [Hogyan hozzunk létre csoportosított oszlopdiagramot Java-ban az Aspose.Slides segítségével](/slides/java/charts-graphs/aspose-slides-java-clustered-column-charts/)
+- [Hogyan állítsuk be a számformátumokat a diagram adatpontjaiban az Aspose.Slides for Java használatával](/slides/java/charts-graphs/set-number-format-chart-data-points-aspose-slides-java/)
+- [Hogyan adjunk hozzá és konfiguráljunk diagramokat prezentációkban az Aspose.Slides for Java használatával](/slides/java/charts-graphs/add-charts-aspose-slides-java-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

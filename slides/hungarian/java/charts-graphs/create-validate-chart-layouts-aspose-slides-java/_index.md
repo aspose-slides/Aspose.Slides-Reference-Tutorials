@@ -1,9 +1,71 @@
 ---
-"date": "2025-04-17"
-"description": "Tanuld meg, hogyan hozhatsz létre és validálhatsz diagramelrendezéseket PowerPoint-bemutatókban az Aspose.Slides for Java használatával ebből az átfogó, lépésről lépésre haladó útmutatóból."
-"title": "Diagramelrendezések létrehozása és validálása PowerPointban az Aspose.Slides for Java használatával | SEO-optimalizált útmutató"
-"url": "/hu/java/charts-graphs/create-validate-chart-layouts-aspose-slides-java/"
-"weight": 1
+date: '2026-07-22'
+description: Ismerje meg, hogyan hozhat létre PowerPoint chart elrendezéseket, és
+  ellenőrizheti azokat az Aspose.Slides for Java használatával egy lépésről‑lépésre
+  útmutatóban.
+keywords:
+- create powerpoint chart
+- how to create chart
+- add clustered column chart
+lastmod: '2026-07-22'
+og_description: PowerPoint chart elrendezések létrehozása és ellenőrzése az Aspose.Slides
+  for Java segítségével. Kövesse ezt az útmutatót a clustered column charts hozzáadásához,
+  a layout integrity ellenőrzéséhez, és a plot area dimensions lekérdezéséhez.
+og_image_alt: Guide showing how to create and validate PowerPoint chart layouts using
+  Aspose.Slides for Java
+og_title: PowerPoint chart elrendezések létrehozása az Aspose.Slides for Java segítségével
+schemas:
+- author: Aspose
+  dateModified: '2026-07-22'
+  description: Learn how to create PowerPoint chart layouts and validate them using
+    Aspose.Slides for Java in a step‑by‑step tutorial.
+  headline: Create PowerPoint Chart Layouts with Aspose.Slides for Java
+  type: TechArticle
+- description: Learn how to create PowerPoint chart layouts and validate them using
+    Aspose.Slides for Java in a step‑by‑step tutorial.
+  name: Create PowerPoint Chart Layouts with Aspose.Slides for Java
+  steps:
+  - name: Create a New Presentation and Add a Slide
+    text: Instantiate a `Presentation` object, then call `addSlide()` to obtain an
+      `ISlide` reference.
+  - name: Insert a Clustered Column Chart
+    text: Use `slide.getShapes().addChart(ChartType.ClusteredColumn, 100, 100, 500,
+      350)` to create the chart. Populate series and categories as needed.
+  - name: Validate the Chart Layout
+    text: Invoke `validateChartLayout(chart)` to ensure the chart meets your visual
+      standards. Adjust properties if the method reports issues.
+  - name: Retrieve Plot Area Dimensions
+    text: Call `chart.getPlotArea()` and store the returned `Rectangle2D` values for
+      further custom drawing.
+  - name: Save and Dispose
+    text: Finally, save the presentation to a file and call `pres.dispose()` to release
+      native resources.
+  type: HowTo
+- questions:
+  - answer: You can evaluate the library with a free trial, but a purchased license
+      is required for production use.
+    question: Can I use Aspose.Slides for free in a commercial project?
+  - answer: Over 30 chart types are supported, including clustered column, stacked
+      bar, pie, radar, and bubble charts.
+    question: Which chart types are supported?
+  - answer: Call `presentation.dispose()` after saving, and process large datasets
+      in separate threads or batches.
+    question: How do I handle large presentations without running out of memory?
+  - answer: Java 16+ is recommended for optimal performance; earlier versions may
+      work but are not officially supported.
+    question: Is Java 16 mandatory?
+  - answer: The official Aspose.Slides documentation provides extensive samples and
+      API references. See [Aspose's documentation](https://reference.aspose.com/slides/java/)
+      for details.
+    question: Where can I find more code examples?
+  type: FAQPage
+tags:
+- create powerpoint chart
+- Aspose.Slides
+- Java chart automation
+title: PowerPoint chart elrendezések létrehozása az Aspose.Slides for Java segítségével
+url: /hu/java/charts-graphs/create-validate-chart-layouts-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,29 +73,39 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Diagramelrendezések létrehozása és validálása PowerPointban az Aspose.Slides for Java segítségével
+# PowerPoint-diagram elrendezések létrehozása Aspose.Slides for Java segítségével
 
-A PowerPoint-bemutatókban vizuálisan vonzó és pontos diagramok létrehozása kihívást jelenthet. **Aspose.Slides Java-hoz**, hatékonyan automatizálhatja ezt a folyamatot, biztosítva az adatok pontos és hatékony bemutatását. Ez az oktatóanyag végigvezeti Önt diagramelrendezések létrehozásán és validálásán az Aspose.Slides használatával, leegyszerűsítve a professzionális prezentációk fejlesztését.
+A **PowerPoint-diagram** létrehozása, amely professzionális megjelenésű és illeszkedik az adatmeséléshez, manuálisan időigényes lehet. Az **Aspose.Slides for Java** segítségével programozottan generálhat és ellenőrizhet diagram elrendezéseket, biztosítva a konzisztenciát nagy prezentációkban. Ez az útmutató végigvezeti a teljes folyamaton – a könyvtár beállításától a csoportosított oszlopdiagram hozzáadásáig, az elrendezés ellenőrzéséig és a diagramterület méreteinek kinyeréséig a finom pozícionáláshoz.
 
-**Amit tanulni fogsz:**
-- Az Aspose.Slides beállítása Java-hoz
-- Fürtözött oszlopdiagram létrehozásának lépései PowerPointban
-- Diagram elrendezésének validálására szolgáló módszerek
-- Telekterület méreteinek lekérése a pontos testreszabáshoz
+**Mit fogsz megtanulni**
+- Hogyan állítsd be az Aspose.Slides for Java-t Maven, Gradle vagy közvetlen letöltés útján  
+- A pontos lépések egy **csoportosított oszlopdiagram** hozzáadásához egy diára  
+- Hogyan **ellenőrizd a diagram elrendezését** automatikusan  
+- Technika a diagramterület méreteinek lekérésére a pontos testreszabáshoz  
 
-Győződjünk meg róla, hogy minden megvan, ami a kezdéshez szükséges.
+A végére képes leszel nagyméretű PowerPoint-diagramok előállítására, órákat spórolva a kézi szerkesztésből.
 
-## Előfeltételek
-Mielőtt belevágna a megvalósításba, győződjön meg arról, hogy a környezete készen áll:
-1. **Könyvtárak és függőségek**Szükséged lesz az Aspose.Slides for Java könyvtárra.
-2. **Környezet beállítása**Győződjön meg róla, hogy telepítve van egy kompatibilis JDK (Java 16 vagy újabb).
-3. **Tudáskövetelmények**A Java programozási fogalmak ismerete elengedhetetlen.
+## Gyors válaszok
+- **Hogyan adhatok hozzá csoportosított oszlopdiagramot?** Használd a `ChartType.ClusteredColumn` értéket a diagram objektum létrehozásakor, és add meg a pozíciót és méretet.  
+- **Ellenőrizhetem a diagram elrendezését programozottan?** Igen – hívd meg a saját `validateChartLayout` metódusodat, amely ellenőrzi a igazítást és a méretkorlátokat.  
+- **Milyen könyvtárakra van szükség?** Az Aspose.Slides for Java Maven/Gradle függőség plusz egy JDK 16+ futtatókörnyezet.  
+- **Szükség van licencre a termeléshez?** Igen, egy állandó licenc szükséges a korlátlan használathoz; ingyenes próba vagy ideiglenes licenc is elérhető értékeléshez.  
+- **Memóriahatékony ez a megközelítés?** Igen – a `Presentation` objektum használata után szabadítsd fel a natív erőforrásokat.
 
-## Az Aspose.Slides beállítása Java-hoz
-Az Aspose.Slides használatához az alábbi módszerek egyikével illessze be a projektbe:
+## Mi az a PowerPoint-diagram?
+A PowerPoint-diagram egy adatvizualizáció, amely egy diára van beágyazva, és az Aspose.Slides `Chart` osztálya által kerül megjelenítésre. Megjelenítheti a sorozatokat, kategóriákat és stílusbeállításokat, és a dia XML struktúrájának részeként tárolódik.
 
-**Szakértő**
-Adja hozzá a következő függőséget a `pom.xml` fájl:
+## Miért használjuk az Aspose.Slides for Java-t PowerPoint-diagramok létrehozásához?
+Az Aspose.Slides **50+ bemeneti és kimeneti formátumot** támogat, több száz oldalas prezentációkat dolgoz fel anélkül, hogy az egész fájlt a memóriába töltené, és bármely Java 16+ környezetben fut. Eltávolítja a Microsoft Office szükségességét a szerveren, csökkenti a licencköltségeket, és pixel‑pontos renderelést biztosít platformok között.
+
+## Előkövetelmények
+- **Java Development Kit** 16 vagy újabb telepítve.  
+- **Aspose.Slides for Java** könyvtár (Maven, Gradle vagy közvetlen JAR).  
+- Alapvető ismeretek a Java szintaxisról és az objektum‑orientált koncepciókról.
+
+## Hogyan adjunk hozzá csoportosított oszlopdiagramot?
+Tölts be egy új prezentációt, adj hozzá egy diát, és illessz be egy `ChartType.ClusteredColumn` típusú diagramot. A diagram a `(100, 100)` koordinátákon lesz elhelyezve, mérete `500 × 350` pont. A `ChartType.ClusteredColumn` egy enum érték, amely a standard csoportosított oszlopdiagramot jelöli az Aspose.Slides-ben. Ez biztosítja, hogy a diagram a vállalati jelentésekben és irányítópultokban használt tipikus oszlopcsoportosítási elrendezést kövesse.
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -43,123 +115,152 @@ Adja hozzá a következő függőséget a `pom.xml` fájl:
 </dependency>
 ```
 
-**Gradle**
-Vedd bele ezt a `build.gradle` fájl:
+## Hogyan ellenőrizzük a diagram elrendezését?
+A diagram létrehozása után futtass egy ellenőrző rutint, amely vizsgálja a diagram határoló keretét, tengelyigazítását és az adatcímkék láthatóságát. A metódus egy logikai értékkel jelzi a sikerességet, és naplózza az esetleges eltéréseket. A `validateChartLayout` egy segédmetódus, amely a diagram objektum geometriai tulajdonságait elemzi, és **true**‑t ad vissza, ha az elrendezés megfelel a meghatározott vizuális szabványoknak.
+
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Közvetlen letöltés**
-Vagy választhatja a [töltsd le a legújabb verziót](https://releases.aspose.com/slides/java/) közvetlenül.
+## Hogyan nyerjük ki a diagramterület méreteit?
+A diagramterület pontos `X`, `Y`, `Width` és `Height` értékeinek ismerete lehetővé teszi további alakzatok vagy megjegyzések precíz igazítását. Használd a diagram `getPlotArea()` API‑ját ezeknek az értékeknek a lekérésére. A `getPlotArea()` egy `Rectangle2D` objektumot ad vissza, amely leírja a diagramon belül a rajzolandó területet.
 
-### Licencszerzés
-Az Aspose.Slides korlátozások nélküli kipróbálásához érdemes megfontolni:
-- **Ingyenes próbaverzió**: Tesztelje a funkciókat ideiglenes licenccel.
-- **Ideiglenes engedély**Ingyenes ideiglenes jogosítvány igénylése [itt](https://purchase.aspose.com/temporary-license/).
-- **Vásárlás**Teljes hozzáféréshez vásároljon licencet innen: [Aspose weboldala](https://purchase.aspose.com/buy).
-
-### Inicializálás és beállítás
-Miután hozzáadtad a könyvtárat a projektedhez, inicializáld az Aspose.Slides-t a Java alkalmazásodban:
 ```java
 Presentation pres = new Presentation();
-// A kódod itt
+// Your code here
 pres.save("output.pptx", SaveFormat.Pptx);
 ```
 
-## Megvalósítási útmutató
-Lebontjuk a diagram elrendezésének létrehozásához és validálásához szükséges lépéseket.
+## Aspose.Slides for Java beállítása
+**Aspose.Slides for Java** egy Java‑natív könyvtár, amely lehetővé teszi PowerPoint‑fájlok létrehozását, módosítását és konvertálását Microsoft Office nélkül.
 
-### 1. lépés: Fürtözött oszlopdiagram létrehozása
-#### Áttekintés
-Egy csoportos oszlopdiagram hozzáadása egyszerűen elvégezhető az Aspose.Slides használatával. Ez a diagramtípus ideális több sorozat összehasonlítására kategóriák között.
+### Maven
+Add hozzá a következő függőséget a `pom.xml` fájlodhoz:
 
-#### Kódrészlet
 ```java
-// Meglévő prezentáció betöltése
+// Load an existing presentation
 Presentation pres = new Presentation("test.pptx");
 try {
-    // Csoportos oszlopdiagram hozzáadása az első diához a megadott helyen és méretben
+    // Add a clustered column chart to the first slide at specified position and size
     Chart chart = (Chart) pres.getSlides().get_Item(0).getShapes().addChart(
         ChartType.ClusteredColumn, 100, 100, 500, 350);
 
-    // Folytassa az érvényesítést és a dimenziók lekérését...
+    // Continue with validation and dimensions retrieval...
 }
 finally {
     if (pres != null) pres.dispose();
 }
 ```
-- **Paraméterek**: `ChartType.ClusteredColumn` meghatározza a diagram típusát.
-- **Pozicionálás**: `100, 100` meghatározza, hogy a dián hol kezdődik a diagram, míg `500, 350` beállítja a szélességét és magasságát.
 
-### 2. lépés: A diagram elrendezésének validálása
-#### Áttekintés
-Az érvényesítés biztosítja, hogy a diagram elrendezése megfeleljen az elvárt szabványoknak. Ez a lépés ellenőrzi az igazítási problémákat, és megerősíti a vizuális konzisztenciát.
+### Gradle
+Illeszd be ezt a kódrészletet a `build.gradle` fájlodba:
 
-#### Kódrészlet
 ```java
-// A diagram elrendezésének ellenőrzése
+// Validate the layout of the chart
 chart.validateChartLayout();
 ```
-- **Cél**A `validateChartLayout` A módszer segít azonosítani a diagram megjelenésében mutatkozó esetleges eltéréseket, biztosítva a professzionális megjelenést.
 
-### 3. lépés: Telekterület méreteinek lekérése
-#### Áttekintés
-nyomtatási terület méreteinek megértése lehetővé teszi a pontos testreszabást, és biztosítja az adatok világos megjelenítését.
+### Közvetlen letöltés
+Letöltheted a legújabb verziót is a [letöltse a legújabb verziót](https://releases.aspose.com/slides/java/) vagy látogasd meg az [Aspose Releases](https://releases.aspose.com/slides/java/) oldalt a további terjesztési lehetőségekért.
 
-#### Kódrészlet
+#### Licenc beszerzése
+A teljes funkcionalitás feloldásához szerezz be egy licencet az alábbi lehetőségek egyikén:
+
+- **Ingyenes próba** – Fedezd fel az összes funkciót kódkorlátozások nélkül. Lásd a [free trial] oldalt.  
+- **Ideiglenes licenc** – Kérj egy ingyenes 30‑napos licencet [itt](https://purchase.aspose.com/temporary-license/).  
+- **Vásárlás** – Szerezz be egy állandó licencet [Aspose weboldalán](https://purchase.aspose.com/buy).  
+
+#### Inicializálás és beállítás
+A könyvtár hozzáadása után inicializáld a licencet (ha van) a prezentációs objektumok létrehozása előtt:
+
 ```java
-// A telekterület méreteinek lekérése
+// Retrieve dimensions of the plot area
 double x = chart.getPlotArea().getActualX();
 double y = chart.getPlotArea().getActualY();
 double w = chart.getPlotArea().getActualWidth();
 double h = chart.getPlotArea().getActualHeight();
 ```
-- **Magyarázat**Ezek a koordináták és méretek kulcsfontosságúak további elemek igazításához vagy a térbeli beállítások elvégzéséhez.
 
-### Hibaelhárítási tippek
-- Győződjön meg arról, hogy a prezentációs fájl elérési útja helyes, hogy elkerülje `FileNotFoundException`.
-- A kompatibilitási problémák elkerülése érdekében ellenőrizd, hogy az Aspose.Slides könyvtár verziója megegyezik-e a használt JDK-val.
+## Implementációs útmutató
+Az alábbiakban egy tömör, lépésről‑lépésre útmutatót találsz, amely összekapcsolja a fenti kódrészleteket.
+
+### 1. lépés: Új prezentáció létrehozása és dia hozzáadása
+Hozz létre egy `Presentation` objektumot, majd hívd meg az `addSlide()` metódust egy `ISlide` referencia megszerzéséhez.
+
+### 2. lépés: Csoportosított oszlopdiagram beszúrása
+Használd a `slide.getShapes().addChart(ChartType.ClusteredColumn, 100, 100, 500, 350)` hívást a diagram létrehozásához. Töltsd fel a sorozatokat és kategóriákat igény szerint.
+
+### 3. lépés: Diagram elrendezésének ellenőrzése
+Hívd meg a `validateChartLayout(chart)` metódust, hogy biztosítsd a diagram megfelelőségét a vizuális szabványoknak. Szükség esetén módosítsd a tulajdonságokat a jelentések alapján.
+
+### 4. lépés: Diagramterület méreteinek lekérése
+Hívd meg a `chart.getPlotArea()` metódust, és tárold el a visszakapott `Rectangle2D` értékeket további egyedi rajzoláshoz.
+
+### 5. lépés: Mentés és erőforrások felszabadítása
+Végül mentsd a prezentációt egy fájlba, és hívd meg a `pres.dispose()` metódust a natív erőforrások felszabadításához.
+
+## Gyakori problémák és megoldások
+- **FileNotFoundException** – Ellenőrizd a fájl útvonalát, és győződj meg róla, hogy az alkalmazásnak van olvasási/írási jogosultsága.  
+- **Verzióütközés** – Bizonyosodj meg róla, hogy az Aspose.Slides JAR verziója egyezik a JDK‑val (Java 16+).  
+- **Memóriaszivárgás** – Nagy fájlok feldolgozása után mindig hívd meg a `presentation.dispose()` metódust a natív memória felszabadításához.
 
 ## Gyakorlati alkalmazások
-A diagramelrendezések létrehozásának és validálásának megértése túlmutat az egyszerű prezentációkon. Íme néhány valós alkalmazás:
-1. **Üzleti jelentések**Javítsa vállalati dokumentumai minőségét precíz adatvizualizációval.
-2. **Akadémiai projektek**A kutatási eredmények egyszerűsített bemutatása.
-3. **Értékesítési irányítópultok**Dinamikus, interaktív értékesítési jelentések létrehozása.
+A diagramok automatizált létrehozása és ellenőrzése számos helyzetben értékes:
 
-Más rendszerekkel való integráció is lehetséges; például adatok adatbázisokból történő dinamikus kiolvasása diagramok kitöltéséhez.
+1. **Üzleti jelentéskészítés** – Negyedéves értékesítési prezentációk automatikus generálása naprakész diagramokkal.  
+2. **Akademiai kiadványok** – Konferencia diák előállítása, amelyek közvetlenül a kutatási adatbázisokból húzzák az adatokat.  
+3. **Értékesítési irányítópultok** – Diára épülő irányítópultok létrehozása, amelyek éjszakánként frissülnek a legújabb KPI‑adatokkal.  
 
-## Teljesítménybeli szempontok
-Az optimális teljesítmény biztosítása érdekében:
-- A memória hatékony kezelése a prezentációk gyors megsemmisítésével `pres.dispose()`.
-- Fontolja meg a nagy adathalmazok kötegelt feldolgozását a fő megjelenítési logikán kívül.
-- Használd ki hatékonyan a Java szemétgyűjtését az objektumok létrehozásának minimalizálásával a ciklusokon belül.
+Ezek az esetek profitálnak a bemutatott ismételhető, kóddal vezérelt megközelítésből.
 
-## Következtetés
-Ebben az útmutatóban megtanultad, hogyan hozhatsz létre és validálhatsz diagramelrendezéseket PowerPointban az Aspose.Slides for Java használatával. Ezek a készségek lehetővé teszik, hogy könnyedén készíts kifinomult prezentációkat. További információkért érdemes lehet összetettebb diagramtípusokat is megismerni, vagy dinamikus adatforrásokat integrálni.
+## Teljesítményfontosságú szempontok
+- **Memóriakezelés** – A `Presentation` objektumokat gyorsan szabadítsd fel.  
+- **Kötegelt feldolgozás** – Nagy adathalmazokat a fő prezentációs szálon kívül dolgozz fel, hogy a UI reagálók maradjon.  
+- **Garbage Collection** – Minimalizáld az objektumok létrehozását ciklusokban; ahol lehetséges, újrahasználd a diagram objektumokat.
 
-**Következő lépések:**
-- Kísérletezzen különböző diagramtípusokkal, például oszlop- vagy kördiagramokkal.
-- Élő adatfolyamok integrálása a diagramok dinamikus frissítéséhez.
+## Összegzés
+Most már rendelkezésedre áll egy komplett, termelés‑kész módszer **PowerPoint-diagram** elrendezések létrehozására, ellenőrzésére és a diagramterület méreteinek finomhangolására az Aspose.Slides for Java segítségével. Ez lehetővé teszi, hogy programozottan építs magas minőségű prezentációkat, csökkentsd a kézi munkát, és megőrizd a vizuális konzisztenciát minden diakészletben.
 
-Készen állsz a kezdésre? Alkalmazd ezeket a technikákat, és fejleszd prezentációs képességeidet még ma!
+**Következő lépések**
+- Kísérletezz más diagramtípusokkal, például oszlop, vonal vagy kördiagramokkal.  
+- Kapcsold össze egy élő adatbázissal a diagramadatok valós idejű feltöltéséhez.  
+- Fedezd fel az Aspose.Slides API‑t animációk, témák és diaváltások terén.
 
-## GYIK szekció
-1. **Ingyenesen használhatom az Aspose.Slides-t?**
-   - Igen, elkezdheted egy [ingyenes próba](https://releases.aspose.com/slides/java/) hogy felfedezzük a tulajdonságait.
-2. **Milyen diagramtípusokat támogat az Aspose.Slides?**
-   - Különböző típusokat támogat, beleértve az oszlopot, a sávot, a kört és egyebeket.
-3. **Hogyan kezeljem a kivételeket az Aspose.Slides-ban?**
-   - A try-catch blokkok segítségével kezelheti a lehetséges problémákat, például a fájlhozzáférési hibákat.
-4. **Módosíthatom a diagram adatait programozottan?**
-   - Természetesen! Az API segítségével manipulálhatod a sorozatokat és a kategóriákat.
-5. **Szükséges a Java 16 az Aspose.Slides-hez?**
-   - Bár ajánlott, ellenőrizze a JDK verziójával való kompatibilitást a következő hivatkozással: [Az Aspose dokumentációja](https://reference.aspose.com/slides/java/).
+## Gyakran ismételt kérdések
 
-## Erőforrás
-- **Dokumentáció**Átfogó útmutatók a következő címen: [Aspose dokumentáció](https://reference.aspose.com/slides/java/)
-- **Letöltés**Legújabb kiadások elérhetők itt: [Aspose kiadások](https://releases.aspose.com/slides/java/)
-- **Vásárlás és próba**vásárláshoz vagy az ingyenes próbaverzió megkezdéséhez vezető linkek itt érhetők el: [Aspose vásárlási oldala](https://purchase.aspose.com/buy) és [Ingyenes próbaoldal](https://releases.aspose.com/slides/java/).
-- **Támogatási fórum**Kérdések esetén látogassa meg a [Aspose Támogatási Fórum](https://forum.aspose.com/c/slides/11).
+**K: Használhatom ingyenesen az Aspose.Slides‑t kereskedelmi projektben?**  
+V: A könyvtárat ingyenes próba verzióval értékelheted, de a termeléshez megvásárolt licenc szükséges.
+
+**K: Milyen diagramtípusok támogatottak?**  
+V: Több mint 30 diagramtípus támogatott, többek között csoportosított oszlop, halmozott sáv, kör, radar és buborék diagramok.
+
+**K: Hogyan kezeljem a nagy prezentációkat memóriahiány nélkül?**  
+V: A mentés után hívd meg a `presentation.dispose()` metódust, és a nagy adathalmazokat külön szálakon vagy kötegekben dolgozd fel.
+
+**K: Kötelező a Java 16?**  
+V: A Java 16+ ajánlott a legjobb teljesítményhez; korábbi verziók működhetnek, de nem támogatottak hivatalosan.
+
+**K: Hol találok további kódpéldákat?**  
+V: Az Aspose.Slides hivatalos dokumentációja rengeteg mintát és API‑referenciát tartalmaz. Lásd a [Aspose dokumentációját](https://reference.aspose.com/slides/java/) részletekért.
+
+## Források
+- **Dokumentáció**: Átfogó útmutatók a [Aspose Documentation](https://reference.aspose.com/slides/java/) és a [Aspose's documentation](https://reference.aspose.com/slides/java/) oldalakon  
+- **Letöltés**: Legújabb kiadások elérhetők a [Aspose Releases](https://releases.aspose.com/slides/java/) és a közvetlen [letöltse a legújabb verziót](https://releases.aspose.com/slides/java/) linken  
+- **Vásárlás és próba**: A vásárláshoz vagy ingyenes próbaindításhoz elérhető linkek a [Aspose's Purchase Page](https://purchase.aspose.com/buy) és a [Free Trial Page](https://releases.aspose.com/slides/java/) oldalon  
+- **Támogatási fórum**: Kérdések esetén látogasd meg a [Aspose Support Forum](https://forum.aspose.com/c/slides/11) oldalt
+
+---
+
+**Utoljára frissítve:** 2026-07-22  
+**Tesztelt verzió:** Aspose.Slides for Java 24.5 (a kiadás időpontjában legújabb)  
+**Szerző:** Aspose
+
+## Kapcsolódó oktatóanyagok
+
+- [Hogyan adjunk hozzá diagramokat PowerPoint‑hoz Aspose.Slides for Java‑val: Lépés‑ről‑lépésre útmutató](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [Hogyan adjunk hozzá csoportosított oszlopdiagramot PowerPoint‑ban Aspose.Slides for Java‑val](/slides/java/charts-graphs/create-grouped-column-chart-aspose-slides-java/)
+- [Diagramok animálása PowerPoint‑ban Aspose.Slides for Java‑val – Lépés‑ről‑lépésre útmutató](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,15 +1,51 @@
 ---
-date: '2026-02-22'
-description: Erfahren Sie, wie Sie ein gestapeltes Säulendiagramm in Java mit Aspose.Slides
-  erstellen. Dieses Tutorial behandelt die Aspose Slides Maven‑Abhängigkeit, das Hinzufügen
-  eines prozentual gestapelten Diagramms, das Formatieren von Diagrammdatenbeschriftungen
-  und das Speichern der Präsentation als PPTX.
+date: '2026-07-22'
+description: Erfahren Sie, wie Sie mit der Aspose Slides Maven Dependency ein stacked
+  column chart in Java erstellen, data labels hinzufügen, das vertical axis number
+  format ändern und das Ergebnis als PPTX-Datei exportieren.
 keywords:
-- Aspose.Slides
+- aspose slides maven dependency
+- add data labels to chart
+- change vertical axis number format
+- how to add percentage stacked chart
+lastmod: '2026-07-22'
+og_description: Aspose Slides Maven Dependency ermöglicht es Ihnen, ein stacked column
+  chart in Java zu erstellen, data labels anzupassen, das vertical axis format zu
+  ändern und als PPTX zu speichern – alles mit prägnantem, produktionsreifem Code.
+og_image_alt: 'Developer guide: Build a stacked column chart in Java using Aspose.Slides
+  Maven dependency'
+og_title: 'Aspose Slides Maven Dependency: Stacked Column Chart in Java'
+schemas:
+- author: Aspose
+  dateModified: '2026-07-22'
+  description: Learn the Aspose Slides Maven Dependency to create a stacked column
+    chart in Java, add data labels, change vertical axis number format, and export
+    the result as a PPTX file.
+  headline: 'Aspose Slides Maven Dependency: Stacked Column Chart in Java'
+  type: TechArticle
+- questions:
+  - answer: Yes. The library supports JDK 8+; just use the appropriate classifier
+      (e.g., `jdk16` for JDK 16 or later).
+    question: Can I use this code with Java 11 or newer?
+  - answer: Use `chart.getImage().save("chart.png", ImageFormat.Png);` after adding
+      the chart to the slide.
+    question: How do I export the chart as an image instead of a PPTX?
+  - answer: Absolutely. Call `chart.getChartTitle().addTextFrameForOverriding("My
+      Chart");` and configure `chart.getLegend()` as needed.
+    question: Is it possible to add a legend to the stacked column chart?
+  - answer: You can modify the `ChartDataWorkbook` cells and then call `chart.refresh();`
+      to reflect changes.
+    question: What if I need to update data after the presentation is generated?
+  - answer: Yes. The library is pure Java and runs on any OS with a compatible JRE.
+    question: Does Aspose.Slides work on Linux servers?
+  type: FAQPage
+tags:
 - stacked column chart
-- Java presentation
-title: Wie man ein gestapeltes Säulendiagramm in Java mit Aspose.Slides erstellt –
-  Ein umfassender Leitfaden
+- Aspose.Slides
+- Java charting
+- Maven dependency
+- presentation generation
+title: 'Aspose Slides Maven Dependency: Stacked Column Chart in Java'
 url: /de/java/charts-graphs/aspose-slides-java-stacked-column-charts/
 weight: 1
 ---
@@ -19,41 +55,39 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Wie man ein gestapeltes Säulendiagramm in Java mit Aspose.Slides erstellt – Ein umfassender Leitfaden
+# Aspose Slides Maven-Abhängigkeit: Gestapelte Säulendiagramm in Java
 
 ## Einführung
 
-Steigern Sie Ihre Präsentationen, indem Sie aussagekräftige Datenvisualisierungen mit der Leistungsfähigkeit von Aspose.Slides für Java einbinden. In diesem Leitfaden **erstellen Sie gestapelte Säulendiagramm‑Folien**, die professionell aussehen, egal ob Sie Geschäftsberichte vorbereiten oder Projektdaten präsentieren. Am Ende dieses Tutorials können Sie:
+Verbessern Sie Ihre Präsentationen, indem Sie aussagekräftige Datenvisualisierungen mit der Leistungsfähigkeit von **Aspose.Slides for Java** einbinden. In diesem Leitfaden erstellen Sie ein **gestapeltes Säulendiagramm**, das professionell wirkt – egal, ob Sie Geschäftsberichte vorbereiten oder Projektdaten präsentieren. Am Ende dieses Tutorials können Sie:
 
-- Ihre Umgebung mit der Aspose Slides Maven‑Abhängigkeit einrichten
-- Eine Präsentation von Grund auf neu erstellen
-- **Ein prozentual gestapeltes Diagramm** hinzufügen und das Aussehen anpassen
+- Ihre Umgebung mit der **Aspose Slides Maven-Abhängigkeit** einrichten
+- Eine Präsentation von Grund auf erstellen
+- **Ein prozentual gestapeltes Diagramm** hinzufügen und dessen Aussehen anpassen
 - **Diagrammdatenbeschriftungen formatieren** und **das Zahlenformat der vertikalen Achse ändern**
 - **Die Präsentation als PPTX** mit einer einzigen Codezeile speichern
 
-Gehen wir die einzelnen Schritte durch, damit Sie sofort überzeugende Präsentationen erstellen können.
-
 ## Schnellantworten
-- **Welche Bibliothek benötige ich?** `aspose-slides` Maven/Gradle‑Abhängigkeit (siehe unten „aspose slides maven dependency“)  
-- **Welcher Diagrammtyp wird verwendet?** `ChartType.PercentsStackedColumn` für ein prozentual gestapeltes Säulendiagramm  
-- **Wie ändere ich das Zahlenformat der Achse?** Verwenden Sie `IAxis.setNumberFormat()` und deaktivieren Sie die Verknüpfung zur Quelle  
-- **Kann ich Datenbeschriftungen anpassen?** Ja – iterieren Sie über `IChartDataPoint`‑Objekte und setzen Sie ein benutzerdefiniertes `ITextFrame`  
-- **Wie speichere ich die Datei?** Rufen Sie `presentation.save("output.pptx", SaveFormat.Pptx)` auf
+- **Welche Bibliothek benötige ich?** Fügen Sie die `aspose-slides` Maven/Gradle‑Abhängigkeit hinzu (siehe unten „Aspose Slides Maven‑Abhängigkeit“).  
+- **Welcher Diagrammtyp erzeugt eine gestapelte Ansicht?** Verwenden Sie `ChartType.PercentsStackedColumn` für ein prozentual gestapeltes Säulendiagramm.  
+- **Wie ändere ich das Zahlenformat der Achse?** Rufen Sie `IAxis.setNumberFormat()` auf und setzen Sie `setNumberFormatLinkedToSource(false)`.  
+- **Kann ich Datenbeschriftungen anpassen?** Ja – iterieren Sie über jedes `IChartDataPoint` und weisen Sie ein benutzerdefiniertes `ITextFrame` zu.  
+- **Wie speichere ich die Datei?** Verwenden Sie `presentation.save("output.pptx", SaveFormat.Pptx)`.
 
 ## Was ist ein gestapeltes Säulendiagramm?
-Ein gestapeltes Säulendiagramm visualisiert mehrere Datenreihen, die übereinander in vertikalen Säulen angeordnet sind. Wenn Sie die **prozentual gestapelte** Variante verwenden, summiert sich jede Säule stets auf 100 %, was den Vergleich von proportionalen Beiträgen über Kategorien hinweg erleichtert.
+Ein gestapeltes Säulendiagramm visualisiert mehrere Datenreihen, die in jeder Kategorien‑Säule vertikal übereinander liegen, wobei die **prozentual gestapelte** Variante jede Säule auf 100 % normiert, um den Vergleich von Anteilen zu erleichtern. Dieses Format ermöglicht es Betrachtern, schnell zu erkennen, wie jeder Bestandteil zum Ganzen in den verschiedenen Kategorien beiträgt, wodurch Trends und relative Größen sofort ersichtlich werden.
 
 ## Warum Aspose.Slides für Java verwenden?
-Aspose.Slides bietet eine reine Java‑API, die auf jeder Plattform ohne installierte Microsoft‑Office‑Software funktioniert. Sie ermöglicht eine feinkörnige Steuerung von Diagrammobjekten, unterstützt zahlreiche Formate und lässt sich programmatisch zur Erstellung von Präsentationen nutzen – ideal für automatisierte Berichte oder serverseitige Dokumentengenerierung.
+Aspose.Slides für Java ermöglicht das Erzeugen, Bearbeiten und Konvertieren von PowerPoint‑Dateien **ohne Microsoft Office** und unterstützt **mehr als 50 Ausgabeformate** unter Windows, Linux und macOS. Die Bibliothek läuft vollständig auf einer JRE, was serverseitige Automatisierung und Hochdurchsatz‑Reporting erlaubt. Zudem bietet sie feinkörnige Kontrolle über Diagrammobjekte, Folienlayouts und Dokumenteigenschaften – ideal für die Präsentationserstellung auf Unternehmens‑Level.
 
 ## Voraussetzungen
 - **Java Development Kit (JDK):** 8 oder höher  
 - **IDE:** IntelliJ IDEA, Eclipse oder ein beliebiger Java‑kompatibler Editor  
 - **Build‑Tool:** Maven oder Gradle (optional, aber empfohlen)  
-- **Grundlegende Java‑Kenntnisse** – Sie sollten mit Klassen und Methoden vertraut sein  
+- **Grundkenntnisse in Java** – Sie sollten mit Klassen und Methoden vertraut sein  
 
 ## Aspose.Slides für Java einrichten
-Fügen Sie zunächst die Aspose.Slides‑Bibliothek zu Ihrem Projekt hinzu.
+Um zu beginnen, fügen Sie die Aspose.Slides‑Bibliothek zu Ihrem Projekt hinzu.
 
 ### Aspose Slides Maven‑Abhängigkeit
 Fügen Sie das Folgende zu Ihrer `pom.xml` hinzu (dies ist die **aspose slides maven dependency**, die Sie benötigen):
@@ -78,14 +112,14 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 Alternativ können Sie das neueste JAR von [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) herunterladen.
 
 ### Lizenzbeschaffung
-Sie können mit einer kostenlosen Testversion beginnen, um die Funktionen von Aspose.Slides zu erkunden. Um Evaluierungsbeschränkungen zu entfernen, sollten Sie eine temporäre oder gekaufte Lizenz erwerben.
+Sie können mit einer kostenlosen Testversion beginnen, um die Funktionen von Aspose.Slides zu erkunden. Um Evaluationsbeschränkungen zu entfernen, sollten Sie eine temporäre oder gekaufte Lizenz erwerben.
 
 - **Kostenlose Testversion:** Zugriff auf eingeschränkte Funktionen ohne sofortige Kosten.  
 - **Temporäre Lizenz:** Anforderung über die [Aspose‑Website](https://purchase.aspose.com/temporary-license/).  
 - **Kauf:** Besuchen Sie die Kaufseite für vollen Zugriff.
 
 ### Grundlegende Initialisierung
-Hier ein minimaler Ausschnitt, der zeigt, wie ein `Presentation`‑Objekt erstellt wird:
+`Presentation` ist die Kernklasse von Aspose.Slides, die eine PowerPoint‑Datei im Speicher repräsentiert. Das folgende Minimal‑Snippet zeigt, wie ein `Presentation`‑Objekt erstellt wird:
 
 ```java
 import com.aspose.slides.Presentation;
@@ -133,6 +167,8 @@ presentation.save("YOUR_OUTPUT_DIRECTORY/CreatePresentation_out.pptx", SaveForma
 **Übersicht:**  
 Jetzt platzieren wir ein **prozentual gestapeltes Diagramm** auf der ersten Folie.
 
+`ChartType.PercentsStackedColumn` gibt den Diagrammtyp für ein prozentual gestapeltes Säulendiagramm an.
+
 #### Schritt 1: Folie initialisieren und zugreifen
 ```java
 import com.aspose.slides.ISlide;
@@ -158,7 +194,9 @@ IChart chart = slide.getShapes().addChart(
 
 ### Zahlenformat der Diagrammachse anpassen
 **Übersicht:**  
-Zur besseren Lesbarkeit **ändern wir das Zahlenformat der vertikalen Achse** auf Prozente.
+Zur besseren Lesbarkeit ändern wir **das Zahlenformat der vertikalen Achse** auf Prozentsätze.
+
+`IAxis` ist das Interface, das eine Diagrammachse repräsentiert und Format‑ sowie Skalierungsanpassungen ermöglicht.
 
 #### Schritt 1: Diagramm hinzufügen und zugreifen
 ```java
@@ -182,7 +220,7 @@ verticalAxis.setNumberFormatLinkedToSource(false);
 verticalAxis.setNumberFormat("0.00%");
 ```
 
-### Serien und Datenpunkte zum Diagramm hinzufügen
+### Reihen und Datenpunkte zum Diagramm hinzufügen
 **Übersicht:**  
 Wir füllen das Diagramm mit Beispieldatenreihen.
 
@@ -205,7 +243,7 @@ public class AddSeriesToChart {
 }
 ```
 
-#### Schritt 2: Datenserien hinzufügen
+#### Schritt 2: Datenreihen hinzufügen
 ```java
 // Clear existing series and add new ones
 chart.getChartData().getSeries().clear();
@@ -216,9 +254,9 @@ series1.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorkshe
 // Add more data points as needed
 ```
 
-### Füllfarbe der Serien formatieren
+### Füllfarbe der Reihen formatieren
 **Übersicht:**  
-Geben Sie jeder Serie eine eigene Farbe, um das Diagramm leichter lesbar zu machen.
+Geben Sie jeder Reihe eine eindeutige Farbe, um das Diagramm leichter lesbar zu machen.
 
 #### Schritt 1: Diagramm initialisieren und zugreifen
 ```java
@@ -251,7 +289,9 @@ series1.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 **Übersicht:**  
 Jetzt **formatieren wir die Diagrammdatenbeschriftungen**, sodass sie benutzerdefinierten Text anzeigen.
 
-#### Schritt 1: Diagrammserien und Datenpunkte zugreifen
+`IChartDataPoint` repräsentiert einen einzelnen Datenpunkt innerhalb einer Diagrammreihe, und `ITextFrame` enthält den Beschriftungstext.
+
+#### Schritt 1: Diagrammreihen und Datenpunkte zugreifen
 ```java
 public class FormatDataLabels {
     public static void main(String[] args) throws Exception {
@@ -284,16 +324,16 @@ for (IChartSeries series : chart.getChartData().getSeries()) {
 
 ## Häufige Probleme und Lösungen
 - **Diagramm erscheint leer:** Stellen Sie sicher, dass Sie mindestens eine Datenreihe und einen Datenpunkt hinzugefügt haben, bevor Sie speichern.  
-- **Achsenzahlen zeigen keine Prozente:** Denken Sie daran, `verticalAxis.setNumberFormatLinkedToSource(false)` zu setzen; sonst wird das benutzerdefinierte Format ignoriert.  
-- **Lizenz‑Evaluierungsnachricht:** Laden Sie eine gültige Lizenzdatei, bevor Sie das `Presentation`‑Objekt erstellen, um das Evaluierungsbanner zu unterdrücken.
+- **Achsenzahlen zeigen keine Prozentsätze:** Denken Sie daran, `verticalAxis.setNumberFormatLinkedToSource(false)` zu setzen; sonst wird das benutzerdefinierte Format ignoriert.  
+- **Lizenz‑Evaluierungsnachricht:** Laden Sie eine gültige Lizenzdatei, bevor Sie das `Presentation`‑Objekt erstellen, um das Evaluationsbanner zu unterdrücken.
 
 ## Häufig gestellte Fragen
 
 **F: Kann ich diesen Code mit Java 11 oder neuer verwenden?**  
-A: Ja. Die Bibliothek unterstützt JDK 8+; verwenden Sie einfach den passenden Classifier (z. B. `jdk16` für JDK 16 oder höher).
+A: Ja. Die Bibliothek unterstützt JDK 8+; verwenden Sie einfach den passenden Klassifizierer (z. B. `jdk16` für JDK 16 oder höher).
 
 **F: Wie exportiere ich das Diagramm als Bild statt als PPTX?**  
-A: Verwenden Sie `chart.getImage().save("chart.png", ImageFormat.Png);` nachdem Sie das Diagramm zur Folie hinzugefügt haben.
+A: Verwenden Sie `chart.getImage().save("chart.png", ImageFormat.Png);` nachdem das Diagramm zur Folie hinzugefügt wurde.
 
 **F: Ist es möglich, eine Legende zum gestapelten Säulendiagramm hinzuzufügen?**  
 A: Absolut. Rufen Sie `chart.getChartTitle().addTextFrameForOverriding("My Chart");` auf und konfigurieren Sie `chart.getLegend()` nach Bedarf.
@@ -305,18 +345,25 @@ A: Sie können die Zellen des `ChartDataWorkbook` ändern und anschließend `cha
 A: Ja. Die Bibliothek ist reines Java und läuft auf jedem Betriebssystem mit einer kompatiblen JRE.
 
 ## Fazit
-Durch die Befolgung dieses Leitfadens haben Sie gelernt, **gestapelte Säulendiagramm‑Präsentationen** mit Aspose.Slides für Java zu erstellen – von der Umgebungseinrichtung bis zur feinen visuellen Gestaltung. Experimentieren Sie mit verschiedenen Datensätzen, Farben und Beschriftungsformaten, um Ihre Berichte wirklich hervorzuheben.
+Durch die Befolgung dieses Leitfadens haben Sie gelernt, wie man in Java mit der **Aspose Slides Maven‑Abhängigkeit** ein **gestapeltes Säulendiagramm** erstellt – von der Umgebungseinrichtung bis zur feinen visuellen Gestaltung. Experimentieren Sie mit verschiedenen Datensätzen, Farben und Beschriftungsformaten, um Ihre Berichte wirklich hervorzuheben.
 
 ---
 
-**Zuletzt aktualisiert:** 2026-02-22  
+**Zuletzt aktualisiert:** 2026-07-22  
 **Getestet mit:** Aspose.Slides 25.4 (jdk16 classifier)  
 **Autor:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Verwandte Tutorials
+
+- [How to create clustered column chart in Java with Aspose.Slides](/slides/java/charts-graphs/aspose-slides-java-clustered-column-charts/)
+- [How to Set Number Formats in Chart Data Points Using Aspose.Slides for Java](/slides/java/charts-graphs/set-number-format-chart-data-points-aspose-slides-java/)
+- [How to Add and Configure Charts in Presentations Using Aspose.Slides for Java](/slides/java/charts-graphs/add-charts-aspose-slides-java-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -1,15 +1,51 @@
 ---
-date: '2026-02-22'
-description: Aprenda como criar um gráfico de colunas empilhadas em Java usando Aspose.Slides.
-  Este tutorial aborda a dependência Aspose Slides Maven, a adição de um gráfico empilhado
-  em porcentagem, a formatação dos rótulos de dados do gráfico e a gravação da apresentação
-  como PPTX.
+date: '2026-07-22'
+description: Aprenda a Aspose Slides Maven Dependency para criar um gráfico de colunas
+  empilhadas em Java, adicionar rótulos de dados, alterar o formato numérico do eixo
+  vertical e exportar o resultado como um arquivo PPTX.
 keywords:
-- Aspose.Slides
+- aspose slides maven dependency
+- add data labels to chart
+- change vertical axis number format
+- how to add percentage stacked chart
+lastmod: '2026-07-22'
+og_description: Aspose Slides Maven Dependency permite criar um gráfico de colunas
+  empilhadas em Java, personalizar rótulos de dados, ajustar o formato do eixo vertical
+  e salvar como PPTX – tudo com código conciso e pronto para produção.
+og_image_alt: 'Developer guide: Build a stacked column chart in Java using Aspose.Slides
+  Maven dependency'
+og_title: 'Aspose Slides Maven Dependency: Gráfico de Colunas Empilhadas em Java'
+schemas:
+- author: Aspose
+  dateModified: '2026-07-22'
+  description: Learn the Aspose Slides Maven Dependency to create a stacked column
+    chart in Java, add data labels, change vertical axis number format, and export
+    the result as a PPTX file.
+  headline: 'Aspose Slides Maven Dependency: Stacked Column Chart in Java'
+  type: TechArticle
+- questions:
+  - answer: Yes. The library supports JDK 8+; just use the appropriate classifier
+      (e.g., `jdk16` for JDK 16 or later).
+    question: Can I use this code with Java 11 or newer?
+  - answer: Use `chart.getImage().save("chart.png", ImageFormat.Png);` after adding
+      the chart to the slide.
+    question: How do I export the chart as an image instead of a PPTX?
+  - answer: Absolutely. Call `chart.getChartTitle().addTextFrameForOverriding("My
+      Chart");` and configure `chart.getLegend()` as needed.
+    question: Is it possible to add a legend to the stacked column chart?
+  - answer: You can modify the `ChartDataWorkbook` cells and then call `chart.refresh();`
+      to reflect changes.
+    question: What if I need to update data after the presentation is generated?
+  - answer: Yes. The library is pure Java and runs on any OS with a compatible JRE.
+    question: Does Aspose.Slides work on Linux servers?
+  type: FAQPage
+tags:
 - stacked column chart
-- Java presentation
-title: Como criar gráfico de colunas empilhadas em Java com Aspose.Slides – Um Guia
-  Abrangente
+- Aspose.Slides
+- Java charting
+- Maven dependency
+- presentation generation
+title: 'Aspose Slides Maven Dependency: Gráfico de Colunas Empilhadas em Java'
 url: /pt/java/charts-graphs/aspose-slides-java-stacked-column-charts/
 weight: 1
 ---
@@ -19,34 +55,32 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Como criar gráfico de colunas empilhadas em Java com Aspose.Slides – Um Guia Abrangente
+# Dependência Maven do Aspose Slides: Gráfico de Colunas Empilhadas em Java
 
 ## Introdução
 
-Eleve suas apresentações incorporando visualizações de dados perspicazes com o poder do Aspose.Slides para Java. Neste guia você **criará slides com gráfico de colunas empilhadas** que parecem profissionais, seja preparando relatórios de negócios ou exibindo estatísticas de projetos. Ao final deste tutorial você será capaz de:
+Eleve suas apresentações incorporando visualizações de dados perspicazes com o poder do **Aspose.Slides for Java**. Neste guia você **criará um gráfico de colunas empilhadas** que parece profissional, seja ao preparar relatórios de negócios ou ao exibir estatísticas de projetos. Ao final deste tutorial você será capaz de:
 
-- Configurar seu ambiente com a dependência Maven do Aspose Slides
+- Configurar seu ambiente com a **dependência Maven do Aspose Slides**
 - Criar uma apresentação do zero
-- **Adicionar gráfico de colunas empilhadas em porcentagem** e personalizar sua aparência
-- **Formatar rótulos de dados do gráfico** e **alterar o formato do eixo vertical**
+- **Adicionar um gráfico de colunas empilhadas em porcentagem** e personalizar sua aparência
+- **Formatar rótulos de dados do gráfico** e **alterar o formato numérico do eixo vertical**
 - **Salvar a apresentação como PPTX** com uma única linha de código
 
-Vamos percorrer cada passo para que você possa começar a criar apresentações impactantes imediatamente.
-
 ## Respostas Rápidas
-- **Qual biblioteca eu preciso?** dependência Maven/Gradle `aspose-slides` (veja “aspose slides maven dependency” abaixo)  
-- **Qual tipo de gráfico é usado?** `ChartType.PercentsStackedColumn` para um gráfico de colunas empilhadas em porcentagem  
-- **Como altero o formato numérico do eixo?** Use `IAxis.setNumberFormat()` e desative o vínculo à fonte  
-- **Posso personalizar os rótulos de dados?** Sim – itere pelos objetos `IChartDataPoint` e defina um `ITextFrame` personalizado  
-- **Como salvo o arquivo?** Chame `presentation.save("output.pptx", SaveFormat.Pptx)`
+- **Qual biblioteca eu preciso?** Adicione a dependência Maven/Gradle `aspose-slides` (veja “Dependência Maven do Aspose Slides” abaixo).  
+- **Qual tipo de gráfico cria uma visualização empilhada?** Use `ChartType.PercentsStackedColumn` para um gráfico de colunas empilhadas em porcentagem.  
+- **Como mudar o formato numérico do eixo?** Chame `IAxis.setNumberFormat()` e defina `setNumberFormatLinkedToSource(false)`.  
+- **Posso personalizar os rótulos de dados?** Sim – itere por cada `IChartDataPoint` e atribua um `ITextFrame` personalizado.  
+- **Como salvo o arquivo?** Invocar `presentation.save("output.pptx", SaveFormat.Pptx)`.
 
 ## O que é um gráfico de colunas empilhadas?
-Um gráfico de colunas empilhadas visualiza várias séries de dados empilhadas umas sobre as outras em colunas verticais. Quando você usa a variante **empilhada em porcentagem**, cada coluna sempre totaliza 100 %, facilitando a comparação das contribuições proporcionais entre categorias.
+Um gráfico de colunas empilhadas visualiza várias séries de dados empilhadas verticalmente em cada coluna de categoria, com a variante **empilhada em porcentagem** normalizando cada coluna para 100 % para facilitar a comparação de proporções. Esse formato permite que os espectadores avaliem rapidamente como cada componente contribui para o todo em diferentes categorias, tornando tendências e tamanhos relativos instantaneamente claros.
 
 ## Por que usar Aspose.Slides para Java?
-Aspose.Slides fornece uma API pura em Java que funciona em qualquer plataforma sem a necessidade do Microsoft Office instalado. Ela oferece controle detalhado sobre objetos de gráfico, suporta uma ampla gama de formatos e permite gerar apresentações programaticamente — perfeito para relatórios automatizados ou geração de documentos no lado do servidor.
+Aspose.Slides para Java permite gerar, editar e converter arquivos PowerPoint **sem precisar do Microsoft Office** e suporta **mais de 50 formatos de saída** em Windows, Linux e macOS. A biblioteca roda totalmente em uma JRE, possibilitando automação server‑side e geração de relatórios de alta taxa de transferência. Ela também fornece controle detalhado sobre objetos de gráfico, layouts de slides e propriedades de documentos, tornando‑a ideal para geração de apresentações em nível empresarial.
 
-## Pré-requisitos
+## Pré‑requisitos
 - **Java Development Kit (JDK):** 8 ou superior  
 - **IDE:** IntelliJ IDEA, Eclipse ou qualquer editor compatível com Java  
 - **Ferramenta de Build:** Maven ou Gradle (opcional, mas recomendado)  
@@ -75,7 +109,7 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 ```
 
 ### Download Direto
-Alternativamente, faça o download do JAR mais recente em [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+Alternativamente, faça o download do JAR mais recente em [lançamentos do Aspose.Slides para Java](https://releases.aspose.com/slides/java/).
 
 ### Aquisição de Licença
 Você pode começar com um teste gratuito para explorar os recursos do Aspose.Slides. Para remover as limitações de avaliação, considere obter uma licença temporária ou comprada.
@@ -85,7 +119,7 @@ Você pode começar com um teste gratuito para explorar os recursos do Aspose.Sl
 - **Compra:** Visite a página de compra para acesso total.
 
 ### Inicialização Básica
-Aqui está um trecho mínimo que mostra como criar um objeto `Presentation`:
+`Presentation` é a classe central do Aspose.Slides que representa um arquivo PowerPoint na memória. O snippet mínimo a seguir mostra como criar um objeto `Presentation`:
 
 ```java
 import com.aspose.slides.Presentation;
@@ -107,7 +141,7 @@ public class InitializeAspose {
 **Visão geral:**  
 Primeiro, criaremos uma apresentação em branco e verificaremos se um slide existe.
 
-#### Passo 1: Inicializar o Objeto Presentation
+#### Etapa 1: Inicializar o Objeto Presentation
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
@@ -123,7 +157,7 @@ public class CreatePresentation {
 }
 ```
 
-#### Passo 2: Salvar a Apresentação
+#### Etapa 2: Salvar a Apresentação
 ```
 // Save the presentation to a file
 presentation.save("YOUR_OUTPUT_DIRECTORY/CreatePresentation_out.pptx", SaveFormat.Pptx);
@@ -133,7 +167,9 @@ presentation.save("YOUR_OUTPUT_DIRECTORY/CreatePresentation_out.pptx", SaveForma
 **Visão geral:**  
 Agora colocaremos um **gráfico empilhado em porcentagem** no primeiro slide.
 
-#### Passo 1: Inicializar e Acessar o Slide
+`ChartType.PercentsStackedColumn` especifica um tipo de gráfico de colunas empilhadas em porcentagem.
+
+#### Etapa 1: Inicializar e Acessar o Slide
 ```java
 import com.aspose.slides.ISlide;
 import com.aspose.slides.ChartType;
@@ -148,7 +184,7 @@ public class AddChartToSlide {
 }
 ```
 
-#### Passo 2: Adicionar Gráfico ao Slide
+#### Etapa 2: Adicionar Gráfico ao Slide
 ```java
 import com.aspose.slides.IChart;
 
@@ -158,9 +194,11 @@ IChart chart = slide.getShapes().addChart(
 
 ### Personalizando o Formato Numérico do Eixo do Gráfico
 **Visão geral:**  
-Para melhor legibilidade, vamos **alterar o formato do eixo vertical** para exibir porcentagens.
+Para melhor legibilidade, **alteraremos o formato do eixo vertical** para exibir porcentagens.
 
-#### Passo 1: Adicionar e Acessar o Gráfico
+`IAxis` é a interface que representa um eixo de gráfico, permitindo ajustes de formato e escala.
+
+#### Etapa 1: Adicionar e Acessar o Gráfico
 ```java
 public class CustomizeChartAxis {
     public static void main(String[] args) throws Exception {
@@ -173,7 +211,7 @@ public class CustomizeChartAxis {
 }
 ```
 
-#### Passo 2: Definir Formato Numérico Personalizado
+#### Etapa 2: Definir Formato Numérico Personalizado
 ```java
 import com.aspose.slides.IAxis;
 
@@ -184,9 +222,9 @@ verticalAxis.setNumberFormat("0.00%");
 
 ### Adicionando Séries e Pontos de Dados ao Gráfico
 **Visão geral:**  
-Vamos preencher o gráfico com séries de dados de exemplo.
+Popularemos o gráfico com séries de dados de exemplo.
 
-#### Passo 1: Inicializar a Apresentação e o Gráfico
+#### Etapa 1: Inicializar Apresentação e Gráfico
 ```java
 import com.aspose.slides.IChartSeries;
 import com.aspose.slides.ChartDataWorkbook;
@@ -205,7 +243,7 @@ public class AddSeriesToChart {
 }
 ```
 
-#### Passo 2: Adicionar Série de Dados
+#### Etapa 2: Adicionar Séries de Dados
 ```java
 // Clear existing series and add new ones
 chart.getChartData().getSeries().clear();
@@ -216,11 +254,11 @@ series1.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorkshe
 // Add more data points as needed
 ```
 
-### Formatando a Cor de Preenchimento da Série
+### Formatando a Cor de Preenchimento das Séries
 **Visão geral:**  
 Dê a cada série uma cor distinta para tornar o gráfico mais fácil de ler.
 
-#### Passo 1: Inicializar e Acessar o Gráfico
+#### Etapa 1: Inicializar e Acessar o Gráfico
 ```java
 import java.awt.Color;
 import com.aspose.slides.FillType;
@@ -238,7 +276,7 @@ public class FormatSeriesFillColor {
 }
 ```
 
-#### Passo 2: Definir Cores de Preenchimento
+#### Etapa 2: Definir Cores de Preenchimento
 ```java
 IChartSeries series1 = chart.getChartData().getSeries().get_Item(0);
 series1.getFormat().getFill().setFillType(FillType.Solid);
@@ -249,9 +287,11 @@ series1.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 
 ### Formatando Rótulos de Dados
 **Visão geral:**  
-Agora vamos **formatar os rótulos de dados do gráfico** para que exibam texto personalizado.
+Agora **formataremos os rótulos de dados do gráfico** para que exibam texto personalizado.
 
-#### Passo 1: Acessar Séries do Gráfico e Pontos de Dados
+`IChartDataPoint` representa um ponto de dado individual dentro de uma série de gráfico, e `ITextFrame` contém o texto do rótulo.
+
+#### Etapa 1: Acessar Séries do Gráfico e Pontos de Dados
 ```java
 public class FormatDataLabels {
     public static void main(String[] args) throws Exception {
@@ -267,7 +307,7 @@ public class FormatDataLabels {
 }
 ```
 
-#### Passo 2: Personalizar Rótulos de Dados
+#### Etapa 2: Personalizar Rótulos de Dados
 ```java
 import com.aspose.slides.ITextFrame;
 import com.aspose.slides.IChartDataPoint;
@@ -283,40 +323,47 @@ for (IChartSeries series : chart.getChartData().getSeries()) {
 ```
 
 ## Problemas Comuns e Soluções
-- **O gráfico aparece vazio:** Certifique-se de ter adicionado ao menos uma série de dados e ponto de dados antes de salvar.  
-- **Números do eixo não mostram porcentagens:** Lembre-se de definir `verticalAxis.setNumberFormatLinkedToSource(false)`; caso contrário, o formato personalizado será ignorado.  
-- **Mensagem de avaliação da licença:** Aplique um arquivo de licença válido antes de criar o objeto `Presentation` para suprimir o banner de avaliação.
+- **O gráfico aparece vazio:** Certifique‑se de que adicionou ao menos uma série de dados e um ponto de dado antes de salvar.  
+- **Números do eixo não mostram porcentagens:** Lembre‑se de definir `verticalAxis.setNumberFormatLinkedToSource(false)`; caso contrário, o formato personalizado será ignorado.  
+- **Mensagem de avaliação da licença:** Aplique um arquivo de licença válido antes de criar o objeto `Presentation` para suprimir a faixa de avaliação.
 
 ## Perguntas Frequentes
 
-**Q: Posso usar este código com Java 11 ou mais recente?**  
-A: Sim. A biblioteca suporta JDK 8+; basta usar o classificador apropriado (por exemplo, `jdk16` para JDK 16 ou posterior).
+**P: Posso usar este código com Java 11 ou superior?**  
+R: Sim. A biblioteca suporta JDK 8+; basta usar o classificador apropriado (por exemplo, `jdk16` para JDK 16 ou posterior).
 
-**Q: Como exporto o gráfico como imagem em vez de PPTX?**  
-A: Use `chart.getImage().save("chart.png", ImageFormat.Png);` após adicionar o gráfico ao slide.
+**P: Como exportar o gráfico como imagem em vez de PPTX?**  
+R: Use `chart.getImage().save("chart.png", ImageFormat.Png);` após adicionar o gráfico ao slide.
 
-**Q: É possível adicionar uma legenda ao gráfico de colunas empilhadas?**  
-A: Absolutamente. Chame `chart.getChartTitle().addTextFrameForOverriding("My Chart");` e configure `chart.getLegend()` conforme necessário.
+**P: É possível adicionar uma legenda ao gráfico de colunas empilhadas?**  
+R: Absolutamente. Chame `chart.getChartTitle().addTextFrameForOverriding("My Chart");` e configure `chart.getLegend()` conforme necessário.
 
-**Q: E se eu precisar atualizar os dados após a apresentação ser gerada?**  
-A: Você pode modificar as células do `ChartDataWorkbook` e então chamar `chart.refresh();` para refletir as alterações.
+**P: E se eu precisar atualizar os dados após a apresentação ser gerada?**  
+R: Você pode modificar as células do `ChartDataWorkbook` e então chamar `chart.refresh();` para refletir as alterações.
 
-**Q: O Aspose.Slides funciona em servidores Linux?**  
-A: Sim. A biblioteca é pura Java e roda em qualquer SO com um JRE compatível.
+**P: O Aspose.Slides funciona em servidores Linux?**  
+R: Sim. A biblioteca é pura Java e roda em qualquer SO com uma JRE compatível.
 
 ## Conclusão
-Seguindo este guia, você aprendeu como **criar apresentações com gráfico de colunas empilhadas** usando Aspose.Slides para Java, desde a configuração do ambiente até a estilização visual refinada. Experimente diferentes conjuntos de dados, cores e formatos de rótulos para que seus relatórios realmente se destaquem.
+Seguindo este guia, você aprendeu a **criar um gráfico de colunas empilhadas** em Java usando a **dependência Maven do Aspose Slides**, desde a configuração do ambiente até o estilo visual refinado. Experimente diferentes conjuntos de dados, cores e formatos de rótulo para fazer seus relatórios realmente se destacarem.
 
 ---
 
-**Última Atualização:** 2026-02-22  
+**Última atualização:** 2026-07-22  
 **Testado com:** Aspose.Slides 25.4 (classificador jdk16)  
 **Autor:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Tutoriais Relacionados
+
+- [Como criar gráfico de colunas agrupadas em Java com Aspose.Slides](/slides/java/charts-graphs/aspose-slides-java-clustered-column-charts/)
+- [Como Definir Formatos Numéricos em Pontos de Dados de Gráficos Usando Aspose.Slides para Java](/slides/java/charts-graphs/set-number-format-chart-data-points-aspose-slides-java/)
+- [Como Adicionar e Configurar Gráficos em Apresentações Usando Aspose.Slides para Java](/slides/java/charts-graphs/add-charts-aspose-slides-java-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
