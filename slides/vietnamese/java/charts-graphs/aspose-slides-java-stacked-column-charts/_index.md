@@ -1,60 +1,96 @@
 ---
-date: '2026-02-22'
-description: Tìm hiểu cách tạo biểu đồ cột chồng trong Java bằng Aspose.Slides. Hướng
-  dẫn này bao gồm phụ thuộc Aspose Slides Maven, thêm biểu đồ chồng phần trăm, định
-  dạng nhãn dữ liệu biểu đồ và lưu bản trình bày dưới dạng PPTX.
+date: '2026-07-22'
+description: Tìm hiểu Aspose Slides Maven Dependency để tạo biểu đồ cột chồng trong
+  Java, thêm nhãn dữ liệu, thay đổi định dạng số của trục dọc và xuất kết quả dưới
+  dạng tệp PPTX.
 keywords:
-- Aspose.Slides
+- aspose slides maven dependency
+- add data labels to chart
+- change vertical axis number format
+- how to add percentage stacked chart
+lastmod: '2026-07-22'
+og_description: Aspose Slides Maven Dependency cho phép bạn xây dựng biểu đồ cột chồng
+  trong Java, tùy chỉnh nhãn dữ liệu, điều chỉnh định dạng trục dọc và lưu dưới dạng
+  PPTX – tất cả với mã ngắn gọn, sẵn sàng cho sản xuất.
+og_image_alt: 'Developer guide: Build a stacked column chart in Java using Aspose.Slides
+  Maven dependency'
+og_title: 'Aspose Slides Maven Dependency: Biểu đồ cột chồng trong Java'
+schemas:
+- author: Aspose
+  dateModified: '2026-07-22'
+  description: Learn the Aspose Slides Maven Dependency to create a stacked column
+    chart in Java, add data labels, change vertical axis number format, and export
+    the result as a PPTX file.
+  headline: 'Aspose Slides Maven Dependency: Stacked Column Chart in Java'
+  type: TechArticle
+- questions:
+  - answer: Yes. The library supports JDK 8+; just use the appropriate classifier
+      (e.g., `jdk16` for JDK 16 or later).
+    question: Can I use this code with Java 11 or newer?
+  - answer: Use `chart.getImage().save("chart.png", ImageFormat.Png);` after adding
+      the chart to the slide.
+    question: How do I export the chart as an image instead of a PPTX?
+  - answer: Absolutely. Call `chart.getChartTitle().addTextFrameForOverriding("My
+      Chart");` and configure `chart.getLegend()` as needed.
+    question: Is it possible to add a legend to the stacked column chart?
+  - answer: You can modify the `ChartDataWorkbook` cells and then call `chart.refresh();`
+      to reflect changes.
+    question: What if I need to update data after the presentation is generated?
+  - answer: Yes. The library is pure Java and runs on any OS with a compatible JRE.
+    question: Does Aspose.Slides work on Linux servers?
+  type: FAQPage
+tags:
 - stacked column chart
-- Java presentation
-title: Cách tạo biểu đồ cột chồng trong Java với Aspose.Slides – Hướng dẫn toàn diện
+- Aspose.Slides
+- Java charting
+- Maven dependency
+- presentation generation
+title: 'Aspose Slides Maven Dependency: Biểu đồ cột chồng trong Java'
 url: /vi/java/charts-graphs/aspose-slides-java-stacked-column-charts/
 weight: 1
 ---
 
- sure no extra spaces or missing elements.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Cách tạo biểu đồ cột chồng trong Java với Aspose.Slides – Hướng dẫn toàn diện
+# Aspose Slides Maven Dependency: Biểu đồ Cột chồng trong Java
 
 ## Giới thiệu
 
-Nâng cao các bản trình bày của bạn bằng cách tích hợp các biểu đồ dữ liệu sâu sắc với sức mạnh của Aspose.Slides cho Java. Trong hướng dẫn này, bạn sẽ **tạo biểu đồ cột chồng** trên các slide trông chuyên nghiệp, dù bạn đang chuẩn bị báo cáo kinh doanh hay trình bày thống kê dự án. Khi kết thúc bài học, bạn sẽ có thể:
+Nâng cao các bản trình bày của bạn bằng cách tích hợp các hình ảnh dữ liệu sâu sắc với sức mạnh của **Aspose.Slides for Java**. Trong hướng dẫn này, bạn sẽ **tạo một biểu đồ cột chồng** trông chuyên nghiệp, dù bạn đang chuẩn bị báo cáo kinh doanh hay trình bày thống kê dự án. Khi hoàn thành tutorial này, bạn sẽ có thể:
 
-- Cài đặt môi trường với phụ thuộc Maven của Aspose Slides
+- Thiết lập môi trường với **phụ thuộc Aspose Slides Maven**
 - Tạo một bản trình bày từ đầu
 - **Thêm biểu đồ cột chồng phần trăm** và tùy chỉnh giao diện
-- **Định dạng nhãn dữ liệu của biểu đồ** và **thay đổi định dạng trục dọc**
+- **Định dạng nhãn dữ liệu biểu đồ** và **thay đổi định dạng số trục tung**
 - **Lưu bản trình bày dưới dạng PPTX** chỉ bằng một dòng lệnh
 
-Hãy cùng đi qua từng bước để bạn có thể bắt đầu tạo các bản trình bày ấn tượng ngay lập tức.
-
 ## Câu trả lời nhanh
-- **Thư viện cần thiết là gì?** phụ thuộc Maven/Gradle `aspose-slides` (xem “aspose slides maven dependency” bên dưới)  
-- **Loại biểu đồ nào được sử dụng?** `ChartType.PercentsStackedColumn` cho biểu đồ cột chồng phần trăm  
-- **Làm thế nào để thay đổi định dạng số của trục?** Sử dụng `IAxis.setNumberFormat()` và tắt việc liên kết với nguồn  
-- **Có thể tùy chỉnh nhãn dữ liệu không?** Có – duyệt qua các đối tượng `IChartDataPoint` và đặt một `ITextFrame` tùy chỉnh  
-- **Làm thế nào để lưu file?** Gọi `presentation.save("output.pptx", SaveFormat.Pptx)`
+- **Thư viện tôi cần là gì?** Thêm phụ thuộc `aspose-slides` cho Maven/Gradle (xem “Aspose Slides Maven Dependency” bên dưới).  
+- **Loại biểu đồ nào tạo dạng chồng?** Sử dụng `ChartType.PercentsStackedColumn` cho biểu đồ cột chồng phần trăm.  
+- **Làm sao thay đổi định dạng số của trục?** Gọi `IAxis.setNumberFormat()` và đặt `setNumberFormatLinkedToSource(false)`.  
+- **Có thể tùy chỉnh nhãn dữ liệu không?** Có – lặp qua từng `IChartDataPoint` và gán một `ITextFrame` tùy chỉnh.  
+- **Làm sao lưu file?** Gọi `presentation.save("output.pptx", SaveFormat.Pptx)`.
 
 ## Biểu đồ cột chồng là gì?
-Biểu đồ cột chồng hiển thị nhiều chuỗi dữ liệu được xếp chồng lên nhau trong các cột dọc. Khi bạn sử dụng biến thể **cột chồng phần trăm**, mỗi cột luôn tổng cộng 100 %, giúp dễ dàng so sánh tỷ lệ đóng góp giữa các danh mục.
+Biểu đồ cột chồng hiển thị nhiều chuỗi dữ liệu được xếp chồng lên nhau theo chiều dọc trong mỗi cột danh mục, với biến thể **phần trăm‑chồng** chuẩn hoá mỗi cột về 100 % để so sánh tỷ lệ dễ dàng. Định dạng này cho phép người xem nhanh chóng đánh giá cách mỗi thành phần đóng góp vào tổng thể qua các danh mục khác nhau, làm cho xu hướng và kích thước tương đối trở nên rõ ràng ngay lập tức.
 
-## Tại sao nên sử dụng Aspose.Slides cho Java?
-Aspose.Slides cung cấp một API thuần Java hoạt động trên bất kỳ nền tảng nào mà không cần cài đặt Microsoft Office. Nó cho phép kiểm soát chi tiết các đối tượng biểu đồ, hỗ trợ nhiều định dạng, và cho phép bạn tạo bản trình bày một cách lập trình—lý tưởng cho báo cáo tự động hoặc tạo tài liệu phía máy chủ.
+## Tại sao sử dụng Aspose.Slides cho Java?
+Aspose.Slides cho Java cho phép bạn tạo, chỉnh sửa và chuyển đổi các tệp PowerPoint **không cần Microsoft Office** và hỗ trợ **hơn 50 định dạng xuất** trên Windows, Linux và macOS. Thư viện chạy hoàn toàn trên JRE, cho phép tự động hoá phía máy chủ và báo cáo hiệu suất cao. Nó cũng cung cấp quyền kiểm soát chi tiết đối với các đối tượng biểu đồ, bố cục slide và thuộc tính tài liệu, rất phù hợp cho việc tạo bản trình bày cấp doanh nghiệp.
 
 ## Yêu cầu trước
 - **Java Development Kit (JDK):** 8 trở lên  
-- **IDE:** IntelliJ IDEA, Eclipse, hoặc bất kỳ trình soạn thảo nào tương thích Java  
-- **Công cụ xây dựng:** Maven hoặc Gradle (tùy chọn nhưng khuyến nghị)  
-- **Kiến thức Java cơ bản** – bạn nên quen thuộc với các lớp và phương thức  
+- **IDE:** IntelliJ IDEA, Eclipse, hoặc bất kỳ trình soạn thảo Java nào tương thích  
+- **Công cụ xây dựng:** Maven hoặc Gradle (không bắt buộc nhưng khuyến nghị)  
+- **Kiến thức Java cơ bản** – bạn nên quen thuộc với lớp và phương thức  
 
 ## Cài đặt Aspose.Slides cho Java
 Để bắt đầu, thêm thư viện Aspose.Slides vào dự án của bạn.
 
-### Phụ thuộc Maven của Aspose Slides
-Thêm đoạn sau vào file `pom.xml` của bạn (đây là **aspose slides maven dependency** bạn cần):
+### Aspose Slides Maven Dependency
+Thêm đoạn sau vào `pom.xml` (đây là **aspose slides maven dependency** bạn cần):
 
 ```xml
 <dependency>
@@ -66,24 +102,24 @@ Thêm đoạn sau vào file `pom.xml` của bạn (đây là **aspose slides mav
 ```
 
 ### Thay thế Gradle
-Nếu bạn thích Gradle, thêm dòng sau vào `build.gradle`:
+Nếu bạn thích Gradle, bao gồm dòng này trong `build.gradle`:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Tải trực tiếp
+### Tải xuống trực tiếp
 Hoặc tải JAR mới nhất từ [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### Cách lấy giấy phép
-Bạn có thể bắt đầu với bản dùng thử miễn phí để khám phá các tính năng của Aspose.Slides. Để loại bỏ các giới hạn đánh giá, hãy cân nhắc lấy giấy phép tạm thời hoặc mua bản quyền.
+### Nhận giấy phép
+Bạn có thể bắt đầu với bản dùng thử miễn phí để khám phá các tính năng của Aspose.Slides. Để loại bỏ các hạn chế đánh giá, hãy cân nhắc mua hoặc nhận giấy phép tạm thời.
 
-- **Dùng thử miễn phí:** Truy cập các tính năng giới hạn mà không tốn phí ngay lập tức.  
+- **Dùng thử miễn phí:** Truy cập các tính năng giới hạn mà không tốn chi phí ngay lập tức.  
 - **Giấy phép tạm thời:** Yêu cầu qua [trang của Aspose](https://purchase.aspose.com/temporary-license/).  
-- **Mua bản quyền:** Truy cập trang mua để có toàn quyền truy cập.
+- **Mua bản quyền:** Truy cập trang mua để có đầy đủ quyền truy cập.
 
 ### Khởi tạo cơ bản
-Đây là đoạn mã tối thiểu cho thấy cách tạo một đối tượng `Presentation`:
+`Presentation` là lớp cốt lõi của Aspose.Slides đại diện cho một tệp PowerPoint trong bộ nhớ. Đoạn mã tối thiểu sau cho thấy cách tạo một đối tượng `Presentation`:
 
 ```java
 import com.aspose.slides.Presentation;
@@ -99,9 +135,9 @@ public class InitializeAspose {
 }
 ```
 
-## Hướng dẫn thực hiện
+## Hướng dẫn triển khai
 
-### Tạo bản trình bày và thêm slide
+### Tạo bản trình bày và Thêm slide
 **Tổng quan:**  
 Đầu tiên, chúng ta sẽ tạo một bản trình bày trống và xác nhận rằng một slide đã tồn tại.
 
@@ -127,11 +163,13 @@ public class CreatePresentation {
 presentation.save("YOUR_OUTPUT_DIRECTORY/CreatePresentation_out.pptx", SaveFormat.Pptx);
 ```
 
-### Thêm biểu đồ cột chồng phần trăm vào slide
+### Thêm biểu đồ Cột chồng phần trăm vào Slide
 **Tổng quan:**  
-Bây giờ chúng ta sẽ đặt một **biểu đồ cột chồng phần trăm** lên slide đầu tiên.
+Bây giờ chúng ta sẽ đặt **biểu đồ cột chồng phần trăm** lên slide đầu tiên.
 
-#### Bước 1: Khởi tạo và truy cập Slide
+`ChartType.PercentsStackedColumn` chỉ định loại biểu đồ cột chồng phần trăm.
+
+#### Bước 1: Khởi tạo và Truy cập Slide
 ```java
 import com.aspose.slides.ISlide;
 import com.aspose.slides.ChartType;
@@ -154,11 +192,13 @@ IChart chart = slide.getShapes().addChart(
     ChartType.PercentsStackedColumn, 20, 20, 500, 400);
 ```
 
-### Tùy chỉnh định dạng số của trục biểu đồ
+### Tùy chỉnh định dạng số trục biểu đồ
 **Tổng quan:**  
-Để dễ đọc hơn, chúng ta sẽ **thay đổi định dạng trục dọc** để hiển thị phần trăm.
+Để dễ đọc hơn, chúng ta sẽ **thay đổi định dạng trục tung** để hiển thị phần trăm.
 
-#### Bước 1: Thêm và truy cập biểu đồ
+`IAxis` là giao diện đại diện cho một trục biểu đồ, cho phép điều chỉnh định dạng và tỉ lệ.
+
+#### Bước 1: Thêm và Truy cập biểu đồ
 ```java
 public class CustomizeChartAxis {
     public static void main(String[] args) throws Exception {
@@ -182,7 +222,7 @@ verticalAxis.setNumberFormat("0.00%");
 
 ### Thêm chuỗi và điểm dữ liệu vào biểu đồ
 **Tổng quan:**  
-Chúng ta sẽ điền dữ liệu mẫu vào biểu đồ.
+Chúng ta sẽ đưa dữ liệu mẫu vào biểu đồ.
 
 #### Bước 1: Khởi tạo Presentation và biểu đồ
 ```java
@@ -214,11 +254,11 @@ series1.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorkshe
 // Add more data points as needed
 ```
 
-### Định dạng màu nền cho chuỗi
+### Định dạng màu nền chuỗi
 **Tổng quan:**  
-Đặt màu riêng cho mỗi chuỗi để biểu đồ dễ đọc hơn.
+Đặt mỗi chuỗi một màu riêng để biểu đồ dễ đọc hơn.
 
-#### Bước 1: Khởi tạo và truy cập biểu đồ
+#### Bước 1: Khởi tạo và Truy cập biểu đồ
 ```java
 import java.awt.Color;
 import com.aspose.slides.FillType;
@@ -247,9 +287,11 @@ series1.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 
 ### Định dạng nhãn dữ liệu
 **Tổng quan:**  
-Bây giờ chúng ta sẽ **định dạng nhãn dữ liệu của biểu đồ** để chúng hiển thị văn bản tùy chỉnh.
+Bây giờ chúng ta sẽ **định dạng nhãn dữ liệu biểu đồ** để chúng hiển thị văn bản tùy chỉnh.
 
-#### Bước 1: Truy cập chuỗi biểu đồ và các điểm dữ liệu
+`IChartDataPoint` đại diện cho một điểm dữ liệu cá nhân trong một chuỗi biểu đồ, và `ITextFrame` chứa văn bản nhãn.
+
+#### Bước 1: Truy cập chuỗi biểu đồ và điểm dữ liệu
 ```java
 public class FormatDataLabels {
     public static void main(String[] args) throws Exception {
@@ -281,40 +323,47 @@ for (IChartSeries series : chart.getChartData().getSeries()) {
 ```
 
 ## Các vấn đề thường gặp và giải pháp
-- **Biểu đồ trống:** Đảm bảo bạn đã thêm ít nhất một chuỗi dữ liệu và điểm dữ liệu trước khi lưu.  
+- **Biểu đồ hiển thị trống:** Đảm bảo bạn đã thêm ít nhất một chuỗi dữ liệu và điểm dữ liệu trước khi lưu.  
 - **Số trên trục không hiển thị phần trăm:** Nhớ đặt `verticalAxis.setNumberFormatLinkedToSource(false)`; nếu không, định dạng tùy chỉnh sẽ bị bỏ qua.  
-- **Thông báo đánh giá giấy phép:** Áp dụng file giấy phép hợp lệ trước khi tạo đối tượng `Presentation` để loại bỏ banner đánh giá.
+- **Thông báo bản quyền đánh giá:** Áp dụng tệp giấy phép hợp lệ trước khi tạo đối tượng `Presentation` để loại bỏ banner đánh giá.
 
 ## Câu hỏi thường gặp
 
-**Hỏi: Tôi có thể dùng mã này với Java 11 hoặc mới hơn không?**  
-**Đáp:** Có. Thư viện hỗ trợ JDK 8+; chỉ cần dùng classifier phù hợp (ví dụ, `jdk16` cho JDK 16 trở lên).
+**H: Tôi có thể dùng mã này với Java 11 hoặc mới hơn không?**  
+Đ: Có. Thư viện hỗ trợ JDK 8+; chỉ cần dùng classifier phù hợp (ví dụ, `jdk16` cho JDK 16 trở lên).
 
-**Hỏi: Làm sao để xuất biểu đồ dưới dạng hình ảnh thay vì PPTX?**  
-**Đáp:** Sử dụng `chart.getImage().save("chart.png", ImageFormat.Png);` sau khi đã thêm biểu đồ vào slide.
+**H: Làm sao xuất biểu đồ dưới dạng hình ảnh thay vì PPTX?**  
+Đ: Sử dụng `chart.getImage().save("chart.png", ImageFormat.Png);` sau khi đã thêm biểu đồ vào slide.
 
-**Hỏi: Có thể thêm chú giải (legend) vào biểu đồ cột chồng không?**  
-**Đáp:** Chắc chắn. Gọi `chart.getChartTitle().addTextFrameForOverriding("My Chart");` và cấu hình `chart.getLegend()` theo nhu cầu.
+**H: Có thể thêm chú giải (legend) vào biểu đồ cột chồng không?**  
+Đ: Chắc chắn. Gọi `chart.getChartTitle().addTextFrameForOverriding("My Chart");` và cấu hình `chart.getLegend()` theo nhu cầu.
 
-**Hỏi: Nếu cần cập nhật dữ liệu sau khi bản trình bày đã được tạo thì sao?**  
-**Đáp:** Bạn có thể sửa các ô trong `ChartDataWorkbook` rồi gọi `chart.refresh();` để cập nhật.
+**H: Nếu cần cập nhật dữ liệu sau khi bản trình bày đã được tạo thì sao?**  
+Đ: Bạn có thể sửa các ô trong `ChartDataWorkbook` rồi gọi `chart.refresh();` để phản ánh thay đổi.
 
-**Hỏi: Aspose.Slides có hoạt động trên máy chủ Linux không?**  
-**Đáp:** Có. Thư viện thuần Java và chạy trên bất kỳ hệ điều hành nào có JRE tương thích.
+**H: Aspose.Slides có hoạt động trên máy chủ Linux không?**  
+Đ: Có. Thư viện thuần Java và chạy trên bất kỳ hệ điều hành nào có JRE tương thích.
 
 ## Kết luận
-Bằng cách làm theo hướng dẫn này, bạn đã học cách **tạo biểu đồ cột chồng** trong các bản trình bày với Aspose.Slides cho Java, từ cài đặt môi trường đến tinh chỉnh phong cách hình ảnh. Hãy thử nghiệm với các bộ dữ liệu, màu sắc và định dạng nhãn khác nhau để báo cáo của bạn thực sự nổi bật.
+Bằng cách làm theo hướng dẫn này, bạn đã học cách **tạo một biểu đồ cột chồng** trong Java bằng **phụ thuộc Aspose Slides Maven**, từ thiết lập môi trường đến tùy chỉnh phong cách trực quan. Hãy thử nghiệm với các bộ dữ liệu, màu sắc và định dạng nhãn khác nhau để làm cho báo cáo của bạn thực sự nổi bật.
 
 ---
 
-**Cập nhật lần cuối:** 2026-02-22  
-**Đã kiểm tra với:** Aspose.Slides 25.4 (classifier jdk16)  
+**Cập nhật lần cuối:** 2026-07-22  
+**Kiểm tra với:** Aspose.Slides 25.4 (jdk16 classifier)  
 **Tác giả:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Hướng dẫn liên quan
+
+- [Cách tạo biểu đồ cột nhóm trong Java với Aspose.Slides](/slides/java/charts-graphs/aspose-slides-java-clustered-column-charts/)
+- [Cách Đặt Định Dạng Số cho Các Điểm Dữ Liệu Biểu Đồ Sử Dụng Aspose.Slides cho Java](/slides/java/charts-graphs/set-number-format-chart-data-points-aspose-slides-java/)
+- [Cách Thêm và Cấu Hình Biểu Đồ trong Bản Trình Bày Sử Dụng Aspose.Slides cho Java](/slides/java/charts-graphs/add-charts-aspose-slides-java-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

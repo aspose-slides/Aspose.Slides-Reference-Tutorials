@@ -1,15 +1,51 @@
 ---
-date: '2026-02-22'
-description: Aspose.Slides kullanarak Java’da yığılmış sütun grafik nasıl oluşturulur
-  öğrenin. Bu öğreticide Aspose Slides Maven bağımlılığı, yüzde yığılmış grafik ekleme,
-  grafik veri etiketlerini biçimlendirme ve sunumu PPTX olarak kaydetme konuları ele
-  alınmaktadır.
+date: '2026-07-22'
+description: Aspose Slides Maven Dependency'yi kullanarak Java'da stacked column chart
+  oluşturmayı, data labels eklemeyi, vertical axis sayı formatını değiştirmeyi ve
+  sonucu PPTX dosyası olarak dışa aktarmayı öğrenin.
 keywords:
-- Aspose.Slides
+- aspose slides maven dependency
+- add data labels to chart
+- change vertical axis number format
+- how to add percentage stacked chart
+lastmod: '2026-07-22'
+og_description: Aspose Slides Maven Dependency, Java'da stacked column chart oluşturmanıza,
+  data labels'ı özelleştirmenize, vertical axis formatını ayarlamanıza ve PPTX olarak
+  kaydetmenize olanak tanır – hepsi kısa ve üretim‑hazır kodla.
+og_image_alt: 'Developer guide: Build a stacked column chart in Java using Aspose.Slides
+  Maven dependency'
+og_title: 'Aspose Slides Maven Dependency: Java''da Stacked Column Chart'
+schemas:
+- author: Aspose
+  dateModified: '2026-07-22'
+  description: Learn the Aspose Slides Maven Dependency to create a stacked column
+    chart in Java, add data labels, change vertical axis number format, and export
+    the result as a PPTX file.
+  headline: 'Aspose Slides Maven Dependency: Stacked Column Chart in Java'
+  type: TechArticle
+- questions:
+  - answer: Yes. The library supports JDK 8+; just use the appropriate classifier
+      (e.g., `jdk16` for JDK 16 or later).
+    question: Can I use this code with Java 11 or newer?
+  - answer: Use `chart.getImage().save("chart.png", ImageFormat.Png);` after adding
+      the chart to the slide.
+    question: How do I export the chart as an image instead of a PPTX?
+  - answer: Absolutely. Call `chart.getChartTitle().addTextFrameForOverriding("My
+      Chart");` and configure `chart.getLegend()` as needed.
+    question: Is it possible to add a legend to the stacked column chart?
+  - answer: You can modify the `ChartDataWorkbook` cells and then call `chart.refresh();`
+      to reflect changes.
+    question: What if I need to update data after the presentation is generated?
+  - answer: Yes. The library is pure Java and runs on any OS with a compatible JRE.
+    question: Does Aspose.Slides work on Linux servers?
+  type: FAQPage
+tags:
 - stacked column chart
-- Java presentation
-title: Aspose.Slides ile Java’da Yığılmış Sütun Grafiği Nasıl Oluşturulur – Kapsamlı
-  Bir Rehber
+- Aspose.Slides
+- Java charting
+- Maven dependency
+- presentation generation
+title: 'Aspose Slides Maven Dependency: Java''da Stacked Column Chart'
 url: /tr/java/charts-graphs/aspose-slides-java-stacked-column-charts/
 weight: 1
 ---
@@ -19,44 +55,42 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Java'da Aspose.Slides ile yığılmış sütun grafiği nasıl oluşturulur – Kapsamlı Bir Rehber
+# Aspose Slides Maven Bağımlılığı: Java'da Yığılmış Sütun Grafiği
 
 ## Giriş
 
-Sunumlarınızı, Java için Aspose.Slides gücüyle içgörülü veri görselleştirmeleri ekleyerek yükseltin. Bu rehberde **yığılmış sütun grafiği** slaytları oluşturacaksınız; ister iş raporları hazırlayın, ister proje istatistiklerini sergileyin, profesyonel görünecekler. Bu öğreticinin sonunda şunları yapabilecek duruma geleceksiniz:
+Sunumlarınızı, **Aspose.Slides for Java** gücüyle içgörülü veri görselleştirmeleri ekleyerek yükseltin. Bu rehberde, iş raporları hazırlarken ya da proje istatistiklerini sergilerken profesyonel görünümlü **yığılmış sütun grafiği** oluşturacaksınız. Bu öğreticinin sonunda şunları yapabilecek durumdasınız:
 
-- Aspose Slides Maven bağımlılığı ile ortamınızı kurun
+- **Aspose Slides Maven bağımlılığı** ile ortamınızı kurun
 - Sıfırdan bir sunum oluşturun
-- **Yüzde‑yığılmış grafik** ekleyin ve görünümünü özelleştirin
-- **Grafik veri etiketlerini biçimlendirin** ve **dikey eksen formatını değiştirin**
-- **Tek bir kod satırıyla sunumu PPTX olarak kaydedin**
+- Yüzde‑yığılmış bir grafik ekleyin ve görünümünü özelleştirin
+- Grafik veri etiketlerini biçimlendirin ve dikey eksen sayı formatını değiştirin
+- Sunumu tek bir kod satırıyla PPTX olarak kaydedin
 
-Her adımı birlikte inceleyelim, böylece etkileyici sunumlar oluşturmaya hemen başlayabilirsiniz.
-
-## Hızlı Yanıtlar
-- **Hangi kütüphane gerekiyor?** `aspose-slides` Maven/Gradle bağımlılığı (aşağıdaki “aspose slides maven dependency” bölümüne bakın)  
-- **Hangi grafik türü kullanılıyor?** `ChartType.PercentsStackedColumn` yüzde‑yığılmış sütun grafik için  
-- **Eksen sayı formatını nasıl değiştiririm?** `IAxis.setNumberFormat()` kullanın ve kaynağa bağlamayı devre dışı bırakın  
-- **Veri etiketlerini özelleştirebilir miyim?** Evet – `IChartDataPoint` nesneleri üzerinden döngü kurarak özel bir `ITextFrame` ayarlayın  
-- **Dosyayı nasıl kaydederim?** `presentation.save("output.pptx", SaveFormat.Pptx)` çağırın
+## Hızlı Cevaplar
+- **Hangi kütüphane gerekiyor?** `aspose-slides` Maven/Gradle bağımlılığını ekleyin (aşağıdaki “Aspose Slides Maven Dependency” bölümüne bakın).  
+- **Hangi grafik tipi yığılmış görünüm oluşturur?** Yüzde‑yığılmış sütun grafiği için `ChartType.PercentsStackedColumn` kullanın.  
+- **Eksen sayı formatını nasıl değiştiririm?** `IAxis.setNumberFormat()` çağırın ve `setNumberFormatLinkedToSource(false)` ayarlayın.  
+- **Veri etiketlerini özelleştirebilir miyim?** Evet – her `IChartDataPoint` üzerinden döngü yaparak özel bir `ITextFrame` atayın.  
+- **Dosyayı nasıl kaydederim?** `presentation.save("output.pptx", SaveFormat.Pptx)` çağırın.
 
 ## Yığılmış sütun grafiği nedir?
-Yığılmış sütun grafiği, birden çok veri serisini dikey sütunlar içinde üst üste gösterir. **Yüzde‑yığılmış** varyantı kullanıldığında, her sütun her zaman %100 toplamına ulaşır; bu da kategoriler arasındaki oranları karşılaştırmayı kolaylaştırır.
+Yığılmış sütun grafiği, her kategori sütununda birden fazla veri serisini dikey olarak üst üste gösterir; **yüzde‑yığılmış** varyantı her sütunu %100’e normalleştirerek oran karşılaştırmasını kolaylaştırır. Bu format, izleyicilerin farklı kategorilerde her bileşenin bütün içindeki katkısını hızlıca değerlendirmesini sağlar ve eğilimleri ile göreceli boyutları anında netleştirir.
 
-## Java için Aspose.Slides neden kullanılmalı?
-Aspose.Slides, Microsoft Office yüklü olmasa da herhangi bir platformda çalışan saf‑Java API sağlar. Grafik nesneleri üzerinde ince ayar kontrolü sunar, geniş bir format yelpazesini destekler ve sunumları programatik olarak oluşturmanıza olanak tanır—otomatik raporlama veya sunucu‑tarafı belge üretimi için mükemmeldir.
+## Neden Aspose.Slides for Java kullanmalı?
+Aspose.Slides for Java, **Microsoft Office** gerektirmeden PowerPoint dosyaları oluşturmanıza, düzenlemenize ve dönüştürmenize olanak tanır ve **Windows, Linux ve macOS** üzerinde **50+ çıktı formatı** destekler. Kütüphane tamamen bir JRE üzerinde çalışır, bu da sunucu‑tarafı otomasyon ve yüksek‑hızlı raporlama sağlar. Ayrıca grafik nesneleri, slayt düzenleri ve belge özellikleri üzerinde ince ayar kontrolü sunarak kurumsal düzeyde sunum üretimi için idealdir.
 
 ## Önkoşullar
 - **Java Development Kit (JDK):** 8 veya üzeri  
 - **IDE:** IntelliJ IDEA, Eclipse veya herhangi bir Java‑uyumlu editör  
-- **Derleme Aracı:** Maven veya Gradle (isteğe bağlı ama önerilir)  
+- **Derleme Aracı:** Maven veya Gradle (isteğe bağlı ancak önerilir)  
 - **Temel Java bilgisi** – sınıflar ve metodlarla rahat olmalısınız  
 
-## Aspose.Slides for Java'ı Kurma
-Başlamak için Aspose.Slides kütüphanesini projenize ekleyin.
+## Aspose.Slides for Java Kurulumu
+Başlamak için, Aspose.Slides kütüphanesini projenize ekleyin.
 
 ### Aspose Slides Maven Bağımlılığı
-`pom.xml` dosyanıza aşağıdakileri ekleyin (bu, ihtiyacınız olan **aspose slides maven dependency** dir):
+Projenizin `pom.xml` dosyasına aşağıdakileri ekleyin (bu, ihtiyacınız olan **aspose slides maven dependency**'dir):
 
 ```xml
 <dependency>
@@ -75,17 +109,17 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 ```
 
 ### Doğrudan İndirme
-Alternatif olarak, en yeni JAR dosyasını [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) adresinden indirin.
+Alternatif olarak, en son JAR dosyasını [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) adresinden indirin.
 
-### Lisans Alımı
-Aspose.Slides özelliklerini keşfetmek için ücretsiz deneme sürümüyle başlayabilirsiniz. Değerlendirme sınırlamalarını kaldırmak için geçici ya da satın alınmış bir lisans edinmeyi düşünün.
+### Lisans Edinimi
+Aspose.Slides özelliklerini keşfetmek için ücretsiz deneme ile başlayabilirsiniz. Değerlendirme sınırlamalarını kaldırmak için geçici ya da satın alınmış bir lisans almayı düşünün.
 
-- **Ücretsiz Deneme:** Sınırlı özelliklere erişim, ek maliyet olmadan.  
-- **Geçici Lisans:** [Aspose’un sitesinden](https://purchase.aspose.com/temporary-license/) talep edebilirsiniz.  
+- **Ücretsiz Deneme:** Anında maliyet olmadan sınırlı özelliklere erişim.  
+- **Geçici Lisans:** [Aspose sitesinden](https://purchase.aspose.com/temporary-license/) talep edin.  
 - **Satın Alma:** Tam erişim için satın alma sayfasını ziyaret edin.
 
 ### Temel Başlatma
-`Presentation` nesnesi oluşturmayı gösteren minimal bir kod parçacığı:
+`Presentation`, Aspose.Slides'ın bellek içindeki bir PowerPoint dosyasını temsil eden temel sınıfıdır. Aşağıdaki minimal kod parçacığı bir `Presentation` nesnesi oluşturmayı gösterir:
 
 ```java
 import com.aspose.slides.Presentation;
@@ -101,11 +135,11 @@ public class InitializeAspose {
 }
 ```
 
-## Uygulama Rehberi
+## Uygulama Kılavuzu
 
 ### Sunum Oluşturma ve Slayt Ekleme
 **Genel Bakış:**  
-İlk olarak boş bir sunum oluşturacağız ve bir slaytın varlığını doğrulayacağız.
+İlk olarak, boş bir sunum oluşturacağız ve bir slaytın mevcut olduğunu doğrulayacağız.
 
 #### Adım 1: Presentation Nesnesini Başlatma
 ```java
@@ -129,9 +163,11 @@ public class CreatePresentation {
 presentation.save("YOUR_OUTPUT_DIRECTORY/CreatePresentation_out.pptx", SaveFormat.Pptx);
 ```
 
-### Slayta Yüzde‑Yığılmış Sütun Grafiği Ekleme
+### Yüzde Yığılmış Sütun Grafiği Ekleme
 **Genel Bakış:**  
-Şimdi **yüzde‑yığılmış grafik**i ilk slayta yerleştireceğiz.
+Şimdi, ilk slayta **yüzde yığılmış bir grafik** ekleyeceğiz.
+
+`ChartType.PercentsStackedColumn` yüzde‑yığılmış sütun grafik tipini belirtir.
 
 #### Adım 1: Slaytı Başlatma ve Erişme
 ```java
@@ -148,7 +184,7 @@ public class AddChartToSlide {
 }
 ```
 
-#### Adım 2: Slayta Grafik Ekleme
+#### Adım 2: Grafiği Slayta Ekleme
 ```java
 import com.aspose.slides.IChart;
 
@@ -156,11 +192,13 @@ IChart chart = slide.getShapes().addChart(
     ChartType.PercentsStackedColumn, 20, 20, 500, 400);
 ```
 
-### Grafik Ekseni Sayı Formatını Özelleştirme
+### Grafik Eksen Sayı Formatını Özelleştirme
 **Genel Bakış:**  
-Okunabilirliği artırmak için **dikey eksen formatını** yüzde gösterecek şekilde değiştireceğiz.
+Daha iyi okunabilirlik için **dikey eksen formatını** yüzde gösterecek şekilde değiştireceğiz.
 
-#### Adım 1: Grafiği Ekleme ve Erişme
+`IAxis` grafik eksenini temsil eden bir arayüzdür ve formatlama ile ölçek ayarlarını sağlar.
+
+#### Adım 1: Grafiği Ekle ve Eriş
 ```java
 public class CustomizeChartAxis {
     public static void main(String[] args) throws Exception {
@@ -173,7 +211,7 @@ public class CustomizeChartAxis {
 }
 ```
 
-#### Adım 2: Özel Sayı Formatı Ayarlama
+#### Adım 2: Özel Sayı Formatını Ayarla
 ```java
 import com.aspose.slides.IAxis;
 
@@ -182,11 +220,11 @@ verticalAxis.setNumberFormatLinkedToSource(false);
 verticalAxis.setNumberFormat("0.00%");
 ```
 
-### Grafiğe Seri ve Veri Noktaları Ekleme
+### Seri ve Veri Noktaları Ekleme
 **Genel Bakış:**  
 Grafiği örnek veri serileriyle dolduracağız.
 
-#### Adım 1: Sunumu ve Grafiği Başlatma
+#### Adım 1: Sunumu ve Grafiği Başlat
 ```java
 import com.aspose.slides.IChartSeries;
 import com.aspose.slides.ChartDataWorkbook;
@@ -205,7 +243,7 @@ public class AddSeriesToChart {
 }
 ```
 
-#### Adım 2: Veri Serileri Ekleme
+#### Adım 2: Veri Serileri Ekle
 ```java
 // Clear existing series and add new ones
 chart.getChartData().getSeries().clear();
@@ -218,9 +256,9 @@ series1.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorkshe
 
 ### Seri Dolgu Rengini Biçimlendirme
 **Genel Bakış:**  
-Her seriye farklı bir renk vererek grafiği daha okunabilir hâle getireceğiz.
+Her seriye farklı bir renk vererek grafiği daha okunabilir hâle getirin.
 
-#### Adım 1: Grafiği Başlatma ve Erişme
+#### Adım 1: Grafiği Başlat ve Eriş
 ```java
 import java.awt.Color;
 import com.aspose.slides.FillType;
@@ -238,7 +276,7 @@ public class FormatSeriesFillColor {
 }
 ```
 
-#### Adım 2: Dolgu Renklerini Ayarlama
+#### Adım 2: Dolgu Renklerini Ayarla
 ```java
 IChartSeries series1 = chart.getChartData().getSeries().get_Item(0);
 series1.getFormat().getFill().setFillType(FillType.Solid);
@@ -249,9 +287,11 @@ series1.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 
 ### Veri Etiketlerini Biçimlendirme
 **Genel Bakış:**  
-Şimdi **grafik veri etiketlerini** özelleştirerek özel metin göstermesini sağlayacağız.
+Şimdi **grafik veri etiketlerini** özelleştirilmiş metin gösterecek şekilde biçimlendireceğiz.
 
-#### Adım 1: Grafik Serilerine ve Veri Noktalarına Erişme
+`IChartDataPoint` bir grafik serisindeki tek bir veri noktasını temsil eder, `ITextFrame` ise etiket metnini tutar.
+
+#### Adım 1: Grafik Serilerini ve Veri Noktalarını Eriş
 ```java
 public class FormatDataLabels {
     public static void main(String[] args) throws Exception {
@@ -267,7 +307,7 @@ public class FormatDataLabels {
 }
 ```
 
-#### Adım 2: Veri Etiketlerini Özelleştirme
+#### Adım 2: Veri Etiketlerini Özelleştir
 ```java
 import com.aspose.slides.ITextFrame;
 import com.aspose.slides.IChartDataPoint;
@@ -283,40 +323,47 @@ for (IChartSeries series : chart.getChartData().getSeries()) {
 ```
 
 ## Yaygın Sorunlar ve Çözümler
-- **Grafik boş görünüyor:** En az bir veri serisi ve veri noktası eklediğinizden emin olun, ardından kaydedin.  
-- **Eksen sayıları yüzde olarak görünmüyor:** `verticalAxis.setNumberFormatLinkedToSource(false)` ayarını yaptığınızdan emin olun; aksi takdirde özel format yok sayılır.  
-- **Lisans değerlendirme mesajı:** `Presentation` nesnesini oluşturmadan önce geçerli bir lisans dosyası uygulayın, böylece değerlendirme banner'ı ortadan kalkar.
+- **Grafik boş görünüyor:** Kaydetmeden önce en az bir veri serisi ve veri noktası eklediğinizden emin olun.  
+- **Eksen sayıları yüzde olarak görünmüyor:** `verticalAxis.setNumberFormatLinkedToSource(false)` ayarlamayı unutmayın; aksi takdirde özel format göz ardı edilir.  
+- **Lisans değerlendirme mesajı:** Değerlendirme bannerını kaldırmak için `Presentation` nesnesini oluşturmadan önce geçerli bir lisans dosyası uygulayın.
 
-## Sık Sorulan Sorular
+## Sıkça Sorulan Sorular
 
 **S: Bu kodu Java 11 veya daha yeni bir sürümde kullanabilir miyim?**  
-C: Evet. Kütüphane JDK 8+ destekler; sadece uygun sınıflandırıcıyı (ör. `jdk16` JDK 16 ve üzeri için) kullanın.
+**C:** Evet. Kütüphane JDK 8+ destekler; sadece uygun sınıflandırıcıyı (örneğin JDK 16 veya sonrası için `jdk16`) kullanın.
 
-**S: Grafiği PPTX yerine bir resim olarak dışa aktarmak istiyorum, nasıl?**  
-C: Slayta grafiği ekledikten sonra `chart.getImage().save("chart.png", ImageFormat.Png);` kullanın.
+**S: Grafiği PPTX yerine görüntü olarak nasıl dışa aktarırım?**  
+**C:** Grafiği slayta ekledikten sonra `chart.getImage().save("chart.png", ImageFormat.Png);` kullanın.
 
 **S: Yığılmış sütun grafiğine bir lejant eklemek mümkün mü?**  
-C: Kesinlikle. `chart.getChartTitle().addTextFrameForOverriding("My Chart");` çağırın ve `chart.getLegend()` ayarlarını gerektiği gibi yapılandırın.
+**C:** Kesinlikle. `chart.getChartTitle().addTextFrameForOverriding("My Chart");` çağırın ve gerektiği gibi `chart.getLegend()` yapılandırın.
 
-**S: Sunum oluşturulduktan sonra verileri güncellemem gerekirse ne yapmalıyım?**  
-C: `ChartDataWorkbook` hücrelerini değiştirin ve ardından `chart.refresh();` çağırarak değişiklikleri yansıtın.
+**S: Sunum oluşturulduktan sonra veriyi güncellemem gerekirse?**  
+**C:** `ChartDataWorkbook` hücrelerini değiştirebilir ve ardından `chart.refresh();` çağırarak değişiklikleri yansıtabilirsiniz.
 
 **S: Aspose.Slides Linux sunucularda çalışır mı?**  
-C: Evet. Kütüphane saf Java olduğundan uyumlu bir JRE'ye sahip herhangi bir işletim sisteminde çalışır.
+**C:** Evet. Kütüphane saf Java'dır ve uyumlu bir JRE'ye sahip herhangi bir işletim sisteminde çalışır.
 
 ## Sonuç
-Bu rehberi izleyerek Aspose.Slides for Java ile **yığılmış sütun grafiği** sunumları oluşturmayı, ortam kurulumundan ince ayarlı görsel stilize etmeye kadar öğrendiniz. Farklı veri setleri, renkler ve etiket formatlarıyla deneyler yapın; raporlarınız gerçekten öne çıksın.
+Bu kılavuzu izleyerek **Aspose Slides Maven bağımlılığı** kullanarak Java'da **yığılmış sütun grafiği** oluşturmayı, ortam kurulumundan ince ayarlı görsel stiline kadar öğrendiniz. Raporlarınızı gerçekten öne çıkarmak için farklı veri setleri, renkler ve etiket formatlarıyla deneyler yapın.
 
 ---
 
-**Son Güncelleme:** 2026-02-22  
-**Test Edilen Versiyon:** Aspose.Slides 25.4 (jdk16 classifier)  
+**Son Güncelleme:** 2026-07-22  
+**Test Edilen:** Aspose.Slides 25.4 (jdk16 classifier)  
 **Yazar:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## İlgili Öğreticiler
+
+- [Java'da Aspose.Slides ile kümelenmiş sütun grafiği oluşturma](/slides/java/charts-graphs/aspose-slides-java-clustered-column-charts/)
+- [Aspose.Slides for Java kullanarak Grafik Veri Noktalarında Sayı Formatlarını Ayarlama](/slides/java/charts-graphs/set-number-format-chart-data-points-aspose-slides-java/)
+- [Aspose.Slides for Java kullanarak Sunumlara Grafik Ekleme ve Yapılandırma](/slides/java/charts-graphs/add-charts-aspose-slides-java-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

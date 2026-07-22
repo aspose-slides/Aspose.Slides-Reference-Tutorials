@@ -1,9 +1,51 @@
 ---
-"date": "2025-04-17"
-"description": "学习如何使用 Aspose.Slides for Java 创建专业的演示文稿。本指南涵盖了如何设置环境、添加堆叠柱形图以及如何自定义柱形图以提高清晰度。"
-"title": "使用 Aspose.Slides 掌握 Java 中的堆叠柱形图——综合指南"
-"url": "/zh/java/charts-graphs/aspose-slides-java-stacked-column-charts/"
-"weight": 1
+date: '2026-07-22'
+description: 了解 Aspose Slides Maven Dependency，使用 Java 创建 Stacked Column Chart，添加
+  Data Labels，修改 Vertical Axis Number Format，并将结果导出为 PPTX 文件。
+keywords:
+- aspose slides maven dependency
+- add data labels to chart
+- change vertical axis number format
+- how to add percentage stacked chart
+lastmod: '2026-07-22'
+og_description: Aspose Slides Maven Dependency 让您在 Java 中构建 Stacked Column Chart，自定义
+  Data Labels，调整 Vertical Axis Format，并以 PPTX 保存——全部使用简洁、可投入生产的代码。
+og_image_alt: 'Developer guide: Build a stacked column chart in Java using Aspose.Slides
+  Maven dependency'
+og_title: Aspose Slides Maven Dependency：Java 中的 Stacked Column Chart
+schemas:
+- author: Aspose
+  dateModified: '2026-07-22'
+  description: Learn the Aspose Slides Maven Dependency to create a stacked column
+    chart in Java, add data labels, change vertical axis number format, and export
+    the result as a PPTX file.
+  headline: 'Aspose Slides Maven Dependency: Stacked Column Chart in Java'
+  type: TechArticle
+- questions:
+  - answer: Yes. The library supports JDK 8+; just use the appropriate classifier
+      (e.g., `jdk16` for JDK 16 or later).
+    question: Can I use this code with Java 11 or newer?
+  - answer: Use `chart.getImage().save("chart.png", ImageFormat.Png);` after adding
+      the chart to the slide.
+    question: How do I export the chart as an image instead of a PPTX?
+  - answer: Absolutely. Call `chart.getChartTitle().addTextFrameForOverriding("My
+      Chart");` and configure `chart.getLegend()` as needed.
+    question: Is it possible to add a legend to the stacked column chart?
+  - answer: You can modify the `ChartDataWorkbook` cells and then call `chart.refresh();`
+      to reflect changes.
+    question: What if I need to update data after the presentation is generated?
+  - answer: Yes. The library is pure Java and runs on any OS with a compatible JRE.
+    question: Does Aspose.Slides work on Linux servers?
+  type: FAQPage
+tags:
+- stacked column chart
+- Aspose.Slides
+- Java charting
+- Maven dependency
+- presentation generation
+title: Aspose Slides Maven Dependency：Java 中的 Stacked Column Chart
+url: /zh/java/charts-graphs/aspose-slides-java-stacked-column-charts/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,32 +53,43 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# 使用 Aspose.Slides 掌握 Java 中的堆叠柱形图：综合指南
+# Aspose Slides Maven 依赖项：Java 中的堆叠柱形图
 
 ## 介绍
 
-结合 Aspose.Slides for Java 的强大功能，将富有洞察力的数据可视化效果融入您的演示文稿，提升您的演示文稿质量。无论您是准备业务报告还是展示项目统计数据，使用堆叠柱状图创建专业外观的幻灯片都非常简单。
+通过 **Aspose.Slides for Java** 的强大功能，将深刻的数据可视化融入演示文稿，提升展示效果。在本指南中，您将 **创建一个专业的堆叠柱形图**，无论是编写业务报告还是展示项目统计数据。完成本教程后，您将能够：
 
-在本教程中，我们将探索如何使用 Aspose.Slides for Java 创建动态演示文稿并添加美观的堆叠柱形图。学习完本指南后，您将掌握以下技能：
-- 设置您的环境以使用 Aspose.Slides
-- 从头开始创建演示文稿
-- 添加和自定义百分比堆积柱形图
-- 格式化图表轴和数据标签以提高清晰度
+- 使用 **Aspose Slides Maven 依赖项** 设置开发环境
+- 从零创建演示文稿
+- **添加百分比堆叠图表** 并自定义外观
+- **格式化图表数据标签** 并 **更改纵轴数字格式**
+- 仅用一行代码 **将演示文稿保存为 PPTX** 文件
 
-让我们深入研究如何创建吸引观众的演示文稿。
+## 快速答案
+- **需要哪个库？** 添加 `aspose-slides` Maven/Gradle 依赖（见下文 “Aspose Slides Maven 依赖项”）。  
+- **哪种图表类型可以实现堆叠视图？** 使用 `ChartType.PercentsStackedColumn` 创建百分比堆叠柱形图。  
+- **如何更改坐标轴数字格式？** 调用 `IAxis.setNumberFormat()` 并设置 `setNumberFormatLinkedToSource(false)`。  
+- **可以自定义数据标签吗？** 可以——遍历每个 `IChartDataPoint` 并分配自定义的 `ITextFrame`。  
+- **如何保存文件？** 调用 `presentation.save("output.pptx", SaveFormat.Pptx)`。
 
-## 先决条件
-在开始之前，请确保您具备以下条件：
-- **Java 开发工具包 (JDK)：** 版本 8 或更高版本。
-- **集成开发环境（IDE）：** 任何集成开发环境，如 IntelliJ IDEA 或 Eclipse。
-- **Maven/Gradle：** 用于管理依赖项（可选但推荐）。
-- **Java基础知识：** 熟悉 Java 编程概念。
+## 什么是堆叠柱形图？
+堆叠柱形图在每个类别的柱子中垂直堆叠多个数据系列，**百分比堆叠** 变体会将每根柱子规范化为 100 %，便于比例比较。此格式使观众能够快速评估各组成部分在不同类别中的贡献，使趋势和相对大小一目了然。
+
+## 为什么使用 Aspose.Slides for Java？
+Aspose.Slides for Java 让您 **无需 Microsoft Office** 即可生成、编辑和转换 PowerPoint 文件，并支持 **50 多种输出格式**，兼容 Windows、Linux 和 macOS。该库完全运行在 JRE 上，适合服务器端自动化和高吞吐量报表。它还提供对图表对象、幻灯片布局和文档属性的细粒度控制，是企业级演示文稿生成的理想选择。
+
+## 前置条件
+- **Java Development Kit (JDK)：** 8 或更高版本  
+- **IDE：** IntelliJ IDEA、Eclipse 或任意 Java 兼容编辑器  
+- **构建工具：** Maven 或 Gradle（可选，但推荐）  
+- **基本的 Java 知识** —— 您应熟悉类和方法的使用  
 
 ## 设置 Aspose.Slides for Java
-首先，您需要在项目中包含 Aspose.Slides 库。具体操作如下：
+首先，将 Aspose.Slides 库添加到项目中。
 
-**Maven：**
-将此依赖项添加到您的 `pom.xml` 文件：
+### Aspose Slides Maven 依赖项
+在 `pom.xml` 中加入以下内容（这就是您需要的 **aspose slides maven 依赖项**）：
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -46,68 +99,73 @@
 </dependency>
 ```
 
-**Gradle：**
-将其包含在您的 `build.gradle` 文件：
+### Gradle 替代方案
+如果您更喜欢 Gradle，请在 `build.gradle` 中加入此行：
+
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**直接下载：**
-或者，从下载最新的 JAR [Aspose.Slides for Java 发布](https://releases。aspose.com/slides/java/).
+### 直接下载
+或者，从 [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) 下载最新的 JAR 包。
 
 ### 许可证获取
-您可以立即免费试用，探索 Aspose.Slides 的功能。如需移除评估限制，请考虑获取临时许可证或购买许可证。
-- **免费试用：** 无需立即付费即可访问有限的功能。
-- **临时执照：** 请求方式 [Aspose 的网站](https://purchase。aspose.com/temporary-license/).
-- **购买：** 请访问购买页面以获得完全访问权限。
+您可以先使用免费试用版来探索 Aspose.Slides 功能。若要解除评估限制，请考虑获取临时或正式许可证。
+
+- **免费试用：** 在不产生费用的情况下访问受限功能。  
+- **临时许可证：** 通过 [Aspose 的网站](https://purchase.aspose.com/temporary-license/) 申请。  
+- **购买：** 前往购买页面获取完整授权。
 
 ### 基本初始化
-以下是在 Java 应用程序中初始化 Aspose.Slides 的方法：
+`Presentation` 是 Aspose.Slides 的核心类，表示内存中的 PowerPoint 文件。以下最小代码片段展示了如何创建 `Presentation` 对象：
+
 ```java
 import com.aspose.slides.Presentation;
 
 public class InitializeAspose {
     public static void main(String[] args) {
-        // 创建 Presentation 类的实例
+        // Create an instance of Presentation class
         Presentation presentation = new Presentation();
         
-        // 对展示对象执行操作
+        // Perform operations on the presentation object
         System.out.println("Aspose.Slides initialized successfully.");
     }
 }
 ```
 
-## 实施指南
+## 实现指南
 
 ### 创建演示文稿并添加幻灯片
-**概述：**
-首先创建一个包含初始幻灯片的简单演示文稿。这是进一步增强的基础。
+**概述：**  
+首先，我们将创建一个空白演示文稿，并验证幻灯片已成功创建。
 
-#### 步骤1：初始化演示对象
+#### 步骤 1：初始化 Presentation 对象
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 
 public class CreatePresentation {
     public static void main(String[] args) throws Exception {
-        // 创建新的演示实例
+        // Create a new presentation instance
         Presentation presentation = new Presentation();
         
-        // 参考第一张幻灯片（自动创建）
+        // Reference to the first slide (auto-created)
         System.out.println("Slide count: " + presentation.getSlides().size());
     }
 }
 ```
 
-#### 第 2 步：保存演示文稿
-```java
-// 将演示文稿保存到文件
+#### 步骤 2：保存演示文稿
+```
+// Save the presentation to a file
 presentation.save("YOUR_OUTPUT_DIRECTORY/CreatePresentation_out.pptx", SaveFormat.Pptx);
 ```
 
-### 将百分比堆积柱形图添加到幻灯片
-**概述：**
-通过添加百分比堆积柱形图来增强您的幻灯片，以便于轻松比较数据。
+### 向幻灯片添加百分比堆叠柱形图
+**概述：**  
+接下来，我们将在第一张幻灯片上放置一个 **百分比堆叠图表**。
+
+`ChartType.PercentsStackedColumn` 指定了百分比堆叠柱形图类型。
 
 #### 步骤 1：初始化并访问幻灯片
 ```java
@@ -119,12 +177,12 @@ public class AddChartToSlide {
         Presentation presentation = new Presentation();
         ISlide slide = presentation.getSlides().get_Item(0);
         
-        // 下一步继续添加图表
+        // Proceed to add chart in the next step
     }
 }
 ```
 
-#### 步骤 2：将图表添加到幻灯片
+#### 步骤 2：向幻灯片添加图表
 ```java
 import com.aspose.slides.IChart;
 
@@ -132,9 +190,11 @@ IChart chart = slide.getShapes().addChart(
     ChartType.PercentsStackedColumn, 20, 20, 500, 400);
 ```
 
-### 自定义图表轴数字格式
-**概述：**
-自定义图表垂直轴的数字格式以增强可读性。
+### 自定义图表坐标轴数字格式
+**概述：**  
+为了提升可读性，我们将 **更改纵轴格式** 以显示百分比。
+
+`IAxis` 是表示图表坐标轴的接口，允许进行格式和刻度的调整。
 
 #### 步骤 1：添加并访问图表
 ```java
@@ -159,8 +219,8 @@ verticalAxis.setNumberFormat("0.00%");
 ```
 
 ### 向图表添加系列和数据点
-**概述：**
-用数据系列填充您的图表，使其信息丰富且具有视觉吸引力。
+**概述：**  
+我们将为图表填充示例数据系列。
 
 #### 步骤 1：初始化演示文稿和图表
 ```java
@@ -183,18 +243,18 @@ public class AddSeriesToChart {
 
 #### 步骤 2：添加数据系列
 ```java
-// 清除现有系列并添加新系列
+// Clear existing series and add new ones
 chart.getChartData().getSeries().clear();
 
 IChartSeries series1 = chart.getChartData().getSeries().add(
     workbook.getCell(defaultWorksheetIndex, 0, 1, "Reds"), chart.getType());
 series1.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 1, 1, 0.30));
-// 根据需要添加更多数据点
+// Add more data points as needed
 ```
 
 ### 格式化系列填充颜色
-**概述：**
-通过格式化每个系列的填充颜色来增强图表的美感。
+**概述：**  
+为每个系列指定不同的颜色，使图表更易阅读。
 
 #### 步骤 1：初始化并访问图表
 ```java
@@ -220,12 +280,14 @@ IChartSeries series1 = chart.getChartData().getSeries().get_Item(0);
 series1.getFormat().getFill().setFillType(FillType.Solid);
 series1.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 
-// 对其他系列使用不同颜色重复此操作
+// Repeat for other series with different colors
 ```
 
 ### 格式化数据标签
-**概述：**
-通过自定义格式使数据标签更具可读性。
+**概述：**  
+现在我们将 **格式化图表数据标签**，使其显示自定义文本。
+
+`IChartDataPoint` 表示图表系列中的单个数据点，`ITextFrame` 保存标签文本。
 
 #### 步骤 1：访问图表系列和数据点
 ```java
@@ -243,7 +305,7 @@ public class FormatDataLabels {
 }
 ```
 
-#### 第 2 步：自定义数据标签
+#### 步骤 2：自定义数据标签
 ```java
 import com.aspose.slides.ITextFrame;
 import com.aspose.slides.IChartDataPoint;
@@ -258,15 +320,48 @@ for (IChartSeries series : chart.getChartData().getSeries()) {
 }
 ```
 
-## 结论
-通过本指南，您已学习如何设置 Aspose.Slides for Java 并创建包含百分比堆叠柱形图的动态演示文稿。您可以根据自己的需求调整颜色和标签，进一步自定义图表。
+## 常见问题与解决方案
+- **图表为空白：** 确保在保存之前已添加至少一个数据系列和数据点。  
+- **坐标轴数字未显示百分比：** 记得设置 `verticalAxis.setNumberFormatLinkedToSource(false)`，否则自定义格式会被忽略。  
+- **许可证评估信息仍然显示：** 在创建 `Presentation` 对象之前应用有效的许可证文件，以抑制评估横幅。
 
-编码愉快！
+## 常见问答
+
+**问：我可以在 Java 11 或更高版本中使用此代码吗？**  
+**答：** 可以。库支持 JDK 8+；只需使用相应的分类器（例如 `jdk16` 适用于 JDK 16 及以上）。
+
+**问：如何将图表导出为图像而不是 PPTX？**  
+**答：** 在将图表添加到幻灯片后，使用 `chart.getImage().save("chart.png", ImageFormat.Png);`。
+
+**问：是否可以为堆叠柱形图添加图例？**  
+**答：** 完全可以。调用 `chart.getChartTitle().addTextFrameForOverriding("My Chart");` 并根据需要配置 `chart.getLegend()`。
+
+**问：如果需要在生成演示文稿后更新数据怎么办？**  
+**答：** 您可以修改 `ChartDataWorkbook` 单元格，然后调用 `chart.refresh();` 以反映更改。
+
+**问：Aspose.Slides 能在 Linux 服务器上运行吗？**  
+**答：** 能。该库是纯 Java 实现，可在任何装有兼容 JRE 的操作系统上运行。
+
+## 结论
+通过本指南，您已经学会了如何使用 **Aspose Slides Maven 依赖项** 在 Java 中 **创建堆叠柱形图**，从环境搭建到细致的视觉样式调优。尝试不同的数据集、颜色和标签格式，让您的报告真正脱颖而出。
+
+---
+
+**最后更新：** 2026-07-22  
+**已测试版本：** Aspose.Slides 25.4（jdk16 分类器）  
+**作者：** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## 相关教程
+
+- [How to create clustered column chart in Java with Aspose.Slides](/slides/java/charts-graphs/aspose-slides-java-clustered-column-charts/)
+- [How to Set Number Formats in Chart Data Points Using Aspose.Slides for Java](/slides/java/charts-graphs/set-number-format-chart-data-points-aspose-slides-java/)
+- [How to Add and Configure Charts in Presentations Using Aspose.Slides for Java](/slides/java/charts-graphs/add-charts-aspose-slides-java-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

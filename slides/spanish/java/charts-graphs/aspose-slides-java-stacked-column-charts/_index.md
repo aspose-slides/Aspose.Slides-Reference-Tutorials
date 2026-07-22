@@ -1,70 +1,96 @@
 ---
-date: '2026-02-22'
-description: Aprenda a crear un gráfico de columnas apiladas en Java usando Aspose.Slides.
-  Este tutorial cubre la dependencia Maven de Aspose Slides, la incorporación de un
-  gráfico apilado de porcentajes, el formato de las etiquetas de datos del gráfico
-  y la guardado de la presentación como PPTX.
+date: '2026-07-22'
+description: Aprende a usar Aspose Slides Maven Dependency para crear un stacked column
+  chart en Java, agregar data labels, cambiar el vertical axis number format y exportar
+  el resultado como un archivo PPTX.
 keywords:
-- Aspose.Slides
+- aspose slides maven dependency
+- add data labels to chart
+- change vertical axis number format
+- how to add percentage stacked chart
+lastmod: '2026-07-22'
+og_description: Aspose Slides Maven Dependency te permite crear un stacked column
+  chart en Java, personalizar data labels, ajustar el vertical axis format y guardar
+  como PPTX, todo con código conciso y listo para producción.
+og_image_alt: 'Developer guide: Build a stacked column chart in Java using Aspose.Slides
+  Maven dependency'
+og_title: 'Aspose Slides Maven Dependency: Stacked Column Chart en Java'
+schemas:
+- author: Aspose
+  dateModified: '2026-07-22'
+  description: Learn the Aspose Slides Maven Dependency to create a stacked column
+    chart in Java, add data labels, change vertical axis number format, and export
+    the result as a PPTX file.
+  headline: 'Aspose Slides Maven Dependency: Stacked Column Chart in Java'
+  type: TechArticle
+- questions:
+  - answer: Yes. The library supports JDK 8+; just use the appropriate classifier
+      (e.g., `jdk16` for JDK 16 or later).
+    question: Can I use this code with Java 11 or newer?
+  - answer: Use `chart.getImage().save("chart.png", ImageFormat.Png);` after adding
+      the chart to the slide.
+    question: How do I export the chart as an image instead of a PPTX?
+  - answer: Absolutely. Call `chart.getChartTitle().addTextFrameForOverriding("My
+      Chart");` and configure `chart.getLegend()` as needed.
+    question: Is it possible to add a legend to the stacked column chart?
+  - answer: You can modify the `ChartDataWorkbook` cells and then call `chart.refresh();`
+      to reflect changes.
+    question: What if I need to update data after the presentation is generated?
+  - answer: Yes. The library is pure Java and runs on any OS with a compatible JRE.
+    question: Does Aspose.Slides work on Linux servers?
+  type: FAQPage
+tags:
 - stacked column chart
-- Java presentation
-title: Cómo crear un gráfico de columnas apiladas en Java con Aspose.Slides – Guía
-  completa
+- Aspose.Slides
+- Java charting
+- Maven dependency
+- presentation generation
+title: 'Aspose Slides Maven Dependency: Stacked Column Chart en Java'
 url: /es/java/charts-graphs/aspose-slides-java-stacked-column-charts/
 weight: 1
 ---
-
-.
-
-Also there are bullet points with URLs; keep URLs unchanged.
-
-Translate.
-
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Cómo crear un gráfico de columnas apiladas en Java con Aspose.Slides – Guía completa
+# Dependencia Maven de Aspose Slides: Gráfico de columnas apiladas en Java
 
 ## Introducción
 
-Eleve sus presentaciones incorporando visualizaciones de datos perspicaces con el poder de Aspose.Slides para Java. En esta guía **creará gráficos de columnas apiladas** que se verán profesionales, ya sea que esté preparando informes empresariales o mostrando estadísticas de proyectos. Al final de este tutorial podrá:
+Eleve sus presentaciones incorporando visualizaciones de datos perspicaces con el poder de **Aspose.Slides for Java**. En esta guía usted **creará un gráfico de columnas apiladas** que se ve profesional, ya sea que esté preparando informes empresariales o mostrando estadísticas de proyectos. Al final de este tutorial podrá:
 
-- Configurar su entorno con la dependencia Maven de Aspose Slides
+- Configurar su entorno con la **dependencia Maven de Aspose Slides**
 - Crear una presentación desde cero
-- **Agregar un gráfico apilado porcentual** y personalizar su apariencia
-- **Dar formato a las etiquetas de datos del gráfico** y **cambiar el formato del eje vertical**
+- **Agregar un gráfico apilado en porcentaje** y personalizar su apariencia
+- **Formatear las etiquetas de datos del gráfico** y **cambiar el formato numérico del eje vertical**
 - **Guardar la presentación como PPTX** con una sola línea de código
 
-Recorra cada paso para que pueda comenzar a crear presentaciones atractivas de inmediato.
-
 ## Respuestas rápidas
-- **¿Qué biblioteca necesito?** Dependencia Maven/Gradle `aspose-slides` (ver “aspose slides maven dependency” más abajo)  
-- **¿Qué tipo de gráfico se usa?** `ChartType.PercentsStackedColumn` para un gráfico de columnas apiladas porcentual  
-- **¿Cómo cambio el formato numérico del eje?** Use `IAxis.setNumberFormat()` y desactive la vinculación al origen  
-- **¿Puedo personalizar las etiquetas de datos?** Sí – recorra los objetos `IChartDataPoint` y establezca un `ITextFrame` personalizado  
-- **¿Cómo guardo el archivo?** Llame a `presentation.save("output.pptx", SaveFormat.Pptx)`
+- **¿Qué biblioteca necesito?** Añada la dependencia Maven/Gradle `aspose-slides` (vea “Dependencia Maven de Aspose Slides” a continuación).  
+- **¿Qué tipo de gráfico crea una vista apilada?** Use `ChartType.PercentsStackedColumn` para un gráfico de columnas apiladas en porcentaje.  
+- **¿Cómo puedo cambiar el formato numérico del eje?** Llame a `IAxis.setNumberFormat()` y establezca `setNumberFormatLinkedToSource(false)`.  
+- **¿Puedo personalizar las etiquetas de datos?** Sí – itere a través de cada `IChartDataPoint` y asigne un `ITextFrame` personalizado.  
+- **¿Cómo guardo el archivo?** Invoque `presentation.save("output.pptx", SaveFormat.Pptx)`.
 
 ## ¿Qué es un gráfico de columnas apiladas?
-Un gráfico de columnas apiladas visualiza varias series de datos apiladas una sobre otra en columnas verticales. Cuando se usa la variante **apilada porcentual**, cada columna siempre suma 100 %, lo que facilita comparar contribuciones proporcionales entre categorías.
+Un gráfico de columnas apiladas visualiza múltiples series de datos apiladas verticalmente en cada columna de categoría, con la variante **percentage‑stacked** normalizando cada columna al 100 % para una comparación de proporciones fácil. Este formato permite a los espectadores evaluar rápidamente cómo cada componente contribuye al total en diferentes categorías, haciendo que las tendencias y tamaños relativos sean instantáneamente claros.
 
 ## ¿Por qué usar Aspose.Slides para Java?
-Aspose.Slides ofrece una API pura de Java que funciona en cualquier plataforma sin necesidad de Microsoft Office instalado. Proporciona control granular sobre los objetos de gráficos, admite una amplia gama de formatos y permite generar presentaciones programáticamente—perfecto para informes automatizados o generación de documentos del lado del servidor.
+Aspose.Slides for Java le permite generar, editar y convertir archivos PowerPoint **sin necesidad de Microsoft Office** y soporta **más de 50 formatos de salida** en Windows, Linux y macOS. La biblioteca se ejecuta completamente en una JRE, habilitando automatización del lado del servidor y generación de informes de alto rendimiento. También brinda control granular sobre objetos de gráficos, diseños de diapositivas y propiedades del documento, lo que la hace ideal para generación de presentaciones a nivel empresarial.
 
 ## Requisitos previos
 - **Java Development Kit (JDK):** 8 o superior  
-- **IDE:** IntelliJ IDEA, Eclipse o cualquier editor compatible con Java  
+- **IDE:** IntelliJ IDEA, Eclipse, o cualquier editor compatible con Java  
 - **Herramienta de compilación:** Maven o Gradle (opcional pero recomendado)  
-- **Conocimientos básicos de Java** – debe estar cómodo con clases y métodos  
+- **Conocimientos básicos de Java** – debe sentirse cómodo con clases y métodos  
 
 ## Configuración de Aspose.Slides para Java
-Para comenzar, agregue la biblioteca Aspose.Slides a su proyecto.
+Para comenzar, añada la biblioteca Aspose.Slides a su proyecto.
 
 ### Dependencia Maven de Aspose Slides
-Agregue lo siguiente a su `pom.xml` (esta es la **aspose slides maven dependency** que necesitará):
+Agregue lo siguiente a su `pom.xml` (esta es la **dependencia Maven de aspose slides** que necesitará):
 
 ```xml
 <dependency>
@@ -85,15 +111,15 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 ### Descarga directa
 Alternativamente, descargue el JAR más reciente desde [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### Obtención de licencia
+### Adquisición de licencia
 Puede comenzar con una prueba gratuita para explorar las funciones de Aspose.Slides. Para eliminar las limitaciones de evaluación, considere obtener una licencia temporal o comprada.
 
 - **Prueba gratuita:** Acceda a funciones limitadas sin costos inmediatos.  
-- **Licencia temporal:** Solicite a través del [sitio de Aspose](https://purchase.aspose.com/temporary-license/).  
+- **Licencia temporal:** Solicítela a través del [sitio de Aspose](https://purchase.aspose.com/temporary-license/).  
 - **Compra:** Visite la página de compra para acceso completo.
 
 ### Inicialización básica
-Aquí hay un fragmento mínimo que muestra cómo crear un objeto `Presentation`:
+`Presentation` es la clase central de Aspose.Slides que representa un archivo PowerPoint en memoria. El siguiente fragmento mínimo muestra cómo crear un objeto `Presentation`:
 
 ```java
 import com.aspose.slides.Presentation;
@@ -112,7 +138,7 @@ public class InitializeAspose {
 ## Guía de implementación
 
 ### Crear una presentación y agregar una diapositiva
-**Resumen:**  
+**Visión general:**  
 Primero, crearemos una presentación en blanco y verificaremos que exista una diapositiva.
 
 #### Paso 1: Inicializar el objeto Presentation
@@ -137,9 +163,11 @@ public class CreatePresentation {
 presentation.save("YOUR_OUTPUT_DIRECTORY/CreatePresentation_out.pptx", SaveFormat.Pptx);
 ```
 
-### Agregar un gráfico de columnas apiladas porcentual a una diapositiva
-**Resumen:**  
-Ahora colocaremos un **gráfico apilado porcentual** en la primera diapositiva.
+### Agregar gráfico de columnas apiladas en porcentaje a una diapositiva
+**Visión general:**  
+Ahora colocaremos un **gráfico apilado en porcentaje** en la primera diapositiva.
+
+`ChartType.PercentsStackedColumn` especifica un tipo de gráfico de columnas apiladas en porcentaje.
 
 #### Paso 1: Inicializar y acceder a la diapositiva
 ```java
@@ -165,8 +193,10 @@ IChart chart = slide.getShapes().addChart(
 ```
 
 ### Personalizar el formato numérico del eje del gráfico
-**Resumen:**  
+**Visión general:**  
 Para una mejor legibilidad, **cambiaremos el formato del eje vertical** para mostrar porcentajes.
+
+`IAxis` es la interfaz que representa un eje de gráfico, permitiendo ajustes de formato y escala.
 
 #### Paso 1: Agregar y acceder al gráfico
 ```java
@@ -191,7 +221,7 @@ verticalAxis.setNumberFormat("0.00%");
 ```
 
 ### Agregar series y puntos de datos al gráfico
-**Resumen:**  
+**Visión general:**  
 Poblaremos el gráfico con series de datos de ejemplo.
 
 #### Paso 1: Inicializar la presentación y el gráfico
@@ -224,9 +254,9 @@ series1.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorkshe
 // Add more data points as needed
 ```
 
-### Dar formato al color de relleno de las series
-**Resumen:**  
-Asigne a cada serie un color distinto para que el gráfico sea más fácil de leer.
+### Formatear el color de relleno de la serie
+**Visión general:**  
+Dé a cada serie un color distinto para que el gráfico sea más fácil de leer.
 
 #### Paso 1: Inicializar y acceder al gráfico
 ```java
@@ -255,11 +285,13 @@ series1.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 // Repeat for other series with different colors
 ```
 
-### Dar formato a las etiquetas de datos
-**Resumen:**  
-Ahora **daremos formato a las etiquetas de datos del gráfico** para que muestren texto personalizado.
+### Formatear etiquetas de datos
+**Visión general:**  
+Ahora **formatearemos las etiquetas de datos del gráfico** para que muestren texto personalizado.
 
-#### Paso 1: Acceder a las series del gráfico y a los puntos de datos
+`IChartDataPoint` representa un punto de datos individual dentro de una serie de gráfico, y `ITextFrame` contiene el texto de la etiqueta.
+
+#### Paso 1: Acceder a series y puntos de datos del gráfico
 ```java
 public class FormatDataLabels {
     public static void main(String[] args) throws Exception {
@@ -275,7 +307,7 @@ public class FormatDataLabels {
 }
 ```
 
-#### Paso 2: Personalizar las etiquetas de datos
+#### Paso 2: Personalizar etiquetas de datos
 ```java
 import com.aspose.slides.ITextFrame;
 import com.aspose.slides.IChartDataPoint;
@@ -291,16 +323,16 @@ for (IChartSeries series : chart.getChartData().getSeries()) {
 ```
 
 ## Problemas comunes y soluciones
-- **El gráfico aparece vacío:** Asegúrese de haber agregado al menos una serie de datos y un punto de datos antes de guardar.  
-- **Los números del eje no muestran porcentajes:** Recuerde establecer `verticalAxis.setNumberFormatLinkedToSource(false)`; de lo contrario, se ignora el formato personalizado.  
-- **Mensaje de evaluación de licencia:** Aplique un archivo de licencia válido antes de crear el objeto `Presentation` para suprimir la barra de evaluación.
+- **El gráfico aparece vacío:** Asegúrese de haber añadido al menos una serie de datos y un punto de datos antes de guardar.  
+- **Los números del eje no muestran porcentajes:** Recuerde establecer `verticalAxis.setNumberFormatLinkedToSource(false)`; de lo contrario, el formato personalizado se ignora.  
+- **Mensaje de evaluación de licencia:** Aplique un archivo de licencia válido antes de crear el objeto `Presentation` para suprimir el banner de evaluación.
 
 ## Preguntas frecuentes
 
 **P: ¿Puedo usar este código con Java 11 o superior?**  
-R: Sí. La biblioteca soporta JDK 8+; solo use el clasificador apropiado (p. ej., `jdk16` para JDK 16 o superior).
+R: Sí. La biblioteca soporta JDK 8+; simplemente use el clasificador apropiado (p.ej., `jdk16` para JDK 16 o posterior).
 
-**P: ¿Cómo exporto el gráfico como imagen en lugar de PPTX?**  
+**P: ¿Cómo exporto el gráfico como una imagen en lugar de un PPTX?**  
 R: Use `chart.getImage().save("chart.png", ImageFormat.Png);` después de agregar el gráfico a la diapositiva.
 
 **P: ¿Es posible agregar una leyenda al gráfico de columnas apiladas?**  
@@ -310,21 +342,28 @@ R: Absolutamente. Llame a `chart.getChartTitle().addTextFrameForOverriding("My C
 R: Puede modificar las celdas del `ChartDataWorkbook` y luego llamar a `chart.refresh();` para reflejar los cambios.
 
 **P: ¿Aspose.Slides funciona en servidores Linux?**  
-R: Sí. La biblioteca es Java puro y se ejecuta en cualquier OS con una JRE compatible.
+R: Sí. La biblioteca es Java puro y se ejecuta en cualquier SO con un JRE compatible.
 
 ## Conclusión
-Al seguir esta guía ha aprendido a **crear presentaciones con gráficos de columnas apiladas** usando Aspose.Slides para Java, desde la configuración del entorno hasta el estilo visual afinado. Experimente con diferentes conjuntos de datos, colores y formatos de etiquetas para que sus informes realmente destaquen.
+Siguiendo esta guía ha aprendido a **crear un gráfico de columnas apiladas** en Java usando la **dependencia Maven de Aspose Slides**, desde la configuración del entorno hasta el estilo visual afinado. Experimente con diferentes conjuntos de datos, colores y formatos de etiquetas para que sus informes realmente destaquen.
 
 ---
 
-**Última actualización:** 2026-02-22  
-**Probado con:** Aspose.Slides 25.4 (clasificador jdk16)  
-**Autor:** Aspose  
+**Last Updated:** 2026-07-22  
+**Tested With:** Aspose.Slides 25.4 (jdk16 classifier)  
+**Author:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Tutoriales relacionados
+
+- [Cómo crear un gráfico de columnas agrupadas en Java con Aspose.Slides](/slides/java/charts-graphs/aspose-slides-java-clustered-column-charts/)
+- [Cómo establecer formatos numéricos en puntos de datos de gráficos usando Aspose.Slides para Java](/slides/java/charts-graphs/set-number-format-chart-data-points-aspose-slides-java/)
+- [Cómo agregar y configurar gráficos en presentaciones usando Aspose.Slides para Java](/slides/java/charts-graphs/add-charts-aspose-slides-java-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

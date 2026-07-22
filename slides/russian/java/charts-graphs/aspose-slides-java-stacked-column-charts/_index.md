@@ -1,15 +1,51 @@
 ---
-date: '2026-02-22'
-description: Узнайте, как создать сложенную столбчатую диаграмму в Java с использованием
-  Aspose.Slides. В этом руководстве рассматриваются зависимость Aspose Slides Maven,
-  добавление процентной сложенной диаграммы, форматирование подписей данных диаграммы
-  и сохранение презентации в формате PPTX.
+date: '2026-07-22'
+description: Изучите Aspose Slides Maven Dependency, чтобы создавать stacked column
+  chart в Java, добавлять data labels, изменять vertical axis number format и экспортировать
+  результат в файл PPTX.
 keywords:
-- Aspose.Slides
+- aspose slides maven dependency
+- add data labels to chart
+- change vertical axis number format
+- how to add percentage stacked chart
+lastmod: '2026-07-22'
+og_description: Aspose Slides Maven Dependency позволяет создавать stacked column
+  chart в Java, настраивать data labels, регулировать vertical axis format и сохранять
+  в PPTX — всё с лаконичным, production‑ready code.
+og_image_alt: 'Developer guide: Build a stacked column chart in Java using Aspose.Slides
+  Maven dependency'
+og_title: 'Aspose Slides Maven Dependency: Столбчатая диаграмма с накоплением в Java'
+schemas:
+- author: Aspose
+  dateModified: '2026-07-22'
+  description: Learn the Aspose Slides Maven Dependency to create a stacked column
+    chart in Java, add data labels, change vertical axis number format, and export
+    the result as a PPTX file.
+  headline: 'Aspose Slides Maven Dependency: Stacked Column Chart in Java'
+  type: TechArticle
+- questions:
+  - answer: Yes. The library supports JDK 8+; just use the appropriate classifier
+      (e.g., `jdk16` for JDK 16 or later).
+    question: Can I use this code with Java 11 or newer?
+  - answer: Use `chart.getImage().save("chart.png", ImageFormat.Png);` after adding
+      the chart to the slide.
+    question: How do I export the chart as an image instead of a PPTX?
+  - answer: Absolutely. Call `chart.getChartTitle().addTextFrameForOverriding("My
+      Chart");` and configure `chart.getLegend()` as needed.
+    question: Is it possible to add a legend to the stacked column chart?
+  - answer: You can modify the `ChartDataWorkbook` cells and then call `chart.refresh();`
+      to reflect changes.
+    question: What if I need to update data after the presentation is generated?
+  - answer: Yes. The library is pure Java and runs on any OS with a compatible JRE.
+    question: Does Aspose.Slides work on Linux servers?
+  type: FAQPage
+tags:
 - stacked column chart
-- Java presentation
-title: Как создать слоистую столбчатую диаграмму в Java с помощью Aspose.Slides –
-  Полное руководство
+- Aspose.Slides
+- Java charting
+- Maven dependency
+- presentation generation
+title: 'Aspose Slides Maven Dependency: Столбчатая диаграмма с накоплением в Java'
 url: /ru/java/charts-graphs/aspose-slides-java-stacked-column-charts/
 weight: 1
 ---
@@ -19,43 +55,41 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Как создать сложенную столбчатую диаграмму в Java с Aspose.Slides – Полное руководство
+# Aspose Slides Maven Dependency: Столбчатая диаграмма с накоплением в Java
 
-## Introduction
+## Введение
 
-Поднимите уровень ваших презентаций, добавив информативные визуализации данных с помощью Aspose.Slides for Java. В этом руководстве вы **создадите слайды со сложенной столбчатой диаграммой**, которые будут выглядеть профессионально, будь то бизнес‑отчёты или демонстрация статистики проекта. К концу урока вы сможете:
+Поднимите уровень ваших презентаций, внедрив информативные визуализации данных с помощью **Aspose.Slides for Java**. В этом руководстве вы **создадите столбчатую диаграмму с накоплением**, выглядящую профессионально, будь то бизнес‑отчёты или демонстрация статистики проекта. По завершении этого урока вы сможете:
 
-- Настроить окружение с зависимостью Aspose Slides Maven
+- Настроить окружение с помощью **Aspose Slides Maven dependency**
 - Создать презентацию с нуля
-- **Добавить процентную сложенную диаграмму** и настроить её внешний вид
-- **Отформатировать подписи данных диаграммы** и **изменить формат вертикальной оси**
+- **Добавить процентную накопленную диаграмму** и настроить её внешний вид
+- **Форматировать подписи данных диаграммы** и **изменить формат чисел вертикальной оси**
 - **Сохранить презентацию как PPTX** одной строкой кода
 
-Давайте пройдём каждый шаг, чтобы вы сразу начали создавать убедительные презентации.
+## Быстрые ответы
+- **Какая библиотека нужна?** Добавьте зависимость Maven/Gradle `aspose-slides` (см. раздел «Aspose Slides Maven Dependency» ниже).  
+- **Какой тип диаграммы создаёт накопленный вид?** Используйте `ChartType.PercentsStackedColumn` для процентной накопленной столбчатой диаграммы.  
+- **Как изменить формат чисел оси?** Вызовите `IAxis.setNumberFormat()` и установите `setNumberFormatLinkedToSource(false)`.  
+- **Можно ли настроить подписи данных?** Да — пройдитесь по каждому `IChartDataPoint` и назначьте пользовательский `ITextFrame`.  
+- **Как сохранить файл?** Вызовите `presentation.save("output.pptx", SaveFormat.Pptx)`.
 
-## Quick Answers
-- **What library do I need?** `aspose-slides` Maven/Gradle dependency (see “aspose slides maven dependency” below)  
-- **Which chart type is used?** `ChartType.PercentsStackedColumn` for a percentage‑stacked column chart  
-- **How do I change the axis number format?** Use `IAxis.setNumberFormat()` and disable linking to source  
-- **Can I customize data labels?** Yes – iterate through `IChartDataPoint` objects and set a custom `ITextFrame`  
-- **How do I save the file?** Call `presentation.save("output.pptx", SaveFormat.Pptx)`
+## Что такое столбчатая диаграмма с накоплением?
+Столбчатая диаграмма с накоплением визуализирует несколько рядов данных, наложенных вертикально в каждом столбце категории, при этом вариант **процентного накопления** нормализует каждый столбец до 100 % для удобного сравнения пропорций. Такой формат позволяет зрителям быстро оценить вклад каждой составляющей в общую картину по разным категориям, делая тенденции и относительные размеры мгновенно очевидными.
 
-## What is a stacked column chart?
-Сложенная столбчатая диаграмма визуализирует несколько рядов данных, наложенных друг на друга в вертикальных столбцах. При использовании **процентного** варианта каждый столбец всегда суммируется до 100 %, что упрощает сравнение пропорционального вклада по категориям.
+## Почему использовать Aspose.Slides for Java?
+Aspose.Slides for Java позволяет генерировать, редактировать и конвертировать файлы PowerPoint **без необходимости Microsoft Office** и поддерживает **более 50 форматов вывода** на Windows, Linux и macOS. Библиотека полностью работает на JRE, что обеспечивает серверную автоматизацию и высокопроизводительную генерацию отчётов. Кроме того, она предоставляет тонкий контроль над объектами диаграмм, макетами слайдов и свойствами документа, что делает её идеальной для корпоративного уровня создания презентаций.
 
-## Why use Aspose.Slides for Java?
-Aspose.Slides предоставляет чистый Java‑API, работающий на любой платформе без установленного Microsoft Office. Он обеспечивает тонкий контроль над объектами диаграмм, поддерживает широкий набор форматов и позволяет программно генерировать презентации — идеально для автоматизированных отчётов или серверной генерации документов.
-
-## Prerequisites
+## Требования
 - **Java Development Kit (JDK):** 8 или выше  
 - **IDE:** IntelliJ IDEA, Eclipse или любой совместимый редактор Java  
-- **Build Tool:** Maven или Gradle (опционально, но рекомендуется)  
-- **Basic Java knowledge** – вы должны быть уверены в работе с классами и методами  
+- **Система сборки:** Maven или Gradle (необязательно, но рекомендуется)  
+- **Базовые знания Java** – вы должны быть уверены в работе с классами и методами  
 
-## Setting Up Aspose.Slides for Java
+## Настройка Aspose.Slides for Java
 Чтобы начать, добавьте библиотеку Aspose.Slides в ваш проект.
 
-### Aspose Slides Maven Dependency
+### Зависимость Maven Aspose Slides
 Добавьте следующее в ваш `pom.xml` (это **aspose slides maven dependency**, которая вам понадобится):
 
 ```xml
@@ -67,25 +101,25 @@ Aspose.Slides предоставляет чистый Java‑API, работаю
 </dependency>
 ```
 
-### Gradle Alternative
+### Альтернатива Gradle
 Если вы предпочитаете Gradle, включите эту строку в `build.gradle`:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Direct Download
-Либо скачайте последнюю JAR‑файл с [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+### Прямое скачивание
+В качестве альтернативы загрузите последнюю JAR‑файл с [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### License Acquisition
-Вы можете начать с бесплатной пробной версии, чтобы изучить возможности Aspose.Slides. Чтобы убрать ограничения оценки, рассмотрите возможность получения временной или полной лицензии.
+### Приобретение лицензии
+Вы можете начать с бесплатной пробной версии, чтобы изучить возможности Aspose.Slides. Чтобы убрать ограничения оценки, рассмотрите возможность получения временной или приобретённой лицензии.
 
-- **Free Trial:** Доступ к ограниченному набору функций без немедленных расходов.  
-- **Temporary License:** Запросите через [сайт Aspose](https://purchase.aspose.com/temporary-license/).  
-- **Purchase:** Перейдите на страницу покупки для полного доступа.
+- **Бесплатная пробная версия:** Доступ к ограниченному набору функций без немедленных расходов.  
+- **Временная лицензия:** Запросите через [Aspose’s site](https://purchase.aspose.com/temporary-license/).  
+- **Покупка:** Посетите страницу покупки для полного доступа.
 
-### Basic Initialization
-Ниже минимальный фрагмент кода, показывающий, как создать объект `Presentation`:
+### Базовая инициализация
+`Presentation` — основной класс Aspose.Slides, представляющий файл PowerPoint в памяти. Ниже минимальный фрагмент кода, показывающий, как создать объект `Presentation`:
 
 ```java
 import com.aspose.slides.Presentation;
@@ -101,13 +135,13 @@ public class InitializeAspose {
 }
 ```
 
-## Implementation Guide
+## Руководство по реализации
 
-### Creating a Presentation and Adding a Slide
-**Overview:**  
+### Создание презентации и добавление слайда
+**Обзор:**  
 Сначала мы создадим пустую презентацию и проверим, что слайд существует.
 
-#### Step 1: Initialize Presentation Object
+#### Шаг 1: Инициализация объекта Presentation
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
@@ -123,17 +157,19 @@ public class CreatePresentation {
 }
 ```
 
-#### Step 2: Save the Presentation
+#### Шаг 2: Сохранение презентации
 ```
 // Save the presentation to a file
 presentation.save("YOUR_OUTPUT_DIRECTORY/CreatePresentation_out.pptx", SaveFormat.Pptx);
 ```
 
-### Adding Percentage Stacked Column Chart to a Slide
-**Overview:**  
-Теперь разместим **процентную сложенную диаграмму** на первом слайде.
+### Добавление процентной накопленной столбчатой диаграммы на слайд
+**Обзор:**  
+Теперь мы разместим **процентную накопленную диаграмму** на первом слайде.
 
-#### Step 1: Initialize and Access Slide
+`ChartType.PercentsStackedColumn` указывает тип процентной накопленной столбчатой диаграммы.
+
+#### Шаг 1: Инициализация и доступ к слайду
 ```java
 import com.aspose.slides.ISlide;
 import com.aspose.slides.ChartType;
@@ -148,7 +184,7 @@ public class AddChartToSlide {
 }
 ```
 
-#### Step 2: Add Chart to Slide
+#### Шаг 2: Добавление диаграммы на слайд
 ```java
 import com.aspose.slides.IChart;
 
@@ -156,11 +192,13 @@ IChart chart = slide.getShapes().addChart(
     ChartType.PercentsStackedColumn, 20, 20, 500, 400);
 ```
 
-### Customizing Chart Axis Number Format
-**Overview:**  
+### Настройка формата чисел оси диаграммы
+**Обзор:**  
 Для лучшей читаемости мы **изменим формат вертикальной оси**, чтобы отображать проценты.
 
-#### Step 1: Add and Access Chart
+`IAxis` — интерфейс, представляющий ось диаграммы, позволяющий настраивать формат и масштабирование.
+
+#### Шаг 1: Добавление и доступ к диаграмме
 ```java
 public class CustomizeChartAxis {
     public static void main(String[] args) throws Exception {
@@ -173,7 +211,7 @@ public class CustomizeChartAxis {
 }
 ```
 
-#### Step 2: Set Custom Number Format
+#### Шаг 2: Установка пользовательского формата чисел
 ```java
 import com.aspose.slides.IAxis;
 
@@ -182,11 +220,11 @@ verticalAxis.setNumberFormatLinkedToSource(false);
 verticalAxis.setNumberFormat("0.00%");
 ```
 
-### Adding Series and Data Points to Chart
-**Overview:**  
+### Добавление серий и точек данных в диаграмму
+**Обзор:**  
 Мы заполним диаграмму примерными рядами данных.
 
-#### Step 1: Initialize Presentation and Chart
+#### Шаг 1: Инициализация презентации и диаграммы
 ```java
 import com.aspose.slides.IChartSeries;
 import com.aspose.slides.ChartDataWorkbook;
@@ -205,7 +243,7 @@ public class AddSeriesToChart {
 }
 ```
 
-#### Step 2: Add Data Series
+#### Шаг 2: Добавление серии данных
 ```java
 // Clear existing series and add new ones
 chart.getChartData().getSeries().clear();
@@ -216,11 +254,11 @@ series1.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorkshe
 // Add more data points as needed
 ```
 
-### Formatting Series Fill Color
-**Overview:**  
-Присвоим каждому ряду отдельный цвет, чтобы диаграмма была легче воспринимаема.
+### Форматирование цвета заливки серии
+**Обзор:**  
+Присвойте каждой серии отдельный цвет, чтобы диаграмма была легче читаема.
 
-#### Step 1: Initialize and Access Chart
+#### Шаг 1: Инициализация и доступ к диаграмме
 ```java
 import java.awt.Color;
 import com.aspose.slides.FillType;
@@ -238,7 +276,7 @@ public class FormatSeriesFillColor {
 }
 ```
 
-#### Step 2: Set Fill Colors
+#### Шаг 2: Установка цветов заливки
 ```java
 IChartSeries series1 = chart.getChartData().getSeries().get_Item(0);
 series1.getFormat().getFill().setFillType(FillType.Solid);
@@ -247,11 +285,13 @@ series1.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 // Repeat for other series with different colors
 ```
 
-### Formatting Data Labels
-**Overview:**  
-Теперь мы **отформатируем подписи данных диаграммы**, чтобы они отображали пользовательский текст.
+### Форматирование меток данных
+**Обзор:**  
+Теперь мы **форматируем подписи данных диаграммы**, чтобы они отображали пользовательский текст.
 
-#### Step 1: Access Chart Series and Data Points
+`IChartDataPoint` представляет отдельную точку данных в ряду диаграммы, а `ITextFrame` содержит текст подписи.
+
+#### Шаг 1: Доступ к сериям диаграммы и точкам данных
 ```java
 public class FormatDataLabels {
     public static void main(String[] args) throws Exception {
@@ -267,7 +307,7 @@ public class FormatDataLabels {
 }
 ```
 
-#### Step 2: Customize Data Labels
+#### Шаг 2: Настройка меток данных
 ```java
 import com.aspose.slides.ITextFrame;
 import com.aspose.slides.IChartDataPoint;
@@ -282,41 +322,48 @@ for (IChartSeries series : chart.getChartData().getSeries()) {
 }
 ```
 
-## Common Issues and Solutions
-- **Chart appears empty:** Ensure you have added at least one data series and data point before saving.  
-- **Axis numbers not showing percentages:** Remember to set `verticalAxis.setNumberFormatLinkedToSource(false)`; otherwise the custom format is ignored.  
-- **License evaluation message:** Apply a valid license file before creating the `Presentation` object to suppress the evaluation banner.
+## Распространённые проблемы и решения
+- **Диаграмма пустая:** Убедитесь, что вы добавили хотя бы один ряд данных и точку данных перед сохранением.  
+- **Числа оси не показывают проценты:** Не забудьте установить `verticalAxis.setNumberFormatLinkedToSource(false)`; иначе пользовательский формат будет игнорироваться.  
+- **Сообщение об оценочной лицензии:** Примените действительный файл лицензии перед созданием объекта `Presentation`, чтобы скрыть баннер оценки.
 
-## Frequently Asked Questions
+## Часто задаваемые вопросы
 
-**Q: Can I use this code with Java 11 or newer?**  
-A: Yes. The library supports JDK 8+; just use the appropriate classifier (e.g., `jdk16` for JDK 16 or later).
+**В: Можно ли использовать этот код с Java 11 или новее?**  
+О: Да. Библиотека поддерживает JDK 8+; просто используйте соответствующий классификатор (например, `jdk16` для JDK 16 и выше).
 
-**Q: How do I export the chart as an image instead of a PPTX?**  
-A: Use `chart.getImage().save("chart.png", ImageFormat.Png);` after adding the chart to the slide.
+**В: Как экспортировать диаграмму как изображение вместо PPTX?**  
+О: Используйте `chart.getImage().save("chart.png", ImageFormat.Png);` после добавления диаграммы на слайд.
 
-**Q: Is it possible to add a legend to the stacked column chart?**  
-A: Absolutely. Call `chart.getChartTitle().addTextFrameForOverriding("My Chart");` and configure `chart.getLegend()` as needed.
+**В: Можно ли добавить легенду к накопленной столбчатой диаграмме?**  
+О: Конечно. Вызовите `chart.getChartTitle().addTextFrameForOverriding("My Chart");` и при необходимости настройте `chart.getLegend()`.
 
-**Q: What if I need to update data after the presentation is generated?**  
-A: You can modify the `ChartDataWorkbook` cells and then call `chart.refresh();` to reflect changes.
+**В: Что делать, если нужно обновить данные после генерации презентации?**  
+О: Вы можете изменить ячейки `ChartDataWorkbook`, а затем вызвать `chart.refresh();`, чтобы отразить изменения.
 
-**Q: Does Aspose.Slides work on Linux servers?**  
-A: Yes. The library is pure Java and runs on any OS with a compatible JRE.
+**В: Работает ли Aspose.Slides на Linux‑серверах?**  
+О: Да. Библиотека полностью написана на Java и работает на любой ОС с совместимым JRE.
 
-## Conclusion
-Следуя этому руководству, вы научились **создавать презентации со сложенной столбчатой диаграммой** с помощью Aspose.Slides for Java, от настройки окружения до тонкой визуальной стилизации. Экспериментируйте с различными наборами данных, цветами и форматами подписей, чтобы ваши отчёты действительно выделялись.
+## Заключение
+Следуя этому руководству, вы научились **создавать столбчатую диаграмму с накоплением** в Java с использованием **Aspose Slides Maven dependency**, от настройки окружения до тонкой визуальной стилизации. Экспериментируйте с различными наборами данных, цветами и форматами подписей, чтобы ваши отчёты действительно выделялись.
 
 ---
 
-**Last Updated:** 2026-02-22  
-**Tested With:** Aspose.Slides 25.4 (jdk16 classifier)  
-**Author:** Aspose  
+**Последнее обновление:** 2026-07-22  
+**Тестировано с:** Aspose.Slides 25.4 (jdk16 classifier)  
+**Автор:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Связанные руководства
+
+- [Как создать сгруппированную столбчатую диаграмму в Java с Aspose.Slides](/slides/java/charts-graphs/aspose-slides-java-clustered-column-charts/)
+- [Как задать форматы чисел в точках данных диаграммы с помощью Aspose.Slides for Java](/slides/java/charts-graphs/set-number-format-chart-data-points-aspose-slides-java/)
+- [Как добавить и настроить диаграммы в презентациях с помощью Aspose.Slides for Java](/slides/java/charts-graphs/add-charts-aspose-slides-java-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
