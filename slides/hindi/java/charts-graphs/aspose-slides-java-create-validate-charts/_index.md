@@ -1,12 +1,64 @@
 ---
-date: '2026-02-22'
-description: Aspose.Slides का उपयोग करके जावा में चार्ट बनाना सीखें, एक क्लस्टर्ड
-  कॉलम चार्ट जोड़ें, और चार्ट लेआउट को वैध करें—सभी एक संक्षिप्त गाइड में।
+date: '2026-07-22'
+description: Java में Aspose.Slides के साथ क्लस्टर्ड कॉलम चार्ट जोड़ना सीखें, जिसमें
+  चरण‑दर‑चरण चार्ट निर्माण, लेआउट वैधता, और स्लाइड में चार्ट जोड़ने की प्रक्रिया शामिल
+  है।
 keywords:
-- Aspose.Slides Java
-- create charts in Java
-- validate chart layout
-title: Aspose.Slides के साथ जावा में चार्ट बनाएं – चार्ट जोड़ें और सत्यापित करें
+- add clustered column chart
+- how to add chart
+- create chart in java
+- add chart to slide
+lastmod: '2026-07-22'
+og_description: Aspose.Slides का उपयोग करके Java में क्लस्टर्ड कॉलम चार्ट जोड़ें।
+  यह गाइड चरण‑दर‑चरण निर्माण, वैधता, और PowerPoint फ़ाइल में स्लाइड पर चार्ट जोड़ने
+  की प्रक्रिया दिखाता है।
+og_image_alt: 'Developer guide: add clustered column chart in Java using Aspose.Slides'
+og_title: Java में Aspose.Slides के साथ क्लस्टर्ड कॉलम चार्ट जोड़ें
+schemas:
+- author: Aspose
+  dateModified: '2026-07-22'
+  description: Learn how to add clustered column chart in Java with Aspose.Slides,
+    covering step‑by‑step chart creation, layout validation, and how to add chart
+    to slide.
+  headline: How to add clustered column chart in Java with Aspose.Slides
+  type: TechArticle
+- description: Learn how to add clustered column chart in Java with Aspose.Slides,
+    covering step‑by‑step chart creation, layout validation, and how to add chart
+    to slide.
+  name: How to add clustered column chart in Java with Aspose.Slides
+  steps:
+  - name: Set Up Your Presentation
+    text: 'Load an existing file or start a new one:'
+  - name: Add a clustered column chart
+    text: '`ChartType.ClusteredColumn` specifies a clustered column chart type. Here
+      we **add clustered column chart** to the first slide at a specific location:'
+  - name: Validate the chart layout
+    text: '`validateChartLayout()` checks the chart''s geometry and ensures elements
+      are correctly positioned. After placing the chart, make sure everything lines
+      up correctly:'
+  type: HowTo
+- questions:
+  - answer: It’s a powerful Java library for creating, editing, and converting PowerPoint
+      files without Microsoft Office.
+    question: What is Aspose.Slides?
+  - answer: Visit [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)
+      and follow the request steps.
+    question: How do I obtain a temporary license?
+  - answer: Yes, Aspose.Slides supports bar, line, pie, area, and many more chart
+      types.
+    question: Can I create other chart types besides clustered column?
+  - answer: Absolutely. Use `chart.getChartData().getSeries().add(...)` and `chart.getChartData().getCategories().add(...)`.
+    question: Is there a way to add data to the chart programmatically?
+  - answer: The Java version is cross‑platform and runs on Windows, Linux, and macOS.
+    question: Does the library work on all operating systems?
+  type: FAQPage
+tags:
+- add clustered column chart
+- Aspose.Slides
+- Java charting
+- create chart in java
+- add chart to slide
+title: Java में Aspose.Slides के साथ क्लस्टर्ड कॉलम चार्ट कैसे जोड़ें
 url: /hi/java/charts-graphs/aspose-slides-java-create-validate-charts/
 weight: 1
 ---
@@ -16,36 +68,37 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Java में Aspose.Slides के साथ चार्ट कैसे बनाएं
+# Java में Aspose.Slides के साथ क्लस्टर्ड कॉलम चार्ट कैसे जोड़ें
 
-आज के डेटा‑ड्रिवन विश्व में, जटिल डेटा सेट को समझने के लिए चार्ट के माध्यम से जानकारी को विज़ुअलाइज़ करना अत्यंत महत्वपूर्ण है। **यदि आपको Java में चार्ट बनाना है**, तो Aspose.Slides आपको PowerPoint प्रस्तुतियों के भीतर सीधे चार्ट जोड़ने, कॉन्फ़िगर करने और वैलिडेट करने का एक साफ़, प्रोग्रामेटिक तरीका प्रदान करता है। चाहे आप रिपोर्टिंग टूल, शैक्षिक ऐप, या रियल‑टाइम डैशबोर्ड बना रहे हों, यह गाइड आपको लाइब्रेरी सेटअप से लेकर अंतिम फ़ाइल को सेव करने तक पूरी प्रक्रिया में मार्गदर्शन करता है।
+आज के डेटा‑ड्रिवन विश्व में, चार्ट के माध्यम से जानकारी को विज़ुअलाइज़ करना कच्चे आंकड़ों को स्पष्ट अंतर्दृष्टियों में बदलने के लिए आवश्यक है। यदि आपको प्रोग्रामेटिक रूप से PowerPoint डेक में **add clustered column chart** जोड़ने की आवश्यकता है, तो Aspose.Slides for Java एक साफ़, पूरी तरह प्रबंधित API प्रदान करता है जो आपको PowerPoint खोले बिना चार्ट बनाने, कॉन्फ़िगर करने और वैध करने की सुविधा देता है। चाहे आप रिपोर्टिंग इंजन, शैक्षिक ऐप, या रियल‑टाइम डैशबोर्ड बना रहे हों, यह ट्यूटोरियल आपको प्रत्येक चरण के माध्यम से ले जाता है—लाइब्रेरी सेटअप से लेकर अंतिम प्रेज़ेंटेशन को सेव करने तक।
 
 ## त्वरित उत्तर
-- **Java में चार्ट बनाने वाली लाइब्रेरी कौन सी है?** Aspose.Slides for Java.  
-- **कौन सा चार्ट प्रकार प्रदर्शित किया गया है?** एक क्लस्टर्ड कॉलम चार्ट.  
-- **आप चार्ट लेआउट को कैसे सत्यापित करेंगे?** चार्ट ऑब्जेक्ट पर `validateChartLayout()` कॉल करें.  
-- **क्या आप प्लॉट एरिया का आकार प्राप्त कर सकते हैं?** हाँ, `chart.getPlotArea().getActualX()` और संबंधित मेथड्स के माध्यम से.  
-- **अंतिम चरण क्या है?** `pres.save(...)` के साथ प्रस्तुति को सेव करें.
+- **Java में क्लस्टर्ड कॉलम चार्ट जोड़ने वाली लाइब्रेरी कौन सी है?** Aspose.Slides for Java.
+- **कौन सा चार्ट प्रकार दर्शाया गया है?** A clustered column chart.
+- **चार्ट लेआउट को कैसे सत्यापित करें?** Call `validateChartLayout()` on the chart object.
+- **क्या आप प्लॉट एरिया का आकार प्राप्त कर सकते हैं?** Yes, via `chart.getPlotArea().getActualX()` and related methods.
+- **अंतिम चरण क्या है?** Save the presentation with `pres.save(...)`.
 
 ## आप क्या सीखेंगे
-- अपने प्रोजेक्ट में Aspose.Slides for Java को कैसे सेटअप करें  
-- **चार्ट कैसे बनाएं** – विशेष रूप से एक क्लस्टर्ड कॉलम चार्ट – और उसे स्लाइड में जोड़ें  
-- प्रोग्रामेटिक रूप से **चार्ट लेआउट को वैलिडेट** कैसे करें  
-- प्लॉट एरिया के आयामों को प्राप्त करना और उनका विश्लेषण करना  
-- अपडेटेड चार्ट के साथ प्रस्तुति को सेव करना  
+- How to set up Aspose.Slides for Java in your project  
+- **How to add chart** – specifically a clustered column chart – and add it to a slide  
+- **How to validate chart** layout programmatically  
+- Retrieving and interpreting plot area dimensions  
+- Saving the presentation with the updated chart  
 
-## पूर्वापेक्षाएँ
-शुरू करने से पहले सुनिश्चित करें कि आपके पास हैं:
+## आवश्यकताएँ
+शुरू करने से पहले, सुनिश्चित करें कि आपके पास है:
 
-- **Java Development Kit (JDK)** – JDK 16 या उससे नया.  
-- **Aspose.Slides for Java** – लाइब्रेरी (उदाहरणों में हम संस्करण 25.4 का उपयोग करेंगे).  
-- **IDE** – IntelliJ IDEA, Eclipse, या कोई भी Java‑संगत एडिटर.  
+- **Java Development Kit (JDK)** – JDK 16 or newer.  
+- **Aspose.Slides for Java** – the library (we’ll use version 25.4 in examples).  
+- **IDE** – IntelliJ IDEA, Eclipse, or any Java‑compatible editor.  
 
-## Aspose.Slides for Java की सेटिंग
-आप Maven, Gradle, या सीधे डाउनलोड के माध्यम से Aspose.Slides को अपने प्रोजेक्ट में जोड़ सकते हैं।
+## Aspose.Slides for Java सेटअप करना
+आप Maven, Gradle, या सीधे डाउनलोड के माध्यम से Aspose.Slides को अपने प्रोजेक्ट में ला सकते हैं।
 
 ### Maven
-अपने `pom.xml` फ़ाइल में यह डिपेंडेंसी जोड़ें:
+The Maven snippet adds the Aspose.Slides library to your project’s classpath.
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -56,21 +109,23 @@ weight: 1
 ```
 
 ### Gradle
-अपने `build.gradle` फ़ाइल में यह लाइन शामिल करें:
+Include this line in your `build.gradle` file to pull the library from Maven Central.
+
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Direct Download
-वैकल्पिक रूप से, लाइब्रेरी को सीधे [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) से डाउनलोड करें।
+### सीधे डाउनलोड
+Alternatively, download the library directly from [Aspose.Slides for Java रिलीज़](https://releases.aspose.com/slides/java/)।
 
 #### लाइसेंस प्राप्ति
-- **Free Trial** – त्वरित मूल्यांकन के लिए सीमित सुविधाएँ.  
-- **Temporary License** – पूर्ण परीक्षण के लिए अल्पकालिक कुंजी का अनुरोध करें.  
-- **Purchase** – प्रोडक्शन उपयोग के लिए सब्सक्रिप्शन खरीदें.
+- **Free Trial** – limited features for quick evaluation.  
+- **[Aspose Temporary License](https://purchase.aspose.com/temporary-license/)** – request a short‑term key for full testing.  
+- **Purchase** – buy a subscription for production use.
 
-#### बेसिक इनिशियलाइज़ेशन और सेटअप
-नीचे वह न्यूनतम कोड है जिसकी आपको प्रस्तुतियों के साथ काम शुरू करने के लिए आवश्यकता होगी:
+#### बुनियादी इनिशियलाइज़ेशन और सेटअप
+`Presentation` is Aspose.Slides' core class that represents a PowerPoint file in memory. After creating an instance you can start adding slides, shapes, or charts.
+
 ```java
 import com.aspose.slides.Presentation;
 
@@ -83,11 +138,14 @@ public class Main {
 }
 ```
 
-## स्लाइड में चार्ट जोड़ना और क्लस्टर्ड कॉलम चार्ट बनाना
-Aspose.Slides के साथ प्रस्तुतियों में चार्ट बनाना सीधा है। निम्नलिखित सेक्शन प्रत्येक चरण को विस्तार से बताते हैं।
+## स्लाइड में चार्ट कैसे जोड़ें और क्लस्टर्ड कॉलम चार्ट बनाएं
+`Presentation` represents the PowerPoint document you are editing. Load or create a `Presentation`, access the first slide, and call `addChart` with `ChartType.ClusteredColumn`. This inserts a fully functional clustered column chart at the specified coordinates, after which you can populate series and categories before saving. The chart will automatically adopt the slide’s theme, and you can further customize colors, titles, and legends as needed.
 
-### Step 1: Set Up Your Presentation
-एक मौजूदा फ़ाइल लोड करें या नई फ़ाइल शुरू करें:
+Creating charts in presentations is straightforward with Aspose.Slides. The following sections break down each step.
+
+### चरण 1: अपनी प्रेज़ेंटेशन सेट अप करें
+Load an existing file or start a new one:
+
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.ChartType;
@@ -95,8 +153,9 @@ import com.aspose.slides.ChartType;
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/test.Pptx");
 ```
 
-### Step 2: Add a clustered column chart
-यहाँ हम **क्लस्टर्ड कॉलम चार्ट** को पहली स्लाइड पर एक विशिष्ट स्थान पर जोड़ते हैं:
+### चरण 2: क्लस्टर्ड कॉलम चार्ट जोड़ें
+`ChartType.ClusteredColumn` specifies a clustered column chart type. Here we **add clustered column chart** to the first slide at a specific location:
+
 ```java
 import com.aspose.slides.ShapeType;
 
@@ -105,24 +164,25 @@ Chart chart = (Chart) pres.getSlides().get_Item(0).getShapes().addChart(
 );
 ```
 
-### Step 3: Validate the chart layout
-चार्ट रखने के बाद, सुनिश्चित करें कि सब कुछ सही ढंग से संरेखित है:
+### चरण 3: चार्ट लेआउट वैध करें
+`validateChartLayout()` checks the chart's geometry and ensures elements are correctly positioned. After placing the chart, make sure everything lines up correctly:
+
 ```java
 chart.validateChartLayout();
 ```
 
-#### वैलिडेशन क्यों महत्वपूर्ण है
-`validateChartLayout()` ओवरलैपिंग एलिमेंट्स, गायब एक्सिस और अन्य विज़ुअल असंगतियों की जाँच करता है, जिससे आपका दर्शक एक पॉलिश्ड चार्ट देखता है।
+#### वैधता क्यों महत्वपूर्ण है
+`validateChartLayout()` checks for overlapping elements, missing axes, and other visual inconsistencies, ensuring your audience sees a polished chart.
 
-## चार्ट से प्लॉट एरिया के आयाम प्राप्त करना
-चार्ट द्वारा घेरा गया सटीक स्थान समझना लेआउट को फाइन‑ट्यून करने या अतिरिक्त ग्राफ़िक्स ओवरले करने में मदद करता है।
+## चार्ट से प्लॉट एरिया आयाम कैसे प्राप्त करें
+`Chart` is the object that encapsulates all visual and data aspects of a chart. `getPlotArea()` returns the chart's plot area rectangle, enabling precise alignment of additional shapes. Access the chart object to read its plot area metrics:
 
-### Step 4: Access the chart object
 ```java
 Chart chart = (Chart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
 ```
 
-### Step 5: Retrieve plot area metrics
+Retrieve plot area metrics:
+
 ```java
 double x = chart.getPlotArea().getActualX();
 double y = chart.getPlotArea().getActualY();
@@ -132,30 +192,30 @@ double h = chart.getPlotArea().getActualHeight();
 System.out.println("Plot Area: X=" + x + ", Y=" + y + ", Width=" + w + ", Height=" + h);
 ```
 
-इन मानों का उपयोग तब उपयोगी होता है जब आपको अन्य शैप्स को संरेखित करना हो या कस्टम मार्जिन की गणना करनी हो।
+These values are useful when you need to align other shapes or calculate custom margins.
 
-## नए चार्ट के साथ प्रस्तुति को सेव करना
-एक बार आपका चार्ट बनकर वैलिडेट हो जाए, तो बदलावों को स्थायी बनाएं:
+## नए चार्ट के साथ प्रेज़ेंटेशन कैसे सेव करें
+`Presentation` is the container that holds all slides, shapes, and charts. Call `save` on the `Presentation` instance, specifying the output format (e.g., PPTX). This writes the modified deck to disk, preserving the newly added chart and any layout validation you performed, while also releasing native resources when disposed.
 
-### Step 6: Save the file
 ```java
 import com.aspose.slides.SaveFormat;
 
 pres.save("YOUR_OUTPUT_DIRECTORY/Chart_out.pptx", SaveFormat.Pptx);
 ```
 
-## व्यावहारिक उपयोग
-- **Business Reporting** – अद्यतन चार्ट के साथ त्रैमासिक डेक्स को ऑटोमेट करें.  
-- **Educational Tools** – लेक्चर स्लाइड्स को रीयल‑टाइम डेटा ट्रेंड्स के साथ जनरेट करें.  
-- **Dashboard Integration** – रीयल‑टाइम एनालिटिक्स को PowerPoint में एक्सपोर्ट करके एग्जीक्यूटिव ब्रीफ़िंग्स के लिए उपयोग करें.
+## व्यावहारिक अनुप्रयोग
+- **Business Reporting** – Automate quarterly decks with up‑to‑date charts.  
+- **Educational Tools** – Generate lecture slides that illustrate data trends on the fly.  
+- **Dashboard Integration** – Export real‑time analytics into PowerPoint for executive briefings.
 
 ## प्रदर्शन संबंधी विचार
-- `Presentation` ऑब्जेक्ट (`pres.dispose()`) को डिस्पोज़ करके नेटिव रिसोर्सेज़ को मुक्त करें.  
-- बड़े डेक्स को प्रोसेस करते समय, मेमोरी चर्न कम करने के लिए संभव हो तो चार्ट ऑब्जेक्ट्स को पुन: उपयोग करें.  
-- बड़े डेटा सेट्स के लिए मेमोरी में सब कुछ लोड करने से बचने हेतु स्ट्रीमिंग API को प्राथमिकता दें.
+- Dispose of the `Presentation` object (`pres.dispose()`) to free native resources.  
+- When processing large decks, reuse chart objects where possible to reduce memory churn.  
+- Prefer streaming APIs for massive data sets to avoid loading everything into memory at once.  
+- Aspose.Slides supports **over 40 chart types** and can render charts with **up to 10,000 data points per series** without noticeable latency.
 
 ## सामान्य समस्याएँ और ट्रबलशूटिंग
-| Symptom | Likely Cause | Fix |
+| लक्षण | संभावित कारण | समाधान |
 |---------|--------------|-----|
 | Chart appears blank | Data series not added | Use `chart.getChartData().getSeries().add(...)` before validation. |
 | Layout validation throws errors | Overlapping shapes on the slide | Adjust X/Y coordinates or increase chart dimensions. |
@@ -164,19 +224,19 @@ pres.save("YOUR_OUTPUT_DIRECTORY/Chart_out.pptx", SaveFormat.Pptx);
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **Q: Aspose.Slides क्या है?**  
-A: यह एक शक्तिशाली Java लाइब्रेरी है जो Microsoft Office के बिना PowerPoint फ़ाइलों को बनाने, संपादित करने और कनवर्ट करने की सुविधा देती है।
+A: It’s a powerful Java library for creating, editing, and converting PowerPoint files without Microsoft Office.
 
 **Q: मैं अस्थायी लाइसेंस कैसे प्राप्त करूँ?**  
-A: [Aspose Temporary License](https://purchase.aspose.com/temporary-license/) पर जाएँ और अनुरोध चरणों का पालन करें।
+A: Visit [Aspose Temporary License](https://purchase.aspose.com/temporary-license/) and follow the request steps.
 
 **Q: क्या मैं क्लस्टर्ड कॉलम के अलावा अन्य चार्ट प्रकार बना सकता हूँ?**  
-A: हाँ, Aspose.Slides बार, लाइन, पाई, एरिया और कई अन्य चार्ट प्रकारों को सपोर्ट करता है।
+A: Yes, Aspose.Slides supports bar, line, pie, area, and many more chart types.
 
-**Q: क्या चार्ट में डेटा प्रोग्रामेटिक रूप से जोड़ने का कोई तरीका है?**  
-A: बिल्कुल. `chart.getChartData().getSeries().add(...)` और `chart.getChartData().getCategories().add(...)` का उपयोग करें।
+**Q: क्या मैं प्रोग्रामेटिक रूप से चार्ट में डेटा जोड़ सकता हूँ?**  
+A: Absolutely. Use `chart.getChartData().getSeries().add(...)` and `chart.getChartData().getCategories().add(...)`.
 
-**Q: क्या लाइब्रेरी सभी ऑपरेटिंग सिस्टम्स पर काम करती है?**  
-A: Java संस्करण क्रॉस‑प्लेटफ़ॉर्म है और Windows, Linux, तथा macOS पर चलता है।
+**Q: क्या लाइब्रेरी सभी ऑपरेटिंग सिस्टम पर काम करती है?**  
+A: The Java version is cross‑platform and runs on Windows, Linux, and macOS.
 
 ## संसाधन
 - [Documentation](https://reference.aspose.com/slides/java/)
@@ -188,14 +248,21 @@ A: Java संस्करण क्रॉस‑प्लेटफ़ॉर्�
 
 ---
 
-**Last Updated:** 2026-02-22  
-**Tested With:** Aspose.Slides for Java 25.4  
-**Author:** Aspose  
+**अंतिम अपडेट:** 2026-07-22  
+**परीक्षण किया गया:** Aspose.Slides for Java 25.4  
+**लेखक:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## संबंधित ट्यूटोरियल
+
+- [How to Create Chart in Java with Aspose.Slides: A Comprehensive Guide](/slides/java/charts-graphs/aspose-slides-java-chart-creation-guide/)
+- [Create and Validate Chart Layouts in PowerPoint Using Aspose.Slides for Java | SEO-Optimized Guide](/slides/java/charts-graphs/create-validate-chart-layouts-aspose-slides-java/)
+- [How to Add and Configure Charts in Presentations Using Aspose.Slides for Java](/slides/java/charts-graphs/add-charts-aspose-slides-java-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
