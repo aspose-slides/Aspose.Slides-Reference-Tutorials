@@ -1,7 +1,7 @@
 ---
 title: "Save PowerPoint with Animation Using Aspose.Slides for Java"
-description: "Learn how to save PowerPoint with animation using Aspose.Slides for Java. Follow this step‑by‑step guide to add a fly effect, configure triggers, and save your presentation with animation."
-date: "2026-01-27"
+description: "Learn how to save PowerPoint with animation using Aspose.Slides for Java, apply fly animation text, and configure animation trigger."
+date: "2026-03-31"
 weight: 1
 url: "/java/animations-transitions/add-fly-animation-powerpoint-aspose-slides-java/"
 keywords:
@@ -81,8 +81,8 @@ Download the latest version from [Aspose.Slides for Java releases](https://relea
 
 Once the setup is complete, let’s move on to implementing the **fly animation PowerPoint** effect.
 
-## How to Add Fly Animation PowerPoint to a Slide
-In this section, we’ll walk through each step required to apply a fly animation to a paragraph inside a slide.
+## How to Save PowerPoint with Animation Using Aspose.Slides for Java
+Below is the step‑by‑step guide that walks you through the entire process, from loading a file to persisting the animated result.
 
 ### Step 1: Initialize the Presentation Object
 Create and initialize a `Presentation` object that points to your existing PowerPoint file:
@@ -100,7 +100,10 @@ IAutoShape autoShape = (IAutoShape) slide.getShapes().get_Item(0);
 ```
 We assume the shape is an `AutoShape` with a text frame.
 
-### Step 3: Apply the Fly Animation Effect
+### Apply Fly Animation Text
+Now that we have the shape, we can **apply fly animation text** to the paragraph you want to animate.
+
+#### Step 3: Apply the Fly Animation Effect
 Add a **fly animation PowerPoint** effect to the first paragraph of the shape. This example configures the animation to fly in from the left and trigger on a mouse click:
 ```java
 IParagraph paragraph = autoShape.getTextFrame().getParagraphs().get_Item(0);
@@ -112,6 +115,9 @@ IEffect effect = slide.getTimeline().getMainSequence().addEffect(
 );
 ```
 You can change `EffectSubtype` to `Right`, `Top`, or `Bottom` to adjust the direction, and modify `EffectTriggerType` to `AfterPrevious` if you prefer an automatic start.
+
+#### Configure Animation Trigger
+The `EffectTriggerType` parameter lets you **configure animation trigger** behavior. `OnClick` waits for a user click, while `AfterPrevious` starts automatically after the previous animation finishes.
 
 ### Step 4: Save the Presentation with Animation
 Persist the changes by saving the file. This step **saves the presentation with animation** intact:
@@ -171,7 +177,7 @@ Take the next step in enhancing your presentations with Aspose.Slides for Java a
 
 ---
 
-**Last Updated:** 2026-01-27  
+**Last Updated:** 2026-03-31  
 **Tested With:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
 **Author:** Aspose
 

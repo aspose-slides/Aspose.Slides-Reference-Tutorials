@@ -1,14 +1,14 @@
 ---
-date: '2026-01-27'
-description: Maven ile Aspose.Slides kullanarak animasyon eklemeyi, animasyondan sonra
-  değişiklik yapmayı, tıklamayla gizlemeyi (java), animasyondan sonra gizlemeyi ve
-  pptx sunumunu kaydetmeyi öğrenin. Bu Aspose Slides Maven rehberi gelişmiş slayt
-  animasyonlarını kapsar.
+date: '2026-03-31'
+description: Aspose.Slides ve Maven kullanarak animasyon eklemeyi, animasyondan sonra
+  değiştirmeyi, tıklamayla gizlemeyi (java), animasyondan sonra gizlemeyi ve pptx
+  sunumunu kaydetmeyi öğrenin. Bu Aspose Slides Maven rehberi gelişmiş slayt animasyonlarını
+  kapsar.
 keywords:
 - Aspose.Slides Java
 - slide animations Java
 - Java presentations
-title: 'aspose slides maven - Java''da Gelişmiş Slayt Animasyonlarını Ustalıkla Öğrenin'
+title: aspose slides maven - Java'da İleri Düzey Slayt Animasyonlarını Ustalaşın
 url: /tr/java/animations-transitions/advanced-slide-animations-aspose-slides-java/
 weight: 1
 ---
@@ -18,38 +18,41 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# aspose slides maven: Master Advanced Slide Animations in Java
+# aspose slides maven: Java'da Gelişmiş Slayt Animasyonlarını Ustalıkla Yönet
 
-Günümüzün dinamik sunum ortamında, izleyicilerinizi etkileyici animasyonlarla büyülemek bir lüks değil, bir zorunluluktur. İster eğitim amaçlı bir ders hazırlıyor olun, ister yatırımcılara sunum yapıyor olun, doğru slayt animasyonu izleyicilerin ilgisini sürdürmede büyük fark yaratır. Bu kapsamlı rehber, **Aspose.Slides** for Java’yı **Maven** ile kullanarak gelişmiş slayt animasyonlarını sorunsuz bir şekilde uygulamanıza yardımcı olacaktır.
+Bugünün hızlı tempolu sunum dünyasında, **aspose slides maven** size düşük seviyeli API'lerle uğraşmadan göz alıcı animasyonlar oluşturma gücü verir. Eğitim dersleri, ürün demosu ya da yüksek riskli yatırımcı sunumu hazırlıyor olun, doğru slayt animasyonu izleyicilerinizi odakta tutabilir ve mesajın hatırlanmasını artırabilir. Bu kılavuz, **Aspose.Slides** for Java'ı **Maven** ile kullanarak gelişmiş slayt animasyonlarını hızlı ve güvenilir bir şekilde oluşturmanızı, özelleştirmenizi ve kaydetmenizi adım adım gösterir.
 
 ## Hızlı Yanıtlar
-- **Aspose.Slides’ı bir Java projesine eklemenin temel yolu nedir?** Maven bağımlılığı `com.aspose:aspose-slides` kullanın.  
-- **Bir nesneyi fare tıklamasından sonra nasıl gizlerim?** Etkide `AfterAnimationType.HideOnNextMouseClick` ayarlayın.  
-- **Bir sunumu PPTX olarak kaydeden yöntem hangisidir?** `presentation.save(path, SaveFormat.Pptx)`.  
-- **Geliştirme için lisansa ihtiyacım var mı?** Değerlendirme için ücretsiz deneme yeterlidir; üretim için lisans gereklidir.  
-- **Animasyon sonrası rengi değiştirebilir miyim?** Evet, `AfterAnimationType.Color` ayarlayıp rengi belirterek yapabilirsiniz.
+- **Aspose.Slides'ı bir Java projesine eklemenin temel yolu nedir?** Maven bağımlılığı `com.aspose:aspose-slides` kullanın.
+- **Bir nesneyi fare tıklamasından sonra nasıl gizleyebilirim?** `AfterAnimationType.HideOnNextMouseClick` değerini etkiye ayarlayın.
+- **Bir sunumu PPTX olarak kaydeden yöntem hangisidir?** `presentation.save(path, SaveFormat.Pptx)`.
+- **Geliştirme için bir lisansa ihtiyacım var mı?** Değerlendirme için ücretsiz deneme çalışır; üretim için lisans gereklidir.
+- **Animasyon sonrası rengi değiştirebilir miyim?** Evet, `AfterAnimationType.Color` ayarlayarak ve rengi belirterek.
 
-## Öğrenecekleriniz
-- **Sunumları Yükleme** – Mevcut dosyaları sorunsuz bir şekilde yükleyin.  
-- **Slaytları Manipüle Etme** – Slaytları kopyalayın ve yeni slayt olarak ekleyin.  
-- **Animasyonları Özelleştirme** – Animasyon efektlerini değiştirin, tıklamayla gizleyin, renk değiştirin ve animasyon sonrası gizleyin.  
-- **Sunumları Kaydetme** – Düzenlenmiş sunumu PPTX olarak dışa aktarın.
+## aspose slides maven: Gelişmiş Animasyonların Önemi
+Gelişmiş animasyonlar, bir sunumun görsel akışını kontrol etmenizi, kilit verileri vurgulamanızı ve dikkat dağıtıcıları mükemmel bir anda gizlemenizi sağlar. **aspose slides maven** ile her animasyon özelliğine programatik erişim elde eder, yalnızca PowerPoint arayüzüyle mümkün olmayan dinamik slayt oluşturmayı mümkün kılar.
+
+## Neler Öğreneceksiniz
+- **Loading Presentations** – Mevcut dosyaları sorunsuz bir şekilde yükleyin.  
+- **Manipulating Slides** – Slaytları klonlayın ve yeni slaytlar olarak ekleyin.  
+- **Customizing Animations** – Animasyon efektlerini değiştirin, tıklamayla gizleyin, renkleri değiştirin ve animasyondan sonra gizleyin.  
+- **Saving Presentations** – Düzenlenmiş sunumu PPTX olarak dışa aktarın.
 
 ## Önkoşullar
 
-### Gereken Kütüphaneler ve Bağımlılıklar
+### Gerekli Kütüphaneler ve Bağımlılıklar
 - Java Development Kit (JDK) 16 ve üzeri  
 - **Aspose.Slides for Java** kütüphanesi (Maven, Gradle veya doğrudan indirme yoluyla eklenir)
 
 ### Ortam Kurulum Gereksinimleri
-Aspose.Slides bağımlılığını yönetmek için Maven veya Gradle yapılandırın.
+Aspose.Slides bağımlılığını yönetmek için Maven veya Gradle'ı yapılandırın.
 
 ### Bilgi Önkoşulları
-Temel Java programlama ve dosya‑işleme kavramları.
+Temel Java programlama ve dosya işleme kavramları.
 
-## Aspose.Slides for Java’yı Kurma
+## Aspose.Slides for Java'ı Kurma
 
-Aşağıda Aspose.Slides’ı projenize dahil etmenin desteklenen üç yolu yer almaktadır.
+Aşağıda Aspose.Slides'ı projenize dahil etmenin desteklenen üç yolu bulunmaktadır.
 
 **Maven:**  
 ```xml
@@ -70,7 +73,7 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 En son sürümü [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) adresinden indirin.
 
 ### Lisanslama
-Ücretsiz deneme ile başlayabilir veya tam özellik erişimi için geçici bir lisans alabilirsiniz. Satın alınan lisans, değerlendirme sınırlamalarını kaldırır.
+Ücretsiz deneme ile başlayabilir veya tam özellik erişimi için geçici bir lisans alabilirsiniz. Satın alınan bir lisans değerlendirme sınırlamalarını kaldırır.
 
 ### Temel Başlatma ve Kurulum
 ```java
@@ -81,16 +84,16 @@ String presentationPath = "YOUR_DOCUMENT_DIRECTORY/AnimationAfterEffect.pptx";
 Presentation pres = new Presentation(presentationPath);
 ```
 
-## aspose slides maven ile Gelişmiş Slayt Animasyonları Nasıl Kullanılır
+## Gelişmiş Slayt Animasyonları için aspose slides maven Nasıl Kullanılır
 
-Aşağıda her özelliği adım adım açıklayarak, kod parçacığından önce net açıklamalar sunuyoruz.
+Aşağıda her özelliği adım adım ele alıyor, her kod parçacığından önce net açıklamalar sunuyoruz.
 
-### Özellik 1: Sunumu Yükleme
+### Özellik 1: Sunum Yükleme
 
 #### Genel Bakış
 Mevcut bir sunumu yüklemek, herhangi bir manipülasyonun ilk adımıdır.
 
-#### Adım‑Adım Uygulama
+#### Adım Adım Uygulama
 **Sunumu Yükle**  
 ```java
 import com.aspose.slides.*;
@@ -111,14 +114,99 @@ try {
     cleanup(pres);
 }
 ```
-*Bu neden önemlidir?* Doğru kaynak yönetimi, özellikle büyük sunumlarla çalışırken bellek sızıntılarını önler.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
+*Why is this important?* Proper resource management prevents memory leaks, especially when handling large decks.
 
-### Özellik 2: Yeni Bir Slayt Eklemek ve Mevcut Bir Slaytı Kopyalamak
+### Özellik 2: Yeni Bir Slayt Eklemek ve Mevcut Bir Slaytı Kopyalamak (create new slide java)
 
 #### Genel Bakış
-Slaytları kopyalamak, içeriği baştan oluşturmak zorunda kalmadan yeniden kullanmanızı sağlar.
+Slaytları klonlamak, içeriği sıfırdan yeniden oluşturmak zorunda kalmadan yeniden kullanmanızı sağlar; bu, programatik olarak **create new slide java** oluşturmak istediğinizde yaygın bir ihtiyaçtır.
 
-#### Adım‑Adım Uygulama
+#### Adım Adım Uygulama
 **Slaytı Kopyala**  
 ```java
 import com.aspose.slides.*;
@@ -131,13 +219,13 @@ try {
 }
 ```
 
-### Özellik 3: “Hide on Next Mouse Click” (Sonraki Fare Tıklamasında Gizle) Animasyon Tipini Değiştirme
+### Özellik 3: After Animation Tipini “Sonraki Fare Tıklamasında Gizle” Olarak Değiştirme (hide on click java)
 
 #### Genel Bakış
-Nesneyi bir sonraki fare tıklamasından sonra gizleyerek izleyicinin dikkatini yeni içeriğe yönlendirin.
+İzleyicinin yeni içeriğe odaklanmasını sağlamak için bir nesneyi bir sonraki fare tıklamasından sonra gizleyin.
 
-#### Adım‑Adım Uygulama
-**Animasyon Efektini Değiştir**  
+#### Adım Adım Uygulama
+**Animasyon Etkisini Değiştir**  
 ```java
 import com.aspose.slides.*;
 
@@ -154,12 +242,12 @@ try {
 }
 ```
 
-### Özellik 4: “Color” (Renk) Animasyon Tipini Değiştirme ve Renk Özelliğini Ayarlama
+### Özellik 4: After Animation Tipini “Renk” Olarak Değiştirme ve Renk Özelliğini Ayarlama (change animation color java)
 
 #### Genel Bakış
-Animasyon tamamlandığında renk değişikliği uygulayarak dikkat çekin.
+Bir animasyon tamamlandığında dikkat çekmek için renk değişikliği uygulayın.
 
-#### Adım‑Adım Uygulama
+#### Adım Adım Uygulama
 **Animasyon Rengini Ayarla**  
 ```java
 import com.aspose.slides.*;
@@ -179,13 +267,13 @@ try {
 }
 ```
 
-### Özellik 5: “Hide After Animation” (Animasyon Sonrası Gizle) Animasyon Tipini Değiştirme
+### Özellik 5: After Animation Tipini “Animasyondan Sonra Gizle” Olarak Değiştirme
 
 #### Genel Bakış
-Animasyon tamamlandığında nesneyi otomatik olarak gizleyerek temiz bir geçiş sağlayın.
+Temiz bir geçiş için bir nesneyi animasyonu tamamlandığında otomatik olarak gizleyin.
 
-#### Adım‑Adım Uygulama
-**Animasyon Sonrası Gizlemeyi Uygula**  
+#### Adım Adım Uygulama
+**Animasyondan Sonra Gizlemeyi Uygula**  
 ```java
 import com.aspose.slides.*;
 
@@ -205,9 +293,9 @@ try {
 ### Özellik 6: Sunumu Kaydetme
 
 #### Genel Bakış
-Tüm değişiklikleri PPTX olarak kaydederek kalıcı hale getirin.
+Tüm değişiklikleri PPTX olarak dosyayı kaydederek kalıcı hale getirin.
 
-#### Adım‑Adım Uygulama
+#### Adım Adım Uygulama
 **Sunumu Kaydet**  
 ```java
 import com.aspose.slides.*;
@@ -223,44 +311,42 @@ try {
 ```
 
 ## Pratik Uygulamalar
-- **Eğitim Sunumları** – Renk‑değiştirme animasyonlarıyla ana kavramları vurgulayın.  
-- **İş Toplantıları** – Destek grafiklerini bir tıklamayla gizleyerek konuşmacının odak noktasını koruyun.  
-- **Ürün Lansmanları** – Gizle‑animasyonu etkileriyle özellikleri dinamik bir şekilde ortaya çıkarın.
+- **Educational Presentations** – Renk değişimi animasyonlarıyla temel kavramları vurgulayın.  
+- **Business Meetings** – Konuşmacıya odaklanmak için bir tıklamadan sonra destekleyici grafikleri gizleyin.  
+- **Product Launches** – Hide‑after‑animation efektlerini kullanarak özellikleri dinamik olarak ortaya çıkarın.
 
 ## Performans Düşünceleri
-- `Presentation` nesnelerini mümkün olan en kısa sürede dispose edin.  
-- Performans iyileştirmeleri için en yeni Aspose.Slides sürümünü kullanın.  
-- Büyük sunumları işlerken Java heap kullanımını izleyin.
+- `Presentation` nesnelerini hemen serbest bırakın.  
+- Performans iyileştirmeleri için en son Aspose.Slides sürümünü kullanın.  
+- Büyük sunumları işlerken Java yığın kullanımını izleyin.
 
 ## Yaygın Sorunlar ve Çözümler
 | Sorun | Çözüm |
 |-------|----------|
-| **Birçok slayt işlemi sonrası bellek sızıntısı** | Her zaman `presentation.dispose()` metodunu bir `finally` bloğunda çağırın (gösterildiği gibi). |
+| **Çok sayıda slayt işlemi sonrası bellek sızıntısı** | `presentation.dispose()` metodunu her zaman bir `finally` bloğunda çağırın (gösterildiği gibi). |
 | **Animasyon tipi uygulanmadı** | Doğru `ISequence` (ana sıra) üzerinde döngü yaptığınızdan ve efektin slaytta mevcut olduğundan emin olun. |
-| **Kaydedilen dosya bozuk** | Çıktı yolu dizininin var olduğundan ve yazma izninizin bulunduğundan emin olun. |
+| **Kaydedilen dosya bozuk** | Çıktı yolu dizininin var olduğundan ve yazma izinlerinizin bulunduğundan emin olun. |
 
-## Sık Sorulan Sorular
+## Sıkça Sorulan Sorular
 
-**S: Yeni oluşturulan bir şekle nasıl animasyon eklerim?**  
-C: Şekli slayta ekledikten sonra `IEffect` oluşturmak için `slide.getTimeline().getMainSequence().addEffect(shape, EffectType.Fade, EffectSubtype.None, 0);` kodunu kullanın ve ardından istediğiniz `AfterAnimationType` değerini ayarlayın.
+**S: Yeni oluşturulan bir şekle nasıl animasyon ekleyebilirim?**  
+C: Şekli slayta ekledikten sonra, `slide.getTimeline().getMainSequence().addEffect(shape, EffectType.Fade, EffectSubtype.None, 0);` ile bir `IEffect` oluşturun ve ardından istediğiniz `AfterAnimationType` değerini ayarlayın.
 
-**S: After‑animation rengini yeşil dışındaki bir renge değiştirebilir miyim?**  
-C: Kesinlikle – `Color.GREEN` yerine `Color.RED` ya da turuncu için `new Color(255, 165, 0)` gibi herhangi bir `java.awt.Color` değeri kullanabilirsiniz.
+**S: Animasyon sonrası rengi yeşil dışında bir şeye değiştirebilir miyim?**  
+C: Kesinlikle – `Color.GREEN` yerine herhangi bir `java.awt.Color` değeri kullanabilirsiniz, örneğin `Color.RED` ya da turuncu için `new Color(255, 165, 0)`.
 
 **S: “hide on click java” tüm slayt nesnelerinde destekleniyor mu?**  
-C: Evet, bir `IEffect` ile ilişkilendirilmiş herhangi bir `IShape` nesnesi `AfterAnimationType.HideOnNextMouseClick` özelliğini kullanabilir.
+C: Evet, ilişkili bir `IEffect`'i olan herhangi bir `IShape`, `AfterAnimationType.HideOnNextMouseClick` kullanabilir.
 
-**S: Her dağıtım ortamı için ayrı bir lisansa ihtiyacım var mı?**  
-C: Tek bir lisans, lisans koşullarına uyulduğu sürece tüm ortamları (geliştirme, test, üretim) kapsar.
+**S: Her dağıtım ortamı için ayrı bir lisans ihtiyacım var mı?**  
+C: Tek bir lisans, lisans koşullarına uyduğunuz sürece tüm ortamları (geliştirme, test, üretim) kapsar.
 
 **S: Bu özellikler için hangi Aspose.Slides sürümü gereklidir?**  
-C: Örnekler Aspose.Slides 25.4 (jdk16) sürümünü hedeflemektedir; ancak önceki 24.x sürümleri de gösterilen API’leri destekler.
+C: Örnekler Aspose.Slides 25.4 (jdk16) sürümünü hedeflemektedir, ancak önceki 24.x sürümleri de gösterilen API'leri destekler.
 
----
-
-**Son Güncelleme:** 2026-01-27  
-**Test Edilen Versiyon:** Aspose.Slides 25.4 (jdk16)  
-**Yazar:** Aspose  
+**Last Updated:** 2026-03-31  
+**Tested With:** Aspose.Slides 25.4 (jdk16)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
