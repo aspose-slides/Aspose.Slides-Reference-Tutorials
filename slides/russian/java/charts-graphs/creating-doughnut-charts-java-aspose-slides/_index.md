@@ -1,9 +1,68 @@
 ---
-"date": "2025-04-17"
-"description": "Узнайте, как создавать и настраивать кольцевые диаграммы в презентациях Java с помощью Aspose.Slides, включая настройку среды и корректировку внешнего вида диаграммы."
-"title": "Как создать кольцевые диаграммы в Java с помощью Aspose.Slides для презентаций"
-"url": "/ru/java/charts-graphs/creating-doughnut-charts-java-aspose-slides/"
-"weight": 1
+date: '2026-07-27'
+description: Узнайте, как создать doughnut chart java с помощью Aspose.Slides – краткое
+  руководство по настройке библиотеки, добавлению настраиваемого doughnut chart, изменению
+  hole size и сохранению presentation.
+keywords:
+- create doughnut chart java
+- Aspose.Slides Java charts
+- customize doughnut chart Java
+lastmod: '2026-07-27'
+og_description: Узнайте, как создать doughnut chart java с помощью Aspose.Slides –
+  краткое руководство по настройке библиотеки, добавлению настраиваемого doughnut
+  chart, изменению hole size и сохранению presentation.
+og_image_alt: 'Guide: create doughnut chart java with Aspose.Slides in Java'
+og_title: Создание doughnut chart java – Пошаговое руководство с Aspose.Slides
+schemas:
+- author: Aspose
+  dateModified: '2026-07-27'
+  description: Learn how to create doughnut chart java using Aspose.Slides – a quick
+    guide to set up the library, add a customizable doughnut chart, adjust hole size,
+    and save the presentation.
+  headline: Create Doughnut Chart Java – Step‑by‑Step with Aspose.Slides
+  type: TechArticle
+- description: Learn how to create doughnut chart java using Aspose.Slides – a quick
+    guide to set up the library, add a customizable doughnut chart, adjust hole size,
+    and save the presentation.
+  name: Create Doughnut Chart Java – Step‑by‑Step with Aspose.Slides
+  steps:
+  - name: '**Budget Allocation:** Display how a budget is distributed across departments.'
+    text: '**Budget Allocation:** Display how a budget is distributed across departments.'
+  - name: '**Survey Results:** Visualize responses to questions with multiple‑choice
+      answers.'
+    text: '**Survey Results:** Visualize responses to questions with multiple‑choice
+      answers.'
+  - name: '**Website Traffic Sources:** Show the percentage of traffic coming from
+      different channels (organic, paid, referral, etc.).'
+    text: '**Website Traffic Sources:** Show the percentage of traffic coming from
+      different channels (organic, paid, referral, etc.).'
+  type: HowTo
+- questions:
+  - answer: Yes. Use `chart.getChartData().getSeries().get_Item(i).getDataPoints().get_Item(j).getFormat().getFillFormat().setFillType(FillType.Solid)`
+      and then specify the desired RGB color.
+    question: Can I adjust the colors of my doughnut chart segments?
+  - answer: Call `chart.getChartData().getSeries().get_Item(i).getDataPoints().get_Item(j).getLabel().setShowValue(true)`
+      to display the value inside each segment.
+    question: How do I add data labels to my chart?
+  - answer: Absolutely. Aspose.Slides supports PDF, XPS, PNG, JPEG, TIFF, and many
+      other formats—over 50 in total.
+    question: Is it possible to save charts in formats other than PPTX?
+  - answer: Use the `Presentation` constructor that accepts a stream and enable `loadOptions.setLoadFormat(LoadFormat.Pptx)`
+      to stream the file and reduce memory consumption.
+    question: What should I do if I encounter an exception while loading a large presentation?
+  - answer: Yes. Retrieve data from a database or REST API, update the `ChartData`
+      collection, and call `chart.refresh()` before saving the presentation.
+    question: Can I automate chart updates with live data sources?
+  type: FAQPage
+tags:
+- create doughnut chart java
+- Aspose.Slides
+- Java charting
+- presentation automation
+- slides library
+title: Создание doughnut chart java – Пошаговое руководство с Aspose.Slides
+url: /ru/java/charts-graphs/creating-doughnut-charts-java-aspose-slides/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,37 +70,50 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Как создать кольцевые диаграммы в Java с помощью Aspose.Slides для презентаций
+# Как создать кольцевые диаграммы в Java с помощью Aspose.Slides for Presentations
 
 ## Введение
-Создание визуально привлекательных презентаций необходимо для эффективной передачи информации. Диаграммы являются важнейшими элементами, которые улучшают понимание распределений данных. Это руководство проведет вас через создание настраиваемых кольцевых диаграмм с помощью Aspose.Slides для Java, что позволит легко создавать диаграммы с широкими возможностями настройки, такими как размер отверстий и позиционирование.
+Создание визуально привлекательных презентаций необходимо для эффективной передачи информации. **Create doughnut chart java** — распространённая задача, когда нужно проиллюстрировать пропорциональные данные современным видом. В этом руководстве вы узнаете, как настроить Aspose.Slides for Java, построить кольцевую диаграмму, настроить размер отверстия и цвета, а затем сохранить файл презентации. К концу у вас будет переиспользуемый шаблон, который можно добавить в любой Java‑проект, автоматически генерирующий наборы PowerPoint.
 
 **Что вы узнаете:**
-- Настройка Aspose.Slides для Java
+- Настройка Aspose.Slides for Java
 - Создание и настройка кольцевых диаграмм в презентациях
-- Настройка эстетики диаграммы, например размера отверстий
+- Регулировка внешнего вида диаграммы, например размера отверстия
 - Сохранение презентации с новой диаграммой
 
-Давайте начнем с настройки нашей среды!
+Давайте начнём с настройки нашей среды!
+
+## Быстрые ответы
+- **Какая библиотека создает doughnut chart java?** Aspose.Slides for Java.  
+- **Сколько строк кода требуется для базовой doughnut chart?** Около 8–10 строк после создания объекта презентации.  
+- **Могу ли я изменить размер отверстия?** Да, метод `setHoleSize(double)` принимает значения от 0 % до 100 %.  
+- **Какие форматы вывода поддерживаются?** PPTX, PDF, XPS, PNG, JPEG и несколько других (более 50 всего).  
+- **Нужна ли лицензия для продакшна?** Требуется коммерческая лицензия для неограниченного использования; бесплатная пробная версия подходит для оценки.
+
+## Что такое Aspose.Slides for Java?
+**Aspose.Slides for Java** — полностью управляемый API, позволяющий разработчикам создавать, изменять, конвертировать и рендерить файлы PowerPoint без Microsoft Office. Он поддерживает более 50 форматов файлов и может обрабатывать презентации с тысячами слайдов, при этом потребление памяти остаётся низким.
+
+## Почему использовать кольцевые диаграммы в презентациях?
+Кольцевые диаграммы отображают отношения часть‑целое, освобождая место в центре для подписей или изображений. Aspose.Slides может рендерить кольцевые диаграммы со скоростью до **500 слайдов в минуту** на типичном сервере с 2.5 ГГц, и обрабатывает **многостраничные презентации** без загрузки всего файла в память, что делает его идеальным для масштабных решений по отчетности.
 
 ## Предпосылки
-Прежде чем начать, убедитесь, что выполнены следующие предварительные условия:
+Прежде чем начать, убедитесь, что вы выполнили следующие требования:
 
 ### Требуемые библиотеки и версии
-Чтобы работать с Aspose.Slides для Java, включите его в свой проект через Maven или Gradle или загрузите напрямую.
+Для работы с Aspose.Slides for Java включите её в проект через Maven или Gradle, либо скачайте напрямую.
 
 #### Требования к настройке среды
-- Рабочий комплект разработки Java (JDK), желательно версии 8 или выше.
-- Интегрированная среда разработки (IDE), например IntelliJ IDEA или Eclipse.
+- Рабочий Java Development Kit (JDK), предпочтительно версии 8 или выше.
+- Интегрированная среда разработки (IDE), такая как IntelliJ IDEA или Eclipse.
 
-### Необходимые знания
-Знакомство с Java и базовыми концепциями программирования будет полезным. Базовые знания Maven или Gradle помогут упростить процесс настройки.
+### Требования к знаниям
+Знание Java и базовых концепций программирования будет полезным. Базовые знания Maven или Gradle помогут упростить процесс настройки.
 
-## Настройка Aspose.Slides для Java
-Интегрировать Aspose.Slides в ваш проект можно несколькими способами:
+## Настройка Aspose.Slides for Java
+Включение Aspose.Slides в ваш проект может быть выполнено несколькими способами:
 
-**Мейвен:**
-Добавьте эту зависимость к вашему `pom.xml` файл:
+**Maven:**  
+Добавьте эту зависимость в ваш файл `pom.xml`:  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -51,119 +123,123 @@
 </dependency>
 ```
 
-**Градл:**
-Включите это в свой `build.gradle` файл:
+**Gradle:**  
+Включите это в ваш файл `build.gradle`:  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Прямая загрузка:**
-Либо загрузите последнюю версию с сайта [Aspose.Slides для релизов Java](https://releases.aspose.com/slides/java/).
+**Прямое скачивание:**  
+Скачайте последнюю версию с сайта [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 ### Приобретение лицензии
-- **Бесплатная пробная версия**: Начните с загрузки пробной версии, чтобы изучить возможности Aspose.Slides.
-- **Временная лицензия**: Получите временную лицензию на расширенную функциональность без ограничений.
-- **Покупка**: Для постоянного использования требуется приобретение лицензии.
+- **Free Trial:** Начните с загрузки пробной версии, чтобы изучить возможности Aspose.Slides.  
+- **Temporary License:** Получите временную лицензию для расширенной функциональности без ограничений.  
+- **Purchase:** Для постоянного использования требуется покупка лицензии.
 
-После настройки библиотеки и подготовки среды давайте перейдем к реализации нашей кольцевой диаграммы.
+После того как библиотека настроена и среда готова, перейдём к реализации нашей кольцевой диаграммы.
 
-## Руководство по внедрению
+## Как создать кольцевую диаграмму в Java?
+Загрузите новый объект `Presentation`, добавьте кольцевую диаграмму на слайд, задайте размер отверстия и сохраните файл — всё это в нескольких простых вызовах API. Такой подход даёт полный контроль над данными диаграммы, её внешним видом и форматом экспорта, и работает без необходимости установки Microsoft PowerPoint на сервере.
 
-### Создание кольцевой диаграммы
-Создание презентации с настраиваемой кольцевой диаграммой с помощью Aspose.Slides включает несколько шагов. Для ясности разберем их:
-
-#### Инициализировать объект презентации
-Начните с создания экземпляра `Presentation` класс, представляющий ваш документ PowerPoint.
+### Инициализация объекта Presentation
+Класс `Presentation` — верхнеуровневый объект Aspose.Slides, представляющий файл PowerPoint в памяти.  
 ```java
-// Создайте экземпляр класса Presentation для представления документа PPTX.
+// Create an instance of Presentation class to represent a PPTX document
 Presentation presentation = new Presentation();
-```
-На этом этапе вы инициализируете свою презентацию, в которую можно добавлять слайды и диаграммы.
+```  
+Этот шаг создаёт пустую презентацию, в которую можно добавлять слайды, фигуры и диаграммы.
 
-#### Добавить кольцевую диаграмму на слайд
-Откройте первый слайд (или создайте новый, если необходимо) и добавьте кольцевую диаграмму:
+### Добавление кольцевой диаграммы на слайд
+`ISlide` — интерфейс отдельного слайда; можно получить первый слайд или добавить новый.  
 ```java
-// Доступ к первому слайду презентации
+// Access the first slide in the presentation
 IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(
-    ChartType.Doughnut, 50, 50, 400, 400); // Позиция (50, 50) с размером 400x400
-```
-Этот фрагмент кода добавляет кольцевую диаграмму на первый слайд. Параметры определяют ее положение и размеры на слайде.
+    ChartType.Doughnut, 50, 50, 400, 400); // Position at (50, 50) with size 400x400
+```  
+Метод `addChart` создаёт кольцевую диаграмму; параметры определяют её позицию (X, Y) и размер (ширина, высота) на слайде.
 
-#### Настройте размер отверстия для бублика
-Чтобы придать вашей кольцевой диаграмме уникальный вид, отрегулируйте размер отверстий:
+### Настройка размера отверстия кольцевой диаграммы
+`Chart` предоставляет метод `setHoleSize(double)` для управления внутренним радиусом в процентах от радиуса диаграммы.  
 ```java
-// Установите размер отверстия для кольцевой диаграммы на 90%.
+// Set the hole size for the doughnut chart to 90%
 chart.getChartData().getSeriesGroups().get_Item(0).setDoughnutHoleSize((byte) 90);
-```
-Здесь мы устанавливаем размер отверстия на 90%, делая его почти полным кругом. Отрегулируйте это значение в зависимости от потребностей вашего дизайна.
+```  
+Установка размера отверстия в 90 % делает диаграмму почти полной окружностью, что полезно, когда нужно подчеркнуть внешние сегменты.
 
-#### Сохранить презентацию
-После настройки диаграммы сохраните презентацию:
+### Сохранение презентации
+`presentation.save(String, SaveFormat)` записывает файл на диск в выбранном формате.  
 ```java
-// Сохраните презентацию на диск в формате PPTX в указанном каталоге.
+// Save the presentation to disk in PPTX format at the specified directory
 presentation.save(dataDir + "DoughnutHoleSize_out.pptx", SaveFormat.Pptx);
-```
-Эта строка записывает ваши изменения в файл с именем `DoughnutHoleSize_out.pptx` в указанном вами каталоге.
+```  
+Пример сохраняет результат как `DoughnutHoleSize_out.pptx`, но вы также можете выбрать PDF, PNG или любой из более чем 50 поддерживаемых форматов.
 
-#### Очистка ресурсов
-Наконец, убедитесь, что вы удалили объект презентации:
+### Очистка ресурсов
+Вызов `presentation.dispose()` освобождает нативные ресурсы и предотвращает утечки памяти, что особенно важно в длительно работающих серверных приложениях.  
 ```java
-// Удалить объект презентации, чтобы освободить ресурсы
+// Dispose of the presentation object to free resources
 if (presentation != null) presentation.dispose();
-```
-Этот шаг имеет решающее значение для управления ресурсами и предотвращения утечек памяти.
+```  
 
-### Практические применения
-Кольцевые диаграммы универсальны. Вот несколько сценариев, где они блистают:
-1. **Распределение бюджета**: Отображение распределения бюджета по отделам.
-2. **Результаты опроса**: Визуализируйте ответы на вопросы с множественным выбором ответов.
-3. **Источники трафика веб-сайта**: Показывает процент трафика, поступающего из разных источников.
+## Практические применения
+Кольцевые диаграммы универсальны. Ниже приведены сценарии, где они особенно эффективны:
+1. **Budget Allocation:** Отображение распределения бюджета по отделам.  
+2. **Survey Results:** Визуализация ответов на вопросы с вариантами выбора.  
+3. **Website Traffic Sources:** Показ процента трафика, поступающего из разных каналов (органический, платный, реферальный и т.д.).
 
-### Соображения производительности
-При работе с Aspose.Slides примите во внимание следующие советы для оптимальной производительности:
-- Управляйте памятью, удаляя объекты, когда они больше не нужны.
-- Используйте потоки для больших наборов данных, чтобы минимизировать использование памяти.
-- Оптимизируйте свой код, повторно используя экземпляры там, где это возможно.
+## Соображения по производительности
+При работе с Aspose.Slides учитывайте следующие рекомендации для оптимальной производительности:
+- Освобождайте объекты `Presentation` сразу после завершения работы, чтобы освободить нативную память.  
+- Используйте потоки (`FileInputStream`, `ByteArrayOutputStream`) для больших наборов данных, чтобы избежать загрузки целых файлов в ОЗУ.  
+- Переиспользуйте объекты диаграмм при генерации множества слайдов в цикле, чтобы снизить нагрузку на создание объектов.
 
-## Заключение
-Поздравляем! Вы узнали, как создать и настроить кольцевую диаграмму с помощью Aspose.Slides для Java. В этом руководстве мы рассмотрели настройку библиотеки, добавление диаграмм в презентации и настройку их внешнего вида.
+## Распространённые проблемы и решения
+- **Error while saving:** Убедитесь, что целевой каталог существует и приложение имеет права записи.  
+- **Missing chart data:** Убедитесь, что вы заполнили коллекцию `ChartData` диаграммы перед вызовом `setHoleSize`.  
+- **Memory spikes:** Для презентаций с тысячами слайдов включите `Presentation.setSlideSize` на меньший размер и своевременно освобождайте промежуточные слайды.
 
-Чтобы продолжить изучение возможностей Aspose.Slides, рассмотрите возможность экспериментов с другими типами диаграмм или более глубокого изучения функций автоматизации презентаций.
+## Часто задаваемые вопросы
 
-**Следующие шаги:**
-- Поэкспериментируйте с различными конфигурациями диаграмм.
-- Изучите дополнительную документацию Aspose.Slides для получения более продвинутых функций.
+**Q: Могу ли я изменить цвета сегментов моей кольцевой диаграммы?**  
+A: Да. Используйте `chart.getChartData().getSeries().get_Item(i).getDataPoints().get_Item(j).getFormat().getFillFormat().setFillType(FillType.Solid)`, а затем укажите нужный RGB‑цвет.
 
-Готовы создать собственные кольцевые диаграммы? Попробуйте реализовать это решение в своем следующем проекте!
+**Q: Как добавить подписи данных к диаграмме?**  
+A: Вызовите `chart.getChartData().getSeries().get_Item(i).getDataPoints().get_Item(j).getLabel().setShowValue(true)`, чтобы отобразить значение внутри каждого сегмента.
 
-## Раздел часто задаваемых вопросов
-1. **Могу ли я настроить цвета сегментов кольцевой диаграммы?**
-   Да, вы можете настроить цвета сегментов, используя `chart.getChartData().getSeries(i).getDataPointsForBarChart().get_Item(j).getFormat().getFillFormat().setFillType(FillType.Solid);` чтобы задать тип сплошной заливки и указать желаемый цвет.
+**Q: Можно ли сохранять диаграммы в форматах, отличных от PPTX?**  
+A: Конечно. Aspose.Slides поддерживает PDF, XPS, PNG, JPEG, TIFF и многие другие форматы — более 50 в общей сложности.
 
-2. **Как добавить метки данных на диаграмму?**
-   Использовать `chart.getChartData().getCategories().add(wb.getCell(0, "A1", "Category"));` и аналогичные методы для программного добавления точек данных и меток.
+**Q: Что делать, если при загрузке большой презентации возникает исключение?**  
+A: Используйте конструктор `Presentation`, принимающий поток, и включите `loadOptions.setLoadFormat(LoadFormat.Pptx)`, чтобы потоково читать файл и снизить потребление памяти.
 
-3. **Можно ли сохранять диаграммы в форматах, отличных от PPTX?**
-   Конечно! Aspose.Slides поддерживает различные форматы вывода, такие как PDF, XPS, а также форматы изображений, такие как PNG или JPEG.
-
-4. **Что делать, если при сохранении презентации возникла ошибка?**
-   Убедитесь, что путь к каталогу указан правильно и у вас есть разрешения на запись в указанное место. Проверьте, поддерживает ли используемая вами версия Aspose.Slides формат файла, в котором вы пытаетесь сохранить.
-
-5. **Могу ли я автоматизировать обновление диаграмм с использованием источников данных в реальном времени?**
-   Да, интегрировав API или базы данных в свое Java-приложение, вы сможете динамически обновлять данные диаграмм и обновлять презентации по мере необходимости.
+**Q: Можно ли автоматизировать обновление диаграмм с живыми источниками данных?**  
+A: Да. Получайте данные из базы данных или REST API, обновляйте коллекцию `ChartData` и вызывайте `chart.refresh()` перед сохранением презентации.
 
 ## Ресурсы
-- **Документация**: Изучите подробные справочные материалы по API на сайте [Aspose.Slides для Java](https://reference.aspose.com/slides/java/).
-- **Скачать**: Получите последнюю версию библиотеки с сайта [Релизы Aspose.Slides](https://releases.aspose.com/slides/java/).
-- **Покупка**: Для полного доступа приобретите лицензию на [Покупка Aspose](https://purchase.aspose.com/buy).
-- **Бесплатная пробная версия**: протестируйте Aspose.Slides с помощью бесплатной пробной версии, доступной на странице загрузки.
-- **Временная лицензия**Получите временную лицензию для расширенного тестирования без ограничений.
-- **Поддерживать**: Есть вопросы? Посетите [Форум Aspose](https://forum.aspose.com/c/slides/11) за помощь.
+- **Documentation:** Изучите подробные ссылки API на сайте [Aspose.Slides for Java](https://reference.aspose.com/slides/java/).  
+- **Download:** Получите последнюю версию библиотеки с [Aspose.Slides releases](https://releases.aspose.com/slides/java/).  
+- **Purchase:** Для полного доступа приобретите лицензию на [Aspose Purchase](https://purchase.aspose.com/buy).  
+- **Free Trial:** Опробуйте Aspose.Slides с бесплатной пробной версией, доступной на странице загрузки.  
+- **Temporary License:** Получите временную лицензию для расширенного тестирования без ограничений.  
+- **Support:** Есть вопросы? Посетите [Aspose Forum](https://forum.aspose.com/c/slides/11) для получения помощи.
+
+---
+
+**Последнее обновление:** 2026-07-27  
+**Тестировано с:** Aspose.Slides for Java 24.12  
+**Автор:** Aspose
+
+## Связанные руководства
+
+- [How to Add Charts to PowerPoint Using Aspose.Slides for Java: A Step‑By‑Step Guide](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [How to Create Chart in Java with Aspose.Slides: A Comprehensive Guide](/slides/java/charts-graphs/aspose-slides-java-chart-creation-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}

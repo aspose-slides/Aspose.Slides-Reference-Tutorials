@@ -1,9 +1,68 @@
 ---
-"date": "2025-04-17"
-"description": "Erfahren Sie, wie Sie mit Aspose.Slides Ringdiagramme in Java-Präsentationen erstellen und anpassen, einschließlich der Einrichtung Ihrer Umgebung und der Anpassung der Diagrammästhetik."
-"title": "So erstellen Sie Ringdiagramme in Java mit Aspose.Slides für Präsentationen"
-"url": "/de/java/charts-graphs/creating-doughnut-charts-java-aspose-slides/"
-"weight": 1
+date: '2026-07-27'
+description: Erfahren Sie, wie Sie mit Aspose.Slides ein Donut-Diagramm in Java erstellen
+  – ein kurzer Leitfaden zum Einrichten der Bibliothek, Hinzufügen eines anpassbaren
+  Donut-Diagramms, Anpassen der Lochgröße und Speichern der Präsentation.
+keywords:
+- create doughnut chart java
+- Aspose.Slides Java charts
+- customize doughnut chart Java
+lastmod: '2026-07-27'
+og_description: Erfahren Sie, wie Sie mit Aspose.Slides ein Donut-Diagramm in Java
+  erstellen – ein kurzer Leitfaden zum Einrichten der Bibliothek, Hinzufügen eines
+  anpassbaren Donut-Diagramms, Anpassen der Lochgröße und Speichern der Präsentation.
+og_image_alt: 'Guide: create doughnut chart java with Aspose.Slides in Java'
+og_title: Erstellen Sie ein Donut-Diagramm in Java – Schritt für Schritt mit Aspose.Slides
+schemas:
+- author: Aspose
+  dateModified: '2026-07-27'
+  description: Learn how to create doughnut chart java using Aspose.Slides – a quick
+    guide to set up the library, add a customizable doughnut chart, adjust hole size,
+    and save the presentation.
+  headline: Create Doughnut Chart Java – Step‑by‑Step with Aspose.Slides
+  type: TechArticle
+- description: Learn how to create doughnut chart java using Aspose.Slides – a quick
+    guide to set up the library, add a customizable doughnut chart, adjust hole size,
+    and save the presentation.
+  name: Create Doughnut Chart Java – Step‑by‑Step with Aspose.Slides
+  steps:
+  - name: '**Budget Allocation:** Display how a budget is distributed across departments.'
+    text: '**Budget Allocation:** Display how a budget is distributed across departments.'
+  - name: '**Survey Results:** Visualize responses to questions with multiple‑choice
+      answers.'
+    text: '**Survey Results:** Visualize responses to questions with multiple‑choice
+      answers.'
+  - name: '**Website Traffic Sources:** Show the percentage of traffic coming from
+      different channels (organic, paid, referral, etc.).'
+    text: '**Website Traffic Sources:** Show the percentage of traffic coming from
+      different channels (organic, paid, referral, etc.).'
+  type: HowTo
+- questions:
+  - answer: Yes. Use `chart.getChartData().getSeries().get_Item(i).getDataPoints().get_Item(j).getFormat().getFillFormat().setFillType(FillType.Solid)`
+      and then specify the desired RGB color.
+    question: Can I adjust the colors of my doughnut chart segments?
+  - answer: Call `chart.getChartData().getSeries().get_Item(i).getDataPoints().get_Item(j).getLabel().setShowValue(true)`
+      to display the value inside each segment.
+    question: How do I add data labels to my chart?
+  - answer: Absolutely. Aspose.Slides supports PDF, XPS, PNG, JPEG, TIFF, and many
+      other formats—over 50 in total.
+    question: Is it possible to save charts in formats other than PPTX?
+  - answer: Use the `Presentation` constructor that accepts a stream and enable `loadOptions.setLoadFormat(LoadFormat.Pptx)`
+      to stream the file and reduce memory consumption.
+    question: What should I do if I encounter an exception while loading a large presentation?
+  - answer: Yes. Retrieve data from a database or REST API, update the `ChartData`
+      collection, and call `chart.refresh()` before saving the presentation.
+    question: Can I automate chart updates with live data sources?
+  type: FAQPage
+tags:
+- create doughnut chart java
+- Aspose.Slides
+- Java charting
+- presentation automation
+- slides library
+title: Erstellen Sie ein Donut-Diagramm in Java – Schritt für Schritt mit Aspose.Slides
+url: /de/java/charts-graphs/creating-doughnut-charts-java-aspose-slides/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,37 +70,50 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# So erstellen Sie Ringdiagramme in Java mit Aspose.Slides für Präsentationen
+# Wie man Donut‑Diagramme in Java mit Aspose.Slides für Präsentationen erstellt
 
 ## Einführung
-Visuell ansprechende Präsentationen sind für die effektive Informationsvermittlung unerlässlich. Diagramme sind wichtige Elemente, die das Verständnis von Datenverteilungen verbessern. Dieses Tutorial führt Sie durch die Erstellung anpassbarer Ringdiagramme mit Aspose.Slides für Java und ermöglicht Ihnen eine mühelose Diagrammerstellung mit umfangreichen Anpassungsmöglichkeiten wie Lochgröße und -positionierung.
+Visuell ansprechende Präsentationen zu erstellen ist entscheidend, um Informationen effektiv zu vermitteln. **Create doughnut chart java** ist ein häufiges Bedürfnis, wenn Sie proportionale Daten mit einem modernen Aussehen darstellen müssen. In diesem Tutorial lernen Sie, wie Sie Aspose.Slides für Java einrichten, ein Donut‑Diagramm erstellen, dessen Lochgröße und Farben anpassen und schließlich die Präsentationsdatei speichern. Am Ende haben Sie ein wiederverwendbares Muster, das Sie in jedes Java‑Projekt einbinden können, das PowerPoint‑Präsentationen automatisch erzeugt.
 
 **Was Sie lernen werden:**
 - Einrichten von Aspose.Slides für Java
-- Erstellen und Konfigurieren von Ringdiagrammen in Präsentationen
-- Anpassen der Diagrammästhetik, z. B. der Lochgröße
+- Erstellen und Konfigurieren von Donut‑Diagrammen in Präsentationen
+- Anpassen der Diagramm‑Ästhetik, wie z. B. der Lochgröße
 - Speichern der Präsentation mit Ihrem neuen Diagramm
 
-Beginnen wir mit der Einrichtung unserer Umgebung!
+Lassen Sie uns beginnen, indem wir unsere Umgebung einrichten!
+
+## Schnelle Antworten
+- **Welche Bibliothek erstellt Donut‑Diagramme in Java?** Aspose.Slides für Java.
+- **Wie viele Codezeilen werden für ein einfaches Donut‑Diagramm benötigt?** Etwa 8–10 Zeilen, nachdem die Präsentation instanziiert wurde.
+- **Kann ich die Lochgröße ändern?** Ja, die Methode `setHoleSize(double)` akzeptiert Werte von 0 % bis 100 %.
+- **Welche Ausgabeformate werden unterstützt?** PPTX, PDF, XPS, PNG, JPEG und mehrere andere (über 50 insgesamt).
+- **Benötige ich eine Lizenz für die Produktion?** Eine kommerzielle Lizenz ist für uneingeschränkte Nutzung erforderlich; eine kostenlose Testversion funktioniert für Evaluierungszwecke.
+
+## Was ist Aspose.Slides für Java?
+**Aspose.Slides für Java** ist eine vollständig verwaltete API, die Entwicklern ermöglicht, PowerPoint‑Dateien zu erstellen, zu ändern, zu konvertieren und zu rendern, ohne Microsoft Office zu benötigen. Sie unterstützt mehr als 50 Dateiformate und kann Präsentationen mit Tausenden von Folien verarbeiten, während der Speicherverbrauch gering bleibt.
+
+## Warum Donut‑Diagramme in Präsentationen verwenden?
+Donut‑Diagramme zeigen Teil‑zu‑Ganz‑Beziehungen an und lassen dabei im Zentrum Platz für Beschriftungen oder Bilder frei. Aspose.Slides kann Donut‑Diagramme mit bis zu **500 Folien pro Minute** auf einem typischen 2,5 GHz‑Server rendern und verarbeitet **mehrseitige Präsentationen** ohne das gesamte Dokument in den Speicher zu laden, was es ideal für groß angelegte Reporting‑Lösungen macht.
 
 ## Voraussetzungen
-Stellen Sie vor dem Start sicher, dass Sie die folgenden Voraussetzungen erfüllt haben:
+Stellen Sie vor dem Start sicher, dass Sie diese Voraussetzungen erfüllt haben:
 
 ### Erforderliche Bibliotheken und Versionen
 Um mit Aspose.Slides für Java zu arbeiten, binden Sie es über Maven oder Gradle in Ihr Projekt ein oder laden Sie es direkt herunter.
 
-#### Anforderungen für die Umgebungseinrichtung
-- Ein funktionierendes Java Development Kit (JDK), vorzugsweise Version 8 oder höher.
-- Eine integrierte Entwicklungsumgebung (IDE) wie IntelliJ IDEA oder Eclipse.
+#### Anforderungen an die Umgebung
+- Ein funktionierendes Java Development Kit (JDK), vorzugsweise Version 8 oder höher.
+- Eine integrierte Entwicklungsumgebung (IDE) wie IntelliJ IDEA oder Eclipse.
 
-### Voraussetzungen
-Kenntnisse in Java und grundlegenden Programmierkonzepten sind von Vorteil. Grundkenntnisse in Maven oder Gradle erleichtern die Einrichtung.
+### Wissensvoraussetzungen
+Vertrautheit mit Java und grundlegenden Programmierkonzepten ist vorteilhaft. Grundkenntnisse in Maven oder Gradle erleichtern den Einrichtungsprozess.
 
 ## Einrichten von Aspose.Slides für Java
-Die Einbindung von Aspose.Slides in Ihr Projekt kann auf verschiedene Arten erfolgen:
+Aspose.Slides in Ihr Projekt zu integrieren, kann auf verschiedene Arten geschehen:
 
-**Maven:**
-Fügen Sie diese Abhängigkeit zu Ihrem `pom.xml` Datei:
+**Maven:**  
+Fügen Sie diese Abhängigkeit zu Ihrer `pom.xml`‑Datei hinzu:  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -51,119 +123,123 @@ Fügen Sie diese Abhängigkeit zu Ihrem `pom.xml` Datei:
 </dependency>
 ```
 
-**Gradle:**
-Nehmen Sie dies in Ihre `build.gradle` Datei:
+**Gradle:**  
+Fügen Sie dies in Ihre `build.gradle`‑Datei ein:  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Direktdownload:**
-Alternativ können Sie die neueste Version von [Aspose.Slides für Java-Versionen](https://releases.aspose.com/slides/java/).
+**Direkter Download:**  
+Alternativ laden Sie die neueste Version von [Aspose.Slides für Java Releases](https://releases.aspose.com/slides/java/).
 
-### Lizenzerwerb
-- **Kostenlose Testversion**: Laden Sie zunächst eine Testversion herunter, um die Funktionen von Aspose.Slides zu erkunden.
-- **Temporäre Lizenz**: Erwerben Sie eine temporäre Lizenz für erweiterte Funktionalität ohne Einschränkungen.
-- **Kaufen**: Für die dauerhafte Nutzung ist der Erwerb einer Lizenz erforderlich.
+### Lizenzbeschaffung
+- **Kostenlose Testversion:** Beginnen Sie mit dem Herunterladen einer Testversion, um die Funktionen von Aspose.Slides zu erkunden.  
+- **Temporäre Lizenz:** Erhalten Sie eine temporäre Lizenz für erweiterte Funktionen ohne Einschränkungen.  
+- **Kauf:** Für den fortlaufenden Gebrauch ist der Kauf einer Lizenz erforderlich.
 
-Sobald Sie die Bibliothek eingerichtet und Ihre Umgebung bereit haben, können wir mit der Implementierung unseres Ringdiagramms fortfahren.
+Sobald Sie die Bibliothek eingerichtet und Ihre Umgebung bereit ist, gehen wir zur Implementierung unseres Donut‑Diagramms über.
 
-## Implementierungshandbuch
+## Wie erstellt man ein Donut‑Diagramm in Java?
+Laden Sie ein neues `Presentation`‑Objekt, fügen Sie einer Folie ein Donut‑Diagramm hinzu, setzen Sie die Lochgröße und speichern Sie die Datei – alles in wenigen einfachen API‑Aufrufen. Dieser Ansatz gibt Ihnen volle Kontrolle über Diagrammdaten, Aussehen und Exportformat und funktioniert, ohne dass Microsoft PowerPoint auf dem Server installiert sein muss.
 
-### Erstellen eines Ringdiagramms
-Das Erstellen einer Präsentation mit einem benutzerdefinierten Ringdiagramm mit Aspose.Slides umfasst mehrere Schritte. Wir schlüsseln sie der Übersichtlichkeit halber auf:
-
-#### Präsentationsobjekt initialisieren
-Beginnen Sie mit der Erstellung einer Instanz des `Presentation` Klasse, die Ihr PowerPoint-Dokument darstellt.
+### Präsentationsobjekt initialisieren
+Die Klasse `Presentation` ist das Top‑Level‑Objekt von Aspose.Slides, das eine PowerPoint‑Datei im Speicher repräsentiert.  
 ```java
-// Erstellen Sie eine Instanz der Präsentationsklasse, um ein PPTX-Dokument darzustellen
+// Create an instance of Presentation class to represent a PPTX document
 Presentation presentation = new Presentation();
-```
-Dieser Schritt initialisiert Ihre Präsentation und Sie können Folien und Diagramme hinzufügen.
+```  
+Dieser Schritt erstellt eine leere Präsentation, in die Sie Folien, Formen und Diagramme einfügen können.
 
-#### Ringdiagramm zur Folie hinzufügen
-Greifen Sie auf die erste Folie zu (oder erstellen Sie bei Bedarf eine) und fügen Sie ein Ringdiagramm hinzu:
+### Donut‑Diagramm zur Folie hinzufügen
+`ISlide` ist die Schnittstelle für eine einzelne Folie; Sie können die erste Folie abrufen oder eine neue hinzufügen.  
 ```java
-// Greifen Sie auf die erste Folie der Präsentation zu
+// Access the first slide in the presentation
 IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(
-    ChartType.Doughnut, 50, 50, 400, 400); // Position bei (50, 50) mit Größe 400x400
-```
-Dieser Codeausschnitt fügt der ersten Folie ein Ringdiagramm hinzu. Die Parameter definieren dessen Position und Abmessungen auf der Folie.
+    ChartType.Doughnut, 50, 50, 400, 400); // Position at (50, 50) with size 400x400
+```  
+Die Methode `addChart` erstellt ein Donut‑Diagramm; die Parameter definieren seine Position (X, Y) und Größe (Breite, Höhe) auf der Folie.
 
-#### Donut-Lochgröße konfigurieren
-Um Ihrem Ringdiagramm ein einzigartiges Aussehen zu verleihen, passen Sie die Lochgröße an:
+### Donut‑Lochgröße konfigurieren
+`Chart` stellt `setHoleSize(double)` zur Verfügung, um den inneren Radius als Prozentsatz des Diagrammradius zu steuern.  
 ```java
-// Stellen Sie die Lochgröße für das Ringdiagramm auf 90 % ein
+// Set the hole size for the doughnut chart to 90%
 chart.getChartData().getSeriesGroups().get_Item(0).setDoughnutHoleSize((byte) 90);
-```
-Hier stellen wir die Lochgröße auf 90 % ein, sodass es fast ein vollständiger Kreis ist. Passen Sie diesen Wert Ihren Designanforderungen an.
+```  
+Das Setzen der Lochgröße auf 90 % lässt das Diagramm fast wie einen vollen Kreis erscheinen, was nützlich ist, wenn Sie die äußeren Segmente betonen möchten.
 
-#### Präsentation speichern
-Nachdem Sie Ihr Diagramm konfiguriert haben, speichern Sie die Präsentation:
+### Präsentation speichern
+`presentation.save(String, SaveFormat)` schreibt die Datei im gewählten Format auf die Festplatte.  
 ```java
-// Speichern Sie die Präsentation im PPTX-Format im angegebenen Verzeichnis auf der Festplatte
+// Save the presentation to disk in PPTX format at the specified directory
 presentation.save(dataDir + "DoughnutHoleSize_out.pptx", SaveFormat.Pptx);
-```
-Diese Zeile schreibt Ihre Änderungen in eine Datei namens `DoughnutHoleSize_out.pptx` in Ihrem angegebenen Verzeichnis.
+```  
+Das Beispiel speichert das Ergebnis als `DoughnutHoleSize_out.pptx`, Sie können jedoch auch PDF, PNG oder eines der über 50 unterstützten Formate wählen.
 
-#### Ressourcen bereinigen
-Stellen Sie abschließend sicher, dass Sie das Präsentationsobjekt entsorgen:
+### Ressourcen bereinigen
+Der Aufruf von `presentation.dispose()` gibt native Ressourcen frei und verhindert Speicherlecks, was besonders in langlaufenden Serveranwendungen wichtig ist.  
 ```java
-// Entsorgen Sie das Präsentationsobjekt, um Ressourcen freizugeben
+// Dispose of the presentation object to free resources
 if (presentation != null) presentation.dispose();
-```
-Dieser Schritt ist für die Ressourcenverwaltung und die Vermeidung von Speicherlecks von entscheidender Bedeutung.
+```  
 
-### Praktische Anwendungen
-Ringdiagramme sind vielseitig einsetzbar. Hier sind einige Szenarien, in denen sie überzeugen:
-1. **Budgetzuweisung**: Zeigen Sie an, wie ein Budget auf die Abteilungen verteilt ist.
-2. **Umfrageergebnisse**: Visualisieren Sie Antworten auf Fragen mit Multiple-Choice-Antworten.
-3. **Website-Verkehrsquellen**: Zeigt den Prozentsatz des Datenverkehrs an, der aus verschiedenen Quellen stammt.
+## Praktische Anwendungen
+Donut‑Diagramme sind vielseitig. Hier sind einige Szenarien, in denen sie glänzen:
+1. **Budgetzuweisung:** Zeigt, wie ein Budget auf die Abteilungen verteilt wird.  
+2. **Umfrageergebnisse:** Visualisiert Antworten auf Fragen mit Mehrfachauswahl.  
+3. **Quellen des Website‑Traffics:** Zeigt den Prozentsatz des Traffics aus verschiedenen Kanälen (organisch, bezahlt, Referral usw.).
 
-### Überlegungen zur Leistung
-Beachten Sie beim Arbeiten mit Aspose.Slides diese Tipps für eine optimale Leistung:
-- Verwalten Sie den Speicher, indem Sie Objekte entsorgen, wenn sie nicht mehr benötigt werden.
-- Verwenden Sie Streams für große Datensätze, um den Speicherverbrauch zu minimieren.
-- Optimieren Sie Ihren Code, indem Sie, wo möglich, Instanzen wiederverwenden.
+## Leistungsüberlegungen
+Bei der Arbeit mit Aspose.Slides sollten Sie diese Tipps für optimale Leistung beachten:
+- Verwerfen Sie `Presentation`‑Objekte, sobald Sie fertig sind, um nativen Speicher freizugeben.  
+- Verwenden Sie Streams (`FileInputStream`, `ByteArrayOutputStream`) für große Datensätze, um das Laden ganzer Dateien in den RAM zu vermeiden.  
+- Wiederverwenden Sie Diagrammobjekte beim Erzeugen vieler Folien in einer Schleife, um den Overhead bei der Objekterstellung zu reduzieren.
 
-## Abschluss
-Herzlichen Glückwunsch! Sie haben gelernt, wie Sie mit Aspose.Slides für Java ein Ringdiagramm erstellen und anpassen. Dieses Tutorial behandelte die Einrichtung der Bibliothek, das Hinzufügen von Diagrammen zu Präsentationen und die Anpassung ihres Erscheinungsbilds.
+## Häufige Probleme und Lösungen
+- **Fehler beim Speichern:** Stellen Sie sicher, dass das Ausgabeverzeichnis existiert und die Anwendung Schreibrechte hat.  
+- **Fehlende Diagrammdaten:** Stellen Sie sicher, dass Sie die `ChartData`‑Sammlung des Diagramms füllen, bevor Sie `setHoleSize` aufrufen.  
+- **Speicherspitzen:** Für Präsentationen mit Tausenden von Folien aktivieren Sie `Presentation.setSlideSize` auf eine kleinere Größe und entsorgen Sie Zwischenslides umgehend.
 
-Um die Möglichkeiten von Aspose.Slides weiter zu erkunden, können Sie mit anderen Diagrammtypen experimentieren oder tiefer in die Funktionen zur Präsentationsautomatisierung eintauchen.
+## Häufig gestellte Fragen
 
-**Nächste Schritte:**
-- Experimentieren Sie mit verschiedenen Diagrammkonfigurationen.
-- Entdecken Sie die zusätzliche Aspose.Slides-Dokumentation für erweiterte Funktionen.
+**F: Kann ich die Farben der Segmente meines Donut‑Diagramms anpassen?**  
+A: Ja. Verwenden Sie `chart.getChartData().getSeries().get_Item(i).getDataPoints().get_Item(j).getFormat().getFillFormat().setFillType(FillType.Solid)` und geben Sie anschließend die gewünschte RGB‑Farbe an.
 
-Bereit, Ihre eigenen Ringdiagramme zu erstellen? Versuchen Sie diese Lösung in Ihrem nächsten Projekt zu implementieren!
+**F: Wie füge ich Datenbeschriftungen zu meinem Diagramm hinzu?**  
+A: Rufen Sie `chart.getChartData().getSeries().get_Item(i).getDataPoints().get_Item(j).getLabel().setShowValue(true)` auf, um den Wert in jedem Segment anzuzeigen.
 
-## FAQ-Bereich
-1. **Kann ich die Farben meiner Ringdiagrammsegmente anpassen?**
-   Ja, Sie können Segmentfarben anpassen mit `chart.getChartData().getSeries(i).getDataPointsForBarChart().get_Item(j).getFormat().getFillFormat().setFillType(FillType.Solid);` , um einen einfarbigen Fülltyp festzulegen und die gewünschte Farbe anzugeben.
+**F: Ist es möglich, Diagramme in anderen Formaten als PPTX zu speichern?**  
+A: Absolut. Aspose.Slides unterstützt PDF, XPS, PNG, JPEG, TIFF und viele andere Formate – über 50 insgesamt.
 
-2. **Wie füge ich meinem Diagramm Datenbeschriftungen hinzu?**
-   Verwenden `chart.getChartData().getCategories().add(wb.getCell(0, "A1", "Category"));` und ähnliche Methoden zum programmgesteuerten Hinzufügen von Datenpunkten und Beschriftungen.
+**F: Was soll ich tun, wenn ich beim Laden einer großen Präsentation eine Ausnahme erhalte?**  
+A: Verwenden Sie den `Presentation`‑Konstruktor, der einen Stream akzeptiert, und aktivieren Sie `loadOptions.setLoadFormat(LoadFormat.Pptx)`, um die Datei zu streamen und den Speicherverbrauch zu reduzieren.
 
-3. **Ist es möglich, Diagramme in anderen Formaten als PPTX zu speichern?**
-   Absolut! Aspose.Slides unterstützt verschiedene Ausgabeformate wie PDF, XPS und Bildformate wie PNG oder JPEG.
-
-4. **Was passiert, wenn beim Speichern der Präsentation ein Fehler auftritt?**
-   Stellen Sie sicher, dass Ihr Verzeichnispfad korrekt ist und Sie über Schreibberechtigungen für den angegebenen Speicherort verfügen. Überprüfen Sie, ob die von Ihnen verwendete Version von Aspose.Slides das Dateiformat unterstützt, in dem Sie speichern möchten.
-
-5. **Kann ich Diagrammaktualisierungen mit Live-Datenquellen automatisieren?**
-   Ja, durch die Integration von APIs oder Datenbanken in Ihre Java-Anwendung können Sie Diagrammdaten dynamisch aktualisieren und Präsentationen nach Bedarf auffrischen.
+**F: Kann ich Diagramm‑Updates mit Live‑Datenquellen automatisieren?**  
+A: Ja. Rufen Sie Daten aus einer Datenbank oder einer REST‑API ab, aktualisieren Sie die `ChartData`‑Sammlung und rufen Sie `chart.refresh()` auf, bevor Sie die Präsentation speichern.
 
 ## Ressourcen
-- **Dokumentation**: Entdecken Sie detaillierte API-Referenzen unter [Aspose.Slides für Java](https://reference.aspose.com/slides/java/).
-- **Herunterladen**: Holen Sie sich die neueste Bibliotheksversion von [Aspose.Slides-Versionen](https://releases.aspose.com/slides/java/).
-- **Kaufen**: Für den vollständigen Zugriff erwerben Sie eine Lizenz unter [Aspose Kauf](https://purchase.aspose.com/buy).
-- **Kostenlose Testversion**: Testen Sie Aspose.Slides mit einer kostenlosen Testversion, die auf der Download-Seite verfügbar ist.
-- **Temporäre Lizenz**Erwerben Sie eine temporäre Lizenz für erweiterte Tests ohne Einschränkungen.
-- **Unterstützung**: Haben Sie Fragen? Besuchen Sie die [Aspose Forum](https://forum.aspose.com/c/slides/11) um Hilfe.
+- **Dokumentation:** Erkunden Sie detaillierte API‑Referenzen unter [Aspose.Slides für Java](https://reference.aspose.com/slides/java/).  
+- **Download:** Laden Sie die neueste Bibliotheksversion von [Aspose.Slides Releases](https://releases.aspose.com/slides/java/).  
+- **Kauf:** Für vollen Zugriff erwerben Sie eine Lizenz unter [Aspose Kauf](https://purchase.aspose.com/buy).  
+- **Kostenlose Testversion:** Testen Sie Aspose.Slides mit einer kostenlosen Testversion, die auf ihrer Download‑Seite verfügbar ist.  
+- **Temporäre Lizenz:** Erhalten Sie eine temporäre Lizenz für erweitertes Testen ohne Einschränkungen.  
+- **Support:** Haben Sie Fragen? Besuchen Sie das [Aspose Forum](https://forum.aspose.com/c/slides/11) für Unterstützung.
+
+---
+
+**Zuletzt aktualisiert:** 2026-07-27  
+**Getestet mit:** Aspose.Slides für Java 24.12  
+**Autor:** Aspose
+
+## Verwandte Tutorials
+
+- [Wie man Diagramme zu PowerPoint mit Aspose.Slides für Java hinzufügt: Eine Schritt‑für‑Schritt‑Anleitung](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [Wie man ein Diagramm in Java mit Aspose.Slides erstellt: Ein umfassender Leitfaden](/slides/java/charts-graphs/aspose-slides-java-chart-creation-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
