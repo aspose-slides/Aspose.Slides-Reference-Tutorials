@@ -1,14 +1,15 @@
 ---
-date: '2026-01-27'
-description: Dowiedz się, jak pobrać kąt pola widzenia i manipulować właściwościami
-  kamery 3D w prezentacjach PowerPoint przy użyciu Aspose.Slides for Java. Ulepsz
-  swoje slajdy dzięki zaawansowanym animacjom i przejściom.
+date: '2026-04-02'
+description: Dowiedz się, jak ustawić pole widzenia i manipulować właściwościami kamery
+  3D w PowerPoint przy użyciu Aspose.Slides for Java. Krok po kroku kod, wskazówki
+  i FAQ.
 keywords:
-- 3D Camera Retrieval in PowerPoint
-- Aspose.Slides Java API
-- Manipulating 3D Properties
-title: Jak pobrać i manipulować kątem pola widzenia oraz właściwościami kamery 3D
-  w PowerPoint przy użyciu Aspose.Slides Java
+- set field of view
+- manipulate 3d camera
+- Aspose.Slides Java
+- 3D camera properties
+title: Jak ustawić pole widzenia i manipulować kamerą 3D w PowerPoint przy użyciu
+  Aspose.Slides Java
 url: /pl/java/animations-transitions/mastering-3d-camera-retrieval-powerpoint-aspose-slides-java/
 weight: 1
 ---
@@ -18,38 +19,34 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Jak pobrać i manipulować kątem pola widzenia oraz właściwościami kamery 3D w PowerPoint przy użyciu Aspose.Slides Java
+# Jak ustawić pole widzenia i manipulować kamerą 3D w PowerPoint przy użyciu Aspose.Slides Java
 
-Odblokuj możliwość kontrolowania **kąta pola widzenia** i innych ustawień kamery 3D w PowerPoint za pomocą aplikacji Java. Ten szczegółowy przewodnik wyjaśnia, jak wyodrębnić i zarządzać właściwościami kamery 3D z obiektów w slajdach PowerPoint przy użyciu Aspose.Slides for Java.
+Unlock the ability to **set field of view** and **manipulate 3D camera** settings within PowerPoint through Java applications. This detailed guide explains how to extract, adjust, and reuse 3D camera properties from shapes in PowerPoint slides using Aspose.Slides for Java.
 
 ## Wprowadzenie
-Ulepsz swoje prezentacje PowerPoint za pomocą programowo sterowanych wizualizacji 3D przy użyciu Aspose.Slides for Java. Niezależnie od tego, czy automatyzujesz ulepszenia prezentacji, czy odkrywasz nowe możliwości, opanowanie tego narzędzia jest kluczowe. W tym samouczku poprowadzimy Cię przez pobieranie i manipulowanie **kątem pola widzenia** oraz innymi danymi kamery z obiektów 3D.
+Ulepsz swoje prezentacje PowerPoint za pomocą programowo sterowanych wizualizacji 3D przy użyciu Aspose.Slides for Java. Niezależnie od tego, czy automatyzujesz ulepszenia prezentacji, czy odkrywasz nowe możliwości, opanowanie tego narzędzia jest kluczowe. W tym samouczku poprowadzimy Cię przez pobieranie, **set field of view**, i manipulację danymi kamery efektywnej z kształtów 3D.
 
-**Czego się nauczysz:**
-- Konfiguracja Aspose.Slides for Java w środowisku programistycznym
-- Kroki do pobrania i manipulacji efektywnymi danymi kamery, w tym kątem pola widzenia, z obiektów 3D
-- Optymalizacja wydajności i efektywne zarządzanie zasobami
-
-Zacznij od upewnienia się, że masz niezbędne wymagania wstępne!
+**Czego się nauczysz**
+- Konfiguracja Aspose.Slides for Java w środowisku programistycznym  
+- Kroki do **set field of view** i manipulacji danymi kamery 3D z kształtów  
+- Wskazówki dotyczące wydajności i najlepsze praktyki zarządzania zasobami  
 
 ### Szybkie odpowiedzi
-- **Jaką główną właściwość pobieramy?** Kąt pola widzenia kamery 3D.  
-- **Która biblioteka udostępnia API?** Aspose.Slides for Java.  
-- **Czy potrzebna jest licencja?** Tak, wymagana jest licencja próbna lub zakupiona, aby uzyskać pełną funkcjonalność.  
-- **Jaką wersję Javy obsługujemy?** JDK 16 lub nowszy (klasyfikator `jdk16`).  
-- **Czy mogę przetwarzać wiele slajdów?** Oczywiście – można iterować po slajdach i obiektach w razie potrzeby.
+- **Jaką główną właściwość mogę ustawić?** Kąt pola widzenia kamery 3D.  
+- **Które API zapewnia tę funkcjonalność?** Aspose.Slides for Java.  
+- **Czy potrzebna jest licencja?** Tak – wymagana jest licencja próbna lub zakupiona, aby uzyskać pełną funkcjonalność.  
+- **Która wersja Javy jest obsługiwana?** JDK 16 lub nowszy (klasyfikator `jdk16`).  
+- **Czy mogę przetwarzać wiele slajdów jednocześnie?** Oczywiście – można iterować po slajdach i kształtach w razie potrzeby.  
 
 ### Wymagania wstępne
-Zanim przejdziesz do implementacji, upewnij się, że masz:
-
 - **Biblioteki i wersje**: Aspose.Slides for Java w wersji 25.4 lub nowszej.  
-- **Konfiguracja środowiska**: Zainstalowany JDK oraz skonfigurowane IDE, takie jak IntelliJ IDEA lub Eclipse.  
-- **Wymagania wiedzy**: Podstawowa znajomość programowania w Javie oraz narzędzi budowania Maven lub Gradle.
+- **Konfiguracja środowiska**: Zainstalowany JDK na komputerze oraz skonfigurowane IDE, takie jak IntelliJ IDEA lub Eclipse.  
+- **Wymagania wiedzy**: Podstawowe umiejętności programowania w Javie oraz znajomość narzędzi budowania Maven lub Gradle.  
 
 ### Konfiguracja Aspose.Slides for Java
-Dołącz bibliotekę Aspose.Slides do swojego projektu za pomocą Maven, Gradle lub bezpośredniego pobrania:
+Include the Aspose.Slides library in your project via Maven, Gradle, or direct download:
 
-**Zależność Maven:**
+**Maven Dependency:**
 
 ```xml
 <dependency>
@@ -60,24 +57,24 @@ Dołącz bibliotekę Aspose.Slides do swojego projektu za pomocą Maven, Gradle 
 </dependency>
 ```
 
-**Zależność Gradle:**
+**Gradle Dependency:**
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
 **Bezpośrednie pobranie:**  
-Pobierz najnowszą wersję z [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+Download the latest release from [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 #### Uzyskanie licencji
-Używaj Aspose.Slides z plikiem licencji. Rozpocznij od bezpłatnej wersji próbnej lub poproś o tymczasową licencję, aby przetestować pełne funkcje bez ograniczeń. Rozważ zakup licencji poprzez [stronę zakupu Aspose](https://purchase.aspose.com/buy) dla długoterminowego użytkowania.
+Use Aspose.Slides with a license file. Start with a free trial or request a temporary license to explore full features without limitations. Consider purchasing a license through [Aspose's purchase page](https://purchase.aspose.com/buy) for long‑term usage.
 
 ### Przewodnik implementacji
-Teraz, gdy środowisko jest gotowe, wyodrębnijmy i manipulujmy danymi kamery z obiektów 3D w PowerPoint.
+Now that your environment is ready, let’s extract and manipulate camera data from 3D shapes in PowerPoint.
 
-#### Krok po kroku: pobieranie danych kamery
+#### Krok po kroku pobieranie danych kamery
 **1. Załaduj prezentację**  
-Rozpocznij od załadowania pliku prezentacji zawierającego docelowy slajd i obiekt:
+Begin by loading the presentation file that contains the target slide and shape:
 
 ```java
 import com.aspose.slides.Presentation;
@@ -85,34 +82,34 @@ import com.aspose.slides.IThreeDFormatEffectiveData;
 
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/Presentation1.pptx");
 ```
-Ten kod inicjalizuje obiekt `Presentation` wskazujący na Twój plik PowerPoint.
 
-**2. Uzyskaj dostęp do efektywnych danych obiektu**  
-Przejdź do pierwszego slajdu i jego pierwszego obiektu, aby uzyskać efektywne dane formatu 3D:
+**2. Uzyskaj dostęp do efektywnych danych kształtu**  
+Navigate to the first slide and its first shape to obtain the 3‑D format effective data:
 
 ```java
 IThreeDFormatEffectiveData threeDEffectiveData = pres.getSlides().get_Item(0)
     .getShapes().get_Item(0).getThreeDFormat().getEffective();
 ```
-Ten krok pobiera faktycznie zastosowane właściwości 3D na obiekcie.
 
-**3. Pobierz właściwości kamery**  
-Wyodrębnij typ kamery, **kąt pola widzenia** oraz ustawienia zoomu:
+**3. Pobierz i **set field of view** na kamerze**  
+Extract the current camera settings, then you can **set field of view** to a new value if required:
 
 ```java
 String cameraType = threeDEffectiveData.getCamera().getCameraType();
 float fieldOfViewAngle = threeDEffectiveData.getCamera().getFieldOfViewAngle();
 double zoom = threeDEffectiveData.getCamera().getZoom();
 
-// Print values to verify
+// Example: change the field of view angle
+threeDEffectiveData.getCamera().setFieldOfViewAngle(45.0f);
+
 System.out.println("Camera Type: " + cameraType);
-System.out.println("Field of View Angle: " + fieldOfViewAngle);
+System.out.println("Field of View Angle (before): " + fieldOfViewAngle);
+System.out.println("Field of View Angle (after): " + threeDEffectiveData.getCamera().getFieldOfViewAngle());
 System.out.println("Zoom Level: " + zoom);
 ```
-Te właściwości pomagają zrozumieć zastosowaną perspektywę 3D.
 
 **4. Zwolnij zasoby**  
-Zawsze zwalniaj zasoby po zakończeniu:
+Always release resources when you’re done:
 
 ```java
 finally {
@@ -120,48 +117,46 @@ finally {
 }
 ```
 
-#### Dlaczego ten samouczek o kamerze 3D ma znaczenie
-Zrozumienie, jak odczytywać i dostosowywać **kąt pola widzenia**, daje precyzyjną kontrolę nad percepcją głębi slajdu. Jest to szczególnie przydatne do:
-
-- **Automatyczne dostosowania prezentacji** – przetwarzanie wsadowe slajdów w celu zapewnienia spójnej głębi wizualnej.  
-- **Niestandardowe wizualizacje** – dopasowanie kątów kamery do grafik opartych na danych, aby uzyskać bardziej immersyjne wrażenia.  
-- **Integracja z narzędziami raportowania** – osadzanie dynamicznych widoków 3D w generowanych raportach.
+#### Dlaczego **set field of view** i **manipulate 3D camera**?
+Understanding how to **set field of view** and **manipulate 3D camera** gives you fine‑grained control over slide depth perception. It’s especially useful for:
+- **Automated Presentation Adjustments** – przetwarzaj wsadowo slajdy, aby zapewnić spójne postrzeganie głębi wizualnej.  
+- **Custom Visualizations** – dopasuj kąty kamery do wykresów opartych na danych, aby uzyskać bardziej immersyjne doświadczenie.  
+- **Integration with Reporting Tools** – osadź dynamiczne widoki 3D w generowanych raportach.  
 
 #### Rozważania dotyczące wydajności
-Aby zapewnić optymalną wydajność:
-
-- Efektywnie zarządzaj pamięcią, usuwając obiekty `Presentation` po zakończeniu.  
+To ensure optimal performance:
+- Szybko zwalniaj obiekty `Presentation`.  
 - Używaj leniwego ładowania dużych prezentacji, jeśli to możliwe.  
-- Profiluj aplikację, aby zidentyfikować wąskie gardła związane z obsługą prezentacji.
+- Profiluj aplikację, aby zidentyfikować wąskie gardła związane z obsługą prezentacji.  
 
 ### Praktyczne zastosowania
-- **Automatyczne dostosowania prezentacji**: Automatyczne dostosowywanie ustawień 3D na wielu slajdach.  
-- **Niestandardowe wizualacje**: Popraw wizualizację danych, manipulując kątami kamery w dynamicznych prezentacjach.  
-- **Integracja z narzędziami raportowania**: Połącz Aspose.Slides z innymi narzędziami Java, aby generować interaktywne raporty.
+- **Automated Presentation Adjustments** – automatycznie dostosuj ustawienia 3D w wielu slajdach.  
+- **Custom Visualizations** – ulepsz wizualizację danych poprzez manipulację kątami kamery w dynamicznych prezentacjach.  
+- **Integration with Reporting Tools** – połącz Aspose.Slides z innymi narzędziami Java, aby generować interaktywne raporty.  
 
 ### Typowe problemy i rozwiązania
 | Problem | Rozwiązanie |
 |-------|----------|
-| `NullPointerException` przy dostępie do `getThreeDFormat()` | Upewnij się, że obiekt rzeczywiście zawiera format 3D; sprawdź `shape.getThreeDFormat() != null`. |
-| Nieoczekiwane wartości kamery | Zweryfikuj, że efekty 3D obiektu nie są nadpisane przez ustawienia na poziomie slajdu. |
+| `NullPointerException` przy dostępie do `getThreeDFormat()` | Upewnij się, że kształt rzeczywiście zawiera format 3D; sprawdź `shape.getThreeDFormat() != null`. |
+| Nieoczekiwane wartości kamery | Zweryfikuj, że efekty 3D kształtu nie są nadpisane przez ustawienia na poziomie slajdu. |
 | Wycieki pamięci przy dużych partiach | Wywołaj `pres.dispose()` w bloku `finally` i rozważ przetwarzanie slajdów w mniejszych partiach. |
 
 ### Najczęściej zadawane pytania
 
-**P:** Czy mogę używać Aspose.Slides ze starszymi wersjami PowerPoint?  
-**O:** Tak, ale upewnij się, że jest zgodność z wersją API, której używasz.
+**Q: Czy mogę używać Aspose.Slides ze starszymi wersjami PowerPoint?**  
+A: Tak, ale upewnij się, że jest zgodny z wersją API, której używasz.
 
-**P:** Czy istnieje limit liczby slajdów, które można przetworzyć?  
-**O:** Nie ma wbudowanych limitów; wydajność zależy od zasobów systemowych.
+**Q: Czy istnieje limit liczby slajdów, które mogę przetworzyć?**  
+A: Nie ma wbudowanych limitów; wydajność zależy od zasobów systemowych.
 
-**P:** Jak obsługiwać wyjątki przy dostępie do właściwości obiektu?  
-**O:** Używaj bloków try‑catch, aby obsłużyć wyjątki, takie jak `IndexOutOfBoundsException`.
+**Q: Jak powinienem obsługiwać wyjątki przy dostępie do właściwości kształtu?**  
+A: Używaj bloków try‑catch do obsługi wyjątków takich jak `IndexOutOfBoundsException` i `NullPointerException`.
 
-**P:** Czy Aspose.Slides może generować kształty 3D, czy tylko manipulować istniejącymi?  
-**O:** Możesz zarówno tworzyć, jak i modyfikować kształty 3D w prezentacjach.
+**Q: Czy Aspose.Slides może generować kształty 3D, czy tylko manipulować istniejącymi?**  
+A: Możesz zarówno tworzyć, jak i modyfikować kształty 3D w prezentacjach.
 
-**P:** Jakie są najlepsze praktyki używania Aspose.Slides w produkcji?  
-**O:** Zapewnij prawidłową licencję, optymalizuj zarządzanie zasobami i utrzymuj bibliotekę w najnowszej wersji.
+**Q: Jakie są najlepsze praktyki używania Aspose.Slides w produkcji?**  
+A: Zapewnij prawidłowe licencjonowanie, optymalizuj zarządzanie zasobami i utrzymuj bibliotekę w najnowszej wersji.
 
 ### Zasoby
 - **Dokumentacja**: [Aspose.Slides Java Reference](https://reference.aspose.com/slides/java/)  
@@ -173,7 +168,7 @@ Aby zapewnić optymalną wydajność:
 
 ---
 
-**Ostatnia aktualizacja:** 2026-01-27  
+**Ostatnia aktualizacja:** 2026-04-02  
 **Testowano z:** Aspose.Slides 25.4 for Java  
 **Autor:** Aspose
 

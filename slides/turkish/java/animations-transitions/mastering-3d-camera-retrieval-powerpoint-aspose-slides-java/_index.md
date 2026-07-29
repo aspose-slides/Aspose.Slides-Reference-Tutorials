@@ -1,14 +1,14 @@
 ---
-date: '2026-01-27'
-description: PowerPoint sunumlarında Aspose.Slides for Java kullanarak görüş alanı
-  açısını nasıl alacağınızı ve 3D kamera özelliklerini nasıl manipüle edeceğinizi
-  öğrenin. Slaytlarınızı gelişmiş animasyonlar ve geçişlerle zenginleştirin.
+date: '2026-04-02'
+description: Aspose.Slides for Java ile PowerPoint’te görüş alanını ayarlamayı ve
+  3D kamera özelliklerini manipüle etmeyi öğrenin. Adım adım kod, ipuçları ve SSS.
 keywords:
-- 3D Camera Retrieval in PowerPoint
-- Aspose.Slides Java API
-- Manipulating 3D Properties
-title: Aspose.Slides Java ile PowerPoint’te Görüş Açısı ve 3D Kamera Özelliklerini
-  Alma ve Manipüle Etme
+- set field of view
+- manipulate 3d camera
+- Aspose.Slides Java
+- 3D camera properties
+title: Aspose.Slides Java kullanarak PowerPoint’te görüş alanını ayarlama ve 3D kamerayı
+  manipüle etme
 url: /tr/java/animations-transitions/mastering-3d-camera-retrieval-powerpoint-aspose-slides-java/
 weight: 1
 ---
@@ -18,41 +18,33 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# PowerPoint’te Aspose.Slides Java Kullanarak Görüş Açısı ve 3D Kamera Özelliklerini Alma ve Manipüle Etme
+# PowerPoint'te Aspose.Slides Java kullanarak görüş alanını ayarlama ve 3D kamerayı manipüle etme
 
-PowerPoint aracılığıyla Java uygulamaları **görüş açısı** ve diğer 3D kamera işlemlerini kontrol etme yeteneği ortaya çıkar. Bu ayrıntılı kılavuz, Aspose.Slides for Java'yı kullanarak PowerPoint slaytlarındaki hizmetin 3D kamera özelliklerini nasıl çıkarabileceğinizi ve yönetebileceğinizi gösterir.
+Unlock the ability to **set field of view** and **manipulate 3D camera** settings within PowerPoint through Java applications. This detailed guide explains how to extract, adjust, and reuse 3D camera properties from shapes in PowerPoint slides using Aspose.Slides for Java.
 
-## Giriiş
-Aspose.Slides for Java ile programlı olarak kontrol edilen 3D görsellerle PowerPoint sunumlarınızı geliştirin. Sunumlarını otomatik hale getiren ya da yeni yetenekleri keşfediyor olun, bu aracın ustalaşıp kritik hale gelmesine sahiptir. Bu öğreticide, **görüş açısı** ve diğer kamera parçalarının 3D performansının nasıl alıp manipüle adım adım adım göstereceğiz.
+## Giriş
+Aspose.Slides for Java kullanarak programatik olarak kontrol edilen 3D görsellerle PowerPoint sunumlarınızı geliştirin. Sunum iyileştirmelerini otomatikleştiriyor ya da yeni yetenekleri keşfediyor olun, bu aracı ustalaşmak çok önemlidir. Bu öğreticide, 3D şekillerden etkili kamera verilerini almanıza, **set field of view** ve manipüle etmenize rehberlik edeceğiz.
 
-**Ne Öğreneceksiniz:**
-- Aspose.Slides for Java'yı geliştirme ortamınıza kurma
-- 3D'nin görüş açısı dahil olmak üzere etkili kamera sistemleri alma ve işleme adımları
-- Performansı optimize etme ve kaynakları verimli yönetme
-
-Gerekli ön koşullardan emin olun!
+**Öğrenecekleriniz**
+- Geliştirme ortamınızda Aspose.Slides for Java'ı kurma  
+- Şekillerden **set field of view** ve 3D kamera verilerini manipüle etme adımları  
+- Performans ipuçları ve kaynak yönetimi en iyi uygulamaları  
 
 ### Hızlı Cevaplar
-- **Aldığımız temel özellik nedir?** 3B kameranın görüş açısı.
-
-- **API'yi hangi kütüphane sağlıyor?** Aspose.Slides for Java.
-
-- **Lisansa ihtiyacım var mı?** Evet, tam işlevsellik için deneme veya satın alınmış bir lisans gereklidir.
-
-- **Hangi Java sürümü destekleniyor?** JDK16 veya sonrası (sınıflandırıcı `jdk16`).
-
-- **Birden fazla slaytı işleyebilir miyim?** Kesinlikle – gerektiği gibi slaytlar ve şekiller arasında döngü yapın.
+- **Hangi birincil özelliği ayarlayabilirim?** 3D kameranın görüş alanı açısı.  
+- **Bu işlevi sağlayan API hangisidir?** Aspose.Slides for Java.  
+- **Lisans gerekiyor mu?** Evet – tam işlevsellik için bir deneme veya satın alınmış lisans gereklidir.  
+- **Hangi Java sürümü destekleniyor?** JDK 16 or later (classifier `jdk16`).  
+- **Birçok slaytı aynı anda işleyebilir miyim?** Absolutely – loop through slides and shapes as needed.  
 
 ### Önkoşullar
-Uygulamaya başlamadan önce sahip olduğunuzdan emin olun:
-- **Kütüphaneler ve Sürümler**: Aspose.Slides for Java sürüm 25.4 veya sonrası.
+Uygulamaya başlamadan önce, şunların olduğundan emin olun:
+- **Kütüphaneler ve Sürümler**: Aspose.Slides for Java version 25.4 or later.  
+- **Ortam Kurulumu**: A JDK installed on your machine and an IDE like IntelliJ IDEA or Eclipse configured.  
+- **Bilgi Gereksinimleri**: Basic Java programming skills and familiarity with Maven or Gradle build tools.  
 
-- **Ortam Kurulumu**: Makinenize kurulu bir JDK ve IntelliJ IDEA veya Eclipse gibi yapılandırılmış bir IDE.
-
-- **Bilgi Gereksinimleri**: Java programlamaya temel düzeyde hakimiyet ve Maven veya Gradle derleme araçlarına aşinalık.
-
-### Java için Aspose.Slides Kurulumu
-Aspose.Slides kütüphanesini projenize Maven, Gradle veya doğrudan indirme yoluyla ekleyin:
+### Aspose.Slides for Java'ı Kurma
+Projeye Aspose.Slides kütüphanesini Maven, Gradle veya doğrudan indirme yoluyla ekleyin:
 
 **Maven Bağımlılığı:**
 
@@ -66,22 +58,23 @@ Aspose.Slides kütüphanesini projenize Maven, Gradle veya doğrudan indirme yol
 ```
 
 **Gradle Bağımlılığı:**
+
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Doğrudan İndirme:**
-En son sürümü [Aspose.Slides for Java sürümlerinden](https://releases.aspose.com/slides/java/) indirin.
+**Doğrudan İndirme:**  
+En son sürümü [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) adresinden indirin.
 
 #### Lisans Edinimi
-Aspose.Slides'ı bir lisans dosyasıyla kullanın. Sınırlama olmadan tüm özellikleri keşfetmek için ücretsiz deneme sürümüyle başlayın veya geçici bir lisans talep edin. Uzun süreli kullanım için [Aspose'un satın alma sayfasından](https://purchase.aspose.com/buy) bir lisans satın almayı düşünün.
+Aspose.Slides'ı bir lisans dosyasıyla kullanın. Sınırlama olmadan tam özellikleri keşfetmek için ücretsiz deneme ile başlayın veya geçici bir lisans isteyin. Uzun vadeli kullanım için [Aspose's purchase page](https://purchase.aspose.com/buy) üzerinden lisans satın almayı düşünün.
 
 ### Uygulama Kılavuzu
-Şimdi ortamınız hazır, PowerPoint'teki 3D'nin kamera verilerini döndürün.
+Ortamınız hazır olduğuna göre, PowerPoint'teki 3D şekillerden kamera verilerini çıkaralım ve manipüle edelim.
 
-#### Adım Adım Kamera Verisi Alma
-**1. Sunumu Yükleyin**
-Hedef slaytınızı ve şeklinizi içeren sunum dosyasını yükleyerek başlayın:
+#### Adım‑Adım Kamera Verisi Alımı
+**1. Sunumu Yükle**  
+Hedef slayt ve şekli içeren sunum dosyasını yükleyerek başlayın:
 
 ```java
 import com.aspose.slides.Presentation;
@@ -89,34 +82,34 @@ import com.aspose.slides.IThreeDFormatEffectiveData;
 
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/Presentation1.pptx");
 ```
-This code initializes a `Presentation` object pointing to your PowerPoint file.
 
-**2. Şeklin Etkin Verilerine Erişim**
-3B format etkin verilerine erişmek için ilk slayta ve ilk şekline gidin:
+**2. Şeklin Etkili Verisine Erişin**  
+İlk slayta ve onun ilk şekline giderek 3‑D formatının etkili verisini alın:
 
 ```java
 IThreeDFormatEffectiveData threeDEffectiveData = pres.getSlides().get_Item(0)
     .getShapes().get_Item(0).getThreeDFormat().getEffective();
 ```
-Bu adım, şekle etkin olarak uygulanan 3B özelliklerini alır.
 
-**3. Kamera Özelliklerini Alma**
-Kamera türünü, **görüş açısını** ve yakınlaştırma ayarlarını çıkarın:
+**3. Kamera Üzerinde **set field of view** Al ve Ayarla**  
+Mevcut kamera ayarlarını çıkarın, ardından gerekirse **set field of view**'u yeni bir değere ayarlayabilirsiniz:
 
 ```java
 String cameraType = threeDEffectiveData.getCamera().getCameraType();
 float fieldOfViewAngle = threeDEffectiveData.getCamera().getFieldOfViewAngle();
 double zoom = threeDEffectiveData.getCamera().getZoom();
 
-// Print values to verify
+// Example: change the field of view angle
+threeDEffectiveData.getCamera().setFieldOfViewAngle(45.0f);
+
 System.out.println("Camera Type: " + cameraType);
-System.out.println("Field of View Angle: " + fieldOfViewAngle);
+System.out.println("Field of View Angle (before): " + fieldOfViewAngle);
+System.out.println("Field of View Angle (after): " + threeDEffectiveData.getCamera().getFieldOfViewAngle());
 System.out.println("Zoom Level: " + zoom);
 ```
-Bu özellikler, uygulanan 3B perspektifi anlamanıza yardımcı olur.
 
-**4. Kaynakları Temizleme**
-İşiniz bittiğinde kaynakları her zaman serbest bırakın:
+**4. Kaynakları Temizle**  
+İşiniz bittiğinde her zaman kaynakları serbest bırakın:
 
 ```java
 finally {
@@ -124,70 +117,60 @@ finally {
 }
 ```
 
-#### Bu 3B Kamera Eğitiminin Önemi
-**Görüş alanı açısını** okumayı ve ayarlamayı anlamak, slayt derinlik algısı üzerinde ince ayarlı kontrol sağlar. Özellikle şunlar için kullanışlıdır:
-- **Otomatik Sunum Ayarlamaları** – Tutarlı görsel derinlik sağlamak için slaytları toplu olarak işleyin.
+#### Neden **set field of view** ve **manipulate 3D camera**?
+**set field of view** ve **manipulate 3D camera**'ı nasıl yapacağınızı anlamak, slayt derinlik algısı üzerinde ince ayarlı kontrol sağlar. Özellikle şu durumlar için faydalıdır:
+- **Otomatik Sunum Ayarlamaları** – batch‑process slides to ensure consistent visual depth.  
+- **Özel Görselleştirmeler** – align camera angles with data‑driven graphics for a more immersive experience.  
+- **Raporlama Araçlarıyla Entegrasyon** – embed dynamic 3D views in generated reports.  
 
-- **Özel Görselleştirmeler** – Daha sürükleyici bir deneyim için kamera açılarını veri odaklı grafiklerle hizalayın.
-
-- **Raporlama Araçlarıyla Entegrasyon** – Oluşturulan raporlara dinamik 3B görünümler ekleyin.
-
-#### Performans Hususları
-Optimum performans sağlamak için:
-- İşiniz bittiğinde `Sunum` nesnelerini atarak belleği verimli bir şekilde yönetin.
-
-- Büyük sunumlar için mümkünse tembel yükleme kullanın.
-
-- Sunum işlemeyle ilgili darboğazları belirlemek için uygulamanızı profillendirin.
+#### Performans Düşünceleri
+Optimal performansı sağlamak için:
+- `Presentation` nesnelerini hızlı bir şekilde serbest bırakın.  
+- Uygun olduğunda büyük sunumlar için tembel yükleme kullanın.  
+- Uygulamanızı profilleyerek sunum işleme ile ilgili darboğazları tespit edin.  
 
 ### Pratik Uygulamalar
-- **Otomatik Sunum Ayarlamaları**: Birden fazla slaytta 3B ayarlarını otomatik olarak ayarlayın.
+- **Otomatik Sunum Ayarlamaları** – automatically adjust 3D settings across multiple slides.  
+- **Özel Görselleştirmeler** – enhance data visualization by manipulating camera angles in dynamic presentations.  
+- **Raporlama Araçlarıyla Entegrasyon** – combine Aspose.Slides with other Java tools to generate interactive reports.  
 
-- **Özel Görselleştirmeler**: Dinamik sunumlarda kamera açılarını değiştirerek veri görselleştirmeyi geliştirin.
-
-- **Raporlama Araçlarıyla Entegrasyon**: Etkileşimli raporlar oluşturmak için Aspose.Slides'ı diğer Java araçlarıyla birleştirin.
-
-### Sık Karşılaşılan Sorunlar ve Çözümler
+### Yaygın Sorunlar ve Çözümler
 | Sorun | Çözüm |
-
 |-------|----------|
-
-| `getThreeDFormat()`'a erişirken `NullPointerException` hatası | Şeklin gerçekten 3B format içerdiğinden emin olun; `shape.getThreeDFormat() != null` kontrolünü yapın. |
-
-| Beklenmeyen kamera değerleri | Şeklin 3B efektlerinin slayt düzeyindeki ayarlarla geçersiz kılınmadığını doğrulayın. |
-
-| Büyük gruplarda bellek sızıntıları | `pres.dispose()`'u bir `finally` bloğunda çağırın ve slaytları daha küçük parçalar halinde işlemeyi düşünün. |
+| `NullPointerException` when accessing `getThreeDFormat()` | Ensure the shape actually contains a 3D format; check `shape.getThreeDFormat() != null`. |
+| Unexpected camera values | Verify that the shape’s 3D effects are not overridden by slide‑level settings. |
+| Memory leaks in large batches | Call `pres.dispose()` in a `finally` block and consider processing slides in smaller chunks. |
 
 ### Sıkça Sorulan Sorular
 
-**S: Aspose.Slides'ı PowerPoint'in eski sürümleriyle kullanabilir miyim?**
-C: Evet, ancak kullandığınız API sürümüyle uyumluluğu sağlayın.
+**Q:** Aspose.Slides'ı daha eski PowerPoint sürümleriyle kullanabilir miyim?  
+**A:** Evet, ancak kullandığınız API sürümüyle uyumluluğu sağlayın.
 
-**S: İşlenebilecek slayt sayısında bir sınır var mı?**
-C: Doğal bir sınır yok; performans sistem kaynaklarına bağlıdır.
+**Q:** İşleyebileceğim slayt sayısında bir sınırlama var mı?  
+**A:** Hayır, sınırlama yok; performans sistem kaynaklarına bağlıdır.
 
-**S: Şekil özelliklerine erişirken istisnaları nasıl ele alabilirim?**
-C: `IndexOutOfBoundsException` gibi istisnaları yönetmek için try-catch blokları kullanın.
+**Q:** Şekil özelliklerine erişirken istisnaları nasıl yönetmeliyim?  
+**A:** `IndexOutOfBoundsException` ve `NullPointerException` gibi istisnaları yakalamak için try‑catch blokları kullanın.
 
-**S: Aspose.Slides 3B şekiller oluşturabilir mi yoksa yalnızca mevcut olanları mı değiştirebilir?**
-C: Sunumlar içinde hem 3B şekiller oluşturabilir hem de değiştirebilirsiniz.
+**Q:** Aspose.Slides yalnızca mevcut 3D şekilleri manipüle edebilir mi, yoksa yeni 3D şekiller oluşturabilir mi?  
+**A:** Hem mevcut 3D şekilleri oluşturabilir hem de değiştirebilirsiniz.
 
-**S: Aspose.Slides'ı üretimde kullanmanın en iyi uygulamaları nelerdir?**
-C: Uygun lisanslamayı sağlayın, kaynak yönetimini optimize edin ve kütüphaneyi güncel tutun.
+**Q:** Aspose.Slides'ı üretimde kullanırken en iyi uygulamalar nelerdir?  
+**A:** Doğru lisanslama, kaynak yönetimini optimize etme ve kütüphaneyi güncel tutma.
 
 ### Kaynaklar
-- **Documentation**: [Aspose.Slides Java Reference](https://reference.aspose.com/slides/java/)  
-- **Download**: [Aspose.Slides for Java Releases](https://releases.aspose.com/slides/java/)  
-- **Purchase License**: [Buy Aspose.Slides](https://purchase.aspose.com/buy)  
-- **Free Trial**: [Aspose Free Trials](https://releases.aspose.com/slides/java/)  
-- **Temporary License**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)  
-- **Support Forum**: [Aspose Support Community](https://forum.aspose.com/c/slides/11)
+- **Dokümantasyon**: [Aspose.Slides Java Reference](https://reference.aspose.com/slides/java/)  
+- **İndirme**: [Aspose.Slides for Java Releases](https://releases.aspose.com/slides/java/)  
+- **Lisans Satın Al**: [Buy Aspose.Slides](https://purchase.aspose.com/buy)  
+- **Ücretsiz Deneme**: [Aspose Free Trials](https://releases.aspose.com/slides/java/)  
+- **Geçici Lisans**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Destek Forumu**: [Aspose Support Community](https://forum.aspose.com/c/slides/11)
 
 ---
 
-**Last Updated:** 2026-01-27  
-**Tested With:** Aspose.Slides 25.4 for Java  
-**Author:** Aspose
+**Son Güncelleme:** 2026-04-02  
+**Test Edilen:** Aspose.Slides 25.4 for Java  
+**Yazar:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
