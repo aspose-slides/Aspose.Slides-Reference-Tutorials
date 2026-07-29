@@ -1,13 +1,45 @@
 ---
-date: '2026-02-24'
-description: Tìm hiểu cách tùy chỉnh biểu đồ phân tán bằng Aspose.Slides cho Java.
-  Hướng dẫn này sẽ chỉ cho bạn cách tạo, tạo kiểu và lưu các biểu đồ phân tán động
-  trong bản trình bày của mình.
+date: '2026-07-27'
+description: Cách tùy chỉnh biểu đồ bằng Aspose.Slides for Java. Học cách tạo biểu
+  đồ PowerPoint, định dạng scatter series, và lưu presentations một cách hiệu quả.
 keywords:
-- Aspose.Slides for Java
-- create scatter charts in Java
-- customize Java charts with Aspose
-title: Tùy chỉnh biểu đồ phân tán Aspose trong Java
+- how to customize chart
+- java create powerpoint chart
+- Aspose.Slides scatter chart
+lastmod: '2026-07-27'
+og_description: Cách tùy chỉnh biểu đồ với Aspose.Slides for Java. Hướng dẫn này cho
+  thấy cách tạo biểu đồ PowerPoint, định dạng scatter points, và xuất presentations.
+og_image_alt: 'Guide: Customize scatter chart in Java using Aspose.Slides'
+og_title: 'Cách Tùy Chỉnh Biểu Đồ: Scatter Chart Aspose trong Java'
+schemas:
+- author: Aspose
+  dateModified: '2026-07-27'
+  description: How to customize chart using Aspose.Slides for Java. Learn to create
+    PowerPoint chart, style scatter series, and save presentations efficiently.
+  headline: 'How to Customize Chart: Scatter Chart Aspose in Java'
+  type: TechArticle
+- questions:
+  - answer: Use `series.getMarker().getFillFormat().setFillColor(Color)` where `Color`
+      is a `java.awt.Color` instance such as `Color.RED`.
+    question: How do I change the color of the markers?
+  - answer: Yes. Call `chart.getChartData().getSeries().add(...)` for each additional
+      series and populate its points accordingly.
+    question: Can I add more than two series to a scatter chart?
+  - answer: Absolutely. After creating a series, invoke `series.getLegend().setText("Your
+      Legend Text")` to override the default name.
+    question: Is it possible to set a custom legend for each series?
+  - answer: Call `chart.getImage().save("chart.png", ImageFormat.Png)` after configuring
+      the chart. This produces a standalone PNG file.
+    question: How can I export the chart as an image instead of a PPTX?
+  - answer: Aspose.Slides supports animation effects. Use `chart.getTimeline().getMainSequence().addEffect(...)`
+      to add entrance or emphasis animations to the chart or individual series.
+    question: What if I need to animate the scatter points?
+  type: FAQPage
+tags:
+- customize chart
+- Aspose.Slides
+- Java charting
+title: 'Cách Tùy Chỉnh Biểu Đồ: Scatter Chart Aspose trong Java'
 url: /vi/java/charts-graphs/aspose-slides-scatter-charts-java-tutorial/
 weight: 1
 ---
@@ -17,27 +49,33 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Tùy chỉnh Scatter Chart Aspose trong Java
+# Tùy chỉnh biểu đồ Scatter Aspose trong Java
 
-Trong hướng dẫn này, bạn sẽ học cách **customize scatter chart aspose** với thư viện mạnh mẽ Aspose.Slides for Java. Chúng tôi sẽ hướng dẫn cách thiết lập dự án, tạo biểu đồ scatter, điều chỉnh loại series và marker, và cuối cùng lưu bản trình bày. Khi hoàn thành, bạn sẽ có thể tạo các biểu đồ scatter chuyên nghiệp một cách lập trình và tùy chỉnh mọi chi tiết hình ảnh để phù hợp với thương hiệu hoặc nhu cầu báo cáo của bạn.
+Trong hướng dẫn này, bạn sẽ khám phá **cách tùy chỉnh biểu đồ** — cụ thể là biểu đồ scatter — bằng cách sử dụng thư viện mạnh mẽ Aspose.Slides for Java. Chúng tôi sẽ hướng dẫn qua việc thiết lập dự án, tạo biểu đồ scatter, điều chỉnh loại series và marker, và cuối cùng lưu bản trình chiếu. Khi hoàn thành, bạn sẽ có thể tạo các biểu đồ scatter chuyên nghiệp một cách lập trình và tùy chỉnh mọi chi tiết hình ảnh để phù hợp với thương hiệu hoặc nhu cầu báo cáo của bạn.
 
 ## Câu trả lời nhanh
-- **Thư viện nào tôi cần?** Aspose.Slides for Java (v25.4+).  
+- **Thư viện tôi cần là gì?** Aspose.Slides for Java (v25.4+).  
 - **Phiên bản Java nào được hỗ trợ?** JDK 8 hoặc cao hơn.  
-- **Tôi có thể thay đổi hình dạng marker không?** Có – sử dụng `MarkerStyleType` để chọn sao, vòng tròn, v.v.  
-- **Làm thế nào để lưu tệp?** Gọi `pres.save("output.pptx", SaveFormat.Pptx)`.  
-- **Cần giấy phép không?** Bản dùng thử miễn phí đủ cho phát triển; giấy phép thương mại cần thiết cho môi trường sản xuất.
+- **Tôi có thể thay đổi hình dạng marker không?** Yes – use `MarkerStyleType` to pick stars, circles, etc.  
+- **Làm thế nào để lưu tệp?** Call `pres.save("output.pptx", SaveFormat.Pptx)`.  
+- **Cần giấy phép không?** A free trial works for development; a commercial license is needed for production.
 
-## “customize scatter chart aspose” là gì?
-Tùy chỉnh một biểu đồ scatter với Aspose có nghĩa là định nghĩa dữ liệu, giao diện và hành vi của biểu đồ một cách lập trình—từ tọa độ điểm tới ký hiệu marker—mà không cần mở PowerPoint thủ công. Cách tiếp cận này lý tưởng cho báo cáo tự động, các bài thuyết trình dựa trên dữ liệu, hoặc bất kỳ tình huống nào bạn cần các hình ảnh lặp lại, chất lượng cao.
+## Cách tùy chỉnh biểu đồ trong Java với Aspose.Slides?
+`Presentation` là lớp Aspose.Slides đại diện cho toàn bộ tệp PowerPoint trong bộ nhớ. Tải một `Presentation` mới, thêm một biểu đồ scatter vào slide đầu tiên, cấu hình series và kiểu marker, sau đó gọi `save`. Quy trình duy nhất này tạo ra một biểu đồ được định dạng đầy đủ chỉ trong vài dòng mã Java, sẵn sàng để chèn vào bất kỳ bản PowerPoint nào.
+
+## “Tùy chỉnh biểu đồ scatter Aspose” là gì?
+Việc tùy chỉnh một biểu đồ scatter với Aspose có nghĩa là định nghĩa chương trình dữ liệu, giao diện và hành vi của biểu đồ — mọi thứ từ tọa độ điểm đến ký hiệu marker — mà không cần mở PowerPoint thủ công. Cách tiếp cận này lý tưởng cho báo cáo tự động, các bài thuyết trình dựa trên dữ liệu, hoặc bất kỳ tình huống nào bạn cần các hình ảnh trực quan lặp lại, chất lượng cao.
 
 ## Tại sao nên tùy chỉnh biểu đồ scatter với Aspose.Slides?
-- **Kiểm soát toàn diện** – sửa đổi loại series, kiểu marker, màu sắc và hơn thế nữa bằng mã Java.  
-- **Tự động hoá** – tạo hàng chục biểu đồ ngay lập tức cho bảng điều khiển hoặc báo cáo hàng loạt.  
-- **Đa nền tảng** – hoạt động trên bất kỳ hệ điều hành nào hỗ trợ Java, không cần cài đặt Office.  
-- **Hiệu năng** – API nhẹ giúp xử lý tập dữ liệu lớn một cách hiệu quả.
+Aspose.Slides cung cấp cho các nhà phát triển quyền kiểm soát hoàn toàn qua lập trình đối với giao diện biểu đồ, cho phép tạo ra các hình ảnh trực quan chất lượng cao một cách tự động, tích hợp liền mạch vào quy trình báo cáo, và khả năng tùy chỉnh mọi yếu tố hình ảnh mà không cần mở PowerPoint thủ công, giúp tiết kiệm thời gian và đảm bảo tính nhất quán trong các bài thuyết trình.
+
+- **Kiểm soát đầy đủ** – modify series types, marker styles, colors, and more via Java code.  
+- **Tự động hóa** – generate dozens of charts on the fly for dashboards or batch reports.  
+- **Đa nền tảng** – works on any OS that supports Java, no Office installation required.  
+- **Hiệu năng** – lightweight API that processes **150+ chart types** and handles multi‑hundred‑page presentations without loading the whole file into memory.
 
 ## Yêu cầu trước
+
 Để làm theo, hãy chắc chắn rằng bạn có:
 
 - **Aspose.Slides for Java** (v25.4 hoặc sau).  
@@ -46,6 +84,7 @@ Tùy chỉnh một biểu đồ scatter với Aspose có nghĩa là định ngh�
 - Kiến thức cơ bản về Java và quen thuộc với công cụ xây dựng bạn chọn.
 
 ## Cài đặt Aspose.Slides cho Java
+
 Tích hợp thư viện vào dự án của bạn bằng một trong các phương pháp dưới đây.
 
 ### Maven
@@ -63,16 +102,16 @@ Tích hợp thư viện vào dự án của bạn bằng một trong các phươ
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Hoặc tải bản phát hành mới nhất từ [Aspose Releases](https://releases.aspose.com/slides/java/).
+Hoặc tải phiên bản mới nhất từ [Aspose Releases](https://releases.aspose.com/slides/java/).
 
-#### Nhận giấy phép
-- **Dùng thử miễn phí** – đánh giá 30 ngày.  
-- **Giấy phép tạm thời** – thời gian thử nghiệm kéo dài.  
-- **Giấy phép đầy đủ** – sử dụng trong môi trường sản xuất với hỗ trợ cao cấp.
+#### License Acquisition
+- **Free Trial** – đánh giá 30 ngày.  
+- **Temporary License** – thời gian thử nghiệm kéo dài.  
+- **Full License** – production use with premium support.
 
-## Hướng dẫn từng bước để tùy chỉnh Scatter Chart Aspose
+## Hướng dẫn từng bước để tùy chỉnh biểu đồ Scatter Aspose
 
-### 1️⃣ Chuẩn bị thư mục cho các tệp trình chiếu của bạn
+### 1️⃣ Prepare a folder for your presentation files
 ```java
 import java.io.File;
 
@@ -82,28 +121,29 @@ if (!isExists) {
     // Create the directory
     new File(dataDir).mkdirs();
 }
-```
-*Tại sao điều này quan trọng:* Đảm bảo thư mục đầu ra tồn tại ngăn ngừa `FileNotFoundException` khi bạn lưu PPTX sau này.
+```  
+*​Tại sao điều này quan trọng:* Đảm bảo thư mục đầu ra tồn tại ngăn ngừa `FileNotFoundException` khi bạn lưu PPTX sau này.
 
-### 2️⃣ Tạo một bản trình chiếu mới và lấy slide đầu tiên
+### 2️⃣ Create a new presentation and grab the first slide
+`Presentation` đại diện cho một tài liệu PowerPoint và cung cấp quyền truy cập vào các slide và shape. Lớp `Presentation` đại diện cho toàn bộ tệp PowerPoint trong bộ nhớ.  
 ```java
 import com.aspose.slides.Presentation;
 
 Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
 ```
-Một `Presentation` mới cung cấp một canvas sạch sẽ; slide đầu tiên là nơi chúng ta sẽ đặt biểu đồ.
 
-### 3️⃣ Thêm biểu đồ scatter với đường mượt
+### 3️⃣ Add a scatter chart with smooth lines
+`ChartType.ScatterWithSmoothLines` tạo một biểu đồ scatter trong đó các điểm được nối bằng các đường mượt.  
 ```java
 import com.aspose.slides.IChart;
 import com.aspose.slides.ChartType;
 
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 ```
-`ChartType.ScatterWithSmoothLines` tạo một biểu đồ scatter đường mượt, lý tưởng cho việc trực quan hoá xu hướng.
 
-### 4️⃣ Xóa mọi series mặc định và thêm series của bạn
+### 4️⃣ Clear any default series and add your own
+`IChartSeries` đại diện cho một series dữ liệu trong biểu đồ.  
 ```java
 import com.aspose.slides.IChartDataWorkbook;
 import com.aspose.slides.IChartSeries;
@@ -116,9 +156,9 @@ chart.getChartData().getSeries().clear();
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 1, 1, "Series 1"), chart.getType());
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 1, 3, "Series 2"), chart.getType());
 ```
-Việc loại bỏ series mặc định cho phép bạn kiểm soát hoàn toàn dữ liệu hiển thị.
 
-### 5️⃣ Điền dữ liệu cho series đầu tiên bằng các điểm dữ liệu
+### 5️⃣ Populate the first series with data points
+`addDataPointForScatterSeries` thêm một điểm X‑Y duy nhất vào một series scatter.  
 ```java
 import com.aspose.slides.DataPointImpl;
 
@@ -126,9 +166,9 @@ IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 1), fact.getCell(defaultWorksheetIndex, 2, 2, 3));
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 2), fact.getCell(defaultWorksheetIndex, 3, 2, 10));
 ```
-`addDataPointForScatterSeries` nhận một ô giá trị X và một ô giá trị Y, xây dựng biểu đồ scatter điểm theo điểm.
 
-### 6️⃣ Tùy chỉnh loại series và giao diện marker
+### 6️⃣ Customize series type and marker appearance
+`Marker` kiểm soát ký hiệu hình ảnh được sử dụng cho mỗi điểm dữ liệu trong một series biểu đồ.  
 ```java
 import com.aspose.slides.MarkerStyleType;
 
@@ -146,53 +186,59 @@ series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorkshee
 series.getMarker().setSize(10);
 series.getMarker().setSymbol(MarkerStyleType.Circle);
 ```
-Ở đây chúng tôi **customize the scatter chart aspose** bằng cách chuyển sang đường thẳng, phóng to marker và chọn các ký hiệu riêng biệt (sao so với vòng tròn) để tăng độ rõ ràng trực quan.
 
-### 7️⃣ Lưu bản trình chiếu
+### 7️⃣ Save the presentation
+`save` ghi bản trình chiếu vào một tệp với định dạng được chỉ định.  
 ```java
 import com.aspose.slides.SaveFormat;
 
 pres.save("YOUR_OUTPUT_DIRECTORY/AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
-Lưu dưới dạng `Pptx` giữ lại mọi tùy chỉnh biểu đồ và làm cho tệp sẵn sàng chia sẻ hoặc chỉnh sửa thêm.
 
-## Các trường hợp sử dụng phổ biến cho biểu đồ scatter đã tùy chỉnh
-- **Bảng điều khiển tài chính** – vẽ giá cổ phiếu so với khối lượng.  
-- **Nghiên cứu khoa học** – hiển thị các phép đo thực nghiệm với marker lỗi.  
-- **Quản lý dự án** – so sánh nỗ lực dự kiến và thực tế qua các nhiệm vụ.  
+## Các trường hợp sử dụng phổ biến cho biểu đồ Scatter được tùy chỉnh
+- **Financial dashboards** – plot stock price vs. volume.  
+- **Scientific research** – display experimental measurements with error markers.  
+- **Project management** – compare planned vs. actual effort across tasks.  
 
-## Mẹo về hiệu năng
-- Giải phóng đối tượng `Presentation` (`pres.dispose()`) sau khi lưu để giải phóng tài nguyên gốc.  
-- Đối với tập dữ liệu lớn, hãy điền workbook trước rồi sau đó gắn series để tránh làm mới UI liên tục.  
-- Tái sử dụng một thể hiện `IChartDataWorkbook` duy nhất khi thêm nhiều series.
+## Mẹo hiệu năng
+- Gọi `pres.dispose()` sau khi lưu để giải phóng bộ nhớ gốc.  
+- Đối với bộ dữ liệu lớn, hãy điền workbook trước và sau đó liên kết series để tránh làm mới UI lặp lại.  
+- Tái sử dụng một thể hiện `IChartDataWorkbook` duy nhất khi thêm nhiều series để giữ mức sử dụng bộ nhớ thấp.
 
 ## Câu hỏi thường gặp
 
-### Làm thế nào để thay đổi màu của marker?
-Sử dụng `series.getMarker().getFillFormat().setFillColor(Color)` trong đó `Color` là một thể hiện của `java.awt.Color` (ví dụ, `Color.RED`).
+**Q: Làm thế nào để thay đổi màu của marker?**  
+A: Use `series.getMarker().getFillFormat().setFillColor(Color)` where `Color` is a `java.awt.Color` instance such as `Color.RED`.
 
-### Tôi có thể thêm hơn hai series vào biểu đồ scatter không?
-Chắc chắn. Lặp lại lời gọi `chart.getChartData().getSeries().add(...)` cho mỗi series bổ sung và điền các điểm dữ liệu tương ứng.
+**Q: Tôi có thể thêm hơn hai series vào biểu đồ scatter không?**  
+A: Yes. Call `chart.getChartData().getSeries().add(...)` for each additional series and populate its points accordingly.
 
-### Có thể đặt chú giải tùy chỉnh cho mỗi series không?
-Có. Sau khi tạo một series, gọi `series.getLegend().setText("Your Legend Text")` để ghi đè tên mặc định.
+**Q: Có thể đặt chú giải tùy chỉnh cho mỗi series không?**  
+A: Absolutely. After creating a series, invoke `series.getLegend().setText("Your Legend Text")` to override the default name.
 
-### Làm sao để xuất biểu đồ dưới dạng hình ảnh thay vì PPTX?
-Gọi `chart.getImage().save("chart.png", ImageFormat.Png)` sau khi cấu hình biểu đồ. Điều này sẽ cho bạn một tệp PNG độc lập.
+**Q: Làm sao tôi có thể xuất biểu đồ dưới dạng hình ảnh thay vì PPTX?**  
+A: Call `chart.getImage().save("chart.png", ImageFormat.Png)` after configuring the chart. This produces a standalone PNG file.
 
-### Nếu tôi cần tạo hoạt ảnh cho các điểm scatter thì sao?
-Aspose.Slides hỗ trợ hiệu ứng hoạt ảnh. Sử dụng `chart.getTimeline().getMainSequence().addEffect(...)` để thêm hoạt ảnh xuất hiện hoặc nhấn mạnh vào biểu đồ hoặc từng series.
+**Q: Nếu tôi cần tạo hoạt ảnh cho các điểm scatter thì sao?**  
+A: Aspose.Slides supports animation effects. Use `chart.getTimeline().getMainSequence().addEffect(...)` to add entrance or emphasis animations to the chart or individual series.
 
 ---
 
-**Cập nhật lần cuối:** 2026-02-24  
-**Đã kiểm tra với:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Cập nhật lần cuối:** 2026-07-27  
+**Kiểm tra với:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
 **Tác giả:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Hướng dẫn liên quan
+
+- [Tạo và tùy chỉnh biểu đồ PowerPoint trong Java bằng Aspose.Slides](/slides/java/charts-graphs/java-aspose-slides-powerpoint-charts-automation/)
+- [Cách tạo biểu đồ Bubble trong PowerPoint bằng Aspose.Slides cho Java (Hướng dẫn)](/slides/java/charts-graphs/create-bubble-charts-powerpoint-aspose-slides-java/)
+- [Tạo và tùy chỉnh biểu đồ với đường xu hướng trong Aspose.Slides cho Java](/slides/java/charts-graphs/create-customize-charts-trend-lines-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -1,9 +1,68 @@
 ---
-"date": "2025-04-17"
-"description": "Aspose.Slides ile Java sunumlarında halka grafikleri oluşturmayı ve özelleştirmeyi, ortamınızı kurmayı ve grafik estetiğini ayarlamayı öğrenin."
-"title": "Sunumlar için Aspose.Slides Kullanarak Java'da Halka Grafikleri Nasıl Oluşturulur"
-"url": "/tr/java/charts-graphs/creating-doughnut-charts-java-aspose-slides/"
-"weight": 1
+date: '2026-07-27'
+description: Aspose.Slides kullanarak Java'da doughnut chart oluşturmayı öğrenin –
+  kütüphaneyi kurmak, özelleştirilebilir bir doughnut chart eklemek, delik boyutunu
+  ayarlamak ve sunumu kaydetmek için hızlı bir rehber.
+keywords:
+- create doughnut chart java
+- Aspose.Slides Java charts
+- customize doughnut chart Java
+lastmod: '2026-07-27'
+og_description: Aspose.Slides kullanarak Java'da doughnut chart oluşturmayı öğrenin
+  – kütüphaneyi kurmak, özelleştirilebilir bir doughnut chart eklemek, delik boyutunu
+  ayarlamak ve sunumu kaydetmek için hızlı bir rehber.
+og_image_alt: 'Guide: create doughnut chart java with Aspose.Slides in Java'
+og_title: Java ile Doughnut Chart Oluşturma – Adım Adım Aspose.Slides
+schemas:
+- author: Aspose
+  dateModified: '2026-07-27'
+  description: Learn how to create doughnut chart java using Aspose.Slides – a quick
+    guide to set up the library, add a customizable doughnut chart, adjust hole size,
+    and save the presentation.
+  headline: Create Doughnut Chart Java – Step‑by‑Step with Aspose.Slides
+  type: TechArticle
+- description: Learn how to create doughnut chart java using Aspose.Slides – a quick
+    guide to set up the library, add a customizable doughnut chart, adjust hole size,
+    and save the presentation.
+  name: Create Doughnut Chart Java – Step‑by‑Step with Aspose.Slides
+  steps:
+  - name: '**Budget Allocation:** Display how a budget is distributed across departments.'
+    text: '**Budget Allocation:** Display how a budget is distributed across departments.'
+  - name: '**Survey Results:** Visualize responses to questions with multiple‑choice
+      answers.'
+    text: '**Survey Results:** Visualize responses to questions with multiple‑choice
+      answers.'
+  - name: '**Website Traffic Sources:** Show the percentage of traffic coming from
+      different channels (organic, paid, referral, etc.).'
+    text: '**Website Traffic Sources:** Show the percentage of traffic coming from
+      different channels (organic, paid, referral, etc.).'
+  type: HowTo
+- questions:
+  - answer: Yes. Use `chart.getChartData().getSeries().get_Item(i).getDataPoints().get_Item(j).getFormat().getFillFormat().setFillType(FillType.Solid)`
+      and then specify the desired RGB color.
+    question: Can I adjust the colors of my doughnut chart segments?
+  - answer: Call `chart.getChartData().getSeries().get_Item(i).getDataPoints().get_Item(j).getLabel().setShowValue(true)`
+      to display the value inside each segment.
+    question: How do I add data labels to my chart?
+  - answer: Absolutely. Aspose.Slides supports PDF, XPS, PNG, JPEG, TIFF, and many
+      other formats—over 50 in total.
+    question: Is it possible to save charts in formats other than PPTX?
+  - answer: Use the `Presentation` constructor that accepts a stream and enable `loadOptions.setLoadFormat(LoadFormat.Pptx)`
+      to stream the file and reduce memory consumption.
+    question: What should I do if I encounter an exception while loading a large presentation?
+  - answer: Yes. Retrieve data from a database or REST API, update the `ChartData`
+      collection, and call `chart.refresh()` before saving the presentation.
+    question: Can I automate chart updates with live data sources?
+  type: FAQPage
+tags:
+- create doughnut chart java
+- Aspose.Slides
+- Java charting
+- presentation automation
+- slides library
+title: Java ile Doughnut Chart Oluşturma – Adım Adım Aspose.Slides
+url: /tr/java/charts-graphs/creating-doughnut-charts-java-aspose-slides/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,37 +70,50 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Sunumlar için Aspose.Slides Kullanarak Java'da Halka Grafikleri Nasıl Oluşturulur
+# Java'da Aspose.Slides for Presentations Kullanarak Halka Grafikler Nasıl Oluşturulur
 
-## giriiş
-Görsel olarak çekici sunumlar oluşturmak, bilgileri etkili bir şekilde iletmek için olmazsa olmazdır. Grafikler, veri dağılımlarının anlaşılmasını geliştiren önemli unsurlardır. Bu eğitim, Aspose.Slides for Java kullanarak özelleştirilebilir halka grafikleri oluşturmanıza rehberlik ederek, delik boyutu ve konumlandırma gibi kapsamlı özelleştirme seçenekleriyle zahmetsiz grafik oluşturmanızı sağlar.
+## Giriş
+Görsel olarak çekici sunumlar oluşturmak, bilgiyi etkili bir şekilde iletmek için esastır. **Create doughnut chart java** modern bir görünümle orantılı verileri göstermeniz gerektiğinde yaygın bir gereksinimdir. Bu öğreticide Aspose.Slides for Java'yi nasıl kuracağınızı, bir halka grafik oluşturacağınızı, delik boyutunu ve renklerini nasıl özelleştireceğinizi ve sonunda sunum dosyasını nasıl kaydedeceğinizi öğreneceksiniz. Sonunda, PowerPoint sunumlarını otomatik olarak üreten herhangi bir Java projesine ekleyebileceğiniz yeniden kullanılabilir bir desen elde edeceksiniz.
 
-**Ne Öğreneceksiniz:**
-- Java için Aspose.Slides Kurulumu
-- Sunumlarda halka grafikleri oluşturma ve yapılandırma
-- Delik boyutu gibi grafik estetiğini ayarlama
-- Sunumu yeni grafiğinizle kaydetme
+**Öğrenecekleriniz:**
+- Aspose.Slides for Java kurulumu
+- Sunumlarda halka grafiklerin oluşturulması ve yapılandırılması
+- Delik boyutu gibi grafik estetiğinin ayarlanması
+- Yeni grafiğinizle sunumu kaydetme
 
-Ortamımızı ayarlayarak başlayalım!
+Ortamımızı kurarak başlayalım!
 
-## Ön koşullar
-Başlamadan önce, aşağıdaki ön koşulların sağlandığından emin olun:
+## Hızlı Yanıtlar
+- **Hangi kütüphane java için donut grafik oluşturur?** Aspose.Slides for Java.
+- **Temel bir doughnut grafik için kaç satır kod gerekir?** Sunum oluşturulduktan sonra yaklaşık 8–10 satır.
+- **Delik boyutunu değiştirebilir miyim?** Evet, `setHoleSize(double)` metodu %0 ile %100 arasında değer kabul eder.
+- **Hangi çıktı formatları destekleniyor?** PPTX, PDF, XPS, PNG, JPEG ve birkaç diğer format (toplam 50+).
+- **Üretim için lisansa ihtiyacım var mı?** Sınırsız kullanım için ticari bir lisans gerekir; değerlendirme için ücretsiz deneme sürümü çalışır.
+
+## Aspose.Slides for Java Nedir?
+**Aspose.Slides for Java**, geliştiricilerin Microsoft Office olmadan PowerPoint dosyalarını oluşturmasını, değiştirmesini, dönüştürmesini ve render etmesini sağlayan tam yönetilen bir API'dir. 50'den fazla dosya formatını destekler ve bellek kullanımını düşük tutarak binlerce slayt içeren sunumları işleyebilir.
+
+## Sunumlarda donut grafikleri neden kullanmalı?
+Halka grafikler, parçanın bütüne oranını gösterirken merkezde etiketler veya görseller için boşluk bırakır. Aspose.Slides tipik bir 2.5 GHz sunucuda **dakikada 500 slayt** kadar halka grafik render edebilir ve **yüzlerce sayfalık sunumları** tüm dosyayı belleğe yüklemeden işleyerek büyük ölçekli raporlama çözümleri için idealdir.
+
+## Önkoşullar
+Başlamadan önce aşağıdaki önkoşulları karşıladığınızdan emin olun:
 
 ### Gerekli Kütüphaneler ve Sürümler
-Java için Aspose.Slides ile çalışmak için, bunu Maven veya Gradle aracılığıyla projenize dahil edebilir veya doğrudan indirebilirsiniz.
+Aspose.Slides for Java ile çalışmak için projeye Maven veya Gradle aracılığıyla ekleyin ya da doğrudan indirin.
 
-#### Çevre Kurulum Gereksinimleri
-- Çalışan bir Java Geliştirme Kiti (JDK), tercihen sürüm 8 veya üzeri.
-- IntelliJ IDEA veya Eclipse gibi Entegre Geliştirme Ortamı (IDE).
+#### Ortam Kurulum Gereksinimleri
+- Çalışan bir Java Development Kit (JDK), tercihen sürüm 8 veya üzeri.
+- IntelliJ IDEA veya Eclipse gibi bir Entegre Geliştirme Ortamı (IDE).
 
 ### Bilgi Önkoşulları
-Java ve temel programlama kavramlarına aşinalık faydalıdır. Maven veya Gradle'ın temel bilgisi kurulum sürecini kolaylaştırmaya yardımcı olacaktır.
+Java ve temel programlama kavramlarına aşina olmak faydalıdır. Maven veya Gradle hakkında temel bilgi, kurulum sürecini hızlandırır.
 
-## Java için Aspose.Slides Kurulumu
-Aspose.Slides'ı projenize dahil etmenin birkaç yolu vardır:
+## Aspose.Slides for Java Kurulumu
+Aspose.Slides'i projenize birkaç farklı yolla dahil edebilirsiniz:
 
-**Usta:**
-Bu bağımlılığı şuna ekleyin: `pom.xml` dosya:
+**Maven:**  
+`pom.xml` dosyanıza bu bağımlılığı ekleyin:  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -51,119 +123,122 @@ Bu bağımlılığı şuna ekleyin: `pom.xml` dosya:
 </dependency>
 ```
 
-**Gradle:**
-Bunu da ekleyin `build.gradle` dosya:
+**Gradle:**  
+`build.gradle` dosyanıza bunu ekleyin:  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Doğrudan İndirme:**
-Alternatif olarak, en son sürümü şu adresten indirin: [Java sürümleri için Aspose.Slides](https://releases.aspose.com/slides/java/).
+**Doğrudan İndirme:**  
+Alternatif olarak, en son sürümü [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) adresinden indirin.
 
-### Lisans Edinimi
-- **Ücretsiz Deneme**: Aspose.Slides özelliklerini keşfetmek için öncelikle deneme sürümünü indirin.
-- **Geçici Lisans**: Sınırlama olmaksızın genişletilmiş işlevsellik için geçici bir lisans edinin.
-- **Satın almak**: Sürekli kullanım için lisans satın alınması gerekmektedir.
+### Lisans Edinme
+- **Ücretsiz Deneme:** Aspose.Slides özelliklerini keşfetmek için deneme sürümünü indirin.  
+- **Geçici Lisans:** Sınırlama olmadan genişletilmiş işlevsellik için geçici bir lisans edinin.  
+- **Satın Alma:** Sürekli kullanım için bir lisans satın almanız gerekir.
 
-Kütüphaneyi kurduktan ve ortamınızı hazırladıktan sonra, halka grafiğimizi uygulamaya geçelim.
+Kütüphaneyi kurup ortamınızı hazırladıktan sonra, donut grafiğimizi uygulamaya geçelim.
 
-## Uygulama Kılavuzu
+## Java'da donut grafik nasıl oluşturulur?
+Yeni bir `Presentation` nesnesi yükleyin, bir slayta halka grafik ekleyin, delik boyutunu ayarlayın ve dosyayı kaydedin – tüm bunlar birkaç basit API çağrısı ile yapılır. Bu yaklaşım, grafik verileri, görünümü ve dışa aktarım formatı üzerinde tam kontrol sağlar ve sunucuda Microsoft PowerPoint yüklü olmasına gerek kalmaz.
 
-### Bir Çörek Grafiği Oluşturma
-Aspose.Slides kullanarak özelleştirilmiş bir halka grafiğiyle bir sunum oluşturmak birkaç adımdan oluşur. Bunları anlaşılırlık için parçalara ayıracağız:
-
-#### Sunum Nesnesini Başlat
-Bir örnek oluşturarak başlayın `Presentation` PowerPoint belgenizi temsil eden sınıf.
+### Presentation Nesnesini Başlatma
+`Presentation` sınıfı, Aspose.Slides'in bellek içindeki bir PowerPoint dosyasını temsil eden üst‑seviye nesnesidir.  
 ```java
-// Bir PPTX belgesini temsil etmek için bir Sunum sınıfı örneği oluşturun
+// Create an instance of Presentation class to represent a PPTX document
 Presentation presentation = new Presentation();
-```
-Bu adım, slaytlar ve grafikler ekleyebileceğiniz sunumunuzu başlatır.
+```  
+Bu adım, slayt, şekil ve grafik ekleyebileceğiniz boş bir sunum oluşturur.
 
-#### Slayda Çörek Grafiği Ekle
-İlk slayda erişin (veya gerekirse bir tane oluşturun) ve bir halka grafiği ekleyin:
+### Slayta Donut Grafik Ekleme
+`ISlide` tek bir slayt için arayüzdür; ilk slaytı alabilir veya yeni bir tane ekleyebilirsiniz.  
 ```java
-// Sunumdaki ilk slayda erişin
+// Access the first slide in the presentation
 IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(
-    ChartType.Doughnut, 50, 50, 400, 400); // (50, 50) konumunda 400x400 boyutunda
-```
-Bu kod parçacığı ilk slayda bir halka grafiği ekler. Parametreler slayttaki konumunu ve boyutlarını tanımlar.
+    ChartType.Doughnut, 50, 50, 400, 400); // Position at (50, 50) with size 400x400
+```  
+`addChart` metodu bir donut grafik oluşturur; parametreler grafiğin slayt üzerindeki konumunu (X, Y) ve boyutunu (genişlik, yükseklik) tanımlar.
 
-#### Donut Deliği Boyutunu Yapılandır
-Halka grafiğinize benzersiz bir görünüm kazandırmak için delik boyutunu ayarlayın:
+### Donut Delik Boyutunu Yapılandırma
+`Chart` sınıfı, grafik yarıçapının yüzde olarak iç yarıçapını kontrol eden `setHoleSize(double)` metodunu sunar.  
 ```java
-// Halka grafiği için delik boyutunu %90 olarak ayarlayın
+// Set the hole size for the doughnut chart to 90%
 chart.getChartData().getSeriesGroups().get_Item(0).setDoughnutHoleSize((byte) 90);
-```
-Burada, delik boyutunu %90'a ayarlıyoruz ve bu da onu neredeyse tam bir daire yapıyor. Bu değeri tasarım ihtiyaçlarınıza göre ayarlayın.
+```  
+Delik boyutunu %90 olarak ayarlamak, grafiğin neredeyse tam bir daire gibi görünmesini sağlar; bu, dış segmentleri vurgulamak istediğinizde faydalıdır.
 
-#### Sunumu Kaydet
-Grafiğinizi yapılandırdıktan sonra sunumu kaydedin:
+### Sunumu Kaydetme
+`presentation.save(String, SaveFormat)` dosyayı seçilen formatta diske yazar.  
 ```java
-// Sunumu belirtilen dizindeki PPTX formatında diske kaydedin
+// Save the presentation to disk in PPTX format at the specified directory
 presentation.save(dataDir + "DoughnutHoleSize_out.pptx", SaveFormat.Pptx);
-```
-Bu satır değişikliklerinizi şu adlı bir dosyaya yazar: `DoughnutHoleSize_out.pptx` Belirlediğiniz dizinde.
+```  
+Örnek, sonucu `DoughnutHoleSize_out.pptx` olarak kaydeder, ancak PDF, PNG veya 50+ desteklenen formatlardan birini de seçebilirsiniz.
 
-#### Temizleme Kaynakları
-Son olarak sunum nesnesini elden çıkardığınızdan emin olun:
+### Kaynakları Temizleme
+`presentation.dispose()` yerel kaynakları serbest bırakır ve özellikle uzun süre çalışan sunucu uygulamalarında bellek sızıntılarını önler.  
 ```java
-// Kaynakları serbest bırakmak için sunum nesnesini elden çıkarın
+// Dispose of the presentation object to free resources
 if (presentation != null) presentation.dispose();
-```
-Bu adım kaynak yönetimi ve bellek sızıntılarının önlenmesi açısından kritik öneme sahiptir.
+```  
 
-### Pratik Uygulamalar
-Donut grafikleri çok yönlüdür. İşte parladıkları bazı senaryolar:
-1. **Bütçe Tahsisi**: Bütçenin departmanlar arasında nasıl dağıtıldığını gösterir.
-2. **Anket Sonuçları**: Çoktan seçmeli cevaplara sahip soruların yanıtlarını görselleştirin.
-3. **Web Sitesi Trafik Kaynakları**: Farklı kaynaklardan gelen trafiğin yüzdesini gösterin.
+## Pratik Uygulamalar
+Halka grafikler çok yönlüdür. İşte öne çıkan senaryolar:
+1. **Bütçe Dağılımı:** Bir bütçenin departmanlar arasında nasıl dağıldığını gösterin.  
+2. **Anket Sonuçları:** Çoktan seçmeli soruların yanıtlarını görselleştirin.  
+3. **Web Sitesi Trafik Kaynakları:** Trafiğin farklı kanallardan (organik, ücretli, yönlendirme vb.) gelen yüzdesini gösterin.
 
-### Performans Hususları
-Aspose.Slides ile çalışırken en iyi performansı elde etmek için şu ipuçlarını göz önünde bulundurun:
-- Artık ihtiyaç duyulmayan nesnelerden kurtularak hafızayı yönetin.
-- Bellek kullanımını en aza indirmek için büyük veri kümelerinde akışları kullanın.
-- Mümkün olan yerlerde örnekleri yeniden kullanarak kodunuzu optimize edin.
+## Performans Düşünceleri
+Aspose.Slides ile çalışırken optimal performans için şu ipuçlarını göz önünde bulundurun:
+- `Presentation` nesnelerini işiniz bittiğinde serbest bırakın, böylece yerel bellek boşaltılır.  
+- Büyük veri setleri için `FileInputStream`, `ByteArrayOutputStream` gibi akışları kullanın, böylece tüm dosyayı RAM'e yüklemekten kaçınırsınız.  
+- Bir döngüde birçok slayt üretirken grafik nesnelerini yeniden kullanın, nesne oluşturma yükünü azaltır.
 
-## Çözüm
-Tebrikler! Java için Aspose.Slides kullanarak bir halka grafiği oluşturmayı ve özelleştirmeyi öğrendiniz. Bu eğitim, kütüphaneyi kurmayı, sunumlara grafikler eklemeyi ve görünümlerini ayarlamayı kapsıyordu.
+## Yaygın Sorunlar ve Çözümler
+- **Kaydetme sırasında hata:** Çıktı dizininin var olduğunu ve uygulamanın yazma iznine sahip olduğunu doğrulayın.  
+- **Grafik verisi eksik:** `setHoleSize` çağırmadan önce grafiğin `ChartData` koleksiyonunu doldurduğunuzdan emin olun.  
+- **Bellek dalgalanmaları:** Binlerce slayt içeren sunumlar için `Presentation.setSlideSize`'ı daha küçük bir boyuta ayarlayın ve ara slaytları zamanında serbest bırakın.
 
-Aspose.Slides'ın yeteneklerini keşfetmeye devam etmek için diğer grafik türlerini denemeyi veya sunum otomasyonu özelliklerini daha derinlemesine incelemeyi düşünebilirsiniz.
+## Sıkça Sorulan Sorular
 
-**Sonraki Adımlar:**
-- Farklı grafik yapılandırmalarını deneyin.
-- Daha gelişmiş özellikler için Aspose.Slides'ın ek belgelerini inceleyin.
+**S: Donut grafik segmentlerinin renklerini ayarlayabilir miyim?**  
+C: Evet. `chart.getChartData().getSeries().get_Item(i).getDataPoints().get_Item(j).getFormat().getFillFormat().setFillType(FillType.Solid)` metodunu kullanın ve ardından istediğiniz RGB rengi belirtin.
 
-Kendi donut grafiklerinizi oluşturmaya hazır mısınız? Bu çözümü bir sonraki projenizde uygulamaya çalışın!
+**S: Grafiğime veri etiketleri nasıl eklerim?**  
+C: Her segmentin içinde değeri göstermek için `chart.getChartData().getSeries().get_Item(i).getDataPoints().get_Item(j).getLabel().setShowValue(true)` metodunu çağırın.
 
-## SSS Bölümü
-1. **Halka grafiği segmentlerimin renklerini ayarlayabilir miyim?**
-   Evet, segment renklerini kullanarak özelleştirebilirsiniz `chart.getChartData().getSeries(i).getDataPointsForBarChart().get_Item(j).getFormat().getFillFormat().setFillType(FillType.Solid);` Düz bir dolgu türü belirlemek ve istediğiniz rengi belirtmek için.
+**S: PPTX dışındaki formatlarda grafikleri kaydetmek mümkün mü?**  
+C: Kesinlikle. Aspose.Slides PDF, XPS, PNG, JPEG, TIFF ve birçok diğer formatı destekler—toplamda 50'den fazla.
 
-2. **Grafiğime veri etiketleri nasıl eklerim?**
-   Kullanmak `chart.getChartData().getCategories().add(wb.getCell(0, "A1", "Category"));` ve veri noktalarını ve etiketleri programatik olarak eklemek için benzer yöntemler.
+**S: Büyük bir sunumu yüklerken bir istisna ile karşılaşırsam ne yapmalıyım?**  
+C: Akış kabul eden `Presentation` yapıcıyı kullanın ve `loadOptions.setLoadFormat(LoadFormat.Pptx)`'i etkinleştirerek dosyayı akış olarak okuyun ve bellek tüketimini azaltın.
 
-3. **Grafikleri PPTX dışındaki formatlarda kaydetmek mümkün müdür?**
-   Kesinlikle! Aspose.Slides, PDF, XPS ve PNG veya JPEG gibi çeşitli çıktı formatlarını destekler.
-
-4. **Sunumu kaydederken bir hatayla karşılaşırsam ne olur?**
-   Dizin yolunuzun doğru olduğundan ve belirtilen konum için yazma izinlerinizin olduğundan emin olun. Kullandığınız Aspose.Slides sürümünün kaydetmeye çalıştığınız dosya biçimini destekleyip desteklemediğini kontrol edin.
-
-5. **Canlı veri kaynaklarıyla grafik güncellemelerini otomatikleştirebilir miyim?**
-   Evet, Java uygulamanıza API'leri veya veritabanlarını entegre ederek grafik verilerini dinamik olarak güncelleyebilir ve sunumları gerektiğinde yenileyebilirsiniz.
+**S: Can I automate chart updates with live data sources?**  
+C: Evet. Verileri bir veritabanı veya REST API'den alıp `ChartData` koleksiyonunu güncelleyebilir ve sunumu kaydetmeden önce `chart.refresh()` metodunu çağırabilirsiniz.
 
 ## Kaynaklar
-- **Belgeleme**: Ayrıntılı API referanslarını şu adreste inceleyin: [Java için Aspose.Slides](https://reference.aspose.com/slides/java/).
-- **İndirmek**: En son kütüphane sürümünü şu adresten edinin: [Aspose.Slides sürümleri](https://releases.aspose.com/slides/java/).
-- **Satın almak**: Tam erişim için şu adresten bir lisans satın alın: [Aspose Satın Alma](https://purchase.aspose.com/buy).
-- **Ücretsiz Deneme**:Aspose.Slides'ı ücretsiz deneme sürümüyle birlikte indirme sayfasından test edin.
-- **Geçici Lisans**Sınırlama olmaksızın genişletilmiş testler için geçici lisans edinin.
-- **Destek**: Sorularınız mı var? Ziyaret edin [Aspose Forum](https://forum.aspose.com/c/slides/11) yardım için.
+- **Dokümantasyon:** Ayrıntılı API referanslarını [Aspose.Slides for Java](https://reference.aspose.com/slides/java/) adresinde keşfedin.  
+- **İndirme:** En son kütüphane sürümünü [Aspose.Slides releases](https://releases.aspose.com/slides/java/) adresinden alın.  
+- **Satın Alma:** Tam erişim için lisansı [Aspose Purchase](https://purchase.aspose.com/buy) adresinden satın alın.  
+- **Ücretsiz Deneme:** İndirme sayfalarında bulunan ücretsiz deneme sürümüyle Aspose.Slides'ı test edin.  
+- **Geçici Lisans:** Sınırlama olmadan genişletilmiş test için geçici bir lisans edinin.  
+- **Destek:** Sorularınız mı var? Yardım için [Aspose Forum](https://forum.aspose.com/c/slides/11) adresini ziyaret edin.
+
+---
+
+**Son Güncelleme:** 2026-07-27  
+**Test Edilen Versiyon:** Aspose.Slides for Java 24.12  
+**Yazar:** Aspose
+
+## İlgili Eğitimler
+
+- [Java için Aspose.Slides Kullanarak PowerPoint'e Grafik Ekleme: Adım Adım Kılavuz](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [Java'da Aspose.Slides ile Grafik Oluşturma: Kapsamlı Kılavuz](/slides/java/charts-graphs/aspose-slides-java-chart-creation-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}

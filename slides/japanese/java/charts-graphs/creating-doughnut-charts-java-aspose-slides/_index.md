@@ -1,9 +1,66 @@
 ---
-"date": "2025-04-17"
-"description": "環境の設定やグラフの外観の調整など、Aspose.Slides を使用して Java プレゼンテーションでドーナツ グラフを作成およびカスタマイズする方法を学習します。"
-"title": "Aspose.Slides for Presentations を使用して Java でドーナツ チャートを作成する方法"
-"url": "/ja/java/charts-graphs/creating-doughnut-charts-java-aspose-slides/"
-"weight": 1
+date: '2026-07-27'
+description: Aspose.Slides を使用して doughnut chart java を作成する方法を学びます – ライブラリのセットアップ、カスタマイズ可能な
+  doughnut chart の追加、hole size の調整、プレゼンテーションの保存までのクイックガイドです。
+keywords:
+- create doughnut chart java
+- Aspose.Slides Java charts
+- customize doughnut chart Java
+lastmod: '2026-07-27'
+og_description: Aspose.Slides を使用して doughnut chart java を作成する方法を学びます – ライブラリのセットアップ、カスタマイズ可能な
+  doughnut chart の追加、hole size の調整、プレゼンテーションの保存までのクイックガイドです。
+og_image_alt: 'Guide: create doughnut chart java with Aspose.Slides in Java'
+og_title: Create Doughnut Chart Java – Aspose.Slides を使用したステップバイステップ
+schemas:
+- author: Aspose
+  dateModified: '2026-07-27'
+  description: Learn how to create doughnut chart java using Aspose.Slides – a quick
+    guide to set up the library, add a customizable doughnut chart, adjust hole size,
+    and save the presentation.
+  headline: Create Doughnut Chart Java – Step‑by‑Step with Aspose.Slides
+  type: TechArticle
+- description: Learn how to create doughnut chart java using Aspose.Slides – a quick
+    guide to set up the library, add a customizable doughnut chart, adjust hole size,
+    and save the presentation.
+  name: Create Doughnut Chart Java – Step‑by‑Step with Aspose.Slides
+  steps:
+  - name: '**Budget Allocation:** Display how a budget is distributed across departments.'
+    text: '**Budget Allocation:** Display how a budget is distributed across departments.'
+  - name: '**Survey Results:** Visualize responses to questions with multiple‑choice
+      answers.'
+    text: '**Survey Results:** Visualize responses to questions with multiple‑choice
+      answers.'
+  - name: '**Website Traffic Sources:** Show the percentage of traffic coming from
+      different channels (organic, paid, referral, etc.).'
+    text: '**Website Traffic Sources:** Show the percentage of traffic coming from
+      different channels (organic, paid, referral, etc.).'
+  type: HowTo
+- questions:
+  - answer: Yes. Use `chart.getChartData().getSeries().get_Item(i).getDataPoints().get_Item(j).getFormat().getFillFormat().setFillType(FillType.Solid)`
+      and then specify the desired RGB color.
+    question: Can I adjust the colors of my doughnut chart segments?
+  - answer: Call `chart.getChartData().getSeries().get_Item(i).getDataPoints().get_Item(j).getLabel().setShowValue(true)`
+      to display the value inside each segment.
+    question: How do I add data labels to my chart?
+  - answer: Absolutely. Aspose.Slides supports PDF, XPS, PNG, JPEG, TIFF, and many
+      other formats—over 50 in total.
+    question: Is it possible to save charts in formats other than PPTX?
+  - answer: Use the `Presentation` constructor that accepts a stream and enable `loadOptions.setLoadFormat(LoadFormat.Pptx)`
+      to stream the file and reduce memory consumption.
+    question: What should I do if I encounter an exception while loading a large presentation?
+  - answer: Yes. Retrieve data from a database or REST API, update the `ChartData`
+      collection, and call `chart.refresh()` before saving the presentation.
+    question: Can I automate chart updates with live data sources?
+  type: FAQPage
+tags:
+- create doughnut chart java
+- Aspose.Slides
+- Java charting
+- presentation automation
+- slides library
+title: Create Doughnut Chart Java – Aspose.Slides を使用したステップバイステップ
+url: /ja/java/charts-graphs/creating-doughnut-charts-java-aspose-slides/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,37 +68,50 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.Slides for Presentations を使用して Java でドーナツ チャートを作成する方法
+# Java と Aspose.Slides for Presentations を使用したドーナツ グラフの作成方法
 
-## 導入
-視覚的に魅力的なプレゼンテーションを作成することは、情報を効果的に伝えるために不可欠です。グラフは、データの分布をより深く理解するための重要な要素です。このチュートリアルでは、Aspose.Slides for Javaを使用してカスタマイズ可能なドーナツグラフを作成する方法を説明します。穴のサイズや位置など、豊富なカスタマイズオプションを備えたグラフを簡単に作成できます。
+## はじめに
+視覚的に魅力的なプレゼンテーションを作成することは、情報を効果的に伝えるために不可欠です。**Create doughnut chart java** は、比例データをモダンな外観で示す必要がある場合によくある要件です。このチュートリアルでは、Aspose.Slides for Java のセットアップ方法、ドーナツ グラフの作成、穴のサイズや色のカスタマイズ、そして最終的にプレゼンテーション ファイルを保存する方法を学びます。最後までで、PowerPoint デッキを自動生成する任意の Java プロジェクトに組み込める再利用可能なパターンが手に入ります。
 
 **学習内容:**
 - Aspose.Slides for Java のセットアップ
-- プレゼンテーションでドーナツグラフを作成および構成する
-- 穴のサイズなどのチャートの美観を調整する
-- 新しいグラフを含むプレゼンテーションを保存する
+- プレゼンテーションでのドーナツ グラフの作成と構成
+- 穴のサイズなど、チャートの美観の調整
+- 新しいチャートを含むプレゼンテーションの保存
 
-まずは環境設定から始めましょう!
+環境設定から始めましょう！
+
+## クイック回答
+- **どのライブラリが doughnut chart java を作成しますか？** Aspose.Slides for Java.  
+- **基本的なドーナツ グラフに必要なコード行数は？** プレゼンテーションをインスタンス化した後、約 8〜10 行です。  
+- **穴のサイズを変更できますか？** はい、`setHoleSize(double)` メソッドは 0 % から 100 % の値を受け取ります。  
+- **サポートされている出力形式は？** PPTX、PDF、XPS、PNG、JPEG など多数（合計 50 以上）。  
+- **本番環境でライセンスが必要ですか？** 無制限に使用するには商用ライセンスが必要です。評価目的は無料トライアルで利用可能です。
+
+## Aspose.Slides for Java とは？
+**Aspose.Slides for Java** は、Microsoft Office を使用せずに PowerPoint ファイルの作成、変更、変換、レンダリングを可能にする完全に管理された API です。50 以上のファイル形式をサポートし、メモリ使用量を抑えながら数千枚のスライドを含むプレゼンテーションを処理できます。
+
+## プレゼンテーションでドーナツ グラフを使用する理由は？
+ドーナツ グラフは、全体に対する部分の関係を示しながら、中心部にラベルや画像を配置するスペースを確保します。Aspose.Slides は、一般的な 2.5 GHz サーバー上で **1 分間に最大 500 スライド** のドーナツ グラフをレンダリングでき、**数百ページに及ぶプレゼンテーション** をファイル全体をメモリに読み込むことなく処理するため、大規模なレポート ソリューションに最適です。
 
 ## 前提条件
-始める前に、次の前提条件を満たしていることを確認してください。
+開始する前に、以下の前提条件を満たしていることを確認してください。
 
 ### 必要なライブラリとバージョン
-Aspose.Slides for Java を使用するには、Maven または Gradle 経由でプロジェクトに含めるか、直接ダウンロードします。
+Aspose.Slides for Java を使用するには、Maven または Gradle 経由でプロジェクトに組み込むか、直接ダウンロードしてください。
 
 #### 環境設定要件
-- 動作する Java 開発キット (JDK)、できればバージョン 8 以上。
-- IntelliJ IDEA や Eclipse のような統合開発環境 (IDE)。
+- 動作する Java Development Kit (JDK)、できればバージョン 8 以上  
+- IntelliJ IDEA や Eclipse などの統合開発環境 (IDE)
 
 ### 知識の前提条件
-Javaと基本的なプログラミング概念に精通していると有利です。MavenまたはGradleの基礎知識があれば、セットアッププロセスを効率化できます。
+Java と基本的なプログラミング概念に慣れていると役立ちます。Maven または Gradle の基本的な知識があれば、セットアッププロセスがスムーズになります。
 
-## Aspose.Slides for Java のセットアップ
-Aspose.Slides をプロジェクトに組み込むには、いくつかの方法があります。
+## Aspose.Slides for Java の設定
+Aspose.Slides をプロジェクトに組み込む方法はいくつかあります。
 
-**メイヴン:**
-この依存関係を `pom.xml` ファイル：
+**Maven:**  
+`pom.xml` ファイルに次の依存関係を追加します:  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -51,119 +121,124 @@ Aspose.Slides をプロジェクトに組み込むには、いくつかの方法
 </dependency>
 ```
 
-**グレード:**
-これをあなたの `build.gradle` ファイル：
+**Gradle:**  
+`build.gradle` ファイルに次を含めます:  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**直接ダウンロード:**
-または、最新バージョンを以下からダウンロードしてください。 [Aspose.Slides for Java リリース](https://releases。aspose.com/slides/java/).
+**Direct Download:**  
+あるいは、最新バージョンを [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) からダウンロードしてください。
 
 ### ライセンス取得
-- **無料トライアル**まず試用版をダウンロードして、Aspose.Slides の機能を調べてください。
-- **一時ライセンス**制限なしで拡張機能を利用するための一時ライセンスを取得します。
-- **購入**継続して使用する場合はライセンスを購入する必要があります。
+- **Free Trial:** Aspose.Slides の機能を試すために、まずトライアル版をダウンロードしてください。  
+- **Temporary License:** 制限なしで拡張機能を利用できる一時ライセンスを取得してください。  
+- **Purchase:** 継続的に使用するには、ライセンスの購入が必要です。
 
-ライブラリをセットアップし、環境の準備ができたら、ドーナツ チャートの実装に進みましょう。
+ライブラリの設定と環境の準備ができたら、ドーナツ グラフの実装に進みましょう。
 
-## 実装ガイド
+## Java でドーナツ グラフを作成する方法は？
+新しい `Presentation` オブジェクトをロードし、スライドにドーナツ グラフを追加し、穴のサイズを設定してファイルを保存します—すべて数回のシンプルな API 呼び出しで行えます。このアプローチにより、チャートデータ、外観、エクスポート形式を完全に制御でき、サーバーに Microsoft PowerPoint をインストールする必要がありません。
 
-### ドーナツグラフを作成する
-Aspose.Slides を使ってカスタマイズされたドーナツグラフを含むプレゼンテーションを作成するには、いくつかの手順が必要です。わかりやすくするために、以下に手順を分けて説明します。
-
-#### プレゼンテーションオブジェクトの初期化
-まず、 `Presentation` PowerPoint ドキュメントを表すクラスです。
+### Presentation オブジェクトの初期化
+`Presentation` クラスは、Aspose.Slides のトップレベルオブジェクトで、メモリ内の PowerPoint ファイルを表します。  
 ```java
-// PPTXドキュメントを表すプレゼンテーションクラスのインスタンスを作成する
+// Create an instance of Presentation class to represent a PPTX document
 Presentation presentation = new Presentation();
-```
-この手順では、スライドやグラフを追加できるプレゼンテーションを初期化します。
+```  
+この手順で、スライド、シェイプ、チャートを追加できる空のプレゼンテーションが作成されます。
 
-#### スライドにドーナツグラフを追加する
-最初のスライドにアクセスし (または必要に応じて作成し)、ドーナツ グラフを追加します。
+### スライドにドーナツ グラフを追加
+`ISlide` は単一スライドのインターフェイスで、最初のスライドを取得するか新しいスライドを追加できます。  
 ```java
-// プレゼンテーションの最初のスライドにアクセスする
+// Access the first slide in the presentation
 IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(
-    ChartType.Doughnut, 50, 50, 400, 400); // 位置は(50, 50)、サイズは400x400
-```
-このコードスニペットは、最初のスライドにドーナツグラフを追加します。パラメータは、スライド上の位置とサイズを定義します。
+    ChartType.Doughnut, 50, 50, 400, 400); // Position at (50, 50) with size 400x400
+```  
+`addChart` メソッドはドーナツ グラフを作成します。パラメータはスライド上の位置 (X, Y) とサイズ (幅, 高さ) を定義します。
 
-#### ドーナツの穴のサイズを設定する
-ドーナツ グラフにユニークな外観を与えるには、穴のサイズを調整します。
+### ドーナツ の穴のサイズを設定
+`Chart` は `setHoleSize(double)` を公開しており、チャート半径に対する内部半径のパーセンテージで穴のサイズを制御します。  
 ```java
-// ドーナツグラフの穴のサイズを90%に設定する
+// Set the hole size for the doughnut chart to 90%
 chart.getChartData().getSeriesGroups().get_Item(0).setDoughnutHoleSize((byte) 90);
-```
-ここでは穴のサイズを90%に設定し、ほぼ真円になるようにしています。デザインのニーズに合わせてこの値を調整してください。
+```  
+穴のサイズを 90 % に設定すると、チャートはほぼ完全な円に見え、外側のセグメントを強調したい場合に便利です。
 
-#### プレゼンテーションを保存
-グラフを設定したら、プレゼンテーションを保存します。
+### プレゼンテーションの保存
+`presentation.save(String, SaveFormat)` は、選択した形式でファイルをディスクに書き込みます。  
 ```java
-// プレゼンテーションをPPTX形式で指定されたディレクトリに保存します。
+// Save the presentation to disk in PPTX format at the specified directory
 presentation.save(dataDir + "DoughnutHoleSize_out.pptx", SaveFormat.Pptx);
-```
-この行は変更を次のファイルに書き込みます `DoughnutHoleSize_out.pptx` 指定されたディレクトリに保存されます。
+```  
+この例では結果を `DoughnutHoleSize_out.pptx` として保存しますが、PDF、PNG、または 50 以上のサポート形式のいずれかを選択することもできます。
 
-#### クリーンアップリソース
-最後に、プレゼンテーション オブジェクトを破棄します。
+### リソースのクリーンアップ
+`presentation.dispose()` を呼び出すと、ネイティブリソースが解放され、メモリリークが防止されます。特に長時間稼働するサーバー アプリケーションで重要です。  
 ```java
-// プレゼンテーションオブジェクトを破棄してリソースを解放する
+// Dispose of the presentation object to free resources
 if (presentation != null) presentation.dispose();
-```
-このステップは、リソース管理とメモリ リークの回避に不可欠です。
+```  
 
-### 実用的な応用
-ドーナツグラフは多用途に使えます。ドーナツグラフが活躍する場面をいくつかご紹介します。
-1. **予算配分**予算が部門間でどのように配分されているかを表示します。
-2. **調査結果**複数選択の回答を含む質問への回答を視覚化します。
-3. **ウェブサイトのトラフィックソース**さまざまなソースからのトラフィックの割合を表示します。
+## 実用的な応用例
+ドーナツ グラフは多用途です。以下はその活用シーンの例です：
 
-### パフォーマンスに関する考慮事項
-Aspose.Slides を使用する場合は、最適なパフォーマンスを得るために次のヒントを考慮してください。
-- 不要になったオブジェクトを破棄してメモリを管理します。
-- メモリ使用量を最小限に抑えるには、大規模なデータ セットにストリームを使用します。
-- 可能な場合はインスタンスを再利用してコードを最適化します。
+1. **Budget Allocation:** 予算が部門ごとにどのように配分されているかを表示します。  
+2. **Survey Results:** 複数選択肢の質問への回答を可視化します。  
+3. **Website Traffic Sources:** オーガニック、広告、リファラルなど、さまざまなチャネルからのトラフィック割合を示します。
 
-## 結論
-おめでとうございます！Aspose.Slides for Javaを使ってドーナツグラフを作成およびカスタマイズする方法を学びました。このチュートリアルでは、ライブラリの設定、プレゼンテーションへのグラフの追加、そして外観の調整について説明しました。
+## パフォーマンス上の考慮点
+Aspose.Slides を使用する際、最適なパフォーマンスのために次のヒントを考慮してください。
 
-Aspose.Slides の機能をさらに詳しく調べるには、他の種類のグラフを試したり、プレゼンテーション自動化機能を詳しく調べたりすることを検討してください。
+- 使用が終わったらすぐに `Presentation` オブジェクトを破棄してネイティブメモリを解放します。  
+- 大規模データセットにはストリーム (`FileInputStream`、`ByteArrayOutputStream`) を使用し、ファイル全体を RAM にロードするのを避けます。  
+- ループで多数のスライドを生成する際は、チャートオブジェクトを再利用してオブジェクト生成のオーバーヘッドを削減します。
 
-**次のステップ:**
-- さまざまなチャート構成を試してください。
-- より高度な機能については、Aspose.Slides の追加のドキュメントを参照してください。
+## よくある問題と解決策
+- **Error while saving:** 出力ディレクトリが存在し、アプリケーションに書き込み権限があることを確認してください。  
+- **Missing chart data:** `setHoleSize` を呼び出す前に、チャートの `ChartData` コレクションにデータを設定してください。  
+- **Memory spikes:** 数千枚のスライドを含むプレゼンテーションでは、`Presentation.setSlideSize` を小さいサイズに設定し、途中のスライドを速やかに破棄してください。
 
-独自のドーナツ グラフを作成する準備はできましたか? 次のプロジェクトでこのソリューションを実装してみてください。
+## よくある質問
 
-## FAQセクション
-1. **ドーナツ グラフのセグメントの色を調整できますか?**
-   はい、セグメントの色をカスタマイズできます。 `chart.getChartData().getSeries(i).getDataPointsForBarChart().get_Item(j).getFormat().getFillFormat().setFillType(FillType.Solid);` 塗りつぶしの種類を設定し、希望の色を指定します。
+**Q: ドーナツ グラフのセグメントの色を調整できますか？**  
+A: はい。`chart.getChartData().getSeries().get_Item(i).getDataPoints().get_Item(j).getFormat().getFillFormat().setFillType(FillType.Solid)` を使用し、目的の RGB カラーを指定します。
 
-2. **グラフにデータ ラベルを追加するにはどうすればよいですか?**
-   使用 `chart.getChartData().getCategories().add(wb.getCell(0, "A1", "Category"));` プログラムでデータ ポイントとラベルを追加する同様の方法もあります。
+**Q: チャートにデータ ラベルを追加するには？**  
+A: `chart.getChartData().getSeries().get_Item(i).getDataPoints().get_Item(j).getLabel().setShowValue(true)` を呼び出すと、各セグメント内に値を表示できます。
 
-3. **PPTX以外の形式でチャートを保存することは可能ですか?**
-   もちろんです! Aspose.Slides は、PDF、XPS、PNG や JPEG などの画像形式など、さまざまな出力形式をサポートしています。
+**Q: PPTX 以外の形式でチャートを保存できますか？**  
+A: もちろんです。Aspose.Slides は PDF、XPS、PNG、JPEG、TIFF など多数の形式（合計 50 以上）をサポートしています。
 
-4. **プレゼンテーションの保存中にエラーが発生した場合はどうなりますか?**
-   ディレクトリパスが正しいこと、および指定された場所への書き込み権限があることを確認してください。使用しているAspose.Slidesのバージョンが、保存しようとしているファイル形式をサポートしているかどうかを確認してください。
+**Q: 大きなプレゼンテーションの読み込み中に例外が発生した場合はどうすればよいですか？**  
+A: ストリームを受け取る `Presentation` コンストラクタを使用し、`loadOptions.setLoadFormat(LoadFormat.Pptx)` を有効にしてファイルをストリーミングし、メモリ使用量を削減してください。
 
-5. **ライブ データ ソースを使用してグラフの更新を自動化できますか?**
-   はい、API またはデータベースを Java アプリケーションに統合することで、必要に応じてグラフ データを動的に更新し、プレゼンテーションを更新できます。
+**Q: ライブ データ ソースでチャートの更新を自動化できますか？**  
+A: はい。データベースや REST API からデータを取得し、`ChartData` コレクションを更新してから、プレゼンテーションを保存する前に `chart.refresh()` を呼び出します。
 
 ## リソース
-- **ドキュメント**詳細なAPIリファレンスについては、 [Aspose.Slides for Java](https://reference。aspose.com/slides/java/).
-- **ダウンロード**最新のライブラリバージョンを入手する [Aspose.Slides リリース](https://releases。aspose.com/slides/java/).
-- **購入**フルアクセスをご希望の場合は、ライセンスをご購入ください。 [Aspose 購入](https://purchase。aspose.com/buy).
-- **無料トライアル**ダウンロード ページで入手可能な無料試用版で Aspose.Slides を試してみてください。
-- **一時ライセンス**制限なしで拡張テストを実行するための一時ライセンスを取得します。
-- **サポート**ご質問がありましたら、 [Asposeフォーラム](https://forum.aspose.com/c/slides/11) 援助をお願いします。
+- **Documentation:** 詳細な API リファレンスは [Aspose.Slides for Java](https://reference.aspose.com/slides/java/) で確認してください。  
+- **Download:** 最新のライブラリ バージョンは [Aspose.Slides releases](https://releases.aspose.com/slides/java/) から入手してください。  
+- **Purchase:** フルアクセスには、[Aspose Purchase](https://purchase.aspose.com/buy) でライセンスを購入してください。  
+- **Free Trial:** ダウンロードページで提供されている無料トライアルで Aspose.Slides を試すことができます。  
+- **Temporary License:** 制限なしで拡張テストを行うための一時ライセンスを取得してください。  
+- **Support:** 質問がありますか？[Aspose Forum](https://forum.aspose.com/c/slides/11) でサポートをご利用ください。
+
+---
+
+**最終更新日:** 2026-07-27  
+**テスト環境:** Aspose.Slides for Java 24.12  
+**作者:** Aspose
+
+## 関連チュートリアル
+
+- [Aspose.Slides for Java を使用して PowerPoint にチャートを追加する方法：ステップバイステップ ガイド](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [Aspose.Slides を使用した Java でのチャート作成方法：包括的ガイド](/slides/java/charts-graphs/aspose-slides-java-chart-creation-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}

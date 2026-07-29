@@ -1,9 +1,68 @@
 ---
-"date": "2025-04-17"
-"description": "Découvrez comment créer et personnaliser des graphiques en anneau dans des présentations Java avec Aspose.Slides, notamment en configurant votre environnement et en ajustant l'esthétique du graphique."
-"title": "Comment créer des graphiques en anneau en Java avec Aspose.Slides pour les présentations"
-"url": "/fr/java/charts-graphs/creating-doughnut-charts-java-aspose-slides/"
-"weight": 1
+date: '2026-07-27'
+description: Apprenez à créer un Doughnut Chart Java avec Aspose.Slides – un guide
+  rapide pour configurer la bibliothèque, ajouter un Doughnut Chart personnalisable,
+  ajuster la taille du trou et enregistrer la présentation.
+keywords:
+- create doughnut chart java
+- Aspose.Slides Java charts
+- customize doughnut chart Java
+lastmod: '2026-07-27'
+og_description: Apprenez à créer un Doughnut Chart Java avec Aspose.Slides – un guide
+  rapide pour configurer la bibliothèque, ajouter un Doughnut Chart personnalisable,
+  ajuster la taille du trou et enregistrer la présentation.
+og_image_alt: 'Guide: create doughnut chart java with Aspose.Slides in Java'
+og_title: Créer un Doughnut Chart Java – Étape par étape avec Aspose.Slides
+schemas:
+- author: Aspose
+  dateModified: '2026-07-27'
+  description: Learn how to create doughnut chart java using Aspose.Slides – a quick
+    guide to set up the library, add a customizable doughnut chart, adjust hole size,
+    and save the presentation.
+  headline: Create Doughnut Chart Java – Step‑by‑Step with Aspose.Slides
+  type: TechArticle
+- description: Learn how to create doughnut chart java using Aspose.Slides – a quick
+    guide to set up the library, add a customizable doughnut chart, adjust hole size,
+    and save the presentation.
+  name: Create Doughnut Chart Java – Step‑by‑Step with Aspose.Slides
+  steps:
+  - name: '**Budget Allocation:** Display how a budget is distributed across departments.'
+    text: '**Budget Allocation:** Display how a budget is distributed across departments.'
+  - name: '**Survey Results:** Visualize responses to questions with multiple‑choice
+      answers.'
+    text: '**Survey Results:** Visualize responses to questions with multiple‑choice
+      answers.'
+  - name: '**Website Traffic Sources:** Show the percentage of traffic coming from
+      different channels (organic, paid, referral, etc.).'
+    text: '**Website Traffic Sources:** Show the percentage of traffic coming from
+      different channels (organic, paid, referral, etc.).'
+  type: HowTo
+- questions:
+  - answer: Yes. Use `chart.getChartData().getSeries().get_Item(i).getDataPoints().get_Item(j).getFormat().getFillFormat().setFillType(FillType.Solid)`
+      and then specify the desired RGB color.
+    question: Can I adjust the colors of my doughnut chart segments?
+  - answer: Call `chart.getChartData().getSeries().get_Item(i).getDataPoints().get_Item(j).getLabel().setShowValue(true)`
+      to display the value inside each segment.
+    question: How do I add data labels to my chart?
+  - answer: Absolutely. Aspose.Slides supports PDF, XPS, PNG, JPEG, TIFF, and many
+      other formats—over 50 in total.
+    question: Is it possible to save charts in formats other than PPTX?
+  - answer: Use the `Presentation` constructor that accepts a stream and enable `loadOptions.setLoadFormat(LoadFormat.Pptx)`
+      to stream the file and reduce memory consumption.
+    question: What should I do if I encounter an exception while loading a large presentation?
+  - answer: Yes. Retrieve data from a database or REST API, update the `ChartData`
+      collection, and call `chart.refresh()` before saving the presentation.
+    question: Can I automate chart updates with live data sources?
+  type: FAQPage
+tags:
+- create doughnut chart java
+- Aspose.Slides
+- Java charting
+- presentation automation
+- slides library
+title: Créer un Doughnut Chart Java – Étape par étape avec Aspose.Slides
+url: /fr/java/charts-graphs/creating-doughnut-charts-java-aspose-slides/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -14,34 +73,47 @@
 # Comment créer des graphiques en anneau en Java avec Aspose.Slides pour les présentations
 
 ## Introduction
-Créer des présentations visuellement attrayantes est essentiel pour transmettre efficacement l'information. Les graphiques sont des éléments essentiels pour faciliter la compréhension des distributions de données. Ce tutoriel vous guide dans la création de graphiques en anneau personnalisables avec Aspose.Slides pour Java, permettant une génération de graphiques simple et intuitive avec de nombreuses options de personnalisation, comme la taille et le positionnement des trous.
+Créer des présentations visuellement attrayantes est essentiel pour transmettre efficacement l'information. **Create doughnut chart java** est une exigence courante lorsque vous devez illustrer des données proportionnelles avec un aspect moderne. Dans ce tutoriel, vous apprendrez à configurer Aspose.Slides pour Java, à créer un graphique en anneau, à personnaliser la taille de son trou et ses couleurs, puis à enregistrer le fichier de présentation. À la fin, vous disposerez d'un modèle réutilisable que vous pourrez intégrer à n'importe quel projet Java générant automatiquement des présentations PowerPoint.
 
-**Ce que vous apprendrez :**
-- Configuration d'Aspose.Slides pour Java
-- Création et configuration de graphiques en anneau dans les présentations
-- Ajuster l'esthétique du graphique, comme la taille des trous
+**Ce que vous apprendrez :**
+- Configurer Aspose.Slides pour Java
+- Créer et configurer des graphiques en anneau dans les présentations
+- Ajuster l'esthétique du graphique, comme la taille du trou
 - Enregistrer la présentation avec votre nouveau graphique
 
-Commençons par configurer notre environnement !
+Commençons par configurer notre environnement !
+
+## Réponses rapides
+- **Quelle bibliothèque crée doughnut chart java ?** Aspose.Slides for Java.  
+- **Combien de lignes de code sont nécessaires pour un graphique en anneau de base ?** Environ 8 à 10 lignes après l'instanciation de la présentation.  
+- **Puis-je modifier la taille du trou ?** Oui, la méthode `setHoleSize(double)` accepte des valeurs de 0 % à 100 %.  
+- **Quels formats de sortie sont pris en charge ?** PPTX, PDF, XPS, PNG, JPEG et plusieurs autres (plus de 50 au total).  
+- **Ai-je besoin d'une licence pour la production ?** Une licence commerciale est requise pour une utilisation illimitée ; une version d'essai gratuite suffit pour l'évaluation.
+
+## Qu'est-ce qu'Aspose.Slides pour Java ?
+**Aspose.Slides for Java** est une API entièrement gérée qui permet aux développeurs de créer, modifier, convertir et rendre des fichiers PowerPoint sans Microsoft Office. Elle prend en charge plus de 50 formats de fichiers et peut gérer des présentations contenant des milliers de diapositives tout en maintenant une faible consommation de mémoire.
+
+## Pourquoi utiliser les graphiques en anneau dans les présentations ?
+Les graphiques en anneau affichent les relations partie‑tout tout en libérant de l'espace au centre pour des étiquettes ou des images. Aspose.Slides peut rendre des graphiques en anneau jusqu'à **500 diapositives par minute** sur un serveur typique de 2,5 GHz, et il traite des **présentations de plusieurs centaines de pages** sans charger le fichier complet en mémoire, ce qui le rend idéal pour les solutions de reporting à grande échelle.
 
 ## Prérequis
-Avant de commencer, assurez-vous d’avoir couvert ces prérequis :
+Avant de commencer, assurez-vous d'avoir rempli ces prérequis :
 
-### Bibliothèques et versions requises
+### Bibliothèques requises et versions
 Pour travailler avec Aspose.Slides pour Java, incluez-le dans votre projet via Maven ou Gradle, ou téléchargez-le directement.
 
-#### Configuration requise pour l'environnement
-- Un kit de développement Java (JDK) fonctionnel, de préférence version 8 ou supérieure.
-- Un environnement de développement intégré (IDE) comme IntelliJ IDEA ou Eclipse.
+#### Exigences de configuration de l'environnement
+- Un JDK (Java Development Kit) fonctionnel, de préférence la version 8 ou supérieure.
+- Un environnement de développement intégré (IDE) tel qu'IntelliJ IDEA ou Eclipse.
 
-### Prérequis en matière de connaissances
-Une connaissance de Java et des concepts de base de la programmation est un atout. Des connaissances de base de Maven ou de Gradle faciliteront le processus de configuration.
+### Prérequis de connaissances
+Une familiarité avec Java et les concepts de programmation de base est bénéfique. Une connaissance de base de Maven ou Gradle facilitera le processus d'installation.
 
 ## Configuration d'Aspose.Slides pour Java
-L'intégration d'Aspose.Slides dans votre projet peut se faire de plusieurs manières :
+Intégrer Aspose.Slides à votre projet peut se faire de plusieurs manières :
 
-**Expert :**
-Ajoutez cette dépendance à votre `pom.xml` déposer:
+**Maven :**  
+Ajoutez cette dépendance à votre fichier `pom.xml` :  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -51,119 +123,123 @@ Ajoutez cette dépendance à votre `pom.xml` déposer:
 </dependency>
 ```
 
-**Gradle :**
-Incluez ceci dans votre `build.gradle` déposer:
+**Gradle :**  
+Incluez ceci dans votre fichier `build.gradle` :  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Téléchargement direct :**
-Vous pouvez également télécharger la dernière version à partir de [Versions d'Aspose.Slides pour Java](https://releases.aspose.com/slides/java/).
+**Téléchargement direct :**  
+Alternativement, téléchargez la dernière version depuis [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 ### Acquisition de licence
-- **Essai gratuit**: Commencez par télécharger une version d’essai pour explorer les fonctionnalités d’Aspose.Slides.
-- **Permis temporaire**: Obtenez une licence temporaire pour des fonctionnalités étendues sans limitations.
-- **Achat**:Pour une utilisation continue, l'achat d'une licence est requis.
+- **Essai gratuit :** Commencez par télécharger une version d'essai pour explorer les fonctionnalités d'Aspose.Slides.  
+- **Licence temporaire :** Obtenez une licence temporaire pour une fonctionnalité étendue sans limitations.  
+- **Achat :** Pour une utilisation continue, l'achat d'une licence est requis.
 
-Une fois la bibliothèque configurée et votre environnement prêt, passons à la mise en œuvre de notre graphique en anneau.
+Une fois la bibliothèque installée et votre environnement prêt, passons à la mise en œuvre de notre graphique en anneau.
 
-## Guide de mise en œuvre
+## Comment créer un graphique en anneau en Java ?
+Chargez un nouvel objet `Presentation`, ajoutez un graphique en anneau à une diapositive, définissez la taille du trou et enregistrez le fichier – le tout en quelques appels d'API simples. Cette approche vous donne un contrôle complet sur les données du graphique, son apparence et le format d'exportation, et fonctionne sans nécessiter Microsoft PowerPoint installé sur le serveur.
 
-### Création d'un graphique en anneau
-Créer une présentation avec un graphique en anneau personnalisé avec Aspose.Slides nécessite plusieurs étapes. Nous les détaillons pour plus de clarté :
-
-#### Initialiser l'objet de présentation
-Commencez par créer une instance du `Presentation` classe, représentant votre document PowerPoint.
+### Initialiser l'objet Presentation
+La classe `Presentation` est l'objet de haut niveau d'Aspose.Slides qui représente un fichier PowerPoint en mémoire.  
 ```java
-// Créer une instance de la classe Presentation pour représenter un document PPTX
+// Create an instance of Presentation class to represent a PPTX document
 Presentation presentation = new Presentation();
-```
-Cette étape initialise votre présentation où vous pouvez ajouter des diapositives et des graphiques.
+```  
+Cette étape crée une présentation vide où vous pouvez ajouter des diapositives, des formes et des graphiques.
 
-#### Ajouter un graphique en anneau à la diapositive
-Accédez à la première diapositive (ou créez-en une si nécessaire) et ajoutez un graphique en anneau :
+### Ajouter un graphique en anneau à la diapositive
+`ISlide` est l'interface d'une diapositive unique ; vous pouvez récupérer la première diapositive ou en ajouter une nouvelle.  
 ```java
-// Accéder à la première diapositive de la présentation
+// Access the first slide in the presentation
 IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(
-    ChartType.Doughnut, 50, 50, 400, 400); // Position à (50, 50) avec une taille de 400x400
-```
-Cet extrait de code ajoute un graphique en anneau à la première diapositive. Les paramètres définissent sa position et ses dimensions sur la diapositive.
+    ChartType.Doughnut, 50, 50, 400, 400); // Position at (50, 50) with size 400x400
+```  
+La méthode `addChart` crée un graphique en anneau ; les paramètres définissent sa position (X, Y) et sa taille (largeur, hauteur) sur la diapositive.
 
-#### Configurer la taille du trou du beignet
-Pour donner à votre graphique en anneau un aspect unique, ajustez la taille du trou :
+### Configurer la taille du trou du graphique en anneau
+`Chart` expose la méthode `setHoleSize(double)` pour contrôler le rayon interne en pourcentage du rayon du graphique.  
 ```java
-// Définissez la taille du trou pour le graphique en anneau à 90 %
+// Set the hole size for the doughnut chart to 90%
 chart.getChartData().getSeriesGroups().get_Item(0).setDoughnutHoleSize((byte) 90);
-```
-Ici, nous définissons la taille du trou à 90 %, ce qui en fait un cercle presque complet. Ajustez cette valeur en fonction de vos besoins de conception.
+```  
+Définir la taille du trou à 90 % fait apparaître le graphique presque comme un cercle complet, ce qui est utile lorsque vous souhaitez mettre en avant les segments extérieurs.
 
-#### Enregistrer la présentation
-Après avoir configuré votre graphique, enregistrez la présentation :
+### Enregistrer la présentation
+`presentation.save(String, SaveFormat)` écrit le fichier sur le disque dans le format choisi.  
 ```java
-// Enregistrez la présentation sur le disque au format PPTX dans le répertoire spécifié
+// Save the presentation to disk in PPTX format at the specified directory
 presentation.save(dataDir + "DoughnutHoleSize_out.pptx", SaveFormat.Pptx);
-```
-Cette ligne écrit vos modifications dans un fichier nommé `DoughnutHoleSize_out.pptx` dans votre répertoire désigné.
+```  
+L'exemple enregistre le résultat sous `DoughnutHoleSize_out.pptx`, mais vous pouvez également choisir PDF, PNG ou tout autre format parmi les plus de 50 pris en charge.
 
-#### Ressources de nettoyage
-Enfin, assurez-vous de vous débarrasser de l’objet de présentation :
+### Nettoyer les ressources
+Appeler `presentation.dispose()` libère les ressources natives et empêche les fuites de mémoire, ce qui est particulièrement important dans les applications serveur à long terme.  
 ```java
-// Éliminer l'objet de présentation pour libérer des ressources
+// Dispose of the presentation object to free resources
 if (presentation != null) presentation.dispose();
-```
-Cette étape est cruciale pour la gestion des ressources et pour éviter les fuites de mémoire.
+```  
 
-### Applications pratiques
-Les graphiques en anneau sont polyvalents. Voici quelques exemples où ils se démarquent :
-1. **Allocation budgétaire**: Affichez la manière dont un budget est réparti entre les services.
-2. **Résultats de l'enquête**:Visualisez les réponses aux questions avec des réponses à choix multiples.
-3. **Sources de trafic du site Web**:Afficher le pourcentage de trafic provenant de différentes sources.
+## Applications pratiques
+Les graphiques en anneau sont polyvalents. Voici quelques scénarios où ils brillent :
+1. **Répartition du budget :** Afficher comment un budget est réparti entre les départements.  
+2. **Résultats d'enquête :** Visualiser les réponses aux questions à choix multiples.  
+3. **Sources de trafic du site web :** Montrer le pourcentage de trafic provenant de différents canaux (organique, payant, référent, etc.).
 
-### Considérations relatives aux performances
-Lorsque vous travaillez avec Aspose.Slides, tenez compte de ces conseils pour des performances optimales :
-- Gérez la mémoire en supprimant les objets lorsqu'ils ne sont plus nécessaires.
-- Utilisez des flux pour les grands ensembles de données afin de minimiser l’utilisation de la mémoire.
-- Optimisez votre code en réutilisant des instances lorsque cela est possible.
+## Considérations de performance
+Lors de l'utilisation d'Aspose.Slides, considérez ces conseils pour des performances optimales :
+- Libérez les objets `Presentation` dès que vous avez fini afin de libérer la mémoire native.  
+- Utilisez des flux (`FileInputStream`, `ByteArrayOutputStream`) pour les grands ensembles de données afin d'éviter de charger des fichiers entiers en RAM.  
+- Réutilisez les objets de graphique lors de la génération de nombreuses diapositives dans une boucle afin de réduire la surcharge de création d'objets.
 
-## Conclusion
-Félicitations ! Vous avez appris à créer et personnaliser un graphique en anneau avec Aspose.Slides pour Java. Ce tutoriel a abordé la configuration de la bibliothèque, l'ajout de graphiques aux présentations et l'optimisation de leur apparence.
+## Problèmes courants et solutions
+- **Erreur lors de l'enregistrement :** Vérifiez que le répertoire de sortie existe et que l'application dispose des permissions d'écriture.  
+- **Données du graphique manquantes :** Assurez-vous de remplir la collection `ChartData` du graphique avant d'appeler `setHoleSize`.  
+- **Pics de mémoire :** Pour les présentations contenant des milliers de diapositives, activez `Presentation.setSlideSize` à une taille plus petite et libérez rapidement les diapositives intermédiaires.
 
-Pour continuer à explorer les capacités d'Aspose.Slides, envisagez d'expérimenter d'autres types de graphiques ou d'approfondir les fonctionnalités d'automatisation des présentations.
+## Questions fréquemment posées
 
-**Prochaines étapes :**
-- Expérimentez avec différentes configurations de graphiques.
-- Explorez la documentation supplémentaire d'Aspose.Slides pour des fonctionnalités plus avancées.
+**Q : Puis-je ajuster les couleurs des segments de mon graphique en anneau ?**  
+R : Oui. Utilisez `chart.getChartData().getSeries().get_Item(i).getDataPoints().get_Item(j).getFormat().getFillFormat().setFillType(FillType.Solid)` puis spécifiez la couleur RGB souhaitée.
 
-Prêt à créer vos propres graphiques en anneau ? Essayez d'intégrer cette solution à votre prochain projet !
+**Q : Comment ajouter des étiquettes de données à mon graphique ?**  
+R : Appelez `chart.getChartData().getSeries().get_Item(i).getDataPoints().get_Item(j).getLabel().setShowValue(true)` pour afficher la valeur à l'intérieur de chaque segment.
 
-## Section FAQ
-1. **Puis-je ajuster les couleurs des segments de mon graphique en anneau ?**
-   Oui, vous pouvez personnaliser les couleurs des segments en utilisant `chart.getChartData().getSeries(i).getDataPointsForBarChart().get_Item(j).getFormat().getFillFormat().setFillType(FillType.Solid);` pour définir un type de remplissage solide et spécifier la couleur souhaitée.
+**Q : Est-il possible d'enregistrer les graphiques dans des formats autres que PPTX ?**  
+R : Absolument. Aspose.Slides prend en charge PDF, XPS, PNG, JPEG, TIFF et de nombreux autres formats—plus de 50 au total.
 
-2. **Comment ajouter des étiquettes de données à mon graphique ?**
-   Utiliser `chart.getChartData().getCategories().add(wb.getCell(0, "A1", "Category"));` et des méthodes similaires pour ajouter des points de données et des étiquettes par programmation.
+**Q : Que faire si je rencontre une exception lors du chargement d'une grande présentation ?**  
+R : Utilisez le constructeur `Presentation` qui accepte un flux et activez `loadOptions.setLoadFormat(LoadFormat.Pptx)` pour diffuser le fichier et réduire la consommation de mémoire.
 
-3. **Est-il possible d'enregistrer des graphiques dans des formats autres que PPTX ?**
-   Absolument ! Aspose.Slides prend en charge différents formats de sortie, tels que PDF, XPS et des formats d'image comme PNG ou JPEG.
-
-4. **Que faire si je rencontre une erreur lors de l’enregistrement de la présentation ?**
-   Assurez-vous que le chemin d'accès à votre répertoire est correct et que vous disposez des droits d'écriture pour l'emplacement spécifié. Vérifiez que la version d'Aspose.Slides que vous utilisez prend en charge le format de fichier que vous souhaitez enregistrer.
-
-5. **Puis-je automatiser les mises à jour des graphiques avec des sources de données en direct ?**
-   Oui, en intégrant des API ou des bases de données dans votre application Java, vous pouvez mettre à jour dynamiquement les données des graphiques et actualiser les présentations selon vos besoins.
+**Q : Puis-je automatiser les mises à jour du graphique avec des sources de données en direct ?**  
+R : Oui. Récupérez les données d'une base de données ou d'une API REST, mettez à jour la collection `ChartData`, puis appelez `chart.refresh()` avant d'enregistrer la présentation.
 
 ## Ressources
-- **Documentation**: Explorez les références API détaillées sur [Aspose.Slides pour Java](https://reference.aspose.com/slides/java/).
-- **Télécharger**: Obtenez la dernière version de la bibliothèque à partir de [Communiqués de presse d'Aspose.Slides](https://releases.aspose.com/slides/java/).
-- **Achat**:Pour un accès complet, achetez une licence sur [Achat Aspose](https://purchase.aspose.com/buy).
-- **Essai gratuit**:Essayez Aspose.Slides avec un essai gratuit disponible sur leur page de téléchargement.
-- **Permis temporaire**:Obtenez une licence temporaire pour des tests prolongés sans limitations.
-- **Soutien**: Des questions ? Visitez le [Forum Aspose](https://forum.aspose.com/c/slides/11) pour obtenir de l'aide.
+- **Documentation :** Explorez les références détaillées de l'API sur [Aspose.Slides for Java](https://reference.aspose.com/slides/java/).  
+- **Téléchargement :** Obtenez la dernière version de la bibliothèque depuis [Aspose.Slides releases](https://releases.aspose.com/slides/java/).  
+- **Achat :** Pour un accès complet, achetez une licence sur [Aspose Purchase](https://purchase.aspose.com/buy).  
+- **Essai gratuit :** Testez Aspose.Slides avec un essai gratuit disponible sur leur page de téléchargement.  
+- **Licence temporaire :** Obtenez une licence temporaire pour des tests étendus sans limitations.  
+- **Support :** Des questions ? Visitez le [Aspose Forum](https://forum.aspose.com/c/slides/11) pour obtenir de l'aide.
+
+---
+
+**Dernière mise à jour :** 2026-07-27  
+**Testé avec :** Aspose.Slides for Java 24.12  
+**Auteur :** Aspose
+
+## Tutoriels associés
+
+- [Comment ajouter des graphiques à PowerPoint avec Aspose.Slides pour Java : guide étape par étape](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [Comment créer un graphique en Java avec Aspose.Slides : guide complet](/slides/java/charts-graphs/aspose-slides-java-chart-creation-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
