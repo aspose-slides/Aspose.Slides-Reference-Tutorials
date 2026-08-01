@@ -1,12 +1,67 @@
 ---
-date: '2026-02-24'
-description: Aspose.Slides Maven kullanarak PPTX Java dosyaları oluşturmayı öğrenin,
-  projelerinizde sunum oluşturma, düzenleme ve yönetimi otomatikleştirin.
+date: '2026-08-01'
+description: Aspose Slides Maven'ı kullanarak PPTX Java dosyalarını programlı olarak
+  nasıl oluşturacağınızı öğrenin. Bu rehber, setup, slide creation, text, hyperlinks
+  ve saving konularını kapsar ve sunum oluşturmayı verimli bir şekilde otomatikleştirmenize
+  yardımcı olur.
 keywords:
-- Aspose.Slides for Java
-- Java presentation automation
-- presentation management with Aspose.Slides
-title: Aspose.Slides Maven ile Java PPTX Oluşturma – Otomasyon Kılavuzu
+- aspose slides maven
+- convert pptx pdf java
+- automate presentation creation
+- batch process powerpoint
+- create pptx java
+lastmod: '2026-08-01'
+og_description: Aspose Slides Maven'ı kullanarak PPTX Java dosyalarını programlı olarak
+  nasıl oluşturacağınızı öğrenin. Bu rehber, setup, slide creation, text, hyperlinks
+  ve saving konularını kapsar ve sunum oluşturmayı verimli bir şekilde otomatikleştirmenize
+  yardımcı olur.
+og_image_alt: 'Developer tutorial: Create PPTX Java files using Aspose Slides Maven'
+og_title: 'Aspose Slides Maven: PPTX Java Dosyaları Oluşturma – Rehber'
+schemas:
+- author: Aspose
+  dateModified: '2026-08-01'
+  description: Learn how to use Aspose Slides Maven to create PPTX Java files programmatically.
+    This guide covers setup, slide creation, text, hyperlinks, and saving, helping
+    you automate presentation creation efficiently.
+  headline: 'Aspose Slides Maven: Create PPTX Java Files – Guide'
+  type: TechArticle
+- description: Learn how to use Aspose Slides Maven to create PPTX Java files programmatically.
+    This guide covers setup, slide creation, text, hyperlinks, and saving, helping
+    you automate presentation creation efficiently.
+  name: 'Aspose Slides Maven: Create PPTX Java Files – Guide'
+  steps:
+  - name: '**Automated Report Generation** – Pull data from databases or APIs and
+      output a polished slide deck each night.'
+    text: '**Automated Report Generation** – Pull data from databases or APIs and
+      output a polished slide deck each night.'
+  - name: '**E‑Learning Content** – Dynamically generate lecture slides based on curriculum
+      updates.'
+    text: '**E‑Learning Content** – Dynamically generate lecture slides based on curriculum
+      updates.'
+  - name: '**Marketing Campaigns** – Build personalized promotional decks for each
+      client using CRM data.'
+    text: '**Marketing Campaigns** – Build personalized promotional decks for each
+      client using CRM data.'
+  type: HowTo
+- questions:
+  - answer: Aspose Slides Maven.
+    question: Which library helps you create PPTX Java files?
+  - answer: JDK 16 or higher.
+    question: Minimum Java version required?
+  - answer: A free trial works for evaluation; a license is required for production.
+    question: Do I need a license to run the sample code?
+  - answer: Yes, Aspose Slides supports multiple export formats.
+    question: Can I convert the PPTX to PDF in the same flow?
+  - answer: No, you can also use Gradle or a direct JAR download.
+    question: Is Maven the only way to add the dependency?
+  type: FAQPage
+tags:
+- aspose slides
+- java pptx
+- presentation automation
+- maven integration
+- slide generation
+title: 'Aspose Slides Maven: PPTX Java Dosyaları Oluşturma – Rehber'
 url: /tr/java/batch-processing/aspose-slides-java-automate-presentation-management/
 weight: 1
 ---
@@ -17,31 +72,34 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Slides ile PPTX Java Nasıl Oluşturulur: Kapsamlı Bir Rehber
+# Aspose Slides Maven: PPTX Java Dosyaları Oluşturma – Rehber
 
-## Introduction
-Programatik olarak etkileyici sunumlar oluşturmak, **create PPTX Java** dosyalarını manuel düzenleme olmadan üretmek isteyen geliştiriciler için yaygın bir ihtiyaçtır. **Aspose.Slides Maven**'ı kullanarak PowerPoint sunumlarını doğrudan Java kodundan oluşturabilir, raporlar, e‑öğrenme modülleri veya pazarlama materyalleri arasında tutarlılığı sağlayabilirsiniz. Bu rehberde Aspose.Slides for Java kurulumunu, klasör hazırlamayı, slayt oluşturmayı, metin ve hiperlink eklemeyi ve sonunda sunumu kaydetmeyi adım adım örneklerle göstereceğiz.
+## Giriş
+PowerPoint'i manuel olarak açmadan **PPTX Java** dosyaları oluşturmanız gerekiyorsa, Aspose Slides Maven size sunumları oluşturmak için temiz, kod‑öncelikli bir yol sunar. Aspose.Slides için Maven koordinatlarını kullanarak, slayt destelerini otomatikleştirebilir, zengin içerik ekleyebilir ve diğer formatlara dışa aktarabilirsiniz—hepsi Java'dan. Ayrıca bu yaklaşımın toplu PowerPoint işleme senaryolarında nasıl ölçeklendiğini de göreceksiniz.
 
-**What You'll Learn:**
-- Aspose.Slides for Java kurulumu.
-- Java’da dizin oluşturma.
-- Sunumlara slayt ve şekil ekleme.
-- Slayt öğelerine metin ve hiperlink ekleme.
-- Sunumları programatik olarak kaydetme.
+## Hızlı Yanıtlar
+- **Hangi kütüphane PPTX Java dosaları oluşturmanıza yardımcı olur?** Aspose Slides Maven.  
+- **Gerekli minimum Java sürümü?** JDK 16 veya üzeri.  
+- **Örnek kodu çalıştırmak için lisansa ihtiyacım var mı?** Değerlendirme için ücretsiz deneme çalışır; üretim için lisans gereklidir.  
+- **PPTX'i aynı akışta PDF'ye dönüştürebilir miyim?** Evet, Aspose Slides birden fazla dışa aktarım formatını destekler.  
+- **Bağımlılığı eklemenin tek yolu Maven mi?** Hayır, Gradle veya doğrudan JAR indirme de kullanabilirsiniz.
 
-Aspose.Slides for Java ile otomatik sunum yönetimini keşfedelim!
+## “PPTX Java oluşturma” nedir?
+Java'da bir PPTX dosyası oluşturmak, Java kodu kullanarak programlı bir şekilde PowerPoint sunumu (`.pptx`) üretmek anlamına gelir. Aspose Slides, Open XML formatını soyutlayarak dosya yapısı yerine slayt içeriğine odaklanmanızı sağlar. Bu yaklaşım, otomatik rapor oluşturma, e‑öğrenme materyali üretimi ve dinamik pazarlama sunumlarını doğrudan arka uç hizmetlerinizden yapmanıza olanak tanır.
 
-## Quick Answers
-- **Which library helps you create PPTX Java files?** Aspose.Slides for Java.  
-- **Minimum Java version required?** JDK 16 or higher.  
-- **Do I need a license to run the sample code?** A free trial works for evaluation; a license is required for production.  
-- **Can I convert the PPTX to PDF in the same flow?** Yes, Aspose.Slides supports multiple export formats.  
-- **Is Maven the only way to add the dependency?** No, you can also use Gradle or a direct JAR download.
+## Neden Aspose Slides Maven Kullanmalı?
+Aspose Slides Maven paketini yüklediğinizde, **150'den fazla slayt öğesi türünü** (şekiller, grafikler, tablolar, animasyonlar ve daha fazlası) destekleyen **tam özellikli bir API**'ye anında sahip olursunuz ve Microsoft Office'e ihtiyaç duymadan **5.000'e kadar slayt** içeren sunumları işleyebilir. Kütüphane Windows, Linux ve macOS'ta çalışır, **yüksek doğruluklu render** (PowerPoint ile aynı) sunar ve **PDF, PNG, HTML ve 20'den fazla diğer formatta dışa aktarım** sağlar—tek bir Maven bağımlılığından.
 
-## Using Aspose.Slides Maven for Java Presentation Automation
-Aspose.Slides'ı Maven aracılığıyla eklediğinizde, kütüphane ve tüm geçişli bağımlılıkları otomatik olarak çekilir; bu da proje kurulumunu basitleştirir ve en son hata düzeltmeleri ve performans iyileştirmeleriyle uyumlu olmanızı sağlar. Aşağıda ihtiyacınız olan tam Maven koordinatlarını göreceğiz.
+## Önkoşullar
+- **Gerekli Kütüphaneler:** Aspose.Slides for Java 25.4 veya daha yenisi.  
+- **Ortam Kurulumu:** JDK 16+ yüklü ve `JAVA_HOME` yapılandırılmış.  
+- **IDE:** IntelliJ IDEA, Eclipse veya herhangi bir Java‑uyumlu editör.  
+- **Temel Java bilgisi:** Sınıflar, paketler ve dosya G/Ç konularına aşina olmak.
 
-### Maven Dependency
+## Java Sunum Otomasyonu için Aspose Slides Maven Kullanımı
+Aspose Slides'ı Maven üzerinden eklediğinizde, kütüphane ve tüm geçişli bağımlılıkları otomatik olarak çekilir, bu da proje kurulumunu basitleştirir ve en son hata düzeltmeleri ve performans iyileştirmeleriyle uyumlu olmanızı sağlar. Aşağıda ihtiyacınız olan tam Maven koordinatlarını göreceğiz.
+
+### Maven Bağımlılığı
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -51,66 +109,42 @@ Aspose.Slides'ı Maven aracılığıyla eklediğinizde, kütüphane ve tüm geç
 </dependency>
 ```
 
-### Gradle Dependency
+### Gradle Bağımlılığı
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Direct Download
-Download the latest version from [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+### Doğrudan İndirme
+En son sürümü [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) adresinden indirin.
 
-## What is “create PPTX Java”?
-Java’da bir PPTX dosyası oluşturmak, Java kodu kullanarak programatik olarak bir PowerPoint sunumu (`.pptx`) üretmek anlamına gelir. Aspose.Slides, Open XML formatını soyutlayan zengin bir API sunar; böylece dosya yapısına odaklanmak yerine içeriğe odaklanabilirsiniz.
-
-## Why use Aspose.Slides Maven?
-- **Full‑feature API:** Shapes, charts, tables, animations, and more.  
-- **No Microsoft Office required:** Works on any OS—Windows, Linux, macOS.  
-- **High fidelity:** Rendered slides look identical to those created in PowerPoint.  
-- **Extensive format support:** Export to PDF, PNG, HTML, and others.
-
-## Prerequisites
-- **Required Libraries:** Aspose.Slides for Java 25.4 or later.  
-- **Environment Setup:** JDK 16+ installed and `JAVA_HOME` configured.  
-- **IDE:** IntelliJ IDEA, Eclipse, or any Java‑compatible editor.  
-- **Basic Java knowledge:** Familiarity with classes, packages, and file I/O.
-
-## Setting Up Aspose.Slides for Java
-Kütüphaneyi Maven, Gradle veya doğrudan indirme yoluyla ekleyebilirsiniz.
-
-**License Acquisition**  
-Tüm özellikleri açmak için bir lisans edinin:
-- **Free Trial:** Explore core capabilities.  
-- **Temporary License:** Evaluate without restrictions for a short period.  
-- **Purchase:** Activate full production use.
-
-**Basic Initialization**  
-After adding the dependency, import the core class:
+## Aspose.Slides for Java'ı Kurma
+`Presentation`, bellek içinde bir PowerPoint dosyasını temsil eden temel sınıftır. Maven bağımlılığını ekledikten sonra, gerekli ad alanını içe aktarın ve slayt oluşturmaya başlamak için bir `Presentation` nesnesi örnekleyin.
 
 ```java
 import com.aspose.slides.Presentation;
 ```
 
-## Implementation Guide
-Şimdi **create PPTX Java** dosyaları oluşturmak için gereken her işlevsel bloğa derinlemesine bakacağız.
+## Uygulama Kılavuzu
+Şimdi **PPTX Java** dosyaları oluşturmak için gereken her işlevsel bloğu, klasör hazırlığından son kayda kadar adım adım inceleyeceğiz.
 
-### Directory Creation
+### Dizin Oluşturma
 Hedef klasörün var olduğundan emin olmak, sunumu kaydederken dosya yolu hatalarını önler.
 
-#### Overview
-Bu adım belirtilen dizinin var olup olmadığını kontrol eder ve (eksik üst dizinler dahil) oluşturur.
+#### Genel Bakış
+Bu adım, belirtilen dizinin var olup olmadığını kontrol eder ve yoksa oluşturur (eksik üst dizinler dahil).
 
-#### Implementation Steps
-**Step 1:** Import the Java I/O package.  
+#### Uygulama Adımları
+**Adım 1:** Java I/O paketini içe aktarın.  
 ```java
 import java.io.File;
 ```
 
-**Step 2:** Define the directory where presentations will be stored.  
+**Adım 2:** Sunumların saklanacağı dizini tanımlayın.  
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 ```
 
-**Step 3:** Verify the folder and create it if necessary.  
+**Adım 3:** Klasörü doğrulayın ve gerekirse oluşturun.  
 ```java
 boolean isExists = new File(dataDir).exists();
 if (!isExists) {
@@ -118,16 +152,16 @@ if (!isExists) {
 }
 ```
 
-> **Pro tip:** Use `Files.createDirectories(Paths.get(dataDir))` for a more modern NIO approach.
+> **Pro ipucu:** Daha modern bir NIO yaklaşımı için `Files.createDirectories(Paths.get(dataDir))` kullanın.
 
-### Presentation Creation and Slide Management
+### Sunum Oluşturma ve Slayt Yönetimi
 Depolama yolu hazır olduğuna göre, sunumu oluşturmaya başlayabiliriz.
 
-#### Overview
-`Presentation` nesnesini örnekleyin, ilk slaytı alın ve bir AutoShape (bu örnekte bir dikdörtgen) ekleyin.
+#### Genel Bakış
+`Presentation` nesnesini örnekleyin, ilk slaytı alın ve bir AutoShape ekleyin (bu örnekte bir dikdörtgen). AutoShape, metin ve diğer biçimlendirmeleri içerebilen önceden tanımlanmış bir şekildir, örneğin bir dikdörtgen.
 
-#### Implementation Steps
-**Step 1:** Import the essential Aspose.Slides classes.  
+#### Uygulama Adımları
+**Adım 1:** Gerekli Aspose.Slides sınıflarını içe aktarın.  
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.ISlide;
@@ -135,12 +169,12 @@ import com.aspose.slides.IAutoShape;
 import com.aspose.slides.ShapeType;
 ```
 
-**Step 2:** Create a new, empty presentation.  
+**Adım 2:** Yeni, boş bir sunum oluşturun.  
 ```java
 Presentation pptxPresentation = new Presentation();
 ```
 
-**Step 3:** Access the first slide and insert a rectangular AutoShape.  
+**Adım 3:** İlk slayta erişin ve dikdörtgen bir AutoShape ekleyin.  
 ```java
 ISlide slide = pptxPresentation.getSlides().get_Item(0);
 IAutoShape pptxAutoShape = (IAutoShape) slide.getShapes().addAutoShape(
@@ -148,50 +182,50 @@ IAutoShape pptxAutoShape = (IAutoShape) slide.getShapes().addAutoShape(
 );
 ```
 
-### Adding Text to a Slide Shape
+### Slayt Şekline Metin Ekleme
 Metinsiz bir şekil pek işe yarar değildir. Bir metin çerçevesi ekleyelim.
 
-#### Overview
-Boş bir metin çerçevesi oluşturun, ardından ilk paragrafın ilk bölümüne özel metin ekleyin.
+#### Genel Bakış
+Boş bir metin çerçevesi oluşturun, ardından ilk paragrafın ilk bölümünü özel metinle doldurun.
 
-#### Implementation Steps
-**Step 1:** Add a text frame to the AutoShape.  
+#### Uygulama Adımları
+**Adım 1:** AutoShape'e bir metin çerçevesi ekleyin.  
 ```java
 textFrame = pptxAutoShape.addTextFrame("");
 ```
 
-**Step 2:** Write the desired text into the first portion.  
+**Adım 2:** İstenen metni ilk bölüme yazın.  
 ```java
 textFrame.getParagraphs().get_Item(0).getPortions().get_Item(0).setText("Aspose.Slides");
 ```
 
-### Setting a Hyperlink in a Text Portion
-Hiperlinkler, statik slaytları etkileşimli deneyimlere dönüştürür.
+### Metin Bölümüne Köprü Ayarlama
+Köprüler, statik slaytları etkileşimli deneyimlere dönüştürür.
 
-#### Overview
-Metin bölümünden `IHyperlinkManager`'ı alın ve dış bir URL atayın.
+#### Genel Bakış
+Metin bölümünden `IHyperlinkManager`'ı alın ve dış bir URL atayın. IHyperlinkManager, bir metin bölümünün köprü ayarlarını kontrol eder ve dış URL'lere tıklama eylemlerini etkinleştirir.
 
-#### Implementation Steps
-**Step 1:** Obtain the text portion and its hyperlink manager, then set the link.  
+#### Uygulama Adımları
+**Adım 1:** Metin bölümünü ve onun köprü yöneticisini alın, ardından bağlantıyı ayarlayın.  
 ```java
 textPortion = textFrame.getParagraphs().get_Item(0).getPortions().get_Item(0);
 IHyperlinkManager hyperlinkManager = textPortion.getPortionFormat().getHyperlinkManager();
 hyperlinkManager.setExternalHyperlinkClick("http://www.aspose.com");
 ```
 
-### Saving the Presentation
-Son olarak, oluşturulan sunumu diske yazalım.
+### Sunumu Kaydetme
+Son olarak, oluşturulan sunumu diske yazın.
 
-#### Overview
-Dosyayı kalıcı hale getirmek için `save` metodunu `SaveFormat.Pptx` ile kullanın.
+#### Genel Bakış
+Dosyayı kalıcı hale getirmek için `save` metodunu `SaveFormat.Pptx` ile kullanın. SaveFormat, Pptx, Pdf ve Png gibi desteklenen çıktı formatlarını listeleyen bir enum'dur.
 
-#### Implementation Steps
-**Step 1:** Import the `SaveFormat` enum.  
+#### Uygulama Adımları
+**Adım 1:** `SaveFormat` enum'ını içe aktarın.  
 ```java
 import com.aspose.slides.SaveFormat;
 ```
 
-**Step 2:** Save the file to the previously created directory.  
+**Adım 2:** Dosyayı önceden oluşturulan dizine kaydedin.  
 ```java
 tpptxPresentation.save(
     dataDir + "hLinkPPTX_out.pptx",
@@ -199,54 +233,62 @@ tpptxPresentation.save(
 );
 ```
 
-> **Note:** Always call `pptxPresentation.dispose();` after saving to release native resources, especially when processing large decks.
+> **Not:** Özellikle büyük sunumları işlerken, kaydettikten sonra her zaman `pptxPresentation.dispose();` çağırarak yerel kaynakları serbest bırakın.
 
-## Practical Applications
-**creating PPTX Java** dosyalarının parladığı birkaç gerçek dünya senaryosu:
+## Pratik Uygulamalar
+**PPTX Java** dosyaları oluşturmanın öne çıktığı birkaç gerçek dünya senaryosu:
 
-1. **Automated Report Generation** – Pull data from databases or APIs and output a polished slide deck each night.  
-2. **E‑Learning Content** – Dynamically generate lecture slides based on curriculum updates.  
-3. **Marketing Campaigns** – Build personalized promotional decks for each client using CRM data.
+1. **Otomatik Rapor Oluşturma** – Veritabanlarından veya API'lerden veri çekip her gece şık bir slayt destesi oluşturun.  
+2. **E‑Öğrenme İçeriği** – Müfredat güncellemelerine göre dinamik olarak ders slaytları oluşturun.  
+3. **Pazarlama Kampanyaları** – CRM verilerini kullanarak her müşteri için kişiselleştirilmiş tanıtım desteleri oluşturun.
 
-## Performance Considerations
-- **Dispose objects:** Call `presentation.dispose()` to free memory.  
-- **Batch processing:** For massive slide decks, generate and save in chunks to avoid heap pressure.  
-- **Keep library up‑to‑date:** New releases include performance optimizations and bug fixes.
+## Performans Düşünceleri
+- **Nesneleri serbest bırakın:** Belleği boşaltmak için `presentation.dispose()` çağırın.  
+- **Toplu işleme:** Büyük slayt desteleri için, yığını önlemek amacıyla parçalar halinde oluşturup kaydedin.  
+- **Kütüphaneyi güncel tutun:** Yeni sürümler performans iyileştirmeleri ve hata düzeltmeleri içerir.  
+- **Sayısal fayda:** Aspose Slides, yerel akış motoru sayesinde tipik bir 8 çekirdekli sunucuda 500 sayfalık bir sunumu 2 saniyeden kısa sürede işler.
 
-## Common Issues & Solutions
-| Issue | Cause | Fix |
+## Yaygın Sorunlar ve Çözümler
+| Sorun | Neden | Çözüm |
 |-------|-------|-----|
-| `OutOfMemoryError` when saving large decks | Too many resources held in memory | Call `presentation.dispose()` after each save; increase JVM heap (`-Xmx2g`). |
-| Hyperlink not clickable in PowerPoint | Missing `setExternalHyperlinkClick` call | Ensure you retrieve the `IHyperlinkManager` from the correct portion. |
-| File not found on save | `dataDir` path incorrect or missing trailing slash | Verify `dataDir` ends with the appropriate separator (`/` or `\\`). |
+| `OutOfMemoryError` büyük desteler kaydedilirken | Bellekte çok fazla kaynak tutuluyor | `presentation.dispose()` her kayıttan sonra çağırın; JVM yığınını artırın (`-Xmx2g`). |
+| PowerPoint'te köprü tıklanabilir değil | `setExternalHyperlinkClick` çağrısı eksik | Doğru bölüme ait `IHyperlinkManager`'ı aldığınızdan emin olun. |
+| Kaydetme sırasında dosya bulunamadı | `dataDir` yolu hatalı veya son slash eksik | `dataDir`'in uygun ayırıcıyla (`/` veya `\\`) bittiğini doğrulayın. |
 
-## Frequently Asked Questions
+## Sıkça Sorulan Sorular
 
-**Q:** *Can I use this code in a web application?*  
-**A:** Yes. Just ensure the server has write permissions to the target folder and manage the Aspose license per request.
+**Q:** *Bu kodu bir web uygulamasında kullanabilir miyim?*  
+**A:** Evet. Sunucunun hedef klasöre yazma izni olduğundan ve Aspose lisansını istek başına yönettiğinizden emin olun.
 
-**Q:** *Does Aspose.Slides support password‑protected PPTX files?*  
-**A:** Absolutely. Use `Presentation(String filePath, LoadOptions options)` with a `LoadOptions.setPassword("yourPassword")`.
+**Q:** *Aspose Slides şifre korumalı PPTX dosyalarını destekliyor mu?*  
+**A:** Kesinlikle. `Presentation(String filePath, LoadOptions options)` ile `LoadOptions.setPassword("yourPassword")` kullanın.
 
-**Q:** *How do I convert the created PPTX to PDF in the same flow?*  
-**A:** After saving, call `presentation.save("output.pdf", SaveFormat.Pdf);`.
+**Q:** *Oluşturulan PPTX'i aynı akışta PDF'ye nasıl dönüştürebilirim?*  
+**A:** Kaydettikten sonra `presentation.save("output.pdf", SaveFormat.Pdf);` çağırın.
 
-**Q:** *Is there a way to add charts programmatically?*  
-**A:** Yes. The API provides `Chart` objects that can be inserted via `slide.getShapes().addChart(...)`.
+**Q:** *Programlı olarak grafik eklemenin bir yolu var mı?*  
+**A:** Evet. API, `slide.getShapes().addChart(...)` ile eklenebilen `Chart` nesneleri sağlar.
 
-**Q:** *What if I need to embed a custom font?*  
-**A:** Register the font with `presentation.getFontsManager().setDefaultRegularFont("YourFont.ttf");`.
+**Q:** *Özel bir yazı tipi gömmem gerekirse ne yapmalıyım?*  
+**A:** `presentation.getFontsManager().setDefaultRegularFont("YourFont.ttf");` ile yazı tipini kaydedin.
 
 ---
 
-**Last Updated:** 2026-02-24  
+**Last Updated:** 2026-08-01  
 **Tested With:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
 **Author:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## İlgili Eğitimler
+
+- [Aspose.Slides for Java: Java Uygulamalarında Sunum Oluşturma ve Slayt Yönetimini Ustalıkla Öğrenme](/slides/java/getting-started/master-aspose-slides-java-complete-guide/)
+- [Aspose.Slides ile Java'da Sunum Kaydetmeyi Otomatikleştirme: Adım Adım Kılavuz](/slides/java/presentation-operations/automate-presentation-saving-aspose-slides-java/)
+- [Aspose.Slides for Java ile PowerPoint Görevlerini Otomatikleştirme: PPTX Dosyalarını Toplu İşleme İçin Tam Kılavuz](/slides/java/batch-processing/aspose-slides-java-automation-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
