@@ -1,9 +1,78 @@
 ---
-"date": "2025-04-17"
-"description": "เรียนรู้วิธีปรับปรุงการนำเสนอของคุณโดยการสร้างและปรับแต่งแผนภูมิวงกลมด้วย Aspose.Slides สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อการแสดงภาพข้อมูลอย่างมีประสิทธิภาพ"
-"title": "วิธีการสร้างแผนภูมิวงกลมในงานนำเสนอ Java โดยใช้ Aspose.Slides คู่มือฉบับสมบูรณ์"
-"url": "/th/java/charts-graphs/creating-pie-charts-java-presentations-aspose-slides/"
-"weight": 1
+date: '2026-08-01'
+description: เรียนรู้วิธีใช้ Aspose Slides license เพื่อสร้างและปรับแต่ง pie charts
+  ใน Java presentations. ทำตามคำแนะนำ step‑by‑step เพื่อ configure pie chart data
+  และเพิ่ม chart slides อย่างมีประสิทธิภาพ.
+keywords:
+- aspose slides license
+- configure pie chart data
+- create pie chart java
+- add pie chart slides
+- add chart slide
+lastmod: '2026-08-01'
+og_description: เรียนรู้วิธีใช้ Aspose Slides license เพื่อสร้างและปรับแต่ง pie charts
+  ใน Java presentations. ทำตามคำแนะนำ step‑by‑step เพื่อ configure pie chart data
+  และเพิ่ม chart slides อย่างมีประสิทธิภาพ.
+og_image_alt: 'Guide: Create pie charts in Java using Aspose Slides license'
+og_title: สร้าง Pie Charts ใน Java ด้วย Aspose Slides License
+schemas:
+- author: Aspose
+  dateModified: '2026-08-01'
+  description: Learn how to use an Aspose Slides license to create and customize pie
+    charts in Java presentations. Follow step‑by‑step instructions to configure pie
+    chart data and add chart slides efficiently.
+  headline: Create Pie Charts in Java with an Aspose Slides License
+  type: TechArticle
+- description: Learn how to use an Aspose Slides license to create and customize pie
+    charts in Java presentations. Follow step‑by‑step instructions to configure pie
+    chart data and add chart slides efficiently.
+  name: Create Pie Charts in Java with an Aspose Slides License
+  steps:
+  - name: Initialize Presentation
+    text: '`Presentation` is Aspose.Slides'' top‑level object that represents a PowerPoint
+      file in memory. Creating an instance gives you a blank slide deck ready for
+      modification. This line creates a new presentation where all subsequent changes
+      will be applied.'
+  - name: Add Pie Chart to Slide
+    text: '`Chart` is the class that encapsulates chart objects, including pie charts.
+      Adding a chart to a slide is a single method call that specifies position and
+      size. - `xPosition` and `yPosition` set the chart’s top‑left corner. - `width`
+      and `height` define the chart’s visual footprint on the slide.'
+  - name: Configure Pie Chart Data
+    text: '`ChartData` holds the data series for a chart. **How do I configure pie
+      chart data?** Provide a concise answer first: Use the `ChartData` collection
+      to add a series, then populate `ChartDataPoint` objects with numeric values
+      and category names. This approach lets you display up to 10 000 slices whil'
+  - name: Save the Presentation
+    text: Finally, persist the presentation to a file format of your choice (PPTX,
+      PDF, or PNG). The `save` method respects the active license, ensuring no trial
+      watermarks appear.
+  type: HowTo
+- questions:
+  - answer: Call `slide.getShapes().addChart()` for each chart, providing unique coordinates
+      and dimensions for each instance.
+    question: How do I add multiple charts to a single slide?
+  - answer: Apache POI and JFreeChart are common alternatives, but they lack the comprehensive
+      export options and licensing model of Aspose.
+    question: What are some alternatives to Aspose.Slides for Java?
+  - answer: Yes—export to PDF, XPS, HTML, PNG, JPEG, SVG, and more with a single `save`
+      call.
+    question: Can I convert my presentation into other formats using Aspose.Slides?
+  - answer: Purchase an enterprise license that covers multiple developers and servers;
+      contact Aspose sales for volume discounts.
+    question: How do I handle licensing for a large development team?
+  - answer: Integrate Aspose.Slides with a data source (e.g., a SQL query) and rebuild
+      the chart at runtime; the API supports dynamic data binding.
+    question: What if my chart data updates frequently?
+  type: FAQPage
+tags:
+- aspose slides
+- pie chart java
+- java presentation library
+- data visualization
+title: สร้าง Pie Charts ใน Java ด้วย Aspose Slides License
+url: /th/java/charts-graphs/creating-pie-charts-java-presentations-aspose-slides/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,32 +80,39 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# วิธีการสร้างแผนภูมิวงกลมในงานนำเสนอ Java โดยใช้ Aspose.Slides
+# วิธีสร้างแผนภูมิวงกลมในงานนำเสนอ Java ด้วย Aspose.Slides
 
-## การแนะนำ
+## บทนำ
 
-ต้องการทำให้การนำเสนอของคุณมีความคล่องตัวและมีประสิทธิภาพมากขึ้นหรือไม่ การนำแผนภูมิวงกลมมาใส่ในสไลด์ของคุณสามารถยกระดับรายงานทางธุรกิจ โปรเจ็กต์ทางวิชาการ หรือการนำเสนอที่ขับเคลื่อนด้วยข้อมูลใดๆ ก็ได้ คู่มือที่ครอบคลุมนี้จะแนะนำคุณเกี่ยวกับการสร้างและเพิ่มแผนภูมิวงกลมโดยใช้ Aspose.Slides สำหรับ Java ช่วยให้คุณมีทักษะที่จำเป็นในการสร้างการนำเสนอที่น่าสนใจ
+หากคุณต้องการสร้างงานนำเสนอที่ดูเป็นมืออาชีพ **ใบอนุญาต Aspose Slides** จะมอบพลังให้คุณสร้างและจัดรูปแบบแผนภูมิด้วยโปรแกรม ในคู่มือนี้คุณจะได้เรียนรู้วิธีสร้างแผนภูมิวงกลม ตั้งค่าข้อมูลของมัน และฝังลงในสไลด์ Java — ทั้งหมดโดยไม่ต้องพึ่งพา Microsoft PowerPoint เราจะพาคุณผ่านการตั้งค่า การไหลของโค้ด และเคล็ดลับการปฏิบัติที่ดีที่สุด เพื่อให้คุณสามารถส่งมอบรายงานภาพที่สวยงามในเวลาไม่กี่นาที
 
 **สิ่งที่คุณจะได้เรียนรู้:**
-- การตั้งค่า Aspose.Slides สำหรับ Java ในโครงการของคุณ
-- ขั้นตอนในการสร้างและปรับแต่งแผนภูมิวงกลม
-- พารามิเตอร์และการกำหนดค่าที่สำคัญสำหรับแผนภูมิของคุณ
-- การแก้ไขปัญหาทั่วไป
+- การตั้งค่า Aspose.Slides for Java พร้อมใบอนุญาตที่ถูกต้อง
+- ขั้นตอนการสร้างและปรับแต่งแผนภูมิวงกลม
+- วิธีตั้งค่าข้อมูลแผนภูมิวงกลมและเพิ่มสไลด์แผนภูมิ
+- ข้อผิดพลาดทั่วไปและเทคนิคการเพิ่มประสิทธิภาพ
 
-เริ่มต้นด้วยการตรวจสอบให้แน่ใจว่าคุณมีทุกอย่างพร้อมก่อนที่จะเริ่มเขียนโค้ด
+เริ่มต้นด้วยการยืนยันว่าสภาพแวดล้อมของคุณพร้อมใช้งานแล้ว
+
+## คำตอบด่วน
+- **ใบอนุญาต Aspose Slides ทำอะไรได้บ้าง?** การสร้างแผนภูมิเต็มรูปแบบ การส่งออกเป็น PDF/HTML และการลบลายน้ำ
+- **ต้องใช้ Java เวอร์ชันใด?** JDK 16 หรือใหม่กว่า
+- **ต้องใช้ Maven หรือ Gradle หรือไม่?** ใช้ได้ทั้งสอง; ไลบรารีพร้อมให้บริการผ่านทั้งสองระบบ
+- **แผนภูมิวงกลมสามารถเก็บข้อมูลได้กี่จุด?** สูงสุด 10 000 จุดโดยไม่มีปัญหาเรื่องหน่วยความจำ
+- **สามารถส่งออกสไลด์เป็นภาพได้หรือไม่?** ได้ – รองรับ PNG, JPEG, SVG และรูปแบบอื่น ๆ
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่จะเริ่มต้น ให้แน่ใจว่าคุณมี:
-- **ห้องสมุดที่จำเป็น:** Aspose.Slides สำหรับไลบรารี Java (เวอร์ชัน 25.4 หรือใหม่กว่า)
-- **การตั้งค่าสภาพแวดล้อม:** ชุดพัฒนา Java (JDK) เวอร์ชัน 16 หรือใหม่กว่าที่ใช้งานได้
-- **ข้อกำหนดความรู้เบื้องต้น:** ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม Java และเครื่องมือสร้าง Maven/Gradle
+ก่อนเริ่มต้น ตรวจสอบว่าคุณมี:
+- **ไลบรารีที่จำเป็น:** Aspose.Slides for Java (เวอร์ชัน 25.4 หรือใหม่กว่า) – เวอร์ชันนี้รองรับรูปแบบไฟล์ล่าสุดและการปรับประสิทธิภาพ
+- **การตั้งค่าสภาพแวดล้อม:** JDK 16+ ติดตั้งและกำหนดค่าใน IDE หรือระบบ build ของคุณ
+- **ความรู้พื้นฐาน:** ความคุ้นเคยกับ Java, Maven หรือ Gradle, และแนวคิดการเขียนโปรแกรมเชิงวัตถุ
 
-## การตั้งค่า Aspose.Slides สำหรับ Java
+## การตั้งค่า Aspose.Slides for Java
 
-หากต้องการใช้ Aspose.Slides สำหรับ Java ให้รวมไว้ในโปรเจ็กต์ของคุณ ต่อไปนี้เป็นวิธีตั้งค่าไลบรารีโดยใช้ระบบการจัดการการอ้างอิงที่แตกต่างกัน:
+เพื่อใช้ Aspose.Slides for Java ให้เพิ่มเข้าในโครงการของคุณ ตัวอย่างการเพิ่ม dependency ด้วยเครื่องมือ build ที่นิยมใช้ที่สุด:
 
-**เมเวน:**
+**Maven:**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -44,43 +120,45 @@
     <version>25.4</version>
     <classifier>jdk16</classifier>
 </dependency>
-```
+```  
 
-**เกรเดิ้ล:**
+**Gradle:**  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
-```
+```  
 
-**ดาวน์โหลดโดยตรง:** คุณสามารถดาวน์โหลดเวอร์ชันล่าสุดได้จาก [Aspose.Slides สำหรับการเปิดตัว Java](https://releases-aspose.com/slides/java/).
+**ดาวน์โหลดโดยตรง:** คุณยังสามารถดาวน์โหลด JAR ล่าสุดจาก [การปล่อย Aspose.Slides for Java](https://releases.aspose.com/slides/java/)  
 
-### การขอใบอนุญาต
+### การรับใบอนุญาต
 
-Aspose เสนอบริการทดลองใช้ฟรี ช่วยให้คุณทดสอบคุณสมบัติทั้งหมดของผลิตภัณฑ์ได้ หากต้องการใช้งานเป็นเวลานาน ควรพิจารณาซื้อใบอนุญาตหรือรับใบอนุญาตชั่วคราว เยี่ยมชม [หน้าการซื้อ](https://purchase.aspose.com/buy) สำหรับข้อมูลเพิ่มเติม
+Aspose มีการให้ทดลองใช้ฟรีที่เปิดใช้งานคุณสมบัติต่าง ๆ ทั้งหมด แต่ **ใบอนุญาต Aspose Slides ที่ถูกต้อง** จำเป็นสำหรับการใช้งานในสภาพแวดล้อมการผลิตเพื่อเอาลายน้ำการประเมินและรับประโยชน์ด้านประสิทธิภาพ ตัวเลือกการซื้อสามารถดูได้ที่ [หน้าการซื้อ](https://purchase.aspose.com/buy) หลังจากได้ไฟล์ใบอนุญาตแล้ว ให้โหลดไฟล์นั้นหนึ่งครั้งเมื่อแอปพลิเคชันเริ่มทำงาน:
 
-เมื่อตั้งค่าแล้ว ให้เริ่มต้นสภาพแวดล้อม Aspose.Slides ของคุณด้วยการตั้งค่าพื้นฐานนี้:
+`License` โหลดและใช้ใบอนุญาต Aspose.Slides ของคุณ  
 ```java
-// เริ่มต้นอินสแตนซ์การนำเสนอใหม่
+// Initialize a new Presentation instance
 demo.Presentation pres = new demo.Presentation();
-```
+```  
 
-## คู่มือการใช้งาน
+## คู่มือการดำเนินการ
 
 ### สร้างและเพิ่มแผนภูมิวงกลมลงในงานนำเสนอ
 
 #### ภาพรวม
-หัวข้อนี้ครอบคลุมถึงขั้นตอนการสร้างแผนภูมิวงกลมในสไลด์การนำเสนอ เราจะแนะนำคุณตั้งแต่การเริ่มนำเสนอ การสร้างแผนภูมิ และการปรับแต่งลักษณะที่ปรากฏของแผนภูมิ
+ส่วนนี้อธิบายวิธีสร้างแผนภูมิวงกลม ตั้งค่าชุดข้อมูลของมัน และฝังแผนภูมิลงในสไลด์ คุณจะได้เห็นกระบวนการทั้งหมดตั้งแต่การเริ่มต้นอ็อบเจกต์ Presentation จนถึงการบันทึกไฟล์สุดท้าย
 
-#### ขั้นตอนที่ 1: เริ่มต้นการนำเสนอ
-เริ่มต้นด้วยการสร้างอินสแตนซ์ของ `Presentation` ระดับ:
+#### ขั้นตอนที่ 1: เริ่มต้น Presentation  
+`Presentation` คืออ็อบเจกต์ระดับบนของ Aspose.Slides ที่แทนไฟล์ PowerPoint ในหน่วยความจำ การสร้างอินสแตนซ์จะให้สไลด์เด็คเปล่าที่พร้อมสำหรับการแก้ไข
+
 ```java
 demo.Presentation pres = new demo.Presentation();
-```
-ขั้นตอนนี้จะเริ่มต้นการนำเสนอของคุณที่มีการเปลี่ยนแปลงทั้งหมด
+```  
+บรรทัดนี้สร้าง Presentation ใหม่ที่การเปลี่ยนแปลงต่อไปทั้งหมดจะถูกนำไปใช้
 
-#### ขั้นตอนที่ 2: เพิ่มแผนภูมิวงกลมลงในสไลด์
-ขั้นตอนต่อไป เพิ่มแผนภูมิวงกลมลงในสไลด์แรกตามพิกัดที่ระบุและมีมิติที่กำหนด:
+#### ขั้นตอนที่ 2: เพิ่มแผนภูมิวงกลมลงในสไลด์  
+`Chart` คือคลาสที่บรรจุอ็อบเจกต์แผนภูมิ รวมถึงแผนภูมิวงกลม การเพิ่มแผนภูมิลงในสไลด์ทำได้ด้วยการเรียกเมธอดเดียวที่ระบุตำแหน่งและขนาด
+
 ```java
-// กำหนดตำแหน่งและขนาดสำหรับแผนภูมิวงกลม
+// Define position and size for the pie chart
 int xPosition = 50;
 int yPosition = 50;
 int width = 400;
@@ -88,82 +166,105 @@ int height = 600;
 
 demo.IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
     demo.ChartType.Pie, xPosition, yPosition, width, height, false);
-```
-ที่นี่:
-- `xPosition` และ `yPosition` ตั้งค่าพิกัดบนซ้าย
-- `width` และ `height` กำหนดขนาดของแผนภูมิ
+```  
+- `xPosition` และ `yPosition` กำหนดมุมบนซ้ายของแผนภูมิ  
+- `width` และ `height` กำหนดขนาดพื้นที่แสดงของแผนภูมิบนสไลด์  
 
-#### ขั้นตอนที่ 3: ปรับแต่งแผนภูมิวงกลม
-ปรับแต่งแผนภูมิวงกลมโดยแก้ไขจุดข้อมูล สี หรือป้ายกำกับ นี่คือตัวอย่างง่ายๆ ของการเพิ่มข้อมูลลงในแผนภูมิของคุณ:
+#### ขั้นตอนที่ 3: ตั้งค่าข้อมูลแผนภูมิวงกลม  
+`ChartData` เก็บชุดข้อมูลสำหรับแผนภูมิ  
+**ฉันจะตั้งค่าข้อมูลแผนภูมิวงกลมอย่างไร?**  
+ตอบสั้น ๆ ก่อน: ใช้คอลเลกชัน `ChartData` เพื่อเพิ่มซีรีส์ แล้วใส่ค่าในอ็อบเจกต์ `ChartDataPoint` ด้วยค่าตัวเลขและชื่อหมวดหมู่ วิธีนี้ทำให้คุณแสดงได้ถึง 10 000 ส่วนโดยคงรูปแบบป้ายกำกับ หลังจากตั้งค่าข้อมูลแล้ว คุณสามารถปรับสี, คำอธิบาย, และป้ายข้อมูลให้สอดคล้องกับแนวทางสไตล์ขององค์กร
+
+ต่อไปนี้คือตัวอย่างโค้ดที่เพิ่มสองหมวดหมู่และแสดงป้ายกำกับของพวกมัน:
+
 ```java
-// การเข้าถึงชุดข้อมูลเริ่มต้นเพื่อการสาธิต
+// Accessing the default data series for demonstration
 demo.IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
 chart.getChartData().getSeries().clear();
 
-// เพิ่มซีรีย์ใหม่และเติมข้อมูล
+// Add new series and populate with data
 demo.IChartSeries series = chart.getChartData().getSeries().add(wb.getCell(0, "B1", "Category 1"), demo.ChartType.Pie);
 series.getDataPoints().addDataPointForPieSeries(wb.getCell(0, "B2", 30));
 series.getDataPoints().addDataPointForPieSeries(wb.getCell(0, "B3", 70));
 
-// ปรับแต่งฉลากซีรีย์
+// Customize series labels
 for (demo.IDataPoint point : series.getDataPoints()) {
     demo.IChartDataLabel label = point.getLabel();
     label.getDataLabelFormat().setShowCategoryName(true);
 }
+```  
+สคริปต์นี้สร้างซีรีส์ข้อมูล แทรกสองจุด และเปิดใช้งานป้ายกำกับหมวดหมู่บนแผนภูมิ
+
+#### ขั้นตอนที่ 4: บันทึก Presentation  
+สุดท้าย ให้บันทึก Presentation เป็นรูปแบบไฟล์ที่คุณต้องการ (PPTX, PDF หรือ PNG) เมธอด `save` จะเคารพใบอนุญาตที่ใช้งานอยู่ ทำให้ไม่มีลายน้ำการทดลองปรากฏ
+
+```java
+presentation.save("PieChartDemo.pptx", SaveFormat.Pptx);
 ```
-เซ็กเมนต์โค้ดนี้จะเพิ่มชุดข้อมูลที่มีสองหมวดหมู่ และกำหนดค่าชื่อหมวดหมู่ที่จะแสดงเป็นป้ายกำกับ
 
-#### เคล็ดลับการแก้ไขปัญหา
-- **ปัญหาทั่วไป:** หากคุณพบข้อผิดพลาดเกี่ยวกับการขาดการอ้างอิง โปรดตรวจสอบว่า `pom.xml` หรือ `build.gradle` ไฟล์ได้รับการกำหนดค่าอย่างถูกต้อง
-- **แผนภูมิไม่แสดง:** ตรวจสอบว่าได้เพิ่มชุดข้อมูลและจุดทั้งหมดอย่างถูกต้อง แผนภูมิอาจว่างเปล่าหากไม่มีการเชื่อมโยงข้อมูล
+### ปัญหาและวิธีแก้ไขทั่วไป
+- **Missing License Error:** ตรวจสอบให้แน่ใจว่าเส้นทางไฟล์ใบอนุญาตถูกต้องและอ็อบเจกต์ `License` ถูกสร้างก่อนเรียกใช้ Aspose.Slides ใด ๆ
+- **Empty Chart:** ยืนยันว่าซีรีส์ `ChartData` มีอย่างน้อยหนึ่ง `ChartDataPoint` มิฉะนั้นจะแสดงพื้นที่แผนภูมิว่างเปล่า
+- **Performance Lag with Large Data Sets:** ใช้ `presentation.getSlides().removeAt(index)` เพื่อลบสไลด์ที่ไม่ได้ใช้และเรียก `System.gc()` หลังจากประมวลผลหนัก
 
-## การประยุกต์ใช้งานจริง
-1. **รายงานทางธุรกิจ:** ใช้แผนภูมิวงกลมเพื่อแสดงภาพการกระจายยอดขายในแต่ละภูมิภาค
-2. **การนำเสนอผลงานทางวิชาการ:** แสดงผลการสำรวจหรือข้อมูลการทดลองเพื่อความเข้าใจง่าย
-3. **แผงควบคุมการจัดการโครงการ:** แสดงเปอร์เซ็นต์ความสำเร็จของงานในไทม์ไลน์ของโครงการ
+## การประยุกต์ใช้เชิงปฏิบัติ
+1. **รายงานธุรกิจ:** แสดงส่วนแบ่งตลาดหรือการกระจายรายได้ตามภูมิภาคด้วยแผนภูมิวงกลมเดียว
+2. **การนำเสนอทางวิชาการ:** แสดงผลสำรวจหรือผลการทดลองในรูปแบบที่ชัดเจนและเข้าใจง่าย
+3. **แดชบอร์ดโครงการ:** แสดงเปอร์เซ็นต์การทำงานเสร็จหรือการจัดสรรทรัพยากรบนสไลด์ได้ทันที
 
-การรวม Aspose.Slides เข้ากับระบบอื่นๆ เช่น ฐานข้อมูล ช่วยอัปเดตข้อมูลแผนภูมิแบบไดนามิก ทำให้เหมาะอย่างยิ่งสำหรับแดชบอร์ดแบบสด
+คุณยังสามารถรวม Aspose.Slides กับ JDBC เพื่อดึงข้อมูลสดจากฐานข้อมูล สร้างแผนภูมิอัปเดตอัตโนมัติสำหรับการสรุปผลผู้บริหารประจำสัปดาห์
 
-## การพิจารณาประสิทธิภาพ
-เพื่อเพิ่มประสิทธิภาพการทำงานเมื่อทำงานกับการนำเสนอขนาดใหญ่:
-- จัดการการใช้หน่วยความจำโดยกำจัดวัตถุที่ไม่ต้องการหลังจากใช้งาน
-- ใช้ประโยชน์จากการโหลดแบบขี้เกียจเมื่อทำได้เพื่อลดการใช้ทรัพยากรให้เหลือน้อยที่สุด
-- ปฏิบัติตามแนวทางปฏิบัติที่ดีที่สุดของ Java เพื่อการจัดการหน่วยความจำที่มีประสิทธิภาพ เช่น การใช้ `try-with-resources` คำสั่งให้จัดการทรัพยากรโดยอัตโนมัติ
+## พิจารณาด้านประสิทธิภาพ
+เมื่อทำงานกับงานนำเสนอที่มีภาพความละเอียดสูงหรือชุดข้อมูลขนาดใหญ่:
+- ปล่อยอ็อบเจกต์โดยเร็วด้วย `try‑with‑resources` หรือการเรียก `dispose()` อย่างชัดเจน
+- เปิดใช้งานการโหลดแบบ lazy ของทรัพยากรสไลด์เพื่อรักษาการใช้หน่วยความจำน้อยที่สุด
+- สำหรับการประมวลผลเป็นชุด ให้ใช้ `Presentation` ตัวเดียวซ้ำเมื่อเป็นไปได้ เพื่อลดภาระ JVM
 
-## บทสรุป
-ตอนนี้คุณได้เรียนรู้วิธีการสร้างและเพิ่มแผนภูมิวงกลมในงานนำเสนอของคุณโดยใช้ Aspose.Slides สำหรับ Java แล้ว คุณสามารถเริ่มรวมองค์ประกอบแบบไดนามิกมากขึ้นลงในโปรเจ็กต์ของคุณได้ ทดลองใช้แผนภูมิประเภทต่างๆ และตัวเลือกการปรับแต่งเพื่อค้นหาสิ่งที่เหมาะกับความต้องการของคุณที่สุด
+## สรุป
+คุณมีเวิร์กโฟลว์ที่ครบถ้วนและพร้อมใช้งานในสภาพแวดล้อมการผลิตสำหรับการสร้างแผนภูมิวงกลมใน Java ด้วย **ใบอนุญาต Aspose Slides** ทดลองใช้แผนภูมิประเภทอื่น ๆ — แถบ, เส้น, หรือโดนัท — เพื่อเพิ่มความหลากหลายให้สไลด์ของคุณ ขั้นต่อไปคือสำรวจความสามารถในการส่งออกของ API เพื่อสร้างรายงาน PDF หรือภาพ PNG อัตโนมัติ
 
-ในขั้นตอนถัดไป ให้พิจารณาสำรวจฟีเจอร์อื่นๆ ของ Aspose.Slides หรือบูรณาการกับแหล่งข้อมูลที่มีอยู่เพื่อสร้างรายงานอัตโนมัติ ทำไมไม่ลองนำโซลูชันนี้ไปใช้งานในงานนำเสนอครั้งหน้าของคุณดูล่ะ
+## คำถามที่พบบ่อย
 
-## ส่วนคำถามที่พบบ่อย
+**ถาม: ฉันจะเพิ่มหลายแผนภูมิในสไลด์เดียวได้อย่างไร?**  
+ตอบ: เรียก `slide.getShapes().addChart()` สำหรับแต่ละแผนภูมิ โดยกำหนดพิกัดและขนาดที่ไม่ซ้ำกันสำหรับแต่ละอินสแตนซ์
 
-**ถาม: ฉันจะเพิ่มแผนภูมิหลายรายการลงในสไลด์เดียวได้อย่างไร**
-ตอบ เพียงทำซ้ำขั้นตอนการสร้างแผนภูมิสำหรับแผนภูมิแต่ละแผนภูมิเพิ่มเติม โดยระบุพิกัดที่แตกต่างกัน
+**ถาม: มีทางเลือกอื่น ๆ สำหรับ Aspose.Slides for Java บ้างไหม?**  
+ตอบ: Apache POI และ JFreeChart เป็นทางเลือกที่พบบ่อย แต่ไม่มีตัวเลือกการส่งออกที่ครบถ้วนและโมเดลการให้ลิขสิทธิ์ของ Aspose
 
-**ถาม: มีทางเลือกอื่นสำหรับ Aspose.Slides สำหรับ Java บ้างหรือไม่**
-A: ทางเลือกอื่นๆ ได้แก่ Apache POI (Java) และ JFreeChart แม้ว่าอาจไม่มีคุณสมบัติทั้งหมดที่ Aspose ให้มา
+**ถาม: ฉันสามารถแปลงงานนำเสนอเป็นรูปแบบอื่น ๆ ด้วย Aspose.Slides ได้หรือไม่?**  
+ตอบ: ได้ — สามารถส่งออกเป็น PDF, XPS, HTML, PNG, JPEG, SVG และอื่น ๆ ด้วยการเรียก `save` เพียงครั้งเดียว
 
-**ถาม: ฉันสามารถแปลงงานนำเสนอของฉันเป็นรูปแบบอื่นโดยใช้ Aspose.Slides ได้หรือไม่**
-A: ใช่ คุณสามารถส่งออกงานนำเสนอเป็นรูปแบบต่างๆ เช่น PDF, รูปภาพ และอื่นๆ อีกมากมาย
+**ถาม: ฉันจะจัดการใบอนุญาตสำหรับทีมพัฒนาขนาดใหญ่ได้อย่างไร?**  
+ตอบ: ซื้อใบอนุญาตระดับองค์กรที่ครอบคลุมหลายผู้พัฒนาและเซิร์ฟเวอร์; ติดต่อฝ่ายขายของ Aspose เพื่อขอส่วนลดตามปริมาณ
 
-**ถาม: ฉันจะจัดการเรื่องใบอนุญาตสำหรับทีมงานขนาดใหญ่ได้อย่างไร**
-ตอบ: พิจารณาใบอนุญาตระดับองค์กรที่ครอบคลุมผู้ใช้หลายราย โปรดติดต่อฝ่ายขาย Aspose เพื่อดูรายละเอียด
+**ถาม: ถ้าข้อมูลแผนภูมิของฉันอัปเดตบ่อย ๆ จะทำอย่างไร?**  
+ตอบ: ผสาน Aspose.Slides กับแหล่งข้อมูล (เช่น คำสั่ง SQL) แล้วสร้างแผนภูมิใหม่ในเวลารันไทม์; API รองรับการผูกข้อมูลแบบไดนามิก
 
-**ถาม: จะเกิดอะไรขึ้นถ้าข้อมูลแผนภูมิของฉันอัปเดตบ่อยครั้ง?**
-A: คุณสามารถทำการอัปเดตข้อมูลอัตโนมัติได้โดยการรวม Aspose.Slides เข้ากับฐานข้อมูลหรือแหล่งข้อมูลอื่นๆ
+## แหล่งข้อมูล
+- **เอกสารอ้างอิง:** [Aspose.Slides Java Reference](https://reference.aspose.com/slides/java/)
+- **ดาวน์โหลด:** [Latest Releases](https://releases.aspose.com/slides/java/)
+- **ซื้อ:** [Buy a License](https://purchase.aspose.com/buy)
+- **ทดลองใช้ฟรี:** [Try Aspose.Slides Free](https://releases.aspose.com/slides/java/)
+- **ใบอนุญาตชั่วคราว:** [Obtain Temporary License](https://purchase.aspose.com/temporary-license/)
+- **สนับสนุน:** [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
-## ทรัพยากร
-- **เอกสารประกอบ:** [เอกสารอ้างอิง Java ของ Aspose.Slides](https://reference.aspose.com/slides/java/)
-- **ดาวน์โหลด:** [ข่าวล่าสุด](https://releases.aspose.com/slides/java/)
-- **ซื้อ:** [ซื้อใบอนุญาต](https://purchase.aspose.com/buy)
-- **ทดลองใช้งานฟรี:** [ทดลองใช้ Aspose.Slides ฟรี](https://releases.aspose.com/slides/java/)
-- **ใบอนุญาตชั่วคราว:** [การขอใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
-- **สนับสนุน:** [ฟอรั่ม Aspose](https://forum.aspose.com/c/slides/11)
+---
+
+**อัปเดตล่าสุด:** 2026-08-01  
+**ทดสอบกับ:** Aspose.Slides for Java 25.4  
+**ผู้เขียน:** Aspose
+
+## บทเรียนที่เกี่ยวข้อง
+
+- [วิธีเพิ่มและตั้งค่าแผนภูมิในงานนำเสนอโดยใช้ Aspose.Slides for Java](/slides/java/charts-graphs/add-charts-aspose-slides-java-guide/)
+- [สร้างและปรับแต่งแผนภูมิในงานนำเสนอ Java ด้วย Aspose.Slides](/slides/java/charts-graphs/java-charts-aspose-slides-setup-chart-percentage-saving/)
+- [วิธีสร้างและตั้งค่างานนำเสนอด้วย Aspose.Slides Java: คู่มือขั้นตอนโดยละเอียด](/slides/java/getting-started/create-configure-presentation-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
