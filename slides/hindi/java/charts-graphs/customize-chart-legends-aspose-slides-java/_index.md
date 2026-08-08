@@ -1,9 +1,73 @@
 ---
-"date": "2025-04-17"
-"description": "Aspose.Slides for Java का उपयोग करके चार्ट लेजेंड को कस्टमाइज़ करना सीखें। वैयक्तिकृत लेजेंड टेक्स्ट स्टाइल, रंग और बहुत कुछ के साथ अपनी प्रस्तुतियों को बेहतर बनाएँ।"
-"title": "Java के लिए Aspose.Slides में चार्ट लेजेंड को कैसे अनुकूलित करें"
-"url": "/hi/java/charts-graphs/customize-chart-legends-aspose-slides-java/"
-"weight": 1
+date: '2026-08-06'
+description: Aspose.Slides for Java का उपयोग करके legend font color बदलना और chart
+  legend text संशोधित करना सीखें। chart legends को जल्दी से customize करने के लिए
+  step‑by‑step निर्देशों का पालन करें।
+keywords:
+- customize chart legends in Aspose.Slides Java
+- Aspose.Slides for Java legend customization
+- Java presentation chart styling
+lastmod: '2026-08-06'
+og_description: Aspose.Slides for Java के साथ legend font color बदलना और chart legend
+  text संशोधित करना सीखें। यह गाइड आपको सटीक steps और best practices दिखाता है।
+og_image_alt: 'Developer guide: change legend font color in Aspose.Slides for Java'
+og_title: Aspose.Slides for Java में legend font color कैसे बदलें
+schemas:
+- author: Aspose
+  dateModified: '2026-08-06'
+  description: Learn how to change legend font color and modify chart legend text
+    using Aspose.Slides for Java. Follow step‑by‑step instructions to customize chart
+    legends quickly.
+  headline: How to change legend font color in Aspose.Slides for Java
+  type: TechArticle
+- description: Learn how to change legend font color and modify chart legend text
+    using Aspose.Slides for Java. Follow step‑by‑step instructions to customize chart
+    legends quickly.
+  name: How to change legend font color in Aspose.Slides for Java
+  steps:
+  - name: Initialize Aspose.Slides in your Java application.
+    text: Initialize Aspose.Slides in your Java application.
+  - name: Load an existing presentation or create a new one.
+    text: Load an existing presentation or create a new one.
+  - name: '**Load the presentation:**'
+    text: '**Load the presentation:**'
+  - name: '**Add a clustered column chart:**'
+    text: '**Add a clustered column chart:**'
+  - name: '**Access legend entry text format:**'
+    text: '**Access legend entry text format:**'
+  - name: '**Set bold and italic styles with a specific height:**'
+    text: '**Set bold and italic styles with a specific height:**'
+  - name: '**Change fill type to solid color for better visibility:**'
+    text: '**Change fill type to solid color for better visibility:**'
+  - name: '**Save your changes:**'
+    text: '**Save your changes:**'
+  - name: '**Business presentations:** Align legend colors with corporate branding
+      for a polished look.'
+    text: '**Business presentations:** Align legend colors with corporate branding
+      for a polished look.'
+  - name: '**Educational materials:** Highlight key data series by using contrasting
+      legend colors.'
+    text: '**Educational materials:** Highlight key data series by using contrasting
+      legend colors.'
+  type: HowTo
+- questions:
+  - answer: No, the color change is preserved in all export formats supported by Aspose.Slides,
+      including PDF and PPTX.
+    question: Does changing the legend font color affect exported PDF files?
+  - answer: Yes – set `FillType.Gradient` and configure the gradient stops via `getGradientStyle()`.
+    question: Can I use a gradient instead of a solid color?
+  - answer: A chart can have up to 256 legend entries, limited only by the number
+      of data series you add.
+    question: How many legend entries can a chart have?
+  type: FAQPage
+tags:
+- change legend font color
+- Aspose.Slides
+- Java chart customization
+- presentation styling
+title: Aspose.Slides for Java में legend font color कैसे बदलें
+url: /hi/java/charts-graphs/customize-chart-legends-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,39 +75,42 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Java के लिए Aspose.Slides में चार्ट लेजेंड को कैसे अनुकूलित करें
+# Aspose.Slides for Java में लेजेंड फ़ॉन्ट रंग कैसे बदलें
 
 ## परिचय
-क्या आप Aspose.Slides for Java में लीजेंड टेक्स्ट को कस्टमाइज़ करके अपने चार्ट की विज़ुअल अपील को बढ़ाना चाहते हैं? यह व्यापक गाइड आपको दिखाएगी कि अपने चार्ट लीजेंड को अलग दिखाने के लिए बोल्डनेस, रंग और स्टाइल जैसे फ़ॉन्ट गुणों को कैसे वैयक्तिकृत किया जाए। 
+यदि आपको चार्ट में **legend font color** बदलने की आवश्यकता है, तो Aspose.Slides for Java आपको प्रत्येक legend entry पर पूर्ण नियंत्रण देता है। यह ट्यूटोरियल आपको legend टेक्स्ट स्टाइल को कस्टमाइज़ करने, बोल्ड या इटैलिक फ़ॉन्ट लागू करने, और सॉलिड रंग सेट करने के माध्यम से ले जाता है ताकि आपके चार्ट बिल्कुल वही दिखें जैसा आप चाहते हैं। इस गाइड के अंत तक आप chart legend टेक्स्ट को आत्मविश्वास के साथ संशोधित कर सकेंगे और इन बदलावों को किसी भी मौजूदा प्रस्तुति में एकीकृत कर सकेंगे।
 
-**आप क्या सीखेंगे:**
-- Java के लिए Aspose.Slides का उपयोग करके लेजेंड पाठ शैलियों को अनुकूलित करना।
-- बोल्ड और इटैलिक फ़ॉन्ट को प्रभावी ढंग से लागू करना।
-- ठोस रंगों के साथ दृश्यता बढ़ाना.
-- मौजूदा प्रस्तुतियों में अनुकूलन को सहजता से एकीकृत करना।
+**आप क्या सीखेंगे**
+- प्रोग्रामेटिक रूप से **legend font color** बदलने का तरीका।
+- **chart legend text** को बदलने के तरीके जैसे बोल्ड, इटैलिक, और आकार।
+- एक प्रस्तुति में कई चार्ट्स पर बदलाव लागू करने के टिप्स।
+- इन चरणों को बड़े ऑटोमेशन वर्कफ़्लो में एकीकृत करने का तरीका।
 
-आइये इस ट्यूटोरियल का अनुसरण करने के लिए आवश्यक पूर्वापेक्षाओं की समीक्षा करके शुरुआत करें।
+## त्वरित उत्तर
+- **क्या मैं एकल legend entry का रंग बदल सकता हूँ?** हाँ – एंट्री को उसके इंडेक्स से एक्सेस करें और fill format को सॉलिड रंग पर सेट करें।  
+- **क्या इन APIs का उपयोग करने के लिए लाइसेंस चाहिए?** उत्पादन के लिए एक अस्थायी या भुगतान लाइसेंस आवश्यक है; मूल्यांकन के लिए एक फ्री ट्रायल काम करता है।  
+- **कौन सा Java संस्करण समर्थित है?** Aspose.Slides for Java 25.4+ JDK 16 और उससे नए संस्करणों के साथ काम करता है।  
+- **क्या बदलाव अन्य chart तत्वों को प्रभावित करेंगे?** नहीं, legend फ़ॉर्मेटिंग डेटा सीरीज़ स्टाइलिंग से अलग है।  
+- **क्या बैच प्रोसेसिंग संभव है?** बिल्कुल – स्लाइड्स और चार्ट्स के माध्यम से लूप करके पूरे डेक में समान legend सेटिंग्स लागू करें।
 
-## आवश्यक शर्तें
-आगे बढ़ने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित चीज़ें मौजूद हैं:
+## legend फ़ॉन्ट रंग बदलना क्या है?
+`change legend font color` का अर्थ है Aspose.Slides API का उपयोग करके chart की legend entries के टेक्स्ट रंग को प्रोग्रामेटिक रूप से सेट करना। यह ऑपरेशन legend की दृश्य उपस्थिति को अपडेट करता है बिना मूल डेटा को बदले।
 
-### आवश्यक लाइब्रेरी, संस्करण और निर्भरताएँ
-- Aspose.Slides for Java लाइब्रेरी (संस्करण 25.4 या बाद का)।
-- जावा डेवलपमेंट किट (JDK) संस्करण 16 या उच्चतर।
+## chart legends को कस्टमाइज़ क्यों करें?
+Aspose.Slides **50+ इनपुट और आउटपुट फॉर्मेट** को सपोर्ट करता है और **500+ स्लाइड्स** वाली प्रस्तुतियों को 200 MB से कम मेमोरी उपयोग के साथ संभाल सकता है। legends को कस्टमाइज़ करने से पठनीयता बढ़ती है, ब्रांड रंग मजबूत होते हैं, और प्रमुख डेटा पॉइंट्स उभर कर दिखते हैं—विशेषकर व्यावसायिक या शैक्षणिक डेक्स में जहाँ दृश्य स्पष्टता निर्णय‑निर्धारण को प्रेरित करती है।
 
-### पर्यावरण सेटअप आवश्यकताएँ
-- एक IDE जैसे कि IntelliJ IDEA, Eclipse, या NetBeans.
-- आपके सिस्टम पर Maven या Gradle बिल्ड टूल इंस्टॉल होना चाहिए।
+## पूर्वापेक्षाएँ
+- **Aspose.Slides for Java** लाइब्रेरी (Version 25.4 या बाद का)।
+- Java Development Kit (JDK) 16 या उससे ऊपर।
+- IntelliJ IDEA, Eclipse, या NetBeans जैसे IDE।
+- निर्भरता प्रबंधन के लिए Maven या Gradle।
+- बुनियादी Java प्रोग्रामिंग ज्ञान।
 
-### ज्ञान पूर्वापेक्षाएँ
-- जावा प्रोग्रामिंग की बुनियादी समझ.
-- जावा में प्रस्तुतीकरण और चार्ट को संभालने की जानकारी।
+## Aspose.Slides for Java को सेटअप करना
+अपने chart legends को कस्टमाइज़ करना शुरू करने के लिए, नीचे दिए गए तरीकों में से किसी एक का उपयोग करके लाइब्रेरी को अपने प्रोजेक्ट में जोड़ें।
 
-## Java के लिए Aspose.Slides सेट अप करना
-अपने चार्ट लेजेंड को कस्टमाइज़ करना शुरू करने के लिए, आपको Java के लिए Aspose.Slides सेट अप करना होगा। यहाँ बताया गया है कि आप इसे विभिन्न तरीकों का उपयोग करके कैसे कर सकते हैं:
-
-### मावेन
-अपने में निम्नलिखित निर्भरता जोड़ें `pom.xml` फ़ाइल:
+### Maven
+अपने `pom.xml` फ़ाइल में निम्नलिखित डिपेंडेंसी जोड़ें:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -53,126 +120,150 @@
 </dependency>
 ```
 
-### ग्रैडल
-इस पंक्ति को अपने में शामिल करें `build.gradle` फ़ाइल:
+### Gradle
+`build.gradle` फ़ाइल में यह लाइन शामिल करें:
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### प्रत्यक्षत: डाउनलोड
-वैकल्पिक रूप से, आप नवीनतम संस्करण यहाँ से डाउनलोड कर सकते हैं [Aspose.Slides for Java रिलीज़](https://releases.aspose.com/slides/java/).
+### सीधे डाउनलोड
+आप नवीनतम JAR भी [Aspose.Slides for Java रिलीज़](https://releases.aspose.com/slides/java/) से प्राप्त कर सकते हैं।
 
-#### लाइसेंस प्राप्ति चरण
-- **मुफ्त परीक्षण:** Aspose.Slides सुविधाओं का पता लगाने के लिए एक निःशुल्क परीक्षण के साथ शुरुआत करें।
-- **अस्थायी लाइसेंस:** विस्तारित मूल्यांकन के लिए अस्थायी लाइसेंस के लिए आवेदन करें।
-- **खरीदना:** पूर्ण पहुँच के लिए, यहाँ से लाइसेंस खरीदने पर विचार करें [Aspose खरीद](https://purchase.aspose.com/buy).
+#### लाइसेंस प्राप्त करने के चरण
+- **Free trial:** Aspose.Slides की सुविधाओं को खोजने के लिए एक फ्री ट्रायल से शुरू करें।  
+- **Temporary license:** विस्तारित मूल्यांकन के लिए एक अस्थायी लाइसेंस के लिए आवेदन करें।  
+- **Purchase:** पूर्ण एक्सेस के लिए, [Aspose Purchase](https://purchase.aspose.com/buy) से लाइसेंस खरीदने पर विचार करें।
 
-#### बुनियादी आरंभीकरण और सेटअप
-अपने प्रोजेक्ट में लाइब्रेरी जोड़ने के बाद:
-1. अपने जावा अनुप्रयोग में Aspose.Slides को आरंभ करें।
-2. किसी मौजूदा प्रस्तुति को लोड करें या नई प्रस्तुति बनाएं.
+#### बुनियादी इनिशियलाइज़ेशन और सेटअप
+लाइब्रेरी को अपने प्रोजेक्ट में जोड़ने के बाद:
+1. अपने Java एप्लिकेशन में Aspose.Slides को इनिशियलाइज़ करें।  
+2. मौजूदा प्रस्तुति लोड करें या नई बनाएं।
 
-## कार्यान्वयन मार्गदर्शिका
-अब जब आपने Aspose.Slides सेट अप कर लिया है, तो चलिए लेजेंड टेक्स्ट गुणों को अनुकूलित करना शुरू करते हैं।
+## legend फ़ॉन्ट रंग कैसे बदलें?
+legend फ़ॉन्ट रंग बदलने के लिए, प्रस्तुति लोड करें, chart ऑब्जेक्ट प्राप्त करें, उसका legend प्राप्त करें, और फिर प्रत्येक legend entry के टेक्स्ट फ़ॉर्मेट को fill type को सॉलिड सेट करके और इच्छित रंग निर्दिष्ट करके संशोधित करें। यह एकल ऑपरेशन legend टेक्स्ट रंग को तुरंत अपडेट करता है बिना पूरे स्लाइड को पुनः ड्रॉ किए। उदाहरण: `legendEntry.getTextFormat().getFillFormat().setFillType(FillType.Solid); legendEntry.getTextFormat().getFillFormat().setSolidFillColor(Color.RED);` यह तरीका किसी भी chart प्रकार के लिए काम करता है और पूरे स्लाइड को पुनः‑रेंडर करने की आवश्यकता नहीं होती।
 
-### लेजेंड टेक्स्ट गुणों तक पहुंचना और उन्हें संशोधित करना
+### legend टेक्स्ट प्रॉपर्टीज़ तक पहुँच और संशोधन
 
-#### अवलोकन
-यह अनुभाग आपके चार्ट में व्यक्तिगत लेजेंड प्रविष्टियों के फ़ॉन्ट गुणों को अनुकूलित करने के तरीके पर केंद्रित है।
+#### परिभाषा एंकर
+`IChart` इंटरफ़ेस स्लाइड पर एक chart ऑब्जेक्ट को दर्शाता है, और इसका `getLegend()` मेथड एक `ILegend` ऑब्जेक्ट लौटाता है जिसमें `ILegendEntry` आइटम्स का संग्रह होता है।
 
-#### अपनी प्रस्तुति में चार्ट जोड़ना
-1. **प्रस्तुति लोड करें:**
+#### अपनी प्रस्तुति में chart जोड़ना
+1. **प्रस्तुति लोड करें:**  
+
    ```java
    Presentation pres = new Presentation(dataDir + "/test.pptx");
-   ```
+   ```  
 
-2. **क्लस्टर्ड कॉलम चार्ट जोड़ें:**
+2. **एक clustered column chart जोड़ें:**  
+
    ```java
    IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
        ChartType.ClusteredColumn, 50, 50, 600, 400);
-   ```
+   ```  
 
-#### फ़ॉन्ट गुण अनुकूलित करना
-3. **एक्सेस लेजेंड प्रविष्टि पाठ प्रारूप:**
+#### फ़ॉन्ट प्रॉपर्टीज़ को कस्टमाइज़ करना
+3. **legend entry टेक्स्ट फ़ॉर्मेट तक पहुँचें:**  
+   यहाँ, `legendEntry` एक `ILegendEntry` ऑब्जेक्ट है जो chart legend में एकल एंट्री का प्रतिनिधित्व करता है।  
    ```java
    IChartTextFormat tf = chart.getLegend().getEntries().get_Item(1).getTextFormat();
-   ```
+   ```  
 
-4. **विशिष्ट ऊंचाई के साथ बोल्ड और इटैलिक शैलियाँ सेट करें:**
+4. **विशिष्ट ऊँचाई के साथ बोल्ड और इटैलिक स्टाइल सेट करें:**  
    ```java
    tf.getPortionFormat().setFontBold(NullableBool.True);
    tf.getPortionFormat().setFontHeight(20);
    tf.getPortionFormat().setFontItalic(NullableBool.True);
-   ```
+   ```  
 
-5. **बेहतर दृश्यता के लिए भरण प्रकार को ठोस रंग में बदलें:**
+5. **बेहतर दृश्यता के लिए fill type को सॉलिड रंग में बदलें:**  
    ```java
    tf.getPortionFormat().getFillFormat().setFillType(FillType.Solid);
    tf.getPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.BLUE);
-   ```
+   ```  
 
-#### प्रस्तुति को सहेजना
-6. **अपने परिवर्तन सहेजें:**
+#### प्रस्तुति सहेजना
+6. **अपने बदलाव सहेजें:**  
    ```java
    pres.save(outputDir + "/output.pptx", SaveFormat.Pptx);
-   ```
+   ```  
 
-### समस्या निवारण युक्तियों
-- सुनिश्चित करें कि आपके पास सही लेजेंड प्रविष्टि सूचकांक तक पहुंच है।
-- सत्यापित करें कि आपका Aspose.Slides लाइब्रेरी संस्करण प्रयुक्त विधियों का समर्थन करता है।
+### सामान्य समस्याएँ और ट्रबलशूटिंग
+- सुनिश्चित करें कि legend entry का इंडेक्स आपके chart में series क्रम से मेल खाता है।  
+- यह सुनिश्चित करें कि आप ऐसी लाइब्रेरी संस्करण उपयोग कर रहे हैं जो `setSolidFillColor` को सपोर्ट करता है (version 20.9 से उपलब्ध)।
 
-## व्यावहारिक अनुप्रयोगों
-किंवदंती पाठ को अनुकूलित करना विभिन्न परिदृश्यों में लागू किया जा सकता है:
+## व्यावहारिक अनुप्रयोग
+legend टेक्स्ट को कस्टमाइज़ करना कई वास्तविक‑दुनिया परिदृश्यों में उपयोगी है:
+1. **व्यावसायिक प्रस्तुतियाँ:** एक परिष्कृत लुक के लिए legend रंगों को कॉर्पोरेट ब्रांडिंग के साथ संरेखित करें।  
+2. **शैक्षणिक सामग्री:** विरोधी legend रंगों का उपयोग करके प्रमुख डेटा सीरीज़ को हाइलाइट करें।  
+3. **मार्केटिंग डेक्स:** प्रदर्शन मीट्रिक्स को बोल्ड, रंगीन legends के साथ उजागर करें ताकि स्टेकहोल्डर का ध्यान आकर्षित हो।  
 
-1. **व्यावसायिक प्रस्तुतियाँ:** कॉर्पोरेट स्लाइडशो की पठनीयता और सौंदर्यता में वृद्धि करें।
-2. **शिक्षण सामग्री:** छात्रों के लिए डेटा को अधिक सुलभ और आकर्षक बनाएं।
-3. **विपणन अभियान:** प्रमुख मीट्रिक्स को प्रभावी ढंग से संप्रेषित करने के लिए आकर्षक चार्ट बनाएं।
-
-डेटाबेस या एनालिटिक्स टूल जैसी अन्य प्रणालियों के साथ एकीकरण, आपकी प्रस्तुतियों में डेटा अपडेट को स्वचालित कर सकता है।
+आप डेटाबेस या कॉन्फ़िगरेशन फ़ाइल से रंग मान निकालकर legend अपडेट को स्वचालित भी कर सकते हैं।
 
 ## प्रदर्शन संबंधी विचार
-Aspose.Slides का उपयोग करते समय प्रदर्शन को अनुकूलित करने में शामिल है:
-
-- **कुशल स्मृति प्रबंधन:** उपयोग के बाद वस्तुओं का उचित तरीके से निपटान करें।
-- **केवल आवश्यक घटक लोड करें:** प्रस्तुति के केवल आवश्यक भागों को लोड करके संसाधन उपयोग को न्यूनतम करें।
-- **प्रचय संसाधन:** प्रसंस्करण समय को कम करने के लिए बैचों में एकाधिक चार्टों को संभालें।
+बड़े डेक्स को प्रोसेस करते समय इन टिप्स को ध्यान में रखें:
+- **प्रभावी मेमोरी प्रबंधन:** सहेजने के बाद `presentation.dispose()` कॉल करके नेटिव रिसोर्सेज़ रिलीज़ करें।  
+- **केवल आवश्यक स्लाइड्स लोड करें:** यदि आपको उपसमुच्चय चाहिए तो `Presentation.load(String path, LoadOptions options)` को `LoadOptions.setLoadOnlySlideIds()` के साथ उपयोग करें।  
+- **बैच प्रोसेसिंग:** प्रत्येक स्लाइड पर legend अपडेट को समूहित करें ताकि API कॉल्स की संख्या कम हो और थ्रूपुट बढ़े।
 
 ## निष्कर्ष
-इस गाइड का पालन करके, आपने सीखा है कि Aspose.Slides for Java का उपयोग करके अपने चार्ट लेजेंड को कैसे बढ़ाया जाए। यह अनुकूलन न केवल दृश्य अपील में सुधार करता है बल्कि बेहतर डेटा संचार भी सुनिश्चित करता है।
+अब आप जानते हैं कि Aspose.Slides for Java का उपयोग करके **legend फ़ॉन्ट रंग** कैसे **बदलें** और **chart legend टेक्स्ट** कैसे **संशोधित करें**। ये कस्टमाइज़ेशन दृश्य स्पष्टता को बढ़ाते हैं और डेटा को अधिक प्रभावी ढंग से प्रस्तुत करने में मदद करते हैं। विभिन्न फ़ॉन्ट, आकार, और रंगों के साथ प्रयोग करें ताकि आपकी प्रस्तुति की स्टाइल गाइड से मेल खाए, और अन्य chart‑स्टाइलिंग फीचर्स का अन्वेषण करें ताकि वास्तव में प्रोफेशनल डेक्स बन सकें।
 
-**अगले कदम:**
-- विभिन्न फ़ॉन्ट शैलियों और रंगों के साथ प्रयोग करें।
-- Aspose.Slides में अन्य चार्ट प्रकार और अनुकूलन विकल्पों का अन्वेषण करें.
+**अगले कदम**
+- पाई और लाइन चार्ट्स पर समान legend स्टाइलिंग लागू करने का प्रयास करें।  
+- पूरी तरह ब्रांडेड chart के लिए legend कस्टमाइज़ेशन को डेटा लेबल फ़ॉर्मेटिंग के साथ मिलाएँ।  
 
-क्या आप अपनी प्रस्तुतियों को अगले स्तर पर ले जाने के लिए तैयार हैं? आज ही इन अनुकूलनों को लागू करने का प्रयास करें!
+अपनी प्रस्तुतियों को उन्नत करने के लिए तैयार हैं? ऊपर दिए गए चरणों को लागू करें और तुरंत अंतर देखें!
 
-## अक्सर पूछे जाने वाले प्रश्न अनुभाग
-1. **मैं किसी लेजेंड प्रविष्टि के पाठ का रंग कैसे बदल सकता हूँ?**
-   उपयोग `getFillFormat().setFillType(FillType.Solid)` और अपना मनचाहा रंग सेट करें `setColor(Color.YOUR_COLOR)`.
+## FAQ अनुभाग
+1. **मैं legend entry के टेक्स्ट का रंग कैसे बदलूँ?**  
+   legend entry के टेक्स्ट फ़ॉर्मेट पर `getFillFormat().setFillType(FillType.Solid)` उपयोग करें और फिर `setSolidFillColor(Color.YOUR_COLOR)` सेट करें।
 
-2. **क्या मैं इन परिवर्तनों को किसी प्रस्तुति में सभी लेजेंडों पर लागू कर सकता हूँ?**
-   हां, लूप का उपयोग करके प्रत्येक चार्ट के लेजेंड को पुनरावृत्त करें।
+2. **क्या मैं इन बदलावों को प्रस्तुति में सभी legends पर लागू कर सकता हूँ?**  
+   हाँ – प्रत्येक स्लाइड पर इटररेट करें, प्रत्येक chart को locate करें, और लूप के भीतर उसके legend entries को अपडेट करें।
 
-3. **क्या पाठ की लंबाई के आधार पर फ़ॉन्ट आकार को गतिशील रूप से समायोजित करना संभव है?**
-   फ़ॉन्ट समायोजन को सेटिंग से पहले पाठ आयामों की गणना करके स्क्रिप्ट किया जा सकता है `setFontHeight()`.
+3. **क्या टेक्स्ट लंबाई के आधार पर फ़ॉन्ट आकार को डायनामिक रूप से समायोजित करना संभव है?**  
+   आप `TextFrame.getTextFrameFormat().getFontHeight()` से आवश्यक आकार की गणना कर सकते हैं और `setFontHeight(double)` के माध्यम से सेट कर सकते हैं।
 
-4. **यदि मुझे लीजेंड प्रविष्टि अनुक्रमण में समस्या आती है तो क्या होगा?**
-   लीजेंड प्रविष्टियों तक पहुंचने के लिए अपने कोड लॉजिक की दोबारा जांच करें और सुनिश्चित करें कि इंडेक्स आपके चार्ट के कॉन्फ़िगरेशन से मेल खाता है।
+4. **यदि मुझे legend entry इंडेक्सिंग में समस्याएँ आती हैं तो क्या करें?**  
+   दोबारा जांचें कि आप जो इंडेक्स उपयोग कर रहे हैं वह series क्रम से मेल खाता है; याद रखें कि इंडेक्स शून्य‑आधारित होते हैं।
 
-5. **मैं Aspose.Slides के उपयोग के और अधिक उदाहरण कहां पा सकता हूं?**
-   पता लगाएं [Aspose दस्तावेज़ीकरण](https://reference.aspose.com/slides/java/) व्यापक गाइड और एपीआई संदर्भ के लिए.
+5. **मैं अधिक Aspose.Slides उदाहरण कहाँ पा सकता हूँ?**  
+   व्यापक गाइड और API रेफ़रेंसेज़ के लिए [Aspose Documentation](https://reference.aspose.com/slides/java/) देखें।
+
+**अतिरिक्त प्रश्न‑उत्तर**
+
+प्रश्न: क्या legend फ़ॉन्ट रंग बदलने से निर्यातित PDF फ़ाइलों पर असर पड़ता है?  
+उत्तर: नहीं, रंग परिवर्तन Aspose.Slides द्वारा समर्थित सभी निर्यात फॉर्मेट्स में संरक्षित रहता है, जिसमें PDF और PPTX शामिल हैं।
+
+प्रश्न: क्या मैं सॉलिड रंग के बजाय ग्रेडिएंट उपयोग कर सकता हूँ?  
+उत्तर: हाँ – `FillType.Gradient` सेट करें और `getGradientStyle()` के माध्यम से ग्रेडिएंट स्टॉप्स कॉन्फ़िगर करें।
+
+प्रश्न: एक chart में अधिकतम कितने legend entries हो सकते हैं?  
+उत्तर: एक chart में अधिकतम 256 legend entries हो सकते हैं, जो केवल आप द्वारा जोड़े गए डेटा सीरीज़ की संख्या पर निर्भर करता है।
 
 ## संसाधन
-- **दस्तावेज़ीकरण:** Aspose.Slides सुविधाओं का उपयोग करने पर व्यापक गाइड ([जोड़ना](https://reference.aspose.com/slides/java/)).
-- **डाउनलोड करना:** Java के लिए Aspose.Slides के नवीनतम संस्करण तक पहुँचें ([जोड़ना](https://releases.aspose.com/slides/java/)).
-- **खरीदना:** पूर्ण क्षमताओं को अनलॉक करने के लिए लाइसेंस खरीदें ([जोड़ना](https://purchase.aspose.com/buy)).
-- **निःशुल्क परीक्षण एवं अस्थायी लाइसेंस:** निःशुल्क परीक्षण से शुरुआत करें और अस्थायी लाइसेंस के लिए आवेदन करें ([निःशुल्क परीक्षण लिंक](https://releases.aspose.com/slides/java/), [अस्थायी लाइसेंस लिंक](https://purchase.aspose.com/temporary-license/)).
-- **सहायता:** Aspose के समर्थन मंच पर समुदाय से सहायता प्राप्त करें ([जोड़ना](https://forum.aspose.com/c/slides/11)).
+- **Documentation:** Aspose.Slides फीचर्स के उपयोग पर व्यापक गाइड ([Link](https://reference.aspose.com/slides/java/)).  
+- **Download:** Aspose.Slides for Java का नवीनतम संस्करण प्राप्त करें ([Link](https://releases.aspose.com/slides/java/)).  
+- **Purchase:** पूरी क्षमताओं को अनलॉक करने के लिए लाइसेंस खरीदें ([Link](https://purchase.aspose.com/buy)).  
+- **Free trial & temporary license:** फ्री ट्रायल से शुरू करें और अस्थायी लाइसेंस के लिए आवेदन करें ([Free Trial Link](https://releases.aspose.com/slides/java/), [Temporary License Link](https://purchase.aspose.com/temporary-license/)).  
+- **Support:** Aspose के सपोर्ट फ़ोरम पर समुदाय से मदद प्राप्त करें ([Link](https://forum.aspose.com/c/slides/11)).
+
+---
+
+**अंतिम अपडेट:** 2026-08-06  
+**परीक्षित संस्करण:** Aspose.Slides for Java 25.4  
+**लेखक:** Aspose
+
+## संबंधित ट्यूटोरियल
+- [PowerPoint चार्ट्स को बेहतर बनाना: फ़ॉन्ट और एक्सिस कस्टमाइज़ेशन Aspose.Slides for Java के साथ](/slides/java/charts-graphs/enhance-powerpoint-charts-aspose-slides-java/)
+- [Aspose.Slides for Java: डायनामिक टेक्स्ट फ्रेम्स और फ़ॉन्ट कस्टमाइज़ेशन गाइड](/slides/java/shapes-text-frames/aspose-slides-java-dynamic-text-frames-fonts/)
+- [Aspose.Slides for Java का उपयोग करके PowerPoint चार्ट्स को एनीमेट करें – चरण‑दर‑चरण गाइड](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}

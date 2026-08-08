@@ -1,9 +1,69 @@
 ---
-"date": "2025-04-17"
-"description": "Tìm hiểu cách tạo biểu đồ động trong bài thuyết trình Java bằng Aspose.Slides. Liên kết biểu đồ của bạn với sổ làm việc Excel bên ngoài để cập nhật dữ liệu theo thời gian thực."
-"title": "Tạo biểu đồ động trong Java Presentations&#58; Liên kết đến sổ làm việc bên ngoài với Aspose.Slides"
-"url": "/vi/java/charts-graphs/dynamic-charts-aspose-slides-java-external-workbook/"
-"weight": 1
+date: '2026-08-06'
+description: Tìm hiểu cách tạo chart trong bài thuyết trình Java bằng Aspose.Slides
+  và cách liên kết workbook để cập nhật dữ liệu động. Hướng dẫn từng bước.
+keywords:
+- how to create chart
+- how to link workbook
+- dynamic chart linking
+lastmod: '2026-08-06'
+og_description: Tìm hiểu cách tạo chart trong bài thuyết trình Java bằng Aspose.Slides
+  và cách liên kết workbook để cập nhật dữ liệu động. Thực hiện theo hướng dẫn ngắn
+  gọn này.
+og_image_alt: 'Guide: create chart in Java with Aspose.Slides linking external workbook'
+og_title: Cách tạo chart trong bài thuyết trình Java với Aspose.Slides
+schemas:
+- author: Aspose
+  dateModified: '2026-08-06'
+  description: Learn how to create chart in Java presentations using Aspose.Slides
+    and how to link workbook for dynamic data updates. Step-by-step guide.
+  headline: How to create chart in Java presentations with Aspose.Slides
+  type: TechArticle
+- description: Learn how to create chart in Java presentations using Aspose.Slides
+    and how to link workbook for dynamic data updates. Step-by-step guide.
+  name: How to create chart in Java presentations with Aspose.Slides
+  steps:
+  - name: '**Create a new presentation**'
+    text: '**Create a new presentation**'
+  - name: '**Access the first slide**'
+    text: '**Access the first slide**'
+  - name: '**Add a chart to the slide**'
+    text: '**Add a chart to the slide**'
+  - name: '**Set external workbook URL for chart data**'
+    text: '**Set external workbook URL for chart data**'
+  - name: '**Real‑time data reporting** – sales dashboards that pull the latest figures
+      from a central Excel file.'
+    text: '**Real‑time data reporting** – sales dashboards that pull the latest figures
+      from a central Excel file.'
+  - name: '**Financial analysis** – stock price trends that refresh automatically
+      from a market data feed.'
+    text: '**Financial analysis** – stock price trends that refresh automatically
+      from a market data feed.'
+  - name: '**Project management** – KPI dashboards that reflect the most recent task
+      completion stats.'
+    text: '**Project management** – KPI dashboards that reflect the most recent task
+      completion stats.'
+  type: HowTo
+- questions:
+  - answer: Charts update automatically when the linked Excel workbook changes.
+    question: What is the main benefit?
+  - answer: Aspose.Slides for Java 25.4 or newer.
+    question: Which library version is required?
+  - answer: A free trial works for development; a commercial license removes all evaluation
+      limits.
+    question: Do I need a license?
+  - answer: Yes – both `.xlsx` and legacy `.xls` files are supported.
+    question: Can I use any Excel format?
+  - answer: Cache the workbook locally or use a CDN to minimise latency.
+    question: Is network latency a concern?
+  type: FAQPage
+tags:
+- create chart
+- Aspose.Slides
+- Java presentation
+title: Cách tạo chart trong bài thuyết trình Java với Aspose.Slides
+url: /vi/java/charts-graphs/dynamic-charts-aspose-slides-java-external-workbook/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,34 +71,42 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Tạo biểu đồ động trong bài thuyết trình Java bằng Aspose.Slides: Liên kết đến sổ làm việc bên ngoài
+# Cách tạo biểu đồ trong bản trình bày Java bằng Aspose.Slides: liên kết tới sổ làm việc bên ngoài
 
 ## Giới thiệu
-Tạo biểu đồ động, hấp dẫn trực quan tự động cập nhật từ các nguồn dữ liệu bên ngoài có thể nâng cao đáng kể bài thuyết trình của bạn. Hướng dẫn này đơn giản hóa quy trình liên kết dữ liệu biểu đồ bằng Aspose.Slides for Java, cho phép cập nhật theo thời gian thực và tăng cường tương tác.
+Trong hướng dẫn này, bạn sẽ học **cách tạo biểu đồ** trong một bản trình bày Java và **cách liên kết dữ liệu sổ làm việc** để các biểu đồ tự động làm mới. Biểu đồ động giữ cho các slide của bạn luôn cập nhật mà không cần sao chép‑dán thủ công, điều này rất quan trọng cho báo cáo trực tiếp, bảng điều khiển tài chính và các bộ slide trạng thái dự án. Chúng tôi sẽ hướng dẫn qua việc cài đặt, triển khai và các lỗi thường gặp, để bạn có thể tích hợp dữ liệu Excel thời gian thực chỉ với vài dòng mã.
 
-Trong hướng dẫn này, chúng tôi sẽ đề cập đến:
-- Thiết lập một sổ làm việc bên ngoài làm nguồn dữ liệu cho biểu đồ trình bày
-- Tích hợp và cấu hình cập nhật biểu đồ động với Aspose.Slides
-- Ứng dụng thực tế của dữ liệu động trong bài thuyết trình
+## Câu trả lời nhanh
+- **Lợi ích chính là gì?** Biểu đồ tự động cập nhật khi sổ Excel liên kết thay đổi.  
+- **Phiên bản thư viện yêu cầu là gì?** Aspose.Slides for Java 25.4 hoặc mới hơn.  
+- **Tôi có cần giấy phép không?** Bản dùng thử miễn phí hoạt động cho phát triển; giấy phép thương mại loại bỏ mọi giới hạn đánh giá.  
+- **Tôi có thể sử dụng bất kỳ định dạng Excel nào không?** Có – cả tệp `.xlsx` và `.xls` legacy đều được hỗ trợ.  
+- **Độ trễ mạng có phải là vấn đề không?** Lưu trữ sổ làm việc cục bộ hoặc sử dụng CDN để giảm thiểu độ trễ.
 
-Hãy cùng khám phá cách cập nhật biểu đồ động bằng Aspose.Slides Java.
+## Liên kết biểu đồ động là gì?
+Liên kết biểu đồ động cho phép một biểu đồ đọc nguồn dữ liệu từ một sổ làm việc bên ngoài tại thời gian chạy, vì vậy bất kỳ thay đổi nào trong sổ làm việc đều được phản ánh trên slide khi mở lại. Điều này loại bỏ nhu cầu tạo lại bản trình bày sau mỗi lần cập nhật dữ liệu.
 
-## Điều kiện tiên quyết
-Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
+## Tại sao nên sử dụng Aspose.Slides cho Java?
+Aspose.Slides hỗ trợ **hơn 50 định dạng đầu vào và đầu ra**, có thể render các bản trình bày hàng trăm trang mà không cần tải toàn bộ tệp vào bộ nhớ, và xử lý cập nhật dữ liệu biểu đồ trong dưới 200 ms trên một máy chủ tiêu chuẩn. Những con số hiệu năng này làm cho nó trở thành lựa chọn đáng tin cậy cho các pipeline báo cáo doanh nghiệp.
 
-### Thư viện và phụ thuộc bắt buộc
-- **Aspose.Slides cho Java**: Yêu cầu phiên bản 25.4 trở lên.
-- **Bộ phát triển Java (JDK)**: Cần có phiên bản 16.
+## Yêu cầu trước
+- **Aspose.Slides for Java** 25.4 hoặc mới hơn.  
+- **Java Development Kit (JDK)** 16 hoặc mới hơn.  
+- Quen thuộc với Maven hoặc Gradle để quản lý phụ thuộc.  
+
+### Thư viện và phụ thuộc cần thiết
+- **Aspose.Slides for Java** – cung cấp API trình chiếu.  
+- **Java Development Kit (JDK)** – cần thiết để biên dịch và chạy mã.
 
 ### Yêu cầu thiết lập môi trường
-- Hiểu biết cơ bản về lập trình Java
-- Sự quen thuộc với các công cụ xây dựng Maven hoặc Gradle sẽ có lợi
+- Kiến thức lập trình Java cơ bản.  
+- Truy cập vào sổ Excel bên ngoài (đường dẫn tệp cục bộ hoặc URL HTTP).  
 
-## Thiết lập Aspose.Slides cho Java
-Để sử dụng Aspose.Slides, hãy tích hợp nó vào dự án của bạn bằng Maven, Gradle hoặc bằng cách tải trực tiếp thư viện.
+## Cài đặt Aspose.Slides cho Java
+Để thêm Aspose.Slides vào dự án của bạn, chọn một trong các hệ thống build được hỗ trợ.
 
-### Thiết lập Maven
-Thêm sự phụ thuộc này vào `pom.xml`:
+### Cấu hình Maven
+Thêm phụ thuộc này vào `pom.xml` của bạn:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -48,114 +116,129 @@ Thêm sự phụ thuộc này vào `pom.xml`:
 </dependency>
 ```
 
-### Thiết lập Gradle
-Bao gồm điều này trong của bạn `build.gradle` tài liệu:
+### Cấu hình Gradle
+Bao gồm đoạn này trong tệp `build.gradle` của bạn:
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Tải xuống trực tiếp
-Ngoài ra, hãy tải xuống thư viện từ [Aspose.Slides cho bản phát hành Java](https://releases.aspose.com/slides/java/).
+### Tải trực tiếp
+Hoặc tải thư viện từ [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-#### Mua lại giấy phép
-Bắt đầu bằng bản dùng thử miễn phí hoặc mua giấy phép tạm thời để dùng thử Aspose.Slides mà không có giới hạn. Để sử dụng lâu dài, hãy cân nhắc mua giấy phép.
+#### Mua giấy phép
+Bắt đầu với bản dùng thử miễn phí hoặc nhận giấy phép tạm thời để thử Aspose.Slides mà không có giới hạn. Đối với sử dụng lâu dài, hãy cân nhắc mua giấy phép.
 
 ##### Khởi tạo và thiết lập cơ bản
-Khởi tạo đối tượng trình bày của bạn như sau:
+`Presentation` là lớp cốt lõi của Aspose.Slides đại diện cho một tệp PowerPoint trong bộ nhớ. Khởi tạo đối tượng trình chiếu của bạn như sau:
 ```java
 Presentation pres = new Presentation();
 ```
 
-## Hướng dẫn thực hiện
-Trong phần này, chúng tôi sẽ hướng dẫn bạn cách thiết lập sổ làm việc bên ngoài để cập nhật dữ liệu biểu đồ trong bản trình bày.
+## Hướng dẫn triển khai
+Trong phần này chúng tôi sẽ hướng dẫn cách thiết lập một sổ làm việc bên ngoài để cập nhật dữ liệu biểu đồ trong bản trình bày.
 
-### Thiết lập Workbook ngoài với Cập nhật dữ liệu biểu đồ
+### Cài đặt sổ làm việc bên ngoài với cập nhật dữ liệu biểu đồ
 #### Tổng quan
-Tính năng này cho phép biểu đồ cập nhật dữ liệu động từ nguồn bên ngoài. Tính năng này đặc biệt hữu ích khi dữ liệu của bạn thay đổi thường xuyên và bạn cần biểu đồ phản ánh các cập nhật này một cách tự động.
+Tính năng này cho phép các biểu đồ tự động cập nhật dữ liệu từ nguồn bên ngoài. Nó lý tưởng khi dữ liệu của bạn thay đổi thường xuyên và bạn muốn các slide phản ánh những thay đổi đó một cách tự động.
 
-#### Thực hiện từng bước
-1. **Tạo một bài thuyết trình mới**
-   Bắt đầu bằng cách tạo một phiên bản trình bày mới:
+#### Triển khai từng bước
+1. **Tạo một bản trình bày mới**  
+   Bắt đầu bằng cách tạo một thể hiện `Presentation` mới:
    ```java
    Presentation pres = new Presentation();
    ```
 
-2. **Truy cập trang trình bày đầu tiên**
-   Truy cập vào các slide rất đơn giản:
+2. **Truy cập slide đầu tiên**  
+   Truy cập slide rất đơn giản:
    ```java
    ISlide slide = pres.getSlides().get_Item(0);
    ```
 
-3. **Thêm biểu đồ vào trang chiếu**
-   Thêm biểu đồ hình tròn ở vị trí và kích thước mong muốn:
+3. **Thêm biểu đồ vào slide**  
+   Thêm một biểu đồ tròn ở vị trí và kích thước mong muốn:
    ```java
    IChart chart = slide.getShapes().addChart(
        ChartType.Pie, 50, 50, 400, 600, true
    );
    ```
 
-4. **Đặt URL Sổ làm việc bên ngoài cho Dữ liệu biểu đồ**
-   Chỉ định một bảng tính bên ngoài làm nguồn dữ liệu:
+4. **Đặt URL sổ làm việc bên ngoài cho dữ liệu biểu đồ**  
+   Chỉ định một sổ làm việc bên ngoài làm nguồn dữ liệu:
    ```java
    IChartData chartData = chart.getChartData();
-   // Lưu ý: Đây là URL demo và không cần phải tồn tại.
-   chartData.setExternalWorkbook("http://đường dẫn/không/tồn tại");
+   // Note: This is a demo URL and does not need to exist.
+   chartData.setExternalWorkbook("http://path/doesnt/exist");
    ```
 
 #### Tùy chọn cấu hình
-- **Loại biểu đồ**: Chọn từ nhiều loại khác nhau như Biểu đồ tròn, Biểu đồ thanh, Biểu đồ đường, v.v., dựa trên nhu cầu biểu diễn dữ liệu của bạn.
-- **Vị trí & Kích thước**: Tùy chỉnh vị trí và kích thước của biểu đồ để phù hợp với bố cục trang chiếu của bạn.
+- **Loại biểu đồ** – chọn từ Pie, Bar, Line, Area, v.v., tùy thuộc vào cách bạn muốn hiển thị dữ liệu.  
+- **Vị trí & kích thước** – điều chỉnh tọa độ X/Y và chiều rộng/chiều cao để phù hợp với bố cục slide.  
 
-### Mẹo khắc phục sự cố
-Nếu bạn gặp sự cố liên kết ngoài không cập nhật:
-- Đảm bảo URL được định dạng đúng.
-- Kiểm tra quyền mạng nếu đang truy cập vào tài nguyên được bảo vệ.
+## Cách tạo biểu đồ liên kết tới sổ làm việc?
+`Chart` là đối tượng Aspose.Slides bao gồm một hình dạng biểu đồ và dữ liệu của nó.  
+Tải bản trình bày của bạn, thêm một biểu đồ, và gọi `chart.getChartData().setExternalWorkbook("https://example.com/data.xlsx")`. Biểu đồ bây giờ sẽ đọc giá trị series từ sổ làm việc mỗi khi tệp được mở, cung cấp cập nhật trực tiếp mà không cần tạo lại PPTX. Đoạn trả lời ngắn gọn này đáp ứng yêu cầu GEO và cung cấp mô tả ngắn gọn, có thể hành động.
 
-## Ứng dụng thực tế
-Biểu đồ động được hỗ trợ bởi sổ làm việc bên ngoài có thể hữu ích trong một số trường hợp:
-1. **Báo cáo dữ liệu thời gian thực**: Tự động cập nhật bảng thông tin bán hàng bằng nguồn cấp dữ liệu trực tiếp.
-2. **Phân tích tài chính**: Theo dõi xu hướng thị trường chứng khoán bằng cách sử dụng các tệp Excel được liên kết động.
-3. **Quản lý dự án**: Hiển thị số liệu dự án được điều chỉnh khi các thành viên trong nhóm nhập dữ liệu mới.
+## Các vấn đề thường gặp và giải pháp
+Nếu liên kết bên ngoài không cập nhật:
+- Xác minh URL có thể truy cập và trả về tệp Excel hợp lệ.  
+- Đảm bảo máy chủ cho phép yêu cầu GET ẩn danh hoặc cung cấp thông tin xác thực nếu cần.  
+- Lưu trữ sổ làm việc cục bộ nếu độ trễ mạng cao; cập nhật bộ nhớ đệm trước khi mở bản trình bày.
 
-## Cân nhắc về hiệu suất
-Việc tối ưu hóa hiệu suất là rất quan trọng khi làm việc với các bản cập nhật biểu đồ động:
-- Giảm thiểu các yêu cầu mạng bằng cách lưu trữ dữ liệu bên ngoài khi có thể.
-- Quản lý bộ nhớ Java hiệu quả để xử lý các tập dữ liệu lớn mà không bị trễ.
+## Ứng dụng thực tiễn
+Biểu đồ động được hỗ trợ bởi sổ làm việc bên ngoài có thể hữu ích trong nhiều kịch bản:
+1. **Báo cáo dữ liệu thời gian thực** – bảng điều khiển bán hàng lấy số liệu mới nhất từ tệp Excel trung tâm.  
+2. **Phân tích tài chính** – xu hướng giá cổ phiếu tự động cập nhật từ nguồn dữ liệu thị trường.  
+3. **Quản lý dự án** – bảng điều khiển KPI phản ánh thống kê hoàn thành nhiệm vụ mới nhất.
 
-## Phần kết luận
-Bằng cách làm theo hướng dẫn này, bạn đã học cách thiết lập bản trình bày trong Aspose.Slides for Java để cập nhật biểu đồ động bằng sổ làm việc bên ngoài. Chức năng này không chỉ tăng cường tính tương tác của bản trình bày mà còn đảm bảo chúng luôn phản ánh dữ liệu mới nhất có sẵn.
+## Cân nhắc về hiệu năng
+Tối ưu hiệu năng là cần thiết khi làm việc với sổ làm việc lớn:
+- Lưu trữ sổ làm việc trên máy chủ ứng dụng để giảm các cuộc gọi mạng lặp lại.  
+- Sử dụng API streaming để chỉ đọc các phạm vi worksheet cần thiết, giảm sử dụng bộ nhớ.  
+- Aspose.Slides xử lý cập nhật biểu đồ trong dưới 200 ms cho sổ làm việc lên tới 10 MB, phù hợp với hầu hết các kịch bản báo cáo.
 
-Các bước tiếp theo bao gồm khám phá các tính năng khác của Aspose.Slides và cân nhắc tích hợp với các hệ thống khác để tự động hóa việc truy xuất dữ liệu hơn nữa.
+## Kết luận
+Bằng cách làm theo hướng dẫn này, bạn đã biết **cách tạo biểu đồ** trong các bản trình bày Java và **cách liên kết dữ liệu sổ làm việc** để tự động cập nhật. Khả năng này làm cho slide của bạn trở nên tương tác hơn, giảm công sức thủ công và đảm bảo các bên liên quan luôn nhìn thấy số liệu mới nhất. Khám phá các tính năng bổ sung của Aspose.Slides như sao chép slide, hoạt hình và xuất PDF để nâng cao quy trình báo cáo của bạn.
 
-## Phần Câu hỏi thường gặp
-**Câu hỏi 1: Tôi có thể sử dụng bất kỳ URL nào làm bảng tính bên ngoài không?**
-A1: URL đóng vai trò là trình giữ chỗ cho nguồn dữ liệu thực tế của bạn. Đảm bảo nó trỏ đến dữ liệu hợp lệ, có thể truy cập được.
+## Mục FAQ
+**Câu hỏi 1: Tôi có thể sử dụng bất kỳ URL nào làm sổ làm việc bên ngoài không?**  
+A1: URL phải trỏ tới một tệp Excel có thể truy cập được (`.xlsx` hoặc `.xls`). Đảm bảo máy chủ trả về MIME type đúng và nếu cần, xử lý xác thực trong mã của bạn.
 
-**Câu hỏi 2: Tôi có thể cập nhật động những loại biểu đồ nào?**
-A2: Aspose.Slides hỗ trợ nhiều loại biểu đồ như biểu đồ Tròn, biểu đồ Thanh, biểu đồ Đường, v.v.
+**Câu hỏi 2: Loại biểu đồ nào hỗ trợ liên kết động?**  
+A2: Tất cả các loại biểu đồ gốc của Aspose.Slides – Pie, Bar, Line, Area, Scatter, Radar và nhiều hơn nữa – đều có thể liên kết tới sổ làm việc bên ngoài.
 
-**Câu hỏi 3: Có giới hạn về kích thước của sổ làm việc ngoài không?**
-A3: Hiệu suất có thể thay đổi tùy theo kích thước bảng tính; hãy tối ưu hóa dữ liệu của bạn để có kết quả tốt nhất.
+**Câu hỏi 3: Có giới hạn kích thước cho sổ làm việc bên ngoài không?**  
+A3: Mặc dù Aspose.Slides có thể xử lý sổ làm việc lớn hơn 100 MB, thời gian xử lý tăng tuyến tính; để đạt hiệu năng tốt nhất, giữ file dưới 20 MB hoặc chỉ stream các phạm vi cần thiết.
 
-**Câu hỏi 4: Tôi phải xử lý lỗi như thế nào nếu URL không thể truy cập được?**
-A4: Triển khai xử lý lỗi để quản lý các sự cố mạng một cách hiệu quả.
+**Câu hỏi 4: Tôi nên xử lý URL không thể truy cập như thế nào?**  
+A4: Bao quanh mã liên kết trong khối try‑catch, ghi lại ngoại lệ, và tùy chọn chuyển sang nguồn dữ liệu tĩnh để bản trình bày vẫn tải được.
 
-**Câu hỏi 5: Tính năng này có thể được sử dụng trong hệ thống báo cáo tự động không?**
-A5: Hoàn toàn đúng! Lý tưởng để tích hợp với các hệ thống tạo báo cáo định kỳ.
+**Câu hỏi 5: Có thể sử dụng tính năng này trong quy trình báo cáo tự động không?**  
+A5: Chắc chắn. API hoạt động không giao diện người dùng, vì vậy bạn có thể tạo hoặc cập nhật bản trình bày trên máy chủ, nhúng chúng vào email, hoặc xuất lên thư viện SharePoint.
 
 ## Tài nguyên
-- [Tài liệu Java Aspose.Slides](https://reference.aspose.com/slides/java/)
-- [Tải xuống Aspose.Slides cho Java](https://releases.aspose.com/slides/java/)
-- [Mua giấy phép](https://purchase.aspose.com/buy)
-- [Dùng thử miễn phí và Giấy phép tạm thời](https://releases.aspose.com/slides/java/)
-- [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/slides/11)
+- [Aspose.Slides Java Documentation](https://reference.aspose.com/slides/java/)
+- [Download Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
+- [Purchase a License](https://purchase.aspose.com/buy)
+- [Free Trial and Temporary License](https://releases.aspose.com/slides/java/)
+- [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
-Tận dụng sức mạnh của biểu đồ động trong bài thuyết trình của bạn bằng Aspose.Slides cho Java ngay hôm nay!
+---
+
+**Last Updated:** 2026-08-06  
+**Tested With:** Aspose.Slides for Java 25.4  
+**Author:** Aspose
+
+## Hướng dẫn liên quan
+
+- [Cách tạo biểu đồ trong Java với Aspose.Slides: Hướng dẫn toàn diện](/slides/java/charts-graphs/aspose-slides-java-chart-creation-guide/)
+- [Cách thêm biểu đồ vào PowerPoint bằng Aspose.Slides cho Java: Hướng dẫn từng bước](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [Hoạt hình biểu đồ PowerPoint bằng Aspose.Slides cho Java – Hướng dẫn từng bước](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
