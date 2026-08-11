@@ -1,13 +1,13 @@
 ---
-date: '2025-12-02'
-description: تعلم كيفية إنشاء انتقالات العروض التقديمية في جافا باستخدام Aspose.Slides.
-  طبّق انتقالات الشرائح الديناميكية، حدّد وقت تقدم الشريحة، وقم بتكوين توقيت الشرائح
-  بسهولة.
+date: '2026-04-22'
+description: تعلم كيفية إضافة تبعية Aspose Slides لمشروع Maven وإنشاء انتقالات العروض
+  التقديمية في Java. تطبيق انتقالات الشرائح الديناميكية، ضبط وقت تقدم الشريحة، وتكوين
+  توقيت الشرائح بسهولة.
 keywords:
-- dynamic slide transitions
-- Aspose.Slides Java
-- Java presentation enhancements
-title: كيفية إنشاء انتقالات العروض التقديمية في جافا باستخدام Aspose.Slides
+- aspose slides maven dependency
+- how to create transitions
+- set slide advance time
+title: اعتماد Maven لـ Aspose Slides – انتقالات Java
 url: /ar/java/animations-transitions/aspose-slides-java-dynamic-slide-transitions/
 weight: 1
 ---
@@ -19,36 +19,42 @@ weight: 1
 {{< blocks/products/pf/tutorial-page-section >}}
 # كيفية إنشاء انتقالات العروض التقديمية في Java باستخدام Aspose.Slides
 
-## المقدمة
-إنشاء عروض تقديمية جذابة أمر حيوي سواء كنت تقدم عرضًا تجاريًا أو تُدرّس صفًا. في هذا الدليل ستتعلم **كيفية إنشاء انتقالات العروض التقديمية** التي تضيف لمسة بصرية، وتحسن تدفق السرد، وتُبقي جمهورك منتبهًا. سنستعرض استخدام Aspose.Slides for Java لتطبيق **انتقالات الشرائح الديناميكية** الشهيرة مثل Circle و Comb و Zoom، وسنُظهر لك كيفية **تحديد وقت تقدم الشريحة** و **تكوين توقيت الشريحة** لكل تأثير. في النهاية ستحصل على مجموعة شرائح مصقولة جاهزة لإبهار الحضور.
+## مقدمة
+إن إنشاء عروض تقديمية جذابة أمر حيوي سواء كنت تقدم عرضًا تجاريًا أو تُدرّس صفًا. في هذا الدليل ستتعلم **كيفية إنشاء انتقالات العروض التقديمية** التي تضيف لمسة بصرية، تحسّن تدفق السرد، وتُبقي جمهورك متفاعلًا. سنُظهر لك أيضًا **كيفية إضافة Aspose Slides Maven Dependency** لتتمكن من البدء في العمل مع Aspose.Slides for Java فورًا. في النهاية ستحصل على مجموعة شرائح مصقولة جاهزة لإبهار الحضور.
 
 ### إجابات سريعة
 - **ما المكتبة التي تضيف انتقالات الشرائح في Java؟** Aspose.Slides for Java  
-- **أي انتقال يعطي تأثير تكرار سلس؟** Circle transition  
-- **كيف أضبط الشريحة لتنتقل بعد 5 ثوانٍ؟** Use `setAdvanceAfterTime(5000)`  
-- **هل يمكنني استخدام Maven أو Gradle لإضافة Aspose.Slides؟** Yes, both are supported  
-- **هل أحتاج إلى ترخيص للاستخدام في الإنتاج؟** A commercial license is required  
+- **أي انتقال يمنح تأثير حلقة سلس؟** انتقال Circle  
+- **كيف أُحدد تقدم الشريحة بعد 5 ثوانٍ؟** استخدم `setAdvanceAfterTime(5000)`  
+- **هل يمكنني استخدام Maven أو Gradle لإضافة Aspose.Slides؟** نعم، كلاهما مدعومان – فقط أضف Aspose Slides Maven Dependency  
+- **هل أحتاج إلى ترخيص للاستخدام في الإنتاج؟** الترخيص التجاري مطلوب  
 
-### ما هي انتقالات الشرائح الديناميكية؟
-انتقالات الشرائح الديناميكية هي تأثيرات متحركة تُعرض عند الانتقال من شريحة إلى أخرى. تساعد على إبراز النقاط الرئيسية، وتوجيه نظر المشاهد، وجعل العرض التقديمي يبدو أكثر احترافية.
+## كيفية إضافة Aspose Slides Maven Dependency
+لبدء استخدام Aspose.Slides في مشروع Java عليك أولًا إضافة **Aspose Slides Maven Dependency** إلى تكوين البناء الخاص بك. تضمن هذه الخطوة توفر جميع الفئات المطلوبة، بما في ذلك تلك الخاصة بالانتقالات، في وقت التجميع.
 
-### لماذا ضبط وقت تقدم الشريحة؟
-التحكم في توقيت كل انتقال (باستخدام `setAdvanceAfterTime`) يتيح لك مزامنة الرسوم المتحركة مع السرد، والحفاظ على وتيرة ثابتة، وتجنب النقرات اليدوية أثناء العروض التقديمية الآلية.
+### ما هو Aspose Slides Maven Dependency؟
+اعتماد Maven هو إشارة تخبر Maven (أو Gradle) بتحميل مكتبة Aspose.Slides من المستودع المركزي. فهو يجمع الـ API الذي تحتاجه لإنشاء ملفات PowerPoint وتعديلها وتحريكها برمجيًا.
+
+## ما هي الانتقالات الديناميكية للشرائح؟
+الانتقالات الديناميكية للشرائح هي تأثيرات متحركة تُعرض عند الانتقال من شريحة إلى أخرى. تساعد على إبراز النقاط الرئيسية، توجيه نظر المشاهد، وجعل العرض يبدو أكثر احترافية.
+
+## لماذا نحدد وقت تقدم الشريحة؟
+التحكم في توقيت كل انتقال (باستخدام `setAdvanceAfterTime`) يتيح لك مزامنة الرسوم المتحركة مع السرد، الحفاظ على وتيرة ثابتة، وتجنب النقرات اليدوية أثناء العروض التقديمية الآلية.
 
 ## ما ستتعلمه
 - كيفية إعداد Aspose.Slides for Java في مشروعك.  
-- إرشادات خطوة بخطوة لـ **تطبيق انتقالات شرائح مختلفة**.  
-- نصائح عملية لـ **ضبط وقت تقدم الشريحة** و **تكوين توقيت الشريحة**.  
+- تعليمات خطوة بخطوة **لتطبيق انتقالات شرائح مختلفة**.  
+- نصائح عملية **لتحديد وقت تقدم الشريحة** و**تكوين توقيت الشرائح**.  
 - اعتبارات الأداء وأفضل الممارسات للعروض التقديمية الكبيرة.
 
 هل أنت مستعد لتحويل شرائحك؟ لنبدأ بالمتطلبات المسبقة.
 
 ## المتطلبات المسبقة
-قبل أن تبدأ، تأكد من أن لديك:
+قبل البدء، تأكد من وجود ما يلي:
 
 - **المكتبات والاعتمادات** – Aspose.Slides for Java (أحدث نسخة، متوافقة مع JDK 16+).  
 - **بيئة التطوير** – JDK حديث مثبت وأداة بناء (Maven أو Gradle).  
-- **المعرفة الأساسية** – الإلمام بـ Java، Maven/Gradle، ومفهوم العروض التقديمية.
+- **معرفة أساسية** – إلمام بـ Java، Maven/Gradle، ومفهوم العروض التقديمية.
 
 ## إعداد Aspose.Slides for Java
 ### تعليمات التثبيت
@@ -71,12 +77,12 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 ```
 
 **تحميل مباشر:**  
-يمكنك أيضًا تنزيل أحدث JAR من صفحة الإصدارات الرسمية: [إصدارات Aspose.Slides for Java](https://releases.aspose.com/slides/java/).
+يمكنك أيضًا تحميل أحدث ملف JAR من صفحة الإصدارات الرسمية: [إصدارات Aspose.Slides for Java](https://releases.aspose.com/slides/java/).
 
 ### الحصول على الترخيص
 - **تجربة مجانية** – استكشف الـ API بدون ترخيص لفترة محدودة.  
-- **ترخيص مؤقت** – احصل على مفتاح محدود الوقت لتقييم ممتد.  
-- **ترخيص تجاري** – مطلوب للنشر في بيئات الإنتاج.
+- **ترخيص مؤقت** – احصل على مفتاح محدود الوقت لتقييم موسع.  
+- **ترخيص تجاري** – مطلوب للاستخدام في بيئات الإنتاج.
 
 ### التهيئة الأساسية
 إليك كيفية تحميل عرض تقديمي موجود لتتمكن من بدء إضافة الانتقالات:
@@ -87,139 +93,139 @@ String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Presentation pres = new Presentation(dataDir + "/YourPresentation.pptx");
 ```
 
-## كيفية إنشاء انتقالات العروض التقديمية باستخدام Aspose.Slides
-فيما يلي سنطبق ثلاثة أنواع مختلفة من الانتقالات. كل مثال يتبع نفس النمط: تحميل الملف، ضبط الانتقال، تكوين التوقيت، حفظ النتيجة، وتنظيف الموارد.
+## كيفية إنشاء انتقالات عرض تقديمي باستخدام Aspose.Slides
+سنعرض أدناه ثلاثة أنواع مختلفة من الانتقالات. يتبع كل مثال النمط نفسه: تحميل الملف، ضبط الانتقال، تكوين التوقيت، حفظ النتيجة، وتنظيف الموارد.
 
 ### تطبيق انتقال Circle
 #### نظرة عامة
-انتقال Circle يخلق حركة سلسة ومتكررة تعمل جيدًا للعروض الرسمية.
+انتقال Circle يخلق حركة حلقة سلسة تعمل جيدًا للعروض الرسمية.
 
 **خطوة بخطوة:**
 
-1. **Load the Presentation**  
+1. **تحميل العرض التقديمي**
    ```java
    String dataDir = "YOUR_DOCUMENT_DIRECTORY";
    Presentation presCircle = new Presentation(dataDir + "/BetterSlideTransitions.pptx");
    ```
-2. **Set Transition Type**  
+2. **تحديد نوع الانتقال**
    ```java
    presCircle.getSlides().get_Item(0).getSlideShowTransition().setType(com.aspose.slides.TransitionType.Circle);
    ```
-3. **Configure Transition Timing**  
+3. **تكوين توقيت الانتقال**
    ```java
    presCircle.getSlides().get_Item(0).getSlideShowTransition().setAdvanceOnClick(true);
    presCircle.getSlides().get_Item(0).getSlideShowTransition().setAdvanceAfterTime(3000);
    ```
-4. **Save the Presentation**  
+4. **حفظ العرض التقديمي**
    ```java
    presCircle.save(dataDir + "/SampleCircleTransition_out.pptx", com.aspose.slides.SaveFormat.Pptx);
    ```
-5. **Clean Up Resources**  
+5. **تنظيف الموارد**
    ```java
    if (presCircle != null) presCircle.dispose();
    ```
 
 ### تطبيق انتقال Comb
 #### نظرة عامة
-انتقال Comb يقسم الشريحة إلى شرائح—ممتاز للعروض المنظمة والشركاتية.
+انتقال Comb يجزّء الشريحة إلى شرائح—مثالي للعروض الهيكلية والمؤسسية.
 
 **خطوة بخطوة:**
 
-1. **Load the Presentation**  
+1. **تحميل العرض التقديمي**
    ```java
    String dataDir = "YOUR_DOCUMENT_DIRECTORY";
    Presentation presComb = new Presentation(dataDir + "/BetterSlideTransitions.pptx");
    ```
-2. **Set Transition Type**  
+2. **تحديد نوع الانتقال**
    ```java
    presComb.getSlides().get_Item(1).getSlideShowTransition().setType(com.aspose.slides.TransitionType.Comb);
    ```
-3. **Configure Transition Timing**  
+3. **تكوين توقيت الانتقال**
    ```java
    presComb.getSlides().get_Item(1).getSlideShowTransition().setAdvanceOnClick(true);
    presComb.getSlides().get_Item(1).getSlideShowTransition().setAdvanceAfterTime(5000);
    ```
-4. **Save the Presentation**  
+4. **حفظ العرض التقديمي**
    ```java
    presComb.save(dataDir + "/SampleCombTransition_out.pptx", com.aspose.slides.SaveFormat.Pptx);
    ```
-5. **Clean Up Resources**  
+5. **تنظيف الموارد**
    ```java
    if (presComb != null) presComb.dispose();
    ```
 
 ### تطبيق انتقال Zoom
 #### نظرة عامة
-Zoom يركز على منطقة محددة من الشريحة، مما يخلق تأثير دخول جذاب.
+انتقال Zoom يركز على منطقة محددة من الشريحة، مما يخلق تأثير دخول جذاب.
 
 **خطوة بخطوة:**
 
-1. **Load the Presentation**  
+1. **تحميل العرض التقديمي**
    ```java
    String dataDir = "YOUR_DOCUMENT_DIRECTORY";
    Presentation presZoom = new Presentation(dataDir + "/BetterSlideTransitions.pptx");
    ```
-2. **Set Transition Type**  
+2. **تحديد نوع الانتقال**
    ```java
    presZoom.getSlides().get_Item(2).getSlideShowTransition().setType(com.aspose.slides.TransitionType.Zoom);
    ```
-3. **Configure Transition Timing**  
+3. **تكوين توقيت الانتقال**
    ```java
    presZoom.getSlides().get_Item(2).getSlideShowTransition().setAdvanceOnClick(true);
    presZoom.getSlides().get_Item(2).getSlideShowTransition().setAdvanceAfterTime(7000);
    ```
-4. **Save the Presentation**  
+4. **حفظ العرض التقديمي**
    ```java
    presZoom.save(dataDir + "/SampleZoomTransition_out.pptx", com.aspose.slides.SaveFormat.Pptx);
    ```
-5. **Clean Up Resources**  
+5. **تنظيف الموارد**
    ```java
    if (presZoom != null) presZoom.dispose();
    ```
 
 ## تطبيقات عملية
-- **العروض التجارية:** استخدم انتقال Circle لتحولات سلسة ومهنية بين بنود الجدول.  
-- **المحتوى التعليمي:** استخدم Zoom لتسليط الضوء على المخططات أو الصيغ الرئيسية أثناء المحاضرة.  
-- **عروض التسويق:** تأثير Comb يمنح شعورًا نظيفًا ومنظمًا لتفصيل ميزات المنتج.  
+- **العروض التجارية:** استخدم انتقال Circle لتغييرات سلسة ومهنية بين بنود جدول الأعمال.  
+- **المحتوى التعليمي:** طبّق Zoom لتسليط الضوء على المخططات أو الصيغ الرئيسية أثناء المحاضرة.  
+- **عروض التسويق:** يعطي تأثير Comb مظهرًا نظيفًا ومنظمًا لتفصيل ميزات المنتج.  
 
-يمكنك حتى أتمتة هذه الخطوات في خط أنابيب CI/CD لإنشاء عروض شرائح تلقائيًا.
+يمكنك حتى أتمتة هذه الخطوات في خط أنابيب CI/CD لتوليد مجموعات شرائح تلقائيًا.
 
 ## اعتبارات الأداء
-- **تحرير العروض:** دائمًا استدعِ `dispose()` لتحرير الموارد الأصلية.  
-- **تجنب الملفات الكبيرة في آن واحد:** عالج عرضًا واحدًا في كل مرة للحفاظ على انخفاض استهلاك الذاكرة.  
-- **مراقبة الذاكرة:** استخدم أدوات JVM لمراقبة الارتفاعات عند معالجة عروض ضخمة.
+- **تحرير العروض:** احرص دائمًا على استدعاء `dispose()` لتحرير الموارد الأصلية.  
+- **تجنب الملفات الكبيرة المتزامنة:** عالج عرضًا تقديميًا واحدًا في كل مرة لتقليل استهلاك الذاكرة.  
+- **مراقبة الـ Heap:** استخدم أدوات JVM لمراقبة الارتفاعات عند التعامل مع مجموعات شرائح ضخمة.
 
 ## المشكلات الشائعة والحلول
 | المشكلة | الحل |
 |-------|----------|
-| **OutOfMemoryError** عند تحميل PPTX كبير جدًا | معالجة الشرائح على دفعات أو زيادة حجم الذاكرة في JVM (`-Xmx`). |
+| **OutOfMemoryError** عند تحميل PPTX ضخم | عالج الشرائح على دفعات أو زد حجم heap في JVM (`-Xmx`). |
 | الانتقال غير مرئي في PowerPoint | تأكد من حفظ الملف بصيغة PPTX وفتحه في نسخة حديثة من PowerPoint. |
 | الترخيص غير مُطبق | استدعِ `License license = new License(); license.setLicense("path/to/license.xml");` قبل إنشاء `Presentation`. |
 
 ## الأسئلة المتكررة
 
 **س: ما هو Aspose.Slides for Java؟**  
-ج: إنه API قوي يتيح لك إنشاء وتعديل وتحويل ملفات PowerPoint برمجيًا من تطبيقات Java.
+ج: هو API قوي يتيح لك إنشاء، تعديل، وتحويل ملفات PowerPoint برمجيًا من تطبيقات Java.
 
-**س: كيف أطبق انتقالًا على شريحة محددة؟**  
-ج: الوصول إلى الشريحة باستخدام `get_Item(index)` وضبط نوع الانتقال باستخدام `getSlideShowTransition().setType(...)`.
+**س: كيف أُطبق انتقالًا على شريحة معينة؟**  
+ج: احصل على الشريحة باستخدام `get_Item(index)` ثم اضبط نوع الانتقال عبر `getSlideShowTransition().setType(...)`.
 
 **س: هل يمكنني تخصيص مدة الانتقالات؟**  
-ج: نعم. استخدم `setAdvanceAfterTime(milliseconds)` لتحديد مدة بقاء الشريحة قبل الانتقال.
+ج: نعم. استخدم `setAdvanceAfterTime(milliseconds)` لتحديد مدة بقاء الشريحة قبل التقدم.
 
 **س: ما هي أفضل الممارسات لإدارة الذاكرة؟**  
-ج: قم بتحرير كل كائن `Presentation` فور الانتهاء، وتجنب تحميل العديد من الملفات الكبيرة في آن واحد، وراقب ذاكرة JVM.
+ج: حرّر كل كائن `Presentation` فور الانتهاء، تجنّب تحميل ملفات كبيرة متعددة في آنٍ واحد، وراقب heap الخاص بـ JVM.
 
 **س: أين يمكنني العثور على قائمة كاملة بأنواع الانتقالات المدعومة؟**  
-ج: تحقق من [توثيق Aspose.Slides for Java الرسمي](https://docs.aspose.com/slides/java/) للحصول على قائمة شاملة.
+ج: راجع الوثائق الرسمية لـ [Aspose.Slides for Java](https://docs.aspose.com/slides/java/) للحصول على القائمة الشاملة.
 
-## الخلاصة
-أنت الآن تعرف كيفية **إنشاء انتقالات العروض التقديمية** في Java، وضبط أوقات تقدم الشرائح بدقة، وتكوين التوقيت لتجربة مشاهدة أكثر سلاسة. جرب تأثيرات مختلفة، ودمجها مع رسوم متحركة مخصصة، ودمج هذه المنطق في منصات تقارير أو تعلم إلكتروني أكبر.
+## الخاتمة
+أنت الآن تعرف **كيفية إضافة Aspose Slides Maven Dependency**، **إنشاء انتقالات عروض تقديمية** في Java، ضبط أوقات تقدم الشرائح بدقة، وتكوين التوقيت لتجربة مشاهدة أكثر سلاسة. جرّب تأثيرات مختلفة، ادمجها مع رسوم متحركة مخصصة، ودمج هذه المنطق في منصات تقارير أو تعلم إلكتروني أوسع.
 
 ---
 
-**آخر تحديث:** 2025-12-02  
-**تم الاختبار مع:** Aspose.Slides 25.4 (JDK 16 classifier)  
+**آخر تحديث:** 2026-04-22  
+**تم الاختبار مع:** Aspose.Slides 25.4 (مصنف JDK 16)  
 **المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
