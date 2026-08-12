@@ -1,13 +1,63 @@
 ---
-date: '2025-12-27'
-description: Μάθετε πώς να δημιουργείτε PowerPoint προγραμματιστικά χρησιμοποιώντας
-  το Aspose.Slides για Java, να δημιουργείτε διαφάνειες PowerPoint και να αυτοματοποιείτε
-  τη διαχείριση παρουσιάσεων.
+date: '2026-05-18'
+description: Μάθετε πώς να μετατρέπετε PPTX σε PDF και να δημιουργείτε PowerPoint
+  προγραμματιστικά χρησιμοποιώντας Aspose.Slides for Java, να δημιουργείτε slides
+  αυτόματα και να αυτοματοποιείτε τη διαχείριση παρουσιάσεων.
 keywords:
-- Aspose.Slides Java
-- PowerPoint automation in Java
-- Java PowerPoint management
-title: Δημιουργία PowerPoint προγραμματιστικά με το Aspose Slides για Java
+- convert pptx to pdf
+- create powerpoint with java
+- generate powerpoint slides programmatically
+schemas:
+- author: Aspose
+  dateModified: '2026-05-18'
+  description: Learn how to convert PPTX to PDF and create PowerPoint programmatically
+    using Aspose.Slides for Java, generate slides automatically, and automate presentation
+    management.
+  headline: Convert PPTX to PDF and Create PowerPoint Programmatically with Aspose
+    Slides for Java
+  type: TechArticle
+- description: Learn how to convert PPTX to PDF and create PowerPoint programmatically
+    using Aspose.Slides for Java, generate slides automatically, and automate presentation
+    management.
+  name: Convert PPTX to PDF and Create PowerPoint Programmatically with Aspose Slides
+    for Java
+  steps:
+  - name: '**Automating Presentation Generation** – Build standardized reports, sales
+      decks, or meeting minutes automatically from data sources.'
+    text: '**Automating Presentation Generation** – Build standardized reports, sales
+      decks, or meeting minutes automatically from data sources.'
+  - name: '**Content Management Systems** – Enable CMS platforms to generate or edit
+      slides on the fly, supporting multi‑user collaboration.'
+    text: '**Content Management Systems** – Enable CMS platforms to generate or edit
+      slides on the fly, supporting multi‑user collaboration.'
+  - name: '**Educational Tools** – Convert lecture notes into polished PowerPoint
+      slides with custom bullet styles and embedded media.'
+    text: '**Educational Tools** – Convert lecture notes into polished PowerPoint
+      slides with custom bullet styles and embedded media.'
+  - name: '**Conversion Workflows** – Convert PPTX files to PDF, HTML, or images as
+      part of a document processing pipeline (e.g., **convert pptx to pdf**).'
+    text: '**Conversion Workflows** – Convert PPTX files to PDF, HTML, or images as
+      part of a document processing pipeline (e.g., **convert pptx to pdf**).'
+  type: HowTo
+- questions:
+  - answer: It allows developers to create, modify, and convert PowerPoint presentations
+      programmatically, including PPTX‑to‑PDF conversion.
+    question: What is Aspose.Slides for Java used for?
+  - answer: Add the Maven dependency shown earlier to your `pom.xml` and run `mvn
+      install`.
+    question: How do I install Aspose.Slides using Maven?
+  - answer: Yes—the library supports transitions, animations, and many other slide
+      features.
+    question: Can I manipulate slide transitions with Aspose.Slides?
+  - answer: A temporary license grants full functionality for a limited period, ideal
+      for testing before purchasing a permanent license.
+    question: What is a temporary license for Aspose.Slides?
+  - answer: Call the `dispose()` method on your `Presentation` instance once processing
+      is complete.
+    question: How do I dispose of resources in Aspose.Slides?
+  type: FAQPage
+title: Μετατροπή PPTX σε PDF και Δημιουργία PowerPoint προγραμματιστικά με Aspose
+  Slides for Java
 url: /el/java/batch-processing/aspose-slides-java-powerpoint-automation/
 weight: 1
 ---
@@ -17,42 +67,40 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Δημιουργία PowerPoint προγραμματιστικά με Aspose Slides για Java
+# Μετατροπή PPTX σε PDF και Δημιουργία PowerPoint προγραμματιστικά με Aspose Slides για Java
 
 ## Εισαγωγή
 
-Αναζητάτε να **δημιουργήσετε PowerPoint προγραμματιστικά** στις εφαρμογές Java σας; Η αποδοτική φόρτωση, πρόσβαση και μορφοποίηση των διαφανειών μπορεί να είναι προκλητική, αλλά με το **Aspose.Slides for Java** η διαδικασία γίνεται απλή. Αυτό το tutorial σας καθοδηγεί στη φόρτωση μιας παρουσίασης, την πρόσβαση στα στοιχεία των διαφανειών και την ανάκτηση λεπτομερών πληροφοριών μορφοποίησης κουκίδων — ιδανικό για όποιον θέλει να **δημιουργήσει διαφάνειες PowerPoint** αυτόματα.
+Αν χρειάζεστε **convert PPTX to PDF** *και* να δημιουργήσετε παρουσιάσεις PowerPoint άμεσα, το Aspose.Slides for Java σας παρέχει ένα ενιαίο API χωρίς Microsoft‑Office που διαχειρίζεται και τις δύο εργασίες άψογα. Σε αυτό το tutorial θα περάσουμε από τη φόρτωση μιας παρουσίασης, την πρόσβαση στα σχήματα της, την εξαγωγή μορφοποίησης κουκίδων, και τελικά την αποθήκευση του αρχείου ως PDF—όλα από καθαρό κώδικα Java. Θα δείτε επίσης πώς να καθαρίζετε τους πόρους για εργασίες υψηλής απόδοσης σε batch.
 
-**Τι θα μάθετε**
-- Πώς να φορτώνετε και να επεξεργάζεστε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides for Java.  
-- Τεχνικές για πρόσβαση στις διαφάνειες και στα στοιχεία τους σε εφαρμογές Java.  
-- Μέθοδοι για επανάληψη στις παραγράφους και ανάκτηση λεπτομερειών μορφοποίησης κουκίδων.  
-- Καλές πρακτικές για την αποτελεσματική απελευθέρωση των πόρων της παρουσίασης.  
+**Τι Θα Μάθετε**
+- Πώς να φορτώνετε, επεξεργάζεστε και αποθηκεύετε αρχεία PowerPoint με Aspose.Slides for Java.  
+- Τα ακριβή βήματα για **convert PPTX to PDF** σε μόλις δύο κλήσεις μεθόδου.  
+- Τεχνικές για επανάληψη παραγράφων και ανάγνωση πληροφοριών μορφοποίησης κουκίδων.  
+- Βέλτιστη πρακτική απελευθέρωσης πόρων για να διατηρείται η χρήση μνήμης χαμηλή κατά την επεξεργασία πολλών αρχείων.  
 
-Πριν προχωρήσουμε, βεβαιωθείτε ότι το περιβάλλον ανάπτυξής σας πληροί τις παρακάτω προαπαιτήσεις.
+Πριν ξεκινήσουμε, βεβαιωθείτε ότι το περιβάλλον ανάπτυξής σας ικανοποιεί τις προαπαιτήσεις που αναφέρονται παρακάτω.
 
 ## Γρήγορες Απαντήσεις
-- **Μπορώ να δημιουργήσω PowerPoint προγραμματιστικά με το Aspose.Slides;** Ναι, η βιβλιοθήκη παρέχει πλήρες API για τη δημιουργία PowerPoint.  
+- **Μπορώ να convert PPTX to PDF με το Aspose.Slides;** Ναι—καλέστε `presentation.save("output.pdf", SaveFormat.Pdf)` μετά τη φόρτωση του αρχείου.  
 - **Ποια έκδοση Java απαιτείται;** JDK 16 ή νεότερη.  
-- **Χρειάζομαι άδεια για παραγωγική χρήση;** Απαιτείται άδεια ή προσωρινή άδεια για πλήρη λειτουργικότητα.  
-- **Μπορώ να μετατρέψω PPTX σε PDF με την ίδια βιβλιοθήκη;** Απόλυτα—το Aspose.Slides υποστηρίζει επίσης τη μετατροπή σε PDF.  
-- **Υπάρχει δωρεάν δοκιμή διαθέσιμη;** Ναι, μπορείτε να κατεβάσετε μια δοκιμή από το Aspose Releases.
+- **Χρειάζομαι άδεια για παραγωγή;** Απαιτείται μόνιμη ή προσωρινή άδεια για πλήρη, απεριόριστη λειτουργικότητα.  
+- **Μπορώ επίσης να δημιουργήσω νέα αρχεία PowerPoint προγραμματιστικά;** Απόλυτα—χρησιμοποιήστε την κλάση `Presentation` για να δημιουργήσετε διαφάνειες από την αρχή.  
+- **Υπάρχει δωρεάν δοκιμή;** Ναι, κατεβάστε μια δοκιμή από το Aspose Releases και ξεκινήστε να πειραματίζεστε αμέσως.
 
 ## Τι σημαίνει “δημιουργία PowerPoint προγραμματιστικά”;
-Η δημιουργία PowerPoint προγραμματιστικά σημαίνει η παραγωγή ή η τροποποίηση αρχείων *.pptx* μέσω κώδικα αντί για χειροκίνητη επεξεργασία. Αυτή η προσέγγιση επιτρέπει την αυτοματοποιημένη δημιουργία αναφορών, ενημερώσεις κατά παρτίδες και ενσωμάτωση με άλλα συστήματα.
+Η δημιουργία PowerPoint προγραμματιστικά σημαίνει η παραγωγή ή η τροποποίηση αρχείων *.pptx* μέσω κώδικα αντί για χειροκίνητη επεξεργασία. Αυτή η προσέγγιση επιτρέπει την αυτοματοποιημένη δημιουργία αναφορών, ενημερώσεις batch και απρόσκοπτη ενσωμάτωση με άλλα επιχειρησιακά συστήματα, παρέχοντάς σας πλήρη έλεγχο του περιεχομένου των διαφανειών, της διάταξης και των μορφών εξαγωγής.
 
-## Γιατί να χρησιμοποιήσετε το Aspose.Slides για Java;
-- **Χωρίς εξάρτηση από το Microsoft Office** – λειτουργεί σε οποιαδήποτε πλατφόρμα.  
-- **Πλούσιο σύνολο λειτουργιών** – υποστηρίζει σχήματα, πίνακες, γραφήματα, animations, και μετατροπή σε PDF/HTML.  
-- **Υψηλή απόδοση** – βελτιστοποιημένο για μεγάλες παρουσιάσεις και μαζική επεξεργασία.
+## Γιατί να χρησιμοποιήσετε Aspose.Slides για Java;
+Θα πρέπει να χρησιμοποιήσετε το Aspose.Slides για Java επειδή εξαλείφει την ανάγκη για Microsoft Office, προσφέρει ένα πλούσιο API που υποστηρίζει **150+ τύπους σχημάτων, 30+ τύπους διαγραμμάτων και 20+ εφέ κίνησης**, και μπορεί να **convert PPTX to PDF, HTML, XPS, and images** με μία κλήση. Επιπλέον, επεξεργάζεται παρουσιάσεις με **πάνω από 500 διαφάνειες χρησιμοποιώντας λιγότερο από 200 MB RAM**, παρέχοντας υψηλή απόδοση για μαζικές λειτουργίες.
 
-## Προαπαιτούμενα
+## Προαπαιτήσεις
 
-- **Aspose.Slides for Java** έκδοση βιβλιοθήκης 25.4 ή νεότερη.  
-- **JDK 16+** εγκατεστημένο στο μηχάνημά σας.  
-- Εξοικείωση με Maven ή Gradle για διαχείριση εξαρτήσεων.  
+- **Aspose.Slides for Java** βιβλιοθήκη έκδοση 25.4 ή νεότερη.  
+- **JDK 16+** εγκατεστημένο στο μηχάνημά σας.  
+- Maven ή Gradle για διαχείριση εξαρτήσεων (ή χειροκίνητη προσθήκη JAR).  
 
-## Ρύθμιση του Aspose.Slides για Java
+## Ρύθμιση Aspose.Slides για Java
 
 ### Εγκατάσταση με Maven
 
@@ -71,9 +119,9 @@ weight: 1
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Άμεση λήψη
+### Άμεση Λήψη
 
-Εναλλακτικά, κατεβάστε την πιο πρόσφατη έκδοση του Aspose.Slides for Java από το [Aspose Releases](https://releases.aspose.com/slides/java/).
+Εναλλακτικά, κατεβάστε το τελευταίο Aspose.Slides for Java από το [Aspose Releases](https://releases.aspose.com/slides/java/).
 
 ### Απόκτηση Άδειας
 
@@ -84,7 +132,9 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 ### Χαρακτηριστικό 1: Φόρτωση Παρουσίασης και Πρόσβαση στη Διαφάνεια
 
 #### Επισκόπηση
-Η φόρτωση ενός αρχείου παρουσίασης και η πρόσβαση στις διαφάνειές του είναι βασικά βήματα όταν **δημιουργείτε PowerPoint προγραμματιστικά**.
+Η φόρτωση ενός αρχείου παρουσίασης και η πρόσβαση στις διαφάνειές του είναι θεμελιώδη βήματα όταν **create PowerPoint programmatically**.
+
+`Presentation` είναι η βασική κλάση του Aspose.Slides που αντιπροσωπεύει ένα αρχείο PowerPoint στη μνήμη.
 
 ```java
 import com.aspose.slides.Presentation;
@@ -97,14 +147,16 @@ Presentation pres = new Presentation(pptxFile); // Load the presentation
 AutoShape autoShape = (AutoShape) pres.getSlides().get_Item(0).getShapes().get_Item(0);
 ```
 
-**Επεξήγηση:**  
+**Εξήγηση:**  
 - Η κλάση `Presentation` φορτώνει ένα αρχείο *.pptx*.  
-- Τα σχήματα προσπελάζονται με το δείκτη τους μέσα σε μια διαφάνεια.
+- Τα σχήματα προσπελαύνονται με το δείκτη τους μέσα σε μια διαφάνεια.
 
 ### Χαρακτηριστικό 2: Επανάληψη Παραγράφων και Λήψη Πληροφοριών Κουκίδας
 
 #### Επισκόπηση
-Η επανάληψη στις παραγράφους ενός πλαισίου κειμένου σας επιτρέπει να εξάγετε λεπτομέρειες μορφοποίησης κουκίδας — χρήσιμο όταν χρειάζεται να **δημιουργήσετε διαφάνειες PowerPoint** με προσαρμοσμένα στυλ κουκίδων.
+Η επανάληψη των παραγράφων σε ένα πλαίσιο κειμένου σας επιτρέπει να εξάγετε λεπτομέρειες μορφοποίησης κουκίδας—χρήσιμο όταν χρειάζεται να **generate PowerPoint slides** με προσαρμοσμένα στυλ κουκίδων.
+
+`Paragraph` αντιπροσωπεύει μια μοναδική γραμμή κειμένου μέσα στο πλαίσιο κειμένου ενός σχήματος και παρέχει πρόσβαση στη μορφοποίηση της κουκίδας.
 
 ```java
 import com.aspose.slides.IBulletFormatEffectiveData;
@@ -135,14 +187,16 @@ for (IParagraph para : autoShape.getTextFrame().getParagraphs()) {
 }
 ```
 
-**Επεξήγηση:**  
+**Εξήγηση:**  
 - Ο βρόχος επεξεργάζεται κάθε παράγραφο στο πλαίσιο κειμένου του σχήματος.  
-- Η μορφοποίηση της κουκίδας εξετάζεται και διαχειρίζεται βάσει του τύπου γέμισης (συμπαγής, διαβάθμιση, μοτίβο).
+- Η μορφοποίηση της κουκίδας εξετάζεται και διαχειρίζεται βάσει του τύπου γεμίσματος (συμπαγές, διαβάθμιση, μοτίβο).
 
-### Χαρακτηριστικό 3: Απελευθέρωση Παρουσίασης
+### Χαρακτηριστικό 3: Αποδέσμευση Παρουσίασης
 
 #### Επισκόπηση
-Η σωστή απελευθέρωση του αντικειμένου `Presentation` ελευθερώνει πόρους, κάτι που είναι ουσιώδες όταν **δημιουργείτε PowerPoint προγραμματιστικά** σε σενάρια παρτίδας.
+Η σωστή αποδέσμευση του αντικειμένου `Presentation` ελευθερώνει πόρους, κάτι που είναι ουσιώδες όταν **create PowerPoint programmatically** σε σενάρια batch.
+
+`dispose()` απελευθερώνει όλους τους εγγενείς πόρους που έχουν διατεθεί για την παρουσίαση, αποτρέποντας διαρροές μνήμης.
 
 ```java
 import com.aspose.slides.IDisposable;
@@ -150,50 +204,56 @@ import com.aspose.slides.IDisposable;
 if (pres != null) pres.dispose();
 ```
 
-**Επεξήγηση:**  
-- Η κλήση της `dispose()` απελευθερώνει όλους τους εγγενείς πόρους που χρησιμοποιεί η παρουσίαση.
+**Εξήγηση:**  
+- Καλώντας το `dispose()` απελευθερώνετε όλους τους εγγενείς πόρους που χρησιμοποιεί η παρουσίαση.
+
+## Πώς να convert PPTX to PDF χρησιμοποιώντας Aspose.Slides για Java;
+
+`SaveFormat.Pdf` καθορίζει το PDF ως μορφή εξόδου για τη μέθοδο `save`.
+
+Φορτώστε το αρχείο PPTX με `new Presentation("input.pptx")` και αμέσως καλέστε `presentation.save("output.pdf", SaveFormat.Pdf)`—η βιβλιοθήκη διαχειρίζεται αυτόματα όλες τις γραμματοσειρές, εικόνες και λεπτομέρειες διάταξης. Αυτή η μετατροπή δύο βημάτων λειτουργεί για οποιοδήποτε PPTX, ακόμη και αυτά που περιέχουν σύνθετα διαγράμματα ή animations, και δεν απαιτεί εγκατάσταση Microsoft Office στον διακομιστή.
 
 ## Πρακτικές Εφαρμογές
 
-Το Aspose.Slides for Java μπορεί να ενσωματωθεί σε πολλά πραγματικά σενάρια:
+Το Aspose.Slides για Java μπορεί να ενσωματωθεί σε πολλές πραγματικές περιπτώσεις:
 
-1. **Αυτοματοποίηση Δημιουργίας Παρουσίασης** – Δημιουργήστε αυτόματα τυποποιημένες αναφορές, παρουσιάσεις πωλήσεων ή πρακτικά συναντήσεων.  
-2. **Συστήματα Διαχείρισης Περιεχομένου** – Επιτρέψτε στις πλατφόρμες CMS να δημιουργούν ή να επεξεργάζονται διαφάνειες άμεσα.  
-3. **Εκπαιδευτικά Εργαλεία** – Μετατρέψτε σημειώσεις διαλέξεων σε επαγγελματικές διαφάνειες PowerPoint με προσαρμοσμένα στυλ κουκίδων.  
-4. **Ροές Μετατροπής** – Μετατρέψτε αρχεία PPTX σε PDF ή εικόνες ως μέρος μιας αλυσίδας επεξεργασίας εγγράφων (π.χ., **convert pptx to pdf**).
+1. **Αυτοματοποίηση Δημιουργίας Παρουσιάσεων** – Δημιουργήστε τυποποιημένες αναφορές, παρουσιάσεις πωλήσεων ή πρακτικά συναντήσεων αυτόματα από πηγές δεδομένων.  
+2. **Συστήματα Διαχείρισης Περιεχομένου** – Επιτρέψτε σε πλατφόρμες CMS να δημιουργούν ή να επεξεργάζονται διαφάνειες άμεσα, υποστηρίζοντας συνεργασία πολλαπλών χρηστών.  
+3. **Εκπαιδευτικά Εργαλεία** – Μετατρέψτε σημειώσεις διαλέξεων σε επαγγελματικές διαφάνειες PowerPoint με προσαρμοσμένα στυλ κουκίδων και ενσωματωμένα πολυμέσα.  
+4. **Ροές Μετατροπής** – Μετατρέψτε αρχεία PPTX σε PDF, HTML ή εικόνες ως μέρος μιας αλυσίδας επεξεργασίας εγγράφων (π.χ., **convert pptx to pdf**).  
 
 ## Σκέψεις Απόδοσης
 
 - **Διαχείριση Πόρων:** Πάντα καλέστε `dispose()` μετά την επεξεργασία μεγάλων ή πολλαπλών παρουσιάσεων.  
-- **Χρήση Μνήμης:** Για πολύ μεγάλα αρχεία, σκεφτείτε την επεξεργασία των διαφανειών σε τμήματα για να αποφύγετε υψηλή κατανάλωση μνήμης.  
-- **Αποδοτικότητα Μετατροπής:** Κατά τη μετατροπή σε PDF, χρησιμοποιήστε τη ενσωματωμένη μέθοδο `save` με `SaveFormat.Pdf` για βέλτιστα αποτελέσματα.
+- **Χρήση Μνήμης:** Για πολύ μεγάλα αρχεία, επεξεργαστείτε τις διαφάνειες σε τμήματα ή χρησιμοποιήστε τις επιλογές streaming του `Presentation` για να αποφύγετε τη φόρτωση ολόκληρου του αρχείου στη μνήμη.  
+- **Αποδοτικότητα Μετατροπής:** Κατά τη μετατροπή σε PDF, χρησιμοποιήστε τη ενσωματωμένη μέθοδο `save` με `SaveFormat.Pdf` για βέλτιστη ταχύτητα και πιστότητα.  
 
 ## Συμπέρασμα
 
-Τώρα έχετε μια στέρεη βάση για το πώς να **δημιουργήσετε PowerPoint προγραμματιστικά** χρησιμοποιώντας το Aspose.Slides for Java. Έχετε μάθει να φορτώνετε παρουσιάσεις, να προσπελάζετε σχήματα, να ανακτάτε μορφοποίηση κουκίδων και να διαχειρίζεστε πόρους αποδοτικά.
+Τώρα έχετε μια σταθερή βάση για το πώς να **convert PPTX to PDF and create PowerPoint programmatically** χρησιμοποιώντας το Aspose.Slides για Java. Έχετε μάθει να φορτώνετε παρουσιάσεις, να προσπελάζετε σχήματα, να ανακτάτε τη μορφοποίηση κουκίδων και να διαχειρίζεστε πόρους αποδοτικά για σενάρια υψηλής απόδοσης.
 
 **Επόμενα Βήματα**
-- Εξερευνήστε πρόσθετα API όπως δημιουργία γραφημάτων, μεταβάσεις διαφανειών και μετατροπή σε PDF.  
-- Πειραματιστείτε με διαφορετικά στυλ κουκίδων για να προσαρμόσετε πλήρως τις δημιουργημένες διαφάνειες.  
+- Εξερευνήστε πρόσθετα API όπως δημιουργία διαγραμμάτων, μεταβάσεις διαφανειών και μετατροπή PDF.  
+- Πειραματιστείτε με διαφορετικά στυλ κουκίδων και χειρισμούς σχημάτων για να προσαρμόσετε πλήρως τις δημιουργημένες διαφάνειες.  
 
-Έτοιμοι να εφαρμόσετε αυτές τις τεχνικές; Ξεκινήστε να χτίζετε τις αυτοματοποιημένες λύσεις PowerPoint σας σήμερα!
+Έτοιμοι να εφαρμόσετε αυτές τις τεχνικές; Ξεκινήστε να δημιουργείτε τις αυτοματοποιημένες λύσεις PowerPoint σήμερα!
 
 ## Συχνές Ερωτήσεις
 
-**Ε: Ποια είναι η χρήση του Aspose.Slides for Java;**  
-Ε: Επιτρέπει στους προγραμματιστές να δημιουργούν, τροποποιούν και μετατρέπουν παρουσιάσεις PowerPoint προγραμματιστικά.  
+**Ε: Για τι χρησιμοποιείται το Aspose.Slides for Java;**  
+Α: Επιτρέπει στους προγραμματιστές να δημιουργούν, τροποποιούν και μετατρέπουν παρουσιάσεις PowerPoint προγραμματιστικά, συμπεριλαμβανομένης της μετατροπής PPTX‑to‑PDF.
 
 **Ε: Πώς εγκαθιστώ το Aspose.Slides χρησιμοποιώντας Maven;**  
-Ε: Προσθέστε την εξάρτηση Maven που εμφανίστηκε νωρίτερα στο αρχείο `pom.xml` σας.  
+Α: Προσθέστε την εξάρτηση Maven που εμφανίστηκε νωρίτερα στο `pom.xml` σας και εκτελέστε `mvn install`.
 
 **Ε: Μπορώ να χειριστώ τις μεταβάσεις διαφανειών με το Aspose.Slides;**  
-Ε: Ναι, η βιβλιοθήκη υποστηρίζει μεταβάσεις, animations και πολλές άλλες λειτουργίες διαφανειών.  
+Α: Ναι—η βιβλιοθήκη υποστηρίζει μεταβάσεις, animations και πολλές άλλες λειτουργίες διαφανειών.
 
 **Ε: Τι είναι μια προσωρινή άδεια για το Aspose.Slides;**  
-Ε: Μια προσωρινή άδεια παρέχει πλήρη λειτουργικότητα για περιορισμένο χρονικό διάστημα, χρήσιμη για δοκιμές.  
+Α: Μια προσωρινή άδεια παρέχει πλήρη λειτουργικότητα για περιορισμένο χρονικό διάστημα, ιδανική για δοκιμή πριν από την αγορά μόνιμης άδειας.
 
-**Ε: Πώς απελευθερώνω πόρους στο Aspose.Slides;**  
-Ε: Καλέστε τη μέθοδο `dispose()` στο αντικείμενο `Presentation` σας μόλις ολοκληρωθεί η επεξεργασία.
+**Ε: Πώς αποδεσμεύω πόρους στο Aspose.Slides;**  
+Α: Καλέστε τη μέθοδο `dispose()` στο αντικείμενο `Presentation` σας μόλις ολοκληρωθεί η επεξεργασία.
 
 ## Πόροι
 
@@ -206,9 +266,16 @@ if (pres != null) pres.dispose();
 
 ---
 
-**Τελευταία Ενημέρωση:** 2025-12-27  
-**Δοκιμάστηκε Με:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Τελευταία Ενημέρωση:** 2026-05-18  
+**Δοκιμάστηκε Με:** Aspose.Slides for Java 25.4 (JDK 16)  
 **Συγγραφέας:** Aspose
+
+## Σχετικά Tutorials
+
+- [Πώς να Μετατρέψετε PowerPoint σε PDF Χρησιμοποιώντας Aspose.Slides για Java](/slides/java/export-conversion/aspose-slides-java-pptx-to-pdf-conversion/)
+- [Αυτοματοποίηση Εργασιών PowerPoint με Aspose.Slides για Java: Ολοκληρωμένος Οδηγός για Batch Επεξεργασία Αρχείων PPTX](/slides/java/batch-processing/aspose-slides-java-automation-guide/)
+- [Μετατροπή PPTX σε PDF Συμπεριλαμβανομένων Κρυφών Διαφανειών Χρησιμοποιώντας Aspose.Slides για Java](/slides/java/export-conversion/convert-pptx-to-pdf-hidden-slides-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

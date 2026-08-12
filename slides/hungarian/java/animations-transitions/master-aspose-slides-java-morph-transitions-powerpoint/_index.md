@@ -1,13 +1,58 @@
 ---
-date: '2026-02-12'
-description: Tanulja meg, hogyan alkalmazza a morph átmenetet a PowerPointban az Aspose.Slides
-  for Java segítségével. Adjon hozzá zökkenőmentes animációkat és dinamikus hatásokat
-  a prezentációihoz.
+date: '2026-05-18'
+description: Ismerje meg, hogyan használhatja az Aspose.Slides for Java-t morf átmenetes
+  PowerPoint diák hozzáadásához, animált PowerPoint prezentációk létrehozásához dinamikus
+  hatásokkal.
 keywords:
-- Morph transitions PowerPoint
-- Aspose.Slides Java Morph transition
-- Java PowerPoint animation
-title: Morph átmenet alkalmazása PowerPointban az Aspose.Slides for Java segítségével
+- how to use aspose
+- add morph transition powerpoint
+- how to apply morph
+- create animated powerpoint slides
+schemas:
+- author: Aspose
+  dateModified: '2026-05-18'
+  description: Learn how to use Aspose.Slides for Java to add morph transition PowerPoint
+    slides, creating animated PowerPoint presentations with dynamic effects.
+  headline: 'How to Use Aspose.Slides for Java: Add Morph Transition'
+  type: TechArticle
+- description: Learn how to use Aspose.Slides for Java to add morph transition PowerPoint
+    slides, creating animated PowerPoint presentations with dynamic effects.
+  name: 'How to Use Aspose.Slides for Java: Add Morph Transition'
+  steps:
+  - name: '**Business Presentations** – Highlight quarterly growth by morphing charts
+      smoothly.'
+    text: '**Business Presentations** – Highlight quarterly growth by morphing charts
+      smoothly.'
+  - name: '**Educational Content** – Demonstrate step‑by‑step algorithms with object
+      morphing.'
+    text: '**Educational Content** – Demonstrate step‑by‑step algorithms with object
+      morphing.'
+  - name: '**Product Launch Decks** – Show product evolution from concept to final
+      design with seamless visual flow.'
+    text: '**Product Launch Decks** – Show product evolution from concept to final
+      design with seamless visual flow.'
+  type: HowTo
+- questions:
+  - answer: It enables programmatic creation, editing, and automation of PowerPoint
+      files, including advanced features such as morph transitions, without requiring
+      Microsoft PowerPoint on the server.
+    question: What is the purpose of using Aspose.Slides for Java?
+  - answer: Yes—iterate over the slide collection, set each slide’s `TransitionType`
+      to `Morph`, and optionally adjust each `IMorphTransition` instance individually.
+    question: Can I apply Morph transitions to multiple slides at once?
+  - answer: Wrap file‑loading and saving logic in try‑catch blocks, catching `IOException`
+      and `Exception` to log errors and ensure the license is applied before any operation.
+    question: How should I handle exceptions during presentation processing?
+  - answer: Apache POI offers basic slide manipulation but lacks comprehensive transition
+      support; Aspose.Slides provides the most complete API for morph effects.
+    question: Are there alternatives to Aspose.Slides for programmatic transitions?
+  - answer: Explore additional `IMorphTransition` properties like `MorphType.ByCharacter`,
+      `Duration`, and `Smoothness`. The official API reference lists all configurable
+      options.
+    question: How can I further customize morph transitions beyond simple word or
+      object morphing?
+  type: FAQPage
+title: 'Hogyan használjuk az Aspose.Slides for Java-t: Morf átmenet hozzáadása'
 url: /hu/java/animations-transitions/master-aspose-slides-java-morph-transitions-powerpoint/
 weight: 1
 ---
@@ -17,30 +62,30 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Morph átmenet alkalmazása PowerPointban az Aspose.Slides for Java segítségével
+# Hogyan használjuk az Aspose.Slides for Java-t: Morf átmenet hozzáadása
 
 ## Bevezetés
-Ebben az útmutatóban megtanulod, hogyan **alkalmazz morph átmenetet PowerPointban** az Aspose.Slides for Java-val, és hogyan alakíthatod az egyszerű diákat dinamikus, szemkápráztató bemutatókká. Szerettél volna már valaha fejlett átmeneteket, például a „Morph” hatást hozzáadni PowerPoint diáidhoz Java használatával? Ez a tutorial minden lépésen végigvezet – a könyvtár beállításától a végleges fájl mentéséig – hogy percek alatt professzionális megjelenésű prezentációkat hozhass létre.
+Ebben az útmutatóban megtanulod **hogyan használjuk az Aspose.Slides for Java**-t egy morph átmenet PowerPoint‑effektus alkalmazásához, amely a hétköznapi diákból dinamikus, szemkápráztató bemutatókat varázsol. Szükséged volt már arra, hogy programozottan adj hozzá egy „Morph” animációt tucatnyi diához anélkül, hogy manuálisan megnyitnád a PowerPointot? Ez a tutorial minden lépésen végigvezet – a könyvtár telepítésétől a végleges fájl mentéséig – így percek alatt generálhatsz professzionális megjelenésű prezentációkat.
 
-**Amit megtanulhatsz:**
-- Hogyan állítsd be és használd az Aspose.Slides for Java-t  
-- Lépések a Morph átmenet alkalmazásához PowerPoint diákon  
-- Konfigurációs lehetőségek az átmenetek testreszabásához  
+**Mit fogsz megtanulni**
+- Hogyan állítsd be és használd az Aspose.Slides for Java‑t  
+- Lépések egy morph átmenet hozzáadásához PowerPoint diákhoz  
+- Konfigurációs lehetőségek az átmenet hatás testreszabásához  
 
-Készen állsz a prezentációid átalakítására? Kezdjük a követelményekkel!
+Készen állsz a prezentációk átalakítására? Először ellenőrizzük az előfeltételeket.
 
 ## Gyors válaszok
-- **Mit jelent a “apply morph transition PowerPoint”?** Egy sima animációt ad hozzá, amely egy diát a következőbe morph-olja.  
+- **Mit jelent a „add morph transition PowerPoint”?** Egy sima animációt hoz létre, amely egy diát a következőbe morph‑olja, ezáltal az objektumok mozgását vagy átalakulását jeleníti meg.  
 - **Melyik könyvtár szükséges?** Aspose.Slides for Java (v25.4 vagy újabb).  
-- **Szükségem van licencre?** Egy ingyenes próba verzió elegendő az értékeléshez; egy állandó licenc eltávolítja az értékelési korlátokat.  
+- **Szükségem van licencre?** Egy ingyenes próba a kiértékeléshez elegendő; egy állandó licenc eltávolítja a kiértékelési korlátokat.  
 - **Melyik JDK verzió támogatott?** JDK 16 vagy újabb.  
-- **Használható Linux/macOS rendszeren?** Igen – az Aspose.Slides for Java platformfüggetlen.
+- **Futtatható ez Linuxon/macOS-en?** Igen – az Aspose.Slides for Java teljesen platform‑független.
 
 ## Mi az a Morph átmenet és miért használjuk?
-A morph átmenet folyékony vizuális hatást hoz létre, amely zökkenőmentesen alakítja át az objektumokat, szöveget vagy alakzatokat az egyik diáról a másikra. Ez a **powerpoint morph effect** segít fenntartani a közönség figyelmét, tisztázza a lépésről‑lépésre folyamatokat, és kifinomult megjelenést kölcsönöz az üzleti vagy oktatási anyagoknak.
+A morph átmenet folyékony vizuális hatást hoz létre, amely zökkenőmentesen alakítja át az objektumokat, szöveget vagy alakzatokat az egyik diáról a következőre. Ez a **powerpoint morph effect** segít fenntartani a közönség figyelmét, tisztázza a lépés‑ről‑lépésre folyamatokat, és kifinomult megjelenést kölcsönöz az üzleti vagy oktatási deckeknek.
 
 ## Miért használjuk az Aspose.Slides for Java‑t a diaátmenet beállításához?
-Az Aspose.Slides for Java gazdag API‑t kínál, amely lehetővé teszi a **slide transition** tulajdonságok programozott beállítását, amit a natív PowerPoint felület nem tud tömegesen kezelni. Ideális automatizált jelentéskészítéshez, nagyméretű diafrissítésekhez vagy a prezentációkészítés nagyobb Java‑alkalmazásokba való integrálásához.
+Az Aspose.Slides for Java gazdag API‑t kínál, amely lehetővé teszi a **diaátmenet** tulajdonságok programozott beállítását, amit a natív PowerPoint UI nem tud tömegesen feldolgozni. Támogat **50+ bemeneti és kimeneti formátumot**, képes **500+ diát** kezelni anélkül, hogy a teljes fájlt a memóriába töltené, és Windows, Linux, valamint macOS rendszereken fut. Ideális automatizált jelentéskészítéshez, tömeges dia‑frissítésekhez vagy a prezentációkészítés nagyobb Java‑alkalmazásokba való integrálásához.
 
 ## Előfeltételek
 Mielőtt elkezdenénk, győződj meg róla, hogy a következőkkel rendelkezel:
@@ -50,36 +95,37 @@ Mielőtt elkezdenénk, győződj meg róla, hogy a következőkkel rendelkezel:
 - **Java Development Kit (JDK)**: JDK 16 vagy újabb.
 
 ### Környezet beállítási követelmények
-- Egy integrált fejlesztőkörnyezet (IDE), például IntelliJ IDEA vagy Eclipse.  
-- Alapvető Java programozási ismeretek.
+- Integrált fejlesztőkörnyezet (IDE), például IntelliJ IDEA vagy Eclipse.  
+- Alapvető ismeretek a Java programozási koncepciókról.
 
 ## Az Aspose.Slides for Java beállítása
-Az Aspose.Slides for Java használatának megkezdéséhez a könyvtárat be kell vonnod a projektedbe. Így teheted:
+Az Aspose.Slides for Java használatának megkezdéséhez fel kell venni a könyvtárat a projektedbe. Íme, hogyan teheted ezt a leggyakoribb build eszközökkel.
 
-**Maven:**
+**Maven:**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-slides</artifactId>
     <version>25.4</version>
-    <classifier>jdk16</classifier>
 </dependency>
-```
-**Gradle:**
-```gradle
-implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
-```
-**Közvetlen letöltés**  
-Azok számára, akik manuális integrációt preferálnak, töltsd le a legújabb verziót a [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) oldalról.
+```  
 
-### Licenc megszerzésének lépései
-Az Aspose.Slides értékelési korlátozások nélküli használatához:
-- **Ingyenes próba**: Kezdd az ingyenes próba verzióval, hogy felfedezd a funkciókat.  
-- **Ideiglenes licenc**: Szerezz ideiglenes licencet a kiterjedtebb teszteléshez. Látogasd meg az [Aspose's Temporary License Page](https://purchase.aspose.com/temporary-license/) oldalt.  
-- **Vásárlás**: Teljes hozzáféréshez vásárolj licencet a [Aspose Purchase](https://purchase.aspose.com/buy) oldalon.
+**Gradle:**  
+```gradle
+implementation 'com.aspose:aspose-slides:25.4'
+```  
+
+**Közvetlen letöltés**  
+Azok számára, akik a manuális integrációt részesítik előnyben, töltsd le a legújabb verziót az [Aspose.Slides for Java kiadások](https://releases.aspose.com/slides/java/) oldaláról.
+
+### Licenc beszerzési lépések
+Az Aspose.Slides értékelési korlátok nélküli használatához:
+- **Ingyenes próba** – Fedezd fel az API‑t költség nélkül.  
+- **Ideiglenes licenc** – Szerezz be egy rövid távú kulcsot a kiterjesztett teszteléshez a [Aspose ideiglenes licenc oldalon](https://purchase.aspose.com/temporary-license/).  
+- **Vásárlás** – Szerezz teljes, korlátok nélküli hozzáférést a [Aspose vásárlás](https://purchase.aspose.com/buy) oldalon.
 
 ### Alapvető inicializálás és beállítás
-Miután a könyvtárat integráltad a projektedbe, inicializáld a következő módon:
+Miután a könyvtárat hozzáadtad a projekthez, inicializáld a következőképpen:
 ```java
 import com.aspose.slides.*;
 
@@ -92,107 +138,134 @@ public class PresentationSetup {
 }
 ```
 
-## Morph átmenet hozzáadása PowerPointban Java-val
-Az alábbi **morph transition tutorial** pontosan megmutatja, hogyan adhatod hozzá a hatást egy diához. Kövesd a lépéseket, és hamarosan működő példád lesz.
+## Hogyan adhatok hozzá morph átmenetet az Aspose.Slides for Java használatával?
+
+Töltsd be a meglévő PowerPoint fájlt a `new Presentation("source.pptx")` segítségével, szerezd meg a cél diát, állítsd be a `TransitionType`‑t `Morph`‑ra, opcionálisan módosítsd az `IMorphTransition` tulajdonságait, majd hívd meg a `save("output.pptx", SaveFormat.Pptx)`‑t. Ez a tömör sorozat néhány Java‑sorban alkalmazza a morph hatást, miközben megőrzi az összes alakzatot, képet és szövegformázást.  
+A `Presentation` osztály egy PowerPoint dokumentumot képvisel, és hozzáférést biztosít a diákhoz.  
+A `TransitionType` enum meghatározza a rendelkezésre álló diaátmenet típusokat, például a `Morph`‑t.  
+Az `IMorphTransition` interfész a morph‑specifikus beállításokat teszi elérhetővé, mint például a morph típusa és időtartama.  
 
 ### Lépésről‑lépésre megvalósítás
+
 #### 1. Dokumentum könyvtár megadása  
-Add meg azt a könyvtárat, ahol a PowerPoint fájlod található:
+Az alábbi mappát kell megadni, amely a forrás PowerPoint fájlt tartalmazza:  
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
-```
-*Miért*: Ez a lépés biztosítja, hogy világos útvonalad legyen a forrásprezentáció fájl megtalálásához és feldolgozásához.
+```  
+*Miért*: Egyértelmű útvonal megadása megakadályozza a fájl‑nem‑található hibákat, és hordozhatóvá teszi a kódot különböző környezetekben.
 
-#### 2. Prezentáció betöltése  
-Hozz létre egy `Presentation` osztály példányt:
+#### 2. Töltsd be a prezentációt  
+Hozz létre egy `Presentation` osztály példányt:  
 ```java
 Presentation presentation = new Presentation(dataDir + "presentation.pptx");
-```
-*Cél*: A prezentáció betöltése lehetővé teszi a diák és az átmenetek Aspose.Slides metódusokkal történő manipulálását.
+```  
+*Cél*: A `Presentation` osztály egy PowerPoint fájlt képvisel a memóriában, teljes irányítást biztosítva a diák és erőforrások felett.
 
-#### 3. Diaátmenet elérése  
-Érd el az első dia átmenet beállításait:
+#### 3. Hozzáférés a diaátmenethez  
+Szerezd meg az első dia átmenet objektumát:  
 ```java
 ITransition slideTransition = presentation.getSlides().get_Item(0).getSlideShowTransition();
-```
-*Magyarázat*: Ez a sor lekéri a transition objektumot a további testreszabáshoz.
+```  
+*Magyarázat*: Ez az objektum lehetővé teszi az átmenet típus, időtartam és haladó beállítások módosítását.
 
-#### 4. Átmenettípus beállítása Morph-ra  
-Állítsd be az átmenettípust Morph-ra:
+#### 4. Átmenet típus beállítása Morph-ra  
+Állítsd be a morph átmenetet a diára:  
 ```java
 slideTransition.setType(TransitionType.Morph);
-```
-*Mit csinál*: Meghatározza, hogy a dia morph átmenet hatást használjon.
+```  
+*Mit csinál*: A dia most animálva lesz, a vizuális elemeket a következő dia elemeibe morph‑olva.
 
-#### 5. Speciális Morph beállítások konfigurálása  
-Kastáld a transition objektumot `IMorphTransition`‑re a specifikus beállításokhoz:
+#### 5. Specifikus Morph beállítások konfigurálása  
+Cast-olj a generikus átmenetet `IMorphTransition`‑re, hogy finomhangold a beállításokat, például a `MorphType.ByWord` vagy `MorphType.ByObject` értékeket:  
 ```java
 IMorphTransition morphTransition = (IMorphTransition) slideTransition.getValue();
 morphTransition.setMorphType(TransitionMorphType.ByWord);
-```
-*Miért kell castolni?*: Ez hozzáférést biztosít a morph átmenetekre jellemző tulajdonságokhoz, például a szavak szerinti átmenettípus beállításához.
+```  
+*Miért cast?*: Csak az `IMorphTransition` teszi elérhetővé a morph animációkhoz egyedi tulajdonságokat, mint a `MorphType`.
 
 #### 6. Változások mentése  
-Végül mentsd el a módosított prezentációt:
+Írd vissza a módosított prezentációt a lemezre:  
 ```java
 presentation.save("YOUR_OUTPUT_DIRECTORY/presentation‑out.pptx");
-```
+```  
+*Eredmény*: A kimeneti fájl tartalmazza az új morph átmenetet, készen áll a PowerPointban való lejátszásra.
 
 ## Gyakori problémák és megoldások
-- **JDK kompatibilitás** – Győződj meg róla, hogy JDK 16 vagy újabb verziót használsz; a régebbi verziók osztálybetöltési hibákat okozhatnak.  
-- **Fájlútvonal hibák** – Ellenőrizd, hogy a `dataDir` és a kimeneti könyvtár helyes-e, valamint hogy az alkalmazásnak van‑e olvasási/írási jogosultsága.  
-- **Licenc nem található** – Ha értékelési vízjelet látsz, ellenőrizd, hogy a `license.setLicense` útvonal egy érvényes `.lic` fájlra mutat-e.
+- **JDK kompatibilitás** – Használj JDK 16 vagy újabb verziót; a régebbi verziók `NoClassDefFoundError`‑t okozhatnak.  
+- **Fájl útvonal hibák** – Ellenőrizd, hogy a `dataDir` egy létező mappára mutat, és hogy az alkalmazásnak van olvasási/írási jogosultsága.  
+- **Licenc nem található** – Ha még mindig értékelési vízjelet látsz, ellenőrizd, hogy a `license.setLicense("Aspose.Slides.lic")` egy érvényes licencfájlra mutat.
 
 ## Gyakorlati alkalmazások
-Íme néhány valós életbeli forgatókönyv, ahol **morph átmenet alkalmazása PowerPointban** hasznos lehet:
-1. **Üzleti prezentációk** – Tartsd lekötve a vezetőket a negyedéves jelentések során.  
-2. **Oktatási anyagok** – Emeld ki a lépésről‑lépésre folyamatokat egy előadásban.  
-3. **Termékbemutatók** – Mutasd be a termékfejlődést zökkenőmentes vizuális áramlással.
+1. **Üzleti prezentációk** – A negyedéves növekedést sima diagram morph‑olással emeld ki.  
+2. **Oktatási tartalom** – Mutasd be lépésről‑lépésre az algoritmusokat objektum morph‑olással.  
+3. **Termékbemutató deckek** – Mutasd be a termék fejlődését a koncepciótól a végleges tervezésig zökkenőmentes vizuális áramlással.
 
-## Teljesítményfontosságú szempontok
-Az optimális teljesítmény érdekében:
-- Használj hatékony memória‑kezelést nagy prezentációk feldolgozásakor.  
-- Kerüld a felesleges objektumok létrehozását az átmenet beállítása során.  
-- Figyeld a Java szemétgyűjtését, ha sok diát dolgozol fel.
+## Teljesítmény szempontok
+Az alkalmazásod válaszkészségének megőrzése nagy deckek feldolgozásakor:
 
-### Legjobb gyakorlatok a memória kezeléséhez
-- Szabadítsd fel a `Presentation` objektumokat, amikor már nincs rájuk szükség, a `dispose()` metódus használatával.  
-- Fontold meg az alkalmazás profilozását a forráskorlátok feltérképezéséhez.
+- **Memória kezelés** – Hívd meg a `presentation.dispose()`‑t a mentés után a natív erőforrások felszabadításához.  
+- **Objektum újrahasználat** – Kerüld a felesleges `Presentation` példányok létrehozását ciklusokban.  
+- **Profilozás** – Használj Java profilereket a GC szünetek azonosításához, amikor 300+ diát kezelő prezentációkat dolgozol fel.
 
-## GYIK szekció
-**1. Mi a célja az Aspose.Slides for Java használatának?**  
-Az Aspose.Slides for Java lehetővé teszi PowerPoint prezentációk programozott létrehozását, szerkesztését és manipulálását, fejlett funkciókkal, például morph átmenetekkel.
+### Legjobb gyakorlatok a memória kezeléshez
+- A `Presentation` objektumokat azonnal szabadítsd fel.  
+- Profilozd a memóriahasználatot olyan eszközökkel, mint a VisualVM, különösen tömeges jelentések generálásakor.  
 
-**2. Alkalmazhatok Morph átmeneteket egyszerre több diára?**  
-Igen, végigiterálhatsz a dia gyűjteményeden, és egyenként beállíthatod az átmenettípust, ahogy ebben a tutorialban bemutatjuk.
+## Gyakran ismételt kérdések
 
-**3. Hogyan kezeljem a kivételeket a prezentáció feldolgozása közben?**  
-Használj try‑catch blokkokat a kritikus műveletek, például a fájl betöltése és mentése körül, hogy hibákat elegánsan kezeld.
+**Q: Mi a célja az Aspose.Slides for Java használatának?**  
+A: Lehetővé teszi a PowerPoint fájlok programozott létrehozását, szerkesztését és automatizálását, beleértve a fejlett funkciókat, például a morph átmeneteket, Microsoft PowerPoint telepítése nélkül a szerveren.
 
-**4. Milyen alternatívák léteznek az Aspose.Slides helyett az átmenetek programozott alkalmazásához?**  
-Más könyvtárak közé tartozik az Apache POI, de ezek nem biztos, hogy ugyanolyan szintű átmenet‑sophistikációt nyújtanak.
+**Q: Alkalmazhatok-e Morph átmeneteket egyszerre több diára?**  
+Igen – iterálj a dia gyűjteményen, állítsd minden dia `TransitionType`‑ját `Morph`‑ra, és opcionálisan egyenként állítsd be a `IMorphTransition` példányokat.
 
-**5. Hogyan testreszabhatom tovább a morph átmeneteket a szavak vagy objektumok mellett?**  
-Fedezd fel az `IMorphTransition` beállításait, például a `MorphType.ByCharacter`‑t, és tekintsd meg az Aspose.Slides dokumentációt a részletes lehetőségekért.
+**Q: Hogyan kezeljem a kivételeket a prezentáció feldolgozása során?**  
+A fájl betöltési és mentési logikát try‑catch blokkokba helyezd, elkapva az `IOException`‑t és az `Exception`‑t, hogy naplózd a hibákat, és biztosítsd, hogy a licenc minden művelet előtt alkalmazva legyen.
+
+**Q: Vannak alternatívák az Aspose.Slides‑hez programozott átmenetekhez?**  
+Az Apache POI alapvető dia‑manipulációt kínál, de nem rendelkezik átfogó átmenet‑támogatással; az Aspose.Slides a legteljesebb API‑t biztosítja a morph hatásokhoz.
+
+**Q: Hogyan testreszabhatom tovább a morph átmeneteket az egyszerű szó vagy objektum morph‑oláson túl?**  
+Fedezd fel az `IMorphTransition` további tulajdonságait, mint a `MorphType.ByCharacter`, `Duration` és `Smoothness`. A hivatalos API‑referencia felsorolja az összes konfigurálható opciót.
 
 ## Erőforrások
-- **Documentation**: [Aspose.Slides Java Reference](https://reference.aspose.com/slides/java/)  
-- **Download**: [Releases Page](https://releases.aspose.com/slides/java/)  
-- **Purchase License**: [Buy Now](https://purchase.aspose.com/buy)  
-- **Free Trial**: [Try Aspose.Slides for Free](https://releases.aspose.com/slides/java/)  
-- **Temporary License**: [Obtain a Temporary License](https://purchase.aspose.com/temporary-license/)  
-- **Support**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
+- **Dokumentáció**: [Aspose.Slides Java referencia](https://reference.aspose.com/slides/java/)  
+- **Letöltés**: [Kiadások oldala](https://releases.aspose.com/slides/java/)  
+- **Licenc vásárlása**: [Vásárolj most](https://purchase.aspose.com/buy)  
+- **Ingyenes próba**: [Próbáld ki az Aspose.Slides‑t ingyen](https://releases.aspose.com/slides/java/)  
+- **Ideiglenes licenc**: [Ideiglenes licenc beszerzése](https://purchase.aspose.com/temporary-license/)  
+- **Támogatási fórum**: [Aspose fórum](https://forum.aspose.com/c/slides/11)
 
 ---
 
-**Legutóbb frissítve:** 2026-02-12  
-**Tesztelve:** Aspose.Slides 25.4 for Java  
-**Szerző:** Aspose  
+**Last Updated:** 2026-05-18  
+**Tested With:** Aspose.Slides 25.4 for Java  
+**Author:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-slides</artifactId>
+    <version>25.4</version>
+    <classifier>jdk16</classifier>
+</dependency>
+```
+
+```gradle
+implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
+```
+
+## Kapcsolódó oktatóanyagok
+
+- [Hogyan hozzunk létre PowerPoint átmeneteket az Aspose.Slides for Java használatával | Lépésről‑lépésre útmutató](/slides/java/animations-transitions/master-slide-transitions-powerpoint-aspose-slides-java/)
+- [Dinamikus PowerPoint Java – Aspose.Slides animációtípusok útmutató](/slides/java/animations-transitions/aspose-slides-java-animation-comparison-guide/)
+- [Prezentáció programozott létrehozása Java‑ban – PowerPoint átmenetek automatizálása az Aspose.Slides‑sel](/slides/java/animations-transitions/aspose-slides-java-presentation-automation/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

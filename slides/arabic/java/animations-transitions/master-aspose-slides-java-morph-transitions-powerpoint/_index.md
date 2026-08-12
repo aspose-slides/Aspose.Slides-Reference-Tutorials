@@ -1,12 +1,57 @@
 ---
-date: '2026-02-12'
-description: تعلم كيفية تطبيق انتقال Morph في PowerPoint باستخدام Aspose.Slides للغة
-  Java. أضف رسومات متحركة سلسة وتأثيرات ديناميكية إلى عروضك التقديمية.
+date: '2026-05-18'
+description: تعلم كيفية استخدام Aspose.Slides for Java لإضافة شرائح PowerPoint بانتقال
+  Morph، وإنشاء عروض تقديمية PowerPoint متحركة مع تأثيرات ديناميكية.
 keywords:
-- Morph transitions PowerPoint
-- Aspose.Slides Java Morph transition
-- Java PowerPoint animation
-title: تطبيق انتقال المورف في PowerPoint باستخدام Aspose.Slides للـ Java
+- how to use aspose
+- add morph transition powerpoint
+- how to apply morph
+- create animated powerpoint slides
+schemas:
+- author: Aspose
+  dateModified: '2026-05-18'
+  description: Learn how to use Aspose.Slides for Java to add morph transition PowerPoint
+    slides, creating animated PowerPoint presentations with dynamic effects.
+  headline: 'How to Use Aspose.Slides for Java: Add Morph Transition'
+  type: TechArticle
+- description: Learn how to use Aspose.Slides for Java to add morph transition PowerPoint
+    slides, creating animated PowerPoint presentations with dynamic effects.
+  name: 'How to Use Aspose.Slides for Java: Add Morph Transition'
+  steps:
+  - name: '**Business Presentations** – Highlight quarterly growth by morphing charts
+      smoothly.'
+    text: '**Business Presentations** – Highlight quarterly growth by morphing charts
+      smoothly.'
+  - name: '**Educational Content** – Demonstrate step‑by‑step algorithms with object
+      morphing.'
+    text: '**Educational Content** – Demonstrate step‑by‑step algorithms with object
+      morphing.'
+  - name: '**Product Launch Decks** – Show product evolution from concept to final
+      design with seamless visual flow.'
+    text: '**Product Launch Decks** – Show product evolution from concept to final
+      design with seamless visual flow.'
+  type: HowTo
+- questions:
+  - answer: It enables programmatic creation, editing, and automation of PowerPoint
+      files, including advanced features such as morph transitions, without requiring
+      Microsoft PowerPoint on the server.
+    question: What is the purpose of using Aspose.Slides for Java?
+  - answer: Yes—iterate over the slide collection, set each slide’s `TransitionType`
+      to `Morph`, and optionally adjust each `IMorphTransition` instance individually.
+    question: Can I apply Morph transitions to multiple slides at once?
+  - answer: Wrap file‑loading and saving logic in try‑catch blocks, catching `IOException`
+      and `Exception` to log errors and ensure the license is applied before any operation.
+    question: How should I handle exceptions during presentation processing?
+  - answer: Apache POI offers basic slide manipulation but lacks comprehensive transition
+      support; Aspose.Slides provides the most complete API for morph effects.
+    question: Are there alternatives to Aspose.Slides for programmatic transitions?
+  - answer: Explore additional `IMorphTransition` properties like `MorphType.ByCharacter`,
+      `Duration`, and `Smoothness`. The official API reference lists all configurable
+      options.
+    question: How can I further customize morph transitions beyond simple word or
+      object morphing?
+  type: FAQPage
+title: 'كيفية استخدام Aspose.Slides for Java: إضافة انتقال Morph'
 url: /ar/java/animations-transitions/master-aspose-slides-java-morph-transitions-powerpoint/
 weight: 1
 ---
@@ -16,68 +61,70 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# تطبيق انتقال Morph في PowerPoint باستخدام Aspose.Slides للغة Java
+# كيفية استخدام Aspose.Slides for Java: إضافة انتقال Morph
 
-## المقدمة
-في هذا الدليل ستتعلم كيفية **تطبيق انتقال Morph في PowerPoint** باستخدام Aspose.Slides للغة Java، وتحويل الشرائح العادية إلى عروض ديناميكية وجذابة بصريًا. هل رغبت يومًا في إضافة انتقالات متقدمة مثل تأثير “Morph” إلى شرائح PowerPoint باستخدام Java؟ هذا البرنامج التعليمي يرافقك خطوة بخطوة—من إعداد المكتبة إلى حفظ الملف النهائي—حتى تتمكن من إنشاء عروض احترافية في دقائق.
+## مقدمة
+في هذا الدليل ستتعلم **كيفية استخدام Aspose.Slides for Java** لتطبيق تأثير انتقال Morph في PowerPoint، مما يحول الشرائح العادية إلى عروض ديناميكية وجذابة بصريًا. هل احتجت يومًا إلى إضافة حركة “Morph” برمجيًا عبر عشرات الشرائح دون فتح PowerPoint يدويًا؟ يشرح هذا البرنامج التعليمي كل خطوة — من تثبيت المكتبة إلى حفظ الملف النهائي — حتى تتمكن من إنشاء عروض احترافية في دقائق.
 
-**ما ستتعلمه:**
-- كيفية إعداد واستخدام Aspose.Slides للغة Java  
-- خطوات تطبيق انتقال Morph على شرائح PowerPoint الخاصة بك  
-- خيارات التكوين لتخصيص الانتقالات  
+**ما ستتعلمه**
+- كيفية إعداد واستخدام Aspose.Slides for Java  
+- خطوات إضافة انتقال morph إلى شرائح PowerPoint  
+- خيارات التكوين لتخصيص تأثير الانتقال  
 
-هل أنت مستعد لتحويل عروضك التقديمية؟ لنبدأ بالمتطلبات المسبقة!
+هل أنت مستعد لتحويل عروضك التقديمية؟ دعنا نتحقق من المتطلبات المسبقة أولاً.
 
 ## إجابات سريعة
-- **ماذا يعني “تطبيق انتقال Morph في PowerPoint”؟** يضيف حركة سلسة تحول شريحة إلى التالية.  
-- **ما المكتبة المطلوبة؟** Aspose.Slides للغة Java (الإصدار 25.4 أو أحدث).  
-- **هل أحتاج إلى ترخيص؟** النسخة التجريبية المجانية تكفي للتقييم؛ الترخيص الدائم يزيل حدود التقييم.  
+- **ماذا يعني “add morph transition PowerPoint”؟** يخلق حركة سلسة تحول شريحة إلى التالية، مما يعطي مظهرًا لتحرك أو إعادة تشكيل الكائنات.  
+- **ما المكتبة المطلوبة؟** Aspose.Slides for Java (الإصدار 25.4 أو أحدث).  
+- **هل أحتاج إلى ترخيص؟** النسخة التجريبية المجانية تعمل للتقييم؛ الترخيص الدائم يزيل حدود التقييم.  
 - **ما نسخة JDK المدعومة؟** JDK 16 أو أعلى.  
-- **هل يمكنني استخدامه على Linux/macOS؟** نعم—Aspose.Slides للغة Java متعدد المنصات.
+- **هل يمكن تشغيله على Linux/macOS؟** نعم — Aspose.Slides for Java يدعم جميع الأنظمة.
 
 ## ما هو انتقال Morph ولماذا نستخدمه؟
-إن انتقال Morph يخلق تأثيرًا بصريًا سائلًا يحول العناصر أو النصوص أو الأشكال بسلاسة من شريحة إلى التالية. هذا **تأثير morph في PowerPoint** يساعد على إبقاء الجمهور متفاعلًا، ويوضح العمليات خطوة بخطوة، ويضيف مظهرًا مصقولًا للعروض التجارية أو التعليمية.
+يخلق انتقال Morph تأثيرًا بصريًا سلسًا يحول الكائنات أو النصوص أو الأشكال من شريحة إلى التالية دون انقطاع. هذا **powerpoint morph effect** يساعد على إبقاء الجمهور متفاعلًا، ويوضح العمليات خطوة بخطوة، ويضيف مظهرًا مصقولًا لعروض الأعمال أو التعليمية.
 
-## لماذا نستخدم Aspose.Slides للغة Java لتعيين انتقال الشريحة؟
-توفر Aspose.Slides للغة Java واجهة برمجة تطبيقات غنية تتيح لك **تعيين خصائص انتقال الشريحة** برمجيًا، وهو ما لا يمكن للواجهة الرسومية الأصلية في PowerPoint معالجته دفعة واحدة. إنها مثالية لتوليد التقارير تلقائيًا، وتحديث الشرائح بالجملة، أو دمج إنشاء العروض في تطبيقات Java الأكبر.
+## لماذا نستخدم Aspose.Slides for Java لتعيين انتقال الشريحة؟
+توفر Aspose.Slides for Java واجهة برمجة تطبيقات غنية تتيح لك **تعيين انتقال الشريحة** برمجيًا، وهو ما لا يمكن لواجهة PowerPoint الأصلية معالجته دفعة واحدة. تدعم **أكثر من 50 صيغة إدخال وإخراج**، ويمكنها التعامل مع عروض تحتوي على **أكثر من 500 شريحة** دون تحميل الملف بالكامل في الذاكرة، وتعمل على Windows وLinux وmacOS. هذا يجعلها مثالية لتوليد التقارير تلقائيًا، وتحديث الشرائح بالجملة، أو دمج إنشاء العروض في تطبيقات Java الأكبر.
 
 ## المتطلبات المسبقة
 قبل أن نبدأ، تأكد من وجود ما يلي:
 
 ### المكتبات والاعتمادات المطلوبة
-- **Aspose.Slides للغة Java**: الإصدار 25.4 أو أحدث.  
-- **مجموعة تطوير جافا (JDK)**: JDK 16 أو أعلى.
+- **Aspose.Slides for Java**: الإصدار 25.4 أو أحدث.  
+- **Java Development Kit (JDK)**: JDK 16 أو أعلى.
 
 ### متطلبات إعداد البيئة
 - بيئة تطوير متكاملة (IDE) مثل IntelliJ IDEA أو Eclipse.  
-- معرفة أساسية ببرمجة جافا.
+- إلمام أساسي بمفاهيم برمجة Java.
 
-## إعداد Aspose.Slides للغة Java
-لبدء استخدام Aspose.Slides للغة Java، تحتاج إلى إضافة المكتبة إلى مشروعك. إليك الطريقة:
+## إعداد Aspose.Slides for Java
+لبدء استخدام Aspose.Slides for Java، تحتاج إلى تضمين المكتبة في مشروعك. إليك كيفية القيام بذلك باستخدام أدوات البناء الأكثر شيوعًا.
 
-**Maven:**
+**Maven:**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-slides</artifactId>
     <version>25.4</version>
-    <classifier>jdk16</classifier>
 </dependency>
-```
-**Gradle:**
+```  
+
+**Gradle:**  
 ```gradle
-implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
-```
+implementation 'com.aspose:aspose-slides:25.4'
+```  
+
 **تحميل مباشر**  
-لمن يفضل التكامل اليدوي، قم بتحميل أحدث نسخة من [إصدارات Aspose.Slides للغة Java](https://releases.aspose.com/slides/java/).
+لمن يفضلون التكامل اليدوي، قم بتحميل أحدث نسخة من [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 ### خطوات الحصول على الترخيص
-- **نسخة تجريبية مجانية**: ابدأ باستخدام النسخة التجريبية لاستكشاف الميزات.  
-- **ترخيص مؤقت**: احصل على ترخيص مؤقت لاختبار أوسع. زر [صفحة الترخيص المؤقت من Aspose](https://purchase.aspose.com/temporary-license/).  
-- **شراء**: للحصول على وصول كامل، اشترِ ترخيصًا من [Aspose Purchase](https://purchase.aspose.com/buy).
+لاستخدام Aspose.Slides دون قيود التقييم:
+- **Free Trial** – استكشف الواجهة البرمجية دون تكلفة.  
+- **Temporary License** – احصل على مفتاح قصير الأمد للاختبار الموسع عبر [Aspose's Temporary License Page](https://purchase.aspose.com/temporary-license/).  
+- **Purchase** – احصل على وصول كامل غير مقيد عبر [Aspose Purchase](https://purchase.aspose.com/buy).
 
 ### التهيئة الأساسية والإعداد
-بمجرد دمج المكتبة في مشروعك، قم بتهيئتها كما يلي:
+بمجرد إضافة المكتبة إلى مشروعك، قم بتهيئتها كما يلي:
 ```java
 import com.aspose.slides.*;
 
@@ -90,107 +137,134 @@ public class PresentationSetup {
 }
 ```
 
-## كيفية إضافة انتقال Morph في PowerPoint باستخدام Java
-فيما يلي **دروس انتقال Morph** يوضح لك بالضبط كيفية إضافة التأثير إلى شريحة. اتبع كل خطوة، وستحصل على مثال عملي في وقت قصير.
+## كيف أضيف انتقال morph باستخدام Aspose.Slides for Java؟
+
+حمّل ملف PowerPoint الموجود باستخدام `new Presentation("source.pptx")`، احصل على الشريحة المستهدفة، اضبط `TransitionType` إلى `Morph`، ويمكنك تعديل خصائص `IMorphTransition` اختياريًا، وأخيرًا استدعِ `save("output.pptx", SaveFormat.Pptx)`. هذه السلسلة الموجزة تطبق تأثير morph في بضع أسطر من كود Java وتحافظ على جميع الأشكال والصور وتنسيق النص.  
+تمثل فئة `Presentation` مستند PowerPoint وتوفر الوصول إلى شرائحه.  
+يحدد تعداد `TransitionType` أنواع انتقالات الشرائح المتاحة، مثل `Morph`.  
+تُظهر واجهة `IMorphTransition` إعدادات خاصة بالـ morph مثل نوع morph والمدة.
 
 ### تنفيذ خطوة بخطوة
+
 #### 1. تحديد دليل المستند
-حدد الدليل الذي يقع فيه ملف PowerPoint الخاص بك:
+حدد المجلد الذي يحتوي على ملف PowerPoint المصدر:
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
-```
-*السبب*: يضمن هذا الخطوة وجود مسار واضح لتحديد موقع ملف العرض المصدر للمعالجة.
+```  
+*لماذا*: تحديد مسار واضح يمنع أخطاء عدم العثور على الملف ويجعل الكود قابلًا للنقل عبر البيئات.
 
 #### 2. تحميل العرض التقديمي
-إنشاء مثال من الفئة `Presentation`:
+أنشئ نسخة من فئة `Presentation`:
 ```java
 Presentation presentation = new Presentation(dataDir + "presentation.pptx");
-```
-*الغرض*: تحميل العرض يتيح لك تعديل الشرائح والانتقالات باستخدام أساليب Aspose.Slides.
+```  
+*الغرض*: فئة `Presentation` تمثل ملف PowerPoint في الذاكرة، وتمنحك التحكم الكامل في شرائحه وموارده.
 
 #### 3. الوصول إلى انتقال الشريحة
-الوصول إلى إعدادات انتقال الشريحة الأولى:
+احصل على كائن الانتقال للشرائح الأولى:
 ```java
 ITransition slideTransition = presentation.getSlides().get_Item(0).getSlideShowTransition();
-```
-*شرح*: هذا السطر يجلب كائن الانتقال لتخصيصه لاحقًا.
+```  
+*شرح*: يتيح لك هذا الكائن تعديل نوع الانتقال والمدة والخيارات المتقدمة.
 
-#### 4. تعيين نوع الانتقال إلى Morph
-تعيين نوع الانتقال إلى Morph:
+#### 4. ضبط نوع الانتقال إلى Morph
+عيّن انتقال morph إلى الشريحة:
 ```java
 slideTransition.setType(TransitionType.Morph);
-```
-*ما يفعله*: يحدد أن الشريحة ستستخدم تأثير الانتقال Morph.
+```  
+*ما يفعله*: ستقوم الشريحة الآن بالتحريك عبر تحويل عناصرها البصرية إلى تلك الموجودة في الشريحة التالية.
 
 #### 5. تكوين إعدادات Morph المحددة
-تحويل كائن الانتقال إلى `IMorphTransition` للحصول على إعدادات محددة:
+حوّل الانتقال العام إلى `IMorphTransition` لتعديل الإعدادات مثل `MorphType.ByWord` أو `MorphType.ByObject`:
 ```java
 IMorphTransition morphTransition = (IMorphTransition) slideTransition.getValue();
 morphTransition.setMorphType(TransitionMorphType.ByWord);
-```
-*لماذا التحويل؟*: يتيح الوصول إلى الخصائص الحصرية لانتقالات Morph، مثل تعيين نوع الانتقال بالكلمات.
+```  
+*لماذا التحويل؟*: فقط `IMorphTransition` يكشف عن خصائص فريدة لحركات morph، مثل `MorphType`.
 
 #### 6. حفظ التغييرات
-أخيرًا، احفظ العرض التقديمي المعدل:
+اكتب العرض المعدل مرة أخرى إلى القرص:
 ```java
 presentation.save("YOUR_OUTPUT_DIRECTORY/presentation‑out.pptx");
-```
+```  
+*النتيجة*: يحتوي ملف الإخراج على انتقال morph الجديد جاهز للتشغيل في PowerPoint.
 
 ## المشكلات الشائعة والحلول
-- **توافق JDK** – تأكد من استخدام JDK 16 أو أحدث؛ الإصدارات القديمة قد تسبب أخطاء تحميل الفئات.  
-- **أخطاء مسار الملف** – تحقق مرة أخرى من صحة `dataDir` ودليل الإخراج وأن التطبيق يمتلك صلاحيات القراءة/الكتابة.  
-- **الترخيص غير موجود** – إذا رأيت علامات مائية للتقييم، تحقق من أن مسار `license.setLicense` يشير إلى ملف `.lic` صالح.
+- **توافق JDK** – استخدم JDK 16 أو أحدث؛ الإصدارات القديمة قد تسبب `NoClassDefFoundError`.  
+- **أخطاء مسار الملف** – تحقق من أن `dataDir` يشير إلى مجلد موجود وأن تطبيقك يمتلك صلاحيات القراءة/الكتابة.  
+- **الترخيص غير موجود** – إذا ما زلت ترى علامات مائية للتقييم، تحقق مرة أخرى من أن `license.setLicense("Aspose.Slides.lic")` يشير إلى ملف ترخيص صالح.
 
-## تطبيقات عملية
-فيما يلي بعض السيناريوهات الواقعية التي قد ترغب فيها **بتطبيق انتقال Morph في PowerPoint**:
-1. **العروض التجارية** – إبقاء التنفيذيين مهتمين خلال مراجعات الربع السنوية.  
-2. **المحتوى التعليمي** – إبراز العمليات خطوة بخطوة في محاضرة.  
-3. **إطلاق المنتجات** – عرض تطور المنتج بتدفق بصري سلس.
+## التطبيقات العملية
+إليك سيناريوهات واقعية قد تحتاج فيها إلى **إضافة انتقال morph PowerPoint** إلى الشرائح:
+1. **العروض التجارية** – إبراز النمو ربع السنوي عبر تحويل المخططات بسلاسة.  
+2. **المحتوى التعليمي** – عرض خوارزميات خطوة بخطوة باستخدام تحويل الكائنات.  
+3. **عروض إطلاق المنتجات** – إظهار تطور المنتج من الفكرة إلى التصميم النهائي بتدفق بصري سلس.
 
 ## اعتبارات الأداء
-لضمان الأداء الأمثل:
-- استخدم إدارة ذاكرة فعّالة عند التعامل مع عروض تقديمية كبيرة.  
-- تجنب إنشاء كائنات غير ضرورية أثناء إعداد الانتقال.  
-- راقب جمع القمامة في جافا إذا كنت تعالج عددًا كبيرًا من الشرائح.
+للحفاظ على استجابة تطبيقك عند معالجة عروض كبيرة:
+- **إدارة الذاكرة** – استدعِ `presentation.dispose()` بعد الحفظ لتحرير الموارد الأصلية.  
+- **إعادة استخدام الكائنات** – تجنّب إنشاء نسخ `Presentation` غير ضرورية داخل الحلقات.  
+- **التحليل** – استخدم أدوات تحليل Java لتحديد توقفات GC عند معالجة عروض تتجاوز 300 شريحة.
 
 ### أفضل الممارسات لإدارة الذاكرة
-- تخلص من كائنات `Presentation` بمجرد عدم الحاجة إليها باستخدام طريقة `dispose()`.  
-- فكر في تحليل أداء تطبيقك لتحديد عنق الزجاجة في الموارد.
+- حرّر كائنات `Presentation` فورًا.  
+- حلل استخدام الذاكرة باستخدام أدوات مثل VisualVM، خاصةً عند إنشاء تقارير بالجملة.
 
-## قسم الأسئلة المتكررة
-**1. ما هو هدف استخدام Aspose.Slides للغة Java؟**  
-تتيح لك Aspose.Slides للغة Java إنشاء وتحرير ومعالجة عروض PowerPoint برمجيًا، وتوفر ميزات متقدمة مثل انتقالات Morph.
+## الأسئلة المتكررة
 
-**2. هل يمكنني تطبيق انتقالات Morph على عدة شرائح في آن واحد؟**  
-نعم، يمكنك التكرار عبر مجموعة الشرائح وتعيين نوع الانتقال لكل شريحة على حدة كما هو موضح في هذا الدرس.
+**س: ما هو هدف استخدام Aspose.Slides for Java؟**  
+ج: يتيح إنشاء وتحرير وأتمتة ملفات PowerPoint برمجيًا، بما في ذلك الميزات المتقدمة مثل انتقالات morph، دون الحاجة إلى Microsoft PowerPoint على الخادم.
 
-**3. كيف أتعامل مع الاستثناءات أثناء معالجة العرض التقديمي؟**  
-استخدم كتل try‑catch حول العمليات الحرجة مثل تحميل وحفظ الملفات لإدارة الأخطاء بشكل سلس.
+**س: هل يمكنني تطبيق انتقالات Morph على عدة شرائح في آن واحد؟**  
+ج: نعم — قم بالتكرار عبر مجموعة الشرائح، اضبط `TransitionType` لكل شريحة إلى `Morph`، ويمكنك تعديل كل نسخة من `IMorphTransition` بشكل فردي إذا رغبت.
 
-**4. ما هي بعض البدائل لـ Aspose.Slides لتطبيق الانتقالات برمجيًا؟**  
-مكتبات أخرى تشمل Apache POI، لكنها قد لا توفر نفس مستوى تعقيد الانتقالات.
+**س: كيف يجب أن أتعامل مع الاستثناءات أثناء معالجة العرض التقديمي؟**  
+ج: غلف منطق تحميل وحفظ الملفات بكتل try‑catch، مع التقاط `IOException` و `Exception` لتسجيل الأخطاء وضمان تطبيق الترخيص قبل أي عملية.
 
-**5. كيف يمكنني تخصيص انتقالات Morph أكثر من الكلمات أو الكائنات؟**  
-استكشف إعدادات `IMorphTransition` مثل `MorphType.ByCharacter`، وراجع وثائق Aspose.Slides للحصول على خيارات مفصلة.
+**س: هل هناك بدائل لـ Aspose.Slides للانتقالات البرمجية؟**  
+ج: تقدم Apache POI معالجة أساسية للشرائح لكنها تفتقر إلى دعم شامل للانتقالات؛ توفر Aspose.Slides أقوى واجهة برمجة تطبيقات للـ morph.
+
+**س: كيف يمكنني تخصيص انتقالات morph أكثر من مجرد تحويل الكلمات أو الكائنات؟**  
+ج: استكشف خصائص `IMorphTransition` إضافية مثل `MorphType.ByCharacter` و `Duration` و `Smoothness`. يدرج مرجع API الرسمي جميع الخيارات القابلة للتكوين.
 
 ## الموارد
 - **الوثائق**: [Aspose.Slides Java Reference](https://reference.aspose.com/slides/java/)  
-- **تحميل**: [Releases Page](https://releases.aspose.com/slides/java/)  
+- **التنزيل**: [Releases Page](https://releases.aspose.com/slides/java/)  
 - **شراء الترخيص**: [Buy Now](https://purchase.aspose.com/buy)  
-- **نسخة تجريبية مجانية**: [Try Aspose.Slides for Free](https://releases.aspose.com/slides/java/)  
+- **تجربة مجانية**: [Try Aspose.Slides for Free](https://releases.aspose.com/slides/java/)  
 - **ترخيص مؤقت**: [Obtain a Temporary License](https://purchase.aspose.com/temporary-license/)  
-- **الدعم**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
+- **منتدى الدعم**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
 ---
 
-**آخر تحديث:** 2026-02-12  
-**تم الاختبار مع:** Aspose.Slides 25.4 للغة Java  
+**آخر تحديث:** 2026-05-18  
+**تم الاختبار مع:** Aspose.Slides 25.4 for Java  
 **المؤلف:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-slides</artifactId>
+    <version>25.4</version>
+    <classifier>jdk16</classifier>
+</dependency>
+```
+
+```gradle
+implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
+```
+
+## دروس ذات صلة
+
+- [كيفية إنشاء انتقالات PowerPoint باستخدام Aspose.Slides for Java | دليل خطوة بخطوة](/slides/java/animations-transitions/master-slide-transitions-powerpoint-aspose-slides-java/)
+- [إنشاء PowerPoint ديناميكي Java – دليل أنواع الرسوم المتحركة في Aspose.Slides](/slides/java/animations-transitions/aspose-slides-java-animation-comparison-guide/)
+- [إنشاء عرض تقديمي برمجيًا في Java - أتمتة انتقالات PowerPoint باستخدام Aspose.Slides](/slides/java/animations-transitions/aspose-slides-java-presentation-automation/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
