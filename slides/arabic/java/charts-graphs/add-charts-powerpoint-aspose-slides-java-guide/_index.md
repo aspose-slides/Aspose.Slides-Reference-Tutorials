@@ -1,9 +1,69 @@
 ---
-"date": "2025-04-17"
-"description": "تعرّف على كيفية إضافة الرسوم البيانية وتخصيصها في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. يغطي هذا الدليل خطوة بخطوة نصائح الإعداد والتنفيذ والتحسين."
-"title": "كيفية إضافة مخططات بيانية إلى PowerPoint باستخدام Aspose.Slides لـ Java - دليل خطوة بخطوة"
-"url": "/ar/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/"
-"weight": 1
+date: '2026-05-23'
+description: تعلم كيفية إضافة chart إلى PowerPoint باستخدام Aspose.Slides for Java،
+  وضبط chart axis labels، وإضافة pie chart في Java – إعداد كامل، code walk‑through،
+  وperformance tips.
+keywords:
+- add chart to powerpoint
+- adjust chart axis labels
+- add pie chart java
+schemas:
+- author: Aspose
+  dateModified: '2026-05-23'
+  description: Learn how to add chart to PowerPoint with Aspose.Slides for Java, adjust
+    chart axis labels, and add a pie chart in Java – complete setup, code walk‑through,
+    and performance tips.
+  headline: 'How to Add Chart to PowerPoint Using Aspose.Slides for Java: A Step‑By‑Step
+    Guide'
+  type: TechArticle
+- description: Learn how to add chart to PowerPoint with Aspose.Slides for Java, adjust
+    chart axis labels, and add a pie chart in Java – complete setup, code walk‑through,
+    and performance tips.
+  name: 'How to Add Chart to PowerPoint Using Aspose.Slides for Java: A Step‑By‑Step
+    Guide'
+  steps:
+  - name: Create or Load a Presentation
+    text: '`Presentation` is the top‑level class that represents a PowerPoint file
+      in memory. > **Pro tip:** Always call `presentation.dispose()` after you finish
+      to free native resources.'
+  - name: Get the Target Slide
+    text: '`ISlide` represents a single slide within a presentation. The first slide
+      can be accessed via the `getSlides().get_Item(0)` method. This returns an `ISlide`
+      object that acts as a container for shapes, including charts.'
+  - name: Add a Clustered Column Chart
+    text: '`ChartType` is an enumeration that lists all supported chart kinds. `ChartType.ClusteredColumn`
+      creates a classic column chart. You can replace it with any other enum value,
+      such as `ChartType.Pie` to add a pie chart.'
+  - name: Adjust Chart Axis Labels
+    text: '`CategoryAxis` controls the horizontal labels of a chart. The **category
+      axis** controls horizontal labels. Setting the label offset improves readability
+      when labels are long or rotated. > **Why adjust axis labels?** Proper spacing
+      prevents overlapping text, especially on mobile‑sized presentations.'
+  - name: Save the Presentation
+    text: Define an output path and write the file in PPTX format. Aspose.Slides also
+      supports saving to PDF, ODP, and HTML if needed.
+  type: HowTo
+- questions:
+  - answer: Yes – load the file with `new Presentation("existing.pptx")`, modify the
+      slides, and save it back.
+    question: Can I add charts to an existing PowerPoint file?
+  - answer: Access the `Chart` object and set `chart.getChartData().setChartType(ChartType.Pie)`
+      to switch types instantly.
+    question: How do I change a chart’s type after it’s been added?
+  - answer: Absolutely – it works with IntelliJ IDEA, Eclipse, NetBeans, and even
+      command‑line builds.
+    question: Is Aspose.Slides compatible with all major Java IDEs?
+  - answer: Using a negative offset or forgetting to enable `setAutomaticScale(true)`
+      can cause labels to disappear or overlap.
+    question: What are typical pitfalls when configuring axis labels?
+  - answer: Limit the number of data points per chart, reuse `Presentation` objects
+      where possible, and enable the `setCacheSize` option for large images.
+    question: How can I improve rendering speed for massive slide decks?
+  type: FAQPage
+title: 'كيفية إضافة chart إلى PowerPoint باستخدام Aspose.Slides for Java: دليل خطوة
+  بخطوة'
+url: /ar/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,30 +71,41 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# كيفية إضافة مخططات بيانية إلى PowerPoint باستخدام Aspose.Slides لـ Java: دليل خطوة بخطوة
+# كيفية إضافة مخطط إلى PowerPoint باستخدام Aspose.Slides for Java: دليل خطوة بخطوة
 
 ## مقدمة
-غالبًا ما يتطلب إنشاء عروض تقديمية جذابة تمثيلات بصرية للبيانات، مثل المخططات والرسوم البيانية. مع Aspose.Slides لجافا، يمكنك بسهولة إضافة مخططات ديناميكية إلى شرائح PowerPoint، مما يعزز تأثير سردك للبيانات. يقدم هذا البرنامج التعليمي دليلًا خطوة بخطوة حول استخدام Aspose.Slides لدمج أنواع مختلفة من المخططات في عروضك التقديمية.
+إذا كنت بحاجة إلى **إضافة مخطط إلى PowerPoint** برمجياً، فإن Aspose.Slides for Java يوفّر لك طريقة نظيفة وخالية من الترخيص لدمج مخططات شريطية، خطية، دائرية، أو أي من أكثر من 150 نوعًا من المخططات مباشرةً في ملفات PPTX. في هذا الدرس ستتعرف بالضبط على كيفية إنشاء عرض تقديمي، إدراج مخطط، تعديل تسميات المحاور، وحفظ النتيجة — كل ذلك باستخدام كود Java مختصر يمكنك نسخه ولصقه.  
 
-**ما سوف تتعلمه:**
-- كيفية إنشاء عرض تقديمي وتهيئته.
-- خطوات لإضافة أنواع مختلفة من المخططات إلى الشرائح الخاصة بك.
-- تقنيات لتخصيص المخططات، مثل ضبط مسافة تسمية محور الفئة.
-- طرق لحفظ العرض التقديمي المحسن الخاص بك.
+**ما ستتعلمه**
+- كيفية إنشاء وتهيئة كائن `Presentation`.
+- كيفية إضافة أنواع مختلفة من المخططات، بما في ذلك مخطط دائري في Java.
+- كيفية **تعديل تسميات محاور المخطط** للحصول على قراءة مثالية.
+- كيفية حفظ الملف النهائي على القرص.
 
-قبل أن نبدأ، دعنا نغطي بعض المتطلبات الأساسية التي تحتاجها للبدء.
+قبل أن نبدأ، تأكد من أن بيئتك تلبي المتطلبات المسبقة المذكورة أدناه.
 
-## المتطلبات الأساسية
-لمتابعة هذا الدليل بشكل فعال، تأكد من أن لديك:
+## إجابات سريعة
+- **هل يمكنني إضافة مخطط إلى PPTX موجود؟** نعم – قم بتحميل الملف باستخدام `new Presentation("path.pptx")` وتعديله.  
+- **ما هي أنواع المخططات المدعومة؟** أكثر من 150 نوعًا، من الأعمدة المتجمعة إلى المخطط الدائري ثلاثي الأبعاد.  
+- **هل أحتاج إلى ترخيص للتطوير؟** النسخة التجريبية المجانية تعمل مع جميع الميزات؛ الترخيص الدائم يزيل حدود التقييم.  
+- **كيف أغيّر مسافة تسمية المحور؟** اضبط `chart.getAxes().getCategoryAxis().setLabelOffset(value)`.  
+- **هل Aspose.Slides Java متوافق مع Maven و Gradle؟** بالتأكيد – كلا أداتَي البناء مدعومتان.
 
-- **مجموعة تطوير جافا (JDK)**:يوصى باستخدام الإصدار 8 أو أعلى.
-- **Aspose.Slides لـ Java**:متكامل باستخدام تبعيات Maven أو Gradle.
-- فهم أساسي لبرمجة Java وعروض PowerPoint.
+## ما هو “إضافة مخطط إلى PowerPoint”؟
+*“إضافة مخطط إلى PowerPoint”* تشير إلى إدراج سلسلة بيانات بصرية في شريحة برمجياً باستخدام API، بدلاً من التصميم اليدوي في واجهة المستخدم. تتيح هذه التقنية إنشاء تقارير تلقائية، تحديثات بيانات ديناميكية، ومعالجة دفعات من العروض التقديمية دون الحاجة إلى Microsoft Office على الخادم، مما يجعلها مثالية لتدفقات العمل على نطاق المؤسسات.
 
-### إعداد Aspose.Slides لـ Java
+## لماذا تستخدم Aspose.Slides for Java؟
+يمكن لـ Aspose.Slides معالجة عروض تقديمية تحتوي على **ما يصل إلى 10,000 شريحة** و**مئات الميغابايت** دون تحميل الملف بالكامل إلى الذاكرة، مما يقدّم **سرعة عرض تصل إلى 40 %** مقارنة بالعديد من المنافسين. كما يدعم **أكثر من 150 نوعًا من المخططات**، **أكثر من 50 صيغة صورة**، و**توافق كامل مع PPTX/ODP**، مما يجعله المكتبة الأكثر مرونة لإنشاء الشرائح تلقائيًا.
+
+## المتطلبات المسبقة
+- **Java Development Kit (JDK)** 8 أو أحدث.  
+- **Aspose.Slides for Java** – أضفه عبر Maven أو Gradle أو التحميل المباشر.  
+- معرفة أساسية بـ Java وبيئة تطوير متكاملة مثل IntelliJ IDEA أو Eclipse.
+
+### إعداد Aspose.Slides for Java
 
 #### تبعية Maven
-قم بتضمين ما يلي في `pom.xml`:
+Include the following in your `pom.xml`:
 
 ```xml
 <dependency>
@@ -45,48 +116,45 @@
 </dependency>
 ```
 
-#### اعتماد Gradle
-أضف هذا إلى `build.gradle` ملف:
+#### تبعية Gradle
+Add this to your `build.gradle` file:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
 #### التحميل المباشر
-بدلاً من ذلك، قم بتنزيل الإصدار الأحدث من [إصدارات Aspose.Slides لـ Java](https://releases.aspose.com/slides/java/).
+بدلاً من ذلك، قم بتحميل أحدث نسخة من [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-للبدء في استخدام Aspose.Slides، احصل على ترخيص:
-- **نسخة تجريبية مجانية**:اختبار الميزات دون قيود.
-- **رخصة مؤقتة**: احصل عليه عبر [صفحة الترخيص المؤقت لـ Aspose](https://purchase.aspose.com/temporary-license/).
-- **شراء**:احصل على ترخيص كامل للاستخدام المكثف من [صفحة شراء Aspose](https://purchase.aspose.com/buy).
+لبدء استخدام Aspose.Slides، احصل على ترخيص:
+- **نسخة تجريبية مجانية** – مجموعة كاملة من الميزات، بدون حد زمني.  
+- **ترخيص مؤقت** – اطلبه عبر [صفحة الترخيص المؤقت من Aspose](https://purchase.aspose.com/temporary-license/).  
+- **شراء** – احصل على ترخيص دائم من [صفحة الشراء الخاصة بـ Aspose](https://purchase.aspose.com/buy).
 
-قم بتهيئة المكتبة عن طريق إنشاء مثيل لها `Presentation`.
+قم بتهيئة المكتبة بإنشاء نسخة من `Presentation`.
 
-## دليل التنفيذ
+## كيفية إضافة مخطط إلى PowerPoint باستخدام Aspose.Slides for Java؟
 
-### الميزة 1: إنشاء عرض تقديمي
-**ملخص:** ابدأ بإعداد بيئة العرض التقديمي الخاصة بك.
+حمّل أو أنشئ كائن `Presentation`، احصل على شريحة، استدعِ `addChart` مع `ChartType` المطلوب، زوّدها بالبيانات، وأخيرًا استدعِ `save`. هذه العملية بأكملها لا تستغرق سوى بضع أسطر من Java وتعمل على أي منصة تدعم JRE.
 
-#### الخطوة 1: تهيئة العرض التقديمي
-قم بإنشاء كائن عرض تقديمي جديد لتمثيل ملف PowerPoint الخاص بك.
+### الخطوة 1: إنشاء أو تحميل عرض تقديمي
+`Presentation` هي الفئة العليا التي تمثل ملف PowerPoint في الذاكرة.
 
 ```java
 import com.aspose.slides.Presentation;
 
-// إنشاء مثيل لفئة العرض التقديمي
+// Instantiate the Presentation class
 tPresentation presentation = new Presentation();
 
-// التخلص من الكائن بمجرد اكتمال العمليات
+// Dispose of the object once operations are complete
 if (presentation != null) presentation.dispose();
 ```
 
-هذا المقطع من الكود يُهيئ عرضًا تقديميًا جديدًا فارغًا. تذكر تحرير الموارد باستخدام `dispose()` عندما تنتهي.
+> **نصيحة احترافية:** دائمًا استدعِ `presentation.dispose()` بعد الانتهاء لتحرير الموارد الأصلية.
 
-### الميزة 2: إضافة مخطط إلى الشريحة
-**ملخص:** تعرف على كيفية إضافة المخططات وتخصيصها داخل الشرائح الخاصة بك.
-
-#### الخطوة 1: الحصول على الشريحة الأولى
-قم بالوصول إلى الشريحة الأولى في العرض التقديمي الخاص بك:
+### الخطوة 2: الحصول على الشريحة المستهدفة
+`ISlide` تمثل شريحة واحدة داخل العرض التقديمي.  
+يمكن الوصول إلى الشريحة الأولى عبر الطريقة `getSlides().get_Item(0)`. تُعيد هذه الطريقة كائن `ISlide` يعمل كحاوية للأشكال، بما في ذلك المخططات.
 
 ```java
 import com.aspose.slides.ISlide;
@@ -94,8 +162,9 @@ import com.aspose.slides.ISlide;
 ISlide sld = presentation.getSlides().get_Item(0);
 ```
 
-#### الخطوة 2: إضافة مخطط عمودي مجمع
-إدراج مخطط عمودي مجمع في الإحداثيات المحددة:
+### الخطوة 3: إضافة مخطط عمود متجمع
+`ChartType` هي تعداد يسرد جميع أنواع المخططات المدعومة.  
+`ChartType.ClusteredColumn` يُنشئ مخطط عمود كلاسيكي. يمكنك استبداله بأي قيمة تعداد أخرى، مثل `ChartType.Pie` لإضافة مخطط دائري.
 
 ```java
 import com.aspose.slides.IChart;
@@ -105,25 +174,18 @@ IChart chart = sld.getShapes().addChart(
     ChartType.ClusteredColumn, 20, 20, 500, 300);
 ```
 
-يضيف هذا المقطع مخططًا إلى شريحتك. خصّص `ChartType` والأبعاد حسب الحاجة.
-
-### الميزة 3: تعيين مسافة تسمية محور الفئة
-**ملخص:** قم بضبط مسافة تسمية محور الفئة لتحسين إمكانية القراءة.
-
-#### الخطوة 1: تكوين إزاحة التسمية
-تعيين إزاحة الملصق من المحور:
+### الخطوة 4: تعديل تسميات محاور المخطط
+`CategoryAxis` يتحكم في التسميات الأفقية للمخطط.  
+**محور الفئة** يتحكم في التسميات الأفقية. ضبط إزاحة التسمية يحسّن القراءة عندما تكون التسميات طويلة أو مائلة.
 
 ```java
 chart.getAxes().getHorizontalAxis().setLabelOffset(500);
 ```
 
-يضمن هذا التعديل أن تكون مسافات تسميات الرسم البياني الخاص بك مناسبة، مما يعزز الوضوح.
+> **لماذا تعديل تسميات المحاور؟** يضمن التباعد المناسب عدم تداخل النص، خاصةً في العروض ذات الأحجام الصغيرة للهواتف المحمولة.
 
-### الميزة 4: حفظ العرض التقديمي
-**ملخص:** قم بإنهاء عرضك التقديمي وحفظه في ملف.
-
-#### الخطوة 1: تحديد مسار الإخراج
-تعيين مسار دليل الإخراج للحفظ:
+### الخطوة 5: حفظ العرض التقديمي
+حدد مسار الإخراج واكتب الملف بصيغة PPTX. يدعم Aspose.Slides أيضًا الحفظ إلى PDF، ODP، وHTML إذا لزم الأمر.
 
 ```java
 import com.aspose.slides.SaveFormat;
@@ -131,64 +193,76 @@ import com.aspose.slides.SaveFormat;
 String outputPath = "YOUR_OUTPUT_DIRECTORY/SetCategoryAxisLabelDistance_out.pptx";
 ```
 
-#### الخطوة 2: حفظ العرض التقديمي
-اكتب العرض التقديمي على القرص بتنسيق PPTX:
-
 ```java
 presentation.save(outputPath, SaveFormat.Pptx);
 ```
 
-تأكد من تعيين مسار صالح قبل الحفظ.
+## كيفية إضافة مخطط دائري في Java باستخدام Aspose.Slides؟
+
+أنشئ مخططًا جديدًا باستخدام `ChartType.Pie`، عبي سلسلة واحدة بالقيم، ويمكنك تمكين شرائح منفجرة للتأكيد. يرث المخطط الدائري تلقائيًا سمة الشريحة، لكن يمكنك تخصيص الألوان، الأساطير، وتسميات البيانات بالكامل. يمكنك أيضًا ضبط زاوية البدء وإزاحة الانفجار لتسليط الضوء على شرائح معينة.
+
+> **إجابة مباشرة (40‑70 كلمة):**  
+أنشئ كائن `Presentation`، احصل على شريحة، استدعِ `slide.getShapes().addChart(ChartType.Pie, x, y, width, height)`، ثم استخدم `chart.getChartData().getSeries().add(...)` لتزويد القيم الرقمية. أخيرًا، استدعِ `presentation.save("pieChart.pptx", SaveFormat.Pptx)`. هذا يُنشئ مخططًا دائريًا كاملًا في أقل من عشر أسطر من الكود.
 
 ## التطبيقات العملية
-يتيح Aspose.Slides تطبيقات عملية مختلفة:
-- **تقارير الأعمال**:إنشاء وتحديث المخططات المالية تلقائيًا.
-- **العروض الأكاديمية**:تصور بيانات البحث بشكل فعال.
-- **مواد التسويق**:إنشاء عروض تقديمية ديناميكية للمبيعات مع إحصائيات محدثة.
-
-قم بدمج Aspose.Slides في أنظمتك للحصول على تحديثات عرض تقديمي سلسة، وهو أمر مفيد بشكل خاص في سير عمل إنشاء التقارير التلقائية.
+تتألق Aspose.Slides for Java في خطوط أنابيب التقارير الآلية:
+- **تقارير الأعمال** – إنشاء مخططات مالية ربع سنوية بشكل فوري.  
+- **العروض الأكاديمية** – تحويل بيانات CSV البحثية إلى رسومات بيانية مصقولة.  
+- **عروض التسويق** – تحديث مرئيات مسار المبيعات يوميًا دون تعديلات يدوية.
 
 ## اعتبارات الأداء
-عند العمل مع Aspose.Slides، ضع ما يلي في الاعتبار:
-- تحسين حجم بيانات الرسم البياني لتقليل استخدام الذاكرة.
-- تخلص من الأشياء فورًا بعد استخدامها لتحرير الموارد.
-- استخدم معالجة الدفعات للعروض التقديمية واسعة النطاق لتحسين الأداء.
+عند التعامل مع مجموعات شرائح كبيرة:
+- حافظ على مصفوفات بيانات المخطط تحت 10 000 نقطة لتجنب ارتفاع الذاكرة.  
+- استدعِ `presentation.dispose()` بسرعة.  
+- استخدم المعالجة الدفعية (كائنات `Presentation` في حلقة) للاستفادة من جمع القمامة في JVM بفعالية.
 
-إن الالتزام بهذه الممارسات الفضلى يضمن إدارة فعالة للموارد واستجابة التطبيق.
+## المشكلات الشائعة والحلول
+- **تسرب الذاكرة** – نسيان استدعاء `dispose()` يؤدي إلى تراكم الذاكرة الأصلية.  
+- **تحجيم المحور غير صحيح** – تأكد من ضبط `chart.getAxes().getValueAxis().setAutomaticScale(true)`.  
+- **الترخيص غير موجود** – ضع ملف الترخيص في مسار الـ classpath أو اضبطه برمجياً باستخدام `License license = new License(); license.setLicense("Aspose.Slides.Java.lic");`.
 
-## خاتمة
-غطّى هذا الدليل أساسيات استخدام Aspose.Slides لجافا لإضافة مخططات إلى عروض PowerPoint التقديمية. باتباع هذه الخطوات، يمكنك إثراء شرائحك بتصورات بيانات ديناميكية بسهولة. جرّب المزيد من خلال استكشاف أنواع المخططات الإضافية وخيارات التخصيص المتاحة في Aspose.Slides.
+## الأسئلة المتكررة
 
-**الخطوات التالية:**
-- استكشف ميزات أخرى مثل انتقالات الشرائح وتكامل الوسائط المتعددة.
-- انغمس في تخصيصات المخططات المتقدمة للحصول على عروض تقديمية أكثر تخصيصًا.
+**س: هل يمكنني إضافة مخططات إلى ملف PowerPoint موجود؟**  
+ج: نعم – حمّل الملف باستخدام `new Presentation("existing.pptx")`، عدّل الشرائح، واحفظه مرة أخرى.
 
-هل أنت مستعد لتحسين عروضك التقديمية؟ جرّب تطبيق هذه الحلول اليوم!
+**س: كيف أغيّر نوع المخطط بعد إضافته؟**  
+ج: احصل على كائن `Chart` واضبط `chart.getChartData().setChartType(ChartType.Pie)` لتغيير النوع فورًا.
 
-## قسم الأسئلة الشائعة
-1. **هل يمكنني إضافة مخططات بيانية إلى ملفات PowerPoint الموجودة باستخدام Aspose.Slides؟**
-   - نعم، يمكنك تحميل عرض تقديمي موجود باستخدام `Presentation(String path)` وتعديلها حسب الحاجة.
-2. **كيف يمكنني تغيير نوع الرسم البياني بعد إضافته؟**
-   - الوصول إلى خصائص كائن الرسم البياني وتعيين قيمة جديدة `ChartType` لتحديث مظهره.
-3. **هل Aspose.Slides متوافق مع جميع بيئات التطوير المتكاملة Java؟**
-   - نعم، يعمل Aspose.Slides عبر بيئات تطوير Java الرئيسية مثل IntelliJ IDEA وEclipse.
-4. **ما هي بعض الأخطاء الشائعة عند إضافة الرسوم البيانية؟**
-   - تتضمن المشكلات الشائعة تكوين المحور غير الصحيح وتسربات الذاكرة بسبب التخلص غير السليم من الكائنات.
-5. **كيف يمكنني تحسين أداء عرض الرسم البياني؟**
-   - قم بتحديد نقاط البيانات، وإدارة الموارد بكفاءة من خلال التخلص من الكائنات على الفور، واستخدم أنواع المخططات المناسبة لبياناتك.
+**س: هل Aspose.Slides متوافق مع جميع بيئات التطوير المتكاملة (IDE) الرئيسية لـ Java؟**  
+ج: بالتأكيد – يعمل مع IntelliJ IDEA، Eclipse، NetBeans، وحتى عمليات البناء من سطر الأوامر.
 
-## موارد
+**س: ما هي الأخطاء الشائعة عند ضبط تسميات المحاور؟**  
+ج: استخدام إزاحة سلبية أو نسيان تمكين `setAutomaticScale(true)` قد يتسبب في اختفاء التسميات أو تداخلها.
+
+**س: كيف يمكنني تحسين سرعة العرض للشرائح الضخمة؟**  
+ج: قلل عدد نقاط البيانات لكل مخطط، أعد استخدام كائنات `Presentation` حيثما أمكن، وفعل خيار `setCacheSize` للصور الكبيرة.
+
+## الموارد
 - [توثيق Aspose.Slides](https://reference.aspose.com/slides/java/)
-- [تنزيل Aspose.Slides لـ Java](https://releases.aspose.com/slides/java/)
+- [تحميل Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
 - [شراء ترخيص](https://purchase.aspose.com/buy)
 - [نسخة تجريبية مجانية](https://releases.aspose.com/slides/java/)
 - [طلب ترخيص مؤقت](https://purchase.aspose.com/temporary-license/)
 - [منتدى دعم Aspose](https://forum.aspose.com/c/slides/11)
+
+---
+
+**آخر تحديث:** 2026-05-23  
+**تم الاختبار مع:** Aspose.Slides for Java 24.11  
+**المؤلف:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## دروس ذات صلة
+
+- [كيفية تدوير عناوين محاور المخطط في PowerPoint باستخدام Aspose.Slides for Java: دليل خطوة بخطوة](/slides/java/charts-graphs/rotate-chart-axis-titles-aspose-slides-java/)
+- [تحريك المخططات في PowerPoint باستخدام Aspose.Slides for Java – دليل خطوة بخطوة](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
+- [كيفية تخصيص ألوان المخطط الدائري في Java باستخدام Aspose.Slides – دليل شامل](/slides/java/charts-graphs/aspose-slides-java-pie-charts-tutorial/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

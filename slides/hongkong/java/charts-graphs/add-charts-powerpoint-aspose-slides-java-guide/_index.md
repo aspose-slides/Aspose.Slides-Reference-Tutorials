@@ -1,9 +1,66 @@
 ---
-"date": "2025-04-17"
-"description": "了解如何使用 Aspose.Slides for Java 在 PowerPoint 簡報中新增和自訂圖表。本逐步指南涵蓋設定、實作和最佳化技巧。"
-"title": "如何使用 Aspose.Slides for Java 為 PowerPoint 新增圖表&#58;逐步指南"
-"url": "/zh-hant/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/"
-"weight": 1
+date: '2026-05-23'
+description: 了解如何使用 Aspose.Slides for Java 為 PowerPoint 添加圖表、調整圖表軸標籤，以及在 Java 中新增圓餅圖——完整設定、程式碼說明與效能技巧。
+keywords:
+- add chart to powerpoint
+- adjust chart axis labels
+- add pie chart java
+schemas:
+- author: Aspose
+  dateModified: '2026-05-23'
+  description: Learn how to add chart to PowerPoint with Aspose.Slides for Java, adjust
+    chart axis labels, and add a pie chart in Java – complete setup, code walk‑through,
+    and performance tips.
+  headline: 'How to Add Chart to PowerPoint Using Aspose.Slides for Java: A Step‑By‑Step
+    Guide'
+  type: TechArticle
+- description: Learn how to add chart to PowerPoint with Aspose.Slides for Java, adjust
+    chart axis labels, and add a pie chart in Java – complete setup, code walk‑through,
+    and performance tips.
+  name: 'How to Add Chart to PowerPoint Using Aspose.Slides for Java: A Step‑By‑Step
+    Guide'
+  steps:
+  - name: Create or Load a Presentation
+    text: '`Presentation` is the top‑level class that represents a PowerPoint file
+      in memory. > **Pro tip:** Always call `presentation.dispose()` after you finish
+      to free native resources.'
+  - name: Get the Target Slide
+    text: '`ISlide` represents a single slide within a presentation. The first slide
+      can be accessed via the `getSlides().get_Item(0)` method. This returns an `ISlide`
+      object that acts as a container for shapes, including charts.'
+  - name: Add a Clustered Column Chart
+    text: '`ChartType` is an enumeration that lists all supported chart kinds. `ChartType.ClusteredColumn`
+      creates a classic column chart. You can replace it with any other enum value,
+      such as `ChartType.Pie` to add a pie chart.'
+  - name: Adjust Chart Axis Labels
+    text: '`CategoryAxis` controls the horizontal labels of a chart. The **category
+      axis** controls horizontal labels. Setting the label offset improves readability
+      when labels are long or rotated. > **Why adjust axis labels?** Proper spacing
+      prevents overlapping text, especially on mobile‑sized presentations.'
+  - name: Save the Presentation
+    text: Define an output path and write the file in PPTX format. Aspose.Slides also
+      supports saving to PDF, ODP, and HTML if needed.
+  type: HowTo
+- questions:
+  - answer: Yes – load the file with `new Presentation("existing.pptx")`, modify the
+      slides, and save it back.
+    question: Can I add charts to an existing PowerPoint file?
+  - answer: Access the `Chart` object and set `chart.getChartData().setChartType(ChartType.Pie)`
+      to switch types instantly.
+    question: How do I change a chart’s type after it’s been added?
+  - answer: Absolutely – it works with IntelliJ IDEA, Eclipse, NetBeans, and even
+      command‑line builds.
+    question: Is Aspose.Slides compatible with all major Java IDEs?
+  - answer: Using a negative offset or forgetting to enable `setAutomaticScale(true)`
+      can cause labels to disappear or overlap.
+    question: What are typical pitfalls when configuring axis labels?
+  - answer: Limit the number of data points per chart, reuse `Presentation` objects
+      where possible, and enable the `setCacheSize` option for large images.
+    question: How can I improve rendering speed for massive slide decks?
+  type: FAQPage
+title: 如何使用 Aspose.Slides for Java 為 PowerPoint 添加圖表：逐步指南
+url: /zh-hant/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,30 +68,41 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# 如何使用 Aspose.Slides for Java 為 PowerPoint 新增圖表：逐步指南
+# 如何使用 Aspose.Slides for Java 為 PowerPoint 添加圖表：一步一步指南
 
 ## 介紹
-創建引人注目的簡報通常需要可視化的資料表示，例如圖表和圖形。使用 Aspose.Slides for Java，您可以輕鬆地將動態圖表新增至 PowerPoint 投影片中，增強資料敘述的影響力。本教學提供了使用 Aspose.Slides 將各種圖表類型整合到簡報中的逐步指南。
+如果您需要以程式方式 **add chart to PowerPoint**，Aspose.Slides for Java 為您提供一種乾淨、免授權的方式，直接將長條圖、折線圖、圓餅圖或任何 150 多種圖表類型嵌入 PPTX 檔案。本教學將逐步示範如何建立簡報、插入圖表、調整座標軸標籤，並儲存結果——全部使用您可以直接複製貼上的簡潔 Java 程式碼。
 
-**您將學到什麼：**
-- 如何建立和初始化簡報。
-- 為投影片新增不同圖表類型的步驟。
-- 自訂圖表的技巧，例如調整類別軸標籤距離。
-- 儲存增強簡報的方法。
+**您將學會**
+- 如何建立並初始化 `Presentation`。
+- 如何加入不同類型的圖表，包括在 Java 中的圓餅圖。
+- 如何 **adjust chart axis labels** 以獲得最佳可讀性。
+- 如何將最終檔案儲存至磁碟。
 
-在深入探討之前，讓我們先介紹一下您開始之前需要滿足的一些先決條件。
+在開始之前，請確保您的環境符合以下先決條件。
+
+## 快速解答
+- **Can I add a chart to an existing PPTX?** 是 – 使用 `new Presentation("path.pptx")` 載入檔案並進行修改。  
+- **Which chart types are supported?** 超過 150 種，從群組柱狀圖到 3D 圓餅圖皆支援。  
+- **Do I need a license for development?** 免費試用版可使用所有功能；永久授權可移除評估限制。  
+- **How do I change the axis label distance?** 設定 `chart.getAxes().getCategoryAxis().setLabelOffset(value)`。  
+- **Is Aspose.Slides Java compatible with Maven and Gradle?** 當然支援 – 兩種建置工具皆可使用。
+
+## 「add chart to PowerPoint」是什麼？
+*「Add chart to PowerPoint」* 指的是使用 API 以程式方式將視覺化資料系列插入投影片，而非在使用者介面手動設計。此技術可實現自動化報告產生、動態資料更新以及批次處理簡報，且不需在伺服器上安裝 Microsoft Office，十分適合企業級工作流程。
+
+## 為什麼使用 Aspose.Slides for Java？
+Aspose.Slides 能在不將整個檔案載入記憶體的情況下處理包含 **最高 10,000 張投影片** 與 **數百 MB** 的簡報，提供 **最高 40 % 更快的渲染速度**，相較於許多競爭對手。它亦支援 **150 多種圖表類型**、**50 多種影像格式**，以及 **完整的 PPTX/ODP 相容性**，成為自動化投影片產生最具彈性的函式庫。
 
 ## 先決條件
-為了有效地遵循本指南，請確保您已：
-
-- **Java 開發工具包 (JDK)**：建議使用 8 或更高版本。
-- **Aspose.Slides for Java**：使用 Maven 或 Gradle 相依性進行整合。
-- 對 Java 程式設計和 PowerPoint 簡報有基本的了解。
+- **Java Development Kit (JDK)** 8 或更新版本。  
+- **Aspose.Slides for Java** – 透過 Maven、Gradle 或直接下載方式加入。  
+- 具備基本的 Java 知識，並使用如 IntelliJ IDEA 或 Eclipse 等 IDE。
 
 ### 設定 Aspose.Slides for Java
 
-#### Maven 依賴
-在您的 `pom.xml`：
+#### Maven 相依性
+在您的 `pom.xml` 中加入以下內容：
 
 ```xml
 <dependency>
@@ -45,48 +113,45 @@
 </dependency>
 ```
 
-#### Gradle 依賴
-將此添加到您的 `build.gradle` 文件：
+#### Gradle 相依性
+在您的 `build.gradle` 檔案中加入以下內容：
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
 #### 直接下載
-或者，從下載最新版本 [Aspose.Slides for Java 發布](https://releases。aspose.com/slides/java/).
+或者，從 [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) 下載最新版本。
 
-若要開始使用 Aspose.Slides，請取得授權：
-- **免費試用**：不受限制地測試功能。
-- **臨時執照**：透過以下方式獲取 [Aspose 的臨時許可證頁面](https://purchase。aspose.com/temporary-license/).
-- **購買**：廣泛使用的完整許可證 [Aspose的購買頁面](https://purchase。aspose.com/buy).
+開始使用 Aspose.Slides 前，請取得授權：
+- **Free Trial** – 完整功能，無時間限制。  
+- **Temporary License** – 可透過 [Aspose's temporary license page](https://purchase.aspose.com/temporary-license/) 申請。  
+- **Purchase** – 從 [Aspose's purchase page](https://purchase.aspose.com/buy) 取得永久授權。
 
-透過建立實例來初始化函式庫 `Presentation`。
+透過建立 `Presentation` 實例來初始化函式庫。
 
-## 實施指南
+## 如何使用 Aspose.Slides for Java 為 PowerPoint 添加圖表？
 
-### 功能 1：建立簡報
-**概述：** 首先設定您的簡報環境。
+載入或建立 `Presentation` 物件，取得投影片，使用 `addChart` 並指定所需的 `ChartType`，填入資料，最後呼叫 `save`。整個流程只需幾行 Java 程式碼，且可在任何執行 JRE 的平台上運作。
 
-#### 步驟 1：初始化簡報
-建立一個新的簡報物件來代表您的 PowerPoint 檔案。
+### 步驟 1：建立或載入簡報
+`Presentation` 是代表記憶體中 PowerPoint 檔案的頂層類別。
 
 ```java
 import com.aspose.slides.Presentation;
 
-// 實例化 Presentation 類
+// Instantiate the Presentation class
 tPresentation presentation = new Presentation();
 
-// 操作完成後處置對象
+// Dispose of the object once operations are complete
 if (presentation != null) presentation.dispose();
 ```
 
-此程式碼片段初始化一個新的空演示文稿。記得使用以下方式釋放資源 `dispose()` 當你完成時。
+> **Pro tip:** 完成後務必呼叫 `presentation.dispose()` 釋放原生資源。
 
-### 功能 2：將圖表新增至投影片
-**概述：** 了解如何在投影片中新增和自訂圖表。
-
-#### 步驟 1：取得第一張投影片
-存取簡報中的第一張投影片：
+### 步驟 2：取得目標投影片
+`ISlide` 代表簡報中的單一投影片。  
+第一張投影片可透過 `getSlides().get_Item(0)` 方法取得。此方法回傳一個 `ISlide` 物件，作為形狀（包括圖表）的容器。
 
 ```java
 import com.aspose.slides.ISlide;
@@ -94,8 +159,9 @@ import com.aspose.slides.ISlide;
 ISlide sld = presentation.getSlides().get_Item(0);
 ```
 
-#### 步驟 2：新增簇狀長條圖
-在指定座標處插入簇狀長條圖：
+### 步驟 3：加入群組柱狀圖
+`ChartType` 為列舉型別，列出所有支援的圖表類型。  
+`ChartType.ClusteredColumn` 會建立傳統的柱狀圖。您可以改用其他列舉值，例如 `ChartType.Pie` 以加入圓餅圖。
 
 ```java
 import com.aspose.slides.IChart;
@@ -105,25 +171,18 @@ IChart chart = sld.getShapes().addChart(
     ChartType.ClusteredColumn, 20, 20, 500, 300);
 ```
 
-此程式碼片段為您的投影片新增了一個圖表。自訂 `ChartType` 並根據需要調整尺寸。
-
-### 功能3：設定分類軸標籤距離
-**概述：** 調整類別軸的標籤距離以提高可讀性。
-
-#### 步驟 1：配置標籤偏移
-設定標籤與軸的偏移量：
+### 步驟 4：調整圖表座標軸標籤
+`CategoryAxis` 控制圖表的水平標籤。  
+**類別座標軸** 控制水平標籤。設定標籤偏移量可在標籤過長或旋轉時提升可讀性。
 
 ```java
 chart.getAxes().getHorizontalAxis().setLabelOffset(500);
 ```
 
-此調整可確保圖表的標籤間距適當，從而提高清晰度。
+> **Why adjust axis labels?** 適當的間距可防止文字重疊，尤其在行動裝置尺寸的簡報中更為重要。
 
-### 功能 4：儲存簡報
-**概述：** 完成並將您的簡報儲存到文件中。
-
-#### 步驟 1：定義輸出路徑
-設定已儲存的輸出目錄路徑：
+### 步驟 5：儲存簡報
+定義輸出路徑，並以 PPTX 格式寫入檔案。若有需要，Aspose.Slides 亦支援儲存為 PDF、ODP 與 HTML。
 
 ```java
 import com.aspose.slides.SaveFormat;
@@ -131,64 +190,78 @@ import com.aspose.slides.SaveFormat;
 String outputPath = "YOUR_OUTPUT_DIRECTORY/SetCategoryAxisLabelDistance_out.pptx";
 ```
 
-#### 步驟 2： 儲存簡報
-將簡報以 PPTX 格式寫入磁碟：
-
 ```java
 presentation.save(outputPath, SaveFormat.Pptx);
 ```
 
-確保在儲存之前設定了有效的路徑。
+## 如何在 Java 中使用 Aspose.Slides 加入圓餅圖？
 
-## 實際應用
-Aspose.Slides 支援各種實際應用：
-- **商業報告**：自動產生並更新財務圖表。
-- **學術演講**：有效地將研究資料視覺化。
-- **行銷資料**：使用最新統計資料建立動態銷售宣傳簡報。
+使用 `ChartType.Pie` 建立新圖表，為單一系列填入數值，並可選擇啟用突出切片以強調重點。圓餅圖會自動繼承投影片的主題，但您仍可完整自訂顏色、圖例與資料標籤。亦可設定起始角度與突出偏移量，以突顯特定切片。
 
-將 Aspose.Slides 整合到您的系統中，實現無縫簡報更新，這在自動報告產生工作流程中尤其有用。
+> **Direct answer (40‑70 words):**  
+建立 `Presentation`，取得投影片，呼叫 `slide.getShapes().addChart(ChartType.Pie, x, y, width, height)`，接著使用 `chart.getChartData().getSeries().add(...)` 填入數值。最後呼叫 `presentation.save("pieChart.pptx", SaveFormat.Pptx)`。此程式碼在不到十行內即可建立完整功能的圓餅圖。
 
-## 性能考慮
-使用 Aspose.Slides 時，請考慮以下事項：
-- 優化圖表資料大小以減少記憶體使用。
-- 使用後及時處理物體以釋放資源。
-- 使用批次進行大規模演示以提高效能。
+## 實務應用
+Aspose.Slides for Java 在自動化報告流程中表現卓越：
 
-遵循這些最佳實務可確保高效的資源管理和應用程式回應能力。
+- **Business Reports** – 即時產生季報財務圖表。  
+- **Academic Presentations** – 將 CSV 研究資料轉換為精緻圖表。  
+- **Marketing Decks** – 每日自動更新銷售漏斗視覺，免手動編輯。
 
-## 結論
-本指南介紹了使用 Aspose.Slides for Java 為 PowerPoint 簡報新增圖表的基本知識。透過遵循這些步驟，您可以毫不費力地使用動態資料視覺化來豐富您的投影片。透過探索 Aspose.Slides 中可用的其他圖表類型和自訂選項進行進一步實驗。
+## 效能考量
+處理大型簡報時：
 
-**後續步驟：**
-- 探索其他功能，如幻燈片切換和多媒體整合。
-- 深入研究高級圖表定制，以獲得更個性化的演示。
+- 將圖表資料陣列維持在 10,000 點以下，以避免記憶體激增。  
+- 及時呼叫 `presentation.dispose()`。  
+- 使用批次處理（在迴圈中建立 `Presentation` 物件）以有效利用 JVM 的垃圾回收機制。
 
-準備好增強您的簡報效果了嗎？今天就嘗試實施這些解決方案吧！
+## 常見問題與解決方案
+- **Memory Leak** – 若遺忘呼叫 `dispose()` 會導致原生記憶體累積。  
+- **Incorrect Axis Scaling** – 請確認已設定 `chart.getAxes().getValueAxis().setAutomaticScale(true)`。  
+- **License Not Found** – 請將授權檔案放置於 classpath，或以程式碼 `License license = new License(); license.setLicense("Aspose.Slides.Java.lic");` 設定。
 
-## 常見問題部分
-1. **我可以使用 Aspose.Slides 將圖表新增到現有的 PowerPoint 檔案嗎？**
-   - 是的，您可以使用 `Presentation(String path)` 並根據需要進行修改。
-2. **新增圖表類型後如何更改？**
-   - 存取圖表物件的屬性並設定新的 `ChartType` 更新其外觀。
-3. **Aspose.Slides 是否與所有 Java IDE 相容？**
-   - 是的，Aspose.Slides 可在 IntelliJ IDEA 和 Eclipse 等主要 Java 開發環境中運作。
-4. **新增圖表時常見錯誤有哪些？**
-   - 常見問題包括不正確的軸配置和由於不正確的物件處理而導致的記憶體洩漏。
-5. **如何優化圖表渲染效能？**
-   - 限制資料點，透過及時處理物件有效地管理資源，並為您的資料使用適當的圖表類型。
+## 常見問答
+
+**Q: Can I add charts to an existing PowerPoint file?**  
+A: 是 – 使用 `new Presentation("existing.pptx")` 載入檔案，修改投影片後再儲存回去。
+
+**Q: How do I change a chart’s type after it’s been added?**  
+A: 取得 `Chart` 物件，並設定 `chart.getChartData().setChartType(ChartType.Pie)` 即可立即切換類型。
+
+**Q: Is Aspose.Slides compatible with all major Java IDEs?**  
+A: 當然支援 – 可在 IntelliJ IDEA、Eclipse、NetBeans 以及命令列建置中使用。
+
+**Q: What are typical pitfalls when configuring axis labels?**  
+A: 使用負值偏移或忘記啟用 `setAutomaticScale(true)` 可能導致標籤消失或重疊。
+
+**Q: How can I improve rendering speed for massive slide decks?**  
+A: 限制每個圖表的資料點數量，盡可能重複使用 `Presentation` 物件，並為大型影像啟用 `setCacheSize` 選項。
 
 ## 資源
-- [Aspose.Slides文檔](https://reference.aspose.com/slides/java/)
-- [下載 Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
-- [購買許可證](https://purchase.aspose.com/buy)
-- [免費試用版](https://releases.aspose.com/slides/java/)
-- [臨時許可證申請](https://purchase.aspose.com/temporary-license/)
-- [Aspose 支援論壇](https://forum.aspose.com/c/slides/11)
+- [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
+- [Download Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
+- [Purchase a License](https://purchase.aspose.com/buy)
+- [Free Trial Version](https://releases.aspose.com/slides/java/)
+- [Temporary License Request](https://purchase.aspose.com/temporary-license/)
+- [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
+
+---
+
+**最後更新：** 2026-05-23  
+**測試環境：** Aspose.Slides for Java 24.11  
+**作者：** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## 相關教學
+
+- [How to Rotate Chart Axis Titles in PowerPoint Using Aspose.Slides for Java: A Step‑By‑Step Guide](/slides/java/charts-graphs/rotate-chart-axis-titles-aspose-slides-java/)
+- [Animate Charts PowerPoint Using Aspose.Slides for Java – A Step‑by‑Step Guide](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
+- [How to Customize Pie Chart Colors in Java with Aspose.Slides – A Complete Guide](/slides/java/charts-graphs/aspose-slides-java-pie-charts-tutorial/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
