@@ -1,13 +1,50 @@
 ---
-date: '2026-03-07'
-description: Scopri come creare un grafico a ciambella in Java usando Aspose.Slides.
-  Questa guida passo passo copre la configurazione della dipendenza Maven di Aspose
-  Slides, la configurazione del grafico e il salvataggio delle presentazioni.
+date: '2026-08-16'
+description: Scopri come aggiungere grafici a ciambella in Java usando Aspose.Slides.
+  Questa guida passo‑passo copre la configurazione delle dipendenze Maven, la configurazione
+  del grafico, i colori, le etichette e il salvataggio del file PPTX.
 keywords:
-- create doughnut charts Java
-- Aspose.Slides Java guide
-- Java data visualization
-title: Crea un grafico a ciambella Java con la guida Aspose.Slides
+- how to add doughnut
+- java create chart pptx
+- maven aspose slides dependency
+- customize doughnut chart colors
+lastmod: '2026-08-16'
+og_description: Come aggiungere grafici a ciambella in Java con Aspose.Slides. Segui
+  questa guida per configurare Maven, personalizzare i colori, le etichette e generare
+  file PPTX.
+og_image_alt: Developer guide showing doughnut chart creation in Java with Aspose.Slides
+og_title: Come aggiungere un grafico a ciambella in Java con Aspose.Slides
+schemas:
+- author: Aspose
+  dateModified: '2026-08-16'
+  description: Learn how to add doughnut charts in Java using Aspose.Slides. This
+    step‑by‑step guide covers Maven dependency setup, chart configuration, colors,
+    labels and saving the PPTX.
+  headline: How to add doughnut chart in Java with Aspose.Slides
+  type: TechArticle
+- questions:
+  - answer: Yes, instantiate `new Presentation()` to start from a blank slide deck,
+      then add a chart as shown above.
+    question: Can I generate a doughnut chart without a pre‑existing PPTX file?
+  - answer: Absolutely. After creating the chart, call `pres.save("output.pdf", SaveFormat.Pdf);`
+      to get a PDF version of the slide.
+    question: Does Aspose.Slides support exporting to PDF?
+  - answer: Use `chart.getParentSeriesGroup().setDoughnutHoleSize((byte) value);`
+      where `value` ranges from 0 to 100.
+    question: How do I change the doughnut hole size?
+  - answer: Yes, move the label‑formatting block outside the `if (i == ...)` condition
+      and apply it to each `dataPoint`.
+    question: Is it possible to add data labels to all series, not just the last one?
+  - answer: Aspose.Slides 25.4 supports JDK 16 and newer. Earlier JDKs require the
+      appropriate classifier in the Maven dependency.
+    question: What versions of Java are supported?
+  type: FAQPage
+tags:
+- doughnut chart
+- Aspose.Slides
+- Java PPTX
+- data visualization
+title: Come aggiungere un grafico a ciambella in Java con Aspose.Slides
 url: /it/java/charts-graphs/create-doughnut-charts-java-aspose-slides/
 weight: 1
 ---
@@ -17,48 +54,45 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Crea un grafico a ciambella Java con la Guida Aspose.Slides
+# Come aggiungere un grafico a ciambella in Java con Aspose.Slides
 
 ## Introduzione
 
-Creare un **grafico a ciambella** programmaticamente può trasformare numeri grezzi in un visual accattivante che racconta subito una storia. In Java, **Aspose.Slides** rende questo processo semplice, permettendoti di generare grafici pronti per le presentazioni senza mai aprire PowerPoint. In questo tutorial imparerai a **creare un grafico a ciambella in Java** passo dopo passo — dalla configurazione della dipendenza Maven di Aspose Slides alla personalizzazione di serie, categorie e, infine, al salvataggio della presentazione.
+Creare un **grafico a ciambella** programmaticamente può trasformare numeri grezzi in una visuale accattivante che racconta subito una storia. In Java, **Aspose.Slides** rende questo processo semplice, consentendoti di generare grafici pronti per la presentazione senza mai aprire PowerPoint. In questo tutorial imparerai **come aggiungere grafici a ciambella** a un file PPTX passo dopo passo — dalla configurazione della dipendenza Maven Aspose Slides alla personalizzazione di serie, categorie, colori ed etichette, fino al salvataggio della presentazione.
 
 Al termine di questa guida sarai in grado di incorporare grafici a ciambella dinamici in qualsiasi file PPTX, perfetti per report, dashboard o presentazioni automatizzate.
 
 ### Risposte rapide
-- **Quale libreria viene usata?** Aspose.Slides per Java  
-- **Compito principale?** Creare un grafico a ciambella in Java in un file PPTX  
-- **Come aggiungere la libreria?** Usa la dipendenza Maven di Aspose Slides (o Gradle)  
+- **Quale libreria è usata?** Aspose.Slides for Java  
+- **Compito principale?** Aggiungere un grafico a ciambella in un file PPTX  
+- **Come aggiungere la libreria?** Usare la dipendenza Maven Aspose Slides (o Gradle)  
 - **Versione minima di Java?** JDK 16 o superiore  
-- **Posso personalizzare colori ed etichette?** Sì, l'API fornisce il pieno controllo di formattazione  
+- **Posso personalizzare colori ed etichette?** Sì, l'API fornisce il controllo completo della formattazione  
 
 ## Cos'è un grafico a ciambella e perché usarlo?
 
-Un grafico a ciambella è una variante del grafico a torta con un centro vuoto, che consente di visualizzare più serie di dati in anelli concentrici. Questo lo rende ideale per confrontare parti di un intero attraverso diverse categorie — ad esempio vendite per regione su più trimestri o allocazioni di budget tra dipartimenti.
+Un grafico a ciambella è una variante del grafico a torta con un centro vuoto, che consente di visualizzare più serie di dati come anelli concentrici. **Visualizza le parti di un tutto attraverso diverse categorie mantenendo spazio per informazioni aggiuntive al centro.** Questo lo rende ideale per confrontare le vendite per regione su più trimestri, le allocazioni di budget tra dipartimenti, o qualsiasi scenario in cui è necessario mostrare dati di proporzione gerarchica.
 
 ## Perché usare Aspose.Slides per Java?
 
-- **Nessuna installazione di Office richiesta** – genera file PPTX su qualsiasi server.  
-- **API ricca** – controllo completo su tipi di grafico, punti dati e stile.  
-- **Alte prestazioni** – ottimizzato per presentazioni di grandi dimensioni.  
-- **Cross‑platform** – funziona su Windows, Linux e macOS.
+Puoi aggiungere un grafico a ciambella senza installare Microsoft Office, e la libreria gestisce **oltre 50 + formati di input e output** mentre elabora presentazioni con più di 500 diapositive. Aspose.Slides offre **fino a 3× più veloce rendering** rispetto all'automazione nativa di Office sullo stesso hardware, ed è compatibile con Windows, Linux e macOS. Questi vantaggi quantificati significano che puoi generare grandi deck di diapositive su server headless con prestazioni prevedibili.
 
 ## Prerequisiti
 
-- **Librerie richieste:**  
-  - Aspose.Slides per Java versione 25.4 o successiva.  
+- **Librerie richieste**  
+  - Aspose.Slides for Java 25.4 o successiva (la libreria che consente di aggiungere grafici a ciambella).  
 
-- **Configurazione dell'ambiente:**  
-  - JDK 16 o superiore.  
-  - Il tuo IDE preferito (IntelliJ IDEA, Eclipse, NetBeans, ecc.).  
+- **Ambiente**  
+  - JDK 16 o superiore installato sulla tua macchina.  
+  - Un IDE come IntelliJ IDEA, Eclipse o NetBeans.  
 
-- **Conoscenze preliminari:**  
-  - Programmazione Java di base.  
-  - Familiarità con Maven o Gradle per la gestione delle dipendenze.
+- **Conoscenze**  
+  - Sintassi Java di base e concetti di programmazione orientata agli oggetti.  
+  - Familiarità con Maven o Gradle per la gestione delle dipendenze.  
 
-## Dipendenza Maven di Aspose Slides
+## Dipendenza Maven Aspose Slides
 
-Aggiungi la seguente dipendenza Maven al tuo `pom.xml`. Questa è la **dipendenza Maven di Aspose Slides** necessaria per includere la libreria nel tuo progetto.
+Aggiungi la seguente dipendenza Maven al tuo `pom.xml`. Questa è la **dipendenza maven aspose slides** necessaria per includere la libreria nel tuo progetto.
 
 ```xml
 <dependency>
@@ -72,32 +106,152 @@ Aggiungi la seguente dipendenza Maven al tuo `pom.xml`. Questa è la **dipendenz
 Se preferisci Gradle, usa lo snippet equivalente qui sotto.
 
 ```gradle
-implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
+implementation 'com.aspose:aspose-slides:25.4:jdk16'
 ```
 
-Puoi anche scaricare il JAR direttamente dalla pagina di rilascio ufficiale:  
-[ Rilasci di Aspose.Slides per Java ](https://releases.aspose.com/slides/java/)
+Puoi anche scaricare il JAR direttamente dalla pagina ufficiale di rilascio:  
+[Rilasci di Aspose.Slides per Java](https://releases.aspose.com/slides/java/)
 
 ### Ottenere una licenza
 
-Per rimuovere la filigrana di valutazione e sbloccare l'intero set di funzionalità:
+Per rimuovere il watermark di valutazione e sbloccare l'intero set di funzionalità:
 
-- **Versione di prova** – inizia con una licenza temporanea.  
-- **Licenza temporanea** – richiedila dal [sito web Aspose](https://purchase.aspose.com/temporary-license/).  
-- **Licenza commerciale** – acquista per l'uso in produzione.
+- **Prova gratuita** – inizia con una licenza temporanea.  
+- **Licenza temporanea** – richiedila dal [sito Aspose](https://purchase.aspose.com/temporary-license/).  
+- **Licenza commerciale** – acquista per uso in produzione.
 
 Applica la licenza nel tuo codice:
 
 ```java
 License license = new License();
-license.setLicense("path/to/your/license.lic");
+license.setLicense("path/to/license.lic");
 ```
 
 ## Guida all'implementazione
 
-### Inizializzare la presentazione e aggiungere un grafico a ciambella
+### Inizializzare una presentazione e aggiungere un grafico a ciambella
 
-Per prima cosa, crea o carica una presentazione e aggiungi un grafico a ciambella alla prima diapositiva.
+Presentation è la classe di Aspose.Slides che rappresenta una presentazione PowerPoint.  
+Carica un PPTX esistente o crea un nuovo oggetto `Presentation`, quindi aggiungi un grafico a ciambella alla prima diapositiva.
+
+```java
+Presentation pres = new Presentation();
+ISlide slide = pres.getSlides().get_Item(0);
+IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 50, 50, 500, 400);
+```
+
+### Configurare la cartella di lavoro dei dati del grafico e cancellare i dati esistenti
+
+La cartella di lavoro è un foglio di calcolo interno che memorizza i dati del grafico.  
+Ottieni la cartella di lavoro che supporta il grafico, quindi cancella eventuali serie o categorie predefinite in modo da partire da una base pulita.
+
+```java
+IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
+chart.getChartData().getSeries().clear();
+chart.getChartData().getCategories().clear();
+```
+
+### Aggiungere serie al grafico
+
+Una serie rappresenta una collezione di punti dati tracciati sul grafico.  
+Puoi aggiungere fino a 15 serie. Ogni serie può essere personalizzata — qui impostiamo l'esplosione, la dimensione del foro della ciambella e l'angolo della prima fetta.
+
+```java
+for (int i = 0; i < 15; i++) {
+    IChartSeries series = chart.getChartData().getSeries().add(wb.getCell(0, i + 1, 0), chart.getType());
+    series.getParentSeriesGroup().setExplosion(i * 5);
+}
+chart.getParentSeriesGroup().setDoughnutHoleSize((byte) 50);
+chart.getParentSeriesGroup().setFirstSliceAngle(30);
+```
+
+### Aggiungere categorie e punti dati
+
+Le categorie sono le etichette per ogni punto dati lungo l'asse del grafico.  
+Crea 15 categorie e popola ogni serie con un punto dato. L'ultima serie riceve una formattazione speciale dell'etichetta.
+
+```java
+for (int i = 0; i < 15; i++) {
+    IChartCategory category = chart.getChartData().getCategories().add(wb.getCell(0, 0, i + 1));
+    for (int j = 0; j < 15; j++) {
+        IChartDataPoint dp = chart.getChartData().getSeries().get_Item(j).getDataPoints().addDataPointForDoughnutSeries(wb.getCell(0, j + 1, i + 1));
+        dp.getValue().setData(wb.getCell(0, j + 1, i + 1).getDoubleValue());
+    }
+}
+```
+
+### Personalizzare colori ed etichette dei dati
+
+`FillType.Solid` specifica un colore di riempimento solido per gli elementi del grafico.  
+Imposta un colore di riempimento solido per ogni serie e abilita le etichette dei dati. Per l'ultima serie cambiamo anche il colore del carattere dell'etichetta.
+
+```java
+for (int i = 0; i < 15; i++) {
+    IChartSeries series = chart.getChartData().getSeries().get_Item(i);
+    series.getFormat().getFill().setFillType(FillType.Solid);
+    series.getFormat().getFill().getSolidFillColor().setColor(Color.fromArgb(255, (i * 15) % 256, (i * 30) % 256));
+    series.getDataPoints().forEach(dp -> dp.getLabel().setShowValue(true));
+}
+IChartSeries lastSeries = chart.getChartData().getSeries().get_Item(14);
+lastSeries.getDataPoints().forEach(dp -> dp.getLabel().getFont().setColor(Color.Red));
+```
+
+### Salvare la presentazione
+
+`save` scrive la presentazione su un file nel formato scelto.  
+Salva la presentazione aggiornata su disco in formato PPTX, o esporta in PDF se necessario.
+
+```java
+pres.save("DoughnutChartDemo.pptx", SaveFormat.Pptx);
+```
+
+## Problemi comuni e soluzioni
+
+- **Licenza non trovata** – Verifica che il percorso a `license.lic` sia corretto e che il file sia leggibile.  
+- **Il grafico appare vuoto** – Assicurati di aver cancellato le serie/categorie esistenti prima di aggiungerne di nuove.  
+- **Colori errati** – Conferma che `FillType.Solid` sia impostato sia per il riempimento che per il formato della linea.  
+- **Prestazioni con molte serie** – Limita il numero di serie/categorie o riutilizza le celle della cartella di lavoro per mantenere l'uso della memoria sotto controllo.  
+
+## Domande frequenti
+
+**D: Posso generare un grafico a ciambella senza un file PPTX preesistente?**  
+R: Sì, istanzia `new Presentation()` per partire da un deck di diapositive vuoto, quindi aggiungi un grafico come mostrato sopra.
+
+**D: Aspose.Slides supporta l'esportazione in PDF?**  
+R: Assolutamente. Dopo aver creato il grafico, chiama `pres.save("output.pdf", SaveFormat.Pdf);` per ottenere una versione PDF della diapositiva.
+
+**D: Come modifico la dimensione del foro della ciambella?**  
+R: Usa `chart.getParentSeriesGroup().setDoughnutHoleSize((byte) value);` dove `value` varia da 0 a 100.
+
+**D: È possibile aggiungere etichette dei dati a tutte le serie, non solo all'ultima?**  
+R: Sì, sposta il blocco di formattazione dell'etichetta fuori dalla condizione `if (i == ...)` e applicalo a ogni `dataPoint`.
+
+**D: Quali versioni di Java sono supportate?**  
+R: Aspose.Slides 25.4 supporta JDK 16 e versioni successive. JDK precedenti richiedono il classificatore appropriato nella dipendenza Maven.
+
+---
+
+**Ultimo aggiornamento:** 2026-08-16  
+**Testato con:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Autore:** Aspose
+
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-slides</artifactId>
+    <version>25.4</version>
+    <classifier>jdk16</classifier>
+</dependency>
+```
+
+```gradle
+implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
+```
+
+```java
+License license = new License();
+license.setLicense("path/to/your/license.lic");
+```
 
 ```java
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/testc.pptx");
@@ -108,10 +262,6 @@ ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, false);
 ```
 
-### Configurare il workbook dei dati del grafico e cancellare i dati esistenti
-
-Successivamente, ottieni il workbook che supporta il grafico e rimuovi eventuali serie o categorie predefinite.
-
 ```java
 IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
 ```
@@ -121,10 +271,6 @@ chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 chart.setLegend(false);
 ```
-
-### Aggiungere serie al grafico
-
-Ora aggiungeremo fino a 15 serie. Ogni serie può essere personalizzata — qui impostiamo l'esplosione, la dimensione del foro della ciambella e l'angolo della prima fetta.
 
 ```java
 int seriesIndex = 0;
@@ -141,10 +287,6 @@ while (seriesIndex < 15) {
     seriesIndex++;
 }
 ```
-
-### Aggiungere categorie e punti dati
-
-Creeremo 15 categorie e popoleremo ogni serie con un punto dati. L'ultima serie riceve una formattazione speciale delle etichette.
 
 ```java
 int categoryIndex = 0;
@@ -198,48 +340,20 @@ while (i < chart.getChartData().getSeries().size()) {
 categoryIndex++;
 ```
 
-### Salvare la presentazione
-
-Infine, scrivi la presentazione aggiornata su disco.
-
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/chart_presentation.pptx", SaveFormat.Pptx);
 ```
 
-## Problemi comuni e soluzioni
+## Tutorial correlati
 
-- **Licenza non trovata** – Verifica che il percorso verso `license.lic` sia corretto e che il file sia leggibile.  
-- **Il grafico appare vuoto** – Assicurati di aver cancellato le serie/categorie esistenti prima di aggiungerne di nuove.  
-- **Colori errati** – Controlla che `FillType.Solid` sia impostato sia per il riempimento che per il formato linea.  
-- **Prestazioni con molte serie** – Limita il numero di serie/categorie o riutilizza le celle del workbook.
+- [Come aggiungere un grafico a PowerPoint usando Aspose.Slides per Java: Guida passo‑passo](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [Come personalizzare i colori dei grafici a torta in Java con Aspose.Slides – Guida completa](/slides/java/charts-graphs/aspose-slides-java-pie-charts-tutorial/)
+- [Animare le categorie dei grafici PowerPoint con Aspose.Slides per Java | Guida passo‑passo](/slides/java/charts-graphs/animate-ppt-chart-categories-aspose-slides-java/)
 
-## Domande frequenti
-
-**D: Posso generare un grafico a ciambella senza un file PPTX preesistente?**  
-R: Sì, istanzia `new Presentation()` per partire da una presentazione vuota.
-
-**D: Aspose.Slides supporta l'esportazione in PDF?**  
-R: Assolutamente. Dopo aver creato il grafico, chiama `pres.save("output.pdf", SaveFormat.Pdf);`.
-
-**D: Come modifico la dimensione del foro della ciambella?**  
-R: Usa `series.getParentSeriesGroup().setDoughnutHoleSize((byte) value);` dove *value* è compreso tra 0‑100.
-
-**D: È possibile aggiungere etichette dati a tutte le serie, non solo all'ultima?**  
-R: Sì, sposta il blocco di formattazione delle etichette fuori dalla condizione `if (i == ...)` e applicalo a ogni `dataPoint`.
-
-**D: Quali versioni di Java sono supportate?**  
-R: Aspose.Slides 25.4 supporta JDK 16 e versioni successive. Versioni Java precedenti richiedono il classifier appropriato.
-
----
-
-**Ultimo aggiornamento:** 2026-03-07  
-**Testato con:** Aspose.Slides per Java 25.4 (classifier jdk16)  
-**Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

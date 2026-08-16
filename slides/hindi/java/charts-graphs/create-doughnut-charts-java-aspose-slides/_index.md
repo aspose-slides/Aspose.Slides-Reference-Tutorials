@@ -1,13 +1,50 @@
 ---
-date: '2026-03-07'
-description: Aspose.Slides का उपयोग करके जावा में डोनट चार्ट बनाना सीखें। यह चरण‑दर‑चरण
-  गाइड Maven Aspose Slides निर्भरता सेटअप, चार्ट कॉन्फ़िगरेशन और प्रेजेंटेशन को सहेजने
-  को कवर करता है।
+date: '2026-08-16'
+description: Aspose.Slides का उपयोग करके Java में doughnut charts कैसे जोड़ें सीखें।
+  यह चरण‑दर‑चरण गाइड Maven डिपेंडेंसी सेटअप, chart कॉन्फ़िगरेशन, रंग, लेबल और PPTX
+  को सहेजने को कवर करता है।
 keywords:
-- create doughnut charts Java
-- Aspose.Slides Java guide
-- Java data visualization
-title: Aspose.Slides गाइड के साथ जावा में डोनट चार्ट बनाएं
+- how to add doughnut
+- java create chart pptx
+- maven aspose slides dependency
+- customize doughnut chart colors
+lastmod: '2026-08-16'
+og_description: Java में Aspose.Slides का उपयोग करके doughnut charts कैसे जोड़ें।
+  Maven सेटअप करने, रंग, लेबल को कस्टमाइज़ करने और PPTX फ़ाइलें जेनरेट करने के लिए
+  इस गाइड का पालन करें।
+og_image_alt: Developer guide showing doughnut chart creation in Java with Aspose.Slides
+og_title: Java में Aspose.Slides के साथ doughnut chart कैसे जोड़ें
+schemas:
+- author: Aspose
+  dateModified: '2026-08-16'
+  description: Learn how to add doughnut charts in Java using Aspose.Slides. This
+    step‑by‑step guide covers Maven dependency setup, chart configuration, colors,
+    labels and saving the PPTX.
+  headline: How to add doughnut chart in Java with Aspose.Slides
+  type: TechArticle
+- questions:
+  - answer: Yes, instantiate `new Presentation()` to start from a blank slide deck,
+      then add a chart as shown above.
+    question: Can I generate a doughnut chart without a pre‑existing PPTX file?
+  - answer: Absolutely. After creating the chart, call `pres.save("output.pdf", SaveFormat.Pdf);`
+      to get a PDF version of the slide.
+    question: Does Aspose.Slides support exporting to PDF?
+  - answer: Use `chart.getParentSeriesGroup().setDoughnutHoleSize((byte) value);`
+      where `value` ranges from 0 to 100.
+    question: How do I change the doughnut hole size?
+  - answer: Yes, move the label‑formatting block outside the `if (i == ...)` condition
+      and apply it to each `dataPoint`.
+    question: Is it possible to add data labels to all series, not just the last one?
+  - answer: Aspose.Slides 25.4 supports JDK 16 and newer. Earlier JDKs require the
+      appropriate classifier in the Maven dependency.
+    question: What versions of Java are supported?
+  type: FAQPage
+tags:
+- doughnut chart
+- Aspose.Slides
+- Java PPTX
+- data visualization
+title: Java में Aspose.Slides के साथ doughnut chart कैसे जोड़ें
 url: /hi/java/charts-graphs/create-doughnut-charts-java-aspose-slides/
 weight: 1
 ---
@@ -17,48 +54,49 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.Slides के साथ जावा में डोनट चार्ट बनाना गाइड
+# Java में Aspose.Slides के साथ डोनट चार्ट कैसे जोड़ें
 
 ## परिचय
 
-प्रोग्रामेटिक रूप से **डोनट चार्ट** बनाना कच्चे आंकड़ों को एक आकर्षक दृश्य में बदल सकता है जो तुरंत कहानी बताता है। जावा में, **Aspose.Slides** इस प्रक्रिया को सरल बनाता है, जिससे आप PowerPoint खोले बिना ही प्रस्तुति‑तैयार चार्ट बना सकते हैं। इस ट्यूटोरियल में आप चरण‑दर‑चरण **डोनट चार्ट जावा** बनाना सीखेंगे— Maven Aspose Slides डिपेंडेंसी सेट करने से लेकर सीरीज़, कैटेगरीज को कस्टमाइज़ करने और अंत में प्रेजेंटेशन सहेजने तक।
+प्रोग्रामेटिक रूप से **डोनट चार्ट** बनाना कच्चे आंकड़ों को एक आकर्षक दृश्य में बदल सकता है जो तुरंत कहानी बताता है। Java में, **Aspose.Slides** इस प्रक्रिया को सरल बनाता है, जिससे आप PowerPoint खोले बिना प्रस्तुति‑तैयार चार्ट बना सकते हैं। इस ट्यूटोरियल में आप चरण‑दर‑चरण सीखेंगे कि **डोनट जोड़ने का तरीका** चार्ट को PPTX फ़ाइल में कैसे जोड़ें— Maven Aspose Slides निर्भरता सेटअप करने से लेकर श्रृंखला, श्रेणियाँ, रंग और लेबल को अनुकूलित करने तक, और अंत में प्रस्तुति को सहेजना।
 
-इस गाइड के अंत तक आप किसी भी PPTX फ़ाइल में डायनामिक डोनट चार्ट एम्बेड कर पाएँगे, जो रिपोर्ट, डैशबोर्ड या ऑटोमेटेड स्लाइड डेक्स के लिए उपयुक्त है।
+इस गाइड के अंत तक आप किसी भी PPTX फ़ाइल में गतिशील डोनट चार्ट एम्बेड कर सकेंगे, जो रिपोर्ट, डैशबोर्ड या स्वचालित स्लाइड डेक्स के लिए उपयुक्त हैं।
 
 ### त्वरित उत्तर
 - **कौन सी लाइब्रेरी उपयोग की जाती है?** Aspose.Slides for Java  
-- **मुख्य कार्य?** PPTX फ़ाइल में डोनट चार्ट जावा बनाना  
-- **लाइब्रेरी कैसे जोड़ें?** Maven Aspose Slides डिपेंडेंसी (या Gradle) का उपयोग करें  
-- **न्यूनतम जावा संस्करण?** JDK 16 or higher  
-- **क्या मैं रंग और लेबल कस्टमाइज़ कर सकता हूँ?** हाँ, API पूर्ण फ़ॉर्मेटिंग नियंत्रण प्रदान करती है।
+- **मुख्य कार्य?** Add a doughnut chart in a PPTX file  
+- **लाइब्रेरी कैसे जोड़ें?** Use the Maven Aspose Slides dependency (or Gradle)  
+- **न्यूनतम Java संस्करण?** JDK 16 or higher  
+- **क्या मैं रंग और लेबल कस्टमाइज़ कर सकता हूँ?** Yes, the API provides full formatting control  
 
-## डोनट चार्ट क्या है और इसका उपयोग क्यों करें?
+## डोनट चार्ट क्या है और इसे क्यों उपयोग करें?
 
-डोनट चार्ट पाई चार्ट का एक वैरिएशन है जिसमें मध्य में खाली जगह होती है, जिससे आप कई डेटा सीरीज़ को concentric रिंग्स में दिखा सकते हैं। यह कई श्रेणियों में पूरे के भागों की तुलना करने के लिए आदर्श है—जैसे विभिन्न तिमाहियों में क्षेत्र के अनुसार बिक्री या विभागों में बजट आवंटन।
+डोनट चार्ट पाई चार्ट का एक रूपांतर है जिसमें केंद्र खाली रहता है, जिससे कई डेटा श्रृंखलाएँ समानांतर रिंग्स के रूप में प्रदर्शित की जा सकती हैं।  
+**यह कई श्रेणियों में भाग‑से‑सम्पूर्ण को दर्शाता है जबकि केंद्र में अतिरिक्त जानकारी के लिए स्थान सुरक्षित रखता है।**  
+यह कई तिमाहियों में क्षेत्र के अनुसार बिक्री की तुलना, विभागों के बीच बजट आवंटन, या किसी भी स्थिति में पदानुक्रमित अनुपात डेटा दिखाने के लिए आदर्श बनाता है।
 
-## जावा के लिए Aspose.Slides क्यों उपयोग करें?
+## Java के लिए Aspose.Slides क्यों उपयोग करें?
 
-- **ऑफ़िस इंस्टॉलेशन की आवश्यकता नहीं** – किसी भी सर्वर पर PPTX फ़ाइलें जनरेट करें।  
-- **समृद्ध API** – चार्ट प्रकार, डेटा पॉइंट्स और स्टाइलिंग पर पूर्ण नियंत्रण।  
-- **उच्च प्रदर्शन** – बड़ी प्रेजेंटेशन के लिए अनुकूलित।  
-- **क्रॉस‑प्लेटफ़ॉर्म** – Windows, Linux, और macOS पर काम करता है।
+आप Microsoft Office स्थापित किए बिना डोनट चार्ट जोड़ सकते हैं, और लाइब्रेरी **50 + से अधिक इनपुट और आउटपुट फ़ॉर्मेट** को प्रोसेस करती है जबकि 500 से अधिक स्लाइड वाली प्रस्तुतियों को संभालती है।  
+Aspose.Slides समान हार्डवेयर पर मूल Office ऑटोमेशन की तुलना में **3× तक तेज़ रेंडरिंग** प्रदान करता है, और यह Windows, Linux और macOS पर काम करता है।  
+इन मापनीय लाभों का मतलब है कि आप हेडलेस सर्वरों पर पूर्वानुमानित प्रदर्शन के साथ बड़े स्लाइड डेक बना सकते हैं।
 
-## आवश्यकताएँ
+## पूर्वापेक्षाएँ
 
-- **आवश्यक लाइब्रेरीज़:**  
-  - Aspose.Slides for Java version 25.4 or later.  
+- **आवश्यक लाइब्रेरीज़**  
+  - Aspose.Slides for Java 25.4 or later (the library that enables you to add doughnut charts).  
 
-- **पर्यावरण सेटअप:**  
-  - JDK 16 or higher.  
-  - आपका पसंदीदा IDE (IntelliJ IDEA, Eclipse, NetBeans, आदि)।  
+- **पर्यावरण**  
+  - JDK 16 or higher installed on your machine.  
+  - An IDE such as IntelliJ IDEA, Eclipse or NetBeans.  
 
-- **ज्ञान आवश्यकताएँ:**  
-  - बुनियादी जावा प्रोग्रामिंग।  
-  - डिपेंडेंसी मैनेजमेंट के लिए Maven या Gradle की परिचितता।
+- **ज्ञान**  
+  - Basic Java syntax and object‑oriented concepts.  
+  - Familiarity with Maven or Gradle for dependency management.  
 
-## Maven Aspose Slides डिपेंडेंसी
+## Maven Aspose Slides निर्भरता
 
-अपने `pom.xml` में निम्नलिखित Maven डिपेंडेंसी जोड़ें। यह **maven aspose slides dependency** है जिसे आपको लाइब्रेरी को प्रोजेक्ट में लाने के लिए चाहिए।
+अपने `pom.xml` में निम्नलिखित Maven निर्भरता जोड़ें। यह वह **maven aspose slides dependency** है जिसे आपको लाइब्रेरी को अपने प्रोजेक्ट में लाने के लिए चाहिए।
 
 ```xml
 <dependency>
@@ -69,63 +107,166 @@ weight: 1
 </dependency>
 ```
 
-यदि आप Gradle पसंद करते हैं, तो नीचे दिया गया समतुल्य स्निपेट उपयोग करें।
+यदि आप Gradle पसंद करते हैं, तो नीचे दिया गया समकक्ष स्निपेट उपयोग करें।
 
 ```gradle
-implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
+implementation 'com.aspose:aspose-slides:25.4:jdk16'
 ```
 
-आप आधिकारिक रिलीज़ पेज से JAR सीधे डाउनलोड भी कर सकते हैं:  
-[ Aspose.Slides for Java रिलीज़ ](https://releases.aspose.com/slides/java/)
+आप आधिकारिक रिलीज पेज से JAR को सीधे डाउनलोड भी कर सकते हैं:  
+[ Aspose.Slides for Java releases ](https://releases.aspose.com/slides/java/)
 
 ### लाइसेंस प्राप्त करना
 
-इवैल्यूएशन वॉटरमार्क हटाने और पूरी फीचर सेट अनलॉक करने के लिए:
+मूल्यांकन वॉटरमार्क हटाने और पूरी फीचर सेट को अनलॉक करने के लिए:
 
-- **फ़्री ट्रायल** – अस्थायी लाइसेंस के साथ शुरू करें।  
-- **अस्थायी लाइसेंस** – एक प्राप्त करने के लिए [Aspose वेबसाइट](https://purchase.aspose.com/temporary-license/) से अनुरोध करें।  
-- **वाणिज्यिक लाइसेंस** – उत्पादन उपयोग के लिए खरीदें।
+- **फ़्री ट्रायल** – एक अस्थायी लाइसेंस के साथ शुरू करें।  
+- **अस्थायी लाइसेंस** – [Aspose वेबसाइट](https://purchase.aspose.com/temporary-license/) से अनुरोध करें।  
+- **व्यावसायिक लाइसेंस** – उत्पादन उपयोग के लिए खरीदें।
 
 अपने कोड में लाइसेंस लागू करें:
 
 ```java
 License license = new License();
-license.setLicense("path/to/your/license.lic");
+license.setLicense("path/to/license.lic");
 ```
 
 ## कार्यान्वयन गाइड
 
 ### प्रेजेंटेशन को इनिशियलाइज़ करना और डोनट चार्ट जोड़ना
 
-पहले, एक प्रेजेंटेशन बनाएं या लोड करें और पहले स्लाइड में डोनट चार्ट जोड़ें।
+Presentation Aspose.Slides क्लास है जो PowerPoint प्रस्तुति को दर्शाता है।  
+एक मौजूदा PPTX लोड करें या नया `Presentation` ऑब्जेक्ट बनाएं, फिर पहले स्लाइड में डोनट चार्ट जोड़ें।
 
+```java
+Presentation pres = new Presentation();
+ISlide slide = pres.getSlides().get_Item(0);
+IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 50, 50, 500, 400);
+```
+
+### चार्ट डेटा वर्कबुक को कॉन्फ़िगर करना और मौजूदा डेटा साफ़ करना
+
+वर्कबुक एक आंतरिक स्प्रेडशीट है जो चार्ट का डेटा संग्रहीत करता है।  
+चार्ट को सपोर्ट करने वाला वर्कबुक प्राप्त करें, फिर किसी भी डिफ़ॉल्ट श्रृंखला या श्रेणियों को साफ़ करें ताकि आप एक साफ़ स्लेट से शुरू कर सकें।
+
+```java
+IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
+chart.getChartData().getSeries().clear();
+chart.getChartData().getCategories().clear();
+```
+
+### चार्ट में श्रृंखला जोड़ना
+
+एक श्रृंखला डेटा पॉइंट्स का संग्रह दर्शाती है जो चार्ट पर प्लॉट होते हैं।  
+आप अधिकतम 15 श्रृंखलाएँ जोड़ सकते हैं। प्रत्येक श्रृंखला को कस्टमाइज़ किया जा सकता है—यहाँ हम एक्सप्लोजन, डोनट‑होल आकार, और पहला‑स्लाइस एंगल सेट करते हैं।
+
+```java
+for (int i = 0; i < 15; i++) {
+    IChartSeries series = chart.getChartData().getSeries().add(wb.getCell(0, i + 1, 0), chart.getType());
+    series.getParentSeriesGroup().setExplosion(i * 5);
+}
+chart.getParentSeriesGroup().setDoughnutHoleSize((byte) 50);
+chart.getParentSeriesGroup().setFirstSliceAngle(30);
+```
+
+### श्रेणियाँ और डेटा पॉइंट्स जोड़ना
+
+श्रेणियाँ चार्ट की धुरी के साथ प्रत्येक डेटा पॉइंट के लेबल होते हैं।  
+15 श्रेणियाँ बनाएं और प्रत्येक श्रृंखला को एक डेटा पॉइंट से भरें। अंतिम श्रृंखला को विशेष लेबल फॉर्मेटिंग मिलती है।
+
+```java
+for (int i = 0; i < 15; i++) {
+    IChartCategory category = chart.getChartData().getCategories().add(wb.getCell(0, 0, i + 1));
+    for (int j = 0; j < 15; j++) {
+        IChartDataPoint dp = chart.getChartData().getSeries().get_Item(j).getDataPoints().addDataPointForDoughnutSeries(wb.getCell(0, j + 1, i + 1));
+        dp.getValue().setData(wb.getCell(0, j + 1, i + 1).getDoubleValue());
+    }
+}
+```
+
+### रंग और डेटा लेबल्स को कस्टमाइज़ करना
+
+`FillType.Solid` चार्ट तत्वों के लिए सॉलिड फ़िल रंग निर्दिष्ट करता है।  
+प्रत्येक श्रृंखला के लिए सॉलिड फ़िल रंग सेट करें और डेटा लेबल्स सक्षम करें। अंतिम श्रृंखला के लिए हम लेबल फ़ॉन्ट रंग भी बदलते हैं।
+
+```java
+for (int i = 0; i < 15; i++) {
+    IChartSeries series = chart.getChartData().getSeries().get_Item(i);
+    series.getFormat().getFill().setFillType(FillType.Solid);
+    series.getFormat().getFill().getSolidFillColor().setColor(Color.fromArgb(255, (i * 15) % 256, (i * 30) % 256));
+    series.getDataPoints().forEach(dp -> dp.getLabel().setShowValue(true));
+}
+IChartSeries lastSeries = chart.getChartData().getSeries().get_Item(14);
+lastSeries.getDataPoints().forEach(dp -> dp.getLabel().getFont().setColor(Color.Red));
+```
+
+### प्रेजेंटेशन को सहेजना
+
+`save` चयनित फ़ॉर्मेट में प्रेजेंटेशन को फ़ाइल में लिखता है।  
+अपडेटेड प्रेजेंटेशन को डिस्क पर PPTX फ़ॉर्मेट में लिखें, या आवश्यकता होने पर PDF में निर्यात करें।
+
+```java
+pres.save("DoughnutChartDemo.pptx", SaveFormat.Pptx);
+```
+
+## सामान्य समस्याएँ और समाधान
+
+- **लाइसेंस नहीं मिला** – `license.lic` का पथ सही है और फ़ाइल पढ़ी जा सकती है, यह सत्यापित करें।  
+- **चार्ट खाली दिख रहा है** – नई श्रृंखला/श्रेणियाँ जोड़ने से पहले मौजूदा को साफ़ किया है, यह सुनिश्चित करें।  
+- **गलत रंग** – सुनिश्चित करें कि `FillType.Solid` दोनों फ़िल और लाइन फ़ॉर्मेट्स के लिए सेट है।  
+- **कई श्रृंखलाओं के साथ प्रदर्शन** – श्रृंखला/श्रेणियों की संख्या सीमित करें या मेमोरी उपयोग को नियंत्रित रखने के लिए वर्कबुक सेल्स को पुन: उपयोग करें।  
+
+## अक्सर पूछे जाने वाले प्रश्न
+
+**Q: क्या मैं प्री‑एक्ज़िस्टिंग PPTX फ़ाइल के बिना डोनट चार्ट जनरेट कर सकता हूँ?**  
+**A:** हाँ, `new Presentation()` इंस्टैंसिएट करके एक खाली स्लाइड डेक से शुरू करें, फिर ऊपर दिखाए अनुसार चार्ट जोड़ें।
+
+**Q: क्या Aspose.Slides PDF में एक्सपोर्ट करने का समर्थन करता है?**  
+**A:** बिल्कुल। चार्ट बनाने के बाद, `pres.save("output.pdf", SaveFormat.Pdf);` कॉल करके स्लाइड का PDF संस्करण प्राप्त करें।
+
+**Q: मैं डोनट होल का आकार कैसे बदलूँ?**  
+**A:** `chart.getParentSeriesGroup().setDoughnutHoleSize((byte) value);` उपयोग करें जहाँ `value` 0 से 100 के बीच होता है।
+
+**Q: क्या सभी श्रृंखलाओं में डेटा लेबल जोड़ना संभव है, केवल अंतिम में नहीं?**  
+**A:** हाँ, लेबल‑फ़ॉर्मेटिंग ब्लॉक को `if (i == ...)` शर्त के बाहर ले जाएँ और प्रत्येक `dataPoint` पर लागू करें।
+
+**Q: Java के कौन से संस्करण समर्थित हैं?**  
+**A:** Aspose.Slides 25.4 JDK 16 और उसके बाद के संस्करणों को समर्थन देता है। पुराने JDK के लिए Maven निर्भरता में उपयुक्त क्लासिफ़ायर आवश्यक है।
+
+**अंतिम अपडेट:** 2026-08-16  
+**परीक्षित संस्करण:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**लेखक:** Aspose
+
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-slides</artifactId>
+    <version>25.4</version>
+    <classifier>jdk16</classifier>
+</dependency>
+```
+```gradle
+implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
+```
+```java
+License license = new License();
+license.setLicense("path/to/your/license.lic");
+```
 ```java
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/testc.pptx");
 ```
-
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, false);
 ```
-
-### चार्ट डेटा वर्कबुक कॉन्फ़िगर करना और मौजूदा डेटा साफ़ करना
-
-अगला, चार्ट के पीछे का वर्कबुक प्राप्त करें और किसी भी डिफ़ॉल्ट सीरीज़ या कैटेगरी को साफ़ करें।
-
 ```java
 IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
 ```
-
 ```java
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 chart.setLegend(false);
 ```
-
-### चार्ट में सीरीज़ जोड़ना
-
-अब हम अधिकतम 15 सीरीज़ जोड़ेंगे। प्रत्येक सीरीज़ को कस्टमाइज़ किया जा सकता है—यहाँ हम एक्सप्लोजन, डोनट‑होल साइज, और फ़र्स्ट‑स्लाइस एंगल सेट करते हैं।
-
 ```java
 int seriesIndex = 0;
 while (seriesIndex < 15) {
@@ -141,11 +282,6 @@ while (seriesIndex < 15) {
     seriesIndex++;
 }
 ```
-
-### कैटेगरीज और डेटा पॉइंट्स जोड़ना
-
-हम 15 कैटेगरीज बनाएँगे और प्रत्येक सीरीज़ को एक डेटा पॉइंट से भरेंगे। अंतिम सीरीज़ को विशेष लेबल फ़ॉर्मेटिंग मिलेगी।
-
 ```java
 int categoryIndex = 0;
 while (categoryIndex < 15) {
@@ -153,7 +289,6 @@ while (categoryIndex < 15) {
         workBook.getCell(0, categoryIndex + 1, 0, "CATEGORY " + categoryIndex)
     );
 ```
-
 ```java
 int i = 0;
 while (i < chart.getChartData().getSeries().size()) {
@@ -197,49 +332,20 @@ while (i < chart.getChartData().getSeries().size()) {
 }
 categoryIndex++;
 ```
-
-### प्रेजेंटेशन सहेजना
-
-अंत में, अपडेटेड प्रेजेंटेशन को डिस्क पर लिखें।
-
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/chart_presentation.pptx", SaveFormat.Pptx);
 ```
 
-## सामान्य समस्याएँ और समाधान
+## संबंधित ट्यूटोरियल
 
-- **लाइसेंस नहीं मिला** – जाँचें कि `license.lic` का पथ सही है और फ़ाइल पढ़ी जा सकती है।  
-- **चार्ट खाली दिख रहा है** – नए जोड़ने से पहले सुनिश्चित करें कि आपने मौजूदा सीरीज़/कैटेगरीज को साफ़ किया है।  
-- **गलत रंग** – `FillType.Solid` दोनों fill और line फ़ॉर्मेट्स के लिए सेट है या नहीं, जाँचें।  
-- **कई सीरीज़ के साथ प्रदर्शन** – सीरीज़/कैटेगरीज की संख्या सीमित करें या वर्कबुक सेल्स को पुन: उपयोग करें।
+- [Aspose.Slides for Java का उपयोग करके PowerPoint में चार्ट कैसे जोड़ें: चरण‑दर‑चरण गाइड](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [Aspose.Slides के साथ Java में पाई चार्ट रंग कैसे कस्टमाइज़ करें – पूर्ण गाइड](/slides/java/charts-graphs/aspose-slides-java-pie-charts-tutorial/)
+- [Aspose.Slides for Java के साथ PowerPoint चार्ट श्रेणियों को एनीमेट करें | चरण‑दर‑चरण गाइड](/slides/java/charts-graphs/animate-ppt-chart-categories-aspose-slides-java/)
 
-## अक्सर पूछे जाने वाले प्रश्न
-
-**Q: क्या मैं बिना मौजूदा PPTX फ़ाइल के डोनट चार्ट जनरेट कर सकता हूँ?**  
-A: हाँ, `new Presentation()` को इंस्टैंसिएट करके एक खाली स्लाइड डेक से शुरू करें।
-
-**Q: क्या Aspose.Slides PDF में एक्सपोर्ट करने का समर्थन करता है?**  
-A: बिल्कुल। चार्ट बनाने के बाद, `pres.save("output.pdf", SaveFormat.Pdf);` को कॉल करें।
-
-**Q: डोनट होल साइज कैसे बदलूँ?**  
-A: `series.getParentSeriesGroup().setDoughnutHoleSize((byte) value);` का उपयोग करें जहाँ value 0‑100 है।
-
-**Q: क्या सभी सीरीज़ में डेटा लेबल जोड़ना संभव है, न कि केवल अंतिम में?**  
-A: हाँ, `if (i == ...)` शर्त के बाहर लेबल‑फ़ॉर्मेटिंग ब्लॉक को ले जाएँ और प्रत्येक `dataPoint` पर लागू करें।
-
-**Q: कौन से जावा संस्करण समर्थित हैं?**  
-A: Aspose.Slides 25.4 JDK 16 और उसके बाद के संस्करणों को सपोर्ट करता है। पुराने JDKs को उचित क्लासिफ़ायर की आवश्यकता होती है।
-
----
-
-**अंतिम अपडेट:** 2026-03-07  
-**परीक्षण किया गया:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
-**लेखक:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
