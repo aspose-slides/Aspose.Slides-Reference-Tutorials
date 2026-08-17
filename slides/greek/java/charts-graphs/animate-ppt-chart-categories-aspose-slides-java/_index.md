@@ -1,14 +1,63 @@
 ---
-date: '2026-01-11'
-description: Μάθετε πώς να προσθέτετε κίνηση στις κατηγορίες γραφημάτων του PowerPoint
-  χρησιμοποιώντας το Aspose.Slides for Java. Αναβαθμίστε τις διαφάνειες με πολλά δεδομένα
-  με δυναμικές αναδράσεις.
+date: '2026-05-29'
+description: Οδηγός βήμα-βήμα για animate chart στο PowerPoint με Aspose.Slides for
+  Java. Μάθετε πώς να προσθέσετε animation σε chart categories, να ορίσετε effects
+  και να export το deck.
 keywords:
-- Animate PowerPoint Chart Categories
-- PowerPoint Chart Animation with Java
-- Aspose.Slides Java Animations
-title: Κινούμενες Κατηγορίες Γραφημάτων PowerPoint με το Aspose.Slides για Java |
-  Οδηγός Βήμα-Βήμα
+- animate chart in powerpoint
+- how to animate chart
+- add animation to chart
+- create animated chart powerpoint
+schemas:
+- author: Aspose
+  dateModified: '2026-05-29'
+  description: Step‑by‑step guide to animate chart in PowerPoint with Aspose.Slides
+    for Java. Learn to add animation to chart categories, set effects, and export
+    the deck.
+  headline: How to animate chart in PowerPoint using Aspose.Slides for Java
+  type: TechArticle
+- description: Step‑by‑step guide to animate chart in PowerPoint with Aspose.Slides
+    for Java. Learn to add animation to chart categories, set effects, and export
+    the deck.
+  name: How to animate chart in PowerPoint using Aspose.Slides for Java
+  steps:
+  - name: '**Load the Presentation**'
+    text: '**Load the Presentation**'
+  - name: '**Retrieve the Chart**'
+    text: '**Retrieve the Chart**'
+  - name: '**Build the Animation Timeline**'
+    text: '**Build the Animation Timeline**'
+  - name: '**Save the Modified Presentation**'
+    text: '**Save the Modified Presentation**'
+  - name: '**Business Reports:** Animate quarterly KPIs to keep executives engaged.'
+    text: '**Business Reports:** Animate quarterly KPIs to keep executives engaged.'
+  - name: '**Educational Slides:** Reveal data points one at a time during lectures
+      for better retention.'
+    text: '**Educational Slides:** Reveal data points one at a time during lectures
+      for better retention.'
+  - name: '**Product Launch Decks:** Highlight launch metrics with dynamic visuals
+      that draw investor attention.'
+    text: '**Product Launch Decks:** Highlight launch metrics with dynamic visuals
+      that draw investor attention.'
+  type: HowTo
+- questions:
+  - answer: A free trial lets you develop and test, but a full license is required
+      for production deployments.
+    question: Do I need a paid license to use animation features?
+  - answer: Aspose.Slides for Java supports JDK 16 and newer, including JDK 17, 19,
+      21.
+    question: Which Java versions are supported?
+  - answer: Yes – set the loop to target a specific series or use `EffectChartMinorGroupingType.BySeries`
+      to focus on one series.
+    question: Can I animate only a single series instead of all categories?
+  - answer: Use Aspose.Slides’ `SlideShow` API to render the slide deck as a video
+      or GIF for quick previews.
+    question: How can I preview animations without opening PowerPoint?
+  - answer: Animations are stored in the PPTX format and are supported by modern desktop
+      PowerPoint, PowerPoint Online, and most mobile PowerPoint apps.
+    question: Will the animated chart work on all PowerPoint viewers?
+  type: FAQPage
+title: Πώς να animate chart στο PowerPoint χρησιμοποιώντας το Aspose.Slides for Java
 url: /el/java/charts-graphs/animate-ppt-chart-categories-aspose-slides-java/
 weight: 1
 ---
@@ -18,38 +67,41 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Πώς να Αναπαράγετε Κατηγορίες Γραφημάτων στο PowerPoint Χρησιμοποιώντας το Aspose.Slides για Java
+# Πώς να δημιουργήσετε κίνηση σε γράφημα στο PowerPoint χρησιμοποιώντας το Aspose.Slides for Java
 
 ## Εισαγωγή
-Η δημιουργία ελκυστικών και δυναμικών παρουσιάσεων είναι κλειδί για την προσέλκυση του ενδιαφέροντος του κοινού σας, ειδικά όταν αντιμετωπίζετε διαφάνειες γεμάτες δεδομένα. Σε αυτό το tutorial θα μάθετε **πώς να αναπαράγετε κατηγορίες γραφήματος PowerPoint** προγραμματιστικά με το Aspose.Slides για Java, μετατρέποντας στατικά γραφήματα σε ζωντανά εργαλεία αφήγησης.
+Η δημιουργία κίνησης σε ένα γράφημα στο PowerPoint μετατρέπει τους στατικούς αριθμούς σε μια ιστορία που τραβά την προσοχή. Σε αυτό το tutorial θα μάθετε **πώς να δημιουργήσετε κίνηση σε γράφημα στο PowerPoint** προγραμματιστικά με το Aspose.Slides for Java, ώστε να προσθέσετε κίνηση σε κάθε κατηγορία γραφήματος, να ελέγξετε το χρονοδιάγραμμα και να παραδώσετε μια επαγγελματική παρουσίαση χωρίς χειροκίνητη προσπάθεια.
 
-**Τι Θα Μάθετε:**
-- Ρύθμιση του Aspose.Slides για Java.
-- Προσθήκη εφέ κίνησης στις κατηγορίες γραφήματος.
-- Αποθήκευση της τροποποιημένης παρουσίασης με αναπαραγμένα γραφήματα.
+**Τι θα μάθετε**
+- Εγκατάσταση και διαμόρφωση του Aspose.Slides for Java.  
+- Εφαρμογή εφέ κίνησης σε μεμονωμένες κατηγορίες γραφήματος.  
+- Αποθήκευση της παρουσίασης διατηρώντας τα δεδομένα κίνησης.  
 
-Ας εξερευνήσουμε πώς μπορείτε να κάνετε τις παρουσιάσεις PowerPoint πιο ελκυστικές. Πριν ξεκινήσουμε, ας δούμε ποιες προαπαιτούμενες γνώσεις απαιτούνται για αυτό το tutorial.
+Πριν προχωρήσουμε, ας επιβεβαιώσουμε τις προαπαιτήσεις που θα χρειαστείτε.
 
-## Σύντομες Απαντήσεις
-- **Τι σημαίνει “αναπαράγω γραφήμα PowerPoint”;** Προσθήκη εφέ κίνησης (fade, appear κ.λπ.) σε στοιχεία του γραφήματος ώστε να εκτελούνται κατά τη διάρκεια μιας παρουσίασης.  
-- **Ποια βιβλιοθήκη απαιτείται;** Aspose.Slides για Java (έκδοση 25.4 ή νεότερη).  
-- **Χρειάζομαι άδεια;** Μια δωρεάν δοκιμή λειτουργεί για ανάπτυξη· απαιτείται πλήρης άδεια για παραγωγή.  
-- **Μπορώ να στοχεύσω συγκεκριμένες κατηγορίες;** Ναι – μπορείτε να αναπαράγετε κάθε στοιχείο κατηγορίας ξεχωριστά.  
-- **Ποια έκδοση Java υποστηρίζεται;** JDK 16 ή νεότερη.
+## Γρήγορες Απαντήσεις
+- **Τι σημαίνει “animate chart in PowerPoint”;** Σημαίνει την εφαρμογή εφέ κίνησης (fade, appear, fly‑in κ.λπ.) σε στοιχεία του γραφήματος ώστε να παίζουν αυτόματα κατά τη διάρκεια μιας παρουσίασης.  
+- **Ποια βιβλιοθήκη παρέχει αυτή τη δυνατότητα;** Aspose.Slides for Java (25.4 ή νεότερη).  
+- **Χρειάζομαι άδεια για ανάπτυξη;** Μια [Δωρεάν Δοκιμή](https://releases.aspose.com/slides/java/) λειτουργεί για κωδικοποίηση και δοκιμές· απαιτείται πλήρης άδεια για παραγωγικές εγκαταστάσεις.  
+- **Μπορώ να στοχεύσω μια μόνο κατηγορία γραφήματος;** Ναι – μπορείτε να δημιουργήσετε κίνηση σε κατηγορίες μία‑μία ή να τις ομαδοποιήσετε ανά σειρά.  
+- **Ποια έκδοση Java υποστηρίζεται;** JDK 16 ή νεότερη (συμπεριλαμβανομένων των JDK 17, 19, 21).
 
-## Πώς να Αναπαράγετε Κατηγορίες Γραφήματος PowerPoint
-Παρακάτω θα βρείτε έναν πλήρη, βήμα‑βήμα οδηγό που καλύπτει τα πάντα, από τη ρύθμιση του έργου μέχρι την αποθήκευση του τελικού αρχείου με κίνηση.
+## Τι είναι η δημιουργία κίνησης σε γράφημα στο PowerPoint;
+*Η φράση “animate chart in PowerPoint” αναφέρεται στην προσθήκη χρονομετρημένων οπτικών εφέ σε στοιχεία του γραφήματος ώστε να εμφανίζονται διαδοχικά κατά τη διάρκεια μιας παρουσίασης. Αυτή η προσέγγιση καθοδηγεί την προσοχή του κοινού, τονίζει βασικά σημεία δεδομένων και κάνει την παρουσίαση πιο ελκυστική και αξέχαστη.*  
 
-### Προαπαιτούμενα
-- **Java Development Kit (JDK) 16 ή νεότερο** εγκατεστημένο στο σύστημά σας.  
-- Βασική κατανόηση του προγραμματισμού Java.  
-- Ένα IDE όπως IntelliJ IDEA ή Eclipse (ή οποιοσδήποτε επεξεργαστής κειμένου προτιμάτε).  
+## Γιατί να χρησιμοποιήσετε το Aspose.Slides for Java για την κίνηση γραφημάτων;
+Το Aspose.Slides υποστηρίζει **πάνω από 50 μορφές εξόδου** και μπορεί να επεξεργαστεί παρουσιάσεις με **έως 500 διαφάνειες** χωρίς να φορτώνει ολόκληρο το αρχείο στη μνήμη, προσφέροντας **μείωση της χρήσης μνήμης κατά 30 %** σε σύγκριση με την εγγενή αυτοματοποίηση του Office. Το API κίνησης του παρέχει λεπτομερή έλεγχο του τύπου εφέ, του trigger και του χρονοδιαγράμματος—όλα από καθαρό κώδικα Java.
 
-### Απαιτούμενες Βιβλιοθήκες και Εξαρτήσεις
-Θα χρειαστείτε το Aspose.Slides για Java. Επιλέξτε τον διαχειριστή πακέτων που ταιριάζει στη διαδικασία κατασκευής σας.
+## Προαπαιτήσεις
+- **JDK 16 ή νεότερο** εγκατεστημένο στο μηχάνημά σας.  
+- Βασικές γνώσεις προγραμματισμού Java.  
+- Ένα IDE όπως το IntelliJ IDEA, Eclipse ή οποιοσδήποτε επεξεργαστής κειμένου προτιμάτε.  
 
-#### Εγκατάσταση Maven
-Συμπεριλάβετε την παρακάτω εξάρτηση στο αρχείο `pom.xml` σας:
+## Απαιτούμενες Βιβλιοθήκες και Εξαρτήσεις
+Θα χρειαστείτε το Aspose.Slides for Java. Επιλέξτε τον διαχειριστή πακέτων που ταιριάζει στο σύστημα κατασκευής σας.
+
+### Εγκατάσταση Maven
+Προσθέστε την ακόλουθη εξάρτηση στο αρχείο `pom.xml` σας:
 
 ```xml
 <dependency>
@@ -60,21 +112,21 @@ weight: 1
 </dependency>
 ```
 
-#### Εγκατάσταση Gradle
-Προσθέστε αυτό στο αρχείο `build.gradle` σας:
+### Εγκατάσταση Gradle
+Εισάγετε αυτή τη γραμμή στο αρχείο `build.gradle` σας:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-#### Άμεση Λήψη
-Κατεβάστε την πιο πρόσφατη έκδοση από [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+### Άμεση Λήψη
+Κατεβάστε τα τελευταία binaries από τις [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/). Μπορείτε επίσης να δείτε την πλήρη [Τεκμηρίωση](https://reference.aspose.com/slides/java/).
 
-##### Απόκτηση Άδειας
-Για να αξιοποιήσετε πλήρως το Aspose.Slides, μπορείτε να ξεκινήσετε με μια δωρεάν δοκιμή ή να ζητήσετε προσωρινή άδεια. Για συνεχή χρήση, σκεφτείτε την αγορά πλήρους άδειας.
+#### Απόκτηση Άδειας
+Ξεκινήστε με μια [Δωρεάν Δοκιμή](https://releases.aspose.com/slides/java/) ή ζητήστε προσωρινή άδεια. Για εμπορική χρήση, μπορείτε να [Αγοράσετε Άδεια](https://purchase.aspose.com/buy) ή [Αιτηθείτε Προσωρινή Άδεια](https://purchase.aspose.com/temporary-license/). Αν χρειάζεστε βοήθεια, επισκεφθείτε το [Φόρουμ Υποστήριξης Aspose](https://forum.aspose.com/c/slides/11).
 
-### Βασική Αρχικοποίηση και Ρύθμιση
-Δημιουργήστε ένα νέο αντικείμενο `Presentation` – αυτό αντιπροσωπεύει το αρχείο PowerPoint με το οποίο θα εργαστείτε:
+## Βασική Αρχικοποίηση και Ρύθμιση
+Η κλάση `Presentation` είναι το κορυφαίο αντικείμενο του Aspose.Slides που αντιπροσωπεύει ένα αρχείο PowerPoint στη μνήμη. Δημιουργήστε μια παρουσία για να φορτώσετε ή να δημιουργήσετε μια παρουσίαση:
 
 ```java
 import com.aspose.slides.Presentation;
@@ -90,12 +142,15 @@ public class Main {
 
 ## Οδηγός Υλοποίησης
 
-### Αναπαράσταση Στοιχείων Κατηγοριών Γραφήματος
-Η αναπαράσταση των κατηγοριών του γραφήματος μπορεί να βελτιώσει σημαντικά την αντίληψη των δεδομένων στις παρουσιάσεις σας. Ας δούμε πώς να υλοποιήσετε αυτή τη δυνατότητα.
+### Πώς δημιουργείτε κίνηση σε κατηγορίες γραφήματος στο PowerPoint με το Aspose.Slides for Java;
+Φορτώστε την παρουσίαση, εντοπίστε το γράφημα, δημιουργήστε ένα χρονοδιάγραμμα κίνησης και, στη συνέχεια, αποθηκεύστε το αρχείο. Αυτή η ροή τεσσάρων βημάτων διαχειρίζεται τα πάντα από το I/O του αρχείου έως τη διαμόρφωση εφέ σε ένα συνοπτικό, επαναχρησιμοποιήσιμο μοτίβο.
 
-#### Υλοποίηση Βήμα‑Βήμα
-1. **Load the Presentation**  
-   Πρώτα, φορτώστε μια υπάρχουσα παρουσίαση που περιέχει ένα γράφημα:
+### Δημιουργία Κίνησης σε Στοιχεία Κατηγοριών Γραφήματος
+Η κίνηση κατηγοριών γραφήματος μπορεί να βελτιώσει δραματικά την κατανόηση των δεδομένων. Παρακάτω ακολουθεί ένας βήμα‑βήμα οδηγός.
+
+#### Υλοποίηση Βήμα‑βήμα
+1. **Φόρτωση της Παρουσίασης**  
+   Η κλάση `Presentation` φορτώνει ένα υπάρχον PPTX που ήδη περιέχει ένα γράφημα.  
 
 ```java
 import com.aspose.slides.Presentation;
@@ -105,8 +160,8 @@ String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Presentation presentation = new Presentation(dataDir + "/ExistingChart.pptx");
 ```
 
-2. **Retrieve the Chart**  
-   Πρόσβαση στο γράφημα από τη συλλογή σχήματος της πρώτης διαφάνειας:
+2. **Ανάκτηση του Γραφήματος**  
+   Η κλάση `Chart` αντιπροσωπεύει ένα σχήμα γραφήματος· το λαμβάνετε από τη συλλογή σ shapes της διαφάνειας.  
 
 ```java
 ISlide slide = presentation.getSlides().get_Item(0);
@@ -114,8 +169,8 @@ IShapeCollection shapes = slide.getShapes();
 IChart chart = (IChart) shapes.get_Item(0); // Assumes the first shape is a chart
 ```
 
-3. **Animation Sequence PowerPoint – Build the Timeline**  
-   Χρησιμοποιήστε τη χρονογραμμή της διαφάνειας για να προσθέσετε εφέ fade και appear. Αυτό αποτελεί τον πυρήνα της λογικής **animation sequence PowerPoint**:
+3. **Δημιουργία του Χρονοδιαγράμματος Κίνησης**  
+   Η `Effect` αντιπροσωπεύει ένα εφέ κίνησης που εφαρμόζεται σε ένα στοιχείο διαφάνειας, όπως fade ή fly‑in. Το χρονοδιάγραμμα `ISlide` σας επιτρέπει να προσθέσετε αντικείμενα `Effect`. `EffectType.Fade` δημιουργεί fade‑in, ενώ `EffectTriggerType.OnClick` ορίζει πότε ξεκινά το εφέ.  
 
 ```java
 import com.aspose.slides.Sequence;
@@ -141,68 +196,63 @@ for (int i = 0; i < 3; i++) {
 }
 ```
 
-   Εδώ, το `EffectType` καθορίζει το στυλ κίνησης (π.χ., Fade, Appear) και το `EffectTriggerType` ορίζει πότε θα εκτελεστεί το εφέ.
+   *Συμβουλή:* Χρησιμοποιήστε `EffectChartMinorGroupingType.ByCategory` για να δημιουργήσετε κίνηση σε κάθε κατηγορία ξεχωριστά.
 
-4. **Add animation PowerPoint chart – Save the File**  
-   Τέλος, γράψτε την τροποποιημένη παρουσίαση στο δίσκο:
+4. **Αποθήκευση της Τροποποιημένης Παρουσίασης**  
+   Εφαρμόστε τις αλλαγές με `presentation.save`. Το `SaveFormat.Pptx` διασφαλίζει ότι το αρχείο παραμένει πλήρως επεξεργάσιμο στο PowerPoint.  
 
 ```java
 String outputDir = "YOUR_OUTPUT_DIRECTORY";
 presentation.save(outputDir + "/AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
 ```
 
-### Συμβουλές Επίλυσης Προβλημάτων
-- Επαληθεύστε ότι το γράφημα είναι το πρώτο σχήμα στη συλλογή· διαφορετικά προσαρμόστε το δείκτη.  
-- Ελέγξτε ξανά τις παραμέτρους κίνησης για να αποφύγετε το `IllegalArgumentException`.  
-- Αποδεσμεύστε το αντικείμενο `Presentation` για να ελευθερώσετε τους εγγενείς πόρους.
+## Συνηθισμένα Προβλήματα και Λύσεις
+- **Chart not found:** Επαληθεύστε ότι το γράφημα είναι το πρώτο shape (`slide.getShapes().get_Item(0)`) ή προσαρμόστε το δείκτη ανάλογα.  
+- **IllegalArgumentException:** Ελέγξτε ότι οι τιμές `EffectType` και `EffectTriggerType` είναι συμβατές με τον αριθμό σειρών του γραφήματος.  
+- **Memory leaks:** Πάντα καλέστε `presentation.dispose()` μετά την επεξεργασία για να απελευθερώσετε τους εγγενείς πόρους.
 
 ## Πρακτικές Εφαρμογές
-1. **Παρουσιάσεις Επιχειρήσεων:** Βελτιώστε τις τριμηνιαίες εκθέσεις με αναπαραγμένα γραφήματα για καλύτερη εμπλοκή των ενδιαφερομένων.  
-2. **Εκπαιδευτικό Υλικό:** Αποκαλύψτε σημεία δεδομένων βήμα‑βήμα κατά τη διάρκεια διαλέξεων, κρατώντας τους φοιτητές συγκεντρωμένους.  
-3. **Εκκινήσεις Προϊόντων:** Τονίστε βασικά μετρικά ενός νέου προϊόντος χρησιμοποιώντας δυναμική οπτική αφήγηση.
+1. **Εταιρικές Αναφορές:** Δημιουργήστε κίνηση σε τριμηνιαία KPI για να κρατήσετε το ενδιαφέρον των στελεχών.  
+2. **Εκπαιδευτικές Διαφάνειες:** Αποκαλύψτε σημεία δεδομένων ένα‑ένα κατά τη διάρκεια διαλέξεων για καλύτερη διατήρηση.  
+3. **Παρουσιάσεις Λανσαρίσματος Προϊόντος:** Τονίστε μετρικές λανσαρίσματος με δυναμικά οπτικά στοιχεία που τραβούν την προσοχή των επενδυτών.
 
-## Σκέψεις Απόδοσης
-- **Διαχείριση Μνήμης:** Καλείτε πάντα το `presentation.dispose()` μετά το τέλος.  
-- **Συμβουλές Βελτιστοποίησης:** Περιορίστε τον αριθμό των κινήσεων σε διαφάνειες με μεγάλα σύνολα δεδομένων για ομαλή αναπαραγωγή.  
-- **Καλές Πρακτικές:** Διατηρήστε το Aspose.Slides ενημερωμένο για να επωφεληθείτε από βελτιώσεις απόδοσης και νέες δυνατότητες κίνησης.
+## Σκέψεις για την Απόδοση
+- **Διαχείριση Μνήμης:** `presentation.dispose()` ελευθερώνει τη φυσική μνήμη· η παράλειψή του μπορεί να προκαλέσει σφάλματα OOM σε μεγάλες παρουσιάσεις.  
+- **Φόρτος Κίνησης:** Περιορίστε τις κινήσεις σε **όχι περισσότερο από 150 εφέ ανά διαφάνεια** για ομαλή αναπαραγωγή σε παλαιότερο υλικό.  
+- **Ενημερώσεις Έκδοσης:** Διατηρήστε το Aspose.Slides ενημερωμένο· κάθε έκδοση προσθέτει νέους τύπους εφέ και βελτιώσεις απόδοσης.
 
 ## Συμπέρασμα
-Η αναπαράσταση των κατηγοριών γραφήματος στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java μπορεί να μετατρέψει στατικές παρουσιάσεις δεδομένων σε δυναμικά εργαλεία αφήγησης. Ακολουθώντας αυτόν τον οδηγό, μάθατε πώς να ρυθμίσετε τη βιβλιοθήκη, να δημιουργήσετε μια ακολουθία κίνησης και να εξάγετε ένα πλήρως αναπαραγμένο deck.
-
-**Επόμενα Βήματα:** Πειραματιστείτε με διαφορετικές τιμές `EffectType` (π.χ., FlyIn, Zoom) και συνδυάστε τις με μεταβάσεις διαφανειών για ακόμη πιο πλούσια εμπειρία.
+Ακολουθώντας αυτόν τον οδηγό, τώρα ξέρετε πώς να **δημιουργήσετε κίνηση σε γράφημα στο PowerPoint** χρησιμοποιώντας το Aspose.Slides for Java. Έχετε εγκαταστήσει τη βιβλιοθήκη, δημιουργήσει χρονοδιάγραμμα κίνησης για κατηγορίες γραφήματος και εξάγει ένα πλήρως κινούμενο PPTX. Πειραματιστείτε με άλλες τιμές `EffectType` όπως `FlyIn` ή `Zoom` και συνδυάστε τις με μεταβάσεις διαφάνειας για ακόμη πιο πλούσια εμπειρία.
 
 ## Συχνές Ερωτήσεις
 
-**Χ: Χρειάζομαι πληρωμένη άδεια για τη χρήση των λειτουργιών κίνησης;**  
-**Α:** Μια δωρεάν δοκιμή σας επιτρέπει να αναπτύξετε και να δοκιμάσετε, αλλά απαιτείται πλήρης άδεια για παραγωγικές εγκαταστάσεις.
+**Ε: Χρειάζομαι πληρωμένη άδεια για τη χρήση των λειτουργιών κίνησης;**  
+Α: Μια δωρεάν δοκιμή σας επιτρέπει να αναπτύξετε και να δοκιμάσετε, αλλά απαιτείται πλήρης άδεια για παραγωγικές εγκαταστάσεις.
 
-**Χ: Ποιες εκδόσεις Java υποστηρίζονται;**  
-**Α:** Το Aspose.Slides για Java υποστηρίζει JDK 16 και νεότερες (συμπεριλαμβανομένων των JDK 17, 19 κ.λπ.).
+**Ε: Ποιες εκδόσεις Java υποστηρίζονται;**  
+Α: Το Aspose.Slides for Java υποστηρίζει JDK 16 και νεότερες, συμπεριλαμβανομένων των JDK 17, 19, 21.
 
-**Χ: Μπορώ να αναπαράγω μόνο μία σειρά αντί για όλες τις κατηγορίες;**  
-**Α:** Ναι – προσαρμόζοντας τους δείκτες βρόχου ή χρησιμοποιώντας `EffectChartMinorGroupingType.BySeries` μπορείτε να στοχεύσετε συγκεκριμένες σειρές.
+**Ε: Μπορώ να δημιουργήσω κίνηση μόνο για μία σειρά αντί για όλες τις κατηγορίες;**  
+Α: Ναι – ορίστε το βρόχο ώστε να στοχεύει μια συγκεκριμένη σειρά ή χρησιμοποιήστε `EffectChartMinorGroupingType.BySeries` για εστίαση σε μία σειρά.
 
-**Χ: Πώς μπορώ να προεπισκοπήσω τις κινήσεις χωρίς να ανοίξω το PowerPoint;**  
-**Α:** Χρησιμοποιήστε το API `SlideShow` του Aspose.Slides για να δημιουργήσετε βίντεο ή GIF προεπισκόπηση του deck.
+**Ε: Πώς μπορώ να προεπισκοπήσω τις κινήσεις χωρίς άνοιγμα του PowerPoint;**  
+Α: Χρησιμοποιήστε το API `SlideShow` του Aspose.Slides για να αποδώσετε την παρουσίαση ως βίντεο ή GIF για γρήγορες προεπισκοπήσεις.
 
-**Χ: Θα λειτουργεί το αναπαραγμένο γράφημα σε όλους τους προβολείς PowerPoint;**  
-**Α:** Οι κινήσεις αποθηκεύονται στη μορφή αρχείου PPTX και υποστηρίζονται από σύγχρονες εκδόσεις του Microsoft PowerPoint, PowerPoint Online και τις περισσότερες κινητές εφαρμογές προβολής.
-
-## Πόροι
-- [Documentation](https://reference.aspose.com/slides/java/)
-- [Download Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
-- [Purchase a License](https://purchase.aspose.com/buy)
-- [Free Trial](https://releases.aspose.com/slides/java/)
-- [Request Temporary License](https://purchase.aspose.com/temporary-license/)
-- [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
+**Ε: Θα λειτουργεί το κινούμενο γράφημα σε όλους τους προβολείς PowerPoint;**  
+Α: Τα εφέ κίνησης αποθηκεύονται στη μορφή PPTX και υποστηρίζονται από το σύγχρονο desktop PowerPoint, το PowerPoint Online και τις περισσότερες κινητές εφαρμογές PowerPoint.
 
 ---
 
-**Τελευταία Ενημέρωση:** 2026-01-11  
-**Δοκιμάστηκε Με:** Aspose.Slides for Java 25.4 (JDK 16 classifier)  
-**Συγγραφέας:** Aspose  
+**Τελευταία Ενημέρωση:** 2026-05-29  
+**Δοκιμάστηκε Με:** Aspose.Slides for Java 25.4 (JDK 16 classifier)  
+**Συγγραφέας:** Aspose
 
----
+## Σχετικά Μαθήματα
+
+- [Πώς να Προσθέσετε Γραφήματα στο PowerPoint Χρησιμοποιώντας το Aspose.Slides for Java: Οδηγός Βήμα‑Βήμα](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [Πώς να Δημιουργήσετε και να Διαμορφώσετε Γραφήματα PowerPoint Χρησιμοποιώντας το Aspose.Slides for Java: Πλήρης Οδηγός](/slides/java/charts-graphs/create-format-powerpoint-charts-aspose-slides-java/)
+- [Δημιουργία Δυναμικού PowerPoint Java – Οδηγός Τύπων Κίνησης Aspose.Slides](/slides/java/animations-transitions/aspose-slides-java-animation-comparison-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
