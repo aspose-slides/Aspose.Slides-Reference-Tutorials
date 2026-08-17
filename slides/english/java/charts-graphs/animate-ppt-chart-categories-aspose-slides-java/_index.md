@@ -1,5 +1,5 @@
 ---
-title: "How to animate chart in PowerPoint using Aspose.Slides for Java"
+title: "Animate chart categories in PowerPoint with Java"
 description: "Step‑by‑step guide to animate chart in PowerPoint with Aspose.Slides for Java. Learn to add animation to chart categories, set effects, and export the deck."
 date: "2026-05-29"
 weight: 1
@@ -95,7 +95,7 @@ Aspose.Slides supports **50+ output formats** and can process presentations with
 - Basic Java programming knowledge.  
 - An IDE such as IntelliJ IDEA, Eclipse, or any text editor you prefer.  
 
-## Required Libraries and Dependencies
+## Required libraries and dependencies
 You’ll need Aspose.Slides for Java. Choose the package manager that matches your build system.
 
 ### Maven Installation
@@ -123,7 +123,7 @@ Grab the latest binaries from [Aspose.Slides for Java releases](https://releases
 #### License Acquisition
 Start with a [Free Trial](https://releases.aspose.com/slides/java/) or request a temporary license. For commercial use, you can [Purchase a License](https://purchase.aspose.com/buy) or [Request Temporary License](https://purchase.aspose.com/temporary-license/). If you need help, visit the [Aspose Support Forum](https://forum.aspose.com/c/slides/11).
 
-## Basic Initialization and Setup
+## Basic initialization and setup
 The `Presentation` class is Aspose.Slides’ top‑level object that represents a PowerPoint file in memory. Create an instance to load or build a presentation:
 
 ```java
@@ -143,7 +143,7 @@ public class Main {
 ### How do you animate chart categories in PowerPoint with Aspose.Slides for Java?
 Load the presentation, locate the chart, build an animation timeline, and then save the file. This four‑step flow handles everything from file I/O to effect configuration in a concise, repeatable pattern.
 
-### Animate Chart Categories Elements
+### Animate chart categories elements
 Animating chart categories can dramatically improve data comprehension. Below is a step‑by‑step walkthrough.
 
 #### Step‑by‑Step Implementation
@@ -204,7 +204,7 @@ String outputDir = "YOUR_OUTPUT_DIRECTORY";
 presentation.save(outputDir + "/AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 - **Chart not found:** Verify the chart is the first shape (`slide.getShapes().get_Item(0)`) or adjust the index accordingly.  
 - **IllegalArgumentException:** Check that `EffectType` and `EffectTriggerType` values are compatible with the chart’s series count.  
 - **Memory leaks:** Always call `presentation.dispose()` after processing to release native resources.
@@ -222,7 +222,7 @@ presentation.save(outputDir + "/AnimatingCategoriesElements_out.pptx", SaveForma
 ## Conclusion
 By following this guide you now know how to **animate chart in PowerPoint** using Aspose.Slides for Java. You’ve installed the library, built an animation timeline for chart categories, and exported a fully animated PPTX. Experiment with other `EffectType` values like `FlyIn` or `Zoom` and combine them with slide transitions for an even richer experience.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Do I need a paid license to use animation features?**  
 A: A free trial lets you develop and test, but a full license is required for production deployments.

@@ -1,5 +1,5 @@
 ---
-title: "Create Pie Chart Aspose – Add a Chart to a Presentation with Maven"
+title: "Generate a Pie Chart with Aspose.Slides – Add a Chart to a Presentation Using Maven"
 description: "Learn how to create pie chart aspose using Aspose.Slides Maven, add pie chart java to a slide, and customize chart data. Step‑by‑step guide with Maven setup and real‑world examples."
 date: "2026-05-29"
 weight: 1
@@ -11,7 +11,7 @@ keywords:
 - aspose slides maven example
 schemas:
 - type: TechArticle
-  headline: Create Pie Chart Aspose – Add a Chart to a Presentation with Maven
+  headline: Generate a Pie Chart with Aspose.Slides – Add a Chart to a Presentation Using Maven
   description: Learn how to create pie chart aspose using Aspose.Slides Maven, add
     pie chart java to a slide, and customize chart data. Step‑by‑step guide with Maven
     setup and real‑world examples.
@@ -45,7 +45,7 @@ schemas:
 ## Introduction
 In this guide you’ll **create pie chart aspose** with Aspose.Slides Maven and see how to embed it into a PowerPoint slide. Creating visually appealing presentations is crucial for effectively conveying information, especially when data visualization plays a key role. If you’re looking to automate this process with **aspose slides maven**, you’ve come to the right place. We’ll walk through adding a chart to a slide — specifically a pie chart — and customizing it for real‑world scenarios.
 
-### What You'll Learn
+### What you'll learn
 - How to initialize a presentation object in Java.  
 - Steps to **add a pie chart java** on the first slide of a presentation.  
 - Accessing chart data workbooks and listing worksheets within them.  
@@ -71,7 +71,7 @@ Using Aspose.Slides Maven lets you generate charts directly from Java code witho
 - An IDE (IntelliJ IDEA, Eclipse, etc.).  
 - Basic Java knowledge and familiarity with Maven or Gradle.
 
-## Setting Up Aspose.Slides for Java
+## Setting up Aspose.Slides for java
 First, include Aspose.Slides in your project via Maven or Gradle.
 
 **Maven:**  
@@ -107,7 +107,7 @@ Aspose.Slides for Java offers a free trial with a temporary license for testing.
 ## Implementation Guide
 Below we break the solution into two features: adding a pie chart and accessing its data workbook.
 
-### Feature 1: Creating a Presentation and Adding a Chart
+### Feature 1: creating a presentation and adding a chart
 #### Overview
 This part shows how to create a new presentation and **add a pie chart** to the first slide.
 
@@ -143,7 +143,7 @@ if (pres != null) pres.dispose();
 ```
 *Releases native resources; always call `dispose()` when you’re done.*
 
-### Feature 2: Accessing Chart Data Workbook and Worksheets
+### Feature 2: accessing chart data workbook and worksheets
 #### Overview
 Learn how to reach the underlying workbook that stores chart data and iterate through its worksheets.
 
@@ -196,7 +196,7 @@ We’ve covered how **aspose slides maven** enables you to **add chart to slide*
 - Connect to external data sources (CSV, databases) to populate charts dynamically.  
 - Combine multiple chart types in a single presentation for richer storytelling.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: How do I install Aspose.Slides for Java?**  
 A: Use the Maven or Gradle dependency shown above, or download the library from the releases page.
@@ -239,11 +239,9 @@ A: Yes, the `aspose-slides` Maven artifact contains the full charting engine.
 - [Create a Pie of Pie Chart in Java with Aspose.Slides: A Comprehensive Guide](/slides/java/charts-graphs/create-pie-of-pie-chart-aspose-slides-java/)
 - [Animate Charts PowerPoint Using Aspose.Slides for Java – A Step‑by‑Step Guide](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
