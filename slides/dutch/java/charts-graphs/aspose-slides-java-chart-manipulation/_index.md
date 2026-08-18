@@ -1,13 +1,37 @@
 ---
-date: '2026-01-17'
-description: Leer hoe je een diagram maakt in Java met Aspose.Slides, een gegroepeerde
-  kolomdiagram toevoegt en de presentatie opslaat als pptx. Stapsgewijze handleiding
-  voor Java‑ontwikkelaars.
+date: '2026-06-08'
+description: Leer hoe je in Java een PowerPoint-grafiek maakt met Aspose.Slides, de
+  Maven dependency instelt, een clustered column chart toevoegt en opslaat als PPTX.
 keywords:
-- Aspose.Slides for Java
+- java create powerpoint chart
+- maven dependency aspose slides
 - chart manipulation in presentations
-- Java presentation library
-title: Hoe maak je een grafiek in Java met Aspose.Slides voor Java
+- java presentation library
+schemas:
+- author: Aspose
+  dateModified: '2026-06-08'
+  description: Learn how to java create powerpoint chart with Aspose.Slides, set up
+    the Maven dependency, add a clustered column chart, and save as PPTX.
+  headline: Java create powerpoint chart using Aspose.Slides
+  type: TechArticle
+- questions:
+  - answer: Use the `ChartType` enum (e.g., `ChartType.Pie`, `ChartType.Line`) when
+      calling `addChart`.
+    question: How do I add other chart types?
+  - answer: Yes, modify the series’ fill format or the chart’s palette via the `IChart`
+      API.
+    question: Can I customize chart colors?
+  - answer: Verify that the output directory path is correct, exists, and is writable.
+      Also ensure no other process holds a lock on the file.
+    question: My presentation won’t save—what’s wrong?
+  - answer: Process slides in batches, dispose of each `Presentation` after use, and
+      consider increasing the JVM heap size if needed.
+    question: How can I handle very large presentations efficiently?
+  - answer: A free trial is available for evaluation, but a purchased license is required
+      for commercial deployment.
+    question: Is Aspose.Slides free for commercial projects?
+  type: FAQPage
+title: Java PowerPoint-grafiek maken met Aspose.Slides
 url: /nl/java/charts-graphs/aspose-slides-java-chart-manipulation/
 weight: 1
 ---
@@ -17,66 +41,65 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Hoe maak je een diagram in Java met Aspose.Slides for Java
+# Java PowerPoint-diagram maken met Aspose.Slides
 
-## Introductie
-Een **create chart in java**‑ervaring die er professioneel uitziet, hoeft geen hoofdpijn te veroorzaken. Met **Aspose.Slides for Java** kun je programmatisch diagrammen toevoegen, opmaken en opslaan — bijvoorbeeld een gegroepeerd kolomdiagram — direct in PowerPoint‑presentaties. In deze tutorial lopen we door het instellen van de bibliotheek, het initialiseren van een presentatie, het invoegen van een gegroepeerd kolomdiagram, het aanpassen van het plotgebied en tenslotte het opslaan van het bestand als PPTX. Aan het einde heb je een herbruikbare code‑snippet die je in elk Java‑project kunt gebruiken.
+## Inleiding
+In deze gids kun je **java create powerpoint chart** moeiteloos maken met Aspose.Slides voor Java. We lopen door het installeren van het Maven- of Gradle‑pakket, het initialiseren van een `Presentation`, het invoegen van een gegroepeerde kolomgrafiek, het fijn afstellen van het plotgebied, en tenslotte het opslaan van het resultaat als een PPTX‑bestand. Aan het einde heb je een kant‑klaar fragment dat werkt in elk Java‑project, of je nu een bedrijfsrapport of een geautomatiseerde slide‑generator bouwt.
 
-**Wat je leert**
-- Hoe je de Aspose.Slides‑Maven‑ of Gradle‑dependency instelt  
-- Hoe je **create chart in java** maakt en een gegroepeerd kolomdiagram toevoegt  
-- Hoe je het plotgebied configureert (positie, grootte, layout)  
-- Hoe je **save presentation as pptx** uitvoert met juiste resource‑afhandeling  
+**Wat je zult leren**
+- Hoe je de Maven‑dependency voor Aspose.Slides toevoegt  
+- Hoe je **java create powerpoint chart** maakt en een gegroepeerde kolomgrafiek invoegt  
+- Hoe je het plotgebied aanpast (positie, grootte, lay‑out‑doel)  
+- Hoe je **save presentation as pptx** opslaat met juiste opruiming van bronnen  
 
-Klaar om je data visueel te laten spreken? Laten we beginnen!
+Klaar om ruwe gegevens om te zetten in opvallende dia's? Laten we beginnen!
 
 ## Snelle antwoorden
-- **Welke bibliotheek heb ik nodig?** Aspose.Slides for Java (Maven/Gradle).  
-- **Welk diagramtype wordt gedemonstreerd?** Gegroepeerd kolomdiagram.  
-- **Hoe sla ik het bestand op?** Gebruik `presentation.save(..., SaveFormat.Pptx)`.  
+- **Welke bibliotheek heb ik nodig?** Aspose.Slides voor Java (beschikbaar via Maven of Gradle).  
+- **Welk grafiektype wordt gedemonstreerd?** Gegroepeerde kolomgrafiek.  
+- **Hoe sla ik het bestand op?** Roep `presentation.save("output.pptx", SaveFormat.Pptx)` aan.  
 - **Heb ik een licentie nodig?** Een gratis proefversie werkt voor ontwikkeling; een volledige licentie is vereist voor productie.  
-- **Kan ik het plotgebied wijzigen?** Ja, je kunt X, Y, breedte, hoogte en layout‑target‑type instellen.
+- **Kan ik het plotgebied wijzigen?** Ja – stel X, Y, breedte, hoogte in en kies een lay‑out‑doeltype.
 
-## Wat is create chart in java?
-Een diagram maken in Java betekent dat je een bibliotheek gebruikt om diagramobjecten te genereren, deze te vullen met gegevens en in te sluiten in een document — hier een PowerPoint‑slide. Aspose.Slides abstraheert de low‑level Office Open XML‑details, zodat je je kunt concentreren op het visuele resultaat.
+## Wat is java create powerpoint chart?
+`java create powerpoint chart` verwijst naar het programmatisch genereren van een grafiekobject, het vullen ervan met gegevens, en het insluiten in een PowerPoint‑slide met behulp van een Java‑bibliotheek. Aspose.Slides abstraheert het Open XML‑formaat zodat je je kunt concentreren op visueel ontwerp in plaats van interne bestandsstructuren.
 
-## Waarom een gegroepeerd kolomdiagram toevoegen met Aspose.Slides?
-Een gegroepeerd kolomdiagram is perfect om meerdere gegevensreeksen naast elkaar te vergelijken. Het wordt veel gebruikt in bedrijfsrapporten, dashboards en presentaties. Aspose.Slides geeft je volledige controle over kleuren, markers, assen en layout zonder PowerPoint handmatig te openen.
+## Waarom een gegroepeerde kolomgrafiek toevoegen met Aspose.Slides?
+Een gegroepeerde kolomgrafiek is perfect voor het vergelijken van meerdere gegevensreeksen naast elkaar. Het wordt veel gebruikt in bedrijfsrapporten, dashboards en presentaties. Aspose.Slides geeft je volledige controle over kleuren, markers, assen en lay‑out zonder PowerPoint handmatig te openen. Het stelt je in staat trends over categorieën te benadrukken, waardoor inzichten duidelijker worden voor belanghebbenden. Met Aspose.Slides kun je programmatisch de opmaak van series, as‑schaling en gegevenslabels aanpassen, zodat de grafiek overeenkomt met je bedrijfsbranding en visuele standaarden.
 
 ## Vereisten
-- **Aspose.Slides for Java**‑bibliotheek (versie 25.4 of nieuwer).  
-- **JDK 16** (of later) geïnstalleerd.  
+- **Aspose.Slides voor Java** (versie 25.4 of nieuwer).  
+- **JDK 16** of hoger.  
 - Een IDE zoals IntelliJ IDEA of Eclipse.  
-- Basiskennis van Java‑syntaxis.
+- Basiskennis van Java.
 
-## Aspose.Slides for Java instellen
+## Aspose.Slides voor Java instellen
 ### Maven
-Voeg de dependency toe aan je `pom.xml`:
+Add the dependency to your `pom.xml`:
 
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-slides</artifactId>
     <version>25.4</version>
-    <classifier>jdk16</classifier>
 </dependency>
 ```
 
 ### Gradle
-Neem de bibliotheek op in `build.gradle`:
+Include the library in `build.gradle`:
 
 ```gradle
-implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
+implementation 'com.aspose:aspose-slides:25.4'
 ```
 
 ### Directe download
-Download anders de nieuwste release vanaf [Aspose's officiële site](https://releases.aspose.com/slides/java/).
+Alternatively, download the latest release from [Aspose's official site](https://releases.aspose.com/slides/java/).
 
 #### Licentie‑acquisitie
-Gebruik een gratis proefversie of tijdelijke licentie voor testen. Schaf een volledige licentie aan voor productie‑implementaties.
+Use a free trial or temporary license for testing. Purchase a full license for production deployments.
 
-### Basisinitialisatie en setup
-Start een nieuwe Java‑klasse en importeer de core‑klasse:
+## Basisinitialisatie en -instelling
+The `Presentation` class is the entry point for creating and manipulating PowerPoint files. Start a new Java class and import the core class:
 
 ```java
 import com.aspose.slides.Presentation;
@@ -86,10 +109,13 @@ import com.aspose.slides.Presentation;
 We lopen elke stap door met duidelijke uitleg.
 
 ### Presentatie‑initialisatie en slide‑manipulatie
-#### Overzicht
-Maak eerst een nieuwe presentatie aan en pak de eerste slide waarop het diagram komt te staan.
+#### Definitie‑anker
+`Presentation` is het top‑level object van Aspose.Slides dat een volledig PowerPoint‑bestand in het geheugen vertegenwoordigt.
 
-**1. Maak en initialiseert een Presentation**
+#### Overzicht
+Maak eerst een nieuwe presentatie en haal de eerste slide op waar de grafiek zal staan.
+
+**1. Maak en initialiseert een presentatie**
 
 ```java
 Presentation presentation = new Presentation();
@@ -101,19 +127,19 @@ Presentation presentation = new Presentation();
 ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
-**3. Voeg een gegroepeerd kolomdiagram toe**
+**3. Voeg een gegroepeerde kolomgrafiek toe**
 
 ```java
 IChart chart = slide.getShapes().addChart(ChartType.ClusteredColumn, 20, 100, 600, 400);
 ```
 
-> **Pro tip:** Plaats het gebruik van de presentatie altijd in een `try‑finally`‑blok en roep `presentation.dispose()` aan in de `finally` om native resources vrij te geven.
+> **Pro tip:** Wikkel het gebruik van de presentatie altijd in een `try‑finally`‑blok en roep `presentation.dispose()` aan in de `finally` om native resources vrij te geven.
 
 ### Plotgebied‑configuratie
 #### Overzicht
-Stel het plotgebied van het diagram fijn af om te bepalen waar de data binnen de slide wordt weergegeven.
+Stel het plotgebied van de grafiek fijn af om te bepalen waar de gegevens binnen de slide worden weergegeven.
 
-**1. Positie en grootte instellen**
+**1. Stel positie en grootte in**
 
 ```java
 chart.getPlotArea().setX(0.2f);
@@ -122,7 +148,7 @@ chart.getPlotArea().setWidth(0.7f);
 chart.getPlotArea().setHeight(0.7f);
 ```
 
-**2. Layout‑target‑type definiëren**
+**2. Definieer lay‑out‑doeltype**
 
 ```java
 chart.getPlotArea().setLayoutTargetType(LayoutTargetType.Inner);
@@ -130,7 +156,7 @@ chart.getPlotArea().setLayoutTargetType(LayoutTargetType.Inner);
 
 ### Presentatie opslaan
 #### Overzicht
-Na het aanpassen van het diagram, sla je de presentatie op als een PPTX‑bestand.
+Na het aanpassen van de grafiek, sla je de presentatie op als een PPTX‑bestand.
 
 **1. Opslaan naar bestand**
 
@@ -138,38 +164,38 @@ Na het aanpassen van het diagram, sla je de presentatie op als een PPTX‑bestan
 presentation.save(YOUR_OUTPUT_DIRECTORY + "SetLayoutMode_outer.pptx", SaveFormat.Pptx);
 ```
 
-> **Waarschuwing:** Zorg ervoor dat de output‑directory bestaat en dat de applicatie schrijfrechten heeft; anders mislukt de opslaan‑operatie.
+> **Waarschuwing:** Zorg ervoor dat de uitvoermap bestaat en dat de applicatie schrijfrechten heeft; anders zal de opslaan‑operatie mislukken.
 
-## Veelvoorkomende use‑cases
+## Veelvoorkomende gebruikssituaties
 - **Bedrijfsrapporten:** Verwerk verkooptrends en financiële KPI's.  
-- **Educatieve slides:** Visualiseer experimentele resultaten of statistische data.  
-- **Projectvoorstellen:** Benadruk mijlpalen en resource‑allocatie.  
-- **Marketing‑decks:** Toon campagne‑prestaties met levendige diagrammen.  
-- **Evenementplanning:** Geef demografie van deelnemers of een schema‑overzicht weer.
+- **Educatieve dia's:** Visualiseer experimentele resultaten of statistische gegevens.  
+- **Projectvoorstellen:** Markeer mijlpalen en resource‑toewijzing.  
+- **Marketingpresentaties:** Toon campagneprestaties met levendige grafieken.  
+- **Evenementplanning:** Toon demografie van deelnemers of een overzicht van het schema.
 
 ## Prestatie‑overwegingen
-- Maak `Presentation`‑objecten snel duidelijk om geheugenlekken te voorkomen.  
-- Voor grote datasets, vul diagramreeksen incrementeel in plaats van alles in één keer te laden.  
-- Gebruik de ingebouwde profiling‑tools van Java om heap‑gebruik tijdens diagramgeneratie te monitoren.
+- Ruim `Presentation`‑objecten direct op om geheugenlekken te voorkomen.  
+- Voor grote datasets, vul de grafiekseries incrementeel in in plaats van alles in één keer te laden.  
+- Gebruik Java's ingebouwde profiling‑tools om het heap‑gebruik tijdens het genereren van de grafiek te monitoren.
 
 ## Veelgestelde vragen
 
-**Q: Hoe voeg ik andere diagramtypen toe?**  
+**V: Hoe voeg ik andere grafiektype toe?**  
 A: Gebruik de `ChartType`‑enum (bijv. `ChartType.Pie`, `ChartType.Line`) bij het aanroepen van `addChart`.
 
-**Q: Kan ik diagramkleuren aanpassen?**  
-A: Ja, wijzig het vulformaat van de reeks of het palet van het diagram via de `IChart`‑API.
+**V: Kan ik grafiekkleuren aanpassen?**  
+A: Ja, wijzig het vulformaat van de serie of het palet van de grafiek via de `IChart`‑API.
 
-**Q: Mijn presentatie slaat niet op — wat is er mis?**  
-A: Controleer of `YOUR_OUTPUT_DIRECTORY` correct, bestaand en beschrijfbaar is. Controleer ook op eventuele resterende bestandsvergrendelingen.
+**V: Mijn presentatie slaat niet op—wat is er mis?**  
+A: Controleer of het pad van de uitvoermap correct, bestaand en beschrijfbaar is. Zorg er ook voor dat geen ander proces een lock op het bestand heeft.
 
-**Q: Hoe kan ik zeer grote presentaties efficiënt verwerken?**  
-A: Verwerk slides in batches, maak elke `Presentation` na gebruik vrij, en overweeg het JVM‑heap‑geheugen te vergroten indien nodig.
+**V: Hoe kan ik zeer grote presentaties efficiënt verwerken?**  
+A: Verwerk dia's in batches, ruim elke `Presentation` na gebruik op, en overweeg de JVM‑heap‑grootte te verhogen indien nodig.
 
-**Q: Is Aspose.Slides gratis voor commerciële projecten?**  
+**V: Is Aspose.Slides gratis voor commerciële projecten?**  
 A: Een gratis proefversie is beschikbaar voor evaluatie, maar een aangekochte licentie is vereist voor commerciële inzet.
 
-## Resources
+## Bronnen
 - [Documentation](https://reference.aspose.com/slides/java/)
 - [Download Aspose.Slides](https://releases.aspose.com/slides/java/)
 - [Purchase License](https://purchase.aspose.com/buy)
@@ -177,20 +203,37 @@ A: Een gratis proefversie is beschikbaar voor evaluatie, maar een aangekochte li
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Support Forum](https://forum.aspose.com/c/slides/11)
 
-Begin vandaag nog met het maken van visueel verbluffende presentaties met Aspose.Slides for Java!
+Begin vandaag nog met het maken van visueel verbluffende presentaties met Aspose.Slides voor Java!
 
 ---
 
-**Last Updated:** 2026-01-17  
-**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Author:** Aspose  
+**Last Updated:** 2026-06-08  
+**Tested With:** Aspose.Slides voor Java 25.4 (JDK 16)  
+**Author:** Aspose
 
----
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-slides</artifactId>
+    <version>25.4</version>
+    <classifier>jdk16</classifier>
+</dependency>
+```
+
+```gradle
+implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
+```
+
+## Gerelateerde tutorials
+
+- [Hoe een gegroepeerde kolomgrafiek te maken in Java met Aspose.Slides](/slides/java/charts-graphs/aspose-slides-java-clustered-column-charts/)
+- [Hoe grafieken toe te voegen en te configureren in presentaties met Aspose.Slides voor Java](/slides/java/charts-graphs/add-charts-aspose-slides-java-guide/)
+- [Geanimeerde PowerPoint Java – PowerPoint‑grafieken animeren met Aspose.Slides](/slides/java/animations-transitions/animate-powerpoint-charts-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
