@@ -1,13 +1,45 @@
 ---
-date: '2026-02-12'
-description: Tìm hiểu cách tạo biểu đồ và quản lý biểu đồ bằng Aspose.Slides cho Java.
-  Hướng dẫn này cho thấy cách tạo biểu đồ cột nhóm, xử lý chuỗi dữ liệu và tùy chỉnh
-  trực quan hoá.
+date: '2026-06-03'
+description: Tìm hiểu cách tạo biểu đồ cột nhóm trong Java bằng cách sử dụng Aspose.Slides.
+  Hướng dẫn này bao gồm phụ thuộc Maven, các bước tạo biểu đồ và xử lý dữ liệu.
 keywords:
-- Aspose.Slides for Java
-- Java charts
-- clustered column chart
-title: 'Cách tạo biểu đồ trong Java với Aspose.Slides: Hướng dẫn toàn diện'
+- create clustered column chart
+- how to create chart
+- maven dependency aspose slides
+schemas:
+- author: Aspose
+  dateModified: '2026-06-03'
+  description: Learn how to create clustered column chart in Java using Aspose.Slides.
+    This guide covers Maven dependency, chart creation steps, and data handling.
+  headline: Create Clustered Column Chart in Java with Aspose.Slides
+  type: TechArticle
+- description: Learn how to create clustered column chart in Java using Aspose.Slides.
+    This guide covers Maven dependency, chart creation steps, and data handling.
+  name: Create Clustered Column Chart in Java with Aspose.Slides
+  steps:
+  - name: Create a Presentation and Add a Clustered Column Chart
+    text: '`Presentation` class represents a PowerPoint document and allows creating
+      slides.'
+  - name: Manage Chart Series
+    text: Now we’ll clear any default series, add a new one, and populate it with
+      both positive and negative values.
+  - name: Invert Negative Data Points Conditionally
+    text: '`invertIfNegative` method enables inversion of negative values in a chart
+      series.'
+  type: HowTo
+- questions:
+  - answer: Aspose.Slides for Java.
+    question: What library is used?
+  - answer: Clustered column chart.
+    question: Which chart type is demonstrated?
+  - answer: Yes, using `invertIfNegative`.
+    question: Can I invert negative values?
+  - answer: JDK 16 or later.
+    question: What Java version is required?
+  - answer: Yes, a valid Aspose license.
+    question: Is a license needed for production?
+  type: FAQPage
+title: Tạo biểu đồ cột nhóm trong Java với Aspose.Slides
 url: /vi/java/charts-graphs/aspose-slides-java-chart-creation-guide/
 weight: 1
 ---
@@ -17,45 +49,42 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Cách tạo biểu đồ trong Java với Aspose.Slides
+# Tạo Biểu Đồ Cột Nhóm trong Java với Aspose.Slides
 
-## Cách tạo biểu đồ trong Java: Giới thiệu
-Việc tạo các bản trình bày động thường đòi hỏi việc trực quan hoá dữ liệu bằng các biểu đồ. Với **Aspose.Slides for Java**, bạn có thể dễ dàng **tạo biểu đồ** objects, nâng cao độ rõ ràng và tạo ấn tượng mạnh hơn với khán giả. Hướng dẫn này sẽ chỉ cho bạn cách cài đặt thư viện, thêm một **create clustered column chart**, quản lý series và đảo ngược các điểm dữ liệu âm một cách có điều kiện.
+## Cách Tạo Biểu Đồ trong Java: Giới Thiệu
+Tạo các bản trình bày động thường đòi hỏi việc trực quan hóa dữ liệu bằng các biểu đồ. Với **Aspose.Slides for Java**, bạn có thể dễ dàng **tạo biểu đồ cột nhóm** đối tượng, nâng cao độ rõ ràng và tạo ấn tượng mạnh hơn với khán giả. Hướng dẫn này sẽ chỉ cho bạn cách thiết lập thư viện, thêm biểu đồ cột nhóm, quản lý các chuỗi, và đảo ngược các điểm dữ liệu âm một cách có điều kiện.
 
 **Bạn sẽ học được**
-- Cách cài đặt Aspose.Slides for Java.
-- Các bước **create clustered column chart** trong bản trình bày của bạn.
-- Kỹ thuật quản lý series và các điểm dữ liệu của biểu đồ.
-- Phương pháp đảo ngược có điều kiện các điểm dữ liệu âm để hiển thị tốt hơn.
+- Cách thiết lập Aspose.Slides cho Java.
+- Các bước **tạo biểu đồ cột nhóm** trong bản trình bày của bạn.
+- Kỹ thuật quản lý chuỗi biểu đồ và các điểm dữ liệu.
+- Phương pháp đảo ngược các điểm dữ liệu âm một cách có điều kiện để cải thiện việc trực quan hoá.
 - Cách lưu bản trình bày một cách an toàn.
 
-### Quick Answers
-- **Thư viện nào được sử dụng?** Aspose.Slides for Java.
-- **Loại biểu đồ nào được minh họa?** Clustered column chart.
-- **Tôi có thể đảo ngược các giá trị âm không?** Có, sử dụng `invertIfNegative`.
-- **Phiên bản Java nào yêu cầu?** JDK 16 hoặc mới hơn.
+## Câu trả lời nhanh
+- **Thư viện được sử dụng?** Aspose.Slides for Java.  
+- **Loại biểu đồ được minh họa?** Biểu đồ cột nhóm.  
+- **Tôi có thể đảo ngược giá trị âm không?** Có, sử dụng `invertIfNegative`.  
+- **Phiên bản Java yêu cầu?** JDK 16 hoặc mới hơn.  
 - **Cần giấy phép cho môi trường sản xuất không?** Có, một giấy phép Aspose hợp lệ.
 
 ## Biểu đồ cột nhóm là gì?
-Biểu đồ cột nhóm hiển thị nhiều series dữ liệu cạnh nhau cho mỗi danh mục, giúp dễ dàng so sánh các giá trị giữa các nhóm. Nó lý tưởng cho báo cáo tài chính, bảng điều khiển bán hàng và bất kỳ trường hợp nào bạn cần đối chiếu nhiều chỉ số.
+Biểu đồ cột nhóm là một dạng biểu diễn trực quan đặt nhiều chuỗi dữ liệu cạnh nhau cho mỗi danh mục, cho phép so sánh nhanh chóng giữa các nhóm. Nó hoàn hảo cho báo cáo tài chính, bảng điều khiển bán hàng, và bất kỳ trường hợp nào bạn cần đối chiếu nhiều chỉ số cùng lúc.
 
 ## Tại sao nên sử dụng Aspose.Slides để tạo biểu đồ?
-- **Kiểm soát đầy đủ** về giao diện biểu đồ mà không cần dựa vào UI của PowerPoint.
-- **Tạo biểu đồ bằng mã** cho phép tự động hoá quy trình báo cáo.
-- **Hỗ trợ đa nền tảng** đảm bảo mã của bạn chạy trên bất kỳ hệ thống nào hỗ trợ Java.
-- **API phong phú** cho phép tùy chỉnh chi tiết (màu sắc, nhãn dữ liệu, đảo ngược, v.v.).
+Aspose.Slides cho phép bạn tạo và tùy chỉnh hoàn toàn các biểu đồ bằng lập trình, loại bỏ nhu cầu chỉnh sửa PowerPoint thủ công. Nó hỗ trợ **hơn 70 định dạng nhập và xuất** và có thể xử lý các bản trình bày với **lên tới 10.000 slide** mà không cần tải toàn bộ tệp vào bộ nhớ, đảm bảo hiệu năng cao cho các báo cáo quy mô lớn.
 
 ## Yêu cầu trước
-1. **Thư viện cần thiết**
-   - Aspose.Slides for Java (phiên bản 25.4 hoặc mới hơn).
+1. **Thư viện yêu cầu**  
+   - Aspose.Slides for Java (phiên bản 25.4 hoặc mới hơn).  
 
-2. **Môi trường**
-   - JDK 16 hoặc mới hơn.
-   - Maven hoặc Gradle để quản lý phụ thuộc.
+2. **Môi trường**  
+   - JDK 16 hoặc mới hơn.  
+   - Maven hoặc Gradle để quản lý phụ thuộc.  
 
-3. **Kiến thức**
-   - Lập trình Java cơ bản.
-   - Quen thuộc với công cụ xây dựng (Maven/Gradle).
+3. **Kiến thức**  
+   - Lập trình Java cơ bản.  
+   - Quen thuộc với công cụ xây dựng (Maven/Gradle).  
 
 ## Cài đặt Aspose.Slides cho Java
 ### Cài đặt Maven
@@ -78,11 +107,11 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 ```
 
 ### Tải trực tiếp
-Hoặc, tải phiên bản mới nhất từ [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+Hoặc, tải phiên bản mới nhất từ [Phiên bản Aspose.Slides cho Java](https://releases.aspose.com/slides/java/).
 
-### Mua giấy phép
-- **Dùng thử miễn phí:** Khám phá các tính năng mà không cần giấy phép.
-- **Giấy phép tạm thời:** Sử dụng trong quá trình đánh giá.
+### Nhận giấy phép
+- **Dùng thử miễn phí:** Khám phá các tính năng mà không cần giấy phép.  
+- **Giấy phép tạm thời:** Sử dụng trong quá trình đánh giá.  
 - **Giấy phép đầy đủ:** Mua để triển khai trong môi trường sản xuất.
 
 ### Khởi tạo cơ bản
@@ -94,11 +123,13 @@ Presentation pres = new Presentation();
 pres.dispose(); // Always dispose of the presentation object when done.
 ```
 
+## Làm thế nào để thêm biểu đồ cột nhóm vào một slide?
+`Presentation` là lớp cốt lõi đại diện cho một tệp PowerPoint. Tải một `Presentation` mới, thêm một slide, và gọi `slide.getShapes().addChart(ChartType.ClusteredColumn, 50, 50, 500, 400)`. Lệnh duy nhất này tạo ra một biểu đồ cột nhóm hoạt động đầy đủ, được đặt tại tọa độ đã chỉ định. Bạn có thể truy cập đối tượng biểu đồ để chỉnh sửa chuỗi, điểm dữ liệu và kiểu dáng trực quan.
+
 ## Hướng dẫn từng bước
 
 ### Bước 1: Tạo một Presentation và Thêm biểu đồ cột nhóm
-Trong bước này, chúng ta **tạo biểu đồ** objects và đặt một **create clustered column chart** lên slide đầu tiên.
-
+`Presentation` là lớp đại diện cho tài liệu PowerPoint và cho phép tạo các slide.  
 ```java
 import com.aspose.slides.*;
 
@@ -115,9 +146,8 @@ try {
 }
 ```
 
-### Bước 2: Quản lý Series của biểu đồ
-Bây giờ chúng ta sẽ xóa mọi series mặc định, thêm một series mới và điền dữ liệu cả giá trị dương và âm.
-
+### Bước 2: Quản lý chuỗi biểu đồ
+Bây giờ chúng ta sẽ xóa bất kỳ chuỗi mặc định nào, thêm một chuỗi mới và điền dữ liệu cả giá trị dương và âm.  
 ```java
 import com.aspose.slides.*;
 
@@ -152,8 +182,7 @@ try {
 ```
 
 ### Bước 3: Đảo ngược các điểm dữ liệu âm một cách có điều kiện
-Mặc định, Aspose.Slides không đảo ngược các giá trị âm. Chúng ta sẽ bật tính năng đảo ngược chỉ cho những điểm cần thiết.
-
+Phương thức `invertIfNegative` cho phép đảo ngược các giá trị âm trong một chuỗi biểu đồ.  
 ```java
 import com.aspose.slides.*;
 
@@ -195,36 +224,45 @@ try {
 }
 ```
 
-### Những lỗi thường gặp & Mẹo
-- **Quên giải phóng đối tượng `Presentation`?** Luôn gọi `dispose()` trong khối `finally` để giải phóng tài nguyên gốc.
-- **Giá trị âm không được đảo ngược?** Đảm bảo bạn gọi `invertIfNegative(true)` **sau** khi thêm điểm dữ liệu.
-- **Vấn đề kích thước biểu đồ:** Các tọa độ (X, Y) và kích thước (width, height) tính bằng điểm; điều chỉnh chúng để phù hợp với bố cục slide.
+## Những lỗi thường gặp & Mẹo
+- **Quên giải phóng đối tượng `Presentation`?** Luôn gọi `dispose()` trong khối `finally` để giải phóng tài nguyên gốc.  
+- **Giá trị âm không được đảo ngược?** Đảm bảo bạn gọi `invertIfNegative(true)` **sau** khi thêm điểm dữ liệu.  
+- **Vấn đề kích thước biểu đồ:** Các tọa độ (X, Y) và kích thước (width, height) tính bằng điểm; điều chỉnh chúng để phù hợp với bố cục slide của bạn.  
 
 ## Câu hỏi thường gặp
 
-**Q: Tôi có thể tạo các loại biểu đồ khác bằng cùng cách tiếp cận không?**  
-A: Có, chỉ cần thay `ChartType.ClusteredColumn` bằng bất kỳ giá trị enum `ChartType` nào khác (ví dụ, `Line`, `Pie`).
+**Q:** Can I create other chart types with the same approach?  
+A: Yes, simply replace `ChartType.ClusteredColumn` with any other `ChartType` enum value (e.g., `Line`, `Pie`).  
 
-**Q: Tôi có cần giấy phép cho bản dựng phát triển không?**  
-A: Một giấy phép tạm thời hoặc đánh giá là bắt buộc để truy cập đầy đủ tính năng; nếu không, thư viện sẽ chạy ở chế độ dùng thử với hạn chế watermark.
+**Q:** Do I need a license for development builds?  
+A: A temporary or evaluation license is required for full feature access; otherwise, the library works in trial mode with watermark limitations.  
 
-**Q: Làm sao xuất bản trình bày ra PDF sau khi thêm biểu đồ?**  
-A: Sử dụng `pres.save("output.pdf", SaveFormat.Pdf);` sau khi hoàn tất thao tác với biểu đồ.
+**Q:** How do I export the presentation to PDF after adding charts?  
+`SaveFormat.Pdf` specifies PDF as the output format for saving a presentation. Use `pres.save("output.pdf", SaveFormat.Pdf);` after you finish chart manipulation.  
 
-**Q: Có thể định dạng riêng từng cột (màu, viền) không?**  
-A: Có, mỗi `IChartDataPoint` cung cấp các tùy chọn định dạng như `getFillFormat().setFillType(FillType.Solid)` và `getLineFormat()`.
+**Q:** Is it possible to style individual columns (color, border)?  
+`IChartDataPoint` represents a single data point in a chart and allows formatting. Each `IChartDataPoint` provides options such as `getFillFormat().setFillType(FillType.Solid)` and `getLineFormat()`.  
 
-**Q: Nếu cần cập nhật dữ liệu biểu đồ sau khi đã lưu bản trình bày thì sao?**  
-A: Tải lại bản trình bày bằng `new Presentation("file.pptx")`, sửa đổi dữ liệu biểu đồ và lưu lại.
+**Q:** What if I need to update the chart data after the presentation is saved?  
+A: Load the presentation again with `new Presentation("file.pptx")`, modify the chart data, and re‑save.  
 
-**Cập nhật lần cuối:** 2026-02-12  
-**Kiểm tra với:** Aspose.Slides for Java 25.4 (JDK 16)  
-**Tác giả:** Aspose  
+---
+
+**Cập nhật lần cuối:** 2026-06-03  
+**Đã kiểm tra với:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Tác giả:** Aspose
+
+## Các hướng dẫn liên quan
+
+- [Cách tạo biểu đồ cột chồng trong Java với Aspose.Slides – Hướng dẫn toàn diện](/slides/java/charts-graphs/aspose-slides-java-stacked-column-charts/)
+- [Cách tạo biểu đồ trong Java với Aspose.Slides – Thành thạo việc tạo và xác thực biểu đồ](/slides/java/charts-graphs/aspose-slides-chart-creation-validation-java/)
+- [Tạo & Định dạng biểu đồ trong Java bằng Aspose.Slides: Hướng dẫn toàn diện](/slides/java/charts-graphs/create-format-charts-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

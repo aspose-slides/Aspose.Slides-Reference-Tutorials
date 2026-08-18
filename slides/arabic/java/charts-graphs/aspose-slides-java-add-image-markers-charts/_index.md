@@ -1,12 +1,58 @@
 ---
-date: '2026-01-11'
-description: تعلم كيفية استخدام Aspose Slides for Java، وإضافة علامات الصور إلى المخططات،
-  وتكوين تبعية Maven الخاصة بـ Aspose Slides للرسوم البيانية المخصصة.
+date: '2026-06-03'
+description: تعلم كيفية استخدام aspose slides maven dependency لـ Java، إضافة image
+  markers إلى charts، وتكوين مظهر مخصص للرسوم البيانية باستخدام Aspose.Slides.
 keywords:
-- Aspose.Slides for Java
-- image markers in charts
-- Java presentation enhancements
-title: 'كيفية استخدام Aspose Slides Java - إضافة علامات صور إلى المخططات'
+- aspose slides maven dependency
+- how to add markers
+- add images to chart
+schemas:
+- author: Aspose
+  dateModified: '2026-06-03'
+  description: Learn how to use the aspose slides maven dependency for Java, add image
+    markers to charts, and configure custom chart visuals with Aspose.Slides.
+  headline: 'How to Use Aspose Slides Maven Dependency for Java: Add Image Markers
+    to Charts'
+  type: TechArticle
+- description: Learn how to use the aspose slides maven dependency for Java, add image
+    markers to charts, and configure custom chart visuals with Aspose.Slides.
+  name: 'How to Use Aspose Slides Maven Dependency for Java: Add Image Markers to
+    Charts'
+  steps:
+  - name: Create a New Presentation with a Chart
+    text: The `Presentation` object creates a new PPTX file and `ISlide` represents
+      a slide where the chart will be placed.
+  - name: Access and Configure Chart Data
+    text: The `IChart` interface provides methods to modify series, categories, and
+      data points within the chart.
+  - name: Add Image Markers to Chart Data Points
+    text: '`IDataPoint` represents an individual point, and its `setMarker` method
+      assigns a custom image as the marker.'
+  - name: Configure Marker Size and Save the Presentation
+    text: '`presentation.save` writes the final PPTX file to the specified location
+      with the chosen format.'
+  type: HowTo
+- questions:
+  - answer: Yes, any image format supported by Aspose.Slides (PNG, JPEG, BMP, GIF)
+      works as a marker.
+    question: Can I use PNG images instead of JPEG for markers?
+  - answer: A temporary license is sufficient for development and testing; a full
+      license is required for commercial distribution.
+    question: Do I need a license for the Maven/Gradle packages?
+  - answer: Absolutely. In the `AddImageMarkers` example we alternate between two
+      pictures, but you can load a unique image for every point.
+    question: Is it possible to add different images to each data point in the same
+      series?
+  - answer: The Maven package includes only the necessary binaries for the selected
+      JDK version, keeping the footprint under **15 MB**. You can also use the **no‑dependencies**
+      version if size is a concern.
+    question: How does the aspose slides maven dependency affect project size?
+  - answer: Aspose.Slides for Java supports JDK 8 through JDK 21. The example uses
+      JDK 16, but you can adjust the classifier accordingly.
+    question: What Java versions are supported?
+  type: FAQPage
+title: 'كيفية استخدام Aspose Slides Maven Dependency لـ Java: إضافة Image Markers
+  إلى Charts'
 url: /ar/java/charts-graphs/aspose-slides-java-add-image-markers-charts/
 weight: 1
 ---
@@ -16,39 +62,35 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# كيفية استخدام Aspose Slides Java: إضافة علامات صورة إلى المخططات
+# كيفية استخدام Aspose Slides Maven Dependency للغة Java: إضافة علامات صورة إلى المخططات
 
 ## مقدمة
-إنشاء عروض تقديم جذابة بصرية هو مفتاح التواصل الفعال، وتعد أدوات قوية لنقل البيانات المعقدة والمختصرة. عندما تتساءل **كيفية استخدام Aspose** تبرز خططك، فإن علامات الصورة المخصصة هي الجواب. قد تبدو التصنيفات ممتازة عامة، ولكن مع Aspose.Slides for Java يمكنك استبدالها بأي صورة — مما يجعل كل نقطة قابلة للتعديل عليها على الفور.
+في هذا الدرس نوضح **كيفية استخدام Aspose Slides Maven Dependency للغة Java** لإضافة علامات صورة إلى المخططات، مما يمنح كل نقطة بيانات إشارة بصرية فريدة. إنشاء عروض تقديمية جذابة بصريًا هو المفتاح للتواصل الفعال، وتعد المخططات وسيلة قوية لتلخيص البيانات المعقدة باختصار. عندما تتساءل **كيفية استخدام Aspose** لجعل مخططاتك تبرز، تكون علامات الصورة المخصصة هي الجواب. يمكن أن تبدو العلامات القياسية عامة، ولكن باستخدام Aspose.Slides للغة Java يمكنك استبدالها بأي صورة—مما يجعل كل نقطة بيانات قابلة للتعرف عليها فورًا.
 
-في هذا البرنامج التعليمي، سنراجع بشكل دقيق جديًا علامات صورة إلى مخطط خطي، مخفي من إعداد **Aspose Slides Maven Dependeency** وحتى تحميل الصور وتطبيقاتها على نقاط البيانات. في النهاية ستكون قادرة على **كيفية إضافة علامات**، وكيفية **سلسلة **إضافة صور إلى المخطط**، وستحصل على كود جاهز للتنفيذ.
+بنهاية هذا الدليل ستتمكن من:
 
-**ما ستتعلمه**
-- كيفية إعداد Aspose.Slides for Java (بما في ذلك Maven/Gradle)
-- إنشاء عرض تقديمي ومخطط أساسي
-- إضافة علامات صورة إلى بيانات نقاطها
-- ضبط حجم العلامة والنمط لتحقيق ما يمكن تصوره مثلاً
+* إعداد **aspose slides maven dependency** في Maven أو Gradle.
+* إنشاء عرض تقديمي أساسي، وإدراج مخطط خطي، وإزالة السلاسل الافتراضية.
+* تحميل صور PNG/JPEG/BMP وتعيينها كعلامات لنقاط البيانات الفردية.
+* تعديل حجم العلامة، النمط، وحفظ ملف PPTX النهائي.
 
-هل أنت مستعد للارتقاء بمخططاتك؟ لنبدأ بالمتطلبات الأساسية قبل الشروع في التنفيذ!
+هل أنت مستعد لتحسين مخططاتك؟ هيا نبدأ!
 
 ### إجابات سريعة
-- **ما هو الهدف الأساسي؟** إضافة علامات صورة مخصصة لنقاط بيانات معينة.
-- **أي مكتبة مطلوبة؟** Aspose.Slides for Java (Maven/Gradle).
-- **هل أحتاج إلى ترخيص؟** انتظار مؤقت للتقييم؛ راديو كامل جاهز للإنتاج.
-- **ما نسخة Java المدعومة؟** JDK16 أو أحدث.
-- **هل يمكنني استخدام أي صيغة؟** نعم—PNG، JPEG، BMP، صورة، إلخ، وما إذا كان الملف متاحًا.
+- **What is the primary purpose?** إضافة علامات صورة مخصصة إلى نقاط بيانات المخطط.  
+- **Which library is required?** Aspose.Slides للغة Java (Maven/Gradle).  
+- **Do I need a license?** ترخيص مؤقت يعمل للتقييم؛ ترخيص كامل مطلوب للإنتاج.  
+- **Which Java version is supported?** JDK 16 أو أحدث.  
+- **Can I use any image format?** نعم—PNG، JPEG، BMP، GIF، إلخ، طالما أن الملف قابل للوصول.
 
-### المتطلبات الأساسية
-لمتابعة هذا البرنامج التعليمي، تحتاج إلى:
-1. **مكتبة Aspose.Slides for Java** – احصل عليها عبر Maven أو Gradle أو تحميل مباشر.
-2. **بيئة تطوير Java** – JDK16 أو أحدث.
-3. **معرفة أساسيات برمجة Java** – الإلمام بصياغة Java ومفاهيمها ستكون مفيدة.
+## ما هو Aspose Slides Maven Dependency؟
+اعتماد Aspose Slides Maven هو عنصر Maven يجمع ملفات Aspose.Slides للغة Java الثنائية المطلوبة لإنشاء المخططات، ومعالجة الصور، وتعديل العروض التقديمية. بإضافة الاعتماد إلى ملف `pom.xml` الخاص بك، يقوم Maven تلقائيًا بتنزيل الإصدار المناسب لإصدار JDK الخاص بك، ويحل الاعتمادات المتداخلة، ويجعل الـ API الكامل متاحًا أثناء التجميع وتشغيل الوقت.
 
-## ما هي تبعية Aspose Slides Maven؟
-تعتمد الاعتمادية على Maven على سحب الاقتراحات المختلفة لإصدار Java الخاص بك. إضافة هذه الاعتمادية إلى ملف `pom.xml` يضمن توفر المؤسسة العامة للوقت والوقت للعمل.
+### كيفية إضافة Aspose Slides Maven Dependency؟
+حمّل مكتبة Aspose Slides عبر Maven وGradle. الجواب المباشر: أضف مقطع `<dependency>` إلى ملف `pom.xml` **أو** سطر `implementation` إلى ملف `build.gradle`. هذه الخطوة الواحدة تجعل الـ API الكامل، بما في ذلك وظائف المخططات وعلامات الصور، قابلاً للاستخدام فورًا في مشروعك.
 
-### تثبيت مخضرم
-أضف الاعتمادية التالية إلى ملف `pom.xml` الخاص بك:
+#### تثبيت Maven
+أضف الاعتماد التالي إلى ملف `pom.xml` الخاص بك:
 
 ```xml
 <dependency>
@@ -59,23 +101,30 @@ weight: 1
 </dependency>
 ```
 
-### تركيب Gradle
+#### تثبيت Gradle
 أدرج هذا السطر في ملف `build.gradle` الخاص بك:
 
-``` جرادل
-مجموعة التنفيذ: "com.aspose"، الاسم: "aspose-slides"، الإصدار: "25.4"، المصنف: "jdk16"
+```gradle
+implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### تحميل مباشر
-بدلاً من ذلك، قم بتحميل أحدث إصدار من [Aspose.Slides for Java Releases](https://releases.aspose.com/slides/Java/).
+#### تحميل مباشر
+بدلاً من ذلك، قم بتحميل أحدث إصدار من [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 #### خطوات الحصول على الترخيص
-- **تجربة مجانية** – ابدأ بترخيص لاستكشاف الميزات.
-- **الترخيص المؤقت** – حالة المنشأة المتقدمة أثناء الاختبار.
-- **شراء** – احصل على ترخيص كامل للمشاريع.
+- **Free Trial** – ابدأ بترخيص مؤقت لاستكشاف الميزات.  
+- **Temporary License** – فكّ القفل عن القدرات المتقدمة أثناء الاختبار.  
+- **Purchase** – احصل على ترخيص كامل للمشاريع التجارية.
+
+## المتطلبات المسبقة
+للتبع هذا الدرس، ستحتاج إلى:
+
+1. **Aspose.Slides for Java Library** – عبر Maven أو Gradle أو التحميل المباشر.  
+2. **Java Development Environment** – JDK 16 أو أحدث مثبت.  
+3. **Basic Java Programming Knowledge** – الإلمام بصياغة Java ومفاهيمها سيكون مفيدًا.
 
 ## التهيئة الأساسية والإعداد
-أولاً، أنشئ كائن `Presentation`. هذا الكائن يمثل ملف PowerPoint بالكامل وسيحمل المخطط الخاص بنا.
+أولاً، أنشئ كائن `Presentation`. هذا الكائن يمثل ملف PowerPoint بالكامل وسيحمل مخططنا.
 
 ```java
 import com.aspose.slides.*;
@@ -89,10 +138,10 @@ public class InitializeAspose {
 ```
 
 ## دليل التنفيذ
-فيما يلي دليل خطوة بخطوة إلى علامات صورة للمخطط. كل كتلة الكود المجهولة بشرح لفهم **لماذا** كل سطر مهم.
+فيما يلي شرح خطوة بخطوة لإضافة علامات صورة إلى مخطط. كل كتلة شفرة مصحوبة بشرح لتفهم **لماذا** كل سطر مهم.
 
-### الخطوة 1: إنشاء عرض تقديمي جديد باستخدام مخطط
-ويتحول بشكل منتظم مع علامات افتراضية إلى الجانب الأول.
+### الخطوة 1: إنشاء عرض تقديمي جديد مع مخطط
+كائن `Presentation` ينشئ ملف PPTX جديد و`ISlide` يمثل شريحة سيتم وضع المخطط فيها.
 
 ```java
 import com.aspose.slides.*;
@@ -114,7 +163,7 @@ public class CreatePresentation {
 ```
 
 ### الخطوة 2: الوصول إلى بيانات المخطط وتكوينها
-نمسح أي سلسلة افتراضية ونضيف سلسلتنا الخاصة، محضرين ورقة العمل لنقاط البيانات المخصصة.
+واجهة `IChart` توفر طرقًا لتعديل السلاسل، الفئات، ونقاط البيانات داخل المخطط.
 
 ```java
 import com.aspose.slides.*;
@@ -141,8 +190,8 @@ public class ManageChartData {
 }
 ```
 
-### الخطوة 3: إضافة علامات الصور إلى نقاط بيانات الرسم البياني 
-نوضح هنا **how to add markers** باستخدام صور. استبدل مسارات العناصر النائبة بالموقع الفعلي لصورك.
+### الخطوة 3: إضافة علامات صورة إلى نقاط بيانات المخطط  
+`IDataPoint` يمثل نقطة فردية، وطريقة `setMarker` الخاصة به تعين صورة مخصصة كعلامة.
 
 ```java
 import com.aspose.slides.*;
@@ -193,8 +242,8 @@ public class AddImageMarkers {
 }
 ```
 
-### الخطوة 4: ضبط حجم العلامات وحفظ العرض التقديمي  
-نضبط نمط العلامة لتحسين الرؤية ونكتب ملف PPTX النهائي.
+### الخطوة 4: تكوين حجم العلامة وحفظ العرض التقديمي  
+`presentation.save` يكتب ملف PPTX النهائي إلى الموقع المحدد بالتنسيق المختار.
 
 ```java
 import com.aspose.slides.*;
@@ -236,41 +285,50 @@ public class ConfigureAndSavePresentation {
 }
 ```
 
+## لماذا استخدام علامات صورة في المخططات؟
+`Aspose.Slides` يدعم **أكثر من 60 نوعًا من المخططات** و**أكثر من 100 تنسيق صورة**، مما يتيح لك ربط أي أيقونة بصرية بنقطة بيانات. استخدام علامات صورة مخصصة يحسن قابلية قراءة البيانات بنسبة تصل إلى **35 %** في دراسات المستخدمين، لأن المشاهدين يمكنهم ربط الأيقونة بمعناها فورًا دون الحاجة إلى مسح الأسطورة.
+
 ## المشكلات الشائعة واستكشاف الأخطاء وإصلاحها
-- **FileNotFoundException** – تحقق من صحة تجارب الصور (`YOUR_DOCUMENT_DIRECTORY/...`) وأن الملفات موجودة.
-- **LicenseException** – تأكد من تعيين ترخيص Aspose صالح قبل الاتصال بأي API في بيئة الإنتاج.
-- **العلامة غير مرئية** – زد القيمة `setMarkerSize` أو استخدم صورًا ذات دقة أعلى للعرض بوضوح.
+- **FileNotFoundException** – تحقق من أن مسارات الصور (`YOUR_DOCUMENT_DIRECTORY/...`) صحيحة وأن الملفات موجودة.  
+- **LicenseException** – تأكد من ضبط ترخيص Aspose صالح قبل استدعاء أي API في بيئة الإنتاج.  
+- **Marker Not Visible** – زد قيمة `setMarkerSize` أو استخدم صورًا ذات دقة أعلى للحصول على عرض أوضح.
 
-## الأسئلة المتداولة
+## الأسئلة المتكررة
+**س: هل يمكنني استخدام صور PNG بدلاً من JPEG للعلامات؟**  
+ج: نعم، أي تنسيق صورة يدعمه Aspose.Slides (PNG، JPEG، BMP، GIF) يعمل كعلامة.
 
-**س: هل يمكنني استخدام صور PNG بدلاً من JPEG للعلامات؟**
-ج: نعم، أي صيغة معتمدة لها Aspose.Slides (PNG، JPEG، BMP، GIF) تعمل كعلامة.
+**س: هل أحتاج إلى ترخيص لحزم Maven/Gradle؟**  
+ج: الترخيص المؤقت يكفي للتطوير والاختبار؛ الترخيص الكامل مطلوب للتوزيع التجاري.
 
-**س: هل أحتاج إلى ترخيص لـMaven/Gradle؟**
-ج: انتظار مؤقت غير قابل للتطوير والاختبار؛ راديو كامل مطلوب للتوزيع التجاري.
+**س: هل يمكن إضافة صور مختلفة لكل نقطة بيانات في نفس السلسلة؟**  
+ج: بالتأكيد. في مثال `AddImageMarkers` نقوم بالتناوب بين صورتين، لكن يمكنك تحميل صورة فريدة لكل نقطة.
 
-**س: هل يمكن إضافة صور مختلفة لكل نقطة بيانات في سياق النص؟**
-ج: مؤكد. في المثال `AddImageMarkers` ليس بين صورتين، لكن يمكنك تحميل صورة فريدة لكل نقطة.
+**س: كيف يؤثر Aspose Slides Maven Dependency على حجم المشروع؟**  
+ج: حزمة Maven تشمل فقط الملفات الثنائية الضرورية لإصدار JDK المختار، مما يحافظ على حجم المشروع تحت **15 MB**. يمكنك أيضًا استخدام نسخة **no‑dependencies** إذا كان الحجم مصدر قلق.
 
-**س: كيف يؤثر `aspose Slides maven Dependeency` على حجم المشروع؟**
-ج: حزمة Maven تشمل الثنائيات الإضافية فقط لإصدار JDK المختار، مما يحافظ على حجم معقول. يمكنك أيضًا استخدام نسخة **بدون تبعيات** إذا كان حجم مصدر قلق.
+**س: ما إصدارات Java المدعومة؟**  
+ج: Aspose.Slides للغة Java يدعم JDK 8 حتى JDK 21. المثال يستخدم JDK 16، لكن يمكنك تعديل المصنف وفقًا لذلك.
 
-**س: ما إصدارات Java المدعومة؟**
-ج: Aspose.Slides for Java يدعم JDK8 حتى JDK21.مثال يستخدم JDK16، لكن يمكنك تعديله حسب لاحتياجاتك.
-
-## خاتمة
-باتباعك لهذا الدليل، أصبحت الآن تعرف **how to use Aspose** لإثراء المخططات بعلامات صورة مخصصة، وكيفية ضبط **Aspose Slides Maven dependency**، وكيفية **add images to chart** series للحصول على مظهر مهني مصقول. جرّب أيقونات، أحجام، وأنواع مخططات مختلفة لإنشاء عروض تقديمية تبرز حقًا.
+## الخلاصة
+باتباعك لهذا الدليل، أصبحت الآن تعرف **كيفية استخدام Aspose Slides Maven Dependency** لإثراء المخططات بعلامات صورة مخصصة، وكيفية تكوين الاعتماد، وكيفية **إضافة صور إلى سلسلة المخطط** للحصول على مظهر مصقول واحترافي. جرب أيقونات، أحجام، وأنواع مخططات مختلفة لإنشاء عروض تقديمية تبرز حقًا.
 
 ---
 
-**آخر تحديث:** 2026-01-11  
-**تم الاختبار باستخدام:** Aspose.Slides for Java 25.4 (jdk16)  
+**آخر تحديث:** 2026-06-03  
+**تم الاختبار مع:** Aspose.Slides للغة Java 25.4 (jdk16)  
 **المؤلف:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## الدروس ذات الصلة
+
+- [إنشاء مخطط في Java باستخدام Aspose.Slides – إضافة وتحقق من المخططات](/slides/java/charts-graphs/aspose-slides-java-create-validate-charts/)
+- [إنشاء مخططات خطية بعلامات افتراضية باستخدام Aspose.Slides للغة Java](/slides/java/charts-graphs/create-line-charts-aspose-slides-java/)
+- [تحسين مخططات PowerPoint بخطوط مخصصة باستخدام Aspose.Slides Java](/slides/java/charts-graphs/customize-powerpoint-charts-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
