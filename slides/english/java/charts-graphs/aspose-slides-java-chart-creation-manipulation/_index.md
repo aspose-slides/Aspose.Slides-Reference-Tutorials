@@ -38,7 +38,7 @@ schemas:
   - name: Save Your Presentation
     text: '`save(String path, SaveFormat format)` writes the presentation to the specified
       file in the given format. Finally, **how to save pptx** files with a single
-      call: - `"YOUR_OUTPUT_DIRECTORY/ErrorBars_out.pptx"`: Destination path and filename.
+      call: '- `"YOUR_OUTPUT_DIRECTORY/ErrorBars_out.pptx"`: Destination path and filename.'
       - `SaveFormat.Pptx`: Ensures the file is saved in the moder'
 - type: FAQPage
   questions:
@@ -81,7 +81,7 @@ In this tutorial you'll learn how to **java create area chart** in Java presenta
 
 **Direct answer:** In Aspose.Slides, “how to create chart” means calling the API that inserts a fully configured chart object onto a slide, letting you specify type, data, and styling in a few lines of Java code. This single call abstracts all low‑level drawing operations, so you can focus on the data you want to visualize.
 
-## Why Use Aspose.Slides for Java Charts?
+## Why use Aspose.Slides for java charts?
 
 **Direct answer:** Choose Aspose.Slides because it delivers **50+ chart types**, supports **over 30 data‑binding options**, and can generate **multi‑hundred‑page PPTX files** without needing Microsoft PowerPoint installed, all while offering fine‑grained programmatic control. It also provides extensive formatting options, allowing you to customize colors, fonts, and markers, and includes APIs for exporting to PDF, SVG, and image formats.
 
@@ -89,13 +89,13 @@ In this tutorial you'll learn how to **java create area chart** in Java presenta
 
 Before diving into the specifics of chart creation with Aspose.Slides Java, ensure you have the following prerequisites covered:
 
-### Required Libraries, Versions, and Dependencies
+### Required libraries, versions, and dependencies
 
 To follow this tutorial, you need:
 - **Aspose.Slides for Java**: Version **25.4** or later (the library supports **50+ chart types** and **30+ output formats**).  
 - Java Development Kit (JDK) **16** or higher.
 
-### Environment Setup Requirements
+### Environment setup requirements
 
 Make sure your development environment includes:
 - A compatible IDE such as **IntelliJ IDEA** or **Eclipse**.  
@@ -107,7 +107,7 @@ A basic understanding of:
 - Core Java programming concepts.  
 - Adding external libraries to a Maven/Gradle project.
 
-## Setting Up Aspose.Slides for Java
+## Setting up Aspose.Slides for java
 
 Integrating Aspose.Slides into your Java project is straightforward. Choose the package manager that fits your workflow.
 
@@ -136,13 +136,13 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 
 For those preferring direct downloads, visit the [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) page.
 
-#### License Acquisition Steps
+#### License acquisition steps
 
 - **Free Trial**: Test Aspose.Slides with a temporary license to evaluate its features.  
 - **Temporary License**: Request a free temporary license for extended evaluation.  
 - **Purchase**: Buy a subscription for production use and unlock all advanced capabilities.
 
-#### Basic Initialization and Setup
+#### Basic initialization and setup
 
 `Presentation` is Aspose.Slides' core class representing an entire PowerPoint file in memory. Begin by creating a `Presentation` object, which serves as the container for all slide‑related actions:
 
@@ -266,7 +266,7 @@ When processing large datasets or embedding many charts:
 
 These practices help maintain sub‑second chart generation even for files exceeding **200 pages**.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Reason | Solution |
 |-------|--------|----------|
@@ -288,7 +288,7 @@ Yes. Use server‑side Java to generate PPTX files on demand and stream them to 
 **4. How do I customize chart styles using Aspose.Slides?**  
 You can modify colors, fonts, line styles, and marker shapes directly through the `IChart` object's `ChartData` and `ChartFormat` properties.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I create other chart types besides Area charts?**  
 A: Absolutely. Aspose.Slides supports **50+ chart types**, including Column, Bar, Line, Pie, Radar, and Waterfall.

@@ -94,7 +94,7 @@ Aspose.Slides for Java lets you generate or edit PPTX files that are fully compa
 - Maven, Gradle, or a manual JAR download.  
 - Basic Java knowledge and familiarity with the PPTX file structure.  
 
-## Setting Up Aspose.Slides for Java
+## Setting up Aspose.Slides for java
 ### Maven Installation
 Add the following dependency to your `pom.xml`:
 
@@ -118,12 +118,12 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 Alternatively, grab the latest JAR from the official release page: [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 **License Acquisition**  
-Start with a free trial by downloading a temporary license from [here](https://purchase.aspose.com/temporary-license/). For production use, purchase a full license to unlock all features and remove evaluation watermarks.
+Start with a free trial by downloading a temporary license from the [Aspose temporary license page](https://purchase.aspose.com/temporary-license/). For production use, purchase a full license to unlock all features and remove evaluation watermarks.
 
-## Step‑by‑Step Implementation Guide
+## Step‑by‑Step implementation guide
 Below each step you’ll find a concise code snippet (unchanged from the original tutorial) followed by an explanation of what it does.
 
-### Step 1: Create an Empty Presentation
+### Step 1: create an empty presentation
 `Presentation` is the entry point class that represents a PowerPoint file in memory.  
 ```java
 import com.aspose.slides.*;
@@ -181,7 +181,7 @@ presentation.save("YOUR_OUTPUT_DIRECTORY/Categories_Added.pptx", SaveFormat.Pptx
 ```  
 *Categories act as the X‑axis labels, giving meaning to each column.*
 
-### Step 5: Populate Series Data
+### Step 5: populate series data
 `DataPoint` holds a numeric value for a series at a specific category.  
 ```java
 // Accessing a particular series for data population
@@ -197,7 +197,7 @@ presentation.save("YOUR_OUTPUT_DIRECTORY/Series_Data_Populated.pptx", SaveFormat
 ```  
 *Data points give each series its numeric values, which the chart will render as bar heights.*
 
-### Step 6: Set Gap Width for Chart Series Group
+### Step 6: set gap width for chart series group
 `SeriesGroup` controls layout properties for a group of series, such as gap width.  
 ```java
 // Setting the gap width between bars
@@ -208,7 +208,7 @@ presentation.save("YOUR_OUTPUT_DIRECTORY/Set_GapWidth.pptx", SaveFormat.Pptx);
 ```  
 *Adjusting the gap width improves readability, especially when many categories are present.*
 
-## Common Use Cases
+## Common use cases
 - **Financial reporting** – compare quarterly revenue across business units.  
 - **Project dashboards** – show task completion percentages per team.  
 - **Marketing analytics** – visualize campaign performance side‑by‑side.  
@@ -219,7 +219,7 @@ These scenarios benefit from the **stacked column chart example** because they h
 - **Limit the number of data points** to only those needed for the visual story; Aspose.Slides can handle 10,000 points, but rendering speed drops after ~5,000.  
 - **Dispose of objects** (`presentation.dispose()`) after saving to free resources and avoid memory leaks.  
 
-## Frequently Asked Questions
+## Frequently asked questions
 **Q: Can I add other chart types besides stacked column?**  
 A: Yes, Aspose.Slides supports line, pie, area, radar, bubble, and 50+ other chart types, all accessible through the same `addChart` method.
 

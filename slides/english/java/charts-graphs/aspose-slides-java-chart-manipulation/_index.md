@@ -72,7 +72,7 @@ A clustered column chart is perfect for comparing multiple data series side‑by
 - An IDE such as IntelliJ IDEA or Eclipse.  
 - Basic Java knowledge.
 
-## Setting Up Aspose.Slides for Java
+## Setting up Aspose.Slides for java
 ### Maven
 Add the dependency to your `pom.xml`:
 
@@ -97,7 +97,7 @@ Alternatively, download the latest release from [Aspose's official site](https:/
 #### License Acquisition
 Use a free trial or temporary license for testing. Purchase a full license for production deployments.
 
-## Basic Initialization and Setup
+## Basic initialization and setup
 The `Presentation` class is the entry point for creating and manipulating PowerPoint files. Start a new Java class and import the core class:
 
 ```java
@@ -107,7 +107,7 @@ import com.aspose.slides.Presentation;
 ## Implementation Guide
 We'll walk through each step with clear explanations.
 
-### Presentation Initialization and Slide Manipulation
+### Presentation initialization and slide manipulation
 #### Definition Anchor
 `Presentation` is Aspose.Slides' top‑level object that represents an entire PowerPoint file in memory.  
 
@@ -134,7 +134,7 @@ IChart chart = slide.getShapes().addChart(ChartType.ClusteredColumn, 20, 100, 60
 
 > **Pro tip:** Always wrap the presentation usage in a `try‑finally` block and call `presentation.dispose()` in the `finally` to free native resources.
 
-### Plot Area Configuration
+### Plot area configuration
 #### Overview
 Fine‑tune the chart’s plot area to control where the data visualizes within the slide.
 
@@ -165,7 +165,7 @@ presentation.save(YOUR_OUTPUT_DIRECTORY + "SetLayoutMode_outer.pptx", SaveFormat
 
 > **Warning:** Ensure the output directory exists and the application has write permissions; otherwise, the save operation will fail.
 
-## Common Use Cases
+## Common use cases
 - **Business Reports:** Embed sales trends and financial KPIs.  
 - **Educational Slides:** Visualize experiment results or statistical data.  
 - **Project Proposals:** Highlight milestones and resource allocation.  
@@ -177,7 +177,7 @@ presentation.save(YOUR_OUTPUT_DIRECTORY + "SetLayoutMode_outer.pptx", SaveFormat
 - For large data sets, populate chart series incrementally rather than loading everything at once.  
 - Use Java’s built‑in profiling tools to monitor heap usage during chart generation.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: How do I add other chart types?**  
 A: Use the `ChartType` enum (e.g., `ChartType.Pie`, `ChartType.Line`) when calling `addChart`.

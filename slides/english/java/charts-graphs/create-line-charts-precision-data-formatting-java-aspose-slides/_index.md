@@ -89,7 +89,7 @@ Aspose.Slides supports **30+ chart types** and can process presentations with **
 - **Java Development Kit (JDK)** – version 8 or later.  
 - **Basic Java knowledge** – you should be comfortable with classes, methods, and Maven/Gradle builds.
 
-## Setting Up Aspose.Slides for Java
+## Setting up Aspose.Slides for java
 
 ### Installation Guide
 
@@ -143,13 +143,13 @@ Load a new presentation, add a line chart, and apply a two‑decimal‑place num
 
 We’ll set up a simple line chart on the first slide of a new presentation. This involves defining the chart’s dimensions, adding a data series, and enabling a data table for label visibility.
 
-#### Step 1: Create a New Presentation
+#### Step 1: create a new presentation
 `Presentation` is Aspose.Slides' top‑level object that holds all slide content. Begin by instantiating it:
 ```java
 Presentation pres = new Presentation();
 ```
 
-#### Step 2: Add a Line Chart
+#### Step 2: add a line chart
 Insert the chart onto the first slide at the desired location:
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes()
@@ -160,27 +160,27 @@ IChart chart = pres.getSlides().get_Item(0).getShapes()
 - `(50, 50)` – X/Y coordinates on the slide.  
 - `(450, 300)` – width and height in points.
 
-#### Step 3: Enable Data Table
+#### Step 3: enable data table
 Activate the data table so labels appear directly beneath the chart:
 ```java
 chart.setDataTable(true);
 ```
 Enabling `setDataTable(true)` makes raw values visible, aiding quick data verification.
 
-#### Step 4: Set Number Format for Precision
+#### Step 4: set number format for precision
 Apply a two‑decimal‑place format to ensure every label reads `0.00`:
 ```java
 chart.getChartData().getSeries().get_Item(0).setNumberFormatOfValues("#,##0.00");
 ```
 This uniform formatting eliminates rounding inconsistencies and improves visual clarity.
 
-#### Step 5: Save the Presentation
+#### Step 5: save the presentation
 Write the presentation to disk:
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/PrecisionOfDatalabels_out.pptx", SaveFormat.Pptx);
 ```
 
-### Common Issues and Solutions
+### Common issues and solutions
 - **Write permissions** – verify the output folder is writable.  
 - **Missing data labels** – confirm `setDataTable(true)` is called before saving.  
 - **Performance with large datasets** – call `presentation.dispose()` after saving to free memory.
@@ -200,7 +200,7 @@ When handling large data sets or presentations with many slides:
 - Use concise number formats (e.g., “0.00”) to keep the file size small while preserving readability.  
 - Limit the number of series per chart to under 20 for optimal rendering speed on typical servers.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: How can I change the color of data labels in Aspose.Slides?**  
 A: Access each data point’s `getFormat().getFillFormat().setFillType(FillType.Solid)` and set the desired `SolidFillColor`.
@@ -220,7 +220,7 @@ A: Absolutely – the library processes typical 100‑row data sets in under 200
 For additional help, visit the [Aspose Community Forum](https://forum.aspose.com/c/slides/11).
 
 ## Conclusion
-You now have a complete **java line chart example** that formats chart data labels with precision, saves the result, and integrates seamlessly into any PowerPoint workflow. Explore the full [documentation](https://reference.aspose.com/slides/java/) and the [Aspose.Slides Java API Reference](https://reference.aspose.com/slides/java/) to experiment with other chart types, animations, and advanced styling options.
+You now have a complete **java line chart example** that formats chart data labels with precision, saves the result, and integrates seamlessly into any PowerPoint workflow. Explore the full [Aspose.Slides for Java documentation](https://reference.aspose.com/slides/java/) and the [Aspose.Slides Java API Reference](https://reference.aspose.com/slides/java/) to experiment with other chart types, animations, and advanced styling options.
 
 ### Next Steps
 - Automate chart generation across multiple data sources.  
