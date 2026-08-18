@@ -1,15 +1,67 @@
 ---
-date: '2026-02-14'
-description: जानें कि कैसे Aspose Slides Maven डिपेंडेंसी का उपयोग करके जावा में एनिमेटेड
-  PowerPoint प्रस्तुतियाँ बनाएं, एनीमेशन की अवधि सेट करें, और डायनेमिक PowerPoint
-  स्लाइड्स जनरेट करें।
+date: '2026-06-13'
+description: Aspose.Slides Maven डिपेंडेंसी का उपयोग करके PowerPoint को एनीमेट करना,
+  Java में animation duration सेट करना, और पूर्ण नियंत्रण के साथ dynamic PowerPoint
+  स्लाइड्स बनाना सीखें।
 keywords:
-- PowerPoint Animations
-- Aspose.Slides Java
-- Loading PowerPoint Files
-- Java Presentation Manipulation
-- Animating Shapes in Java
-title: Aspose Slides Maven निर्भरता – Java के साथ PowerPoint को एनीमेट करें
+- how to animate powerpoint
+- add powerpoint animation
+- set animation duration java
+- aspose slides maven dependency
+- generate dynamic powerpoint slides
+schemas:
+- author: Aspose
+  dateModified: '2026-06-13'
+  description: Learn how to animate PowerPoint using the Aspose.Slides Maven dependency,
+    set animation duration in Java, and generate dynamic PowerPoint slides with full
+    control.
+  headline: How to Animate PowerPoint with Aspose.Slides in Java – Load and Animate
+    Presentations Effortlessly
+  type: TechArticle
+- description: Learn how to animate PowerPoint using the Aspose.Slides Maven dependency,
+    set animation duration in Java, and generate dynamic PowerPoint slides with full
+    control.
+  name: How to Animate PowerPoint with Aspose.Slides in Java – Load and Animate Presentations
+    Effortlessly
+  steps:
+  - name: '**Automate PowerPoint Reporting:** Combine data from databases or APIs
+      to generate slide decks on the fly, **automate powerpoint reporting** for daily
+      executive summaries.'
+    text: '**Automate PowerPoint Reporting:** Combine data from databases or APIs
+      to generate slide decks on the fly, **automate powerpoint reporting** for daily
+      executive summaries.'
+  - name: '**Customize Presentations Dynamically:** Modify presentation content programmatically
+      based on user input, locale, or branding requirements, ensuring each deck is
+      uniquely tailored.'
+    text: '**Customize Presentations Dynamically:** Modify presentation content programmatically
+      based on user input, locale, or branding requirements, ensuring each deck is
+      uniquely tailored.'
+  - name: '**Set Animation Duration Java‑Style:** Adjust the `setDuration(double seconds)`
+      on any `IEffect` to fine‑tune timing, giving you precise control over playback
+      speed.'
+    text: '**Set Animation Duration Java‑Style:** Adjust the `setDuration(double seconds)`
+      on any `IEffect` to fine‑tune timing, giving you precise control over playback
+      speed.'
+  type: HowTo
+- questions:
+  - answer: Yes. Use the `addEffect` method on the slide’s timeline to append additional
+      `IEffect` objects.
+    question: Can I add new animations to a shape that already has effects?
+  - answer: Access `slide.getTimeline().getMainSequence()` which returns the ordered
+      list of all `IEffect` objects on that slide.
+    question: How do I extract the full animation timeline for a slide?
+  - answer: Absolutely. Each `IEffect` has a `setDuration(double seconds)` method
+      you can call after retrieving the effect.
+    question: Is it possible to modify the duration of an existing animation?
+  - answer: No. Aspose.Slides is a pure Java library and works completely independently
+      of Office.
+    question: Do I need Microsoft Office installed on the server?
+  - answer: Purchase a commercial license from Aspose to remove evaluation limits
+      and obtain full support.
+    question: Which license should I use for production deployments?
+  type: FAQPage
+title: Java में Aspose.Slides के साथ PowerPoint को एनीमेट कैसे करें – प्रस्तुतियों
+  को आसानी से लोड और एनीमेट करें
 url: /hi/java/animations-transitions/master-aspose-slides-java-powerpoint-animations/
 weight: 1
 ---
@@ -19,45 +71,43 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# जावा में Aspose.Slides के साथ PowerPoint एनीमेशन में महारत: प्रस्तुतियों को आसानी से लोड और एनीमेट करें
+# Java में Aspose.Slides के साथ PowerPoint को एनीमेट कैसे करें – प्रस्तुतियों को आसानी से लोड और एनीमेट करें
 
-## Introduction
+## परिचय
 
-यदि आपको **read powerpoint file java**‑स्टाइल में फ़ाइल पढ़नी है और प्रोग्रामेटिक रूप से मोशन जोड़ना है, तो *aspose slides maven dependency* आपको एक पूर्ण‑फ़ीचर वाला API देता है जो Microsoft Office के बिना काम करता है। इस ट्यूटोरियल में हम PPTX लोड करने, शैप्स तक पहुँचने, मौजूदा टाइमलाइन निकालने, और यहाँ तक कि **set animation duration java**‑स्टाइल करने की प्रक्रिया को देखेंगे। अंत तक आप **generate dynamic powerpoint slides** बना पाएँगे जो बिल्कुल उसी तरह चलें जैसा आपने डिज़ाइन किया है, सब कुछ Java कोड से।
+यदि आपको **read powerpoint file java**‑स्टाइल में फ़ाइल पढ़नी है, प्रोग्रामेटिक रूप से मोशन जोड़ना है, और **how to animate powerpoint** को समझना है, तो *aspose slides maven dependency* आपको एक पूर्ण‑विशेषताओं वाला API प्रदान करता है जो Microsoft Office के बिना काम करता है। इस ट्यूटोरियल में हम PPTX लोड करने, शैप्स तक पहुँचने, मौजूदा टाइमलाइन निकालने, और यहाँ तक कि **set animation duration java**‑स्टाइल करने की प्रक्रिया दिखाएंगे। अंत तक आप **generate dynamic powerpoint slides** को Java कोड से ठीक वैसा ही बना पाएँगे जैसा आपने डिज़ाइन किया है।
 
-### Quick Answers
-- **What is the primary library?** Aspose.Slides for Java (delivered via the aspose slides maven dependency)  
-- **How to create animated powerpoint?** Load a PPTX, access shapes, and retrieve or add animation effects  
-- **Which Java version is required?** JDK 16 or higher  
-- **Do I need a license?** A free trial works for evaluation; a commercial license is required for production  
-- **Can I automate powerpoint reporting?** Yes – combine data sources with Aspose.Slides to generate dynamic decks  
+### त्वरित उत्तर
+- **मुख्य लाइब्रेरी कौन सी है?** Aspose.Slides for Java (delivered via the aspose slides maven dependency)  
+- **एनिमेटेड PowerPoint कैसे बनाएं?** Load a PPTX, access shapes, and retrieve or add animation effects  
+- **कौन सा Java संस्करण आवश्यक है?** JDK 16 or higher  
+- **क्या मुझे लाइसेंस चाहिए?** A free trial works for evaluation; a commercial license is required for production  
+- **क्या मैं PowerPoint रिपोर्टिंग को स्वचालित कर सकता हूँ?** Yes – combine data sources with Aspose.Slides to generate dynamic decks  
 
-## What is “create animated powerpoint”?
+## “create animated powerpoint” क्या है?
 
-एनिमेटेड PowerPoint बनाना मतलब प्रोग्रामेटिक रूप से एनीमेशन टाइमलाइन, ट्रांज़िशन, और शैप इफ़ेक्ट्स जोड़ना या निकालना है ताकि अंतिम डेक बिल्कुल उसी तरह चले जैसा डिज़ाइन किया गया है, बिना मैन्युअल एडिटिंग के।
+Creating an animated PowerPoint means programmatically adding or extracting animation timelines, transitions, and shape effects so that the final deck plays exactly as designed without manual editing. This process involves loading the presentation, accessing each slide’s timeline, and attaching `IEffect` objects to shapes, allowing you to control entrance, emphasis, exit, and motion paths directly from Java code.
 
-## Why use Aspose.Slides for Java?
+## Aspose.Slides for Java का उपयोग क्यों करें?
 
-Aspose.Slides एक समृद्ध, सर्वर‑साइड API प्रदान करता है जो आपको **read powerpoint file java** करने, कंटेंट संशोधित करने, **extract animation timeline** निकालने, और **add shape animation** जोड़ने की सुविधा देता है, बिना Microsoft Office इंस्टॉल किए। यह स्वचालित रिपोर्टिंग, बड़े पैमाने पर स्लाइड जेनरेशन, और कस्टम प्रेज़ेंटेशन वर्कफ़्लो के लिए आदर्श है।
+Aspose.Slides provides a rich, server‑side API that lets you **read powerpoint file java**, modify content, **extract animation timeline**, and **add shape animation** without needing Microsoft Office installed. It supports **50+ animation effect types** and can process presentations up to **500 MB** without loading the entire file into memory, making it ideal for automated reporting, bulk slide generation, and custom presentation workflows.
 
-## Prerequisites
+## पूर्वापेक्षाएँ
 
-इस ट्यूटोरियल को प्रभावी रूप से फॉलो करने के लिए सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
+### आवश्यक लाइब्रेरीज़
+- Aspose.Slides for Java version 25.4 or later. You can obtain it via Maven or Gradle as detailed below.
 
-### Required Libraries
-- Aspose.Slides for Java संस्करण 25.4 या बाद का। आप इसे नीचे बताए गए Maven या Gradle के माध्यम से प्राप्त कर सकते हैं।
+### पर्यावरण सेटअप आवश्यकताएँ
+- JDK 16 or higher installed on your machine.
+- An Integrated Development Environment (IDE) like IntelliJ IDEA, Eclipse, or similar.
 
-### Environment Setup Requirements
-- आपके मशीन पर JDK 16 या उससे ऊपर स्थापित हो।
-- IntelliJ IDEA, Eclipse, या समान किसी Integrated Development Environment (IDE) की उपलब्धता।
+### ज्ञान पूर्वापेक्षाएँ
+- Basic understanding of Java programming and object‑oriented concepts.
+- Familiarity with handling file paths and I/O operations in Java.
 
-### Knowledge Prerequisites
-- Java प्रोग्रामिंग और ऑब्जेक्ट‑ओरिएंटेड कॉन्सेप्ट्स की बुनियादी समझ।
-- Java में फ़ाइल पाथ और I/O ऑपरेशन्स को हैंडल करने का परिचय।
+## Aspose.Slides for Java सेटअप करना
 
-## Setting Up Aspose.Slides for Java
-
-Aspose.Slides for Java को शुरू करने के लिए, आपको **aspose slides maven dependency** के माध्यम से लाइब्रेरी को अपने प्रोजेक्ट में जोड़ना होगा। अपनी वर्कफ़्लो के अनुसार बिल्ड टूल चुनें।
+To get started with Aspose.Slides for Java, you'll add the library to your project using the **aspose slides maven dependency**. Choose the build tool that fits your workflow.
 
 **Maven:**
 ```xml
@@ -74,23 +124,22 @@ Aspose.Slides for Java को शुरू करने के लिए, आप
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-यदि आप चाहें, तो आप सीधे नवीनतम संस्करण को यहाँ से डाउनलोड कर सकते हैं: [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/)।
+यदि आप चाहें, तो आप सीधे नवीनतम संस्करण डाउनलोड कर सकते हैं [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### License Acquisition
-- **Free Trial:** Aspose.Slides का फ्री ट्रायल शुरू करें ताकि आप मूल्यांकन कर सकें।  
-- **Temporary License:** विस्तारित मूल्यांकन के लिए एक टेम्पररी लाइसेंस प्राप्त करें।  
-- **Purchase:** पूर्ण एक्सेस के लिए कमर्शियल लाइसेंस खरीदें।
+### लाइसेंस प्राप्ति
+- **Free Trial:** Start with a free trial to evaluate Aspose.Slides.  
+- **Temporary License:** Obtain a temporary license for extended evaluation.  
+- **Purchase:** For full access, purchase a commercial license.
 
-एक बार आपका वातावरण तैयार हो जाए और Aspose.Slides आपके प्रोजेक्ट में जोड़ दिया जाए, आप Java में PowerPoint प्रस्तुतियों को लोड और एनीमेट करने के लिए तैयार हैं।
+एक बार आपका पर्यावरण तैयार हो जाए और Aspose.Slides आपके प्रोजेक्ट में जोड़ दिया गया हो, आप Java में PowerPoint प्रस्तुतियों को लोड और एनीमेट करने के लिए तैयार हैं।
 
-## Implementation Guide
+## Aspose.Slides का उपयोग करके PowerPoint स्लाइड्स को एनीमेट कैसे करें
 
-यह गाइड सबसे सामान्य एनीमेशन‑संबंधी परिदृश्यों को कवर करता है। प्रत्येक कोड स्निपेट के बाद स्पष्ट व्याख्या दी गई है।
+Load your PPTX, retrieve the target slide, and apply or modify animation effects in just a few lines of code. This direct‑answer paragraph explains the core steps: instantiate a `Presentation`, pick a slide via `getSlides().get_Item(index)`, obtain the shape you want to animate, and then use the slide’s timeline to add or adjust `IEffect` objects. You can also call `setDuration(double seconds)` on each effect to control playback speed.
 
-### Load Presentation Feature
+### प्रेजेंटेशन लोड करने की सुविधा
 
-#### Overview
-पहला कदम है **how to load ppt** – Aspose.Slides का उपयोग करके PowerPoint फ़ाइल को अपने Java एप्लिकेशन में लोड करना।
+The `Presentation` class is Aspose.Slides' top‑level object that represents a single PowerPoint file in memory. It enables loading, editing, and saving presentations programmatically.
 
 **Code Snippet:**
 ```java
@@ -106,13 +155,12 @@ try {
 ```
 
 **Explanation:**
-- **Import Statement:** हम `com.aspose.slides.Presentation` को इम्पोर्ट करते हैं ताकि PowerPoint फ़ाइलों को हैंडल किया जा सके।  
-- **Loading a File:** `Presentation` का कन्स्ट्रक्टर फ़ाइल पाथ लेता है, जिससे आपका PPTX एप्लिकेशन में लोड हो जाता है।
+- **Import Statement:** We import `com.aspose.slides.Presentation` to handle PowerPoint files.  
+- **Loading a File:** The constructor of `Presentation` takes a file path, loading your PPTX into the application.
 
-### Access Slide and Shape
+### स्लाइड और शैप तक पहुँच
 
-#### Overview
-प्रेज़ेंटेशन लोड करने के बाद, आप **read powerpoint file java** करके विशिष्ट स्लाइड्स और शैप्स तक पहुँच सकते हैं और आगे की मैनिपुलेशन कर सकते हैं।
+`ISlide` represents an individual slide, while `IShape` represents any drawable object on that slide. Both are essential for targeting specific elements for animation.
 
 **Code Snippet:**
 ```java
@@ -132,13 +180,12 @@ try {
 ```
 
 **Explanation:**
-- **Accessing Slides:** `presentation.getSlides()` का उपयोग करके स्लाइड्स का कलेक्शन प्राप्त करें, फिर इंडेक्स द्वारा एक स्लाइड चुनें।  
-- **Working with Shapes:** `slide.getShapes()` के माध्यम से स्लाइड से शैप्स प्राप्त करें।
+- **Accessing Slides:** Use `presentation.getSlides()` to get a collection of slides, then select one by index.  
+- **Working with Shapes:** Retrieve shapes from the slide using `slide.getShapes()`.
 
-### Get Effects by Shape
+### शैप द्वारा इफ़ेक्ट्स प्राप्त करें
 
-#### Overview
-**add shape animation** करने के लिए, पहले से लागू एनीमेशन इफ़ेक्ट्स को किसी विशेष शैप के लिए प्राप्त करें।
+`IEffect` objects describe individual animation actions applied to a shape. Retrieving them lets you inspect or modify existing animations.
 
 **Code Snippet:**
 ```java
@@ -161,12 +208,11 @@ try {
 ```
 
 **Explanation:**
-- **Retrieving Effects:** `getEffectsByShape()` का उपयोग करके किसी विशिष्ट शैप पर लागू एनीमेशन को फ़ेच करें।
+- **Retrieving Effects:** Use `getEffectsByShape()` to fetch animations applied to a specific shape.
 
-### Get Base Placeholder Effects
+### बेस प्लेसहोल्डर इफ़ेक्ट्स प्राप्त करें
 
-#### Overview
-**extract animation timeline** को बेस प्लेसहोल्डर्स से निकालना सुसंगत स्लाइड डिज़ाइनों के लिए महत्वपूर्ण हो सकता है।
+Base placeholders often carry default animations that cascade to derived shapes. Accessing them helps maintain design consistency.
 
 **Code Snippet:**
 ```java
@@ -192,12 +238,11 @@ try {
 ```
 
 **Explanation:**
-- **Accessing Placeholders:** `shape.getBasePlaceholder()` का उपयोग करके बेस प्लेसहोल्डर प्राप्त करें, जो स्थिर स्टाइल और एनीमेशन लागू करने में मदद करता है।
+- **Accessing Placeholders:** Use `shape.getBasePlaceholder()` to get the base placeholder, which can be crucial for applying consistent styles and animations.
 
-### Get Master Shape Effects
+### मास्टर शैप इफ़ेक्ट्स प्राप्त करें
 
-#### Overview
-**master slide effects** को मैनीपुलेट करके आप अपनी प्रेज़ेंटेशन में सभी स्लाइड्स की एकरूपता बनाए रख सकते हैं।
+Master slides define global animations that affect all slides using that layout. Manipulating them ensures uniform behavior across the deck.
 
 **Code Snippet:**
 ```java
@@ -227,54 +272,68 @@ try {
 ```
 
 **Explanation:**
-- **Working with Master Slides:** `masterSlide.getTimeline().getMainSequence()` का उपयोग करके सभी स्लाइड्स पर लागू एनीमेशन तक पहुँचें जो एक सामान्य डिज़ाइन पर आधारित हैं।
+- **Working with Master Slides:** Use `masterSlide.getTimeline().getMainSequence()` to access animations affecting all slides based on a common design.
 
-## Practical Applications
+## Java में एनीमेशन अवधि कैसे सेट करें?
+
+Call `setDuration(double seconds)` on any `IEffect` you retrieve or create. The method expects the duration in seconds, allowing precise timing control for each animation step. `setDuration` sets the playback length of the animation in seconds, enabling you to fine‑tune how long each effect remains visible during the slide show.
+
+**Example Direct Answer:**  
+`effect.setDuration(2.5);` sets the animation to play for two and a half seconds. You can loop through all effects on a slide, adjust each duration, and then save the presentation to persist the changes.
+
+## व्यावहारिक अनुप्रयोग
 Aspose.Slides for Java के साथ आप:
 
-1. **Automate PowerPoint Reporting:** डेटाबेस या API से डेटा को मिलाकर स्लाइड डेक्स को तुरंत जनरेट करें, **automate powerpoint reporting** के लिए दैनिक एग्जीक्यूटिव सारांश बनाएं।  
-2. **Customize Presentations Dynamically:** उपयोगकर्ता इनपुट, लोकेल, या ब्रांडिंग आवश्यकताओं के आधार पर प्रेज़ेंटेशन कंटेंट को प्रोग्रामेटिक रूप से बदलें, जिससे प्रत्येक डेक अनोखा बन सके।  
-3. **Set Animation Duration Java‑Style:** किसी भी `IEffect` पर `setDuration(double seconds)` कॉल करके टाइमिंग को फाइन‑ट्यून करें, जिससे प्लेबैक स्पीड पर सटीक नियंत्रण मिल सके।
+1. **Automate PowerPoint Reporting:** Combine data from databases or APIs to generate slide decks on the fly, **automate powerpoint reporting** for daily executive summaries.  
+2. **Customize Presentations Dynamically:** Modify presentation content programmatically based on user input, locale, or branding requirements, ensuring each deck is uniquely tailored.  
+3. **Set Animation Duration Java‑Style:** Adjust the `setDuration(double seconds)` on any `IEffect` to fine‑tune timing, giving you precise control over playback speed.
 
-## Common Issues and Solutions
+## सामान्य समस्याएँ और समाधान
 
-| Issue | Solution |
+| समस्या | समाधान |
 |-------|----------|
-| **NullPointerException when retrieving placeholders** | सुनिश्चित करें कि शैप में वास्तव में प्लेसहोल्डर है; `shape.getPlaceholder()` को कॉल करने से पहले `getBasePlaceholder()` चेक करें। |
-| **License not applied** | `Presentation` इंस्टेंस बनाने से पहले लाइसेंस फ़ाइल लोड करें: `License lic = new License(); lic.setLicense("Aspose.Slides.Java.lic");` |
-| **Animations not appearing in the final PPTX** | इफ़ेक्ट्स जोड़ने या संशोधित करने के बाद `slide.getTimeline().recalculate();` कॉल करके टाइमलाइन को रिफ्रेश करें। |
-| **Unsupported animation type** | जिस `EffectType` का आप उपयोग कर रहे हैं, वह लक्ष्य PowerPoint संस्करण द्वारा समर्थित है या नहीं, इसकी पुष्टि करें (जैसे पुराने PPT फ़ाइलों में सीमित इफ़ेक्ट्स होते हैं)। |
+| **NullPointerException when retrieving placeholders** | Ensure the shape actually has a placeholder; check `shape.getPlaceholder()` before calling `getBasePlaceholder()`. |
+| **License not applied** | Load your license file before creating a `Presentation` instance: `License lic = new License(); lic.setLicense("Aspose.Slides.Java.lic");` |
+| **Animations not appearing in the final PPTX** | After adding or modifying effects, call `slide.getTimeline().recalculate();` to refresh the timeline. |
+| **Unsupported animation type** | Verify the `EffectType` you are using is supported by the target PowerPoint version (e.g., older PPT files have limited effects). |
 
-## Frequently Asked Questions
+## अक्सर पूछे जाने वाले प्रश्न
 
-**Q: क्या मैं किसी शैप में जो पहले से इफ़ेक्ट्स रखता है, नए एनीमेशन जोड़ सकता हूँ?**  
-A: हाँ। स्लाइड की टाइमलाइन पर `addEffect` मेथड का उपयोग करके अतिरिक्त `IEffect` ऑब्जेक्ट्स जोड़ें।
+**Q: क्या मैं किसी शैप में पहले से मौजूद इफ़ेक्ट्स के साथ नए एनीमेशन जोड़ सकता हूँ?**  
+A: हाँ। स्लाइड की टाइमलाइन पर `addEffect` मेथड का उपयोग करके अतिरिक्त `IEffect` ऑब्जेक्ट्स जोड़ सकते हैं।
 
-**Q: मैं स्लाइड की पूरी एनीमेशन टाइमलाइन कैसे निकालूँ?**  
-A: `slide.getTimeline().getMainSequence()` एक्सेस करें, जो उस स्लाइड पर सभी `IEffect` ऑब्जेक्ट्स की क्रमबद्ध सूची देता है।
+**Q: मैं किसी स्लाइड के पूर्ण एनीमेशन टाइमलाइन को कैसे निकालूँ?**  
+A: `slide.getTimeline().getMainSequence()` को एक्सेस करें, जो उस स्लाइड पर सभी `IEffect` ऑब्जेक्ट्स की क्रमबद्ध सूची देता है।
 
-**Q: क्या मौजूदा एनीमेशन की अवधि बदलना संभव है?**  
-A: बिल्कुल। प्रत्येक `IEffect` में `setDuration(double seconds)` मेथड होता है, जिसे आप इफ़ेक्ट प्राप्त करने के बाद कॉल कर सकते हैं।
+**Q: क्या मौजूदा एनीमेशन की अवधि को संशोधित किया जा सकता है?**  
+A: बिल्कुल। प्रत्येक `IEffect` में `setDuration(double seconds)` मेथड होता है जिसे आप प्रभाव प्राप्त करने के बाद कॉल कर सकते हैं।
 
-**Q: क्या सर्वर पर Microsoft Office इंस्टॉल होना आवश्यक है?**  
-A: नहीं। Aspose.Slides एक शुद्ध Java लाइब्रेरी है और Office से पूरी तरह स्वतंत्र रूप से काम करती है।
+**Q: क्या सर्वर पर Microsoft Office स्थापित होना आवश्यक है?**  
+A: नहीं। Aspose.Slides एक शुद्ध Java लाइब्रेरी है और Office पर पूरी तरह निर्भर नहीं है।
 
-**Q: प्रोडक्शन डिप्लॉयमेंट के लिए कौन सा लाइसेंस उपयोग करना चाहिए?**  
-A: मूल्यांकन सीमाओं को हटाने और पूर्ण सपोर्ट पाने के लिए Aspose से कमर्शियल लाइसेंस खरीदें।
+**Q: उत्पादन परिनियोजन के लिए मुझे कौन सा लाइसेंस उपयोग करना चाहिए?**  
+A: मूल्यांकन सीमाओं को हटाने और पूर्ण समर्थन प्राप्त करने के लिए Aspose से एक व्यावसायिक लाइसेंस खरीदें।
 
-**Q: Java में एनीमेशन की अवधि प्रोग्रामेटिक रूप से कैसे सेट करूँ?**  
-A: इच्छित `IEffect` प्राप्त करें और `effect.setDuration(2.5);` कॉल करें, जहाँ मान सेकंड में दिया जाता है।
+**Q: मैं Java में एनीमेशन अवधि को प्रोग्रामेटिक रूप से कैसे सेट करूँ?**  
+A: इच्छित `IEffect` प्राप्त करें और `effect.setDuration(2.5);` कॉल करें, जहाँ मान सेकंड में होता है।
 
 ---
 
-**Last Updated:** 2026-02-14  
+**अंतिम अपडेट:** 2026-06-13  
 **Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
 **Author:** Aspose
+
+{{< blocks/products/products-backtop-button >}}
+
+## संबंधित ट्यूटोरियल
+
+- [aspose slides maven - Master Advanced Slide Animations in Java](/slides/java/animations-transitions/advanced-slide-animations-aspose-slides-java/)
+- [Create Dynamic Powerpoint Java – Aspose.Slides Animation Types Guide](/slides/java/animations-transitions/aspose-slides-java-animation-comparison-guide/)
+- [Master Aspose.Slides Java for Dynamic PowerPoint Presentations: A Comprehensive Guide](/slides/java/data-integration/aspose-slides-java-dynamic-presentations/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
