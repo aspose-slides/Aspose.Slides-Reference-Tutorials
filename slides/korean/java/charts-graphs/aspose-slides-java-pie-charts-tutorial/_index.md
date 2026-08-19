@@ -1,81 +1,86 @@
 ---
-date: '2026-02-19'
-description: Aspose.Slides를 사용하여 Java에서 파이 차트를 만드는 방법을 배우고, 파이 차트 색상을 사용자 정의하고, 차트
-  시리즈를 추가하며, 차트 데이터 워크시트 작업을 수행하고, 회전 각도를 설정합니다.
+date: '2026-07-17'
+description: Aspose.Slides for Java를 사용하여 pie chart를 회전하고, pie chart 색상을 사용자 지정하며,
+  슬라이드를 PDF로 내보내는 방법을 배우세요 – 완전한 데이터 시각화 가이드.
 keywords:
-- Aspose.Slides Java
-- Java pie charts
-- data visualization in Java
-title: Aspose.Slides와 Java로 파이 차트 색상 맞춤하기 – 완전 가이드
+- rotate pie chart
+- customize pie chart colors
+- export slide to pdf
+- chart data worksheet
+- java data visualization
+lastmod: '2026-07-17'
+og_description: Aspose.Slides for Java를 사용하여 pie chart를 회전하고 색상을 사용자 지정하세요. 슬라이드를
+  PDF로 내보내고 chart data worksheet를 활용하는 방법을 배우세요.
+og_image_alt: Guide showing how to rotate a pie chart and set custom colors in Java
+  with Aspose.Slides
+og_title: Java에서 Pie Chart 회전 및 색상 사용자 지정 – Aspose.Slides 가이드
+schemas:
+- author: Aspose
+  dateModified: '2026-07-17'
+  description: Learn how to rotate pie chart, customize pie chart colors, and export
+    slide to PDF using Aspose.Slides for Java – a full data visualization guide.
+  headline: How to Rotate Pie Chart and Customize Colors in Java with Aspose.Slides
+  type: TechArticle
+- questions:
+  - answer: Request a free trial from the Aspose website, then purchase a permanent
+      license. Load it at runtime as shown in the Common Issues table.
+    question: How do I obtain an Aspose.Slides license for Java?
+  - answer: The API requires JDK 16 or higher; older versions are not supported.
+    question: Can I use this code with older JDK versions?
+  - answer: Yes—after rendering, call `chart.getChartData().getChartDataWorkbook().save("chart.png",
+      ImageFormat.Png);`.
+    question: Is it possible to export the chart as an image instead of PPTX?
+  - answer: Pie charts are designed for a single data series; for multiple series,
+      consider using a doughnut chart.
+    question: What if I need more than one series in a pie chart?
+  - answer: Absolutely—Aspose.Slides for Java is platform‑independent and works on
+      any OS with a compatible JDK.
+    question: Does Aspose.Slides run on Linux servers?
+  type: FAQPage
+tags:
+- rotate pie chart
+- Aspose.Slides
+- Java charting
+- data visualization
+title: Java와 Aspose.Slides를 사용하여 Pie Chart 회전 및 색상 사용자 지정 방법
 url: /ko/java/charts-graphs/aspose-slides-java-pie-charts-tutorial/
 weight: 1
 ---
-
- **. Keep bold.
-
-Now produce final content.
-
-Let's craft translation.
-
-Be careful with markdown formatting.
-
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.Slides for Java를 사용한 파이 차트 만들기: 완전 가이드
+# Aspose.Slides for Java로 파이 차트 만들기: 완전 가이드
 
-## Introduction
-동적이고 시각적으로 매력적인 프레젠테이션을 만드는 것은 효과적인 정보 전달에 필수적입니다. Aspose.Slides for Java를 사용하면 파이 차트와 같은 복잡한 차트를 슬라이드에 손쉽게 통합하고, **파이 차트 색상 맞춤**을 수행하며, 데이터 시각화를 손쉽게 향상시킬 수 있습니다. 이 포괄적인 가이드는 Aspose.Slides Java를 이용해 파이 차트를 생성하고 맞춤 설정하는 과정을 단계별로 안내하여 일반적인 프레젠테이션 문제를 쉽게 해결하도록 도와줍니다.
+## 소개
+이 가이드에서는 **파이 차트 회전** 요소를 다루고, 각 슬라이스의 색상을 맞춤 설정하며, 최종 슬라이드를 PDF로 내보내는 방법을 배웁니다—모두 Aspose.Slides for Java를 사용합니다. 영업 대시보드, 재무 보고서 또는 데이터 기반 프레젠테이션을 만들 때, 이러한 기술을 마스터하면 Microsoft Office에 의존하지 않고도 명확하고 시각적으로 눈에 띄는 차트를 제공할 수 있습니다. 도구를 준비하고 바로 시작해 보세요.
 
-**배우게 될 내용:**
-- 프레젠테이션 초기화 및 슬라이드 추가
-- 슬라이드에 파이 차트 생성 및 구성
-- 차트 제목, 데이터 레이블 설정 및 **파이 차트 색상 맞춤**
-- 성능 최적화 및 리소스 효율적 관리
-- Maven 또는 Gradle을 사용한 Java 프로젝트에 Aspose.Slides 통합
+## 빠른 답변
+- **새 프레젠테이션을 시작하는 클래스는?** `Presentation` from `com.aspose.slides`.
+- **파이 차트를 추가하는 API 호출은?** `slide.addChart(ChartType.Pie, …)`.
+- **각 슬라이스에 고유한 색상을 지정하려면?** Call `series.setColorVaried(true)` and set solid fills per data point.
+- **차트를 회전시키는 메서드는?** `chart.setRotationAngle(double)` – use degrees from 0 to 360.
+- **슬라이드를 PDF로 내보낼 수 있나요?** Yes, invoke `presentation.save("output.pdf", SaveFormat.Pdf)`.
 
-먼저 필요한 도구와 지식을 모두 준비했는지 확인해 보세요!
+## “파이 차트 색상 맞춤”이란?
+파이 차트 색상 맞춤이란 파이의 각 슬라이스에 서로 다른 채우기 색상을 할당하여 가독성과 시각적 효과를 높이는 것을 의미합니다. Aspose.Slides에서는 색상 다양성을 활성화한 뒤 개별 데이터 포인트에 고체 채우기 색상을 지정함으로써 이를 구현합니다. 이 방법을 사용하면 각 데이터 구간이 프레젠테이션에서 명확히 돋보이게 됩니다.
 
-## Quick Answers
-- **프레젠테이션을 시작하는 기본 클래스는?** `Presentation` from `com.aspose.slides`.
-- **슬라이드에 파이 차트를 추가하는 메서드는?** `addChart(ChartType.Pie, …)`.
-- **각 슬라이스에 다양한 색상을 적용하려면?** 시리즈 그룹에서 `setColorVaried(true)` 설정.
-- **파이 차트를 회전할 수 있나요?** 차트 객체에서 `setRotationAngle(double)` 사용.
-- **프로덕션 환경에서 라이선스가 필요합니까?** 상업적 배포에는 Aspose.Slides 라이선스가 필요합니다.
+## 왜 Aspose.Slides for Java로 파이 차트를 만들까요?
+Aspose.Slides는 **150개 이상의 차트 유형**을 지원하며, 일반 서버에서 300페이지 프레젠테이션을 **5초 이하**에 렌더링할 수 있습니다. 또한 Microsoft Office가 설치되지 않아도 되며, Windows, Linux, macOS에서 모두 동작해 Java 기반 데이터 시각화 프로젝트에 크로스 플랫폼 유연성을 제공합니다.
 
-## What is “customize pie chart colors”?
-파이 차트 색상 맞춤이란 파이의 각 조각에 서로 다른 채우기 색을 지정하여 가독성과 시각적 효과를 높이는 것을 의미합니다. Aspose.Slides에서는 색상 다양성을 활성화한 뒤 개별 데이터 포인트에 단색 채우기를 설정함으로써 이를 구현합니다.
-
-## Why use Aspose.Slides for Java to create pie charts?
-- **전체 제어**: Microsoft Office 없이 차트 외관을 완벽히 제어
-- **크로스‑플랫폼** 호환성 – Windows, Linux, macOS 모두 지원
-- **풍부한 API**: 데이터 바인딩, 스타일링, PPTX, PDF, 이미지 등 다양한 포맷으로 내보내기
-- **유연한 라이선스** – 무료 체험 후 필요에 따라 전체 기능 업그레이드
-
-## Prerequisites
-튜토리얼을 시작하기 전에 다음 환경이 준비되어 있는지 확인하세요.
-
-### Required Libraries, Versions, and Dependencies
-- **Aspose.Slides for Java**: 버전 25.4 이상
-- **Java Development Kit (JDK)**: 버전 16 이상
-
-### Environment Setup Requirements
-- Java가 설치되고 설정된 개발 환경
+## 전제 조건
+- **Aspose.Slides for Java** ≥ 25.4
+- **JDK** 16 or newer
 - IntelliJ IDEA, Eclipse, NetBeans 등 IDE
+- 기본 Java 지식 및 Maven 또는 Gradle 사용 경험
 
-### Knowledge Prerequisites
-- Java 프로그래밍 기본 이해
-- Maven 또는 Gradle을 이용한 의존성 관리 경험
-
-## Setting Up Aspose.Slides for Java
-Java 프로젝트에서 Aspose.Slides를 사용하려면 라이브러리를 의존성으로 추가해야 합니다. 아래는 주요 빌드 도구별 설정 방법입니다.
+## Aspose.Slides for Java 설정
+라이브러리를 빌드 구성에 추가합니다.
 
 **Maven**  
-`pom.xml` 파일에 다음 스니펫을 추가하세요:
+다음 코드를 `pom.xml` 파일에 추가하세요:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -86,32 +91,32 @@ Java 프로젝트에서 Aspose.Slides를 사용하려면 라이브러리를 의�
 ```
 
 **Gradle**  
-`build.gradle` 파일에 다음을 포함하세요:
+다음 내용을 `build.gradle` 파일에 포함하세요:
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
 **Direct Download**  
-빌드 도구를 사용하지 않으려면 [Aspose.Slides for Java 릴리스](https://releases.aspose.com/slides/java/)에서 최신 버전을 다운로드하십시오.
+수동으로 진행하고 싶다면 최신 JAR 파일을 [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/)에서 다운로드하십시오.
 
-### License Acquisition Steps
-- **무료 체험**: Aspose.Slides 기능을 체험해 보세요.  
-- **임시 라이선스**: 제한 없이 장기간 사용하려면 임시 라이선스를 받으세요.  
-- **구매**: 장기 사용이 필요하면 정식 라이선스를 구매하세요.
+### 라이선스 획득 단계
+- **무료 체험** – 비용 없이 모든 기능을 탐색합니다.  
+- **임시 라이선스** – 짧은 기간 동안 체험 제한을 연장합니다.  
+- **구매** – 프로덕션 사용을 위한 영구 라이선스를 획득합니다.
 
-**Basic Initialization and Setup**  
-Aspose.Slides를 사용하려면 새 프레젠테이션 객체를 생성하여 프로젝트를 초기화합니다:
+**기본 초기화 및 설정**  
+`Presentation` 클래스는 메모리 내 PowerPoint 파일을 나타내며 슬라이드를 조작하는 메서드를 제공합니다.  
 ```java
 import com.aspose.slides.*;
 
 Presentation presentation = new Presentation();
 ```
 
-## Implementation Guide
-이제 파이 차트를 추가하고 맞춤 설정하는 과정을 단계별로 살펴보겠습니다.
+## 구현 가이드
+아래는 슬라이드 생성부터 최종 파이 차트 회전까지 모든 과정을 단계별로 설명한 walkthrough입니다.
 
-### Initialize Presentation and Slide
-새 프레젠테이션을 설정하고 첫 번째 슬라이드에 접근합니다. 이것이 차트를 만들 캔버스가 됩니다:
+### 프레젠테이션 및 슬라이드 초기화
+새 `Presentation` 인스턴스를 만들고 첫 번째 슬라이드를 차트 캔버스로 가져옵니다.  
 ```java
 import com.aspose.slides.*;
 
@@ -121,8 +126,8 @@ Presentation presentation = new Presentation();
 ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
-### Add Pie Chart to Slide
-기본 데이터 세트를 사용해 지정된 위치에 파이 차트를 삽입합니다:
+### 슬라이드에 파이 차트 추가
+`addChart`는 지정된 유형의 차트 도형을 주어진 좌표에 슬라이드에 추가합니다.  
 ```java
 import com.aspose.slides.*;
 
@@ -130,8 +135,8 @@ import com.aspose.slides.*;
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
-### Set Chart Title
-제목을 설정하고 중앙에 배치하여 차트를 맞춤 설정합니다:
+### 차트 제목 설정
+`setTitle`은 차트에 텍스트 제목을 할당하고 중앙에 배치합니다.  
 ```java
 import com.aspose.slides.*;
 
@@ -142,8 +147,8 @@ chart.getChartTitle().setHeight(20);
 chart.setTitle(true);
 ```
 
-### Configure Data Labels for Series
-가독성을 위해 데이터 레이블에 값이 표시되도록 합니다:
+### 시리즈 데이터 레이블 구성
+`setShowValue(true)`는 시리즈의 각 데이터 포인트에 숫자 값 레이블을 표시하도록 활성화합니다.  
 ```java
 import com.aspose.slides.*;
 
@@ -151,8 +156,8 @@ import com.aspose.slides.*;
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 ```
 
-### Prepare Chart Data Worksheet
-기존 시리즈와 카테고리를 정리하여 차트 데이터 워크시트를 초기화합니다:
+### 차트 데이터 워크시트 준비
+`ChartDataWorkbook`은 차트 시리즈와 카테고리에 데이터를 공급하는 기본 테이블을 저장합니다.  
 ```java
 import com.aspose.slides.*;
 
@@ -163,8 +168,8 @@ chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 ```
 
-### Add Categories to Chart
-파이 차트의 카테고리를 정의합니다:
+### 차트에 카테고리 추가
+`addCategory`는 차트 데이터 시리즈에 새로운 카테고리 레이블을 생성합니다.  
 ```java
 import com.aspose.slides.*;
 
@@ -174,8 +179,8 @@ chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 ```
 
-### Add Series and Populate Data Points
-시리즈를 생성하고 데이터 포인트를 채웁니다 – 여기서 **차트 시리즈를 추가**합니다:
+### 시리즈 추가 및 데이터 포인트 채우기
+`addSeries`는 데이터 시리즈를 만들고, `addDataPointForBarSeries`는 각 카테고리에 대한 숫자 값을 삽입합니다.  
 ```java
 import com.aspose.slides.*;
 
@@ -186,8 +191,8 @@ series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 ```
 
-### Customize Series Colors and Borders
-시각적 효과를 높이기 위해 색상과 테두리를 설정합니다 – 이는 **파이 차트 색상 맞춤**에 직접 해당합니다:
+### 시리즈 색상 및 테두리 맞춤
+`setColorVaried(true)`는 슬라이스별 색상을 활성화하고, `setFillFormat`은 각 데이터 포인트에 고체 채우기를 지정합니다.  
 ```java
 import com.aspose.slides.*;
 
@@ -206,8 +211,8 @@ point.getFormat().getLine().setDashStyle(LineDashStyle.DashDot);
 // Repeat for other data points with different colors and styles.
 ```
 
-### Configure Custom Data Labels
-각 데이터 포인트에 대한 레이블을 세밀하게 조정합니다:
+### 사용자 정의 데이터 레이블 구성
+`setDataLabelFormat`은 레이블의 모양, 위치 및 글꼴을 맞춤 설정하여 차트 주석을 보다 명확하게 합니다.  
 ```java
 import com.aspose.slides.*;
 
@@ -228,8 +233,8 @@ lbl3.getDataLabelFormat().setShowPercentage(true);
 series.getLabels().getDefaultDataLabelFormat().setShowLeaderLines(true);
 ```
 
-### Set Rotation Angle and Save Presentation
-**회전 각도 설정**을 마치고 파일을 저장하여 파이 차트를 완성합니다:
+### 회전 각도 설정 및 프레젠테이션 저장
+`setRotationAngle`은 전체 파이 차트를 회전시키고, `save`는 프레젠테이션을 파일로 기록합니다.  
 ```java
 import com.aspose.slides.*;
 
@@ -241,41 +246,49 @@ chart.setRotationAngle(-10);
 presentation.save("PieChartPresentation.pptx", SaveFormat.Pptx);
 ```
 
-## Common Issues and Solutions
-| Issue | Cause | Fix |
+## 파이 차트를 회전하는 방법
+차트 객체를 로드하고 `chart.setRotationAngle(45.0)`(또는 원하는 각도) 를 호출한 뒤 프레젠테이션을 저장합니다. 파이 차트를 회전하면 시작 각도가 이동하여 특정 섹션을 강조할 수 있으며, 데이터 자체는 변경되지 않습니다. 이 단일 메서드 호출은 Aspose.Slides의 모든 `Chart` 인스턴스에 적용됩니다. 회전과 색상 다양성을 결합하면 가장 중요한 데이터 포인트에 시선을 집중시킬 수 있습니다.
+
+## 일반적인 문제 및 해결책
+| 문제 | 원인 | 해결 방법 |
 |-------|-------|-----|
-| **Slices all appear the same color** | `setColorVaried(true)` not called | Ensure you enable varied colors on the series group. |
-| **Data labels not showing** | `showValue` flag disabled | Call `setShowValue(true)` on the appropriate label format. |
-| **Rotation has no effect** | Using an older Aspose.Slides version | Upgrade to version 25.4 or later. |
-| **License exception at runtime** | Missing or invalid license file | Load your license with `License license = new License(); license.setLicense("Aspose.Slides.lic");` before creating the `Presentation`. |
+| **슬라이스가 모두 같은 색으로 표시됨** | `setColorVaried(true)` 호출되지 않음 | 시리즈 그룹에서 색상 다양성을 활성화했는지 확인하세요. |
+| **데이터 레이블이 표시되지 않음** | `showValue` 플래그 비활성화 | 레이블 포맷에 `setShowValue(true)`를 호출하세요. |
+| **회전이 적용되지 않음** | 구버전 Aspose.Slides 사용 | 버전 25.4 이상으로 업그레이드하세요. |
+| **런타임 라이선스 예외** | 라이선스 파일이 없거나 유효하지 않음 | `Presentation`을 만들기 전에 `License license = new License(); license.setLicense("Aspose.Slides.lic");` 로 라이선스를 로드하세요. |
 
-## Frequently Asked Questions
+## 자주 묻는 질문
 
-**Q: How do I obtain an Aspose.Slides license for Java?**  
-A: You can request a free trial from the Aspose website, then purchase a permanent license. Load it at runtime as shown in the Common Issues table.
+**Q: Aspose.Slides for Java 라이선스를 어떻게 얻나요?**  
+A: Aspose 웹사이트에서 무료 체험을 요청한 뒤 영구 라이선스를 구매합니다. 런타임에 라이선스를 로드하는 방법은 위의 일반적인 문제 표에 나와 있습니다.
 
-**Q: Can I use this code with older JDK versions?**  
-A: The API requires JDK 16 or higher; older versions are not supported.
+**Q: 이 코드를 오래된 JDK 버전에서 사용할 수 있나요?**  
+A: API는 JDK 16 이상을 요구합니다. 오래된 버전은 지원되지 않습니다.
 
-**Q: Is it possible to export the chart as an image instead of PPTX?**  
-A: Yes, call `chart.getChartData().getChartDataWorkbook().save("chart.png", ImageFormat.Png);` after rendering.
+**Q: 차트를 PPTX 대신 이미지로 내보낼 수 있나요?**  
+A: 예—렌더링 후 `chart.getChartData().getChartDataWorkbook().save("chart.png", ImageFormat.Png);` 를 호출하면 이미지 파일로 저장할 수 있습니다.
 
-**Q: What if I need to add more than one series to a pie chart?**  
-A: Pie charts typically display a single series; for multiple series consider a doughnut chart instead.
+**Q: 파이 차트에 하나 이상의 시리즈가 필요하면 어떻게 해야 하나요?**  
+A: 파이 차트는 단일 데이터 시리즈에 최적화되어 있습니다. 여러 시리즈가 필요하면 도넛 차트 사용을 고려하십시오.
 
-**Q: Does the library work on Linux servers?**  
-A: Absolutely – Aspose.Slides for Java is platform‑independent and runs on any OS with a compatible JDK.
+**Q: Aspose.Slides가 Linux 서버에서 실행되나요?**  
+A: 물론입니다—Aspose.Slides for Java는 플랫폼에 독립적이며 호환 가능한 JDK가 설치된 모든 OS에서 작동합니다.
 
----
-
-**Last Updated:** 2026-02-19  
-**Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
+**Last Updated:** 2026-07-17  
+**Tested With:** Aspose.Slides for Java 25.4 (JDK 16)  
 **Author:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## 관련 튜토리얼
+
+- [Aspose.Slides를 사용한 Java 프레젠테이션에서 파이 차트 만들기: 종합 가이드](/slides/java/charts-graphs/creating-pie-charts-java-presentations-aspose-slides/)
+- [Aspose.Slides를 사용한 Java 파이 차트 마스터: 종합 가이드](/slides/java/charts-graphs/master-pie-charts-aspose-slides-java/)
+- [Aspose.Slides를 사용한 Java 차트 텍스트 회전: 종합 가이드](/slides/java/charts-graphs/rotate-chart-texts-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

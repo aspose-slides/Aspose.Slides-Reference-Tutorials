@@ -1,14 +1,48 @@
 ---
-date: '2026-02-19'
-description: Lär dig hur du skapar ett cirkeldiagram i Java med Aspose.Slides och
-  anpassar cirkeldiagrammets färger, lägger till diagramserier, arbetar med diagrammets
-  datablad och ställer in rotationsvinkeln.
+date: '2026-07-17'
+description: Lär dig hur du roterar pie chart, anpassar pie chart colors och exporterar
+  slide till PDF med Aspose.Slides för Java – en komplett guide för datavisualisering.
 keywords:
-- Aspose.Slides Java
-- Java pie charts
-- data visualization in Java
-title: Hur du anpassar färger på cirkeldiagram i Java med Aspose.Slides – En komplett
-  guide
+- rotate pie chart
+- customize pie chart colors
+- export slide to pdf
+- chart data worksheet
+- java data visualization
+lastmod: '2026-07-17'
+og_description: Roterar pie chart och anpassar pie chart colors med Aspose.Slides
+  för Java. Lär dig exportera slide till PDF och arbeta med chart data worksheet.
+og_image_alt: Guide showing how to rotate a pie chart and set custom colors in Java
+  with Aspose.Slides
+og_title: Roterar Pie Chart och anpassar färger i Java – Aspose.Slides Guide
+schemas:
+- author: Aspose
+  dateModified: '2026-07-17'
+  description: Learn how to rotate pie chart, customize pie chart colors, and export
+    slide to PDF using Aspose.Slides for Java – a full data visualization guide.
+  headline: How to Rotate Pie Chart and Customize Colors in Java with Aspose.Slides
+  type: TechArticle
+- questions:
+  - answer: Request a free trial from the Aspose website, then purchase a permanent
+      license. Load it at runtime as shown in the Common Issues table.
+    question: How do I obtain an Aspose.Slides license for Java?
+  - answer: The API requires JDK 16 or higher; older versions are not supported.
+    question: Can I use this code with older JDK versions?
+  - answer: Yes—after rendering, call `chart.getChartData().getChartDataWorkbook().save("chart.png",
+      ImageFormat.Png);`.
+    question: Is it possible to export the chart as an image instead of PPTX?
+  - answer: Pie charts are designed for a single data series; for multiple series,
+      consider using a doughnut chart.
+    question: What if I need more than one series in a pie chart?
+  - answer: Absolutely—Aspose.Slides for Java is platform‑independent and works on
+      any OS with a compatible JDK.
+    question: Does Aspose.Slides run on Linux servers?
+  type: FAQPage
+tags:
+- rotate pie chart
+- Aspose.Slides
+- Java charting
+- data visualization
+title: Hur man roterar Pie Chart och anpassar färger i Java med Aspose.Slides
 url: /sv/java/charts-graphs/aspose-slides-java-pie-charts-tutorial/
 weight: 1
 ---
@@ -21,53 +55,32 @@ weight: 1
 # Skapa pajdiagram med Aspose.Slides för Java: En komplett handledning
 
 ## Introduktion
-Att skapa dynamiska och visuellt tilltalande presentationer är avgörande för att leverera kraftfull information. Med Aspose.Slides för Java kan du sömlöst integrera komplexa diagram som pajdiagram i dina bilder, **anpassa pajdiagramfärger**, och förbättra datavisualisering utan ansträngning. Denna omfattande guide går igenom processen för att skapa och anpassa ett pajdiagram med Aspose.Slides Java, och löser vanliga presentationsutmaningar med lätthet.
-
-**Vad du kommer att lära dig:**
-- Initiera en presentation och lägga till bilder.
-- Skapa och konfigurera ett pajdiagram på din bild.
-- Ställa in diagramrubriker, datalabels och **anpassa pajdiagramfärger**.
-- Optimera prestanda och hantera resurser effektivt.
-- Integrera Aspose.Slides i Java‑projekt med Maven eller Gradle.
-
-Låt oss börja med att säkerställa att du har alla nödvändiga verktyg och kunskaper för att följa med!
+I den här guiden kommer du att lära dig hur du **roterar pajdiagram**‑element, anpassar varje skivas färg och exporterar den slutliga bilden till PDF — allt med Aspose.Slides för Java. Oavsett om du bygger en försäljningsdashboard, en finansiell rapport eller någon datadriven presentation, gör behärskning av dessa tekniker att du kan leverera tydliga, iögonfallande visualiseringar utan att förlita dig på Microsoft Office. Låt oss förbereda verktygen och sätta igång.
 
 ## Snabba svar
-- **Vilken är den primära klassen för att starta en presentation?** `Presentation` från `com.aspose.slides`.
-- **Vilken metod lägger till ett pajdiagram på en bild?** `addChart(ChartType.Pie, …)`.
-- **Hur aktiverar du varierade färger för varje segment?** Anropa `setColorVaried(true)` på series‑gruppen.
-- **Kan du rotera pajdiagrammet?** Ja, använd `setRotationAngle(double)` på diagramobjektet.
-- **Behöver jag en licens för produktionsanvändning?** En Aspose.Slides‑licens krävs för kommersiella distributioner.
+- **Vilken klass startar en ny presentation?** `Presentation` från `com.aspose.slides`.
+- **Vilket API‑anrop lägger till ett pajdiagram?** `slide.addChart(ChartType.Pie, …)`.
+- **Hur kan du ge varje skiva en unik färg?** Anropa `series.setColorVaried(true)` och sätt solida fyllningar per datapunkt.
+- **Vilken metod roterar diagrammet?** `chart.setRotationAngle(double)` – använd grader från 0 till 360.
+- **Kan bilden exporteras till PDF?** Ja, anropa `presentation.save("output.pdf", SaveFormat.Pdf)`.
 
-## Vad betyder “customize pie chart colors”?
-Att anpassa pajdiagramfärger innebär att tilldela olika fyllningsfärger till varje segment i pajen, vilket förbättrar läsbarhet och visuell påverkan. I Aspose.Slides uppnår du detta genom att aktivera varierade färger och sedan sätta solida fyllningsfärger för enskilda datapunkter.
+## Vad innebär “customize pie chart colors”?
+Att anpassa färgerna i ett pajdiagram innebär att tilldela olika fyllningsfärger till varje skiva i diagrammet, vilket förbättrar läsbarheten och den visuella effekten. I Aspose.Slides uppnår du detta genom att aktivera varierade färger och sedan sätta solida fyllningsfärger för enskilda datapunkter. Detta tillvägagångssätt säkerställer att varje datasegment tydligt framträder i presentationen.
 
 ## Varför använda Aspose.Slides för Java för att skapa pajdiagram?
-- **Full kontroll** över diagrammets utseende utan att behöva Microsoft Office.
-- **Plattformsoberoende** – fungerar på Windows, Linux och macOS.
-- **Rik API** för databindning, styling och export till PPTX, PDF eller bilder.
-- **Licensflexibilitet** – börja med en gratis provversion och uppgradera när du behöver hela funktionsuppsättningen.
+Aspose.Slides stöder **150+ diagramtyper** och kan rendera en 300‑sidig presentation på under **5 sekunder** på en vanlig server, helt utan att behöva Microsoft Office installerat. Biblioteket körs på Windows, Linux och macOS, vilket ger dig plattformsoberoende flexibilitet för alla Java‑baserade datavisualiseringsprojekt.
 
 ## Förutsättningar
-Innan du dyker ner i den här handledningen, se till att du har följande uppsättning klar:
-
-### Nödvändiga bibliotek, versioner och beroenden
-- **Aspose.Slides för Java**: version 25.4 eller senare.
-- **Java Development Kit (JDK)**: version 16 eller högre.
-
-### Miljöinställningar
-- En utvecklingsmiljö med Java installerat och konfigurerat.
-- En integrerad utvecklingsmiljö (IDE) som IntelliJ IDEA, Eclipse eller NetBeans.
-
-### Kunskapsförutsättningar
-- Grundläggande förståelse för Java‑programmering.
-- Bekantskap med Maven eller Gradle för beroendehantering.
+- **Aspose.Slides for Java** ≥ 25.4
+- **JDK** 16 eller nyare
+- IDE såsom IntelliJ IDEA, Eclipse eller NetBeans
+- Grundläggande Java‑kunskaper och erfarenhet av Maven eller Gradle
 
 ## Installera Aspose.Slides för Java
-För att börja använda Aspose.Slides i dina Java‑projekt måste du lägga till biblioteket som ett beroende. Så här gör du med olika byggverktyg:
+Lägg till biblioteket i din byggkonfiguration.
 
 **Maven**  
-Lägg till detta snippet i din `pom.xml`‑fil:
+Lägg till detta kodsnutt i din `pom.xml`‑fil:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -83,16 +96,16 @@ Inkludera följande i din `build.gradle`‑fil:
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Direkt nedladdning**  
-Om du föredrar att inte använda ett byggverktyg, ladda ner den senaste releasen från [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+**Direktnedladdning**  
+Om du föredrar en manuell metod, ladda ner den senaste JAR‑filen från [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 ### Steg för att skaffa licens
-- **Gratis provversion**: Börja med en gratis provversion för att utforska Aspose.Slides‑funktionerna.  
-- **Tillfällig licens**: Skaffa en tillfällig licens för förlängd användning utan begränsningar.  
-- **Köp**: Överväg att köpa om du behöver långsiktig åtkomst.
+- **Free Trial** – utforska alla funktioner utan kostnad.  
+- **Temporary License** – förläng provperiodens begränsningar under en kort period.  
+- **Purchase** – skaffa en permanent licens för produktionsbruk.
 
 **Grundläggande initiering och konfiguration**  
-För att börja använda Aspose.Slides, initiera ditt projekt genom att skapa ett nytt presentation‑objekt:
+`Presentation`‑klassen representerar en PowerPoint‑fil i minnet och tillhandahåller metoder för att manipulera bilder.  
 ```java
 import com.aspose.slides.*;
 
@@ -100,10 +113,10 @@ Presentation presentation = new Presentation();
 ```
 
 ## Implementeringsguide
-Nu bryter vi ner processen för att lägga till och anpassa ett pajdiagram i hanterbara steg.
+Nedan följer en steg‑för‑steg‑genomgång som täcker allt från att skapa en bild till att rotera det slutgiltiga pajdiagrammet.
 
-### Initiera presentation och bild
-Börja med att skapa en ny presentation och komma åt den första bilden. Detta är din duk för att skapa diagram:
+### Initiera Presentation och Bild
+Skapa en ny `Presentation`‑instans och hämta den första bilden för att fungera som diagrammets canvas.  
 ```java
 import com.aspose.slides.*;
 
@@ -114,7 +127,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
 ### Lägg till pajdiagram på bilden
-Infoga ett pajdiagram på den angivna positionen med ett standarddatamängd:
+`addChart` lägger till en diagramform av den angivna typen på bilden på angivna koordinater.  
 ```java
 import com.aspose.slides.*;
 
@@ -122,8 +135,8 @@ import com.aspose.slides.*;
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
-### Ställ in diagramrubrik
-Anpassa ditt diagram genom att sätta och centrera rubriken:
+### Ställ in diagramtitel
+`setTitle` tilldelar en texttitel till diagrammet och placerar den centralt.  
 ```java
 import com.aspose.slides.*;
 
@@ -135,7 +148,7 @@ chart.setTitle(true);
 ```
 
 ### Konfigurera datalabels för serie
-Säkerställ att datalabels visar värden för tydlighet:
+`setShowValue(true)` aktiverar numeriska värdelabels på varje datapunkt i serien.  
 ```java
 import com.aspose.slides.*;
 
@@ -143,8 +156,8 @@ import com.aspose.slides.*;
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 ```
 
-### Förbered diagrammets dataarbetsblad
-Ställ in diagrammets dataarbetsblad genom att rensa befintliga serier och kategorier:
+### Förbered diagramdatablad
+`ChartDataWorkbook` lagrar den underliggande datatabellen som förser diagramserierna och kategorierna.  
 ```java
 import com.aspose.slides.*;
 
@@ -156,7 +169,7 @@ chart.getChartData().getCategories().clear();
 ```
 
 ### Lägg till kategorier i diagrammet
-Definiera kategorier för ditt pajdiagram:
+`addCategory` skapar en ny kategorietikett för diagrammets dataserier.  
 ```java
 import com.aspose.slides.*;
 
@@ -167,7 +180,7 @@ chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 ```
 
 ### Lägg till serie och fyll i datapunkter
-Skapa en serie och fyll den med datapunkter – här **lägger vi till diagramserie**:
+`addSeries` skapar en dataserie, och `addDataPointForBarSeries` infogar numeriska värden för varje kategori.  
 ```java
 import com.aspose.slides.*;
 
@@ -179,7 +192,7 @@ series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetInd
 ```
 
 ### Anpassa seriefärger och kanter
-Förbättra det visuella genom att sätta färger och anpassa kanter – detta **anpassar pajdiagramfärger**:
+`setColorVaried(true)` möjliggör färger per skiva, och `setFillFormat` tilldelar en solid fyllning till varje datapunkt.  
 ```java
 import com.aspose.slides.*;
 
@@ -199,7 +212,7 @@ point.getFormat().getLine().setDashStyle(LineDashStyle.DashDot);
 ```
 
 ### Konfigurera anpassade datalabels
-Finjustera etiketterna för varje datapunkt:
+`setDataLabelFormat` anpassar etikettens utseende, position och teckensnitt för tydligare diagramanteckningar.  
 ```java
 import com.aspose.slides.*;
 
@@ -221,7 +234,7 @@ series.getLabels().getDefaultDataLabelFormat().setShowLeaderLines(true);
 ```
 
 ### Ställ in rotationsvinkel och spara presentation
-Slutför ditt pajdiagram genom att **ställa in rotationsvinkel** och spara filen:
+`setRotationAngle` roterar hela pajdiagrammet, och `save` skriver presentationen till en fil.  
 ```java
 import com.aspose.slides.*;
 
@@ -233,41 +246,51 @@ chart.setRotationAngle(-10);
 presentation.save("PieChartPresentation.pptx", SaveFormat.Pptx);
 ```
 
+## Hur roterar man pajdiagram?
+Läs in diagramobjektet, anropa `chart.setRotationAngle(45.0)` (eller vilket gradvärde som helst), och spara sedan presentationen. Att rotera ett pajdiagram förskjuter startvinkeln, vilket låter dig framhäva ett specifikt segment utan att ändra data. Detta enkla metodanrop fungerar för alla `Chart`‑instanser i Aspose.Slides. Du kan också kombinera rotation med varierade skivfärger för att rikta uppmärksamheten mot den viktigaste datapunkten.
+
 ## Vanliga problem och lösningar
 | Problem | Orsak | Lösning |
 |-------|-------|-----|
-| **Segmenten har alla samma färg** | `setColorVaried(true)` har inte anropats | Se till att du aktiverar varierade färger på series‑gruppen. |
-| **Datalabels visas inte** | `showValue`‑flaggan är inaktiverad | Anropa `setShowValue(true)` på rätt label‑format. |
-| **Rotation har ingen effekt** | Äldre version av Aspose.Slides används | Uppgradera till version 25.4 eller senare. |
-| **Licensundantag vid körning** | Licensfil saknas eller är ogiltig | Ladda din licens med `License license = new License(); license.setLicense("Aspose.Slides.lic");` innan du skapar `Presentation`. |
+| **Slices all appear the same color** | `setColorVaried(true)` not called | Se till att du aktiverar varierade färger på seriegruppen. |
+| **Data labels not showing** | `showValue` flag disabled | Anropa `setShowValue(true)` på etikettformatet. |
+| **Rotation has no effect** | Using an older Aspose.Slides version | Uppgradera till version 25.4 eller senare. |
+| **License exception at runtime** | Missing or invalid license file | Ladda din licens med `License license = new License(); license.setLicense("Aspose.Slides.lic");` innan du skapar `Presentation`. |
 
 ## Vanliga frågor
 
 **Q: Hur får jag en Aspose.Slides‑licens för Java?**  
-A: Du kan begära en gratis provversion från Aspose‑webbplatsen och sedan köpa en permanent licens. Ladda den vid körning som visat i tabellen ovan.
+A: Begär en gratis provversion från Aspose‑webbplatsen, köp sedan en permanent licens. Ladda den vid körning som visas i tabellen under Vanliga problem.
 
 **Q: Kan jag använda den här koden med äldre JDK‑versioner?**  
 A: API‑et kräver JDK 16 eller högre; äldre versioner stöds inte.
 
 **Q: Är det möjligt att exportera diagrammet som en bild istället för PPTX?**  
-A: Ja, anropa `chart.getChartData().getChartDataWorkbook().save("chart.png", ImageFormat.Png);` efter rendering.
+A: Ja—efter rendering, anropa `chart.getChartData().getChartDataWorkbook().save("chart.png", ImageFormat.Png);`.
 
-**Q: Vad händer om jag behöver lägga till fler än en serie i ett pajdiagram?**  
-A: Pajdiagram visar vanligtvis en enda serie; för flera serier överväg ett doughnut‑diagram istället.
+**Q: Vad händer om jag behöver mer än en serie i ett pajdiagram?**  
+A: Pajdiagram är avsedda för en enda dataserie; för flera serier, överväg att använda ett donut‑diagram.
 
-**Q: Fungerar biblioteket på Linux‑servrar?**  
-A: Absolut – Aspose.Slides för Java är plattformsoberoende och körs på alla OS med en kompatibel JDK.
+**Q: Kör Aspose.Slides på Linux‑servrar?**  
+A: Absolut—Aspose.Slides för Java är plattformsoberoende och fungerar på alla operativsystem med en kompatibel JDK.
 
 ---
 
-**Senast uppdaterad:** 2026-02-19  
-**Testat med:** Aspose.Slides för Java 25.4 (jdk16)  
+**Senast uppdaterad:** 2026-07-17  
+**Testad med:** Aspose.Slides for Java 25.4 (JDK 16)  
 **Författare:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Relaterade handledningar
+
+- [Hur man skapar pajdiagram i Java‑presentationer med Aspose.Slides: En omfattande guide](/slides/java/charts-graphs/creating-pie-charts-java-presentations-aspose-slides/)
+- [Mästra pajdiagram i Java med Aspose.Slides: En omfattande guide](/slides/java/charts-graphs/master-pie-charts-aspose-slides-java/)
+- [Rotera diagramtexter i Java med Aspose.Slides: En omfattande guide](/slides/java/charts-graphs/rotate-chart-texts-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

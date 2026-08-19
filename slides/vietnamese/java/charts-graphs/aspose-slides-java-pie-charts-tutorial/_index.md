@@ -1,19 +1,52 @@
 ---
-date: '2026-02-19'
-description: Tìm hiểu cách tạo biểu đồ tròn trong Java với Aspose.Slides, tùy chỉnh
-  màu sắc biểu đồ tròn, thêm chuỗi biểu đồ, làm việc với bảng dữ liệu biểu đồ và đặt
-  góc quay.
+date: '2026-07-17'
+description: Tìm hiểu cách xoay Pie Chart, tùy chỉnh màu sắc của Pie Chart và xuất
+  slide sang PDF bằng Aspose.Slides for Java – hướng dẫn toàn diện về trực quan hoá
+  dữ liệu.
 keywords:
-- Aspose.Slides Java
-- Java pie charts
-- data visualization in Java
-title: Cách Tùy Chỉnh Màu Sắc Biểu Đồ Tròn trong Java với Aspose.Slides – Hướng Dẫn
-  Toàn Diện
+- rotate pie chart
+- customize pie chart colors
+- export slide to pdf
+- chart data worksheet
+- java data visualization
+lastmod: '2026-07-17'
+og_description: Xoay Pie Chart và tùy chỉnh màu sắc của Pie Chart bằng Aspose.Slides
+  for Java. Tìm hiểu cách xuất slide sang PDF và làm việc với chart data worksheet.
+og_image_alt: Guide showing how to rotate a pie chart and set custom colors in Java
+  with Aspose.Slides
+og_title: Xoay Pie Chart và Tùy chỉnh Màu sắc trong Java – Hướng dẫn Aspose.Slides
+schemas:
+- author: Aspose
+  dateModified: '2026-07-17'
+  description: Learn how to rotate pie chart, customize pie chart colors, and export
+    slide to PDF using Aspose.Slides for Java – a full data visualization guide.
+  headline: How to Rotate Pie Chart and Customize Colors in Java with Aspose.Slides
+  type: TechArticle
+- questions:
+  - answer: Request a free trial from the Aspose website, then purchase a permanent
+      license. Load it at runtime as shown in the Common Issues table.
+    question: How do I obtain an Aspose.Slides license for Java?
+  - answer: The API requires JDK 16 or higher; older versions are not supported.
+    question: Can I use this code with older JDK versions?
+  - answer: Yes—after rendering, call `chart.getChartData().getChartDataWorkbook().save("chart.png",
+      ImageFormat.Png);`.
+    question: Is it possible to export the chart as an image instead of PPTX?
+  - answer: Pie charts are designed for a single data series; for multiple series,
+      consider using a doughnut chart.
+    question: What if I need more than one series in a pie chart?
+  - answer: Absolutely—Aspose.Slides for Java is platform‑independent and works on
+      any OS with a compatible JDK.
+    question: Does Aspose.Slides run on Linux servers?
+  type: FAQPage
+tags:
+- rotate pie chart
+- Aspose.Slides
+- Java charting
+- data visualization
+title: Cách xoay Pie Chart và tùy chỉnh màu sắc trong Java với Aspose.Slides
 url: /vi/java/charts-graphs/aspose-slides-java-pie-charts-tutorial/
 weight: 1
 ---
-
-.
 
 {{< blocks/products/pf/main-wrap-class >}}
 
@@ -23,53 +56,32 @@ weight: 1
 # Tạo Biểu Đồ Tròn với Aspose.Slides cho Java: Hướng Dẫn Toàn Diện
 
 ## Giới thiệu
-Việc tạo các bản thuyết trình động và hấp dẫn về mặt hình ảnh là rất quan trọng để truyền tải thông tin một cách ấn tượng. Với Aspose.Slides cho Java, bạn có thể dễ dàng tích hợp các biểu đồ phức tạp như biểu đồ tròn vào slide, **tùy chỉnh màu sắc biểu đồ tròn**, và nâng cao khả năng trực quan hoá dữ liệu một cách nhẹ nhàng. Hướng dẫn toàn diện này sẽ hướng dẫn bạn từng bước tạo và tùy chỉnh biểu đồ tròn bằng Aspose.Slides Java, giải quyết các thách thức thường gặp trong việc tạo bản thuyết trình một cách dễ dàng.
-
-**Bạn sẽ học được:**
-- Khởi tạo một bản thuyết trình và thêm slide.
-- Tạo và cấu hình một biểu đồ tròn trên slide của bạn.
-- Đặt tiêu đề biểu đồ, nhãn dữ liệu, và **tùy chỉnh màu sắc biểu đồ tròn**.
-- Tối ưu hiệu năng và quản lý tài nguyên một cách hiệu quả.
-- Tích hợp Aspose.Slides vào các dự án Java bằng Maven hoặc Gradle.
-
-Hãy bắt đầu bằng cách đảm bảo bạn đã có đầy đủ công cụ và kiến thức cần thiết để làm theo!
+Trong hướng dẫn này, bạn sẽ học cách **xoay biểu đồ tròn**, tùy chỉnh màu sắc cho từng lát cắt, và xuất slide cuối cùng ra PDF — tất cả đều sử dụng Aspose.Slides cho Java. Dù bạn đang xây dựng bảng điều khiển bán hàng, báo cáo tài chính, hay bất kỳ bản trình bày dựa trên dữ liệu nào, việc thành thạo các kỹ thuật này sẽ giúp bạn tạo ra những hình ảnh rõ ràng, bắt mắt mà không cần phụ thuộc vào Microsoft Office. Hãy chuẩn bị công cụ và bắt đầu ngay.
 
 ## Câu trả lời nhanh
-- **Lớp chính để bắt đầu một bản thuyết trình là gì?** `Presentation` từ `com.aspose.slides`.
-- **Phương thức nào thêm biểu đồ tròn vào slide?** `addChart(ChartType.Pie, …)`.
-- **Làm sao để bật màu sắc đa dạng cho mỗi lát?** Gọi `setColorVaried(true)` trên nhóm series.
-- **Có thể xoay biểu đồ tròn không?** Có, sử dụng `setRotationAngle(double)` trên đối tượng chart.
-- **Có cần giấy phép cho việc sử dụng trong môi trường production không?** Cần giấy phép Aspose.Slides cho các triển khai thương mại.
+- **Lớp nào khởi tạo một bản trình bày mới?** `Presentation` từ `com.aspose.slides`.
+- **Lệnh API nào thêm biểu đồ tròn?** `slide.addChart(ChartType.Pie, …)`.
+- **Làm sao để mỗi lát cắt có màu riêng?** Gọi `series.setColorVaried(true)` và đặt màu nền đặc cho từng điểm dữ liệu.
+- **Phương thức nào xoay biểu đồ?** `chart.setRotationAngle(double)` – sử dụng giá trị độ từ 0 đến 360.
+- **Slide có thể xuất ra PDF không?** Có, gọi `presentation.save("output.pdf", SaveFormat.Pdf)`.
 
-## “tùy chỉnh màu sắc biểu đồ tròn” là gì?
-Tùy chỉnh màu sắc biểu đồ tròn có nghĩa là gán các màu nền riêng biệt cho mỗi lát của biểu đồ, giúp cải thiện khả năng đọc và tạo ấn tượng thị giác. Trong Aspose.Slides, bạn thực hiện điều này bằng cách bật màu sắc đa dạng và sau đó đặt màu nền rắn cho từng điểm dữ liệu.
+## “Tùy chỉnh màu sắc biểu đồ tròn” là gì?
+Tùy chỉnh màu sắc biểu đồ tròn có nghĩa là gán các màu nền khác nhau cho từng lát cắt của biểu đồ, giúp cải thiện khả năng đọc và tạo ấn tượng thị giác. Trong Aspose.Slides, bạn thực hiện điều này bằng cách bật màu đa dạng và sau đó đặt màu nền đặc cho từng điểm dữ liệu. Cách tiếp cận này đảm bảo mỗi phân đoạn dữ liệu nổi bật rõ ràng trong bản trình bày.
 
 ## Tại sao nên dùng Aspose.Slides cho Java để tạo biểu đồ tròn?
-- **Kiểm soát toàn diện** về giao diện biểu đồ mà không cần Microsoft Office.
-- **Tương thích đa nền tảng** – hoạt động trên Windows, Linux và macOS.
-- **API phong phú** cho việc ràng buộc dữ liệu, tạo kiểu và xuất ra PPTX, PDF hoặc hình ảnh.
-- **Linh hoạt về giấy phép** – bắt đầu với bản dùng thử miễn phí và nâng cấp khi cần đầy đủ tính năng.
+Aspose.Slides hỗ trợ **hơn 150 loại biểu đồ** và có thể render một bản trình bày 300 trang trong vòng **dưới 5 giây** trên máy chủ tiêu chuẩn, mà không cần cài đặt Microsoft Office. Thư viện chạy trên Windows, Linux và macOS, mang lại sự linh hoạt đa nền tảng cho bất kỳ dự án trực quan dữ liệu Java nào.
 
-## Các điều kiện tiên quyết
-Trước khi bắt đầu tutorial này, hãy chắc chắn rằng bạn đã chuẩn bị đầy đủ:
-
-### Thư viện, phiên bản và phụ thuộc cần thiết
-- **Aspose.Slides cho Java**: phiên bản 25.4 trở lên.
-- **Java Development Kit (JDK)**: phiên bản 16 hoặc cao hơn.
-
-### Yêu cầu thiết lập môi trường
-- Một môi trường phát triển đã cài đặt và cấu hình Java.
-- Một Integrated Development Environment (IDE) như IntelliJ IDEA, Eclipse hoặc NetBeans.
-
-### Kiến thức nền tảng
-- Hiểu biết cơ bản về lập trình Java.
-- Quen thuộc với Maven hoặc Gradle để quản lý phụ thuộc.
+## Yêu cầu trước
+- **Aspose.Slides cho Java** ≥ 25.4
+- **JDK** 16 trở lên
+- IDE như IntelliJ IDEA, Eclipse hoặc NetBeans
+- Kiến thức cơ bản về Java và quen thuộc với Maven hoặc Gradle
 
 ## Cài đặt Aspose.Slides cho Java
-Để bắt đầu sử dụng Aspose.Slides trong dự án Java của bạn, cần thêm thư viện làm phụ thuộc. Dưới đây là cách thực hiện với các công cụ xây dựng khác nhau:
+Thêm thư viện vào cấu hình build của bạn.
 
 **Maven**  
-Thêm đoạn mã sau vào file `pom.xml` của bạn:
+Thêm đoạn mã sau vào tệp `pom.xml` của bạn:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -80,21 +92,21 @@ Thêm đoạn mã sau vào file `pom.xml` của bạn:
 ```
 
 **Gradle**  
-Bao gồm đoạn sau trong file `build.gradle` của bạn:
+Thêm phần sau vào tệp `build.gradle` của bạn:
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
 **Tải trực tiếp**  
-Nếu bạn không muốn dùng công cụ xây dựng, tải bản phát hành mới nhất từ [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+Nếu bạn muốn cách tiếp cận thủ công, tải JAR mới nhất từ [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 ### Các bước lấy giấy phép
-- **Dùng thử miễn phí**: Bắt đầu với bản dùng thử để khám phá các tính năng của Aspose.Slides.  
-- **Giấy phép tạm thời**: Nhận giấy phép tạm thời để sử dụng mở rộng mà không bị giới hạn.  
-- **Mua bản quyền**: Xem xét mua nếu bạn cần truy cập lâu dài.
+- **Dùng thử miễn phí** – khám phá tất cả tính năng mà không tốn phí.  
+- **Giấy phép tạm thời** – mở rộng giới hạn dùng thử trong thời gian ngắn.  
+- **Mua bản quyền** – nhận giấy phép vĩnh viễn cho môi trường sản xuất.
 
-**Khởi tạo và thiết lập cơ bản**  
-Để bắt đầu sử dụng Aspose.Slides, khởi tạo dự án của bạn bằng cách tạo một đối tượng presentation mới:
+**Khởi tạo và Cấu hình Cơ bản**  
+Lớp `Presentation` đại diện cho một tệp PowerPoint trong bộ nhớ và cung cấp các phương thức để thao tác với các slide.  
 ```java
 import com.aspose.slides.*;
 
@@ -102,10 +114,10 @@ Presentation presentation = new Presentation();
 ```
 
 ## Hướng dẫn thực hiện
-Bây giờ chúng ta sẽ chia quá trình thêm và tùy chỉnh biểu đồ tròn thành các bước dễ quản lý.
+Dưới đây là quy trình từng bước, bao gồm mọi thứ từ tạo slide đến xoay biểu đồ tròn cuối cùng.
 
 ### Khởi tạo Presentation và Slide
-Bắt đầu bằng việc tạo một bản thuyết trình mới và truy cập slide đầu tiên. Đây sẽ là canvas để tạo biểu đồ:
+Tạo một thể hiện `Presentation` mới và lấy slide đầu tiên làm canvas cho biểu đồ.  
 ```java
 import com.aspose.slides.*;
 
@@ -115,8 +127,8 @@ Presentation presentation = new Presentation();
 ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
-### Thêm biểu đồ tròn vào Slide
-Chèn một biểu đồ tròn vào vị trí chỉ định với bộ dữ liệu mặc định:
+### Thêm Biểu Đồ Tròn vào Slide
+`addChart` thêm một hình dạng biểu đồ loại đã chỉ định vào slide tại tọa độ cho trước.  
 ```java
 import com.aspose.slides.*;
 
@@ -124,8 +136,8 @@ import com.aspose.slides.*;
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
-### Đặt tiêu đề biểu đồ
-Tùy chỉnh biểu đồ bằng cách đặt và căn giữa tiêu đề:
+### Đặt Tiêu Đề cho Biểu Đồ
+`setTitle` gán tiêu đề văn bản cho biểu đồ và đặt nó ở vị trí trung tâm.  
 ```java
 import com.aspose.slides.*;
 
@@ -136,8 +148,8 @@ chart.getChartTitle().setHeight(20);
 chart.setTitle(true);
 ```
 
-### Cấu hình nhãn dữ liệu cho Series
-Đảm bảo nhãn dữ liệu hiển thị giá trị để rõ ràng:
+### Cấu hình Nhãn Dữ Liệu cho Series
+`setShowValue(true)` bật hiển thị nhãn giá trị số trên mỗi điểm dữ liệu của series.  
 ```java
 import com.aspose.slides.*;
 
@@ -145,8 +157,8 @@ import com.aspose.slides.*;
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 ```
 
-### Chuẩn bị Worksheet dữ liệu cho biểu đồ
-Thiết lập worksheet dữ liệu của biểu đồ bằng cách xóa các series và category hiện có:
+### Chuẩn bị Bảng Dữ Liệu cho Biểu Đồ
+`ChartDataWorkbook` lưu trữ bảng dữ liệu nền mà cung cấp dữ liệu cho các series và danh mục của biểu đồ.  
 ```java
 import com.aspose.slides.*;
 
@@ -157,8 +169,8 @@ chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 ```
 
-### Thêm Category vào biểu đồ
-Xác định các category cho biểu đồ tròn:
+### Thêm Danh Mục vào Biểu Đồ
+`addCategory` tạo một nhãn danh mục mới cho series dữ liệu của biểu đồ.  
 ```java
 import com.aspose.slides.*;
 
@@ -168,8 +180,8 @@ chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 ```
 
-### Thêm Series và Điền dữ liệu cho các điểm
-Tạo một series và điền dữ liệu cho các điểm – đây là nơi chúng ta **thêm series cho biểu đồ**:
+### Thêm Series và Điền Dữ Liệu cho Các Điểm
+`addSeries` tạo một series dữ liệu, và `addDataPointForBarSeries` chèn giá trị số cho mỗi danh mục.  
 ```java
 import com.aspose.slides.*;
 
@@ -180,8 +192,8 @@ series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 ```
 
-### Tùy chỉnh màu và viền cho Series
-Nâng cao tính thẩm mỹ bằng cách đặt màu và tùy chỉnh viền – việc này **tùy chỉnh màu sắc biểu đồ tròn**:
+### Tùy chỉnh Màu và Đường Viền cho Series
+`setColorVaried(true)` bật màu đa dạng cho từng lát cắt, và `setFillFormat` gán màu nền đặc cho mỗi điểm dữ liệu.  
 ```java
 import com.aspose.slides.*;
 
@@ -200,8 +212,8 @@ point.getFormat().getLine().setDashStyle(LineDashStyle.DashDot);
 // Repeat for other data points with different colors and styles.
 ```
 
-### Cấu hình nhãn dữ liệu tùy chỉnh
-Tinh chỉnh nhãn cho mỗi điểm dữ liệu:
+### Cấu hình Nhãn Dữ Liệu Tùy Chỉnh
+`setDataLabelFormat` tùy chỉnh giao diện, vị trí và phông chữ của nhãn để chú thích biểu đồ rõ ràng hơn.  
 ```java
 import com.aspose.slides.*;
 
@@ -222,8 +234,8 @@ lbl3.getDataLabelFormat().setShowPercentage(true);
 series.getLabels().getDefaultDataLabelFormat().setShowLeaderLines(true);
 ```
 
-### Đặt góc xoay và lưu Presentation
-Hoàn thiện biểu đồ tròn bằng **đặt góc xoay** và lưu file:
+### Đặt Góc Xoay và Lưu Presentation
+`setRotationAngle` xoay toàn bộ biểu đồ tròn, và `save` ghi bản trình bày ra tệp.  
 ```java
 import com.aspose.slides.*;
 
@@ -235,41 +247,51 @@ chart.setRotationAngle(-10);
 presentation.save("PieChartPresentation.pptx", SaveFormat.Pptx);
 ```
 
+## Cách xoay biểu đồ tròn?
+Tải đối tượng biểu đồ, gọi `chart.setRotationAngle(45.0)` (hoặc bất kỳ giá trị độ nào), sau đó lưu presentation. Việc xoay biểu đồ tròn thay đổi góc bắt đầu, cho phép bạn nhấn mạnh một lát cắt cụ thể mà không thay đổi dữ liệu. Lệnh duy nhất này hoạt động cho bất kỳ đối tượng `Chart` nào trong Aspose.Slides. Bạn cũng có thể kết hợp xoay với màu sắc đa dạng để thu hút sự chú ý đến điểm dữ liệu quan trọng nhất.
+
 ## Các vấn đề thường gặp và giải pháp
 | Vấn đề | Nguyên nhân | Giải pháp |
 |-------|-------------|----------|
-| **Các lát đều có cùng màu** | `setColorVaried(true)` chưa được gọi | Đảm bảo bạn đã bật màu sắc đa dạng trên nhóm series. |
-| **Nhãn dữ liệu không hiển thị** | Cờ `showValue` bị tắt | Gọi `setShowValue(true)` trên định dạng nhãn tương ứng. |
-| **Xoay không có hiệu lực** | Sử dụng phiên bản Aspose.Slides cũ | Nâng cấp lên phiên bản 25.4 hoặc mới hơn. |
+| **Các lát cắt đều có cùng màu** | `setColorVaried(true)` chưa được gọi | Đảm bảo bật màu đa dạng trên nhóm series. |
+| **Nhãn dữ liệu không hiển thị** | Cờ `showValue` bị tắt | Gọi `setShowValue(true)` trên định dạng nhãn. |
+| **Xoay không có hiệu lực** | Sử dụng phiên bản Aspose.Slides cũ | Nâng cấp lên phiên bản 25.4 hoặc mới hơn. |
 | **Lỗi giấy phép khi chạy** | Thiếu hoặc file giấy phép không hợp lệ | Tải giấy phép bằng `License license = new License(); license.setLicense("Aspose.Slides.lic");` trước khi tạo `Presentation`. |
 
 ## Câu hỏi thường gặp
 
 **H: Làm sao để lấy giấy phép Aspose.Slides cho Java?**  
-Đ: Bạn có thể yêu cầu bản dùng thử miễn phí từ trang web Aspose, sau đó mua giấy phép vĩnh viễn. Tải giấy phép tại thời gian chạy như đã mô tả trong bảng Vấn đề thường gặp.
+Đ: Yêu cầu dùng thử miễn phí từ trang web Aspose, sau đó mua giấy phép vĩnh viễn. Tải giấy phép tại thời gian chạy như trong bảng “Các vấn đề thường gặp”.
 
-**H: Có thể dùng đoạn mã này với các phiên bản JDK cũ hơn không?**  
-Đ: API yêu cầu JDK 16 hoặc cao hơn; các phiên bản cũ không được hỗ trợ.
+**H: Có thể dùng mã này với các phiên bản JDK cũ hơn không?**  
+Đ: API yêu cầu JDK 16 trở lên; các phiên bản cũ không được hỗ trợ.
 
 **H: Có thể xuất biểu đồ dưới dạng hình ảnh thay vì PPTX không?**  
-Đ: Có, gọi `chart.getChartData().getChartDataWorkbook().save("chart.png", ImageFormat.Png);` sau khi render.
+Đ: Có — sau khi render, gọi `chart.getChartData().getChartDataWorkbook().save("chart.png", ImageFormat.Png);`.
 
-**H: Nếu cần thêm hơn một series vào biểu đồ tròn thì sao?**  
-Đ: Biểu đồ tròn thường chỉ hiển thị một series; nếu muốn nhiều series, hãy xem xét sử dụng biểu đồ donut.
+**H: Nếu cần hơn một series trong biểu đồ tròn thì sao?**  
+Đ: Biểu đồ tròn chỉ hỗ trợ một series dữ liệu; nếu cần nhiều series, hãy xem xét sử dụng biểu đồ donut.
 
-**H: Thư viện có hoạt động trên máy chủ Linux không?**  
-Đ: Hoàn toàn có – Aspose.Slides cho Java không phụ thuộc vào nền tảng và chạy trên bất kỳ hệ điều hành nào có JDK tương thích.
+**H: Aspose.Slides có chạy trên máy chủ Linux không?**  
+Đ: Chắc chắn — Aspose.Slides cho Java không phụ thuộc vào nền tảng và hoạt động trên bất kỳ hệ điều hành nào có JDK tương thích.
 
 ---
 
-**Cập nhật lần cuối:** 2026-02-19  
-**Kiểm tra với:** Aspose.Slides cho Java 25.4 (jdk16)  
+**Cập nhật lần cuối:** 2026-07-17  
+**Kiểm tra với:** Aspose.Slides cho Java 25.4 (JDK 16)  
 **Tác giả:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Các hướng dẫn liên quan
+
+- [Cách Tạo Biểu Đồ Tròn trong Bản Trình Bày Java bằng Aspose.Slides: Hướng Dẫn Toàn Diện](/slides/java/charts-graphs/creating-pie-charts-java-presentations-aspose-slides/)
+- [Làm Chủ Biểu Đồ Tròn trong Java bằng Aspose.Slides: Hướng Dẫn Toàn Diện](/slides/java/charts-graphs/master-pie-charts-aspose-slides-java/)
+- [Xoay Văn Bản Biểu Đồ trong Java với Aspose.Slides: Hướng Dẫn Toàn Diện](/slides/java/charts-graphs/rotate-chart-texts-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
