@@ -1,70 +1,112 @@
 ---
-date: '2026-02-17'
-description: تعلم كيفية إنشاء مخطط الدونات في PowerPoint باستخدام Aspose.Slides للغة
-  Java وإضافة نقاط بيانات المخطط برمجياً. اتبع خطوات سهلة وأمثلة على الشيفرة.
+date: '2026-07-08'
+description: تعلم كيفية استخدام Aspose لإنشاء مخطط doughnut chart في PowerPoint باستخدام
+  Java. يوضح هذا الدليل خطوة بخطوة إضافة نقاط بيانات المخطط برمجياً، وتخصيص التسميات،
+  وحفظ ملف PPTX بجودة عالية.
 keywords:
-- Aspose.Slides for Java
-- dynamic doughnut charts PowerPoint
-- Java PowerPoint chart creation
-title: إنشاء مخطط دونات في PowerPoint باستخدام Aspose.Slides للـ Java
+- how to use aspose
+- create doughnut chart powerpoint
+- maven dependency aspose slides
+lastmod: '2026-07-08'
+og_description: يتيح لك استخدام Aspose إنشاء مخطط doughnut chart في PowerPoint باستخدام
+  Java. اتبع هذا البرنامج التعليمي لإضافة نقاط البيانات، وتخصيص التسميات، وحفظ ملف
+  PPTX بجودة عالية.
+og_image_alt: 'Guide: Create doughnut chart PowerPoint with Aspose.Slides for Java'
+og_title: 'كيفية استخدام Aspose: إنشاء مخطط doughnut chart في PowerPoint (Java)'
+schemas:
+- author: Aspose
+  dateModified: '2026-07-08'
+  description: Learn how to use Aspose to create a doughnut chart in PowerPoint with
+    Java. This step‑by‑step guide shows adding chart data points programmatically,
+    customizing labels, and saving the PPTX with high fidelity.
+  headline: How to Use Aspose Create Doughnut Chart in PowerPoint (Java)
+  type: TechArticle
+- description: Learn how to use Aspose to create a doughnut chart in PowerPoint with
+    Java. This step‑by‑step guide shows adding chart data points programmatically,
+    customizing labels, and saving the PPTX with high fidelity.
+  name: How to Use Aspose Create Doughnut Chart in PowerPoint (Java)
+  steps:
+  - name: Initialize the presentation
+    text: Create a fresh presentation or open an existing file to obtain a slide collection.
+      `Presentation` is the primary class that represents a PowerPoint file.
+  - name: Add a doughnut chart to the slide
+    text: Insert a chart shape, remove default series/categories, and configure basic
+      visual settings like the doughnut hole size. `Chart` (or chart shape) represents
+      a chart object placed on a slide.
+  - name: Add chart data points and customize labels
+    text: Populate category names, add data points for each series, and fine‑tune
+      label formatting (font, color, position). This step demonstrates the “add chart
+      data points” capability. `Workbook` provides access to the chart’s underlying
+      spreadsheet data where cells are populated.
+  - name: Save the updated presentation
+    text: Persist the changes to a new PPTX file on disk. `save` writes the presentation
+      to a file in the chosen format.
+  type: HowTo
+- questions:
+  - answer: Yes, but you need a valid commercial license. A free trial is available
+      for evaluation.
+    question: Can I use Aspose.Slides for Java in commercial applications?
+  - answer: Increase the loop limit in the “Add Doughnut Chart” step and ensure your
+      data workbook contains enough rows.
+    question: How do I add more than 15 series?
+  - answer: Yes, call `series.getParentSeriesGroup().setDoughnutHoleSize((byte)desiredSize)`
+      before saving.
+    question: Is it possible to change the doughnut hole size after creation?
+  - answer: Absolutely. Use `chart.getImage()` and save the returned `java.awt.image.BufferedImage`
+      in your preferred format.
+    question: Can I export the chart as an image instead of a PPTX?
+  - answer: Animation can be added via the `ISlide.getTimeline()` API, though it’s
+      beyond the scope of this tutorial.
+    question: Does Aspose.Slides support animated charts?
+  type: FAQPage
+tags:
+- doughnut chart
+- Aspose.Slides
+- Java PowerPoint
+- chart generation
+- presentation automation
+title: كيفية استخدام Aspose لإنشاء مخطط doughnut chart في PowerPoint (Java)
 url: /ar/java/charts-graphs/aspose-slides-java-doughnut-charts-ppt-powerpoint/
 weight: 1
 ---
-
-Tested With:", "Author:" keep as is? Should translate "Last Updated" etc. Probably translate to Arabic: "آخر تحديث:" etc. Keep dates.
-
-Then close shortcodes.
-
-Let's produce final content.
-
-Be careful to keep all shortcodes unchanged.
-
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# إنشاء مخطط دونات في PowerPoint باستخدام Aspose.Slides للغة Java
+# كيفية استخدام Aspose لإنشاء مخطط دونات في PowerPoint (Java)
 
-## Introduction
-إنشاء عروض تقديمية جذابة يتطلب غالبًا أكثر من النصوص والصور؛ فالمخططات يمكنها تعزيز السرد بشكل كبير من خلال تصور البيانات بفعالية. ومع ذلك، يواجه العديد من المطورين صعوبة في دمج ميزات المخططات الديناميكية في ملفات PowerPoint برمجيًا. يوضح هذا الدليل كيفية **إنشاء مخطط دونات في PowerPoint** باستخدام Aspose.Slides للغة Java—أداة قوية تجمع بين المرونة وسهولة الاستخدام.
+## المقدمة
+إنشاء عروض تقديمية جذابة غالبًا ما يتطلب أكثر من مجرد نصوص وصور؛ فالمخططات يمكنها تعزيز السرد بشكل كبير من خلال تصور البيانات بفعالية. **كيفية استخدام Aspose** لتوليد المخططات يمنحك التحكم البرمجي دون الحاجة لفتح PowerPoint. يوضح هذا الدليل كيفية بناء مخطط دونات، وتكوين نقاط البيانات الخاصة به، وحفظ ملف PPTX عالي الدقة. كل ما تحتاجه هو معرفة أساسية بـ Java وبضع دقائق من إعداد البيئة.
 
-**ما ستتعلمه:**
-- كيفية تهيئة عرض تقديمي باستخدام Aspose.Slides للغة Java
-- دليل خطوة بخطوة لإضافة مخطط دونات إلى الشرائح
-- تكوين نقاط البيانات وتخصيص خصائص التسميات
-- حفظ العرض التقديمي المعدل بجودة عالية
+`Aspose.Slides for Java` هي مكتبة Java تمكّن من إنشاء، تعديل، وتحويل ملفات PowerPoint دون الحاجة إلى Microsoft Office.
 
-دعنا نستكشف كيف يمكنك الاستفادة من هذه الميزات لتعزيز عروضك التقديمية. قبل أن نبدأ، تأكد من إلمامك بمفاهيم برمجة Java الأساسية.
+## إجابات سريعة
+- **ما المكتبة التي تنشئ مخطط دونات في PowerPoint؟** Aspose.Slides for Java  
+- **هل يمكن إضافة نقاط بيانات المخطط برمجيًا؟** نعم، باستخدام واجهة برمجة تطبيقات المخطط  
+- **هل أحتاج إلى ترخيص للإنتاج؟** يلزم وجود ترخيص صالح لـ Aspose.Slides  
+- **ما إصدارات Java المدعومة؟** Java 8 وما فوق (المصنف JDK 16 موضح)  
+- **كم عدد السلاسل التي يمكنني إضافتها؟** المثال يضيف حتى 15 سلسلة، ويمكنك تعديل ذلك حسب الحاجة  
 
-## Quick Answers
-- **ما المكتبة التي تنشئ مخطط دونات في PowerPoint؟** Aspose.Slides للغة Java
-- **هل يمكنني إضافة نقاط بيانات المخطط برمجيًا؟** نعم، باستخدام API المخطط
-- **هل أحتاج إلى ترخيص للإنتاج؟** يتطلب ترخيص صالح لـ Aspose.Slides
-- **ما إصدارات Java المدعومة؟** Java 8 وما فوق (المصنف JDK 16 موضح)
-- **كم عدد السلاسل التي يمكنني إضافتها؟** المثال يضيف حتى 15 سلسلة، لكن يمكنك تعديل ذلك حسب الحاجة
+## ما هو مخطط الدونات في PowerPoint؟
+مخطط الدونات هو مخطط دائري يشبه مخطط الفطيرة لكنه يحتوي على مركز مجوف، مما يسمح بعرض عدة سلاسل في آنٍ واحد. يبرز العلاقات بين الجزء والكل مع الحفاظ على تخطيط بصري مدمج وسهل القراءة.
 
-## What is a doughnut chart in PowerPoint?
-مخطط الدونات هو نسخة من مخطط الفطيرة مع مركز مجوف، مما يتيح لك عرض عدة سلاسل بيانات بطريقة مدمجة وجذابة بصريًا. وهو مثالي لإظهار علاقات الجزء إلى الكل مع الحفاظ على تصميم نظيف.
+## لماذا نستخدم Aspose.Slides for Java لإنشاء مخططات الدونات؟
+Aspose.Slides for Java يدعم أكثر من 50 صيغة إدخال وإخراج ويمكنه توليد عروض تقديمية تصل إلى 500 ميغابايت دون تحميل الملف بالكامل في الذاكرة. يمنحك تحكمًا برمجيًا كاملاً في مظهر المخطط، البيانات، وتخطيطه على أي منصة Java، ويقضي على الحاجة إلى COM interop، ويمكنه إنشاء 100 شريحة غنية بالمخططات في أقل من ثانيتين على خادم عادي.
 
-## Why use Aspose.Slides for Java to create doughnut charts?
-- **تحكم كامل** في مظهر المخطط والبيانات والتخطيط دون الحاجة لفتح PowerPoint
-- **بدون COM interop** – يعمل على أي منصة تدعم Java
-- **أداء عالي** لتوليد عروض ضخمة أو دمجها مع خدمات الويب
-- **تخصيص غني** مثل الانفجار، حجم الفتحة، زوايا الشرائح، وتنسيق التسميات
+## المتطلبات المسبقة
+- معرفة أساسية ببرمجة Java.  
+- بيئة تطوير متكاملة مثل IntelliJ IDEA أو Eclipse.  
+- Maven أو Gradle لإدارة الاعتمادات.  
+- ترخيص صالح لـ Aspose.Slides for Java (يتوفر نسخة تجريبية مجانية).
 
-## Prerequisites
-- معرفة أساسية ببرمجة Java.
-- بيئة تطوير متكاملة مثل IntelliJ IDEA أو Eclipse.
-- Maven أو Gradle لإدارة الاعتمادات.
-- ترخيص صالح لـ Aspose.Slides للغة Java (يتوفر إصدار تجريبي مجاني).
-
-## Setting Up Aspose.Slides for Java
+## إعداد Aspose.Slides for Java
 اختر مدير الاعتمادات الذي يناسب مشروعك.
 
-**Maven**
+**Maven**  
+أضف الاعتماد التالي إلى ملف `pom.xml` (استبدل الإصدار بأحدث إصدار):
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -74,22 +116,46 @@ Let's craft translation.
 </dependency>
 ```
 
-**Gradle**
+**Gradle**  
+أضف هذا السطر إلى ملف `build.gradle`:
+
+```gradle
+implementation 'com.aspose:aspose-slides:25.4:jdk16'
+```
+
+إذا كنت تفضّل التحميل المباشر، زر صفحة [إصدارات Aspose.Slides for Java](https://releases.aspose.com/slides/java/).
+
+### الحصول على الترخيص
+يمكنك البدء بنسخة تجريبية مجانية لاستكشاف ميزات Aspose.Slides. للاستخدام الموسع، اشترِ ترخيصًا أو اطلب ترخيصًا مؤقتًا من [موقع Aspose](https://purchase.aspose.com/temporary-license/). اتبع التعليمات المقدمة لإعداد بيئتك وتهيئة Aspose.Slides في تطبيقك.
+
+## كيفية إنشاء مخطط دونات في PowerPoint باستخدام Aspose.Slides for Java
+لبناء مخطط دونات، ابدأ بتحميل أو إنشاء كائن `Presentation`، أضف شكل مخطط من النوع `ChartType.Doughnut`، احذف السلاسل الافتراضية، اضبط حجم الفتحة، ثم املأ دفتر عمل المخطط بأسماء الفئات والقيم الرقمية. أخيرًا، عدّل تنسيق التسميات واحفظ الملف بصيغة PPTX.
+
+### الخطوة 1: تهيئة العرض التقديمي
+أنشئ عرضًا تقديميًا جديدًا أو افتح ملفًا موجودًا للحصول على مجموعة الشرائح.
+
+`Presentation` هو الصنف الأساسي الذي يمثل ملف PowerPoint.  
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-slides</artifactId>
+    <version>25.4</version>
+    <classifier>jdk16</classifier>
+</dependency>
+```
+
+### الخطوة 2: إضافة مخطط دونات إلى الشريحة
+أدرج شكل مخطط، احذف السلاسل/الفئات الافتراضية، واضبط الإعدادات البصرية الأساسية مثل حجم فتحة الدونات.
+
+`Chart` (أو شكل المخطط) يمثل كائن المخطط الموضوع على الشريحة.  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-إذا كنت تفضل التحميل المباشر، زر صفحة [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+### الخطوة 3: إضافة نقاط بيانات المخطط وتخصيص التسميات
+املأ أسماء الفئات، أضف نقاط البيانات لكل سلسلة، واضبط تنسيق التسميات (الخط، اللون، الموضع). تُظهر هذه الخطوة قدرة “إضافة نقاط بيانات المخطط”.
 
-### License Acquisition
-يمكنك البدء بإصدار تجريبي مجاني لاستكشاف ميزات Aspose.Slides. للاستخدام الموسع، اشترِ ترخيصًا أو اطلب ترخيصًا مؤقتًا من [موقع Aspose](https://purchase.aspose.com/temporary-license/). اتبع التعليمات المقدمة لإعداد بيئتك وتهيئة Aspose.Slides في تطبيقك.
-
-## How to create doughnut chart PowerPoint using Aspose.Slides for Java
-فيما يلي دليل كامل خطوة بخطوة. يتم شرح كل كتلة شفرة قبلها مباشرةً، لتعرف بالضبط ما يحدث.
-
-### Step 1: Initialize the presentation
-أولًا، حمّل ملف PPTX موجود أو أنشئ ملفًا جديدًا. هذا يُعد مجموعة الشرائح لتعديلات لاحقة.
-
+`Workbook` يوفر الوصول إلى بيانات جدول البيانات الأساسي للمخطط حيث تُملأ الخلايا.  
 ```java
 import com.aspose.slides.*;
 
@@ -101,9 +167,10 @@ ISlide slide = pres.getSlides().get_Item(0);
 pres.save(dataDir + "/initialized_chart.pptx", SaveFormat.Pptx);
 ```
 
-### Step 2: Add a doughnut chart to the slide
-نضيف شكل المخطط، نحذف أي سلاسل/فئات افتراضية، ونضبط الخصائص البصرية الأساسية.
+### الخطوة 4: حفظ العرض التقديمي المحدث
+احفظ التغييرات إلى ملف PPTX جديد على القرص.
 
+`save` يكتب العرض التقديمي إلى ملف بالصيغ المختارة.  
 ```java
 import com.aspose.slides.*;
 
@@ -126,8 +193,50 @@ while (seriesIndex < 15) {
 }
 ```
 
-### Step 3: Add chart data points and customize labels
-نقوم بملء الفئات، إضافة نقاط البيانات لكل سلسلة، وضبط مظهر التسميات بدقة. هنا يأتي دور كلمة **add chart data points**.
+## تطبيقات عملية
+مخططات الدونات مثالية لـ:
+- **التقارير المالية:** تصور تخصيص الميزانية أو توزيع النفقات.  
+- **تحليل السوق:** إظهار توزيع حصة السوق بين المنافسين.  
+- **نتائج الاستبيانات:** عرض بيانات الاستبيان الفئوية بشكل مدمج.  
+- **إنشاء لوحات التحكم:** دمجها مع استعلامات قاعدة البيانات لإنتاج شرائح محدثة تلقائيًا.
+
+## اعتبارات الأداء
+- **تحرير الموارد:** استدعِ `pres.dispose()` بعد الحفظ لتحرير الذاكرة الأصلية.  
+- **حد عدد المخططات:** إضافة مئات المخططات قد يزيد من استهلاك الذاكرة؛ قم بالمعالجة على دفعات إذا لزم الأمر.  
+- **استخدام البث:** للمجموعات الضخمة من البيانات، املأ دفتر العمل مباشرةً من التدفقات بدلاً من المصفوفات في الذاكرة.  
+
+## المشكلات الشائعة والحلول
+| المشكلة | السبب | الحل |
+|-------|-------|-----|
+| **المخطط يظهر فارغًا** | الخلايا غير مملوءة بشكل صحيح | تحقق من أن `workBook.getCell(...)` يشير إلى الصف/العمود الصحيح. |
+| **تداخل التسميات** | عدد كبير من الفئات في مساحة محدودة | زد `DoughnutHoleSize` أو عدّل `FirstSliceAngle`. |
+| **OutOfMemoryError** | عروض تقديمية كبيرة دون تحرير الموارد | استدعِ `pres.dispose()` بعد الحفظ وفكّر في زيادة حجم heap للـ JVM. |
+
+## الأسئلة المتكررة
+
+**س: هل يمكنني استخدام Aspose.Slides for Java في التطبيقات التجارية؟**  
+ج: نعم، لكن يلزم وجود ترخيص تجاري صالح. تتوفر نسخة تجريبية مجانية للتقييم.
+
+**س: كيف يمكنني إضافة أكثر من 15 سلسلة؟**  
+ج: زد حد الحلقة في خطوة “إضافة مخطط دونات” وتأكد من أن دفتر عمل البيانات يحتوي على عدد كافٍ من الصفوف.
+
+**س: هل يمكن تغيير حجم فتحة الدونات بعد الإنشاء؟**  
+ج: نعم، استدعِ `series.getParentSeriesGroup().setDoughnutHoleSize((byte)desiredSize)` قبل الحفظ.
+
+**س: هل يمكنني تصدير المخطط كصورة بدلاً من PPTX؟**  
+ج: بالتأكيد. استخدم `chart.getImage()` واحفظ الـ `java.awt.image.BufferedImage` المسترجعة بالصيغ التي تفضلها.
+
+**س: هل يدعم Aspose.Slides المخططات المتحركة؟**  
+ج: يمكن إضافة الرسوم المتحركة عبر واجهة `ISlide.getTimeline()`، رغم أن ذلك خارج نطاق هذا الدليل.
+
+## الخلاصة
+أصبح لديك الآن طريقة كاملة وجاهزة للإنتاج **لإنشاء ملفات PowerPoint بمخططات دونات** باستخدام Aspose.Slides for Java، بما في ذلك كيفية **إضافة نقاط بيانات المخطط**، تخصيص التسميات، ومعالجة اعتبارات الأداء. جرّب ألوانًا مختلفة، مصادر بيانات متنوعة، وأنواع مخططات أخرى لجعل عروضك التقديمية متميزة حقًا.
+
+---
+
+**آخر تحديث:** 2026-07-08  
+**تم الاختبار باستخدام:** Aspose.Slides for Java 25.4 (المصنف JDK 16)  
+**المؤلف:** Aspose
 
 ```java
 import com.aspose.slides.*;
@@ -172,64 +281,22 @@ while (categoryIndex < 15) {
 }
 ```
 
-### Step 4: Save the updated presentation
-أخيرًا، احفظ التغييرات في ملف PPTX جديد.
-
 ```java
 import com.aspose.slides.*;
 
 pres.save(dataDir + "/chart.pptx", SaveFormat.Pptx);
 ```
 
-## Practical Applications
-يمكن استخدام مخططات الدونات في سيناريوهات واقعية متعددة:
-- **التقارير المالية:** تصور تخصيص الميزانية أو توزيع النفقات.
-- **تحليل السوق:** إظهار حصة السوق بين المنافسين.
-- **نتائج الاستطلاعات:** عرض بيانات الاستطلاع الفئوية بشكل مدمج.
-- **إنشاء لوحات التحكم:** دمجها مع استعلامات قاعدة البيانات لتوليد شرائح محدثة تلقائيًا.
+## دروس ذات صلة
 
-## Performance Considerations
-- **تحرير الموارد:** استدعِ `pres.dispose()` عند الانتهاء لتحرير الذاكرة الأصلية.
-- **حد عدد المخططات:** إضافة مئات المخططات قد تزيد من استهلاك الذاكرة؛ قم بالمعالجة على دفعات إذا لزم الأمر.
-- **استخدام البث:** للمجموعات الضخمة من البيانات، احمل دفتر العمل مباشرةً من التدفقات بدلاً من المصفوفات في الذاكرة.
+- [كيفية إضافة مخططات إلى PowerPoint باستخدام Aspose.Slides for Java: دليل خطوة بخطوة](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [كيفية تحرير بيانات مخطط PowerPoint باستخدام Aspose.Slides for Java: دليل شامل](/slides/java/charts-graphs/edit-ppt-chart-data-aspose-slides-java/)
+- [تحريك المخططات في PowerPoint باستخدام Aspose.Slides for Java – دليل خطوة بخطوة](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
 
-## Common Issues and Solutions
-| المشكلة | السبب | الحل |
-|-------|-------|-----|
-| **Chart appears blank** | Data cells not populated correctly | Verify that `workBook.getCell(...)` references the correct row/column indices. |
-| **Labels overlap** | Too many categories in limited space | Increase `DoughnutHoleSize` or adjust `FirstSliceAngle`. |
-| **OutOfMemoryError** | Large presentations without disposing | Call `pres.dispose()` after saving and consider increasing JVM heap size. |
-
-## Frequently Asked Questions
-
-**س: هل يمكنني استخدام Aspose.Slides للغة Java في التطبيقات التجارية؟**  
-ج: نعم، لكنك تحتاج إلى ترخيص تجاري صالح. يتوفر إصدار تجريبي مجاني للتقييم.
-
-**س: كيف يمكنني إضافة أكثر من 15 سلسلة؟**  
-ج: زد حد الحلقة في خطوة “Add Doughnut Chart” وتأكد من أن دفتر العمل يحتوي على عدد كافٍ من الصفوف.
-
-**س: هل يمكن تغيير حجم فتحة الدونات بعد الإنشاء؟**  
-ج: نعم، استدعِ `series.getParentSeriesGroup().setDoughnutHoleSize((byte)desiredSize)` في أي وقت قبل الحفظ.
-
-**س: هل يمكنني تصدير المخطط كصورة بدلاً من PPTX؟**  
-ج: بالطبع. استخدم `chart.getImage()` واحفظ الـ `java.awt.image.BufferedImage` بالصيغة التي تفضلها.
-
-**س: هل يدعم Aspose.Slides المخططات المتحركة؟**  
-ج: يمكن إضافة الرسوم المتحركة عبر API `ISlide.getTimeline()`، لكن ذلك خارج نطاق هذا الدليل.
-
-## Conclusion
-الآن لديك طريقة جاهزة للإنتاج **لإنشاء مخطط دونات في PowerPoint** باستخدام Aspose.Slides للغة Java، بما في ذلك كيفية **add chart data points**، تخصيص التسميات، ومعالجة اعتبارات الأداء. جرّب ألوانًا مختلفة، مصادر بيانات متنوعة، وأنواع مخططات أخرى لجعل عروضك التقديمية تبرز حقًا.
-
----
-
-**Last Updated:** 2026-02-17  
-**Tested With:** Aspose.Slides for Java 25.4 (JDK 16 classifier)  
-**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

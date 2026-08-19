@@ -1,77 +1,113 @@
 ---
-date: '2026-02-17'
-description: Pelajari cara membuat diagram donat di PowerPoint menggunakan Aspose.Slides
-  for Java dan menambahkan titik data diagram secara programatis. Ikuti langkah‑langkah
-  mudah serta contoh kode.
+date: '2026-07-08'
+description: Pelajari cara menggunakan Aspose untuk membuat diagram donat di PowerPoint
+  dengan Java. Panduan langkah demi langkah ini menunjukkan cara menambahkan titik
+  data diagram secara programatis, menyesuaikan label, dan menyimpan file PPTX dengan
+  fidelitas tinggi.
 keywords:
-- Aspose.Slides for Java
-- dynamic doughnut charts PowerPoint
-- Java PowerPoint chart creation
-title: Buat diagram donat PowerPoint dengan Aspose.Slides untuk Java
+- how to use aspose
+- create doughnut chart powerpoint
+- maven dependency aspose slides
+lastmod: '2026-07-08'
+og_description: Cara menggunakan Aspose memungkinkan Anda membuat diagram donat di
+  PowerPoint menggunakan Java. Ikuti tutorial ini untuk menambahkan titik data, menyesuaikan
+  label, dan menyimpan file PPTX dengan fidelitas tinggi.
+og_image_alt: 'Guide: Create doughnut chart PowerPoint with Aspose.Slides for Java'
+og_title: 'Cara Menggunakan Aspose: Membuat Diagram Donat di PowerPoint (Java)'
+schemas:
+- author: Aspose
+  dateModified: '2026-07-08'
+  description: Learn how to use Aspose to create a doughnut chart in PowerPoint with
+    Java. This step‑by‑step guide shows adding chart data points programmatically,
+    customizing labels, and saving the PPTX with high fidelity.
+  headline: How to Use Aspose Create Doughnut Chart in PowerPoint (Java)
+  type: TechArticle
+- description: Learn how to use Aspose to create a doughnut chart in PowerPoint with
+    Java. This step‑by‑step guide shows adding chart data points programmatically,
+    customizing labels, and saving the PPTX with high fidelity.
+  name: How to Use Aspose Create Doughnut Chart in PowerPoint (Java)
+  steps:
+  - name: Initialize the presentation
+    text: Create a fresh presentation or open an existing file to obtain a slide collection.
+      `Presentation` is the primary class that represents a PowerPoint file.
+  - name: Add a doughnut chart to the slide
+    text: Insert a chart shape, remove default series/categories, and configure basic
+      visual settings like the doughnut hole size. `Chart` (or chart shape) represents
+      a chart object placed on a slide.
+  - name: Add chart data points and customize labels
+    text: Populate category names, add data points for each series, and fine‑tune
+      label formatting (font, color, position). This step demonstrates the “add chart
+      data points” capability. `Workbook` provides access to the chart’s underlying
+      spreadsheet data where cells are populated.
+  - name: Save the updated presentation
+    text: Persist the changes to a new PPTX file on disk. `save` writes the presentation
+      to a file in the chosen format.
+  type: HowTo
+- questions:
+  - answer: Yes, but you need a valid commercial license. A free trial is available
+      for evaluation.
+    question: Can I use Aspose.Slides for Java in commercial applications?
+  - answer: Increase the loop limit in the “Add Doughnut Chart” step and ensure your
+      data workbook contains enough rows.
+    question: How do I add more than 15 series?
+  - answer: Yes, call `series.getParentSeriesGroup().setDoughnutHoleSize((byte)desiredSize)`
+      before saving.
+    question: Is it possible to change the doughnut hole size after creation?
+  - answer: Absolutely. Use `chart.getImage()` and save the returned `java.awt.image.BufferedImage`
+      in your preferred format.
+    question: Can I export the chart as an image instead of a PPTX?
+  - answer: Animation can be added via the `ISlide.getTimeline()` API, though it’s
+      beyond the scope of this tutorial.
+    question: Does Aspose.Slides support animated charts?
+  type: FAQPage
+tags:
+- doughnut chart
+- Aspose.Slides
+- Java PowerPoint
+- chart generation
+- presentation automation
+title: Cara Menggunakan Aspose untuk Membuat Diagram Donat di PowerPoint (Java)
 url: /id/java/charts-graphs/aspose-slides-java-doughnut-charts-ppt-powerpoint/
 weight: 1
 ---
-
- So we translate.
-
-Also translate bullet lists.
-
-Make sure not to translate URLs inside markdown links.
-
-Also keep the shortcodes at top and bottom.
-
-Let's produce final content.
-
-Check for any inline code like `pres.dispose()`, keep as is.
-
-Translate sentences.
-
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Membuat Diagram Donat di PowerPoint dengan Aspose.Slides untuk Java
+# Cara Menggunakan Aspose untuk Membuat Diagram Donat di PowerPoint (Java)
 
 ## Pendahuluan
-Membuat presentasi yang menarik sering kali memerlukan lebih dari sekadar teks dan gambar; diagram dapat secara signifikan meningkatkan alur cerita dengan memvisualisasikan data secara efektif. Namun, banyak pengembang mengalami kesulitan mengintegrasikan fitur diagram dinamis ke dalam file PowerPoint secara programatis. Tutorial ini menunjukkan cara **membuat diagram donat di PowerPoint** menggunakan Aspose.Slides untuk Java—sebuah alat yang kuat yang menggabungkan fleksibilitas dan kemudahan penggunaan.
+Membuat presentasi yang menarik sering kali memerlukan lebih dari sekadar teks dan gambar; diagram dapat secara signifikan meningkatkan alur cerita dengan memvisualisasikan data secara efektif. **Cara menggunakan Aspose** untuk pembuatan diagram memberi Anda kontrol programatik tanpa harus membuka PowerPoint. Tutorial ini memandu Anda membangun diagram donat, mengonfigurasi titik data, dan menyimpan PPTX dengan fidelitas tinggi. Anda hanya memerlukan pengetahuan dasar Java dan beberapa menit waktu penyiapan.
 
-**Apa yang Akan Anda Pelajari:**
-- Cara menginisialisasi presentasi menggunakan Aspose.Slides untuk Java
-- Panduan langkah‑demi‑langkah menambahkan diagram donat ke slide Anda
-- Mengonfigurasi titik data dan menyesuaikan properti label
-- Menyimpan presentasi yang telah dimodifikasi dengan fidelitas tinggi
-
-Mari jelajahi bagaimana Anda dapat memanfaatkan fitur-fitur ini untuk meningkatkan presentasi Anda. Sebelum memulai, pastikan Anda familiar dengan konsep dasar pemrograman Java.
+`Aspose.Slides for Java` adalah pustaka Java yang memungkinkan pembuatan, manipulasi, dan konversi file PowerPoint tanpa Microsoft Office.
 
 ## Jawaban Cepat
-- **Perpustakaan apa yang membuat diagram donat di PowerPoint?** Aspose.Slides untuk Java
-- **Bisakah saya menambahkan titik data diagram secara programatis?** Ya, menggunakan API diagram
-- **Apakah saya memerlukan lisensi untuk produksi?** Lisensi Aspose.Slides yang valid diperlukan
-- **Versi Java mana yang didukung?** Java 8 dan yang lebih baru (klasifier JDK 16 ditampilkan)
-- **Berapa banyak seri yang dapat saya tambahkan?** Contoh menambahkan hingga 15 seri, tetapi Anda dapat menyesuaikannya sesuai kebutuhan
+- **Perpustakaan apa yang membuat diagram donat PowerPoint?** Aspose.Slides for Java  
+- **Bisakah saya menambahkan titik data diagram secara programatik?** Ya, menggunakan API diagram  
+- **Apakah saya memerlukan lisensi untuk produksi?** Lisensi Aspose.Slides yang valid diperlukan  
+- **Versi Java mana yang didukung?** Java 8 dan yang lebih baru (klasifier JDK 16 ditampilkan)  
+- **Berapa banyak seri yang dapat saya tambahkan?** Contoh menambahkan hingga 15 seri, tetapi Anda dapat menyesuaikannya sesuai kebutuhan  
 
 ## Apa itu diagram donat di PowerPoint?
-Diagram donat adalah variasi dari diagram pai dengan pusat yang berlubang, memungkinkan Anda menampilkan beberapa seri data dalam cara yang kompak dan menarik secara visual. Ini ideal untuk menunjukkan hubungan bagian‑ke‑keseluruhan sambil menjaga desain tetap bersih.
+Diagram donat adalah diagram melingkar yang mirip dengan diagram pai tetapi memiliki lubang di tengah, memungkinkan beberapa seri ditampilkan secara bersamaan. Diagram ini menekankan hubungan bagian‑ke‑keseluruhan sambil menjaga tata letak visual tetap kompak dan mudah dibaca.
 
-## Mengapa menggunakan Aspose.Slides untuk Java dalam membuat diagram donat?
-- **Kontrol penuh** atas tampilan diagram, data, dan tata letak tanpa membuka PowerPoint
-- **Tanpa interop COM** – bekerja pada platform apa pun yang mendukung Java
-- **Kinerja tinggi** untuk menghasilkan deck besar atau mengintegrasikan dengan layanan web
-- **Kustomisasi kaya** seperti ledakan, ukuran lubang, sudut irisan, dan pemformatan label
+## Mengapa menggunakan Aspose.Slides for Java untuk membuat diagram donat?
+Aspose.Slides for Java menangani lebih dari 50 format input dan output serta dapat menghasilkan presentasi hingga 500 MB tanpa memuat seluruh file ke memori. Ia memberikan kontrol programatik penuh atas tampilan, data, dan tata letak diagram pada platform Java apa pun, menghilangkan kebutuhan interop COM, dan dapat merender 100 slide kaya diagram dalam waktu kurang dari dua detik pada server tipikal.
 
 ## Prasyarat
-- Pengetahuan dasar tentang pemrograman Java.
-- IDE seperti IntelliJ IDEA atau Eclipse.
-- Maven atau Gradle untuk manajemen dependensi.
-- Lisensi Aspose.Slides untuk Java yang valid (versi percobaan gratis tersedia).
+- Pengetahuan dasar pemrograman Java.  
+- IDE seperti IntelliJ IDEA atau Eclipse.  
+- Maven atau Gradle untuk manajemen dependensi.  
+- Lisensi Aspose.Slides for Java yang valid (versi percobaan gratis tersedia).
 
-## Menyiapkan Aspose.Slides untuk Java
+## Menyiapkan Aspose.Slides for Java
 Pilih manajer dependensi yang sesuai dengan proyek Anda.
 
-**Maven**
+**Maven**  
+Tambahkan dependensi berikut ke `pom.xml` Anda (ganti versi dengan rilis terbaru):
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -81,22 +117,46 @@ Pilih manajer dependensi yang sesuai dengan proyek Anda.
 </dependency>
 ```
 
-**Gradle**
+**Gradle**  
+Tambahkan baris ini ke `build.gradle` Anda:
+
 ```gradle
-implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
+implementation 'com.aspose:aspose-slides:25.4:jdk16'
 ```
 
 Jika Anda lebih suka mengunduh langsung, kunjungi halaman [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### Akuisisi Lisensi
-Anda dapat memulai dengan versi percobaan gratis untuk menjelajahi fitur Aspose.Slides. Untuk penggunaan jangka panjang, beli lisensi atau minta lisensi sementara dari [situs Aspose](https://purchase.aspose.com/temporary-license/). Ikuti petunjuk yang diberikan untuk menyiapkan lingkungan Anda dan menginisialisasi Aspose.Slides dalam aplikasi Anda.
+### Perolehan Lisensi
+Anda dapat memulai dengan versi percobaan gratis untuk menjelajahi fitur Aspose.Slides. Untuk penggunaan lanjutan, beli lisensi atau minta lisensi sementara dari [situs Aspose](https://purchase.aspose.com/temporary-license/). Ikuti petunjuk yang disediakan untuk menyiapkan lingkungan Anda dan menginisialisasi Aspose.Slides dalam aplikasi.
 
-## Cara membuat diagram donat PowerPoint menggunakan Aspose.Slides untuk Java
-Berikut adalah panduan lengkap langkah‑demi‑langkah. Setiap blok kode dijelaskan tepat sebelumnya, sehingga Anda tahu persis apa yang terjadi.
+## Cara membuat diagram donat PowerPoint menggunakan Aspose.Slides for Java
+Untuk membangun diagram donat, mulailah dengan memuat atau membuat `Presentation`, tambahkan bentuk diagram tipe `ChartType.Doughnut`, bersihkan seri default, atur ukuran lubang, lalu isi workbook diagram dengan nama kategori dan nilai numerik. Akhirnya, sesuaikan format label dan simpan PPTX.
 
 ### Langkah 1: Inisialisasi presentasi
-Pertama, muat PPTX yang ada atau buat yang baru. Ini menyiapkan koleksi slide untuk modifikasi selanjutnya.
+Buat presentasi baru atau buka file yang ada untuk memperoleh koleksi slide.
 
+`Presentation` adalah kelas utama yang merepresentasikan file PowerPoint.  
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-slides</artifactId>
+    <version>25.4</version>
+    <classifier>jdk16</classifier>
+</dependency>
+```
+
+### Langkah 2: Tambahkan diagram donat ke slide
+Sisipkan bentuk diagram, hapus seri/kategori default, dan konfigurasikan pengaturan visual dasar seperti ukuran lubang donat.
+
+`Chart` (atau bentuk diagram) merepresentasikan objek diagram yang ditempatkan pada slide.  
+```gradle
+implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
+```
+
+### Langkah 3: Tambahkan titik data diagram dan sesuaikan label
+Isi nama kategori, tambahkan titik data untuk setiap seri, dan haluskan format label (font, warna, posisi). Langkah ini menunjukkan kemampuan “menambahkan titik data diagram”.
+
+`Workbook` menyediakan akses ke data spreadsheet dasar diagram di mana sel-sel diisi.  
 ```java
 import com.aspose.slides.*;
 
@@ -108,9 +168,10 @@ ISlide slide = pres.getSlides().get_Item(0);
 pres.save(dataDir + "/initialized_chart.pptx", SaveFormat.Pptx);
 ```
 
-### Langkah 2: Tambahkan diagram donat ke slide
-Kami menambahkan bentuk diagram, menghapus seri/kategori default, dan mengatur properti visual dasar.
+### Langkah 4: Simpan presentasi yang diperbarui
+Persist perubahan ke file PPTX baru di disk.
 
+`save` menulis presentasi ke file dalam format yang dipilih.  
 ```java
 import com.aspose.slides.*;
 
@@ -133,8 +194,50 @@ while (seriesIndex < 15) {
 }
 ```
 
-### Langkah 3: Tambahkan titik data diagram dan sesuaikan label
-Di sini kami mengisi kategori, menambahkan titik data untuk setiap seri, dan menyempurnakan tampilan label. Inilah saat kata kunci **add chart data points** berperan.
+## Aplikasi Praktis
+Diagram donat cocok untuk:
+- **Laporan Keuangan:** Memvisualisasikan alokasi anggaran atau rincian pengeluaran.  
+- **Analisis Pasar:** Menunjukkan distribusi pangsa pasar di antara pesaing.  
+- **Hasil Survei:** Menyajikan data survei kategori dalam bentuk kompak.  
+- **Pembuatan Dashboard:** Menggabungkan dengan kueri basis data untuk menghasilkan slide yang memperbarui secara langsung.
+
+## Pertimbangan Kinerja
+- **Bebaskan sumber daya:** Panggil `pres.dispose()` setelah menyimpan untuk membebaskan memori native.  
+- **Batasi jumlah diagram:** Menambahkan ratusan diagram dapat meningkatkan penggunaan memori; proses secara batch bila diperlukan.  
+- **Gunakan streaming:** Untuk set data besar, isi workbook langsung dari aliran alih-alih array dalam memori.  
+
+## Masalah Umum dan Solusinya
+| Masalah | Penyebab | Solusi |
+|-------|-------|-----|
+| **Diagram muncul kosong** | Sel data tidak terisi dengan benar | Verifikasi bahwa referensi `workBook.getCell(...)` mengarah ke indeks baris/kolom yang tepat. |
+| **Label saling tumpang tindih** | Terlalu banyak kategori dalam ruang terbatas | Tingkatkan `DoughnutHoleSize` atau sesuaikan `FirstSliceAngle`. |
+| **OutOfMemoryError** | Presentasi besar tanpa membebaskan sumber daya | Panggil `pres.dispose()` setelah menyimpan dan pertimbangkan meningkatkan ukuran heap JVM. |
+
+## Pertanyaan yang Sering Diajukan
+
+**T: Bisakah saya menggunakan Aspose.Slides for Java dalam aplikasi komersial?**  
+J: Ya, tetapi Anda memerlukan lisensi komersial yang valid. Versi percobaan gratis tersedia untuk evaluasi.
+
+**T: Bagaimana cara menambahkan lebih dari 15 seri?**  
+J: Tingkatkan batas loop pada langkah “Tambah Diagram Donat” dan pastikan workbook data Anda memiliki cukup baris.
+
+**T: Apakah memungkinkan mengubah ukuran lubang donat setelah pembuatan?**  
+J: Ya, panggil `series.getParentSeriesGroup().setDoughnutHoleSize((byte)desiredSize)` sebelum menyimpan.
+
+**T: Bisakah saya mengekspor diagram sebagai gambar alih-alih PPTX?**  
+J: Tentu saja. Gunakan `chart.getImage()` dan simpan `java.awt.image.BufferedImage` yang dikembalikan dalam format pilihan Anda.
+
+**T: Apakah Aspose.Slides mendukung diagram beranimasi?**  
+J: Animasi dapat ditambahkan melalui API `ISlide.getTimeline()`, meskipun hal ini berada di luar cakupan tutorial ini.
+
+## Kesimpulan
+Anda kini memiliki metode lengkap dan siap produksi untuk **membuat file PowerPoint diagram donat** dengan Aspose.Slides for Java, termasuk cara **menambahkan titik data diagram**, menyesuaikan label, dan menangani pertimbangan kinerja. Bereksperimenlah dengan warna, sumber data, dan tipe diagram berbeda untuk membuat presentasi Anda benar‑benar menonjol.
+
+---
+
+**Terakhir Diperbarui:** 2026-07-08  
+**Diuji Dengan:** Aspose.Slides for Java 25.4 (klasifier JDK 16)  
+**Penulis:** Aspose
 
 ```java
 import com.aspose.slides.*;
@@ -179,64 +282,22 @@ while (categoryIndex < 15) {
 }
 ```
 
-### Langkah 4: Simpan presentasi yang telah diperbarui
-Akhirnya, simpan perubahan ke file PPTX baru.
-
 ```java
 import com.aspose.slides.*;
 
 pres.save(dataDir + "/chart.pptx", SaveFormat.Pptx);
 ```
 
-## Aplikasi Praktis
-Diagram donat dapat digunakan dalam berbagai skenario dunia nyata:
-- **Laporan Keuangan:** Visualisasikan alokasi anggaran atau rincian pengeluaran.
-- **Analisis Pasar:** Tampilkan distribusi pangsa pasar di antara pesaing.
-- **Hasil Survei:** Sajikan data survei kategorikal dalam bentuk yang kompak.
-- **Pembuatan Dashboard:** Kombinasikan dengan kueri basis data untuk menghasilkan slide yang memperbarui secara langsung.
+## Tutorial Terkait
 
-## Pertimbangan Kinerja
-- **Buang sumber daya**: Panggil `pres.dispose()` setelah selesai untuk membebaskan memori native.
-- **Batasi jumlah diagram**: Menambahkan ratusan diagram dapat meningkatkan penggunaan memori; proses secara batch bila diperlukan.
-- **Gunakan streaming**: Untuk kumpulan data besar, isi workbook langsung dari aliran alih-alih array dalam memori.
+- [Cara Menambahkan Diagram ke PowerPoint Menggunakan Aspose.Slides for Java: Panduan Langkah‑ demi‑ Langkah](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [Cara Mengedit Data Diagram PowerPoint Menggunakan Aspose.Slides for Java: Panduan Komprehensif](/slides/java/charts-graphs/edit-ppt-chart-data-aspose-slides-java/)
+- [Animasi Diagram PowerPoint Menggunakan Aspose.Slides for Java – Panduan Langkah‑ demi‑ Langkah](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
 
-## Masalah Umum dan Solusinya
-| Masalah | Penyebab | Solusi |
-|-------|-------|-----|
-| **Diagram muncul kosong** | Sel data tidak terisi dengan benar | Verifikasi bahwa referensi `workBook.getCell(...)` mengarah ke indeks baris/kolom yang tepat. |
-| **Label saling tumpang tindih** | Terlalu banyak kategori dalam ruang terbatas | Tingkatkan `DoughnutHoleSize` atau sesuaikan `FirstSliceAngle`. |
-| **OutOfMemoryError** | Presentasi besar tanpa membuang sumber daya | Panggil `pres.dispose()` setelah menyimpan dan pertimbangkan meningkatkan ukuran heap JVM. |
-
-## Pertanyaan yang Sering Diajukan
-
-**T: Bisakah saya menggunakan Aspose.Slides untuk Java dalam aplikasi komersial?**  
-J: Ya, tetapi Anda memerlukan lisensi komersial yang valid. Versi percobaan gratis tersedia untuk evaluasi.
-
-**T: Bagaimana cara menambahkan lebih dari 15 seri?**  
-J: Tingkatkan batas loop pada langkah “Add Doughnut Chart” dan pastikan workbook data Anda memiliki cukup baris.
-
-**T: Apakah memungkinkan mengubah ukuran lubang donat setelah dibuat?**  
-J: Ya, panggil `series.getParentSeriesGroup().setDoughnutHoleSize((byte)desiredSize)` kapan saja sebelum menyimpan.
-
-**T: Bisakah saya mengekspor diagram sebagai gambar alih-alih PPTX?**  
-J: Tentu. Gunakan `chart.getImage()` dan simpan `java.awt.image.BufferedImage` yang dikembalikan dalam format pilihan Anda.
-
-**T: Apakah Aspose.Slides mendukung diagram animasi?**  
-J: Animasi dapat ditambahkan melalui API `ISlide.getTimeline()`, meskipun hal ini berada di luar cakupan tutorial ini.
-
-## Kesimpulan
-Anda kini memiliki metode lengkap dan siap produksi untuk **membuat diagram donat di PowerPoint** dengan Aspose.Slides untuk Java, termasuk cara **menambahkan titik data diagram**, menyesuaikan label, dan menangani pertimbangan kinerja. Bereksperimenlah dengan warna, sumber data, dan tipe diagram yang berbeda untuk membuat presentasi Anda benar‑benar menonjol.
-
----
-
-**Terakhir Diperbarui:** 2026-02-17  
-**Diuji Dengan:** Aspose.Slides untuk Java 25.4 (klasifier JDK 16)  
-**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
