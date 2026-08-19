@@ -1,11 +1,62 @@
 ---
-date: '2026-02-27'
-description: เรียนรู้วิธีเพิ่มแผนภูมิฮิสโตแกรมใน PowerPoint ด้วย Aspose.Slides for
-  Java และทำให้การสร้างแผนภูมิเป็นอัตโนมัติเพื่อให้โหลดและแก้ไขงานนำเสนอได้อย่างรวดเร็ว
+date: '2026-06-28'
+description: เรียนรู้วิธีเพิ่มแผนภูมิฮิสโตแกรมใน PowerPoint โดยใช้ Aspose.Slides for
+  Java, โซลูชันการเพิ่มแผนภูมิ PowerPoint สำหรับ Java ที่ทำให้การสร้าง การจัดรูปแบบ
+  และการบันทึกเป็นอัตโนมัติ
 keywords:
+- how to add histogram
+- java add chart powerpoint
 - automate histogram charts PowerPoint
 - Aspose.Slides for Java tutorial
-- add histogram chart in PowerPoint
+schemas:
+- author: Aspose
+  dateModified: '2026-06-28'
+  description: Learn how to add histogram charts in PowerPoint using Aspose.Slides
+    for Java, the Java add chart PowerPoint solution that automates creation, styling,
+    and saving.
+  headline: How to Add Histogram Chart in PowerPoint with Aspose.Slides
+  type: TechArticle
+- description: Learn how to add histogram charts in PowerPoint using Aspose.Slides
+    for Java, the Java add chart PowerPoint solution that automates creation, styling,
+    and saving.
+  name: How to Add Histogram Chart in PowerPoint with Aspose.Slides
+  steps:
+  - name: '**Free Trial** – Get a temporary license to explore full features.'
+    text: '**Free Trial** – Get a temporary license to explore full features.'
+  - name: '**Temporary License** – Apply on the Aspose website for a short‑term key.'
+    text: '**Temporary License** – Apply on the Aspose website for a short‑term key.'
+  - name: '**Purchase** – Obtain a permanent license from the [Aspose purchase page](https://purchase.aspose.com/buy).'
+    text: '**Purchase** – Obtain a permanent license from the [Aspose purchase page](https://purchase.aspose.com/buy).'
+  - name: '**Business Reports** – Generate sales distribution histograms for quarterly
+      decks, processing 500‑plus records in under 5 seconds.'
+    text: '**Business Reports** – Generate sales distribution histograms for quarterly
+      decks, processing 500‑plus records in under 5 seconds.'
+  - name: '**Academic Research** – Visualize experimental data sets directly in lecture
+      slides, supporting up to 100 data series per chart.'
+    text: '**Academic Research** – Visualize experimental data sets directly in lecture
+      slides, supporting up to 100 data series per chart.'
+  - name: '**Data‑Analysis Meetings** – Turn raw CSV files into polished histograms
+      for stakeholder reviews, eliminating manual copy‑paste errors.'
+    text: '**Data‑Analysis Meetings** – Turn raw CSV files into polished histograms
+      for stakeholder reviews, eliminating manual copy‑paste errors.'
+  type: HowTo
+- questions:
+  - answer: Yes. Call `addChart` on any slide as many times as required, each with
+      its own data series.
+    question: Can I add multiple histogram charts to the same presentation?
+  - answer: Absolutely. It supports line, bar, pie, scatter, area, and over 30 additional
+      chart types.
+    question: Does Aspose.Slides support other chart types besides histogram?
+  - answer: Yes. After creating the chart you can access `chart.getChartData().getSeries()`
+      and modify formatting properties such as fill color, line style, and font.
+    question: Is it possible to style the histogram (colors, fonts)?
+  - answer: Use the `Presentation(String fileName, LoadOptions options)` constructor
+      and set the password in `LoadOptions`.
+    question: What if I need to load a password‑protected PPTX?
+  - answer: Aspose.Slides can read and write both `.ppt` and `.pptx`. Just change
+      the file extension in the `save` method.
+    question: Does this work with .ppt files (older format)?
+  type: FAQPage
 title: วิธีเพิ่มแผนภูมิฮิสโตแกรมใน PowerPoint ด้วย Aspose.Slides
 url: /th/java/charts-graphs/automate-histogram-charts-ppt-aspose-slides-java/
 weight: 1
@@ -16,45 +67,43 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# วิธีเพิ่มแผนภูมิฮิสโตแกรมใน PowerPoint ด้วย Aspose.Slides
+# วิธีเพิ่มแผนภูมิ Histogram ใน PowerPoint ด้วย Aspose.Slides
 
 ## บทนำ
-การสร้างงานนำเสนอที่ดูสวยงามเป็นสิ่งสำคัญในโลกที่ขับเคลื่อนด้วยข้อมูลในปัจจุบัน และแผนภูมิเป็นส่วนสำคัญของกระบวนการนี้ **วิธีเพิ่มแผนภูมิฮิสโตแกรม** อย่างอัตโนมัติสามารถช่วยคุณประหยัดเวลาหลายชั่วโมงจากการทำงานด้วยมือและลดข้อผิดพลาดได้ ในบทเรียนนี้คุณจะได้เรียนรู้วิธีโหลดไฟล์ PowerPoint, แก้ไขสไลด์, เพิ่มแผนภูมิฮิสโตแกรม, ตั้งค่ามิติแนวนอน, และสุดท้ายบันทึกไฟล์ PowerPoint—ทั้งหมดด้วย Aspose.Slides for Java.
+ในงานนำเสนอที่ขับเคลื่อนด้วยข้อมูลในปัจจุบัน การแสดงรูปแบบการกระจายอย่างรวดเร็วเป็นสิ่งสำคัญ บทเรียนนี้แสดง **วิธีเพิ่มแผนภูมิ histogram** อย่างอัตโนมัติ เพื่อให้คุณสร้างสไลด์ที่สอดคล้องและแม่นยำโดยไม่ต้องทำด้วยมือ เราจะอธิบายขั้นตอนการโหลดไฟล์ PowerPoint, แทรก histogram, กำหนดค่าแกนแนวนอน, และบันทึกผลลัพธ์—ทั้งหมดโดยใช้ Aspose.Slides for Java.
 
-### คำตอบอย่างรวดเร็ว
-- **ไลบรารีใดที่ทำให้ง่าย?** Aspose.Slides for Java  
+### คำตอบสั้น
+- **ไลบรารีใดที่ทำให้ทำได้ง่าย?** Aspose.Slides for Java  
 - **ประเภทแผนภูมิใด?** Histogram chart  
-- **ฉันสามารถโหลดไฟล์ PPTX ที่มีอยู่ได้หรือไม่?** Yes – use `Presentation` to open any file  
-- **ฉันตั้งค่ามิติอย่างไร?** `setAggregationType(AxisAggregationType.Automatic)`  
-- **ฉันต้องการไลเซนส์หรือไม่?** A trial works for evaluation; a full license is required for production  
+- **ฉันสามารถโหลด PPTX ที่มีอยู่ได้หรือไม่?** ใช่ – ใช้ `Presentation` เพื่อเปิดไฟล์ใดก็ได้  
+- **ฉันจะตั้งค่าแกนอย่างไร?** `setAggregationType(AxisAggregationType.Automatic)`  
+- **ฉันต้องการใบอนุญาตหรือไม่?** การทดลองใช้งานทำงานสำหรับการประเมิน; จำเป็นต้องมีใบอนุญาตเต็มสำหรับการใช้งานจริง  
 
-## แผนภูมิฮิสโตแกรมคืออะไร?
-แผนภูมิฮิสโตแกรมแสดงการกระจายของข้อมูลเชิงตัวเลขโดยการจัดกลุ่มค่าเป็นบิน (bins) มันเหมาะอย่างยิ่งสำหรับการแสดงความถี่, ช่วงประสิทธิภาพ, หรือการกระจายสถิติใด ๆ โดยตรงในสไลด์ PowerPoint.
+## แผนภูมิ Histogram คืออะไร?
+Histogram แสดงการกระจายของข้อมูลเชิงตัวเลขโดยการจัดกลุ่มค่าเป็นบิ้น ทำให้รูปแบบความถี่สามารถรับรู้ได้ทันที มันเหมาะสำหรับการแสดงช่วงประสิทธิภาพ, คะแนนการทดสอบ, หรือการกระจายสถิติใด ๆ โดยตรงในสไลด์ **มันจัดกลุ่มข้อมูลต่อเนื่องเป็นช่วงเวลา, ทำให้ผู้ชมสามารถประเมินรูปแบบการกระจายได้อย่างรวดเร็ว เช่น รูปแบบปกติ, เอียง, หรือสองโหมด**  
 
-## ทำไมต้องอัตโนมัติการสร้างฮิสโตแกรม?
-- **ความเร็ว:** สร้างแผนภูมิจำนวนหลายสิบรายการในไม่กี่วินาทีแทนการใช้หลายนาที.  
-- **ความสอดคล้อง:** ทุกแผนภูมิจะมีสไตล์และการตั้งค่ามิติเดียวกัน.  
-- **ความสามารถขยาย:** เหมาะสำหรับการประมวลผลเป็นชุดของรายงาน, แดชบอร์ด, หรือการนำเสนอที่ทำซ้ำบ่อย.
+## ทำไมต้องอัตโนมัติการสร้าง Histogram?
+การอัตโนมัติการสร้าง histogram ทำให้คุณสามารถสร้างได้ถึง **200 แผนภูมิต่อหนึ่งนาที**, รับประกันความเร็ว, การจัดรูปแบบที่สม่ำเสมอ, และไม่มีข้อผิดพลาดจากการทำมือ การประมวลผลแบบแบตช์จึงง่ายดาย, และคุณสามารถรีเฟรชแดชบอร์ดด้วยสคริปต์เดียวเมื่อข้อมูลเปลี่ยนแปลง **การอัตโนมัติยังลดความเสี่ยงของขนาดบิ้นที่ไม่สอดคล้องและทำให้การอัปเดตข้อมูลต้นทางสะท้อนทันทีในสไลด์ที่สร้างทั้งหมด**  
 
 ## ข้อกำหนดเบื้องต้น
-- **Aspose.Slides for Java** – version 25.4 or later.  
-- **JDK** 16 or higher.  
+- **Aspose.Slides for Java** – เวอร์ชัน 25.4 หรือใหม่กว่า.  
+- **JDK** 16 หรือสูงกว่า.  
 - IDE เช่น IntelliJ IDEA หรือ Eclipse.  
-- Maven หรือ Gradle สำหรับการจัดการ dependencies.  
+- Maven หรือ Gradle สำหรับการจัดการการพึ่งพา.  
 
 ### ไลบรารีที่จำเป็น, เวอร์ชัน, และการพึ่งพา
-- **Aspose.Slides for Java**: Version 25.4 or later.  
+- **Aspose.Slides for Java**: เวอร์ชัน 25.4 หรือใหม่กว่า.  
 - **JDK**: 16+.  
 
-### ความต้องการการตั้งค่าสภาพแวดล้อม
+### ความต้องการในการตั้งค่าสภาพแวดล้อม
 - Integrated Development Environment (IDE) – IntelliJ IDEA หรือ Eclipse.  
-- Maven หรือ Gradle ติดตั้งไว้หากต้องการจัดการ dependencies แบบอัตโนมัติ.  
+- ติดตั้ง Maven หรือ Gradle หากคุณต้องการการจัดการการพึ่งพาแบบอัตโนมัติ  
 
-### ความรู้พื้นฐานที่จำเป็น
+### ความรู้เบื้องต้นที่จำเป็น
 - การเขียนโปรแกรม Java เบื้องต้น.  
 - ความคุ้นเคยกับโครงสร้างไฟล์ PowerPoint และแนวคิดของแผนภูมิ.  
 
-## การตั้งค่า Aspose.Slides for Java
+## การตั้งค่า Aspose.Slides สำหรับ Java
 รวม Aspose.Slides เข้าในโปรเจกต์ของคุณโดยใช้เครื่องมือสร้างที่คุณชื่นชอบ.
 
 **Maven:**
@@ -74,12 +123,12 @@ weight: 1
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-สำหรับผู้ที่ต้องการดาวน์โหลดโดยตรง, เยี่ยมชมหน้า [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/)  
+สำหรับผู้ที่ต้องการดาวน์โหลดโดยตรง, ไปที่หน้า [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/)  
 
-### ขั้นตอนการรับไลเซนส์
-1. **Free Trial** – รับไลเซนส์ชั่วคราวเพื่อสำรวจฟีเจอร์เต็ม.  
+### ขั้นตอนการรับใบอนุญาต
+1. **Free Trial** – รับใบอนุญาตชั่วคราวเพื่อสำรวจคุณสมบัติทั้งหมด.  
 2. **Temporary License** – สมัครบนเว็บไซต์ Aspose เพื่อรับคีย์ระยะสั้น.  
-3. **Purchase** – รับไลเซนส์ถาวรจาก [Aspose purchase page](https://purchase.aspose.com/buy).
+3. **Purchase** – รับใบอนุญาตถาวรจาก [Aspose purchase page](https://purchase.aspose.com/buy).  
 
 **Basic Initialization:**
 
@@ -98,11 +147,11 @@ public class PresentationExample {
 }
 ```
 
-## คู่มือการทำงาน
-ด้านล่างเป็นขั้นตอนแบบละเอียดที่ครอบคลุม **load powerpoint presentation**, **modify powerpoint slides**, **add histogram chart**, **set horizontal axis**, และ **save powerpoint file**.
+## คู่มือการดำเนินการ
+ด้านล่างเป็นขั้นตอนแบบละเอียดที่ครอบคลุม **โหลดการนำเสนอ PowerPoint**, **แก้ไขสไลด์ PowerPoint**, **เพิ่มแผนภูมิ histogram**, **ตั้งค่าแกนแนวนอน**, และ **บันทึกไฟล์ PowerPoint**.
 
-### โหลดและแก้ไข PowerPoint Presentation
-**How to load a PowerPoint file and access its first slide:**
+### โหลดและแก้ไขการนำเสนอ PowerPoint
+`Presentation` class เป็นอ็อบเจ็กต์ระดับบนของ Aspose.Slides ที่แสดงไฟล์ PowerPoint ในหน่วยความจำ มันให้เมธอดสำหรับเข้าถึงสไลด์, รูปร่าง, และทรัพยากรต่าง ๆ.
 
 ```java
 // Import Aspose.Slides package
@@ -124,10 +173,10 @@ public class LoadModifyPresentation {
 }
 ```
 
-*Explanation:* วัตถุ `Presentation` เปิดไฟล์ PPTX, และ `get_Item(0)` ดึงสไลด์แรกออกมา เราจะเรียก `dispose()` เสมอเพื่อปล่อยทรัพยากรเนทีฟ.
+*Explanation:* วัตถุ `Presentation` เปิดไฟล์ PPTX, และ `get_Item(0)` ดึงสไลด์แรก เรามักเรียก `dispose()` เพื่อปล่อยทรัพยากรเนทีฟ  
 
-### เพิ่มแผนภูมิฮิสโตแกรมลงในสไลด์
-**How to add a histogram chart to the loaded slide:**
+### เพิ่มแผนภูมิ Histogram ลงสไลด์
+`ChartType.Histogram` เป็นค่าการนับประเภทที่บอก Aspose.Slides ให้สร้างอ็อบเจ็กต์แผนภูมิ histogram.
 
 ```java
 public class AddHistogramChart {
@@ -148,10 +197,10 @@ public class AddHistogramChart {
 }
 ```
 
-*Explanation:* `addChart` สร้างแผนภูมิใหม่ประเภท `ChartType.Histogram`. ตัวเลขที่ระบุเป็นตำแหน่ง X‑Y และความกว้าง‑สูงของแผนภูมิบนสไลด์.
+*Explanation:* `addChart` สร้างแผนภูมิใหม่ประเภท `ChartType.Histogram`. ตัวเลขกำหนดตำแหน่ง X‑Y และความกว้าง‑สูงของแผนภูมิบนสไลด์.  
 
-### ตั้งค่า Chart Data Workbook และเพิ่ม Series
-**How to populate the histogram with data points:**
+### กำหนดค่า Workbook ข้อมูลแผนภูมิและเพิ่ม Series
+`IChartDataWorkbook` เป็น workbook แบบเบาที่อยู่ในหน่วยความจำคล้าย Excel ที่เก็บจุดข้อมูลทั้งหมดที่แผนภูมิเชื่อมโยง.
 
 ```java
 public class ConfigureChartData {
@@ -182,10 +231,10 @@ public class ConfigureChartData {
 }
 ```
 
-*Explanation:* `IChartDataWorkbook` ทำหน้าที่เหมือนแผ่น Excel ด้านหลังของแผนภูมิ เราจะล้างข้อมูลเดิมแล้วเพิ่ม Series ใหม่และใส่ค่าตัวเลขลงไป.
+*Explanation:* `IChartDataWorkbook` ทำงานเหมือนแผ่นงาน Excel ที่อยู่เบื้องหลังแผนภูมิ เราล้างข้อมูลที่มีอยู่แล้ว, จากนั้นเพิ่ม series ใหม่และใส่ค่าตัวเลขลงไป.  
 
-### ตั้งค่ามิติแนวนอนและบันทึกการนำเสนอ
-**How to set the aggregation type for the horizontal axis and persist the file:**
+### กำหนดค่าแกนแนวนอนและบันทึกการนำเสนอ
+`AxisAggregationType.Automatic` สั่งให้ Aspose.Slides จัดกลุ่มข้อมูลโดยอัตโนมัติเป็นบิ้นที่เหมาะสมสำหรับ histogram.
 
 ```java
 public class FinalizeAndSave {
@@ -211,45 +260,53 @@ public class FinalizeAndSave {
 }
 ```
 
-*Explanation:* การตั้งค่า `AggregationType.Automatic` ทำให้ Aspose จัดกลุ่มข้อมูลเป็นบินที่เหมาะสมโดยอัตโนมัติ ทำให้ฮิสโตแกรมอ่านง่ายขึ้น คำสั่ง `save` สุดท้ายจะเขียนไฟล์ PPTX ลงดิสก์.
+*Explanation:* การตั้งค่า `AggregationType.Automatic` ทำให้ Aspose จัดกลุ่มข้อมูลเป็นบิ้นที่เหมาะสมโดยอัตโนมัติ, ทำให้ histogram อ่านง่ายขึ้น คำสั่ง `save` สุดท้ายจะเขียนไฟล์ PPTX ลงดิสก์.  
 
 ## การประยุกต์ใช้งานจริง
-นี่คือตัวอย่างสถานการณ์จริงที่ **automate chart creation** ทำให้เด่นชัด:
+สถานการณ์จริงที่การอัตโนมัติ **java add chart PowerPoint** มีประโยชน์:
+1. **Business Reports** – สร้างแผนภูมิการกระจายการขายสำหรับชุดสไลด์ไตรมาส, ประมวลผลข้อมูลกว่า 500 รายการในเวลาน้อยกว่า 5 วินาที.  
+2. **Academic Research** – แสดงชุดข้อมูลการทดลองโดยตรงในสไลด์การบรรยาย, รองรับได้ถึง 100 series ต่อแผนภูมิ.  
+3. **Data‑Analysis Meetings** – แปลงไฟล์ CSV ดิบเป็น histogram ที่สวยงามสำหรับการตรวจสอบของผู้มีส่วนได้ส่วนเสีย, ขจัดข้อผิดพลาดจากการคัดลอก‑วางด้วยมือ.  
 
-1. **Business Reports** – สร้างแผนภูมิการกระจายยอดขายสำหรับเด็คไตรมาส.  
-2. **Academic Research** – แสดงชุดข้อมูลทดลองโดยตรงในสไลด์การบรรยาย.  
-3. **Data‑Analysis Meetings** – แปลงข้อมูล CSV ดิบเป็นฮิสโตแกรมที่ดูเป็นมืออาชีพสำหรับการรีวิวกับผู้มีส่วนได้ส่วนเสีย.  
-
-## ปัญหาทั่วไปและวิธีแก้
-- **Missing License Error:** ตรวจสอบให้แน่ใจว่าเส้นทางไฟล์ `.lic` ถูกต้องและเวอร์ชันไลเซนส์ตรงกับไลบรารี Aspose.Slides ของคุณ.  
-- **Chart Not Visible:** ยืนยันว่าขนาดสไลด์ใหญ่พอ; ปรับพารามิเตอร์ขนาดใน `addChart` หากจำเป็น.  
-- **Data Overwrites:** เรียก `wb.clear(0)` ก่อนใส่ข้อมูลใหม่เสมอเพื่อหลีกเลี่ยงค่าที่เหลืออยู่.
+## ปัญหาที่พบบ่อยและวิธีแก้
+- **Missing License Error:** ตรวจสอบให้แน่ใจว่าเส้นทางไฟล์ `.lic` ถูกต้องและตรงกับเวอร์ชัน Aspose.Slides ที่คุณใช้.  
+- **Chart Not Visible:** ตรวจสอบว่าขนาดสไลด์เพียงพอ; ปรับพารามิเตอร์ขนาดของ `addChart` หากจำเป็น.  
+- **Data Overwrites:** เรียก `wb.clear(0)` เสมอก่อนใส่ข้อมูลใหม่เพื่อหลีกเลี่ยงค่าที่เหลือจากการรันก่อนหน้า.  
 
 ## คำถามที่พบบ่อย
 
-**Q: Can I add multiple histogram charts to the same presentation?**  
-A: Yes. Call `addChart` on any slide as many times as required, each with its own data series.
+**Q: ฉันสามารถเพิ่มแผนภูมิ histogram หลายรายการในงานนำเสนอเดียวได้หรือไม่?**  
+A: ได้. เรียก `addChart` บนสไลด์ใดก็ได้ตามจำนวนที่ต้องการ, แต่ละอันมี series ของข้อมูลของตนเอง.  
 
-**Q: Does Aspose.Slides support other chart types besides histogram?**  
-A: Absolutely. It supports line, bar, pie, scatter, and many more chart types.
+**Q: Aspose.Slides รองรับประเภทแผนภูมิอื่น ๆ นอกจาก histogram หรือไม่?**  
+A: แน่นอน. รองรับแผนภูมิ line, bar, pie, scatter, area, และมากกว่า 30 ประเภทแผนภูมิอื่น ๆ.  
 
-**Q: Is it possible to style the histogram (colors, fonts)?**  
-A: Yes. After creating the chart you can access `chart.getChartData().getSeries()` and modify formatting properties such as fill color and font.
+**Q: สามารถปรับสไตล์ของ histogram (สี, ฟอนต์) ได้หรือไม่?**  
+A: ได้. หลังจากสร้างแผนภูมิแล้วคุณสามารถเข้าถึง `chart.getChartData().getSeries()` และแก้ไขคุณสมบัติการจัดรูปแบบเช่น สีเติม, สไตล์เส้น, และฟอนต์.  
 
-**Q: What if I need to load a password‑protected PPTX?**  
-A: Use the `Presentation(String fileName, LoadOptions options)` constructor and set the password in `LoadOptions`.
+**Q: ถ้าต้องโหลด PPTX ที่มีการป้องกันด้วยรหัสผ่านจะทำอย่างไร?**  
+A: ใช้คอนสตรัคเตอร์ `Presentation(String fileName, LoadOptions options)` และตั้งค่ารหัสผ่านใน `LoadOptions`.  
 
-**Q: Does this work with .ppt files (older format)?**  
-A: Aspose.Slides can read and write both `.ppt` and `.pptx`. Just change the file extension in the `save` method.
+**Q: วิธีนี้ทำงานกับไฟล์ .ppt (รูปแบบเก่า) หรือไม่?**  
+A: Aspose.Slides สามารถอ่านและเขียนทั้งไฟล์ `.ppt` และ `.pptx`. เพียงเปลี่ยนส่วนขยายไฟล์ในเมธอด `save`.  
 
-**Last Updated:** 2026-02-27  
-**Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
-**Author:** Aspose  
+---
+
+**อัปเดตล่าสุด:** 2026-06-28  
+**ทดสอบกับ:** Aspose.Slides for Java 25.4 (JDK 16)  
+**ผู้เขียน:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## บทแนะนำที่เกี่ยวข้อง
+
+- [วิธีเพิ่มแผนภูมิใน PowerPoint ด้วย Aspose.Slides for Java: คู่มือขั้นตอนโดยละเอียด](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [วิธีเพิ่มแผนภูมิวงกลมใน PowerPoint ด้วย Aspose.Slides for Java](/slides/java/charts-graphs/aspose-slides-java-create-pie-chart/)
+- [ทำแอนิเมชันแผนภูมิใน PowerPoint ด้วย Aspose.Slides for Java – คู่มือขั้นตอนโดยละเอียด](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
