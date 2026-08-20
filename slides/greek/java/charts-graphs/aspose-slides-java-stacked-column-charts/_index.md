@@ -1,15 +1,52 @@
 ---
-date: '2026-02-22'
-description: Μάθετε πώς να δημιουργήσετε γράφημα στοίβαξης στηλών σε Java χρησιμοποιώντας
-  το Aspose.Slides. Αυτό το σεμινάριο καλύπτει την εξάρτηση Aspose Slides Maven, την
-  προσθήκη γραφήματος στοίβαξης σε ποσοστό, τη μορφοποίηση των ετικετών δεδομένων
-  του γραφήματος και την αποθήκευση της παρουσίασης ως PPTX.
+date: '2026-07-22'
+description: Μάθετε το Aspose Slides Maven Dependency για να δημιουργήσετε ένα stacked
+  column chart σε Java, να προσθέσετε data labels, να αλλάξετε τη μορφή αριθμού του
+  vertical axis και να εξάγετε το αποτέλεσμα ως αρχείο PPTX.
 keywords:
-- Aspose.Slides
+- aspose slides maven dependency
+- add data labels to chart
+- change vertical axis number format
+- how to add percentage stacked chart
+lastmod: '2026-07-22'
+og_description: Το Aspose Slides Maven Dependency σας επιτρέπει να δημιουργήσετε ένα
+  stacked column chart σε Java, να προσαρμόσετε data labels, να ρυθμίσετε τη μορφή
+  του vertical axis και να αποθηκεύσετε ως PPTX – όλα με σύντομο, production‑ready
+  κώδικα.
+og_image_alt: 'Developer guide: Build a stacked column chart in Java using Aspose.Slides
+  Maven dependency'
+og_title: 'Aspose Slides Maven Dependency: Stacked Column Chart σε Java'
+schemas:
+- author: Aspose
+  dateModified: '2026-07-22'
+  description: Learn the Aspose Slides Maven Dependency to create a stacked column
+    chart in Java, add data labels, change vertical axis number format, and export
+    the result as a PPTX file.
+  headline: 'Aspose Slides Maven Dependency: Stacked Column Chart in Java'
+  type: TechArticle
+- questions:
+  - answer: Yes. The library supports JDK 8+; just use the appropriate classifier
+      (e.g., `jdk16` for JDK 16 or later).
+    question: Can I use this code with Java 11 or newer?
+  - answer: Use `chart.getImage().save("chart.png", ImageFormat.Png);` after adding
+      the chart to the slide.
+    question: How do I export the chart as an image instead of a PPTX?
+  - answer: Absolutely. Call `chart.getChartTitle().addTextFrameForOverriding("My
+      Chart");` and configure `chart.getLegend()` as needed.
+    question: Is it possible to add a legend to the stacked column chart?
+  - answer: You can modify the `ChartDataWorkbook` cells and then call `chart.refresh();`
+      to reflect changes.
+    question: What if I need to update data after the presentation is generated?
+  - answer: Yes. The library is pure Java and runs on any OS with a compatible JRE.
+    question: Does Aspose.Slides work on Linux servers?
+  type: FAQPage
+tags:
 - stacked column chart
-- Java presentation
-title: Πώς να δημιουργήσετε ένα στοιβασμένο γράφημα στήλης σε Java με το Aspose.Slides
-  – Ένας ολοκληρωμένος οδηγός
+- Aspose.Slides
+- Java charting
+- Maven dependency
+- presentation generation
+title: 'Aspose Slides Maven Dependency: Stacked Column Chart σε Java'
 url: /el/java/charts-graphs/aspose-slides-java-stacked-column-charts/
 weight: 1
 ---
@@ -19,44 +56,42 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Πώς να δημιουργήσετε στοίβαγμα στήλης διάγραμμα σε Java με Aspose.Slides – Ένας ολοκληρωμένος οδηγός
+# Aspose Slides Maven Dependency: Διάγραμμα Στήλης Στοίβας σε Java
 
-## Introduction
+## Εισαγωγή
 
-Αναβαθμίστε τις παρουσιάσεις σας ενσωματώνοντας εντυπωσιακές οπτικοποιήσεις δεδομένων με τη δύναμη του Aspose.Slides for Java. Σε αυτόν τον οδηγό θα **δημιουργήσετε διαφάνειες με στοίβαγμα στήλης διάγραμμα** που φαίνονται επαγγελματικές, είτε ετοιμάζετε επιχειρηματικές αναφορές είτε παρουσιάζετε στατιστικά έργου. Στο τέλος του tutorial θα μπορείτε να:
+Αναβαθμίστε τις παρουσιάσεις σας ενσωματώνοντας διορατικές οπτικοποιήσεις δεδομένων με τη δύναμη του **Aspose.Slides for Java**. Σε αυτόν τον οδηγό θα **δημιουργήσετε ένα διάγραμμα στήλης στοίβας** που φαίνεται επαγγελματικό, είτε ετοιμάζετε επιχειρηματικές αναφορές είτε παρουσιάζετε στατιστικά έργου. Στο τέλος αυτού του tutorial θα μπορείτε να:
 
-- Ρυθμίσετε το περιβάλλον σας με την εξάρτηση Aspose Slides Maven
-- Δημιουργήσετε μια παρουσίαση από το μηδέν
-- **Προσθέσετε ποσοστιαία στοίβαγμα διάγραμμα** και να προσαρμόσετε την εμφάνισή του
-- **Διαμορφώσετε τις ετικέτες δεδομένων του διαγράμματος** και **αλλάξετε τη μορφή του κατακόρυφου άξονα**
-- **Αποθηκεύσετε την παρουσίαση ως PPTX** με μία μόνο γραμμή κώδικα
+- Ρυθμίστε το περιβάλλον σας με την **Aspose Slides Maven dependency**
+- Δημιουργήστε μια παρουσίαση από την αρχή
+- **Προσθέστε ένα διάγραμμα στοίβασης ποσοστών** και προσαρμόστε την εμφάνισή του
+- **Μορφοποιήστε τις ετικέτες δεδομένων του διαγράμματος** και **αλλάξτε τη μορφή αριθμού του κατακόρυφου άξονα**
+- **Αποθηκεύστε την παρουσίαση ως PPTX** με μια μόνο γραμμή κώδικα
 
-Ας περάσουμε από κάθε βήμα ώστε να αρχίσετε να δημιουργείτε εντυπωσιακές παρουσιάσεις αμέσως.
+## Γρήγορες Απαντήσεις
+- **Τι βιβλιοθήκη χρειάζομαι;** Προσθέστε την εξάρτηση Maven/Gradle `aspose-slides` (δείτε το “Aspose Slides Maven Dependency” παρακάτω).  
+- **Ποιος τύπος διαγράμματος δημιουργεί στοίβαξη;** Χρησιμοποιήστε το `ChartType.PercentsStackedColumn` για ένα διάγραμμα στήλης στοίβασης ποσοστών.  
+- **Πώς μπορώ να αλλάξω τη μορφή αριθμού του άξονα;** Καλέστε το `IAxis.setNumberFormat()` και ορίστε `setNumberFormatLinkedToSource(false)`.  
+- **Μπορώ να προσαρμόσω τις ετικέτες δεδομένων;** Ναι – επαναλάβετε για κάθε `IChartDataPoint` και εκχωρήστε ένα προσαρμοσμένο `ITextFrame`.  
+- **Πώς αποθηκεύω το αρχείο;** Καλείστε `presentation.save("output.pptx", SaveFormat.Pptx)`.
 
-## Quick Answers
-- **What library do I need?** `aspose-slides` Maven/Gradle dependency (see “aspose slides maven dependency” below)  
-- **Which chart type is used?** `ChartType.PercentsStackedColumn` for a percentage‑stacked column chart  
-- **How do I change the axis number format?** Use `IAxis.setNumberFormat()` and disable linking to source  
-- **Can I customize data labels?** Yes – iterate through `IChartDataPoint` objects and set a custom `ITextFrame`  
-- **How do I save the file?** Call `presentation.save("output.pptx", SaveFormat.Pptx)`
+## Τι είναι ένα διάγραμμα στήλης στοίβας;
+Ένα διάγραμμα στήλης στοίβας οπτικοποιεί πολλαπλές σειρές δεδομένων στοίβαγμένες κατακόρυφα σε κάθε στήλη κατηγορίας, με την παραλλαγή **percentage‑stacked** που κανονικοποιεί κάθε στήλη στο 100 % για εύκολη σύγκριση αναλογιών. Αυτό το μορφότυπο επιτρέπει στους θεατές να αξιολογούν γρήγορα πώς κάθε στοιχείο συμβάλλει στο σύνολο σε διαφορετικές κατηγορίες, καθιστώντας τις τάσεις και τα σχετικά μεγέθη άμεσα σαφή.
 
-## What is a stacked column chart?
-A stacked column chart visualizes multiple data series stacked on top of each other in vertical columns. When you use the **percentage‑stacked** variant, each column always totals 100 %, making it easy to compare proportional contributions across categories.
+## Γιατί να χρησιμοποιήσετε Aspose.Slides for Java;
+Το Aspose.Slides for Java σας επιτρέπει να δημιουργείτε, επεξεργάζεστε και μετατρέπετε αρχεία PowerPoint **χωρίς να χρειάζεστε το Microsoft Office** και υποστηρίζει **πάνω από 50 μορφές εξόδου** σε Windows, Linux και macOS. Η βιβλιοθήκη εκτελείται εξ ολοκλήρου σε JRE, επιτρέποντας αυτοματοποίηση στο διακομιστή και αναφορές υψηλής απόδοσης. Παρέχει επίσης λεπτομερή έλεγχο πάνω σε αντικείμενα διαγραμμάτων, διατάξεις διαφανειών και ιδιότητες εγγράφου, καθιστώντας την ιδανική για δημιουργία παρουσιάσεων επιχειρηματικού επιπέδου.
 
-## Why use Aspose.Slides for Java?
-Aspose.Slides provides a pure‑Java API that works on any platform without Microsoft Office installed. It offers fine‑grained control over chart objects, supports a wide range of formats, and lets you generate presentations programmatically—perfect for automated reporting or server‑side document generation.
+## Προαπαιτούμενα
+- **Java Development Kit (JDK):** 8 ή νεότερο  
+- **IDE:** IntelliJ IDEA, Eclipse ή οποιοσδήποτε επεξεργαστής συμβατός με Java  
+- **Build Tool:** Maven ή Gradle (προαιρετικό αλλά συνιστάται)  
+- **Βασικές γνώσεις Java** – πρέπει να είστε άνετοι με κλάσεις και μεθόδους  
 
-## Prerequisites
-- **Java Development Kit (JDK):** 8 or higher  
-- **IDE:** IntelliJ IDEA, Eclipse, or any Java‑compatible editor  
-- **Build Tool:** Maven or Gradle (optional but recommended)  
-- **Basic Java knowledge** – you should be comfortable with classes and methods  
-
-## Setting Up Aspose.Slides for Java
-To start, add the Aspose.Slides library to your project.
+## Ρύθμιση Aspose.Slides για Java
+Για να ξεκινήσετε, προσθέστε τη βιβλιοθήκη Aspose.Slides στο έργο σας.
 
 ### Aspose Slides Maven Dependency
-Add the following to your `pom.xml` (this is the **aspose slides maven dependency** you’ll need):
+Προσθέστε το ακόλουθο στο `pom.xml` (αυτή είναι η **aspose slides maven dependency** που θα χρειαστείτε):
 
 ```xml
 <dependency>
@@ -67,25 +102,25 @@ Add the following to your `pom.xml` (this is the **aspose slides maven dependenc
 </dependency>
 ```
 
-### Gradle Alternative
-If you prefer Gradle, include this line in `build.gradle`:
+### Εναλλακτική Gradle
+Αν προτιμάτε Gradle, συμπεριλάβετε αυτή τη γραμμή στο `build.gradle`:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Direct Download
-Alternatively, download the latest JAR from [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+### Άμεση Λήψη
+Εναλλακτικά, κατεβάστε το πιο πρόσφατο JAR από [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### License Acquisition
-You can start with a free trial to explore Aspose.Slides features. To remove evaluation limitations, consider obtaining a temporary or purchased license.
+### Απόκτηση Άδειας
+Μπορείτε να ξεκινήσετε με δωρεάν δοκιμή για να εξερευνήσετε τις δυνατότητες του Aspose.Slides. Για να αφαιρέσετε τους περιορισμούς αξιολόγησης, σκεφτείτε την απόκτηση προσωρινής ή αγορασμένης άδειας.
 
-- **Free Trial:** Access limited features without immediate costs.  
-- **Temporary License:** Request via [Aspose’s site](https://purchase.aspose.com/temporary-license/).  
-- **Purchase:** Visit the purchase page for full access.
+- **Δωρεάν Δοκιμή:** Πρόσβαση σε περιορισμένες λειτουργίες χωρίς άμεσο κόστος.  
+- **Προσωρινή Άδεια:** Αίτηση μέσω [Aspose’s site](https://purchase.aspose.com/temporary-license/).  
+- **Αγορά:** Επισκεφθείτε τη σελίδα αγοράς για πλήρη πρόσβαση.
 
-### Basic Initialization
-Here’s a minimal snippet that shows how to create a `Presentation` object:
+### Βασική Αρχικοποίηση
+`Presentation` είναι η βασική κλάση του Aspose.Slides που αντιπροσωπεύει ένα αρχείο PowerPoint στη μνήμη. Το παρακάτω ελάχιστο απόσπασμα δείχνει πώς να δημιουργήσετε ένα αντικείμενο `Presentation`:
 
 ```java
 import com.aspose.slides.Presentation;
@@ -101,13 +136,13 @@ public class InitializeAspose {
 }
 ```
 
-## Implementation Guide
+## Οδηγός Υλοποίησης
 
-### Creating a Presentation and Adding a Slide
-**Overview:**  
-First, we’ll create a blank presentation and verify that a slide exists.
+### Δημιουργία Παρουσίασης και Προσθήκη Διαφάνειας
+**Επισκόπηση:**  
+Πρώτα, θα δημιουργήσουμε μια κενή παρουσίαση και θα επαληθεύσουμε ότι υπάρχει μια διαφάνεια.
 
-#### Step 1: Initialize Presentation Object
+#### Βήμα 1: Αρχικοποίηση Αντικειμένου Presentation
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
@@ -123,17 +158,19 @@ public class CreatePresentation {
 }
 ```
 
-#### Step 2: Save the Presentation
+#### Βήμα 2: Αποθήκευση της Παρουσίασης
 ```
 // Save the presentation to a file
 presentation.save("YOUR_OUTPUT_DIRECTORY/CreatePresentation_out.pptx", SaveFormat.Pptx);
 ```
 
-### Adding Percentage Stacked Column Chart to a Slide
-**Overview:**  
-Now we’ll place a **percentage stacked chart** onto the first slide.
+### Προσθήκη Διάγραμμα Στοίβας Ποσοστών σε Διαφάνεια
+**Επισκόπηση:**  
+Τώρα θα τοποθετήσουμε ένα **διάγραμμα στοίβας ποσοστών** στην πρώτη διαφάνεια.
 
-#### Step 1: Initialize and Access Slide
+`ChartType.PercentsStackedColumn` καθορίζει τύπο διαγράμματος στήλης στοίβας ποσοστών.
+
+#### Βήμα 1: Αρχικοποίηση και Πρόσβαση στη Διαφάνεια
 ```java
 import com.aspose.slides.ISlide;
 import com.aspose.slides.ChartType;
@@ -148,7 +185,7 @@ public class AddChartToSlide {
 }
 ```
 
-#### Step 2: Add Chart to Slide
+#### Βήμα 2: Προσθήκη Διαγράμματος στη Διαφάνεια
 ```java
 import com.aspose.slides.IChart;
 
@@ -156,11 +193,13 @@ IChart chart = slide.getShapes().addChart(
     ChartType.PercentsStackedColumn, 20, 20, 500, 400);
 ```
 
-### Customizing Chart Axis Number Format
-**Overview:**  
-For better readability we’ll **change vertical axis format** to show percentages.
+### Προσαρμογή Μορφής Αριθμού Άξονα Διαγράμματος
+**Επισκόπηση:**  
+Για καλύτερη αναγνωσιμότητα, θα **αλλάξουμε τη μορφή του κατακόρυφου άξονα** ώστε να εμφανίζει ποσοστά.
 
-#### Step 1: Add and Access Chart
+`IAxis` είναι η διεπαφή που αντιπροσωπεύει έναν άξονα διαγράμματος, επιτρέποντας ρυθμίσεις μορφής και κλίμακας.
+
+#### Βήμα 1: Προσθήκη και Πρόσβαση στο Διάγραμμα
 ```java
 public class CustomizeChartAxis {
     public static void main(String[] args) throws Exception {
@@ -173,7 +212,7 @@ public class CustomizeChartAxis {
 }
 ```
 
-#### Step 2: Set Custom Number Format
+#### Βήμα 2: Ορισμός Προσαρμοσμένης Μορφής Αριθμού
 ```java
 import com.aspose.slides.IAxis;
 
@@ -182,11 +221,11 @@ verticalAxis.setNumberFormatLinkedToSource(false);
 verticalAxis.setNumberFormat("0.00%");
 ```
 
-### Adding Series and Data Points to Chart
-**Overview:**  
-We’ll populate the chart with sample data series.
+### Προσθήκη Σειρών και Σημείων Δεδομένων στο Διάγραμμα
+**Επισκόπηση:**  
+Θα γεμίσουμε το διάγραμμα με δείγμα σειρών δεδομένων.
 
-#### Step 1: Initialize Presentation and Chart
+#### Βήμα 1: Αρχικοποίηση Παρουσίασης και Διαγράμματος
 ```java
 import com.aspose.slides.IChartSeries;
 import com.aspose.slides.ChartDataWorkbook;
@@ -205,7 +244,7 @@ public class AddSeriesToChart {
 }
 ```
 
-#### Step 2: Add Data Series
+#### Βήμα 2: Προσθήκη Σειράς Δεδομένων
 ```java
 // Clear existing series and add new ones
 chart.getChartData().getSeries().clear();
@@ -216,11 +255,11 @@ series1.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorkshe
 // Add more data points as needed
 ```
 
-### Formatting Series Fill Color
-**Overview:**  
-Give each series a distinct color to make the chart easier to read.
+### Μορφοποίηση Χρώματος Γέμισης Σειράς
+**Επισκόπηση:**  
+Δώστε σε κάθε σειρά ένα ξεχωριστό χρώμα ώστε το διάγραμμα να είναι πιο ευανάγνωστο.
 
-#### Step 1: Initialize and Access Chart
+#### Βήμα 1: Αρχικοποίηση και Πρόσβαση στο Διάγραμμα
 ```java
 import java.awt.Color;
 import com.aspose.slides.FillType;
@@ -238,7 +277,7 @@ public class FormatSeriesFillColor {
 }
 ```
 
-#### Step 2: Set Fill Colors
+#### Βήμα 2: Ορισμός Χρωμάτων Γέμισης
 ```java
 IChartSeries series1 = chart.getChartData().getSeries().get_Item(0);
 series1.getFormat().getFill().setFillType(FillType.Solid);
@@ -247,11 +286,13 @@ series1.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 // Repeat for other series with different colors
 ```
 
-### Formatting Data Labels
-**Overview:**  
-Now we’ll **format chart data labels** so they display custom text.
+### Μορφοποίηση Ετικετών Δεδομένων
+**Επισκόπηση:**  
+Τώρα θα **μορφοποιήσουμε τις ετικέτες δεδομένων του διαγράμματος** ώστε να εμφανίζουν προσαρμοσμένο κείμενο.
 
-#### Step 1: Access Chart Series and Data Points
+`IChartDataPoint` αντιπροσωπεύει ένα μεμονωμένο σημείο δεδομένων μέσα σε μια σειρά διαγράμματος, και το `ITextFrame` περιέχει το κείμενο της ετικέτας.
+
+#### Βήμα 1: Πρόσβαση στις Σειρές Διαγράμματος και στα Σημεία Δεδομένων
 ```java
 public class FormatDataLabels {
     public static void main(String[] args) throws Exception {
@@ -267,7 +308,7 @@ public class FormatDataLabels {
 }
 ```
 
-#### Step 2: Customize Data Labels
+#### Βήμα 2: Προσαρμογή Ετικετών Δεδομένων
 ```java
 import com.aspose.slides.ITextFrame;
 import com.aspose.slides.IChartDataPoint;
@@ -282,41 +323,48 @@ for (IChartSeries series : chart.getChartData().getSeries()) {
 }
 ```
 
-## Common Issues and Solutions
-- **Chart appears empty:** Ensure you have added at least one data series and data point before saving.  
-- **Axis numbers not showing percentages:** Remember to set `verticalAxis.setNumberFormatLinkedToSource(false)`; otherwise the custom format is ignored.  
-- **License evaluation message:** Apply a valid license file before creating the `Presentation` object to suppress the evaluation banner.
+## Συχνά Προβλήματα και Λύσεις
+- **Το διάγραμμα εμφανίζεται κενό:** Βεβαιωθείτε ότι έχετε προσθέσει τουλάχιστον μία σειρά δεδομένων και σημείο δεδομένων πριν την αποθήκευση.  
+- **Οι αριθμοί του άξονα δεν εμφανίζουν ποσοστά:** Θυμηθείτε να ορίσετε `verticalAxis.setNumberFormatLinkedToSource(false)`· διαφορετικά η προσαρμοσμένη μορφή αγνοείται.  
+- **Μήνυμα αξιολόγησης άδειας:** Εφαρμόστε ένα έγκυρο αρχείο άδειας πριν δημιουργήσετε το αντικείμενο `Presentation` για να καταστέλετε τη σημαία αξιολόγησης.
 
-## Frequently Asked Questions
+## Συχνές Ερωτήσεις
 
-**Q: Can I use this code with Java 11 or newer?**  
-A: Yes. The library supports JDK 8+; just use the appropriate classifier (e.g., `jdk16` for JDK 16 or later).
+**Q: Μπορώ να χρησιμοποιήσω αυτόν τον κώδικα με Java 11 ή νεότερο;**  
+A: Ναι. Η βιβλιοθήκη υποστηρίζει JDK 8+· απλώς χρησιμοποιήστε τον κατάλληλο classifier (π.χ., `jdk16` για JDK 16 ή νεότερο).
 
-**Q: How do I export the chart as an image instead of a PPTX?**  
-A: Use `chart.getImage().save("chart.png", ImageFormat.Png);` after adding the chart to the slide.
+**Q: Πώς εξάγω το διάγραμμα ως εικόνα αντί για PPTX;**  
+A: Χρησιμοποιήστε `chart.getImage().save("chart.png", ImageFormat.Png);` μετά την προσθήκη του διαγράμματος στη διαφάνεια.
 
-**Q: Is it possible to add a legend to the stacked column chart?**  
-A: Absolutely. Call `chart.getChartTitle().addTextFrameForOverriding("My Chart");` and configure `chart.getLegend()` as needed.
+**Q: Είναι δυνατόν να προσθέσω υπόμνημα στο διάγραμμα στήλης στοίβας;**  
+A: Απόλυτα. Καλέστε `chart.getChartTitle().addTextFrameForOverriding("My Chart");` και διαμορφώστε το `chart.getLegend()` όπως χρειάζεται.
 
-**Q: What if I need to update data after the presentation is generated?**  
-A: You can modify the `ChartDataWorkbook` cells and then call `chart.refresh();` to reflect changes.
+**Q: Τι γίνεται αν χρειαστεί να ενημερώσω τα δεδομένα μετά τη δημιουργία της παρουσίασης;**  
+A: Μπορείτε να τροποποιήσετε τα κελιά του `ChartDataWorkbook` και στη συνέχεια να καλέσετε `chart.refresh();` για να αντικατοπτριστούν οι αλλαγές.
 
-**Q: Does Aspose.Slides work on Linux servers?**  
-A: Yes. The library is pure Java and runs on any OS with a compatible JRE.
+**Q: Λειτουργεί το Aspose.Slides σε διακομιστές Linux;**  
+A: Ναι. Η βιβλιοθήκη είναι καθαρά Java και τρέχει σε οποιοδήποτε OS με συμβατό JRE.
 
-## Conclusion
-By following this guide you’ve learned how to **create stacked column chart** presentations with Aspose.Slides for Java, from environment setup to fine‑tuned visual styling. Experiment with different data sets, colors, and label formats to make your reports truly stand out.
+## Συμπέρασμα
+Ακολουθώντας αυτόν τον οδηγό έχετε μάθει πώς να **δημιουργήσετε ένα διάγραμμα στήλης στοίβας** σε Java χρησιμοποιώντας την **Aspose Slides Maven dependency**, από τη ρύθμιση του περιβάλλοντος έως τη λεπτομερή οπτική διαμόρφωση. Πειραματιστείτε με διαφορετικά σύνολα δεδομένων, χρώματα και μορφές ετικετών για να κάνετε τις αναφορές σας πραγματικά εντυπωσιακές.
 
 ---
 
-**Last Updated:** 2026-02-22  
-**Tested With:** Aspose.Slides 25.4 (jdk16 classifier)  
-**Author:** Aspose  
+**Τελευταία Ενημέρωση:** 2026-07-22  
+**Δοκιμάστηκε Με:** Aspose.Slides 25.4 (jdk16 classifier)  
+**Συγγραφέας:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Σχετικά Μαθήματα
+
+- [Πώς να δημιουργήσετε συγκεντρωτικό διάγραμμα στήλης σε Java με Aspose.Slides](/slides/java/charts-graphs/aspose-slides-java-clustered-column-charts/)
+- [Πώς να ορίσετε μορφές αριθμών σε σημεία δεδομένων διαγράμματος χρησιμοποιώντας Aspose.Slides for Java](/slides/java/charts-graphs/set-number-format-chart-data-points-aspose-slides-java/)
+- [Πώς να προσθέσετε και να διαμορφώσετε διαγράμματα σε παρουσιάσεις χρησιμοποιώντας Aspose.Slides for Java](/slides/java/charts-graphs/add-charts-aspose-slides-java-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,51 @@
 ---
-date: '2026-02-22'
-description: Pelajari cara membuat diagram kolom bertumpuk di Java menggunakan Aspose.Slides.
-  Tutorial ini mencakup dependensi Maven Aspose Slides, menambahkan diagram bertumpuk
-  persentase, memformat label data diagram, dan menyimpan presentasi sebagai PPTX.
+date: '2026-07-22'
+description: Pelajari Aspose Slides Maven Dependency untuk membuat stacked column
+  chart di Java, menambahkan data labels, mengubah format angka sumbu vertikal, dan
+  mengekspor hasilnya sebagai file PPTX.
 keywords:
-- Aspose.Slides
+- aspose slides maven dependency
+- add data labels to chart
+- change vertical axis number format
+- how to add percentage stacked chart
+lastmod: '2026-07-22'
+og_description: Aspose Slides Maven Dependency memungkinkan Anda membangun stacked
+  column chart di Java, menyesuaikan data labels, mengatur format sumbu vertikal,
+  dan menyimpan sebagai PPTX – semua dengan kode yang ringkas dan siap produksi.
+og_image_alt: 'Developer guide: Build a stacked column chart in Java using Aspose.Slides
+  Maven dependency'
+og_title: 'Aspose Slides Maven Dependency: Stacked Column Chart di Java'
+schemas:
+- author: Aspose
+  dateModified: '2026-07-22'
+  description: Learn the Aspose Slides Maven Dependency to create a stacked column
+    chart in Java, add data labels, change vertical axis number format, and export
+    the result as a PPTX file.
+  headline: 'Aspose Slides Maven Dependency: Stacked Column Chart in Java'
+  type: TechArticle
+- questions:
+  - answer: Yes. The library supports JDK 8+; just use the appropriate classifier
+      (e.g., `jdk16` for JDK 16 or later).
+    question: Can I use this code with Java 11 or newer?
+  - answer: Use `chart.getImage().save("chart.png", ImageFormat.Png);` after adding
+      the chart to the slide.
+    question: How do I export the chart as an image instead of a PPTX?
+  - answer: Absolutely. Call `chart.getChartTitle().addTextFrameForOverriding("My
+      Chart");` and configure `chart.getLegend()` as needed.
+    question: Is it possible to add a legend to the stacked column chart?
+  - answer: You can modify the `ChartDataWorkbook` cells and then call `chart.refresh();`
+      to reflect changes.
+    question: What if I need to update data after the presentation is generated?
+  - answer: Yes. The library is pure Java and runs on any OS with a compatible JRE.
+    question: Does Aspose.Slides work on Linux servers?
+  type: FAQPage
+tags:
 - stacked column chart
-- Java presentation
-title: Cara membuat diagram kolom bertumpuk di Java dengan Aspose.Slides – Panduan
-  Komprehensif
+- Aspose.Slides
+- Java charting
+- Maven dependency
+- presentation generation
+title: 'Aspose Slides Maven Dependency: Stacked Column Chart di Java'
 url: /id/java/charts-graphs/aspose-slides-java-stacked-column-charts/
 weight: 1
 ---
@@ -18,32 +55,30 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Cara membuat diagram kolom bertumpuk di Java dengan Aspose.Slides – Panduan Komprehensif
+# Dependensi Maven Aspose Slides: Diagram Kolom Bertumpuk di Java
 
 ## Pendahuluan
 
-Tingkatkan presentasi Anda dengan menggabungkan visualisasi data yang mendalam menggunakan kekuatan Aspose.Slides untuk Java. Dalam panduan ini Anda akan **membuat diagram kolom bertumpuk** yang tampak profesional, baik saat menyiapkan laporan bisnis maupun menampilkan statistik proyek. Pada akhir tutorial ini Anda akan dapat:
+Tingkatkan presentasi Anda dengan memasukkan visualisasi data yang mendalam menggunakan kekuatan **Aspose.Slides for Java**. Dalam panduan ini Anda akan **membuat diagram kolom bertumpuk** yang tampak profesional, baik saat menyiapkan laporan bisnis maupun menampilkan statistik proyek. Pada akhir tutorial ini Anda akan dapat:
 
-- Menyiapkan lingkungan Anda dengan dependensi Aspose Slides Maven
-- Membuat presentasi dari awal
-- **Menambahkan diagram bertumpuk persentase** dan menyesuaikan tampilannya
-- **Memformat label data diagram** dan **mengubah format sumbu vertikal**
-- **Menyimpan presentasi sebagai PPTX** dengan satu baris kode
-
-Mari kita jalani setiap langkah sehingga Anda dapat mulai membuat presentasi yang menarik segera.
+- Siapkan lingkungan Anda dengan **dependensi Maven Aspose Slides**
+- Buat presentasi dari awal
+- **Tambahkan diagram persentase‑bertumpuk** dan sesuaikan tampilannya
+- **Format label data diagram** dan **ubah format angka sumbu vertikal**
+- **Simpan presentasi sebagai PPTX** dengan satu baris kode
 
 ## Jawaban Cepat
-- **Perpustakaan apa yang saya butuhkan?** `aspose-slides` dependensi Maven/Gradle (lihat “aspose slides maven dependency” di bawah)  
-- **Jenis diagram apa yang digunakan?** `ChartType.PercentsStackedColumn` untuk diagram kolom bertumpuk persentase  
-- **Bagaimana cara mengubah format angka sumbu?** Gunakan `IAxis.setNumberFormat()` dan nonaktifkan penautan ke sumber  
-- **Bisakah saya menyesuaikan label data?** Ya – iterasi melalui objek `IChartDataPoint` dan atur `ITextFrame` khusus  
-- **Bagaimana cara menyimpan file?** Panggil `presentation.save("output.pptx", SaveFormat.Pptx)`
+- **Perpustakaan apa yang saya perlukan?** Tambahkan dependensi Maven/Gradle `aspose-slides` (lihat “Dependensi Maven Aspose Slides” di bawah).  
+- **Jenis diagram apa yang menghasilkan tampilan bertumpuk?** Gunakan `ChartType.PercentsStackedColumn` untuk diagram kolom persentase‑bertumpuk.  
+- **Bagaimana cara mengubah format angka sumbu?** Panggil `IAxis.setNumberFormat()` dan atur `setNumberFormatLinkedToSource(false)`.  
+- **Bisakah saya menyesuaikan label data?** Ya – iterasi setiap `IChartDataPoint` dan tetapkan `ITextFrame` khusus.  
+- **Bagaimana cara menyimpan file?** Panggil `presentation.save("output.pptx", SaveFormat.Pptx)`.
 
 ## Apa itu diagram kolom bertumpuk?
-Diagram kolom bertumpuk menampilkan beberapa rangkaian data yang ditumpuk di atas satu sama lain dalam kolom vertikal. Ketika Anda menggunakan varian **bertumpuk persentase**, setiap kolom selalu berjumlah 100 %, memudahkan perbandingan kontribusi proporsional antar kategori.
+Diagram kolom bertumpuk memvisualisasikan beberapa seri data yang ditumpuk secara vertikal dalam setiap kolom kategori, dengan varian **persentase‑bertumpuk** menormalkan setiap kolom menjadi 100 % untuk perbandingan proporsi yang mudah. Format ini memungkinkan penonton dengan cepat menilai bagaimana setiap komponen berkontribusi pada keseluruhan di berbagai kategori, menjadikan tren dan ukuran relatif langsung terlihat.
 
 ## Mengapa menggunakan Aspose.Slides untuk Java?
-Aspose.Slides menyediakan API murni‑Java yang berfungsi di platform apa pun tanpa perlu menginstal Microsoft Office. Ia menawarkan kontrol detail atas objek diagram, mendukung berbagai format, dan memungkinkan Anda menghasilkan presentasi secara programatik—sempurna untuk pelaporan otomatis atau pembuatan dokumen sisi‑server.
+Aspose.Slides untuk Java memungkinkan Anda menghasilkan, mengedit, dan mengonversi file PowerPoint **tanpa memerlukan Microsoft Office** serta mendukung **lebih dari 50 format output** di Windows, Linux, dan macOS. Perpustakaan ini berjalan sepenuhnya pada JRE, memungkinkan otomatisasi sisi server dan pelaporan berkapasitas tinggi. Ia juga menyediakan kontrol detail atas objek diagram, tata letak slide, dan properti dokumen, menjadikannya ideal untuk pembuatan presentasi tingkat perusahaan.
 
 ## Prasyarat
 - **Java Development Kit (JDK):** 8 atau lebih tinggi  
@@ -52,10 +87,10 @@ Aspose.Slides menyediakan API murni‑Java yang berfungsi di platform apa pun ta
 - **Pengetahuan dasar Java** – Anda harus nyaman dengan kelas dan metode  
 
 ## Menyiapkan Aspose.Slides untuk Java
-Untuk memulai, tambahkan pustaka Aspose.Slides ke proyek Anda.
+Untuk memulai, tambahkan perpustakaan Aspose.Slides ke proyek Anda.
 
-### Dependensi Aspose Slides Maven
-Tambahkan berikut ke `pom.xml` Anda (ini adalah **aspose slides maven dependency** yang Anda perlukan):
+### Dependensi Maven Aspose Slides
+Tambahkan berikut ke `pom.xml` Anda (ini adalah **dependensi Maven Aspose Slides** yang Anda perlukan):
 
 ```xml
 <dependency>
@@ -77,14 +112,14 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 Sebagai alternatif, unduh JAR terbaru dari [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 ### Perolehan Lisensi
-Anda dapat memulai dengan percobaan gratis untuk menjelajahi fitur Aspose.Slides. Untuk menghapus batasan evaluasi, pertimbangkan memperoleh lisensi sementara atau lisensi berbayar.
+Anda dapat memulai dengan percobaan gratis untuk menjelajahi fitur Aspose.Slides. Untuk menghapus batasan evaluasi, pertimbangkan memperoleh lisensi sementara atau berbayar.
 
 - **Percobaan Gratis:** Akses fitur terbatas tanpa biaya langsung.  
 - **Lisensi Sementara:** Minta melalui [situs Aspose](https://purchase.aspose.com/temporary-license/).  
 - **Pembelian:** Kunjungi halaman pembelian untuk akses penuh.
 
 ### Inisialisasi Dasar
-Berikut cuplikan minimal yang menunjukkan cara membuat objek `Presentation`:
+`Presentation` adalah kelas inti Aspose.Slides yang mewakili file PowerPoint dalam memori. Potongan kode minimal berikut menunjukkan cara membuat objek `Presentation`:
 
 ```java
 import com.aspose.slides.Presentation;
@@ -128,9 +163,11 @@ public class CreatePresentation {
 presentation.save("YOUR_OUTPUT_DIRECTORY/CreatePresentation_out.pptx", SaveFormat.Pptx);
 ```
 
-### Menambahkan Diagram Kolom Bertumpuk Persentase ke Slide
+### Menambahkan Diagram Kolom Persentase‑Bertumpuk ke Slide
 **Gambaran Umum:**  
-Sekarang kita akan menempatkan **diagram bertumpuk persentase** ke slide pertama.
+Sekarang kita akan menempatkan **diagram persentase‑bertumpuk** pada slide pertama.
+
+`ChartType.PercentsStackedColumn` menentukan jenis diagram kolom persentase‑bertumpuk.
 
 #### Langkah 1: Inisialisasi dan Akses Slide
 ```java
@@ -157,7 +194,9 @@ IChart chart = slide.getShapes().addChart(
 
 ### Menyesuaikan Format Angka Sumbu Diagram
 **Gambaran Umum:**  
-Untuk keterbacaan yang lebih baik, kita akan **mengubah format sumbu vertikal** agar menampilkan persentase.
+Untuk keterbacaan yang lebih baik, kita akan **mengubah format sumbu vertikal** menjadi menampilkan persentase.
+
+`IAxis` adalah antarmuka yang mewakili sumbu diagram, memungkinkan penyesuaian format dan skala.
 
 #### Langkah 1: Tambahkan dan Akses Diagram
 ```java
@@ -217,7 +256,7 @@ series1.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorkshe
 
 ### Memformat Warna Isi Seri
 **Gambaran Umum:**  
-Berikan setiap seri warna yang berbeda untuk membuat diagram lebih mudah dibaca.
+Berikan setiap seri warna yang berbeda agar diagram lebih mudah dibaca.
 
 #### Langkah 1: Inisialisasi dan Akses Diagram
 ```java
@@ -249,6 +288,8 @@ series1.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 ### Memformat Label Data
 **Gambaran Umum:**  
 Sekarang kita akan **memformat label data diagram** sehingga menampilkan teks khusus.
+
+`IChartDataPoint` mewakili titik data individual dalam seri diagram, dan `ITextFrame` menyimpan teks label.
 
 #### Langkah 1: Akses Seri Diagram dan Titik Data
 ```java
@@ -288,34 +329,41 @@ for (IChartSeries series : chart.getChartData().getSeries()) {
 
 ## Pertanyaan yang Sering Diajukan
 
-**Q: Bisakah saya menggunakan kode ini dengan Java 11 atau yang lebih baru?**  
-A: Ya. Pustaka mendukung JDK 8+; cukup gunakan classifier yang sesuai (mis., `jdk16` untuk JDK 16 atau lebih baru).
+**T: Bisakah saya menggunakan kode ini dengan Java 11 atau lebih baru?**  
+**J:** Ya. Perpustakaan mendukung JDK 8+; cukup gunakan classifier yang sesuai (mis., `jdk16` untuk JDK 16 atau lebih baru).
 
-**Q: Bagaimana cara mengekspor diagram sebagai gambar alih-alih PPTX?**  
-A: Gunakan `chart.getImage().save("chart.png", ImageFormat.Png);` setelah menambahkan diagram ke slide.
+**T: Bagaimana cara mengekspor diagram sebagai gambar bukan PPTX?**  
+**J:** Gunakan `chart.getImage().save("chart.png", ImageFormat.Png);` setelah menambahkan diagram ke slide.
 
-**Q: Apakah memungkinkan menambahkan legenda ke diagram kolom bertumpuk?**  
-A: Tentu saja. Panggil `chart.getChartTitle().addTextFrameForOverriding("My Chart");` dan konfigurasikan `chart.getLegend()` sesuai kebutuhan.
+**T: Apakah memungkinkan menambahkan legenda ke diagram kolom bertumpuk?**  
+**J:** Tentu saja. Panggil `chart.getChartTitle().addTextFrameForOverriding("My Chart");` dan konfigurasikan `chart.getLegend()` sesuai kebutuhan.
 
-**Q: Bagaimana jika saya perlu memperbarui data setelah presentasi dihasilkan?**  
-A: Anda dapat memodifikasi sel `ChartDataWorkbook` lalu memanggil `chart.refresh();` untuk memperbarui perubahan.
+**T: Bagaimana jika saya perlu memperbarui data setelah presentasi dihasilkan?**  
+**J:** Anda dapat memodifikasi sel `ChartDataWorkbook` dan kemudian memanggil `chart.refresh();` untuk mencerminkan perubahan.
 
-**Q: Apakah Aspose.Slides bekerja di server Linux?**  
-A: Ya. Pustaka ini murni Java dan berjalan di sistem operasi apa pun dengan JRE yang kompatibel.
+**T: Apakah Aspose.Slides bekerja di server Linux?**  
+**J:** Ya. Perpustakaan ini murni Java dan berjalan di sistem operasi apa pun dengan JRE yang kompatibel.
 
 ## Kesimpulan
-Dengan mengikuti panduan ini Anda telah belajar cara **membuat diagram kolom bertumpuk** dalam presentasi menggunakan Aspose.Slides untuk Java, mulai dari penyiapan lingkungan hingga penataan visual yang halus. Bereksperimenlah dengan kumpulan data, warna, dan format label yang berbeda untuk membuat laporan Anda benar‑benar menonjol.
+Dengan mengikuti panduan ini, Anda telah belajar cara **membuat diagram kolom bertumpuk** di Java menggunakan **dependensi Maven Aspose Slides**, mulai dari penyiapan lingkungan hingga penataan visual yang detail. Bereksperimenlah dengan set data, warna, dan format label yang berbeda untuk membuat laporan Anda benar‑benar menonjol.
 
 ---
 
-**Terakhir Diperbarui:** 2026-02-22  
-**Diuji Dengan:** Aspose.Slides 25.4 (jdk16 classifier)  
+**Terakhir Diperbarui:** 2026-07-22  
+**Diuji Dengan:** Aspose.Slides 25.4 (classifier jdk16)  
 **Penulis:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Tutorial Terkait
+
+- [Cara membuat diagram kolom berkelompok di Java dengan Aspose.Slides](/slides/java/charts-graphs/aspose-slides-java-clustered-column-charts/)
+- [Cara Mengatur Format Angka pada Titik Data Diagram Menggunakan Aspose.Slides untuk Java](/slides/java/charts-graphs/set-number-format-chart-data-points-aspose-slides-java/)
+- [Cara Menambahkan dan Mengonfigurasi Diagram dalam Presentasi Menggunakan Aspose.Slides untuk Java](/slides/java/charts-graphs/add-charts-aspose-slides-java-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

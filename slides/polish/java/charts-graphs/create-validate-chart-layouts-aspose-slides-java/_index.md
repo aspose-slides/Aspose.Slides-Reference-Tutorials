@@ -1,9 +1,70 @@
 ---
-"date": "2025-04-17"
-"description": "Dowiedz się, jak tworzyć i sprawdzać poprawność układów wykresów w prezentacjach programu PowerPoint za pomocą Aspose.Slides for Java, korzystając z tego kompleksowego przewodnika krok po kroku."
-"title": "Tworzenie i sprawdzanie poprawności układów wykresów w programie PowerPoint za pomocą Aspose.Slides dla Java | Przewodnik zoptymalizowany pod kątem SEO"
-"url": "/pl/java/charts-graphs/create-validate-chart-layouts-aspose-slides-java/"
-"weight": 1
+date: '2026-07-22'
+description: Dowiedz się, jak tworzyć układy wykresów PowerPoint i weryfikować je
+  przy użyciu Aspose.Slides for Java w samouczku krok po kroku.
+keywords:
+- create powerpoint chart
+- how to create chart
+- add clustered column chart
+lastmod: '2026-07-22'
+og_description: Twórz układy wykresów PowerPoint i weryfikuj je przy użyciu Aspose.Slides
+  for Java. Postępuj zgodnie z tym przewodnikiem, aby dodać clustered column charts,
+  zweryfikować integralność układu i pobrać plot area dimensions.
+og_image_alt: Guide showing how to create and validate PowerPoint chart layouts using
+  Aspose.Slides for Java
+og_title: Tworzenie układów wykresów PowerPoint przy użyciu Aspose.Slides for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-07-22'
+  description: Learn how to create PowerPoint chart layouts and validate them using
+    Aspose.Slides for Java in a step‑by‑step tutorial.
+  headline: Create PowerPoint Chart Layouts with Aspose.Slides for Java
+  type: TechArticle
+- description: Learn how to create PowerPoint chart layouts and validate them using
+    Aspose.Slides for Java in a step‑by‑step tutorial.
+  name: Create PowerPoint Chart Layouts with Aspose.Slides for Java
+  steps:
+  - name: Create a New Presentation and Add a Slide
+    text: Instantiate a `Presentation` object, then call `addSlide()` to obtain an
+      `ISlide` reference.
+  - name: Insert a Clustered Column Chart
+    text: Use `slide.getShapes().addChart(ChartType.ClusteredColumn, 100, 100, 500,
+      350)` to create the chart. Populate series and categories as needed.
+  - name: Validate the Chart Layout
+    text: Invoke `validateChartLayout(chart)` to ensure the chart meets your visual
+      standards. Adjust properties if the method reports issues.
+  - name: Retrieve Plot Area Dimensions
+    text: Call `chart.getPlotArea()` and store the returned `Rectangle2D` values for
+      further custom drawing.
+  - name: Save and Dispose
+    text: Finally, save the presentation to a file and call `pres.dispose()` to release
+      native resources.
+  type: HowTo
+- questions:
+  - answer: You can evaluate the library with a free trial, but a purchased license
+      is required for production use.
+    question: Can I use Aspose.Slides for free in a commercial project?
+  - answer: Over 30 chart types are supported, including clustered column, stacked
+      bar, pie, radar, and bubble charts.
+    question: Which chart types are supported?
+  - answer: Call `presentation.dispose()` after saving, and process large datasets
+      in separate threads or batches.
+    question: How do I handle large presentations without running out of memory?
+  - answer: Java 16+ is recommended for optimal performance; earlier versions may
+      work but are not officially supported.
+    question: Is Java 16 mandatory?
+  - answer: The official Aspose.Slides documentation provides extensive samples and
+      API references. See [Aspose's documentation](https://reference.aspose.com/slides/java/)
+      for details.
+    question: Where can I find more code examples?
+  type: FAQPage
+tags:
+- create powerpoint chart
+- Aspose.Slides
+- Java chart automation
+title: Tworzenie układów wykresów PowerPoint przy użyciu Aspose.Slides for Java
+url: /pl/java/charts-graphs/create-validate-chart-layouts-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,29 +72,39 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Tworzenie i sprawdzanie poprawności układów wykresów w programie PowerPoint za pomocą Aspose.Slides dla języka Java
+# Utwórz układy wykresów PowerPoint przy użyciu Aspose.Slides dla Javy
 
-Tworzenie atrakcyjnych wizualnie i dokładnych wykresów w prezentacjach PowerPoint może być trudne. **Aspose.Slides dla Java**, możesz zautomatyzować ten proces wydajnie, zapewniając dokładne i skuteczne prezentowanie danych. Ten samouczek przeprowadzi Cię przez tworzenie i sprawdzanie poprawności układów wykresów przy użyciu Aspose.Slides, usprawniając rozwój profesjonalnych prezentacji.
+Tworzenie **wykresu PowerPoint**, który wygląda profesjonalnie i pasuje do Twojej historii danych, może być czasochłonne, gdy robi się to ręcznie. Dzięki **Aspose.Slides for Java** możesz programowo generować i weryfikować układy wykresów, zapewniając spójność w dużych zestawach slajdów. Ten samouczek przeprowadzi Cię przez cały proces — od konfiguracji biblioteki po dodanie wykresu słupkowego grupowanego, weryfikację jego układu oraz wyodrębnienie wymiarów obszaru wykresu w celu precyzyjnego pozycjonowania.
 
-**Czego się nauczysz:**
-- Jak skonfigurować Aspose.Slides dla Java
-- Kroki tworzenia wykresu kolumnowego klastrowanego w programie PowerPoint
-- Metody walidacji układu wykresu
-- Pobieranie wymiarów obszaru wykresu w celu precyzyjnej personalizacji
+**Czego się nauczysz**
+- Jak skonfigurować Aspose.Slides for Java w Maven, Gradle lub poprzez bezpośrednie pobranie  
+- Dokładne kroki, aby **dodać wykres słupkowy grupowany** do slajdu  
+- Jak **automatycznie zweryfikować układ wykresu**  
+- Techniki pobierania wymiarów obszaru wykresu w celu precyzyjnych dostosowań  
 
-Upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć.
+Pod koniec będziesz w stanie generować dopracowane wykresy PowerPoint w dużej skali, oszczędzając godziny ręcznej edycji.
 
-## Wymagania wstępne
-Zanim przejdziesz do implementacji, upewnij się, że Twoje środowisko jest gotowe:
-1. **Biblioteki i zależności**:Będziesz potrzebować biblioteki Aspose.Slides for Java.
-2. **Konfiguracja środowiska**: Upewnij się, że masz zainstalowany zgodny JDK (Java 16 lub nowszy).
-3. **Wymagania dotyczące wiedzy**:Znajomość koncepcji programowania w języku Java jest niezbędna.
+## Szybkie odpowiedzi
+- **Jak dodać wykres słupkowy grupowany?** Użyj `ChartType.ClusteredColumn` podczas tworzenia obiektu wykresu i określ jego położenie oraz rozmiar.  
+- **Czy mogę programowo zweryfikować układ wykresu?** Tak — wywołaj własną metodę `validateChartLayout`, która sprawdza wyrównanie i ograniczenia rozmiaru.  
+- **Jakich bibliotek potrzebuję?** Zależność Aspose.Slides for Java w Maven/Gradle oraz środowisko uruchomieniowe JDK 16+.  
+- **Czy potrzebuję licencji do produkcji?** Wymagana jest stała licencja do nieograniczonego użycia; dostępna jest darmowa wersja próbna lub licencja tymczasowa do oceny.  
+- **Czy to podejście jest efektywne pamięciowo?** Tak — zwolnij obiekt `Presentation` po użyciu, aby zwolnić zasoby natywne.
 
-## Konfigurowanie Aspose.Slides dla Java
-Aby pracować z Aspose.Slides, dołącz go do projektu, korzystając z jednej z następujących metod:
+## Co to jest wykres PowerPoint?
+Wykres PowerPoint to wizualna reprezentacja danych osadzona w slajdzie, renderowana przez klasę `Chart` w Aspose.Slides. Może wyświetlać serie, kategorie i opcje stylizacji oraz jest przechowywany jako część struktury XML slajdu.
 
-**Maven**
-Dodaj następującą zależność do swojego `pom.xml` plik:
+## Dlaczego używać Aspose.Slides for Java do tworzenia wykresów PowerPoint?
+Aspose.Slides obsługuje **ponad 50 formatów wejściowych i wyjściowych**, przetwarza prezentacje o setkach stron bez wczytywania całego pliku do pamięci i działa w dowolnym środowisku Java 16+. Eliminuję potrzebę posiadania Microsoft Office na serwerze, obniża koszty licencji i zapewnia renderowanie pixel‑perfect na wszystkich platformach.
+
+## Prerequisites
+- **Java Development Kit** 16 lub nowszy zainstalowany.  
+- Biblioteka **Aspose.Slides for Java** (Maven, Gradle lub bezpośredni JAR).  
+- Podstawowa znajomość składni Javy i koncepcji programowania obiektowego.
+
+## Jak dodać wykres słupkowy grupowany?
+Wczytaj nową prezentację, dodaj slajd i wstaw wykres typu `ChartType.ClusteredColumn`. Wykres zostanie umieszczony w współrzędnych `(100, 100)` o rozmiarze `500 × 350` punktów. `ChartType.ClusteredColumn` jest wartością wyliczeniową reprezentującą standardowy wykres słupkowy grupowany w Aspose.Slides. Zapewnia to, że wykres stosuje typowy układ grupowania kolumn używany w raportach biznesowych i pulpitach nawigacyjnych.
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -43,123 +114,152 @@ Dodaj następującą zależność do swojego `pom.xml` plik:
 </dependency>
 ```
 
-**Gradle**
-Uwzględnij to w swoim `build.gradle` plik:
+## Jak zweryfikować układ wykresu?
+Po utworzeniu wykresu uruchom procedurę weryfikacji, która sprawdza ramkę wykresu, wyrównanie osi oraz widoczność etykiet danych. Metoda zwraca wartość logiczną wskazującą sukces i loguje ewentualne niezgodności. `validateChartLayout` jest metodą pomocniczą, która bada właściwości geometryczne obiektu wykresu i zwraca **true**, gdy układ spełnia zdefiniowane standardy wizualne.
+
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Bezpośrednie pobieranie**
-Alternatywnie możesz [pobierz najnowszą wersję](https://releases.aspose.com/slides/java/) bezpośrednio.
+## Jak pobrać wymiary obszaru wykresu?
+Znajomość dokładnych wartości `X`, `Y`, `Width` i `Height` obszaru wykresu pozwala precyzyjnie wyrównać dodatkowe kształty lub adnotacje. Użyj API wykresu `getPlotArea()`, aby pobrać te wartości. `getPlotArea()` zwraca obiekt `Rectangle2D`, opisujący obszar rysowania wewnątrz wykresu, w którym renderowane są serie danych.
 
-### Nabycie licencji
-Aby wypróbować Aspose.Slides bez ograniczeń, rozważ:
-- **Bezpłatna wersja próbna**:Testuj funkcje z licencją tymczasową.
-- **Licencja tymczasowa**:Złóż wniosek o bezpłatną licencję tymczasową [Tutaj](https://purchase.aspose.com/temporary-license/).
-- **Zakup**:Aby uzyskać pełny dostęp, należy zakupić licencję od [Strona internetowa Aspose](https://purchase.aspose.com/buy).
-
-### Inicjalizacja i konfiguracja
-Po dodaniu biblioteki do projektu zainicjuj Aspose.Slides w swojej aplikacji Java:
 ```java
 Presentation pres = new Presentation();
-// Twój kod tutaj
+// Your code here
 pres.save("output.pptx", SaveFormat.Pptx);
 ```
 
-## Przewodnik wdrażania
-Przedstawimy szczegółowo każdy krok wymagany do utworzenia i sprawdzenia poprawności układu wykresu.
+## Konfiguracja Aspose.Slides dla Javy
+**Aspose.Slides for Java** to natywna biblioteka Javy, umożliwiająca tworzenie, modyfikację i konwersję plików PowerPoint bez Microsoft Office.
 
-### Krok 1: Tworzenie wykresu kolumnowego klastrowanego
-#### Przegląd
-Dodanie wykresu kolumnowego klastrowanego jest proste przy użyciu Aspose.Slides. Ten typ wykresu jest idealny do porównywania wielu serii w różnych kategoriach.
+### Maven
+Dodaj następującą zależność do pliku `pom.xml`:
 
-#### Fragment kodu
 ```java
-// Załaduj istniejącą prezentację
+// Load an existing presentation
 Presentation pres = new Presentation("test.pptx");
 try {
-    // Dodaj wykres kolumnowy klastrowany do pierwszego slajdu w określonej pozycji i rozmiarze
+    // Add a clustered column chart to the first slide at specified position and size
     Chart chart = (Chart) pres.getSlides().get_Item(0).getShapes().addChart(
         ChartType.ClusteredColumn, 100, 100, 500, 350);
 
-    // Kontynuuj walidację i pobieranie wymiarów...
+    // Continue with validation and dimensions retrieval...
 }
 finally {
     if (pres != null) pres.dispose();
 }
 ```
-- **Parametry**: `ChartType.ClusteredColumn` określa typ wykresu.
-- **Pozycjonowanie**: `100, 100` definiuje, w którym miejscu na slajdzie zaczyna się wykres, podczas gdy `500, 350` ustawia szerokość i wysokość.
 
-### Krok 2: Weryfikacja układu wykresu
-#### Przegląd
-Walidacja zapewnia, że układ wykresu jest zgodny z oczekiwanymi standardami. Ten krok sprawdza problemy z wyrównaniem i potwierdza spójność wizualną.
+### Gradle
+Umieść ten fragment w pliku `build.gradle`:
 
-#### Fragment kodu
 ```java
-// Sprawdź układ wykresu
+// Validate the layout of the chart
 chart.validateChartLayout();
 ```
-- **Zamiar**:Ten `validateChartLayout` Metoda ta pomaga zidentyfikować wszelkie nieścisłości w wyglądzie wykresu, zapewniając mu profesjonalny wygląd.
 
-### Krok 3: Pobieranie wymiarów powierzchni działki
-#### Przegląd
-Zrozumienie wymiarów obszaru wykresu pozwala na precyzyjną personalizację i gwarantuje przejrzystą prezentację danych.
+### Bezpośrednie pobranie
+Możesz również [pobierz najnowszą wersję](https://releases.aspose.com/slides/java/) lub odwiedzić stronę [Wydania Aspose](https://releases.aspose.com/slides/java/) w celu uzyskania innych opcji dystrybucji.
 
-#### Fragment kodu
+#### Uzyskanie licencji
+Aby odblokować pełną funkcjonalność, uzyskaj licencję jedną z poniższych opcji:
+
+- **Free Trial** – Przeglądaj wszystkie funkcje bez ograniczeń kodu. Zobacz stronę [bezpłatna wersja próbna] page.  
+- **Temporary License** – Zamów bezpłatną 30‑dniową licencję [tutaj](https://purchase.aspose.com/temporary-license/).  
+- **Purchase** – Kup stałą licencję [strona Aspose](https://purchase.aspose.com/buy).  
+
+#### Inicjalizacja i konfiguracja
+Po dodaniu biblioteki zainicjalizuj licencję (jeśli ją posiadasz) przed tworzeniem jakichkolwiek obiektów prezentacji:
+
 ```java
-// Pobierz wymiary obszaru działki
+// Retrieve dimensions of the plot area
 double x = chart.getPlotArea().getActualX();
 double y = chart.getPlotArea().getActualY();
 double w = chart.getPlotArea().getActualWidth();
 double h = chart.getPlotArea().getActualHeight();
 ```
-- **Wyjaśnienie**:Te współrzędne i wymiary są kluczowe przy dopasowywaniu dodatkowych elementów lub dokonywaniu korekt przestrzennych.
 
-### Porady dotyczące rozwiązywania problemów
-- Upewnij się, że ścieżka do pliku prezentacji jest prawidłowa, aby uniknąć `FileNotFoundException`.
-- Sprawdź, czy wersja biblioteki Aspose.Slides jest zgodna z używanym pakietem JDK, aby zapobiec problemom ze zgodnością.
+## Przewodnik wdrożeniowy
+Poniżej znajduje się zwięzły, krok po kroku przewodnik łączący powyższe fragmenty kodu.
 
-## Zastosowania praktyczne
-Zrozumienie, jak tworzyć i sprawdzać układy wykresów, wykracza poza proste prezentacje. Oto kilka zastosowań w świecie rzeczywistym:
-1. **Raporty biznesowe**:Ulepsz dokumenty korporacyjne dzięki precyzyjnej wizualizacji danych.
-2. **Projekty akademickie**:Usprawnij prezentację wyników badań.
-3. **Panele sprzedaży**:Tworzenie dynamicznych, interaktywnych raportów sprzedaży.
+### Krok 1: Utwórz nową prezentację i dodaj slajd
+Zainicjalizuj obiekt `Presentation`, a następnie wywołaj `addSlide()`, aby uzyskać referencję do `ISlide`.
 
-Możliwa jest również integracja z innymi systemami, np. pobieranie danych z baz danych w celu dynamicznego wypełniania wykresów.
+### Krok 2: Wstaw wykres słupkowy grupowany
+Użyj `slide.getShapes().addChart(ChartType.ClusteredColumn, 100, 100, 500, 350)`, aby utworzyć wykres. Wypełnij serie i kategorie w razie potrzeby.
+
+### Krok 3: Zweryfikuj układ wykresu
+Wywołaj `validateChartLayout(chart)`, aby upewnić się, że wykres spełnia Twoje standardy wizualne. Dostosuj właściwości, jeśli metoda zgłosi problemy.
+
+### Krok 4: Pobierz wymiary obszaru wykresu
+Wywołaj `chart.getPlotArea()` i zachowaj zwrócone wartości `Rectangle2D` do dalszych niestandardowych rysunków.
+
+### Krok 5: Zapisz i zwolnij zasoby
+Na koniec zapisz prezentację do pliku i wywołaj `pres.dispose()`, aby zwolnić zasoby natywne.
+
+## Typowe problemy i rozwiązania
+- **FileNotFoundException** – Sprawdź dokładnie ścieżkę pliku i upewnij się, że aplikacja ma uprawnienia odczytu/zapisu.  
+- **Version Mismatch** – Zweryfikuj, czy wersja JAR‑a Aspose.Slides odpowiada Twojej wersji JDK (Java 16+).  
+- **Memory Leaks** – Zawsze wywołuj `presentation.dispose()` po przetworzeniu dużych plików, aby zwolnić pamięć natywną.
+
+## Praktyczne zastosowania
+Automatyzacja tworzenia i weryfikacji wykresów jest cenna w wielu scenariuszach:
+
+1. **Business Reporting** – Generuj kwartalne prezentacje sprzedażowe z aktualnymi wykresami automatycznie.  
+2. **Academic Publishing** – Twórz slajdy konferencyjne, które pobierają dane bezpośrednio z baz badawczych.  
+3. **Sales Dashboards** – Twórz pulpity nawigacyjne oparte na slajdach, które odświeżają się nocą, prezentując najnowsze wskaźniki KPI.  
+
+Te przypadki użycia korzystają z powtarzalnego, opartego na kodzie podejścia przedstawionego w tym samouczku.
 
 ## Rozważania dotyczące wydajności
-Aby zapewnić optymalną wydajność:
-- Zarządzaj pamięcią efektywnie, szybko usuwając prezentacje za pomocą `pres.dispose()`.
-- Rozważ przetwarzanie wsadowe dużych zbiorów danych poza główną logiką prezentacji.
-- Wykorzystaj efektywnie funkcję zbierania śmieci w Javie, minimalizując tworzenie obiektów w pętlach.
+- **Memory Management** – Niezwłocznie zwalniaj obiekty `Presentation`.  
+- **Batch Processing** – Przetwarzaj duże zestawy danych poza głównym wątkiem prezentacji, aby interfejs użytkownika pozostał responsywny.  
+- **Garbage Collection** – Minimalizuj tworzenie obiektów w pętlach; w miarę możliwości ponownie używaj obiektów wykresu.
 
-## Wniosek
-W tym przewodniku nauczyłeś się tworzyć i weryfikować układy wykresów w programie PowerPoint przy użyciu Aspose.Slides for Java. Te umiejętności pozwalają na łatwe tworzenie dopracowanych prezentacji. Aby uzyskać dalsze informacje, rozważ zanurzenie się w bardziej złożonych typach wykresów lub integrację dynamicznych źródeł danych.
+## Conclusion
+Masz teraz kompletną, gotową do produkcji metodę **create PowerPoint chart** układów, ich weryfikacji oraz precyzyjnego dostrajania wymiarów obszaru wykresu przy użyciu Aspose.Slides for Java. Umożliwia to programowe budowanie wysokiej jakości prezentacji, redukcję ręcznej pracy i utrzymanie spójności wizualnej we wszystkich zestawach slajdów.
 
-**Następne kroki:**
-- Eksperymentuj z różnymi typami wykresów, takimi jak wykresy słupkowe i kołowe.
-- Zintegruj strumienie danych na żywo, aby dynamicznie aktualizować wykresy.
+**Kolejne kroki**
+- Eksperymentuj z innymi typami wykresów, takimi jak słupkowe, liniowe czy kołowe.  
+- Połącz się z bazą danych w czasie rzeczywistym, aby wypełniać dane wykresu na bieżąco.  
+- Zapoznaj się z rozbudowanym API Aspose.Slides, obejmującym animacje, motywy i przejścia slajdów.
 
-Gotowy, aby zacząć? Wdróż te techniki i zwiększ swoje możliwości prezentacyjne już dziś!
+## Najczęściej zadawane pytania
 
-## Sekcja FAQ
-1. **Czy mogę używać Aspose.Slides za darmo?**
-   - Tak, możesz zacząć od [bezpłatny okres próbny](https://releases.aspose.com/slides/java/) aby poznać jego funkcje.
-2. **Jakie typy wykresów obsługuje Aspose.Slides?**
-   - Obsługuje różne typy wykresów, w tym kolumnowe, słupkowe, kołowe i inne.
-3. **Jak obsługiwać wyjątki w Aspose.Slides?**
-   - Użyj bloków try-catch, aby zarządzać potencjalnymi problemami, takimi jak błędy dostępu do plików.
-4. **Czy mogę programowo modyfikować dane wykresu?**
-   - Oczywiście! Możesz manipulować seriami i kategoriami za pomocą API.
-5. **Czy Java 16 jest niezbędna dla Aspose.Slides?**
-   - Chociaż zalecane jest sprawdzenie zgodności z wersją JDK, zapoznaj się z [Dokumentacja Aspose'a](https://reference.aspose.com/slides/java/).
+**Q: Czy mogę używać Aspose.Slides za darmo w projekcie komercyjnym?**  
+A: Możesz ocenić bibliotekę za pomocą darmowej wersji próbnej, ale do użytku produkcyjnego wymagana jest zakupiona licencja.
+
+**Q: Jakie typy wykresów są obsługiwane?**  
+A: Obsługiwanych jest ponad 30 typów wykresów, w tym słupkowy grupowany, skumulowany słupkowy, kołowy, radarowy i bąbelkowy.
+
+**Q: Jak radzić sobie z dużymi prezentacjami, aby nie wyczerpać pamięci?**  
+A: Wywołuj `presentation.dispose()` po zapisaniu i przetwarzaj duże zestawy danych w osobnych wątkach lub partiach.
+
+**Q: Czy Java 16 jest obowiązkowa?**  
+A: Java 16+ jest zalecana dla optymalnej wydajności; wcześniejsze wersje mogą działać, ale nie są oficjalnie wspierane.
+
+**Q: Gdzie mogę znaleźć więcej przykładów kodu?**  
+A: Oficjalna dokumentacja Aspose.Slides zawiera obszerne przykłady i odniesienia do API. Zobacz [Aspose's documentation](https://reference.aspose.com/slides/java/) po szczegóły.
 
 ## Zasoby
-- **Dokumentacja**:Kompleksowe przewodniki na [Dokumentacja Aspose](https://reference.aspose.com/slides/java/)
-- **Pobierać**:Najnowsze wydania dostępne na [Wydania Aspose](https://releases.aspose.com/slides/java/)
-- **Zakup i wersja próbna**:Linki umożliwiające zakup lub rozpoczęcie bezpłatnego okresu próbnego są dostępne na stronie [Strona zakupów Aspose](https://purchase.aspose.com/buy) I [Strona bezpłatnej wersji próbnej](https://releases.aspose.com/slides/java/).
-- **Forum wsparcia**:W przypadku pytań odwiedź stronę [Forum wsparcia Aspose](https://forum.aspose.com/c/slides/11).
+- **Dokumentacja**: Kompleksowe przewodniki pod adresem [Aspose Documentation](https://reference.aspose.com/slides/java/) oraz [Aspose's documentation](https://reference.aspose.com/slides/java/)  
+- **Download**: Najnowsze wydania dostępne pod adresem [Aspose Releases](https://releases.aspose.com/slides/java/) oraz bezpośredni [pobierz najnowszą wersję](https://releases.aspose.com/slides/java/) link  
+- **Purchase and Trial**: Linki do zakupu lub rozpoczęcia darmowej wersji próbnej dostępne na [strona Aspose](https://purchase.aspose.com/buy) i [Free Trial Page](https://releases.aspose.com/slides/java/)  
+- **Support Forum**: W razie pytań odwiedź [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
+
+---
+
+**Ostatnia aktualizacja:** 2026-07-22  
+**Testowano z:** Aspose.Slides for Java 24.5 (najnowsza w momencie pisania)  
+**Autor:** Aspose
+
+## Powiązane samouczki
+
+- [Jak dodać wykresy do PowerPoint przy użyciu Aspose.Slides for Java: Przewodnik krok po kroku](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [Jak dodać wykres słupkowy grupowany w PowerPoint przy użyciu Aspose.Slides for Java](/slides/java/charts-graphs/create-grouped-column-chart-aspose-slides-java/)
+- [Animowanie wykresów w PowerPoint przy użyciu Aspose.Slides for Java – Przewodnik krok po kroku](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

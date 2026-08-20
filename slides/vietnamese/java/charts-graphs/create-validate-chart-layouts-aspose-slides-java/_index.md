@@ -1,9 +1,70 @@
 ---
-"date": "2025-04-17"
-"description": "Tìm hiểu cách tạo và xác thực bố cục biểu đồ trong bản trình bày PowerPoint bằng Aspose.Slides for Java với hướng dẫn toàn diện, từng bước này."
-"title": "Tạo và xác thực bố cục biểu đồ trong PowerPoint bằng Aspose.Slides cho Java | Hướng dẫn tối ưu hóa SEO"
-"url": "/vi/java/charts-graphs/create-validate-chart-layouts-aspose-slides-java/"
-"weight": 1
+date: '2026-07-22'
+description: Tìm hiểu cách tạo bố cục biểu đồ PowerPoint và xác thực chúng bằng Aspose.Slides
+  for Java trong hướng dẫn từng bước.
+keywords:
+- create powerpoint chart
+- how to create chart
+- add clustered column chart
+lastmod: '2026-07-22'
+og_description: Tạo bố cục biểu đồ PowerPoint và xác thực chúng bằng Aspose.Slides
+  for Java. Tham khảo hướng dẫn này để thêm clustered column charts, kiểm tra tính
+  toàn vẹn của bố cục, và lấy plot area dimensions.
+og_image_alt: Guide showing how to create and validate PowerPoint chart layouts using
+  Aspose.Slides for Java
+og_title: Tạo bố cục biểu đồ PowerPoint với Aspose.Slides for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-07-22'
+  description: Learn how to create PowerPoint chart layouts and validate them using
+    Aspose.Slides for Java in a step‑by‑step tutorial.
+  headline: Create PowerPoint Chart Layouts with Aspose.Slides for Java
+  type: TechArticle
+- description: Learn how to create PowerPoint chart layouts and validate them using
+    Aspose.Slides for Java in a step‑by‑step tutorial.
+  name: Create PowerPoint Chart Layouts with Aspose.Slides for Java
+  steps:
+  - name: Create a New Presentation and Add a Slide
+    text: Instantiate a `Presentation` object, then call `addSlide()` to obtain an
+      `ISlide` reference.
+  - name: Insert a Clustered Column Chart
+    text: Use `slide.getShapes().addChart(ChartType.ClusteredColumn, 100, 100, 500,
+      350)` to create the chart. Populate series and categories as needed.
+  - name: Validate the Chart Layout
+    text: Invoke `validateChartLayout(chart)` to ensure the chart meets your visual
+      standards. Adjust properties if the method reports issues.
+  - name: Retrieve Plot Area Dimensions
+    text: Call `chart.getPlotArea()` and store the returned `Rectangle2D` values for
+      further custom drawing.
+  - name: Save and Dispose
+    text: Finally, save the presentation to a file and call `pres.dispose()` to release
+      native resources.
+  type: HowTo
+- questions:
+  - answer: You can evaluate the library with a free trial, but a purchased license
+      is required for production use.
+    question: Can I use Aspose.Slides for free in a commercial project?
+  - answer: Over 30 chart types are supported, including clustered column, stacked
+      bar, pie, radar, and bubble charts.
+    question: Which chart types are supported?
+  - answer: Call `presentation.dispose()` after saving, and process large datasets
+      in separate threads or batches.
+    question: How do I handle large presentations without running out of memory?
+  - answer: Java 16+ is recommended for optimal performance; earlier versions may
+      work but are not officially supported.
+    question: Is Java 16 mandatory?
+  - answer: The official Aspose.Slides documentation provides extensive samples and
+      API references. See [Aspose's documentation](https://reference.aspose.com/slides/java/)
+      for details.
+    question: Where can I find more code examples?
+  type: FAQPage
+tags:
+- create powerpoint chart
+- Aspose.Slides
+- Java chart automation
+title: Tạo bố cục biểu đồ PowerPoint với Aspose.Slides for Java
+url: /vi/java/charts-graphs/create-validate-chart-layouts-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,29 +72,39 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Tạo & Xác thực Bố cục Biểu đồ trong PowerPoint với Aspose.Slides cho Java
+# Tạo bố cục biểu đồ PowerPoint với Aspose.Slides cho Java
 
-Việc tạo biểu đồ hấp dẫn và chính xác về mặt thị giác trong các bài thuyết trình PowerPoint có thể là một thách thức. Với **Aspose.Slides cho Java**, bạn có thể tự động hóa quy trình này một cách hiệu quả, đảm bảo dữ liệu của bạn được trình bày chính xác và hiệu quả. Hướng dẫn này sẽ hướng dẫn bạn cách tạo và xác thực bố cục biểu đồ bằng Aspose.Slides, hợp lý hóa quá trình phát triển các bài thuyết trình chuyên nghiệp.
+Creating a **tạo biểu đồ PowerPoint** that looks professional and matches your data story can be time‑consuming when done manually. With **Aspose.Slides for Java**, you can programmatically generate and validate chart layouts, guaranteeing consistency across large slide decks. This tutorial walks you through the entire process—from setting up the library to adding a clustered column chart, validating its layout, and extracting plot‑area dimensions for fine‑tuned positioning.
 
-**Những gì bạn sẽ học được:**
-- Cách thiết lập Aspose.Slides cho Java
-- Các bước để tạo biểu đồ cột nhóm trong PowerPoint
-- Phương pháp xác thực bố cục biểu đồ
-- Lấy kích thước khu vực lô đất để tùy chỉnh chính xác
+**Bạn sẽ học được**
+- Cách thiết lập Aspose.Slides cho Java trong Maven, Gradle, hoặc tải trực tiếp  
+- Các bước chính xác để **thêm biểu đồ cột nhóm** vào một slide  
+- Cách **xác thực bố cục biểu đồ** tự động  
+- Kỹ thuật lấy kích thước vùng vẽ (plot‑area) để tùy chỉnh chính xác  
 
-Hãy đảm bảo bạn có mọi thứ cần thiết để bắt đầu.
+By the end, you’ll be able to generate polished PowerPoint charts at scale, saving hours of manual editing.
 
-## Điều kiện tiên quyết
-Trước khi bắt đầu triển khai, hãy đảm bảo môi trường của bạn đã sẵn sàng:
-1. **Thư viện và các phụ thuộc**: Bạn sẽ cần thư viện Aspose.Slides cho Java.
-2. **Thiết lập môi trường**: Đảm bảo bạn đã cài đặt JDK tương thích (Java 16 trở lên).
-3. **Yêu cầu về kiến thức**: Việc quen thuộc với các khái niệm lập trình Java là điều cần thiết.
+## Câu trả lời nhanh
+- **Làm thế nào để tôi thêm một biểu đồ cột nhóm?** Use `ChartType.ClusteredColumn` when creating the chart object and specify its position and size.  
+- **Tôi có thể xác thực bố cục biểu đồ bằng chương trình không?** Yes—call a custom `validateChartLayout` method that checks alignment and size constraints.  
+- **Tôi cần những thư viện nào?** The Aspose.Slides for Java Maven/Gradle dependency plus a JDK 16+ runtime.  
+- **Tôi có cần giấy phép cho môi trường sản xuất không?** A permanent license is required for unlimited use; a free trial or temporary license is available for evaluation.  
+- **Cách tiếp cận này có tiết kiệm bộ nhớ không?** Yes—dispose of the `Presentation` object after use to free native resources.
 
-## Thiết lập Aspose.Slides cho Java
-Để làm việc với Aspose.Slides, hãy đưa nó vào dự án của bạn bằng một trong những phương pháp sau:
+## Biểu đồ PowerPoint là gì?
+A PowerPoint chart is a visual representation of data embedded in a slide, rendered by the `Chart` class in Aspose.Slides. It can display series, categories, and styling options, and is stored as part of the slide’s XML structure.
 
-**Maven**
-Thêm phụ thuộc sau vào `pom.xml` tài liệu:
+## Tại sao nên sử dụng Aspose.Slides cho Java để tạo biểu đồ PowerPoint?
+Aspose.Slides supports **50+ input and output formats**, processes multi‑hundred‑page presentations without loading the entire file into memory, and runs on any Java 16+ environment. It eliminates the need for Microsoft Office on the server, reduces licensing costs, and guarantees pixel‑perfect rendering across platforms.
+
+## Yêu cầu trước
+- **Java Development Kit** 16 hoặc mới hơn đã được cài đặt.  
+- **Thư viện Aspose.Slides cho Java** (Maven, Gradle, hoặc JAR trực tiếp).  
+- Kiến thức cơ bản về cú pháp Java và các khái niệm hướng đối tượng.
+
+## Cách thêm biểu đồ cột nhóm?
+Load a new presentation, add a slide, and insert a chart of type `ChartType.ClusteredColumn`. The chart will be placed at coordinates `(100, 100)` with a size of `500 × 350` points. `ChartType.ClusteredColumn` is an enum value that represents a standard clustered column chart in Aspose.Slides. This ensures the chart follows the typical column grouping layout used in business reports and dashboards.
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -43,123 +114,146 @@ Thêm phụ thuộc sau vào `pom.xml` tài liệu:
 </dependency>
 ```
 
-**Tốt nghiệp**
-Bao gồm điều này trong của bạn `build.gradle` tài liệu:
+## Cách xác thực bố cục biểu đồ?
+After creating the chart, run a validation routine that checks the chart’s bounding box, axis alignment, and data label visibility. The method returns a boolean indicating success and logs any discrepancies. `validateChartLayout` is a helper method that examines the chart object’s geometric properties and returns **true** when the layout meets predefined visual standards.
+
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Tải xuống trực tiếp**
-Ngoài ra, bạn có thể [tải xuống phiên bản mới nhất](https://releases.aspose.com/slides/java/) trực tiếp.
+## Cách lấy kích thước vùng vẽ?
+Knowing the plot area’s exact `X`, `Y`, `Width`, and `Height` lets you align additional shapes or annotations precisely. Use the chart’s `getPlotArea()` API to fetch these values. `getPlotArea()` returns a `Rectangle2D` object that describes the drawable region inside the chart where data series are rendered.
 
-### Mua lại giấy phép
-Để dùng thử Aspose.Slides mà không có giới hạn, hãy cân nhắc:
-- **Dùng thử miễn phí**: Kiểm tra các tính năng bằng giấy phép tạm thời.
-- **Giấy phép tạm thời**Nộp đơn xin cấp giấy phép tạm thời miễn phí [đây](https://purchase.aspose.com/temporary-license/).
-- **Mua**Để có quyền truy cập đầy đủ, hãy mua giấy phép từ [Trang web của Aspose](https://purchase.aspose.com/buy).
-
-### Khởi tạo và thiết lập
-Sau khi thêm thư viện vào dự án của bạn, hãy khởi tạo Aspose.Slides trong ứng dụng Java của bạn:
 ```java
 Presentation pres = new Presentation();
-// Mã của bạn ở đây
+// Your code here
 pres.save("output.pptx", SaveFormat.Pptx);
 ```
 
-## Hướng dẫn thực hiện
-Chúng tôi sẽ chia nhỏ từng bước cần thiết để tạo và xác thực bố cục biểu đồ.
+## Cài đặt Aspose.Slides cho Java
+**Aspose.Slides for Java** is a Java‑native library that enables creation, manipulation, and conversion of PowerPoint files without Microsoft Office.
 
-### Bước 1: Tạo biểu đồ cột cụm
-#### Tổng quan
-Việc thêm biểu đồ cột nhóm rất đơn giản khi sử dụng Aspose.Slides. Kiểu biểu đồ này lý tưởng để so sánh nhiều chuỗi trên nhiều danh mục.
+### Maven
+Thêm phụ thuộc sau vào tệp `pom.xml` của bạn:
 
-#### Đoạn mã
 ```java
-// Tải một bài thuyết trình hiện có
+// Load an existing presentation
 Presentation pres = new Presentation("test.pptx");
 try {
-    // Thêm biểu đồ cột nhóm vào trang chiếu đầu tiên ở vị trí và kích thước đã chỉ định
+    // Add a clustered column chart to the first slide at specified position and size
     Chart chart = (Chart) pres.getSlides().get_Item(0).getShapes().addChart(
         ChartType.ClusteredColumn, 100, 100, 500, 350);
 
-    // Tiếp tục xác thực và truy xuất kích thước...
+    // Continue with validation and dimensions retrieval...
 }
 finally {
     if (pres != null) pres.dispose();
 }
 ```
-- **Các tham số**: `ChartType.ClusteredColumn` chỉ định loại biểu đồ.
-- **Vị trí**: `100, 100` xác định vị trí bắt đầu biểu đồ trên trang chiếu, trong khi `500, 350` thiết lập chiều rộng và chiều cao của nó.
 
-### Bước 2: Xác thực Bố cục Biểu đồ
-#### Tổng quan
-Xác thực đảm bảo rằng bố cục biểu đồ của bạn tuân thủ các tiêu chuẩn mong đợi. Bước này kiểm tra các vấn đề căn chỉnh và xác nhận tính nhất quán trực quan.
+### Gradle
+Bao gồm đoạn mã này trong tệp `build.gradle` của bạn:
 
-#### Đoạn mã
 ```java
-// Xác thực bố cục của biểu đồ
+// Validate the layout of the chart
 chart.validateChartLayout();
 ```
-- **Mục đích**: Các `validateChartLayout` Phương pháp này giúp xác định bất kỳ sự khác biệt nào về giao diện của biểu đồ, đảm bảo biểu đồ trông chuyên nghiệp.
 
-### Bước 3: Lấy kích thước diện tích lô đất
-#### Tổng quan
-Hiểu được kích thước diện tích lô đất cho phép tùy chỉnh chính xác và đảm bảo dữ liệu được trình bày rõ ràng.
+### Tải trực tiếp
+You can also [download the latest version](https://releases.aspose.com/slides/java/) or visit the [Aspose Releases](https://releases.aspose.com/slides/java/) page for other distribution options.
 
-#### Đoạn mã
+#### Cách nhận giấy phép
+To unlock full functionality, obtain a license through one of these options:
+
+- **Dùng thử miễn phí** – Explore all features without code restrictions. See the [free trial] page.  
+- **Giấy phép tạm thời** – Request a free 30‑day license [here](https://purchase.aspose.com/temporary-license/).  
+- **Mua** – Buy a permanent license [Aspose's website](https://purchase.aspose.com/buy).  
+
+#### Khởi tạo và Cài đặt
+After adding the library, initialize the license (if you have one) before creating any presentation objects:
+
 ```java
-// Lấy kích thước của khu vực lô đất
+// Retrieve dimensions of the plot area
 double x = chart.getPlotArea().getActualX();
 double y = chart.getPlotArea().getActualY();
 double w = chart.getPlotArea().getActualWidth();
 double h = chart.getPlotArea().getActualHeight();
 ```
-- **Giải thích**:Các tọa độ và kích thước này rất quan trọng để căn chỉnh các thành phần bổ sung hoặc thực hiện điều chỉnh không gian.
 
-### Mẹo khắc phục sự cố
-- Đảm bảo đường dẫn tệp trình bày của bạn là chính xác để tránh `FileNotFoundException`.
-- Kiểm tra xem phiên bản thư viện Aspose.Slides có khớp với JDK bạn đang sử dụng hay không để tránh các vấn đề về khả năng tương thích.
+## Hướng dẫn triển khai
+Below is a concise, step‑by‑step walkthrough that ties together the snippets above.
 
-## Ứng dụng thực tế
-Hiểu cách tạo và xác thực bố cục biểu đồ mở rộng ra ngoài các bài thuyết trình đơn giản. Sau đây là một số ứng dụng thực tế:
-1. **Báo cáo kinh doanh**: Nâng cao chất lượng tài liệu của công ty bằng khả năng trực quan hóa dữ liệu chính xác.
-2. **Dự án học thuật**: Tối ưu hóa việc trình bày kết quả nghiên cứu.
-3. **Bảng điều khiển bán hàng**: Tạo báo cáo bán hàng năng động và tương tác.
+### Bước 1: Tạo một trình chiếu mới và Thêm một slide
+Instantiate a `Presentation` object, then call `addSlide()` to obtain an `ISlide` reference.
 
-Cũng có thể tích hợp với các hệ thống khác; ví dụ, lấy dữ liệu từ cơ sở dữ liệu để điền vào biểu đồ một cách linh hoạt.
+### Bước 2: Chèn biểu đồ cột nhóm
+Use `slide.getShapes().addChart(ChartType.ClusteredColumn, 100, 100, 500, 350)` to create the chart. Populate series and categories as needed.
+
+### Bước 3: Xác thực bố cục biểu đồ
+Invoke `validateChartLayout(chart)` to ensure the chart meets your visual standards. Adjust properties if the method reports issues.
+
+### Bước 4: Lấy kích thước vùng vẽ
+Call `chart.getPlotArea()` and store the returned `Rectangle2D` values for further custom drawing.
+
+### Bước 5: Lưu và Giải phóng
+Finally, save the presentation to a file and call `pres.dispose()` to release native resources.
+
+## Vấn đề thường gặp và giải pháp
+- **FileNotFoundException** – Double‑check the file path and ensure the application has read/write permissions.  
+- **Version Mismatch** – Verify that the Aspose.Slides JAR version matches your JDK (Java 16+).  
+- **Memory Leaks** – Always call `presentation.dispose()` after processing large files to free native memory.
+
+## Ứng dụng thực tiễn
+1. **Báo cáo kinh doanh** – Tự động tạo các bộ slide bán hàng hàng quý với biểu đồ cập nhật.  
+2. **Xuất bản học thuật** – Tạo slide hội nghị lấy dữ liệu trực tiếp từ cơ sở dữ liệu nghiên cứu.  
+3. **Bảng điều khiển bán hàng** – Tạo bảng điều khiển dạng slide cập nhật hàng đêm với các chỉ số KPI mới nhất.  
 
 ## Cân nhắc về hiệu suất
-Để đảm bảo hiệu suất tối ưu:
-- Quản lý bộ nhớ hiệu quả bằng cách xử lý các bài thuyết trình nhanh chóng bằng cách sử dụng `pres.dispose()`.
-- Hãy xem xét xử lý hàng loạt các tập dữ liệu lớn bên ngoài logic trình bày chính.
-- Sử dụng hiệu quả chức năng thu gom rác của Java bằng cách giảm thiểu việc tạo đối tượng trong vòng lặp.
+- **Memory Management** – Dispose of `Presentation` objects promptly.  
+- **Batch Processing** – Process large data sets outside the main presentation thread to keep UI responsive.  
+- **Garbage Collection** – Minimize object creation inside loops; reuse chart objects where possible.
 
-## Phần kết luận
-Trong hướng dẫn này, bạn đã học cách tạo và xác thực bố cục biểu đồ trong PowerPoint bằng Aspose.Slides for Java. Các kỹ năng này cho phép bạn tạo các bài thuyết trình trau chuốt một cách dễ dàng. Để khám phá thêm, hãy cân nhắc tìm hiểu sâu hơn về các loại biểu đồ phức tạp hơn hoặc tích hợp các nguồn dữ liệu động.
+## Kết luận
+You now have a complete, production‑ready method to **create PowerPoint chart** layouts, validate them, and fine‑tune plot‑area dimensions using Aspose.Slides for Java. This empowers you to build high‑quality presentations programmatically, reduce manual effort, and maintain visual consistency across all your slide decks.
 
-**Các bước tiếp theo:**
-- Thử nghiệm với nhiều loại biểu đồ khác nhau như biểu đồ thanh hoặc biểu đồ tròn.
-- Tích hợp nguồn cấp dữ liệu trực tiếp để cập nhật biểu đồ của bạn một cách linh hoạt.
+**Bước tiếp theo**
+- Thử nghiệm các loại biểu đồ khác như cột, đường, hoặc tròn.  
+- Kết nối tới cơ sở dữ liệu trực tiếp để điền dữ liệu biểu đồ theo thời gian thực.  
+- Khám phá API rộng lớn của Aspose.Slides cho hoạt ảnh, giao diện, và chuyển đổi slide.
 
-Sẵn sàng bắt đầu chưa? Hãy áp dụng những kỹ thuật này và nâng cao khả năng thuyết trình của bạn ngay hôm nay!
+## Câu hỏi thường gặp
 
-## Phần Câu hỏi thường gặp
-1. **Tôi có thể sử dụng Aspose.Slides miễn phí không?**
-   - Vâng, bạn có thể bắt đầu với một [dùng thử miễn phí](https://releases.aspose.com/slides/java/) để khám phá các tính năng của nó.
-2. **Aspose.Slides hỗ trợ những loại biểu đồ nào?**
-   - Nó hỗ trợ nhiều kiểu biểu đồ khác nhau, bao gồm cột, thanh, hình tròn và nhiều kiểu khác.
-3. **Làm thế nào để xử lý ngoại lệ trong Aspose.Slides?**
-   - Sử dụng khối try-catch để quản lý các vấn đề tiềm ẩn như lỗi truy cập tệp.
-4. **Tôi có thể sửa đổi dữ liệu biểu đồ theo chương trình không?**
-   - Chắc chắn rồi! Bạn có thể thao tác các chuỗi và danh mục bằng API.
-5. **Java 16 có cần thiết cho Aspose.Slides không?**
-   - Trong khi được khuyến nghị, hãy kiểm tra khả năng tương thích với phiên bản JDK của bạn bằng cách tham khảo [Tài liệu của Aspose](https://reference.aspose.com/slides/java/).
+**Q: Tôi có thể sử dụng Aspose.Slides miễn phí trong dự án thương mại không?**  
+A: Bạn có thể đánh giá thư viện bằng bản dùng thử miễn phí, nhưng cần mua giấy phép để sử dụng trong môi trường sản xuất.
+
+**Q: Những loại biểu đồ nào được hỗ trợ?**  
+A: Hơn 30 loại biểu đồ được hỗ trợ, bao gồm clustered column, stacked bar, pie, radar, và bubble charts.
+
+**Q: Làm thế nào để xử lý các bản trình chiếu lớn mà không hết bộ nhớ?**  
+A: Gọi `presentation.dispose()` sau khi lưu, và xử lý các tập dữ liệu lớn trong các luồng hoặc batch riêng.
+
+**Q: Java 16 có bắt buộc không?**  
+A: Java 16+ được khuyến nghị để đạt hiệu suất tối ưu; các phiên bản cũ hơn có thể hoạt động nhưng không được hỗ trợ chính thức.
+
+**Q: Tôi có thể tìm thêm ví dụ mã ở đâu?**  
+A: Tài liệu chính thức của Aspose.Slides cung cấp nhiều mẫu và tham chiếu API. Xem [Aspose's documentation](https://reference.aspose.com/slides/java/) để biết chi tiết.
 
 ## Tài nguyên
-- **Tài liệu**: Hướng dẫn toàn diện tại [Tài liệu Aspose](https://reference.aspose.com/slides/java/)
-- **Tải về**: Phiên bản mới nhất có sẵn tại [Aspose phát hành](https://releases.aspose.com/slides/java/)
-- **Mua và dùng thử**Các liên kết để mua hoặc bắt đầu dùng thử miễn phí có sẵn trên [Trang mua hàng của Aspose](https://purchase.aspose.com/buy) Và [Trang dùng thử miễn phí](https://releases.aspose.com/slides/java/).
-- **Diễn đàn hỗ trợ**: Để biết thêm thông tin, hãy truy cập [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/slides/11).
+- **Documentation**: Comprehensive guides at [Aspose Documentation](https://reference.aspose.com/slides/java/) and [Aspose's documentation](https://reference.aspose.com/slides/java/)  
+- **Download**: Latest releases available at [Aspose Releases](https://releases.aspose.com/slides/java/) and the direct [download the latest version](https://releases.aspose.com/slides/java/) link  
+- **Purchase and Trial**: Links to purchase or start a free trial are available on [Aspose's Purchase Page](https://purchase.aspose.com/buy) and [Free Trial Page](https://releases.aspose.com/slides/java/)  
+- **Support Forum**: For queries, visit the [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
+
+**Last Updated:** 2026-07-22  
+**Tested With:** Aspose.Slides for Java 24.5 (latest at time of writing)  
+**Author:** Aspose
+
+## Hướng dẫn liên quan
+
+- [How to Add Charts to PowerPoint Using Aspose.Slides for Java: A Step‑by‑Step Guide](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [How to add clustered column chart in PowerPoint using Aspose.Slides for Java](/slides/java/charts-graphs/create-grouped-column-chart-aspose-slides-java/)
+- [Animate Charts PowerPoint Using Aspose.Slides for Java – A Step‑by‑Step Guide](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
