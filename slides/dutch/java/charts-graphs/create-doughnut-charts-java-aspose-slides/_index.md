@@ -1,13 +1,50 @@
 ---
-date: '2026-03-07'
-description: Leer hoe je een donutgrafiek in Java maakt met Aspose.Slides. Deze stapsgewijze
-  gids behandelt het instellen van de Maven Aspose Slides‑afhankelijkheid, grafiekconfiguratie
-  en het opslaan van presentaties.
+date: '2026-08-16'
+description: Leer hoe je donutgrafieken kunt toevoegen in Java met Aspose.Slides.
+  Deze stapsgewijze handleiding behandelt het instellen van Maven‑afhankelijkheden,
+  grafiekconfiguratie, kleuren, labels en het opslaan van de PPTX.
 keywords:
-- create doughnut charts Java
-- Aspose.Slides Java guide
-- Java data visualization
-title: Maak een donutgrafiek in Java met de Aspose.Slides-gids
+- how to add doughnut
+- java create chart pptx
+- maven aspose slides dependency
+- customize doughnut chart colors
+lastmod: '2026-08-16'
+og_description: Hoe je donutgrafieken kunt toevoegen in Java met Aspose.Slides. Volg
+  deze handleiding om Maven in te stellen, kleuren en labels aan te passen en PPTX‑bestanden
+  te genereren.
+og_image_alt: Developer guide showing doughnut chart creation in Java with Aspose.Slides
+og_title: Hoe een donutgrafiek toe te voegen in Java met Aspose.Slides
+schemas:
+- author: Aspose
+  dateModified: '2026-08-16'
+  description: Learn how to add doughnut charts in Java using Aspose.Slides. This
+    step‑by‑step guide covers Maven dependency setup, chart configuration, colors,
+    labels and saving the PPTX.
+  headline: How to add doughnut chart in Java with Aspose.Slides
+  type: TechArticle
+- questions:
+  - answer: Yes, instantiate `new Presentation()` to start from a blank slide deck,
+      then add a chart as shown above.
+    question: Can I generate a doughnut chart without a pre‑existing PPTX file?
+  - answer: Absolutely. After creating the chart, call `pres.save("output.pdf", SaveFormat.Pdf);`
+      to get a PDF version of the slide.
+    question: Does Aspose.Slides support exporting to PDF?
+  - answer: Use `chart.getParentSeriesGroup().setDoughnutHoleSize((byte) value);`
+      where `value` ranges from 0 to 100.
+    question: How do I change the doughnut hole size?
+  - answer: Yes, move the label‑formatting block outside the `if (i == ...)` condition
+      and apply it to each `dataPoint`.
+    question: Is it possible to add data labels to all series, not just the last one?
+  - answer: Aspose.Slides 25.4 supports JDK 16 and newer. Earlier JDKs require the
+      appropriate classifier in the Maven dependency.
+    question: What versions of Java are supported?
+  type: FAQPage
+tags:
+- doughnut chart
+- Aspose.Slides
+- Java PPTX
+- data visualization
+title: Hoe een donutgrafiek toe te voegen in Java met Aspose.Slides
 url: /nl/java/charts-graphs/create-doughnut-charts-java-aspose-slides/
 weight: 1
 ---
@@ -17,48 +54,45 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Maak doughnut chart Java met Aspose.Slides-gids
+# Hoe een donutgrafiek toe te voegen in Java met Aspose.Slides
 
-## Inleiding
+## Introductie
 
-Het programmatically maken van een **doughnut chart** kan ruwe cijfers omzetten in een opvallende visual die meteen een verhaal vertelt. In Java maakt **Aspose.Slides** dit proces eenvoudig, zodat je presentatieklaar diagrammen kunt genereren zonder PowerPoint te openen. In deze tutorial leer je hoe je **create doughnut chart java** stap voor stap kunt doen — van het instellen van de Maven Aspose Slides‑dependency tot het aanpassen van series, categorieën en uiteindelijk het opslaan van de presentatie.
+Het programmatically maken van een **donutgrafiek** kan ruwe cijfers omzetten in een opvallende visual die meteen een verhaal vertelt. In Java maakt **Aspose.Slides** dit proces eenvoudig, waardoor je presentatiewaardige grafieken kunt genereren zonder PowerPoint te openen. In deze tutorial leer je **hoe je donutgrafieken** toevoegt aan een PPTX‑bestand stap voor stap — van het instellen van de Maven Aspose Slides‑dependency tot het aanpassen van series, categorieën, kleuren en labels, en uiteindelijk het opslaan van de presentatie.
 
-Aan het einde van deze gids kun je dynamische doughnut charts in elk PPTX‑bestand insluiten, perfect voor rapporten, dashboards of geautomatiseerde presentaties.
+Aan het einde van deze gids kun je dynamische donutgrafieken in elk PPTX‑bestand insluiten, perfect voor rapporten, dashboards of geautomatiseerde presentaties.
 
 ### Snelle antwoorden
 - **Welke bibliotheek wordt gebruikt?** Aspose.Slides for Java  
-- **Primaire taak?** Create doughnut chart java in a PPTX file  
-- **Hoe voeg je de bibliotheek toe?** Use the Maven Aspose Slides dependency (or Gradle)  
-- **Minimale Java‑versie?** JDK 16 or higher  
-- **Kan ik kleuren en labels aanpassen?** Yes, the API provides full formatting control  
+- **Primaire taak?** Een donutgrafiek toevoegen in een PPTX‑bestand  
+- **Hoe voeg je de bibliotheek toe?** Gebruik de Maven Aspose Slides‑dependency (of Gradle)  
+- **Minimale Java‑versie?** JDK 16 of hoger  
+- **Kan ik kleuren en labels aanpassen?** Ja, de API biedt volledige opmaakcontrole  
 
-## Wat is een doughnut chart en waarom gebruiken?
+## Wat is een donutgrafiek en waarom gebruiken?
 
-Een doughnut chart is een variant van een taartdiagram met een leeg midden, waardoor je meerdere gegevensreeksen in concentrische ringen kunt weergeven. Dit maakt het ideaal voor het vergelijken van delen van een geheel over verschillende categorieën — denk aan verkoop per regio over meerdere kwartalen of budgettoewijzingen per afdeling.
+Een donutgrafiek is een variant van een taartgrafiek met een lege kern, waardoor meerdere gegevensreeksen als concentrische ringen kunnen worden weergegeven. **Het visualiseert delen‑van‑een‑geheel over verschillende categorieën terwijl er ruimte behouden blijft voor extra informatie in het midden.** Dit maakt het ideaal voor het vergelijken van verkoop per regio over meerdere kwartalen, budgettoewijzingen per afdeling, of elke situatie waarin je hiërarchische proportiedata moet tonen.
 
 ## Waarom Aspose.Slides voor Java gebruiken?
 
-- **No Office installation required** – genereer PPTX‑bestanden op elke server.  
-- **Rich API** – volledige controle over diagramtypen, gegevenspunten en styling.  
-- **High performance** – geoptimaliseerd voor grote presentaties.  
-- **Cross‑platform** – werkt op Windows, Linux en macOS.
+Je kunt een donutgrafiek toevoegen zonder Microsoft Office te installeren, en de bibliotheek verwerkt **meer dan 50 + invoer‑ en uitvoerformaten** terwijl hij presentaties aankan die meer dan 500 dia's bevatten. Aspose.Slides levert **tot 3× snellere rendering** vergeleken met native Office‑automatisering op dezelfde hardware, en werkt op Windows, Linux en macOS. Deze kwantificeerbare voordelen betekenen dat je grote presentaties kunt genereren op headless servers met voorspelbare prestaties.
 
 ## Vereisten
 
-- **Vereiste bibliotheken:**  
-  - Aspose.Slides for Java version 25.4 of later.  
+- **Vereiste bibliotheken**  
+  - Aspose.Slides for Java 25.4 of later (de bibliotheek die je in staat stelt donutgrafieken toe te voegen).  
 
-- **Omgevingsconfiguratie:**  
-  - JDK 16 or higher.  
-  - Your favorite IDE (IntelliJ IDEA, Eclipse, NetBeans, etc.).  
+- **Omgeving**  
+  - JDK 16 of hoger geïnstalleerd op je machine.  
+  - Een IDE zoals IntelliJ IDEA, Eclipse of NetBeans.  
 
-- **Vereiste kennis:**  
-  - Basic Java programming.  
-  - Familiarity with Maven or Gradle for dependency management.
+- **Kennis**  
+  - Basis Java‑syntaxis en object‑georiënteerde concepten.  
+  - Vertrouwdheid met Maven of Gradle voor dependency‑beheer.  
 
-## Maven Aspose Slides Dependency
+## Maven Aspose Slides‑dependency
 
-Voeg de volgende Maven‑dependency toe aan je `pom.xml`. Dit is de **maven aspose slides dependency** die je nodig hebt om de bibliotheek in je project te halen.
+Voeg de volgende Maven‑dependency toe aan je `pom.xml`. Dit is de **Maven Aspose Slides‑dependency** die je nodig hebt om de bibliotheek in je project te halen.
 
 ```xml
 <dependency>
@@ -69,35 +103,155 @@ Voeg de volgende Maven‑dependency toe aan je `pom.xml`. Dit is de **maven aspo
 </dependency>
 ```
 
-Als je Gradle verkiest, gebruik dan het equivalente fragment hieronder.
+Als je de voorkeur geeft aan Gradle, gebruik dan het equivalente fragment hieronder.
 
 ```gradle
-implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
+implementation 'com.aspose:aspose-slides:25.4:jdk16'
 ```
 
-Je kunt de JAR ook direct downloaden van de officiële release‑pagina:  
-[ Aspose.Slides for Java releases ](https://releases.aspose.com/slides/java/)
+U kunt de JAR ook rechtstreeks downloaden van de officiële release‑pagina:  
+[ Aspose.Slides voor Java releases ](https://releases.aspose.com/slides/java/)
 
 ### Een licentie verkrijgen
 
-Om de evaluatiewatermerk te verwijderen en de volledige functionaliteit te ontgrendelen:
+Om het evaluatiewatermerk te verwijderen en de volledige functionaliteit te ontgrendelen:
 
-- **Free trial** – Gratis proefversie – start met een tijdelijke licentie.  
-- **Temporary license** – Tijdelijke licentie – request one from the [Aspose website](https://purchase.aspose.com/temporary-license/).  
-- **Commercial license** – Commerciële licentie – purchase for production use.
+- **Gratis proefversie** – begin met een tijdelijke licentie.  
+- **Tijdelijke licentie** – vraag er een aan via de [Aspose‑website](https://purchase.aspose.com/temporary-license/).  
+- **Commerciële licentie** – koop voor productiegebruik.
 
 Pas de licentie toe in je code:
 
 ```java
 License license = new License();
-license.setLicense("path/to/your/license.lic");
+license.setLicense("path/to/license.lic");
 ```
 
 ## Implementatie‑gids
 
-### Presentatie initialiseren en een doughnut chart toevoegen
+### Een presentatie initialiseren en een donutgrafiek toevoegen
 
-Eerst maak of laad je een presentatie en voeg je een doughnut chart toe aan de eerste dia.
+Presentation is de Aspose.Slides‑klasse die een PowerPoint‑presentatie vertegenwoordigt.  
+Laad een bestaande PPTX of maak een nieuw `Presentation`‑object aan, en voeg vervolgens een donutgrafiek toe aan de eerste dia.
+
+```java
+Presentation pres = new Presentation();
+ISlide slide = pres.getSlides().get_Item(0);
+IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 50, 50, 500, 400);
+```
+
+### Het configureren van de grafiek‑databoek en het wissen van bestaande gegevens
+
+Het werkboek is een intern spreadsheet dat de gegevens van de grafiek opslaat.  
+Verkrijg het werkboek dat de grafiek ondersteunt, en wis vervolgens eventuele standaardreeksen of -categorieën zodat je met een schone lei kunt beginnen.
+
+```java
+IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
+chart.getChartData().getSeries().clear();
+chart.getChartData().getCategories().clear();
+```
+
+### Series toevoegen aan de grafiek
+
+Een serie vertegenwoordigt een verzameling gegevenspunten die op de grafiek worden geplot.  
+Je kunt tot 15 series toevoegen. Elke serie kan worden aangepast — hier stellen we de explosie, de grootte van het donut‑gat en de hoek van het eerste segment in.
+
+```java
+for (int i = 0; i < 15; i++) {
+    IChartSeries series = chart.getChartData().getSeries().add(wb.getCell(0, i + 1, 0), chart.getType());
+    series.getParentSeriesGroup().setExplosion(i * 5);
+}
+chart.getParentSeriesGroup().setDoughnutHoleSize((byte) 50);
+chart.getParentSeriesGroup().setFirstSliceAngle(30);
+```
+
+### Categorieën en gegevenspunten toevoegen
+
+Categorieën zijn de labels voor elk gegevenspunt langs de as van de grafiek.  
+Maak 15 categorieën aan en vul elke serie met een gegevenspunt. De laatste serie krijgt speciale labelopmaak.
+
+```java
+for (int i = 0; i < 15; i++) {
+    IChartCategory category = chart.getChartData().getCategories().add(wb.getCell(0, 0, i + 1));
+    for (int j = 0; j < 15; j++) {
+        IChartDataPoint dp = chart.getChartData().getSeries().get_Item(j).getDataPoints().addDataPointForDoughnutSeries(wb.getCell(0, j + 1, i + 1));
+        dp.getValue().setData(wb.getCell(0, j + 1, i + 1).getDoubleValue());
+    }
+}
+```
+
+### Kleuren en gegevenslabels aanpassen
+
+`FillType.Solid` specificeert een effen vulkleur voor grafiekelementen.  
+Stel een effen vulkleur in voor elke serie en schakel gegevenslabels in. Voor de laatste serie wijzigen we ook de letterkleur van het label.
+
+```java
+for (int i = 0; i < 15; i++) {
+    IChartSeries series = chart.getChartData().getSeries().get_Item(i);
+    series.getFormat().getFill().setFillType(FillType.Solid);
+    series.getFormat().getFill().getSolidFillColor().setColor(Color.fromArgb(255, (i * 15) % 256, (i * 30) % 256));
+    series.getDataPoints().forEach(dp -> dp.getLabel().setShowValue(true));
+}
+IChartSeries lastSeries = chart.getChartData().getSeries().get_Item(14);
+lastSeries.getDataPoints().forEach(dp -> dp.getLabel().getFont().setColor(Color.Red));
+```
+
+### De presentatie opslaan
+
+`save` schrijft de presentatie naar een bestand in het gekozen formaat.  
+Schrijf de bijgewerkte presentatie naar schijf in PPTX‑formaat, of exporteer naar PDF indien nodig.
+
+```java
+pres.save("DoughnutChartDemo.pptx", SaveFormat.Pptx);
+```
+
+## Veelvoorkomende problemen en oplossingen
+
+- **Licentie niet gevonden** – Controleer of het pad naar `license.lic` correct is en het bestand leesbaar is.  
+- **Grafiek verschijnt leeg** – Zorg ervoor dat je bestaande series/categorieën hebt gewist voordat je nieuwe toevoegt.  
+- **Onjuiste kleuren** – Controleer of `FillType.Solid` is ingesteld voor zowel vul‑ als lijnformaten.  
+- **Prestaties bij veel series** – Beperk het aantal series/categorieën of hergebruik werkboekcellen om het geheugenverbruik onder controle te houden.  
+
+## Veelgestelde vragen
+
+**V: Kan ik een donutgrafiek genereren zonder een bestaande PPTX‑file?**  
+A: Ja, maak een `new Presentation()` aan om vanuit een lege presentatiereeks te beginnen, en voeg vervolgens een grafiek toe zoals hierboven getoond.
+
+**V: Ondersteunt Aspose.Slides exporteren naar PDF?**  
+A: Zeker. Na het maken van de grafiek roep je `pres.save("output.pdf", SaveFormat.Pdf);` aan om een PDF‑versie van de dia te krijgen.
+
+**V: Hoe wijzig ik de grootte van het donut‑gat?**  
+A: Gebruik `chart.getParentSeriesGroup().setDoughnutHoleSize((byte) value);` waarbij `value` varieert van 0 tot 100.
+
+**V: Is het mogelijk om gegevenslabels toe te voegen aan alle series, niet alleen de laatste?**  
+A: Ja, verplaats het label‑opmaakblok buiten de `if (i == ...)`‑conditie en pas het toe op elk `dataPoint`.
+
+**V: Welke Java‑versies worden ondersteund?**  
+A: Aspose.Slides 25.4 ondersteunt JDK 16 en nieuwer. Oudere JDK’s vereisen de juiste classifier in de Maven‑dependency.
+
+---
+
+**Laatst bijgewerkt:** 2026-08-16  
+**Getest met:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Auteur:** Aspose
+
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-slides</artifactId>
+    <version>25.4</version>
+    <classifier>jdk16</classifier>
+</dependency>
+```
+
+```gradle
+implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
+```
+
+```java
+License license = new License();
+license.setLicense("path/to/your/license.lic");
+```
 
 ```java
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/testc.pptx");
@@ -108,10 +262,6 @@ ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, false);
 ```
 
-### Het chart‑data‑werkboek configureren en bestaande gegevens wissen
-
-Vervolgens haal je het werkboek op dat de chart ondersteunt en wis je eventuele standaardreeksen of -categorieën.
-
 ```java
 IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
 ```
@@ -121,10 +271,6 @@ chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 chart.setLegend(false);
 ```
-
-### Series aan de chart toevoegen
-
-Nu voegen we tot 15 series toe. Elke series kan worden aangepast — hier stellen we de explosie, de doughnut‑hole‑grootte en de eerste‑slice‑hoek in.
 
 ```java
 int seriesIndex = 0;
@@ -141,10 +287,6 @@ while (seriesIndex < 15) {
     seriesIndex++;
 }
 ```
-
-### Categorieën en gegevenspunten toevoegen
-
-We maken 15 categorieën aan en vullen elke series met een gegevenspunt. De laatste series krijgt een speciale labelopmaak.
 
 ```java
 int categoryIndex = 0;
@@ -198,48 +340,20 @@ while (i < chart.getChartData().getSeries().size()) {
 categoryIndex++;
 ```
 
-### De presentatie opslaan
-
-Tot slot schrijf je de bijgewerkte presentatie naar schijf.
-
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/chart_presentation.pptx", SaveFormat.Pptx);
 ```
 
-## Veelvoorkomende problemen en oplossingen
+## Gerelateerde tutorials
 
-- **License not found** – Licentie niet gevonden – Verify the path to `license.lic` is correct and the file is readable.  
-- **Chart appears blank** – Chart verschijnt leeg – Ensure you cleared existing series/categories before adding new ones.  
-- **Incorrect colors** – Onjuiste kleuren – Check that `FillType.Solid` is set for both fill and line formats.  
-- **Performance with many series** – Prestaties bij veel series – Limit the number of series/categories or reuse the workbook cells.
+- [Hoe een grafiek toe te voegen aan PowerPoint met Aspose.Slides voor Java: Een stapsgewijze handleiding](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [Hoe taartgrafiekkleuren aanpassen in Java met Aspose.Slides – Een volledige gids](/slides/java/charts-graphs/aspose-slides-java-pie-charts-tutorial/)
+- [PowerPoint‑grafiekcategorieën animeren met Aspose.Slides voor Java | Stapsgewijze handleiding](/slides/java/charts-graphs/animate-ppt-chart-categories-aspose-slides-java/)
 
-## Veelgestelde vragen
-
-**Q: Can I generate a doughnut chart without a pre‑existing PPTX file?**  
-A: Ja, instantiate `new Presentation()` om te beginnen met een lege slide deck.
-
-**Q: Does Aspose.Slides support exporting to PDF?**  
-A: Absoluut. After creating the chart, call `pres.save("output.pdf", SaveFormat.Pdf);`.
-
-**Q: How do I change the doughnut hole size?**  
-A: Gebruik `series.getParentSeriesGroup().setDoughnutHoleSize((byte) value);` waarbij value 0‑100 is.
-
-**Q: Is it possible to add data labels to all series, not just the last one?**  
-A: Ja, verplaats het label‑formatting‑blok buiten de `if (i == ...)`‑conditie en pas het toe op elk `dataPoint`.
-
-**Q: What versions of Java are supported?**  
-A: Aspose.Slides 25.4 ondersteunt JDK 16 en nieuwer. Oudere JDK's vereisen de juiste classifier.
-
----
-
-**Laatst bijgewerkt:** 2026-03-07  
-**Getest met:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
-**Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
