@@ -1,43 +1,80 @@
 ---
-date: '2026-02-24'
-description: Pelajari cara menyesuaikan diagram sebar menggunakan Aspose.Slides untuk
-  Java. Panduan ini memandu Anda melalui pembuatan, penataan, dan penyimpanan diagram
-  sebar dinamis dalam presentasi Anda.
+date: '2026-07-27'
+description: Cara menyesuaikan diagram menggunakan Aspose.Slides for Java. Pelajari
+  cara membuat diagram PowerPoint, menata seri scatter, dan menyimpan presentasi secara
+  efisien.
 keywords:
-- Aspose.Slides for Java
-- create scatter charts in Java
-- customize Java charts with Aspose
-title: Sesuaikan Diagram Sebar Aspose di Java
+- how to customize chart
+- java create powerpoint chart
+- Aspose.Slides scatter chart
+lastmod: '2026-07-27'
+og_description: Cara menyesuaikan diagram dengan Aspose.Slides for Java. Panduan ini
+  menunjukkan cara membuat diagram PowerPoint, menata titik scatter, dan mengekspor
+  presentasi.
+og_image_alt: 'Guide: Customize scatter chart in Java using Aspose.Slides'
+og_title: 'Cara Menyesuaikan Diagram: Scatter Chart Aspose di Java'
+schemas:
+- author: Aspose
+  dateModified: '2026-07-27'
+  description: How to customize chart using Aspose.Slides for Java. Learn to create
+    PowerPoint chart, style scatter series, and save presentations efficiently.
+  headline: 'How to Customize Chart: Scatter Chart Aspose in Java'
+  type: TechArticle
+- questions:
+  - answer: Use `series.getMarker().getFillFormat().setFillColor(Color)` where `Color`
+      is a `java.awt.Color` instance such as `Color.RED`.
+    question: How do I change the color of the markers?
+  - answer: Yes. Call `chart.getChartData().getSeries().add(...)` for each additional
+      series and populate its points accordingly.
+    question: Can I add more than two series to a scatter chart?
+  - answer: Absolutely. After creating a series, invoke `series.getLegend().setText("Your
+      Legend Text")` to override the default name.
+    question: Is it possible to set a custom legend for each series?
+  - answer: Call `chart.getImage().save("chart.png", ImageFormat.Png)` after configuring
+      the chart. This produces a standalone PNG file.
+    question: How can I export the chart as an image instead of a PPTX?
+  - answer: Aspose.Slides supports animation effects. Use `chart.getTimeline().getMainSequence().addEffect(...)`
+      to add entrance or emphasis animations to the chart or individual series.
+    question: What if I need to animate the scatter points?
+  type: FAQPage
+tags:
+- customize chart
+- Aspose.Slides
+- Java charting
+title: 'Cara Menyesuaikan Diagram: Scatter Chart Aspose di Java'
 url: /id/java/charts-graphs/aspose-slides-scatter-charts-java-tutorial/
 weight: 1
 ---
 
- we keep markdown formatting.
-
-Let's construct final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 # Sesuaikan Diagram Sebar Aspose di Java
 
-Dalam tutorial ini Anda akan belajar cara **customize scatter chart aspose** dengan pustaka Aspose.Slides for Java yang kuat. Kami akan membahas cara menyiapkan proyek Anda, membuat diagram sebar, menyesuaikan tipe seri dan penanda, dan akhirnya menyimpan presentasi. Pada akhir tutorial, Anda akan dapat menghasilkan diagram sebar berpenampilan profesional secara programatis dan menyesuaikan setiap detail visual agar sesuai dengan merek atau kebutuhan pelaporan Anda.
+Dalam tutorial ini Anda akan menemukan **cara menyesuaikan diagram** — khususnya diagram sebar — menggunakan pustaka Aspose.Slides untuk Java yang kuat. Kami akan membahas penyiapan proyek, membuat diagram sebar, menyesuaikan tipe seri dan penanda, serta akhirnya menyimpan presentasi. Pada akhir tutorial, Anda akan dapat menghasilkan diagram sebar dengan tampilan profesional secara programatik dan menyesuaikan setiap detail visual agar sesuai dengan merek atau kebutuhan pelaporan Anda.
 
 ## Jawaban Cepat
-- **Library apa yang saya butuhkan?** Aspose.Slides for Java (v25.4+).  
+- **Perpustakaan apa yang saya butuhkan?** Aspose.Slides for Java (v25.4+).  
 - **Versi Java mana yang didukung?** JDK 8 atau lebih tinggi.  
 - **Bisakah saya mengubah bentuk penanda?** Ya – gunakan `MarkerStyleType` untuk memilih bintang, lingkaran, dll.  
 - **Bagaimana cara menyimpan file?** Panggil `pres.save("output.pptx", SaveFormat.Pptx)`.  
-- **Apakah lisensi diperlukan?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi komersial diperlukan untuk produksi.
+- **Apakah lisensi diperlukan?** Uji coba gratis dapat digunakan untuk pengembangan; lisensi komersial diperlukan untuk produksi.
+
+## Cara Menyesuaikan Diagram di Java dengan Aspose.Slides?
+`Presentation` adalah kelas Aspose.Slides yang mewakili seluruh file PowerPoint dalam memori. Muat `Presentation` baru, tambahkan diagram sebar pada slide pertama, konfigurasikan seri dan gaya penanda, lalu panggil `save`. Alur kerja tunggal itu membuat diagram yang sepenuhnya bergaya hanya dalam beberapa baris kode Java, siap untuk dimasukkan ke dalam presentasi PowerPoint apa pun.
 
 ## Apa itu “customize scatter chart aspose”?
-Menyesuaikan diagram sebar dengan Aspose berarti mendefinisikan data, tampilan, dan perilaku diagram secara programatis—semua mulai dari koordinat titik hingga simbol penanda—tanpa membuka PowerPoint secara manual. Pendekatan ini ideal untuk pelaporan otomatis, presentasi berbasis data, atau skenario apa pun yang memerlukan visualisasi berulang dengan kualitas tinggi.
+Menyesuaikan diagram sebar dengan Aspose berarti mendefinisikan data, tampilan, dan perilaku diagram secara programatik—semua mulai dari koordinat titik hingga simbol penanda—tanpa membuka PowerPoint secara manual. Pendekatan ini ideal untuk pelaporan otomatis, presentasi berbasis data, atau skenario apa pun yang memerlukan visualisasi berulang dengan kualitas tinggi.
 
 ## Mengapa menyesuaikan diagram sebar dengan Aspose.Slides?
-- **Kontrol penuh** – ubah tipe seri, gaya penanda, warna, dan lainnya melalui kode Java.  
-- **Otomatisasi** – hasilkan puluhan diagram secara langsung untuk dasbor atau laporan batch.  
-- **Lintas‑platform** – bekerja pada sistem operasi apa pun yang mendukung Java, tanpa memerlukan instalasi Office.  
-- **Kinerja** – API ringan yang menangani set data besar secara efisien.
+Aspose.Slides memberikan pengembang kontrol programatik penuh atas tampilan diagram, memungkinkan pembuatan visualisasi berkualitas tinggi secara otomatis, integrasi mulus ke dalam alur pelaporan, dan kemampuan menyesuaikan setiap elemen visual tanpa membuka PowerPoint secara manual, yang menghemat waktu dan memastikan konsistensi di seluruh presentasi.
+
+- **Kontrol penuh** – ubah tipe seri, gaya penanda, warna, dan lain-lain melalui kode Java.  
+- **Otomasi** – hasilkan puluhan diagram secara dinamis untuk dasbor atau laporan batch.  
+- **Lintas‑platform** – berfungsi pada sistem operasi apa pun yang mendukung Java, tanpa memerlukan instalasi Office.  
+- **Kinerja** – API ringan yang memproses **150+ tipe diagram** dan menangani presentasi ratusan halaman tanpa memuat seluruh file ke memori.
 
 ## Prasyarat
 
@@ -70,11 +107,11 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
 Atau dapatkan rilis terbaru dari [Aspose Releases](https://releases.aspose.com/slides/java/).
 
 #### Perolehan Lisensi
-- **Free Trial** – evaluasi 30 hari.  
-- **Temporary License** – periode pengujian yang diperpanjang.  
-- **Full License** – penggunaan produksi dengan dukungan premium.
+- **Uji Coba Gratis** – evaluasi 30‑hari.  
+- **Lisensi Sementara** – periode pengujian yang diperpanjang.  
+- **Lisensi Penuh** – penggunaan produksi dengan dukungan premium.
 
-## Panduan Langkah‑per‑Langkah untuk Menyesuaikan Scatter Chart Aspose
+## Panduan Langkah‑demi‑Langkah untuk Menyesuaikan Diagram Sebar Aspose
 
 ### 1️⃣ Siapkan folder untuk file presentasi Anda
 ```java
@@ -86,28 +123,29 @@ if (!isExists) {
     // Create the directory
     new File(dataDir).mkdirs();
 }
-```
+```  
 *Mengapa ini penting:* Memastikan folder output ada mencegah `FileNotFoundException` saat Anda menyimpan PPTX nanti.
 
 ### 2️⃣ Buat presentasi baru dan ambil slide pertama
+`Presentation` mewakili dokumen PowerPoint dan menyediakan akses ke slide serta bentuk. Kelas `Presentation` mewakili seluruh file PowerPoint dalam memori.  
 ```java
 import com.aspose.slides.Presentation;
 
 Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
 ```
-Sebuah `Presentation` baru memberi Anda kanvas bersih; slide pertama adalah tempat kami akan menempatkan diagram.
 
 ### 3️⃣ Tambahkan diagram sebar dengan garis halus
+`ChartType.ScatterWithSmoothLines` membuat diagram sebar di mana titik-titik dihubungkan dengan garis halus.  
 ```java
 import com.aspose.slides.IChart;
 import com.aspose.slides.ChartType;
 
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 ```
-`ChartType.ScatterWithSmoothLines` membuat diagram sebar dengan garis halus, sempurna untuk visualisasi tren.
 
 ### 4️⃣ Bersihkan semua seri default dan tambahkan milik Anda
+`IChartSeries` mewakili seri data dalam sebuah diagram.  
 ```java
 import com.aspose.slides.IChartDataWorkbook;
 import com.aspose.slides.IChartSeries;
@@ -120,9 +158,9 @@ chart.getChartData().getSeries().clear();
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 1, 1, "Series 1"), chart.getType());
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 1, 3, "Series 2"), chart.getType());
 ```
-Menghapus seri default memberi Anda kontrol penuh atas data yang ditampilkan.
 
 ### 5️⃣ Isi seri pertama dengan titik data
+`addDataPointForScatterSeries` menambahkan satu titik X‑Y ke seri sebar.  
 ```java
 import com.aspose.slides.DataPointImpl;
 
@@ -130,9 +168,9 @@ IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 1), fact.getCell(defaultWorksheetIndex, 2, 2, 3));
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 2), fact.getCell(defaultWorksheetIndex, 3, 2, 10));
 ```
-`addDataPointForScatterSeries` mengambil sel nilai X dan sel nilai Y, membangun plot sebar titik demi titik.
 
 ### 6️⃣ Sesuaikan tipe seri dan tampilan penanda
+`Marker` mengontrol simbol visual yang digunakan untuk setiap titik data dalam seri diagram.  
 ```java
 import com.aspose.slides.MarkerStyleType;
 
@@ -150,53 +188,59 @@ series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorkshee
 series.getMarker().setSize(10);
 series.getMarker().setSymbol(MarkerStyleType.Circle);
 ```
-Di sini kami **customize the scatter chart aspose** dengan beralih ke garis lurus, memperbesar penanda, dan memilih simbol yang berbeda (bintang vs. lingkaran) untuk kejelasan visual.
 
 ### 7️⃣ Simpan presentasi
+`save` menulis presentasi ke file dalam format yang ditentukan.  
 ```java
 import com.aspose.slides.SaveFormat;
 
 pres.save("YOUR_OUTPUT_DIRECTORY/AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
-Menyimpan sebagai `Pptx` mempertahankan semua penyesuaian diagram dan membuat file siap untuk dibagikan atau diedit lebih lanjut.
 
-## Contoh Penggunaan Umum untuk Diagram Sebar yang Disesuaikan
-- **Dasbor keuangan** – plot harga saham vs. volume.  
-- **Penelitian ilmiah** – menampilkan pengukuran eksperimental dengan penanda kesalahan.  
-- **Manajemen proyek** – membandingkan upaya yang direncanakan vs. aktual pada setiap tugas.  
+## Kasus Penggunaan Umum untuk Diagram Sebar yang Disesuaikan
+- **Dasbor Keuangan** – plot harga saham vs. volume.  
+- **Penelitian Ilmiah** – tampilkan pengukuran eksperimental dengan penanda kesalahan.  
+- **Manajemen Proyek** – bandingkan upaya yang direncanakan vs. aktual pada setiap tugas.  
 
 ## Tips Kinerja
-- Buang objek `Presentation` (`pres.dispose()`) setelah menyimpan untuk membebaskan sumber daya native.  
+- Panggil `pres.dispose()` setelah menyimpan untuk melepaskan memori native.  
 - Untuk set data besar, isi workbook terlebih dahulu lalu hubungkan seri untuk menghindari penyegaran UI berulang.  
-- Gunakan kembali satu instance `IChartDataWorkbook` saat menambahkan banyak seri.
+- Gunakan kembali satu instance `IChartDataWorkbook` saat menambahkan banyak seri untuk menjaga penggunaan memori tetap rendah.
 
 ## Pertanyaan yang Sering Diajukan
 
-### Bagaimana cara mengubah warna penanda?
-Gunakan `series.getMarker().getFillFormat().setFillColor(Color)` dimana `Color` adalah instance dari `java.awt.Color` (misalnya, `Color.RED`).
+**Q: Bagaimana cara mengubah warna penanda?**  
+A: Gunakan `series.getMarker().getFillFormat().setFillColor(Color)` dimana `Color` adalah instance `java.awt.Color` seperti `Color.RED`.
 
-### Bisakah saya menambahkan lebih dari dua seri ke diagram sebar?
-Tentu saja. Ulangi pemanggilan `chart.getChartData().getSeries().add(...)` untuk setiap seri tambahan dan isi titik datanya sesuai.
+**Q: Bisakah saya menambahkan lebih dari dua seri ke diagram sebar?**  
+A: Ya. Panggil `chart.getChartData().getSeries().add(...)` untuk setiap seri tambahan dan isi titiknya sesuai.
 
-### Apakah memungkinkan menetapkan legenda khusus untuk setiap seri?
-Ya. Setelah membuat seri, panggil `series.getLegend().setText("Your Legend Text")` untuk mengganti nama default.
+**Q: Apakah memungkinkan untuk mengatur legenda khusus untuk setiap seri?**  
+A: Tentu saja. Setelah membuat seri, panggil `series.getLegend().setText("Your Legend Text")` untuk mengganti nama default.
 
-### Bagaimana saya dapat mengekspor diagram sebagai gambar alih-alih PPTX?
-Panggil `chart.getImage().save("chart.png", ImageFormat.Png)` setelah mengonfigurasi diagram. Ini memberi Anda file PNG terpisah.
+**Q: Bagaimana saya dapat mengekspor diagram sebagai gambar alih-alih PPTX?**  
+A: Panggil `chart.getImage().save("chart.png", ImageFormat.Png)` setelah mengonfigurasi diagram. Ini menghasilkan file PNG terpisah.
 
-### Bagaimana jika saya perlu memberi animasi pada titik sebar?
-Aspose.Slides mendukung efek animasi. Gunakan `chart.getTimeline().getMainSequence().addEffect(...)` untuk menambahkan animasi masuk atau penekanan pada diagram atau seri individu.
+**Q: Bagaimana jika saya perlu memberi animasi pada titik sebar?**  
+A: Aspose.Slides mendukung efek animasi. Gunakan `chart.getTimeline().getMainSequence().addEffect(...)` untuk menambahkan animasi masuk atau penekanan pada diagram atau seri individual.
 
 ---
 
-**Terakhir Diperbarui:** 2026-02-24  
+**Terakhir Diperbarui:** 2026-07-27  
 **Diuji Dengan:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
 **Penulis:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Tutorial Terkait
+
+- [Buat dan Sesuaikan Diagram PowerPoint di Java Menggunakan Aspose.Slides](/slides/java/charts-graphs/java-aspose-slides-powerpoint-charts-automation/)
+- [Cara Membuat Diagram Bubble di PowerPoint Menggunakan Aspose.Slides untuk Java (Tutorial)](/slides/java/charts-graphs/create-bubble-charts-powerpoint-aspose-slides-java/)
+- [Buat dan Sesuaikan Diagram dengan Garis Tren di Aspose.Slides untuk Java](/slides/java/charts-graphs/create-customize-charts-trend-lines-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

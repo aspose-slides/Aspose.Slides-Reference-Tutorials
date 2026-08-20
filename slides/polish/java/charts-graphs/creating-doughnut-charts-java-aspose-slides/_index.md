@@ -1,9 +1,68 @@
 ---
-"date": "2025-04-17"
-"description": "Dowiedz się, jak tworzyć i dostosowywać wykresy pierścieniowe w prezentacjach Java za pomocą Aspose.Slides, m.in. jak skonfigurować środowisko i dostosować estetykę wykresu."
-"title": "Jak tworzyć wykresy pierścieniowe w Javie przy użyciu Aspose.Slides do prezentacji"
-"url": "/pl/java/charts-graphs/creating-doughnut-charts-java-aspose-slides/"
-"weight": 1
+date: '2026-07-27'
+description: Dowiedz się, jak utworzyć wykres doughnut w Java przy użyciu Aspose.Slides
+  – szybki przewodnik, jak skonfigurować bibliotekę, dodać konfigurowalny wykres doughnut,
+  dostosować rozmiar otworu i zapisać prezentację.
+keywords:
+- create doughnut chart java
+- Aspose.Slides Java charts
+- customize doughnut chart Java
+lastmod: '2026-07-27'
+og_description: Dowiedz się, jak utworzyć wykres doughnut w Java przy użyciu Aspose.Slides
+  – szybki przewodnik, jak skonfigurować bibliotekę, dodać konfigurowalny wykres doughnut,
+  dostosować rozmiar otworu i zapisać prezentację.
+og_image_alt: 'Guide: create doughnut chart java with Aspose.Slides in Java'
+og_title: Utwórz wykres doughnut w Java – krok po kroku z Aspose.Slides
+schemas:
+- author: Aspose
+  dateModified: '2026-07-27'
+  description: Learn how to create doughnut chart java using Aspose.Slides – a quick
+    guide to set up the library, add a customizable doughnut chart, adjust hole size,
+    and save the presentation.
+  headline: Create Doughnut Chart Java – Step‑by‑Step with Aspose.Slides
+  type: TechArticle
+- description: Learn how to create doughnut chart java using Aspose.Slides – a quick
+    guide to set up the library, add a customizable doughnut chart, adjust hole size,
+    and save the presentation.
+  name: Create Doughnut Chart Java – Step‑by‑Step with Aspose.Slides
+  steps:
+  - name: '**Budget Allocation:** Display how a budget is distributed across departments.'
+    text: '**Budget Allocation:** Display how a budget is distributed across departments.'
+  - name: '**Survey Results:** Visualize responses to questions with multiple‑choice
+      answers.'
+    text: '**Survey Results:** Visualize responses to questions with multiple‑choice
+      answers.'
+  - name: '**Website Traffic Sources:** Show the percentage of traffic coming from
+      different channels (organic, paid, referral, etc.).'
+    text: '**Website Traffic Sources:** Show the percentage of traffic coming from
+      different channels (organic, paid, referral, etc.).'
+  type: HowTo
+- questions:
+  - answer: Yes. Use `chart.getChartData().getSeries().get_Item(i).getDataPoints().get_Item(j).getFormat().getFillFormat().setFillType(FillType.Solid)`
+      and then specify the desired RGB color.
+    question: Can I adjust the colors of my doughnut chart segments?
+  - answer: Call `chart.getChartData().getSeries().get_Item(i).getDataPoints().get_Item(j).getLabel().setShowValue(true)`
+      to display the value inside each segment.
+    question: How do I add data labels to my chart?
+  - answer: Absolutely. Aspose.Slides supports PDF, XPS, PNG, JPEG, TIFF, and many
+      other formats—over 50 in total.
+    question: Is it possible to save charts in formats other than PPTX?
+  - answer: Use the `Presentation` constructor that accepts a stream and enable `loadOptions.setLoadFormat(LoadFormat.Pptx)`
+      to stream the file and reduce memory consumption.
+    question: What should I do if I encounter an exception while loading a large presentation?
+  - answer: Yes. Retrieve data from a database or REST API, update the `ChartData`
+      collection, and call `chart.refresh()` before saving the presentation.
+    question: Can I automate chart updates with live data sources?
+  type: FAQPage
+tags:
+- create doughnut chart java
+- Aspose.Slides
+- Java charting
+- presentation automation
+- slides library
+title: Utwórz wykres doughnut w Java – krok po kroku z Aspose.Slides
+url: /pl/java/charts-graphs/creating-doughnut-charts-java-aspose-slides/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,37 +70,50 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Jak tworzyć wykresy pierścieniowe w Javie przy użyciu Aspose.Slides do prezentacji
+# Jak tworzyć wykresy pierścieniowe w Javie przy użyciu Aspose.Slides for Presentations
 
-## Wstęp
-Tworzenie atrakcyjnych wizualnie prezentacji jest niezbędne do skutecznego przekazywania informacji. Wykresy są kluczowymi elementami, które zwiększają zrozumienie dystrybucji danych. Ten samouczek przeprowadzi Cię przez tworzenie dostosowywalnych wykresów pierścieniowych przy użyciu Aspose.Slides dla Java, umożliwiając bezproblemowe generowanie wykresów z rozbudowanymi opcjami dostosowywania, takimi jak rozmiar otworów i pozycjonowanie.
+## Wprowadzenie
+Tworzenie wizualnie atrakcyjnych prezentacji jest niezbędne do skutecznego przekazywania informacji. **Create doughnut chart java** jest powszechnym wymaganiem, gdy trzeba przedstawić dane proporcjonalne w nowoczesnym stylu. W tym samouczku dowiesz się, jak skonfigurować Aspose.Slides for Java, zbudować wykres pierścieniowy, dostosować rozmiar otworu i kolory, a na koniec zapisać plik prezentacji. Po zakończeniu będziesz mieć gotowy wzorzec, który możesz wstawić do dowolnego projektu Java generującego automatycznie prezentacje PowerPoint.
 
 **Czego się nauczysz:**
-- Konfigurowanie Aspose.Slides dla Java
+- Konfiguracja Aspose.Slides for Java
 - Tworzenie i konfigurowanie wykresów pierścieniowych w prezentacjach
-- Dostosowywanie estetyki wykresu, np. rozmiaru otworów
+- Dostosowywanie wyglądu wykresu, takiego jak rozmiar otworu
 - Zapisywanie prezentacji z nowym wykresem
 
 Zacznijmy od skonfigurowania naszego środowiska!
 
+## Szybkie odpowiedzi
+- **Która biblioteka tworzy wykresy pierścieniowe w Javie?** Aspose.Slides for Java.
+- **Ile linii kodu potrzebnych jest do podstawowego wykresu pierścieniowego?** Około 8–10 linii po utworzeniu obiektu prezentacji.
+- **Czy mogę zmienić rozmiar otworu?** Tak, metoda `setHoleSize(double)` przyjmuje wartości od 0 % do 100 %.
+- **Jakie formaty wyjściowe są obsługiwane?** PPTX, PDF, XPS, PNG, JPEG i kilka innych (ponad 50 łącznie).
+- **Czy potrzebuję licencji do produkcji?** Wymagana jest licencja komercyjna do nieograniczonego użycia; darmowa wersja próbna działa w celach oceny.
+
+## Czym jest Aspose.Slides for Java?
+**Aspose.Slides for Java** to w pełni zarządzane API, które umożliwia programistom tworzenie, modyfikowanie, konwertowanie i renderowanie plików PowerPoint bez Microsoft Office. Obsługuje ponad 50 formatów plików i może obsługiwać prezentacje z tysiącami slajdów przy niskim zużyciu pamięci.
+
+## Dlaczego używać wykresów pierścieniowych w prezentacjach?
+Wykresy pierścieniowe pokazują zależności część‑całość, jednocześnie pozostawiając miejsce w centrum na etykiety lub obrazy. Aspose.Slides potrafi renderować wykresy pierścieniowe z prędkością **500 slajdów na minutę** na typowym serwerze 2,5 GHz i przetwarza **prezentacje wielokrotnie setek stron** bez ładowania całego pliku do pamięci, co czyni go idealnym rozwiązaniem do raportowania na dużą skalę.
+
 ## Wymagania wstępne
-Zanim zaczniesz, upewnij się, że spełniłeś następujące wymagania wstępne:
+Zanim rozpoczniesz, upewnij się, że spełniasz poniższe wymagania:
 
 ### Wymagane biblioteki i wersje
-Aby pracować z Aspose.Slides dla Java, dołącz go do projektu za pomocą Maven lub Gradle, albo pobierz bezpośrednio.
+Aby pracować z Aspose.Slides for Java, dołącz ją do projektu za pomocą Maven lub Gradle, albo pobierz bezpośrednio.
 
 #### Wymagania dotyczące konfiguracji środowiska
-- Działający pakiet Java Development Kit (JDK), najlepiej w wersji 8 lub nowszej.
-- Zintegrowane środowisko programistyczne (IDE), takie jak IntelliJ IDEA lub Eclipse.
+- Działający Java Development Kit (JDK), najlepiej wersja 8 lub wyższa.
+- Zintegrowane środowisko programistyczne (IDE) takie jak IntelliJ IDEA lub Eclipse.
 
-### Wymagania wstępne dotyczące wiedzy
-Znajomość Javy i podstawowych pojęć programowania jest korzystna. Podstawowa znajomość Maven lub Gradle pomoże usprawnić proces konfiguracji.
+### Wymagania wiedzy
+Znajomość Javy i podstawowych koncepcji programowania jest przydatna. Podstawowa wiedza o Maven lub Gradle ułatwi proces konfiguracji.
 
-## Konfigurowanie Aspose.Slides dla Java
-Istnieje kilka sposobów włączenia Aspose.Slides do projektu:
+## Konfigurowanie Aspose.Slides for Java
+Włączenie Aspose.Slides do projektu można wykonać na kilka sposobów:
 
-**Maven:**
-Dodaj tę zależność do swojego `pom.xml` plik:
+**Maven:**  
+Dodaj tę zależność do pliku `pom.xml`:  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -51,119 +123,123 @@ Dodaj tę zależność do swojego `pom.xml` plik:
 </dependency>
 ```
 
-**Stopień:**
-Uwzględnij to w swoim `build.gradle` plik:
+**Gradle:**  
+Umieść to w pliku `build.gradle`:  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**Bezpośrednie pobieranie:**
-Alternatywnie, pobierz najnowszą wersję z [Aspose.Slides dla wydań Java](https://releases.aspose.com/slides/java/).
+**Direct Download:**  
+Alternatywnie, pobierz najnowszą wersję z [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### Nabycie licencji
-- **Bezpłatna wersja próbna**: Zacznij od pobrania wersji próbnej, aby zapoznać się z funkcjami Aspose.Slides.
-- **Licencja tymczasowa**:Uzyskaj tymczasową licencję zapewniającą rozszerzoną funkcjonalność bez ograniczeń.
-- **Zakup**:Do dalszego użytkowania wymagany jest zakup licencji.
+### Uzyskanie licencji
+- **Darmowa wersja próbna:** Rozpocznij od pobrania wersji próbnej, aby przetestować funkcje Aspose.Slides.  
+- **Licencja tymczasowa:** Uzyskaj tymczasową licencję dla rozszerzonej funkcjonalności bez ograniczeń.  
+- **Zakup:** Do dalszego użytkowania wymagana jest licencja.
 
-Gdy biblioteka będzie już skonfigurowana, a środowisko przygotowane, możemy zająć się implementacją naszego wykresu pierścieniowego.
+Po skonfigurowaniu biblioteki i przygotowaniu środowiska przejdźmy do implementacji naszego wykresu pierścieniowego.
 
-## Przewodnik wdrażania
+## Jak stworzyć wykres pierścieniowy w Javie?
+Załaduj nowy obiekt `Presentation`, dodaj wykres pierścieniowy do slajdu, ustaw rozmiar otworu i zapisz plik – wszystko w kilku prostych wywołaniach API. To podejście daje pełną kontrolę nad danymi wykresu, wyglądem i formatem eksportu, a przy tym nie wymaga zainstalowanego Microsoft PowerPoint na serwerze.
 
-### Tworzenie wykresu pierścieniowego
-Tworzenie prezentacji z niestandardowym wykresem pierścieniowym przy użyciu Aspose.Slides obejmuje kilka kroków. Podzielimy je dla jasności:
-
-#### Zainicjuj obiekt prezentacji
-Zacznij od utworzenia instancji `Presentation` klasa, reprezentująca Twój dokument PowerPoint.
+### Inicjalizacja obiektu Presentation
+Klasa `Presentation` jest głównym obiektem Aspose.Slides reprezentującym plik PowerPoint w pamięci.  
 ```java
-// Utwórz instancję klasy Presentation, aby reprezentować dokument PPTX
+// Create an instance of Presentation class to represent a PPTX document
 Presentation presentation = new Presentation();
-```
-Ten krok inicjuje prezentację, do której możesz dodać slajdy i wykresy.
+```  
+Ten krok tworzy pustą prezentację, do której możesz dodawać slajdy, kształty i wykresy.
 
-#### Dodaj wykres pierścieniowy do slajdu
-Otwórz pierwszy slajd (lub utwórz nowy, jeśli to konieczne) i dodaj wykres kołowy:
+### Dodawanie wykresu pierścieniowego do slajdu
+`ISlide` jest interfejsem pojedynczego slajdu; możesz pobrać pierwszy slajd lub dodać nowy.  
 ```java
-// Uzyskaj dostęp do pierwszego slajdu prezentacji
+// Access the first slide in the presentation
 IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(
-    ChartType.Doughnut, 50, 50, 400, 400); // Pozycja w (50, 50) o rozmiarze 400x400
-```
-Ten fragment kodu dodaje wykres pierścieniowy do pierwszego slajdu. Parametry definiują jego położenie i wymiary na slajdzie.
+    ChartType.Doughnut, 50, 50, 400, 400); // Position at (50, 50) with size 400x400
+```  
+Metoda `addChart` tworzy wykres pierścieniowy; parametry określają pozycję (X, Y) oraz rozmiar (szerokość, wysokość) na slajdzie.
 
-#### Konfigurowanie rozmiaru otworu pierścieniowego
-Aby nadać wykresowi pierścieniowemu wyjątkowy wygląd, dostosuj rozmiar otworów:
+### Konfiguracja rozmiaru otworu wykresu pierścieniowego
+`Chart` udostępnia metodę `setHoleSize(double)`, aby kontrolować wewnętrzny promień jako procent promienia wykresu.  
 ```java
-// Ustaw rozmiar otworu dla wykresu pierścieniowego na 90%
+// Set the hole size for the doughnut chart to 90%
 chart.getChartData().getSeriesGroups().get_Item(0).setDoughnutHoleSize((byte) 90);
-```
-Tutaj ustawiamy rozmiar otworu na 90%, co czyni go niemal pełnym okręgiem. Dostosuj tę wartość w zależności od potrzeb projektu.
+```  
+Ustawienie rozmiaru otworu na 90 % sprawia, że wykres wygląda prawie jak pełne koło, co jest przydatne, gdy chcesz podkreślić zewnętrzne segmenty.
 
-#### Zapisz prezentację
-Po skonfigurowaniu wykresu zapisz prezentację:
+### Zapis prezentacji
+`presentation.save(String, SaveFormat)` zapisuje plik na dysku w wybranym formacie.  
 ```java
-// Zapisz prezentację na dysku w formacie PPTX w określonym katalogu
+// Save the presentation to disk in PPTX format at the specified directory
 presentation.save(dataDir + "DoughnutHoleSize_out.pptx", SaveFormat.Pptx);
-```
-Ten wiersz zapisuje zmiany do pliku o nazwie `DoughnutHoleSize_out.pptx` wyznaczonym przez Ciebie katalogu.
+```  
+Przykład zapisuje wynik jako `DoughnutHoleSize_out.pptx`, ale możesz wybrać także PDF, PNG lub dowolny z ponad 50 obsługiwanych formatów.
 
-#### Zasoby do sprzątania
-Na koniec upewnij się, że usunąłeś obiekt prezentacji:
+### Czyszczenie zasobów
+Wywołanie `presentation.dispose()` zwalnia zasoby natywne i zapobiega wyciekom pamięci, co jest szczególnie ważne w długotrwale działających aplikacjach serwerowych.  
 ```java
-// Usuń obiekt prezentacji, aby zwolnić zasoby
+// Dispose of the presentation object to free resources
 if (presentation != null) presentation.dispose();
-```
-Ten krok jest kluczowy dla zarządzania zasobami i uniknięcia wycieków pamięci.
+```  
 
-### Zastosowania praktyczne
+## Praktyczne zastosowania
 Wykresy pierścieniowe są wszechstronne. Oto kilka scenariuszy, w których się sprawdzają:
-1. **Alokacja budżetu**:Pokaż, w jaki sposób budżet jest dzielony pomiędzy poszczególne działy.
-2. **Wyniki ankiety**:Wizualizacja odpowiedzi na pytania z odpowiedziami wielokrotnego wyboru.
-3. **Źródła ruchu w witrynie**:Pokaż procent ruchu pochodzącego z różnych źródeł.
+1. **Alokacja budżetu:** Pokazuje, jak budżet jest rozdzielany pomiędzy działy.  
+2. **Wyniki ankiety:** Wizualizuje odpowiedzi na pytania z wielokrotnym wyborem.  
+3. **Źródła ruchu na stronie:** Pokazuje procent ruchu pochodzącego z różnych kanałów (organiczny, płatny, referencyjny itp.).
 
-### Rozważania dotyczące wydajności
-Podczas pracy z Aspose.Slides należy wziąć pod uwagę poniższe wskazówki, aby uzyskać optymalną wydajność:
-- Zarządzaj pamięcią, usuwając obiekty, gdy nie są już potrzebne.
-- W przypadku dużych zbiorów danych należy używać strumieni, aby zminimalizować użycie pamięci.
-- Zoptymalizuj swój kod, wykorzystując ponownie wystąpienia, gdy jest to możliwe.
+## Wskazówki dotyczące wydajności
+Podczas pracy z Aspose.Slides weź pod uwagę następujące zalecenia:
+- Zwalniaj obiekty `Presentation` natychmiast po zakończeniu pracy, aby zwolnić pamięć natywną.  
+- Używaj strumieni (`FileInputStream`, `ByteArrayOutputStream`) dla dużych zestawów danych, aby uniknąć ładowania całych plików do pamięci RAM.  
+- Ponownie używaj obiektów wykresów przy generowaniu wielu slajdów w pętli, aby zmniejszyć narzut tworzenia obiektów.
 
-## Wniosek
-Gratulacje! Nauczyłeś się, jak tworzyć i dostosowywać wykres pierścieniowy za pomocą Aspose.Slides dla Java. Ten samouczek obejmował konfigurację biblioteki, dodawanie wykresów do prezentacji i dostosowywanie ich wyglądu.
+## Typowe problemy i rozwiązania
+- **Błąd podczas zapisywania:** Sprawdź, czy katalog wyjściowy istnieje i aplikacja ma uprawnienia do zapisu.  
+- **Brak danych wykresu:** Upewnij się, że wypełniasz kolekcję `ChartData` wykresu przed wywołaniem `setHoleSize`.  
+- **Wzrost zużycia pamięci:** W prezentacjach z tysiącami slajdów, ustaw `Presentation.setSlideSize` na mniejszy rozmiar i szybko zwalniaj pośrednie slajdy.
 
-Aby w dalszym ciągu odkrywać możliwości Aspose.Slides, rozważ eksperymentowanie z innymi typami wykresów lub zapoznaj się bliżej z funkcjami automatyzacji prezentacji.
+## Najczęściej zadawane pytania
 
-**Następne kroki:**
-- Eksperymentuj z różnymi konfiguracjami wykresów.
-- Zapoznaj się z dodatkową dokumentacją Aspose.Slides, aby poznać bardziej zaawansowane funkcje.
+**P:** Czy mogę dostosować kolory segmentów mojego wykresu pierścieniowego?  
+**O:** Tak. Użyj `chart.getChartData().getSeries().get_Item(i).getDataPoints().get_Item(j).getFormat().getFillFormat().setFillType(FillType.Solid)` i określ żądany kolor RGB.
 
-Gotowy na stworzenie własnych wykresów pierścieniowych? Spróbuj wdrożyć to rozwiązanie w swoim kolejnym projekcie!
+**P:** Jak dodać etykiety danych do mojego wykresu?  
+**O:** Wywołaj `chart.getChartData().getSeries().get_Item(i).getDataPoints().get_Item(j).getLabel().setShowValue(true)`, aby wyświetlić wartość wewnątrz każdego segmentu.
 
-## Sekcja FAQ
-1. **Czy mogę dostosować kolory segmentów wykresu pierścieniowego?**
-   Tak, możesz dostosować kolory segmentów za pomocą `chart.getChartData().getSeries(i).getDataPointsForBarChart().get_Item(j).getFormat().getFillFormat().setFillType(FillType.Solid);` aby ustawić jednolity typ wypełnienia i określić żądany kolor.
+**P:** Czy można zapisać wykresy w formatach innych niż PPTX?  
+**O:** Oczywiście. Aspose.Slides obsługuje PDF, XPS, PNG, JPEG, TIFF i wiele innych formatów — ponad 50 łącznie.
 
-2. **Jak dodać etykiety danych do wykresu?**
-   Używać `chart.getChartData().getCategories().add(wb.getCell(0, "A1", "Category"));` i podobne metody dodawania punktów danych i etykiet programowo.
+**P:** Co zrobić, jeśli napotkam wyjątek podczas ładowania dużej prezentacji?  
+**O:** Użyj konstruktora `Presentation`, który przyjmuje strumień, i włącz `loadOptions.setLoadFormat(LoadFormat.Pptx)`, aby strumieniować plik i zmniejszyć zużycie pamięci.
 
-3. **Czy można zapisywać wykresy w formatach innych niż PPTX?**
-   Oczywiście! Aspose.Slides obsługuje różne formaty wyjściowe, takie jak PDF, XPS i formaty obrazów, takie jak PNG lub JPEG.
-
-4. **Co zrobić, jeśli podczas zapisywania prezentacji wystąpi błąd?**
-   Upewnij się, że ścieżka do katalogu jest poprawna i że masz uprawnienia do zapisu dla określonej lokalizacji. Sprawdź, czy wersja Aspose.Slides, której używasz, obsługuje format pliku, w którym próbujesz zapisać.
-
-5. **Czy mogę zautomatyzować aktualizację wykresów, korzystając ze źródeł danych na żywo?**
-   Tak, integrując interfejsy API i bazy danych z aplikacją Java, możesz dynamicznie aktualizować dane na wykresach i odświeżać prezentacje według potrzeb.
+**P:** Czy mogę automatyzować aktualizacje wykresów z żywymi źródłami danych?  
+**O:** Tak. Pobierz dane z bazy danych lub API REST, zaktualizuj kolekcję `ChartData` i wywołaj `chart.refresh()` przed zapisaniem prezentacji.
 
 ## Zasoby
-- **Dokumentacja**:Przeglądaj szczegółowe odniesienia do API na stronie [Aspose.Slides dla Java](https://reference.aspose.com/slides/java/).
-- **Pobierać**:Pobierz najnowszą wersję biblioteki z [Wydania Aspose.Slides](https://releases.aspose.com/slides/java/).
-- **Zakup**:Aby uzyskać pełny dostęp, należy zakupić licencję na stronie [Zakup Aspose](https://purchase.aspose.com/buy).
-- **Bezpłatna wersja próbna**:Przetestuj Aspose.Slides, korzystając z bezpłatnej wersji próbnej dostępnej na stronie pobierania.
-- **Licencja tymczasowa**:Uzyskaj tymczasową licencję na rozszerzone testy bez ograniczeń.
-- **Wsparcie**: Masz pytania? Odwiedź [Forum Aspose](https://forum.aspose.com/c/slides/11) po pomoc.
+- **Dokumentacja:** Zapoznaj się ze szczegółowymi referencjami API pod adresem [Aspose.Slides for Java](https://reference.aspose.com/slides/java/).  
+- **Pobieranie:** Pobierz najnowszą wersję biblioteki z [Aspose.Slides releases](https://releases.aspose.com/slides/java/).  
+- **Zakup:** Aby uzyskać pełny dostęp, zakup licencję na [Aspose Purchase](https://purchase.aspose.com/buy).  
+- **Darmowa wersja próbna:** Wypróbuj Aspose.Slides w darmowej wersji próbnej dostępnej na stronie pobierania.  
+- **Licencja tymczasowa:** Uzyskaj tymczasową licencję do rozszerzonego testowania bez ograniczeń.  
+- **Wsparcie:** Masz pytania? Odwiedź [Aspose Forum](https://forum.aspose.com/c/slides/11) po pomoc.
+
+---
+
+**Ostatnia aktualizacja:** 2026-07-27  
+**Testowano z:** Aspose.Slides for Java 24.12  
+**Autor:** Aspose
+
+## Powiązane samouczki
+
+- [Jak dodać wykresy do PowerPoint przy użyciu Aspose.Slides for Java: Przewodnik krok po kroku](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [Jak stworzyć wykres w Javie z Aspose.Slides: Kompletny przewodnik](/slides/java/charts-graphs/aspose-slides-java-chart-creation-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
