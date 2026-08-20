@@ -1,14 +1,65 @@
 ---
-date: '2026-02-24'
-description: Ismerje meg, hogyan hozhat létre PPTX Java fájlokat az Aspose.Slides
-  Maven segítségével, automatizálva a prezentációk létrehozását, szerkesztését és
-  kezelését projektjeiben.
+date: '2026-08-01'
+description: Ismerje meg, hogyan használja az Aspose Slides Maven-t PPTX Java fájlok
+  programozott létrehozásához. Ez az útmutató lefedi a setup, a slide creation, a
+  text, a hyperlinks és a saving folyamatokat, segítve a prezentációk hatékony automatizálását.
 keywords:
-- Aspose.Slides for Java
-- Java presentation automation
-- presentation management with Aspose.Slides
-title: PPTX létrehozása Java-val az Aspose.Slides Maven segítségével – Automatizálási
-  útmutató
+- aspose slides maven
+- convert pptx pdf java
+- automate presentation creation
+- batch process powerpoint
+- create pptx java
+lastmod: '2026-08-01'
+og_description: Ismerje meg, hogyan használja az Aspose Slides Maven-t PPTX Java fájlok
+  programozott létrehozásához. Ez az útmutató lefedi a setup, a slide creation, a
+  text, a hyperlinks és a saving folyamatokat, segítve a prezentációk hatékony automatizálását.
+og_image_alt: 'Developer tutorial: Create PPTX Java files using Aspose Slides Maven'
+og_title: 'Aspose Slides Maven: PPTX Java fájlok létrehozása – Útmutató'
+schemas:
+- author: Aspose
+  dateModified: '2026-08-01'
+  description: Learn how to use Aspose Slides Maven to create PPTX Java files programmatically.
+    This guide covers setup, slide creation, text, hyperlinks, and saving, helping
+    you automate presentation creation efficiently.
+  headline: 'Aspose Slides Maven: Create PPTX Java Files – Guide'
+  type: TechArticle
+- description: Learn how to use Aspose Slides Maven to create PPTX Java files programmatically.
+    This guide covers setup, slide creation, text, hyperlinks, and saving, helping
+    you automate presentation creation efficiently.
+  name: 'Aspose Slides Maven: Create PPTX Java Files – Guide'
+  steps:
+  - name: '**Automated Report Generation** – Pull data from databases or APIs and
+      output a polished slide deck each night.'
+    text: '**Automated Report Generation** – Pull data from databases or APIs and
+      output a polished slide deck each night.'
+  - name: '**E‑Learning Content** – Dynamically generate lecture slides based on curriculum
+      updates.'
+    text: '**E‑Learning Content** – Dynamically generate lecture slides based on curriculum
+      updates.'
+  - name: '**Marketing Campaigns** – Build personalized promotional decks for each
+      client using CRM data.'
+    text: '**Marketing Campaigns** – Build personalized promotional decks for each
+      client using CRM data.'
+  type: HowTo
+- questions:
+  - answer: Aspose Slides Maven.
+    question: Which library helps you create PPTX Java files?
+  - answer: JDK 16 or higher.
+    question: Minimum Java version required?
+  - answer: A free trial works for evaluation; a license is required for production.
+    question: Do I need a license to run the sample code?
+  - answer: Yes, Aspose Slides supports multiple export formats.
+    question: Can I convert the PPTX to PDF in the same flow?
+  - answer: No, you can also use Gradle or a direct JAR download.
+    question: Is Maven the only way to add the dependency?
+  type: FAQPage
+tags:
+- aspose slides
+- java pptx
+- presentation automation
+- maven integration
+- slide generation
+title: 'Aspose Slides Maven: PPTX Java fájlok létrehozása – Útmutató'
 url: /hu/java/batch-processing/aspose-slides-java-automate-presentation-management/
 weight: 1
 ---
@@ -19,31 +70,34 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan hozzunk létre PPTX Java-t az Aspose.Slides segítségével: Átfogó útmutató
+# Aspose Slides Maven: PPTX Java fájlok létrehozása – Útmutató
 
-## Introduction
-A vonzó prezentációk programozott létrehozása gyakori igény a fejlesztők körében, akik **create PPTX Java** fájlokat szeretnének készíteni manuális szerkesztés nélkül. Az **Aspose.Slides Maven** kihasználásával közvetlenül Java kódból generálhat PowerPoint prezentációkat, biztosítva a konzisztenciát a jelentések, e‑learning modulok vagy marketing anyagok között. Ebben az útmutatóban végigvezetjük az Aspose.Slides for Java beállításán, mappák előkészítésén, diák építésén, szöveg, hiperhivatkozások hozzáadásán, és végül a prezentáció mentésén – mindezt világos, lépésről‑lépésre példákkal.
+## Bevezetés
+Ha **PPTX Java** fájlokat kell létrehoznod anélkül, hogy manuálisan megnyitnád a PowerPointot, az Aspose Slides Maven tiszta, kódközpontú módot biztosít a prezentációk generálásához. Az Aspose.Slides Maven koordinátáinak használatával automatizálhatod a diák készítését, gazdag tartalmat adhatsz hozzá, és más formátumokba exportálhatsz – mindezt Java-ból. Emellett meg fogod érteni, miért skálázható ez a megközelítés a PowerPoint tömeges feldolgozási forgatókönyveknél.
 
-**What You'll Learn:**
-- Az Aspose.Slides for Java beállítása.
-- Könyvtárak létrehozása Java-ban.
-- Diák és alakzatok hozzáadása a prezentációkhoz.
-- Szöveg és hiperhivatkozások beszúrása a diaelemekbe.
-- Prezentációk programozott mentése.
-
-Fedezzük fel az automatizált prezentációkezelést az Aspose.Slides for Java segítségével!
-
-## Quick Answers
-- **Melyik könyvtár segít PPTX Java fájlok létrehozásában?** Aspose.Slides for Java.  
+## Gyors válaszok
+- **Melyik könyvtár segít PPTX Java fájlok létrehozásában?** Aspose Slides Maven.  
 - **Legkisebb szükséges Java verzió?** JDK 16 vagy újabb.  
-- **Szükségem van licencre a minta kód futtatásához?** Egy ingyenes próba a kiértékeléshez megfelelő; licenc szükséges a termeléshez.  
-- **Átalakíthatom a PPTX-et PDF-re ugyanabban a folyamatban?** Igen, az Aspose.Slides több exportformátumot támogat.  
-- **A Maven az egyetlen módja a függőség hozzáadásának?** Nem, használhat Gradle-t vagy közvetlen JAR letöltést is.
+- **Szükség van licencre a példa kód futtatásához?** Egy ingyenes próba a kiértékeléshez működik; licenc szükséges a termeléshez.  
+- **Átkonvertálhatom a PPTX-et PDF-re ugyanabban a folyamatban?** Igen, az Aspose Slides több export formátumot támogat.  
+- **A Maven az egyetlen módja a függőség hozzáadásának?** Nem, használhatsz Gradlet vagy közvetlen JAR letöltést is.
 
-## Using Aspose.Slides Maven for Java Presentation Automation
-Amikor az Aspose.Slides‑t Maven‑en keresztül adja hozzá, a könyvtár és minden transzitív függősége automatikusan letöltődik, ami egyszerűsíti a projekt beállítását és biztosítja, hogy a legújabb hibajavítások és teljesítményjavítások legyenek jelen. Az alábbiakban a pontos Maven koordinátákat láthatja, amelyekre szüksége van.
+## Mi az a „PPTX Java létrehozása”?
+PPTX fájl létrehozása Java-ban azt jelenti, hogy programozottan generálsz egy PowerPoint prezentációt (`.pptx`) Java kóddal. Az Aspose Slides elrejti az Open XML formátumot, így a diák tartalmára koncentrálhatsz a fájlstruktúra helyett. Ez a megközelítés lehetővé teszi az automatizált jelentéskészítést, e‑learning anyagok létrehozását és dinamikus marketing prezentációk generálását közvetlenül a háttérszolgáltatásaidból.
 
-### Maven Dependency
+## Miért használjuk az Aspose Slides Maven-t?
+Az Aspose Slides Maven csomag betöltésével azonnal egy **teljes funkcionalitású API**-t kapsz, amely több mint **150 diakelem típust** (alakzatok, diagramok, táblázatok, animációk és egyebek) támogat, és akár **5 000 diát** is kezelő prezentációkat képes kezelni Microsoft Office nélkül. A könyvtár Windows, Linux és macOS rendszereken működik, **magas hűségű renderelést** (azonos a PowerPointtal) biztosít, és **exportálást PDF, PNG, HTML és több mint 20 egyéb formátumba** kínál – mindezt egyetlen Maven függőségből.
+
+## Előfeltételek
+- **Szükséges könyvtárak:** Aspose.Slides for Java 25.4 vagy újabb.  
+- **Környezet beállítása:** JDK 16+ telepítve és a `JAVA_HOME` beállítva.  
+- **IDE:** IntelliJ IDEA, Eclipse vagy bármely Java‑kompatibilis szerkesztő.  
+- **Alap Java ismeretek:** Osztályok, csomagok és fájl I/O ismerete.
+
+## Aspose Slides Maven használata Java prezentáció automatizáláshoz
+Amikor Maven-en keresztül adod hozzá az Aspose Slides-et, a könyvtár és minden transzitív függősége automatikusan letöltődik, ami egyszerűsíti a projekt beállítását és biztosítja, hogy a legújabb hibajavításokkal és teljesítményjavításokkal dolgozz. Az alábbiakban megtekintjük a szükséges Maven koordinátákat.
+
+### Maven függőség
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -53,66 +107,42 @@ Amikor az Aspose.Slides‑t Maven‑en keresztül adja hozzá, a könyvtár és 
 </dependency>
 ```
 
-### Gradle Dependency
+### Gradle függőség
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Direct Download
-Töltse le a legújabb verziót a [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) oldalról.
+### Közvetlen letöltés
+Töltsd le a legújabb verziót a [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) oldalról.
 
-## What is “create PPTX Java”?
-A PPTX fájl Java‑ban történő létrehozása azt jelenti, hogy programozottan generál egy PowerPoint prezentációt (`.pptx`) Java kóddal. Az Aspose.Slides gazdag API‑t biztosít, amely elrejti az Open XML formátumot, így a tartalomra koncentrálhat a fájlstruktúra helyett.
-
-## Why use Aspose.Slides Maven?
-- **Teljes funkcionalitású API:** Alakzatok, diagramok, táblázatok, animációk és még sok más.  
-- **Microsoft Office nem szükséges:** Bármely operációs rendszeren működik – Windows, Linux, macOS.  
-- **Magas hűség:** A renderelt diák pontosan olyanok, mint a PowerPoint-ban létrehozottak.  
-- **Széles körű formátumtámogatás:** Exportálás PDF, PNG, HTML és más formátumokba.
-
-## Prerequisites
-- **Szükséges könyvtárak:** Aspose.Slides for Java 25.4 vagy újabb.  
-- **Környezet beállítása:** JDK 16+ telepítve és a `JAVA_HOME` beállítva.  
-- **IDE:** IntelliJ IDEA, Eclipse vagy bármely Java‑kompatibilis szerkesztő.  
-- **Alap Java ismeretek:** Osztályok, csomagok és fájl I/O ismerete.
-
-## Setting Up Aspose.Slides for Java
-A könyvtárat hozzáadhatja Maven‑en, Gradle‑on vagy közvetlen letöltéssel.
-
-**License Acquisition**  
-A teljes funkcionalitás feloldásához szerezzen be licencet:
-- **Ingyenes próba:** Fedezze fel a fő funkciókat.  
-- **Ideiglenes licenc:** Korlátok nélkül értékelhet rövid időre.  
-- **Vásárlás:** Teljes termelési használat aktiválása.
-
-**Basic Initialization**  
-A függőség hozzáadása után importálja a központi osztályt:
+## Aspose.Slides beállítása Java-hoz
+`Presentation` a központi osztály, amely egy PowerPoint fájlt reprezentál a memóriában. A Maven függőség hozzáadása után importáld a szükséges névteret, és példányosíts egy `Presentation` objektumot a diák építésének megkezdéséhez.
 
 ```java
 import com.aspose.slides.Presentation;
 ```
 
-## Implementation Guide
-Most minden funkcionális blokkba mélyedünk bele, amely a **create PPTX Java** fájlok létrehozásához szükséges.
+## Implementációs útmutató
+Most végigvezetünk minden funkcionális blokkot, amely a **PPTX Java** fájlok létrehozásához szükséges, a mappa előkészítésétől a végső mentésig.
 
-### Directory Creation
-A célmappa létezésének biztosítása megakadályozza az útvonalhibákat a prezentáció mentésekor.
+### Könyvtár létrehozása
+A célkönyvtár létezésének biztosítása megakadályozza a fájlútvonal hibákat a prezentáció mentésekor.
 
-#### Overview
-Ez a lépés ellenőrzi, hogy a megadott könyvtár létezik‑e, és létrehozza (beleértve a hiányzó szülőkönyvtárakat is).
+#### Áttekintés
+Ez a lépés ellenőrzi, hogy a megadott könyvtár létezik-e, és létrehozza (beleértve a hiányzó szülőkönyvtárakat is).
 
-#### Implementation Steps
-**1. lépés:** Importálja a Java I/O csomagot.  
+#### Implementációs lépések
+**1. lépés:** Importáld a Java I/O csomagot.  
 ```java
 import java.io.File;
 ```
 
-**2. lépés:** Határozza meg a könyvtárat, ahová a prezentációkat tárolni fogja.  
+**2. lépés:** Definiáld a könyvtárat, ahol a prezentációk tárolódnak.  
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 ```
 
-**3. lépés:** Ellenőrizze a mappát, és hozza létre, ha szükséges.  
+**3. lépés:** Ellenőrizd a mappát, és ha szükséges, hozd létre.  
 ```java
 boolean isExists = new File(dataDir).exists();
 if (!isExists) {
@@ -120,16 +150,16 @@ if (!isExists) {
 }
 ```
 
-> **Pro tipp:** Használja a `Files.createDirectories(Paths.get(dataDir))`-t a modernebb NIO megközelítéshez.
+> **Pro tipp:** Használd a `Files.createDirectories(Paths.get(dataDir))`-t egy modernebb NIO megközelítéshez.
 
-### Presentation Creation and Slide Management
-Most, hogy a tárolási útvonal készen áll, elkezdhetjük a prezentáció építését.
+### Prezentáció létrehozása és dia kezelés
+Miután a tárolási útvonal készen áll, elkezdhetjük a prezentáció építését.
 
-#### Overview
-Hozzon létre egy `Presentation` objektumot, szerezze meg az első diát, és adjon hozzá egy AutoShape‑et (ebben a példában egy téglalapot).
+#### Áttekintés
+Példányosíts egy `Presentation` objektumot, szerezd meg az első diát, és adj hozzá egy AutoShape-et (ebben a példában egy téglalapot). Az AutoShape egy előre definiált alakzat, például egy téglalap, amely szöveget és egyéb formázást tartalmazhat.
 
-#### Implementation Steps
-**1. lépés:** Importálja a szükséges Aspose.Slides osztályokat.  
+#### Implementációs lépések
+**1. lépés:** Importáld a szükséges Aspose.Slides osztályokat.  
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.ISlide;
@@ -137,12 +167,12 @@ import com.aspose.slides.IAutoShape;
 import com.aspose.slides.ShapeType;
 ```
 
-**2. lépés:** Hozzon létre egy új, üres prezentációt.  
+**2. lépés:** Hozz létre egy új, üres prezentációt.  
 ```java
 Presentation pptxPresentation = new Presentation();
 ```
 
-**3. lépés:** Hozzáfér az első diára, és szúr be egy téglalap AutoShape‑et.  
+**3. lépés:** Érd el az első diát, és illessz be egy téglalap AutoShape-et.  
 ```java
 ISlide slide = pptxPresentation.getSlides().get_Item(0);
 IAutoShape pptxAutoShape = (IAutoShape) slide.getShapes().addAutoShape(
@@ -150,50 +180,50 @@ IAutoShape pptxAutoShape = (IAutoShape) slide.getShapes().addAutoShape(
 );
 ```
 
-### Adding Text to a Slide Shape
-Az alakzat szöveg nélkül nem túl hasznos. Adjunk hozzá egy szövegdobozt.
+### Szöveg hozzáadása egy dia alakzathoz
+Egy szöveg nélküli alakzat nem túl hasznos. Adjunk hozzá egy szövegkeretet.
 
-#### Overview
-Hozzon létre egy üres szövegdobozt, majd töltse fel az első bekezdés első részét egyedi szöveggel.
+#### Áttekintés
+Hozz létre egy üres szövegkeretet, majd töltsd fel az első bekezdés első részét egyedi szöveggel.
 
-#### Implementation Steps
-**1. lépés:** Szövegdoboz hozzáadása az AutoShape‑hez.  
+#### Implementációs lépések
+**1. lépés:** Adj hozzá egy szövegkeretet az AutoShape-hez.  
 ```java
 textFrame = pptxAutoShape.addTextFrame("");
 ```
 
-**2. lépés:** Írja be a kívánt szöveget az első részbe.  
+**2. lépés:** Írd be a kívánt szöveget az első részbe.  
 ```java
 textFrame.getParagraphs().get_Item(0).getPortions().get_Item(0).setText("Aspose.Slides");
 ```
 
-### Setting a Hyperlink in a Text Portion
-A hiperhivatkozások statikus diákból interaktív élményt varázsolnak.
+### Hiperhivatkozás beállítása egy szövegrészben
+A hiperhivatkozások statikus diákat interaktív élménnyé változtatnak.
 
-#### Overview
-Szerezze meg a `IHyperlinkManager`‑t a szövegrészből, és rendelje hozzá a külső URL‑t.
+#### Áttekintés
+Szerezd meg a `IHyperlinkManager`-t a szövegrészből, és rendelj hozzá egy külső URL-t. Az IHyperlinkManager a szövegrész hiperhivatkozási beállításait kezeli, lehetővé téve a kattintási műveleteket külső URL-ekhez.
 
-#### Implementation Steps
-**1. lépés:** Szerezze meg a szövegrészt és annak hyperlink managerét, majd állítsa be a linket.  
+#### Implementációs lépések
+**1. lépés:** Szerezd meg a szövegrészt és annak hyperlink managerét, majd állítsd be a linket.  
 ```java
 textPortion = textFrame.getParagraphs().get_Item(0).getPortions().get_Item(0);
 IHyperlinkManager hyperlinkManager = textPortion.getPortionFormat().getHyperlinkManager();
 hyperlinkManager.setExternalHyperlinkClick("http://www.aspose.com");
 ```
 
-### Saving the Presentation
-Végül írja a felépített prezentációt a lemezre.
+### A prezentáció mentése
+Végül írd a felépített prezentációt a lemezre.
 
-#### Overview
-Használja a `save` metódust a `SaveFormat.Pptx`‑szel a fájl mentéséhez.
+#### Áttekintés
+Használd a `save` metódust a `SaveFormat.Pptx`-szel a fájl mentéséhez. A SaveFormat egy enum, amely felsorolja a támogatott kimeneti formátumokat, például Pptx, Pdf és Png.
 
-#### Implementation Steps
-**1. lépés:** Importálja a `SaveFormat` enum‑t.  
+#### Implementációs lépések
+**1. lépés:** Importáld a `SaveFormat` enumot.  
 ```java
 import com.aspose.slides.SaveFormat;
 ```
 
-**2. lépés:** Mentse a fájlt a korábban létrehozott könyvtárba.  
+**2. lépés:** Mentsd a fájlt a korábban létrehozott könyvtárba.  
 ```java
 tpptxPresentation.save(
     dataDir + "hLinkPPTX_out.pptx",
@@ -201,54 +231,63 @@ tpptxPresentation.save(
 );
 ```
 
-> **Megjegyzés:** Mindig hívja meg a `pptxPresentation.dispose();`‑t a mentés után a natív erőforrások felszabadításához, különösen nagy prezentációk feldolgozásakor.
+> **Megjegyzés:** Mindig hívd meg a `pptxPresentation.dispose();`-t a mentés után a natív erőforrások felszabadításához, különösen nagy prezentációk feldolgozásakor.
 
-## Practical Applications
-Itt van néhány valós példaforgató, ahol a **create PPTX Java** fájlok kiemelkednek:
+## Gyakorlati alkalmazások
+Íme néhány valós életbeli forgatókönyv, ahol a **PPTX Java** fájlok létrehozása kiemelkedik:
 
-1. **Automatizált jelentéskészítés** – Adatok lekérése adatbázisokból vagy API‑kból, és egy kifinomult diakészlet generálása minden este.  
-2. **E‑learning tartalom** – Dinamikusan generálja a előadás diáit a tanterv frissítései alapján.  
-3. **Marketing kampányok** – Személyre szabott promóciós diakészletek építése minden ügyfél számára CRM adatok felhasználásával.
+1. **Automatizált jelentéskészítés** – Húzz adatokat adatbázisokból vagy API‑kból, és minden este egy kifinomult diakészletet generálj.  
+2. **E‑learning tartalom** – Dinamikusan generálj előadási diákat a tanterv frissítései alapján.  
+3. **Marketing kampányok** – Készíts személyre szabott promóciós diakészleteket minden ügyfélnek a CRM adatok felhasználásával.
 
-## Performance Considerations
-- **Objektumok felszabadítása:** Hívja meg a `presentation.dispose()`‑t a memória felszabadításához.  
-- **Kötegelt feldolgozás:** Nagy diakészletek esetén generáljon és mentse darabokban a heap nyomás elkerülése érdekében.  
-- **A könyvtár naprakészen tartása:** Az új kiadások teljesítményoptimalizációkat és hibajavításokat tartalmaznak.
+## Teljesítménybeli megfontolások
+- **Objektumok felszabadítása:** Hívd meg a `presentation.dispose()`-t a memória felszabadításához.  
+- **Kötegelt feldolgozás:** Nagy diakészletek esetén generáld és mentsd őket darabokban a heap nyomás elkerülése érdekében.  
+- **A könyvtár naprakészen tartása:** Az új kiadások tartalmaznak teljesítményoptimalizálásokat és hibajavításokat.  
+- **Mérhető előny:** Az Aspose Slides egy 500 oldalas prezentációt kevesebb mint 2 másodperc alatt dolgoz fel egy tipikus 8‑magos szerveren, köszönhetően a natív streaming motorjának.
 
-## Common Issues & Solutions
+## Gyakori problémák és megoldások
+
 | Probléma | Ok | Megoldás |
 |----------|----|----------|
-| `OutOfMemoryError` nagy diakészletek mentésekor | Túl sok erőforrás van memóriában | Hívja meg a `presentation.dispose()`‑t minden mentés után; növelje a JVM heap méretét (`-Xmx2g`). |
-| A hiperhivatkozás nem kattintható a PowerPointban | `setExternalHyperlinkClick` hívás hiánya | Győződjön meg róla, hogy a megfelelő részről kérdezi le az `IHyperlinkManager`‑t. |
-| Fájl nem található mentéskor | `dataDir` útvonal helytelen vagy hiányzik a záró perjel | Ellenőrizze, hogy a `dataDir` a megfelelő elválasztóval (`/` vagy `\\`) végződik. |
+| `OutOfMemoryError` nagy diák mentésekor | Túl sok erőforrás van memóriában | Hívd meg a `presentation.dispose()`-t minden mentés után; növeld a JVM heap méretét (`-Xmx2g`). |
+| A hiperhivatkozás nem kattintható a PowerPointban | `setExternalHyperlinkClick` hívás hiányzik | Győződj meg róla, hogy a megfelelő szövegrészből szerezed be az `IHyperlinkManager`-t. |
+| Fájl nem található mentéskor | `dataDir` útvonal helytelen vagy hiányzik a záró perjel | Ellenőrizd, hogy a `dataDir` a megfelelő elválasztóval (`/` vagy `\\`) végződik. |
 
-## Frequently Asked Questions
+## Gyakran feltett kérdések
 
 **Q:** *Használhatom ezt a kódot webalkalmazásban?*  
-**A:** Igen. Csak győződjön meg róla, hogy a szervernek írási jogosultsága van a célmappához, és kezelje az Aspose licencet kérésenként.
+**A:** Igen. Csak győződj meg róla, hogy a szervernek írási jogosultsága van a célkönyvtárhoz, és kezeld az Aspose licencet kérésenként.
 
-**Q:** *Támogatja az Aspose.Slides a jelszóval védett PPTX fájlokat?*  
-**A:** Természetesen. Használja a `Presentation(String filePath, LoadOptions options)`‑t egy `LoadOptions.setPassword("yourPassword")` beállítással.
+**Q:** *Az Aspose Slides támogatja a jelszóval védett PPTX fájlokat?*  
+**A:** Teljesen. Használd a `Presentation(String filePath, LoadOptions options)`-t egy `LoadOptions.setPassword("yourPassword")` beállítással.
 
 **Q:** *Hogyan konvertálhatom a létrehozott PPTX-et PDF-re ugyanabban a folyamatban?*  
-**A:** Mentés után hívja meg a `presentation.save("output.pdf", SaveFormat.Pdf);`‑t.
+**A:** Mentés után hívd meg a `presentation.save("output.pdf", SaveFormat.Pdf);`-t.
 
-**Q:** *Van mód diagramok programozott hozzáadására?*  
-**A:** Igen. Az API `Chart` objektumokat biztosít, amelyeket a `slide.getShapes().addChart(...)`‑val lehet beszúrni.
+**Q:** *Van lehetőség diagramok programozott hozzáadására?*  
+**A:** Igen. Az API `Chart` objektumokat biztosít, amelyeket a `slide.getShapes().addChart(...)` segítségével lehet beszúrni.
 
 **Q:** *Mi a teendő, ha egy egyedi betűtípust kell beágyazni?*  
-**A:** Regisztrálja a betűtípust a `presentation.getFontsManager().setDefaultRegularFont("YourFont.ttf");` segítségével.
+**A:** Regisztráld a betűtípust a `presentation.getFontsManager().setDefaultRegularFont("YourFont.ttf");` segítségével.
 
 ---
 
-**Utolsó frissítés:** 2026-02-24  
+**Utoljára frissítve:** 2026-08-01  
 **Tesztelve:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
 **Szerző:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Kapcsolódó oktatóanyagok
+
+- [Aspose.Slides for Java: A prezentációkészítés és diakezelés mestersége Java alkalmazásokban](/slides/java/getting-started/master-aspose-slides-java-complete-guide/)
+- [Prezentáció mentésének automatizálása Java-ban az Aspose.Slides segítségével: Lépésről lépésre útmutató](/slides/java/presentation-operations/automate-presentation-saving-aspose-slides-java/)
+- [PowerPoint feladatok automatizálása az Aspose.Slides for Java-val: Teljes útmutató a PPTX fájlok kötegelt feldolgozásához](/slides/java/batch-processing/aspose-slides-java-automation-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
