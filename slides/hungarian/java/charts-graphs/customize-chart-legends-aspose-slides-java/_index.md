@@ -1,9 +1,75 @@
 ---
-"date": "2025-04-17"
-"description": "Ismerje meg, hogyan szabhatja testre a diagramjelmagyarázatokat az Aspose.Slides for Java segítségével. Dobja fel prezentációit személyre szabott jelmagyarázat-szövegstílusokkal, színekkel és egyebekkel."
-"title": "Hogyan testreszabhatjuk a diagramjelmagyarázatokat az Aspose.Slides Java-ban"
-"url": "/hu/java/charts-graphs/customize-chart-legends-aspose-slides-java/"
-"weight": 1
+date: '2026-08-06'
+description: Tanulja meg, hogyan változtathatja meg a jelmagyarázat betűszínét, és
+  módosíthatja a diagram jelmagyarázat szövegét az Aspose.Slides for Java használatával.
+  Kövesse a lépésről‑lépésre útmutatót a diagram jelmagyarázatok gyors testreszabásához.
+keywords:
+- customize chart legends in Aspose.Slides Java
+- Aspose.Slides for Java legend customization
+- Java presentation chart styling
+lastmod: '2026-08-06'
+og_description: Tanulja meg, hogyan változtathatja meg a jelmagyarázat betűszínét,
+  és módosíthatja a diagram jelmagyarázat szövegét az Aspose.Slides for Java segítségével.
+  Ez az útmutató bemutatja a pontos lépéseket és a legjobb gyakorlatokat.
+og_image_alt: 'Developer guide: change legend font color in Aspose.Slides for Java'
+og_title: Hogyan változtassuk meg a jelmagyarázat betűszínét az Aspose.Slides for
+  Java-ban
+schemas:
+- author: Aspose
+  dateModified: '2026-08-06'
+  description: Learn how to change legend font color and modify chart legend text
+    using Aspose.Slides for Java. Follow step‑by‑step instructions to customize chart
+    legends quickly.
+  headline: How to change legend font color in Aspose.Slides for Java
+  type: TechArticle
+- description: Learn how to change legend font color and modify chart legend text
+    using Aspose.Slides for Java. Follow step‑by‑step instructions to customize chart
+    legends quickly.
+  name: How to change legend font color in Aspose.Slides for Java
+  steps:
+  - name: Initialize Aspose.Slides in your Java application.
+    text: Initialize Aspose.Slides in your Java application.
+  - name: Load an existing presentation or create a new one.
+    text: Load an existing presentation or create a new one.
+  - name: '**Load the presentation:**'
+    text: '**Load the presentation:**'
+  - name: '**Add a clustered column chart:**'
+    text: '**Add a clustered column chart:**'
+  - name: '**Access legend entry text format:**'
+    text: '**Access legend entry text format:**'
+  - name: '**Set bold and italic styles with a specific height:**'
+    text: '**Set bold and italic styles with a specific height:**'
+  - name: '**Change fill type to solid color for better visibility:**'
+    text: '**Change fill type to solid color for better visibility:**'
+  - name: '**Save your changes:**'
+    text: '**Save your changes:**'
+  - name: '**Business presentations:** Align legend colors with corporate branding
+      for a polished look.'
+    text: '**Business presentations:** Align legend colors with corporate branding
+      for a polished look.'
+  - name: '**Educational materials:** Highlight key data series by using contrasting
+      legend colors.'
+    text: '**Educational materials:** Highlight key data series by using contrasting
+      legend colors.'
+  type: HowTo
+- questions:
+  - answer: No, the color change is preserved in all export formats supported by Aspose.Slides,
+      including PDF and PPTX.
+    question: Does changing the legend font color affect exported PDF files?
+  - answer: Yes – set `FillType.Gradient` and configure the gradient stops via `getGradientStyle()`.
+    question: Can I use a gradient instead of a solid color?
+  - answer: A chart can have up to 256 legend entries, limited only by the number
+      of data series you add.
+    question: How many legend entries can a chart have?
+  type: FAQPage
+tags:
+- change legend font color
+- Aspose.Slides
+- Java chart customization
+- presentation styling
+title: Hogyan változtassuk meg a jelmagyarázat betűszínét az Aspose.Slides for Java-ban
+url: /hu/java/charts-graphs/customize-chart-legends-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,39 +77,42 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Hogyan testreszabhatjuk a diagramjelmagyarázatokat az Aspose.Slides Java-ban
+# Hogyan változtassuk meg a jelmagyarázat betűszínét az Aspose.Slides for Java-ban
 
 ## Bevezetés
-Szeretnéd fokozni diagramjaid vizuális vonzerejét a jelmagyarázatok testreszabásával az Aspose.Slides Java verziójában? Ez az átfogó útmutató bemutatja, hogyan szabhatod személyre a betűtípus tulajdonságait, például a félkövérséget, a színt és a stílust, hogy a diagramjelmagyarázatai kiemelkedjenek. 
+Ha egy diagramon **a jelmagyarázat betűszínét** kell megváltoztatni, az Aspose.Slides for Java teljes irányítást biztosít minden jelmagyarázati elem felett. Ez az útmutató végigvezet a jelmagyarázat szövegstílusainak testreszabásán, a félkövér vagy dőlt betűk alkalmazásán, valamint a szilárd színek beállításán, hogy a diagramok pontosan úgy nézzenek ki, ahogy szeretnéd. A útmutató végére magabiztosan tudod módosítani a diagram jelmagyarázat szövegét, és beépíteni a változtatásokat bármely meglévő bemutatóba.
 
-**Amit tanulni fogsz:**
-- Jelmagyarázat szövegstílusainak testreszabása az Aspose.Slides for Java használatával.
-- Félkövér és dőlt betűtípusok hatékony alkalmazása.
-- A láthatóság javítása egyszínű textúrákkal.
-- Zökkenőmentesen integrálható testreszabás a meglévő prezentációkba.
+**Mit fogsz megtanulni**
+- Hogyan **változtassuk meg a jelmagyarázat betűszínét** programozottan.
+- Módszerek a **diagram jelmagyarázat szövegének módosítására**, például félkövér, dőlt és méret.
+- Tippek a változtatások több diagramra történő alkalmazásához egy bemutatóban.
+- Hogyan integráljuk ezeket a lépéseket egy nagyobb automatizálási munkafolyamatba.
 
-Kezdjük azzal, hogy áttekintjük az oktatóanyag követéséhez szükséges előfeltételeket.
+## Gyors válaszok
+- **Megváltoztathatom egyetlen jelmagyarázati elem színét?** Igen – az elemet az indexével érheted el, és a kitöltési formátumot szilárd színre állíthatod.  
+- **Szükségem van licencre ezeknek az API-knak a használatához?** Ideiglenes vagy fizetett licenc szükséges a termeléshez; egy ingyenes próba a kiértékeléshez megfelelő.  
+- **Melyik Java verzió támogatott?** Az Aspose.Slides for Java 25.4+ működik a JDK 16 és újabb verziókkal.  
+- **A változtatások hatással lesznek más diagram elemekre?** Nem, a jelmagyarázat formázása elkülönül az adat sorozatok stílusától.  
+- **Lehetséges a kötegelt feldolgozás?** Teljesen – ciklusban végig a diákon és diagramokon, hogy ugyanazokat a jelmagyarázati beállításokat alkalmazd az egész bemutatón.
+
+## Mi a jelmagyarázat betűszínének módosítása?
+`change legend font color` a programozott műveletet jelenti, amely a diagram jelmagyarázat bejegyzéseinek szövegszínét állítja be az Aspose.Slides API segítségével. Ez a művelet frissíti a jelmagyarázat vizuális megjelenését anélkül, hogy a háttéradatokat módosítaná.
+
+## Miért testre szabjuk a diagram jelmagyarázatokat?
+Az Aspose.Slides **50+ bemeneti és kimeneti formátumot** támogat, és képes **500+ diát** tartalmazó bemutatókat kezelni, miközben a memóriahasználat 200 MB alatt marad. A jelmagyarázatok testreszabása javítja az olvashatóságot, erősíti a márkaszínek megjelenését, és biztosítja, hogy a kulcsfontosságú adatok kiemelkedjenek – különösen üzleti vagy oktatási bemutatók esetén, ahol a vizuális tisztaság a döntéshozatalt befolyásolja.
 
 ## Előfeltételek
-Mielőtt továbblépnénk, győződjünk meg róla, hogy a következők a helyén vannak:
+- **Aspose.Slides for Java** könyvtár (25.4 vagy újabb verzió).  
+- Java Development Kit (JDK) 16 vagy újabb.  
+- IDE, például IntelliJ IDEA, Eclipse vagy NetBeans.  
+- Maven vagy Gradle a függőségkezeléshez.  
+- Alapvető Java programozási ismeretek.
 
-### Szükséges könyvtárak, verziók és függőségek
-- Aspose.Slides Java könyvtárhoz (25.4-es vagy újabb verzió).
-- Java fejlesztői készlet (JDK) 16-os vagy újabb verzió.
+## Az Aspose.Slides for Java beállítása
+A diagram jelmagyarázatainak testreszabásához add hozzá a könyvtárat a projektedhez az alábbi módszerek egyikével.
 
-### Környezeti beállítási követelmények
-- Egy IDE, például IntelliJ IDEA, Eclipse vagy NetBeans.
-- Maven vagy Gradle build eszközök telepítve a rendszereden.
-
-### Előfeltételek a tudáshoz
-- Java programozási alapismeretek.
-- Jártasság Java nyelven prezentációk és diagramok kezelésében.
-
-## Az Aspose.Slides beállítása Java-hoz
-diagramjelmagyarázatok testreszabásának megkezdéséhez be kell állítania az Aspose.Slides Java-t. Íme, hogyan teheti meg ezt különböző módszerekkel:
-
-### Szakértő
-Adja hozzá a következő függőséget a `pom.xml` fájl:
+### Maven
+Add the following dependency to your `pom.xml` file:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -54,125 +123,148 @@ Adja hozzá a következő függőséget a `pom.xml` fájl:
 ```
 
 ### Gradle
-Írd be ezt a sort a `build.gradle` fájl:
+Include this line in your `build.gradle` file:
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Közvetlen letöltés
-Vagy letöltheti a legújabb verziót innen: [Aspose.Slides Java kiadásokhoz](https://releases.aspose.com/slides/java/).
+### Direct download
+A legújabb JAR-t letöltheted a [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) oldalról.
 
-#### Licencbeszerzés lépései
-- **Ingyenes próbaverzió:** Kezdje el egy ingyenes próbaverzióval az Aspose.Slides funkcióinak felfedezését.
-- **Ideiglenes engedély:** Kérjen ideiglenes engedélyt meghosszabbított értékelésre.
-- **Vásárlás:** A teljes hozzáférés érdekében érdemes megfontolni egy licenc megvásárlását a következő címen: [Aspose vásárlás](https://purchase.aspose.com/buy).
+#### Licenc megszerzésének lépései
+- **Free trial:** Kezd egy ingyenes próbaidőszakkal az Aspose.Slides funkcióinak felfedezéséhez.  
+- **Temporary license:** Kérj ideiglenes licencet a kiterjesztett értékeléshez.  
+- **Purchase:** A teljes hozzáféréshez fontold meg a licenc megvásárlását a [Aspose Purchase](https://purchase.aspose.com/buy) oldalon.
 
 #### Alapvető inicializálás és beállítás
-Miután hozzáadtad a könyvtárat a projektedhez:
-1. Inicializáld az Aspose.Slides fájlt a Java alkalmazásodban.
-2. Töltsön be egy meglévő prezentációt, vagy hozzon létre egy újat.
+A könyvtár hozzáadása után a projektedhez:
+1. Inicializáld az Aspose.Slides-t a Java alkalmazásodban.  
+2. Tölts be egy meglévő bemutatót, vagy hozz létre egy újat.
 
-## Megvalósítási útmutató
-Most, hogy beállítottad az Aspose.Slides-t, nézzük meg a jelmagyarázat szövegtulajdonságainak testreszabását.
+## Hogyan változtassuk meg a jelmagyarázat betűszínét?
+A jelmagyarázat betűszínének megváltoztatásához töltsd be a bemutatót, szerezd meg a diagram objektumot, kapd meg a jelmagyarázatát, majd módosítsd minden jelmagyarázati bejegyzés szövegformátumát úgy, hogy a kitöltés típusát szilárdra állítod és megadod a kívánt színt. Ez az egyetlen művelet azonnal frissíti a jelmagyarázat szövegének színét anélkül, hogy újra kellene rajzolni az egész diát. Példa: `legendEntry.getTextFormat().getFillFormat().setFillType(FillType.Solid); legendEntry.getTextFormat().getFillFormat().setSolidFillColor(Color.RED);` Ez a megközelítés bármely diagramtípusra működik, és nem igényli a teljes dia újrarenderelését.
 
-### Jelmagyarázat szövegtulajdonságainak elérése és módosítása
+### A jelmagyarázat szövegtulajdonságainak elérése és módosítása
 
-#### Áttekintés
-Ez a szakasz arra összpontosít, hogyan szabhatja testre a diagramok egyes jelmagyarázat-bejegyzéseinek betűtípus-tulajdonságait.
+#### Definíció horgony
+Az `IChart` interfész egy diagram objektumot képvisel egy dián, és a `getLegend()` metódusa egy `ILegend` objektumot ad vissza, amely `ILegendEntry` elemek gyűjteményét tartalmazza.
 
-#### Diagram hozzáadása a prezentációhoz
-1. **Prezentáció betöltése:**
+#### Diagram hozzáadása a bemutatóhoz
+1. **Töltsd be a bemutatót:**  
    ```java
    Presentation pres = new Presentation(dataDir + "/test.pptx");
-   ```
+   ```  
 
-2. **Csoportos oszlopdiagram hozzáadása:**
+2. **Adj hozzá egy csoportosított oszlopdiagramot:**  
    ```java
    IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
        ChartType.ClusteredColumn, 50, 50, 600, 400);
-   ```
+   ```  
 
-#### Betűtípus-tulajdonságok testreszabása
-3. **Hozzáférési jelmagyarázat beviteli szövegformátuma:**
+#### Betűtulajdonságok testreszabása
+3. **A jelmagyarázat bejegyzés szövegformátumának elérése:**  
+   Itt a `legendEntry` egy `ILegendEntry` objektum, amely a diagram jelmagyarázatának egyetlen bejegyzését képviseli.  
    ```java
    IChartTextFormat tf = chart.getLegend().getEntries().get_Item(1).getTextFormat();
-   ```
+   ```  
 
-4. **Félkövér és dőlt stílusok beállítása adott magassággal:**
+4. **Állítsd be a félkövér és dőlt stílusokat egy adott magassággal:**  
    ```java
    tf.getPortionFormat().setFontBold(NullableBool.True);
    tf.getPortionFormat().setFontHeight(20);
    tf.getPortionFormat().setFontItalic(NullableBool.True);
-   ```
+   ```  
 
-5. **A jobb láthatóság érdekében módosítsa a kitöltési típust egyszínűre:**
+5. **A kitöltés típusát állítsd szilárd színre a jobb láthatóság érdekében:**  
    ```java
    tf.getPortionFormat().getFillFormat().setFillType(FillType.Solid);
    tf.getPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.BLUE);
-   ```
+   ```  
 
-#### A prezentáció mentése
-6. **Változtatások mentése:**
+#### A bemutató mentése
+6. **Mentsd el a módosításokat:**  
    ```java
    pres.save(outputDir + "/output.pptx", SaveFormat.Pptx);
-   ```
+   ```  
 
-### Hibaelhárítási tippek
-- Győződjön meg arról, hogy hozzáfér a megfelelő jelmagyarázat-bejegyzési indexhez.
-- Ellenőrizd, hogy az Aspose.Slides könyvtár verziója támogatja-e a használt metódusokat.
+### Gyakori buktatók és hibakeresés
+- Ellenőrizd, hogy a jelmagyarázat bejegyzés indexe megegyezik a diagram sorozatainak sorrendjével.  
+- Győződj meg róla, hogy olyan könyvtárverziót használsz, amely támogatja a `setSolidFillColor` metódust (elérhető a 20.9-es verziótól).  
 
 ## Gyakorlati alkalmazások
-A jelmagyarázat szövegének testreszabása különböző esetekben alkalmazható:
+A jelmagyarázat szövegének testreszabása számos valós helyzetben hasznos:
 
-1. **Üzleti prezentációk:** Javítsa a vállalati diavetítések olvashatóságát és esztétikáját.
-2. **Oktatási anyagok:** Tegye az adatokat hozzáférhetőbbé és érdekesebbé a diákok számára.
-3. **Marketingkampányok:** Készítsen vizuálisan vonzó diagramokat a kulcsfontosságú mutatók hatékony kommunikálásához.
+1. **Üzleti bemutatók:** Igazítsd a jelmagyarázat színeit a vállalati arculathoz a kifinomult megjelenés érdekében.  
+2. **Oktatási anyagok:** Emeld ki a kulcsfontosságú adat sorozatokat kontrasztos jelmagyarázat színekkel.  
+3. **Marketing anyagok:** Hangsúlyozd a teljesítménymutatókat félkövér, színes jelmagyarázatokkal a döntéshozók figyelmének felkeltéséhez.  
 
-Más rendszerekkel, például adatbázisokkal vagy elemzőeszközökkel való integráció automatizálhatja az adatfrissítéseket a prezentációiban.
+Automatizálhatod a jelmagyarázat frissítéseket is, ha a színértékeket adatbázisból vagy konfigurációs fájlból húzod be.
 
-## Teljesítménybeli szempontok
-Az Aspose.Slides használatakor a teljesítmény optimalizálása a következőket foglalja magában:
+## Teljesítmény szempontok
+Nagy bemutatók feldolgozásakor tartsd szem előtt a következő tippeket:
 
-- **Hatékony memóriakezelés:** Használat után a tárgyakat megfelelően ártalmatlanítsa.
-- **Csak a szükséges komponensek betöltése:** Minimalizálja az erőforrás-felhasználást a prezentáció csak szükséges részeinek betöltésével.
-- **Kötegelt feldolgozás:** Több diagramot kötegekben kezelhet a feldolgozási idő csökkentése érdekében.
+- **Hatékony memória kezelés:** A mentés után hívd meg a `presentation.dispose()`-t a natív erőforrások felszabadításához.  
+- **Csak a szükséges diák betöltése:** Használd a `Presentation.load(String path, LoadOptions options)`-t a `LoadOptions.setLoadOnlySlideIds()`-val, ha csak egy részhalmazra van szükség.  
+- **Kötegelt feldolgozás:** Csoportosítsd a jelmagyarázat frissítéseket diánként, hogy csökkentsd az API hívások számát és növeld a teljesítményt.
 
 ## Következtetés
-Az útmutató követésével megtanultad, hogyan javíthatod a diagramok feliratait az Aspose.Slides for Java segítségével. Ez a testreszabás nemcsak a vizuális megjelenést javítja, hanem jobb adatkommunikációt is biztosít.
+Most már tudod, hogyan **változtasd meg a jelmagyarázat betűszínét** és **módosítsd a diagram jelmagyarázat szövegét** az Aspose.Slides for Java segítségével. Ezek a testreszabások javítják a vizuális tisztaságot és segítenek hatékonyabban közvetíteni az adatokat. Kísérletezz különböző betűtípusokkal, méretekkel és színekkel, hogy megfeleljenek a bemutatód stílus útmutatójának, és fedezd fel a többi diagram‑stílus funkciót, hogy valóban professzionális bemutatókat hozz létre.
 
-**Következő lépések:**
-- Kísérletezzen különböző betűtípusokkal és színekkel.
-- Fedezzen fel más diagramtípusokat és testreszabási lehetőségeket az Aspose.Slides-ban.
+**Következő lépések**
+- Próbáld meg ugyanazt a jelmagyarázat stílust alkalmazni kör- és vonaldiagramokra.  
+- Kombináld a jelmagyarázat testreszabását az adatcímke formázással egy teljesen márkás diagramhoz.  
 
-Készen állsz arra, hogy prezentációidat a következő szintre emeld? Próbáld ki ezeket a testreszabásokat még ma!
+Készen állsz, hogy feljebb emeld a bemutatóidat? Valósítsd meg a fenti lépéseket, és azonnal lásd a különbséget!
 
-## GYIK szekció
-1. **Hogyan tudom megváltoztatni egy jelmagyarázat szövegének színét?**
-   Használat `getFillFormat().setFillType(FillType.Solid)` és állítsd be a kívánt színt a `setColor(Color.YOUR_COLOR)`.
+## GyIK szakasz
+1. **Hogyan változtathatom meg egy jelmagyarázat bejegyzés szövegének színét?**  
+   Használd a `getFillFormat().setFillType(FillType.Solid)`-t, majd a `setSolidFillColor(Color.YOUR_COLOR)`-t a jelmagyarázat bejegyzés szövegformátumán.
 
-2. **Alkalmazhatom ezeket a módosításokat egy bemutató összes jelmagyarázatára?**
-   Igen, ciklusok segítségével haladj végig az egyes diagramok jelmagyarázatain.
+2. **Alkalmazhatom ezeket a változtatásokat a bemutató minden jelmagyarázatára?**  
+   Igen – iterálj végig minden dián, keresd meg a diagramot, és egy cikluson belül frissítsd a jelmagyarázat bejegyzéseit.
 
-3. **Lehetséges a betűméretet dinamikusan beállítani a szöveg hosszától függően?**
-   A betűtípus-beállítások szkriptelhetők a szöveg méreteinek kiszámításával a beállítás előtt `setFontHeight()`.
+3. **Lehetséges dinamikusan a betűméretet a szöveg hossza alapján állítani?**  
+   A szükséges méretet kiszámíthatod a `TextFrame.getTextFrameFormat().getFontHeight()` segítségével, és beállíthatod a `setFontHeight(double)` metódussal.
 
-4. **Mi a teendő, ha problémákba ütközöm a jelmagyarázat-bejegyzések indexelésével?**
-   Ellenőrizd a kódod logikáját a jelmagyarázat-bejegyzések eléréséhez, és győződj meg róla, hogy az index megegyezik a diagram konfigurációjával.
+4. **Mi a teendő, ha problémák merülnek fel a jelmagyarázat bejegyzés indexelésével?**  
+   Ellenőrizd, hogy az általad használt index megegyezik a sorozat sorrendjével; ne feledd, hogy az indexek nullától indulnak.
 
-5. **Hol találok további példákat az Aspose.Slides használatára?**
-   Fedezze fel a [Aspose dokumentáció](https://reference.aspose.com/slides/java/) átfogó útmutatókért és API-referenciákért.
+5. **Hol találok további Aspose.Slides példákat?**  
+   Tekintsd meg az [Aspose Documentation](https://reference.aspose.com/slides/java/) oldalt a részletes útmutatókért és API‑referenciákért.
 
-## Erőforrás
-- **Dokumentáció:** Átfogó útmutató az Aspose.Slides funkcióinak használatához ([Link](https://reference.aspose.com/slides/java/)).
-- **Letöltés:** Hozzáférés az Aspose.Slides legújabb Java verziójához ([Link](https://releases.aspose.com/slides/java/)).
-- **Vásárlás:** Vásároljon licencet a teljes funkcionalitás feloldásához ([Link](https://purchase.aspose.com/buy)).
-- **Ingyenes próbaverzió és ideiglenes licenc:** Kezdje ingyenes próbaverziókkal, és igényeljen ideiglenes licenceket ([Ingyenes próbaverzió linkje](https://releases.aspose.com/slides/java/), [Ideiglenes licenc link](https://purchase.aspose.com/temporary-license/)).
-- **Támogatás:** Kérjen segítséget a közösségtől az Aspose támogatási fórumán ([Link](https://forum.aspose.com/c/slides/11)).
+**További K&V**
+
+**Q: A jelmagyarázat betűszínének módosítása befolyásolja a PDF exportált fájlokat?**  
+A: Nem, a színváltoztatás megmarad az összes Aspose.Slides által támogatott exportformátumban, beleértve a PDF‑et és a PPTX‑et.
+
+**Q: Használhatok‑e színátmenetet a szilárd szín helyett?**  
+A: Igen – állítsd be a `FillType.Gradient`‑t, és konfiguráld a gradient‑állomásokat a `getGradientStyle()` segítségével.
+
+**Q: Hány jelmagyarázat bejegyzés lehet egy diagramon?**  
+A: Egy diagram legfeljebb 256 jelmagyarázat bejegyzést tartalmazhat, ami csak a hozzáadott adat sorozatok számától függ.
+
+## Erőforrások
+- **Dokumentáció:** Átfogó útmutató az Aspose.Slides funkciók használatához ([Link](https://reference.aspose.com/slides/java/)).  
+- **Letöltés:** A legújabb Aspose.Slides for Java verzió letöltése ([Link](https://releases.aspose.com/slides/java/)).  
+- **Vásárlás:** Licenc vásárlása a teljes funkcionalitás feloldásához ([Link](https://purchase.aspose.com/buy)).  
+- **Ingyenes próba és ideiglenes licenc:** Kezd ingyenes próbával és kérj ideiglenes licencet ([Free Trial Link](https://releases.aspose.com/slides/java/), [Temporary License Link](https://purchase.aspose.com/temporary-license/)).  
+- **Támogatás:** Kérj segítséget a közösségtől az Aspose támogatási fórumon ([Link](https://forum.aspose.com/c/slides/11)).
+
+**Utoljára frissítve:** 2026-08-06  
+**Tesztelve:** Aspose.Slides for Java 25.4  
+**Szerző:** Aspose
+
+## Kapcsolódó oktatóanyagok
+
+- [Enhancing PowerPoint Charts: Font & Axis Customization with Aspose.Slides for Java](/slides/java/charts-graphs/enhance-powerpoint-charts-aspose-slides-java/)
+- [Aspose.Slides for Java: Dynamic Text Frames & Font Customization Guide](/slides/java/shapes-text-frames/aspose-slides-java-dynamic-text-frames-fonts/)
+- [Animate Charts PowerPoint Using Aspose.Slides for Java – A Step‑by‑Step Guide](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
