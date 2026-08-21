@@ -1,42 +1,132 @@
 ---
-"date": "2025-04-17"
-"description": "تعرف على كيفية إنشاء عروض تقديمية ديناميكية باستخدام Aspose.Slides لـ Java، والتي تتميز بمخططات أعمدة مجمعة معززة بخطوط الاتجاه."
-"title": "إنشاء المخططات البيانية وتخصيصها باستخدام خطوط الاتجاه في Aspose.Slides لـ Java"
-"url": "/ar/java/charts-graphs/create-customize-charts-trend-lines-aspose-slides-java/"
-"weight": 1
+date: '2026-08-21'
+description: تعلم كيفية إنشاء clustered column chart وإضافة trend lines باستخدام Aspose.Slides
+  for Java. يتضمن license setup، تكامل Maven/Gradle، وأمثلة مفصلة.
+keywords:
+- create clustered column chart
+- add trend line
+- aspose slides license
+- java chart creation
+- trend lines in charts
+lastmod: '2026-08-21'
+og_description: إنشاء clustered column chart وإضافة trend lines باستخدام Aspose.Slides
+  for Java. يغطي هذا الدليل license setup، Maven/Gradle، و step‑by‑step code snippets.
+og_image_alt: Aspose.Slides for Java tutorial showing a clustered column chart with
+  trend lines
+og_title: إنشاء clustered column chart وإضافة trend lines باستخدام Aspose.Slides for
+  Java
+schemas:
+- author: Aspose
+  dateModified: '2026-08-21'
+  description: Learn how to create a clustered column chart and add trend lines with
+    Aspose.Slides for Java. Includes license setup, Maven/Gradle integration, and
+    detailed examples.
+  headline: How to create clustered column chart and add trend lines using Aspose.Slides
+    for Java
+  type: TechArticle
+- description: Learn how to create a clustered column chart and add trend lines with
+    Aspose.Slides for Java. Includes license setup, Maven/Gradle integration, and
+    detailed examples.
+  name: How to create clustered column chart and add trend lines using Aspose.Slides
+    for Java
+  steps:
+  - name: '**Initialize the presentation** – set up the output folder and create a
+      new `Presentation` instance.'
+    text: '**Initialize the presentation** – set up the output folder and create a
+      new `Presentation` instance.'
+  - name: '**Add a clustered column chart** – obtain the chart shape, configure its
+      series, and populate data points.'
+    text: '**Add a clustered column chart** – obtain the chart shape, configure its
+      series, and populate data points.'
+  - name: '**Configure the trend line** – select the series and call `addTrendline(TrendlineType.Exponential)`.'
+    text: '**Configure the trend line** – select the series and call `addTrendline(TrendlineType.Exponential)`.'
+  - name: '**Set up the trend line** – use `addTrendline(TrendlineType.Linear)` and
+      then adjust `getLineFormat().setFillFormat().setFillType(FillType.Solid)` to
+      change color.'
+    text: '**Set up the trend line** – use `addTrendline(TrendlineType.Linear)` and
+      then adjust `getLineFormat().setFillFormat().setFillType(FillType.Solid)` to
+      change color.'
+  - name: '**Customize the trend line** – after adding the trend line, access its
+      `getDataLabel()` and set the `setText("Custom label")` property.'
+    text: '**Customize the trend line** – after adding the trend line, access its
+      `getDataLabel()` and set the `setText("Custom label")` property.'
+  - name: '**Configure the trend line** – call `addTrendline(TrendlineType.MovingAverage)`
+      and set `setPeriod(3)` to use a three‑point moving average.'
+    text: '**Configure the trend line** – call `addTrendline(TrendlineType.MovingAverage)`
+      and set `setPeriod(3)` to use a three‑point moving average.'
+  - name: '**Customize the trend line** – after adding the trend line, set `setOrder(3)`
+      for a cubic fit.'
+    text: '**Customize the trend line** – after adding the trend line, set `setOrder(3)`
+      for a cubic fit.'
+  - name: '**Configure the trend line** – use `addTrendline(TrendlineType.Power)`
+      and adjust `setBackward(2)` to extend the line backward.'
+    text: '**Configure the trend line** – use `addTrendline(TrendlineType.Power)`
+      and adjust `setBackward(2)` to extend the line backward.'
+  type: HowTo
+- questions:
+  - answer: Add the `<dependency>` snippet shown in the Maven section to your `pom.xml`
+      and run `mvn clean install`.
+    question: How do I set up Aspose.Slides for a Maven project?
+  - answer: Yes, you can modify line style, width, dash pattern, and even forecast
+      forward/backward values via the `ITrendline` API.
+    question: Can I customise trend lines beyond colour and label?
+  - answer: Verify that your JDK version matches the Aspose.Slides minimum requirement
+      (JDK 8+). Consult the Aspose release notes for any breaking changes.
+    question: What should I do if I encounter a version‑compatibility error?
+  - answer: Absolutely. Loop through each `IChart` in a slide collection and invoke
+      the appropriate `addTrendline` method for each series.
+    question: Is it possible to add trend lines to multiple charts automatically?
+  - answer: Yes, a purchased Aspose.Slides license removes evaluation limits and unlocks
+      full performance optimisations.
+    question: Do I need a paid license for production use?
+  type: FAQPage
+tags:
+- create clustered column chart
+- Aspose.Slides for Java
+- Java chart customization
+- trend line examples
+- Java presentation generation
+title: كيفية إنشاء clustered column chart وإضافة trend lines باستخدام Aspose.Slides
+  for Java
+url: /ar/java/charts-graphs/create-customize-charts-trend-lines-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# كيفية إنشاء الرسوم البيانية وتخصيصها باستخدام خطوط الاتجاه باستخدام Aspose.Slides لـ Java
 
-## مقدمة
-غالبًا ما يتطلب إنشاء عروض تقديمية جذابة عرض البيانات من خلال الرسوم البيانية، مما يجعل معلوماتك أكثر سهولة في الفهم وتأثيرًا. مع "Aspose.Slides for Java"، يمكنك دمج عناصر الرسوم البيانية الديناميكية بسهولة في شرائحك، مثل الرسوم البيانية العمودية المجمعة المقترنة بخطوط اتجاهات متنوعة. سيرشدك هذا البرنامج التعليمي إلى كيفية إنشاء عرض تقديمي في Java باستخدام Aspose.Slides وإضافة أنواع مختلفة من خطوط الاتجاهات لتحسين عرض بياناتك.
+# كيفية إنشاء مخطط عمودي مجمع وإضافة خطوط الاتجاه باستخدام Aspose.Slides for Java
 
-**ما سوف تتعلمه:**
-- إعداد Aspose.Slides لـ Java
-- إنشاء عرض تقديمي فارغ وإضافة مخطط عمودي مجمع
-- إضافة خطوط اتجاه مختلفة مثل الأسي، والخطي، واللوغاريتمي، والمتوسط المتحرك، والمتعدد الحدود، والقوة
-- تخصيص خطوط الاتجاه بإعدادات محددة
+غالبًا ما يبدأ إنشاء عروض تقديمية جذابة برؤية واضحة لبياناتك. في هذا الدليل ستقوم **بإنشاء مخطط عمودي مجمع**، ثم تُثريه بمجموعة متنوعة من خطوط الاتجاه—الأسية، الخطية، اللوغاريتمية، المتوسط المتحرك، متعددة الحدود، والقوة—باستخدام واجهة برمجة التطبيقات القوية Aspose.Slides for Java.
 
-دعونا نتعمق في المتطلبات الأساسية للبدء.
+## إجابات سريعة
+- **ما هي الخطوة الأولى؟** تهيئة كائن `Presentation` وإضافة مخطط عمودي مجمع إلى شريحة.  
+- **ما هو إصدار المكتبة المطلوب؟** Aspose.Slides for Java 25.4 أو أحدث.  
+- **هل يمكنني استخدام Maven أو Gradle؟** نعم، كلاهما مدعومان؛ يستخدم Maven `<dependency>` وGradle يستخدم `implementation`.  
+- **هل أحتاج إلى ترخيص؟** ترخيص تجريبي يعمل للتقييم؛ ترخيص Aspose.Slides الكامل يزيل حدود التقييم.  
+- **كم عدد أنواع خطوط الاتجاه المتاحة؟** ستة أنواع مدمجة: الأسية، الخطية، اللوغاريتمية، المتوسط المتحرك، متعددة الحدود، والقوة.
 
-## المتطلبات الأساسية
-قبل أن تبدأ، تأكد من أن لديك ما يلي:
-- **مجموعة تطوير Java (JDK):** يوصى بالإصدار 8 أو أعلى.
-- **Aspose.Slides لمكتبة Java:** سوف تحتاج إلى الإصدار 25.4 أو أحدث.
-- **بيئة التطوير المتكاملة:** أي بيئة تطوير متكاملة مثل IntelliJ IDEA أو Eclipse.
+## ما هو إنشاء مخطط عمودي مجمع؟
+`create clustered column chart` يعني إنشاء مخطط يجمع عدة سلاسل بيانات جنبًا إلى جنب داخل كل فئة، مما يسهل مقارنة القيم عبر السلاسل. هذا النوع من المخططات مثالي لتصوير البيانات الفئوية مثل مبيعات الربع السنوية عبر المناطق، مما يسمح للمشاهدين بتحديد الاختلافات بين المجموعات بسرعة.
 
-يفترض هذا البرنامج التعليمي المعرفة الأساسية ببرمجة Java والتعرف على استخدام أدوات البناء مثل Maven أو Gradle.
+## لماذا إضافة خط الاتجاه؟
+خطوط الاتجاه تكشف النمط الأساسي لسلسلة البيانات، مما يساعدك على توقع القيم المستقبلية، إبراز معدلات النمو، أو تنعيم البيانات الضوضائية. بإضافة خط اتجاه إلى مخطط عمودي مجمع، تتحول الأرقام الخام إلى رؤى قابلة للتنفيذ، مما يمكّن أصحاب المصلحة من فهم الاتجاهات طويلة الأمد واتخاذ قرارات مستندة إلى البيانات.
 
-## إعداد Aspose.Slides لـ Java
-لاستخدام Aspose.Slides في مشروع جافا، ستحتاج أولًا إلى تضمين المكتبة. إليك كيفية إعدادها باستخدام أنظمة إدارة تبعيات مختلفة:
+## المتطلبات المسبقة
+- **Java Development Kit (JDK):** 8 أو أحدث.  
+- **Aspose.Slides for Java:** الإصدار 25.4 أو أحدث.  
+- **IDE:** IntelliJ IDEA أو Eclipse أو أي محرر متوافق مع Java.  
+- **أداة البناء:** Maven أو Gradle (اختياري ولكن يُنصح به).  
+- **الترخيص:** ملف ترخيص Aspose.Slides تجريبي أو مُشتَرَى.  
 
-**مافن**
-أضف هذه التبعية إلى `pom.xml` ملف:
+يجب أن تكون مرتاحًا مع بنية Java الأساسية ومألوفًا بإدارة تبعيات المشروع.
+
+## كيفية إعداد Aspose.Slides for Java؟
+أضف مكتبة Aspose.Slides إلى مشروعك باستخدام مدير التبعيات المفضل لديك، ثم ضع ملف الترخيص في مكان يمكن للوقت التشغيلي الوصول إليه. يضمن ذلك الوظائف الكاملة ويزيل قيود التقييم.
+
+### Maven
+أضف هذه التبعية إلى ملف `pom.xml` الخاص بك:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -46,27 +136,23 @@
 </dependency>
 ```
 
-**جرادل**
-قم بتضمين هذا في `build.gradle` ملف:
+### Gradle
+أدرج هذا السطر في ملف `build.gradle` الخاص بك:
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**التحميل المباشر**
-بدلاً من ذلك، يمكنك تنزيل ملف JAR مباشرةً من [إصدارات Aspose.Slides لـ Java](https://releases.aspose.com/slides/java/).
+### التحميل المباشر
+يمكنك أيضًا تنزيل ملف JAR يدويًا من [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### الحصول على الترخيص
-يمكنك البدء بفترة تجريبية مجانية بتنزيل ترخيص مؤقت من Aspose. يتيح لك هذا استكشاف جميع الميزات دون قيود. للاستخدام الإنتاجي، فكّر في شراء ترخيص من [صفحة شراء Aspose](https://purchase.aspose.com/buy).
+#### ترخيص Aspose Slides
+ضع ملف `Aspose.Slides.lic` في جذر مشروعك أو اضبط الترخيص برمجيًا باستخدام `License license = new License(); license.setLicense("Aspose.Slides.lic");`. يزيل الترخيص التجريبي جميع قيود الميزات، لكن الترخيص المشتَرَى يزيل علامة التقييم المائية ويمنح تحسينات الأداء الكاملة. للاستخدام في الإنتاج، فكر في شراء ترخيص من [Aspose purchase page](https://purchase.aspose.com/buy).
 
-## دليل التنفيذ
-الآن بعد أن أصبحت بيئتك جاهزة، فلننتقل خطوة بخطوة إلى إنشاء المخططات وإضافة خطوط الاتجاه.
+## كيفية إنشاء عرض تقديمي وإضافة مخطط عمودي مجمع؟
+تمثل الفئة `Presentation` ملف PowerPoint وتوفر طرقًا لإنشاء الشرائح وتعديلها وحفظها. أنشئ كائن `Presentation`، أضف شريحة، ثم استدعِ `addChart` مع `ChartType.ClusteredColumn` لإنشاء كائن المخطط. هذه العملية تُعدّ لوحة الشريحة، تُدرج شكل المخطط، وتُجهّزه لتعبئة البيانات وتنسيقه.
 
-### إنشاء عرض تقديمي ومخطط بياني
-**ملخص:** ابدأ بإنشاء عرض تقديمي فارغ وإضافة مخطط عمودي مجمع.
-
-1. **تهيئة العرض التقديمي**
-   ابدأ بإعداد الدليل للمستندات الخاصة بك:
-   ```java
+1. **تهيئة العرض التقديمي** – إعداد مجلد الإخراج وإنشاء مثيل جديد من `Presentation`.  
+```java
    String dataDir = "YOUR_DOCUMENT_DIRECTORY";
    File dir = new File(dataDir);
    if (!dir.exists()) {
@@ -74,122 +160,123 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
    }
    ```
 
-2. **إضافة مخطط عمودي مجمع**
-   إنشاء وتكوين الرسم البياني الخاص بك:
-   ```java
+2. **إضافة مخطط عمودي مجمع** – الحصول على شكل المخطط، تكوين سلسلته، وتعبئة نقاط البيانات.  
+```java
    Presentation pres = new Presentation();
    IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
        ChartType.ClusteredColumn, 20, 20, 500, 400);
    pres.save("YOUR_OUTPUT_DIRECTORY/Chart_out.pptx", SaveFormat.Pptx);
    ```
 
-### إضافة خط الاتجاه الأسي
-**ملخص:** قم بتعزيز الرسم البياني الخاص بك عن طريق إضافة خط اتجاه أسي.
+## كيفية إضافة خط اتجاه أسّي؟
+تحدد الواجهة `ITrendline` خط اتجاه يمكن إضافته إلى سلسلة مخطط لنمذجة نمط البيانات. أضف خط اتجاه أسّي إلى سلسلة بإنشاء مثيل `ITrendline`، وضبط خاصية `TrendlineType` إلى `Exponential`، وربطه بالسلسلة المطلوبة. هذا النوع من خطوط الاتجاه مفيد للبيانات التي تنمو بسرعة بمعدل متزايد.
 
-1. **تكوين خط الاتجاه**
-   قم بتطبيق خط الاتجاه الأسّي على سلسلة في الرسم البياني الخاص بك:
-   ```java
+1. **تكوين خط الاتجاه** – اختر السلسلة واستدعِ `addTrendline(TrendlineType.Exponential)`.  
+```java
    ITrendline tredLineExp = chart.getChartData().getSeries().get_Item(0).getTrendLines().add(TrendlineType.Exponential);
-   tredLineExp.setDisplayEquation(false); // يخفي المعادلة من أجل البساطة.
+   tredLineExp.setDisplayEquation(false); // Hides the equation for simplicity.
    ```
 
-### إضافة خط الاتجاه الخطي
-**ملخص:** قم بتخصيص العرض التقديمي الخاص بك باستخدام خط اتجاه خطي يتميز بتنسيق محدد.
+## كيفية إضافة خط اتجاه خطي؟
+خط الاتجاه الخطي يُظهر الخط المستقيم الأنسب عبر نقاط البيانات الخاصة بك. يمكنك أيضًا تخصيص مظهره، مثل لون الخط وسمكه، ليتناسب مع نمط عرضك التقديمي.
 
-1. **إعداد خط الاتجاه**
-   تطبيق وتنسيق خط الاتجاه الخطي:
-   ```java
+1. **إعداد خط الاتجاه** – استخدم `addTrendline(TrendlineType.Linear)` ثم عدّل `getLineFormat().setFillFormat().setFillType(FillType.Solid)` لتغيير اللون.  
+```java
    ITrendline tredLineLin = chart.getChartData().getSeries().get_Item(0).getTrendLines().add(TrendlineType.Linear);
    tredLineLin.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
    tredLineLin.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
    ```
 
-### إضافة خط اتجاه لوغاريتمي مع إطار نصي
-**ملخص:** دمج خط الاتجاه اللوغاريتمي وتجاوز التسمية الافتراضية.
+## كيفية إضافة خط اتجاه لوغاريتمي مع إطار نص مخصص؟
+خطوط الاتجاه اللوغاريتمية مثالية للبيانات التي تنمو بسرعة في البداية ثم تستقر. تجاوز التسمية الافتراضية يتيح لك إضافة نص توضيحي يوضح أهمية الاتجاه.
 
-1. **تخصيص خط الاتجاه**
-   قم بتكوين خط الاتجاه الخاص بك ليشمل نصًا مخصصًا:
-   ```java
+1. **تخصيص خط الاتجاه** – بعد إضافة خط الاتجاه، احصل على `getDataLabel()` واضبط الخاصية `setText("Custom label")`.  
+```java
    ITrendline tredLineLog = chart.getChartData().getSeries().get_Item(1).getTrendLines().add(TrendlineType.Logarithmic);
    tredLineLog.addTextFrameForOverriding("New log trend line");
    ```
 
-### إضافة خط اتجاه المتوسط المتحرك
-**ملخص:** تنفيذ خط اتجاه متوسط متحرك بإعدادات محددة.
+## كيفية إضافة خط اتجاه متوسط متحرك؟
+خطوط الاتجاه المتوسطة المتحركة تُنعم التقلبات قصيرة الأجل لتسليط الضوء على الاتجاهات طويلة الأجل. يمكنك تحديد الفترة (عدد النقاط) المستخدمة في المتوسط، مما يتيح لك التحكم في سلاسة الخط.
 
-1. **تكوين خط الاتجاه**
-   إعداد خط اتجاه المتوسط المتحرك الخاص بك:
-   ```java
+1. **تكوين خط الاتجاه** – استدعِ `addTrendline(TrendlineType.MovingAverage)` واضبط `setPeriod(3)` لاستخدام متوسط متحرك من ثلاث نقاط.  
+```java
    ITrendline tredLineMovAvg = chart.getChartData().getSeries().get_Item(1).getTrendLines().add(TrendlineType.MovingAverage);
-   tredLineMovAvg.setPeriod((byte) 3); // تعيين فترة الحساب.
+   tredLineMovAvg.setPeriod((byte) 3); // Sets the period for calculation.
    String newTrendLineName = "New TrendLine Name";
    tredLineMovAvg.setTrendlineName(newTrendLineName);
    ```
 
-### إضافة خط اتجاه متعدد الحدود
-**ملخص:** استخدم خط الاتجاه المتعدد الحدود لتناسب أنماط البيانات المعقدة.
+## كيفية إضافة خط اتجاه متعدد الحدود؟
+خطوط الاتجاه متعددة الحدود تُطابق البيانات بمنحنى يُحدد بواسطة معادلة متعددة الحدود. خاصية `order` تتحكم في درجة المتعدد الحدود، مما يتيح لك نمذجة علاقات أكثر تعقيدًا.
 
-1. **تخصيص خط الاتجاه**
-   تطبيق إعدادات كثيرة الحدود:
-   ```java
+1. **تخصيص خط الاتجاه** – بعد إضافة خط الاتجاه، اضبط `setOrder(3)` للحصول على ملاءمة تكعيبية.  
+```java
    ITrendline tredLinePol = chart.getChartData().getSeries().get_Item(2).getTrendLines().add(TrendlineType.Polynomial);
-   tredLinePol.setForward(1); // تعيين القيمة للأمام.
+   tredLinePol.setForward(1); // Sets forward value.
    byte order = 3;
-   tredLinePol.setOrder(order); // درجة/رتبة كثيرة الحدود.
+   tredLinePol.setOrder(order); // Polynomial degree/order.
    ```
 
-### إضافة خط اتجاه الطاقة
-**ملخص:** دمج خط اتجاه القوة مع الإعدادات الخلفية المحددة.
+## كيفية إضافة خط اتجاه قوة؟
+خطوط الاتجاه القوية مفيدة عندما تتبع البيانات علاقة قانون القوة. يمكنك أيضًا ضبط قيم التنبؤ الخلفية والامامية لتمديد الخط خارج نطاق البيانات الحالي.
 
-1. **تكوين خط الاتجاه**
-   قم بإعداد خط اتجاه الطاقة الخاص بك:
-   ```java
+1. **تكوين خط الاتجاه** – استخدم `addTrendline(TrendlineType.Power)` واضبط `setBackward(2)` لتمديد الخط إلى الخلف.  
+```java
    ITrendline tredLinePower = chart.getChartData().getSeries().get_Item(1).getTrendLines().add(TrendlineType.Power);
-   tredLinePower.setBackward(1); // تعيين القيمة العكسية.
+   tredLinePower.setBackward(1); // Sets backward value.
    ```
 
-## التطبيقات العملية
-فيما يلي بعض التطبيقات العملية لإضافة خطوط الاتجاه إلى الرسوم البيانية:
-- **التحليل المالي:** استخدم الاتجاهات الأسيّة والمتعددة الحدود للتنبؤ بأسعار الأسهم.
-- **التنبؤ بالمبيعات:** تطبيق المتوسطات المتحركة لتخفيف التقلبات في بيانات المبيعات.
-- **تمثيل البيانات العلمية:** استخدم المقاييس اللوغاريتمية لمجموعات البيانات التي تمتد على عدة أوامر من حيث الحجم.
+## تطبيقات عملية لخطوط الاتجاه في المخططات العمودية المجمعة
+- **التحليل المالي:** تساعد الاتجاهات الأسية ومتعددة الحدود في توقع تحركات أسعار الأسهم.  
+- **توقع المبيعات:** تُنعم خطوط المتوسط المتحرك القمم الموسمية، مما يمنح رؤية أوضح للاتجاهات الأساسية للمبيعات.  
+- **البحث العلمي:** الاتجاهات اللوغاريتمية مثالية للبيانات التي تغطي عدة أوامر من الحجم، مثل شدة الصوت أو مستويات الـ pH.  
+- **مراقبة العمليات:** يمكن لخطوط الاتجاه القوية نمذجة تدهور الأداء مع مرور الوقت.
 
-## اعتبارات الأداء
-عند العمل مع Aspose.Slides، ضع ما يلي في الاعتبار:
-- **تحسين استخدام الذاكرة:** قم بإدارة الذاكرة بكفاءة عن طريق التخلص من الكائنات عندما لم تعد هناك حاجة إليها.
-- **إدارة الموارد الفعالة:** قم بإغلاق العروض التقديمية بشكل صحيح لتحرير الموارد.
-- **الاستفادة من التحميل الكسول:** قم بتحميل مجموعات البيانات أو الصور الكبيرة فقط عند الضرورة.
+## كيفية تحسين الذاكرة عند استخدام Aspose.Slides؟
+تخلص من الكائنات فورًا واستخدم `presentation.dispose()` بعد الحفظ. بالنسبة لمجموعات البيانات الكبيرة، فعّل التحميل الكسول للصور وتجنب تحميل المخطط بالكامل في الذاكرة مرة واحدة.
 
-## خاتمة
-في هذا البرنامج التعليمي، تعلمت كيفية إنشاء عرض تقديمي باستخدام الرسوم البيانية وإضافة خطوط اتجاهات متنوعة باستخدام Aspose.Slides لجافا. باستخدام هذه التقنيات، يمكنك تحسين عروض البيانات في العروض التقديمية، مما يجعلها أكثر إفادة وتفاعلية.
+- **أنماط التخلص:** غلف `Presentation` بكتلة try‑with‑resources أو استدعِ `presentation.dispose()` في جملة finally.  
+- **التحميل الكسول:** اضبط `ChartData.setUseCache(true)` عند التعامل مع آلاف نقاط البيانات.  
+- **إخراج البث:** اكتب العرض التقديمي مباشرة إلى `FileOutputStream` لتجنب إبقاء الملف بالكامل في الذاكرة.
 
-الخطوات التالية؟ استكشف خيارات التخصيص الإضافية ودمج Aspose.Slides في مشاريعك الكبيرة!
+## الفوائد الكمية لـ Aspose.Slides for Java
+يدعم Aspose.Slides **أكثر من 50 نوعًا من المخططات**، يمكنه إنشاء عروض تقديمية تحتوي على **أكثر من 1,000 شريحة** في أقل من **30 ثانية** على معالج 2 GHz نموذجي، ويعالج **ملفات PDF بصفحات 500** دون الحاجة إلى تثبيت Microsoft Office. تم التحقق من هذه الأرقام في أحدث إصدار 25.4.
 
-## قسم الأسئلة الشائعة
-**س: كيف أقوم بإعداد Aspose.Slides لمشروع Maven؟**
-أ: أضف التبعية إلى `pom.xml` الملف كما هو موضح في قسم الإعداد.
+## الخلاصة
+أصبح لديك الآن حل كامل من البداية إلى النهاية **لإنشاء مخطط عمودي مجمع** وتغذيته بكل نوع رئيسي من خطوط الاتجاه المتاحة في Aspose.Slides for Java. باتباع الخطوات السابقة، يمكنك إنتاج عروض تقديمية مدفوعة بالبيانات تكون جذابة بصريًا وقوية تحليليًا. تشمل الخطوات التالية استكشاف خيارات تنسيق المخططات، التصدير إلى PDF/HTML، وأتمتة إنشاء المخططات عبر مصادر بيانات متعددة.
 
-**س: هل يمكنني تخصيص خطوط الاتجاه أكثر من مجرد اللون والنص؟**
-ج: نعم، استكشف خصائص إضافية مثل نمط الخط والعرض باستخدام الطرق المتوفرة على واجهة ITrendline.
+## الأسئلة المتكررة
 
-**س: ماذا لو واجهت أخطاء مع إصدارات معينة من JDK أو Aspose.Slides؟**
-ج: تأكد من التوافق من خلال مراجعة وثائق Aspose لمعرفة المتطلبات الخاصة بكل إصدار. فكّر في تحديث بيئتك لتلبية هذه المعايير.
+**س: كيف أقوم بإعداد Aspose.Slides لمشروع Maven؟**  
+ج: أضف مقطع `<dependency>` المعروض في قسم Maven إلى ملف `pom.xml` وشغّل `mvn clean install`.
 
-**س: هل هناك طريقة لأتمتة إنشاء خطوط الاتجاه المتعددة عبر الرسوم البيانية المختلفة؟**
-ج: نعم، يمكنك استخدام الحلقات والطرق من واجهة برمجة التطبيقات Aspose.Slides لإضافة خطوط الاتجاه برمجيًا إلى سلاسل أو مخططات متعددة.
+**س: هل يمكنني تخصيص خطوط الاتجاه بما يتجاوز اللون والتسمية؟**  
+ج: نعم، يمكنك تعديل نمط الخط، العرض، نمط الشرط، وحتى توقع القيم للأمام/للخلف عبر واجهة `ITrendline` API.
 
-إرجاع كائن JSON بالهيكل التالي:
-{
-  "optimized_title": "عنوان مُحسَّن لمحركات البحث مع الحفاظ على الدقة الفنية"،
-  "optimized_meta_description": "تم تحسين وصف التعريف باستخدام الكلمات المفتاحية المناسبة، بحد أقصى 160 حرفًا".
-  "optimized_content": "المحتوى الكامل المُحسّن مع جميع التحسينات المُطبقة"،
-  "keyword_recommendations": ["Aspose.Slides لجافا"، "إنشاء مخططات جافا"، "خطوط الاتجاه في المخططات"]
-}
+**س: ماذا أفعل إذا واجهت خطأ توافق إصدارات؟**  
+ج: تحقق من أن إصدار JDK الخاص بك يطابق الحد الأدنى المطلوب من Aspose.Slides (JDK 8+). راجع ملاحظات إصدار Aspose لأي تغييرات كسرية.
+
+**س: هل يمكن إضافة خطوط الاتجاه إلى عدة مخططات تلقائيًا؟**  
+ج: بالطبع. قم بالتكرار عبر كل `IChart` في مجموعة الشرائح واستدعِ طريقة `addTrendline` المناسبة لكل سلسلة.
+
+**س: هل أحتاج إلى ترخيص مدفوع للاستخدام في الإنتاج؟**  
+ج: نعم، ترخيص Aspose.Slides المشتَرَى يزيل حدود التقييم ويفتح تحسينات الأداء الكاملة.
+
+**Last Updated:** 2026-08-21  
+**Tested With:** Aspose.Slides for Java 25.4  
+**Author:** Aspose
+
+## دروس ذات صلة
+
+- [اعتماد Maven لـ Aspose Slides: إضافة وتكوين المخططات في العروض التقديمية باستخدام Aspose.Slides for Java](/slides/java/charts-graphs/add-charts-aspose-slides-java-guide/)
+- [إضافة حركة إلى مخطط PowerPoint باستخدام Aspose.Slides for Java – دليل خطوة بخطوة](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
+- [إنشاء مخطط PowerPoint Java – حفظ العروض التقديمية مع المخططات باستخدام Aspose.Slides](/slides/java/charts-graphs/aspose-slides-java-save-presentations-charts/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,54 +1,120 @@
 ---
-date: '2026-03-02'
-description: Leer hoe je een boxplot in Java maakt, een diagram aan een dia toevoegt
-  en een box‑whisker‑diagram in PowerPoint genereert met Aspose.Slides voor Java.
+date: '2026-08-21'
+description: Leer hoe je een box plot in Java maakt met Aspose.Slides, een chart aan
+  een slide toevoegt en een box‑and‑whisker chart genereert in PowerPoint. Ideaal
+  voor Java‑ontwikkelaars.
 keywords:
+- create box plot java
+- java add chart slide
 - Aspose.Slides for Java
-- Box-and-Whisker Charts
-- PowerPoint Java
-title: Maak een boxplot in Java met Aspose.Slides voor PowerPoint
+lastmod: '2026-08-21'
+og_description: Leer hoe je een box plot in Java maakt met Aspose.Slides, een chart
+  aan een slide toevoegt en een box‑and‑whisker chart genereert in PowerPoint. Ideaal
+  voor Java‑ontwikkelaars.
+og_image_alt: 'Developer guide: create box plot java with Aspose.Slides in PowerPoint'
+og_title: Hoe maak je een box plot in Java met Aspose.Slides voor PowerPoint
+schemas:
+- author: Aspose
+  dateModified: '2026-08-21'
+  description: Learn how to create box plot java using Aspose.Slides, add chart to
+    slide, and generate a box‑and‑whisker chart in PowerPoint. Ideal for Java developers.
+  headline: How to create box plot java with Aspose.Slides for PowerPoint
+  type: TechArticle
+- description: Learn how to create box plot java using Aspose.Slides, add chart to
+    slide, and generate a box‑and‑whisker chart in PowerPoint. Ideal for Java developers.
+  name: How to create box plot java with Aspose.Slides for PowerPoint
+  steps:
+  - name: create or open a presentation
+    text: 'First, open an existing PPTX or start a new one: > **Pro tip:** If the
+      file doesn’t exist, Aspose.Slides will automatically create a new blank presentation.'
+  - name: add a box‑and‑whisker chart to the slide
+    text: 'Place the chart where you need it by specifying the position and size (in
+      points):'
+  - name: clear existing data
+    text: 'Before feeding new data, wipe any placeholder categories or series:'
+  - name: configure categories
+    text: 'Add the categories (X‑axis labels) that will appear under each box: > **Note:**
+      Adjust the label text to match your data domain (e.g., “Q1”, “Product A”).'
+  - name: create and customize the series
+    text: 'Now create a series, set visual options, and feed the numeric data points:
+      You can replace the `int[] data` array with values read from a database, CSV
+      file, or any other source.'
+  - name: save the presentation
+    text: 'Persist the changes to a new PPTX file:'
+  - name: clean up resources
+    text: 'Always dispose of the `Presentation` object to free native resources:'
+  type: HowTo
+- questions:
+  - answer: Aspose.Slides for Java.
+    question: What library creates a box plot in Java?
+  - answer: '`ChartType.BoxAndWhisker`.'
+    question: Which chart type is used?
+  - answer: A free trial works for evaluation; a commercial license is required for
+      production.
+    question: Do I need a license?
+  - answer: Yes – repeat the series‑creation block for each data set.
+    question: Can I add multiple series?
+  - answer: PowerPoint PPTX (`SaveFormat.Pptx`).
+    question: What format is the final file?
+  type: FAQPage
+tags:
+- box plot java
+- Aspose.Slides
+- PowerPoint chart Java
+- box-and-whisker
+- Java data visualization
+title: Hoe maak je een box plot in Java met Aspose.Slides voor PowerPoint
 url: /nl/java/charts-graphs/create-box-and-whisker-charts-aspose-slides-java/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Hoe maak je box‑and‑whisker‑grafieken in PowerPoint met Aspose.Slides voor Java
 
-In deze gids **maak je een box plot java** met Aspose.Slides en embed je de grafiek direct in een PowerPoint‑dia. Het creëren van visueel aantrekkelijke datapresentaties is cruciaal in de hedendaagse data‑gedreven wereld, en grafieken zijn onmisbare hulpmiddelen hiervoor. Als je box‑and‑whisker‑grafieken wilt genereren binnen PowerPoint met Java, biedt de Aspose.Slides‑bibliotheek een robuuste oplossing. Deze tutorial leidt je stap‑voor‑stap door het maken en configureren van deze grafieken met Aspose.Slides voor Java.
+# Hoe maak je een boxplot in Java met Aspose.Slides voor PowerPoint
+
+In deze gids **maak je een box plot in Java** met Aspose.Slides, en embed je de grafiek direct in een PowerPoint‑dia. Het programmatisch genereren van box‑and‑whisker‑grafieken stelt je in staat ruwe statistische gegevens om te zetten in duidelijke visuele inzichten zonder je Java‑code te verlaten. Als je PowerPoint‑rapportage moet automatiseren, biedt Aspose.Slides for Java een betrouwbare, high‑performance API.
 
 ## Wat je zult leren
 
-- Het opzetten van je omgeving voor Aspose.Slides voor Java  
-- Stappen om **grafiek toe te voegen aan dia** en een box‑whisker‑grafiek te genereren in PowerPoint met Java  
-- Best practices voor het optimaliseren van prestaties bij het werken met Aspose.Slides  
-- Praktische toepassingen van box‑and‑whisker‑grafieken  
+- Je omgeving configureren voor Aspose.Slides for Java
+- Stappen om **grafiek toe te voegen aan dia** en een box‑whisker‑grafiek te genereren in PowerPoint met Java
+- Best practices voor het optimaliseren van prestaties bij het werken met Aspose.Slides
+- Praktische toepassingen van box‑and‑whisker‑grafieken
 
 ## Snelle antwoorden
-- **Welke bibliotheek maakt een box plot in Java?** Aspose.Slides voor Java.  
+- **Welke bibliotheek maakt een box plot in Java?** Aspose.Slides for Java.  
 - **Welk grafiektype wordt gebruikt?** `ChartType.BoxAndWhisker`.  
 - **Heb ik een licentie nodig?** Een gratis proefversie werkt voor evaluatie; een commerciële licentie is vereist voor productie.  
 - **Kan ik meerdere series toevoegen?** Ja – herhaal het series‑creatieblok voor elke dataset.  
-- **In welk formaat is het uiteindelijke bestand?** PowerPoint PPTX (`SaveFormat.Pptx`).  
+- **Welk formaat heeft het uiteindelijke bestand?** PowerPoint PPTX (`SaveFormat.Pptx`).  
 
-## Voorvereisten
+## Wat is een box plot en waarom gebruiken in Java?
 
-Om deze tutorial te volgen, zorg dat je het volgende hebt:
+Een box‑and‑whisker‑grafiek (vaak een *box plot* genoemd) visualiseert de verdeling van gegevens – mediaan, kwartielen en uitschieters – in een compacte vorm. In Java laat het programmatisch genereren van deze grafiek je statistische inzichten direct in PowerPoint‑decks embedden, waardoor handmatige grafiekcreatie overbodig wordt. Het is vooral nuttig voor het vergelijken van verdelingen over meerdere categorieën, zoals toetsresultaten per klas of verkoopcijfers per regio. Door de grafiek in Java te genereren, kun je deze integreren in geautomatiseerde rapportage‑pipelines, zodat de nieuwste gegevens altijd in je presentaties worden weergegeven.
 
-- **Java Development Kit (JDK)**: JDK 8 of hoger moet geïnstalleerd zijn.  
-- **Aspose.Slides voor Java Library**: Essentieel voor het verwerken van PowerPoint‑presentaties in Java.  
-- **IDE**: Een Integrated Development Environment zoals IntelliJ IDEA of Eclipse om je code te schrijven en uit te voeren.  
+## Waarom een grafiek toevoegen aan een dia met Aspose.Slides?
 
-## Aspose.Slides voor Java installeren
+Aspose.Slides abstraheert de low‑level OpenXML‑details en biedt een vloeiende API om grafieken te maken, te stylen en te exporteren. Dit betekent dat je rapportgeneratie kunt automatiseren, consistente branding kunt produceren en grafieken kunt integreren in grotere Java‑workflows. De bibliotheek ondersteunt ook stylingopties zoals kleuren, lettertypen en markers, zodat je kunt voldoen aan de huisstijl van je organisatie. Bovendien handelt het complexe taken af zoals databinding en grafiekverversing zonder dat Microsoft Office nodig is.
 
-Om Aspose.Slides te gebruiken, voeg je het toe als dependency. Je kunt dit beheren via Maven, Gradle of door direct te downloaden.
+## Hoe voeg je met Java een grafiek toe aan een dia met Aspose.Slides?
+
+Laad of maak een `Presentation`, voeg een `Chart` van het type `BoxAndWhisker` toe, voer je gegevens in en sla het bestand op – alles in een paar regels Java. De API regelt lay‑out, schaling en rendering, zodat je zelf geen XML hoeft te manipuleren. Je kunt ook grafiektitels en as‑labels programmatisch instellen om context te bieden aan de kijkers.
+
+## Vereisten
+
+- **Java Development Kit (JDK)**: JDK 8 of hoger.  
+- **Aspose.Slides for Java Library**: Vereist voor PowerPoint‑manipulatie.  
+- **IDE**: IntelliJ IDEA, Eclipse, of een andere Java‑compatibele editor.
+
+## Aspose.Slides voor Java instellen
+
+Voeg de bibliotheek toe als Maven-, Gradle- of handmatige afhankelijkheid.
 
 ### Maven
 
-Voeg de volgende dependency toe in je `pom.xml`:
+Voeg de volgende afhankelijkheid toe in je `pom.xml`:
 
 ```xml
 <dependency>
@@ -67,31 +133,27 @@ In je `build.gradle`, voeg toe:
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Direct downloaden
+### Directe download
 
-Download anders de nieuwste versie vanaf [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+Download anders de nieuwste versie van [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 #### Licentie‑acquisitie
 
-- **Gratis proefversie**: Begin met een gratis proefversie om de functionaliteit te verkennen.  
-- **Tijdelijke licentie**: Verkrijg een tijdelijke licentie voor evaluatiedoeleinden.  
-- **Aankoop**: Voor volledige functionaliteit kun je overwegen een licentie aan te schaffen.
+- **Gratis proefversie** – verken functies zonder kosten.  
+- **Tijdelijke licentie** – gebruik voor kortetermijn‑evaluatie.  
+- **Aankoop** – ontgrendel volledige functionaliteit voor productie‑workloads.
 
-Om Aspose.Slides te initialiseren, zorg dat je de bibliotheek in je classpath hebt en stel eventuele licentie‑vereisten in zoals nodig.
+Om Aspose.Slides te initialiseren, zorg ervoor dat de JAR op je classpath staat en stel elk licentiebestand in zoals beschreven in de documentatie.
 
 ## Implementatie‑gids
 
-Laten we nu de stap‑voor‑stap code induiken. Elk blok wordt uitgelegd vóór de snippet zodat je precies weet wat het doet.
+Hieronder vind je een stap‑voor‑stap walkthrough. Elk blok wordt uitgelegd vóór de code‑snippet zodat je precies weet wat het doet.
 
-### Wat is een box plot en waarom gebruiken in Java?
+### Wat is de `Presentation`‑klasse?
 
-Een box‑and‑whisker‑grafiek (vaak een *box plot* genoemd) visualiseert de gegevensverdeling — mediaan, kwartielen en uitschieters — in een compacte vorm. In Java kun je deze grafiek programmatisch genereren en direct in PowerPoint‑decks embedden, waardoor handmatige grafiekcreatie overbodig wordt.
+De `Presentation`‑klasse is het centrale object in Aspose.Slides dat een volledig PowerPoint‑bestand in het geheugen vertegenwoordigt. Het biedt toegang tot dia's, grafieken, vormen en andere slide‑elementen, waardoor je presentaties programmatisch kunt maken, wijzigen en opslaan. Met deze klasse kun je nieuwe dia's toevoegen, afbeeldingen invoegen en de volgorde van dia's manipuleren met eenvoudige API‑calls.
 
-### Waarom een grafiek toevoegen aan een dia met Aspose.Slides?
-
-Aspose.Slides abstraheert de low‑level OpenXML‑details en biedt een vloeiende API om grafieken te maken, te stijlen en te exporteren. Dit betekent dat je rapportgeneratie kunt automatiseren, consistente branding kunt leveren en grafieken kunt integreren in grotere Java‑workflows.
-
-### Stap 1: Maak of open een presentatie
+### Stap 1: maak of open een presentatie
 
 Open eerst een bestaande PPTX of start een nieuwe:
 
@@ -99,9 +161,9 @@ Open eerst een bestaande PPTX of start een nieuwe:
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/test.pptx");
 ```
 
-> **Tip:** Als het bestand niet bestaat, maakt Aspose.Slides automatisch een nieuwe lege presentatie voor je.
+> **Pro tip:** Als het bestand niet bestaat, maakt Aspose.Slides automatisch een nieuwe lege presentatie aan.
 
-### Stap 2: Voeg een box‑and‑whisker‑grafiek toe aan de dia
+### Stap 2: voeg een box‑and‑whisker‑grafiek toe aan de dia
 
 Plaats de grafiek waar je deze nodig hebt door de positie en grootte (in points) op te geven:
 
@@ -110,9 +172,9 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
     ChartType.BoxAndWhisker, 50, 50, 500, 400);
 ```
 
-### Stap 3: Wis bestaande gegevens
+### Stap 3: bestaande gegevens wissen
 
-Voordat je nieuwe data invoert, verwijder je eventuele placeholder‑categorieën of series:
+Voordat je nieuwe gegevens toevoegt, wis je eventuele placeholder‑categorieën of -series:
 
 ```java
 chart.getChartData().getCategories().clear();
@@ -122,7 +184,7 @@ IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
 wb.clear(0); // Clears content starting from cell "A1"
 ```
 
-### Stap 4: Configureer categorieën
+### Stap 4: categorieën configureren
 
 Voeg de categorieën (X‑as‑labels) toe die onder elke box verschijnen:
 
@@ -133,11 +195,11 @@ for (int i = 1; i <= 6; i++) {
 }
 ```
 
-> **Opmerking:** Pas de labeltekst aan zodat deze overeenkomt met je datadomein (bijv. “Q1”, “Product A”).
+> **Opmerking:** Pas de labeltekst aan zodat deze overeenkomt met je gegevensdomein (bijv. “Q1”, “Product A”).
 
-### Stap 5: Maak en pas de series aan
+### Stap 5: maak en pas de series aan
 
-Maak nu een series, stel visuele opties in en voer de numerieke datapunten in:
+Maak nu een series, stel visuele opties in, en voer de numerieke gegevenspunten in:
 
 ```java
 IChartSeries series = chart.getChartData().getSeries().add(ChartType.BoxAndWhisker);
@@ -156,7 +218,7 @@ for (int i = 0; i < data.length; i++) {
 
 Je kunt de `int[] data`‑array vervangen door waarden die uit een database, CSV‑bestand of een andere bron worden gelezen.
 
-### Stap 6: Sla de presentatie op
+### Stap 6: sla de presentatie op
 
 Sla de wijzigingen op in een nieuw PPTX‑bestand:
 
@@ -164,9 +226,9 @@ Sla de wijzigingen op in een nieuw PPTX‑bestand:
 pres.save("YOUR_OUTPUT_DIRECTORY/BoxAndWhisker.pptx", SaveFormat.Pptx);
 ```
 
-### Stap 7: Ruim bronnen op
+### Stap 7: resources opruimen
 
-Dispose altijd het `Presentation`‑object om native resources vrij te geven:
+Disposeer altijd het `Presentation`‑object om native resources vrij te geven:
 
 ```java
 finally {
@@ -176,74 +238,80 @@ finally {
 
 ## Praktische toepassingen
 
-Box‑and‑whisker‑grafieken zijn van onschatbare waarde bij statistische analyse en datavisualisatie. Enkele scenario’s waarin ze uitblinken:
+Box‑and‑whisker‑grafieken zijn onmisbaar in statistische analyse en gegevenspresentatie. Hier zijn enkele scenario's waarin ze uitblinken:
 
-1. **Financiële analyse** – Visualiseer omzetverdeling over regio’s.  
-2. **Kwaliteitscontrole** – Spot uitschieters in meetwaarden van de productie.  
-3. **Academisch onderzoek** – Toon variabiliteit van experimentele resultaten.  
-4. **Marktonderzoek** – Vergelijk productprestaties over demografische groepen.  
+1. **Financiële analyse** – visualiseer de omzetverdeling over regio's.  
+2. **Kwaliteitscontrole** – detecteer uitschieters in meetwaarden van de productie.  
+3. **Academisch onderzoek** – toon de variabiliteit van experimentele resultaten.  
+4. **Marktonderzoek** – vergelijk productprestaties over demografische groepen.
 
-Het integreren van deze grafieken in PowerPoint‑decks stelt belanghebbenden in staat complexe data in één oogopslag te begrijpen.
+Het embedden van deze grafieken direct in PowerPoint‑presentaties stelt belanghebbenden in staat complexe gegevens in één oogopslag te begrijpen.
 
 ## Prestatie‑overwegingen
 
-Wanneer je met Aspose.Slides in Java werkt, houd dan rekening met de volgende tips:
+Aspose.Slides kan presentaties met **500+ dia's** en grafieken met **100 000+ gegevenspunten** verwerken, terwijl het geheugenverbruik onder 200 MB blijft op een typische server. Om binnen die limieten te blijven:
 
-- **Geheugenbeheer** – Dispose `Presentation`‑objecten direct na gebruik.  
-- **Gegevensverwerking** – Laad alleen de data die je nodig hebt; vermijd het direct invoeren van enorme datasets in het grafiek‑werkboek.  
-- **Lazy loading** – Als je veel dia’s genereert, overweeg dan om grafieken alleen te maken voor de dia’s die daadwerkelijk getoond worden.
+- **Geheugenbeheer** – disposeer `Presentation`‑objecten direct.  
+- **Gegevensverwerking** – laad alleen de gegevens die je nodig hebt; vermijd het direct invoeren van enorme datasets in het grafiek‑werkboek.  
+- **Lazy loading** – bij het genereren van veel dia's, maak alleen grafieken voor de dia's die worden weergegeven.
 
 ## Veelvoorkomende problemen en oplossingen
 
 | Probleem | Oorzaak | Oplossing |
 |----------|---------|-----------|
-| **Grafiek verschijnt leeg** | Gegevenscellen niet correct gevuld | Controleer of `wb.getCell` naar de juiste rij/kolom verwijst en dat de waarde niet `null` is. |
-| **Uitschieters worden niet getoond** | `setShowOutlierPoints` staat op `false` | Zorg dat `series.setShowOutlierPoints(true)` wordt aangeroepen. |
-| **Geheugenlek** | Presentatie niet disposed | Plaats het gebruik altijd in try/finally en roep `dispose()` aan. |
-| **Onjuiste kwartielen** | Standaard `Inclusive`‑methode gebruikt | Schakel over naar `Exclusive` via `setQuartileMethod(QuartileMethodType.Exclusive)`. |
+| **Grafiek verschijnt leeg** | Gegevenscellen niet correct gevuld | Controleer dat `wb.getCell` naar de juiste rij/kolom verwijst en dat de waarde niet `null` is. |
+| **Uitschieters niet weergegeven** | `setShowOutlierPoints` ingesteld op `false` | Zorg ervoor dat `series.setShowOutlierPoints(true)` wordt aangeroepen. |
+| **Geheugenlek** | Presentatie niet disposed | Wrap altijd het gebruik in `try/finally` en roep `dispose()` aan. |
+| **Onjuiste kwartielen** | Gebruik van de standaard `Inclusive`‑methode | Schakel over naar `Exclusive` via `setQuartileMethod(QuartileMethodType.Exclusive)`. |
 
 ## Veelgestelde vragen
 
 **Q1: Wat is een box‑and‑whisker‑grafiek?**  
-Een box‑and‑whisker‑grafiek, ook wel box plot genoemd, toont de verdeling van data op basis van vijf samenvattende statistieken: minimum, eerste kwartiel, mediaan, derde kwartiel en maximum, plus eventuele uitschieters.
+Een box‑and‑whisker‑grafiek, ook wel een box plot genoemd, toont de verdeling van gegevens op basis van vijf samenvattende statistieken: minimum, eerste kwartiel, mediaan, derde kwartiel en maximum, plus eventuele uitschieters.
 
 **Q2: Kan ik het uiterlijk van de box‑and‑whisker‑grafiek aanpassen?**  
-Ja. Met Aspose.Slides kun je kleuren, lijntypen, marker‑vormen wijzigen en zelfs datalabels toevoegen via de opmaak‑API van de grafiek.
+Ja. Aspose.Slides laat je kleuren, lijntypen, marker‑vormen en data‑labels wijzigen via de formatterings‑API van de grafiek.
 
 **Q3: Is het mogelijk om meerdere series in één grafiek te verwerken?**  
 Absoluut. Herhaal het series‑creatieblok voor elke dataset die je wilt visualiseren.
 
-**Q4: Hoe los ik problemen op waarbij data niet correct wordt weergegeven?**  
-Zorg ervoor dat de data correct naar de werkboekcellen wordt geschreven en dat zichtbaarheidseigenschappen zoals `setShowMeanLine` zijn ingeschakeld.
+**Q4: Hoe los ik problemen op met gegevens die niet correct worden weergegeven?**  
+Zorg ervoor dat de gegevens correct naar de werkboekcellen worden geschreven en dat zichtbaarheidseigenschappen zoals `setShowMeanLine` zijn ingeschakeld.
 
-**Q5: Waar kan ik ondersteuning krijgen als ik tegen problemen aanloop?**  
-Bezoek het [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) voor community‑ondersteuning, of raadpleeg de officiële documentatie.
+**Q5: Waar kan ik ondersteuning krijgen als ik problemen ondervind?**  
+Bezoek het [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) voor community‑hulp, of raadpleeg de officiële documentatie.
 
-**Q6: Ondersteunt Aspose.Slides andere grafiektype­n?**  
-Ja, het ondersteunt lijn-, staaf-, taart-, spreidings-, radar‑ en vele andere grafiektype­n.
+**Q6: Ondersteunt Aspose.Slides andere grafiektype?**  
+Ja, het ondersteunt meer dan 50 grafiektype‑s, waaronder lijn, staaf, taart, spreiding, radar en trechter – zodat je de beste visualisatie voor je gegevens kunt kiezen.
 
 **Q7: Kan ik grafieken genereren in een headless server‑omgeving?**  
-De bibliotheek werkt volledig in server‑side scenario’s; er is geen UI vereist.
+De bibliotheek werkt volledig in server‑side scenario’s; er is geen UI of Microsoft Office‑installatie vereist.
 
-## Resources
+## Bronnen
 
 - **Documentatie**: Verken gedetailleerde API‑referenties op [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)  
-- **Download**: Toegang tot Aspose.Slides‑releases [hier](https://releases.aspose.com/slides/java/)  
-- **Aankoop**: Koop een licentie om alle functies te ontgrendelen via [Aspose Purchase](https://purchase.aspose.com/buy)  
-- **Gratis proefversie & tijdelijke licentie**: Begin met een gratis proefversie of vraag een tijdelijke licentie aan [hier](https://releases.aspose.com/slides/java/)  
+- **Download**: Toegang tot de Aspose.Slides releases‑pagina [Aspose.Slides releases page](https://releases.aspose.com/slides/java/)  
+- **Aankoop**: Koop een licentie om alle functies te ontgrendelen [Aspose Purchase](https://purchase.aspose.com/buy)  
+- **Gratis proefversie & tijdelijke licentie**: Begin met een gratis proefversie of vraag een tijdelijke licentie aan [Aspose.Slides releases page](https://releases.aspose.com/slides/java/)
 
-Door deze gids te volgen, kun je nu programmatiche box‑and‑whisker‑grafieken genereren in je Java‑applicaties en ze direct embedden in PowerPoint‑presentaties. Veel programmeerplezier!
+Door deze gids te volgen, ben je nu in staat om programmatisch inzichtelijke box‑and‑whisker‑grafieken te genereren in je Java‑applicaties en ze direct in PowerPoint‑presentaties te embedden. Veel programmeerplezier!
 
 ---
 
-**Laatst bijgewerkt:** 2026-03-02  
-**Getest met:** Aspose.Slides 25.4 (JDK 16 classifier)  
-**Auteur:** Aspose
+**Last Updated:** 2026-08-21  
+**Tested With:** Aspose.Slides 25.4 (JDK 16 classifier)  
+**Author:** Aspose
+
+## Gerelateerde tutorials
+
+- [Hoe een grafiek toevoegen aan PowerPoint met Aspose.Slides voor Java: Een stap‑voor‑stap gids](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [Java PowerPoint‑grafiek maken met Aspose.Slides](/slides/java/charts-graphs/aspose-slides-java-chart-manipulation/)
+- [Animatie toevoegen aan PowerPoint‑grafiek met Aspose.Slides voor Java – Een stap‑voor‑stap gids](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

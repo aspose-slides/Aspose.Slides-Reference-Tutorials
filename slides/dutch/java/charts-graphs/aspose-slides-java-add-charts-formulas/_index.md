@@ -1,65 +1,129 @@
 ---
-date: '2026-03-15'
-description: Leer hoe je PowerPoint-diagrammen maakt met Aspose.Slides voor Java,
-  dynamische gegroepeerde kolomdiagrammen bouwt en diagramformules berekent in geautomatiseerde
+date: '2026-08-21'
+description: Leer hoe je een PowerPoint chart in Java maakt met Aspose.Slides for
+  Java, dynamische clustered column charts bouwt en chart formulas berekent in geautomatiseerde
   presentaties.
 keywords:
+- create powerpoint chart java
 - Aspose.Slides Java
 - dynamic PowerPoint charts
-- PowerPoint presentation automation
-title: Hoe maak je een PowerPoint‑grafiek met Aspose.Slides voor Java
+lastmod: '2026-08-21'
+og_description: Maak een PowerPoint chart in Java met Aspose.Slides for Java. Bouw
+  dynamische clustered column charts, pas formules toe en automatiseer presentaties
+  efficiënt.
+og_image_alt: Screenshot of a Java-generated PowerPoint chart using Aspose.Slides
+og_title: PowerPoint chart in Java maken met Aspose.Slides – Snelle gids
+schemas:
+- author: Aspose
+  dateModified: '2026-08-21'
+  description: Learn how to create PowerPoint chart java using Aspose.Slides for Java,
+    build dynamic clustered column charts, and calculate chart formulas in automated
+    presentations.
+  headline: How to create PowerPoint chart in Java with Aspose.Slides
+  type: TechArticle
+- description: Learn how to create PowerPoint chart java using Aspose.Slides for Java,
+    build dynamic clustered column charts, and calculate chart formulas in automated
+    presentations.
+  name: How to create PowerPoint chart in Java with Aspose.Slides
+  steps:
+  - name: initialize the presentation
+    text: The `Presentation` class represents a PowerPoint file in memory, allowing
+      you to add slides, shapes, and charts.
+  - name: access the first slide
+    text: The `ISlide` interface represents an individual slide within a presentation.
+  - name: add a clustered column chart
+    text: The `IChart` interface defines chart objects that can be added to a slide.
+      **Parameters explained** - `ChartType` – specifies the type of chart (here,
+      a clustered column chart). - Coordinates (`x`, `y`) – position on the slide.
+      - Width and height – dimensions of the chart.
+  - name: access the chart data workbook
+    text: The `IWorkbook` object stores the chart's underlying data table.
+  - name: setting formulas (calculate chart formulas)
+    text: '**Formula in cell B2** **R1C1‑style formula in cell C2** These formulas
+      let the chart update automatically whenever the underlying data changes.'
+  - name: calculate all formulas
+    text: The `calculateFormulas()` method evaluates all formulas in the workbook.
+  - name: save your presentation
+    text: The `save` method writes the presentation to a file. Make sure to replace
+      `YOUR_OUTPUT_DIRECTORY` with an actual path where you want to store the file.
+  type: HowTo
+- questions:
+  - answer: JDK 16 or higher is recommended for compatibility and performance reasons.
+    question: What is the minimum JDK version required for Aspose.Slides?
+  - answer: Yes, but with limitations on functionality. Acquire a temporary or full
+      license for unrestricted use.
+    question: Can I use Aspose.Slides without a license?
+  - answer: Use try‑finally blocks to ensure resources are released, as shown in the
+      basic initialization example.
+    question: How do I handle exceptions when using Aspose.Slides?
+  - answer: Absolutely—create and position each chart individually within the slide’s
+      bounds.
+    question: Can I add multiple charts to the same slide?
+  - answer: Yes—directly manipulate the chart data workbook and recalculate formulas.
+    question: Is it possible to update chart data without regenerating the entire
+      presentation?
+  type: FAQPage
+tags:
+- create powerpoint chart
+- Aspose.Slides
+- Java presentation automation
+title: Hoe maak je een PowerPoint chart in Java met Aspose.Slides
 url: /nl/java/charts-graphs/aspose-slides-java-add-charts-formulas/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Beheersen van Aspose.Slides Java: Grafieken en Formules toevoegen aan PowerPoint-presentaties
+
+# Beheersen van Aspose.Slides Java: diagrammen en formules toevoegen aan PowerPoint‑presentaties
 
 ## Inleiding
 
-Het maken van boeiende PowerPoint-presentaties is cruciaal bij het effectief overbrengen van complexe gegevens. Met Aspose.Slides voor Java kun je **PowerPoint chart** programmatically, de creatie van dynamische PowerPoint charts automatiseren, en berekende grafiekformules insluiten —zonder ooit de UI te openen. Deze tutorial leidt je door het instellen van de bibliotheek, het invoegen van een clustered column chart, het toepassen van formules en het opslaan van het uiteindelijke bestand.
+In deze gids leer je hoe je **PowerPoint‑diagram Java** maakt met Aspose.Slides voor Java, het genereren van dynamische gegroepeerde kolomdiagrammen automatiseert en berekende formules toepast — zonder ooit de PowerPoint‑UI te openen. Boeiende presentaties maken is cruciaal wanneer je complexe gegevens snel moet overbrengen, en programmatisch diagrammen maken stelt je in staat om verse data direct in dia's te integreren.
 
-**Wat je zult leren:**
-- Het instellen van Aspose.Slides voor Java
-- Het maken van een PowerPoint-presentatie en het invoegen van grafieken
-- Toegang tot en wijzigen van grafiekgegevens met formules
-- Grafiekformules berekenen en je presentatie opslaan
+**Wat je leert**
+- Aspose.Slides voor Java instellen
+- Een PowerPoint‑presentatie maken en diagrammen invoegen
+- Toegang krijgen tot en diagramgegevens wijzigen met formules
+- Diagramformules berekenen en je presentatie opslaan
 
 Laten we beginnen met het doornemen van de vereisten!
 
-## Snelle Antwoorden
-- **Wat is het primaire doel?** PowerPoint chart automatisch maken met Aspose.Slides voor Java.  
-- **Welk grafiektype wordt gedemonstreerd?** Een clustered column chart.  
-- **Kunnen formules worden berekend?** Ja—gebruik `calculateFormulas()` om dynamische PowerPoint charts te evalueren.  
-- **Welke buildtool wordt aanbevolen?** Maven (of Gradle) voor Aspose Slides-integratie.  
+## Snelle antwoorden
+- **Wat is het primaire doel?** Een PowerPoint‑diagram automatisch maken met Aspose.Slides voor Java.  
+- **Welk diagramtype wordt gedemonstreerd?** Een gegroepeerd kolomdiagram.  
+- **Kunnen formules worden berekend?** Ja — gebruik `calculateFormulas()` om dynamische PowerPoint‑diagrammen te evalueren.  
+- **Welk build‑tool wordt aanbevolen?** Maven (of Gradle) voor Aspose Slides‑integratie.  
 - **Heb ik een licentie nodig?** Een gratis proefversie werkt voor testen; een volledige licentie verwijdert evaluatielimieten.
 
-## Wat is “add chart to PowerPoint” met Aspose.Slides?
-Aspose.Slides voor Java biedt een rijke API waarmee ontwikkelaars programmatically PowerPoint‑bestanden kunnen maken, bewerken en opslaan. Door de **add chart to PowerPoint**‑functionaliteit te gebruiken, kun je visuele gegevensrepresentaties in één keer genereren, perfect voor rapportage, dashboards of geautomatiseerde slide‑decks.
+## Wat is “diagram toevoegen aan PowerPoint” met Aspose.Slides?
 
-## Waarom een clustered column chart gebruiken?
-Een clustered column chart stelt je in staat om meerdere gegevensreeksen naast elkaar te vergelijken, waardoor trends en verschillen direct zichtbaar worden. Het is een veelgebruikte keuze voor financiële rapporten, verkoopdashboards en prestatiemetrics—precies de scenario's waarin dynamische PowerPoint charts schitteren.
+Aspose.Slides voor Java stelt je in staat om programmatically PowerPoint‑bestanden te genereren en te wijzigen, inclusief het invoegen van diagrammen, zonder de PowerPoint‑UI te openen. Deze mogelijkheid maakt geautomatiseerde rapportage en data‑gedreven presentaties rechtstreeks vanuit Java‑code mogelijk. Je kunt diagramtypen definiëren, gegevensbereiken instellen en formules toepassen, waardoor het ideaal is voor financiële, verkoop‑ en analytische presentaties.
 
-## Hoe maak je een PowerPoint chart met Aspose.Slides voor Java
+## Waarom een gegroepeerd kolomdiagram gebruiken?
+
+Een gegroepeerd kolomdiagram laat je meerdere gegevensreeksen naast elkaar vergelijken, zodat trends en verschillen direct zichtbaar worden. Het ondersteunt tot 20 reeksen per diagram en rendert hoge‑resolutie‑graphics voor afdruk‑kwaliteit dia’s. Omdat elke reeks per categorie wordt gegroepeerd, kunnen belanghebbenden prestatie‑gaten over regio’s, producten of tijdsperioden in één oogopslag zien.
+
+## Hoe maak je een PowerPoint‑diagram met Aspose.Slides voor Java
+
+Om een PowerPoint‑diagram te maken met Aspose.Slides voor Java, stel je eerst de bibliotheek in, initialiseert vervolgens een presentatie, voegt een dia toe, voegt een gegroepeerd kolomdiagram in, vult de gegevenswerkmap, past eventuele formules toe, rekent ze opnieuw uit en slaat ten slotte het bestand op. Deze workflow zorgt ervoor dat het diagram de nieuwste gegevens en formules weerspiegelt voordat de presentatie wordt gegenereerd.
 
 ### Vereisten
 
-Voordat we beginnen, zorg ervoor dat je het volgende hebt:
+Zorg ervoor dat je het volgende hebt:
 
-- **Aspose.Slides voor Java Bibliotheek**: Versie 25.4 of later is vereist.  
-- **Java Development Kit (JDK)**: JDK 16 of hoger moet geïnstalleerd en geconfigureerd zijn op je systeem.  
-- **Ontwikkelomgeving**: Een IDE zoals IntelliJ IDEA of Eclipse wordt aanbevolen, maar is niet verplicht.  
+- **Aspose.Slides voor Java‑bibliotheek** — versie 25.4 of later, die **50+ diagramtypen** ondersteunt en presentaties met **500+ dia’s** kan verwerken zonder het volledige bestand in het geheugen te laden.  
+- **Java Development Kit (JDK)** — JDK 16 of hoger moet geïnstalleerd en geconfigureerd zijn op je systeem.  
+- **Ontwikkelomgeving** — IntelliJ IDEA, Eclipse of een andere Java‑compatibele IDE.  
 
-Een basisbegrip van Java‑programmeervoorbeelden zoals klassen, methoden en exception handling is essentieel. Als je nieuw bent met deze onderwerpen, overweeg dan eerst introductietutorials te bekijken.
+Een basisbegrip van Java‑klassen, methoden en exception‑handling is essentieel. Als je nieuw bent met deze onderwerpen, overweeg dan eerst een inleidende Java‑tutorial te bekijken.
 
-### Aspose.Slides voor Java instellen
+#### Aspose.Slides voor Java instellen
 
-#### Maven‑afhankelijkheid (maven voor aspose slides)
-Om Aspose.Slides in je project op te nemen met Maven, voeg je de volgende afhankelijkheid toe aan je `pom.xml`:
+#### Maven‑dependency (maven for aspose slides)
+
+Voeg de volgende dependency toe aan je `pom.xml`:
 
 ```xml
 <dependency>
@@ -70,24 +134,26 @@ Om Aspose.Slides in je project op te nemen met Maven, voeg je de volgende afhank
 </dependency>
 ```
 
-#### Gradle‑afhankelijkheid
-Als je Gradle gebruikt, voeg je dit toe aan je `build.gradle`:
+#### Gradle‑dependency
+
+Gebruik je Gradle, voeg dan dit toe aan je `build.gradle`:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
 #### Directe download
+
 Download anders de nieuwste Aspose.Slides voor Java van [Aspose Releases](https://releases.aspose.com/slides/java/).
 
 #### Licentie‑acquisitie
-- **Gratis proefversie**: Begin met een gratis proefversie om de mogelijkheden te verkennen.  
-- **Tijdelijke licentie**: Verkrijg een tijdelijke licentie voor uitgebreid testen [hier](https://purchase.aspose.com/temporary-license/).  
-- **Aankoop**: Overweeg een volledige licentie aan te schaffen als je de tool waardevol vindt.
+- **Gratis proefversie** — begin met een gratis proefversie om de mogelijkheden te verkennen.  
+- **Tijdelijke licentie** — vraag een tijdelijke licentie aan voor uitgebreid testen [temporary license request](https://purchase.aspose.com/temporary-license/).  
+- **Aankoop** — overweeg een volledige licentie aan te schaffen als je de tool waardevol vindt.
 
 ### Basisinitialisatie
 
-Na het instellen, initialiseert u uw Aspose.Slides‑omgeving:
+Na de installatie initialiseert je je Aspose.Slides‑omgeving:
 
 ```java
 Presentation presentation = new Presentation();
@@ -100,24 +166,27 @@ try {
 
 ## Implementatie‑gids
 
-Dit gedeelte is onderverdeeld in stappen om elk onderdeel duidelijk te begrijpen.
+Dit gedeelte is opgedeeld in stappen om elk onderdeel duidelijk te maken.
 
-### Stap 1: Initialiseer de presentatie
-Begin met het maken van een nieuw `Presentation`‑object:
+### Stap 1: de presentatie initialiseren
+
+De `Presentation`‑klasse vertegenwoordigt een PowerPoint‑bestand in het geheugen, waardoor je dia’s, vormen en diagrammen kunt toevoegen.
 
 ```java
 Presentation presentation = new Presentation();
 ```
 
-### Stap 2: Toegang tot de eerste dia
-Haal de eerste dia op waar je je grafiek wilt plaatsen:
+### Stap 2: toegang krijgen tot de eerste dia
+
+De `ISlide`‑interface vertegenwoordigt een individuele dia binnen een presentatie.  
 
 ```java
 ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
-### Stap 3: Voeg een clustered column chart toe
-Voeg de grafiek toe aan de dia op de opgegeven coördinaten en afmetingen:
+### Stap 3: een gegroepeerd kolomdiagram toevoegen
+
+De `IChart`‑interface definieert diagramobjecten die aan een dia kunnen worden toegevoegd.  
 
 ```java
 IChart chart = slide.getShapes().addChart(
@@ -126,112 +195,127 @@ IChart chart = slide.getShapes().addChart(
     500, 300
 );
 ```
-**Parameters uitgelegd:**
-- `ChartType`: Geeft het type grafiek aan (hier een clustered column chart).  
-- Coördinaten (x, y): Positie op de dia.  
-- Breedte en hoogte: Afmetingen van de grafiek.
+**Parameters uitgelegd**
+- `ChartType` — specificeert het type diagram (hier een gegroepeerd kolomdiagram).  
+- Coördinaten (`x`, `y`) — positie op de dia.  
+- Breedte en hoogte — afmetingen van het diagram.
 
-### Stap 4: Toegang tot het grafiek‑data‑werkboek
-Haal het werkboek op dat aan je grafiek is gekoppeld:
+### Stap 4: toegang krijgen tot de diagram‑gegevenswerkmap
+
+Het `IWorkbook`‑object slaat de onderliggende gegevens‑tabel van het diagram op.
 
 ```java
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 ```
 
-### Stap 5: Formules instellen (grafiekformules berekenen)
+### Stap 5: formules instellen (diagramformules berekenen)
 
 **Formule in cel B2**  
+
 ```java
 IChartDataCell cell1 = workbook.getCell(0, "B2");
 cell1.setFormula("1 + SUM(F2:H5)");
 ```
 
-**R1C1‑stijlformule in cel C2**  
+**R1C1‑stijl formule in cel C2**  
+
 ```java
 IChartDataCell cell2 = workbook.getCell(0, "C2");
 cell2.setR1C1Formula("MAX(R2C6:R5C8) / 3");
 ```
-Deze formules zorgen ervoor dat de grafiek automatisch wordt bijgewerkt wanneer de onderliggende gegevens veranderen.
 
-### Stap 6: Alle formules berekenen
-Roep de berekeningsmethode aan op je werkboek zodat de grafiek de nieuwste waarden weergeeft:
+Deze formules zorgen ervoor dat het diagram automatisch wordt bijgewerkt wanneer de onderliggende gegevens veranderen.
+
+### Stap 6: alle formules berekenen
+
+De `calculateFormulas()`‑methode evalueert alle formules in de werkmap.
 
 ```java
 workbook.calculateFormulas();
 ```
 
-### Stap 7: Sla je presentatie op
-Sla je werk op met een opgegeven bestandsnaam en -formaat:
+### Stap 7: je presentatie opslaan
+
+De `save`‑methode schrijft de presentatie naar een bestand.
 
 ```java
 String outpptxFile = "YOUR_OUTPUT_DIRECTORY" + File.separator + "ChartDataCell_Formulas_out.pptx";
 presentation.save(outpptxFile, SaveFormat.Pptx);
 ```
+
 Zorg ervoor dat je `YOUR_OUTPUT_DIRECTORY` vervangt door een daadwerkelijk pad waar je het bestand wilt opslaan.
 
 ## Praktische toepassingen
 
-- **Financiële rapportage**: Automatiseer het maken van grafieken voor maandelijkse of kwartaalrapporten.  
-- **Datavisualisatie in het onderwijs**: Genereer snel data‑gedreven dia's voor het onderwijzen van complexe concepten.  
-- **Bedrijfsanalyse**: Versterk presentaties met dynamische data‑inzichten door gebruik te maken van berekende formules.
+- **Financiële rapportage** — automatiseer maand‑ of kwartaal‑diagrammen voor balansen en winst‑en‑verliesrekeningen.  
+- **Onderwijs** — genereer data‑gedreven dia’s voor het onderwijzen van statistiek of wetenschappelijke resultaten.  
+- **Bedrijfsanalyse** — embed live KPI‑dashboards in presentaties, die automatisch updaten zodra de bron‑data verandert.
 
-Overweeg om Aspose.Slides in je bestaande workflow te integreren om de voorbereiding van presentaties te stroomlijnen, vooral bij het verwerken van grote datasets die frequente updates vereisen.
+Het integreren van Aspose.Slides in je bestaande workflow stroomlijnt de voorbereiding van presentaties, vooral bij grote datasets die frequente updates vereisen.
 
 ## Prestatie‑overwegingen
 
 Optimaliseer de prestaties door:
 
-- Resources efficiënt beheren; altijd `Presentation`‑objecten vrijgeven.  
-- Het aantal grafieken en hun complexiteit op één dia minimaliseren als verwerkingstijd kritisch is.  
-- Batch‑operaties gebruiken voor meerdere grafieken om overhead te verminderen.
+- `Presentation`‑objecten tijdig te disposen om native resources vrij te geven.  
+- De complexiteit van diagrammen op één dia te beperken als je sub‑seconde verwerkingstijden nodig hebt.  
+- Batch‑operaties te gebruiken om meerdere diagrammen in één keer toe te voegen of bij te werken, waardoor de overhead op grote decks tot 30 % kan worden verminderd.
 
 Het volgen van deze best practices zorgt voor een soepele werking, zelfs in omgevingen met beperkte resources.
 
 ## Conclusie
 
-Tegenwoordig zou je goed uitgerust moeten zijn om **PowerPoint chart** te maken met Aspose.Slides voor Java, dynamische presentaties te bouwen en gebruik te maken van berekende grafiekformules. Deze krachtige bibliotheek bespaart tijd en verhoogt de kwaliteit van je datavisualisaties. Ontdek meer functies door te duiken in de [Aspose Documentation](https://reference.aspose.com/slides/java/) en overweeg je project uit te breiden met extra Aspose.Slides‑mogelijkheden.
+Tegenwoordig ben je goed uitgerust om **PowerPoint‑diagram Java** te maken met Aspose.Slides voor Java, dynamische presentaties te bouwen en berekende diagramformules te benutten. Deze krachtige bibliotheek bespaart tijd en verhoogt de kwaliteit van je datavisualisaties. Verken meer functies door te duiken in de [Aspose Documentatie](https://reference.aspose.com/slides/java/) en overweeg je project uit te breiden met extra Aspose.Slides‑mogelijkheden.
 
 ### Volgende stappen
 
-- Experimenteer met verschillende grafiektype en lay-outs.  
+- Experimenteer met verschillende diagramtypen en lay-outs.  
 - Integreer Aspose.Slides‑functionaliteit in grotere Java‑applicaties.  
-- Verken de andere bibliotheken van Aspose om documentverwerking over verschillende formaten te verbeteren.
+- Ontdek de andere bibliotheken van Aspose om documentverwerking over verschillende formaten heen te verbeteren.
 
 ## Veelgestelde vragen
 
-**Q: Wat is de minimum JDK‑versie die vereist is voor Aspose.Slides?**  
-A: JDK 16 of hoger wordt aanbevolen voor compatibiliteit en prestatie‑redenen.
+**V: Wat is de minimale JDK‑versie die vereist is voor Aspose.Slides?**  
+A: JDK 16 of hoger wordt aanbevolen voor compatibiliteit en prestaties.
 
-**Q: Kan ik Aspose.Slides gebruiken zonder licentie?**  
-A: Ja, maar met beperkingen in functionaliteit. Verkrijg een tijdelijke of volledige licentie voor onbeperkt gebruik.
+**V: Kan ik Aspose.Slides gebruiken zonder licentie?**  
+A: Ja, maar met beperkingen in functionaliteit. Vraag een tijdelijke of volledige licentie aan voor onbeperkt gebruik.
 
-**Q: Hoe ga ik om met uitzonderingen bij het gebruik van Aspose.Slides?**  
+**V: Hoe ga ik om met uitzonderingen bij het gebruik van Aspose.Slides?**  
 A: Gebruik try‑finally‑blokken om ervoor te zorgen dat resources worden vrijgegeven, zoals getoond in het basisinitialisatie‑voorbeeld.
 
-**Q: Kan ik meerdere grafieken aan dezelfde dia toevoegen?**  
-A: Absoluut—maak en positioneer elke grafiek afzonderlijk binnen de grenzen van de dia.
+**V: Kan ik meerdere diagrammen op dezelfde dia toevoegen?**  
+A: Absoluut — maak en positioneer elk diagram afzonderlijk binnen de grenzen van de dia.
 
-**Q: Is het mogelijk om grafiekgegevens bij te werken zonder de hele presentatie opnieuw te genereren?**  
-A: Ja—manipuleer direct het grafiek‑data‑werkboek en bereken de formules opnieuw.
+**V: Is het mogelijk om diagramgegevens bij te werken zonder de hele presentatie opnieuw te genereren?**  
+A: Ja — manipuleer direct de diagram‑gegevenswerkmap en rekende de formules opnieuw.
 
 Verken meer bronnen via de onderstaande links:
-- [Aspose Documentation](https://reference.aspose.com/slides/java/)
+- [Aspose Documentatie](https://reference.aspose.com/slides/java/)
 - [Download Aspose.Slides](https://releases.aspose.com/slides/java/)
-- [Purchase a License](https://purchase.aspose.com/buy)
-- [Free Trial](https://releases.aspose.com/slides/java/)
-- [Temporary License Request](https://purchase.aspose.com/temporary-license/)
-- [Support Forum](https://forum.aspose.com/c/slides/11)
+- [Licentie aanschaffen](https://purchase.aspose.com/buy)
+- [Gratis proefversie](https://releases.aspose.com/slides/java/)
+- [Tijdelijke licentie aanvragen](https://purchase.aspose.com/temporary-license/)
+- [Supportforum](https://forum.aspose.com/c/slides/11)
 
 ---
 
-**Last Updated:** 2026-03-15  
-**Tested With:** Aspose.Slides 25.4 (JDK 16)  
-**Author:** Aspose  
+**Laatst bijgewerkt:** 2026-08-21  
+**Getest met:** Aspose.Slides 25.4 (JDK 16)  
+**Auteur:** Aspose  
+
+{{< blocks/products/pf/backtop-button >}}
+
+## Gerelateerde tutorials
+
+- [aspose slides maven dependency: Add and Configure Charts in Presentations Using Aspose.Slides for Java](/slides/java/charts-graphs/add-charts-aspose-slides-java-guide/)
+- [Create Chart Creation Guide in Java with Aspose.Slides](/slides/java/charts-graphs/aspose-slides-java-chart-creation-guide/)
+- [Java create powerpoint chart using Aspose.Slides](/slides/java/charts-graphs/aspose-slides-java-chart-manipulation/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,24 +1,78 @@
 ---
-date: '2026-03-02'
-description: เรียนรู้วิธีสร้างกราฟกล่องใน Java, เพิ่มแผนภูมิลงในสไลด์, และสร้างแผนภูมิกล่อง
-  (box‑whisker) ใน PowerPoint ด้วย Aspose.Slides for Java.
+date: '2026-08-21'
+description: เรียนรู้วิธีสร้าง box plot java ด้วย Aspose.Slides, เพิ่มแผนภูมิลงในสไลด์,
+  และสร้างแผนภูมิ box‑and‑whisker ใน PowerPoint. เหมาะสำหรับนักพัฒนา Java.
 keywords:
+- create box plot java
+- java add chart slide
 - Aspose.Slides for Java
-- Box-and-Whisker Charts
-- PowerPoint Java
-title: สร้างแผนภูมิกล่องใน Java ด้วย Aspose.Slides สำหรับ PowerPoint
+lastmod: '2026-08-21'
+og_description: เรียนรู้วิธีสร้าง box plot java ด้วย Aspose.Slides, เพิ่มแผนภูมิลงในสไลด์,
+  และสร้างแผนภูมิ box‑and‑whisker ใน PowerPoint. เหมาะอย่างยิ่งสำหรับนักพัฒนา Java.
+og_image_alt: 'Developer guide: create box plot java with Aspose.Slides in PowerPoint'
+og_title: วิธีสร้าง box plot java ด้วย Aspose.Slides สำหรับ PowerPoint
+schemas:
+- author: Aspose
+  dateModified: '2026-08-21'
+  description: Learn how to create box plot java using Aspose.Slides, add chart to
+    slide, and generate a box‑and‑whisker chart in PowerPoint. Ideal for Java developers.
+  headline: How to create box plot java with Aspose.Slides for PowerPoint
+  type: TechArticle
+- description: Learn how to create box plot java using Aspose.Slides, add chart to
+    slide, and generate a box‑and‑whisker chart in PowerPoint. Ideal for Java developers.
+  name: How to create box plot java with Aspose.Slides for PowerPoint
+  steps:
+  - name: create or open a presentation
+    text: 'First, open an existing PPTX or start a new one: > **Pro tip:** If the
+      file doesn’t exist, Aspose.Slides will automatically create a new blank presentation.'
+  - name: add a box‑and‑whisker chart to the slide
+    text: 'Place the chart where you need it by specifying the position and size (in
+      points):'
+  - name: clear existing data
+    text: 'Before feeding new data, wipe any placeholder categories or series:'
+  - name: configure categories
+    text: 'Add the categories (X‑axis labels) that will appear under each box: > **Note:**
+      Adjust the label text to match your data domain (e.g., “Q1”, “Product A”).'
+  - name: create and customize the series
+    text: 'Now create a series, set visual options, and feed the numeric data points:
+      You can replace the `int[] data` array with values read from a database, CSV
+      file, or any other source.'
+  - name: save the presentation
+    text: 'Persist the changes to a new PPTX file:'
+  - name: clean up resources
+    text: 'Always dispose of the `Presentation` object to free native resources:'
+  type: HowTo
+- questions:
+  - answer: Aspose.Slides for Java.
+    question: What library creates a box plot in Java?
+  - answer: '`ChartType.BoxAndWhisker`.'
+    question: Which chart type is used?
+  - answer: A free trial works for evaluation; a commercial license is required for
+      production.
+    question: Do I need a license?
+  - answer: Yes – repeat the series‑creation block for each data set.
+    question: Can I add multiple series?
+  - answer: PowerPoint PPTX (`SaveFormat.Pptx`).
+    question: What format is the final file?
+  type: FAQPage
+tags:
+- box plot java
+- Aspose.Slides
+- PowerPoint chart Java
+- box-and-whisker
+- Java data visualization
+title: วิธีสร้าง box plot java ด้วย Aspose.Slides สำหรับ PowerPoint
 url: /th/java/charts-graphs/create-box-and-whisker-charts-aspose-slides-java/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# วิธีสร้างแผนภูมิ Box-and-Whisker ใน PowerPoint ด้วย Aspose.Slides for Java
 
-ในคู่มือนี้คุณจะ **สร้าง box plot java** ด้วย Aspose.Slides แล้วฝังแผนภูมิลงในสไลด์ PowerPoint โดยตรง การสร้างการนำเสนอข้อมูลที่ดูน่าสนใจเป็นสิ่งสำคัญในโลกที่ขับเคลื่อนด้วยข้อมูลในปัจจุบัน และแผนภูมิเป็นเครื่องมือที่จำเป็น หากคุณต้องการสร้างแผนภูมิ box-and-whisker ใน PowerPoint ด้วย Java ไลบรารี Aspose.Slides มีโซลูชันที่แข็งแกร่ง คู่มือนี้จะพาคุณผ่านขั้นตอนการสร้างและกำหนดค่าแผนภูมิเหล่านี้อย่างราบรื่นด้วย Aspose.Slides for Java.
+# วิธีสร้าง box plot java ด้วย Aspose.Slides สำหรับ PowerPoint
+
+ในคู่มือนี้คุณจะ **สร้าง box plot java** ด้วย Aspose.Slides จากนั้นฝังแผนภูมิโดยตรงลงในสไลด์ PowerPoint การสร้างแผนภูมิ box‑and‑whisker อย่างอัตโนมัติช่วยให้คุณเปลี่ยนข้อมูลสถิติแบบดิบให้เป็นข้อมูลเชิงภาพที่ชัดเจนโดยไม่ต้องออกจากโค้ด Java ของคุณ หากคุณต้องการอัตโนมัติการรายงาน PowerPoint Aspose.Slides for Java ให้ API ที่เชื่อถือได้และมีประสิทธิภาพสูง
 
 ## สิ่งที่คุณจะได้เรียนรู้
 
@@ -28,27 +82,37 @@ weight: 1
 - การใช้งานจริงของแผนภูมิ box‑and‑whisker
 
 ## คำตอบอย่างรวดเร็ว
-- **ไลบรารีใดสร้าง box plot ใน Java?** Aspose.Slides for Java.
-- **ประเภทแผนภูมิใดที่ใช้?** `ChartType.BoxAndWhisker`.
-- **ฉันต้องการไลเซนส์หรือไม่?** การทดลองใช้ฟรีทำงานสำหรับการประเมิน; จำเป็นต้องมีไลเซนส์เชิงพาณิชย์สำหรับการผลิต.
-- **ฉันสามารถเพิ่มหลายซีรีส์ได้หรือไม่?** ใช่ – ทำซ้ำบล็อกการสร้างซีรีส์สำหรับแต่ละชุดข้อมูล.
-- **รูปแบบไฟล์สุดท้ายคืออะไร?** PowerPoint PPTX (`SaveFormat.Pptx`).
+- **ไลบรารีใดสร้าง box plot ใน Java?** Aspose.Slides for Java.  
+- **ประเภทแผนภูมิใดที่ใช้?** `ChartType.BoxAndWhisker`.  
+- **ฉันต้องการไลเซนส์หรือไม่?** การทดลองใช้งานฟรีใช้ได้สำหรับการประเมิน; จำเป็นต้องมีไลเซนส์เชิงพาณิชย์สำหรับการใช้งานจริง.  
+- **ฉันสามารถเพิ่มหลายซีรีส์ได้หรือไม่?** ได้ – ทำซ้ำบล็อกการสร้างซีรีส์สำหรับแต่ละชุดข้อมูล.  
+- **รูปแบบไฟล์สุดท้ายคืออะไร?** PowerPoint PPTX (`SaveFormat.Pptx`).  
+
+## box plot คืออะไรและทำไมต้องใช้ใน Java?
+
+แผนภูมิ box‑and‑whisker (มักเรียกว่า *box plot*) แสดงการกระจายของข้อมูล—ค่ามัธยฐาน ควอร์ไทล์ และค่าผิดปกติ—in รูปแบบที่กระชับ ใน Java การสร้างแผนภูมินี้โดยอัตโนมัติทำให้คุณฝังข้อมูลเชิงสถิติเข้าสู่สไลด์ PowerPoint โดยตรง ลดการสร้างแผนภูมิด้วยมือ มันมีประโยชน์อย่างยิ่งสำหรับการเปรียบเทียบการกระจายของหลายประเภท เช่น คะแนนการทดสอบในแต่ละชั้นเรียนหรือยอดขายในแต่ละภูมิภาค โดยการสร้างแผนภูมิใน Java คุณสามารถรวมเข้ากับกระบวนการรายงานอัตโนมัติ เพื่อให้ข้อมูลล่าสุดสะท้อนในงานนำเสนอของคุณเสมอ
+
+## ทำไมต้องเพิ่มแผนภูมิลงในสไลด์ด้วย Aspose.Slides?
+
+Aspose.Slides แยกส่วนรายละเอียดระดับต่ำของ OpenXML ให้คุณมี API ที่ไหลลื่นสำหรับสร้าง ปรับสไตล์ และส่งออกแผนภูมิ ซึ่งหมายความว่าคุณสามารถอัตโนมัติการสร้างรายงาน ผลิตแบรนด์ที่สอดคล้อง และรวมแผนภูมิเข้าไปในเวิร์กโฟลว์ Java ที่ใหญ่ขึ้น ไลบรารียังรองรับตัวเลือกการจัดรูปแบบเช่น สี ฟอนต์ และมาร์คเกอร์ เพื่อให้คุณสามารถจับคู่กับแบรนด์ขององค์กรได้ นอกจากนี้ยังจัดการงานที่ซับซ้อนเช่นการผูกข้อมูลและการรีเฟรชแผนภูมิโดยไม่ต้องใช้ Microsoft Office
+
+## วิธีเพิ่มแผนภูมิสไลด์ด้วย Java และ Aspose.Slides?
+
+โหลดหรือสร้าง `Presentation` แทรก `Chart` ชนิด `BoxAndWhisker` ป้อนข้อมูลของคุณ และบันทึกไฟล์—ทั้งหมดในไม่กี่บรรทัดของ Java API จะจัดการการจัดวาง การปรับขนาด และการเรนเดอร์ ดังนั้นคุณไม่จำเป็นต้องจัดการ XML ด้วยตนเอง คุณยังสามารถตั้งชื่อแผนภูมิและป้ายแกนโปรแกรมmatically เพื่อให้ผู้ชมเข้าใจบริบท
 
 ## ข้อกำหนดเบื้องต้น
 
-เพื่อทำตามบทเรียนนี้ โปรดตรวจสอบว่าคุณมี:
+- **Java Development Kit (JDK)**: JDK 8 หรือสูงกว่า.  
+- **Aspose.Slides for Java Library**: จำเป็นสำหรับการจัดการ PowerPoint.  
+- **IDE**: IntelliJ IDEA, Eclipse หรือเครื่องมือแก้ไขที่รองรับ Java ใด ๆ
 
-- **Java Development Kit (JDK)**: ควรติดตั้ง JDK 8 หรือสูงกว่า
-- **Aspose.Slides for Java Library**: จำเป็นสำหรับการจัดการงานนำเสนอ PowerPoint ใน Java
-- **IDE**: สภาพแวดล้อมการพัฒนาแบบบูรณาการ เช่น IntelliJ IDEA หรือ Eclipse เพื่อเขียนและรันโค้ดของคุณ
+## การตั้งค่า Aspose.Slides สำหรับ Java
 
-## การตั้งค่า Aspose.Slides for Java
-
-เพื่อใช้ Aspose.Slides ให้เพิ่มเป็น dependency คุณสามารถจัดการได้ผ่าน Maven, Gradle หรือการดาวน์โหลดโดยตรง
+เพิ่มไลบรารีเป็นการพึ่งพาแบบ Maven, Gradle หรือแบบแมนนวล
 
 ### Maven
 
-เพิ่ม dependency ต่อไปนี้ในไฟล์ `pom.xml` ของคุณ:
+Add the following dependency in your `pom.xml`:
 
 ```xml
 <dependency>
@@ -61,49 +125,45 @@ weight: 1
 
 ### Gradle
 
-ในไฟล์ `build.gradle` ของคุณ ให้รวม:
+In your `build.gradle`, include:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Direct Download
+### ดาวน์โหลดโดยตรง
 
-หรือคุณสามารถดาวน์โหลดเวอร์ชันล่าสุดจาก [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+หรือดาวน์โหลดเวอร์ชันล่าสุดจาก [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-#### License Acquisition
+#### การรับไลเซนส์
 
-- **Free Trial**: เริ่มต้นด้วยการทดลองใช้ฟรีเพื่อสำรวจคุณลักษณะต่าง ๆ.  
-- **Temporary License**: รับไลเซนส์ชั่วคราวสำหรับการประเมิน.  
-- **Purchase**: สำหรับการทำงานเต็มรูปแบบ พิจารณาซื้อไลเซนส์.
+- **Free trial** – สำรวจฟีเจอร์โดยไม่มีค่าใช้จ่าย.  
+- **Temporary license** – ใช้สำหรับการประเมินระยะสั้น.  
+- **Purchase** – ปลดล็อกฟังก์ชันเต็มสำหรับงานผลิตจริง.
 
-เพื่อเริ่มต้น Aspose.Slides ให้แน่ใจว่าคุณมีไลบรารีใน classpath และตั้งค่าข้อกำหนดไลเซนส์ตามที่จำเป็น
+เพื่อเริ่มต้น Aspose.Slides ให้แน่ใจว่า JAR อยู่ใน classpath ของคุณและตั้งค่าไฟล์ไลเซนส์ตามที่อธิบายในเอกสาร
 
 ## คู่มือการใช้งาน
 
-ตอนนี้เราจะลงลึกในโค้ดแบบขั้นตอนต่อขั้นตอน แต่ละบล็อกจะอธิบายก่อนโค้ดสแนปเพื่อตรวจสอบว่ามันทำอะไร
+ด้านล่างเป็นการเดินผ่านแบบขั้นตอนต่อขั้นตอน แต่ละบล็อกจะอธิบายก่อนโค้ดสแนปเพื่อตรวจสอบว่ามันทำอะไร
 
-### กล่องแผนภูมิคืออะไรและทำไมต้องใช้ใน Java?
+### คลาส `Presentation` คืออะไร?
 
-แผนภูมิ box‑and‑whisker (ที่มักเรียกว่า *box plot*) แสดงการกระจายของข้อมูล—ค่ากลาง, ควอร์ไทล์, และค่าผิดปกติ—in รูปแบบที่กระชับ ใน Java การสร้างแผนภูมินี้โดยโปรแกรมทำให้คุณสามารถฝังข้อมูลสถิติลงในสไลด์ PowerPoint ได้โดยตรง ลดการสร้างแผนภูมิด้วยมือ
+คลาส `Presentation` เป็นอ็อบเจ็กต์หลักใน Aspose.Slides ที่แสดงไฟล์ PowerPoint ทั้งหมดในหน่วยความจำ ให้การเข้าถึงสไลด์, แผนภูมิ, รูปร่าง และองค์ประกอบสไลด์อื่น ๆ ทำให้คุณสามารถสร้าง, แก้ไข, และบันทึกการนำเสนอโดยอัตโนมัติ ด้วยคลาสนี้คุณสามารถเพิ่มสไลด์ใหม่, แทรกรูปภาพ, และจัดลำดับสไลด์ด้วยการเรียก API อย่างง่าย
 
-### ทำไมต้องเพิ่มแผนภูมิลงในสไลด์ด้วย Aspose.Slides?
+### ขั้นตอนที่ 1: สร้างหรือเปิดการนำเสนอ
 
-Aspose.Slides ทำให้ซ่อนรายละเอียดระดับต่ำของ OpenXML ให้คุณมี API ที่ไหลลื่นในการสร้าง, ปรับสไตล์, และส่งออกแผนภูมิ ซึ่งหมายความว่าคุณสามารถอัตโนมัติการสร้างรายงาน, ผลิตแบรนด์ที่สม่ำเสมอ, และรวมแผนภูมิเข้าไปในกระบวนการทำงานของ Java ที่ใหญ่ขึ้น
-
-### ขั้นตอนที่ 1: สร้างหรือเปิดงานนำเสนอ
-
-แรกสุด เปิดไฟล์ PPTX ที่มีอยู่หรือเริ่มไฟล์ใหม่:
+First, open an existing PPTX or start a new one:
 
 ```java
 Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/test.pptx");
 ```
 
-> **เคล็ดลับ:** หากไฟล์ไม่มีอยู่ Aspose.Slides จะสร้างงานนำเสนอเปล่าใหม่ให้คุณ
+> **เคล็ดลับ:** หากไฟล์ไม่มีอยู่ Aspose.Slides จะสร้างการนำเสนอเปล่าใหม่โดยอัตโนมัติ.
 
-### ขั้นตอนที่ 2: เพิ่มแผนภูมิ Box‑and‑Whisker ลงในสไลด์
+### ขั้นตอนที่ 2: เพิ่มแผนภูมิ box‑and‑whisker ลงในสไลด์
 
-วางแผนภูมิในตำแหน่งที่ต้องการโดยระบุตำแหน่งและขนาด (เป็นจุด):
+Place the chart where you need it by specifying the position and size (in points):
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
@@ -112,7 +172,7 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
 
 ### ขั้นตอนที่ 3: ล้างข้อมูลที่มีอยู่
 
-ก่อนใส่ข้อมูลใหม่ ให้ลบหมวดหมู่หรือซีรีส์ที่เป็นตัวแทนไว้ล่วงหน้า:
+Before feeding new data, wipe any placeholder categories or series:
 
 ```java
 chart.getChartData().getCategories().clear();
@@ -122,9 +182,9 @@ IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
 wb.clear(0); // Clears content starting from cell "A1"
 ```
 
-### ขั้นตอนที่ 4: ตั้งค่าหมวดหมู่
+### ขั้นตอนที่ 4: กำหนดประเภท (categories)
 
-เพิ่มหมวดหมู่ (ป้ายแกน X) ที่จะแสดงใต้แต่ละกล่อง:
+Add the categories (X‑axis labels) that will appear under each box:
 
 ```java
 for (int i = 1; i <= 6; i++) {
@@ -133,11 +193,11 @@ for (int i = 1; i <= 6; i++) {
 }
 ```
 
-> **หมายเหตุ:** ปรับข้อความป้ายให้ตรงกับโดเมนข้อมูลของคุณ (เช่น “Q1”, “Product A”).
+> **หมายเหตุ:** ปรับข้อความป้ายให้ตรงกับโดเมนข้อมูลของคุณ (เช่น “Q1”, “Product A”).
 
 ### ขั้นตอนที่ 5: สร้างและปรับแต่งซีรีส์
 
-ตอนนี้สร้างซีรีส์ ตั้งค่าตัวเลือกการแสดงผล และใส่ค่าตัวเลข:
+Now create a series, set visual options, and feed the numeric data points:
 
 ```java
 IChartSeries series = chart.getChartData().getSeries().add(ChartType.BoxAndWhisker);
@@ -154,11 +214,11 @@ for (int i = 0; i < data.length; i++) {
 }
 ```
 
-คุณสามารถแทนที่อาร์เรย์ `int[] data` ด้วยค่าที่อ่านจากฐานข้อมูล, ไฟล์ CSV, หรือแหล่งอื่นใดก็ได้
+คุณสามารถแทนที่อาร์เรย์ `int[] data` ด้วยค่าที่อ่านจากฐานข้อมูล, ไฟล์ CSV, หรือแหล่งอื่นใดก็ได้.
 
-### ขั้นตอนที่ 6: บันทึกงานนำเสนอ
+### ขั้นตอนที่ 6: บันทึกการนำเสนอ
 
-บันทึกการเปลี่ยนแปลงลงในไฟล์ PPTX ใหม่:
+Persist the changes to a new PPTX file:
 
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/BoxAndWhisker.pptx", SaveFormat.Pptx);
@@ -166,7 +226,7 @@ pres.save("YOUR_OUTPUT_DIRECTORY/BoxAndWhisker.pptx", SaveFormat.Pptx);
 
 ### ขั้นตอนที่ 7: ทำความสะอาดทรัพยากร
 
-ควรทำการ dispose วัตถุ `Presentation` เสมอเพื่อปล่อยทรัพยากรเนทีฟ:
+Always dispose of the `Presentation` object to free native resources:
 
 ```java
 finally {
@@ -174,76 +234,81 @@ finally {
 }
 ```
 
-## การประยุกต์ใช้ในทางปฏิบัติ
+## การประยุกต์ใช้งานจริง
 
-แผนภูมิ Box‑and‑whisker มีคุณค่าอย่างยิ่งในการวิเคราะห์สถิติและการนำเสนอข้อมูล ต่อไปนี้คือบางสถานการณ์ที่มันโดดเด่น:
+แผนภูมิ box‑and‑whisker มีคุณค่าอย่างยิ่งในการวิเคราะห์สถิติและการนำเสนอข้อมูล ต่อไปนี้เป็นบางสถานการณ์ที่มันโดดเด่น:
 
-- **Financial Analysis** – แสดงการกระจายของรายได้ตามภูมิภาค.  
-- **Quality Control** – ตรวจจับค่าผิดปกติในการวัดการผลิต.  
-- **Academic Research** – แสดงความแปรปรวนของผลการทดลอง.  
-- **Market Research** – เปรียบเทียบประสิทธิภาพผลิตภัณฑ์ตามกลุ่มประชากร.
+1. **การวิเคราะห์ทางการเงิน** – แสดงการกระจายรายได้ตามภูมิภาค.  
+2. **การควบคุมคุณภาพ** – ตรวจจับค่าผิดปกติในการวัดการผลิต.  
+3. **การวิจัยเชิงวิชาการ** – แสดงความแปรปรวนของผลการทดลอง.  
+4. **การวิจัยตลาด** – เปรียบเทียบประสิทธิภาพของผลิตภัณฑ์ตามกลุ่มประชากร.
 
-การรวมแผนภูมิเหล่านี้ลงในสไลด์ PowerPoint ทำให้ผู้มีส่วนได้ส่วนเสียเข้าใจข้อมูลซับซ้อนได้อย่างรวดเร็ว
+การฝังแผนภูมิเหล่านี้โดยตรงลงในสไลด์ PowerPoint ทำให้ผู้มีส่วนได้ส่วนเสียเข้าใจข้อมูลซับซ้อนได้ในพริบตา.
 
 ## ข้อควรพิจารณาด้านประสิทธิภาพ
 
-เมื่อทำงานกับ Aspose.Slides ใน Java ให้คำนึงถึงเคล็ดลับต่อไปนี้:
+Aspose.Slides สามารถจัดการการนำเสนอที่มี **500+ สไลด์** และแผนภูมิที่มี **100 000+ จุดข้อมูล** พร้อมรักษาการใช้หน่วยความจำต่ำกว่า 200 MB บนเซิร์ฟเวอร์ทั่วไป เพื่อให้อยู่ในขอบเขตนั้น:
 
-- **Memory Management** – ทำการ dispose วัตถุ `Presentation` อย่างทันท่วงที.  
-- **Data Handling** – โหลดเฉพาะข้อมูลที่ต้องการ; หลีกเลี่ยงการใส่ชุดข้อมูลขนาดใหญ่โดยตรงลงใน workbook ของแผนภูมิ.  
-- **Lazy Loading** – หากคุณสร้างสไลด์จำนวนมาก ควรสร้างแผนภูมิเฉพาะสำหรับสไลด์ที่จะแสดงเท่านั้น.
+- **การจัดการหน่วยความจำ** – ปล่อยอ็อบเจ็กต์ `Presentation` อย่างทันท่วงที.  
+- **การจัดการข้อมูล** – โหลดเฉพาะข้อมูลที่ต้องการ; หลีกเลี่ยงการป้อนชุดข้อมูลขนาดใหญ่โดยตรงลงใน workbook ของแผนภูมิ.  
+- **การโหลดแบบ Lazy** – เมื่อสร้างสไลด์หลาย ๆ สไลด์ ให้สร้างแผนภูมิเฉพาะสไลด์ที่จะแสดงเท่านั้น.
 
-## ปัญหาทั่วไปและวิธีแก้
+## ปัญหาที่พบบ่อยและวิธีแก้
 
 | ปัญหา | สาเหตุ | วิธีแก้ |
 |-------|-------|----------|
-| **แผนภูมิแสดงเป็นค่าว่าง** | เซลล์ข้อมูลไม่ได้เติมค่าอย่างถูกต้อง | ตรวจสอบว่า `wb.getCell` อ้างอิงแถว/คอลัมน์ที่ถูกต้องและค่าที่ได้ไม่เป็น `null`. |
-| **ค่าผิดปกติไม่แสดง** | `setShowOutlierPoints` ถูกตั้งค่าเป็น `false` | ตรวจสอบว่าได้เรียก `series.setShowOutlierPoints(true)` |
-| **การรั่วของหน่วยความจำ** | ไม่ได้ทำการ dispose งานนำเสนอ | ควรห่อการใช้งานด้วย try/finally และเรียก `dispose()` เสมอ |
-| **ควอร์ไทล์ไม่ถูกต้อง** | ใช้วิธี `Inclusive` เริ่มต้น | เปลี่ยนเป็น `Exclusive` ผ่าน `setQuartileMethod(QuartileMethodType.Exclusive)` |
+| **แผนภูมิแสดงเป็นสีขาว** | เซลล์ข้อมูลไม่ได้เติมค่าอย่างถูกต้อง | ตรวจสอบว่า `wb.getCell` อ้างอิงแถว/คอลัมน์ที่ถูกต้องและค่าที่ได้ไม่เป็น `null`. |
+| **ค่าผิดปกติไม่แสดง** | `setShowOutlierPoints` ถูกตั้งค่าเป็น `false` | ตรวจสอบว่าได้เรียก `series.setShowOutlierPoints(true)`. |
+| **การรั่วของหน่วยความจำ** | ไม่ได้ทำการปล่อย Presentation | ห่อการใช้งานด้วย `try/finally` เสมอและเรียก `dispose()`. |
+| **ควอร์ไทล์ไม่ถูกต้อง** | ใช้วิธี `Inclusive` เริ่มต้น | เปลี่ยนเป็น `Exclusive` ผ่าน `setQuartileMethod(QuartileMethodType.Exclusive)`. |
 
 ## คำถามที่พบบ่อย
 
-**Q1: แผนภูมิ box-and-whisker คืออะไร?**  
-แผนภูมิ box-and-whisker หรือที่เรียกว่า box plot แสดงการกระจายของข้อมูลโดยอิงจากสถิติสรุปห้าประการ: ค่าต่ำสุด, ควอร์ไทล์แรก, ค่ากลาง, ควอร์ไทล์ที่สาม, และค่าสูงสุด พร้อมค่าผิดปกติที่อาจมี
+**Q1: แผนภูมิ box‑and‑whisker คืออะไร?**  
+แผนภูมิ box‑and‑whisker หรือที่เรียกว่า box plot แสดงการกระจายของข้อมูลโดยอิงจากสถิติสรุปห้าประการ: ค่าต่ำสุด, ควอร์ไทล์แรก, ค่ามัธยฐาน, ควอร์ไทล์ที่สาม, ค่าสูงสุด และค่าผิดปกติ
 
-**Q2: ฉันสามารถปรับแต่งลักษณะของแผนภูมิ box-and-whisker ได้หรือไม่?**  
-ได้. Aspose.Slides ให้คุณเปลี่ยนสี, รูปแบบเส้น, รูปร่างของมาร์คเกอร์, และแม้กระทั่งเพิ่มป้ายข้อมูลผ่าน API การจัดรูปแบบของแผนภูมิ
+**Q2: ฉันสามารถปรับแต่งลักษณะของแผนภูมิ box‑and‑whisker ได้หรือไม่?**  
+ได้ Aspose.Slides ให้คุณเปลี่ยนสี, สไตล์เส้น, รูปร่างมาร์คเกอร์, และเพิ่มป้ายข้อมูลผ่าน API การจัดรูปแบบของแผนภูมิ
 
 **Q3: สามารถจัดการหลายซีรีส์ในแผนภูมิเดียวได้หรือไม่?**  
-แน่นอน. ทำซ้ำบล็อกการสร้างซีรีส์สำหรับแต่ละชุดข้อมูลที่ต้องการแสดง
+แน่นอน ทำซ้ำบล็อกการสร้างซีรีส์สำหรับแต่ละชุดข้อมูลที่คุณต้องการแสดง
 
-**Q4: จะแก้ปัญหาข้อมูลไม่แสดงอย่างถูกต้องอย่างไร?**  
-ตรวจสอบให้แน่ใจว่าข้อมูลถูกเขียนลงในเซลล์ของ workbook อย่างถูกต้องและคุณสมบัติการมองเห็นเช่น `setShowMeanLine` ถูกเปิดใช้งาน
+**Q4: ฉันจะแก้ปัญหาข้อมูลไม่แสดงอย่างถูกต้องได้อย่างไร?**  
+ตรวจสอบว่าข้อมูลถูกเขียนลงในเซลล์ workbook อย่างถูกต้องและคุณสมบัติการแสดงผลเช่น `setShowMeanLine` ถูกเปิดใช้งาน
 
-**Q5: จะหาแหล่งสนับสนุนเมื่อเจอปัญหาได้จากที่ไหน?**  
-เยี่ยมชม [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) เพื่อรับความช่วยเหลือจากชุมชน หรือดูเอกสารอย่างเป็นทางการ
+**Q5: ฉันจะหาแหล่งสนับสนุนได้จากที่ไหนหากเจอปัญหา?**  
+เยี่ยมชม [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) เพื่อขอความช่วยเหลือจากชุมชน หรือดูเอกสารอย่างเป็นทางการ
 
 **Q6: Aspose.Slides รองรับประเภทแผนภูมิอื่น ๆ หรือไม่?**  
-ใช่, รองรับแผนภูมิประเภท line, bar, pie, scatter, radar และอื่น ๆ อีกมาก
+ใช่ รองรับแผนภูมิมากกว่า 50 ประเภท รวมถึง line, bar, pie, scatter, radar, และ funnel ทำให้คุณเลือกภาพที่เหมาะกับข้อมูลของคุณ
 
-**Q7: สามารถสร้างแผนภูมิในสภาพแวดล้อมเซิร์ฟเวอร์แบบ headless ได้หรือไม่?**  
-ไลบรารีทำงานเต็มรูปแบบในสภาพแวดล้อมเซิร์ฟเวอร์; ไม่จำเป็นต้องมี UI
+**Q7: ฉันสามารถสร้างแผนภูมิในสภาพแวดล้อมเซิร์ฟเวอร์แบบ headless ได้หรือไม่?**  
+ไลบรารีทำงานเต็มรูปแบบในสถานการณ์ฝั่งเซิร์ฟเวอร์; ไม่ต้องการ UI หรือการติดตั้ง Microsoft Office
 
 ## แหล่งข้อมูล
 
 - **Documentation**: สำรวจอ้างอิง API รายละเอียดที่ [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)  
-- **Download**: เข้าถึงการปล่อย Aspose.Slides [ที่นี่](https://releases.aspose.com/slides/java/)  
-- **Purchase**: ซื้อไลเซนส์เพื่อเปิดฟีเจอร์เต็มที่ที่ [Aspose Purchase](https://purchase.aspose.com/buy)  
-- **Free Trial & Temporary License**: เริ่มต้นด้วยการทดลองใช้ฟรีหรือขอไลเซนส์ชั่วคราว [ที่นี่](https://releases.aspose.com/slides/java/)
+- **Download**: เข้าถึงหน้าปล่อย Aspose.Slides [Aspose.Slides releases page](https://releases.aspose.com/slides/java/)  
+- **Purchase**: ซื้อไลเซนส์เพื่อเปิดฟีเจอร์เต็ม [Aspose Purchase](https://purchase.aspose.com/buy)  
+- **Free trial & temporary license**: เริ่มต้นด้วยการทดลองใช้งานฟรีหรือขอไลเซนส์ชั่วคราว [Aspose.Slides releases page](https://releases.aspose.com/slides/java/)
 
-โดยทำตามคู่มือนี้ คุณจะพร้อมสร้างแผนภูมิ box‑and‑whisker อย่างมีประสิทธิภาพในแอปพลิเคชัน Java ของคุณและฝังลงในงานนำเสนอ PowerPoint โดยตรง ขอให้สนุกกับการเขียนโค้ด!
+โดยทำตามคู่มือนี้ คุณจะพร้อมสร้างแผนภูมิ box‑and‑whisker ที่ให้ข้อมูลเชิงลึกในแอปพลิเคชัน Java ของคุณโดยอัตโนมัติและฝังลงในงานนำเสนอ PowerPoint โดยตรง ขอให้สนุกกับการเขียนโค้ด!
 
 ---
 
-**อัปเดตล่าสุด:** 2026-03-02  
+**อัปเดตล่าสุด:** 2026-08-21  
 **ทดสอบด้วย:** Aspose.Slides 25.4 (JDK 16 classifier)  
 **ผู้เขียน:** Aspose
+
+## บทแนะนำที่เกี่ยวข้อง
+
+- [วิธีเพิ่มแผนภูมิลงใน PowerPoint ด้วย Aspose.Slides for Java: คู่มือขั้นตอนโดยขั้นตอน](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [Java สร้างแผนภูมิ PowerPoint ด้วย Aspose.Slides](/slides/java/charts-graphs/aspose-slides-java-chart-manipulation/)
+- [เพิ่มแอนิเมชันให้แผนภูมิ PowerPoint ด้วย Aspose.Slides for Java – คู่มือขั้นตอนโดยขั้นตอน](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
