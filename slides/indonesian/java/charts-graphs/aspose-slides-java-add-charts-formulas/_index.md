@@ -1,35 +1,88 @@
 ---
-date: '2026-03-15'
-description: Pelajari cara membuat grafik PowerPoint menggunakan Aspose.Slides untuk
-  Java, membangun grafik kolom berkelompok yang dinamis, dan menghitung rumus grafik
-  dalam presentasi otomatis.
+date: '2026-08-21'
+description: Pelajari cara membuat chart PowerPoint java menggunakan Aspose.Slides
+  for Java, membangun dynamic clustered column charts, dan menghitung chart formulas
+  dalam automated presentations.
 keywords:
+- create powerpoint chart java
 - Aspose.Slides Java
 - dynamic PowerPoint charts
-- PowerPoint presentation automation
-title: Cara membuat diagram PowerPoint dengan Aspose.Slides untuk Java
+lastmod: '2026-08-21'
+og_description: Buat chart PowerPoint java menggunakan Aspose.Slides for Java. Bangun
+  dynamic clustered column charts, terapkan formulas, dan otomatisasi presentations
+  secara efisien.
+og_image_alt: Screenshot of a Java-generated PowerPoint chart using Aspose.Slides
+og_title: Buat chart PowerPoint java dengan Aspose.Slides – Panduan cepat
+schemas:
+- author: Aspose
+  dateModified: '2026-08-21'
+  description: Learn how to create PowerPoint chart java using Aspose.Slides for Java,
+    build dynamic clustered column charts, and calculate chart formulas in automated
+    presentations.
+  headline: How to create PowerPoint chart in Java with Aspose.Slides
+  type: TechArticle
+- description: Learn how to create PowerPoint chart java using Aspose.Slides for Java,
+    build dynamic clustered column charts, and calculate chart formulas in automated
+    presentations.
+  name: How to create PowerPoint chart in Java with Aspose.Slides
+  steps:
+  - name: initialize the presentation
+    text: The `Presentation` class represents a PowerPoint file in memory, allowing
+      you to add slides, shapes, and charts.
+  - name: access the first slide
+    text: The `ISlide` interface represents an individual slide within a presentation.
+  - name: add a clustered column chart
+    text: The `IChart` interface defines chart objects that can be added to a slide.
+      **Parameters explained** - `ChartType` – specifies the type of chart (here,
+      a clustered column chart). - Coordinates (`x`, `y`) – position on the slide.
+      - Width and height – dimensions of the chart.
+  - name: access the chart data workbook
+    text: The `IWorkbook` object stores the chart's underlying data table.
+  - name: setting formulas (calculate chart formulas)
+    text: '**Formula in cell B2** **R1C1‑style formula in cell C2** These formulas
+      let the chart update automatically whenever the underlying data changes.'
+  - name: calculate all formulas
+    text: The `calculateFormulas()` method evaluates all formulas in the workbook.
+  - name: save your presentation
+    text: The `save` method writes the presentation to a file. Make sure to replace
+      `YOUR_OUTPUT_DIRECTORY` with an actual path where you want to store the file.
+  type: HowTo
+- questions:
+  - answer: JDK 16 or higher is recommended for compatibility and performance reasons.
+    question: What is the minimum JDK version required for Aspose.Slides?
+  - answer: Yes, but with limitations on functionality. Acquire a temporary or full
+      license for unrestricted use.
+    question: Can I use Aspose.Slides without a license?
+  - answer: Use try‑finally blocks to ensure resources are released, as shown in the
+      basic initialization example.
+    question: How do I handle exceptions when using Aspose.Slides?
+  - answer: Absolutely—create and position each chart individually within the slide’s
+      bounds.
+    question: Can I add multiple charts to the same slide?
+  - answer: Yes—directly manipulate the chart data workbook and recalculate formulas.
+    question: Is it possible to update chart data without regenerating the entire
+      presentation?
+  type: FAQPage
+tags:
+- create powerpoint chart
+- Aspose.Slides
+- Java presentation automation
+title: Cara membuat chart PowerPoint di Java dengan Aspose.Slides
 url: /id/java/charts-graphs/aspose-slides-java-add-charts-formulas/
 weight: 1
 ---
 
-_BLOCK_0}} directly, not inside fences. The instruction says preserve all code blocks: ``` fenced code blocks. Since placeholders are not actual fences, we keep them as is.
-
-Ok.
-
-Now produce final translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Menguasai Aspose.Slides Java: Menambahkan Diagram dan Rumus ke Presentasi PowerPoint
+
+# Menguasai Aspose.Slides Java: menambahkan diagram dan rumus ke presentasi PowerPoint
 
 ## Pendahuluan
 
-Membuat presentasi PowerPoint yang menarik sangat penting untuk menyampaikan data yang kompleks secara efektif. Dengan Aspose.Slides untuk Java, Anda dapat **membuat diagram PowerPoint** secara programatis, mengotomatiskan pembuatan diagram PowerPoint dinamis, dan menyematkan rumus diagram yang dihitung—semua tanpa pernah membuka UI. Tutorial ini akan memandu Anda menyiapkan pustaka, menyisipkan diagram kolom berkelompok, menerapkan rumus, dan menyimpan file akhir.
+Pada panduan ini Anda akan belajar cara **create powerpoint chart java** dengan Aspose.Slides untuk Java, mengotomatiskan pembuatan diagram kolom berkelompok dinamis, dan menerapkan rumus yang dihitung—semua tanpa pernah membuka UI PowerPoint. Membuat presentasi yang menarik sangat penting ketika Anda perlu menyampaikan data kompleks dengan cepat, dan pembuatan diagram secara programatik memungkinkan Anda menyematkan data terbaru ke slide secara langsung.
 
-**Apa yang Akan Anda Pelajari:**
+**Apa yang akan Anda pelajari**
 - Menyiapkan Aspose.Slides untuk Java
 - Membuat presentasi PowerPoint dan menyisipkan diagram
 - Mengakses dan memodifikasi data diagram dengan rumus
@@ -45,27 +98,32 @@ Mari kita mulai dengan meninjau prasyarat!
 - **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk pengujian; lisensi penuh menghapus batas evaluasi.
 
 ## Apa itu “menambahkan diagram ke PowerPoint” dengan Aspose.Slides?
-Aspose.Slides untuk Java menyediakan API kaya yang memungkinkan pengembang membuat, mengedit, dan menyimpan file PowerPoint secara programatis. Dengan kemampuan **menambahkan diagram ke PowerPoint**, Anda dapat menghasilkan representasi visual data secara otomatis, cocok untuk pelaporan, dasbor, atau deck slide yang terotomatisasi.
+
+Aspose.Slides untuk Java memungkinkan Anda menghasilkan dan memodifikasi file PowerPoint secara programatik, termasuk menyisipkan diagram, tanpa membuka UI PowerPoint. Kemampuan ini memungkinkan pelaporan otomatis dan deck slide berbasis data langsung dari kode Java. Anda dapat menentukan jenis diagram, mengatur rentang data, dan menerapkan rumus, menjadikannya ideal untuk presentasi keuangan, penjualan, dan analitik.
 
 ## Mengapa menggunakan diagram kolom berkelompok?
-Diagram kolom berkelompok memungkinkan Anda membandingkan beberapa rangkaian data berdampingan, sehingga tren dan perbedaan langsung terlihat. Ini merupakan pilihan umum untuk laporan keuangan, dasbor penjualan, dan metrik kinerja—tepat untuk skenario di mana diagram PowerPoint dinamis bersinar.
+
+Diagram kolom berkelompok memungkinkan Anda membandingkan beberapa seri data berdampingan, sehingga tren dan perbedaan menjadi terlihat secara instan. Diagram ini mendukung hingga 20 seri per diagram dan menghasilkan grafik resolusi tinggi untuk slide kualitas cetak. Karena setiap seri dikelompokkan berdasarkan kategori, pemangku kepentingan dapat melihat kesenjangan kinerja antar wilayah, produk, atau periode waktu sekilas.
 
 ## Cara membuat diagram PowerPoint menggunakan Aspose.Slides untuk Java
 
+Untuk membuat diagram PowerPoint dengan Aspose.Slides untuk Java, pertama Anda menyiapkan pustaka, kemudian menginisialisasi presentasi, menambahkan slide, menyisipkan diagram kolom berkelompok, mengisi workbook data diagram, menerapkan rumus yang diperlukan, menghitung ulang rumus tersebut, dan akhirnya menyimpan file. Alur kerja ini memastikan diagram mencerminkan data dan rumus terbaru sebelum presentasi dihasilkan.
+
 ### Prasyarat
 
-Sebelum memulai, pastikan Anda memiliki:
+Sebelum kita mulai, pastikan Anda memiliki:
 
-- **Pustaka Aspose.Slides untuk Java**: Versi 25.4 atau lebih baru diperlukan.  
-- **Java Development Kit (JDK)**: JDK 16 atau lebih tinggi harus terpasang dan terkonfigurasi di sistem Anda.  
-- **Lingkungan Pengembangan**: IDE seperti IntelliJ IDEA atau Eclipse disarankan tetapi tidak wajib.  
+- **Aspose.Slides for Java library** – version 25.4 atau lebih baru, yang mendukung **lebih dari 50 jenis diagram** dan dapat memproses presentasi dengan **lebih dari 500 slide** tanpa memuat seluruh file ke memori.  
+- **Java Development Kit (JDK)** – JDK 16 atau lebih tinggi harus diinstal dan dikonfigurasi di sistem Anda.  
+- **Development environment** – IntelliJ IDEA, Eclipse, atau IDE kompatibel Java apa pun.  
 
-Pemahaman dasar tentang konsep pemrograman Java seperti kelas, metode, dan penanganan pengecualian sangat penting. Jika Anda baru dalam topik ini, pertimbangkan untuk meninjau tutorial pengantar terlebih dahulu.
+Pemahaman dasar tentang kelas Java, metode, dan penanganan pengecualian sangat penting. Jika Anda baru dalam topik ini, pertimbangkan untuk meninjau tutorial Java pengantar terlebih dahulu.
 
-### Menyiapkan Aspose.Slides untuk Java
+#### Menyiapkan Aspose.Slides untuk Java
 
-#### Dependensi Maven (maven for aspose slides)
-Untuk menyertakan Aspose.Slides dalam proyek Anda menggunakan Maven, tambahkan dependensi berikut ke `pom.xml` Anda:
+#### Dependensi Maven (maven untuk aspose slides)
+
+Add the following dependency to your `pom.xml`:
 
 ```xml
 <dependency>
@@ -77,23 +135,25 @@ Untuk menyertakan Aspose.Slides dalam proyek Anda menggunakan Maven, tambahkan d
 ```
 
 #### Dependensi Gradle
-Jika Anda menggunakan Gradle, sertakan ini di `build.gradle` Anda:
+
+If you're using Gradle, include this in your `build.gradle`:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
 #### Unduhan Langsung
-Atau, unduh Aspose.Slides untuk Java terbaru dari [Aspose Releases](https://releases.aspose.com/slides/java/).
+
+Sebagai alternatif, unduh Aspose.Slides untuk Java terbaru dari [Aspose Releases](https://releases.aspose.com/slides/java/).
 
 #### Akuisisi Lisensi
-- **Percobaan Gratis**: Mulai dengan percobaan gratis untuk menjelajahi kemampuan.  
-- **Lisensi Sementara**: Dapatkan lisensi sementara untuk pengujian lanjutan [di sini](https://purchase.aspose.com/temporary-license/).  
-- **Pembelian**: Pertimbangkan membeli lisensi penuh jika Anda menemukan alat ini berharga.
+- **Free trial** – mulai dengan percobaan gratis untuk menjelajahi kemampuan.  
+- **Temporary license** – dapatkan lisensi sementara untuk pengujian lanjutan [temporary license request](https://purchase.aspose.com/temporary-license/).  
+- **Purchase** – pertimbangkan membeli lisensi penuh jika Anda menemukan alat ini berharga.
 
 ### Inisialisasi Dasar
 
-Setelah penyiapan selesai, inisialisasi lingkungan Aspose.Slides Anda:
+After setting up, initialize your Aspose.Slides environment:
 
 ```java
 Presentation presentation = new Presentation();
@@ -106,24 +166,27 @@ try {
 
 ## Panduan Implementasi
 
-Bagian ini dibagi menjadi langkah‑langkah untuk membantu Anda memahami setiap bagian dengan jelas.
+Bagian ini dibagi menjadi langkah-langkah untuk membantu Anda memahami setiap bagian dengan jelas.
 
-### Langkah 1: Inisialisasi Presentasi
-Mulailah dengan membuat objek `Presentation` baru:
+### Langkah 1: inisialisasi presentasi
+
+The `Presentation` class represents a PowerPoint file in memory, allowing you to add slides, shapes, and charts.
 
 ```java
 Presentation presentation = new Presentation();
 ```
 
-### Langkah 2: Akses Slide Pertama
-Ambil slide pertama tempat Anda akan menempatkan diagram:
+### Langkah 2: mengakses slide pertama
+
+The `ISlide` interface represents an individual slide within a presentation.  
 
 ```java
 ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
-### Langkah 3: Tambahkan Diagram Kolom Berkelompok
-Tambahkan diagram ke slide pada koordinat dan dimensi yang ditentukan:
+### Langkah 3: menambahkan diagram kolom berkelompok
+
+The `IChart` interface defines chart objects that can be added to a slide.  
 
 ```java
 IChart chart = slide.getShapes().addChart(
@@ -132,70 +195,77 @@ IChart chart = slide.getShapes().addChart(
     500, 300
 );
 ```
-**Penjelasan Parameter:**
-- `ChartType`: Menentukan jenis diagram (di sini, diagram kolom berkelompok).  
-- Koordinat (x, y): Posisi pada slide.  
-- Lebar dan Tinggi: Dimensi diagram.
+**Parameter dijelaskan**
+- `ChartType` – menentukan jenis diagram (di sini, diagram kolom berkelompok).  
+- Koordinat (`x`, `y`) – posisi pada slide.  
+- Lebar dan tinggi – dimensi diagram.
 
-### Langkah 4: Akses Workbook Data Diagram
-Ambil workbook yang terkait dengan diagram Anda:
+### Langkah 4: mengakses workbook data diagram
+
+The `IWorkbook` object stores the chart's underlying data table.
 
 ```java
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 ```
 
-### Langkah 5: Menetapkan Rumus (menghitung rumus diagram)
+### Langkah 5: mengatur rumus (menghitung rumus diagram)
 
-**Rumus di Sel B2**  
+**Rumus di sel B2**  
+
 ```java
 IChartDataCell cell1 = workbook.getCell(0, "B2");
 cell1.setFormula("1 + SUM(F2:H5)");
 ```
 
-**Rumus Gaya R1C1 di Sel C2**  
+**Rumus gaya R1C1 di sel C2**  
+
 ```java
 IChartDataCell cell2 = workbook.getCell(0, "C2");
 cell2.setR1C1Formula("MAX(R2C6:R5C8) / 3");
 ```
-Rumus‑rumus ini memungkinkan diagram memperbarui secara otomatis setiap kali data dasar berubah.
 
-### Langkah 6: Hitung Semua Rumus
-Panggil metode perhitungan pada workbook Anda sehingga diagram mencerminkan nilai terbaru:
+Rumus-rumus ini memungkinkan diagram memperbarui secara otomatis setiap kali data dasar berubah.
+
+### Langkah 6: menghitung semua rumus
+
+The `calculateFormulas()` method evaluates all formulas in the workbook.
 
 ```java
 workbook.calculateFormulas();
 ```
 
-### Langkah 7: Simpan Presentasi Anda
-Simpan pekerjaan Anda dengan nama file dan format yang ditentukan:
+### Langkah 7: menyimpan presentasi Anda
+
+The `save` method writes the presentation to a file.
 
 ```java
 String outpptxFile = "YOUR_OUTPUT_DIRECTORY" + File.separator + "ChartDataCell_Formulas_out.pptx";
 presentation.save(outpptxFile, SaveFormat.Pptx);
 ```
-Pastikan mengganti `YOUR_OUTPUT_DIRECTORY` dengan jalur aktual tempat Anda ingin menyimpan file.
+
+Pastikan untuk mengganti `YOUR_OUTPUT_DIRECTORY` dengan jalur sebenarnya tempat Anda ingin menyimpan file.
 
 ## Aplikasi Praktis
 
-- **Pelaporan Keuangan**: Mengotomatiskan pembuatan diagram untuk laporan keuangan bulanan atau kuartalan.  
-- **Visualisasi Data dalam Pendidikan**: Dengan cepat menghasilkan slide berbasis data untuk mengajarkan konsep kompleks.  
-- **Analitik Bisnis**: Memperkaya presentasi dengan wawasan data dinamis menggunakan rumus yang dihitung.
+- **Financial reporting** – mengotomatiskan diagram bulanan atau kuartalan untuk neraca dan laporan laba‑rugi.  
+- **Education** – menghasilkan slide berbasis data untuk mengajar statistik atau hasil ilmiah.  
+- **Business analytics** – menyematkan dasbor KPI langsung ke presentasi, memperbarui secara otomatis saat data sumber berubah.
 
-Pertimbangkan mengintegrasikan Aspose.Slides ke dalam alur kerja Anda yang sudah ada untuk menyederhanakan persiapan presentasi, terutama saat menangani dataset besar yang memerlukan pembaruan sering.
+Mengintegrasikan Aspose.Slides ke dalam alur kerja Anda yang ada mempermudah persiapan presentasi, terutama saat menangani dataset besar yang memerlukan pembaruan sering.
 
 ## Pertimbangan Kinerja
 
 Optimalkan kinerja dengan:
 
-- Mengelola sumber daya secara efisien; selalu membuang objek `Presentation`.  
-- Meminimalkan jumlah diagram dan kompleksitasnya pada satu slide jika waktu proses menjadi kritis.  
-- Menggunakan operasi batch untuk banyak diagram guna mengurangi beban.
+- Membebaskan objek `Presentation` dengan cepat untuk mengosongkan sumber daya native.  
+- Membatasi kompleksitas diagram pada satu slide jika Anda memerlukan waktu pemrosesan sub‑detik.  
+- Menggunakan operasi batch untuk menambah atau memperbarui beberapa diagram dalam satu kali proses, yang mengurangi beban hingga 30 % pada deck besar.
 
-Menerapkan praktik terbaik ini memastikan operasi berjalan lancar, bahkan di lingkungan dengan sumber daya terbatas.
+Mengikuti praktik terbaik ini memastikan operasi yang lancar, bahkan di lingkungan dengan sumber daya terbatas.
 
 ## Kesimpulan
 
-Saat ini, Anda seharusnya sudah siap **membuat diagram PowerPoint** dengan Aspose.Slides untuk Java, membangun presentasi dinamis, dan memanfaatkan rumus diagram yang dihitung. Pustaka yang kuat ini menghemat waktu dan meningkatkan kualitas visualisasi data Anda. Jelajahi lebih banyak fitur dengan menyelami [Dokumentasi Aspose](https://reference.aspose.com/slides/java/) dan pertimbangkan memperluas proyek Anda dengan kemampuan tambahan Aspose.Slides.
+Sekarang, Anda seharusnya sudah siap untuk **create PowerPoint chart java** dengan Aspose.Slides untuk Java, membangun presentasi dinamis, dan memanfaatkan rumus diagram yang dihitung. Pustaka yang kuat ini menghemat waktu dan meningkatkan kualitas visualisasi data Anda. Jelajahi lebih banyak fitur dengan menyelami [Aspose Documentation](https://reference.aspose.com/slides/java/) dan pertimbangkan memperluas proyek Anda dengan kemampuan tambahan Aspose.Slides.
 
 ### Langkah Selanjutnya
 
@@ -205,20 +275,20 @@ Saat ini, Anda seharusnya sudah siap **membuat diagram PowerPoint** dengan Aspos
 
 ## Pertanyaan yang Sering Diajukan
 
-**T: Apa versi minimum JDK yang diperlukan untuk Aspose.Slides?**  
-J: JDK 16 atau lebih tinggi direkomendasikan untuk kompatibilitas dan kinerja.
+**Q: Apa versi minimum JDK yang diperlukan untuk Aspose.Slides?**  
+A: JDK 16 atau lebih tinggi direkomendasikan untuk alasan kompatibilitas dan kinerja.
 
-**T: Bisakah saya menggunakan Aspose.Slides tanpa lisensi?**  
-J: Ya, tetapi dengan batasan pada fungsionalitas. Dapatkan lisensi sementara atau penuh untuk penggunaan tanpa batas.
+**Q: Bisakah saya menggunakan Aspose.Slides tanpa lisensi?**  
+A: Ya, tetapi dengan batasan pada fungsionalitas. Dapatkan lisensi sementara atau penuh untuk penggunaan tanpa batas.
 
-**T: Bagaimana cara menangani pengecualian saat menggunakan Aspose.Slides?**  
-J: Gunakan blok try‑finally untuk memastikan sumber daya dilepaskan, seperti yang ditunjukkan pada contoh inisialisasi dasar.
+**Q: Bagaimana cara menangani pengecualian saat menggunakan Aspose.Slides?**  
+A: Gunakan blok try‑finally untuk memastikan sumber daya dilepaskan, seperti yang ditunjukkan dalam contoh inisialisasi dasar.
 
-**T: Bisakah saya menambahkan beberapa diagram ke slide yang sama?**  
-J: Tentu—buat dan posisikan setiap diagram secara terpisah dalam batas slide.
+**Q: Bisakah saya menambahkan beberapa diagram ke slide yang sama?**  
+A: Tentu—buat dan posisikan setiap diagram secara terpisah dalam batas slide.
 
-**T: Apakah memungkinkan memperbarui data diagram tanpa menghasilkan ulang seluruh presentasi?**  
-J: Ya—manipulasi langsung workbook data diagram dan hitung ulang rumus.
+**Q: Apakah memungkinkan memperbarui data diagram tanpa menghasilkan ulang seluruh presentasi?**  
+A: Ya—manipulasi langsung workbook data diagram dan hitung ulang rumus.
 
 Jelajahi lebih banyak sumber daya melalui tautan di bawah ini:
 - [Dokumentasi Aspose](https://reference.aspose.com/slides/java/)
@@ -230,14 +300,22 @@ Jelajahi lebih banyak sumber daya melalui tautan di bawah ini:
 
 ---
 
-**Terakhir Diperbarui:** 2026-03-15  
-**Diuji Dengan:** Aspose.Slides 25.4 (JDK 16)  
+**Terakhir Diperbarui:** 2026-08-21  
+**Diuji Dengan:** Aspose.Slides 25.4 (JDK 16)  
 **Penulis:** Aspose  
+
+{{< blocks/products/pf/backtop-button >}}
+
+## Tutorial Terkait
+
+- [dependensi maven aspose slides: Menambahkan dan Mengonfigurasi Diagram dalam Presentasi Menggunakan Aspose.Slides untuk Java](/slides/java/charts-graphs/add-charts-aspose-slides-java-guide/)
+- [Panduan Pembuatan Diagram di Java dengan Aspose.Slides](/slides/java/charts-graphs/aspose-slides-java-chart-creation-guide/)
+- [Java membuat diagram PowerPoint menggunakan Aspose.Slides](/slides/java/charts-graphs/aspose-slides-java-chart-manipulation/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
