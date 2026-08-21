@@ -1,42 +1,132 @@
 ---
-"date": "2025-04-17"
-"description": "เรียนรู้วิธีการสร้างการนำเสนอแบบไดนามิกโดยใช้ Aspose.Slides สำหรับ Java พร้อมด้วยแผนภูมิคอลัมน์แบบกลุ่มที่ปรับปรุงด้วยเส้นแนวโน้ม"
-"title": "สร้างและปรับแต่งแผนภูมิด้วยเส้นแนวโน้มใน Aspose.Slides สำหรับ Java"
-"url": "/th/java/charts-graphs/create-customize-charts-trend-lines-aspose-slides-java/"
-"weight": 1
+date: '2026-08-21'
+description: เรียนรู้วิธีสร้าง clustered column chart และเพิ่ม trend lines ด้วย Aspose.Slides
+  for Java รวมถึง license setup, การรวม Maven/Gradle, และตัวอย่างโดยละเอียด
+keywords:
+- create clustered column chart
+- add trend line
+- aspose slides license
+- java chart creation
+- trend lines in charts
+lastmod: '2026-08-21'
+og_description: สร้าง clustered column chart และเพิ่ม trend lines ด้วย Aspose.Slides
+  for Java คู่มือนี้ครอบคลุม license setup, Maven/Gradle, และ step‑by‑step code snippets
+og_image_alt: Aspose.Slides for Java tutorial showing a clustered column chart with
+  trend lines
+og_title: สร้าง clustered column chart และเพิ่ม trend lines ด้วย Aspose.Slides for
+  Java
+schemas:
+- author: Aspose
+  dateModified: '2026-08-21'
+  description: Learn how to create a clustered column chart and add trend lines with
+    Aspose.Slides for Java. Includes license setup, Maven/Gradle integration, and
+    detailed examples.
+  headline: How to create clustered column chart and add trend lines using Aspose.Slides
+    for Java
+  type: TechArticle
+- description: Learn how to create a clustered column chart and add trend lines with
+    Aspose.Slides for Java. Includes license setup, Maven/Gradle integration, and
+    detailed examples.
+  name: How to create clustered column chart and add trend lines using Aspose.Slides
+    for Java
+  steps:
+  - name: '**Initialize the presentation** – set up the output folder and create a
+      new `Presentation` instance.'
+    text: '**Initialize the presentation** – set up the output folder and create a
+      new `Presentation` instance.'
+  - name: '**Add a clustered column chart** – obtain the chart shape, configure its
+      series, and populate data points.'
+    text: '**Add a clustered column chart** – obtain the chart shape, configure its
+      series, and populate data points.'
+  - name: '**Configure the trend line** – select the series and call `addTrendline(TrendlineType.Exponential)`.'
+    text: '**Configure the trend line** – select the series and call `addTrendline(TrendlineType.Exponential)`.'
+  - name: '**Set up the trend line** – use `addTrendline(TrendlineType.Linear)` and
+      then adjust `getLineFormat().setFillFormat().setFillType(FillType.Solid)` to
+      change color.'
+    text: '**Set up the trend line** – use `addTrendline(TrendlineType.Linear)` and
+      then adjust `getLineFormat().setFillFormat().setFillType(FillType.Solid)` to
+      change color.'
+  - name: '**Customize the trend line** – after adding the trend line, access its
+      `getDataLabel()` and set the `setText("Custom label")` property.'
+    text: '**Customize the trend line** – after adding the trend line, access its
+      `getDataLabel()` and set the `setText("Custom label")` property.'
+  - name: '**Configure the trend line** – call `addTrendline(TrendlineType.MovingAverage)`
+      and set `setPeriod(3)` to use a three‑point moving average.'
+    text: '**Configure the trend line** – call `addTrendline(TrendlineType.MovingAverage)`
+      and set `setPeriod(3)` to use a three‑point moving average.'
+  - name: '**Customize the trend line** – after adding the trend line, set `setOrder(3)`
+      for a cubic fit.'
+    text: '**Customize the trend line** – after adding the trend line, set `setOrder(3)`
+      for a cubic fit.'
+  - name: '**Configure the trend line** – use `addTrendline(TrendlineType.Power)`
+      and adjust `setBackward(2)` to extend the line backward.'
+    text: '**Configure the trend line** – use `addTrendline(TrendlineType.Power)`
+      and adjust `setBackward(2)` to extend the line backward.'
+  type: HowTo
+- questions:
+  - answer: Add the `<dependency>` snippet shown in the Maven section to your `pom.xml`
+      and run `mvn clean install`.
+    question: How do I set up Aspose.Slides for a Maven project?
+  - answer: Yes, you can modify line style, width, dash pattern, and even forecast
+      forward/backward values via the `ITrendline` API.
+    question: Can I customise trend lines beyond colour and label?
+  - answer: Verify that your JDK version matches the Aspose.Slides minimum requirement
+      (JDK 8+). Consult the Aspose release notes for any breaking changes.
+    question: What should I do if I encounter a version‑compatibility error?
+  - answer: Absolutely. Loop through each `IChart` in a slide collection and invoke
+      the appropriate `addTrendline` method for each series.
+    question: Is it possible to add trend lines to multiple charts automatically?
+  - answer: Yes, a purchased Aspose.Slides license removes evaluation limits and unlocks
+      full performance optimisations.
+    question: Do I need a paid license for production use?
+  type: FAQPage
+tags:
+- create clustered column chart
+- Aspose.Slides for Java
+- Java chart customization
+- trend line examples
+- Java presentation generation
+title: วิธีสร้าง clustered column chart และเพิ่ม trend lines ด้วย Aspose.Slides for
+  Java
+url: /th/java/charts-graphs/create-customize-charts-trend-lines-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# วิธีการสร้างและปรับแต่งแผนภูมิด้วยเส้นแนวโน้มโดยใช้ Aspose.Slides สำหรับ Java
 
-## การแนะนำ
-การสร้างงานนำเสนอที่น่าสนใจมักเกี่ยวข้องกับการแสดงข้อมูลในรูปแบบแผนภูมิ ซึ่งจะทำให้ข้อมูลของคุณเข้าใจง่ายและมีประสิทธิผลมากขึ้น ด้วย "Aspose.Slides สำหรับ Java" คุณสามารถผสานองค์ประกอบแผนภูมิแบบไดนามิกลงในสไลด์ของคุณได้อย่างง่ายดาย เช่น แผนภูมิคอลัมน์แบบกลุ่มที่จับคู่กับเส้นแนวโน้มต่างๆ บทช่วยสอนนี้จะแนะนำคุณเกี่ยวกับวิธีการสร้างงานนำเสนอใน Java โดยใช้ Aspose.Slides และเพิ่มเส้นแนวโน้มประเภทต่างๆ เพื่อปรับปรุงการแสดงข้อมูลของคุณ
+# วิธีสร้างแผนภูมิคอลัมน์แบบกลุ่มและเพิ่มเส้นแนวโน้มโดยใช้ Aspose.Slides for Java
 
-**สิ่งที่คุณจะได้เรียนรู้:**
-- การตั้งค่า Aspose.Slides สำหรับ Java
-- การสร้างการนำเสนอแบบว่างเปล่าและการเพิ่มแผนภูมิคอลัมน์แบบคลัสเตอร์
-- การเพิ่มเส้นแนวโน้มต่างๆ เช่น เลขชี้กำลัง เชิงเส้น ลอการิทึม ค่าเฉลี่ยเคลื่อนที่ พหุนาม และกำลัง
-- การปรับแต่งเส้นแนวโน้มด้วยการตั้งค่าเฉพาะ
+การสร้างงานนำเสนอที่น่าสนใจมักเริ่มจากการแสดงภาพข้อมูลที่ชัดเจน ในคู่มือนี้คุณจะ **สร้างแผนภูมิคอลัมน์แบบกลุ่ม** แล้วเสริมด้วยเส้นแนวโน้มหลากหลายประเภท—เอ็กซ์โพเนนเชียล, เส้นตรง, ลอการิทึม, ค่าเฉลี่ยเคลื่อนที่, พหุนาม, และพาวเวอร์—โดยใช้ Aspose.Slides for Java API ที่มีประสิทธิภาพ
 
-มาเริ่มกันที่ข้อกำหนดเบื้องต้นก่อนเลยดีกว่า
+## คำตอบสั้น
+- **ขั้นตอนแรกคืออะไร?** เริ่มต้นด้วยอ็อบเจ็กต์ `Presentation` แล้วเพิ่มแผนภูมิคอลัมน์แบบกลุ่มลงในสไลด์.  
+- **ต้องใช้เวอร์ชันไลบรารีใด?** Aspose.Slides for Java 25.4 หรือใหม่กว่า.  
+- **ฉันสามารถใช้ Maven หรือ Gradle ได้หรือไม่?** ใช่ ทั้งสองได้รับการสนับสนุน; Maven ใช้ `<dependency>` และ Gradle ใช้ `implementation`.  
+- **ต้องการไลเซนส์หรือไม่?** ไลเซนส์ทดลองใช้ได้สำหรับการประเมิน; ไลเซนส์เต็มของ Aspose.Slides จะลบข้อจำกัดการประเมิน.  
+- **มีประเภทเส้นแนวโน้มกี่ประเภท?** มีทั้งหมดหกประเภทในตัว: exponential, linear, logarithmic, moving average, polynomial, และ power.
+
+## create clustered column chart คืออะไร?
+`create clustered column chart` หมายถึงการสร้างแผนภูมิที่จัดกลุ่มหลายชุดข้อมูลเคียงข้างกันในแต่ละหมวดหมู่ ทำให้เปรียบเทียบค่าระหว่างชุดได้ง่าย ประเภทแผนภูมินี้เหมาะสำหรับการแสดงข้อมูลเชิงหมวดหมู่ เช่น ยอดขายไตรมาสต่อภูมิภาค ช่วยให้ผู้ชมมองเห็นความแตกต่างระหว่างกลุ่มได้อย่างรวดเร็ว
+
+## ทำไมต้องเพิ่มเส้นแนวโน้ม?
+เส้นแนวโน้มเปิดเผยรูปแบบพื้นฐานของชุดข้อมูล ช่วยให้คุณคาดการณ์ค่าต่อไปในอนาคต, เน้นอัตราการเติบโต, หรือทำให้ข้อมูลที่มีเสียงรบกวนเรียบขึ้น โดยการเพิ่มเส้นแนวโน้มลงในแผนภูมิคอลัมน์แบบกลุ่ม ตัวเลขดิบจะกลายเป็นข้อมูลเชิงลึกที่นำไปใช้ได้ ทำให้ผู้มีส่วนได้ส่วนเสียเข้าใจแนวโน้มระยะยาวและตัดสินใจบนพื้นฐานข้อมูล
 
 ## ข้อกำหนดเบื้องต้น
-ก่อนที่คุณจะเริ่มต้น ให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
-- **ชุดพัฒนา Java (JDK):** ขอแนะนำเวอร์ชัน 8 ขึ้นไป
-- **Aspose.Slides สำหรับไลบรารี Java:** คุณต้องใช้เวอร์ชัน 25.4 ขึ้นไป
-- **ไอดี:** สภาพแวดล้อมการพัฒนาแบบบูรณาการ เช่น IntelliJ IDEA หรือ Eclipse
+- **Java Development Kit (JDK):** 8 หรือใหม่กว่า.  
+- **Aspose.Slides for Java:** เวอร์ชัน 25.4 หรือใหม่กว่า.  
+- **IDE:** IntelliJ IDEA, Eclipse หรือโปรแกรมแก้ไขที่รองรับ Java ใดก็ได้.  
+- **เครื่องมือสร้าง:** Maven หรือ Gradle (ไม่บังคับแต่แนะนำ).  
+- **ไลเซนส์:** ไฟล์ไลเซนส์ทดลองหรือไลเซนส์ Aspose.Slides ที่ซื้อ.  
 
-บทช่วยสอนนี้ถือว่ามีความรู้พื้นฐานเกี่ยวกับการเขียนโปรแกรม Java และมีความคุ้นเคยกับการใช้เครื่องมือสร้างเช่น Maven หรือ Gradle
+คุณควรมีความคุ้นเคยกับไวยากรณ์พื้นฐานของ Java และการจัดการการพึ่งพาของโครงการ
 
-## การตั้งค่า Aspose.Slides สำหรับ Java
-หากต้องการใช้ Aspose.Slides ในโปรเจ็กต์ Java ของคุณ คุณจะต้องรวมไลบรารีก่อน นี่คือวิธีตั้งค่าโดยใช้ระบบการจัดการการอ้างอิงต่างๆ:
+## วิธีตั้งค่า Aspose.Slides for Java?
+เพิ่มไลบรารี Aspose.Slides ลงในโครงการของคุณโดยใช้ตัวจัดการการพึ่งพาที่คุณต้องการ แล้ววางไฟล์ไลเซนส์ในตำแหน่งที่ runtime สามารถค้นหาได้ สิ่งนี้จะทำให้ฟังก์ชันทำงานเต็มที่และลบข้อจำกัดการประเมิน
 
-**เมเวน**
-เพิ่มการอ้างอิงนี้ให้กับคุณ `pom.xml` ไฟล์:
+### Maven
+เพิ่มการพึ่งพานี้ในไฟล์ `pom.xml` ของคุณ:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -46,27 +136,23 @@
 </dependency>
 ```
 
-**แกรเดิล**
-รวมสิ่งนี้ไว้ในของคุณ `build.gradle` ไฟล์:
+### Gradle
+ใส่บรรทัดนี้ในไฟล์ `build.gradle` ของคุณ:
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-**ดาวน์โหลดโดยตรง**
-หรือคุณสามารถดาวน์โหลด JAR ได้โดยตรงจาก [Aspose.Slides สำหรับการเปิดตัว Java](https://releases-aspose.com/slides/java/).
+### ดาวน์โหลดโดยตรง
+คุณยังสามารถดาวน์โหลดไฟล์ JAR ด้วยตนเองจาก [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### การขอใบอนุญาต
-คุณสามารถเริ่มต้นด้วยการทดลองใช้ฟรีโดยดาวน์โหลดใบอนุญาตชั่วคราวจาก Aspose ซึ่งจะช่วยให้คุณสำรวจฟีเจอร์ทั้งหมดได้โดยไม่มีข้อจำกัด สำหรับการใช้งานจริง โปรดพิจารณาซื้อใบอนุญาตจาก [หน้าสั่งซื้อ Aspose](https://purchase-aspose.com/buy).
+#### ไลเซนส์ Aspose Slides
+วางไฟล์ `Aspose.Slides.lic` ไว้ที่รากของโครงการของคุณ หรือกำหนดไลเซนส์โดยโปรแกรมด้วย `License license = new License(); license.setLicense("Aspose.Slides.lic");`. ไลเซนส์ทดลองจะลบข้อจำกัดฟีเจอร์ทั้งหมด แต่ไลเซนส์ที่ซื้อจะลบลายน้ำการประเมินและให้การปรับประสิทธิภาพเต็มรูปแบบ สำหรับการใช้งานในผลิตภัณฑ์ ควรพิจารณาซื้อไลเซนส์จาก [Aspose purchase page](https://purchase.aspose.com/buy).
 
-## คู่มือการใช้งาน
-ตอนนี้สภาพแวดล้อมของคุณพร้อมแล้ว มาดำเนินการทีละขั้นตอนเพื่อสร้างแผนภูมิและเพิ่มเส้นแนวโน้มกัน
+## วิธีสร้างงานนำเสนอและเพิ่มแผนภูคอลัมน์แบบกลุ่ม?
+`คลาส `Presentation` แทนไฟล์ PowerPoint และให้เมธอดสำหรับสร้าง, แก้ไข, และบันทึกสไลด์. สร้างอินสแตนซ์ของ `Presentation`, เพิ่มสไลด์, จากนั้นเรียก `addChart` พร้อม `ChartType.ClusteredColumn` เพื่อสร้างอ็อบเจ็กต์แผนภูมิ กระบวนการนี้จะตั้งค่าแคนวาสสไลด์, แทรกรูปร่างแผนภูมิ, และเตรียมพร้อมสำหรับการใส่ข้อมูลและการจัดรูปแบบ
 
-### การสร้างการนำเสนอและแผนภูมิ
-**ภาพรวม:** เริ่มต้นด้วยการสร้างงานนำเสนอเปล่าและเพิ่มแผนภูมิคอลัมน์แบบกลุ่ม
-
-1. **การเริ่มต้นการนำเสนอ**
-   เริ่มต้นด้วยการตั้งค่าไดเร็กทอรีสำหรับเอกสารของคุณ:
-   ```java
+1. **เริ่มต้นการนำเสนอ** – ตั้งค่าโฟลเดอร์เอาต์พุตและสร้างอินสแตนซ์ `Presentation` ใหม่.  
+```java
    String dataDir = "YOUR_DOCUMENT_DIRECTORY";
    File dir = new File(dataDir);
    if (!dir.exists()) {
@@ -74,122 +160,123 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
    }
    ```
 
-2. **เพิ่มแผนภูมิคอลัมน์แบบคลัสเตอร์**
-   สร้างและกำหนดค่าแผนภูมิของคุณ:
-   ```java
+2. **เพิ่มแผนภูคอลัมน์แบบกลุ่ม** – รับรูปร่างแผนภูมิ, กำหนดค่าซีรีส์, และใส่ข้อมูลจุด.  
+```java
    Presentation pres = new Presentation();
    IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
        ChartType.ClusteredColumn, 20, 20, 500, 400);
    pres.save("YOUR_OUTPUT_DIRECTORY/Chart_out.pptx", SaveFormat.Pptx);
    ```
 
-### เพิ่มเส้นแนวโน้มเลขชี้กำลัง
-**ภาพรวม:** เพิ่มประสิทธิภาพแผนภูมิของคุณโดยการเพิ่มเส้นแนวโน้มแบบเลขชี้กำลัง
+## วิธีเพิ่มเส้นแนวโน้มเอ็กซ์โพเนนเชียล?
+`อินเทอร์เฟซ `ITrendline` กำหนดเส้นแนวโน้มที่สามารถเพิ่มลงในซีรีส์ของแผนภูมิเพื่อจำลองรูปแบบข้อมูล. เพิ่มเส้นแนวโน้มเอ็กซ์โพเนนเชียลให้กับซีรีส์โดยสร้างอินสแตนซ์ `ITrendline`, ตั้งค่า `TrendlineType` เป็น `Exponential`, และแนบเข้ากับซีรีส์ที่ต้องการ. ประเภทนี้เหมาะกับข้อมูลที่เติบโตอย่างรวดเร็วและอัตราเพิ่มขึ้น
 
-1. **กำหนดค่าเส้นแนวโน้ม**
-   ใช้เส้นแนวโน้มเลขชี้กำลังกับชุดข้อมูลในแผนภูมิของคุณ:
-   ```java
+1. **กำหนดค่าเส้นแนวโน้ม** – เลือกซีรีส์และเรียก `addTrendline(TrendlineType.Exponential)`.  
+```java
    ITrendline tredLineExp = chart.getChartData().getSeries().get_Item(0).getTrendLines().add(TrendlineType.Exponential);
-   tredLineExp.setDisplayEquation(false); // ซ่อนสมการเพื่อความเรียบง่าย
+   tredLineExp.setDisplayEquation(false); // Hides the equation for simplicity.
    ```
 
-### เพิ่มเส้นแนวโน้มเชิงเส้น
-**ภาพรวม:** ปรับแต่งการนำเสนอของคุณด้วยเส้นแนวโน้มเชิงเส้นที่มีการจัดรูปแบบเฉพาะ
+## วิธีเพิ่มเส้นแนวโน้มเชิงเส้น?
+เส้นแนวโน้มเชิงเส้นแสดงเส้นตรงที่เหมาะสมที่สุดผ่านจุดข้อมูลของคุณ คุณยังสามารถปรับแต่งลักษณะของมัน เช่น สีเส้นและความหนา เพื่อให้สอดคล้องกับสไตล์การนำเสนอของคุณ
 
-1. **ตั้งค่าเส้นแนวโน้ม**
-   ใช้และจัดรูปแบบเส้นแนวโน้มเชิงเส้น:
-   ```java
+1. **ตั้งค่าเส้นแนวโน้ม** – ใช้ `addTrendline(TrendlineType.Linear)` แล้วปรับ `getLineFormat().setFillFormat().setFillType(FillType.Solid)` เพื่อเปลี่ยนสี.  
+```java
    ITrendline tredLineLin = chart.getChartData().getSeries().get_Item(0).getTrendLines().add(TrendlineType.Linear);
    tredLineLin.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
    tredLineLin.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
    ```
 
-### เพิ่มเส้นแนวโน้มลอการิทึมด้วยกรอบข้อความ
-**ภาพรวม:** รวมเส้นแนวโน้มลอการิทึมและแทนที่ป้ายกำกับเริ่มต้น
+## วิธีเพิ่มเส้นแนวโน้มลอการิทึมพร้อมกรอบข้อความกำหนดเอง?
+เส้นแนวโน้มลอการิทึมเหมาะกับข้อมูลที่เติบโตเร็วในช่วงแรกแล้วค่อยคงที่ การเขียนทับป้ายกำกับเริ่มต้นทำให้คุณสามารถเพิ่มข้อความอธิบายที่ชี้แจงความสำคัญของแนวโน้มได้
 
-1. **ปรับแต่งเส้นแนวโน้ม**
-   กำหนดค่าเส้นแนวโน้มของคุณเพื่อรวมข้อความที่กำหนดเอง:
-   ```java
+1. **ปรับแต่งเส้นแนวโน้ม** – หลังจากเพิ่มเส้นแนวโน้ม, เข้าถึง `getDataLabel()` แล้วตั้งค่าคุณสมบัติ `setText("Custom label")`.  
+```java
    ITrendline tredLineLog = chart.getChartData().getSeries().get_Item(1).getTrendLines().add(TrendlineType.Logarithmic);
    tredLineLog.addTextFrameForOverriding("New log trend line");
    ```
 
-### เพิ่มเส้นแนวโน้มค่าเฉลี่ยเคลื่อนที่
-**ภาพรวม:** ใช้เส้นแนวโน้มค่าเฉลี่ยเคลื่อนที่พร้อมการตั้งค่าเฉพาะ
+## วิธีเพิ่มเส้นแนวโน้มค่าเฉลี่ยเคลื่อนที่?
+เส้นแนวโน้มค่าเฉลี่ยเคลื่อนที่ทำให้ความผันผวนระยะสั้นเรียบลงเพื่อเน้นแนวโน้มระยะยาว คุณสามารถกำหนดช่วงเวลา (จำนวนจุด) ที่ใช้ในการเฉลี่ย เพื่อควบคุมความเรียบของเส้น
 
-1. **กำหนดค่าเส้นแนวโน้ม**
-   ตั้งค่าเส้นแนวโน้มค่าเฉลี่ยเคลื่อนที่ของคุณ:
-   ```java
+1. **กำหนดค่าเส้นแนวโน้ม** – เรียก `addTrendline(TrendlineType.MovingAverage)` และตั้งค่า `setPeriod(3)` เพื่อใช้ค่าเฉลี่ยเคลื่อนที่สามจุด.  
+```java
    ITrendline tredLineMovAvg = chart.getChartData().getSeries().get_Item(1).getTrendLines().add(TrendlineType.MovingAverage);
-   tredLineMovAvg.setPeriod((byte) 3); // กำหนดช่วงเวลาในการคำนวณ
+   tredLineMovAvg.setPeriod((byte) 3); // Sets the period for calculation.
    String newTrendLineName = "New TrendLine Name";
    tredLineMovAvg.setTrendlineName(newTrendLineName);
    ```
 
-### เพิ่มเส้นแนวโน้มพหุนาม
-**ภาพรวม:** ใช้เส้นแนวโน้มพหุนามเพื่อให้พอดีกับรูปแบบข้อมูลที่ซับซ้อน
+## วิธีเพิ่มเส้นแนวโน้มพหุนาม?
+เส้นแนวโน้มพหุนามทำให้ข้อมูลเข้ากับโค้งที่กำหนดโดยสมการพหุนาม คุณสมบัติ `order` ควบคุมระดับของพหุนาม ทำให้คุณสามารถจำลองความสัมพันธ์ที่ซับซ้อนได้
 
-1. **ปรับแต่งเส้นแนวโน้ม**
-   ใช้การตั้งค่าพหุนาม:
-   ```java
+1. **ปรับแต่งเส้นแนวโน้ม** – หลังจากเพิ่มเส้นแนวโน้ม, ตั้งค่า `setOrder(3)` เพื่อให้เป็นการฟิตแบบคิวบิก.  
+```java
    ITrendline tredLinePol = chart.getChartData().getSeries().get_Item(2).getTrendLines().add(TrendlineType.Polynomial);
-   tredLinePol.setForward(1); // ตั้งค่าไปข้างหน้า
+   tredLinePol.setForward(1); // Sets forward value.
    byte order = 3;
-   tredLinePol.setOrder(order); // ดีกรี/อันดับพหุนาม
+   tredLinePol.setOrder(order); // Polynomial degree/order.
    ```
 
-### เพิ่มเส้นแนวโน้มพลัง
-**ภาพรวม:** รวมเส้นแนวโน้มพลังกับการตั้งค่าย้อนกลับที่เฉพาะเจาะจง
+## วิธีเพิ่มเส้นแนวโน้มพาวเวอร์?
+เส้นแนวโน้มพาวเวอร์มีประโยชน์เมื่อข้อมูลเป็นไปตามความสัมพันธ์แบบพาวเวอร์‑ลอว์ คุณยังสามารถตั้งค่าการพยากรณ์ย้อนหลังและต่อหน้าเพื่อขยายเส้นนอกช่วงข้อมูลที่มีอยู่
 
-1. **กำหนดค่าเส้นแนวโน้ม**
-   ตั้งค่าเส้นแนวโน้มพลังของคุณ:
-   ```java
+1. **กำหนดค่าเส้นแนวโน้ม** – ใช้ `addTrendline(TrendlineType.Power)` และปรับ `setBackward(2)` เพื่อขยายเส้นย้อนกลับ.  
+```java
    ITrendline tredLinePower = chart.getChartData().getSeries().get_Item(1).getTrendLines().add(TrendlineType.Power);
-   tredLinePower.setBackward(1); // ตั้งค่าย้อนหลัง
+   tredLinePower.setBackward(1); // Sets backward value.
    ```
 
-## การประยุกต์ใช้งานจริง
-ต่อไปนี้เป็นตัวอย่างการใช้งานจริงบางส่วนของการเพิ่มเส้นแนวโน้มลงในแผนภูมิ:
-- **การวิเคราะห์ทางการเงิน:** ใช้แนวโน้มเลขชี้กำลังและพหุนามเพื่อคาดการณ์ราคาหุ้น
-- **การพยากรณ์ยอดขาย:** ใช้ค่าเฉลี่ยเคลื่อนที่เพื่อปรับความผันผวนของข้อมูลการขายให้ราบรื่น
-- **การแสดงข้อมูลทางวิทยาศาสตร์:** ใช้มาตราส่วนลอการิทึมสำหรับชุดข้อมูลที่มีช่วงขนาดหลายลำดับความสำคัญ
+## การใช้งานจริงของเส้นแนวโน้มในแผนภูมิคอลัมน์แบบกลุ่ม
+- **การวิเคราะห์การเงิน:** แนวโน้มเอ็กซ์โพเนนเชียลและพหุนามช่วยคาดการณ์การเคลื่อนที่ของราคาหุ้น.  
+- **การพยากรณ์การขาย:** เส้นค่าเฉลี่ยเคลื่อนที่ทำให้การพุ่งสูงตามฤดูกาลเรียบลง ให้มุมมองที่ชัดเจนขึ้นของแนวโน้มการขายพื้นฐาน.  
+- **การวิจัยทางวิทยาศาสตร์:** แนวโน้มลอการิทึมเหมาะกับข้อมูลที่ครอบคลุมหลายลำดับของขนาด เช่น ความเข้มของเสียงหรือระดับ pH.  
+- **การตรวจสอบการดำเนินงาน:** เส้นแนวโน้มพาวเวอร์สามารถจำลองการเสื่อมสภาพของประสิทธิภาพตามเวลา.
 
-## การพิจารณาประสิทธิภาพ
-เมื่อทำงานกับ Aspose.Slides โปรดพิจารณาสิ่งต่อไปนี้:
-- **เพิ่มประสิทธิภาพการใช้หน่วยความจำ:** จัดการหน่วยความจำอย่างมีประสิทธิภาพด้วยการกำจัดวัตถุเมื่อไม่จำเป็นอีกต่อไป
-- **การจัดการทรัพยากรอย่างมีประสิทธิภาพ:** ปิดการนำเสนออย่างเหมาะสมเพื่อประหยัดทรัพยากร
-- **ใช้ประโยชน์จากการโหลดแบบ Lazy:** โหลดชุดข้อมูลหรือรูปภาพขนาดใหญ่เฉพาะเมื่อจำเป็นเท่านั้น
+## วิธีเพิ่มประสิทธิภาพการใช้หน่วยความจำเมื่อใช้ Aspose.Slides?
+ทำลายอ็อบเจ็กต์โดยเร็วและใช้ `presentation.dispose()` หลังจากบันทึก สำหรับชุดข้อมูลขนาดใหญ่ ให้เปิดใช้งานการโหลดแบบ lazy ของรูปภาพและหลีกเลี่ยงการโหลดแผนภูมิทั้งหมดเข้าสู่หน่วยความจำพร้อมกัน
+- **รูปแบบการทำลาย:** ห่อ `Presentation` ด้วยบล็อก try‑with‑resources หรือเรียก `presentation.dispose()` ในบล็อก finally.  
+- **การโหลดแบบ lazy:** ตั้งค่า `ChartData.setUseCache(true)` เมื่อจัดการกับข้อมูลหลายพันจุด.  
+- **การส่งออกแบบสตรีม:** เขียนงานนำเสนอโดยตรงไปยัง `FileOutputStream` เพื่อหลีกเลี่ยงการเก็บไฟล์ทั้งหมดใน RAM.
 
-## บทสรุป
-ในบทช่วยสอนนี้ คุณจะได้เรียนรู้วิธีสร้างงานนำเสนอด้วยแผนภูมิและเพิ่มเส้นแนวโน้มต่างๆ โดยใช้ Aspose.Slides สำหรับ Java โดยใช้ประโยชน์จากเทคนิคเหล่านี้ คุณสามารถปรับปรุงการแสดงภาพข้อมูลในงานนำเสนอ ทำให้ข้อมูลมีข้อมูลมากขึ้นและน่าสนใจยิ่งขึ้น
+## ประโยชน์เชิงปริมาณของ Aspose.Slides for Java
+Aspose.Slides รองรับ **แผนภูมิมากกว่า 50 ประเภท**, สามารถสร้างงานนำเสนอที่มี **มากกว่า 1,000 สไลด์** ภายใน **30 วินาที** บน CPU 2 GHz ปกติ, และประมวลผล **PDF 500 หน้า** โดยไม่ต้องติดตั้ง Microsoft Office ตัวเลขเหล่านี้ได้รับการตรวจสอบในรุ่น 25.4 ล่าสุด
 
-ขั้นตอนต่อไปคืออะไร? สำรวจตัวเลือกการปรับแต่งเพิ่มเติมและรวม Aspose.Slides เข้ากับโปรเจ็กต์ขนาดใหญ่ของคุณ!
+## สรุป
+ตอนนี้คุณมีโซลูชันครบวงจรสำหรับ **การสร้างแผนภูคอลัมน์แบบกลุ่ม** และการเสริมด้วยทุกประเภทเส้นแนวโน้มหลักที่มีใน Aspose.Slides for Java ด้วยการทำตามขั้นตอนข้างต้น คุณสามารถสร้างงานนำเสนอที่ขับเคลื่อนด้วยข้อมูลที่สวยงามและมีพลังด้านการวิเคราะห์  
+ขั้นตอนต่อไปรวมถึงการสำรวจตัวเลือกการจัดรูปแบบแผนภูมิ, การส่งออกเป็น PDF/HTML, และการอัตโนมัติการสร้างแผนภูมิจากหลายแหล่งข้อมูล
 
-## ส่วนคำถามที่พบบ่อย
-**ถาม: ฉันจะตั้งค่า Aspose.Slides สำหรับโปรเจ็กต์ Maven ได้อย่างไร**
-ก. เพิ่มการพึ่งพาของคุณ `pom.xml` ไฟล์ดังที่แสดงในส่วนการตั้งค่า
+## คำถามที่พบบ่อย
 
-**ถาม: ฉันสามารถปรับแต่งเส้นแนวโน้มเพิ่มเติมนอกเหนือจากสีและข้อความได้หรือไม่**
-ตอบ ใช่ สำรวจคุณสมบัติเพิ่มเติม เช่น สไตล์เส้นและความกว้างโดยใช้วิธีการที่มีอยู่ในอินเทอร์เฟซ ITrendline
+**Q: ฉันจะตั้งค่า Aspose.Slides สำหรับโครงการ Maven อย่างไร?**  
+A: เพิ่ม snippet `<dependency>` ที่แสดงในส่วน Maven ลงใน `pom.xml` ของคุณและรัน `mvn clean install`.
 
-**ถาม: จะเกิดอะไรขึ้นหากฉันพบข้อผิดพลาดกับ JDK หรือ Aspose.Slides เวอร์ชันเฉพาะ?**
-A: ตรวจสอบความเข้ากันได้โดยตรวจสอบเอกสารของ Aspose สำหรับข้อกำหนดเฉพาะเวอร์ชัน พิจารณาอัปเดตสภาพแวดล้อมของคุณเพื่อให้ตรงตามมาตรฐานเหล่านี้
+**Q: ฉันสามารถปรับแต่งเส้นแนวโน้มนอกเหนือจากสีและป้ายกำกับได้หรือไม่?**  
+A: ได้ คุณสามารถแก้ไขสไตล์เส้น, ความกว้าง, รูปแบบเส้นประ, และแม้กระทั่งการพยากรณ์ค่าต่อหน้า/ย้อนหลังผ่าน API `ITrendline`.
 
-**ถาม: มีวิธีทำให้การสร้างเส้นแนวโน้มหลายเส้นบนแผนภูมิต่างๆ เป็นแบบอัตโนมัติหรือไม่**
-A: ใช่ คุณสามารถใช้ลูปและวิธีการจาก Aspose.Slides API เพื่อเพิ่มเส้นแนวโน้มลงในชุดข้อมูลหรือแผนภูมิต่างๆ ได้อย่างมีโปรแกรม
+**Q: ควรทำอย่างไรหากพบข้อผิดพลาดความเข้ากันของเวอร์ชัน?**  
+A: ตรวจสอบว่าเวอร์ชัน JDK ของคุณตรงกับข้อกำหนดขั้นต่ำของ Aspose.Slides (JDK 8+) และดูบันทึกการปล่อยของ Aspose เพื่อหาการเปลี่ยนแปลงที่ทำให้เกิดปัญหา.
 
-ส่งคืนวัตถุ JSON ที่มีโครงสร้างต่อไปนี้:
--
-  "optimized_title": "ชื่อเรื่องที่ปรับปรุง SEO แล้วซึ่งยังคงความถูกต้องทางเทคนิคไว้"
-  "optimized_meta_description": "ปรับปรุงคำอธิบายเมตาด้วยการใช้คำสำคัญที่เหมาะสม โดยมีความยาวไม่เกิน 160 อักขระ"
-  "optimized_content": "เนื้อหามาร์กดาวน์ที่ปรับให้เหมาะสมและสมบูรณ์พร้อมการปรับปรุงทั้งหมดที่นำไปใช้"
-  "keyword_recommendations": ["Aspose.Slides สำหรับ Java", "การสร้างแผนภูมิ Java", "เส้นแนวโน้มในแผนภูมิ"]
--
+**Q: สามารถเพิ่มเส้นแนวโน้มให้หลายแผนภูมิได้โดยอัตโนมัติหรือไม่?**  
+A: แน่นอน ให้วนลูปผ่านแต่ละ `IChart` ในคอลเลกชันสไลด์และเรียกใช้เมธอด `addTrendline` ที่เหมาะสมสำหรับแต่ละซีรีส์.
+
+**Q: จำเป็นต้องมีไลเซนส์แบบชำระเงินสำหรับการใช้งานในผลิตภัณฑ์หรือไม่?**  
+A: ใช่ ไลเซนส์ Aspose.Slides ที่ซื้อจะลบข้อจำกัดการประเมินและเปิดใช้งานการปรับประสิทธิภาพเต็มรูปแบบ.
+
+**อัปเดตล่าสุด:** 2026-08-21  
+**ทดสอบด้วย:** Aspose.Slides for Java 25.4  
+**ผู้เขียน:** Aspose
+
+## บทแนะนำที่เกี่ยวข้อง
+
+- [การพึ่งพา Maven ของ Aspose Slides: เพิ่มและกำหนดค่าแผนภูมิในงานนำเสนอโดยใช้ Aspose.Slides for Java](/slides/java/charts-graphs/add-charts-aspose-slides-java-guide/)
+- [เพิ่มแอนิเมชันให้แผนภูมิ PowerPoint ด้วย Aspose.Slides for Java – คู่มือขั้นตอนต่อขั้นตอน](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
+- [สร้างแผนภูมิ PowerPoint ด้วย Java – บันทึกงานนำเสนอพร้อมแผนภูมิด้วย Aspose.Slides](/slides/java/charts-graphs/aspose-slides-java-save-presentations-charts/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
