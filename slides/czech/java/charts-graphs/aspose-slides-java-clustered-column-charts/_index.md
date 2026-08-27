@@ -1,58 +1,93 @@
 ---
-date: '2026-03-18'
-description: Naučte se, jak vytvořit seskupený sloupcový graf v Javě pomocí Aspose.Slides,
-  jak přidat graf, nastavit barvy a uložit prezentaci jako PPTX. Podrobný návod krok
-  za krokem s ukázkami kódu.
+date: '2026-08-27'
+description: Naučte se, jak vytvořit clustered column chart v Javě pomocí Aspose.Slides,
+  přidat graf, nastavit automatic series colors a uložit prezentaci jako PPTX.
 keywords:
 - create clustered column chart
-- aspose slides java tutorial
-- clustered column chart java
-title: Jak vytvořit seskupený sloupcový graf v Javě s Aspose.Slides
+- how to add chart
+- how to set colors
+- how to save pptx
+- maven aspose slides dependency
+lastmod: '2026-08-27'
+og_description: Naučte se, jak vytvořit clustered column chart v Javě pomocí Aspose.Slides,
+  přidat graf, nastavit automatic series colors a uložit prezentaci jako PPTX – vše
+  s jasnými step‑by‑step instrukcemi.
+og_image_alt: Guide showing Java code to create a clustered column chart with Aspose.Slides
+og_title: Vytvořte clustered column chart v Javě s Aspose.Slides
+schemas:
+- author: Aspose
+  dateModified: '2026-08-27'
+  description: Learn how to create clustered column chart in Java using Aspose.Slides,
+    add the chart, set automatic series colors, and save the presentation as PPTX.
+  headline: How to create clustered column chart in Java with Aspose.Slides
+  type: TechArticle
+- questions:
+  - answer: Yes—Aspose.Slides is platform‑agnostic and works in any Java‑based server
+      environment, including Spring Boot and Jakarta EE.
+    question: Can I use this code in a web application?
+  - answer: Absolutely. `ChartType` enum includes Pie, Bar, Line, Area, Radar, and
+      many more.
+    question: Does the library support other chart types?
+  - answer: Ensure the directory is created beforehand or use `Files.createDirectories(Paths.get(folder))`
+      to avoid `FileNotFoundException`.
+    question: What if the output folder does not exist?
+  - answer: Populate series using streaming APIs or batch inserts, and consider disabling
+      chart animation to improve rendering speed.
+    question: How do I handle large datasets (thousands of points)?
+  - answer: 'Visit the official documentation and sample repository: [Aspose.Slides
+      Documentation](https://reference.aspose.com/slides/java/).'
+    question: Where can I find more code samples?
+  type: FAQPage
+tags:
+- clustered column chart
+- Aspose.Slides
+- Java chart tutorial
+- PPTX generation
+title: Jak vytvořit clustered column chart v Javě s Aspose.Slides
 url: /cs/java/charts-graphs/aspose-slides-java-clustered-column-charts/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Jak vytvořit seskupený sloupcový graf v Javě s Aspose.Slides
 
 ## Úvod
-Vytváření vizuálně působivých datových reprezentací je nezbytné pro efektivní obchodní prezentace a naučení se **jak vytvořit seskupený sloupcový graf** programově vám může ušetřit hodiny ruční práce. V tomto tutoriálu uvidíte **jak přidat graf**, automaticky **nastavit barvy** a nakonec **uložit prezentaci jako PPTX** pomocí **Aspose.Slides for Java**. Provedeme vás vším, co potřebujete – od nastavení knihovny po přidání grafu, přizpůsobení výplní sérií a uložení souboru.
-
-### Co dosáhnete
-- Nainstalovat a nakonfigurovat Aspose.Slides for Java  
-- **Vytvořit seskupený sloupcový graf** v úplně nové prezentaci  
-- Automaticky použít výplňové barvy sérií (**how to set colors**)  
-- **Uložit prezentaci jako PPTX** na disk (**how to save presentation**)  
-
-Nejprve si vyřešíme předpoklady, než začneme vytvářet graf.
+Programatické vytvoření seskupeného sloupcového grafu vám ušetří hodiny ručního formátování a zaručuje konzistenci napříč více prezentacemi. V tomto tutoriálu se naučíte **jak vytvořit seskupený sloupcový graf** v Javě s Aspose.Slides, **jak přidat graf**, **jak nastavit barvy** a **jak uložit prezentaci jako PPTX**. Pokryjeme vše od instalace knihovny po přizpůsobení výplní řad a uložení souboru, abyste mohli vložit bohaté vizualizace dat do jakékoli PowerPoint prezentace.
 
 ## Rychlé odpovědi
-- **Jaká je hlavní třída?** `Presentation` z `com.aspose.slides`  
-- **Jak přidám graf?** Použijte `addChart(ChartType.ClusteredColumn, …)` ve sbírce tvarů snímku (**how to add chart**)  
-- **Mohu nastavit barvy automaticky?** Ano, zavolejte `setAutomaticSeriesColor(true)` na každé sérii (**how to set colors**)  
-- **Jaký formát se používá pro ukládání?** `SaveFormat.Pptx` (PowerPoint) (**save presentation as pptx**)  
-- **Potřebuji licenci?** Zkušební verze funguje pro testování; pro produkci je vyžadována plná licence  
+- **Jaká je hlavní třída pro práci s prezentacemi?** `Presentation` z balíčku `com.aspose.slides`.  
+- **Jak přidám seskupený sloupcový graf?** Zavolejte `slide.getShapes().addChart(ChartType.ClusteredColumn, x, y, width, height)`.  
+- **Lze barvy řad nastavit automaticky?** Ano — povolte `setAutomaticSeriesColor(true)` u každé řady.  
+- **Jaký formát mám použít pro uložení souboru?** `SaveFormat.Pptx` vytváří standardní PowerPoint soubor.  
+- **Je licence vyžadována pro produkci?** Zkušební verze funguje pro vývoj; plná licence je potřeba pro komerční použití.
 
-## Předpoklady
-Než začnete, ujistěte se, že máte potřebné nástroje a znalosti:
+## Co je seskupený sloupcový graf?
+Seskupený sloupcový graf zobrazuje více datových řad vedle sebe pro každou kategorii, což usnadňuje porovnání hodnot mezi skupinami. Aspose.Slides tento typ grafu podporuje přímo a umožňuje programově řídit každý vizuální aspekt.
+
+## Proč vytvářet seskupený sloupcový graf s Aspose.Slides?
+Aspose.Slides dokáže pracovat s **více než 50 vstupními a výstupními formáty** a zpracovávat prezentace se **stovkami snímků** bez načítání celého souboru do paměti. Tato efektivita vám umožní generovat rozsáhlé prezentace na serverové straně s minimální spotřebou zdrojů.
+
+## Požadavky
+- **Java Development Kit (JDK)** 16 nebo novější.  
+- **Maven** nebo **Gradle** pro správu závislostí.  
+- Základní znalost syntaxe Javy a objektově orientovaných konceptů.  
 
 ### Požadované knihovny a závislosti
-Budete potřebovat knihovnu Aspose.Slides for Java. Ujistěte se, že používáte verzi 25.4 s podporou JDK16.
+Potřebujete knihovnu Aspose.Slides pro Java (verze 25.4 nebo novější). Knihovna je plně kompatibilní s JDK 16 a nabízí bohaté API pro manipulaci s grafy.
 
 ### Požadavky na nastavení prostředí
-Vaše vývojové prostředí by mělo podporovat Javu (ideálně JDK16) a být schopno sestavovat projekty pomocí Maven nebo Gradle.
+Vaše IDE (IntelliJ IDEA, Eclipse, VS Code) musí být nakonfigurováno pro kompilaci kódu v Javě 16 a pro řešení Maven/Gradle závislostí.
 
-### Znalostní předpoklady
-Znalost základního programování v Javě, práce s knihovnami přes Maven/Gradle a pochopení PowerPoint prezentací bude užitečná.
+### Předpoklady znalostí
+Porozumění struktuře PowerPoint snímků a základní terminologii grafů (řady, kategorie, datové body) vám pomůže rychleji sledovat příklady.
 
 ## Nastavení Aspose.Slides pro Java
-Pro integraci Aspose.Slides do vašeho projektu postupujte podle níže uvedených instrukcí:
+Integrujte knihovnu do svého projektu pomocí jedné z následujících metod.
 
-**Maven**
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -60,74 +95,68 @@ Pro integraci Aspose.Slides do vašeho projektu postupujte podle níže uvedený
     <version>25.4</version>
     <classifier>jdk16</classifier>
 </dependency>
-```
+```  
 
-**Gradle**
+**Gradle**  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
-```
+```  
 
-**Přímé stažení**  
-Pro ty, kteří upřednostňují přímé stažení, navštivte [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+**Direct download** – obtain the JAR from the official releases page: [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### Kroky získání licence
-- **Free Trial**: Začněte s bezplatnou zkušební verzí a prozkoumejte funkce.  
-- **Temporary License**: Získejte dočasnou licenci pro testování bez omezení.  
-- **Purchase**: Pro trvalé používání zakupte plnou licenci.
+### Kroky pro získání licence
+- **Free trial** – zaregistrujte se na stránkách Aspose a získejte dočasný licenční soubor.  
+- **Temporary license** – požádejte o 30‑denní licenci pro větší testovací sady.  
+- **Full license** – zakupte pro neomezené používání v produkci.
 
-**Základní inicializace a nastavení**  
-Inicializujte Aspose.Slides následovně:
+**Basic initialization and setup**  
 ```java
 import com.aspose.slides.Presentation;
 // Initialize the Presentation class
 Presentation presentation = new Presentation();
-```
+```  
 
-## Jak přidat seskupený sloupcový graf
-Přidání grafu je první funkční krok. Tato sekce vysvětluje **jak přidat graf** pomocí API.
+## Jak přidat seskupený sloupcový graf?
+`Presentation` představuje PowerPoint soubor v paměti.  
 
-### Funkce 1: Vytvořit seskupený sloupcový graf
-Vytvořme seskupený sloupcový graf pomocí Aspose.Slides for Java. Tato funkce vám umožní snadno přidávat vizuálně atraktivní grafy do vašich snímků.
+**Direct answer:**  
+Vytvořte objekt `Presentation`, který představuje PowerPoint soubor v paměti, načtěte první snímek a zavolejte `slide.getShapes().addChart(ChartType.ClusteredColumn, 100, 50, 600, 400)`. Tento jediný příkaz vloží plně funkční seskupený sloupcový graf, připravený k naplnění daty, a umístí jej na zadané souřadnice na snímku.
 
-#### Přehled
-V této sekci inicializujeme novou prezentaci a vložíme seskupený sloupcový graf do prvního snímku.
+### Funkce 1: vytvořit seskupený sloupcový graf
+Třída `Presentation` představuje PowerPoint soubor v paměti a poskytuje přístup k snímkům, tvarům a objektům grafů.
 
-**Krok 1: Inicializovat prezentaci**  
-Vytvořte objekt `Presentation` pro zahájení práce se soubory PowerPoint:
+**Krok 1: inicializovat prezentaci**  
 ```java
 import com.aspose.slides.Presentation;
 // Initialize a new Presentation object
 Presentation presentation = new Presentation();
-```
+```  
 
-**Krok 2: Přidat seskupený sloupcový graf**  
-Přidejte graf na zadané souřadnice (100, 50) a rozměry (600 × 400):
+**Krok 2: přidat seskupený sloupcový graf**  
 ```java
 import com.aspose.slides.ChartType;
 import com.aspose.slides.IChart;
 IChart chart = presentation.getSlides().get_Item(0).getShapes()
                             .addChart(ChartType.ClusteredColumn, 100, 50, 600, 400);
-```
+```  
 
-**Krok 3: Vyčistit zdroje**  
-Vždy uvolněte zdroje, aby nedocházelo k únikům paměti:
+**Krok 3: uvolnit prostředky**  
 ```java
 finally {
     if (presentation != null) presentation.dispose();
 }
-```
+```  
 
-## Jak nastavit barvy pro graf
-Zvyšte vizuální přitažlivost automatickým použitím výplňových barev sérií (**how to set colors**).
+## Jak nastavit barvy pro graf?
+`Series` představuje kolekci datových bodů v grafu.  
 
-### Funkce 2: Nastavit automatickou výplňovou barvu sérií
-Nastavte automaticky barvu každé série grafu pro jednotný vzhled.
+**Direct answer:**  
+Po vytvoření grafu získáte jeho data pomocí `chart.getChartData()` a projdete každou objekt `Series`. Pro každou řadu zavoláte `setAutomaticSeriesColor(true)` na rodičovské řadě. Aspose.Slides pak automaticky přiřadí odlišnou, kontrastní barvu z palety každé řadě, což zajišťuje vizuální přehlednost bez ručního výběru barev.
 
-#### Přehled
-Nastavte automaticky barvu každé série grafu pro jednotný vzhled.
+### Funkce 2: nastavit automatické vyplnění řady
+`IChart` je rozhraní představující tvar grafu; poskytuje `getChartData()` pro manipulaci s řadami.
 
-**Krok 1: Přístup k grafu a iterace sérií**  
-Po vytvoření grafu k němu přistupte a iterujte přes jeho série:
+**Krok 1: přístup k grafu a iterace řad**  
 ```java
 import com.aspose.slides.IChart;
 IChart chart = presentation.getSlides().get_Item(0).getShapes()
@@ -136,86 +165,91 @@ IChart chart = presentation.getSlides().get_Item(0).getShapes()
 for (int i = 0; i < chart.getChartData().getSeries().size(); i++) {
     chart.getChartData().getSeries().get_Item(i).setAutomaticSeriesColor(true);
 }
-```
+```  
 
-**Krok 2: Správa zdrojů**  
-Uvolněte objekt prezentace po dokončení:
+**Krok 2: správa prostředků**  
 ```java
 finally {
     if (presentation != null) presentation.dispose();
 }
-```
+```  
 
-## Jak uložit prezentaci jako PPTX
-Jakmile graf vypadá skvěle, budete chtít soubor uložit (**how to save presentation**).
+## Jak uložit prezentaci jako PPTX?
+`save` zapisuje prezentaci do souboru ve zvoleném formátu.  
 
-### Funkce 3: Uložit prezentaci na disk
-Nakonec uložte svou práci snadno pomocí Aspose.Slides.
+**Direct answer:**  
+Zadejte výstupní cestu, např. `"output/ClusteredColumnChart.pptx"` a zavolejte `presentation.save(outputPath, SaveFormat.Pptx)`. Metoda `save` serializuje celý balíček snímků, včetně všech tvarů, grafů a zdrojů, do standardního PPTX souboru, který lze otevřít v PowerPoint 2010 nebo novějším, stejně jako v mnoha online prohlížečích.
 
-#### Přehled
-Uložte své upravené prezentace v požadovaném formátu a umístění.
+### Funkce 3: uložit prezentaci na disk
+Ukládání s `SaveFormat.Pptx` vytváří soubor kompatibilní s PowerPoint 2010 a novějšími verzemi, stejně jako s většinou online prohlížečů.
 
-**Krok 1: Definovat výstupní cestu**  
-Určete, kam chcete soubor uložit:
+**Krok 1: definovat výstupní cestu**  
 ```java
 import com.aspose.slides.SaveFormat;
 String outputPath = "YOUR_OUTPUT_DIRECTORY/AutoFillSeries_out.pptx";
-```
+```  
 
-**Krok 2: Uložit prezentaci**  
-Použijte metodu `save` objektu `Presentation`:
+**Krok 2: uložit prezentaci**  
 ```java
 presentation.save(outputPath, SaveFormat.Pptx);
-```
+```  
 
 ## Praktické aplikace
-- **Finanční zprávy**: Vizualizujte čtvrtletní výnosy s jasností.  
-- **Analýza marketingových dat**: Předveďte výsledky kampaní pomocí působivých vizuálů.  
-- **Projektové řízení**: Sledujte milníky a pokrok vizuálně během týmových schůzek.
+- **Finanční výkaznictví** – porovnat čtvrtletní příjmy napříč produktovými řadami.  
+- **Marketingová analytika** – vizualizovat výkon kampaní podle regionu.  
+- **Projektové řízení** – zobrazit rychlost sprintu nebo alokaci zdrojů napříč týmy.  
 
 ## Úvahy o výkonu
-Při práci s Aspose.Slides zvažte tyto osvědčené postupy:
-
-- Efektivně spravujte paměť tím, že budete včas uvolňovat objekty `Presentation`.  
-- Optimalizujte velikosti souborů při ukládání prezentací, aby se šetřil diskový prostor.  
-- Používejte efektivní datové struktury pro série grafů, aby se zvýšil výkon.
+- Okamžitě uvolňujte objekty `Presentation`, aby se uvolnily nativní prostředky.  
+- Použijte `presentation.getSlides().removeUnusedResources()` před uložením ke zmenšení velikosti souboru.  
+- Naplněte řady grafu lehkými kolekcemi (např. `ArrayList<Double>`), aby se udržovala nízká spotřeba paměti.
 
 ## Závěr
-Gratulujeme! Naučili jste se **vytvořit seskupený sloupcový graf**, automaticky **nastavit barvy** a **uložit prezentaci jako PPTX** pomocí Aspose.Slides for Java. Tato dovednost nejen zlepšuje vaše prezentace, ale také zjednodušuje proces vizuální reprezentace dat.
+Nyní víte, **jak vytvořit seskupený sloupcový graf**, automaticky **nastavit barvy** a **uložit prezentaci jako PPTX** pomocí Aspose.Slides pro Java. Tyto kroky vám umožní programově generovat snímky řízené daty, eliminovat opakovanou manuální práci a zajistit vizuální konzistenci napříč vaší organizací.
 
 **Další kroky:**  
-Prozkoumejte další funkce, jako je přizpůsobení prvků grafu, přidání popisků dat nebo integrace s externími zdroji dat, abyste rozšířili možnosti svého projektu.
+Prozkoumejte pokročilé úpravy, jako jsou datové popisky, formátování os a dynamické napojení dat z databází nebo CSV souborů, abyste své prezentace ještě více obohatili.
 
-## Sekce FAQ
-1. **Jak nainstaluji Aspose.Slides pro konkrétní verzi JDK?**  
-   - Použijte Maven/Gradle závislosti s určením `classifier` jak je uvedeno v sekci nastavení.  
-2. **Co když se moje prezentace neuloží správně?**  
-   - Ujistěte se, že máte oprávnění k zápisu do výstupního adresáře a že cesta k souboru je správná.  
-3. **Mohu pomocí Aspose.Slides for Java vytvořit jiné typy grafů?**  
-   - Rozhodně! Prozkoumejte možnosti `ChartType` jako koláčové, sloupcové nebo čárové grafy.  
-4. **Jak zacházet s velkými datovými sadami v mém grafu?**  
-   - Optimalizujte datové struktury a zvažte předzpracování dat před jejich vizualizací.  
-5. **Kde najdu více příkladů použití Aspose.Slides for Java?**  
-   - Navštivte [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/) pro komplexní návody a ukázky kódu.
+## Často kladené otázky
+**Q: Mohu tento kód použít ve webové aplikaci?**  
+A: Ano — Aspose.Slides je platformně nezávislý a funguje v jakémkoli prostředí založeném na Javě, včetně Spring Boot a Jakarta EE.
+
+**Q: Podporuje knihovna i jiné typy grafů?**  
+A: Rozhodně. Výčet v enumu `ChartType` zahrnuje Pie, Bar, Line, Area, Radar a mnoho dalších.
+
+**Q: Co když výstupní složka neexistuje?**  
+A: Zajistěte, aby adresář byl vytvořen předem, nebo použijte `Files.createDirectories(Paths.get(folder))`, aby nedošlo k `FileNotFoundException`.
+
+**Q: Jak zacházet s velkými datovými sadami (tisíce bodů)?**  
+A: Naplňujte řady pomocí streamovacích API nebo dávkových vkládání a zvažte vypnutí animací grafu pro zrychlení vykreslování.
+
+**Q: Kde najdu další ukázky kódu?**  
+A: Navštivte oficiální dokumentaci a repozitář vzorků: [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/).
 
 ## Zdroje
-- **Documentation**: [Aspose.Slides Reference](https://reference.aspose.com/slides/java/)  
-- **Download**: [Get Aspose.Slides](https://releases.aspose.com/slides/java/)  
-- **Purchase**: [Buy a License](https://purchase.aspose.com/buy)  
-- **Free Trial**: [Start a Free Trial](https://releases.aspose.com/slides/java/)  
-- **Temporary License**: [Request Here](https://purchase.aspose.com/temporary-license/)  
-- **Support**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
+- **Documentation:** [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)  
+- **Reference:** [Aspose.Slides Reference](https://reference.aspose.com/slides/java/)  
+- **Download:** [Get Aspose.Slides](https://releases.aspose.com/slides/java/)  
+- **Purchase:** [Buy a License](https://purchase.aspose.com/buy)  
+- **Free trial:** [Start a Free Trial](https://releases.aspose.com/slides/java/)  
+- **Temporary license:** [Request Here](https://purchase.aspose.com/temporary-license/)  
+- **Support:** [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
 ---
 
-**Poslední aktualizace:** 2026-03-18  
-**Testováno s:** Aspose.Slides 25.4 (JDK16)  
-**Autor:** Aspose  
+**Last Updated:** 2026-08-27  
+**Tested With:** Aspose.Slides 25.4 (JDK 16)  
+**Author:** Aspose
+
+## Související tutoriály
+
+- [Vytvořit PowerPoint graf v Javě – Uložit prezentace s grafy pomocí Aspose.Slides](/slides/java/charts-graphs/aspose-slides-java-save-presentations-charts/)
+- [aspose slides maven dependency: Přidat a konfigurovat grafy v prezentacích pomocí Aspose.Slides pro Java](/slides/java/charts-graphs/add-charts-aspose-slides-java-guide/)
+- [Přidat animaci do PowerPoint grafu pomocí Aspose.Slides pro Java – Průvodce krok za krokem](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

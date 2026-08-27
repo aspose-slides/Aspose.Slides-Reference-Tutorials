@@ -1,58 +1,94 @@
 ---
-date: '2026-03-18'
-description: Dowiedz się, jak stworzyć wykres słupkowy grupowany w Javie przy użyciu
-  Aspose.Slides, jak dodać wykres, ustawić kolory i zapisać prezentację jako PPTX.
-  Przewodnik krok po kroku z przykładami kodu.
+date: '2026-08-27'
+description: Dowiedz się, jak utworzyć wykres typu clustered column chart w Java przy
+  użyciu Aspose.Slides, dodać wykres, ustawić automatyczne kolory serii i zapisać
+  prezentację jako PPTX.
 keywords:
 - create clustered column chart
-- aspose slides java tutorial
-- clustered column chart java
-title: Jak utworzyć wykres słupkowy grupowany w Javie z Aspose.Slides
+- how to add chart
+- how to set colors
+- how to save pptx
+- maven aspose slides dependency
+lastmod: '2026-08-27'
+og_description: Dowiedz się, jak utworzyć wykres typu clustered column chart w Java
+  przy użyciu Aspose.Slides, dodać wykres, ustawić automatyczne kolory serii i zapisać
+  prezentację jako PPTX — wszystko w przejrzystych, krok po kroku instrukcjach.
+og_image_alt: Guide showing Java code to create a clustered column chart with Aspose.Slides
+og_title: Utwórz wykres typu clustered column chart w Java z Aspose.Slides
+schemas:
+- author: Aspose
+  dateModified: '2026-08-27'
+  description: Learn how to create clustered column chart in Java using Aspose.Slides,
+    add the chart, set automatic series colors, and save the presentation as PPTX.
+  headline: How to create clustered column chart in Java with Aspose.Slides
+  type: TechArticle
+- questions:
+  - answer: Yes—Aspose.Slides is platform‑agnostic and works in any Java‑based server
+      environment, including Spring Boot and Jakarta EE.
+    question: Can I use this code in a web application?
+  - answer: Absolutely. `ChartType` enum includes Pie, Bar, Line, Area, Radar, and
+      many more.
+    question: Does the library support other chart types?
+  - answer: Ensure the directory is created beforehand or use `Files.createDirectories(Paths.get(folder))`
+      to avoid `FileNotFoundException`.
+    question: What if the output folder does not exist?
+  - answer: Populate series using streaming APIs or batch inserts, and consider disabling
+      chart animation to improve rendering speed.
+    question: How do I handle large datasets (thousands of points)?
+  - answer: 'Visit the official documentation and sample repository: [Aspose.Slides
+      Documentation](https://reference.aspose.com/slides/java/).'
+    question: Where can I find more code samples?
+  type: FAQPage
+tags:
+- clustered column chart
+- Aspose.Slides
+- Java chart tutorial
+- PPTX generation
+title: Jak utworzyć wykres typu clustered column chart w Java z Aspose.Slides
 url: /pl/java/charts-graphs/aspose-slides-java-clustered-column-charts/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Jak utworzyć wykres słupkowy grupowany w Javie z Aspose.Slides
 
 ## Wprowadzenie
-Tworzenie wizualnie atrakcyjnych reprezentacji danych jest niezbędne dla efektywnych prezentacji biznesowych, a nauka **jak utworzyć wykres słupkowy grupowany** programowo może zaoszczędzić godziny ręcznej pracy. W tym samouczku zobaczysz **jak dodać wykres**, automatycznie **ustawić kolory** i w końcu **zapisać prezentację jako PPTX** przy użyciu **Aspose.Slides for Java**. Przejdziemy przez wszystko, czego potrzebujesz — od konfiguracji biblioteki po dodanie wykresu, dostosowanie kolorów wypełnienia serii i zapisanie pliku.
-
-### Co osiągniesz
-- Zainstaluj i skonfiguruj Aspose.Slides dla Javy  
-- **Utwórz wykres słupkowy grupowany** w nowej prezentacji  
-- Automatycznie zastosuj kolory wypełnienia serii (**jak ustawić kolory**)  
-- **Zapisz prezentację jako PPTX** na dysku (**jak zapisać prezentację**)  
-
-Zajmijmy się najpierw wymaganiami wstępnymi, zanim zaczniemy budować wykres.
+Tworzenie wykresu słupkowego grupowanego programowo oszczędza godziny ręcznego formatowania i zapewnia spójność w wielu prezentacjach. W tym samouczku nauczysz się **jak utworzyć wykres słupkowy grupowany** w Javie z Aspose.Slides, **jak dodać wykres**, **jak ustawić kolory** oraz **jak zapisać prezentację jako PPTX**. Omówimy wszystko, od instalacji biblioteki po dostosowanie kolorów wypełnienia serii i zapisanie pliku, abyś mógł osadzać bogate wizualizacje danych w dowolnym zestawie PowerPoint.
 
 ## Szybkie odpowiedzi
-- **Jaka jest główna klasa?** `Presentation` z `com.aspose.slides`  
-- **Jak dodać wykres?** Użyj `addChart(ChartType.ClusteredColumn, …)` w kolekcji kształtów slajdu (**jak dodać wykres**)  
-- **Czy mogę automatycznie ustawiać kolory?** Tak, wywołaj `setAutomaticSeriesColor(true)` dla każdej serii (**jak ustawić kolory**)  
-- **Jaki format jest używany do zapisu?** `SaveFormat.Pptx` (PowerPoint) (**zapisz prezentację jako pptx**)  
-- **Czy potrzebna jest licencja?** Wersja próbna działa do testów; pełna licencja jest wymagana w produkcji  
+- **Jaka jest podstawowa klasa do pracy z prezentacjami?** `Presentation` z pakietu `com.aspose.slides`.  
+- **Jak dodać wykres słupkowy grupowany?** Wywołaj `slide.getShapes().addChart(ChartType.ClusteredColumn, x, y, width, height)`.  
+- **Czy kolory serii można ustawić automatycznie?** Tak — włącz `setAutomaticSeriesColor(true)` dla każdej serii.  
+- **Jaki format powinienem użyć do zapisu pliku?** `SaveFormat.Pptx` tworzy standardowy plik PowerPoint.  
+- **Czy licencja jest wymagana w produkcji?** wersja próbna działa w fazie rozwoju; pełna licencja jest wymagana do użytku komercyjnego.
+
+## Co to jest wykres słupkowy grupowany?
+Wykres słupkowy grupowany wyświetla wiele serii danych obok siebie dla każdej kategorii, co ułatwia porównywanie wartości między grupami. Aspose.Slides obsługuje ten typ wykresu od razu i pozwala programowo kontrolować każdy aspekt wizualny.
+
+## Dlaczego tworzyć wykres słupkowy grupowany z Aspose.Slides?
+Aspose.Slides może obsługiwać **ponad 50 formatów wejściowych i wyjściowych** oraz przetwarzać prezentacje z **setkami slajdów** bez ładowania całego pliku do pamięci. Ta wydajność oznacza, że możesz generować duże zestawy w środowisku serwerowym przy minimalnym zużyciu zasobów.
 
 ## Wymagania wstępne
-Zanim rozpoczniesz, upewnij się, że masz niezbędne narzędzia i wiedzę:
+- **Java Development Kit** 16 lub nowszy.  
+- **Maven** lub **Gradle** do zarządzania zależnościami.  
+- Podstawowa znajomość składni Javy i koncepcji programowania obiektowego.  
 
 ### Wymagane biblioteki i zależności
-Będziesz potrzebować biblioteki Aspose.Slides for Java. Upewnij się, że używasz wersji 25.4 z obsługą JDK16.
+Potrzebujesz biblioteki Aspose.Slides for Java (wersja 25.4 lub nowsza). Biblioteka jest w pełni kompatybilna z JDK 16 i oferuje bogate API do manipulacji wykresami.
 
 ### Wymagania dotyczące konfiguracji środowiska
-Twoje środowisko programistyczne powinno obsługiwać Javę (najlepiej JDK16) i umożliwiać budowanie projektów przy użyciu Maven lub Gradle.
+Twoje IDE (IntelliJ IDEA, Eclipse, VS Code) musi być skonfigurowane do kompilacji kodu Java 16 oraz rozwiązywania zależności Maven/Gradle.
 
-### Wymagania dotyczące wiedzy
-Znajomość podstaw programowania w Javie, pracy z bibliotekami za pomocą Maven/Gradle oraz rozumienie prezentacji PowerPoint będzie przydatna.
+### Wymagania wiedzy
+Zrozumienie struktury slajdów PowerPoint oraz podstawowej terminologii wykresów (seria, kategorie, punkty danych) pomoże szybciej śledzić przykłady.
 
-## Konfiguracja Aspose.Slides dla Javy
-Aby zintegrować Aspose.Slides z projektem, postępuj zgodnie z poniższymi instrukcjami konfiguracji:
+## Konfigurowanie Aspose.Slides dla Javy
+Zintegruj bibliotekę z projektem, używając jednej z poniższych metod.
 
-**Maven**
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -60,74 +96,68 @@ Aby zintegrować Aspose.Slides z projektem, postępuj zgodnie z poniższymi inst
     <version>25.4</version>
     <classifier>jdk16</classifier>
 </dependency>
-```
+```  
 
-**Gradle**
+**Gradle**  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
-```
+```  
 
-**Bezpośrednie pobranie**  
-Dla tych, którzy wolą bezpośrednie pobrania, odwiedź [Wydania Aspose.Slides dla Javy](https://releases.aspose.com/slides/java/).
+**Direct download** – pobierz plik JAR ze strony oficjalnych wydań: [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 ### Kroki uzyskania licencji
-- **Bezpłatna wersja próbna**: Rozpocznij od bezpłatnej wersji próbnej, aby przetestować funkcje.  
-- **Licencja tymczasowa**: Uzyskaj tymczasową licencję do testów bez ograniczeń.  
-- **Zakup**: Do stałego użytku zakup pełną licencję.
+- **Free trial** – zarejestruj się na stronie Aspose, aby otrzymać tymczasowy plik licencji.  
+- **Temporary license** – poproś o 30‑dniową licencję dla większych zestawów testowych.  
+- **Full license** – zakup licencję do nieograniczonego użytku produkcyjnego.
 
 **Podstawowa inicjalizacja i konfiguracja**  
-Zainicjalizuj Aspose.Slides w następujący sposób:
 ```java
 import com.aspose.slides.Presentation;
 // Initialize the Presentation class
 Presentation presentation = new Presentation();
-```
+```  
 
-## Jak dodać wykres słupkowy grupowany
-Dodanie wykresu jest pierwszym krokiem funkcjonalnym. Ta sekcja wyjaśnia **jak dodać wykres** przy użyciu API.
+## Jak dodać wykres słupkowy grupowany?
+`Presentation` reprezentuje plik PowerPoint w pamięci.  
 
-### Funkcja 1: Utwórz wykres słupkowy grupowany
-Utwórzmy wykres słupkowy grupowany przy użyciu Aspose.Slides for Java. Ta funkcja pozwala łatwo dodawać wizualnie atrakcyjne wykresy do slajdów.
+**Direct answer:**  
+Utwórz obiekt `Presentation`, który reprezentuje plik PowerPoint w pamięci, pobierz pierwszy slajd i wywołaj `slide.getShapes().addChart(ChartType.ClusteredColumn, 100, 50, 600, 400)`. To pojedyncze wywołanie wstawia w pełni funkcjonalny wykres słupkowy grupowany, gotowy do wypełnienia danymi, i umieszcza go w określonych współrzędnych na slajdzie.
 
-#### Przegląd
-W tej sekcji zainicjujemy nową prezentację i wstawimy wykres słupkowy grupowany na pierwszym slajdzie.
+### Funkcja 1: utworzyć wykres słupkowy grupowany
+Klasa `Presentation` reprezentuje plik PowerPoint w pamięci i zapewnia dostęp do slajdów, kształtów i obiektów wykresów.
 
-**Krok 1: Inicjalizacja prezentacji**  
-Utwórz obiekt `Presentation`, aby rozpocząć pracę z plikami PowerPoint:
+**Krok 1: zainicjalizuj prezentację**  
 ```java
 import com.aspose.slides.Presentation;
 // Initialize a new Presentation object
 Presentation presentation = new Presentation();
-```
+```  
 
-**Krok 2: Dodaj wykres słupkowy grupowany**  
-Dodaj wykres w określonych współrzędnych (100, 50) i wymiarach (600 × 400):
+**Krok 2: dodaj wykres słupkowy grupowany**  
 ```java
 import com.aspose.slides.ChartType;
 import com.aspose.slides.IChart;
 IChart chart = presentation.getSlides().get_Item(0).getShapes()
                             .addChart(ChartType.ClusteredColumn, 100, 50, 600, 400);
-```
+```  
 
-**Krok 3: Oczyszczenie zasobów**  
-Zawsze zwalniaj zasoby, aby zapobiec wyciekom pamięci:
+**Krok 3: zwolnij zasoby**  
 ```java
 finally {
     if (presentation != null) presentation.dispose();
 }
-```
+```  
 
-## Jak ustawić kolory wykresu
-Zwiększ atrakcyjność wizualną, automatycznie stosując kolory wypełnienia serii (**jak ustawić kolory**).
+## Jak ustawić kolory wykresu?
+`Series` reprezentuje kolekcję punktów danych w wykresie.  
 
-### Funkcja 2: Ustaw automatyczny kolor wypełnienia serii
-Ustaw automatycznie kolor każdej serii wykresu, aby uzyskać spójny wygląd.
+**Direct answer:**  
+Po utworzeniu wykresu, uzyskaj jego dane wykresu za pomocą `chart.getChartData()` i przeiteruj każdą obiekt `Series`. Dla każdej serii wywołaj `setAutomaticSeriesColor(true)` na serii nadrzędnej. Aspose.Slides automatycznie przypisuje odróżniający się, kontrastowy kolor z palety do każdej serii, zapewniając przejrzystość wizualną bez ręcznego wyboru kolorów.
 
-#### Przegląd
-Ustaw automatycznie kolor każdej serii wykresu, aby uzyskać spójny wygląd.
+### Funkcja 2: ustaw automatyczny kolor wypełnienia serii
+`IChart` jest interfejsem reprezentującym kształt wykresu; udostępnia `getChartData()` do manipulacji seriami.
 
-**Krok 1: Uzyskaj dostęp do wykresu i iteruj serie**  
-Po utworzeniu wykresu, uzyskaj do niego dostęp i iteruj jego serie:
+**Krok 1: uzyskaj dostęp do wykresu i iteruj serie**  
 ```java
 import com.aspose.slides.IChart;
 IChart chart = presentation.getSlides().get_Item(0).getShapes()
@@ -136,85 +166,92 @@ IChart chart = presentation.getSlides().get_Item(0).getShapes()
 for (int i = 0; i < chart.getChartData().getSeries().size(); i++) {
     chart.getChartData().getSeries().get_Item(i).setAutomaticSeriesColor(true);
 }
-```
+```  
 
-**Krok 2: Zarządzanie zasobami**  
-Zwolnij obiekt prezentacji po zakończeniu:
+**Krok 2: zarządzanie zasobami**  
 ```java
 finally {
     if (presentation != null) presentation.dispose();
 }
-```
+```  
 
-## Jak zapisać prezentację jako PPTX
-Gdy wykres wygląda świetnie, będziesz chciał zachować plik (**jak zapisać prezentację**).
+## Jak zapisać prezentację jako PPTX?
+`save` zapisuje prezentację do pliku w wybranym formacie.  
 
-### Funkcja 3: Zapisz prezentację na dysku
-Na koniec, zapisz swoją pracę z łatwością przy użyciu Aspose.Slides.
+**Direct answer:**  
+Podaj ścieżkę pliku wyjściowego, np. `"output/ClusteredColumnChart.pptx"` i wywołaj `presentation.save(outputPath, SaveFormat.Pptx)`. Metoda `save` serializuje cały zestaw slajdów, w tym wszystkie kształty, wykresy i zasoby, do standardowego pliku PPTX, który może być otwarty w PowerPoint 2010 lub nowszym, a także w wielu przeglądarkach online.
 
-#### Przegląd
-Zapisz edytowane prezentacje w wybranym formacie i lokalizacji.
+### Funkcja 3: zapisz prezentację na dysku
+Zapis przy użyciu `SaveFormat.Pptx` tworzy plik kompatybilny z PowerPoint 2010 i nowszymi, a także z większością przeglądarek online.
 
-**Krok 1: Określ ścieżkę wyjściową**  
-Określ, gdzie chcesz zapisać plik:
+**Krok 1: określ ścieżkę wyjściową**  
 ```java
 import com.aspose.slides.SaveFormat;
 String outputPath = "YOUR_OUTPUT_DIRECTORY/AutoFillSeries_out.pptx";
-```
+```  
 
-**Krok 2: Zapisz prezentację**  
-Użyj metody `save` obiektu `Presentation`:
+**Krok 2: zapisz prezentację**  
 ```java
 presentation.save(outputPath, SaveFormat.Pptx);
-```
+```  
 
 ## Praktyczne zastosowania
-- **Raporty finansowe**: Wizualizuj kwartalne przychody z przejrzystością.  
-- **Analiza danych marketingowych**: Przedstaw wyniki kampanii przy użyciu atrakcyjnych wizualizacji.  
-- **Zarządzanie projektami**: Śledź kamienie milowe i postępy wizualnie na spotkaniach zespołu.
+- **Financial reporting** – porównaj kwartalne przychody w różnych liniach produktów.  
+- **Marketing analytics** – wizualizuj wyniki kampanii według regionu.  
+- **Project management** – wyświetl prędkość sprintu lub alokację zasobów w zespołach.  
 
 ## Rozważania dotyczące wydajności
-Podczas pracy z Aspose.Slides, weź pod uwagę następujące najlepsze praktyki:
-- Efektywnie zarządzaj pamięcią, szybko zwalniając obiekty `Presentation`.  
-- Optymalizuj rozmiary plików przy zapisywaniu prezentacji, aby oszczędzać miejsce na dysku.  
-- Używaj wydajnych struktur danych dla serii wykresów, aby zwiększyć wydajność.
+- Zwolnij obiekty `Presentation` niezwłocznie, aby uwolnić zasoby natywne.  
+- Użyj `presentation.getSlides().removeUnusedResources()` przed zapisem, aby zmniejszyć rozmiar pliku.  
+- Wypełniaj serie wykresu lekkimi kolekcjami (np. `ArrayList<Double>`), aby utrzymać niskie zużycie pamięci.
 
-## Podsumowanie
-Gratulacje! Nauczyłeś się **tworzyć wykres słupkowy grupowany**, automatycznie **ustawiać kolory** i **zapisywać prezentację jako PPTX** przy użyciu Aspose.Slides for Java. Ta umiejętność nie tylko podnosi jakość Twoich prezentacji, ale także usprawnia proces wizualnej reprezentacji danych.
+## Zakończenie
+Teraz wiesz, jak **utworzyć wykres słupkowy grupowany**, automatycznie **ustawić kolory** i **zapisać prezentację jako PPTX** przy użyciu Aspose.Slides dla Javy. Te kroki pozwalają generować slajdy oparte na danych programowo, eliminując powtarzalną ręczną pracę i zapewniając spójność wizualną w całej organizacji.
 
-**Kolejne kroki:**  
-Zbadaj dalsze funkcje, takie jak dostosowywanie elementów wykresu, dodawanie etykiet danych lub integracja z zewnętrznymi źródłami danych, aby rozszerzyć możliwości projektu.
+**Next steps:**  
+Zbadaj zaawansowane dostosowania, takie jak etykiety danych, formatowanie osi oraz dynamiczne powiązanie danych z bazami danych lub plikami CSV, aby jeszcze bardziej wzbogacić swoje prezentacje.
 
-## Sekcja FAQ
-1. **Jak zainstalować Aspose.Slides dla konkretnej wersji JDK?**  
-   - Użyj zależności Maven/Gradle określając `classifier` jak pokazano w sekcji konfiguracji.  
-2. **Co zrobić, jeśli moja prezentacja nie zapisuje się poprawnie?**  
-   - Upewnij się, że masz uprawnienia do zapisu w katalogu wyjściowym i że ścieżka pliku jest prawidłowa.  
-3. **Czy mogę tworzyć inne typy wykresów przy użyciu Aspose.Slides for Java?**  
-   - Oczywiście! Przeglądaj opcje `ChartType`, takie jak wykresy kołowe, słupkowe czy liniowe.  
-4. **Jak radzić sobie z dużymi zestawami danych w wykresie?**  
-   - Optymalizuj struktury danych i rozważ wstępne przetwarzanie danych przed ich wizualizacją.  
-5. **Gdzie mogę znaleźć więcej przykładów użycia Aspose.Slides for Java?**  
-   - Odwiedź [Dokumentację Aspose.Slides](https://reference.aspose.com/slides/java/) aby uzyskać kompleksowe przewodniki i przykłady kodu.
+## Najczęściej zadawane pytania
+**Q: Czy mogę używać tego kodu w aplikacji webowej?**  
+A: Tak — Aspose.Slides jest niezależny od platformy i działa w każdym środowisku serwerowym opartym na Javie, w tym Spring Boot i Jakarta EE.
+
+**Q: Czy biblioteka obsługuje inne typy wykresów?**  
+A: Zdecydowanie. Enum `ChartType` zawiera wykresy kołowe, słupkowe, liniowe, obszarowe, radarowe i wiele innych.
+
+**Q: Co jeśli folder wyjściowy nie istnieje?**  
+A: Upewnij się, że katalog zostanie utworzony wcześniej lub użyj `Files.createDirectories(Paths.get(folder))`, aby uniknąć `FileNotFoundException`.
+
+**Q: Jak obsłużyć duże zestawy danych (tysiące punktów)?**  
+A: Wypełniaj serie przy użyciu API strumieniowych lub wsadowych wstawień i rozważ wyłączenie animacji wykresu, aby przyspieszyć renderowanie.
+
+**Q: Gdzie mogę znaleźć więcej przykładów kodu?**  
+A: Odwiedź oficjalną dokumentację i repozytorium przykładów: [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/).
 
 ## Zasoby
-- **Dokumentacja**: [Aspose.Slides Reference](https://reference.aspose.com/slides/java/)  
-- **Pobranie**: [Pobierz Aspose.Slides](https://releases.aspose.com/slides/java/)  
-- **Zakup**: [Kup licencję](https://purchase.aspose.com/buy)  
-- **Bezpłatna wersja próbna**: [Rozpocznij bezpłatną wersję próbną](https://releases.aspose.com/slides/java/)  
-- **Licencja tymczasowa**: [Złóż wniosek tutaj](https://purchase.aspose.com/temporary-license/)  
-- **Wsparcie**: [Forum Aspose](https://forum.aspose.com/c/slides/11)
+- **Dokumentacja:** [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)  
+- **Referencja:** [Aspose.Slides Reference](https://reference.aspose.com/slides/java/)  
+- **Pobierz:** [Get Aspose.Slides](https://releases.aspose.com/slides/java/)  
+- **Zakup:** [Buy a License](https://purchase.aspose.com/buy)  
+- **Bezpłatna wersja próbna:** [Start a Free Trial](https://releases.aspose.com/slides/java/)  
+- **Licencja tymczasowa:** [Request Here](https://purchase.aspose.com/temporary-license/)  
+- **Wsparcie:** [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
 ---
 
-**Ostatnia aktualizacja:** 2026-03-18  
-**Testowano z:** Aspose.Slides 25.4 (JDK16)  
-**Autor:** Aspose  
+**Ostatnia aktualizacja:** 2026-08-27  
+**Testowano z:** Aspose.Slides 25.4 (JDK 16)  
+**Autor:** Aspose
+
+## Powiązane samouczki
+
+- [Utwórz wykres PowerPoint w Javie – zapisz prezentacje z wykresami przy użyciu Aspose.Slides](/slides/java/charts-graphs/aspose-slides-java-save-presentations-charts/)
+- [aspose slides maven dependency: Dodaj i skonfiguruj wykresy w prezentacjach przy użyciu Aspose.Slides dla Javy](/slides/java/charts-graphs/add-charts-aspose-slides-java-guide/)
+- [Dodaj animację do wykresu PowerPoint przy użyciu Aspose.Slides dla Javy – przewodnik krok po kroku](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

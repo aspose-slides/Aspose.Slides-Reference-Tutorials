@@ -1,58 +1,94 @@
 ---
-date: '2026-03-18'
-description: Leer hoe je een gegroepeerde kolomgrafiek maakt in Java met Aspose.Slides,
-  hoe je een grafiek toevoegt, kleuren instelt en de presentatie opslaat als PPTX.
-  Stapsgewijze handleiding met codevoorbeelden.
+date: '2026-08-27'
+description: Leer hoe je een clustered column chart maakt in Java met Aspose.Slides,
+  de chart toevoegt, automatic series colors instelt en de presentatie opslaat als
+  PPTX.
 keywords:
 - create clustered column chart
-- aspose slides java tutorial
-- clustered column chart java
-title: Hoe maak je een gegroepeerde kolomgrafiek in Java met Aspose.Slides
+- how to add chart
+- how to set colors
+- how to save pptx
+- maven aspose slides dependency
+lastmod: '2026-08-27'
+og_description: Leer hoe je een clustered column chart maakt in Java met Aspose.Slides,
+  de chart toevoegt, automatic series colors instelt en de presentatie opslaat als
+  PPTX — allemaal met duidelijke stap‑voor‑stap instructies.
+og_image_alt: Guide showing Java code to create a clustered column chart with Aspose.Slides
+og_title: Maak een clustered column chart in Java met Aspose.Slides
+schemas:
+- author: Aspose
+  dateModified: '2026-08-27'
+  description: Learn how to create clustered column chart in Java using Aspose.Slides,
+    add the chart, set automatic series colors, and save the presentation as PPTX.
+  headline: How to create clustered column chart in Java with Aspose.Slides
+  type: TechArticle
+- questions:
+  - answer: Yes—Aspose.Slides is platform‑agnostic and works in any Java‑based server
+      environment, including Spring Boot and Jakarta EE.
+    question: Can I use this code in a web application?
+  - answer: Absolutely. `ChartType` enum includes Pie, Bar, Line, Area, Radar, and
+      many more.
+    question: Does the library support other chart types?
+  - answer: Ensure the directory is created beforehand or use `Files.createDirectories(Paths.get(folder))`
+      to avoid `FileNotFoundException`.
+    question: What if the output folder does not exist?
+  - answer: Populate series using streaming APIs or batch inserts, and consider disabling
+      chart animation to improve rendering speed.
+    question: How do I handle large datasets (thousands of points)?
+  - answer: 'Visit the official documentation and sample repository: [Aspose.Slides
+      Documentation](https://reference.aspose.com/slides/java/).'
+    question: Where can I find more code samples?
+  type: FAQPage
+tags:
+- clustered column chart
+- Aspose.Slides
+- Java chart tutorial
+- PPTX generation
+title: Hoe maak je een clustered column chart in Java met Aspose.Slides
 url: /nl/java/charts-graphs/aspose-slides-java-clustered-column-charts/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Hoe een gegroepeerde kolomgrafiek te maken in Java met Aspose.Slides
 
-## Introductie
-Het creëren van visueel aantrekkelijke gegevensrepresentaties is essentieel voor impactvolle zakelijke presentaties, en het leren **hoe je een gegroepeerde kolomgrafiek** programmatically kunt maken, kan je uren handmatig werk besparen. In deze tutorial zie je **hoe je een grafiek toevoegt**, automatisch **kleuren instelt**, en uiteindelijk **de presentatie opslaat als PPTX** met **Aspose.Slides for Java**. We lopen alles door wat je nodig hebt — van het instellen van de bibliotheek tot het toevoegen van de grafiek, het aanpassen van de vulkleuren van de series, en het opslaan van het bestand.
-
-### Wat je zult bereiken
-- Installeer en configureer Aspose.Slides voor Java  
-- **Maak een gegroepeerde kolomgrafiek** in een gloednieuwe presentatie  
-- Pas automatisch vulkleuren van series toe (**how to set colors**)  
-- **Sla de presentatie op als PPTX** naar schijf (**how to save presentation**)  
-
-Laten we eerst de vereisten behandelen voordat we beginnen met het bouwen van de grafiek.
+## Inleiding
+Het programmatically maken van een gegroepeerde kolomgrafiek bespaart je uren handmatige opmaak en garandeert consistentie over meerdere presentaties. In deze tutorial leer je **hoe je een gegroepeerde kolomgrafiek maakt** in Java met Aspose.Slides, **hoe je een grafiek toevoegt**, **hoe je kleuren instelt**, en **hoe je de presentatie opslaat als PPTX**. We behandelen alles, van het installeren van de bibliotheek tot het aanpassen van de vulkleuren van series en het opslaan van het bestand, zodat je rijke datavisualisaties kunt insluiten in elke PowerPoint‑presentatie.
 
 ## Snelle antwoorden
-- **Wat is de primaire klasse?** `Presentation` van `com.aspose.slides`  
-- **Hoe voeg ik een grafiek toe?** Gebruik `addChart(ChartType.ClusteredColumn, …)` op de vormcollectie van een dia (**how to add chart**)  
-- **Kan ik kleuren automatisch instellen?** Ja, roep `setAutomaticSeriesColor(true)` aan op elke serie (**how to set colors**)  
-- **Welk formaat wordt gebruikt voor opslaan?** `SaveFormat.Pptx` (PowerPoint) (**save presentation as pptx**)  
-- **Heb ik een licentie nodig?** Een proefversie werkt voor testen; een volledige licentie is vereist voor productie  
+- **Wat is de primaire klasse voor het werken met presentaties?** `Presentation` from the `com.aspose.slides` package.  
+- **Hoe voeg ik een gegroepeerde kolomgrafiek toe?** Call `slide.getShapes().addChart(ChartType.ClusteredColumn, x, y, width, height)`.  
+- **Kunnen serieskleuren automatisch worden ingesteld?** Yes—enable `setAutomaticSeriesColor(true)` on each series.  
+- **Welk formaat moet ik gebruiken om het bestand op te slaan?** `SaveFormat.Pptx` produces a standard PowerPoint file.  
+- **Is een licentie vereist voor productie?** A trial works for development; a full license is needed for commercial use.
+
+## Wat is een gegroepeerde kolomgrafiek?
+Een gegroepeerde kolomgrafiek toont meerdere dataseries naast elkaar voor elke categorie, waardoor het eenvoudig is om waarden over groepen te vergelijken. Aspose.Slides ondersteunt dit grafiektype direct en stelt je in staat om elk visueel aspect programmatically te regelen.
+
+## Waarom een gegroepeerde kolomgrafiek maken met Aspose.Slides?
+Aspose.Slides kan **meer dan 50 invoer- en uitvoerformaten** aan en presentaties verwerken met **honderden dia's** zonder het volledige bestand in het geheugen te laden. Deze efficiëntie betekent dat je grote presentaties kunt genereren in een server‑side omgeving met minimaal resourceverbruik.
 
 ## Vereisten
-Zorg er voordat je begint voor dat je de benodigde tools en kennis hebt:
+- **Java Development Kit** 16 of nieuwer.  
+- **Maven** of **Gradle** voor afhankelijkheidsbeheer.  
+- Basiskennis van Java-syntaxis en object‑georiënteerde concepten.  
 
 ### Vereiste bibliotheken en afhankelijkheden
-Je hebt de Aspose.Slides for Java bibliotheek nodig. Zorg ervoor dat je versie 25.4 gebruikt met JDK16-ondersteuning.
+Je hebt de Aspose.Slides for Java bibliotheek nodig (versie 25.4 of later). De bibliotheek is volledig compatibel met JDK 16 en biedt een uitgebreide API voor grafiekmanipulatie.
 
 ### Vereisten voor omgeving configuratie
-Je ontwikkelomgeving moet Java ondersteunen (bij voorkeur JDK16) en in staat zijn projecten te bouwen met Maven of Gradle.
+Je IDE (IntelliJ IDEA, Eclipse, VS Code) moet geconfigureerd zijn om Java 16 code te compileren en Maven/Gradle‑afhankelijkheden op te lossen.
 
-### Kennisvereisten
-Bekendheid met basis Java-programmeren, werken met bibliotheken via Maven/Gradle, en begrip van PowerPoint-presentaties is nuttig.
+### Vereiste kennis
+Begrip van de PowerPoint‑dia‑structuur en basisgrafiekterminologie (series, categorieën, datapunten) helpt je de voorbeelden sneller te volgen.
 
-## Instellen van Aspose.Slides voor Java
-Om Aspose.Slides in je project te integreren, volg je de onderstaande installatie‑instructies:
+## Aspose.Slides voor Java instellen
+Integreer de bibliotheek in je project met een van de volgende methoden.
 
-**Maven**
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -60,74 +96,68 @@ Om Aspose.Slides in je project te integreren, volg je de onderstaande installati
     <version>25.4</version>
     <classifier>jdk16</classifier>
 </dependency>
-```
+```  
 
-**Gradle**
+**Gradle**  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
-```
+```  
 
-**Direct Download**  
-Voor wie de voorkeur geeft aan directe downloads, bezoek [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+**Directe download** – haal de JAR op van de officiële releases-pagina: [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 ### Stappen voor licentie‑acquisitie
-- **Gratis proefversie**: Begin met een gratis proefversie om de functies te verkennen.  
-- **Tijdelijke licentie**: Verkrijg een tijdelijke licentie om zonder beperkingen te testen.  
-- **Aankoop**: Voor doorlopend gebruik, koop een volledige licentie.
+- **Gratis proefversie** – registreer op de Aspose‑site om een tijdelijk licentiebestand te ontvangen.  
+- **Tijdelijke licentie** – vraag een 30‑daagse licentie aan voor grotere testsuites.  
+- **Volledige licentie** – koop voor onbeperkt gebruik in productie.
 
 **Basisinitialisatie en configuratie**  
-Initialize Aspose.Slides as follows:
 ```java
 import com.aspose.slides.Presentation;
 // Initialize the Presentation class
 Presentation presentation = new Presentation();
-```
+```  
 
-## Hoe een gegroepeerde kolomgrafiek toe te voegen
-Het toevoegen van een grafiek is de eerste functionele stap. Deze sectie legt **how to add chart** uit met behulp van de API.
+## Hoe een gegroepeerde kolomgrafiek toe te voegen?
+`Presentation` vertegenwoordigt een PowerPoint‑bestand in het geheugen.  
 
-### Functie 1: Maak een gegroepeerde kolomgrafiek
-Laten we een gegroepeerde kolomgrafiek maken met Aspose.Slides for Java. Deze functie stelt je in staat om moeiteloos visueel aantrekkelijke grafieken aan je dia's toe te voegen.
+**Direct antwoord:**  
+Maak een `Presentation`‑object, dat een PowerPoint‑bestand in het geheugen vertegenwoordigt, haal de eerste dia op, en roep `slide.getShapes().addChart(ChartType.ClusteredColumn, 100, 50, 600, 400)` aan. Deze ene oproep voegt een volledig functionele gegroepeerde kolomgrafiek in, klaar voor het vullen van gegevens, en plaatst deze op de opgegeven coördinaten op de dia.
 
-#### Overzicht
-In deze sectie initialiseren we een nieuwe presentatie en voegen we een gegroepeerde kolomgrafiek toe aan de eerste dia.
+### Functie 1: gegroepeerde kolomgrafiek maken
+De `Presentation`‑klasse vertegenwoordigt een PowerPoint‑bestand in het geheugen en biedt toegang tot dia's, vormen en grafiekobjecten.
 
-**Stap 1: Presentatie initialiseren**  
-Create a `Presentation` object to start working with PowerPoint files:
+**Stap 1: presentatie initialiseren**  
 ```java
 import com.aspose.slides.Presentation;
 // Initialize a new Presentation object
 Presentation presentation = new Presentation();
-```
+```  
 
-**Stap 2: Voeg gegroepeerde kolomgrafiek toe**  
-Add the chart at specified coordinates (100, 50) and dimensions (600 × 400):
+**Stap 2: gegroepeerde kolomgrafiek toevoegen**  
 ```java
 import com.aspose.slides.ChartType;
 import com.aspose.slides.IChart;
 IChart chart = presentation.getSlides().get_Item(0).getShapes()
                             .addChart(ChartType.ClusteredColumn, 100, 50, 600, 400);
-```
+```  
 
-**Stap 3: Resources opruimen**  
-Always dispose of resources to prevent memory leaks:
+**Stap 3: bronnen opruimen**  
 ```java
 finally {
     if (presentation != null) presentation.dispose();
 }
-```
+```  
 
-## Hoe kleuren in te stellen voor de grafiek
-Verbeter de visuele aantrekkingskracht door automatisch vulkleuren voor series toe te passen (**how to set colors**).
+## Hoe kleuren voor de grafiek instellen?
+`Series` vertegenwoordigt een verzameling datapunten binnen een grafiek.  
 
-### Functie 2: Stel automatische serie‑vulkleur in
-Stel de kleur van elke serie in de grafiek automatisch in voor een samenhangende uitstraling.
+**Direct antwoord:**  
+Nadat de grafiek is gemaakt, verkrijg je de grafiekgegevens via `chart.getChartData()` en loop je door elk `Series`‑object. Voor elke serie roep je `setAutomaticSeriesColor(true)` aan op de bovenliggende serie. Aspose.Slides kent dan automatisch een onderscheidende, contrasterende kleur uit zijn palet toe aan elke serie, waardoor visuele duidelijkheid wordt gegarandeerd zonder handmatige kleurselectie.
 
-#### Overzicht
-Stel de kleur van elke serie in de grafiek automatisch in voor een samenhangende uitstraling.
+### Functie 2: automatische serie‑vulkleur instellen
+`IChart` is de interface die een grafiekvorm vertegenwoordigt; het biedt `getChartData()` voor manipulatie van series.
 
-**Stap 1: Toegang tot grafiek en itereren over series**  
-After creating your chart, access it and iterate over its series:
+**Stap 1: grafiek benaderen en series itereren**  
 ```java
 import com.aspose.slides.IChart;
 IChart chart = presentation.getSlides().get_Item(0).getShapes()
@@ -136,86 +166,90 @@ IChart chart = presentation.getSlides().get_Item(0).getShapes()
 for (int i = 0; i < chart.getChartData().getSeries().size(); i++) {
     chart.getChartData().getSeries().get_Item(i).setAutomaticSeriesColor(true);
 }
-```
+```  
 
-**Stap 2: Resourcebeheer**  
-Dispose of the presentation object once done:
+**Stap 2: resource‑beheer**  
 ```java
 finally {
     if (presentation != null) presentation.dispose();
 }
-```
+```  
 
-## Hoe de presentatie op te slaan als PPTX
-Zodra de grafiek er goed uitziet, wil je het bestand opslaan (**how to save presentation**).
+## Hoe de presentatie opslaan als PPTX?
+`save` schrijft de presentatie naar een bestand in het gekozen formaat.  
 
-### Functie 3: Sla presentatie op schijf
-Sla tenslotte je werk eenvoudig op met behulp van Aspose.Slides.
+**Direct antwoord:**  
+Geef een uitvoerpad op, bijvoorbeeld `"output/ClusteredColumnChart.pptx"`, en roep `presentation.save(outputPath, SaveFormat.Pptx)` aan. De `save`‑methode serialiseert de volledige dia‑set, inclusief alle vormen, grafieken en resources, naar een standaard PPTX‑bestand dat kan worden geopend door PowerPoint 2010 of later, evenals vele online viewers.
 
-#### Overzicht
-Sla je bewerkte presentaties op in het gewenste formaat en op de gewenste locatie.
+### Functie 3: presentatie opslaan op schijf
+Opslaan met `SaveFormat.Pptx` produceert een bestand dat compatibel is met PowerPoint 2010 en later, evenals de meeste online viewers.
 
-**Stap 1: Definieer uitvoerpad**  
-Specify where you want to save the file:
+**Stap 1: uitvoerpad definiëren**  
 ```java
 import com.aspose.slides.SaveFormat;
 String outputPath = "YOUR_OUTPUT_DIRECTORY/AutoFillSeries_out.pptx";
-```
+```  
 
-**Stap 2: Presentatie opslaan**  
-Use the `save` method of the `Presentation` object:
+**Stap 2: presentatie opslaan**  
 ```java
 presentation.save(outputPath, SaveFormat.Pptx);
-```
+```  
 
 ## Praktische toepassingen
-- **Financiële rapporten**: Visualiseer kwartaalresultaten met helderheid.  
-- **Marketing data-analyse**: Toon campagneresultaten met overtuigende visuals.  
-- **Projectmanagement**: Volg mijlpalen en voortgang visueel tijdens teamvergaderingen.
+- **Financiële rapportage** – vergelijk kwartaalomzet over productlijnen.  
+- **Marketinganalyse** – visualiseer campagneresultaten per regio.  
+- **Projectmanagement** – toon sprint‑snelheid of resource‑toewijzing over teams.  
 
-## Prestatieoverwegingen
-Bij het werken met Aspose.Slides, houd rekening met deze best practices:
-
-- Beheer het geheugen effectief door `Presentation`‑objecten tijdig te disposen.  
-- Optimaliseer bestandsgroottes bij het opslaan van presentaties om schijfruimte te besparen.  
-- Gebruik efficiënte datastructuren voor grafiekseries om de prestaties te verbeteren.
+## Prestatie‑overwegingen
+- Ruim `Presentation`‑objecten direct op om native resources vrij te geven.  
+- Gebruik `presentation.getSlides().removeUnusedResources()` vóór het opslaan om de bestandsgrootte te verkleinen.  
+- Vul grafiek‑series met lichtgewicht collecties (bijv. `ArrayList<Double>`) om het geheugenverbruik laag te houden.
 
 ## Conclusie
-Gefeliciteerd! Je hebt geleerd hoe je een **gegroepeerde kolomgrafiek** maakt, automatisch **kleuren instelt**, en **de presentatie opslaat als PPTX** met Aspose.Slides for Java. Deze vaardigheid verbetert niet alleen je presentaties, maar stroomlijnt ook het proces van visuele gegevensrepresentatie.
+Je weet nu hoe je **een gegroepeerde kolomgrafiek maakt**, automatisch **kleuren instelt**, en **de presentatie opslaat als PPTX** met Aspose.Slides voor Java. Deze stappen stellen je in staat om data‑gedreven dia's programmatically te genereren, waardoor repetitief handmatig werk wordt geëlimineerd en visuele consistentie binnen je organisatie wordt gewaarborgd.
 
 **Volgende stappen:**  
-Verken verdere functies zoals het aanpassen van grafiekelementen, het toevoegen van gegevenslabels, of integratie met externe gegevensbronnen om de mogelijkheden van je project uit te breiden.
+Verken geavanceerde aanpassingen zoals datalabels, as‑opmaak, en dynamische databinding vanuit databases of CSV‑bestanden om je presentaties verder te verrijken.
 
 ## Veelgestelde vragen
-1. **Hoe installeer ik Aspose.Slides voor een specifieke JDK‑versie?**  
-   - Gebruik Maven/Gradle‑afhankelijkheden waarbij je `classifier` opgeeft zoals weergegeven in de installatie‑sectie.  
-2. **Wat als mijn presentatie niet correct wordt opgeslagen?**  
-   - Zorg ervoor dat je schrijfrechten hebt voor de uitvoermap en dat het bestandspad correct is.  
-3. **Kan ik andere soorten grafieken maken met Aspose.Slides voor Java?**  
-   - Zeker! Verken `ChartType`‑opties zoals taart-, staaf- of lijngrafieken.  
-4. **Hoe ga ik om met grote datasets in mijn grafiek?**  
-   - Optimaliseer datastructuren en overweeg je gegevens vooraf te verwerken voordat je ze visualiseert.  
-5. **Waar vind ik meer voorbeelden van het gebruik van Aspose.Slides voor Java?**  
-   - Bezoek de [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/) voor uitgebreide handleidingen en code‑voorbeelden.
+**V: Kan ik deze code gebruiken in een webapplicatie?**  
+A: Ja—Aspose.Slides is platform‑agnostisch en werkt in elke op Java gebaseerde serveromgeving, inclusief Spring Boot en Jakarta EE.
+
+**V: Ondersteunt de bibliotheek andere grafiektype­n?**  
+A: Absoluut. De `ChartType`‑enum bevat Pie, Bar, Line, Area, Radar en nog veel meer.
+
+**V: Wat als de uitvoermap niet bestaat?**  
+A: Zorg ervoor dat de map van tevoren wordt aangemaakt of gebruik `Files.createDirectories(Paths.get(folder))` om een `FileNotFoundException` te voorkomen.
+
+**V: Hoe ga ik om met grote datasets (duizenden punten)?**  
+A: Vul series met streaming‑API's of batch‑inserts, en overweeg het uitschakelen van grafiek‑animatie om de render‑snelheid te verbeteren.
+
+**V: Waar vind ik meer code‑voorbeelden?**  
+A: Bezoek de officiële documentatie en voorbeeld‑repository: [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/).
 
 ## Bronnen
-- **Documentatie**: [Aspose.Slides Referentie](https://reference.aspose.com/slides/java/)  
-- **Download**: [Aspose.Slides downloaden](https://releases.aspose.com/slides/java/)  
-- **Aankoop**: [Koop een licentie](https://purchase.aspose.com/buy)  
-- **Gratis proefversie**: [Start een gratis proefversie](https://releases.aspose.com/slides/java/)  
-- **Tijdelijke licentie**: [Vraag hier aan](https://purchase.aspose.com/temporary-license/)  
-- **Ondersteuning**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
+- **Documentatie:** [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)  
+- **Referentie:** [Aspose.Slides Reference](https://reference.aspose.com/slides/java/)  
+- **Download:** [Get Aspose.Slides](https://releases.aspose.com/slides/java/)  
+- **Aankoop:** [Buy a License](https://purchase.aspose.com/buy)  
+- **Gratis proefversie:** [Start a Free Trial](https://releases.aspose.com/slides/java/)  
+- **Tijdelijke licentie:** [Request Here](https://purchase.aspose.com/temporary-license/)  
+- **Ondersteuning:** [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
 ---
 
-**Laatst bijgewerkt:** 2026-03-18  
-**Getest met:** Aspose.Slides 25.4 (JDK16)  
-**Auteur:** Aspose  
+**Laatst bijgewerkt:** 2026-08-27  
+**Getest met:** Aspose.Slides 25.4 (JDK 16)  
+**Auteur:** Aspose
+
+## Gerelateerde tutorials
+- [PowerPoint‑grafiek maken Java – Presentaties opslaan met grafieken met Aspose.Slides](/slides/java/charts-graphs/aspose-slides-java-save-presentations-charts/)
+- [aspose slides maven‑afhankelijkheid: Grafieken toevoegen en configureren in presentaties met Aspose.Slides voor Java](/slides/java/charts-graphs/add-charts-aspose-slides-java-guide/)
+- [Animatie toevoegen aan PowerPoint‑grafiek met Aspose.Slides voor Java – Een stapsgewijze gids](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
