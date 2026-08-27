@@ -1,58 +1,94 @@
 ---
-date: '2026-03-18'
-description: Lär dig hur du skapar ett grupperat stapeldiagram i Java med Aspose.Slides,
-  hur du lägger till diagram, ställer in färger och sparar presentationen som PPTX.
-  Steg‑för‑steg‑guide med kodexempel.
+date: '2026-08-27'
+description: Lär dig hur du skapar clustered column chart i Java med Aspose.Slides,
+  lägger till diagrammet, ställer in automatiska seriefärger och sparar presentationen
+  som PPTX.
 keywords:
 - create clustered column chart
-- aspose slides java tutorial
-- clustered column chart java
-title: Hur man skapar ett klustrat stapeldiagram i Java med Aspose.Slides
+- how to add chart
+- how to set colors
+- how to save pptx
+- maven aspose slides dependency
+lastmod: '2026-08-27'
+og_description: Lär dig hur du skapar clustered column chart i Java med Aspose.Slides,
+  lägger till diagrammet, ställer in automatiska seriefärger och sparar presentationen
+  som PPTX — allt med tydliga steg‑för‑steg‑instruktioner.
+og_image_alt: Guide showing Java code to create a clustered column chart with Aspose.Slides
+og_title: Skapa clustered column chart i Java med Aspose.Slides
+schemas:
+- author: Aspose
+  dateModified: '2026-08-27'
+  description: Learn how to create clustered column chart in Java using Aspose.Slides,
+    add the chart, set automatic series colors, and save the presentation as PPTX.
+  headline: How to create clustered column chart in Java with Aspose.Slides
+  type: TechArticle
+- questions:
+  - answer: Yes—Aspose.Slides is platform‑agnostic and works in any Java‑based server
+      environment, including Spring Boot and Jakarta EE.
+    question: Can I use this code in a web application?
+  - answer: Absolutely. `ChartType` enum includes Pie, Bar, Line, Area, Radar, and
+      many more.
+    question: Does the library support other chart types?
+  - answer: Ensure the directory is created beforehand or use `Files.createDirectories(Paths.get(folder))`
+      to avoid `FileNotFoundException`.
+    question: What if the output folder does not exist?
+  - answer: Populate series using streaming APIs or batch inserts, and consider disabling
+      chart animation to improve rendering speed.
+    question: How do I handle large datasets (thousands of points)?
+  - answer: 'Visit the official documentation and sample repository: [Aspose.Slides
+      Documentation](https://reference.aspose.com/slides/java/).'
+    question: Where can I find more code samples?
+  type: FAQPage
+tags:
+- clustered column chart
+- Aspose.Slides
+- Java chart tutorial
+- PPTX generation
+title: Hur man skapar clustered column chart i Java med Aspose.Slides
 url: /sv/java/charts-graphs/aspose-slides-java-clustered-column-charts/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Så skapar du ett grupperat stapeldiagram i Java med Aspose.Slides
+
+# Hur man skapar ett grupperat stapeldiagram i Java med Aspose.Slides
 
 ## Introduktion
-Att skapa visuellt tilltalande datarepresentationer är avgörande för effektfulla affärspresentationer, och att lära sig **hur man skapar ett grupperat stapeldiagram** programatiskt kan spara dig timmar av manuellt arbete. I den här handledningen kommer du att se **hur man lägger till ett diagram**, automatiskt **sätter färger**, och slutligen **sparar presentationen som PPTX** med **Aspose.Slides för Java**. Vi går igenom allt du behöver – från att konfigurera biblioteket till att lägga till diagrammet, anpassa seriefärger och spara filen.
-
-### Vad du kommer att uppnå
-- Installera och konfigurera Aspose.Slides för Java  
-- **Skapa ett grupperat stapeldiagram** i en helt ny presentation  
-- Applicera automatiskt seriefärger (**how to set colors**)  
-- **Spara presentationen som PPTX** på disk (**how to save presentation**)  
-
-Låt oss gå igenom förutsättningarna innan vi börjar bygga diagrammet.
+Creating a clustered column chart programmatically saves you hours of manual formatting and guarantees consistency across multiple presentations. In this tutorial you’ll learn **how to create clustered column chart** in Java with Aspose.Slides, **how to add chart**, **how to set colors**, and **how to save presentation as PPTX**. We’ll cover everything from installing the library to customizing series fill colors and persisting the file, so you can embed rich data visualizations into any PowerPoint deck.
 
 ## Snabba svar
-- **Vad är den primära klassen?** `Presentation` från `com.aspose.slides`  
-- **Hur lägger jag till ett diagram?** Använd `addChart(ChartType.ClusteredColumn, …)` på en bilds shape‑samling (**how to add chart**)  
-- **Kan jag sätta färger automatiskt?** Ja, anropa `setAutomaticSeriesColor(true)` på varje serie (**how to set colors**)  
-- **Vilket format används för sparning?** `SaveFormat.Pptx` (PowerPoint) (**save presentation as pptx**)  
-- **Behöver jag en licens?** En provversion fungerar för testning; en full licens krävs för produktion  
+- **What is the primary class for working with presentations?** `Presentation` from the `com.aspose.slides` package.  
+- **How do I add a clustered column chart?** Call `slide.getShapes().addChart(ChartType.ClusteredColumn, x, y, width, height)`.  
+- **Can series colors be set automatically?** Yes—enable `setAutomaticSeriesColor(true)` on each series.  
+- **Which format should I use to save the file?** `SaveFormat.Pptx` produces a standard PowerPoint file.  
+- **Is a license required for production?** A trial works for development; a full license is needed for commercial use.
+
+## Vad är ett grupperat stapeldiagram?
+A clustered column chart displays multiple data series side‑by‑side for each category, making it easy to compare values across groups. Aspose.Slides supports this chart type out of the box and lets you control every visual aspect programmatically.
+
+## Varför skapa ett grupperat stapeldiagram med Aspose.Slides?
+Aspose.Slides can handle **50+ input and output formats** and process presentations with **hundreds of slides** without loading the entire file into memory. This efficiency means you can generate large decks on a server‑side environment with minimal resource consumption.
 
 ## Förutsättningar
-Innan du börjar, se till att du har de nödvändiga verktygen och kunskapen:
+- **Java Development Kit** 16 or newer.  
+- **Maven** or **Gradle** for dependency management.  
+- Basic familiarity with Java syntax and object‑oriented concepts.  
 
 ### Nödvändiga bibliotek och beroenden
-Du behöver Aspose.Slides för Java-biblioteket. Se till att du använder version 25.4 med JDK16‑stöd.
+You need the Aspose.Slides for Java library (version 25.4 or later). The library is fully compatible with JDK 16 and offers a rich API for chart manipulation.
 
 ### Krav för miljöinställning
-Din utvecklingsmiljö bör stödja Java (helst JDK16) och kunna bygga projekt med Maven eller Gradle.
+Your IDE (IntelliJ IDEA, Eclipse, VS Code) must be configured to compile Java 16 code and resolve Maven/Gradle dependencies.
 
 ### Kunskapsförutsättningar
-Bekantskap med grundläggande Java‑programmering, arbete med bibliotek via Maven/Gradle och förståelse för PowerPoint‑presentationer är fördelaktigt.
+Understanding of PowerPoint slide structure and basic chart terminology (series, categories, data points) will help you follow the examples more quickly.
 
 ## Installera Aspose.Slides för Java
-För att integrera Aspose.Slides i ditt projekt, följ installationsinstruktionerna nedan:
+Integrate the library into your project using one of the following methods.
 
-**Maven**
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -60,74 +96,68 @@ För att integrera Aspose.Slides i ditt projekt, följ installationsinstruktione
     <version>25.4</version>
     <classifier>jdk16</classifier>
 </dependency>
-```
+```  
 
-**Gradle**
+**Gradle**  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
-```
+```  
 
-**Direktnedladdning**  
-För dem som föredrar direktnedladdning, besök [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+**Direct download** – obtain the JAR from the official releases page: [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 ### Steg för att skaffa licens
-- **Gratis provversion**: Börja med en gratis provversion för att utforska funktionerna.  
-- **Tillfällig licens**: Skaffa en tillfällig licens för att testa utan begränsningar.  
-- **Köp**: För kontinuerlig användning, köp en full licens.
+- **Free trial** – register on the Aspose site to receive a temporary license file.  
+- **Temporary license** – request a 30‑day license for larger test suites.  
+- **Full license** – purchase for unlimited production use.
 
-**Grundläggande initiering och inställning**  
-Initiera Aspose.Slides på följande sätt:
+**Basic initialization and setup**  
 ```java
 import com.aspose.slides.Presentation;
 // Initialize the Presentation class
 Presentation presentation = new Presentation();
-```
+```  
 
-## Så lägger du till ett grupperat stapeldiagram
-Att lägga till ett diagram är det första funktionella steget. Detta avsnitt förklarar **hur man lägger till ett diagram** med API:et.
+## Hur lägger man till ett grupperat stapeldiagram?
+`Presentation` represents a PowerPoint file in memory.  
 
-### Funktion 1: Skapa ett grupperat stapeldiagram
-Låt oss skapa ett grupperat stapeldiagram med Aspose.Slides för Java. Denna funktion låter dig enkelt lägga till visuellt tilltalande diagram i dina bilder.
+**Direct answer:**  
+Create a `Presentation` object, which represents a PowerPoint file in memory, retrieve the first slide, and call `slide.getShapes().addChart(ChartType.ClusteredColumn, 100, 50, 600, 400)`. This single call inserts a fully functional clustered column chart, ready for data population, and positions it at the specified coordinates on the slide.
 
-#### Översikt
-I detta avsnitt initierar vi en ny presentation och infogar ett grupperat stapeldiagram på den första bilden.
+### Funktion 1: skapa grupperat stapeldiagram
+The `Presentation` class represents a PowerPoint file in memory and provides access to slides, shapes, and chart objects.
 
-**Steg 1: Initiera Presentation**  
-Skapa ett `Presentation`‑objekt för att börja arbeta med PowerPoint‑filer:
+**Step 1: initialize presentation**  
 ```java
 import com.aspose.slides.Presentation;
 // Initialize a new Presentation object
 Presentation presentation = new Presentation();
-```
+```  
 
-**Steg 2: Lägg till ett grupperat stapeldiagram**  
-Lägg till diagrammet på angivna koordinater (100, 50) och dimensioner (600 × 400):
+**Step 2: add clustered column chart**  
 ```java
 import com.aspose.slides.ChartType;
 import com.aspose.slides.IChart;
 IChart chart = presentation.getSlides().get_Item(0).getShapes()
                             .addChart(ChartType.ClusteredColumn, 100, 50, 600, 400);
-```
+```  
 
-**Steg 3: Rensa resurser**  
-Disposera alltid resurser för att förhindra minnesläckor:
+**Step 3: clean up resources**  
 ```java
 finally {
     if (presentation != null) presentation.dispose();
 }
-```
+```  
 
-## Så sätter du färger för diagrammet
-Förbättra det visuella intrycket genom att automatiskt applicera seriefärger (**how to set colors**).
+## Hur ställer man in färger för diagrammet?
+`Series` represents a collection of data points within a chart.  
 
-### Funktion 2: Ställ in automatisk seriefyllningsfärg
-Ställ in varje diagramserie automatiskt för ett enhetligt utseende.
+**Direct answer:**  
+After the chart is created, obtain its chart data via `chart.getChartData()` and iterate over each `Series` object. For each series, call `setAutomaticSeriesColor(true)` on the parent series. Aspose.Slides then automatically assigns a distinct, contrasting color from its palette to each series, ensuring visual clarity without manual color selection.
 
-#### Översikt
-Ställ in varje diagramserie automatiskt för ett enhetligt utseende.
+### Funktion 2: ställ in automatisk fyllningsfärg för serier
+`IChart` is the interface that represents a chart shape; it exposes `getChartData()` for series manipulation.
 
-**Steg 1: Åtkomst till diagram och iterera serier**  
-Efter att du har skapat ditt diagram, få åtkomst till det och iterera över dess serier:
+**Step 1: access chart and iterate series**  
 ```java
 import com.aspose.slides.IChart;
 IChart chart = presentation.getSlides().get_Item(0).getShapes()
@@ -136,86 +166,92 @@ IChart chart = presentation.getSlides().get_Item(0).getShapes()
 for (int i = 0; i < chart.getChartData().getSeries().size(); i++) {
     chart.getChartData().getSeries().get_Item(i).setAutomaticSeriesColor(true);
 }
-```
+```  
 
-**Steg 2: Resurshantering**  
-Disposera presentationsobjektet när du är klar:
+**Step 2: resource management**  
 ```java
 finally {
     if (presentation != null) presentation.dispose();
 }
-```
+```  
 
-## Så sparar du presentationen som PPTX
-När diagrammet ser bra ut vill du spara filen (**how to save presentation**).
+## Hur sparar man presentation som PPTX?
+`save` writes the presentation to a file in the chosen format.  
 
-### Funktion 3: Spara presentationen till disk
-Slutligen, spara ditt arbete enkelt med Aspose.Slides.
+**Direct answer:**  
+Specify an output file path such as `"output/ClusteredColumnChart.pptx"` and invoke `presentation.save(outputPath, SaveFormat.Pptx)`. The `save` method serializes the entire slide deck, including all shapes, charts, and resources, into a standard PPTX file that can be opened by PowerPoint 2010 or later, as well as many online viewers.
 
-#### Översikt
-Spara dina redigerade presentationer i önskat format och plats.
+### Funktion 3: spara presentation till disk
+Saving with `SaveFormat.Pptx` produces a file compatible with PowerPoint 2010 and later, as well as most online viewers.
 
-**Steg 1: Definiera utsökväg**  
-Ange var du vill spara filen:
+**Step 1: define output path**  
 ```java
 import com.aspose.slides.SaveFormat;
 String outputPath = "YOUR_OUTPUT_DIRECTORY/AutoFillSeries_out.pptx";
-```
+```  
 
-**Steg 2: Spara presentation**  
-Använd `save`‑metoden på `Presentation`‑objektet:
+**Step 2: save presentation**  
 ```java
 presentation.save(outputPath, SaveFormat.Pptx);
-```
+```  
 
 ## Praktiska tillämpningar
-- **Finansiella rapporter**: Visualisera kvartalsresultat med tydlighet.  
-- **Marknadsdataanalys**: Visa kampanjresultat med övertygande visualiseringar.  
-- **Projektledning**: Följ milstolpar och framsteg visuellt i teammöten.
+- **Financial reporting** – compare quarterly revenue across product lines.  
+- **Marketing analytics** – visualize campaign performance by region.  
+- **Project management** – display sprint velocity or resource allocation across teams.  
 
 ## Prestandaöverväganden
-När du arbetar med Aspose.Slides, överväg dessa bästa praxis:
-
-- Hantera minnet effektivt genom att snabbt disponera `Presentation`‑objekt.  
-- Optimera filstorlekar vid sparning av presentationer för att spara diskutrymme.  
-- Använd effektiva datastrukturer för diagramserier för att förbättra prestanda.
+- Dispose of `Presentation` objects promptly to free native resources.  
+- Use `presentation.getSlides().removeUnusedResources()` before saving to shrink file size.  
+- Populate chart series with lightweight collections (e.g., `ArrayList<Double>`) to keep memory usage low.
 
 ## Slutsats
-Grattis! Du har lärt dig hur man **skapar ett grupperat stapeldiagram**, automatiskt **sätter färger**, och **sparar presentationen som PPTX** med Aspose.Slides för Java. Denna färdighet förbättrar inte bara dina presentationer utan förenklar också processen för visuell datarepresentation.
+You now know how to **create clustered column chart**, automatically **set colors**, and **save the presentation as PPTX** using Aspose.Slides for Java. These steps let you generate data‑driven slides programmatically, eliminating repetitive manual work and ensuring visual consistency across your organization.
 
-**Nästa steg:**  
-Utforska ytterligare funktioner som att anpassa diagramelement, lägga till datamärkningar eller integrera med externa datakällor för att utöka ditt projekts möjligheter.
+**Next steps:**  
+Explore advanced customizations such as data labels, axis formatting, and dynamic data binding from databases or CSV files to further enrich your presentations.
 
-## FAQ‑avsnitt
-1. **Hur installerar jag Aspose.Slides för en specifik JDK‑version?**  
-   - Använd Maven/Gradle‑beroenden och specificera `classifier` som visas i installationsavsnittet.  
-2. **Vad händer om min presentation inte sparas korrekt?**  
-   - Se till att du har skrivrättigheter till din utskriftskatalog och att filvägen är korrekt.  
-3. **Kan jag skapa andra typer av diagram med Aspose.Slides för Java?**  
-   - Absolut! Utforska `ChartType`‑alternativ som paj, stapel eller linjediagram.  
-4. **Hur hanterar jag stora datamängder i mitt diagram?**  
-   - Optimera datastrukturer och överväg att förbehandla dina data innan visualisering.  
-5. **Var kan jag hitta fler exempel på att använda Aspose.Slides för Java?**  
-   - Besök [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/) för omfattande guider och kodexempel.
+## Vanliga frågor
+**Q: Can I use this code in a web application?**  
+A: Yes—Aspose.Slides is platform‑agnostic and works in any Java‑based server environment, including Spring Boot and Jakarta EE.
+
+**Q: Does the library support other chart types?**  
+A: Absolutely. `ChartType` enum includes Pie, Bar, Line, Area, Radar, and many more.
+
+**Q: What if the output folder does not exist?**  
+A: Ensure the directory is created beforehand or use `Files.createDirectories(Paths.get(folder))` to avoid `FileNotFoundException`.
+
+**Q: How do I handle large datasets (thousands of points)?**  
+A: Populate series using streaming APIs or batch inserts, and consider disabling chart animation to improve rendering speed.
+
+**Q: Where can I find more code samples?**  
+A: Visit the official documentation and sample repository: [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/).
 
 ## Resurser
-- **Dokumentation**: [Aspose.Slides Reference](https://reference.aspose.com/slides/java/)  
-- **Nedladdning**: [Get Aspose.Slides](https://releases.aspose.com/slides/java/)  
-- **Köp**: [Buy a License](https://purchase.aspose.com/buy)  
-- **Gratis provversion**: [Start a Free Trial](https://releases.aspose.com/slides/java/)  
-- **Tillfällig licens**: [Request Here](https://purchase.aspose.com/temporary-license/)  
-- **Support**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
+- **Documentation:** [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)  
+- **Reference:** [Aspose.Slides Reference](https://reference.aspose.com/slides/java/)  
+- **Download:** [Get Aspose.Slides](https://releases.aspose.com/slides/java/)  
+- **Purchase:** [Buy a License](https://purchase.aspose.com/buy)  
+- **Free trial:** [Start a Free Trial](https://releases.aspose.com/slides/java/)  
+- **Temporary license:** [Request Here](https://purchase.aspose.com/temporary-license/)  
+- **Support:** [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
 ---
 
-**Senast uppdaterad:** 2026-03-18  
-**Testat med:** Aspose.Slides 25.4 (JDK16)  
-**Författare:** Aspose  
+**Last Updated:** 2026-08-27  
+**Tested With:** Aspose.Slides 25.4 (JDK 16)  
+**Author:** Aspose
+
+## Relaterade handledningar
+
+- [Create PowerPoint Chart Java – Save Presentations with Charts Using Aspose.Slides](/slides/java/charts-graphs/aspose-slides-java-save-presentations-charts/)
+- [aspose slides maven dependency: Add and Configure Charts in Presentations Using Aspose.Slides for Java](/slides/java/charts-graphs/add-charts-aspose-slides-java-guide/)
+- [Add animation to PowerPoint chart using Aspose.Slides for Java – A Step‑by‑Step Guide](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

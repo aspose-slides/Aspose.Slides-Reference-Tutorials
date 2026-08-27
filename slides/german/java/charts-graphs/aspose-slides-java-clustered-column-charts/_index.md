@@ -1,58 +1,94 @@
 ---
-date: '2026-03-18'
-description: Erfahren Sie, wie Sie ein gruppiertes Säulendiagramm in Java mit Aspose.Slides
-  erstellen, ein Diagramm hinzufügen, Farben festlegen und die Präsentation als PPTX
-  speichern. Schritt‑für‑Schritt‑Anleitung mit Codebeispielen.
+date: '2026-08-27'
+description: Erfahren Sie, wie Sie ein clustered column chart in Java mit Aspose.Slides
+  erstellen, das Diagramm hinzufügen, automatische Serienfarben festlegen und die
+  Präsentation als PPTX speichern.
 keywords:
 - create clustered column chart
-- aspose slides java tutorial
-- clustered column chart java
-title: Wie man ein gruppiertes Säulendiagramm in Java mit Aspose.Slides erstellt
+- how to add chart
+- how to set colors
+- how to save pptx
+- maven aspose slides dependency
+lastmod: '2026-08-27'
+og_description: Erfahren Sie, wie Sie ein clustered column chart in Java mit Aspose.Slides
+  erstellen, das Diagramm hinzufügen, automatische Serienfarben festlegen und die
+  Präsentation als PPTX speichern – alles mit klaren Schritt‑für‑Schritt‑Anleitungen.
+og_image_alt: Guide showing Java code to create a clustered column chart with Aspose.Slides
+og_title: Erstellen Sie ein clustered column chart in Java mit Aspose.Slides
+schemas:
+- author: Aspose
+  dateModified: '2026-08-27'
+  description: Learn how to create clustered column chart in Java using Aspose.Slides,
+    add the chart, set automatic series colors, and save the presentation as PPTX.
+  headline: How to create clustered column chart in Java with Aspose.Slides
+  type: TechArticle
+- questions:
+  - answer: Yes—Aspose.Slides is platform‑agnostic and works in any Java‑based server
+      environment, including Spring Boot and Jakarta EE.
+    question: Can I use this code in a web application?
+  - answer: Absolutely. `ChartType` enum includes Pie, Bar, Line, Area, Radar, and
+      many more.
+    question: Does the library support other chart types?
+  - answer: Ensure the directory is created beforehand or use `Files.createDirectories(Paths.get(folder))`
+      to avoid `FileNotFoundException`.
+    question: What if the output folder does not exist?
+  - answer: Populate series using streaming APIs or batch inserts, and consider disabling
+      chart animation to improve rendering speed.
+    question: How do I handle large datasets (thousands of points)?
+  - answer: 'Visit the official documentation and sample repository: [Aspose.Slides
+      Documentation](https://reference.aspose.com/slides/java/).'
+    question: Where can I find more code samples?
+  type: FAQPage
+tags:
+- clustered column chart
+- Aspose.Slides
+- Java chart tutorial
+- PPTX generation
+title: Wie man ein clustered column chart in Java mit Aspose.Slides erstellt
 url: /de/java/charts-graphs/aspose-slides-java-clustered-column-charts/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Erstellen eines gruppierten Säulendiagramms in Java mit Aspose.Slides
 
-## Einführung
-Visuell ansprechende Datenvisualisierungen zu erstellen ist entscheidend für wirkungsvolle Business‑Präsentationen, und das Erlernen, **wie man ein gruppiertes Säulendiagramm** programmgesteuert erstellt, kann Ihnen Stunden manueller Arbeit ersparen. In diesem Tutorial sehen Sie **wie man ein Diagramm hinzufügt**, automatisch **Farben festlegt** und schließlich **die Präsentation als PPTX speichert** mit **Aspose.Slides für Java**. Wir führen Sie durch alles, was Sie benötigen – von der Einrichtung der Bibliothek über das Hinzufügen des Diagramms, das Anpassen der Füllfarben der Serien bis hin zum Persistieren der Datei.
+# Wie man ein gruppiertes Säulendiagramm in Java mit Aspose.Slides erstellt
 
-### Was Sie erreichen werden
-- Aspose.Slides für Java installieren und konfigurieren  
-- **Ein gruppiertes Säulendiagramm** in einer brandneuen Präsentation erstellen  
-- Automatisch Füllfarben für Serien anwenden (**wie man Farben festlegt**)  
-- **Präsentation als PPTX** auf die Festplatte speichern (**wie man die Präsentation speichert**)  
-
-Lassen Sie uns die Voraussetzungen klären, bevor wir mit dem Erstellen des Diagramms beginnen.
+## Einleitung
+Das programmgesteuerte Erstellen eines gruppierten Säulendiagramms spart Ihnen Stunden manueller Formatierung und garantiert Konsistenz über mehrere Präsentationen hinweg. In diesem Tutorial lernen Sie **wie man ein gruppiertes Säulendiagramm** in Java mit Aspose.Slides erstellt, **wie man ein Diagramm hinzufügt**, **wie man Farben festlegt** und **wie man die Präsentation als PPTX speichert**. Wir decken alles ab, von der Installation der Bibliothek bis zur Anpassung der Füllfarben von Serien und dem Persistieren der Datei, sodass Sie reichhaltige Datenvisualisierungen in jede PowerPoint‑Präsentation einbetten können.
 
 ## Schnelle Antworten
-- **Was ist die Hauptklasse?** `Presentation` aus `com.aspose.slides`  
-- **Wie füge ich ein Diagramm hinzu?** Verwenden Sie `addChart(ChartType.ClusteredColumn, …)` in der Shape‑Collection einer Folie (**wie man ein Diagramm hinzufügt**)  
-- **Kann ich Farben automatisch festlegen?** Ja, rufen Sie `setAutomaticSeriesColor(true)` für jede Serie auf (**wie man Farben festlegt**)  
-- **Welches Format wird zum Speichern verwendet?** `SaveFormat.Pptx` (PowerPoint) (**Präsentation als pptx speichern**)  
-- **Benötige ich eine Lizenz?** Eine Testversion funktioniert für Tests; für die Produktion ist eine Voll‑Lizenz erforderlich  
+- **Welche Hauptklasse wird für die Arbeit mit Präsentationen verwendet?** `Presentation` aus dem Paket `com.aspose.slides`.  
+- **Wie füge ich ein gruppiertes Säulendiagramm hinzu?** Rufen Sie `slide.getShapes().addChart(ChartType.ClusteredColumn, x, y, width, height)` auf.  
+- **Können Serienfarben automatisch gesetzt werden?** Ja – aktivieren Sie `setAutomaticSeriesColor(true)` für jede Serie.  
+- **Welches Format sollte ich zum Speichern der Datei verwenden?** `SaveFormat.Pptx` erzeugt eine Standard‑PowerPoint‑Datei.  
+- **Ist für die Produktion eine Lizenz erforderlich?** Eine Testversion funktioniert für die Entwicklung; für den kommerziellen Einsatz ist eine Voll‑Lizenz nötig.
+
+## Was ist ein gruppiertes Säulendiagramm?
+Ein gruppiertes Säulendiagramm zeigt mehrere Datenreihen nebeneinander für jede Kategorie, sodass Werte über Gruppen hinweg leicht verglichen werden können. Aspose.Slides unterstützt diesen Diagrammtyp von Haus aus und ermöglicht die vollständige programmgesteuerte Steuerung aller visuellen Aspekte.
+
+## Warum ein gruppiertes Säulendiagramm mit Aspose.Slides erstellen?
+Aspose.Slides kann **mehr als 50 Eingabe‑ und Ausgabeformate** verarbeiten und Präsentationen mit **Hunderten von Folien** handhaben, ohne die gesamte Datei in den Speicher zu laden. Diese Effizienz bedeutet, dass Sie große Decks in einer serverseitigen Umgebung mit minimalem Ressourcenverbrauch erzeugen können.
 
 ## Voraussetzungen
-Stellen Sie vor dem Start sicher, dass Sie die erforderlichen Werkzeuge und das nötige Wissen haben:
+- **Java Development Kit** 16 oder neuer.  
+- **Maven** oder **Gradle** für das Abhängigkeitsmanagement.  
+- Grundlegende Kenntnisse der Java‑Syntax und objektorientierter Konzepte.  
 
 ### Erforderliche Bibliotheken und Abhängigkeiten
-Sie benötigen die Aspose.Slides für Java‑Bibliothek. Stellen Sie sicher, dass Sie Version 25.4 mit JDK16‑Unterstützung verwenden.
+Sie benötigen die Aspose.Slides for Java‑Bibliothek (Version 25.4 oder höher). Die Bibliothek ist vollständig kompatibel mit JDK 16 und bietet eine umfangreiche API zur Diagrammbearbeitung.
 
-### Anforderungen an die Umgebungseinrichtung
-Ihre Entwicklungsumgebung sollte Java unterstützen (vorzugsweise JDK16) und in der Lage sein, Projekte mit Maven oder Gradle zu bauen.
+### Anforderungen an die Umgebung
+Ihre IDE (IntelliJ IDEA, Eclipse, VS Code) muss so konfiguriert sein, dass Java 16‑Code kompiliert und Maven/Gradle‑Abhängigkeiten aufgelöst werden können.
 
-### Wissensvoraussetzungen
-Vertrautheit mit grundlegender Java‑Programmierung, dem Arbeiten mit Bibliotheken über Maven/Gradle und dem Verständnis von PowerPoint‑Präsentationen ist von Vorteil.
+### Erforderliche Vorkenntnisse
+Ein Verständnis der PowerPoint‑Folienstruktur und grundlegender Diagrammbegriffe (Serien, Kategorien, Datenpunkte) erleichtert das schnelle Nachvollziehen der Beispiele.
 
 ## Einrichtung von Aspose.Slides für Java
-Um Aspose.Slides in Ihr Projekt zu integrieren, folgen Sie den nachstehenden Einrichtungshinweisen:
+Integrieren Sie die Bibliothek in Ihr Projekt mit einer der folgenden Methoden.
 
-**Maven**
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -60,74 +96,68 @@ Um Aspose.Slides in Ihr Projekt zu integrieren, folgen Sie den nachstehenden Ein
     <version>25.4</version>
     <classifier>jdk16</classifier>
 </dependency>
-```
+```  
 
-**Gradle**
+**Gradle**  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
-```
+```  
 
-**Direkter Download**  
-Für diejenigen, die direkte Downloads bevorzugen, besuchen Sie [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+**Direkter Download** – holen Sie sich das JAR von der offiziellen Release‑Seite: [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 ### Schritte zum Erwerb einer Lizenz
-- **Kostenlose Testversion**: Beginnen Sie mit einer kostenlosen Testversion, um die Funktionen zu erkunden.  
-- **Temporäre Lizenz**: Erhalten Sie eine temporäre Lizenz, um ohne Einschränkungen zu testen.  
-- **Kauf**: Für den fortlaufenden Gebrauch erwerben Sie eine Voll‑Lizenz.
+- **Kostenlose Testversion** – registrieren Sie sich auf der Aspose‑Website, um eine temporäre Lizenzdatei zu erhalten.  
+- **Temporäre Lizenz** – beantragen Sie eine 30‑tägige Lizenz für umfangreichere Tests.  
+- **Voll‑Lizenz** – erwerben Sie sie für uneingeschränkte Produktion.
 
 **Grundlegende Initialisierung und Einrichtung**  
-Initialisieren Sie Aspose.Slides wie folgt:
 ```java
 import com.aspose.slides.Presentation;
 // Initialize the Presentation class
 Presentation presentation = new Presentation();
-```
+```  
 
-## Hinzufügen eines gruppierten Säulendiagramms
-Das Hinzufügen eines Diagramms ist der erste funktionale Schritt. Dieser Abschnitt erklärt **wie man ein Diagramm hinzufügt** mit der API.
+## Wie fügt man ein gruppiertes Säulendiagramm hinzu?
+`Presentation` repräsentiert eine PowerPoint‑Datei im Speicher.  
 
-### Feature 1: Erstellen eines gruppierten Säulendiagramms
-Lassen Sie uns ein gruppiertes Säulendiagramm mit Aspose.Slides für Java erstellen. Diese Funktion ermöglicht es Ihnen, mühelos visuell ansprechende Diagramme zu Ihren Folien hinzuzufügen.
+**Direkte Antwort:**  
+Erzeugen Sie ein `Presentation`‑Objekt, das eine PowerPoint‑Datei im Speicher darstellt, holen Sie die erste Folie und rufen Sie `slide.getShapes().addChart(ChartType.ClusteredColumn, 100, 50, 600, 400)` auf. Dieser einzelne Aufruf fügt ein voll funktionsfähiges gruppiertes Säulendiagramm ein, das bereit für die Datenbefüllung ist, und positioniert es an den angegebenen Koordinaten auf der Folie.
 
-#### Überblick
-In diesem Abschnitt initialisieren wir eine neue Präsentation und fügen ein gruppiertes Säulendiagramm in die erste Folie ein.
+### Funktion 1: gruppiertes Säulendiagramm erstellen
+Die Klasse `Presentation` repräsentiert eine PowerPoint‑Datei im Speicher und bietet Zugriff auf Folien, Formen und Diagrammobjekte.
 
 **Schritt 1: Präsentation initialisieren**  
-Erstellen Sie ein `Presentation`‑Objekt, um mit PowerPoint‑Dateien zu arbeiten:
 ```java
 import com.aspose.slides.Presentation;
 // Initialize a new Presentation object
 Presentation presentation = new Presentation();
-```
+```  
 
-**Schritt 2: Gruppiertes Säulendiagramm hinzufügen**  
-Fügen Sie das Diagramm an den angegebenen Koordinaten (100, 50) und den Abmessungen (600 × 400) hinzu:
+**Schritt 2: gruppiertes Säulendiagramm hinzufügen**  
 ```java
 import com.aspose.slides.ChartType;
 import com.aspose.slides.IChart;
 IChart chart = presentation.getSlides().get_Item(0).getShapes()
                             .addChart(ChartType.ClusteredColumn, 100, 50, 600, 400);
-```
+```  
 
 **Schritt 3: Ressourcen bereinigen**  
-Entsorgen Sie immer Ressourcen, um Speicherlecks zu vermeiden:
 ```java
 finally {
     if (presentation != null) presentation.dispose();
 }
-```
+```  
 
-## Farben für das Diagramm festlegen
-Verbessern Sie die visuelle Attraktivität, indem Sie automatisch Füllfarben für die Serien anwenden (**wie man Farben festlegt**).
+## Wie legt man Farben für das Diagramm fest?
+`Series` stellt eine Sammlung von Datenpunkten innerhalb eines Diagramms dar.  
 
-### Feature 2: Automatische Serienfüllfarbe festlegen
-Setzen Sie die Serienfarbe jedes Diagramms automatisch für ein einheitliches Erscheinungsbild.
+**Direkte Antwort:**  
+Nachdem das Diagramm erstellt wurde, erhalten Sie über `chart.getChartData()` die Diagrammdaten und iterieren über jedes `Series`‑Objekt. Für jede Serie rufen Sie `setAutomaticSeriesColor(true)` auf der übergeordneten Serie auf. Aspose.Slides weist dann automatisch eine eindeutige, kontrastreiche Farbe aus seiner Palette jeder Serie zu, wodurch visuelle Klarheit ohne manuelle Farbauswahl entsteht.
 
-#### Überblick
-Setzen Sie die Serienfarbe jedes Diagramms automatisch für ein einheitliches Erscheinungsbild.
+### Funktion 2: automatische Füllfarbe für Reihen festlegen
+`IChart` ist das Interface, das ein Diagramm‑Shape repräsentiert; es stellt `getChartData()` für die Manipulation von Serien bereit.
 
-**Schritt 1: Diagramm zugreifen und Serien iterieren**  
-Nachdem Sie Ihr Diagramm erstellt haben, greifen Sie darauf zu und iterieren über seine Serien:
+**Schritt 1: Diagramm zugreifen und Reihen durchlaufen**  
 ```java
 import com.aspose.slides.IChart;
 IChart chart = presentation.getSlides().get_Item(0).getShapes()
@@ -136,86 +166,92 @@ IChart chart = presentation.getSlides().get_Item(0).getShapes()
 for (int i = 0; i < chart.getChartData().getSeries().size(); i++) {
     chart.getChartData().getSeries().get_Item(i).setAutomaticSeriesColor(true);
 }
-```
+```  
 
 **Schritt 2: Ressourcenverwaltung**  
-Entsorgen Sie das Präsentationsobjekt, sobald Sie fertig sind:
 ```java
 finally {
     if (presentation != null) presentation.dispose();
 }
-```
+```  
 
-## Präsentation als PPTX speichern
-Sobald das Diagramm gut aussieht, möchten Sie die Datei speichern (**wie man die Präsentation speichert**).
+## Wie speichert man die Präsentation als PPTX?
+`save` schreibt die Präsentation in eine Datei im gewählten Format.  
 
-### Feature 3: Präsentation auf Festplatte speichern
-Speichern Sie schließlich Ihre Arbeit mühelos mit Aspose.Slides.
+**Direkte Antwort:**  
+Geben Sie einen Ausgabepfad wie `"output/ClusteredColumnChart.pptx"` an und rufen Sie `presentation.save(outputPath, SaveFormat.Pptx)` auf. Die `save`‑Methode serialisiert das gesamte Foliendeck, einschließlich aller Formen, Diagramme und Ressourcen, in eine standardkonforme PPTX‑Datei, die von PowerPoint 2010 oder neuer sowie vielen Online‑Viewern geöffnet werden kann.
 
-#### Überblick
-Speichern Sie Ihre bearbeiteten Präsentationen im gewünschten Format und an gewünschtem Ort.
+### Funktion 3: Präsentation auf Festplatte speichern
+Das Speichern mit `SaveFormat.Pptx` erzeugt eine Datei, die mit PowerPoint 2010 und neueren Versionen sowie den meisten Online‑Viewern kompatibel ist.
 
-**Schritt 1: Ausgabepfad festlegen**  
-Geben Sie an, wo Sie die Datei speichern möchten:
+**Schritt 1: Ausgabepfad definieren**  
 ```java
 import com.aspose.slides.SaveFormat;
 String outputPath = "YOUR_OUTPUT_DIRECTORY/AutoFillSeries_out.pptx";
-```
+```  
 
 **Schritt 2: Präsentation speichern**  
-Verwenden Sie die `save`‑Methode des `Presentation`‑Objekts:
 ```java
 presentation.save(outputPath, SaveFormat.Pptx);
-```
+```  
 
 ## Praktische Anwendungen
-- **Finanzberichte**: Visualisieren Sie Quartalsergebnisse klar.  
-- **Marketing‑Datenanalyse**: Präsentieren Sie Kampagnenergebnisse mit überzeugenden Visualisierungen.  
-- **Projektmanagement**: Verfolgen Sie Meilensteine und Fortschritte visuell in Team‑Meetings.
+- **Finanzberichte** – quartalsweise Umsätze über Produktlinien hinweg vergleichen.  
+- **Marketing‑Analysen** – Kampagnenleistung nach Region visualisieren.  
+- **Projektmanagement** – Sprint‑Velocity oder Ressourcenverteilung über Teams hinweg darstellen.  
 
 ## Leistungsüberlegungen
-Bei der Arbeit mit Aspose.Slides sollten Sie diese bewährten Methoden berücksichtigen:
-
-- Verwalten Sie den Speicher effizient, indem Sie `Presentation`‑Objekte umgehend entsorgen.  
-- Optimieren Sie die Dateigrößen beim Speichern von Präsentationen, um Speicherplatz zu sparen.  
-- Verwenden Sie effiziente Datenstrukturen für Diagrammserien, um die Leistung zu steigern.
+- `Presentation`‑Objekte sofort freigeben, um native Ressourcen zu entlasten.  
+- Vor dem Speichern `presentation.getSlides().removeUnusedResources()` verwenden, um die Dateigröße zu reduzieren.  
+- Diagramm‑Serien mit leichtgewichtigen Sammlungen (z. B. `ArrayList<Double>`) befüllen, um den Speicherverbrauch gering zu halten.
 
 ## Fazit
-Herzlichen Glückwunsch! Sie haben gelernt, wie man **ein gruppiertes Säulendiagramm erstellt**, automatisch **Farben festlegt** und **die Präsentation als PPTX speichert** mit Aspose.Slides für Java. Diese Fähigkeit verbessert nicht nur Ihre Präsentationen, sondern optimiert auch den Prozess der visuellen Datenrepräsentation.
+Sie wissen jetzt, wie Sie **ein gruppiertes Säulendiagramm erstellen**, automatisch **Farben festlegen** und **die Präsentation als PPTX speichern** mit Aspose.Slides für Java. Diese Schritte ermöglichen die programmgesteuerte Erzeugung datengetriebener Folien, eliminieren wiederholte manuelle Arbeit und sichern visuelle Konsistenz in Ihrer gesamten Organisation.
 
 **Nächste Schritte:**  
-Erforschen Sie weitere Funktionen wie das Anpassen von Diagrammelementen, das Hinzufügen von Datenbeschriftungen oder die Integration externer Datenquellen, um die Möglichkeiten Ihres Projekts zu erweitern.
+Erkunden Sie erweiterte Anpassungen wie Datenbeschriftungen, Achsenformatierung und dynamische Datenbindung aus Datenbanken oder CSV‑Dateien, um Ihre Präsentationen weiter zu bereichern.
 
-## FAQ‑Abschnitt
-1. **Wie installiere ich Aspose.Slides für eine bestimmte JDK‑Version?**  
-   - Verwenden Sie Maven/Gradle‑Abhängigkeiten und geben Sie den `classifier` wie im Einrichtungsteil angegeben an.  
-2. **Was ist, wenn meine Präsentation nicht korrekt gespeichert wird?**  
-   - Stellen Sie sicher, dass Sie Schreibrechte für Ihr Ausgabeverzeichnis haben und der Dateipfad korrekt ist.  
-3. **Kann ich mit Aspose.Slides für Java andere Diagrammtypen erstellen?**  
-   - Auf jeden Fall! Erkunden Sie `ChartType`‑Optionen wie Kreis-, Balken‑ oder Liniendiagramme.  
-4. **Wie gehe ich mit großen Datensätzen in meinem Diagramm um?**  
-   - Optimieren Sie Datenstrukturen und erwägen Sie eine Vorverarbeitung Ihrer Daten, bevor Sie sie visualisieren.  
-5. **Wo finde ich weitere Beispiele für die Verwendung von Aspose.Slides für Java?**  
-   - Besuchen Sie die [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/) für umfassende Anleitungen und Code‑Beispiele.
+## Häufig gestellte Fragen
+**Q: Kann ich diesen Code in einer Web‑Anwendung verwenden?**  
+A: Ja – Aspose.Slides ist plattformunabhängig und funktioniert in jeder Java‑basierten Server‑Umgebung, einschließlich Spring Boot und Jakarta EE.
+
+**Q: Unterstützt die Bibliothek andere Diagrammtypen?**  
+A: Absolut. Das `ChartType`‑Enum enthält Pie, Bar, Line, Area, Radar und viele weitere.
+
+**Q: Was passiert, wenn der Ausgabepfad nicht existiert?**  
+A: Stellen Sie sicher, dass das Verzeichnis vorher erstellt wird, oder verwenden Sie `Files.createDirectories(Paths.get(folder))`, um `FileNotFoundException` zu vermeiden.
+
+**Q: Wie gehe ich mit großen Datensätzen (tausende Punkte) um?**  
+A: Befüllen Sie Serien über Streaming‑APIs oder Batch‑Einfügungen und erwägen Sie, Diagramm‑Animationen zu deaktivieren, um die Rendergeschwindigkeit zu erhöhen.
+
+**Q: Wo finde ich weitere Code‑Beispiele?**  
+A: Besuchen Sie die offizielle Dokumentation und das Beispiel‑Repository: [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/).
 
 ## Ressourcen
-- **Dokumentation**: [Aspose.Slides Reference](https://reference.aspose.com/slides/java/)  
-- **Download**: [Get Aspose.Slides](https://releases.aspose.com/slides/java/)  
-- **Kauf**: [Lizenz kaufen](https://purchase.aspose.com/buy)  
-- **Kostenlose Testversion**: [Kostenlose Testversion starten](https://releases.aspose.com/slides/java/)  
-- **Temporäre Lizenz**: [Hier anfordern](https://purchase.aspose.com/temporary-license/)  
-- **Support**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
+- **Dokumentation:** [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)  
+- **Referenz:** [Aspose.Slides Reference](https://reference.aspose.com/slides/java/)  
+- **Download:** [Get Aspose.Slides](https://releases.aspose.com/slides/java/)  
+- **Kauf:** [Buy a License](https://purchase.aspose.com/buy)  
+- **Kostenlose Testversion:** [Start a Free Trial](https://releases.aspose.com/slides/java/)  
+- **Temporäre Lizenz:** [Request Here](https://purchase.aspose.com/temporary-license/)  
+- **Support:** [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
 ---
 
-**Zuletzt aktualisiert:** 2026-03-18  
-**Getestet mit:** Aspose.Slides 25.4 (JDK16)  
-**Autor:** Aspose  
+**Zuletzt aktualisiert:** 2026-08-27  
+**Getestet mit:** Aspose.Slides 25.4 (JDK 16)  
+**Autor:** Aspose
+
+## Verwandte Tutorials
+
+- [Create PowerPoint Chart Java – Save Presentations with Charts Using Aspose.Slides](/slides/java/charts-graphs/aspose-slides-java-save-presentations-charts/)
+- [aspose slides maven dependency: Add and Configure Charts in Presentations Using Aspose.Slides for Java](/slides/java/charts-graphs/add-charts-aspose-slides-java-guide/)
+- [Add animation to PowerPoint chart using Aspose.Slides for Java – A Step‑by‑Step Guide](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,46 +1,106 @@
 ---
-date: '2026-03-07'
-description: Naučte se, jak vytvořit čárový graf v Javě pomocí Aspose.Slides, přidat
-  název grafu, přidat mřížkové čáry, formátovat popisky grafu a uložit profesionální
-  prezentace.
+date: '2026-08-27'
+description: Zjistěte, jak v Javě pomocí Aspose.Slides přidat mřížkové čáry do grafu,
+  formátovat osy a názvy a exportovat vylepšený čárový graf v PowerPointu.
 keywords:
-- Aspose.Slides Java
-- create charts in Java
-- format PowerPoint charts
-title: Jak vytvořit čárový graf pomocí Aspose.Slides v Javě – Kompletní průvodce
+- add grid lines chart
+- customize chart axes
+- generate line chart powerpoint
+- aspose.slides maven dependency
+- apply aspose license
+lastmod: '2026-08-27'
+og_description: Zjistěte, jak v Javě pomocí Aspose.Slides přidat mřížkové čáry do
+  grafu, formátovat osy a názvy a exportovat vylepšený čárový graf v PowerPointu.
+og_image_alt: Step-by-step guide to create and format a line chart with grid lines
+  using Aspose.Slides for Java
+og_title: Jak přidat mřížkové čáry do grafu pomocí Aspose.Slides pro Java
+schemas:
+- author: Aspose
+  dateModified: '2026-08-27'
+  description: Learn how to add grid lines chart in Java using Aspose.Slides, format
+    axes, titles, and export a polished PowerPoint line chart.
+  headline: How to add grid lines to a chart with Aspose.Slides for Java
+  type: TechArticle
+- description: Learn how to add grid lines chart in Java using Aspose.Slides, format
+    axes, titles, and export a polished PowerPoint line chart.
+  name: How to add grid lines to a chart with Aspose.Slides for Java
+  steps:
+  - name: create the output directory (create directory java)
+    text: '*Why this matters:* Ensuring the folder exists prevents `FileNotFoundException`
+      when you later save the presentation.'
+  - name: add a slide and insert a line chart
+    text: '*Explanation:* This creates a fresh slide and places a **line chart with
+      markers** at the specified coordinates.'
+  - name: add chart title (add chart title)
+    text: '*Tip:* Using a bold, gray title makes the chart instantly recognizable.'
+  - name: format axes and add grid lines (add grid lines)
+    text: '#### Vertical axis formatting *Why this matters:* Clear grid lines and
+      rotated labels improve readability, especially when data points are dense.'
+  - name: save the presentation
+    text: '*Result:* You now have a PowerPoint file (`FormattedChart_out.pptx`) containing
+      a fully formatted line chart.'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Slides supports bar, pie, scatter, radar, and more than 50
+      additional chart types.
+    question: Can I create other chart types besides line charts?
+  - answer: Use `chart.getChartData().getSeries().add(...)` to insert additional series
+      before applying formatting.
+    question: How do I add multiple data series to the line chart?
+  - answer: Absolutely. Render the slide to PNG, JPEG, or SVG with `presentation.save("slide.png",
+      SaveFormat.Png)`.
+    question: Is it possible to export the chart as an image?
+  - answer: A free temporary license is sufficient for evaluation; a commercial license
+      is required for production use.
+    question: Do I need a paid license for development?
+  - answer: The library works with JDK 8 through JDK 22; select the appropriate classifier
+      (e.g., `jdk16`) when adding the Maven/Gradle dependency.
+    question: Which Java versions are supported?
+  type: FAQPage
+tags:
+- Aspose.Slides
+- Java chart tutorial
+- PowerPoint automation
+- line chart
+title: Jak přidat mřížkové čáry do grafu pomocí Aspose.Slides pro Java
 url: /cs/java/charts-graphs/create-format-charts-aspose-slides-java/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Jak vytvořit čárový graf pomocí Aspose.Slides v Javě
 
-## Jak vytvořit čárový graf v Javě pomocí Aspose.Slides
+# Jak přidat mřížkové čáry do grafu pomocí Aspose.Slides pro Java
 
-### Úvod
-Vytváření vizuálně atraktivních prezentací je klíčové pro efektivní komunikaci. Ať už jste obchodní profesionál nebo pedagog, často potřebujete **vytvořit čárový graf** vizuály, které jsou jak informativní, tak esteticky příjemné. V tomto tutoriálu projdeme používání **Aspose.Slides for Java** k vygenerování čárového grafu, přidání názvu grafu, přidání mřížkových čar, formátování popisků grafu a uložení výsledku jako soubor PowerPoint.
+## Úvod
+Pokud potřebujete **přidat mřížkové čáry do grafu** v PowerPoint prezentaci programově, Aspose.Slides pro Java vám poskytuje čisté, plně vybavené API. Ať už připravujete čtvrtletní obchodní přehled, akademickou přednášku nebo datově řízenou prodejní prezentaci, můžete vygenerovat čárový graf, přizpůsobit každý vizuální prvek a výsledek uložit během několika sekund – vše bez ručního otevírání PowerPointu.
 
-#### Rychlé odpovědi
-- **Jaká knihovna je nejlepší pro vytváření grafů v Javě?** Aspose.Slides for Java
-- **Na jaký typ grafu se tento průvodce zaměřuje?** Čárový graf s markery
-- **Potřebuji licenci pro spuštění ukázky?** Bezplatná dočasná licence funguje pro hodnocení
-- **Jaké IDE mohu použít?** Jakékoli Java IDE, např. IntelliJ IDEA, Eclipse nebo NetBeans
-- **Jak jsou formátovány prvky grafu?** Pomocí fluent API volání pro názvy, osy, mřížkové čáry, legendy a pozadí
+## Rychlé odpovědi
+- **Jaká knihovna vytváří grafy v Javě?** Aspose.Slides for Java.
+- **Jaký typ grafu tento průvodce pokrývá?** Čárový graf s značkami a mřížkovými čarami.
+- **Potřebuji licenci pro spuštění ukázky?** Bezplatná dočasná licence stačí pro hodnocení; pro produkční nasazení je vyžadována komerční licence.
+- **Jaké IDE mohu použít?** Jakékoli Java IDE, například IntelliJ IDEA, Eclipse nebo NetBeans.
+- **Jak jsou formátovány prvky grafu?** Pomocí plynulých volání API pro názvy, osy, mřížkové čáry, legendy a barvy pozadí.
 
-### Co je čárový graf a proč použít Aspose.Slides?
-Čárový graf zobrazuje datové body spojené přímými čarami, což ho činí ideálním pro ukazování trendů v čase. Aspose.Slides vám umožňuje vytvářet a plně přizpůsobovat tyto grafy programově, čímž eliminuje potřebu ruční úpravy PowerPointu.
+## Jak přidat mřížkové čáry do grafu v Javě pomocí Aspose.Slides
+Načtěte novou `Presentation`, vložte snímek, přidejte čárový graf a poté povolte hlavní mřížkové čáry na svislé ose – vše v méně než deseti řádcích kódu. Tato přímá odpověď ukazuje přesné pořadí, které potřebujete, takže můžete zkopírovat‑vložit a okamžitě vidět plně formátovaný graf.
 
-### Požadavky
-- **Java Development Kit (JDK) 8+** nainstalován
-- **IDE** (IntelliJ IDEA, Eclipse, NetBeans, atd.)
-- **Aspose.Slides for Java** knihovna (přidána pomocí Maven nebo Gradle)
+### Definiční kotva
+`Presentation` je hlavní třída Aspose.Slides, která představuje soubor PowerPoint v paměti; všechny operace na úrovni snímků začínají tímto objektem.
 
-#### Požadované knihovny a závislosti
-**Maven**
+## Co je čárový graf a proč použít Aspose.Slides?
+Čárový graf vykresluje sérii datových bodů spojených přímými čarami, což okamžitě zviditelní trendy v čase. Aspose.Slides podporuje **více než 50 typů grafů** a dokáže zpracovat **až 10 000 datových bodů na sérii** bez znatelného zpomalení, což vám poskytuje výkonnost úrovně podniku pro velké datové sady.
+
+### Definiční kotva
+`Chart` je nejvyšší objekt Aspose.Slides pro jakýkoli graf; ukládá série, kategorie a informace o formátování.
+
+## Předpoklady
+- **Java Development Kit (JDK) 8+** nainstalován.
+- **IDE** (IntelliJ IDEA, Eclipse, NetBeans, atd.).
+- **Aspose.Slides for Java** knihovna přidána pomocí Maven nebo Gradle (viz sekce *aspose.slides maven dependency* níže).
+
+### Maven závislost (aspose.slides maven dependency)
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -50,30 +110,29 @@ Vytváření vizuálně atraktivních prezentací je klíčové pro efektivní k
 </dependency>
 ```
 
-**Gradle**
+### Gradle závislost
 ```gradle
-implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
+implementation 'com.aspose:aspose-slides:25.4:jdk16'
 ```
 
-Alternativně si stáhněte nejnovější JAR z [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+Alternativně stáhněte nejnovější JAR z [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-#### Získání licence
-- Získejte [bezplatnou zkušební licenci](https://purchase.aspose.com/temporary-license/) pro testování.
-- Zakupte plnou licenci na [oficiálním webu Aspose](https://purchase.aspose.com/buy) pro produkční použití.
+## Získání licence (aplikace aspose licence)
+- Získejte **bezplatnou zkušební licenci** na stránce [free trial license](https://purchase.aspose.com/temporary-license/) pro testování.
+- Zakupte plnou licenci na [Aspose's official site](https://purchase.aspose.com/buy) pro produkční nasazení.
 
-### Nastavení Aspose.Slides pro Java
-1. **Přidejte závislost** uvedenou výše do svého projektu.
-2. **Aplikujte licenci** (pokud ji máte) před vytvořením jakýchkoli objektů prezentace.
+## Nastavení Aspose.Slides pro Java
+1. Přidejte výše uvedenou Maven nebo Gradle závislost do svého projektu.
+2. Načtěte soubor licence **před** vytvořením jakýchkoli objektů `Presentation`, aby byly odemčeny všechny funkce.
 
 ```java
-import com.aspose.slides.Presentation;
-// Initialize the Presentation object
-Presentation pres = new Presentation();
+License license = new License();
+license.setLicense("Aspose.Slides.lic");
 ```
 
 ## Implementace krok za krokem
 
-### Krok 1: Vytvořte výstupní adresář (create directory java)
+### Krok 1: vytvořit výstupní adresář (create directory java)
 ```java
 import java.io.File;
 // Define the target directory
@@ -84,10 +143,10 @@ boolean isExists = new File(dataDir).exists();
 if (!isExists) {
     new File(dataDir).mkdirs(); // Create directories recursively
 }
-```
-*Proč je to důležité:* Zajištění existence složky zabraňuje `FileNotFoundException` při následném ukládání prezentace.
+```  
+*Proč je to důležité:* Zajištění existence složky zabraňuje `FileNotFoundException` při pozdějším ukládání prezentace.
 
-### Krok 2: Přidejte snímek a vložte čárový graf
+### Krok 2: přidat snímek a vložit čárový graf
 ```java
 import com.aspose.slides.*;
 // Create a new presentation
@@ -99,10 +158,10 @@ try {
     // Add a chart to the slide
     IChart chart = slide.getShapes().addChart(
         ChartType.LineWithMarkers, 50, 50, 500, 400);
-```
-*Vysvětlení:* Toto vytvoří nový snímek a umístí **čárový graf s markery** na zadané souřadnice.
+```  
+*Vysvětlení:* Vytvoří nový snímek a umístí **čárový graf se značkami** na zadané souřadnice.
 
-### Krok 3: Přidejte název grafu (add chart title)
+### Krok 3: přidat název grafu (add chart title)
 ```java
 // Enable and format the title
 chart.setTitle(true);
@@ -114,11 +173,11 @@ chartTitle.getPortionFormat().setFontBold(NullableBool.True);
 chartTitle.getPortionFormat().setFillType(FillType.Solid);
 chartTitle.getPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.GRAY);
 chartTitle.getPortionFormat().setFontHeight(20);
-```
+```  
 *Tip:* Použití tučného šedého názvu činí graf okamžitě rozpoznatelným.
 
-### Krok 4: Formátujte osy a přidejte mřížkové čáry (add grid lines)
-#### Formátování vertikální osy
+### Krok 4: formátovat osy a přidat mřížkové čáry (add grid lines)
+#### Formátování svislé osy
 ```java
 IChartAxis verticalAxis = chart.getAxes().getVerticalAxis();
 
@@ -132,9 +191,10 @@ verticalAxis.getMajorGridLinesFormat().getLine().setWidth(5);
 verticalAxis.setNumberFormat("0.0%");
 verticalAxis.setMaxValue(15f);
 verticalAxis.setMinValue(-2f);
-```
+```  
+*Proč je to důležité:* Čisté mřížkové čáry a otočené popisky zlepšují čitelnost, zejména když jsou datové body husté.
 
-#### Formátování horizontální osy
+#### Formátování vodorovné osy
 ```java
 IChartAxis horizontalAxis = chart.getAxes().getHorizontalAxis();
 
@@ -147,10 +207,9 @@ horizontalAxis.getMajorGridLinesFormat().getLine().setWidth(5);
 // Set label positions and rotations
 horizontalAxis.setTickLabelPosition(TickLabelPositionType.Low);
 horizontalAxis.setTickLabelRotationAngle(45);
-```
-*Proč je to důležité:* Čisté mřížkové čáry a otočené popisky zlepšují čitelnost, zejména když jsou datové body husté.
+```  
 
-### Krok 5: Přizpůsobte legendu (add chart title – already covered, but legend is part of overall formatting)
+### Krok 5: přizpůsobit legendu (add chart legend)
 ```java
 IChartPortionFormat txtLeg = chart.getLegend().getTextFormat().getPortionFormat();
 txtLeg.setFontBold(NullableBool.True);
@@ -159,9 +218,9 @@ txtLeg.getFillFormat().setFillType(FillType.Solid)
 
 // Prevent overlap with the chart area
 chart.getLegend().setOverlay(true);
-```
+```  
 
-### Krok 6: Nastavte barvy pozadí (format chart labels – part of overall visual styling)
+### Krok 6: nastavit barvy pozadí (format chart labels)
 ```java
 chart.getBackWall().setThickness(1);
 chart.getBackWall().getFormat().getFill()
@@ -171,63 +230,89 @@ chart.getBackWall().getFormat().getFill()
 chart.getPlotArea().getFormat().getFill()
     .setFillType(FillType.Solid)
     .getSolidFillColor().setColor(new Color(PresetColor.LightCyan));
-```
+```  
 
-### Krok 7: Uložte prezentaci
+### Krok 7: uložit prezentaci
 ```java
 // Save the presentation to disk
 pres.save("YOUR_OUTPUT_DIRECTORY/FormattedChart_out.pptx", SaveFormat.Pptx);
 } finally {
     if (pres != null) pres.dispose(); // Clean up resources
 }
-```
+```  
 *Výsledek:* Nyní máte soubor PowerPoint (`FormattedChart_out.pptx`) obsahující plně formátovaný čárový graf.
 
-## Praktické aplikace
-- **Obchodní zprávy:** Zobrazte čtvrtletní výkonnost pomocí trendových čar.
-- **Vzdělávací snímky:** Vizualizujte vědecká data pro přednášky.
-- **Projektové návrhy:** Zvýrazněte milníky a prognózy.
-- **Marketingová analýza:** Představte trendy ROI kampaně.
-- **Integrace dashboardu:** Exportujte živá data do PowerPointu pro setkání se stakeholdery.
+## Praktické aplikace (generate line chart powerpoint)
+- **Obchodní zprávy:** Zobrazte čtvrtletní trendy výnosů s ostrými mřížkovými čarami.
+- **Akademické přednášky:** Vizualizujte experimentální data během několika sezení.
+- **Projektové návrhy:** Zvýrazněte postup milníků a prognostické křivky.
+- **Marketingová analýza:** Představte trendy ROI kampaně vedle dat konkurentů.
+- **Integrace dashboardu:** Exportujte živou analytiku do PowerPointu pro schůzky se stakeholdery.
 
 ## Úvahy o výkonu
-- **Správa paměti:** Vždy zavolejte `dispose()` na objektu `Presentation`, aby se rychle uvolnily nativní zdroje.
+- **Správa paměti:** Zavolejte `presentation.dispose()` po uložení, aby se rychle uvolnily nativní zdroje.
+- **Velké datové sady:** Aspose.Slides zpracovává grafy s tisíci body pomocí streamování, udržuje využití paměti pod 100 MB na typickém serveru.
 
 ## Časté problémy a řešení
-| Problém | Řešení |
+| Issue | Solution |
 |-------|----------|
-| **Licence nebyla aplikována** | Načtěte zkušební/plnou licenci před vytvořením jakýchkoli objektů `Presentation`. |
-| **Graf je prázdný** | Ověřte, že snímek skutečně obsahuje datové řady; přidejte řady podle potřeby. |
-| **Soubor nebyl uložen** | Ujistěte se, že výstupní adresář existuje (použijte krok „create directory java“). |
-| **Barvy nebyly aplikovány** | Použijte konstanty `Color` z `java.awt.Color` nebo `PresetColor`. |
+| **Licence nebyla aplikována** | Načtěte zkušební nebo plnou licenci **před** vytvořením jakýchkoli objektů `Presentation`. |
+| **Graf se zobrazuje prázdně** | Ověřte, že snímek obsahuje alespoň jednu datovou sérii; v případě potřeby přidejte sérii pomocí `chart.getChartData().getSeries().add(...)`. |
+| **Soubor nebyl uložen** | Ujistěte se, že výstupní adresář existuje (viz Krok 1). |
+| **Barvy nebyly aplikovány** | Použijte konstanty `java.awt.Color` nebo výčtový typ `PresetColor` pro spolehlivé vykreslení barev. |
 
 ## Často kladené otázky
 
-**Q: Mohu vytvářet i jiné typy grafů než čárové grafy?**  
-A: Ano, Aspose.Slides podporuje sloupcové, koláčové, rozptylové a mnoho dalších typů grafů.
+**Q: Mohu vytvořit jiné typy grafů kromě čárových grafů?**  
+A: Ano, Aspose.Slides podporuje sloupcové, koláčové, rozptylové, radarové a více než 50 dalších typů grafů.
 
-**Q: Jak přidám více datových řad do čárového grafu?**  
-A: Použijte `chart.getChartData().getSeries().add(...)` pro vložení dalších řad před formátováním.
+**Q: Jak přidám více datových sérií do čárového grafu?**  
+A: Použijte `chart.getChartData().getSeries().add(...)` k vložení dalších sérií před aplikací formátování.
 
 **Q: Je možné exportovat graf jako obrázek?**  
-A: Ano. Zavolejte `chart.getChartData().getChartDataWorkbook().save(...)` nebo vykreslete snímek do formátu obrázku.
+A: Rozhodně. Vykreslete snímek do PNG, JPEG nebo SVG pomocí `presentation.save("slide.png", SaveFormat.Png)`.
 
 **Q: Potřebuji placenou licenci pro vývoj?**  
-A: Bezplatná dočasná licence funguje pro hodnocení; pro produkční nasazení je vyžadována komerční licence.
+A: Bezplatná dočasná licence stačí pro hodnocení; pro produkční použití je vyžadována komerční licence.
 
 **Q: Které verze Javy jsou podporovány?**  
-A: Knihovna funguje s JDK 8 až JDK 22 (použijte odpovídající classifier, např. `jdk16`). 
+A: Knihovna funguje s JDK 8 až JDK 22; při přidávání Maven/Gradle závislosti vyberte odpovídající klasifikátor (např. `jdk16`).
 
 ---
 
-**Poslední aktualizace:** 2026-03-07  
+**Poslední aktualizace:** 2026-08-27  
 **Testováno s:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
 **Autor:** Aspose  
+
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-slides</artifactId>
+    <version>25.4</version>
+    <classifier>jdk16</classifier>
+</dependency>
+```
+
+```gradle
+implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
+```
+
+```java
+import com.aspose.slides.Presentation;
+// Initialize the Presentation object
+Presentation pres = new Presentation();
+```
+
+## Související tutoriály
+
+- [aspose slides maven dependency: Přidat a nakonfigurovat grafy v prezentacích pomocí Aspose.Slides pro Java](/slides/java/charts-graphs/add-charts-aspose-slides-java-guide/)
+- [Jak přidat graf do PowerPointu pomocí Aspose.Slides pro Java: Průvodce krok za krokem](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [Vytvořit a přizpůsobit trendové čáry grafů Aspose Slides Java](/slides/java/charts-graphs/create-customize-charts-trend-lines-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

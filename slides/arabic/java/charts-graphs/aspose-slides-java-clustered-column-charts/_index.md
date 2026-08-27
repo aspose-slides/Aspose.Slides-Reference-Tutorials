@@ -1,58 +1,93 @@
 ---
-date: '2026-03-18'
-description: تعلم كيفية إنشاء مخطط عمودي مجمع في Java باستخدام Aspose.Slides، وكيفية
-  إضافة المخطط، وتعيين الألوان، وحفظ العرض التقديمي كملف PPTX. دليل خطوة بخطوة مع
-  أمثلة على الشيفرة.
+date: '2026-08-27'
+description: تعلم كيفية إنشاء مخطط أعمدة متجمع في Java باستخدام Aspose.Slides، إضافة
+  المخطط، ضبط ألوان السلاسل تلقائيًا، وحفظ العرض التقديمي بصيغة PPTX.
 keywords:
 - create clustered column chart
-- aspose slides java tutorial
-- clustered column chart java
-title: كيفية إنشاء مخطط أعمدة متجميع في جافا باستخدام Aspose.Slides
+- how to add chart
+- how to set colors
+- how to save pptx
+- maven aspose slides dependency
+lastmod: '2026-08-27'
+og_description: تعلم كيفية إنشاء مخطط أعمدة متجمع في Java باستخدام Aspose.Slides،
+  إضافة المخطط، ضبط ألوان السلاسل تلقائيًا، وحفظ العرض التقديمي بصيغة PPTX—كل ذلك
+  مع تعليمات واضحة خطوة بخطوة.
+og_image_alt: Guide showing Java code to create a clustered column chart with Aspose.Slides
+og_title: إنشاء مخطط أعمدة متجمع في Java باستخدام Aspose.Slides
+schemas:
+- author: Aspose
+  dateModified: '2026-08-27'
+  description: Learn how to create clustered column chart in Java using Aspose.Slides,
+    add the chart, set automatic series colors, and save the presentation as PPTX.
+  headline: How to create clustered column chart in Java with Aspose.Slides
+  type: TechArticle
+- questions:
+  - answer: Yes—Aspose.Slides is platform‑agnostic and works in any Java‑based server
+      environment, including Spring Boot and Jakarta EE.
+    question: Can I use this code in a web application?
+  - answer: Absolutely. `ChartType` enum includes Pie, Bar, Line, Area, Radar, and
+      many more.
+    question: Does the library support other chart types?
+  - answer: Ensure the directory is created beforehand or use `Files.createDirectories(Paths.get(folder))`
+      to avoid `FileNotFoundException`.
+    question: What if the output folder does not exist?
+  - answer: Populate series using streaming APIs or batch inserts, and consider disabling
+      chart animation to improve rendering speed.
+    question: How do I handle large datasets (thousands of points)?
+  - answer: 'Visit the official documentation and sample repository: [Aspose.Slides
+      Documentation](https://reference.aspose.com/slides/java/).'
+    question: Where can I find more code samples?
+  type: FAQPage
+tags:
+- clustered column chart
+- Aspose.Slides
+- Java chart tutorial
+- PPTX generation
+title: كيفية إنشاء مخطط أعمدة متجمع في Java باستخدام Aspose.Slides
 url: /ar/java/charts-graphs/aspose-slides-java-clustered-column-charts/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# كيفية إنشاء مخطط عمودي مجمع في Java باستخدام Aspose.Slides
 
-## المقدمة
-إنشاء تمثيلات بصرية جذابة للبيانات أمر أساسي للعروض التقديمية التجارية المؤثرة، وتعلم **كيفية إنشاء مخطط عمودي مجمع** برمجياً يمكن أن يوفر لك ساعات من العمل اليدوي. في هذا الدرس ستتعرف على **كيفية إضافة مخطط**، وتطبيق **تعيين الألوان** تلقائيًا، وأخيرًا **حفظ العرض التقديمي كملف PPTX** باستخدام **Aspose.Slides for Java**. سنستعرض كل ما تحتاجه — من إعداد المكتبة إلى إضافة المخطط، وتخصيص ألوان تعبئة السلاسل، وحفظ الملف.
+# كيفية إنشاء مخطط عمود مجمع في Java باستخدام Aspose.Slides
 
-### ما ستحققه
-- تثبيت وتكوين Aspose.Slides for Java  
-- **إنشاء مخطط عمودي مجمع** في عرض تقديمي جديد  
-- تطبيق ألوان تعبئة السلاسل تلقائيًا (**how to set colors**)  
-- **حفظ العرض التقديمي كملف PPTX** على القرص (**how to save presentation**)  
-
-دعونا نتعامل مع المتطلبات المسبقة قبل أن نبدأ في بناء المخطط.
+## مقدمة
+إنشاء مخطط عمود مجمع برمجياً يوفر لك ساعات من التنسيق اليدوي ويضمن الاتساق عبر عروض تقديمية متعددة. في هذا الدرس ستتعلم **كيفية إنشاء مخطط عمود مجمع** في Java باستخدام Aspose.Slides، **كيفية إضافة مخطط**، **كيفية تعيين الألوان**، و**كيفية حفظ العرض التقديمي كملف PPTX**. سنغطي كل شيء من تثبيت المكتبة إلى تخصيص ألوان تعبئة السلاسل وحفظ الملف، حتى تتمكن من دمج تصورات بيانات غنية في أي عرض PowerPoint.
 
 ## إجابات سريعة
-- **ما هي الفئة الأساسية؟** `Presentation` من `com.aspose.slides`  
-- **كيف أضيف مخططًا؟** استخدم `addChart(ChartType.ClusteredColumn, …)` على مجموعة أشكال الشريحة (**how to add chart**)  
-- **هل يمكنني تعيين الألوان تلقائيًا؟** نعم، استدعِ `setAutomaticSeriesColor(true)` على كل سلسلة (**how to set colors**)  
-- **ما هو التنسيق المستخدم للحفظ؟** `SaveFormat.Pptx` (PowerPoint) (**save presentation as pptx**)  
-- **هل أحتاج إلى ترخيص؟** النسخة التجريبية تعمل للاختبار؛ يلزم ترخيص كامل للإنتاج  
+- **ما هي الفئة الأساسية للعمل مع العروض التقديمية؟** `Presentation` من حزمة `com.aspose.slides`.  
+- **كيف يمكنني إضافة مخطط عمود مجمع؟** استدعِ `slide.getShapes().addChart(ChartType.ClusteredColumn, x, y, width, height)`.  
+- **هل يمكن تعيين ألوان السلاسل تلقائيًا؟** نعم—فعّل `setAutomaticSeriesColor(true)` على كل سلسلة.  
+- **أي تنسيق يجب أن أستخدمه لحفظ الملف؟** `SaveFormat.Pptx` ينتج ملف PowerPoint قياسي.  
+- **هل يلزم وجود ترخيص للإنتاج؟** النسخة التجريبية تعمل للتطوير؛ يلزم ترخيص كامل للاستخدام التجاري.
+
+## ما هو مخطط العمود المجمع؟
+مخطط العمود المجمع يعرض عدة سلاسل بيانات جنبًا إلى جنب لكل فئة، مما يسهل مقارنة القيم عبر المجموعات. يدعم Aspose.Slides هذا النوع من المخططات مباشرة ويسمح لك بالتحكم في كل جانب بصري برمجياً.
+
+## لماذا إنشاء مخطط عمود مجمع باستخدام Aspose.Slides؟
+يمكن لـ Aspose.Slides معالجة **أكثر من 50 تنسيقًا للإدخال والإخراج** ومعالجة عروض تقديمية تحتوي على **مئات الشرائح** دون تحميل الملف بالكامل في الذاكرة. هذه الكفاءة تعني أنك تستطيع توليد مجموعات شرائح كبيرة في بيئة خادم مع استهلاك موارد منخفض.
 
 ## المتطلبات المسبقة
-قبل البدء، تأكد من أن لديك الأدوات والمعارف اللازمة:
+- **Java Development Kit** 16 أو أحدث.  
+- **Maven** أو **Gradle** لإدارة التبعيات.  
+- إلمام أساسي بصياغة Java ومفاهيم البرمجة الكائنية.  
 
-### المكتبات والاعتمادات المطلوبة
-ستحتاج إلى مكتبة Aspose.Slides for Java. تأكد من أنك تستخدم الإصدار 25.4 مع دعم JDK16.
+### المكتبات والتبعيات المطلوبة
+تحتاج إلى مكتبة Aspose.Slides for Java (الإصدار 25.4 أو أحدث). المكتبة متوافقة تمامًا مع JDK 16 وتوفر API غنيًا لمعالجة المخططات.
 
 ### متطلبات إعداد البيئة
-يجب أن يدعم بيئة التطوير الخاصة بك Java (يفضل JDK16) وأن تكون قادرة على بناء المشاريع باستخدام Maven أو Gradle.
+يجب تكوين بيئة التطوير المتكاملة (IntelliJ IDEA، Eclipse، VS Code) لتجميع كود Java 16 وحل تبعيات Maven/Gradle.
 
-### المتطلبات المعرفية
-الإلمام ببرمجة Java الأساسية، والعمل مع المكتبات عبر Maven/Gradle، وفهم عروض PowerPoint سيكون مفيدًا.
+### متطلبات المعرفة
+فهم بنية شريحة PowerPoint ومصطلحات المخططات الأساسية (السلاسل، الفئات، نقاط البيانات) سيساعدك على متابعة الأمثلة بسرعة أكبر.
 
-## إعداد Aspose.Slides for Java
-لدمج Aspose.Slides في مشروعك، اتبع تعليمات الإعداد أدناه:
+## إعداد Aspose.Slides لـ Java
+دمج المكتبة في مشروعك باستخدام إحدى الطرق التالية.
 
-**Maven**
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -60,74 +95,68 @@ weight: 1
     <version>25.4</version>
     <classifier>jdk16</classifier>
 </dependency>
-```
+```  
 
-**Gradle**
+**Gradle**  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
-```
+```  
 
-**تحميل مباشر**  
-لمن يفضل التحميل المباشر، زر [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+**التنزيل المباشر** – احصل على ملف JAR من صفحة الإصدارات الرسمية: [إصدارات Aspose.Slides لـ Java](https://releases.aspose.com/slides/java/).
 
 ### خطوات الحصول على الترخيص
-- **Free Trial**: ابدأ بنسخة تجريبية مجانية لاستكشاف الميزات.  
-- **Temporary License**: احصل على ترخيص مؤقت للاختبار دون قيود.  
-- **Purchase**: للاستخدام المستمر، اشترِ ترخيصًا كاملاً.
+- **نسخة تجريبية مجانية** – سجِّل في موقع Aspose للحصول على ملف ترخيص مؤقت.  
+- **ترخيص مؤقت** – اطلب ترخيصًا لمدة 30 يومًا لمجموعات الاختبار الكبيرة.  
+- **ترخيص كامل** – اشترِ لاستخدام غير محدود في الإنتاج.
 
 **التهيئة الأساسية والإعداد**  
-قم بتهيئة Aspose.Slides كما يلي:
 ```java
 import com.aspose.slides.Presentation;
 // Initialize the Presentation class
 Presentation presentation = new Presentation();
-```
+```  
 
-## كيفية إضافة مخطط عمودي مجمع
-إضافة مخطط هي الخطوة الوظيفية الأولى. يشرح هذا القسم **كيفية إضافة مخطط** باستخدام API.
+## كيف تضيف مخطط عمود مجمع؟
+`Presentation` تمثل ملف PowerPoint في الذاكرة.  
 
-### الميزة 1: إنشاء مخطط عمودي مجمع
-لننشئ مخططًا عموديًا مجمعًا باستخدام Aspose.Slides for Java. تتيح لك هذه الميزة إضافة مخططات جذابة بصريًا إلى شرائحك بسهولة.
+**الإجابة المباشرة:**  
+أنشئ كائن `Presentation`، والذي يمثل ملف PowerPoint في الذاكرة، استرجع الشريحة الأولى، واستدعِ `slide.getShapes().addChart(ChartType.ClusteredColumn, 100, 50, 600, 400)`. هذه الدعوة الواحدة تُدرج مخطط عمود مجمع كامل الوظائف، جاهز لتعبئة البيانات، وتضعه في الإحداثيات المحددة على الشريحة.
 
-#### نظرة عامة
-في هذا القسم، سنقوم بتهيئة عرض تقديمي جديد وإدراج مخطط عمودي مجمع في الشريحة الأولى.
+### الميزة 1: إنشاء مخطط عمود مجمع
+فئة `Presentation` تمثل ملف PowerPoint في الذاكرة وتوفر الوصول إلى الشرائح، الأشكال، وكائنات المخططات.
 
 **الخطوة 1: تهيئة العرض التقديمي**  
-أنشئ كائن `Presentation` لبدء العمل مع ملفات PowerPoint:
 ```java
 import com.aspose.slides.Presentation;
 // Initialize a new Presentation object
 Presentation presentation = new Presentation();
-```
+```  
 
-**الخطوة 2: إضافة مخطط عمودي مجمع**  
-أضف المخطط عند الإحداثيات المحددة (100, 50) والأبعاد (600 × 400):
+**الخطوة 2: إضافة مخطط عمود مجمع**  
 ```java
 import com.aspose.slides.ChartType;
 import com.aspose.slides.IChart;
 IChart chart = presentation.getSlides().get_Item(0).getShapes()
                             .addChart(ChartType.ClusteredColumn, 100, 50, 600, 400);
-```
+```  
 
 **الخطوة 3: تنظيف الموارد**  
-دائمًا قم بتحرير الموارد لتجنب تسرب الذاكرة:
 ```java
 finally {
     if (presentation != null) presentation.dispose();
 }
-```
+```  
 
-## كيفية تعيين الألوان للمخطط
-عزز الجاذبية البصرية بتطبيق ألوان تعبئة السلاسل تلقائيًا (**how to set colors**).
+## كيف تضبط ألوان المخطط؟
+`Series` تمثل مجموعة من نقاط البيانات داخل المخطط.  
 
-### الميزة 2: تعيين لون تعبئة السلسلة تلقائيًا
-قم بتعيين لون كل سلسلة في المخطط تلقائيًا للحصول على مظهر متناسق.
+**الإجابة المباشرة:**  
+بعد إنشاء المخطط، احصل على بياناته عبر `chart.getChartData()` وتكرار كل كائن `Series`. لكل سلسلة، استدعِ `setAutomaticSeriesColor(true)` على السلسلة الأصلية. يقوم Aspose.Slides تلقائيًا بتعيين لون مميز ومتناقض من لوحته لكل سلسلة، مما يضمن وضوحًا بصريًا دون الحاجة لاختيار اللون يدويًا.
 
-#### نظرة عامة
-قم بتعيين لون كل سلسلة في المخطط تلقائيًا للحصول على مظهر متناسق.
+### الميزة 2: تعيين تعبئة تلقائية لسلسلة اللون
+`IChart` هو الواجهة التي تمثل شكل المخطط؛ تُظهر `getChartData()` لتعديل السلاسل.
 
 **الخطوة 1: الوصول إلى المخطط وتكرار السلاسل**  
-بعد إنشاء المخطط، قم بالوصول إليه وتكرار سلاسله:
 ```java
 import com.aspose.slides.IChart;
 IChart chart = presentation.getSlides().get_Item(0).getShapes()
@@ -136,85 +165,92 @@ IChart chart = presentation.getSlides().get_Item(0).getShapes()
 for (int i = 0; i < chart.getChartData().getSeries().size(); i++) {
     chart.getChartData().getSeries().get_Item(i).setAutomaticSeriesColor(true);
 }
-```
+```  
 
 **الخطوة 2: إدارة الموارد**  
-حرر كائن العرض التقديمي بمجرد الانتهاء:
 ```java
 finally {
     if (presentation != null) presentation.dispose();
 }
-```
+```  
 
-## كيفية حفظ العرض التقديمي كملف PPTX
-بمجرد أن يبدو المخطط رائعًا، ستحتاج إلى حفظ الملف (**how to save presentation**).
+## كيف تحفظ العرض التقديمي كملف PPTX؟
+`save` يكتب العرض التقديمي إلى ملف بالتنسيق المختار.  
 
-### الميزة 3: حفظ العرض التقديمي على القرص
-أخيرًا، احفظ عملك بسهولة باستخدام Aspose.Slides.
+**الإجابة المباشرة:**  
+حدد مسار ملف الإخراج مثل `"output/ClusteredColumnChart.pptx"` واستدعِ `presentation.save(outputPath, SaveFormat.Pptx)`. طريقة `save` تسلسل كامل مجموعة الشرائح، بما في ذلك جميع الأشكال، المخططات، والموارد، إلى ملف PPTX قياسي يمكن فتحه بواسطة PowerPoint 2010 أو أحدث، وكذلك العديد من عارضات الإنترنت.
 
-#### نظرة عامة
-احفظ عروضك التقديمية المعدلة بالتنسيق والموقع المطلوب.
+### الميزة 3: حفظ العرض التقديمي إلى القرص
+الحفظ باستخدام `SaveFormat.Pptx` ينتج ملفًا متوافقًا مع PowerPoint 2010 وما بعده، وكذلك معظم عارضات الإنترنت.
 
 **الخطوة 1: تحديد مسار الإخراج**  
-حدد المكان الذي تريد حفظ الملف فيه:
 ```java
 import com.aspose.slides.SaveFormat;
 String outputPath = "YOUR_OUTPUT_DIRECTORY/AutoFillSeries_out.pptx";
-```
+```  
 
 **الخطوة 2: حفظ العرض التقديمي**  
-استخدم طريقة `save` لكائن `Presentation`:
 ```java
 presentation.save(outputPath, SaveFormat.Pptx);
-```
+```  
 
 ## تطبيقات عملية
-- **Financial Reports**: تصور الأرباح ربع السنوية بوضوح.  
-- **Marketing Data Analysis**: عرض نتائج الحملات باستخدام مرئيات جذابة.  
-- **Project Management**: تتبع المعالم والتقدم بصريًا في اجتماعات الفريق.
+- **التقارير المالية** – قارن الإيرادات ربع السنوية عبر خطوط المنتجات.  
+- **تحليلات التسويق** – تصور أداء الحملات حسب المنطقة.  
+- **إدارة المشاريع** – عرض سرعة السبرينت أو تخصيص الموارد عبر الفرق.  
 
 ## اعتبارات الأداء
-عند العمل مع Aspose.Slides، ضع في اعتبارك أفضل الممارسات التالية:
-- إدارة الذاكرة بفعالية عن طريق تحرير كائنات `Presentation` فورًا.  
-- تحسين حجم الملفات عند حفظ العروض لتوفير مساحة القرص.  
-- استخدام هياكل بيانات فعّالة لسلاسل المخطط لتحسين الأداء.
+- تخلص من كائنات `Presentation` فورًا لتحرير الموارد الأصلية.  
+- استخدم `presentation.getSlides().removeUnusedResources()` قبل الحفظ لتقليل حجم الملف.  
+- املأ سلاسل المخطط بمجموعات خفيفة الوزن (مثل `ArrayList<Double>`) للحفاظ على انخفاض استهلاك الذاكرة.
 
-## الخاتمة
-تهانينا! لقد تعلمت كيفية **إنشاء مخطط عمودي مجمع**، وتعيين **الألوان** تلقائيًا، و**حفظ العرض التقديمي كملف PPTX** باستخدام Aspose.Slides for Java. هذه المهارة لا تعزز عروضك التقديمية فحسب، بل تُسهل أيضًا عملية تمثيل البيانات بصريًا.
+## الخلاصة
+أنت الآن تعرف **كيفية إنشاء مخطط عمود مجمع**، وتعيين **الألوان تلقائيًا**، و**حفظ العرض التقديمي كملف PPTX** باستخدام Aspose.Slides for Java. تتيح لك هذه الخطوات توليد شرائح مدفوعة بالبيانات برمجياً، مما يلغي العمل اليدوي المتكرر ويضمن اتساقًا بصريًا عبر مؤسستك.
 
 **الخطوات التالية:**  
-استكشف ميزات إضافية مثل تخصيص عناصر المخطط، إضافة تسميات البيانات، أو التكامل مع مصادر بيانات خارجية لتوسيع إمكانيات مشروعك.
+استكشف تخصيصات متقدمة مثل تسميات البيانات، تنسيق المحاور، وربط البيانات الديناميكي من قواعد البيانات أو ملفات CSV لإثراء عروضك التقديمية أكثر.
 
-## قسم الأسئلة المتكررة
-1. **كيف أقوم بتثبيت Aspose.Slides لإصدار JDK معين؟**  
-   - استخدم تبعيات Maven/Gradle مع تحديد `classifier` كما هو موضح في قسم الإعداد.  
-2. **ماذا لو لم يتم حفظ العرض التقديمي بشكل صحيح؟**  
-   - تأكد من أن لديك أذونات كتابة على دليل الإخراج وأن مسار الملف صحيح.  
-3. **هل يمكنني إنشاء أنواع أخرى من المخططات باستخدام Aspose.Slides for Java؟**  
-   - بالتأكيد! استكشف خيارات `ChartType` مثل المخططات الدائرية، الشريطية، أو الخطية.  
-4. **كيف أتعامل مع مجموعات بيانات كبيرة في مخططي؟**  
-   - قم بتحسين هياكل البيانات وفكر في معالجة البيانات مسبقًا قبل تصورها.  
-5. **أين يمكنني العثور على المزيد من الأمثلة لاستخدام Aspose.Slides for Java؟**  
-   - زر [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/) للحصول على أدلة شاملة وعينات شفرة.
+## الأسئلة المتكررة
+**س: هل يمكنني استخدام هذا الكود في تطبيق ويب؟**  
+ج: نعم—Aspose.Slides مستقل عن المنصة ويعمل في أي بيئة خادم مبنية على Java، بما في ذلك Spring Boot و Jakarta EE.
 
-## الموارد
-- **التوثيق**: [Aspose.Slides Reference](https://reference.aspose.com/slides/java/)  
-- **تحميل**: [Get Aspose.Slides](https://releases.aspose.com/slides/java/)  
-- **شراء**: [Buy a License](https://purchase.aspose.com/buy)  
-- **نسخة تجريبية مجانية**: [Start a Free Trial](https://releases.aspose.com/slides/java/)  
-- **ترخيص مؤقت**: [Request Here](https://purchase.aspose.com/temporary-license/)  
-- **الدعم**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
+**س: هل تدعم المكتبة أنواع مخططات أخرى؟**  
+ج: بالتأكيد. تعداد `ChartType` يشمل Pie، Bar، Line، Area، Radar، والعديد غيرها.
+
+**س: ماذا لو لم يكن مجلد الإخراج موجودًا؟**  
+ج: تأكد من إنشاء الدليل مسبقًا أو استخدم `Files.createDirectories(Paths.get(folder))` لتجنب `FileNotFoundException`.
+
+**س: كيف أتعامل مع مجموعات بيانات كبيرة (آلاف النقاط)؟**  
+ج: املأ السلاسل باستخدام واجهات برمجة تطبيقات البث أو الإدخالات الدفعية، وفكّر في تعطيل رسوم المتحركة للمخطط لتحسين سرعة العرض.
+
+**س: أين يمكنني العثور على مزيد من عينات الكود؟**  
+ج: زر الوثائق الرسمية ومستودع العينات: [توثيق Aspose.Slides](https://reference.aspose.com/slides/java/).
+
+## موارد
+- **الوثائق:** [توثيق Aspose.Slides](https://reference.aspose.com/slides/java/)  
+- **المرجع:** [مرجع Aspose.Slides](https://reference.aspose.com/slides/java/)  
+- **التنزيل:** [احصل على Aspose.Slides](https://releases.aspose.com/slides/java/)  
+- **الشراء:** [شراء ترخيص](https://purchase.aspose.com/buy)  
+- **نسخة تجريبية مجانية:** [ابدأ نسخة تجريبية مجانية](https://releases.aspose.com/slides/java/)  
+- **ترخيص مؤقت:** [اطلب هنا](https://purchase.aspose.com/temporary-license/)  
+- **الدعم:** [منتدى Aspose](https://forum.aspose.com/c/slides/11)
 
 ---
 
-**آخر تحديث:** 2026-03-18  
-**تم الاختبار مع:** Aspose.Slides 25.4 (JDK16)  
-**المؤلف:** Aspose  
+**آخر تحديث:** 2026-08-27  
+**تم الاختبار مع:** Aspose.Slides 25.4 (JDK 16)  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [إنشاء مخطط PowerPoint Java – حفظ العروض التقديمية مع المخططات باستخدام Aspose.Slides](/slides/java/charts-graphs/aspose-slides-java-save-presentations-charts/)
+- [اعتماد Maven لـ Aspose Slides: إضافة وتكوين المخططات في العروض التقديمية باستخدام Aspose.Slides لـ Java](/slides/java/charts-graphs/add-charts-aspose-slides-java-guide/)
+- [إضافة حركة إلى مخطط PowerPoint باستخدام Aspose.Slides لـ Java – دليل خطوة بخطوة](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

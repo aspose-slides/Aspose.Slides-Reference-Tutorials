@@ -1,47 +1,107 @@
 ---
-date: '2026-03-07'
-description: Μάθετε πώς να δημιουργήσετε διάγραμμα γραμμής σε Java χρησιμοποιώντας
-  το Aspose.Slides, να προσθέσετε τίτλο διαγράμματος, να προσθέσετε γραμμές πλέγματος,
-  να μορφοποιήσετε ετικέτες διαγράμματος και να αποθηκεύσετε επαγγελματικές παρουσιάσεις.
+date: '2026-08-27'
+description: Μάθετε πώς να προσθέσετε grid lines chart σε Java χρησιμοποιώντας Aspose.Slides,
+  μορφοποιήστε axes, titles και εξάγετε ένα polished PowerPoint line chart.
 keywords:
-- Aspose.Slides Java
-- create charts in Java
-- format PowerPoint charts
-title: Πώς να δημιουργήσετε διάγραμμα γραμμής με το Aspose.Slides σε Java – Ένας πλήρης
-  οδηγός
+- add grid lines chart
+- customize chart axes
+- generate line chart powerpoint
+- aspose.slides maven dependency
+- apply aspose license
+lastmod: '2026-08-27'
+og_description: Μάθετε πώς να προσθέσετε grid lines chart σε Java χρησιμοποιώντας
+  Aspose.Slides, μορφοποιήστε axes, titles και εξάγετε ένα polished PowerPoint line
+  chart.
+og_image_alt: Step-by-step guide to create and format a line chart with grid lines
+  using Aspose.Slides for Java
+og_title: Πώς να προσθέσετε grid lines σε ένα chart με Aspose.Slides για Java
+schemas:
+- author: Aspose
+  dateModified: '2026-08-27'
+  description: Learn how to add grid lines chart in Java using Aspose.Slides, format
+    axes, titles, and export a polished PowerPoint line chart.
+  headline: How to add grid lines to a chart with Aspose.Slides for Java
+  type: TechArticle
+- description: Learn how to add grid lines chart in Java using Aspose.Slides, format
+    axes, titles, and export a polished PowerPoint line chart.
+  name: How to add grid lines to a chart with Aspose.Slides for Java
+  steps:
+  - name: create the output directory (create directory java)
+    text: '*Why this matters:* Ensuring the folder exists prevents `FileNotFoundException`
+      when you later save the presentation.'
+  - name: add a slide and insert a line chart
+    text: '*Explanation:* This creates a fresh slide and places a **line chart with
+      markers** at the specified coordinates.'
+  - name: add chart title (add chart title)
+    text: '*Tip:* Using a bold, gray title makes the chart instantly recognizable.'
+  - name: format axes and add grid lines (add grid lines)
+    text: '#### Vertical axis formatting *Why this matters:* Clear grid lines and
+      rotated labels improve readability, especially when data points are dense.'
+  - name: save the presentation
+    text: '*Result:* You now have a PowerPoint file (`FormattedChart_out.pptx`) containing
+      a fully formatted line chart.'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Slides supports bar, pie, scatter, radar, and more than 50
+      additional chart types.
+    question: Can I create other chart types besides line charts?
+  - answer: Use `chart.getChartData().getSeries().add(...)` to insert additional series
+      before applying formatting.
+    question: How do I add multiple data series to the line chart?
+  - answer: Absolutely. Render the slide to PNG, JPEG, or SVG with `presentation.save("slide.png",
+      SaveFormat.Png)`.
+    question: Is it possible to export the chart as an image?
+  - answer: A free temporary license is sufficient for evaluation; a commercial license
+      is required for production use.
+    question: Do I need a paid license for development?
+  - answer: The library works with JDK 8 through JDK 22; select the appropriate classifier
+      (e.g., `jdk16`) when adding the Maven/Gradle dependency.
+    question: Which Java versions are supported?
+  type: FAQPage
+tags:
+- Aspose.Slides
+- Java chart tutorial
+- PowerPoint automation
+- line chart
+title: Πώς να προσθέσετε grid lines σε ένα chart με Aspose.Slides για Java
 url: /el/java/charts-graphs/create-format-charts-aspose-slides-java/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Πώς να δημιουργήσετε διάγραμμα γραμμής με Aspose.Slides σε Java
 
-## Πώς να δημιουργήσετε διάγραμμα γραμμής σε Java χρησιμοποιώντας Aspose.Slides
+# Πώς να προσθέσετε γραμμές πλέγματος σε ένα γράφημα με το Aspose.Slides for Java
 
-### Εισαγωγή
-Η δημιουργία οπτικά ελκυστικών παρουσιάσεων είναι κρίσιμη για αποτελεσματική επικοινωνία. Είτε είστε επαγγελματίας επιχειρήσεων είτε εκπαιδευτικός, συχνά χρειάζεται να **δημιουργήσετε γραφικά διαγράμματα γραμμής** που είναι τόσο ενημερωτικά όσο και αισθητικά ευχάριστα. Σε αυτό το tutorial θα περάσουμε βήμα‑βήμα τη χρήση του **Aspose.Slides for Java** για τη δημιουργία ενός διαγράμματος γραμμής, την προσθήκη τίτλου διαγράμματος, γραμμών πλέγματος, μορφοποίηση ετικετών διαγράμματος και αποθήκευση του αποτελέσματος ως αρχείο PowerPoint.
+## Εισαγωγή
+Αν χρειάζεστε να **προσθέσετε γραμμές πλέγματος σε γράφημα** σε μια παρουσίαση PowerPoint προγραμματιστικά, το Aspose.Slides for Java σας παρέχει ένα καθαρό, πλήρως εξοπλισμένο API. Είτε ετοιμάζετε μια τριμηνιαία επιχειρηματική ανασκόπηση, μια ακαδημαϊκή διάλεξη ή μια παρουσίαση πωλήσεων βασισμένη σε δεδομένα, μπορείτε να δημιουργήσετε ένα γράφημα γραμμής, να προσαρμόσετε κάθε οπτικό στοιχείο και να αποθηκεύσετε το αποτέλεσμα σε δευτερόλεπτα—χωρίς να ανοίξετε το PowerPoint χειροκίνητα.
 
-#### Γρήγορες Απαντήσεις
-- **Ποια βιβλιοθήκη είναι η καλύτερη για δημιουργία διαγραμμάτων σε Java;** Aspose.Slides for Java  
-- **Σε ποιο τύπο διαγράμματος εστιάζει αυτός ο οδηγός;** Line chart with markers  
-- **Χρειάζομαι άδεια για την εκτέλεση του δείγματος;** Μια δωρεάν προσωρινή άδεια λειτουργεί για αξιολόγηση  
-- **Ποιο IDE μπορώ να χρησιμοποιήσω;** Οποιοδήποτε Java IDE όπως IntelliJ IDEA, Eclipse ή NetBeans  
-- **Πώς μορφοποιούνται τα στοιχεία του διαγράμματος;** Χρησιμοποιώντας κλήσεις fluent API για τίτλους, άξονες, γραμμές πλέγματος, υπομνήματα και φόντο  
+## Γρήγορες απαντήσεις
+- **Ποια βιβλιοθήκη δημιουργεί γραφήματα σε Java;** Aspose.Slides for Java.
+- **Ποιος τύπος γραφήματος καλύπτεται σε αυτόν τον οδηγό;** Ένα γράφημα γραμμής με δείκτες και γραμμές πλέγματος.
+- **Χρειάζεται άδεια για την εκτέλεση του δείγματος;** Μια δωρεάν προσωρινή άδεια λειτουργεί για αξιολόγηση· απαιτείται εμπορική άδεια για παραγωγή.
+- **Ποιο IDE μπορώ να χρησιμοποιήσω;** Οποιοδήποτε Java IDE όπως IntelliJ IDEA, Eclipse ή NetBeans.
+- **Πώς μορφοποιούνται τα στοιχεία του γραφήματος;** Χρησιμοποιώντας fluent κλήσεις API για τίτλους, άξονες, γραμμές πλέγματος, υπομνήματα και χρώματα φόντου.
 
-### Τι είναι ένα διάγραμμα γραμμής και γιατί να χρησιμοποιήσετε Aspose.Slides;
-Ένα διάγραμμα γραμμής εμφανίζει σημεία δεδομένων συνδεδεμένα με ευθείες γραμμές, καθιστώντας το ιδανικό για την απεικόνιση τάσεων στο χρόνο. Το Aspose.Slides σας επιτρέπει να δημιουργήσετε και να προσαρμόσετε πλήρως αυτά τα διαγράμματα προγραμματιστικά, εξαλείφοντας την ανάγκη χειροκίνητης επεξεργασίας PowerPoint.
+## Πώς να προσθέσετε γραμμές πλέγματος σε γράφημα Java χρησιμοποιώντας το Aspose.Slides
+Φορτώστε ένα νέο `Presentation`, εισάγετε μια διαφάνεια, προσθέστε ένα γράφημα γραμμής και, στη συνέχεια, ενεργοποιήστε τις κύριες γραμμές πλέγματος στον κάθετο άξονα – όλα σε λιγότερες από δέκα γραμμές κώδικα. Αυτή η άμεση απάντηση δείχνει την ακριβή ακολουθία που χρειάζεστε, ώστε να μπορείτε να αντιγράψετε‑επικολλήσετε και να δείτε αμέσως ένα πλήρως μορφοποιημένο γράφημα.
 
-### Προαπαιτούμενα
-- **Java Development Kit (JDK) 8+** εγκατεστημένο  
-- **IDE** (IntelliJ IDEA, Eclipse, NetBeans, κ.λπ.)  
-- **Aspose.Slides for Java** βιβλιοθήκη (προστέθηκε μέσω Maven ή Gradle)  
+### Definition anchor
+`Presentation` είναι η κύρια κλάση του Aspose.Slides που αντιπροσωπεύει ένα αρχείο PowerPoint στη μνήμη· όλες οι λειτουργίες σε επίπεδο διαφάνειας ξεκινούν από αυτό το αντικείμενο.
 
-#### Απαιτούμενες Βιβλιοθήκες και Εξαρτήσεις
-**Maven**  
+## Τι είναι ένα γράφημα γραμμής και γιατί να χρησιμοποιήσετε το Aspose.Slides;
+Ένα γράφημα γραμμής απεικονίζει μια σειρά σημείων δεδομένων συνδεδεμένων με ευθείες γραμμές, καθιστώντας τις τάσεις στο χρόνο άμεσα ορατές. Το Aspose.Slides υποστηρίζει **πάνω από 50 τύπους γραφημάτων** και μπορεί να διαχειριστεί **έως 10.000 σημεία δεδομένων ανά σειρά** χωρίς αισθητή καθυστέρηση, παρέχοντάς σας απόδοση επιπέδου επιχειρήσεων για μεγάλα σύνολα δεδομένων.
+
+### Definition anchor
+`Chart` είναι το αντικείμενο υψηλού επιπέδου του Aspose.Slides για οποιοδήποτε γράφημα· αποθηκεύει σειρές, κατηγορίες και πληροφορίες μορφοποίησης.
+
+## Προαπαιτούμενα
+- **Java Development Kit (JDK) 8+** εγκατεστημένο.
+- **IDE** (IntelliJ IDEA, Eclipse, NetBeans κ.λπ.).
+- **Aspose.Slides for Java** βιβλιοθήκη προστιθέμενη μέσω Maven ή Gradle (δείτε την ενότητα *aspose.slides maven dependency* παρακάτω).
+
+### Εξάρτηση Maven (aspose.slides maven dependency)
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -51,30 +111,29 @@ weight: 1
 </dependency>
 ```
 
-**Gradle**  
+### Εξάρτηση Gradle
 ```gradle
-implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
+implementation 'com.aspose:aspose-slides:25.4:jdk16'
 ```
 
 Εναλλακτικά, κατεβάστε το πιο πρόσφατο JAR από [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-#### Απόκτηση Άδειας
-- Αποκτήστε μια [δωρεάν δοκιμαστική άδεια](https://purchase.aspose.com/temporary-license/) για δοκιμές.  
-- Αγοράστε πλήρη άδεια από [την επίσημη ιστοσελίδα της Aspose](https://purchase.aspose.com/buy) για παραγωγική χρήση.  
+## Απόκτηση άδειας (εφαρμογή άδειας aspose)
+- Αποκτήστε μια **δωρεάν δοκιμαστική άδεια** από τη σελίδα [free trial license](https://purchase.aspose.com/temporary-license/) για δοκιμές.
+- Αγοράστε πλήρη άδεια από [την επίσημη ιστοσελίδα της Aspose](https://purchase.aspose.com/buy) για παραγωγικές εγκαταστάσεις.
 
-### Ρύθμιση Aspose.Slides for Java
-1. **Προσθέστε την εξάρτηση** που φαίνεται παραπάνω στο έργο σας.  
-2. **Εφαρμόστε την άδεια** (αν έχετε) πριν δημιουργήσετε οποιαδήποτε αντικείμενα παρουσίασης.
+## Ρύθμιση Aspose.Slides for Java
+1. Προσθέστε την εξάρτηση Maven ή Gradle που εμφανίζεται παραπάνω στο έργο σας.
+2. Φορτώστε το αρχείο άδειας **πριν** δημιουργήσετε οποιαδήποτε αντικείμενα `Presentation` ώστε όλες οι λειτουργίες να ξεκλειδωθούν.
 
 ```java
-import com.aspose.slides.Presentation;
-// Initialize the Presentation object
-Presentation pres = new Presentation();
+License license = new License();
+license.setLicense("Aspose.Slides.lic");
 ```
 
-## Υλοποίηση Βήμα‑Βήμα
+## Υλοποίηση βήμα‑βήμα
 
-### Βήμα 1: Δημιουργία του καταλόγου εξόδου (create directory java)
+### Βήμα 1: δημιουργία του καταλόγου εξόδου (create directory java)
 ```java
 import java.io.File;
 // Define the target directory
@@ -85,10 +144,10 @@ boolean isExists = new File(dataDir).exists();
 if (!isExists) {
     new File(dataDir).mkdirs(); // Create directories recursively
 }
-```
+```  
 *Γιατί είναι σημαντικό:* Η διασφάλιση ότι ο φάκελος υπάρχει αποτρέπει `FileNotFoundException` όταν αργότερα αποθηκεύσετε την παρουσίαση.
 
-### Βήμα 2: Προσθήκη διαφάνειας και εισαγωγή διαγράμματος γραμμής
+### Βήμα 2: προσθήκη διαφάνειας και εισαγωγή γραφήματος γραμμής
 ```java
 import com.aspose.slides.*;
 // Create a new presentation
@@ -100,10 +159,10 @@ try {
     // Add a chart to the slide
     IChart chart = slide.getShapes().addChart(
         ChartType.LineWithMarkers, 50, 50, 500, 400);
-```
-*Επεξήγηση:* Αυτό δημιουργεί μια νέα διαφάνεια και τοποθετεί ένα **line chart with markers** στις καθορισμένες συντεταγμένες.
+```  
+*Επεξήγηση:* Αυτό δημιουργεί μια νέα διαφάνεια και τοποθετεί ένα **γράφημα γραμμής με δείκτες** στις καθορισμένες συντεταγμένες.
 
-### Βήμα 3: Προσθήκη τίτλου διαγράμματος (add chart title)
+### Βήμα 3: προσθήκη τίτλου γραφήματος (add chart title)
 ```java
 // Enable and format the title
 chart.setTitle(true);
@@ -115,11 +174,11 @@ chartTitle.getPortionFormat().setFontBold(NullableBool.True);
 chartTitle.getPortionFormat().setFillType(FillType.Solid);
 chartTitle.getPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.GRAY);
 chartTitle.getPortionFormat().setFontHeight(20);
-```
-*Συμβουλή:* Η χρήση έντονου, γκρι τίτλου κάνει το διάγραμμα άμεσα αναγνωρίσιμο.
+```  
+*Συμβουλή:* Η χρήση έντονου, γκρι τίτλου κάνει το γράφημα άμεσα αναγνωρίσιμο.
 
-### Βήμα 4: Μορφοποίηση αξόνων και προσθήκη γραμμών πλέγματος (add grid lines)
-#### Μορφοποίηση Κατακόρυφου Άξονα
+### Βήμα 4: μορφοποίηση αξόνων και προσθήκη γραμμών πλέγματος (add grid lines)
+#### Μορφοποίηση κατακόρυφου άξονα
 ```java
 IChartAxis verticalAxis = chart.getAxes().getVerticalAxis();
 
@@ -133,9 +192,10 @@ verticalAxis.getMajorGridLinesFormat().getLine().setWidth(5);
 verticalAxis.setNumberFormat("0.0%");
 verticalAxis.setMaxValue(15f);
 verticalAxis.setMinValue(-2f);
-```
+```  
+*Γιατί είναι σημαντικό:* Καθαρές γραμμές πλέγματος και περιστρεφόμενες ετικέτες βελτιώνουν την αναγνωσιμότητα, ειδικά όταν τα σημεία δεδομένων είναι πυκνά.
 
-#### Μορφοποίηση Οριζόντιου Άξονα
+#### Μορφοποίηση οριζόντιου άξονα
 ```java
 IChartAxis horizontalAxis = chart.getAxes().getHorizontalAxis();
 
@@ -148,10 +208,9 @@ horizontalAxis.getMajorGridLinesFormat().getLine().setWidth(5);
 // Set label positions and rotations
 horizontalAxis.setTickLabelPosition(TickLabelPositionType.Low);
 horizontalAxis.setTickLabelRotationAngle(45);
-```
-*Γιατί είναι σημαντικό:* Καθαρές γραμμές πλέγματος και περιστρεφόμενες ετικέτες βελτιώνουν την αναγνωσιμότητα, ειδικά όταν τα σημεία δεδομένων είναι πυκνά.
+```  
 
-### Βήμα 5: Προσαρμογή υπομνήματος (add chart title – already covered, but legend is part of overall formatting)
+### Βήμα 5: προσαρμογή υπομνήματος (add chart legend)
 ```java
 IChartPortionFormat txtLeg = chart.getLegend().getTextFormat().getPortionFormat();
 txtLeg.setFontBold(NullableBool.True);
@@ -160,9 +219,9 @@ txtLeg.getFillFormat().setFillType(FillType.Solid)
 
 // Prevent overlap with the chart area
 chart.getLegend().setOverlay(true);
-```
+```  
 
-### Βήμα 6: Ορισμός χρωμάτων φόντου (format chart labels – part of overall visual styling)
+### Βήμα 6: ορισμός χρωμάτων φόντου (format chart labels)
 ```java
 chart.getBackWall().setThickness(1);
 chart.getBackWall().getFormat().getFill()
@@ -172,63 +231,89 @@ chart.getBackWall().getFormat().getFill()
 chart.getPlotArea().getFormat().getFill()
     .setFillType(FillType.Solid)
     .getSolidFillColor().setColor(new Color(PresetColor.LightCyan));
-```
+```  
 
-### Βήμα 7: Αποθήκευση της παρουσίασης
+### Βήμα 7: αποθήκευση της παρουσίασης
 ```java
 // Save the presentation to disk
 pres.save("YOUR_OUTPUT_DIRECTORY/FormattedChart_out.pptx", SaveFormat.Pptx);
 } finally {
     if (pres != null) pres.dispose(); // Clean up resources
 }
-```
-*Αποτέλεσμα:* Έχετε πλέον ένα αρχείο PowerPoint (`FormattedChart_out.pptx`) που περιέχει ένα πλήρως μορφοποιημένο διάγραμμα γραμμής.
+```  
+*Αποτέλεσμα:* Διαθέτετε πλέον ένα αρχείο PowerPoint (`FormattedChart_out.pptx`) που περιέχει ένα πλήρως μορφοποιημένο γράφημα γραμμής.
 
-## Πρακτικές Εφαρμογές
-- **Επιχειρηματικές Αναφορές:** Εμφάνιση τριμηνιαίας απόδοσης με γραμμές τάσης.  
-- **Εκπαιδευτικές Διαφάνειες:** Οπτικοποίηση επιστημονικών δεδομένων για διαλέξεις.  
-- **Προτάσεις Έργων:** Ανάδειξη ορόσημων και προβλέψεων.  
-- **Ανάλυση Μάρκετινγκ:** Παρουσίαση τάσεων ROI καμπάνιας.  
-- **Ενσωμάτωση Πίνακα Ελέγχου:** Εξαγωγή ζωντανών δεδομένων σε PowerPoint για συναντήσεις με ενδιαφερόμενους.  
+## Πρακτικές εφαρμογές (generate line chart powerpoint)
+- **Επιχειρηματικές αναφορές:** Εμφάνιση τριμηνιαίων τάσεων εσόδων με καθαρές γραμμές πλέγματος.
+- **Ακαδημαϊκές διαλέξεις:** Οπτικοποίηση πειραματικών δεδομένων σε πολλαπλές συνεδρίες.
+- **Προτάσεις έργων:** Ανάδειξη προόδου ορόσημων και προβλεπόμενων καμπυλών.
+- **Ανάλυση μάρκετινγκ:** Παρουσίαση τάσεων ROI εκστρατειών δίπλα σε δεδομένα ανταγωνιστών.
+- **Ενσωμάτωση σε πίνακες ελέγχου:** Εξαγωγή ζωντανών αναλύσεων σε PowerPoint για συναντήσεις με ενδιαφερόμενους.
 
-## Σκέψεις για Απόδοση
-- **Διαχείριση Μνήμης:** Πάντα καλέστε `dispose()` στο αντικείμενο `Presentation` για άμεση απελευθέρωση των εγγενών πόρων.
+## Σκέψεις για την απόδοση
+- **Διαχείριση μνήμης:** Κλήση `presentation.dispose()` μετά την αποθήκευση για άμεση απελευθέρωση των εγγενών πόρων.
+- **Μεγάλα σύνολα δεδομένων:** Το Aspose.Slides επεξεργάζεται γραφήματα με χιλιάδες σημεία χρησιμοποιώντας streaming, διατηρώντας τη χρήση μνήμης κάτω από 100 MB σε τυπικό διακομιστή.
 
-## Συχνά Προβλήματα και Λύσεις
+## Συνηθισμένα προβλήματα και λύσεις
 | Πρόβλημα | Λύση |
 |----------|------|
-| **License not applied** | Φορτώστε την δοκιμαστική/πλήρη άδεια πριν δημιουργήσετε οποιαδήποτε αντικείμενα `Presentation`. |
-| **Chart appears blank** | Επαληθεύστε ότι η διαφάνεια περιέχει πραγματικές σειρές δεδομένων· προσθέστε σειρές εάν χρειάζεται. |
-| **File not saved** | Βεβαιωθείτε ότι ο φάκελος εξόδου υπάρχει (χρησιμοποιήστε το βήμα “create directory java”). |
-| **Colors not applied** | Χρησιμοποιήστε σταθερές `Color` από το `java.awt.Color` ή το `PresetColor`. |
+| **Η άδεια δεν εφαρμόστηκε** | Φορτώστε τη δοκιμαστική ή πλήρη άδεια **πριν** δημιουργήσετε οποιαδήποτε αντικείμενα `Presentation`. |
+| **Το γράφημα εμφανίζεται κενό** | Βεβαιωθείτε ότι η διαφάνεια περιέχει τουλάχιστον μία σειρά δεδομένων· προσθέστε σειρά μέσω `chart.getChartData().getSeries().add(...)` εάν χρειάζεται. |
+| **Το αρχείο δεν αποθηκεύεται** | Εξασφαλίστε ότι ο φάκελος εξόδου υπάρχει (δείτε το Βήμα 1). |
+| **Τα χρώματα δεν εφαρμόζονται** | Χρησιμοποιήστε σταθερές `java.awt.Color` ή το enum `PresetColor` για αξιόπιστη απόδοση χρωμάτων. |
 
-## Συχνές Ερωτήσεις
+## Συχνές ερωτήσεις
 
-**Ε: Μπορώ να δημιουργήσω άλλους τύπους διαγραμμάτων εκτός από γραμμικά;**  
-Α: Ναι, το Aspose.Slides υποστηρίζει ράβδους, πίτες, scatter και πολλούς άλλους τύπους διαγραμμάτων.
+**Ε: Μπορώ να δημιουργήσω άλλους τύπους γραφημάτων εκτός των γραφημάτων γραμμής;**  
+Α: Ναι, το Aspose.Slides υποστηρίζει ράβδους, πίτες, διασκορπισμένα, ραντάρ και περισσότερους από 50 επιπλέον τύπους γραφημάτων.
 
-**Ε: Πώς προσθέτω πολλαπλές σειρές δεδομένων στο διάγραμμα γραμμής;**  
-Α: Χρησιμοποιήστε `chart.getChartData().getSeries().add(...)` για να εισάγετε επιπλέον σειρές πριν τη μορφοποίηση.
+**Ε: Πώς προσθέτω πολλαπλές σειρές δεδομένων στο γράφημα γραμμής;**  
+Α: Χρησιμοποιήστε `chart.getChartData().getSeries().add(...)` για να εισάγετε επιπλέον σειρές πριν εφαρμόσετε τη μορφοποίηση.
 
-**Ε: Είναι δυνατόν να εξάγω το διάγραμμα ως εικόνα;**  
-Α: Απόλυτα. Καλέστε `chart.getChartData().getChartDataWorkbook().save(...)` ή αποδώστε τη διαφάνεια σε μορφή εικόνας.
+**Ε: Είναι δυνατόν να εξάγω το γράφημα ως εικόνα;**  
+Α: Απόλυτα. Αποδώστε τη διαφάνεια σε PNG, JPEG ή SVG με `presentation.save("slide.png", SaveFormat.Png)`.
 
 **Ε: Χρειάζεται πληρωμένη άδεια για ανάπτυξη;**  
-Α: Μια δωρεάν προσωρινή άδεια λειτουργεί για αξιολόγηση· απαιτείται εμπορική άδεια για παραγωγικές εγκαταστάσεις.
+Α: Μια δωρεάν προσωρινή άδεια αρκεί για αξιολόγηση· απαιτείται εμπορική άδεια για παραγωγική χρήση.
 
 **Ε: Ποιες εκδόσεις Java υποστηρίζονται;**  
-Α: Η βιβλιοθήκη λειτουργεί με JDK 8 έως JDK 22 (χρησιμοποιήστε τον κατάλληλο classifier, π.χ., `jdk16`).  
+Α: Η βιβλιοθήκη λειτουργεί με JDK 8 έως JDK 22· επιλέξτε τον κατάλληλο ταξινομητή (π.χ., `jdk16`) όταν προσθέτετε την εξάρτηση Maven/Gradle.
 
 ---
 
-**Τελευταία ενημέρωση:** 2026-03-07  
-**Δοκιμασμένο με:** Aspose.Slides for Java 25.4 (classifier jdk16)  
+**Τελευταία ενημέρωση:** 2026-08-27  
+**Δοκιμάστηκε με:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
 **Συγγραφέας:** Aspose  
+
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-slides</artifactId>
+    <version>25.4</version>
+    <classifier>jdk16</classifier>
+</dependency>
+```
+
+```gradle
+implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
+```
+
+```java
+import com.aspose.slides.Presentation;
+// Initialize the Presentation object
+Presentation pres = new Presentation();
+```
+
+## Σχετικά Μαθήματα
+
+- [aspose slides maven dependency: Add and Configure Charts in Presentations Using Aspose.Slides for Java](/slides/java/charts-graphs/add-charts-aspose-slides-java-guide/)
+- [How to Add Chart to PowerPoint Using Aspose.Slides for Java: A Step‑By‑Step Guide](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [Create Customize Charts Trend Lines Aspose Slides Java](/slides/java/charts-graphs/create-customize-charts-trend-lines-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

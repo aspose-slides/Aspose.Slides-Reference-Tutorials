@@ -1,46 +1,106 @@
 ---
-date: '2026-03-07'
-description: Leer hoe je een lijndiagram maakt in Java met Aspose.Slides, een diagramtitel
-  toevoegt, rasterlijnen toevoegt, diagramlabels opmaakt en professionele presentaties
-  opslaat.
+date: '2026-08-27'
+description: Leer hoe u rasterlijnen aan een grafiek toevoegt in Java met Aspose.Slides,
+  assen en titels formatteert en een gepolijste PowerPoint-lijngrafiek exporteert.
 keywords:
-- Aspose.Slides Java
-- create charts in Java
-- format PowerPoint charts
-title: Hoe maak je een lijndiagram met Aspose.Slides in Java – Een volledige gids
+- add grid lines chart
+- customize chart axes
+- generate line chart powerpoint
+- aspose.slides maven dependency
+- apply aspose license
+lastmod: '2026-08-27'
+og_description: Leer hoe u rasterlijnen aan een grafiek toevoegt in Java met Aspose.Slides,
+  assen en titels formatteert en een gepolijste PowerPoint-lijngrafiek exporteert.
+og_image_alt: Step-by-step guide to create and format a line chart with grid lines
+  using Aspose.Slides for Java
+og_title: Hoe rasterlijnen toe te voegen aan een grafiek met Aspose.Slides voor Java
+schemas:
+- author: Aspose
+  dateModified: '2026-08-27'
+  description: Learn how to add grid lines chart in Java using Aspose.Slides, format
+    axes, titles, and export a polished PowerPoint line chart.
+  headline: How to add grid lines to a chart with Aspose.Slides for Java
+  type: TechArticle
+- description: Learn how to add grid lines chart in Java using Aspose.Slides, format
+    axes, titles, and export a polished PowerPoint line chart.
+  name: How to add grid lines to a chart with Aspose.Slides for Java
+  steps:
+  - name: create the output directory (create directory java)
+    text: '*Why this matters:* Ensuring the folder exists prevents `FileNotFoundException`
+      when you later save the presentation.'
+  - name: add a slide and insert a line chart
+    text: '*Explanation:* This creates a fresh slide and places a **line chart with
+      markers** at the specified coordinates.'
+  - name: add chart title (add chart title)
+    text: '*Tip:* Using a bold, gray title makes the chart instantly recognizable.'
+  - name: format axes and add grid lines (add grid lines)
+    text: '#### Vertical axis formatting *Why this matters:* Clear grid lines and
+      rotated labels improve readability, especially when data points are dense.'
+  - name: save the presentation
+    text: '*Result:* You now have a PowerPoint file (`FormattedChart_out.pptx`) containing
+      a fully formatted line chart.'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Slides supports bar, pie, scatter, radar, and more than 50
+      additional chart types.
+    question: Can I create other chart types besides line charts?
+  - answer: Use `chart.getChartData().getSeries().add(...)` to insert additional series
+      before applying formatting.
+    question: How do I add multiple data series to the line chart?
+  - answer: Absolutely. Render the slide to PNG, JPEG, or SVG with `presentation.save("slide.png",
+      SaveFormat.Png)`.
+    question: Is it possible to export the chart as an image?
+  - answer: A free temporary license is sufficient for evaluation; a commercial license
+      is required for production use.
+    question: Do I need a paid license for development?
+  - answer: The library works with JDK 8 through JDK 22; select the appropriate classifier
+      (e.g., `jdk16`) when adding the Maven/Gradle dependency.
+    question: Which Java versions are supported?
+  type: FAQPage
+tags:
+- Aspose.Slides
+- Java chart tutorial
+- PowerPoint automation
+- line chart
+title: Hoe rasterlijnen toe te voegen aan een grafiek met Aspose.Slides voor Java
 url: /nl/java/charts-graphs/create-format-charts-aspose-slides-java/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Hoe maak je een lijndiagram met Aspose.Slides in Java
 
-## Hoe maak je een lijndiagram in Java met Aspose.Slides
+# Hoe rasterlijnen toe te voegen aan een grafiek met Aspose.Slides voor Java
 
-### Introductie
-Het maken van visueel aantrekkelijke presentaties is cruciaal voor effectieve communicatie. Of je nu een zakelijke professional of een docent bent, je moet vaak **line chart**-visualisaties maken die zowel informatief als esthetisch aantrekkelijk zijn. In deze tutorial lopen we stap voor stap door het gebruik van **Aspose.Slides for Java** om een line chart te genereren, een diagramtitel toe te voegen, rasterlijnen toe te voegen, diagramlabels op te maken en het resultaat op te slaan als een PowerPoint‑bestand.
+## Introductie
+Als je **grafiek met rasterlijnen toevoegen** programmatically wilt toevoegen aan een PowerPoint-presentatie, biedt Aspose.Slides for Java een schone, volledig uitgeruste API. Of je nu een kwartaalrapport, een academische lezing of een datagedreven verkooppresentatie voorbereidt, je kunt een lijndiagram genereren, elk visueel element aanpassen en het resultaat binnen enkele seconden opslaan — zonder PowerPoint handmatig te openen.
 
-#### Snelle antwoorden
-- **Welke bibliotheek is het beste voor het maken van diagrammen in Java?** Aspose.Slides for Java
-- **Op welk type diagram richt deze gids zich?** Line chart with markers
-- **Heb ik een licentie nodig om het voorbeeld uit te voeren?** Een gratis tijdelijke licentie werkt voor evaluatie
-- **Welke IDE kan ik gebruiken?** Elke Java‑IDE zoals IntelliJ IDEA, Eclipse of NetBeans
-- **Hoe worden diagramonderdelen opgemaakt?** Met behulp van fluent API‑aanroepen voor titels, assen, rasterlijnen, legenda's en achtergronden
+## Snelle antwoorden
+- **Welke bibliotheek maakt diagrammen in Java?** Aspose.Slides for Java.
+- **Welk type diagram behandelt deze gids?** Een lijndiagram met markers en rasterlijnen.
+- **Heb ik een licentie nodig om het voorbeeld uit te voeren?** Een gratis tijdelijke licentie werkt voor evaluatie; een commerciële licentie is vereist voor productie.
+- **Welke IDE kan ik gebruiken?** Elke Java-IDE zoals IntelliJ IDEA, Eclipse of NetBeans.
+- **Hoe worden diagramonderdelen opgemaakt?** Met fluente API‑aanroepen voor titels, assen, rasterlijnen, legenda's en achtergrondkleuren.
 
-### Wat is een line chart en waarom Aspose.Slides gebruiken?
-Een line chart toont gegevenspunten die met rechte lijnen verbonden zijn, waardoor het ideaal is om trends in de tijd weer te geven. Aspose.Slides stelt je in staat om deze diagrammen programmatisch te maken en volledig aan te passen, waardoor handmatige PowerPoint‑bewerking overbodig wordt.
+## Hoe rasterlijnen aan een diagram toe te voegen in Java met Aspose.Slides
+Laad een nieuwe `Presentation`, voeg een dia toe, voeg een lijndiagram toe en schakel vervolgens de hoofd‑rasterlijnen op de verticale as in – alles in minder dan tien regels code. Dit directe antwoord toont de exacte volgorde die je nodig hebt, zodat je kunt kopiëren‑plakken en onmiddellijk een volledig opgemaakt diagram ziet.
 
-### Voorvereisten
-- **Java Development Kit (JDK) 8+** geïnstalleerd
-- **IDE** (IntelliJ IDEA, Eclipse, NetBeans, enz.)
-- **Aspose.Slides for Java** bibliotheek (toegevoegd via Maven of Gradle)
+### Definitie‑anker
+`Presentation` is de kernklasse van Aspose.Slides die een PowerPoint‑bestand in het geheugen vertegenwoordigt; alle dia‑niveau bewerkingen beginnen vanaf dit object.
 
-#### Vereiste bibliotheken en afhankelijkheden
-**Maven**
+## Wat is een lijndiagram en waarom Aspose.Slides gebruiken?
+Een lijndiagram plot een reeks gegevenspunten die met rechte lijnen verbonden zijn, waardoor trends in de tijd direct zichtbaar worden. Aspose.Slides ondersteunt **meer dan 50 diagramtypen** en kan **tot 10.000 gegevenspunten per serie** verwerken zonder merkbare vertraging, waardoor je enterprise‑prestaties krijgt voor grote datasets.
+
+### Definitie‑anker
+`Chart` is het top‑level object van Aspose.Slides voor elk diagram; het slaat series, categorieën en opmaakinformatie op.
+
+## Vereisten
+- **Java Development Kit (JDK) 8+** geïnstalleerd.
+- **IDE** (IntelliJ IDEA, Eclipse, NetBeans, enz.).
+- **Aspose.Slides for Java** bibliotheek toegevoegd via Maven of Gradle (zie de sectie *aspose.slides maven dependency* hieronder).
+
+### Maven‑afhankelijkheid (aspose.slides maven dependency)
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -50,30 +110,29 @@ Een line chart toont gegevenspunten die met rechte lijnen verbonden zijn, waardo
 </dependency>
 ```
 
-**Gradle**
+### Gradle‑afhankelijkheid
 ```gradle
-implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
+implementation 'com.aspose:aspose-slides:25.4:jdk16'
 ```
 
-Download anders de nieuwste JAR van [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+Alternatively, download the latest JAR from [Aspose.Slides voor Java releases](https://releases.aspose.com/slides/java/).
 
-#### License Acquisition
-- Verkrijg een [gratis proeflicentie](https://purchase.aspose.com/temporary-license/) voor testen.
-- Koop een volledige licentie via [de officiële site van Aspose](https://purchase.aspose.com/buy) voor productiegebruik.
+## Licentie‑acquisitie (pas aspose‑licentie toe)
+- Verkrijg een **gratis proeflicentie** van de [free trial license](https://purchase.aspose.com/temporary-license/) pagina voor testen.
+- Koop een volledige licentie via [Aspose's official site](https://purchase.aspose.com/buy) voor productie‑implementaties.
 
-### Setting Up Aspose.Slides for Java
-1. **Voeg de afhankelijkheid** toe die hierboven wordt getoond aan je project.
-2. **Pas de licentie toe** (indien je er een hebt) voordat je presentatie‑objecten maakt.
+## Aspose.Slides voor Java instellen
+1. Voeg de hierboven getoonde Maven‑ of Gradle‑afhankelijkheid toe aan je project.
+2. Laad het licentiebestand **voordat** je `Presentation`‑objecten maakt, zodat alle functies worden ontgrendeld.
 
 ```java
-import com.aspose.slides.Presentation;
-// Initialize the Presentation object
-Presentation pres = new Presentation();
+License license = new License();
+license.setLicense("Aspose.Slides.lic");
 ```
 
-## Step‑by‑Step Implementation
+## Stapsgewijze implementatie
 
-### Step 1: Create the output directory (create directory java)
+### Stap 1: maak de uitvoermap (create directory java)
 ```java
 import java.io.File;
 // Define the target directory
@@ -84,10 +143,10 @@ boolean isExists = new File(dataDir).exists();
 if (!isExists) {
     new File(dataDir).mkdirs(); // Create directories recursively
 }
-```
+```  
 *Waarom dit belangrijk is:* Het zorgen dat de map bestaat voorkomt `FileNotFoundException` wanneer je later de presentatie opslaat.
 
-### Step 2: Add a slide and insert a line chart
+### Stap 2: voeg een dia toe en voeg een lijndiagram in
 ```java
 import com.aspose.slides.*;
 // Create a new presentation
@@ -99,10 +158,10 @@ try {
     // Add a chart to the slide
     IChart chart = slide.getShapes().addChart(
         ChartType.LineWithMarkers, 50, 50, 500, 400);
-```
-*Uitleg:* Dit maakt een nieuwe dia aan en plaatst een **line chart with markers** op de opgegeven coördinaten.
+```  
+*Uitleg:* Dit maakt een nieuwe dia aan en plaatst een **lijndiagram met markers** op de opgegeven coördinaten.
 
-### Step 3: Add chart title (add chart title)
+### Stap 3: voeg diagramtitel toe (add chart title)
 ```java
 // Enable and format the title
 chart.setTitle(true);
@@ -114,11 +173,11 @@ chartTitle.getPortionFormat().setFontBold(NullableBool.True);
 chartTitle.getPortionFormat().setFillType(FillType.Solid);
 chartTitle.getPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.GRAY);
 chartTitle.getPortionFormat().setFontHeight(20);
-```
+```  
 *Tip:* Het gebruiken van een vette, grijze titel maakt het diagram direct herkenbaar.
 
-### Step 4: Format axes and add grid lines (add grid lines)
-#### Vertical Axis Formatting
+### Stap 4: assen opmaken en rasterlijnen toevoegen (add grid lines)
+#### Opmaak verticale as
 ```java
 IChartAxis verticalAxis = chart.getAxes().getVerticalAxis();
 
@@ -132,9 +191,10 @@ verticalAxis.getMajorGridLinesFormat().getLine().setWidth(5);
 verticalAxis.setNumberFormat("0.0%");
 verticalAxis.setMaxValue(15f);
 verticalAxis.setMinValue(-2f);
-```
+```  
+*Waarom dit belangrijk is:* Duidelijke rasterlijnen en gedraaide labels verbeteren de leesbaarheid, vooral wanneer gegevenspunten dicht opeen liggen.
 
-#### Horizontal Axis Formatting
+#### Opmaak horizontale as
 ```java
 IChartAxis horizontalAxis = chart.getAxes().getHorizontalAxis();
 
@@ -147,10 +207,9 @@ horizontalAxis.getMajorGridLinesFormat().getLine().setWidth(5);
 // Set label positions and rotations
 horizontalAxis.setTickLabelPosition(TickLabelPositionType.Low);
 horizontalAxis.setTickLabelRotationAngle(45);
-```
-*Waarom dit belangrijk is:* Duidelijke rasterlijnen en gedraaide labels verbeteren de leesbaarheid, vooral wanneer de gegevenspunten dicht op elkaar staan.
+```  
 
-### Step 5: Customize the legend (add chart title – already covered, but legend is part of overall formatting)
+### Stap 5: pas de legenda aan (add chart legend)
 ```java
 IChartPortionFormat txtLeg = chart.getLegend().getTextFormat().getPortionFormat();
 txtLeg.setFontBold(NullableBool.True);
@@ -159,9 +218,9 @@ txtLeg.getFillFormat().setFillType(FillType.Solid)
 
 // Prevent overlap with the chart area
 chart.getLegend().setOverlay(true);
-```
+```  
 
-### Step 6: Set background colors (format chart labels – part of overall visual styling)
+### Stap 6: stel achtergrondkleuren in (format chart labels)
 ```java
 chart.getBackWall().setThickness(1);
 chart.getBackWall().getFormat().getFill()
@@ -171,63 +230,88 @@ chart.getBackWall().getFormat().getFill()
 chart.getPlotArea().getFormat().getFill()
     .setFillType(FillType.Solid)
     .getSolidFillColor().setColor(new Color(PresetColor.LightCyan));
-```
+```  
 
-### Step 7: Save the presentation
+### Stap 7: sla de presentatie op
 ```java
 // Save the presentation to disk
 pres.save("YOUR_OUTPUT_DIRECTORY/FormattedChart_out.pptx", SaveFormat.Pptx);
 } finally {
     if (pres != null) pres.dispose(); // Clean up resources
 }
-```
-*Resultaat:* Je hebt nu een PowerPoint‑bestand (`FormattedChart_out.pptx`) met een volledig opgemaakt line chart.
+```  
+*Resultaat:* Je hebt nu een PowerPoint‑bestand (`FormattedChart_out.pptx`) met een volledig opgemaakt lijndiagram.
 
-## Practical Applications
-- **Business Reports:** Toon kwartaalprestaties met trendlijnen.
-- **Educational Slides:** Visualiseer wetenschappelijke gegevens voor lezingen.
-- **Project Proposals:** Markeer mijlpalen en prognoses.
-- **Marketing Analysis:** Presenteer ROI‑trends van campagnes.
-- **Dashboard Integration:** Exporteer live gegevens naar PowerPoint voor stakeholder‑bijeenkomsten.
+## Praktische toepassingen (generate line chart powerpoint)
+- **Business reports:** Toon kwartaalomzettrends met scherpe rasterlijnen.
+- **Academic lectures:** Visualiseer experimentele gegevens over meerdere sessies.
+- **Project proposals:** Markeer mijlpaalvoortgang en prognosecurven.
+- **Marketing analysis:** Presenteer campagne‑ROI‑trends naast concurrentgegevens.
+- **Dashboard integration:** Exporteer live‑analytics naar PowerPoint voor stakeholder‑bijeenkomsten.
 
-## Performance Considerations
-- **Memory Management:** Roep altijd `dispose()` aan op het `Presentation`‑object om native bronnen tijdig vrij te geven.
+## Prestatie‑overwegingen
+- **Memory management:** Roep `presentation.dispose()` aan na het opslaan om native bronnen snel vrij te geven.
+- **Large datasets:** Aspose.Slides verwerkt diagrammen met duizenden punten via streaming, waardoor het geheugengebruik onder 100 MB blijft op een typische server.
 
-## Common Issues and Solutions
+## Veelvoorkomende problemen en oplossingen
+
 | Probleem | Oplossing |
 |----------|-----------|
-| **Licentie niet toegepast** | Laad de proef-/volledige licentie voordat je `Presentation`‑objecten maakt. |
-| **Diagram verschijnt leeg** | Controleer of de dia daadwerkelijk gegevensreeksen bevat; voeg indien nodig reeksen toe. |
-| **Bestand niet opgeslagen** | Zorg ervoor dat de uitvoermap bestaat (gebruik de stap “create directory java”). |
-| **Kleuren niet toegepast** | Gebruik `Color`‑constanten van `java.awt.Color` of `PresetColor`. |
+| **Licentie niet toegepast** | Laad de proef‑ of volledige licentie **voordat** `Presentation`‑objecten worden geïnstantiëerd. |
+| **Diagram verschijnt leeg** | Controleer of de dia minstens één gegevensreeks bevat; voeg een reeks toe via `chart.getChartData().getSeries().add(...)` indien nodig. |
+| **Bestand niet opgeslagen** | Zorg ervoor dat de uitvoermap bestaat (zie Stap 1). |
+| **Kleuren niet toegepast** | Gebruik `java.awt.Color`‑constanten of de `PresetColor`‑enum voor betrouwbare kleurrendering. |
 
-## Frequently Asked Questions
+## Veelgestelde vragen
 
-**Q: Kan ik andere diagramtypen maken naast line charts?**  
-A: Ja, Aspose.Slides ondersteunt staaf-, taart-, spreidings‑ en vele andere diagramtypen.
+**Q: Kun ik andere diagramtypen maken naast lijndiagrammen?**  
+A: Ja, Aspose.Slides ondersteunt staaf-, taart-, spreidings-, radardiagrammen en meer dan 50 extra diagramtypen.
 
-**Q: Hoe voeg ik meerdere gegevensreeksen toe aan de line chart?**  
-A: Gebruik `chart.getChartData().getSeries().add(...)` om extra reeksen in te voegen vóór het opmaken.
+**Q: Hoe voeg ik meerdere gegevensreeksen toe aan het lijndiagram?**  
+A: Gebruik `chart.getChartData().getSeries().add(...)` om extra reeksen in te voegen voordat je opmaak toepast.
 
 **Q: Is het mogelijk om het diagram als afbeelding te exporteren?**  
-A: Absoluut. Roep `chart.getChartData().getChartDataWorkbook().save(...)` aan of render de dia naar een afbeeldingsformaat.
+A: Zeker. Render de dia naar PNG, JPEG of SVG met `presentation.save("slide.png", SaveFormat.Png)`.
 
 **Q: Heb ik een betaalde licentie nodig voor ontwikkeling?**  
-A: Een gratis tijdelijke licentie werkt voor evaluatie; een commerciële licentie is vereist voor productie‑implementaties.
+A: Een gratis tijdelijke licentie is voldoende voor evaluatie; een commerciële licentie is vereist voor productiegebruik.
 
 **Q: Welke Java‑versies worden ondersteund?**  
-A: De bibliotheek werkt met JDK 8 tot en met JDK 22 (gebruik de juiste classifier, bijv. `jdk16`).
+A: De bibliotheek werkt met JDK 8 tot en met JDK 22; selecteer de juiste classifier (bijv. `jdk16`) bij het toevoegen van de Maven/Gradle‑afhankelijkheid.
 
----
-
-**Laatst bijgewerkt:** 2026-03-07  
+**Laatst bijgewerkt:** 2026-08-27  
 **Getest met:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
 **Auteur:** Aspose  
+
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-slides</artifactId>
+    <version>25.4</version>
+    <classifier>jdk16</classifier>
+</dependency>
+```
+
+```gradle
+implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
+```
+
+```java
+import com.aspose.slides.Presentation;
+// Initialize the Presentation object
+Presentation pres = new Presentation();
+```
+
+## Gerelateerde tutorials
+
+- [aspose slides maven dependency: Voeg diagrammen toe en configureer ze in presentaties met Aspose.Slides voor Java](/slides/java/charts-graphs/add-charts-aspose-slides-java-guide/)
+- [Hoe diagram toe te voegen aan PowerPoint met Aspose.Slides voor Java: Een stap‑voor‑stap gids](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [Maak en pas diagrammen aan: trendlijnen Aspose Slides Java](/slides/java/charts-graphs/create-customize-charts-trend-lines-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

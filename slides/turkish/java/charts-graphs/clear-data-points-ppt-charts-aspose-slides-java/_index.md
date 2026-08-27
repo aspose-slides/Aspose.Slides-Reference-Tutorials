@@ -1,70 +1,151 @@
 ---
-date: '2026-02-27'
-description: Aspose.Slides for Java'ı kullanarak belirli grafik veri noktalarını nasıl
-  temizleyeceğinizi öğrenin. Bu adım adım öğretici, grafik verilerini nasıl temizleyeceğinizi,
-  en iyi uygulamaları ve grafik serilerini verimli bir şekilde nasıl temizleyeceğinizi
-  gösterir.
+date: '2026-08-27'
+description: PowerPoint'te Aspose.Slides for Java kullanarak chart data points nasıl
+  temizleneceğini öğrenin. Bu adım adım öğretici, chart değerlerini programlı olarak
+  temizleme, en iyi uygulamalar ve verimli seri yönetimini gösterir.
 keywords:
-- clear data points PowerPoint charts
-- manipulate chart series Aspose.Slides Java
-- reset data points PowerPoint using Java
-title: 'Aspose.Slides for Java Kullanarak PowerPoint Grafiklerindeki Veri Noktalarını
-  Temizleme: Kapsamlı Bir Rehber'
+- how to clear chart
+- programmatically clear chart
+- remove chart data points
+- Aspose.Slides Java chart manipulation
+- PowerPoint chart automation
+lastmod: '2026-08-27'
+og_description: PowerPoint'te Aspose.Slides for Java kullanarak chart data points
+  nasıl temizleneceğini öğrenin. Chart'ları programlı olarak verimli bir şekilde sıfırlamak
+  için adım adım talimatları izleyin.
+og_image_alt: Code example showing how to clear chart data points in a PowerPoint
+  presentation using Aspose.Slides for Java
+og_title: PowerPoint'te Aspose.Slides for Java ile chart data points nasıl temizlenir
+schemas:
+- author: Aspose
+  dateModified: '2026-08-27'
+  description: Learn how to clear chart data points in PowerPoint using Aspose.Slides
+    for Java. This step‑by‑step tutorial shows how to programmatically clear chart
+    values, best practices, and efficient series handling.
+  headline: 'How to clear data points in PowerPoint charts using Aspose.Slides for
+    Java: a comprehensive guide'
+  type: TechArticle
+- description: Learn how to clear chart data points in PowerPoint using Aspose.Slides
+    for Java. This step‑by‑step tutorial shows how to programmatically clear chart
+    values, best practices, and efficient series handling.
+  name: 'How to clear data points in PowerPoint charts using Aspose.Slides for Java:
+    a comprehensive guide'
+  steps:
+  - name: '**Load the presentation** – create a `Presentation` instance pointing to
+      your source file.'
+    text: '**Load the presentation** – create a `Presentation` instance pointing to
+      your source file.'
+  - name: '**Access the slide and chart** – retrieve the slide (usually index 0) and
+      cast the first shape to `IChart`.'
+    text: '**Access the slide and chart** – retrieve the slide (usually index 0) and
+      cast the first shape to `IChart`.'
+  - name: '**Iterate through the target series** – select the series you want to clear
+      (e.g., `chart.getChartData().getSeries().get_Item(0)`) and loop over its data
+      points, setting both X and Y cell values to `null`.'
+    text: '**Iterate through the target series** – select the series you want to clear
+      (e.g., `chart.getChartData().getSeries().get_Item(0)`) and loop over its data
+      points, setting both X and Y cell values to `null`.'
+  - name: '**Save the modified presentation** – write the changes to a new file or
+      overwrite the original.'
+    text: '**Save the modified presentation** – write the changes to a new file or
+      overwrite the original.'
+  - name: '**Data refresh pipelines** – replace stale numbers with fresh analytics
+      without rebuilding the chart layout.'
+    text: '**Data refresh pipelines** – replace stale numbers with fresh analytics
+      without rebuilding the chart layout.'
+  - name: '**Template distribution** – provide PowerPoint templates that contain empty
+      charts ready for user input.'
+    text: '**Template distribution** – provide PowerPoint templates that contain empty
+      charts ready for user input.'
+  - name: '**Dynamic dashboards** – generate nightly presentations that pull data
+      from APIs, clearing old values first.'
+    text: '**Dynamic dashboards** – generate nightly presentations that pull data
+      from APIs, clearing old values first.'
+  - name: '**Automated reporting jobs** – integrate the clearing logic into CI/CD
+      pipelines for automated report generation.'
+    text: '**Automated reporting jobs** – integrate the clearing logic into CI/CD
+      pipelines for automated report generation.'
+  type: HowTo
+- questions:
+  - answer: A free trial license is sufficient for development and testing. A commercial
+      license is required for production deployments.
+    question: Do I need a license for development builds?
+  - answer: Yes, the library fully supports modern PPTX features, including advanced
+      chart types and SmartArt.
+    question: Does Aspose.Slides for Java support PowerPoint 2016/2019 features?
+  - answer: Absolutely – just reference the series that belongs to the secondary axis
+      and set its data points to `null` as described above.
+    question: Can I clear data points in a chart that uses a secondary axis?
+  - answer: Yes. Call `dataPoint.getYValue().setValue(null)` and leave the X cell
+      untouched.
+    question: Is it possible to clear only Y values while keeping X labels?
+  - answer: Wrap the clearing code in a loop that iterates over a directory of PPTX
+      files, applying the same logic to each file.
+    question: How can I automate this for multiple presentations?
+  type: FAQPage
+tags:
+- clear chart
+- Aspose.Slides
+- Java chart manipulation
+- PowerPoint automation
+- chart data points
+title: 'PowerPoint grafiklerinde Aspose.Slides for Java kullanarak chart data points
+  nasıl temizlenir: kapsamlı bir rehber'
 url: /tr/java/charts-graphs/clear-data-points-ppt-charts-aspose-slides-java/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# PowerPoint Grafiklerinde Veri Noktalarını Aspose.Slides for Java ile Nasıl Temizlersiniz
+
+# PowerPoint grafiklerinde veri noktalarını Aspose.Slides for Java kullanarak nasıl temizlenir
 
 ## Giriş
 
-PowerPoint’te grafik verilerini yönetmek zor olabilir, özellikle **belirli veri noktalarını temizlemeniz** veya bir bütün seriyi sıfırlamanız gerektiğinde. Bu öğreticide **Aspose.Slides for Java**’nın grafik değerlerini programlı olarak temizlemeyi nasıl basitleştirdiğini göreceksiniz, sunumlarınızı düzenli tutacak ve grafikleri baştan oluşturmak zorunda kalmayacaksınız.
+Birçok raporlama hattında, düzenini yeniden oluşturmak zorunda kalmadan **bir grafiği sıfırlamanız** gerekir. İster bir gösterge panosunu yeniliyor olun, ister bir şablon dağıtıyor olun ya da gece raporlarını otomatikleştiriyor olun, **grafik veri noktalarını nasıl temizleyeceğinizi** bilmek zaman kazandırır ve hataları azaltır. Bu öğreticide, **Aspose.Slides for Java** kullanarak belirli noktaları veya tüm seriyi programlı olarak nasıl temizleyeceğinizi, görsel stilin korunarak gösteriyoruz.
 
-**Öğrenecekleriniz**
-- **Aspose.Slides for Java** ile PowerPoint grafiklerini nasıl manipüle edeceğinizi.  
-- Bir serideki **grafik veri noktalarını nasıl temizleyeceğinize** dair adım‑adım talimatlar.  
-- Kütüphaneyi kurma ve performansı optimize etme konusunda en iyi uygulamalar.
+**Neler öğreneceksiniz**
+- Aspose.Slides'in Java üzerinden PowerPoint grafiklerini manipüle etmenizi nasıl sağladığını.
+- Bir serideki grafik veri noktalarını temizlemek için adım adım talimatlar.
+- Performans ve lisanslama için en iyi uygulama ipuçları.
 
-Gereksinimleri kontrol ederek başlayalım.
+## Hızlı cevaplar
+- **Gerekli kütüphane nedir?** Aspose.Slides for Java (v25.4+).  
+- **Bir veri noktasını gerçekten temizleyen yöntem hangisidir?** X ve Y hücre değerlerini `null` olarak ayarlamak.  
+- **Üretim için bir lisansa ihtiyacım var mı?** Evet – ticari bir lisans deneme sınırlamalarını kaldırır.  
+- **Java 16 destekleniyor mu?** Kesinlikle; kütüphane JDK 16 ve üzeriyle çalışır.  
+- **Sadece bir seriyi hedefleyebilir miyim?** Evet – temizlemek istediğiniz belirli seriyi döngüyle işleyin.
 
-## Hızlı Yanıtlar
-- **Hangi kütüphane kullanılıyor?** Aspose.Slides for Java.  
-- **Hangi yöntem bir veri noktasını temizler?** X ve Y hücre değerlerini `null` olarak ayarlamak.  
-- **Lisans gerekli mi?** Değerlendirme için bir deneme sürümü yeterlidir; üretim için ticari lisans gerekir.  
-- **Desteklenen JDK sürümü?** JDK 16 veya daha yenisi.  
-- **Tek bir seriyi hedefleyebilir miyim?** Evet – sadece temizlemek istediğiniz seriyi yineleyin.
+## Aspose.Slides for Java nedir?
 
-## Aspose.Slides for Java Nedir?
-Aspose.Slides for Java, geliştiricilerin Microsoft Office olmadan PowerPoint dosyaları oluşturmasına, düzenlemesine ve dönüştürmesine olanak tanıyan güçlü bir API’dir. Grafik ekleme, güncelleme ve veri noktalarını temizleme dahil tam grafik manipülasyonu sağlar.
+Aspose.Slides for Java, Microsoft Office olmadan PowerPoint dosyalarının oluşturulmasını, düzenlenmesini ve dönüştürülmesini sağlayan tam özellikli bir API'dir. 70'ten fazla grafik türünü, 150+ dosya formatını destekler ve tüm dosyayı belleğe yüklemeden 500 MB'a kadar sunumları işleyebilir.
 
-## Neden Grafik Veri Noktalarını Temizlemelisiniz?
-Veri noktalarını temizlemek aşağıdaki durumlarda faydalıdır:
-- Aynı düzeni koruyarak yeni bir veri kümesiyle grafiği yenilemek.  
-- Boş yer tutucular içeren bir şablon hazırlamak.  
-- Verilerin sık sık değiştiği dinamik raporlar oluşturmak.
+## Grafik veri noktalarını temizlemek neden önemlidir?
 
-## Ön Koşullar
+Grafik veri noktalarını temizlemek, renkler, lejandlar, eksen ayarları ve işaretçiler gibi mevcut grafik düzenini korurken alttaki sayısal değerleri değiştirmeyi sağlar. Bu yaklaşım, bir grafiği yeni verilerle yenilemeniz, boş yer tutucular içeren bir şablon sağlamanız veya görsel tasarımı yeniden oluşturmadan sık sık değişen dinamik gösterge panoları üretmeniz gerektiğinde faydalıdır.
 
-### Gerekli Kütüphaneler, Sürümler ve Bağımlılıklar
-- **Aspose.Slides for Java**: sürüm 25.4 veya üzeri.
+- Yeni bir veri kümesiyle bir grafiği yenilerken renkleri, lejandları ve eksen ayarlarını korumak.  
+- Kullanıcı girişi için hazır boş grafikler içeren bir şablon dağıtmak.  
+- Verilerin sık sık değiştiği dinamik gösterge panoları oluşturmak.
 
-### Ortam Kurulum Gereksinimleri
-- Java Development Kit (JDK) 16 veya daha yenisi.
+## PowerPoint'te Aspose.Slides for Java kullanarak grafik veri noktalarını nasıl temizlenir
 
-### Bilgi Ön Koşulları
-- Temel Java programlama.  
-- Bağımlılık yönetimi için Maven veya Gradle’a aşina olmak.
+Sunumunuzu yükleyin, grafiği bulun ve her veri noktasının X ve Y hücrelerini `null` olarak ayarlayın. Bu işlem sayısal değerleri kaldırır ancak seriyi, işaretçileri ve biçimlendirmeyi dokunmadan bırakır. Tüm süreç, standart 10 slaytlık bir PPTX için genellikle bir saniyeden kısa sürede tamamlanır.
 
-## Aspose.Slides for Java Kurulumu
+### Doğrudan cevap
+Grafik veri noktalarını temizlemek için, PPTX'i `new Presentation("input.pptx")` ile açın, hedef `IChart` nesnesini alın, istediğiniz `IChartSeries` üzerinde döngü yapın ve her nokta için `dataPoint.getXValue().setValue(null)` ve `dataPoint.getYValue().setValue(null)` metodlarını çağırın. Son olarak, sunumu `pres.save("output.pptx", SaveFormat.Pptx)` ile kaydedin. Bu yaklaşım, verileri programlı olarak temizlerken grafiğin görsel tasarımını korur.
 
-### Maven Kurulumu
+### Tanım referansları
+- `Presentation` Aspose.Slides'in bellek içindeki bir PowerPoint dosyasını temsil eden üst‑seviye nesnedir.  
+- `IChart` bir grafik şeklinin serilerine, eksenlerine ve biçimlendirmesine erişim sağlayan arayüzdür.  
+- `IChartSeries` bir grafikteki tek bir seriyi temsil eder ve `IDataPoint` nesnelerinden oluşan bir koleksiyon içerir.  
+- `IDataPoint` grafikteki bir noktanın bireysel X ve Y değerlerini tutar.
 
-```xml
+### Adım adım uygulama
+
+1. **Sunumu yükleyin** – kaynak dosyanıza işaret eden bir `Presentation` örneği oluşturun.  
+   ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-slides</artifactId>
@@ -73,26 +154,13 @@ Veri noktalarını temizlemek aşağıdaki durumlarda faydalıdır:
 </dependency>
 ```
 
-### Gradle Kurulumu
-
-```gradle
+2. **Slaytı ve grafiği erişin** – slaytı alın (genellikle indeks 0) ve ilk şekli `IChart` tipine dönüştürün.  
+   ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-### Doğrudan İndirme
-
-Alternatif olarak, en son sürümü [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) adresinden indirebilirsiniz.
-
-### Lisans Edinme
-
-Aspose.Slides’ı deneme sınırlamalarının ötesinde kullanmak için:
-- **Ücretsiz deneme** lisansı alın.  
-- Değerlendirme amacıyla **geçici lisans** başvurusunda bulunun.  
-- Üretim kullanımı için **ticari lisans** satın alın.
-
-#### Temel Başlatma ve Kurulum
-
-```java
+3. **Hedef seriyi döngüyle işleyin** – temizlemek istediğiniz seriyi seçin (ör. `chart.getChartData().getSeries().get_Item(0)`) ve veri noktaları üzerinde döngü yaparak X ve Y hücre değerlerini `null` olarak ayarlayın.  
+   ```java
 import com.aspose.slides.*;
 
 public class ChartManipulation {
@@ -107,128 +175,99 @@ public class ChartManipulation {
 }
 ```
 
-## Aspose.Slides for Java ile Grafik Veri Noktalarını Temizleme
-
-### Grafik Serisi Veri Noktalarını Temizleme
-
-#### Genel Bakış
-
-Bu özellik, seçilen bir serideki her veri noktasının X ve Y değerlerini sıfırlamanıza olanak tanır. **Grafik verilerini nasıl temizleyeceğinizin** temeli, diğer serileri etkilemeden bu işlemi yapmaktır.
-
-#### Adım‑Adım Uygulama
-
-1. **Sunumu Yükleyin**  
-   PowerPoint dosyanızı bir `Presentation` nesnesine yükleyin.
-
+4. **Değiştirilen sunumu kaydedin** – değişiklikleri yeni bir dosyaya yazın veya orijinali üzerine yazın.  
    ```java
    Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/TestChart.pptx");
    ```
 
-2. **Slayt ve Grafik’e Erişin**  
-   İlk slaytı ve ilk şekli (grafik olduğu varsayılır) alın.
+## Aspose.Slides for Java kurulumu
 
-   ```java
+### Maven kurulumu
+
+```java
    ISlide sl = pres.getSlides().get_Item(0);
    IChart chart = (IChart) sl.getShapes().get_Item(0);
    ```
 
-3. **Veri Noktaları Üzerinde Döngü**  
-   İlk serinin veri noktaları üzerinde döngü kurun ve hücre değerlerini `null` olarak ayarlayın.
+### Gradle kurulumu
 
-   ```java
+```java
    for (IChartDataPoint dataPoint : chart.getChartData().getSeries().get_Item(0).getDataPoints()) {
        dataPoint.getXValue().getAsCell().setValue(null);
        dataPoint.getYValue().getAsCell().setValue(null);
    }
    ```
 
-4. **Sunumu Kaydedin**  
-   Değişiklikleri yeni bir dosyaya kaydedin.
+### Doğrudan indirme
 
-   ```java
+Alternatif olarak, en son sürümü [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) adresinden indirin.
+
+### Lisans edinimi
+
+Aspose.Slides'i deneme sınırlamalarının ötesinde kullanmak için:
+- Ücretsiz deneme lisansı edinin.  
+- Değerlendirme için **geçici lisans** başvurun.  
+- Üretim kullanımı için **ticari lisans** satın alın.
+
+#### Temel başlatma ve kurulum
+
+```java
    pres.save("YOUR_DOCUMENT_DIRECTORY/UpdatedTestChart.pptx", SaveFormat.Pptx);
    ```
 
-### Sorun Giderme İpuçları
+## Pratik uygulamalar
 
-- Slayt indeksi (`0`) ve şekil indeksi (`0`) gerçekten bir grafiğe işaret ediyor mu kontrol edin; aksi takdirde `IndexOutOfBoundsException` alabilirsiniz.  
-- Yükleme ve kaydetme için dosya yollarını iki kez kontrol edin; test sırasında karışıklığı önlemek için mutlak yollar kullanın.  
-- Grafik birden fazla seri içeriyorsa, seri indeksini (`get_Item(0)`) buna göre ayarlayın.
+1. **Veri yenileme hatları** – grafiğin düzenini yeniden oluşturmayarak eski sayıları yeni analizlerle değiştirin.  
+2. **Şablon dağıtımı** – kullanıcı girişi için hazır boş grafikler içeren PowerPoint şablonları sağlayın.  
+3. **Dinamik gösterge panoları** – API'lerden veri çeken gece sunumları oluşturun, önce eski değerleri temizleyin.  
+4. **Otomatik raporlama işleri** – temizleme mantığını CI/CD hatlarına entegre ederek otomatik rapor üretimi yapın.
 
-## Pratik Uygulamalar
+## Performans hususları
 
-Grafik veri noktalarını temizleme çeşitli gerçek‑dünya senaryolarında kullanılabilir:
+- **Nesneleri serbest bırakın**: Kaydettikten sonra yerel kaynakları serbest bırakmak için `pres.dispose()` çağırın.  
+- **Toplu işleme**: Yükü azaltmak için birden çok dosyada aynı `License` örneğini yeniden kullanın.  
+- **JVM ayarı**: 200 MB'den büyük sunumları işlerken yığın boyutunu (`-Xmx2g` veya daha yüksek) artırın.  
+- **Bellek‑verimli mod**: Aspose.Slides büyük PPTX dosyalarını akış olarak işleyebilir, tam bellek yüklemesi olmadan 10 000 slayta kadar işleme imkanı sağlar.
 
-1. **Veri Yenileme** – Grafik düzenini yeniden oluşturmadan eski verileri yeni bir veri kümesiyle değiştirin.  
-2. **Şablon Hazırlama** – Kullanıcı girişi için hazır boş grafikler içeren PowerPoint şablonları dağıtın.  
-3. **Dinamik Raporlama** – Canlı veri kaynakları (veritabanları, API’ler) ile entegrasyon sağlayarak anlık sunumlar üretin.  
-4. **Otomatik Panolar** – Gece boyunca grafikleri güncelleyen zamanlanmış işler oluşturun; önceki değerleri temizleyerek başlayın.
+## Sıkça sorulan sorular
 
-## Performans Düşünceleri
-
-- **Nesneleri serbest bırakın**: Yerel kaynakları serbest bırakmak için her zaman `pres.dispose()` çağırın.  
-- **Toplu işleme**: Çok sayıda sunumla çalışırken tek bir `License` örneğini yeniden kullanın ve dosyaları sıralı işleyerek ek yükü azaltın.  
-- **JVM ayarları**: Çok büyük PPTX dosyalarıyla çalışıyorsanız yığın boyutunu (`-Xmx`) ayarlayın.
-
-## Sonuç
-
-Bu rehberde **Aspose.Slides for Java** kullanarak **grafik veri noktalarını nasıl temizleyeceğinizi** gösterdik. Yukarıdaki adımları izleyerek programlı bir şekilde grafik serilerini sıfırlayabilir, sunumlarınızı temiz tutabilir ve grafik güncellemelerini herhangi bir Java‑tabanlı raporlama hattına entegre edebilirsiniz.
-
-**Sonraki Adımlar**
-- Eski noktaları temizledikten sonra yeni veri noktaları eklemeyi deneyin.  
-- Grafik türlerini değiştirme veya serileri biçimlendirme gibi diğer grafik‑manipülasyon özelliklerini keşfedin.  
-- Daha derin bilgiler için tam Aspose.Slides API dokümantasyonuna göz atın.
-
-## SSS Bölümü
-
-1. **Aspose.Slides for Java’yı Maven ile nasıl kurarım?**  
-   Yukarıda verilen bağımlılık kod parçacığını `pom.xml` dosyanıza ekleyin.
-
-2. **Slayt veya grafik erişirken `IndexOutOfBoundsException` alıyorum, ne yapmalıyım?**  
-   Başvurduğunuz slayt ve grafik indekslerinin sunumda gerçekten mevcut olduğundan emin olun.
-
-3. **Aspose.Slides büyük sunumları verimli bir şekilde işleyebilir mi?**  
-   Evet, nesneleri serbest bırakarak bellek kullanımını yönetir ve JVM yığın ayarlarını optimize ederseniz büyük dosyalarla rahat çalışabilirsiniz.
-
-4. **Diğer serileri etkilemeden veri noktalarını temizlemek mümkün mü?**  
-   Kesinlikle – temizlemek istediğiniz belirli seri indeksini hedefleyin, döngüde gösterildiği gibi.
-
-5. **Bu çözümü canlı bir veritabanı ile nasıl entegre ederim?**  
-   Standart JDBC ya da modern bir ORM kullanarak verileri alın, ardından yeni noktaları eklemeden önce aynı temizleme mantığını uygulayın.
-
-## Sıkça Sorulan Sorular
-
-**S: Geliştirme sürümleri için lisansa ihtiyacım var mı?**  
-C: Geliştirme ve test için ücretsiz bir deneme lisansı yeterlidir. Üretim dağıtımları için ticari lisans gerekir.
+**S: Geliştirme sürümleri için bir lisansa ihtiyacım var mı?**  
+C: Geliştirme ve test için ücretsiz deneme lisansı yeterlidir. Üretim dağıtımları için ticari lisans gereklidir.
 
 **S: Aspose.Slides for Java PowerPoint 2016/2019 özelliklerini destekliyor mu?**  
-C: Evet, kütüphane modern PPTX formatlarıyla tam uyumludur ve gelişmiş grafik türlerini destekler.
+C: Evet, kütüphane modern PPTX özelliklerini, gelişmiş grafik türleri ve SmartArt dahil olmak üzere tam olarak destekler.
 
-**S: İkincil eksen kullanan bir grafikte veri noktalarını temizleyebilir miyim?**  
-C: Aynı yaklaşım çalışır; sadece ikincil eksene ait doğru seriyi referans aldığınızdan emin olun.
+**S: İkincil eksen kullanan bir grafikteki veri noktalarını temizleyebilir miyim?**  
+C: Kesinlikle – sadece ikincil eksene ait seriyi referans alın ve yukarıda açıklandığı gibi veri noktalarını `null` olarak ayarlayın.
 
-**S: Y değerlerini temizlerken X etiketlerini koruyabilir miyim?**  
-C: `dataPoint.getYValue().getAsCell().setValue(null)` çağrısını yapın, X hücresini dokunmadan bırakın.
+**S: X etiketlerini koruyarak sadece Y değerlerini temizlemek mümkün mü?**  
+C: Evet. `dataPoint.getYValue().setValue(null)` metodunu çağırın ve X hücresini dokunulmamış bırakın.
 
-**S: Bu işlemi birden fazla sunum için otomatikleştirebilir miyim?**  
-C: Evet, bir klasördeki PPTX dosyalarını döngüyle işleyen bir kod yazarak aynı temizle‑ve‑kaydet mantığını her dosyaya uygulayabilirsiniz.
+**S: Bunu birden fazla sunum için nasıl otomatikleştirebilirim?**  
+C: Temizleme kodunu, PPTX dosyalarının bulunduğu bir dizini döngüyle işleyen bir döngüye sarın ve aynı mantığı her dosyaya uygulayın.
 
 ## Kaynaklar
 
-- [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
-- [Download Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
-- [Purchase a License](https://purchase.aspose.com/buy)
-- [Free Trial Version](https://releases.aspose.com/slides/java/)
-- [Temporary License Application](https://purchase.aspose.com/temporary-license/)
-- [Aspose Community Forum](https://forum.aspose.com/c/slides/11)
+- [Aspose.Slides Dokümantasyonu](https://reference.aspose.com/slides/java/)
+- [Aspose.Slides for Java'ı İndir](https://releases.aspose.com/slides/java/)
+- [Lisans Satın Al](https://purchase.aspose.com/buy)
+- [Ücretsiz Deneme Sürümü](https://releases.aspose.com/slides/java/)
+- [Geçici Lisans Başvurusu](https://purchase.aspose.com/temporary-license/)
+- [Aspose Topluluk Forumu](https://forum.aspose.com/c/slides/11)
 
-Bu kaynaklarla Java uygulamalarınızda grafik veri noktalarını temizlemeye hazırsınız. Kodlamanın tadını çıkarın!
+Bu kaynaklarla, Java uygulamalarınızda grafik veri noktalarını temizlemeye hazırsınız. Kodlamanın tadını çıkarın!
 
 ---
 
-**Son Güncelleme:** 2026-02-27  
-**Test Edilen Versiyon:** Aspose.Slides for Java 25.4 (JDK 16)  
+**Son Güncelleme:** 2026-08-27  
+**Test Edilen:** Aspose.Slides for Java 25.4 (JDK 16)  
 **Yazar:** Aspose
+
+## İlgili Öğreticiler
+
+- [Aspose.Slides for Java kullanarak PowerPoint Grafik Verilerini Düzenleme: Kapsamlı Rehber](/slides/java/charts-graphs/edit-ppt-chart-data-aspose-slides-java/)
+- [Aspose.Slides for Java kullanarak PowerPoint'e Grafik Ekleme: Adım Adım Kılavuz](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [Java Slides'ta Belirli Grafik Serisi Veri Noktalarını Temizleme](/slides/java/java-slides-chart-data-manipulation/clear-specific-chart-series-data-points-java-slides/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,58 +1,94 @@
 ---
-date: '2026-03-18'
-description: Узнайте, как создать сгруппированную столбчатую диаграмму в Java с помощью
-  Aspose.Slides, как добавить диаграмму, задать цвета и сохранить презентацию в формате
-  PPTX. Пошаговое руководство с примерами кода.
+date: '2026-08-27'
+description: Узнайте, как создать clustered column chart в Java с использованием Aspose.Slides,
+  добавить график, установить автоматические цвета серий и сохранить презентацию в
+  формате PPTX.
 keywords:
 - create clustered column chart
-- aspose slides java tutorial
-- clustered column chart java
-title: Как создать сгруппированную столбчатую диаграмму в Java с помощью Aspose.Slides
+- how to add chart
+- how to set colors
+- how to save pptx
+- maven aspose slides dependency
+lastmod: '2026-08-27'
+og_description: Узнайте, как создать clustered column chart в Java с использованием
+  Aspose.Slides, добавить график, установить автоматические цвета серий и сохранить
+  презентацию в формате PPTX — все с понятными пошаговыми инструкциями.
+og_image_alt: Guide showing Java code to create a clustered column chart with Aspose.Slides
+og_title: Создать clustered column chart в Java с Aspose.Slides
+schemas:
+- author: Aspose
+  dateModified: '2026-08-27'
+  description: Learn how to create clustered column chart in Java using Aspose.Slides,
+    add the chart, set automatic series colors, and save the presentation as PPTX.
+  headline: How to create clustered column chart in Java with Aspose.Slides
+  type: TechArticle
+- questions:
+  - answer: Yes—Aspose.Slides is platform‑agnostic and works in any Java‑based server
+      environment, including Spring Boot and Jakarta EE.
+    question: Can I use this code in a web application?
+  - answer: Absolutely. `ChartType` enum includes Pie, Bar, Line, Area, Radar, and
+      many more.
+    question: Does the library support other chart types?
+  - answer: Ensure the directory is created beforehand or use `Files.createDirectories(Paths.get(folder))`
+      to avoid `FileNotFoundException`.
+    question: What if the output folder does not exist?
+  - answer: Populate series using streaming APIs or batch inserts, and consider disabling
+      chart animation to improve rendering speed.
+    question: How do I handle large datasets (thousands of points)?
+  - answer: 'Visit the official documentation and sample repository: [Aspose.Slides
+      Documentation](https://reference.aspose.com/slides/java/).'
+    question: Where can I find more code samples?
+  type: FAQPage
+tags:
+- clustered column chart
+- Aspose.Slides
+- Java chart tutorial
+- PPTX generation
+title: Как создать clustered column chart в Java с Aspose.Slides
 url: /ru/java/charts-graphs/aspose-slides-java-clustered-column-charts/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Как создать сгруппированную столбчатую диаграмму в Java с помощью Aspose.Slides
+
+# Как создать сгруппированную столбчатую диаграмму в Java с Aspose.Slides
 
 ## Введение
-Создание визуально привлекательных представлений данных имеет решающее значение для эффективных бизнес‑презентаций, а изучение **как создать сгруппированную столбчатую диаграмму** программно может сэкономить часы ручной работы. В этом руководстве вы увидите **как добавить диаграмму**, автоматически **установить цвета**, и в конце **сохранить презентацию в формате PPTX** с помощью **Aspose.Slides for Java**. Мы пройдем всё необходимое — от настройки библиотеки до добавления диаграммы, настройки заливки серий и сохранения файла.
-
-### Что вы достигнете
-- Установить и настроить Aspose.Slides for Java  
-- **Создать сгруппированную столбчатую диаграмму** в новой презентации  
-- Автоматически применять цвета заливки серий (**how to set colors**)  
-- **Сохранить презентацию в формате PPTX** на диск (**how to save presentation**)  
-
-Давайте сначала разберёмся с предварительными требованиями, прежде чем начнём создавать диаграмму.
+Создание программно сгруппированной столбчатой диаграммы экономит часы ручного форматирования и гарантирует согласованность в нескольких презентациях. В этом руководстве вы узнаете **как создать сгруппированную столбчатую диаграмму** в Java с Aspose.Slides, **как добавить диаграмму**, **как задать цвета**, и **как сохранить презентацию в формате PPTX**. Мы охватим всё от установки библиотеки до настройки заливки серий и сохранения файла, чтобы вы могли встраивать богатые визуализации данных в любую презентацию PowerPoint.
 
 ## Быстрые ответы
-- **Какой основной класс?** `Presentation` из `com.aspose.slides`  
-- **Как добавить диаграмму?** Используйте `addChart(ChartType.ClusteredColumn, …)` в коллекции фигур слайда (**how to add chart**)  
-- **Можно ли автоматически задавать цвета?** Да, вызовите `setAutomaticSeriesColor(true)` для каждой серии (**how to set colors**)  
-- **Какой формат используется для сохранения?** `SaveFormat.Pptx` (PowerPoint) (**save presentation as pptx**)  
-- **Нужна ли лицензия?** Пробная версия подходит для тестирования; для продакшна требуется полная лицензия  
+- **Какой основной класс для работы с презентациями?** `Presentation` from the `com.aspose.slides` package.  
+- **Как добавить сгруппированную столбчатую диаграмму?** Call `slide.getShapes().addChart(ChartType.ClusteredColumn, x, y, width, height)`.  
+- **Можно ли автоматически задавать цвета серий?** Yes—enable `setAutomaticSeriesColor(true)` on each series.  
+- **Какой формат следует использовать для сохранения файла?** `SaveFormat.Pptx` produces a standard PowerPoint file.  
+- **Требуется ли лицензия для продакшн?** A trial works for development; a full license is needed for commercial use.
+
+## Что такое сгруппированная столбчатая диаграмма?
+Сгруппированная столбчатая диаграмма отображает несколько серий данных рядом друг с другом для каждой категории, что упрощает сравнение значений между группами. Aspose.Slides поддерживает этот тип диаграммы «из коробки» и позволяет программно управлять каждым визуальным аспектом.
+
+## Почему создавать сгруппированную столбчатую диаграмму с Aspose.Slides?
+Aspose.Slides может обрабатывать **более 50 форматов ввода и вывода** и работать с презентациями, содержащими **сотни слайдов**, без загрузки всего файла в память. Такая эффективность позволяет генерировать большие наборы слайдов в серверной среде с минимальными ресурсными затратами.
 
 ## Требования
-Прежде чем начать, убедитесь, что у вас есть необходимые инструменты и знания:
+- **Java Development Kit** 16 или новее.  
+- **Maven** или **Gradle** для управления зависимостями.  
+- Базовое знакомство с синтаксисом Java и объектно‑ориентированными концепциями.  
 
-### Необходимые библиотеки и зависимости
-Вам понадобится библиотека Aspose.Slides for Java. Убедитесь, что вы используете версию 25.4 с поддержкой JDK16.
+### Требуемые библиотеки и зависимости
+Вам понадобится библиотека Aspose.Slides for Java (версия 25.4 или новее). Библиотека полностью совместима с JDK 16 и предоставляет богатый API для работы с диаграммами.
 
-### Требования к настройке среды
-Ваша среда разработки должна поддерживать Java (желательно JDK16) и уметь собирать проекты с помощью Maven или Gradle.
+### Требования к настройке окружения
+Ваш IDE (IntelliJ IDEA, Eclipse, VS Code) должен быть настроен для компиляции кода Java 16 и разрешения зависимостей Maven/Gradle.
 
 ### Требования к знаниям
-Знание базового программирования на Java, работы с библиотеками через Maven/Gradle и понимание презентаций PowerPoint будет полезным.
+Понимание структуры слайдов PowerPoint и базовой терминологии диаграмм (серии, категории, точки данных) поможет быстрее освоить примеры.
 
 ## Настройка Aspose.Slides для Java
-Чтобы интегрировать Aspose.Slides в ваш проект, следуйте инструкциям ниже:
+Интегрируйте библиотеку в проект, используя один из следующих методов.
 
-**Maven**
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -60,74 +96,68 @@ weight: 1
     <version>25.4</version>
     <classifier>jdk16</classifier>
 </dependency>
-```
+```  
 
-**Gradle**
+**Gradle**  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
-```
+```  
 
-**Direct Download**  
-Для тех, кто предпочитает прямое скачивание, посетите [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+Прямое скачивание — получите JAR с официальной страницы релизов: [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 ### Шаги получения лицензии
-- **Free Trial**: Начните с бесплатной пробной версии, чтобы изучить возможности.  
-- **Temporary License**: Получите временную лицензию для тестирования без ограничений.  
-- **Purchase**: Для постоянного использования приобретите полную лицензию.
+- **Бесплатная пробная версия** — зарегистрируйтесь на сайте Aspose, чтобы получить временный файл лицензии.  
+- **Временная лицензия** — запросите 30‑дневную лицензию для более крупных тестовых наборов.  
+- **Полная лицензия** — покупка для неограниченного использования в продакшн.
 
-**Basic Initialization and Setup**  
-Инициализируйте Aspose.Slides следующим образом:
+**Базовая инициализация и настройка**  
 ```java
 import com.aspose.slides.Presentation;
 // Initialize the Presentation class
 Presentation presentation = new Presentation();
-```
+```  
 
-## Как добавить сгруппированную столбчатую диаграмму
-Добавление диаграммы — первый функциональный шаг. В этом разделе объясняется **как добавить диаграмму** с помощью API.
+## Как добавить сгруппированную столбчатую диаграмму?
+`Presentation` представляет файл PowerPoint в памяти.  
 
-### Функция 1: Создать сгруппированную столбчатую диаграмму
-Создадим сгруппированную столбчатую диаграмму с помощью Aspose.Slides for Java. Эта функция позволяет без усилий добавлять визуально привлекательные диаграммы в ваши слайды.
+**Прямой ответ:**  
+Создайте объект `Presentation`, который представляет файл PowerPoint в памяти, получите первый слайд и вызовите `slide.getShapes().addChart(ChartType.ClusteredColumn, 100, 50, 600, 400)`. Этот единственный вызов вставит полностью функциональную сгруппированную столбчатую диаграмму, готовую к заполнению данными, и разместит её в указанных координатах на слайде.
 
-#### Обзор
-В этом разделе мы инициализируем новую презентацию и вставим сгруппированную столбчатую диаграмму на первый слайд.
+### Функция 1: создание сгруппированной столбчатой диаграммы
+Класс `Presentation` представляет файл PowerPoint в памяти и предоставляет доступ к слайдам, фигурам и объектам диаграмм.
 
-**Step 1: Initialize Presentation**  
-Создайте объект `Presentation`, чтобы начать работу с файлами PowerPoint:
+**Шаг 1: инициализация презентации**  
 ```java
 import com.aspose.slides.Presentation;
 // Initialize a new Presentation object
 Presentation presentation = new Presentation();
-```
+```  
 
-**Step 2: Add Clustered Column Chart**  
-Добавьте диаграмму в указанные координаты (100, 50) и размеры (600 × 400):
+**Шаг 2: добавить сгруппированную столбчатую диаграмму**  
 ```java
 import com.aspose.slides.ChartType;
 import com.aspose.slides.IChart;
 IChart chart = presentation.getSlides().get_Item(0).getShapes()
                             .addChart(ChartType.ClusteredColumn, 100, 50, 600, 400);
-```
+```  
 
-**Step 3: Clean Up Resources**  
-Всегда освобождайте ресурсы, чтобы избежать утечек памяти:
+**Шаг 3: очистка ресурсов**  
 ```java
 finally {
     if (presentation != null) presentation.dispose();
 }
-```
+```  
 
-## Как задать цвета для диаграммы
-Повышайте визуальную привлекательность, автоматически применяя цвета заливки серий (**how to set colors**).
+## Как задать цвета для диаграммы?
+`Series` представляет коллекцию точек данных внутри диаграммы.  
 
-### Функция 2: Автоматически задавать цвет заливки серий
-Автоматически задавайте цвет каждой серии диаграммы для согласованного вида.
+**Прямой ответ:**  
+После создания диаграммы получите её данные через `chart.getChartData()` и пройдитесь по каждому объекту `Series`. Для каждой серии вызовите `setAutomaticSeriesColor(true)` у родительской серии. Aspose.Slides автоматически присвоит каждой серии отличительный контрастный цвет из своей палитры, обеспечивая визуальную чёткость без ручного выбора цветов.
 
-#### Обзор
-Автоматически задавайте цвет каждой серии диаграммы для согласованного вида.
+### Функция 2: автоматическая заливка серий цветом
+`IChart` — интерфейс, представляющий форму диаграммы; он предоставляет `getChartData()` для манипуляций с сериями.
 
-**Step 1: Access Chart and Iterate Series**  
-После создания диаграммы получите к ней доступ и пройдитесь по её сериям:
+**Шаг 1: доступ к диаграмме и перебор серий**  
 ```java
 import com.aspose.slides.IChart;
 IChart chart = presentation.getSlides().get_Item(0).getShapes()
@@ -136,86 +166,91 @@ IChart chart = presentation.getSlides().get_Item(0).getShapes()
 for (int i = 0; i < chart.getChartData().getSeries().size(); i++) {
     chart.getChartData().getSeries().get_Item(i).setAutomaticSeriesColor(true);
 }
-```
+```  
 
-**Step 2: Resource Management**  
-Освободите объект презентации после завершения работы:
+**Шаг 2: управление ресурсами**  
 ```java
 finally {
     if (presentation != null) presentation.dispose();
 }
-```
+```  
 
-## Как сохранить презентацию в формате PPTX
-Когда диаграмма выглядит отлично, вы захотите сохранить файл (**how to save presentation**).
+## Как сохранить презентацию в формате PPTX?
+`save` записывает презентацию в файл выбранного формата.  
 
-### Функция 3: Сохранить презентацию на диск
-Наконец, легко сохраните свою работу с помощью Aspose.Slides.
+**Прямой ответ:**  
+Укажите путь к выходному файлу, например `"output/ClusteredColumnChart.pptx"`, и вызовите `presentation.save(outputPath, SaveFormat.Pptx)`. Метод `save` сериализует весь набор слайдов, включая все фигуры, диаграммы и ресурсы, в стандартный файл PPTX, который можно открыть в PowerPoint 2010 и новее, а также во многих онлайн‑просмотрщиках.
 
-#### Обзор
-Сохраните отредактированные презентации в нужном формате и месте.
+### Функция 3: сохранение презентации на диск
+Сохранение с помощью `SaveFormat.Pptx` создаёт файл, совместимый с PowerPoint 2010 и более новыми версиями, а также большинством онлайн‑просмотрщиков.
 
-**Step 1: Define Output Path**  
-Укажите, куда сохранить файл:
+**Шаг 1: определить путь вывода**  
 ```java
 import com.aspose.slides.SaveFormat;
 String outputPath = "YOUR_OUTPUT_DIRECTORY/AutoFillSeries_out.pptx";
-```
+```  
 
-**Step 2: Save Presentation**  
-Вызовите метод `save` объекта `Presentation`:
+**Шаг 2: сохранить презентацию**  
 ```java
 presentation.save(outputPath, SaveFormat.Pptx);
-```
+```  
 
 ## Практические применения
-- **Financial Reports**: Визуализировать квартальные доходы с ясностью.  
-- **Marketing Data Analysis**: Демонстрировать результаты кампаний с помощью убедительных визуалов.  
-- **Project Management**: Визуально отслеживать вехи и прогресс на командных встречах.
+- **Финансовая отчетность** — сравнение квартального дохода по продуктовым линейкам.  
+- **Маркетинговая аналитика** — визуализация эффективности кампаний по регионам.  
+- **Управление проектами** — отображение скорости спринтов или распределения ресурсов по командам.  
 
 ## Соображения по производительности
-При работе с Aspose.Slides учитывайте следующие рекомендации:
-
-- Эффективно управляйте памятью, своевременно освобождая объекты `Presentation`.  
-- Оптимизируйте размер файлов при сохранении презентаций, чтобы экономить место на диске.  
-- Используйте эффективные структуры данных для серий диаграмм, чтобы повысить производительность.
+- Своевременно освобождайте объекты `Presentation`, чтобы освободить нативные ресурсы.  
+- Вызовите `presentation.getSlides().removeUnusedResources()` перед сохранением, чтобы уменьшить размер файла.  
+- Заполняйте серии диаграммы легковесными коллекциями (например, `ArrayList<Double>`), чтобы снизить потребление памяти.
 
 ## Заключение
-Поздравляем! Вы научились **создавать сгруппированную столбчатую диаграмму**, автоматически **задавать цвета** и **сохранять презентацию в формате PPTX** с помощью Aspose.Slides for Java. Этот навык не только улучшает ваши презентации, но и упрощает процесс визуального представления данных.
+Теперь вы знаете, как **создать сгруппированную столбчатую диаграмму**, автоматически **задать цвета** и **сохранить презентацию в формате PPTX** с помощью Aspose.Slides for Java. Эти шаги позволяют программно генерировать слайды с данными, устраняя повторяющуюся ручную работу и обеспечивая визуальную согласованность в вашей организации.
 
 **Следующие шаги:**  
-Изучите дополнительные возможности, такие как настройка элементов диаграммы, добавление меток данных или интеграция с внешними источниками данных, чтобы расширить возможности вашего проекта.
+Изучите расширенные настройки, такие как подписи данных, форматирование осей и динамическое привязывание данных из баз данных или CSV‑файлов, чтобы ещё больше обогатить ваши презентации.
 
-## Раздел FAQ
-1. **Как установить Aspose.Slides для конкретной версии JDK?**  
-   - Используйте зависимости Maven/Gradle, указывая `classifier`, как показано в разделе настройки.  
-2. **Что делать, если презентация не сохраняется корректно?**  
-   - Убедитесь, что у вас есть права записи в целевой каталог и путь к файлу указан правильно.  
-3. **Могу ли я создавать другие типы диаграмм с помощью Aspose.Slides for Java?**  
-   - Конечно! Исследуйте варианты `ChartType`, такие как Pie, Bar или Line.  
-4. **Как работать с большими наборами данных в диаграмме?**  
-   - Оптимизируйте структуры данных и рассмотрите предварительную обработку данных перед их визуализацией.  
-5. **Где найти больше примеров использования Aspose.Slides for Java?**  
-   - Посетите [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/) для подробных руководств и примеров кода.
+## Часто задаваемые вопросы
+**Q: Можно ли использовать этот код в веб‑приложении?**  
+A: Да — Aspose.Slides платформенно‑независим и работает в любой серверной среде на Java, включая Spring Boot и Jakarta EE.
+
+**Q: Поддерживает ли библиотека другие типы диаграмм?**  
+A: Абсолютно. Перечисление `ChartType` включает Pie, Bar, Line, Area, Radar и многие другие.
+
+**Q: Что делать, если папка вывода не существует?**  
+A: Убедитесь, что каталог создан заранее, или используйте `Files.createDirectories(Paths.get(folder))`, чтобы избежать `FileNotFoundException`.
+
+**Q: Как работать с большими наборами данных (тысячи точек)?**  
+A: Заполняйте серии, используя потоковые API или пакетные вставки, и рассмотрите возможность отключения анимации диаграммы для повышения скорости рендеринга.
+
+**Q: Где найти больше примеров кода?**  
+A: Посетите официальную документацию и репозиторий примеров: [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/).
 
 ## Ресурсы
-- **Documentation**: [Aspose.Slides Reference](https://reference.aspose.com/slides/java/)  
-- **Download**: [Get Aspose.Slides](https://releases.aspose.com/slides/java/)  
-- **Purchase**: [Buy a License](https://purchase.aspose.com/buy)  
-- **Free Trial**: [Start a Free Trial](https://releases.aspose.com/slides/java/)  
-- **Temporary License**: [Request Here](https://purchase.aspose.com/temporary-license/)  
-- **Support**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
+- **Документация:** [Документация Aspose.Slides](https://reference.aspose.com/slides/java/)  
+- **Справочник:** [Справочник Aspose.Slides](https://reference.aspose.com/slides/java/)  
+- **Скачать Aspose.Slides:** [Get Aspose.Slides](https://releases.aspose.com/slides/java/)  
+- **Купить лицензию:** [Buy a License](https://purchase.aspose.com/buy)  
+- **Начать бесплатный пробный период:** [Start a Free Trial](https://releases.aspose.com/slides/java/)  
+- **Запросить здесь:** [Request Here](https://purchase.aspose.com/temporary-license/)  
+- **Форум Aspose:** [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
 ---
 
-**Последнее обновление:** 2026-03-18  
-**Тестировано с:** Aspose.Slides 25.4 (JDK16)  
-**Автор:** Aspose  
+**Last Updated:** 2026-08-27  
+**Tested With:** Aspose.Slides 25.4 (JDK 16)  
+**Author:** Aspose
+
+## Связанные руководства
+
+- [Создать диаграмму PowerPoint Java — Сохранить презентации с диаграммами, используя Aspose.Slides](/slides/java/charts-graphs/aspose-slides-java-save-presentations-charts/)  
+- [Зависимость Maven Aspose Slides: добавить и настроить диаграммы в презентациях с помощью Aspose.Slides for Java](/slides/java/charts-graphs/add-charts-aspose-slides-java-guide/)  
+- [Добавить анимацию к диаграмме PowerPoint с Aspose.Slides for Java — пошаговое руководство](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
