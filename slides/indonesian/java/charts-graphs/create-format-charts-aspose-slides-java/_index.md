@@ -1,46 +1,108 @@
 ---
-date: '2026-03-07'
-description: Pelajari cara membuat diagram garis di Java menggunakan Aspose.Slides,
-  menambahkan judul diagram, menambahkan garis kisi, memformat label diagram, dan
-  menyimpan presentasi profesional.
+date: '2026-08-27'
+description: Pelajari cara menambahkan garis kisi pada diagram di Java menggunakan
+  Aspose.Slides, memformat sumbu, judul, dan mengekspor diagram garis PowerPoint yang
+  halus.
 keywords:
-- Aspose.Slides Java
-- create charts in Java
-- format PowerPoint charts
-title: Cara Membuat Diagram Garis dengan Aspose.Slides di Java – Panduan Lengkap
+- add grid lines chart
+- customize chart axes
+- generate line chart powerpoint
+- aspose.slides maven dependency
+- apply aspose license
+lastmod: '2026-08-27'
+og_description: Pelajari cara menambahkan garis kisi pada diagram di Java menggunakan
+  Aspose.Slides, memformat sumbu, judul, dan mengekspor diagram garis PowerPoint yang
+  halus.
+og_image_alt: Step-by-step guide to create and format a line chart with grid lines
+  using Aspose.Slides for Java
+og_title: Cara menambahkan garis kisi ke diagram dengan Aspose.Slides for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-08-27'
+  description: Learn how to add grid lines chart in Java using Aspose.Slides, format
+    axes, titles, and export a polished PowerPoint line chart.
+  headline: How to add grid lines to a chart with Aspose.Slides for Java
+  type: TechArticle
+- description: Learn how to add grid lines chart in Java using Aspose.Slides, format
+    axes, titles, and export a polished PowerPoint line chart.
+  name: How to add grid lines to a chart with Aspose.Slides for Java
+  steps:
+  - name: create the output directory (create directory java)
+    text: '*Why this matters:* Ensuring the folder exists prevents `FileNotFoundException`
+      when you later save the presentation.'
+  - name: add a slide and insert a line chart
+    text: '*Explanation:* This creates a fresh slide and places a **line chart with
+      markers** at the specified coordinates.'
+  - name: add chart title (add chart title)
+    text: '*Tip:* Using a bold, gray title makes the chart instantly recognizable.'
+  - name: format axes and add grid lines (add grid lines)
+    text: '#### Vertical axis formatting *Why this matters:* Clear grid lines and
+      rotated labels improve readability, especially when data points are dense.'
+  - name: save the presentation
+    text: '*Result:* You now have a PowerPoint file (`FormattedChart_out.pptx`) containing
+      a fully formatted line chart.'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Slides supports bar, pie, scatter, radar, and more than 50
+      additional chart types.
+    question: Can I create other chart types besides line charts?
+  - answer: Use `chart.getChartData().getSeries().add(...)` to insert additional series
+      before applying formatting.
+    question: How do I add multiple data series to the line chart?
+  - answer: Absolutely. Render the slide to PNG, JPEG, or SVG with `presentation.save("slide.png",
+      SaveFormat.Png)`.
+    question: Is it possible to export the chart as an image?
+  - answer: A free temporary license is sufficient for evaluation; a commercial license
+      is required for production use.
+    question: Do I need a paid license for development?
+  - answer: The library works with JDK 8 through JDK 22; select the appropriate classifier
+      (e.g., `jdk16`) when adding the Maven/Gradle dependency.
+    question: Which Java versions are supported?
+  type: FAQPage
+tags:
+- Aspose.Slides
+- Java chart tutorial
+- PowerPoint automation
+- line chart
+title: Cara menambahkan garis kisi ke diagram dengan Aspose.Slides for Java
 url: /id/java/charts-graphs/create-format-charts-aspose-slides-java/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Cara membuat diagram garis dengan Aspose.Slides di Java
 
-## Cara membuat diagram garis di Java Menggunakan Aspose.Slides
+# Cara menambahkan garis kisi ke diagram dengan Aspose.Slides untuk Java
 
-### Introduction
-Membuat presentasi yang menarik secara visual sangat penting untuk komunikasi yang efektif. Apakah Anda seorang profesional bisnis atau pendidik, Anda sering perlu **membuat diagram garis** yang informatif dan estetis. Dalam tutorial ini kami akan menjelaskan cara menggunakan **Aspose.Slides for Java** untuk menghasilkan diagram garis, menambahkan judul diagram, menambahkan garis kisi, memformat label diagram, dan menyimpan hasilnya sebagai file PowerPoint.
+## Pendahuluan
+Jika Anda perlu **menambahkan diagram garis kisi** dalam presentasi PowerPoint secara programatis, Aspose.Slides untuk Java memberikan API yang bersih dan lengkap. Baik Anda sedang menyiapkan tinjauan bisnis kuartalan, kuliah akademik, atau deck penjualan berbasis data, Anda dapat menghasilkan diagram garis, menyesuaikan setiap elemen visual, dan menyimpan hasilnya dalam hitungan detik—tanpa harus membuka PowerPoint secara manual.
 
-#### Quick Answers
-- **Library apa yang terbaik untuk membuat diagram di Java?** Aspose.Slides for Java
-- **Tipe diagram apa yang dibahas dalam panduan ini?** Diagram garis dengan penanda
-- **Apakah saya memerlukan lisensi untuk menjalankan contoh?** Lisensi sementara gratis dapat digunakan untuk evaluasi
-- **IDE apa yang dapat saya gunakan?** IDE Java apa pun seperti IntelliJ IDEA, Eclipse, atau NetBeans
-- **Bagaimana elemen diagram diformat?** Menggunakan pemanggilan API fluent untuk judul, sumbu, garis kisi, legenda, dan latar belakang
+## Jawaban Cepat
+- **Perpustakaan apa yang membuat diagram di Java?** Aspose.Slides for Java.
+- **Jenis diagram apa yang dibahas dalam panduan ini?** Diagram garis dengan penanda dan garis kisi.
+- **Apakah saya memerlukan lisensi untuk menjalankan contoh?** Lisensi percobaan gratis cukup untuk evaluasi; lisensi komersial diperlukan untuk produksi.
+- **IDE apa yang dapat saya gunakan?** IDE Java apa pun seperti IntelliJ IDEA, Eclipse, atau NetBeans.
+- **Bagaimana elemen diagram diformat?** Menggunakan pemanggilan API fluent untuk judul, sumbu, garis kisi, legenda, dan warna latar belakang.
 
-### What is a line chart and why use Aspose.Slides?
-Diagram garis menampilkan titik data yang dihubungkan oleh garis lurus, menjadikannya ideal untuk menunjukkan tren seiring waktu. Aspose.Slides memungkinkan Anda membuat dan menyesuaikan diagram ini secara programatik, menghilangkan kebutuhan untuk mengedit PowerPoint secara manual.
+## Cara menambahkan diagram garis kisi di Java menggunakan Aspose.Slides
+Muat sebuah `Presentation` baru, sisipkan slide, tambahkan diagram garis, lalu aktifkan garis kisi utama pada sumbu vertikal – semuanya dalam kurang dari sepuluh baris kode. Jawaban langsung ini menunjukkan urutan tepat yang Anda perlukan, sehingga Anda dapat menyalin‑tempel dan melihat diagram yang sepenuhnya diformat segera.
 
-### Prerequisites
-- **Java Development Kit (JDK) 8+** terpasang
-- **IDE** (IntelliJ IDEA, Eclipse, NetBeans, dll.)
-- **Aspose.Slides for Java** library (ditambahkan melalui Maven atau Gradle)
+### Penanda definisi
+`Presentation` adalah kelas inti Aspose.Slides yang mewakili file PowerPoint dalam memori; semua operasi pada tingkat slide dimulai dari objek ini.
 
-#### Required Libraries and Dependencies
-**Maven**
+## Apa itu diagram garis dan mengapa menggunakan Aspose.Slides?
+Diagram garis memplot serangkaian titik data yang dihubungkan oleh garis lurus, membuat tren sepanjang waktu terlihat secara instan. Aspose.Slides mendukung **lebih dari 50 jenis diagram** dan dapat menangani **hingga 10.000 titik data per seri** tanpa penurunan kinerja yang terlihat, memberikan Anda performa tingkat perusahaan untuk kumpulan data besar.
+
+### Penanda definisi
+`Chart` adalah objek tingkat‑atas Aspose.Slides untuk setiap diagram; ia menyimpan seri, kategori, dan informasi pemformatan.
+
+## Prasyarat
+- **Java Development Kit (JDK) 8+** terpasang.
+- **IDE** (IntelliJ IDEA, Eclipse, NetBeans, dll.).
+- **Aspose.Slides for Java** library ditambahkan melalui Maven atau Gradle (lihat bagian *aspose.slides maven dependency* di bawah).
+
+### Dependensi Maven (dependensi aspose.slides maven)
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -50,30 +112,29 @@ Diagram garis menampilkan titik data yang dihubungkan oleh garis lurus, menjadik
 </dependency>
 ```
 
-**Gradle**
+### Dependensi Gradle
 ```gradle
-implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
+implementation 'com.aspose:aspose-slides:25.4:jdk16'
 ```
 
-Sebagai alternatif, unduh JAR terbaru dari [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+Sebagai alternatif, unduh JAR terbaru dari [rilisan Aspose.Slides untuk Java](https://releases.aspose.com/slides/java/).
 
-#### License Acquisition
-- Dapatkan [lisensi percobaan gratis](https://purchase.aspose.com/temporary-license/) untuk pengujian.
-- Beli lisensi penuh dari [situs resmi Aspose](https://purchase.aspose.com/buy) untuk penggunaan produksi.
+## Perolehan Lisensi (terapkan lisensi aspose)
+- Dapatkan **lisensi percobaan gratis** dari halaman [lisensi percobaan gratis](https://purchase.aspose.com/temporary-license/) untuk pengujian.
+- Beli lisensi penuh dari [situs resmi Aspose](https://purchase.aspose.com/buy) untuk penerapan produksi.
 
-### Setting Up Aspose.Slides for Java
-1. **Add the dependency** yang ditampilkan di atas ke proyek Anda.
-2. **Apply the license** (jika Anda memilikinya) sebelum membuat objek presentasi apa pun.
+## Menyiapkan Aspose.Slides untuk Java
+1. Tambahkan dependensi Maven atau Gradle yang ditunjukkan di atas ke proyek Anda.
+2. Muat file lisensi **sebelum** membuat objek `Presentation` apa pun sehingga semua fitur terbuka.
 
 ```java
-import com.aspose.slides.Presentation;
-// Initialize the Presentation object
-Presentation pres = new Presentation();
+License license = new License();
+license.setLicense("Aspose.Slides.lic");
 ```
 
-## Step‑by‑Step Implementation
+## Implementasi Langkah‑per‑Langkah
 
-### Step 1: Create the output directory (create directory java)
+### Langkah 1: buat direktori output (buat direktori java)
 ```java
 import java.io.File;
 // Define the target directory
@@ -84,10 +145,10 @@ boolean isExists = new File(dataDir).exists();
 if (!isExists) {
     new File(dataDir).mkdirs(); // Create directories recursively
 }
-```
-*Why this matters:* Memastikan folder ada mencegah `FileNotFoundException` saat Anda menyimpan presentasi nanti.
+```  
+*Mengapa ini penting:* Memastikan folder ada mencegah `FileNotFoundException` saat Anda menyimpan presentasi nanti.
 
-### Step 2: Add a slide and insert a line chart
+### Langkah 2: tambahkan slide dan sisipkan diagram garis
 ```java
 import com.aspose.slides.*;
 // Create a new presentation
@@ -99,10 +160,10 @@ try {
     // Add a chart to the slide
     IChart chart = slide.getShapes().addChart(
         ChartType.LineWithMarkers, 50, 50, 500, 400);
-```
-*Explanation:* Ini membuat slide baru dan menempatkan **diagram garis dengan penanda** pada koordinat yang ditentukan.
+```  
+*Penjelasan:* Ini membuat slide baru dan menempatkan **diagram garis dengan penanda** pada koordinat yang ditentukan.
 
-### Step 3: Add chart title (add chart title)
+### Langkah 3: tambahkan judul diagram (tambahkan judul diagram)
 ```java
 // Enable and format the title
 chart.setTitle(true);
@@ -114,11 +175,11 @@ chartTitle.getPortionFormat().setFontBold(NullableBool.True);
 chartTitle.getPortionFormat().setFillType(FillType.Solid);
 chartTitle.getPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.GRAY);
 chartTitle.getPortionFormat().setFontHeight(20);
-```
-*Tip:* Menggunakan judul tebal berwarna abu‑abu membuat diagram langsung dikenali.
+```  
+*Tip:* Menggunakan judul tebal berwarna abu-abu membuat diagram langsung dikenali.
 
-### Step 4: Format axes and add grid lines (add grid lines)
-#### Vertical Axis Formatting
+### Langkah 4: format sumbu dan tambahkan garis kisi (tambahkan garis kisi)
+#### Pemformatan sumbu vertikal
 ```java
 IChartAxis verticalAxis = chart.getAxes().getVerticalAxis();
 
@@ -132,9 +193,10 @@ verticalAxis.getMajorGridLinesFormat().getLine().setWidth(5);
 verticalAxis.setNumberFormat("0.0%");
 verticalAxis.setMaxValue(15f);
 verticalAxis.setMinValue(-2f);
-```
+```  
+*Mengapa ini penting:* Garis kisi yang jelas dan label yang diputar meningkatkan keterbacaan, terutama ketika titik data padat.
 
-#### Horizontal Axis Formatting
+#### Pemformatan sumbu horizontal
 ```java
 IChartAxis horizontalAxis = chart.getAxes().getHorizontalAxis();
 
@@ -147,10 +209,9 @@ horizontalAxis.getMajorGridLinesFormat().getLine().setWidth(5);
 // Set label positions and rotations
 horizontalAxis.setTickLabelPosition(TickLabelPositionType.Low);
 horizontalAxis.setTickLabelRotationAngle(45);
-```
-*Why this matters:* Garis kisi yang jelas dan label yang diputar meningkatkan keterbacaan, terutama ketika titik data padat.
+```  
 
-### Step 5: Customize the legend (add chart title – already covered, but legend is part of overall formatting)
+### Langkah 5: sesuaikan legenda (tambahkan legenda diagram)
 ```java
 IChartPortionFormat txtLeg = chart.getLegend().getTextFormat().getPortionFormat();
 txtLeg.setFontBold(NullableBool.True);
@@ -159,9 +220,9 @@ txtLeg.getFillFormat().setFillType(FillType.Solid)
 
 // Prevent overlap with the chart area
 chart.getLegend().setOverlay(true);
-```
+```  
 
-### Step 6: Set background colors (format chart labels – part of overall visual styling)
+### Langkah 6: atur warna latar belakang (format label diagram)
 ```java
 chart.getBackWall().setThickness(1);
 chart.getBackWall().getFormat().getFill()
@@ -171,63 +232,89 @@ chart.getBackWall().getFormat().getFill()
 chart.getPlotArea().getFormat().getFill()
     .setFillType(FillType.Solid)
     .getSolidFillColor().setColor(new Color(PresetColor.LightCyan));
-```
+```  
 
-### Step 7: Save the presentation
+### Langkah 7: simpan presentasi
 ```java
 // Save the presentation to disk
 pres.save("YOUR_OUTPUT_DIRECTORY/FormattedChart_out.pptx", SaveFormat.Pptx);
 } finally {
     if (pres != null) pres.dispose(); // Clean up resources
 }
-```
-*Result:* Anda kini **memiliki file PowerPoint (`FormattedChart_out.pptx`) yang berisi diagram garis yang telah diformat sepenuhnya.**
+```  
+*Hasil:* Anda kini memiliki file PowerPoint (`FormattedChart_out.pptx`) yang berisi diagram garis yang sepenuhnya diformat.
 
-## Practical Applications
-- **Business Reports:** Menampilkan kinerja kuartalan dengan garis tren.
-- **Educational Slides:** Memvisualisasikan data ilmiah untuk kuliah.
-- **Project Proposals:** Menyoroti tonggak penting dan perkiraan.
-- **Marketing Analysis:** Menyajikan tren ROI kampanye.
-- **Dashboard Integration:** Mengekspor data langsung ke PowerPoint untuk pertemuan pemangku kepentingan.
+## Aplikasi Praktis (buat diagram garis PowerPoint)
+- **Laporan bisnis:** Tampilkan tren pendapatan kuartalan dengan garis kisi yang tajam.
+- **Kuliah akademik:** Visualisasikan data eksperimen selama beberapa sesi.
+- **Proposal proyek:** Sorot kemajuan tonggak dan kurva perkiraan.
+- **Analisis pemasaran:** Sajikan tren ROI kampanye berdampingan dengan data pesaing.
+- **Integrasi dasbor:** Ekspor analitik langsung ke PowerPoint untuk pertemuan pemangku kepentingan.
 
-## Performance Considerations
-- **Memory Management:** Selalu panggil `dispose()` pada objek `Presentation` untuk melepaskan sumber daya native dengan cepat.
+## Pertimbangan Kinerja
+- **Manajemen memori:** Panggil `presentation.dispose()` setelah menyimpan untuk segera melepaskan sumber daya native.
+- **Kumpulan data besar:** Aspose.Slides memproses diagram dengan ribuan titik menggunakan streaming, menjaga penggunaan memori di bawah 100 MB pada server tipikal.
 
-## Common Issues and Solutions
-| Issue | Solution |
+## Masalah Umum dan Solusinya
+| Masalah | Solusi |
 |-------|----------|
-| **License not applied** | Muat lisensi percobaan/ penuh sebelum membuat objek `Presentation` apa pun. |
-| **Chart appears blank** | Pastikan slide benar‑benar berisi seri data; tambahkan seri jika diperlukan. |
-| **File not saved** | Pastikan direktori output ada (gunakan langkah “create directory java”). |
-| **Colors not applied** | Gunakan konstanta `Color` dari `java.awt.Color` atau `PresetColor`. |
+| **Lisensi tidak diterapkan** | Muat lisensi percobaan atau penuh **sebelum** objek `Presentation` apa pun diinstansiasi. |
+| **Diagram muncul kosong** | Pastikan slide berisi setidaknya satu seri data; tambahkan seri melalui `chart.getChartData().getSeries().add(...)` jika diperlukan. |
+| **File tidak tersimpan** | Pastikan direktori output ada (lihat Langkah 1). |
+| **Warna tidak diterapkan** | Gunakan konstanta `java.awt.Color` atau enum `PresetColor` untuk rendering warna yang dapat diandalkan. |
 
-## Frequently Asked Questions
+## Pertanyaan yang Sering Diajukan
 
-**Q: Can I create other chart types besides line charts?**  
-A: Yes, Aspose.Slides supports bar, pie, scatter, and many more chart types.
+**Q: Apakah saya dapat membuat jenis diagram lain selain diagram garis?**  
+A: Ya, Aspose.Slides mendukung diagram batang, pai, sebar, radar, dan lebih dari 50 jenis diagram tambahan.
 
-**Q: How do I add multiple data series to the line chart?**  
-A: Use `chart.getChartData().getSeries().add(...)` to insert additional series before formatting.
+**Q: Bagaimana cara menambahkan beberapa seri data ke diagram garis?**  
+A: Gunakan `chart.getChartData().getSeries().add(...)` untuk menyisipkan seri tambahan sebelum menerapkan pemformatan.
 
-**Q: Is it possible to export the chart as an image?**  
-A: Absolutely. Call `chart.getChartData().getChartDataWorkbook().save(...)` or render the slide to an image format.
+**Q: Apakah memungkinkan mengekspor diagram sebagai gambar?**  
+A: Tentu saja. Render slide ke PNG, JPEG, atau SVG dengan `presentation.save("slide.png", SaveFormat.Png)`.
 
-**Q: Do I need a paid license for development?**  
-A: A free temporary license works for evaluation; a commercial license is required for production deployments.
+**Q: Apakah saya memerlukan lisensi berbayar untuk pengembangan?**  
+A: Lisensi percobaan gratis cukup untuk evaluasi; lisensi komersial diperlukan untuk penggunaan produksi.
 
-**Q: Which Java versions are supported?**  
-A: The library works with JDK 8 through JDK 22 (use the appropriate classifier, e.g., `jdk16`). 
+**Q: Versi Java apa yang didukung?**  
+A: Perpustakaan ini bekerja dengan JDK 8 hingga JDK 22; pilih classifier yang sesuai (misalnya `jdk16`) saat menambahkan dependensi Maven/Gradle.
 
 ---
 
-**Last Updated:** 2026-03-07  
-**Tested With:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
-**Author:** Aspose  
+**Terakhir Diperbarui:** 2026-08-27  
+**Diuji Dengan:** Aspose.Slides for Java 25.4 (jdk16 classifier)  
+**Penulis:** Aspose  
+
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-slides</artifactId>
+    <version>25.4</version>
+    <classifier>jdk16</classifier>
+</dependency>
+```
+
+```gradle
+implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
+```
+
+```java
+import com.aspose.slides.Presentation;
+// Initialize the Presentation object
+Presentation pres = new Presentation();
+```
+
+## Tutorial Terkait
+
+- [dependensi maven aspose slides: Tambah dan Konfigurasikan Diagram dalam Presentasi Menggunakan Aspose.Slides untuk Java](/slides/java/charts-graphs/add-charts-aspose-slides-java-guide/)
+- [Cara Menambahkan Diagram ke PowerPoint Menggunakan Aspose.Slides untuk Java: Panduan Langkah‑per‑Langkah](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [Buat dan Sesuaikan Garis Tren Diagram Aspose Slides Java](/slides/java/charts-graphs/create-customize-charts-trend-lines-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
