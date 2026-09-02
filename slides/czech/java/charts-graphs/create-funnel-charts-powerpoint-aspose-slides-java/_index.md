@@ -1,54 +1,100 @@
 ---
-date: '2026-03-18'
-description: Naučte se vizualizaci dat v Javě vytvářením trychtýřových grafů v PowerPointu
-  pomocí Aspose.Slides pro Java. Tento krok‑za‑krokem průvodce ukazuje, jak vytvořit
-  trychtýřové grafy, nastavit data grafu a přizpůsobit barvy.
+date: '2026-09-02'
+description: Naučte se, jak vytvořit funnel chart v PowerPointu pomocí Aspose.Slides
+  for Java. Tento krok‑za‑krokem průvodce pokrývá nastavení dat grafu, přizpůsobení
+  barev a export prezentace.
 keywords:
-- funnel chart creation
-- Aspose.Slides for Java
-- PowerPoint data visualization
-title: java vizualizace dat – trychtýřové grafy s Aspose.Slides
+- create funnel chart
+- export powerpoint presentation
+- how to create funnel
+- how to customize colors
+- java data visualization
+lastmod: '2026-09-02'
+og_description: Naučte se, jak vytvořit funnel chart v PowerPointu pomocí Aspose.Slides
+  for Java. Tento průvodce vás provede nastavením dat, přizpůsobením barev a exportem
+  finální prezentace.
+og_image_alt: Guide showing funnel chart creation in PowerPoint with Aspose.Slides
+  for Java
+og_title: Vytvořte funnel chart v PowerPointu s Aspose.Slides for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-02'
+  description: Learn how to create funnel chart in PowerPoint using Aspose.Slides
+    for Java. This step‑by‑step guide covers setting chart data, customizing colors,
+    and exporting the presentation.
+  headline: Create funnel chart in PowerPoint with Aspose.Slides for Java
+  type: TechArticle
+- description: Learn how to create funnel chart in PowerPoint using Aspose.Slides
+    for Java. This step‑by‑step guide covers setting chart data, customizing colors,
+    and exporting the presentation.
+  name: Create funnel chart in PowerPoint with Aspose.Slides for Java
+  steps:
+  - name: '**Add the dependency** – Use the Maven or Gradle snippet above.'
+    text: '**Add the dependency** – Use the Maven or Gradle snippet above.'
+  - name: '**Obtain a license** –'
+    text: '**Obtain a license** –'
+  - name: '**Basic initialization** –'
+    text: '**Basic initialization** –'
+  type: HowTo
+- questions:
+  - answer: Set the `ChartOrientation` property on the `IChart` object to `ChartOrientation.Vertical`
+      or `ChartOrientation.Horizontal`.
+    question: How do I change the funnel chart’s orientation?
+  - answer: Yes—call `pres.getSlides().get_Item(0).getThumbnail(1, 1)` and write the
+      resulting `java.awt.image.BufferedImage` to a PNG or JPEG file.
+    question: Can I export the slide as an image after adding the chart?
+  - answer: Simply add additional categories using `chart.getChartData().getCategories().add(...)`
+      and provide matching data points for each new category.
+    question: What if I need more than three categories?
+  - answer: Use `chart.getChartTitle().setVisible(false)` and `chart.getLegend().setVisible(false)`
+      to remove both the title and legend from the visual.
+    question: Is there a way to hide the legend?
+  - answer: A temporary license is sufficient for evaluation; a full commercial license
+      is required for production deployments.
+    question: Do I need a license for development builds?
+  type: FAQPage
+tags:
+- funnel chart
+- Aspose.Slides
+- Java data visualization
+title: Vytvořte funnel chart v PowerPointu s Aspose.Slides for Java
 url: /cs/java/charts-graphs/create-funnel-charts-powerpoint-aspose-slides-java/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Mistrovství tvorby trychového grafu v PowerPointu s Aspose.Slides pro Java
+
+# Ovládání tvorby trychového grafu v PowerPointu s Aspose.Slides pro Java
 
 ## Úvod
-Vytváření poutavých prezentací je umění, které spojuje vizualizaci dat, design a vyprávění příběhů. Jedním z výkonných nástrojů, jak své prezentace vylepšit, je trychový graf — vizuální znázornění fází v procesu nebo prodejním kanálu. Ať už prezentujete obchodní zprávy, projektové časové osy nebo prodejní strategie, začlenění trychových grafů může proměnit surová data ve smysluplné příběhy.
+Vytváření působivých prezentací je umění, které spojuje vizualizaci dat, design a vyprávění příběhů. Jedním silným vizuálem, který okamžitě objasňuje vícefázový proces, je trychový graf. Ať už potřebujete ilustrovat prodejní pipeline, konverzní tok nebo úzké místo ve výrobě, dobře navržený trychový graf promění surová čísla v intuitivní příběh. V tomto tutoriálu se naučíte, jak **vytvořit trychový graf** v PowerPointu programově pomocí Aspose.Slides pro Java, nakonfigurovat jeho data, přizpůsobit barvu každého segmentu a exportovat hotovou prezentaci.
 
-V tomto tutoriálu se podíváme, jak vytvořit a přizpůsobit trychové grafy v PowerPointu pomocí Aspose.Slides pro Java. Naučíte se krok za krokem nastavit prostředí, přidat trychový graf na snímek, nakonfigurovat jeho data a snadno uložit prezentaci. Na konci tohoto průvodce budete připraveni obohatit své prezentace o profesionální vizuály.
-
-**Co se naučíte:**
-- Nastavení Aspose.Slides pro Java ve vašem projektu
-- Vytvoření instance PowerPointové prezentace
-- Přidání a přizpůsobení trychových grafů na snímcích
-- Efektivní správa dat grafu
-- Ukládání a export vylepšených prezentací
+**Co se naučíte**
+- Jak přidat Aspose.Slides pro Java do projektu Maven nebo Gradle
+- Jak vytvořit objekt `Presentation` a získat přístup k jeho snímkům
+- Jak vložit trychový graf, definovat kategorie a naplnit data řad
+- Jak stylovat každý výsek trychového grafu pomocí plných výplní nebo specifických firemních barev
+- Jak uložit prezentaci jako soubor PPTX nebo exportovat snímek jako obrázek
 
 ## Rychlé odpovědi
-- **Jaká je hlavní knihovna pro vizualizaci dat v Javě?** Aspose.Slides pro Java.  
-- **Jak vytvořit trychový graf v PowerPointu?** Použijte `addChart(ChartType.Funnel, …)` na snímku.  
-- **Která metoda nastavuje zdroj dat grafu?** Pracujte s `IChartDataWorkbook` a `chart.getChartData()`.  
-- **Mohu přizpůsobit barvy jednotlivých segmentů trychového grafu?** Ano, nastavte `FillType.Solid` a přiřaďte náhodnou nebo konkrétní `java.awt.Color`.  
-- **Potřebuji licenci pro produkční použití?** Pro komerční nasazení je vyžadována zakoupená licence Aspose.Slides.
+- **Jaká je hlavní knihovna pro vizualizaci dat v Javě?** Aspose.Slides for Java.  
+- **Jak vytvořit trychový graf v PowerPointu?** Zavolejte `slide.addChart(ChartType.Funnel, …)` na cílovém snímku.  
+- **Které API nastavuje zdroj dat grafu?** Použijte `IChartDataWorkbook` spolu s `chart.getChartData()`.  
+- **Můžete přizpůsobit barvy pro každý segment trychového grafu?** Ano—nastavte `FillFormat.setFillType(FillType.Solid)` a přiřaďte `java.awt.Color`.  
+- **Potřebujete licenci pro produkční použití?** Pro komerční nasazení je vyžadována zakoupená licence Aspose.Slides.
 
-## Co je vizualizace dat v Javě?
-Vizualizace dat v Javě označuje techniky a knihovny, které vývojářům umožňují převést surová data na přehledná, interaktivní nebo statická vizuální zobrazení přímo z Java aplikací. Aspose.Slides pro Java je přední knihovna pro programové vytváření grafů, diagramů a bohatých prezentací.
+## Co je vizualizace dat v Javě?
+Vizualizace dat v Javě je praxe převádění surových dat na grafy, diagramy nebo interaktivní grafiku přímo z Java aplikací. Aspose.Slides pro Java je přední knihovna, která umožňuje vývojářům generovat více než 100 typů grafů – včetně trychových grafů – bez nutnosti ručního spouštění PowerPointu, podporuje prezentace až do 500 snímků a přitom udržuje nízkou spotřebu paměti.
 
-## Proč používat trychové grafy v PowerPointu?
-Trychové grafy usnadňují znázornění úbytku mezi jednotlivými fázemi — ideální pro prodejní kanály, konverzní trychy nebo analýzu efektivity procesů. S Aspose.Slides získáte plnou kontrolu nad rozvržením, barvami i daty, aniž byste museli ručně otevírat PowerPoint.
+## Proč používat trychové grafy v PowerPointu?
+Trychové grafy okamžitě odhalují míru úbytku napříč sekvenčními fázemi, což je činí ideálními pro prodejní pipeline, analýzu konverzí nebo revize efektivity procesů. Aspose.Slides vám poskytuje pixelově přesnou kontrolu nad rozvržením, barvami segmentů a popisky dat, takže můžete zachovat konzistenci značky a vyhnout se ručnímu úsilí při úpravě grafů v uživatelském rozhraní PowerPointu.
 
 ## Požadavky (H2)
-Než začneme, ujistěte se, že máte potřebné nástroje a znalosti pro sledování tohoto tutoriálu.
 
 ### Požadované knihovny, verze a závislosti
-Pro implementaci Aspose.Slides pro Java ve vašem projektu potřebujete konkrétní verze knihoven. Zde je návod, jak nastavit prostředí pomocí Maven nebo Gradle:
+Pro implementaci Aspose.Slides pro Java ve vašem projektu zahrňte odpovídající Maven nebo Gradle koordináty. Knihovna funguje s Java 8‑21 a nevyžaduje žádné externí nativní závislosti.
 
 **Maven:**
 
@@ -67,25 +113,25 @@ Pro implementaci Aspose.Slides pro Java ve vašem projektu potřebujete konkrét
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Alternativně můžete knihovnu stáhnout přímo z [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+JAR můžete také stáhnout přímo z [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 ### Požadavky na nastavení prostředí
-Ujistěte se, že vývojové prostředí používá JDK 1.6 nebo novější, protože Aspose.Slides vyžaduje tuto verzi pro kompatibilitu.
+Ujistěte se, že máte nainstalovaný JDK 8 nebo novější a že vaše proměnná `JAVA_HOME` ukazuje na správný adresář JDK. Aspose.Slides běží na jakémkoli OS, který podporuje JDK, včetně Windows, macOS a Linuxu.
 
 ### Předpoklady znalostí
-Základní znalost programování v Javě a základních principů návrhu prezentací bude výhodou, ale není nutná, protože vše podrobně vysvětlíme krok za krokem.
+Základní znalost syntaxe Javy, objektově orientovaného programování a konceptu souboru prezentace pomůže, ale úryvky kódu jsou plně vysvětleny pro vývojáře jakékoli úrovně zkušeností.
 
 ## Nastavení Aspose.Slides pro Java (H2)
-Chcete‑li začít používat Aspose.Slides ve svém projektu, postupujte podle následujících kroků:
 
-1. **Přidání závislosti**: Použijte Maven nebo Gradle k zahrnutí Aspose.Slides, jak je uvedeno výše.  
-2. **Získání licence**:
-   - **Bezplatná zkušební verze**: Stáhněte si dočasnou licenci z [Aspose's website](https://purchase.aspose.com/temporary-license/) pro evaluační účely.  
-   - **Koupě**: Pro produkční použití zakupte licenci prostřednictvím [purchase page](https://purchase.aspose.com/buy).  
-3. **Základní inicializace**:
-   Vytvořte novou třídu v Javě a inicializujte objekt prezentace:
+1. **Přidejte závislost** – Použijte výše uvedený Maven nebo Gradle úryvek.  
+2. **Získejte licenci** –  
+   - **Free trial** – Stáhněte si dočasnou licenci z [Aspose's website](https://purchase.aspose.com/temporary-license/) pro hodnocení.  
+   - **Full license** – Zakupte produkční licenci prostřednictvím [purchase page](https://purchase.aspose.com/buy).  
+3. **Základní inicializace** –  
 
-   ```java
+`Presentation` je jádrová třída Aspose.Slides, která představuje soubor PowerPoint v paměti. Poskytuje přístup ke snímkům, tvarům a objektům grafů.
+
+```java
    import com.aspose.slides.Presentation;
    
    public class FunnelChartDemo {
@@ -100,15 +146,18 @@ Chcete‑li začít používat Aspose.Slides ve svém projektu, postupujte podle
    }
    ```
 
-Toto nastavení vám umožní vytvářet a upravovat prezentace pomocí Aspose.Slides.
+Výše uvedený kód vytvoří novou instanci `Presentation`, připravenou pro manipulaci se snímky, a zajišťuje uvolnění prostředků pomocí `dispose()`.
 
 ## Průvodce implementací
-Rozdělíme implementaci na jednotlivé funkce, z nichž každá se zaměřuje na konkrétní aspekt tvorby trychového grafu v PowerPointu.
 
-### Funkce 1: Vytvoření prezentace (H2)
+Projdeme každou funkci potřebnou k vytvoření kompletního trychového grafu a přidáme krátký vysvětlující text před každý zástupný kód.
+
+### Funkce 1: vytvoření prezentace (H2)
 
 #### Přehled
-Začněte vytvořením instance třídy `Presentation`. Tento objekt představuje váš PowerPointový soubor a umožňuje provádět různé operace.
+Začněte vytvořením instance třídy `Presentation`. Tento objekt je vstupním bodem pro všechny následné operace.
+
+`Presentation` je nejvyšší objekt Aspose.Slides, který obsahuje kolekci snímků a globální nastavení dokumentu.
 
 ```java
 import com.aspose.slides.Presentation;
@@ -122,12 +171,14 @@ try {
 }
 ```
 
-**Vysvětlení**: Tento úryvek kódu inicializuje objekt `Presentation`, který odkazuje na existující PowerPointový soubor. Blok `try‑finally` zajišťuje řádné uvolnění prostředků pomocí `dispose()`.
+Úryvek otevře prázdnou prezentaci, kterou můžete později uložit jako soubor `.pptx`.
 
-### Funkce 2: Přidání trychového grafu na snímek (H2)
+### Funkce 2: přidání trychového grafu na snímek (H2)
 
 #### Přehled
-Přidejte trychový graf na první snímek vaší prezentace následujícím způsobem:
+Vložte trychový graf na první snímek, definujte jeho velikost a nastavte typ grafu.
+
+`ChartType.Funnel` říká Aspose.Slides, aby vykreslil vizualizaci ve stylu trychového grafu místo sloupcového nebo čárového grafu.
 
 ```java
 import com.aspose.slides.IChart;
@@ -145,12 +196,14 @@ try {
 }
 ```
 
-**Vysvětlení**: Metoda `addChart()` vytvoří trychový graf na prvním snímku. Parametry určují jeho pozici a velikost.
+Volání `addChart` vytvoří tvar grafu, umístí jej na souřadnice `(50, 50)` bodů a nastaví šířku na `500` a výšku na `400`.
 
-### Funkce 3: Vymazání dat grafu (H2)
+### Funkce 3: vymazání dat grafu (H2)
 
 #### Přehled
-Před naplněním grafu daty může být potřeba vymazat existující obsah:
+Před naplněním grafu vymažte všechny zástupné kategorie nebo řady, které může šablona obsahovat.
+
+`chart.getChartData().getCategories().clear()` odstraní všechny existující položky kategorií, zatímco `chart.getChartData().getSeries().clear()` odstraní jakékoli předvyplněné řady.
 
 ```java
 import com.aspose.slides.IChart;
@@ -170,12 +223,14 @@ try {
 }
 ```
 
-**Vysvětlení**: Tento kód odstraní veškerá předchozí data z trychového grafu vymazáním jeho kategorií a sérií.
+Tím se zajistí čistý základ, aby vaše vlastní data byla zobrazena přesně podle očekávání.
 
-### Funkce 4: Nastavení datové sešitu grafu (H2)
+### Funkce 4: nastavení sešitu dat grafu (H2)
 
 #### Přehled
-Inicializujte datový sešit grafu pro efektivní správu vašich dat:
+Objekt `IChartDataWorkbook` ukládá surové hodnoty, které pohánějí graf. Jeho inicializace vám umožní zapisovat data přímo do buněk.
+
+`IChartDataWorkbook` je lehký in‑memory tabulkový proces, který Aspose.Slides používá k napájení řad a kategorií grafu.
 
 ```java
 import com.aspose.slides.IChart;
@@ -198,12 +253,14 @@ try {
 }
 ```
 
-**Vysvětlení**: Objekt `IChartDataWorkbook` umožňuje vymazat existující buňky a připravit sešit na nové záznamy.
+Kód vymaže všechny existující buňky a připraví sešit na nové záznamy.
 
-### Funkce 5: Přidání kategorií do grafu (H2)
+### Funkce 5: přidání kategorií do grafu (H2)
 
 #### Přehled
-Přidejte smysluplné kategorie do vašeho trychového grafu:
+Definujte textové štítky, které se zobrazují na levé straně trychového grafu – představují jednotlivé fáze vašeho procesu.
+
+`chart.getChartData().getCategories().add()` vytvoří nový objekt kategorie spojený s konkrétní buňkou sešitu.
 
 ```java
 import com.aspose.slides.IChart;
@@ -227,12 +284,14 @@ try {
 }
 ```
 
-**Vysvětlení**: Tento kód přidává kategorie do trychového grafu přístupem k datovému sešitu a vložením názvů kategorií do konkrétních buněk.
+Zde přidáváme tři fáze: „Potenciální zákazníci“, „Kvalifikované leady“ a „Uzavřené obchody“.
 
-### Funkce 6: Přidání datové série do grafu (H2)
+### Funkce 6: přidání datových řad do grafu (H2)
 
 #### Přehled
-Naplněte trychový graf datovou sérií:
+Naplněte trychový graf číselnými hodnotami a případně přiřaďte každému výseku jedinečnou barvu.
+
+`IDataPoint` představuje jeden datový bod v řadě grafu. `chart.getChartData().getSeries().add()` vytvoří řadu, která obsahuje číselné datové body; každý `IDataPoint` může získat vlastní barvu výplně.
 
 ```java
 import com.aspose.slides.IChart;
@@ -272,43 +331,49 @@ try {
 }
 ```
 
-**Vysvětlení**: Tento kód přidává datovou sérii do trychového grafu a zaplňuje ji datovými body. Také upravuje barvu výplně každého datového bodu.
+Smyčka ukazuje, jak nastavit plnou výplň pro každý bod, pomocí buď specifických `java.awt.Color` konstant značky, nebo náhodně generovaných barev pro vizuální rozmanitost.
 
 ## Běžné případy použití a tipy (H2)
 
-- **Reportování prodejního kanálu** – Vizualizujte konverzi leadů od potenciálu po uzavřený obchod.  
-- **Analýza efektivity procesů** – Ukážete úbytek v každé fázi výroby.  
-- **Revize marketingového trychu** – Porovnejte výkonnost kampaní napříč kanály.
+- **Reportování prodejní pipeline** – Zobrazte, kolik leadů přechází z potenciálu do uzavřeného výnosu v každé fázi.  
+- **Analýza efektivity procesů** – Vizualizujte ztrátu materiálu nebo časová zpoždění napříč výrobními kroky.  
+- **Revize marketingového trychového grafu** – Porovnejte konverzní poměry napříč kampaněmi nebo zdroji provozu.  
 
-**Pro tip:** Používejte konstanty `java.awt.Color` pro barvy odpovídající značce místo náhodných hodnot, abyste dosáhli profesionálnějšího vzhledu.
+**Pro tip:** Místo náhodných barev použijte paletu značky vaší společnosti (např. `new Color(0, 112, 192)`), aby byla prezentace konzistentní s ostatními marketingovými materiály.
 
-## Často kladené otázky
+## Často kladené otázky (H2)
 
 **Q: Jak změním orientaci trychového grafu?**  
-A: Nastavte vlastnost `ChartOrientation` na objektu `IChart` na `ChartOrientation.Vertical` nebo `Horizontal`.
+A: Nastavte vlastnost `ChartOrientation` na objektu `IChart` na `ChartOrientation.Vertical` nebo `ChartOrientation.Horizontal`.
 
-**Q: Můžu po přidání grafu exportovat snímek jako obrázek?**  
-A: Ano, zavolejte `pres.getSlides().get_Item(0).getThumbnail(1, 1)` a uložte výsledný `java.awt.image.BufferedImage`.
+**Q: Mohu po přidání grafu exportovat snímek jako obrázek?**  
+A: Ano—zavolejte `pres.getSlides().get_Item(0).getThumbnail(1, 1)` a zapište vzniklý `java.awt.image.BufferedImage` do souboru PNG nebo JPEG.
 
 **Q: Co když potřebuji více než tři kategorie?**  
-A: Stačí přidat další kategorie pomocí `chart.getChartData().getCategories().add(...)` a odpovídající datové body.
+A: Jednoduše přidejte další kategorie pomocí `chart.getChartData().getCategories().add(...)` a poskytněte odpovídající datové body pro každou novou kategorii.
 
 **Q: Existuje způsob, jak skrýt legendu?**  
-A: Použijte `chart.getChartTitle().setVisible(false)` a `chart.getLegend().setVisible(false)`.
+A: Použijte `chart.getChartTitle().setVisible(false)` a `chart.getLegend().setVisible(false)` k odstranění jak titulku, tak legendy z vizuálu.
 
-**Q: Potřebuji licenci pro vývojové sestavení?**  
-A: Dočasná licence stačí pro evaluaci; plná licence je vyžadována pro produkční nasazení.
+**Q: Potřebuji licenci pro vývojové sestavy?**  
+A: Dočasná licence stačí pro hodnocení; plná komerční licence je vyžadována pro produkční nasazení.
 
 ---
 
-**Poslední aktualizace:** 2026-03-18  
+**Poslední aktualizace:** 2026-09-02  
 **Testováno s:** Aspose.Slides pro Java 25.4 (jdk16)  
-**Autor:** Aspose  
+**Autor:** Aspose
+
+## Související tutoriály
+
+- [Jak přidat graf do PowerPointu pomocí Aspose.Slides pro Java: Průvodce krok za krokem](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [Jak upravit data grafu v PowerPointu pomocí Aspose.Slides pro Java: Kompletní průvodce](/slides/java/charts-graphs/edit-ppt-chart-data-aspose-slides-java/)
+- [Přidání animace do grafu v PowerPointu pomocí Aspose.Slides pro Java – Průvodce krok za krokem](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

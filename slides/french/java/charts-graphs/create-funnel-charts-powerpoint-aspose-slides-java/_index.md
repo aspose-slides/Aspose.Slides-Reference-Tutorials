@@ -1,57 +1,102 @@
 ---
-date: '2026-03-18'
-description: Apprenez la visualisation de données Java en créant des graphiques en
-  entonnoir dans PowerPoint avec Aspose.Slides pour Java. Ce guide étape par étape
-  montre comment créer des graphiques en entonnoir, définir les données du graphique
-  et personnaliser les couleurs.
+date: '2026-09-02'
+description: Apprenez à créer un graphique en entonnoir dans PowerPoint en utilisant
+  Aspose.Slides for Java. Ce guide étape par étape couvre la configuration des données
+  du graphique, la personnalisation des couleurs et l'exportation de la présentation.
 keywords:
-- funnel chart creation
-- Aspose.Slides for Java
-- PowerPoint data visualization
-title: visualisation de données Java – Graphiques en entonnoir avec Aspose.Slides
+- create funnel chart
+- export powerpoint presentation
+- how to create funnel
+- how to customize colors
+- java data visualization
+lastmod: '2026-09-02'
+og_description: Apprenez à créer un graphique en entonnoir dans PowerPoint en utilisant
+  Aspose.Slides for Java. Ce guide vous accompagne dans la configuration des données,
+  la personnalisation des couleurs et l'exportation de la présentation finale.
+og_image_alt: Guide showing funnel chart creation in PowerPoint with Aspose.Slides
+  for Java
+og_title: Créer un graphique en entonnoir dans PowerPoint avec Aspose.Slides for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-02'
+  description: Learn how to create funnel chart in PowerPoint using Aspose.Slides
+    for Java. This step‑by‑step guide covers setting chart data, customizing colors,
+    and exporting the presentation.
+  headline: Create funnel chart in PowerPoint with Aspose.Slides for Java
+  type: TechArticle
+- description: Learn how to create funnel chart in PowerPoint using Aspose.Slides
+    for Java. This step‑by‑step guide covers setting chart data, customizing colors,
+    and exporting the presentation.
+  name: Create funnel chart in PowerPoint with Aspose.Slides for Java
+  steps:
+  - name: '**Add the dependency** – Use the Maven or Gradle snippet above.'
+    text: '**Add the dependency** – Use the Maven or Gradle snippet above.'
+  - name: '**Obtain a license** –'
+    text: '**Obtain a license** –'
+  - name: '**Basic initialization** –'
+    text: '**Basic initialization** –'
+  type: HowTo
+- questions:
+  - answer: Set the `ChartOrientation` property on the `IChart` object to `ChartOrientation.Vertical`
+      or `ChartOrientation.Horizontal`.
+    question: How do I change the funnel chart’s orientation?
+  - answer: Yes—call `pres.getSlides().get_Item(0).getThumbnail(1, 1)` and write the
+      resulting `java.awt.image.BufferedImage` to a PNG or JPEG file.
+    question: Can I export the slide as an image after adding the chart?
+  - answer: Simply add additional categories using `chart.getChartData().getCategories().add(...)`
+      and provide matching data points for each new category.
+    question: What if I need more than three categories?
+  - answer: Use `chart.getChartTitle().setVisible(false)` and `chart.getLegend().setVisible(false)`
+      to remove both the title and legend from the visual.
+    question: Is there a way to hide the legend?
+  - answer: A temporary license is sufficient for evaluation; a full commercial license
+      is required for production deployments.
+    question: Do I need a license for development builds?
+  type: FAQPage
+tags:
+- funnel chart
+- Aspose.Slides
+- Java data visualization
+title: Créer un graphique en entonnoir dans PowerPoint avec Aspose.Slides for Java
 url: /fr/java/charts-graphs/create-funnel-charts-powerpoint-aspose-slides-java/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Maîtriser la création de graphiques en entonnoir dans PowerPoint avec Aspose.Slides pour Java
+
+# Maîtriser la création de diagrammes en entonnoir dans PowerPoint avec Aspose.Slides pour Java
 
 ## Introduction
-Créer des présentations percutantes est un art qui combine visualisation de données, design et storytelling. Un outil puissant pour enrichir vos présentations est le graphique en entonnoir — une représentation visuelle des étapes d’un processus ou d’un pipeline de vente. Que vous présentiez des rapports d’entreprise, des chronologies de projet ou des stratégies commerciales, intégrer des graphiques en entonnoir peut transformer des données brutes en histoires éclairantes.
+Créer des présentations percutantes est un art qui combine visualisation de données, design et narration. Un visuel puissant qui clarifie instantanément un processus à plusieurs étapes est le diagramme en entonnoir. Que vous ayez besoin d'illustrer un pipeline de ventes, un flux de conversion ou un goulot d'étranglement de production, un diagramme en entonnoir bien conçu transforme des chiffres bruts en une narration intuitive. Dans ce tutoriel, vous apprendrez comment **créer un diagramme en entonnoir** dans PowerPoint de manière programmatique en utilisant Aspose.Slides pour Java, configurer ses données, personnaliser la couleur de chaque segment et exporter la présentation finale.
 
-Dans ce tutoriel, nous explorerons comment créer et personnaliser des graphiques en entonnoir dans PowerPoint en utilisant Aspose.Slides pour Java. Vous apprendrez le processus étape par étape pour configurer votre environnement, ajouter un graphique en entonnoir à une diapositive, configurer ses données et enregistrer votre présentation en toute simplicité. À la fin de ce guide, vous serez capable d’enrichir vos présentations avec des visuels de niveau professionnel.
-
-**Ce que vous apprendrez :**
-- Configurer Aspose.Slides pour Java dans votre projet
-- Créer une instance d’une présentation PowerPoint
-- Ajouter et personnaliser des graphiques en entonnoir sur les diapositives
-- Gérer efficacement les données du graphique
-- Enregistrer et exporter vos présentations améliorées
+**Ce que vous apprendrez**
+- Comment ajouter Aspose.Slides pour Java à un projet Maven ou Gradle
+- Comment instancier un objet `Presentation` et accéder à ses diapositives
+- Comment insérer un diagramme en entonnoir, définir les catégories et remplir les données de séries
+- Comment styliser chaque tranche du diagramme en entonnoir avec des remplissages solides ou des couleurs spécifiques à la marque
+- Comment enregistrer la présentation au format PPTX ou exporter une diapositive en tant qu'image
 
 ## Réponses rapides
-- **Quelle est la bibliothèque principale pour la visualisation de données java ?** Aspose.Slides pour Java.  
-- **Comment créer un graphique en entonnoir dans PowerPoint ?** Utilisez `addChart(ChartType.Funnel, …)` sur une diapositive.  
-- **Quelle méthode définit la source de données du graphique ?** Travaillez avec `IChartDataWorkbook` et `chart.getChartData()`.  
-- **Puis-je personnaliser les couleurs de chaque segment de l’entonnoir ?** Oui, définissez `FillType.Solid` et attribuez une couleur `java.awt.Color` aléatoire ou spécifique.  
-- **Ai‑je besoin d’une licence pour une utilisation en production ?** Une licence Aspose.Slides achetée est requise pour les déploiements commerciaux.
+- **Quelle est la bibliothèque principale pour la visualisation de données Java ?** Aspose.Slides for Java.  
+- **Comment créer un diagramme en entonnoir dans PowerPoint ?** Appelez `slide.addChart(ChartType.Funnel, …)` sur la diapositive cible.  
+- **Quelle API définit la source de données du diagramme ?** Utilisez `IChartDataWorkbook` avec `chart.getChartData()`.  
+- **Pouvez‑vous personnaliser les couleurs de chaque segment du diagramme en entonnoir ?** Oui—définissez `FillFormat.setFillType(FillType.Solid)` et attribuez un `java.awt.Color`.  
+- **Avez‑vous besoin d’une licence pour une utilisation en production ?** Une licence Aspose.Slides achetée est requise pour les déploiements commerciaux.
 
-## Qu’est‑ce que la visualisation de données java ?
-La visualisation de données java désigne les techniques et bibliothèques qui permettent aux développeurs de transformer des données brutes en représentations visuelles claires, interactives ou statiques directement depuis des applications Java. Aspose.Slides pour Java est une bibliothèque leader pour créer des graphiques, diagrammes et présentations riches de manière programmatique.
+## Qu’est‑ce que la visualisation de données Java ?
+La visualisation de données Java est la pratique consistant à convertir des données brutes en graphiques, diagrammes ou graphiques interactifs directement depuis des applications Java. Aspose.Slides pour Java est une bibliothèque de premier plan qui permet aux développeurs de générer plus de 100 types de graphiques—y compris les diagrammes en entonnoir—sans jamais lancer PowerPoint manuellement, en prenant en charge des présentations pouvant contenir jusqu’à 500 diapositives tout en maintenant une faible utilisation de la mémoire.
 
-## Pourquoi utiliser des graphiques en entonnoir dans PowerPoint ?
-Les graphiques en entonnoir facilitent l’illustration des taux d’abandon entre les étapes — idéaux pour les pipelines de vente, les entonnoirs de conversion ou les analyses d’efficacité des processus. Avec Aspose.Slides, vous avez un contrôle total sur la mise en page, les couleurs et les données sans jamais ouvrir PowerPoint manuellement.
+## Pourquoi utiliser des diagrammes en entonnoir dans PowerPoint ?
+Les diagrammes en entonnoir révèlent instantanément les taux d’abandon à travers les étapes séquentielles, ce qui les rend idéaux pour les pipelines de ventes, l’analyse de conversion ou les revues d’efficacité des processus. Aspose.Slides vous offre un contrôle pixel‑parfait sur la mise en page, les couleurs des segments et les étiquettes de données, vous permettant de maintenir la cohérence de la marque et d’éviter l’effort manuel de modification des graphiques dans l’interface PowerPoint.
 
 ## Prérequis (H2)
-Avant de commencer, assurez‑vous de disposer des outils et connaissances nécessaires pour suivre ce tutoriel.
 
 ### Bibliothèques requises, versions et dépendances
-Pour implémenter Aspose.Slides pour Java dans votre projet, vous avez besoin de versions spécifiques de bibliothèques. Voici comment les configurer avec Maven ou Gradle :
+Pour implémenter Aspose.Slides pour Java dans votre projet, incluez les coordonnées Maven ou Gradle appropriées. La bibliothèque fonctionne avec Java 8‑21 et ne nécessite aucune dépendance native externe.
 
-**Maven :**
+**Maven:**
 
 ```xml
 <dependency>
@@ -62,30 +107,31 @@ Pour implémenter Aspose.Slides pour Java dans votre projet, vous avez besoin de
 </dependency>
 ```
 
-**Gradle :**
+**Gradle:**
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Alternativement, vous pouvez télécharger la bibliothèque directement depuis [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+Vous pouvez également télécharger le JAR directement depuis [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### Exigences de configuration de l'environnement
-Assurez‑vous que votre environnement de développement est configuré avec JDK 1.6 ou supérieur, car Aspose.Slides nécessite cette version pour la compatibilité.
+### Exigences de configuration de l’environnement
+Assurez‑vous d’avoir le JDK 8 ou une version plus récente installé et que votre `JAVA_HOME` pointe vers le répertoire JDK correct. Aspose.Slides fonctionne sur tout système d’exploitation supportant le JDK, y compris Windows, macOS et Linux.
 
 ### Prérequis de connaissances
-Une familiarité avec les concepts de programmation Java et les principes de base du design de présentations sera bénéfique mais n’est pas indispensable, car nous couvrirons tout étape par étape.
+Une familiarité de base avec la syntaxe Java, la programmation orientée objet et le concept de fichier de présentation sera utile, mais les extraits de code sont entièrement expliqués pour les développeurs de tout niveau d’expérience.
 
-## Configuration d'Aspose.Slides pour Java (H2)
-Pour commencer à utiliser Aspose.Slides dans votre projet, suivez ces étapes :
+## Configuration d’Aspose.Slides pour Java (H2)
 
-1. **Ajouter la dépendance** : utilisez Maven ou Gradle pour inclure Aspose.Slides, comme indiqué ci‑dessus.  
-2. **Acquisition de licence** :  
-   - **Essai gratuit** : téléchargez une licence temporaire depuis [le site d'Aspose](https://purchase.aspose.com/temporary-license/) à des fins d’évaluation.  
-   - **Achat** : pour une utilisation en production, achetez une licence via la [page d’achat](https://purchase.aspose.com/buy).  
-3. **Initialisation de base** : créez une nouvelle classe Java et initialisez votre objet présentation :
+1. **Ajouter la dépendance** – Utilisez le fragment Maven ou Gradle ci‑dessus.  
+2. **Obtenir une licence** –  
+   - **Essai gratuit** – Téléchargez une licence temporaire depuis [Aspose's website](https://purchase.aspose.com/temporary-license/) pour évaluation.  
+   - **Licence complète** – Achetez une licence de production via la [purchase page](https://purchase.aspose.com/buy).  
+3. **Initialisation de base** –  
 
-   ```java
+`Presentation` est la classe principale d’Aspose.Slides qui représente un fichier PowerPoint en mémoire. Elle donne accès aux diapositives, aux formes et aux objets de graphique.
+
+```java
    import com.aspose.slides.Presentation;
    
    public class FunnelChartDemo {
@@ -100,15 +146,18 @@ Pour commencer à utiliser Aspose.Slides dans votre projet, suivez ces étapes�
    }
    ```
 
-Cette configuration vous permettra de créer et de manipuler des présentations avec Aspose.Slides.
+Le code ci‑dessus crée une nouvelle instance `Presentation`, prête pour la manipulation des diapositives, et garantit que les ressources sont libérées avec `dispose()`.
 
 ## Guide de mise en œuvre
-Nous décomposerons l’implémentation en fonctionnalités distinctes, chacune se concentrant sur un aspect spécifique de la création de graphiques en entonnoir dans PowerPoint.
 
-### Fonctionnalité 1 : Création d'une présentation (H2)
+Nous parcourrons chaque fonctionnalité nécessaire pour créer un diagramme en entonnoir complet, en ajoutant un court texte explicatif avant chaque espace réservé de code.
 
-#### Aperçu
-Commencez par créer une instance de la classe `Presentation`. Cet objet représente votre fichier PowerPoint et vous permet d’effectuer diverses opérations.
+### Fonctionnalité 1 : création d’une présentation (H2)
+
+#### Vue d’ensemble
+Commencez par créer une instance de la classe `Presentation`. Cet objet est le point d’entrée pour toutes les opérations suivantes.
+
+`Presentation` est l’objet de niveau supérieur d’Aspose.Slides qui contient la collection de diapositives et les paramètres globaux du document.
 
 ```java
 import com.aspose.slides.Presentation;
@@ -122,12 +171,14 @@ try {
 }
 ```
 
-**Explication** : cet extrait de code initialise un objet `Presentation` en pointant vers un fichier PowerPoint existant. Le bloc `try‑finally` garantit que les ressources sont libérées correctement avec `dispose()`.
+L’extrait ouvre une présentation vierge, que vous pourrez ensuite enregistrer au format `.pptx`.
 
-### Fonctionnalité 2 : Ajout d'un graphique en entonnoir à une diapositive (H2)
+### Fonctionnalité 2 : ajout d’un diagramme en entonnoir à une diapositive (H2)
 
-#### Aperçu
-Ajoutez un graphique en entonnoir à la première diapositive de votre présentation en suivant les étapes suivantes :
+#### Vue d’ensemble
+Insérez un diagramme en entonnoir sur la première diapositive, définissez sa taille et spécifiez le type de graphique.
+
+`ChartType.Funnel` indique à Aspose.Slides de rendre une visualisation de type entonnoir au lieu d’un graphique à barres ou en lignes.
 
 ```java
 import com.aspose.slides.IChart;
@@ -145,12 +196,14 @@ try {
 }
 ```
 
-**Explication** : la méthode `addChart()` crée un graphique en entonnoir sur la première diapositive. Les paramètres définissent sa position et sa taille.
+L’appel `addChart` crée la forme du graphique, la positionne à `(50, 50)` points, et lui attribue une largeur de `500` et une hauteur de `400`.
 
-### Fonctionnalité 3 : Vidage des données du graphique (H2)
+### Fonctionnalité 3 : suppression des données du graphique (H2)
 
-#### Aperçu
-Avant de peupler votre graphique avec des données, il peut être nécessaire de supprimer le contenu existant :
+#### Vue d’ensemble
+Avant de remplir le graphique, supprimez toutes les catégories ou séries factices que le modèle pourrait contenir.
+
+`chart.getChartData().getCategories().clear()` supprime toutes les entrées de catégorie existantes, tandis que `chart.getChartData().getSeries().clear()` supprime toutes les séries pré‑remplies.
 
 ```java
 import com.aspose.slides.IChart;
@@ -170,12 +223,14 @@ try {
 }
 ```
 
-**Explication** : ce code supprime toutes les données pré‑existantes du graphique en entonnoir en vidant ses catégories et ses séries.
+Cela garantit une toile vierge afin que vos données personnalisées apparaissent exactement comme prévu.
 
-### Fonctionnalité 4 : Configuration du classeur de données du graphique (H2)
+### Fonctionnalité 4 : configuration du classeur de données du graphique (H2)
 
-#### Aperçu
-Initialisez le classeur de données du graphique pour gérer vos données efficacement :
+#### Vue d’ensemble
+L’objet `IChartDataWorkbook` stocke les valeurs brutes qui alimentent le graphique. L’initialiser vous permet d’écrire des données directement dans les cellules.
+
+`IChartDataWorkbook` est une feuille de calcul légère en mémoire qu’Aspose.Slides utilise pour alimenter les séries et les catégories du graphique.
 
 ```java
 import com.aspose.slides.IChart;
@@ -198,12 +253,14 @@ try {
 }
 ```
 
-**Explication** : l’objet `IChartDataWorkbook` vous permet de nettoyer les cellules existantes, préparant le classeur à de nouvelles entrées de données.
+Le code supprime toutes les cellules existantes, préparant le classeur pour de nouvelles entrées.
 
-### Fonctionnalité 5 : Ajout de catégories à un graphique (H2)
+### Fonctionnalité 5 : ajout de catégories à un graphique (H2)
 
-#### Aperçu
-Ajoutez des catégories significatives à votre graphique en entonnoir :
+#### Vue d’ensemble
+Définissez les libellés textuels qui apparaissent sur le côté gauche de l’entonnoir—ils représentent chaque étape de votre processus.
+
+`chart.getChartData().getCategories().add()` crée un nouvel objet catégorie lié à une cellule spécifique du classeur.
 
 ```java
 import com.aspose.slides.IChart;
@@ -227,12 +284,16 @@ try {
 }
 ```
 
-**Explication** : ce code ajoute des catégories au graphique en accédant au classeur de données et en insérant les noms de catégories dans des cellules spécifiques.
+Ici nous ajoutons trois étapes : « Prospects », « Leads qualifiés » et « Affaires conclues ».
 
-### Fonctionnalité 6 : Ajout de séries de données à un graphique (H2)
+### Fonctionnalité 6 : ajout de séries de données à un graphique (H2)
 
-#### Aperçu
-Alimentez votre graphique en entonnoir avec des séries de données :
+#### Vue d’ensemble
+Remplissez l’entonnoir avec des valeurs numériques et, éventuellement, attribuez une couleur unique à chaque tranche.
+
+`IDataPoint` représente un point de données unique au sein d’une série de graphique.  
+
+`chart.getChartData().getSeries().add()` crée une série qui contient les points de données numériques ; chaque `IDataPoint` peut recevoir sa propre couleur de remplissage.
 
 ```java
 import com.aspose.slides.IChart;
@@ -272,43 +333,49 @@ try {
 }
 ```
 
-**Explication** : ce code ajoute une série de données au graphique en entonnoir et la remplit de points de données. Il personnalise également la couleur de remplissage de chaque point de données.
+La boucle montre comment définir un remplissage solide pour chaque point, en utilisant soit des constantes `java.awt.Color` spécifiques à la marque, soit des couleurs générées aléatoirement pour plus de variété visuelle.
 
-## Cas d'utilisation courants et astuces (H2)
+## Cas d’utilisation courants et astuces (H2)
 
-- **Reporting de pipeline de ventes** – Visualisez la conversion des prospects jusqu’à la conclusion gagnée.  
-- **Analyse d’efficacité des processus** – Montrez les pertes à chaque étape de production.  
-- **Revue d’entonnoir marketing** – Comparez les performances des campagnes selon les canaux.
+- **Rapport de pipeline de ventes** – Montrez combien de leads passent de prospect à gagné à chaque étape.  
+- **Analyse de l’efficacité des processus** – Visualisez les pertes de matière ou les retards de temps à travers les étapes de fabrication.  
+- **Revue du funnel marketing** – Comparez les taux de conversion entre les campagnes ou les sources de trafic.  
 
-**Astuce pro :** utilisez les constantes `java.awt.Color` pour des couleurs cohérentes avec votre marque plutôt que des valeurs aléatoires, afin d’obtenir un rendu plus soigné.
+**Astuce pro :** Au lieu de couleurs aléatoires, utilisez la palette de marque de votre entreprise (par ex., `new Color(0, 112, 192)`) pour que la présentation reste cohérente avec les autres actifs marketing.
 
-## Questions fréquentes
+## Questions fréquentes (H2)
 
-**Q : Comment changer l’orientation du graphique en entonnoir ?**  
-R : définissez la propriété `ChartOrientation` sur l’objet `IChart` à `ChartOrientation.Vertical` ou `Horizontal`.
+**Q : Comment changer l’orientation du diagramme en entonnoir ?**  
+R : Définissez la propriété `ChartOrientation` sur l’objet `IChart` à `ChartOrientation.Vertical` ou `ChartOrientation.Horizontal`.
 
 **Q : Puis‑je exporter la diapositive en image après avoir ajouté le graphique ?**  
-R : oui, appelez `pres.getSlides().get_Item(0).getThumbnail(1, 1)` et enregistrez l’objet `java.awt.image.BufferedImage` résultant.
+R : Oui—appelez `pres.getSlides().get_Item(0).getThumbnail(1, 1)` et écrivez le `java.awt.image.BufferedImage` résultant dans un fichier PNG ou JPEG.
 
-**Q : Que faire si j’ai besoin de plus de trois catégories ?**  
-R : ajoutez simplement des catégories supplémentaires avec `chart.getChartData().getCategories().add(...)` et les points de données correspondants.
+**Q : Et si j’ai besoin de plus de trois catégories ?**  
+R : Ajoutez simplement des catégories supplémentaires avec `chart.getChartData().getCategories().add(...)` et fournissez des points de données correspondants pour chaque nouvelle catégorie.
 
 **Q : Existe‑t‑il un moyen de masquer la légende ?**  
-R : utilisez `chart.getChartTitle().setVisible(false)` et `chart.getLegend().setVisible(false)`.
+R : Utilisez `chart.getChartTitle().setVisible(false)` et `chart.getLegend().setVisible(false)` pour supprimer à la fois le titre et la légende du visuel.
 
 **Q : Ai‑je besoin d’une licence pour les builds de développement ?**  
-R : une licence temporaire suffit pour l’évaluation ; une licence complète est requise pour les déploiements en production.
+R : Une licence temporaire suffit pour l’évaluation ; une licence commerciale complète est requise pour les déploiements en production.
 
 ---
 
-**Dernière mise à jour :** 2026-03-18  
-**Testé avec :** Aspose.Slides pour Java 25.4 (jdk16)  
-**Auteur :** Aspose  
+**Last updated:** 2026-09-02  
+**Testé avec:** Aspose.Slides for Java 25.4 (jdk16)  
+**Auteur :** Aspose
+
+## Tutoriels associés
+
+- [Comment ajouter un graphique à PowerPoint avec Aspose.Slides pour Java : guide étape par étape](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [Comment modifier les données d’un graphique PowerPoint avec Aspose.Slides pour Java : guide complet](/slides/java/charts-graphs/edit-ppt-chart-data-aspose-slides-java/)
+- [Ajouter une animation à un graphique PowerPoint avec Aspose.Slides pour Java – guide étape par étape](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

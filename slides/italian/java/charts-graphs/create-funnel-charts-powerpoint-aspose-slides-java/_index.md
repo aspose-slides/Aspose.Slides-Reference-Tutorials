@@ -1,54 +1,100 @@
 ---
-date: '2026-03-18'
-description: Impara la visualizzazione dei dati Java creando grafici a imbuto in PowerPoint
-  con Aspose.Slides per Java. Questa guida passo passo mostra come creare grafici
-  a imbuto, impostare i dati del grafico e personalizzare i colori.
+date: '2026-09-02'
+description: Scopri come creare funnel chart in PowerPoint utilizzando Aspose.Slides
+  for Java. Questa guida passo‑passo copre l'impostazione dei dati del grafico, la
+  personalizzazione dei colori e l'esportazione della presentazione.
 keywords:
-- funnel chart creation
-- Aspose.Slides for Java
-- PowerPoint data visualization
-title: visualizzazione dati Java – Grafici a imbuto con Aspose.Slides
+- create funnel chart
+- export powerpoint presentation
+- how to create funnel
+- how to customize colors
+- java data visualization
+lastmod: '2026-09-02'
+og_description: Scopri come creare funnel chart in PowerPoint utilizzando Aspose.Slides
+  for Java. Questa guida ti accompagna nella configurazione dei dati, nella personalizzazione
+  dei colori e nell'esportazione della presentazione finale.
+og_image_alt: Guide showing funnel chart creation in PowerPoint with Aspose.Slides
+  for Java
+og_title: Crea funnel chart in PowerPoint con Aspose.Slides for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-02'
+  description: Learn how to create funnel chart in PowerPoint using Aspose.Slides
+    for Java. This step‑by‑step guide covers setting chart data, customizing colors,
+    and exporting the presentation.
+  headline: Create funnel chart in PowerPoint with Aspose.Slides for Java
+  type: TechArticle
+- description: Learn how to create funnel chart in PowerPoint using Aspose.Slides
+    for Java. This step‑by‑step guide covers setting chart data, customizing colors,
+    and exporting the presentation.
+  name: Create funnel chart in PowerPoint with Aspose.Slides for Java
+  steps:
+  - name: '**Add the dependency** – Use the Maven or Gradle snippet above.'
+    text: '**Add the dependency** – Use the Maven or Gradle snippet above.'
+  - name: '**Obtain a license** –'
+    text: '**Obtain a license** –'
+  - name: '**Basic initialization** –'
+    text: '**Basic initialization** –'
+  type: HowTo
+- questions:
+  - answer: Set the `ChartOrientation` property on the `IChart` object to `ChartOrientation.Vertical`
+      or `ChartOrientation.Horizontal`.
+    question: How do I change the funnel chart’s orientation?
+  - answer: Yes—call `pres.getSlides().get_Item(0).getThumbnail(1, 1)` and write the
+      resulting `java.awt.image.BufferedImage` to a PNG or JPEG file.
+    question: Can I export the slide as an image after adding the chart?
+  - answer: Simply add additional categories using `chart.getChartData().getCategories().add(...)`
+      and provide matching data points for each new category.
+    question: What if I need more than three categories?
+  - answer: Use `chart.getChartTitle().setVisible(false)` and `chart.getLegend().setVisible(false)`
+      to remove both the title and legend from the visual.
+    question: Is there a way to hide the legend?
+  - answer: A temporary license is sufficient for evaluation; a full commercial license
+      is required for production deployments.
+    question: Do I need a license for development builds?
+  type: FAQPage
+tags:
+- funnel chart
+- Aspose.Slides
+- Java data visualization
+title: Crea funnel chart in PowerPoint con Aspose.Slides for Java
 url: /it/java/charts-graphs/create-funnel-charts-powerpoint-aspose-slides-java/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Padroneggiare la Creazione di Grafici a Imbuto in PowerPoint con Aspose.Slides per Java
+
+# Maestria nella creazione di grafici a imbuto in PowerPoint con Aspose.Slides per Java
 
 ## Introduzione
-Creare presentazioni accattivanti è un'arte che combina visualizzazione dei dati, design e storytelling. Uno strumento potente per migliorare le tue presentazioni è il grafico a imbuto—una rappresentazione visiva delle fasi all'interno di un processo o di una pipeline di vendita. Che tu stia presentando report aziendali, timeline di progetto o strategie di vendita, incorporare grafici a imbuto può trasformare dati grezzi in storie significative.
+Creare presentazioni accattivanti è un'arte che combina visualizzazione dei dati, design e storytelling. Un elemento visivo potente che chiarisce immediatamente un processo a più fasi è il grafico a imbuto. Che tu debba illustrare un pipeline di vendita, un flusso di conversione o un collo di bottiglia nella produzione, un grafico a imbuto ben progettato trasforma numeri grezzi in una narrazione intuitiva. In questo tutorial imparerai a **creare un grafico a imbuto** in PowerPoint in modo programmatico usando Aspose.Slides per Java, configurarne i dati, personalizzare il colore di ogni segmento e esportare la presentazione finale.
 
-In questo tutorial, esploreremo come creare e personalizzare grafici a imbuto in PowerPoint usando Aspose.Slides per Java. Imparerai il processo passo‑paso per configurare l'ambiente, aggiungere un grafico a imbuto a una diapositiva, configurarne i dati e salvare la presentazione con facilità. Alla fine di questa guida, sarai pronto a migliorare le tue presentazioni con visualizzazioni di livello professionale.
+**Cosa imparerai**
+- Come aggiungere Aspose.Slides per Java a un progetto Maven o Gradle  
+- Come istanziare un oggetto `Presentation` e accedere alle sue diapositive  
+- Come inserire un grafico a imbuto, definire le categorie e popolare i dati delle serie  
+- Come stilizzare ogni sezione del grafico a imbuto con riempimenti solidi o colori specifici del brand  
+- Come salvare la presentazione come file PPTX o esportare una diapositiva come immagine  
 
-**Cosa Imparerai:**
-- Configurare Aspose.Slides per Java nel tuo progetto
-- Creare un'istanza di una presentazione PowerPoint
-- Aggiungere e personalizzare grafici a imbuto sulle diapositive
-- Gestire efficacemente i dati del grafico
-- Salvare ed esportare le tue presentazioni potenziate
-
-## Risposte Rapide
-- **Qual è la libreria principale per la visualizzazione dei dati in Java?** Aspose.Slides per Java.
-- **Come creare un grafico a imbuto in PowerPoint?** Usa `addChart(ChartType.Funnel, …)` su una diapositiva.
-- **Quale metodo imposta la fonte dati del grafico?** Lavora con `IChartDataWorkbook` e `chart.getChartData()`.
-- **Posso personalizzare i colori per ogni segmento dell'imbuto?** Sì, imposta `FillType.Solid` e assegna un `java.awt.Color` casuale o specifico.
+## Risposte rapide
+- **Qual è la libreria principale per la visualizzazione dei dati in Java?** Aspose.Slides per Java.  
+- **Come si crea un grafico a imbuto in PowerPoint?** Chiama `slide.addChart(ChartType.Funnel, …)` sulla diapositiva di destinazione.  
+- **Quale API imposta la fonte dati del grafico?** Usa `IChartDataWorkbook` insieme a `chart.getChartData()`.  
+- **È possibile personalizzare i colori per ogni segmento del grafico a imbuto?** Sì—imposta `FillFormat.setFillType(FillType.Solid)` e assegna un `java.awt.Color`.  
 - **È necessaria una licenza per l'uso in produzione?** È richiesta una licenza Aspose.Slides acquistata per le distribuzioni commerciali.
 
 ## Cos'è la visualizzazione dei dati in Java?
-La visualizzazione dei dati in Java si riferisce alle tecniche e alle librerie che consentono agli sviluppatori di trasformare dati grezzi in rappresentazioni visive chiare, interattive o statiche direttamente dalle applicazioni Java. Aspose.Slides per Java è una libreria leader per la creazione di grafici, diagrammi e presentazioni ricche in modo programmatico.
+La visualizzazione dei dati in Java è la pratica di convertire dati grezzi in grafici, diagrammi o grafica interattiva direttamente dalle applicazioni Java. Aspose.Slides per Java è una libreria leader che consente agli sviluppatori di generare oltre 100 tipi di grafico—compresi i grafici a imbuto—senza mai avviare manualmente PowerPoint, supportando presentazioni fino a 500 diapositive mantenendo un basso utilizzo di memoria.
 
-## Perché usare i grafici a imbuto in PowerPoint?
-I grafici a imbuto facilitano l'illustrazione dei tassi di abbandono tra le fasi—ideali per pipeline di vendita, funnel di conversione o analisi di efficienza dei processi. Con Aspose.Slides ottieni il pieno controllo su layout, colori e dati senza dover aprire manualmente PowerPoint.
+## Perché utilizzare i grafici a imbuto in PowerPoint?
+I grafici a imbuto rivelano istantaneamente i tassi di abbandono tra le fasi sequenziali, rendendoli ideali per pipeline di vendita, analisi delle conversioni o revisioni dell'efficienza dei processi. Aspose.Slides ti offre un controllo pixel‑perfect sul layout, sui colori dei segmenti e sulle etichette dei dati, così puoi mantenere la coerenza del brand ed evitare lo sforzo manuale di modificare i grafici nell'interfaccia di PowerPoint.
 
 ## Prerequisiti (H2)
-Prima di iniziare, assicurati di avere gli strumenti e le conoscenze necessarie per seguire questo tutorial.
 
-### Librerie Richieste, Versioni e Dipendenze
-Per implementare Aspose.Slides per Java nel tuo progetto, sono necessarie versioni specifiche delle librerie. Ecco come configurarle usando Maven o Gradle:
+### Librerie richieste, versioni e dipendenze
+Per implementare Aspose.Slides per Java nel tuo progetto, includi le coordinate Maven o Gradle appropriate. La libreria funziona con Java 8‑21 e non richiede dipendenze native esterne.
 
 **Maven:**
 
@@ -67,25 +113,25 @@ Per implementare Aspose.Slides per Java nel tuo progetto, sono necessarie versio
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-In alternativa, puoi scaricare la libreria direttamente da [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+Puoi anche scaricare il JAR direttamente da [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### Requisiti per la Configurazione dell'Ambiente
-Assicurati che il tuo ambiente di sviluppo sia configurato con JDK 1.6 o superiore, poiché Aspose.Slides richiede questa versione per la compatibilità.
+### Requisiti di configurazione dell'ambiente
+Assicurati di avere installato JDK 8 o versioni successive e che la tua `JAVA_HOME` punti alla directory corretta del JDK. Aspose.Slides funziona su qualsiasi OS che supporta il JDK, inclusi Windows, macOS e Linux.
 
-### Prerequisiti di Conoscenza
-Familiarità con i concetti di programmazione Java e i principi base del design delle presentazioni sarà utile, ma non è indispensabile, poiché copriremo tutto passo‑paso.
+### Prerequisiti di conoscenza
+Una familiarità di base con la sintassi Java, la programmazione orientata agli oggetti e il concetto di file di presentazione sarà utile, ma gli snippet di codice sono completamente spiegati per sviluppatori di qualsiasi livello di esperienza.
 
 ## Configurazione di Aspose.Slides per Java (H2)
-Per iniziare a usare Aspose.Slides nel tuo progetto, segui questi passaggi:
 
-1. **Add the Dependency**: Usa Maven o Gradle per includere Aspose.Slides, come mostrato sopra.
-2. **License Acquisition**:
-   - **Free Trial**: Scarica una licenza temporanea da [Aspose's website](https://purchase.aspose.com/temporary-license/) per scopi di valutazione.
-   - **Purchase**: Per l'uso in produzione, acquista una licenza tramite la [purchase page](https://purchase.aspose.com/buy).
-3. **Basic Initialization**:
-   Crea una nuova classe Java e inizializza il tuo oggetto presentazione:
+1. **Aggiungi la dipendenza** – Usa lo snippet Maven o Gradle sopra.  
+2. **Ottieni una licenza** –  
+   - **Prova gratuita** – Scarica una licenza temporanea da [Aspose's website](https://purchase.aspose.com/temporary-license/) per la valutazione.  
+   - **Licenza completa** – Acquista una licenza di produzione tramite la [purchase page](https://purchase.aspose.com/buy).  
+3. **Inizializzazione di base** –  
 
-   ```java
+`Presentation` è la classe core di Aspose.Slides che rappresenta un file PowerPoint in memoria. Fornisce l'accesso a diapositive, forme e oggetti grafico.
+
+```java
    import com.aspose.slides.Presentation;
    
    public class FunnelChartDemo {
@@ -100,15 +146,18 @@ Per iniziare a usare Aspose.Slides nel tuo progetto, segui questi passaggi:
    }
    ```
 
-Questa configurazione ti consentirà di creare e manipolare presentazioni usando Aspose.Slides.
+Il codice sopra crea una nuova istanza di `Presentation`, pronta per la manipolazione delle diapositive, e garantisce che le risorse vengano rilasciate con `dispose()`.
 
-## Guida all'Implementazione
-Divideremo l'implementazione in funzionalità distinte, ciascuna focalizzata su un aspetto specifico della creazione di grafici a imbuto in PowerPoint.
+## Guida all'implementazione
 
-### Funzione 1: Creare una Presentazione (H2)
+Passeremo in rassegna ogni funzionalità necessaria per costruire un grafico a imbuto completo, aggiungendo un breve testo esplicativo prima di ogni segnaposto di codice.
+
+### Funzionalità 1: creazione di una presentazione (H2)
 
 #### Panoramica
-Inizia creando un'istanza della classe `Presentation`. Questo oggetto rappresenta il tuo file PowerPoint e ti permette di eseguire varie operazioni.
+Inizia creando un'istanza della classe `Presentation`. Questo oggetto è il punto di ingresso per tutte le operazioni successive.
+
+`Presentation` è l'oggetto di livello superiore di Aspose.Slides che contiene la collezione di diapositive e le impostazioni globali del documento.
 
 ```java
 import com.aspose.slides.Presentation;
@@ -122,12 +171,14 @@ try {
 }
 ```
 
-**Spiegazione**: Questo frammento di codice inizializza un oggetto `Presentation`, puntando a un file PowerPoint esistente. Il blocco `try‑finally` garantisce il rilascio corretto delle risorse con `dispose()`.
+Lo snippet apre una presentazione vuota, che potrai successivamente salvare come file `.pptx`.
 
-### Funzione 2: Aggiungere un Grafico a Imbuto a una Diapositiva (H2)
+### Funzionalità 2: aggiungere un grafico a imbuto a una diapositiva (H2)
 
 #### Panoramica
-Aggiungi un grafico a imbuto alla prima diapositiva della tua presentazione seguendo questi passaggi:
+Inserisci un grafico a imbuto nella prima diapositiva, definisci le sue dimensioni e imposta il tipo di grafico.
+
+`ChartType.Funnel` indica ad Aspose.Slides di renderizzare una visualizzazione a forma di imbuto invece di un grafico a barre o a linee.
 
 ```java
 import com.aspose.slides.IChart;
@@ -145,12 +196,14 @@ try {
 }
 ```
 
-**Spiegazione**: Il metodo `addChart()` crea un grafico a imbuto sulla prima diapositiva. I parametri definiscono la sua posizione e dimensione.
+La chiamata `addChart` crea la forma del grafico, la posiziona a `(50, 50)` punti e le assegna una larghezza di `500` e un'altezza di `400`.
 
-### Funzione 3: Cancellare i Dati del Grafico (H2)
+### Funzionalità 3: cancellare i dati del grafico (H2)
 
 #### Panoramica
-Prima di popolare il grafico con i dati, potresti dover cancellare il contenuto esistente:
+Prima di popolare il grafico, cancella eventuali categorie o serie segnaposto che il modello potrebbe contenere.
+
+`chart.getChartData().getCategories().clear()` rimuove tutte le voci di categoria esistenti, mentre `chart.getChartData().getSeries().clear()` rimuove eventuali serie pre‑riempite.
 
 ```java
 import com.aspose.slides.IChart;
@@ -170,12 +223,14 @@ try {
 }
 ```
 
-**Spiegazione**: Questo codice rimuove qualsiasi dato pre‑esistente dal grafico a imbuto cancellando le sue categorie e le sue serie.
+Ciò garantisce una base pulita affinché i tuoi dati personalizzati compaiano esattamente come previsto.
 
-### Funzione 4: Configurare il Workbook dei Dati del Grafico (H2)
+### Funzionalità 4: configurare il workbook dei dati del grafico (H2)
 
 #### Panoramica
-Inizializza il workbook dei dati del grafico per gestire efficacemente le tue informazioni:
+L'oggetto `IChartDataWorkbook` memorizza i valori grezzi che alimentano il grafico. Inizializzarlo ti consente di scrivere dati direttamente nelle celle.
+
+`IChartDataWorkbook` è un foglio di calcolo leggero in memoria che Aspose.Slides utilizza per fornire serie e categorie al grafico.
 
 ```java
 import com.aspose.slides.IChart;
@@ -198,12 +253,14 @@ try {
 }
 ```
 
-**Spiegazione**: L'oggetto `IChartDataWorkbook` ti permette di cancellare le celle esistenti, preparando il workbook per nuove voci di dati.
+Il codice cancella eventuali celle esistenti, preparando il workbook per nuove voci.
 
-### Funzione 5: Aggiungere Categorie a un Grafico (H2)
+### Funzionalità 5: aggiungere categorie a un grafico (H2)
 
 #### Panoramica
-Aggiungi categorie significative al tuo grafico a imbuto:
+Definisci le etichette testuali che appaiono sul lato sinistro dell'imbuto—rappresentano ciascuna fase del tuo processo.
+
+`chart.getChartData().getCategories().add()` crea un nuovo oggetto categoria collegato a una specifica cella del workbook.
 
 ```java
 import com.aspose.slides.IChart;
@@ -227,12 +284,16 @@ try {
 }
 ```
 
-**Spiegazione**: Questo codice aggiunge categorie al grafico a imbuto accedendo al workbook dei dati e inserendo i nomi delle categorie in celle specifiche.
+Qui aggiungiamo tre fasi: “Prospects”, “Qualified Leads” e “Closed Deals”.
 
-### Funzione 6: Aggiungere Serie di Dati a un Grafico (H2)
+### Funzionalità 6: aggiungere serie di dati a un grafico (H2)
 
 #### Panoramica
-Popola il tuo grafico a imbuto con serie di dati:
+Popola l'imbuto con valori numerici e, facoltativamente, assegna un colore unico a ciascuna sezione.
+
+`IDataPoint` rappresenta un singolo punto dati all'interno di una serie di grafico.  
+
+`chart.getChartData().getSeries().add()` crea una serie che contiene i punti dati numerici; ogni `IDataPoint` può ricevere il proprio colore di riempimento.
 
 ```java
 import com.aspose.slides.IChart;
@@ -272,43 +333,49 @@ try {
 }
 ```
 
-**Spiegazione**: Questo codice aggiunge una serie di dati al grafico a imbuto e la popola con punti dati. Personalizza inoltre il colore di riempimento di ciascun punto dati.
+Il ciclo dimostra come impostare un riempimento solido per ogni punto, usando costanti `java.awt.Color` specifiche del brand o colori generati casualmente per varietà visiva.
 
-## Casi d'Uso Comuni & Suggerimenti (H2)
+## Casi d'uso comuni e consigli (H2)
 
-- **Report sulla Pipeline di Vendita** – Visualizza la conversione dei lead dal prospect al closed‑won.
-- **Analisi dell'Efficienza di Processo** – Mostra il drop‑off in ogni fase della produzione.
-- **Revisione del Funnel di Marketing** – Confronta le performance delle campagne tra i vari canali.
+- **Report della pipeline di vendita** – Mostra quanti lead passano da prospect a closed‑won in ogni fase.  
+- **Analisi dell'efficienza dei processi** – Visualizza la perdita di materiale o i ritardi temporali tra le fasi di produzione.  
+- **Revisione del funnel di marketing** – Confronta i tassi di conversione tra campagne o fonti di traffico.  
 
-**Consiglio Pro:** Usa le costanti `java.awt.Color` per colori coerenti con il brand invece di valori casuali, ottenendo un aspetto più curato.
+**Consiglio professionale:** invece di colori casuali, utilizza la palette del brand della tua azienda (ad esempio `new Color(0, 112, 192)`) per mantenere la presentazione coerente con gli altri asset di marketing.
 
-## Domande Frequenti
+## Domande frequenti (H2)
 
 **D: Come cambio l'orientamento del grafico a imbuto?**  
-R: Imposta la proprietà `ChartOrientation` sull'oggetto `IChart` a `ChartOrientation.Vertical` o `Horizontal`.
+R: Imposta la proprietà `ChartOrientation` sull'oggetto `IChart` a `ChartOrientation.Vertical` o `ChartOrientation.Horizontal`.
 
 **D: Posso esportare la diapositiva come immagine dopo aver aggiunto il grafico?**  
-R: Sì, chiama `pres.getSlides().get_Item(0).getThumbnail(1, 1)` e salva il `java.awt.image.BufferedImage` risultante.
+R: Sì—chiama `pres.getSlides().get_Item(0).getThumbnail(1, 1)` e scrivi il `java.awt.image.BufferedImage` risultante in un file PNG o JPEG.
 
-**D: Cosa faccio se ho bisogno di più di tre categorie?**  
-R: Aggiungi semplicemente categorie aggiuntive usando `chart.getChartData().getCategories().add(...)` e i relativi punti dati.
+**D: Cosa succede se ho bisogno di più di tre categorie?**  
+R: Basta aggiungere categorie aggiuntive usando `chart.getChartData().getCategories().add(...)` e fornire punti dati corrispondenti per ogni nuova categoria.
 
 **D: C'è un modo per nascondere la legenda?**  
-R: Usa `chart.getChartTitle().setVisible(false)` e `chart.getLegend().setVisible(false)`.
+R: Usa `chart.getChartTitle().setVisible(false)` e `chart.getLegend().setVisible(false)` per rimuovere sia il titolo che la legenda dalla visualizzazione.
 
 **D: È necessaria una licenza per le build di sviluppo?**  
-R: Una licenza temporanea è sufficiente per la valutazione; una licenza completa è richiesta per le distribuzioni in produzione.
+R: Una licenza temporanea è sufficiente per la valutazione; è richiesta una licenza commerciale completa per le distribuzioni in produzione.
 
 ---
 
-**Last Updated:** 2026-03-18  
-**Tested With:** Aspose.Slides per Java 25.4 (jdk16)  
-**Author:** Aspose  
+**Ultimo aggiornamento:** 2026-09-02  
+**Testato con:** Aspose.Slides per Java 25.4 (jdk16)  
+**Autore:** Aspose
+
+## Tutorial correlati
+
+- [Come aggiungere un grafico a PowerPoint usando Aspose.Slides per Java: Guida passo‑passo](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [Come modificare i dati di un grafico PowerPoint usando Aspose.Slides per Java: Guida completa](/slides/java/charts-graphs/edit-ppt-chart-data-aspose-slides-java/)
+- [Aggiungere animazione a un grafico PowerPoint usando Aspose.Slides per Java – Guida passo‑passo](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
