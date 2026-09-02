@@ -1,54 +1,100 @@
 ---
-date: '2026-03-18'
-description: Aspose.Slides for Java ile PowerPoint'te hunç grafikleri oluşturarak
-  Java veri görselleştirmeyi öğrenin. Bu adım adım kılavuz, hunç grafikleri oluşturmayı,
-  grafik verilerini ayarlamayı ve renkleri özelleştirmeyi gösterir.
+date: '2026-09-02'
+description: Aspose.Slides for Java kullanarak PowerPoint'te hun grafiği oluşturmayı
+  öğrenin. Bu adım adım rehber, grafik verilerini ayarlamayı, renkleri özelleştirmeyi
+  ve sunumu dışa aktarmayı kapsar.
 keywords:
-- funnel chart creation
-- Aspose.Slides for Java
-- PowerPoint data visualization
-title: java veri görselleştirme – Aspose.Slides ile Huni Grafikler
+- create funnel chart
+- export powerpoint presentation
+- how to create funnel
+- how to customize colors
+- java data visualization
+lastmod: '2026-09-02'
+og_description: Aspose.Slides for Java kullanarak PowerPoint'te hun grafiği oluşturmayı
+  öğrenin. Bu rehber, veri ayarları, renk özelleştirmesi ve son sunumun dışa aktarılması
+  konularında size yol gösterir.
+og_image_alt: Guide showing funnel chart creation in PowerPoint with Aspose.Slides
+  for Java
+og_title: Aspose.Slides for Java ile PowerPoint'te hun grafiği oluşturun
+schemas:
+- author: Aspose
+  dateModified: '2026-09-02'
+  description: Learn how to create funnel chart in PowerPoint using Aspose.Slides
+    for Java. This step‑by‑step guide covers setting chart data, customizing colors,
+    and exporting the presentation.
+  headline: Create funnel chart in PowerPoint with Aspose.Slides for Java
+  type: TechArticle
+- description: Learn how to create funnel chart in PowerPoint using Aspose.Slides
+    for Java. This step‑by‑step guide covers setting chart data, customizing colors,
+    and exporting the presentation.
+  name: Create funnel chart in PowerPoint with Aspose.Slides for Java
+  steps:
+  - name: '**Add the dependency** – Use the Maven or Gradle snippet above.'
+    text: '**Add the dependency** – Use the Maven or Gradle snippet above.'
+  - name: '**Obtain a license** –'
+    text: '**Obtain a license** –'
+  - name: '**Basic initialization** –'
+    text: '**Basic initialization** –'
+  type: HowTo
+- questions:
+  - answer: Set the `ChartOrientation` property on the `IChart` object to `ChartOrientation.Vertical`
+      or `ChartOrientation.Horizontal`.
+    question: How do I change the funnel chart’s orientation?
+  - answer: Yes—call `pres.getSlides().get_Item(0).getThumbnail(1, 1)` and write the
+      resulting `java.awt.image.BufferedImage` to a PNG or JPEG file.
+    question: Can I export the slide as an image after adding the chart?
+  - answer: Simply add additional categories using `chart.getChartData().getCategories().add(...)`
+      and provide matching data points for each new category.
+    question: What if I need more than three categories?
+  - answer: Use `chart.getChartTitle().setVisible(false)` and `chart.getLegend().setVisible(false)`
+      to remove both the title and legend from the visual.
+    question: Is there a way to hide the legend?
+  - answer: A temporary license is sufficient for evaluation; a full commercial license
+      is required for production deployments.
+    question: Do I need a license for development builds?
+  type: FAQPage
+tags:
+- funnel chart
+- Aspose.Slides
+- Java data visualization
+title: Aspose.Slides for Java ile PowerPoint'te hun grafiği oluşturun
 url: /tr/java/charts-graphs/create-funnel-charts-powerpoint-aspose-slides-java/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# PowerPoint'te Funnel Chart Oluşturmayı Aspose.Slides for Java ile Ustalık
+
+# PowerPoint'te Aspose.Slides for Java ile funnel chart oluşturma
 
 ## Giriş
-Etkileyici sunumlar oluşturmak, veri görselleştirme, tasarım ve hikâye anlatımını birleştiren bir sanattır. Sunumlarınızı geliştiren güçlü bir araç, bir sürecin veya satış hunisinin aşamalarını görsel olarak temsil eden funnel chart'tır. İş raporları, proje zaman çizelgeleri veya satış stratejileri sunuyor olsanız da, funnel chart'ları eklemek ham verileri içgörülü hikâyelere dönüştürebilir.
+Etkileyici sunumlar oluşturmak, veri görselleştirme, tasarım ve hikâye anlatımını birleştiren bir sanattır. Çok aşamalı bir süreci anında netleştiren güçlü bir görsel, funnel chart'tır. Satış hunisi, dönüşüm akışı ya da üretim darboğazını göstermeniz gerekse, iyi tasarlanmış bir funnel chart ham sayıları sezgisel bir anlatıma dönüştürür. Bu öğreticide, Aspose.Slides for Java kullanarak PowerPoint'te **funnel chart oluşturmayı** programlı bir şekilde öğrenecek, verilerini yapılandıracak, her segmentin rengini özelleştirecek ve tamamlanmış sunumu dışa aktaracaksınız.
 
-Bu öğreticide, PowerPoint'te Aspose.Slides for Java kullanarak funnel chart nasıl oluşturulur ve özelleştirilir inceleyeceğiz. Ortamınızı kurma, bir slayta funnel chart ekleme, verilerini yapılandırma ve sunumunuzu kolayca kaydetme adımlarını adım adım öğreneceksiniz. Bu rehberin sonunda, sunumlarınızı profesyonel düzeyde görsellerle zenginleştirebileceksiniz.
+**Öğrenecekleriniz**
+- Maven veya Gradle projesine Aspose.Slides for Java ekleme  
+- Bir `Presentation` nesnesi oluşturma ve slaytlarına erişme  
+- Funnel chart ekleme, kategorileri tanımlama ve seri verilerini doldurma  
+- Her funnel dilimini katı doldurma veya marka‑özel renklerle stil verme  
+- Sunumu PPTX dosyası olarak kaydetme veya bir slaytı resim olarak dışa aktarma  
 
-**Öğrenecekleriniz:**
-- Projenize Aspose.Slides for Java ekleme
-- PowerPoint sunumu örneği oluşturma
-- Slaytlara funnel chart ekleme ve özelleştirme
-- Grafik verilerini etkili bir şekilde yönetme
-- Geliştirilmiş sunumları kaydetme ve dışa aktarma
-
-## Hızlı Yanıtlar
-- **Java veri görselleştirme için birincil kütüphane nedir?** Aspose.Slides for Java.
-- **PowerPoint'te funnel chart nasıl oluşturulur?** Use `addChart(ChartType.Funnel, …)` on a slide.
-- **Hangi metod grafiğin veri kaynağını ayarlar?** Work with `IChartDataWorkbook` and `chart.getChartData()`.
-- **Her funnel segmenti için renkleri özelleştirebilir miyim?** Yes, set `FillType.Solid` and assign a random or specific `java.awt.Color`.
-- **Üretim kullanımında lisansa ihtiyacım var mı?** A purchased Aspose.Slides license is required for commercial deployments.
+## Hızlı cevaplar
+- **Java veri görselleştirme için birincil kütüphane nedir?** Aspose.Slides for Java.  
+- **PowerPoint'te funnel chart nasıl oluşturulur?** Hedef slaytta `slide.addChart(ChartType.Funnel, …)` çağrısı yapılır.  
+- **Hangi API chart'ın veri kaynağını ayarlar?** `IChartDataWorkbook` ve `chart.getChartData()` birlikte kullanılır.  
+- **Her funnel segmenti için renk özelleştirilebilir mi?** Evet—`FillFormat.setFillType(FillType.Solid)` ayarlanır ve bir `java.awt.Color` atanır.  
+- **Üretim kullanımında lisans gerekir mi?** Ticari dağıtımlar için satın alınmış bir Aspose.Slides lisansı gereklidir.
 
 ## Java veri görselleştirme nedir?
-Java veri görselleştirme, geliştiricilerin ham verileri doğrudan Java uygulamalarından net, etkileşimli veya statik görsel temsillere dönüştürmelerini sağlayan teknikler ve kütüphanelerdir. Aspose.Slides for Java, grafikler, diyagramlar ve zengin sunumlar oluşturmak için önde gelen bir kütüphanedir.
+Java veri görselleştirme, ham verileri doğrudan Java uygulamalarından grafikler, çizelgeler veya etkileşimli görseller haline getirme pratiğidir. Aspose.Slides for Java, geliştiricilerin PowerPoint'i manuel olarak açmadan 100'den fazla chart türü—funnel chart dahil—oluşturmasını sağlayan lider bir kütüphanedir; 500 slayta kadar sunumu desteklerken bellek kullanımını düşük tutar.
 
 ## PowerPoint'te funnel chart neden kullanılır?
-Funnel chart'lar, aşamalar arasındaki düşüş oranlarını kolayca göstermenizi sağlar—satış hunileri, dönüşüm hunileri veya süreç verimliliği analizleri için idealdir. Aspose.Slides ile PowerPoint'i manuel olarak açmadan düzen, renk ve veri üzerinde tam kontrol elde edersiniz.
+Funnel chart'lar, ardışık aşamalardaki düşüş oranlarını anında gösterir ve satış hunileri, dönüşüm analizleri veya süreç verimliliği incelemeleri için idealdir. Aspose.Slides, düzen, segment renkleri ve veri etiketleri üzerinde piksel‑tam kontrol sunar; böylece marka tutarlılığını korur ve PowerPoint UI'da chart düzenleme zahmetinden kaçınırsınız.
 
-## Önkoşullar (H2)
-Başlamadan önce, bu öğreticiyi takip edebilmeniz için gerekli araç ve bilgiye sahip olduğunuzdan emin olun.
+## Önkoşullar
 
-### Gerekli Kütüphaneler, Sürümler ve Bağımlılıklar
-Projenizde Aspose.Slides for Java'yı uygulamak için belirli kütüphane sürümlerine ihtiyacınız var. Maven veya Gradle kullanarak nasıl kuracağınız aşağıda gösterilmiştir:
+### Gerekli kütüphaneler, sürümler ve bağımlılıklar
+Aspose.Slides for Java'yi projenize eklemek için uygun Maven veya Gradle koordinatlarını ekleyin. Kütüphane Java 8‑21 ile çalışır ve harici yerel bağımlılık gerektirmez.
 
 **Maven:**
 
@@ -67,25 +113,25 @@ Projenizde Aspose.Slides for Java'yı uygulamak için belirli kütüphane sürü
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Alternatif olarak, kütüphaneyi doğrudan [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) adresinden indirebilirsiniz.
+JAR dosyasını doğrudan [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) adresinden de indirebilirsiniz.
 
-### Ortam Kurulum Gereksinimleri
-Aspose.Slides uyumluluğu için JDK 1.6 veya üzeri bir sürümle geliştirme ortamınızın kurulu olduğundan emin olun.
+### Ortam kurulum gereksinimleri
+JDK 8 veya daha yeni bir sürümün kurulu olduğundan ve `JAVA_HOME`'un doğru JDK dizinine işaret ettiğinden emin olun. Aspose.Slides, Windows, macOS ve Linux dahil JDK'yı destekleyen tüm işletim sistemlerinde çalışır.
 
-### Bilgi Önkoşulları
-Java programlama kavramlarına ve temel sunum tasarımı prensiplerine aşina olmak faydalı olacaktır, ancak gerekli tüm adımları adım adım göstereceğimiz için zorunlu değildir.
+### Bilgi önkoşulları
+Java sözdizimi, nesne‑yönelimli programlama ve bir sunum dosyası kavramına temel aşinalık faydalı olur; ancak kod parçacıkları her deneyim seviyesindeki geliştirici için tam açıklamalıdır.
 
-## Aspose.Slides for Java Kurulumu (H2)
-Projenizde Aspose.Slides'i kullanmaya başlamak için şu adımları izleyin:
+## Aspose.Slides for Java kurulumu
 
-1. **Add the Dependency**: Use Maven or Gradle to include Aspose.Slides, as shown above.
-2. **License Acquisition**:
-   - **Free Trial**: Download a temporary license from [Aspose's website](https://purchase.aspose.com/temporary-license/) for evaluation purposes.
-   - **Purchase**: For production use, purchase a license through the [purchase page](https://purchase.aspose.com/buy).
-3. **Basic Initialization**:
-   Create a new Java class and initialize your presentation object:
+1. **Bağımlılığı ekleyin** – Yukarıdaki Maven veya Gradle snippet'ini kullanın.  
+2. **Lisans edinin** –  
+   - **Ücretsiz deneme** – Değerlendirme için [Aspose'un web sitesinden](https://purchase.aspose.com/temporary-license/) geçici bir lisans indirin.  
+   - **Tam lisans** – Üretim lisansını [satın alma sayfasından](https://purchase.aspose.com/buy) alın.  
+3. **Temel başlatma** –  
 
-   ```java
+`Presentation` Aspose.Slides'ın bellek içindeki bir PowerPoint dosyasını temsil eden çekirdek sınıfıdır. Slaytlara, şekillere ve chart nesnelerine erişim sağlar.
+
+```java
    import com.aspose.slides.Presentation;
    
    public class FunnelChartDemo {
@@ -100,15 +146,18 @@ Projenizde Aspose.Slides'i kullanmaya başlamak için şu adımları izleyin:
    }
    ```
 
-Bu kurulum, Aspose.Slides kullanarak sunumlar oluşturup manipüle etmenizi sağlayacaktır.
+Yukarıdaki kod, slayt manipülasyonu için yeni bir `Presentation` örneği oluşturur ve `dispose()` ile kaynakların serbest bırakılmasını garanti eder.
 
-## Uygulama Kılavuzu
-Uygulamayı, PowerPoint'te funnel chart oluşturmanın belirli bir yönüne odaklanan ayrı özelliklere böleceğiz.
+## Uygulama rehberi
 
-### Özellik 1: Sunum Oluşturma (H2)
+Her kod yer tutucusundan önce kısa açıklayıcı metin ekleyerek tam bir funnel chart oluşturmak için gereken tüm özellikleri adım adım inceleyeceğiz.
+
+### Özellik 1: sunum oluşturma
 
 #### Genel Bakış
-`Presentation` sınıfının bir örneğini oluşturarak başlayın. Bu nesne PowerPoint dosyanızı temsil eder ve çeşitli işlemler yapmanıza olanak tanır.
+`Presentation` sınıfının bir örneğini oluşturun. Bu nesne, sonraki tüm işlemler için giriş noktasıdır.
+
+`Presentation` Aspose.Slides'ın slayt koleksiyonunu ve global belge ayarlarını tutan üst‑seviye nesnedir.
 
 ```java
 import com.aspose.slides.Presentation;
@@ -122,12 +171,14 @@ try {
 }
 ```
 
-**Explanation**: This code snippet initializes a `Presentation` object, pointing to an existing PowerPoint file. The `try‑finally` block ensures resources are released properly with `dispose()`.
+Bu snippet boş bir sunum açar; daha sonra `.pptx` dosyası olarak kaydedebilirsiniz.
 
-### Özellik 2: Bir Slayta Funnel Chart Ekleme (H2)
+### Özellik 2: slayta funnel chart ekleme
 
 #### Genel Bakış
-Aşağıdaki adımları izleyerek sunumunuzun ilk slaytına bir funnel chart ekleyin:
+İlk slayta bir funnel chart ekleyin, boyutunu tanımlayın ve chart tipini ayarlayın.
+
+`ChartType.Funnel`, Aspose.Slides'ın bar veya line chart yerine funnel‑stil görselleştirme oluşturmasını sağlar.
 
 ```java
 import com.aspose.slides.IChart;
@@ -145,12 +196,14 @@ try {
 }
 ```
 
-**Explanation**: The `addChart()` method creates a funnel chart on the first slide. Parameters define its position and size.
+`addChart` çağrısı chart şekli oluşturur, `(50, 50)` noktasına konumlandırır ve genişliği `500`, yüksekliği `400` olarak ayarlar.
 
-### Özellik 3: Grafik Verilerini Temizleme (H2)
+### Özellik 3: chart verilerini temizleme
 
 #### Genel Bakış
-Grafiğinizi veriyle doldurmadan önce mevcut içeriği temizlemeniz gerekebilir:
+Chart'ı doldurmadan önce şablonda bulunabilecek yer tutucu kategori veya serileri temizleyin.
+
+`chart.getChartData().getCategories().clear()` mevcut tüm kategori girdilerini siler, `chart.getChartData().getSeries().clear()` ise önceden doldurulmuş serileri kaldırır.
 
 ```java
 import com.aspose.slides.IChart;
@@ -170,12 +223,14 @@ try {
 }
 ```
 
-**Explanation**: This code removes any pre‑existing data from the funnel chart by clearing its categories and series.
+Bu, özel verilerinizin tam olarak istediğiniz gibi görünmesini sağlayan temiz bir tablo oluşturur.
 
-### Özellik 4: Grafik Veri Çalışma Kitabını Ayarlama (H2)
+### Özellik 4: chart veri çalışma kitabını ayarlama
 
 #### Genel Bakış
-Verilerinizi etkili bir şekilde yönetmek için grafiğin veri çalışma kitabını başlatın:
+`IChartDataWorkbook` nesnesi, chart'ı besleyen ham değerleri depolar. Başlatılması, hücrelere doğrudan veri yazmanıza olanak tanır.
+
+`IChartDataWorkbook`, Aspose.Slides'ın chart serileri ve kategorileri için kullandığı hafif bir bellek içi elektronik tablo gibidir.
 
 ```java
 import com.aspose.slides.IChart;
@@ -198,12 +253,14 @@ try {
 }
 ```
 
-**Explanation**: The `IChartDataWorkbook` object allows you to clear existing cells, preparing the workbook for new data entries.
+Kod, mevcut hücreleri temizler ve yeni girişler için çalışma kitabını hazırlar.
 
-### Özellik 5: Grafik'e Kategori Ekleme (H2)
+### Özellik 5: chart'a kategori ekleme
 
 #### Genel Bakış
-Funnel chart'ınıza anlamlı kategoriler ekleyin:
+Funnel'ın sol tarafında görünen metin etiketlerini tanımlayın—bunlar sürecinizin her aşamasını temsil eder.
+
+`chart.getChartData().getCategories().add()` belirli bir çalışma kitabı hücresine bağlı yeni bir kategori nesnesi oluşturur.
 
 ```java
 import com.aspose.slides.IChart;
@@ -227,12 +284,16 @@ try {
 }
 ```
 
-**Explanation**: This code adds categories to the funnel chart by accessing the data workbook and inserting category names into specific cells.
+Burada üç aşama ekliyoruz: “Prospects”, “Qualified Leads” ve “Closed Deals”.
 
-### Özellik 6: Grafik'e Veri Serisi Ekleme (H2)
+### Özellik 6: chart'a veri serisi ekleme
 
 #### Genel Bakış
-Funnel chart'ınızı veri serileriyle doldurun:
+Funnel'ı sayısal değerlerle doldurun ve isteğe bağlı olarak her dilime benzersiz bir renk atayın.
+
+`IDataPoint`, bir chart serisi içindeki tek bir veri noktasını temsil eder.  
+
+`chart.getChartData().getSeries().add()` sayısal veri noktalarını tutan bir seri oluşturur; her `IDataPoint` kendi doldurma rengine sahip olabilir.
 
 ```java
 import com.aspose.slides.IChart;
@@ -272,43 +333,49 @@ try {
 }
 ```
 
-**Explanation**: This code adds a data series to the funnel chart and populates it with data points. It also customizes the fill color of each data point.
+Döngü, her nokta için katı doldurma ayarlamayı gösterir; marka‑özel `java.awt.Color` sabitleri ya da görsel çeşitlilik için rastgele renkler kullanılabilir.
 
-## Yaygın Kullanım Durumları ve İpuçları (H2)
+## Yaygın kullanım durumları ve ipuçları
 
-- **Sales Pipeline Reporting** – Potansiyel müşteriden kapalı‑kazanç aşamasına dönüşüm oranlarını görselleştirin.
-- **Process Efficiency Analysis** – Her üretim aşamasındaki düşüşleri gösterin.
-- **Marketing Funnel Review** – Kampanya performansını kanallar arasında karşılaştırın.
+- **Satış hunisi raporlaması** – Her aşamada kaç lead'in prospect'tan kapalı‑kazanç'a geçtiğini gösterin.  
+- **Süreç verimliliği analizi** – Üretim adımları arasındaki malzeme kaybını veya zaman gecikmelerini görselleştirin.  
+- **Pazarlama hunisi incelemesi** – Kampanyalar veya trafik kaynakları arasındaki dönüşüm oranlarını karşılaştırın.  
 
-**Pro tip:** Markanızın renk paletine uygun olması için rastgele değerler yerine `java.awt.Color` sabitlerini kullanın; bu, daha profesyonel bir görünüm sağlar.
+**Pro ipucu:** Rastgele renkler yerine şirketinizin marka paletini (ör. `new Color(0, 112, 192)`) kullanarak sunumu diğer pazarlama varlıklarıyla tutarlı tutun.
 
 ## Sıkça Sorulan Sorular
 
-**Q: Funnel chart'ın yönünü nasıl değiştiririm?**  
-A: Set the `ChartOrientation` property on the `IChart` object to `ChartOrientation.Vertical` or `Horizontal`.
+**S: Funnel chart yönünü nasıl değiştiririm?**  
+C: `IChart` nesnesindeki `ChartOrientation` özelliğini `ChartOrientation.Vertical` veya `ChartOrientation.Horizontal` olarak ayarlayın.
 
-**Q: Grafik eklendikten sonra slaytı resim olarak dışa aktarabilir miyim?**  
-A: Yes, call `pres.getSlides().get_Item(0).getThumbnail(1, 1)` and save the resulting `java.awt.image.BufferedImage`.
+**S: Chart'ı ekledikten sonra slaytı resim olarak dışa aktarabilir miyim?**  
+C: Evet—`pres.getSlides().get_Item(0).getThumbnail(1, 1)` çağrısı ile elde edilen `java.awt.image.BufferedImage`'ı PNG veya JPEG dosyasına yazabilirsiniz.
 
-**Q: Üçten fazla kategoriye ihtiyacım olursa ne yapmalıyım?**  
-A: Simply add additional categories using `chart.getChartData().getCategories().add(...)` and corresponding data points.
+**S: Üçten fazla kategori eklemem gerekirse?**  
+C: `chart.getChartData().getCategories().add(...)` ile ek kategori ekleyin ve her yeni kategori için eşleşen veri noktalarını sağlayın.
 
-**Q: Legend'ı gizlemenin bir yolu var mı?**  
-A: Use `chart.getChartTitle().setVisible(false)` and `chart.getLegend().setVisible(false)`.
+**S: Legend (gösterge) gizlenebilir mi?**  
+C: `chart.getChartTitle().setVisible(false)` ve `chart.getLegend().setVisible(false)` kullanarak başlık ve göstergeyi kaldırabilirsiniz.
 
-**Q: Geliştirme sürümleri için lisansa ihtiyacım var mı?**  
-A: A temporary license works for evaluation; a full license is required for production deployments.
+**S: Geliştirme sürümleri için lisans gerekli mi?**  
+C: Değerlendirme için geçici bir lisans yeterlidir; üretim dağıtımları için tam ticari lisans gereklidir.
 
 ---
 
-**Last Updated:** 2026-03-18  
-**Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
-**Author:** Aspose  
+**Son güncelleme:** 2026-09-02  
+**Test edilen sürüm:** Aspose.Slides for Java 25.4 (jdk16)  
+**Yazar:** Aspose
+
+## İlgili Eğitimler
+
+- [Aspose.Slides for Java Kullanarak PowerPoint'e Grafik Ekleme: Adım Adım Kılavuz](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [Aspose.Slides for Java ile PowerPoint Chart Verilerini Düzenleme: Kapsamlı Kılavuz](/slides/java/charts-graphs/edit-ppt-chart-data-aspose-slides-java/)
+- [Aspose.Slides for Java ile PowerPoint chart'ına animasyon ekleme – Adım Adım Kılavuz](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

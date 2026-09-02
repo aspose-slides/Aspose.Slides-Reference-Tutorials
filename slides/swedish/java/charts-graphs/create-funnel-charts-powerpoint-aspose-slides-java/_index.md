@@ -1,54 +1,100 @@
 ---
-date: '2026-03-18'
-description: Lär dig Java-datavisuellisering genom att skapa trattdiagram i PowerPoint
-  med Aspose.Slides för Java. Denna steg‑för‑steg‑guide visar hur du skapar trattdiagram,
-  ställer in diagramdata och anpassar färger.
+date: '2026-09-02'
+description: Lär dig hur du skapar funnel chart i PowerPoint med Aspose.Slides for
+  Java. Denna steg‑för‑steg‑guide täcker hur du ställer in diagramdata, anpassar färger
+  och exporterar presentationen.
 keywords:
-- funnel chart creation
-- Aspose.Slides for Java
-- PowerPoint data visualization
-title: java-datavisualisering – Trattdiagram med Aspose.Slides
+- create funnel chart
+- export powerpoint presentation
+- how to create funnel
+- how to customize colors
+- java data visualization
+lastmod: '2026-09-02'
+og_description: Lär dig hur du skapar funnel chart i PowerPoint med Aspose.Slides
+  for Java. Denna guide går igenom hur du ställer in data, anpassar färger och exporterar
+  den slutliga presentationen.
+og_image_alt: Guide showing funnel chart creation in PowerPoint with Aspose.Slides
+  for Java
+og_title: Skapa funnel chart i PowerPoint med Aspose.Slides for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-02'
+  description: Learn how to create funnel chart in PowerPoint using Aspose.Slides
+    for Java. This step‑by‑step guide covers setting chart data, customizing colors,
+    and exporting the presentation.
+  headline: Create funnel chart in PowerPoint with Aspose.Slides for Java
+  type: TechArticle
+- description: Learn how to create funnel chart in PowerPoint using Aspose.Slides
+    for Java. This step‑by‑step guide covers setting chart data, customizing colors,
+    and exporting the presentation.
+  name: Create funnel chart in PowerPoint with Aspose.Slides for Java
+  steps:
+  - name: '**Add the dependency** – Use the Maven or Gradle snippet above.'
+    text: '**Add the dependency** – Use the Maven or Gradle snippet above.'
+  - name: '**Obtain a license** –'
+    text: '**Obtain a license** –'
+  - name: '**Basic initialization** –'
+    text: '**Basic initialization** –'
+  type: HowTo
+- questions:
+  - answer: Set the `ChartOrientation` property on the `IChart` object to `ChartOrientation.Vertical`
+      or `ChartOrientation.Horizontal`.
+    question: How do I change the funnel chart’s orientation?
+  - answer: Yes—call `pres.getSlides().get_Item(0).getThumbnail(1, 1)` and write the
+      resulting `java.awt.image.BufferedImage` to a PNG or JPEG file.
+    question: Can I export the slide as an image after adding the chart?
+  - answer: Simply add additional categories using `chart.getChartData().getCategories().add(...)`
+      and provide matching data points for each new category.
+    question: What if I need more than three categories?
+  - answer: Use `chart.getChartTitle().setVisible(false)` and `chart.getLegend().setVisible(false)`
+      to remove both the title and legend from the visual.
+    question: Is there a way to hide the legend?
+  - answer: A temporary license is sufficient for evaluation; a full commercial license
+      is required for production deployments.
+    question: Do I need a license for development builds?
+  type: FAQPage
+tags:
+- funnel chart
+- Aspose.Slides
+- Java data visualization
+title: Skapa funnel chart i PowerPoint med Aspose.Slides for Java
 url: /sv/java/charts-graphs/create-funnel-charts-powerpoint-aspose-slides-java/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Behärska skapandet av trattdiagram i PowerPoint med Aspose.Slides för Java
 
 ## Introduktion
-Att skapa övertygande presentationer är en konst som kombinerar datavisualisering, design och berättande. Ett kraftfullt verktyg för att förbättra dina presentationer är trattdiagrammet – en visuell representation av steg inom en process eller försäljningspipeline. Oavsett om du presenterar affärsrapporter, projekttidslinjer eller försäljningsstrategier, kan införlivandet av trattdiagram förvandla rådata till insiktsfulla berättelser.
+Att skapa övertygande presentationer är en konst som förenar datavisualisering, design och berättande. En kraftfull visualisering som omedelbart klargör en flerstegsprocess är trattdiagrammet. Oavsett om du behöver illustrera en försäljningspipeline, ett konverteringsflöde eller en produktionsflaskhals, förvandlar ett välutformat trattdiagram råa siffror till en intuitiv berättelse. I den här handledningen kommer du att lära dig hur du **skapar trattdiagram** i PowerPoint programatiskt med hjälp av Aspose.Slides för Java, konfigurerar dess data, anpassar varje segments färg och exporterar den färdiga presentationen.
 
-I den här handledningen kommer vi att utforska hur man skapar och anpassar trattdiagram i PowerPoint med Aspose.Slides för Java. Du kommer att lära dig steg‑för‑steg‑processen för att konfigurera din miljö, lägga till ett trattdiagram på en bild, konfigurera dess data och spara din presentation enkelt. När du har gått igenom guiden kommer du att kunna förbättra dina presentationer med professionella visualiseringar.
-
-**Vad du kommer att lära dig:**
-- Installera Aspose.Slides för Java i ditt projekt
-- Skapa en instans av en PowerPoint-presentation
-- Lägga till och anpassa trattdiagram på bilder
-- Hantera diagramdata effektivt
-- Spara och exportera dina förbättrade presentationer
+**Vad du kommer att lära dig**
+- Hur du lägger till Aspose.Slides för Java i ett Maven‑ eller Gradle‑projekt
+- Hur du instansierar ett `Presentation`‑objekt och får åtkomst till dess bilder
+- Hur du infogar ett trattdiagram, definierar kategorier och fyller i seriedata
+- Hur du formaterar varje trattsegment med solida fyllningar eller varumärkesspecifika färger
+- Hur du sparar presentationen som en PPTX‑fil eller exporterar en bildruta som en bild
 
 ## Snabba svar
-- **Vad är det primära biblioteket för java-datavisualisering?** Aspose.Slides for Java.
-- **Hur skapar man ett trattdiagram i PowerPoint?** Use `addChart(ChartType.Funnel, …)` on a slide.
-- **Vilken metod sätter diagrammets datakälla?** Work with `IChartDataWorkbook` and `chart.getChartData()`.
-- **Kan jag anpassa färger för varje trattsegment?** Yes, set `FillType.Solid` and assign a random or specific `java.awt.Color`.
-- **Behöver jag en licens för produktionsanvändning?** A purchased Aspose.Slides license is required for commercial deployments.
+- **Vad är det primära biblioteket för java‑datavisualisering?** Aspose.Slides for Java.  
+- **Hur skapar du ett trattdiagram i PowerPoint?** Call `slide.addChart(ChartType.Funnel, …)` on the target slide.  
+- **Vilket API anger diagrammets datakälla?** Use `IChartDataWorkbook` together with `chart.getChartData()`.  
+- **Kan du anpassa färger för varje trattsegment?** Yes—set `FillFormat.setFillType(FillType.Solid)` and assign a `java.awt.Color`.  
+- **Behöver du en licens för produktionsanvändning?** A purchased Aspose.Slides license is required for commercial deployments.
 
-## Vad är java-datavisualisering?
-java-datavisualisering avser tekniker och bibliotek som låter utvecklare omvandla rådata till tydliga, interaktiva eller statiska visuella representationer direkt från Java-applikationer. Aspose.Slides för Java är ett ledande bibliotek för att programatiskt skapa diagram, diagram och rika presentationer.
+## Vad är Java‑datavisualisering?
+Java‑datavisualisering är praxis att omvandla rådata till diagram, grafer eller interaktiva grafik direkt från Java‑applikationer. Aspose.Slides för Java är ett ledande bibliotek som gör det möjligt för utvecklare att generera över 100 diagramtyper — inklusive trattdiagram — utan att någonsin starta PowerPoint manuellt, och stödjer presentationer med upp till 500 bilder samtidigt som minnesanvändningen hålls låg.
 
 ## Varför använda trattdiagram i PowerPoint?
-Trattdiagram gör det enkelt att illustrera avhoppningsfrekvenser mellan steg – idealiskt för försäljningspipelines, konverteringstrattar eller analyser av processeffektivitet. Med Aspose.Slides får du full kontroll över layout, färger och data utan att någonsin behöva öppna PowerPoint manuellt.
+Trattdiagram avslöjar omedelbart avhoppsnivåer över sekventiella steg, vilket gör dem idealiska för försäljningspipelines, konverteringsanalys eller granskning av processeffektivitet. Aspose.Slides ger dig pixelperfekt kontroll över layout, segmentfärger och datamärkningar, så att du kan upprätthålla varumärkeskonsekvens och undvika det manuella arbetet med att redigera diagram i PowerPoints användargränssnitt.
 
-## Förutsättningar
-Innan vi börjar, se till att du har de nödvändiga verktygen och kunskapen för att följa den här handledningen.
+## Förutsättningar (H2)
 
 ### Nödvändiga bibliotek, versioner och beroenden
-För att implementera Aspose.Slides för Java i ditt projekt behöver du specifika versioner av bibliotek. Så här kan du konfigurera det med Maven eller Gradle:
+För att implementera Aspose.Slides för Java i ditt projekt, inkludera de lämpliga Maven- eller Gradle‑koordinaterna. Biblioteket fungerar med Java 8‑21 och kräver inga externa inhemska beroenden.
 
 **Maven:**
 
@@ -67,24 +113,25 @@ För att implementera Aspose.Slides för Java i ditt projekt behöver du specifi
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Alternativt kan du ladda ner biblioteket direkt från [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+Du kan också ladda ner JAR-filen direkt från [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
 ### Krav för miljöinställning
-Säkerställ att din utvecklingsmiljö är konfigurerad med JDK 1.6 eller högre, eftersom Aspose.Slides kräver detta för kompatibilitet.
+Se till att du har JDK 8 eller nyare installerat och att din `JAVA_HOME` pekar på rätt JDK‑katalog. Aspose.Slides körs på alla operativsystem som stöder JDK, inklusive Windows, macOS och Linux.
 
 ### Kunskapsförutsättningar
-Kännedom om Java-programmeringskoncept och grundläggande principer för presentationsdesign är fördelaktigt men inte nödvändigt, eftersom vi kommer att gå igenom allt steg‑för‑steg.
+Grundläggande kunskap om Java‑syntax, objektorienterad programmering och konceptet med en presentationsfil är till hjälp, men kodsnuttarna är fullt förklarade för utvecklare på alla erfarenhetsnivåer.
 
-## Konfigurera Aspose.Slides för Java
-För att börja använda Aspose.Slides i ditt projekt, följ dessa steg:
+## Konfigurera Aspose.Slides för Java (H2)
 
-1. **Lägg till beroendet:** Använd Maven eller Gradle för att inkludera Aspose.Slides, som visas ovan.
-2. **Licensförvärv**:
-   - **Free Trial:** Ladda ner en tillfällig licens från [Aspose's website](https://purchase.aspose.com/temporary-license/) för utvärderingsändamål.
-   - **Purchase:** För produktionsanvändning, köp en licens via [purchase page](https://purchase.aspose.com/buy).
-3. **Grundläggande initiering:** Skapa en ny Java-klass och initiera ditt presentationsobjekt:
+1. **Lägg till beroendet** – Använd Maven‑ eller Gradle‑snutten ovan.  
+2. **Skaffa en licens** –  
+   - **Gratis provperiod** – Ladda ner en tillfällig licens från [Aspose's website](https://purchase.aspose.com/temporary-license/) för utvärdering.  
+   - **Full licens** – Köp en produktionslicens via [purchase page](https://purchase.aspose.com/buy).  
+3. **Grundläggande initiering** –  
 
-   ```java
+`Presentation` är Aspose.Slides kärnklass som representerar en PowerPoint‑fil i minnet. Den ger åtkomst till bilder, former och diagramobjekt.
+
+```java
    import com.aspose.slides.Presentation;
    
    public class FunnelChartDemo {
@@ -99,15 +146,18 @@ För att börja använda Aspose.Slides i ditt projekt, följ dessa steg:
    }
    ```
 
-Detta gör att du kan skapa och manipulera presentationer med Aspose.Slides.
+Koden ovan skapar en ny `Presentation`‑instans, klar för bildmanipulation, och garanterar att resurser frigörs med `dispose()`.
 
 ## Implementeringsguide
-Vi kommer att dela upp implementeringen i separata funktioner, var och en fokuserad på ett specifikt aspekt av skapandet av trattdiagram i PowerPoint.
 
-### Funktion 1: Skapa en presentation
+Vi går igenom varje funktion som behövs för att bygga ett komplett trattdiagram, och lägger till kort förklarande text före varje kodplatshållare.
+
+### Funktion 1: skapa en presentation (H2)
 
 #### Översikt
-Börja med att skapa en instans av klassen `Presentation`. Detta objekt representerar din PowerPoint-fil och låter dig utföra olika operationer.
+Börja med att skapa en instans av `Presentation`‑klassen. Detta objekt är startpunkten för alla efterföljande operationer.
+
+`Presentation` är Aspose.Slides översta objekt som innehåller bildsamlingen och globala dokumentinställningar.
 
 ```java
 import com.aspose.slides.Presentation;
@@ -121,12 +171,12 @@ try {
 }
 ```
 
-**Förklaring**: Detta kodsnutt initierar ett `Presentation`-objekt som pekar på en befintlig PowerPoint-fil. `try‑finally`-blocket säkerställer att resurser frigörs korrekt med `dispose()`.
-
-### Funktion 2: Lägga till ett trattdiagram på en bild
+### Funktion 2: lägga till ett trattdiagram på en bild (H2)
 
 #### Översikt
-Lägg till ett trattdiagram på presentationens första bild med följande steg:
+Infoga ett trattdiagram på den första bilden, definiera dess storlek och ange diagramtypen.
+
+`ChartType.Funnel` talar om för Aspose.Slides att rendera en tratt‑stil visualisering istället för ett stapel‑ eller linjediagram.
 
 ```java
 import com.aspose.slides.IChart;
@@ -144,12 +194,14 @@ try {
 }
 ```
 
-**Förklaring**: Metoden `addChart()` skapar ett trattdiagram på den första bilden. Parametrarna definierar dess position och storlek.
+`addChart`‑anropet skapar diagramformen, placerar den på `(50, 50)` punkter och ger den en bredd på `500` och en höjd på `400`.
 
-### Funktion 3: Rensa diagramdata
+### Funktion 3: rensa diagramdata (H2)
 
 #### Översikt
-Innan du fyller ditt diagram med data kan du behöva rensa befintligt innehåll:
+Innan diagrammet fylls, rensa eventuella platshållarkategorier eller serier som mallen kan innehålla.
+
+`chart.getChartData().getCategories().clear()` tar bort alla befintliga kategori‑poster, medan `chart.getChartData().getSeries().clear()` tar bort eventuella förifyllda serier.
 
 ```java
 import com.aspose.slides.IChart;
@@ -169,12 +221,14 @@ try {
 }
 ```
 
-**Förklaring**: Denna kod tar bort all förhandsbefintlig data från trattdiagrammet genom att rensa dess kategorier och serier.
+Detta säkerställer en ren start så att dina anpassade data visas exakt som avsett.
 
-### Funktion 4: Konfigurera diagramdatabok
+### Funktion 4: konfigurera diagramdatabok (H2)
 
 #### Översikt
-Initiera diagrammets databok för att hantera din data effektivt:
+`IChartDataWorkbook`‑objektet lagrar de råa värdena som driver diagrammet. Att initiera det låter dig skriva data direkt i celler.
+
+`IChartDataWorkbook` är ett lättviktigt kalkylblad i minnet som Aspose.Slides använder för att mata diagramserier och -kategorier.
 
 ```java
 import com.aspose.slides.IChart;
@@ -197,12 +251,14 @@ try {
 }
 ```
 
-**Förklaring**: Objektet `IChartDataWorkbook` låter dig rensa befintliga celler, vilket förbereder databoken för nya dataposter.
+Koden rensar eventuella befintliga celler och förbereder arbetsboken för nya poster.
 
-### Funktion 5: Lägga till kategorier i ett diagram
+### Funktion 5: lägga till kategorier i ett diagram (H2)
 
 #### Översikt
-Lägg till meningsfulla kategorier i ditt trattdiagram:
+Definiera de textuella etiketter som visas på vänster sida av tratten — dessa representerar varje steg i din process.
+
+`chart.getChartData().getCategories().add()` skapar ett nytt kategoriobjekt kopplat till en specifik arbetsboks­cell.
 
 ```java
 import com.aspose.slides.IChart;
@@ -226,12 +282,16 @@ try {
 }
 ```
 
-**Förklaring**: Denna kod lägger till kategorier i trattdiagrammet genom att komma åt databoken och infoga kategorinamnen i specifika celler.
+Här lägger vi till tre steg: ”Prospects”, ”Qualified Leads” och ”Closed Deals”.
 
-### Funktion 6: Lägga till dataserier i ett diagram
+### Funktion 6: lägga till dataserier i ett diagram (H2)
 
 #### Översikt
-Fyll ditt trattdiagram med dataserier:
+Fyll tratten med numeriska värden och tilldela eventuellt en unik färg till varje segment.
+
+`IDataPoint` representerar en enskild datapunkt inom en diagramserie.  
+
+`chart.getChartData().getSeries().add()` skapar en serie som innehåller de numeriska datapunkterna; varje `IDataPoint` kan få sin egen fyllningsfärg.
 
 ```java
 import com.aspose.slides.IChart;
@@ -271,43 +331,49 @@ try {
 }
 ```
 
-**Förklaring**: Denna kod lägger till en dataserie i trattdiagrammet och fyller den med datapunkter. Den anpassar också fyllningsfärgen för varje datapunkt.
+Loopen demonstrerar hur man sätter en solid fyllning för varje punkt, med antingen varumärkesspecifika `java.awt.Color`‑konstanter eller slumpmässigt genererade färger för visuell variation.
 
-## Vanliga användningsområden & tips
+## Vanliga användningsområden & tips (H2)
 
-- **Sales Pipeline Reporting** – Visualisera leadkonvertering från prospekt till avslutad affär.
-- **Process Efficiency Analysis** – Visa avhoppning vid varje produktionssteg.
-- **Marketing Funnel Review** – Jämför kampanjprestanda över kanaler.
+- **Försäljningspipeline‑rapportering** – Visa hur många leads som går från prospect till closed‑won i varje steg.  
+- **Process‑effektivitet‑analys** – Visualisera materialförlust eller tidsfördröjningar över tillverkningssteg.  
+- **Marknadsföringstratt‑granskning** – Jämför konverteringsgrader över kampanjer eller trafik­källor.  
 
-**Pro tip:** Använd `java.awt.Color`-konstanter för varumärkeskonsekventa färger istället för slumpmässiga värden för ett mer polerat utseende.
+**Proffstips:** Istället för slumpmässiga färger, använd ditt företags varumärkespalett (t.ex. `new Color(0, 112, 192)`) för att hålla presentationen konsekvent med andra marknadsföringsmaterial.
 
-## Vanliga frågor
+## Vanliga frågor (H2)
 
 **Q: Hur ändrar jag trattdiagrammets orientering?**  
-A: Set the `ChartOrientation` property on the `IChart` object to `ChartOrientation.Vertical` or `Horizontal`.
+A: Ställ in `ChartOrientation`‑egenskapen på `IChart`‑objektet till `ChartOrientation.Vertical` eller `ChartOrientation.Horizontal`.
 
 **Q: Kan jag exportera bilden som en bild efter att ha lagt till diagrammet?**  
-A: Yes, call `pres.getSlides().get_Item(0).getThumbnail(1, 1)` and save the resulting `java.awt.image.BufferedImage`.
+A: Ja—anropa `pres.getSlides().get_Item(0).getThumbnail(1, 1)` och skriv den resulterande `java.awt.image.BufferedImage` till en PNG‑ eller JPEG‑fil.
 
-**Q: Vad händer om jag behöver mer än tre kategorier?**  
-A: Simply add additional categories using `chart.getChartData().getCategories().add(...)` and corresponding data points.
+**Q: Vad händer om jag behöver fler än tre kategorier?**  
+A: Lägg helt enkelt till ytterligare kategorier med `chart.getChartData().getCategories().add(...)` och tillhandahåll matchande datapunkter för varje ny kategori.
 
 **Q: Finns det ett sätt att dölja förklaringen?**  
-A: Use `chart.getChartTitle().setVisible(false)` and `chart.getLegend().setVisible(false)`.
+A: Använd `chart.getChartTitle().setVisible(false)` och `chart.getLegend().setVisible(false)` för att ta bort både titeln och förklaringen från visualiseringen.
 
 **Q: Behöver jag en licens för utvecklingsbyggen?**  
-A: A temporary license works for evaluation; a full license is required for production deployments.
+A: En tillfällig licens räcker för utvärdering; en fullständig kommersiell licens krävs för produktionsdistributioner.
 
 ---
 
-**Senast uppdaterad:** 2026-03-18  
-**Testat med:** Aspose.Slides for Java 25.4 (jdk16)  
-**Författare:** Aspose  
+**Senast uppdaterad:** 2026-09-02  
+**Testad med:** Aspose.Slides for Java 25.4 (jdk16)  
+**Författare:** Aspose
+
+## Relaterade handledningar
+
+- [Hur man lägger till diagram i PowerPoint med Aspose.Slides för Java: En steg‑för‑steg‑guide](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [Hur man redigerar PowerPoint‑diagramdata med Aspose.Slides för Java: En omfattande guide](/slides/java/charts-graphs/edit-ppt-chart-data-aspose-slides-java/)
+- [Lägg till animation i PowerPoint‑diagram med Aspose.Slides för Java – En steg‑för‑steg‑guide](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

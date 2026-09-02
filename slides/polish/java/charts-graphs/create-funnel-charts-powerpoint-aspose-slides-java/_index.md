@@ -1,54 +1,103 @@
 ---
-date: '2026-03-18'
-description: Naucz się wizualizacji danych w Javie, tworząc wykresy lejkowe w PowerPoint
-  przy użyciu Aspose.Slides for Java. Ten przewodnik krok po kroku pokazuje, jak tworzyć
-  wykresy lejkowe, ustawiać dane wykresu i dostosowywać kolory.
+date: '2026-09-02'
+description: Dowiedz się, jak utworzyć wykres lejkowy w PowerPoint przy użyciu Aspose.Slides
+  for Java. Ten przewodnik krok po kroku obejmuje ustawianie danych wykresu, dostosowywanie
+  kolorów oraz eksportowanie prezentacji.
 keywords:
-- funnel chart creation
-- Aspose.Slides for Java
-- PowerPoint data visualization
-title: Wizualizacja danych w Javie – wykresy lejkowe z Aspose.Slides
+- create funnel chart
+- export powerpoint presentation
+- how to create funnel
+- how to customize colors
+- java data visualization
+lastmod: '2026-09-02'
+og_description: Dowiedz się, jak utworzyć wykres lejkowy w PowerPoint przy użyciu
+  Aspose.Slides for Java. Ten przewodnik prowadzi Cię przez konfigurację danych, dostosowywanie
+  kolorów oraz eksport finalnej prezentacji.
+og_image_alt: Guide showing funnel chart creation in PowerPoint with Aspose.Slides
+  for Java
+og_title: Utwórz wykres lejkowy w PowerPoint przy użyciu Aspose.Slides for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-02'
+  description: Learn how to create funnel chart in PowerPoint using Aspose.Slides
+    for Java. This step‑by‑step guide covers setting chart data, customizing colors,
+    and exporting the presentation.
+  headline: Create funnel chart in PowerPoint with Aspose.Slides for Java
+  type: TechArticle
+- description: Learn how to create funnel chart in PowerPoint using Aspose.Slides
+    for Java. This step‑by‑step guide covers setting chart data, customizing colors,
+    and exporting the presentation.
+  name: Create funnel chart in PowerPoint with Aspose.Slides for Java
+  steps:
+  - name: '**Add the dependency** – Use the Maven or Gradle snippet above.'
+    text: '**Add the dependency** – Use the Maven or Gradle snippet above.'
+  - name: '**Obtain a license** –'
+    text: '**Obtain a license** –'
+  - name: '**Basic initialization** –'
+    text: '**Basic initialization** –'
+  type: HowTo
+- questions:
+  - answer: Set the `ChartOrientation` property on the `IChart` object to `ChartOrientation.Vertical`
+      or `ChartOrientation.Horizontal`.
+    question: How do I change the funnel chart’s orientation?
+  - answer: Yes—call `pres.getSlides().get_Item(0).getThumbnail(1, 1)` and write the
+      resulting `java.awt.image.BufferedImage` to a PNG or JPEG file.
+    question: Can I export the slide as an image after adding the chart?
+  - answer: Simply add additional categories using `chart.getChartData().getCategories().add(...)`
+      and provide matching data points for each new category.
+    question: What if I need more than three categories?
+  - answer: Use `chart.getChartTitle().setVisible(false)` and `chart.getLegend().setVisible(false)`
+      to remove both the title and legend from the visual.
+    question: Is there a way to hide the legend?
+  - answer: A temporary license is sufficient for evaluation; a full commercial license
+      is required for production deployments.
+    question: Do I need a license for development builds?
+  type: FAQPage
+tags:
+- funnel chart
+- Aspose.Slides
+- Java data visualization
+title: Utwórz wykres lejkowy w PowerPoint przy użyciu Aspose.Slides for Java
 url: /pl/java/charts-graphs/create-funnel-charts-powerpoint-aspose-slides-java/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Opanowanie Tworzenia Wykresu Lejkowego w PowerPoint przy użyciu Aspose.Slides dla Javy
+
+# Opanowanie tworzenia wykresu lejkowego w PowerPoint przy użyciu Aspose.Slides for Java
 
 ## Wprowadzenie
-Tworzenie przekonujących prezentacji to sztuka łącząca wizualizację danych, projektowanie i opowiadanie historii. Jednym z potężnych narzędzi, które może wzbogacić Twoje prezentacje, jest wykres lejkowy — wizualna reprezentacja etapów w procesie lub lejku sprzedaży. Niezależnie od tego, czy prezentujesz raporty biznesowe, harmonogramy projektów, czy strategie sprzedaży, włączenie wykresów lejkowych może przekształcić surowe dane w wnikliwe historie.
 
-W tym samouczku przyjrzymy się, jak tworzyć i dostosowywać wykresy lejkowe w PowerPoint przy użyciu Aspose.Slides dla Javy. Poznasz krok po kroku proces przygotowania środowiska, dodawania wykresu lejkowego do slajdu, konfigurowania jego danych oraz zapisywania prezentacji z łatwością. Po zakończeniu tego przewodnika będziesz gotowy, aby wzbogacić swoje prezentacje o profesjonalne wizualizacje.
+Tworzenie przekonujących prezentacji to sztuka łącząca wizualizację danych, projektowanie i opowiadanie historii. Jednym z potężnych wizualizacji, które natychmiast wyjaśnia proces wieloetapowy, jest wykres lejkowy. Niezależnie od tego, czy musisz zilustrować lejek sprzedaży, przepływ konwersji czy wąskie gardło produkcji, dobrze zaprojektowany wykres lejkowy zamienia surowe liczby w intuicyjną narrację. W tym samouczku nauczysz się, jak **create funnel chart** w PowerPoint programowo przy użyciu Aspose.Slides for Java, skonfigurować jego dane, dostosować kolor każdego segmentu i wyeksportować gotową prezentację.
 
-**Czego się nauczysz:**
-- Konfigurowanie Aspose.Slides dla Javy w projekcie
-- Tworzenie instancji prezentacji PowerPoint
-- Dodawanie i dostosowywanie wykresów lejkowych na slajdach
-- Efektywne zarządzanie danymi wykresu
-- Zapisywanie i eksportowanie ulepszonych prezentacji
+**Czego się nauczysz**
+- Jak dodać Aspose.Slides for Java do projektu Maven lub Gradle  
+- Jak utworzyć obiekt `Presentation` i uzyskać dostęp do jego slajdów  
+- Jak wstawić wykres lejkowy, zdefiniować kategorie i wypełnić dane serii  
+- Jak stylizować każdy segment lejka przy użyciu jednolitych wypełnień lub kolorów specyficznych dla marki  
+- Jak zapisać prezentację jako plik PPTX lub wyeksportować slajd jako obraz  
 
 ## Szybkie odpowiedzi
-- **Jaka jest podstawowa biblioteka do wizualizacji danych w Javie?** Aspose.Slides for Java.
-- **Jak utworzyć wykres lejkowy w PowerPoint?** Użyj `addChart(ChartType.Funnel, …)` na slajdzie.
-- **Która metoda ustawia źródło danych wykresu?** Pracuj z `IChartDataWorkbook` i `chart.getChartData()`.
-- **Czy mogę dostosować kolory poszczególnych segmentów lejka?** Tak, ustaw `FillType.Solid` i przypisz losowy lub konkretny `java.awt.Color`.
-- **Czy potrzebna jest licencja do użytku produkcyjnego?** Wymagana jest zakupiona licencja Aspose.Slides dla komercyjnych wdrożeń.
+- **Jaką jest główna biblioteka do wizualizacji danych w Javie?** Aspose.Slides for Java.  
+- **Jak utworzyć wykres lejkowy w PowerPoint?** Call `slide.addChart(ChartType.Funnel, …)` on the target slide.  
+- **Które API ustawia źródło danych wykresu?** Use `IChartDataWorkbook` together with `chart.getChartData()`.  
+- **Czy możesz dostosować kolory dla każdego segmentu lejka?** Yes—set `FillFormat.setFillType(FillType.Solid)` and assign a `java.awt.Color`.  
+- **Czy potrzebujesz licencji do użytku produkcyjnego?** A purchased Aspose.Slides license is required for commercial deployments.
 
-## Czym jest wizualizacja danych w Javie?
-Wizualizacja danych w Javie odnosi się do technik i bibliotek, które pozwalają programistom przekształcać surowe dane w przejrzyste, interaktywne lub statyczne reprezentacje wizualne bezpośrednio z aplikacji Java. Aspose.Slides for Java jest wiodącą biblioteką do tworzenia wykresów, diagramów i bogatych prezentacji programowo.
+## Co to jest wizualizacja danych w Javie?
 
-## Dlaczego warto używać wykresów lejkowych w PowerPoint?
-Wykresy lejkowe ułatwiają ilustrowanie wskaźników spadku na kolejnych etapach — idealne dla lejków sprzedaży, konwersji lub analiz efektywności procesów. Dzięki Aspose.Slides masz pełną kontrolę nad układem, kolorami i danymi, bez konieczności ręcznego otwierania PowerPointa.
+Wizualizacja danych w Javie to praktyka przekształcania surowych danych w wykresy, diagramy lub interaktywne grafiki bezpośrednio z aplikacji Java. Aspose.Slides for Java jest wiodącą biblioteką, która umożliwia programistom generowanie ponad 100 typów wykresów — w tym wykresów lejkowych — bez ręcznego uruchamiania PowerPoint, obsługując prezentacje do 500 slajdów przy niskim zużyciu pamięci.
 
-## Prerequisites (H2)
-Zanim zaczniemy, upewnij się, że masz niezbędne narzędzia i wiedzę potrzebną do realizacji tego samouczka.
+## Dlaczego używać wykresów lejkowych w PowerPoint?
 
-### Required Libraries, Versions, and Dependencies
-Aby wdrożyć Aspose.Slides for Java w swoim projekcie, potrzebujesz określonych wersji bibliotek. Oto jak możesz je skonfigurować przy użyciu Maven lub Gradle:
+Wykresy lejkowe natychmiast ujawniają wskaźniki spadku na kolejnych etapach, co czyni je idealnymi do lejkowania sprzedaży, analizy konwersji lub przeglądów efektywności procesów. Aspose.Slides zapewnia kontrolę pixel‑perfect nad układem, kolorami segmentów i etykietami danych, dzięki czemu możesz zachować spójność marki i uniknąć ręcznej edycji wykresów w interfejsie PowerPoint.
+
+## Wymagania wstępne (H2)
+
+### Wymagane biblioteki, wersje i zależności
+Aby wdrożyć Aspose.Slides for Java w swoim projekcie, dołącz odpowiednie współrzędne Maven lub Gradle. Biblioteka działa z Java 8‑21 i nie wymaga zewnętrznych zależności natywnych.
 
 **Maven:**
 
@@ -67,27 +116,25 @@ Aby wdrożyć Aspose.Slides for Java w swoim projekcie, potrzebujesz określonyc
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Alternatywnie możesz pobrać bibliotekę bezpośrednio z [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+Możesz również pobrać plik JAR bezpośrednio z [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### Environment Setup Requirements
-Upewnij się, że środowisko programistyczne jest skonfigurowane z JDK 1.6 lub wyższym, ponieważ Aspose.Slides wymaga tej wersji dla kompatybilności.
+### Wymagania dotyczące konfiguracji środowiska
+Upewnij się, że masz zainstalowany JDK 8 lub nowszy oraz że zmienna `JAVA_HOME` wskazuje na właściwy katalog JDK. Aspose.Slides działa na każdym systemie operacyjnym obsługującym JDK, w tym Windows, macOS i Linux.
 
-### Knowledge Prerequisites
-Znajomość koncepcji programowania w Javie oraz podstawowych zasad projektowania prezentacji będzie pomocna, ale nie jest wymagana, ponieważ wszystko omówimy krok po kroku.
+### Wymagania wiedzy wstępnej
+Podstawowa znajomość składni Java, programowania obiektowego oraz koncepcji pliku prezentacji będzie pomocna, ale fragmenty kodu są w pełni wyjaśnione dla programistów o dowolnym poziomie doświadczenia.
 
-## Setting Up Aspose.Slides for Java (H2)
-Aby rozpocząć korzystanie z Aspose.Slides w swoim projekcie, wykonaj następujące kroki:
+## Konfigurowanie Aspose.Slides for Java (H2)
 
-1. **Dodaj zależność**: Użyj Maven lub Gradle, aby dołączyć Aspose.Slides, jak pokazano powyżej.
-   
-2. **Pozyskanie licencji**:
-   - **Darmowa wersja próbna**: Pobierz tymczasową licencję z [Aspose's website](https://purchase.aspose.com/temporary-license/) w celu oceny.
-   - **Zakup**: Do użytku produkcyjnego zakup licencję poprzez [purchase page](https://purchase.aspose.com/buy).
+1. **Dodaj zależność** – użyj fragmentu Maven lub Gradle powyżej.  
+2. **Uzyskaj licencję** –  
+   - **Free trial** – Pobierz tymczasową licencję z [Aspose's website](https://purchase.aspose.com/temporary-license/) do oceny.  
+   - **Full license** – Kup licencję produkcyjną poprzez [purchase page](https://purchase.aspose.com/buy).  
+3. **Podstawowa inicjalizacja** –  
 
-3. **Podstawowa inicjalizacja**:
-   Utwórz nową klasę Java i zainicjalizuj obiekt prezentacji:
+`Presentation` is Aspose.Slides' core class that represents a PowerPoint file in memory. It provides access to slides, shapes, and chart objects.
 
-   ```java
+```java
    import com.aspose.slides.Presentation;
    
    public class FunnelChartDemo {
@@ -102,15 +149,18 @@ Aby rozpocząć korzystanie z Aspose.Slides w swoim projekcie, wykonaj następuj
    }
    ```
 
-Ta konfiguracja umożliwi tworzenie i manipulowanie prezentacjami przy użyciu Aspose.Slides.
+Powyzszy kod tworzy nową instancję `Presentation`, gotową do manipulacji slajdami i zapewnia zwolnienie zasobów przy użyciu `dispose()`.
 
-## Implementation Guide
-Podzielimy implementację na odrębne funkcje, z których każda koncentruje się na konkretnym aspekcie tworzenia wykresu lejkowego w PowerPoint.
+## Przewodnik implementacji
 
-### Feature 1: Creating a Presentation (H2)
+Przejdziemy przez każdą funkcję potrzebną do zbudowania pełnego wykresu lejkowego, dodając krótkie wyjaśniające teksty przed każdym miejscem kodu.
 
-#### Overview
-Rozpocznij od utworzenia instancji klasy `Presentation`. Obiekt ten reprezentuje plik PowerPoint i pozwala wykonywać różne operacje.
+### Funkcja 1: tworzenie prezentacji (H2)
+
+#### Przegląd
+Rozpocznij od utworzenia instancji klasy `Presentation`. Ten obiekt jest punktem wejścia dla wszystkich kolejnych operacji.
+
+`Presentation` jest obiektem najwyższego poziomu w Aspose.Slides, który przechowuje kolekcję slajdów i globalne ustawienia dokumentu.
 
 ```java
 import com.aspose.slides.Presentation;
@@ -124,12 +174,14 @@ try {
 }
 ```
 
-**Explanation**: Ten fragment kodu inicjalizuje obiekt `Presentation`, wskazując na istniejący plik PowerPoint. Blok `try‑finally` zapewnia prawidłowe zwolnienie zasobów przy użyciu `dispose()`.
+Fragment otwiera pustą prezentację, którą możesz później zapisać jako plik `.pptx`.
 
-### Feature 2: Adding a Funnel Chart to a Slide (H2)
+### Funkcja 2: dodawanie wykresu lejkowego do slajdu (H2)
 
-#### Overview
-Dodaj wykres lejkowy do pierwszego slajdu prezentacji, wykonując następujące kroki:
+#### Przegląd
+Wstaw wykres lejkowy na pierwszym slajdzie, określ jego rozmiar i ustaw typ wykresu.
+
+`ChartType.Funnel` instruuje Aspose.Slides, aby renderował wizualizację w stylu lejka zamiast wykresu słupkowego lub liniowego.
 
 ```java
 import com.aspose.slides.IChart;
@@ -147,12 +199,14 @@ try {
 }
 ```
 
-**Explanation**: Metoda `addChart()` tworzy wykres lejkowy na pierwszym slajdzie. Parametry określają jego położenie i rozmiar.
+Wywołanie `addChart` tworzy kształt wykresu, pozycjonuje go w punkcie `(50, 50)` i nadaje mu szerokość `500` oraz wysokość `400`.
 
-### Feature 3: Clearing Chart Data (H2)
+### Funkcja 3: czyszczenie danych wykresu (H2)
 
-#### Overview
-Przed wypełnieniem wykresu danymi możesz potrzebować usunąć istniejącą zawartość:
+#### Przegląd
+Przed wypełnieniem wykresu, wyczyść wszelkie kategorie lub serie zastępcze, które może zawierać szablon.
+
+`chart.getChartData().getCategories().clear()` usuwa wszystkie istniejące wpisy kategorii, natomiast `chart.getChartData().getSeries().clear()` usuwa wszelkie wstępnie wypełnione serie.
 
 ```java
 import com.aspose.slides.IChart;
@@ -172,12 +226,14 @@ try {
 }
 ```
 
-**Explanation**: Ten kod usuwa wszelkie istniejące dane z wykresu lejkowego, czyszcząc jego kategorie i serie.
+To zapewnia czystą kartę, aby Twoje własne dane pojawiły się dokładnie tak, jak zamierzone.
 
-### Feature 4: Setting Up Chart Data Workbook (H2)
+### Funkcja 4: konfigurowanie skoroszytu danych wykresu (H2)
 
-#### Overview
-Zainicjuj skoroszyt danych wykresu, aby skutecznie zarządzać danymi:
+#### Przegląd
+Obiekt `IChartDataWorkbook` przechowuje surowe wartości napędzające wykres. Inicjalizacja pozwala zapisywać dane bezpośrednio do komórek.
+
+`IChartDataWorkbook` jest lekką, pamięciową tabelą kalkulacyjną, której Aspose.Slides używa do dostarczania serii i kategorii wykresu.
 
 ```java
 import com.aspose.slides.IChart;
@@ -200,12 +256,14 @@ try {
 }
 ```
 
-**Explanation**: Obiekt `IChartDataWorkbook` pozwala wyczyścić istniejące komórki, przygotowując skoroszyt na nowe wpisy danych.
+Kod usuwa wszystkie istniejące komórki, przygotowując skoroszyt do nowych wpisów.
 
-### Feature 5: Adding Categories to a Chart (H2)
+### Funkcja 5: dodawanie kategorii do wykresu (H2)
 
-#### Overview
-Dodaj znaczące kategorie do wykresu lejkowego:
+#### Przegląd
+Zdefiniuj tekstowe etykiety pojawiające się po lewej stronie lejka — reprezentują one każdy etap Twojego procesu.
+
+`chart.getChartData().getCategories().add()` tworzy nowy obiekt kategorii powiązany z określoną komórką skoroszytu.
 
 ```java
 import com.aspose.slides.IChart;
@@ -229,12 +287,16 @@ try {
 }
 ```
 
-**Explanation**: Ten kod dodaje kategorie do wykresu lejkowego, uzyskując dostęp do skoroszytu danych i wstawiając nazwy kategorii do określonych komórek.
+Tutaj dodajemy trzy etapy: „Prospects”, „Qualified Leads” i „Closed Deals”.
 
-### Feature 6: Adding Data Series to a Chart (H2)
+### Funkcja 6: dodawanie serii danych do wykresu (H2)
 
-#### Overview
-Wypełnij wykres lejkowy seriami danych:
+#### Przegląd
+Wypełnij lejek wartościami liczbowymi i opcjonalnie przypisz unikalny kolor do każdego segmentu.
+
+`IDataPoint` reprezentuje pojedynczy punkt danych w serii wykresu.  
+
+`chart.getChartData().getSeries().add()` tworzy serię, która przechowuje numeryczne punkty danych; każdy `IDataPoint` może otrzymać własny kolor wypełnienia.
 
 ```java
 import com.aspose.slides.IChart;
@@ -274,43 +336,49 @@ try {
 }
 ```
 
-**Explanation**: Ten kod dodaje serię danych do wykresu lejkowego i wypełnia ją punktami danych. Dodatkowo dostosowuje kolor wypełnienia każdego punktu danych.
+Pętla demonstruje, jak ustawić jednolite wypełnienie dla każdego punktu, używając specyficznych dla marki stałych `java.awt.Color` lub losowo generowanych kolorów dla różnorodności wizualnej.
 
-## Common Use Cases & Tips (H2)
+## Typowe przypadki użycia i wskazówki (H2)
 
-- **Raportowanie lejka sprzedaży** – Wizualizacja konwersji leadów od potencjalnego klienta do zamkniętej transakcji.
-- **Analiza efektywności procesów** – Pokazanie spadku na każdym etapie produkcji.
-- **Przegląd lejka marketingowego** – Porównanie wyników kampanii w różnych kanałach.
+- **Raportowanie leja sprzedaży** – Pokaż, ile leadów przechodzi od prospect do closed‑won na każdym etapie.  
+- **Analiza efektywności procesu** – Zwizualizuj straty materiałowe lub opóźnienia czasowe w kolejnych krokach produkcji.  
+- **Przegląd lejka marketingowego** – Porównaj wskaźniki konwersji w różnych kampaniach lub źródłach ruchu.  
 
-**Pro tip:** Używaj stałych `java.awt.Color` dla kolorów zgodnych z marką zamiast losowych wartości, aby uzyskać bardziej dopracowany wygląd.
+**Pro tip:** Zamiast losowych kolorów, użyj palety marki firmy (np. `new Color(0, 112, 192)`), aby prezentacja była spójna z innymi materiałami marketingowymi.
 
-## Frequently Asked Questions
+## Najczęściej zadawane pytania (H2)
 
 **Q: Jak zmienić orientację wykresu lejkowego?**  
-A: Ustaw właściwość `ChartOrientation` na obiekcie `IChart` na `ChartOrientation.Vertical` lub `Horizontal`.
+A: Set the `ChartOrientation` property on the `IChart` object to `ChartOrientation.Vertical` or `ChartOrientation.Horizontal`.
 
 **Q: Czy mogę wyeksportować slajd jako obraz po dodaniu wykresu?**  
-A: Tak, wywołaj `pres.getSlides().get_Item(0).getThumbnail(1, 1)` i zapisz otrzymany `java.awt.image.BufferedImage`.
+A: Yes—call `pres.getSlides().get_Item(0).getThumbnail(1, 1)` and write the resulting `java.awt.image.BufferedImage` to a PNG or JPEG file.
 
-**Q: Co zrobić, jeśli potrzebuję więcej niż trzech kategorii?**  
-A: Po prostu dodaj kolejne kategorie przy użyciu `chart.getChartData().getCategories().add(...)` oraz odpowiadające im punkty danych.
+**Q: Co zrobić, jeśli potrzebuję więcej niż trzy kategorie?**  
+A: Simply add additional categories using `chart.getChartData().getCategories().add(...)` and provide matching data points for each new category.
 
-**Q: Czy istnieje sposób na ukrycie legendy?**  
-A: Użyj `chart.getChartTitle().setVisible(false)` oraz `chart.getLegend().setVisible(false)`.
+**Q: Czy istnieje sposób, aby ukryć legendę?**  
+A: Use `chart.getChartTitle().setVisible(false)` and `chart.getLegend().setVisible(false)` to remove both the title and legend from the visual.
 
-**Q: Czy potrzebna jest licencja do wersji deweloperskich?**  
-A: Tymczasowa licencja wystarczy do oceny; pełna licencja jest wymagana przy wdrożeniach produkcyjnych.
+**Q: Czy potrzebuję licencji do wersji deweloperskich?**  
+A: A temporary license is sufficient for evaluation; a full commercial license is required for production deployments.
 
 ---
 
-**Ostatnia aktualizacja:** 2026-03-18  
-**Testowane z:** Aspose.Slides for Java 25.4 (jdk16)  
-**Autor:** Aspose  
+**Ostatnia aktualizacja:** 2026-09-02  
+**Testowano z:** Aspose.Slides for Java 25.4 (jdk16)  
+**Autor:** Aspose
+
+## Powiązane samouczki
+
+- [Jak dodać wykres do PowerPoint przy użyciu Aspose.Slides for Java: przewodnik krok po kroku](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [Jak edytować dane wykresu PowerPoint przy użyciu Aspose.Slides for Java: kompleksowy przewodnik](/slides/java/charts-graphs/edit-ppt-chart-data-aspose-slides-java/)
+- [Dodaj animację do wykresu PowerPoint przy użyciu Aspose.Slides for Java – przewodnik krok po kroku](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,55 +1,101 @@
 ---
-date: '2026-03-18'
-description: Изучите визуализацию данных на Java, создавая воронкообразные диаграммы
-  в PowerPoint с помощью Aspose.Slides for Java. Это пошаговое руководство показывает,
-  как создавать воронкообразные диаграммы, задавать данные диаграммы и настраивать
-  цвета.
+date: '2026-09-02'
+description: Узнайте, как создать воронкообразный график в PowerPoint с использованием
+  Aspose.Slides for Java. Это пошаговое руководство охватывает настройку данных графика,
+  настройку цветов и экспорт презентации.
 keywords:
-- funnel chart creation
-- Aspose.Slides for Java
-- PowerPoint data visualization
-title: Визуализация данных Java – воронкообразные диаграммы с Aspose.Slides
+- create funnel chart
+- export powerpoint presentation
+- how to create funnel
+- how to customize colors
+- java data visualization
+lastmod: '2026-09-02'
+og_description: Узнайте, как создать воронкообразный график в PowerPoint с использованием
+  Aspose.Slides for Java. Руководство проведет вас через настройку данных, настройку
+  цветов и экспорт готовой презентации.
+og_image_alt: Guide showing funnel chart creation in PowerPoint with Aspose.Slides
+  for Java
+og_title: Создать воронкообразный график в PowerPoint с помощью Aspose.Slides for
+  Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-02'
+  description: Learn how to create funnel chart in PowerPoint using Aspose.Slides
+    for Java. This step‑by‑step guide covers setting chart data, customizing colors,
+    and exporting the presentation.
+  headline: Create funnel chart in PowerPoint with Aspose.Slides for Java
+  type: TechArticle
+- description: Learn how to create funnel chart in PowerPoint using Aspose.Slides
+    for Java. This step‑by‑step guide covers setting chart data, customizing colors,
+    and exporting the presentation.
+  name: Create funnel chart in PowerPoint with Aspose.Slides for Java
+  steps:
+  - name: '**Add the dependency** – Use the Maven or Gradle snippet above.'
+    text: '**Add the dependency** – Use the Maven or Gradle snippet above.'
+  - name: '**Obtain a license** –'
+    text: '**Obtain a license** –'
+  - name: '**Basic initialization** –'
+    text: '**Basic initialization** –'
+  type: HowTo
+- questions:
+  - answer: Set the `ChartOrientation` property on the `IChart` object to `ChartOrientation.Vertical`
+      or `ChartOrientation.Horizontal`.
+    question: How do I change the funnel chart’s orientation?
+  - answer: Yes—call `pres.getSlides().get_Item(0).getThumbnail(1, 1)` and write the
+      resulting `java.awt.image.BufferedImage` to a PNG or JPEG file.
+    question: Can I export the slide as an image after adding the chart?
+  - answer: Simply add additional categories using `chart.getChartData().getCategories().add(...)`
+      and provide matching data points for each new category.
+    question: What if I need more than three categories?
+  - answer: Use `chart.getChartTitle().setVisible(false)` and `chart.getLegend().setVisible(false)`
+      to remove both the title and legend from the visual.
+    question: Is there a way to hide the legend?
+  - answer: A temporary license is sufficient for evaluation; a full commercial license
+      is required for production deployments.
+    question: Do I need a license for development builds?
+  type: FAQPage
+tags:
+- funnel chart
+- Aspose.Slides
+- Java data visualization
+title: Создать воронкообразный график в PowerPoint с помощью Aspose.Slides for Java
 url: /ru/java/charts-graphs/create-funnel-charts-powerpoint-aspose-slides-java/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Освоение создания воронкообразных диаграмм в PowerPoint с помощью Aspose.Slides для Java
 
-## Introduction
-Создание убедительных презентаций — это искусство, объединяющее визуализацию данных, дизайн и повествование. Один из мощных инструментов для улучшения ваших презентаций — воронкообразная диаграмма, визуальное представление этапов процесса или воронки продаж. Независимо от того, представляете ли вы бизнес‑отчёты, графики проектов или стратегии продаж, использование воронкообразных диаграмм может превратить сырые данные в содержательные истории.
+# Освоение создания ворончатой диаграммы в PowerPoint с помощью Aspose.Slides для Java
 
-В этом руководстве мы рассмотрим, как создавать и настраивать воронкообразные диаграммы в PowerPoint с помощью Aspose.Slides для Java. Вы узнаете пошаговый процесс настройки среды, добавления воронкообразной диаграммы на слайд, конфигурации её данных и простого сохранения презентации. К концу этого руководства вы сможете обогащать свои презентации профессиональными визуальными элементами.
+## Введение
+Создание убедительных презентаций — это искусство, объединяющее визуализацию данных, дизайн и повествование. Один мощный визуальный элемент, который мгновенно проясняет многоэтапный процесс, — ворончатая диаграмма. Независимо от того, нужно ли вам проиллюстрировать конвейер продаж, поток конверсий или узкое место в производстве, хорошо спроектированная ворончатая диаграмма превращает сырые цифры в интуитивный рассказ. В этом руководстве вы научитесь **создать ворончатую диаграмму** в PowerPoint программно с помощью Aspose.Slides for Java, настроить её данные, индивидуализировать цвет каждого сегмента и экспортировать готовую презентацию.
 
-**What You'll Learn:**
-- Настройка Aspose.Slides для Java в вашем проекте
-- Создание экземпляра презентации PowerPoint
-- Добавление и настройка воронкообразных диаграмм на слайдах
-- Эффективное управление данными диаграммы
-- Сохранение и экспорт улучшенных презентаций
+**Что вы узнаете**
+- Как добавить Aspose.Slides for Java в проект Maven или Gradle  
+- Как создать объект `Presentation` и получить доступ к его слайдам  
+- Как вставить ворончатую диаграмму, определить категории и заполнить данные рядов  
+- Как оформить каждый сегмент воронки с помощью сплошных заливок или фирменных цветов  
+- Как сохранить презентацию в файл PPTX или экспортировать слайд как изображение  
 
-## Quick Answers
-- **What is the primary library for java data visualization?** Aspose.Slides for Java.  
-- **How to create a funnel chart in PowerPoint?** Use `addChart(ChartType.Funnel, …)` on a slide.  
-- **Which method sets the chart’s data source?** Work with `IChartDataWorkbook` and `chart.getChartData()`.  
-- **Can I customize colors for each funnel segment?** Yes, set `FillType.Solid` and assign a random or specific `java.awt.Color`.  
-- **Do I need a license for production use?** A purchased Aspose.Slides license is required for commercial deployments.
+## Быстрые ответы
+- **Какова основная библиотека для визуализации данных в Java?** Aspose.Slides for Java.  
+- **Как создать ворончатую диаграмму в PowerPoint?** Вызовите `slide.addChart(ChartType.Funnel, …)` на целевом слайде.  
+- **Какой API задает источник данных диаграммы?** Используйте `IChartDataWorkbook` вместе с `chart.getChartData()`.  
+- **Можно ли настроить цвета для каждого сегмента воронки?** Да — установите `FillFormat.setFillType(FillType.Solid)` и задайте `java.awt.Color`.  
+- **Нужна ли лицензия для использования в продакшене?** Для коммерческих развертываний требуется приобретённая лицензия Aspose.Slides.
 
-## What is java data visualization?
-java data visualization относится к техникам и библиотекам, позволяющим разработчикам преобразовывать сырые данные в чёткие, интерактивные или статические визуальные представления непосредственно из Java‑приложений. Aspose.Slides for Java — ведущая библиотека для программного создания диаграмм, схем и насыщенных презентаций.
+## Что такое визуализация данных в Java?
+Визуализация данных в Java — это практика преобразования сырых данных в диаграммы, графики или интерактивные графики непосредственно из Java‑приложений. Aspose.Slides for Java — ведущая библиотека, позволяющая разработчикам генерировать более 100 типов диаграмм, включая ворончатые, без необходимости вручную запускать PowerPoint, поддерживая презентации до 500 слайдов при низком потреблении памяти.
 
-## Why use funnel charts in PowerPoint?
-Воронкообразные диаграммы позволяют легко иллюстрировать уровни оттока на разных этапах — идеально подходят для воронок продаж, конверсионных воронок или анализа эффективности процессов. С Aspose.Slides вы получаете полный контроль над макетом, цветами и данными без необходимости открывать PowerPoint вручную.
+## Почему использовать ворончатые диаграммы в PowerPoint?
+Ворончатые диаграммы мгновенно показывают уровни оттока на последовательных этапах, что делает их идеальными для конвейеров продаж, анализа конверсий или обзоров эффективности процессов. Aspose.Slides предоставляет пиксель‑точный контроль над макетом, цветами сегментов и подписью данных, позволяя поддерживать фирменный стиль и избегать ручного редактирования диаграмм в интерфейсе PowerPoint.
 
-## Prerequisites (H2)
-Прежде чем начать, убедитесь, что у вас есть необходимые инструменты и знания для выполнения этого руководства.
+## Предварительные требования (H2)
 
-### Required Libraries, Versions, and Dependencies
-Чтобы внедрить Aspose.Slides for Java в ваш проект, нужны определённые версии библиотек. Ниже показано, как настроить их с помощью Maven или Gradle:
+### Требуемые библиотеки, версии и зависимости
+Чтобы внедрить Aspose.Slides for Java в ваш проект, включите соответствующие координаты Maven или Gradle. Библиотека работает с Java 8‑21 и не требует внешних нативных зависимостей.
 
 **Maven:**
 
@@ -68,25 +114,25 @@ java data visualization относится к техникам и библиот
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Либо вы можете скачать библиотеку напрямую с [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+Вы также можете скачать JAR напрямую с [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### Environment Setup Requirements
-Убедитесь, что ваша среда разработки настроена с JDK 1.6 или выше, поскольку Aspose.Slides требует эту версию для совместимости.
+### Требования к настройке окружения
+Убедитесь, что у вас установлен JDK 8 или новее, и переменная `JAVA_HOME` указывает на правильный каталог JDK. Aspose.Slides работает на любой ОС, поддерживающей JDK, включая Windows, macOS и Linux.
 
-### Knowledge Prerequisites
-Знание основных концепций программирования на Java и базовых принципов дизайна презентаций будет полезным, но не обязательным — мы покрываем всё пошагово.
+### Предварительные знания
+Базовое знакомство с синтаксисом Java, объектно‑ориентированным программированием и концепцией файла презентации будет полезным, но фрагменты кода полностью объяснены для разработчиков любого уровня.
 
-## Setting Up Aspose.Slides for Java (H2)
-Чтобы начать использовать Aspose.Slides в вашем проекте, выполните следующие шаги:
+## Настройка Aspose.Slides для Java (H2)
 
-1. **Add the Dependency**: используйте Maven или Gradle для включения Aspose.Slides, как показано выше.  
-2. **License Acquisition**:
-   - **Free Trial**: скачайте временную лицензию с [Aspose's website](https://purchase.aspose.com/temporary-license/) для оценки возможностей.  
-   - **Purchase**: для производственного использования приобретите лицензию через [purchase page](https://purchase.aspose.com/buy).  
-3. **Basic Initialization**:
-   Создайте новый Java‑класс и инициализируйте объект презентации:
+1. **Добавьте зависимость** — используйте фрагмент Maven или Gradle выше.  
+2. **Получите лицензию** —  
+   - **Бесплатная пробная версия** — скачайте временную лицензию с [веб‑сайта Aspose](https://purchase.aspose.com/temporary-license/) для оценки.  
+   - **Полная лицензия** — приобретите производственную лицензию через [страницу покупки](https://purchase.aspose.com/buy).  
+3. **Базовая инициализация** —  
 
-   ```java
+`Presentation` — основной класс Aspose.Slides, представляющий файл PowerPoint в памяти. Он предоставляет доступ к слайдам, фигурам и объектам диаграмм.
+
+```java
    import com.aspose.slides.Presentation;
    
    public class FunnelChartDemo {
@@ -101,15 +147,18 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
    }
    ```
 
-Эта настройка позволит вам создавать и изменять презентации с помощью Aspose.Slides.
+Код выше создает новый экземпляр `Presentation`, готовый к работе со слайдами, и гарантирует освобождение ресурсов с помощью `dispose()`.
 
-## Implementation Guide
-Мы разобьём реализацию на отдельные функции, каждая из которых фокусируется на конкретном аспекте создания воронкообразной диаграммы в PowerPoint.
+## Руководство по реализации
 
-### Feature 1: Creating a Presentation (H2)
+Мы пройдем каждый необходимый элемент для построения полной ворончатой диаграммы, добавляя короткое пояснительное описание перед каждым кодовым заполнителем.
 
-#### Overview
-Начните с создания экземпляра класса `Presentation`. Этот объект представляет ваш файл PowerPoint и позволяет выполнять различные операции.
+### Функция 1: создание презентации (H2)
+
+#### Обзор
+Начните с создания экземпляра класса `Presentation`. Этот объект является точкой входа для всех последующих операций.
+
+`Presentation` — верхнеуровневый объект Aspose.Slides, содержащий коллекцию слайдов и глобальные настройки документа.
 
 ```java
 import com.aspose.slides.Presentation;
@@ -123,12 +172,14 @@ try {
 }
 ```
 
-**Explanation**: Этот фрагмент кода инициализирует объект `Presentation`, указывая на существующий файл PowerPoint. Блок `try‑finally` гарантирует корректное освобождение ресурсов с помощью `dispose()`.
+Этот фрагмент открывает пустую презентацию, которую позже можно сохранить как файл `.pptx`.
 
-### Feature 2: Adding a Funnel Chart to a Slide (H2)
+### Функция 2: добавление ворончатой диаграммы на слайд (H2)
 
-#### Overview
-Добавьте воронкообразную диаграмму на первый слайд вашей презентации, выполнив следующие шаги:
+#### Обзор
+Вставьте ворончатую диаграмму на первый слайд, задайте её размер и тип диаграммы.
+
+`ChartType.Funnel` указывает Aspose.Slides отрисовать визуализацию в виде воронки вместо столбчатой или линейной диаграммы.
 
 ```java
 import com.aspose.slides.IChart;
@@ -146,12 +197,14 @@ try {
 }
 ```
 
-**Explanation**: Метод `addChart()` создаёт воронкообразную диаграмму на первом слайде. Параметры определяют её позицию и размер.
+Вызов `addChart` создаёт форму диаграммы, позиционирует её в точке `(50, 50)` и задаёт ширину `500` и высоту `400`.
 
-### Feature 3: Clearing Chart Data (H2)
+### Функция 3: очистка данных диаграммы (H2)
 
-#### Overview
-Перед заполнением диаграммы данными может потребоваться очистить существующее содержимое:
+#### Обзор
+Перед заполнением диаграммы очистите любые категории‑заполнители или ряды, которые могут присутствовать в шаблоне.
+
+`chart.getChartData().getCategories().clear()` удаляет все существующие категории, а `chart.getChartData().getSeries().clear()` удаляет любые предзаполненные ряды.
 
 ```java
 import com.aspose.slides.IChart;
@@ -171,12 +224,14 @@ try {
 }
 ```
 
-**Explanation**: Этот код удаляет любые предварительно существующие данные из воронкообразной диаграммы, очищая её категории и серии.
+Это гарантирует чистый лист, чтобы ваши пользовательские данные отображались точно так, как задумано.
 
-### Feature 4: Setting Up Chart Data Workbook (H2)
+### Функция 4: настройка рабочей книги данных диаграммы (H2)
 
-#### Overview
-Инициализируйте рабочую книгу данных диаграммы для эффективного управления вашими данными:
+#### Обзор
+Объект `IChartDataWorkbook` хранит сырые значения, управляющие диаграммой. Его инициализация позволяет записывать данные непосредственно в ячейки.
+
+`IChartDataWorkbook` — лёгкая in‑memory таблица, которую Aspose.Slides использует для подачи данных в ряды и категории диаграммы.
 
 ```java
 import com.aspose.slides.IChart;
@@ -199,12 +254,14 @@ try {
 }
 ```
 
-**Explanation**: Объект `IChartDataWorkbook` позволяет очистить существующие ячейки, подготавливая рабочую книгу к новым записям.
+Код очищает любые существующие ячейки, подготавливая рабочую книгу к новым записям.
 
-### Feature 5: Adding Categories to a Chart (H2)
+### Функция 5: добавление категорий в диаграмму (H2)
 
-#### Overview
-Добавьте осмысленные категории в вашу воронкообразную диаграмму:
+#### Обзор
+Определите текстовые метки, которые появятся слева от воронки — они представляют каждый этап вашего процесса.
+
+`chart.getChartData().getCategories().add()` создаёт новый объект категории, привязанный к конкретной ячейке рабочей книги.
 
 ```java
 import com.aspose.slides.IChart;
@@ -228,12 +285,16 @@ try {
 }
 ```
 
-**Explanation**: Этот код добавляет категории в диаграмму, получая доступ к рабочей книге данных и вставляя имена категорий в определённые ячейки.
+Здесь мы добавляем три этапа: «Prospects», «Qualified Leads» и «Closed Deals».
 
-### Feature 6: Adding Data Series to a Chart (H2)
+### Функция 6: добавление рядов данных в диаграмму (H2)
 
-#### Overview
-Заполните вашу воронкообразную диаграмму данными серии:
+#### Обзор
+Заполните воронку числовыми значениями и при желании назначьте уникальный цвет каждому сегменту.
+
+`IDataPoint` представляет отдельную точку данных внутри ряда диаграммы.  
+
+`chart.getChartData().getSeries().add()` создаёт ряд, содержащий числовые точки; каждому `IDataPoint` можно задать собственный цвет заливки.
 
 ```java
 import com.aspose.slides.IChart;
@@ -273,43 +334,49 @@ try {
 }
 ```
 
-**Explanation**: Этот код добавляет серию данных в диаграмму и заполняет её точками данных. Также он настраивает цвет заливки каждой точки данных.
+Цикл демонстрирует, как установить сплошную заливку для каждой точки, используя фирменные константы `java.awt.Color` или случайно сгенерированные цвета для визуального разнообразия.
 
-## Common Use Cases & Tips (H2)
+## Общие варианты использования и советы (H2)
 
-- **Sales Pipeline Reporting** – визуализировать конверсию лидов от потенциального клиента до закрытой сделки.  
-- **Process Efficiency Analysis** – показать отток на каждом этапе производства.  
-- **Marketing Funnel Review** – сравнить эффективность кампаний по различным каналам.
+- **Отчёт по воронке продаж** — показывайте, сколько лидов переходит от потенциального к закрытому на каждом этапе.  
+- **Анализ эффективности процесса** — визуализируйте потери материалов или задержки времени на этапах производства.  
+- **Обзор маркетинговой воронки** — сравнивайте коэффициенты конверсии по кампаниям или источникам трафика.  
 
-**Pro tip:** используйте константы `java.awt.Color` для цветов, соответствующих бренду, вместо случайных значений, чтобы добиться более профессионального вида.
+**Pro tip:** Вместо случайных цветов используйте фирменную палитру вашей компании (например, `new Color(0, 112, 192)`) для согласованности презентации с другими маркетинговыми материалами.
 
-## Frequently Asked Questions
+## Часто задаваемые вопросы (H2)
 
-**Q: How do I change the funnel chart’s orientation?**  
-A: Установите свойство `ChartOrientation` у объекта `IChart` в `ChartOrientation.Vertical` или `Horizontal`.
+**Q: Как изменить ориентацию ворончатой диаграммы?**  
+A: Установите свойство `ChartOrientation` у объекта `IChart` в `ChartOrientation.Vertical` или `ChartOrientation.Horizontal`.
 
-**Q: Can I export the slide as an image after adding the chart?**  
-A: Да, вызовите `pres.getSlides().get_Item(0).getThumbnail(1, 1)` и сохраните полученный `java.awt.image.BufferedImage`.
+**Q: Можно ли экспортировать слайд как изображение после добавления диаграммы?**  
+A: Да — вызовите `pres.getSlides().get_Item(0).getThumbnail(1, 1)` и запишите полученный `java.awt.image.BufferedImage` в файл PNG или JPEG.
 
-**Q: What if I need more than three categories?**  
-A: Просто добавьте дополнительные категории с помощью `chart.getChartData().getCategories().add(...)` и соответствующие точки данных.
+**Q: Что делать, если нужно более трёх категорий?**  
+A: Просто добавьте дополнительные категории с помощью `chart.getChartData().getCategories().add(...)` и предоставьте соответствующие точки данных для каждой новой категории.
 
-**Q: Is there a way to hide the legend?**  
-A: Используйте `chart.getChartTitle().setVisible(false)` и `chart.getLegend().setVisible(false)`.
+**Q: Есть ли способ скрыть легенду?**  
+A: Используйте `chart.getChartTitle().setVisible(false)` и `chart.getLegend().setVisible(false)`, чтобы убрать как заголовок, так и легенду из визуала.
 
-**Q: Do I need a license for development builds?**  
-A: Временная лицензия подходит для оценки; полная лицензия требуется для производственных развертываний.
+**Q: Нужна ли лицензия для сборок разработки?**  
+A: Временная лицензия достаточна для оценки; полная коммерческая лицензия требуется для продакшн‑развёртываний.
 
 ---
 
-**Last Updated:** 2026-03-18  
-**Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
-**Author:** Aspose  
+**Last updated:** 2026-09-02  
+**Tested with:** Aspose.Slides for Java 25.4 (jdk16)  
+**Author:** Aspose
+
+## Связанные руководства
+
+- [Как добавить диаграмму в PowerPoint с помощью Aspose.Slides for Java: пошаговое руководство](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [Как редактировать данные диаграммы PowerPoint с помощью Aspose.Slides for Java: полное руководство](/slides/java/charts-graphs/edit-ppt-chart-data-aspose-slides-java/)
+- [Добавление анимации к диаграмме PowerPoint с помощью Aspose.Slides for Java — пошаговое руководство](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

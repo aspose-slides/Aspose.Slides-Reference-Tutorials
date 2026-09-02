@@ -1,54 +1,100 @@
 ---
-date: '2026-03-18'
-description: Leer Java-gegevensvisualisatie door trechterdiagrammen te maken in PowerPoint
-  met Aspose.Slides voor Java. Deze stapsgewijze handleiding laat zien hoe je trechterdiagrammen
-  maakt, diagramgegevens instelt en kleuren aanpast.
+date: '2026-09-02'
+description: Leer hoe u een trechterdiagram in PowerPoint maakt met behulp van Aspose.Slides
+  for Java. Deze stapsgewijze handleiding behandelt het instellen van grafiekgegevens,
+  het aanpassen van kleuren en het exporteren van de presentatie.
 keywords:
-- funnel chart creation
-- Aspose.Slides for Java
-- PowerPoint data visualization
-title: Java-gegevensvisualisatie – trechterdiagrammen met Aspose.Slides
+- create funnel chart
+- export powerpoint presentation
+- how to create funnel
+- how to customize colors
+- java data visualization
+lastmod: '2026-09-02'
+og_description: Leer hoe u een trechterdiagram in PowerPoint maakt met Aspose.Slides
+  for Java. Deze handleiding leidt u door het configureren van gegevens, het aanpassen
+  van kleuren en het exporteren van de uiteindelijke presentatie.
+og_image_alt: Guide showing funnel chart creation in PowerPoint with Aspose.Slides
+  for Java
+og_title: Maak een trechterdiagram in PowerPoint met Aspose.Slides for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-02'
+  description: Learn how to create funnel chart in PowerPoint using Aspose.Slides
+    for Java. This step‑by‑step guide covers setting chart data, customizing colors,
+    and exporting the presentation.
+  headline: Create funnel chart in PowerPoint with Aspose.Slides for Java
+  type: TechArticle
+- description: Learn how to create funnel chart in PowerPoint using Aspose.Slides
+    for Java. This step‑by‑step guide covers setting chart data, customizing colors,
+    and exporting the presentation.
+  name: Create funnel chart in PowerPoint with Aspose.Slides for Java
+  steps:
+  - name: '**Add the dependency** – Use the Maven or Gradle snippet above.'
+    text: '**Add the dependency** – Use the Maven or Gradle snippet above.'
+  - name: '**Obtain a license** –'
+    text: '**Obtain a license** –'
+  - name: '**Basic initialization** –'
+    text: '**Basic initialization** –'
+  type: HowTo
+- questions:
+  - answer: Set the `ChartOrientation` property on the `IChart` object to `ChartOrientation.Vertical`
+      or `ChartOrientation.Horizontal`.
+    question: How do I change the funnel chart’s orientation?
+  - answer: Yes—call `pres.getSlides().get_Item(0).getThumbnail(1, 1)` and write the
+      resulting `java.awt.image.BufferedImage` to a PNG or JPEG file.
+    question: Can I export the slide as an image after adding the chart?
+  - answer: Simply add additional categories using `chart.getChartData().getCategories().add(...)`
+      and provide matching data points for each new category.
+    question: What if I need more than three categories?
+  - answer: Use `chart.getChartTitle().setVisible(false)` and `chart.getLegend().setVisible(false)`
+      to remove both the title and legend from the visual.
+    question: Is there a way to hide the legend?
+  - answer: A temporary license is sufficient for evaluation; a full commercial license
+      is required for production deployments.
+    question: Do I need a license for development builds?
+  type: FAQPage
+tags:
+- funnel chart
+- Aspose.Slides
+- Java data visualization
+title: Maak een trechterdiagram in PowerPoint met Aspose.Slides for Java
 url: /nl/java/charts-graphs/create-funnel-charts-powerpoint-aspose-slides-java/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Mastering Funnel Chart Creation in PowerPoint with Aspose.Slides for Java
 
-## Introduction
-Het maken van overtuigende presentaties is een kunst die data‑visualisatie, ontwerp en storytelling combineert. Een krachtig hulpmiddel om je presentaties te verbeteren is het trechterdiagram – een visuele weergave van fasen binnen een proces of verkoop‑pipeline. Of je nu bedrijfsrapporten, projecttijdlijnen of verkoopstrategieën presenteert, het opnemen van trechterdiagrammen kan ruwe data omzetten in inzichtelijke verhalen.
+# Beheersen van het maken van trechterdiagrammen in PowerPoint met Aspose.Slides voor Java
 
-In deze tutorial verkennen we hoe je trechterdiagrammen maakt en aanpast in PowerPoint met behulp van Aspose.Slides for Java. Je leert stap‑voor‑stap hoe je je omgeving instelt, een trechterdiagram aan een dia toevoegt, de gegevens configureert en je presentatie moeiteloos opslaat. Aan het einde van deze gids kun je je presentaties verrijken met visuals van professioneel niveau.
+## Inleiding
+Het creëren van overtuigende presentaties is een kunst die datavisualisatie, design en storytelling combineert. Eén krachtig visueel element dat een meerfasenproces direct verduidelijkt, is de trechterdiagram (funnel chart). Of je nu een sales‑pipeline, een conversiestroom of een productie‑knelpunt moet illustreren, een goed ontworpen trechterdiagram zet ruwe cijfers om in een intuïtief verhaal. In deze tutorial leer je hoe je **funnel chart maken** in PowerPoint programmeermatig met Aspose.Slides voor Java, de gegevens configureert, elke segmentkleur aanpast en de voltooide presentatie exporteert.
 
-**What You'll Learn:**
-- Setting up Aspose.Slides for Java in your project
-- Creating an instance of a PowerPoint presentation
-- Adding and customizing funnel charts on slides
-- Managing chart data effectively
-- Saving and exporting your enhanced presentations
+**Wat je zult leren**
+- Hoe Aspose.Slides for Java toe te voegen aan een Maven‑ of Gradle‑project  
+- Hoe een `Presentation`‑object te instantieren en toegang te krijgen tot de dia's  
+- Hoe een funnel chart in te voegen, categorieën te definiëren en seriedata te vullen  
+- Hoe elk segment van de funnel te stylen met effen vullingen of merkspecifieke kleuren  
+- Hoe de presentatie op te slaan als een PPTX‑bestand of een dia te exporteren als afbeelding  
 
-## Quick Answers
-- **What is the primary library for java data visualization?** Aspose.Slides for Java.
-- **How to create a funnel chart in PowerPoint?** Use `addChart(ChartType.Funnel, …)` on a slide.
-- **Which method sets the chart’s data source?** Work with `IChartDataWorkbook` and `chart.getChartData()`.
-- **Can I customize colors for each funnel segment?** Yes, set `FillType.Solid` and assign a random or specific `java.awt.Color`.
-- **Do I need a license for production use?** A purchased Aspose.Slides license is required for commercial deployments.
+## Snelle antwoorden
+- **Wat is de primaire bibliotheek voor java‑datavisualisatie?** Aspose.Slides for Java.  
+- **Hoe maak je een funnel chart in PowerPoint?** Roep `slide.addChart(ChartType.Funnel, …)` aan op de doel‑dia.  
+- **Welke API stelt de gegevensbron van het diagram in?** Gebruik `IChartDataWorkbook` samen met `chart.getChartData()`.  
+- **Kun je kleuren aanpassen voor elk funnel‑segment?** Ja—stel `FillFormat.setFillType(FillType.Solid)` in en wijs een `java.awt.Color` toe.  
+- **Heb je een licentie nodig voor productiegebruik?** Een aangeschafte Aspose.Slides‑licentie is vereist voor commerciële implementaties.
 
-## What is java data visualization?
-java data visualization verwijst naar de technieken en bibliotheken die ontwikkelaars in staat stellen ruwe data om te zetten in duidelijke, interactieve of statische visuele weergaven rechtstreeks vanuit Java‑applicaties. Aspose.Slides for Java is een toonaangevende bibliotheek voor het programmatic maken van diagrammen, schema's en rijke presentaties.
+## Wat is Java‑datavisualisatie?
+Java‑datavisualisatie is de praktijk van het omzetten van ruwe data in diagrammen, grafieken of interactieve graphics rechtstreeks vanuit Java‑applicaties. Aspose.Slides for Java is een toonaangevende bibliotheek die ontwikkelaars in staat stelt meer dan 100 diagramtypen te genereren — inclusief trechterdiagrammen — zonder PowerPoint handmatig te starten, en ondersteunt presentaties met tot 500 dia's terwijl het geheugenverbruik laag blijft.
 
-## Why use funnel charts in PowerPoint?
-Trechterdiagrammen maken het eenvoudig om uitvalpercentages over fasen te illustreren – ideaal voor verkoop‑pipelines, conversietrechters of proces‑efficiëntie‑analyses. Met Aspose.Slides krijg je volledige controle over lay‑out, kleuren en data zonder PowerPoint handmatig te openen.
+## Waarom funnel‑diagrammen gebruiken in PowerPoint?
+Trechterdiagrammen onthullen direct uitvalpercentages over opeenvolgende fasen, waardoor ze ideaal zijn voor sales‑pipelines, conversie‑analyse of proces‑efficiëntie‑reviews. Aspose.Slides geeft je pixel‑perfecte controle over lay‑out, segmentkleuren en gegevenslabels, zodat je merkconsistentie kunt behouden en handmatige bewerking van diagrammen in de PowerPoint‑UI kunt vermijden.
 
-## Prerequisites (H2)
-Before we begin, ensure you have the necessary tools and knowledge to follow this tutorial.
+## Voorvereisten
 
-### Required Libraries, Versions, and Dependencies
-To implement Aspose.Slides for Java in your project, you need specific versions of libraries. Here’s how you can set it up using Maven or Gradle:
+### Vereiste bibliotheken, versies en afhankelijkheden
+Om Aspose.Slides for Java in je project te implementeren, voeg je de juiste Maven‑ of Gradle‑coördinaten toe. De bibliotheek werkt met Java 8‑21 en vereist geen externe native afhankelijkheden.
 
 **Maven:**
 
@@ -67,27 +113,25 @@ To implement Aspose.Slides for Java in your project, you need specific versions 
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Alternatively, you can download the library directly from [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+Je kunt de JAR ook direct downloaden van [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### Environment Setup Requirements
-Ensure your development environment is set up with JDK 1.6 or higher, as Aspose.Slides requires it for compatibility.
+### Omgevingsvereisten
+Zorg ervoor dat je JDK 8 of hoger geïnstalleerd hebt en dat je `JAVA_HOME` naar de juiste JDK‑directory wijst. Aspose.Slides draait op elk OS dat de JDK ondersteunt, inclusief Windows, macOS en Linux.
 
-### Knowledge Prerequisites
-Familiarity with Java programming concepts and basic presentation design principles will be beneficial but not necessary, as we’ll cover everything step‑by‑step.
+### Kennisvoorvereisten
+Basiskennis van Java‑syntaxis, object‑georiënteerd programmeren en het concept van een presentatie‑bestand helpt, maar de code‑fragmenten worden volledig uitgelegd voor ontwikkelaars van elk ervaringsniveau.
 
-## Setting Up Aspose.Slides for Java (H2)
-To start using Aspose.Slides in your project, follow these steps:
+## Instellen van Aspose.Slides voor Java
 
-1. **Add the Dependency**: Use Maven or Gradle to include Aspose.Slides, as shown above.
-   
-2. **License Acquisition**:
-   - **Free Trial**: Download a temporary license from [Aspose's website](https://purchase.aspose.com/temporary-license/) for evaluation purposes.
-   - **Purchase**: For production use, purchase a license through the [purchase page](https://purchase.aspose.com/buy).
+1. **Voeg de afhankelijkheid toe** – Gebruik de Maven‑ of Gradle‑snippet hierboven.  
+2. **Verkrijg een licentie** –  
+   - **Gratis proefversie** – Download een tijdelijke licentie van [Aspose's website](https://purchase.aspose.com/temporary-license/) voor evaluatie.  
+   - **Volledige licentie** – Koop een productielicentie via de [purchase page](https://purchase.aspose.com/buy).  
+3. **Basisinitialisatie** –  
 
-3. **Basic Initialization**:
-   Create a new Java class and initialize your presentation object:
+`Presentation` is de kernklasse van Aspose.Slides die een PowerPoint‑bestand in het geheugen representeert. Het biedt toegang tot dia's, vormen en diagramobjecten.
 
-   ```java
+```java
    import com.aspose.slides.Presentation;
    
    public class FunnelChartDemo {
@@ -102,15 +146,18 @@ To start using Aspose.Slides in your project, follow these steps:
    }
    ```
 
-This setup will allow you to create and manipulate presentations using Aspose.Slides.
+De bovenstaande code maakt een nieuw `Presentation`‑instance, klaar voor dia‑manipulatie, en zorgt ervoor dat bronnen worden vrijgegeven met `dispose()`.
 
-## Implementation Guide
-We'll break down the implementation into distinct features, each focusing on a specific aspect of funnel chart creation in PowerPoint.
+## Implementatie‑gids
 
-### Feature 1: Creating a Presentation (H2)
+We lopen elke functie door die nodig is om een volledig trechterdiagram te bouwen, met korte verklarende tekst vóór elke code‑placeholder.
 
-#### Overview
-Start by creating an instance of the `Presentation` class. This object represents your PowerPoint file and allows you to perform various operations.
+### Functie 1: een presentatie maken
+
+#### Overzicht
+Begin met het maken van een instantie van de `Presentation`‑klasse. Dit object is het startpunt voor alle volgende bewerkingen.
+
+`Presentation` is het top‑level object van Aspose.Slides dat de dia‑collectie en globale documentinstellingen bevat.
 
 ```java
 import com.aspose.slides.Presentation;
@@ -124,12 +171,14 @@ try {
 }
 ```
 
-**Explanation**: This code snippet initializes a `Presentation` object, pointing to an existing PowerPoint file. The `try‑finally` block ensures resources are released properly with `dispose()`.
+Het fragment opent een lege presentatie, die je later kunt opslaan als een `.pptx`‑bestand.
 
-### Feature 2: Adding a Funnel Chart to a Slide (H2)
+### Functie 2: een funnel chart toevoegen aan een dia
 
-#### Overview
-Add a funnel chart to your presentation's first slide using the following steps:
+#### Overzicht
+Voeg een trechterdiagram toe op de eerste dia, definieer de grootte en stel het diagramtype in.
+
+`ChartType.Funnel` vertelt Aspose.Slides om een trechter‑stijl visualisatie te renderen in plaats van een balk‑ of lijndiagram.
 
 ```java
 import com.aspose.slides.IChart;
@@ -147,12 +196,14 @@ try {
 }
 ```
 
-**Explanation**: The `addChart()` method creates a funnel chart on the first slide. Parameters define its position and size.
+De `addChart`‑aanroep maakt de diagramvorm, positioneert deze op `(50, 50)` punten en geeft een breedte van `500` en hoogte van `400`.
 
-### Feature 3: Clearing Chart Data (H2)
+### Functie 3: diagramgegevens wissen
 
-#### Overview
-Before populating your chart with data, you may need to clear existing content:
+#### Overzicht
+Voordat je het diagram vult, wis je eventuele placeholder‑categorieën of -reeksen die de sjabloon bevat.
+
+`chart.getChartData().getCategories().clear()` verwijdert alle bestaande categorie‑items, terwijl `chart.getChartData().getSeries().clear()` eventuele vooraf ingevulde reeksen verwijdert.
 
 ```java
 import com.aspose.slides.IChart;
@@ -172,12 +223,14 @@ try {
 }
 ```
 
-**Explanation**: This code removes any pre‑existing data from the funnel chart by clearing its categories and series.
+Dit zorgt voor een schone lei zodat jouw aangepaste gegevens precies verschijnen zoals bedoeld.
 
-### Feature 4: Setting Up Chart Data Workbook (H2)
+### Functie 4: werkmap voor diagramgegevens instellen
 
-#### Overview
-Initialize the chart's data workbook to manage your data effectively:
+#### Overzicht
+Het `IChartDataWorkbook`‑object slaat de ruwe waarden op die het diagram aandrijven. Initialisatie maakt het mogelijk om direct gegevens in cellen te schrijven.
+
+`IChartDataWorkbook` is een lichte in‑memory spreadsheet die Aspose.Slides gebruikt om diagramreeksen en -categorieën te voeden.
 
 ```java
 import com.aspose.slides.IChart;
@@ -200,12 +253,14 @@ try {
 }
 ```
 
-**Explanation**: The `IChartDataWorkbook` object allows you to clear existing cells, preparing the workbook for new data entries.
+De code wist eventuele bestaande cellen en bereidt de werkmap voor op nieuwe invoer.
 
-### Feature 5: Adding Categories to a Chart (H2)
+### Functie 5: categorieën toevoegen aan een diagram
 
-#### Overview
-Add meaningful categories to your funnel chart:
+#### Overzicht
+Definieer de tekstlabels die aan de linkerkant van de trechter verschijnen — deze vertegenwoordigen elke fase van je proces.
+
+`chart.getChartData().getCategories().add()` maakt een nieuw categorie‑object aan dat gekoppeld is aan een specifieke werkmapcel.
 
 ```java
 import com.aspose.slides.IChart;
@@ -229,12 +284,16 @@ try {
 }
 ```
 
-**Explanation**: This code adds categories to the funnel chart by accessing the data workbook and inserting category names into specific cells.
+Hier voegen we drie fasen toe: “Prospects”, “Qualified Leads” en “Closed Deals”.
 
-### Feature 6: Adding Data Series to a Chart (H2)
+### Functie 6: gegevensreeksen toevoegen aan een diagram
 
-#### Overview
-Populate your funnel chart with data series:
+#### Overzicht
+Vul de trechter met numerieke waarden en wijs eventueel een unieke kleur toe aan elk segment.
+
+`IDataPoint` representeert een enkel gegevenspunt binnen een diagramreeks.  
+
+`chart.getChartData().getSeries().add()` maakt een reeks aan die de numerieke gegevenspunten bevat; elke `IDataPoint` kan een eigen vulkleur krijgen.
 
 ```java
 import com.aspose.slides.IChart;
@@ -274,43 +333,49 @@ try {
 }
 ```
 
-**Explanation**: This code adds a data series to the funnel chart and populates it with data points. It also customizes the fill color of each data point.
+De lus toont hoe je een effen vulkleur instelt voor elk punt, met behulp van merkspecifieke `java.awt.Color`‑constanten of willekeurig gegenereerde kleuren voor visuele variatie.
 
-## Common Use Cases & Tips (H2)
+## Veelvoorkomende use‑cases & tips
 
-- **Sales Pipeline Reporting** – Visualize lead conversion from prospect to closed‑won.
-- **Process Efficiency Analysis** – Show drop‑off at each production stage.
-- **Marketing Funnel Review** – Compare campaign performance across channels.
+- **Rapportage van sales‑pipeline** – Toon hoeveel leads van prospect naar gesloten‑gewonnen gaan in elke fase.  
+- **Analyse van procesefficiëntie** – Visualiseer materiaalverlies of tijdvertragingen over productiestappen.  
+- **Marketing‑funnel review** – Vergelijk conversieratio's over campagnes of verkeersbronnen.  
 
-**Pro tip:** Use `java.awt.Color` constants for brand‑consistent colors instead of random values for a more polished look.
+**Pro tip:** Gebruik in plaats van willekeurige kleuren het merkschema van je bedrijf (bijv. `new Color(0, 112, 192)`) om de presentatie consistent te houden met andere marketing‑assets.
 
-## Frequently Asked Questions
+## Veelgestelde vragen
 
-**Q: How do I change the funnel chart’s orientation?**  
-A: Set the `ChartOrientation` property on the `IChart` object to `ChartOrientation.Vertical` or `Horizontal`.
+**V: Hoe wijzig ik de oriëntatie van de funnel chart?**  
+A: Stel de `ChartOrientation`‑eigenschap in op het `IChart`‑object op `ChartOrientation.Vertical` of `ChartOrientation.Horizontal`.
 
-**Q: Can I export the slide as an image after adding the chart?**  
-A: Yes, call `pres.getSlides().get_Item(0).getThumbnail(1, 1)` and save the resulting `java.awt.image.BufferedImage`.
+**V: Kan ik de dia exporteren als afbeelding na het toevoegen van het diagram?**  
+A: Ja—roep `pres.getSlides().get_Item(0).getThumbnail(1, 1)` aan en schrijf de resulterende `java.awt.image.BufferedImage` naar een PNG‑ of JPEG‑bestand.
 
-**Q: What if I need more than three categories?**  
-A: Simply add additional categories using `chart.getChartData().getCategories().add(...)` and corresponding data points.
+**V: Wat als ik meer dan drie categorieën nodig heb?**  
+A: Voeg eenvoudig extra categorieën toe met `chart.getChartData().getCategories().add(...)` en lever bijpassende gegevenspunten voor elke nieuwe categorie.
 
-**Q: Is there a way to hide the legend?**  
-A: Use `chart.getChartTitle().setVisible(false)` and `chart.getLegend().setVisible(false)`.
+**V: Is er een manier om de legenda te verbergen?**  
+A: Gebruik `chart.getChartTitle().setVisible(false)` en `chart.getLegend().setVisible(false)` om zowel de titel als de legenda uit de visualisatie te verwijderen.
 
-**Q: Do I need a license for development builds?**  
-A: A temporary license works for evaluation; a full license is required for production deployments.
+**V: Heb ik een licentie nodig voor ontwikkel‑builds?**  
+A: Een tijdelijke licentie is voldoende voor evaluatie; een volledige commerciële licentie is vereist voor productie‑implementaties.
 
 ---
 
-**Last Updated:** 2026-03-18  
-**Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
-**Author:** Aspose  
+**Last updated:** 2026-09-02  
+**Getest met:** Aspose.Slides for Java 25.4 (jdk16)  
+**Auteur:** Aspose
+
+## Gerelateerde tutorials
+
+- [Hoe een diagram toe te voegen aan PowerPoint met Aspose.Slides voor Java: Een stapsgewijze gids](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [Hoe PowerPoint‑diagramgegevens te bewerken met Aspose.Slides voor Java: Een uitgebreide gids](/slides/java/charts-graphs/edit-ppt-chart-data-aspose-slides-java/)
+- [Animatie toevoegen aan PowerPoint‑diagram met Aspose.Slides voor Java – Een stapsgewijze gids](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

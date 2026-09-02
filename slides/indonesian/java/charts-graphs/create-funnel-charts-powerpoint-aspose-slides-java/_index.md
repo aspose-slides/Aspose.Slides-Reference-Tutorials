@@ -1,54 +1,100 @@
 ---
-date: '2026-03-18'
-description: Pelajari visualisasi data Java dengan membuat diagram corong di PowerPoint
-  menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah ini menunjukkan
-  cara membuat diagram corong, mengatur data diagram, dan menyesuaikan warna.
+date: '2026-09-02'
+description: Pelajari cara membuat diagram corong di PowerPoint menggunakan Aspose.Slides
+  for Java. Panduan langkah demi langkah ini mencakup pengaturan data diagram, penyesuaian
+  warna, dan mengekspor presentasi.
 keywords:
-- funnel chart creation
-- Aspose.Slides for Java
-- PowerPoint data visualization
-title: visualisasi data java – Diagram Corong dengan Aspose.Slides
+- create funnel chart
+- export powerpoint presentation
+- how to create funnel
+- how to customize colors
+- java data visualization
+lastmod: '2026-09-02'
+og_description: Pelajari cara membuat diagram corong di PowerPoint menggunakan Aspose.Slides
+  for Java. Panduan ini memandu Anda melalui penyiapan data, penyesuaian warna, dan
+  mengekspor presentasi akhir.
+og_image_alt: Guide showing funnel chart creation in PowerPoint with Aspose.Slides
+  for Java
+og_title: Buat diagram corong di PowerPoint dengan Aspose.Slides for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-02'
+  description: Learn how to create funnel chart in PowerPoint using Aspose.Slides
+    for Java. This step‑by‑step guide covers setting chart data, customizing colors,
+    and exporting the presentation.
+  headline: Create funnel chart in PowerPoint with Aspose.Slides for Java
+  type: TechArticle
+- description: Learn how to create funnel chart in PowerPoint using Aspose.Slides
+    for Java. This step‑by‑step guide covers setting chart data, customizing colors,
+    and exporting the presentation.
+  name: Create funnel chart in PowerPoint with Aspose.Slides for Java
+  steps:
+  - name: '**Add the dependency** – Use the Maven or Gradle snippet above.'
+    text: '**Add the dependency** – Use the Maven or Gradle snippet above.'
+  - name: '**Obtain a license** –'
+    text: '**Obtain a license** –'
+  - name: '**Basic initialization** –'
+    text: '**Basic initialization** –'
+  type: HowTo
+- questions:
+  - answer: Set the `ChartOrientation` property on the `IChart` object to `ChartOrientation.Vertical`
+      or `ChartOrientation.Horizontal`.
+    question: How do I change the funnel chart’s orientation?
+  - answer: Yes—call `pres.getSlides().get_Item(0).getThumbnail(1, 1)` and write the
+      resulting `java.awt.image.BufferedImage` to a PNG or JPEG file.
+    question: Can I export the slide as an image after adding the chart?
+  - answer: Simply add additional categories using `chart.getChartData().getCategories().add(...)`
+      and provide matching data points for each new category.
+    question: What if I need more than three categories?
+  - answer: Use `chart.getChartTitle().setVisible(false)` and `chart.getLegend().setVisible(false)`
+      to remove both the title and legend from the visual.
+    question: Is there a way to hide the legend?
+  - answer: A temporary license is sufficient for evaluation; a full commercial license
+      is required for production deployments.
+    question: Do I need a license for development builds?
+  type: FAQPage
+tags:
+- funnel chart
+- Aspose.Slides
+- Java data visualization
+title: Buat diagram corong di PowerPoint dengan Aspose.Slides for Java
 url: /id/java/charts-graphs/create-funnel-charts-powerpoint-aspose-slides-java/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Menguasai Pembuatan Funnel Chart di PowerPoint dengan Aspose.Slides untuk Java
 
-## Introduction
-Membuat presentasi yang menarik adalah seni yang menggabungkan visualisasi data, desain, dan storytelling. Salah satu alat yang kuat untuk meningkatkan presentasi Anda adalah funnel chart—representasi visual dari tahapan dalam sebuah proses atau pipeline penjualan. Baik Anda menyajikan laporan bisnis, timeline proyek, atau strategi penjualan, mengintegrasikan funnel chart dapat mengubah data mentah menjadi cerita yang bermakna.
+# Menguasai pembuatan diagram corong di PowerPoint dengan Aspose.Slides for Java
 
-Dalam tutorial ini, kami akan menjelajahi cara membuat dan menyesuaikan funnel chart di PowerPoint menggunakan Aspose.Slides untuk Java. Anda akan mempelajari proses langkah‑demi‑langkah menyiapkan lingkungan, menambahkan funnel chart ke slide, mengonfigurasi datanya, dan menyimpan presentasi dengan mudah. Pada akhir panduan ini, Anda akan siap memperkaya presentasi dengan visual profesional.
+## Pendahuluan
+Membuat presentasi yang menarik adalah seni yang memadukan visualisasi data, desain, dan storytelling. Salah satu visual yang kuat dan langsung memperjelas proses multi‑tahap adalah diagram corong. Baik Anda perlu menggambarkan pipeline penjualan, alur konversi, atau bottleneck produksi, diagram corong yang dirancang dengan baik mengubah angka mentah menjadi narasi yang intuitif. Dalam tutorial ini Anda akan belajar cara **membuat diagram corong** di PowerPoint secara programatis menggunakan Aspose.Slides for Java, mengonfigurasi datanya, menyesuaikan warna tiap segmen, dan mengekspor deck yang selesai.
 
-**What You'll Learn:**
-- Menyiapkan Aspose.Slides untuk Java dalam proyek Anda
-- Membuat instance presentasi PowerPoint
-- Menambahkan dan menyesuaikan funnel chart pada slide
-- Mengelola data chart secara efektif
-- Menyimpan dan mengekspor presentasi yang telah ditingkatkan
+**Apa yang akan Anda pelajari**
+- Cara menambahkan Aspose.Slides for Java ke proyek Maven atau Gradle  
+- Cara menginstansiasi objek `Presentation` dan mengakses slide‑nya  
+- Cara menyisipkan diagram corong, mendefinisikan kategori, dan mengisi data seri  
+- Cara menata setiap irisan corong dengan isian padat atau warna khusus merek  
+- Cara menyimpan presentasi sebagai file PPTX atau mengekspor slide sebagai gambar  
 
-## Quick Answers
-- **What is the primary library for java data visualization?** Aspose.Slides for Java.
-- **How to create a funnel chart in PowerPoint?** Use `addChart(ChartType.Funnel, …)` on a slide.
-- **Which method sets the chart’s data source?** Work with `IChartDataWorkbook` and `chart.getChartData()`.
-- **Can I customize colors for each funnel segment?** Yes, set `FillType.Solid` and assign a random or specific `java.awt.Color`.
-- **Do I need a license for production use?** A purchased Aspose.Slides license is required for commercial deployments.
+## Jawaban Cepat
+- **Apa perpustakaan utama untuk visualisasi data java?** Aspose.Slides for Java.  
+- **Bagaimana cara membuat diagram corong di PowerPoint?** Panggil `slide.addChart(ChartType.Funnel, …)` pada slide target.  
+- **API mana yang mengatur sumber data diagram?** Gunakan `IChartDataWorkbook` bersama dengan `chart.getChartData()`.  
+- **Bisakah Anda menyesuaikan warna untuk tiap segmen corong?** Ya—atur `FillFormat.setFillType(FillType.Solid)` dan tetapkan `java.awt.Color`.  
+- **Apakah Anda memerlukan lisensi untuk penggunaan produksi?** Lisensi Aspose.Slides yang dibeli diperlukan untuk penyebaran komersial.
 
-## What is java data visualization?
-java data visualization mengacu pada teknik dan pustaka yang memungkinkan pengembang mengubah data mentah menjadi representasi visual yang jelas, interaktif, atau statis langsung dari aplikasi Java. Aspose.Slides untuk Java adalah pustaka terkemuka untuk membuat chart, diagram, dan presentasi kaya secara programatik.
+## Apa itu visualisasi data Java?
+Visualisasi data Java adalah praktik mengubah data mentah menjadi diagram, grafik, atau grafik interaktif langsung dari aplikasi Java. Aspose.Slides for Java adalah perpustakaan terkemuka yang memungkinkan pengembang menghasilkan lebih dari 100 tipe diagram—termasuk diagram corong—tanpa pernah meluncurkan PowerPoint secara manual, mendukung presentasi dengan hingga 500 slide sambil menjaga penggunaan memori tetap rendah.
 
-## Why use funnel charts in PowerPoint?
-Funnel chart memudahkan ilustrasi tingkat penurunan antar tahapan—ideal untuk pipeline penjualan, conversion funnel, atau analisis efisiensi proses. Dengan Aspose.Slides Anda mendapatkan kontrol penuh atas tata letak, warna, dan data tanpa harus membuka PowerPoint secara manual.
+## Mengapa menggunakan diagram corong di PowerPoint?
+Diagram corong secara instan mengungkapkan tingkat penurunan antar tahapan berurutan, menjadikannya ideal untuk pipeline penjualan, analisis konversi, atau tinjauan efisiensi proses. Aspose.Slides memberi Anda kontrol pixel‑perfect atas tata letak, warna segmen, dan label data, sehingga Anda dapat mempertahankan konsistensi merek dan menghindari upaya manual mengedit diagram di UI PowerPoint.
 
-## Prerequisites (H2)
-Sebelum kita mulai, pastikan Anda memiliki alat dan pengetahuan yang diperlukan untuk mengikuti tutorial ini.
+## Prasyarat (H2)
 
-### Required Libraries, Versions, and Dependencies
-Untuk mengimplementasikan Aspose.Slides untuk Java dalam proyek Anda, diperlukan versi pustaka tertentu. Berikut cara menyiapkannya menggunakan Maven atau Gradle:
+### Perpustakaan yang diperlukan, versi, dan dependensi
+Untuk mengimplementasikan Aspose.Slides for Java dalam proyek Anda, sertakan koordinat Maven atau Gradle yang sesuai. Perpustakaan ini bekerja dengan Java 8‑21 dan tidak memerlukan dependensi native eksternal.
 
 **Maven:**
 
@@ -67,27 +113,25 @@ Untuk mengimplementasikan Aspose.Slides untuk Java dalam proyek Anda, diperlukan
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Atau, Anda dapat mengunduh pustaka langsung dari [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+Anda juga dapat mengunduh JAR secara langsung dari [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 
-### Environment Setup Requirements
-Pastikan lingkungan pengembangan Anda telah terpasang JDK 1.6 atau lebih tinggi, karena Aspose.Slides memerlukannya untuk kompatibilitas.
+### Persyaratan penyiapan lingkungan
+Pastikan Anda memiliki JDK 8 atau yang lebih baru terpasang dan `JAVA_HOME` mengarah ke direktori JDK yang tepat. Aspose.Slides berjalan pada sistem operasi apa pun yang mendukung JDK, termasuk Windows, macOS, dan Linux.
 
-### Knowledge Prerequisites
-Familiaritas dengan konsep pemrograman Java dan prinsip dasar desain presentasi akan sangat membantu, namun tidak wajib, karena kami akan membahas semuanya langkah demi langkah.
+### Prasyarat pengetahuan
+Familiaritas dasar dengan sintaks Java, pemrograman berorientasi objek, dan konsep file presentasi akan membantu, namun potongan kode dijelaskan sepenuhnya untuk pengembang dengan tingkat pengalaman apa pun.
 
-## Setting Up Aspose.Slides for Java (H2)
-Untuk mulai menggunakan Aspose.Slides dalam proyek Anda, ikuti langkah‑langkah berikut:
+## Menyiapkan Aspose.Slides for Java (H2)
 
-1. **Add the Dependency**: Gunakan Maven atau Gradle untuk menyertakan Aspose.Slides, seperti yang ditunjukkan di atas.
-   
-2. **License Acquisition**:
-   - **Free Trial**: Unduh lisensi sementara dari [Aspose's website](https://purchase.aspose.com/temporary-license/) untuk keperluan evaluasi.
-   - **Purchase**: Untuk penggunaan produksi, beli lisensi melalui [purchase page](https://purchase.aspose.com/buy).
+1. **Tambahkan dependensi** – Gunakan cuplikan Maven atau Gradle di atas.  
+2. **Dapatkan lisensi** –  
+   - **Uji coba gratis** – Unduh lisensi sementara dari [Aspose's website](https://purchase.aspose.com/temporary-license/) untuk evaluasi.  
+   - **Lisensi penuh** – Beli lisensi produksi melalui [halaman pembelian](https://purchase.aspose.com/buy).  
+3. **Inisialisasi dasar** –  
 
-3. **Basic Initialization**:
-   Buat kelas Java baru dan inisialisasi objek presentasi Anda:
+`Presentation` adalah kelas inti Aspose.Slides yang mewakili file PowerPoint dalam memori. Ia menyediakan akses ke slide, shape, dan objek diagram.
 
-   ```java
+```java
    import com.aspose.slides.Presentation;
    
    public class FunnelChartDemo {
@@ -102,15 +146,18 @@ Untuk mulai menggunakan Aspose.Slides dalam proyek Anda, ikuti langkah‑langkah
    }
    ```
 
-Penyiapan ini memungkinkan Anda membuat dan memanipulasi presentasi menggunakan Aspose.Slides.
+Kode di atas membuat instance `Presentation` baru, siap untuk manipulasi slide, dan menjamin sumber daya dibebaskan dengan `dispose()`.
 
-## Implementation Guide
-Kami akan membagi implementasi menjadi beberapa fitur, masing‑masing berfokus pada aspek spesifik pembuatan funnel chart di PowerPoint.
+## Panduan Implementasi
 
-### Feature 1: Creating a Presentation (H2)
+Kami akan menelusuri setiap fitur yang diperlukan untuk membangun diagram corong lengkap, menambahkan teks penjelasan singkat sebelum setiap placeholder kode.
 
-#### Overview
-Mulailah dengan membuat instance kelas `Presentation`. Objek ini mewakili file PowerPoint Anda dan memungkinkan berbagai operasi.
+### Fitur 1: membuat presentasi (H2)
+
+#### Ikhtisar
+Mulailah dengan membuat instance kelas `Presentation`. Objek ini adalah titik masuk untuk semua operasi selanjutnya.
+
+`Presentation` adalah objek tingkat‑atas Aspose.Slides yang menyimpan koleksi slide dan pengaturan dokumen global.
 
 ```java
 import com.aspose.slides.Presentation;
@@ -124,12 +171,14 @@ try {
 }
 ```
 
-**Explanation**: Potongan kode ini menginisialisasi objek `Presentation`, mengarah ke file PowerPoint yang sudah ada. Blok `try‑finally` memastikan sumber daya dibebaskan dengan benar menggunakan `dispose()`.
+Cuplikan ini membuka presentasi kosong, yang kemudian dapat Anda simpan sebagai file `.pptx`.
 
-### Feature 2: Adding a Funnel Chart to a Slide (H2)
+### Fitur 2: menambahkan diagram corong ke slide (H2)
 
-#### Overview
-Tambahkan funnel chart ke slide pertama presentasi Anda dengan langkah‑langkah berikut:
+#### Ikhtisar
+Sisipkan diagram corong pada slide pertama, tentukan ukurannya, dan atur tipe diagram.
+
+`ChartType.Funnel` memberi tahu Aspose.Slides untuk merender visualisasi bergaya corong alih‑alih diagram batang atau garis.
 
 ```java
 import com.aspose.slides.IChart;
@@ -147,12 +196,14 @@ try {
 }
 ```
 
-**Explanation**: Metode `addChart()` membuat funnel chart pada slide pertama. Parameter menentukan posisi dan ukuran chart.
+Pemanggilan `addChart` membuat shape diagram, menempatkannya pada titik `(50, 50)`, dan memberi lebar `500` serta tinggi `400`.
 
-### Feature 3: Clearing Chart Data (H2)
+### Fitur 3: membersihkan data diagram (H2)
 
-#### Overview
-Sebelum mengisi chart dengan data, Anda mungkin perlu membersihkan konten yang ada:
+#### Ikhtisar
+Sebelum mengisi diagram, bersihkan semua kategori placeholder atau seri yang mungkin ada pada templat.
+
+`chart.getChartData().getCategories().clear()` menghapus semua entri kategori yang ada, sementara `chart.getChartData().getSeries().clear()` menghapus semua seri yang telah terisi sebelumnya.
 
 ```java
 import com.aspose.slides.IChart;
@@ -172,12 +223,14 @@ try {
 }
 ```
 
-**Explanation**: Kode ini menghapus semua data yang sudah ada pada funnel chart dengan membersihkan kategori dan series‑nya.
+Ini memastikan kanvas bersih sehingga data khusus Anda muncul persis seperti yang diharapkan.
 
-### Feature 4: Setting Up Chart Data Workbook (H2)
+### Fitur 4: menyiapkan workbook data diagram (H2)
 
-#### Overview
-Inisialisasi workbook data chart untuk mengelola data secara efektif:
+#### Ikhtisar
+Objek `IChartDataWorkbook` menyimpan nilai mentah yang menggerakkan diagram. Menginisialisasinya memungkinkan Anda menulis data langsung ke sel.
+
+`IChartDataWorkbook` adalah spreadsheet ringan dalam memori yang digunakan Aspose.Slides untuk memberi data pada seri dan kategori diagram.
 
 ```java
 import com.aspose.slides.IChart;
@@ -200,12 +253,14 @@ try {
 }
 ```
 
-**Explanation**: Objek `IChartDataWorkbook` memungkinkan Anda membersihkan sel‑sel yang ada, mempersiapkan workbook untuk entri data baru.
+Kode ini menghapus semua sel yang ada, menyiapkan workbook untuk entri baru.
 
-### Feature 5: Adding Categories to a Chart (H2)
+### Fitur 5: menambahkan kategori ke diagram (H2)
 
-#### Overview
-Tambahkan kategori yang bermakna ke funnel chart Anda:
+#### Ikhtisar
+Definisikan label teks yang muncul di sisi kiri corong—ini mewakili tiap tahapan proses Anda.
+
+`chart.getChartData().getCategories().add()` membuat objek kategori baru yang terhubung ke sel workbook tertentu.
 
 ```java
 import com.aspose.slides.IChart;
@@ -229,12 +284,16 @@ try {
 }
 ```
 
-**Explanation**: Kode ini menambahkan kategori ke funnel chart dengan mengakses workbook data dan menyisipkan nama kategori ke sel‑sel tertentu.
+Di sini kami menambahkan tiga tahapan: “Prospects”, “Qualified Leads”, dan “Closed Deals”.
 
-### Feature 6: Adding Data Series to a Chart (H2)
+### Fitur 6: menambahkan seri data ke diagram (H2)
 
-#### Overview
-Isi funnel chart Anda dengan data series:
+#### Ikhtisar
+Isi corong dengan nilai numerik dan opsional beri warna unik pada tiap irisan.
+
+`IDataPoint` mewakili satu titik data dalam seri diagram.  
+
+`chart.getChartData().getSeries().add()` membuat seri yang menampung titik data numerik; tiap `IDataPoint` dapat menerima warna isian sendiri.
 
 ```java
 import com.aspose.slides.IChart;
@@ -274,43 +333,49 @@ try {
 }
 ```
 
-**Explanation**: Kode ini menambahkan data series ke funnel chart dan mengisi titik data. Selain itu, kode menyesuaikan warna isi setiap titik data.
+Loop ini menunjukkan cara mengatur isian padat untuk tiap poin, menggunakan konstanta `java.awt.Color` khusus merek atau warna acak untuk variasi visual.
 
-## Common Use Cases & Tips (H2)
+## Kasus penggunaan umum & tips (H2)
 
-- **Sales Pipeline Reporting** – Visualisasikan konversi lead dari prospek hingga closed‑won.
-- **Process Efficiency Analysis** – Tampilkan penurunan pada setiap tahap produksi.
-- **Marketing Funnel Review** – Bandingkan kinerja kampanye di berbagai kanal.
+- **Pelaporan pipeline penjualan** – Tampilkan berapa banyak prospek yang bergerak dari tahap prospect ke closed‑won di tiap tahapan.  
+- **Analisis efisiensi proses** – Visualisasikan kehilangan material atau penundaan waktu di tiap langkah manufaktur.  
+- **Tinjauan funnel pemasaran** – Bandingkan tingkat konversi antar kampanye atau sumber lalu lintas.  
 
-**Pro tip:** Gunakan konstanta `java.awt.Color` untuk warna yang konsisten dengan merek alih‑alih nilai acak, sehingga tampilan lebih profesional.
+**Tips pro:** Alih‑alih menggunakan warna acak, gunakan palet merek perusahaan Anda (misalnya `new Color(0, 112, 192)`) untuk menjaga konsistensi presentasi dengan aset pemasaran lainnya.
 
-## Frequently Asked Questions
+## Pertanyaan yang sering diajukan (H2)
 
-**Q: How do I change the funnel chart’s orientation?**  
-A: Set the `ChartOrientation` property pada objek `IChart` menjadi `ChartOrientation.Vertical` atau `Horizontal`.
+**T: Bagaimana cara mengubah orientasi diagram corong?**  
+J: Atur properti `ChartOrientation` pada objek `IChart` ke `ChartOrientation.Vertical` atau `ChartOrientation.Horizontal`.
 
-**Q: Can I export the slide as an image after adding the chart?**  
-A: Ya, panggil `pres.getSlides().get_Item(0).getThumbnail(1, 1)` dan simpan `java.awt.image.BufferedImage` yang dihasilkan.
+**T: Bisakah saya mengekspor slide sebagai gambar setelah menambahkan diagram?**  
+J: Ya—panggil `pres.getSlides().get_Item(0).getThumbnail(1, 1)` dan tulis `java.awt.image.BufferedImage` yang dihasilkan ke file PNG atau JPEG.
 
-**Q: What if I need more than three categories?**  
-A: Cukup tambahkan kategori tambahan menggunakan `chart.getChartData().getCategories().add(...)` dan titik data yang bersesuaian.
+**T: Bagaimana jika saya memerlukan lebih dari tiga kategori?**  
+J: Cukup tambahkan kategori tambahan menggunakan `chart.getChartData().getCategories().add(...)` dan sediakan titik data yang cocok untuk tiap kategori baru.
 
-**Q: Is there a way to hide the legend?**  
-A: Gunakan `chart.getChartTitle().setVisible(false)` dan `chart.getLegend().setVisible(false)`.
+**T: Apakah ada cara menyembunyikan legenda?**  
+J: Gunakan `chart.getChartTitle().setVisible(false)` dan `chart.getLegend().setVisible(false)` untuk menghilangkan judul dan legenda dari visual.
 
-**Q: Do I need a license for development builds?**  
-A: Lisensi sementara cukup untuk evaluasi; lisensi penuh diperlukan untuk deployment produksi.
+**T: Apakah saya memerlukan lisensi untuk build pengembangan?**  
+J: Lisensi sementara cukup untuk evaluasi; lisensi komersial penuh diperlukan untuk penyebaran produksi.
 
 ---
 
-**Last Updated:** 2026-03-18  
-**Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
-**Author:** Aspose  
+**Terakhir diperbarui:** 2026-09-02  
+**Diuji dengan:** Aspose.Slides for Java 25.4 (jdk16)  
+**Penulis:** Aspose
+
+## Tutorial Terkait
+
+- [How to Add Chart to PowerPoint Using Aspose.Slides for Java: A Step‑By‑Step Guide](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [How to Edit PowerPoint Chart Data Using Aspose.Slides for Java: A Comprehensive Guide](/slides/java/charts-graphs/edit-ppt-chart-data-aspose-slides-java/)
+- [Add animation to PowerPoint chart using Aspose.Slides for Java – A Step‑by‑Step Guide](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

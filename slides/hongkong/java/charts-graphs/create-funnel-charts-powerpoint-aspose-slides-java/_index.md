@@ -1,54 +1,100 @@
 ---
-date: '2026-03-18'
-description: 學習 Java 數據可視化，透過 Aspose.Slides for Java 在 PowerPoint 中建立漏斗圖。此逐步指南說明如何建立漏斗圖、設定圖表資料以及自訂顏色。
+date: '2026-09-02'
+description: 了解如何使用 Aspose.Slides for Java 在 PowerPoint 中建立 funnel chart。此 step‑by‑step
+  guide 介紹設定 chart data、customizing colors 以及 exporting the presentation 的方法。
 keywords:
-- funnel chart creation
-- Aspose.Slides for Java
-- PowerPoint data visualization
-title: Java 數據視覺化 – 漏斗圖表與 Aspose.Slides
+- create funnel chart
+- export powerpoint presentation
+- how to create funnel
+- how to customize colors
+- java data visualization
+lastmod: '2026-09-02'
+og_description: 了解如何使用 Aspose.Slides for Java 在 PowerPoint 中建立 funnel chart。此 guide
+  逐步說明 data setup、color customization 以及 exporting the final presentation 的流程。
+og_image_alt: Guide showing funnel chart creation in PowerPoint with Aspose.Slides
+  for Java
+og_title: 使用 Aspose.Slides for Java 在 PowerPoint 中建立 funnel chart
+schemas:
+- author: Aspose
+  dateModified: '2026-09-02'
+  description: Learn how to create funnel chart in PowerPoint using Aspose.Slides
+    for Java. This step‑by‑step guide covers setting chart data, customizing colors,
+    and exporting the presentation.
+  headline: Create funnel chart in PowerPoint with Aspose.Slides for Java
+  type: TechArticle
+- description: Learn how to create funnel chart in PowerPoint using Aspose.Slides
+    for Java. This step‑by‑step guide covers setting chart data, customizing colors,
+    and exporting the presentation.
+  name: Create funnel chart in PowerPoint with Aspose.Slides for Java
+  steps:
+  - name: '**Add the dependency** – Use the Maven or Gradle snippet above.'
+    text: '**Add the dependency** – Use the Maven or Gradle snippet above.'
+  - name: '**Obtain a license** –'
+    text: '**Obtain a license** –'
+  - name: '**Basic initialization** –'
+    text: '**Basic initialization** –'
+  type: HowTo
+- questions:
+  - answer: Set the `ChartOrientation` property on the `IChart` object to `ChartOrientation.Vertical`
+      or `ChartOrientation.Horizontal`.
+    question: How do I change the funnel chart’s orientation?
+  - answer: Yes—call `pres.getSlides().get_Item(0).getThumbnail(1, 1)` and write the
+      resulting `java.awt.image.BufferedImage` to a PNG or JPEG file.
+    question: Can I export the slide as an image after adding the chart?
+  - answer: Simply add additional categories using `chart.getChartData().getCategories().add(...)`
+      and provide matching data points for each new category.
+    question: What if I need more than three categories?
+  - answer: Use `chart.getChartTitle().setVisible(false)` and `chart.getLegend().setVisible(false)`
+      to remove both the title and legend from the visual.
+    question: Is there a way to hide the legend?
+  - answer: A temporary license is sufficient for evaluation; a full commercial license
+      is required for production deployments.
+    question: Do I need a license for development builds?
+  type: FAQPage
+tags:
+- funnel chart
+- Aspose.Slides
+- Java data visualization
+title: 使用 Aspose.Slides for Java 在 PowerPoint 中建立 funnel chart
 url: /zh-hant/java/charts-graphs/create-funnel-charts-powerpoint-aspose-slides-java/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# 掌握在 PowerPoint 中使用 Aspose.Slides for Java 建立漏斗圖表
 
-## Introduction
-打造引人入勝的簡報是一門結合資料視覺化、設計與敘事的藝術。提升簡報效果的強大工具之一是漏斗圖——它以視覺方式呈現流程或銷售管道中的各個階段。無論是呈現商業報告、專案時間表，或是銷售策略，加入漏斗圖都能將原始資料轉化為有洞見的故事。
+# 精通在 PowerPoint 中使用 Aspose.Slides for Java 建立漏斗圖表
 
-在本教學中，我們將探討如何在 PowerPoint 中使用 Aspose.Slides for Java 建立與自訂漏斗圖。您將學會一步一步設定環境、在投影片中加入漏斗圖、配置圖表資料，並輕鬆儲存簡報。完成本指南後，您將能以專業等級的視覺效果提升簡報品質。
+## 簡介
+製作引人入勝的簡報是一門結合資料視覺化、設計與敘事的藝術。能即時說明多階段流程的強大視覺效果之一就是漏斗圖表。無論您需要說明銷售管道、轉換流程或生產瓶頸，設計良好的漏斗圖表都能將原始數據轉化為直觀的敘事。在本教學中，您將學習如何使用 Aspose.Slides for Java 以程式方式 **create funnel chart** 於 PowerPoint，設定其資料、客製化每個區段的顏色，並匯出完成的簡報。
 
-**What You'll Learn:**
-- 在專案中設定 Aspose.Slides for Java
-- 建立 PowerPoint 簡報實例
-- 在投影片上加入與自訂漏斗圖表
-- 有效管理圖表資料
-- 儲存與匯出強化後的簡報
+**您將學習**
+- 如何將 Aspose.Slides for Java 加入 Maven 或 Gradle 專案  
+- 如何實例化 `Presentation` 物件並存取其投影片  
+- 如何插入漏斗圖表、定義類別，並填充系列資料  
+- 如何使用純色填充或品牌特定顏色樣式化每個漏斗切片  
+- 如何將簡報儲存為 PPTX 檔案或將投影片匯出為影像  
 
-## Quick Answers
-- **What is the primary library for java data visualization?** Aspose.Slides for Java.
-- **How to create a funnel chart in PowerPoint?** Use `addChart(ChartType.Funnel, …)` on a slide.
-- **Which method sets the chart’s data source?** Work with `IChartDataWorkbook` and `chart.getChartData()`.
-- **Can I customize colors for each funnel segment?** Yes, set `FillType.Solid` and assign a random or specific `java.awt.Color`.
-- **Do I need a license for production use?** A purchased Aspose.Slides license is required for commercial deployments.
+## 快速解答
+- **Java 資料視覺化的主要函式庫是什麼？** Aspose.Slides for Java.  
+- **如何在 PowerPoint 中建立漏斗圖表？** Call `slide.addChart(ChartType.Funnel, …)` on the target slide.  
+- **哪個 API 設定圖表的資料來源？** Use `IChartDataWorkbook` together with `chart.getChartData()`.  
+- **您可以為每個漏斗區段自訂顏色嗎？** Yes—set `FillFormat.setFillType(FillType.Solid)` and assign a `java.awt.Color`.  
+- **生產環境是否需要授權？** A purchased Aspose.Slides license is required for commercial deployments.
 
-## What is java data visualization?
-java data visualization 指的是讓開發者能直接從 Java 應用程式將原始資料轉換為清晰、互動或靜態視覺呈現的技術與函式庫。Aspose.Slides for Java 是用於程式化建立圖表、圖示與豐富簡報的領先函式庫。
+## 什麼是 Java 資料視覺化？
+Java 資料視覺化是指直接從 Java 應用程式將原始資料轉換為圖表、圖形或互動式圖形的做法。Aspose.Slides for Java 是領先的函式庫，可讓開發人員產生超過 100 種圖表類型——包括漏斗圖表——而無需手動啟動 PowerPoint，支援最多 500 張投影片的簡報，同時保持低記憶體使用量。
 
-## Why use funnel charts in PowerPoint?
-漏斗圖能輕鬆說明各階段的流失率——非常適合銷售管道、轉換漏斗或流程效率分析。使用 Aspose.Slides，您可完整掌控版面、顏色與資料，無需手動開啟 PowerPoint。
+## 為何在 PowerPoint 中使用漏斗圖表？
+漏斗圖表能即時顯示各連續階段的流失率，使其成為銷售管道、轉換分析或流程效率檢視的理想工具。Aspose.Slides 為您提供像素級的版面、區段顏色與資料標籤控制，讓您維持品牌一致性，並避免在 PowerPoint 使用者介面手動編輯圖表的繁瑣工作。
 
-## Prerequisites (H2)
-在開始之前，請確保您具備以下工具與知識，以順利跟隨本教學。
+## 前置條件 (H2)
 
-### Required Libraries, Versions, and Dependencies
-要在專案中使用 Aspose.Slides for Java，需加入特定版本的函式庫。以下示範如何使用 Maven 或 Gradle 進行設定：
+### 必要的函式庫、版本與相依性
+要在您的專案中使用 Aspose.Slides for Java，請加入相應的 Maven 或 Gradle 坐標。此函式庫支援 Java 8‑21，且不需要外部原生相依性。
 
-**Maven:**
+**Maven：**
 
 ```xml
 <dependency>
@@ -59,33 +105,31 @@ java data visualization 指的是讓開發者能直接從 Java 應用程式將�
 </dependency>
 ```
 
-**Gradle:**
+**Gradle：**
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-亦可直接從 [Aspose.Slides for Java 版本下載](https://releases.aspose.com/slides/java/) 取得函式庫。
+您也可以直接從 [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) 下載 JAR。
 
-### Environment Setup Requirements
-請確保開發環境已安裝 JDK 1.6 以上，因為 Aspose.Slides 需要此版本相容。
+### 環境設定需求
+確保已安裝 JDK 8 或更新版本，且 `JAVA_HOME` 指向正確的 JDK 目錄。Aspose.Slides 可在任何支援 JDK 的作業系統上執行，包括 Windows、macOS 與 Linux。
 
-### Knowledge Prerequisites
-具備 Java 程式設計概念與基本簡報設計原則會有助益，但非必須，因為本教學會一步一步說明。
+### 知識前置條件
+具備 Java 語法、物件導向程式設計以及簡報檔概念的基本認識會有幫助，但程式碼片段已完整說明，適用於任何經驗層級的開發人員。
 
-## Setting Up Aspose.Slides for Java (H2)
-開始在專案中使用 Aspose.Slides，請依照以下步驟操作：
+## 設定 Aspose.Slides for Java (H2)
 
-1. **Add the Dependency**：使用 Maven 或 Gradle 如上所示加入 Aspose.Slides。
-   
-2. **License Acquisition**：
-   - **Free Trial**：從 [Aspose 的網站](https://purchase.aspose.com/temporary-license/) 下載臨時授權以供評估使用。
-   - **Purchase**：若用於正式環境，請透過 [購買頁面](https://purchase.aspose.com/buy) 取得授權。
+1. **加入相依性** – 使用上述的 Maven 或 Gradle 片段。  
+2. **取得授權** –  
+   - **免費試用** – 從 [Aspose's website](https://purchase.aspose.com/temporary-license/) 下載臨時授權以供評估。  
+   - **完整授權** – 透過 [purchase page](https://purchase.aspose.com/buy) 購買正式授權。  
+3. **基本初始化** –  
 
-3. **Basic Initialization**：
-   建立新的 Java 類別並初始化簡報物件：
+`Presentation` 是 Aspose.Slides 的核心類別，代表記憶體中的 PowerPoint 檔案。它提供對投影片、圖形與圖表物件的存取。
 
-   ```java
+```java
    import com.aspose.slides.Presentation;
    
    public class FunnelChartDemo {
@@ -100,15 +144,17 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
    }
    ```
 
-完成上述設定後，即可使用 Aspose.Slides 建立與操作簡報。
+上述程式碼建立了一個新的 `Presentation` 實例，可進行投影片操作，並確保使用 `dispose()` 釋放資源。
 
-## Implementation Guide
-我們將實作分為多個功能，每個功能聚焦於漏斗圖在 PowerPoint 中的特定操作。
+## 實作指南
+我們將逐步說明建立完整漏斗圖表所需的每個功能，並在每個程式碼佔位符前加入簡短說明文字。
 
-### Feature 1: Creating a Presentation (H2)
+### 功能 1：建立簡報 (H2)
 
-#### Overview
-先建立 `Presentation` 類別的實例。此物件代表您的 PowerPoint 檔案，並允許執行各種操作。
+#### 概觀
+首先建立 `Presentation` 類別的實例。此物件是所有後續操作的入口點。
+
+`Presentation` 是 Aspose.Slides 的頂層物件，保存投影片集合與全域文件設定。
 
 ```java
 import com.aspose.slides.Presentation;
@@ -122,12 +168,14 @@ try {
 }
 ```
 
-**Explanation**: 此程式碼片段會初始化一個指向既有 PowerPoint 檔案的 `Presentation` 物件。`try‑finally` 區塊確保資源能透過 `dispose()` 正確釋放。
+此程式碼片段開啟一個空白簡報，您之後可將其儲存為 `.pptx` 檔案。
 
-### Feature 2: Adding a Funnel Chart to a Slide (H2)
+### 功能 2：在投影片中加入漏斗圖表 (H2)
 
-#### Overview
-使用以下步驟在簡報的第一張投影片加入漏斗圖：
+#### 概觀
+在第一張投影片插入漏斗圖表，定義其尺寸，並設定圖表類型。
+
+`ChartType.Funnel` 告訴 Aspose.Slides 以漏斗樣式呈現，而非長條圖或折線圖。
 
 ```java
 import com.aspose.slides.IChart;
@@ -145,12 +193,14 @@ try {
 }
 ```
 
-**Explanation**: `addChart()` 方法會在第一張投影片上建立漏斗圖，參數則定義其位置與大小。
+`addChart` 呼叫會建立圖表形狀，將其定位於 `(50, 50)` 點，寬度為 `500`、高度為 `400`。
 
-### Feature 3: Clearing Chart Data (H2)
+### 功能 3：清除圖表資料 (H2)
 
-#### Overview
-在填入資料前，可能需要先清除既有內容：
+#### 概觀
+在填充圖表之前，先清除範本可能包含的任何佔位類別或系列。
+
+`chart.getChartData().getCategories().clear()` 會移除所有現有的類別項目，而 `chart.getChartData().getSeries().clear()` 會移除任何預先填入的系列。
 
 ```java
 import com.aspose.slides.IChart;
@@ -170,12 +220,14 @@ try {
 }
 ```
 
-**Explanation**: 此程式碼會透過清除類別與系列，移除漏斗圖中先前的資料。
+這確保了乾淨的起點，使您的自訂資料能如預期般呈現。
 
-### Feature 4: Setting Up Chart Data Workbook (H2)
+### 功能 4：設定圖表資料工作簿 (H2)
 
-#### Overview
-初始化圖表資料工作簿，以便有效管理資料：
+#### 概觀
+`IChartDataWorkbook` 物件儲存驅動圖表的原始數值。初始化它可讓您直接寫入儲存格。
+
+`IChartDataWorkbook` 是 Aspose.Slides 用於提供圖表系列與類別的輕量級記憶體內試算表。
 
 ```java
 import com.aspose.slides.IChart;
@@ -198,12 +250,14 @@ try {
 }
 ```
 
-**Explanation**: `IChartDataWorkbook` 物件允許您清除既有儲存格，為新資料條目做好準備。
+程式碼會清除所有現有儲存格，為新條目做好準備。
 
-### Feature 5: Adding Categories to a Chart (H2)
+### 功能 5：為圖表加入類別 (H2)
 
-#### Overview
-為漏斗圖加入具意義的類別：
+#### 概觀
+定義顯示在漏斗左側的文字標籤——這些代表流程的每個階段。
+
+`chart.getChartData().getCategories().add()` 會建立與特定工作簿儲存格連結的新類別物件。
 
 ```java
 import com.aspose.slides.IChart;
@@ -227,12 +281,16 @@ try {
 }
 ```
 
-**Explanation**: 此程式碼透過存取資料工作簿，將類別名稱寫入特定儲存格，從而為漏斗圖新增類別。
+此處我們加入三個階段：「Prospects」、 「Qualified Leads」 與 「Closed Deals」。
 
-### Feature 6: Adding Data Series to a Chart (H2)
+### 功能 6：為圖表加入資料系列 (H2)
 
-#### Overview
-為漏斗圖填入資料系列：
+#### 概觀
+以數值填充漏斗，並可選擇為每個切片指派唯一顏色。
+
+`IDataPoint` 代表圖表系列中的單一資料點。
+
+`chart.getChartData().getSeries().add()` 會建立一個保存數值資料點的系列；每個 `IDataPoint` 都可以設定自己的填充顏色。
 
 ```java
 import com.aspose.slides.IChart;
@@ -272,43 +330,49 @@ try {
 }
 ```
 
-**Explanation**: 此程式碼為漏斗圖新增資料系列並填入資料點，同時自訂每個資料點的填色。
+此迴圈示範如何為每個點設定純色填充，可使用品牌特定的 `java.awt.Color` 常數或隨機產生的顏色，以增加視覺變化。
 
-## Common Use Cases & Tips (H2)
+## 常見使用情境與技巧 (H2)
 
-- **Sales Pipeline Reporting** – 以視覺方式呈現從潛在客戶到成交的轉換情況。
-- **Process Efficiency Analysis** – 顯示每個生產階段的流失比例。
-- **Marketing Funnel Review** – 比較不同渠道的行銷活動表現。
+- **銷售管道報告** – 顯示每個階段中有多少潛在客戶從 prospect 轉為 closed‑won。  
+- **流程效率分析** – 以圖形化方式呈現製造步驟中的材料損耗或時間延遲。  
+- **行銷漏斗檢視** – 比較不同活動或流量來源的轉換率。  
 
-**Pro tip:** 使用 `java.awt.Color` 常數設定符合品牌色系的顏色，避免使用隨機顏色，以獲得更精緻的外觀。
+**專業提示：** 與其使用隨機顏色，不如使用公司品牌調色盤（例如 `new Color(0, 112, 192)`），以確保簡報與其他行銷資產保持一致。
 
-## Frequently Asked Questions
+## 常見問與答 (H2)
 
-**Q: How do I change the funnel chart’s orientation?**  
-A: Set the `ChartOrientation` property on the `IChart` object to `ChartOrientation.Vertical` or `Horizontal`.
+**Q: 如何變更漏斗圖表的方向？**  
+A: Set the `ChartOrientation` property on the `IChart` object to `ChartOrientation.Vertical` or `ChartOrientation.Horizontal`.
 
-**Q: Can I export the slide as an image after adding the chart?**  
-A: Yes, call `pres.getSlides().get_Item(0).getThumbnail(1, 1)` and save the resulting `java.awt.image.BufferedImage`.
+**Q: 加入圖表後，我可以將投影片匯出為影像嗎？**  
+A: Yes—call `pres.getSlides().get_Item(0).getThumbnail(1, 1)` and write the resulting `java.awt.image.BufferedImage` to a PNG or JPEG file.
 
-**Q: What if I need more than three categories?**  
-A: Simply add additional categories using `chart.getChartData().getCategories().add(...)` and corresponding data points.
+**Q: 如果需要超過三個類別該怎麼辦？**  
+A: Simply add additional categories using `chart.getChartData().getCategories().add(...)` and provide matching data points for each new category.
 
-**Q: Is there a way to hide the legend?**  
-A: Use `chart.getChartTitle().setVisible(false)` and `chart.getLegend().setVisible(false)`.
+**Q: 有沒有方法隱藏圖例？**  
+A: Use `chart.getChartTitle().setVisible(false)` and `chart.getLegend().setVisible(false)` to remove both the title and legend from the visual.
 
-**Q: Do I need a license for development builds?**  
-A: A temporary license works for evaluation; a full license is required for production deployments.
+**Q: 開發版是否需要授權？**  
+A: A temporary license is sufficient for evaluation; a full commercial license is required for production deployments.
 
 ---
 
-**Last Updated:** 2026-03-18  
-**Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
-**Author:** Aspose  
+**最後更新：** 2026-09-02  
+**測試環境：** Aspose.Slides for Java 25.4 (jdk16)  
+**作者：** Aspose
+
+## 相關教學
+
+- [如何使用 Aspose.Slides for Java 為 PowerPoint 新增圖表：逐步指南](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [如何使用 Aspose.Slides for Java 編輯 PowerPoint 圖表資料：完整指南](/slides/java/charts-graphs/edit-ppt-chart-data-aspose-slides-java/)
+- [使用 Aspose.Slides for Java 為 PowerPoint 圖表加入動畫 – 逐步指南](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

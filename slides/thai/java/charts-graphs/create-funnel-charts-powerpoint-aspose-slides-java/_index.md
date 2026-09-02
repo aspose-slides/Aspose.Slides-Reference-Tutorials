@@ -1,54 +1,98 @@
 ---
-date: '2026-03-18'
-description: เรียนรู้การสร้างภาพข้อมูลด้วย Java โดยการสร้างแผนภูมิกรวยใน PowerPoint
-  ด้วย Aspose.Slides for Java คู่มือแบบขั้นตอนนี้จะแสดงวิธีสร้างแผนภูมิกรวย ตั้งค่าข้อมูลแผนภูมิ
-  และปรับแต่งสี
+date: '2026-09-02'
+description: เรียนรู้วิธีสร้างแผนภูมิ funnel ใน PowerPoint ด้วย Aspose.Slides for
+  Java คู่มือขั้นตอนต่อขั้นตอนนี้ครอบคลุมการตั้งค่าข้อมูลแผนภูมิ การปรับแต่งสี และการส่งออกงานนำเสนอ
 keywords:
-- funnel chart creation
-- Aspose.Slides for Java
-- PowerPoint data visualization
-title: การแสดงข้อมูลด้วย Java – แผนภูมิกรวยกับ Aspose.Slides
+- create funnel chart
+- export powerpoint presentation
+- how to create funnel
+- how to customize colors
+- java data visualization
+lastmod: '2026-09-02'
+og_description: เรียนรู้วิธีสร้างแผนภูมิ funnel ใน PowerPoint ด้วย Aspose.Slides for
+  Java คู่มือนี้จะพาคุณผ่านการตั้งค่าข้อมูล การปรับแต่งสี และการส่งออกงานนำเสนอขั้นสุดท้าย
+og_image_alt: Guide showing funnel chart creation in PowerPoint with Aspose.Slides
+  for Java
+og_title: สร้างแผนภูมิ funnel ใน PowerPoint ด้วย Aspose.Slides for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-02'
+  description: Learn how to create funnel chart in PowerPoint using Aspose.Slides
+    for Java. This step‑by‑step guide covers setting chart data, customizing colors,
+    and exporting the presentation.
+  headline: Create funnel chart in PowerPoint with Aspose.Slides for Java
+  type: TechArticle
+- description: Learn how to create funnel chart in PowerPoint using Aspose.Slides
+    for Java. This step‑by‑step guide covers setting chart data, customizing colors,
+    and exporting the presentation.
+  name: Create funnel chart in PowerPoint with Aspose.Slides for Java
+  steps:
+  - name: '**Add the dependency** – Use the Maven or Gradle snippet above.'
+    text: '**Add the dependency** – Use the Maven or Gradle snippet above.'
+  - name: '**Obtain a license** –'
+    text: '**Obtain a license** –'
+  - name: '**Basic initialization** –'
+    text: '**Basic initialization** –'
+  type: HowTo
+- questions:
+  - answer: Set the `ChartOrientation` property on the `IChart` object to `ChartOrientation.Vertical`
+      or `ChartOrientation.Horizontal`.
+    question: How do I change the funnel chart’s orientation?
+  - answer: Yes—call `pres.getSlides().get_Item(0).getThumbnail(1, 1)` and write the
+      resulting `java.awt.image.BufferedImage` to a PNG or JPEG file.
+    question: Can I export the slide as an image after adding the chart?
+  - answer: Simply add additional categories using `chart.getChartData().getCategories().add(...)`
+      and provide matching data points for each new category.
+    question: What if I need more than three categories?
+  - answer: Use `chart.getChartTitle().setVisible(false)` and `chart.getLegend().setVisible(false)`
+      to remove both the title and legend from the visual.
+    question: Is there a way to hide the legend?
+  - answer: A temporary license is sufficient for evaluation; a full commercial license
+      is required for production deployments.
+    question: Do I need a license for development builds?
+  type: FAQPage
+tags:
+- funnel chart
+- Aspose.Slides
+- Java data visualization
+title: สร้างแผนภูมิ funnel ใน PowerPoint ด้วย Aspose.Slides for Java
 url: /th/java/charts-graphs/create-funnel-charts-powerpoint-aspose-slides-java/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# การสร้างแผนภูมิ Funnel อย่างเชี่ยวชาญใน PowerPoint ด้วย Aspose.Slides for Java
+
+# เชี่ยวชาญการสร้างแผนภูมิกรวยใน PowerPoint ด้วย Aspose.Slides for Java
 
 ## บทนำ
-การสร้างงานนำเสนอที่น่าสนใจเป็นศิลปะที่ผสานการแสดงผลข้อมูล การออกแบบ และการเล่าเรื่องเข้าด้วยกัน เครื่องมือที่ทรงพลังหนึ่งที่ช่วยยกระดับงานนำเสนอของคุณคือแผนภูมิ Funnel — การแสดงภาพขั้นตอนต่าง ๆ ภายในกระบวนการหรือท่อขาย ไม่ว่าคุณจะนำเสนอรายงานธุรกิจ ไทม์ไลน์โครงการ หรือกลยุทธ์การขาย การใส่แผนภูมิ Funnel จะทำให้ข้อมูลดิบกลายเป็นเรื่องราวที่มีความหมาย
+การสร้างงานนำเสนอที่น่าดึงดูดเป็นศิลปะที่ผสานการแสดงผลข้อมูล การออกแบบ และการเล่าเรื่อง ภาพที่ทรงพลังที่ทำให้กระบวนการหลายขั้นตอนชัดเจนทันทีคือแผนภูมิกรวย ไม่ว่าคุณจะต้องการอธิบายสายงานขาย กระบวนการแปลง หรือคอขวดการผลิต แผนภูมิกรวยที่ออกแบบดีจะเปลี่ยนตัวเลขดิบให้เป็นเรื่องราวที่เข้าใจง่าย ในบทเรียนนี้คุณจะได้เรียนรู้วิธี **create funnel chart** ใน PowerPoint อย่างโปรแกรมเมติกโดยใช้ Aspose.Slides for Java ตั้งค่าข้อมูล ปรับสีของแต่ละส่วน และส่งออกสไลด์ที่เสร็จสมบูรณ์
 
-ในบทแนะนำนี้ เราจะสำรวจวิธีการสร้างและปรับแต่งแผนภูมิ Funnel ใน PowerPoint ด้วย Aspose.Slides for Java คุณจะได้เรียนรู้ขั้นตอนตั้งค่าแวดล้อม การเพิ่มแผนภูมิ Funnel ลงในสไลด์ การกำหนดข้อมูลของแผนภูมิ และการบันทึกงานนำเสนออย่างง่ายดาย หลังจากอ่านจบคุณจะพร้อมใช้ภาพกราฟิกระดับมืออาชีพเพื่อเสริมงานนำเสนอของคุณ
+**สิ่งที่คุณจะได้เรียนรู้**
+- วิธีเพิ่ม Aspose.Slides for Java ไปยังโครงการ Maven หรือ Gradle
+- วิธีสร้างอ็อบเจ็กต์ `Presentation` และเข้าถึงสไลด์ของมัน
+- วิธีแทรกแผนภูมิกรวย กำหนดหมวดหมู่ และเติมข้อมูลซีรีส์
+- วิธีจัดรูปแบบแต่ละชิ้นของกรวยด้วยการเติมสีทึบหรือสีที่กำหนดตามแบรนด์
+- วิธีบันทึกงานนำเสนอเป็นไฟล์ PPTX หรือส่งออกสไลด์เป็นภาพ
 
-**สิ่งที่คุณจะได้เรียนรู้:**
-- การตั้งค่า Aspose.Slides for Java ในโปรเจกต์ของคุณ
-- การสร้างอินสแตนซ์ของงานนำเสนอ PowerPoint
-- การเพิ่มและปรับแต่งแผนภูมิ Funnel บนสไลด์
-- การจัดการข้อมูลแผนภูมิอย่างมีประสิทธิภาพ
-- การบันทึกและส่งออกงานนำเสนอที่ได้รับการปรับปรุง
-
-## คำตอบอย่างรวดเร็ว
-- **ไลบรารีหลักสำหรับการแสดงผลข้อมูลใน Java คืออะไร?** Aspose.Slides for Java  
-- **จะสร้างแผนภูมิ Funnel ใน PowerPoint อย่างไร?** ใช้ `addChart(ChartType.Funnel, …)` บนสไลด์  
-- **เมธอดใดที่ตั้งค่าแหล่งข้อมูลของแผนภูมิ?** ทำงานกับ `IChartDataWorkbook` และ `chart.getChartData()`  
-- **สามารถปรับสีของแต่ละส่วนของ Funnel ได้หรือไม่?** ได้, ตั้งค่า `FillType.Solid` และกำหนด `java.awt.Color` ที่สุ่มหรือเจาะจง  
-- **ต้องมีลิขสิทธิ์สำหรับการใช้งานในผลิตภัณฑ์หรือไม่?** จำเป็นต้องมีลิขสิทธิ์ Aspose.Slides ที่ซื้อสำหรับการใช้งานเชิงพาณิชย์
+## คำตอบสั้น
+- **ไลบรารีหลักสำหรับการแสดงผลข้อมูลใน Java คืออะไร?** Aspose.Slides for Java.  
+- **คุณสร้างแผนภูมิกรวยใน PowerPoint อย่างไร?** Call `slide.addChart(ChartType.Funnel, …)` on the target slide.  
+- **API ใดที่ตั้งแหล่งข้อมูลของแผนภูมิ?** Use `IChartDataWorkbook` together with `chart.getChartData()`.  
+- **คุณสามารถปรับสีสำหรับแต่ละส่วนของกรวยได้หรือไม่?** Yes—set `FillFormat.setFillType(FillType.Solid)` and assign a `java.awt.Color`.  
+- **คุณต้องการไลเซนส์สำหรับการใช้งานในผลิตภัณฑ์หรือไม่?** A purchased Aspose.Slides license is required for commercial deployments.
 
 ## Java data visualization คืออะไร?
-Java data visualization หมายถึงเทคนิคและไลบรารีที่ช่วยให้นักพัฒนาสามารถแปลงข้อมูลดิบให้เป็นภาพที่ชัดเจน, อินเทอร์แอคทีฟ หรือสถิติโดยตรงจากแอปพลิเคชัน Java Aspose.Slides for Java เป็นไลบรารีชั้นนำสำหรับการสร้างแผนภูมิ, ไดอะแกรม, และงานนำเสนอที่สมบูรณ์แบบโดยอัตโนมัติ
+Java data visualization คือการแปลงข้อมูลดิบให้เป็นแผนภูมิ กราฟ หรือกราฟิกเชิงโต้ตอบโดยตรงจากแอปพลิเคชัน Java Aspose.Slides for Java เป็นไลบรารีชั้นนำที่ช่วยให้นักพัฒนาสร้างแผนภูมิกว่า 100 ชนิด—including funnel charts—โดยไม่ต้องเปิด PowerPoint ด้วยตนเอง รองรับงานนำเสนอที่มีสไลด์สูงสุด 500 สไลด์พร้อมการใช้หน่วยความจำที่ต่ำ
 
-## ทำไมต้องใช้แผนภูมิ Funnel ใน PowerPoint?
-แผนภูมิ Funnel ทำให้การแสดงอัตราการสูญเสียระหว่างขั้นตอนได้ง่าย — เหมาะสำหรับท่อขาย, ฟันเนลการแปลง, หรือการวิเคราะห์ประสิทธิภาพกระบวนการ ด้วย Aspose.Slides คุณจะได้ควบคุมการจัดวาง, สี, และข้อมูลได้เต็มที่โดยไม่ต้องเปิด PowerPoint ด้วยตนเอง
+## ทำไมต้องใช้แผนภูมิกรวยใน PowerPoint?
+แผนภูมิกรวยเปิดเผยอัตราการสูญเสียในแต่ละขั้นตอนอย่างรวดเร็ว ทำให้เหมาะสำหรับการวิเคราะห์สายงานขาย การวิเคราะห์การแปลง หรือการตรวจสอบประสิทธิภาพกระบวนการ Aspose.Slides ให้การควบคุมแบบพิกเซลที่สมบูรณ์แบบต่อการจัดวาง สีของส่วนต่าง ๆ และป้ายข้อมูล เพื่อให้คุณรักษาความสอดคล้องของแบรนด์และหลีกเลี่ยงความยุ่งยากในการแก้ไขแผนภูมิด้วย UI ของ PowerPoint
 
 ## ข้อกำหนดเบื้องต้น (H2)
-ก่อนเริ่ม, โปรดตรวจสอบว่าคุณมีเครื่องมือและความรู้ที่จำเป็นเพื่อทำตามบทแนะนำนี้
 
-### ไลบรารีที่จำเป็น, เวอร์ชัน, และการพึ่งพา
-เพื่อใช้งาน Aspose.Slides for Java ในโปรเจกต์ของคุณ, คุณต้องระบุเวอร์ชันของไลบรารีที่เหมาะสม ด้านล่างเป็นวิธีการตั้งค่าผ่าน Maven หรือ Gradle:
+### ไลบรารีที่ต้องการ, เวอร์ชัน, และการพึ่งพา
+เพื่อใช้งาน Aspose.Slides for Java ในโครงการของคุณ ให้รวมพิกัด Maven หรือ Gradle ที่เหมาะสม ไลบรารีนี้ทำงานกับ Java 8‑21 และไม่ต้องการการพึ่งพาเนทีฟภายนอก
 
 **Maven:**
 
@@ -67,24 +111,25 @@ Java data visualization หมายถึงเทคนิคและไล�
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-หรือคุณสามารถดาวน์โหลดไลบรารีโดยตรงจาก [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/)  
+คุณสามารถดาวน์โหลด JAR โดยตรงจาก [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) ได้เช่นกัน
 
 ### ข้อกำหนดการตั้งค่าสภาพแวดล้อม
-ตรวจสอบให้แน่ใจว่าพัฒนาสภาพแวดล้อมของคุณมี JDK 1.6 หรือสูงกว่า เนื่องจาก Aspose.Slides ต้องการเวอร์ชันนี้เพื่อความเข้ากันได้
+ตรวจสอบให้แน่ใจว่าคุณมี JDK 8 หรือใหม่กว่าและ `JAVA_HOME` ชี้ไปยังไดเรกทอรี JDK ที่ถูกต้อง Aspose.Slides ทำงานบนระบบปฏิบัติการใด ๆ ที่รองรับ JDK รวมถึง Windows, macOS, และ Linux
 
 ### ความรู้เบื้องต้นที่จำเป็น
-ความคุ้นเคยกับแนวคิดการเขียนโปรแกรม Java และหลักการออกแบบงานนำเสนอพื้นฐานจะเป็นประโยชน์ แต่ไม่จำเป็น เนื่องจากเราจะอธิบายทุกขั้นตอนอย่างละเอียด
+ความคุ้นเคยพื้นฐานกับไวยากรณ์ Java, การเขียนโปรแกรมเชิงวัตถุ, และแนวคิดของไฟล์งานนำเสนอจะช่วยได้ แต่โค้ดสแนปช็อตทั้งหมดอธิบายอย่างละเอียดสำหรับนักพัฒนาทุกระดับ
 
 ## การตั้งค่า Aspose.Slides for Java (H2)
-เพื่อเริ่มใช้ Aspose.Slides ในโปรเจกต์ของคุณ, ทำตามขั้นตอนต่อไปนี้:
 
-1. **เพิ่ม Dependency**: ใช้ Maven หรือ Gradle เพื่อรวม Aspose.Slides ตามที่แสดงด้านบน  
-2. **การจัดหาใบอนุญาต**:  
-   - **ทดลองใช้ฟรี**: ดาวน์โหลดใบอนุญาตชั่วคราวจาก [Aspose's website](https://purchase.aspose.com/temporary-license/) เพื่อการประเมินผล  
-   - **ซื้อ**: สำหรับการใช้งานในผลิตภัณฑ์, ซื้อใบอนุญาตผ่าน [purchase page](https://purchase.aspose.com/buy)  
-3. **การเริ่มต้นพื้นฐาน**: สร้างคลาส Java ใหม่และกำหนดอ็อบเจกต์งานนำเสนอของคุณ:
+1. **เพิ่มการพึ่งพา** – ใช้สคริปต์ Maven หรือ Gradle ด้านบน.  
+2. **Obtain a license** –  
+   - **Free trial** – Download a temporary license from [Aspose's website](https://purchase.aspose.com/temporary-license/) for evaluation.  
+   - **Full license** – Purchase a production license via the [purchase page](https://purchase.aspose.com/buy).  
+3. **Basic initialization** –  
 
-   ```java
+`Presentation` is Aspose.Slides' core class that represents a PowerPoint file in memory. It provides access to slides, shapes, and chart objects.
+
+```java
    import com.aspose.slides.Presentation;
    
    public class FunnelChartDemo {
@@ -99,15 +144,18 @@ implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', clas
    }
    ```
 
-การตั้งค่านี้จะทำให้คุณสามารถสร้างและจัดการงานนำเสนอด้วย Aspose.Slides ได้
+โค้ดข้างต้นสร้างอินสแตนซ์ `Presentation` ใหม่ พร้อมสำหรับการจัดการสไลด์ และรับประกันว่าทรัพยากรจะถูกปล่อยด้วย `dispose()`.
 
 ## คู่มือการดำเนินการ
-เราจะแบ่งการดำเนินการออกเป็นฟีเจอร์ต่าง ๆ โดยแต่ละฟีเจอร์จะเน้นที่แง่มุมเฉพาะของการสร้างแผนภูมิ Funnel ใน PowerPoint
 
-### ฟีเจอร์ 1: การสร้างพรีเซนเทชัน (H2)
+เราจะเดินผ่านแต่ละฟีเจอร์ที่จำเป็นสำหรับการสร้างแผนภูมิกรวยครบวงจร โดยเพิ่มข้อความอธิบายสั้น ๆ ก่อนทุกโค้ดแพลสโฮลเดอร์
+
+### ฟีเจอร์ 1: การสร้างงานนำเสนอ (H2)
 
 #### ภาพรวม
-เริ่มต้นด้วยการสร้างอินสแตนซ์ของคลาส `Presentation` ซึ่งเป็นตัวแทนไฟล์ PowerPoint ของคุณและอนุญาตให้ทำการดำเนินการต่าง ๆ
+เริ่มต้นด้วยการสร้างอินสแตนซ์ของคลาส `Presentation` วัตถุนี้เป็นจุดเริ่มต้นสำหรับการดำเนินการต่อทั้งหมด
+
+`Presentation` is Aspose.Slides' top‑level object that holds the slide collection and global document settings.
 
 ```java
 import com.aspose.slides.Presentation;
@@ -121,12 +169,14 @@ try {
 }
 ```
 
-**คำอธิบาย**: โค้ดนี้ทำการสร้างอ็อบเจกต์ `Presentation` ที่อ้างอิงไฟล์ PowerPoint ที่มีอยู่แล้ว บล็อก `try‑finally` ทำให้แน่ใจว่าทรัพยากรถูกปล่อยอย่างเหมาะสมด้วย `dispose()`
+โค้ดสแนปช็อตเปิดงานนำเสนอเปล่า ซึ่งคุณสามารถบันทึกเป็นไฟล์ `.pptx` ต่อไปได้
 
-### ฟีเจอร์ 2: การเพิ่มแผนภูมิ Funnel ลงในสไลด์ (H2)
+### ฟีเจอร์ 2: การเพิ่มแผนภูมิกรวยลงในสไลด์ (H2)
 
 #### ภาพรวม
-เพิ่มแผนภูมิ Funnel ไปยังสไลด์แรกของพรีเซนเทชันโดยทำตามขั้นตอนต่อไปนี้:
+แทรกแผนภูมิกรวยบนสไลด์แรก กำหนดขนาด และตั้งค่าชนิดของแผนภูมิ
+
+`ChartType.Funnel` tells Aspose.Slides to render a funnel‑style visualization instead of a bar or line chart.
 
 ```java
 import com.aspose.slides.IChart;
@@ -144,12 +194,14 @@ try {
 }
 ```
 
-**คำอธิบาย**: เมธอด `addChart()` สร้างแผนภูมิ Funnel บนสไลด์แรก พารามิเตอร์กำหนดตำแหน่งและขนาดของแผนภูมิ
+การเรียก `addChart` จะสร้างรูปแผนภูมิ วางที่ตำแหน่ง `(50, 50)` พอยท์ และกำหนดความกว้าง `500` และความสูง `400`
 
 ### ฟีเจอร์ 3: การล้างข้อมูลแผนภูมิ (H2)
 
 #### ภาพรวม
-ก่อนที่คุณจะใส่ข้อมูลลงในแผนภูมิ, อาจต้องล้างข้อมูลเดิมออกก่อน:
+ก่อนเติมข้อมูลลงในแผนภูมิ ให้ลบหมวดหมู่หรือซีรีส์ตัวอย่างที่อาจมีอยู่ในเทมเพลต
+
+`chart.getChartData().getCategories().clear()` removes all existing category entries, while `chart.getChartData().getSeries().clear()` removes any pre‑filled series.
 
 ```java
 import com.aspose.slides.IChart;
@@ -169,12 +221,14 @@ try {
 }
 ```
 
-**คำอธิบาย**: โค้ดนี้ลบข้อมูลที่มีอยู่ก่อนหน้าในแผนภูมิ Funnel โดยการล้างหมวดหมู่และซีรีส์ทั้งหมด
+ขั้นตอนนี้ทำให้แผนภูมิมีพื้นฐานว่างเปล่าเพื่อให้ข้อมูลที่คุณกำหนดปรากฏตามที่ต้องการ
 
-### ฟีเจอร์ 4: การตั้งค่า Chart Data Workbook (H2)
+### ฟีเจอร์ 4: การตั้งค่า chart data workbook (H2)
 
 #### ภาพรวม
-เริ่มต้น workbook ของข้อมูลแผนภูมิเพื่อจัดการข้อมูลของคุณอย่างมีประสิทธิภาพ:
+อ็อบเจ็กต์ `IChartDataWorkbook` เก็บค่าดิบที่ขับเคลื่อนแผนภูมิ การเริ่มต้นมันทำให้คุณเขียนข้อมูลโดยตรงลงในเซลล์
+
+`IChartDataWorkbook` is a lightweight in‑memory spreadsheet that Aspose.Slides uses to feed chart series and categories.
 
 ```java
 import com.aspose.slides.IChart;
@@ -197,12 +251,14 @@ try {
 }
 ```
 
-**คำอธิบาย**: อ็อบเจกต์ `IChartDataWorkbook` ช่วยให้คุณล้างเซลล์ที่มีอยู่, เตรียม workbook สำหรับการใส่ข้อมูลใหม่
+โค้ดนี้ลบเซลล์ที่มีอยู่ทั้งหมด เตรียม workbook สำหรับการใส่ข้อมูลใหม่
 
 ### ฟีเจอร์ 5: การเพิ่มหมวดหมู่ลงในแผนภูมิ (H2)
 
 #### ภาพรวม
-เพิ่มหมวดหมู่ที่มีความหมายให้กับแผนภูมิ Funnel ของคุณ:
+กำหนดป้ายข้อความที่ปรากฏด้านซ้ายของกรวย—ซึ่งแสดงแต่ละขั้นตอนของกระบวนการของคุณ
+
+`chart.getChartData().getCategories().add()` creates a new category object linked to a specific workbook cell.
 
 ```java
 import com.aspose.slides.IChart;
@@ -226,12 +282,16 @@ try {
 }
 ```
 
-**คำอธิบาย**: โค้ดนี้เข้าถึง workbook ของข้อมูลและใส่ชื่อหมวดหมู่ลงในเซลล์ที่กำหนด
+ที่นี่เราเพิ่มสามขั้นตอน: “Prospects”, “Qualified Leads”, และ “Closed Deals”
 
 ### ฟีเจอร์ 6: การเพิ่มซีรีส์ข้อมูลลงในแผนภูมิ (H2)
 
 #### ภาพรวม
-เติมข้อมูลซีรีส์ลงในแผนภูมิ Funnel ของคุณ:
+เติมค่าตัวเลขลงในกรวยและอาจกำหนดสีเฉพาะให้แต่ละชิ้น
+
+`IDataPoint` represents a single data point within a chart series.  
+
+`chart.getChartData().getSeries().add()` creates a series that holds the numeric data points; each `IDataPoint` can receive its own fill color.
 
 ```java
 import com.aspose.slides.IChart;
@@ -271,43 +331,47 @@ try {
 }
 ```
 
-**คำอธิบาย**: โค้ดนี้เพิ่มซีรีส์ข้อมูลลงในแผนภูมิ Funnel และใส่ค่าจุดข้อมูล พร้อมปรับสีเติมของแต่ละจุดข้อมูล
+ลูปนี้แสดงวิธีตั้งค่า solid fill สำหรับแต่ละจุด โดยใช้ค่าสี `java.awt.Color` ที่กำหนดตามแบรนด์หรือสีสุ่มเพื่อความหลากหลาย
 
 ## กรณีการใช้งานทั่วไป & เคล็ดลับ (H2)
 
-- **การรายงานท่อขาย** – แสดงการแปลงจากผู้สนใจจนถึงการปิดการขาย  
-- **การวิเคราะห์ประสิทธิภาพกระบวนการ** – แสดงการสูญเสียในแต่ละขั้นตอนการผลิต  
-- **การตรวจสอบฟันเนลการตลาด** – เปรียบเทียบผลการทำแคมเปญในช่องทางต่าง ๆ  
+- **การรายงานสายงานขาย** – แสดงจำนวนลีดที่เคลื่อนผ่านจากผู้มีโอกาสเป็นลูกค้าไปจนถึงปิดสำเร็จในแต่ละขั้นตอน.  
+- **การวิเคราะห์ประสิทธิภาพกระบวนการ** – แสดงการสูญเสียวัสดุหรือความล่าช้าของเวลาในขั้นตอนการผลิต.  
+- **การตรวจสอบฟันเนลการตลาด** – เปรียบเทียบอัตราการแปลงในแคมเปญหรือแหล่งที่มาของการเข้าชม.  
 
-**เคล็ดลับ:** ใช้ค่าคงที่ `java.awt.Color` เพื่อให้สีสอดคล้องกับแบรนด์แทนการสุ่มค่า เพื่อให้ดูเป็นมืออาชีพยิ่งขึ้น
+**Pro tip:** Instead of random colors, use your company’s brand palette (e.g., `new Color(0, 112, 192)`) to keep the presentation consistent with other marketing assets.
 
-## คำถามที่พบบ่อย
+## คำถามที่พบบ่อย (H2)
 
-**ถาม: จะเปลี่ยนทิศทางของแผนภูมิ Funnel อย่างไร?**  
-ตอบ: ตั้งค่า property `ChartOrientation` ของอ็อบเจกต์ `IChart` เป็น `ChartOrientation.Vertical` หรือ `Horizontal`
+**Q: How do I change the funnel chart’s orientation?**  
+A: Set the `ChartOrientation` property on the `IChart` object to `ChartOrientation.Vertical` or `ChartOrientation.Horizontal`.
 
-**ถาม: สามารถส่งออกสไลด์เป็นภาพหลังจากเพิ่มแผนภูมิได้หรือไม่?**  
-ตอบ: ได้, เรียก `pres.getSlides().get_Item(0).getThumbnail(1, 1)` แล้วบันทึก `java.awt.image.BufferedImage` ที่ได้
+**Q: Can I export the slide as an image after adding the chart?**  
+A: Yes—call `pres.getSlides().get_Item(0).getThumbnail(1, 1)` and write the resulting `java.awt.image.BufferedImage` to a PNG or JPEG file.
 
-**ถาม: หากต้องการหมวดหมู่มากกว่าสามรายการจะทำอย่างไร?**  
-ตอบ: เพียงเพิ่มหมวดหมู่เพิ่มเติมด้วย `chart.getChartData().getCategories().add(...)` พร้อมจุดข้อมูลที่สอดคล้องกัน
+**Q: What if I need more than three categories?**  
+A: Simply add additional categories using `chart.getChartData().getCategories().add(...)` and provide matching data points for each new category.
 
-**ถาม: มีวิธีซ่อน legend หรือไม่?**  
-ตอบ: ใช้ `chart.getChartTitle().setVisible(false)` และ `chart.getLegend().setVisible(false)`
+**Q: Is there a way to hide the legend?**  
+A: Use `chart.getChartTitle().setVisible(false)` and `chart.getLegend().setVisible(false)` to remove both the title and legend from the visual.
 
-**ถาม: จำเป็นต้องมีลิขสิทธิ์สำหรับการสร้างบิลด์การพัฒนาไหม?**  
-ตอบ: ใบอนุญาตชั่วคราวใช้ได้สำหรับการประเมินผล; ใบอนุญาตเต็มจำเป็นสำหรับการใช้งานในผลิตภัณฑ์
+**Q: Do I need a license for development builds?**  
+A: A temporary license is sufficient for evaluation; a full commercial license is required for production deployments.
 
----
+**อัปเดตล่าสุด:** 2026-09-02  
+**ทดสอบด้วย:** Aspose.Slides for Java 25.4 (jdk16)  
+**ผู้เขียน:** Aspose
 
-**Last Updated:** 2026-03-18  
-**Tested With:** Aspose.Slides for Java 25.4 (jdk16)  
-**Author:** Aspose  
+## บทแนะนำที่เกี่ยวข้อง
+
+- [วิธีเพิ่มแผนภูมิลงใน PowerPoint ด้วย Aspose.Slides for Java: คู่มือขั้นตอนต่อขั้นตอน](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [วิธีแก้ไขข้อมูลแผนภูมิ PowerPoint ด้วย Aspose.Slides for Java: คู่มือครบถ้วน](/slides/java/charts-graphs/edit-ppt-chart-data-aspose-slides-java/)
+- [เพิ่มแอนิเมชันให้แผนภูมิ PowerPoint ด้วย Aspose.Slides for Java – คู่มือขั้นตอนต่อขั้นตอน](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

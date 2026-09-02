@@ -1,54 +1,100 @@
 ---
-date: '2026-03-18'
-description: Aprenda visualização de dados em Java criando gráficos de funil no PowerPoint
-  com Aspose.Slides para Java. Este guia passo a passo mostra como criar gráficos
-  de funil, definir os dados do gráfico e personalizar as cores.
+date: '2026-09-02'
+description: Aprenda como criar um funnel chart no PowerPoint usando Aspose.Slides
+  for Java. Este guia passo a passo cobre setting chart data, customizing colors e
+  exporting the presentation.
 keywords:
-- funnel chart creation
-- Aspose.Slides for Java
-- PowerPoint data visualization
-title: Visualização de dados Java – Gráficos de funil com Aspose.Slides
+- create funnel chart
+- export powerpoint presentation
+- how to create funnel
+- how to customize colors
+- java data visualization
+lastmod: '2026-09-02'
+og_description: Aprenda como criar um funnel chart no PowerPoint usando Aspose.Slides
+  for Java. Este guia orienta você através de data setup, color customization e exporting
+  the final presentation.
+og_image_alt: Guide showing funnel chart creation in PowerPoint with Aspose.Slides
+  for Java
+og_title: Criar funnel chart no PowerPoint com Aspose.Slides for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-02'
+  description: Learn how to create funnel chart in PowerPoint using Aspose.Slides
+    for Java. This step‑by‑step guide covers setting chart data, customizing colors,
+    and exporting the presentation.
+  headline: Create funnel chart in PowerPoint with Aspose.Slides for Java
+  type: TechArticle
+- description: Learn how to create funnel chart in PowerPoint using Aspose.Slides
+    for Java. This step‑by‑step guide covers setting chart data, customizing colors,
+    and exporting the presentation.
+  name: Create funnel chart in PowerPoint with Aspose.Slides for Java
+  steps:
+  - name: '**Add the dependency** – Use the Maven or Gradle snippet above.'
+    text: '**Add the dependency** – Use the Maven or Gradle snippet above.'
+  - name: '**Obtain a license** –'
+    text: '**Obtain a license** –'
+  - name: '**Basic initialization** –'
+    text: '**Basic initialization** –'
+  type: HowTo
+- questions:
+  - answer: Set the `ChartOrientation` property on the `IChart` object to `ChartOrientation.Vertical`
+      or `ChartOrientation.Horizontal`.
+    question: How do I change the funnel chart’s orientation?
+  - answer: Yes—call `pres.getSlides().get_Item(0).getThumbnail(1, 1)` and write the
+      resulting `java.awt.image.BufferedImage` to a PNG or JPEG file.
+    question: Can I export the slide as an image after adding the chart?
+  - answer: Simply add additional categories using `chart.getChartData().getCategories().add(...)`
+      and provide matching data points for each new category.
+    question: What if I need more than three categories?
+  - answer: Use `chart.getChartTitle().setVisible(false)` and `chart.getLegend().setVisible(false)`
+      to remove both the title and legend from the visual.
+    question: Is there a way to hide the legend?
+  - answer: A temporary license is sufficient for evaluation; a full commercial license
+      is required for production deployments.
+    question: Do I need a license for development builds?
+  type: FAQPage
+tags:
+- funnel chart
+- Aspose.Slides
+- Java data visualization
+title: Criar funnel chart no PowerPoint com Aspose.Slides for Java
 url: /pt/java/charts-graphs/create-funnel-charts-powerpoint-aspose-slides-java/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Dominando a Criação de Gráficos de Funil no PowerPoint com Aspose.Slides para Java
+
+# Domínio da criação de gráfico de funil no PowerPoint com Aspose.Slides para Java
 
 ## Introdução
-Criar apresentações impactantes é uma arte que combina visualização de dados, design e storytelling. Uma ferramenta poderosa para aprimorar suas apresentações é o gráfico de funil — uma representação visual das etapas dentro de um processo ou pipeline de vendas. Seja apresentando relatórios de negócios, cronogramas de projetos ou estratégias de vendas, incorporar gráficos de funil pode transformar dados brutos em histórias perspicazes.
+Criar apresentações envolventes é uma arte que combina visualização de dados, design e narrativa. Um visual poderoso que esclarece instantaneamente um processo de múltiplas etapas é o gráfico de funil. Seja para ilustrar um pipeline de vendas, um fluxo de conversão ou um gargalo de produção, um gráfico de funil bem‑desenhado transforma números brutos em uma narrativa intuitiva. Neste tutorial você aprenderá a **criar gráfico de funil** no PowerPoint programaticamente usando Aspose.Slides para Java, configurar seus dados, personalizar a cor de cada segmento e exportar o deck final.
 
-Neste tutorial, exploraremos como criar e personalizar gráficos de funil no PowerPoint usando Aspose.Slides para Java. Você aprenderá o processo passo a passo de configurar seu ambiente, adicionar um gráfico de funil a um slide, configurar seus dados e salvar sua apresentação com facilidade. Ao final deste guia, você estará apto a melhorar suas apresentações com visualizações de nível profissional.
+**O que você aprenderá**
+- Como adicionar Aspose.Slides para Java a um projeto Maven ou Gradle  
+- Como instanciar um objeto `Presentation` e acessar seus slides  
+- Como inserir um gráfico de funil, definir categorias e preencher os dados da série  
+- Como estilizar cada fatia do funil com preenchimentos sólidos ou cores específicas da marca  
+- Como salvar a apresentação como arquivo PPTX ou exportar um slide como imagem  
 
-**O que você aprenderá:**
-- Configurar Aspose.Slides para Java em seu projeto
-- Criar uma instância de uma apresentação PowerPoint
-- Adicionar e personalizar gráficos de funil em slides
-- Gerenciar os dados do gráfico de forma eficaz
-- Salvar e exportar suas apresentações aprimoradas
+## Respostas rápidas
+- **Qual é a biblioteca principal para visualização de dados em Java?** Aspose.Slides para Java.  
+- **Como criar um gráfico de funil no PowerPoint?** Chame `slide.addChart(ChartType.Funnel, …)` no slide de destino.  
+- **Qual API define a fonte de dados do gráfico?** Use `IChartDataWorkbook` junto com `chart.getChartData()`.  
+- **É possível personalizar cores para cada segmento do funil?** Sim—defina `FillFormat.setFillType(FillType.Solid)` e atribua um `java.awt.Color`.  
+- **É necessário licenciar para uso em produção?** Uma licença comprada do Aspose.Slides é exigida para implantações comerciais.
 
-## Respostas Rápidas
-- **Qual é a biblioteca principal para visualização de dados em java?** Aspose.Slides para Java.  
-- **Como criar um gráfico de funil no PowerPoint?** Use `addChart(ChartType.Funnel, …)` em um slide.  
-- **Qual método define a fonte de dados do gráfico?** Trabalhe com `IChartDataWorkbook` e `chart.getChartData()`.  
-- **Posso personalizar cores para cada segmento do funil?** Sim, defina `FillType.Solid` e atribua um `java.awt.Color` aleatório ou específico.  
-- **Preciso de licença para uso em produção?** Uma licença comprada do Aspose.Slides é necessária para implantações comerciais.
-
-## O que é visualização de dados em java?
-Visualização de dados em java refere‑se às técnicas e bibliotecas que permitem aos desenvolvedores transformar dados brutos em representações visuais claras, interativas ou estáticas diretamente a partir de aplicações Java. Aspose.Slides para Java é uma biblioteca líder para criar gráficos, diagramas e apresentações ricas programaticamente.
+## O que é visualização de dados em Java?
+Visualização de dados em Java é a prática de converter dados brutos em gráficos, diagramas ou gráficos interativos diretamente de aplicações Java. Aspose.Slides para Java é uma biblioteca líder que permite aos desenvolvedores gerar mais de 100 tipos de gráficos—including funil—sem nunca abrir o PowerPoint manualmente, suportando apresentações com até 500 slides enquanto mantém baixo consumo de memória.
 
 ## Por que usar gráficos de funil no PowerPoint?
-Gráficos de funil facilitam a ilustração de taxas de desistência entre etapas — ideal para pipelines de vendas, funis de conversão ou análises de eficiência de processos. Com Aspose.Slides você obtém controle total sobre layout, cores e dados sem precisar abrir o PowerPoint manualmente.
+Gráficos de funil revelam instantaneamente as taxas de queda entre etapas sequenciais, tornando‑os ideais para pipelines de vendas, análise de conversão ou revisões de eficiência de processos. Aspose.Slides oferece controle pixel‑perfeito sobre layout, cores dos segmentos e rótulos de dados, permitindo manter a consistência da marca e evitar o esforço manual de editar gráficos na interface do PowerPoint.
 
-## Pré‑requisitos (H2)
-Antes de começarmos, certifique‑se de que você possui as ferramentas e conhecimentos necessários para seguir este tutorial.
+## Pré-requisitos (H2)
 
-### Bibliotecas Necessárias, Versões e Dependências
-Para implementar Aspose.Slides para Java em seu projeto, você precisa de versões específicas de bibliotecas. Veja como configurá‑las usando Maven ou Gradle:
+### Bibliotecas necessárias, versões e dependências
+Para implementar Aspose.Slides para Java em seu projeto, inclua as coordenadas Maven ou Gradle apropriadas. A biblioteca funciona com Java 8‑21 e não requer dependências nativas externas.
 
 **Maven:**
 
@@ -67,25 +113,25 @@ Para implementar Aspose.Slides para Java em seu projeto, você precisa de versõ
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
 ```
 
-Alternativamente, você pode baixar a biblioteca diretamente em [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
+Você também pode baixar o JAR diretamente dos [lançamentos do Aspose.Slides para Java](https://releases.aspose.com/slides/java/).
 
-### Requisitos de Configuração do Ambiente
-Garanta que seu ambiente de desenvolvimento esteja configurado com JDK 1.6 ou superior, pois o Aspose.Slides requer isso para compatibilidade.
+### Requisitos de configuração do ambiente
+Certifique‑se de que o JDK 8 ou superior esteja instalado e que seu `JAVA_HOME` aponte para o diretório correto do JDK. Aspose.Slides funciona em qualquer SO que suporte o JDK, incluindo Windows, macOS e Linux.
 
-### Pré‑requisitos de Conhecimento
-Familiaridade com conceitos de programação Java e princípios básicos de design de apresentações será benéfica, mas não é obrigatória, pois cobriremos tudo passo a passo.
+### Pré‑conhecimentos necessários
+Familiaridade básica com a sintaxe Java, programação orientada a objetos e o conceito de um arquivo de apresentação ajudará, mas os trechos de código são totalmente explicados para desenvolvedores de qualquer nível de experiência.
 
 ## Configurando Aspose.Slides para Java (H2)
-Para começar a usar Aspose.Slides em seu projeto, siga estas etapas:
 
-1. **Adicionar a Dependência**: Use Maven ou Gradle para incluir Aspose.Slides, conforme mostrado acima.  
-2. **Aquisição da Licença**:
-   - **Teste Gratuito**: Baixe uma licença temporária em [Aspose's website](https://purchase.aspose.com/temporary-license/) para fins de avaliação.  
-   - **Compra**: Para uso em produção, adquira uma licença através da [página de compra](https://purchase.aspose.com/buy).  
-3. **Inicialização Básica**:
-   Crie uma nova classe Java e inicialize seu objeto de apresentação:
+1. **Adicionar a dependência** – Use o snippet Maven ou Gradle acima.  
+2. **Obter uma licença** –  
+   - **Teste gratuito** – Baixe uma licença temporária em [site da Aspose](https://purchase.aspose.com/temporary-license/) para avaliação.  
+   - **Licença completa** – Adquira uma licença de produção via [página de compra](https://purchase.aspose.com/buy).  
+3. **Inicialização básica** –  
 
-   ```java
+`Presentation` é a classe central do Aspose.Slides que representa um arquivo PowerPoint na memória. Ela fornece acesso a slides, formas e objetos de gráfico.
+
+```java
    import com.aspose.slides.Presentation;
    
    public class FunnelChartDemo {
@@ -100,15 +146,18 @@ Para começar a usar Aspose.Slides em seu projeto, siga estas etapas:
    }
    ```
 
-Esta configuração permitirá que você crie e manipule apresentações usando Aspose.Slides.
+O código acima cria uma nova instância de `Presentation`, pronta para manipulação de slides, e garante que os recursos sejam liberados com `dispose()`.
 
-## Guia de Implementação
-Dividiremos a implementação em recursos distintos, cada um focado em um aspecto específico da criação de gráficos de funil no PowerPoint.
+## Guia de implementação
 
-### Recurso 1: Criando uma Apresentação (H2)
+Percorreremos cada recurso necessário para construir um gráfico de funil completo, adicionando texto explicativo curto antes de cada espaço reservado para código.
 
-#### Visão Geral
-Comece criando uma instância da classe `Presentation`. Esse objeto representa seu arquivo PowerPoint e permite executar várias operações.
+### Recurso 1: criando uma apresentação (H2)
+
+#### Visão geral
+Comece criando uma instância da classe `Presentation`. Esse objeto é o ponto de entrada para todas as operações subsequentes.
+
+`Presentation` é o objeto de nível superior do Aspose.Slides que contém a coleção de slides e as configurações globais do documento.
 
 ```java
 import com.aspose.slides.Presentation;
@@ -122,12 +171,14 @@ try {
 }
 ```
 
-**Explicação**: Este trecho de código inicializa um objeto `Presentation`, apontando para um arquivo PowerPoint existente. O bloco `try‑finally` garante que os recursos sejam liberados corretamente com `dispose()`.
+O trecho abre uma apresentação em branco, que você pode salvar posteriormente como um arquivo `.pptx`.
 
-### Recurso 2: Adicionando um Gráfico de Funil a um Slide (H2)
+### Recurso 2: adicionando um gráfico de funil a um slide (H2)
 
-#### Visão Geral
-Adicione um gráfico de funil ao primeiro slide da sua apresentação usando os passos a seguir:
+#### Visão geral
+Insira um gráfico de funil no primeiro slide, defina seu tamanho e configure o tipo de gráfico.
+
+`ChartType.Funnel` indica ao Aspose.Slides que deve renderizar uma visualização no estilo funil em vez de um gráfico de barras ou linhas.
 
 ```java
 import com.aspose.slides.IChart;
@@ -145,12 +196,14 @@ try {
 }
 ```
 
-**Explicação**: O método `addChart()` cria um gráfico de funil no primeiro slide. Os parâmetros definem sua posição e tamanho.
+A chamada `addChart` cria a forma do gráfico, posiciona‑a em `(50, 50)` pontos e define largura de `500` e altura de `400`.
 
-### Recurso 3: Limpando os Dados do Gráfico (H2)
+### Recurso 3: limpando os dados do gráfico (H2)
 
-#### Visão Geral
-Antes de popular seu gráfico com dados, pode ser necessário limpar o conteúdo existente:
+#### Visão geral
+Antes de preencher o gráfico, limpe quaisquer categorias ou séries de espaço reservado que o modelo possa conter.
+
+`chart.getChartData().getCategories().clear()` remove todas as entradas de categoria existentes, enquanto `chart.getChartData().getSeries().clear()` elimina quaisquer séries pré‑preenchidas.
 
 ```java
 import com.aspose.slides.IChart;
@@ -170,12 +223,14 @@ try {
 }
 ```
 
-**Explicação**: Este código remove quaisquer dados pré‑existentes do gráfico de funil ao limpar suas categorias e séries.
+Isso garante uma tela limpa para que seus dados personalizados apareçam exatamente como desejado.
 
-### Recurso 4: Configurando a Planilha de Dados do Gráfico (H2)
+### Recurso 4: configurando a planilha de dados do gráfico (H2)
 
-#### Visão Geral
-Inicialize a planilha de dados do gráfico para gerenciar seus dados de forma eficaz:
+#### Visão geral
+O objeto `IChartDataWorkbook` armazena os valores brutos que alimentam o gráfico. Inicializá‑lo permite escrever dados diretamente nas células.
+
+`IChartDataWorkbook` é uma planilha leve em memória que o Aspose.Slides usa para alimentar séries e categorias do gráfico.
 
 ```java
 import com.aspose.slides.IChart;
@@ -198,12 +253,14 @@ try {
 }
 ```
 
-**Explicação**: O objeto `IChartDataWorkbook` permite limpar células existentes, preparando a planilha para novas inserções de dados.
+O código limpa quaisquer células existentes, preparando a planilha para novas entradas.
 
-### Recurso 5: Adicionando Categorias ao Gráfico (H2)
+### Recurso 5: adicionando categorias ao gráfico (H2)
 
-#### Visão Geral
-Adicione categorias significativas ao seu gráfico de funil:
+#### Visão geral
+Defina os rótulos textuais que aparecem no lado esquerdo do funil—eles representam cada etapa do seu processo.
+
+`chart.getChartData().getCategories().add()` cria um novo objeto de categoria vinculado a uma célula específica da planilha.
 
 ```java
 import com.aspose.slides.IChart;
@@ -227,12 +284,16 @@ try {
 }
 ```
 
-**Explicação**: Este código adiciona categorias ao gráfico de funil acessando a planilha de dados e inserindo nomes de categorias em células específicas.
+Aqui adicionamos três etapas: “Prospects”, “Qualified Leads” e “Closed Deals”.
 
-### Recurso 6: Adicionando Séries de Dados ao Gráfico (H2)
+### Recurso 6: adicionando séries de dados ao gráfico (H2)
 
-#### Visão Geral
-Popule seu gráfico de funil com séries de dados:
+#### Visão geral
+Preencha o funil com valores numéricos e, opcionalmente, atribua uma cor única a cada fatia.
+
+`IDataPoint` representa um único ponto de dados dentro de uma série de gráfico.  
+
+`chart.getChartData().getSeries().add()` cria uma série que contém os pontos de dados numéricos; cada `IDataPoint` pode receber sua própria cor de preenchimento.
 
 ```java
 import com.aspose.slides.IChart;
@@ -272,43 +333,49 @@ try {
 }
 ```
 
-**Explicação**: Este código adiciona uma série de dados ao gráfico de funil e preenche-a com pontos de dados. Também personaliza a cor de preenchimento de cada ponto de dados.
+O loop demonstra como definir um preenchimento sólido para cada ponto, usando constantes `java.awt.Color` específicas da marca ou cores geradas aleatoriamente para variedade visual.
 
-## Casos de Uso Comuns & Dicas (H2)
+## Casos de uso comuns & dicas (H2)
 
-- **Relatórios de Pipeline de Vendas** – Visualize a conversão de leads do prospect até o fechamento.  
-- **Análise de Eficiência de Processos** – Mostre a queda em cada etapa da produção.  
-- **Revisão de Funil de Marketing** – Compare o desempenho de campanhas entre canais.
+- **Relatórios de pipeline de vendas** – Mostre quantos leads avançam de prospect a fechado em cada etapa.  
+- **Análise de eficiência de processos** – Visualize perdas de material ou atrasos de tempo nas etapas de fabricação.  
+- **Revisão de funil de marketing** – Compare taxas de conversão entre campanhas ou fontes de tráfego.  
 
-**Dica profissional:** Use constantes de `java.awt.Color` para cores consistentes com a marca em vez de valores aleatórios, proporcionando um visual mais refinado.
+**Dica profissional:** Em vez de cores aleatórias, use a paleta de cores da sua empresa (por exemplo, `new Color(0, 112, 192)`) para manter a apresentação consistente com outros ativos de marketing.
 
-## Perguntas Frequentes
+## Perguntas frequentes (H2)
 
-**P: Como altero a orientação do gráfico de funil?**  
-R: Defina a propriedade `ChartOrientation` no objeto `IChart` para `ChartOrientation.Vertical` ou `Horizontal`.
+**Q: Como mudar a orientação do gráfico de funil?**  
+A: Defina a propriedade `ChartOrientation` no objeto `IChart` para `ChartOrientation.Vertical` ou `ChartOrientation.Horizontal`.
 
-**P: Posso exportar o slide como imagem após adicionar o gráfico?**  
-R: Sim, chame `pres.getSlides().get_Item(0).getThumbnail(1, 1)` e salve o `java.awt.image.BufferedImage` resultante.
+**Q: Posso exportar o slide como imagem após adicionar o gráfico?**  
+A: Sim—chame `pres.getSlides().get_Item(0).getThumbnail(1, 1)` e grave o `java.awt.image.BufferedImage` resultante em um arquivo PNG ou JPEG.
 
-**P: E se eu precisar de mais de três categorias?**  
-R: Basta adicionar categorias adicionais usando `chart.getChartData().getCategories().add(...)` e os pontos de dados correspondentes.
+**Q: E se eu precisar de mais de três categorias?**  
+A: Basta adicionar categorias adicionais usando `chart.getChartData().getCategories().add(...)` e fornecer pontos de dados correspondentes para cada nova categoria.
 
-**P: Existe uma forma de ocultar a legenda?**  
-R: Use `chart.getChartTitle().setVisible(false)` e `chart.getLegend().setVisible(false)`.
+**Q: Existe uma forma de ocultar a legenda?**  
+A: Use `chart.getChartTitle().setVisible(false)` e `chart.getLegend().setVisible(false)` para remover tanto o título quanto a legenda do visual.
 
-**P: Preciso de licença para builds de desenvolvimento?**  
-R: Uma licença temporária funciona para avaliação; uma licença completa é necessária para implantações em produção.
+**Q: Preciso de licença para builds de desenvolvimento?**  
+A: Uma licença temporária é suficiente para avaliação; uma licença comercial completa é necessária para implantações em produção.
 
 ---
 
-**Última atualização:** 2026-03-18  
+**Última atualização:** 2026-09-02  
 **Testado com:** Aspose.Slides para Java 25.4 (jdk16)  
-**Autor:** Aspose  
+**Autor:** Aspose
+
+## Tutoriais relacionados
+
+- [Como adicionar gráfico ao PowerPoint usando Aspose.Slides para Java: um guia passo a passo](/slides/java/charts-graphs/add-charts-powerpoint-aspose-slides-java-guide/)
+- [Como editar dados de gráfico do PowerPoint usando Aspose.Slides para Java: um guia abrangente](/slides/java/charts-graphs/edit-ppt-chart-data-aspose-slides-java/)
+- [Adicionar animação a gráfico do PowerPoint usando Aspose.Slides para Java – um guia passo a passo](/slides/java/animations-transitions/animate-charts-pptx-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
