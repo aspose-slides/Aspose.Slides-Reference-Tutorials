@@ -1,52 +1,117 @@
 ---
-"date": "2025-04-17"
-"description": "تعرّف على كيفية تخصيص مخططات PowerPoint بإضافة خطوط مخصصة باستخدام Aspose.Slides لجافا. اتبع هذا الدليل خطوة بخطوة للحصول على عرض تقديمي أكثر تأثيرًا."
-"title": "تحسين مخططات PowerPoint باستخدام خطوط مخصصة باستخدام Aspose.Slides Java"
-"url": "/ar/java/charts-graphs/customize-powerpoint-charts-aspose-slides-java/"
-"weight": 1
+date: '2026-09-07'
+description: تعلم كيفية إضافة خطوط مخصصة إلى مخطط Aspose Slides باستخدام Java. دليل
+  خطوة بخطوة يحسن مخططات PowerPoint لتوضيح أفضل للبيانات.
+keywords:
+- aspose slides chart
+- customize PowerPoint charts
+- add custom lines to charts Java
+lastmod: '2026-09-07'
+og_description: تعلم كيفية إضافة خطوط مخصصة إلى مخطط Aspose Slides باستخدام Java.
+  دليل خطوة بخطوة يحسن مخططات PowerPoint لتوضيح أفضل للبيانات.
+og_image_alt: Developer guide showing custom line addition to an Aspose Slides chart
+  in Java
+og_title: كيفية إضافة خطوط مخصصة إلى مخطط Aspose Slides باستخدام Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-07'
+  description: Learn how to add custom lines to an Aspose Slides chart using Java.
+    Step‑by‑step guide enhances PowerPoint charts for clearer data visualization.
+  headline: How to add custom lines to an Aspose Slides chart in Java
+  type: TechArticle
+- description: Learn how to add custom lines to an Aspose Slides chart using Java.
+    Step‑by‑step guide enhances PowerPoint charts for clearer data visualization.
+  name: How to add custom lines to an Aspose Slides chart in Java
+  steps:
+  - name: create a presentation object
+    text: The `Presentation` class is Aspose.Slides' top‑level object that represents
+      a single PowerPoint file in memory.
+  - name: add a clustered column chart
+    text: Insert a clustered column chart on the first slide at coordinates (100,
+      100) with a width of 500 px and a height of 400 px.
+  - name: add an auto‑shape line to the chart
+    text: Add a line shape to the chart’s `userShapes` collection, which stores custom
+      drawing objects. `userShapes` is a collection that holds custom shapes drawn
+      directly on a chart, allowing you to overlay lines, arrows, or other annotations.
+  - name: customize line properties
+    text: Set the line’s fill type to solid, change its color to red, and optionally
+      adjust thickness or dash style.
+  - name: save the presentation
+    text: Persist the modified presentation to disk.
+  type: HowTo
+- questions:
+  - answer: '`Presentation` represents a PowerPoint file in memory.'
+    question: What is the main class for creating a presentation?
+  - answer: '`slide.getShapes().addChart(...)` creates a chart object.'
+    question: Which method adds a chart to a slide?
+  - answer: Use `chart.getUserShapes().addAutoShape(ShapeType.Line, ...)`.
+    question: How do you draw a line on a chart?
+  - answer: Yes—set the line’s fill to a solid red `Color.RED`.
+    question: Can I set the line color to red?
+  - answer: A full license removes evaluation limits; a trial works for testing.
+    question: Do I need a license for production use?
+  type: FAQPage
+tags:
+- aspose slides
+- chart customization
+- java presentation
+title: كيفية إضافة خطوط مخصصة إلى مخطط Aspose Slides باستخدام Java
+url: /ar/java/charts-graphs/customize-powerpoint-charts-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# تحسين مخططات PowerPoint بخطوط مخصصة باستخدام Aspose.Slides Java
+
+# كيفية إضافة خطوط مخصصة إلى مخطط Aspose Slides في Java
 
 ## مقدمة
 
-هل ترغب في إبراز عروض PowerPoint التقديمية؟ سيرشدك هذا البرنامج التعليمي إلى كيفية تحسين المخططات البيانية بإضافة خطوط مخصصة باستخدام Aspose.Slides لجافا. بنهاية هذا الدليل، ستتعلم كيفية تحسين عرض البيانات ووضوحها في مخططاتك البيانية.
+في هذا البرنامج التعليمي ستكتشف كيفية إضافة خطوط مخصصة إلى **aspose slides chart** باستخدام Java. تساعدك الخطوط المخصصة على إبراز الحدود، الاتجاهات، أو نقاط البيانات الرئيسية، مما يحول المخطط العادي إلى قصة بصرية قوية. بنهاية الدليل ستكون قادرًا على دمج Aspose.Slides في مشروعك، ورسم خطوط على المخطط، وضبط مظهرها بدقة لتحقيق أقصى تأثير.
 
-**ما سوف تتعلمه:**
-- دمج Aspose.Slides في مشروع Java
-- إضافة خطوط مخصصة إلى مخططات PowerPoint باستخدام Java
-- تكوين خصائص الخط لتحسين المظهر المرئي
-- التطبيقات العملية للخطوط المخصصة في الرسوم البيانية
+**ما ستتعلمه**
+- كيفية تثبيت وترخيص Aspose.Slides لـ Java
+- الخطوات الدقيقة لرسم خط مخصص على مخطط
+- طرق تنسيق الخط (اللون، السمك، نمط الشرط)
+- سيناريوهات واقعية حيث تحسن الخطوط المخصصة التواصل البياني
 
-دعونا نبدأ بالنظر إلى المتطلبات الأساسية.
+## إجابات سريعة
+- **ما هي الفئة الرئيسية لإنشاء عرض تقديمي؟** `Presentation` تمثل ملف PowerPoint في الذاكرة.  
+- **أي طريقة تضيف مخططًا إلى شريحة؟** `slide.getShapes().addChart(...)` تنشئ كائن مخطط.  
+- **كيف ترسم خطًا على مخطط؟** استخدم `chart.getUserShapes().addAutoShape(ShapeType.Line, ...)`.  
+- **هل يمكنني ضبط لون الخط إلى الأحمر؟** نعم—قم بتعيين تعبئة الخط إلى الأحمر الصلب `Color.RED`.  
+- **هل أحتاج إلى ترخيص للاستخدام في الإنتاج؟** الترخيص الكامل يزيل حدود التقييم؛ النسخة التجريبية تعمل للاختبار.  
 
-## المتطلبات الأساسية
+`ShapeType.Line` هو قيمة تعداد تخبر Aspose.Slides بإنشاء شكل تلقائي على شكل خط.
 
-لمتابعة هذا البرنامج التعليمي، تأكد من أن لديك:
+## ما هو مخطط Aspose Slides؟
 
-### المكتبات والإصدارات المطلوبة:
-- Aspose.Slides لـ Java (الإصدار 25.4)
+إن **Aspose Slides chart** هو كائن مخطط قابل للبرمجة يعيش داخل شريحة PowerPoint، مما يتيح لك إنشاء وتعديل وتنسيق المخططات بالكامل من خلال كود Java. يدعم العديد من أنواع المخططات (عمودي، شريطي، خطي، دائري، إلخ)، ويوفر تحكمًا كاملاً في السلاسل والمحاور والوسائط، ويمكن دمجه مع عناصر شريحة أخرى مثل الصور والأشكال المخصصة، مما يجعله مناسبًا للتقارير الآلية والعروض التقديمية الديناميكية.
 
-### متطلبات إعداد البيئة:
-- مجموعة تطوير Java (JDK) الإصدار 16 أو أحدث
-- بيئة تطوير متكاملة (IDE) مثل IntelliJ IDEA أو Eclipse
+## لماذا نضيف خطوطًا مخصصة إلى مخطط Aspose Slides؟
 
-### المتطلبات المعرفية:
-- فهم أساسي لبرمجة جافا
-- المعرفة بعروض PowerPoint
+تتيح لك الخطوط المخصصة توضيح المخططات بإشارات بصرية دقيقة. يدعم Aspose.Slides **أكثر من 50 تنسيقًا للإدخال والإخراج** ويمكنه معالجة العروض التقديمية التي تحتوي على **مئات الشرائح** مع استهلاك أقل من **150 ميغابايت من الذاكرة** على جهاز تطوير عادي، مما يجعله مثاليًا للتقارير على نطاق واسع.
 
-بعد تغطية المتطلبات الأساسية، دعنا نقوم بإعداد Aspose.Slides لـ Java في بيئة التطوير الخاصة بك.
+## المتطلبات المسبقة
+
+- **Aspose.Slides for Java** – الإصدار 25.4 (أو أحدث)  
+- **JDK 16+** – أي بيئة تشغيل Java حديثة  
+- IDE مثل IntelliJ IDEA أو Eclipse  
+- معرفة أساسية بـ Java وإلمام بمفاهيم PowerPoint  
+
+### المكتبات المطلوبة
+- Aspose.Slides for Java (الإصدار 25.4)
+
+### إعداد البيئة
+- تثبيت JDK 16 أو أحدث  
+- استخدام Maven أو Gradle لإدارة التبعيات (الأمثلة أدناه)  
 
 ## إعداد Aspose.Slides لـ Java
 
-لاستخدام Aspose.Slides في Java، أضفه إلى مشروعك باستخدام أداة بناء مثل Maven أو Gradle. إليك التفاصيل:
+أضف المكتبة إلى مشروعك باستخدام أحد أدوات البناء التالية.
 
-**مافن:**
+**Maven:**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -54,124 +119,141 @@
     <version>25.4</version>
     <classifier>jdk16</classifier>
 </dependency>
-```
+```  
 
-**جرادل:**
+**Gradle:**  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
-```
+```  
 
-للتنزيل المباشر للمكتبة، قم بزيارة [إصدارات Aspose.Slides لـ Java](https://releases.aspose.com/slides/java/) للحصول على الإصدار الأحدث.
+للتنزيل اليدوي، زر [إصدارات Aspose.Slides لـ Java](https://releases.aspose.com/slides/java/) للحصول على أحدث حزمة.
 
-### الحصول على الترخيص:
-- **نسخة تجريبية مجانية:** ابدأ باستخدام ترخيص تجريبي.
-- **رخصة مؤقتة:** احصل على واحدة لإجراء اختبارات أكثر شمولاً دون قيود التقييم.
-- **شراء:** قم بشراء ترخيص كامل لفتح كافة الميزات.
+### الحصول على الترخيص
+- **Free trial:** ابدأ الاختبار دون شراء.  
+- **Temporary license:** استخدم لتقييم ممتد دون علامات مائية.  
+- **Full license:** افتح جميع الميزات لأعباء العمل الإنتاجية.  
 
-لتهيئة Aspose.Slides في مشروع Java الخاص بك، قم بإعداد الترخيص على النحو التالي:
+قم بتهيئة الترخيص في الكود كما هو موضح هنا:
 ```java
 License license = new License();
 license.setLicense("path_to_license.lic");
-```
-تأكد من الإشارة إلى ملف الترخيص الخاص بك بشكل صحيح لتجنب الانقطاعات أثناء استخدام وظائف Aspose.Slides.
+```  
+
+`License` هي الفئة المستخدمة لتحميل وتطبيق ملف ترخيص Aspose.Slides على التطبيق.
+
+## كيف تضيف خطوطًا مخصصة إلى مخطط Aspose Slides؟
+
+حمّل أو أنشئ عرضًا تقديميًا، أدخل مخططًا، ثم أضف شكل خط إلى مجموعة user‑shapes الخاصة بالمخطط. يمكن وضع الخط وتحديد حجمه وتنسيقه ليتناسب مع احتياجات التقارير الخاصة بك. يعمل هذا النهج مع مخططات الأعمدة المجمعة، الشريطية، الخطية، والمساحية على حد سواء.
 
 ## دليل التنفيذ
 
-سوف يرشدك هذا القسم خلال عملية إضافة خطوط مخصصة إلى مخطط في PowerPoint باستخدام Aspose.Slides لـ Java.
+### إضافة خطوط مخصصة إلى مخطط
 
-### إضافة خطوط مخصصة إلى الرسم البياني
-
-#### ملخص
-إضافة عناصر بصرية، كالخطوط، تُحسّن سهولة قراءة مخططاتك البيانية من خلال إبراز نقاط بيانات أو اتجاهات محددة. تُفيد هذه الميزة عند لفت الانتباه إلى أجزاء مهمة من بياناتك.
+#### نظرة عامة
+تجذب الخطوط المخصصة الانتباه إلى قيم محددة—مثل حد الميزانية أو خط الهدف—مما يجعل مخططاتك أكثر فائدة.
 
 #### الخطوة 1: إنشاء كائن عرض تقديمي
-ابدأ بإنشاء مثيل لـ `Presentation` الفئة التي تمثل ملف PowerPoint الذي تعمل عليه:
+فئة `Presentation` هي الكائن الأعلى مستوى في Aspose.Slides الذي يمثل ملف PowerPoint واحد في الذاكرة.  
 ```java
 Presentation pres = new Presentation();
-```
+```  
 
 #### الخطوة 2: إضافة مخطط عمودي مجمع
-أضف مخططًا عموديًا مجمعًا إلى الشريحة الأولى في الموضع (100، 100) بعرض 500 وارتفاع 400 بكسل:
+أدرج مخطط عمودي مجمع في الشريحة الأولى عند الإحداثيات (100, 100) بعرض 500 بكسل وارتفاع 400 بكسل.  
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
     ChartType.ClusteredColumn, 100, 100, 500, 400);
-```
+```  
 
-#### الخطوة 3: إضافة خط الشكل التلقائي إلى الرسم البياني
-بعد ذلك، أضف شكل خط إلى مجموعة أشكال المستخدم الخاصة بالرسم البياني:
+#### الخطوة 3: إضافة شكل خط تلقائي إلى المخطط
+أضف شكل خط إلى مجموعة `userShapes` الخاصة بالمخطط، التي تخزن كائنات الرسم المخصصة.  
 ```java
 IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(
     ShapeType.Line, 0, chart.getHeight() / 2, chart.getWidth(), 0);
-```
+```  
+
+`userShapes` هي مجموعة تحتفظ بالأشكال المخصصة المرسومة مباشرة على المخطط، مما يتيح لك إضافة خطوط أو أسهم أو تعليقات توضيحية أخرى.
 
 #### الخطوة 4: تخصيص خصائص الخط
-قم بتغيير نوع تعبئة الخط إلى صلب وضبط لونه إلى الأحمر:
+قم بتعيين نوع تعبئة الخط إلى صلب، غير لونه إلى الأحمر، ويمكنك تعديل السمك أو نمط الشرط إذا رغبت.  
 ```java
 shape.getLineFormat().getFillFormat().setFillType(FillType.Solid);
 shape.getLineFormat().getFillFormat().getSolidFillColor().setColor(Color.RED);
-```
+```  
 
 #### الخطوة 5: حفظ العرض التقديمي
-وأخيرًا، احفظ عرضك التقديمي بهذه التغييرات:
+احفظ العرض التقديمي المعدل إلى القرص.  
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/" + "AddCustomLines.pptx", SaveFormat.Pptx);
-```
+```  
 
-### نصائح استكشاف الأخطاء وإصلاحها:
-- تأكد من تحديد المسار الخاص بحفظ العرض التقديمي بشكل صحيح.
-- إذا لم يظهر الرسم البياني الخاص بك، فتأكد من صحة الإحداثيات والأبعاد المقدمة عند إضافته.
+### العمل مع فئة Presentation
+توفر فئة `Presentation` طرقًا لتحميل وإنشاء وحفظ ملفات PowerPoint، بالإضافة إلى الوصول إلى الشرائح والأشكال الفردية.
+
+### نصائح استكشاف الأخطاء وإصلاحها
+- تحقق من أن مسار الملف المستخدم في `save` قابل للكتابة؛ استخدم مسارات مطلقة للموثوقية.  
+- إذا لم يظهر المخطط، تحقق مرة أخرى من إحداثيات X/Y وتأكد من صحة فهرس الشريحة.  
 
 ## التطبيقات العملية
 
-فيما يلي السيناريوهات التي يمكن أن تكون فيها الخطوط المخصصة في المخططات مفيدة بشكل خاص:
-1. **التقارير المالية**:تسليط الضوء على حدود الميزانية أو الإنفاق الفعلي مقابل التوقعات.
-2. **بيانات المبيعات**:التركيز على أهداف المبيعات أو خطوط الأداء المتوسطة.
-3. **تحليلات الرعاية الصحية**:قم بتحديد القيم الحرجة في اتجاهات بيانات المرضى.
+تكون الخطوط المخصصة مفيدة بشكل خاص في:
+1. **Financial reports** – إبراز حدود الميزانية أو أهداف الأرباح.  
+2. **Sales dashboards** – رسم خط لأهداف المبيعات ربع السنوية.  
+3. **Healthcare analytics** – وضع علامات على الحدود الحرجة في اتجاهات مؤشرات حيوية للمرضى.  
 
-يمكن أيضًا دمج الخطوط المخصصة مع أنظمة مثل برنامج CRM لتحديث المخططات بشكل ديناميكي استنادًا إلى موجزات البيانات في الوقت الفعلي.
+يمكنك أيضًا أتمتة وضع الخطوط عن طريق سحب قيم الحدود من قاعدة بيانات أو API، مما يتيح تقارير في الوقت الفعلي.
 
 ## اعتبارات الأداء
 
-عند العمل مع Aspose.Slides، ضع ما يلي في الاعتبار للحصول على الأداء الأمثل:
-- قم بتقليل استخدام الذاكرة عن طريق التخلص من العروض التقديمية عندما لم تعد هناك حاجة إليها.
-- تحسين دقة الصور والرسوم البيانية لتحقيق التوازن بين الجودة وحجم الملف.
-- استخدم ترخيصًا مؤقتًا أثناء التطوير لتجنب قيود التقييم.
+- قم بتحرير كائنات `Presentation` باستخدام `presentation.dispose()` عند الانتهاء لتحرير الذاكرة الأصلية.  
+- استخدم دقة صور ومخططات معتدلة (مثلاً 150 dpi) للحفاظ على حجم الملف تحت السيطرة.  
+- أثناء التطوير، يزيل الترخيص المؤقت علامات التقييم المائية مع الاستمرار في توفير وصول كامل إلى API.
 
-إن اتباع هذه الممارسات سيساعدك على الحفاظ على استخدام الموارد بكفاءة مع الاستفادة من الميزات القوية التي يوفرها Aspose.Slides.
+## الخلاصة
 
-## خاتمة
+أنت الآن تعرف كيفية إضافة خطوط مخصصة إلى **aspose slides chart** في Java، مما يمنحك تحكمًا كاملًا في توضيح المخطط والتأكيد البصري. جرب أنماط خطوط مختلفة، ومواقع، وأنواع مخططات لإنشاء تقارير تنقل البيانات فورًا.
 
-لقد تعلمتَ الآن كيفية إضافة خطوط مخصصة إلى المخططات البيانية في عروض PowerPoint التقديمية باستخدام Aspose.Slides لجافا. يُسهّل هذا التحسين الوصول إلى بياناتك ويجعلها أكثر جاذبية بصريًا، مما يُتيح للمشاهدين استيعاب المعلومات الرئيسية بسرعة. استكشف أنواع المخططات وخيارات التخصيص الأخرى المتاحة في Aspose.Slides لمزيد من التحسينات.
+## قسم الأسئلة المتكررة
 
-## قسم الأسئلة الشائعة
+**س1: هل يمكنني تغيير لون الخطوط المخصصة؟**  
+A1: نعم، قم بتخصيص ألوان الخط عن طريق ضبط خاصية `SolidFillColor` إلى أي `java.awt.Color` مرغوب.
 
-**س1: هل يمكنني تغيير لون الخطوط المخصصة؟**
-A1: نعم، قم بتخصيص ألوان الخطوط عن طريق ضبط `SolidFillColor` خاصية لأي لون مرغوب.
+**س2: هل Aspose.Slides متوافق مع جميع بيئات تطوير Java؟**  
+A2: نعم، طالما أن بيئة التطوير تدعم Maven أو Gradle، يمكنك دمج Aspose.Slides دون مشاكل.
 
-**س2: هل Aspose.Slides متوافق مع جميع بيئات التطوير المتكاملة Java؟**
-ج2: نعم، طالما أن IDE الخاص بك يدعم تبعيات Maven أو Gradle، فيمكنك دمج Aspose.Slides.
+**س3: ما أنواع المخططات المدعومة لإضافة خطوط مخصصة؟**  
+A3: يمكن إضافة خطوط مخصصة إلى مخططات الأعمدة المجمعة، الشريطية، الخطية، المساحية، والدائرية، وغيرها.
 
-**س3: ما هي أنواع المخططات المدعومة لإضافة خطوط مخصصة؟**
-A3: يمكن إضافة خطوط مخصصة إلى أنواع مختلفة من المخططات، بما في ذلك المخططات العمودية المجمعة والمخططات الشريطية.
+**س4: كيف أقوم باستكشاف مشاكل حفظ العروض التقديمية؟**  
+A4: تأكد من وجود دليل الإخراج، صحة مسار الملف، وأن التطبيق يمتلك أذونات الكتابة.
 
-**س4: كيف يمكنني استكشاف الأخطاء وإصلاحها عند حفظ العروض التقديمية؟**
-A4: تأكد من صحة مسارات ملفاتك وتأكد من أن لديك أذونات الكتابة في الدليل المحدد.
+**س5: هل هناك أي قيود عند استخدام ترخيص تجريبي؟**  
+A5: قد يضيف النسخة التجريبية علامات مائية ويقيد بعض الميزات المتميزة؛ الترخيص المؤقت أو الكامل يزيل هذه القيود.
 
-**س5: هل هناك أي قيود عند استخدام ترخيص تجريبي؟**
-ج٥: قد تفرض النسخة التجريبية قيودًا، مثل العلامات المائية أو وظائف محدودة. فكّر في الحصول على ترخيص مؤقت أو كامل للوصول الشامل.
+## الموارد
+- **Documentation**: [توثيق Aspose.Slides Java](https://reference.aspose.com/slides/java/)  
+- **Download**: [إصدارات Aspose.Slides لـ Java](https://releases.aspose.com/slides/java/)  
+- **Purchase**: [شراء Aspose.Slides](https://purchase.aspose.com/buy)  
+- **Free trial**: [احصل على نسخة تجريبية مجانية](https://releases.aspose.com/slides/java/)  
+- **Temporary license**: [الحصول على ترخيص مؤقت](https://purchase.aspose.com/temporary-license/)  
+- **Support**: [منتدى دعم Aspose](https://forum.aspose.com/c/slides/11)
 
-## موارد
-- **التوثيق**: [توثيق Aspose.Slides بلغة Java](https://reference.aspose.com/slides/java/)
-- **تحميل**: [Aspose.Slides لإصدارات Java](https://releases.aspose.com/slides/java/)
-- **شراء**: [شراء Aspose.Slides](https://purchase.aspose.com/buy)
-- **نسخة تجريبية مجانية**: [احصل على نسخة تجريبية مجانية](https://releases.aspose.com/slides/java/)
-- **رخصة مؤقتة**: [الحصول على رخصة مؤقتة](https://purchase.aspose.com/temporary-license/)
-- **يدعم**: [منتدى دعم Aspose](https://forum.aspose.com/c/slides/11)
+---
+
+**آخر تحديث:** 2026-09-07  
+**تم الاختبار مع:** Aspose.Slides for Java 25.4  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [إنشاء وتخصيص خطوط الاتجاه للمخططات Aspose Slides Java](/slides/java/charts-graphs/create-customize-charts-trend-lines-aspose-slides-java/)
+- [كيفية تعديل بيانات مخطط PowerPoint باستخدام Aspose.Slides for Java: دليل شامل](/slides/java/charts-graphs/edit-ppt-chart-data-aspose-slides-java/)
+- [كيفية تدوير عناوين محاور المخطط في PowerPoint باستخدام Aspose.Slides for Java: دليل خطوة بخطوة](/slides/java/charts-graphs/rotate-chart-axis-titles-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

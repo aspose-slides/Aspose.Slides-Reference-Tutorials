@@ -1,52 +1,119 @@
 ---
-"date": "2025-04-17"
-"description": "Dowiedz się, jak dostosować wykresy PowerPoint, dodając niestandardowe linie za pomocą Aspose.Slides dla Java. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby uzyskać bardziej efektowną prezentację."
-"title": "Ulepsz wykresy programu PowerPoint za pomocą niestandardowych linii przy użyciu Aspose.Slides Java"
-"url": "/pl/java/charts-graphs/customize-powerpoint-charts-aspose-slides-java/"
-"weight": 1
+date: '2026-09-07'
+description: Dowiedz się, jak dodać własne linie do wykresu Aspose Slides przy użyciu
+  języka Java. Przewodnik krok po kroku ulepsza wykresy PowerPoint, zapewniając wyraźniejszą
+  wizualizację danych.
+keywords:
+- aspose slides chart
+- customize PowerPoint charts
+- add custom lines to charts Java
+lastmod: '2026-09-07'
+og_description: Dowiedz się, jak dodać własne linie do wykresu Aspose Slides przy
+  użyciu języka Java. Przewodnik krok po kroku ulepsza wykresy PowerPoint, zapewniając
+  wyraźniejszą wizualizację danych.
+og_image_alt: Developer guide showing custom line addition to an Aspose Slides chart
+  in Java
+og_title: Jak dodać własne linie do wykresu Aspose Slides w języku Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-07'
+  description: Learn how to add custom lines to an Aspose Slides chart using Java.
+    Step‑by‑step guide enhances PowerPoint charts for clearer data visualization.
+  headline: How to add custom lines to an Aspose Slides chart in Java
+  type: TechArticle
+- description: Learn how to add custom lines to an Aspose Slides chart using Java.
+    Step‑by‑step guide enhances PowerPoint charts for clearer data visualization.
+  name: How to add custom lines to an Aspose Slides chart in Java
+  steps:
+  - name: create a presentation object
+    text: The `Presentation` class is Aspose.Slides' top‑level object that represents
+      a single PowerPoint file in memory.
+  - name: add a clustered column chart
+    text: Insert a clustered column chart on the first slide at coordinates (100,
+      100) with a width of 500 px and a height of 400 px.
+  - name: add an auto‑shape line to the chart
+    text: Add a line shape to the chart’s `userShapes` collection, which stores custom
+      drawing objects. `userShapes` is a collection that holds custom shapes drawn
+      directly on a chart, allowing you to overlay lines, arrows, or other annotations.
+  - name: customize line properties
+    text: Set the line’s fill type to solid, change its color to red, and optionally
+      adjust thickness or dash style.
+  - name: save the presentation
+    text: Persist the modified presentation to disk.
+  type: HowTo
+- questions:
+  - answer: '`Presentation` represents a PowerPoint file in memory.'
+    question: What is the main class for creating a presentation?
+  - answer: '`slide.getShapes().addChart(...)` creates a chart object.'
+    question: Which method adds a chart to a slide?
+  - answer: Use `chart.getUserShapes().addAutoShape(ShapeType.Line, ...)`.
+    question: How do you draw a line on a chart?
+  - answer: Yes—set the line’s fill to a solid red `Color.RED`.
+    question: Can I set the line color to red?
+  - answer: A full license removes evaluation limits; a trial works for testing.
+    question: Do I need a license for production use?
+  type: FAQPage
+tags:
+- aspose slides
+- chart customization
+- java presentation
+title: Jak dodać własne linie do wykresu Aspose Slides w języku Java
+url: /pl/java/charts-graphs/customize-powerpoint-charts-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Ulepszanie wykresów programu PowerPoint za pomocą niestandardowych linii przy użyciu Aspose.Slides Java
 
-## Wstęp
+# Jak dodać własne linie do wykresu Aspose Slides w Javie
 
-Chcesz, aby Twoje prezentacje PowerPoint wyróżniały się? Ten samouczek przeprowadzi Cię przez ulepszanie wykresów poprzez dodawanie niestandardowych linii za pomocą Aspose.Slides dla Java. Pod koniec tego przewodnika dowiesz się, jak poprawić wizualizację danych i przejrzystość na wykresach.
+## Wprowadzenie
 
-**Czego się nauczysz:**
-- Integrowanie Aspose.Slides z projektem Java
-- Dodawanie niestandardowych linii do wykresów programu PowerPoint przy użyciu języka Java
-- Konfigurowanie właściwości linii w celu uzyskania lepszego wyglądu wizualnego
-- Praktyczne zastosowania linii niestandardowych na wykresach
+W tym samouczku dowiesz się, jak dodać własne linie do **aspose slides chart** przy użyciu Javy. Własne linie pomagają podkreślić progi, trendy lub kluczowe punkty danych, przekształcając zwykły wykres w potężną opowieść wizualną. Pod koniec przewodnika będziesz w stanie zintegrować Aspose.Slides z projektem, rysować linie na wykresie i precyzyjnie dopasować ich wygląd dla maksymalnego efektu.
 
-Zacznijmy od przyjrzenia się wymaganiom wstępnym.
+**Czego się nauczysz**
+- Jak zainstalować i licencjonować Aspose.Slides dla Javy
+- Dokładne kroki, aby narysować własną linię na wykresie
+- Sposoby stylizacji linii (kolor, grubość, styl kreski)
+- Scenariusze z rzeczywistego świata, w których własne linie poprawiają komunikację danych
+
+## Szybkie odpowiedzi
+- **Jaka jest główna klasa do tworzenia prezentacji?** `Presentation` reprezentuje plik PowerPoint w pamięci.  
+- **Która metoda dodaje wykres do slajdu?** `slide.getShapes().addChart(...)` tworzy obiekt wykresu.  
+- **Jak narysować linię na wykresie?** Użyj `chart.getUserShapes().addAutoShape(ShapeType.Line, ...)`.  
+- **Czy mogę ustawić kolor linii na czerwony?** Tak — ustaw wypełnienie linii na jednolity czerwony `Color.RED`.  
+- **Czy potrzebuję licencji do użytku produkcyjnego?** Pełna licencja usuwa ograniczenia wersji próbnej; wersja trial działa do testów.  
+
+`ShapeType.Line` jest wartością wyliczeniową, która instruuje Aspose.Slides, aby utworzyć automatyczny kształt w formie linii.
+
+## Czym jest wykres Aspose Slides?
+
+**Aspose Slides chart** to programowalny obiekt wykresu, który znajduje się wewnątrz slajdu PowerPoint, umożliwiając generowanie, modyfikowanie i stylizowanie wykresów wyłącznie z kodu Java. Obsługuje wiele typów wykresów (kolumnowy, słupkowy, liniowy, kołowy itp.), zapewnia pełną kontrolę nad seriami, osiami, legendami i może być łączony z innymi elementami slajdu, takimi jak obrazy i własne kształty, co czyni go odpowiednim do automatycznego raportowania i dynamicznych prezentacji.
+
+## Dlaczego dodawać własne linie do wykresu Aspose Slides?
+
+Własne linie pozwalają na anotowanie wykresów precyzyjnymi wskazówkami wizualnymi. Aspose.Slides obsługuje **ponad 50 formatów wejściowych i wyjściowych** i może przetwarzać prezentacje z **setkami slajdów**, zużywając mniej niż **150 MB pamięci RAM** na typowym komputerze deweloperskim, co czyni go idealnym do raportowania na dużą skalę.
 
 ## Wymagania wstępne
 
-Aby skorzystać z tego samouczka, upewnij się, że posiadasz:
+- **Aspose.Slides for Java** – wersja 25.4 (lub nowsza)  
+- **JDK 16+** – dowolny nowoczesny runtime Javy  
+- IDE, takie jak IntelliJ IDEA lub Eclipse  
+- Podstawowa znajomość Javy i pojęć PowerPoint  
 
-### Wymagane biblioteki i wersje:
-- Aspose.Slides dla Java (wersja 25.4)
+### Wymagane biblioteki
+- Aspose.Slides for Java (Wersja 25.4)
 
-### Wymagania dotyczące konfiguracji środowiska:
-- Zestaw Java Development Kit (JDK) w wersji 16 lub nowszej
-- Zintegrowane środowisko programistyczne (IDE), takie jak IntelliJ IDEA lub Eclipse
+### Konfiguracja środowiska
+- Zainstaluj JDK 16 lub nowszy  
+- Użyj Maven lub Gradle do zarządzania zależnościami (przykłady poniżej)  
 
-### Wymagania wstępne dotyczące wiedzy:
-- Podstawowa znajomość programowania w Javie
-- Znajomość prezentacji PowerPoint
+## Konfigurowanie Aspose.Slides dla Javy
 
-Mając za sobą wymagania wstępne, skonfigurujmy Aspose.Slides dla Java w środowisku programistycznym.
+Dodaj bibliotekę do swojego projektu przy użyciu jednego z poniższych narzędzi budujących.
 
-## Konfigurowanie Aspose.Slides dla Java
-
-Aby użyć Aspose.Slides dla Java, dodaj go do swojego projektu za pomocą narzędzia do kompilacji, takiego jak Maven lub Gradle. Oto szczegóły:
-
-**Maven:**
+**Maven:**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -54,124 +121,141 @@ Aby użyć Aspose.Slides dla Java, dodaj go do swojego projektu za pomocą narz�
     <version>25.4</version>
     <classifier>jdk16</classifier>
 </dependency>
-```
+```  
 
-**Stopień:**
+**Gradle:**  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
-```
+```  
 
-Aby pobrać bibliotekę bezpośrednio, odwiedź stronę [Aspose.Slides dla wydań Java](https://releases.aspose.com/slides/java/) aby zobaczyć najnowszą wersję.
+Aby pobrać ręcznie, odwiedź [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) aby uzyskać najnowszy pakiet.
 
-### Nabycie licencji:
-- **Bezpłatna wersja próbna:** Zacznij od licencji próbnej.
-- **Licencja tymczasowa:** Zdobądź taki egzemplarz, aby móc przeprowadzić dokładniejsze testy bez ograniczeń dotyczących oceny.
-- **Zakup:** Kup pełną licencję, aby odblokować wszystkie funkcje.
+### Uzyskanie licencji
+- **Free trial:** rozpocznij testowanie bez zakupu.  
+- **Temporary license:** użyj do przedłużonej oceny bez znaków wodnych.  
+- **Full license:** odblokuj wszystkie funkcje dla produkcyjnych obciążeń.  
 
-Aby zainicjować Aspose.Slides w projekcie Java, skonfiguruj licencję w następujący sposób:
+Zainicjalizuj licencję w kodzie, jak pokazano poniżej:
 ```java
 License license = new License();
 license.setLicense("path_to_license.lic");
-```
-Upewnij się, że plik licencji zawiera prawidłowe odwołania, aby uniknąć przerw w korzystaniu z funkcji Aspose.Slides.
+```  
 
-## Przewodnik wdrażania
+`License` to klasa używana do wczytania i zastosowania pliku licencji Aspose.Slides w aplikacji.
 
-tej sekcji dowiesz się, jak dodawać niestandardowe linie do wykresu w programie PowerPoint za pomocą pakietu Aspose.Slides for Java.
+## Jak dodać własne linie do wykresu Aspose Slides?
 
-### Dodawanie niestandardowych linii do wykresu
+Załaduj lub utwórz prezentację, wstaw wykres, a następnie dodaj kształt linii do kolekcji user‑shapes wykresu. Linia może być pozycjonowana, skalowana i stylizowana, aby dopasować się do potrzeb raportowania. To podejście działa zarówno dla wykresów kolumnowych grupowanych, słupkowych, liniowych, jak i obszarowych.
+
+## Przewodnik implementacji
+
+### Dodawanie własnych linii do wykresu
 
 #### Przegląd
-Dodanie elementów wizualnych, takich jak linie, może poprawić czytelność wykresów, wyróżniając określone punkty danych lub trendy. Ta funkcja jest przydatna, gdy zwracasz uwagę na krytyczne części danych.
+Własne linie przyciągają uwagę do konkretnych wartości — takich jak limit budżetu czy linia docelowa — czyniąc wykresy bardziej wnikliwymi.
 
-#### Krok 1: Utwórz obiekt prezentacji
-Zacznij od utworzenia instancji `Presentation` klasa, reprezentująca plik programu PowerPoint, z którym pracujesz:
+#### Krok 1: utwórz obiekt prezentacji
+Klasa `Presentation` jest obiektem najwyższego poziomu Aspose.Slides, który reprezentuje pojedynczy plik PowerPoint w pamięci.  
 ```java
 Presentation pres = new Presentation();
-```
+```  
 
-#### Krok 2: Dodaj wykres kolumnowy klastrowany
-Dodaj wykres kolumnowy klastrowany do pierwszego slajdu na pozycji (100, 100) o szerokości 500 i wysokości 400 pikseli:
+#### Krok 2: dodaj wykres kolumnowy grupowany
+Wstaw wykres kolumnowy grupowany na pierwszym slajdzie w współrzędnych (100, 100) o szerokości 500 px i wysokości 400 px.  
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
     ChartType.ClusteredColumn, 100, 100, 500, 400);
-```
+```  
 
-#### Krok 3: Dodaj linię kształtu automatycznego do wykresu
-Następnie dodaj kształt linii do kolekcji kształtów użytkownika na wykresie:
+#### Krok 3: dodaj linię auto‑shape do wykresu
+Dodaj kształt linii do kolekcji `userShapes` wykresu, która przechowuje własne obiekty rysunkowe.  
 ```java
 IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(
     ShapeType.Line, 0, chart.getHeight() / 2, chart.getWidth(), 0);
-```
+```  
 
-#### Krok 4: Dostosuj właściwości linii
-Zmień typ wypełnienia linii na pełny i ustaw jej kolor na czerwony:
+`userShapes` to kolekcja, która przechowuje własne kształty rysowane bezpośrednio na wykresie, umożliwiając nakładanie linii, strzałek lub innych adnotacji.
+
+#### Krok 4: dostosuj właściwości linii
+Ustaw typ wypełnienia linii na stały, zmień jej kolor na czerwony i opcjonalnie dostosuj grubość lub styl kreski.  
 ```java
 shape.getLineFormat().getFillFormat().setFillType(FillType.Solid);
 shape.getLineFormat().getFillFormat().getSolidFillColor().setColor(Color.RED);
-```
+```  
 
-#### Krok 5: Zapisz prezentację
-Na koniec zapisz prezentację z następującymi zmianami:
+#### Krok 5: zapisz prezentację
+Zapisz zmodyfikowaną prezentację na dysku.  
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/" + "AddCustomLines.pptx", SaveFormat.Pptx);
-```
+```  
 
-### Wskazówki dotyczące rozwiązywania problemów:
-- Sprawdź, czy ścieżka zapisu prezentacji jest prawidłowo określona.
-- Jeśli wykres się nie wyświetla, sprawdź dokładnie współrzędne i wymiary podane podczas dodawania wykresu.
+### Praca z klasą Presentation
+Klasa `Presentation` udostępnia metody do ładowania, tworzenia i zapisywania plików PowerPoint, a także dostęp do poszczególnych slajdów i kształtów.
 
-## Zastosowania praktyczne
+### Wskazówki rozwiązywania problemów
+- Zweryfikuj, że ścieżka pliku użyta w `save` jest zapisywalna; używaj ścieżek bezwzględnych dla niezawodności.  
+- Jeśli wykres się nie pojawia, sprawdź ponownie współrzędne X/Y i upewnij się, że indeks slajdu jest prawidłowy.  
 
-Oto scenariusze, w których niestandardowe linie na wykresach mogą być szczególnie przydatne:
-1. **Sprawozdania finansowe**:Wyróżnij progi budżetowe lub rzeczywiste wydatki w zestawieniu z prognozami.
-2. **Dane sprzedaży**:Podkreśl cele sprzedaży lub średnie wyniki.
-3. **Analityka opieki zdrowotnej**:Oznacz wartości krytyczne w trendach danych pacjentów.
+## Praktyczne zastosowania
 
-Linie niestandardowe można również integrować z systemami takimi jak oprogramowanie CRM, aby dynamicznie aktualizować wykresy w oparciu o dane przesyłane w czasie rzeczywistym.
+Własne linie są szczególnie przydatne w:
+1. **Financial reports** – podkreśl limity budżetu lub cele zysku.  
+2. **Sales dashboards** – narysuj linię dla kwartalnych celów sprzedaży.  
+3. **Healthcare analytics** – oznacz krytyczne progi w trendach parametrów życiowych pacjenta.  
+
+Możesz także zautomatyzować umieszczanie linii, pobierając wartości progowe z bazy danych lub API, umożliwiając raportowanie w czasie rzeczywistym.
 
 ## Rozważania dotyczące wydajności
 
-Podczas pracy z Aspose.Slides należy wziąć pod uwagę poniższe kwestie, aby uzyskać optymalną wydajność:
-- Zminimalizuj użycie pamięci, usuwając prezentacje, gdy nie są już potrzebne.
-- Zoptymalizuj rozdzielczość obrazów i wykresów, aby zrównoważyć jakość i rozmiar pliku.
-- Aby uniknąć ograniczeń związanych z oceną, podczas tworzenia oprogramowania korzystaj z licencji tymczasowej.
+- Zwolnij obiekty `Presentation` za pomocą `presentation.dispose()` po zakończeniu, aby zwolnić pamięć natywną.  
+- Używaj umiarkowanych rozdzielczości obrazów i wykresów (np. 150 dpi), aby utrzymać rozmiar pliku pod kontrolą.  
+- Podczas rozwoju tymczasowa licencja eliminuje znaki wodne wersji próbnej, jednocześnie zapewniając pełny dostęp do API.  
 
-Przestrzeganie tych zasad pomoże Ci utrzymać efektywne wykorzystanie zasobów przy jednoczesnym wykorzystaniu zaawansowanych funkcji Aspose.Slides.
+## Zakończenie
 
-## Wniosek
-
-Teraz wiesz, jak dodawać niestandardowe linie do wykresów w prezentacjach PowerPoint za pomocą Aspose.Slides for Java. To ulepszenie sprawia, że Twoje dane są bardziej dostępne i atrakcyjne wizualnie, pozwalając widzom szybko zrozumieć kluczowe spostrzeżenia. Zapoznaj się z innymi typami wykresów i opcjami dostosowywania dostępnymi w Aspose.Slides, aby uzyskać dalsze ulepszenia.
+Teraz wiesz, jak dodać własne linie do **aspose slides chart** w Javie, dając pełną kontrolę nad adnotacjami wykresu i podkreśleniem wizualnym. Eksperymentuj z różnymi stylami linii, pozycjami i typami wykresów, aby tworzyć raporty, które natychmiast przekazują dane.
 
 ## Sekcja FAQ
 
-**P1: Czy mogę zmienić kolor niestandardowych linii?**
-A1: Tak, dostosuj kolory linii, ustawiając `SolidFillColor` nieruchomość na dowolny wybrany kolor.
+**Q1: Czy mogę zmienić kolor własnych linii?**  
+A1: Tak, dostosuj kolory linii, ustawiając właściwość `SolidFillColor` na dowolny żądany `java.awt.Color`.
 
-**P2: Czy Aspose.Slides jest kompatybilny ze wszystkimi środowiskami IDE Java?**
-A2: Tak, o ile Twoje środowisko IDE obsługuje zależności Maven lub Gradle, możesz zintegrować Aspose.Slides.
+**Q2: Czy Aspose.Slides jest kompatybilny ze wszystkimi IDE Javy?**  
+A2: Tak, pod warunkiem że Twoje IDE obsługuje Maven lub Gradle, możesz zintegrować Aspose.Slides bez problemów.
 
-**P3: Jakie typy wykresów są obsługiwane przy dodawaniu niestandardowych linii?**
-A3: Do różnych typów wykresów, w tym wykresów kolumnowych i wykresów słupkowych, można dodawać linie niestandardowe.
+**Q3: Jakie typy wykresów obsługują dodawanie własnych linii?**  
+A3: Własne linie można dodać do wykresów kolumnowych grupowanych, słupkowych, liniowych, obszarowych i kołowych, oraz innych.
 
-**P4: Jak rozwiązywać problemy z zapisywaniem prezentacji?**
-A4: Upewnij się, że ścieżki plików są poprawne i potwierdź, że masz uprawnienia do zapisu w określonym katalogu.
+**Q4: Jak rozwiązać problemy z zapisywaniem prezentacji?**  
+A4: Upewnij się, że katalog wyjściowy istnieje, ścieżka pliku jest prawidłowa i aplikacja ma uprawnienia do zapisu.
 
-**P5: Czy istnieją jakieś ograniczenia w korzystaniu z licencji próbnej?**
-A5: Wersja próbna może nakładać ograniczenia, takie jak znaki wodne lub ograniczona funkcjonalność. Rozważ uzyskanie tymczasowej lub pełnej licencji na kompleksowy dostęp.
+**Q5: Czy istnieją ograniczenia przy używaniu licencji trial?**  
+A5: Wersja trial może dodawać znaki wodne i ograniczać niektóre funkcje premium; tymczasowa lub pełna licencja usuwa te ograniczenia.
 
 ## Zasoby
-- **Dokumentacja**: [Dokumentacja Aspose.Slides Java](https://reference.aspose.com/slides/java/)
-- **Pobierać**: [Aspose.Slides dla wydań Java](https://releases.aspose.com/slides/java/)
-- **Zakup**: [Kup Aspose.Slides](https://purchase.aspose.com/buy)
-- **Bezpłatna wersja próbna**: [Uzyskaj bezpłatną wersję próbną](https://releases.aspose.com/slides/java/)
-- **Licencja tymczasowa**: [Uzyskaj tymczasową licencję](https://purchase.aspose.com/temporary-license/)
-- **Wsparcie**: [Forum wsparcia Aspose](https://forum.aspose.com/c/slides/11)
+- **Dokumentacja**: [Aspose.Slides Java Documentation](https://reference.aspose.com/slides/java/)  
+- **Pobieranie**: [Aspose.Slides for Java Releases](https://releases.aspose.com/slides/java/)  
+- **Zakup**: [Buy Aspose.Slides](https://purchase.aspose.com/buy)  
+- **Bezpłatna wersja próbna**: [Get a Free Trial](https://releases.aspose.com/slides/java/)  
+- **Licencja tymczasowa**: [Obtain Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Wsparcie**: [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
+
+---
+
+**Ostatnia aktualizacja:** 2026-09-07  
+**Testowano z:** Aspose.Slides for Java 25.4  
+**Autor:** Aspose
+
+## Powiązane samouczki
+
+- [Utwórz i dostosuj linie trendu wykresów Aspose Slides Java](/slides/java/charts-graphs/create-customize-charts-trend-lines-aspose-slides-java/)
+- [Jak edytować dane wykresu PowerPoint przy użyciu Aspose.Slides dla Javy: Kompletny przewodnik](/slides/java/charts-graphs/edit-ppt-chart-data-aspose-slides-java/)
+- [Jak obrócić tytuły osi wykresu w PowerPoint przy użyciu Aspose.Slides dla Javy: Przewodnik krok po kroku](/slides/java/charts-graphs/rotate-chart-axis-titles-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

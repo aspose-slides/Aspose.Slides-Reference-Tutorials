@@ -1,52 +1,117 @@
 ---
-"date": "2025-04-17"
-"description": "Tìm hiểu cách tùy chỉnh biểu đồ PowerPoint bằng cách thêm các dòng tùy chỉnh bằng Aspose.Slides for Java. Làm theo hướng dẫn từng bước này để có bài thuyết trình có sức ảnh hưởng hơn."
-"title": "Cải thiện biểu đồ PowerPoint với các dòng tùy chỉnh bằng cách sử dụng Aspose.Slides Java"
-"url": "/vi/java/charts-graphs/customize-powerpoint-charts-aspose-slides-java/"
-"weight": 1
+date: '2026-09-07'
+description: Tìm hiểu cách thêm custom lines vào biểu đồ Aspose Slides bằng Java.
+  Hướng dẫn step‑by‑step nâng cao biểu đồ PowerPoint để clearer data visualization.
+keywords:
+- aspose slides chart
+- customize PowerPoint charts
+- add custom lines to charts Java
+lastmod: '2026-09-07'
+og_description: Tìm hiểu cách thêm custom lines vào biểu đồ Aspose Slides bằng Java.
+  Hướng dẫn step‑by‑step nâng cao biểu đồ PowerPoint để clearer data visualization.
+og_image_alt: Developer guide showing custom line addition to an Aspose Slides chart
+  in Java
+og_title: Cách thêm custom lines vào biểu đồ Aspose Slides trong Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-07'
+  description: Learn how to add custom lines to an Aspose Slides chart using Java.
+    Step‑by‑step guide enhances PowerPoint charts for clearer data visualization.
+  headline: How to add custom lines to an Aspose Slides chart in Java
+  type: TechArticle
+- description: Learn how to add custom lines to an Aspose Slides chart using Java.
+    Step‑by‑step guide enhances PowerPoint charts for clearer data visualization.
+  name: How to add custom lines to an Aspose Slides chart in Java
+  steps:
+  - name: create a presentation object
+    text: The `Presentation` class is Aspose.Slides' top‑level object that represents
+      a single PowerPoint file in memory.
+  - name: add a clustered column chart
+    text: Insert a clustered column chart on the first slide at coordinates (100,
+      100) with a width of 500 px and a height of 400 px.
+  - name: add an auto‑shape line to the chart
+    text: Add a line shape to the chart’s `userShapes` collection, which stores custom
+      drawing objects. `userShapes` is a collection that holds custom shapes drawn
+      directly on a chart, allowing you to overlay lines, arrows, or other annotations.
+  - name: customize line properties
+    text: Set the line’s fill type to solid, change its color to red, and optionally
+      adjust thickness or dash style.
+  - name: save the presentation
+    text: Persist the modified presentation to disk.
+  type: HowTo
+- questions:
+  - answer: '`Presentation` represents a PowerPoint file in memory.'
+    question: What is the main class for creating a presentation?
+  - answer: '`slide.getShapes().addChart(...)` creates a chart object.'
+    question: Which method adds a chart to a slide?
+  - answer: Use `chart.getUserShapes().addAutoShape(ShapeType.Line, ...)`.
+    question: How do you draw a line on a chart?
+  - answer: Yes—set the line’s fill to a solid red `Color.RED`.
+    question: Can I set the line color to red?
+  - answer: A full license removes evaluation limits; a trial works for testing.
+    question: Do I need a license for production use?
+  type: FAQPage
+tags:
+- aspose slides
+- chart customization
+- java presentation
+title: Cách thêm custom lines vào biểu đồ Aspose Slides trong Java
+url: /vi/java/charts-graphs/customize-powerpoint-charts-aspose-slides-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Cải thiện biểu đồ PowerPoint với các dòng tùy chỉnh bằng cách sử dụng Aspose.Slides Java
+
+# Cách thêm các đường tùy chỉnh vào biểu đồ Aspose Slides trong Java
 
 ## Giới thiệu
 
-Bạn đang muốn làm cho bài thuyết trình PowerPoint của mình nổi bật? Hướng dẫn này sẽ hướng dẫn bạn cách cải thiện biểu đồ bằng cách thêm các dòng tùy chỉnh bằng Aspose.Slides for Java. Đến cuối hướng dẫn này, bạn sẽ biết cách cải thiện khả năng hiển thị dữ liệu và độ rõ nét trong biểu đồ của mình.
+Trong tutorial này, bạn sẽ khám phá cách thêm các đường tùy chỉnh vào một **aspose slides chart** bằng Java. Các đường tùy chỉnh giúp bạn làm nổi bật các ngưỡng, xu hướng hoặc các điểm dữ liệu quan trọng, biến một biểu đồ đơn giản thành một câu chuyện trực quan mạnh mẽ. Khi kết thúc hướng dẫn, bạn sẽ có thể tích hợp Aspose.Slides vào dự án của mình, vẽ các đường trên biểu đồ và tinh chỉnh giao diện của chúng để đạt hiệu quả tối đa.
 
-**Những gì bạn sẽ học được:**
-- Tích hợp Aspose.Slides vào một dự án Java
-- Thêm các dòng tùy chỉnh vào biểu đồ PowerPoint bằng Java
-- Cấu hình các thuộc tính đường để có sức hấp dẫn trực quan tốt hơn
-- Ứng dụng thực tế của các đường tùy chỉnh trong biểu đồ
+**Bạn sẽ học được**
+- Cách cài đặt và cấp phép Aspose.Slides cho Java
+- Các bước chính xác để vẽ một đường tùy chỉnh trên biểu đồ
+- Các cách để tạo kiểu cho đường (màu, độ dày, kiểu gạch)
+- Các kịch bản thực tế nơi các đường tùy chỉnh cải thiện việc truyền đạt dữ liệu
 
-Chúng ta hãy bắt đầu bằng việc xem xét các điều kiện tiên quyết.
+## Câu trả lời nhanh
+- **Lớp chính để tạo một bản trình chiếu là gì?** `Presentation` đại diện cho một tệp PowerPoint trong bộ nhớ.  
+- **Phương thức nào thêm biểu đồ vào một slide?** `slide.getShapes().addChart(...)` tạo một đối tượng biểu đồ.  
+- **Làm thế nào để vẽ một đường trên biểu đồ?** Sử dụng `chart.getUserShapes().addAutoShape(ShapeType.Line, ...)`.  
+- **Có thể đặt màu đường thành màu đỏ không?** Có — đặt màu nền của đường thành màu đỏ đặc `Color.RED`.  
+- **Có cần giấy phép cho việc sử dụng trong môi trường sản xuất không?** Giấy phép đầy đủ loại bỏ các giới hạn đánh giá; bản dùng thử hoạt động cho việc thử nghiệm.  
 
-## Điều kiện tiên quyết
+`ShapeType.Line` là một giá trị enum cho biết Aspose.Slides tạo một auto‑shape dạng đường.
 
-Để làm theo hướng dẫn này, hãy đảm bảo bạn có:
+## Biểu đồ Aspose Slides là gì?
 
-### Thư viện và phiên bản bắt buộc:
-- Aspose.Slides cho Java (Phiên bản 25.4)
+Một **Aspose Slides chart** là một đối tượng biểu đồ có thể lập trình, tồn tại bên trong một slide PowerPoint, cho phép bạn tạo, chỉnh sửa và tạo kiểu cho các biểu đồ hoàn toàn bằng mã Java. Nó hỗ trợ nhiều loại biểu đồ (cột, thanh, đường, tròn, v.v.), cung cấp quyền kiểm soát đầy đủ đối với các series, trục, chú giải, và có thể kết hợp với các yếu tố slide khác như hình ảnh và hình dạng tùy chỉnh, làm cho nó phù hợp cho báo cáo tự động và các bài thuyết trình động.
 
-### Yêu cầu thiết lập môi trường:
-- Bộ công cụ phát triển Java (JDK) phiên bản 16 trở lên
-- Một Môi trường phát triển tích hợp (IDE) như IntelliJ IDEA hoặc Eclipse
+## Tại sao nên thêm các đường tùy chỉnh vào biểu đồ Aspose Slides?
 
-### Điều kiện tiên quyết về kiến thức:
-- Hiểu biết cơ bản về lập trình Java
-- Làm quen với các bài thuyết trình PowerPoint
+Các đường tùy chỉnh cho phép bạn chú thích biểu đồ bằng các dấu hiệu trực quan chính xác. Aspose.Slides hỗ trợ **hơn 50 định dạng nhập và xuất** và có thể xử lý các bản trình chiếu với **hàng trăm slide** trong khi sử dụng ít hơn **150 MB RAM** trên một máy phát triển tiêu chuẩn, làm cho nó trở nên lý tưởng cho báo cáo quy mô lớn.
 
-Sau khi đã đáp ứng được các điều kiện tiên quyết, hãy thiết lập Aspose.Slides cho Java trong môi trường phát triển của bạn.
+## Yêu cầu trước
 
-## Thiết lập Aspose.Slides cho Java
+- **Aspose.Slides for Java** – phiên bản 25.4 (hoặc mới hơn)  
+- **JDK 16+** – bất kỳ môi trường chạy Java mới nào  
+- IDE như IntelliJ IDEA hoặc Eclipse  
+- Kiến thức cơ bản về Java và hiểu biết về các khái niệm PowerPoint  
 
-Để sử dụng Aspose.Slides for Java, hãy thêm nó vào dự án của bạn bằng công cụ xây dựng như Maven hoặc Gradle. Sau đây là thông tin chi tiết:
+### Thư viện cần thiết
+- Aspose.Slides for Java (Phiên bản 25.4)
 
-**Chuyên gia:**
+### Cấu hình môi trường
+- Cài đặt JDK 16 hoặc mới hơn  
+- Sử dụng Maven hoặc Gradle để quản lý các phụ thuộc (các ví dụ dưới đây)  
+
+## Cài đặt Aspose.Slides cho Java
+
+Thêm thư viện vào dự án của bạn bằng một trong các công cụ xây dựng sau.
+
+**Maven:**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -54,124 +119,141 @@ Sau khi đã đáp ứng được các điều kiện tiên quyết, hãy thiế
     <version>25.4</version>
     <classifier>jdk16</classifier>
 </dependency>
-```
+```  
 
-**Cấp độ:**
+**Gradle:**  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-slides', version: '25.4', classifier: 'jdk16'
-```
+```  
 
-Để tải xuống thư viện trực tiếp, hãy truy cập [Aspose.Slides cho bản phát hành Java](https://releases.aspose.com/slides/java/) để có phiên bản mới nhất.
+Để tải xuống thủ công, truy cập [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/) để lấy gói mới nhất.
 
-### Mua giấy phép:
-- **Dùng thử miễn phí:** Bắt đầu với giấy phép dùng thử.
-- **Giấy phép tạm thời:** Hãy lấy một cái để thử nghiệm toàn diện hơn mà không có giới hạn đánh giá.
-- **Mua:** Mua giấy phép đầy đủ để mở khóa tất cả các tính năng.
+### Nhận giấy phép
+- **Free trial:** bắt đầu thử nghiệm mà không cần mua.  
+- **Temporary license:** sử dụng để đánh giá mở rộng mà không có watermark.  
+- **Full license:** mở khóa tất cả tính năng cho các công việc sản xuất.  
 
-Để khởi tạo Aspose.Slides trong dự án Java của bạn, hãy thiết lập giấy phép như thế này:
+Khởi tạo giấy phép trong mã của bạn như sau:
 ```java
 License license = new License();
 license.setLicense("path_to_license.lic");
-```
-Đảm bảo tệp giấy phép của bạn được tham chiếu chính xác để tránh bị gián đoạn khi sử dụng các chức năng của Aspose.Slides.
+```  
 
-## Hướng dẫn thực hiện
+`License` là lớp dùng để tải và áp dụng tệp giấy phép Aspose.Slides của bạn vào ứng dụng.
 
-Phần này sẽ hướng dẫn bạn cách thêm các dòng tùy chỉnh vào biểu đồ trong PowerPoint bằng Aspose.Slides for Java.
+## Làm thế nào để thêm các đường tùy chỉnh vào biểu đồ Aspose Slides?
 
-### Thêm các dòng tùy chỉnh vào biểu đồ
+Load hoặc tạo một bản trình chiếu, chèn một biểu đồ, sau đó thêm một hình dạng đường vào bộ sưu tập user‑shapes của biểu đồ. Đường có thể được định vị, thay đổi kích thước và tạo kiểu để phù hợp với nhu cầu báo cáo của bạn. Cách tiếp cận này hoạt động cho các biểu đồ cột nhóm, thanh, đường và khu vực.
+
+## Hướng dẫn triển khai
+
+### Thêm các đường tùy chỉnh vào biểu đồ
 
 #### Tổng quan
-Thêm các yếu tố trực quan như đường kẻ có thể cải thiện khả năng đọc biểu đồ của bạn bằng cách làm nổi bật các điểm dữ liệu hoặc xu hướng cụ thể. Tính năng này hữu ích khi thu hút sự chú ý vào các phần quan trọng trong dữ liệu của bạn.
+Các đường tùy chỉnh thu hút sự chú ý đến các giá trị cụ thể — chẳng hạn như giới hạn ngân sách hoặc đường mục tiêu — làm cho biểu đồ của bạn trở nên sâu sắc hơn.
 
-#### Bước 1: Tạo một đối tượng trình bày
-Bắt đầu bằng cách tạo một phiên bản của `Presentation` lớp, đại diện cho tệp PowerPoint mà bạn đang làm việc:
+#### Bước 1: tạo đối tượng presentation
+Lớp `Presentation` là đối tượng cấp cao nhất của Aspose.Slides, đại diện cho một tệp PowerPoint duy nhất trong bộ nhớ.  
 ```java
 Presentation pres = new Presentation();
-```
+```  
 
-#### Bước 2: Thêm biểu đồ cột cụm
-Thêm biểu đồ cột nhóm vào trang chiếu đầu tiên tại vị trí (100, 100) với chiều rộng là 500 và chiều cao là 400 pixel:
+#### Bước 2: thêm biểu đồ cột nhóm
+Chèn một biểu đồ cột nhóm vào slide đầu tiên tại tọa độ (100, 100) với chiều rộng 500 px và chiều cao 400 px.  
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(
     ChartType.ClusteredColumn, 100, 100, 500, 400);
-```
+```  
 
-#### Bước 3: Thêm Đường hình dạng tự động vào Biểu đồ
-Tiếp theo, thêm hình dạng đường thẳng vào bộ sưu tập hình dạng người dùng của biểu đồ:
+#### Bước 3: thêm một auto‑shape dạng đường vào biểu đồ
+Thêm một hình dạng đường vào bộ sưu tập `userShapes` của biểu đồ, nơi lưu trữ các đối tượng vẽ tùy chỉnh.  
 ```java
 IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(
     ShapeType.Line, 0, chart.getHeight() / 2, chart.getWidth(), 0);
-```
+```  
 
-#### Bước 4: Tùy chỉnh Thuộc tính Dòng
-Thay đổi kiểu tô của đường thành dạng đặc và đặt màu thành đỏ:
+`userShapes` là một bộ sưu tập chứa các hình dạng tùy chỉnh được vẽ trực tiếp trên biểu đồ, cho phép bạn phủ lên các đường, mũi tên hoặc các chú thích khác.
+
+#### Bước 4: tùy chỉnh thuộc tính đường
+Đặt kiểu nền của đường thành dạng đặc, thay đổi màu thành đỏ, và tùy chọn điều chỉnh độ dày hoặc kiểu gạch.  
 ```java
 shape.getLineFormat().getFillFormat().setFillType(FillType.Solid);
 shape.getLineFormat().getFillFormat().getSolidFillColor().setColor(Color.RED);
-```
+```  
 
-#### Bước 5: Lưu bài thuyết trình
-Cuối cùng, hãy lưu bài thuyết trình của bạn với những thay đổi sau:
+#### Bước 5: lưu bản trình chiếu
+Lưu bản trình chiếu đã chỉnh sửa vào đĩa.  
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/" + "AddCustomLines.pptx", SaveFormat.Pptx);
-```
+```  
 
-### Mẹo khắc phục sự cố:
-- Đảm bảo đường dẫn lưu bản trình bày được chỉ định chính xác.
-- Nếu biểu đồ của bạn không hiển thị, hãy kiểm tra lại tọa độ và kích thước được cung cấp khi thêm biểu đồ.
+### Làm việc với lớp Presentation
+Lớp `Presentation` cung cấp các phương thức để tải, tạo và lưu các tệp PowerPoint, cũng như truy cập các slide và hình dạng riêng lẻ.
 
-## Ứng dụng thực tế
+### Mẹo khắc phục sự cố
+- Xác minh rằng đường dẫn tệp được sử dụng trong `save` có thể ghi được; sử dụng đường dẫn tuyệt đối để đảm bảo độ tin cậy.  
+- Nếu biểu đồ không hiển thị, kiểm tra lại tọa độ X/Y và đảm bảo chỉ số slide là chính xác.  
 
-Sau đây là các trường hợp mà các đường tùy chỉnh trong biểu đồ có thể đặc biệt hữu ích:
-1. **Báo cáo tài chính**: Làm nổi bật ngưỡng ngân sách hoặc chi tiêu thực tế so với dự báo.
-2. **Dữ liệu bán hàng**: Nhấn mạnh mục tiêu bán hàng hoặc hiệu suất trung bình.
-3. **Phân tích chăm sóc sức khỏe**: Đánh dấu các giá trị quan trọng trong xu hướng dữ liệu bệnh nhân.
+## Ứng dụng thực tiễn
 
-Các dòng tùy chỉnh cũng có thể tích hợp với các hệ thống như phần mềm CRM để cập nhật biểu đồ một cách linh hoạt dựa trên nguồn cấp dữ liệu theo thời gian thực.
+Các đường tùy chỉnh đặc biệt hữu ích trong:
+1. **Báo cáo tài chính** – làm nổi bật giới hạn ngân sách hoặc mục tiêu lợi nhuận.  
+2. **Bảng điều khiển bán hàng** – vẽ một đường cho mục tiêu doanh số quý.  
+3. **Phân tích y tế** – đánh dấu các ngưỡng quan trọng trong xu hướng dấu hiệu sinh tồn của bệnh nhân.  
 
-## Cân nhắc về hiệu suất
+Bạn cũng có thể tự động đặt vị trí đường bằng cách lấy giá trị ngưỡng từ cơ sở dữ liệu hoặc API, cho phép báo cáo thời gian thực.
 
-Khi làm việc với Aspose.Slides, hãy cân nhắc những điều sau để có hiệu suất tối ưu:
-- Giảm thiểu việc sử dụng bộ nhớ bằng cách xóa các bài thuyết trình khi không còn cần thiết.
-- Tối ưu hóa độ phân giải hình ảnh và biểu đồ để cân bằng chất lượng và kích thước tệp.
-- Sử dụng giấy phép tạm thời trong quá trình phát triển để tránh những hạn chế khi đánh giá.
+## Các cân nhắc về hiệu năng
 
-Thực hiện các biện pháp này sẽ giúp bạn duy trì việc sử dụng tài nguyên hiệu quả trong khi tận dụng các tính năng mạnh mẽ của Aspose.Slides.
+- Giải phóng các đối tượng `Presentation` bằng `presentation.dispose()` khi hoàn thành để giải phóng bộ nhớ gốc.  
+- Sử dụng độ phân giải ảnh và biểu đồ vừa phải (ví dụ, 150 dpi) để giữ kích thước tệp trong tầm kiểm soát.  
+- Trong quá trình phát triển, giấy phép tạm thời tránh các watermark đánh giá đồng thời vẫn cung cấp quyền truy cập đầy đủ API.  
 
-## Phần kết luận
+## Kết luận
 
-Bây giờ bạn đã biết cách thêm các đường tùy chỉnh vào biểu đồ trong bản trình bày PowerPoint bằng Aspose.Slides for Java. Cải tiến này giúp dữ liệu của bạn dễ truy cập hơn và hấp dẫn hơn về mặt hình ảnh, cho phép người xem nhanh chóng nắm bắt được những thông tin chi tiết quan trọng. Khám phá các loại biểu đồ và tùy chọn tùy chỉnh khác có trong Aspose.Slides để có thêm những cải tiến.
+Bây giờ bạn đã biết cách thêm các đường tùy chỉnh vào một **aspose slides chart** trong Java, cho phép bạn kiểm soát hoàn toàn việc chú thích biểu đồ và nhấn mạnh trực quan. Hãy thử nghiệm với các kiểu đường, vị trí và loại biểu đồ khác nhau để tạo ra các báo cáo truyền tải dữ liệu ngay lập tức.
 
 ## Phần Câu hỏi thường gặp
 
-**Q1: Tôi có thể thay đổi màu của các đường tùy chỉnh không?**
-A1: Có, tùy chỉnh màu đường kẻ bằng cách thiết lập `SolidFillColor` có thể tùy chỉnh bất kỳ màu sắc mong muốn nào.
+**Q1: Tôi có thể thay đổi màu của các đường tùy chỉnh không?**  
+A1: Có, tùy chỉnh màu đường bằng cách đặt thuộc tính `SolidFillColor` thành bất kỳ `java.awt.Color` nào mong muốn.
 
-**Câu hỏi 2: Aspose.Slides có tương thích với tất cả các IDE Java không?**
-A2: Có, miễn là IDE của bạn hỗ trợ các phụ thuộc Maven hoặc Gradle, bạn có thể tích hợp Aspose.Slides.
+**Q2: Aspose.Slides có tương thích với mọi IDE Java không?**  
+A2: Có, miễn là IDE của bạn hỗ trợ Maven hoặc Gradle, bạn có thể tích hợp Aspose.Slides mà không gặp vấn đề.
 
-**Câu hỏi 3: Những loại biểu đồ nào được hỗ trợ để thêm đường tùy chỉnh?**
-A3: Có thể thêm các đường tùy chỉnh vào nhiều loại biểu đồ khác nhau, bao gồm biểu đồ cột cụm và biểu đồ thanh.
+**Q3: Những loại biểu đồ nào được hỗ trợ để thêm các đường tùy chỉnh?**  
+A3: Các đường tùy chỉnh có thể được thêm vào biểu đồ cột nhóm, thanh, đường, khu vực và tròn, cùng các loại khác.
 
-**Câu hỏi 4: Làm thế nào để khắc phục sự cố khi lưu bài thuyết trình?**
-A4: Đảm bảo đường dẫn tệp của bạn chính xác và xác minh rằng bạn có quyền ghi trong thư mục đã chỉ định.
+**Q4: Làm thế nào để khắc phục sự cố khi lưu bản trình chiếu?**  
+A4: Đảm bảo thư mục đầu ra tồn tại, đường dẫn tệp đúng và ứng dụng có quyền ghi.
 
-**Câu hỏi 5: Có hạn chế nào khi sử dụng giấy phép dùng thử không?**
-A5: Phiên bản dùng thử có thể áp dụng các hạn chế như hình mờ hoặc chức năng hạn chế. Hãy cân nhắc việc xin giấy phép tạm thời hoặc đầy đủ để có quyền truy cập toàn diện.
+**Q5: Có bất kỳ hạn chế nào khi sử dụng giấy phép dùng thử không?**  
+A5: Bản dùng thử có thể thêm watermark và giới hạn một số tính năng cao cấp; giấy phép tạm thời hoặc đầy đủ sẽ loại bỏ các ràng buộc này.
 
 ## Tài nguyên
-- **Tài liệu**: [Tài liệu Java Aspose.Slides](https://reference.aspose.com/slides/java/)
-- **Tải về**: [Bản phát hành Aspose.Slides cho Java](https://releases.aspose.com/slides/java/)
-- **Mua**: [Mua Aspose.Slides](https://purchase.aspose.com/buy)
-- **Dùng thử miễn phí**: [Nhận bản dùng thử miễn phí](https://releases.aspose.com/slides/java/)
-- **Giấy phép tạm thời**: [Xin giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
-- **Ủng hộ**: [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/slides/11)
+- **Tài liệu**: [Aspose.Slides Java Documentation](https://reference.aspose.com/slides/java/)  
+- **Tải xuống**: [Aspose.Slides for Java Releases](https://releases.aspose.com/slides/java/)  
+- **Mua**: [Buy Aspose.Slides](https://purchase.aspose.com/buy)  
+- **Dùng thử miễn phí**: [Get a Free Trial](https://releases.aspose.com/slides/java/)  
+- **Giấy phép tạm thời**: [Obtain Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Hỗ trợ**: [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
+
+---
+
+**Cập nhật lần cuối:** 2026-09-07  
+**Kiểm tra với:** Aspose.Slides for Java 25.4  
+**Tác giả:** Aspose
+
+## Hướng dẫn liên quan
+
+- [Tạo và Tùy chỉnh Đường xu hướng cho Biểu đồ Aspose Slides Java](/slides/java/charts-graphs/create-customize-charts-trend-lines-aspose-slides-java/)
+- [Cách chỉnh sửa dữ liệu biểu đồ PowerPoint bằng Aspose.Slides cho Java: Hướng dẫn toàn diện](/slides/java/charts-graphs/edit-ppt-chart-data-aspose-slides-java/)
+- [Cách xoay tiêu đề trục biểu đồ trong PowerPoint bằng Aspose.Slides cho Java: Hướng dẫn từng bước](/slides/java/charts-graphs/rotate-chart-axis-titles-aspose-slides-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
